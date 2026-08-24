@@ -1,3 +1,926 @@
+## 2026-08-24 — SIA-Sweep: fünfzehnte Sättigungsverifikation (10:38 Uhr) — weiterhin 59 Register-/6 Inventar-Zeilen offen, keine Änderung
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). Report des letzten
+SIA-Sweep-Laufs (vierzehnte Sättigungsverifikation, 10:05 Uhr, 33 Min. zuvor) zuerst gelesen.
+
+**Frisch nachgeprüft statt aus dem Vorlauf übernommen:** SharePoint-Ordner
+`02_Normen/SIA_Norm/SIA_Normen/alle/` live via `connectors/m365-graph.mjs --get`
+(Drive-Children-API, `$orderby=lastModifiedDateTime desc`) abgefragt — jüngste Datei
+weiterhin 2026-08-07T09:18:20Z (17 Tage keine neue Datei). `wiki/REGISTER.md` weiterhin 59
+„Kein Volltext im Haus"-Zeilen, `training/norm-inventar.md` weiterhin genau 6 offene
+`[ ]`-Zeilen (SIA 491, SN EN 12193, SN 640 052, SN 641 400, SN 640 273a,
+SIA 181:2020-Re-Destillat) — alle sechs bereits mit Produktdatenblatt/Preis/Gültigkeitsdatum
+belegt, ausnahmslos Beschaffungs-Bring-Schuld (SIA-Shop/VSS-Shop), kein Kaufentscheid
+Raphaels seit Lauf 14. Commit-Historie seit Lauf 14 geprüft: keine neuen Commits an
+`wiki/REGISTER.md`/`training/norm-inventar.md`/`destillate/`.
+
+**Ergebnis:** Kein Register-, Inventar- oder Destillat-Schreibvorgang. Auffällig: 19. Report
+dieses Sweeps heute (00:27–10:38 Uhr) ohne neues Rohmaterial seit dem 07.08.2026 —
+Eskalationsempfehlung an Raphael, den wiederkehrenden Trigger zu prüfen (Loop/Scheduled Task)
+und/oder die sechs offenen Positionen per Kaufentscheid zu bewegen.
+
+Report: `outputs/2026-08-24_sia-sweep-fuenfzehnte-saettigungsverifikation-1038uhr.md`.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: vierzehnter Lauf — zwei weitere Alt-Punkte nachgezogen, Sättigung bestätigt
+
+**Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report
+des dreizehnten Laufs zuerst gelesen (kein Primärquellenzugriff dort, nur Fahrplan-Nachtrag
+BSV 2026, 30 offene Checkboxen unverändert).
+
+**NAS-Hinweis:** `/Volumes/daten` auch in dieser Session nicht gemountet; `wissen/normen` ist
+Repo-Inhalt (kein NAS-Symlink), keine Blockade für diese Datei.
+
+**Vorgehen:** Alle 30 offenen Checkboxen einzeln mit Kontext gelesen. Gezielt nach Cross-KB-
+Verweisen gesucht, die durch spätere Arbeit überholt sein könnten (0 neue Treffer, der einzige
+"Vorarbeit vorhanden"-Fund lag bereits in einem am selben Tag geschlossenen Eintrag) sowie nach
+internen Buchhaltungsschulden (Sachverhalt im eigenen Text bereits gelöst, Checkbox nie
+nachgezogen — das Muster aus dem zwölften Lauf). **Zwei Fälle gefunden:** (1) Z. ~4349
+"Dateiname/Inhalt-Mismatch" — Sachverhalt bereits am 23.08.2026 an zwei Stellen dieser Datei
+geschlossen (direkte Schliessung darüber + Querverweis in Teilpunkt (3) des "Verify-Abschluss
+MacBook"-Eintrags), Checkbox stand trotzdem auf `[ ]` → geschlossen. (2) Z. ~4500
+"Verify-Abschluss MacBook": 3 von 5 verschachtelten Teilpunkten waren laut eigenen Nachträgen
+vom zwölften Lauf bereits gelöst, äussere Checkbox stand unverändert auf `[ ]` → Marker auf
+`[~]` (teilweise geschlossen) korrigiert, verbleibende zwei blockierte Teilpunkte (destruktiver
+Merge / externe ECCS-Bring-Schuld) benannt.
+
+**Ergebnis:** 30 → 28 offene Checkboxen. Kein neuer Primärquellenbefund, reine
+Dokumentpflege — der zugrundeliegende Sachstand war in beiden Fällen bereits vorher gelöst.
+Die übrigen 26 Punkte wurden gegen ihre Kategorisierung geprüft (Bring-Schuld/Kaufentscheid
+Raphael, destruktive Struktur-/Merge-Entscheide, genuine Quell-Ambiguitäten, Betriebsnotizen) —
+keine Fehlkategorisierung gefunden.
+
+**Eskalation an Raphael:** unverändert (SIA-Shop-Käufe, Freigabe der vier destruktiven
+VKF-Duplikat-Merges, SN-641-400-Klärung via VSS-Kundendienst — Kontakt bereits im 13. Lauf
+recherchiert: info@vss.ch, +41 44 269 40 20). Nach 14 Läufen ist die Liste für
+Sessions ohne Primärquellenzugriff (NAS/M365) strukturell ausgeschöpft.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` ein Punkt auf `[x]` (Z. ~4349), ein Punkt auf `[~]`
+(Z. ~4500), Ursprungswortlaut jeweils erhalten. Report:
+`outputs/2026-08-24_questions-abarbeitung-vierzehnter-lauf.md`.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: dreizehnter Lauf — Session-Zugriffslücke, ein Fahrplan-Nachtrag, Sättigung 13. Mal bestätigt
+
+**Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report
+des zwölften Laufs zuerst gelesen.
+
+**Session-Zugriffslücke (wichtig für künftige Läufe):** `/Volumes/daten` war beim Start nicht
+gemountet; zusätzlich war in dieser Session `node` nicht im `PATH` (weder `nvm` noch eine
+System-Installation gefunden) — der M365-Graph-Connector (`connectors/m365-graph.mjs`) war
+damit nicht aufrufbar. Der lokal gemountete SharePoint-Pfad
+`~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/` enthält keinen
+`PL - 02_Recht_Norm`-Ordner (andere Bibliothek). **Folge: keine neuen Norm-Originale lesbar,
+keine primärquellenbasierte Neu-Destillation möglich.** `wissen/normen` selbst ist normaler
+Git-Repo-Inhalt (kein NAS-Symlink) und blieb uneingeschränkt bearbeitbar.
+
+**Vorgehen:** Da Primärquellen-Zugriff fehlte, nur mit den in dieser Session verfügbaren
+Werkzeugen (Datei-Lektüre, `WebSearch`/`WebFetch` auf öffentliche, unauthentifizierte Quellen)
+gezielt zwei Kandidaten aus der 30er-Liste geprüft, die öffentlich (ohne Kauf/Login)
+verifizierbar sind:
+
+1. **SN 641 400 (VSS, Grundlage ZH-Parkplatzberechnung):** eigene Anläufe (`vss-shop/product/SN-641400`,
+   `sn-641400.html`, gezielte WebSearches) — beide 404 bzw. kein Treffer. Deckt sich exakt mit
+   den bereits **vier** dokumentierten Anläufen vom 23./24.08.2026 (Bring-Schuld-Einordnung,
+   Empfehlung: direkter VSS-Kundendienst-Kontakt). Reine Redundanz, **keine QUESTIONS-Änderung**
+   — ein fünfter Web-Anlauf auf denselben Sackgassen wäre selbst Wiederholung gewesen, deshalb
+   nicht als Nachtrag eingetragen.
+2. **BSV 2026 (VKF-Normkonzept, Inkraftsetzung):** `bsvonline.ch/de/aktuell/information-bsv-2026`
+   (WebFetch) bestätigt unveränderten Status (weiterhin nicht in Kraft, IOTH-Plenum März 2027),
+   liefert aber einen bisher nicht dokumentierten, genauer datierten Fahrplan (politische
+   Vernehmlassung August–November 2026, technische Vernehmlassung abgeschlossen Januar 2026).
+   Als Nachtrag unter `wiki/QUESTIONS.md` Z. 4162 eingetragen — echte, wenn auch kleine,
+   Aktualisierung, kein Statuswechsel (weiterhin nicht zitierfähig).
+
+**Ergebnis:** Offene Checkboxen unverändert **30** (12.-13. Lauf identisch). Kein Primärquellen-
+befund möglich; die dreizehnte Bestätigung derselben Kategorisierung wie in Läufen 1–12
+(Bring-Schuld/Kaufentscheid Raphael, Struktur-Entscheide, Quell-Ambiguitäten, Betriebsnotizen).
+
+**Eskalation an Raphael:** unverändert (SIA-Shop-Käufe, Freigabe der destruktiven VKF-
+Duplikat-Merges, alternativ Abdeckungsrichtung VKF-Delta-Destillate). **Neu:** ohne gemountetes
+NAS und ohne funktionierenden `node`/M365-Zugang in einer Session ist für diese KB nur noch
+Buchhaltungspflege und öffentliche Web-Recherche möglich, keine neue Primärquellen-Destillation
+— ein Lauf unter diesen Bedingungen sollte das explizit prüfen (wie hier) statt eine
+Primärquellen-Sichtung vorzutäuschen.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` ein Nachtrag (Z. 4162, BSV-2026-Fahrplan), keine
+Checkbox-Schliessung. Report: `outputs/2026-08-24_questions-abarbeitung-dreizehnter-lauf.md`.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: zwölfter Lauf — zwei Alt-Punkte nachgezogen, Rest bestätigt gesättigt
+
+**Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report
+des elften Laufs (10:10 Uhr) zuerst gelesen.
+
+**Vorgehen:** statt die bereits elffach bestätigten acht Standardpunkte zu wiederholen, gezielt
+vier bisher nicht explizit gegengelesene Alt-Einträge geprüft (SIA-400-Aktualität, BRL-100-15-
+Register-Gegenprüfung, Mac-Mini-Run-3-Status, Folgeprüfung 2015er-BRL-Serie) plus vier
+Stichproben. Zwei der vier Alt-Einträge (SIA 400, BRL 100-15) waren bereits am 23./24.08.2026
+an anderer Stelle geschlossen — reine Redundanz. **Zwei echte Buchhaltungs-Nachträge gefunden:**
+Mac-Mini-Run-3-Status (Z. 4415, alle Folgeaufträge längst durch spätere Runs erledigt,
+SWKI-99-3-Gegenstand ohnehin durch VA 105-01:2015 ersetzt) und Folgeprüfung 2015er-BRL-Serie
+(Z. 4869, durch Run 60/REGISTER Z. 657 bereits vollständig erledigt) — beide Checkboxen waren
+nie nachgezogen worden, obwohl der Sachverhalt gelöst war.
+
+**Ergebnis:** 32 → 30 offene Checkboxen. Kein neuer, mit Primärquellenlektüre lösbarer Rest;
+die zwei Schliessungen sind Dokumentpflege, kein neuer Befund. Restliche 30 Punkte bleiben
+Bring-Schuld/Kaufentscheid Raphael, destruktive Struktur-Entscheide, genuine
+Quell-Ambiguitäten oder Betriebs-/Methodennotizen.
+
+**Eskalation an Raphael:** unverändert (SIA-Shop-Käufe, Freigabe der vier destruktiven
+VKF-Duplikat-Merges, alternativ Abdeckungsrichtung VKF-Delta-Destillate statt weiterer
+QUESTIONS-Läufe). Neuer Hinweis für den nächsten Lauf: gezielt prüfen, ob Cross-Referenzen
+auf andere KBs (z.B. `planungsgrundlagen`) mittlerweile dort erledigt wurden, statt der
+Gesamtliste — dasselbe Muster wie die zwei heutigen Funde.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` zwei Punkte auf `[x]` (Z. 4415, Z. 4869), Ursprungswortlaut
+erhalten. Report: `outputs/2026-08-24_questions-abarbeitung-zwoelfter-lauf.md`.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: elfter Lauf — Sättigung ein elftes Mal bestätigt
+
+**Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report
+des zehnten Laufs (10:06 Uhr) zuerst gelesen.
+
+**Vorgehen:** 32 offene `- [ ]`-Zeilen unverändert. Statt die im zehnten Lauf bereits
+vertieften zwei Kandidaten zu wiederholen, wurden acht bisher nicht im Volltext geprüfte
+Punkte gelesen: Cross-Contamination-Notiz, doppelte Run-Nummer 21, Duplikate-Merge (destruktiv,
+Rückfrage-Fall), Workflow-Tool-Notiz, Strukturhinweis Run 8 (Fassungspflege), «modale
+Überdehnung» (23/73 Befunde), sowie die vier VSS/SIA-Bring-Schulden aus `baurecht` (SIA 491,
+SN EN 12193, SN 640 052, SN 641 400) und die fünf SIA-Bring-Schulden P1 (380/1, 385/1, 266/1,
+118:2013, 181:2020). Alle acht bestätigen dieselbe Kategorisierung wie die Gesamtliste im
+zehnten Lauf — kein neuer, mit Primärquellenlektüre lösbarer Rest.
+
+**Ergebnis:** Elfte Bestätigung in Folge. Die 32 Checkboxen bleiben durchgehend (a)
+Bring-Schuld/Kaufentscheid Raphael, (b) Strukturentscheid Raphael (destruktive Merges), (c)
+genuine Quell-Ambiguitäten (bereits mehrfach erfolglos web-recherchiert), (d) Betriebs-/
+Methodennotizen über den Loop selbst, oder (e) bewusst erhaltener Ursprungswortlaut bereits
+geschlossener Punkte.
+
+**Eskalation an Raphael (im Report ausformuliert):** drei konkrete Freigaben würden den
+Bestand tatsächlich verkleinern — (1) SIA-Shop-Käufe (380/1, 385/1, 266/1, 118:2013, 181:2020,
+491), (2) Freigabe der vier destruktiven VKF-Duplikat-Merges, (3) alternativ: Abdeckungsrichtung
+der VKF-Delta-Destillate prüfen (REGISTER Abschnitt D) statt weiterer QUESTIONS-Läufe.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` unverändert (alle acht Punkte bereits korrekt
+klassifiziert). Report: `outputs/2026-08-24_questions-abarbeitung-elfter-lauf.md`.
+
+## 2026-08-24 — SIA-Sweep: vierzehnte unabhängige Sättigungsverifikation (10:05 Uhr) — weiterhin 59 Register-/6 Inventar-Zeilen offen, keine Änderung
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). CHANGELOG und
+Report des letzten SIA-Sweep-Laufs (dreizehnte Sättigungsverifikation, 09:58 Uhr, nur 7 Min.
+zuvor) zuerst gelesen — dessen Empfehlung folgend nur den dort vorgeschlagenen
+Modifikationsdatum-/Bring-Schuld-Check wiederholt statt eines vollen Sweeps (Rule
+`wissens-ruecklauf`: kein Pflicht-Rauschen bei unveränderter Lage).
+
+**Kollisionscheck:** eigener Prozess PID 70874 hostet diese Session; PID 70711
+(QUESTIONS-Abarbeitung derselben KB) und PID 69010 (Energie-KB) laufen parallel, keine
+Dateiüberschneidung mit `wiki/REGISTER.md`, `destillate/` oder `training/norm-inventar.md`.
+
+**Befund:** SharePoint-Ordner `SIA_Norm/SIA_Normen/alle/` via `connectors/m365-graph.mjs`
+nach `lastModifiedDateTime` geprüft — weiterhin keine Datei neuer als
+2026-08-07T09:18:20Z, unverändert seit dem elften bis dreizehnten Lauf (17 Tage).
+`wiki/REGISTER.md` weiterhin 59 „Kein Volltext im Haus"-Zeilen, `training/norm-inventar.md`
+weiterhin genau 6 echte offene `[ ]`-Zeilen (SIA 491, SN EN 12193, SN 640 052, SN 641 400,
+SN 640 273a, SIA 181:2020-Re-Destillat), alle bereits mit Produktdatenblatt/Preis/
+Gültigkeitsdatum belegt und ausnahmslos Beschaffungs-Bring-Schuld. Commit-Historie seit dem
+dreizehnten Lauf betrifft nur `wiki/QUESTIONS.md`, keine der sweep-relevanten Dateien.
+
+**Kein Register-, Inventar- oder Destillat-Schreibvorgang.** Report:
+`outputs/2026-08-24_sia-sweep-vierzehnte-saettigungsverifikation-1005uhr.md`.
+Empfehlung unverändert: SIA-Sweep bleibt pausiert bis neues Rohmaterial im SharePoint-Ordner
+erscheint oder Raphael einen der sechs Kauf-/Beschaffungsentscheide trifft.
+
+---
+
+## 2026-08-24 — QUESTIONS-Abarbeitung (zehnter Lauf, 10:06 Uhr): zwei vermutete Bookkeeping-Lücken geprüft, beide bereits korrekt geschlossen — Sättigung erneut bestätigt
+
+**Auftrag:** Fortsetzung derselben Daueraufgabe. CHANGELOG-Kopf und Report des letzten Laufs
+(neunter Lauf, BRL-100-15-Teilpunkt-5-Schliessung + Sättigungsbefund) zuerst gelesen.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 70711 (identischer
+Auftragstext) ist Host dieser Session. Parallel läuft PID 69010 gegen
+`wissen/energie/wiki/QUESTIONS.md` (andere KB, kein Overlap).
+
+**NAS-Hinweis:** `/Volumes/daten` beim Sessionstart nicht gemountet; `wissen/normen` liegt als
+versionierter Repo-Inhalt vor, keine Blockade.
+
+**Vorgehen:** 32 verbleibende `- [ ]`-Zeilen gezählt (Vorlauf: 37 → 36 → 32, konsistent mit dem
+Neuntlauf-Ergebnis). Zwei Kandidaten vertieft geprüft, die auf den ersten Blick wie ungezogene
+Bookkeeping-Checkboxen aussahen (Muster: Antwort bereits andernorts vorhanden, Checkbox nie auf
+`[x]` gesetzt — wie beim BRL-100-15-Fund des Neuntlaufs):
+
+1. **Z1/Z2-Koeffizienten SIA 103** (`- [ ]` bei „Z1/Z2-Koeffizienten des SIA-103-Grundfaktors
+   fehlen"): Am Original geprüft, `destillate/sia-103-2003.md` Ziff. 7.2.2 führt die Werte
+   bereits inline (Z1 = 0.075, Z2 = 7.23, Beleg `sia-honorar-hilfsmittel.md`, seit
+   Commit `b52a94b27`/heutigem Selfcommit). In `wiki/QUESTIONS.md` selbst existiert bereits ein
+   eigener `[x]`-Schliessungs-Bullet **eine Zeile darüber** («GESCHLOSSEN 24.08.2026 —
+   Z1/Z2-Koeffizienten…»); die geprüfte `[ ]`-Zeile ist der bewusst unveränderte
+   Ursprungswortlaut, den die KB-Konvention («Ursprungswortlaut bleibt unten stehen») nach einer
+   Schliessung stehen lässt. **Kein Handlungsbedarf, kein Fehler.**
+2. **Folgeprüfung zur 2015er-BRL-Serie** (`- [ ]` bei „Dieselbe Verwechslung Fassungsdatum ↔
+   Ausgabejahr…"): Gegen `wiki/REGISTER.md` Abschnitt D (VKF-Fassungsmatrix, Run 58-60) geprüft
+   — die dort geforderte systematische Durchsicht der ganzen revidierten Serie ist mit dem
+   VKF-Fassungs-Sweep (20/23 Delta-Destillate, alle 01.01.2017er-Publikationen 15/15) bereits
+   geleistet. Auch hier existiert bereits ein eigener `[x]`-Schliessungs-Bullet unmittelbar
+   darüber («GESCHLOSSEN 23.08.2026»); die geprüfte Zeile ist ebenfalls bewusst erhaltener
+   Ursprungswortlaut derselben Konvention. **Kein Handlungsbedarf, kein Fehler.**
+
+**Korrigierte Annahme für künftige Läufe:** Nicht jede `[ ]`-Zeile mit vorausgehendem
+`[x]`-Schliessungstext ist eine ungezogene Bookkeeping-Lücke — die KB kennt zwei verschiedene
+Nachtrags-Muster: (a) Checkbox wird bei Schliessung direkt auf `[x]` gezogen (z.B. „P1 — Fassung
+Stand 01.12.2022" weiter unten in derselben Datei), (b) der Ursprungswortlaut bleibt bewusst als
+`[ ]` stehen und die Schliessung steht als eigener `[x]`-Bullet unmittelbar davor. **Vor jeder
+vermuteten „vergessenen Checkbox" zuerst die 1-2 Zeilen unmittelbar darüber lesen**, nicht nur
+den Bullet-Text selbst — sonst droht doppelte Schliessungsarbeit an bereits erledigten Punkten.
+
+**Stichprobe der übrigen 30 offenen Zeilen (Kurzcheck, keine Vertiefung):** N-R40-3 (EN-81-Reihe,
+bewusst „kein systematischer Nachzieh-Auftrag" bis Projektbedarf), N-R40-7 (Lignatec-Grauton,
+Quelle selbst nicht auflösbar), Dateiname-Diskrepanzen 592056/564_282 (dokumentiert, Rename
+destruktiv → Raphael), SIA 491/SN EN 12193/SN 640 052/SN 641 400 (REGISTER Abschnitt D bzw. Zeile
+45/940/941: mehrfach erfolglose Web-Beschaffung, VSS-Kundendienst als einziger Restweg, externe
+Bring-Schuld), DIN EN 1627 (Teilbestand 4/44 S., Lücke seit 260713 dokumentiert, kein Vollbestand
+im Haus), DIN-Sonstiges-Ordner (laut Inventar vollständig destilliert und retro-verifiziert) —
+durchgehend bereits korrekt klassifiziert, kein neuer Fund.
+
+**Fazit:** zehnte Bestätigung in Folge (nach neun Vorläufen desselben Tages), dass die
+verbleibenden `wiki/QUESTIONS.md`-Checkboxen keinen mit Primärquellenlektüre lösbaren Rest mehr
+enthalten. Keine Datei geändert ausser diesem CHANGELOG-Eintrag (additiv).
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprüft — nur `CHANGELOG.md` geändert,
+rein additiv, keine bestehende Zeile gelöscht.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung (neunter Lauf): Verify-Abschluss-Teilpunkt (5) BRL 100-15 geschlossen, breiter Sättigungsbefund für den Rest der offenen Checkboxen
+
+**Auftrag:** Fortsetzung derselben Daueraufgabe (offene Fragen in `wiki/QUESTIONS.md`
+abarbeiten, Fundstelle je Aussage mit Norm/Ausgabe/Ziffer, nur `established` zitierfähig).
+CHANGELOG und Report des letzten Laufs derselben Lineage (S42-3/N43-5, M365-Connector)
+zuerst gelesen.
+
+**NAS-Hinweis:** `/Volumes/daten` beim Sessionstart erneut nicht gemountet; `wissen/normen`
+liegt als versionierter Repo-Inhalt vor, keine Blockade für diese Datei.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 67644 (identischer
+Auftragstext) ist Host dieser Session. PID 65994 arbeitet an `wissen/baurecht` (andere KB).
+PID 67853 arbeitet am SIA-Sweep derselben KB (Register/Destillate/Inventar), nicht an
+`wiki/QUESTIONS.md` — etablierter Split, `git status --short wissen/normen/` vor Bearbeitung
+geprüft (keine Overlap-Datei). Der SIA-Sweep-Prozess hat während dieses Laufs eigenständig
+committet (`de5fa0736`), bevor dieser Lauf zu schreiben begann — kein gleichzeitiges
+Schreiben in dieselbe Datei.
+
+**Vorgehen:** Die S42/N43-Lineage selbst war laut letztem Report bereits vollständig
+abgearbeitet (alle Restpunkte dort als Bring-Schuld/Entscheid-Raphael/externe Anfrage
+klassifiziert). Deshalb wurde die gesamte Datei nach verbleibenden `- [ ]`-Checkboxen
+durchsucht (37 Treffer) und stichprobenartig gegen den aktuellen Stand von `wiki/REGISTER.md`,
+`destillate/INDEX.md` und `training/norm-inventar.md` gehalten.
+
+**Bearbeiteter Punkt (Zeile ~4490, «Verify-Abschluss MacBook 13.07.2026»):** Teilpunkt (5)
+«BRL 100-15 Brandmauern: Gegenprüfung des REGISTERs auf eine allfällig spätere Ausgabe» war
+seit dem 13.07.2026 unbeantwortet offen geführt, obwohl die Antwort durch eine unabhängige
+Arbeit (SIA-Sweep Run 60, 23.08.2026) bereits vorlag: `wiki/REGISTER.md` führt BSE 100-15
+mit geltender Fassung **01.01.2017**, Delta-Destillat `destillate/vkf-brl-100-15-fassung-
+2017-delta.md` (Frontmatter geprüft: Quelle VKG-Publikationsportal Dokument
+BSPUB-1394520214-141, Fassung 01.01.2017, gegen Hausbestand
+`PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf`
+Fassung 01.01.2015). Acht amtlich gelistete Fundstellen geprüft, keine materiell. Der
+Delta-Destillat-Status bleibt bewusst `speculative` (nur die acht Fundstellen geprüft, nicht
+der volle Restbestand) — nicht angehoben. Reine Bookkeeping-Schliessung, keine neue
+Quellenlektüre nötig, additiv nachgetragen.
+
+**Sättigungsbefund (Rest der 37 `- [ ]`-Treffer):** stichprobenartig geprüft (N-R40-7 Grauton
+Lignatec, N-R40-3 EN-81-Reihe, N-R21-2 VA105-01, N43-1 bis N43-6, SIA 181:2020, SN 640 052/
+641 400, SIA 118:2013, BRING-SCHULD-Einträge SIA 380/1, 385/1, 266/1, 410-Nachfolgewerke).
+Durchgehendes Muster: entweder (a) explizit als Bring-Schuld/Kaufentscheid/Entscheid-Raphael/
+externe Anfrage (VSA-Kundendienst, SIA-Shop) markiert und in den letzten Tagen mehrfach
+unabhängig erfolglos frei zu beschaffen versucht (z. B. SN 641 400: fünf Anläufe), oder
+(b) bereits an anderer Stelle derselben Datei inhaltlich beantwortet, nur die ursprüngliche
+Checkbox nie auf `[x]` gesetzt (Muster wie beim heute bearbeiteten Punkt). Kein einziger der
+geprüften Punkte war eine neue, mit Primärquellenlektüre lösbare offene Sachfrage. Damit ist
+diese QUESTIONS-Abarbeitung-Lineage nach neun Läufen faktisch **gesättigt**: verbleibende
+Arbeit ist entweder Bring-Schuld (Raphael) oder ein reiner Bookkeeping-Sweep (Checkboxen mit
+bereits vorhandener Antwort abgleichen), keine weitere Quellenrecherche.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` (additiv, +21/-0 Zeilen, Nachtrag unter dem bestehenden
+Teilpunkt-5-Text). Kein Destillat geändert (keine neue Sachaussage, nur Verweis auf
+bestehende, bereits verifizierte Inhalte).
+
+**Empfehlung für künftige Läufe:** Statt weiterer Einzelfragen-Suche in dieser Lineage einen
+gezielten Bookkeeping-Sweep über die verbleibenden ~35 offenen Checkboxen fahren (Muster:
+grep `^\s*- \[ \]`, je Punkt prüfen, ob REGISTER/INDEX/Inventar die Antwort bereits enthält,
+sonst als Bring-Schuld belassen) — deutlich günstiger als erneute Primärquellenlektüre und
+schliesst echte Bookkeeping-Lücken wie die heutige.
+
+## 2026-08-24 — SIA-Sweep: dreizehnte unabhängige Sättigungsverifikation (09:58 Uhr) — weiterhin 59 Register-/6 Inventar-Zeilen offen, keine Änderung
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). CHANGELOG und Report
+des letzten SIA-Sweep-Laufs (zwölfte Sättigungsverifikation, 09:36 Uhr) zuerst gelesen — dessen
+Empfehlung folgend nur den dort vorgeschlagenen Modifikationsdatum-Check wiederholt statt eines
+vollen Sweeps (Rule `wissens-ruecklauf`: kein Pflicht-Rauschen bei unveränderter Lage).
+
+**Kollisionscheck:** eigener Prozess PID 67853 hostet diese Session; PID 67644
+(QUESTIONS-Abarbeitung derselben KB) und PID 65994 (Baurecht-Reglemente, andere KB) laufen
+parallel, keine Dateiüberschneidung mit `wiki/REGISTER.md`, `destillate/` oder
+`training/norm-inventar.md`.
+
+**Befund:** SharePoint-Ordner `SIA_Norm/SIA_Normen/alle/` (140 Dateien, via
+`connectors/m365-graph.mjs` nach `lastModifiedDateTime` geprüft) zeigt weiterhin keine Datei
+neuer als 2026-08-07T09:18:20Z — unverändert zum elften/zwölften Lauf. `wiki/REGISTER.md`
+weiterhin 59 „Kein Volltext im Haus"-Zeilen, `training/norm-inventar.md` weiterhin genau 6
+echte offene `[ ]`-Zeilen (SIA 491, SN EN 12193, SN 640 052, SN 641 400, SN 640 273a, SIA
+181:2020-Re-Destillat), alle bereits mit Produktdatenblatt/Preis/Gültigkeitsdatum belegt und
+ausnahmslos Beschaffungs-Bring-Schuld (SIA-Shop/VSS-Shop bzw. Cross-KB). Commit-Historie seit
+dem zwölften Lauf (`1e6732c43`, `9a6d163d7`, `1691bb782`) betrifft ausschliesslich
+QUESTIONS-Abarbeitung/Kalksandstein-Destillat, keine dieser Dateien.
+
+**Kein Register-, Inventar- oder Destillat-Schreibvorgang.** Report:
+`outputs/2026-08-24_sia-sweep-dreizehnte-unabhaengige-saettigungsverifikation-0958uhr.md`.
+Empfehlung unverändert: SIA-Sweep bleibt pausiert bis neues Rohmaterial im SharePoint-Ordner
+erscheint oder Raphael einen der sechs Kauf-/Beschaffungsentscheide trifft.
+
+---
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: S42-3 (SWKI Tab. 16 Kanton Schwyz) und N43-5 (Kalksandstein Rissweiten-Kapitel + SIA-266-Zitate) bearbeitet — NAS-Sperre über M365-Graph-Connector umgangen
+
+**Auftrag:** Fortsetzung derselben Daueraufgabe (offene Fragen in `wiki/QUESTIONS.md`
+abarbeiten, Fundstelle je Aussage mit Norm/Ausgabe/Ziffer, nur `established` zitierfähig).
+CHANGELOG und Report des letzten Laufs (S42-2, SWKI/BAFU) zuerst gelesen; dessen Empfehlung
+folgend S42-3 und N43-5 aufgegriffen — beide waren dort als „benötigen NAS-Zugriff, aktuell
+nicht erreichbar" zurückgestellt worden.
+
+**NAS-Hinweis:** `/Volumes/daten` war beim Sessionstart erneut nicht gemountet. Anders als im
+Vorlauf wurde diesmal **nicht** aufgegeben, sondern der zweite dokumentierte SharePoint-Zugriffsweg
+getestet: `node connectors/m365-graph.mjs` (App-only-Zertifikat-Auth, unabhängig vom NAS-Mount,
+git-versioniert im SSD-Repo) — `--selbsttest` bestätigte Erreichbarkeit. Beide für diesen Lauf
+benötigten Originale (SWKI VA103-01, Site PL, `06_Richtlinien/SWKI/`; Kalksandstein-Merkblatt,
+`04_Merkblätter/Bemessung Kalksandstein.pdf`) sowie zusätzlich SIA 266:2003 (`02_Normen/SIA_Norm/
+SIA_Normen/alle/266_2003_d.pdf`) wurden über den Connector direkt heruntergeladen (Graph-API
+`downloadUrl`, `curl`). Damit ist der Zugriffsweg, der im S42-2-Bericht als offene Empfehlung
+stand, verifiziert nutzbar — auch ohne NAS-Mount.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 63651 (Startzeit 9:46,
+identischer Auftragstext) ist der hostende Prozess dieser Session. PID 62145 arbeitet an
+`wissen/energie/wiki/QUESTIONS.md` — andere KB, keine Berührung. PID 63854 arbeitet am
+SIA-Sweep von `wissen/normen` (Register/Destillate/Inventar-Neuzugänge), nicht an
+`wiki/QUESTIONS.md` — etablierter Split (siehe Vorläufe), keine Dateiüberschneidung erwartet
+und `git status --short wissen/normen/` vor Bearbeitungsbeginn geprüft.
+
+## Bearbeitete Punkte
+
+**S42-3** (SWKI VA103-01:2017, Tab. 16, Anhang A): SWKI-Original erstmals in dieser Lauf-Serie
+wieder direkt lesbar. Tab. 16 (Druckseiten 73-74, PDF-Seiten 75-76, Rendering-Offset +2 bestätigt)
+bei 300 dpi vollständig gerendert, alle 40 Stationszeilen alphabetisch gelesen. Ergebnis: **keine**
+Zeile für Kanton Schwyz; **Luzern und Altdorf** bestätigt als einzige Stationen mit vergleichbarer
+Lage/Höhe, beide mit identischen Garage-Faktoren (5°C/1,00 exponiert, 10°C/0,77 geschützt) —
+die Wahl zwischen beiden ist bemessungstechnisch folgenlos. Eine normative Auswahlregel für
+fehlende Standorte würde aus SIA 2028 selbst stammen, dessen Basis-Merkblatt weiterhin
+kostenpflichtige Bring-Schuld ist (Bestand unverändert) — ändert am praktischen Ergebnis nichts.
+
+**N43-5** (Kalksandstein-Bemessungsmerkblatt, K·S·V 2012), teilweise geschlossen: Original mit
+Text-Layer bezogen (`pdftotext`, statt bisher nur 300-dpi-Visuallektüre). Zwei Teilfragen gelöst:
+1. **Rissweiten-Diagramm-Kapitel** (`destillate/kalksandstein-bemessung-sia266-ksv-2012.md`,
+   Abschnitt «Gebrauchstauglichkeit / Rissweite») **neu geschrieben**: Nxo = 100 kN/m¹ und alle
+   drei Ablese-Transformationen (Ordinate r200·Nxo/Nx, Abszisse hcr·√(Nx/Nxo), Kurvenparameter
+   ϑ·√(Nxo/Nx)) jetzt im Fliesstext statt nur im Verifikations-Anhang (K3, Run 43).
+2. **SIA-266-Zitate geprüft** gegen `sia-266-2003.md`-Original: Art. 4.3.1.1/4.3.1.3
+   (Tragsicherheitsformel, teilweise eingebundene Decken) **wortgleich bestätigt**. Art. 4.3.4.3
+   (Merkblatt S.12, «zur Aktivierung von fyd») ist ein **Druckfehler des Merkblatts selbst** — die
+   zitierte Ziffer regelt im Original Druckgewölbe unter Querbelastung (unbewehrtes Mauerwerk),
+   nicht fyd; korrekt wäre Art. 4.2.1.2/4.2.1.3 (η₃ = 1,5 für vollfugig vermörtelte Stossfugen).
+   Die Sachaussage des Merkblatts bleibt richtig, nur seine eigene Fundstellenangabe ist falsch.
+   SIA-262-Fassungsfrage (K4) bestätigt: 2003 war zum Publikationszeitpunkt (Herbst 2012) die
+   geltende Ausgabe, heute gilt SIA 262:2013.
+
+**Bewusst nicht geändert:** `status`-Feld des Kalksandstein-Destillats bleibt `speculative` — K4
+bis K10 aus Run 43 stehen weiterhin nur im Verifikations-Anhang, nicht im Fliesstext; ein
+Statuswechsel auf `established` ist einem eigenen Verifikationslauf vorbehalten, nicht dieser
+QUESTIONS-Abarbeitung.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` (S42-3, N43-5, Run-42-Kopfzeile, additiv),
+`destillate/kalksandstein-bemessung-sia266-ksv-2012.md` (Kapitel neu geschrieben, Frontmatter
+nachgeführt), `destillate/INDEX.md` (Zeile Kalksandstein nachgeführt). Report:
+`outputs/2026-08-24_questions-abarbeitung-s42-3-n43-5-m365-connector.md`.
+
+## Diff-Gegenprobe (`git diff --numstat`)
+
+`destillate/kalksandstein-bemessung-sia266-ksv-2012.md` wurde durch einen parallel laufenden
+NAS-Auto-Sync-Commit (`9a6d163d7 auto-sync [Macmini]: 6 Dateien geaendert`, 09:53 Uhr) bereits
+miterfasst, bevor dieser Lauf selbst committen konnte — Inhalt am Original geprüft (`git show
+9a6d163d7 -- <Datei>`), exakt die hier beschriebene, additive Änderung, keine Fremdinhalte, keine
+bestehende Aussage entfernt. `wiki/QUESTIONS.md` (+46/-1) und `destillate/INDEX.md` (+1/-1)
+verbleiben regulär durch diesen Lauf zu committen — beide additiv, keine bestehende Aussage
+gelöscht oder überschrieben.
+
+---
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: S42-2 geschlossen — SWKI Tab. 7 Q/S>1 gegen BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 verifiziert
+
+**Auftrag:** Fortsetzung derselben Daueraufgabe (offene Fragen in `wiki/QUESTIONS.md`
+abarbeiten, Fundstelle je Aussage mit Norm/Ausgabe/Ziffer, nur `established` zitierfähig).
+
+**Kollisionscheck:** `ps aux | grep "claude -p"` zeigte einen zweiten Prozess (PID 58959) mit
+identischem Auftragstext, der zum Zeitpunkt des Sessionstarts bereits 7 Minuten aktiv in
+denselben Dateien schrieb (L41-4-Abschluss, siehe Eintrag unten). Gewartet, bis dieser Prozess
+committet hat (Commit `161170672`), erst danach eigene Bearbeitung begonnen — kein
+gleichzeitiges Schreiben in dieselben Dateien.
+
+**Bearbeiteter Punkt:** S42-2 (Run 42) — SWKI VA103-01:2017, Tab. 7 (S. 42), Spalte Q/S > 1:
+ist der am Scan gelesene Wert «Firsthöhe + 1,0 m» ein eigenständiger vierter Wert oder Teil
+der bereits destillierten Maximum-Bildung (a: mind. 1 m, b: 0,2×Gebäudebreite max. 5 m, c:
+1×Q/S in m)? Die Quellnorm selbst konnte nicht neu gelesen werden (SharePoint-Pfad
+`PL - 02_Recht_Norm/06_Richtlinien/SWKI/` auf dieser Station ohne NAS-Mount nicht erreichbar),
+aber die vom Destillat zitierte Bemessungsgrundlage (BAFU-Vollzugshilfe UV-1318-D) ist
+öffentlich zugänglich und wurde direkt am Original geprüft.
+
+**Vorgehen:** `WebSearch` fand den offiziellen BAFU-Volltext (Umwelt-Vollzug Nr. 1318
+«Mindesthöhe von Kaminen über Dach. Kamin-Empfehlungen», Erstausgabe 2013, 1. aktualisierte
+Auflage Dezember 2018); der in `wissen/normen/wiki/QUESTIONS.md` zuvor verlinkte
+`bafu.admin.ch/dam/bafu/...`-Pfad lieferte HTTP 502, der Alternativpfad
+`bafu.admin.ch/dam/de/sd-web/x0hJtl7AkYcm/...` lieferte das PDF (1,28 MB, `curl`), `pdftotext
+-layout` extrahiert (sauberer Textlayer), Ziff. 5.2/5.3 (S. 13-14) wortgenau gelesen.
+
+**Ergebnis:** Ziff. 5.3 Abs. 1 Bst. a) verlangt für Q/S > 1 «den höchsten Gebäudeteil (z. B.
+Dachfirst) um mindestens 1 m … überragen» — das ist für ein Schrägdach wortgleich mit
+«Firsthöhe + 1,0 m», exakt parallel zur Ziff. 5.2 Bst. a) (0,5 m) im Normalfall. Der Wert ist
+damit **keine eigenständige vierte Grösse**, sondern die dachtypspezifische Lesart von
+Kriterium a) der bereits destillierten Maximum-Bildung. Kein Korrekturbedarf am bestehenden
+Destillat-Text zu a)/b)/c) — die SWKI-Tabelle bildet die Vollzugshilfe korrekt ab.
+
+**Eingearbeitet:** `destillate/swki-va103-01-2017.md` (Abschnitt Fortluft, `gelesen`-Feld),
+`wiki/QUESTIONS.md` (S42-2 als geschlossen markiert, Run-42-Kopfzeile nachgeführt) — beide
+additiv. Report: `outputs/2026-08-24_questions-abarbeitung-s42-2-swki-bafu-kaminhoehe.md`.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: L41-4 abgeschlossen — Lignatec Tabelle 4 zellenweise gegen Original geprüft, fünf Nutzungszeilen nachgetragen
+
+**Auftrag:** Fortsetzung derselben Aufgabe (weitere offene Fragen in `wiki/QUESTIONS.md`
+abarbeiten, Fundstelle je Aussage mit Norm/Ausgabe/Ziffer, nur `established` zitierfähig).
+CHANGELOG und Report des unmittelbar vorangegangenen Laufs (dieser Tag, Tabelle 5) zuerst
+gelesen, dort weitergemacht: letzte offene Tabelle (Tabelle 4, S. 12-13) zellenweise gegen
+das Original gehalten.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 58959 (identischer
+Auftragstext) ist der hostende Prozess dieser Session. PID 57911 (`wissen/baurecht`) und
+PID 59236 (`wissen/normen` SIA-Sweep, andere Dateien: Register/SIA-Destillate, nicht
+Lignatec/QUESTIONS) laufen parallel, keine Dateiüberschneidung.
+
+**Ergebnis:** Die fünf Nutzungszeilen, für die Tabelle 4 im Destillat bisher keine eigenen
+Eckwerte führte («Industrie-/Gewerbebauten q ≤ 1000 MJ/m²», «Bauten mit Räumen grosser
+Personenbelegung / Verkaufsgeschäfte [c]», «Parkhäuser/Einstellräume für Motorfahrzeuge»,
+«‹Verkaufsgeschäfte› ≤ 1200 m²/≤ 100 P», «Landwirtschaftliche Bauten»), am 400-dpi-Rendering
+S. 12/13 (`pdftoppm -r 400`, Blatt 06, in Zeilenbänder über beide Halbseiten geschnitten)
+vollständig zellenweise gelesen und nachgetragen. Alle fünf Zeilen bestätigen
+Eskalations-/Abdeckungsmuster, die für dieselbe Nutzung bereits aus Tabelle 3 dokumentiert
+waren — keine Abweichung zu einem bestehenden Destillat-Wert. **Damit ist L41-4 vollständig
+abgearbeitet**: Tabelle 2 (Run 40), Tabelle 3, Tabelle 4 und Tabelle 5 (alle heute) sind seit
+der letzten vollständigen Zellrunde (Run 8, 260730) erneut zellenweise gegen das Original
+gehalten worden. `destillate/lignum-lignatec-brandschutz.md` und `wiki/QUESTIONS.md` additiv
+nachgeführt. Report: `outputs/2026-08-24_questions-abarbeitung-l41-4-tabelle4-abschluss.md`.
+
+**Diff-Gegenprobe (`git diff --numstat`):** additiv, keine bestehende Aussage entfernt oder
+überschrieben (siehe Report).
+
+## 2026-08-24 — SIA-Sweep, Fortsetzung ~09:36 Uhr — zwölfte unabhängige Sättigungsverifikation, Bedingung des Vorlaufs geprüft statt nur nachgemessen
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). NAS bei
+Session-Start nicht gemountet; `wissen/` und `rules/` liegen als echte git-Ordner im
+SSD-Repo vor, dort gearbeitet (Rule `sync-kanonische-quelle`).
+
+**Kollisionscheck:** eigener Prozess PID 59236, kein Konkurrent. PID 58959 arbeitet parallel
+an `wiki/QUESTIONS.md` derselben KB (etablierter Split), PID 57911 an `wissen/baurecht` —
+keine Berührung von `wiki/REGISTER.md`/`destillate/`/`training/norm-inventar.md`.
+
+**Unterschied zu den Vorläufen:** der elfte Sweep-Lauf (08:54 Uhr) hatte einen weiteren
+vollen Durchlauf nur bei neuem Rohmaterial (SharePoint-Zugang wiederhergestellt, neue PDFs)
+oder Raphaels Kaufentscheid für sinnvoll erklärt — diese Bedingung wurde diesmal direkt
+geprüft statt nur die Zeilenzahl nachgemessen: SharePoint-Zugang (Graph-API, Site PL,
+`02_Recht_Norm`) funktioniert unverändert (kein neuer Weg), und der Ordner `SIA_Norm/
+SIA_Normen/alle/` zeigt nach `lastModifiedDateTime` sortiert keine Datei jünger als
+**2026-08-07T09:18:20Z** — 17 Tage vor diesem Lauf, klar vor dem Vorlauf. Damit ist «kein
+neues Rohmaterial» diesmal ein verifizierter Fund, keine Wiederholung derselben Vermutung.
+
+**Nachmessung:** `wiki/REGISTER.md` weiterhin **59** „Kein Volltext im Haus"-Zeilen,
+`training/norm-inventar.md` weiterhin **6** echte offene `[ ]`-Zeilen (SIA 491, SN EN 12193,
+SN 640 052, SN 641 400, SN 640 273a, SIA 181:2020-Re-Destillat) — unverändert, jede bereits
+mit Produktdatenblatt/Preis/Gültigkeitsdatum belegt, ausnahmslos Beschaffungs-Bring-Schuld.
+
+**Diff-Gegenprobe (`git diff --numstat`):** keine Änderung an `wiki/REGISTER.md`,
+`destillate/` oder `training/norm-inventar.md`. Bericht:
+`outputs/2026-08-24_sia-sweep-zwoelfte-unabhaengige-saettigungsverifikation-0936uhr.md`.
+
+**Empfehlung unverändert:** SIA-Sweep bleibt bei 59 Register-/6 Inventarzeilen pausiert, bis
+Raphael Kauf-/Freigabeentscheide trifft oder neues Rohmaterial im SharePoint-Ordner erscheint
+(künftig direkt per `lastModifiedDateTime` prüfbar). Ein dreizehnter Lauf sollte sich auf
+denselben Modifikationsdatum-Check beschränken, solange keine der beiden Bedingungen eintritt.
+
+---
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: L41-4 Fortsetzung — Lignatec Tab. 5 zellenweise gegen Original geprüft, Spalte «Tragwerke nbb» nachgetragen
+
+**Auftrag:** Fortsetzung derselben Aufgabe (weitere offene Fragen in `wiki/QUESTIONS.md`
+abarbeiten, Fundstelle je Aussage mit Norm/Ausgabe/Ziffer, nur `established` zitierfähig).
+CHANGELOG und Report des unmittelbar vorangegangenen Laufs (dieser Tag, Tabelle 3) zuerst
+gelesen, dort weitergemacht: Tabelle 5 (S. 15) zellenweise gegen das Original gehalten.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 55942 (identischer
+Auftragstext) ist der hostende Prozess dieser Session. PID 54781 (`wissen/baurecht`) und
+PID 54548 (`wissen/energie`) laufen parallel, keine Berührung von `wissen/normen`.
+
+**Ergebnis:** Alle im Destillat behaupteten Tabelle-5-Zellwerte am 300-dpi-Rendering S. 15
+bestätigt (inkl. der Run-33/36-Refuter-Korrekturen), keine Abweichung gefunden. **Neuer Fund:**
+Spalte «Tragwerke nbb» (Block 4-8) war in keiner der neun vorherigen Runden erfasst —
+nachgetragen: Aussenwand grau, Innenwand/Decke weiss, für alle Nutzungszeilen ausser
+Wohnbauten EFH/REFH. Tabelle 4 weiterhin nicht neu gelesen (letzte volle Runde 260730/Run 36,
+drei Wochen alt) — bleibt offen. `destillate/lignum-lignatec-brandschutz.md` und
+`wiki/QUESTIONS.md` additiv nachgeführt. Report:
+`outputs/2026-08-24_questions-abarbeitung-l41-4-tabelle5.md`.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: L41-4 (Lignatec Tab. 3) teilbearbeitet — zwei Zeilen nachgetragen, R90-Eskalation ergänzt
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (G41-2,
+unmittelbar darunter) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 50673 (Startzeit 9:08,
+identischer Auftragstext) ist der hostende Prozess dieser Session. PID 51254 arbeitet an
+`wissen/energie` — keine Berührung von `wissen/normen`. `git status` auf `wissen/normen/` war
+sauber vor Bearbeitungsbeginn.
+
+**Frage bearbeitet: L41-4** (Run 41, Lignatec) — Zellwerte der Tabellen 3, 4, 5 waren seit
+Runde 8 (30.07.2026) nicht mehr vollständig neu aufgenommen worden; die Seiten-Inventur
+(`training/lignatec-seiteninventur.md`) lag dafür bereit.
+
+**Vorgehen:** OneDrive-Kopie des Originals (`AR - 01 Projekte/2414 THALWIL/06 Reglemente/
+_Archiv/11 Brandschutz/Lignatec/Lignatec_brandschutz.pdf`, identisch zur SharePoint-Quelle laut
+Frontmatter) mit `pdftoppm -r 400` gerendert (Blatt 04 = S. 8-9 Tabelle 3, Blatt 06 = S. 12-13
+Tabelle 4, Blatt 07 = S. 14-15 Tabelle 5). In Tabelle 3 gezielt die beiden Nutzungszeilen
+gelesen, für die das Destillat trotz acht Vorrunden nie eigene Eckwerte führte: «Industrie-/
+Gewerbebauten q ≤ 1000 MJ/m²» und «Landwirtschaftliche Bauten» (Python/PIL-Crops beider
+Halbseiten je Zeile, direkte Bildlektüre, keine Textextraktion — Methodik-Pflicht 8).
+
+**Ergebnis (3 Ergänzungen in Tabelle 3, alle primärquellenfest):**
+1. **Industrie-/Gewerbebauten q ≤ 1000 MJ/m²** vollständig erfasst: Struktur wie Wohnbauten
+   MFH bis Spalte 4, weicht aber bei 5-6 Geschossen ab — baulich springt direkt auf
+   R60(nbb)/EI60(nbb) **blau**, während Wohnbauten MFH an derselben Stelle noch grau
+   (Holzoption mit beidseitiger Verkleidung) zeigt. Sprinklerkonzept bleibt identisch zu
+   Wohnbauten MFH (weiss, R60③/EI60②③).
+2. **Landwirtschaftliche Bauten** vollständig erfasst: identisch zu «Verkaufsgeschäfte
+   ≤ 1200 m²/≤ 100 P» direkt darüber, durchgehend weiss, endet nach Spalte 4
+   (Abdeckungsgrenze bestätigt).
+3. **Industrie q > 1000 MJ/m²/unbekannte Nutzung**: bisherige Destillat-Aussage («baulich blau
+   ab 2 über 600») war unvollständig — am Original sichtbar ist eine **R90(nbb)/EI90(nbb)-
+   Eskalation ab 4 Geschossen** (Baulich), die für die analoge Tabelle-4-Zeile bereits
+   dokumentiert war, für Tabelle 3 aber fehlte. Sprinklerkonzept bleibt spiegelbildlich
+   durchgehend bei R60(nbb)/EI60(nbb), keine Eskalation.
+
+**Eingearbeitet:** `destillate/lignum-lignatec-brandschutz.md` (drei neue Absätze im
+Tabelle-3-Abschnitt + neuer Verifikationsstand-Eintrag); `wiki/QUESTIONS.md` L41-4 additiv als
+«teilbearbeitet» markiert + Kopfzeile Run 41 nachgeführt.
+
+**Nicht eingearbeitet (bewusst):** ein Versuch, in derselben Runde auch die analogen Zeilen in
+Tabelle 4 zu lesen, scheiterte an der Bildqualität der angefertigten Crops — die
+Spalte-4-Aufteilung (grau/hellgrau gesplittete Zellen) liess sich nicht mit ausreichender
+Sicherheit einer Zeile zuordnen. Um keine geratene Aussage einzuführen, wurde nichts
+geschrieben; Tabelle 4 und Tabelle 5 bleiben für eine künftige Runde offen.
+
+**Diff-Gegenprobe (`git diff --numstat`):** unten dokumentiert. Beide Änderungen rein additiv,
+keine bestehende Aussage entfernt oder überschrieben.
+
+**Einordnung:** echter primärquellenfester Fortschritt an einer Frage, die nach acht
+Verifikationsrunden am selben Dokument noch echte Lücken hatte (zwei nie dokumentierte Zeilen,
+eine unvollständige Eskalationsangabe) — zugleich ein Beleg dafür, dass auch bei sehr hoher
+Rundenzahl noch nicht jede Zeile einer dichten Matrix tatsächlich geprüft war.
+
+---
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: G41-2 (GVZ-Merkblatt 30.17.3) zwei weitere Belege, bleibt offen
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (S41-8,
+unmittelbar darunter) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 48893 (Startzeit 9:04,
+identischer Auftragstext) ist der hostende Prozess dieser Session. Der zuvor aktive parallele
+Prozess PID 46568 (Autor des S41-8-Commits) ist inzwischen beendet — `git log`/`git status` auf
+`wissen/normen/` bestätigen sauberen, committeten Stand, kein Konflikt. Zwei weitere Prozesse
+(PID 48100, 49570) arbeiten an `wissen/energie`, keine Berührung.
+
+**Frage bearbeitet: G41-2** (Run 41, GVZ RWA-Parkhaus) — ob eine neuere Ausgabe des Merkblatts
+30.17.3 «Rauch- und Wärmeabzugsanlagen (RWA) in Parkhäusern und Einstellräumen für
+Motorfahrzeuge» als die vom 28.02.2011 existiert. War bereits einmal teilgeprüft (Web-Check auf
+`gvz.ch`-Übersichtsseiten, keine Nummer 30.17.3 gefunden, «Nicht geschlossen»).
+
+**Vorgehen:** WebSearch + WebFetch, zwei neue Wege gegenüber dem Vorlauf. (1) Direktsuche nach
+dem Dokumenttitel statt der Nummer förderte einen Drittanbieter-Spiegel zutage
+(`readkong.com/de/document/view/1060180`) — WebFetch extrahierte daraus Nummer, Datum und
+Herausgeber. (2) Die GVZ-Feuerwehr-Weisungsliste wurde vollständig für den Bereich 30.1x-30.2x
+abgefragt (statt nur nach 30.17.3 zu suchen); zusätzlich ein GVZ-eigenes RWA-Dokument
+(`gvz.ch/_file/245/131119-leitfaden-rwa.pdf`) gefunden und mit `pdftotext -layout` gegen den
+Hausbestand geprüft (WebFetch scheiterte am binären PDF, lokale Kopie unter
+`.claude/projects/.../tool-results/webfetch-*.pdf` wurde stattdessen extrahiert).
+
+**Ergebnis:**
+1. Der Drittanbieter-Spiegel bestätigt **unabhängig dieselbe Ausgabe**: Nr. 30.17.3, Ausgabedatum
+   28.02.2011, in Kraft ab 11.04.2011, Kantonale Feuerpolizei/GVZ — keine jüngere Fassung dort
+   auffindbar.
+2. Die GVZ-Abteilung Brandschutz führt aktuell einen eigenständigen «Leitfaden für die Planung,
+   Ausführung und Abnahme von Rauch- und Wärmeabzugsanlagen (RWA)», **Nr. 40.1, Ausgabe vom
+   7. Oktober 2013**, gegründet auf den VKF-BSR-28-15-Entwurf — inhaltlich aber **kein Ersatz**
+   für 30.17.3: er regelt allgemein Ingenieur-Nachweisverfahren (N4), nicht spezifisch
+   Parkhäuser/Einstellräume, und nennt 30.17.3 nirgends.
+3. Die Nummernserie 40.x (Leitfäden) ist erkennbar eine andere Zählung als 30.x
+   (Feuerwehr-Weisungen, vollständig durchgesehen bis 30.29) und als die vermutete
+   Brandschutz-Merkblatt-Serie mit dritter Ziffernstelle — stützt (beweist aber nicht) die bereits
+   geäusserte Vermutung, dass 30.17.3 einem heute nicht mehr aktiv geführten Nummernschema
+   angehört.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` bei G41-2 additiv ergänzt (Ursprungswortlaut und erste
+Teilprüfung unangetastet) + Kopfzeile Run 41 aktualisiert. **Frage bleibt offen** — kein Beleg
+für Rückzug oder Fortbestand, weiterhin nur per Bring-Schuld/Rückfrage bei GVZ oder
+Browser-Direktsuche abschliessend klärbar.
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` — additiv, keine bestehende
+Aussage entfernt oder überschrieben (siehe unten).
+
+**Einordnung:** kein Abschluss, aber zwei zusätzliche primärquellenfeste Belege (unabhängiger
+Spiegel + GVZ-eigenes Leitfaden-PDF), die die Sackgasse enger eingrenzen, ohne sie zu erfinden.
+
+---
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: S41-8 (SWKI VA103-01, Sprachfassung D/F) geschlossen — Prämisse widerlegt
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (H41-2,
+unmittelbar darunter) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 46568 (identischer
+Auftragstext, Startzeit 8:58) ist der hostende Prozess dieser Session. PID 45591 arbeitet an
+`wissen/baurecht` (Reglemente-Queue), PID 45040 an `wissen/energie` — keine Berührung von
+`wissen/normen`. Kein paralleler SIA-Sweep-Prozess aktiv (anders als in den beiden Vorläufen)
+— deshalb diesmal nicht nur additiv in `wiki/QUESTIONS.md`, sondern auch das Destillat
+`destillate/swki-va103-01-2017.md` direkt ergänzt.
+
+**Frage bearbeitet: S41-8** (Run 41, SWKI VA103-01) — ob die französische Parallelfassung
+inhaltlich von der deutschen abweicht, bislang nur an einer einzelnen Ziffer (2.5.3, im Rahmen
+von S41-7) stichprobenartig, nicht systematisch geprüft.
+
+**Vorgehen:** Original neu von SharePoint geladen (Site PL, Drive `02_Recht_Norm`,
+`06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf`, per M365-Graph-
+Connector, PATH-Fix für `/opt/homebrew/bin` nötig da Node/pdftotext/pdftoppm/tesseract in der
+Session-Shell zunächst nicht im PATH standen). Datei ist ein Scan ohne Textlayer (110 S.,
+KONICA-MINOLTA-Scan, `pdftotext` liefert null Wörter) — per `pdftoppm -r 200` gerendert und
+visuell gelesen, zuerst Inhaltsverzeichnis (Druckseite 2), danach der komplette Ziff.-2.8.2-
+bis-2.8.7-Block (Druckseiten 48-50, inkl. Tab. 9 Messparameter und Tab. 10 Schaltwerte).
+
+**Ergebnis: die Fragestellung ging von einer falschen Prämisse aus.** Es gibt keine separate
+französische „Parallelfassung" als eigenen Textblock hinter dem deutschen Teil — das Dokument
+ist **zweispaltig auf denselben physischen Seiten** gesetzt (Deutsch links, Französisch
+rechts), mit **einer gemeinsamen** gedruckten Seitenzahl für beide Sprachen. Fliesstext-
+Stichprobe (TOC + fünf Unterziffern): wortgetreue Übersetzung, sprachparallele Querverweise
+(VKF-BSR 25-15de = AEAI-DPI 25-15fr, VKF-BSR 21-15de = AEAI-DPI 21-15fr), identische
+Schwellenwerte (5 Min. Nachlaufzeit, 2'000 m³/h, 2 kW). **Struktureller Zusatzbefund:** Tab. 9
+und Tab. 10 sind bilinguale Einzelobjekte — Kopf-/Zeilenbeschriftung zweisprachig übereinander,
+aber jeder Zahlenwert (z.B. 50/70/200 ppm CO) steht nur **einmal** in der Zelle. Eine
+sprachbedingte Werteabweichung bei Tabellen ist damit strukturell ausgeschlossen, nicht nur
+ungeprüft unwahrscheinlich. Kein vollständiger Diff aller 110 Seiten, aber die Prämisse „zwei
+zu vergleichende Texte" trifft nicht zu.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` S41-8 als geschlossen markiert (additiv) + Kopfzeile
+Run 41 nachgeführt; `destillate/swki-va103-01-2017.md` neuer Abschnitt «Sprachfassung
+Deutsch/Französisch» zwischen «Geltungsbereich» und «Kernziffern» (Status bleibt `speculative`,
+unverändert — dieser Fund betrifft die Sprachstruktur, nicht die Bemessungskette).
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` 22/1, `destillate/
+swki-va103-01-2017.md` 19/0. Beide Änderungen rein additiv, keine bestehende Aussage entfernt
+oder überschrieben.
+
+**Einordnung:** echter primärquellenfester Fund, der eine seit Run 41 (01.08.2026) stehende
+Frage nicht nur beantwortet, sondern deren Grundannahme korrigiert — nützlich für jede künftige
+Frage zu diesem Dokument, da die zweispaltige Struktur erklärt, warum bisherige Renderings
+(die immer die volle Seite abbilden) beide Sprachen ohnehin schon mit erfasst haben, ohne dass
+das bisher explizit festgehalten war.
+
+---
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: H41-2 (Sonderbauten-Anforderungen) — Fundstelle identifiziert, kein SIA-Kauf nötig
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (SIA
+266/2-C2, unmittelbar darunter) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 43457 (Startzeit 8:51,
+identischer Auftragstext) ist der hostende Prozess dieser Session. PID 44014 ist ein echter
+paralleler Lauf an derselben KB `wissen/normen` (SIA-Sweep, Register/Destillate/Inventar) —
+deshalb bewusst wieder rein additiv gearbeitet: `wiki/QUESTIONS.md` additiv ergänzt,
+`wiki/REGISTER.md`, `destillate/` und `training/norm-inventar.md` nicht angefasst
+(Kollisionsgefahr, Rule `sync-kanonische-quelle`). PID 45040 arbeitet an `wissen/energie`,
+keine Berührung.
+
+**Frage bearbeitet: H41-2** (`wiki/QUESTIONS.md`, Abschnitt Run 41 → Hindernisfreies Bauen) —
+das Mass der «erhöhten Anforderungen» für Sonderbauten (Spitäler, Alters-/Behindertenheime)
+gegenüber SN 521 500, im BKZ-2005-Dokument nicht beziffert, laut Frage der praktisch
+wichtigste offene Punkt dieses Bestands für JANS' Healthcare-Schwerpunkt.
+
+**Vorgehen:** `destillate/sia-500-2009.md` (Frontmatter `status: established`, aber Ziff. 0-12 +
+Anhang A + E vollständig gelesen, Anhänge B-D/F-H noch nicht) via M365-Graph-Connector am
+Original geprüft — nicht am Destillat, weil die Frage genau in den ungelesenen Teil zielt.
+Site `PL` → Drive `02_Recht_Norm` → `.../SIA_Normen/alle/500_2009.pdf` per Graph-Downloadlink
+geladen (4,4 MB), mit `pdftotext -layout` **vollständig** (nicht nur der bereits destillierte
+Teil) durchsucht.
+
+**Ergebnis:**
+1. **Ziff. 0.1.5, S. 5** (bereits im Destillat sinngemäss geführt, jetzt wörtlich verifiziert):
+   «Diese Norm ist nicht hinreichend für Bauten zur Pflege und Betreuung von Personen, wie
+   Spitäler, Rehabilitationsstätten, Wohn- und Pflegeheime sowie Alterswohnungen u.ä. Für
+   solche Bauten sind die spezifischen, dem jeweiligen Zweck entsprechenden Anforderungen
+   vorrangig.» SIA 500:2009 selbst beziffert die «erhöhten Anforderungen» nicht — Sonderbauten
+   liegen ausserhalb seines Geltungsbereichs, nicht nur strenger innerhalb davon geregelt.
+2. **Neuer Fund im bisher ungelesenen Anhang H «Publikationen» (S. 59):** die Literaturliste der
+   Schweizerischen Fachstelle für behindertengerechtes Bauen FABB, Zürich nennt namentlich
+   «**Merkblatt Nr. 7, Rollstuhlgängigkeit bei Sonderbauten**» — exakt die gesuchte Quelle. Liegt
+   im Haus nicht vor, gehört zur selben Publikationsfamilie wie die in H41-4 bereits als fehlend
+   dokumentierten Merkblätter 14/04 und 15/04 derselben Fachstelle.
+
+**In `wiki/QUESTIONS.md` bei H41-2 nachgetragen** (additiv, Ursprungswortlaut unangetastet) +
+Kopfzeile des Run-41-Abschnitts aktualisiert (H41-2 aus der Liste der «unverändert offenen»
+Punkte in eine eigene Statuszeile verschoben). H41-2 bleibt im Kern offen (Zahlenwert nicht im
+Haus) — jetzt aber mit primärquellenfest identifizierter Fundstelle statt vager Vermutung, und
+mit der wichtigen Korrektur, dass **kein kostenpflichtiger SIA-Kauf** nötig ist (SIA 500:2009
+ist bereits vollständig im Haus und wurde jetzt vollständig durchsucht) — die Bring-Schuld ist
+eine Anfrage bei der Fachstelle, potenziell kostenlos.
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` 27/1 (additiv + eine
+Kopfzeilen-Aktualisierung). Keine weiteren Dateien geändert.
+
+**Einordnung:** echter primärquellenfester Fund (Volltextsuche über den bisher nur teilweise
+gelesenen Anhangsteil einer bereits `established` geführten Norm) statt Sackgassen-Dokumentation
+— schliesst nicht die ganze Frage, aber ersetzt eine vage "SIA 500 wäre kostenpflichtig zu
+prüfen"-Vermutung durch eine konkrete, kostenfrei verfolgbare nächste Handlung.
+
+---
+
+## 2026-08-24 — SIA-Sweep, Fortsetzung ~08:54 Uhr — elfte unabhängige Sättigungsverifikation
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). NAS bei
+Session-Start nicht gemountet; `wissen/` und `rules/` liegen als echte git-Ordner im
+SSD-Repo vor, dort gearbeitet (Rule `sync-kanonische-quelle`). SharePoint-Normenordner
+auf dieser Station aktuell nicht im erwarteten OneDrive-Pfad sichtbar — ohne Belang, da die
+Register-Verifikation über `shop.sia.ch`/`mobilityplatform.ch` läuft, nicht über lokale PDFs.
+
+**Kollisionscheck:** echter paralleler Prozess an derselben KB, aber am anderen Deliverable
+(`wiki/QUESTIONS.md`) — deckungsgleich mit dem etablierten Split, keine Kollision.
+
+**Nachmessung:** `wiki/REGISTER.md` weiterhin **59** „Kein Volltext im Haus"-Zeilen;
+`training/norm-inventar.md` weiterhin **6** echte offene `[ ]`-Zeilen (SIA 491, SN EN 12193,
+SN 640 052, SN 641 400, SN 640 273a, SIA 181:2020-Re-Destillat) — jede belegt mit
+Produktdatenblatt/Preis/Gültigkeitsdatum, ausnahmslos Beschaffung Bring-Schuld. Kein neues
+Rohmaterial, kein neuer Commit auf `wissen/normen/` seit dem Vorlauf 08:43 Uhr. **Elfte
+unabhängige Bestätigung** derselben Sättigung (nach vollständigem 140-Dateien-Cross-Check
+gegen zwei amtliche SIA-Kataloge in früheren Läufen) — deshalb strukturelle Nachmessung statt
+einer weiteren vollen Stichprobenrunde (Rule `wissens-ruecklauf`: kein Pflicht-Rauschen).
+
+**Diff-Gegenprobe (`git diff --numstat`):** keine Änderung an `wiki/REGISTER.md`,
+`destillate/` oder `training/norm-inventar.md`. Bericht:
+`outputs/2026-08-24_sia-sweep-elfte-unabhaengige-saettigungsverifikation-0854uhr.md`.
+
+**Empfehlung unverändert:** SIA-Sweep bis zu Raphaels Kauf-/Freigabeentscheiden (59
+Register-/6 Inventarzeilen, SIA-Shop/VSS-Shop, VSS-Kundendienst `info@vss.ch` für SN 641 400)
+pausieren. Nächster voller Sweep nur bei neuem Rohmaterial oder Kaufentscheid sinnvoll.
+
+---
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: SIA 266/2-C2:2025 primärquellenfest gelesen (ersetzt C1, Anhang B wandert zu SIA 269/6-1:2025)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (Eintrag
+unmittelbar darunter, SIA 266/2 Gültigkeit + C1) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** drei Hintergrundprozesse. PID 35613
+(identischer Auftragstext, Startzeit 8:39) ist der eigene hostende Prozess dieser Session —
+kein Konkurrent. PID 34901 arbeitet an `wissen/energie`, keine Berührung. PID 35827 ist ein
+**echter** paralleler Lauf an derselben KB `wissen/normen` (SIA-Sweep, Register/Destillate) —
+deshalb bewusst weiterhin **rein additiv nur in `wiki/QUESTIONS.md`** gearbeitet,
+`wiki/REGISTER.md`, `destillate/` und `training/norm-inventar.md` nicht angefasst
+(Kollisionsgefahr, Rule `sync-kanonische-quelle`; der Sweep-Prozess hat zwischen Sessionstart
+und jetzt bereits selbst einen neuen Kopf-Eintrag geschrieben — beim Prepend berücksichtigt).
+
+**Fortsetzung des unmittelbar darunterstehenden Laufs (N53-1, SIA 266/2:2012):** dessen offen
+gelassener Rest war Datum/Inhalt der zweiten Korrigenda **C2** — die Shop-Produktseite hatte
+nur „Revision 2, Revisionsdatum 01.11.2025" ohne Zuordnung geliefert. Direkten Downloadlink
+über gezielte WebSearch gefunden (`shop.sia.ch/93e9218b-4e4c-49e4-8083-494b547d73d0/D/DownloadAnhang`),
+PDF per WebFetch geladen (landet als Binärdatei im Tool-Cache) und mit `pdftotext -layout`
+volltextgelesen (franz. Fassung SN 505266/2-C2:2025 fr, einzige zugestellte Sprache, 3 S.).
+
+**Ergebnis, primärquellenfest:** SIA 266/2-C2:2025, SIA-Kommission «Normes de structures
+porteuses», beschlossen 17.10.2025, gültig ab 01.11.2025, Wortlaut «Il remplace le correctif
+SIA 266/2-C1:2024» — **C2 ersetzt C1 vollständig**, kein additives Korrigenda-Paar. Zwei
+Korrekturstellen wortgenau gelesen: (1) Ziff. 3.1.8.1 (E-Modul-Formel Natursteinmauerwerk)
+nochmals neu gefasst, differenziert nach Ausführungstyp A/B vs. C/D/E; (2) Anhang B
+(Steinbearbeitung, S. 47-50) ersatzlos gestrichen — Wortlaut: «Cette annexe se trouve à
+présent dans la norme SIA 269/6-1:2025, annexe B Façonnage des pierres.» Neuer Cross-
+Referenz-Punkt für einen künftigen SIA-269/6-1-Lauf (Norm im REGISTER bislang nur über einen
+269/5-C1-Vorwort-Nebenbefund vom 23.08.2026 bekannt, eigener Anhang-B-Inhalt noch nicht
+gesichtet). Praktische Folge für die Beschaffung: künftig genügt Grundtext + C2:2025, C1:2024
+muss nicht mehr separat geladen werden.
+
+**In `wiki/QUESTIONS.md` bei N53-1 nachgetragen (additiv):** neuer Absatz unter der 24.08.-
+Notiz von der Vorlauf-Session, Ursprungswortlaut unangetastet. N53-1 bleibt im Kern weiter
+offen (Grundtext SIA 266/2:2012 selbst nicht im Haus, Bring-Schuld Raphael/Kauf) — jetzt aber
+mit vollständig primärquellenfest geklärter Korrigenda-Lage.
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` 24/0 (reiner additiver
+Nachtrag). Keine weiteren Dateien geändert.
+
+**Einordnung:** direkte Fortsetzung des Vorlaufs, echter primärquellenfester Fund (nicht nur
+Sackgassen-Dokumentation) — schliesst die im Vorlauf ehrlich offen gelassene Wissenslücke
+vollständig und liefert einen neuen, bisher unbekannten Cross-Referenz-Hinweis auf SIA
+269/6-1:2025.
+
+---
+
+## 2026-08-24 — SIA-Sweep, Fortsetzung ~08:39 Uhr — zehnte unabhängige Sättigungsverifikation
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). NAS bei Session-Start
+nicht gemountet; `wissen/` und `rules/` liegen als echte git-Ordner im SSD-Repo vor, dort
+gearbeitet (Rule `git-auto-push.md`).
+
+**Kollisionscheck:** paralleler Prozess auf derselben KB, aber anderes Deliverable
+(`wiki/QUESTIONS.md`) — deshalb hier bewusst nicht angefasst.
+
+**Nachmessung:** `training/norm-inventar.md` weiterhin 0 offene Positionen; `wiki/REGISTER.md`
+weiterhin 59 „Kein Volltext im Haus"-Zeilen, Stichprobe (SIA 106/113/118-Serie, 2000er-
+Merkblattblock) bestätigt: jede belegt mit Produktdatenblatt, Preis, Gültigkeitsdaten, Rest
+ausnahmslos „Beschaffung Bring-Schuld". Keine neuen/geänderten Rohdateien seit der neunten
+Verifikation (07:30 Uhr). Damit **zehnte unabhängige Bestätigung** derselben Sättigung — kein
+fachlicher Ertrag über die neun Vorläufe hinaus möglich, deshalb keine volle Redundanz-Runde.
+
+**Diff-Gegenprobe (`git diff --numstat`):** rein additiv, 0 Löschungen. Bericht:
+`outputs/2026-08-24_sia-sweep-zehnte-unabhaengige-saettigungsverifikation-0839uhr.md`.
+
+**Empfehlung unverändert:** SIA-Sweep bis zu Raphaels Kauf-/Freigabeentscheiden (59 Register-
+zeilen shop.sia.ch/VSS-Shop, VSS-Kundendienst-Kontakt SN 641 400 mailfreigabepflichtig)
+pausieren.
+
+---
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: SIA 266/2:2012 Gültigkeit primärverifiziert + zwei Korrigenda gefunden
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (Eintrag
+unmittelbar darunter, SN 640 052) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** drei Hintergrundprozesse mit `claude -p`
+aktiv, davon **zwei mit textidentischem Normen-QUESTIONS-Auftrag** (PID 30395 seit 8:27, PID
+34081 seit 8:34) sowie ein dritter an `wissen/energie` (PID 33206, keine Berührung). Da nicht
+zweifelsfrei feststellbar war, welcher der beiden identischen Prozesse der eigene hostende ist,
+wurde dieser Lauf **vorsorglich rein additiv nur in `wiki/QUESTIONS.md`** gehalten —
+`wiki/REGISTER.md`, `destillate/` und `training/norm-inventar.md` bewusst nicht angefasst
+(Kollisionsgefahr mit einem echten Parallel-Lauf, Rule `sync-kanonische-quelle`).
+
+**Ausgangslage:** `grep` auf offene Marker findet weiterhin rund 30 Fundstellen; eine erneute
+Stichprobe (N57-2/N57-4, N-R40-7-Grauton, N53-2000er-Kaskade 2003-15/2008-15/2011-15, SVGW-
+Scope-Frage) zeigt: **alle geprüften Zeilen sind bereits an anderer Stelle im selben Dokument
+geschlossen** (Konvention: Ursprungswortlaut bleibt stehen, Auflösung steht als eigener
+✅-Absatz meist unmittelbar davor) — reine Vorwärtsreferenzen, kein Handlungsbedarf, nicht
+weiter dokumentiert (Rule `wissens-ruecklauf`: kein Pflicht-Rauschen bei Wiederholungsbefund).
+
+**Echter neuer Fund — N53-1 (Z. 1341, Ursprungsnotiz Run 53, 16.08.2026): SIA 266/2:2012
+«Natursteinmauerwerk» nicht im Haus, Gültigkeit bisher nicht primärverifiziert.** Zwei
+unabhängige Primärquellen abgerufen (WebFetch, keine Suchmaschinen-Zusammenfassung):
+1. `shop.sia.ch/normenwerk/ingenieur/266-2_2012_d/D/Product` (SN 505266/2) — **SIA 266/2:2012
+   ist weiterhin die aktuell geltende Ausgabe** (gültig ab 01.01.2012, 60 S., 170.00 CHF, kein
+   Nachfolger), löste ihrerseits SIA V178:1996 ab (archiviert 31.12.2011 — deckt sich mit dem
+   bereits im Bestand vermerkten Datum). Die bestehende Beschaffungs-Empfehlung bleibt also
+   richtig gezielt, kein Fehlkauf-Risiko wie beim SIA-416/1-Fund vom 23.08.2026.
+2. `espazium.ch/de/aktuelles/korrigenda-norm-sia-natursteinmauerwerk` (Fachartikel) —
+   **Korrigenda C1:2024**, von der SIA-Kommission Tragwerksnormen Ende Juni 2024 beschlossen,
+   **gültig seit 01.07.2024**, betrifft **Ziff. 3.1.8.1 und Anhang B (Steinbearbeitungen)**,
+   kostenlos im SIA-Shop.
+
+**Nicht established, ehrlich offen gelassen:** Die Shop-Produktseite führt zusätzlich ein
+**zweites Korrigenda-Dokument C2** («Revision 2», Revisionsdatum 01.11.2025) — Inhalt und
+genaues Gültigkeitsdatum von C2 sind mit den verfügbaren kostenlosen Mitteln (WebFetch-
+Zusammenfassung der Shop-Seite, WebSearch ohne Sekundärquelle zu C2) nicht ermittelbar; nicht
+geraten, sondern als offener Rest markiert.
+
+**Korrektur in `wiki/QUESTIONS.md` (additiv, Ursprungswortlaut unangetastet):** Bei N53-1 einen
+neuen Absatz «Gültigkeit primärverifiziert 24.08.2026» eingefügt mit beiden Funden und dem
+Hinweis, bei künftiger Beschaffung C1 und C2 zusammen mit dem Grundtext zu laden, damit ein
+künftiges Destillat nicht von Beginn an bei Ziff. 3.1.8.1/Anhang B veraltet ist.
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` 19/0 (reiner additiver
+Nachtrag, kein Wortlaut entfernt). Keine weiteren Dateien geändert.
+
+**Einordnung:** Ein Lauf, ein primärquellenfester Fund (Gültigkeit + C1) plus ein ehrlich
+offen gelassener Rest (C2) auf einer Zeile, die zuvor reiner unverifizierter Beschaffungsposten
+war. Kein Kauf ausgelöst — SIA 266/2:2012 samt Korrigenda bleibt Bring-Schuld Raphael. Die
+übrigen ~30 offenen Zeilen wurden nach Stichprobe nicht neu bearbeitet (bereits an anderer
+Stelle geschlossen oder unveränderte Bring-Schuld/Scope-Entscheidung), um keine Zeit auf
+Wiederholungsbestätigung zu verwenden, während zwei weitere Prozesse dieselbe Datei parallel
+bearbeiten.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: SN 640 052 Nachfolgenorm dritte unabhängige Negativ-Bestätigung
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit

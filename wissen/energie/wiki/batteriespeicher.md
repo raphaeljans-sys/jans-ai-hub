@@ -2,9 +2,9 @@
 title: Batteriespeicher (Heimspeicher) zur PV-Anlage
 status: established
 last_updated: 2026-08-24
-datenstand: 2025 (Swissolar Batteriemonitor Schweiz 2026, Mitgliederumfrage Nov. 2025, n=117)
-sources: [destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-eigenverbrauch-praxis.md]
-links: [[pv-eigenverbrauch-zev]], [[wp-pv-eigenverbrauch-lastmanagement]], [[pv-solar-technologien]], [[BAUHERREN-FAQ]]
+datenstand: 1.6.2021 (ältester zitierter Datenstand, VKF-Brandschutzmerkblatt 2005-15 Grundlagentabelle; LFP-Lockerung FAQ 2005-01 vom 9.9.2025, AHB-Merkblatt 389 vom Sept. 2023, Marktzahlen 2025 Swissolar Batteriemonitor Schweiz 2026, Mitgliederumfrage Nov. 2025, n=117)
+sources: [destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/vkf-lithium-batteriespeicher-brandschutz.md, destillate/ahb-merkblatt-389-lithium-ionen-batterien-lagerung.md]
+links: [[pv-eigenverbrauch-zev]], [[wp-pv-eigenverbrauch-lastmanagement]], [[pv-solar-technologien]], [[BAUHERREN-FAQ]], [[vkf-lithium-batteriespeicher-brandschutz]], [[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]
 ---
 
 # Batteriespeicher (Heimspeicher) zur PV-Anlage
@@ -64,6 +64,31 @@ Beachte auch die Vorgaben desselben Merkblatts zu elektromagnetischen Feldern: P
 und geerdet abgeschirmt ausserhalb von Aufenthaltsräumen führen, Wechselrichter-Abstand empfohlen
 > 3 m.
 
+## Brandschutz / sichere Lagerung
+
+Zwei sich ergänzende, primärquellenbelegte Regelwerke bestimmen die Aufstellung:
+
+| Speicherkapazität | Massnahme | Quelle |
+|---|---|---|
+| < 15 kWh (typischer Heimspeicher, HL I) | Eigener Raum **empfohlen** (Elektroraum/Keller/Garage, mind. EI 30), Mindestabstand **2,5 m** zu brennbaren Materialien; bei LFP-Chemie in EFH sogar in jedem Raum ausser Fluchtweg zulässig | VKF-Brandschutzmerkblatt 2005-15 + FAQ 2005-01 |
+| 15–100 kWh (HL II, z. B. MFH-Gemeinschaftsspeicher) | Eigener Brandabschnitt **EI 60**, bei LFP-Chemie **EI 30** (FAQ 2005-01) | VKF-Brandschutzmerkblatt 2005-15 + FAQ 2005-01 |
+| > 100 kWh (HL III) | Freiaufstellung oder RF1-Nebenbaute | VKF-Brandschutzmerkblatt 2005-15 |
+
+**Chemie in die Ausschreibung aufnehmen:** Die deutliche Erleichterung (EI 30 statt EI 60 bis
+100 kWh, EFH-Sonderregel) gilt nur für **LFP (Lithium-Eisenphosphat)** — mit ~80 % der
+Schweizer Heimspeicher zwar die Regelchemie, aber bei der Bestellung ausdrücklich abzufragen
+(«LFP oder NMC/anderer Lithium-Ionen-Typ?»), da sonst die strengeren Werte gelten. Details,
+Wortlaut und die volle Massnahmentabelle: `[[vkf-lithium-batteriespeicher-brandschutz]]`.
+
+Ergänzend regelt das städtische **AHB-Merkblatt 389 «Sichere Lagerung von Lithium-Ionen-
+Batterien»** (Stadt Zürich, September 2023) die Lagerung **kleinerer, mobiler** Akkus (Velo/
+E-Bike-Ladestationen, Elektrowerkzeuge) unterhalb der Heimspeicher-Grössenordnung: bis 1 kWh
+genügt eine sichere Platzierung fern von Zündquellen, 1–15 kWh braucht einen zertifizierten
+Sicherheitsschrank (**90 Min. Feuerwiderstand** nach SN EN 14470-1/1363-1). Für JANS-Projekte
+mit mehreren Ladeplätzen ist die **Summe** der Energieinhalte massgebend — bei
+Mehrfach-Ladestationen früh prüfen, ob die Sicherheitsschrank-Schwelle überschritten wird.
+Details: `[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]`.
+
 ## Grenzen, die man am Bautisch nennen muss
 - **Winter:** Tagesspeicher, kein Saisonspeicher — **senkt den Winter-Netzbezug nicht wesentlich.**
 - **Ökobilanz:** schlechter als der thermische (Gebäude-/Warmwasser-)Speicher.
@@ -84,4 +109,5 @@ Speicher hinter dem gemeinsamen Messpunkt eines **ZEV/vZEV** oder im Rahmen eine
 
 **Backlinks:** thermischer Speicher/EMS/Reihenfolge `[[wp-pv-eigenverbrauch-lastmanagement]]` ·
 PV-Typen/Ertrag `[[pv-solar-technologien]]` / `[[pv-ertrag-eigenverbrauch-praxis]]` · Marktpreise
-`[[pv-marktzahlen-kosten-ch-2025]]` · Destillat `[[batteriespeicher-heimspeicher-pv-ch]]` · FAQ **F38**.
+`[[pv-marktzahlen-kosten-ch-2025]]` · Destillat `[[batteriespeicher-heimspeicher-pv-ch]]` ·
+Brandschutz `[[vkf-lithium-batteriespeicher-brandschutz]]` / `[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]` · FAQ **F38**.

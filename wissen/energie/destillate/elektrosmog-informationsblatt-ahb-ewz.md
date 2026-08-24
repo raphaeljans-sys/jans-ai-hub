@@ -5,7 +5,7 @@ ausgabe: 02.02 (Februar 2002)
 gelesen: 2026-08-12 (vollst., 7 S.)
 datenstand: 2002 (NISV vom 23.12.1999, SR 814.710)
 status: established
-last_updated: 2026-08-12
+last_updated: 2026-08-24
 ---
 
 # Destillat — «Elektrosmog»: Niederfrequente elektromagnetische Felder beim Bauen
@@ -107,3 +107,9 @@ von 1 Mikrotesla.
 - Aktuelle Fassung/Änderungen der NISV seit 1999 nicht geprüft (Web-Aktualisierung nötig).
 - Keine Aussage zu 5G/WLAN (Hochfrequenzbereich, explizit ausgeklammert) — separates Thema.
 - Verhältnis zu heutiger LED-Beleuchtung (im Datenstand 2002 nicht erfasst) offen.
+- **Ergänzung 24.08.2026:** `[[ahb-merkblatt-385-planungsrichtlinie-nis]]` (AHB Stadt Zürich,
+  M-System-Nr. 385, 2011) liefert die konkretere, messbare Nachfolge-Systematik (Nutzungszonen
+  A/B mit Zahlenwerten, u. a. Bettenzimmer in Zone A) — löst die NISV-Aktualisierungsfrage nicht,
+  ergänzt dieses allgemeine Infoblatt aber um ein anwendbares Zonen-/Grenzwertkonzept.
+
+**Backlinks:** [[ahb-merkblatt-385-planungsrichtlinie-nis]]

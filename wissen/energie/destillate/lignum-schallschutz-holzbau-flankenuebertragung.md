@@ -3,10 +3,10 @@ quelle: "Schallschutz im Holzbau — Kooperationsprojekt BFH-Lignum, Bericht 271
 herausgeber: "Lignum (Holzwirtschaft Schweiz) + Berner Fachhochschule Architektur, Holz und Bau (BFH-AHB); gefoerdert durch BAFU"
 verfasser: "Bernhard Furrer, Matthias Schmid, Heinz Weber"
 ausgabe: "04.12.2008 (Vorprojekt-/Bedarfsanalyse-Bericht)"
-gelesen: 2026-06-28 (S. 1-14 vollst.: Abstract + Kap. 1-5.2 Ausgangslage/Stand der Technik/Bauteilkennwerte)
+gelesen: "2026-06-28 (S. 1-14 vollst.: Abstract + Kap. 1-5.2 Ausgangslage/Stand der Technik/Bauteilkennwerte); Nachtrag 2026-08-24: S. 49-50 (Kap. 8, Bauteilkatalog-Konzept) + S. 64-71 (Bauteilkatalog-Entwurf, Typenblaetter je Konstruktion) zusaetzlich gelesen"
 datenstand: "⚠ 2008 — Norm-Bezug SIA 181:2006 + EN 12354:2001. Der Flanken-/Nachweis-MECHANISMUS ist normgueltig und zeitlos; SIA 181 ist heute :2020 (Komfort + 1 dB ggue. 2006 → vgl. [[sia-181-schallschutz-anforderungswerte]]). Konkrete Holzbau-Konstruktions-/Flankenkennwerte stehen in den spaeteren Lignum-Dokumentationen (LIT-Reihe), nicht hier."
 status: established
-last_updated: 2026-06-28
+last_updated: 2026-08-24
 ---
 
 # Schallschutz im Holzbau — Flankenuebertragung & Nachweis-Mechanik (BFH-Lignum 2008)
@@ -86,10 +86,39 @@ Anpassungswert — nicht R_w allein.
   (Strassen- vs. Autobahnlaerm) — relevant fuer den Aussenlaerm-Nachweis (vgl.
   `[[sia-181-schallschutz-anforderungswerte]]`).
 
+## Bauteilkatalog-Entwurf (Nachtrag 24.08.2026, S. 49-50 + 64-71)
+
+Kap. 8 zeigt den **Entwurf** der Typenblaetter fuer den geplanten Bauteilkatalog (je Konstruktion:
+Aufbau, Rw/Ln,w, Schallübertragung, Nebenwege, Verbesserungspotential) — die Rw-/Ln,w-Felder sind in
+dieser 2008er-Fassung **leere Formularfelder ohne Zahlenwert**, der Katalog selbst war laut der
+«Zu erwartende Ergebnisse»-Tabelle (S. 50) erst fuer **2010/2013** geplant (Publikation Lignum-
+Dokumentation ~100 S., Bauteilkatalog ~60 S.). Qualitativ primärquellenbelegt trotzdem:
+
+- **Kastendecke:** eine abgehaengte Decke von ca. **60 mm** bringt i. d. R. **3-6 dB** Verbesserung —
+  der einzige in diesem Entwurf konkret bezifferte Einzelwert.
+- **Nebenwege bei allen Deckentypen:** Anschluesse des schwimmenden Unterlagsbodens an die Wand,
+  Stellstreifen, Schallbruecken in der Trittschalldaemmung durch Installationsdurchfuehrungen.
+- **Aussenwand Rahmenbau:** Flankenuebertragung wird durch eine **Innenverkleidung mit
+  Installationsebene** reduziert; konstruktive Aussteifungen (statisch noetig) **erhoehen** umgekehrt
+  die Schallübertragung — ein Zielkonflikt Statik/Akustik, den die Quelle benennt, ohne ihn zu
+  beziffern.
+- **Aussenwand/Trennwand Massivholzplatten:** Flankenreduktion ueber entkoppelte Innen- und
+  Aussenverkleidung sowie eine steife Gesamtkonstruktion; Schalleinleitung vom Estrich in die Wand
+  als eigener Nebenweg genannt.
+
+**Zugriffsversuch auf die tatsaechlich fertigen Werke (24.08.2026):** die aus diesem Projekt
+entstandenen Publikationen — Lignum-Dokumentation «Schallschutz im Holzbau» (kostenpflichtig, seit
+Juni 2023 bestellbar) und der Online-Bauteilkatalog (`bauteilkatalog.lignum.ch`, seit Juli 2014,
+2016 stark erweitert, heute unter `lignumdata.ch`) — waren beim Pruefversuch nicht erreichbar:
+`lignumdata.ch` → HTTP 500, `bauteilkatalog.lignum.ch` → Connection refused. Nicht geklaert, ob
+temporaer oder dauerhaft; kein Zugriff, keine Werte uebernommen.
+
 ## Offene Punkte / Abgrenzung
 - **Konkrete Konstruktionsdetails + gemessene K_F-/Bauteilwerte** liefert dieser 2008er Bericht NICHT —
   sie stehen in den **spaeteren Lignum-Dokumentationen** «Schallschutz im Holzbau» (LIT-Reihe,
-  Decken/Waende/Anschluesse). → kuenftige Destillat-Quelle (Lignum-Shop / lignum.ch).
+  Decken/Waende/Anschluesse) bzw. im Online-Bauteilkatalog. → `lignumdata.ch` bei naechster
+  Gelegenheit erneut pruefen (Werkzeugproblem 24.08.2026, siehe oben), sonst kostenpflichtige
+  Dokumentation beschaffen.
 - **Normversion:** Bericht referenziert SIA 181:**2006**; aktuell gilt SIA 181:**2020** (Anforderungen
   + 1 dB Komfort, vier Schutzziele) → `[[sia-181-schallschutz-anforderungswerte]]`. Der Flanken-/
   Nachweis-Mechanismus (R_w/R'_w, K_P, K_F, 12 Nebenwege, EN 12354, C-Werte) ist unveraendert gueltig.

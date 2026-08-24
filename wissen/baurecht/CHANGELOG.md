@@ -71,6 +71,319 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
   Stichproben-Re-Verifikationsrunde über die längst `established` markierten Artikel, um
   Drift seit der jeweiligen Erstverifikation zu prüfen.
 
+## 2026-08-24 — Buch-Run 139: Screenshot-Zugriffsweg fuer SharePoint-Bibliothek PL - 02_Recht_Norm gefunden (M365-Graph-Connector statt lokalem Mount); Kap. 22 (Privatrechtliche Bauvorschriften) teilweise Modell-D-wortlautgeprueft, 6 echte Korrekturen
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollstaendig abgeschlossen; Kap. 22/23 (Band 2) galten
+  seit ueber zehn Laeufen (Run 130-138) als letzte echte Buch-Destillat-Luecke, weil an keiner
+  Station ein lokaler Mount der Bibliothek `PL - 02_Recht_Norm` gefunden wurde.
+  **Konkurrenzlage:** waehrend der CHANGELOG/QUEUE-Sichtung schrieb ein weiterer aktiver
+  Claude-Prozess auf derselben Station parallel Run 138 (STWE-Wachposten) — abgewartet, bis der
+  Arbeitsbaum sauber war (Commit `ccbcc4668`), erst dann eigene Arbeit begonnen (keine
+  Schreibkollision).
+- GEFUNDEN: die Bibliothek existiert und ist ueber den bestehenden Connector
+  `connectors/m365-graph.mjs` erreichbar, ganz ohne lokalen Mount — bisher hatte niemand die
+  SharePoint-**Site** direkt aufgeloest (`--get "/sites?search=PL"` → Site "PL"; deren Drives →
+  Drive `"02_Recht_Norm"`, dessen `webUrl` irrefuehrend `PL  Immobilienpreise` als Pfadsegment zeigt
+  — das erklaert, weshalb Namenssuchen auf den Anzeigepfad bisher ins Leere liefen). Darin exakt der
+  in `buecher/CLAUDE.md` dokumentierte Pfad `01_Gesetze/02_Zuerich/Planung/SM Planungs und
+  Baurecht/` mit 781 Dateien (= die "780 Screenshot-Doppelseiten" aus `seiten-inventar.md`).
+  Download per `--token graph` (Bearer-Token) + `curl -sL .../content` (der `-L`-Redirect ist
+  zwingend, sonst 0-Byte-Datei). Zugriffsweg dauerhaft in `buecher/CLAUDE.md` dokumentiert.
+- VERIFIKATION: 6 Screenshots geladen und gelesen (S. 1514 [noch Kap. 21], S. 1520/1521 und
+  S. 1530/1531 [Kap. 22], S. 1538/1539 und S. 1544/1545 [Kap. 23 Glossar, keine §-Korrekturen
+  noetig], S. 1550 [leere Schlussseite]). **6 echte Korrekturen** in
+  `buecher/band-2/22-privatrechtliche-bauvorschriften.md`: (1) Art. 699 ZGB war am falschen Satz
+  (Zutrittsrecht-Schranke statt allgemeines Einfriedungsrecht); (2) Regel zu offenen Einfriedungen
+  (Gitter-/Palisadenzaeune, keine Abstandsvorschriften) fehlte; (3) ganzer Absatz zur
+  oeffentlich-rechtlichen Seite der Einfriedungen fehlte (§ 238 PBG, VB.2017.00615 E. 4.1,
+  Kernzonen-Hoehenbeschraenkungen, Verkehrssicherheit) — neuer Abschnitt 22.3.5; (4) 22.4.1 war
+  OCR-verfaelscht (Kernbegriff **Fahrnisbauten**/Art. 677 ZGB fehlte ganz, Wirkrichtung von
+  Art. 674 Abs. 1 ZGB war verkehrt — nicht der Nachbar verlangt eine Dienstbarkeit, sondern die
+  Norm beschreibt die Rechtsfolge einer bereits bestehenden); (5) Zeitschranke "grundsaetzlich
+  unbefristet" bei Art. 641 Abs. 2 ZGB fehlte; (6) § 220 PBG fehlte und **VB.2012.00810/
+  VB.2014.00314 waren vertauscht** (Ersteres gehoert zur Quartierbauvorschriften-Altrecht-Passage,
+  nicht zur Mitspracherecht-Passage), dazu war das Villenservitut-Beispiel OCR-verfaelscht.
+- Status bleibt bewusst `emerging` (nicht `established`) — nur 22.3-22.4 und 22.8-22.9 wurden
+  gegengelesen, 22.1/22.2/22.5-22.7/22.9.2-22.9.3 und Kap. 23 vollstaendig bleiben fuer einen
+  kuenftigen Lauf offen (jetzt mit bekanntem Zugriffsweg, keine Blockade mehr).
+- GEAENDERT `buecher/band-2/22-privatrechtliche-bauvorschriften.md` (130/52 Zeilen, additiv +
+  ersetzte Fehlpassagen), `buecher/INDEX.md` (Statuszeile ergaenzt, 3/1), `buecher/CLAUDE.md`
+  (Zugriffsweg dokumentiert).
+- REPORT `outputs/2026-08-24_buch-run139.md`.
+- STATUS Reglemente-Queue: weiterhin vollstaendig abgeschlossen (T1-T9), unveraendert durch diesen
+  Lauf. Verbleibend offen: Kap.-22-Restabschnitte + Kap. 23 (jetzt loesbar, kein Blocker mehr), die
+  Art.-24c-Abs.-2-RPG-Diskrepanz aus Run 137 (ebenfalls mit demselben Zugriffsweg loesbar, in diesem
+  Lauf nicht bearbeitet), die drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate, der
+  Baulinien- und der STWE-Revisions-Wachposten — alle unveraendert durch diesen Lauf.
+
+## 2026-08-24 — Buch-Run 138: STWE-Revisions-Wachposten (Art. 712ebis E-ZGB) amtlich identifiziert über den offiziellen Curia-Vista-Webservice — Geschäft 26.044, Status «Eingereicht»
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (letzte Bestätigung Run 137).
+  Screenshot-Zugriff auf die SharePoint-Bibliothek `PL - 02_Recht_Norm` (Kap. 22/23, letzte echte
+  Buch-Destillat-Lücke) an dieser Station erneut geprüft und weiterhin nicht verfügbar — `ls
+  ~/Library/CloudStorage/` zeigt nur die üblichen OneDrive/Dropbox/GoogleDrive-Wurzeln, keine
+  `PL`-Bibliothek. `ps aux` geprüft: eigener Lauf (PID 72128) plus je ein Prozesspaar für parallele
+  Läufe der Schwester-KBs `wissen/normen` und `wissen/energie` — keine baurecht-Konkurrenz.
+  `verifiziert`-Datumsfelder aller `established`-Artikel gesichtet: die grosse Mehrheit ist bereits
+  heute (2026-08-24) über die Runs 90-137 mehrfach re-verifiziert; als echte, bisher nie geprüfte
+  Lücke identifiziert: der «Offene Punkte»-Vorbehalt in [[stockwerkeigentum-teilungsplan-und-begruendung]]
+  (Cross-KB-Artikel aus `wissen/energie`, erstellt 23.08.2026) zum Beratungsstadium der
+  STWE-Revision — bisher nur als «zum Prüfzeitpunkt nicht verifiziert» geführt, nie amtlich
+  nachgeprüft.
+- GEFUNDEN: die Curia-Vista-HTML-Suche (`parlament.ch/de/ratsbetrieb/suche-curia-vista`) ist
+  clientseitig gerendert, WebFetch liefert HTTP 403 — dieselbe Fehlerfamilie wie
+  `kantonsrat.zh.ch` (Buch-Run 135). Die Bundesversammlung betreibt aber einen offiziellen
+  OData-Webservice (`ws.parlament.ch/odata.svc`), per curl direkt abrufbar. Sekundärquelle
+  (`centrepatronal.ch`, Fachartikel) lieferte die Geschäftsnummer **26.044**; die Filterabfrage auf
+  dieses Feld (`BusinessShortNumber`) traf im amtlichen Webservice genau einen Datensatz — **die
+  Sekundärquelle war zutreffend, jetzt amtlich bestätigt**, gleiches Vorgehen wie beim
+  Baulinien-Wachposten (Run 135/136).
+- BESTÄTIGT (amtlich): Geschäft 26.044 «Stockwerkeigentumsrecht (Art. 712a ff. ZGB). Änderung»,
+  Botschaft des Bundesrats **13.05.2026**, Ursprung Motion 19.3410 Caroni, Erstrat **Nationalrat**,
+  formaler Status **«Eingereicht»** (Statusdatum 13.05.2026). Die von der Sekundärquelle behauptete
+  Kommissionsprüfung der RK-N am 20./21.08.2026 liess sich im abgerufenen `Business`-Hauptdatensatz
+  **nicht** amtlich bestätigen (dafür wäre der verlinkte `Preconsultations`-Teildatensatz nötig,
+  nicht abgerufen) — als offene Präzisierung vermerkt statt stillschweigend übernommen. Kein
+  Inkrafttreten, keine Schlussabstimmung, keine Referendumsfrist im geprüften Datensatz.
+- NEU `raw/260824_amtlich_ch_curiavista-geschaeft-26044-stwe-revision.md` (amtliche Primärquelle,
+  JSON-Auszug + vollständige Provenienz inkl. Metadaten-Herleitung des Feldnamens).
+- GEÄNDERT `wiki/stockwerkeigentum-teilungsplan-und-begruendung.md`: Abschnitt
+  «Rechtsverbindlichkeit heute vs. die laufende Revision» um den amtlichen Verfahrensstand ergänzt;
+  «Offene Punkte» Punkt 1 (Beratungsstadium) aufgelöst zu einem aktiv zu überwachenden, jetzt aber
+  amtlich verankerten Wachposten; Frontmatter `sources` + neues `verifiziert`-Feld (Artikel hatte
+  bisher gar keines).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: `stockwerkeigentum-teilungsplan-und-
+  begruendung.md` 23/5 — die 5 Löschungen sind die beiden ersetzten Fliesstext-/Offene-Punkte-Sätze
+  selbst, keine unerwartete Löschung; neue Raw-Datei ungetrackt/neu.
+- REPORT `outputs/2026-08-24_buch-run138.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch diesen
+  Lauf. Verbleibend offen: Kap. 22/23 (Band 2, weiterhin ohne Screenshot-Zugriff), die drei
+  Datenbank-bedingt unverifizierbaren Alt-Fallzitate (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77),
+  [[geschosse-und-kniestock]] als zurückgestellter Modell-D-Kandidat, der Baulinien-Wachposten
+  (PBG-Teilrevision, unverändert seit Run 136), die Art.-24c-Abs.-2-RPG-Diskrepanz aus Run 137
+  (weiterhin nur mit Screenshot-Zugriff Kap. 21 auflösbar), und **neu** der STWE-Revisions-
+  Wachposten (Geschäft 26.044, weiterhin «Eingereicht», nicht in Kraft) — bleibt aktiv zu
+  überwachen wie der Baulinien-Wachposten.
+
+## 2026-08-24 — Buch-Run 137: stale Kap.-20-Zeiger (Companion-Destillat war seit 2026-07-13 established) korrigiert; § 20 Abs. 2 WsG präzisiert; Art. 24c Abs. 2 RPG «freiwilliger Abbruch»-Aussage als offene Diskrepanz markiert
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen; Kap. 22/23 (Band 2) weiterhin
+  ohne Screenshot-Zugriff an dieser Station (SharePoint-Bibliothek `PL - 02_Recht_Norm` nicht
+  gemountet). `ps aux` geprüft: zwei parallele Läufe aktiv, aber auf `wissen/normen` bzw.
+  `wissen/energie` — keine Kollision mit `baurecht`. `wiki/QUESTIONS.md` nach echten (nicht bereits
+  durchgestrichenen) offenen Einträgen durchsucht statt einer weiteren Modell-D-Stichprobe.
+- GEFUNDEN (stale Zeiger, gleiche Fehlerfamilie wie Run 105/109/110/113-115/133/134): der Eintrag
+  «Baupolizeiliche Missstände + Brandstattrecht § 307 PBG offen» (`QUESTIONS.md`, 2026-06-18) sowie
+  die «Offene Punkte»/Frontmatter-Notizen in `buecher/band-2/20-ausnahmen-bestandesschutz.md` und die
+  Statuszeile in `buecher/INDEX.md` behaupteten weiterhin «S. 1456 ff. nicht distilliert». Tatsächlich
+  deckt das Companion-Destillat [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]] diese Seiten
+  bereits seit 2026-07-10 ab, Modell-D-verifiziert 2026-07-13 (Buch-Run 38, § 307/§ 358 PBG
+  CONFIRMED), `status: established` im eigenen Frontmatter — die Zeiger wurden nach der Erstellung
+  nie nachgezogen. Alle drei Stellen korrigiert.
+- ECHTE KORREKTUR: **§ 20 Abs. 2 WsG** (Brandstattrecht im Gewässerraum, Nachfolgenorm der per
+  1.6.2026 aufgehobenen § 15m Abs. 2 HWSchV) war im Companion-Destillat verkürzt zitiert («sofern die
+  Hochwassersicherheit nicht beeinträchtigt wird»). Amtlich gegen `raw/260803_amtlich_zh_wsg.md`
+  geprüft: der Gesetzeswortlaut verlangt **kumulativ** zwei Voraussetzungen — «wenn ein Wiederaufbau
+  ausserhalb des Gewässerraums nicht möglich ist **und** die Baute oder Anlage die
+  Hochwassersicherheit nicht beeinträchtigt». Die erste Voraussetzung fehlte vollständig; die
+  parallelen Artikel [[abstaende-und-hoehen]] und [[15-lage-von-gebaeuden]] führen die Norm bereits
+  seit Buch-Run 47 (2026-07-17) korrekt — nur dieses eine Destillat war seither nicht nachgezogen.
+  Korrigiert.
+- OFFENE DISKREPANZ (nicht als Fehler korrigiert, da nicht abschliessend auflösbar): dieselbe Stelle
+  behauptete «Ausserhalb der Bauzonen gilt Art. 24c Abs. 2 RPG (lässt den Wiederaufbau auch bei
+  freiwilligem Abbruch zu)», bisher nur destillat-/buchbelegt. Erstmals gegen einen frischen
+  Fedlex-Volltext geprüft (neu `raw/260824_amtlich_ch_rpg-art24c.md`, Filestore-Muster
+  `docs/referenz/fedlex-volltexte.md`, ELI 1979/1573_1573_1573, Stand 1.7.2026). **Die Aussage ist am
+  Gesetzeswortlaut nicht auffindbar** — Art. 24c Abs. 2 RPG kennt nur die generelle Voraussetzung
+  «rechtmässig erstellt oder geändert», keine Unterscheidung freiwilliger/unfreiwilliger Beseitigung;
+  eine RPG-weite Suche nach «Abbruch» trifft ausschliesslich die sachfremde Abbruchprämie Art. 5a.
+  Als offene Diskrepanz markiert statt stillschweigend fortgeführt oder ohne Beleg gelöscht — die
+  Aussage könnte aus der Buchkommentierung zu Kap. 21 (S. 1503 ff.) stammen, an dieser Station ohne
+  Screenshot-Zugriff nicht nachprüfbar.
+- NEU `raw/260824_amtlich_ch_rpg-art24c.md` (amtliche Primärquelle Art. 24c RPG, Volltext +
+  Provenienz).
+- GEÄNDERT `buecher/band-2/20-ausnahmen-teil2-milderung-missstaende-brandstatt.md` (Frontmatter
+  `last_updated`/`verifiziert`, § 20-WsG-Korrektur + Art.-24c-Diskrepanz, «Offene Punkte»),
+  `buecher/band-2/20-ausnahmen-bestandesschutz.md` (Frontmatter `shots`/`last_updated`, «Offene
+  Punkte»), `buecher/INDEX.md` (Statuszeile `emerging` → `established`), `wiki/QUESTIONS.md`
+  (Eintrag 2026-06-18 als stale/erledigt markiert, neue Befunde nachgetragen),
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (Run-137-Eintrag).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv bzw. erwartete
+  Ersetzung derselben Sätze, keine unerwartete Löschung (neue Raw-Datei ungetrackt; Companion-
+  Destillat 5/4; `20-ausnahmen-bestandesschutz.md` 7/3; `buecher/INDEX.md` 4/1; `QUESTIONS.md` 16/2;
+  `KORPUS-QUEUE...` 22/0 rein additiv).
+- REPORT `outputs/2026-08-24_buch-run137.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch diesen
+  Lauf. Verbleibend offen: Kap. 22/23 (Band 2, weiterhin ohne Screenshot-Zugriff), die drei
+  Datenbank-bedingt unverifizierbaren Alt-Fallzitate (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77),
+  [[geschosse-und-kniestock]], der Baulinien-Wachposten und **neu** die Art.-24c-Abs.-2-RPG-
+  Diskrepanz — alle vier nur mit weiteren Primärquellen bzw. Screenshot-Zugriff auflösbar.
+
+## 2026-08-24 — Buch-Run 136: Baulinien-Wachposten (KR-Geschäft 6000) amtlich bestätigt über den offiziellen Kantonsrats-Webservice statt des privaten Aggregators
+- ANLASS: Run 135 hatte den Verfahrensstand der PBG-Teilrevision «Baulinien» nur sekundär
+  (Aggregator `inzh.ch`) belegen können, weil die offizielle Geschäftsseite
+  `kantonsrat.zh.ch/geschaefte/geschaeft/` clientseitig gerendert ist und per WebFetch nicht
+  auslesbar war — als «bei Gelegenheit gegen die Primärquelle nachzuprüfen» offen gelassen.
+  Kap. 22/23 (Band 2, letzte echte Buch-Destillat-Lücke) blieben an dieser Station weiterhin
+  ohne Screenshot-Zugriff (SharePoint-Bibliothek `PL - 02_Recht_Norm` unter
+  `~/Library/CloudStorage/` nicht gemountet, beide OneDrive-Wurzeln geprüft) — dieselbe
+  Sackgasse wie in Run 135, deshalb bewusst das offene Baulinien-Thema gewählt.
+  `ps aux`/Elternprozesskette geprüft: kein unabhängiger Konkurrenzlauf aktiv, nur der eigene
+  Prozess (`mschub774`).
+- GEFUNDEN: opendata.swiss führt unter dem Dataset
+  `organisation-und-geschafte-des-zurcher-kantonsrats` den amtlichen XML-Webservice des
+  Kantonsrats-Geschäftsverwaltungssystems (`parlzhcdws.cmicloud.ch`) — anders als die JS-Seite
+  per `curl` direkt abrufbar, keine Anmeldung nötig. Abfrage `krnr=6000` bestätigt **alle vier
+  Ablaufschritte des Run-135-Befunds wortgleich** (Antrag Regierungsrat 18.12.2024, Antrag KPB
+  02.12.2025 10:5 für Verabschiedung, 1. Lesung abgeschlossen 15.06.2026 115:59, Antrag REDKO
+  02.07.2026); keine weiteren Schritte sichtbar, die Vorlage bleibt **nicht in Kraft**. Die
+  bisherige Sekundärquelle war damit inhaltlich bereits richtig, jetzt aber amtlich bestätigt.
+- NEU `raw/260824_amtlich_zh_kr-geschaeft-6000-baulinien-cdws.md` (amtliche Primärquelle,
+  XML-Auszug + Provenienz).
+- GEÄNDERT `wiki/baulinien-und-abstandslinien.md` (Frontmatter `verifiziert`+`sources`,
+  Abschnitt 1a Fassungsstand-Wachposten auf amtlichen Beleg gehoben), `wiki/QUESTIONS.md`
+  (T-NEU-Eintrag amtlich bestätigt, Prüfweg für künftige Sweeps ergänzt),
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (Run-136-Eintrag).
+- REGISTRIERT `connectors/WEGE.md` (neuer Nachtrag: amtlicher Kantonsrats-Webservice als Weg
+  für Verfahrensstände von KR-Geschäften, mit Testbefehl und Grenze) — Zugriffsweg für
+  künftige Läufe nachschlagbar statt neu zu suchen.
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv (neue Raw-Datei
+  ungetrackt; `QUESTIONS.md` 13/7, `baulinien-und-abstandslinien.md` 15/6 — Löschungen sind
+  die ersetzten Wachposten-/Frontmatter-Sätze selbst; `WEGE.md` 41/0 rein additiv;
+  `KORPUS-QUEUE...` 22/0 rein additiv).
+- REPORT `outputs/2026-08-24_buch-run136.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch
+  diesen Lauf. Verbleibend offen: Kap. 22/23 (Band 2, weiterhin ohne Screenshot-Zugriff an
+  dieser Station), die drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate (VB 94/0016,
+  VB.2003.00051, RB 1992 Nr. 77), [[geschosse-und-kniestock]] als fachlich zurückgestellter
+  Modell-D-Kandidat. Der Baulinien-Wachposten selbst bleibt aktiv zu überwachen (Vorlage noch
+  nicht in Kraft), aber jetzt amtlich statt nur sekundär belegt.
+
+## 2026-08-24 — Buch-Run 135: Fassungsstand-Wachposten PBG-Teilrevision «Baulinien» (KR-Geschäft 6000) nachgeführt — Kommissionsberatung bereits abgeschlossen, Notiz «weiterhin in Kommissionsberatung» war stale
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen. Zwei parallele
+  Baurecht-Läufe mit identischem Prompt liefen zum Zeitpunkt dieses Laufs (`ps aux`: eigener
+  Lauf `mschub770`, unabhängiger zweiter Lauf `mschub766`, dessen Run-134-Arbeit an
+  `training/curriculum.md`/Band 1 zu diesem Zeitpunkt bereits geschrieben, aber die
+  Queue-Datei-Ergänzung noch unkommittiert im Arbeitsverzeichnis lag) — bewusst ein anderes
+  Thema gewählt, um keine Dateikollision zu riskieren (Vorbild Run 130/134): der
+  «Baulinien-Wachposten» aus den «Verbleibend offen»-Listen der letzten Läufe.
+- GEPRÜFT: die offizielle Geschäftsseite `kantonsrat.zh.ch/geschaefte/geschaeft/` ist
+  clientseitig gerendert (JS-SPA) und liefert per WebFetch nur die Navigationshülle, keine
+  Geschäftsdaten — dieselbe Fehlerfamilie wie Fedlex. Über den Aggregator `inzh.ch` (laut
+  eigener Angabe gespeist aus opendata.swiss + kantonsrat.zh.ch) den Verfahrensstand von
+  KR-Geschäft 6000 («Planungs- und Baugesetz (PBG), Änderung, Baulinien») abgerufen — dritter,
+  nicht-interpretierender WebFetch-Durchlauf ergab eine in sich konsistente Zeilenstruktur.
+- **Befund: die KB-Notiz «Stand 24.08.2026 weiterhin in Kommissionsberatung» war zu diesem
+  Zeitpunkt bereits veraltet.** Tatsächlicher Stand: KPB-Antrag 02.12.2025 (10:5 Stimmen für
+  Verabschiedung — Kommissionsberatung damit abgeschlossen), 1. Lesung abgeschlossen 15.06.2026
+  (115:59 Stimmen für Eintreten), Redaktionskommission befasst 02.07.2026. Keine
+  Schlussabstimmung/Referendumsfrist/Inkraftsetzung im geprüften Bestand sichtbar — die Vorlage
+  ist damit weiterhin **nicht in Kraft**, aber drei Verfahrensstufen weiter als zuletzt
+  dokumentiert.
+- **Nur sekundär belegt, nicht amtlich verifiziert:** `inzh.ch` ist ein privater Aggregator ohne
+  auffindbares Impressum; die Daten sind plausibel und intern konsistent, aber nicht gegen die
+  offizielle Quelle selbst geprüft (technisch nicht möglich per WebFetch). Explizit als
+  Sekundärquelle gekennzeichnet, nicht als `amtlich` (Rule `identifikatoren-verifizieren`).
+- NEU `raw/260824_sekundaer_zh_kantonsrat-geschaeft-6000-baulinien.md` (Zeilenstruktur +
+  Provenienz-Frontmatter, Kennzeichnung als Sekundärquelle).
+- GEÄNDERT `raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md` (`status_vorlage`-Feld
+  nachgetragen), `wiki/baulinien-und-abstandslinien.md` (Abschnitt 1a Fassungsstand-Wachposten
+  + Frontmatter `verifiziert`/`sources` nachgeführt), `wiki/QUESTIONS.md` (T-NEU-Eintrag
+  nachgeführt), `training/KORPUS-QUEUE-thalwil-reglemente.md` (Run-135-Eintrag nach
+  etabliertem Muster).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv bzw. erwartete
+  Textergänzung, keine unerwartete Löschung (`ve-pbg-baulinien-bericht.md` 7/2,
+  `QUESTIONS.md` 13/6, `baulinien-und-abstandslinien.md` 18/8 — die Löschungen sind jeweils
+  die ersetzten Wachposten-/Frontmatter-Sätze selbst; neue Raw-Datei ungetrackt/neu).
+- REPORT `outputs/2026-08-24_buch-run135.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch
+  diesen Lauf. Verbleibend offen: die zwei echten Buch-Destillat-Lücken Kap. 22/23 (Band 2,
+  Zugriff auf Original-Screenshots fehlt an dieser Station), die drei Datenbank-bedingt
+  unverifizierbaren Alt-Fallzitate (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77), und
+  [[geschosse-und-kniestock]] als fachlich zurückgestellter Modell-D-Kandidat. Der
+  Baulinien-Wachposten selbst bleibt aktiv zu überwachen (nicht in Kraft), jetzt aber mit
+  aktuellem Verfahrensstand statt einer stale Notiz.
+
+## 2026-08-24 — Buch-Run 134: Stale-Note Kap. 2 korrigiert — Teil-2-Destillat deckte S.152-169 (BZO-Grundlagen 2.3.7 + vollständige Arealüberbauung) bereits ab, Kap. 2 auf VOLLSTAENDIG gehoben
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (zuletzt bestätigt Run 133).
+  Zwei parallele Baurecht-Konkurrenzläufe zum Zeitpunkt dieses Laufs aktiv (`ps aux` geprüft: eigener
+  Lauf `mschub766`, PID 53452, gestartet 09:17; zweiter Lauf `mschub770`, PID 54781, gestartet 09:20,
+  identischer Prompt) — bewusst ein von Run 133 noch nicht behandeltes, kollisionsarmes Thema gewählt
+  (Band 1 statt Band 2), wie schon bei `mschub714`/`mschub718` (Run 130) vorgemacht. Fortsetzung des
+  Auftrags «Buch-Destillate zuerst, beide Bände prüfen»: Run 133 hatte nur Band 2 (`buecher/band-2/`)
+  gegen `curriculum.md` geprüft, Band 1 stand noch aus.
+- **Befund:** Die Kap.-2-Zeile in `curriculum.md` führte Status **[~]** mit dem Vermerk «Rest:
+  BZO-Grundlagen 2.3.7/Arealueberbauung-Anfang S.152-169 nicht im Screenshot-Set». Diese Notiz stammt
+  aus der eigenen «Offene Punkte»-Sektion von
+  [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] (Run 18, 2026-07-02): «Das
+  Screenshot-Set springt von S.151 direkt auf S.170 … nur teilweise erfasst». Das ist falsch — das
+  **zwei Tage früher** erstellte [[band-1/02-nutzungsplanung-zonenarten-teil2]] (Run 17, 2026-06-30,
+  Shots 73-85, S.144-169) deckt genau diese Spanne bereits **vollständig** ab: Abschnitt
+  «Kommunale Bauzonen — Bauzonentypen im Allgemeinen (2.3.7.2)» bis «Besondere Instrumente der
+  kommunalen BZO — Arealueberbauung (2.3.7.5)», inklusive der **vollständigen** Arealüberbauung
+  (§§ 69-73 PBG, nicht nur deren Anfang). Gegen `buecher/seiten-inventar.md` verifiziert: Shots 77-85
+  (S.152-169) sind durchgehend `[x]` und auf `02-nutzungsplanung-zonenarten-teil2` verlinkt — die
+  Teil-3-Notiz wurde offenbar ohne Abgleich gegen das bereits existierende Teil-2-Destillat verfasst.
+  Dieselbe Zeiger-Fehlerfamilie wie Run 133 (Kap. 16) und Run 117 (Kap. 17), diesmal in Band 1.
+- **Nicht behauptet:** S.205 f. (Shot 104, S.206/207, direkt an der Kap.-3-Grenze S.207) wurde an
+  dieser Station nicht separat gegen die Original-Screenshots geprüft — Teil 3 dokumentiert im
+  Fliesstext nur bis S.204 (2.3.10 Planungsverträge), der Shot selbst ist zwar als `[x]` erfasst und
+  auf Teil 3 verlinkt, sein Inhalt aber nicht im Destillat-Text nachvollziehbar. Kap. 2 daher als
+  inhaltlich vollständig geführt, mit explizit offenem Zwei-Seiten-Rest statt einer erfundenen
+  Vollständigkeitsbehauptung (Rule `identifikatoren-verifizieren`/`nichts raten`).
+- GEÄNDERT `buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md` (Offene-Punkte-Eintrag
+  «Screenshot-Lücke S.152-169» durchgestrichen + Korrekturvermerk), `training/curriculum.md`
+  (Kap.-2-Zeile: Status [~] → **[x] VOLLSTAENDIG**, Stale-Note-Vermerk ergänzt).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: `02-nutzungsplanung-sondernutzung-
+  verfahren-teil3.md` 1/1, `curriculum.md` 1/1 — beide reine Ein-Zeilen-Ersetzungen, keine
+  unerwartete Löschung.
+- REPORT `outputs/2026-08-24_buch-run134.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch diesen
+  Lauf. Buch-Abdeckung Band 1 nach diesem Fund: alle zehn Kapitel (1-10) vollständig/established.
+  Band 2: Kap. 11-17/19-21 vollständig/established, Kap. 18 bewusst nur Querverweis, **Kap. 22/23
+  bleiben `emerging`/P3** (Run 133, Zugriff auf Original-Screenshots an dieser Station weiterhin
+  fehlend). Sonst unverändert: die drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate
+  (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77), der Baulinien-Wachposten (PBG-Teilrevision
+  «Baulinien», weiterhin nicht in Kraft) und [[geschosse-und-kniestock]] als fachlich
+  zurückgestellter Modell-D-Kandidat.
+
+## 2026-08-24 — Buch-Run 133: Stale-Note Kap. 16 korrigiert — `kap16-10_gebaeudedimensionen-harmonisierung.md` deckt die seit 13.06.2026 fällige Restspanne bereits ab, Kap. 16 auf VOLLSTAENDIG gehoben
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (zuletzt bestätigt Run 132).
+  Kein paralleler Baurecht-Konkurrenzlauf zum Zeitpunkt dieses Laufs aktiv (`ps aux` geprüft; der
+  einzige Treffer mit passendem Prompt ist dieser eigene Lauf, PID 45591). Statt einer weiteren
+  Modell-D-Stichprobe (letzter offener Kandidat [[geschosse-und-kniestock]] bleibt Run-130-Begründung
+  nach zurückgestellt: drei `speculative`-Auslegungsfragen ohne Praxis, kein reiner
+  Beleg-Nachvollzug) wurde `training/curriculum.md` gegen den tatsächlichen Bestand von
+  `buecher/band-2/` geprüft, wie von der Aufgabenstellung verlangt («Buch-Destillate zuerst, beide
+  Bände prüfen»).
+- **Befund:** Die Kap.-16-Zeile in `curriculum.md` führte weiterhin «16.9-Schluss S.1230 f. offen»
+  und den Status **[~] 🟢 weitgehend**. Tatsächlich existiert
+  `buecher/band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` (Shots 619-623, S.1230-1239,
+  `status: established`) bereits seit dem 13.06.2026 — laut CHANGELOG-Eintrag vom selben Tag exakt
+  für diese Seitenspanne angelegt (Attikageschoss-Rückversetzung h/2, massgebendes Terrain,
+  Gesamt-/Fassadenhöhe-Messweise, § 275 Abs. 4/§ 292 nPBG). Der Curriculum-Zeiger wurde nach der
+  Erstellung dieser Datei nie nachgezogen; Buch-Run 34 (13.07.2026) hob darauf aufbauend
+  [[geschosse-und-kniestock]] bereits auf `established`, ohne die Kap.-16-Statuszeile selbst zu
+  korrigieren. Damit ist dasselbe Zeiger-Muster wie in Run 117 (Kap. 17) und der Health-Check-
+  Nachtrag (INDEX-Drifts Kap. `geschosse-und-kniestock`/`umgebungsgestaltung-und-einfriedungen`) —
+  reine Registerpflege, kein neuer Fachinhalt.
+- **Nicht behauptet:** S.1240 (die einzige Seite zwischen Kap.-16.10-Ende und Kap.-17-Beginn
+  S.1241) wurde an dieser Station nicht gegen die Original-Screenshots geprüft — der
+  OneDrive-Quellordner der Buchscans (`SM Planungs und Baurecht`) war unter den durchsuchten
+  Pfaden nicht auffindbar. Kap. 16 daher als inhaltlich vollständig geführt, mit explizit
+  offenem Ein-Seiten-Rest statt einer erfundenen Vollständigkeitsbehauptung (Rule
+  `identifikatoren-verifizieren`/`nichts raten`).
+- GEÄNDERT `training/curriculum.md` (Kap.-16-Zeile: Status [~] → **[x] VOLLSTAENDIG**,
+  Stale-Note-Vermerk ergänzt).
+- `git diff --numstat` nach dem Schreibvorgang geprüft: `curriculum.md` 1/1 — reine
+  Ein-Zeilen-Ersetzung, keine unerwartete Löschung.
+- REPORT `outputs/2026-08-24_buch-run133.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch diesen
+  Lauf. Buch-Abdeckung Band 2 nach diesem Fund: Kap. 11-17/19-21 vollständig/established, Kap. 18
+  bewusst nur Querverweis (Skill `brandschutz`), **Kap. 22 (Privatrechtliche Bauvorschriften) und
+  Kap. 23 (Glossar Architektur) bleiben `emerging`/P3** — echte, noch offene Buch-Destillat-Lücken
+  für einen künftigen Lauf, sofern Zugriff auf die Original-Screenshots besteht. Sonst unverändert:
+  die drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate (VB 94/0016, VB.2003.00051, RB 1992
+  Nr. 77), der Baulinien-Wachposten (PBG-Teilrevision «Baulinien», weiterhin nicht in Kraft) und
+  [[geschosse-und-kniestock]] als fachlich zurückgestellter Modell-D-Kandidat.
+
 ## 2026-08-24 — Buch-Run 132: offene Frage aus Run 131 geschlossen — Art. 7 Ziff. 1 EMRK über österreichische RIS-Kundmachung CONFIRMED, Schweizer Fedlex bleibt an dieser Station komplett unerreichbar
 - ANLASS: Buch-Run 131 hinterliess als einzigen neuen offenen Punkt die Nichtverifizierbarkeit von
   Art. 7 Ziff. 1 EMRK an dieser Station (Fedlex liefert nur die App-Hülle). Kein paralleler

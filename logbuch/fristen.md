@@ -3302,3 +3302,23 @@ von neun Wissens-Dateien im Konflikt, sondern um den bewussten Entscheid, wie di
 zusammengefuehrt werden (Merge oder Rebase) — **nach wie vor nichts fuer einen unbeaufsichtigten
 Lauf und nichts, was Claude eigenmaechtig entscheidet**, weil fremde unbestaetigte Arbeit
 beider Seiten betroffen ist (Rule `auto-verbesserungen` 260811). Status: **offen, hoch.**
+
+**Nachtrag 24.08.2026 18:25 (interaktive Session, MacBook Pro) — der Arbeitsbaum ist wieder
+blockiert, und zwar durch diesen Lauf.** Ein `nas-commit-now.sh` um 18:21 (Anlass: eine
+Korrektur an `connectors/hub-setup-daten.json`) committete zwar erfolgreich (`85c4596b`),
+loeste danach aber den Merge gegen GitHub aus, den der Nachtrag von 18:20 als offenen Entscheid
+beschreibt. Ergebnis: `.git/MERGE_HEAD` liegt wieder, **7 Dateien im Konflikt**
+(`wissen/baurecht/CHANGELOG.md`, `.../outputs/2026-08-24_buch-run133.md`,
+`.../training/KORPUS-QUEUE-thalwil-reglemente.md`, `wissen/energie/CHANGELOG.md`,
+`wissen/energie/destillate/INDEX.md`, `.../ahb-richtlinie-gebaeudetechnik-229-2025.md`,
+`wissen/energie/wiki/QUESTIONS.md`). Gegenseite ist `508ddd19 auto-sync [Macmini]`.
+**Art der Konflikte: durchweg Append-Kollisionen** — beide Seiten haben in append-only-Dateien
+oben je einen neuen Block eingefuegt (je genau 1 Konfliktblock pro Datei); die sachlich richtige
+Aufloesung waere, **beide Bloecke zu behalten**. **Bewusst nicht ausgefuehrt.** Ein
+`git merge --abort` ist hier ebenfalls **nicht** harmlos: im Index liegen zusaetzlich **86
+Dateien** frischer Lern-Loop-Arbeit von heute (u.a. `buch-run134` bis `run139`, neue
+`raw/`-Belege), die `--abort` (= `reset --merge`) verwerfen kann. Beides faellt unter Rule
+`auto-verbesserungen` 260811 und `interaktive-eingriffe` (Git-Interna). **Aktion Raphael:
+entscheiden, ob (a) der Merge mit `beide Bloecke behalten` aufgeloest und gepusht wird, oder
+(b) anders zusammengefuehrt wird.** Status: **offen, hoch — Arbeitsbaum blockiert, seit ~12:45
+erreicht kein NAS-Edit mehr GitHub.**

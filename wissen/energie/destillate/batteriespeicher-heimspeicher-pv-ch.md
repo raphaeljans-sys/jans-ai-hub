@@ -5,7 +5,7 @@ ausgabe: Web-Stand Juli 2026 (swissolar.ch/de/wissen/solarenergie-kombiniert/bat
 gelesen: 2026-07-10 (Web via WebFetch); ergänzt 2026-07-12 (WebSearch-Zitate Batteriemonitor 2025/2026); **2026-07-25 (Run 110): Batteriemonitor Schweiz 2026 als Primärquelle vollständig gelesen (44 S., curl+Read-PDF-Tool statt WebFetch — WebFetch war an der Adobe-InDesign-Kompression gescheitert)**
 datenstand: 2026 (Marktpreise/Technik-Anteile volatil, ⚠ vor Zitat prüfen); Batteriemonitor-Zahlen Stand 2025 (publiziert März 2026); Wirtschaftlichkeits-Grundaussage physikalisch/ökonomisch stabil
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-08-24
 ---
 
 # Batteriespeicher (Heimspeicher) zur PV-Anlage — lohnt sich das?
@@ -229,8 +229,12 @@ Notstrom-Komfort.
   70-%-VSE-Praxis) mit der kantonalen ZH/SZ-Baueingabe (EN-Formularen) ist noch nicht geprüft.
 - Zusammenspiel mit **ZEV/vZEV/LEG** (Speicher hinter dem gemeinsamen Messpunkt) → [[zev-eigenverbrauch-mfh-her-2025]],
   [[leg-lokale-elektrizitaetsgemeinschaft-2026]].
+- **Neu (24.08.2026):** Brandschutz-/Lagerungsanforderungen an den Speicherraum selbst sind hier
+  nicht behandelt — siehe `[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]` (AHB Stadt
+  Zürich, dreistufiges Konzept nach Energieinhalt, > 15 kWh eigener Raum nach VKF-Vorgaben).
 
 **Backlinks:** WP als thermischer Gratis-Speicher + EMS + Speichertabelle [[wp-pv-eigenverbrauch-lastmanagement]] ·
 PV-Ertrag/Eigenverbrauch real [[pv-ertrag-eigenverbrauch-praxis]] · PV-Marktpreise [[pv-marktzahlen-kosten-ch-2025]] ·
 graue Energie/Ökobilanz [[graue-energie-betriebsenergie]] · Eigenverbrauch vermarkten [[zev-eigenverbrauch-mfh-her-2025]] /
-[[leg-lokale-elektrizitaetsgemeinschaft-2026]] · Themenartikel [[pv-eigenverbrauch-zev]] / [[batteriespeicher]].
+[[leg-lokale-elektrizitaetsgemeinschaft-2026]] · Sicherheit/Lagerung [[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]] ·
+Themenartikel [[pv-eigenverbrauch-zev]] / [[batteriespeicher]].

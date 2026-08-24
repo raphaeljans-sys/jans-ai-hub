@@ -3,7 +3,7 @@ title: Sommerlicher Wärmeschutz & Hitzeschutz
 status: established
 last_updated: 2026-07-25
 datenstand: "2013 (ältester zitierter Quellenstand: EnFK-Vollzugshilfe EN-2 «Wärmeschutz von Gebäuden», Ausgabe Februar 2013, Basis SIA 380/1:2009 — im Artikelabschnitt «Vollzug» als «Gesetz [EnFK EN-2, Kap. 8]» direkt zitiert für die g-Wert-Pflicht des Sonnenschutzes und die Befreiungstatbestände. ⚠ Die Vollzugshilfen-Reihe wurde seither fortgeschrieben [Nachfolgeausgabe EN-102, Ausgabe Januar 2020, Basis SIA 380/1:2016, ebenfalls als Quelle geführt]; die zahlenmässigen Verfahrensdetails im Artikel stützen sich bereits auf EN-102/SIA 180:2014, EN-2 bleibt aber für den zitierten generischen Befreiungs-/Grundsatzteil tragend, ohne dass der Artikeltext dies ausdrücklich als Ablösung kennzeichnet.)"
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/muken-2025-verabschiedet.md]
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/muken-2025-verabschiedet.md, destillate/ahb-merkblatt-386-storensteuerung-2017.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -22,7 +22,10 @@ Wetterdaten 2035**.
 ## Die fünf Stellschrauben (in Wirkungsreihenfolge)
 1. **Sonnenschutz aussenliegend, beweglich, windfest, gesteuert** — die mit Abstand wirksamste
    Massnahme. Innenliegender Behang stoppt die Hitze kaum (die Wärme ist dann schon im Raum).
-   Blend- und Sonnenschutz **nicht in einem Behang** kombinieren.
+   Blend- und Sonnenschutz **nicht in einem Behang** kombinieren. **Konkrete Regeltechnik dazu**
+   (Grenzwerte/Verzögerungszeiten/Prioritäten Überhitzungsschutz vs. Thermoautomatik vs.
+   Blendschutz, Beispiel-Globalstrahlungsgrenzwert 250/200 W/m²) belegt in
+   `[[ahb-merkblatt-386-storensteuerung-2017]]`.
 2. **g-Wert (Verglasung + Beschattung) 0,1–0,15** als Zielwert → 85–90 % der Sonnenwärme bleiben
    draussen. Bei gekühlten Räumen zusätzlich normierte Anforderung an Steuerung + Windfestigkeit.
 3. **Speichermasse** (Massivdecken/-wände **oder schwere Faserdämmung**) puffert die Tagesspitze.

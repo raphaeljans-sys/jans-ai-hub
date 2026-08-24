@@ -1,11 +1,11 @@
 ---
-quelle: EnerG Kt. ZH (LS 730.1) § 10b + § 18; BBV I Kt. ZH (LS 700.21) § 45c; BGer 1C_37/2022 = BGE 149 I 49; kEnG Kt. SZ (SRSZ 420.100) § 8a/§ 8b/§ 22a; EnV1 Kt. SZ (SRSZ 420.111) § 24i; MuKEn 2025 (EnDK, verabschiedet 29.08.2025) Art. 5.1 Modul 5 "Sanierungspflicht dezentraler Elektroheizungen" (via energiehub-gebaeude.ch/energiepolitik-der-kantone/muken-2025/, WebFetch 2026-07-18; Kreuzverifikation gegen Schwesterdestillat wissen/energie/destillate/muken-2025-verabschiedet.md, dort primärquellenverifiziert per curl+pdftotext am EnDK-Original, Run 74, 2026-07-16)
+quelle: EnerG Kt. ZH (LS 730.1) § 10b + § 18; BBV I Kt. ZH (LS 700.21) § 45c; BGer 1C_37/2022 = BGE 149 I 49; kEnG Kt. SZ (SRSZ 420.100) § 8a/§ 8b/§ 22a; EnV1 Kt. SZ (SRSZ 420.111) § 24i; MuKEn 2025 (EnDK, verabschiedet 29.08.2025) Art. 5.1 + Art. 5.2 Modul 5 "Sanierungspflicht dezentraler Elektroheizungen" — Wortlaut jetzt DIREKT am amtlichen PDF verifiziert (curl+pdftotext, A-BLIND-Lauf 24.08.2026, energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf, S. 76/117, identischer Spiegel wie Schwesterdestillat muken-2025-verabschiedet.md Run 74)
 herausgeber: Kanton Zürich (Baudirektion, Gesetzessammlung notes.zh.ch) / Bundesgericht / Kanton Schwyz (Amt für Umwelt und Energie, Gesetzessammlung sz.ch) / EnDK (Konferenz Kantonaler Energiedirektoren)
-ausgabe: Web-Recherche, Primärquellen als PDF direkt heruntergeladen und per pdftotext im Volltext ausgewertet (ZH: Nachtrag 122/Stand 1.10.2023 EnerG, Nachtrag 124/Stand 1.4.2024 BBV I; SZ: konsolidierte Fassung Stand 1.2.2025); MuKEn 2025 Art. 5.1 via Sekundärauszug energiehub-gebaeude.ch + Kreuzverifikation gegen primärquellenverifiziertes Schwesterdestillat
-gelesen: 2026-07-14 (Run 66); 2026-07-18 (MuKEn-2025-Modul-5-Ergänzung)
-datenstand: 2026-07-18 (Web-Recherche; ZH-Regel gilt seit 1.9.2022, SZ-Regel seit Änderung vom 24.6.2021; MuKEn-2025-Umsetzungsstand ZH/SZ geprüft 18.07.2026, in beiden Kantonen noch nicht übernommen)
-status: established (Kernartikel direkt aus amtlichem PDF-Primärtext verifiziert, ZH zusätzlich bundesgerichtlich bestätigt; SZ-Ausnahmenkatalog seit Run 67 primärquellen-verifiziert über § 16a/§ 16b kEnV; MuKEn-2025-Modul-5-Ergänzung established für den Negativbefund "noch nicht kantonal umgesetzt", der Wortlaut von Art. 5.1 selbst emerging da nur via Sekundärauszug, nicht heute selbst am PDF-Original nachgeprüft); Randpunkte (exaktes ZH-Inkraftsetzungsdatum, SZ-Busse, exakter Geltungsbereich "ohne Wasserverteilsystem" in Art. 5.1) emerging
-last_updated: 2026-07-18
+ausgabe: Web-Recherche, Primärquellen als PDF direkt heruntergeladen und per pdftotext im Volltext ausgewertet (ZH: Nachtrag 122/Stand 1.10.2023 EnerG, Nachtrag 124/Stand 1.4.2024 BBV I; SZ: konsolidierte Fassung Stand 1.2.2025); MuKEn 2025 Art. 5.1/5.2, S. 76/117 (Modul 5), direkt am PDF-Original gelesen (A-BLIND-Lauf 24.08.2026)
+gelesen: 2026-07-14 (Run 66); 2026-07-18 (MuKEn-2025-Modul-5-Ergänzung, damals nur Sekundärauszug); 2026-08-24 (A-BLIND: Art. 5.1/5.2 direkt am PDF-Original verifiziert)
+datenstand: 2026-07-18 (Web-Recherche; ZH-Regel gilt seit 1.9.2022, SZ-Regel seit Änderung vom 24.6.2021; MuKEn-2025-Umsetzungsstand ZH/SZ geprüft 18.07.2026, in beiden Kantonen noch nicht übernommen); Art. 5.1/5.2-Wortlaut Stand 24.08.2026 direkt am Original verifiziert
+status: established (Kernartikel direkt aus amtlichem PDF-Primärtext verifiziert, ZH zusätzlich bundesgerichtlich bestätigt; SZ-Ausnahmenkatalog seit Run 67 primärquellen-verifiziert über § 16a/§ 16b kEnV; MuKEn-2025-Art.-5.1/5.2-Wortlaut seit 24.08.2026 direkt am PDF-Original verifiziert — established, nicht mehr emerging); Randpunkte (exaktes ZH-Inkraftsetzungsdatum, SZ-Busse) emerging
+last_updated: 2026-08-24
 ---
 
 # Elektro-Widerstandsheizungen/-Boiler — Ersatzpflicht Kt. Zürich und Kt. Schwyz
@@ -105,27 +105,44 @@ Recherche unten) — für beide Kantone gelten deshalb **weiterhin** die oben do
 bestehenden Fristen: ZH bis **2030** (§ 10b Abs. 3 EnerG), SZ bis **2050** (§ 22a kEnG). Die
 5-Jahres-Frist ist heute **nicht in Kraft**.
 
-- **Wortlaut Art. 5.1 MuKEn 2025** (Modul 5 «Sanierungspflicht dezentraler Elektroheizungen», gemäss
-  Sekundärauszug energiehub-gebaeude.ch/energiepolitik-der-kantone/muken-2025/ aus dem offiziellen
-  MuKEn-2025-Volltext, abgerufen 18.07.2026): «Bestehende ortsfeste elektrische Widerstandsheizungen
-  sind innerhalb von 5 Jahren nach Inkraftsetzung dieses Gesetzes durch Heizungen zu ersetzen, die
-  den Anforderungen dieses Gesetzes entsprechen.» Deckt sich mit dem bereits primärquellen-
-  verifizierten Befund im Schwesterdestillat `muken-2025-verabschiedet.md` (Run 74, 2026-07-16,
-  curl+pdftotext am EnDK-Original): Übergangsfrist «von 15 auf 5 Jahre verkürzt»; Begründung dort:
-  MuKEn 2025 wurde rund 11 Jahre nach MuKEn 2014 verabschiedet, die kürzere Frist führt zum selben
-  Ziel-Zeitpunkt. Das BGer-Urteil 1C_37/2022 vom 23.3.2023 (zur ZH-Regelung, oben im Abschnitt
-  «Kanton Zürich» bereits dokumentiert) hat die Verhältnismässigkeit einer Elektroheizungs-
-  Sanierungspflicht bereits grundsätzlich bestätigt und wird im Schwesterdestillat explizit als
-  Stütze für die Verkürzung angeführt.
-- **Geltungsbereich unklar/nicht deckungsgleich mit ZH/SZ (offener Punkt):** Modul 5 ist laut Titel
-  und laut dem primärquellen-gelesenen Volltext (Schwesterdestillat, Run 74) auf **dezentrale**
-  Elektroheizungen gemünzt — mutmasslich Anlagen **ohne** Wasserverteilsystem. Das deckt sich NICHT
-  eins zu eins mit den beiden bestehenden kantonalen Regelungen: ZH § 10b EnerG erfasst ALLE
-  ortsfesten Widerstandsheizungen (dezentral UND zentral) plus zentrale Elektro-Wassererwärmer; SZ
-  § 22a kEnG erfasst umgekehrt NUR zentrale Anlagen MIT Wasserverteilsystem. Bei einer künftigen
-  kantonalen MuKEn-2025-Umsetzung ist deshalb offen, ob/wie die Fristen je Anlagetyp differenziert
-  würden. Der genaue Wortlaut/Ausnahmenkatalog von Art. 5.1 wurde in dieser Session nicht selbst am
-  PDF-Original nachgeprüft (nur via Sekundärauszug) — nicht spekulieren, bei Bedarf nachrecherchieren.
+- **Wortlaut Art. 5.1 MuKEn 2025, jetzt DIREKT am amtlichen PDF-Original verifiziert** (A-BLIND-Lauf
+  24.08.2026, curl+pdftotext, energiehub-gebaeude.ch/wp-content/uploads/2025/09/
+  MuKEn2025_d-2025-08-29.pdf, S. 76/117 — derselbe Spiegel wie Schwesterdestillat
+  `muken-2025-verabschiedet.md`, Run 74): «¹ Bestehende ortsfeste elektrische Widerstandsheizungen
+  **ohne Wasserverteilsystem** zur Gebäudeheizung (dezentrale Einzelspeicheröfen,
+  Elektrodirektheizungen, Infrarotstrahler etc.) sind innerhalb von 5 Jahren nach Inkraftsetzung
+  dieses Gesetzes durch Heizungen zu ersetzen, die den Anforderungen dieses Gesetzes entsprechen.
+  ² Die Verordnung regelt die Befreiungen.» Der zuvor nur über Sekundärauszug zitierte Wortlaut
+  (Session 18.07.2026) hatte exakt die Klausel **«ohne Wasserverteilsystem»** ausgelassen — mit
+  Original-PDF bestätigt korrigiert. Deckt sich im Übrigen mit dem bereits primärquellen-
+  verifizierten Befund im Schwesterdestillat `muken-2025-verabschiedet.md` (Run 74, 2026-07-16):
+  Übergangsfrist «von 15 auf 5 Jahre verkürzt» (MuKEn-2025-Begründungstext dazu, jetzt ebenfalls
+  direkt gelesen: «Für die MuKEn 2025 wird die Übergangszeit auf 5 Jahre angepasst, so dass
+  weiterhin die gleiche Frist zur Anwendung kommt», da MuKEn 2025 rund 11 Jahre nach MuKEn 2014
+  verabschiedet wurde — gleicher Ziel-Zeitpunkt, keine reale Verschärfung des Endtermins). Das
+  BGer-Urteil 1C_37/2022 vom 23.3.2023 wird im MuKEn-2025-Begründungstext selbst als Stütze der
+  Verhältnismässigkeit zitiert (Lebensdauertabelle HEV/Mieterverband, 40 Jahre).
+- **Art. 5.2 Befreiungen (V) — vollständiger Ausnahmenkatalog, bisher nicht dokumentiert:** von der
+  Pflicht befreit sind (a) Elektroheizungen gemäss Art. 1.14 Abs. 2-4 MuKEn 2025 (Notheizungen u.ä.,
+  im Basismodul definiert, hier nicht separat verifiziert), (b) Nassräume und WC-Anlagen, (c)
+  Gebäude mit installierter Leistung ≤ 3 kW ODER elektrisch beheizter Fläche < 50 m² EBF, (d)
+  Kirchen. Auffällig: die kW-/m²-Schwelle (c) ist zahlengleich mit der ZH-Bagatellgrenze
+  (§ 45c BBV I, 3 kW/50 m², oben im Abschnitt «Kanton Zürich» dokumentiert) — MuKEn 2025 übernimmt
+  hier erkennbar die bereits bestehende ZH-Schwelle, kein Zufall, aber auch keine explizite
+  Herleitung im MuKEn-Text selbst gefunden.
+- **Geltungsbereich jetzt geklärt (vormals offener Punkt, mit dem Original gelöst):** Art. 5.1 ist
+  laut eigenem Wortlaut (nicht nur laut Modultitel, wie zuvor nur vermutet) explizit auf Anlagen
+  **ohne Wasserverteilsystem** gemünzt. Das deckt sich damit tatsächlich NICHT eins zu eins mit den
+  beiden bestehenden kantonalen Regelungen: ZH § 10b EnerG erfasst ALLE ortsfesten
+  Widerstandsheizungen (dezentral UND zentral) plus zentrale Elektro-Wassererwärmer — ZH ginge bei
+  einer MuKEn-2025-Übernahme also über den Modul-5-Mindestumfang hinaus für zentrale Anlagen; SZ
+  § 22a kEnG erfasst umgekehrt NUR zentrale Anlagen MIT Wasserverteilsystem — eine reine
+  Modul-5-Übernahme würde in SZ eine bisher NICHT erfasste Anlagekategorie (dezentral, ohne
+  Wasserverteilsystem) neu der 5-Jahres-Frist unterstellen, während die heute erfassten zentralen
+  SZ-Anlagen von Art. 5.1 selbst gar nicht gedeckt wären. Bei einer künftigen kantonalen
+  MuKEn-2025-Umsetzung bräuchte es deshalb in beiden Kantonen eine über Modul 5 hinausgehende
+  Zusatzregel, um den heutigen Geltungsbereich beizubehalten — das ist jetzt eine belegte
+  Einschätzung, keine Vermutung mehr.
 - **Kanton Zürich — kein Modul-5-Umsetzungsschritt erkennbar:** Die einzige derzeit laufende
   ZH-Energiegesetzrevision ist die enge Vorlage vom 06.01.2026 (Solarpflicht Dächer > 300 m² +
   Langzeitspeicher-Auftrag Netzbetreiber, siehe `[[zh-energiegesetz-revision-solarpflicht-2026]]`
@@ -176,11 +193,11 @@ Wohnobjekt in erschlossener Lage greift er nicht.
 - Aktuellster ZH-EnerG-Stand (Nachtrag > 122) nicht separat als PDF geprüft; da § 10b/§ 18 seit 2022
   bundesgerichtlich bestätigt und stabil gelten, ist eine inhaltliche Änderung unwahrscheinlich, aber
   nicht mit letzter Sicherheit ausgeschlossen.
-- **Neu 18.07.2026:** Wortlaut/Ausnahmenkatalog von MuKEn-2025-Art. 5.1 (Modul 5) wurde nur via
-  Sekundärauszug (energiehub-gebaeude.ch) gelesen, nicht in dieser Session selbst am EnDK-PDF-
-  Original nachgeprüft; insbesondere ist der exakte Geltungsbereich («ohne Wasserverteilsystem»?)
-  noch nicht am Wortlaut von Art. 5.1 selbst verifiziert, sondern nur über das Schwesterdestillat
-  (Modulübersicht, Run 74) plausibilisiert.
+- **GESCHLOSSEN 24.08.2026 (A-BLIND):** Wortlaut/Ausnahmenkatalog von MuKEn-2025-Art. 5.1/5.2
+  (Modul 5) direkt am PDF-Original verifiziert — Geltungsbereich «ohne Wasserverteilsystem» und
+  vollständiger Befreiungskatalog Art. 5.2 a-d jetzt belegt (siehe Abschnitt oben). Kein Fehler in
+  der Frist selbst (5 Jahre bestätigt), aber die zuvor zitierte Kurzfassung liess die Klausel
+  «ohne Wasserverteilsystem» aus — korrigiert.
 - **Neu 18.07.2026:** Negativbefund — keine amtlich dokumentierte Roadmap/Terminierung für eine
   MuKEn-2025-Modul-5-Übernahme in ZH oder SZ auffindbar (Web-Recherche 18.07.2026, u.a.
   Kantonsrat-ZH-Geschäftsdatenbank, sz.ch-Vernehmlassungsliste). Bei einer künftigen kantonalen
@@ -202,8 +219,11 @@ Wohnobjekt in erschlossener Lage greift er nicht.
 - zh.ch «Sanierungspflicht Elektroheizungen und zentrale Elektro-Wassererwärmer bis 2030».
 - Web-Quellen, abgerufen im Rahmen dieser Recherche (2026-07-14).
 - MuKEn 2025 (EnDK, verabschiedet 29.08.2025), Art. 5.1 «Sanierungspflicht dezentraler
-  Elektroheizungen» (Modul 5) — via energiehub-gebaeude.ch/energiepolitik-der-kantone/muken-2025/,
-  WebFetch 18.07.2026 (Sekundärauszug, nicht direkt PDF-Original).
+  Elektroheizungen» (Modul 5) — zuerst via energiehub-gebaeude.ch/energiepolitik-der-kantone/
+  muken-2025/, WebFetch 18.07.2026 (Sekundärauszug); **seit 24.08.2026 direkt am PDF-Original
+  verifiziert** (curl+pdftotext, energiehub-gebaeude.ch/wp-content/uploads/2025/09/
+  MuKEn2025_d-2025-08-29.pdf, 117 S., S. 76 Art. 5.1/5.2, identischer Spiegel wie das
+  Schwesterdestillat).
 - Schwesterdestillat `wissen/energie/destillate/muken-2025-verabschiedet.md` (Run 74/75,
   2026-07-16/17): Modulübersicht Modul 5 primärquellen-verifiziert per curl+pdftotext am
   EnDK-Original (117 S., Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/

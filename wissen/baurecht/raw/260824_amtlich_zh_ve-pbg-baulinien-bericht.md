@@ -12,8 +12,13 @@ status_vorlage: >
   Vorentwurf/erläuternder Bericht der Verwaltung; Vernehmlassung 2024 abgeschlossen
   (Zusammenstellung Vernehmlassungsergebnis 30.08.2024, vzgv.ch); Regierungsratsbeschluss
   Nr. 1319/2024 überweist die Vorlage im Januar 2025 an den Kantonsrat (Medienmitteilung
-  zh.ch 16.01.2025 "Regierungsrat beantragt Revision zu den Baulinien"); Stand 24.08.2026
-  laut Recherche weiterhin in Kommissionsberatung des Kantonsrats, NICHT in Kraft.
+  zh.ch 16.01.2025 "Regierungsrat beantragt Revision zu den Baulinien"). NACHTRAG 24.08.2026
+  (Buch-Run 135, raw/260824_sekundaer_zh_kantonsrat-geschaeft-6000-baulinien.md): die
+  Kommissionsberatung ist bereits abgeschlossen (KPB-Antrag 02.12.2025, 10:5 für
+  Verabschiedung), die 1. Lesung ist seit 15.06.2026 abgeschlossen (115:59 Stimmen), die
+  Redaktionskommission wurde am 02.07.2026 befasst — die frühere Notiz "weiterhin in
+  Kommissionsberatung" war zu diesem Zeitpunkt bereits veraltet. Weiterhin NICHT in Kraft
+  (keine Schlussabstimmung/Referendumsfrist/Inkraftsetzung im geprüften Bestand sichtbar).
 hinweis: >
   Ausschnitt (nicht die vollständigen 16 Seiten) — nur die für die Kernfrage
   "gilt die harmonisierte § 6c-ABV-Messweise (2 m Tiefe / halber Fassadenabschnitt) auch

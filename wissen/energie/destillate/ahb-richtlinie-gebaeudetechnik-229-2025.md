@@ -197,15 +197,29 @@ Projekt ist zuerst dieses Dokument bzw. das passende Fachmerkblatt zu prüfen.
   kantonsrat.zh.ch).
 - Die referenzierten Fachmerkblätter (376 Beleuchtung, 265 Kennzeichnung, 385 PR-NIS, 386
   Storensteuerung, 389 Lithium-Ionen-Lagerung, 393/394 Bühnentechnik/Wärmepumpen-Messkonzept u. a.)
-  sind bis auf **376, 386 und 394** noch nicht einzeln destilliert. **✓ Nachgetragen 24.08.2026:**
-  386 Storensteuerung (`[[ahb-merkblatt-386-storensteuerung]]`, established, Grenzwerte
-  Frost/Blendschutz/Thermoautomatik + Raumtyp-Matrix inkl. Bettenzimmer/Stationszimmer) und 394
-  Wärmepumpen-Messkonzept (`[[ahb-merkblatt-394-messkonzept-waermepumpen]]`, established,
-  JAZ-Definition inkl. Hilfsbetriebe + Messstellen-Staffelung nach Anlagengrösse) sind gelesen und
-  primärquellenbelegt — beide über dieselbe `stadt-zuerich.ch`-Verzeichnisstruktur gefunden wie
-  dieses Dokument. Verbleibende Kandidaten für einen künftigen Lauf: 265 Kennzeichnung, 385 PR-NIS,
-  389 Lithium-Ionen-Lagerung, 393 Bühnentechnik — geringere Healthcare-Priorität.
+  sind bis auf **393 Bühnentechnik** destilliert. Stand 24.08.2026, zusammengeführt aus zwei
+  parallel gelaufenen Destillat-Läufen: **376** (separat, siehe unten), **265**
+  `[[ahb-richtlinie-265-kennzeichnung-beschriftung-gebaeudetechnik]]`, **385**
+  `[[ahb-merkblatt-385-planungsrichtlinie-nis]]` (⚠ Datenstand 2011, 15 Jahre, Richtlinie selbst
+  sieht 4-Jahres-Prüfzyklus vor), **386** `[[ahb-merkblatt-386-storensteuerung]]` (established,
+  Grenzwerte Frost/Blendschutz/Thermoautomatik + Raumtyp-Matrix inkl. Bettenzimmer/Stationszimmer),
+  **389** `[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]`, **394**
+  `[[ahb-merkblatt-394-messkonzept-waermepumpen]]` (established, JAZ-Definition inkl. Hilfsbetriebe
+  + Messstellen-Staffelung nach Anlagengrösse).
+- ⚠ **Widerspruch zwischen den beiden Läufen, zugunsten des Destillats aufgelöst (24.08.2026):**
+  Ein Lauf hielt 394 für nicht destillierbar, weil der Textlayer leer ist
+  (`merkblatt-messkonzept-waermepumpen.pdf`, HTTP 200, 1'229'421 Byte, 10 Seiten; PyMuPDF
+  `page.get_text()` liefert auf S. 2-10 nur vereinzelte Sonderzeichen) und wollte «kein Destillat
+  ohne OCR/Bildlesung» abgeben. Der andere Lauf hat genau das getan und 394 per Bildrendering
+  gelesen. **Das Destillat existiert also und ist established** — die Aussage «394 gescheitert» ist
+  überholt. Lehre für die KB: ein leerer Textlayer ist eine Aussage über das Werkzeug, nicht über
+  die Quelle (gleiche Familie wie Rule `wege-und-vollmachten`).
+- **393 Bühnentechnik bleibt offen, gleicher Befund:** PDF gefunden und geladen
+  (`merkblatt-buehnentechnik.pdf`, HTTP 200, 1'812'725 Byte, 17 Seiten), `pdftotext -layout`
+  extrahiert von 17 Seiten nur 32 Zeilen, praktisch ausschliesslich Adress-/Titelblock — Inhalt
+  vollständig als Grafik/Schema gesetzt. Nach dem 394-Befund ist der Weg klar: mit Bildlesung
+  nachholen, nicht spekulativ nacherzählen. Geringere Healthcare-Priorität.
 - Teil 5 (Gebäudeautomation) referenziert ein eigenes «Pflichtenheft Gebäudeautomation» (Stand
   06.2025) mit eigener Dokument-Nr. — nicht Teil dieses Destillats, nicht gelesen.
 
-**Backlinks:** [[ahb-zuerich-gt-rl8-beleuchtung]] · [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] · [[gebaeudetechnik-pflichtenheft]] · [[kaeltemittel-r290-waermepumpen-ch]] · [[trinkwassererwaermung-legionellenschutz-energieeffizienz]]
+**Backlinks:** [[ahb-zuerich-gt-rl8-beleuchtung]] · [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] · [[ahb-merkblatt-386-storensteuerung-2017]] · [[ahb-richtlinie-265-kennzeichnung-beschriftung-gebaeudetechnik]] · [[ahb-merkblatt-385-planungsrichtlinie-nis]] · [[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]] · [[gebaeudetechnik-pflichtenheft]] · [[kaeltemittel-r290-waermepumpen-ch]] · [[trinkwassererwaermung-legionellenschutz-energieeffizienz]]

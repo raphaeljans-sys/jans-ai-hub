@@ -5,7 +5,19 @@ ausgabe: Kursunterlagen 2023; Label-Plattform 2023; Produktreglement Gebaeudesta
 gelesen: S. 43-57 des Foliensatzes (Zertifizierungs-Logik Gebaeude/Areal, Label-Plattform, Antrags-Checkliste, Nachweisformulare/Hilfstools, MKZ-Optimierung, Pruef-/Zertifizierungsprozess AS↔ZS)
 datenstand: 2026-06-18 (Minergie 2023, Stand 25.09.2023; Label-Plattform laeuft, Reglement periodisch revidiert)
 status: established
-last_updated: 2026-06-18
+geltungsbereich: "established gilt fuer die Prozessaussagen der gelesenen Foliensatzseiten (S. 43-57).
+  Die zitierte Reglementsversion 2023.1 ist seit 01.01.2026 durch Version 2026.1 abgeloest
+  (siehe `[[minergie-produktreglement-2026-1-muken-vergleich]]`). **Update 24.08.2026, zweiter
+  Lauf desselben Tages:** Kapitel 0-5 des Reglements 2026.1 sind inzwischen primärquellenweise
+  gelesen — die hier beschriebene Zertifizierungslogik (Antrag/Prüfung/Ausstellung über die
+  Label-Plattform) ist unter 2026.1 bestätigt unveraendert, ergänzt um neue Prozessdetails
+  (Fristen, Gebühren, Gültigkeitsdauer, Stichproben — s. Nachtrag unten). **Update 24.08.2026,
+  vierter Lauf desselben Tages:** auch Kapitel 6-13 sowie Anhang B3/C/D des Reglements 2026.1 sind
+  inzwischen primärquellenweise gelesen (s. Nachtrag unten) — established gilt damit für die
+  gesamte hier beschriebene Prozesslogik gegen 2026.1 verifiziert. Von der Antrags-
+  Checkliste/den Hilfstool-Namen (WPesti/PVopti/Lüftung/SoWs) kommt einzig **PVopti** im
+  Reglementstext selbst vor (Anhang E); die übrigen gehören zur Label-Plattform/Anwendungshilfe."
+last_updated: 2026-08-24
 ---
 
 # Destillat — Minergie: Nachweisfuehrung, Antrag & Zertifizierung (Workflow)
@@ -78,3 +90,37 @@ zum **provisorischen** und nach Bauausfuehrung zum **definitiven Zertifikat**.
 - **Abgrenzung:** Zertifizierungs-/Plattform-Bedienung im Detail → Online-Manual Minergie;
   Energierecht/Vollzug → Skill `baurecht`. WPesti als WP-Entscheidungsgrundlage → F6 /
   `[[waermepumpe-systemvergleich]]`.
+- **Nachtrag 24.08.2026 (A-BLIND-Pruefung):** Die hier zitierte Kursgrundlage (Produktreglement
+  **2023.1**) ist inzwischen durch **Version 2026.1** (gueltig ab 01.01.2026) abgeloest —
+  established belegt in `[[minergie-produktreglement-2026-1-muken-vergleich]]`. Zu diesem
+  Zeitpunkt waren die **Kapitel 1-13 des Reglements 2026.1** dort noch nicht gelesen.
+- **Nachtrag 24.08.2026, zweiter Lauf desselben Tages — Kapitel 0-5 jetzt primärquellenweise
+  gelesen** (Volltextabgleich, Details in `[[minergie-produktreglement-2026-1-muken-vergleich]]`
+  Abschnitt «Kapitel 2 — Zertifizierungsverfahren»). Ergebnis: **die hier beschriebene
+  Zertifizierungslogik (Antrag → Prüfung → provisorisches, dann definitives Zertifikat, über die
+  Label-Plattform) ist unter 2026.1 unverändert bestätigt**, ergänzt um primärquellenwörtliche
+  Details, die diese Kursgrundlage 2023 nicht enthielt: feste Fristen (3 Monate für Einreichung/
+  Nachbesserung, sonst Verfahrenseinstellung), ein begrenzter Prüfumfang (technische
+  Plausibilitätskontrolle, keine Nachrechnungspflicht), strafrechtliche Folgen bei Falschangaben
+  (Art. 253 StGB Falschbeurkundung), eine Stichprobenquote von mindestens 20 % aller zertifizierten
+  Projekte (bis 5 Jahre nach dem definitiven Zertifikat), die Gebührenstaffel (Kap. 3) und die
+  Rezertifizierungswege bei energetisch relevanten Änderungen (Kap. 2.3). **Wichtigster Einzelfund:
+  eine bisher in der KB unbelegte Gültigkeitsfrist** — das provisorische Zertifikat ist 3 Jahre
+  gültig (verlängerbar um 2), das definitive Zertifikat unbeschränkt gültig, sofern keine
+  energetisch relevante Änderung erfolgt und das Gebäude auf der Minergie-Gebäudeliste bleibt. Löst
+  `wiki/QUESTIONS.md` E-125-6 (bisher offen, s. `wiki/minergie-standards.md` Update 15.08.2026 und
+  `wiki/BAUHERREN-FAQ.md` F221).
+  **Nachtrag 24.08.2026, dritter Lauf desselben Tages — Kapitel 6-13 jetzt ebenfalls
+  primärquellenweise gelesen** (A-BLIND-Folgelauf, Details in
+  `[[minergie-produktreglement-2026-1-muken-vergleich]]` Abschnitt «Kapitel 6-13»): die technischen
+  Detailanforderungen bestätigen den bestehenden Wiki-Stand grösstenteils, korrigieren aber die
+  Elektromobilität-Ausbaustufe **C1 statt C2** (Fehler aus der Kursunterlage 2023, s.
+  `wiki/minergie-standards.md`). **Präzisierung der Hilfstool-Aussage:** eine Volltextsuche über
+  ALLE 52 Seiten (nicht nur Kap. 0-13) ergab **einen** Treffer — **PVopti wird in Anhang E einmal
+  namentlich genannt** als Minergie-eigenes Rechenprogramm für die Eigenverbrauchsberechnung.
+  WPesti, «Lüftung» als Tool-Name und SoWs kommen weiterhin an keiner Stelle des Reglementstexts
+  vor; sie gehören wie die Antrags-Checkliste selbst zur Label-Plattform/Anwendungshilfe (Version
+  2026.2), nicht zum Reglementstext. **Nachtrag 24.08.2026, vierter Lauf — Anhang B3/C/D
+  ebenfalls gelesen:** damit ist das Produktreglement 2026.1 durchgehend Kap. 0-17 + Anhang A-J
+  primärquellenweise gelesen, die hier beschriebene Prozesslogik vollständig gegen 2026.1
+  verifiziert.

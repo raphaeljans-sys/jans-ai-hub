@@ -1,7 +1,7 @@
 ---
 title: "Pflichtenheft Gebäudetechnik — was eine Bauherrschaft verbindlich vorgeben sollte"
 status: emerging
-last_updated: "2026-08-24 (Beleuchtung: aktuelles AHB-Dokumentensystem 2025 gefunden, DALI/DALI-2 + Lux-Tabelle nachgetragen, Warnhinweis zur möglichen Ablösung der RL1-RL9-Familie gesetzt)"
+last_updated: "2026-08-24 (Kennzeichnung/NIS/Lithium-Ionen-Lagerung nachgetragen — drei weitere AHB-Fachmerkblätter primärquellengelesen; zuvor: Beleuchtung, aktuelles AHB-Dokumentensystem 2025 gefunden, DALI/DALI-2 + Lux-Tabelle nachgetragen, Warnhinweis zur möglichen Ablösung der RL1-RL9-Familie gesetzt)"
 datenstand: "2008 (älteste tragende Fassung: alle neun AHB-Zürich-Richtlinien RL1-RL9 sowie die Raummodule Büro/Klassenzimmer und der Pflegezentren-Standard liegen als Version Juli 2008 vor — einzelne Erstfreigaben reichen bis 2003/2004 zurück, tragend zitiert wird aber durchgehend die Fassung Juli 2008, wie der Artikel selbst im Warnkasten festhält. ⚠ Mehrere darin referenzierte Normen sind laut eigener Aktualitätsprüfung Run 122 seither aufgehoben oder ersetzt — Art. 20a LRV per 01.01.2022, SIA 380/4 per 31.07.2019, EN 779 über EN ISO 16890 abgelöst, H-FKW-Kältemittel seit ChemRRV grösstenteils untersagt — das betrifft einzelne Zitate im Fliesstext, nicht den Datenstand der AHB-Quellen selbst)"
 sources:
   - "[[ahb-zuerich-gt-rl1-planungsgrundlagen]] bis [[ahb-zuerich-gt-rl9-gebaeudeautomation]] — Richtlinien Gebäudetechnik der Stadt Zürich, Amt für Hochbauten (AHB), Fachstelle Energie & Gebäudetechnik, Version 2.1, Juli 2008 (in Kraft seit 04.05.2004, Fassung 2.1 freigegeben 18.06.2008)"
@@ -11,6 +11,9 @@ sources:
   - "Aktualitätsprüfung der zitierten Normen: siehe outputs/2026-08-03_energie-run122.md"
   - "[[ahb-richtlinie-gebaeudetechnik-229-2025]] — AHB Stadt Zürich, «Richtlinie Gebäudetechnik (Ergänzung zur KBOB-Empfehlung)», Dok.-Nr. 229, August 2025, 17 S. vollständig gelesen (24.08.2026)"
   - "[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] — AHB Stadt Zürich, Merkblatt Nr. 376, August 2025, 2 S. vollständig gelesen (24.08.2026)"
+  - "[[ahb-richtlinie-265-kennzeichnung-beschriftung-gebaeudetechnik]] — AHB Stadt Zürich, M-System-Nr. 265, Juli 2022, S. 1-11/28 gelesen (24.08.2026)"
+  - "[[ahb-merkblatt-385-planungsrichtlinie-nis]] — AHB Stadt Zürich, M-System-Nr. 385, August 2011, S. 1-14/34 gelesen (24.08.2026)"
+  - "[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]] — AHB Stadt Zürich, M-System-Nr. 389, September 2023, S. 1-9 vollständig gelesen (24.08.2026)"
 links:
   - "[[sia-386-bacs-gebaeudeautomation]]"
   - "[[komfortlueftung]]"
@@ -289,6 +292,30 @@ Ehrlich abzugrenzen, damit der Artikel nicht mehr verspricht als er hält:
   [[energiemonitoring-submetering-grossverbraucher-zh-sz]]. Übertragbar bleibt die
   USV-Batterie-Raumtemperatur von **22-25 °C** (höhere Temperatur verkürzt die Lebensdauer
   erheblich) und die 20-30 % Platzreserve in Schaltgerätekombinationen.
+
+## Kennzeichnung, NIS und Batteriespeicher-Sicherheit (ergänzt 24.08.2026)
+
+Drei weitere, aktuelle AHB-Fachmerkblätter (referenziert in [[ahb-richtlinie-gebaeudetechnik-229-2025]],
+24.08.2026 primärquellengelesen) liefern zusätzliche, direkt pflichtenheft-taugliche Vorgaben:
+
+- **Kennzeichnung/Beschriftung** (`[[ahb-richtlinie-265-kennzeichnung-beschriftung-gebaeudetechnik]]`,
+  Juli 2022): sechsteiliger Adress-Code für Betriebsmittel/GA-Datenpunkte plus eine
+  Medien-Abkürzungstabelle je Gewerk — als Vorlage für eine einheitliche Beschriftung über
+  Elektro-, HLKS- und GA-Planer hinweg direkt übernehmbar.
+- **Nichtionisierende Strahlung PR-NIS** (`[[ahb-merkblatt-385-planungsrichtlinie-nis]]`, ⚠
+  Datenstand August 2011, 15 Jahre, vorgesehener 4-Jahres-Prüfzyklus überfällig): städtische
+  Zusatzrichtlinie zur NISV mit raumnutzungsabhängigen Grenzwerten — **Bettenzimmer in der
+  strengeren Nutzungszone A**, Stationszimmer/Behandlungsräume nur Zone B. Für ein
+  Healthcare-Mandat eine konkrete, über die blosse NISV-Konformität hinausgehende
+  Verhandlungsgrundlage; Kostenfolge Elektroinstallationen (BKP 23) 1-3 % Mehrkosten.
+- **Sichere Lagerung Lithium-Ionen-Batterien** (`[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]`,
+  September 2023): dreistufiges Konzept nach Energieinhalt (< 1 kWh sichere Platzierung,
+  1-15 kWh zertifizierter Sicherheitsschrank mit 90-Min.-Feuerwiderstand nach SN EN
+  14470-1/1363-1, > 15 kWh eigener Raum) — relevant für Velo-/E-Bike-Ladestationen und
+  PV-Heimspeicher (vgl. [[batteriespeicher-heimspeicher-pv-ch]]).
+
+Ein viertes referenziertes Merkblatt (393 Bühnentechnik) blieb wie 394 (Wärmepumpen-Messkonzept)
+undestillierbar — beide sind vollständig bildbasiert gesetzt, kein Fliesstext extrahierbar.
 
 ## Aktualitätsprüfung der zitierten Normen (Run 122, 03.08.2026)
 

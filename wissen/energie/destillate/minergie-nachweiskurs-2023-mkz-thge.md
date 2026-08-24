@@ -99,7 +99,12 @@ gewichteter Endenergie gebildete Gesamtenergiebilanz abzueglich Eigenproduktion.
   Minergie-P weiter **70 %**).
 - **Monitoring-Pflicht neu ab > 1'000 m² EBF** (vorher 2'000 m²; Minergie-A: alle Gebaeude).
 - **Elektromobilitaet:** Strom bis zu den Garagen/Parkplaetzen im Gebaeude; **Elektrifizierung von
-  60 % der Parkplaetze** (SIA-Merkblatt 2060, Ausbaustufe **C2** «Power to parking»).
+  60 % der Parkplaetze** (SIA-Merkblatt 2060, Ausbaustufe **C2** «Power to parking»). ⚠ **Korrektur-
+  Vermerk 24.08.2026:** Das primärquellenwörtlich gelesene Produktreglement 2026.1 (Kap. 13) nennt
+  für dieselbe 60-%-Anforderung durchgehend **Ausbaustufe C1**, keine Stufe C2 im Reglementstext
+  auffindbar. Zitat der Kursunterlage 2023 unveraendert stehen gelassen (Destillat-Treue); massgebend
+  fuer die aktuell geltende Fassung ist C1 → `[[minergie-produktreglement-2026-1-muken-vergleich]]`,
+  `wiki/minergie-standards.md`.
 - **Waermeerzeugung Minergie 2023:** erneuerbar, **Spitzenlast ab 80 kW Heizleistung max. 10 % fossil**
   (ausser WKK, Fernwaerme) — gegenueber Minergie 2017 (Spitzenlast max. 30 % fossil) deutlich verschaerft.
 

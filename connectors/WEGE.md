@@ -650,3 +650,44 @@ für Baurekursgericht-Entscheide die separate Entscheidnummer-Suche. Quelle:
 `wissen/baurecht/outputs/2026-08-24_buch-run126.md`,
 `wissen/baurecht/outputs/2026-08-24_buch-run127.md`,
 `wissen/baurecht/raw/260824_amtlich_zh_entscheidsuche-abdeckung-vb-1994.md`.
+
+## Nachtrag 24.08.2026 — Verfahrensstand eines Kantonsrats-Geschäfts (Kt. ZH): amtlicher XML-Webservice statt der JS-Seite
+
+**Anlass.** KB `wissen/baurecht`, Buch-Run 135/136: der Fassungsstand-Wachposten zur
+PBG-Teilrevision «Baulinien» (KR-Geschäft 6000) liess sich zunächst nur über den privaten
+Aggregator `inzh.ch` belegen, weil die offizielle Seite `kantonsrat.zh.ch/geschaefte/geschaeft/`
+clientseitig gerendert ist (JS-SPA) und `WebFetch` nur die Navigationshülle liefert — dieselbe
+Fehlerfamilie wie Fedlex und `kantonsrat.zh.ch` selbst an anderer Stelle.
+
+**Der Weg:** opendata.swiss listet unter dem Dataset
+`organisation-und-geschafte-des-zurcher-kantonsrats` (Organisation
+`fachstelle-ogd-kanton-zuerich`) den zugrunde liegenden Web-Service des
+Geschäftsverwaltungssystems selbst (Anbieter `cmicloud.ch`) als Ressource — er liefert
+servergerendertes XML und ist per `curl` direkt abrufbar, keine Anmeldung nötig:
+
+```bash
+# Dataset-Metadaten (Ressourcen-URLs) über die CKAN-API von opendata.swiss auflösen —
+# die HTML-Seite opendata.swiss/de/dataset/... liefert 403 auf WebFetch, die API selbst nicht:
+curl -sSL -A "Mozilla/5.0" \
+  "https://ckan.opendata.swiss/api/3/action/package_show?id=organisation-und-geschafte-des-zurcher-kantonsrats"
+
+# Einzelnes Geschäft per Kantonsratsnummer abfragen (Beispielabfrage im Dataset war
+# "krnr any *" — mit "all" und der konkreten Nummer liefert es genau einen Treffer):
+curl -sSL -A "Mozilla/5.0" \
+  'https://parlzhcdws.cmicloud.ch/parlzh5/cdws/Index/GESCHAEFT/searchdetails?q=krnr%20all%20%226000%22&l=de-CH&s=1&m=5'
+```
+
+Die Antwort enthält je Geschäft Titel, zuständige Direktion/Kommission und alle
+`Ablaufschritt`-Einträge (Typ, Datum, StatusText inkl. Abstimmungszahlen, verlinkte Dokumente)
+chronologisch — deckt sich am Testfall wortgleich mit dem, was `inzh.ch` als Sekundärquelle
+lieferte, macht diesen Umweg aber überflüssig.
+
+**Weitere Ressourcen desselben Datasets** (gleiches Muster, `searchdetails?q=...`, siehe
+`package_show`-Antwort): Agenda der Sitzungen, Mitglieder/Fraktionen/Kommissionen des
+Kantonsrats, Kantonsratsversand, Medienmitteilungen, Geschäfts- und Gremientypen.
+
+**Grenze:** nur der Verfahrensstand eines Geschäfts (Ablaufschritte, Dokumenttitel), keine
+Volltexte der verlinkten PDFs (dafür `eDocument`-`ID` im XML, Downloadweg nicht geprüft). Für
+den Gesetzestext selbst (nach Inkrafttreten) bleibt `zhlex.zh.ch` massgebend. Quelle:
+`wissen/baurecht/raw/260824_amtlich_zh_kr-geschaeft-6000-baulinien-cdws.md`,
+`wissen/baurecht/outputs/2026-08-24_buch-run136.md`.

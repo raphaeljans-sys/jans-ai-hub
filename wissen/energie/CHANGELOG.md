@@ -21,6 +21,800 @@ Destillate `[[ahb-merkblatt-386-storensteuerung]]`, `[[ahb-merkblatt-394-messkon
 und `wiki/gebaeudetechnik-pflichtenheft.md`. Details: `wiki/QUESTIONS.md`,
 Abschnitt «AHB-Merkblätter 386 … und 394 … primärquellenbelegt destilliert».
 
+## 2026-08-24s — A-BLIND: `anergienetz-kalte-fernwaerme-ch` — Rechtsrahmen SZ am kEnG/kEnV-Original verifiziert, alte HTTP-403-Blockade war ein Werkzeugproblem
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. Anschluss an CHANGELOG-Eintrag 24r («Übrige A-BLIND-
+Kandidaten aus 24q unverändert offen … alle drei bereits established mit primärquellen-
+Volltextlesung, daher als A-BLIND-Kandidaten fraglich — vor Auswahl prüfen, ob tatsächlich noch
+ungelesene Primärquellen offen sind»). **Betriebslage:** `wissen/energie/` lokal git-getrackt und
+vollständig vorhanden (NAS-Mount-Status irrelevant). `ps aux` vor Beginn geprüft: mindestens ein
+weiterer `claude -p`-Prozess mit identischem Energie-Prompt lief parallel (Wrapper-Namen
+`mschub801`/`mschub805`) — `git diff --numstat` nach jedem Schreibvorgang geprüft, keine Kollision
+aufgetreten. Ein lokaler `auto-sync`-launchd-Prozess auf diesem Mac hat während dieses Laufs
+selbständig committet und gepusht (Commit `79b822b2b`, «auto-sync [Macmini]: 6 Dateien geaendert»,
+enthielt drei Dateien dieses Laufs zusammen mit einem parallelen `normen`-KB-Lauf) — dieser Lauf
+selbst hat keinen `git commit`/`git push` ausgeführt, wie im Auftrag verlangt.
+
+Eigene Backlink-Zählung nachgebaut (`grep -o '\[\[[^]]*\]\]'` über `wiki/*.md` + `destillate/*.md`,
+gefiltert auf existierende Destillate-Dateinamen; 39 Destillate im 18-29-Backlink-Bereich). Die drei
+von 24r zurückgestellten Kandidaten (`pv-marktzahlen-kosten-ch-2025`, `muken-2025-modul-7-
+betriebsoptimierung-hlkkse`, `ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025`)
+sowie `fernwaerme-anschlusspflicht-zh` und `geak-klassengrenzen-relative-klassierung` (beide laut
+Register bereits primärquellen-/adversarial verifiziert) übersprungen. **Gewählt:
+`[[anergienetz-kalte-fernwaerme-ch]]`** (21 Backlinks) — der ZH-Rechtsrahmen ist seit Run 87
+(24.07.2026) `established`, der Gesamtstatus blieb aber `emerging` wegen eines expliziten offenen
+Punkts: «Kanton SZ: Seite zur kommunalen Energieplanung lieferte HTTP 403 — kein SZ-Bezug
+verifizierbar» (Run 90, 25.07.2026).
+
+Per WebSearch die tatsächlichen sz.ch-PDF-URLs gefunden (`sz.ch/public/upload/assets/5836/
+420_100.pdf` = kEnG SRSZ 420.100, `.../32457/420_111.pdf` = kEnV SRSZ 420.111) und direkt per
+`curl` heruntergeladen — beide luden mit HTTP 200 (63 KB bzw. 126 KB, 10 bzw. 22 Seiten). **Erster
+Fund:** der frühere HTTP 403 war eine falsch geratene Asset-ID beim eigenen Probe-Versuch, kein
+genereller Zugriffsblock von sz.ch — die korrekten URLs sind ohne Weiteres per `curl` erreichbar
+(kein Browser-Zugriff nötig). Mit `pdftotext -layout` (Homebrew-Pfad `/opt/homebrew/bin/pdftotext`,
+war nicht im PATH) vollständig extrahiert und gezielt auf Anschluss-/Netz-/Planungsbegriffe geprüft.
+
+**Zweiter Fund (Sachfrage):** § 5a kEnG («Der Kanton führt eine Energieplanung. Diese: a) enthält
+eine Beurteilung des aktuellen Bedarfs und Angebots an Energie im Kanton; b) liefert … die
+Entscheidungsgrundlagen für Massnahmen der Raumplanung und der Projektierung von Anlagen; c) dient
+den Gemeinden, Bezirken und den mit der Energieversorgung betrauten Unternehmen als Grundlage für
+ihre Energieplanung») und § 5b kEnG (Mitwirkungspflicht der Gemeinden/Bezirke/Energieversorger)
+sind reine Behörden-/Versorger-Normen — **keine Grundeigentümer-Anschlusspflicht**, anders als
+§ 295 Abs. 2 PBG ZH. Der Wortlaut deckt sich exakt mit dem bereits primärquellen-verifizierten
+Schwesterdestillat `[[waermeplanung-kommunal-zh-sz]]` (dort schon am 25.07.2026 dieselben zwei
+Paragraphen zitiert) — hier zusätzlich unabhängig selbst am kEnG/kEnV-Original nachgeprüft statt
+nur über den Schwesterartikel übernommen. In der kEnV taucht ein Fernwärmeanschluss nur zweimal auf:
+als freiwillige Ausnahme-Erfüllungsoption beim Wärmeerzeugerersatz (§ 24f Abs. 3 lit. b, Kapitel VII
+«Erneuerbare Wärme beim Wärmeerzeugerersatz» — Anschlussvertrag innert 3 Jahren, nur bei
+ausserordentlichen Verhältnissen statt Standardlösung) und als förderfähige Massnahme M-07 (bis
+70 kWth, Fr. 4'000.– + Fr. 200.–/kW) bzw. IP-07 (über 70 kWth) im Massnahmenkatalog. **Ergebnis:
+Bestätigung, kein Zitierfehler** — der Rechtsrahmen SZ ist jetzt primärquellenbelegt, nicht nur
+über das Schwesterdestillat übernommen, und der Gesamtstatus kann auf «Rechtsrahmen ZH+SZ
+established» präzisiert werden (die CHF/m²-Kennzahl, n=1, bleibt der einzige verbleibende
+emerging-Punkt).
+
+Eingearbeitet: `destillate/anergienetz-kalte-fernwaerme-ch.md` (Frontmatter quelle/gelesen/
+datenstand/status/last_updated erweitert, neuer Abschnitt «Rechtsrahmen SZ — amtlich verifiziert»,
+Offene-Punkte-Zeile zu SZ geschlossen, Querbezug zu `waermeplanung-kommunal-zh-sz` ergänzt),
+`destillate/INDEX.md` (neue Zeile für diesen Lauf), `wiki/BAUHERREN-FAQ.md` F111 (neuer SZ-Absatz:
+«Nein» statt der bisher rein ZH-fokussierten Antwort), `wiki/QUESTIONS.md` (neue `[x]`-Zeile
+oberhalb der A-BLIND-Meta-Zeile, neuer Top-Eintrag 24s, Backlink-Zähler nachgeführt).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `anergienetz-kalte-fernwaerme-ch.md`
++45/-9 (additiv, Frontmatter-Zeilen ersetzt statt gelöscht), `destillate/INDEX.md` +1/-0,
+`wiki/BAUHERREN-FAQ.md` +9/-2 (Ergänzung, kein Textverlust), `wiki/QUESTIONS.md` +61/-0 —
+durchgehend additiv, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand grobe Schätzung weiterhin rund 26 von 39 im
+18-29-Backlink-Bereich offen (Zählmethode hat Rundungsfehler, siehe 24q/24r). Öffentlich
+zugängliche, noch ungeprüfte Kandidaten mit konkretem Primärquellen-Zugang: `wpz-buchs-
+feldmessung-jaz-2016-2019` (25, bereits primärquellen-destilliert — vor Auswahl prüfen, ob als
+A-BLIND-Fall überhaupt noch offen), `bvv-zh-meldeverfahren-klimaanlagen-waermepumpen` (21, bereits
+established mit Originalwortlaut — ebenfalls erst prüfen), `sia-181-schallschutz-
+anforderungswerte` (20), `haushaltgeraete-effizienz-beschaffung-topten` (20), `fenster-
+energieetikette-fea-bfe` (20, bereits über Zweitquelle bestätigt). `minergie-zertifizierung-
+workflow` (29) hat laut 24o/24p noch offen geflaggte Prozesskapitel — ein legitimer Anschluss ohne
+neue Kandidatenwahl.
+
+## 2026-08-24r — Periodische Nachprüfung: Stand PBG-Revision «erleichtertes Bauen im Bestand» weiterhin ohne Kantonsratsschritt (Negativbefund bestätigt)
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** NAS zu Laufbeginn nicht gemountet,
+`wissen/energie/` lokal git-getrackt und unbetroffen. Ein zweiter `claude -p`-Prozess mit
+identischem Energie-Prompt lief parallel (PID 71949, sechs Minuten früher gestartet, gleicher
+Wrapper-Typ `mschub79x`) — echter Geschwisterlauf, kein Duplikat-Fehlalarm; `git status`/`git diff
+--numstat` vor und nach jedem Schreibvorgang geprüft, keine Kollision (der Geschwisterlauf hatte
+seine Dateien bereits committet, bevor dieser Lauf zu schreiben begann).
+
+Gewählt: `[[pbg-revision-erleichtertes-bauen-bestand-zh]]` trug seit Run 82 (20.07.2026) einen
+expliziten periodischen Prüfauftrag zum Kantonsratsstand — mit gut fünf Wochen Abstand ein
+sinnvoller Nachprüf-Termin. Sechs WebSearch-Anfragen + WebFetch auf bauimmorecht.ch, den
+zh.ch-Medienmitteilungsfilter und `inzh.ch/kantonsrat/geschaefte/` durchgeführt: **derselbe
+Negativbefund wie am 20.07.2026** — weiterhin kein Regierungsratsantrag, kein Kantonsratsgeschäft,
+kein Beschluss, kein Inkraftsetzungsdatum, keine veröffentlichte Vernehmlassungs-Auswertung
+auffindbar. Nebenfund: `inzh.ch/kantonsrat/geschaefte/id/<hash>` ist für WebFetch anders als
+`kantonsrat.zh.ch` als Klartext lesbar (echte, bis August 2026 aktuelle Geschäftsliste), aber ohne
+funktionierenden Volltext-Suchparameter nicht gezielt durchsuchbar — als Werkzeughinweis für einen
+künftigen Lauf mit Browser-Zugriff im Destillat vermerkt.
+
+Eingearbeitet: `destillate/pbg-revision-erleichtertes-bauen-bestand-zh.md` (Frontmatter
+datenstand/status/last_updated auf 24.08.2026, Kopfsatz präzisiert, neuer
+Chronologie-Eintrag 24.8.2026, Offene-Punkte-Absatz um Werkzeughinweis ergänzt),
+`destillate/INDEX.md` (Zeile 217 nachgeführt), `wiki/QUESTIONS.md` (dieser Eintrag).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `pbg-revision-erleichtertes-bauen-
+bestand-zh.md` +42/-11, `destillate/INDEX.md` +1/-1 (Zeilenersatz derselben Registerzeile),
+`wiki/QUESTIONS.md` +54/-0 — durchgehend additiv/präzisierend, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** Kein neuer Rechtsstand zu «erleichtertes Bauen im Bestand» — nächste
+periodische Prüfung nicht vor September/Oktober 2026 sinnvoll, dann mit Browser-Zugriff auf
+`inzh.ch/kantonsrat/geschaefte/` statt WebFetch versuchen. Die übrigen A-BLIND-Kandidaten aus 24q
+(`pv-marktzahlen-kosten-ch-2025`, `muken-2025-modul-7-betriebsoptimierung-hlkkse`, `ahb-merkblatt-
+376-uebersichtstabelle-beleuchtungsanforderungen-2025`) sind bereits established mit
+primärquellen-Volltextlesung — vor erneuter Auswahl als A-BLIND-Kandidat prüfen, ob dort
+tatsächlich noch ungelesene Primärquellen offen sind, nicht nur nach Backlink-Zahl auswählen.
+
+## 2026-08-24q — A-BLIND: `elektroheizungs-ersatzpflicht-zh-sz` — MuKEn-2025 Art. 5.1 «ohne Wasserverteilsystem» primärquellenbelegt, Art. 5.2-Befreiungskatalog ergänzt
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. Anschluss an CHANGELOG 24p («A-BLIND-Bestand fortsetzen,
+~28 von 39 Kandidaten offen»). **Betriebslage:** NAS zu Laufbeginn nicht gemountet, `wissen/energie/`
+lokal git-getrackt und unbetroffen. `ps` zeigte einen zweiten `claude -p`-Prozess mit identischem
+Energie-Prompt (PID 69010, Wrapper `mschub789`) — Autor von 24p, beim Start dieses Laufs bereits
+beendet und committet (`04ca71d93`), damit kein Sibling-Konflikt, sondern der reguläre Vorlauf.
+
+Eigene Backlink-Zählung über `wiki/`+`destillate/` gebildet (36 Destillate im 18-29-Backlink-Bereich),
+um einen öffentlich zugänglichen A-BLIND-Kandidaten ohne Normkauf-Blocker zu wählen. Gewählt:
+`[[elektroheizungs-ersatzpflicht-zh-sz]]` (21 Backlinks) — der Wortlaut von MuKEn-2025 Art. 5.1
+(Modul 5) war seit 18.07.2026 als «nur via Sekundärauszug gelesen, nicht selbst am PDF-Original
+nachgeprüft» geflaggt.
+
+PDF eigenständig heruntergeladen (`curl`, 117 S., identisch mit dem im Schwesterdestillat
+`muken-2025-verabschiedet.md` bereits verwendeten Spiegel energiehub-gebaeude.ch), mit `pdftotext
+-layout` volltext-extrahiert, Art. 5.1/5.2 auf S. 76 gelesen.
+
+**Hauptfund:** die bisher zitierte Kurzfassung von Art. 5.1 liess die Klausel **«ohne
+Wasserverteilsystem»** aus, die im Originaltext direkt am Artikel selbst steht (nicht nur im
+Modultitel, wie zuvor nur vermutet). Der zuvor offen geführte Geltungsbereich ist damit
+primärquellenbelegt geklärt: eine reine Modul-5-Übernahme würde in ZH die zentralen
+Elektro-Wassererwärmer nicht abdecken (heute über § 10b EnerG erfasst) und in SZ eine bisher nicht
+erfasste Anlagekategorie neu unterstellen, während die heute in SZ erfassten zentralen Anlagen von
+Art. 5.1 selbst gar nicht gedeckt wären — beide Kantone bräuchten bei einer Übernahme eine
+Zusatzregel. Art. 5.2 (Befreiungen) erstmals vollständig dokumentiert: Notheizungen Art. 1.14
+Abs. 2-4, Nassräume/WC, Gebäude ≤ 3 kW oder < 50 m² EBF, Kirchen — die kW-/m²-Schwelle ist
+zahlengleich mit der ZH-Bagatellgrenze (§ 45c BBV I). Die 5-Jahres-Frist selbst und der
+Negativbefund «noch nicht kantonal umgesetzt» bleiben unverändert bestätigt.
+
+Eingearbeitet: `destillate/elektroheizungs-ersatzpflicht-zh-sz.md` (Frontmatter Status auf
+established gehoben, Wortlaut- und Art.-5.2-Abschnitt neu, Geltungsbereich-Analyse präzisiert,
+Offene-Punkte-Zeile geschlossen, Quellenliste ergänzt), `wiki/BAUHERREN-FAQ.md` F98 (Zitat
+korrigiert, Art. 5.2 ergänzt, Status established), `destillate/INDEX.md` (Zeile 164),
+`wiki/QUESTIONS.md` (Eintrag 24q).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `elektroheizungs-ersatzpflicht-zh-sz.md`
++54/-34, `BAUHERREN-FAQ.md` +25/-21 — durchgehend additiv/präzisierend/korrigierend, keine Löschung
+von Bestand.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand ~27 von 39 Kandidaten im 18-29-Backlink-Bereich offen
+(`ecobkp-2026-methodik-und-uebersicht`/`ecobkp-2026-gebaeudehuelle` als eigener Themenfaden nicht
+erneut einzeln listen). Konkrete, öffentlich zugängliche nächste Kandidaten: `pv-marktzahlen-
+kosten-ch-2025`, `muken-2025-modul-7-betriebsoptimierung-hlkkse`, `rrb-2025-1082-klimaanlagen-
+bewilligungspraxis-zh`, `geak-klassengrenzen-relative-klassierung`, `ahb-merkblatt-376-
+uebersichtstabelle-beleuchtungsanforderungen-2025`, `waermeplanung-kommunal-zh-sz`. Unverändert
+blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf), E-R161-1
+(SN EN ISO 6946, Normkauf), E103/E94 (Entscheid Raphael bzw. Recherchewege erschöpft).
+
+## 2026-08-24p — Anhang B3/C/D des Produktreglements 2026.1 gelesen (Reglement damit vollständig), PVopti-Pauschalaussage korrigiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. Anschluss an CHANGELOG 24o («Anhang B3, C, D lesen —
+danach ist das gesamte Reglement primärquellenweise abgedeckt»). **Betriebslage:** NAS nicht
+gemountet (unbetroffen, lokal git-getrackt); `ps`/Elternprozess-Prüfung bestätigte den einzigen
+gefundenen `claude -p`-Prozess mit gleichem Energie-Prompt (PID 69010) als eigenen Elternprozess
+(Wrapper `mschub789`) — kein Sibling-Lauf zu dieser KB.
+
+PDF eigenständig heruntergeladen (`curl`, 52 S. bestätigt), PyPDF2-Volltextextraktion. **Gelesen:
+Anhang B3** (JAZ-/Nutzungsgrad-Standardwerte, Gewichtungsfaktoren g), **Anhang C** (thermischer
+Komfort Sommer, drei Nachweisvarianten), **Anhang D** (Lüftung mit natürlicher Nachströmung:
+Schallschutz ALD, Filterklassen, Infiltrationszuschlag) — alle vollständig. Produktreglement 2026.1
+damit **von 52 Seiten durchgehend Kap. 0-17 + Anhang A-J primärquellenweise gelesen**.
+
+**Hauptfund 1:** Anhang D ist ein bisher unbelegtes Themenfeld — eigene, strengere
+Minergie-Anforderungen für ALD-basierte Lüftung ohne zentrales Gerät (Schallschutz SIA 181:2020
++3 dB Neubau-EFH/DEFH/REFH/STWEG, Filterklasse ISO ePM2,5 70 % an belasteten Lagen,
+Infiltrationszuschlag auf 10 % reduzierbar bei P/A-Luftdichtheit). Eingearbeitet in
+`wiki/komfortlueftung.md`. Anhang C bestätigt nur den bestehenden Wiki-Stand (keine neue Zahl).
+Anhang B3 liefert amtliche JAZ-Standardwerte (Erdsonden-WP 3,10/2,70, Aussenluft-WP 2,30/2,30 u. a.),
+jetzt im Destillat tabelliert.
+
+**Hauptfund 2 (Korrektur):** frühere Läufe (24l/m) hatten pauschal festgehalten, die Hilfstool-Namen
+WPesti/PVopti/Lüftung/SoWs kämen „im Reglementstext gar nicht vor" — geprüft war das nur gegen
+Kap. 0-13. Volltextsuche über alle 52 Seiten: **PVopti wird in Anhang E einmal namentlich genannt**
+(Minergie-eigenes Rechenprogramm für Eigenverbrauch). WPesti/Lüftung/SoWs bleiben unbelegt. Korrigiert
+in `destillate/minergie-produktreglement-2026-1-muken-vergleich.md` und
+`destillate/minergie-zertifizierung-workflow.md`.
+
+Eingearbeitet: `destillate/minergie-produktreglement-2026-1-muken-vergleich.md` (Frontmatter, drei
+neue Abschnitte, Offene-Punkte gekürzt), `destillate/minergie-zertifizierung-workflow.md`
+(Frontmatter, Nachtrag korrigiert), `wiki/komfortlueftung.md` (Frontmatter, neuer Abschnitt),
+`destillate/INDEX.md` (zwei Registerzeilen), `wiki/QUESTIONS.md` (Eintrag 24p).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: additiv/präzisierend, keine Löschung von
+Bestand (siehe Detailwerte im QUESTIONS-Eintrag 24p).
+
+**Für den nächsten Lauf:** Produktreglement 2026.1 vollständig gelesen, kein offener Leseauftrag zu
+diesem Dokument mehr. Sinnvoller Folgeschritt: zweites Refuter-Panel für Kap. 0-13/Anhang B3/C/D/H/J
+nachholen, oder A-BLIND-Bestand fortsetzen (~28 von 39 Kandidaten offen, `ecobkp-2026-methodik-
+und-uebersicht` nicht erneut listen). Unverändert blockiert: E-R230-2 (Raphael), 393/394
+(OCR-Werkzeug), SIA 380/1:2016 (Normkauf), E-R161-1 (SN EN ISO 6946, Normkauf), E103/E94 (Entscheid
+Raphael bzw. Recherchewege erschöpft).
+
+## 2026-08-24o — A-BLIND-Folgelauf: Kapitel 6-13 des Produktreglements 2026.1 gelesen, Elektromobilität-Fehler C2→C1 korrigiert, Luftdichtheit-q_E50-Lücke gelöst
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. Anschluss an CHANGELOG-Eintrag 24m («Für den nächsten
+Lauf: Kapitel 6-13 des Produktreglements 2026.1 primärquellenweise gegenlesen»). **Betriebslage:**
+NAS zu Laufbeginn nicht gemountet, `wissen/energie/` lokal git-getrackt und unbetroffen.
+
+PDF eigenständig heruntergeladen (`curl`, 52 Seiten) und mit PyPDF2 volltextextrahiert. Für zwei
+Stellen, an denen PyPDF2 keinen sauberen Fliesstext lieferte (Kap. 6.2 Luftdichtheit, Kap. 13
+Elektromobilität-Ausbaustufen je Gebäudekategorie), zusätzlich mit `pdfplumber` (nachinstalliert)
+tabellenweise extrahiert. **Gelesen: Kapitel 6-13 vollständig** (Gebäudehülle, sommerlicher
+Komfort, Wärmeerzeugung, Warmwasser, Lufterneuerung, Elektrizitätsbedarf, Eigenstromerzeugung,
+Elektromobilität) — das Produktreglement 2026.1 ist damit durchgehend Kap. 0-17 primärquellenweise
+gelesen, nur Anhang B3/C/D bleiben offen.
+
+**Hauptfund 1 (Fehlerkorrektur):** `wiki/minergie-standards.md` zitierte für die 60-%-
+Elektromobilitäts-Pflicht «SIA 2060 C2» (übernommen aus der Kursunterlage 2023,
+`[[minergie-nachweiskurs-2023-mkz-thge]]`). Primärquellenwörtlich verlangt das Reglement 2026.1
+Kap. 13 für alle ladepflichtigen Gebäudekategorien durchgehend **Ausbaustufe C1** — die
+vollständige Tabelle (Kategorien I-XII) listet ausschliesslich A oder C1, keine Stufe C2, bestätigt
+durch die unabhängige Anhang-A-Vergleichstabelle. Wiki auf C1 korrigiert, Kursunterlage-Zitat mit
+Korrektur-Vermerk stehen gelassen (Destillat-Treue).
+
+**Hauptfund 2 (offen geflaggte Extraktionslücke gelöst):** `[[minergie-besser-planen-bauen]]` hatte
+vermerkt, die q_E50-Luftdichtheitstabelle aus Kap. 6.2 liesse sich nicht zuverlässig auslesen. Mit
+pdfplumber jetzt sauber extrahiert: eine einzige, kategorie-übergreifende Tabelle — nur
+**Minergie-P/-A: 0,8 m³/(h·m²) Neubau, 1,6 Erneuerung**; für den Basisstandard nennt das Reglement
+keinen eigenen Zahlenwert (nur allgemeine SIA-180-Konformität, Messpflicht nur für P/A). Der
+bisher für den Basisstandard zitierte Wert 1,2/1,6 stammt nachweislich aus der Planungsbroschüre
+2023, nicht aus dem Reglement — in Destillat und Wiki entsprechend präzisiert, nicht gelöscht.
+
+**Nebenfunde (bestätigend):** Heizwärmebedarf 90/70/90 % Q_H,li MuKEn 2025 + Untergrenze
+15 kWh/(m²·a); Wärmeerzeugung-Spitzenlastregel (ab 80 kW max. 10 % fossil); Monitoring-Schwelle
+1'000 m² — deckungsgleich mit dem Bestand. Neu dokumentiert: Warmwasser-Effizienzfaktor 0,9 bei
+⅔ Armaturen Klasse A, Lufterneuerungs-Ausnahmen, 50-%-Zuschlag bei gekippten Fenstern in der
+Erneuerung, Beleuchtungs-Standardwert +20 % bei unbekanntem Mieterausbau.
+
+Eingearbeitet: `destillate/minergie-produktreglement-2026-1-muken-vergleich.md` (Frontmatter,
+neuer Abschnitt «Kapitel 6-13», Offene-Punkte gekürzt), `destillate/minergie-besser-planen-bauen.md`
+(offener Punkt gelöst), `destillate/minergie-nachweiskurs-2023-mkz-thge.md` (Korrektur-Vermerk),
+`wiki/minergie-standards.md` (Tabelle + Update-Absatz korrigiert, neuer Luftdichtheit-Absatz),
+`wiki/QUESTIONS.md` (neuer Eintrag 24o), `destillate/INDEX.md` (drei Registerzeilen).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv/präzisierend (Destillat
+88+/11-, Wiki 20+/5-, Nachweiskurs 6+/1-, Besser-planen-bauen 12+/9-), keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** Anhang B3, C, D des Produktreglements 2026.1 lesen — danach ist das
+gesamte Reglement primärquellenweise abgedeckt. Unverändert blockiert: E-R230-2 (Raphael),
+393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf), E-R161-1 (SN EN ISO 6946, Normkauf), E103
+(Entscheid Raphael), E94 (Innendämmung CHF/m², Recherchewege erschöpft).
+
+## 2026-08-24n — A-BLIND: `gebaeudeprogramm-bund-hfm-2015` — 607-Mio.-Zahl und 18-Module-Tabelle primärquellenbestätigt, KIG-Impulsprogramm als dritte Geldquelle ergänzt, Förderrisiko Entlastungsprogramm 2027 vermerkt
+
+Bewusst ein Nicht-Minergie-Thema gewählt, da beim Start ein echter Sibling-Prozess (PID 60629,
+identisches Energie-Prompt, nicht der eigene Elternprozess) erkennbar am Produktreglement
+2026.1 arbeitete — Kollisionsvermeidung. A-BLIND-Kandidat `[[gebaeudeprogramm-bund-hfm-2015]]`
+(27 Backlinks) gewählt: `established`, aber bisher nur Web-Seiten-Sichtung ohne Originalzitat,
+eigener Vorbehalt «Web-Stand, vor Zitat pruefen».
+
+Zwei Primärquellen per WebFetch geladen und mit PyMuPDF volltextextrahiert (pdftotext auf dieser
+Station nicht installiert): Medienmitteilung Das Gebäudeprogramm 26.08.2025 (3 S.) und
+HFM-2015-Schlussbericht (endk.ch, 136 S., Kap. 1 + Tabelle 1 gelesen). **Bestätigt:** die
+607-Mio.-CHF-Zahl für 2026 und die 18-Module-Tabelle M-01–M-18 sind primärquellenwörtlich korrekt,
+kein Fehler gefunden. **Echte Lücke geschlossen:** eine dritte, bisher unbelegte Geldquelle
+(KIG-Impulsprogramm, 2 Mrd. CHF/10 Jahre, seit 18.06.2023 ins Gebäudeprogramm integriert, 2025
+zusätzlich 127 Mio. CHF an Kantone) ergänzt, Rechtsgrundlage um das KIG erweitert. **Neuer
+Vorbehalt:** die Quelle selbst nennt das Programm als vom Bundes-Entlastungsprogramm 2027
+betroffen, Prüfungsergebnis offen — als ⚠ für Bauherren-Aussagen über 2026 hinaus vermerkt.
+
+Eingearbeitet: `destillate/gebaeudeprogramm-bund-hfm-2015.md`, `destillate/INDEX.md`,
+`wiki/foerderung-energie-zh.md`, `wiki/QUESTIONS.md` (Eintrag 24n). `git diff --numstat` nach
+jedem Schreibvorgang geprüft: durchweg additiv/präzisierend, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand jetzt ~27 von 39 Kandidaten offen (u. a.
+`pv-marktzahlen-kosten-ch-2025`, `muken-2025-modul-7-betriebsoptimierung-hlkkse`,
+`gebaeudeschadstoffe`, `wpz-buchs-feldmessung-jaz-2016-2019`, `komfortlueftung`,
+`holzbau-bauphysik-clt`). Details: `wiki/QUESTIONS.md` 24n.
+
+## 2026-08-24m — A-BLIND-Folgelauf: Kapitel 0-5 des Produktreglements 2026.1 gelesen, E-125-6 (Zertifikat-Gültigkeit) gelöst
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** NAS zu Laufbeginn nicht gemountet
+(`wissen/energie/` lokal git-getrackt, unbetroffen).
+
+Gelesen: CHANGELOG-Eintrag `24l` («Für den nächsten Lauf: Volltextprüfung Kapitel 1-13 des
+Produktreglements 2026.1 gegen die Antrags-Checkliste/Hilfstools-Liste»). Umgesetzt: eigener
+PDF-Download (`curl`, 52 Seiten bestätigt) + PyPDF2-Volltextextraktion der Originalquelle.
+**Gelesen: Kapitel 0 (Präambel), 1 (Allgemeines), 2 (Zertifizierungsverfahren, vollständig), 3
+(Gebühren), 4 (Technische Grundsätze), 5 (Gesamtenergiebilanz-Einführung/MKZ).** Kapitel 6-13
+bewusst nicht gelesen — grösstenteils bereits über `[[minergie-standards]]`/Anhang A/G/H/J
+abgedeckt, eigener Folgelauf.
+
+**Hauptfund:** Kapitel 2.1.3/2.2.3 lösen `wiki/QUESTIONS.md` E-125-6 (offen seit Run 125,
+07.08.2026, zuletzt «stärkerer Negativbefund» 15.08.2026). Primärquellenwörtlich: provisorisches
+Zertifikat 3 Jahre gültig (+2 Jahre Fristverlängerung möglich), definitives Zertifikat
+unbeschränkt gültig, sofern keine energetisch relevante Änderung erfolgt und das Gebäude auf der
+Minergie-Gebäudeliste bleibt; bei energetisch relevanter Änderung Rezertifizierung nötig (Kap.
+2.3.1, kostenpflichtig, max. 50 % der ordentlichen Gebühr). Weitere primärquellenwörtliche
+Prozessdetails ohne bisherigen Beleg in der KB: 3-Monats-Fristen für Einreichung/Nachbesserung,
+begrenzter Prüfumfang (technische Plausibilitätskontrolle statt Nachrechnungspflicht),
+strafrechtliche Folgen bei Falschangaben (Art. 253 StGB), Stichprobenquote ≥20 % aller
+zertifizierten Projekte bis 5 Jahre nach dem definitiven Zertifikat, Gebührenstaffel.
+
+**Nebenfund (Negativbefund per Volltextsuche):** Die Antrags-Checkliste und die Hilfstool-Namen
+(WPesti, PVopti, Lüftung, SoWs) aus `[[minergie-zertifizierung-workflow]]` kommen im
+Reglementstext (Kap. 0-13) nicht vor — sie gehören zur Label-Plattform/Anwendungshilfe (2026.2),
+einer anderen Quelle. Kein neuer offener Punkt, sondern eine Geltungsbereichs-Abgrenzung.
+
+Eingearbeitet: `destillate/minergie-produktreglement-2026-1-muken-vergleich.md` (Frontmatter,
+neuer Abschnitt «Kapitel 2 — Zertifizierungsverfahren», Offene-Punkte-Absatz), `destillate/
+minergie-zertifizierung-workflow.md` (Frontmatter, Nachtrag-Absatz), `wiki/minergie-standards.md`
+(Gültigkeitsdauer-Absatz gelöst), `wiki/BAUHERREN-FAQ.md` F221 (Fachlich/Bauherren-Transfer/
+Quelle), `wiki/QUESTIONS.md` (E-125-6 → `[x]`, neuer Eintrag `24m`), `destillate/INDEX.md`
+(beide Registerzeilen nachgeführt).
+
+`git diff --numstat` gegen den Vorgänger-Commit geprüft (die vier Kern-Dateien wurden durch den
+laufenden Auto-Sync-Prozess der Station bereits zwischenzeitlich committet, Diff daher gegen
+Commit `cd0891078` statt Arbeitsverzeichnis gebildet): `minergie-produktreglement-2026-1-muken-
+vergleich.md` +77/-8, `minergie-zertifizierung-workflow.md` +31/-14, `BAUHERREN-FAQ.md` +15/-7,
+`minergie-standards.md` +12/-8 — durchgehend additiv/präzisierend, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** Kapitel 6-13 des Produktreglements 2026.1 gegen den bestehenden
+Bestand primärquellenweise gegenlesen (bisher nur über Anhänge/Sekundärabgleich abgedeckt).
+A-BLIND-Bestand unverändert: rund 28 von 39 Backlink-Kandidaten offen (`ecobkp-2026-methodik-
+und-uebersicht` nicht erneut listen). Unverändert blockiert: E-R230-2 (Raphael), 393/394
+(OCR-Werkzeug), SIA 380/1:2016 (Normkauf).
+
+## 2026-08-24l — A-BLIND: `minergie-zertifizierung-workflow` — Reglementsversion 2023.1 gegen 2026.1 geprüft, Prozesskapitel als ungeprüft geflaggt
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** NAS zu Laufbeginn nicht gemountet
+(`wissen/energie/` lokal git-getrackt, unbetroffen). `ps aux` zeigte einen weiteren `claude -p`-
+Prozess mit demselben Energie-Prompt (PID 57407) — per `ps -p $$`/Elternprozess-Prüfung als eigener
+Elternprozess dieser Session identifiziert, kein Sibling-Lauf zu dieser KB (parallel liefen nur
+`normen`- und `baurecht`-Läufe, andere KBs).
+
+Gelesen: CHANGELOG-Eintrag k («nächste Kandidaten `minergie-zertifizierung-workflow` (23) und
+`ecobkp-2026-methodik-und-uebersicht` (24)»). **Vorab-Korrektur:** `ecobkp-2026-methodik-und-
+uebersicht` war laut den Einträgen i/j bereits an mehreren Vorläufen desselben Tages vollständig
+geschlossen — k hatte offenbar nicht den vollen Tagesbestand von `wiki/QUESTIONS.md` durchsucht
+(dieselbe Prozessbeobachtung wie schon in j). Nicht erneut bearbeitet.
+
+**Fund:** `destillate/minergie-zertifizierung-workflow.md` zitiert Produktreglement Version 2023.1
+(Nachweiskurs 25.09.2023) als Grundlage. Seit 01.01.2026 gilt Version 2026.1 — established belegt
+in `[[minergie-produktreglement-2026-1-muken-vergleich]]` (datenstand 2026-08-07), das aber
+ausdrücklich nur Kapitel 14-17 + ausgewählte Anhänge liest, **nicht** die Prozesskapitel 1-13, in
+denen Label-Plattform/Antrags-Checkliste/Prüfrunden-Logik geregelt wären. Zwei Teilaspekte sind
+über `wiki/minergie-standards.md` (Update 15.08.2026) indirekt bestätigt (Label-Plattform statt
+Excel-Mappe; keine Zertifikatsbefristung laut offizieller Ablauf-Seite) — die übrige Prozessdetail-
+Liste bleibt bis zu einer echten Volltextprüfung der Kapitel 1-13 als Stand 2023 zu behandeln.
+
+Eingearbeitet: `destillate/minergie-zertifizierung-workflow.md` (Frontmatter `geltungsbereich` neu,
+`last_updated` aktualisiert, Nachtrag-Absatz in «Offene Punkte»), `destillate/INDEX.md` (⚠-Vermerk),
+`wiki/QUESTIONS.md` (Eintrag «2026-08-24l»). Status bleibt `established` (Prozessaussagen der
+gelesenen Seiten weiterhin primärquellenbelegt; Vorbehalt im Geltungsbereich statt pauschaler
+Abwertung, Rule-Vorgabe).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/minergie-zertifizierung-
+workflow.md` +19/-1, `destillate/INDEX.md` +1/-1, `wiki/QUESTIONS.md` +46/-0 — durchgehend
+additiv/präzisierend, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** Volltextprüfung Kapitel 1-13 des Produktreglements 2026.1 gegen die
+Antrags-Checkliste/Hilfstools-Liste (neuer Primärquellen-Lesevorgang). A-BLIND-Bestand: 11 von 39
+Backlink-Kandidaten geprüft, rund 28 verbleiben (`ecobkp-2026-methodik-und-uebersicht` nicht erneut
+listen). Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf).
+
+## 2026-08-24k — A-BLIND: `kaeltemittel-r290-waermepumpen-ch` — CH-Marktanteil R290 an FWS-Primärquelle bestätigter Negativbefund
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** NAS zu Laufbeginn nicht gemountet
+(`wissen/energie/` lokal git-getrackt, unbetroffen); `ps aux` zeigte nur den eigenen Prozess, keinen
+parallelen Sibling-Lauf zu dieser KB.
+
+Gelesen: CHANGELOG-Eintrag j (Abschluss der A-WERKZEUG-Alterskorpus-Liste, Empfehlung «nächster
+Einstieg: verbleibende A-BLIND-Backlink-Kandidaten aus der h-Lauf-Liste») und `wiki/QUESTIONS.md`
+bis zum aktuellen Stand. Aufgenommen: `kaeltemittel-r290-waermepumpen-ch` (29 Backlinks), von
+Run h explizit mit Recherchehinweis «evtl. FWS-Rohdaten prüfen» benannt.
+
+**Fund:** die FWS-Statistikseite selbst war schon geprüft, nie aber die tatsächlichen PDF-Daten.
+Zwei aktuellste FWS-Publikationen heruntergeladen (`fws.ch/download/marktentwicklung-q4-2025/`,
+`fws.ch/download/statistik-2023/`) und per PyMuPDF vollständig gelesen. Ergebnis: die
+FWS-Statistikstruktur (Jahres- wie Quartalsberichte) gliedert ausschliesslich nach Bauart,
+Leistungsklasse und Energiequelle — eine Kältemittel-Aufschlüsselung existiert dort nicht. Der
+bisherige Negativbefund «CH-Marktanteil R290 nicht gefunden» ist damit primärquellenseitig
+bestätigt statt nur vermutet.
+
+Eingearbeitet: `destillate/kaeltemittel-r290-waermepumpen-ch.md` (Frontmatter, Abschnitt
+«Marktverfügbarkeit CH 2025/2026», Offene-Punkte-Liste, Quellen), `destillate/INDEX.md`
+(Statuszeile), `wiki/QUESTIONS.md` (Eintrag «2026-08-24k»).
+
+`git diff --numstat` nach dem Schreibvorgang geprüft: `destillate/kaeltemittel-r290-waermepumpen-ch.md`
++32/-14, `destillate/INDEX.md` +1/-1, `wiki/QUESTIONS.md` +48/-0 — durchgehend additiv/präzisierend,
+keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand — 10 von 39 Backlink-Kandidaten geprüft, ~29 verbleiben;
+nächste Kandidaten `minergie-zertifizierung-workflow` (23) und `ecobkp-2026-methodik-und-uebersicht`
+(24, kleinere Merkblatt-Lücken). Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug),
+SIA 380/1:2016 (Normkauf).
+
+## 2026-08-24j — A-WERKZEUG-Alterskorpus-Liste abgeschlossen: sechs Wiki-Themenartikel geprüft, Koordinationslücke zwischen zwei Parallelläufen dokumentiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. **Betriebslage:** `ps aux` zeigte
+zwei weitere `claude -p`-Prozesse mit demselben energie-Prompt sowie einen dritten für `wissen/
+normen` — bewusst ein anderer Faden als der zweite energie-Prozess gewählt. Beim Schreiben zeigte
+sich, dass dieser Sibling zwischenzeitlich einen eigenen Eintrag mit derselben Buchstabenfolge
+(«i») committet hatte (`minergie-besser-planen-bauen`, A-BLIND) — dieser Eintrag daher auf «j»
+verschoben, keine Kollision, kein Datenverlust (per `grep` am committeten Stand verifiziert).
+
+Von den 16 im Vorlauf («h») für den nächsten Lauf benannten Alterskorpus-Kandidaten waren **acht
+bereits in einem früheren, ebenfalls heutigen Eintrag** («A-WERKZEUG-Alterskorpus-Liste gegen
+FAQ-Propagation geprüft: kein neuer Fund») einzeln geprüft — der h-Lauf hatte nur den zuletzt
+committeten CHANGELOG-Stand gelesen, nicht den vollen Tagesbestand von `wiki/QUESTIONS.md`, und so
+unwissentlich Kandidaten erneut gelistet. Alle acht nochmals stichprobenartig gegengeprüft: Befund
+bestätigt, keine Datei verändert.
+
+Die verbleibenden **sechs Kandidaten sind reine Wiki-Themenartikel** ohne gleichnamiges Destillat
+(`geak-gebaeudeenergieausweis`, `innendaemmung`, `notstromversorgung-sicherheitsstromversorgung`,
+`pv-eigenverbrauch-zev`, `solarwaerme-warmwasser`, `elektromobilitaet-ladeinfrastruktur`) — genau
+die Prüfebene, die die 5353-Session als eigenen, kleineren Nachlauf offengelassen hatte. Alle sechs
+einzeln an ihrer ältesten Quellenangabe geprüft: durchweg trägt entweder der Fliesstext selbst ein
+⚠/die Jahreszahl inline, oder die zitierende FAQ-Antwort einen eigenen Datenstand-Vorbehalt.
+**Kein neuer Fund.**
+
+**Damit ist die gesamte A-WERKZEUG-Alterskorpus-Liste (~30 Kandidaten, destillate- und wiki-Ebene)
+jetzt mindestens einmal einzeln geprüft** — über alle heutigen Läufe hinweg genau ein echter Fund
+(Duschwasser-WRG F133, im h-Lauf behoben), sonst durchweg saubere Propagation.
+
+**Prozessbeobachtung für künftige Läufe:** parallele Sessions am selben Tag sollten vor einer
+«Für den nächsten Lauf»-Liste den vollen Tagesbestand von `wiki/QUESTIONS.md` durchsuchen, nicht nur
+den zuletzt committeten CHANGELOG-Eintrag lesen, sonst entsteht Doppelarbeit wie hier. Unverändert
+blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf). Details/Belege je
+Kandidat: `wiki/QUESTIONS.md`, Eintrag «2026-08-24j».
+
+`git diff --numstat` nach dem Schreibvorgang: nur `wiki/QUESTIONS.md` verändert (dieser Eintrag),
+keine weitere Datei — reine Verifikation ohne inhaltlichen Fund, additiv.
+
+## 2026-08-24i — A-BLIND: `minergie-besser-planen-bauen` Nichtwohnbau-Limiten am Produktreglement 2026.1 gelesen, `ecobkp-2026-methodik-und-uebersicht` + E-R161-2 gegengeprüft (kein neuer Fund)
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** `ps aux` zeigte beim Start mehrere
+parallele `claude -p`-Läufe, davon mindestens einen weiteren `energie`-Lauf mit eigenem, aktiv auf
+dieselben Dateien (`CHANGELOG.md`/`QUESTIONS.md`) schreibendem Prozess (anderer Laufname als der
+eigene) — dessen fertig geschriebener, aber noch unversionierter Stand («h», A-WERKZEUG) wurde beim
+Start dieses Laufs zuerst committet, um ihn vor Kollisionen zu sichern. Anschliessend bewusst einen
+anderen Faden gewählt: den A-BLIND-Kandidaten `minergie-besser-planen-bauen` (27 Backlinks) aus der
+Kandidatenliste des Vorlaufs «g», statt des vermutlich vom Sibling zuerst gegriffenen
+`kaeltemittel-r290-waermepumpen-ch`.
+
+**Vorab zwei Kandidaten gegengeprüft, kein neuer Fund:** `ecobkp-2026-methodik-und-uebersicht` ist
+bereits seit drei Läufen desselben Tages vollständig geschlossen (alle Offene-Punkte-Einträge ✓,
+nur E-R230-2/Raphael-Entscheid offen); E-R161-2 (Stora-Enso-λ-Diskrepanz 0,12 vs. 0,110 W/mK) am
+Original selbst (178-S.-PDF, Dropbox-Kopie, PyPDF2 vollständig gelesen) bestätigt exakt den bereits
+in FAQ F15 seit Run 161 dokumentierten Befund — beide Werte stehen im selben Dokument, S. 6 (Normzitat)
+vs. S. 41ff. (Bauteilkatalog-Tabellenwert).
+
+**Hauptfund:** `minergie-besser-planen-bauen` — Primärquelle «Produktreglement Gebäudestandards
+MINERGIE/-P/-A», Version 2026.1 (Ausgabe 08.01.2026, gültig ab 01.01.2026, minergie.ch, 52 S.,
+vollständig mit PyPDF2 gelesen). Drei Befunde: (1) keine fixe MKZ-kWh/m²-Tabelle je
+Nichtwohnbau-Kategorie — die Kennzahl ist stets projektspezifisch berechnet; (2) Heizwärmebedarf-
+Prozentsatz (90/70/90 %) gilt einheitlich für alle Kategorien, nicht gestaffelt; (3) der
+Elektrizitäts-Standardbedarf (Beleuchtung/allg. Gebäudetechnik/Geräte) ist dagegen klar
+kategorieabhängig — vollständige Tabellen Kat. III-XI eingearbeitet, Kat. XII (Hallenbad) ohne
+Standardwert. Nicht lösbar: q_E50-Luftdichtheitstabelle für Zweckbauten (S. 13) aus der
+PDF-Textextraktion nicht sauber auslesbar (Tabellenlayout-Grafik) — bewusst nicht geschätzt, als
+neuer offener Punkt vermerkt statt erfunden.
+
+Eingearbeitet: `destillate/minergie-besser-planen-bauen.md` (neuer Abschnitt, Frontmatter
+`last_updated`, Offene-Punkte-Liste aktualisiert), `destillate/INDEX.md` (Registerzeile ergänzt),
+`wiki/minergie-standards.md` (neuer Kurzabschnitt mit Verweis, keine Volltabellen-Dopplung).
+
+**Für den nächsten Lauf:** A-BLIND-Bestand — `kaeltemittel-r290-waermepumpen-ch` (29) und
+`minergie-zertifizierung-workflow` (23) weiterhin ungeprüft (vor Bearbeitung `git log`/`ps aux`
+prüfen wegen paralleler Läufe); `innendaemmung-altbau-bauphysik-ch` (23) unverändert blockiert
+(SMGV-Merkblatt 70 kostenpflichtig). Neuer eigenständiger Punkt: q_E50 Nichtwohnbau-Luftdichtheit
+im Produktreglement 2026.1 S. 13 direkt am Bildschirm statt per Textextraktion prüfen. Unverändert
+blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/minergie-besser-planen-bauen.md`
++57/-2, `destillate/INDEX.md` +1/-1, `wiki/minergie-standards.md` +11/-0, `wiki/QUESTIONS.md`
++~50/-0 — durchgehend additiv/präzisierend, keine Löschung von Bestand. `git status`/`git fetch` vor
+jedem Schreibvorgang geprüft: keine gleichzeitige Fremdänderung an den editierten Dateien während
+der Bearbeitung.
+
+## 2026-08-24h — A-WERKZEUG: 14 Alterskorpus-Kandidaten gegen FAQ-Zitierstellen geprüft, eine echte Propagations-Lücke (Duschwasser-WRG-Kosten) behoben
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. **Betriebslage:** `ps aux` zeigte
+beim Start drei parallele `claude -p`-Läufe insgesamt, davon einen weiteren `energie`-Lauf (andere
+PID, ~6 Min. CPU-Vorsprung, committeter Stand «g» nannte die A-BLIND-Backlink-Warteschlange als
+eigene nächste Schritte) — bewusst ein anderer, unblockierter Faden gewählt. Das NAS war zu
+Laufbeginn nicht gemountet; `wissen/energie/` liegt lokal git-getrackt, unbetroffen, `--hub`-Flag
+von `datenstand-waechter.py` gegen das lokale Repo statt NAS gesetzt.
+
+Der offene A-WERKZEUG-Punkt («Trefferlisten der beiden neuen Prüfwerkzeuge nicht abgearbeitet»,
+Rest «~30 Destillate mit Alterskorpus ≥ 18 Monate NICHT einzeln bearbeitet») wieder aufgenommen.
+`datenstand-waechter.py energie` liefert 39 Befunde; **14 der ~30 Alterskorpus-Kandidaten einzeln
+gegen ihre Zitierstellen in `wiki/BAUHERREN-FAQ.md` gelesen** (Liste im QUESTIONS-Eintrag). **13
+waren bereits sauber propagiert** — die eigene ⚠-Disziplin der KB trägt. **Eine echte Lücke:** F133
+(Duschwasser-Wärmerückgewinnung Joulia) zitierte die Herstellerzahl CHF 600.–/3 Jahre Payback aus
+Oktober 2020 ohne Alters-Vorbehalt im Fliesstext — nur eine irreführende Datenstand-Fusszeile
+(«25.07.2026», tatsächlich nur die spätere GEAK-/SIA-385/2-Teilrecherche). Das Destillat selbst
+trug den Vorbehalt bereits korrekt; die Lücke lag ausschliesslich in der FAQ-Weitergabe.
+
+**Behoben in `wiki/BAUHERREN-FAQ.md` F133:** expliziter ⚠-Vorbehalt im Fliesstext (Quelle Okt.
+2020, keine 2025/26er-CH-Marktpreise gefunden trotz Recherche, vor Kostenzusage mit Offerte
+gegenprüfen) + Datenstand-Zeile in zwei Alter getrennt (GEAK/SIA-385/2-Stand vs. Kosten-Stand).
+
+**Für den nächsten Lauf:** rund 16 Alterskorpus-Kandidaten der 39er-Liste weiterhin nicht einzeln
+geprüft (vollständige Liste im QUESTIONS-Eintrag, u. a. `zev-eigenverbrauch-mfh-her-2025`,
+`pv-eigenverbrauch-zev`, `geak-gebaeudeenergieausweis`, `sonnendach-solarpotenzial-bfe`). Die
+31-Themenartikel-ohne-`datenstand`-Teilfrage ist laut früherem Eintrag bereits auf 37/37
+geschlossen. Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016
+(Normkauf).
+
+`git diff --numstat` nach dem Schreibvorgang: `wiki/BAUHERREN-FAQ.md` +10/-6, `wiki/QUESTIONS.md`
++56/-0 — additiv/präzisierend, keine Löschung von Bestand. `wiki/BAUHERREN-FAQ.md` wurde
+zwischenzeitlich durch den launchd-Auto-Sync committet (gemeinsam mit unabhängigen Änderungen des
+parallelen `normen`-Laufs); Edit im committeten Stand per `grep` verifiziert, kein Verlust.
+
+## 2026-08-24g — A-BLIND: MuKEn-2025-Art.-1.23-Wortlaut am amtlichen EnDK-Basismodul-PDF verifiziert, Artikelnummer und siebte Monitoring-Funktion korrigiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** `ps aux` zeigte beim Start keinen
+parallelen Lauf desselben Prompts (nur dieser Prozess). Vorab CHANGELOG + letzten Lauf gelesen
+(«Für den nächsten Lauf»: E-R230-2 weiterhin Raphael vorzulegen, 393/394 OCR-Werkzeug nötig,
+A-BLIND-Bestand rund 20 von ~40 Kandidaten im 18-29-Backlink-Bereich weiterhin einzeln zu prüfen).
+Backlink-Zählung selbst nachgebaut (`[[...]]`-Referenzen in `wiki/*.md`+`destillate/*.md`, gefiltert
+auf existierende Destillate): 39 Kandidaten im 18-29-Bereich, davon acht bereits in Vorläufen
+einzeln geprüft (siehe `outputs/2026-08-24_a-blind-schwelle-18-29-backlinks-krnr-6062-6063.md`) —
+`[[sia-386-bacs-gebaeudeautomation]]` (29 Backlinks) war unter den noch ungeprüften.
+
+**Konkret benannter, primärquellen-gestützt schliessbarer offener Punkt gefunden und geschlossen:**
+`[[sia-386-bacs-gebaeudeautomation]]` führte den Literal-Wortlaut von «MuKEn 2025 Art. D.1.23»
+bislang als offenen Punkt («Basismodul-PDF auf endk.ch technisch nicht auffindbar», nur zwei
+konvergierende Sekundärquellen). Das amtliche EnDK-Basismodul-PDF («Projekt MuKEn 2025, Stand
+29.08.2025», 117 Seiten) wurde jetzt über `endk.ch/publikationen/` gefunden
+(`endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf`), heruntergeladen und vollständig
+mit PyPDF2 gelesen. **Zwei primärquellenbelegte Korrekturen:**
+1. Die amtliche Artikelnummer lautet **«Art. 1.23»** (fortlaufende Nummerierung im Basismodul),
+   nicht «Art. D.1.23» — «D» bezeichnet nur den Teil-Buchstaben («Teil D Anforderungen an
+   gebäudetechnische Anlagen»), ist aber nicht Bestandteil der Artikelnummer.
+2. Der Artikel nennt **sieben** Überwachungsfunktionen (a–g), nicht sechs: die bisherige, aus
+   zwei Sekundärquellen (energiehub-gebaeude.ch, offizielle Minergie-Vergleichstabelle)
+   rekonstruierte Liste hatte Funktion c) «Ermittlung der Energieeffizienz-Kennzahlen von
+   Wärmerückgewinnungs- und Abwärmenutzungsanlagen» **vollständig ausgelassen** und bei
+   Funktion e) die Aussentemperatur nicht genannt. Beide Sekundärquellen waren in den
+   übernommenen Punkten korrekt, aber unvollständig — kein Widerspruch, sondern eine Auslassung,
+   die erst durch die Volltext-Lektüre auffiel.
+
+Eingearbeitet: `destillate/sia-386-bacs-gebaeudeautomation.md` (Frontmatter `quelle`/`gelesen`/
+`datenstand`/`last_updated`, «Das Wichtigste in 1 Satz», Abschnitt 1 der «Schweizer Praxisbezug»-
+Liste mit vollem Wortlaut a–g, Bauherren-Transfer, Offene Punkte geschlossen),
+`destillate/INDEX.md` (Registerzeile), `wiki/INDEX.md` (Registerzeile), `wiki/BAUHERREN-FAQ.md`
+(F153 Kerntext + Quelle/Datenstand), `destillate/ahb-zuerich-gt-rl9-gebaeudeautomation.md`
+(Artikelnummer-Verweis).
+
+**Für den nächsten Lauf:** unverändert E-R230-2 (Raphael vorzulegen), 393/394 (beide bildbasiert,
+OCR-Werkzeug nötig). A-BLIND-Bestand: von den 39 aktuell gezählten 18-29-Backlink-Kandidaten sind
+jetzt 9 einzeln geprüft (8 aus dem Vorlauf + `sia-386-bacs-gebaeudeautomation` heute); rund 30
+verbleiben — u. a. `kaeltemittel-r290-waermepumpen-ch` (29), `minergie-besser-planen-bauen` (27),
+`rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh` (24, eigener Offener-Punkt-Absatz bereits
+gegen den RRB-Primärtext gegengeprüft in diesem Lauf, siehe unten — kein neuer Fund, Nuance
+bereits korrekt dokumentiert), `ecobkp-2026-methodik-und-uebersicht` (24), `minergie-
+zertifizierung-workflow` (23), `innendaemmung-altbau-bauphysik-ch` (23, SMGV-Merkblatt 70
+kostenpflichtig, nicht lösbar ohne Kauf) als nächste Kandidaten mit am ehesten primärquellen-
+schliessbaren offenen Punkten.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/sia-386-bacs-gebaeudeautomation.md`
++45/-31 (Frontmatter präzisiert, Kernabschnitt mit vollem Wortlaut ersetzt, Offener Punkt
+geschlossen — additiv/präzisierend, keine Löschung von Bestand ausserhalb der korrigierten
+Textstellen selbst), `destillate/INDEX.md` +1/-1, `destillate/ahb-zuerich-gt-rl9-
+gebaeudeautomation.md` +1/-1, `wiki/INDEX.md` +1/-1, `wiki/BAUHERREN-FAQ.md` +6/-6 (jeweils
+gezielte Zahlen-/Wortlaut-Korrektur, keine Struktur geändert). Keine der editierten Dateien war
+zum Bearbeitungszeitpunkt gleichzeitig durch einen Sibling-Lauf verändert (kein weiterer `claude
+-p`-Prozess laut `ps aux` beim Start und danach).
+
+## 2026-08-24f — SIA 2024-C2:2025-Korrigenda gefunden: freie Energie-/Leistungsbedarfswerte für Bettenzimmer/Stationszimmer/Behandlungsraum
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. **Betriebslage:** ein weiterer
+paralleler Lauf desselben Prompts lief bereits (andere PID, 6 Min. früher gestartet, laut
+Zwischenstand in `/tmp/ahb-merkblaetter/` an den AHB-Fachmerkblättern 265/385/389/393, siehe
+24.08.24d/e) — bewusst ein anderer, unblockierter Punkt gewählt.
+
+**`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`** (63 Backlinks, meistzitiertes
+Gesundheitsbau-Destillat, Status emerging) hatte einen konkret benannten offenen Punkt:
+energytools.ch (kostenlose SIA-2024-Raumdatenblätter) war technisch nicht abrufbar. energytools.ch
+bleibt bestätigt tot (301-Redirect auf eine JS-SPA), aber über `shop.sia.ch` wurde die **Korrigenda
+SIA 2024-C2:2025** (gültig ab 1.6.2025) gefunden — ersetzt die Tabellen 4–9/11/14–17/20 des
+Merkblatts vollständig und ist, anders als das Merkblatt selbst, **kostenlos** (eigener Hinweis im
+Dokument). Deutsche + französische Fassung geladen (`shop.sia.ch/<GUID>/D|F/DownloadAnhang`, kein
+Login/Bezahlvorgang), beide vollständig mit PyPDF2 gelesen und wertegleich verglichen.
+
+**Zwei primärquellenbelegte Funde:**
+1. Konkrete Energie-/Leistungsbedarfswerte (Standard/Ziel/Bestand) für 8.01 Bettenzimmer, 8.02
+   Stationszimmer, 8.03 Behandlungsraum — schliesst den Punkt «kein W/m²-Kennwert für
+   Klimakälteleistung Spital/Pflege gefunden» (31.9/64.6/60.2 W/m² Standard). Reconciliation: die
+   Grundlagenbericht-Zahl «Behandlungsraum-Elektrizität gesamt 120 kWh/m²» ist durch C2:2025 auf
+   93.7 kWh/m² korrigiert (echte Normkorrektur zwischen Okt. 2024 und 1.6.2025, kein KB-Fehler).
+2. Anhang F (Tabelle 20) führt Kategorie VIII weiterhin **undifferenziert als eine Spalte
+   «Spital»** (34.3 kWh/m²EBF·a Elektrizität Standard) — relativiert die an anderer Stelle in
+   dieser KB aus dem Grundlagenbericht rekonstruierten Werte «VIII.1≈36/VIII.2≈30»: plausibel
+   bestätigt in der Grössenordnung, aber die Norm selbst differenziert auf Gebäudekategorie-Ebene
+   nicht zwischen Akutspital und Pflegeheim.
+
+Eingearbeitet: `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (neuer Abschnitt,
+zwei offene Punkte geschlossen/präzisiert, Frontmatter, Quellen), `destillate/INDEX.md` (Zeile
+präzisiert), `wiki/BAUHERREN-FAQ.md` (F78 mit Kennwerten ergänzt, Run-80-Stelle um Nachtrag
+ergänzt), `wiki/QUESTIONS.md` (neuer Abschnitt).
+
+**Für den nächsten Lauf:** Volle Raumdatenblätter mit Eingabeparametern (Personendichte,
+Betriebsstunden-Profile) bleiben kostenpflichtig; energytools.ch selbst bleibt technisch
+unerreichbar. E-R230-2 (Raphael vorzulegen), 393/394 (bildbasiert, OCR-Werkzeug), A-BLIND-Bestand
+unverändert.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/sia-2024-
+nutzungsrandbedingungen-gesundheitsbau.md` +25/-9, `destillate/INDEX.md` +1/-1,
+`wiki/BAUHERREN-FAQ.md` +27/-11, `wiki/QUESTIONS.md` additiv — durchgehend additiv/präzisierend
+(Ersetzungen sind Text-Präzisierungen bzw. «Nachtrag»-Ergänzungen ohne Verlust der Historie),
+keine Löschung von Bestand. Keine der editierten Dateien war zum Prüfzeitpunkt gleichzeitig durch
+einen Sibling-Lauf verändert.
+
+## 2026-08-24e — Brandschutz-Lücke in `batteriespeicher` geschlossen: bestehendes VKF-Destillat nie ins Wiki eingearbeitet
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand, danach in die Wiki-Artikel einarbeiten. **Betriebslage:** Beim Start liefen laut
+`ps aux` mindestens zwei weitere parallele Läufe desselben Prompts (Run-Namen `mschub741`,
+`mschub745`, dieser Lauf `mschub749`) — sie destillierten zeitgleich die AHB-Fachmerkblätter
+265/385/389/393 (siehe 24.08.24d). Um Kollisionen auf denselben Dateien zu vermeiden, wurde
+bewusst ein anderer, unblockierter Punkt bearbeitet.
+
+**Bestandslücke:** `wiki/batteriespeicher.md` — das Kernprodukt für die Bauherren-Frage «lohnt
+sich ein Batteriespeicher», verlinkt aus FAQ F38 — enthielt bislang **keinen Brandschutz-
+Abschnitt**, obwohl die KB seit Run 94 (25.07.2026) ein vollständiges, `established`
+primärquellenbelegtes Destillat dazu führt: `[[vkf-lithium-batteriespeicher-brandschutz]]`
+(VKF-Brandschutzmerkblatt 2005-15 + FAQ 2005-01, Hazard-Level-Tabelle HL I < 15 kWh / HL II
+15-100 kWh EI 60 bzw. EI 30 bei LFP / HL III > 100 kWh, Mindestabstand 2,5 m). Das Destillat war
+nie in den zugehörigen Wiki-Artikel eingearbeitet worden.
+
+**Geschlossen:** neuer Abschnitt «Brandschutz / sichere Lagerung» in `wiki/batteriespeicher.md`
+(Tabelle nach Speicherkapazität, Hinweis auf die LFP-Chemie-Abfrage in der Ausschreibung), plus
+Verweis auf das zeitgleich vom Sibling-Lauf destillierte `[[ahb-merkblatt-389-lithium-ionen-
+batterien-lagerung]]` für kleinere mobile Akkus (Velo-/E-Bike-Ladestationen). FAQ **F38** um
+denselben Brandschutz-Kern ergänzt (2,5 m Mindestabstand, EI 30/60, Chemie-Abfrage). Frontmatter
+(`sources`, `links`, `datenstand`) von `wiki/batteriespeicher.md` nachgeführt — `datenstand` neu
+1.6.2021 (ältester zitierter Stand, VKF-Grundlagentabelle), nicht mehr nur 2025 (Marktzahlen).
+
+**Nebenfund:** Das neue Destillat `[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]`
+behauptete in seinen «Offenen Punkten», das VKF-Brandschutzmerkblatt sei «in dieser KB nicht
+vorhanden» — zum Bearbeitungszeitpunkt bereits falsch (das VKF-Destillat existierte seit Run 94).
+Richtiggestellt: konkreter Verweis mit Kernzahlen, Hinweis dass die 15-kWh-Schwelle beider
+Dokumente dieselbe Zahl aus verschiedenen Regelwerken ist (kein Widerspruch, sondern Bestätigung).
+
+**Für den nächsten Lauf:** unverändert E-R230-2 (Raphael vorzulegen), 393/394 (beide bildbasiert,
+OCR-Werkzeug nötig), A-BLIND-Bestand (rund 20 von ~40 Kandidaten im 18-29-Backlink-Bereich). Die
+in Dok. 229 referenzierte Fachmerkblatt-Liste ist damit vollständig abgearbeitet bis auf 393/394.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/ahb-merkblatt-389-lithium-
+ionen-batterien-lagerung.md` +10/-3, `wiki/batteriespeicher.md` +30/-4, `wiki/BAUHERREN-FAQ.md`
++5/-0 — durchgehend additiv/präzisierend, keine Löschung von Bestand. Keine der editierten
+Dateien war zum Bearbeitungszeitpunkt gleichzeitig durch einen Sibling-Lauf verändert (vorab und
+danach per `git status`/`git diff --numstat` geprüft).
+
+## 2026-08-24d — Drei weitere AHB-Fachmerkblätter destilliert (265 Kennzeichnung, 385 PR-NIS, 389 Lithium-Ionen-Lagerung), 393 Bühnentechnik als bildbasiert dokumentiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand, danach in die Wiki-Artikel einarbeiten. Anschluss an den Vorlauf (24.08.24c), dessen
+«Für den nächsten Lauf» die vier noch unerforschten, in `[[ahb-richtlinie-gebaeudetechnik-229-2025]]`
+referenzierten AHB-Fachmerkblätter benannte: 265 (Kennzeichnung), 385 (PR-NIS), 389
+(Lithium-Ionen-Lagerung), 393 (Bühnentechnik). Vor Beginn den `- [ ]`/`- [~]`-Bestand
+gegengeprüft: unverändert praktisch alles an Raphaels Entscheid gebunden (E103, E94,
+E-R148-1/-2, E-R161-1, E-R230-2) oder als P3/P4 ausgeschöpft dokumentiert (E-R134-3, E-R150-3,
+E-R132-4) — die vier benannten Merkblätter waren der einzige konkret benannte, unblockierte Rest.
+
+**Alle vier PDFs im selben `stadt-zuerich.ch/.../energie-gebaeudetechnik/`-Verzeichnis gefunden**
+(Kandidaten-URLs per WebSearch ermittelt, danach `curl -sI` gegen jede Kandidaten-URL verifiziert,
+HTTP 200/application/pdf vor Download), mit `pdftotext -layout` volltextextrahiert (kein
+PyMuPDF/fitz in dieser Python-Umgebung installiert, `pdftotext` als gleichwertige Alternative
+verwendet).
+
+**265 Kennzeichnung und Beschriftung Gebäudetechnik (Juli 2022, V 3.0) grösstenteils destilliert**
+→ `[[ahb-richtlinie-265-kennzeichnung-beschriftung-gebaeudetechnik]]` (neu, `emerging`, S. 1-11/28
+gelesen): sechsteiliger Adress-Code für Betriebsmittel/GA-Datenpunkte, Medien-Abkürzungstabelle je
+Gewerk (u. a. PV-Kürzel EPE/EPP/EPR für Eigenverbrauch/Produktion/Rückspeisung). Kap. 3.2-4
+(Kennfarben, Detailregeln, Anhang-Beispiele) nicht ausgewertet — als offener Punkt vermerkt.
+
+**385 Planungsrichtlinie Nichtionisierende Strahlung PR-NIS (August 2011, V 2.1) grösstenteils
+destilliert** → `[[ahb-merkblatt-385-planungsrichtlinie-nis]]` (neu, `emerging`, S. 1-14/34
+gelesen, Anhänge A-E nicht ausgewertet): ergänzt die eidgenössische NISV um raumnutzungsabhängige
+Grenzwerte (Nutzungszone A = besonders empfindlich, u. a. **Bettenzimmer**; Zone B = übrige
+Daueraufenthaltsräume, u. a. **Stationszimmer/Behandlungsräume**) mit konkreten Zahlenwerten
+(50 Hz: NZA 0.4 µT/50 V/m, NZB 1 µT/500 V/m) und einer Kostenfolge von 1-3 % Mehrkosten BKP 23.
+**Datenstand-Warnung gesetzt:** die Richtlinie selbst sieht einen 4-Jahres-Prüfzyklus vor, seit
+der letzten dokumentierten Revision (2011) sind das mindestens drei ausgefallene Zyklen (⚠⚠⚠
+15 Jahre). Ergänzt das bereits vorhandene, noch ältere `[[elektrosmog-informationsblatt-ahb-ewz]]`
+(2002, allgemeines Infoblatt ohne eigenes Zonensystem) um die konkrete AHB-Systematik —
+gegenseitig verlinkt.
+
+**389 Sichere Lagerung von Lithium-Ionen-Batterien (September 2023) vollständig destilliert** →
+`[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]` (neu, `established`, 9/9 S. vollständig):
+dreistufiges Konzept nach Energieinhalt (< 1 kWh sichere Platzierung, 1-15 kWh zertifizierter
+Sicherheitsschrank mit 90-Min.-Feuerwiderstand nach SN EN 14470-1/1363-1, > 15 kWh eigener Raum
+Hazard Level II/III). In `wiki/batteriespeicher.md` bereits durch einen parallel laufenden Lauf
+eingearbeitet und mit dem dort vorhandenen `[[vkf-lithium-batteriespeicher-brandschutz]]`
+zusammengeführt (die 15-kWh-Schwelle des AHB-Merkblatts und die HL-I/II-Grenze des
+VKF-Merkblatts sind dieselbe Zahl, kein Widerspruch) — dieser Abgleich lag ausserhalb der
+eigenen Bearbeitung dieses Laufs, wurde aber beim `git diff`-Check sichtbar und ist inhaltlich
+korrekt, keine Korrektur nötig.
+
+**393 Bühnentechnik (17.06.2020) gescheitert, gleicher Befund wie das bereits zuvor dokumentierte
+394 Wärmepumpen-Messkonzept:** PDF gefunden und geladen (`merkblatt-buehnentechnik.pdf`, HTTP 200,
+1'812'725 Byte, 17 Seiten), `pdftotext -layout` liefert von 17 Seiten nur 32 Zeilen — praktisch
+ausschliesslich Adress-/Titelblock, der Inhalt ist vollständig als Grafik/Schema gesetzt. Kein
+Destillat ohne OCR/Bildlesung möglich, als Negativbefund in
+`[[ahb-richtlinie-gebaeudetechnik-229-2025]]` (Offene Punkte) nachgetragen statt spekulativ
+nacherzählt.
+
+Eingearbeitet: drei neue Destillate, `destillate/ahb-richtlinie-gebaeudetechnik-229-2025.md`
+(Offene Punkte + Backlinks aktualisiert), `destillate/INDEX.md` (drei neue Zeilen),
+`wiki/gebaeudetechnik-pflichtenheft.md` (neuer Abschnitt + Frontmatter sources/last_updated),
+`destillate/elektrosmog-informationsblatt-ahb-ewz.md` (Querverweis + Backlinks),
+`destillate/batteriespeicher-heimspeicher-pv-ch.md` (Querverweis zu 389). `git diff --numstat`
+nach jedem Schreibvorgang geprüft: durchgehend additiv, keine Löschung von Bestand. Vier der
+Destillate (`ahb-richtlinie-gebaeudetechnik-229-2025.md` + die drei neuen) wurden zwischenzeitlich
+durch den laufenden Mac-Mini-Autosync in Commit `3ea6f2425` erfasst, bevor dieser Lauf selbst
+committen konnte — Inhalt beim Nachprüfen unverändert korrekt übernommen.
+
+**Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid ecoBKP) bleibt Raphael vorzulegen.
+393/394 brauchen ein OCR-/Bildlese-Werkzeug, keine erneute Textextraktion. Kap. 3.2-4 von 265
+(Kennfarben, Detailregeln) und die Anhänge A-E von 385 (Grenzwert-Herleitung, Messmethodik,
+Zonenplan-Muster) sind für ein konkretes Mandat nachzuholen. A-BLIND-Bestand unverändert (rund
+20 von ~40 Kandidaten im 18-29-Backlink-Bereich weiterhin einzeln zu prüfen) — in diesem Lauf
+nicht berührt, da die vier benannten Merkblätter Vorrang hatten.
+
+## 2026-08-24c — AHB-Merkblatt 386 Storensteuerung destilliert, AHB-Merkblatt 394 Wärmepumpen-Messkonzept als bildbasiert dokumentiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand, danach in die Wiki-Artikel einarbeiten. Anschluss an den Vorlauf («A-BLIND-Kandidat
+`ahb-zuerich-gt-rl8-beleuchtung`»), dessen «Für den nächsten Lauf» zwei referenzierte, noch nicht
+einzeln destillierte AHB-Fachmerkblätter aus `[[ahb-richtlinie-gebaeudetechnik-229-2025]]` nannte:
+386 Storensteuerung und 394 Wärmepumpen-Messkonzept (beide als «am ehesten JANS-relevant»
+priorisiert). Vor Beginn den `- [ ]`/`- [~]`-Bestand gegengeprüft: unverändert praktisch alles an
+Raphaels Entscheid gebunden (E103, E94, E-R148-1/-2, E-R161-1, E-R230-2) oder als P3/P4
+ausgeschöpft dokumentiert (E-R134-3, E-R150-3, E-R132-4) — die beiden Merkblätter waren der
+einzige konkret benannte, unblockierte Rest.
+
+**Beide PDFs im selben `stadt-zuerich.ch/.../energie-gebaeudetechnik/`-Verzeichnis wie Dok. 229
+gefunden** (Kandidaten-URLs per `curl -sI` durchprobiert, HTTP 200/application/pdf vor Download
+verifiziert): `merkblatt-storensteuerung.pdf` (386, 353'611 Byte, 33 S.) und
+`merkblatt-messkonzept-waermepumpen.pdf` (394, 1'229'421 Byte, 10 S.), beide mit PyMuPDF
+volltextgelesen.
+
+**386 Storensteuerung (März 2017) vollständig lesbar und destilliert** →
+`[[ahb-merkblatt-386-storensteuerung-2017]]` (neu, `established`). Erstes
+Storensteuerungs-Primärdokument der KB: Grenzwerte/Verzögerungszeiten/Prioritäten je Funktion
+(Produktschutz Wind/Frost/Hagel/Niederschlag/Brand als Stufe 1 sperrt alles; Überhitzungsschutz +
+Thermoautomatik mit Beispiel-Globalstrahlungswert 250/200 W/m² als Stufe 2; Blendschutz 25/18 kLux
+als Stufe 3), Ausfallverhalten (Windsensor 48 h, sonst 1 h Detektionsfrist), Wartungsintervalle
+(2×/Jahr erste 2 Jahre, danach 1×/Jahr, Interventionszeit max. 48 h), drei Systemklassen mit
+Empfehlung normierter Systeme (KNX) statt proprietär. Konkretisiert `[[sommerlicher-waermeschutz]]`
+Stellschraube 1 («aussenliegend, beweglich, windfest, gesteuert») und `[[fenster-uw-g-wert-
+zielkonflikt]]` (Tab.-8-Steuerungsanteil) um die dahinterliegende Regeltechnik, bisher nur
+allgemein benannt.
+
+**394 Wärmepumpen-Messkonzept (Juni 2020) ist bildbasiert, kein Destillat möglich.** Der Textlayer
+liefert auf 9 der 10 Seiten praktisch nichts (nur die Titelseite trägt extrahierbaren Text) — der
+Inhalt ist vollständig als Schema/Grafik gesetzt. Bewusst nicht spekulativ nacherzählt (Rule
+`wissens-bibliothekar`, Destillat-Treue); als Negativbefund in
+`[[ahb-richtlinie-gebaeudetechnik-229-2025]]` (Offene Punkte) dokumentiert, damit ein künftiger
+Lauf denselben Weg nicht wiederholt, sondern gezielt ein OCR-/Bildlese-Werkzeug einsetzt.
+
+Eingearbeitet: `destillate/ahb-merkblatt-386-storensteuerung-2017.md` (neu),
+`destillate/ahb-richtlinie-gebaeudetechnik-229-2025.md` (Offene Punkte, Backlinks),
+`destillate/INDEX.md` (neue Zeile), `wiki/sommerlicher-waermeschutz.md` (Stellschraube 1 + Quelle),
+`wiki/fenster-uw-g-wert-zielkonflikt.md` (Tab.-8-Absatz), `wiki/BAUHERREN-FAQ.md` (F11
+Beispielwerte), `wiki/QUESTIONS.md`. `git diff --numstat` nach jedem Schreibvorgang geprüft: alle
+additiv bzw. mit den erwarteten ersetzten Zeilen, keine fremde Löschung (zwei Dateien —
+`sommerlicher-waermeschutz.md` und die neue Destillat-Datei — bereits durch den laufenden
+Mac-Mini-Autosync in Commit `0938e9925` erfasst, bevor dieser Lauf selbst committen konnte).
+
+**Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid ecoBKP) bleibt Raphael vorzulegen.
+394 Wärmepumpen-Messkonzept braucht ein Bildlese-/OCR-Werkzeug, keine erneute Textextraktion. Von
+den in Dok. 229 referenzierten, noch offenen Fachmerkblättern bleiben 265 (Kennzeichnung), 385
+(PR-NIS), 389 (Lithium-Ionen-Lagerung), 393 (Bühnentechnik) unerforscht — Kandidaten für einen
+künftigen Lauf. A-BLIND-Bestand unverändert (rund 20 von ~40 Kandidaten im 18-29-Backlink-Bereich
+weiterhin einzeln zu prüfen).
+
 ## 2026-08-24b — Recherche-Agent: E94 (Innendämmung CHF/m²) — JANS-Archiv-Weg erschöpfend
 geprüft, weiterhin Negativbefund
 
@@ -8319,3 +9113,27 @@ Ansprechstellen AfB/AWL) in `wiki/BAUHERREN-FAQ.md`.
 
 **Stand PL-02:** 83 von 182 energierelevanten PDF destilliert (80 bis Run 134, 3 in Run 135),
 99 offen. Register `training/pdf-inventar.md` nachgeführt.
+
+## 2026-08-24t — A-BLIND: `sia-181-schallschutz-anforderungswerte` — Flankenübertragung Holzbau am Lignum-Bericht vertieft
+
+QUESTIONS-Abarbeitung, Anschluss an 24s. Offenen Punkt «Flankenübertragung/Anschlussdetails
+Holzbau» aus `sia-181-schallschutz-anforderungswerte` bearbeitet: BFH-Lignum-Bericht 2712-SB-01
+(04.12.2008, 72 S., lignum.ch) per curl+pdftotext vollständig geladen und die Kap. 8-Anhang-Seiten
+49-50/64-71 zusätzlich gelesen. **Duplikat-Beinahe-Fehler korrigiert:** derselbe Bericht war schon
+seit 28.06.2026 als `[[lignum-schallschutz-holzbau-flankenuebertragung]]` destilliert — eigenes
+neu angelegtes Zweitdestillat sofort gelöscht, stattdessen das bestehende erweitert (Lehre:
+`destillate/INDEX.md` vor dem Anlegen eines neuen Destillats grep-prüfen).
+
+Neuer, primärquellenbelegter Fund: Kap. 8 ist der **Entwurf** des späteren Bauteilkatalogs (Rw-/
+Ln,w-Felder 2008 noch leer, Katalog erst für 2010/2013 geplant); ein bezifferter Einzelwert bleibt
+entnehmbar (abgehängte Decke ~60 mm bei Kastendecken → 3-6 dB Verbesserung) plus qualitative
+Flankenreduktions-Prinzipien je Konstruktionstyp (Rahmenbau: Innenverkleidung mit
+Installationsebene vs. schallverschlechternde Aussteifung; Massivholzplatten: entkoppelte
+Verkleidung). Negativbefund: die daraus entstandenen fertigen Werke (Lignum-Dokumentation 2023,
+Online-Bauteilkatalog `lignumdata.ch`/`bauteilkatalog.lignum.ch`) waren am 24.08.2026 wegen
+Serverfehlern nicht erreichbar — numerischer Anschlussdetail-Katalog bleibt offen.
+
+Geänderte Dateien: `destillate/lignum-schallschutz-holzbau-flankenuebertragung.md` (+32/-3, neuer
+Abschnitt Bauteilkatalog-Entwurf), `destillate/sia-181-schallschutz-anforderungswerte.md` (+20/-4,
+neuer Abschnitt Flankenübertragung Holzbau), `wiki/schallschutz-sia181.md` (+5/-2, Holzbau/CLT-
+Absatz ergänzt), `destillate/INDEX.md` (+1/-1), `wiki/QUESTIONS.md` (Eintrag 24t).

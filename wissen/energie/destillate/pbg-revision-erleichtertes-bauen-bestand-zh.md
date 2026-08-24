@@ -30,14 +30,23 @@ datenstand: Vernehmlassungsfrist gemäss Anschreiben im Vorlage-PDF «26. Septem
   Inkraftsetzungsdatum — Negativbefund, siehe Abschnitt Verfahrensstand. kantonsrat.zh.ch ist
   clientseitig gerendert (JS), WebFetch liefert dort nur die Navigationsstruktur ohne
   Geschäftsinhalt — als Werkzeuggrenze offen ausgewiesen, nicht als bestätigter Negativbefund
-  überzustrapazieren.
+  überzustrapazieren. **Periodische Nachprüfung 24.8.2026** (WebSearch mit sechs unterschiedlich
+  formulierten Anfragen + WebFetch auf bauimmorecht.ch, zh.ch-Medienmitteilungsfilter,
+  inzh.ch/kantonsrat/geschaefte): weiterhin KEIN Regierungsratsantrag, KEINE Kantonsratsvorlage,
+  KEIN Beschluss, KEIN Inkraftsetzungsdatum auffindbar — derselbe Negativbefund wie am 20.7.2026,
+  jetzt für den Zeitraum bis 24.8.2026 (rund 5 Wochen) bestätigt. Einziger neuer technischer Fund:
+  `inzh.ch/kantonsrat/geschaefte/id/<hash>` liefert (anders als kantonsrat.zh.ch) lesbaren
+  Klartext einzelner Geschäfte, ist aber als Volltextsuche über WebFetch nicht gezielt
+  durchsuchbar (Testabfrage traf ein themenfremdes, 1995 bereits erledigtes Geschäft KR-Nr. 3473
+  gleichen Titels „Planungs- und Baugesetz (Änderung PBG)“) — kein Ersatz für einen echten
+  Datenbankzugriff.
 status: emerging (Verfahrensstand: Vernehmlassung abgeschlossen seit 16.1.2026, aber weder
   Regierungsratsantrag an den Kantonsrat noch Kantonsratsbeschluss noch Inkraftsetzung
-  nachgewiesen — weiterhin KEIN geltendes Recht). Die zitierten Bestimmungswortlaute (§ 2a Abs. 1
-  lit. k E-BVV, § 2a Abs. 2 E-BVV, § 2c Abs. 6 E-BVV) sind primärquellen-belegt als Inhalt der
-  Vernehmlassungsvorlage (established als Wortlaut DIESES Entwurfs), aber nicht als geltendes
-  Recht zu zitieren.
-last_updated: 2026-07-20
+  nachgewiesen — weiterhin KEIN geltendes Recht, zuletzt bestätigt 24.8.2026). Die zitierten
+  Bestimmungswortlaute (§ 2a Abs. 1 lit. k E-BVV, § 2a Abs. 2 E-BVV, § 2c Abs. 6 E-BVV) sind
+  primärquellen-belegt als Inhalt der Vernehmlassungsvorlage (established als Wortlaut DIESES
+  Entwurfs), aber nicht als geltendes Recht zu zitieren.
+last_updated: 2026-08-24
 ---
 
 # PBG-Revision «erleichtertes Bauen im Bestand» Kt. Zürich — Verfahrensstand und Meldeverfahren-Vorschlag Klimaanlagen
@@ -45,8 +54,9 @@ last_updated: 2026-07-20
 **Das Wichtigste in 1 Satz:** Die Vernehmlassung zur PBG-Teilrevision «erleichtertes Bauen im
 Bestand» (mit dem Vorschlag, das Meldeverfahren auf ausgewählte Klimaanlagen auszuweiten) lief
 vom 26.9.2025 bis 16.1.2026 und ist damit **abgeschlossen** — ein Antrag an den Kantonsrat, ein
-Kantonsratsbeschluss oder eine Inkraftsetzung sind Stand 20.7.2026 **nicht nachweisbar**, die
-Ausweitung bleibt also weiterhin **Vorschlag, kein geltendes Recht**.
+Kantonsratsbeschluss oder eine Inkraftsetzung sind Stand **24.8.2026** (periodisch nachgeprüft,
+zuvor 20.7.2026) **weiterhin nicht nachweisbar**, die Ausweitung bleibt also **Vorschlag, kein
+geltendes Recht**.
 
 ## Verfahrensstand (Chronologie, belegt)
 - **26.9.2025:** Vernehmlassungsstart, zh.ch-Medienmitteilung «Aufstockung, Anbau,
@@ -60,13 +70,29 @@ Ausweitung bleibt also weiterhin **Vorschlag, kein geltendes Recht**.
 - **22.4.2026:** Zürcher Handelskammer veröffentlicht einen Artikel, der die eigene
   Vernehmlassungs-Stellungnahme rückblickend einordnet — **kein** Hinweis auf einen
   zwischenzeitlichen Kantonsratsschritt.
-- **20.7.2026 (heutige Recherche):** Kein Fund einer Botschaft/eines Antrags des Regierungsrats
+- **20.7.2026 (Recherche Run 82):** Kein Fund einer Botschaft/eines Antrags des Regierungsrats
   an den Kantonsrat, keines Kantonsratsgeschäfts, keines Beschlusses, keines
   Inkraftsetzungsdatums zu «erleichtertes Bauen im Bestand» — weder auf zh.ch noch via
   WebSearch/WebFetch auf kantonsrat.zh.ch (dort technisch nur die Navigationshülle abrufbar,
   echte Geschäftsdatenbank ist JS-gerendert und für WebFetch nicht auslesbar — Werkzeuggrenze,
   kein abschliessender Beweis der Abwesenheit, aber auch keine externe Quelle, die einen
   weiteren Verfahrensschritt vermeldet).
+- **24.8.2026 (periodische Nachprüfung):** Gleicher Negativbefund, mit erweiterten Quellen
+  geprüft: WebSearch (sechs Anfragen mit variierenden Suchbegriffen: Kantonsrat-Vorlage,
+  Regierungsratsbeschluss, § 220a, Vernehmlassungs-Auswertung), WebFetch auf
+  bauimmorecht.ch (Artikel selbst nennt nur den Vernehmlassungs-Fristablauf 16.1.2026, keine
+  Angabe zu einem weiteren Verfahrensschritt), auf den zh.ch-Medienmitteilungsfilter (liefert
+  „keine Resultate“, vermutlich weil die Filteroberfläche JS-Interaktion braucht) und auf
+  `inzh.ch/kantonsrat/geschaefte/`. Letzteres ist zwar — anders als kantonsrat.zh.ch — für
+  WebFetch als Klartext lesbar und zeigt eine echte, laufend aktualisierte Geschäftsliste
+  (Einträge bis August 2026 sichtbar), aber ohne funktionierenden Volltext-Suchparameter über
+  WebFetch nicht gezielt nach «Bauen im Bestand» durchsuchbar (getestete Geschäfts-ID traf ein
+  bereits 1995 erledigtes, gleichnamiges, aber inhaltlich anderes PBG-Geschäft, KR-Nr. 3473).
+  Einzige Nebenbeobachtung: die separate PBG-Revision «Modernisierung der
+  Denkmalpflege-Gesetzgebung» (Vergleichsfall aus Run 82) ist inzwischen mit eigener
+  Medienmitteilung vom Juli 2026 („Bauliche Weiterentwicklung von Baudenkmälern soll einfacher
+  werden“) weiterhin nur bei diesem anderen Geschäft dokumentiert — kein Rückschluss auf
+  «Bauen im Bestand» möglich (bereits in Run 82 als Fehlschluss-Falle benannt).
 - **Vergleichsfall zur Einordnung der Verfahrensgeschwindigkeit:** Eine **separate** PBG-Revision
   desselben Regierungsrats («Modernisierung der Denkmalpflege-Gesetzgebung», Baudenkmäler,
   zh.ch-Medienmitteilung vom 2.7.2026) hat den Schritt zur Kantonsratsvorlage bereits vollzogen
@@ -152,10 +178,15 @@ um einen neuen Tatbestand sowie § 2c BVV um die dafür einzureichenden Unterlag
 
 ## Offene Punkte
 - **Kein Datum für Regierungsratsantrag/Kantonsratsbehandlung/Inkraftsetzung** identifizierbar —
-  bei der nächsten periodischen Prüfung zuerst auf zh.ch/Medienmitteilungen und
+  Stand 24.8.2026 periodisch nachgeprüft, weiterhin derselbe Negativbefund (siehe
+  Verfahrensstand). Bei der nächsten periodischen Prüfung zuerst auf zh.ch/Medienmitteilungen und
   kantonsrat.zh.ch (Geschäftsdatenbank, ggf. mit Browser-Zugriff statt WebFetch, da JS-gerendert)
   nach einer neuen Vorlage/einem neuen Geschäft mit Bezug «Bauen im Bestand» bzw. «§ 220a PBG»
-  suchen.
+  suchen. **Neuer Werkzeughinweis (24.8.2026):** `inzh.ch/kantonsrat/geschaefte/id/<hash>` liefert
+  für WebFetch lesbaren Klartext einzelner Geschäfte (kein JS-Rendering-Problem wie bei
+  kantonsrat.zh.ch), aber ohne bekannten funktionierenden Volltext-Suchparameter — bei
+  Browser-Zugriff (statt WebFetch) lohnt sich, dort gezielt nach «Bauen im Bestand» oder
+  «220a PBG» zu suchen, statt erneut nur WebSearch/WebFetch-Kombinationen zu versuchen.
 - **Ergebnis der Vernehmlassung (Auswertungsbericht)** nicht gefunden — üblicherweise
   veröffentlicht der Kanton eine Zusammenfassung der Stellungnahmen vor der Kantonsratsvorlage;
   bei nächster Prüfung gezielt danach suchen.

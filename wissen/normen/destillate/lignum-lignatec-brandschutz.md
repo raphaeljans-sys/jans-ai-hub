@@ -418,13 +418,44 @@ werden.
     ab 2 Geschossen ausgeschlossen. **Sprinkler** dagegen bis und mit 3 Geschossen holzmöglich:
     Tragwerk R30④ (weiss), Brandabschnitt EI30(nbb)④ (grau = beidseitig nicht brennbar
     verkleidet); erst ab 4 Geschossen blau.
+  - ⚠ **Industrie-/Gewerbebauten q ≤ 1000 MJ/m² — Zeile bislang ohne eigene Eckwerte im
+    Destillat, nachgetragen 24.08.2026 (QUESTIONS-Abarbeitung, Fund L41-4, Zellwerte am
+    Original S. 8-9 gelesen, `pdftoppm -r 400`):** Struktur identisch zu Wohnbauten MFH bis
+    und mit 4 Geschossen (1&oberstes Keine Anforderung/EI30 · 2 bis 600 Mindestkantenabmessung/
+    EI30 · 2 über 600 baulich R30/EI30, sprinkler Mindestkantenabmessung/EI30 · 3 dieselbe
+    Aufteilung · 4 baulich R60/EI60②, sprinkler R30/EI30②) — **weicht aber ab 5-6 Geschossen
+    von Wohnbauten MFH ab:** baulich springt direkt auf R60(nbb)/EI60(nbb) **blau** (keine
+    Holzbauweise), während bei Wohnbauten MFH an derselben Stelle noch die graue
+    (beidseitig verkleidete) Holzoption R60/EI30(nbb)③ steht. Nur das Sprinklerkonzept bleibt
+    bei 5-6 Geschossen holzmöglich (weiss, R60③/EI60②③, identisch zu Wohnbauten MFH). Ab 7-8
+    Geschossen beide Konzepte zusammengeführt blau R60(nbb)/EI60(nbb). Praktische Konsequenz:
+    bei gewerblicher/industrieller Nutzung mit q ≤ 1000 MJ/m² ist das bauliche Konzept ab
+    5 Geschossen bereits eine Geschossstufe früher aus dem Holzbau ausgeschlossen als bei
+    Wohnbauten MFH.
   - Industrie-/Gewerbebauten q > 1000 MJ/m² gemeinsam mit «Bauten mit unbekannter Nutzung»:
     baulich bereits ab der Spalte «2 über 600 m²» blau, im Sprinklerkonzept erst ab 4 Geschossen
-    (ergänzt 260730 Runde 8).
+    (ergänzt 260730 Runde 8). ⚠ **Eskalations-Nachtrag 24.08.2026 (Fund L41-4):** Das Baulich-
+    Konzept bleibt bei «2 über 600» und bei 3 Geschossen noch auf R60(nbb)/EI60(nbb), steigt
+    aber **ab 4 Geschossen auf R90(nbb)/EI90(nbb)** und bleibt dort durchgehend bis 7-8
+    Geschosse — dieselbe Eskalationsstufe, die das Destillat für die analoge Zeile in Tabelle 4
+    bereits dokumentiert (dort REI90(nbb)/EI90(nbb) ab 4 Geschossen), für Tabelle 3 aber bisher
+    nicht genannt war. Das Sprinklerkonzept bleibt dagegen durchgehend ab 4 Geschossen bei
+    R60(nbb)/EI60(nbb) (blau), **keine R90-Eskalation** — spiegelbildlich zum bereits
+    dokumentierten Tabelle-4-Befund.
   - Bauten mit Räumen grosser Personenbelegung / Verkaufsgeschäfte [c]: in **beiden** Konzepten
     ab 3 Geschossen durchgehend blau (ergänzt 260730 Runde 8).
   - Parkhäuser/Einstellräume: baulich ab 5-6 Geschossen blau, im Sprinklerkonzept erst ab 7-8
     Geschossen (ergänzt 260730 Runde 8).
+  - ⚠ **Landwirtschaftliche Bauten — Zeile bislang ohne eigene Eckwerte im Destillat,
+    nachgetragen 24.08.2026 (QUESTIONS-Abarbeitung, Fund L41-4, Zellwerte am Original S. 8-9
+    gelesen, `pdftoppm -r 400`):** Struktur und Werte **identisch** zu «Verkaufsgeschäfte
+    ≤ 1200 m²/≤ 100 P» direkt darüber und zu Wohnbauten MFH bis Spalte 4: 1&oberstes Keine
+    Anforderung/EI30 · 2 bis 600 Mindestkantenabmessung/EI30 · 2 über 600 baulich R30/EI30,
+    sprinkler Mindestkantenabmessung/EI30 · 3 dieselbe Aufteilung · 4 baulich R60/EI60②,
+    sprinkler R30/EI30②. Durchgehend **weiss** (keine Holzbauteil-Einschränkung), keine
+    farbig markierten Zellen. Für 5-6 und 7-8 Geschosse existieren keine Zellen
+    (Abdeckungsgrenze, s.o.) — die Zeile endet nach Spalte 4, bestätigt durch Augenschein am
+    Original (keine weiteren Spalten rechts von «4» für diese Zeile).
   - Wohnbauten EFH/REFH: «Keine Anforderung» (Tragwerk) bzw. REI90① (Brandabschnitt), weiss,
     über alle vorhandenen Spalten und nur eine Konzeptzeile (Anmerkung ①: als Brandmauer in
     Holzbauweise auf der Parzellengrenze bei Reiheneinfamilienhäusern).
@@ -619,6 +650,40 @@ werden.
     Konzeptzeile (Fussnote ①: bei Einfamilienhäusern keine Anforderung an den Feuerwiderstand
     von raumabschliessenden Bauteilen gegenüber Fluchtwegen). Vorhanden sind für diese Zeile
     nur die Spalten bis «4» (siehe Abdeckungsgrenze oben).
+  - ⚠ **Fünf Nutzungszeilen ohne eigene Eckwerte, nachgetragen 24.08.2026 (QUESTIONS-
+    Abarbeitung, Fund L41-4, letzte Teilrunde — Zellwerte am Original S. 12-13 spaltengenau
+    gelesen, `pdftoppm -r 400`, Halbseiten S. 12/S. 13 nebeneinander gehalten):**
+    - **Industrie-/Gewerbebauten q ≤ 1000 MJ/m²**: Struktur identisch zu Wohnbauten
+      MFH/Büro/Schulbauten bis Spalte 3 (Treppenhaus REI60/EI30(nbb) grau ab Spalte «2 bis
+      600», Korridor EI30-nbb grau), **weicht aber ab Spalte 4 (4 Geschosse) ab**: Treppenhaus
+      REI60(nbb) blau (beide Konzepte), Korridor Baulich bereits ab 5-6 Geschossen EI60(nbb)
+      **blau** (keine Holzbauteile), Sprinkler bei 5-6 Geschossen noch EI60-EI30(nbb)②③ grau
+      (fluchtwegseitig verkleidet); ab 7-8 Geschossen beide Konzepte EI60(nbb) blau. Damit
+      eskaliert diese Nutzung beim Korridor eine Geschossstufe früher als Wohnbauten MFH — exakt
+      die spiegelbildliche Eskalation, die das Destillat für dieselbe Nutzungszeile bereits in
+      Tabelle 3 (Tragwerk/Brandabschnitt) dokumentiert.
+    - **Bauten mit Räumen grosser Personenbelegung / Verkaufsgeschäfte [c]**: ab Spalte 3
+      (3 Geschosse) durchgehend REI60(nbb)/EI60(nbb) blau, für **beide Konzepte identisch**, bis
+      7-8 Geschosse — deckt sich mit dem bereits in Tabelle 3 dokumentierten Befund «in beiden
+      Konzepten ab 3 Geschossen durchgehend blau» für dieselbe Nutzung.
+    - **Parkhäuser/Einstellräume für Motorfahrzeuge**: Treppenhaus REI60(nbb) blau ab Spalte 4
+      (beide Konzepte identisch), Korridor dagegen konzeptabhängig — Baulich EI60(nbb) blau
+      bereits ab Spalte 5-6, Sprinkler bis Spalte 5-6 noch EI60-EI30(nbb)②③ grau und erst ab
+      7-8 Geschossen EI60(nbb) blau. Bis Spalte 3 durchgehend REI60/EI30(nbb) grau bzw.
+      EI30-nbb grau (beide Konzepte gleich). Der Korridor-Unterschied Baulich/Sprinkler bei
+      5-6 Geschossen deckt sich mit dem in Tabelle 3 dokumentierten Befund für dieselbe Nutzung
+      («baulich ab 5-6 Geschossen blau, im Sprinklerkonzept erst ab 7-8 Geschossen»).
+    - **‹Verkaufsgeschäfte› (Verkaufsfläche ≤ 1200 m² und Personenbelegung ≤ 100 P)**: bis
+      Spalte 3 durchgehend REI60/EI30(nbb) grau / EI30-nbb grau (beide Konzepte gleich), Spalte 4
+      (letzte vorhandene Spalte) Treppenhaus REI60(nbb) blau (beide Konzepte), Korridor Baulich
+      EI60-EI30(nbb)② grau, Sprinkler EI30-nbb② grau. **Zeile endet nach Spalte 4** — für 5-6
+      und 7-8 Geschosse existieren keine Zellen (Abdeckungsgrenze wie in Tabelle 3, dort für
+      dieselbe Nutzung bereits dokumentiert, gilt hier gleichermassen für Tabelle 4).
+    - **Landwirtschaftliche Bauten**: Werte und Struktur **identisch** zu «‹Verkaufsgeschäfte›
+      (Verkaufsfläche ≤ 1200 m² …)» direkt darüber (bis Spalte 3 REI60/EI30(nbb) grau / EI30-nbb
+      grau beide Konzepte, Spalte 4 Treppenhaus REI60(nbb) blau, Korridor Baulich
+      EI60-EI30(nbb)② grau / Sprinkler EI30-nbb② grau), Zeile endet ebenfalls nach Spalte 4 —
+      spiegelt den in Tabelle 3 für dieselbe Nutzung dokumentierten Befund.
   - Fussnote ⑥: Das Treppenhaus hat im obersten Geschoss den gleichen Feuerwiderstand zu
     gewährleisten wie in den darunterliegenden Geschossen. Übrige Fussnoten ②③④⑤ analog
     Tabelle 3.
@@ -666,6 +731,19 @@ werden.
     bei Beherbergungsbetrieben [a] und bei Bauten mit grosser Personenbelegung/Verkaufsgeschäften
     [c] (der Bodenbelag Korridor bleibt dort grau; Refuter-Korrektur 260729 Run 36, vom
     Hauptprozess am 300-dpi-Rendering S. 15 selbst nachgezählt).
+  - ⚠ **Spalte «Tragwerke nbb» (Block 4-8) — bisher in keiner Runde erfasst, nachgetragen
+    24.08.2026 (QUESTIONS-Abarbeitung, L41-4):** Bei nicht brennbarem Tragwerk (nbb) ist
+    innerhalb der Dämmschicht-Gruppe **nur die Unterspalte Aussenwand grau** (Anwendung von
+    Holz nur unter bedingten Auflagen gemäss Brandschutzrichtlinie VKF), **Innenwand und
+    Decke sind durchgehend weiss** (freie Holzanwendung, BKZ ≥ 4.2, keine Auflage) — und zwar
+    für **alle neun Nutzungszeilen ausser Wohnbauten EFH/REFH** (dort weiss wie sonst auch).
+    Diese Asymmetrie (nur Aussenwand eingeschränkt, Innenwand/Decke frei) steht in keiner
+    bisherigen Destillat-Fassung; plausibler Grund ist die Brandausbreitung über die Fassade,
+    die bei Innenbauteilen nicht in gleicher Weise greift, aber das ist eine Einordnung, keine
+    Quellenaussage — die Quelle selbst nennt nur die Farbcodierung, keine Begründung.
+    Gelesen am 300-dpi-Rendering S. 15 (`pdftoppm -r 300`), Original-Kopie
+    `AR - 01 Projekte/2414 THALWIL/06 Reglemente/_Archiv/11 Brandschutz/Lignatec/
+    Lignatec_brandschutz.pdf`, gegen alle zehn Nutzungszeilen einzeln geprüft.
     Bereits im Block **1-3 Geschosse** ist die Dämmschicht **Aussenwand** bei
     Beherbergungsbetrieben [a] blau (alle neun übrigen Nutzungszeilen dort weiss) — die frühere
     Formulierung «bei 4-8 Geschossen zusätzlich die Dämmschichten» suggerierte fälschlich, im
@@ -1053,3 +1131,49 @@ aktuellere Lignum-Publikation zum Holzbau-Brandschutz abzugleichen.
   war eine gezielte Prüfung zweier offener QUESTIONS-Punkte, keine vollständige Tabellenrunde
   (L41-3 Legende/getönte Deckschicht und L41-4 vollständige Zellrunde Tab. 3/4/5 bleiben offen,
   `training/lignatec-seiteninventur.md` liegt dafür bereit). `status` bleibt `speculative`.
+
+- **24.08.2026 (QUESTIONS-Abarbeitung, Fund L41-4, Teilrunde Tabelle 3):** die Seiten-Inventur
+  identifiziert zwei Nutzungszeilen in Tabelle 3, für die das Destillat trotz acht
+  vorangehenden Verifikationsrunden nie eigene Eckwerte führte: «Industrie-/Gewerbebauten
+  q ≤ 1000 MJ/m²» und «Landwirtschaftliche Bauten». Original neu mit `pdftoppm -r 400`
+  gerendert (OneDrive-Kopie, identisch zur SharePoint-Quelle) und beide Zeilen vollständig
+  zellenweise gelesen (Crops beider Halbseiten S. 8/S. 9 je Zeile). **3 Ergänzungen:**
+  (1) Industrie q ≤ 1000 MJ/m² vollständig erfasst — Struktur wie Wohnbauten MFH, weicht aber
+  bei 5-6 Geschossen ab (baulich direkt blau statt grau, eine Geschossstufe strenger als
+  Wohnbauten). (2) Landwirtschaftliche Bauten vollständig erfasst — identisch zu
+  Verkaufsgeschäfte ≤ 1200 m², durchgehend weiss, endet nach Spalte 4. (3) Industrie q > 1000/
+  unbekannte Nutzung: bisher unvollständige Aussage («baulich blau ab 2 über 600») um die am
+  Original sichtbare **R90(nbb)/EI90(nbb)-Eskalation ab 4 Geschossen** ergänzt — dieselbe
+  Eskalationsstufe war für die analoge Tabelle-4-Zeile bereits dokumentiert, für Tabelle 3
+  aber bisher nicht genannt. Alle drei Funde ausschliesslich per Direktlektüre am
+  400-dpi-Rendering, keine Textextraktion (Methodik-Pflicht 8). **Kein Nulldurchgang** —
+  Tabelle 4 und Tabelle 5 wurden in dieser Runde NICHT neu zellenweise gelesen (Budget-Fokus
+  auf die beiden unbelegten Tabelle-3-Zeilen); `status` bleibt `speculative`. Verbleibend für
+  eine künftige Runde: Tabelle 4 «Industrie q ≤ 1000» und «Landwirtschaftliche Bauten» zeigen
+  im 400-dpi-Rendering strukturell ähnliche, bisher nicht im Destillat geführte Zeilen — beim
+  Versuch, sie in derselben Runde zu lesen, liess sich die Spalten-4-Aufteilung (grau/hellgrau
+  gesplittete Zellen) aus den angefertigten Crops nicht mit ausreichender Sicherheit einer
+  Zeile zuordnen; nicht eingearbeitet, um keine geratene Aussage einzuführen.
+
+- **24.08.2026 (QUESTIONS-Abarbeitung, Fund L41-4, Abschlussrunde Tabelle 4):** die fünf in
+  Tabelle 4 bisher ohne eigene Eckwerte geführten Nutzungszeilen («Industrie-/Gewerbebauten
+  q ≤ 1000 MJ/m²», «Bauten mit Räumen grosser Personenbelegung / Verkaufsgeschäfte [c]»,
+  «Parkhäuser/Einstellräume für Motorfahrzeuge», «‹Verkaufsgeschäfte› ≤ 1200 m²/≤ 100 P»,
+  «Landwirtschaftliche Bauten») vollständig zellenweise gelesen: Original neu mit
+  `pdftoppm -r 400` gerendert (OneDrive-Kopie, identisch zur SharePoint-Quelle), Blatt 06
+  (S. 12/S. 13) als volle A3-Seite in Zeilenbänder geschnitten (Python/PIL), je Band linke
+  Halbseite (Nutzung/Spalten 1-3) und rechte Halbseite (Spalten 3-8) nebeneinander gehalten,
+  damit die Nutzungszeile spaltengenau über beide Seiten hinweg zugeordnet bleibt. **5
+  Ergänzungen, alle im Tabelle-4-Abschnitt oben nachgetragen:** drei Zeilen (Bauten grosser
+  Personenbelegung/Verkaufsgeschäfte [c], Verkaufsgeschäfte ≤ 1200 m², Landwirtschaftliche
+  Bauten) bestätigen strukturell bereits aus Tabelle 3 bekannte Eskalations-/Abdeckungsmuster
+  für dieselbe Nutzung; zwei Zeilen (Industrie q ≤ 1000 MJ/m², Parkhäuser/Einstellräume) zeigen
+  eine konzeptabhängige Korridor-Eskalation (Baulich eine Geschossstufe früher blau als
+  Sprinkler), ebenfalls spiegelbildlich zu bereits dokumentierten Tabelle-3-Befunden für
+  dieselbe Nutzung. Keine der fünf Zeilen widerspricht einem bestehenden Destillat-Wert.
+  **Damit ist L41-4 vollständig abgearbeitet**: Tabelle 2 (Run 40), Tabelle 3 (heute, erste
+  Teilrunde), Tabelle 5 (heute, zweite Teilrunde) und nun Tabelle 4 (diese Runde) sind alle
+  seit der letzten vollständigen Zellrunde (Run 8, 260730) erneut zellenweise gegen das
+  Original gehalten worden — kein offener Tabellenabschnitt mehr. `status` bleibt
+  `speculative` (die established-Reife wurde in dieser Runde nicht geprüft, nur die
+  Zellwert-Vollständigkeit).

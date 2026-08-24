@@ -1,11 +1,11 @@
 ---
-quelle: Web-Recherche CH-Primaer-/Fachquellen — thermische-netze.ch (TNS); geothermie-schweiz.ch (Watt d'Or Hoenggerberg); amstein-walthert.ch; hoenggerberg-2040.ethz.ch (ETH Zuerich); energiekonzepte.ch + wildarmaturen.ch + suurstoffi.ch (Suurstoffi, Zug Estates AG); anex.ch (Anergienetz Friesenberg FGZ); espazium.ch/TEC21 «Ein Netz fuer (fast) alle Faelle»; Luzerner Zeitung + stadtluzern.ch (Anergienetz Luzerner Kantonsspital); Run 87: PBG ZH § 295 Abs. 2 + EnerG ZH § 11 Abs. 5 (amtliche Erlasstexte zhlex.zh.ch, curl+pdftotext) + AWEL-Vollzugsseite «Heizungsersatz» (70-%-Vollzugspraxis); Run 90: BFE-Programm Thermische Netze «Fallbeispiele Thermische Netze» (pubdb.bfe.admin.ch/de/publication/download/8836) + Faktenblatt Thermische Netze (Staedteverband/EnergieSchweiz 2021) + Planungshandbuch Thermische Netze 2.0 (Verenum/EnergieSchweiz, Januar 2026)
-herausgeber: diverse (Fachverband TNS, ETH Zuerich, Fachplaner Amstein+Walthert/Anex/EBP, Bauherren Zug Estates/FGZ, Medien); Staatskanzlei Kt. ZH (Zuercher Gesetzessammlung); AWEL Kt. ZH; BFE-Programm Thermische Netze; Schweizerischer Staedteverband; Verenum/EnergieSchweiz
-ausgabe: Referenzprojekt-Seiten, Abruf 2026-07-23; PBG Nachtrag 133 (1.7.2026), EnerG Nachtrag 129 (1.7.2025); BFE-Fallbeispiele-Bericht 2017/2018; Faktenblatt 2021; Planungshandbuch 2.0 vom 16.01.2026
-gelesen: Web-Recherche 2026-07-23 (Sonnet-Rechercheagent), Synthese/Verifikation Hauptmodell; Run 87 (2026-07-24): PBG-/EnerG-Volltexte amtlich gelesen; Run 90 (2026-07-25): drei Dokumente vollstaendig per Volltext gelesen (Sonnet-Rechercheagent)
-datenstand: 2026-07-25 (Referenzprojekt-Kennzahlen 2026-07-23 + Kosten-Fallbeispiele 2017/2018 + Faktenblatt/Handbuch-Aktualitaetscheck 2026-07-25; Rechtsrahmen ZH amtlich am Erlass-Volltext verifiziert — SZ weiterhin nur Snippet)
-status: emerging (Rechtsrahmen ZH established; CHF/m²-Kennzahl FGZ jetzt emerging mit konkretem Wert ≈230 CHF/m² EBF, n=1; genereller Branchenrichtwert fuer Anergienetze bestaetigter Negativbefund)
-last_updated: 2026-07-25
+quelle: Web-Recherche CH-Primaer-/Fachquellen — thermische-netze.ch (TNS); geothermie-schweiz.ch (Watt d'Or Hoenggerberg); amstein-walthert.ch; hoenggerberg-2040.ethz.ch (ETH Zuerich); energiekonzepte.ch + wildarmaturen.ch + suurstoffi.ch (Suurstoffi, Zug Estates AG); anex.ch (Anergienetz Friesenberg FGZ); espazium.ch/TEC21 «Ein Netz fuer (fast) alle Faelle»; Luzerner Zeitung + stadtluzern.ch (Anergienetz Luzerner Kantonsspital); Run 87: PBG ZH § 295 Abs. 2 + EnerG ZH § 11 Abs. 5 (amtliche Erlasstexte zhlex.zh.ch, curl+pdftotext) + AWEL-Vollzugsseite «Heizungsersatz» (70-%-Vollzugspraxis); Run 90: BFE-Programm Thermische Netze «Fallbeispiele Thermische Netze» (pubdb.bfe.admin.ch/de/publication/download/8836) + Faktenblatt Thermische Netze (Staedteverband/EnergieSchweiz 2021) + Planungshandbuch Thermische Netze 2.0 (Verenum/EnergieSchweiz, Januar 2026); 24.08.2026 (A-BLIND): Kantonales Energiegesetz (kEnG) Kt. SZ, SRSZ 420.100 (amtliche PDF sz.ch/public/upload/assets/5836/420_100.pdf, curl+pdftotext, vollstaendig gelesen, 10 S.) + Kantonale Energieverordnung (kEnV) Kt. SZ, SRSZ 420.111 (amtliche PDF sz.ch/public/upload/assets/32457/420_111.pdf, curl+pdftotext, vollstaendig gelesen, 22 S.), unabhaengig vom Schwesterdestillat `[[waermeplanung-kommunal-zh-sz]]` selbst am Original nachgelesen
+herausgeber: diverse (Fachverband TNS, ETH Zuerich, Fachplaner Amstein+Walthert/Anex/EBP, Bauherren Zug Estates/FGZ, Medien); Staatskanzlei Kt. ZH (Zuercher Gesetzessammlung); AWEL Kt. ZH; BFE-Programm Thermische Netze; Schweizerischer Staedteverband; Verenum/EnergieSchweiz; Kanton Schwyz (Amt fuer Umwelt und Energie / Staatskanzlei)
+ausgabe: Referenzprojekt-Seiten, Abruf 2026-07-23; PBG Nachtrag 133 (1.7.2026), EnerG Nachtrag 129 (1.7.2025); BFE-Fallbeispiele-Bericht 2017/2018; Faktenblatt 2021; Planungshandbuch 2.0 vom 16.01.2026; kEnG/kEnV SZ Stand SRSZ 1.2.2025
+gelesen: Web-Recherche 2026-07-23 (Sonnet-Rechercheagent), Synthese/Verifikation Hauptmodell; Run 87 (2026-07-24): PBG-/EnerG-Volltexte amtlich gelesen; Run 90 (2026-07-25): drei Dokumente vollstaendig per Volltext gelesen (Sonnet-Rechercheagent); 24.08.2026 (A-BLIND-Lauf): kEnG/kEnV SZ vollstaendig per curl+pdftotext gelesen
+datenstand: 2026-08-24 (Referenzprojekt-Kennzahlen 2026-07-23 + Kosten-Fallbeispiele 2017/2018 + Faktenblatt/Handbuch-Aktualitaetscheck 2026-07-25; Rechtsrahmen ZH amtlich am Erlass-Volltext verifiziert seit 2026-07-24; Rechtsrahmen SZ amtlich am Erlass-Volltext verifiziert seit 2026-08-24)
+status: emerging (Rechtsrahmen ZH UND SZ jetzt established; CHF/m²-Kennzahl FGZ weiterhin emerging mit konkretem Wert ≈230 CHF/m² EBF, n=1; genereller Branchenrichtwert fuer Anergienetze bestaetigter Negativbefund)
+last_updated: 2026-08-24
 ---
 
 # Destillat — Anergienetz / kalte Fernwärme (kaltes Nahwärmenetz) Schweiz
@@ -84,6 +84,38 @@ erneuerbaren Energien, Abwärme oder Abfallverbrennung stammt» — der unbestim
 70 %** konkretisiert; das ist Vollzugshilfe, kein Gesetzeswortlaut. Ein Anergienetz mit Erdsonden-/
 Grundwasser-Quelle erfüllt diese Schwelle in der Regel klar.
 
+## Rechtsrahmen SZ — amtlich verifiziert (A-BLIND, 24.08.2026)
+
+Anders als in Zürich gibt es im Kanton Schwyz **keine zu § 295 PBG ZH analoge Anschlusspflicht-Norm**
+gegen den Willen des Grundeigentümers. Am amtlichen Volltext (kEnG SRSZ 420.100, kEnV SRSZ 420.111,
+beide curl+pdftotext) selbst nachgeprüft:
+
+- **§ 5a kEnG (Kantonale Energieplanung):** «Der Kanton führt eine Energieplanung. Diese: a) enthält
+  eine Beurteilung des aktuellen Bedarfs und Angebots an Energie im Kanton; b) liefert im Bereich der
+  Energieversorgung und -nutzung die Entscheidungsgrundlagen für Massnahmen der Raumplanung und der
+  Projektierung von Anlagen; c) dient den Gemeinden, Bezirken und den mit der Energieversorgung
+  betrauten Unternehmen als Grundlage für ihre Energieplanung.» **§ 5b kEnG (Mitwirkung):** «Die
+  Gemeinden, die Bezirke und die mit der Energieversorgung betrauten Unternehmen sowie weitere
+  Energieversorger sind zur Mitwirkung verpflichtet» — eine reine Behörden-/Versorger-
+  Mitwirkungspflicht, keine Grundeigentümer-Anschlusspflicht. Wortlaut deckt sich exakt mit dem bereits
+  primärquellen-verifizierten Schwesterdestillat `[[waermeplanung-kommunal-zh-sz]]`.
+- **kEnV, Kapitel VII «Erneuerbare Wärme beim Wärmeerzeugerersatz», § 24f (Nachweisverfahren):** beim
+  Ersatz von Wärmeerzeugern in bestehenden Wohnbauten ist der Regelweg eine Standardlösung (Anhang 6)
+  oder ein Minergie-/GEAK-D-Nachweis. Ein **Fernwärmeanschluss taucht nur in der Ausnahmebewilligung
+  bei ausserordentlichen Verhältnissen auf** (§ 24f Abs. 3 lit. b): «innert drei Jahren ein Anschluss an
+  ein Fernwärmenetz, welches die Anforderungen erfüllt, erfolgt und der Anschlussvertrag vorliegt» —
+  das ist eine vom Bauherrn frei wählbare Erfüllungsoption innerhalb einer Ausnahmeregelung, keine
+  hoheitliche Anschlusspflicht.
+- **kEnV, Förder-/Massnahmenkatalog:** «Anschluss an ein Wärmenetz» erscheint zusätzlich als
+  Massnahme **M-07** (bis 70 kWth, Fr. 4'000.– + Fr. 200.–/kW) bzw. **IP-07** (über 70 kWth, gleicher
+  Ansatz) — ein freiwilliger, förderfähiger Weg, keine Pflicht.
+
+**Fazit SZ:** Ein Anschluss ans Anergienetz ist in Schwyz durchgehend freiwillig (und im Rahmen des
+Wärmeerzeugerersatzes förderfähig/anrechenbar) — nie erzwingbar. Der frühere A-BLIND-Offene-Punkt
+«SZ-Seite lieferte HTTP 403» war ein Werkzeugproblem (falsche geratene Asset-URL bei sz.ch), nicht ein
+Zugriffsverbot: die amtlichen PDFs unter `sz.ch/public/upload/assets/...` sind per `curl` mit korrekter
+Asset-ID problemlos erreichbar.
+
 ## CHF/m²- und Rp./kWh-Kennzahlen — vertieft (Run 90, 2026-07-25)
 
 Primärquelle: BFE-Programm «Thermische Netze» (EnergieSchweiz), Bericht «Fallbeispiele Thermische
@@ -123,10 +155,14 @@ den Wärmepreis deutlich gegenüber reinem Wärmenetz (FGZ).
 ## Offene Punkte
 - **Kein eigenes SIA-Merkblatt/Norm** explizit für Anergienetze gefunden (nur allgemeine Fernwärme-
   Planungshandbücher). Vor normativer Aussage → Skill `normen`.
-- **Kanton SZ:** Seite zur kommunalen Energieplanung lieferte HTTP 403 — kein SZ-Bezug verifizierbar.
+- ✓ **Kanton SZ — GESCHLOSSEN 24.08.2026 (A-BLIND):** die frühere HTTP-403-Blockade war eine falsch
+  geratene Asset-URL, kein genereller Zugriffsblock. kEnG/kEnV SZ am amtlichen Volltext gelesen (siehe
+  Abschnitt «Rechtsrahmen SZ» oben): keine Anschlusszwang-Norm, Fernwärme-/Wärmenetzanschluss nur als
+  freiwillige Ausnahme- bzw. Förderoption.
 - Widerspruch IBN Hönggerberg 2012 ↔ 2013 ungelöst.
 - FGZ-230-CHF/m²-Kennzahl nur einfach belegt (n=1); zweite unabhängige Quelle oder aktuellerer Stand
   nötig für established.
 
 Querbezug: `[[fernwaerme-anschlusskosten-zh]]` (klassische Fernwärme), `[[erdwaermesonden-bewilligung-zh-sz]]`
-(Sonden als Netzquelle), `[[wp-pv-eigenverbrauch-lastmanagement]]` (WP als Systembaustein).
+(Sonden als Netzquelle), `[[wp-pv-eigenverbrauch-lastmanagement]]` (WP als Systembaustein),
+`[[waermeplanung-kommunal-zh-sz]]` (kommunale Energieplanung ZH/SZ, Vorranggebiete/Eignungsgebiete).

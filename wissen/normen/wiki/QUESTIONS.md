@@ -1345,6 +1345,53 @@ Ausschreibungs- und Vertragsbedingungen für Natursteinmauerwerk sind belegt, di
 Anforderungen nicht. Zugleich Nachfolgenorm der per 31.12.2011 ersetzten Empf. SIA 178:1996.
 Beschaffungsposten, gleiche Klasse wie N52-5 und die sechs ABB aus Run 51.
 
+> **Gültigkeit primärverifiziert 24.08.2026 (QUESTIONS-Abarbeitung).** Produktseite
+> `shop.sia.ch/normenwerk/ingenieur/266-2_2012_d/D/Product` (WebFetch, SN 505266/2) bestätigt:
+> **SIA 266/2:2012 ist weiterhin die aktuell gültige Ausgabe** (gültig ab 01.01.2012, 60 S.,
+> 170.00 CHF), kein Nachfolger, löste ihrerseits SIA V178:1996 ab (archiviert 31.12.2011,
+> deckt sich mit dem bereits im Ursprungswortlaut oben genannten Datum). Die Beschaffungs-
+> Empfehlung bleibt also richtig gezielt — kein Fehlkauf-Risiko wie beim SIA-416/1-Fund.
+> **Neu, noch nicht im Bestand berücksichtigt: zwei Korrigenda seit Erstpublikation.**
+> **C1:2024** ist primärquellenfest belegt (Espazium-Fachartikel
+> `espazium.ch/de/aktuelles/korrigenda-norm-sia-natursteinmauerwerk`, WebFetch): von der
+> SIA-Kommission Tragwerksnormen Ende Juni 2024 beschlossen, gültig seit 01.07.2024, betrifft
+> **Ziff. 3.1.8.1 und Anhang B (Steinbearbeitungen)**, kostenlos unter `shop.sia.ch/normenwerk`.
+> **C2** wird auf derselben Shop-Produktseite als zweites Korrigenda-Dokument geführt
+> (Produktseite nennt „Revision 2", Revisionsdatum 01.11.2025) — Inhalt und genaues
+> Gültigkeitsdatum von C2 sind **nicht** primärquellenfest ermittelt (Shop-Seite nur als
+> WebFetch-Zusammenfassung gelesen, keine eigene Sichtung des C2-Dokuments); WebSearch fand
+> keine Sekundärquelle dazu. **Bei Beschaffung des Volltextes: neben SIA 266/2:2012 auch C1
+> und C2 laden**, sonst wäre das Destillat bei Ziff. 3.1.8.1/Anhang B und ggf. der C2-Stelle
+> von vornherein veraltet.
+
+> **C2 primärquellenfest gelesen 24.08.2026 (QUESTIONS-Abarbeitung, Folgelauf).** Direkter
+> Shop-Downloadlink gefunden (WebSearch → `shop.sia.ch/93e9218b-4e4c-49e4-8083-494b547d73d0/D/DownloadAnhang`),
+> PDF via WebFetch geladen und mit `pdftotext -layout` volltextgelesen (franz. Fassung
+> SN 505266/2-C2:2025 fr, 3 S. — einzige zugestellte Sprachversion, Inhalt normativ
+> sprachunabhängig relevant). **SIA 266/2-C2:2025**: von der SIA-Kommission «Normes de
+> structures porteuses» am **17.10.2025** beschlossen, gültig ab **01.11.2025** — Wortlaut:
+> «Il remplace le correctif SIA 266/2-C1:2024.» **C2 ersetzt C1 vollständig, ergänzt es nicht.**
+> Damit ist die oben offen gelassene Frage nach Datum/Inhalt von C2 primärquellenfest
+> geklärt, und die Vermutung «Revision 2 / 01.11.2025 = allgemeines Shop-Metadatum» präzisiert:
+> 01.11.2025 ist das eigene Gültigkeitsdatum von C2.
+> **Inhalt (2 Korrekturstellen, Original wortgenau gegengelesen):**
+> 1. **Ziff. 3.1.8.1** (Elastizitätsmodul Natursteinmauerwerk) wird gegenüber C1 nochmals neu
+>    gefasst: differenzierte Formel für Ausführungstypen A/B vs. C/D/E, neu mit Hinweis auf
+>    Streuung der Materialverteilung im Wandquerschnitt und richtungsabhängige Verbundeffekte.
+> 2. **Anhang B (S. 47-50, Steinbearbeitung) wird ersatzlos gestrichen** — Wortlaut: «Cette
+>    annexe se trouve à présent dans la norme SIA 269/6-1:2025, annexe B Façonnage des pierres.»
+>    Der Inhalt wandert in die Erhaltungsnorm **SIA 269/6-1:2025**, die im REGISTER bislang nur
+>    über einen Vorwort-Nebenbefund vom 23.08.2026 bekannt ist (`[[sia-269-3-5-korrigenda]]`,
+>    Zeile SIA 269/5) — der dortige eigene Anhang-B-Inhalt selbst wurde noch nicht gesichtet,
+>    neuer Cross-Referenz-Punkt für einen künftigen SIA-269/6-1-Lauf.
+>
+> **Praktische Folge für die Beschaffung:** Beim künftigen Vollzugriff auf SIA 266/2:2012
+> genügt **Grundtext + C2:2025** — C1:2024 ist durch C2 ersetzt und muss nicht mehr separat
+> geladen werden (Präzisierung der obigen «C1 und C2 laden»-Empfehlung). **N53-1 bleibt im
+> Kern weiter offen** (Grundtext SIA 266/2:2012 selbst ist weiterhin nicht im Haus, Bring-
+> Schuld Raphael/Kauf), aber die Korrigenda-Lage ist jetzt vollständig geklärt — Shop-Seite
+> führt nur C1+C2, keine weitere Korrigenda erkennbar.
+
 **N53-2 — GESCHLOSSEN (17.08.2026, Run 54).** Beide Aufträge erledigt.
 - **SIA 416/1:2007:** Die Abdeckungsrichtung ist auf Kap. 0-2 und Kap. 4-5/Anhänge nachgeholt
   (7 Segment-Agenten über S. 4-22 und S. 26-40). Ergebnis **37 Kern- und 20 Nebenlücken**,
@@ -2142,6 +2189,30 @@ Produkte, der Treffer ist deshalb immer am Titel gegenzulesen.
   Statusfeld: nicht als Bemessungsgrundlage verwenden. Ferner ungeprüft: der Wortlaut der
   SIA 266 selbst (Art. 4.3.1, 4.3.1.3, 4.3.4.3) und der aktuelle Ausgabenstand der SIA 262
   (das Merkblatt stützt sich auf SIA 262:2003).
+
+  > ⚠ **TEILWEISE GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung), primärquellenfest.** Beide
+  > offenen Teilfragen bearbeitet, Original erstmals seit dem NAS-Ausfall wieder erreichbar
+  > (M365-Graph-Connector, `04_Merkblätter/Bemessung Kalksandstein.pdf`, Text-Layer vorhanden
+  > — `pdftotext -layout` statt bisher nur 300-dpi-Rendering).
+  > 1. **Rissweiten-Diagramm-Kapitel neu geschrieben:** `destillate/kalksandstein-bemessung-
+  >    sia266-ksv-2012.md`, Abschnitt «Gebrauchstauglichkeit / Rissweite», enthält jetzt
+  >    Nxo = 100 kN/m¹ und alle drei Ablese-Transformationen (Ordinate r200·Nxo/Nx, Abszisse
+  >    hcr·√(Nx/Nxo), Kurvenparameter ϑ·√(Nxo/Nx)) im Fliesstext, nicht mehr nur im
+  >    Verifikations-Anhang.
+  > 2. **SIA-266-Wortlaut geprüft** (gegen `sia-266-2003.md`-Original, `pdftotext`):
+  >    Art. 4.3.1.1/4.3.1.3 (Tragsicherheitsformel, teilweise eingebundene Decken) **bestätigt
+  >    wortgleich**. Art. 4.3.4.3 (Merkblatt S.12, fyd-Aktivierung) ist ein **Druckfehler des
+  >    Merkblatts selbst** — Art. 4.3.4.3 SIA 266 regelt Druckgewölbe unter Querbelastung
+  >    (unbewehrtes Mauerwerk), nicht fyd. Die tatsächlich einschlägige Stelle ist
+  >    **Art. 4.2.1.2/4.2.1.3** (η₃ = 1,5 für vollfugig vermörtelte Stossfugen) — sachlich
+  >    bleibt die Merkblatt-Aussage richtig, nur die eigene Fundstellenangabe ist falsch.
+  >    SIA-262-Fassungsfrage (K4) bestätigt: 2003 war zum Publikationszeitpunkt des Merkblatts
+  >    (Herbst 2012) die geltende Ausgabe, heute gilt SIA 262:2013 — Bewehrungsschema vor
+  >    Verwendung gegen die aktuelle Fassung zu prüfen.
+  > **Bewusst nicht geändert:** der `status`-Wert bleibt `speculative` — K4 bis K10 aus Run 43
+  > stehen weiterhin nur im Verifikations-Anhang, nicht im Fliesstext, und ein Statuswechsel
+  > auf `established` ist einem eigenen Verifikationslauf vorbehalten (siehe Statusfeld-Notiz
+  > im Destillat). Verbleibend offen: K4-K10 in den Fliesstext einarbeiten.
 - **N43-6 — SWKI, was Anhang E nicht regelt.** Der Anhang nennt **keine abnehmende oder
   genehmigende Instanz** für den Simulationsnachweis, keine Qualifikationsanforderung an den
   CFD-Ingenieur und keine Konvergenzkriterien. Bei einem Nachweis, der den Volumenstrom um bis
@@ -2161,7 +2232,7 @@ Aussage weiterführt, liest ein Nutzer zuerst den Fehler — dieselbe Mechanik w
 Absturzsicherungs-Destillat aus Run 42, wo die Kurzfassung falsch und der Fliesstext richtig
 war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worden.
 
-## Run 42 (03.08.2026) — neu offen
+## Run 42 (03.08.2026) — neu offen ⚠ S42-2 GESCHLOSSEN 24.08.2026 (BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 direkt geprueft: «Firsthoehe + 1,0 m» ist Kriterium a) der Maximum-Bildung, kein eigenstaendiger Wert); S42-3 GESCHLOSSEN 24.08.2026 (SWKI-Original erstmals seit NAS-Ausfall via M365-Graph-Connector erreichbar, Tab. 16 komplett gelesen: keine Schwyz-Station, Luzern/Altdorf bestaetigt und gleichwertig); N43-5 TEILWEISE GESCHLOSSEN 24.08.2026 (Rissweiten-Diagramm-Kapitel neu geschrieben, SIA-266-Zitate geprueft — Art. 4.3.4.3 im Merkblatt selbst ein Druckfehler, richtig waere 4.2.1.2/4.2.1.3; K4-K10 bleiben offen)
 
 ### KL Hochbau, Sanitäre Anlagen ([[kl-hochbau-sanitaer-katalogblaetter]])
 - **K42-1 Herausgeber/Werktitel/Ausgabedatum unbekannt.** Keine der acht gelesenen Seiten
@@ -2232,8 +2303,41 @@ war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worde
 - **S42-2** Tab. 7: die Spalte Q/S > 1 ist am Scan nicht zweifelsfrei aufloesbar — ist
   «Firsthoehe + 1,0 m» ein eigenstaendiger dachtypspezifischer Wert oder Teil der
   Maximum-Bildung? Gegen BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 zu verifizieren.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** «Firsthoehe + 1,0 m» ist kein
+  > eigenstaendiger Wert, sondern die dachtyp-spezifische Auspraegung von Kriterium a) der
+  > Maximum-Bildung selbst. Beleg: BAFU, Umwelt-Vollzug Nr. 1318 «Mindesthoehe von Kaminen
+  > ueber Dach. Kamin-Empfehlungen», Erstausgabe 2013, 1. aktualisierte Auflage Dezember 2018,
+  > Ziff. 5.3 Abs. 1+2 (S. 13-14), selbst heruntergeladen
+  > (`bafu.admin.ch/dam/de/sd-web/x0hJtl7AkYcm/mindesthoehe_vonkaminenueberdach.pdf`) und mit
+  > `pdftotext` geprueft: Kriterium a) verlangt «den hoechsten Gebaeudeteil (z. B. Dachfirst)
+  > um mindestens 1 m ... ueberragen» — fuer ein Schraegdach identisch mit «Firsthoehe + 1,0 m»,
+  > exakt parallel zum Normalfall Q/S ≤ 1 (Ziff. 5.2 Bst. a, 0,5 m statt 1 m). Details und
+  > vollstaendiger Formelvergleich (a/b/c) in `destillate/swki-va103-01-2017.md`, Abschnitt
+  > Fortluft. Kein Korrekturbedarf am bestehenden Destillat-Text.
 - **S42-3** Fuer den Kanton Schwyz enthaelt Tab. 16 (Anhang A) **keinen** eigenen
   Stationseintrag; naechstgelegen sind Altdorf und Luzern. Eine Zuordnung ist nicht belegt.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung), primaerquellenfest.** Original
+  > erstmals seit dem NAS-Ausfall wieder erreichbar (M365-Graph-Connector, Site PL, Drive
+  > `02_Recht_Norm`, `06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf`,
+  > direkt via Graph-API heruntergeladen). Tab. 16 (Druckseiten 73-74, PDF-Seiten 75-76 bei
+  > Rendering-Offset +2) vollstaendig bei 300 dpi gerendert und **alle 40 Stationszeilen**
+  > alphabetisch gelesen (Adelboden … Zürich-MeteoSchweiz): **keine** Zeile heisst «Schwyz»
+  > oder nennt einen Ort im Kanton Schwyz (kein Einsiedeln, Pfäffikon SZ, Lachen, Freienbach,
+  > Küssnacht). Die bereits vermutete Nachbar-Zuordnung ist damit bestätigt: **Luzern**
+  > (θODA = 0,5 °C, fIDA,exp 1,00) und **Altdorf** (θODA = 1,2 °C, fIDA,exp 1,00) sind die
+  > einzigen Stationen mit vergleichbarer Seehöhe/Lage am Vierwaldstättersee-Becken; beide
+  > tragen identische Faktoren (Garage exponiert 5 °C/1,00, geschützt 10 °C/0,77) — die Wahl
+  > zwischen den beiden ist damit für die Bemessung praktisch folgenlos. Eine **normative**
+  > Zuordnungsregel (welche Station bei fehlendem Standort zu wählen ist) nennt weder Tab. 16
+  > noch das SWKI-Dokument selbst; sie stammt aus SIA 2028 «Klimadaten für Bauphysik,
+  > Energie- und Gebäudetechnik», deren **Basis-Merkblatt 2010 weiterhin nicht im Haus ist**
+  > (kostenpflichtig, Bring-Schuld, siehe `wiki/REGISTER.md` Zeile SIA 2028) — eine dort evtl.
+  > genannte Auswahlmethodik bleibt offen, ändert aber am praktischen Ergebnis (Luzern/Altdorf,
+  > beide gleichwertig) nichts. `destillate/swki-va103-01-2017.md` unveraendert (Tab. 16 bleibt
+  > aus Urheberrechtsgruenden nicht als Volltabelle kopiert); dieser Befund ist rein am
+  > Original geprueft und hier dokumentiert.
 
 ### Absturzsicherungen ZH ([[stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019]])
 - **A42-1** Geometrische Bedeutung der Kote ≤ 90 in der Skizze «nur obere Traverse» unklar;
@@ -2267,7 +2371,7 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); die uebrigen Bestaende (L41-4, GVZ G41-1/G41-2, H41-2, restliche PAVIDENSA-Punkte) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); H41-2 Fundstelle identifiziert 24.08.2026 (SIA 500:2009 Anhang H nennt «Merkblatt Nr. 7, Rollstuhlgaengigkeit bei Sonderbauten» der Fachstelle FABB — Zahlenwert bleibt Bring-Schuld/Rueckfrage, kein SIA-Kauf); S41-8 GESCHLOSSEN 24.08.2026 (Praemisse falsch — Deutsch/Franzoesisch stehen zweispaltig auf denselben Seiten, Tabellenwerte strukturell bilingual-einheitlich, Struktur-Fund in Destillat nachgetragen); G41-2 zwei weitere Belege 24.08.2026 (Drittanbieter-Spiegel bestaetigt unveraendert 2011er-Ausgabe, GVZ-Leitfaden RWA 40.1/2013 ist kein Ersatz), bleibt offen; L41-4 GESCHLOSSEN 24.08.2026 (nach Tabelle 3 und Tabelle 5 jetzt auch Tabelle 4 zellenweise gegen das Original gehalten: fuenf bisher unbelegte Nutzungszeilen nachgetragen, keine Abweichung zu bestehenden Werten — alle vier Tabellen 2/3/4/5 seit Run 8 erneut geprueft); die uebrigen Bestaende (GVZ G41-1, restliche PAVIDENSA-Punkte) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -2330,6 +2434,48 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   Inventur (`training/lignatec-seiteninventur.md`) liegt nun vor und macht eine solche Runde
   billig.
 
+  > **Teilbearbeitet 24.08.2026 (QUESTIONS-Abarbeitung).** Tabelle 3 gezielt um die beiden
+  > bislang unbelegten Zeilen «Industrie-/Gewerbebauten q ≤ 1000 MJ/m²» und «Landwirtschaftliche
+  > Bauten» ergänzt (vollständige Eckwerte, `pdftoppm -r 400` am OneDrive-Original S. 8-9), dazu
+  > eine unvollständige Aussage zur Zeile «Industrie q > 1000/unbekannte Nutzung» um die dort
+  > tatsächlich vorhandene R90(nbb)/EI90(nbb)-Eskalation ab 4 Geschossen präzisiert (Details:
+  > `destillate/lignum-lignatec-brandschutz.md`, Verifikationsstand-Eintrag 24.08.2026).
+  > **Tabelle 4 und Tabelle 5 wurden NICHT neu zellenweise gelesen** — bleibt offen für eine
+  > künftige Runde. Kein Nulldurchgang, `status` bleibt `speculative`.
+  >
+  > **Fortsetzung 24.08.2026 (QUESTIONS-Abarbeitung, Tabelle 5 zellenweise gelesen).**
+  > `pdftoppm -r 300` auf S. 15 (Original-Kopie `AR - 01 Projekte/2414 THALWIL/06 Reglemente/
+  > _Archiv/11 Brandschutz/Lignatec/Lignatec_brandschutz.pdf`, Blatt 07 rechte Halbseite), alle
+  > zehn Nutzungszeilen einzeln gegen das Destillat gehalten (Legende, Aussenwandverkleidung
+  > je Block, Bodenbelag Korridor/Treppenhaus, Tragwerke bb/nbb). **Alle bisher im Destillat
+  > behaupteten Zellwerte bestätigt, keine Abweichung gefunden** — insbesondere die
+  > Run-33/36-Refuter-Korrekturen (Aussenwandverkleidung je Geschossblock, Bodenbelag
+  > Treppenhaus nur bei [a]/[c] blau) halten am erneuten Direktvergleich.
+  > **Ein Fund, der bisher in keiner Runde erfasst war:** die Spalte «Tragwerke nbb» (Block
+  > 4-8, nicht brennbares Tragwerk) fehlte im Destillat komplett — nachgetragen: Aussenwand
+  > grau, Innenwand/Decke weiss, für alle Nutzungszeilen ausser EFH/REFH (dort weiss).
+  > Details/Fundstelle in `destillate/lignum-lignatec-brandschutz.md`, Abschnitt Tabelle 5.
+  > **Tabelle 4 weiterhin NICHT neu zellenweise gelesen** (letzte volle Runde 260730/Run 36,
+  > 29.-30.07.2026, drei Wochen alt) — bleibt offen. Kein Nulldurchgang, `status` bleibt
+  > `speculative`. Report: `outputs/2026-08-24_questions-abarbeitung-l41-4-tabelle5.md`.
+  >
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung, Abschlussrunde Tabelle 4).** Die fünf
+  > in Tabelle 4 bisher ohne eigene Eckwerte geführten Nutzungszeilen («Industrie-/
+  > Gewerbebauten q ≤ 1000 MJ/m²», «Bauten mit Räumen grosser Personenbelegung /
+  > Verkaufsgeschäfte [c]», «Parkhäuser/Einstellräume für Motorfahrzeuge», «‹Verkaufsgeschäfte›
+  > ≤ 1200 m²/≤ 100 P», «Landwirtschaftliche Bauten») wurden am Original S. 12-13
+  > (`pdftoppm -r 400`, Zeilenbänder über beide Halbseiten gehalten) vollständig zellenweise
+  > gelesen und in `destillate/lignum-lignatec-brandschutz.md`, Abschnitt Tabelle 4,
+  > nachgetragen. Alle fünf Zeilen bestätigen Eskalations-/Abdeckungsmuster, die für dieselbe
+  > Nutzung bereits aus Tabelle 3 dokumentiert waren (u.a. Baulich-Korridor eine Geschossstufe
+  > früher blau als Sprinkler bei Industrie q≤1000 und Parkhäusern; Abdeckungsgrenze nach
+  > Spalte 4 bei Verkaufsgeschäften ≤1200 m² und Landwirtschaftlichen Bauten) — keine
+  > Abweichung zu einem bestehenden Destillat-Wert. **Damit ist L41-4 vollständig
+  > abgearbeitet**: Tabelle 2 (Run 40), Tabelle 3, Tabelle 5 und nun Tabelle 4 sind seit der
+  > letzten vollständigen Zellrunde (Run 8, 260730) alle erneut zellenweise gegen das Original
+  > gehalten worden. `status` bleibt `speculative` (nur Zellwert-Vollständigkeit geprüft, nicht
+  > die established-Reife).
+
 ### GVZ RWA-Parkhaus
 - **G41-1 Bedeutung der durchgehend blauen letzten Matrixspalte.** Ob dort «nur der gesprinklerte
   Fall ist tabelliert» oder «der Wert gilt für beide Fälle» gemeint ist, sagt der Fliesstext
@@ -2350,6 +2496,24 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   > anderen Rubrik geführt wird oder tatsächlich aus dem Bestand entfernt wurde; dafür wäre
   > entweder eine direkte Suche auf `gvz.ch` im Browser oder eine Anfrage bei GVZ nötig
   > (Bring-Schuld/Rückfrage, nicht mit den geprüften Wegen abschliessend beantwortbar).
+  >
+  > **Zwei weitere Belege, weiterhin nicht abschliessend geklärt (24.08.2026, Fortsetzung).**
+  > (1) Ein Drittanbieter-Spiegel des Dokuments (`readkong.com/de/document/view/1060180`,
+  > Titel «Rauch- und Wärmeabzugsanlagen (RWA) in Parkhäusern und Einstellräumen für
+  > Motorfahrzeuge») bestätigt unabhängig **Nummer 30.17.3, Ausgabedatum 28.02.2011, in Kraft
+  > ab 11.04.2011, Herausgeberin Kantonale Feuerpolizei/GVZ** — deckungsgleich mit dem
+  > Hausbestand, keine jüngere Fassung dort auffindbar. (2) Die GVZ-Abteilung Brandschutz
+  > führt aktuell einen eigenständigen **«Leitfaden für die Planung, Ausführung und Abnahme
+  > von Rauch- und Wärmeabzugsanlagen (RWA)», Nr. 40.1, Ausgabe vom 7. Oktober 2013**
+  > (`gvz.ch/_file/245/131119-leitfaden-rwa.pdf`, per `pdftotext` geprüft) — inhaltlich aber
+  > **kein Ersatz**: er regelt allgemein Ingenieur-Nachweisverfahren (N4, sinngemäss N2/N3)
+  > nach dem VKF-BSR-28-15-Entwurf, nicht spezifisch Parkhäuser/Einstellräume, und nennt
+  > 30.17.3 an keiner Stelle. Die Nummernserie 40.x (Leitfäden) ist erkennbar eine andere
+  > Zählung als 30.x (Feuerwehr-Weisungen) und als die vermutete Brandschutz-Merkblatt-Serie
+  > mit dritter Ziffernstelle (30.17.**3**) — stützt die bereits geäusserte Vermutung, dass
+  > 30.17.3 einem heute nicht mehr aktiv geführten Nummernschema angehört, beweist aber
+  > weder Rückzug noch Fortbestand. **Bleibt offen**, weiterhin nur per Bring-Schuld/Rückfrage
+  > bei GVZ oder Browser-Direktsuche auf `gvz.ch` abschliessend klärbar.
 - **G41-3** DIN 18232-2:2003-06 (Quelle der Durchflussbeiwerte) gegen die im Haus liegende
   Fassung 2007 — weiterhin ungeprüft.
 
@@ -2448,6 +2612,27 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   *(Weiterhin offen — Stichprobe an Ziff. 2.5.3 im Rahmen der S41-7-Prüfung 24.08.2026 zeigt
   inhaltliche Deckungsgleichheit, ist aber kein systematischer Diff und schliesst die Frage
   nicht.)*
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Die bisherige Fragestellung ging von
+  > einer falschen Prämisse aus: es gibt keine separate französische „Parallelfassung" als
+  > eigener Textblock, die man gegen die deutsche diffen müsste. Original neu geladen (SharePoint
+  > Site PL, Drive `02_Recht_Norm`, `06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für
+  > Parkhäuser.pdf`, per M365-Graph-Connector, `pdftoppm -r 200` gerendert, Scan ohne Textlayer)
+  > und visuell geprüft: das Dokument ist **zweispaltig auf denselben physischen Seiten** gesetzt
+  > (Deutsch links, Französisch rechts), mit **gemeinsamer** gedruckter Seitenzahl für beide
+  > Sprachen. Geprüft: vollständiges Inhaltsverzeichnis (Druckseite 2) sowie Ziff. 2.8.2-2.8.7
+  > im Fliesstext (Druckseiten 48-50) — wortgetreue Übersetzung, sprachparallele Querverweise
+  > (VKF-BSR 25-15de = AEAI-DPI 25-15fr, VKF-BSR 21-15de = AEAI-DPI 21-15fr), identische
+  > Zahlenwerte (5 Min. Nachlaufzeit, 2'000 m³/h, 2 kW, 60 s/180 s Alarmzeiten). **Entscheidender
+  > Struktur-Fund:** Tab. 9 (Messparameter CO/NO/NO2) und Tab. 10 (Schaltwerte CO/NO, Druckseiten
+  > 49-50) sind **bilinguale Einzelobjekte** — die Zellbeschriftung trägt Deutsch/Französisch
+  > übereinander, aber jeder Zahlenwert steht nur **einmal** in der Zelle (z.B. 50 ppm CO
+  > Einschaltwert, 200 ppm Alarm). Eine sprachbedingte Werteabweichung bei Tabellen ist damit
+  > **strukturell ausgeschlossen**, nicht nur ungeprüft unwahrscheinlich. Kein vollständiger
+  > Diff aller 110 Seiten, aber die Prämisse „zwei zu vergleichende Texte" trifft nicht zu, und
+  > die geprüfte Stichprobe (TOC + ein kompletter Fliesstext-/Tabellenblock) zeigt keine
+  > Abweichung. Nachgetragen in `destillate/swki-va103-01-2017.md`, neuer Abschnitt
+  > «Sprachfassung Deutsch/Französisch».
 - **S41-9 (P2, Korrektur 01.08.2026, Ultra-Code-Review): Grenzfall exakt 100 m².**
 
   > ✅ **GESCHLOSSEN 23.08.2026.** Original beschafft (SharePoint Site PL, Drive `02_Recht_Norm`,
@@ -2501,6 +2686,32 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **H41-2** Das Mass der «erhöhten Anforderungen» für **Sonderbauten** (Spitäler, Alters- und
   Behindertenheime) gegenüber SN 521 500 — im Dokument nicht beziffert. Für JANS mit
   Healthcare-Schwerpunkt der wichtigste offene Punkt dieses Bestands.
+
+  > **Fundstelle identifiziert, Zahlenwert bleibt Bring-Schuld (24.08.2026, QUESTIONS-Abarbeitung).**
+  > SIA 500:2009 vollständig am Original geprüft (`pdftotext -layout` über das gesamte Dokument,
+  > nicht nur den in `destillate/sia-500-2009.md` bereits gelesenen Ziff.-0-12-Teil) —
+  > **Ziff. 0.1.5, S. 5** wörtlich: «Diese Norm ist nicht hinreichend für Bauten zur Pflege und
+  > Betreuung von Personen, wie Spitäler, Rehabilitationsstätten, Wohn- und Pflegeheime sowie
+  > Alterswohnungen u.ä. Für solche Bauten sind die spezifischen, dem jeweiligen Zweck
+  > entsprechenden Anforderungen vorrangig.» SIA 500 selbst — heute die massgebende Norm anstelle
+  > von SN 521 500:1988, siehe H41-1 oben — beziffert die erhöhten Anforderungen damit **nicht**
+  > und kann es nach eigenem Geltungsbereich auch nicht: Sonderbauten sind ausdrücklich
+  > ausgenommen, nicht nur strenger geregelt.
+  >
+  > **Die tatsächliche Fundstelle steht im bisher ungelesenen Anhang H «Publikationen»
+  > (S. 59, TOC-Eintrag S. 3, jetzt durch Volltextsuche über das ganze PDF erschlossen):** die
+  > Publikationsliste der Schweizerischen Fachstelle für behindertengerechtes Bauen FABB, Zürich
+  > (heute Zollstrasse 115, 8005 Zürich — Adresse siehe H41-3-Klärung unten) nennt namentlich
+  > **«Merkblatt Nr. 7, Rollstuhlgängigkeit bei Sonderbauten»**. Das ist exakt das gesuchte
+  > Dokument. Es liegt in dieser KB nicht vor (weder im SharePoint-Bestand `02_Recht_Norm`
+  > geprüft noch sonst bekannt) und gehört zur selben Publikationsfamilie wie die in H41-4 bereits
+  > als fehlend dokumentierten Merkblätter 14/04 und 15/04 derselben Fachstelle.
+  > **Nächster Schritt (Bring-Schuld/Rückfrage, KEIN SIA-Kauf nötig, evtl. kostenlos
+  > erhältlich):** Merkblatt Nr. 7 direkt bei der Fachstelle anfragen
+  > (fachstelle@hindernisfreie-architektur.ch, 044 299 97 97 — Kontaktdaten aus H41-4 bereits
+  > recherchiert) oder auf `hindernisfreie-architektur.ch` unter den Planungshilfen suchen; nach
+  > Beschaffung destillieren. Fällt unter die Mail-Versand-Sperre (User-CLAUDE.md „Grenzen"),
+  > nicht selbständig ausgelöst.
 - **H41-3** Adressüberschneidung: die Schweizerische Fachstelle für behindertengerechtes Bauen
   und die BKZ-Bauberatung teilen Kernstrasse 57, 8004 Zürich, führen aber verschiedene
   Telefonnummern. Ko-Lokation, Trägerschaft oder Zufall? Aus den Dokumenten nicht klärbar.
@@ -3951,6 +4162,16 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
 - [ ] **BSV 2026 überwachen:** Sobald die definitiven Norm-/Richtlinientexte auf
   bsvonline.ch publiziert sind (erwartet nach IOTH-Entscheid März 2027), herunterladen und
   neben den 2015er-Bestand legen; Skill `brandschutz` erst NACH Inkraftsetzung umstellen.
+  > **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung, dreizehnter Lauf) — weiterhin nicht publiziert,
+  > Fahrplan präzisiert.** `bsvonline.ch/de/aktuell/information-bsv-2026` (WebFetch, Abruf
+  > 24.08.2026) bestätigt: Inkrafttreten weiterhin für 2027 vorgesehen («Inkrafttreten neue
+  > Brandschutzvorschriften jetzt für 2027 vorgesehen», Grund: Steuerungsausschuss sieht an
+  > einigen Stellen noch Detailabstimmungsbedarf zwischen den Vorschriftenteilen). Fahrplan laut
+  > derselben Quelle: technische Vernehmlassung September 2025–Januar 2026 (abgeschlossen),
+  > Schulungsstart Dezember 2025, **politische Vernehmlassung August–November 2026** (läuft ab
+  > diesem Monat), Genehmigung durch die IOTH-Plenarversammlung März 2027. Kein definitiver
+  > Text publiziert, weiterhin nicht zitierfähig als geltendes Recht — Checkbox bleibt offen,
+  > nächster sinnvoller Check erst nach der politischen Vernehmlassung (ab Dezember 2026).
 - [x] DIN-Ordner enthält `FileOpenInstaller.dmg` + Anleitung — **beantwortet, DIN/VSS/RAL
   komplett 13.07.2026 (Run 5):** alle 72 DIN-Dateien wurden destilliert oder als Nicht-Norm
   übersprungen, kein DRM-Hindernis aufgetreten; `FileOpenInstaller.dmg` selbst ist kein
@@ -4125,7 +4346,7 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   SharePoint-Ordner tatsächlich als eigenständige, zweite Datei daneben — bestätigt per
   Ordnerlisting (`/children`), kein Merge-Fall. Nachtrag im Destillat selbst,
   Abschnitt «Offene Punkte». Ursprungswortlaut bleibt unten stehen.
-- [ ] ~~Dateiname/Inhalt-Mismatch~~ (Ursprungswortlaut, siehe Schliessung oben): `vkf-merkblatt-brandschutzklassifikation-bauteile.md` hat als
+- [x] ~~Dateiname/Inhalt-Mismatch~~ (Ursprungswortlaut, siehe Schliessung oben): `vkf-merkblatt-brandschutzklassifikation-bauteile.md` hat als
   Quelle `Brandschutz-Praevention.pdf`, der Dateiname passt aber nicht zum Inhalt (Klassifikation
   von Bauteilen statt Prävention). Prüfen, ob der Inhalt wirklich zur Quelle passt, ggf. umbenennen
   auf ein passendes Muster (z.B. `vkf-brl-praevention-organisatorischer-brandschutz.md` — kollidiert
@@ -4133,6 +4354,13 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   hat: beide Destillate zu `Brandverhuetung & organisatorischer Brandschutz.pdf` bzw.
   `Brandschutz-Praevention.pdf` — evtl. sind das zwei verschiedene PDFs mit ähnlichem Thema, am
   Original gegenlesen bevor gemerged wird.
+  **Checkbox nachgezogen 24.08.2026 (QUESTIONS-Abarbeitung).** Die Frage ist bereits doppelt
+  beantwortet, nur hier nie abgehakt: die Schliessung oben (23.08.2026) hat am Original bestätigt,
+  dass der Dateiname vom Serien-/Herausgeber-Brand stammt (nicht vom Inhalt) und dass
+  `Brandverhuetung & organisatorischer Brandschutz.pdf` per Ordnerlisting eine tatsächlich
+  eigenständige zweite Datei ist — kein Merge-Fall; derselbe Befund wird zusätzlich unter
+  Teilpunkt (3) des «Verify-Abschluss MacBook»-Eintrags weiter unten ausdrücklich referenziert
+  («bereits am 23.08.2026 an anderer Stelle dieser Datei geschlossen»).
 - [x] **DIN EN 12101-2 im VKF-Ordner:** `VKF_Norm/02_Brandschutzrichtlinien 2015/DIN EN 12101-2.pdf`
   ist eine Dublette der bereits unter DIN destillierten `din-en-12101-2-2003.md` (Mac Mini) — beim
   Reconcile referenziert statt neu destilliert, keine Aktion nötig.
@@ -4201,21 +4429,21 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
 - [x] **Gross-Dateien DIN-Sonstiges/DIN-Norm** — alle in Run 3+4 (13.07.2026) destilliert,
   siehe Inventar. Keine offenen Positionen mehr.
 
-- [ ] **Mac Mini Run 3 (13.07.2026, Intensiv-Lauf): CH-Pendants weiterhin offen + Budget-Grenze
-  erreicht.** 9 neue Vollstaendig-Destillate (DIN 1045-2, 105-100, 1053-1, 1053-100, 1053-4,
-  18040-2, 18232-2, 1946-4) plus Teil-Destillat DIN 1054 (72%). Neue CH-Pendant-Luecke: **SWKI
-  99-3** (Heiz-/Raumlufttechnik Spitalbauten) fehlt als Schweizer Pendant zu DIN 1946-4
-  (Healthcare-RLT) — Kandidat fuer Ergaenzung, relevant fuer `healthcare-wirtschaftlichkeit`/
-  `energie-berater`. Ebenso referenziert aber nicht destilliert: DIN 4159 (Ziegel-Tabellen,
-  aus DIN 1053-4) und DIN 4149 (Erdbebenzonen D). Workflow-Tool verweigerte erneut die
-  Freigabe ("Review dynamic workflow before running") - Fallback auf 9 parallele Agent-Aufrufe
-  in einem Batch; das hat ca. $17 von $25 Sessionbudget verbraucht (ca. $1.9/Agent bei
-  60-100-seitigen Volltexten) - fuer den naechsten Lauf kleinere Batches (5-6 statt 9) oder
-  kuerzere Dokumente zuerst planen. **Offen fuer naechsten Lauf:** DIN 4844-2, DIN V 105-100,
-  DIN V 106, Sonstiges/Baupreisindizes, Sonstiges/Inhaltsverzeichnis (DRM-verdaechtig, print
-  erlaubt/copy gesperrt - noch nicht getestet), Sonstiges/Komm Din 18024 Teil 1, Sonstiges/
-  VdS-Richtlinie 2234 (DRM-verdaechtig, print+copy erlaubt), Rest DIN 1054 (S.61-77+94-105),
-  alle 5 offenen VSS-Grossdateien (40 291, 640 065, 640 281, 640 291a, 640 578).
+- [x] **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung, zwoelfter Lauf).** Alle drei Folgen
+  dieses Status-Vermerks sind laengst erledigt, nur die Checkbox war nie nachgezogen: (1) die
+  hier als «offen fuer naechsten Lauf» gelisteten Dateien (DIN 4844-2, DIN V 105-100, DIN V 106,
+  Sonstiges/Baupreisindizes, Sonstiges/Inhaltsverzeichnis, Sonstiges/Komm DIN 18024, Sonstiges/
+  VdS-Richtlinie 2234, Rest DIN 1054, alle 5 VSS-Grossdateien) sind gemaess den direkt
+  nachfolgenden Eintraegen dieser Datei (Mac Mini Run 4/5, 13.07.2026, unten) vollstaendig
+  destilliert bzw. begruendet uebersprungen — «0 offene [ ]-Positionen» in DIN/VSS/RAL bestaetigt.
+  (2) DIN 4159/4149 blieben mangels konkretem Projektbedarf bewusst unangetastet (P4-Fall wie
+  N-R40-3 oben), kein Loop-Fall. (3) Die «Neue CH-Pendant-Luecke SWKI 99-3» war ein falscher
+  Gegenstand: SWKI 99-3:2003 (+ Beiblatt 2004) ist seit 1.8.2015 durch VA 105-01:2015 ersetzt
+  (belegt `wiki/REGISTER.md`, Zeile VA 105-01/SWKI 99-3:2003; zweitbelegt
+  `wissen/energie/destillate/reinraum-op-klimatisierung-gesundheitsbau-ch.md`) — bereits an
+  anderer Stelle dieser Datei korrigiert (Abschnitt «CH-Pendant zu DIN 1946-4», Z. 3112 ff.).
+  Der eigentliche offene Rest ist der dortige Kaufentscheid **N-R21-2 (VA 105-01 Volltext,
+  Kap. 3-6)**, kein neuer Destillier-Auftrag.
 
 - [x] **SN 640 105a (Verbreiterung der Fahrbahn in Kurven, Dez. 2000)** — **destilliert
   13.07.2026 (Mac Mini Run 6):** vollstaendig gelesen (S.25-37 des Traegerdokuments
@@ -4276,8 +4504,11 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   `outputs/2026-07-13_normen-mini-run9.md`. **Nächster Lauf:** weitere Retro-Verifikation
   des grossen Rests unverifizierter DIN/VSS-Destillate (DIN 5034-Reihe, DIN 1053-Reihe,
   weitere DIN-EN-Normen, VSS-Altbestand), danach Stufe (c) Q&A-Selbstbefragung.
-- [ ] **Verify-Abschluss MacBook (13.07.2026): neue offene Punkte aus den 9
-  Retro-Verifikationen.** (1) Drei Duplikat-Merges noch offen:
+- [~] **Verify-Abschluss MacBook (13.07.2026): neue offene Punkte aus den 9
+  Retro-Verifikationen — 3 von 5 Teilpunkten inzwischen geschlossen (siehe Nachträge unten),
+  Marker nachgezogen 24.08.2026 (QUESTIONS-Abarbeitung).** Verbleibend offen: Teilpunkt (1)
+  [destruktiv, Rückfrage Raphael] und Teilpunkt (4) [steeldoc-ECCS-Diskrepanz, kein ECCS-Volltext
+  im Haus, externe Bring-Schuld]. (1) Drei Duplikat-Merges noch offen:
   `vkf-aenderungen-brandschutzrichtlinien-2017.md` → `vkf-brl-aenderungen-2017.md`,
   `vkf-merkblatt-2001-15-solaranlagen.md` → `vkf-brm-2001-15-solaranlagen.md`,
   `vkf-brl-anerkennungsverfahren.md` → `vkf-brl-28-15-anerkennungsverfahren.md`
@@ -4326,6 +4557,27 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   > Mismatch») war bereits am 23.08.2026 an anderer Stelle dieser Datei geschlossen (Abschnitt
   > «Dateiname/Inhalt-Mismatch — GESCHLOSSEN 23.08.2026» oben). Damit sind von den ursprünglich
   > fünf Teilpunkten nur noch (1) [destruktiv, Rückfrage Raphael], (4) und (5) offen.
+  >
+  > **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung): Teilpunkt (5) ebenfalls GESCHLOSSEN.** Die
+  > Frage («BRL 100-15 Brandmauern: Gegenprüfung des REGISTERs auf eine allfällig spätere
+  > Ausgabe») ist durch eine zwischenzeitlich unabhängig entstandene Arbeit bereits beantwortet,
+  > hier nur verifiziert und referenziert: `wiki/REGISTER.md` Abschnitt zu den
+  > Fassungs-Delta-Publikationen führt **BSE 100-15 Brandmauern mit geltender Fassung
+  > 01.01.2017** (Zeile «BSE 100-15 Brandmauern | 01.01.2017 | `vkf-brl-100-15-fassung-2017-delta.md`»).
+  > Das Delta-Destillat selbst (`destillate/vkf-brl-100-15-fassung-2017-delta.md`, Frontmatter
+  > geprüft) belegt Quelle **VKG-Publikationsportal Dokument BSPUB-1394520214-141, Fassung
+  > 01.01.2017 (von der Technischen Kommission VKF am 29. September 2016 genehmigte Änderungen)**
+  > gegen den Hausbestand `PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien
+  > 2015/100-15_Brandmauern.pdf` (Fassung 01.01.2015): acht amtlich gelistete Fundstellen,
+  > keine davon materiell (reine Begriffsvereinheitlichung Aussenwand→Aussenwandkonstruktion,
+  > Bedachung→Dachkonstruktion, sowie RF3→RF3(cr)), Anhang-Prinzipschnitte per Rendering
+  > deckungsgleich geprüft (Run 60, 23.08.2026, `last_updated: 2026-08-23`). **Damit ist
+  > REGISTER bereits auf dem aktuellen Stand — keine weitere, vom Register noch nicht erfasste
+  > Ausgabe.** Das Delta-Destillat selbst bleibt `status: speculative` (nur die acht gelisteten
+  > Fundstellen geprüft, nicht der gesamte Restbestand Ziff. 2/5-7 und übriger Anhang) — dieser
+  > Statuswert ist unverändert korrekt und wird hier nicht angehoben. Von den ursprünglich fünf
+  > Teilpunkten bleibt nur noch **(1)** [destruktiv, Rückfrage Raphael] und **(4)**
+  > [steeldoc-ECCS-Diskrepanz, kein ECCS-Volltext im Haus, externe Bring-Schuld] offen.
 - [x] **Mac Mini Run 10 (13.07.2026): Retro-Verifikation DIN-5034-Reihe + DIN-1053-Reihe
   komplett, 8/8 beanstandet-korrigiert.** Alle 4 verbleibenden DIN-5034-Destillate
   (5034-1/2/4/6) und alle 4 verbleibenden DIN-1053-Destillate (1053-1/2/3/100) adversarial
@@ -4634,12 +4886,25 @@ einzeln geprüft:
   erfasst» — exakt die hier befuerchtete systematische Verwechslung Fassungsdatum ↔
   Ausgabejahr wurde damit fuer die ganze revidierte Serie durchgesehen, nicht nur fuer 16-15.
   Ursprungswortlaut bleibt unten stehen, damit die urspruengliche Vermutung nachvollziehbar ist:
-- [ ] **Folgepruefung zur 2015er-BRL-Serie:** Dieselbe Verwechslung Fassungsdatum ↔ Ausgabejahr duerfte
-  bei den uebrigen revidierten VKF-Richtlinien systematisch auftreten (deren Fassungsdaten sind
-  ebenfalls 2016/2017). REGISTER und Destillate der ganzen Serie darauf durchsehen.
-  **Vorarbeit vorhanden (Run 8):** `planungsgrundlagen` hat fuer **BSR 13-15** (Rev. 2017,
-  redaktionelle Deltas) und **BSR 14-15** bereits Fassungs-Recherche geleistet — siehe
-  `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser` (Run 41/52). Dort abholen statt neu machen.
+- [x] **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung, zwoelfter Lauf).** Die geforderte
+  systematische Durchsicht ist durch eine zwischenzeitlich unabhaengig entstandene Arbeit
+  bereits erledigt: `wiki/REGISTER.md`, Abschnitt zu den VKF-Publikationen 01.01.2017 (Run 60,
+  23.08.2026), fuehrt fuer **alle fuenfzehn** Publikationen der Sammelrevision (BRL 17-15,
+  18-15, 20-15, 21-15, 23-15, 24-15, 25-15, BSE 100-15, 101-15, 102-15, 105-15, 106-15, 107-15,
+  AH 1000-15, 1002-15) je ein eigenes Delta-Destillat mit explizitem Fundstellen-Abgleich
+  Fassungsdatum ↔ Ausgabejahr, plus BRL 13-15 als Gegenprobe — REGISTER-Vermerk: «Der
+  Sammelposten 01.01.2017 ist mit Run 60 vollstaendig abgearbeitet». Damit ist die hier
+  verlangte Durchsicht der ganzen Serie bereits vollzogen, nur die Checkbox war nicht
+  nachgezogen. Separat davon bleibt eine ANDERE, im REGISTER selbst als naechster Schritt
+  markierte Frage offen (Abdeckungsrichtung: ob die Bestandsdestillate ihre eigene Fassung
+  *vollstaendig* abbilden, nicht nur das Delta) — das ist keine Wiederholung dieses Punkts,
+  sondern eine eigene, groessere Arbeit (siehe Eskalationsempfehlung im Report des elften
+  Laufs). Ursprungswortlaut zur Nachvollziehbarkeit: «Dieselbe Verwechslung Fassungsdatum ↔
+  Ausgabejahr duerfte bei den uebrigen revidierten VKF-Richtlinien systematisch auftreten
+  (deren Fassungsdaten sind ebenfalls 2016/2017). REGISTER und Destillate der ganzen Serie
+  darauf durchsehen. Vorarbeit vorhanden (Run 8): `planungsgrundlagen` hat fuer BSR 13-15
+  (Rev. 2017, redaktionelle Deltas) und BSR 14-15 bereits Fassungs-Recherche geleistet — siehe
+  `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser` (Run 41/52).»
 - [~] **TEILWEISE GESCHLOSSEN Run 22 (260725): Fassung «Stand 01.12.2022» gelesen und die Teilfrage zu
   Ziff. 3.7 entschieden** (Bezugsgrösse **Brandabschnittsfläche > 1'200 m²** in beiden Fassungen
   wortidentisch, Haupttext S. 12 — das Destillat hatte nichts geglättet; geändert wurde nur die

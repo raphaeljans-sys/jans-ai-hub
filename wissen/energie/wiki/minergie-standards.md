@@ -3,12 +3,16 @@ title: Minergie-Standards & Eigenstromerzeugung
 status: established
 last_updated: 2026-08-24
 datenstand: 2026-01-01 (Produktreglement MINERGIE/-P/-A Version 2026.1, gültig ab 01.01.2026 — massgebende Primärquelle für alle Kennwerte dieses Artikels)
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md]
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/minergie-produktreglement-2026-1-muken-vergleich.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-nachweiskurs-2023-mkz-thge]], [[graue-energie]]
 verifikation: "Adversarial Verify 2026-07-21 gegen Produktreglement MINERGIE/-P/-A Version 2026.1
   (gueltig ab 01.01.2026, minergie.ch). THGE-Zeile unten aktualisiert (Grenzwerte 2026.1 hoeher als
   2023); Wetterdaten 2035 bestaetigt; MKZ 51/46/29 als Planungsbroschueren-Richtwert gekennzeichnet,
-  nicht als Reglement-Fixwert. Details `[[minergie-nachweiskurs-2023-mkz-thge]]`."
+  nicht als Reglement-Fixwert. Details `[[minergie-nachweiskurs-2023-mkz-thge]]`. **Nachtrag
+  24.08.2026 (A-BLIND-Folgelauf, Kap. 6-13 primärquellenwörtlich gelesen):** Elektromobilität-
+  Ausbaustufe von C2 auf **C1** korrigiert (Kursunterlage-2023-Fehler, Reglement 2026.1 kennt keine
+  Stufe C2); Luftdichtheit q_E50 präzisiert (nur P/A im Reglement beziffert, Basisstandard-Wert 1,2
+  stammt aus der Planungsbroschüre, nicht dem Reglement) → `[[minergie-produktreglement-2026-1-muken-vergleich]]`."
 ---
 
 # Minergie-Standards & Eigenstromerzeugung
@@ -39,7 +43,7 @@ verifikation: "Adversarial Verify 2026-07-21 gegen Produktreglement MINERGIE/-P/
 | Minergie-Kennzahl ⚠ Richtwert, siehe Hinweis | 51 kWh/m² | 46 | 29 |
 | Heizwärmebedarf | 90 % MuKEn 2014 | 70 % MuKEn | 90 % MuKEn |
 | **THGE Erstellung** (Treibhausgasemissionen, **nicht** graue Energie in MJ) ⚠ seit 2026.1 revidiert | 11,5 kg CO₂-eq **je m² EBF**·a (GW_EBF) | 11,5 | 11,5 |
-| Luftdichtheit q_a50 | 1,2 | 0,8 (gemessen) | 0,8 (gemessen) |
+| Luftdichtheit q_a50 Neubau ⚠ nur P/A im Reglement 2026.1 beziffert | 1,2 (Planungsbroschüre 2023, nicht im Reglement 2026.1 gefunden) | 0,8 (gemessen) | 0,8 (gemessen) |
 Immer: Komfortlüftung, **sommerl. Wärmeschutz auf Wetterdaten 2035**, keine fossilen Brennstoffe,
 **Dach voll mit PV** (Neubau ≥ 60 % Dachfläche), Leerrohre E-Mobilität. Detail/Erneuerungswerte →
 `[[minergie-besser-planen-bauen]]`.
@@ -56,8 +60,19 @@ Immer: Komfortlüftung, **sommerl. Wärmeschutz auf Wetterdaten 2035**, keine fo
 > neues Kriterium **THGE in der Erstellung** (2023: 11 kg MFH, je Gebäudekategorie 11–17, Spitäler 17
 > → `[[graue-energie]]`); Heizwärmebedarf **90 % Q_h,li** (Minergie/-A); sommerl. Wärmeschutz auf
 > **Klima 2035, max. 100 h** (2026.1 bestätigt unverändert); **Monitoring ab 1'000** statt 2'000 m² EBF;
-> **60 % der Parkplätze elektrifiziert** (SIA 2060 C2); Wärmeerzeugung Spitzenlast **ab 80 kW max. 10 %
-> fossil** (2017: max. 30 %). Detail → `[[minergie-nachweiskurs-2023-mkz-thge]]`.
+> **60 % der Parkplätze elektrifiziert** (SIA 2060 **C1** ⚠ korrigiert 24.08.2026 — die
+> Kursunterlage 2023 nannte «C2», das primärquellenwörtlich gelesene Produktreglement 2026.1
+> Kap. 13 listet für alle Gebäudekategorien mit Ladepflicht ausschliesslich A oder **C1**, keine
+> Stufe C2, siehe `[[minergie-produktreglement-2026-1-muken-vergleich]]`); Wärmeerzeugung
+> Spitzenlast **ab 80 kW max. 10 % fossil** (2017: max. 30 %). Detail →
+> `[[minergie-nachweiskurs-2023-mkz-thge]]`.
+
+> **Luftdichtheit q_E50 (Kap. 6.2, 2026.1, primärquellenwörtlich geprüft 24.08.2026):** Das
+> Produktreglement nennt nur EINE Tabelle, gültig für **Minergie-P/Minergie-A** (0,8 m³/(h·m²)
+> Neubau, 1,6 Erneuerung) — keine gebäudekategoriespezifische Aufteilung. Für den Basisstandard
+> Minergie ist im Reglement **kein eigener Zahlenwert** genannt; nur P/A benötigen überhaupt eine
+> Luftdichtheitsmessung. Der oben in der Tabelle stehende Wert 1,2 für den Basisstandard stammt aus
+> der Planungsbroschüre 2023, nicht aus dem Reglement selbst → `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
 
 > **Update 2026.1 (THGE-Grenzwerte revidiert, gültig ab 01.01.2026):** Das Produktreglement 2026.1
 > setzt neue, **höhere** GW_EBF-Basiswerte je Gebäudekategorie fest: Wohnen MFH neu **11,5**
@@ -88,6 +103,17 @@ Netzeinspeisung.
 ## Eigenstromerzeugung (gesetzliche PV-Pflicht)
 Neubau: **EBF × 10 W/m², max. 30 kW**. Fläche ~8 m²/kW (kristallin) / 16 m²/kW (Dünnschicht).
 Ersatzabgabe kantonsabhängig möglich. Detail/JANS-Beispiel → `[[enfk-en-104-eigenstromerzeugung]]`.
+
+## Nichtwohnbau (Zweckbauten Kat. III-XII) — konkrete Limiten (Nachtrag 24.08.2026)
+
+Anders als bei Wohnbauten gibt es **keine fixe MKZ-Tabelle je Kategorie** — die Kennzahl wird stets
+projektspezifisch berechnet (s. Hinweis oben). Zwei Anforderungen sind aber am Produktreglement
+2026.1 als fixe, kategorieunabhängige bzw. -abhängige Werte belegt:
+- **Heizwärmebedarf-Prozentsatz gilt einheitlich für alle Kategorien** (90 % Minergie/-A,
+  70 % Minergie-P Neubau) — nicht nach Nutzung gestaffelt.
+- **Elektrizitäts-Standardbedarf (Beleuchtung/allg. Gebäudetechnik/Geräte) ist dagegen stark
+  kategorieabhängig**, z. B. Beleuchtung Verkauf 43 vs. Schule 10 kWh/(m²a). Volle Tabelle je
+  Kategorie III-XII → `[[minergie-besser-planen-bauen]]`.
 
 ## Andere Labels
 GEAK (Klasse ≠ automatisch Minergie), GEAK-Plus (Beratung), SNBS, 2000-Watt-Areal — kombinierbar.
@@ -154,14 +180,18 @@ die Kopplung Hülle ↔ Haustechnik, nicht ihre Werte.
 herunterladbare Excel-Mappe → `[[minergie-nachweisformular-2022-set]]` (dort die Auflösung der
 Frage E-125-5).
 
-**Zur Gültigkeitsdauer eines Zertifikats: weiterhin Negativbefund.** Die offizielle
-Ablauf-Seite (`minergie.ch/de/zertifizieren/ablauf/`, geprüft 15.08.2026) beschreibt die
-provisorische und die definitive Zertifizierung in je sieben Schritten und nennt **keine
-Befristung, keinen Verfall und keine Erneuerung** des Zertifikats. Das bestätigt den bisherigen
-Stand in `[[minergie-zertifizierung-workflow]]`; die Fünfjahresfrist aus dem Reglement 2010
-betrifft die Mehrfachanwendung der Marke, nicht das objektbezogene Zertifikat (QUESTIONS
-E-125-6 bleibt offen, weil ein Negativbefund auf einer Prozessseite kein Beleg für das
-Gegenteil ist — abschliessend nur bei der Zertifizierungsstelle zu klären).
+**Zur Gültigkeitsdauer eines Zertifikats: geklärt am Original, 24.08.2026 (löst E-125-6).**
+Kapitel 2 des Produktreglements 2026.1 unterscheidet zwei Regimes: das **provisorische**
+Zertifikat (Bauphase) ist **3 Jahre gültig**, verlängerbar um **2 Jahre** in begründeten Fällen
+(Kap. 2.1.3); das **definitive** Zertifikat (nach Bauabnahme — das für einen späteren Verkauf
+relevante Dokument) ist **unbeschränkt gültig**, sofern **keine energetisch relevante Änderung**
+am Gebäude erfolgt und es weiterhin auf der Minergie-Gebäudeliste geführt wird (Kap. 2.2.3). Bei
+einer energetisch relevanten Änderung (z. B. Wärmeerzeuger-Ersatz, PV-Zubau) ist eine
+Rezertifizierung nötig, um die Gültigkeit zu erhalten (Kap. 2.3.1, kostenpflichtig, max. 50 % der
+ordentlichen Gebühr). Details, Primärzitat und Fundstelle: `[[minergie-zertifizierung-workflow]]`
+Nachtrag 24.08.2026, `[[minergie-produktreglement-2026-1-muken-vergleich]]` Abschnitt «Kapitel 2».
+Die Fünfjahresfrist aus dem Reglement 2010 betraf die Mehrfachanwendung der Marke und war damit
+eine andere Frist als die hier gefundene — Zufall der Zahl, keine Kontinuität der Regel.
 
 **Die Debatte um das Label gehört zur Beratung.** Dass Minergie unter Fachleuten nicht
 unbestritten ist (Dämmlogik gegen Emissions- und Erzeugungsseite, belegt 2009/2010), ist als

@@ -446,7 +446,9 @@ Gesamtenergiedurchlass von Glas + Beschattung: **g-Wert 0,1–0,15** — dann bl
 Überhitzung. Vier Stellschrauben:
 - **Sonnenschutz aussenliegend, beweglich, windfest und gesteuert** — innenliegender Blendschutz
   bringt für die Hitze fast nichts (die Wärme ist dann schon im Raum). Blend- und Sonnenschutz
-  nicht in **einem** Behang kombinieren.
+  nicht in **einem** Behang kombinieren. Konkrete Beispiel-Regelparameter (AHB Stadt Zürich):
+  Überhitzungsschutz ab ~250 W/m² Globalstrahlung, Blendschutz ab ~25 kLux, Windschutz-Rückstellung
+  erst 10 % unter dem Grenzwert (Hysterese gegen Storenflattern) → `[[ahb-merkblatt-386-storensteuerung-2017]]`.
 - **g-Wert (Verglasung + Beschattung) 0,1–0,15** als Zielwert; bei gekühlten Räumen gelten
   zusätzlich normierte Anforderungen an Steuerung und Windfestigkeit (EnFK EN-2, Kap. 8).
 - **Speichermasse** (Massivdecken/-wände) puffert Tagesspitzen; in Kombination mit **Freecooling /
@@ -1791,6 +1793,11 @@ nicht der erste.
 - **Technik:** ~80 % der Anlagen **Lithium-Eisenphosphat (LFP)**, kobaltfrei, sicher; Lebensdauer
   **10–20 Jahre**. **Notstrom:** nur **~30 %** der Systeme können bei Netzausfall wirklich das ganze
   Haus weiterversorgen — wer das will, muss es **ausdrücklich verlangen**.
+- **Brandschutz (VKF, primärquellenbelegt):** Ein typischer Heimspeicher (5–15 kWh) liegt an der
+  Grenze zu **Hazard Level II** (ab 15 kWh/Brandabschnitt) — Mindestabstand **2,5 m** zu brennbaren
+  Materialien gilt immer, ein eigener Raum mit **EI 30** (bei LFP) bzw. **EI 60** (andere
+  Lithium-Ionen-Chemien) ist empfohlen bzw. ab 15 kWh gefordert. Die Chemie (LFP oder nicht) gehört
+  deshalb in die Ausschreibung. Details: `[[vkf-lithium-batteriespeicher-brandschutz]]`.
 
 **Wann eher ja:** hoher Abend-/Nachtverbrauch, Wunsch nach Autarkie/Notstrom, hohe Strompreise /
 tiefe Einspeisevergütung. **Wann eher nein:** tagsüber ohnehin hoher, steuerbarer Verbrauch (WP +
@@ -3153,19 +3160,25 @@ Fachplaner-Dimensionierung.
 **Fachlich:** Für den rechtlich massgebenden Energienachweis gelten die SIA-380/1-Tabelle-27-
 Werte der Kategorie VIII (22 °C, 30 m²/Person, 80 W/Person, 1.0 m³/(h·m²) Aussenluft). SIA
 2024:2021 liefert daneben feinere Raumnutzungsdaten (Bettenzimmer/Stationszimmer/Behandlungsraum)
-für die technische Auslegung von Heizung/Kühlung/Lüftung durch die Fachplaner — Volltext
-kostenpflichtig, aber die Systematik (Flächenanteile, Lüftungs-Volllaststunden) ist über
-SIA-Grundlagenberichte belegt. Wichtig: **Operationssäle und CT/MRT-Diagnostikräume sind durch
-SIA 2024 explizit NICHT abgedeckt** und brauchen eine eigene, projektspezifische Auslegung
-(Medizintechnik-Fachplaner) — dort steckt in der Kostenschätzung oft das grösste Risiko, weil
-allein die Prozessanlagen im Behandlungsraum 28–38 % des Raum-Elektrizitätsbedarfs ausmachen
-können.
+für die technische Auslegung von Heizung/Kühlung/Lüftung durch die Fachplaner. Seit der Korrigenda
+SIA 2024-C2:2025 (gültig ab 1.6.2025, kostenlos) liegen dafür konkrete, primärquellenbelegte
+Kennwerte pro m² vor: **Klimakälte-Leistung Standard 31.9 W/m² Bettenzimmer, 64.6 W/m²
+Stationszimmer, 60.2 W/m² Behandlungsraum** — Stationszimmer/Behandlungsraum brauchen also rund
+doppelt so viel Kühlleistung pro m² wie das Bettenzimmer. Beim Warmwasser ist es umgekehrt: das
+Bettenzimmer trägt mit 67.7 kWh/m²·a den mit Abstand höchsten Bedarf (Stations-/Behandlungsraum:
+0). Wichtig: **Operationssäle und CT/MRT-Diagnostikräume sind durch SIA 2024 explizit NICHT
+abgedeckt** und brauchen eine eigene, projektspezifische Auslegung (Medizintechnik-Fachplaner) —
+dort steckt in der Kostenschätzung oft das grösste Risiko, weil allein die Prozessanlagen im
+Behandlungsraum mit 15 W/m² (Standard) einen eigenen, spürbaren Leistungsblock bilden, der bei
+OP-/Diagnostikräumen um ein Vielfaches höher liegen kann.
 
 **Quelle:** SIA Grundlagenbericht SIA 2024:2021 (20.10.2024), SIA/EnFK-Statusbericht
-Harmonisierung (2019), EnFK-Anforderungsprofil SIA 380/1:2016 (Version 16.01a) →
-`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`. Status **emerging** (Gebäudekategorie- und
-Lüftungskennwerte primärquellennah belegt; vollständige Raumdatenblätter Anhang A nur
-kostenpflichtig zugänglich).
+Harmonisierung (2019), EnFK-Anforderungsprofil SIA 380/1:2016 (Version 16.01a), **SIA 2024-C2:2025
+Korrigenda (gültig ab 1.6.2025, gelesen 24.08.2026)** →
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`. Status **emerging** (Gebäudekategorie-,
+Lüftungs- und jetzt auch Energie-/Leistungsbedarf-Kennwerte für 8.01-8.03 primärquellenbelegt;
+vollständige Raumdatenblätter Anhang A mit allen Eingabeparametern nur kostenpflichtig
+zugänglich).
 
 ---
 
@@ -4049,29 +4062,33 @@ unverändert die heutige Frist: im **Kt. ZH bis 2030** (§ 10b Abs. 3 EnerG), im
 (§ 22a kEnG, nur für zentrale Anlagen mit Wasserverteilsystem).
 
 **Fachliche Begründung:** Art. 5.1 MuKEn 2025 (Modul 5, «Sanierungspflicht dezentraler
-Elektroheizungen») lautet: «Bestehende ortsfeste elektrische Widerstandsheizungen sind innerhalb
-von 5 Jahren nach Inkraftsetzung **dieses Gesetzes** durch Heizungen zu ersetzen, die den
-Anforderungen dieses Gesetzes entsprechen.» Gemeint ist das kantonale Gesetz, das Modul 5
-übernimmt, nicht die MuKEn-2025-Verabschiedung durch die EnDK am 29.08.2025 selbst. Modul 5 ist
-zudem ein **optionales** Modul (nicht Teil des für alle Kantone verbindlichen Basismoduls); ob und
-wann Ihr Kanton es übernimmt, ist offen. Zusätzliche Unsicherheit: Modul 5 zielt laut Titel primär
-auf **dezentrale** Anlagen (mutmasslich ohne Wasserverteilsystem) — das deckt sich nicht exakt mit
-den heutigen kantonalen Regelungen (ZH erfasst alle Anlagen inkl. zentraler Wassererwärmer, SZ nur
-zentrale Anlagen mit Wasserverteilsystem); wie eine künftige kantonale Umsetzung die Anlagetypen
-differenziert, ist heute nicht geklärt. Wichtig für die Planung: Zuwarten ist kein Freibrief, das
-Bundesgericht hat die grundsätzliche Zulässigkeit einer solchen Sanierungspflicht bereits 2023
-bestätigt (BGer 1C_37/2022), und eine spätere kantonale Verkürzung auf 5 Jahre ist nicht
-ausgeschlossen.
+Elektroheizungen»), Wortlaut seit 24.08.2026 direkt am PDF-Original verifiziert: «Bestehende
+ortsfeste elektrische Widerstandsheizungen **ohne Wasserverteilsystem** zur Gebäudeheizung
+(dezentrale Einzelspeicheröfen, Elektrodirektheizungen, Infrarotstrahler etc.) sind innerhalb von
+5 Jahren nach Inkraftsetzung **dieses Gesetzes** durch Heizungen zu ersetzen, die den Anforderungen
+dieses Gesetzes entsprechen.» Gemeint ist das kantonale Gesetz, das Modul 5 übernimmt, nicht die
+MuKEn-2025-Verabschiedung durch die EnDK am 29.08.2025 selbst. Art. 5.2 befreit zusätzlich
+Nassräume/WC, Kirchen, Gebäude ≤ 3 kW oder < 50 m² elektrisch beheizter Fläche (EBF) sowie
+Notheizungen nach Art. 1.14 Abs. 2-4. Modul 5 ist zudem ein **optionales** Modul (nicht Teil des
+für alle Kantone verbindlichen Basismoduls); ob und wann Ihr Kanton es übernimmt, ist offen. Der
+Geltungsbereich «ohne Wasserverteilsystem» steht jetzt fest im Gesetzestext selbst (nicht mehr nur
+vermutet aus dem Modultitel) und deckt sich nicht exakt mit den heutigen kantonalen Regelungen: ZH
+erfasst alle Anlagen inkl. zentraler Wassererwärmer, SZ nur zentrale Anlagen mit
+Wasserverteilsystem — eine reine Modul-5-Übernahme würde in beiden Kantonen eine zusätzliche
+Regel brauchen, um den heutigen Geltungsbereich beizubehalten. Wichtig für die Planung: Zuwarten
+ist kein Freibrief, das Bundesgericht hat die grundsätzliche Zulässigkeit einer solchen
+Sanierungspflicht bereits 2023 bestätigt (BGer 1C_37/2022), und eine spätere kantonale Verkürzung
+auf 5 Jahre ist nicht ausgeschlossen.
 
-**Quelle + Datenstand:** MuKEn 2025 Art. 5.1 (EnDK, 29.08.2025, via energiehub-gebäude.ch,
-WebFetch 18.07.2026, Kreuzverifikation gegen primärquellen-gelesenes Schwesterdestillat
-`[[muken-2025-verabschiedet]]`, Run 74, curl+pdftotext); Web-Recherche Umsetzungsstand ZH/SZ
-18.07.2026 (Kantonsrat-ZH-Geschäftsdatenbank, sz.ch-Vernehmlassungsliste, RRB Nr. 632/2025), 
+**Quelle + Datenstand:** MuKEn 2025 Art. 5.1/5.2 (EnDK, 29.08.2025) — Wortlaut seit 24.08.2026
+direkt am PDF-Original verifiziert (curl+pdftotext, energiehub-gebaeude.ch/wp-content/uploads/2025/
+09/MuKEn2025_d-2025-08-29.pdf, S. 76/117), zuvor 18.07.2026 nur via Sekundärauszug (dieser hatte die
+Klausel «ohne Wasserverteilsystem» ausgelassen — korrigiert); Web-Recherche Umsetzungsstand ZH/SZ
+18.07.2026 (Kantonsrat-ZH-Geschäftsdatenbank, sz.ch-Vernehmlassungsliste, RRB Nr. 632/2025),
 Negativbefund, keine laufende Modul-5-Umsetzung gefunden. Destillat
 `[[elektroheizungs-ersatzpflicht-zh-sz]]`, Abschnitt «MuKEn 2025 Modul 5 — Verkürzung der
-Übergangsfrist». Status **established** für den Negativbefund «noch nicht kantonal umgesetzt»;
-**emerging** für den exakten Geltungsbereich von Art. 5.1 (nur Sekundärauszug gelesen, nicht selbst
-am PDF-Original nachgeprüft).
+Übergangsfrist». Status **established** — sowohl für den Negativbefund «noch nicht kantonal
+umgesetzt» als auch für den Wortlaut/Geltungsbereich von Art. 5.1/5.2 (jetzt primärquellenbelegt).
 
 ## F99 — «Darf ich meine kaputte Öl-/Gasheizung einfach wieder durch Öl/Gas ersetzen?»
 
@@ -4196,6 +4213,16 @@ aus dem Strommodell übernommen; die Prozessanlagen-Leistung des Behandlungsraum
 SIA 2024:2021 Anhang F selbst ist kostenpflichtig und lag nicht vor — die Werte sind aus dem
 offiziellen SIA-Grundlagenbericht zu genau dieser Revision rekonstruiert (belegter Analogieschluss),
 nicht am bezahlten Normtext abgelesen; für einen konkreten Bewilligungsfall gehört die Norm gekauft.
+✓ **Nachtrag 24.08.2026:** Die Korrigenda SIA 2024-C2:2025 (kostenlos, gültig ab 1.6.2025) liefert
+jetzt den tatsächlichen, aktuellen Anhang-F-Wert (Tab. 20) — und der zeigt Kategorie VIII weiterhin
+**undifferenziert als eine Spalte «Spital»**, keine VIII.1/VIII.2-Aufteilung: Elektrizität gesamt
+Standard 34.3 kWh/m²EBF·a (Geräte 8.5 + Beleuchtung 9.9 + Lüftung 5.1 + Prozessanlagen 2.6 + Allg.
+Gebäudetechnik 8.2), Heizwärme 10.4, Warmwasser 21.8. Das bestätigt die Grössenordnung der hier
+rekonstruierten VIII.1/VIII.2-Werte (34.3 liegt plausibel zwischen 36 und 30), zeigt aber: die Norm
+selbst unterscheidet auf Gebäudekategorie-Ebene NICHT zwischen Akutspital und Pflegeheim — die
+VIII.1/VIII.2-Trennung existiert nur auf Raumnutzungs-Ebene (8.01-8.03) und in der
+Flächenanteile-Tabelle des Statusberichts (Entwurfsstand 2019). Details:
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`.
 Die frühere Angabe «50–90 Pflegeplätze» wurde **gestrichen**: sie war aus den Schwellen nicht
 rekonstruierbar (mit dem einzigen genannten Flächenkennwert von 93 m²EBF/Platz ergäben sich 33–72
 Plätze), stand im Widerspruch zur eigenen Quelle (das Destillat rechnet 34–75 Plätze) und stützte
@@ -4450,7 +4477,14 @@ Bestandsbauten erfüllt ein Wärmenetzanschluss die EnerG-Ersatzpflicht (§ 11 A
 wesentlicher Anteil der Wärmeerzeugung aus erneuerbaren Energien, Abwärme oder Abfallverbrennung
 stammt» — das AWEL konkretisiert dies in der Vollzugspraxis auf **mindestens 70 %** (keine Gesetzeszahl,
 sondern Vollzugshilfe). Bei den meisten grossen städtischen Fernwärmenetzen ist diese Schwelle erfüllt.
-→ `[[anergienetz-kalte-fernwaerme-ch]]`. Datenstand 2026-07-24 (Run 87, amtliche Erlasstexte).
+**Kanton Schwyz: Nein.** Am amtlichen Volltext von kEnG (SRSZ 420.100) und kEnV (SRSZ 420.111) geprüft
+(24.08.2026): Es gibt **keine zu § 295 PBG ZH analoge Anschlusszwang-Norm**. Die kantonale
+Energieplanung (§§ 5a/5b kEnG) verpflichtet nur Gemeinden/Energieversorger zur Mitwirkung, nicht den
+einzelnen Grundeigentümer. Ein Fernwärmeanschluss taucht im SZ-Recht nur als freiwillige
+Ausnahme-Erfüllungsoption beim Wärmeerzeugerersatz auf (§ 24f kEnV) sowie als förderfähige Massnahme
+M-07/IP-07 im Massnahmenkatalog — beides Optionen des Bauherrn, keine hoheitliche Pflicht.
+→ `[[anergienetz-kalte-fernwaerme-ch]]`, `[[waermeplanung-kommunal-zh-sz]]`. Datenstand 2026-07-24 (ZH,
+Run 87) / 2026-08-24 (SZ, A-BLIND).
 
 ## F112 — Wie viel Fläche brauche ich für einen Erdwärme-Flächenkollektor statt einer Sonde?
 
@@ -4997,7 +5031,10 @@ Duschwasser-Wärme zurück und kühlt dabei nichts als das abfliessende Wasser �
 nur über den Wasserdruck. Der Mehrpreis gegenüber einer normalen Duschrinne beträgt laut
 Hersteller nur rund **CHF 600.–**, bei einer Einsparung von rund 1'000 kWh/Jahr (4-Personen-
 Haushalt) amortisiert sich das in rund 3 Jahren — deutlich schneller als klassische
-Sanierungsmassnahmen wie Fenster- oder Dachsanierung. Offiziell anrechenbar ist die Massnahme
+Sanierungsmassnahmen wie Fenster- oder Dachsanierung. ⚠ **Diese Kosten-/Amortisationszahl stammt
+aus dem Joulia-Herstellerdokument von Oktober 2020** (Werbeaussage, nicht unabhängig geprüft);
+aktuelle Schweizer Marktpreise 2025/2026 wurden trotz Recherche nicht gefunden — vor einer
+Kostenzusage mit einer aktuellen Offerte gegenprüfen. Offiziell anrechenbar ist die Massnahme
 gleich dreifach: bei der kantonalen Baubewilligung (EN-ZH) pauschal mit 10 % der Warmwasser-
 produktion ohne Produktnachweis, bei Minergie produktspezifisch mit bis zu 46 % (amtlich
 hinterlegtes Herstellerbeiblatt). Beim GEAK gibt es KEINE feste Pauschale wie bei EN-ZH — die
@@ -5014,11 +5051,12 @@ Gesamtenergiebedarf steigt von rund 10 % bei Altbauten auf bis zu 73 % bei Miner
 wirkt eine Reduktion des Warmwasserbedarfs verhältnismässig stärker. Baulich zu beachten:
 Einbauhöhe 9–12 cm, nur für Duschen (nicht Badewannen) geeignet — früh mit dem Sanitärplaner
 abstimmen.
-→ `[[duschwasser-waermerueckgewinnung-joulia]]`. Datenstand 25.07.2026 (Run 97). Status
-**emerging** (Hersteller- und Minergie-Primärquelle vorhanden, GEAK-Mechanik und SIA-385/2-
-Existenz jetzt primärquellig belegt; Kosten-/Amortisationsangabe stammt aber weiterhin vom
-Hersteller selbst und ist nicht unabhängig geprüft, und der genaue SIA-385/2-Rechenweg bleibt
-hinter der kostenpflichtigen Norm verschlossen).
+→ `[[duschwasser-waermerueckgewinnung-joulia]]`. Datenstand: GEAK-/SIA-385/2-Recherche 25.07.2026
+(Run 97), **Kosten-/Amortisationsangabe weiterhin Oktober 2020** (Herstellerdokument, ältester
+zitierter Stand — s. Vorbehalt oben). Status **emerging** (Hersteller- und Minergie-Primärquelle
+vorhanden, GEAK-Mechanik und SIA-385/2-Existenz jetzt primärquellig belegt; Kosten-/
+Amortisationsangabe stammt aber weiterhin vom Hersteller selbst und ist nicht unabhängig geprüft,
+und der genaue SIA-385/2-Rechenweg bleibt hinter der kostenpflichtigen Norm verschlossen).
 
 ## F134 — Was kostet eine Massivbau-Kompaktfassade (Kalksandstein/Backstein mit Aussendämmung) pro m²?
 
@@ -5608,8 +5646,8 @@ nach MuKEn 2025, unabhängig von einer Automations-Klasse.
 Klasse C als Referenz, sind in **SIA 386.111:2022** genormt (Übernahme von SN EN ISO 52120-1:2021;
 Vorsicht: die früher kursierende Bezeichnung «SIA 386.110» ist die 2017 bzw. 2022 abgelöste
 Vorgängerausgabe). Die Schweizer Rechtspraxis verlangt jedoch keine bestimmte Klasse, sondern regelt
-Gebäudeautomation funktional: MuKEn 2025 Art. D.1.23 verpflichtet Nichtwohn-Neubauten ab 2'000 m² EBF
-zu sechs konkreten Monitoring-Funktionen (Formular EN-141 im Kt. ZH), und ab 200'000 kWh/Jahr
+Gebäudeautomation funktional: MuKEn 2025 Art. 1.23 verpflichtet Nichtwohn-Neubauten ab 2'000 m² EBF
+zu sieben konkreten Monitoring-Funktionen (Formular EN-141 im Kt. ZH), und ab 200'000 kWh/Jahr
 Energieverbrauch greift zusätzlich eine Betriebsoptimierungspflicht. **Minergie verlangt explizit
 keine Gebäudeautomation** — das Label kennt nur ein eigenes, tiefer schwellendes Monitoring-Modul
 (ab 1'000 m², bei Minergie-A immer Pflicht), keinen BACS-Klassen-Bonus. Zur Grössenordnung des
@@ -5623,11 +5661,11 @@ rund EUR 2'850 (≈4 Jahre) — ausdrücklich als EU-Durchschnittsfallstudie, ni
 verstehen.
 
 **Quelle + Datenstand:** SIA-Shop-Produktmetadaten shop.sia.ch (Normstatus/Ausgabejahre amtlich
-verifiziert); MuKEn 2025 Art. D.1.23 über zwei konvergierende Quellen (offizielle Minergie-PDF
-«Minergie im Kontext der MuKEn 2025», Stand 01.01.2026 + Fachportal energiehub-gebaeude.ch) —
-NICHT am EnDK-Originaltext selbst verbatim gegengelesen; EN-15232-Effizienzfaktoren aus
+verifiziert); MuKEn 2025 Art. 1.23 direkt am amtlichen EnDK-Basismodul-PDF verifiziert
+(`MuKEn2025_d-2025-08-29.pdf`, endk.ch, Stand 29.08.2025, Nachtrag 24.08.2026 — Artikelnummer
+korrigiert, siebte Monitoring-Funktion ergänzt); EN-15232-Effizienzfaktoren aus
 BAFU/TU-Dresden-Kurzstudie (Felsmann, 15.03.2017); Kostenzahl aus eu.bac-Studie 2024 (EU-Verband).
-Datenstand 25.07.2026 (Run 106).
+Datenstand 24.08.2026.
 → `[[sia-386-bacs-gebaeudeautomation]]`. Status **established** (Kernaussagen — Normidentität,
 MuKEn-Monitoringpflicht, kein Minergie-Bonus — über amtliche/primärnahe Quellen konvergent belegt;
 Nichtwohngebäude-Effizienzfaktoren und CH-Investitionskosten bleiben offen).
@@ -7664,17 +7702,25 @@ und die Treibhausgasemissionen der Erstellung.
 den Bauzustand zu lesen und nicht als Qualitätsversprechen nach heutigem Massstab. Zweitens
 lohnt sich der Blick auf die Haustechnik: Ein 2012 zertifiziertes Haus hat mit hoher
 Wahrscheinlichkeit keine PV-Anlage, und der Wärmeerzeuger nähert sich nach 14 Jahren dem
-Ersatzzeitpunkt, womit die kantonale Substitutionspflicht ins Spiel kommt. Drittens ist Vorsicht
-geboten bei Aussagen zur Gültigkeit: Das Reglement 2010 nennt eine Fünfjahresfrist im
-Zusammenhang mit der Mehrfachanwendung der Marke. Ob damit auch das objektbezogene Zertifikat
-verfällt, ist aus dieser Quelle nicht zu entscheiden. Vor einer Aussage gegenüber Käuferschaft
-oder Bank ist der Zertifikatsstatus bei der Zertifizierungsstelle abzufragen, statt ihn
-herzuleiten.
+Ersatzzeitpunkt, womit die kantonale Substitutionspflicht ins Spiel kommt. Drittens zur
+Gültigkeit, jetzt primärquellenbelegt statt nur vermutet (Stand 24.08.2026): Ein **definitives**
+Zertifikat wie das von 2012 ist gemäss geltendem Produktreglement 2026.1 **unbeschränkt gültig**
+— aber nur, solange am Gebäude **keine energetisch relevante Änderung** vorgenommen wurde und
+das Objekt weiterhin auf der Minergie-Gebäudeliste geführt wird. Ein Wärmeerzeuger-Ersatz (siehe
+oben, nach 14 Jahren wahrscheinlich) zählt als energetisch relevante Änderung — ohne
+Rezertifizierung (Meldung an die Zertifizierungsstelle, kostenpflichtig, max. 50 % der
+ordentlichen Gebühr) ist unklar, ob das Zertifikat des verkauften Objekts noch den tatsächlichen
+Zustand abbildet. Vor einer verbindlichen Aussage gegenüber Käuferschaft oder Bank ist deshalb
+weiterhin der Zertifikatsstatus bei der Zertifizierungsstelle abzufragen — jetzt aber mit der
+gezielten Frage, ob seit 2012 eine energetisch relevante Änderung gemeldet und rezertifiziert
+wurde, statt allgemein nach dem Verfall zu fragen.
 
 **Quelle:** Verein MINERGIE, «Reglement zur Nutzung der Qualitätsmarke MINERGIE», Stand Januar
 2010, und «Wegleitung Nachweis-Formular MINERGIE», Version 11 vom 03.02.2010, gelesen 07.08.2026
 → `[[minergie-reglement-wegleitung-2010-historisch]]` (Status **superseded**, historische
-Fassung). Geltender Stand: `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
+Fassung). Geltender Stand inkl. Gültigkeitsregime: Produktreglement Gebäudestandards MINERGIE
+Version 2026.1, Kap. 2.1.3/2.2.3/2.3.1, gelesen 24.08.2026 →
+`[[minergie-produktreglement-2026-1-muken-vergleich]]`, `[[minergie-zertifizierung-workflow]]`.
 
 ---
 

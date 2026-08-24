@@ -225,7 +225,7 @@ Systemintegration klar geregelt sein.
   Komponenten). Diese Abwägung sollte in jedem Pflichtenheft Gebäudetechnik explizit
   entschieden werden, unabhängig von der Objektgrösse.
 - **Verweis statt Doppelung:** die technischen BACS-Klassen (A-D nach SIA 386.111:2022/
-  SN EN ISO 52120-1:2021), die MuKEn-2025-Monitoring-Pflicht ab 2'000 m² EBF (Art. D.1.23)
+  SN EN ISO 52120-1:2021), die MuKEn-2025-Monitoring-Pflicht ab 2'000 m² EBF (Art. 1.23)
   und die Aussage, dass Minergie keine Automation verlangt, stehen bereits belegt im
   KB-Destillat `sia-386-bacs-gebaeudeautomation` — hier nicht wiederholt. Ebenso verweist
   dieses Destillat für Submetering-/Messkonzept-Details bei privaten Grossverbrauchern auf

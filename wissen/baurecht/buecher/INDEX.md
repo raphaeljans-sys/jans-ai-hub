@@ -103,7 +103,9 @@ Trainingslauf (`../training/PROGRAMM.md`).
   `emerging`. **SCHLIESST Kap. 21.** Speist [[baurecht]] + [[ausnahmebewilligung-und-bestandesschutz]].
 - [[22-privatrechtliche-bauvorschriften]] — Kap. 22 (S. 1517-1534): **Privatrechtliche Bauvorschriften** —
   Nachbarrecht **ZGB Art. 679/684/685 ff.**, **§§ 169-178 EG ZGB Pflanzenabstaende**. 13 Doppelseiten.
-  Status: `emerging`.
+  Status: `emerging` (Abschnitte 22.3-22.4 + 22.8-22.9 am 24.08.2026, Buch-Run 139, gegen frische
+  Screenshots wortlautgeprueft und 6 Korrekturen eingearbeitet; 22.1-22.2/22.5-22.7 weiterhin auf
+  Stand 29.06.2026).
 - [[23-glossar-architektur]] — Kap. 23 (S. 1537-1549): **Glossar Architektur** — Begriffe mit §-Belegen.
   8 Doppelseiten. Status: `emerging`.
 - [[14-nutzungsdichte-ausnuetzung]] — Kap. 14: AZ/BMZ/UEZ/Freiflaechenziffer, anrechenbare
@@ -214,7 +216,10 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Aussiedlung BGer 1C_567/2014; i.V.m. § 228 Abs. 1 Unterhaltspflicht; § 243 Abs. 2 Parkplatz-Spezialfall),
   **§ 307 PBG Brandstattrecht** (Wiederaufbau brand-/katastrophenzerstoerter vorschriftswidriger Bauten in
   Bauzonen, **innert 3 J.**, Art/Umfang/Lage, verbessernder Wiederaufbau BEZ 1998 Nr. 8; ausserhalb Bauzone
-  Art. 24c Abs. 2 RPG; § 15m HWSchV — aufgehoben 01.06.2026, heute § 20 WsG). 1 Doppelseite (Shot 732). Status: `emerging`. **SCHLIESST Kap. 20.**
+  Art. 24c Abs. 2 RPG; § 15m HWSchV — aufgehoben 01.06.2026, heute § 20 WsG amtlich verifiziert, präzisiert
+  um kumulative Voraussetzung, Buch-Run 137). 1 Doppelseite (Shot 732). Status: `established` (Zeiger korrigiert
+  2026-08-24, Datei selbst seit Modell-D-Verifikation 2026-07-13 established; Art. 24c Abs. 2 RPG als offene
+  Diskrepanz markiert). **SCHLIESST Kap. 20.**
   Speist [[ausnahmebewilligung-und-bestandesschutz]] + [[bestandsumbau-eingriffstiefe]].
 - [[12-baureife]] — Kap. 12 Teil 1+2 (S. 707-741): **Baureife** als erstes der Grundanforderungen
   (§§ 233-249 PBG) — **technische Erschliessung** (Zugaenglichkeit/Wasser/Energie/Entsorgung,
