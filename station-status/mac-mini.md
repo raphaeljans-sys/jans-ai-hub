@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 06:24:05
+Stand: 24.08.2026 06:44:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:04)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 06:24:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ecdfbce2 nas-selfcommit: 28 Datei(en) 2026-08-24 06:15
+- df73a02f twin-fidelity-review 2026-08-24: Nullform, Gruss-Doppelung, Vereinheitlichungs-Drift; DNA neu kompiliert (33829 B)

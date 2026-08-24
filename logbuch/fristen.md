@@ -3053,3 +3053,24 @@ damit bewilligt, keine Foerderluecke im 2. Halbjahr 2026. Nachgetragen in
 bedarf zu 6064 selbst; 6062/6063 (Solarpflicht) bleiben unveraendert offen (F116) und sind ein
 separater Vorgang. | Qualitaets-Audit KB energie 23./24.08.2026,
 Befund 02.9; Aufloesung interaktive Session 24.08.2026 | Wissens-Layer energie | hoch | erledigt
+
+**NEU 24.08.2026 (Gespräch MacBook Pro 23.08.2026 ca. 22:30, Destillat
+`logbuch/konversationen/260824-konversationen.md`) — Der langlebige OAuth-Token der
+Revendo-Station ist im Klartext offengelegt und sollte ersetzt werden.** Beim Einbinden der
+dritten Station (`macbook-pro-von-revendo`) hat Raphael den mit
+`claude setup-token` erzeugten Token in den Chatverlauf kopiert, nachdem Claude ausdrücklich
+darum gebeten hatte, das nicht zu tun («bitte mach es selber ich kann es nicht»). Der Token ist
+**ein Jahr gültig** und gibt vollen Zugriff auf das Claude-Konto. Claude hat ihn weder in eine
+Datei geschrieben noch verwendet — die Anfrage, ihn in `~/.jans-dispatch.env` einzutragen, wurde
+nach der eigenen Regel «Passwörter, Zertifikate und Tokens nie in Dateien schreiben» abgelehnt,
+und die Läufe wurden stattdessen lokal auf der Revendo-Station gestartet. Der Wert steht damit
+nur im Sitzungs-Transkript, ist aber als offengelegt zu behandeln. **AKTION Raphael: im Terminal
+der Revendo-Station `claude setup-token` erneut ausführen** — der neue Token entwertet den alten;
+ein Eintragen in eine Env-Datei ist nicht nötig, solange dort lokal gestartet wird. Kein
+Termindruck im engeren Sinn, aber die Gültigkeit läuft ein Jahr, und der Aufwand ist ein
+einzelner Befehl. Nebenbefund aus demselben Gespräch, ohne eigene Frist: ferngestartete Läufe
+scheitern auf dieser Station grundsätzlich mit «Not logged in», weil die CLI dort nur über den
+GUI-Login am Schlüsselbund angemeldet ist (am Mac Mini mit entzogenem Token gegengeprüft);
+lesende SSH-Befehle funktionieren uneingeschränkt. Station und beide Fallen sind in
+`connectors/hub-setup-daten.json` (Station `macbook-revendo`) und im RADAR-Nachtrag 23.08. 17:35
+festgehalten. | Gespräch MacBook Pro 23.08.2026 | Infrastruktur/Zugang | hoch | offen

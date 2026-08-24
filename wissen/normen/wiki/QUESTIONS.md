@@ -2594,6 +2594,32 @@ Sie sind unten als Checkboxen unter den korrigierten IDs **N-R40-5..8** geführt
   (alle 110 Seiten erschlossen, die drei Run-40-Korrekturen halten; 12-WB/h-Schwelle als
   Entscheidungsparameter Lüftungsart widerlegt und ersetzt; Bemessungskern bleibt offen, siehe
   S41-1 bis S41-7 unten).
+- [x] **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Der Grauton ist die Legendenfarbe
+  «Baustoff brennbar», keine unerklärte vierte Kategorie. Direkt am Original nachgemessen:
+  Quelldatei per OneDrive-Spiegel geöffnet (`.../2414 THALWIL/06 Reglemente/_Archiv/
+  11 Brandschutz/Lignatec/Lignatec_brandschutz-Seite2.pdf`, identisch mit der in der
+  KB-Quelle geführten Datei), mit `pdftoppm -r 200` auf Druckseiten 4/5 gerendert und mit
+  Python/Pillow pixelgenau gemessen (kein Schätzwert). Ergebnis: die grosse Tabellen-Swatch
+  der Zeile R30/EI30/REI30 (Bezeichnung F30bb, Lignatec 17/2005, S. 4, Tabelle 2) misst
+  RGB-Mittel (174.5/176.4/174.3) — praktisch identisch mit dem in diesem Eintrag zitierten
+  Wert 177/180/179, also keine Messdifferenz, sondern derselbe Befund unabhängig bestätigt.
+  Die winzige Legende auf S. 5 zeigt für «Baustoff brennbar» dasselbe Schraffurmuster
+  (Diagonalstriche) wie «Vollholz», aber auf **weissem** Grund mit dünnen Linien — bei der
+  eigenen Nachmessung dort tatsächlich nahe Weiss, wie in diesem Destillat (Zeilen oben,
+  Abschnitt «Ergänzung neunte Runde») für die Legendensymbole beschrieben. Der scheinbare
+  Widerspruch (Legende hell, grosse Tabellen-Swatch deutlich grauer) löst sich rein optisch
+  auf: In der grossen Swatch stehen dieselben Diagonalstriche dichter/länger auf gleicher
+  Fläche und verschmelzen beim Scan/Druck zu einem sichtbaren Grauton, während sie im winzigen
+  Legendensymbol einzeln erkennbar bleiben. Es handelt sich um **dasselbe** Muster «Baustoff
+  brennbar» in zwei Grössen, nicht um eine zusätzliche, in der Legende fehlende Farbcodierung.
+  Fundstelle: Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», S. 5, Legende
+  (Vollholz · Baustoff brennbar · Baustoff nicht brennbar · Beton · Dämmstoff brennbar ·
+  Dämmstoff nicht brennbar). Bestätigt zugleich die materielle Aussage des Destillats (dort
+  Zeilen zu «dritte Tabellenspalte»): F30bb/F60bb-Zeilen (R30/EI30/REI30, R60/EI60/REI60 ohne
+  (nbb)-Zusatz) erlauben an Deckschicht und Stiel ausdrücklich «Baustoff brennbar», nicht nur
+  Vollholz — die Grau-Swatch **ist** dieser Beleg, kein unentschlüsseltes Zusatzsignal.
+  Additiver Nachtrag in `destillate/lignum-lignatec-brandschutz.md` (Abschnitt Tabelle 2).
+  Ursprungswortlaut zur Nachvollziehbarkeit:
 - [ ] **N-R40-7 (P3): Grauton in Tabelle 2 des Lignatec ungeklärt.** In den Zeilen R30/EI30/REI30,
   R60/EI60/REI60 und EI60-EI30(nbb) sind Deckschicht und Stiel messbar grau unterlegt
   (Median-RGB 177/180/179 gegen 240/245 bei identischem Muster in «Keine Anforderung»). Die
@@ -3915,6 +3941,29 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   keinem der beiden Texte enthalten** — die Prämisse dieser QUESTIONS-Zeile war falsch, das
   System stammt nicht aus SIA 242. Quelle der Q1-Q4-Stufen für die KISPI-Fachfrage bleibt offen zu
   klären (vermutlich Hersteller- oder DIN/EN-Quelle, nicht SIA).
+  > ✅ **Q1-Q4-QUELLENFRAGE GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Die Vermutung
+  > «Hersteller- oder DIN/EN-Quelle, nicht SIA» trifft zu, mit belegter Provenienzkette: Die
+  > KB führt bereits `destillate/crb-merkblatt-16d-06-spachtelungen-weissputze.md` (CRB,
+  > gemeinsam mit den Berufsverbänden SMGV/FRMPP, Ausgabe 01/2006, Q1-Q4 für Gipsplatten Ziff. 3
+  > S. 2) — dieses Merkblatt selbst nennt in Ziff. 6, S. 4 als eine seiner drei Quellen
+  > wörtlich «Merkblatt Nr. 2 «Verspachtelung von Gipsplatten – Oberflächengüten» der deutschen
+  > Industriegruppe Gipsplatten». Frei zugänglich am Original gelesen (WebFetch + `pdftotext`,
+  > 24.08.2026): **«Verspachteln von Gipsplatten — Klassifizierung der Oberflächenqualitäten»**,
+  > Gemeinschaftsdokument von **Eurogypsum** und **UEEP** (Vereinigung der europäischen Gipser-,
+  > Trockenbau- und Stuckateur-Verbände), 12 Seiten, PDF-Metadaten CreationDate 11.03.2010
+  > (`eurogypsum.org/wp-content/uploads/2015/04/EUROGYPSUMFINSHINGDE.pdf`) — definiert
+  > wortgleich dieselben vier Stufen Q1 (Grundverspachtelung/Stossfugen) bis Q4 (vollflächiges
+  > Überziehen, Schichtdicke > 1 mm) und verweist für Spachtelmaterialien auf **EN 13963**.
+  > **Einschränkung, damit nichts überclaimt wird:** die CRB-Quelle nennt als Verfasser die
+  > *deutsche* Industriegruppe Gipsplatten, nicht Eurogypsum/UEEP direkt — beide Dokumente sind
+  > inhaltlich und im Titel praktisch deckungsgleich (europäische Branchenharmonisierung, auf
+  > die auch die deutsche Fassung zurückgeht), aber das exakte deutsche Merkblatt Nr. 2 selbst
+  > wurde nicht aufgefunden/gelesen; die Gleichsetzung ist eine belegte, aber nicht
+  > letztbewiesene Zuordnung. Ergebnis: **nicht SIA, keine CH-Norm** — eine europäische
+  > Branchenvereinbarung (Eurogypsum/UEEP), in der Schweiz über CRB/SMGV/FRMPP als
+  > NPK-Devisierungsgrundlage übernommen. Kein neues Destillat angelegt (das CRB-Merkblatt ist
+  > die praxisrelevante CH-Fundstelle); Eurogypsum/UEEP-Dokument als Provenienz-Fussnote in
+  > `destillate/crb-merkblatt-16d-06-spachtelungen-weissputze.md` nachgetragen.
 
 - [x] **P2-SIA-Batch 1 destilliert — 12.07.2026 (Run 3):** SIA 260–267 (Tragwerk),
   500/358/251/252/253/257/271/281/279/232/329/240 (Hochbau) — 20 Normen am Original

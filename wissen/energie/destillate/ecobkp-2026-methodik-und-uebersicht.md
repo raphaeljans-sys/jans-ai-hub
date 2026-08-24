@@ -19,13 +19,48 @@ ausgabe: "ecoBKP 2026 / V 1.0, Stand Januar 2026"
 gelesen: "2026-08-05 (S. 1-20/138); 2026-08-24 (S. 20-40/138, PyPDF2-Volltext, direkt von
   ecobau.ch nachgeladen und gegen die vorhandene S.-1-20-Fassung geprüft: identisches PDF,
   8'110'547 Byte); 2026-08-24 Fortsetzung (S. 35-70/138, gleiche Datei erneut nachgeladen,
-  Byte-Grösse identisch, PyPDF2-Volltext seitenweise)"
+  Byte-Grösse identisch, PyPDF2-Volltext seitenweise); 2026-08-24 dritte Fortsetzung (S. 70-138/138,
+  gleiche Datei erneut nachgeladen, Byte-Grösse identisch — Werk damit in dieser Datei vollständig
+  gelesen; ⚠ deckt sich inhaltlich mit den bereits am 05./06.08.2026 gelesenen Geschwister-Dateien,
+  siehe Hinweis im Fliesstext)"
 datenstand: "Januar 2026"
 status: emerging
 last_updated: 2026-08-24
 ---
 
 # ecoBKP 2026 — Methodik und Übersicht (ecobau)
+
+## ⚠ Dieses Werk ist bereits vollständig destilliert — vier weitere Dateien lesen, bevor hier neu recherchiert wird
+
+**Befund 24.08.2026 (dieser Lauf):** Das komplette ecoBKP 2026 (138/138 Seiten) wurde bereits am
+05./06.08.2026 (Run 124 + Folgetag) gelesen und in **vier eigenständige, themenweise gegliederte
+Destillate** aufgeteilt, die alle 30 Merkblätter abdecken:
+
+- `[[ecobkp-2026-tragwerk-und-rohbau]]` — ecoBKP 21, 211, 213, 214, 215 (S. 13-34)
+- `[[ecobkp-2026-gebaeudehuelle]]` — ecoBKP 221, 222, 224, 225, 226, 227, 228 (S. 35-60)
+- `[[ecobkp-2026-gebaeudetechnik]]` — ecoBKP 230, 240, 244, 250, 258 (S. 61-86)
+- `[[ecobkp-2026-ausbau]]` — ecoBKP 271, 273, 276, 281, 282, 283, 285 (S. 87-118)
+- `[[ecobkp-2026-baureinigung-umgebung-erschliessung]]` — ecoBKP 287, 421, 450 (S. 119-133)
+
+Dieses Dokument selbst ist als **Dach-Artikel** gedacht (Methodik, Struktur, Prioritäten-Logik,
+Neuerungen 2026 ggü. 2008/2009). Die einzelnen «Gelesene Merkblätter im Detail»-Abschnitte unten
+(ecoBKP 21/211/213/214/215/221-228/230) sind zwischen dem 20. und 24.08.2026 in drei separaten
+interaktiven Sessions **erneut aus der Primärquelle gelesen und destilliert worden, ohne dass eine
+der drei Sessions die fünf obigen Geschwister-Dateien fand** — obwohl `destillate/INDEX.md`
+Zeilen 41-45 sie seit dem 05./06.08.2026 mit Datum, Seitenbereich und Kernbefunden führt. Belegt an
+zwei deckungsgleichen Beispielen: (1) der «neue» 2009→2026-Fensterrahmen-Vergleich dieses Laufs
+(unten, Abschnitt «Vergleich ecoBKP 221») steht **wortgleich in der Substanz** bereits seit
+16.08.2026 (Run 137) in `[[ecobkp-2026-gebaeudehuelle]]`, dort sogar über die **volle
+2008→2009→2026-Editionskette** statt nur 2009→2026; (2) die RC-Beton-/Zementwahl-Werte in
+ecoBKP 211 (unten) stehen bereits seit 05.08.2026 in `[[ecobkp-2026-tragwerk-und-rohbau]]`.
+**Fehlerklasse:** dieselbe wie E-WC32-1 («vor jeder ‹Quelle nie eingelesen›-Aussage die
+Verzeichnisliste `destillate/` gegen den Linknamen prüfen, nicht nur den eigenen Fortschritt in
+diesem einen Dokument») — hier auf Datei- statt Themenebene wiederholt. Konsolidierungsentscheid
+(diese Duplikate stehen lassen vs. hier straffen) ist Raphael/Wissens-Chef vorgelegt, siehe
+`wiki/QUESTIONS.md`, Abschnitt 24.08.2026. **Bis zum Entscheid: die Duplikate unten bleiben
+unverändert stehen** (Löschen/Kürzen wäre eine Umstrukturierung, die laut Rule
+`wissens-bibliothekar` erst nach Rückfrage erfolgt) — aber kein weiterer Primärquellen-Neulesevorgang
+von ecoBKP 2026, ohne zuerst alle fünf Dateien zu prüfen.
 
 ## Das Wichtigste in 1 Satz
 
@@ -221,7 +256,10 @@ neuer, detaillierter Abschnitt ggü. 2009/2008 (Anschluss an bestehende KB-Desti
 Elektrosmog). Haushaltgeräte nach Energieetikette-Klasse gestaffelt (Kühl-/Gefriergeräte 1.
 Priorität Klasse C, Waschmaschine Klasse C + Schleuderwirkung A, Wäschetrockner 1. Priorität
 A+++ — **altes A+++/A++-Schema, weil das neue A-G-System laut Text «noch nicht für
-Wäschetrockner» gilt**, Stand dieser Aussage nicht separat gegengeprüft). Aufzugsanlagen:
+Wäschetrockner» gilt**; am EU-/CH-Etikettenrecht gegengeprüft (24.08.2026, siehe E-R230-1
+unten): die Aussage ist eng gelesen richtig, aber unpräzise formuliert — das neue Label
+existiert bereits seit Juli 2025 und darf freiwillig verwendet werden, erst die **Pflicht**
+tritt am 30.06.2026 ein). Aufzugsanlagen:
 Standard-Personenaufzüge Energieeffizienzklasse A nach EN ISO 25745; Gebäude ab 8 Geschossen mit
 mehreren Aufzügen: intelligente Zielwahlsteuerung + Energie-Rekuperation. **Fortsetzung (Rest
 ecoBKP 230, 240-450) im nächsten Lauf.**
@@ -266,24 +304,52 @@ NPK-Fassung "ecoDevis" (nicht separat geprüft, siehe Quelle).
 
 ## Offene Punkte (nächster Lauf)
 
+- ✓ **E-R230-1 geschlossen (24.08.2026):** Wäschetrockner-Etikette am Primärrecht gegengeprüft.
+  EU: Delegierte Verordnung (EU) 2023/2534 (Energieverbrauchskennzeichnung Wäschetrockner) und
+  (EU) 2023/2533 (Ökodesign), publiziert 21.11.2023 (ELI `data.europa.eu/eli/reg_del/2023/2534/oj`);
+  neues Label A-G löst A+++/A++/A+/A ab, in der EU seit 01.07.2025 allein gültig (Übergangsfrist
+  ab März 2025 mit Doppel-Etikette). **Schweiz:** neues Label darf seit Juli 2025 freiwillig
+  angebracht werden, **obligatorisch erst ab 30.06.2026** (Quelle energie-experten.ch, mit
+  denselben Daten von bfe.admin.ch-Suchtreffern bestätigt; die BFE-Einzelseiten zu Wäschetrocknern
+  waren am 24.08.2026 direkt nicht abrufbar, HTTP 404 — Seitenstruktur offenbar migriert, gleiche
+  Fallgruppe wie die 404-Fallen in Rule `auto-verbesserungen` 260730b). **Ergebnis:** die
+  ecoBKP-Aussage (Stand ecoBKP Januar 2026) ist zum Publikationszeitpunkt eng gelesen richtig
+  (die Pflicht bestand tatsächlich noch nicht), aber unpräzise, weil sie verschweigt, dass das
+  neue Label bereits seit Juli 2025 existiert und freiwillig zulässig ist; sie wird am 30.06.2026
+  vollständig überholt. Dieselbe Formulierung («gilt noch nicht für …») trägt ecoBKP 258 wortgleich
+  für Backöfen (S. 89) — dort nicht separat geprüft, gleiche Erwartung.
 - ✓ **Rest von ecoBKP 21 sowie ecoBKP 211/213/214/215 nachgeholt (24.08.2026)** — vollständig
-  gelesen, siehe Abschnitt oben. ecoBKP 221 begonnen (nur Allgemeines/Holzauswahl, S. 35).
-- **Verbleibend: ecoBKP 221 Fortsetzung sowie die Merkblätter 222-450 (21 von 30 noch
-  ungelesen, S. 36-138).**
+  gelesen, siehe Abschnitt oben. **⚠ Duplikat, siehe Hinweis am Dateianfang:** dieselben
+  Merkblätter stehen bereits seit 05.08.2026 in `[[ecobkp-2026-tragwerk-und-rohbau]]`.
+- ✓ **ecoBKP 221 (Fenster/Aussentüren/Tore) sowie 222/224/225/226/227/228 vollständig gelesen,
+  ecoBKP 230 bis Aufzugsanlagen (24.08.2026, Fortsetzung desselben Tages).** Der seit Run 137
+  offene Vergleichsauftrag ggü. der 2009er-Fassung ist damit erledigt, siehe eigener Abschnitt
+  oben. **⚠ Duplikat, siehe Hinweis am Dateianfang:** dieselben Merkblätter samt demselben
+  2009-Vergleich (dort sogar über die volle 2008→2009→2026-Kette) stehen bereits seit 05.08.2026
+  bzw. 16.08.2026 (Run 137) in `[[ecobkp-2026-gebaeudehuelle]]`.
+- ✓ **ecoBKP 230 Fortsetzung sowie 240/244/250/258/271/273/276/281/282/283/285/287/421/450
+  gelesen (24.08.2026, dritter Lauf desselben Tages) — Werk damit als Primärquelle 138/138 Seiten
+  gelesen.** **⚠ Duplikat, siehe Hinweis am Dateianfang:** identischer Inhalt steht bereits seit
+  05./06.08.2026 in `[[ecobkp-2026-gebaeudetechnik]]`, `[[ecobkp-2026-ausbau]]` und
+  `[[ecobkp-2026-baureinigung-umgebung-erschliessung]]` — deshalb hier **keine neuen
+  Merkblatt-Abschnitte ergänzt**, um die Duplikation nicht ein drittes Mal zu vertiefen.
+  Konsolidierung siehe `wiki/QUESTIONS.md`.
 - "Methodik ecobau" (referenziertes Zusatzdokument zur Bewertungsgrundlage) nicht gelesen.
 - Kein Abgleich mit `wiki/oekologische-materialvorgaben-beschaffung` (SIA-118/AHB-Beschaffungs-
   strang aus Run 123/Wissens-Chef Run 25) — beide Quellen behandeln Bauökologie, aber
   unterschiedliche Ebenen (Beschaffungsvertrag vs. Materialvorgabe je BKP); Querverlinkung
-  nachholen, sobald ecoBKP vollständig destilliert ist.
-- **Neu (24.08.2026):** Abgleich der ecoBKP-221-Fensterrahmen-Vorgabe (sobald S. 36ff. gelesen)
-  gegen die bereits belegte 2009→2026-Sachänderung in `[[ecobkp-2009-merkblaetter-nach-bkp]]`
-  («Kunststoff PVC 1.→2. Priorität, Holz-Metall neu 1. Priorität, U-Werte verschoben») — dort
-  bereits dokumentiert, aber ohne den vollständigen 2026-Wortlaut selbst gegengelesen zu haben.
+  nachholen, sobald der Konsolidierungsentscheid zur Datei-Struktur gefallen ist.
 
 ## Backlinks
 
-[[ecobkp-2009-merkblaetter-nach-bkp]] · [[ecobkp-editionskette-2006-2009]] ·
+[[ecobkp-2026-tragwerk-und-rohbau]] · [[ecobkp-2026-gebaeudehuelle]] ·
+[[ecobkp-2026-gebaeudetechnik]] · [[ecobkp-2026-ausbau]] ·
+[[ecobkp-2026-baureinigung-umgebung-erschliessung]] (die fünf detaillierten Geschwister-Destillate,
+siehe Hinweis am Dateianfang) · [[ecobkp-2009-merkblaetter-nach-bkp]] · [[ecobkp-editionskette-2006-2009]] ·
 [[graue-energie-betriebsenergie]] (Stahl-vs-Holz-Trägeraussage ecoBKP 213 stützt denselben
 Kernbefund: Tragstruktur als grösster grauer-Energie-Posten) · [[daemmstoffe-lambda]]
 (Lambda-Prioritäten ecoBKP 211) · [[strohdaemmung-bemessungswert-brandschutz]] ·
+[[sommerlicher-waermeschutz]] (g-Wert-Zielband ecoBKP 228 deckungsgleich) ·
+[[energiemonitoring-submetering-grossverbraucher-zh-sz]] (ecoBKP 230 Energie-Monitoring-Pflicht
+ab 2000 m² EBF) · [[haushaltgeraete-effizienz-beschaffung-topten]] (Energieetiketten-Alterung) ·
 Skill `ausschreibung` (Rule `bkp-2017-referenz`)

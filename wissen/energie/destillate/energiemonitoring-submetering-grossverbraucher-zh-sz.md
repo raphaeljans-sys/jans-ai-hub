@@ -402,4 +402,5 @@ bedeutet dieser Rechercheausstand konkret:
 
 [[muken-2025-modul-7-betriebsoptimierung-hlkkse]] · [[grossverbraucherartikel-zielvereinbarung-zh-sz]] ·
 [[sia-386-bacs-gebaeudeautomation]] · [[en-zh-nachweis-uebersicht]] · [[muken-2025-verabschiedet]] ·
-[[stadt-zuerich-kennzeichnungssystem-gebaeudetechnik-2007]]
+[[stadt-zuerich-kennzeichnungssystem-gebaeudetechnik-2007]] · [[ecobkp-2026-methodik-und-uebersicht]]
+(ecoBKP 230 Energie-Monitoring-Pflicht ab 2000 m² EBF, gleiche Schwelle)

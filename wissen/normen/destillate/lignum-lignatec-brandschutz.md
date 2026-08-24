@@ -199,12 +199,31 @@ Schicht klassiert) fand keine einzige Falschaussage, aber sechs Vollständigkeit
 - **Zeilen 9/10 (Korridor-Familien)** nennen im Original ausdrücklich den Rückbezug «grundsätzlich
   gelten die gleichen Anforderungen wie für EI30/REI30» bzw. «wie für EI60/REI60».
 
-**Offen, nicht als Fachbefund gewertet:** In den Zeilen R30/EI30/REI30, R60/EI60/REI60 und
-EI60-EI30(nbb) sind Deckschicht und Stiel messbar **grau unterlegt** (z.B. 177/180/179 gegen
-240/245 bei identischem Muster in «Keine Anforderung»). Die Legende auf S. 5 kennt keine
-getönte Variante. Der Effekt ist konsistent (immer Deckschicht + Stiel, nie das Dämmstofffeld),
-seine Bedeutung aber aus der Quelle nicht ableitbar — mögliche grafische Hervorhebung oder
-Druck-/Scan-Effekt. Als offene Frage geführt, nicht gedeutet.
+**GEKLÄRT 24.08.2026 (QUESTIONS-Abarbeitung, vormals «Offen, nicht als Fachbefund gewertet»):**
+Der Grauton in den Zeilen R30/EI30/REI30, R60/EI60/REI60 und EI60-EI30(nbb) an Deckschicht und
+Stiel ist die Legendenfarbe **«Baustoff brennbar»** (Lignatec 17/2005, S. 5, Legende: Vollholz ·
+Baustoff brennbar · Baustoff nicht brennbar · Beton · Dämmstoff brennbar · Dämmstoff nicht
+brennbar) — keine unerklärte vierte Kategorie. Eigene Pixelmessung am Original (OneDrive-Spiegel
+der Quelldatei, `pdftoppm -r 200` auf S. 4/5, Python/Pillow): die grosse Tabellen-Swatch der
+Zeile R30/EI30/REI30 (F30bb) misst RGB-Mittel (174.5/176.4/174.3) — deckungsgleich mit dem hier
+schon notierten Wert 177/180/179. Die winzige Legende auf S. 5 zeigt für «Baustoff brennbar»
+dasselbe Diagonalschraffur-Muster wie «Vollholz», aber auf **weissem** Grund mit dünnen
+Einzellinien (dort nahegehend Weiss, wie oben im Abschnitt «Ergänzung neunte Runde» für die
+Legendensymbole beschrieben). Der scheinbare Widerspruch löst sich rein drucktechnisch auf: in
+der grossen Tabellen-Swatch stehen dieselben Diagonalstriche dichter auf gleicher Fläche und
+verschmelzen beim Scan zu sichtbarem Grau, im winzigen Legendensymbol bleiben sie einzeln
+erkennbar. Es ist **dasselbe** Muster in zwei Grössen, keine zusätzliche Farbcodierung. Damit
+ist der Grauton zugleich der visuelle Beleg für die oben (Abschnitt «dritte Tabellenspalte»)
+bereits textlich festgehaltene materielle Aussage: F30bb/F60bb-Zeilen erlauben an Deckschicht
+und Stiel ausdrücklich Baustoff brennbar, nicht nur Vollholz.
+
+Ursprünglicher Befund zur Nachvollziehbarkeit (zehnte Runde, Run 41): In den Zeilen
+R30/EI30/REI30, R60/EI60/REI60 und EI60-EI30(nbb) sind Deckschicht und Stiel messbar
+**grau unterlegt** (z.B. 177/180/179 gegen 240/245 bei identischem Muster in «Keine
+Anforderung»). Die Legende auf S. 5 kennt keine getönte Variante. Der Effekt ist konsistent
+(immer Deckschicht + Stiel, nie das Dämmstofffeld), seine Bedeutung aber aus der Quelle nicht
+ableitbar — mögliche grafische Hervorhebung oder Druck-/Scan-Effekt. Als offene Frage geführt,
+nicht gedeutet.
 
 **Quellenhinweis:** Der Haus-Scan trägt auf S. 5 eine **handschriftliche Randnotiz**. Sie ist
 nicht Teil der Lignum-Drucksache und darf bei künftigen Lesungen nicht als Inhalt übernommen

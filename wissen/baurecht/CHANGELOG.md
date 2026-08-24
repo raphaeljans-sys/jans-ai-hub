@@ -3,6 +3,50 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 125: gilt § 6c ABV (2 m/halbe Fassadenlänge) auch im Baulinienbereich? Ja, gesetzessystematisch seit 1.3.2017 — amtlich bestätigt durch den Bericht zur laufenden PBG-Teilrevision «Baulinien»; neuer aktiver Fassungsstand-Wachposten
+- ANLASS: Reglemente-Queue 2414 Thalwil (T1-T9) und die anschliessende Stale-Flag-/
+  Cross-KB-Kette (Run 90-124) sind laut eigenen Abschlussvermerken vollständig. Als
+  nächster eigenständiger Schritt gewählt: [[baulinien-und-abstandslinien]] (ältestes
+  `last_updated` unter den `established`-Artikeln, 2026-07-27) trug seit Buch-Run 62 eine
+  explizit als «am Gesetzeswortlaut nicht prüfbar» offen markierte Frage — ob Gerichte die
+  harmonisierte Hälfte-Fassadenlänge-Regel des § 6c ABV analog auch im Baulinienbereich
+  anwenden.
+- GEPRÜFT: § 100 PBG harmonisiert (`raw/260607_amtlich_zh_pbg.md` Z. 1080-1090) enthält —
+  anders als die alte/Anhang-Fassung mit fixer 1,5-m-Grenze (Z. 4242-4243) — **keine eigene
+  Massvorschrift** mehr, nur noch die Messweise (projizierte Fassadenlinie). § 6c ABV
+  (`raw/260607_amtlich_zh_abv.md` Z. 119-125) trägt die allgemeine Begriffs-/Massnorm für
+  «vorspringende Gebäudeteile» (höchstens 2 m Tiefe, höchstens die Hälfte des zugehörigen
+  Fassadenabschnitts). Amtlich bestätigt über den erläuternden Bericht der
+  Volkswirtschafts-/Baudirektion Kanton Zürich zur PBG-Teilrevision «Baulinien» (bezogen via
+  vzgv.ch, PyMuPDF-Extraktion — `pdftotext` auf dieser Station weiterhin nicht installiert):
+  «Grundsätzlich kommen für vorspringende Gebäudeteile im Baulinienbereich die Masse von
+  § 253b VE-PBG [= geltendes Recht: § 6c ABV] zur Anwendung»; die IVHB-Harmonisierung habe
+  die zulässigen Masse im Baulinienbereich «erheblich erweitert».
+- BEFUND: **die ursprüngliche Frage war falsch gestellt.** Es handelt sich nicht um eine
+  richterliche Analogie-/Praxisfrage, sondern um eine unmittelbare gesetzessystematische
+  Folge der IVHB-Harmonisierung (in Kraft seit 1.3.2017): die allgemeine ABV-Massnorm füllt
+  die Lücke, die der harmonisierte § 100 PBG durch den Wegfall seiner eigenen Massvorschrift
+  hinterlassen hat. **Nebenbefund, neu in die KB aufgenommen:** eine PBG-Teilrevision
+  «Baulinien» ist unterwegs, die genau diese als zu weitgehend erkannte Wirkung wieder
+  einschränken will (1. Vollgeschoss/UG grundsätzlich freihalten, geschlossene Vorsprünge mit
+  Pflicht zum «untergeordneten Charakter»); Regierungsratsbeschluss Nr. 1319/2024, seit
+  Januar 2025 im Kantonsrat, Stand 24.08.2026 weiterhin in Kommissionsberatung, **nicht in
+  Kraft**.
+- NEU `raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md` (Auszug des erläuternden Berichts,
+  amtliche Quelle, gemeinfrei). GEÄNDERT `wiki/baulinien-und-abstandslinien.md` (offene Frage
+  aufgelöst, Originaltext durchgestrichen stehen gelassen statt gelöscht, Frontmatter
+  `sources`/`verifiziert`/`last_updated` nachgeführt), `wiki/QUESTIONS.md` (neuer Block ganz
+  oben: Klärung + neuer aktiver Fassungsstand-Wachposten «T-NEU», analog zur bereits
+  laufenden Überwachung der revBZO Thalwil in [[negative-vorwirkung-und-bzo-revision]]),
+  `raw/_INGESTED.md` (Registereintrag).
+- `git diff --numstat` (nativ) nach jedem Schreibvorgang geprüft: nur additive/gezielte
+  Änderungen an den erwarteten Stellen (QUESTIONS.md +28/-0, baulinien-und-abstandslinien.md
+  +32/-5, _INGESTED.md +1/-0), keine unerwarteten Löschungen.
+- REPORT `outputs/2026-08-24_buch-run125.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9). Offen bleiben
+  weiterhin nur VB 94/0016 (keine Datenbank vor 2000 verfügbar) und die neu registrierte
+  PBG-Teilrevision «Baulinien» als aktiv zu überwachender Fassungsstand-Punkt.
+
 ## 2026-08-24 — Buch-Run 124: MAG/IVHB-Sammelgesetz-Verdacht (Run 122) widerlegt — zwei getrennte Erlasse
 - ANLASS: Reglemente-Queue 2414 Thalwil (T1-T9) und die anschliessende Stale-Flag-Sweep-Kette
   sind laut eigenen Abschlussvermerken vollständig (zuletzt Run 116/121/123). Buch-Run 122 hatte

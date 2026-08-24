@@ -1,9 +1,15 @@
 ---
 title: Baulinien und Abstandslinien — Kanton Zürich
 status: established
-last_updated: 2026-07-27
-verifiziert: 2026-07-27 (Buch-Run 62, Festigungsmodus Priorität c, Stichproben-Re-Verifikation — vollständiger Wortlautabgleich §§ 90-122 PBG gegen raw/260607_amtlich_zh_pbg.md Z. 978-1237, CONFIRMED, 0 Korrekturen an diesem Kernbestand; Fassungsstand PBG weiterhin Nachtrag 133, keine Drift. 2 echte Korrekturen gefunden: (1) § 33a ABV ist seit RRB 11.5.2016 aufgehoben, korrekte Fundstelle für die 35-cm-Aussendämmung ist § 253a PBG — Register-Sweep-Nachzug, an anderer Stelle der KB [[ausnahmebewilligung-und-bestandesschutz]] bereits korrigiert, aber nie hierher gesweept; (2) Klarstellung Haupt- vs. Anhang-Fassung § 260 Abs. 3 PBG für die per Gerichtspraxis analog herangezogene 1/3-Fassadenlänge-Regel bei Baulinien-Vorsprüngen — die harmonisierte Hauptteil-Fassung von § 260 Abs. 3 hat einen anderen Regelungsgegenstand, offene Frage markiert statt stillschweigend übernommen; (3) StrG-Fassungsstand-Vermerk aus Run 53 nachgezogen, Nachtrag 133 statt 109, Inhalt unverändert); 2026-07-14 (Modell-D § 238→§ 238a PBG Divergenz-Fix gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 44); 2026-07-13 (Modell-D-Volltextabgleich §§ 90-95 PBG (Erschliessungsplan-Inhalt, § 93 Ersatzvornahme), §§ 96-101/106/111 PBG (Baulinien/Niveau-/Skilinien-Ergänzung), §§ 114-122 PBG (Werkplan, vorsorgliches Bauverbot § 120, Heimschlag) gegen raw/260607_amtlich_zh_pbg.md, Modell-D Kap. 3 Teil 1; § 62 StrG volltextverifiziert gegen raw/260713_amtlich_zh_strg.md — Buch-Angabe ¼-½ KORRIGIERT (amtlich: lit. c Einzelbeitrag max. ½ der Wertvermehrung/Summe max. ¾ der Kosten, lit. d Trottoir-Anstösserbeiträge Summe max. ½ der Kosten); vorherige Verifikation 2026-07-12: § 264/§ 272/§§ 96-101/§ 266)
-sources: ["§ 51 Abs. 2 PBG", "§ 66 PBG", "§ 67 PBG", "§ 90 PBG", "§ 91 PBG", "§ 92 PBG", "§ 93 PBG", "§ 94 PBG", "§ 95 PBG", "§ 96 PBG", "§ 97 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 106 PBG", "§ 107 PBG", "§ 108 PBG", "§ 110 PBG", "§ 110a PBG", "§ 111 PBG", "§ 112 PBG", "§ 113 PBG", "§ 114 PBG", "§ 115 PBG", "§ 116 PBG", "§ 117 PBG", "§ 118 PBG", "§ 119 PBG", "§ 120 PBG", "§ 121 PBG", "§ 122 PBG", "§ 220 PBG", "§ 238a PBG", "§ 253a PBG", "§ 260 Abs. 3 PBG (alt/Anhang)", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 33a ABV (aufgehoben 11.5.2016)", "§ 15m HWSchV (aufgehoben 01.06.2026)", "§ 20 WsG", "§ 62 lit. c/d StrG", "raw/260607_amtlich_zh_pbg.md", "raw/260607_amtlich_zh_abv.md", "raw/260713_amtlich_zh_strg.md", "Buch Bd 2 S. 1022-1061", "Buch Bd 1 Kap. 3, S. 208-239"]
+last_updated: 2026-08-24
+verifiziert: 2026-08-24 (Buch-Run 125 — die von Run 62 offen gelassene Frage aufgelöst, ob die
+  harmonisierte § 6c-ABV-Messweise [2 m Tiefe, halber Fassadenabschnitt] auch im Baulinienbereich
+  gilt: JA, seit 1.3.2017, gesetzessystematisch [§ 100 PBG harmonisiert regelt nur noch die
+  Messweise, keine eigene Massvorschrift mehr], amtlich bestätigt durch den erläuternden Bericht
+  zur laufenden PBG-Teilrevision «Baulinien» [`raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md`].
+  Neuer aktiver Fassungsstand-Wachposten: die Revision [RRB 1319/2024, seit Jan. 2025 im
+  Kantonsrat] ist noch nicht in Kraft und würde die Regel wieder einschränken); 2026-07-27 (Buch-Run 62, Festigungsmodus Priorität c, Stichproben-Re-Verifikation — vollständiger Wortlautabgleich §§ 90-122 PBG gegen raw/260607_amtlich_zh_pbg.md Z. 978-1237, CONFIRMED, 0 Korrekturen an diesem Kernbestand; Fassungsstand PBG weiterhin Nachtrag 133, keine Drift. 2 echte Korrekturen gefunden: (1) § 33a ABV ist seit RRB 11.5.2016 aufgehoben, korrekte Fundstelle für die 35-cm-Aussendämmung ist § 253a PBG — Register-Sweep-Nachzug, an anderer Stelle der KB [[ausnahmebewilligung-und-bestandesschutz]] bereits korrigiert, aber nie hierher gesweept; (2) Klarstellung Haupt- vs. Anhang-Fassung § 260 Abs. 3 PBG für die per Gerichtspraxis analog herangezogene 1/3-Fassadenlänge-Regel bei Baulinien-Vorsprüngen — die harmonisierte Hauptteil-Fassung von § 260 Abs. 3 hat einen anderen Regelungsgegenstand, offene Frage markiert statt stillschweigend übernommen; (3) StrG-Fassungsstand-Vermerk aus Run 53 nachgezogen, Nachtrag 133 statt 109, Inhalt unverändert); 2026-07-14 (Modell-D § 238→§ 238a PBG Divergenz-Fix gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 44); 2026-07-13 (Modell-D-Volltextabgleich §§ 90-95 PBG (Erschliessungsplan-Inhalt, § 93 Ersatzvornahme), §§ 96-101/106/111 PBG (Baulinien/Niveau-/Skilinien-Ergänzung), §§ 114-122 PBG (Werkplan, vorsorgliches Bauverbot § 120, Heimschlag) gegen raw/260607_amtlich_zh_pbg.md, Modell-D Kap. 3 Teil 1; § 62 StrG volltextverifiziert gegen raw/260713_amtlich_zh_strg.md — Buch-Angabe ¼-½ KORRIGIERT (amtlich: lit. c Einzelbeitrag max. ½ der Wertvermehrung/Summe max. ¾ der Kosten, lit. d Trottoir-Anstösserbeiträge Summe max. ½ der Kosten); vorherige Verifikation 2026-07-12: § 264/§ 272/§§ 96-101/§ 266)
+sources: ["§ 51 Abs. 2 PBG", "§ 66 PBG", "§ 67 PBG", "§ 90 PBG", "§ 91 PBG", "§ 92 PBG", "§ 93 PBG", "§ 94 PBG", "§ 95 PBG", "§ 96 PBG", "§ 97 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 106 PBG", "§ 107 PBG", "§ 108 PBG", "§ 110 PBG", "§ 110a PBG", "§ 111 PBG", "§ 112 PBG", "§ 113 PBG", "§ 114 PBG", "§ 115 PBG", "§ 116 PBG", "§ 117 PBG", "§ 118 PBG", "§ 119 PBG", "§ 120 PBG", "§ 121 PBG", "§ 122 PBG", "§ 220 PBG", "§ 238a PBG", "§ 253a PBG", "§ 260 Abs. 3 PBG (alt/Anhang)", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 33a ABV (aufgehoben 11.5.2016)", "§ 15m HWSchV (aufgehoben 01.06.2026)", "§ 20 WsG", "§ 62 lit. c/d StrG", "raw/260607_amtlich_zh_pbg.md", "raw/260607_amtlich_zh_abv.md", "raw/260713_amtlich_zh_strg.md", "raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md", "Buch Bd 2 S. 1022-1061", "Buch Bd 1 Kap. 3, S. 208-239"]
 links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2b]], [[zonenkonformitaet]], [[raumplanung-und-gestaltung]], [[baureife-und-erschliessung]]
 ---
 
@@ -105,11 +111,32 @@ Sicherung bestehender und geplanter Anlagen und Flächen sowie der **baulichen G
   (Getrenntmessung bei seitlich gegliederten Gebäuden, Z. 2744-2746) — sie enthält die
   Drittelsregel nicht. Für den Grenzabstand selbst hat [[abstaende-und-hoehen]] bereits
   nachgewiesen, dass die harmonisierte ABV die alte Drittelsregel dort durch **§ 6c ABV
-  (2 m Tiefe, bis zur Hälfte der Fassadenlänge)** ersetzt hat. Ob die Rechtsprechung diese
+  (2 m Tiefe, bis zur Hälfte der Fassadenlänge)** ersetzt hat. ~~Ob die Rechtsprechung diese
   grosszügigere Hälfte-Regel inzwischen auch analog auf den **Baulinienbereich** (§ 100 Abs. 1
   PBG) überträgt, ist am Gesetzeswortlaut **nicht** prüfbar (reine Praxisfrage, die zitierten
   VB-Entscheide von 2013-2016 liegen an der Harmonisierungs-Zeitschwelle) — als offene Frage
-  markiert statt stillschweigend die alte Drittelsregel fortzuschreiben.
+  markiert statt stillschweigend die alte Drittelsregel fortzuschreiben.~~
+- **Aufgelöst 2026-08-24 (Buch-Run 125):** Die offene Frage war anders gestellt, als sie sich
+  amtlich beantworten lässt — es handelt sich **nicht** um eine reine Praxisfrage der
+  Gerichte, sondern um eine unmittelbare gesetzessystematische Folge der IVHB-Harmonisierung.
+  Der harmonisierte **§ 100 PBG enthält seit 1.3.2017 keine eigene Massvorschrift mehr** für
+  Vorsprünge im Baulinienbereich (anders als die alte/Anhang-Fassung mit fixer 1,5-m-Grenze,
+  `raw/260607_amtlich_zh_pbg.md` Z. 4242-4243) — er regelt nur noch die Messweise (projizierte
+  Fassadenlinie, § 100 Abs. 1 PBG). Die Lücke füllt die allgemeine Begriffs-/Massnorm
+  **§ 6c ABV** (höchstens 2 m Tiefe, höchstens die Hälfte des zugehörigen Fassadenabschnitts).
+  Amtlich bestätigt durch den erläuternden Bericht der Volkswirtschafts-/Baudirektion zur
+  laufenden PBG-Teilrevision «Baulinien»: **«Grundsätzlich kommen für vorspringende
+  Gebäudeteile im Baulinienbereich die Masse von § 253b VE-PBG [= geltendes Recht: § 6c ABV]
+  zur Anwendung»** — und weiter: die IVHB-Harmonisierung habe die zulässigen Masse im
+  Baulinienbereich «erheblich erweitert», was die Revision nun (noch nicht in Kraft)
+  einschränken will. Beleg: `raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md`.
+  **Fassungsstand-Wachposten (aktiv, noch nicht abgeschlossen):** die Vorlage
+  (Regierungsratsbeschluss Nr. 1319/2024) ist seit Januar 2025 im Kantonsrat, Stand
+  24.08.2026 weiterhin in Kommissionsberatung, **nicht in Kraft**. Tritt sie in Kraft, gilt
+  im Baulinienbereich künftig wieder eine eigenständige, engere Regel (1. Vollgeschoss und
+  Untergeschosse grundsätzlich freizuhalten, geschlossene Vorsprünge mit «untergeordnetem
+  Charakter»). In `wiki/QUESTIONS.md` als aktiv zu überwachender Punkt geführt, analog
+  [[negative-vorwirkung-und-bzo-revision]].
 
 → Details + Fallrecht: [[15-lage-von-gebaeuden-teil2b]] (Buch Bd 2 S. 1034-1047).
 

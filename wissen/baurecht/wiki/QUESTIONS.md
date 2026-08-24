@@ -1,5 +1,33 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## ✅ GEKLÄRT 2026-08-24 (Buch-Run 125) — gilt die harmonisierte § 6c-ABV-Messweise auch im Baulinienbereich? Ja; neuer aktiver Fassungsstand-Wachposten
+
+**War offen seit Buch-Run 62** (`[[baulinien-und-abstandslinien]]`): ob die Rechtsprechung die
+harmonisierte Hälfte-Fassadenlänge-Regel des § 6c ABV (2 m Tiefe) analog auch auf Vorsprünge im
+Baulinienbereich (§ 100 Abs. 1 PBG) überträgt, war als «am Gesetzeswortlaut nicht prüfbare reine
+Praxisfrage» offen markiert.
+
+**Aufgelöst — die Prämisse war falsch, es ist keine Praxisfrage.** Der amtliche erläuternde
+Bericht zur laufenden PBG-Teilrevision «Baulinien» (Volkswirtschafts-/Baudirektion Kanton
+Zürich, `raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md`) bestätigt wörtlich: «Grundsätzlich
+kommen für vorspringende Gebäudeteile im Baulinienbereich die Masse von § 253b VE-PBG [=
+geltendes Recht: § 6c ABV] zur Anwendung» — und beschreibt die IVHB-Harmonisierung von 2015/2016
+als Ursache einer «erheblichen Erweiterung» der zulässigen Masse im Baulinienbereich. Der
+harmonisierte § 100 PBG regelt seit 1.3.2017 nur noch die Messweise, keine eigene Massvorschrift
+mehr (anders als die alte/Anhang-Fassung mit fixer 1,5-m-Grenze) — die allgemeine ABV-Begriffsnorm
+füllt die Lücke unmittelbar kraft Gesetzessystematik, nicht erst durch richterliche Analogie.
+Eingearbeitet in [[baulinien-und-abstandslinien]].
+
+**T-NEU · PBG-Teilrevision «Baulinien» — offen, zu überwachen, analog
+[[negative-vorwirkung-und-bzo-revision]].** Die Vorlage (Regierungsratsbeschluss Nr. 1319/2024)
+ist seit Januar 2025 im Kantonsrat (Medienmitteilung zh.ch 16.01.2025). Stand 24.08.2026:
+weiterhin in Kommissionsberatung, **nicht in Kraft**. Tritt sie in Kraft, wird die oben
+beschriebene Regel enger: 1. Vollgeschoss und Untergeschosse grundsätzlich freizuhalten,
+geschlossene Vorsprünge (Erker/Loggien) mit Pflicht zum «untergeordneten Charakter», offene
+Vorsprünge (Balkone) ab 2. Vollgeschoss weiterhin uneingeschränkt in den Massen der Grundnorm.
+Prüfweg: `kantonsrat.zh.ch` (Geschäftssuche «Baulinien») bzw. `zhlex.zh.ch` LS 700.1 auf neuen
+Nachtrag. Kein Ratedatum setzen.
+
 ## ✅ TEILWEISE GEKLÄRT 2026-08-24 (Buch-Run 121) — Fallzitate der Run-120-«Fallpraxis-Vertiefung» und VB.2012.00531-Frage bearbeitet
 
 **War offen seit Buch-Run 120** (`[[ausnahmebewilligung-und-bestandesschutz]]`, Abschnitt

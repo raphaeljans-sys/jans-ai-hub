@@ -701,6 +701,23 @@ unbelegt. Kein neuer `raw/`-Volltext nötig (beide Primärquellen lagen bereits 
 (ausserhalb des KB-Mandats); sonst regulärer `wissenscheck`-Turnus oder eine neue Modell-D-
 Stichprobenrunde.
 
+**Run 125 (2026-08-24, ausserhalb T1-T9):** Modell-D-Stichprobenrunde am ältesten
+`last_updated`-Artikel ([[baulinien-und-abstandslinien]], 2026-07-27) — dessen seit Buch-Run 62
+offene Frage aufgelöst, ob die harmonisierte § 6c-ABV-Messweise (2 m Tiefe, halbe
+Fassadenlänge) auch im Baulinienbereich gilt. **Keine Praxisfrage, sondern Gesetzessystematik:**
+der harmonisierte § 100 PBG regelt seit 1.3.2017 nur noch die Messweise, keine eigene
+Massvorschrift mehr — die ABV-Begriffsnorm füllt die Lücke. Amtlich bestätigt über den
+erläuternden Bericht zur laufenden PBG-Teilrevision «Baulinien» (neue Primärquelle
+`raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md`), der genau diese als zu weitgehend
+erkannte Wirkung wieder einschränken will. **Neuer aktiver Fassungsstand-Wachposten:** die
+Revision (RRB 1319/2024, seit Jan. 2025 im Kantonsrat) ist Stand 24.08.2026 weiterhin nicht in
+Kraft — in `wiki/QUESTIONS.md` analog [[negative-vorwirkung-und-bzo-revision]] zur Überwachung
+registriert. Report `outputs/2026-08-24_buch-run125.md`. **Nächster Schritt:** kein Fachpunkt
+mehr offen ausser VB 94/0016 und der neuen Kantonsrats-Beobachtung; sonst regulärer
+`wissenscheck`-Turnus oder eine weitere Modell-D-Stichprobenrunde (nächster Kandidat nach
+`last_updated`: `wiki/geschosse-und-kniestock.md`, dessen Kniestock-Teil in der Re-
+Verifikationskette bisher nicht angefasst wurde).
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

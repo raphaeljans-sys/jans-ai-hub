@@ -1,3 +1,121 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: N-R40-7 geschlossen (Grauton Lignatec-Tabelle 2 = Legendenfarbe «Baustoff brennbar», eigene Pixelmessung am Original)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established`-Destillate zitierfähig. CHANGELOG-Kopf und Report des
+letzten Laufs (Q1-Q4-Quellenfrage SIA 242, ~06:30 Uhr) zuerst gelesen. Kollisionscheck via
+`ps aux`: eigener Prozess (Name `mschub624`, identischer Auftragstext) lief parallel als
+Wrapper+Hauptprozess — kein Konkurrenzlauf; einzige weitere aktive Session mit demselben
+Auftragsmuster betraf `wissen/energie` (anderer Auftrag, andere KB), keine Kollision.
+
+**Vorgehen:** Systematischer Scan von `wiki/QUESTIONS.md` (5503 Zeilen) auf echte offene
+`[ ]`/`[~]`-Positionen. Von 43 gefundenen `[ ]`-Zeilen sind die weit überwiegende Mehrheit entweder
+(a) Bring-Schuld Raphael (kostenpflichtige SIA-/VKF-Ausgaben, Claude tätigt keine Käufe),
+(b) Strukturentscheide Raphael (z.B. Run-31-Punkt zur Inventar-Reichweite), (c) bewusst P3/P4
+zurückgestellt («nur bei konkretem Projektbedarf»), oder (d) bereits an anderer Stelle
+inhaltlich geschlossen und als Ursprungswortlaut absichtlich stehen gelassen (KB-eigene
+Konvention: Schliessungsvermerk direkt darüber, `[ ]` darunter zur Nachvollziehbarkeit —
+mehrfach geprüft, z.B. die VKF-BRL-2015-Folgeprüfung Zeile 4486, bereits durch den
+VKF-Fassungs-Sweep Run 58-60 abgedeckt).
+
+**Ein genuiner, bisher unbeantworteter Punkt bearbeitet:** N-R40-7 (P3), `wiki/QUESTIONS.md`
+Zeile ~2597: der in der zehnten Verifikationsrunde (Run 41) gemessene Grauton an Deckschicht/
+Stiel in den Tabelle-2-Zeilen R30/EI30/REI30, R60/EI60/REI60 und EI60-EI30(nbb) des Lignatec
+17/2005 «Bauten in Holz – Brandschutz-Anforderungen» war als unentschlüsselter Effekt geführt
+(Median-RGB 177/180/179 gegen 240/245 bei «Keine Anforderung», Legende auf S. 5 kenne keine
+getönte Variante).
+
+**Direkt am Original geprüft, nicht nur am Destillat.** Quelldatei über den OneDrive-Spiegel
+gefunden (`.../AR - 01 Projekte/2414 THALWIL/06 Reglemente/_Archiv/11 Brandschutz/Lignatec/
+Lignatec_brandschutz-Seite2.pdf`, identischer Inhalt wie die in der KB-Quelle geführte Datei —
+die primäre Quelle unter `PL - 03 Brandschutz/...` war auf dieser Station nicht materialisiert).
+Mit `pdftoppm -r 200` auf Druckseiten 4/5 (Tabelle 2 vollständig) gerendert und mit Python/
+Pillow pixelgenau gemessen: die grosse Tabellen-Swatch der Zeile R30/EI30/REI30 (Bezeichnung
+F30bb) misst RGB-Mittel **(174.5/176.4/174.3)** — deckungsgleich mit dem bereits im Destillat
+notierten Wert 177/180/179 (unabhängige Zweitmessung, keine Abweichung). Die winzige Legende
+auf S. 5 zeigt für «Baustoff brennbar» dasselbe Diagonalschraffur-Muster wie «Vollholz», aber
+auf weissem Grund mit dünnen Einzellinien (dort tatsächlich nahe Weiss).
+
+**Befund: kein unentschlüsseltes Signal, sondern dieselbe Legendenfarbe «Baustoff brennbar» in
+zwei Grössen.** Der scheinbare Widerspruch (Legende hell, grosse Tabellen-Swatch deutlich
+grauer) ist ein reiner Skalierungs-/Druckeffekt: in der grossen Swatch stehen dieselben
+Diagonalstriche dichter auf gleicher Fläche und verschmelzen beim Scan zu sichtbarem Grau, im
+winzigen Legendensymbol bleiben sie einzeln erkennbar. Damit ist der Grauton zugleich der
+visuelle Beleg für eine bereits im Destillat textlich festgehaltene materielle Aussage
+(Abschnitt «dritte Tabellenspalte», Run 40): F30bb/F60bb-Zeilen (R30/EI30/REI30, R60/EI60/REI60
+ohne (nbb)-Zusatz) erlauben an Deckschicht und Stiel ausdrücklich Baustoff brennbar, nicht nur
+Vollholz. Fundstelle: Lignatec 17/2005, S. 5, Legende (Vollholz · Baustoff brennbar · Baustoff
+nicht brennbar · Beton · Dämmstoff brennbar · Dämmstoff nicht brennbar).
+
+**Statuseinordnung:** Das Gesamtdestillat `lignum-lignatec-brandschutz.md` bleibt `speculative`
+(unverändert, wegen der übrigen noch nicht in einer sauberen Nulldurchgang-Runde bestätigten
+Befunde) — dieser Nachtrag schliesst nur den einen Punkt N-R40-7, erhöht den Gesamtstatus nicht.
+
+**Nachgeführt:** `wiki/QUESTIONS.md` (additiver Nachtrag, Ursprungswortlaut darunter erhalten),
+`destillate/lignum-lignatec-brandschutz.md` (additiver Nachtrag im Abschnitt Tabelle 2,
+Ursprungsbefund darunter erhalten). Kein neues Destillat angelegt.
+
+**Verifikation:** `git diff --numstat` nach beiden Schreibvorgängen geprüft — beide Diffs rein
+additiv (`+`-Zeilen), keine Löschung an fremdem Inhalt, kein globales Ersetzen verwendet. Kein
+`git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: Q1-Q4-Quellenfrage SIA 242/KISPI geschlossen (Eurogypsum/UEEP)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage
+belegen, nur `established`-Destillate zitierfähig. CHANGELOG-Kopf und Report des letzten Laufs
+(SIA-Sweep sechste Sättigungs-Verifikation, ~06:20 Uhr) zuerst gelesen; Kollisionscheck via
+`ps aux` — eigener Auftragstext läuft parallel als eigenständiger Prozess, kein Konkurrenzlauf,
+nichts überschrieben.
+
+**Vorgehen:** Systematischer Scan von `wiki/QUESTIONS.md` (5480 Zeilen) nach echten offenen
+Positionen (`grep` auf `[ ]`/`[~]`-Checkboxen statt nur Abschnittstitel, da viele Titel trotz
+Status "offen" bereits inhaltlich erledigt waren). Von den gefundenen Kandidaten geprüft: die
+meisten sind entweder Bring-Schuld Raphael (Normenkauf), Strukturentscheide Raphael (N60-1/N60-2,
+bereits korrekt in `logbuch/fristen.md` erfasst) oder bereits an anderer Stelle geschlossen, nur
+die Checkbox nicht nachgezogen (z.B. Z1/Z2-Koeffizienten SIA 103 — bereits heute 24.08. früher am
+Tag geschlossen, eigene Web-Recherche bestätigte unabhängig denselben Befund: die Werte stehen
+nicht in der Norm/Kalkulationshilfe SIA 103-K:2018 selbst, sondern werden separat vom SIA
+veröffentlicht).
+
+**Ein genuiner, bisher unbeantworteter Punkt bearbeitet:** `wiki/QUESTIONS.md`, Abschnitt SIA 242
+(Zeile ~3905), Restfrage «Quelle der Q1-Q4-Qualitätsstufen für die KISPI-Fachfrage LBW-Beschichtung
+bleibt offen (vermutlich Hersteller- oder DIN/EN-Quelle, nicht SIA)». Die KB führt bereits
+`destillate/crb-merkblatt-16d-06-spachtelungen-weissputze.md` (CRB/SMGV/FRMPP, Q1-Q4 für
+Gipsplatten), das selbst in Ziff. 6 als Quelle «Merkblatt Nr. 2 ‹Verspachtelung von Gipsplatten –
+Oberflächengüten› der deutschen Industriegruppe Gipsplatten» nennt. Per WebSearch identifiziert
+und per WebFetch + `pdftotext -layout` vollständig gelesen: das frei zugängliche europäische
+Gemeinschaftsdokument **«Verspachteln von Gipsplatten — Klassifizierung der
+Oberflächenqualitäten»**, Eurogypsum + UEEP (Vereinigung der europäischen Gipser-, Trockenbau-
+und Stuckateur-Verbände), 12 S., PDF-CreationDate 11.03.2010
+(`eurogypsum.org/wp-content/uploads/2015/04/EUROGYPSUMFINSHINGDE.pdf`) — wortgleiche
+Vierstufigkeit Q1 bis Q4, Verweis auf EN 13963. Ergebnis: **nicht SIA, keine CH-Norm**, sondern
+eine europäische Branchenvereinbarung, in der Schweiz über CRB/SMGV/FRMPP als
+NPK-Devisierungsgrundlage übernommen. Einschränkung ehrlich benannt: die exakte deutsche
+Quelldatei («Industriegruppe Gipsplatten») selbst wurde nicht aufgefunden, die Gleichsetzung mit
+dem Eurogypsum/UEEP-Dokument stützt sich auf Titel- und Inhaltsübereinstimmung, nicht auf
+Dateiidentität.
+
+**Nebenbefund (kein Handlungsbedarf, nur dokumentiert):** Bei der Verifikation des Z1/Z2-Fundes
+zusätzlich das öffentlich gehostete SIA 103-K:2018 «Kalkulationshilfe zur Ordnung SIA 103»
+gefunden (`irbnet.de/daten/rswb/19059019871.pdf`) — bestätigt wortgleich Ziff. 7.2.2: die Werte
+für Z1/Z2 «werden aus statistischen Reihen abgeleitet und durch den SIA periodisch veröffentlicht»,
+stehen NICHT im Kalkulationshilfe-Dokument selbst. Ein KBOB-Dokument «Vergleich Z-Werte des SIA»
+wurde als möglicher Zweitbeleg identifiziert, war aber während dieses Laufs nicht erreichbar
+(`kbob.admin.ch` liefert konsistent HTTP 502 auf allen getesteten Pfadvarianten, vermutlich
+Bot-Schutz an der Edge) — nicht als Bring-Schuld neu angelegt, da der Sachverhalt bereits über
+`destillate/sia-honorar-hilfsmittel.md` (established) abgedeckt ist.
+
+**Nachgeführt:** `wiki/QUESTIONS.md` (additiver Nachtrag am bestehenden SIA-242-Eintrag, kein
+Löschen), `destillate/crb-merkblatt-16d-06-spachtelungen-weissputze.md` (additive
+Provenienz-Fussnote). Kein neues Destillat angelegt — das CRB-Merkblatt bleibt die
+praxisrelevante Fundstelle, das Eurogypsum/UEEP-Dokument ist Beleg, nicht eigenständiger
+KB-Gegenstand.
+
+**Verifikation:** `git diff --numstat` nach beiden Schreibvorgängen geprüft — je rein additiv
+(23/0 QUESTIONS.md, 14/0 CRB-Merkblatt), keine Löschung, keine fremde Zeile verändert. Kein
+`git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt.
+
+---
+
 ## 2026-08-24 — SIA-Sweep, sechste unabhängige Sättigungs-Verifikation (~06:20 Uhr)
 
 **Auftrag:** SIA-Sweep fortsetzen (Register-Zeilen ohne Volltext beschaffen, Register/Destillate

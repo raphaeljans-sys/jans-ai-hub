@@ -5,7 +5,7 @@ ausgabe: "ecoBKP 2026 / V 1.0"
 gelesen: "Seiten 66-91 von 138 (Read-Tool-Zaehlung; entspricht den dokumentinternen Fusszeilen-Seiten 61-86 — Offset -5 durch Titelei/Inhaltsverzeichnis vor der ersten ecoBKP-Position), 2026-08-05"
 datenstand: "aktuell (ecoBKP 2026, V 1.0) — ecoBKP wird jaehrlich fortgeschrieben, naechste Ausgabe (2027) vor Weiterverwendung pruefen"
 status: emerging
-last_updated: "2026-08-05"
+last_updated: "2026-08-24"
 ---
 
 # Destillat — ecoBKP 2026: Gebaeudetechnik (ecoBKP 230, 240, 244, 250, 258)
@@ -126,7 +126,19 @@ enthalten, dort nur A++/A+/A) umgestellt:
   (nur wenn Warmwasserproduktion mit erneuerbarer Energie erfolgt); 2. Prioritaet Klasse D,
   gleiche Nebenbedingungen.
 - **Waeschetrockner**: 1. Prioritaet A+++, 2. Prioritaet A++ (das neue A-G-System gilt fuer
-  Waeschetrockner noch nicht).
+  Waeschetrockner noch nicht). **Am EU-/CH-Etikettenrecht gegengeprueft (24.08.2026, E-R230-1):**
+  die Aussage ist zum ecoBKP-Publikationsstand (Januar 2026) eng gelesen richtig, aber unpraezise.
+  Das neue A-G-Label fuer Waeschetrockner existiert bereits seit **Delegierter Verordnung (EU)
+  2023/2534** (Energieverbrauchskennzeichnung) und **(EU) 2023/2533** (Oekodesign), beide
+  publiziert 21.11.2023, in der EU seit **01.07.2025** allein gueltig (Uebergang ab Maerz 2025
+  mit Doppel-Etikette). In der Schweiz darf das neue Label seit Juli 2025 **freiwillig**
+  angebracht werden, **obligatorisch erst ab 30.06.2026** (Quelle: energie-experten.ch, mit
+  Suchtreffern von bfe.admin.ch datumsgleich bestaetigt; die BFE-Einzelseite zu Waeschetrocknern
+  war am 24.08.2026 per direktem Abruf nicht erreichbar, HTTP 404 — vermutlich migrierte
+  Seitenstruktur, gleiche Fallgruppe wie andere 404-Fallen dieser KB). Fazit: die ecoBKP-Aussage
+  war zum Erscheinen (Jan. 2026) technisch richtig (Pflicht bestand noch nicht), veraltet aber
+  spaetestens am 30.06.2026 vollstaendig. Dieselbe Formulierung («gilt noch nicht») traegt ecoBKP
+  258 wortgleich fuer Backoefen (S. 89) — dort nicht separat geprueft.
 - **Aufzugsanlagen**: Standard-Personenaufzuege Energieeffizienzklasse A (nach EN ISO 25745);
   Gebaeude ab 8 Geschossen mit mehreren Aufzugsanlagen: intelligente Zielwahlsteuerung und
   Energie-Rekuperation; Kabel und Draehte aus halogenfreien Materialien.

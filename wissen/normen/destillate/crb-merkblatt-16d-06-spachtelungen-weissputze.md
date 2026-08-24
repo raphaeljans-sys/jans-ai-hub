@@ -50,6 +50,20 @@ Stuckgewerbebund. Es ist damit **keine Herstellerwerbung für ein einzelnes Prod
 eine branchenweite Verständigungsgrundlage für Devis- und Vertragstexte — ein volles Destillat
 ist entsprechend gerechtfertigt (kein Kurzeintrag nach Auftragspunkt 5).
 
+**Provenienz-Fussnote (nachgetragen 24.08.2026, QUESTIONS-Abarbeitung, zu `wiki/QUESTIONS.md`
+Eintrag SIA 242/Q1-Q4-Quellenfrage):** Die in Ziff. 6 genannte Quelle «Merkblatt Nr. 2
+‹Verspachtelung von Gipsplatten – Oberflächengüten› der deutschen Industriegruppe Gipsplatten»
+deckt sich inhaltlich und im Titel praktisch deckungsgleich mit dem frei zugänglichen
+europäischen Gemeinschaftsdokument **«Verspachteln von Gipsplatten — Klassifizierung der
+Oberflächenqualitäten»** von **Eurogypsum** und **UEEP** (Vereinigung der europäischen Gipser-,
+Trockenbau- und Stuckateur-Verbände), 12 S., PDF-Metadaten CreationDate 11.03.2010
+(`eurogypsum.org/wp-content/uploads/2015/04/EUROGYPSUMFINSHINGDE.pdf`, per WebFetch +
+`pdftotext` vollständig gelesen) — wortgleiche Vierstufigkeit Q1 (Grundverspachtelung) bis Q4
+(vollflächiges Überziehen, Schichtdicke > 1 mm), Verweis auf **EN 13963** für
+Spachtelmaterialien. Das exakte deutsche Merkblatt Nr. 2 selbst wurde nicht aufgefunden/gelesen
+— die Gleichsetzung mit dem Eurogypsum/UEEP-Dokument ist eine belegte, aber nicht
+letztbewiesene Zuordnung (gleiche Branchenharmonisierung, nicht zwingend dieselbe Datei).
+
 ## Qualitätsstufen Spachtelung auf Gipsplatten (Ziff. 3, S. 2)
 
 - **Q1 Grundverspachtelung**: Füllen der Stossfugen und Überziehen der sichtbaren

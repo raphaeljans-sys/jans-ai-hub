@@ -5393,3 +5393,140 @@ Löschung von Bestand.
   --numstat` geprüft: `destillate/ecobkp-2026-methodik-und-uebersicht.md` +82/-14 (sechs neue
   Merkblatt-Absätze, alte Kurzfassung ersetzt, keine Löschung von Substanz), `destillate/INDEX.md`
   +1/-1 (eine Zeile ersetzt).
+
+## 2026-08-24 (Fortsetzung desselben Tages) — ecoBKP 221-228 vollständig, 230 begonnen; 2009→2026-Fensterrahmen-Vergleich abgeschlossen
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand, danach in die Wiki-Artikel einarbeiten. Anschluss an den unmittelbaren Vorlauf
+(`outputs/2026-08-24_ecobkp-2026-merkblaetter-21-215-primaerquelle.md`), dessen eigene
+Empfehlung war: «ecoBKP 221 Fortsetzung + 222-450, danach Abgleich gegen die 2009→2026-
+Sachänderung». Vor der Recherche zuerst den gesamten `- [ ]`/`- [~]`-Bestand der Datei
+durchgesehen (Rule `auto-verbesserungen`, Fehlerklasse «Lücke ohne Registerprüfung»): bestätigt
+identisch zum Stand von Run 154/161/23.08.2026-Fortsetzungen — jeder verbleibende Punkt hängt an
+einem Beschaffungsentscheid Raphaels (E-R148-1 Normkauf SIA 380/1:2016, E-R161-1 Rest SN EN ISO
+6946, E103/E94 JANS-Projektdaten) oder ist als nicht abschliessend auflösbar dokumentiert
+(E-R134-3, E-R150-3, A-P3 03.13). Der ecoBKP-Auftrag aus dem Vorlauf war der einzig echte,
+unblockierte Rest.
+
+Gleiche Datei erneut von ecobau.ch geladen (8'110'547 Byte, identisch mit der bereits geprüften
+Fassung — kein Versionswechsel während der Bearbeitung), S. 35-70/138 im PyPDF2-Volltext
+gelesen. **Sieben weitere Merkblätter vollständig destilliert:** ecoBKP 221 Fenster/Aussentüren/
+Tore, ecoBKP 222 Spenglerarbeiten, ecoBKP 224 Bedachungsarbeiten, ecoBKP 225 Spezielle Dichtungen
+und Dämmungen, ecoBKP 226 Fassadenputze, ecoBKP 227 Äussere Oberflächenbehandlungen, ecoBKP 228
+Äussere Abschlüsse/Sonnenschutz; ecoBKP 230 Elektroanlagen begonnen (bis Aufzugsanlagen, S. 70).
+
+**Der vom Vorlauf angekündigte Vergleich ist jetzt am vollständigen Wortlaut nachvollzogen, mit
+einem echten Befund:**
+
+- [x] **E-R137-N1 (neu, sofort geschlossen): ecoBKP 221 Fenster 2009→2026 — Uf-Zahlenwerte aus
+  der Materialpriorität verschwunden, Kunststofffenster aus der Prioritätenliste entfernt.**
+  2009 nannte für Holz-/Holz-Metall-/Kunststofffenster je einen Uf-Bereich je Priorität
+  (`[[ecobkp-2009-merkblaetter-nach-bkp]]`, dort selbst primärquellenbelegt). Die 2026er-Fassung
+  nennt für dieselbe Position **keinen Uf-Wert mehr** — nur noch Materialpriorität (1. Priorität
+  Holzfenster, 2. Priorität Holz-Metall-Fenster). Kunststofffenster (PVC) taucht 2026 nicht mehr
+  in dieser Prioritätenliste auf, sondern nur noch als separater Eintrag im Abschnitt
+  «Oberflächenbehandlung» (Beschichtungsvorgabe, keine Materialwahl mehr). Damit ist die
+  2008→2009 begonnene Herabstufung von PVC-Fenstern 2026 konsequent zu Ende geführt. Nebenbefund
+  im selben Vergleich: die **Dachbegrünung** (ecoBKP 224) ist von einem festen 2009er-Kennwert
+  («10 cm Substrat, 45 l/m² Wasserrückhaltekapazität») auf eine **SIA-312-Bandbreite** (8-11 cm /
+  40-55 l/m² als Mindeststandard, 1. Priorität +3 cm) umgestellt — von einem eigenen ecobau-Wert
+  zu einem Normverweis mit Spanne, ausdrücklich wegen regionaler Niederschlagsunterschiede
+  begründet. Vollständige Belegstellen (Seitenzahlen, Originalzitate) im Abschnitt «Vergleich
+  ecoBKP 221 Fenster: 2009 gegen 2026» in `[[ecobkp-2026-methodik-und-uebersicht]]`.
+
+**Neuer offener Punkt aus diesem Lauf** (klein, nicht primärquellen-geprüft):
+
+- [x] **E-R230-1 (P4) — ✓ GESCHLOSSEN 24.08.2026.** Siehe eigener Abschnitt weiter unten
+  («Run — E-R230-1 aufgelöst + Duplikations-Befund»).
+
+**A-BLIND-Status unverändert:** dieser Lauf betraf ein Destillat, das erst nach vollständiger
+Lektüre in den Backlink-Bereich ≥18 hineinwachsen wird (aktuell 19 Backlinks, siehe
+Backlink-Zählung — im Bereich, aber nicht neu gezählt); keine Aussage zur Gesamtzahl der
+geprüften 18-29-Kandidaten.
+
+Register gepflegt: `destillate/ecobkp-2026-methodik-und-uebersicht.md` (Frontmatter, sieben neue
+Merkblatt-Abschnitte, Vergleichsabschnitt, Offene-Punkte, Backlinks erweitert),
+`destillate/INDEX.md` (Zeile 39), `destillate/energiemonitoring-submetering-grossverbraucher-zh-sz.md`
+(Backlink ergänzt), `CHANGELOG.md`. `git diff --numstat` nach jedem Schreibvorgang geprüft: alle
+additiv bzw. mit den erwarteten ersetzten Zeilen (Frontmatter-Datenstand, INDEX-Zeile), keine
+fremde Löschung.
+
+**Für den nächsten Lauf (überholt, siehe Korrektur unten):** ~~ecoBKP 230 Fortsetzung (Rest
+S. 70ff.) + Merkblätter 240-450 (13 von 30 noch ungelesen).~~
+
+## Run — E-R230-1 aufgelöst + Duplikations-Befund (24.08.2026, vierte Fortsetzung desselben Tages)
+
+**E-R230-1 geschlossen, primärrechtlich belegt.** Wäschetrockner-Energieetikette am EU-/CH-Recht
+gegengeprüft: **Delegierte Verordnung (EU) 2023/2534** (Energieverbrauchskennzeichnung
+Wäschetrockner) und **(EU) 2023/2533** (Ökodesign), beide publiziert 21.11.2023 (ELI
+`data.europa.eu/eli/reg_del/2023/2534/oj`), führen das neue A-G-Label ein; in der EU seit
+**01.07.2025** allein gültig (Übergang ab März 2025 mit Doppel-Etikette). In der Schweiz darf das
+neue Label seit Juli 2025 **freiwillig** angebracht werden, **obligatorisch erst ab 30.06.2026**
+(Quelle: energie-experten.ch, mit WebSearch-Treffern von bfe.admin.ch datumsgleich bestätigt; die
+BFE-Einzelseite zu Wäschetrocknern war am 24.08.2026 per direktem Abruf nicht erreichbar, HTTP
+404). **Ergebnis:** die ecoBKP-Aussage («gilt noch nicht für Wäschetrockner», Stand Januar 2026)
+ist eng gelesen richtig — die Pflicht bestand zum Erscheinen tatsächlich noch nicht —, aber
+unpräzise, weil sie verschweigt, dass das neue Label bereits seit Juli 2025 existiert und
+freiwillig zulässig ist. Ab 30.06.2026 ist die Aussage vollständig überholt. Dieselbe
+Formulierung trägt ecoBKP 258 wortgleich für Backöfen (S. 89) — dort nicht separat geprüft (neuer
+Kandidat für einen künftigen, noch kleineren P4-Punkt, hier nicht eröffnet, da bereits derselbe
+Mechanismus belegt ist).
+
+**Wichtigerer Befund dieses Laufs: die ecoBKP-2026-Destillation ist auf sechs Dateien
+fragmentiert, drei davon dupliziert.** Zur Vorbereitung von E-R230-1 wurde das komplette ecoBKP
+2026 (S. 70-138/138) per PyPDF2 direkt aus der Primärquelle gelesen, wie es der Vorlauf als
+nächsten Schritt empfahl («13 von 30 Merkblätter noch offen»). Diese Empfehlung war **falsch** —
+nicht weil die Quelle nicht existiert, sondern weil sie längst gelesen war: das komplette Werk
+(138/138 Seiten) wurde bereits am **05./06.08.2026** (Run 124 + Folgetag) gelesen und in **fünf
+themenweise gegliederte Destillate** aufgeteilt, die zusammen alle 30 Merkblätter abdecken:
+`[[ecobkp-2026-tragwerk-und-rohbau]]` (21/211/213/214/215), `[[ecobkp-2026-gebaeudehuelle]]`
+(221/222/224/225/226/227/228), `[[ecobkp-2026-gebaeudetechnik]]` (230/240/244/250/258),
+`[[ecobkp-2026-ausbau]]` (271/273/276/281/282/283/285) und
+`[[ecobkp-2026-baureinigung-umgebung-erschliessung]]` (287/421/450). Alle fünf stehen mit Datum,
+Seitenbereich und Kernbefunden seit 05./06.08.2026 in `destillate/INDEX.md` Zeilen 41-45.
+
+**Drei separate interaktive Sessions am 24.08.2026** (Vorlauf-Changelog-Einträge «ecoBKP 2026 um
+sechs Merkblätter erweitert», «Merkblätter 221-228 vollständig, 230 begonnen», sowie dieser Lauf)
+haben denselben Primärquellen-Inhalt **erneut aus dem PDF gelesen und in
+`[[ecobkp-2026-methodik-und-uebersicht]]` neu destilliert**, ohne die fünf Geschwister-Dateien zu
+finden. Belegt an zwei deckungsgleichen Stellen: (1) der 2009→2026-Fensterrahmen-Vergleich, den
+der vorletzte Lauf als eigenen «echten Befund» präsentierte, steht in der Substanz **bereits seit
+16.08.2026 (Run 137)** in `[[ecobkp-2026-gebaeudehuelle]]` — dort sogar über die vollständige
+2008→2009→2026-Editionskette statt nur 2009→2026; (2) die RC-Beton-/Zementwahl-Werte in ecoBKP 211
+stehen bereits seit 05.08.2026 in `[[ecobkp-2026-tragwerk-und-rohbau]]`, wortgleich zu dem, was
+der vorvorletzte Lauf als neu in die Methodik-Datei schrieb. **Warum die bestehenden
+Register-Checks das nicht fingen:** jeder der drei Läufe prüfte den `- [ ]`/`- [~]`-Bestand von
+`QUESTIONS.md` und/oder `destillate/INDEX.md` Zeile 39 (die eigene Fortschrittszeile der
+Methodik-Datei) — aber keiner glich den `quelle`-Feldwert (dieselbe ecobau.ch-URL) gegen die
+**anderen** INDEX-Zeilen ab. Gleiche Fehlerklasse wie das bereits offene **E-WC32-1** («vor jeder
+‹Quelle nie eingelesen›-Aussage die Verzeichnisliste `destillate/` gegen den Linknamen prüfen,
+nicht nur INDEX-Volltextsuche») — hier auf Datei- statt Themenebene wiederholt, und diesmal mit
+drei aufeinanderfolgenden Läufen statt einem.
+
+**Reparatur in diesem Lauf:** `[[ecobkp-2026-methodik-und-uebersicht]]` bekommt einen prominenten
+Hinweis am Dateianfang (welche fünf Dateien bereits existieren, welche Abschnitte hier Duplikate
+sind), die Backlinks wurden ergänzt, die «Offene Punkte» korrigiert. **Bewusst nicht getan:** die
+Duplikate selbst kürzen oder die Dateien mergen — das wäre eine Umstrukturierung im Sinne von
+Rule `wissens-bibliothekar» («Pause + Rückfrage NUR vor Destruktivem: Artikel umbenennen, mergen,
+löschen»), keine reine Ingestion.
+
+- [ ] **E-R230-2 (P2, neu): Konsolidierungsentscheid ecoBKP-2026-Destillate.** Raphael/Wissens-Chef
+  entscheiden: (a) `[[ecobkp-2026-methodik-und-uebersicht]]` auf einen reinen Dach-Artikel
+  (Methodik, Struktur, Neuerungen, Querverweise) zurückstutzen und die per-Merkblatt-Duplikate
+  darin löschen, da sie in den fünf Themen-Dateien vollständiger/älter belegt sind; oder (b) die
+  fünf Themen-Dateien in die Methodik-Datei zurückführen (ein grosses statt sechs kleine
+  Dokumente); oder (c) bewusst getrennt lassen und nur die Cross-Links pflegen (aktueller
+  Zwischenzustand seit diesem Lauf). **Bis zum Entscheid:** kein weiterer Primärquellen-Neulesevorgang
+  von ecoBKP 2026, ohne zuerst alle sechs Dateien (fünf Themen-Dateien + Methodik-Datei) zu
+  prüfen — sonst entsteht beim nächsten Lauf eine vierte Kopie derselben 138 Seiten.
+
+Register gepflegt: `destillate/ecobkp-2026-methodik-und-uebersicht.md` (Hinweis-Abschnitt,
+Frontmatter `gelesen`/`last_updated`, Offene-Punkte, Backlinks),
+`destillate/ecobkp-2026-gebaeudetechnik.md` (Wäschetrockner-Passage korrigiert, `last_updated`),
+`wiki/QUESTIONS.md` (E-R230-1 geschlossen, dieser Abschnitt, E-R230-2 neu eröffnet), `CHANGELOG.md`.
+`git diff --numstat` nach jedem Schreibvorgang geprüft: additiv bzw. mit den erwarteten ersetzten
+Zeilen, keine fremde Löschung.
+
+**Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid) Raphael vorlegen; bis dahin an
+anderen, tatsächlich noch offenen `- [ ]`/`- [~]`-Punkten weiterarbeiten (E-R132-4-Nachfolge,
+E-WC32-1 als Methodendisziplin sofort anwendbar).
