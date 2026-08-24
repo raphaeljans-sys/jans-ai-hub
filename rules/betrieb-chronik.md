@@ -68,6 +68,58 @@ identisch, Uhrendrift 1 s.
 leeres Array gilt unter `set -u` als unset. Das Script kommt ohne alle drei aus; wer es erweitert,
 haelt das durch, sonst stirbt es ausgerechnet im launchd-Kontext.
 
+## 260824f — Die Messung widerlegte den Plan: der SSD-Klon ist kein Schmuggelpfad, sondern fuer 40 von 83 Dateien der einzige Weg nach draussen
+
+Fortsetzung von `260824e`. Dort war als Schritt 2 vorgesehen, den Push des Mac-Mini-Auto-Sync
+abzuschalten, damit nur noch EIN Schreiber auf `main` steht. Vor dem Abschalten wurde gemessen,
+ob in diesem Kanal Arbeit steckt, die es sonst nirgends gibt. **Sie steckt darin.**
+
+**Messung (14 Tage, Stand 24.08.2026):** Der Auto-Sync beruehrte 83 Dateien. 43 davon kamen auch
+ueber einen anderen Kanal — **40 nicht**. Und das ist keine Streuarbeit: ganze Destillate
+(`ahb-merkblatt-385-planungsrichtlinie-nis`, `-386-storensteuerung-2017`,
+`-389-lithium-ionen-batterien-lagerung`, `anergienetz-kalte-fernwaerme-ch`,
+`batteriespeicher-heimspeicher-pv-ch`, `sia-181-schallschutz-anforderungswerte`,
+`komfortlueftung-wrg-sia382-luftwechsel`), die Buch-Runs 134 bis 137, amtliche Rohquellen zu
+RPG Art. 24c und zum KR-Geschaeft 6000, sowie elf Normen-Laufberichte.
+
+**Der Plan war also falsch, und die Messung hat ihn gestoppt, nicht das Bauchgefuehl.** Haette man
+den Kanal geschlossen, waere in zwei Wochen die Arbeit aus 40 Dateien liegengeblieben — sichtbar
+erst, wenn jemand sie vermisst. Die Annahme dahinter («der Auto-Sync waescht nur Streuschreiber
+nach GitHub») stammte aus Eintrag `260823c` und stimmte fuer einen Teil der Faelle; sie auf den
+ganzen Kanal zu verallgemeinern war der Fehler.
+
+**Stattdessen gebaut: Symmetrie.** Der eigentliche Mangel war derselbe wie auf der NAS-Seite —
+`git-auto-sync.sh` kannte ebenfalls nur EINEN Abgleichweg und beendete sich bei
+`pull --rebase`-Fehlschlag, alle 5 Minuten neu. Heute klemmte zufaellig die NAS-Seite; die
+Mini-Seite haette denselben stillen Kreislauf erzeugt. Das Script bekam deshalb denselben,
+bereits getesteten Mechanismus: Merge-Rueckfall nach gescheitertem Rebase, Fehlzaehler,
+Eskalation ins Fristen-Register ab dem dritten Fehlversuch, `merge --abort` statt Merge-Rest.
+**Wer einen Waechter haertet und seinen Zwilling stehen laesst, verschiebt den blinden Fleck nur.**
+
+**Ein Fehler beim Bauen, den erst der Test fand.** Der Merge-Rueckfall wurde aus
+`nas-selfcommit.sh` uebernommen — samt der dortigen Variable `$LOG`. In `git-auto-sync.sh` heisst
+sie aber `$LOG_FILE`. `$LOG` war leer, die Umleitung `2>>""` schlug fehl, und damit galt der Merge
+als gescheitert, **obwohl er nie ausgefuehrt wurde**. Das Script hat kein `set -u`, also blieb es
+still. Im Test sah das exakt aus wie ein fachlicher Konflikt. Gefunden erst, als dieselbe
+Befehlsfolge von Hand durchlief und funktionierte. **Lehre: uebernommener Code erbt die
+Variablennamen seiner Herkunft, nicht die seines Ziels** — und ein Script ohne `set -u` meldet das
+nicht.
+
+**Zweiter Fund aus dem Test, gleiche Familie:** Ein Testlauf schrieb einen Fehleintrag in den
+**echten** `logbuch/fristen.md`, weil der Registerpfad in der Eskalation absolut ist. Entfernt,
+53 echte Eintraege unveraendert. Wer eine Eskalation testet, testet auch ihren Nebeneffekt.
+
+**Getestet:** Rebase scheitert und Merge greift (Divergenz danach 0/0, Zaehler 0) sowie
+unaufloesbarer Konflikt ueber drei Laeufe (Zaehler 1/2/3, genau eine `WARNUNG`-Zeile, kein
+`MERGE_HEAD` hinterlassen).
+
+**Offen, und jetzt sauber als Entscheidung formuliert statt als Aufraeumarbeit:** Rule
+`sync-kanonische-quelle` verlangt, dass geteilte Inhalte ausschliesslich auf dem NAS editiert
+werden. Die Messung zeigt, dass ein Teil der Lern-Laeufe das nicht tut und dass der Auto-Sync
+diese Arbeit rettet. Entweder die Laeufe schreiben kuenftig auf den NAS (rule-konform, Eingriff in
+jeden Loop), oder die Rule wird auf die gelebte Praxis nachgefuehrt (zwei Schreiber bleiben, die
+Haertung faengt sie ab). Registerzeile gesetzt; Claude entscheidet das nicht selbst.
+
 ## 260824e — NAS-Repo und GitHub liefen 6 h auseinander; der Selbstheilungsweg des Committers WAR der Fehler
 
 **Befund.** Von 08:21 bis 18:20 Uhr divergierten NAS-Repo und GitHub: 26 Commits nur auf dem NAS,

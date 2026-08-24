@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.08.2026 18:29:45
+Stand: 24.08.2026 18:40:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 18:24)
@@ -19,4 +19,4 @@ Stand: 24.08.2026 18:29:45
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 4784e7bf Chronik 260824e + Fristen: NAS/GitHub-Spaltung analysiert und behoben (Merge 9bb81668), Zweitursache zwei Schreiber auf main offen
+- 3de6139c vermaschungs-test: 9-Ebenen-Matrixtest der drei Stationen + /vermaschung, Chronik 260824f, WEGE-Eintrag

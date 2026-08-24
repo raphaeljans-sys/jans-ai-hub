@@ -93,7 +93,7 @@ if [ $PULL_EXIT -ne 0 ]; then
     git fetch -q 2>/dev/null
     D_VOR=$(git rev-list --count @{u}..HEAD 2>/dev/null || echo 0)
     D_ZUR=$(git rev-list --count HEAD..@{u} 2>/dev/null || echo 0)
-    if git merge --no-edit -q @{u} 2>>"$LOG"; then
+    if git merge --no-edit -q @{u} 2>>"$LOG_FILE"; then
         log "MERGE: Rueckfall gegriffen ($(git log --oneline -1 | cut -c1-60))"
     else
         # NIE einen Merge-Zustand hinterlassen — der Guard oben wuerde alle Folgelaeufe stoppen.

@@ -3,19 +3,27 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-**NEU 24.08.2026, 18:30 (interaktive Session, Mac Mini) — Zwei Schreiber auf `main`: die
-NAS/GitHub-Spaltung kann wiederkehren.** Heute liefen NAS-Repo und GitHub sechs Stunden
-auseinander (26 Commits nur NAS, 51 nur GitHub, 9 Dateien beidseitig); behoben per Merge
-`9bb81668`, alle drei Repos wieder deckungsgleich, Sicherung auf Zweig
-`rettung/nas-vor-merge-260824`. **Die Ursache ist NICHT behoben:** Der SSD-Klon des Mac Mini
-pusht per launchd direkt nach GitHub, waehrend `nas-selfcommit.sh` denselben Zweig auf der
-Synology fortschreibt. Zweitens heilt der NAS-Committer sich nicht selbst — sein einziger
-Abgleichweg ist `git pull --rebase`, und bei dessen Fehlschlag bricht er ab und versucht es alle
-15 Minuten erneut, still, ohne Meldung (Log 12:45 bis 18:18 lueckenlos derselbe Dreisatz).
-**Zu entscheiden:** entweder nur EIN Schreiber auf `main`, oder `nas-selfcommit.sh` bekommt einen
-Divergenz-Check (`git rev-list --count` in beide Richtungen) plus Meldung nach N Fehlversuchen.
-Solange keins von beidem steht, ist die naechste stille Sechs-Stunden-Spaltung eine Frage der
-Zeit. Volle Analyse: `rules/betrieb-chronik.md` 260824e. | Hub-Infrastruktur (Git-Sync) | hoch | offen
+**NEU 24.08.2026, 18:45 (interaktive Session, Mac Mini) — Entscheid faellig: Die Lern-Laeufe
+schreiben in den SSD-Klon, die Rule verlangt den NAS. Beide Sync-Waechter sind gehaertet, die
+Architekturfrage bleibt offen.** Heute liefen NAS-Repo und GitHub sechs Stunden auseinander
+(26 Commits nur NAS, 51 nur GitHub, 9 Dateien beidseitig); behoben per Merge `9bb81668`,
+Sicherung auf Zweig `rettung/nas-vor-merge-260824`. Beide Sync-Scripts kannten je genau EINEN
+Abgleichweg und liefen bei dessen Fehlschlag still im Kreis; beide haben jetzt Divergenz-Messung,
+Merge-Rueckfall und Eskalation ins Register ab dem dritten Fehlversuch (getestet, Chronik
+260824e/f). **Der Schaden wird damit aufgefangen, nicht verhindert.**
+
+**Was Raphael entscheiden muss.** Rule `sync-kanonische-quelle` sagt, geteilte Inhalte werden
+ausschliesslich auf dem NAS editiert. Gemessen ueber 14 Tage stimmt das nicht mit der Praxis
+ueberein: von 83 Dateien, die der Mini-Auto-Sync trug, kamen **40 ausschliesslich ueber diesen
+Kanal** — darunter ganze Destillate (`ahb-merkblatt-385/386/389`, `anergienetz-kalte-fernwaerme-ch`,
+`batteriespeicher-heimspeicher-pv-ch`, `sia-181-schallschutz`), die Buch-Runs 134 bis 137, amtliche
+Rohquellen zu RPG Art. 24c und elf Normen-Laufberichte. **Der SSD-Klon ist also kein Schmuggelpfad,
+sondern fuer einen Teil der Laeufe der einzige Weg nach draussen.** Den Push abzuschalten haette
+diese Arbeit liegen lassen — der urspruengliche Plan war falsch und wurde durch die Messung
+widerlegt. Zwei Wege: entweder die Lern-Laeufe schreiben kuenftig auf den NAS (rule-konform, aber
+Eingriff in jeden Loop), oder die Rule wird auf die gelebte Praxis nachgefuehrt (zwei Schreiber
+bleiben, die Haertung faengt sie ab). Beides ist vertretbar, aber es ist eine Entscheidung, keine
+Aufraeumarbeit. Analyse: `rules/betrieb-chronik.md` 260824e und 260824f. | Hub-Infrastruktur (Git-Sync) | hoch | offen
 
 **NEU 24.08.2026, 07:46 (ag-gruendung-monitor autonomer Lauf, Fehler entdeckt) — Monitor defekt seit 07.08.2026, Kapitalbesch
 
