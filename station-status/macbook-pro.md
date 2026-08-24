@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.08.2026 18:09:11
+Stand: 24.08.2026 18:19:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 24.08.2026 18:09:11
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- a248be88 nas-selfcommit: 4 Datei(en) 2026-08-24 18:00
+- bd4b765d station-03 vollvermascht: SSH-Aliase, Schluesseltausch, Chronik 260824d, zettel/ angelegt

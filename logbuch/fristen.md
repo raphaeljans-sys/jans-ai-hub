@@ -3287,3 +3287,18 @@ verloren, sind aber ungesichert). Die Aktion bleibt unveraendert die des Eintrag
 diesem Lauf bewusst nicht angefasst**, weil das Zusammenfuehren neun parallel beschriebener
 Wissens-Dateien in einem unbeaufsichtigten Lauf genau der Fall aus Rule `auto-verbesserungen`
 260811 ist. Status: **offen, hoch — und dringlicher als um 12:57**.
+
+**Nachtrag 24.08.2026 18:20 (Session Stations-Vermaschung, station-03) zum Git-Stau-Eintrag
+darueber — die Konflikte sind weg, der Push steht weiter.** Ein Commit-Versuch um 18:18 lief
+durch die Konfliktmeldungen hindurch und **committete erfolgreich** (`bd4b765d`); das NAS-Repo
+ist danach sauber: `git status --short` leer, `git diff --diff-filter=U` zaehlt **0** Konflikte,
+kein `.git/MERGE_HEAD`, kein `rebase-merge`/`rebase-apply`. Der Arbeitsbaum ist also **nicht
+mehr blockiert** — das unterscheidet die Lage von den Messungen um 12:57 und 17:55. Was bleibt,
+ist allein die **divergente Historie gegen GitHub: 27 voraus, 51 zurueck** (vorher 19/51). Der
+Selfcommit meldet weiterhin rc=1, weil der *Push* scheitert, nicht mehr der Merge. **Wirkung
+unveraendert: seit ~12:45 erreicht kein NAS-Edit mehr GitHub.** Die noetige Aktion ist damit
+kleiner geworden als im Eintrag darueber beschrieben: es geht nicht mehr ums Zusammenfuehren
+von neun Wissens-Dateien im Konflikt, sondern um den bewussten Entscheid, wie die 27 und die 51
+zusammengefuehrt werden (Merge oder Rebase) — **nach wie vor nichts fuer einen unbeaufsichtigten
+Lauf und nichts, was Claude eigenmaechtig entscheidet**, weil fremde unbestaetigte Arbeit
+beider Seiten betroffen ist (Rule `auto-verbesserungen` 260811). Status: **offen, hoch.**

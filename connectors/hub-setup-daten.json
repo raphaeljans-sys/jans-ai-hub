@@ -28,11 +28,11 @@
       "lan_ip": "unbekannt (bisher nur ueber Tailscale angebunden)",
       "tailscale_ip": "100.96.212.110",
       "tailscale_name": "macbook-pro-von-revendo",
-      "hostname": "MacBookPro",
+      "hostname": "MacBook-Pro-von-Revendo (ComputerName 'MacBook Pro von Revendo', LocalHostName 'MacBook-Pro-von-Revendo'; gemessen 24.08.2026 per ssh)",
       "benutzer": "revendo",
       "ssh_alias": "kein Alias — direkt: ssh -o IdentitiesOnly=yes -i ~/.ssh/id_ed25519 revendo@100.96.212.110",
       "claude_cli": "KEIN Homebrew-claude. Nur die app-gebuendelte CLI unter $HOME/Library/Application Support/Claude/claude-code/<version>/claude.app/Contents/MacOS/claude",
-      "besonderheit": "⚠ ZWEI FALLEN. (1) NAMENSKOLLISION: hostname -s liefert 'MacBookPro' und unterscheidet sich vom Haupt-MacBook 'Macbookpro' NUR in der Gross-/Kleinschreibung; das NAS-Dateisystem unterscheidet die nicht. Stationsdateien und jede andere nach hostname benannte Datei wuerden sich still gegenseitig ueberschreiben. Deshalb IMMER STATION=Macbookrevendo setzen (kontingent-budget.sh nimmt die Variable seit 23.08.2026 entgegen). (2) KEIN OAUTH-TOKEN in ~/.jans-dispatch.env: die CLI ist nur ueber den GUI-Login am Schluesselbund angemeldet, und darauf kommt eine SSH-Sitzung NICHT. Ferngestartete Laeufe scheitern deshalb mit 'Not logged in'. Laeufe muessen LOKAL auf der Maschine gestartet werden, oder Raphael hinterlegt dort einen Token. Lesende SSH-Befehle funktionieren uneingeschraenkt."
+      "besonderheit": "⚠ ZWEI FALLEN. (1) NAMENSKOLLISION — ⚠ am 24.08.2026 nachgemessen und NICHT bestaetigt: 'hostname -s' liefert 'MacBook-Pro-von-Revendo', nicht 'MacBookPro'; damit besteht KEINE Gross-/Kleinschreibungs-Kollision mit dem Haupt-MacBook 'Macbookpro'. Die urspruengliche Messung vom 23.08.2026 ist entweder falsch abgelesen oder der Rechner wurde seither umbenannt — nicht geklaert. Die Anweisung bleibt trotzdem in Kraft, weil sie unabhaengig davon richtig und der Name jederzeit wieder aenderbar ist: IMMER STATION=Macbookrevendo setzen (kontingent-budget.sh nimmt die Variable seit 23.08.2026 entgegen). (2) KEIN OAUTH-TOKEN in ~/.jans-dispatch.env: die CLI ist nur ueber den GUI-Login am Schluesselbund angemeldet, und darauf kommt eine SSH-Sitzung NICHT. Ferngestartete Laeufe scheitern deshalb mit 'Not logged in'. Laeufe muessen LOKAL auf der Maschine gestartet werden, oder Raphael hinterlegt dort einen Token. Lesende SSH-Befehle funktionieren uneingeschraenkt."
     },
     "nas-ds918": {
       "rolle": "Datei-Server + kanonische Skill-/Wissens-Bibliothek + nativer Git-Committer",
