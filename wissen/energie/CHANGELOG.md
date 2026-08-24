@@ -1,5 +1,55 @@
 # CHANGELOG
 
+## 2026-08-24q — A-BLIND: `elektroheizungs-ersatzpflicht-zh-sz` — MuKEn-2025 Art. 5.1 «ohne Wasserverteilsystem» primärquellenbelegt, Art. 5.2-Befreiungskatalog ergänzt
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. Anschluss an CHANGELOG 24p («A-BLIND-Bestand fortsetzen,
+~28 von 39 Kandidaten offen»). **Betriebslage:** NAS zu Laufbeginn nicht gemountet, `wissen/energie/`
+lokal git-getrackt und unbetroffen. `ps` zeigte einen zweiten `claude -p`-Prozess mit identischem
+Energie-Prompt (PID 69010, Wrapper `mschub789`) — Autor von 24p, beim Start dieses Laufs bereits
+beendet und committet (`04ca71d93`), damit kein Sibling-Konflikt, sondern der reguläre Vorlauf.
+
+Eigene Backlink-Zählung über `wiki/`+`destillate/` gebildet (36 Destillate im 18-29-Backlink-Bereich),
+um einen öffentlich zugänglichen A-BLIND-Kandidaten ohne Normkauf-Blocker zu wählen. Gewählt:
+`[[elektroheizungs-ersatzpflicht-zh-sz]]` (21 Backlinks) — der Wortlaut von MuKEn-2025 Art. 5.1
+(Modul 5) war seit 18.07.2026 als «nur via Sekundärauszug gelesen, nicht selbst am PDF-Original
+nachgeprüft» geflaggt.
+
+PDF eigenständig heruntergeladen (`curl`, 117 S., identisch mit dem im Schwesterdestillat
+`muken-2025-verabschiedet.md` bereits verwendeten Spiegel energiehub-gebaeude.ch), mit `pdftotext
+-layout` volltext-extrahiert, Art. 5.1/5.2 auf S. 76 gelesen.
+
+**Hauptfund:** die bisher zitierte Kurzfassung von Art. 5.1 liess die Klausel **«ohne
+Wasserverteilsystem»** aus, die im Originaltext direkt am Artikel selbst steht (nicht nur im
+Modultitel, wie zuvor nur vermutet). Der zuvor offen geführte Geltungsbereich ist damit
+primärquellenbelegt geklärt: eine reine Modul-5-Übernahme würde in ZH die zentralen
+Elektro-Wassererwärmer nicht abdecken (heute über § 10b EnerG erfasst) und in SZ eine bisher nicht
+erfasste Anlagekategorie neu unterstellen, während die heute in SZ erfassten zentralen Anlagen von
+Art. 5.1 selbst gar nicht gedeckt wären — beide Kantone bräuchten bei einer Übernahme eine
+Zusatzregel. Art. 5.2 (Befreiungen) erstmals vollständig dokumentiert: Notheizungen Art. 1.14
+Abs. 2-4, Nassräume/WC, Gebäude ≤ 3 kW oder < 50 m² EBF, Kirchen — die kW-/m²-Schwelle ist
+zahlengleich mit der ZH-Bagatellgrenze (§ 45c BBV I). Die 5-Jahres-Frist selbst und der
+Negativbefund «noch nicht kantonal umgesetzt» bleiben unverändert bestätigt.
+
+Eingearbeitet: `destillate/elektroheizungs-ersatzpflicht-zh-sz.md` (Frontmatter Status auf
+established gehoben, Wortlaut- und Art.-5.2-Abschnitt neu, Geltungsbereich-Analyse präzisiert,
+Offene-Punkte-Zeile geschlossen, Quellenliste ergänzt), `wiki/BAUHERREN-FAQ.md` F98 (Zitat
+korrigiert, Art. 5.2 ergänzt, Status established), `destillate/INDEX.md` (Zeile 164),
+`wiki/QUESTIONS.md` (Eintrag 24q).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `elektroheizungs-ersatzpflicht-zh-sz.md`
++54/-34, `BAUHERREN-FAQ.md` +25/-21 — durchgehend additiv/präzisierend/korrigierend, keine Löschung
+von Bestand.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand ~27 von 39 Kandidaten im 18-29-Backlink-Bereich offen
+(`ecobkp-2026-methodik-und-uebersicht`/`ecobkp-2026-gebaeudehuelle` als eigener Themenfaden nicht
+erneut einzeln listen). Konkrete, öffentlich zugängliche nächste Kandidaten: `pv-marktzahlen-
+kosten-ch-2025`, `muken-2025-modul-7-betriebsoptimierung-hlkkse`, `rrb-2025-1082-klimaanlagen-
+bewilligungspraxis-zh`, `geak-klassengrenzen-relative-klassierung`, `ahb-merkblatt-376-
+uebersichtstabelle-beleuchtungsanforderungen-2025`, `waermeplanung-kommunal-zh-sz`. Unverändert
+blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf), E-R161-1
+(SN EN ISO 6946, Normkauf), E103/E94 (Entscheid Raphael bzw. Recherchewege erschöpft).
+
 ## 2026-08-24p — Anhang B3/C/D des Produktreglements 2026.1 gelesen (Reglement damit vollständig), PVopti-Pauschalaussage korrigiert
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
