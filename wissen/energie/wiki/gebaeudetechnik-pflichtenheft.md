@@ -90,17 +90,21 @@ zu protokollieren.**
 | Gegenstand | Vorgabe | Quelle |
 |---|---|---|
 | ~~Feuerungen~~ | ~~Konformitätsnachweis nach LRV bis **350 kW**, darüber Abnahmemessung~~ — **entfallen, siehe Aktualitätsprüfung unten** | [[ahb-zuerich-gt-rl3-heizungsanlagen]] |
-| Wärmepumpen/Kältemaschinen | **JAZ für das Gesamtsystem inkl. Förderenergie** dokumentieren UND messtechnisch überprüfen, Systemgrenze ausweisen | RL1, RL3, RL4 |
+| Wärmepumpen/Kältemaschinen | **JAZ für das Gesamtsystem inkl. Förderenergie** dokumentieren UND messtechnisch überprüfen, Systemgrenze ausweisen — konkretisiert (2020) als `JAZ = Q_WP / (E_WP + E_V + E_K + E_SR + E_A + E_C)`, gestaffelt nach Anlagengrösse (Grenze ca. 100 kW): Kompaktanlage = eine Summenmessung Hilfsbetriebe, Grossanlage = **getrennte** Messung Verdichter/Hilfsbetriebe je WP; Erdsonden-Vor-/Rücklauftemperatur nach SIA 384/6:2020 | RL1, RL3, RL4, [[ahb-merkblatt-394-messkonzept-waermepumpen]] |
 | Kälteanlagen ab 5 kW | eigener Strom- und Impulszähler | [[ahb-zuerich-gt-rl4-raumkuehlung]] |
 | Lüftung | WRG-Temperaturänderungsgrad bei jeder Anlage nachmessen; Kanaldichtheit **vor dem Isolieren** prüfen | [[ahb-zuerich-gt-rl5-lueftungsanlagen]] |
 | Beleuchtung | Nachweis (2008: SIA 380/4 — **heute SIA 387/4:2023**), ab ca. 5 Mio. CHF Bausumme **dreistufig** (Projekt / Ausschreibung / Übergabe); aktuell (2025) DALI/DALI-2 verbindlich, Lux-Werte nach SIA 387/4 + EN 12464-1 | [[ahb-zuerich-gt-rl8-beleuchtung]], [[ahb-richtlinie-gebaeudetechnik-229-2025]], [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] |
+| Storen/Sonnenschutz | Produktschutz vor Komfort/Energie vor Bedienung; Grenzwerte Frost < 2 °C/> 4 °C, Blendschutz ~25 kLux, Thermoautomatik ~250/200 W/m²; **Bettenzimmer/Stationszimmer**: Produktschutz + Raumbedienung Muss, Rest projektspezifisch | [[ahb-merkblatt-386-storensteuerung]] |
 | Betrieb | **1-2 Jahre fachliche Nachbetreuung (Betriebsoptimierung) nach Inbetriebsetzung** | [[ahb-zuerich-gt-rl1-planungsgrundlagen]] |
 
 **Bauherren-Transfer:** Die JAZ-Messpflicht und die Betriebsoptimierung sind die zwei Punkte, die
 in privaten Projekten am häufigsten fehlen. Eine Wärmepumpe wird mit einer Herstellerangabe
 verkauft und nie nachgemessen; niemand merkt, wenn sie real deutlich schlechter läuft. Die
 Nachbetreuung über 1-2 Jahre ist ein Honorarposten, der sich über die Betriebskosten meist
-selbst trägt — er muss aber im Vertrag stehen, sonst findet er nicht statt.
+selbst trägt — er muss aber im Vertrag stehen, sonst findet er nicht statt. Bei einer
+Grosswärmepumpenanlage (> ca. 100 kW, praktisch jedes grössere Pflegeheim/Spital) verlangt die
+Stadt-Zürich-Praxis die getrennte Verdichter-/Hilfsbetriebe-Messung schon in der Ausschreibung der
+Gebäudeautomation — eine nachträgliche Aufrüstung ist deutlich teurer.
 
 ## Kühlung ist die Ausnahme, nicht die Ausstattung (aus [[ahb-zuerich-gt-rl4-raumkuehlung]])
 
@@ -211,7 +215,9 @@ Beleuchtungsstärke (500 Lux auf 70 cm Tischhöhe), gleiche Tageslicht-Ausschalt
 800 Lux), gleicher Präsenz-Nachlauf (15 Minuten), gleiche Lüftungsvorgabe (25 m³/h pro Person,
 CO₂-Grenzwert 1'500 ppm), gleiche Raumtemperatur (21 °C), gleiche Elektro-Grundausstattung
 (4 Steckdosen plus 1 beim Eingang, 4 Kommunikationsanschlüsse), gleiche Storen-Frostsicherung
-(unter 2 °C bei über 95 % relativer Feuchte) und dieselbe Vorgabe zum öffenbaren Fensterelement
+(unter 2 °C bei über 95 % relativer Feuchte — ⚠ das neuere, allgemeinere
+[[ahb-merkblatt-386-storensteuerung]] (2017) nennt für dieselbe Funktion nur noch «< 2 °C», ohne
+Feuchtebedingung; ungeklärt, ob bewusst vereinfacht) und dieselbe Vorgabe zum öffenbaren Fensterelement
 (mindestens 5 % der Bodenfläche). Unterschiede liegen im Betriebsrhythmus, nicht im Zielwert: das
 Klassenzimmer hat drei Beleuchtungszonen und eine Rückstellung der Storen in Grundposition um
 12.30 Uhr, das Büro eine feinere Nachtstellung nach Storentyp.

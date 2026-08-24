@@ -3,8 +3,17 @@ name: geschosse-und-kniestock
 title: Geschosse und Kniestock — Kanton Zürich
 beschreibung: Voll-/Dach-/Attika-/Untergeschoss, Anrechenbarkeit und die Kniestock-Regel in zwei Fassungen — harmonisiert (geltender Hauptteil, Kniestock bis 1,5 m, 4 Geschossarten) vs. alt (Anhang PBG, Kniestock 0,9 m / Bestand 1,3 m, Messweise 0,4 m hinter Fassade, 3 Geschossarten) — entscheidend für Dachausbauten und die Geschosszahl.
 status: established
-last_updated: 2026-07-27
-verifiziert: 2026-08-24 (Buch-Run 126, Modell-D-Stichprobe Kniestock-/Anrechenbarkeits-
+last_updated: 2026-08-24
+verifiziert: 2026-08-24 (Buch-Run 133, amtlicher IVHB-Leitfaden der Baudirektion Kt. ZH
+  [1.3.2017, Ziff. 5.3/6.1/6.2/6.3], per PyMuPDF aus vollständigem PDF bezogen —
+  beide seit Run 33/125 offenen `speculative`-Fragen geschlossen: (1) BEZ 1987 Nr. 18 /
+  BEZ 1994 Nr. 21 / BEZ 1997 Nr. 7 zur Kniestock-Messweise auf die harmonisierte Fassung
+  NICHT übertragbar [Messgeometrie geändert: Fertigmass+0,4-m-Versatz → Rohbaumass ohne
+  Versatz], Dämmungs-Argument bleibt aber in der Sache erhalten [beide neue Messpunkte
+  schliessen Isolation ausdrücklich aus]; (2) VB.2003.00051 gegenstandslos [harmonisierte
+  Fassung hat jetzt eine Zahlenformel statt der alten qualitativen Regel], BEZ 2009 Nr. 63
+  vom amtlichen Wortlaut ausdrücklich umgekehrt [Messebene Fertigboden statt Rohboden]);
+  2026-08-24 (Buch-Run 126, Modell-D-Stichprobe Kniestock-/Anrechenbarkeits-
   Rechtsprechung, empfohlen von Buch-Run 125: VB.2003.00370 und VB.2007.00383 am
   entscheidsuche.ch-Volltext geprüft — VB.2007.00383 CONFIRMED wortgleich; VB.2003.00370
   KORRIGIERT, der Entscheid stützt keinen «Richtwert ab 1,5 m Breite», sondern beurteilte
@@ -19,7 +28,7 @@ verifiziert: 2026-08-24 (Buch-Run 126, Modell-D-Stichprobe Kniestock-/Anrechenba
   raw/260607_amtlich_zh_pbg.md, Buch-Run 34 — Fassungsstand-Umkehr analog
   [[abstaende-und-hoehen]], Kniestock-/Geschossarten-Doppelwerte belegt)
 quelle_destillat: "[[16-gebaeudedimensionen]] (Bd 2, Kap. 16, S. 1135-1153) — gibt nur die alte Fassung wieder (Buch 2019)"
-sources: ["§ 275 PBG", "§ 275 PBG alt", "§ 276 PBG", "§ 276 PBG alt", "§ 277 PBG (aufgehoben)", "§ 49 Abs. 2 lit. c PBG", "§ 49a Abs. 2 PBG", "§ 77 PBG", "§ 293 PBG", "raw/260607_amtlich_zh_pbg.md Z.2857-2886 (Hauptteil) / Z.4387-4400 (Anhang)", "raw/260824_amtlich_zh_vb-2003-00370.md", "raw/260824_amtlich_zh_vb-2007-00383.md"]
+sources: ["§ 275 PBG", "§ 275 PBG alt", "§ 276 PBG", "§ 276 PBG alt", "§ 277 PBG (aufgehoben)", "§ 49 Abs. 2 lit. c PBG", "§ 49a Abs. 2 PBG", "§ 77 PBG", "§ 293 PBG", "raw/260607_amtlich_zh_pbg.md Z.2857-2886 (Hauptteil) / Z.4387-4400 (Anhang)", "raw/260824_amtlich_zh_vb-2003-00370.md", "raw/260824_amtlich_zh_vb-2007-00383.md", "raw/260824_amtlich_zh_ivhb-leitfaden-baudirektion.md (IVHB Ziff. 5.3/6.1/6.2/6.3)"]
 paragraphen: ["§ 275 PBG", "§ 276 PBG", "§ 277 PBG", "§ 275 PBG alt", "§ 276 PBG alt", "§ 77 PBG", "§ 293 PBG"]
 links: [[abstaende-und-hoehen]], [[nutzungsziffern]], [[bestandsumbau-eingriffstiefe]], [[16-gebaeudedimensionen]], [[zonenkonformitaet]]
 ---
@@ -146,9 +155,27 @@ Buch-Destillat [[16-gebaeudedimensionen]] (6. Aufl. 2019).**
     gemessen, nicht an der Auskragung (BEZ 1997 Nr. 7).
 - Diese Zahlen (0,9 m / 1,3 m / 0,4 m) sind im geltenden **Hauptteil-Wortlaut nicht mehr
   auffindbar** — sie gelten nur, solange die betroffene Gemeinde übergangsrechtlich noch
-  die alte BZO-Fassung führt. `speculative`, ob die zitierte Rechtsprechung (RB/BEZ,
-  1980er-2000er-Jahre) auf die harmonisierte 1,5-m-Kniestockhöhe übertragbar ist — dazu
-  liegt noch keine Praxis vor (offene Frage, siehe QUESTIONS.md).
+  die alte BZO-Fassung führt.
+- **Aufgelöst 24.08.2026 (Buch-Run 133, amtlicher IVHB-Leitfaden der Baudirektion Kt. ZH,
+  Ziff. 5.3): die drei genannten Messweise-Entscheide (BEZ 1987 Nr. 18, BEZ 1994 Nr. 21,
+  BEZ 1997 Nr. 7) sind auf die harmonisierte Fassung NICHT übertragbar** — nicht weil
+  offen, sondern weil der Leitfaden die Messgeometrie selbst als geändert ausweist: alt
+  wurde **0,4 m hinter der Fassade** ab dem **fertigen** Dachgeschossboden bis Unterkante
+  Dachverkleidung gemessen (**Fertigmass**); neu (§ 275 Abs. 5 PBG) von der Oberkante des
+  Dachgeschossbodens **im Rohbau** bis zur Schnittlinie der Fassadenflucht mit der
+  Oberkante der Dachkonstruktion (**Rohbaumass, kein horizontaler Versatz mehr**). Der
+  horizontale 0,4-m-Versatz, an dem die drei Entscheide ansetzen, existiert im
+  harmonisierten Recht schlicht nicht mehr. **Das Dämmungs-Argument selbst bleibt jedoch
+  in der Sache erhalten, sogar verstärkt:** der Leitfaden benennt für beide neuen
+  Messpunkte ausdrücklich, dass Isolation ausser Ansatz fällt — oberer Punkt ist die
+  Oberkante der Dachkonstruktion/des Dachtragwerks, «darüber liegen (meist) eine
+  Isolation und eine Dachhaut samt Unterkonstruktion»; unterer Punkt ist die Oberkante
+  der rohen Tragkonstruktion «ohne allfällige Isolationen und Unterlagsböden». **RB 1993
+  Nr. 42** (Kniestock als konstruktionsbedingtes Bauteil, keine Messweise-, sondern eine
+  Begriffs-Entscheidung) ist von dieser Geometrie-Änderung nicht betroffen und dürfte
+  weiterhin tragen — nicht separat amtlich nachgeprüft. Beleg:
+  `raw/260824_amtlich_zh_ivhb-leitfaden-baudirektion.md`, Abschnitt «S. 27 —
+  Kniestockhöhe».
 
 ## Anrechenbarkeit — ergänzende Praxis (beide Fassungen, soweit übertragbar)
 
@@ -176,8 +203,20 @@ Buch-Destillat [[16-gebaeudedimensionen]] (6. Aufl. 2019).**
 - **Untergeschoss, unerheblich in welchem Mass:** VB.2003.00051 (unerheblich, in welchem
   Mass das Geschoss unterhalb des Terrains liegt) und BEZ 2009 Nr. 63 (gemessen wird die
   Betondecke, nicht der Fertigboden) sind zur **alten** Fassung ergangen (rein qualitative
-  Untergeschoss-Definition); ob sie unter der harmonisierten 2,5-m-/3-m-Zahlenformel
-  unverändert gelten, ist nicht abschliessend geklärt (`speculative`). **VB.2003.00051 am
+  Untergeschoss-Definition). **Aufgelöst 24.08.2026 (Buch-Run 133, amtlicher
+  IVHB-Leitfaden der Baudirektion Kt. ZH, Ziff. 6.2): beide Alt-Entscheide sind auf die
+  harmonisierte Fassung NICHT übertragbar, aus je eigenem Grund — kein offener
+  Auslegungsspielraum mehr.** VB.2003.00051 ist gegenstandslos, weil § 275 Abs. 3 PBG
+  jetzt selbst eine Zahlenformel (2,5 m im Mittel / 3 m an keiner Stelle) vorgibt, wo die
+  alte Fassung rein qualitativ blieb — «unerheblich, in welchem Mass» passt zu keiner
+  Regel mit fester Zahlenschranke. **BEZ 2009 Nr. 63 wird vom amtlichen Wortlaut sogar
+  ausdrücklich umgekehrt:** der Leitfaden hält fest, die «obere Messebene bildet neu die
+  Oberkante des **Fertigbodens** (bisher: Oberkante des **Rohbodens**)» — die alte
+  Entscheidregel «gemessen wird die Betondecke [Rohboden], nicht der Fertigboden» ist
+  exakt das Gegenteil der harmonisierten Messebene. Beleg:
+  `raw/260824_amtlich_zh_ivhb-leitfaden-baudirektion.md`, Abschnitt «S. 30 —
+  Untergeschosse» (Passage lag bereits seit Run 130 im Raw-Bestand, war aber nie gegen
+  diese Frage geprüft worden). **VB.2003.00051 am
   24.08.2026 (Buch-Run 126) gezielt gesucht und nicht gefunden:** eine strukturierte
   `term`-Abfrage gegen das `reference`-Feld des entscheidsuche.ch-Suchindex (Elasticsearch,
   `_searchV2.php`), an Kontrollproben (u.a. VB.2003.00118, VB.2003.00370, VB.2007.00383 —
@@ -210,11 +249,16 @@ Buch-Destillat [[16-gebaeudedimensionen]] (6. Aufl. 2019).**
   2,5-m-/3-m-Mittelwert-Formel (§ 275 Abs. 3 PBG) mehr Gestaltungsspielraum bei
   Hanglagen/Freilegungen als die rein qualitative alte Regel — im Detail in
   [[abstaende-und-hoehen]] behandelt.
-- **Dämmungs-Argument (nur alte Fassung mit Messweise-Zusatz):** Eine energetische
-  Aussendämmung ändert die Kniestockmessung nicht (gemessen hinter Fassade, nicht hinter
-  Dämmung) — Geschossqualifikation bleibt erhalten. Ob dieses Argument unter der
-  harmonisierten Fassung (kein «0,4 m hinter Fassade»-Zusatz im Gesetzeswortlaut) identisch
-  greift, ist offen (`speculative`) — im Zweifel die kommunale BZO/Vollzugspraxis abfragen.
+- **Dämmungs-Argument (beide Fassungen, aufgelöst 24.08.2026/Buch-Run 133):** In der
+  alten Fassung galt: energetische Aussendämmung ändert die Kniestockmessung nicht
+  (gemessen 0,4 m hinter Fassade, nicht hinter Dämmung) — Geschossqualifikation bleibt
+  erhalten. Unter der harmonisierten Fassung entfällt der horizontale Versatz zwar
+  ersatzlos (Messung direkt an der Fassadenflucht, siehe oben), das Ergebnis bleibt aber
+  **gleich oder günstiger**: der amtliche IVHB-Leitfaden schliesst Isolation an
+  **beiden** neuen Messpunkten ausdrücklich aus (unterer Punkt: Rohbau ohne Isolation/
+  Unterlagsböden; oberer Punkt: Dachtragwerk, exklusive Isolation/Dachhaut/
+  Unterkonstruktion) — kein Auslegungsspielraum mehr, keine kommunale Vollzugspraxis
+  nötig.
 - Die Mehrflächen-/Ausnützungsfrage des Dachgeschosses behandelt [[nutzungsziffern]] (§ 255
   Abs. 2 PBG) — Geschosszahl (hier) und Ausnützung sind **zwei getrennte** Prüfungen.
 

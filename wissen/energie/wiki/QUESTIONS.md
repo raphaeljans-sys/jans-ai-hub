@@ -5979,3 +5979,66 @@ E-R134-3 (Lambda-Anomalie, P3) und der A-BLIND-Bestand ausserhalb der Beleuchtun
 (`ahb-richtlinie-gebaeudetechnik-229-2025.md`, `ahb-merkblatt-376-uebersichtstabelle-
 beleuchtungsanforderungen-2025.md`), alle bestehenden Dateien additiv/präzisierend verändert,
 keine Löschung von Bestand.
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — AHB-Merkblätter 386 (Storensteuerung) und 394 (Wärmepumpen-Messkonzept) primärquellenbelegt destilliert
+
+Auftrag: weitere offene Fragen aus `wiki/QUESTIONS.md` abarbeiten, Anschluss an den Vorlauf
+(«Für den nächsten Lauf»: E-R230-2 bleibt Raphael vorzulegen; die referenzierten AHB-Fachmerkblätter
+aus Richtlinie 229 — 386 Storensteuerung, 394 Wärmepumpen-Messkonzept, 389 Lithium-Ionen-Lagerung —
+sind noch nicht einzeln destilliert, Kandidaten für einen künftigen Lauf). Vor der Recherche den
+`- [ ]`-Bestand geprüft: bestätigt unverändert — E103/E94/E-R148-1/E-R148-2/E-R161-1 an Raphaels
+Entscheid gebunden, E-R134-3/E-R150-3 P3/P4 ohne neuen Ansatz, E-R230-2 Konsolidierungsentscheid.
+Die vom Vorlauf selbst benannte, unblockierte Empfehlung (386/394 destillieren) war der einzig
+echte nächste Schritt.
+
+- [x] **386 Storensteuerung und 394 Wärmepumpen-Messkonzept destilliert, primärquellenbelegt.**
+  Beide PDFs direkt bei `stadt-zuerich.ch` gefunden — Dateiname nach dem Muster der bereits
+  bekannten Richtlinie-229-URL erraten (`.../energie-gebaeudetechnik/merkblatt-<name>.pdf`) und vor
+  dem Lesen per `curl -w "%{content_type} %{size_download}"` verifiziert (386: HTTP 200,
+  application/pdf, 353'611 Byte; 394: HTTP 200, application/pdf, 1'229'421 Byte) — kein Rätselraten
+  auf Verdacht, sondern eine geprüfte Primärquelle. **386 (März 2017, Änderungsgeschichte-Tabelle im
+  Dokument leer):** PyPDF2-Volltext sauber extrahierbar, alle 33 Seiten gelesen. Kernfunde: JAZ-ferne
+  Funktionslogik (Produktschutz > Komfort/Energie > Bedienung), Grenzwerte Frostschutz < 2 °C/
+  > 4 °C, Blendschutz ~25 kLux, Thermoautomatik-Globalstrahlung z. B. 250/200 W/m² (HLK-Planer-
+  abhängig), kein normierter Windgeschwindigkeits-Grenzwert (bewusst herstellerabhängig), und eine
+  Raumtyp-Funktionsmatrix, die **Bettenzimmer und Stationszimmer** explizit mit Muss-Anforderungen
+  für Produktschutz und Raumbedienung führt — direkt Healthcare-relevant. **394 (Juni 2020):**
+  PyPDF2/PyMuPDF-Textlayer lieferte nur die Titelseite brauchbaren Text, der Rest ist Vektorgrafik
+  (Formeln, Systemgrenzen-Diagramm, Fliesstext als Grafikobjekte) — **per Bildrendering (PyMuPDF
+  `get_pixmap`) und direkter Bildlesung ausgewertet**, nicht aus dem Dateinamen oder einer
+  Zusammenfassung geraten. Kernfund: die JAZ-Definition `Q_WP / (E_WP + E_V + E_K + E_SR + E_A +
+  E_C)` — ausdrücklich **inklusive aller Hilfsbetriebe**, nicht nur des Kompressors — und eine nach
+  Anlagengrösse (Schwelle ca. 100 kW) gestaffelte Messstellen-Pflicht: Kompaktanlage = eine
+  Summenmessung, Grossanlage = **getrennte** Verdichter-/Hilfsbetriebe-Messung je Wärmepumpe, dazu
+  Erdsonden-Temperaturüberwachung nach SIA 384/6:2020 und jährliche AWEL-Rapportierung bei
+  Grundwasserfassungen.
+- [x] **Echter Cross-Quellen-Fund beim Einarbeiten, nicht Teil des ursprünglichen Auftrags:** die
+  Frostschutz-Parameter aus 386 (nur «< 2 °C») stehen in Spannung zu den bereits destillierten
+  Raummodulen `[[ahb-raummodul-buero]]`/`[[ahb-raummodul-klassenzimmer]]` (2008, AHB), die für
+  dieselbe Funktion eine **kombinierte** Bedingung «< 2 °C UND relative Feuchte > 95 %» nennen.
+  Beide Quellen sind vom selben Herausgeber; das Merkblatt ist die spätere, generischere Fassung.
+  Nicht aufgelöst, ob die Feuchtebedingung bewusst gestrichen wurde oder nur redaktionell in den
+  älteren Raummodulen stand — als offener Punkt in beiden betroffenen Dateien vermerkt, keine der
+  beiden Aussagen einseitig korrigiert.
+
+Eingearbeitet: neue Destillate `[[ahb-merkblatt-386-storensteuerung]]`,
+`[[ahb-merkblatt-394-messkonzept-waermepumpen]]` (beide `established`), `destillate/INDEX.md`
+(zwei neue Zeilen), `destillate/ahb-richtlinie-gebaeudetechnik-229-2025.md` (Offene-Punkte-Absatz
+nachgeführt, 386/394 nicht mehr offen), `destillate/waermepumpe-systemvergleich.md`
+(JAZ-Messkonzept-Verweis ergänzt), `wiki/gebaeudetechnik-pflichtenheft.md` (Tabellenzeile
+Wärmepumpen/Kältemaschinen präzisiert, neue Zeile Storen/Sonnenschutz, Frostschutz-Spannung
+vermerkt, Bauherren-Transfer ergänzt).
+
+**Für den nächsten Lauf:** verbleibende AHB-Fachmerkblätter aus der Richtlinie-229-Dokumentenliste
+mit geringerer Healthcare-Priorität (265 Kennzeichnung, 385 PR-NIS, 389 Lithium-Ionen-Lagerung, 393
+Bühnentechnik) sind weiterhin nicht destilliert. E-R230-2 (Konsolidierungsentscheid ecoBKP) bleibt
+Raphael vorzulegen. Die Cross-Quellen-Spannung Frostschutz-Feuchtebedingung ist dokumentiert, aber
+nicht aufgelöst — bräuchte entweder eine noch ältere/neuere AHB-Fassung oder eine Fachrückfrage.
+
+Beleg: `git diff --numstat` **nativ per ssh** (`raphaeljans@192.168.1.10`, nie über den SMB-Mount)
+nach jedem Schreibvorgang geprüft: zwei neue Dateien (kein Diff-Risiko), `destillate/INDEX.md`
+additiv (+2 Zeilen), `destillate/ahb-richtlinie-gebaeudetechnik-229-2025.md` eine Zeile ersetzt
+(Offene-Punkte-Absatz erweitert, keine Löschung von Substanz),
+`destillate/waermepumpe-systemvergleich.md` additiv (+3/-0),
+`wiki/gebaeudetechnik-pflichtenheft.md` additiv/präzisierend (Tabellenzeilen erweitert, eine Zeile
+ersetzt, keine Löschung von Bestand).

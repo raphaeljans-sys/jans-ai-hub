@@ -798,6 +798,31 @@ drei Datenbank-bedingt unverifizierbaren Alt-Fallzitaten (VB 94/0016, VB.2003.00
 Nr. 77), dem Baulinien-Wachposten und dem fachlich zurückgestellten [[geschosse-und-kniestock]];
 sonst regulärer `wissenscheck`-Turnus.
 
+**Run 133 (2026-08-24, ausserhalb T1-T9):** letzter fachlich zurückgestellter Modell-D-
+Kandidat [[geschosse-und-kniestock]] bearbeitet (Run-132-Empfehlung). Der bereits in Run 130
+teilweise bezogene amtliche IVHB-Leitfaden der Baudirektion Kt. ZH trägt laut eigenem
+Inhaltsverzeichnis Ziffer 5.3 «Kniestockhöhe» — vollständiges PDF neu bezogen, Seiten 27/29/
+32-33 (Ziff. 5.3/6.1/6.3) extrahiert und additiv in den bestehenden Raw-Beleg ergänzt. **Beide
+verbleibenden `speculative`-Fragen geklärt, nicht offen gelassen:** die alte
+Kniestock-Messweise-Rechtsprechung (BEZ 1987 Nr. 18/1994 Nr. 21/1997 Nr. 7) ist auf die
+harmonisierte 1,5-m-Regel NICHT übertragbar, weil sich die Messgeometrie selbst geändert hat
+(Fertigmass mit 0,4-m-Versatz → Rohbaumass ohne Versatz) — das Dämmungs-Argument bleibt aber
+in der Sache erhalten, sogar verstärkt (beide neuen Messpunkte schliessen Isolation
+ausdrücklich aus). Die alte Untergeschoss-Kasuistik (VB.2003.00051, BEZ 2009 Nr. 63) ist
+ebenfalls nicht übertragbar: VB.2003.00051 ist gegenstandslos (harmonisierte Fassung hat jetzt
+eine Zahlenformel statt der alten qualitativen Regel), BEZ 2009 Nr. 63 wird vom amtlichen
+Wortlaut sogar ausdrücklich umgekehrt (Messebene neu Fertigboden statt Rohboden — die
+bereits seit Run 130 vorhandene Seite 30 des Leitfadens war nie gegen diese Frage geprüft
+worden). Report `outputs/2026-08-24_buch-run133.md`. **Damit ist auch der letzte
+zurückgestellte Modell-D-Kandidat abgearbeitet.**
+
+**Nächster Schritt:** kein offener Modell-D-Kandidat mehr in dieser KB — verbleibend nur die
+drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate (VB 94/0016, VB.2003.00051,
+RB 1992 Nr. 77) und der Baulinien-Wachposten (PBG-Teilrevision «Baulinien», weiterhin nicht
+in Kraft). Kandidaten für einen künftigen Lauf: regulärer `wissenscheck`-Turnus, oder eine
+zweite, unabhängige Stichproben-Re-Verifikationsrunde über die längst `established` markierten
+Artikel, um Drift seit der jeweiligen Erstverifikation zu prüfen.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

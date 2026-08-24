@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## 2026-08-24c — AHB-Merkblätter 386 (Storensteuerung) und 394 (Wärmepumpen-Messkonzept) primärquellenbelegt destilliert
+
+Anschluss an die vorige Session («386 Storensteuerung und 394 Wärmepumpen-Messkonzept am ehesten
+JANS-relevant» als offener Punkt in `[[ahb-richtlinie-gebaeudetechnik-229-2025]]`). Beide PDFs
+direkt bei `stadt-zuerich.ch` gefunden (URL nach dem Muster der bereits bekannten Richtlinie-229
+erraten, per `curl` HTTP-Status/Content-Type vor dem Lesen verifiziert) und vollständig gelesen:
+386 (März 2017, 33 S., PyPDF2-Volltext) mit Storen-Funktionslogik (Produktschutz > Komfort/Energie
+> Bedienung), Grenzwerten (Frost < 2 °C/> 4 °C, Blendschutz ~25 kLux, Thermoautomatik ~250/200
+W/m²) und einer Raumtyp-Matrix inkl. **Bettenzimmer/Stationszimmer**; 394 (Juni 2020, 10 S., wegen
+weitgehend grafischem Textlayer per Bildrendering/-lesung statt Textextraktion ausgewertet) mit
+der JAZ-Formel `Q_WP / (E_WP + E_V + E_K + E_SR + E_A + E_C)` inkl. aller Hilfsbetriebe und einer
+nach Anlagengrösse (Schwelle ca. 100 kW) gestaffelten Messstellen-Pflicht. Nebenbefund: 386 und die
+bereits destillierten Raummodule `[[ahb-raummodul-buero]]`/`[[ahb-raummodul-klassenzimmer]]` (2008)
+nennen für dieselbe Frostschutzfunktion unterschiedliche Bedingungen (nur Temperatur vs. Temperatur
+UND Feuchte) — als offene Cross-Quellen-Spannung dokumentiert, nicht einseitig korrigiert. Neue
+Destillate `[[ahb-merkblatt-386-storensteuerung]]`, `[[ahb-merkblatt-394-messkonzept-waermepumpen]]`
+(beide `established`), eingearbeitet in `destillate/INDEX.md`,
+`destillate/ahb-richtlinie-gebaeudetechnik-229-2025.md`, `destillate/waermepumpe-systemvergleich.md`
+und `wiki/gebaeudetechnik-pflichtenheft.md`. Details: `wiki/QUESTIONS.md`,
+Abschnitt «AHB-Merkblätter 386 … und 394 … primärquellenbelegt destilliert».
+
 ## 2026-08-24b — Recherche-Agent: E94 (Innendämmung CHF/m²) — JANS-Archiv-Weg erschöpfend
 geprüft, weiterhin Negativbefund
 

@@ -30,6 +30,10 @@ verboten.
   die praxisrelevante Kennzahl; eine WP «macht aus 1 kWh Strom 3-5 kWh Waerme».
 - **Hebel fuer eine hohe JAZ:** tiefe **Vorlauftemperatur** (Flaechenheizung, BBV I ≤ 35 °C, vgl.
   F14), gute Quelle (Erdreich/Grundwasser stabiler als Aussenluft), saubere Dimensionierung (vgl. F13).
+- **Messung im Betrieb (nicht nur Planung):** die AHB-Stadt-Zürich-Praxis rechnet die JAZ als
+  `Q_WP / (E_WP + E_V + E_K + E_SR + E_A + E_C)` — explizit inkl. aller Hilfsbetriebe, nicht nur des
+  Kompressors — und verlangt ab ca. 100 kW Heizleistung eine getrennte Verdichter-/
+  Hilfsbetriebe-Messung, siehe `[[ahb-merkblatt-394-messkonzept-waermepumpen]]`.
 
 ## Feldbeweis (Schweizer Primaerquelle FAWA/BFE)
 Die BFE-Feldanalyse **FAWA** (236 Anlagen, 1,3 Mio. Betriebsstunden) belegt die obige Logik mit real

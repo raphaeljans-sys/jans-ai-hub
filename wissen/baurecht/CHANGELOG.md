@@ -3,6 +3,74 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 133: [[geschosse-und-kniestock]] — die beiden letzten `speculative`-Fragen der KB geschlossen (IVHB-Leitfaden der Baudirektion Kt. ZH, Kniestockhöhe/Untergeschoss-Messweise)
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (Run 87, zuletzt bestätigt
+  Run 132). Buch-Run 132 nannte als letzten fachlich zurückgestellten Modell-D-Kandidaten
+  [[geschosse-und-kniestock]] — bislang zurückgestellt, weil es drei offene
+  `speculative`-Auslegungsfragen ohne Praxis trug (kein reiner Beleg-Nachvollzug). Kein
+  paralleler Konkurrenzlauf zum Zeitpunkt dieses Laufs aktiv (`ps aux` geprüft: der
+  einzige Prozess mit demselben Reglemente-Queue-Lauf-Prompt ist dieser eigene Lauf; ein
+  weiterer Claude-Prozess arbeitet parallel an der KB `normen`, keine Kollision).
+- GEPRÜFT: Der bereits am 24.08.2026 (Buch-Run 130) teilweise bezogene amtliche
+  IVHB-Leitfaden der Baudirektion Kanton Zürich («Harmonisierung der Baubegriffe», 1.3.2017,
+  49 Seiten) enthält laut eigenem Inhaltsverzeichnis Ziffer 5.3 «Kniestockhöhe» — bislang
+  nicht bezogen. Vollständiges PDF neu von `zh.ch` heruntergeladen und mit PyMuPDF (fitz)
+  auf alle 49 Seiten durchsucht; die Seiten 27 (Kniestockhöhe, Ziff. 5.3), 29 (Vollgeschosse,
+  Ziff. 6.1) und 32-33 (Dachgeschosse, Ziff. 6.3) extrahiert und in
+  `raw/260824_amtlich_zh_ivhb-leitfaden-baudirektion.md` additiv ergänzt (S. 30
+  «Untergeschosse», Ziff. 6.2, lag bereits seit Run 130 vor, war aber nie gegen die
+  Kniestock-Fragen geprüft worden).
+- **Frage 1 aufgelöst (nicht offen gehalten): sind BEZ 1987 Nr. 18 / BEZ 1994 Nr. 21 /
+  BEZ 1997 Nr. 7 zur alten «0,4 m hinter Fassade»-Kniestock-Messweise auf die harmonisierte
+  1,5-m-Regel (§ 275 Abs. 2/5 PBG) übertragbar?** Der Leitfaden (Ziff. 5.3) beantwortet die
+  Frage direkt, indem er die Messgeometrie selbst als geändert ausweist: alt wurde 0,4 m
+  hinter der Fassade ab dem **fertigen** Dachgeschossboden bis Unterkante Dachverkleidung
+  gemessen (Fertigmass); neu (§ 275 Abs. 5 PBG) von der Oberkante des Dachgeschossbodens
+  **im Rohbau** bis zur Schnittlinie der Fassadenflucht mit der Oberkante der
+  Dachkonstruktion (Rohbaumass, kein horizontaler Versatz mehr). **Ergebnis: die drei
+  Messweise-Entscheide sind NICHT wortgleich übertragbar** (die Geometrie, an der sie
+  ansetzen, existiert nicht mehr) — RB 1993 Nr. 42 (Kniestock als konstruktionsbedingtes
+  Bauteil, eine Begriffs- statt Messweise-Entscheidung) ist davon nicht betroffen. Das in
+  derselben Frage mitgeführte **Dämmungs-Argument bleibt jedoch in der Sache erhalten,
+  sogar verstärkt:** der Leitfaden schliesst Isolation an **beiden** neuen Messpunkten
+  ausdrücklich aus (unterer Punkt: Rohbau ohne Isolation/Unterlagsböden; oberer Punkt:
+  Dachtragwerk, exklusive Isolation/Dachhaut/Unterkonstruktion).
+- **Frage 2 aufgelöst: gilt die Kasuistik zu «andere Untergeschosse, die mehrheitlich über
+  dem gewachsenen Boden liegen» (§ 276 Abs. 1 PBG alt, u.a. BEZ 2009 Nr. 63) unter der
+  harmonisierten 2,5-m-/3-m-Zahlenformel noch?** VB.2003.00051 («unerheblich, in welchem
+  Mass») ist gegenstandslos, weil § 275 Abs. 3 PBG jetzt selbst eine Zahlenformel vorgibt.
+  **BEZ 2009 Nr. 63 wird vom Leitfadenwortlaut sogar ausdrücklich umgekehrt:** «Obere
+  Messebene bildet neu die Oberkante des Fertigbodens (bisher: Oberkante des Rohbodens)»
+  — die alte Entscheidregel «gemessen wird die Betondecke [Rohboden], nicht der
+  Fertigboden» ist exakt das Gegenteil der harmonisierten Messebene. Beide Alt-Entscheide
+  damit NICHT übertragbar, aus je eigenem Grund.
+- **Dritte, weiterhin offene Frage unverändert:** VB.2003.00051 bleibt aus Datenbankgründen
+  unauffindbar (Buch-Run 126), unabhängig von ihrer jetzt geklärten inhaltlichen
+  Gegenstandslosigkeit — kein neuer Zugriffsweg gesucht, ausserhalb des Auftrags dieses Laufs.
+- GEÄNDERT `wiki/geschosse-und-kniestock.md` (zwei Abschnitte mit Auflösung ergänzt, Frontmatter
+  `last_updated`/`verifiziert`/`sources` nachgeführt, `speculative`-Marker aus dem Fliesstext
+  entfernt), `raw/260824_amtlich_zh_ivhb-leitfaden-baudirektion.md` (additiv um 3 Seiten +
+  Hinweis-Update ergänzt), `raw/_INGESTED.md` (Datei nachträglich registriert — fehlte seit
+  Run 130), `wiki/QUESTIONS.md` (beide Fragen von OFFEN auf GEKLÄRT, plus Zusammenfassungssatz
+  im Run-33-Block korrigiert), `training/KORPUS-QUEUE-thalwil-reglemente.md` (Run-133-Eintrag
+  nach etabliertem Muster).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv bzw. erwartete
+  Zeilenersetzung, keine unerwartete Löschung (`geschosse-und-kniestock.md` 57/13 — die 13
+  Löschungen sind ausschliesslich die drei ersetzten `speculative`-Sätze plus Frontmatter-
+  Ersetzung; `260824_amtlich_zh_ivhb-leitfaden-baudirektion.md` 63/6 — Hinweis-Ersetzung plus
+  reine Ergänzung; `_INGESTED.md` additiv; `QUESTIONS.md` 21/13 — Statuswechsel derselben zwei
+  Fragen plus Zusammenfassungssatz).
+- REPORT `outputs/2026-08-24_buch-run133.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9). **Damit sind alle drei
+  in [[geschosse-und-kniestock]] geführten `speculative`-Fragen bearbeitet** (zwei geklärt,
+  eine — Untergeschoss-Übertragbarkeit — war bereits Teil der jetzt aufgelösten Frage 2).
+  Verbleibend in der gesamten KB: drei Datenbank-bedingt unverifizierbare Alt-Fallzitate
+  (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77) und der Baulinien-Wachposten (PBG-Teilrevision
+  «Baulinien», weiterhin nicht in Kraft). **Kein offener Modell-D-Kandidat mehr in dieser KB.**
+  Nächster Schritt: regulärer `wissenscheck`-Turnus, oder eine zweite, unabhängige
+  Stichproben-Re-Verifikationsrunde über die längst `established` markierten Artikel, um
+  Drift seit der jeweiligen Erstverifikation zu prüfen.
+
 ## 2026-08-24 — Buch-Run 132: offene Frage aus Run 131 geschlossen — Art. 7 Ziff. 1 EMRK über österreichische RIS-Kundmachung CONFIRMED, Schweizer Fedlex bleibt an dieser Station komplett unerreichbar
 - ANLASS: Buch-Run 131 hinterliess als einzigen neuen offenen Punkt die Nichtverifizierbarkeit von
   Art. 7 Ziff. 1 EMRK an dieser Station (Fedlex liefert nur die App-Hülle). Kein paralleler

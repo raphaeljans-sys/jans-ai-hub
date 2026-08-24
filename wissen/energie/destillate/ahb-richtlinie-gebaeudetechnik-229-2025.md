@@ -197,9 +197,14 @@ Projekt ist zuerst dieses Dokument bzw. das passende Fachmerkblatt zu prüfen.
   kantonsrat.zh.ch).
 - Die referenzierten Fachmerkblätter (376 Beleuchtung, 265 Kennzeichnung, 385 PR-NIS, 386
   Storensteuerung, 389 Lithium-Ionen-Lagerung, 393/394 Bühnentechnik/Wärmepumpen-Messkonzept u. a.)
-  sind bis auf **376** (separat destilliert, siehe unten) in dieser KB noch nicht einzeln
-  destilliert — Kandidaten für einen künftigen Lauf, priorisiert nach Healthcare-Relevanz (386
-  Storensteuerung und 394 Wärmepumpen-Messkonzept am ehesten JANS-relevant).
+  sind bis auf **376, 386 und 394** noch nicht einzeln destilliert. **✓ Nachgetragen 24.08.2026:**
+  386 Storensteuerung (`[[ahb-merkblatt-386-storensteuerung]]`, established, Grenzwerte
+  Frost/Blendschutz/Thermoautomatik + Raumtyp-Matrix inkl. Bettenzimmer/Stationszimmer) und 394
+  Wärmepumpen-Messkonzept (`[[ahb-merkblatt-394-messkonzept-waermepumpen]]`, established,
+  JAZ-Definition inkl. Hilfsbetriebe + Messstellen-Staffelung nach Anlagengrösse) sind gelesen und
+  primärquellenbelegt — beide über dieselbe `stadt-zuerich.ch`-Verzeichnisstruktur gefunden wie
+  dieses Dokument. Verbleibende Kandidaten für einen künftigen Lauf: 265 Kennzeichnung, 385 PR-NIS,
+  389 Lithium-Ionen-Lagerung, 393 Bühnentechnik — geringere Healthcare-Priorität.
 - Teil 5 (Gebäudeautomation) referenziert ein eigenes «Pflichtenheft Gebäudeautomation» (Stand
   06.2025) mit eigener Dokument-Nr. — nicht Teil dieses Destillats, nicht gelesen.
 

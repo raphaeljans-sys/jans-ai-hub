@@ -133,9 +133,10 @@ exakte Treffer inkl. `content_url` zum statischen (nicht JS-gerenderten) Volltex
 
 Die beiden alten, `speculative` offenen Fragen zur harmonisierten Fassung (0,4-m-Messweise
 sinngemäss übertragbar? Kasuistik zu «andere Untergeschosse, die mehrheitlich über dem
-gewachsenen Boden liegen» unter der neuen Zahlenformel noch relevant?) bleiben unverändert
-offen — es handelt sich um echte, am Gesetzeswortlaut nicht beantwortbare Auslegungsfragen,
-keine Recherchelücken (siehe Block «Geklärt / verifiziert — 2026-07-13», unten in dieser Datei).
+gewachsenen Boden liegen» unter der neuen Zahlenformel noch relevant?) sind **am 24.08.2026
+(Buch-Run 133) geschlossen** — nicht über weitere Rechtsprechung, sondern über den amtlichen
+IVHB-Leitfaden der Baudirektion Kt. ZH, der die Messgeometrie-Änderung selbst erläutert (siehe
+Block «✅ GEKLÄRT 24.08.2026», unten in dieser Datei, und [[geschosse-und-kniestock]]).
 
 ## ✅ GEKLÄRT 2026-08-24 (Buch-Run 125) — gilt die harmonisierte § 6c-ABV-Messweise auch im Baulinienbereich? Ja; neuer aktiver Fassungsstand-Wachposten
 
@@ -2186,16 +2187,23 @@ recherchiert. Betroffener Artikel: [[fahrzeugabstellplaetze-und-parkierung]] (bl
   sich alle auf die Kniestock-Messweise-Regel und sind damit korrekt **nur der alten Fassung**
   zugeordnet — ob sie unter der harmonisierten 1,5-m-Regel (ohne Messweise-Zusatz im
   Gesetzestext) unverändert fortgelten, ist offen (`speculative`, neue Frage unten).
-- **Offen (neu):** Gilt die «0,4 m hinter Fassade»-Messweise und das Dämmungs-Argument
-  (BEZ-Praxis zur alten Fassung) sinngemäss auch für die harmonisierte 1,5-m-Kniestockregel
-  (§ 275 Abs. 2 PBG), obwohl der Gesetzeswortlaut dort keinen Messweise-Zusatz mehr enthält?
-  Keine Rechtsprechung dazu aufgefunden — bei Bedarf in einer harmonisierten Gemeinde
-  konkret abklären (Vorabklärung Bauamt, Skill `behoerden-vorabklaerung`).
-- **Offen (neu):** Ist die Kasuistik zu «andere Untergeschosse, die mehrheitlich über dem
-  gewachsenen Boden liegen» (§ 276 Abs. 1 PBG alt, u.a. BEZ 2009 Nr. 63) unter der
-  harmonisierten Fassung (dieses Zusatzkriterium existiert dort nicht mehr) noch relevant,
-  oder ausschliesslich für noch nicht harmonisierte Gemeinden? `speculative`, nicht
-  abschliessend geklärt.
+- **✅ GEKLÄRT 24.08.2026 (Buch-Run 133):** Gilt die «0,4 m hinter Fassade»-Messweise und
+  das Dämmungs-Argument (BEZ-Praxis zur alten Fassung) sinngemäss auch für die
+  harmonisierte 1,5-m-Kniestockregel (§ 275 Abs. 2 PBG)? Amtlicher IVHB-Leitfaden der
+  Baudirektion Kt. ZH (Ziff. 5.3) beantwortet die Frage direkt: die Messgeometrie selbst
+  hat sich geändert (Fertigmass mit 0,4-m-Versatz → Rohbaumass ohne Versatz, direkt an
+  der Fassadenflucht) — die drei bisher zitierten Messweise-Entscheide (BEZ 1987 Nr. 18,
+  BEZ 1994 Nr. 21, BEZ 1997 Nr. 7) übertragen sich NICHT wortgleich, das Dämmungs-Argument
+  bleibt aber in der Sache erhalten (beide neuen Messpunkte schliessen Isolation
+  ausdrücklich aus). Details und Beleg: [[geschosse-und-kniestock]].
+- **✅ GEKLÄRT 24.08.2026 (Buch-Run 133):** Ist die Kasuistik zu «andere Untergeschosse,
+  die mehrheitlich über dem gewachsenen Boden liegen» (§ 276 Abs. 1 PBG alt, u.a.
+  BEZ 2009 Nr. 63) unter der harmonisierten Fassung noch relevant? Amtlicher IVHB-Leitfaden
+  (Ziff. 6.2, bereits seit Run 130 im Raw-Bestand, aber nie gegen diese Frage geprüft):
+  VB.2003.00051 ist gegenstandslos (die harmonisierte Fassung hat jetzt eine Zahlenformel
+  statt der alten qualitativen Regel), BEZ 2009 Nr. 63 wird vom Wortlaut ausdrücklich
+  umgekehrt (Messebene neu Fertigboden statt Rohboden). Beide Alt-Entscheide NICHT
+  übertragbar. Details und Beleg: [[geschosse-und-kniestock]].
 
 ## Geklärt / verifiziert — 2026-07-12 (Buch-Run 32, Phase 3 · Modell-D Volltextabgleich, 5 Komplexe)
 - **✅ §§ 278-293 PBG (Fassadenhöhe/Gesamthöhe/Hochhaus/Dachaufbauten) — [[abstaende-und-hoehen]] KORRIGIERT:**
