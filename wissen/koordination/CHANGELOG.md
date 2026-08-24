@@ -2,6 +2,47 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-24 — Synergie-Lauf 17 (Tagestakt): der Fachentscheid und sein unbemerkter Zweitbeleg
+
+Delta-Basis 23.08.2026 17:10, Fenster 23,8 h, **177 Commits**, HEAD `0a27fab4`. Uhr-Check
+bestanden (Station 17:10 CEST vs. nativer Synology-Log 17:00:05). Strukturelles Delta
+vorhanden (4 geaenderte SKILL.md, CLAUDE.md, drei Rules), darum voller Lauf.
+
+**Drei neue Eintraege:**
+
+- **SYN-44** (Typ 3, umgesetzt): Die q-Korrektur im Skill `honorarberechnung-sia102`
+  (`7e389361`, Geldfolge 13-17 % zu tiefer Faktor bei Spitaelern) bekraeftigt den offenen
+  Norm-Vorbehalt «Symbol `n` statt `q`». Genau dazu liegt seit Wochen ein unabhaengiger
+  Zweitbeleg im Haus — `planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`
+  §5 fuehrt «n = 0.7-1.3» nach AHB Stadt Zuerich plus fuenf Faktoren, die der Skill nicht hat
+  (r, i, s, Umbauzuschlag, Reduktionstabelle Fachplaner-Beizug). Der Artikel adressiert den
+  Skill zweimal namentlich, der Skill hatte 0 Treffer. Querverweis gesetzt, mit der Trennung
+  Bauherren-Vorgabe (bindet nur bei AHB-Auftraegen) vs. Norm-Beleg; Honorarwerte unangetastet.
+- **SYN-45** (Typ 1, umgesetzt): Von 19 KBs mit eigener `CLAUDE.md` war `claude-code` als
+  **einzige** nicht in der KB-Liste der `CLAUDE.md` — bei 6 Artikeln, letzter Aenderung
+  22.08. und 0 Verweisen aus Skills/Agenten/importierten Rules. `WISSEN-CLAUDE.md` fuehrt gar
+  keine KB-Liste, der Wegweiser war also der einzige Weg. Einzeiler nachgetragen, danach alle
+  19 gelistet (nachgemessen).
+- **SYN-46** (Typ 3, offen, **Entscheid Raphael**): Der neue `tailscale-waechter` fehlt in
+  `rollen-map.tsv` — die Gegenprobe zeigte aber, dass auch `lauf-gate`, `speicher-waechter`
+  und `stationen-watchdog` fehlen und die fuenf registrierten Scripts ausnahmslos Mess-Scripts
+  sind. Gattungsluecke, kein Regelverstoss (die Rule nennt nur Skills/Agenten/Loops). Bewusst
+  nicht gesetzt: das Register ist von Hand gepflegt, die Aufnahme einer Gattung ist eine
+  Taxonomie-Entscheidung.
+
+**Geprueft, ohne Befund:** `brandschutz` ↔ BSR 103-15 (Kante zeigt korrekt zur Quelle),
+`twin` (Blind-Zuschnitt beidseitig), Agent `honorar-angebotspruefung` (keine eigenen q-Werte),
+KB `architektur-fachwissen` (ordentlich eingetragen).
+
+**Operativer Nebenbefund, an die Betriebsschicht:** nativer Selfcommit scheitert seit ~12:45
+an einem Rebase-Konflikt, NAS-Repo `voraus 19 / hinterher 51`; kein Rebase-Rest im
+Arbeitsbaum. Gehoert in Chronik und Fristen-Register.
+
+Geaenderte Dateien: `SYNERGIE-REGISTER.md` (3/0 Tabellenzeilen + Fussnote, 43/46 Zeilen,
+706/775), `skills/honorarberechnung-sia102/SKILL.md` (12/0), `CLAUDE.md` (2/1). Kein globales
+Suchen-und-Ersetzen, keine Datei hat Zeilen verloren. Bericht:
+`outputs/2026-08-24_synergie-lauf-17.md`.
+
 ## 2026-08-24 — Wissens-Chef Run 41: eine KI-Rechnung als Benchmark, und eine KB ohne Register
 
 Lauffenster 23.08.2026 23:13 bis 24.08.2026 (Mitternacht ueberschritten). Delta-Basis

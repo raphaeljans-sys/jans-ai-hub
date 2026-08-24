@@ -252,7 +252,8 @@ Aktuelle KBs (Details in der jeweiligen `<kb>/CLAUDE.md`): `baurecht` (Pilot + B
 `archiv-fachwissen`; bisher nur Inventar, noch kein Destillat — Sperren fuer Vertraege,
 Bewerbungen und Adressdaten siehe deren CLAUDE.md und Rule `auto-verbesserungen` 260823),
 `bauprodukte` (neu 28.07.2026, wird aus `/Volumes/daten/03 Bauprodukte_BKP` destilliert — Skill
-`wissens-destillat`, Reihenfolge in dessen `KORPUS-QUEUE.md`).
+`wissens-destillat`, Reihenfolge in dessen `KORPUS-QUEUE.md`), `claude-code` (Wissen ueber das
+Werkzeug selbst: Faehigkeiten, Kontextmechanik, Release-Funde; nachgetragen 24.08.2026).
 
 Lern-Loops: als Scheduled Tasks im Nachtfenster (Takt-Zustand siehe Rule auto-verbesserungen
 260714); Programme unter `wissen/<kb>/training/PROGRAMM.md`. Monatlicher Health-Check:

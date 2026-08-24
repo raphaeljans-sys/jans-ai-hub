@@ -155,6 +155,18 @@ Beleg: `wissen/normen/destillate/sia-102-2014.md` (status `established`, Zuordnu
 S. 45-48 verifiziert). Solange der Fachentscheid offen ist: die Skala unten als bürointern
 kennzeichnen, nicht als «nach SIA 102» ausweisen.
 
+**Zweitbeleg aus der Praxis (nachgetragen 24.08.2026, Synergie-Lauf 17):** Das Amt fuer
+Hochbauten der Stadt Zuerich rechnet in seinen Projektstandards ebenfalls mit dem Symbol **n**
+und der Bandbreite **n = 0.7-1.3** (SIA 102/103/108) — also mit der Norm-Lesart, nicht mit der
+Tabelle unten. Dort stehen zudem Faktoren, die dieser Skill nicht fuehrt: Anpassungsfaktor r,
+Teamfaktor i, Sonderleistungsfaktor s (1.0, ausserordentlich bis 1.5), Zuschlag
+Umbau/Denkmalpflege/unter Betrieb max. 50 % (SIA 102/1) sowie die Reduktionstabelle der
+aufwandbestimmenden Baukosten bei Beizug von Fachplanenden (Elektro/HLKKS max. 30 %, Fassade
+50 %, Grosskuechen 50-75 %). Fundstelle:
+`wissen/planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §5
+(«Honorarwesen AHB», status `established`). **Bindend nur bei AHB-Auftraegen** — es ist eine
+Bauherren-Vorgabe, kein Norm-Beleg; den Norm-Beleg traegt weiterhin das Destillat oben.
+
 | Kategorie | q | Beispiele |
 |---|---|---|
 | I (sehr einfach) | 0.7 | Lager, Industriehallen ohne Ausbau |
