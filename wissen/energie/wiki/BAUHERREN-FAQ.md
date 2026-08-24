@@ -4062,29 +4062,33 @@ unverändert die heutige Frist: im **Kt. ZH bis 2030** (§ 10b Abs. 3 EnerG), im
 (§ 22a kEnG, nur für zentrale Anlagen mit Wasserverteilsystem).
 
 **Fachliche Begründung:** Art. 5.1 MuKEn 2025 (Modul 5, «Sanierungspflicht dezentraler
-Elektroheizungen») lautet: «Bestehende ortsfeste elektrische Widerstandsheizungen sind innerhalb
-von 5 Jahren nach Inkraftsetzung **dieses Gesetzes** durch Heizungen zu ersetzen, die den
-Anforderungen dieses Gesetzes entsprechen.» Gemeint ist das kantonale Gesetz, das Modul 5
-übernimmt, nicht die MuKEn-2025-Verabschiedung durch die EnDK am 29.08.2025 selbst. Modul 5 ist
-zudem ein **optionales** Modul (nicht Teil des für alle Kantone verbindlichen Basismoduls); ob und
-wann Ihr Kanton es übernimmt, ist offen. Zusätzliche Unsicherheit: Modul 5 zielt laut Titel primär
-auf **dezentrale** Anlagen (mutmasslich ohne Wasserverteilsystem) — das deckt sich nicht exakt mit
-den heutigen kantonalen Regelungen (ZH erfasst alle Anlagen inkl. zentraler Wassererwärmer, SZ nur
-zentrale Anlagen mit Wasserverteilsystem); wie eine künftige kantonale Umsetzung die Anlagetypen
-differenziert, ist heute nicht geklärt. Wichtig für die Planung: Zuwarten ist kein Freibrief, das
-Bundesgericht hat die grundsätzliche Zulässigkeit einer solchen Sanierungspflicht bereits 2023
-bestätigt (BGer 1C_37/2022), und eine spätere kantonale Verkürzung auf 5 Jahre ist nicht
-ausgeschlossen.
+Elektroheizungen»), Wortlaut seit 24.08.2026 direkt am PDF-Original verifiziert: «Bestehende
+ortsfeste elektrische Widerstandsheizungen **ohne Wasserverteilsystem** zur Gebäudeheizung
+(dezentrale Einzelspeicheröfen, Elektrodirektheizungen, Infrarotstrahler etc.) sind innerhalb von
+5 Jahren nach Inkraftsetzung **dieses Gesetzes** durch Heizungen zu ersetzen, die den Anforderungen
+dieses Gesetzes entsprechen.» Gemeint ist das kantonale Gesetz, das Modul 5 übernimmt, nicht die
+MuKEn-2025-Verabschiedung durch die EnDK am 29.08.2025 selbst. Art. 5.2 befreit zusätzlich
+Nassräume/WC, Kirchen, Gebäude ≤ 3 kW oder < 50 m² elektrisch beheizter Fläche (EBF) sowie
+Notheizungen nach Art. 1.14 Abs. 2-4. Modul 5 ist zudem ein **optionales** Modul (nicht Teil des
+für alle Kantone verbindlichen Basismoduls); ob und wann Ihr Kanton es übernimmt, ist offen. Der
+Geltungsbereich «ohne Wasserverteilsystem» steht jetzt fest im Gesetzestext selbst (nicht mehr nur
+vermutet aus dem Modultitel) und deckt sich nicht exakt mit den heutigen kantonalen Regelungen: ZH
+erfasst alle Anlagen inkl. zentraler Wassererwärmer, SZ nur zentrale Anlagen mit
+Wasserverteilsystem — eine reine Modul-5-Übernahme würde in beiden Kantonen eine zusätzliche
+Regel brauchen, um den heutigen Geltungsbereich beizubehalten. Wichtig für die Planung: Zuwarten
+ist kein Freibrief, das Bundesgericht hat die grundsätzliche Zulässigkeit einer solchen
+Sanierungspflicht bereits 2023 bestätigt (BGer 1C_37/2022), und eine spätere kantonale Verkürzung
+auf 5 Jahre ist nicht ausgeschlossen.
 
-**Quelle + Datenstand:** MuKEn 2025 Art. 5.1 (EnDK, 29.08.2025, via energiehub-gebäude.ch,
-WebFetch 18.07.2026, Kreuzverifikation gegen primärquellen-gelesenes Schwesterdestillat
-`[[muken-2025-verabschiedet]]`, Run 74, curl+pdftotext); Web-Recherche Umsetzungsstand ZH/SZ
-18.07.2026 (Kantonsrat-ZH-Geschäftsdatenbank, sz.ch-Vernehmlassungsliste, RRB Nr. 632/2025), 
+**Quelle + Datenstand:** MuKEn 2025 Art. 5.1/5.2 (EnDK, 29.08.2025) — Wortlaut seit 24.08.2026
+direkt am PDF-Original verifiziert (curl+pdftotext, energiehub-gebaeude.ch/wp-content/uploads/2025/
+09/MuKEn2025_d-2025-08-29.pdf, S. 76/117), zuvor 18.07.2026 nur via Sekundärauszug (dieser hatte die
+Klausel «ohne Wasserverteilsystem» ausgelassen — korrigiert); Web-Recherche Umsetzungsstand ZH/SZ
+18.07.2026 (Kantonsrat-ZH-Geschäftsdatenbank, sz.ch-Vernehmlassungsliste, RRB Nr. 632/2025),
 Negativbefund, keine laufende Modul-5-Umsetzung gefunden. Destillat
 `[[elektroheizungs-ersatzpflicht-zh-sz]]`, Abschnitt «MuKEn 2025 Modul 5 — Verkürzung der
-Übergangsfrist». Status **established** für den Negativbefund «noch nicht kantonal umgesetzt»;
-**emerging** für den exakten Geltungsbereich von Art. 5.1 (nur Sekundärauszug gelesen, nicht selbst
-am PDF-Original nachgeprüft).
+Übergangsfrist». Status **established** — sowohl für den Negativbefund «noch nicht kantonal
+umgesetzt» als auch für den Wortlaut/Geltungsbereich von Art. 5.1/5.2 (jetzt primärquellenbelegt).
 
 ## F99 — «Darf ich meine kaputte Öl-/Gasheizung einfach wieder durch Öl/Gas ersetzen?»
 

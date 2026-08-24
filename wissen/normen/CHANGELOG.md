@@ -1,3 +1,31 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: elfter Lauf — Sättigung ein elftes Mal bestätigt
+
+**Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report
+des zehnten Laufs (10:06 Uhr) zuerst gelesen.
+
+**Vorgehen:** 32 offene `- [ ]`-Zeilen unverändert. Statt die im zehnten Lauf bereits
+vertieften zwei Kandidaten zu wiederholen, wurden acht bisher nicht im Volltext geprüfte
+Punkte gelesen: Cross-Contamination-Notiz, doppelte Run-Nummer 21, Duplikate-Merge (destruktiv,
+Rückfrage-Fall), Workflow-Tool-Notiz, Strukturhinweis Run 8 (Fassungspflege), «modale
+Überdehnung» (23/73 Befunde), sowie die vier VSS/SIA-Bring-Schulden aus `baurecht` (SIA 491,
+SN EN 12193, SN 640 052, SN 641 400) und die fünf SIA-Bring-Schulden P1 (380/1, 385/1, 266/1,
+118:2013, 181:2020). Alle acht bestätigen dieselbe Kategorisierung wie die Gesamtliste im
+zehnten Lauf — kein neuer, mit Primärquellenlektüre lösbarer Rest.
+
+**Ergebnis:** Elfte Bestätigung in Folge. Die 32 Checkboxen bleiben durchgehend (a)
+Bring-Schuld/Kaufentscheid Raphael, (b) Strukturentscheid Raphael (destruktive Merges), (c)
+genuine Quell-Ambiguitäten (bereits mehrfach erfolglos web-recherchiert), (d) Betriebs-/
+Methodennotizen über den Loop selbst, oder (e) bewusst erhaltener Ursprungswortlaut bereits
+geschlossener Punkte.
+
+**Eskalation an Raphael (im Report ausformuliert):** drei konkrete Freigaben würden den
+Bestand tatsächlich verkleinern — (1) SIA-Shop-Käufe (380/1, 385/1, 266/1, 118:2013, 181:2020,
+491), (2) Freigabe der vier destruktiven VKF-Duplikat-Merges, (3) alternativ: Abdeckungsrichtung
+der VKF-Delta-Destillate prüfen (REGISTER Abschnitt D) statt weiterer QUESTIONS-Läufe.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` unverändert (alle acht Punkte bereits korrekt
+klassifiziert). Report: `outputs/2026-08-24_questions-abarbeitung-elfter-lauf.md`.
+
 ## 2026-08-24 — SIA-Sweep: vierzehnte unabhängige Sättigungsverifikation (10:05 Uhr) — weiterhin 59 Register-/6 Inventar-Zeilen offen, keine Änderung
 
 **Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
