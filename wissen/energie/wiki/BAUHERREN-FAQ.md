@@ -3160,19 +3160,25 @@ Fachplaner-Dimensionierung.
 **Fachlich:** Für den rechtlich massgebenden Energienachweis gelten die SIA-380/1-Tabelle-27-
 Werte der Kategorie VIII (22 °C, 30 m²/Person, 80 W/Person, 1.0 m³/(h·m²) Aussenluft). SIA
 2024:2021 liefert daneben feinere Raumnutzungsdaten (Bettenzimmer/Stationszimmer/Behandlungsraum)
-für die technische Auslegung von Heizung/Kühlung/Lüftung durch die Fachplaner — Volltext
-kostenpflichtig, aber die Systematik (Flächenanteile, Lüftungs-Volllaststunden) ist über
-SIA-Grundlagenberichte belegt. Wichtig: **Operationssäle und CT/MRT-Diagnostikräume sind durch
-SIA 2024 explizit NICHT abgedeckt** und brauchen eine eigene, projektspezifische Auslegung
-(Medizintechnik-Fachplaner) — dort steckt in der Kostenschätzung oft das grösste Risiko, weil
-allein die Prozessanlagen im Behandlungsraum 28–38 % des Raum-Elektrizitätsbedarfs ausmachen
-können.
+für die technische Auslegung von Heizung/Kühlung/Lüftung durch die Fachplaner. Seit der Korrigenda
+SIA 2024-C2:2025 (gültig ab 1.6.2025, kostenlos) liegen dafür konkrete, primärquellenbelegte
+Kennwerte pro m² vor: **Klimakälte-Leistung Standard 31.9 W/m² Bettenzimmer, 64.6 W/m²
+Stationszimmer, 60.2 W/m² Behandlungsraum** — Stationszimmer/Behandlungsraum brauchen also rund
+doppelt so viel Kühlleistung pro m² wie das Bettenzimmer. Beim Warmwasser ist es umgekehrt: das
+Bettenzimmer trägt mit 67.7 kWh/m²·a den mit Abstand höchsten Bedarf (Stations-/Behandlungsraum:
+0). Wichtig: **Operationssäle und CT/MRT-Diagnostikräume sind durch SIA 2024 explizit NICHT
+abgedeckt** und brauchen eine eigene, projektspezifische Auslegung (Medizintechnik-Fachplaner) —
+dort steckt in der Kostenschätzung oft das grösste Risiko, weil allein die Prozessanlagen im
+Behandlungsraum mit 15 W/m² (Standard) einen eigenen, spürbaren Leistungsblock bilden, der bei
+OP-/Diagnostikräumen um ein Vielfaches höher liegen kann.
 
 **Quelle:** SIA Grundlagenbericht SIA 2024:2021 (20.10.2024), SIA/EnFK-Statusbericht
-Harmonisierung (2019), EnFK-Anforderungsprofil SIA 380/1:2016 (Version 16.01a) →
-`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`. Status **emerging** (Gebäudekategorie- und
-Lüftungskennwerte primärquellennah belegt; vollständige Raumdatenblätter Anhang A nur
-kostenpflichtig zugänglich).
+Harmonisierung (2019), EnFK-Anforderungsprofil SIA 380/1:2016 (Version 16.01a), **SIA 2024-C2:2025
+Korrigenda (gültig ab 1.6.2025, gelesen 24.08.2026)** →
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`. Status **emerging** (Gebäudekategorie-,
+Lüftungs- und jetzt auch Energie-/Leistungsbedarf-Kennwerte für 8.01-8.03 primärquellenbelegt;
+vollständige Raumdatenblätter Anhang A mit allen Eingabeparametern nur kostenpflichtig
+zugänglich).
 
 ---
 
@@ -4203,6 +4209,16 @@ aus dem Strommodell übernommen; die Prozessanlagen-Leistung des Behandlungsraum
 SIA 2024:2021 Anhang F selbst ist kostenpflichtig und lag nicht vor — die Werte sind aus dem
 offiziellen SIA-Grundlagenbericht zu genau dieser Revision rekonstruiert (belegter Analogieschluss),
 nicht am bezahlten Normtext abgelesen; für einen konkreten Bewilligungsfall gehört die Norm gekauft.
+✓ **Nachtrag 24.08.2026:** Die Korrigenda SIA 2024-C2:2025 (kostenlos, gültig ab 1.6.2025) liefert
+jetzt den tatsächlichen, aktuellen Anhang-F-Wert (Tab. 20) — und der zeigt Kategorie VIII weiterhin
+**undifferenziert als eine Spalte «Spital»**, keine VIII.1/VIII.2-Aufteilung: Elektrizität gesamt
+Standard 34.3 kWh/m²EBF·a (Geräte 8.5 + Beleuchtung 9.9 + Lüftung 5.1 + Prozessanlagen 2.6 + Allg.
+Gebäudetechnik 8.2), Heizwärme 10.4, Warmwasser 21.8. Das bestätigt die Grössenordnung der hier
+rekonstruierten VIII.1/VIII.2-Werte (34.3 liegt plausibel zwischen 36 und 30), zeigt aber: die Norm
+selbst unterscheidet auf Gebäudekategorie-Ebene NICHT zwischen Akutspital und Pflegeheim — die
+VIII.1/VIII.2-Trennung existiert nur auf Raumnutzungs-Ebene (8.01-8.03) und in der
+Flächenanteile-Tabelle des Statusberichts (Entwurfsstand 2019). Details:
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`.
 Die frühere Angabe «50–90 Pflegeplätze» wurde **gestrichen**: sie war aus den Schwellen nicht
 rekonstruierbar (mit dem einzigen genannten Flächenkennwert von 93 m²EBF/Platz ergäben sich 33–72
 Plätze), stand im Widerspruch zur eigenen Quelle (das Destillat rechnet 34–75 Plätze) und stützte

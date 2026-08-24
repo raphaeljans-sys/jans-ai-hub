@@ -2314,7 +2314,7 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); die uebrigen Bestaende (L41-4, GVZ G41-1/G41-2, H41-2, restliche PAVIDENSA-Punkte) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); H41-2 Fundstelle identifiziert 24.08.2026 (SIA 500:2009 Anhang H nennt «Merkblatt Nr. 7, Rollstuhlgaengigkeit bei Sonderbauten» der Fachstelle FABB — Zahlenwert bleibt Bring-Schuld/Rueckfrage, kein SIA-Kauf); die uebrigen Bestaende (L41-4, GVZ G41-1/G41-2, restliche PAVIDENSA-Punkte) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -2548,6 +2548,32 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **H41-2** Das Mass der «erhöhten Anforderungen» für **Sonderbauten** (Spitäler, Alters- und
   Behindertenheime) gegenüber SN 521 500 — im Dokument nicht beziffert. Für JANS mit
   Healthcare-Schwerpunkt der wichtigste offene Punkt dieses Bestands.
+
+  > **Fundstelle identifiziert, Zahlenwert bleibt Bring-Schuld (24.08.2026, QUESTIONS-Abarbeitung).**
+  > SIA 500:2009 vollständig am Original geprüft (`pdftotext -layout` über das gesamte Dokument,
+  > nicht nur den in `destillate/sia-500-2009.md` bereits gelesenen Ziff.-0-12-Teil) —
+  > **Ziff. 0.1.5, S. 5** wörtlich: «Diese Norm ist nicht hinreichend für Bauten zur Pflege und
+  > Betreuung von Personen, wie Spitäler, Rehabilitationsstätten, Wohn- und Pflegeheime sowie
+  > Alterswohnungen u.ä. Für solche Bauten sind die spezifischen, dem jeweiligen Zweck
+  > entsprechenden Anforderungen vorrangig.» SIA 500 selbst — heute die massgebende Norm anstelle
+  > von SN 521 500:1988, siehe H41-1 oben — beziffert die erhöhten Anforderungen damit **nicht**
+  > und kann es nach eigenem Geltungsbereich auch nicht: Sonderbauten sind ausdrücklich
+  > ausgenommen, nicht nur strenger geregelt.
+  >
+  > **Die tatsächliche Fundstelle steht im bisher ungelesenen Anhang H «Publikationen»
+  > (S. 59, TOC-Eintrag S. 3, jetzt durch Volltextsuche über das ganze PDF erschlossen):** die
+  > Publikationsliste der Schweizerischen Fachstelle für behindertengerechtes Bauen FABB, Zürich
+  > (heute Zollstrasse 115, 8005 Zürich — Adresse siehe H41-3-Klärung unten) nennt namentlich
+  > **«Merkblatt Nr. 7, Rollstuhlgängigkeit bei Sonderbauten»**. Das ist exakt das gesuchte
+  > Dokument. Es liegt in dieser KB nicht vor (weder im SharePoint-Bestand `02_Recht_Norm`
+  > geprüft noch sonst bekannt) und gehört zur selben Publikationsfamilie wie die in H41-4 bereits
+  > als fehlend dokumentierten Merkblätter 14/04 und 15/04 derselben Fachstelle.
+  > **Nächster Schritt (Bring-Schuld/Rückfrage, KEIN SIA-Kauf nötig, evtl. kostenlos
+  > erhältlich):** Merkblatt Nr. 7 direkt bei der Fachstelle anfragen
+  > (fachstelle@hindernisfreie-architektur.ch, 044 299 97 97 — Kontaktdaten aus H41-4 bereits
+  > recherchiert) oder auf `hindernisfreie-architektur.ch` unter den Planungshilfen suchen; nach
+  > Beschaffung destillieren. Fällt unter die Mail-Versand-Sperre (User-CLAUDE.md „Grenzen"),
+  > nicht selbständig ausgelöst.
 - **H41-3** Adressüberschneidung: die Schweizerische Fachstelle für behindertengerechtes Bauen
   und die BKZ-Bauberatung teilen Kernstrasse 57, 8004 Zürich, führen aber verschiedene
   Telefonnummern. Ko-Lokation, Trägerschaft oder Zufall? Aus den Dokumenten nicht klärbar.

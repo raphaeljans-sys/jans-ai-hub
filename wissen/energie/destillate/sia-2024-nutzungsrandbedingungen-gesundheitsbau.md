@@ -380,12 +380,22 @@ Für einen Bauherrn/Betreiber eines Pflegeheims oder Spitals in ZH/SZ heisst das
 
 ## Offene Punkte
 
-- Der **Volltext von SIA 2024:2021 Anhang A/F** (die eigentliche Normtabelle mit allen ca. 45
-  Raumnutzungen und den zugehörigen finalen Zahlenwerten für Kategorie VIII) ist kostenpflichtig im
-  SIA-Shop und lag für diese Recherche nicht vor — alle Zahlen stammen aus dem frei zugänglichen,
-  nicht-normativen Grundlagenbericht (der laut eigener Aussage «zusätzliche Informationen» liefert, aber
-  die Normtabelle selbst nicht vollständig abdruckt). Bei einem konkreten Bauvorhaben ist der bezahlte
-  Normtext zu konsultieren.
+- **Teilweise geschlossen 24.08.2026:** Der **Volltext von SIA 2024:2021 Anhang A/F** (Raumdatenblätter
+  mit allen Eingabeparametern wie Personendichte, Betriebszeiten je Raumnutzung) ist weiterhin
+  kostenpflichtig im SIA-Shop und lag für diese Recherche nicht vor. **Die Ergebnistabellen selbst
+  (Tab. 4–9, 11, 14–17, 20 — Energie-/Leistungsbedarf pro Raumnutzung und pro Gebäudekategorie) sind
+  aber seit der Korrigenda SIA 2024-C2:2025 (gültig ab 1.6.2025) kostenlos zugänglich** und wurden
+  24.08.2026 primärquellen-gelesen, siehe neuer Abschnitt oben. Für die eigentlichen
+  Bemessungs-Eingabeparameter (Personendichte, Betriebsstunden-Profile im Detail) bleibt der bezahlte
+  Normtext bei einem konkreten Bauvorhaben zu konsultieren.
+- **Energytools.ch selbst bleibt technisch nicht direkt nutzbar** (bestätigt 24.08.2026): die Domain
+  liefert einen 301-Redirect auf `sia.ch/de/cms/dienstleistungen/normenundordnungen#15152`, eine
+  JS-Single-Page-App ohne im Extrakt sichtbaren Tool-Link (gleiche Werkzeuggrenze wie an anderer
+  Stelle in dieser KB bei `stadt-zuerich.ch/egt` und `kantonsrat.zh.ch`) — das kostenlose Excel-Tool
+  «SIA2024_Raumdatenblätter», das die Korrigenda selbst als Fundort nennt, war so nicht erreichbar.
+  Als Alternative wurde stattdessen die Korrigenda-PDF selbst gefunden und gelesen (siehe oben) — sie
+  deckt die Ergebnistabellen ab, nicht aber die vollen Raumdatenblätter mit Eingabeparametern, die nur
+  im Excel-Tool oder im bezahlten Merkblatt stecken.
 - Die im Statusbericht 2019 gezeigte «harmonisierte» Tabelle 4 (Personenfläche 20 m²/P, Präsenzzeit 12 h,
   Wärmeabgabe 70 W/P für Kategorie VIII) ist ein **Vernehmlassungsvorschlag von 2019** — ob und wie er in
   die schliesslich verabschiedete SIA 2024:2021 eingeflossen ist, liess sich aus dem Grundlagenbericht
@@ -409,9 +419,9 @@ Für einen Bauherrn/Betreiber eines Pflegeheims oder Spitals in ZH/SZ heisst das
 - **Keine kantonale ZH/SZ-Vollzugshilfe gefunden**, die SIA 2024 (statt SIA 380/1) für Nichtwohnbauten
   ausdrücklich vorschreibt; beide Kantone beziehen sich auf ihren Übersichtsseiten primär auf
   SIA 380/1:2016. Vollzug seit 1.1.2026 in beiden Kantonen über die gemeinsame Plattform EVEN.
-- **energytools.ch** (SIA-2024-Excel-Raumdatenblätter, seit 2024 grösstenteils gratis) war technisch nicht
-  direkt abrufbar (Redirect ohne Zielinhalt) — in einer späteren Session direkt auf sia.ch zu prüfen; wäre
-  der günstigste Weg an die Raumdatenblätter 8.01–8.03, ohne den kostenpflichtigen Normtext.
+- **energytools.ch selbst — erledigt, siehe oben** («Teilweise geschlossen 24.08.2026»): direkter
+  Zugriff bleibt technisch verschlossen, aber die Korrigenda C2:2025 liefert die Ergebnistabellen als
+  Ersatzweg kostenlos.
 - **OP-Saal/Reinraumklima-Grenzwerte** (Luftwechselraten, Druckstufen, Feuchte) sind ausdrücklich NICHT
   Gegenstand von SIA 2024 (dort explizit ausgeklammert) — dafür wäre eine andere Fachnorm/-richtlinie
   (Spitalhygiene, SWKI-Richtlinien Reinraumtechnik) zu konsultieren; das liegt ausserhalb dieser Recherche
@@ -429,6 +439,12 @@ Für einen Bauherrn/Betreiber eines Pflegeheims oder Spitals in ZH/SZ heisst das
   auf SIA 382/1 Ausgabe 2014).
 - SIA-Shop-Produktseiten SIA 2024:2015/2021/C1 (Metadaten zu Ausgaben/Ersetzungen, nicht im Volltext
   zugänglich): `shop.sia.ch/normenwerk/architekt/sia%202024/...`.
+- **SIA 2024-C2:2025 «Korrigenda C2 zum Merkblatt SIA 2024:2021»**, gültig ab 1.6.2025, 15 S.,
+  deutsche Fassung SNR 592024:2021-C2:2025 de, gefunden und vollständig gelesen 24.08.2026 über
+  `shop.sia.ch/bf2a2d6f-443c-47e0-b73a-5c7a5060ed31/D/DownloadAnhang` (curl, `Content-Type:
+  application/pdf` vor Auswertung geprüft, kein Login/Bezahlvorgang nötig); französische Fassung
+  parallel geladen zur Kontrolle (`shop.sia.ch/bc29e473-de43-4240-ba53-dc27f6bdb0bf/F/DownloadAnhang`,
+  identische Zahlenwerte).
 - Bereits vorhandenes KB-Destillat [[sia-380-1-standardnutzungswerte-tab24-25]] (Kreuzverifikation der
   Kategorie-VIII-Werte aus SIA 380/1 Tab. 24/25).
 - Bereits vorhandenes KB-Destillat [[en-zh-nachweis-uebersicht]] (EN-111-Beleuchtungspflicht

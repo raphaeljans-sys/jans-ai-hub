@@ -1,5 +1,50 @@
 # CHANGELOG
 
+## 2026-08-24f — SIA 2024-C2:2025-Korrigenda gefunden: freie Energie-/Leistungsbedarfswerte für Bettenzimmer/Stationszimmer/Behandlungsraum
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. **Betriebslage:** ein weiterer
+paralleler Lauf desselben Prompts lief bereits (andere PID, 6 Min. früher gestartet, laut
+Zwischenstand in `/tmp/ahb-merkblaetter/` an den AHB-Fachmerkblättern 265/385/389/393, siehe
+24.08.24d/e) — bewusst ein anderer, unblockierter Punkt gewählt.
+
+**`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`** (63 Backlinks, meistzitiertes
+Gesundheitsbau-Destillat, Status emerging) hatte einen konkret benannten offenen Punkt:
+energytools.ch (kostenlose SIA-2024-Raumdatenblätter) war technisch nicht abrufbar. energytools.ch
+bleibt bestätigt tot (301-Redirect auf eine JS-SPA), aber über `shop.sia.ch` wurde die **Korrigenda
+SIA 2024-C2:2025** (gültig ab 1.6.2025) gefunden — ersetzt die Tabellen 4–9/11/14–17/20 des
+Merkblatts vollständig und ist, anders als das Merkblatt selbst, **kostenlos** (eigener Hinweis im
+Dokument). Deutsche + französische Fassung geladen (`shop.sia.ch/<GUID>/D|F/DownloadAnhang`, kein
+Login/Bezahlvorgang), beide vollständig mit PyPDF2 gelesen und wertegleich verglichen.
+
+**Zwei primärquellenbelegte Funde:**
+1. Konkrete Energie-/Leistungsbedarfswerte (Standard/Ziel/Bestand) für 8.01 Bettenzimmer, 8.02
+   Stationszimmer, 8.03 Behandlungsraum — schliesst den Punkt «kein W/m²-Kennwert für
+   Klimakälteleistung Spital/Pflege gefunden» (31.9/64.6/60.2 W/m² Standard). Reconciliation: die
+   Grundlagenbericht-Zahl «Behandlungsraum-Elektrizität gesamt 120 kWh/m²» ist durch C2:2025 auf
+   93.7 kWh/m² korrigiert (echte Normkorrektur zwischen Okt. 2024 und 1.6.2025, kein KB-Fehler).
+2. Anhang F (Tabelle 20) führt Kategorie VIII weiterhin **undifferenziert als eine Spalte
+   «Spital»** (34.3 kWh/m²EBF·a Elektrizität Standard) — relativiert die an anderer Stelle in
+   dieser KB aus dem Grundlagenbericht rekonstruierten Werte «VIII.1≈36/VIII.2≈30»: plausibel
+   bestätigt in der Grössenordnung, aber die Norm selbst differenziert auf Gebäudekategorie-Ebene
+   nicht zwischen Akutspital und Pflegeheim.
+
+Eingearbeitet: `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (neuer Abschnitt,
+zwei offene Punkte geschlossen/präzisiert, Frontmatter, Quellen), `destillate/INDEX.md` (Zeile
+präzisiert), `wiki/BAUHERREN-FAQ.md` (F78 mit Kennwerten ergänzt, Run-80-Stelle um Nachtrag
+ergänzt), `wiki/QUESTIONS.md` (neuer Abschnitt).
+
+**Für den nächsten Lauf:** Volle Raumdatenblätter mit Eingabeparametern (Personendichte,
+Betriebsstunden-Profile) bleiben kostenpflichtig; energytools.ch selbst bleibt technisch
+unerreichbar. E-R230-2 (Raphael vorzulegen), 393/394 (bildbasiert, OCR-Werkzeug), A-BLIND-Bestand
+unverändert.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/sia-2024-
+nutzungsrandbedingungen-gesundheitsbau.md` +25/-9, `destillate/INDEX.md` +1/-1,
+`wiki/BAUHERREN-FAQ.md` +27/-11, `wiki/QUESTIONS.md` additiv — durchgehend additiv/präzisierend
+(Ersetzungen sind Text-Präzisierungen bzw. «Nachtrag»-Ergänzungen ohne Verlust der Historie),
+keine Löschung von Bestand. Keine der editierten Dateien war zum Prüfzeitpunkt gleichzeitig durch
+einen Sibling-Lauf verändert.
+
 ## 2026-08-24e — Brandschutz-Lücke in `batteriespeicher` geschlossen: bestehendes VKF-Destillat nie ins Wiki eingearbeitet
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und

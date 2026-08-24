@@ -6111,3 +6111,67 @@ ionen-batterien-lagerung.md` +10/-3 (Offene-Punkte-Korrektur, Backlink ergänzt)
 `wiki/BAUHERREN-FAQ.md` +5/-0 — durchgehend additiv/präzisierend, keine Löschung von Bestand.
 Keine der von diesem Lauf editierten Dateien war zum Bearbeitungszeitpunkt durch einen Sibling
 gleichzeitig verändert (vorab und danach per `git status`/`git diff --numstat` geprüft).
+
+## 2026-08-24 (interaktive Session, weiterer paralleler Lauf) — SIA 2024-C2:2025-Korrigenda gefunden: freie Energie-/Leistungsbedarfswerte für Bettenzimmer/Stationszimmer/Behandlungsraum
+
+Auftrag: weitere offene Fragen abarbeiten. **Betriebslage:** `ps aux` zeigte beim Start mindestens
+einen weiteren parallelen Lauf desselben Prompts (identische Kommandozeile, andere PID, Start
+6 Minuten früher) — dessen Zwischenstand (`/tmp/ahb-merkblaetter/*.txt`) zeigte, dass er bereits an
+den vier AHB-Fachmerkblättern 265/385/389/393 arbeitete (siehe CHANGELOG 24.08.24d/e). Um
+Kollision zu vermeiden, bewusst einen anderen, unblockierten Punkt gewählt: das meistzitierte
+Gesundheitsbau-Destillat der KB.
+
+- [x] **`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` (63 Backlinks, Status emerging, das
+  meistzitierte Gesundheitsbau-Destillat) hatte einen konkret benannten, unblockierten offenen
+  Punkt: «energytools.ch war technisch nicht direkt abrufbar … in einer späteren Session zu
+  prüfen; wäre der günstigste Weg an die Raumdatenblätter 8.01–8.03, ohne den kostenpflichtigen
+  Normtext.»** energytools.ch selbst bestätigt weiterhin tot (301-Redirect auf eine JS-SPA von
+  sia.ch, keine Tool-Inhalte im Extrakt). Stattdessen über `shop.sia.ch`-Produktseiten die
+  **Korrigenda SIA 2024-C2:2025** («Korrigenda C2 zum Merkblatt SIA 2024:2021», gültig ab
+  1.6.2025) gefunden — sie ersetzt laut eigenem Titel die Tabellen 4–9, 11, 14–17 und 20 des
+  Merkblatts vollständig und ist, anders als das Merkblatt selbst, **kostenlos** (eigener Hinweis
+  im Dokument: «Sie steht unter www.sia.ch/korrigenda … zur Verfügung»). Deutsche UND
+  französische Fassung über `shop.sia.ch/<GUID>/D|F/DownloadAnhang` geladen (`curl`,
+  `Content-Type: application/pdf` vor Auswertung geprüft, kein Login/Bezahlvorgang ausgelöst),
+  beide vollständig mit PyPDF2 gelesen, Zahlenwerte zwischen den Sprachfassungen verglichen
+  (identisch).
+- [x] **Ergebnis: primärquellenbelegte Energie- und Leistungsbedarfswerte für 8.01 Bettenzimmer,
+  8.02 Stationszimmer, 8.03 Behandlungsraum (Standard/Zielwert/Bestand) sowie der aktuelle
+  Anhang-F-Wert für Gebäudekategorie VIII gefunden.** Schliesst den bisherigen offenen Punkt
+  «kein W/m²-Kennwert für Klimakälteleistung von Spital/Pflege gefunden» (jetzt: 31.9/64.6/60.2
+  W/m² Standard für Bettenzimmer/Stationszimmer/Behandlungsraum). Reconciliation: die im
+  Grundlagenbericht (Okt. 2024) zitierte Zahl «Behandlungsraum-Elektrizität gesamt 120 kWh/m²,
+  davon 33 Prozessanlagen» ist durch C2:2025 auf 93.7 kWh/m² korrigiert (Prozessanlagen-Anteil
+  33 unverändert, Geräte/Beleuchtung gesenkt) — kein Redaktionsfehler der KB, sondern eine echte
+  Normkorrektur zwischen Okt. 2024 und 1.6.2025.
+- [x] **Nebenbefund, ebenfalls primärquellenbelegt: Anhang F (Tabelle 20) führt Gebäudekategorie
+  VIII weiterhin UNDIFFERENZIERT als eine einzige Spalte «Spital»**, keine VIII.1/VIII.2-Trennung
+  (Elektrizität gesamt Standard 34.3 kWh/m²EBF·a). Das relativiert die an anderer Stelle in dieser
+  KB (BAUHERREN-FAQ, Run 80, 18.07.2026) aus dem Grundlagenbericht rekonstruierten Werte
+  «VIII.1 ≈ 36 / VIII.2 ≈ 30 kWh/m²EBF·a» — jene waren ein belegter Analogieschluss, keine direkte
+  Anhang-F-Lektüre (der Normtext lag damals nicht vor). Der jetzt gelesene reale Wert (34.3) liegt
+  plausibel zwischen beiden rekonstruierten Teilwerten und bestätigt die Grössenordnung, zeigt
+  aber: die VIII.1/VIII.2-Differenzierung existiert normativ nur auf Raumnutzungs-Ebene
+  (8.01-8.03) und in der Flächenanteile-Tabelle (Statusbericht, weiterhin Entwurfsstand 2019),
+  nicht in der harmonisierten Gebäudekategorie-Summe. In der FAQ als Nachtrag ergänzt, historischer
+  Text unverändert stehen gelassen (Rule `wissens-bibliothekar`).
+
+**Eingearbeitet:** `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (neuer
+Abschnitt «Energie- und Leistungsbedarf 8.01–8.03 nach SIA 2024-C2:2025», Klimakälte-Offene-Punkt
+geschlossen, Anhang-F-Nachtrag, Offene-Punkte- und Quellen-Abschnitt aktualisiert, Frontmatter
+`quelle`/`gelesen`/`datenstand`/`status`/`last_updated`), `destillate/INDEX.md` (Zeile
+präzisiert), `wiki/BAUHERREN-FAQ.md` (F78 mit konkreten Kennwerten ergänzt, Run-80-Stelle um
+Nachtrag ergänzt).
+
+**Für den nächsten Lauf:** Die vollständigen Raumdatenblätter mit allen Eingabeparametern
+(Personendichte, Betriebsstunden-Profile im Detail, Anhang A/B/C) bleiben kostenpflichtig — das
+kostenlose Excel-Tool `SIA2024_Raumdatenblätter` auf energytools.ch selbst bleibt technisch
+unerreichbar (JS-SPA-Grenze). E-R230-2 (Raphael vorzulegen), 393/394 (bildbasiert, OCR-Werkzeug),
+A-BLIND-Bestand unverändert.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/sia-2024-nutzungsrandbedingungen-
+gesundheitsbau.md` +25/-9, `destillate/INDEX.md` +1/-1, `wiki/BAUHERREN-FAQ.md` +27/-11 —
+durchgehend additiv/präzisierend (Ersetzungen sind Text-Präzisierungen an bereits von diesem Lauf
+selbst geschriebenen Stellen bzw. explizite «Nachtrag»-Ergänzungen ohne Verlust der Historie),
+keine Löschung von Bestand. Keine der editierten Dateien war zum Prüfzeitpunkt gleichzeitig durch
+einen Sibling-Lauf verändert.
