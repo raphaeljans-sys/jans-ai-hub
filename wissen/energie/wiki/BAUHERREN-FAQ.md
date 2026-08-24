@@ -7076,9 +7076,15 @@ Kt. Zürich über Formular EN-111 auf der Plattform EVEN — die im Dokument bes
 MINERGIE-Skala «¾ zwischen Grenz- und Zielwert SIA 380/4» ist damit **nicht mehr rechenbar**,
 und das genannte Tool energycodes.ch ist nicht mehr erreichbar. Zweitens ist die Lampentechnik
 der Quelle (Leuchtstoffröhren T8/T5) **vor-LED**. Die **Steuerungslogik nach Raumtyp**, um die
-es in dieser Antwort geht, ist davon unberührt. Konkrete Lux-Werte enthält die Quelle nicht —
-diese sind der geltenden **EN 12464-1** zu entnehmen. Datenstand 2026-08-03 (Run 122) →
-`[[ahb-zuerich-gt-rl8-beleuchtung]]`, `[[gebaeudetechnik-pflichtenheft]]`. Status **emerging**.
+es in dieser Antwort geht, ist davon unberührt, im heute gültigen AHB-System aber technisch
+präzisiert: verbindlicher Bus-Standard **DALI/DALI-2**, feste **Nachlaufzeiten** (5 Min.
+halbautomatisch, 2 Min. automatisch), siehe `[[ahb-richtlinie-gebaeudetechnik-229-2025]]`. Konkrete
+Lux-Werte enthielt die 2008er-Quelle nicht — sie stehen jetzt in der aktuellen AHB-Tabelle nach
+SIA 387/4 + EN 12464-1: `[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]`
+(z. B. Büro/Sitzungszimmer 500 lx, Korridor/Treppenhaus 100 lx, WC/Bad 200 lx). Datenstand
+2026-08-24 (Nachfolgesystem gefunden) → `[[ahb-zuerich-gt-rl8-beleuchtung]]`,
+`[[gebaeudetechnik-pflichtenheft]]`. Status **emerging** (Steuerungslogik established über die
+2025er-Nachfolgequelle bestätigt).
 
 ## F208 — «Wir wollen ökologisch bauen — worauf stütze ich meine Materialvorgaben, und woher weiss ich, ob die Grundlage noch aktuell ist?»
 
@@ -8022,6 +8028,14 @@ Nachweis SIA 380/4 Beleuchtung», Version 1.0 vom 07.01.2009, vollständig geles
 `[[energienachweis-zh]]`.
 ⚠ Die Quelle selbst ist Stand 2009; die Aussage über den heute geltenden Nachweisweg stützt sich auf
 die genannten KB-Artikel, nicht auf sie. Status **emerging**.
+
+**Nachtrag 24.08.2026:** Das gesamte AHB-Dokumentensystem für Gebäudetechnik wurde inzwischen
+neu geordnet (KBOB-Empfehlung als Basis + AHB-Richtlinie Nr. 229, August 2025, als schlanke
+Ergänzung); für Beleuchtung im Speziellen gilt heute zusätzlich DALI/DALI-2 als Bus-Standard und
+eine eigene, datierte Lux-Tabelle (Merkblatt Nr. 376, August 2025) —
+`[[ahb-richtlinie-gebaeudetechnik-229-2025]]`,
+`[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]`. Die Kernaussage dieser
+Antwort (SIA 380/4 archiviert, SIA 387/4 gültig) bleibt unverändert korrekt.
 
 **Nachtrag Run 143 (19.08.2026) — woher die alten Zahlen kamen, und was davon bleibt.** Die
 Zielwerte, gegen die früher gerechnet wurde, liegen jetzt im Volltext vor: der AWEL-Vollzugsordner

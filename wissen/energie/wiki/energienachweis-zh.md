@@ -108,7 +108,9 @@ Leuchten, Beleuchtungsberechnung inkl. LVK/UGR/Söllnerdiagramm, Tageslichtparam
 Sensorik-/Steuerungsangaben, Leuchtendatenblätter, Begründung Spezialnutzungen) — sie beschreibt
 die Planerleistung, die sich mit dem Normwechsel nicht geändert hat.
 → Bauherren-FAQ **F229**, Destillate `[[ahb-checkliste-nachweis-beleuchtung]]`,
-`[[ahb-zuerich-gt-rl8-beleuchtung]]`.
+`[[ahb-zuerich-gt-rl8-beleuchtung]]`. **Nachtrag 24.08.2026:** die konkreten Lux-Sollwerte, die
+für eine Beleuchtungsberechnung nach SIA 387/4 gebraucht werden, sind jetzt primärquellenbelegt in
+`[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]`.
 
 ## Rechtsgrundlage Wärmedämmung — welche WDV-Fassung gilt heute (Ergänzung Run 139, 2026-08-17)
 Die heute massgebliche Fassung ist **WDV vom 8. Juni 2022, LS 700.211**, in Kraft seit 01.09.2022 — seit Run 139 im Volltext destilliert und primärquellenbelegt: → [[waermedaemmvorschriften-zh-2022]] (status `established`, bezogen direkt über `zh.ch`). Kernpunkt: Wärmeschutznachweis nach SIA 380/1:2016 (Einzelanforderungen Tabellen 2/3/5 oder Systemanforderung QH,li Tabelle 6, PH,li ≤ 20 W/m² Kat. I/IV bzw. 25 W/m² Kat. II/III), vier Standardlösungen für Neubauten (§ 9) sowie 11 Standardlösungen für Wärmeerzeugerersatz (§ 10, inkl. Fassaden-/Dachdämmung als eigene SL 9 und Fensterersatz als SL 8). Die **historische Ausgabe 2009** → [[waermedaemmvorschriften-zh-2009-historisch]] (status `superseded`) bleibt als Referenz für den Vergleich alt/neu erhalten. Ergänzend: der ZH-Vollzugsordner (Stand 2013, Verfahrenslogik Neu-/Umbau) ist teildestilliert → [[vollzugsordner-energie-zh-abschnitt1-2]] und referenziert noch die 2009er-Fassung — bei Bedarf gegen die 2022er-Fassung gegenlesen, nicht blind übernehmen.

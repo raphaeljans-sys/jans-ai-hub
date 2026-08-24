@@ -468,6 +468,13 @@ ewz-Tarif, IMMO-Box).
 eigener Wiki-Themenartikel Beleuchtung fehlt weiterhin, weil die Quelle keine Lux- und
 W/m²-Werte enthaelt (die erwaehnte EN-12464-1-Uebersichtstabelle ist nicht Teil des Dokuments).
 
+⚠ **Nachtrag 24.08.2026:** Die Lux-Luecke ist geschlossen — `[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]`
+(aktuelles, datiertes AHB-Merkblatt, August 2025). Ausserdem gefunden: das gesamte
+AHB-Dokumentensystem wurde neu geordnet, `[[ahb-richtlinie-gebaeudetechnik-229-2025]]` (KBOB-
+Empfehlung als Basis + schlanke AHB-Ergaenzung); die hier destillierte RL1-RL9-Familie (2008)
+taucht in der aktuellen Dokumentenliste (Stand 08.2025) namentlich nicht mehr auf — moegliches
+Indiz fuer eine Ablösung, nicht abschliessend geprueft. Details: `wiki/QUESTIONS.md`.
+
 **Ehrliche Negativbefunde der Agenten** (gewuenschtes Verhalten, nicht kaschiert): RL7
 Elektroanlagen liefert **keinen** Zugewinn zu PV, Submetering und Ladeinfrastruktur — diese
 Themen kommen im Dokument von 2008 gar nicht vor. RL9 verweist fuer BACS-Klassen und

@@ -1,7 +1,7 @@
 ---
 title: "Pflichtenheft Gebäudetechnik — was eine Bauherrschaft verbindlich vorgeben sollte"
 status: emerging
-last_updated: "2026-08-13 (Run 129 — Raummodule je Raumtyp + Gebäudeautomation im Pflegebetrieb ergänzt)"
+last_updated: "2026-08-24 (Beleuchtung: aktuelles AHB-Dokumentensystem 2025 gefunden, DALI/DALI-2 + Lux-Tabelle nachgetragen, Warnhinweis zur möglichen Ablösung der RL1-RL9-Familie gesetzt)"
 datenstand: "2008 (älteste tragende Fassung: alle neun AHB-Zürich-Richtlinien RL1-RL9 sowie die Raummodule Büro/Klassenzimmer und der Pflegezentren-Standard liegen als Version Juli 2008 vor — einzelne Erstfreigaben reichen bis 2003/2004 zurück, tragend zitiert wird aber durchgehend die Fassung Juli 2008, wie der Artikel selbst im Warnkasten festhält. ⚠ Mehrere darin referenzierte Normen sind laut eigener Aktualitätsprüfung Run 122 seither aufgehoben oder ersetzt — Art. 20a LRV per 01.01.2022, SIA 380/4 per 31.07.2019, EN 779 über EN ISO 16890 abgelöst, H-FKW-Kältemittel seit ChemRRV grösstenteils untersagt — das betrifft einzelne Zitate im Fliesstext, nicht den Datenstand der AHB-Quellen selbst)"
 sources:
   - "[[ahb-zuerich-gt-rl1-planungsgrundlagen]] bis [[ahb-zuerich-gt-rl9-gebaeudeautomation]] — Richtlinien Gebäudetechnik der Stadt Zürich, Amt für Hochbauten (AHB), Fachstelle Energie & Gebäudetechnik, Version 2.1, Juli 2008 (in Kraft seit 04.05.2004, Fassung 2.1 freigegeben 18.06.2008)"
@@ -9,6 +9,8 @@ sources:
   - "[[ahb-raummodul-klassenzimmer]] — AHB Stadt Zürich, «Raummodul Klassenzimmer — Standard Gebäudetechnik», Version 2.1, Juli 2008 (Erstfreigabe GL AHB 24.09.2003, Revisionen 09/2005 und 07/2008), 10 S. vollständig gelesen (Run 129)"
   - "[[ahb-standard-gebaeudeautomation-pflegezentren]] — AHB Stadt Zürich mit den Pflegezentren (PZZ) und der Immobilien-Bewirtschaftung, «Standard Gebäudeautomation», Version 1.1, Juli 2008, 9 S. vollständig gelesen (Run 129)"
   - "Aktualitätsprüfung der zitierten Normen: siehe outputs/2026-08-03_energie-run122.md"
+  - "[[ahb-richtlinie-gebaeudetechnik-229-2025]] — AHB Stadt Zürich, «Richtlinie Gebäudetechnik (Ergänzung zur KBOB-Empfehlung)», Dok.-Nr. 229, August 2025, 17 S. vollständig gelesen (24.08.2026)"
+  - "[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] — AHB Stadt Zürich, Merkblatt Nr. 376, August 2025, 2 S. vollständig gelesen (24.08.2026)"
 links:
   - "[[sia-386-bacs-gebaeudeautomation]]"
   - "[[komfortlueftung]]"

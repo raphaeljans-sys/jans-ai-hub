@@ -1,5 +1,55 @@
 # CHANGELOG
 
+## 2026-08-24b — Recherche-Agent: E94 (Innendämmung CHF/m²) — JANS-Archiv-Weg erschöpfend
+geprüft, weiterhin Negativbefund
+
+Auftrag aus `wiki/QUESTIONS.md` E94: der einzig verbleibende Weg (reale JANS-Projektofferte
+BKP 271 Innendämmung in `wissen/grobkosten/raw/` einspeisen) wurde systematisch verfolgt.
+Durchsucht: alle Projektordner unter `AR - 01 Projekte/` und `AR - 03 Studien/` (OneDrive-
+FreigegebeneBibliotheken–JANS, u.a. 2414 THALWIL, 2201 Laternengasse, 2620 ALBERTSTRASSE 7,
+2621 Giebelweg 12, 2622 Bahnhofstrasse 27 Wangen SZ, 2515–2518, 2619 KISPI, _MAQ), alle vier
+Google-Drive-Konten sowie `/Volumes/daten/02_Architektur_Archiv` (Rule 260823 beachtet, keine
+Vertrags-/Bewerbungs-/Personaldaten angefasst). Ergebnis: kein Fund. Vorhandene
+Dämmungs-Dossiers sind durchweg fachfremd — Aussendämmung (2414 Thalwil, BKP 225.2/226.2),
+Dachdämmung (BKP 224.1), Flankendämmung-Produktdatenblätter (2201 Laternengasse, _MAQ) oder
+Brandschutz-Ertüchtigung (2619 KISPI LOS 271.10, EI30, keine Gebäudehülle). Keine einzige
+Datei enthält eine reale Unternehmerofferte für Innendämmung mit CHF- UND m²-Angabe im
+selben Dokument. `wiki/QUESTIONS.md` E94 bleibt offen (`- [ ]`), Nachtrag mit vollständiger
+Liste der geprüften Orte ergänzt, damit ein künftiger Lauf dieselben Sackgassen nicht
+wiederholt. Keine Datei in `wissen/grobkosten/raw/` neu angelegt (kein verwertbarer Beleg).
+
+## 2026-08-24 — Interaktive Session (Fortsetzung): aktuelles AHB-Dokumentensystem Gebäudetechnik/Beleuchtung 2025 gefunden, E-R143-2 aufgelöst
+
+A-BLIND-Verifikation von `[[ahb-zuerich-gt-rl8-beleuchtung]]` (V2.1, 2008): gezielt recherchiert,
+ob die Richtlinie seither aktualisiert wurde — ein früherer, engerer Check desselben Tages hatte
+nur die im Dokument zitierten Normen geprüft, nicht die Richtlinie selbst.
+
+**Zwei aktuelle, vollständig gelesene AHB-Primärquellen gefunden:** (1) **«Richtlinie
+Gebäudetechnik» (Ergänzung zur KBOB-Empfehlung), Dok.-Nr. 229, August 2025** (17 S.) — neues
+Destillat `[[ahb-richtlinie-gebaeudetechnik-229-2025]]`; AHB wendet heute die KBOB-Empfehlung
+Gebäudetechnik als Basis an, ergänzt durch dieses schlanke Dokument (Teile Elektro/Beleuchtung/
+Sicherheit/Gebäudeautomation/Heizung-Kälte/Lüftung/Sanitär). Teil 3: **DALI/DALI-2 heute
+verbindlicher Bus-Standard**, Nachlaufzeiten 5/2 Minuten. Strukturbefund: die alte 9-teilige
+RL1-RL9-Familie (2008) taucht in der aktuellen Dokumentenliste namentlich nicht mehr auf (Indiz,
+nicht abschliessend geprüft). (2) **Merkblatt Übersichtstabelle Beleuchtungsanforderungen,
+Nr. 376, August 2025** (2 S.) — neues Destillat
+`[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]`; vollständige Lux-Tabelle
+nach SIA 387/4 + EN 12464-1 für ~35 Raumnutzungen inkl. Healthcare-Zeile (Bettenzimmer 100 lx,
+Behandlungsraum 500-750/1'000 lx), schliesst den seit Run 122 offenen Punkt «keine Lux-Werte in der
+Quelle».
+
+**E-R143-2 (Selbstwiderspruch Turnhalle 500 vs. 750 lx in der 2007er-Tabelle) plausibel
+aufgelöst:** die 2025er-Tabelle zeigt für dieselbe Zeile dieselben zwei Zahlen sauber getrennt
+(E0 = 500 als Referenzwert, Wettkampfsport = 750 als Spezialwert) — die alte Tabelle hatte
+vermutlich den E0-Wert in die falsche Spalte gesetzt, nicht am Original nachgeprüft.
+
+Eingearbeitet: `destillate/ahb-zuerich-gt-rl8-beleuchtung.md`, `destillate/ahb-zuerich-
+uebersichtstabelle-beleuchtung-en12464.md`, `destillate/INDEX.md`, `wiki/gebaeudetechnik-
+pflichtenheft.md`, `wiki/BAUHERREN-FAQ.md`, `wiki/energienachweis-zh.md`, `wiki/INDEX.md`,
+`wiki/QUESTIONS.md`. `git diff --numstat` nach jedem Schreibvorgang geprüft: zwei neue Dateien,
+alle bestehenden additiv/präzisierend, keine Löschung von Bestand. Output:
+`outputs/2026-08-24_ahb-beleuchtung-2025-nachfolgesystem.md`.
+
 ## 2026-08-24 — Interaktive Session (Fortsetzung): E-R132-4 primärquellenbelegt präzisiert (AHB-Jahresbericht 2011 Stadt Zürich)
 
 Anschluss an den Vorlauf («Für den nächsten Lauf: E-R132-4-Nachfolge und E-WC32-1»). Per Websuche
