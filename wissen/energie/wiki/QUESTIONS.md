@@ -2,6 +2,49 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24 — Interaktive Session (sechste Fortsetzung): A-BLIND-Fall 4 — `zev-eigenverbrauch-mfh-her-2025` (17 Backlinks) auf S. 13-39 nachgelesen, echte Regelungslücke geschlossen
+
+Auftrag: weitere offene Fragen abarbeiten. Auswahl nach der im Audit offen benannten Methode
+(«naechste Kandidaten fuer die zwanzig meistzitierten Destillate: noch nicht ausgewaehlt»): die
+Top-20 nach Backlink-Zahl systematisch durchgesehen — die meisten sind bereits primärquellen-
+verifiziert (established mit vollständigem Seiten-Read) oder ihre `emerging`-Einstufung ist
+bereits an einen bekannten, dokumentierten Blocker gebunden (SIA-380/1:2016-Normkauf,
+Web-Synthese ohne Schweizer Feldbeleg). Eine echte Lücke gefunden: **`zev-eigenverbrauch-mfh-her-2025`**
+(17 Backlinks, `status: established`) trug im eigenen `gelesen`-Feld seit 04.07.2026 den Vermerk
+«S. 13-39 überflogen» — 27 von 39 Seiten der Quelle waren nie im Volltext gelesen, obwohl das
+Destillat als `established` geführt wurde.
+
+PDF erneut von `swissolar.ch/01_wissen/wirtschaftlichkeit/zev/handbuch-eigenverbrauchsregelung-her-2025.pdf`
+geladen (39 Seiten bestätigt), S. 13-39 vollständig per PyPDF2 gelesen. **Eine materiell relevante,
+bisher nicht destillierte Zulässigkeitsvoraussetzung gefunden:** ein ZEV/vZEV mit mehreren
+Verbrauchsstellen ist nach **Art. 15 EnV** nur zulässig, wenn die Produktionsleistung mindestens
+**10 %** der Anschlussleistung des Zusammenschlusses erreicht (Formel + Rechenbeispiel im
+HER-Anhang A2.1: HAK 40 A → 27,7 kVA Anschlussleistung, 12 kWp → 43 % Verhältnis). Das Destillat
+und FAQ F32 beantworteten bisher «lohnt sich ZEV auf dem MFH» uneingeschränkt mit «Ja», ohne diese
+bindende Vorbedingung zu nennen — bei grosser Hausanschlussleistung (Gewerbe-/Mischnutzung) und
+kleiner Dach-PV kann sie verfehlt werden, dann ist gar kein ZEV/vZEV möglich, unabhängig von der
+Wirtschaftlichkeit. Vier weitere, bisher fehlende Praxispunkte ergänzt: die 3-Monats-Melde-/
+Kündigungsfrist für Gründung/Auflösung, die Kostentragungsregel (Art. 17 Abs. 4 EnG: Grundeigentümer
+trägt Bildungskosten inkl. anteiliger Entschädigung nicht mehr genutzter VNB-Anlagen nach Art. 3
+Abs. 2bis StromVV), die Kaskadierungsregel (vZEV kann nicht in vZEV kaskadieren, nur ZEV in vZEV),
+und die präzisierte Mieter-/Pächter-Austrittsregel (3-Monats-Wahlfenster bei Erstgründung nach
+Art. 17 Abs. 3 EnG, danach Austritt nur bei Pflichtverletzung des Eigentümers oder eigenem
+Netzzugangsrecht nach Art. 11 StromVV, das faktisch erst ab > 100 MWh/Jahr greift).
+
+Nebenbefund beim Abgleich: der vormals offene Punkt «Rp/kWh-Preisregel gegenüber Mietern noch nicht
+destilliert» war bereits durch das separate Destillat `[[zev-mieter-strompreis-eigenverbrauch]]`
+gelöst (80-%-Pauschale/Gestehungskosten-Modell) — als offener Punkt hier nur nicht nachgezogen.
+
+Eingearbeitet in `destillate/zev-eigenverbrauch-mfh-her-2025.md` (Frontmatter `gelesen`/
+`last_updated`, zwei neue Abschnitte «Erheblichkeitsschwelle» und «Fristen, Kosten, Kaskadierung»,
+Offene-Punkte bereinigt), `wiki/BAUHERREN-FAQ.md` F32 (Zulässigkeits-Check-Absatz ergänzt),
+`destillate/INDEX.md` Zeile 112, `raw/_INGESTED.md` Zeile 32. `git diff --numstat` nach jedem
+Schreibvorgang geprüft: rein additiv. Methodische Notiz für den nächsten A-BLIND-Lauf: der
+Backlink-Zähler allein reicht nicht, um Kandidaten zu selektieren — das `gelesen`-Feld selbst
+(«überflogen» vs. vollständige Seitenzahl) ist der zuverlässigere Indikator für unentdeckte
+Blindstellen bei formal `established` geführten Destillaten. Nächste Kandidaten mit ähnlichem
+Muster (Stichprobe, nicht erschöpfend geprüft): keine im Rest der Top-20 gefunden.
+
 ## 2026-08-24 — Interaktive Session (fünfte Fortsetzung): A-P2/A-P3-Restpunkte am Bestand nachgeprüft, drei liegen gebliebene Checkboxen geschlossen
 
 Auftrag: weitere offene Punkte aus dieser Datei abarbeiten. Da der letzte Lauf (E-R230-1/E-R230-2,

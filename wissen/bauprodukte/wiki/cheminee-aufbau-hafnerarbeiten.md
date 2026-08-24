@@ -84,5 +84,5 @@ Original oder beim Kaminhersteller nachgefragt werden.
   **feusuisse-Papier «Stand der Technik Teil B»**, nicht die BRL 24-15 (Beleg:
   `wissen/normen/wiki/QUESTIONS.md`, Ticket `N58-2` geschlossen; `wissen/normen/wiki/REGISTER.md`).
   Führend für Fundstelle, Ausgabe und Fassungsstand ist `wissen/normen`; dieser Artikel führt
-  nach der Fuehrungs-Matrix nur das Produkt- und Systemwissen (BKP) und schreibt den
+  nach der Führungs-Matrix nur das Produkt- und Systemwissen (BKP) und schreibt den
   VKF-/feusuisse-Wortlaut nicht fort. In einem Aussendokument nicht auf «BRL 103-15» berufen.

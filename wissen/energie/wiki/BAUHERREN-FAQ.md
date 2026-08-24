@@ -1416,6 +1416,15 @@ Praktisch: Ganze geeignete Dachfläche belegen (Grundkosten hoch, Modul-Zusatzko
 **Vertreter** bestimmen, der intern abrechnet und den ZEV nach aussen vertritt (oft ein EVU/Dienstleister);
 Anlagen **≥ 30 kVA** brauchen einen separaten Produktionszähler.
 
+⚠ **Zulässigkeits-Check zuerst, nicht erst die Wirtschaftlichkeit rechnen:** Ein ZEV/vZEV mit mehreren
+Verbrauchsstellen ist nur zulässig, wenn die Produktionsleistung **mindestens 10 %** der Anschlussleistung
+des Zusammenschlusses erreicht (Art. 15 EnV) — Anschlussleistung aus der HAK-Sicherung, z. B. 40 A →
+27,7 kVA, dort würden bereits 2,8 kWp reichen. Bei einer grossen Hausanschlussleistung (Gewerbe-/
+Mischnutzung) und vergleichsweise kleiner Dach-PV kann diese Schwelle verfehlt werden — dann ist gar kein
+ZEV/vZEV möglich. Gründung und Auflösung sind dem VNB zudem **mindestens 3 Monate im Voraus** zu melden;
+die Kosten der Einrichtung (Umverdrahtung, ggf. Entschädigung nicht mehr genutzter VNB-Anlagen) trägt der
+Grundeigentümer.
+
 **Was Du den Mietern verrechnen darfst (konkret):** pro kWh **nie mehr als das externe Standardstromprodukt**.
 Zwei Wege — (1) **pauschal höchstens 80 %** des normalen Tarifs (kein Kostennachweis nötig, garantierte
 Mieter-Ersparnis von 20 %) oder (2) **effektiv nach Gestehungskosten** (reale Kosten minus Einspeiseerlös,

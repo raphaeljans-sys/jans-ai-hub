@@ -86,7 +86,7 @@ duplizieren:
   **Folgen für diesen Artikel:** Der Wandaufbau und die Zahlen oben sind **kein Benchmark** und
   in keinem Dokument als solcher zu verwenden — auch nicht intern als Faustwert; die Bezeichnung
   «Realer JANS-Benchmark» in der Abschnittsüberschrift ist damit hinfällig. Führend für die
-  Fachphysik ist nach der Fuehrungs-Matrix `wissen/energie`; die Prüfmethode steht dort in
+  Fachphysik ist nach der Führungs-Matrix `wissen/energie`; die Prüfmethode steht dort in
   `wiki/u-werte-grenzwerte-ch` («Einen fremden U-Wert-Rechenweg prüfen — vier Griffe») und in
   FAQ F257. Der Abschnitt bleibt als **Lehrbeispiel für eine plausibel aussehende Falschrechnung**
   stehen, nicht als Kennwertquelle.

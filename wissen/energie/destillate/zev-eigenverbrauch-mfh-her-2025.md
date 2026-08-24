@@ -55,6 +55,51 @@ Eigenverbrauch** (vgl. reale MFH-Werte ~33 % Eigenverbrauch, [[pv-ertrag-eigenve
   die effektiven Kosten (Ertrag aus Netzeinspeisung abgezogen). ⚠ Exakte Preis-/Zumutbarkeitsregel am
   Leitfaden verifizieren (nicht aus dieser Quelle beziffert).
 
+## Erheblichkeitsschwelle (Art. 15 EnV) — die uebersehene Zulaessigkeitsvoraussetzung
+⚠ **Nachtrag 24.08.2026 (Primaerquellen-Nachlese S. 13-39, A-BLIND):** Ein ZEV/vZEV mit **mehreren
+Verbrauchsstellen** ist nur zulaessig, wenn die gesamte Produktionsleistung am Ort der Produktion im
+Verhaeltnis zur Anschlussleistung des Zusammenschlusses **erheblich** ist. Als erheblich gilt gemaess
+**Art. 15 EnV** ein Verhaeltnis von **mindestens 10 %**:
+
+```
+Verhaeltnis = Produktionsleistung (kWp, normierte DC-Spitzenleistung) / Anschlussleistung ZEV/vZEV (kVA)
+```
+
+Die Anschlussleistung ergibt sich aus der HAK-Sicherung (Anschlussueberstromunterbrecher) am
+Messpunkt; bei mehreren Bezuegern (nicht alle Endverbraucher hinter dem Anschlusspunkt nehmen teil)
+wird sie anteilig ueber die Bezuegersicherungswerte berechnet. **Rechenbeispiel aus dem HER-Anhang A2.1**
+(MFH, eine Produktionsanlage bis 30 kVA): HAK 40 A → Anschlussleistung 40 A × √3 × 0,4 kV = **27,7 kVA**;
+Produktionsanlage 12 kWp → Verhaeltnis 12 / 27,7 = **43 %**, deutlich ueber der 10-%-Schwelle. Anlagen,
+die hoechstens 500 Stunden pro Jahr betrieben werden, zaehlen bei der Ermittlung der Produktionsleistung
+nicht mit. **Praxisfolge fuer die Beratung:** bei einem grossen Gebaeudeanschluss (hohe HAK-Sicherung,
+z. B. Gewerbe-/Mischnutzung) und einer vergleichsweise kleinen Dach-PV kann die 10-%-Schwelle **verfehlt**
+werden — dann ist gar kein ZEV/vZEV moeglich, unabhaengig von Wirtschaftlichkeit oder Wunsch der
+Bauherrschaft. Diese Pruefung gehoert **vor** der Wirtschaftlichkeitsrechnung, nicht danach.
+
+## Fristen, Kosten, Kaskadierung — was das HER zusaetzlich regelt
+⚠ **Nachtrag 24.08.2026:**
+- **3-Monats-Frist:** Gruendung UND Aufloesung eines ZEV/vZEV sind dem VNB **mindestens 3 Monate im
+  Voraus** zu melden; dasselbe gilt fuer den nachtraeglichen Beitritt/Austritt einzelner Endverbraucher.
+  Bei dauerhafter Netztopologie-Aenderung passt der VNB die vZEV-Zuordnung erst zum 1. Tag des naechsten
+  Quartals an und raeumt bei Unzulaessigkeit der bestehenden Konstellation 12 Monate Anpassungsfrist ein.
+- **Kostentragung (Art. 17 Abs. 4 EnG):** die Kosten der Bildung eines Zusammenschlusses (z. B.
+  Umverdrahtung, Demontage von VNB-Anschluessen) traegt der **Grundeigentuemer**, soweit sie nicht durch
+  das Netznutzungsentgelt gedeckt sind. Zusaetzlich: muss der VNB wegen des Zusammenschlusses Anschluesse
+  wechseln, hat der Grundeigentuemer die **Kapitalkosten nicht mehr genutzter VNB-Anlagen** (Art. 3
+  Abs. 2bis StromVV, z. B. ueberdimensionierte Trafostationen) anteilig zu entschaedigen — ein bei
+  Bestandes-Umruestungen regelmaessig uebersehener Kostenposten.
+- **Kaskadierung:** ein ZEV kann Teilnehmer eines vZEV werden; zwei oder mehr vZEV koennen sich zu einem
+  **neuen** vZEV zusammenschliessen. **Nicht moeglich:** zwei oder mehr vZEV als Teilnehmer eines
+  *groesseren* vZEV (echte Kaskadierung von vZEV in vZEV) — dafuer muss mit den Einzelzaehlern ein neuer
+  vZEV gegruendet werden. Relevant bei mehrstufigen Arealentwicklungen mit spaeterem LEG-Anschluss.
+- **Mieter-/Paechter-Wahlrecht, praezisiert:** beim **erstmaligen** Einrichten haben bestehende Mieter/
+  Paechter ein **einmaliges 3-Monats-Fenster**, sich fuer Grundversorgung statt Teilnahme zu entscheiden
+  (Art. 17 Abs. 3 EnG). Haben sie sich fuer die Teilnahme entschieden, koennen sie danach **nur austreten**,
+  wenn der Grundeigentuemer seinen Pflichten nicht nachkommt, oder ueber ihr allgemeines Netzzugangsrecht
+  nach Art. 11 StromVV (das faktisch nur bei einem Jahresverbrauch der Verbrauchsstelle **> 100 MWh**
+  greift — fuer eine einzelne Mietwohnung praktisch nie). Bei Neubauten ohne bestehende Mietvertraege
+  entfaellt die Wahlrechts-Vorgabe, der Eigentuemer kann den Zusammenschluss frei vorsehen.
+
 ## Abgrenzung LEG (neu) — bewusst NICHT hier
 Die **Lokale Elektrizitaetsgemeinschaft (LEG)** — das dritte, mit dem Stromgesetz neu geschaffene Instrument
 (Stromverkauf ueber das **oeffentliche** Verteilnetz im Quartier, mit reduziertem Netzentgelt) — ist
@@ -74,10 +119,15 @@ bleiben die «hinter dem Anschluss»-Modelle. Ebenso **nicht** im HER: der **PV-
   (WP/Lastmanagement, die den Eigenverbrauch physisch hebt) → [[wp-pv-eigenverbrauch-lastmanagement]].
 
 ## Offene Punkte
-- Konkrete **Rp/kWh-Preisregel** gegenueber Mietern (EnergieSchweiz-Leitfaden Eigenverbrauch) — noch nicht
-  destilliert/beziffert.
 - **LEG** (Modell, Netzentgelt-Rabatt, Voraussetzungen) — eigenes Branchendokument BD-LEG, noch offen.
-- Anschluss-Schemata/Messkonzepte ≥30 kVA (HER Anhang A1–A3, S. 32–37) nur ueberflogen.
+- ✓ **Rp/kWh-Preisregel gegenueber Mietern ist NICHT (mehr) offen** — separat destilliert und beziffert in
+  `[[zev-mieter-strompreis-eigenverbrauch]]` (80-%-Pauschale bzw. Gestehungskosten-Modell); dieser Punkt war
+  hier bis 24.08.2026 faelschlich noch als offen gefuehrt.
+- ✓ **Anschluss-Schemata/Messkonzepte A1–A3 sowie die Checkliste (S. 32–39) sind seit 24.08.2026
+  vollstaendig gelesen**, nicht mehr nur ueberflogen — Kernzahlen (10-%-Erheblichkeitsformel,
+  Rechenbeispiele) oben eingearbeitet. Nicht einzeln uebernommen: die reinen Formular-/
+  Checklisten-Stichworte (Anhang A3, S. 37-39) — Fundstelle im HER-Original bei Bedarf, kein
+  eigenstaendiger fachlicher Inhalt fuer die Bauherren-Beratung.
 
 **Backlinks:** Eigenverbrauchs-Praxiswerte MFH [[pv-ertrag-eigenverbrauch-praxis]] · technische
 Optimierung [[wp-pv-eigenverbrauch-lastmanagement]] · PV-Foerderung Bund [[pv-einmalverguetung-bund-bfe]] ·
