@@ -3,6 +3,59 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 120: Cross-KB-Übergabe von `wissen/energie` (12 PL-02-Dateien) einzeln geprüft — Besitzstandsgarantie-Fallpraxis ergänzt, neuer Artikel Stockwerkeigentum-Teilungsplan, Klientendaten bewusst ausgefiltert
+
+- **Ausgangslage:** Reglemente-Queue (T1-T9) und die chronologische Stale-Flag-Sweep-Kette
+  (Run 90-119) sind laut eigenen Abschlussvermerken vollständig. Buch-Run 119 hatte als
+  einzigen offenen Punkt die seit Run 117 gesicherte Cross-KB-Übergabe von `wissen/energie`
+  benannt: 12 nie geöffnete Baurecht-/STWEG-docx-Dateien in PL-02
+  (`01_Gesetze/08_Baurechtsanalysen/200508_BRA_Thalwil/`,
+  `03_Arbeitshilfen/Teilungsplan Stockwerkeigentum Empfehlung/`) — Ordnerlisting bereits erfolgt,
+  Inhalt bewusst nicht geöffnet, weil eine Einzelfall-Prüfung (verallgemeinerbare
+  Rechtsargumentation vs. Klientengeheimnis, Rule `auto-verbesserungen` 260823) noch aussteht.
+- **Alle 12 Dateien einzeln gelesen** (Mac Mini, `node`/M365-Graph-Connector wie Run 119, Drive-ID
+  der Bibliothek `02_Recht_Norm`, `textutil -convert txt` für die docx/dotx-Konvertierung).
+- **Übernommen — generalisierbare Fallpraxis zu §§ 357/101 PBG** (aus 5 der 12 Dateien, darunter
+  ein als «vertraulich & intern» markiertes 2020er-Mandat-Dokument): neuer Abschnitt
+  «Fallpraxis-Vertiefung» in [[ausnahmebewilligung-und-bestandesschutz]] — Attikageschoss-
+  Präzedenzfall (BRKE II Nr. 0130/2007), ein dokumentierter Grenzfall (Baurekurskommission II
+  27.6.1995 vs. VGr-Beschwerdeentscheid 19.12.1996, Kniestock/Firsthöhen-Erweiterung dennoch
+  zulässig), **technische Abbruchreife** als eigene Bestandesschutz-Grenze (RRB Nr. 1294/1995 =
+  BEZ 1996 Nr. 5; Gegenbeispiel VB 94/0016 = RB 1994 Nr. 72), **Ermessensspielraum der Gemeinden**
+  bei §§ 357/101 PBG mit Zurückhaltungspflicht des Baurekursgerichts (VB.2003.00196 = RB 2003
+  Nr. 14 = BEZ 2004 Nr. 8, § 20 Abs. 1/§ 50 VRG), § 101 PBG als bestätigte Sondernorm, Literatur
+  Konrad Willi (Diss. Zürich 2003). **Alle Adressen, Parzellennummern, Flächenberechnungen und
+  der Verfahrensstand des zugrundeliegenden Mandats wurden nicht übernommen** — die Fallzitate
+  sind als Sekundärquelle gekennzeichnet, **nicht am Originalurteil verifiziert** (neuer offener
+  Punkt in `wiki/QUESTIONS.md`).
+- **NEU** `wiki/stockwerkeigentum-teilungsplan-und-begruendung.md` (`status: emerging`) — erster
+  Artikel der KB zu Stockwerkeigentum: üblicher Inhalt eines Teilungsplans/Aufteilungsplans
+  (Notariat-ZH-/cadastre-manual.admin.ch-Quellen, vollständig generisch); **Fassungsstand-Fund:**
+  «Art. 712ebis ZGB» aus der Quelldatei existiert im **geltenden** Recht nicht (gegen den
+  amtlichen ZGB-Volltext via `fedlex.data.admin.ch`, ELI `24/233_245_233`, Stand 1.1.2026,
+  geprüft) — es handelt sich um eine **Entwurfsbestimmung** der laufenden Stockwerkeigentums-
+  Revision (Botschaft des Bundesrats, WebSearch-Verifikation), noch nicht in Kraft; im Artikel
+  entsprechend als offener Fassungsstand markiert statt als geltendes Recht übernommen. Dazu
+  ein **namenlos abstrahiertes Verfahrensskelett** einer STWEG-Begründung (Reglement-Entwurf →
+  Aufteilungspläne → juristische Prüfung → notarielle Begründung → Grundbucheintrag →
+  Buchführung → Käufer-Kommunikation), destilliert aus einer klientengebundenen Checkliste unter
+  vollständigem Verzicht auf Projektname, Klientenname, Termine und Verantwortlichkeiten.
+- **Nicht übernommen (Klientengeheimnis/Echo-Schutz-Grenze):** eine namentlich für ein 2020er-
+  Mandat verfasste, als vertraulich markierte Gesamt-Zusammenfassung (Adressen/Parzellen/
+  Flächenberechnungen/Verfahrensstand), zwei weitere adressgebundene Dokumente derselben Causa
+  (enthalten primär bereits im Standardwerk-Destillat vorhandene FBK-Zitate, eine noch offene
+  Fallzahl VB.2012.00531 als neuer Cross-Check-Punkt vermerkt), eine namentlich klientengebundene
+  STWEG-Projekt-Checkliste (Projekt/Klient/Termine entfernt, nur das Verfahrensskelett blieb).
+  Eine branchenfremde Datei (Sitzungsprotokoll-Vorlage eines fremden Architekturbüros mit
+  Platzhalternamen) enthielt keinen Baurecht-Inhalt und wurde ignoriert.
+- **GEÄNDERT** `wiki/QUESTIONS.md` (Cross-KB-Eintrag auf ✅ GEKLÄRT gesetzt, Einzelfall-Ergebnis
+  je Datei dokumentiert, zwei neue offene Punkte: Fallzitate-Originalverifikation, VB.2012.00531
+  vs. BEZ 1996 Nr. 30), `wiki/INDEX.md` (neue Sektion «Stockwerkeigentum»).
+- `git diff --numstat` (nativ) nach jedem Schreibvorgang geprüft: nur gezielte Additionen an den
+  erwarteten Stellen (`ausnahmebewilligung-und-bestandesschutz.md` +47/-2, `INDEX.md` +3/-0,
+  `QUESTIONS.md` +45/-1, neuer Artikel als Neuanlage), keine unerwarteten Löschungen.
+- REPORT `outputs/2026-08-24_buch-run120.md`.
+
 ## 2026-08-24 — Buch-Run 119: die von Buch-Run 118 offen gelassenen zwei Sätze im Näherbaurecht-Destillat am Original nachgeführt (Station mit funktionierendem node/M365-Zugriff), Cross-KB-Dublettencheck vorbereitet
 
 - **Ausgangslage:** Buch-Run 118 hatte einen von drei kaputten Sätzen im Näherbaurecht-Destillat

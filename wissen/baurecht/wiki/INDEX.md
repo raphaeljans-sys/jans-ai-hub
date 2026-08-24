@@ -98,6 +98,9 @@ oder umbenannten Artikel aktualisieren.
 - [[19-baulicher-umweltschutz]] (Destillat Bd 2, Kap. 19 Teil 1) — Buchsynthese USG/LRV/LSV-Grundlagen + Lärm ES I-IV/Art. 31/32 LSV (S. 1357-1403), Belegquelle · *emerging*
 - [[19-baulicher-umweltschutz-teil2-laerm-nisv]] (Destillat Bd 2, Kap. 19 Teil 2) — Buchsynthese Lärmschutz-Detail 19.3 + NIS 19.4/Mobilfunk (S. 1404-1431), **schliesst Kap. 19**, Belegquelle · *emerging*
 
+### Stockwerkeigentum
+- [[stockwerkeigentum-teilungsplan-und-begruendung]] — **Teilungsplan/Aufteilungsplan**: üblicher Inhalt (Grundrisse 1:100, Nummerierung, Flächenmasse, Reglement-Verweis), **heute keine Rechtspflicht** (Art. 712e ZGB kennt nur die Wertquote), **laufende Revision Art. 712ebis E-ZGB** macht ihn verpflichtend + Berichtigungsanspruch — **noch nicht in Kraft** (Fassungsstand vor Verwendung neu prüfen); generisches **STWEG-Begründungsverfahren-Skelett** (Reglement → Aufteilungspläne → jur. Prüfung → notarielle Begründung → Grundbucheintrag → Buchführung); Cross-KB-Herkunft `wissen/energie`, Klientendetails bewusst nicht übernommen · *emerging*
+
 ## Noch nicht angelegt (Backlog / Lücken)
 Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - Bauen im Bestand / im Betrieb (Healthcare-Spezifika; Grundprinzip steht in [[bestandsumbau-eingriffstiefe]])

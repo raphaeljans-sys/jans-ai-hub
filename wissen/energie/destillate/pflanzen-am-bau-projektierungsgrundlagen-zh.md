@@ -158,8 +158,13 @@ Für die rechtliche Begrünungspflicht der Stadt Zürich (BZO Art. 11) ist aussc
 
 ## Offene Punkte
 
-- Zwei mögliche PL-02-Dubletten mit anderem Basenamen ungeprüft (vgl. `pdf-inventar.md`
-  Nachtrag 15.08., «Mess-Artefakt»-Familie): keine weitere in diesem Baum bekannt.
+- **Dublette identifiziert und geklärt (24.08.2026, Registersammellauf 03.16):** `[[eco-bau-
+  pflanzen-am-bau]]` destilliert dieselbe Quelldatei `5.26PflanzenamBau.pdf` unabhängig (Run
+  144). Kein Merge (Rule `wissens-bibliothekar`), stattdessen Arbeitsteilung: dieses Destillat
+  bleibt die zu zitierende Fassung (bereits in `wiki/dachbegruenung-gruendach.md` verlinkt,
+  Norm-Nachfolge SIA 271/312 hier korrigiert); der Zwilling ergänzt mit der ausführlicheren
+  Primärenergiegehalt-Tabelle (Kapitel 7, MJ/R-Werte) und der ausdrücklichen Feststellung, dass
+  Gründach+PV im Dokument nicht vorkommt.
 - ~~SIA-271-Nachfolgenorm weiterhin ungeklärt (Bring-Schuld Ticket N57-2, KB `normen`)~~ —
   **gegenstandslos, gestrichen 20.08.2026 (Wissens-Chef Run 38).** Der Punkt beruhte auf zwei
   Irrtümern: SIA 271:2007 ist nicht zurückgezogen, und Ticket N57-2 betrifft **SIA 416/1:2007**,

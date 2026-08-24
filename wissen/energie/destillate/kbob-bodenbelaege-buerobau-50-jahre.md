@@ -26,8 +26,16 @@ ist rund 19 Jahre alt und selbst schon als methodisch überholt markiert). Die
 Graue-Energie-Rechenwerte dieser 2000er-Empfehlung sind gegenüber den heute gültigen
 KBOB-Ökobilanzdaten (die JANS-Wissensbasis führt bereits Version 8.0, siehe
 [[kbob-graue-treibhausgasemissionen-2025]]) mit hoher Wahrscheinlichkeit überholt und dürfen
-**nicht** als aktueller Rechenwert verwendet werden. Kein bestehendes Destillat behandelt
-speziell Bodenbeläge — dieses Destillat ist eigenständig, kein Duplikat.
+**nicht** als aktueller Rechenwert verwendet werden.
+
+⚠ **Berichtigt (24.08.2026, Registersammellauf 03.16): die Aussage «kein Duplikat» war falsch.**
+`[[bodenbelaege-buerobau-kbob-vergleich-50-jahre]]` (Run 146, 20.08.2026) destilliert dieselbe
+Quelldatei `Bodenbelaege(KBOB2000_1).pdf` unabhängig — am `quelle`-Feld wortgleich verifiziert.
+Kein Merge (Rule `wissens-bibliothekar`: destruktive Aktion braucht Rückfrage), stattdessen
+Arbeitsteilung: dieses Destillat trägt die ausführlicheren Graue-Energie-Rechenwerte je Beilage
+(Tabelle unten) und die wörtlichen KBOB-Zitate; der Zwilling beantwortet die hier unten offen
+gelassene Frage zu SIA 493 bereits (archiviert seit 30.06.2022, siehe dort «Offene Punkte» und
+[[oekologische-materialvorgaben-beschaffung]]).
 
 ## Methodik und Annahmen
 
@@ -189,9 +197,9 @@ Bodenbelag, Kleber, Spachtel usw.»
   überlagerter Spaltenbeschriftung nicht mit ausreichender Sicherheit rekonstruieren und wurde
   deshalb **nicht** übernommen — nur die klar lesbaren «Daten»-Blöcke der 4 Beilagen. Für eine
   konkrete Kostenvergleichsrechnung ist die Originaltabelle im PDF visuell heranzuziehen.
-- Ob **SIA 493** (Deklaration ökologischer Merkmale von Baustoffen, 1997, in der Quelle
-  referenziert) noch die geltende Norm ist oder durch eine Nachfolgenorm abgelöst wurde, ist
-  hier nicht geprüft — bei Bedarf über Skill `normen` verifizieren.
+- **SIA 493 geklärt (siehe Zwilling):** die Norm ist seit 30.06.2022 archiviert, siehe
+  `[[bodenbelaege-buerobau-kbob-vergleich-50-jahre]]` und
+  `[[oekologische-materialvorgaben-beschaffung]]` — hier nicht erneut recherchiert.
 - Die qualitative ●●●/●●/●-Bewertung je Belag (Herstellung, Verarbeitung, Nutzung, Entsorgung)
   wurde nicht vollständig tabellarisch reproduziert (Begründung siehe oben, Abschnitt
   «Methodik und Annahmen»); bei Bedarf im Original-PDF nachschlagen.

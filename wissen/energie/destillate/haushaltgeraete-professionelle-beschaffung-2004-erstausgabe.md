@@ -49,6 +49,14 @@ Die konkreten Frankenbeträge dieser Ausgabe (900/5'300/3'900 Franken, 20 Rp./kW
 ## Bezug zu anderen Destillaten
 - `[[haushaltgeraete-effizienz-beschaffung-topten]]` — 2., revidierte Auflage Januar 2008 (führendes Destillat für die Prioritätentabelle)
 - `[[topten-haushaltgeraete-liegenschaftenverwaltung]]` — 3., revidierte Auflage November 2008 (jüngste bekannte Auflage)
+- ⚠ **Dublette identifiziert (24.08.2026, Registersammellauf 03.16):**
+  `[[haushaltgeraete-professionelle-beschaffung-stadt-zh]]` (Run 144, 19.08.2026) destilliert
+  **dieselbe** Quelldatei unabhängig — kein eigenständiges Dokument, sondern derselbe November-
+  2004-Flyer. Kein Merge (Rule `wissens-bibliothekar`), Arbeitsteilung: der Zwilling trägt den
+  detaillierten Zahlen-Vergleich Schwelle-für-Schwelle gegen die 2008er-Prioritätentabelle
+  (Kühlgeräte A++/A+ vs. A++, Kochfelder, Tumbler, Kühlschrankvergleich A+/B vs. A++/A,
+  Minergie-Wohnung-Beispiel, Beschaffungsstatistik-Trend 2003→2006) — genau die Tabellenarbeit,
+  die diese Fassung oben bewusst nicht wiederholt hat.
 
 ## Offene Punkte
 - ~~Differenz der Wärmepumpen-Tumbler-Ersparnis (5'300 CHF gegen 3'900 CHF)~~ **GESCHLOSSEN

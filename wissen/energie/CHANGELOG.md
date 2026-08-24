@@ -1,5 +1,35 @@
 # CHANGELOG
 
+## 2026-08-24 — Automatischer Lauf: Registersammellauf 03.16 — drei Duplikat-Paare abgeglichen, eine Falschaussage korrigiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den CHANGELOG-Stand
+(letzter Eintrag: 03.13 TKN-Berechnungsmethodik). Vor neuer Recherche zuerst den `- [ ]`-Bestand
+gegengeprüft: A-P2/A-P3/03.13/03.15 bereits erledigt, E103/E94/E-R148-1/E-R161-1 an Raphaels
+Entscheid gebunden, `wiki-konsistenz.sh` fand nur bereits dokumentierte False-Positives (12
+Treffer, u.a. FAQ-interne Fragenanchors `[[F16]]`/`[[F71]]`/`[[F77]]`/`[[F245]]`). Einziger echter
+Rest: drei von `destillate/INDEX.md` seit einem früheren Lauf desselben Tages offen benannte
+Duplikat-Paare («nicht abgeglichen, gehört in den Registersammellauf 03.16»).
+
+Alle drei bearbeitet, durchgehend ohne Merge (Rule `wissens-bibliothekar`): (1)
+`[[eco-bau-pflanzen-am-bau]]` ↔ `[[pflanzen-am-bau-projektierungsgrundlagen-zh]]` (identische
+PL-02-Datei `5.26PflanzenamBau.pdf`) — Zwilling bleibt zu zitierende Fassung, verlinkt Norm-Status
+SIA 271/312. (2) `[[kbob-bodenbelaege-buerobau-50-jahre]]` ↔ `[[bodenbelaege-buerobau-kbob-
+vergleich-50-jahre]]` (identische KBOB-Empfehlung 2000/1) — dabei eine echte **Falschaussage
+korrigiert**: das erste Destillat behauptete «kein bestehendes Destillat behandelt Bodenbeläge,
+kein Duplikat», obwohl der Zwilling zu diesem Zeitpunkt bereits vier Tage im Bestand war. (3)
+`[[haushaltgeraete-professionelle-beschaffung-stadt-zh]]` ↔ `[[haushaltgeraete-professionelle-
+beschaffung-2004-erstausgabe]]` (identische November-2004-Datei, vom Duplikat-Scan zunächst wegen
+eines Mojibake-Dateinamens übersehen) — dabei eine bereits gelöste Differenz propagiert: die
+Wärmepumpen-Tumbler-Diskrepanz (5'300 vs. 3'900 CHF), die `stadt-zh` nur als «nicht umrechenbar»
+stehen liess, ist im Zwilling unter Ticket E-R147-1 bereits nachgerechnet und aufgelöst.
+
+Jede der sechs betroffenen Dateien trägt jetzt einen wechselseitigen «Verhältnis zum Zwilling/zur
+Dublette»-Abschnitt; `destillate/INDEX.md` an allen sechs Tabellenzeilen nachgeführt. Details und
+vollständige Belegkette: `wiki/QUESTIONS.md`, Abschnitt vom selben Tag («Registerpflege 03.16»,
+drei Duplikat-Paare). `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend
+additiv/präzisierend (INDEX.md +6/-6 als sechs Zeilenersetzungen, sonst nur Ergänzung), keine
+Löschung von Bestand.
+
 ## 2026-08-24 — Interaktive Session: 03.13 geschlossen — TKN-Berechnungsmethodik für Solarthermie-Förderung primärquellen-belegt
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den CHANGELOG-Stand.

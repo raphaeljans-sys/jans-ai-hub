@@ -27,6 +27,17 @@ unter «Offene Punkte» als «ABWEICHENDE Fassung, in diesem Lauf nicht gelesen�
 Übereinstimmendes wird hier **nicht** wiederholt — nachfolgend nur, was die 2004er-Fassung
 **zusätzlich** oder **anders** sagt als die 2008er-Fassung.
 
+⚠ **Dublette identifiziert (24.08.2026, Registersammellauf 03.16):** `[[haushaltgeraete-
+professionelle-beschaffung-2004-erstausgabe]]` destilliert **dieselbe** November-2004-PDF
+(identische Datei, Dateiname dort nur mit Mojibake-Artefakt «gerÑte» statt «geräte») unabhängig
+und später (23.08.2026, E-R147-1). Kein Merge (Rule `wissens-bibliothekar`), Arbeitsteilung:
+diese Fassung trägt den detaillierten Zahlen-Vergleich Schwelle-für-Schwelle gegen die 2008er-
+Tabelle (unten); der Zwilling trägt die vier quantifizierten Rechenbeispiele (Wärmepumpen-
+Tumbler, Kühlgeräteklassen, Warmwasseranschluss, Beschaffungsstatistik) inkl. **einer bereits
+aufgelösten Differenz**: die hier unten offen benannte Wärmepumpen-Tumbler-Differenz (5'300 vs.
+3'900 CHF) ist im Zwilling nachgerechnet und erklärt — Ursache ist die abweichende
+Verbrauchsannahme (0,32/0,67 kWh/kg gegen 0,34/0,60 kWh/kg), kein Redaktionsfehler.
+
 ## Was 2004 gegenüber 2008 anders sagt
 
 ### Einkaufskriterien-Tabelle — abweichende Schwellen

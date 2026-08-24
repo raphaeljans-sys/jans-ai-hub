@@ -1,6 +1,6 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
-## Cross-KB-Übergabe von `wissen/energie` (24.08.2026) — 12 nie gesichtete Baurecht-/STWEG-docx in PL-02
+## ✅ GEKLÄRT 2026-08-24 (Buch-Run 120) — Cross-KB-Übergabe von `wissen/energie` (24.08.2026) — 12 nie gesichtete Baurecht-/STWEG-docx in PL-02
 
 **Herkunft:** `wissen/energie` hat PL-02 Recht_Norm am 23.08.2026 (Run 161, Fortsetzung
 «E-R161-3») erstmals filterlos (ohne Dateityp-Filter) gezählt, um KI-generierte Dokumente
@@ -74,6 +74,50 @@ Einzelfall-Prüfung je Datei — welcher Absatz ist verallgemeinerbare Rechtsarg
 (Besitzstandsgarantie-Dogmatik, STWEG-Teilungsplan-Vorgehen) und welcher ist Klientengeheimnis —,
 bevor irgendein Inhalt daraus ins Wiki wandert. Das ist eine Lektüre- und Abwägungsarbeit, kein
 reiner Dublettencheck, und bleibt für einen eigenen künftigen Lauf offen.
+
+**Einzelfall-Prüfung durchgeführt (Buch-Run 120, 2026-08-24).** Alle 12 Dateien einzeln gelesen
+(M365-Graph-Zugriff, `textutil`-Konvertierung). Ergebnis:
+
+- **4 Dateien (Besitzstandsgarantie-Ordner) sind Fassungsvarianten desselben generalisierbaren
+  Dogmatik-Digests** (Rechtsprechung zu Art. 357/§ 101 PBG, keine Parzellen-/Adressangabe in den
+  Kernaussagen selbst, nur im Titelblock einer Fassung) — Inhalt übernommen, siehe unten.
+- **1 Datei (`200529 Zusammenfassung Baurecht`) ist der ausführlichste Fund**, explizit als
+  «vertraulich & intern» markiert, für ein konkretes Mandat (Seehaldenstrasse 22/24, Thalwil,
+  Kat.-Nr. 9779/7805) verfasst — **Adressen, Parzellennummern, Flächenberechnungen und
+  Verfahrensstand NICHT übernommen**; die darin zitierte generalisierbare Fallpraxis (Besitzstands-
+  garantie-Rechtsprechung, Ermessensspielraum-Doktrin, Literatur Konrad Willi Diss. 2003) wurde
+  **stripped of alle Klientendetails** in [[ausnahmebewilligung-und-bestandesschutz]] übernommen
+  (neuer Abschnitt «Fallpraxis-Vertiefung»).
+- **2 weitere Dateien** (`200819 BR Gesetzestexte`, `200831 BR Grundstück`) sind ebenfalls
+  projektgebunden (dieselbe Adresse Seehaldenstrasse 31, andere Parzelle) und enthalten primär
+  bereits im Standardwerk-Destillat vorhandene FBK-Zitate + eine Fallzahl (VB.2012.00531, Steildach
+  10°-Schwelle) — **nicht übernommen**, da Client-Kontext überwiegt und die Fallzahl ohne
+  Originalprüfung nicht sicher derselben Rechtsfrage zuzuordnen ist wie die bereits als
+  «BEZ 1996 Nr. 30» geführte Parallelfrage aus T8 (`wiki/QUESTIONS.md`-Historie); als offener
+  Punkt unten vermerkt.
+- **1 Datei (`200508 Aktennotiz-Baurecht.dotx`) ist branchenfremd** — ein Sitzungsprotokoll-
+  Template eines fremden Architekturbüros (Marcel Meili, Markus Peter Architekten) mit
+  Platzhalter-Namen, kein Baurecht-Inhalt, kein Klientenbezug. Kein Ingest, keine Relevanz.
+- **2 Dateien (`_Links`, `_Wesentliche Bestandteile eines Aufteilungsplans`) sind vollständig
+  generisch** (öffentliche Notariat-ZH-/cadastre-manual.admin.ch-Quellen, keine Klientendaten) —
+  vollständig übernommen in den neuen Artikel [[stockwerkeigentum-teilungsplan-und-begruendung]].
+- **1 Datei (`Checkliste_STWEG_Begruendung_WOMA`) ist eine namentlich klientengebundene
+  Projekt-Checkliste** (Projekt Zürichstrasse 113/115 Ebmatingen, Klient WOMA/Christoph Bopp,
+  Termine, Verantwortlichkeiten) — **nicht übernommen**; nur das namenlose, abstrahierte
+  Verfahrensskelett (Reihenfolge der Arbeitsschritte einer STWEG-Begründung) wurde in denselben
+  neuen Artikel destilliert.
+
+**Neuer offener Punkt aus diesem Fund:** die Fallzitate im neuen Abschnitt
+«Fallpraxis-Vertiefung» in [[ausnahmebewilligung-und-bestandesschutz]] (BRKE II Nr. 0130/2007,
+Baurekurskommission-Entscheid 27.6.1995/VGr-Beschwerdeentscheid 19.12.1996, RRB Nr. 1294/1995 =
+BEZ 1996 Nr. 5, VB 94/0016 = RB 1994 Nr. 72, VB.2003.00196 = RB 2003 Nr. 14 = BEZ 2004 Nr. 8)
+stammen aus einer **Sekundärquelle** (Raphael Jans, eigener Digest 2020) und sind **nicht am
+Originalurteil verifiziert** — für ein künftiges Mandat vor verbindlicher Verwendung am Original
+prüfen (Muster: Run 104/108, `entscheidsuche.ch`/Baurekursgericht-Datenbank). **Zusätzlich
+offen:** ob VB.2012.00531 (Steildach-10°-Schwelle, aus den nicht übernommenen Dateien) dieselbe
+Rechtsfrage betrifft wie die bereits als offen geführte BEZ-1996-Nr.-30-Frage zur Übertragbarkeit
+der 10°-Schwelle auf besondere Gebäude (T8, Run 79) — beide Fallzahlen bisher nicht am Original
+geprüft, keine der beiden bestätigt die andere.
 
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 98) — ZH-Mehrwertausgleich (MAG): Buchstand 2019 war Entwurf, erlassener Text weicht in den Prozentsätzen ab
 

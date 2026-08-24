@@ -93,3 +93,9 @@ bzw. eine aktuelle Herstellerkalkulation heranzuziehen, nicht diese Quelle.
 - Die Zuordnung zu heute geltenden Normen (SIA 493 ist seit 30.06.2022 archiviert, siehe
   `[[oekologische-materialvorgaben-beschaffung]]`) ist hier nicht nachgeführt — die Quelle zitiert
   SIA 493 in der Fassung 1997.
+- **Dublette identifiziert und geklärt (24.08.2026, Registersammellauf 03.16):** `[[kbob-
+  bodenbelaege-buerobau-50-jahre]]` (Run 144) destilliert dieselbe Quelldatei unabhängig. Kein
+  Merge (Rule `wissens-bibliothekar`), stattdessen Arbeitsteilung: der Zwilling trägt die
+  ausführlicheren Graue-Energie-Rechenwerte je Belag/Beilage (MJ/m²-Tabelle) und die wörtlichen
+  KBOB-Zitate; diese Fassung ist die kompaktere Übersichtsversion und beantwortet den
+  SIA-493-Status.

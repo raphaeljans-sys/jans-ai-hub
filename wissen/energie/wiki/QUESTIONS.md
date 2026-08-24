@@ -5185,3 +5185,71 @@ Destillate/Zitierstellen gegengeprüft.
   (neue Datei, kein Diff-Risiko), `solarthermie-vs-pv-warmwasser-ch.md` +5/-0,
   `wiki/BAUHERREN-FAQ.md` +9/-4 (Ersetzung der Warnzeile durch die Erklärung, plus Quellenzeile),
   `destillate/INDEX.md` +1/-0 — durchgehend additiv/präzisierend, keine Löschung von Bestand.
+
+## 2026-08-24 (automatischer Lauf, Fortsetzung «Registerpflege 03.16») — drei offen benannte Duplikat-Paare abgeglichen
+
+Auftrag: weitere offene Fragen abarbeiten, Anschluss an den heutigen CHANGELOG-/QUESTIONS-Stand
+(zuletzt 03.13 geschlossen). Vor neuer Recherche zuerst geprüft, was vom `- [ ]`-Bestand
+überhaupt noch ohne Raphaels Entscheid bearbeitbar ist: A-P2 18/18 erledigt, A-P3 14/17 + 03.13/
+03.15 zusätzlich geschlossen, E103/E94/E-R148-1/E-R161-1 weiterhin an Normkauf/Projektdaten
+gebunden, E-R129-5/E-WC32-1/E-R134-3/E-R150-3 bewusst P3/P4. Der `wiki-konsistenz.sh`-Lauf
+(24.08.2026) fand nur noch 12 Befunde, alle bereits als False-Positives dokumentiert
+(FAQ-interne Fragenanchors `[[F16]]`/`[[F71]]`/`[[F77]]`/`[[F245]]`, Zeilenumbruch-Artefakte in
+historischem Journaltext, `[[sia-2024-nutzungsdaten-gesundheitsbau]]` als reiner
+QUESTIONS.md-Verweis) — kein neuer Fund dort.
+
+**Verbleibender echter Rest aus 03.16:** drei Duplikat-Paare, die `destillate/INDEX.md` seit der
+ersten Teilabarbeitung (früherer Lauf desselben Tages) ausdrücklich als «nicht in diesem Lauf
+abgeglichen, gehört in den Registersammellauf 03.16» führte. Alle drei jetzt bearbeitet — Prinzip
+durchgehend: **kein Merge** (Rule `wissens-bibliothekar`, destruktive Aktion braucht Rückfrage),
+stattdessen wechselseitiger «Verhältnis zum Zwilling/zur Dublette»-Abschnitt in beiden Dateien,
+der die zu zitierende Fassung benennt und die Arbeitsteilung erklärt:
+
+1. **`[[eco-bau-pflanzen-am-bau]]` ↔ `[[pflanzen-am-bau-projektierungsgrundlagen-zh]]`** (identische
+   PL-02-Datei `5.26PflanzenamBau.pdf`, am `quelle`-Feld wortgleich verifiziert). Der Zwilling
+   `pflanzen-am-bau-projektierungsgrundlagen-zh` bleibt die zu zitierende Fassung (bereits in
+   `wiki/dachbegruenung-gruendach.md` verlinkt, trägt die korrigierte Norm-Nachfolge SIA
+   271:2007/SIA 312:2013); `eco-bau-pflanzen-am-bau` verweist jetzt darauf, seine bislang offene
+   Norm-Frage ist dort beantwortet.
+2. **`[[kbob-bodenbelaege-buerobau-50-jahre]]` ↔ `[[bodenbelaege-buerobau-kbob-vergleich-50-jahre]]`**
+   (identische PL-02-Datei `Bodenbelaege(KBOB2000_1).pdf`). Dabei eine echte Falschaussage
+   korrigiert: `kbob-bodenbelaege-buerobau-50-jahre` behauptete im Bestand «kein bestehendes
+   Destillat behandelt speziell Bodenbeläge — dieses Destillat ist eigenständig, kein Duplikat»
+   — das war zum Zeitpunkt der Behauptung bereits falsch (der Zwilling existierte seit Run 146,
+   20.08.2026, vier Tage vor der Behauptung). Berichtigt; die offene SIA-493-Frage dieses
+   Destillats ist im Zwilling bereits beantwortet (archiviert seit 30.06.2022).
+3. **`[[haushaltgeraete-professionelle-beschaffung-stadt-zh]]` ↔
+   `[[haushaltgeraete-professionelle-beschaffung-2004-erstausgabe]]`** (identische
+   November-2004-Datei, Dateiname im zweiten
+   Destillat nur mit Mojibake-Artefakt «gerÑte» statt «geräte» geführt — deshalb vom
+   INDEX-Duplikat-Scan zunächst als «drei Destillate im Familienkreis» statt als echtes Duplikat-
+   Paar eingeordnet). Beide destillieren unabhängig voneinander dieselbe Checkliste: `stadt-zh`
+   trägt den detaillierten Schwellen-Vergleich gegen die 2008er-Prioritätentabelle,
+   `2004-erstausgabe` trägt die vier Rechenbeispiele. Dabei wird eine bereits gelöste Differenz
+   propagiert: `stadt-zh` hatte dieselbe Wärmepumpen-Tumbler-Differenz (5'300 vs. 3'900 CHF)
+   gefunden, aber nur als «nicht ineinander umrechenbar» stehen lassen — `2004-erstausgabe` hat
+   sie unter Ticket E-R147-1 (23.08.2026) bereits nachgerechnet und aufgelöst (abweichende
+   Verbrauchsannahme 0,32/0,67 gegen 0,34/0,60 kWh/kg, kein Redaktionsfehler); jetzt in `stadt-zh`
+   verlinkt, damit die Auflösung nicht doppelt gesucht wird.
+
+`destillate/INDEX.md` an allen sechs betroffenen Tabellenzeilen nachgeführt (die drei neueren
+Einträge von «Duplikat-Risiko/nicht abgeglichen» auf «Dublette abgeglichen» mit Kurzerklärung
+umgestellt, die drei älteren um einen Rückverweis ergänzt).
+
+**Damit ist der dritte der vier in 03.16 ursprünglich benannten Baustellen (Duplikat-Paare)
+abgeschlossen.** Weiterhin offen aus 03.16: die verbleibenden Fein-Statuswerte/tote-Links-Reste
+sind laut den Läufen desselben Tages bereits vollständig erfasst (Backlink-Hygiene-Register Run
+123 abschliessend bereinigt) — kein Suchproblem mehr, nur noch die bereits benannten sechs
+Zielkorrekturen, die ihrerseits schon behoben sind. Nach heutigem Stand ist **kein weiterer,
+ohne Raphaels Entscheid lösbarer Punkt** im `- [ ]`-Bestand erkennbar; der A-BLIND-Faden
+(Primärquellenverifikation der nächsten meistzitierten Destillate) bleibt der einzige noch offene,
+aber bewusst nicht tagesweise geplante Dauerauftrag.
+
+Beleg: `git diff --numstat` (rein lesend, kein Commit/Push) nach jedem Schreibvorgang geprüft:
+`eco-bau-pflanzen-am-bau.md` +17/-1,
+`pflanzen-am-bau-projektierungsgrundlagen-zh.md` +7/-2, `kbob-bodenbelaege-buerobau-50-jahre.md`
++13/-5 (davon 5 Zeilen die korrigierte Falschaussage ersetzend), `bodenbelaege-buerobau-kbob-
+vergleich-50-jahre.md` +6/-0, `haushaltgeraete-professionelle-beschaffung-stadt-zh.md` +11/-0,
+`haushaltgeraete-professionelle-beschaffung-2004-erstausgabe.md` +8/-0, `destillate/INDEX.md`
++6/-6 (sechs Zeilenersetzungen, keine Löschung von Bestand) — durchgehend
+additiv/präzisierend/korrigierend, keine Löschung von Substanz.

@@ -1,3 +1,110 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung, G41-3 geschlossen (DIN 18232-2:2003-06 gegen 2007-Fassung): Durchflussbeiwerte wertgleich, nur Anhang-Buchstabe verschoben
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG-Kopf und
+Report des letzten Laufs zuerst gelesen (Sättigungs-Serie SIA-Sweep, s. Einträge unten).
+Diese KB (`wiki/QUESTIONS.md`, `training/norm-inventar.md`) gilt seit mind. zehn unabhängigen
+Läufen am 24.08.2026 für den SIA-Sweep-Auftrag als gesättigt (0 offene Inventar-Zeilen, alle
+33 QUESTIONS-Punkte an Kauf-/Struktur-Entscheide Raphaels oder erschöpfte Quellen gebunden).
+**Bewusst kein 31. Sättigungs-Duplikat** — stattdessen gezielt in Run-41-Bestand
+(Lignatec/GVZ/Hindernisfreies Bauen/PAVIDENSA, Zeile 2260) nach Punkten gesucht, die weder
+Kauf noch Raphael-Entscheid brauchen. Betriebsbefund (Endlosschleife des auslösenden Loops)
+bereits in `logbuch/fristen.md` eskaliert (05:29 Uhr) und dort unverändert offen — kein
+weiterer Eintrag (Rule `auto-verbesserungen` 260803: kein Register-Rauschen durch Wiederholung).
+
+**Gefunden und geschlossen: G41-3.** Die GVZ-Richtlinie 30.17.3 (Merkblatt «RWA/Einstellraum
+Parkhaus», 11.04.2011, Destillat `destillate/gvz-rwa-parkhaus-einstellraum.md`) übernimmt ihre
+Durchflussbeiwert-Tabelle ausdrücklich aus DIN 18232-2:2003-06, Anhang C, Tabelle C.1 — eine
+Fassung, die in dieser KB nicht separat vorliegt. Verglichen gegen die einzige im Haus
+vorhandene, aktuell gültige Primärquelle **DIN 18232-2:2007-11, Anhang B (informativ),
+Ziff. B.2, Tabelle B.1, S. 28-29** (`destillate/din-18232-2-2007.md`, Status `established`):
+die Werte sind **wertgleich** (vollständig geöffnete Fläche c = 0,65; Jalousien 90° c = 0,65;
+Dreh-/Kippflügel ≥60° c = 0,5, ≥45° c = 0,4, ≥30° c = 0,3; Öffnungswinkel-Toleranz ±5°). Nur
+der Anhang-Buchstabe verschob sich C→B — erklärt durch das Vorwort der 2007-Fassung (S. 4),
+das die Streichung des alten Anhangs A vermerkt (Inhalt ging in DIN EN 12101-2:2003-09 auf),
+wodurch alter Anhang B zu A und alter Anhang C zu B rückten. **Keine Korrektur am
+GVZ-Destillat nötig** — die 2011 übernommenen Kennwerte sind gegen die aktuell gültige
+DIN-Fassung bestätigt. Fund in beiden Dateien nachgetragen: `wiki/QUESTIONS.md` (G41-3-Absatz,
+Run-41-Kopfzeile aktualisiert) und `destillate/gvz-rwa-parkhaus-einstellraum.md` (Abschnitt
+«Offene Punkte»).
+
+**Verbleibend im selben Bestand, weiterhin echte Bring-Schulden/Auslegungsfragen (nicht
+bearbeitet, damit hier keine Spekulation entsteht):** G41-1 (Auslegungsfrage an die Kantonale
+Feuerpolizei ZH, nicht aus der Quelle beantwortbar), G41-2 (ob eine neuere GVZ-Merkblattausgabe
+existiert — Web-Check nicht Teil dieses Laufs), Lignatec L41-1/-2/-4 (Tabellenrunde am
+Original nötig, Seiteninventur liegt vor, aber nicht in diesem Lauf gefahren), Hindernisfreies
+Bauen H41-1/-2/-3/-4 (Rechtsfrage bzw. fehlende Merkblätter), restliche PAVIDENSA-Punkte
+(P41-3/-4/-5, Quelleneigenheiten ohne Beleg für einen Fehler).
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft —
+`gvz-rwa-parkhaus-einstellraum.md` 13 Zeilen hinzugefügt/4 ersetzt (eigener «Offene
+Punkte»-Absatz, angekert ersetzt, keine fremde Löschung), `wiki/QUESTIONS.md` 12
+hinzugefügt/1 ersetzt (Kopfzeile aktualisiert + G41-3-Antwortblock angefügt). Kein globales
+Ersetzen verwendet (Rule `auto-verbesserungen` 260811).
+
+## 2026-08-24 — SIA-Sweep, fünfte unabhängige Sättigungsverifikation (~05:36-05:40 Uhr): Gap ausschliesslich SIA, DIN/VSS/RAL bestätigt sauber
+- Auftrag: SIA-Sweep fortsetzen (Register-Zeilen ohne Volltext, Produktdatenblätter mit
+  gültig-ab/gültig-bis, Register/Destillate nachführen). Report der vierten Verifikation
+  (`outputs/2026-08-24_sia-sweep-vierte-unabhaengige-saettigungsverifikation-0452uhr.md`)
+  zuerst gelesen, Kollisionscheck negativ (laufende Prozesse = eigener Lauf `mschub596`).
+- Eigene Nachmessung: `norm-inventar.md` weiterhin 0 offene Zeilen. `wiki/REGISTER.md`
+  Verteilung der 59 „Kein Volltext im Haus"-Zeilen erstmals nach Abschnitt aufgeschlüsselt:
+  54 in Abschnitt A (SIA-Gültigkeit), 3 in der geschlossenen 2013-Blindzone, 2 unter „FRISCH
+  GEMELDET" — **0 in Abschnitt B (DIN/VSS/RAL)**. Damit belegt: die Beschaffungslücke ist
+  ausschliesslich SIA; ein Mandatswechsel auf DIN/VSS/RAL (Alternative b der vierten
+  Verifikation) würde dort keine offenen Positionen vorfinden.
+- Kein neuer SIA-Sweep-Zyklus gefahren — alle 59 Zeilen sind belegte, kostenpflichtige
+  Bring-Schulden Raphaels (SIA-Shop). Betriebsbeobachtung (Minutentakt trotz dokumentierter
+  Sättigung seit Stunden) erneut sichtbar gemacht, nicht selbst behoben (fällt unter
+  `rules/betrieb-chronik.md`).
+- Report: `outputs/2026-08-24_sia-sweep-fuenfte-unabhaengige-saettigungsverifikation-0536uhr.md`.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung, elfte unabhängige Nachmessung (~05:35 Uhr): Sättigung erneut bestätigt, bewusst KEIN neuer Fristen-Eintrag
+
+**Auftrag:** identisch zu den zehn vorangehenden Einträgen dieses Tages (SIA-Sweep bzw.
+QUESTIONS-Abarbeitung der KB `wissen/normen`). Eigene, unabhängige Nachmessung: (1)
+`training/norm-inventar.md` — `grep -c '^\- \[ \]'` = **0** offene Positionen, bestätigt die
+Endbedingung aus `training/PROGRAMM.md` («INVENTAR KOMPLETT»). (2) `wiki/QUESTIONS.md` (5396
+Zeilen) manuell gegen Closure-Marker geprüft (Tail-Einträge 260731 bis N41-1, Zeilen 5077-5396):
+sämtliche dort geführten Punkte sind entweder bereits `GESCHLOSSEN` (u.a. E_vm-Bezugsgrössen,
+SIA 382/2-Verlinkung, VKF BRL 13-15/17-15, N61 Primärenergiefaktoren) oder echte Bring-Schulden
+Raphaels (NIN-Zugang kostenpflichtig, SIA 384/4:2025 Kauf 230 CHF, VSS SN 640 273a Kauf) bzw.
+Entscheide Raphaels (N60-1 AFC-Synopse-Duplikat: destruktiver Merge, Rule `wissens-bibliothekar`
+verlangt Rückfrage; N60-2 Methodik-Pflicht-14-Vorschlag: FREIGABE nötig). Keine dieser Positionen
+ist ohne Kauf oder Entscheid Raphaels selbständig abarbeitbar.
+
+**Bewusst KEIN neuer Eintrag in `logbuch/fristen.md`:** die Eskalation des Vorlaufs (05:29 Uhr,
+Betriebsbefund Endlosschleife `scripts/claude-run.sh --name mschub591`) steht dort weiterhin
+unverändert und unbeantwortet (`fristen.md` Zeilen 6-22, geprüft). Ein zwölfter identischer
+Eintrag würde dieselbe Beobachtung ein zweites Mal ins Register schreiben, ohne neuen Inhalt —
+das widerspricht Rule `auto-verbesserungen` 260803 («nicht sendewürdig sind … Selbstkorrekturen
+eines eigenen früheren Befunds, sofern der Fehler Raphaels Handeln nicht beeinflusst hätte»)
+sinngemäss auch für Register-Rauschen. Dieser CHANGELOG-Eintrag selbst ist knapp gehalten, um
+die Datei (10221 Zeilen vor diesem Lauf) nicht weiter mit wiederholter Analyse zu belasten.
+
+**Verifikation:** `git diff --numstat` nach dem Schreibvorgang geprüft — nur Anfügung (`+`),
+keine Löschung an fremdem Inhalt.
+
+## 2026-08-24 — SIA-Sweep, zehnte unabhängige Nachmessung (05:29 Uhr): Sättigung bestätigt, Betriebsbefund eskaliert statt erneut dokumentiert
+
+**Auftrag:** derselbe SIA-Sweep-Auftrag wie in den neun vorangehenden Einträgen dieses Tages.
+Eigene Nachmessung (`training/norm-inventar.md`: 0 offene Zeilen; `wiki/QUESTIONS.md`: 33
+offene Punkte, unveraendert) bestätigt exakt denselben Befund erneut — Details dazu absichtlich
+**nicht** ein elftes Mal ausgeschrieben, das steht bereits vollständig im Eintrag unmittelbar
+darunter (05:22 Uhr) und in den acht davor.
+
+**Neu an diesem Lauf: der Betriebsbefund selbst wurde eskaliert, nicht nur vermerkt.**
+`ps aux` zeigt den Runner `scripts/claude-run.sh --name mschub591` mehrfach parallel mit
+identischem Prompt; der CHANGELOG dieser KB zählt 30 Einträge allein zu diesem Auftrag am
+24.08.2026 (Datei ~800 KB). Der vorangehende Eintrag empfahl bereits, den auslösenden
+Scheduled Task/Loop zu stoppen, aber nur im CHANGELOG — einem Ort, den der tägliche Radar
+nicht liest. Rule `auto-verbesserungen` 260805 verlangt für Fristen-/Betriebsbefunde das
+Register, nicht nur den eigenen Laufbericht. Eintrag in `logbuch/fristen.md` gesetzt (neu,
+oben, Status offen, AKTION Raphael: Loop stoppen oder Intervall/Scope umstellen). Kein
+Eingriff in Runner/Cron selbst (Rule `interaktive-eingriffe`).
+
+**Verifikation:** `git diff --numstat` nach beiden Schreibvorgängen geprüft — nur Anfügungen
+(`+`), keine Löschung an fremdem Inhalt.
+
 ## 2026-08-24 — SIA-Sweep, unabhängige Nachmessung: Sättigung erneut bestätigt, kein neues Destillat
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

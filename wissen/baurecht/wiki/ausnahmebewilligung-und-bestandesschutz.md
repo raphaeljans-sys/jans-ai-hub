@@ -2,8 +2,8 @@
 beschreibung: Die zwei kantonalen Werkzeuge für vorschriftswidrige Bauten im Kt. ZH — die Ausnahmebewilligung (Dispens) nach § 220 PBG bei besonderen Verhältnissen, und die Besitzstandsgarantie / erweiterte Bestandesgarantie nach § 357 PBG (Umbau/Erweiterung/Nutzungsänderung am rechtmässig erstellten, durch Rechtsänderung vorschriftswidrig gewordenen Bestand). Kernaussage: kein fester «Drittel»-Schwellenwert; Grenze ist die neubauähnliche Umgestaltung/Gesetzesumgehung im Einzelfall. § 220 dispensiert nur kantonales/kommunales Recht, nie Bundesrecht.
 title: Ausnahmebewilligung (§ 220) und Bestandesschutz (§ 357) — ZH
 status: established
-last_updated: 2026-08-23
-sources: [raw/260607_amtlich_zh_pbg.md, raw/260823_amtlich_zh_brge-iii-0170-2018_bez-2019-nr5.md, "§ 220 PBG", "§ 357 PBG", "§ 358 PBG", "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)", "Art. 24c RPG (SR 700)", "Art. 41c GSchV (SR 814.201)", "Art. 26 BV (SR 101)", "Art. 8 ZGB (SR 210)", "BRGE III Nr. 0170/2018 (BEZ 2019 Nr. 5)"]
+last_updated: 2026-08-24
+sources: [raw/260607_amtlich_zh_pbg.md, raw/260823_amtlich_zh_brge-iii-0170-2018_bez-2019-nr5.md, "§ 220 PBG", "§ 357 PBG", "§ 358 PBG", "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)", "Art. 24c RPG (SR 700)", "Art. 41c GSchV (SR 814.201)", "Art. 26 BV (SR 101)", "Art. 8 ZGB (SR 210)", "BRGE III Nr. 0170/2018 (BEZ 2019 Nr. 5)", "Raphael Jans, eigene Rechtsgrundlagen-Zusammenfassung 29.05.2020 (Sekundärquelle Fallpraxis-Vertiefung, Fallzitate nicht am Original verifiziert)"]
 verifiziert: "Buch-Run 104 (2026-08-23): BEZ 2019 Nr. 5 (BRGE III Nr. 0170/2018) erstmals im Volltext gelesen (zuvor nur Buchzitat, Bd. 2 S. 1291) — bezogen von der Entscheiddatenbank des Baurekursgerichts ZH, Rubrik «Absturzsicherungen» (dort einziger Treffer). Ergebnis: der Entscheid ist ein § 358-PBG-Fall (baupolizeiliche Kontrolle ausserhalb eines Baugesuchs), zitiert § 357 PBG nirgends und die 15-%-Schwelle der Stadt-Zürcher Richtlinie ebenfalls nicht — sie wird vom Baurekursgericht in der einschlägigen Rubrik weder bestätigt noch verworfen. Schliesst beide in Wissens-Chef Run 21 (03.08.2026) offen gelassenen Punkte. Report outputs/2026-08-23_buch-run104.md. Vorherige Verifikation — Buch-Run 103 (2026-08-23): erstmals alle vier Bundesrechts-Zitate im Abschnitt «Abgrenzungen» gegen den amtlichen fedlex-Wortlaut geprüft (Filestore-Muster, Rule docs/referenz/fedlex-volltexte.md) — Art. 24c RPG (SR 700, ELI 1979/1573_1573_1573, Stand 1.7.2026, www-Route), Art. 41c GSchV (SR 814.201, ELI 1998/2863_2863_2863, Stand 1.12.2025, fedlex.data.admin.ch-Route nötig), Art. 26 BV (SR 101, ELI 1999/404, Stand 1.1.2024, www-Route; 1.1.2025/1.1.2026 liefern nur die App-Hülle) und Art. 8 ZGB (SR 210, ELI 24/233_245_233, Stand 1.1.2026, www-Route). **4/4 CONFIRMED**, inhaltlich korrekt zugeordnet: Art. 24c RPG regelt altrechtliche Bauten ausserhalb der Bauzonen (eigenes Bundesrechts-Kapitel, hier nur Abgrenzungs-Verweis, keine Detailprüfung nötig); Art. 41c Abs. 1/2 GSchV trägt im Gewässerraum eine dem § 357 PBG analoge Bestandesschutz-Klausel («in ihrem Bestand grundsätzlich geschützt, sofern rechtmässig erstellt und bestimmungsgemäss nutzbar»); Art. 26 BV («Das Eigentum ist gewährleistet») trägt die im Artikeltext behauptete Herleitung «Ausfluss von Eigentumsgarantie»; Art. 8 ZGB (allgemeine Beweislastregel) trägt die Anwendung «Beweislast trägt, wer sich auf den Bestandesschutz beruft». **Nebenbefund (kein Korrekturbedarf in diesem Artikel):** Art. 24c RPG Abs. 1 wurde per 1.1.2026 materiell revidiert (BG vom 29.9.2023) und trägt seither den neuen Titel «Altrechtliche Bauten und Anlagen» (zuvor «Bestehende, zonenwidrige Bauten und Anlagen ausserhalb der Bauzonen»); der genaue Änderungsumfang wurde nicht rekonstruiert, da eine Vorfassung über die www-Route für dieses Datum nicht mehr abrufbar war (durchgehend App-Hülle 77'151 Byte für 1.1.2024/1.1.2025/1.7.2025) und der Artikel Art. 24c nur als Abgrenzungs-Verweis führt, nicht destilliert. Report outputs/2026-08-23_buch-run103.md."
 quelle_destillat: "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)"
 paragraphen: ["§ 218 PBG", "§ 219 PBG", "§ 220 PBG", "§ 220 Abs. 2 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 357 Abs. 5 PBG", "§ 358 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 49 Abs. 3 PBG", "§ 101 PBG", "§ 318 PBG", "§ 320 PBG", "Art. 24c RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 8 ZGB"]
@@ -234,6 +234,51 @@ darum geht, die für einen **Neubau** geltenden Vorschriften zu umgehen.
 Damit deckt sich § 357 mit dem in [[bestandsumbau-eingriffstiefe]] beschriebenen «**grossen
 Ermessens- und Auslegungsspielraum**» der Gemeinde — und begründet die dortige Empfehlung der
 **frühen, schriftlichen Voranfrage**.
+
+### Fallpraxis-Vertiefung (Sekundärquelle, Fallzitate noch nicht am Original verifiziert)
+
+Ergänzt aus einer eigenen Rechtsgrundlagen-Zusammenfassung von Raphael Jans (29.05.2020, Fallrecherche
+zu einem privaten Bestandesumbau-Mandat, Echo-Schutz-Klasse «authentisch» — kein Claude-Erzeugnis).
+**Die Fallzitate liegen als Fundstelle vor, sind aber nicht am Originalurteil gegengelesen** (Rule
+`normen-referenz`) — vor einer verbindlichen Verwendung in einem Mandat am Original prüfen.
+
+- **Qualitatives Kriterium, mit Präzedenzfall:** Die Aufsetzung eines Attikageschosses auf ein
+  bereits drei Vollgeschosse aufweisendes Wohngebäude wurde als mit der Besitzstandsgarantie
+  vereinbar beurteilt (Baurekurskommission II Nr. 0130/2007, E. 5.1/2) — ein Beispiel für die
+  «Konstruktion bleibt mehrheitlich erhalten»-Doktrin auch bei einer vertikalen Erweiterung.
+- **Grenzfall dokumentiert:** In einem Fall, in dem Ost- und Westfassade eines Gebäudes zwecks
+  Erweiterung fast vollständig entfernt, die Raumaufteilung nur teilweise erhalten und das Dach
+  unter Firsthöhen-Anhebung (+2 m) sowie Erstellung eines 0,9-m-Kniestocks vollständig ersetzt
+  wurde, verneinte die Baurekurskommission II (Entscheid vom 27.6.1995) zunächst eine zulässige
+  Erweiterung; das Verwaltungsgericht hob dies im Beschwerdeentscheid vom 19.12.1996 auf und
+  bejahte § 357 Abs. 1 PBG, weil die vorhandene Bausubstanz überwiegend erhalten blieb — in der
+  Sekundärquelle selbst als eher grosszügige Grenzziehung eingeordnet (Entscheidnummer in der
+  Quelle nicht überliefert, nur Datum).
+- **Technische Abbruchreife als eigene Grenze** (ergänzt die bestehende Kurzfassung oben):
+  Für ein verfallenes, technisch abbruchreifes Gebäude besteht **kein** Bestandesschutz mehr
+  (RRB Nr. 1294/1995, publiziert in BEZ 1996 Nr. 5). Abbruchreife liegt vor, wenn der bauliche
+  Zustand derart schlecht ist, dass eine bestimmungsgemässe Nutzung erst nach neubauartigen
+  Instandstellungsarbeiten wieder möglich wäre; **noch nicht** abbruchreif ist ein Gebäude, dessen
+  Grundsubstanz erhalten ist und das nur untergeordnete Erneuerungsarbeiten benötigt (VB 94/0016,
+  publiziert in RB 1994 Nr. 72).
+- **Ermessensspielraum der Gemeinde bei §§ 357/101 PBG, mit Fundstelle:** Den Gemeinden steht bei
+  der Anwendung von § 357 Abs. 1 und § 101 PBG ein Ermessens- und Entscheidungsspielraum zu
+  (VGr, 8.10.2003, VB.2003.00196, E. 2c = RB 2003 Nr. 14 = BEZ 2004 Nr. 8). Das Baurekursgericht
+  hat bei der Ermessenskontrolle trotz voller Überprüfungsbefugnis (§ 20 Abs. 1 VRG) Zurückhaltung
+  zu üben und darf eine vertretbare Ermessensausübung der kommunalen Behörde nicht durch die
+  eigene ersetzen; dem Verwaltungsgericht steht nach § 50 VRG ohnehin nur Rechtskontrolle zu.
+  Ergänzt die bereits belegte Ermessensspielraum-Aussage in [[bestandsumbau-eingriffstiefe]] um
+  die konkrete Fundstelle und die Verfahrensstufen-Differenzierung (Rekurs vs. Beschwerde), siehe
+  auch [[rechtsschutz-und-rechtsmittelverfahren]].
+- **§ 101 PBG als Sondernorm, bestätigt:** Für baulinienwidrige Bauten geht § 101 PBG
+  («erweiterte Besitzstandsgarantie» im Baulinienbereich, siehe [[baulinien-und-abstandslinien]])
+  als Sondernorm der allgemeinen Regel von § 357 Abs. 1 PBG vor; die zu § 357 Abs. 1 entwickelten
+  Abgrenzungskriterien (neubauähnliche Umgestaltung) gelten dabei laut Sekundärquelle sinngemäss
+  auch im Anwendungsbereich von § 101 PBG.
+- **Literatur:** Konrad Willi, Die Besitzstandsgarantie für vorschriftswidrige Bauten und Anlagen
+  innerhalb der Bauzone nach zürcherischem Recht, Diss. Zürich 2003 — Standardliteratur zu diesem
+  Themenkomplex, bereits in mehreren Buchdestillaten der KB als Sekundärquelle referenziert
+  (z. B. `Willi, S. 100 ff.` in [[15-lage-von-gebaeuden-teil2d]]-Umfeld).
 
 ## Abgrenzungen (was woanders geregelt ist)
 

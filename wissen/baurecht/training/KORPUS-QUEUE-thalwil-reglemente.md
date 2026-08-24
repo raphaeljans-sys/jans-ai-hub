@@ -647,6 +647,23 @@ Alle Batches T1-T9 erledigt (zuletzt T8/Run 79, 23.08.2026); die daran anschlies
 chronologische Stale-Flag-Sweep-Kette (Run 90-116) ist ebenfalls abgeschlossen. Diese Queue-Datei
 bleibt als Arbeitsprotokoll bestehen, wird aber nicht mehr als aktive Warteschlange geführt.
 
+**Nachträge nach dem Status-Vermerk (Runs 117-119 sind nur in `CHANGELOG.md` protokolliert, nicht
+hier — Läufe nach dem Status-Vermerk hatten diese Datei nicht mehr angefasst, bis hierher):**
+
+**Run 120 (2026-08-24, ausserhalb T1-T9):** Die von Run 119 offen gelassene Cross-KB-Übergabe von
+`wissen/energie` (12 PL-02-Dateien, Baurechtsanalysen + STWEG-Teilungsplan-Empfehlung) abgearbeitet
+— alle 12 Dateien einzeln gelesen und einzeln beurteilt. Neuer Abschnitt «Fallpraxis-Vertiefung» in
+[[ausnahmebewilligung-und-bestandesschutz]] (Besitzstandsgarantie-Rechtsprechung, Ermessensspielraum-
+Doktrin) sowie neuer Artikel [[stockwerkeigentum-teilungsplan-und-begruendung]] — beide streng
+gefiltert nach Arbeitsregel 5 dieser Queue: alle Adressen, Parzellennummern, Klientennamen und
+Termine der zugrundeliegenden Mandatsdokumente blieben draussen, nur die generalisierbare
+Rechtsargumentation und ein namenloses Verfahrensskelett wurden übernommen. Dabei ein
+Fassungsstand-Fund: «Art. 712ebis ZGB» aus einer Quelldatei existiert im geltenden Recht nicht,
+sondern ist eine noch nicht in Kraft stehende Entwurfsbestimmung der laufenden STWEG-Revision.
+Report `outputs/2026-08-24_buch-run120.md`. **Nächster Schritt:** Fallzitate der neuen
+Fallpraxis-Vertiefung am Original verifizieren (`entscheidsuche.ch`), oder regulärer
+`wissenscheck`-Turnus / neue Re-Verifikationsrunde.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

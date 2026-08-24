@@ -2257,7 +2257,7 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); die uebrigen Bestaende (Lignatec, GVZ RWA, Hindernisfreies Bauen, restliche PAVIDENSA-Punkte) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); die uebrigen Bestaende (Lignatec, GVZ G41-1/G41-2, Hindernisfreies Bauen, restliche PAVIDENSA-Punkte) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -2285,6 +2285,17 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **G41-2** Ob eine neuere Ausgabe des Merkblatts 30.17.3 als die vom 28.02.2011 existiert.
 - **G41-3** DIN 18232-2:2003-06 (Quelle der Durchflussbeiwerte) gegen die im Haus liegende
   Fassung 2007 — weiterhin ungeprüft.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Abgleich gegen
+  > `destillate/din-18232-2-2007.md`, Anhang B (informativ), Ziff. B.2, Tabelle B.1, S. 28-29
+  > (`established`): Durchflussbeiwerte **wertgleich** mit der von der GVZ-Richtlinie zitierten
+  > 2003-06-Fassung, Anhang C, Tabelle C.1 (vollständig geöffnete Fläche c = 0,65; Jalousien 90°
+  > c = 0,65; Dreh-/Kippflügel ≥60° c = 0,5, ≥45° c = 0,4, ≥30° c = 0,3; Toleranz ±5°). Nur der
+  > Anhang-Buchstabe verschob sich C→B, erklärt durch das Vorwort der 2007-Fassung (S. 4):
+  > Streichung des alten Anhangs A (Inhalt ging in DIN EN 12101-2:2003-09 auf), wodurch B→A und
+  > C→B rückten. Keine Korrektur am GVZ-Destillat nötig, Fund dort in «Offene Punkte» nachgetragen.
+  > Die 2003-06-Fassung liegt nicht separat im Haus vor; Abgleich erfolgte gegen die einzige
+  > verfügbare Primärquelle (aktuell gültige 2007-Fassung).
 
 ### SWKI VA103-01
 - **S41-1 Der Bemessungskern ist nicht destilliert:** Kap. 3.4/3.5 mit Tab. 12

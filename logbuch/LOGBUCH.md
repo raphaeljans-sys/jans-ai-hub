@@ -8193,3 +8193,28 @@ Fachinhalt. Behoben: 5 Inventar-Zeilen nachgefuehrt, 3 aeltere Destillate um Vor
 auf die juengere Fassung ergaenzt, CHANGELOG-Eintrag. Keine FAQ-Aenderung noetig (reine
 Verwaltungs-Checklisten ohne zusaetzlichen Bauherren-Nutzen). Budget dieses Zyklus: rund 2.8
 von 5 USD. Kein Versand, keine Buchung, keine destruktive Aktion.
+
+## Nachtschicht Mac Mini 24.08.2026 (Versuchs-Slot)
+
+Prioritaeten 1-3 leer/nicht umsetzbar: kein `remote-tasks/pending/`, `sync-tasks/mac-mini/`
+leer; Synobsis Stufe 2 unveraendert komplett (853/853, `vectors.npz` seit 22.08. unveraendert);
+Fristen-Register zeigt nur bereits erledigte Punkte oder den offenen Tailscale-Infrastruktur-
+Befund (explizit Aktion Raphael, kein Claude-Handlungsspielraum). Prioritaet 4 (`energie`,
+einziges freies Tagesziel seit `bauprodukte` am 15.08. erledigt) an einem OneDrive-
+FileProvider-Deadlock gescheitert (`find`/`mdfind` auf den internen Sync-Pfad der «PL - 04
+Energie»-Quelle haengt bzw. liefert nichts) — bekanntes Muster, vermerkt statt erzwungen.
+
+Auf Prioritaet 5 ausgewichen: vier weitere offene Fragen aus
+`wissen/architekten-synobsis/wiki/QUESTIONS.md` per WebSearch geklaert. Bemerkenswert:
+**Dreyer_Otto** und **Zeyer_Albert** enthalten je ein Projekt «Haus Jans» Luzern (1932 bzw.
+1930) mit moeglichem Familienbezug — beide Architekten als real und zur richtigen Zeit in
+Luzern taetig bestaetigt (Zeyers Bueroeroeffnung in Luzern faellt exakt auf 1930), das
+konkrete Projekt selbst ist aber in keiner oeffentlichen Quelle dokumentiert. Klaerung nur aus
+dem Ordnerinhalt oder Familienunterlagen moeglich — fuer Raphael pruefenswert, falls die
+Ordner einmal gesichtet werden. Ausserdem geklaert: Munzer_Gustav_August (Marine-Ehrenmal
+Laboe, Ortskorrektur Lavoe→Laboe), Rhytmeier_Furrer (Rittmeyer & Furrer Winterthur,
+Psychiatrie-Schwerpunkt erklaert «psuechiheim» plausibel). Details:
+`wissen/architekten-synobsis/CHANGELOG.md` 2026-08-24 (Mac Mini Nachtschicht).
+
+Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung,
+keine destruktive Aktion. Budget dieses Zyklus: rund 2.2 von 5 USD.

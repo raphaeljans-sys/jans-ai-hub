@@ -10,6 +10,20 @@ last_updated: "2026-08-19 (Run 144)"
 
 # Destillat — Bauen und Oekologie: Pflanzen am Bau (Stadt Zürich, 1991-1997)
 
+## Verhältnis zum Zwilling-Destillat (24.08.2026, Registersammellauf 03.16)
+
+Dieses Destillat und `[[pflanzen-am-bau-projektierungsgrundlagen-zh]]` destillieren **dieselbe
+PL-02-Quelldatei** (`5.26PflanzenamBau.pdf`, wortgleich am `quelle`-Feld verifiziert) unabhängig
+voneinander (Run 144 bzw. 20.08.2026). Kein Merge (Rule `wissens-bibliothekar`: destruktive
+Aktion braucht Rückfrage), stattdessen Arbeitsteilung: **der Zwilling ist die zu zitierende
+Fassung** — er ist bereits in `wiki/dachbegruenung-gruendach.md` verlinkt und trägt die
+korrigierte Norm-Nachfolge (SIA 271:2007 bleibt gültig, Begrünung neu SIA 312:2013 statt der
+hier noch offen gelassenen Frage «Verhältnis der 1997 zitierten SIA-271-Empfehlungen zur heute
+gültigen Fassung», siehe Offene Punkte unten — diese Frage ist im Zwilling, Abschnitt 6,
+beantwortet). Diese Fassung trägt zusätzlich die vollständige **Bauherren-Transfer-Einordnung**
+zur Zusatzlast-Grössenordnung und den ausdrücklichen Hinweis, dass Gründach+PV im Dokument
+nicht vorkommt — beides ergänzt den Zwilling, ersetzt ihn nicht.
+
 ## ⚠⚠⚠ Alterungsvermerk (verbindlich vor jeder Verwendung lesen)
 
 Diese Quelle ist zwischen 29 und 35 Jahre alt. Sie stammt aus einer Zeit vor Minergie als
@@ -20,7 +34,9 @@ ungeprüft** und darf nicht ungeprüft in ein aktuelles Dokument übernommen wer
 - **Normverweise SIA 271/271-1/271-2** (Kapitel 8, Begrünte Flachdächer): Die SIA-Flachdach-
   Normenfamilie wurde seither überarbeitet; das Verhältnis der 1997 zitierten Empfehlungen
   zur heute gültigen SIA-271-Fassung sowie zu SIA 2019 (Erhaltung von Flachdächern) und zur
-  FLL-Gründachrichtlinie ist in dieser Destillation **nicht geprüft**.
+  FLL-Gründachrichtlinie ist in dieser Destillation **nicht geprüft** — ⚠ **inzwischen im
+  Zwilling `[[pflanzen-am-bau-projektierungsgrundlagen-zh]]` geklärt** (SIA 271:2007 bleibt
+  gültig, Begrünung neu SIA 312:2013), siehe Abschnitt oben «Verhältnis zum Zwilling».
 - **Primärenergiegehalt-Tabelle der Dämmstoffe** (Kapitel 7, siehe unten): Werte von 1997,
   Einheit «MJ/R» im Dokument selbst nicht erklärt. Für aktuelle Ökobilanz-/Grauenergie-Aussagen
   sind KBOB-Ökobilanzdaten oder der aktuelle Bauteilkatalog heranzuziehen, nicht diese Tabelle.

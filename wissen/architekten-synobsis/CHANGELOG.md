@@ -4,6 +4,41 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-24 (Mac Mini Nachtschicht) — Vier weitere offene Fragen aus QUESTIONS.md recherchiert, darunter der moegliche Familienbezug «Haus Jans»
+
+Prioritaeten 1-3 leer/nicht umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 2
+vollstaendig 853/853, `vectors.npz` unveraendert seit 22.08.; Fristen-Register zeigt nur
+bereits erledigte oder infrastrukturelle Punkte ausserhalb der eigenen Handlungsmacht).
+Prioritaet 4 (KB `energie`, taeglicher Takt) an einem OneDrive-FileProvider-Deadlock
+gescheitert (`find`/`mdfind` auf den internen OneDrive-Sync-Pfad haengt bzw. liefert nichts;
+bekanntes Muster, siehe Memory `feedback_background_agent_onedrive_stall`) — auf Prioritaet 5
+ausgewichen.
+
+Vier weitere offene Punkte aus `wiki/QUESTIONS.md` per WebSearch geklaert (direkt im
+Hauptkontext, kein Fan-out):
+
+- **Munzer_Gustav_August** → bestaetigt: Architekt des Marine-Ehrenmals Laboe (1927
+  Wettbewerb, 1929 vereinfacht gebaut); Ortskorrektur «Lavoe» → «Laboe» bestaetigt.
+- **Rhytmeier_Furrer** → Buero Rittmeyer & Furrer (Winterthur, 1905-1933) bestaetigt,
+  Schwerpunkt Psychiatrie-Bauten (Klinik Herisau 1906-08, Klinik Hohenegg 1913) erklaert das
+  Ordner-Kuerzel «psuechiheim» plausibel; welches der beiden Projekte konkret gemeint ist,
+  bleibt ohne Ordnersichtung offen.
+- **Dreyer_Otto** und **Zeyer_Albert** (zusammen behandelt, gleiches Motiv «Haus Jans» Luzern
+  1932 bzw. 1930) → beide Architekten als reale, in Luzern zur richtigen Zeit taetige Bueros
+  bestaetigt (Otto Dreyer, eigenes Buero ab 1927; Albert Zeyer, Bueroeroeffnung in Luzern
+  **1930** — faellt exakt mit dem Ordnerjahr zusammen). **Das konkrete Projekt «Haus Jans»
+  selbst ist in keiner der geprueften Quellen (Wikipedia, HLS, Architekturbibliothek,
+  Werkverzeichnisse) dokumentiert** — plausibel fuer eine private, nie separat publizierte
+  Wohnhaus-Kommission. Ob ein Bezug zur Familie Jans besteht, ist damit NICHT beantwortet;
+  Klaerung nur aus dem Ordnerinhalt selbst (Adresse, Bauherrenname auf den Plaenen) oder aus
+  Familienunterlagen moeglich, nicht weiter websuchbar. Fuer Raphael pruefenswert, falls die
+  beiden Ordner einmal gesichtet werden.
+
+Details je Frage mit Quellenangabe direkt in `wiki/QUESTIONS.md`, Sektion 2 bzw. 3. Keine
+Ordnerumbenennung vorgenommen (Freigabesache Raphael), kein Fan-out, kein Versand, keine
+Buchung, keine destruktive Aktion. `git diff --numstat` nativ gepruefft: 4 Zeilen geaendert
+(dieselben vier Bulletzeilen additiv erweitert), keine Loeschung von Bestand.
+
 ## 2026-08-24 (interaktive Session) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
 
 Fortsetzung des Rechercheformats der Nachtschicht-Laeufe (kein Fan-out, direkt im

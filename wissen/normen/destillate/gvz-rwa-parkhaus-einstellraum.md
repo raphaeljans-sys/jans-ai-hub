@@ -416,10 +416,19 @@ Links.
 
 ## Offene Punkte
 
-- Die Durchflussbeiwert-Tabelle ist ausdrücklich als Übernahme aus DIN 18232-2:2003-06,
-  Anhang C, Tabelle C.1 gekennzeichnet — ein eigenes Destillat dieser DIN-Norm ist in dieser
-  KB unter `din-18232-2-2007.md` vorhanden (spätere Fassung 2007); ob die 2003-Fassung inhalt-
-  lich identisch ist, wurde in diesem Run **nicht** geprüft und ist gesondert zu verifizieren.
+- ✅ **Geklärt (QUESTIONS-Abarbeitung 24.08.2026, G41-3).** Die Durchflussbeiwert-Tabelle ist
+  ausdrücklich als Übernahme aus DIN 18232-2:2003-06, Anhang C, Tabelle C.1 gekennzeichnet.
+  Abgleich mit der im Haus vorhandenen Nachfolgefassung **DIN 18232-2:2007-11, Anhang B
+  (informativ), Ziff. B.2, Tabelle B.1** (`destillate/din-18232-2-2007.md`, S. 28-29,
+  `established`): die Werte sind **wertgleich** (vollständig geöffnete Fläche c = 0,65;
+  Jalousien 90° c = 0,65; Dreh-/Kippflügel ≥60° c = 0,5, ≥45° c = 0,4, ≥30° c = 0,3;
+  Öffnungswinkel-Toleranz ±5°). Nur der Anhang-Buchstabe verschob sich von C (2003-06) auf
+  B (2007-11) — erklärt durch das Vorwort der 2007-Fassung (S. 4), das die **Streichung des
+  alten Anhangs A** vermerkt (dessen Inhalt in DIN EN 12101-2:2003-09 aufging), wodurch der
+  alte Anhang B zu A und der alte Anhang C zu B wurde. Die von der GVZ-Richtlinie 2011
+  übernommenen Kennwerte sind damit gegen die aktuell gültige DIN-Fassung bestätigt, keine
+  Korrektur nötig. Die 2003-06-Fassung selbst liegt nicht separat im Haus vor (kein
+  eigenständiges Destillat), der Abgleich erfolgte gegen die einzige verfügbare Primärquelle.
 - SN EN 12101-2:2003-08 (Zitat zu Ziff. 4.2.1.4, Witterungsunabhängigkeit der Öffnungen) liegt
   nach Stand 31.07.2026 nicht als eigenes Destillat in dieser KB vor.
 - **Bedeutung der durchgehend blauen letzten Spalte.** Ob «nur der gesprinklerte Fall ist
