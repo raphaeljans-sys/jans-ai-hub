@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 07:36:15
+Stand: 24.08.2026 07:46:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:33)
@@ -12,4 +12,4 @@ Stand: 24.08.2026 07:36:15
 - keine
 
 ## Hub-Git-Stand (NAS)
-- dc574800 logbuch-radar 24.08.2026: Briefing-Abschnitt + 5 Registereintraege (Jegen-Versand belegt, LV-Ablage erledigt, Token offengelegt, Runner-Leerlauf gemessen, bexio 16. Tag)
+- f56de822 nas-selfcommit: 10 Datei(en) 2026-08-24 07:45

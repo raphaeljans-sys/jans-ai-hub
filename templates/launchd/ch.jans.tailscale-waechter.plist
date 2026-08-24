@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  JANS Tailscale-Waechter — LaunchAgent
+  ====================================
+  Prueft alle 5 Minuten, ob der Tailscale-Tunnel oben ist, heilt ihn bei Bedarf
+  selbst und mailt nur, wenn die Heilung scheitert.
+
+  Takt: 300 s. Bewusst kurz, weil das Script im Regelfall nichts tut als einen
+  lokalen Statusabruf (kein Netzverkehr nach draussen, keine Claude-Session,
+  kein Kontingentverbrauch). Es ist kein Taktgeber im Sinne der Loop-Buchhaltung.
+
+  Auf BEIDEN Stationen installieren. Auf dem Mac Mini heilt er den eigenen
+  Tunnel, auf dem MacBook Pro liefert er zusaetzlich die Aussensicht: eine
+  Station kann ihren eigenen Ausfall nicht melden.
+
+  Installieren:
+    cp /Volumes/daten/jans-ai-hub/templates/launchd/ch.jans.tailscale-waechter.plist \
+       ~/Library/LaunchAgents/
+    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ch.jans.tailscale-waechter.plist
+
+  Entfernen:
+    launchctl bootout gui/$(id -u)/ch.jans.tailscale-waechter
+    rm ~/Library/LaunchAgents/ch.jans.tailscale-waechter.plist
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>ch.jans.tailscale-waechter</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Volumes/daten/jans-ai-hub/scripts/tailscale-waechter.sh</string>
+    </array>
+
+    <key>StartInterval</key>
+    <integer>300</integer>
+
+    <!-- Auch direkt nach dem Login einmal laufen: genau dann ist ein in der
+         Nacht gestagtes Update frisch angewandt und der Tunnel womoeglich aus. -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/ch.jans.tailscale-waechter.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/ch.jans.tailscale-waechter.err</string>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+</dict>
+</plist>

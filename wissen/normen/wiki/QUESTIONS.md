@@ -4140,6 +4140,17 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   4 gelesenen Seiten hinaus (v. a. die vollständige Klassentabelle, Prüfverfahren-
   Anhänge, Ziff. 1-4) weiterhin die Vollnorm via Beuth-Verlag oder erneute
   SharePoint-/M365-Suche beschaffen. Notiert 13.07.2026 (normen-training-mini, Mac Mini).
+  > **SharePoint-Weg ausgeschöpft, 24.08.2026 (QUESTIONS-Abarbeitung).** Vollständiger
+  > Graph-API-Scan der Bibliothek `02_Recht_Norm` (Site PL), Ordner `02_Normen/DIN_Norm/`,
+  > beide Unterordner `DIN-Norm` (54 Dateien) und `Sonstiges` (16 Dateien) — insgesamt 70
+  > Dateien einzeln nach Namen geprüft (`m365-graph.mjs --get`, Site-ID/Drive-ID aus
+  > `connectors/WEGE.md` Weg 2, da diese Station die Bibliothek nicht lokal gepinnt hat).
+  > Einziger Treffer für «1627»: `DIN 1627_Auszuege .pdf` (1'613'803 Bytes), identisch mit
+  > der bereits im Bestand geführten und destillierten 4-Seiten-Datei. Keine zweite, weiter
+  > gefasste Fassung im Haus. Die «erneute SharePoint-/M365-Suche» ist damit als Beschaffungsweg
+  > **ausgeschöpft und geschlossen** — die einzig verbleibende Option ist der kostenpflichtige
+  > Beuth-Verlag-Kauf (Bring-Schuld Raphael). Kein neuer Fundstellen-Inhalt, nur der
+  > Beschaffungsweg selbst wurde geklärt.
 - [x] **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung 24). Schweizer Pendants zu deutschen
   Sonstiges-Destillaten fehlen noch (Mac Mini Run, 13.07.2026)** — alle drei genannten
   Ergaenzungskandidaten sind inzwischen im Bestand. **SIA 500 "Hindernisfreie Bauten"**

@@ -1,3 +1,54 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: DIN-EN-1627-Beschaffungsweg via SharePoint ausgeschöpft, restliche 33 offene Punkte gegengelesen (weiterhin gesättigt)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established`-Destillate zitierfähig. CHANGELOG-Kopf (H41-3/H41-4/L41-3,
+unmittelbar vorangehender Eintrag) und die durchgehende Sättigungs-Historie des Tages
+(neun SIA-Sweep-Fortsetzungen plus mehrere QUESTIONS-Abarbeitungen, alle mit demselben Befund:
+verbleibende Punkte sind Bring-Schuld/Strukturentscheid/genuine Sackgasse) zuerst gelesen.
+
+**Kollisionscheck (`ps aux`):** eigener Prozess `mschub715` (PID-Kette 2247/2255) trägt den
+identischen Auftragstext — dieser Lauf selbst, kein Konkurrent. Parallel: `mschub713`
+(`wissen/energie` QUESTIONS), `mschub714` (Baurecht-Reglemente-Queue) — andere Deliverables.
+
+**Vorgehen:** Alle 33 verbleibenden `[ ]`-Zeilen in `wiki/QUESTIONS.md` einzeln gegengelesen
+(nicht nur gezählt). Ergebnis, Punkt für Punkt: N-R40-7 (Lignatec-Grauton) ist bereits über der
+Zeile selbst als `GESCHLOSSEN 24.08.2026` geführt, die `[ ]`-Zeile ist nur der laut KB-Konvention
+stehen gelassene Ursprungswortlaut — kein neuer Handlungsbedarf. N-R40-3 (zehn EN-81-Teile) und
+N-R21-2 (VA 105-01 Volltext) sind ausdrücklich "nur bei Projektbedarf" bzw. Kaufentscheid Raphael.
+Merkblatt-SIA-2014-Layerkatalog (Z. 3971), SIA-242-Bring-Schuld (Z. 3976, Teilfrage bereits am
+24.08. geschlossen), DIN-Sonstiges-Methodennotiz (Z. 4158), Dateiname/Norm-Nummer-Diskrepanz
+(Z. 4325, destruktive Umbenennung nur mit Raphaels Bestätigung), Folgeprüfung 2015er-BRL-Serie
+(Z. 4564, bereits durch Run 58/60 vollständig durchgesehen), Wegleitung-SIA-271 (Z. 4800, bereits
+heute mit Bestellformular-Fund ergänzt), die methodische Lehre zur modalen Überdehnung (Z. 4950)
+sowie die vier baurecht-Bring-Schulden SIA 491/SN EN 12193/SN 640 052/SN 641 400 (Z. 4973-4988,
+alle kostenpflichtige VSS-/SIA-Beschaffung) und der Strukturentscheid aus Run 31 (Z. 5117) sind
+allesamt bereits vollständig eingeordnet — keiner davon ist durch Lesen/Web-Recherche lösbar.
+
+**Ein Punkt hatte einen ungeprüften Beschaffungsweg — jetzt geschlossen:** Das Destillat
+`destillate/din-en-1627-2011.md` nennt neben dem kostenpflichtigen Beuth-Kauf auch eine
+«erneute SharePoint-/M365-Suche» als Alternative, die nie tatsächlich gefahren wurde. Über den
+Graph-API-Weg (`connectors/WEGE.md` Weg 2, Site PL, Drive-ID `02_Recht_Norm`, da diese Station
+die Bibliothek nicht lokal gepinnt hat — `node connectors/m365-graph.mjs --get`, `PATH` musste
+zuerst um `/opt/homebrew/bin` ergänzt werden) wurde der komplette Ordner `02_Normen/DIN_Norm/`
+gescannt: Unterordner `DIN-Norm` (54 Dateien) und `Sonstiges` (16 Dateien), 70 Dateien total,
+jede einzeln nach Namen geprüft. Einziger Treffer für «1627»: exakt die bereits bekannte,
+bereits destillierte 4-Seiten-Auszugsdatei (`DIN 1627_Auszuege .pdf`, 1'613'803 Bytes) — keine
+vollständigere Fassung im Haus. **Der SharePoint-Weg ist damit real ausgeschöpft, nicht nur
+vermutet.** Nachtrag in `destillate/din-en-1627-2011.md` (Abschnitt «Hinweis (Lücke)», `last_updated`
+auf 2026-08-24) und `wiki/QUESTIONS.md` (Zeile 4129, additiver Blockquote-Nachtrag): einzig
+verbleibender Weg ist der kostenpflichtige Beuth-Verlag-Kauf, Bring-Schuld Raphael.
+
+**Einordnung: die KB bleibt gesättigt.** Über den einen geklärten Beschaffungsweg hinaus kein
+weiterer eigenständiger Ertrag ohne Kauf-/Strukturentscheid Raphael oder neue Rohdaten möglich —
+deckungsgleich mit der zehnten SIA-Sweep-Bestätigung und den vorangehenden QUESTIONS-Läufen
+desselben Tages. Kein Pflicht-Rauschen: dieser Eintrag benennt bewusst den einen echten neuen
+Fund (Beschaffungsweg geklärt) statt eine weitere reine Wiederholungsbestätigung zu schreiben.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreiben geprüft (Rule `auto-verbesserungen`
+260811) — `wiki/QUESTIONS.md` und `destillate/din-en-1627-2011.md` beide rein additiv (Blockquote-
+Nachtrag bzw. erweiterter Hinweis-Absatz plus Datumszeile), keine bestehende Zeile gelöscht oder
+inhaltlich verändert. Kein `git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: H41-3 geklärt, H41-4 Web-Sackgasse dokumentiert, L41-3 nachgezogen
 
 **Auftrag:** offene Fragen aus `wiki/QUESTIONS.md` abarbeiten (nicht der SIA-Sweep — anderer

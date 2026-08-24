@@ -270,6 +270,31 @@ bash /Volumes/daten/jans-ai-hub/scripts/methoden-scan.sh
 - Seit 13.08.2026: Der Radar hat deshalb keinen Wochentakt mehr. Er laeuft monatlich fuer die
   Verifikations-Rotation und sonst nur auf dieses Signal hin (Chronik 260813d)
 
+### 15. Fernzugang (Tailscale-Waechter)
+
+Check 13 fragt, ob die andere Station **laeuft**. Dieser Check fragt, ob sie **erreichbar**
+ist. Das sind zwei verschiedene Fragen, und die Luecke dazwischen hat vier Tage gekostet:
+vom 20.08.2026 gegen 02:20 bis zum 24.08. war der Mac Mini vom Tailnet getrennt, ohne dass
+etwas gemeldet haette. Er schrieb `station-status/` und alle Stempel weiter, denn die
+schreibt er ueber den LAN-SMB-Mount, und der LAN lief. Frisch und trotzdem unerreichbar:
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/tailscale-waechter.sh --pruefen
+```
+
+- ✅ Exit 0 → Tunnel oben, Subnet-Route `192.168.1.0/24` freigegeben, Gegenstellen sichtbar
+- ⚠️ Exit 1 → Befundzeilen unveraendert uebernehmen. **Ein laufender Tunnel ohne die Route
+  ist kein halber Erfolg**, sondern derselbe Ausfall in unauffaelligerer Form: Tailscale
+  zeigt «verbunden», das Buero-LAN samt NAS ist aber weg
+- ⚠️ Zeile «Update wartet auf einen Reboot» → Sparkle-Fingerabdruck. Das ist die Ursache des
+  Vorfalls vom 20.08., nicht eine Nebenbemerkung: das Auto-Update ersetzt das Bundle nachts
+  still, die Netzwerk-Extension passt danach nicht mehr, und `restartAfterSparkleUpdate = 0`
+  heisst, die App startet sich **nicht** selbst neu
+- ❌ Exit 2 → Tailscale-CLI nicht gefunden; die Station ist dann gar nicht pruefbar
+- **Nicht verwechseln:** `--pruefen` meldet nur. Der scharfe Lauf ohne Flag **heilt** zuerst
+  selbst (`tailscale up`, danach App-Neustart wie der Knopf «Relaunch Tailscale») und mailt
+  nur, wenn die Heilung scheitert. Sendeweg beweisen: `--test-mail`
+
 ## Output-Format
 
 Gib einen kompakten Report aus:
