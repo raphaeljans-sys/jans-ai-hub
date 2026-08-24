@@ -1,3 +1,66 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: SIA 271 seit 2021 überholt entdeckt (REGISTER trug fälschlich «gilt» für die archivierte Ausgabe 2007)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established`-Destillate zitierfähig. CHANGELOG-Kopf und Report des
+letzten Laufs (sechste unabhängige Sättigungsverifikation SIA-Sweep, ~06:20 Uhr,
+`outputs/2026-08-24_sia-sweep-sechste-unabhaengige-saettigungsverifikation-0620uhr.md`) zuerst
+gelesen. Kollisionscheck via `ps aux`: zwei Prozesse mit identischem Auftragstext (PID 71233
+Wrapper, PID 67674 Hauptprozess) sind dieser eigene Lauf; einzige weitere `claude -p`-Session
+betraf `baurecht` (Reglemente-Queue), keine Kollision auf `wissen/normen`.
+
+**Vorgehen:** Systematischer Scan von `wiki/QUESTIONS.md` (5529 Zeilen, 33 verbleibende `[ ]`-
+Positionen) nach echten offenen Punkten. Bestätigt: die weit überwiegende Mehrheit ist entweder
+(a) Bring-Schuld Raphael (kostenpflichtiger Normenkauf SIA/DIN/VSS), (b) Strukturentscheid
+Raphael (Run-31-Punkte, N60-1/N60-2 — bereits korrekt in `logbuch/fristen.md` erfasst), (c)
+stale Betriebs-/Prozessnotizen ohne Norm-Fundstellenbezug (Cross-Contamination-Commit 260724,
+doppelte Run-Nummer 21 — keine QUESTIONS-Sachfragen im Sinne des Auftrags), oder (d) am selben
+Tag bereits von Vorläufer-Läufen mehrfach dokumentiert erfolglos abgesucht (**SN 641 400**:
+vierter Web-Anlauf ohne Treffer, siehe QUESTIONS Z. 4959-5012 — kein fünfter Anlauf gefahren,
+da der SIA-Sweep-Vorlauf bereits Sättigung für den Web-Weg festgestellt hat und der einzig
+verbleibende Schritt eine ausgehende Anfrage beim VSS-Kundendienst wäre, keine unbeaufsichtigte
+Recherche mehr).
+
+**Ein genuiner, bisher unbeantworteter Punkt bearbeitet und dabei ein Registerfehler gefunden:**
+`wiki/QUESTIONS.md` Run-16-Abschnitt (Zeile ~4748), Bring-Schuld «Wegleitung zu SIA 271 liegt nur
+als 2-Seiten-Auszug vor, Volltext beschaffen». Web-Recherche (WebSearch + WebFetch) fand keinen
+freien Volltext, aber das offizielle Bestellformular gebäudehülle.swiss
+(`xn--gebudehlle-s5a60a.swiss/node/1718/download`, verschlüsseltes PDF, per `pdftotext -layout`
+gelesen, 24.08.2026): **«Wegleitung zur Norm SIA 271:2021 — Abdichtungen von Hochbauten», 1.
+Auflage 2022, 142 Seiten**, Preise 84.-/120.- (Mitglied E-Book/Buch) bis 133.-/190.- (Nichtmitglied),
+Set 156.-/247.-. Der Verweis auf «Norm SIA 271:2021, in Kraft seit 01.11.2021» war der Anlass,
+den bisher unbelegten Registerstatus der Basisnorm selbst zu prüfen.
+
+**Direkt am Herausgeber verifiziert (shop.sia.ch, Produktseite
+`normenwerk/architekt/sia%20271/d/2021/D/Product`, WebFetch, abgerufen 24.08.2026):** SIA 271:2021
+«Abdichtungen von Hochbauten» ist die aktuell gültige Ausgabe (gültig ab 01.11.2021), zusätzlich
+eine Revision 2 vom 27.02.2024 mit Korrektionen. **Die im Haus liegende Ausgabe SIA 271:2007 ist
+seit 31.10.2021 archiviert und NICHT mehr aktuell.** `wiki/REGISTER.md` führte diese Ausgabe an
+zwei Stellen (Zeilen 430 und 1038, beide aus frühen 2013-Register-Vergleichs-Scans) mit dem
+Kommentar «gilt» bzw. «Bestand 2007 = gueltig 2013 ✓» — richtig bezogen auf den Stand 2013, aber
+seither nie gegen den aktuellen SIA-Stand nachgeführt und damit heute irreführend, falls jemand
+die Zeile ungeprüft als «aktuell gültig» liest. Beide Zeilen additiv mit **⚠ ÜBERHOLT**-Vermerk
+und Fundstelle ergänzt (Ursprungswortlaut unverändert stehen gelassen).
+
+**Nachgeführt (alle additiv, Ursprungswortlaut erhalten):** `destillate/sia-271-2007.md`
+(Abschnitt «Offene Punkte»: Vorbehalt «Ausgabe 2007, seit 2021 überholt», Status bleibt
+`established` für den 2007er-Inhalt selbst, gilt aber nicht mehr als aktuelle Rechtsgrundlage);
+`destillate/sia-271-wegleitung.md` (Abschnitt «Offene Punkte»: Bestellangaben zur 2022er-Wegleitung
++ ungeklärte Frage, ob der im Haus liegende 2-Seiten-Auszug zur 2007er- oder 2021er-Norm gehört —
+Norm-Bezug des Fragments bleibt offen, da kein Ausgabejahr im Scan); `wiki/QUESTIONS.md`
+(Nachtrag im Run-16-Abschnitt); `wiki/REGISTER.md` (zwei Zeilen SIA 271).
+
+**Praxisfolge:** Jede JANS-Verwendung von SIA 271 (Fach-Skills `brandschutz`/`ausschreibung` u.a.,
+Flachdach-/Abdichtungsdetails) sollte ab sofort mit dem Vorbehalt «Ausgabe 2007, seit 01.11.2021
+durch SIA 271:2021 ersetzt» versehen werden, bis der aktuelle Volltext im Haus ist. Volltext
+SIA 271:2021 bleibt Bring-Schuld Raphael (shop.sia.ch, Preis nicht recherchiert — nur die
+Wegleitung dazu wurde bepreist).
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `sia-271-2007.md` +11/-0,
+`sia-271-wegleitung.md` +11/-0, `QUESTIONS.md` +22/-0 (rein additiv); `REGISTER.md` +2/-2 (zwei
+Zeilen inline erweitert, gleiches Muster wie bestehende Sweep-Nachträge in derselben Tabelle,
+kein fremder Inhalt entfernt, Ursprungswortlaut jeder Zeile vollständig erhalten). Kein
+`git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: N-R40-7 geschlossen (Grauton Lignatec-Tabelle 2 = Legendenfarbe «Baustoff brennbar», eigene Pixelmessung am Original)
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit

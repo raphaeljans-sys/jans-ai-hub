@@ -22,6 +22,21 @@ ein selteneres Intervall bzw. einen erweiterten Scope (Suva/EKAS, siehe
 `wissen/normen/CHANGELOG.md`, Eintrag 05:22 Uhr desselben Tages | Betrieb/Wissens-Layer normen
 | mittel | offen
 
+> **Nachtrag 24.08.2026, 06:58 — Flag von 05:29 bisher wirkungslos, Loop laeuft unveraendert
+> weiter.** Eigener Lauf (PID 73185, Wrapper `mschub631`) ist bereits die **siebte** Instanz
+> desselben Auftrags seit dem obigen Flag; dazwischen liegen fuenf weitere abgeschlossene Laeufe
+> (KB-CHANGELOG-Zeitstempel 05:36/05:37, 06:10, 06:20, 06:30, 06:55 — je ein eigener,
+> mehrseitiger Report). Eigene Nachmessung 06:58: `training/norm-inventar.md` weiterhin 0 offene
+> Zeilen, `wiki/QUESTIONS.md` weiterhin 33 offene Punkte (unveraendert gegenueber 05:29),
+> `wiki/REGISTER.md` weiterhin 59 Zeilen "Kein Volltext im Haus", alle mit shop.sia.ch-Beleg,
+> Rest ist Kaufentscheid. Dieser Lauf haengt bewusst **keinen** weiteren Sweep-Report an (Rule
+> `wissens-ruecklauf`: kein Pflicht-Rauschen ohne neuen Befund) — der KB-CHANGELOG ist laut
+> obigem Flag bereits auf rund 800 KB angewachsen und waechst mit jedem Wiederholungslauf weiter.
+> Verbrauch seit 05:29 grob geschaetzt: 5 weitere Laeufe a bis zu 25 USD Budget-Deckel. Bitte den
+> ausloesenden Trigger stoppen/umstellen — die Sachlage hat sich seit 05:29 nicht veraendert,
+> nur die Wiederholungszahl. | eigene Messung 24.08.2026 06:58 (`ps aux`, direkte Nachmessung
+> norm-inventar/QUESTIONS/REGISTER) | Betrieb/Wissens-Layer normen | mittel | offen
+
 
 **NEU 24.08.2026, 00:1x (Session Ausschreibung) — Das LV Plattenarbeiten Nasszellen liegt fertig
 vor; drei der vier Vorbehalte hat der Parallellauf noch in derselben Nacht aufgelöst, einer ist

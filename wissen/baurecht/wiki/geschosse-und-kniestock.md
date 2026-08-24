@@ -4,9 +4,22 @@ title: Geschosse und Kniestock — Kanton Zürich
 beschreibung: Voll-/Dach-/Attika-/Untergeschoss, Anrechenbarkeit und die Kniestock-Regel in zwei Fassungen — harmonisiert (geltender Hauptteil, Kniestock bis 1,5 m, 4 Geschossarten) vs. alt (Anhang PBG, Kniestock 0,9 m / Bestand 1,3 m, Messweise 0,4 m hinter Fassade, 3 Geschossarten) — entscheidend für Dachausbauten und die Geschosszahl.
 status: established
 last_updated: 2026-07-27
-verifiziert: 2026-07-27 (Buch-Run 59, Festigungsmodus Priorität c: Stichproben-Re-Verifikation — ältestes verifiziert-Datum unter den established-Artikeln, letzter Check Run 34/13.07.2026. §§ 275/276 PBG harmonisiert [Z. 2861-2885] UND §§ 275/276 PBG alt/Anhang [Z. 4389-4400] wortlautgeprüft gegen raw/260607_amtlich_zh_pbg.md — beide Fassungen vollständig CONFIRMED, 0 Korrekturen. PBG-Fassungsstand [Nachtrag 133] bereits in Run 58 aktuell bestätigt, keine erneute zhlex-Prüfung nötig); 2026-07-13 (Modell-D-Volltextabgleich §§ 275-277 PBG gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 34 — Fassungsstand-Umkehr analog [[abstaende-und-hoehen]], Kniestock-/Geschossarten-Doppelwerte belegt)
+verifiziert: 2026-08-24 (Buch-Run 126, Modell-D-Stichprobe Kniestock-/Anrechenbarkeits-
+  Rechtsprechung, empfohlen von Buch-Run 125: VB.2003.00370 und VB.2007.00383 am
+  entscheidsuche.ch-Volltext geprüft — VB.2007.00383 CONFIRMED wortgleich; VB.2003.00370
+  KORRIGIERT, der Entscheid stützt keinen «Richtwert ab 1,5 m Breite», sondern beurteilte
+  eine 1,5 m breite Galerie als nicht anrechenbar. VB.2003.00051 gezielt gesucht, nicht im
+  Suchindex auffindbar, offen als Vorbehalt geführt); 2026-07-27 (Buch-Run 59,
+  Festigungsmodus Priorität c: Stichproben-Re-Verifikation — ältestes verifiziert-Datum
+  unter den established-Artikeln, letzter Check Run 34/13.07.2026. §§ 275/276 PBG
+  harmonisiert [Z. 2861-2885] UND §§ 275/276 PBG alt/Anhang [Z. 4389-4400] wortlautgeprüft
+  gegen raw/260607_amtlich_zh_pbg.md — beide Fassungen vollständig CONFIRMED, 0
+  Korrekturen. PBG-Fassungsstand [Nachtrag 133] bereits in Run 58 aktuell bestätigt, keine
+  erneute zhlex-Prüfung nötig); 2026-07-13 (Modell-D-Volltextabgleich §§ 275-277 PBG gegen
+  raw/260607_amtlich_zh_pbg.md, Buch-Run 34 — Fassungsstand-Umkehr analog
+  [[abstaende-und-hoehen]], Kniestock-/Geschossarten-Doppelwerte belegt)
 quelle_destillat: "[[16-gebaeudedimensionen]] (Bd 2, Kap. 16, S. 1135-1153) — gibt nur die alte Fassung wieder (Buch 2019)"
-sources: ["§ 275 PBG", "§ 275 PBG alt", "§ 276 PBG", "§ 276 PBG alt", "§ 277 PBG (aufgehoben)", "§ 49 Abs. 2 lit. c PBG", "§ 49a Abs. 2 PBG", "§ 77 PBG", "§ 293 PBG", "raw/260607_amtlich_zh_pbg.md Z.2857-2886 (Hauptteil) / Z.4387-4400 (Anhang)"]
+sources: ["§ 275 PBG", "§ 275 PBG alt", "§ 276 PBG", "§ 276 PBG alt", "§ 277 PBG (aufgehoben)", "§ 49 Abs. 2 lit. c PBG", "§ 49a Abs. 2 PBG", "§ 77 PBG", "§ 293 PBG", "raw/260607_amtlich_zh_pbg.md Z.2857-2886 (Hauptteil) / Z.4387-4400 (Anhang)", "raw/260824_amtlich_zh_vb-2003-00370.md", "raw/260824_amtlich_zh_vb-2007-00383.md"]
 paragraphen: ["§ 275 PBG", "§ 276 PBG", "§ 277 PBG", "§ 275 PBG alt", "§ 276 PBG alt", "§ 77 PBG", "§ 293 PBG"]
 links: [[abstaende-und-hoehen]], [[nutzungsziffern]], [[bestandsumbau-eingriffstiefe]], [[16-gebaeudedimensionen]], [[zonenkonformitaet]]
 ---
@@ -140,19 +153,40 @@ Buch-Destillat [[16-gebaeudedimensionen]] (6. Aufl. 2019).**
 ## Anrechenbarkeit — ergänzende Praxis (beide Fassungen, soweit übertragbar)
 
 - **Galerie:** anrechenbar, wenn ihr mehr als reine Erschliessungsfläche zukommt (BEZ 1985
-  Nr. 22); Richtwert **ab 1,5 m Breite** (VB.2003.00370). Die zitierte Rechtsprechung
-  stammt aus der Zeit der alten Fassung, dürfte aber als allgemeine Auslegungsregel zur
-  Wohn-/Arbeitsraum-Qualifikation (§ 276 Abs. 1 PBG, in beiden Fassungen inhaltsgleich
-  formuliert) übertragbar sein.
+  Nr. 22); massgebend ist die **objektive Eignung zur Wohn-/Arbeitsnutzung** (oder die
+  Ausbaubarkeit dazu mit geringem Aufwand), nicht eine feste Breitenzahl — **korrigiert
+  Modell-D 2026-08-24 (Buch-Run 126):** Der Entscheid **VB.2003.00370** (10.03.2004), E. 2.2,
+  wurde bislang für einen «Richtwert ab 1,5 m Breite» zitiert. Am Volltext geprüft
+  (`raw/260824_amtlich_zh_vb-2003-00370.md`) sagt der Entscheid das **Gegenteil**: eine
+  Galerie mit **1,5 m Breite** wurde dort als «zu Wohnzwecken ungeeignet» und damit **nicht
+  anrechenbar** beurteilt (reine Erschliessungsfläche, ungünstige Proportionen für eine
+  Zusatznutzung). 1,5 m ist im Entscheid der als **zu schmal** befundene Sachverhaltswert,
+  keine Sufficiency-Schwelle. Die zitierte Rechtsprechung stammt aus der Zeit der alten
+  Fassung, dürfte aber als allgemeine Auslegungsregel zur Wohn-/Arbeitsraum-Qualifikation
+  (§ 276 Abs. 1 PBG, in beiden Fassungen inhaltsgleich formuliert) übertragbar sein.
 - **§ 276 Abs. 2 PBG (beide Fassungen):** Die kommunale BZO kann zulassen, dass
   Vollgeschosse durch anrechenbare Dach-/(Attika-)/Untergeschosse **ersetzt** werden — ein
-  Verzicht auf die Geschosszahl ist das nicht (VB.2007.00383). → Immer die konkrete **BZO**
-  prüfen, unabhängig von der Fassung.
+  Verzicht auf die Geschosszahl ist das nicht (**VB.2007.00383**, 12.03.2008, E. 7.1,
+  **CONFIRMED wortgleich Buch-Run 126** gegen `raw/260824_amtlich_zh_vb-2007-00383.md`:
+  «weder die erlaubte Vollgeschosszahl durch Verzicht auf zulässige Dach- oder
+  Untergeschosse erhöht werden noch sind Dach- und Untergeschosse in diesem Sinn
+  untereinander austauschbar»; der Entscheid selbst nennt dafür bereits VB.1999.00270
+  [17.02.2000] als älteren Präzedenzfall, nicht separat verifiziert). → Immer die konkrete
+  **BZO** prüfen, unabhängig von der Fassung.
 - **Untergeschoss, unerheblich in welchem Mass:** VB.2003.00051 (unerheblich, in welchem
   Mass das Geschoss unterhalb des Terrains liegt) und BEZ 2009 Nr. 63 (gemessen wird die
   Betondecke, nicht der Fertigboden) sind zur **alten** Fassung ergangen (rein qualitative
   Untergeschoss-Definition); ob sie unter der harmonisierten 2,5-m-/3-m-Zahlenformel
-  unverändert gelten, ist nicht abschliessend geklärt (`speculative`).
+  unverändert gelten, ist nicht abschliessend geklärt (`speculative`). **VB.2003.00051 am
+  24.08.2026 (Buch-Run 126) gezielt gesucht und nicht gefunden:** eine strukturierte
+  `term`-Abfrage gegen das `reference`-Feld des entscheidsuche.ch-Suchindex (Elasticsearch,
+  `_searchV2.php`), an Kontrollproben (u.a. VB.2003.00118, VB.2003.00370, VB.2007.00383 —
+  alle gefunden) verifiziert, liefert für «VB.2003.00051» **0 Treffer** im ansonsten für
+  2003 vollständig gefüllten Index (269 ZH-Verwaltungsgerichtsentscheide aus dem Jahr 2003
+  vorhanden). Gleiche Fehlerfamilie wie die RRB-1294/1995-Fehlattribution (Buch-Run 123):
+  entweder eine Zitier-/Abschreibungenauigkeit der Sekundärquelle, oder ein von
+  entscheidsuche.ch nicht online publizierter Entscheid. Keine Ersatzfundstelle erfunden,
+  Zitat bleibt mit diesem Vorbehalt stehen.
 
 ## Warum das für JANS zählt
 

@@ -1,5 +1,43 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## ✅ TEILWEISE GEKLÄRT 2026-08-24 (Buch-Run 126) — Kniestock-/Anrechenbarkeits-Rechtsprechung in [[geschosse-und-kniestock]] verifiziert, ein Fehlzitat korrigiert, ein Zitat unauffindbar
+
+**War offen seit Buch-Run 125** (dessen empfohlener nächster Schritt): der Kniestock-Teil von
+[[geschosse-und-kniestock]] war in der Re-Verifikationskette (Run 90-125) bislang nicht
+angefasst — drei Rechtsprechungszitate mit vollem VB-Aktenzeichen (VB.2003.00370,
+VB.2007.00383, VB.2003.00051) standen unverifiziert im Artikel.
+
+**Methode:** Die klassische `entscheidsuche.ch`-Direkt-URL (Datum im Dateinamen) griff ohne
+bekanntes Entscheiddatum nicht; stattdessen die von der Website selbst verwendete
+Such-API (`https://entscheidsuche.ch/_searchV2.php`, Elasticsearch-Proxy, aus dem
+JS-Bundle `js/app.*.js` rekonstruiert) direkt per `curl -X POST` angesprochen — eine
+`term`-Query auf das Feld `reference` (Format: führendes Leerzeichen + „VB.JJJJ.NNNNN") liefert
+exakte Treffer inkl. `content_url` zum statischen (nicht JS-gerenderten) Volltext-HTML.
+
+- **VB.2003.00370 (10.03.2004) — KORRIGIERT.** Der Artikel zitierte einen «Richtwert ab 1,5 m
+  Breite» für die Anrechenbarkeit einer Galerie. Der Volltext (E. 2.2,
+  `raw/260824_amtlich_zh_vb-2003-00370.md`) sagt das Gegenteil: eine 1,5 m breite Galerie
+  wurde dort als «zu Wohnzwecken ungeeignet», also **nicht** anrechenbar, beurteilt — 1,5 m
+  ist der als zu schmal befundene Sachverhaltswert, keine Sufficiency-Schwelle. Korrigiert auf
+  den tatsächlich tragenden Massstab (objektive Wohn-/Arbeitsnutzungs-Eignung im Einzelfall).
+- **VB.2007.00383 (12.03.2008) — CONFIRMED wortgleich.** E. 7.1
+  (`raw/260824_amtlich_zh_vb-2007-00383.md`) deckt sich mit dem Wiki-Satz zu § 276 Abs. 2 PBG
+  (Ersatz von Vollgeschossen durch Dach-/Untergeschosse ist kein Verzicht auf die
+  Geschosszahl); der Entscheid zitiert dafür selbst bereits VB.1999.00270 (17.02.2000) als
+  älteren Präzedenzfall (nicht separat verifiziert).
+- **VB.2003.00051 — nicht auffindbar.** Gezielte `term`-Query auf das `reference`-Feld liefert
+  0 Treffer, obwohl der ZH-Verwaltungsgerichts-Index für das Jahr 2003 vollständig gefüllt ist
+  (269 Entscheide, Kontrollproben VB.2003.00118/00370/00445 alle gefunden). Gleiche
+  Fehlerfamilie wie die RRB-1294/1995-Fehlattribution (Buch-Run 123): entweder
+  Zitiergenauigkeit der Sekundärquelle, oder ein nicht online publizierter Entscheid. Keine
+  Ersatzfundstelle erfunden, im Wiki mit diesem Vorbehalt stehen gelassen.
+
+Die beiden alten, `speculative` offenen Fragen zur harmonisierten Fassung (0,4-m-Messweise
+sinngemäss übertragbar? Kasuistik zu «andere Untergeschosse, die mehrheitlich über dem
+gewachsenen Boden liegen» unter der neuen Zahlenformel noch relevant?) bleiben unverändert
+offen — es handelt sich um echte, am Gesetzeswortlaut nicht beantwortbare Auslegungsfragen,
+keine Recherchelücken (siehe Block «Geklärt / verifiziert — 2026-07-13», unten in dieser Datei).
+
 ## ✅ GEKLÄRT 2026-08-24 (Buch-Run 125) — gilt die harmonisierte § 6c-ABV-Messweise auch im Baulinienbereich? Ja; neuer aktiver Fassungsstand-Wachposten
 
 **War offen seit Buch-Run 62** (`[[baulinien-und-abstandslinien]]`): ob die Rechtsprechung die

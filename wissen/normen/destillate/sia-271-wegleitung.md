@@ -48,3 +48,14 @@ Die Wegleitung ist eine gemeinsame Auslegungshilfe der Branchenverbände Gebäud
 - **Beschaffungs-Pendenz:** Vollständige Wegleitung (Gebäudehülle Schweiz / suissetec / PAVIDENSA / SFG) nachbestellen und den Scan in der Normenbibliothek ersetzen; ebenso die zitierte **suissetec-Richtlinie** zur Dachentwässerung als eigene Quelle erfassen.
 - **Adversariale Prüfung 25.07.2026 (Run 25):** Verdikt BEANSTANDET, technischer Kerninhalt (Ziff. 5.10.3-5.10.5, alle Zahlenwerte, Tabelle Abb. 75) wortgetreu bestätigt, 0 Abweichungen dort. 3 Befunde ausschliesslich im Frontmatter/bei Bildunterschriften: PAVIDENSA-Verbandsname korrigiert («Estriche» statt «Beläge»), SFG-Kürzel-Zusatz als unsicher markiert, Abb.-75-Titel als Präzisierung ergänzt. Nicht auf established gehoben, da das SFG-Kürzel am Original noch visuell nachzuverifizieren ist.
 - **SFG-Kürzel visuell geklärt 25.07.2026 (Run 26):** Deckblatt S. 1 hochaufgeloest gelesen — das Logo zeigt eindeutig «SFG — ASVE» («Schweizerische Fachvereinigung Gebäudebegrünung» / «Association Suisse des Spécialistes du Verdissement des Edifices»), nicht «ASF»/«ASE». Frontmatter korrigiert. Damit sind alle 3 Run-25-Befunde geschlossen — **Status auf established gehoben.**
+- **Beschaffungsweg konkretisiert, Norm-Bezug offen geblieben 24.08.2026 (QUESTIONS-Abarbeitung):** Kein
+  freier Volltext auffindbar. Offizielles Bestellformular gebäudehülle.swiss
+  (`xn--gebudehlle-s5a60a.swiss/node/1718/download`, per `pdftotext` gelesen, 24.08.2026): aktuelle
+  Wegleitung ist «zur Norm SIA 271:2021», **1. Auflage 2022, 142 Seiten**, Preise 84.-/120.-/133.- bis
+  190.-/247.- CHF exkl. MwSt. je nach Format/Mitgliedschaft. **Ob der hier vorliegende 2-Seiten-Auszug
+  aus dieser 2022er-Ausgabe oder aus einer älteren Wegleitung (zur Vorgänger-Norm SIA 271:2007, seit
+  31.10.2021 archiviert — siehe `destillate/sia-271-2007.md`) stammt, bleibt ungeklärt**, da der Scan
+  kein Ausgabejahr trägt. Für sicherheitsrelevante Anschlusshöhen/Freibord-Werte (Ziff. 5.10.3-5.10.5
+  oben) bei einem laufenden Projekt daher zusätzlich gegen die aktuelle Norm SIA 271:2021 selbst
+  gegenprüfen, sobald diese im Haus ist — nicht allein auf diesen Auszug abstützen, dessen Norm-Bezug
+  unklar ist.

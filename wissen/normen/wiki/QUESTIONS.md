@@ -4748,6 +4748,28 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
 - [ ] **Wegleitung zu SIA 271 (Abdichtungen) liegt nur als 2-Seiten-Auszug vor.** Das PDF enthält
   ausschliesslich Deckblatt und Buchseite 64 (Ziff. 5.10.3-5.10.5). Destillat `sia-271-wegleitung.md`
   ist deshalb `speculative` und im Inventar als `[~]` teil-destilliert geführt. Volltext beschaffen.
+  > **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung).** ⚠ Statuskorrektur zum Ursprungswortlaut:
+  > Das Destillat trägt inzwischen `status: established` (seit Run 26, 25.07.2026, letzte Zeile des
+  > Abschnitts «Offene Punkte» dort) — established jedoch nur für den 2-seitigen Inhalt selbst
+  > (Ziff. 5.10.3-5.10.5 wortgetreu bestätigt), nicht für den fehlenden Rest. Die Bring-Schuld
+  > «Volltext beschaffen» bleibt davon unberührt offen.
+  > **Web-Recherche zum Beschaffungsweg (WebSearch + WebFetch, 24.08.2026):** kein freier
+  > Volltext auffindbar. Gefunden wurde stattdessen das offizielle Bestellformular
+  > `gebäudehülle.swiss` (`xn--gebudehlle-s5a60a.swiss/node/1718/download`, PDF, verschlüsselt,
+  > per `pdftotext` gelesen): **«Wegleitung zur Norm SIA 271:2021 — Abdichtungen von Hochbauten»,
+  > 1. Auflage 2022, 142 Seiten, Format A4, 4-farbig**, getragen von Gebäudehülle Schweiz und
+  > suissetec (Herausgeberliste im Destillat nennt zusätzlich PAVIDENSA und SFG-ASVE, im
+  > Bestellformular nicht separat aufgeführt — möglicherweise nur die zwei Hauptverbände im
+  > Formularkopf). Preise (exkl. MwSt.): Buch 190.- / E-Book 133.- / Set 247.- (Nichtmitglied);
+  > 120.- / 84.- / 156.- (Mitgliederpreis Gebäudehülle Schweiz oder suissetec). Norm SIA 271:2021
+  > selbst trat am 01.11.2021 in Kraft, «gegenüber dem Vorgänger einige wichtige Änderungen».
+  > **Damit bleibt die Beschaffung eine reine Bring-Schuld Raphael** (kein Gratis-/Web-Weg
+  > gefunden) — neu ist nur die konkrete Bestellgrundlage (Ausgabe, Umfang, Preis, Bezugsquelle),
+  > die zuvor in dieser Zeile fehlte. **Offen bleibt zusätzlich unbeantwortet**, ob der im Haus
+  > liegende 2-Seiten-Auszug aus dieser 2022er-Ausgabe oder aus einer älteren Wegleitung
+  > (Vorgänger-Norm SIA 271, vor 01.11.2021) stammt — der Auszug selbst trägt kein Ausgabejahr
+  > (siehe Destillat, Frontmatter `ausgabe: "unbekannt"`), das ist ohne Volltext-Vergleich nicht
+  > entscheidbar.
 - [x] **Gültigkeitsstand der Merkblatt-Serie 2000er — GEKLÄRT (23.08.2026, QUESTIONS-Abarbeitung).**
 
   > SIA-Merkblätter sind laut eigenem Vorspann nur **drei Jahre gültig**, verlängerbar um je drei
