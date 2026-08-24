@@ -4412,21 +4412,21 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
 - [x] **Gross-Dateien DIN-Sonstiges/DIN-Norm** — alle in Run 3+4 (13.07.2026) destilliert,
   siehe Inventar. Keine offenen Positionen mehr.
 
-- [ ] **Mac Mini Run 3 (13.07.2026, Intensiv-Lauf): CH-Pendants weiterhin offen + Budget-Grenze
-  erreicht.** 9 neue Vollstaendig-Destillate (DIN 1045-2, 105-100, 1053-1, 1053-100, 1053-4,
-  18040-2, 18232-2, 1946-4) plus Teil-Destillat DIN 1054 (72%). Neue CH-Pendant-Luecke: **SWKI
-  99-3** (Heiz-/Raumlufttechnik Spitalbauten) fehlt als Schweizer Pendant zu DIN 1946-4
-  (Healthcare-RLT) — Kandidat fuer Ergaenzung, relevant fuer `healthcare-wirtschaftlichkeit`/
-  `energie-berater`. Ebenso referenziert aber nicht destilliert: DIN 4159 (Ziegel-Tabellen,
-  aus DIN 1053-4) und DIN 4149 (Erdbebenzonen D). Workflow-Tool verweigerte erneut die
-  Freigabe ("Review dynamic workflow before running") - Fallback auf 9 parallele Agent-Aufrufe
-  in einem Batch; das hat ca. $17 von $25 Sessionbudget verbraucht (ca. $1.9/Agent bei
-  60-100-seitigen Volltexten) - fuer den naechsten Lauf kleinere Batches (5-6 statt 9) oder
-  kuerzere Dokumente zuerst planen. **Offen fuer naechsten Lauf:** DIN 4844-2, DIN V 105-100,
-  DIN V 106, Sonstiges/Baupreisindizes, Sonstiges/Inhaltsverzeichnis (DRM-verdaechtig, print
-  erlaubt/copy gesperrt - noch nicht getestet), Sonstiges/Komm Din 18024 Teil 1, Sonstiges/
-  VdS-Richtlinie 2234 (DRM-verdaechtig, print+copy erlaubt), Rest DIN 1054 (S.61-77+94-105),
-  alle 5 offenen VSS-Grossdateien (40 291, 640 065, 640 281, 640 291a, 640 578).
+- [x] **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung, zwoelfter Lauf).** Alle drei Folgen
+  dieses Status-Vermerks sind laengst erledigt, nur die Checkbox war nie nachgezogen: (1) die
+  hier als «offen fuer naechsten Lauf» gelisteten Dateien (DIN 4844-2, DIN V 105-100, DIN V 106,
+  Sonstiges/Baupreisindizes, Sonstiges/Inhaltsverzeichnis, Sonstiges/Komm DIN 18024, Sonstiges/
+  VdS-Richtlinie 2234, Rest DIN 1054, alle 5 VSS-Grossdateien) sind gemaess den direkt
+  nachfolgenden Eintraegen dieser Datei (Mac Mini Run 4/5, 13.07.2026, unten) vollstaendig
+  destilliert bzw. begruendet uebersprungen — «0 offene [ ]-Positionen» in DIN/VSS/RAL bestaetigt.
+  (2) DIN 4159/4149 blieben mangels konkretem Projektbedarf bewusst unangetastet (P4-Fall wie
+  N-R40-3 oben), kein Loop-Fall. (3) Die «Neue CH-Pendant-Luecke SWKI 99-3» war ein falscher
+  Gegenstand: SWKI 99-3:2003 (+ Beiblatt 2004) ist seit 1.8.2015 durch VA 105-01:2015 ersetzt
+  (belegt `wiki/REGISTER.md`, Zeile VA 105-01/SWKI 99-3:2003; zweitbelegt
+  `wissen/energie/destillate/reinraum-op-klimatisierung-gesundheitsbau-ch.md`) — bereits an
+  anderer Stelle dieser Datei korrigiert (Abschnitt «CH-Pendant zu DIN 1946-4», Z. 3112 ff.).
+  Der eigentliche offene Rest ist der dortige Kaufentscheid **N-R21-2 (VA 105-01 Volltext,
+  Kap. 3-6)**, kein neuer Destillier-Auftrag.
 
 - [x] **SN 640 105a (Verbreiterung der Fahrbahn in Kurven, Dez. 2000)** — **destilliert
   13.07.2026 (Mac Mini Run 6):** vollstaendig gelesen (S.25-37 des Traegerdokuments
@@ -4866,12 +4866,25 @@ einzeln geprüft:
   erfasst» — exakt die hier befuerchtete systematische Verwechslung Fassungsdatum ↔
   Ausgabejahr wurde damit fuer die ganze revidierte Serie durchgesehen, nicht nur fuer 16-15.
   Ursprungswortlaut bleibt unten stehen, damit die urspruengliche Vermutung nachvollziehbar ist:
-- [ ] **Folgepruefung zur 2015er-BRL-Serie:** Dieselbe Verwechslung Fassungsdatum ↔ Ausgabejahr duerfte
-  bei den uebrigen revidierten VKF-Richtlinien systematisch auftreten (deren Fassungsdaten sind
-  ebenfalls 2016/2017). REGISTER und Destillate der ganzen Serie darauf durchsehen.
-  **Vorarbeit vorhanden (Run 8):** `planungsgrundlagen` hat fuer **BSR 13-15** (Rev. 2017,
-  redaktionelle Deltas) und **BSR 14-15** bereits Fassungs-Recherche geleistet — siehe
-  `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser` (Run 41/52). Dort abholen statt neu machen.
+- [x] **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung, zwoelfter Lauf).** Die geforderte
+  systematische Durchsicht ist durch eine zwischenzeitlich unabhaengig entstandene Arbeit
+  bereits erledigt: `wiki/REGISTER.md`, Abschnitt zu den VKF-Publikationen 01.01.2017 (Run 60,
+  23.08.2026), fuehrt fuer **alle fuenfzehn** Publikationen der Sammelrevision (BRL 17-15,
+  18-15, 20-15, 21-15, 23-15, 24-15, 25-15, BSE 100-15, 101-15, 102-15, 105-15, 106-15, 107-15,
+  AH 1000-15, 1002-15) je ein eigenes Delta-Destillat mit explizitem Fundstellen-Abgleich
+  Fassungsdatum ↔ Ausgabejahr, plus BRL 13-15 als Gegenprobe — REGISTER-Vermerk: «Der
+  Sammelposten 01.01.2017 ist mit Run 60 vollstaendig abgearbeitet». Damit ist die hier
+  verlangte Durchsicht der ganzen Serie bereits vollzogen, nur die Checkbox war nicht
+  nachgezogen. Separat davon bleibt eine ANDERE, im REGISTER selbst als naechster Schritt
+  markierte Frage offen (Abdeckungsrichtung: ob die Bestandsdestillate ihre eigene Fassung
+  *vollstaendig* abbilden, nicht nur das Delta) — das ist keine Wiederholung dieses Punkts,
+  sondern eine eigene, groessere Arbeit (siehe Eskalationsempfehlung im Report des elften
+  Laufs). Ursprungswortlaut zur Nachvollziehbarkeit: «Dieselbe Verwechslung Fassungsdatum ↔
+  Ausgabejahr duerfte bei den uebrigen revidierten VKF-Richtlinien systematisch auftreten
+  (deren Fassungsdaten sind ebenfalls 2016/2017). REGISTER und Destillate der ganzen Serie
+  darauf durchsehen. Vorarbeit vorhanden (Run 8): `planungsgrundlagen` hat fuer BSR 13-15
+  (Rev. 2017, redaktionelle Deltas) und BSR 14-15 bereits Fassungs-Recherche geleistet — siehe
+  `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser` (Run 41/52).»
 - [~] **TEILWEISE GESCHLOSSEN Run 22 (260725): Fassung «Stand 01.12.2022» gelesen und die Teilfrage zu
   Ziff. 3.7 entschieden** (Bezugsgrösse **Brandabschnittsfläche > 1'200 m²** in beiden Fassungen
   wortidentisch, Haupttext S. 12 — das Destillat hatte nichts geglättet; geändert wurde nur die

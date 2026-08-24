@@ -1,3 +1,32 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: zwölfter Lauf — zwei Alt-Punkte nachgezogen, Rest bestätigt gesättigt
+
+**Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report
+des elften Laufs (10:10 Uhr) zuerst gelesen.
+
+**Vorgehen:** statt die bereits elffach bestätigten acht Standardpunkte zu wiederholen, gezielt
+vier bisher nicht explizit gegengelesene Alt-Einträge geprüft (SIA-400-Aktualität, BRL-100-15-
+Register-Gegenprüfung, Mac-Mini-Run-3-Status, Folgeprüfung 2015er-BRL-Serie) plus vier
+Stichproben. Zwei der vier Alt-Einträge (SIA 400, BRL 100-15) waren bereits am 23./24.08.2026
+an anderer Stelle geschlossen — reine Redundanz. **Zwei echte Buchhaltungs-Nachträge gefunden:**
+Mac-Mini-Run-3-Status (Z. 4415, alle Folgeaufträge längst durch spätere Runs erledigt,
+SWKI-99-3-Gegenstand ohnehin durch VA 105-01:2015 ersetzt) und Folgeprüfung 2015er-BRL-Serie
+(Z. 4869, durch Run 60/REGISTER Z. 657 bereits vollständig erledigt) — beide Checkboxen waren
+nie nachgezogen worden, obwohl der Sachverhalt gelöst war.
+
+**Ergebnis:** 32 → 30 offene Checkboxen. Kein neuer, mit Primärquellenlektüre lösbarer Rest;
+die zwei Schliessungen sind Dokumentpflege, kein neuer Befund. Restliche 30 Punkte bleiben
+Bring-Schuld/Kaufentscheid Raphael, destruktive Struktur-Entscheide, genuine
+Quell-Ambiguitäten oder Betriebs-/Methodennotizen.
+
+**Eskalation an Raphael:** unverändert (SIA-Shop-Käufe, Freigabe der vier destruktiven
+VKF-Duplikat-Merges, alternativ Abdeckungsrichtung VKF-Delta-Destillate statt weiterer
+QUESTIONS-Läufe). Neuer Hinweis für den nächsten Lauf: gezielt prüfen, ob Cross-Referenzen
+auf andere KBs (z.B. `planungsgrundlagen`) mittlerweile dort erledigt wurden, statt der
+Gesamtliste — dasselbe Muster wie die zwei heutigen Funde.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` zwei Punkte auf `[x]` (Z. 4415, Z. 4869), Ursprungswortlaut
+erhalten. Report: `outputs/2026-08-24_questions-abarbeitung-zwoelfter-lauf.md`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: elfter Lauf — Sättigung ein elftes Mal bestätigt
 
 **Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report
