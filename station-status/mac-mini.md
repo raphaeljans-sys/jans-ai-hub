@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 01:01:51
+Stand: 25.08.2026 01:12:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 25.08.2026 01:01:51
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 362708e63 nas-selfcommit: 4 Datei(en) 2026-08-25 01:00
+- ccffa159b vollgas-radar 25.08. 00:57: [FREI] beide P1 des Vorlaufs geloest (Nachtschicht Mini wieder geladen, GitHub deckungsgleich); null Fehlversuche seit dem Reset; 7 KBs mit Liefer-Delta
