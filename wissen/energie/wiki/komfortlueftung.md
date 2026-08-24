@@ -1,10 +1,10 @@
 ---
 title: Komfortlüftung / kontrollierte Wohnungslüftung — frische Luft ohne Wärmeverlust
 status: established
-last_updated: 2026-08-13
-datenstand: "2007 (ältester zitierter Quellenstand: AHB-Merkblatt «Kontrollierte Wohnungslüftung», Stadt Zürich, Fusszeilen-Dateistempel 26.02.2007 — trägt die Messliste/Abnahme-Prozesslogik im Abschnitt «Abnahme und Inbetriebsetzung»; laut eigenem Destillat ist die Prozesslogik altersunabhängig weiterhin tragend, während alle Zahlenwerte zu WRG/Formularen aus den jüngeren Quellen SIA 382/1:2025, SIA 382/5:2021 und den EN-Formularen 2017/2022 stammen. ⚠ Der im Artikeltext separat referenzierte Vollzugsordner-Abschnitt EN-4 (Januar 2009) ist nicht Teil der `sources`-Liste und bleibt hier unberücksichtigt)"
-sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/en-lueftung-kuehlung-zh.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/bfe-komfortlueftung-dimensionierungshilfe-1.md, destillate/ahb-merkblatt-kontrollierte-wohnungslueftung.md]
-links: [[INDEX]], [[en-lueftung-kuehlung-zh]], [[minergie-standards]], [[pv-eigenverbrauch-zev]], [[gebaeudeprogramm-bund-hfm-2015]], [[sommerlicher-waermeschutz]], [[BAUHERREN-FAQ]]
+last_updated: 2026-08-24
+datenstand: "2007 (ältester zitierter Quellenstand: AHB-Merkblatt «Kontrollierte Wohnungslüftung», Stadt Zürich, Fusszeilen-Dateistempel 26.02.2007 — trägt die Messliste/Abnahme-Prozesslogik im Abschnitt «Abnahme und Inbetriebsetzung»; laut eigenem Destillat ist die Prozesslogik altersunabhängig weiterhin tragend, während alle Zahlenwerte zu WRG/Formularen aus den jüngeren Quellen SIA 382/1:2025, SIA 382/5:2021 und den EN-Formularen 2017/2022 stammen. ⚠ Der im Artikeltext separat referenzierte Vollzugsordner-Abschnitt EN-4 (Januar 2009) ist nicht Teil der `sources`-Liste und bleibt hier unberücksichtigt. Neuer Abschnitt «Minergie-Anforderungen an Lüftung ohne zentrales Gerät» (24.08.2026): Produktreglement 2026.1, Datenstand Januar 2026.)"
+sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/en-lueftung-kuehlung-zh.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/bfe-komfortlueftung-dimensionierungshilfe-1.md, destillate/ahb-merkblatt-kontrollierte-wohnungslueftung.md, destillate/minergie-produktreglement-2026-1-muken-vergleich.md]
+links: [[INDEX]], [[en-lueftung-kuehlung-zh]], [[minergie-standards]], [[minergie-produktreglement-2026-1-muken-vergleich]], [[pv-eigenverbrauch-zev]], [[gebaeudeprogramm-bund-hfm-2015]], [[sommerlicher-waermeschutz]], [[BAUHERREN-FAQ]]
 ---
 
 # Komfortlüftung / kontrollierte Wohnungslüftung
@@ -162,6 +162,31 @@ Alterskorpus. Die Grössenordnung deckt sich mit den hier unabhängig geführten
 Nachweisverwendung gegen die geltende SIA-382/1-Fassung zu prüfen; der Papierweg über die
 EN-Formulare ist im Kt. Zürich seit 1.1.2026 durch EVEN abgelöst (`[[energienachweis-zh]]`).
 Beleg: `[[vollzugsordner-energie-zh-abschnitt5]]`, status emerging. → FAQ `F246`.
+
+## Minergie-Anforderungen an Lüftung ohne zentrales Gerät (ergänzt 24.08.2026)
+
+Wer **keine** klassische Komfortlüftung mit zentralem WRG-Gerät plant, sondern eine **natürliche
+Nachströmung** über Aussenluft-Durchlässe (ALD) mit einfacher Abluftanlage oder automatische
+Fensterlüftung, unterliegt bei einem Minergie-Nachweis einer eigenen, strengeren Logik (Anhang D
+des Produktreglements 2026.1, established, `[[minergie-produktreglement-2026-1-muken-vergleich]]`):
+
+- **Schallschutz (Neubau EFH/Doppel-/Reiheneinfamilienhäuser/STWEG):** erhöhte Anforderung nach
+  SIA 181:2020 Ziff. 2.2.2, **+3 dB** gegenüber der Normtabelle, für die gesamte Gebäudehülle
+  inkl. ALD-Einbauten — auch für Mietobjekte empfohlen. Massgebend in ruhiger Wohnlage
+  (L r,Tag ≤ 60 dB, L r,Nacht ≤ 52 dB): Schallpegeldifferenz ALD ≥ 38 dB bei Fenstern mit
+  R'w+C tr ≥ 27 dB, alternativ auf die Fensterfläche bezogen oder rechnerisch nach Anwendungshilfe.
+- **Filterklassen nach Standort-Luftqualität:** an Lagen mit erhöhter Feinstaubbelastung
+  (ODA 2/3(P) nach SIA 382/1:2025) mindestens **ISO ePM2,5 70 %**, alternativ ISO ePM1 50 % nach
+  SIA 382/5:2021 — strenger als der Standardwert ISO ePM1 50 % für zentrale Komfortlüftungsgeräte
+  weiter oben in diesem Artikel.
+- **Infiltrationszuschlag:** reduzierbar bei nachgewiesen verbesserter Luftdichtheit; bei
+  Dichtigkeit auf Minergie-P/-A-Niveau sinkt der Zuschlag auf den Aussenluft-Volumenstrom auf
+  **10 %**.
+
+**Bauherren-Transfer:** Diese Anforderungen betreffen typischerweise das freistehende EFH oder das
+STWEG-Reihenhaus ohne zentrale Lüftungstechnik — die Fenster- und Fassadenplanung (Schalldämm-Mass,
+ALD-Platzierung) muss diese Werte schon in der Vorprojektphase mitrechnen, nicht erst beim
+Bauantrag.
 
 ## Offene Punkte
 - CHF-Kosten aus neutraler/amtlicher Quelle statt Installateur-Schätzung (weiterhin offen).

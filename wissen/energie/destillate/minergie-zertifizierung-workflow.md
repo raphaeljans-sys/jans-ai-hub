@@ -11,10 +11,12 @@ geltungsbereich: "established gilt fuer die Prozessaussagen der gelesenen Folien
   Lauf desselben Tages:** Kapitel 0-5 des Reglements 2026.1 sind inzwischen primärquellenweise
   gelesen — die hier beschriebene Zertifizierungslogik (Antrag/Prüfung/Ausstellung über die
   Label-Plattform) ist unter 2026.1 bestätigt unveraendert, ergänzt um neue Prozessdetails
-  (Fristen, Gebühren, Gültigkeitsdauer, Stichproben — s. Nachtrag unten). Weiterhin nicht am
-  Original der Version 2026.1 geprüft: Kapitel 6-13 sowie die Antrags-Checkliste und die
-  Hilfstool-Namen (WPesti/PVopti/Lüftung/SoWs) selbst — diese kommen im Reglementstext gar nicht
-  vor (Volltextsuche negativ), sondern gehören zur Label-Plattform/Anwendungshilfe."
+  (Fristen, Gebühren, Gültigkeitsdauer, Stichproben — s. Nachtrag unten). **Update 24.08.2026,
+  vierter Lauf desselben Tages:** auch Kapitel 6-13 sowie Anhang B3/C/D des Reglements 2026.1 sind
+  inzwischen primärquellenweise gelesen (s. Nachtrag unten) — established gilt damit für die
+  gesamte hier beschriebene Prozesslogik gegen 2026.1 verifiziert. Von der Antrags-
+  Checkliste/den Hilfstool-Namen (WPesti/PVopti/Lüftung/SoWs) kommt einzig **PVopti** im
+  Reglementstext selbst vor (Anhang E); die übrigen gehören zur Label-Plattform/Anwendungshilfe."
 last_updated: 2026-08-24
 ---
 
@@ -108,8 +110,17 @@ zum **provisorischen** und nach Bauausfuehrung zum **definitiven Zertifikat**.
   energetisch relevante Änderung erfolgt und das Gebäude auf der Minergie-Gebäudeliste bleibt. Löst
   `wiki/QUESTIONS.md` E-125-6 (bisher offen, s. `wiki/minergie-standards.md` Update 15.08.2026 und
   `wiki/BAUHERREN-FAQ.md` F221).
-  **Weiterhin ungeprüft gegen 2026.1: Kapitel 6-13** (technische Detailanforderungen) sowie **die
-  Antrags-Checkliste und die Hilfstool-Namen (WPesti, PVopti, Lüftung, SoWs) selbst** — eine
-  Volltextsuche über Kap. 0-13 des Reglements 2026.1 fand diese Tool-Namen **nicht**; sie gehören
-  zur Label-Plattform/Anwendungshilfe (Version 2026.2), nicht zum Reglementstext, und wären dort zu
-  verifizieren, nicht hier.
+  **Nachtrag 24.08.2026, dritter Lauf desselben Tages — Kapitel 6-13 jetzt ebenfalls
+  primärquellenweise gelesen** (A-BLIND-Folgelauf, Details in
+  `[[minergie-produktreglement-2026-1-muken-vergleich]]` Abschnitt «Kapitel 6-13»): die technischen
+  Detailanforderungen bestätigen den bestehenden Wiki-Stand grösstenteils, korrigieren aber die
+  Elektromobilität-Ausbaustufe **C1 statt C2** (Fehler aus der Kursunterlage 2023, s.
+  `wiki/minergie-standards.md`). **Präzisierung der Hilfstool-Aussage:** eine Volltextsuche über
+  ALLE 52 Seiten (nicht nur Kap. 0-13) ergab **einen** Treffer — **PVopti wird in Anhang E einmal
+  namentlich genannt** als Minergie-eigenes Rechenprogramm für die Eigenverbrauchsberechnung.
+  WPesti, «Lüftung» als Tool-Name und SoWs kommen weiterhin an keiner Stelle des Reglementstexts
+  vor; sie gehören wie die Antrags-Checkliste selbst zur Label-Plattform/Anwendungshilfe (Version
+  2026.2), nicht zum Reglementstext. **Nachtrag 24.08.2026, vierter Lauf — Anhang B3/C/D
+  ebenfalls gelesen:** damit ist das Produktreglement 2026.1 durchgehend Kap. 0-17 + Anhang A-J
+  primärquellenweise gelesen, die hier beschriebene Prozesslogik vollständig gegen 2026.1
+  verifiziert.

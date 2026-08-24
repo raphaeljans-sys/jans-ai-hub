@@ -2,11 +2,11 @@
 quelle: "Produktreglement Gebäudestandards MINERGIE® / MINERGIE-P® / MINERGIE-A®, Version 2026.1 — https://www.minergie.ch/media/produktreglement-minergie-p-a-v2026-1.pdf (52 Seiten, öffentlich abgerufen 05.08.2026, PDF-Erstellung 08.01.2026)"
 herausgeber: Verein Minergie, Bäumleingasse 22, 4051 Basel
 ausgabe: "Version 2026.1, Ausgabe vom 08. Januar 2026, gültig ab 01. Januar 2026; vom Vorstand des Vereins Minergie im November 2025 genehmigt. Ersetzt alle früheren Reglemente in seinem Anwendungsbereich. Neuerungen gegenüber Version 2025.1 sind im Original blau eingefärbt."
-gelesen: "GELESEN: Kapitel 0 (Präambel), 1 (Allgemeines), 2 (Zertifizierungsverfahren zur Erlangung des Minergie-Zertifikats, vollständig, 24.08.2026), 3 (Gebühren, vollständig, 24.08.2026), 4 (Technische Grundsätze und generelle Anforderungen, vollständig, 24.08.2026), 5 (Gesamtenergiebilanz Gebäudebetrieb — Einführung/MKZ-Definition, Ausbau durch Mietende, Spezialzertifizierungen, vollständig, 24.08.2026), **6 (Gebäudehülle: Heizwärmebedarf, Luftdichtheit), 7 (Thermischer Komfort im Sommer), 8 (Wärmeerzeugung und Heizung), 9 (Warmwasser), 10 (Lufterneuerung), 11 (Elektrizitätsbedarf Beleuchtung/Geräte/AGT), 12 (Eigenstromerzeugung), 13 (Elektromobilität) — alle vollständig, 24.08.2026 (A-BLIND-Folgelauf)**, 14 (Monitoring), 15 (THGE in der Erstellung), 16 (Systemerneuerung), 17 (Schlussbestimmungen); Anhang A (Minergie im Kontext der MuKEn 2025, vollständig), Anhang B1 (MKZ Definition/Projektwert), Anhang B2 (MKZ-Anforderungen, Standardertrag Eigenproduktion und nutzbare Dachfläche), Anhang E (Anforderung an die Eigenstromproduktion, vollständig), Anhang F (Monitoring, vollständig), Anhang G (THGE-Grenzwerte je Gebäudekategorie, vollständig, 07.08.2026), Anhang H (Anforderungen Systemerneuerung, vollständig, 07.08.2026), Anhang J (Übersicht der Anforderungen für Neubau und Erneuerung, vollständig, 07.08.2026). NICHT GELESEN: Anhang B3 (Nutzungsgrade und Gewichtungsfaktoren, S. 35), Anhang C (Thermischer Komfort im Sommer, S. 37), Anhang D (Lüftung mit natürlicher Nachströmung, S. 38). Von 52 Seiten."
+gelesen: "GELESEN: Kapitel 0 (Präambel), 1 (Allgemeines), 2 (Zertifizierungsverfahren zur Erlangung des Minergie-Zertifikats, vollständig, 24.08.2026), 3 (Gebühren, vollständig, 24.08.2026), 4 (Technische Grundsätze und generelle Anforderungen, vollständig, 24.08.2026), 5 (Gesamtenergiebilanz Gebäudebetrieb — Einführung/MKZ-Definition, Ausbau durch Mietende, Spezialzertifizierungen, vollständig, 24.08.2026), 6 (Gebäudehülle: Heizwärmebedarf, Luftdichtheit), 7 (Thermischer Komfort im Sommer), 8 (Wärmeerzeugung und Heizung), 9 (Warmwasser), 10 (Lufterneuerung), 11 (Elektrizitätsbedarf Beleuchtung/Geräte/AGT), 12 (Eigenstromerzeugung), 13 (Elektromobilität) — alle vollständig, 24.08.2026 (A-BLIND-Folgelauf); 14 (Monitoring), 15 (THGE in der Erstellung), 16 (Systemerneuerung), 17 (Schlussbestimmungen); Anhang A (Minergie im Kontext der MuKEn 2025, vollständig), Anhang B1 (MKZ Definition/Projektwert), Anhang B2 (MKZ-Anforderungen, Standardertrag Eigenproduktion und nutzbare Dachfläche), **Anhang B3 (Nutzungsgrade η / JAZ-Standardwerte der Wärmeerzeugung + nationale Gewichtungsfaktoren g, vollständig, 24.08.2026)**, **Anhang C (Anforderungen an den thermischen Komfort im Sommer — drei Nachweisvarianten, vollständig, 24.08.2026)**, **Anhang D (Anforderungen für Lüftungssysteme mit natürlicher Nachströmung — Schallschutz ALD, Filterklassen, Infiltrationszuschlag, vollständig, 24.08.2026)**, Anhang E (Anforderung an die Eigenstromproduktion, vollständig), Anhang F (Monitoring, vollständig), Anhang G (THGE-Grenzwerte je Gebäudekategorie, vollständig, 07.08.2026), Anhang H (Anforderungen Systemerneuerung, vollständig, 07.08.2026), Anhang J (Übersicht der Anforderungen für Neubau und Erneuerung, vollständig, 07.08.2026). Damit ist das Produktreglement 2026.1 **von 52 Seiten vollständig gelesen** (Kap. 0-17 + alle Anhänge A-J); offen bleibt nur die vertiefte zweite Prüfung (Refuter-Panel) für Kap. 0-13 und Anhang H/J."
 datenstand: "Januar 2026 — der aktuell geltende Stand. Übergangsregel beachten: Nachweise nach dem alten Produktreglement 2025.1 können noch bis 31.12.2026 zur provisorischen Zertifizierung eingereicht werden (Kap. 17.1). Minergie revidiert das Produktreglement jährlich; vor einer Projektzusage die dann geltende Version auf minergie.ch prüfen."
 status: established
-geltungsbereich: "Der Status `established` gilt AUSSCHLIESSLICH für die oben unter GELESEN aufgeführten Kapitel und Anhänge. Aussagen zu sommerlichem Komfort (Anhang C), Lüftung mit natürlicher Nachströmung (Anhang D) und zu Nutzungsgraden/Gewichtungsfaktoren (Anhang B3) sind aus diesem Destillat NICHT belegbar. **Kapitel 6-13 (Nachtrag 24.08.2026):** einfach gelesen (kein Refuter-Panel, Einzelagenten-Budget wie die übrigen 24.08.-Nachträge), zwei Tabellen (Kap. 6.2 Luftdichtheit, Kap. 13 Elektromobilität-Ausbaustufen) per pdfplumber statt reiner Textextraktion gelesen, da PyPDF2 sie nicht sauber auslas. **Die Antrags-Checkliste und die Hilfstools-Namen (WPesti, PVopti, Lüftung, SoWs) aus `[[minergie-zertifizierung-workflow]]` kommen im Reglementstext selbst NICHT vor** (Volltextsuche über Kap. 0-13 am 24.08.2026 negativ) — sie sind Bestandteil der Label-Plattform/Anwendungshilfe, nicht des Produktreglements, und bleiben daher ausserhalb des mit diesem Destillat belegbaren Bereichs. **Ausnahme Anhang G/H/J (Nachtrag 07.08.2026):** nur einfach gelesen, Zahlen gegen den bestehenden Wiki-Stand `[[minergie-standards]]` abgeglichen (deckungsgleich, keine Abweichung gefunden), aber KEIN eigenes Refuter-Panel gefahren (Budgetdisziplin Nachtschicht-Einzelagent) — Einzelaussagen aus diesen drei Anhängen vor einer verbindlichen Verwendung am Original oder mit einer zweiten Prüfung gegenlesen. **Kapitel 0-5 (Nachtrag 24.08.2026):** einfach gelesen (Modell D, Volltextabgleich), kein Refuter-Panel — Einzelaussagen mit hoher Tragweite (insbesondere die Gültigkeitsfristen in Kap. 2) sind primärquellenwörtlich zitiert, nicht nur paraphrasiert, um das Risiko einer Fehldeutung ohne zweite Prüfung zu senken."
-verifikation: "Modell D (Volltextabgleich an der Originalquelle) am 05.08.2026 im Hauptmodell, plus zweistufiges Refuter-Panel (Zahlen-Refuter und Aussagen-Refuter, je mit Widerlegungsauftrag) — gilt fuer die am 05.08.2026 gelesenen Kapitel/Anhaenge. Zahlen-Refuter: 40 Aussagen geprüft, 36 bestätigt, kein einziger Zahlendreher und keine vertauschte Spalte. Aussagen-Refuter: 10 Beanstandungen, sämtlich an der Grenze Quelle/Deutung — alle am Original nachgeprüft, alle berechtigt, alle korrigiert. Die beiden folgenschwersten Korrekturen: (1) die Aussage, das rechnerische Soll werde nicht mit den Messdaten verglichen, war zu weit gefasst und wird durch Anhang F widerlegt; (2) der Vergleich der 60-%-Dachbelegung mit 20 W/m² EBF war eine Rechenbehauptung ohne Rechnung und ist ohne die Geschosszahl nicht zulässig. Beide Beanstandungen stammten aus Anhängen (B2, E), die in der ersten Fassung ungelesen waren und für diese Korrektur nachgelesen wurden. **Nachtrag 07.08.2026 (Anhang G/H/J):** Einzelagenten-Lauf ohne Refuter-Panel; die THGE-Basiswerte aus Anhang G wurden gegen `[[minergie-standards]]` (dort am 21.07.2026 unabhängig verifiziert) gegengelesen und stimmen zahlenmässig ueberein — das ist eine Plausibilisierung, kein vollstaendiger Neu-Verifikationslauf fuer Anhang H/J. **Nachtrag 24.08.2026 (Kap. 0-5):** eigener PDF-Download + PyPDF2-Volltextextraktion der Originalquelle (nicht aus Sekundärzitat), Zertifizierungsverfahren/Gebühren/Grundsätze gegen den bestehenden Bestand (`[[minergie-zertifizierung-workflow]]`, `wiki/minergie-standards.md`, `wiki/QUESTIONS.md` E-125-6) abgeglichen; kein zweites Refuter-Panel. **Nachtrag 24.08.2026 (Kap. 6-13, A-BLIND-Folgelauf):** eigener PDF-Download + Volltextextraktion (PyPDF2), für die zwei tabellenlastigen Stellen (Kap. 6.2, Kap. 13) zusätzlich pdfplumber-Tabellenextraktion, da PyPDF2 dort keinen sauberen Text lieferte; gegen `wiki/minergie-standards.md` und die Destillate `[[minergie-besser-planen-bauen]]`/`[[minergie-nachweiskurs-2023-mkz-thge]]` abgeglichen; kein Refuter-Panel."
+geltungsbereich: "Der Status `established` gilt für die oben unter GELESEN aufgeführten Kapitel und Anhänge — mit diesem Nachtrag sind das alle. **Kapitel 6-13 (Nachtrag 24.08.2026):** einfach gelesen (kein Refuter-Panel, Einzelagenten-Budget wie die übrigen 24.08.-Nachträge), zwei Tabellen (Kap. 6.2 Luftdichtheit, Kap. 13 Elektromobilität-Ausbaustufen) per pdfplumber statt reiner Textextraktion gelesen, da PyPDF2 sie nicht sauber auslas. **Präzisierung 24.08.2026 (Anhang B3/C/D-Nachtrag): die Aussage 'Hilfstool-Namen kommen im Reglementstext nicht vor' war zu pauschal.** Eine Volltextsuche über ALLE 52 Seiten (nicht nur Kap. 0-13) ergibt: **PVopti wird genau einmal genannt** (Anhang E, als Minergie-eigenes Rechenprogramm für Eigenverbrauch/Netzeinspeisung) — WPesti, 'Lüftung' als Hilfstool-Name und SoWs kommen dagegen im gesamten Dokument nicht vor. Die Antrags-Checkliste selbst (als Aufzählung) ist ebenfalls nicht im Reglementstext enthalten. Damit bleibt richtig, dass die Checkliste und die meisten Hilfstool-Namen Sache der Label-Plattform/Anwendungshilfe sind — PVopti ist die dokumentierte Ausnahme. **Anhang B3/C/D (Nachtrag 24.08.2026):** einfach gelesen (Einzelagenten-Budget, kein Refuter-Panel), Anhang C inhaltlich deckungsgleich mit dem bestehenden Wiki-Stand (keine neue Zahl), Anhang D thematisch neu für die KB (bisher nicht dokumentierte Minergie-Anforderungen an ALD-Systeme). **Ausnahme Anhang G/H/J (Nachtrag 07.08.2026):** nur einfach gelesen, Zahlen gegen den bestehenden Wiki-Stand `[[minergie-standards]]` abgeglichen (deckungsgleich, keine Abweichung gefunden), aber KEIN eigenes Refuter-Panel gefahren (Budgetdisziplin Nachtschicht-Einzelagent) — Einzelaussagen aus diesen drei Anhängen vor einer verbindlichen Verwendung am Original oder mit einer zweiten Prüfung gegenlesen. **Kapitel 0-5 (Nachtrag 24.08.2026):** einfach gelesen (Modell D, Volltextabgleich), kein Refuter-Panel — Einzelaussagen mit hoher Tragweite (insbesondere die Gültigkeitsfristen in Kap. 2) sind primärquellenwörtlich zitiert, nicht nur paraphrasiert, um das Risiko einer Fehldeutung ohne zweite Prüfung zu senken."
+verifikation: "Modell D (Volltextabgleich an der Originalquelle) am 05.08.2026 im Hauptmodell, plus zweistufiges Refuter-Panel (Zahlen-Refuter und Aussagen-Refuter, je mit Widerlegungsauftrag) — gilt fuer die am 05.08.2026 gelesenen Kapitel/Anhaenge. Zahlen-Refuter: 40 Aussagen geprüft, 36 bestätigt, kein einziger Zahlendreher und keine vertauschte Spalte. Aussagen-Refuter: 10 Beanstandungen, sämtlich an der Grenze Quelle/Deutung — alle am Original nachgeprüft, alle berechtigt, alle korrigiert. Die beiden folgenschwersten Korrekturen: (1) die Aussage, das rechnerische Soll werde nicht mit den Messdaten verglichen, war zu weit gefasst und wird durch Anhang F widerlegt; (2) der Vergleich der 60-%-Dachbelegung mit 20 W/m² EBF war eine Rechenbehauptung ohne Rechnung und ist ohne die Geschosszahl nicht zulässig. Beide Beanstandungen stammten aus Anhängen (B2, E), die in der ersten Fassung ungelesen waren und für diese Korrektur nachgelesen wurden. **Nachtrag 07.08.2026 (Anhang G/H/J):** Einzelagenten-Lauf ohne Refuter-Panel; die THGE-Basiswerte aus Anhang G wurden gegen `[[minergie-standards]]` (dort am 21.07.2026 unabhängig verifiziert) gegengelesen und stimmen zahlenmässig ueberein — das ist eine Plausibilisierung, kein vollstaendiger Neu-Verifikationslauf fuer Anhang H/J. **Nachtrag 24.08.2026 (Kap. 0-5):** eigener PDF-Download + PyPDF2-Volltextextraktion der Originalquelle (nicht aus Sekundärzitat), Zertifizierungsverfahren/Gebühren/Grundsätze gegen den bestehenden Bestand (`[[minergie-zertifizierung-workflow]]`, `wiki/minergie-standards.md`, `wiki/QUESTIONS.md` E-125-6) abgeglichen; kein zweites Refuter-Panel. **Nachtrag 24.08.2026 (Kap. 6-13, A-BLIND-Folgelauf):** eigener PDF-Download + Volltextextraktion (PyPDF2), für die zwei tabellenlastigen Stellen (Kap. 6.2, Kap. 13) zusätzlich pdfplumber-Tabellenextraktion, da PyPDF2 dort keinen sauberen Text lieferte; gegen `wiki/minergie-standards.md` und die Destillate `[[minergie-besser-planen-bauen]]`/`[[minergie-nachweiskurs-2023-mkz-thge]]` abgeglichen; kein Refuter-Panel. **Nachtrag 24.08.2026 (Anhang B3/C/D):** eigenständiger PDF-Download (curl, 52 Seiten bestätigt) + PyPDF2-Volltextextraktion; zusätzlich Volltextsuche über alle 52 Seiten nach den vier Hilfstool-Namen aus `[[minergie-zertifizierung-workflow]]` (PVopti: 1 Treffer in Anhang E; WPesti/'Lüftung'/SoWs: 0 Treffer) — Grundlage der Korrektur der bisherigen Pauschalaussage. Anhang C gegen `wiki/minergie-standards.md`/`wiki/sommerlicher-waermeschutz.md` abgeglichen (deckungsgleich). Anhang D gegen `wiki/komfortlueftung.md` abgeglichen (dort bisher nicht enthalten, ergänzt). Kein Refuter-Panel (Einzelagenten-Budgetdisziplin)."
 last_updated: 2026-08-24
 ---
 
@@ -484,6 +484,76 @@ to parking›»** in `[[minergie-nachweiskurs-2023-mkz-thge]]` (Kursunterlage 20
 nicht mehr haltbar. Kursunterlage-Zitat bleibt mit Korrektur-Vermerk stehen (Destillat-Treue),
 der Wiki-Artikel wird auf C1 korrigiert.
 
+## Anhang B3 — Nutzungsgrade η und Gewichtungsfaktoren g (neu gelesen 24.08.2026)
+
+**JAZ-Standardwerte der Wärmeerzeugung (Heizung / Warmwasser), die im Minergie-Nachweis eingesetzt
+werden dürfen, sofern kein besserer Wert mit eigener Berechnung belegt wird:**
+
+| Wärmeerzeuger (TVL ≤ 45 °C) | JAZ Heizung | JAZ Warmwasser |
+|---|---|---|
+| Aussenluft-WP, monovalent | 2,30 | 2,30 |
+| Erdsonden-WP | 3,10 | 2,70 |
+| Erdregister-WP | 2,90 | 2,70 |
+| Oberflächengewässer, indirekt | 2,70 | 2,80 |
+| Grundwasser, indirekt | 2,70 | 2,70 |
+| Grundwasser, direkt | 3,20 | 2,90 |
+| Lüftungsgerät Abluft/Zuluft-WP + WRG | 2,30 | — |
+| Lüftungsgerät Abluft/Zuluft-WP ohne WRG | 2,70 | — |
+| Kompaktgerät Zuluft+WW-Erwärmung + WRG | 2,30 | 2,30 |
+| Kompaktgerät Zuluft+WW-Erwärmung ohne WRG | 2,70 | 2,50 |
+
+Weitere Nutzungsgrade (fossile/Biomasse-Feuerungen, Elektro direkt/-speicher, WKK): siehe Original.
+**Nationale Gewichtungsfaktoren g:** Elektrizität 2,0; fossile Energieträger 1,0; Biomasse 0,5;
+Fernwärme gestaffelt 0,4-1,0 nach fossilem Wärmeanteil (≤25 % → 0,4; ≤50 % → 0,6; ≤75 % → 0,8;
+>75 % → 1,0); Sonne/Umweltwärme/Geothermie 0.
+
+**Bauherren-Transfer:** Diese Tabelle ist der amtliche Referenzwert, gegen den ein Planer eine
+höhere, projektspezifisch gerechnete JAZ rechtfertigen muss — sie ersetzt keine Herstellerangabe,
+liefert aber die Vergleichsbasis für die Wärmeerzeuger-Wahl im Minergie-Nachweis (vgl. F6,
+`[[fawa-jaz-feldanalyse-waermepumpen]]` für real gemessene Feld-JAZ zum Abgleich).
+
+## Anhang C — Thermischer Komfort im Sommer (neu gelesen 24.08.2026)
+
+Drei Nachweisvarianten, alle auf **Wetterdaten 2035 (DRY, MeteoSchweiz)** und die Klimastation des
+Objektstandorts bezogen — **deckungsgleich mit dem bestehenden Wiki-Stand**
+(`[[minergie-standards]]`: „Klima 2035, max. 100 h"), keine neue Zahl:
+
+1. **Globalbeurteilung von Standardfällen** — kein Detailnachweis, aktive Kühlung nicht erlaubt.
+2. **Bauliche Voraussetzungen + Komfortkriterien** — max. Wärmeeintrag unter Klima/Speichermasse/
+   Fenstergrösse/Verschattung gerechnet, max. **100 h/a > 26,5 °C**, aktive Kühlung nicht erlaubt.
+3. **Simulation nach SIA 180:2014** (Fig. 3 Behaglichkeitsfeld, Fig. 4 Überschreitungsstunden) —
+   Grenzwert **100 Std./Jahr über Fig. 4** (bei Bestandesgebäuden nach Norm 400 Std., Minergie setzt
+   aber generell 100 Std. für alle Nutzungen/Baujahre fest). Bei gekühlten Räumen wird der
+   Kühl-Energiebedarf mitausgewiesen.
+
+## Anhang D — Lüftungssysteme mit natürlicher Nachströmung (neu gelesen 24.08.2026)
+
+Ergänzt Kap. 10 für Systeme **ohne zentrales Lüftungsgerät** (Abluftanlagen mit Aussenluft-
+Durchlässen/ALD, automatische Fensterlüftung) — **thematisch neu für diese KB**, bisher nicht
+dokumentiert:
+
+- **Schallschutz (Neubau EFH/DEFH/REFH/STWEG):** erhöhte Anforderungen nach SIA 181:2020 Ziff.
+  2.2.2, **+3 dB** gegenüber Tabelle 2 der Norm, für die gesamte Gebäudehülle inkl. Einbauten (z. B.
+  ALD); Empfehlung, dies auch bei Mietobjekten anzuwenden. Gesetzlich bindend bleiben die
+  Mindestanforderungen der Norm, bei Fluglärm die erhöhten Werte nach LSV Art. 32.
+  Ruhige-Wohnlage-Schwelle: L r,Tag ≤ 60 dB, L r,Nacht ≤ 52 dB.
+- **Nachweisvarianten in ruhiger Wohnlage:** (1) Schallpegeldifferenz ALD ≥ 38 dB (D n,e,w+C tr) bei
+  Fenstern mit R'w+C tr ≥ 27 dB; (2) Schallpegeldifferenz ALD bezogen auf Fensterfläche im Raum;
+  (3) einfacher rechnerischer Nachweis nach Anwendungshilfe.
+- **Filterklassen nach Aussenluftqualität (SIA 382/1:2025):** an Lagen mit Feinstaubbelastung ODA 2
+  (P) oder ODA 3 (P) mindestens **ISO ePM2,5 70 %**, alternativ **ISO ePM1 50 %** nach SIA 382/5:2021
+  (inkl. normativer Druckverhältnisse).
+- **Infiltrationszuschlag:** Grundzuschlag nach SIA 382/5:2021; reduzierbar bei nachgewiesen
+  verbesserter Luftdichtheit (SIA 180:2014 Ziff. 3.6); bei Dichtigkeit auf Minergie-P/-A-Niveau
+  Reduktion des Abluft-Volumenstrom-Zuschlags auf **10 %** des Aussenluft-Volumenstroms.
+- **Zugluftvermeidung, Zugänglichkeit/Reinigbarkeit, Regelung:** an SIA 382/1:2025 (Kategorie IEQ
+  II) resp. SIA 382/5:2021 gebunden; Regelung/Steuerung wie Kap. 10.3 des Reglements.
+
+**Bauherren-Transfer:** Wer ein EFH/Reiheneinfamilienhaus/STWEG ohne zentrale Komfortlüftung nach
+Minergie plant, unterliegt für die ALD-basierte Lüftung einer eigenen, strengeren Schallschutz- und
+Filterlogik als das Basisrecht — das gehört in die Fenster-/Fassadenplanung, nicht erst in die
+Ausführung.
+
 ## Offene Punkte
 
 - **Anhang G/H/J sind gelesen, aber nur einfach (kein Refuter-Panel, Nachtrag 07.08.2026).** Die
@@ -492,13 +562,17 @@ der Wiki-Artikel wird auf C1 korrigiert.
   (Übersichtstabellen) haben noch KEINE zweite, unabhängige Prüfung durchlaufen.
 - **Anhang J führt keine eigene THGE-Zeile für Erneuerungen** («Keine Anforderungen») — das ist
   konsistent mit Kap. 15, wurde aber nicht gegen eine dritte Quelle geprüft.
-- **Kapitel 0-13 sind seit 24.08.2026 vollständig gelesen** (Zertifizierungsablauf, Gebühren,
-  Grundsätze, MKZ-Einführung, technische Detailanforderungen je Gewerk — siehe eigene Abschnitte
-  oben). Weiterhin nicht gelesen: Anhang B3 (Nutzungsgrade und Gewichtungsfaktoren), C (sommerlicher
-  Komfort), D (Lüftung mit natürlicher Nachströmung). Kein Refuter-Panel für Kap. 0-13
-  (Einzelagenten-Budgetdisziplin) — vor einer Verwendung mit hoher Tragweite zweite Prüfung erwägen.
-- **Antrags-Checkliste/Hilfstools (WPesti, PVopti, SoWs) bleiben auf dem Stand 2023.1** — im
-  Reglementstext selbst nicht enthalten (s. o.), Primärquelle wäre die Anwendungshilfe 2026.2.
+- **Das gesamte Produktreglement 2026.1 (Kap. 0-17 + Anhänge A-J, 52 Seiten) ist seit 24.08.2026
+  vollständig gelesen** (Zertifizierungsablauf, Gebühren, Grundsätze, MKZ-Einführung, technische
+  Detailanforderungen je Gewerk, Nutzungsgrade/Gewichtungsfaktoren, sommerlicher Komfort,
+  Lüftungssysteme mit natürlicher Nachströmung — siehe eigene Abschnitte oben). Kein Refuter-Panel
+  für Kap. 0-13 und Anhang B3/C/D (Einzelagenten-Budgetdisziplin) — vor einer Verwendung mit hoher
+  Tragweite zweite Prüfung erwägen.
+- **Antrags-Checkliste/Hilfstools (WPesti, Lüftung, SoWs) bleiben auf dem Stand 2023.1, im
+  Reglementstext selbst nicht enthalten** — mit einer dokumentierten Ausnahme: **PVopti wird in
+  Anhang E einmal namentlich genannt** (als Minergie-eigenes Rechenprogramm für die
+  Eigenverbrauchsberechnung), bestätigt per Volltextsuche über alle 52 Seiten am 24.08.2026.
+  Primärquelle für die übrigen Tool-Details bliebe die Anwendungshilfe 2026.2.
 - **Die Herleitung des Belegungsgrads liegt ausserhalb dieses Dokuments.** Anhang E sagt zur
   60-/30-%-Definition ausdrücklich: «Die Herleitung wird in der **Anwendungshilfe** festgelegt» —
   ebenso die detaillierte Flächenbestimmung der eingerechneten Eigenproduktion. Wer die Zahl in

@@ -1,5 +1,50 @@
 # CHANGELOG
 
+## 2026-08-24p — Anhang B3/C/D des Produktreglements 2026.1 gelesen (Reglement damit vollständig), PVopti-Pauschalaussage korrigiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. Anschluss an CHANGELOG 24o («Anhang B3, C, D lesen —
+danach ist das gesamte Reglement primärquellenweise abgedeckt»). **Betriebslage:** NAS nicht
+gemountet (unbetroffen, lokal git-getrackt); `ps`/Elternprozess-Prüfung bestätigte den einzigen
+gefundenen `claude -p`-Prozess mit gleichem Energie-Prompt (PID 69010) als eigenen Elternprozess
+(Wrapper `mschub789`) — kein Sibling-Lauf zu dieser KB.
+
+PDF eigenständig heruntergeladen (`curl`, 52 S. bestätigt), PyPDF2-Volltextextraktion. **Gelesen:
+Anhang B3** (JAZ-/Nutzungsgrad-Standardwerte, Gewichtungsfaktoren g), **Anhang C** (thermischer
+Komfort Sommer, drei Nachweisvarianten), **Anhang D** (Lüftung mit natürlicher Nachströmung:
+Schallschutz ALD, Filterklassen, Infiltrationszuschlag) — alle vollständig. Produktreglement 2026.1
+damit **von 52 Seiten durchgehend Kap. 0-17 + Anhang A-J primärquellenweise gelesen**.
+
+**Hauptfund 1:** Anhang D ist ein bisher unbelegtes Themenfeld — eigene, strengere
+Minergie-Anforderungen für ALD-basierte Lüftung ohne zentrales Gerät (Schallschutz SIA 181:2020
++3 dB Neubau-EFH/DEFH/REFH/STWEG, Filterklasse ISO ePM2,5 70 % an belasteten Lagen,
+Infiltrationszuschlag auf 10 % reduzierbar bei P/A-Luftdichtheit). Eingearbeitet in
+`wiki/komfortlueftung.md`. Anhang C bestätigt nur den bestehenden Wiki-Stand (keine neue Zahl).
+Anhang B3 liefert amtliche JAZ-Standardwerte (Erdsonden-WP 3,10/2,70, Aussenluft-WP 2,30/2,30 u. a.),
+jetzt im Destillat tabelliert.
+
+**Hauptfund 2 (Korrektur):** frühere Läufe (24l/m) hatten pauschal festgehalten, die Hilfstool-Namen
+WPesti/PVopti/Lüftung/SoWs kämen „im Reglementstext gar nicht vor" — geprüft war das nur gegen
+Kap. 0-13. Volltextsuche über alle 52 Seiten: **PVopti wird in Anhang E einmal namentlich genannt**
+(Minergie-eigenes Rechenprogramm für Eigenverbrauch). WPesti/Lüftung/SoWs bleiben unbelegt. Korrigiert
+in `destillate/minergie-produktreglement-2026-1-muken-vergleich.md` und
+`destillate/minergie-zertifizierung-workflow.md`.
+
+Eingearbeitet: `destillate/minergie-produktreglement-2026-1-muken-vergleich.md` (Frontmatter, drei
+neue Abschnitte, Offene-Punkte gekürzt), `destillate/minergie-zertifizierung-workflow.md`
+(Frontmatter, Nachtrag korrigiert), `wiki/komfortlueftung.md` (Frontmatter, neuer Abschnitt),
+`destillate/INDEX.md` (zwei Registerzeilen), `wiki/QUESTIONS.md` (Eintrag 24p).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: additiv/präzisierend, keine Löschung von
+Bestand (siehe Detailwerte im QUESTIONS-Eintrag 24p).
+
+**Für den nächsten Lauf:** Produktreglement 2026.1 vollständig gelesen, kein offener Leseauftrag zu
+diesem Dokument mehr. Sinnvoller Folgeschritt: zweites Refuter-Panel für Kap. 0-13/Anhang B3/C/D/H/J
+nachholen, oder A-BLIND-Bestand fortsetzen (~28 von 39 Kandidaten offen, `ecobkp-2026-methodik-
+und-uebersicht` nicht erneut listen). Unverändert blockiert: E-R230-2 (Raphael), 393/394
+(OCR-Werkzeug), SIA 380/1:2016 (Normkauf), E-R161-1 (SN EN ISO 6946, Normkauf), E103/E94 (Entscheid
+Raphael bzw. Recherchewege erschöpft).
+
 ## 2026-08-24o — A-BLIND-Folgelauf: Kapitel 6-13 des Produktreglements 2026.1 gelesen, Elektromobilität-Fehler C2→C1 korrigiert, Luftdichtheit-q_E50-Lücke gelöst
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
