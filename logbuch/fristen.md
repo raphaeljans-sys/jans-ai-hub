@@ -1603,6 +1603,37 @@ tenantweit leer (elfter Lauf in Folge), keine Auto-Bereinigung, 0 GB; erste Stuf
 `tenant-hygiene/reports/260819-hygiene.md`. Status: **Punkt 2 offen und dringend, Entscheid
 Raphael (Admin Center) — der Puffer traegt beim heutigen Tempo noch rund 16 Tage.**
 
+**NACHTRAG 24.08.2026, 20:08 (Lauf `tenant-hygiene-weekly`, Montag/Wochenpflicht) — der
+Puffer ist heute in EINEM Arbeitstag um neun Tage geschrumpft, und die einzelne Version ist
+achtmal so gross wie bisher gemessen.** Stand: **876.44 GB von 1'054 GB, 83.15 %**, freier
+Puffer 177.56 GB. Tageszuwachs **+13.90 GB** — hoechster Wert der Woche, nach zwei
+stillstehenden Wochenendtagen (22.08. +0.05, 23.08. -0.005). Davon sind **12.65 GB (91 %)
+Versionsverlauf von JANS.PROJEKTE** (92.86 → 105.51 GB, 17.6 % der Site, 90.9 % des
+Versionsverlaufs im Tenant), die restlichen 1.23 GB sind regulaerer Projektzuwachs auf
+kispi (echte neue Dateien, kein Bloat). Alle uebrigen Sites unveraendert. **Neuer, fuer die
+Ursachensuche entscheidender Befund:** die 12.65 GB entstanden auf nur **27 neuen Versionen**
+(VersionCount 3'777 → 3'804), das sind rund **480 MB je Version** gegenueber bisher rund
+58 MB — eine Verachtfachung. Gesucht ist damit nicht eine breite Nutzungsgewohnheit, sondern
+**eine Handvoll einzelner, sehr grosser, wiederholt ueberschriebener Dateien** (CAD,
+Rendering, Punktwolke, Archiv, Video); bei dieser Groessenordnung ueber die groessten Dateien
+der Site auffindbar. Die Kopplung an aktive Arbeitszeit ist durch das doppelte
+Wochenend-Null zusaetzlich belegt, ein Hintergrund-Sync scheidet aus. **Restlaufzeit 25 Tage**
+(Wochenschnitt 7.17 GB/Tag, etwa 18. September), gegenueber 34 Tagen gestern; beim heutigen
+Tempo 13 Tage. **Die 88-%-Marke ist nur noch rund 7 Tage entfernt (etwa 31. August), beim
+heutigen Tempo 4 Tage.** Vom Trim des 13.08. (106 GB) ist in elf Tagen bereits **die Haelfte
+zurueckgekehrt (53.26 GB)**. Konfiguration unveraendert auf allen elf belegten Sites:
+`MajorVersionLimit: 0`, `EnableAutoExpirationVersionTrim: false`,
+`InheritVersionPolicyFromTenant: true` — es begrenzt nichts. **Reihenfolge bleibt: zuerst
+Admin Center → Einstellungen → Versionsverlauf-Limits → «Automatisch», danach trimmen**
+(Trim-Potenzial heute rund **89 GB**, bringt den Tenant auf ~74.7 % und den Puffer auf
+~266 GB; beim Wochenschnitt kauft das gut 12 Tage, beim heutigen Tempo sechs). Papierkoerbe:
+alle zweiten Stufen tenantweit leer (**sechzehnter Lauf in Folge**), keine Auto-Bereinigung,
+0 GB; erste Stufen 498 Objekte / 1.54 GB unangetastet (+17 Objekte). Report:
+`tenant-hygiene/reports/260824-hygiene.md`. Status: **Punkt 1 (Limit-Umstellung) offen seit
+42 Tagen, Punkt 2 (Trim) dringend — Entscheid Raphael, Admin Center. Das guenstige
+Wochenendfenster ist verstrichen; bei 7 Tagen bis zur 88-%-Marke sollte der Trim nicht bis
+zum naechsten warten.**
+
 Eintrag 13.08.2026 (Hub-Chef 08:39, Regellauf — **ein neuer Vorgang seit dem Radar, und die
 vier Entwuerfe liegen um 08:45 immer noch unversendet**):
 
