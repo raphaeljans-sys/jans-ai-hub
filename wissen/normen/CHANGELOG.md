@@ -1,3 +1,21 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung 03:30 Uhr: zwei veraltete Kopfzeilen korrigiert, Datei erneut als ausgeschöpft bestätigt
+
+**Auftrag:** Weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, mach dort weiter, wo der
+letzte Lauf (03:17 Uhr) aufgehört hat. Rule `normen-referenz` (Fundstellenpflicht), Rule
+`wissens-bibliothekar` (nichts raten, jede Aussage belegen).
+
+Eigenes, unabhängiges Skript über alle `## `-Abschnitte fand zwei Kopfzeilen, deren Titel den
+tatsächlichen (bereits in Run 45 vom 06.08.2026 erledigten) Stand nicht mehr wiedergab: die
+VKF-Merkblatt-2001-15-Sektion („Re-Destillat offen" — ist seit Run 45 erledigt) und die
+SIA-430/118-430-Übergabe-Sektion aus Wissens-Chef Run 25 (E-123-2/-3/-6 sind seit Run 45
+geschlossen, nur der Norm-Kauf selbst bleibt offen). Beide Kopfzeilen um einen ⚠-Verweis auf die
+tatsächliche Fundstelle der Erledigung ergänzt (rein additiv), damit künftige automatisierte
+Gegenproben sie nicht erneut als offen fehlklassifizieren. Kein Punkt inhaltlich neu geschlossen.
+N60-1/N60-2 (Entscheid/Freigabe Raphael nötig) sowie alle Bring-Schuld-Punkte (SIA 491,
+SN EN 12193, SIA 430/118-430, SIA 384/4:2025, SN 640 273a, SN 641 400, NIN-Geschirrspüler)
+bleiben unverändert extern blockiert — dritte unabhängige Bestätigung, dass die Datei ohne
+Kauf/Entscheid/Freigabe durch Raphael ausgeschöpft ist. Report: `outputs/2026-08-24_questions-abarbeitung-0330uhr.md`.
+
 ## 2026-08-24 — SIA-Sweep, 35. Fortsetzung: Abschnitt A (SIA-Produktdatenblatt-Sweep) als gesättigt bestätigt; SN 640 052/SN 641 400 aus QUESTIONS ins REGISTER konsolidiert
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

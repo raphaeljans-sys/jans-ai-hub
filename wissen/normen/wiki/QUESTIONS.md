@@ -1740,7 +1740,7 @@ führten die Ablösung längst. Das ist Methodik-Pflicht 7 in ihrer allgemeinen 
 anderer Stelle bereits führt.** Der Ertrag war trotzdem echt, nur kleiner: die Korrigenda
 und der Revisionsstand fehlten wirklich.
 
-## 2026-08-05 (Cross-KB Lauf 26) — VKF-Merkblatt 2001-15 «Solaranlagen»: Fassung entschieden, Re-Destillat offen
+## 2026-08-05 (Cross-KB Lauf 26) — VKF-Merkblatt 2001-15 «Solaranlagen»: Fassung entschieden, Re-Destillat offen ⚠ TITEL VERALTET — Re-Destillat seit Run 45 (06.08.2026) ERLEDIGT, siehe Abschnitt unten; nur Punkt 3 (SharePoint-Ablage) bleibt Bring-Schuld Raphael (nachgetragen 24.08.2026, QUESTIONS-Abarbeitung 03:17-Fortsetzung)
 
 **Der Delta ist entschieden, die Beschaffungsfrage ist bezahlt — offen ist nur noch der
 Lesevorgang.** Am 05.08.2026 wurden beide Nachfolge-Ausgaben vom adversarialen Verifikator
@@ -1785,7 +1785,7 @@ darf nicht ein zweites Mal aufgemacht werden** (gleiche Regel wie bei SIA 430:20
    `services2.vkf.ch` abzufragen — dasselbe Portal, das diese KB drei Tage nach dem
    Bring-Schuld-Eintrag vom 25.07.2026 für das Merkblatt 2005-15 selbst benutzt hat.
 
-## 2026-08-04 (Cross-KB energie → normen, Wissens-Chef Run 25) — SIA 430:2023 + SIA 118/430:2023 beschaffen, drei nie angekommene Übergaben aus energie-Run 123
+## 2026-08-04 (Cross-KB energie → normen, Wissens-Chef Run 25) — SIA 430:2023 + SIA 118/430:2023 beschaffen, drei nie angekommene Übergaben aus energie-Run 123 ⚠ E-123-2/-3/-6 GESCHLOSSEN — siehe Abschnitt «Run 45 (06.08.2026)» weiter oben im Dokument; nur SIA 430:2023 und SIA 118/430:2023 bleiben offen (Bring-Schuld Raphael, Kauf, siehe dort) (nachgetragen 24.08.2026, QUESTIONS-Abarbeitung 03:17-Fortsetzung)
 
 Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel aus Run 8). Anlass:
 die Übergaben **E-123-2, E-123-3 und E-123-6** aus dem energie-Run 123 (04.08.2026) standen
