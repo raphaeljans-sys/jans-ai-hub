@@ -1,5 +1,32 @@
 # CHANGELOG
 
+## 2026-08-24n — A-BLIND: `gebaeudeprogramm-bund-hfm-2015` — 607-Mio.-Zahl und 18-Module-Tabelle primärquellenbestätigt, KIG-Impulsprogramm als dritte Geldquelle ergänzt, Förderrisiko Entlastungsprogramm 2027 vermerkt
+
+Bewusst ein Nicht-Minergie-Thema gewählt, da beim Start ein echter Sibling-Prozess (PID 60629,
+identisches Energie-Prompt, nicht der eigene Elternprozess) erkennbar am Produktreglement
+2026.1 arbeitete — Kollisionsvermeidung. A-BLIND-Kandidat `[[gebaeudeprogramm-bund-hfm-2015]]`
+(27 Backlinks) gewählt: `established`, aber bisher nur Web-Seiten-Sichtung ohne Originalzitat,
+eigener Vorbehalt «Web-Stand, vor Zitat pruefen».
+
+Zwei Primärquellen per WebFetch geladen und mit PyMuPDF volltextextrahiert (pdftotext auf dieser
+Station nicht installiert): Medienmitteilung Das Gebäudeprogramm 26.08.2025 (3 S.) und
+HFM-2015-Schlussbericht (endk.ch, 136 S., Kap. 1 + Tabelle 1 gelesen). **Bestätigt:** die
+607-Mio.-CHF-Zahl für 2026 und die 18-Module-Tabelle M-01–M-18 sind primärquellenwörtlich korrekt,
+kein Fehler gefunden. **Echte Lücke geschlossen:** eine dritte, bisher unbelegte Geldquelle
+(KIG-Impulsprogramm, 2 Mrd. CHF/10 Jahre, seit 18.06.2023 ins Gebäudeprogramm integriert, 2025
+zusätzlich 127 Mio. CHF an Kantone) ergänzt, Rechtsgrundlage um das KIG erweitert. **Neuer
+Vorbehalt:** die Quelle selbst nennt das Programm als vom Bundes-Entlastungsprogramm 2027
+betroffen, Prüfungsergebnis offen — als ⚠ für Bauherren-Aussagen über 2026 hinaus vermerkt.
+
+Eingearbeitet: `destillate/gebaeudeprogramm-bund-hfm-2015.md`, `destillate/INDEX.md`,
+`wiki/foerderung-energie-zh.md`, `wiki/QUESTIONS.md` (Eintrag 24n). `git diff --numstat` nach
+jedem Schreibvorgang geprüft: durchweg additiv/präzisierend, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand jetzt ~27 von 39 Kandidaten offen (u. a.
+`pv-marktzahlen-kosten-ch-2025`, `muken-2025-modul-7-betriebsoptimierung-hlkkse`,
+`gebaeudeschadstoffe`, `wpz-buchs-feldmessung-jaz-2016-2019`, `komfortlueftung`,
+`holzbau-bauphysik-clt`). Details: `wiki/QUESTIONS.md` 24n.
+
 ## 2026-08-24m — A-BLIND-Folgelauf: Kapitel 0-5 des Produktreglements 2026.1 gelesen, E-125-6 (Zertifikat-Gültigkeit) gelöst
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,

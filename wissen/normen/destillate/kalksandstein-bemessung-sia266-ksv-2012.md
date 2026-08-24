@@ -2,10 +2,10 @@
 quelle: "04_Merkblätter/Bemessung Kalksandstein.pdf"
 herausgeber: "Verband Schweizer Kalksandstein-Produzenten (K·S·V), Postfach 432, 3250 Lyss (Herausgeber, S.16); erarbeitet von Dr. Joseph Schwartz, Consulting Engineer, CH-6315 Oberägeri (Titelblatt)"
 ausgabe: "«Kalksandstein-Mauerwerk. Bemessung nach Norm SIA 266 für Standard-Einsteinmauerwerk», Ausgabe Herbst 2012 (Titelblatt; Druckvermerk S.16: September 2012, Auflage 500 Ex.), 16 Seiten"
-gelesen: "Run 42 (030826): Volltext gelesen (16 S., PDF-Rendering via Read-Tool, Seite für Seite als Bild); Diagramme S.6/8/9/10/11/13 und Tabelle S.12 visuell abgelesen, keine Textextraktion"
+gelesen: "Run 42 (030826): Volltext gelesen (16 S., PDF-Rendering via Read-Tool, Seite für Seite als Bild); Diagramme S.6/8/9/10/11/13 und Tabelle S.12 visuell abgelesen, keine Textextraktion. NACHGETRAGEN 24.08.2026 (QUESTIONS-Abarbeitung N43-5): Original erneut ueber M365-Graph-Connector bezogen (Text-Layer vorhanden, `pdftotext -layout`), Abschnitt Gebrauchstauglichkeit/Rissweite (S.7-8) und bewehrtes Mauerwerk (S.12) volltextgeprueft; SIA-266-Zitate (Art. 4.3.1.1/4.3.1.3/4.3.4.3) gegen `sia-266-2003.md`-Original gegengelesen."
 datenstand: "September/Herbst 2012"
-status: "speculative — NICHT ALS BEMESSUNGSGRUNDLAGE VERWENDEN, bis K1/K2/K3 nachgetragen sind (Run 43, 04.08.2026, unabhaengige Widerlegungs-Pruefung, VERDIKT BEANSTANDET — 10 Kernbefunde + 12 Nebenbefunde). Schwerster Befund K2, vom Hauptprozess am eigenen 300-dpi-Rendering der S. 11 bestaetigt: l1 ist NICHT die Deckenspannweite, sondern l/0.8l/0.6l je nach Lagerung (Beispiel 2 rechnet woertlich l1 = 0.6 x 5.0); l1 geht in DRITTER POTENZ ein, Fehlerfaktor bei Zwischenwaenden rund 4.6. K1: Gebrauchstauglichkeit rechnet mit q_ser,lang = 2.0 kN/m2 und E_c = 12 x 10^6, nicht mit gamma = 1.0 und 10 x 10^6 (rund 45 % Abweichung). K3: die Rissweiten-Diagramme waren ohne Nxo = 100 kN/m1 und die drei Transformationen unanwendbar.)"
-last_updated: 2026-08-03
+status: "speculative — K1/K2/K3 (Run 43) sind jetzt vollstaendig im Fliesstext nachgetragen (24.08.2026, QUESTIONS-Abarbeitung N43-5: Rissweiten-Diagramm-Kapitel mit Nxo=100 kN/m1 und allen drei Transformationen neu geschrieben). Damit ist die urspruengliche Blockierungsbedingung „bis K1/K2/K3 nachgetragen sind\" erfuellt. Status bleibt dennoch speculative, weil K4-K10 (Run 43, siehe Abschnitt Verifikation) weiterhin nur im Verifikations-Anhang stehen, nicht im Fliesstext, und keine erneute unabhaengige Freigabe-Pruefung stattgefunden hat — Statuswechsel auf established bewusst NICHT durch diesen Lauf vorgenommen, sondern einem eigenen Verifikationslauf vorbehalten. Neu bestaetigt: Art. 4.3.1.1/4.3.1.3 SIA 266 korrekt zitiert; Art. 4.3.4.3 (S.12, fyd-Aktivierung) ist ein Druckfehler DES MERKBLATTS SELBST, richtig waere Art. 4.2.1.2/4.2.1.3 (eta3=1,5 fuer vollfugig vermoertelte Stossfugen) — sachlich bleibt die Merkblatt-Aussage richtig, nur die Fundstelle falsch."
+last_updated: 2026-08-24
 links: [[REGISTER]]
 ---
 
@@ -50,9 +50,28 @@ mit k2 = Anteil der Lastabtragung der Decke in der betreffenden Richtung, l1 = b
 
 ## Gebrauchstauglichkeit / Rissweite (S.4, S.7-8)
 
-Grundbedingung (S.4): ez/tw ≤ 1/6. Für den genaueren Nachweis (S.7) wird ϑ nach derselben Formel wie oben, aber mit Gebrauchslasten (γ = 1.0) berechnet; die rechnerische Rissweite r ergibt sich aus Diagrammen (S.8, vier Wanddicken 120/145/180/200 mm) über die Bezugsgrösse Nxo (ohne physikalische Bedeutung, nur zur Optimierung der Diagramm-Anwendungsbereiche) und r200 (Rissweite bei Schichthöhe 200 mm; allgemein r = h0/200 · r200).
+Grundbedingung (S.4): ez/tw ≤ 1/6. Für den genaueren Nachweis (S.7) wird der Auflagerdrehwinkel ϑ nach derselben Formel wie beim Tragsicherheitsnachweis berechnet, aber mit Gebrauchslasten (γ = 1.0) **und** den in der Verifikation (K1) festgehaltenen abweichenden Werten: reduzierte Langzeit-Nutzlast **q_ser,lang = 2,0 kN/m²** statt der vollen Nutzlast, und **E'c = 12·10⁶ kN/m²** (Langzeitwert mit Kriecheinfluss) statt E'cd = 10·10⁶ kN/m² der Tragsicherheitsbeispiele.
+
+**Ablesung der Rissweiten-Diagramme (S.7-8, vier Wanddicken 120/145/180/200 mm, je mit Bezugsgrösse Nxo = 100 kN/m¹):** die Diagrammachsen sind nicht direkt ϑ und Nx, sondern drei umgerechnete Grössen (S.7, wörtlich):
+
+- **Ordinate:** r200 · Nxo/Nx
+- **Abszisse:** hcr · √(Nx/Nxo)
+- **Kurvenparameter:** ϑ · √(Nxo/Nx)
+
+mit Nxo = 100 kN/m¹ als dimensionsloser Bezugswert ohne eigene physikalische Bedeutung (dient nur der Optimierung der Diagramm-Anwendungsbereiche). Aus dem am Kurvenparameter ϑ·√(Nxo/Nx) abgelesenen Diagrammwert für r200·Nxo/Nx folgt r200 durch Auflösen nach Nx (dem tatsächlichen Bemessungswert der Normalkraft). r200 ist die Rissweite bei einer Schichthöhe h0 = 200 mm; für andere Schichthöhen gilt allgemein **r = h0/200 · r200** (S.10, Beispiel 1 rechnet so; S.7 selbst druckt abweichend r = h0/(200·r200) — Setzfehler der Quelle, siehe Verifikation K5, im Beispiel richtiggestellt).
+
+Ohne den Zahlenwert Nxo = 100 kN/m¹ und alle drei Umrechnungen sind die vier Diagramme nicht lesbar (Verifikation K3) — diese Angaben fehlten in der vorherigen Fassung dieses Abschnitts und sind hier nachgetragen (Primärquelle: `pdftotext`-Volltext der PDF, 24.08.2026, ergänzend zur ursprünglichen visuellen 300-dpi-Lektüre von Run 42/43).
 
 Anforderung gemäss SIA 266 (S.7, wörtlich referenziert): normale Anforderungen r ≤ 0.20 mm, hohe Anforderungen r ≤ 0.05 mm.
+
+## SIA-266-Zitate am Original geprüft (24.08.2026, QUESTIONS-Abarbeitung N43-5)
+
+Gegen `destillate/sia-266-2003.md` bzw. direkt gegen das Original (`02_Normen/SIA_Norm/SIA_Normen/alle/266_2003_d.pdf`, `pdftotext -layout`) geprüft:
+
+- **Tragsicherheitsformel Nxd ≤ kN·lw·tw·fxd (Merkblatt S.4)** entspricht wortgleich SIA 266:2003 **Art. 4.3.1.1 Gleichung (7)** («Nxd ≤ kN·lw·tw·fxd», Abschnitt 4.3.1 Normalkraftbeanspruchung, Nachweis der Tragsicherheit für unbewehrtes Mauerwerk) — **bestätigt**.
+- **«Teilweise eingebundene Decken», hcr = hw bzw. 0,7 hw (Merkblatt S.3, K9-Verweis)** entspricht SIA 266:2003 **Art. 4.3.1.3** («Für teilweise eingebundene Decken darf das Wand-Deckensystem ohne genauere Untersuchung gemäss Figur 4 behandelt werden») — **bestätigt**.
+- **Art. 4.3.4.3 SIA 266 — Merkblatt-Fundstelle ist ein Druckfehler der Quelle.** Das Merkblatt schreibt wörtlich (S.12): «Art. 4.3.4.3 der Norm SIA 266 sind zur Aktivierung von fyd die Stossfugen vollfugig zu vermörteln.» Am Original ist **Art. 4.3.4.3** jedoch Teil von Kapitel 4.3.4 «Querbelastung» (Tragsicherheit **unbewehrtes** Mauerwerk) und lautet: «Bei Druckgewölben quer zu den Stossfugen sind diese vollfugig zu vermörteln» — das regelt Druckgewölbe unter Querbelastung, nicht die Aktivierung von fyd im bewehrten Mauerwerk. Die tatsächlich einschlägige Stelle ist **Art. 4.2.1.2 Gleichung (4)** («fyd = η₁η₃·fyk/γM») mit **Art. 4.2.1.3**: «η₃ = 1,0 im Allgemeinen, η₃ = 1,5 für vollfugig vermörtelte Stossfugen» — genau der Mechanismus, den das Merkblatt beschreibt (vollfugige Vermörtelung erhöht fyd über η₃), nur unter der falschen Ziffer zitiert. **Sachlich bleibt die Merkblatt-Aussage richtig** (vollfugige Stossfugen erhöhen tatsächlich fyd), nur die Fundstelle im Merkblatt selbst ist falsch — kein KB-Übertragungsfehler, der Druckfehler steht so im Original (S.12, per `pdftotext` geprüft).
+- **SIA-262-Bezug (K4):** Das Merkblatt (S.12) datiert sein eigenes Bewehrtes-Mauerwerk-Schema ausdrücklich auf «SIA 262 **(2003)**». Laut `wiki/REGISTER.md` war SIA 262:2003 zum Publikationszeitpunkt des Merkblatts (Herbst 2012) noch die geltende Ausgabe (abgelöst erst durch SIA 262:2013) — das Merkblatt zitierte damals korrekt die aktuelle Fassung. Für heutige JANS-Projekte ist die Anlehnung dennoch gegen die **heute geltende SIA 262:2013** zu prüfen, bevor das Bewehrungsschema übernommen wird (deckt sich mit K4, hier primärquellenfest bestätigt statt nur vermutet).
 
 ## Beispiele (S.9-11)
 

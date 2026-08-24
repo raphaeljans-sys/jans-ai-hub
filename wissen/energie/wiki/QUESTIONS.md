@@ -2,6 +2,65 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24n — A-BLIND: `gebaeudeprogramm-bund-hfm-2015` (27 Backlinks) — 607-Mio.-Zahl und 18-Module-Tabelle primärquellenbestätigt, dritte Geldquelle (KIG-Impulsprogramm) und Förderrisiko 2027 ergänzt
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** `ps aux` zeigte beim Start einen echten
+Sibling-Prozess (PID 60629, `claude -p` mit demselben Energie-Prompt, 4 Min. vor dem eigenen
+Elternprozess PID 62145/62144 gestartet, nicht dessen Vorfahre) — parallel zu dieser Session aktiv
+auf derselben KB. Um Kollision zu vermeiden, wurde bewusst **kein** Minergie-/Produktreglement-Thema
+gewählt (das war erkennbar der Fokus des parallelen Laufs, siehe unten stehender Eintrag 24m/l/k),
+sondern ein unabhaengiges Ziel aus dem A-BLIND-Backlink-Bestand.
+
+Bestand geprüft: A-BLIND-Bestand laut Eintrag 24m «rund 28 von 39 Backlink-Kandidaten offen». Eigene
+Backlink-Zählung gezogen (`grep -rhoE '\[\[[a-z0-9-]+\]\]' wiki/ destillate/ | sort | uniq -c`, Bereich
+18-29). Ausgewählt: **`[[gebaeudeprogramm-bund-hfm-2015]]`** (27 Backlinks, `established`, aber
+`gelesen`-Feld nannte bisher nur eine Web-Seiten-Sichtung ohne Originalzitat, eigener Vorbehalt
+im Destillat: «⚠ Web-Stand, konkrete Zahlen vor Zitat pruefen»).
+
+**Vorgehen:** zwei Primärquellen eigenständig per `curl`-Äquivalent (WebFetch, Ergebnis lokal
+gespeichert) geladen und mit PyMuPDF (`fitz`) volltextextrahiert — pdftotext ist auf dieser Station
+nicht installiert, PyMuPDF liefert dieselbe Volltext-Qualität: (1) Medienmitteilung Das
+Gebäudeprogramm vom 26.08.2025 (3 S., vollständig gelesen); (2) HFM-2015-Schlussbericht
+(endk.ch, INFRAS/BFE/EnFK, revidierte Fassung September 2016, 136 S.) — Kap. 1 (S. 1-10) und
+Tabelle 1 (S. 7, vollständige Massnahmenliste) gelesen, Kap. 2-6 + Anhang (S. 11-136) bewusst nicht
+(Fördersatz-Herleitung, für diesen Übersichts-Destillat nicht nötig).
+
+**Fund 1 — bestätigt:** Die bisher nur als «Web-Stand» geführte Zahl «2026 stehen rund 607 Mio. CHF
+zur Verfügung» ist primärquellenwörtlich korrekt (Medienmitteilung, Absatz «Förderbudgets von Bund
+und Kantonen für das Jahr 2025»). Ebenso die 18-Module-Tabelle M-01 bis M-18 (inkl. M-01 =
+Wärmedämmung Gebäudehülle) — wortgleich mit Tabelle 1 des Originals, kein Fehler gefunden.
+
+**Fund 2 — echte Lücke geschlossen:** Das Destillat kannte bisher nur zwei Geldquellen (Bund
+CO2-Gesetz-Globalbeiträge + Kantone). Die Medienmitteilung nennt eine **dritte, bisher unbelegte
+Quelle**: das **KIG-Impulsprogramm** (Klima- und Innovationsgesetz, Volksabstimmung 18.06.2023,
+2 Mrd. CHF über 10 Jahre), das ins Gebäudeprogramm integriert wurde und 2025 zusätzlich 127 Mio. CHF
+an die Kantone auszahlte — neben 275 Mio. CHF Kantonsmitteln und 247 Mio. CHF Bundes-Globalbeiträgen
+(gedeckelt auf max. 450 Mio. CHF/Jahr seit 2018). Rechtsgrundlage entsprechend um das KIG ergänzt
+(bisher nur Art. 34 CO2-Gesetz genannt).
+
+**Fund 3 — neuer, primärquellenbelegter Vorbehalt:** die Medienmitteilung selbst nennt das
+Gebäudeprogramm als vom **Bundes-Entlastungsprogramm 2027** betroffen; UVEK/EnDK prüften zum
+Publikationsstand (26.08.2025), ob/wie die Förderprogramme angepasst werden — Ergebnis nicht
+bekannt. Für Bauherren-Aussagen mit Zeithorizont über 2026 hinaus jetzt als ⚠ vermerkt.
+
+Eingearbeitet: `destillate/gebaeudeprogramm-bund-hfm-2015.md` (Frontmatter komplett nachgeführt,
+drei neue/erweiterte Abschnitte), `destillate/INDEX.md` (Zeile aktualisiert, Status bleibt
+`established`), `wiki/foerderung-energie-zh.md` (Abschnitt «Woher das Geld kommt» + Frontmatter
+`datenstand`).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/gebaeudeprogramm-bund-hfm-2015.md`
++52/-17, `destillate/INDEX.md` +1/-1, `wiki/foerderung-energie-zh.md` +11/-6 — durchgehend
+additiv/präzisierend, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand jetzt 12 von 39 (bzw. ~27) Backlink-Kandidaten geprüft.
+Verbleibende unmarkierte hohe Kandidaten (18-28 Backlinks) u. a. `pv-marktzahlen-kosten-ch-2025` (28),
+`muken-2025-modul-7-betriebsoptimierung-hlkkse` (27), `gebaeudeschadstoffe` (26),
+`wpz-buchs-feldmessung-jaz-2016-2019` (25), `komfortlueftung` (23), `holzbau-bauphysik-clt` (23).
+Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf),
+E103/E94 (Raphaels Entscheid zu JANS-Projektdaten). Entlastungsprogramm-2027-Ausgang bleibt zu
+einem späteren Zeitpunkt neu zu prüfen (kein Primärquellenfund heute).
+
 ## 2026-08-24m — A-BLIND-Folgelauf: Kapitel 0-5 des Produktreglements 2026.1 gelesen, E-125-6 gelöst
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,

@@ -2,7 +2,7 @@
 title: Förderung Energie — Kanton Zürich (2026)
 status: established
 last_updated: 2026-08-24
-datenstand: 2026-06-26 (Förderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unverändert bestätigt 24.10.2025); Bund-/HFM-Mechanik 2026-06-28; Kantonsrats-Verfahrensstand Solarpflicht/Langzeitspeicher 2026-07-24 (Run 87); Rahmenkredit 2026-2029 (KRNr 6064) bewilligt 17.08.2026, primärquellenverifiziert 2026-08-24
+datenstand: 2026-06-26 (Förderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unverändert bestätigt 24.10.2025); Bund-/HFM-Mechanik primärquellenverifiziert 2026-08-24 (607 Mio. CHF 2026 + KIG-Impulsprogramm + Förderrisiko Entlastungsprogramm 2027, siehe `[[gebaeudeprogramm-bund-hfm-2015]]`); Kantonsrats-Verfahrensstand Solarpflicht/Langzeitspeicher 2026-07-24 (Run 87); Rahmenkredit 2026-2029 (KRNr 6064) bewilligt 17.08.2026, primärquellenverifiziert 2026-08-24
 sources: [destillate/foerderprogramm-energie-zh-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/zh-energiegesetz-revision-solarpflicht-2026.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]], [[energiefranken-foerder-suchmaschine-ch]], [[zh-energiegesetz-revision-solarpflicht-2026]]
 ---
@@ -75,11 +75,16 @@ Kanton pauschal → `[[pv-marktzahlen-kosten-ch-2025]]`.
 
 ## Woher das Geld kommt (Bund ↔ Kanton)
 Das ZH-Förderprogramm **ist** der kantonale Vollzug des nationalen **«Gebäudeprogramms»** — kein
-zweiter Topf. Der **Bund** finanziert mit (Globalbeiträge aus **Art. 34 CO2-Gesetz**), der **Kanton
-zahlt aus** nach dem **Harmonisierten Fördermodell HFM 2015** (18 Module M-01…M-18, Kanton beziffert
-selbst → darum kantonal verschieden). Bauherr: **ein** Gesuch beim **Standortkanton**, vor Baubeginn.
-**PV ist nicht im Gebäudeprogramm** (Bund/Pronovo, nach Inbetriebnahme). Mechanik →
-`[[gebaeudeprogramm-bund-hfm-2015]]`, Bauherren-Antwort F27.
+zweiter Topf. Der **Bund** finanziert mit — seit 2023/25 aus **zwei** Quellen: Globalbeiträge aus
+**Art. 34 CO2-Gesetz** (gedeckelt auf max. 450 Mio. CHF/Jahr) UND dem ins Gebäudeprogramm
+integrierten **KIG-Impulsprogramm** (2 Mrd. CHF/10 Jahre) —, der **Kanton zahlt aus** nach dem
+**Harmonisierten Fördermodell HFM 2015** (18 Module M-01…M-18, Kanton beziffert selbst → darum
+kantonal verschieden). Bauherr: **ein** Gesuch beim **Standortkanton**, vor Baubeginn.
+**PV ist nicht im Gebäudeprogramm** (Bund/Pronovo, nach Inbetriebnahme). ⚠ **Für Zusagen über 2026
+hinaus:** das Bundes-Entlastungsprogramm 2027 betrifft laut Trägerschaft ausdrücklich auch dieses
+Programm, Prüfung durch EnDK/UVEK zum Stand 24.08.2026 ohne bekanntes Ergebnis — nicht als
+gesichert für Folgejahre kommunizieren. Mechanik → `[[gebaeudeprogramm-bund-hfm-2015]]`,
+Bauherren-Antwort F27.
 
 ## Abgrenzung: laufende Solarpflicht-Gesetzesrevision (noch kein geltendes Recht)
 Die obige «Befristung auf den Rahmenkredit 2023–2026 bzw. die Budgeterschöpfung»-Aussage betrifft ausschliesslich das
