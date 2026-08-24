@@ -295,6 +295,29 @@ bash /Volumes/daten/jans-ai-hub/scripts/tailscale-waechter.sh --pruefen
   selbst (`tailscale up`, danach App-Neustart wie der Knopf «Relaunch Tailscale») und mailt
   nur, wenn die Heilung scheitert. Sendeweg beweisen: `--test-mail`
 
+### 16. Git-Abgleich (Divergenz NAS / Station / GitHub)
+
+Check 1 fragt, ob das NAS **gemountet** ist. Dieser Check fragt, ob die Repos noch
+**denselben Stand** haben. Auch das sind zwei verschiedene Fragen: am 24.08.2026 liefen
+NAS-Repo und GitHub sechs Stunden auseinander (26 Commits nur NAS, 51 nur GitHub), waehrend
+Mount, Herzschlag und Stationsstatus durchgehend gruen waren.
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/git-divergenz.sh
+```
+
+- ✅ Exit 0 → NAS und Station deckungsgleich mit GitHub, keine Fehlversuche
+- ⚠️ Exit 1 → Divergenz oder Fehlversuche. **Kein Sofort-Eingriff noetig:** beide
+  Sync-Waechter haben seit dem 24.08. einen Merge-Rueckfall und heilen sich in der Regel
+  im naechsten Takt selbst (NAS alle 15 Min, Station alle 5 Min). Erst wenn dieselbe
+  Divergenz ueber mehrere Laeufe stehen bleibt, ist es ein Befund — dann meldet sie sich
+  ohnehin ab dem dritten Fehlversuch selbst im Fristen-Register
+- ⚠️ Zeile «ungesicherte Datei(en) im Arbeitsbaum» → normal direkt nach einem Lauf, der
+  Auto-Sync holt sie. Bleibt sie ueber mehrere Checks stehen, schreibt etwas in den Klon,
+  ohne dass der Sync greift
+- ❌ Exit 2 → Synology per ssh nicht erreichbar oder kein SSD-Klon; dann ist der Check blind
+- Hintergrund und Fallchronik: `rules/betrieb-chronik.md` 260824e und 260824f
+
 ## Output-Format
 
 Gib einen kompakten Report aus:
