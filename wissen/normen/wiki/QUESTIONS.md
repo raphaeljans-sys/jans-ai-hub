@@ -3968,11 +3968,27 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   DIN-277-Serie (Teil 1-3) komplett.
 - [x] Grosse/scanlastige VSS-Dateien (640 065/281/291a/578) — **destilliert 260713 (Run 4)**,
   Familie VSS im Inventar vollstaendig abgearbeitet.
-- [ ] Merkblatt SIA 2014 «CAD-Layerorganisation» (der Layerkatalog, auf den SIA 400:2000 Ziff.
+- [x] ~~Merkblatt SIA 2014 «CAD-Layerorganisation» (der Layerkatalog, auf den SIA 400:2000 Ziff.
   B.11.3 zwingend verweist: Agent A–/B–/S– + Elementcode + Präsentationscode E/T/D) ist NICHT im
   Normen-Bestand. Bring-Schuld für den Wettbewerbs-Layer / die maschinelle DXF-Layer-Codierung —
   bei konkreter Layer-Benennung SIA 2014 beiziehen (SIA-Shop, nur auf Zuruf). (Notiert 12.07.2026
-  beim Destillieren von SIA 400.)
+  beim Destillieren von SIA 400.)~~
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Die Prämisse war seit Wochen überholt:
+  > `training/norm-inventar.md` Z. 607 führt `2014_2017.pdf` bereits seit **13.07.2026 (Run 5)**
+  > als `established` (Destillat `destillate/sia-2014-2017.md`, Original S. 1-28 vollständig
+  > gelesen und verifiziert), die Vorgänger-Ausgabe 1996 zusätzlich seit **19.07.2026**
+  > (`destillate/sia-mb-2014-bestand.md`, `established`). `wiki/REGISTER.md` Z. 514/1081/1115
+  > hatte diesen Bestand am 23.08.2026 bereits selbst nachgeführt («Bereits an anderer Stelle
+  > belegt, hier nachgeführt») — nur das ursprünglich anfragende Destillat `sia-400-2000.md`
+  > (Abschnitt «JANS-Praxis-Transfer»/«Offene Punkte», das diese Frage am 12.07.2026 aufwarf)
+  > und diese QUESTIONS-Zeile trugen die veraltete «nicht im Bestand»-Aussage noch fort. Beide
+  > jetzt korrigiert und auf `[[sia-2014-2017]]`/`[[sia-mb-2014-bestand]]` verlinkt. Fundstelle
+  > Layer-Codierung: SIA 2014:2017, obligatorische Teilschlüssel Agent/Element/Präsentation
+  > Ziff. 4.2.1/4.3/4.5.2 (Tabelle 1), optionale Teilschlüssel Ziff. 4.4 (Tabelle 2),
+  > Beispiel-Layerschlüssel Figur 3 Ziff. 4.2.2; Element-Codierung stützt sich auf eBKP
+  > (Ziff. 2.1.6/3.3.1/4.6.1/6.5.1), nicht mehr auf die EKG-Gliederung der 1996er-Ausgabe.
+  > Keine Bring-Schuld mehr — der Wettbewerbs-/DXF-Layer kann direkt gegen das established
+  > Destillat gebaut werden.
 - [~] **SIA 242 «Verputz- und Gipserarbeiten» ist NICHT im Normen-Bestand** (inkl. der
   Qualitätsstufen-Systematik Q1–Q4 für gespachtelte Gipsplatten-Oberflächen). Bring-Schuld;
   gebraucht am 21.07.2026 für die KISPI-Fachfrage LBW-Beschichtung (Antwort aus Fachpraxis

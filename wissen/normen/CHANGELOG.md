@@ -1,3 +1,67 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: Merkblatt SIA 2014 «CAD-Layerorganisation» war seit Wochen im Haus, nur nicht verlinkt
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht zuerst lesen,
+dort weitermachen. Kollisionscheck (`ps aux`): ein Prozess mit identischem Auftragstext (PID 21421)
+ist der eigene hostende Prozess dieser Session (identische `--max-budget-usd 25`, gleiche Startzeit),
+kein Konkurrent.
+
+**Ausgangslage:** Der CHANGELOG-Kopf zeigt eine sehr dichte Sättigungshistorie desselben Tages
+(elf unabhängige SIA-Sweep-Bestätigungen plus mehrere QUESTIONS-Läufe, alle mit dem Befund:
+verbleibende 33 offene Zeilen sind Bring-Schuld/destruktive Entscheidung/genuine Sackgasse).
+Statt die 33 Zeilen ein weiteres Mal komplett gegenzulesen (Gefahr reiner Wiederholungsbestätigung,
+Rule `wissens-ruecklauf`: kein Pflicht-Rauschen), wurden gezielt drei Zeilen geprüft, deren
+zugrunde liegende Tatsachenbehauptung besonders alt war (12.07./13.07.2026) und die seither nicht
+mehr einzeln gegen den aktuellen Bestand gehalten wurden.
+
+**Zeile «BRING-SCHULD P2 — Nachfolgewerke SIA 410» (Z. 4719), Teilfrage 1 (SIA-400-Aktualität):**
+Erneut per WebFetch auf `shop.sia.ch/normenwerk/architekt/400_2000_d/D/Product` geprüft — **bereits
+identisches Ergebnis wie der Vorlauf vom 23.08.2026** (SIA 400:2000 Rev. 1/2015 weiterhin aktuell,
+kein Nachfolger). Kein neuer Ertrag, nur Doppelprüfung; nicht weiter dokumentiert. Teilfrage 2
+(suissetec-Planungsrichtlinien): `shop.suissetec.ch/de` liefert eine Kategorie „Normen und
+Richtlinien", aber kein Produkt exakt betitelt „Planungsrichtlinien Heizung/Lüftung/Sanitär" —
+Ergebnis deckungsgleich mit dem bereits dokumentierten „bisher nicht erschlossen". Bring-Schuld
+bleibt unverändert offen, kein Handlungsbedarf an der Zeile.
+
+**Echter Fund — Zeile «Merkblatt SIA 2014 «CAD-Layerorganisation» ist NICHT im Normen-Bestand»
+(Z. 3971, Ursprungsnotiz 12.07.2026):** Die Prämisse war falsch, und zwar schon lange.
+`training/norm-inventar.md` Z. 607 führt `2014_2017.pdf` als `established` seit **13.07.2026
+(Run 5)** — Destillat `destillate/sia-2014-2017.md`, Original S. 1-28 vollständig gelesen und
+verifiziert. Die Vorgänger-Ausgabe 1996 liegt zusätzlich seit **19.07.2026** als `established`
+vor (`destillate/sia-mb-2014-bestand.md`). `wiki/REGISTER.md` Z. 514/1081/1115 hatte diesen
+Bestand bereits am 23.08.2026 selbst nachgetragen («Bereits an anderer Stelle belegt, hier
+nachgeführt») — aber weder das ursprünglich anfragende Destillat `sia-400-2000.md` (das diese
+Frage am 12.07.2026 beim eigenen Destillieren aufwarf, Abschnitte «JANS-Praxis-Transfer» und
+«Offene Punkte») noch die QUESTIONS-Zeile selbst wurden mitgezogen — die REGISTER-Korrektur vom
+23.08. hat die Quelle der Frage nicht erreicht. Klassischer Fall einer Bring-Schuld, die intern
+gelöst, aber nicht an den anfragenden Ort zurückgemeldet wurde (Rule `wissens-bibliothekar`,
+Compounding-Pflicht).
+
+**Korrektur:** `destillate/sia-400-2000.md` — Frontmatter-Links um `[[sia-2014-2017]]` und
+`[[sia-mb-2014-bestand]]` ergänzt, `last_updated` auf 2026-08-24 gehoben; im Abschnitt
+«JANS-Praxis-Transfer» die Klammer «(nicht im Bestand geprüft)» durch die established-Fundstelle
+ersetzt; im Abschnitt «Offene Punkte» der Bring-Schuld-Satz durch einen ✅-Abschluss mit
+Fundstellen ersetzt (Tabelle 1 obligatorische Teilschlüssel Agent/Element/Präsentation Ziff.
+4.2.1/4.3/4.5.2, Tabelle 2 optionale Teilschlüssel Ziff. 4.4, Beispiel-Layerschlüssel Figur 3
+Ziff. 4.2.2; Element-Codierung 2017 stützt sich auf eBKP, Ziff. 2.1.6/3.3.1/4.6.1/6.5.1, löst die
+EKG-Gliederung der 1996er-Ausgabe ab, `sia-2014-2017.md` Ziff. 6.5.1). Gegenseitig verlinkt:
+`sia-2014-2017.md` und `sia-mb-2014-bestand.md` bekamen je einen Rücklink auf `[[sia-400-2000]]`.
+`wiki/QUESTIONS.md` Z. 3971 geschlossen (`[x]`, Ursprungswortlaut durchgestrichen stehen gelassen
+gemäss KB-Konvention, Nachtrag mit vollständiger Fundstellenkette angehängt).
+
+**Einordnung:** Die übrigen 32 offenen Zeilen wurden nicht erneut vollständig gegengelesen —
+angesichts der elffachen Sättigungsbestätigung desselben Tages an anderer Stelle nicht sinnvoll
+ohne neuen Ansatzpunkt. Diese eine Zeile hatte einen neuen Ansatzpunkt (das Alter der Prämisse,
+12.07. vs. seither zweimal separat destillierter Bestand) und war lösbar.
+
+**Diff-Gegenprobe (`git diff --numstat`):** `sia-400-2000.md` 13/4 (Frontmatter-Zeile ersetzt,
+ein Fliesstext-Satz ersetzt, Offene-Punkte-Zeile durch längeren ✅-Absatz ersetzt — keine
+Netto-Löschung von Sachinhalt), `sia-2014-2017.md` 1/0 (reine Rücklink-Zeile angefügt),
+`sia-mb-2014-bestand.md` 1/1 (Links-Zeile um zwei Einträge ergänzt), `wiki/QUESTIONS.md` 18/2
+(Zeile 3971 mit `~~...~~`-Durchstreichung markiert plus Nachtrag-Blockquote angehängt, keine
+fremde Historie betroffen). Kein `git commit`/`push`/`pull`/`rebase` über den SMB-Mount
+ausgeführt.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: zwei speculative-Flags gegen bereits im Haus liegende established-Destillate geschlossen (sia-104/SIA-111-112, VKF-Merkblatt K30-RF1/BRL-13-15)
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit

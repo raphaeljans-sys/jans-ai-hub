@@ -1,9 +1,9 @@
 ---
 title: Grundlagen des Planungs- und Baurechts — Kanton Zürich
 status: established
-last_updated: 2026-08-03
-verifiziert: "2026-08-03 (Buch-Run 71, erster Modell-D-Wortlautabgleich seit Erstellung 2026-06-30): §§ 317/218 Abs. 2/270 Abs. 3/238 Abs. 1/320/360 Abs. 3 PBG gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133), § 20 Abs. 1 lit. c VRG gegen raw/260715_amtlich_zh_vrg_beschwerde.md, § 3 BBV I + Anhang gegen raw/260607_amtlich_zh_bbv1.md (Nachtrag 133), Art. 679 ZGB gegen Fedlex ELI 24/233_245_233 Stand 20260101, Art. 32 Abs. 1 LSV gegen raw/260712_amtlich_ch_lsv-nisv.md — 3 echte Fehler korrigiert (Art. 679 Abs. 2 ZGB mit invertierter Polarität zitiert; «§ 3 Abs. 12 BBV I» existiert nicht und die einschlägige Anhangsziffer ist seit 1.9.2022 aufgehoben; § 220 PBG als «Nebenbestimmungen» etikettiert statt als Ausnahmebewilligungen), 2 Präzisierungen (§ 318 PBG trägt die intertemporale Regel nicht im Wortlaut; Unangemessenheit § 20 Abs. 1 lit. c VRG vs. § 50 Abs. 2 VRG)."
-sources: ["§ 317 PBG", "§ 318 PBG", "§ 3 Abs. 1/2 BBV I + Anhang Ziff. 1", "§ 360 Abs. 3 PBG", "§ 218 Abs. 2 PBG", "§ 270 Abs. 3 PBG", "§ 220 PBG", "§ 321 PBG", "§ 238 Abs. 1 PBG", "§ 320 PBG", "§ 328 PBG", "§ 20 Abs. 1 lit. c VRG", "Art. 32 Abs. 1 LSV", "Art. 75 BV", "Art. 5 BV", "Art. 9 BV", "Art. 36 BV", "Art. 26 BV", "Art. 27 BV", "Art. 679 ZGB", "Art. 1–10 ZGB", 01-grundlagen.md]
+last_updated: 2026-08-24
+verifiziert: "2026-08-24 (Buch-Run 131, zweiter Modell-D-Wortlautabgleich): Art. 5/Art. 8/Art. 9/Art. 26/Art. 27/Art. 36/Art. 75 BV gegen Fedlex ELI 1999/404 Stand 20240101 CONFIRMED wortgleich; Art. 2/Art. 3/Art. 8 ZGB gegen Fedlex ELI 24/233_245_233 Stand 20260101 CONFIRMED wortgleich; §§ 220/321/328 PBG gegen raw/260607_amtlich_zh_pbg.md (Nachtrag 133, gemäss raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md unveraendert gegenueber Nachtrag 134) CONFIRMED wortgleich. Kein Fehler gefunden; echter Inhaltsfund statt Fehlerkorrektur: Art. 26/27 BV und Art. 1–10 ZGB standen seit Erstellung als Quellen im Frontmatter, waren aber im Artikeltext nie eingebaut (Abgleich gegen buecher/band-1/01-grundlagen.md, Kap. 1.4.5/1.4.6, S. 97 f.) — jetzt nachgetragen (Eigentumsgarantie/Wirtschaftsfreiheit als Spielraum-Basis bei § 238 PBG; neue Sektion «Weitere Grundsätze» zu Art. 2/3/8 ZGB + Art. 7 Ziff. 1 EMRK/§ 1 StGB, EMRK nicht amtlich nachverifizierbar an dieser Station). Vorherige Verifikation 2026-08-03 (Buch-Run 71): §§ 317/218 Abs. 2/270 Abs. 3/238 Abs. 1/320/360 Abs. 3 PBG gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133), § 20 Abs. 1 lit. c VRG gegen raw/260715_amtlich_zh_vrg_beschwerde.md, § 3 BBV I + Anhang gegen raw/260607_amtlich_zh_bbv1.md (Nachtrag 133), Art. 679 ZGB gegen Fedlex ELI 24/233_245_233 Stand 20260101, Art. 32 Abs. 1 LSV gegen raw/260712_amtlich_ch_lsv-nisv.md — 3 echte Fehler korrigiert (Art. 679 Abs. 2 ZGB mit invertierter Polarität zitiert; «§ 3 Abs. 12 BBV I» existiert nicht und die einschlägige Anhangsziffer ist seit 1.9.2022 aufgehoben; § 220 PBG als «Nebenbestimmungen» etikettiert statt als Ausnahmebewilligungen), 2 Präzisierungen (§ 318 PBG trägt die intertemporale Regel nicht im Wortlaut; Unangemessenheit § 20 Abs. 1 lit. c VRG vs. § 50 Abs. 2 VRG)."
+sources: ["§ 317 PBG", "§ 318 PBG", "§ 3 Abs. 1/2 BBV I + Anhang Ziff. 1", "§ 360 Abs. 3 PBG", "§ 218 Abs. 2 PBG", "§ 270 Abs. 3 PBG", "§ 220 PBG", "§ 321 PBG", "§ 238 Abs. 1 PBG", "§ 320 PBG", "§ 328 PBG", "§ 20 Abs. 1 lit. c VRG", "Art. 32 Abs. 1 LSV", "Art. 75 BV", "Art. 5 BV", "Art. 8 BV", "Art. 9 BV", "Art. 36 BV", "Art. 26 BV", "Art. 27 BV", "Art. 679 ZGB", "Art. 1–10 ZGB", "Art. 2 ZGB", "Art. 3 ZGB", "Art. 8 ZGB", "Art. 7 Ziff. 1 EMRK", "§ 1 StGB", 01-grundlagen.md]
 links: [[raumplanung-und-gestaltung]], [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[nebenbestimmungen-und-reverse]], [[ausnahmebewilligung-und-bestandesschutz]]
 ---
 
@@ -135,7 +135,10 @@ Recht** — es gibt drei Stufen:
   bestimmte gesetzliche Grundlage; kein Erlass darf höherrangigem widersprechen.
 - **Verhältnismässigkeit** (Art. 5 Abs. 2 / Art. 36 Abs. 3 BV): dreistufig **geeignet —
   erforderlich — zumutbar** (S. 96 f.). Tragender Massstab bei Ästhetik (§ 238 PBG: kein
-  schöpferischer Spielraum, Verweigerung nur bei Unverhältnismässigkeit, RB 1989 Nr. 36),
+  schöpferischer Spielraum, Verweigerung nur bei Unverhältnismässigkeit, RB 1989 Nr. 36) —
+  der behördliche Spielraum bei unbestimmten Begriffen wie «Ästhetik» selbst folgt aus der
+  Abgrenzung von **Eigentumsgarantie (Art. 26 BV)** und **Wirtschaftsfreiheit (Art. 27 BV)**
+  (Kap. 1.4.5, S. 97 f.),
   **Ausnahmebewilligungen** (§ 220 Abs. 1 PBG: Befreiung, «bei denen die Durchsetzung der
   Vorschriften **unverhältnismässig** erscheint») → [[ausnahmebewilligung-und-bestandesschutz]],
   Natur-/Heimatschutz (§ 205 PBG), sowie Fertigstellungsbefehl und Vollstreckungsmassnahmen
@@ -159,6 +162,34 @@ Recht** — es gibt drei Stufen:
   Anordnung»), vor **Verwaltungsgericht** entfällt die Angemessenheitskontrolle (§ 50 Abs. 2
   i.V.m. § 41 VRG, vgl. [[rechtsschutz-und-rechtsmittelverfahren]]); vor Bundesgericht ohnehin
   nur Rechtsverletzung (Art. 95 BGG).
+
+### Weitere Grundsätze (ZGB-Einleitungsartikel, Kap. 1.4.6, S. 98)
+
+Neben den Verfassungsgrundsätzen verankert das Buch (S. 98) vier weitere, in den
+**Einleitungsartikeln des ZGB (Art. 1–10 ZGB)** wurzelnde Grundsätze, die auch im
+öffentlichen Baurecht gelten:
+
+- **Treu und Glauben** (Art. 5 Abs. 3 / Art. 9 BV; **Art. 2 ZGB**): Pflicht zu redlichem
+  Verhalten in Rechtsausübung und Pflichterfüllung (Abs. 1) und Rechtsmissbrauchsverbot
+  (Abs. 2) — auch Behörden dürfen sich nicht widersprüchlich verhalten (BEZ 2012 Nr. 22).
+- **Guter Glaube** (**Art. 3 ZGB**): wo das Gesetz eine Rechtswirkung an den guten Glauben
+  knüpft, wird dessen Vorhandensein vermutet (Abs. 1), ausser bei pflichtwidriger
+  Unaufmerksamkeit (Abs. 2) — relevant bei gutgläubig widerrechtlich erstellten Bauten
+  (BEZ 2012 Nr. 57).
+- **Beweislast** (**Art. 8 ZGB**): wer aus einer behaupteten Tatsache Rechte ableitet, muss
+  sie beweisen; im Verwaltungsverfahren ergänzt durch den Untersuchungsgrundsatz und die
+  Mitwirkungspflicht der Privaten (§ 7 Abs. 1 VRG; BEZ 2014 Nr. 17).
+- **Keine Strafe ohne Gesetz** («nulla poena sine lege», Art. 7 Ziff. 1 EMRK; § 1 StGB): kein
+  Bestrafen ohne gesetzliche Grundlage — relevant bei Bussen wegen widerrechtlicher Bauten
+  (→ [[widerrechtliche-bauten-und-sanktionen]]).
+
+> **Wortlautgeprüft (Buch-Run 131, 2026-08-24):** Art. 2, Art. 3 und Art. 8 ZGB gegen Fedlex
+> (ELI `24/233_245_233`, Stand 01.01.2026) **CONFIRMED wortgleich** mit der Buch-Paraphrase.
+> Art. 7 Ziff. 1 EMRK konnte an dieser Station nicht unabhängig nachgeprüft werden — Fedlex
+> liefert für die EMRK (SR 0.101, ELI `1974/2151_2151_2151`) sowohl über die `www.`- als auch
+> über die `data.`-Subdomain nur die leere App-Hülle (9'148 bzw. 77'151 Byte, kein Text);
+> `docs/referenz/fedlex-volltexte.md` kennt dafür noch keinen Ausweg. Beleg bleibt der
+> Buch-Wortlaut S. 98, nicht amtlich gegengelesen.
 
 ## Intertemporales Recht (S. 87 f.)
 

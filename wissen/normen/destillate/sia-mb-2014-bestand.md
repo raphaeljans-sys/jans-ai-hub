@@ -8,7 +8,7 @@ pdf_textlayer: "Kein Textlayer — das PDF ist ein bitonaler Scan (CCITT, 1 Bild
 datenstand: "1996"
 status: established
 last_updated: 2026-07-19
-links: [[REGISTER]]
+links: [[REGISTER]], [[sia-2014-2017]] (Nachfolgeausgabe), [[sia-400-2000]] (verweist fuer Layerstruktur auf das Merkblatt)
 ---
 
 # SIA 2014 — Merkblatt «CAD-Layerorganisation» (Ausgabe September 1996)
