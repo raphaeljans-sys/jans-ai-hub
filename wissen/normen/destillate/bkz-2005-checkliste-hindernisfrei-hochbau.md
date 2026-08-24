@@ -107,13 +107,32 @@ Geschäftsleitung Tel. 043 243 40 00, **Bauberatung Tel. 043 243 40 04**, Fax 04
 Verwendung in einem Erzeugnis gegen die aktuelle Website prüfen — Rule
 `identifikatoren-verifizieren`.)*
 
+⚠ **Adresse veraltet (geklärt 24.08.2026, H41-3, QUESTIONS-Abarbeitung).** Heute (Web-Stand
+24.08.2026) firmiert die BKZ-Bauberatung als **regionale Bauberatungsstelle Zürich** im
+nationalen Netz der Fachstelle «Hindernisfreie Architektur» (bis 2017: «Schweizerische
+Fachstelle für behindertengerechtes Bauen») und ist an derselben Adresse wie die nationale
+Fachstelle geführt: **Zollstrasse 115, 8005 Zürich**, Tel. 043 243 40 04,
+bauberatung@bkz.ch (Quelle: `hindernisfreie-architektur.ch/beratungsstellen-cpt/zuerich/`
+und `hindernisfreie-architektur.ch/ueber-uns/die-schweizer-fachstelle/`, beide abgerufen
+24.08.2026). Die 1988er/2005er Adressüberschneidung an der Kernstrasse 57 war damit **keine
+zufällige Ko-Lokation zweier unabhängiger Mieter**, sondern Ausdruck derselben organisatorischen
+Beziehung, die heute unter neuer gemeinsamer Adresse fortbesteht: die BKZ betreibt die
+Zürcher Regionalstelle des nationalen Netzwerks, dessen Trägerin die 1981 gegründete
+«Stiftung zur Förderung einer behindertengerechten baulichen Umwelt» ist (unter Bundesaufsicht,
+Handelsregister Zürich). **Für neue Erzeugnisse gilt: Kernstrasse 57 nicht mehr verwenden,
+Zollstrasse 115, 8005 Zürich ist die aktuelle Adresse beider Stellen.**
+
 ## Offen
 
 - ✅ GESCHLOSSEN 24.08.2026 (H41-1): Ob § 239 PBG / § 34 BBV I heute auf SIA 500:2009 statt auf
   SN 521 500:1988 durchschlagen — ja, seit 1. Juli 2009, siehe Abschnitt oben.
+- ✅ GESCHLOSSEN 24.08.2026 (H41-3): Adressüberschneidung BKZ-Bauberatung / Fachstelle
+  Kernstrasse 57 war organisatorische Beziehung (BKZ = Zürcher Regionalstelle des nationalen
+  Netzwerks), keine zufällige Ko-Lokation — siehe Abschnitt «Kontakt der herausgebenden Stelle».
 - Das Mass der «erhöhten Anforderungen» für Sonderbauten (Spitäler, Alters- und Behindertenheime)
   — im Dokument nicht beziffert. Für JANS mit Healthcare-Schwerpunkt der praktisch wichtigste
-  offene Punkt dieses Dokuments.
+  offene Punkt dieses Dokuments (H41-2, weiterhin offen — SIA 500:2009 selbst wäre die
+  Fundstelle, kostenpflichtig, Bring-Schuld Raphael).
 
 Siehe auch: [[zhb-2005-mindestanforderungen-hindernisfreies-bauen]],
 [[fachstelle-mb-13-05-sehbehindertengerechtes-bauen]], [[sia-500-2009]].

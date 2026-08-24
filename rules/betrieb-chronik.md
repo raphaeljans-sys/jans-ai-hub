@@ -131,6 +131,37 @@ weiterhin abrufbar), danach lief `nas-commit-now.sh` sofort durch. Ergebnis: Com
 
 ---
 
+## 260824b — Die Widerrufs-Queue trägt produktiv; `versand-mail-senden.sh` quittiert aber die AppleScript-Rückmeldung, nicht die Zustellung
+
+**Erste produktive Ausführung der A7-Mechanik.** Der Vorgang `260823-085517-38206` (3. Nachfassung
+an L. Bajrami, Jegen AG, Los 274.01) war am 23.08. 08:55 angemeldet, fällig 24.08. 07:00. Der
+launchd-Job `ch.jans.widerruf-queue` (StartInterval 300 s) erkannte ihn um **07:04** als fällig,
+`versand-mail-senden.sh` lief, und die Mail ist um **07:07:50** an livdin.bajrami@jegen.ch
+hinausgegangen — belegt in den Gesendeten Elementen des Kontos rj@raphaeljans.ch. **Damit ist die
+offene Frage des Hub-Chefs vom 23.08. beantwortet: Apple Mail lässt sich aus dem launchd-Kontext
+steuern**, der osascript-Pfad mit `visible:false` und explizitem `sender` funktioniert unbeaufsichtigt.
+
+**Die Lehre für das nächste Mal, und sie ist verallgemeinerbar.** Um **07:09** stand in
+`logbuch/widerruf/versand.log` bereits `GESENDET`, der Task lag in `widerruf/erledigt/`, die Queue
+hatte `ausgeführt` protokolliert — **und die Mail lag noch im Postausgang.** Erst gegen 07:20 hatte
+Apple Mail sie ausgeliefert. Ursache: das Script prüft, ob das AppleScript den String `GESENDET`
+zurückgibt (Zeile 57 ff.). `send` in Apple Mail ist aber asynchron und kehrt zurück, sobald die
+Nachricht in die Warteschlange gestellt ist. **Ein Script, das `send` quittiert, belegt die
+Übergabe, nicht die Zustellung.**
+
+Praktische Folge für jeden Lauf, der einen Versand belegen muss: **der Beweis steht in den
+Gesendeten, nicht in der Logzeile.** Zwei brauchbare Gegenproben, beide read-only:
+`osascript -e 'tell application id "com.apple.mail" to return count of messages of outbox'` muss
+**0** ergeben, und die Mail muss im Ordner «Gesendete Elemente» auffindbar sein (schnell über
+`outlook_email_search` mit `folderName: "Sent Items"`). Solange der Postausgang nicht leer ist, ist
+der Versand angestossen, aber nicht erfolgt — und ein Fehlschlag danach fällt in ein Loch, weil der
+Task schon in `erledigt/` liegt.
+
+Naheliegende Härtung, **nicht** in diesem Lauf gebaut (der Radar ist ein Melde-Lauf, und eine
+Änderung am kanonischen Versandweg gehört nicht nebenbei hinein): nach `send` einige Sekunden warten
+und den Postausgang gegenprüfen, erst dann `GESENDET` protokollieren; bei nicht leerem Postausgang
+`VERZOEGERT` schreiben und den Task in `offen/` belassen. Entscheid Raphael.
+
 ## 260824 — SMB-Mount fiel dreimal in einem Lauf weg; `cd` schlug fehl, das Schreiben lief ins Repo-Root
 
 Im `twin-fidelity-review` (05:47–06:30) verschwand `/Volumes/daten` **dreimal**. Dieselbe Störung

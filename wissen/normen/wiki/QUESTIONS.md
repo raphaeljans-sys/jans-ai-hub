@@ -2257,7 +2257,7 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); die uebrigen Bestaende (L41-3/L41-4, GVZ G41-1/G41-2, H41-2/H41-3/H41-4, restliche PAVIDENSA-Punkte) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); die uebrigen Bestaende (L41-4, GVZ G41-1/G41-2, H41-2, restliche PAVIDENSA-Punkte) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -2301,6 +2301,19 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   messbar grau unterlegt (177/180/179 gegen 240/245 bei identischem Muster); die Legende kennt
   keine getönte Variante. Konsistent, aber aus der Quelle nicht ableitbar. (Aus Run 40, hier
   fortgeschrieben.)
+
+  > ✅ **GESCHLOSSEN (nachgetragen 24.08.2026, QUESTIONS-Abarbeitung).** War im Destillat bereits
+  > seit einem früheren Lauf derselben QUESTIONS-Abarbeitung als «GEKLÄRT 24.08.2026» erledigt,
+  > hier nur nie nachgezogen: `destillate/lignum-lignatec-brandschutz.md`, Abschnitt Tabelle 2 —
+  > Pixelmessung am Original (`pdftoppm -r 200`, S. 4/5) zeigt, der Grauton ist die Legendenfarbe
+  > **«Baustoff brennbar»** (identisches Diagonalschraffur-Muster wie «Vollholz», in der grossen
+  > Tabellen-Swatch dichter und dadurch als Grau erscheinend, im kleinen Legendensymbol einzeln
+  > erkennbar) — keine unerklärte vierte Kategorie. Eigene Gegenprüfung am lokalen OneDrive-
+  > Spiegel (`AR - 01 Projekte/2414 THALWIL/06 Reglemente/_Archiv/11 Brandschutz/Lignatec/
+  > Lignatec_brandschutz-Seite2.pdf`, S. 4-5, 24.08.2026) bestätigt das Bild: dieselbe
+  > Diagonalschraffur ist bei R30/EI30/REI30 und R60/EI60/REI60 in den Deckschicht-/Stiel-Feldern
+  > sichtbar dichter gesetzt als bei den weissen «Keine Anforderung»-Feldern, deckt sich mit der
+  > Legendenzuordnung im Destillat.
 - **L41-4 Was am Lignatec noch NIE geprüft wurde** (auszuweisen nach der Methoden-Lehre): die
   Zellwerte der Tabellen 3, 4 und 5 sind seit Runde 8 nicht erneut aufgenommen worden; Tabelle 2
   ist nur im Einleitungsabsatz, nicht zellenweise gegen das Destillat gehalten. Die Seiten-
@@ -2481,7 +2494,39 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **H41-3** Adressüberschneidung: die Schweizerische Fachstelle für behindertengerechtes Bauen
   und die BKZ-Bauberatung teilen Kernstrasse 57, 8004 Zürich, führen aber verschiedene
   Telefonnummern. Ko-Lokation, Trägerschaft oder Zufall? Aus den Dokumenten nicht klärbar.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Web-Recherche (nicht am Original,
+  > da beide Quellen keine eigene Aussage dazu führen): `hindernisfreie-architektur.ch/
+  > beratungsstellen-cpt/zuerich/` (abgerufen 24.08.2026) nennt für die «Bauberatungsstelle
+  > Zürich» ausdrücklich «Bauberatung Behindertenkonferenz Kanton Zürich BKZ» als Betreiberin,
+  > geführt unter derselben Adresse wie die nationale Fachstelle selbst
+  > (`hindernisfreie-architektur.ch/ueber-uns/die-schweizer-fachstelle/`): **Zollstrasse 115,
+  > 8005 Zürich** — nicht mehr Kernstrasse 57. **Ergebnis: keine zufällige Ko-Lokation, sondern
+  > eine organisatorische Beziehung** — die BKZ betreibt die Zürcher Regionalstelle im
+  > nationalen Netzwerk der Fachstelle (Trägerin: Stiftung zur Förderung einer
+  > behindertengerechten baulichen Umwelt, gegründet 1981, Handelsregister Zürich,
+  > Bundesaufsicht; die Fachstelle selbst hiess bis zur Umbenennung 2017 «Schweizerische
+  > Fachstelle für behindertengerechtes Bauen» — identisch mit dem in der BKZ-Checkliste 2005
+  > zitierten Namen). **Nebenbefund, in die Zieldatei nachgetragen:** die Kernstrasse-57-Adresse
+  > in `destillate/bkz-2005-checkliste-hindernisfrei-hochbau.md` ist veraltet, beide Stellen
+  > firmieren heute unter Zollstrasse 115, 8005 Zürich — Korrektur dort im Abschnitt «Kontakt
+  > der herausgebenden Stelle» eingetragen (Rule `identifikatoren-verifizieren`).
+  > Quellen: [Bauberatungsstelle Zürich](https://hindernisfreie-architektur.ch/beratungsstellen-cpt/zuerich/),
+  > [Über uns — Die Schweizer Fachstelle](https://hindernisfreie-architektur.ch/ueber-uns/die-schweizer-fachstelle/).
+
 - **H41-4** Die Merkblätter 14/04 und 15/04 der Fachstelle liegen im Bestand nicht vor.
+
+  > **Web-Anlauf ohne Fund, echte Sackgasse (24.08.2026, QUESTIONS-Abarbeitung).** Vier gezielte
+  > Abfragen (WebSearch + WebFetch auf `hindernisfreie-architektur.ch/planungshilfen_fachstelle/
+  > merkblaetter/` [HTTP 404], `.../publikationsart/merkblaetter/`, `.../bestellen/
+  > dokumente-hochbau/`): keine der Seiten führt eine Konkordanztabelle alt/neu, die die
+  > historischen Nummern «14/04»/«15/04» einem heutigen Merkblatt oder Titel zuordnet — die
+  > heutige Nummerierung (z.B. «Merkblatt 010», «113», «124») folgt erkennbar einem anderen
+  > Schema ohne Jahres-Suffix. `web.archive.org` ist für diese Session nicht abrufbar (Tool-
+  > Grenze), ein Wayback-Blick auf eine ältere Fassung der Merkblatt-Übersicht war damit nicht
+  > möglich. **Nächster Schritt (unverändert Bring-Schuld/Rückfrage):** direkte Anfrage an
+  > `fachstelle@hindernisfreie-architektur.ch` (044 299 97 97) — fällt unter die
+  > Mail-Versand-Sperre (User-CLAUDE.md «Grenzen»), nicht selbständig ausgelöst.
 
 ### PAVIDENSA
 - **P41-1 Die Kreuzmatrix von PAV-A 03:2013 ist nicht aufgenommen** — sie liess sich aus dem

@@ -1,11 +1,11 @@
 ---
-quelle: «Eigenverbrauch und ZEV» (EnergieSchweiz) + Betriebsmodell ZEV (lokalerstrom.ch, VSE/EnergieSchweiz-Plattform); Grundlage «Leitfaden Eigenverbrauch» EnergieSchweiz
-herausgeber: EnergieSchweiz / BFE; lokalerstrom.ch (neutrale Informationsplattform zu Eigenverbrauchs-Betriebsmodellen)
-ausgabe: Web-Stand Juli 2026; Leitfaden Eigenverbrauch (EnergieSchweiz), zugehoeriges Excel «Berechnung der PV-Stromkosten im Eigenverbrauch in einem ZEV» aktualisiert 2024-03-11
-gelesen: 2026-07-05 (Web via WebFetch: energieschweiz.ch/wohnen/eigenverbrauch + lokalerstrom.ch/betriebsmodelle/zev)
-datenstand: EnG + EnV (Rechnungsstellung Eigenverbrauch, Art. 16 EnV / Leitfaden), Stand 01.01.2025; ⚠ Preis-/Tarifregel gegen aktuellen Leitfaden verifizieren
+quelle: «Eigenverbrauch und ZEV» (EnergieSchweiz) + Betriebsmodell ZEV (lokalerstrom.ch, VSE/EnergieSchweiz-Plattform); Grundlage «Leitfaden Eigenverbrauch» EnergieSchweiz; primaerrechtlich Energieverordnung (EnV, SR 730.01) Art. 16a/16b + Erlaeuternder Bericht zur EnV-Aenderung (BFE)
+herausgeber: EnergieSchweiz / BFE; lokalerstrom.ch (neutrale Informationsplattform zu Eigenverbrauchs-Betriebsmodellen); Bundesrat (EnV)
+ausgabe: Web-Stand Juli 2026; Leitfaden Eigenverbrauch (EnergieSchweiz), zugehoeriges Excel «Berechnung der PV-Stromkosten im Eigenverbrauch in einem ZEV» aktualisiert 2024-03-11; EnV Stand 1.1.2026 (Art. 16a/16b eingefuegt durch Ziff. I der V vom 20.11.2024, in Kraft seit 1.1.2025, AS 2024 702); Erlaeuternder Bericht BFE zur EnV-Aenderung (`pubdb.bfe.admin.ch/de/publication/download/11639`)
+gelesen: 2026-07-05 (Web via WebFetch: energieschweiz.ch/wohnen/eigenverbrauch + lokalerstrom.ch/betriebsmodelle/zev); 2026-08-24 (EnV-Volltext + Erlaeuternder Bericht primaerquellen-verifiziert, `fedlex.data.admin.ch/filestore/.../eli/cc/2017/763/20260101/de/pdf-a/...`, PyPDF2 vollstaendig gelesen)
+datenstand: EnV Art. 16a/16b, Stand 1.1.2025 (primaerquellen-verifiziert 24.08.2026, Konsolidierung 1.1.2026 gelesen)
 status: established
-last_updated: 2026-07-05
+last_updated: 2026-08-24
 ---
 
 # ZEV — was der Eigentuemer den Mietern fuer den Solarstrom verrechnen darf

@@ -3063,3 +3063,18 @@ Frühwarnung verhindern soll. Kein Drossel-Vollzug (das entscheidet Raphael); Ma
 
 **Nächste Mail:** nicht für denselben Befund. Erst wieder bei neuer Erschöpfung, bei
 blockierter interaktiver Sitzung oder wenn der Radar weiterhin tot ist.
+
+## 2026-08-24 07:36 CEST — Rohblock (Messung zuerst, Bewertung folgt unten)
+
+Verbrauch teuer / total in Mio (in+cache_creation+out / plus cache_read), rekursiv inkl. Subagenten.
+
+MacBook Pro: 24.08. 2.60/54.84 · 23.08. 18.50/458.66 · 22.08. 7.90/238.93 · 21.08. 7.07/175.25 · 20.08. 8.68/209.49 · 19.08. 6.29/133.47 · 18.08. 5.22/119.87 · 17.08. 10.23/254.85
+Mac Mini: 24.08. 28.47/1005.18 · 23.08. 53.17/1710.92 · 22.08. 0.93/20.20 · 21.08. 3.56/81.37 · 20.08. 1.90/51.42 · 19.08. 3.04/41.98 · 18.08. 1.09/33.12 · 17.08. 2.30/66.25
+
+Beide Stationen zusammen teuer: 23.08. 71.67 Mio · 24.08. bis 07:34 bereits 31.07 Mio.
+
+Blockade-Status: 5h-Session-Limits auf beiden Stationen, KEIN Wochenlimit erkannt, KEINE interaktive
+Session betroffen. MacBook Pro vier Loops zwischen 22:24 und 00:29 blockiert (Reset 02:40):
+wissens-chef, vollgas-chef-radar, normen-training-nacht, wettbewerbs-dna-training. Mac Mini ab
+23.08. 19:30 Dauerserie identischer Treffer im Sekundentakt (Reset 21:40) — der /tmp-Schub feuert
+gegen die geschlossene Sperre.
