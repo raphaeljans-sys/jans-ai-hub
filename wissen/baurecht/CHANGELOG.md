@@ -3,6 +3,17 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Cross-KB-Bringschuld von `wissen/energie` entgegengenommen: 12 nie gesichtete Baurecht-/STWEG-docx in PL-02
+
+- **[flag]** `wissen/energie` hat beim filterlosen Sichten von PL-02 Recht_Norm (Run 161,
+  23.08.2026) 9 docx aus `01_Gesetze/08_Baurechtsanalysen/200508_BRA_Thalwil/` und 3 docx aus
+  `03_Arbeitshilfen/Teilungsplan Stockwerkeigentum Empfehlung/` gefunden, die ausserhalb des
+  Energie-Scopes liegen. Fundstelle jetzt in `wiki/QUESTIONS.md` (neuer Abschnitt oben) mit
+  vollständigen Pfaden gesichert, bevor die einzige temporäre Quelle (`/tmp/pl-filterlos-…json`
+  auf einer fremden Station) verloren geht. Noch nicht inhaltlich gesichtet — nächster Schritt:
+  prüfen, ob Dublette einer bereits destillierten PDF-Fassung (mehrere Ordner enthalten
+  gleichnamige `.pdf` neben der `.docx`).
+
 ## 2026-08-24 — Buch-Run 115: letzter Stale-Flag-Block «Health-Check 2026-06-02» geschlossen — Gebühren-Flag erstmals mit Primärquellen belegt (Thalwiler Gebührenverordnung + Preisüberwacher-Studie), BZO-Richtwert-Tabelle-Flag war bereits erledigt
 
 - **Ausgangslage:** Run 114 hatte als letzten offenen Block der chronologischen

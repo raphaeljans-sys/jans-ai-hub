@@ -1,5 +1,36 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## Cross-KB-Übergabe von `wissen/energie` (24.08.2026) — 12 nie gesichtete Baurecht-/STWEG-docx in PL-02
+
+**Herkunft:** `wissen/energie` hat PL-02 Recht_Norm am 23.08.2026 (Run 161, Fortsetzung
+«E-R161-3») erstmals filterlos (ohne Dateityp-Filter) gezählt, um KI-generierte Dokumente
+aufzuspüren. Dabei sind rechtsfachliche docx-Dateien aufgefallen, die ausserhalb des
+Energie-Scopes liegen und dieser KB gehören — bisher **nicht einzeln geöffnet**, nur als
+Fundstelle vermerkt (Rule `wissens-bibliothekar`, Cross-KB-Bringschuld). Nachgetragen 24.08.2026,
+weil die ursprüngliche Notiz nur auf `/tmp/pl-filterlos-260823-*.json` verwies — eine temporäre,
+nicht versionierte Datei, die beim nächsten Neustart verschwindet. Die exakten Pfade sind daher
+hier dauerhaft gesichert (Stand PL-02-Zählung 23.08.2026, Site `/sites/PL`, Drive `02 Recht_Norm`):
+
+**9 Dateien `01_Gesetze/08_Baurechtsanalysen/200508_BRA_Thalwil/`** (Projekt-Baurechtsanalyse
+Thalwil, ca. 2020): `Besitzstandsgarantie/1 Nicht wesentliche weiter gehende Bau.docx`,
+`Besitzstandsgarantie/200518 Besitzstandsgarantie.docx`,
+`Besitzstandsgarantie/200521 1 Nicht wesentliche weiter gehende Bau.docx`,
+`Besitzstandsgarantie/Besitzstandsgarantie.docx`,
+`Seehaldenstrasse 31/200819 BR Gesetzestexte.docx`,
+`Seehaldenstrasse 31/200831 BR Grundstück.docx`, `200508 Aktennotiz-Baurecht.dotx`,
+`200523 Fragestellungen Baurecht.docx`, `200529 Zusammenfassung Baurecht.docx`.
+
+**3 Dateien `03_Arbeitshilfen/Teilungsplan Stockwerkeigentum Empfehlung/`:**
+`Stockwerkeigentum Plandarstellung/_Links.docx`,
+`Stockwerkeigentum Plandarstellung/_Wesentliche Bestandteile eines Aufteilungsplans.docx`,
+`Teilungsplan Vorgehen/Checkliste_STWEG_Begruendung_WOMA.docx`.
+
+**Nicht geprüft, ob Dublette einer bereits destillierten PDF-Fassung** (mehrere Ordner enthalten
+gleichnamige `.pdf` neben der `.docx`, z.B. `200529 Zusammenfassung Baurecht.pdf`) — das ist der
+erste Schritt für einen künftigen Baurecht-Lauf, bevor entschieden wird, ob ein eigenes Destillat
+lohnt. Die 7 SIA-Vertragsrecht-docx aus demselben PL-02-Scan (`02_Normen/SIA_Norm/SIA_Vertraege/`)
+sind separat in `wissen/normen/wiki/QUESTIONS.md` nachgetragen (dortige Zuständigkeit).
+
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 98) — ZH-Mehrwertausgleich (MAG): Buchstand 2019 war Entwurf, erlassener Text weicht in den Prozentsätzen ab
 
 **War offen seit Erstellung von [[enteignung-und-entschaedigung]] (2026-07-04), zuletzt bei
@@ -2332,10 +2363,18 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   im Wortlaut NICHT bestätigt, richtig ist § 62 lit. c/d StrG ohne kommunal/kantonal-Split).
   Art. 4/5 WEG sowie Art. 19 Abs. 1/3 RPG CONFIRMED, Art. 19 Abs. 2 RPG präzisiert (Buch-Run 44,
   14.07.2026, `raw/260714_amtlich_ch_weg.md` + `raw/260714_amtlich_ch_rpg-erschliessung.md`) —
-  in [[baureife-und-erschliessung]] eingearbeitet. **Echt offen bleibt nur `RRB 262/2010`**
+  in [[baureife-und-erschliessung]] eingearbeitet. ~~**Echt offen bleibt nur `RRB 262/2010`**
   (Gestaltungsgrundsätze Staatsstrassen, S. 221): die Beschluss-Nummer ist im Buch-Reader
   weiterhin schwer lesbar und in dieser KB nicht amtlich auffindbar (kein RRB-Archiv-Zugang
-  ZH 2010 im Hub) — Flag bleibt speculative in `03-erschliessung-landsicherung-teil1.md`.
+  ZH 2010 im Hub) — Flag bleibt speculative in `03-erschliessung-landsicherung-teil1.md`.~~
+  → **gelöst 2026-08-24 (Buch-Run 116):** die Nummer «262/2010» war ein Lesefehler. Richtig ist
+  **RRB 39/2010** vom 13.1.2010 («Baulinienrevision, Konzept Aufarbeitung und Bewirtschaftung,
+  Finanzierung») — amtlich bezogen über `www.zh.ch/bin/zhweb/publish/regierungsratsbeschluss-
+  unterlagen./2010/39/RRB-2010-0039.pdf`, Datum und Sachthema (Festsetzungsgrundsätze
+  Verkehrsbaulinien an Staatsstrassen, 6-m-Grundabstand) decken sich exakt mit der Buchstelle
+  S. 221. Gegenprobe: die URL für «0262» liefert HTTP 404, es existiert kein RRB 262/2010.
+  Primärquelle `raw/260824_amtlich_zh_rrb-39-2010-baulinienrevision.md`. Damit ist die letzte aus
+  der T6-Reglemente-Queue verbliebene Lücke geschlossen.
 - ~~**needs-verification — §§/Erlasse Kap. 2 Teil 3:** § 49b PBG (preisgünstiger Wohnraum, Fassung 2019/PWV),
   §§ 83-89 PBG (Gestaltungsplan-Zuständigkeit/Verfahren/Aufhebung), § 87a (Vorprüfung), § 44a (überkomm. GP),
   § 329 PBG/§ 41 VRG (Rechtsmittel Nutzungsplanung) — am amtlichen PBG-Volltext gegenprüfen.~~

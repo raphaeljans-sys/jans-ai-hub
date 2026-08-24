@@ -1,5 +1,31 @@
 # Offene Fragen — KB Normen
 
+## Cross-KB-Übergabe von `wissen/energie` (24.08.2026) — 7 nie gesichtete SIA-Vertragsrecht-docx in PL-02
+
+**Herkunft:** `wissen/energie` hat PL-02 Recht_Norm am 23.08.2026 (Run 161, Fortsetzung
+«E-R161-3») erstmals filterlos gezählt (ohne Dateityp-Filter), um KI-generierte Dokumente
+aufzuspüren. Dabei sind SIA-Vertragsrecht-docx aufgefallen, die ausserhalb des Energie-Scopes
+liegen — bisher **nicht einzeln geöffnet**, nur als Fundstelle vermerkt (Rule
+`wissens-bibliothekar`, Cross-KB-Bringschuld). Nachgetragen 24.08.2026, weil die ursprüngliche
+Notiz nur auf `/tmp/pl-filterlos-260823-*.json` verwies — eine temporäre, nicht versionierte
+Datei. Exakte Pfade (Site `/sites/PL`, Drive `02 Recht_Norm`, Ordner
+`02_Normen/SIA_Norm/SIA_Vertraege/`, Stand PL-02-Zählung 23.08.2026):
+
+`00_Vertag_Knowhow/230529_Vertragsunterschiede.docx`, `00_Vertag_Knowhow/Link_Vertag.docx`,
+`SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/_SIA1002_2003_Vertag_fuer_Architekturleistungen/f/
+contrat d'architecte sine nomine.doc`,
+`SIA1001.1_2020_Planer_Bauleitervertrag/1001-1_2020_d.docx`,
+`SIA1001.11_BIM_Zusatzvereinbarung_BIM/1001-11_2018_d.docx`,
+`SIA1001.2_2020_Gesellschaftsvertrag_fuer_Planergemeinschaften/1001-2_2020_d.docx` — plus eine
+siebte Datei aus demselben Ordnerbaum, die im Rohbestand nicht mehr eindeutig von einer bereits
+gezählten Zeile zu unterscheiden war (Zählung ergab 7 docx/doc unter `SIA_Vertraege/`, hier sind
+6 eindeutig benannt). Mehrere tragen ein gleichnamiges `.pdf` daneben (z.B. `1001-1_2020_d.pdf`)
+— vor einer Destillation zuerst prüfen, ob die docx nur die Word-Vorlage der bereits als PDF
+vorliegenden Norm ist (dann keine eigene Destillation nötig) oder eigenständigen Inhalt trägt
+(z.B. `230529_Vertragsunterschiede.docx`, kein erkennbares PDF-Pendant im Scan). Die 12
+Baurecht-/STWEG-docx aus demselben PL-02-Scan sind separat in
+`wissen/baurecht/wiki/QUESTIONS.md` nachgetragen (dortige Zuständigkeit).
+
 ## 24.08.2026, ~04:00 Uhr — EKAS 2134/6512 zweimal parallel destilliert (Kollision zweier gleichzeitiger Läufe) ✅ GESCHLOSSEN ~04:05 Uhr — paralleler Lauf hat Duplikate selbst entfernt, ENTSCHEID-RAPHAEL-Bedarf entfällt (Details im Nachtrag unten)
 
 - **Befund:** Zwei unabhängige, gleichzeitig laufende Claude-Prozesse haben denselben offenen
@@ -4338,7 +4364,13 @@ einzeln geprüft:
   Ziff. 3.7 Bildunterschrift «Geschossflaeche» → «Brandabschnittsflaeche», S. 33) war im
   Original-Auftragstext unten bereits vorweggenommen richtig geloest (Run 22) und nie strittig.
   Ursprungswortlaut bleibt unten stehen, damit die Abarbeitung nachvollziehbar ist:
-- [ ] **P1 — Fassung «Stand 01.12.2022» der VKF-BRL 16-15 vollstaendig destillieren.**
+- [x] **P1 — Fassung «Stand 01.12.2022» der VKF-BRL 16-15 vollstaendig destillieren.**
+  *Checkbox nachgezogen 24.08.2026 (QUESTIONS-Abarbeitung) — der Text direkt darüber («GESCHLOSSEN
+  23.08.2026») hatte die Klärung bereits dokumentiert, nur dieses Kästchen war stehen geblieben.
+  Eigene Gegenprüfung: `destillate/vkf-brl-16-15-flucht-rettungswege.md` Frontmatter `datenstand`
+  bestätigt alle drei Änderungsstufen (ABSV 22.03.2017, TKB 09.06.2021, Fehlerkorrektur 01.12.2022)
+  als "jetzt am Original geprueft und destilliert", Abschnitt "Fassung 01.12.2022 — Delta zur Fassung
+  01.01.2017" (Z. 253) vorhanden, `status: established-mit-vorbehalt`.*
   *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026); der Uebergabe-Flag stand seit Run 52 nur
   in `planungsgrundlagen` und war hier nie angekommen.* Im Bestand liegt
   `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-85.pdf`.
@@ -4433,6 +4465,17 @@ einzeln geprüft:
   > (Suchtreffer-Titel, Link inzwischen 404) liess sich nicht verifizieren und widerspricht dem
   > aktuellen Shop-Preis — nicht belastbar. **Bring-Schuld bleibt vollumfänglich offen**, nur über
   > SIA-Abo/Kauf (100 CHF) schliessbar; Inventar-Eintrag erst nach Beschaffung sinnvoll.
+- [x] **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung) — Z1/Z2-Koeffizienten des SIA-103-Grundfaktors
+  waren bereits destilliert, nur nicht verlinkt.** Der Befund unten war zum Schreibzeitpunkt
+  überholt: `destillate/sia-honorar-hilfsmittel.md` (status: established, adversarial verifiziert
+  17.07.2026) führt seit seiner Anlage die Z1/Z2-Werte für **alle vier** LHO, nicht nur SIA 102 —
+  Tabelle «Kernziffern — Z-Werte-Blatt» (Z. 161-165): **SIA 103 (Bauingenieure) Z1 = 0.075,
+  Z2 = 7.23** (Blatt 2015/Kopf «Z-Werte 2014»), zusätzlich die volle Zeitreihe 2005-2015 (Z. 173-183;
+  Wert seit 2009 unverändert). Honorar nach Baukosten ist damit nach SIA 103 durchrechenbar. Nur der
+  Querverweis fehlte: `destillate/sia-103-2003.md` Ziff. 7.2.2 und der Abschnitt «Zentrale Tabellen»
+  verwiesen bislang fälschlich auf eine Lücke — beide Stellen jetzt auf `sia-honorar-hilfsmittel.md`
+  verlinkt und mit den Zahlenwerten ergänzt. Datenstand bleibt 2015 (Vorbehalt: neueres Blatt beim
+  SIA nicht geprüft). Ursprungswortlaut:
 - [ ] **Z1/Z2-Koeffizienten des SIA-103-Grundfaktors fehlen** (p = Z1 + Z2/∛Bp, Ziff. 7.2.2). Sie
   werden laut Norm periodisch vom SIA publiziert, stehen aber nicht im PDF. Folge: **Honorar nach
   Baukosten ist nach SIA 103 derzeit nicht durchrechenbar.** Fuer SIA 102 liefert das neue Destillat

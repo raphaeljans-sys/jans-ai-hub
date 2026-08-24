@@ -1,3 +1,49 @@
+## 2026-08-24 — SIA-Sweep, weitere Fortsetzung (~04:52 Uhr): vierte unabhängige Sättigungs-Verifikation, eine veraltete QUESTIONS-Klammer korrigiert, kein neuer Sweep-Zyklus gefahren
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen). CHANGELOG-Kopf und der Report der 39. Fortsetzung
+(`outputs/2026-08-24_sia-sweep-neununddreissigste-fortsetzung.md`, ~04:20 Uhr) zuerst gelesen.
+
+**Kollisionscheck:** `ps aux` geprüft — nur der eigene Prozess (PID 12003, gestartet 04:52 Uhr,
+exakt dieser Auftragstext) mit Bezug zu `wissen/normen`. Kein Konkurrenzlauf.
+
+**Eigene, unabhängige Nachmessung statt Übernahme der Sättigungs-Behauptung** (Rule
+`auto-verbesserungen` 260729b/260807): `training/norm-inventar.md` zeigt weiterhin **0 offene
+Zeilen** (`grep -c '^\- \[ \]'`). `wiki/REGISTER.md` Abschnitt A führt unverändert **59 Zeilen**
+mit „Kein Volltext im Haus" — jede davon trägt bereits eine shop.sia.ch-Produktseiten-Angabe
+mit gültig-ab-Datum (und, wo zutreffend, dem Archivierungs-/Nachfolge-Datum), also den
+Produktdatenblatt-Teil des Auftrags bereits erledigt. Für den verbleibenden Schritt
+(Destillat aus dem Volltext) fehlt in jedem der 59 Fälle die Quelle selbst — durchweg als
+„Beschaffung Bring-Schuld" bzw. „nur über einen eigenen SIA-Normen-Kauf schliessbar" vermerkt.
+Dies ist die **vierte unabhängige Bestätigung** derselben Sättigung (nach Inventar-Zählung,
+Register-Struktur-Scan und der dokumentierten SharePoint-Vollständigkeits-Gegenprobe vom
+23.08.2026, alle in der 39. Fortsetzung bereits referenziert).
+
+**Ein Fund bei der Verifikation:** `wiki/QUESTIONS.md`, Eintrag „din-1946-6-2009 ↔ SIA 382/1
+Methodenvergleich" (bereits mit `[x]` als geschlossen markiert) trug einen stehengebliebenen
+Klammerzusatz „Anhänge A-G von SIA 382/1 noch offen" — am Destillat selbst geprüft:
+`destillate/sia-382-1-2014.md` Frontmatter `status` nennt „Anhänge A-G ergänzt Run 17 und
+unabhängig gegen das PDF verifiziert 260721", Anhang A ist im Fliesstext vorhanden (Z. 96 ff.).
+Die Klammer war zum ursprünglichen Schreibzeitpunkt (vor Run 17, 21.07.2026) korrekt, seither
+aber veraltet und unkorrigiert stehen geblieben — dieselbe Fehlerfamilie wie beim
+SWKI-VA103-01-Fund des vorherigen Laufs (Ergebnis vorhanden, Statuszeile nicht nachgezogen).
+Als Nachtrag in `wiki/QUESTIONS.md` richtiggestellt, mit Fundstellenbeleg.
+
+**Kein weiterer SIA-Sweep-Zyklus gefahren.** Für keine der 59 „Kein Volltext im Haus"-Zeilen
+existiert ein ungeprüfter, kostenloser Beschaffungsweg mehr — das ist jetzt viermal
+unabhängig belegt. Ein 41. Durchlauf würde entweder bereits Geschlossenes wiederholen oder auf
+denselben, allein durch einen Kaufentscheid Raphaels lösbaren Bring-Schulden sitzen bleiben.
+Die Betriebsbeobachtung der 39. Fortsetzung (Taktungsproblem: der Auftrag wird im
+Minutentakt neu gestartet, obwohl das Register die Sättigung seit Stunden dokumentiert) gilt
+unverändert; sie wird hier erneut sichtbar gemacht, nicht selbst durch eine Loop-/Takt-Änderung
+behoben (das fällt unter `rules/betrieb-chronik.md`, nicht unter diesen fachlichen Auftrag).
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprüft — `QUESTIONS.md` `+18/-0`,
+rein additiv, keine fremde Zeile berührt. Kein `git commit`/`push`/`pull`/`rebase` über den
+SMB-Mount ausgeführt.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung (PAVIDENSA P41-1): Materialverträglichkeits-Kreuzmatrix PAV-A 03:2013 nachträglich destilliert, sicherheitskritischer Rückstand geschlossen
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fortsetzung der

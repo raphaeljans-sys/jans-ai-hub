@@ -4944,6 +4944,48 @@ die KB widerspricht sich selbst.
   Zeile `1 0`, keine Löschung, keine fremde Arbeit berührt.
   (reine Zeilenergänzung, keine Löschung von Bestand).
 
+## 2026-08-24 (interaktive Session, Fortsetzung) — Cross-KB-Bringschuld aus Run 161 eingelöst: baurecht/normen tragen jetzt die PL-02-Fundstellen
+
+- [x] **Cross-KB-Bringschuld (Rule `wissens-bibliothekar`) aus Run 161/E-R161-3 nachgeholt.**
+  Der dortige Hinweis («Fundstelle für die KBs baurecht, normen, stockwerkeigentum und
+  brandschutz: dieser QUESTIONS-Eintrag plus die vollständigen JSON-Rohlisten unter
+  `/tmp/pl-filterlos-260823-*.json`») war seit 23.08.2026 nirgends beim Empfänger sichtbar
+  gemacht worden — die Bringschuld blieb bei dieser KB liegen. Nachgeholt: die drei
+  `/tmp/pl-filterlos-260823-*.json`-Rohlisten (PL-02, PL-03; PL-05 war leer) existierten noch
+  auf der Station und wurden mit Python nach den drei relevanten Ordnerpfaden gefiltert,
+  bevor sie beim nächsten Neustart verschwinden.
+  **`wissen/baurecht/wiki/QUESTIONS.md`** (neuer Abschnitt oben): 9 docx aus
+  `01_Gesetze/08_Baurechtsanalysen/200508_BRA_Thalwil/` (Projekt-Baurechtsanalyse Thalwil) und
+  3 docx aus `03_Arbeitshilfen/Teilungsplan Stockwerkeigentum Empfehlung/` — mit vollständigen
+  Pfaden, da `stockwerkeigentum` keine eigene `wissen/`-KB führt (nur Skill) und `baurecht` die
+  fachlich nächste ist.
+  **`wissen/normen/wiki/QUESTIONS.md`** (neuer Abschnitt oben): 6 eindeutig benannte docx/doc
+  aus `02_Normen/SIA_Norm/SIA_Vertraege/` (Zählung nannte 7, eine Zeile im Rohbestand nicht mehr
+  eindeutig einer Datei zuordenbar).
+  **Brandschutz (PL-03, 11 docx + 1 EML unter `_Projekte Themen/…`, `00 Brandschutznachweis.ch/…`,
+  `00 Brandschutzplaene bsvonline.ch/…`, `08 QS/…`) bleibt ohne Zielort** — `brandschutz` ist
+  ebenfalls nur ein Skill, keine `wissen/`-KB; hier zur Nachvollziehbarkeit vollständig
+  aufgeführt, damit die Liste nicht mit den `/tmp`-Dateien verloren geht, falls künftig eine
+  KB `brandschutz` entsteht:
+  `_Projekte Themen/Brandschutzabstand Regensdorf/240215 Anfrage_Mindestabstand.docx`,
+  `_Projekte Themen/Brandschutzabstand Regensdorf/240217_Gemaess_Brandschutzrichtlinie.docx`,
+  `_Projekte Themen/Gaststaetenbetriebe Alpin GrassenBiwak/Re- Biwak.eml`,
+  `_Projekte Themen/Tragwerk Brandschutzanforderung Thalwil Bohlweg3/250301 Antwort Francesco.docx`,
+  `_Projekte Themen/Tragwerk Brandschutzanforderung Thalwil Bohlweg3/250304 Fragestellungen Brandschutz.docx`,
+  `00 Brandschutznachweis.ch/01_Brandschutznachweise/Brandschutznachweis_MFH-5g-RF1_V.2_-_ohne_Logo.docx`,
+  `00 Brandschutznachweis.ch/LINK_Brandschutznachweise.docx`,
+  `00 Brandschutzplaene bsvonline.ch/Brandschutzplaene BSPUB-1394520214-207/Feuerwehrplaene pdf/Lagerliste.docx`,
+  `00 Brandschutzplaene bsvonline.ch/Brandschutzplaene BSPUB-1394520214-207/Feuerwehrplaene pdf/Objektdatenblatt.docx`,
+  `00 Brandschutzplaene bsvonline.ch/Brandschutzplaene BSPUB-1394520214-207/Feuerwehrplaene pdf/Titelblatt.docx`,
+  `08 QS/Die feuerpolizeilichen Bedingungen.docx`, `_LINK.docx` (PL-03, Site `/sites/PL`,
+  Stand PL-03-Zählung 23.08.2026).
+  Keine inhaltliche Sichtung dieser Dateien in diesem Lauf — nur die Weitergabe der Fundstelle,
+  wie es die Bringschuld verlangt; die Entscheidung, ob sich eine Destillation lohnt, bleibt bei
+  den jeweiligen KBs. `git diff --numstat` nativ per ssh nach jedem Schreibvorgang geprüft:
+  `baurecht/wiki/QUESTIONS.md` 31/0, `normen/wiki/QUESTIONS.md` 44/1 (die eine Löschung stammt
+  nachweislich vom zeitgleich laufenden SIA-Sweep dieser KB, ein eigener Checkbox-Abschluss,
+  nicht von diesem Edit), `energie/wiki/QUESTIONS.md` dieser Eintrag rein additiv.
+
 ## 2026-08-24 (interaktive Session, Fortsetzung) — zwei übersehene Themenartikel nachgerüstet, Backlink-Hygiene-Register (Run 123) abschliessend bereinigt
 
 - [x] **A-P2 02.17 war entgegen der vorigen Abschlussmeldung noch nicht ganz vollständig: zwei

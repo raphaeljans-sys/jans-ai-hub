@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: Cross-KB-Bringschuld aus Run 161 eingelöst (baurecht/normen)
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und `- [ ]`-Bestand
+durchgesehen: die vorangehenden Sessions desselben Tages hatten den reinen Rechercheauftrag
+weitgehend erschöpft (A-P2/A-P3/A-WERKZEUG/Backlink-Hygiene geschlossen, A-BLIND-Vorrat für das
+Quartal ausgeschöpft, verbleibende Punkte an Raphaels Beschaffungsentscheid gebunden). Eine
+genuine offene Lücke gefunden, die nicht an Raphael hängt: die Cross-KB-Bringschuld aus Run 161
+(E-R161-3, 23.08.2026) war nie beim Empfänger sichtbar gemacht worden — nur ein Verweis auf
+`/tmp/pl-filterlos-260823-*.json` in dieser KB.
+
+Die drei Rohlisten existierten noch auf der Station (nicht versioniert, wären beim nächsten
+Neustart verloren gegangen) und wurden nach den drei relevanten PL-02/PL-03-Ordnerpfaden
+gefiltert: 9 docx `08_Baurechtsanalysen` + 3 docx `Teilungsplan Stockwerkeigentum` →
+`wissen/baurecht/wiki/QUESTIONS.md`; 6 docx/doc `SIA_Vertraege` → `wissen/normen/wiki/QUESTIONS.md`;
+11 docx + 1 EML aus PL-03 Brandschutz haben keinen Zielort (`brandschutz` ist nur ein Skill, keine
+`wissen/`-KB) und bleiben zur Nachvollziehbarkeit in dieser KB dokumentiert. Keine inhaltliche
+Sichtung der Dateien — nur die Weitergabe der Fundstelle, wie die Bringschuld verlangt.
+
+`git diff --numstat` **nativ per ssh** nach jedem Schreibvorgang geprüft: `baurecht/wiki/
+QUESTIONS.md` 31/0, `normen/wiki/QUESTIONS.md` 44/1 (die eine Löschung stammt vom zeitgleich
+laufenden SIA-Sweep dieser KB, nachweislich ein eigener Checkbox-Abschluss desselben Prozesses,
+nicht von diesem Edit betroffen — verifiziert per `git diff -U1`), `energie/wiki/QUESTIONS.md`
+42/0. Durchgehend additiv, keine fremde Arbeit berührt.
+
 ## 2026-08-24 — Interaktive Session: zwei übersehene Themenartikel-`datenstand`-Felder nachgerüstet, Backlink-Hygiene-Register (Run 123) abschliessend bereinigt
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
