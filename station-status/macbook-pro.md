@@ -1,11 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.08.2026 13:21:20
+Stand: 24.08.2026 13:41:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:13)
-- /Volumes/daten/jans/ai/hub/logbuch/laeufe  (letzte Aktivitaet 13:01)
-- /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 12:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -21,4 +19,4 @@ Stand: 24.08.2026 13:21:20
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 2d4ee307 vollgas-radar 24.08. 12:57 Nachtrag P1b: GitHub-Sicherung gestaut (3 voraus / 50 zurueck seit Basis 08:21), zwei Commit-Wege auf 9 gemeinsame Wissens-Dateien; Registerzeile mit Diagnosebefehl
+- c16b42d7 nas-selfcommit: 2 Datei(en) 2026-08-24 13:30
