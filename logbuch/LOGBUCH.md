@@ -78,6 +78,16 @@ erst am 13.12.2026 ab, die Sitzung dahinter wurde serverseitig beendet. Alle fü
 Positionen bleiben ungemahnt, weil ohne verifizierten Zahlstatus kein Mahn-Guard greift. Löst nur
 ein neuer Personal Access Token in `~/.bexio.env`.
 
+### AG-Gründung 24.08.2026
+
+**Monitor funktioniert nicht seit 07.08.2026.** Der `ag-gruendung-monitor` schreibt sein Logbuch-Abschnitt seit 17 Tagen nicht mehr (letzte Einträge 30.07.2026 mit Durchbruch UBS). Der Task ist der einzige Kanal, der mail@raphaeljans.ch systematisch überwacht (wo UBS und Notariat antworten), deshalb ist dies nicht nur Hub-Interna, sondern eine operative Blindheit auf den einzigen Weg, auf dem die **UBS-Kapitalbescheinigung eintreffen würde**, die Voraussetzung für die Beurkundung.
+
+**Letzter belegter Stand (30.07.2026):** UBS-Blockade nach 32 Tagen gelöst, Antrag bei UBS-Geschäftsstelle Wiedikon eingereicht. Erwartet: IBAN ca. 03./04.08., Kapitalbescheinigung ca. 06./07.08., danach Beurkundung ab ca. 10.08. Der Engpass damals war das Notariat (Mathies war bis mindestens 14.08. abwesend). Die Rückmeldung an M. Mathies lag seit 18.07. als unversandter Entwurf vor und sollte am 30.07. versendet werden.
+
+**Heute (24.08.) — Stand unbekannt.** Zwischen 06.07. und 24.08. sind 18 Tage vergangen ohne Monitor. Fragen: (1) Ist die UBS-Kapitalbescheinigung am 06./07.08. eingetroffen? (2) Hat der Notar geantwortet? (3) Liegt ein Beurkundungstermin vor? **Aktion Raphael: posteingaeng mail@raphaeljans.ch nach Kapitalbescheinigung und Notariats-Antwort prüfen.** Das ist nicht durch den Monitor aufgedeckt, weil der Monitor defekt ist. 
+
+**Ursache des Monitor-Ausfalls:** Der Task-Lauf vom 19.08.2026 05:47 brach mit «issue with the selected model» ab (wurde in fristen.md notiert). Die aktuell vorliegende SKILL.md trägt die korrekte Modell-ID `claude-haiku-4-5-20251001`, aber die Logs zeigen, dass an mindestens einem Punkt eine ungültige ID verwendet wurde. Status: technisch zu prüfen.
+
 ### In den nächsten 7 Tagen
 
 Heute, 09:00 bis 09:30, Teams: Abgleich und Status PPTS mit C. Schaefer, C. Allerkamp und

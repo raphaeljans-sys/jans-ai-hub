@@ -5817,3 +5817,64 @@ E-WC32-1 als Methodendisziplin sofort anwendbar).
 **Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid ecoBKP) bleibt Raphael vorzulegen;
 E-R132-4-Nachfolge und E-WC32-1 (Methodendisziplin) weiterhin die nächsten ohne Raphaels Entscheid
 bearbeitbaren Punkte.
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — E-R132-4 primärquellenbelegt präzisiert (AHB-Jahresbericht 2011), neue Beschaffungsquote 2011 dokumentiert
+
+Auftrag: weitere offene Fragen abarbeiten, Anschluss an den Vorlauf, dessen «Für den nächsten
+Lauf»-Empfehlung E-R132-4-Nachfolge und E-WC32-1 nannte (E-R230-2 bleibt Raphael vorzulegen,
+nicht in diesem Lauf berührt).
+
+- [~] **E-R132-4 (P4): weiterhin offen, aber jetzt mit echtem Primärquellenfund statt nur
+  Websuch-Sekundärtreffern.** Vorher war die «4., überarbeitete Auflage, Oktober 2012» des
+  Topten-Haushaltgeräte-Flyers nur über übereinstimmende, aber unbelegte Websuchergebnisse
+  vermutet (404/403 bei jedem Kandidaten-PDF). Neu geprüft: Wayback-Machine-Abfrage auf
+  `stadt-zuerich.ch/*haushaltgeraete*` (archive.org, Zeitraum 2013) — keine archivierten
+  Snapshots. Stattdessen über eine gezieltere Websuche den **AHB-Jahresbericht 2011** der Stadt
+  Zürich gefunden (`stadt-zuerich.ch/.../7-meilenschritte-jahresbericht-2011.pdf`, publiziert Juli
+  2012, 44 Seiten, vollständig mit PyPDF2 gelesen, nicht nur die WebFetch-Zusammenfassung
+  übernommen, da diese die gescannte/grafiklastige PDF nur unvollständig extrahierte). **Zwei
+  primärquellenbelegte Funde:**
+  1. Die Stadt Zürich nennt unter «Massnahmen/Ziele im Folgejahr» wörtlich die Absicht, den
+     Topten-Flyer «an die neuen Geräteklassierungen und Mindestvorschriften des Bundes»
+     anzupassen, und führt im Studienprogramm-Anhang «Flyer ‹Professionelle Beschaffung
+     Haushaltgeräte› überarbeiten (Studienprogramm 2012, in Zusammenarbeit mit ewz und UGZ)» als
+     Vorhaben für 2012. **Das bestätigt aus einer amtlichen Quelle, dass die vermutete 4. Auflage
+     2012 tatsächlich geplant/beauftragt war** — das PDF der fertigen 4. Auflage selbst wurde
+     damit aber nicht gefunden, nur der Auftrag dazu.
+  2. Eine neue, methodisch klarere Beschaffungsquote für 2011: 608 durch die städtische
+     Liegenschaftenverwaltung beschaffte Haushaltgeräte, 76 % Topten-Anteil (1. Priorität, Ziel
+     40 %), 93 % Gesamtanteil (1.+2. Priorität, Ziel 90 %) — löst den bisher zitierten,
+     kontextärmeren Wert «93 % im Jahr 2006» aus dem Flyer selbst ab bzw. ergänzt ihn um Zielwert
+     und Erhebungsmethodik.
+  Eingearbeitet in `destillate/topten-haushaltgeraete-liegenschaftenverwaltung.md` (neuer
+  Abschnitt, Frontmatter, Offene-Punkte-Abschnitt) und `destillate/INDEX.md` (Zeile
+  `topten-haushaltgeraete-liegenschaftenverwaltung`). **Bei P4-Priorität kein weiterer Aufwand**
+  ohne neuen Ansatzpunkt (z.B. direkte Anfrage bei der Fachstelle Nachhaltiges Bauen AHB) — der
+  Rest ist eine reine Existenzfrage zu einem inhaltlich bereits abgedeckten Merkblatt.
+
+- [x] **Nebenbefund, im selben Zug erledigt: der Offene-Punkt «Datei `2.33.C
+  Haushaltgeraete_Professionelle_Beschaffung.pdf` nicht gelesen/verglichen» in
+  `topten-haushaltgeraete-liegenschaftenverwaltung.md` war bereits durch Run 147 (24.08.2026)
+  gelöst, nur nicht in diesem Destillat nachgezogen.** Die Datei ist die früheste bekannte Ausgabe
+  (November 2004) desselben Flyers, seit Run 147 als `[[haushaltgeraete-professionelle-
+  beschaffung-2004-erstausgabe]]` bzw. deren erkannte Dublette `[[haushaltgeraete-professionelle-
+  beschaffung-stadt-zh]]` destilliert. Im Destillat nachgetragen (durchgestrichen statt gelöscht).
+  Gleiche Fehlerklasse wie E-WC32-1 (Cross-Referenz zwischen mehreren Editionen desselben
+  Merkblatts nicht konsequent nachgezogen) — hier ohne neuen Registereintrag, weil E-WC32-1 die
+  Methodenregel bereits trägt.
+
+**E-WC32-1 (Methodendisziplin) in diesem Lauf angewandt, nicht neu erforscht:** vor der
+Websuche wurde zuerst per `grep`/`ls` gegen `destillate/` geprüft, ob eine der Kandidatenquellen
+(2.33.C, Jahresbericht) bereits destilliert vorliegt — dabei der Nebenbefund oben gefunden.
+
+**Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid ecoBKP) bleibt Raphael vorzulegen.
+Von den ohne Raphaels Entscheid bearbeitbaren Punkten sind jetzt E-R132-4 (P4, nur noch bei neuem
+Ansatzpunkt) und der 2.33.C-Nebenbefund erledigt; die verbleibenden echten Reste sind
+E-R134-3 (Lambda-Anomalie, P3, bewusst nicht korrigiert — Aufwand vermutlich nicht gerechtfertigt)
+und der A-BLIND-Bestand (21 von 37 Kandidaten im 18-29-Backlink-Bereich weiterhin einzeln gegen
+ihre Primärquelle zu prüfen, siehe Fortsetzungen weiter oben).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/topten-haushaltgeraete-
+liegenschaftenverwaltung.md` additiv (neuer Abschnitt, Offene-Punkte präzisiert, ein Punkt
+durchgestrichen statt gelöscht), `destillate/INDEX.md` eine Zeile ersetzt (Registerzeile) — keine
+Löschung von Bestand.

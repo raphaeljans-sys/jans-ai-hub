@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session (Fortsetzung): E-R132-4 primärquellenbelegt präzisiert (AHB-Jahresbericht 2011 Stadt Zürich)
+
+Anschluss an den Vorlauf («Für den nächsten Lauf: E-R132-4-Nachfolge und E-WC32-1»). Per Websuche
+den AHB-Jahresbericht 2011 der Stadt Zürich (Juli 2012, 44 S., PyPDF2-Volltext) gefunden: bestätigt
+primärquellenbelegt, dass eine 4. Auflage des Topten-Haushaltgeräte-Flyers für 2012 geplant/
+beauftragt war (Studienprogramm 2012, mit ewz und UGZ) — das PDF der fertigen Auflage selbst bleibt
+weiterhin nicht auffindbar (E-R132-4 bleibt offen, jetzt enger gefasst). Zusätzlich neue,
+methodisch klarere Beschaffungsquote 2011 dokumentiert: 608 Geräte, 76 % Topten-Anteil / 93 %
+Gesamtanteil gegen Ziel 40 %/90 %. Nebenbefund: ein bereits durch Run 147 gelöster Offener-Punkt
+(Datei `2.33.C…pdf`) war im betroffenen Destillat noch nicht nachgezogen — nachgetragen.
+Eingearbeitet in `destillate/topten-haushaltgeraete-liegenschaftenverwaltung.md`,
+`destillate/INDEX.md`, `wiki/QUESTIONS.md`. Beleg: `git diff --numstat` additiv geprüft, keine
+Löschung von Bestand.
+
 ## 2026-08-24 — Interaktive Session (Fortsetzung): E12-Restpunkt geschlossen — EnV Art. 16a/16b für die ZEV-Mieterpreisregel primärquellen-verifiziert
 
 Auftrag: weitere offene Punkte aus `wiki/QUESTIONS.md` abarbeiten. Vor neuer Primärquellenarbeit

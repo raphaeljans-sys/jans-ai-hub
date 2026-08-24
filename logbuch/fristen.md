@@ -658,6 +658,38 @@ unerreichbar bleibt (kein `ssh mini` unterwegs, kein Dispatch vom Handy, kein re
 claude.ai/code). Behebung unveraendert Raphael, ein Befehl auf dem Mini:
 `/Applications/Tailscale.app/Contents/MacOS/Tailscale up`. | eigene Messung 23.08.2026 auf dem Mac
 Mini | Hub-Infrastruktur | mittel | offen
+**Nachtrag 24.08.2026, 07:4x (interaktive Session mit Raphael auf dem Mac Mini): BEHOBEN — und
+die Einstufung «mittel» war der eigentliche Fehler.** `tailscale up` ausgefuehrt, Zustand
+nachgemessen: `BackendState: Running`, IP `100.120.219.12`, `Health: []`, und die Subnet-Route
+`192.168.1.0/24` ist wieder `PrimaryRoutes` (also in der Admin-Konsole weiterhin freigegeben).
+Die Prefs zeigten `WantRunning: false` bei `LoggedOut: false` — der Tunnel war **abgeschaltet,
+nicht abgestuerzt**: keine abgelaufene Anmeldung (Expiry «Never»), kein Absturz, die
+Netzwerk-Extension lief die ganze Zeit. Deshalb half auch keine der Einstellungen, die richtig
+gesetzt sind: «VPN On Demand → Always» reagiert auf Netzwechsel und «Launch Tailscale at login»
+startet die App — **keine von beiden setzt `WantRunning` zurueck auf true.** Wer in den
+Einstellungen nachsieht, findet alles korrekt und die Verbindung trotzdem aus.
+**Die Ursache des Abschaltens bleibt unbelegt und wird es bleiben:** der Unified Log reicht nur
+bis 21.08. 22:30 zurueck (durch eine grosse Installation am 21.08. verdraengt), der Stopp lag
+davor. Der naheliegende Verdacht «Sparkle-Auto-Update» traegt **nicht** als Ursache: das Bundle
+wurde erst am 20.08. um 02:20 ersetzt, der Radar hatte den Stopp schon um 00:57 gemessen. Das
+Update kam danach.
+**Die Lehre liegt nicht bei der Erkennung.** Vier Laeufe haben den Ausfall gefunden (19.08.,
+20.08., Run 149, Run 150), das Register hat ihn dokumentiert, mit dem exakt richtigen
+Behebungsbefehl. Er blieb vier Tage stehen, weil drei Dinge zusammenkamen: (1) eingestuft als
+«mittel / Hub-Infrastruktur» — «ich komme nicht mehr ins Buero» ist P1, nicht mittel; (2) damit
+kein Sendegrund nach Rule `auto-verbesserungen` 260803, die Hub-Interna ausdruecklich stillstellt
+— es ging nie eine Mail raus, der Befund lag im Register und in einer nicht importierten
+Chronik; (3) kein erlaubter umkehrbarer Selbstheilungsweg, also blieb «Aktion Raphael» liegen.
+**Gegenmassnahmen gebaut** (24.08.): `scripts/tailscale-waechter.sh` heilt selbst und mailt nur
+bei Fehlschlag als P1, prueft zusaetzlich die Subnet-Route und liefert von der Gegenstation die
+Aussensicht; `heartbeat` Check 15 trennt «laeuft» von «erreichbar»; launchd-Vorlage
+`templates/launchd/ch.jans.tailscale-waechter.plist`. **Offen, Aktion Raphael:** (a) LaunchAgent
+auf beiden Stationen bootstrappen; (b) Mac Mini rebooten, damit die alte
+Extension-Version 1.102.2 abgeraeumt wird (sie steht auf «waiting to uninstall on reboot»); (c)
+pruefen, ob der Mini nach einem Reboot **ohne** GUI-Login dasteht — Tailscale ist in der
+Standalone-Variante eine GUI-App und ein LaunchAgent laeuft erst nach dem Login; ohne Auto-Login
+traegt der Waechter nach einem Stromausfall nicht. | eigene Messung 24.08.2026 auf dem Mac Mini
+| Hub-Infrastruktur | **hoch** | erledigt (Restpunkte a/b/c offen)
 
 
 Eintrag 19.08.2026, 06:55 (Logbuch-Radar — **ein neuer Punkt auf dem kritischen Pfad, der bei
