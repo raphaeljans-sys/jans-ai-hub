@@ -194,9 +194,25 @@ und 2101 stimmen Fusszeile und bestehende Zitate überein, dort besteht kein Ver
 
 **Der Fussabdruck ist in keinem der drei Verfahren mit belegter Wirtschaftlichkeitswürdigung die
 Kennzahl, an der die Jury Wirtschaftlichkeit gemessen hat.** Er ist ein städtebauliches Argument
-(Freiraum, Erweiterbarkeit) und wird als solches auch honoriert. In **beiden** eigenen Verfahren,
-in denen JANS ihn als Wirtschaftlichkeitsargument vortrug, hat die Jury den städtebaulichen Teil
-bestätigt und den wirtschaftlichen Schluss im selben Abschnitt kassiert:
+(Freiraum, Erweiterbarkeit) und wird als solches auch honoriert.
+
+**Wichtige Präzisierung (Refuter-Auflage 24.08.2026):** Die eigenen Projekttexte tragen den
+Fussabdruck **nicht** als Wirtschaftlichkeitsargument vor, sondern ausdrücklich als
+städtebauliches — in 2205 unter der Überschrift «Städtebau» mit dem Nutzen «vielfälltige
+Aussichtmöglichkeiten und gute Besonnungssituationen» (eigener Projekttext), in 2102 als
+«kompakten Fussabdruck, der möglichst viel Frei-[raum] offen lässt» (eigene Abgabe). **Die
+wirtschaftliche Lesart bringt in beiden Fällen erst die Jury ein** — und stellt ihr die eigene
+Kennzahl entgegen. Genau das ist der praktisch verwertbare Punkt: der Fussabdruck-Baustein
+beantwortet die Wirtschaftlichkeitsfrage nicht, aber er verhindert nicht, dass sie gestellt wird.
+Er wird also nicht widerlegt, er wird **übergangen**.
+
+Hinzu kommt, dass es sich um einen **wiederverwendeten eigenen Textbaustein** handelt und nicht
+um eine einmalige Formulierung: die Wendung «kompakten Fussabdruck, der möglichst viel Freiraum
+offenlässt» steht wörtlich auch im Erläuterungstext zu 2103 Steinhofschule. Die Korrektur wirkt
+damit auf einen Baustein, nicht auf einen Einzelfall.
+
+In beiden eigenen Verfahren mit dokumentiertem Wirtschaftlichkeitsurteil hat die Jury den
+städtebaulichen Teil bestätigt und die Kennzahl im selben Abschnitt dagegen gestellt:
 
 - **2102 Muttenz (Schulbau, BL, 2022):** «Der kompakte Fussabdruck lässt viel Freiraum und
   ermöglicht eine spätere Erweiterung der Schulanlage» (S. 40) — und im selben Würdigungstext
@@ -234,14 +250,21 @@ die Bezugsgrösse nach der **Nutzungseinheit der Bauaufgabe**:
 | Verfahren | Bauaufgabe | gemessen wurde | Beleg |
 |---|---|---|---|
 | 2102 Muttenz | Schulbau | GF und GV als **Feldposition** gegen die Konkurrenz | «grösste Geschossfläche wie auch das grösste Volumen» (S. 40) gegen den Sieger «im Bereich des Mittelfeldes knapp unter dem Mittelwert», «Dasselbe gilt für die Kosten» (S. 22) |
-| 2101 KSSG H14 | Gesundheitsbau (ambulant) | **CHF je Nutzfläche** | «bietet INSERE am meisten Nutzfläche und weist in Bezug auf die Erstellungskosten ein gutes CHF/NF-Verhältnis auf» (S. 22) |
+| 2101 KSSG H14 | Gesundheitsbau (ambulant) | **CHF je Nutzfläche** | «bietet INSERE am meisten Nutzfläche und weist in Bezug auf die Erstellungskosten ein gutes CHF/NF-Verhältnis auf» (**Sieger Insere, 1. Rang / 1. Preis**, S. 22) |
 | 2205 Guggerbach | Alterswohnen | **Erstellungskosten pro Wohnung** | «Die Erstellungskosten pro Wohnung sind im oberen Durchschnitt, so dass mit einer mittleren Wirtschaftlichkeit zu rechnen ist.» (Sieger Sonnenblume, S. 19) |
 
 Ergänzend aus dem externen Katalog dieselbe Logik als Verhältniszahl: Flächeneffizienz GF/NF
 (LUKS Sursee, der Sieger mit einem «Flächeneffizienzwert von 1.64»,
-[[extern/jurybericht-luks-sursee-schwyzermatt]]) und Hüllflächenzahl (Sihlsana Adliswil, ein
-Beitrag erfüllt das Kriterium «mit einer entsprechend erhöhten Hüllflächenzahl nicht ganz»,
+[[extern/jurybericht-luks-sursee-schwyzermatt]]) und Hüllflächenzahl (Sihlsana Adliswil, bei einem
+Beitrag wurden «Die Ziele zur Wirtschaftlichkeit … vor allem durch die volumetrische Gliederung
+und einer entsprechend erhöhten Hüllflächenzahl nicht ganz erfüllt.»,
 [[extern/jurybericht-alterszentrum-sihlsana-adliswil]]).
+
+**Alle drei Zitate der Tabelle stammen von einem prämierten Fremdprojekt, nicht vom eigenen
+Beitrag.** In 2101 schied der eigene Beitrag «LOUISE» im zweiten Rundgang aus, weshalb für ihn
+gar kein Wirtschaftlichkeitsurteil existiert (die vergleichende Kostenschätzung entstand erst für
+die engere Wahl, siehe `muster/jury-argumente-healthcare.md` Abschnitt 7.2). Die Tabelle zeigt
+also, **woran gemessen wurde**, nicht wie der eigene Beitrag dabei abschnitt.
 
 **Praktische Folge:** Vor Abgabe ist nicht «die Kompaktheit» nachzuweisen, sondern die
 Bezugsgrösse zu bestimmen, welche die Ausloberin für diese Bauaufgabe rechnen lässt — und dann
@@ -264,11 +287,14 @@ gleichlautenden Satzstellung in allen elf Würdigungen ablesbar.
 
 Drei unabhängige Belege:
 
-- **2205, der sauberste Fall:** «Tetris» (3. Rang) ist «sehr kompakt» und «Die Erstellungskosten
-  pro Wohnung sind im Vergleich gering, so dass mit einer guten Wirtschaftlichkeit zu rechnen
-  ist.» (S. 28) — die beste Wirtschaftlichkeitsbeurteilung des Feldes. Der **Sieger**
-  «Sonnenblume» ist «mittelmässig kompakt» mit «mittlerer Wirtschaftlichkeit» (S. 19). Die
-  bestbewertete Wirtschaftlichkeit gewann nicht.
+- **2205, der sauberste Fall:** Die Skala der elf Wirtschaftlichkeits-Prädikate reicht von
+  «weniger guten» über «mittlere» und «mittlere bis gute» bis «gute». Die **oberste Stufe
+  erreichen genau zwei Beiträge**: «Tetris» (3. Rang), «sehr kompakt», «Die Erstellungskosten pro
+  Wohnung sind im Vergleich gering, so dass mit einer guten Wirtschaftlichkeit zu rechnen ist.»
+  (S. 28) — und «Talis» (nicht prämiert), «relativ kompakt», «Die Erstellungskosten pro Wohnung
+  sind relativ gering, so dass mit einer guten Wirtschaftlichkeit zu rechnen ist.» (S. 54). Der
+  **Sieger** «Sonnenblume» ist «mittelmässig kompakt» mit «mittlerer Wirtschaftlichkeit» (S. 19).
+  **Beide Träger der Bestnote gewannen nicht, einer davon erhielt nicht einmal einen Preis.**
 - **2102:** Der Sieger «hannes» wurde für **beide** Grössen gerügt, die den eigenen Beitrag
   kosteten: «Das Ensemble aus zwei getrennten Baukörpern führt zu einem eher grossen Footprint.
   Das Gesamtresultat wird weiter getrübt durch das grosse unterirdische Volumen.» (S. 22) — und
@@ -291,7 +317,10 @@ Drei unabhängige Belege:
 4. **Treiber benennen:** jede UG-Fläche, jeden zusätzlichen Baukörper und jeden Eingriff in
   Baugrund oder Bestand ausdrücklich begründen, statt ihn mit dem Fussabdruck-Argument zu
   übertönen. Der Fussabdruck bleibt ein städtebauliches Argument und ist dort wertvoll — als
-  Wirtschaftlichkeitsargument ist er in 2 von 2 eigenen Verfahren kassiert worden.
+  Antwort auf die Wirtschaftlichkeitsfrage hat er in 2 von 2 eigenen Verfahren **mit
+  dokumentiertem Jury-Urteil** nicht getragen. Ein drittes Verfahren (2103 Steinhofschule) führt
+  denselben Textbaustein, blieb aber ohne dokumentiertes Wirtschaftlichkeitsurteil und zählt
+  darum nicht mit.
 
 Zuständige Agenten: `flaechen-nachweis` (2 und 3), `grobkosten-onepager` (1 und 2),
 `programm-pruefer` (4 als Prüfzeile «Mehrkostentreiber benannt und begründet?»).

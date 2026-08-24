@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 07:56:52
+Stand: 24.08.2026 08:07:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:33)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 07:56:52
 - keine
 
 ## Hub-Git-Stand (NAS)
-- dec380c2 vollgas-fruehwarnung 24.08. 07:36: gemeldet (Kriterium b, 71.67 Mio am 23.08.); Zusatzbefund 5h-Sperre kontoweit gefaehrdet Briefing-Block, Ertrag 77/83 Artikel rechtfertigt den Schub
+- 6cca66cc baurecht: Buch-Run 131 - Modell-D-Wortlautabgleich grundlagen-planungs-baurecht (10/10 CONFIRMED, Art. 26/27 BV + Art. 1-10 ZGB nachgetragen)
