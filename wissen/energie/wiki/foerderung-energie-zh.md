@@ -1,8 +1,8 @@
 ---
 title: Förderung Energie — Kanton Zürich (2026)
 status: established
-last_updated: 2026-08-23
-datenstand: 2026-06-26 (Förderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unverändert bestätigt 24.10.2025); Bund-/HFM-Mechanik 2026-06-28; Kantonsrats-Verfahrensstand Solarpflicht/Langzeitspeicher 2026-07-24 (Run 87)
+last_updated: 2026-08-24
+datenstand: 2026-06-26 (Förderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unverändert bestätigt 24.10.2025); Bund-/HFM-Mechanik 2026-06-28; Kantonsrats-Verfahrensstand Solarpflicht/Langzeitspeicher 2026-07-24 (Run 87); Rahmenkredit 2026-2029 (KRNr 6064) bewilligt 17.08.2026, primärquellenverifiziert 2026-08-24
 sources: [destillate/foerderprogramm-energie-zh-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/zh-energiegesetz-revision-solarpflicht-2026.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]], [[energiefranken-foerder-suchmaschine-ch]], [[zh-energiegesetz-revision-solarpflicht-2026]]
 ---
@@ -90,10 +90,13 @@ zwei Vorlagen zur Änderung des Energiegesetzes vorgelegt, eine **Solarpflicht f
 Energie-Langzeitspeichern** (**KRNr 6063**) — beide Geschäftsnummern amtlich identifiziert über die
 CDWS-Geschäftsdatenbank des Kantonsrats (Datenstand Run 87, 24.07.2026); zu unterscheiden von der
 unabhängigen **KRNr 6064** (Rahmenkredit 2026-2029 Subventionen § 16 Energiegesetz, reines
-Fördermittel-Geschäft). Verfahrensstand 6062/6063 per 24.07.2026: **bei der Kommission KEVU** zur
-Vorberatung, kein Kommissionsbericht, keine erste Lesung, **kein Inkraftsetzungsdatum bekannt**.
-Für ein heute eingereichtes Baugesuch ändert sich dadurch nichts — es gilt weiterhin EN-104-ZH
-(≥10 W/m² EBF). Details → `[[zh-energiegesetz-revision-solarpflicht-2026]]`.
+Fördermittel-Geschäft — **bewilligt 17.08.2026, siehe Kasten oben**, kein Gesetzesrevisions-Geschäft
+und damit von 6062/6063 auch verfahrensrechtlich unabhängig). Verfahrensstand 6062/6063 per
+24.07.2026 **unverändert offen**: **bei der Kommission KEVU** zur Vorberatung, kein
+Kommissionsbericht, keine erste Lesung, **kein Inkraftsetzungsdatum bekannt** — die Bewilligung
+von 6064 präjudiziert 6062/6063 nicht (andere Rechtsgrundlage, andere Geschäftsart). Für ein heute
+eingereichtes Baugesuch ändert sich dadurch nichts — es gilt weiterhin EN-104-ZH (≥10 W/m² EBF).
+Details → `[[zh-energiegesetz-revision-solarpflicht-2026]]`.
 
 ## Strategie für den Bauherrn
 1. **Erst Gesuch, dann bauen** — ausnahmslos.

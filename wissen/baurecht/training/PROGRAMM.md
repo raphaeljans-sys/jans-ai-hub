@@ -1678,6 +1678,24 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   `outputs/2026-08-24_buch-run106.md`. **Naechster Schritt:** keine offene Frage mehr aus der
   Thalwil-Queue, der Bundesrechts-Kette oder dem LRV-Nachtrag; frei fuer Health-Check-Aktionen
   (Phase 2, Umlaut-Ersatzschreibung ~340 Stellen) oder eine zweite Re-Verifikationsrunde.
+- **Buch-Run 107 (2026-08-24):** Health-Check-Phase-2-Aktion begonnen: Umlaut-Ersatzschreibung.
+  Der 340-Treffer-Befund des Health-Checks zaehlte blind (Wortkatalog-Grep ohne Maskierung) —
+  **maskiert** (Ausschluss von `[[Wiki-Links]]`, Backtick-Dateipfaden, `raw/`/`wissen/`/`buecher/`-
+  Referenzen, die als Bezeichner ASCII bleiben muessen, Rule `dateinamen-konvention`) blieben nur
+  **~20 echte Fliesstext-Stellen in 8 von 26 Artikeln** uebrig — der grosse Rest waren Wiki-
+  Artikelnamen/Skill-Namen/Dateipfade, die bereits korrekt ASCII sind. Alle 20 einzeln
+  kontext-geprueft und korrigiert (u.a. Gebaeude→Gebäude-Familie war bereits durchweg korrekt,
+  echte Funde: Gemeindebeschluessen, Bevoelkerung [Zitat Art. 4 Abs. 2 RPG], Haelfte,
+  Verzoegerungs-Mehrkosten, muendlicher, geruegt, juengster, aeusseres, Verkaufsgeschaefte,
+  Haustuer/Tuer/Aufzuege, Querbezuege-Ueberschrift, Sekundaerquelle(n), Praemisse, uebrigen×5,
+  Ausschuesse). Die B4/F2-Befunde des Health-Checks (Frontmatter `title:`, `[[…]]` auf raw/-Datei,
+  QUESTIONS.md-Zeilenumbruch-Backlinks, 7 dekorative ✅) waren beim Nachpruefen **bereits
+  behoben** — `wissen/tools/wiki-konsistenz.sh baurecht` meldet 0 Befunde, kein `✅`/`🟡` ausserhalb
+  QUESTIONS.md. **Ein Wort nicht angefasst:** «zaegig» (`bauausfuehrung-und-baukontrolle.md` Z. 81)
+  ist keine erkennbare Ersatzschreibung — als offene Frage in `wiki/QUESTIONS.md` vermerkt statt
+  geraten. Report `outputs/2026-08-24_buch-run107.md`. **Naechster Schritt:** «zaegig» am
+  zitierten Entscheid (VB.2014.00026/BEZ 2014 Nr. 46) verifizieren; sonst zweite
+  Re-Verifikationsrunde oder naechster Health-Check-Turnus.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

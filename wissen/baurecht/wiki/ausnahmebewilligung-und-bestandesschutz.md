@@ -54,7 +54,7 @@ Drei Voraussetzungen (kumulativ):
    werden, «**es sei denn, es würde die Erfüllung einer dem Gemeinwesen gesetzlich obliegenden
    Aufgabe verunmöglicht oder übermässig erschwert**». Das heisst: Wo ein Dispens die Erfüllung
    einer gesetzlichen Aufgabe des Gemeinwesens (Kanton/Gemeinde) verunmöglichte oder übermässig
-   erschwerte, ist er zu **verweigern**, selbst wenn die uebrigen Voraussetzungen vorlägen — das
+   erschwerte, ist er zu **verweigern**, selbst wenn die übrigen Voraussetzungen vorlägen — das
    öffentliche Aufgabeninteresse geht dem privaten Befreiungsinteresse vor (volltextverifiziert
    § 220 Abs. 2 PBG, raw/260607_amtlich_zh_pbg.md Z. 2186-2194, Modell-D-Refuter 2026-07-15).
 3. **Kein unzumutbarer Nachbarnachteil** (Abs. 3) — ein Nachbar darf durch Ausnahmebewilligungen

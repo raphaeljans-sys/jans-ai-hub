@@ -20,7 +20,7 @@ verifiziert:
   - datum: 2026-08-23e
     methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 91, GG-Lücke aus Run 85 geschlossen (Reglemente-Queue 2414 Thalwil T1-T9 unverändert vollständig abgearbeitet)"
     umfang: "§§ 38-52 GG (Behörden-Abschnitt) + §§ 170-171 GG (Neubeurteilung) frisch von zhlex bezogen (LS 131.1, Nachtrag 132, Stand 1.4.2026) gegen die Zuständigkeits-Aufzählung im Abschnitt 'Zuständigkeit: wer ist die Baubehörde' gegengelesen"
-    ergebnis: "CONFIRMED mit 1 Korrektur: § 41 GG (Präsidialentscheide bei dringenden/geringfügigen Angelegenheiten) trägt NICHT die Aussage 'Bauvorstand/einzelne Mitglieder' als eigener Delegationskanal; die Delegation an einzelne Mitglieder ODER Ausschuesse (z.B. Bauvorstand) steht einheitlich in § 44 GG. Begriff 'Bauvorstand' kommt im GG-Wortlaut nicht vor (0 Treffer), ist kommunale Bezeichnung. Uebrige Fundstellen (§ 48 Abs. 3, § 50, § 51, § 45, § 170 GG) CONFIRMED wortgleich. Neuer raw-Beleg raw/260823_amtlich_zh_gg.md."
+    ergebnis: "CONFIRMED mit 1 Korrektur: § 41 GG (Präsidialentscheide bei dringenden/geringfügigen Angelegenheiten) trägt NICHT die Aussage 'Bauvorstand/einzelne Mitglieder' als eigener Delegationskanal; die Delegation an einzelne Mitglieder ODER Ausschüsse (z.B. Bauvorstand) steht einheitlich in § 44 GG. Begriff 'Bauvorstand' kommt im GG-Wortlaut nicht vor (0 Treffer), ist kommunale Bezeichnung. Übrige Fundstellen (§ 48 Abs. 3, § 50, § 51, § 45, § 170 GG) CONFIRMED wortgleich. Neuer raw-Beleg raw/260823_amtlich_zh_gg.md."
 ---
 
 # Baubewilligungsverfahren

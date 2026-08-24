@@ -361,20 +361,23 @@ Datenstand 2026-07-23, Status established.
 F27, `[[gebaeudeprogramm-bund-hfm-2015]]`. **Im Kanton Schwyz** gelten andere (linear gerechnete)
 Sätze → **F28**, `[[foerderung-energie-sz]]`.
 
-**Achtung Zeitfenster (präzisiert 2026-07-20):** Die früher hier stehende Angabe «befristet bis
-Ende 2026» war optimistischer als die Quelle. Der Regierungsrat datiert den Anschlussbedarf in
-seiner Mitteilung vom **15.01.2026** ausdrücklich auf **«Mitte 2026 bis Ende 2029»** — der laufende
-Rahmenkredit 2023–2026 trägt also **nicht zwingend bis Jahresende**. Beantragt ist ein
-**Anschlusskredit von 60 Mio. CHF** (mit CO₂-Abgabe und Bundes-Impulsprogramm bis 286 Mio. für
-2026–2029), unter dem Vorbehalt des Bundes-Entlastungspakets 2027; der **Kantonsratsbeschluss dazu
-ist präzisiert (2026-07-20):** Geschäft KRNr 6064 «Rahmenkredit 2026-2029 Subventionen gestützt auf
-§ 16 Energiegesetz», die Kommission KEVU hat dem Kantonsrat am 07.05.2026 **einstimmig** die
-Bewilligung beantragt, das Geschäft wartet aber weiterhin auf die Schlussabstimmung im Plenum
-(Stand 20.07.2026: `PendentBeiNeu = Kantonsrat`; nächste Plenarsitzung nach der Sommerpause
-17.08.2026, noch ohne publizierte Traktandenliste). Praktisch heisst das: **Gesuch nicht auf das
-2. Halbjahr schieben.** Es gilt
-«first come, first served», und eine Budgeterschöpfung wird nicht prominent publiziert —
-verbindlich Auskunft gibt nur **0800 93 93 93 / fördergesuche@bd.zh.ch**.
+**Achtung Zeitfenster (Nachtrag 2026-08-24: Anschlussfinanzierung bewilligt).** Die früher hier
+stehende Angabe «befristet bis Ende 2026» war optimistischer als die Quelle: der Regierungsrat
+hatte den Anschlussbedarf in seiner Mitteilung vom **15.01.2026** ausdrücklich auf **«Mitte 2026
+bis Ende 2029»** datiert, der laufende Rahmenkredit 2023–2026 trug also nicht zwingend bis
+Jahresende. **Der Kantonsrat hat den Anschlusskredit inzwischen bewilligt:** Geschäft **KRNr 6064**
+«Rahmenkredit 2026-2029 Subventionen gestützt auf § 16 Energiegesetz» (Antrag Regierungsrat
+10.12.2025, einstimmiger Antrag der Kommission KEVU an den Kantonsrat 07.05.2026) durchlief am
+**17.08.2026** in der ersten Plenarsitzung nach der Sommerpause die Schlussabstimmung — **172
+Stimmen, Ausgabenbremse erfüllt, `PendentBeiNeu = Erledigt`** (CDWS-Geschäftsdatenbank, primärquellen-
+verifiziert 24.08.2026; zwei unabhängige Sekundärquellen cash.ch/baublatt.ch vom 17.08.2026
+bestätigen Datum und Betrag). Die **60 Mio. CHF** (mit CO₂-Abgabe und Bundes-Impulsprogramm bis
+286 Mio. für 2026–2029) sind damit gesprochen, unter dem weiterhin geltenden Vorbehalt des
+Bundes-Entlastungspakets 2027 gegenüber den Bundesmitteln. **Praktisch heisst das für die
+Bauherrenberatung:** die zuvor begründete Sorge um eine Förderlücke im 2. Halbjahr 2026 entfällt;
+unverändert bleibt aber, dass innerhalb des laufenden Programms **«first come, first served»** gilt
+und eine Budgeterschöpfung nicht prominent publiziert wird — verbindlich Auskunft gibt nur
+**0800 93 93 93 / fördergesuche@bd.zh.ch**.
 
 **Keine Kombination mit KliK:** Fördergelder des Kantons ZH lassen sich **nicht** mit anderen
 Programmen (Stiftung KliK, Energie Zukunft Schweiz) oder einer laufenden
@@ -4492,6 +4495,14 @@ bleibt Quelle nur für den Preis (⚠ dort trägt die n50-Tabelle einen Bezugsgr
 Datenstand 2026-08-24 (Audit-Korrektur A-P2 02.1).
 
 ## F116 — Ist die Solarpflicht für Dächer über 300 m² im Kanton Zürich schon beschlossen?
+
+**Nachtrag 2026-08-24:** die hier behandelte Solarpflicht-Vorlage betrifft **KRNr 6062/6063**, nicht
+zu verwechseln mit dem unabhängigen Fördermittel-Geschäft **KRNr 6064** (Rahmenkredit
+2026-2029, ohne Solarpflicht-Bezug), das am 17.08.2026 bewilligt wurde → F7/
+`[[foerderung-energie-zh]]`. Die Bewilligung von 6064 präjudiziert 6062/6063 nicht (andere
+Rechtsgrundlage, andere Geschäftsart); erneute CDWS-Live-Abfrage 24.08.2026 bestätigt für 6062
+unverändert **PendentBeiNeu = Kommission**, einziger Ablaufschritt weiterhin «Antrag
+Regierungsrat» vom 26.11.2025 — der unten beschriebene Sachstand gilt fort.
 
 Nein. Der Regierungsrat hat der KEVU (Kommission für Energie, Verkehr und Umwelt) des Kantonsrats am
 26.11.2025 seinen Antrag zur Änderung des Energiegesetzes vorgelegt (**KRNr 6062** Solarpflicht +

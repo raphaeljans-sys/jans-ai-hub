@@ -1,3 +1,118 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung 03:06 Uhr: Filter-Lücke gefunden (fünfte übersehene Sektion), SN 641 400 vierter erfolgloser Web-Anlauf
+
+**Auftrag:** Weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG-Kopf und Report
+des letzten Laufs (02:54 Uhr) zuerst gelesen — der hatte den dritten identischen
+Verifikationsdurchlauf mit vier offenen Abschnitten gemeldet.
+
+**Kollisionscheck** (`ps aux`): eigener Prozess `mschub524` (PID 61165/61164/61156, exakt dieser
+Auftragstext) — eigener Lauf, kein Konkurrent. Parallel `mschub523` (KB `baurecht`, andere Datei)
+und `mschub522` (KB `energie`, eigene QUESTIONS.md). Kein Konflikt.
+
+**Befund:** Der bisherige Verifikationsfilter prüft nur die Überschriftzeile jedes `##`-Abschnitts
+auf einen Schliess-Marker. Eine Gegenprobe aller 58 Abschnitte deckte eine fünfte, in keinem der
+vier Vorläufer-Läufe erfasste offene Sektion auf: „Bring-Schulden aus der KB `baurecht`" (Zeile
+4415, Run 15, 25.07.2026) — 3 von 4 Checkbox-Punkten bereits mehrfach bearbeitet, aber ohne
+Schliess-Marker auf der Überschrift. Status konsolidiert: SIA 491 und SN EN 12193 bleiben
+kostenpflichtige Bring-Schulden Raphaels; SN 640 052 ist vollständig geklärt (ausser Kraft seit
+31.03.2019, Cross-KB-Vorbehalt in `baurecht` bereits gesetzt); SN 641 400 bleibt ungeklärt.
+
+**Vierter Anlauf SN 641 400:** `WebSearch` + `WebFetch` (ParkingSwiss-Normenübersicht,
+Wikipedia-Normenliste) fanden **keinen zitierfähigen Beleg** für eine Nachfolgenorm — die
+WebSearch-Synthese nannte ungeprüft SN 640281, aber keine geprüfte Quelle enthält „SN 641 400"
+überhaupt. Nach Rule `identifikatoren-verifizieren` **nicht** übernommen. Dritter Fetch-Versuch
+(VCS-Verkehrs-PDF) scheiterte an TLS-Zertifikatsfehler des Hosts. Bleibt Bring-Schuld Raphael
+(VSS-Kundendienst oder gedrucktes Normenverzeichnis, kein Web-Weg mehr offen).
+
+**Nachgeführt:** `wiki/QUESTIONS.md` Zeile 4415 mit Statusmarker versehen, Status-Zusammenfassung
+am Sektionsende ergänzt (rein additiv). Report:
+`outputs/2026-08-24_questions-abarbeitung-0306uhr.md`.
+
+**Verifikation:** `git diff --numstat -- wissen/normen/wiki/QUESTIONS.md`: 25/1 Zeilen, rein
+additiv bis auf die eine geänderte Überschriftzeile, kein bestehender Inhalt gelöscht. Kein
+`git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+## 2026-08-24 — SIA-Sweep, 33. Fortsetzung: vier Bring-Schuld-Kandidaten aus der 32. Fortsetzung erschlossen, grösserer Folge-Block entdeckt
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen, CHANGELOG-Pflicht). CHANGELOG-Kopf und Report des letzten
+SIA-Sweep-Laufs (32. Fortsetzung, `outputs/2026-08-24_sia-sweep-zweiunddreissigste-fortsetzung.md`)
+zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck** (`ps aux`) vor Arbeitsbeginn: eigener Prozess (Skript-Wrapper `mschub521`,
+exakt dieser Auftragstext, PID 54155). Parallel liefen `mschub519` (PID 53453, KB `normen`,
+QUESTIONS-Abarbeitung — andere Datei, kein Konflikt) und `mschub520` (PID 53891, KB
+`projekt-lessons`, fremdes Verzeichnis).
+
+**Ausgangslage geprüft:** Die 32. Fortsetzung hatte vier neue, kostenlose Bring-Schuld-
+Kandidaten aus dem Verweisnetz der neun Factsheets benannt: 33026.d (Arbeitsplattformnetze),
+33028.d (Seitenschutz mit Auffangnetzen), 44002.d (Sicherheit durch Anseilen), 67018.d
+(Checkliste Kleinarbeiten auf Dächern). `training/norm-inventar.md` unverändert bei 5 offenen
+kostenpflichtigen SIA/VKF-Bring-Schulden — kein Kaufentscheid seit der 32. Fortsetzung.
+
+## Durchgeführt: alle vier Kandidaten beschafft, gelesen, destilliert
+
+Beschaffungsweg identisch zur 32. Fortsetzung: `curl` auf `www.suva.ch/waswo/<Nr>.D` lieferte
+bei **allen vier** Publikationen erneut die HTML-Produktseite statt des PDFs (gleiche
+Werkzeug-Falle wie bei den neun Factsheets). Aus der HTML-Struktur (`<a>`-Tag mit Linktext „PDF
+Deutsch") den `sitecorecontenthub.cloud`-Downloadlink extrahiert, danach mit `pymupdf`
+Text/Metadaten gelesen. Alle vier PDF-Metadatentitel ohne Sprachsuffix (.f/.i) bestätigt.
+
+| Nr. | Titel | Ausgabe | Seiten | Kernwert |
+|---|---|---|---|---|
+| 33026.d | Arbeitsplattformnetze | Stand Februar 2022 | 2 | Klasse B1 (SN EN 1263-1), Maschenweite max. 45 mm, Höhendifferenz Netz/Tragstruktur max. 1,5 m, Neigung max. 20° |
+| 33028.d | Seitenschutz mit Auffangnetzen — Anforderungen | Stand Januar 2022 | 2 | Zwei Systeme (Drahtseil-Ersatz Netz-Oberkante 1,0 m / Netz ohne Drahtseil 1,5 m), Pfostenabstand max. 10 m |
+| 44002.d | Sicherheit durch Anseilen — Persönliche Absturzschutzausrüstung | Erstausgabe März 1989, überarb. Oktober 2025 | 36 | Fangstosskraftgrenze 6 kN, Rettungszeit Hängesyndrom 10-20 Min., drei PSAgA-Systemarten, vollständiger EN-Normenkatalog |
+| 67018.d | Checkliste Kleinarbeiten auf Dächern (bis 2 Personen-Tage) | Ausgabe Januar 2022 | 4 | 20-Fragen-Kontrollraster, Rettungszeit 20 Min. |
+
+**Nebenbefund:** 44002.d ist mit 36 Seiten eine vollständige Grundlagenbroschüre, kein
+Factsheet wie die übrigen Suva-Publikationen dieser KB — Destillat entsprechend umfangreicher
+angelegt (Kapitelstruktur statt Kernaussagen-Liste). Sie ist zugleich die zweitjüngste
+Suva-Publikation dieser KB (Oktober 2025, nach 67150.d Juli 2026).
+
+**Cross-Bestätigung Rettungszeit:** Der 10-20-Minuten-Wert aus 44002.d (Hängesyndrom) deckt
+sich mit dem bereits belegten 20-Minuten-Wert aus `suva-33029-2022-psaga-fassadengeruestbau`
+und `suva-67018-2022-checkliste-kleinarbeiten-daechern` — dieselbe Grenze erscheint konsistent
+in drei unabhängigen Suva-Publikationen dieser KB, kein Widerspruch.
+
+**Neuer, deutlich grösserer Bring-Schuld-Block entdeckt:** Das Publikationsverzeichnis von
+44002.d (Kap. 8) nennt ein breites Netz weiterer, in dieser KB noch unerschlossener Suva-Titel
+(33016.d, 33006.d, 33032.d, 33070.d, 33071.d, 33072.d, 33102.d/33103.d/33104.d, 44062.d,
+44095.d, 44096.d, 88816.d/84044.d, 67055.d, 67064/1.d + 67064/2.d, dazu EKAS-RL 2134/6512).
+Bewusst **nicht** in diesem Lauf verfolgt — der Umfang sprengt den bisherigen
+Vier-Kandidaten-Zuschnitt der letzten Fortsetzungen; vollständige Liste im Destillat
+`suva-44002-2025-sicherheit-durch-anseilen.md` unter „Offene Punkte" und in `wiki/REGISTER.md`
+Abschnitt D dokumentiert.
+
+## Nachgeführt
+
+- 4 neue Destillat-Dateien in `destillate/` (siehe Tabelle), alle Frontmatter mit `quelle`,
+  `herausgeber`, `ausgabe`, `gelesen`, `status: established`, `verifikation`-Vermerk inkl.
+  Werkzeug-Falle.
+- `destillate/INDEX.md`: 4 neue Zeilen nach der bestehenden `suva-33029`-Zeile.
+- `training/norm-inventar.md`: 1 neue Sammelzeile `[x] 260824` mit vollem Beleg, nach der
+  bestehenden Neun-Factsheets-Zeile.
+- `wiki/REGISTER.md` Abschnitt D: 4 neue Tabellenzeilen in der Suva-Publikationstabelle; der
+  bisherige Bring-Schuld-Absatz wurde durch einen ✅-Vermerk ersetzt, ergänzt um den neuen,
+  grösseren Bring-Schuld-Block aus dem Verweisnetz von 44002.d.
+
+## Offen für den nächsten Lauf
+
+1. **Grosser neuer Bring-Schuld-Block** (14 Suva-Titel + 2 EKAS-Richtlinien, siehe oben) —
+   direkte Fortsetzung dieser Mandatsausweitung; empfiehlt sich in mehreren kleineren
+   Fortsetzungen statt einem Lauf, gleiche HTML-Fallen-Route erwartbar.
+2. Danach unverändert: Raphaels Kaufentscheide zu den 5 kostenpflichtigen SIA/VKF-Bring-
+   Schulden, oder Rest-Check der übrigen bfu-Publikationen auf neuere Fassungen.
+
+## Verifikation
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: 4 neue Destillat-Dateien (`git status
+--porcelain`, alle `??` — kein Bestand überschrieben), `destillate/INDEX.md` 4/0,
+`training/norm-inventar.md` 1/0, `wiki/REGISTER.md` Block-Ersatz per Volltext-Diff geprüft,
+keine fremde Zeile berührt. Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt; Commit über
+den 15-Minuten-`nas-selfcommit`-Cron bzw. `scripts/nas-commit-now.sh`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung, Verifikationslauf 02:54 Uhr: dritte Bestätigung in Folge, keine neuen schliessbaren Punkte
 
 **Auftrag:** Weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG-Kopf und Report

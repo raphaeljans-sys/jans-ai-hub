@@ -3019,5 +3019,18 @@ Verschaerfend: der Regierungsrat datiert den Anschlussbedarf in seiner Mitteilun
 bis Jahresende**, und ein Foerdergesuch gehoert nicht ins 2. Halbjahr geschoben.
 **AKTION:** CDWS-Geschaeftsdatenbank (`parlzhcdws.cmicloud.ch`) abfragen, Befund in F7 und im
 Destillat `foerderprogramm-energie-zh-2026` nachtragen, die beiden abgehakten QUESTIONS-Eintraege
-wieder als offenen Beobachtungspunkt fuehren. | Qualitaets-Audit KB energie 23./24.08.2026,
-Befund 02.9 | Wissens-Layer energie | hoch | offen
+wieder als offenen Beobachtungspunkt fuehren.
+
+**ERLEDIGT 24.08.2026 (interaktive Session):** CDWS-Geschaeftsdatenbank live abgefragt
+(`parlzhcdws.cmicloud.ch/parlzh5/cdws/Index/GESCHAEFT/searchdetails?q=krnr%20any%206064&l=de-CH`) —
+dritter Ablaufschritt **«Zustimmung» am 17.08.2026, 172 Stimmen, Ausgabenbremse erfuellt**,
+`PendentBeiNeu = Erledigt`. Zwei unabhaengige Sekundaerquellen (cash.ch, baublatt.ch, je
+17.08.2026) bestaetigen Datum und Betrag. Der Rahmenkredit 2026-2029 (60 Mio. CHF Kanton) ist
+damit bewilligt, keine Foerderluecke im 2. Halbjahr 2026. Nachgetragen in
+`wissen/energie/destillate/foerderprogramm-energie-zh-2026.md` (Frontmatter + neuer Abschnitt),
+`wissen/energie/wiki/foerderung-energie-zh.md` (Kasten + Abgrenzungsabschnitt) und
+`wissen/energie/wiki/BAUHERREN-FAQ.md` (F7-Zeitfenster-Absatz, F116-Nachtrag zur Abgrenzung von
+6062/6063); `wiki/QUESTIONS.md` mit neuer `[x]`-Zeile nachgefuehrt. Kein weiterer Beobachtungs-
+bedarf zu 6064 selbst; 6062/6063 (Solarpflicht) bleiben unveraendert offen (F116) und sind ein
+separater Vorgang. | Qualitaets-Audit KB energie 23./24.08.2026,
+Befund 02.9; Aufloesung interaktive Session 24.08.2026 | Wissens-Layer energie | hoch | erledigt

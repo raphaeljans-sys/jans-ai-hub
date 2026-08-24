@@ -3,6 +3,38 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 (dreizehnte Fortsetzung) — Achter Folgeauftrag, identisch stale: Korpus bleibt abgeschlossen, kein weiterer Eintrag mehr geplant
+
+- **Getan:** Achter Fortsetzungsauftrag in Folge, wortgleich mit dem siebten (weiterhin
+  veralteter Zwischenstand «807 Positionen»/Verweis auf `projekt-triage2`). Vor jeder
+  Handlung Spec, diesen CHANGELOG (zwölfte Fortsetzung) und `KORPUS-QUEUE.md` gelesen.
+- **[Verifikation]** Eigene, unabhängige Nachzählung von
+  `skills/wissens-destillat/training/buero-projekte-inventar.md` (korrektes Zeilenmuster
+  `| [x] |` / `| [-] |` / `| [ ] |` / `| [t] |`, nicht `- [ ]`): 813 Sachzeilen, 56 `[x]`
+  destilliert, 757 `[-]` verworfen, 0 `[ ]` offen, 0 `[t]` hängend triagiert — unverändert
+  seit der neunten Fortsetzung. `KORPUS-QUEUE.md` führt den Korpus weiterhin als
+  **erledigt** (23.08.2026). Laufende `claude`-Prozesse geprüft (`ps aux | grep
+  buero-projekte`): einzig der eigene Lauf (`claude-run.sh --name mschub525`, PID 65803/
+  65810/65811) trägt diesen Auftragstext — kein Konkurrent.
+- **Kein Destillat-/Triage-Schritt, kein neuer Output-Report.** Nichts an der Faktenlage
+  hat sich seit der elften Fortsetzung verändert; eine erneute Vollprüfung ohne neues
+  Quellmaterial wäre reines Rauschen (Rule `wissens-bibliothekar`/`wissens-ruecklauf`:
+  kein Rücklauf ohne Beleg, nichts Verallgemeinerbares → nichts ablegen).
+- **Operativer Hinweis, nicht mehr nur Wiederholung:** Acht identische
+  Fortsetzungsaufträge in Folge (siebte bis dreizehnte Fortsetzung, alle mit demselben
+  veralteten Prompt-Text «807 Positionen»/`projekt-triage2`) deuten auf eine Quelle
+  ausserhalb dieses Repos (vermutlich ein am 23.08.2026 gestarteter, seither
+  wiederholt neu ausgelöster Vollschub-Lauf, siehe `logbuch/vollgas/RADAR.md`
+  16:20-Eintrag desselben Tages), die diesen Korpus mit einem statischen, nie
+  aktualisierten Auftragstext erneut anstösst. Eine Fundstelle für diesen Trigger
+  liess sich in `scripts/`, `logbuch/vollgas/` oder sonst im Repo nicht finden — die
+  Behebung liegt ausserhalb dieser Session. **Diese Session fügt bewusst keinen
+  weiteren CHANGELOG-Eintrag mehr hinzu, sollte derselbe stale Auftrag erneut
+  eintreffen** — die Faktenlage ist seit der zehnten Fortsetzung unveraendert und ein
+  neunter Bestätigungs-Eintrag ohne Erkenntnisgewinn wäre reine Buchhaltung. Echte
+  offene Arbeit liegt bei `buero-referenzen`/`archiv-fachwissen`
+  (Ziel-KB `wissen/architektur-fachwissen`, Spec dort jeweils noch offen).
+
 ## 2026-08-24 (zwölfte Fortsetzung) — Siebter Folgeauftrag ohne neuen Sachverhalt: keine weitere Prüfhandlung, nur diese Notiz
 
 - **Getan:** Siebter Fortsetzungsauftrag in Folge («Triage des Korpus `buero-projekte`

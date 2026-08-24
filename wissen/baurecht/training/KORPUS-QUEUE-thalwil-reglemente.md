@@ -440,6 +440,16 @@ LRV-Restlücke geschlossen.** **Nächster Schritt:** kein Fachpunkt mehr aus der
 frei für Health-Check-Aktionen (Phase 2, Umlaut-Ersatzschreibung) oder eine zweite
 Re-Verifikationsrunde.
 
+**Run 107 (2026-08-24, ausserhalb T1-T9):** Health-Check-Phase-2-Aktion Umlaut-Ersatzschreibung
+begonnen. Der Health-Check-Befund «~340 Treffer in 23/26 Artikeln» zählte blind; nach Maskierung
+von Wiki-Links, Backtick-Pfaden und `raw/`/`wissen/`/`buecher/`-Referenzen (die als Bezeichner
+absichtlich ASCII bleiben, Rule `dateinamen-konvention`) blieben **~20 echte Fliesstext-Stellen in
+8 Artikeln**, alle einzeln kontextgeprüft und korrigiert. Die B4/F2-Befunde (Frontmatter, defekte
+Backlinks, dekorative ✅) waren beim Nachprüfen bereits anderweitig behoben —
+`wiki-konsistenz.sh baurecht` meldet 0 Befunde. Ein Wort («zaegig») nicht geraten, sondern als
+offene Frage vermerkt. Report `outputs/2026-08-24_buch-run107.md`. **Nächster Schritt:** «zaegig»
+am zitierten Entscheid verifizieren, sonst Health-Check-Turnus oder zweite Re-Verifikationsrunde.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

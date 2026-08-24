@@ -821,6 +821,10 @@ Norm-Ausgabenlogik (kein Ausgabenblindzonen-Problem wie bei SIA); massgebend ist
 | Seitenschutz an Fassadengerüsten | 33024.d | Stand September 2022 | `suva-33024-2022-seitenschutz-fassadengeruest.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** Fassadenspezifische Vermassung nach SN EN 12811-1 Art. 5.5, doppeltes Innengeländer ab 2,0 m, Kabelbinder-Verbot |
 | Gerüstzugänge mit Treppen | 33025.d | Stand Januar 2022 | `suva-33025-2022-geruestzugaenge-treppen.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** Zugangsdistanz max. 25 m, Leiterverbot, Treppenklassen A/B, statische Mindestlasten (1,5 kN Einzellast/1,0 kN/m² Flächenlast) |
 | Persönliche Schutzausrüstung gegen Absturz (PSAgA) im Fassadengerüstbau | 33029.d | Stand Januar 2022 | `suva-33029-2022-psaga-fassadengeruestbau.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** TOP-Prinzip, Rettung innert 20 Min., Ausbildungspflicht mind. 1 Tag |
+| Arbeitsplattformnetze | 33026.d | Stand Februar 2022 | `suva-33026-2022-arbeitsplattformnetze.md`, established | **Neu 24.08.2026 (SIA-Sweep 33. Fortsetzung).** Klasse B1 nach SN EN 1263-1, Maschenweite max. 45 mm, Höhendifferenz Netz/Tragstruktur max. 1,5 m, Neigung max. 20° |
+| Seitenschutz mit Auffangnetzen — Anforderungen | 33028.d | Stand Januar 2022 | `suva-33028-2022-seitenschutz-mit-auffangnetzen.md`, established | **Neu 24.08.2026 (SIA-Sweep 33. Fortsetzung).** Zwei Systeme (Drahtseil-Ersatz 1,0 m bzw. Netz ohne Drahtseil 1,5 m Oberkante), Pfostenabstand max. 10 m; ergänzt Auffangschirme |
+| Sicherheit durch Anseilen — Persönliche Absturzschutzausrüstung | 44002.d | Erstausgabe März 1989, überarbeitete Ausgabe Oktober 2025 | `suva-44002-2025-sicherheit-durch-anseilen.md`, established | **Neu 24.08.2026 (SIA-Sweep 33. Fortsetzung).** ⚠ 36-seitige Grundlagenbroschüre, kein Factsheet. Fangstosskraftgrenze 6 kN, Rettungszeit Hängesyndrom 10-20 Min., drei PSAgA-Systemarten, vollständiger EN-Normenkatalog (17 Normen) |
+| Checkliste Kleinarbeiten auf Dächern (bis 2 Personen-Tage) | 67018.d | Ausgabe Januar 2022 | `suva-67018-2022-checkliste-kleinarbeiten-daechern.md`, established | **Neu 24.08.2026 (SIA-Sweep 33. Fortsetzung).** 20-Fragen-Kontrollraster; Rettungszeit 20 Min. deckt sich mit 33029.d/44002.d |
 
 ✅ **Alle fünf namentlich benannten Publikationen der Ziff.-5-Liste (44078.d, 44046.d, 84018.d,
 67038.d, 67150.d) sind mit dem 24.08.2026 (SIA-Sweep 31. Fortsetzung) erschlossen** —
@@ -829,11 +833,23 @@ eine Mandatsausweitung über SIA/VKF hinaus benannt hatte.
 
 ✅ **Auch die neun Factsheets 33001.d/33017.d/33020.d/33021.d/33022.d-33025.d/33029.d
 (Auffangnetze, Seitenschutz, Gerüstbeläge, Dachdeckerschutzwand, Dachfangwände, Gerüstzugänge,
-PSAgA) sind mit dem 24.08.2026 (SIA-Sweep 32. Fortsetzung) erschlossen.** Diese
-Publikationsreihe der Suva im Bereich Bau (Postfach, 6002 Luzern) ist damit vollständig
-destilliert. Neue Bring-Schuld-Kandidaten aus den Verweislisten der neun Factsheets: 33026.d
-(Arbeitsplattformnetze), 33028.d (Seitenschutz mit Auffangnetzen), 44002.d (Sicherheit durch
-Anseilen), 67018.d (Checkliste Kleinarbeiten auf Dächern) — alle kostenlos, alle kurz.
+PSAgA) sind mit dem 24.08.2026 (SIA-Sweep 32. Fortsetzung) erschlossen.**
+
+✅ **Auch die vier daraus abgeleiteten Bring-Schuld-Kandidaten 33026.d, 33028.d, 44002.d und
+67018.d sind mit dem 24.08.2026 (SIA-Sweep 33. Fortsetzung) erschlossen.** Damit ist die enge
+Fassadengerüst-/Auffangnetz-/Dach-Reihe dieser KB vollständig destilliert. **Neuer, deutlich
+grösserer Bring-Schuld-Block entdeckt** (Verweisnetz von 44002.d, Kap. 8): 33016.d (Arbeiten am
+hängenden Seil), 33006.d (Rigging Veranstaltungstechnik), 33032.d (Seilwurfsystem), 33070.d
+(Seilsicherung im steilen Gelände), 33071.d (Sicher arbeiten auf Bäumen), 33072.d (Arbeiten auf
+der Leiter an Bäumen), 33102.d/33103.d/33104.d (Ortsfeste Leitern Schächte/Gebäude/
+Maschinenanlagen), 44062.d (Sicheres Einsteigen in Schächten/Gruben/Kanälen), 44095.d
+(Solaranlagen-Montage), 44096.d (Anschlageinrichtungen auf Dächern), 88816.d/84044.d (Acht
+lebenswichtige Regeln, zwei Formate), 67055.d (Checkliste Ortsfeste Leitern), 67064/1.d +
+67064/2.d (Checkliste Hubarbeitsbühnen, zweiteilig) — alle vermutlich kostenlos, gleiche
+Beschaffungsroute; dazu zwei EKAS-Richtlinien (2134 Forstarbeiten, 6512 Arbeitsmittel), Status
+kostenpflichtig ungeprüft. Bewusst nicht in der 33. Fortsetzung verfolgt (Umfang sprengt den
+bisherigen Zuschnitt), Kandidatenliste vollständig im Destillat `suva-44002-2025-…md` unter
+„Offene Punkte".
 
 ---
 *Aufgebaut im Nacht-Loop `normen-training-nacht`, Run 1 (Sonderprogramm), 11.07.2026.

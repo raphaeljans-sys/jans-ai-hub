@@ -55,7 +55,7 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemäss.
 ## 3. Fristen (Teil 2)
 - Rechtsmittelfrist **30 Tage** (Stimmrechtssachen 5; § 22/§ 53 VRG), Abkürzung auf 5 Tage bei Dringlichkeit
   (§ 22 Abs. 3 VRG). Fristende auf Samstag/Sonntag/Ruhetag → nächster Werktag (§ 11 VRG).
-- **Kein Gerichtsferien-Stillstand** im Verwaltungs-/Rekursverfahren bei Gemeindebeschluessen (§ 71 VRG) —
+- **Kein Gerichtsferien-Stillstand** im Verwaltungs-/Rekursverfahren bei Gemeindebeschlüssen (§ 71 VRG) —
   eine echte Falle gegenüber dem Zivilprozess.
 - Gesetzliche Fristen nicht erstreckbar (§ 12 Abs. 1 VRG). Rekurs-/Beschwerdeantwort (Vernehmlassung)
   **30 Tage** (§ 26b Abs. 2 VRG; § 58 VRG verweist sinngemäss auf § 26b Abs. 2) — die Nicht-Erstreckbarkeit
@@ -70,7 +70,7 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemäss.
    abschliessenden, hier nicht einschlägigen Ausnahmekatalog), vorsorgliche Massnahme
    (faktisch aufschiebende Wirkung) auf Antrag einer Partei via **Art. 104 BGG** (amtlich
    verifiziert Buch-Run 102, 2026-08-23 — nicht Art. 103 selbst, s. Abschnitt 6c).
-2. **Ermittlung** — Schriftenwechsel (Vernehmlassung § 26b Abs. 1-3 VRG, Zustellung an die uebrigen
+2. **Ermittlung** — Schriftenwechsel (Vernehmlassung § 26b Abs. 1-3 VRG, Zustellung an die übrigen
    Verfahrensbeteiligten § 26b Abs. 4 VRG) + **Replikrecht** (Praxis/Rechtsprechung aus Art. 29 Abs. 2 BV
    i.V.m. der Zustellungspflicht nach § 26b Abs. 4 VRG, **kein eigener Gesetzeswortlaut** — amtlich
    korrigiert 2026-07-14, s. Abschnitt 6c; «unverzüglich» ~10 Tage); **Beiladung** (ersetzt keine
@@ -85,10 +85,10 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemäss.
 ## 5. Kosten & Entschädigung (Teil 2)
 - **Gerichtsgebühr** Baurekursgericht i.d.R. **500-50'000 Fr.** (Ø ~5'000; § 338 PBG), Streitinteresse =
   Bausumme (BEZ 2014 Nr. 36); BGer korrigiert Überhöhungen.
-- **Unterliegerprinzip** (§ 13 Abs. 2 VRG); bei Gutheissung Nachbarrekurs Kosten **je zur Haelfte** Bauherr/
+- **Unterliegerprinzip** (§ 13 Abs. 2 VRG); bei Gutheissung Nachbarrekurs Kosten **je zur Hälfte** Bauherr/
   Behörde (RB 2005 Nr. 12).
 - **Parteientschädigung** (§ 17 Abs. 2 VRG) nur angemessen, erfahrungsgemäss **~1'500-2'500 Fr.** (BEZ 2007
-  Nr. 56); **obsiegendes Gemeinwesen nur ausnahmsweise** (§ 17 Abs. 3 VRG). Verzoegerungs-Mehrkosten →
+  Nr. 56); **obsiegendes Gemeinwesen nur ausnahmsweise** (§ 17 Abs. 3 VRG). Verzögerungs-Mehrkosten →
   Schadenersatz nur bei rechtsmissbräuchlichem Rechtsmittel, Zivilgericht (§ 317/§ 339b PBG).
 - Unentgeltliche Rechtspflege (§ 16 VRG) juristischen Personen versagt; nicht für Baubewilligungswerber
   (BGer 1C_378/2012).
@@ -122,7 +122,7 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemäss.
   Untersuchung** (§ 9 Abs. 1 Satz 1 VRG). Die Verweigerung ist in den Akten zu **vermerken
   und zu begründen** (§ 9 Abs. 1 Satz 2 VRG). Der **wesentliche Inhalt** eines gesperrten
   Aktenstücks ist trotzdem mitzuteilen, soweit dies ohne Verletzung der zu schützenden
-  Interessen möglich ist; bei muendlicher Bekanntgabe ist ein Protokoll zu erstellen, das
+  Interessen möglich ist; bei mündlicher Bekanntgabe ist ein Protokoll zu erstellen, das
   der Einsicht-Verlangende unterzeichnet (§ 9 Abs. 2 VRG).
 - **Realakte (§ 10c VRG):** Wer ein schutzwürdiges Interesse hat, kann von der zuständigen
   Behörde bei Handlungen, die sich auf öffentliches Recht stützen und Rechte oder
@@ -205,7 +205,7 @@ Bislang war ausschliesslich die kantonale VRG/PBG-Ebene wortlautgeprüft (Run 32
 Bundesrechts-Zitate (BV, BGG, RPG, NHG, EMRK, ZPO) hatten noch nie einen Volltextabgleich. Frische
 Fedlex-Volltexte bezogen (Filestore-Muster, Rule `docs/referenz/fedlex-volltexte.md`): BV (SR 101, ELI
 `1999/404`, Stand 1.1.2024), BGG (SR 173.110, ELI `2006/218`, Stand 1.1.2025), RPG (SR 700, ELI
-`1979/1573_1573_1573`, Stand 1.7.2026), NHG (SR 451, ELI `1966/1637_1694_1679`, Stand 1.1.2022 — juengster
+`1979/1573_1573_1573`, Stand 1.7.2026), NHG (SR 451, ELI `1966/1637_1694_1679`, Stand 1.1.2022 — jüngster
 Fedlex-Snapshot über `www.fedlex.admin.ch`, 20220101 lieferte 503'394 Byte PDF gegenüber 204'952 Byte bei
 20200401), EMRK (SR 0.101, ELI `1974/2151_2151_2151`, Stand 16.9.2022), ZPO (SR 272, ELI `2010/262`, Stand
 1.1.2025).
@@ -215,7 +215,7 @@ Fedlex-Snapshot über `www.fedlex.admin.ch`, 20220101 lieferte 503'394 Byte PDF 
 - **Art. 82 lit. a BGG** (Zeile 39, Beschwerde in öff.-rechtl. Angelegenheiten): CONFIRMED — «Das
   Bundesgericht beurteilt Beschwerden: a. gegen Entscheide in Angelegenheiten des öffentlichen Rechts.»
 - **Art. 95 BGG** (Zeile 39, nur Bundesrechtsverletzung): CONFIRMED — «Mit der Beschwerde kann die Verletzung
-  geruegt werden von: a. Bundesrecht».
+  gerügt werden von: a. Bundesrecht».
 - **Art. 97 BGG** (Zeile 40, Sachverhalt nur bei Willkür): CONFIRMED im Ergebnis, Formulierung präzisiert —
   der amtliche Wortlaut spricht von «offensichtlich unrichtig[er]» Sachverhaltsfeststellung, nicht wörtlich
   von «Willkür»; nach konstanter Bundesgerichtspraxis (u. a. BGE 140 III 264 E. 2.3) ist «offensichtlich
@@ -240,7 +240,7 @@ Fedlex-Snapshot über `www.fedlex.admin.ch`, 20220101 lieferte 503'394 Byte PDF 
 - **Art. 29 Abs. 2 BV** (Zeile 71/158, Replikrecht-Grundlage): CONFIRMED wortwörtlich — «Die Parteien haben
   Anspruch auf rechtliches Gehör.»
 - **Art. 4 RPG** (Zeile 103, Mitwirkungsverfahren): CONFIRMED — Marginalie «Information und Mitwirkung»,
-  Abs. 2 «Sie sorgen dafür, dass die Bevoelkerung bei Planungen in geeigneter Weise mitwirken kann.»
+  Abs. 2 «Sie sorgen dafür, dass die Bevölkerung bei Planungen in geeigneter Weise mitwirken kann.»
 - **Art. 12 NHG** (Zeile 46, Verbandsbeschwerde bei Bundesaufgabe): CONFIRMED — Art. 12 steht systematisch im
   2. Abschnitt «Schutz der Heimat und der Landschaft ... bei Erfüllung von Bundesaufgaben» (Art. 2 ff. NHG);
   die Wiki-Einordnung «bei Bundesaufgabe» trifft die gesetzliche Systematik, nicht nur eine freie Interpretation.

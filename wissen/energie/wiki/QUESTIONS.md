@@ -4559,6 +4559,16 @@ die KB widerspricht sich selbst.
   ueber mehrere Laeufe desselben Tages — Nachpruefung im Interaktions-Nachlauf bestaetigt jeden
   Punkt am Bestand, keiner musste in diesem Lauf noch angefasst werden). Suche `Audit-Korrektur
   A-P2` in `wiki/` und `destillate/` fuer alle Fundstellen. Historische Zeile unten belassen.
+- [x] **02.9 KRNr 6064 — jetzt wirklich geprueft, nicht nur registriert.** Der vorige Lauf hatte
+  den verstrichenen Pruefstichtag 17.08.2026 nur nach `logbuch/fristen.md` eingetragen (Punkt
+  «in Warteschlange»), die CDWS-Abfrage selbst stand noch aus. Nachgeholt 24.08.2026: live gegen
+  `parlzhcdws.cmicloud.ch` geprueft, dritter Ablaufschritt **«Zustimmung» 17.08.2026, 172
+  Stimmen, Ausgabenbremse erfuellt**, `PendentBeiNeu = Erledigt`; zwei unabhaengige
+  Sekundaerquellen (cash.ch, baublatt.ch) bestaetigen Datum/Betrag. Der Rahmenkredit
+  2026-2029 ist bewilligt → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]`,
+  FAQ F7/F116, `logbuch/fristen.md` (Eintrag 24.08.2026 auf «erledigt» gesetzt). Damit ist
+  gleichzeitig die historische Zeile unten (Run 82/83, «Naechster Pruefpunkt: nach dem
+  17.08.2026 erneut abfragen») abgeschlossen.
 - [ ] **A-P2 (18 Punkte, Arbeitspapier Abschnitt 02): die Warteschlange fuer die naechsten
   Laeufe.** Je Punkt liegt die Korrektur im Wortlaut vor, mit Datei und Stelle. Reihenfolge nach
   Zahlfolge fuer die Bauherrschaft: 02.1 Blower-Door n50 gegen qE50 · 02.4 Indach-Aufschlag
@@ -4606,3 +4616,30 @@ die KB widerspricht sich selbst.
   geprueft-unbedenklicher Treffer gehoert mit einer Zeile Begruendung hierhin, damit ihn der
   naechste Lauf nicht erneut aufgreift. Der Waechter hat den verstrichenen Pruefstichtag vom
   17.08.2026 (Z. 1399/1439) selbstaendig gefunden — er funktioniert.
+- [x] **A-WERKZEUG, erste Teilabarbeitung (24.08.2026, interaktive Session): 121 + 66 Treffer neu
+  gezogen (Stand ist seit dem Audit gewachsen), Stichprobe geprueft, ein echter Fund behoben,
+  der verstrichene Pruefstichtag geschlossen — Rest bewusst nicht einzeln durchgegangen.**
+  **bezugsgroessen-check (121 Treffer):** rund drei Viertel sind derselbe Muster-Treffer
+  «THGE mit Zahlenwert» — das Script flaggt jede Zeile mit «THGE» + Zahl, auch wenn die
+  Bezugsgroesse (EBF) im selben Absatz oder in der unmittelbar folgenden Zeile steht (Beispiel:
+  jede der rund 90 THGE-Zeilen in `minergie-nachweiskurs-2023-mkz-thge.md`,
+  `minergie-produktreglement-2026-1-muken-vergleich.md`, `graue-energie.md` — das eigentliche
+  Bezugsgroessen-Problem war A-P1-1 und ist seit 23.08.2026 behoben). **Kein weiterer
+  Handlungsbedarf, false-positive-Muster fuer den naechsten Lauf benannt.** Die uebrigen rund 30
+  «Deckungsgrad»/«Autarkie»/Tabellen-Treffer einzeln gegen den Kontext gelesen (BAUHERREN-FAQ
+  Z. 823/3337/3433/8557/8737, INDEX Z. 24/74, QUESTIONS Z. 384/4085, `komfortlueftung.md`,
+  `pv-eigenverbrauch-zev.md`, `geak-normierung-berechnungsmethodik.md`,
+  `pv-ertrag-eigenverbrauch-praxis.md`, `vollzugsordner-energie-zh-abschnitt5.md`): alle tragen
+  die Bezugsgroesse bereits im Fliesstext (Produktion/Verbrauch bzw. Eigenverbrauch/Verbrauch
+  explizit benannt, «103 %» durchweg als widerlegter Fehlwert zitiert, nie als eigene Behauptung).
+  **Eine echte Luecke gefunden und behoben:** die Tabelle in
+  `[[heizsysteme-vollkostenvergleich-energieschweiz]]` trug die Nenner-Warnung noch nicht, die
+  ihre FAQ-Ableitung (F30, Audit-Korrektur A-P2 02.11) bereits hatte — nachgetragen 24.08.2026.
+  **datenstand-waechter (66 Treffer):** die beiden `QUESTIONS.md`-Pruefstichtag-Treffer (Z. 1408/
+  1448, KRNr 6064) sind jetzt real geprueft statt nur registriert (siehe Eintrag oben, 02.9). Die
+  **31 Themenartikel ohne Frontmatter-Feld `datenstand`** und die rund **30 Destillate mit
+  Alterskorpus-Datenstand ≥ 18 Monate** wurden NICHT einzeln bearbeitet — Stichproben zeigen, dass
+  die meisten ihr Alter bereits laut im eigenen `datenstand`-Feld tragen (⚠/⚠⚠/⚠⚠⚠-Markierungen),
+  die offene Frage ist, ob dieses Alter auch in der FAQ/den Themenartikeln ankommt, die daraus
+  zitieren — das ist die grossflaechige Registerarbeit, die 03.16 bereits als eigenen Lauf
+  benennt, kein Einzeleinsatz.

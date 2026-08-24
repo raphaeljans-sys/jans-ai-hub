@@ -5,7 +5,7 @@ ausgabe: Web-Story energieschweiz.ch (Vollkosten-Rechenbeispiel EFH); abgerufen 
 gelesen: 2026-07-03 (Vollkosten-Beispiel EFH Berner Gemeinde, alle 5 Systeme)
 datenstand: ⚠ 2026-07-03 abgerufen — Rechenbeispiel via «Heizkostenrechner»; Energiepreise/Foerderung volatil, keine Fachberatung
 status: established
-last_updated: 2026-07-03
+last_updated: 2026-08-24
 ---
 
 # Destillat — Vollkostenvergleich Heizsysteme EFH (EnergieSchweiz)
@@ -31,6 +31,14 @@ Beispiel: EFH mit alter Oelheizung (**2'400 l/Jahr** Verbrauch), Betrachtung ueb
 | **Pelletheizung** | CHF 34'000 | CHF 94'455 | CHF 5'052 |
 | **Fernwaerme-Anschluss** | CHF 20'500 | CHF 94'818 | CHF 4'940 |
 | **Oelheizung** | CHF 23'000 | CHF 96'409 | CHF 5'043 |
+
+⚠ **Die beiden rechten Spalten haben verschiedene Nenner und sind nicht ineinander umrechenbar**
+(Nachtrag 2026-08-24, `bezugsgroessen-check.py`-Kandidat, spiegelt die bereits in der
+FAQ-Ableitung F30 stehende Warnung, Audit-Korrektur A-P2 02.11, 24.08.2026). «Vollkosten 20 J»
+bezieht sich auf die gemeinsame 20-Jahre-Betrachtungsperiode des Rechenbeispiels; «pro
+Betriebsjahr» bezieht sich auf die **eigene Nutzungsdauer je System** (z.B. Erdsondenbohrung
+hält länger als 20 Jahre), nicht auf 20 Jahre — siehe Abschnitt «Zwei Rangfolgen, ein
+Gewinner-Feld» unten für die Herleitung.
 
 ## Wie die Zahlen zu lesen sind (wichtige Nuancen)
 - **Zwei Rangfolgen, ein Gewinner-Feld:** Ueber die **20-Jahre-Summe** ist die **Luft-Wasser-WP** am

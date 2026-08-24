@@ -26,7 +26,7 @@ Wohn-/Schlafräume brauchen Fenster, die kumulativ:
 - **ins Freie** führen,
 - **in ausreichendem Mass geöffnet** werden können (Belüftung; Fachstelle-Lärmschutz-Soll
   ~5 % der Bodenfläche),
-- mindestens **1/10 (10 %) der Bodenfläche** als aeusseres Lichtmass betragen.
+- mindestens **1/10 (10 %) der Bodenfläche** als äusseres Lichtmass betragen.
 
 Das 10-%-Mass ist **notwendig, aber nicht hinreichend**: Führt das Fenster nur in einen
 Lichtschacht (UG) oder ist der Luftraum verstellt, sind die Anforderungen trotz erfülltem Mass
@@ -46,7 +46,7 @@ interesse allein genügt nicht**.
 - Punktuelle Unterschreitung durch technisch bedingte Bauteile (Balken, Lüftungsrohre) zulässig.
 - **Dachräume:** Mindesthöhe muss über der **halben Bodenfläche** vorhanden sein; als
   «Bodenfläche» zählt dabei nur die Fläche mit Höhe **≥ 1,2 m**.
-- Grosse Belegung (Verkaufsgeschaefte, Begegnungsstätten, Räume mit grosser
+- Grosse Belegung (Verkaufsgeschäfte, Begegnungsstätten, Räume mit grosser
   Personenbelegung): statt fixer Höhe ein **bodenflächenabhängiger Rauminhalt** —
   **2,40 m³/m²** bis 200 m², **+ 0,002 m³ je zusätzlichem m²**, ab 500 m² konstant
   **3,0 m³/m²** (§ 10 Abs. 1 BBV II); die erforderliche mittlere Höhe muss über
@@ -58,11 +58,11 @@ interesse allein genügt nicht**.
   `raw/260607_amtlich_zh_bbv2.md` §§ 7/10/11).
 
 ### 4. Innere Erschliessung & Aufzug (§ 305 PBG, § 40 BBV I)
-- Haustuer Lichtmass **1 m**; Treppen/Gänge zu Aufenthaltsräumen **1,2 m** (EFH/wohnungsintern
+- Haustür Lichtmass **1 m**; Treppen/Gänge zu Aufenthaltsräumen **1,2 m** (EFH/wohnungsintern
   0,9 m).
 - **Aufzugspflicht:** ab **mehr als fünf** anrechenbaren Geschossen über/unter dem
   Eingangsgeschoss ein **krankentransporttauglicher** Aufzug (lichte Innenmasse ≥ **2,1 m × 1,1 m**,
-  Tuer ≥ 0,8 m); ab **mehr als neun** Geschossen zwei Aufzuege. ⚠ Der amtliche BBV-I-Volltext
+  Tür ≥ 0,8 m); ab **mehr als neun** Geschossen zwei Aufzüge. ⚠ Der amtliche BBV-I-Volltext
   trägt bei § 40 einen widersprüchlichen **Marginal-Titel** («Gebäude mit mehr als **sechs**
   Geschossen») gegenüber dem operativen Gesetzestext («mehr als **fünf** anrechenbare
   Geschosse»); massgebend ist der Gesetzestext, nicht die Randnotiz (Buch-Run 95, Fassungsstand
@@ -269,7 +269,7 @@ nach Art. 13 Abs. 3 LRV (2/3/4-Jahres-Rhythmus je nach Anlagetyp). Volle
 Verifikations-Details, Wortlaut Art. 6/13 LRV und Anhang 6 LRV siehe
 `raw/260713_amtlich_ch_lrv.md` und [[17-haustechnische-anlagen-teil3]].
 
-## Querbezuege
+## Querbezüge
 - Brandschutz/Fluchtwege (§ 305 Abs. 2 PBG, Detail S. 1340) → Skill `brandschutz` (kein
   Doppelaufbau).
 - Bestand/Umbau und Besitzstand → [[bestandsumbau-eingriffstiefe]].

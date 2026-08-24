@@ -370,7 +370,7 @@ im Hub abgelegt, nur Art. 20/29 zitiert). Korrigiert:
 **Befund.** Vollständiger Wortlautabgleich §§ 46a bis 52 BBV I gegen `raw/260607_amtlich_zh_bbv1.md`:
 **nur zwei Paragraphen im geprüfeten Bereich sind aufgehoben** — § 47 (bereits seit 1.10.1997,
 unabhängig von der 2021er-Novelle) und § 48 (per 1.9.2022, RRB 14.7.2021, Z. 908/Fn. 80). Alle
-uebrigen — §§ 47a-47n, 48a-48c, 49, 50, 51, 52 — sind geltendes Recht. Die EnerG-Novelle vom
+übrigen — §§ 47a-47n, 48a-48c, 49, 50, 51, 52 — sind geltendes Recht. Die EnerG-Novelle vom
 19.04.2021 (OS 77, 363, in Kraft 1.9.2022) änderte/ergänzte §§ 10a, 10c, 11 Abs. 1, 11a, 11b, 12,
 13 (aufgehoben), 13c, 13d, 14 Abs. 1.
 
@@ -2391,3 +2391,20 @@ Rechercheergebnis dieser KB, und ein Fremdlauf schreibt darin nicht herum.
 angefragten gegen tatsächlichen Pfad; ein `curl -L`-Statuscode kann diesen Fall nicht sehen).
 Anlass war der Fund, dass der Host `geoportal.zh.ch` abgeschaltet ist und **jeden** Pfad auf die
 Kantons-Startseite umleitet. Werkzeugbeschreibung: `wissen/tools/README.md`.
+
+## 2026-08-24 (Buch-Run 107, Health-Check-Nachtrag) — verdächtiges Wort «zaegig» in `bauausfuehrung-und-baukontrolle.md`, nicht korrigiert
+
+**Fundstelle:** `wiki/bauausfuehrung-und-baukontrolle.md` Zeile 81: «**Unterbruch** liegt vor bei
+längerem Stillstand — oder wenn so zaegig gebaut wird, dass die Bauzeit … in einem
+**Missverhältnis** zu Volumen/Aufgabe steht (VB.2014.00026; BEZ 2014 Nr. 46).»
+
+**Befund dieses Laufs (Umlaut-Ersatzschreibung-Sweep, Health-Check 24.08.2026):** «zaegig» ist
+keine erkennbare deutsche Ersatzschreibung. Eine reine ae→ä-Rückübersetzung ergäbe «zägig» —
+kein deutsches Wort. Mögliche gemeinte Wörter mit passendem Sinn («langsam/schleppend voran»):
+«zögerlich» oder «schleppend» — beide weichen aber lautlich/orthografisch stark vom Original ab,
+sodass eine Korrektur hier eine **inhaltliche Vermutung**, keine reine Orthografie-Korrektur
+wäre. Nicht angefasst (Rule `identifikatoren-verifizieren`/`nichts raten`).
+
+**Für einen künftigen Lauf:** die zitierten Entscheide (VB.2014.00026, BEZ 2014 Nr. 46) im
+Volltext beziehen (Baurekursgericht-ZH-Entscheiddatenbank, analog Buch-Run 104) und das
+tatsächlich verwendete Wort dort ablesen, statt zu raten.

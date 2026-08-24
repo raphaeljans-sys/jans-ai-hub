@@ -4412,7 +4412,7 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   sollten die Modalität ausdrücklich als Prüfpunkt führen: Kann-/Soll-/Muss-Bestimmung wörtlich am
   Original abgleichen und im Destillat kenntlich machen.
 
-## Bring-Schulden aus der KB `baurecht` (angemeldet Wissens-Chef Run 15, 25.07.2026)
+## Bring-Schulden aus der KB `baurecht` (angemeldet Wissens-Chef Run 15, 25.07.2026) ⚠ 3 VON 4 BRING-SCHULD RAPHAEL, 1 GESCHLOSSEN — kein weiterer Web-Anlauf sinnvoll
 
 Struktur-Muster 1 «Übergabe verpufft im abgebenden KB»: `baurecht` nennt vier Normen mit
 Fundstellenfunktion, die in dieser KB **null Präsenz** haben (weder Destillat noch
@@ -4518,6 +4518,30 @@ aus der Recht-KB hier angekommen.
 **Gegenrichtung, ebenfalls Run 15:** die hier geführte Bring-Schuld «Volltext SIA 380/1:2016
 beschaffen» (QUESTIONS `:558`) nennt als Adressaten nur `energie-berater`/`planungsgrundlagen` —
 `baurecht` führt SIA 380/1 jedoch ebenfalls und ist mit-adressiert.
+
+> ⚠ **STATUS-ZUSAMMENFASSUNG (nachgetragen 24.08.2026, QUESTIONS-Abarbeitung).** Diese Sektion
+> trug bisher keinen Schliess-Marker auf der Überschriftzeile und wurde deshalb von den
+> automatisierten Verifikationsläufen (00:19/00:22/02:42/02:54 Uhr) übersehen — sie fehlt in
+> deren Vier-Punkte-Liste, obwohl 3 der 4 Checkbox-Punkte bereits mehrfach bearbeitet sind.
+> Status je Punkt: **SIA 491** — nicht im Haus, kostenpflichtig (CHF 90.00, shop.sia.ch,
+> verifiziert 260729), Bring-Schuld Raphael. **SN EN 12193** — nicht im Haus, aktuell gültige
+> Ausgabe 2019 (nicht 2008), kostenpflichtig (CHF 134.00/115.00, connect.snv.ch), Bring-Schuld
+> Raphael. **SN 640 052** — ✅ vollständig geklärt: ausser Kraft seit 31.03.2019, Cross-KB-
+> Vorbehalt in `baurecht` bereits gesetzt (Commit `fd4ef28d`/`b1533e82`), kein weiterer
+> Handlungsbedarf. **SN 641 400** — weiterhin ungeklärt; heutiger erneuter Anlauf (WebSearch
+> „SN 641 400 VSS Norm Parkplatzberechnung Nachfolgenorm ersetzt durch“ + WebFetch auf die
+> ParkingSwiss-Übersicht `d_ParkingGuideline-05_V1.2025_Parkierungsnormen_2.pdf` und die
+> Wikipedia-Liste „Liste der Normen für das Strassen- und Verkehrswesen in der Schweiz“) fand
+> **keinen zitierfähigen Beleg**: die WebSearch-eigene Synthese nannte ungeprüft SN 640281 als
+> Nachfolgenorm, aber keine der drei gegengeprüften Quellen enthält „SN 641 400“ überhaupt
+> (ParkingSwiss-PDF grösstenteils bildbasiert/nicht durchsuchbar, Wikipedia-Liste führt die
+> Nummer gar nicht). **SN 640281 wird darum — wie zuvor SN 640290 — NICHT als Nachfolgenorm
+> übernommen**, dieselbe Zitiersperre wie im Absatz darüber gilt sinngemäss auch hier. Damit
+> vierter erfolgloser, aber dokumentierter Anlauf (23.08. Run-15-Nachtrag, 23.08. zweiter
+> Anlauf, 23.08. QUESTIONS-Abarbeitung 19, jetzt 24.08.): der Weg über VSS-Kundendienst bzw. ein
+> gedrucktes/älteres VSS-Normenverzeichnis mit Ablösungstabelle bleibt der einzig offene, aber
+> nicht per Web gangbare nächste Schritt. **Verbleibende Bring-Schulden Raphaels: SIA 491,
+> SN EN 12193 (beide Kauf), SN 641 400 (Herkunftsklärung ausserhalb Web).**
 
 ## Run 32 (MacBook Pro, 27.07.2026) — Verifikations-Vertiefung statt neuer Destillate
 

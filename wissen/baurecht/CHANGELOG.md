@@ -3,6 +3,63 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 107: Health-Check-Phase-2 (Umlaut-Ersatzschreibung) — der 340-Treffer-Befund zählte blind, maskiert blieben ~20 echte Stellen in 8 Artikeln
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterführen». CHANGELOG (bis Run 106)
+  und `training/KORPUS-QUEUE-thalwil-reglemente.md` gelesen: T1-T9, die Bundesrechts-
+  Re-Verifikationskette (Runs 90-103) und der LRV-Nachtrag (Run 106) sind laut eigenen
+  Abschlussvermerken vollständig. Run 106 benannte als nächsten Schritt die Health-Check-Aktionen
+  aus `outputs/2026-08-24_health-check.md` (Phase 2, unbeaufsichtigt bewusst nicht ausgeführt):
+  Top-Befund F1 «~340 ae/oe/ue-Treffer in 23/26 Artikeln», Top-Befund #2 (zwei liegen gebliebene
+  Frontmatter-/Backlink-Befunde), F2 (7 dekorative ✅ ausserhalb `QUESTIONS.md`). Vor dem ersten
+  Edit `ps aux` geprüft: nur der eigene Session-Prozess auf `wissen/baurecht/`, zwei fremde
+  Prozesse an `wissen/normen`/`wissen/energie` — kein Konflikt.
+- **B4/F2 bereits erledigt:** `wissen/tools/wiki-konsistenz.sh baurecht` meldete beim Nachprüfen
+  **0 Befunde** (nicht die im Health-Check genannten 4). `rechtsschutz-und-rechtsmittelverfahren.md`
+  führt bereits ein korrektes `title:`-Feld, `wohnhygiene-und-raumanforderungen.md` zitiert
+  `raw/260712_amtlich_zh_energ.md` bereits in Backticks (nicht `[[…]]`), die in `QUESTIONS.md`
+  gemeldeten zerrissenen Backlinks existieren nicht mehr, und **kein** Wiki-Artikel ausserhalb
+  `QUESTIONS.md` führt noch `✅`/`🟡`. Vermutlich zwischen Health-Check-Lauf (00:13) und diesem Lauf
+  durch einen anderen Run geschlossen — hier nur nachgewiesen und im Report vermerkt.
+- **F1 (Umlaut-Ersatzschreibung) neu vermessen statt blind übernommen.** Der Health-Check-Grep
+  zählte jedes ae/oe/ue-Wort, auch innerhalb von `[[Wiki-Link-Zielen]]`, Backtick-Dateipfaden und
+  `raw/`/`wissen/`/`buecher/`-Referenzen — genau diese Bezeichner müssen laut Rule
+  `dateinamen-konvention` ASCII bleiben (z.B. `[[abstaende-und-hoehen]]`, `[[zonenkonformitaet]]`,
+  Skill-Name `` `ankaufspruefung` ``, Destillat-Dateien wie `13-fahrzeugabstellplaetze-
+  spielflaechen-teil3`). Ein Python-Skript hat `[[…]]`, Backtick-Spans und Pfad-Referenzen maskiert
+  und die verbleibenden ae/oe/ue-Wortkandidaten (236 eindeutige Tokens aus dem gesamten
+  `wiki/*.md`-Bestand) einzeln klassifiziert: die überwältigende Mehrheit (Mauer-, Dauer-, Feuer-,
+  Quelle-, quer-, neu-, Frequenz-/Sequenz-/Konsequenz-Familie, `aktuell`/`manuell`/`individuell`/
+  `punktuell`/`visuell`, `zuerst`, `Raphael`, `oereb`) sind **bereits korrekt geschriebene** deutsche
+  Wörter, die nur zufällig die Buchstabenfolge ae/oe/ue enthalten (z.B. `Baueingabe` = Bau+Eingabe).
+  **Übrig blieben rund 20 echte ASCII-Ersatzschreibungen in 8 von 26 Artikeln**, jede einzeln am
+  Kontext geprüft und korrigiert: `Gemeindebeschluessen`→Gemeindebeschlüssen, `Bevoelkerung`→
+  Bevölkerung (Direktzitat Art. 4 Abs. 2 RPG), `Haelfte`→Hälfte, `Verzoegerungs`-Mehrkosten→
+  Verzögerungs-Mehrkosten, `muendlicher`→mündlicher, `geruegt`→gerügt, `juengster`→jüngster,
+  `aeusseres`→äusseres, `Verkaufsgeschaefte`→Verkaufsgeschäfte, `Haustuer`/`Tuer`/`Aufzuege`→
+  Haustür/Tür/Aufzüge, Überschrift `## Querbezuege`→`## Querbezüge`, `Sekundaerquelle(n)`→
+  Sekundärquelle(n) (2×), `Praemisse`→Prämisse, `uebrigen`→übrigen (5×, in
+  `ausnahmebewilligung-und-bestandesschutz.md`, `baureife-und-erschliessung.md`,
+  `raumplanung-und-gestaltung.md`, `rechtsschutz-und-rechtsmittelverfahren.md`, `QUESTIONS.md`),
+  `Ausschuesse`/`Uebrige`→Ausschüsse/Übrige.
+- **Ein Wort bewusst nicht korrigiert:** `bauausfuehrung-und-baukontrolle.md` Zeile 81 «so zaegig
+  gebaut wird» — keine erkennbare deutsche Ersatzschreibung (eine reine ae→ä-Rückübersetzung ergäbe
+  das Nicht-Wort «zägig»); eine Korrektur zu «zögerlich»/«schleppend» wäre eine inhaltliche
+  Vermutung, keine Orthografie-Korrektur. Als offene Frage in `wiki/QUESTIONS.md` vermerkt statt
+  geraten (Rule `identifikatoren-verifizieren`).
+- **In die KB eingearbeitet:** 8 Wiki-Artikel (`ausnahmebewilligung-und-bestandesschutz.md`,
+  `baubewilligungsverfahren.md`, `baureife-und-erschliessung.md`,
+  `fahrzeugabstellplaetze-und-parkierung.md`, `raumplanung-und-gestaltung.md`,
+  `rechtsschutz-und-rechtsmittelverfahren.md`, `wohnhygiene-und-raumanforderungen.md`,
+  `QUESTIONS.md`), `training/PROGRAMM.md` (Tracker-Eintrag Run 107),
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (Fortsetzungs-Absatz).
+- **Diff-Kontrolle (Rule `auto-verbesserungen` 260811):** `git status --short wissen/baurecht/`
+  vor dem ersten Edit gegen den bekannten Run-106-Rest geprüft. Nach jedem Schreibvorgang
+  `git diff --numstat` geprüft — jede Datei zeigt genau so viele +/- Zeilen wie beabsichtigte
+  Ersetzungen (1/1 bis 8/8), `git diff | grep "^[+-]"` bestätigt: jede geänderte Zeile trägt
+  ausschliesslich die gezielt korrigierte Ersatzschreibung, keine fremde Zeile berührt.
+- Report `outputs/2026-08-24_buch-run107.md`.
+
 ## 2026-08-24 — Buch-Run 106: Anhang 3 LRV Ziff. 4 ff. gelesen — die seit 13.07.2026 offene Frage nach der «Herstellerkonformität kleiner Feuerungen» beruhte auf einer falschen Prämisse
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterführen». CHANGELOG und

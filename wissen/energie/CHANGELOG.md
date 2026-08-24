@@ -1,5 +1,52 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: A-WERKZEUG-Ersttranche + KRNr 6064 real geprueft (nicht nur registriert)
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an die heutige Session
+«Pruefwarteschlange A-P3 fortgesetzt». Deren letzter offener Punkt (03.16) verwies auf die
+Trefferlisten der zwei neuen Pruefwerkzeuge (`wissen/tools/bezugsgroessen-check.py`,
+`wissen/tools/datenstand-waechter.py`) als naechsten sinnvollen Schritt — dort angesetzt.
+
+**Kern des Laufs: der verstrichene Pruefstichtag 17.08.2026 (KRNr 6064, Rahmenkredit
+Foerderprogramm Energie ZH 2026-2029) ist jetzt tatsaechlich geprueft**, nicht nur in
+`logbuch/fristen.md` als offener Punkt vermerkt (das hatte der vorige Lauf bereits getan, ohne
+die CDWS-Abfrage selbst nachzuholen). Live-Abfrage der CDWS-Geschaeftsdatenbank Kantonsrat ZH:
+dritter Ablaufschritt **«Zustimmung» am 17.08.2026, 172 Stimmen, Ausgabenbremse erfuellt**,
+`PendentBeiNeu = Erledigt`. Zwei unabhaengige Sekundaerquellen (cash.ch, baublatt.ch, je
+17.08.2026) bestaetigen Datum und Betrag. Der Rahmenkredit 2026-2029 (60 Mio. CHF Kanton, mit
+CO₂-Abgabe/Bundes-Impulsprogramm bis 286 Mio. fuer 2026-2029) ist bewilligt — die zuvor
+begruendete Sorge um eine Foerderluecke im 2. Halbjahr 2026 entfaellt. Nachgetragen in
+`destillate/foerderprogramm-energie-zh-2026.md` (Frontmatter + neuer Abschnitt),
+`wiki/foerderung-energie-zh.md` (Kasten + Abgrenzung zu KRNr 6062/6063), `wiki/BAUHERREN-FAQ.md`
+(F7-Zeitfenster-Absatz neu formuliert, F116-Nachtrag zur Unabhaengigkeit von 6062/6063) und
+`logbuch/fristen.md` (Eintrag auf Status «erledigt»). Zur Gegenprobe auch KRNr 6062
+(Solarpflicht-Vorlage) erneut live abgefragt: unveraendert bei der Kommission, kein neuer
+Ablaufschritt seit 26.11.2025 — die Bewilligung von 6064 praejudiziert 6062/6063 nicht.
+
+**A-WERKZEUG-Ersttranche:** beide Werkzeuge frisch laufen lassen (121 bzw. 66 Treffer, seit dem
+Audit vom 23.08.2026 leicht gewachsen). Rund drei Viertel der `bezugsgroessen-check`-Treffer sind
+ein einziges Falsch-Positiv-Muster (jede «THGE»-Zeile mit Zahl wird geflaggt, auch wenn die
+Bezugsgroesse EBF im selben Absatz steht) — als solches benannt, kein Handlungsbedarf. Die
+uebrigen rund 30 Deckungsgrad-/Autarkie-/Tabellen-Treffer einzeln gegen den Kontext gelesen: alle
+bis auf einen tragen ihre Bezugsgroesse bereits im Fliesstext. **Eine echte Luecke gefunden und
+behoben:** `destillate/heizsysteme-vollkostenvergleich-energieschweiz.md` trug die
+Nenner-Warnung («20-Jahre-Summe» gegen «pro Betriebsjahr» sind nicht derselbe Nenner) noch nicht,
+obwohl die daraus abgeleitete FAQ-Tabelle (F30) sie seit der Audit-Korrektur A-P2 02.11 bereits
+hat — nachgetragen, Quelle bleibt established. Die 31 Themenartikel ohne Frontmatter-Feld
+`datenstand` und die rund 30 Alterskorpus-Destillate aus `datenstand-waechter` wurden bewusst
+NICHT einzeln bearbeitet: das ist die grossflaechige Registerarbeit, die Punkt 03.16 bereits als
+eigenen Lauf benennt, kein Einzeleinsatz in einer interaktiven Session.
+
+Alle Schreibvorgaenge mit `git diff --numstat` geprueft (nativer SSD-Klon, Rule
+`sync-kanonische-quelle`): `logbuch/fristen.md` +15/-2, `destillate/heizsysteme-vollkostenvergleich-
+energieschweiz.md` +9/-1, `wiki/BAUHERREN-FAQ.md` +25/-14, `wiki/QUESTIONS.md` +47/-0,
+`wiki/foerderung-energie-zh.md` +9/-6 — jede Loeschung ist die erwartete Ersetzung der eigenen
+vorherigen Formulierung (Zeitfenster-Absatz F7, Abgrenzungsabsatz), keine fremde Kuerzung.
+`destillate/foerderprogramm-energie-zh-2026.md` war bereits durch den 15-Min-`nas-selfcommit`
+gesichert, bevor der Diff gemessen wurde (Commit `fef9a795`) — Inhalt am committeten Stand
+verifiziert, kein Datenverlust. Register (QUESTIONS: A-P3 02.9 neu `[x]`, A-WERKZEUG-Zeile neu
+`[x]`) nachgefuehrt.
+
 ## 2026-08-24 — Interaktive Session: Pruefwarteschlange A-P3 fortgesetzt (7 von 8 restlichen P2/P3-Punkten)
 
 Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an den Qualitaets-Audit
