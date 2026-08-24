@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 20:14:06
+Stand: 24.08.2026 20:24:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 24.08.2026 20:14:06
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 52153ce4 Fristen-Register: Nachtrag Tenant-Speicher 24.08.2026 (83.15%, Restlaufzeit 25 Tage, 480 MB je Version)
+- 3eddd6db nas-selfcommit: 1 Datei(en) 2026-08-24 20:15
