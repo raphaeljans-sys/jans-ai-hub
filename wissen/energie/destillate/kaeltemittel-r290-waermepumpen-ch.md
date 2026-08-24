@@ -1,11 +1,11 @@
 ---
-quelle: BAFU «Stand der Technik stationäre Anlagen mit in der Luft stabilen Kältemitteln» (Stand 1.1.2026) + BAFU «Grafische Zusammenfassung der Regelungen zum Inverkehrbringen stationärer Anlagen mit Kältemitteln» (Stand Mai 2026); ChemRRV Anhang 2.10 (SR 814.81), revidiert Bundesratsbeschluss 29.10.2025 (AS 2025 747) — Volltext konsolidierter Stand 1.1.2027 direkt bei fedlex.data.admin.ch gelesen (24.08.2026); suissetec Merkblatt HEIZ241 (Januar 2026); SVK-Merkblatt A3/A2L (Juli 2025)
-herausgeber: BAFU (Bundesamt für Umwelt) / suissetec / SVK ASF ATF / Bundeskanzlei (Fedlex)
-ausgabe: Web-Recherche, amtliche PDFs direkt heruntergeladen und per pdftotext bzw. PyPDF2 im Volltext ausgewertet
-gelesen: 2026-07-14 (Run 66); ChemRRV Anhang 2.10 Volltext 2026-08-24 (interaktive Session, A-BLIND)
-datenstand: Stand 1.1.2026 (BAFU «Stand der Technik») bzw. Mai 2026 (BAFU Inverkehrbringen-Grafik); ChemRRV konsolidierter Stand 1.1.2027 (Snapshot fedlex.data.admin.ch, enthält die per 29.10.2025 beschlossene Revision)
+quelle: BAFU «Stand der Technik stationäre Anlagen mit in der Luft stabilen Kältemitteln» (Stand 1.1.2026) + BAFU «Grafische Zusammenfassung der Regelungen zum Inverkehrbringen stationärer Anlagen mit Kältemitteln» (Stand Mai 2026); ChemRRV Anhang 2.10 (SR 814.81), revidiert Bundesratsbeschluss 29.10.2025 (AS 2025 747) — Volltext konsolidierter Stand 1.1.2027 direkt bei fedlex.data.admin.ch gelesen (24.08.2026); suissetec Merkblatt HEIZ241 (Januar 2026); SVK-Merkblatt A3/A2L (Juli 2025); FWS «Wärmepumpen Marktentwicklung Schweiz 2025/Q4 und Gesamtauswertung 2025» (fws.ch, 19.01.2026, 23 S.) + FWS «Statistik 2023» (fws.ch, 16.04.2024, 7 S.), beide vollständig per PyMuPDF gelesen (24.08.2026)
+herausgeber: BAFU (Bundesamt für Umwelt) / suissetec / SVK ASF ATF / Bundeskanzlei (Fedlex) / FWS (Fachvereinigung Wärmepumpen Schweiz)
+ausgabe: Web-Recherche, amtliche PDFs direkt heruntergeladen und per pdftotext bzw. PyPDF2/PyMuPDF im Volltext ausgewertet
+gelesen: 2026-07-14 (Run 66); ChemRRV Anhang 2.10 Volltext 2026-08-24 (interaktive Session, A-BLIND); FWS-Marktstatistik-Volltexte 2026-08-24 (Fortsetzung)
+datenstand: Stand 1.1.2026 (BAFU «Stand der Technik») bzw. Mai 2026 (BAFU Inverkehrbringen-Grafik); ChemRRV konsolidierter Stand 1.1.2027 (Snapshot fedlex.data.admin.ch, enthält die per 29.10.2025 beschlossene Revision); FWS-Marktdaten Stand 19.01.2026 (Q4/Gesamtjahr 2025) bzw. 16.04.2024 (Jahresstatistik 2023, letzte mit Leistungsklassen-Detail)
 status: established (regulatorische Kernaussagen jetzt am ChemRRV-Verordnungstext selbst verifiziert, nicht mehr nur über BAFU-Sekundärgrafiken; Effizienzvergleich seit Run 67 über EnergieSchweiz/BAFU-Kältemittel-Fibel teilweise belegt, CHF-Kostenvergleich weiterhin unbelegt — deshalb Detailpunkte im Abschnitt „Kosten-/Effizienzvergleich" unverändert als offen markiert)
-last_updated: 2026-08-24 (A-BLIND-Primärquellenverifikation, Fortsetzung des Fokus auf 18-29-Backlink-Kandidaten)
+last_updated: 2026-08-24 (Fortsetzung: FWS-Marktstatistik-PDFs primärquellenseitig auf Kältemittel-Aufschlüsselung geprüft, bestätigter Negativbefund)
 ---
 
 # Kältemittel R290 (Propan) bei Wärmepumpen — Regulatorik, Brandschutz, Bauherren-Wahl
@@ -113,12 +113,22 @@ Füllmengen- und Aufstellungsgrenzen, während Bestandsanlagen vollen Bestandssc
   Kälteleistung R290 = 2750 kJ/m³ (deutlich niedriger als R32 5300/R410A 4600 kJ/m³ → grössere
   Komponenten nötig, aber laut Fibel keine zwingende Effizienzaussage). Konkrete **SCOP/JAZ-
   Vergleichszahlen speziell für den Heizbetrieb** aus CH-amtlicher Quelle: nicht gefunden.
-- **Marktverfügbarkeit CH 2025/2026:** kein quantifizierter Marktanteil (%) auffindbar (FWS-
-  Statistikseite ohne Kältemittel-Aufschlüsselung). Bereits mehrere Hersteller im CH-Markt aktiv:
-  Alpha Innotec, Ochsner, Wolf, Heim AG (CH-Hersteller), Panasonic Aquarea (Vertrieb Meier Tobler) —
-  Herstellerangaben, keine amtliche Zusammenstellung. Kontext (sekundär über phase5.ch/20min.ch, nicht
-  primärquellen-geprüft): CH-Wärmepumpen-Absatz sank von 43'150 Einheiten (2023) auf ca. 30'000
-  (2024/2025), als ein Faktor wird die Kältemittel-Umstellungsunsicherheit genannt.
+- **Marktverfügbarkeit CH 2025/2026:** kein quantifizierter Marktanteil (%) auffindbar. **Negativbefund
+  jetzt primärquellenseitig bestätigt (24.08.2026):** die beiden aktuellsten FWS-Marktpublikationen im
+  Volltext gelesen — «Wärmepumpen Marktentwicklung Schweiz 2025/Q4 und Gesamtauswertung 2025»
+  (19.01.2026, 23 S.) und die letzte klassische Jahresstatistik «Statistik 2023» (16.04.2024, 7 S.,
+  danach durch das Quartalsformat abgelöst). Beide gliedern die Verkaufszahlen ausschliesslich nach
+  **Bauart** (Luft/Wasser innen/aussen, Split, Sole/Wasser, Wasser/Wasser, Luft/Luft),
+  **Leistungsklasse (kW)** und **Energiequelle/Wärmeerzeuger-Typ** (Wärmepumpe vs. Öl/Gas/Holz/Solar) —
+  eine Kältemittel-Dimension (R290/R32/R410A) kommt in der FWS-Statistikstruktur **an keiner Stelle**
+  vor, weder in der Jahres- noch in der Quartalsauswertung. Die FWS-Rohdaten sind damit nicht nur
+  „nicht ausgewertet", sondern erfassen die gesuchte Grösse gar nicht — der Weg ist erschöpft, nicht nur
+  ungeprüft. (Nebenbefund, nicht Gegenstand dieses Punkts: FWS beziffert den WP-Gesamtabsatz 2025 mit
+  −1 % ggü. 2024, Marktanteil WP an allen verkauften Wärmeerzeugern ohne Solar 59 %.) Bereits mehrere
+  Hersteller im CH-Markt aktiv: Alpha Innotec, Ochsner, Wolf, Heim AG (CH-Hersteller), Panasonic Aquarea
+  (Vertrieb Meier Tobler) — Herstellerangaben, keine amtliche Zusammenstellung. Kontext (sekundär über
+  phase5.ch/20min.ch, nicht primärquellen-geprüft): CH-Wärmepumpen-Absatz sank von 43'150 Einheiten
+  (2023) auf ca. 30'000 (2024/2025), als ein Faktor wird die Kältemittel-Umstellungsunsicherheit genannt.
 - **Praktische Konsequenz Brandschutz (gut belegt über suissetec HEIZ241 + BAFU-Grafik):** Die
   unbedenkliche Füllmenge (0,15 kg A3) wird von haustypischen Luft/Wasser-WP im EFH/MFH-Bereich
   praktisch immer überschritten → Innenaufstellung eines klassischen Monoblocks ist bei relevanten
@@ -161,8 +171,11 @@ nicht belastbar belegen (siehe unten) — nur ungeprüfte Marketing-/Vergleichsp
 - SCOP-/JAZ-Vergleichswerte R290 vs. R32/R410A **speziell für den Heizbetrieb**: Kältemittel-Fibel
   (Run 67) liefert nur EER-Werte für Klimakälte, keine Heizbetrieb-Zahlen aus CH-Primärquelle — bleibt
   offen.
-- Quantifizierter CH-Marktanteil R290 an WP-Neuinstallationen 2025/2026: nicht gefunden (FWS-Rohdaten
-  müssten dafür ausgewertet werden).
+- ~~Quantifizierter CH-Marktanteil R290 an WP-Neuinstallationen 2025/2026: nicht gefunden (FWS-Rohdaten
+  müssten dafür ausgewertet werden).~~ **GESCHLOSSEN 24.08.2026 (Negativbefund primärquellenseitig
+  bestätigt):** die FWS-Statistikstruktur (Jahres- und Quartalsberichte) kennt keine
+  Kältemittel-Dimension, siehe Abschnitt «Marktverfügbarkeit CH 2025/2026» oben. Ein Marktanteil lässt
+  sich aus FWS-Daten grundsätzlich nicht ermitteln, unabhängig vom Aufwand.
 - Konkretes kg-Propan-pro-kW-Heizleistungs-Verhältnis für marktübliche CH-Luft/Wasser-Geräte: fehlt,
   würde die Innenaufstellungs-Schwelle in kW statt nur kg ausdrücken.
 - ~~Bestandsschutz-Wortlaut nicht direkt aus dem ChemRRV-Verordnungstext geprüft~~ **GESCHLOSSEN
@@ -201,4 +214,9 @@ nicht belastbar belegen (siehe unten) — nur ungeprüfte Marketing-/Vergleichsp
   FWS/GebäudeKlima Schweiz/ProKlima/suissetec/SVK), `pubdb.bfe.admin.ch/de/publication/download/8710`
   (Run 67, PDF gelesen).
 - Gebäudetechnik.ch «Die Zukunft gehört Propan-Wärmepumpen», 30.07.2025 (Run 67).
+- FWS (Fachvereinigung Wärmepumpen Schweiz) «Wärmepumpen Marktentwicklung Schweiz 2025/Q4 und
+  Gesamtauswertung 2025», 19.01.2026, 23 S. (fws.ch/download/marktentwicklung-q4-2025/, PDF vollständig
+  per PyMuPDF gelesen, 24.08.2026).
+- FWS «Statistik 2023», 16.04.2024, 7 S. (fws.ch/download/statistik-2023/, PDF vollständig per PyMuPDF
+  gelesen, 24.08.2026).
 - Web-Quellen, abgerufen im Rahmen dieser Recherche (2026-07-14).

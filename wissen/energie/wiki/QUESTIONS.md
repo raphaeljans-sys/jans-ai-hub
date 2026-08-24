@@ -6407,3 +6407,51 @@ Doppelarbeit wie hier (acht von 16 Kandidaten waren bereits erledigt). Inhaltlic
 blockiert: E-R230-2 (Raphael vorzulegen), 393/394 (beide bildbasiert, OCR-Werkzeug nötig), SIA
 380/1:2016 (Normkauf). Nächster sinnvoller Einstieg: die verbleibenden ~20 der 39 Backlink-Kandidaten
 im A-BLIND-Bestand (siehe h-Lauf-Liste) oder die Prüfwarteschlange vom 23.08.2026-Audit.
+
+## 2026-08-24k — A-BLIND: `kaeltemittel-r290-waermepumpen-ch` (29 Backlinks) — CH-Marktanteil R290 an FWS-Primärquelle bestätigter Negativbefund
+
+Anschluss an die h-Lauf-Liste («Nächste Kandidaten … `kaeltemittel-r290-waermepumpen-ch` (29,
+CHF-Mehrkosten/SCOP-Heizbetrieb-Werte R290 weiterhin ohne Quelle — evtl. FWS-Rohdaten prüfen)»).
+**Betriebslage:** `ps aux` zeigte beim Start nur den eigenen Prozess (`54548`), keinen weiteren
+parallelen `claude -p`-Lauf zu dieser KB — keine Kollisionsgefahr. NAS weiterhin nicht gemountet,
+`wissen/energie/` unbetroffen (lokal git-getrackt).
+
+Der offene Punkt «Quantifizierter CH-Marktanteil R290 an WP-Neuinstallationen 2025/2026: nicht
+gefunden (FWS-Rohdaten müssten dafür ausgewertet werden)» war bislang nur über die FWS-Webseite
+(Metadaten/Downloadliste) geprüft, nie über die tatsächlichen Statistik-PDFs. Beide aktuellsten
+FWS-Publikationen direkt heruntergeladen (`fws.ch/download/marktentwicklung-q4-2025/` und
+`fws.ch/download/statistik-2023/`, korrekte `wpdmdl`-Parameter aus dem HTML der Statistikseite
+extrahiert, da der Direktlink ohne Parameter nur eine HTML-Zwischenseite liefert) und per PyMuPDF
+im Volltext gelesen: «Wärmepumpen Marktentwicklung Schweiz 2025/Q4 und Gesamtauswertung 2025»
+(19.01.2026, 23 S.) sowie «Statistik 2023» (16.04.2024, 7 S., letzte Jahresstatistik vor Umstellung
+auf Quartalsformat).
+
+**Befund:** beide Publikationen gliedern die Verkaufszahlen ausschliesslich nach Bauart
+(Luft/Wasser innen/aussen, Split, Sole/Wasser, Wasser/Wasser, Luft/Luft), Leistungsklasse (kW) und
+Energiequelle/Wärmeerzeuger-Typ — eine Kältemittel-Dimension (R290/R32/R410A) existiert in der
+FWS-Statistikstruktur an keiner Stelle, weder jährlich noch quartalsweise. Der Negativbefund ist
+damit nicht mehr nur „nicht geprüft", sondern primärquellenseitig bestätigt: die gesuchte Grösse
+wird von FWS gar nicht erhoben, der Weg ist strukturell erschöpft. Eingearbeitet in
+`destillate/kaeltemittel-r290-waermepumpen-ch.md` (Abschnitt «Marktverfügbarkeit CH 2025/2026» +
+Offene-Punkte-Liste, Punkt jetzt geschlossen), `destillate/INDEX.md` (Statuszeile ergänzt).
+
+**Nicht Gegenstand dieses Punkts, aber am Original mitgelesen (Nebenbefund):** FWS beziffert den
+CH-Wärmepumpen-Gesamtabsatz 2025 mit −1 % ggü. 2024 (Marktanteil WP an allen verkauften
+Wärmeerzeugern ohne Solar 59 %) — deutlich moderater als die bisher nur sekundärquellenbasiert
+zitierte Zahl «43'150 → ca. 30'000 Einheiten» im selben Destillat; beide Zahlen bleiben
+nebeneinander stehen (unterschiedliche Zeiträume/Quellenebenen, kein direkter Widerspruch geprüft),
+nicht Teil dieser Prüfung.
+
+**Weiterhin offen aus demselben Destillat** (unverändert, nicht Gegenstand dieses Laufs): konkrete
+CHF-Mehrkosten R290 vs. R410A/R32, SCOP-/JAZ-Vergleichswerte speziell für den Heizbetrieb, kg-Propan-
+pro-kW-Verhältnis marktüblicher CH-Geräte, Marktverfügbarkeit für MFH-Anlagen > 12 kW — für keinen
+dieser Punkte existiert eine erkennbare amtliche CH-Quelle, kein neuer Rechercheansatz identifiziert.
+
+`git diff --numstat` nach dem Schreibvorgang geprüft: `destillate/kaeltemittel-r290-waermepumpen-ch.md`
++32/-14, `destillate/INDEX.md` +1/-1, dieser Eintrag additiv — keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand — von 39 Backlink-Kandidaten sind jetzt 10 einzeln
+geprüft, rund 29 verbleiben; nächste Kandidaten aus der h-Lauf-Liste: `minergie-zertifizierung-
+workflow` (23, noch ungeprüft) und `ecobkp-2026-methodik-und-uebersicht` (24, mehrere kleinere
+Merkblatt-Lücken laut h-Lauf). Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug),
+SIA 380/1:2016 (Normkauf).

@@ -1,5 +1,38 @@
 # CHANGELOG
 
+## 2026-08-24k — A-BLIND: `kaeltemittel-r290-waermepumpen-ch` — CH-Marktanteil R290 an FWS-Primärquelle bestätigter Negativbefund
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** NAS zu Laufbeginn nicht gemountet
+(`wissen/energie/` lokal git-getrackt, unbetroffen); `ps aux` zeigte nur den eigenen Prozess, keinen
+parallelen Sibling-Lauf zu dieser KB.
+
+Gelesen: CHANGELOG-Eintrag j (Abschluss der A-WERKZEUG-Alterskorpus-Liste, Empfehlung «nächster
+Einstieg: verbleibende A-BLIND-Backlink-Kandidaten aus der h-Lauf-Liste») und `wiki/QUESTIONS.md`
+bis zum aktuellen Stand. Aufgenommen: `kaeltemittel-r290-waermepumpen-ch` (29 Backlinks), von
+Run h explizit mit Recherchehinweis «evtl. FWS-Rohdaten prüfen» benannt.
+
+**Fund:** die FWS-Statistikseite selbst war schon geprüft, nie aber die tatsächlichen PDF-Daten.
+Zwei aktuellste FWS-Publikationen heruntergeladen (`fws.ch/download/marktentwicklung-q4-2025/`,
+`fws.ch/download/statistik-2023/`) und per PyMuPDF vollständig gelesen. Ergebnis: die
+FWS-Statistikstruktur (Jahres- wie Quartalsberichte) gliedert ausschliesslich nach Bauart,
+Leistungsklasse und Energiequelle — eine Kältemittel-Aufschlüsselung existiert dort nicht. Der
+bisherige Negativbefund «CH-Marktanteil R290 nicht gefunden» ist damit primärquellenseitig
+bestätigt statt nur vermutet.
+
+Eingearbeitet: `destillate/kaeltemittel-r290-waermepumpen-ch.md` (Frontmatter, Abschnitt
+«Marktverfügbarkeit CH 2025/2026», Offene-Punkte-Liste, Quellen), `destillate/INDEX.md`
+(Statuszeile), `wiki/QUESTIONS.md` (Eintrag «2026-08-24k»).
+
+`git diff --numstat` nach dem Schreibvorgang geprüft: `destillate/kaeltemittel-r290-waermepumpen-ch.md`
++32/-14, `destillate/INDEX.md` +1/-1, `wiki/QUESTIONS.md` +48/-0 — durchgehend additiv/präzisierend,
+keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand — 10 von 39 Backlink-Kandidaten geprüft, ~29 verbleiben;
+nächste Kandidaten `minergie-zertifizierung-workflow` (23) und `ecobkp-2026-methodik-und-uebersicht`
+(24, kleinere Merkblatt-Lücken). Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug),
+SIA 380/1:2016 (Normkauf).
+
 ## 2026-08-24j — A-WERKZEUG-Alterskorpus-Liste abgeschlossen: sechs Wiki-Themenartikel geprüft, Koordinationslücke zwischen zwei Parallelläufen dokumentiert
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. **Betriebslage:** `ps aux` zeigte
