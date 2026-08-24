@@ -3078,3 +3078,66 @@ Session betroffen. MacBook Pro vier Loops zwischen 22:24 und 00:29 blockiert (Re
 wissens-chef, vollgas-chef-radar, normen-training-nacht, wettbewerbs-dna-training. Mac Mini ab
 23.08. 19:30 Dauerserie identischer Treffer im Sekundentakt (Reset 21:40) — der /tmp-Schub feuert
 gegen die geschlossene Sperre.
+
+**Briefing-Status:** logbuch-radar 24.08. 05:40 gelaufen (327 Zeilen), vollgas-chef-radar 05:24
+gelaufen (244 Zeilen) und 07:20 als Nachlauf dokumentiert. mahnwesen-verzugscheck (08:05),
+zahlungsabgleich-check (08:23), hub-chef-taeglich (08:39) und heartbeat-daily (09:40) standen zum
+Messzeitpunkt noch aus. Kein verfehltes Deliverable feststellbar.
+
+**Radar-Herzschlag:** frisch. Erste `## `-Ueberschrift in RADAR.md ist 24.08. 07:20 [DROSSEL],
+16 Minuten vor diesem Lauf. Kriterium (e) nicht erfuellt.
+
+**Destillat/Ertrag:** Korpus-Queue NICHT komplett (Pos. 3 `buero-referenzen` und Pos. 4
+`archiv-fachwissen`, beide Inventar Phase 0 am 23.08. abgeschlossen, Destillat und Spec offen —
+noch kein Spec-Gate-Haenger, weil das Destillat noch nicht angelaufen ist). Artikel-Ertrag ueber
+git (nicht mtime): 22.08. 12 · 23.08. 77 · 24.08. bis 07:45 bereits 83. Stueckkosten teuer je
+Artikel: 23.08. 0.93 Mio · 24.08. 0.37 Mio. Kriterium (f) klar NICHT erfuellt — der Aufwand
+erzeugt Wissen, und zwar guenstiger je Artikel als in den Vergleichstagen.
+
+⚠ **Messfalle protokolliert:** Die Artikelzaehlung ueber den SSD-Klon lieferte zunaechst 0 fuer
+alle drei Tage. Ursache war die Ref, nicht die Sache: das Remote heisst `origin`, nicht `github`.
+Ein leeres Ergebnis ist zuerst eine Aussage ueber das Werkzeug. Der SMB-Weg lieferte fuer den
+22.08. parallel 12 und hat den Widerspruch aufgedeckt.
+
+**Nachtbild aus dem Laufjournal 260824:** Stunde 00 bis 02 zusammen 452 Laeufe, davon nur 15 mit
+rc=0 — 437 Fehlversuche gegen die 5h-Sperre. Ab Stunde 03 durchgehend sauber (03 bis 07: 129
+Laeufe, alle rc=0).
+
+**Schub-Status live 07:40:** laeuft weiter. `bash /tmp/vollschub-mini-v2.sh` auf dem Mac Mini,
+Taktgeber-Laufzeit 34 min (also gegen 07:02 neu gestartet), Zaehler von `mschub703` (07:20) auf
+`mschub716` (07:40) — rund 13 Laeufe in 16 Minuten. Vier `claude -p` auf dem Mini, zwei lokal.
+
+## 2026-08-24 07:50 CEST — BEWERTUNG und GEMELDET (Mail an rj@ gesendet)
+
+**Meldeentscheid: Kriterium (b) erfuellt und gemeldet.** Der teure Tagesverbrauch beider
+Stationen lag am 23.08. bei 71.67 Mio und damit beim Doppelten der Schwelle von ~35 Mio; der
+24.08. stand um 07:34 bereits bei 31.07 Mio. Keine Wiederholungsmail — zuletzt gemailt am
+08.08.2026 07:29.
+
+**Was NICHT der Meldegrund ist, und das gehoert in derselben Zeile gesagt:** Der Verbrauch ist
+erklaert, belegt und Raphaels eigene Massnahme (Schub seit 23.08. 15:49, Ursprung im
+Fristen-Register auf ein Gespraech gegen 22:30 datiert). Der Ertrag rechtfertigt ihn: 77 bzw. 83
+Wiki-Artikel an zwei Tagen bei sinkenden Stueckkosten. Der Radar hat den Schub 07:20 als P1
+dokumentiert und den fertigen Stopp-Befehl vorgelegt. Diese Mail stellt nichts davon in Frage und
+empfiehlt keine Drossel an Scheduled Tasks.
+
+**Der eigenstaendige Zusatz dieses Laufs ist das 5h-Risiko fuer die Briefings.** Der Radar hat
+das WOCHENlimit hochgerechnet (Treffer gegen 10:30 bis 11:00, Reset 12:00) und daraus geschlossen,
+die operativen Briefings um 08:05, 08:23, 08:39 und 09:40 kaemen durch. Die **5h-Session-Sperre**
+ist in dieser Kette nicht bewertet — obwohl sie in derselben Nacht 437 Laeufe gekillt und auf dem
+MacBook Pro vier Lern-Loops erwischt hat (wissens-chef 22:24, vollgas-chef-radar 22:59,
+normen-training-nacht 23:29, wettbewerbs-dna-training 00:29). Session-Limits gelten kontoweit,
+nicht stationsweit: der Mini-Schub hat die MacBook-Loops mitgerissen. Das Fenster ab dem Reset
+02:40 lief bis etwa 07:40 aus, das neue deckt sich mit dem gesamten Briefing-Block. Faellt der
+`hub-chef` hinein, faellt der einzige regulaere Meldekanal aus (Rule 260803) — und dann traegt
+niemand den P1-Befund des Radars weiter. Genau dafuer ist diese Aufsicht die benannte Ausnahme.
+
+**Nicht erfuellt:** (a) keine interaktive Session blockiert, alle Limit-Ereignisse SCHEDULED/LOOP.
+(c) Wochenkontingent nicht erschoepft (148.49 von 167 Mio, 88.9 % bei 97.1 % verstrichener Woche,
+Rueckstand −8.2). (d) kein verfehltes Briefing-Deliverable. (e) Radar-Herzschlag frisch.
+(f) Ertrag hoch. (g) Queue nicht komplett.
+
+**Empfehlung in der Mail:** entweder den Taktgeber bis nach dem Briefing-Block anhalten
+(`ssh mini 'pkill -f vollschub-mini-v2.sh'`, beendet nur den Taktgeber, laufende Einzellaeufe
+sichern ihren Ertrag) oder bewusst durchlaufen lassen und den Ausfall einzelner Briefings in Kauf
+nehmen. Der Entscheid liegt bei Raphael; dieser Lauf stellt nichts ab.

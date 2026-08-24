@@ -3,6 +3,55 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Wissens-Health-Check baurecht (Phase 1+2 interaktiv): 2 INDEX-Status-Drifts, 2 echte RAW-Coverage-Lücken geschlossen, 16 Register-Nachträge
+- ANLASS: Reglemente-Queue T1-T9 laut `training/KORPUS-QUEUE-thalwil-reglemente.md` weiterhin
+  vollständig abgeschlossen (zuletzt Buch-Run 129); da parallel ein weiterer automatischer Lauf
+  (`mschub714`) aktiv an derselben KB arbeitete (voraussichtlich Modell-D-Stichprobe an
+  [[ausnuetzungsuebertragung]]/[[nutzungsziffern]]), wurde als kollisionsfreie Alternative der
+  reguläre `wissenscheck`-Turnus gewählt (Run 128/129 selbst als gleichwertigen nächsten Schritt
+  genannt).
+- Vorhandener `outputs/2026-08-24_health-check.md` deckte nur den Stand vor den Buch-Runs 105-129
+  ab (Basis Run 104, raw/-Zähler 100 statt aktuell 118). Ein frischer Audit (Subagent, nur lesend,
+  keine Kollision mit `mschub714`) hat die sieben Audits gegen den aktuellen Stand wiederholt und
+  eigenständig gegengeprüft (Rule `auto-verbesserungen` 260729b: Agenten-Befunde nie ungeprüft
+  übernehmen).
+- **Bestätigt, kein neuer Fund:** Audits A (0 Widersprüche), B (0 Strukturbefunde, per
+  `wiki-konsistenz.sh baurecht` verifiziert — die 4 Befunde des Vormittags-Reports sind bereits
+  durch die Buch-Runs 107/110 behoben), C (0 unbelegte Claims), E (0 veraltete Artikel), F (0 echte
+  Umlaut-Ersatzschreibungen im Fliesstext — alle Katalog-Treffer sind Wiki-Links/raw-Pfade/
+  Dateinamen).
+- **G — 2 echte INDEX/Frontmatter-Status-Drifts korrigiert** (gleiches Muster wie der bereits am
+  17.08. behobene Fall `gebaeudearten-und-abstandssystem`):
+  1. `wiki/INDEX.md`: [[geschosse-und-kniestock]] stand weiterhin auf *emerging* und nannte nur die
+     alte Kniestock-Fassung (0,9/1,3 m) — Frontmatter ist seit Buch-Run 33 (13.07.2026) `established`
+     und trägt seit Buch-Run 126 (24.08.2026) auch die aktuelle Verifikation. INDEX-Zeile korrigiert:
+     *established*, harmonisierte 1,5-m-Fassung ergänzt.
+  2. `wiki/INDEX.md`: [[umgebungsgestaltung-und-einfriedungen]] stand auf *emerging*, verifiziert
+     13.08.2026 — Frontmatter ist `established`, zuletzt verifiziert 24.08.2026 (Buch-Run 111).
+     INDEX-Zeile korrigiert.
+- **D — 2 echte RAW-Coverage-Lücken geschlossen** (Inhalt war bereits amtlich beschafft und im
+  Buch-Destillat bzw. in `wiki/QUESTIONS.md` verarbeitet, aber nie in einen Wiki-Artikel absorbiert):
+  1. `raw/260824_amtlich_zh_rrb-39-2010-baulinienrevision.md` (RRB Nr. 39/2010, Festsetzungs-
+     grundsätze Verkehrsbaulinien Staatsstrassen, von Buch-Run 116 amtlich beschafft) — neuer
+     Abschnitt 1b in [[baulinien-und-abstandslinien]] (6-m-Grundabstand ausgebaute Strassen,
+     3-5 m ungenügend ausgebaute, Kernzonen-Ausnahme, § 234/§ 264 PBG-Vorwirkung projektierter
+     Baulinien, § 235 PBG 3-Jahres-Frist).
+  2. `raw/260823_amtlich_zh_eg-gschg.md` (§ 15 Abs. 3 EG GSchG, von Recherche-Agent + Buch-Run 82
+     korrigiert: die «ca. 40 m»-Nebenanlagen-Meterangabe steht im Gesetzeswortlaut nicht) — neue
+     Sektion «Nebenleitungen» in [[baureife-und-erschliessung]] (Nachfolge § 53 Abs. 3/§ 56 WsG).
+     Frage B (§ 36 Abs. 2 EG GSchG, Grundwasserschutz-Grundbuchanmerkung) bleibt bewusst offen in
+     `wiki/QUESTIONS.md` — kein Ersatzbeleg erfunden.
+- **Registerpflege:** `raw/_INGESTED.md` um 16 Zeilen für bislang unregistrierte `raw/`-Dateien vom
+  23./24.08.2026 ergänzt (je mit Quelle, Fundstelle im Wiki, Buch-Run-Zuordnung); reiner
+  Registrierungs-Rückstand, keine der 16 Dateien war tatsächlich unabsorbiert (bis auf die zwei
+  oben genannten echten Lücken).
+- GEÄNDERT `wiki/INDEX.md` (+2/-2), `wiki/baulinien-und-abstandslinien.md` (+36/-2),
+  `wiki/baureife-und-erschliessung.md` (+18/-2), `raw/_INGESTED.md` (+16/-0).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv/erwartete
+  Zeilenersetzung, keine unerwartete Löschung. `wiki-konsistenz.sh baurecht` nach Abschluss erneut
+  `keine Befunde`.
+- REPORT `outputs/2026-08-24_health-check-nachtrag.md`.
+
 ## 2026-08-24 — Buch-Run 129: `connectors/WEGE.md`-Nachtrag für die `entscheidsuche.ch`-Such-API (Buch-Run 126/127) eingetragen
 - ANLASS: Buch-Run 127 nannte als einen von drei möglichen nächsten Schritten einen
   `connectors/WEGE.md`-Nachtrag für die in Run 126/127 rekonstruierte interne Such-API von

@@ -3,6 +3,9 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NEU 24.08.2026, 07:46 (ag-gruendung-monitor autonomer Lauf, Fehler entdeckt) — Monitor defekt seit 07.08.2026, Kapitalbesch
+
+heinigung Status unbekannt.** Der Task `ag-gruendung-monitor` schreibt sein Logbuch-Abschnitt seit 17 Tagen nicht (letzte Einträge 30.07.2026, damals großer Durchbruch UBS). Der Task ist der einzige Kanal zu mail@raphaeljans.ch, wo UBS-Kapitalbescheinigung + Notariats-Antwort eintreffen würde. Letzter belegter Stand 30.07.: UBS-Antrag bei Geschäftsstelle Wiedikon eingereicht, erwartet IBAN ca. 03./04.08., Kapitalbescheinigung ca. 06./07.08. Zwischenbilanz: 18 Tage später, Posteingänge ungeprüft, Notariat Mathies damals bis mindestens 14.08. abwesend (Autoantwort war gesetzt). **Ursache Monitor-Ausfall:** Lauf vom 19.08. 05:47 brach mit «issue with the selected model» ab (Logs zeigen dies); aktuelle SKILL.md trägt korrekte ID, aber Fehler trat auf. **Status: Monitor zu prüfen und neu zu starten, Mail-Posteingänge mail@raphaeljans.ch manuell auf Kapitalbescheinigung und Notariats-Antwort prüfen.** | AG-Gründung Raphael Jans AG | hoch | offen
 
 **ERLEDIGT 24.08.2026, 07:07 (Logbuch-Radar) — Die dritte Nachfassung an L. Bajrami ist
 hinausgegangen; die A7-Widerrufsmechanik hat erstmals produktiv getragen.** Das Widerrufsfenster

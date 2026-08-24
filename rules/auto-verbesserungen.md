@@ -14,6 +14,35 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260824 — Erreichbarkeit von aussen ist P1, nicht Hub-Intern; «läuft» ist nicht «erreichbar»
+- **Regel:** Fällt ein **Zugangsweg von aussen** aus (Tailscale/VPN, `ssh mini`, Dispatch-Kanal,
+  remote-tasks, externer NAS-Mount, Subnet-Route ins Büro-LAN), ist das ein **operativer Befund
+  der Stufe P1** und damit ein Sendegrund nach Eintrag 260803 — **nicht** ein Hub-Internum, das
+  still im Register liegen darf. Wer einen solchen Befund erhebt, stuft ihn **hoch** ein und
+  sorgt für **einen Kanal, der Raphael am selben Tag erreicht**. Zweitens: bei jeder
+  Zustandsaussage über eine Station **«läuft» und «ist erreichbar» getrennt messen**. Frische
+  Statusdateien und Herzschlag-Stempel beweisen nur das Erste — sie werden über den LAN-Mount
+  geschrieben und bleiben grün, während die Station von auswärts unerreichbar ist. Drittens:
+  einen Dienst, dessen Ausfall den Fernzugang kappt, nicht als «Aktion Raphael» parken, wenn ein
+  **umkehrbarer** Selbstheilungsweg existiert (hier: `tailscale up`, danach App-Neustart) — den
+  baut man als Wächter mit Selbstheilung und Meldung nur bei Fehlschlag.
+- **Warum, mit Beleg:** Der Mac Mini war vom 20.08.2026 (spätestens 00:57) bis zum 24.08.
+  07:4x vom Tailnet getrennt — das ganze Wochenende, genau in dem Fenster, in dem Raphael von
+  zu Hause auf die Bürogeräte zugreifen will. **Erkannt wurde es viermal** (Nachtschicht 19.08.,
+  Vollgas-Radar 20.08. 00:57, `energie-training` Runs 149 und 150 am 23.08.), sauber ins
+  Fristen-Register geschrieben, mit dem exakt richtigen Behebungsbefehl. Es passierte trotzdem
+  vier Tage nichts: eingestuft als «mittel / Hub-Infrastruktur», damit nach 260803 kein
+  Sendegrund, und der `stationen-watchdog` sah den Mini die ganze Zeit als frisch, weil er seine
+  Stempel über den LAN-SMB-Mount schrieb. **Das war kein Erkennungsversagen, sondern ein
+  Einstufungs- und Kanalversagen.** Ein Befund, der viermal korrekt gemessen und nie gemeldet
+  wird, ist praktisch kein Befund. Die Prefs zeigten `WantRunning: false` bei
+  `LoggedOut: false` — abgeschaltet, nicht abgestürzt; deshalb half keine der korrekt gesetzten
+  Optionen («VPN On Demand → Always», «Launch at login» setzen `WantRunning` nicht zurück).
+  Gegenmassnahmen: `scripts/tailscale-waechter.sh`, `heartbeat` Check 15,
+  `templates/launchd/ch.jans.tailscale-waechter.plist`. Chronik: `betrieb-chronik.md` 260824c.
+- **Gilt für:** alle Loops, Radare, Watchdogs und Sessions, die Betriebszustände erheben; alle
+  Stationen. Präzisiert Eintrag 260803 (Sende-Schwelle) und 260805 (Register statt Laufbericht).
+
 ## 260823 — Massen-Sweeps über Geschäftsdaten: heikle Ordner vorher ausschliessen
 - **Regel:** Bevor ein Agenten-Fan-out, ein Lern-Loop oder ein Destillat-Lauf auf einen **ganzen
   Geschäftsdaten-Baum** gerichtet wird (`/Volumes/daten/04_Buero`, `02_Architektur_Archiv`,
