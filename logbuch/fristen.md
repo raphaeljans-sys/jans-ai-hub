@@ -3216,5 +3216,33 @@ Arbeit plus die Session-Prozesse der App. **AKTION Raphael: nach dem Wochen-Rese
 ein auf das Vierfache gewachsener Swap schrumpft nicht von selbst, und die Probenlaufzeit des
 Radars hat sich im selben Fenster von 68 s auf 151 s mehr als verdoppelt. Kein Eingriff durch
 Claude: systemseitige Schalter und Neustarts bedient Raphael selbst (Rule `auto-verbesserungen`
-260814). Messwerte und Herleitung im RADAR-Eintrag 24.08. 07:20. | vollgas-radar 24.08.2026 |
-Infrastruktur/Station | mittel | offen
+260814). Messwerte und Herleitung im RADAR-Eintrag 24.08. 07:20. **NACHTRAG 24.08.2026 12:57
+(vollgas-radar) — ERLEDIGT, die Station wurde durchgestartet.** Gemessen um 12:57: Swap
+**total 0.00 MB / used 0.00 MB** (statt 6.94 GB belegt bei 8.19 GB Gesamtgroesse),
+`kern.memorystatus_vm_pressure_level` zurueck auf **1 (normal)** nach dreimal 2 (warn),
+frei + inactive + purgeable rund **5.1 GB**. Die lokale Uptime steht bei 3 h 18 min, der
+Neustart erfolgte also gegen 09:49 — genau die Aktion, welche diese Zeile empfohlen hatte.
+Auch der Nebenbefund loeste sich auf: die Radar-Probe laeuft wieder in 40 s. | vollgas-radar 24.08.2026 |
+Infrastruktur/Station | mittel | erledigt 24.08.2026
+
+
+**NEU 24.08.2026 (vollgas-radar 12:57) — Der einzige Lern-Taktgeber des Mac Mini ist nicht mehr
+geladen; ohne Eingriff faellt heute Nacht das ganze Lernfenster aus.** `ch.jans.nachtschicht`
+ist auf dem Mac Mini im Domain `gui/501` nicht mehr registriert (`launchctl print` antwortet
+«Could not find service»), obwohl die plist unveraendert in `~/Library/LaunchAgents/` liegt.
+Der Job lief heute Nacht noch regulaer (Log: 02:30 Exit 1, **05:30–05:35 Exit 0**) und wurde
+danach entladen; die Station laeuft seit 5 Tagen ohne Neustart, es war also eine Handlung und
+kein Bootverlust. Ein Entscheid dazu steht weder in `betrieb-chronik.md` noch hier noch im
+LOGBUCH; zeitlich faellt es mit dem Abbau des `/tmp`-Vollgas-Schubs zusammen (Script zuletzt
+07:09 angefasst), belegt ist der Zusammenhang aber nicht. **Gewicht:** seit dem Ausbau des
+Endlos-Runners am 29.07.2026 ist die Nachtschicht per Dokumentation der EINZIGE Lern-Taktgeber
+des Hub, und ein uebersprungener Slot wird von niemandem nachgeholt. Betroffen sind die Slots
+**heute 23:30 sowie 02:30 und 05:30**. Der Radar hat das Wiederherstellen versucht und ist am
+Auto-Mode-Klassifikator haengengeblieben (Systemdienst-Eingriff); dieser wird nach Rule
+`wege-und-vollmachten` nicht umgangen, sondern der fertige Befehl vorgelegt. **AKTION Raphael
+(oder eine interaktive Session) vor 23:30:**
+`ssh mini 'launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ch.jans.nachtschicht.plist'`
+— umkehrbar mit `launchctl bootout gui/$(id -u)/ch.jans.nachtschicht`. War die Entladung
+gewollt, gehoert sie stattdessen als Entscheid in die Betriebs-Chronik, damit der naechste
+Radar-Lauf sie nicht erneut als Ausfall meldet. | vollgas-radar 24.08.2026 |
+Infrastruktur / Lern-Loops | hoch | offen
