@@ -201,14 +201,16 @@ Gebäudescreening**: 5-Kategorien-Dringlichkeitsraster, kostet für eine mittler
 nur **Fr. 800–1'200** (≈ 15–20 % eines detaillierten Gebäudechecks) und liefert die Grundlage
 für eine belastbare Offertanfrage. Fallbeispiel Stadt Zürich (Schulkreis Uto, 83 Objekte):
 Screening-Kosten Fr. 40'000, Folgekosten der 5 dringlichen Sanierungen Fr. 200'000 — das
-Screening kostete ein Fünftel der Sanierung. **Rund 80 % der vor 1990 erstellten Bauten**
+Screening kostete ein Fünftel der Sanierung (⚠ alle CHF-Zahlen dieses Absatzes Preisstand
+2004/2005, vor Kostenzusage mit aktueller Offerte gegenprüfen). **Rund 80 % der vor 1990 erstellten Bauten**
 enthalten asbesthaltige Materialien, auch wenn kein Spritzasbest im amtlichen Kataster steht
 (der Kataster erfasst nur Spritzasbest, nicht Faserzement/Platten/Bodenbeläge/Rohrisolationen).
 Details, Kategorien-Tabelle, Fundstellen-Häufigkeiten → `[[asbest-dimension-jenseits-spritzasbest]]`.
 
 Die AHB-Checkliste «Schadstoffe in Bauten» ergänzt den Prozess für Projektleitende
 (Projektierung → Ausschreibung → Ausführung) samt kompakter Übersichtstabelle Asbest/PCB/PCP
-(Grenzwerte, Vorschriften, Zuständigkeiten Stadt/Kanton Zürich) und einer Fundstellen-Suchliste
+(Grenzwerte, Vorschriften, Zuständigkeiten Stadt/Kanton Zürich, ⚠ Datenstand 2005 — Grenz- und
+Zielwerte vor Anwendung am aktuellen BAFU-/BAG-Stand prüfen) und einer Fundstellen-Suchliste
 für die Begehung → `[[ahb-checkliste-schadstoffe-in-bauten]]`. Wichtige Nuance aus dieser
 Quelle: **eine Teilsanierung (z. B. Versiegelung) entlässt ein Gebäude nicht aus dem
 Asbest-Kataster** — periodische Kontrollen bleiben Pflicht bis zur Totalsanierung.

@@ -3,6 +3,93 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 119: die von Buch-Run 118 offen gelassenen zwei Sätze im Näherbaurecht-Destillat am Original nachgeführt (Station mit funktionierendem node/M365-Zugriff), Cross-KB-Dublettencheck vorbereitet
+
+- **Ausgangslage:** Buch-Run 118 hatte einen von drei kaputten Sätzen im Näherbaurecht-Destillat
+  (`buecher/band-2/15-lage-von-gebaeuden-teil2d.md`, Z. 152-155) korrigiert und zwei weitere offen
+  gelassen — die Session lief headless ohne lokalen `PL`-Mount und ohne `node` im `PATH`. Diese
+  Session lief auf dem Mac Mini (interaktiv); `node` (`/opt/homebrew/bin/node`) und der
+  M365-Graph-Connector (`connectors/m365-graph.mjs`, Weg 2 aus `connectors/WEGE.md`) funktionierten
+  beide, der lokale `PL`-Mount fehlte weiterhin, war aber nicht nötig.
+- **Beide Original-Screenshots** (`Bildschirmfoto 2026-06-07 um 12.04.15/16.jpg` = S. 1098-1101,
+  laut `buecher/seiten-inventar.md` Zeilen 571-572) direkt über die Drive-ID der Bibliothek
+  `02_Recht_Norm` geladen (Zertifikats-Token, `curl -L` auf den Graph-`:/content`-Endpunkt) und
+  gelesen. **Beide Sätze waren echte Fehler, kein reiner Textverlust:** Satz 2 kehrte die Aussage
+  inhaltlich um — im Original widerspricht das Gebäude des Erstbauenden **nicht** den
+  Bauvorschriften i.S.v. § 357 Abs. 1 PBG (es ist baurechtskonform bewilligt, VB.2013.00777,
+  E. 3.5), steht aber näher an der Grenze als sonst zulässig (BEZ 1995 Nr. 17) — das Destillat
+  hatte daraus das Gegenteil gemacht. Satz 3 war das abgeschnittene Ende des
+  Abrückungserklärungs-Satzes (Baubehörde darf keine Abrückungserklärung mehr verlangen, BEZ 2010
+  Nr. 14/BEZ 1995 Nr. 17) — beim Kürzen war das Subjekt verlorengegangen. Ergänzt: die vorangehende,
+  bisher fehlende Aussage zum einseitig gewährten Näherbaurecht (BEZ 1992 Nr. 34). **GEÄNDERT**
+  `buecher/band-2/15-lage-von-gebaeuden-teil2d.md` (Fliesstext + Frontmatter `last_updated`),
+  `wiki/QUESTIONS.md` (Befund (a) aus Wissens-Chef Run 19 jetzt vollständig geschlossen, alle drei
+  Sätze korrigiert).
+- **Cross-KB-Übergabe von `wissen/energie` (12 Dateien PL-02, seit Run 117/24.08.2026 offen):**
+  mit demselben Zugriffsweg beide Zielordner gelistet (nur Dateinamen, keine Datei geöffnet) und
+  gegen den KB-Bestand volltextgeprüft — keine bereits ingestierte Fassung gefunden, 6/12 Dateien
+  haben einen PDF-Zwilling (darunter die bereits als authentisch geführte `200831 BR
+  Grundstück.pdf` — die vermutete Dublette aus Run 117 ist damit bestätigt). **Inhalt bewusst nicht
+  geöffnet:** alle 12 Dateien sind projektgebundene Klientendokumente (Baurechtsanalysen für
+  benannte Adressen, eine STWEG-Begründung für einen benannten Kunden); Arbeitsregel 5 der
+  Reglemente-Queue und Rule `auto-verbesserungen` 260823 verlangen eine Einzelfall-Prüfung
+  (verallgemeinerbare Rechtsargumentation vs. Klientengeheimnis), bevor Inhalt ins Wiki wandert —
+  das ist Lektüre- und Abwägungsarbeit, kein reiner Dublettencheck. **GEÄNDERT** `wiki/QUESTIONS.md`
+  (Ordnerlisting-Befund nachgetragen).
+- `git diff --numstat` (nativ) nach jedem Schreibvorgang geprüft: nur gezielte Additionen,
+  keine unerwarteten Löschungen (`15-lage-von-gebaeuden-teil2d.md` +24/-8, `QUESTIONS.md` +90/-13).
+- REPORT `outputs/2026-08-24_buch-run119.md`.
+
+## 2026-08-24 — Buch-Run 118: letzte zwei echten QUESTIONS.md-Restpunkte bearbeitet (§ 220/§ 357 Abs. 1 als stale geschlossen, Haupt-/Anhang-Vorbehalt in abstaende-und-hoehen.md nachgezogen, Negationsfehler im Näherbaurecht-Destillat korrigiert)
+
+- **Ausgangslage:** Reglemente-Queue (T1-T9) und Stale-Flag-Sweep-Kette (Run 90-117) laut eigenen
+  Abschlussvermerken vollständig. Systematisch nach verbleibenden, nicht durchgestrichenen
+  `needs-verification`/offenen Einträgen in `wiki/QUESTIONS.md` gesucht (analog Run 105/109),
+  diesmal über die gesamte Datei statt nur den chronologischen Block.
+- **§ 220 / § 357 Abs. 1 PBG (Zeile 2084): stale, bereits erledigt.** Der Wortlautabgleich fand
+  bereits am 13.07.2026 statt (Modell-D-Refuter, `buecher/band-2/20-ausnahmen-bestandesschutz.md`
+  Abschnitt «Offene Punkte») und ist im `established`-Artikel
+  [[ausnahmebewilligung-und-bestandesschutz]] vollständig nachgeführt — nur der Zeiger war nie
+  aktualisiert. **GEÄNDERT** `wiki/QUESTIONS.md` (Flag geschlossen, Fundstellen ergänzt).
+- **Cross-KB-Checkbox «§ 220a-Revisionsstrang» (Wissens-Chef Run 15): stale, ebenfalls bereits
+  erledigt.** [[ausnahmebewilligung-und-bestandesschutz]] führt den Vorentwurf «Erleichtertes
+  Bauen im Bestand» (§ 220a/§ 357 E-PBG, Mehrlängenzuschlag-Aufhebung) bereits seit seiner
+  Ersterstellung inkl. Verfahrensstand und schliesst den Befund im eigenen Text ausdrücklich —
+  nur die Checkbox in `QUESTIONS.md` war nie abgehakt worden. **GEÄNDERT** `wiki/QUESTIONS.md`.
+- **Echte, bisher offene Lücke geschlossen (Wissens-Chef Run 19b, 30.07.2026): Haupt-/
+  Anhang-Vorbehalt fehlte im Leit-Artikel.** `wiki/abstaende-und-hoehen.md`, Abschnitt
+  «Abstandsprivilegierte Bauteile», zitierte die 1/3-/1,3-m-Vorsprungsregel weiterhin ungebrochen
+  als «(§ 260 Abs. 3 PBG, § 27 Abs. 1 ABV)», obwohl der Schwester-Artikel
+  [[baulinien-und-abstandslinien]] die Divergenz seit Buch-Run 62 dokumentiert: im Hauptteil des
+  geltenden PBG regelt § 260 Abs. 3 die Getrenntmessung bei seitlich gegliederten Gebäuden, die
+  1/3-Regel steht nur in der **Anhang**-Fassung (Stand 28.2.2017) und gilt übergangsrechtlich bis
+  zur kommunalen BZO-Harmonisierung. **Ergänzt:** «alt/Anhang»-Kennzeichnung + die geltende
+  Hauptteil-Regel **1/2** Fassadenlänge/**2 m** Tiefe (§ 260 nPBG i.V.m. **§ 6c Abs. 1 ABV**,
+  gegen `raw/260607_amtlich_zh_abv.md` Z. 119 verifiziert — kantonsrechtlich bereits in Kraft,
+  siehe die im selben Artikel bestehende Fassungsstand-Umkehr-Klarstellung, Abschnitt
+  «Harmonisierungsvorlage»). Kein neuer `raw/`-Ingest, reine Konsistenz-Ergänzung anhand bereits
+  verifizierten KB-Bestands. **GEÄNDERT** `wiki/abstaende-und-hoehen.md` (Fliesstext +
+  Frontmatter `verifiziert`/`last_updated`), `wiki/QUESTIONS.md` (Befund (b) als erledigt
+  vermerkt).
+- **Echter Fehler teilweise korrigiert (Wissens-Chef Run 19a, 30.07.2026): Negationsfehler im
+  Näherbaurecht-Destillat.** `buecher/band-2/15-lage-von-gebaeuden-teil2d.md` (S. 1099) enthielt
+  seit der Ersterfassung den grammatisch zerstörten Satz «Die Schriftlichkeit nach § 270 Abs. 3
+  PBG verlangt ist, sondern lediglich als Verfahrensbestimmung … zu qualifizieren» — die Negation
+  fehlte. Aus dem unmittelbar vorangehenden Absatz («Form der Vereinbarung: § 270 Abs. 3 PBG
+  äussert sich nicht zur Form …») ist die gemeinte Aussage eindeutig rekonstruierbar: die
+  Schriftlichkeit ist **nicht** durch § 270 Abs. 3 PBG selbst, sondern nur verfahrensrechtlich
+  durch § 5 lit. l BVV gefordert. **Korrigiert**, mit Korrekturvermerk im Fliesstext. **Zwei
+  weitere, vom selben Wissens-Chef-Lauf als „Sinn nicht rekonstruierbar" bzw. „Satz ohne Subjekt/
+  Objekt" diagnostizierte Sätze (Z. 152-155) bleiben unverändert offen** — diese Session lief
+  headless ohne lokalen Mount von SharePoint `/sites/PL` und ohne `node` im `PATH` (identischer
+  Befund wie Buch-Run 117), die Original-Screenshots S. 1100-1101 waren nicht einsehbar; ohne
+  Quellenzugriff keine Rekonstruktion (Rule `wege-und-vollmachten`/`nichts raten`). **GEÄNDERT**
+  `buecher/band-2/15-lage-von-gebaeuden-teil2d.md` (Fliesstext + `last_updated`), `wiki/
+  QUESTIONS.md` (Teilerledigung + offene Restpunkte dokumentiert).
+- `git diff --numstat` (nativ, nicht über SMB) nach jedem Schreibvorgang geprüft: nur gezielte
+  Additionen in den drei bestehenden Dateien, keine unerwarteten Löschungen.
+- REPORT `outputs/2026-08-24_buch-run118.md`.
+
 ## 2026-08-24 — Buch-Run 117: negative Vorwirkung Thalwil am amtlich servierten Dokument nachgeprüft (unverändert), stale Bookkeeping-Note Kap. 17 korrigiert, Cross-KB-PL-02-Zugriff auf dieser Station gescheitert (dokumentiert)
 
 - **Ausgangslage:** Die Reglemente-Queue (T1-T9) und die daran anschliessende chronologische

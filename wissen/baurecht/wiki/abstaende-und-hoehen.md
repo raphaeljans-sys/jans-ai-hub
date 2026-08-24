@@ -1,8 +1,15 @@
 ---
 title: Abstände und Höhen — Kanton Zürich
 status: established
-last_updated: 2026-08-23d
-verifiziert: 2026-08-23d (Buch-Run 87, Korpus-Queue Batch T9: neu aufgetauchte Restdateien im
+last_updated: 2026-08-24
+verifiziert: 2026-08-24 (Buch-Run 118, QUESTIONS.md-Fund Wissens-Chef Run 19b: die Sektion
+«Abstandsprivilegierte Bauteile» zitierte die 1/3-/1,3-m-Vorsprungsregel ohne den Haupt-/
+Anhang-Vorbehalt, der im Schwester-Artikel [[baulinien-und-abstandslinien]] bereits seit
+Buch-Run 62 dokumentiert ist. Ergänzt: «alt/Anhang»-Kennzeichnung der 1/3-Regel + die geltende
+Hauptteil-Regel 1/2 Fassadenlänge/2 m Tiefe (§ 260 nPBG i.V.m. § 6c Abs. 1 ABV, gegen
+raw/260607_amtlich_zh_abv.md Z. 119 verifiziert), inkl. Cross-Referenz auf die bereits
+bestehende Fassungsstand-Umkehr-Klarstellung im Abschnitt «Harmonisierungsvorlage» desselben
+Artikels. Kein neuer raw-Ingest, reine Konsistenz-Ergänzung.) — vorher: 2026-08-23d (Buch-Run 87, Korpus-Queue Batch T9: neu aufgetauchte Restdateien im
 Reglemente-Ordner 2414 Thalwil geprüft. Neue Sektion «Praxisfolge einer zu weiten Abgrabung»
 ergänzt — Kausalkette § 293 PBG → § 276 PBG → Art. 6 Abs. 5 BZO Thalwil, Quelle Raphaels eigene
 authentische Bauherren-Erklärung, gegen `raw/260607_amtlich_zh_pbg.md` und
@@ -171,7 +178,13 @@ Anhang/übergangsrechtlich; die Gemeinde kann weniger festlegen oder das Privile
 Oberirdische Vorsprünge (Erker, Balkone) dürfen unter Bedingungen in den Grenzabstand ragen
 und werden bei der Fassadenlänge (Mehrlängenzuschlag) nicht voll mitgerechnet, wenn sie
 höchstens **1/3** der betreffenden Fassadenlänge einnehmen bzw. eine geschlossene Höhe von
-nicht mehr als **1,3 m** aufweisen (§ 260 Abs. 3 PBG, § 27 Abs. 1 ABV). **Gebot restriktiver
+nicht mehr als **1,3 m** aufweisen (**alt/Anhang** § 260 Abs. 3 PBG, § 27 Abs. 1 ABV) —
+diese 1/3-/1,3-m-Werte sind die **übergangsrechtliche Anhang-Fassung** (Stand 28.2.2017),
+die nur gilt, solange die konkrete Gemeinde ihre BZO nicht harmonisiert hat (siehe unten
+«Harmonisierungsvorlage»/Fassungsstand-Umkehr). Hat die Gemeinde harmonisiert, gilt
+stattdessen die grosszügigere geltende Hauptteil-Regel: **1/2** der Fassadenlänge, **2 m**
+Tiefe (§ 260 nPBG i.V.m. § 6c Abs. 1 ABV, `raw/260607_amtlich_zh_abv.md` Z. 119 —
+kantonsrechtlich in Kraft, keine blosse Vorlage). **Gebot restriktiver
 Auslegung:** die Praxis legt die Privilegierung eng aus, weil Vorsprünge wohnhygienische
 Bedingungen verschlechtern und das nachbarliche Gefahrenpotenzial erhöhen (BGE 119 Ia 113
 E. 3b; VB.2016.00348; Buch Bd 2 S. 1085). Nicht abstandspflichtig sind unselbständige

@@ -5092,3 +5092,96 @@ einzelnen Folgelauf, aber kein Recherche-Blocker.
 Diese Session fand **keinen neuen inhaltlichen Fehler** und hat daher ausschliesslich diesen
 QUESTIONS.md-Abschnitt geschrieben, keine weitere Datei verändert. `git diff --numstat` nach dem
 Schreibvorgang geprüft: rein additiv.
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — A-WERKZEUG-Folgelauf: Zählfehler des Vorlaufs korrigiert, zwei Preis-/Grenzwert-Vorbehalte nachgetragen
+
+Auftrag: weitere offene Fragen abarbeiten, Anschluss an den vorigen Lauf («sechs Destillate ohne
+FAQ-Zitat … sowie ob die Warnungen an den Wiki-Themenartikel-Zitierstellen ebenso vollständig
+sind» — als «kleiner Folgelauf, kein Blocker» benannt). Zuerst gegen den aktuellen Bestand
+verifiziert statt den Vorlauf-Text zu übernehmen: `datenstand-waechter.py energie --heute
+2026-08-24` erneut ausgeführt → weiterhin 37 Treffer (34 + 3 Werkzeugrauschen).
+
+**Befund 1 — der Vorlauf hat sechs Themenartikel gar nicht geprüft, weil er den Treffersatz
+falsch typisiert hat.** Der Vorlauf sprach durchgehend von «34 Destillaten» und listete 22
+namentlich als FAQ-geprüft plus «sechs ohne FAQ-Zitat» (davon nur fünf tatsächlich benannt).
+Abgleich Slug-für-Slug gegen `destillate/` vs. `wiki/` zeigt: sechs der 34 Treffer sind gar keine
+Destillate, sondern **Themenartikel** (`elektromobilitaet-ladeinfrastruktur`,
+`geak-gebaeudeenergieausweis`, `innendaemmung`, `notstromversorgung-sicherheitsstromversorgung`,
+`pv-eigenverbrauch-zev`, `solarwaerme-warmwasser`) — sie tauchen erst auf, seit ihnen die
+02.17-Nachrüstung (zuletzt abgeschlossen im selben Vorlauf-Tag) ein `datenstand`-Feld gegeben hat.
+Vier davon haben tatsächlich FAQ-Zitate (`elektromobilitaet-ladeinfrastruktur` 2×, `innendaemmung`
+1×, `notstromversorgung-sicherheitsstromversorgung` 1×, `pv-eigenverbrauch-zev` 9×) und wurden vom
+Vorlauf nie geprüft, obwohl seine Kernaussage «alle 22 propagieren korrekt» lautete. **Jetzt
+nachgeholt** (`grep -B3 -A3` an jeder Zitierstelle): alle vier tragen den Alters-/Marktvorbehalt
+bereits an oder unmittelbar neben der Zitierstelle (`pv-eigenverbrauch-zev` durchgehend mit
+expliziten ⚠-Datenstand-Absätzen an allen neun Stellen; `notstromversorgung-…` und
+`elektromobilitaet-…` über explizit im Fliesstext genannte Quelldaten statt generischem
+⚠-Absatz — dieselbe Transparenz-Konvention, die auch bei anderen bereits geprüften Zitierstellen
+als ausreichend gilt). **Kein Fehler dieser Klasse.** Die übrigen zwei (`geak-gebaeudeenergieausweis`,
+`solarwaerme-warmwasser`) haben 0 FAQ-Zitate — sie gehören zur «ohne FAQ»-Gruppe, die damit
+korrekt auf **sieben** Positionen wächst, nicht sechs/fünf wie im Vorlauf notiert.
+
+**Befund 2 — Wiki-Themenartikel-Zitierstellen der sieben «ohne FAQ»-Destillate/-Themenartikel
+geprüft (der im Vorlauf offen benannte zweite Teil).** `2000-watt-gesellschaft-sieben-thesen-ahb`,
+`topten-haushaltgeraete-liegenschaftenverwaltung`, `vorgehen-bei-beschwerden-innenraumklima`
+propagieren ihre Alterswarnung bereits korrekt (INDEX-Zeile bzw. Themenartikel-Fliesstext tragen
+⚠/⚠⚠-Vermerke oder das zitierte Material ist reine, nicht alternde Verfahrenslogik). **Zwei echte
+Lücken gefunden und behoben:**
+- `[[asbest-dimension-jenseits-spritzasbest]]` (Destillat, Preisstand 2004/2005) wird in
+  `wiki/gebaeudeschadstoffe.md` mit den CHF-Beispielzahlen (Screening Fr. 800-1'200, Fallbeispiel
+  Fr. 40'000/200'000) zitiert, **ohne dass an der Zitierstelle ein Preis-Datenstand-Vorbehalt
+  steht** — das Destillat selbst flaggte bisher nur Grenzwerte/Methodik als zeitlos, nicht die
+  CHF-Beispiele. Behoben: neuer ⚠-Nachtrag im Destillat (`asbest-dimension-jenseits-
+  spritzasbest.md`, Abschnitt Bauherren-Transfer) und ein Kurzvorbehalt direkt an der Zitierstelle
+  in `gebaeudeschadstoffe.md`.
+- `[[ahb-checkliste-schadstoffe-in-bauten]]` (Destillat, Datenstand 2005) wird in derselben Datei
+  mit «Grenzwerte, Vorschriften, Zuständigkeiten» zitiert, ebenfalls ohne Altersvorbehalt an der
+  Zitierstelle (das Destillat selbst trägt den Vorbehalt nur unter «Offene Punkte», nicht am
+  Zitierort). Behoben: Kurzvorbehalt an der Zitierstelle in `gebaeudeschadstoffe.md` ergänzt.
+
+**Einordnung:** Beide Funde sind dieselbe Fehlerklasse wie 03.15/04.2 («die KB weiss es besser,
+als sie am Zitierort sagt») — real, aber klein (zwei Sätze ergänzt, keine Zahl korrigiert, nichts
+gelöscht). Damit ist der im Vorlauf benannte «kleine Folgelauf» erledigt: die sieben «ohne
+FAQ»-Positionen sind vollständig (statt lückenhaft) geprüft, die vier fälschlich ungeprüften
+FAQ-Zitate sind nachgeholt (kein Fund), zwei reale Zitierort-Lücken sind geschlossen.
+
+Beleg: `git diff --numstat` nach jedem Schreibvorgang geprüft —
+`destillate/asbest-dimension-jenseits-spritzasbest.md` +4/-0, `wiki/gebaeudeschadstoffe.md`
+insgesamt +4/-2 (zwei Satzergänzungen an bestehenden Zeilen, keine Löschung von Bestand). Kein
+separates `outputs/`-Dokument, da keine neue Primärquelle gelesen wurde, nur bestehende
+Destillate/Zitierstellen gegengeprüft.
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — 03.13 GESCHLOSSEN: TKN-Berechnungsmethodik für Solarthermie-Förderung primärquellen-belegt
+
+- [x] **03.13 (aus A-P3, Solarthermie kWth↔m²) — GESCHLOSSEN 24.08.2026.** Auftrag war, weitere
+  offene Fragen abzuarbeiten. Nach Prüfung des gesamten `- [ ]`-Bestands (praktisch alles blockiert
+  an Raphaels Entscheid — Normkauf SIA 380/1:2016/E-R148-1, JANS-Projektdaten E103/E94 — oder als
+  P3/P4 explizit nicht mehr recherchierbar dokumentiert: E-R134-3 Lambda-Anomalie ohne Herausgeber/
+  Datum, E-R150-3 nur beim Verfasser klärbar, A-BLIND-Vorrat fürs Quartal ausgeschöpft) blieb 03.13
+  als einziger Punkt mit einem noch nicht ausgeschöpften, öffentlich zugänglichen Rechercheweg:
+  ob es für die Solarthermie-Förderung (F40, «CHF 2'400 + 1'000/kWth») einen belastbaren
+  Umrechnungsfaktor m² Kollektorfläche → kWth Nennleistung gibt, oder ob die Vorsession
+  («Primärquelle wäre `kollektorliste.ch` je Produkt, nicht pauschal herleitbar») das nur vermutet
+  hatte, ohne die Primärquelle selbst zu lesen.
+  **Ergebnis: die Vermutung ist an der Quelle bestätigt, nicht nur plausibel.** Primärdokument
+  gefunden und vollständig gelesen (PyMuPDF, kein WebFetch-Zusammenfassungsumweg): SPF Institut für
+  Solartechnik OST Rapperswil, «Erläuterungen zur kollektorliste.ch» (Stand 12/2021, im Auftrag
+  EnergieSchweiz), Anhang A definiert die **Thermische Kollektor Nennleistung (TKN)** als
+  produktspezifische Formel aus vier Solar-Keymark-Leistungswerten (ΔT = 10/30/50/70 K) und zwei
+  Winkelfaktoren — **keine** aus der Fläche ableitbare Grösse. Rechenbeispiel im Original: TKN =
+  1'436 W bei 2.505 m² Apertur (≈ 570 W/m² für diesen einen Kollektor). Als Nebenbefund eine echte
+  Verwechslungsgefahr aufgedeckt und entschärft: das ältere BFE-Merkblatt 161.3d (2001) nennt für
+  einen anderen Zweck (Wärmetauscher-Dimensionierung) «700 W/m² maximale Kollektorleistung» — eine
+  andere Kenngrösse mit ähnlicher Grössenordnung, die man leicht fälschlich für die TKN halten
+  könnte; im neuen Destillat ausdrücklich als nicht austauschbar markiert.
+  Neues Destillat `[[spf-tkn-kollektorliste-berechnungsmethodik]]` (status `established`, Formel +
+  Rechenbeispiel + Abgrenzung), eingearbeitet in `destillate/solarthermie-vs-pv-warmwasser-ch.md`
+  (Offene-Punkte-Abschnitt) und `wiki/BAUHERREN-FAQ.md` F40 (Warnzeile ersetzt durch die
+  primärquellen-belegte Erklärung + Grössenordnung), `destillate/INDEX.md` (neue Zeile).
+  **Bewusst nicht geleistet:** eine über mehrere Kollektortypen gemittelte TKN/m²-Statistik — dafür
+  müsste die `kollektorliste.ch`-Exceltabelle (mehrere hundert Produkte) selbst ausgewertet werden,
+  ausserhalb des Aufwands dieses Punktes; die KB verweist stattdessen korrekt auf den Produktweg.
+  Beleg: `git diff --numstat` nativ per ssh nach jedem Schreibvorgang geprüft — neues Destillat
+  (neue Datei, kein Diff-Risiko), `solarthermie-vs-pv-warmwasser-ch.md` +5/-0,
+  `wiki/BAUHERREN-FAQ.md` +9/-4 (Ersetzung der Warnzeile durch die Erklärung, plus Quellenzeile),
+  `destillate/INDEX.md` +1/-0 — durchgehend additiv/präzisierend, keine Löschung von Bestand.

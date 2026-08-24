@@ -71,6 +71,10 @@ Dachfläche bleibt für den flexibleren Solarstrom frei.
   «geringer als PV», aber nur wärmegenutzt → nicht als belegter Wert übernommen. **Förderung
   Solarthermie ist belegt:** CHF **2'400 + 1'000/kWth** (ZH wie SZ) → [[foerderprogramm-energie-zh-2026]] /
   [[foerderprogramm-energie-sz-2026]].
+- ✓ **m²→kWth-Umrechnung geklärt (24.08.2026, Audit-Korrektur A-P3 03.13):** kein Pauschalfaktor
+  möglich, die Förderrelevante Nennleistung (TKN) wird produktspezifisch aus dem Solar-Keymark-Datenblatt
+  berechnet und steht direkt auf `kollektorliste.ch` → Methodik und Beleg in
+  [[spf-tkn-kollektorliste-berechnungsmethodik]].
 - **Wirkungsgrad 70–85 % vs. 20 %** stammt aus Sekundärquellen (energieheld/iwb), nicht aus der
   EnergieSchweiz/Swissolar-Primärseite → als Grössenordnung, nicht als amtlicher Wert.
 - **PVT-Hybridkollektoren** (Strom + Wärme in einem Modul) auf den gelesenen Seiten nicht behandelt —

@@ -76,6 +76,10 @@ detaillierter Gebäudecheck (mit Demontagen/Sondierungen) findet sie.
   fest gebundenen und nicht katastrierten Materialien zu prüfen.
 - Datenstand des Artikels ist 2005 — Grenzwerte (EKAS 6503) und die grundsätzliche Methodik
   gelten unverändert; aktuelle Vollzugspraxis vor Anwendung am UGZ-/AWEL-Stand prüfen.
+- ⚠ **Nachtrag 24.08.2026 (A-WERKZEUG-Nachlauf):** Die CHF-Zahlen (Screening Fr. 800–1'200,
+  Fallbeispiel Fr. 40'000/200'000) sind Preisstand **2004/2005**, keine heutige Marktzahl — als
+  Grössenordnung/Nutzen-Aufwand-Verhältnis weiterhin brauchbar, vor einer Kostenzusage aber mit
+  einer aktuellen Offerte gegenprüfen.
 
 ## Offene Punkte
 - Aktueller Kataster-/Sanierungsstand (nach 2004) nicht erhoben.

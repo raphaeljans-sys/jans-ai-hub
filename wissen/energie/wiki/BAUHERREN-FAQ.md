@@ -1938,9 +1938,14 @@ Wärme **weniger Dachfläche** braucht.
   **rein elektrischer Boiler** ist billig in der Anschaffung, aber teuer und energieschwach im Betrieb.
 - **Förderung Solarthermie** ist belegt: **CHF 2'400 + 1'000/kWth** (ZH wie SZ). ⚠ Diese KB
   dimensioniert Solarthermie in **m² Kollektorfläche**, die Förderung rechnet in **kWth
-  Nennleistung** — die Brücke fehlt: die Nennleistung stammt aus `kollektorliste.ch` und ist beim
-  Anbieter zu verlangen, eine Umrechnung m² → kWth wird hier nicht geschätzt (Audit-Korrektur
-  A-P3 03.13, 24.08.2026; offene Frage → QUESTIONS.md).
+  Nennleistung (TKN)** — und dafür gibt es **bewusst keine** Pauschalformel m² → kWth: die TKN
+  wird je Kollektormodell aus dem Solar-Keymark-Prüfbericht berechnet und variiert nach Bauart
+  (Flachkollektor/Vakuumröhre/Baureihe). Sie steht direkt auf `kollektorliste.ch` (seit 2022 auch
+  als Exceltabelle) und ist beim Anbieter zu verlangen, sobald ein konkretes Produkt feststeht.
+  Als grobe, primärquellen-belegte Grössenordnung vor der Produktwahl: ein reales
+  Solar-Keymark-Rechenbeispiel (Flachkollektor) ergibt rund **570 W/m² Apertur** — kein Kennwert,
+  nur eine Grössenordnung (Quelle und Methodik: [[spf-tkn-kollektorliste-berechnungsmethodik]],
+  geklärt 24.08.2026, Audit-Korrektur A-P3 03.13).
 
 **Entscheid-Reihenfolge:** (1) Wärmeerzeuger klären (WP als Standard); (2) Dach **primär mit PV** belegen;
 (3) Solarthermie nur bei ganzjährig hohem Warmwasserbedarf — dann bewusst **Kollektorfläche gegen PV-Fläche**
@@ -1950,7 +1955,8 @@ abwägen (dieselbe Fläche kann nur einmal belegt werden).
 (swissolar.ch), Stand Juli 2026 → `[[solarthermie-vs-pv-warmwasser-ch]]`; WP-Boiler/PV-Eigenverbrauch →
 `[[wp-pv-eigenverbrauch-lastmanagement]]`, `[[pv-eigenverbrauch-zev]]`; Heizsystem-Wahl →
 `[[waermepumpe-systemvergleich]]`; Solarthermie-Förderung → `[[foerderprogramm-energie-zh-2026]]` /
-`[[foerderprogramm-energie-sz-2026]]`. ⚠ **Datenstand 2026:** Deckungsgrade/Flächen physikalisch stabil;
+`[[foerderprogramm-energie-sz-2026]]`; m²→kWth-Umrechnung → `[[spf-tkn-kollektorliste-berechnungsmethodik]]`.
+⚠ **Datenstand 2026:** Deckungsgrade/Flächen physikalisch stabil;
 «heute meist PV» ist die aktuelle CH-Markteinordnung (kein Norm-Grenzwert). Der Wirkungsgrad 70–85 % vs.
 20 % stammt aus Sekundärquellen; konkrete CHF-Investition einer Solarthermie-Anlage nennen die amtlichen
 Seiten nicht — offen.

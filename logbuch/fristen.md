@@ -3,6 +3,25 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NEU 24.08.2026, 05:29 (Session SIA-Sweep KB normen) — Der SIA-Sweep-Auftrag der KB
+`wissen/normen` laeuft seit den fruehen Morgenstunden im Minutentakt als Endlosschleife und
+produziert nur noch Wiederholungs-Befunde.** Eigene, unabhaengige Nachmessung (05:27 Uhr)
+bestaetigt exakt denselben Saettigungsbefund wie die letzten neun automatischen Laeufe
+desselben Tages: `training/norm-inventar.md` zeigt 0 offene Zeilen, `wiki/QUESTIONS.md` traegt
+unveraendert 33 offene Punkte, jeder haengt an einem Kauf- oder Strukturentscheid Raphaels
+(SIA-Shop-Volltexte, Scope-Erweiterung ueber SIA hinaus auf Suva/EKAS) oder an einer aus der
+Quelle selbst nicht ableitbaren Frage. Der CHANGELOG der KB zaehlt **30 Eintraege allein am
+24.08.2026** zu genau diesem Auftrag (Datei mittlerweile rund 800 KB); `ps aux` zeigt den
+Runner `scripts/claude-run.sh --name mschub591` mehrfach parallel mit identischem Prompt.
+Jeder Lauf verbraucht Kontingent (Budget bis 25 USD je Lauf), ohne die KB weiterzubringen.
+**AKTION Raphael: den ausloesenden Scheduled Task/Loop fuer diesen Auftrag stoppen oder auf
+ein selteneres Intervall bzw. einen erweiterten Scope (Suva/EKAS, siehe
+`wissen/normen/wiki/QUESTIONS.md`) umstellen** — Claude greift gemaess Rule
+`interaktive-eingriffe` nicht selbst in Runner/Cron ein. | eigene Messung 24.08.2026 05:29
+(`ps aux`, CHANGELOG-Zaehlung, Nachmessung norm-inventar/QUESTIONS); Vorlauf-Befund
+`wissen/normen/CHANGELOG.md`, Eintrag 05:22 Uhr desselben Tages | Betrieb/Wissens-Layer normen
+| mittel | offen
+
 
 **NEU 24.08.2026, 00:1x (Session Ausschreibung) — Das LV Plattenarbeiten Nasszellen liegt fertig
 vor; drei der vier Vorbehalte hat der Parallellauf noch in derselben Nacht aufgelöst, einer ist

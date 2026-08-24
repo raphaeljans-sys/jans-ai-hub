@@ -1,5 +1,66 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: 03.13 geschlossen — TKN-Berechnungsmethodik für Solarthermie-Förderung primärquellen-belegt
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den CHANGELOG-Stand.
+Der `- [ ]`-Bestand war zu diesem Zeitpunkt bereits fast vollständig abgearbeitet: praktisch jeder
+verbleibende Punkt hängt an Raphaels Entscheid (Normkauf SIA 380/1:2016, JANS-Projektdaten für
+E103/E94) oder ist als P3/P4 explizit ohne weiteren Rechercheansatz dokumentiert. Einzige
+verbleibende, öffentlich recherchierbare Lücke: **03.13**, ob es für die Solarthermie-Förderung
+(FAQ F40, CHF 2'400 + 1'000/kWth) einen belastbaren Umrechnungsfaktor m² Kollektorfläche → kWth
+Nennleistung gibt — die Vorsession hatte dies nur vermutet («Primärquelle wäre `kollektorliste.ch`
+je Produkt»), ohne die Primärquelle zu lesen.
+
+**Primärquelle gefunden und vollständig gelesen** (SPF Institut für Solartechnik OST Rapperswil,
+«Erläuterungen zur kollektorliste.ch», Stand 12/2021, im Auftrag EnergieSchweiz; PDF direkt
+heruntergeladen und mit PyMuPDF ausgelesen, kein WebFetch-Zusammenfassungsumweg). **Ergebnis: die
+Vermutung war korrekt und ist jetzt an der Berechnungsformel selbst belegt.** Die für die Förderung
+massgebende Thermische Kollektor Nennleistung (TKN) wird je Kollektormodell aus vier
+Solar-Keymark-Prüfwerten und zwei Winkelfaktoren berechnet — eine produktspezifische Grösse, kein
+aus der Fläche ableitbarer Pauschalwert. Nebenbefund: das ältere BFE-Merkblatt 161.3d (2001, «Sepp»,
+EnergieSchweiz) nennt für einen anderen Zweck (Wärmetauscher-Dimensionierung) «700 W/m² maximale
+Kollektorleistung» — eine andere, leicht verwechselbare Kenngrösse, jetzt im neuen Destillat
+ausdrücklich von der TKN abgegrenzt.
+
+Neues Destillat `destillate/spf-tkn-kollektorliste-berechnungsmethodik.md` (status `established`),
+eingearbeitet in `destillate/solarthermie-vs-pv-warmwasser-ch.md`, `wiki/BAUHERREN-FAQ.md` F40
+(Warnzeile durch die primärquellen-belegte Erklärung ersetzt) und `destillate/INDEX.md`. Details:
+`wiki/QUESTIONS.md`, Abschnitt vom selben Tag.
+
+`git diff --numstat` **nativ per ssh** (nie über den SMB-Mount) nach jedem Schreibvorgang geprüft:
+neue Destillat-Datei (kein Bestandsrisiko), `solarthermie-vs-pv-warmwasser-ch.md` +5/-0,
+`wiki/BAUHERREN-FAQ.md` +9/-4 (Ersetzung der bisherigen Warnzeile), `destillate/INDEX.md` +1/-0,
+`wiki/QUESTIONS.md` additiv — durchgehend präzisierend, keine Löschung von Bestand.
+
+## 2026-08-24 — Interaktive Session: A-WERKZEUG-Folgelauf — Zählfehler des Vorlaufs korrigiert, zwei Preis-/Grenzwert-Vorbehalte an Zitierstellen nachgetragen
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den vorigen Lauf
+(«A-WERKZEUG-Alterskorpus-Liste gegen FAQ-Propagation», der einen «kleinen Folgelauf, kein
+Blocker» offen liess: sechs Destillate ohne FAQ-Zitat sowie die Wiki-Themenartikel-
+Zitierstellen ungeprüft). Vor der Arbeit den Treffersatz des Vorlaufs gegen den aktuellen
+Bestand nachgerechnet statt übernommen.
+
+**Zählfehler gefunden:** sechs der 34 vom Werkzeug gemeldeten Treffer sind keine Destillate,
+sondern Themenartikel, die erst durch die 02.17-Nachrüstung (datenstand-Feld) heute in den
+Treffersatz gerutscht sind. Vier davon (`elektromobilitaet-ladeinfrastruktur`, `innendaemmung`,
+`notstromversorgung-sicherheitsstromversorgung`, `pv-eigenverbrauch-zev`) haben FAQ-Zitate und
+wurden vom Vorlauf trotz seiner Aussage «alle 22 propagieren korrekt» nie geprüft — nachgeholt,
+kein Fehler gefunden, alle vier tragen ihren Alters-/Marktvorbehalt bereits an der Zitierstelle.
+
+**Zwei echte Lücken an Wiki-Themenartikel-Zitierstellen gefunden und behoben** (in
+`wiki/gebaeudeschadstoffe.md`): das Destillat `[[asbest-dimension-jenseits-spritzasbest]]`
+(Preisstand 2004/2005) wurde mit den CHF-Beispielzahlen (Fr. 800-1'200, Fr. 40'000/200'000) ohne
+Preis-Datenstand-Vorbehalt zitiert; das Destillat `[[ahb-checkliste-schadstoffe-in-bauten]]`
+(Datenstand 2005) wurde mit «Grenzwerte, Vorschriften, Zuständigkeiten» ohne Altersvorbehalt an
+der Zitierstelle zitiert (der Vorbehalt stand im Destillat nur unter «Offene Punkte»). Beide
+Zitierstellen sowie das erste Destillat selbst um einen ⚠-Vorbehalt ergänzt.
+
+Geänderte Dateien: `destillate/asbest-dimension-jenseits-spritzasbest.md` (+4/-0),
+`wiki/gebaeudeschadstoffe.md` (zwei Satzergänzungen, +4/-2), `wiki/QUESTIONS.md` (neuer
+Abschnitt, additiv). `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend
+additiv/präzisierend, keine Löschung von Bestand. Kein separates `outputs/`-Dokument, da keine
+neue Primärquelle gelesen wurde.
+
 ## 2026-08-24 — Interaktive Session: A-WERKZEUG-Alterskorpus-Liste gegen FAQ-Propagation geprüft, kein neuer Fund
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den CHANGELOG-Stand

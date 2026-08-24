@@ -7,7 +7,7 @@ shots: 547-570
 paragraphen: ["§ 260 Abs. 2 PBG", "§ 260 Abs. 3 PBG", "§ 269 PBG", "§ 270 Abs. 1 PBG", "§ 270 Abs. 2 PBG", "§ 270 Abs. 3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 274 PBG", "§ 274 Abs. 1 PBG", "§ 274 Abs. 2 PBG", "§ 286 PBG", "§ 286 Abs. 2 PBG", "§ 287 PBG", "§ 287 lit. b PBG", "§ 289 PBG", "§ 289 Abs. 1 PBG", "§ 289 Abs. 2 PBG", "§ 290 PBG", "§ 290 Abs. 2 PBG", "§ 290 Abs. 3 PBG", "§ 291 PBG", "§ 302 PBG", "§ 310 Abs. 3 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 73 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 321 Abs. 1 PBG", "§ 357 Abs. 1 PBG", "§ 18 Abs. 1 BBV II", "§ 18 Abs. 2 BBV II", "§ 14 ABV", "§ 15 ABV", "§ 27 ABV", "§ 27 Abs. 2 ABV", "§ 30 ABV", "§ 31 ABV", "§ 33a ABV", "§ 10 ABV", "§ 5 lit. l BVV", "§ 85 BauG", "§ 109 BauG", "Art. 674 ZGB", "Art. 680 Abs. 2 ZGB", "Art. 26 RLV", "Art. 27 RLV", "Art. 38 LeV", "Art. 39 LeV"]
 status: emerging
 gelesen: 2026-06-16
-last_updated: 2026-06-29
+last_updated: "2026-08-24 (Buch-Run 119: die von Buch-Run 118 offen gelassenen zwei Saetze Z. 152-155 am Original-Screenshot S. 1100-1101 nachgefuehrt und korrigiert, siehe QUESTIONS.md Wissens-Chef Run 19 — damit alle drei dort gemeldeten Saetze geschlossen)"
 kanton: ZH
 ---
 
@@ -146,13 +146,29 @@ bestehen bleiben.
 - **Nachweis**: Fuer den durch § 5 lit. l BVV erforderlichen Nachweis der
   Naeherbaurechtsvereinbarung gegenueber der Baubehoerde genuegt eine einfache, schriftlich
   abgefasste Erklaerung des belasteten Grundeigentuemers (BEZ 2001 Nr. 49). Die Schriftlichkeit
-  nach § 270 Abs. 3 PBG verlangt ist, sondern lediglich als Verfahrensbestimmung (§ 5 lit. l BVV)
-  zu qualifizieren. (S. 1099)
-- **Konsequenzen fuer das belastete Grundstueck**: Der erforderliche Gebaeudeabstand richtet sich
-  nach § 274 Abs. 1 PBG, das Gebaeude des Erstbauenden ist (infolge der nachbarlichen Zustimmung)
-  zwar nicht im abstandsrechtlicher Hinsicht baurechtskonform bewilligt (vgl. § 357 Abs. 1 PBG,
-  «als auch den Bauvorschriften widerspricht»). Bei der Realisierung eines Bauvorhabens unter
-  generellem Grenzabstand einhalten (BEZ 2010 Nr. 14; BEZ 1995 Nr. 17). (S. 1100-1101)
+  ist [Korrektur Wissens-Chef Run 19/30.07.2026 + Buch-Run 118: fehlende Negation ergaenzt,
+  Originalscreenshot S. 1099 auf dieser Station nicht verifizierbar, SharePoint PL-02 nicht
+  gemountet] **nicht** nach § 270 Abs. 3 PBG verlangt, sondern lediglich als Verfahrensbestimmung
+  (§ 5 lit. l BVV) zu qualifizieren. (S. 1099)
+- **Konsequenzen fuer das belastete Grundstueck** [Korrektur Buch-Run 119/24.08.2026: am
+  Original-Screenshot S. 1100-1101 nachgefuehrt, siehe QUESTIONS.md Wissens-Chef Run 19]: Bei
+  einem nur einseitig gewaehrten Naeherbaurecht muss der spaeter bauende Nachbar seinerseits
+  weiter von der Grenze zurueckweichen (BEZ 1992 Nr. 34). Der erforderliche Grenzabstand
+  beurteilt sich dann nach § 274 Abs. 1 PBG: das Gebaeude des Erstbauenden widerspricht
+  (infolge der nachbarlichen Zustimmung) **nicht** im Sinne von § 357 Abs. 1 PBG den
+  Bauvorschriften — es ist in abstandsrechtlicher Hinsicht baurechtskonform bewilligt worden
+  (VB.2013.00777, E. 3.5) —, steht aber naeher an der Grenze, als es nach den Bauvorschriften
+  sonst zulaessig waere (BEZ 1995 Nr. 17). Es genuegt die Summe aus dem neu erforderlichen und
+  dem kantonalrechtlichen Mindestgrenzabstand von 3,5 m; mit dem Naeherbaurecht darf nicht nur
+  der Grenz-, sondern auch der Gebaeudeabstand unterschritten werden (die bis zur PBG-Revision
+  1991 bestehende Pflicht zur Wahrung des vorgeschriebenen Gebaeudeabstandes bei Einraeumung
+  eines Naeherbaurechts wurde aufgehoben). Die Baubehoerde darf vom belasteten Nachbarn keine
+  Abrueckungserklaerung mehr verlangen, mit der er sich verpflichtet, bei der Realisierung eines
+  Bauvorhabens einen groesseren als den gesetzlichen Grenzabstand einzuhalten (BEZ 2010 Nr. 14;
+  BEZ 1995 Nr. 17); sie prueft nur das konkret zur Beurteilung stehende Bauvorhaben. Steht nur
+  dem Erstbauenden ein Naeherbaurecht zu, muss sich die Baubehoerde nicht um Konsequenzen fuer
+  kuenftige Bauten auf dem Nachbargrundstueck kuemmern (Schuepbach Schmid: S. 47; vgl. auch
+  S. 1096). (S. 1100-1101)
 - **Eintrag im Grundbuch**: Wollen die Beteiligten das Erfordernis von § 270 Abs. 3 PBG
   hinausgehend, eine langfristige und gegenseitige Sicherung ihrer Rechte erreichen, draengt sich
   die Eintragung einer entsprechenden Dienstbarkeit im Grundbuch auf (Art. 680 Abs. 2 ZGB i.V.m.

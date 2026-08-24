@@ -1,8 +1,49 @@
 # Offene Fragen — KB Normen
 
-## Cross-KB-Übergabe von `wissen/energie` (24.08.2026) — 7 nie gesichtete SIA-Vertragsrecht-docx in PL-02
+## Cross-KB-Übergabe von `wissen/energie` (24.08.2026) — 7 nie gesichtete SIA-Vertragsrecht-docx in PL-02 ✅ GESCHLOSSEN 24.08.2026 05:2x Uhr — alle 7 Dateien einzeln geöffnet, kein Destillationsbedarf
 
-**Herkunft:** `wissen/energie` hat PL-02 Recht_Norm am 23.08.2026 (Run 161, Fortsetzung
+**Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung, achter Lauf):** alle 7 Dateien einzeln über den
+M365-Graph-Connector geöffnet (`connectors/m365-graph.mjs`, Site PL, Drive `02_Recht_Norm`) und
+per `textutil -convert txt` bzw. Ordner-Listing geprüft. Ergebnis je Datei:
+
+1. `1001-1_2020_d.docx` (SIA1001.1_2020_Planer_Bauleitervertrag/) — reine Word-Ausfüllvorlage;
+   PDF-Pendant `1001-1_2020_d.pdf` im selben Ordner. Inhalt bereits `established` in dieser KB:
+   `destillate/sia-1001-1-2020.md` (adversarial verifiziert Run 15, 260717, siehe
+   `destillate/INDEX.md` Z. 307). **Kein Destillationsbedarf.**
+2. `1001-11_2018_d.docx` (SIA1001.11_BIM_Zusatzvereinbarung_BIM/) — Word-Ausfüllvorlage;
+   PDF-Pendant `1001-11-K_2018_d.pdf` im selben Ordner. Bereits `established`:
+   `destillate/sia-1001-11-2018.md` (Run 15, `destillate/INDEX.md` Z. 310). **Kein Bedarf.**
+3. `1001-2_2020_d.docx` (SIA1001.2_2020_Gesellschaftsvertrag_fuer_Planergemeinschaften/) —
+   Word-Ausfüllvorlage; PDF-Pendant `1001-2_2020_d.pdf` im selben Ordner. Bereits `established`:
+   `destillate/sia-1001-2-2020.md` (Run 15, `destillate/INDEX.md` Z. 308). **Kein Bedarf.**
+   (Ergänzend, nicht Teil der 7er-Liste: SIA 1001/3 ist über denselben Run 15 ebenfalls
+   `established`, `destillate/sia-1001-3-2020.md`, `destillate/INDEX.md` Z. 309.)
+4. `230529_Vertragsunterschiede.docx` (00_Vertag_Knowhow/) — **Korrektur zur Ursprungsnotiz:**
+   ein PDF-Pendant existiert sehr wohl im selben Ordner (`230529_Vertragsunterschiede.pdf`),
+   die Behauptung „kein erkennbares PDF-Pendant" war falsch. **Wichtiger:** der Dateiinhalt
+   selbst ist ein eingefügter ChatGPT-Dialog («Erkläre mir modellhaft die Unterschiede der
+   SIA 1001.1 … zu SIA1012.4 Subplanervertag» + KI-Antwort) — **keine Primärquelle, keine
+   SIA-Norm, sondern ein KI-generiertes Erzeugnis eines Dritt-Tools.** Nach Rule
+   `normen-referenz` (nur `established`/Primärquelle zitierfähig) und Rule
+   `wissens-bibliothekar` (nichts raten, jede Aussage belegen) ist diese Datei **explizit NICHT
+   destillierbar und NICHT zitierfähig** — sie würde eine KI-Halluzination als KB-Fakt einführen.
+   Als Negativ-Fund festgehalten, nicht als Bring-Schuld.
+5. `Link_Vertag.docx` (00_Vertag_Knowhow/) — enthält ausschliesslich eine URL
+   (`https://www.sia.ch/de/dienstleistungen/normen/vertraege/`), keinen Fliesstext. Keine
+   Destillationsgrundlage.
+6. `contrat d'architecte sine nomine.doc` (siebte, zunächst unklare Datei, jetzt lokalisiert:
+   `SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/_SIA1002_2003_Vertag_fuer_Architekturleistungen/f/`)
+   — liegt in einem `_Archiv`-Unterordner der bereits 2020 abgelösten Vorgängernorm SIA
+   1002:2003, ist französischsprachig und ein Vertragsformular, kein Normtext. Archiviert +
+   fremdsprachig + Formular einer abgelösten Ausgabe: **kein Destillationsbedarf.**
+
+**Ergebnis: 6 der 7 Dateien sind entweder bereits abgedeckt (established) oder keine
+destillierbare Quelle; die 7. (`230529_Vertragsunterschiede.docx`) ist ein aktiver
+Negativ-Fund (KI-Fremderzeugnis, nie als Quelle verwenden).** Kein neues Destillat nötig.
+Cross-KB-Bringschuld an `wissen/normen` damit erledigt. Report:
+`outputs/2026-08-24_cross-kb-sia-vertraege-pl02-pruefung.md`.
+
+**Herkunft (Ursprungsnotiz von `wissen/energie`):** `wissen/energie` hat PL-02 Recht_Norm am 23.08.2026 (Run 161, Fortsetzung
 «E-R161-3») erstmals filterlos gezählt (ohne Dateityp-Filter), um KI-generierte Dokumente
 aufzuspüren. Dabei sind SIA-Vertragsrecht-docx aufgefallen, die ausserhalb des Energie-Scopes
 liegen — bisher **nicht einzeln geöffnet**, nur als Fundstelle vermerkt (Rule

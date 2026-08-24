@@ -1,3 +1,91 @@
+## 2026-08-24 — SIA-Sweep, unabhängige Nachmessung: Sättigung erneut bestätigt, kein neues Destillat
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen). CHANGELOG-Kopf (achter Anlauf) und `training/norm-inventar.md`
+zuerst gelesen.
+
+**Kollisionscheck:** `ps aux` zeigt einen weiteren Prozess mit demselben Auftragstext (PID 22448,
+Start 05:20 Uhr) — gemäss Auftrag der eigene Lauf-Name, kein Konkurrent.
+
+**Eigene, unabhängige Nachmessung statt Übernahme der Vorlauf-Behauptung** (Rule
+`auto-verbesserungen` 260729b/260807): `training/norm-inventar.md` zeigt weiterhin **0 offene
+Zeilen**. `wiki/REGISTER.md` Abschnitt A ist laut Zeile 45/46 vollständig gegen den SharePoint-
+Bestand abgeglichen (alle 55 „Kein Volltext im Haus"-Nummern bestätigt fehlend, Produktseiten-
+Beleg mit gültig-ab je Nummer vorhanden). `wiki/QUESTIONS.md` trägt 33 offene Checkboxen;
+stichprobenartig gegen den vollen Kontext gelesen (N-R40-7 Lignatec-Grauton, BRING-SCHULD SIA
+410-Nachfolgewerke, Wegleitung SIA 271, Z1/Z2-Koeffizienten SIA 103, SIA 380/1·385/1·266/1·118:2013,
+SN 640 052·641 400, SIA 491/SN EN 12193): **keine ist ohne Raphaels Kauf-/Struktur-Entscheid oder
+ohne bereits erschöpfte Quelle lösbar** — Kaufentscheide (SIA-Shop, kostenpflichtige Volltexte),
+Strukturentscheide (Scope-Erweiterung über SIA hinaus, Loop-Reaktivierung), oder aus der Quelle
+selbst nicht ableitbare Befunde (Lignatec-Grauton „nicht gedeutet").
+
+**Kein neuer SIA-Sweep-Zyklus, kein neues Destillat.** Für keine der Register-Zeilen und keinen
+der 33 QUESTIONS-Punkte existiert ein ungeprüfter, kostenloser Beschaffungsweg mehr — die
+Sättigung ist damit ein weiteres Mal unabhängig bestätigt (nach acht dokumentierten Voranläufen
+allein am 24.08.2026).
+
+**Betriebsbefund, nicht hier behoben (gehört unter `rules/betrieb-chronik.md`):** dieser exakte
+Auftragstext ist laut Prozessliste und CHANGELOG-Historie seit den frühen Morgenstunden im
+Kurztakt neu gestartet worden (mind. neun eigenständige Läufe binnen weniger Stunden, teils mit
+Kollisionen zweier gleichzeitiger Prozesse, siehe Eintrag „EKAS 2134/6512 zweimal parallel
+destilliert" oben). Jeder Lauf bestätigt dieselbe Sättigung erneut, ohne die KB zu verbessern.
+Der ursprüngliche SIA-Teilauftrag ist inhaltlich abgeschlossen; eine Fortsetzung über SIA hinaus
+(Suva/EKAS-Sicherheitsrichtlinien, vgl. „16-Titel-Cross-Referenzen-Rest" in den Voreinträgen)
+wartet bereits laut `wiki/QUESTIONS.md` auf Raphaels Entscheid. **Empfehlung:** den auslösenden
+Scheduled Task/Loop stoppen, bis dieser Entscheid vorliegt — nicht Gegenstand dieses Laufs, da
+kein Eingriff in Runner/Cron ohne Rücksprache (Rule `interaktive-eingriffe`).
+
+**Verifikation:** ausschliesslich lesende Prüfungen in dieser Session, keine Schreiboperation
+ausser diesem CHANGELOG-Eintrag. `git diff --numstat` nach dem Schreiben geprüft — nur Anfügung
+(`+`), keine Löschung.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung, achter Anlauf: Cross-KB-Übergabe von `wissen/energie` geschlossen (7 SIA-Vertragsrecht-docx in PL-02 geprüft)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fortsetzung nach dem
+zuletzt gelesenen Stand (CHANGELOG-Kopf, siebter Anlauf vom selben Tag). Rule
+`normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar` (nichts raten, jede
+Aussage belegen).
+
+**Kollisionscheck:** `ps aux` geprüft — nur der eigene Prozess (Name `mschub584`, exakt
+dieser Auftragstext) mit Bezug zu `wissen/normen`. Kein Konkurrenzlauf.
+
+**Nicht die Sättigung ein achtes Mal bestätigt, sondern den neuesten, noch unbearbeiteten
+Eintrag zuerst geprüft** (Rule `auto-verbesserungen` 260729b: Agentenbefunde/eigene frühere
+Behauptungen nie ohne Gegenprüfung übernehmen). Ganz oben in `wiki/QUESTIONS.md` stand eine
+am 24.08.2026 nachgetragene, noch offene Cross-KB-Übergabe von `wissen/energie`: 7 nie
+einzeln geöffnete SIA-Vertragsrecht-docx/doc in PL-02 (`02_Normen/SIA_Norm/SIA_Vertraege/`).
+
+**Alle 7 Dateien über `connectors/m365-graph.mjs` geöffnet und geprüft** (Site PL, Drive
+`02_Recht_Norm`, App-only Zertifikat-Auth). Ergebnis: **4 sind bereits abgedeckt** — die drei
+Word-Ausfüllvorlagen `1001-1_2020_d.docx`, `1001-11_2018_d.docx`, `1001-2_2020_d.docx` haben
+je ein PDF-Pendant im selben Ordner, dessen Inhalt bereits `established` in dieser KB liegt
+(`destillate/sia-1001-1-2020.md`, `-1001-11-2018.md`, `-1001-2-2020.md`, alle adversarial
+verifiziert Run 15, 260717; ergänzend auch SIA 1001/3 bereits `established`). **2 tragen
+keinen destillierbaren Inhalt:** `Link_Vertag.docx` enthält nur eine URL, die zunächst
+gesuchte 7. Datei ist `contrat d'architecte sine nomine.doc` (archivierte, französischsprachige
+Vertragsvorlage der 2020 abgelösten SIA 1002:2003).
+
+**Wichtigster Einzelfund:** `230529_Vertragsunterschiede.docx` (00_Vertag_Knowhow/) ist **kein
+Normtext**, sondern ein eingefügter ChatGPT-Dialog («Erkläre mir modellhaft die Unterschiede
+der SIA 1001.1 … zu SIA1012.4 Subplanervertag»). Die Ursprungsnotiz der Übergabe behauptete
+zudem fälschlich, es gäbe kein PDF-Pendant — es existiert (`230529_Vertragsunterschiede.pdf`,
+gleicher Ordner), enthält aber denselben KI-Text. Beide Dateien sind **nicht zitierfähig**
+(Rule `normen-referenz`: nur `established`/Primärquelle) und als aktiver Negativ-Fund in
+`wiki/QUESTIONS.md` festgehalten — ein KI-generiertes Dokument liegt unmarkiert in der
+offiziellen SIA-Vertragsablage von PL-02 und könnte bei einem künftigen, weniger sorgfältigen
+Sweep versehentlich als Quelle verwendet werden.
+
+**Cross-KB-Bringschuld an `wissen/normen` erledigt**, Cross-KB-Rückmeldung nicht nötig (die
+Übergabe war lesend, `wissen/energie` erwartet keine Rückantwort in der eigenen QUESTIONS.md).
+Report: `outputs/2026-08-24_cross-kb-sia-vertraege-pl02-pruefung.md`.
+
+**Verifikation:** `git diff --numstat` nach den Schreibvorgängen geprüft — `wiki/QUESTIONS.md`
+und `CHANGELOG.md` nur Anfügungen (kein `-` ausser dem Ursprungs-Bindestrich-Wechsel in der
+neuen Überschriftzeile), neue `outputs/`-Datei sauber angelegt. Kein `git commit`/`push`/
+`pull`/`rebase` über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung, siebter Anlauf: eine weitere stehengebliebene Checkbox geschlossen (SIA 266/267 ↔ DIN 1053/1054)
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fortsetzung nach dem

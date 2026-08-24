@@ -47,6 +47,34 @@ Befund verbucht. Nächster Schritt für eine Station mit funktionierendem `PL`-M
 funktionierendem `node`/M365-Connector: die 12 Dateien öffnen, gegen bereits ingestete Quellen
 diffen, dann entscheiden.
 
+**Ordnerlisting nachgeholt (Buch-Run 119, 2026-08-24), Inhalt weiterhin nicht geöffnet.** Auf
+dieser Station (Mac Mini) funktionierten sowohl `node` als auch der Graph-Connector — die
+Ordnerinhalte beider Verzeichnisse wurden aufgelistet (keine Datei geöffnet). Ergebnis: **6 der
+12 Dateien haben einen PDF-Zwilling im selben oder einem `PDF`-Unterordner** (`200523
+Fragestellungen Baurecht`, `200529 Zusammenfassung Baurecht`, `200518 Besitzstandsgarantie`,
+`Seehaldenstrasse 31/200831 BR Grundstück` — die vermutete Dublette von oben ist damit
+**bestätigt**, das docx liegt neben dem bereits als authentisch geführten PDF im Unterordner
+`PDF/`), die übrigen 6 (`200508 Aktennotiz-Baurecht.dotx`, `1 Nicht wesentliche weiter gehende
+Bau.docx`, `200521 1 Nicht wesentliche weiter gehende Bau.docx`, `Besitzstandsgarantie.docx`,
+`200819 BR Gesetzestexte.docx`, `_Links.docx`, `_Wesentliche Bestandteile eines
+Aufteilungsplans.docx`, `Checkliste_STWEG_Begruendung_WOMA.docx` — mehr als 6, die Zählung der
+Herkunftsnotiz oben war eng gefasst) haben **keinen** PDF-Zwilling. Volltextsuche in
+`wissen/baurecht/raw/`, `wiki/` und `buecher/` nach Besitzstandsgarantie-Fallnamen,
+«Baurechtsanalyse», «Aktennotiz-Baurecht» und «Seehaldenstrasse» ergab **keine** bereits
+ingestierte Fassung dieser konkreten Dokumente (nur unabhängige Fundstellen desselben
+Rechtsbegriffs) — die 12 Dateien sind damit bestätigt unerschlossen, keine Dublette bereits
+vorhandenen KB-Wissens.
+**Bewusst nicht weiter geöffnet:** Alle 12 Dateien sind **projektgebundene Bauherren-/
+Klientendokumente** (Baurechtsanalyse für konkrete, im Dateinamen genannte Adressen; STWEG-
+Begründung für einen benannten Kunden «WOMA»). Arbeitsregel 5 der Reglemente-Queue («Kein
+Projektgeheimnis in die KB: Eigentümernamen, Kaufpreise, private Korrespondenz bleiben draussen»)
+und Rule `auto-verbesserungen` 260823 (Vorsicht bei Massen-Sweeps über Geschäftsdaten, Verträge/
+Kundendossiers gehören nie ungefiltert in ein versioniertes, gepushtes Repo) verlangen eine
+Einzelfall-Prüfung je Datei — welcher Absatz ist verallgemeinerbare Rechtsargumentation
+(Besitzstandsgarantie-Dogmatik, STWEG-Teilungsplan-Vorgehen) und welcher ist Klientengeheimnis —,
+bevor irgendein Inhalt daraus ins Wiki wandert. Das ist eine Lektüre- und Abwägungsarbeit, kein
+reiner Dublettencheck, und bleibt für einen eigenen künftigen Lauf offen.
+
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 98) — ZH-Mehrwertausgleich (MAG): Buchstand 2019 war Entwurf, erlassener Text weicht in den Prozentsätzen ab
 
 **War offen seit Erstellung von [[enteignung-und-entschaedigung]] (2026-07-04), zuletzt bei
@@ -2081,9 +2109,16 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   ab Shot 732 / S. 1456 ff.
 - **Baupolizeiliche Missstände + Brandstattrecht § 307 PBG offen:** dritter/vierter Tatbestand
   der Kap.-20-Übersicht (Wiederaufbau zerstörter Gebäude), S. 1456 ff. noch nicht distilliert.
-- **needs-verification — Wortlaut § 220 / § 357 Abs. 1 PBG:** im Destillat
+- ~~**needs-verification — Wortlaut § 220 / § 357 Abs. 1 PBG:** im Destillat
   [[20-ausnahmen-bestandesschutz]] nach Buch S. 1434/1444 sinngemäss wiedergegeben; am amtlichen
-  PBG-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).
+  PBG-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).~~ → **stale, bereits erledigt
+  (Buch-Run 118, 2026-08-24):** der Wortlautabgleich fand bereits am 13.07.2026 statt
+  (Modell-D-Refuter, siehe `buecher/band-2/20-ausnahmen-bestandesschutz.md`, Abschnitt «Offene
+  Punkte / zu verifizieren» — § 220 gegen `raw/260607_amtlich_zh_pbg.md` Z. 2186-2194, § 357
+  gegen Z. 3760-3773, CONFIRMED mit 2 kleinen Zitatkorrekturen) und ist zusätzlich im
+  `established`-Artikel [[ausnahmebewilligung-und-bestandesschutz]] (Frontmatter `sources`,
+  Fliesstext Z. 22-28/104-116) vollständig nachgeführt — nur der Zeiger hier war seither nie
+  aktualisiert worden. Gleiche Fehlerfamilie wie Run 105/109/110/113-115.
 
 ## Offene Wissenslücken — neu (2026-06-19, aus Buch-Run Kap. 7 Teil 1)
 - ~~**7.2/7.3 Auskünfte + baurechtlicher Vorentscheid / Voranfrage offen (HOHE Büroprio)**~~ →
@@ -2566,7 +2601,16 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
 
 ## Cross-KB-Befund Wissens-Chef Run 15 (2026-07-25) — Revisionsstrang «Erleichtertes Bauen im Bestand»
 
-- [ ] **Die KB kennt die laufende Revision ihrer eigenen Leitnormen nicht.** `grep «220a»` und
+- [x] **Erledigt (stale Checkbox, bereits geschlossen 2026-08-24 bei Anlage von
+  [[ausnahmebewilligung-und-bestandesschutz]]):** der Artikel führt den Revisionsstrang seit
+  seiner Ersterstellung im Abschnitt «Vorentwurf ‹Erleichtertes Bauen im Bestand› (§ 220a
+  E-PBG)» — inkl. § 357 E-PBG-Ergänzung, der geplanten ersatzlosen Aufhebung des
+  Mehrlängenzuschlags (§§ 21 Abs. 2/23/24 ABV, Querverweis [[abstaende-und-hoehen]]) und dem
+  Verfahrensstand (Vernehmlassung 26.09.2025-16.01.2026 abgeschlossen, keine
+  Kantonsratsvorlage). Der Artikel selbst vermerkt bereits: «Schliesst den Cross-KB-Befund
+  Wissens-Chef Run 15 (25.07.2026).» Nur die Checkbox hier war seither nie nachgezogen worden.
+  Führend bleibt `wissen/planungsgrundlagen/wiki/recht-norm-pbg-revision-bauen-im-bestand.md`.
+  Ursprünglicher Befund, `grep «220a»` und
   `grep «Erleichtertes Bauen»` über den gesamten Ordner `wissen/baurecht/`: **0 Treffer**. Die KB
   `planungsgrundlagen` führt dagegen seit Run 53 einen vollständigen Artikel zum ZH-Rechtsetzungs-
   strang: `wiki/recht-norm-pbg-revision-bauen-im-bestand.md` (Run 58 am 24.07. aktualisiert).
@@ -2602,16 +2646,49 @@ Detailquelle verlinkt. **Empfehlung:** S. 1099-1101 (Shots 547-570) neu destilli
 Sätze am Original nachführen, bevor irgendeine Ableitung daraus in andere KBs wandert — im
 geprüften Fall hat ein Lese-Agent genau daraus einen falschen Schluss gezogen.
 
-**(b) Nicht vollzogener Sweep in einem `established`-Artikel.** `wiki/abstaende-und-hoehen.md`
-zitiert die 1/3-/1.3-m-Vorsprungsregel weiterhin ungebrochen als «(§ 260 Abs. 3 PBG, § 27 Abs. 1
-ABV)», **ohne den Haupt-/Anhang-Vorbehalt**. Die KB hat diese Divergenz am 27.07.2026 (Buch-Run 62)
-selbst als offene Frage markiert (`QUESTIONS.md`, `baulinien-und-abstandslinien.md` Z. 99-110):
-im Hauptteil des geltenden PBG regelt § 260 Abs. 3 die **Getrenntmessung bei seitlich gegliederten
-Gebäuden**; die Vorsprungsregel steht in der **Anhang**-Fassung und ist für den Grenzabstand nach
-eigener KB-Feststellung durch § 6c ABV abgelöst. **Der Vorbehalt ist im Schwester-Artikel gesetzt,
-im Leit-Artikel nicht** — wer über `abstaende-und-hoehen` einsteigt (der vorgesehene Weg), bekommt
-die ungebrochene Fassung. Das ist der ausbreitungsfähige Teil: im geprüften Fall hat genau diese
-Stelle einen Lese-Agenten zu einer falschen Zitierempfehlung verleitet.
+**Teilweise erledigt (Buch-Run 118, 2026-08-24):** Satz 1 (Z. 136-138) korrigiert — die
+Negation ist eindeutig rekonstruierbar (Kontext des unmittelbar vorangehenden Absatzes «Form der
+Vereinbarung»: § 270 Abs. 3 PBG regelt die Form nicht selbst, die Schriftlichkeit ist eine reine
+Verfahrensbestimmung nach § 5 lit. l BVV), im Fliesstext mit Korrekturvermerk ergänzt. **Sätze 2
+und 3 (Z. 139-143) weiterhin unverändert offen** — diese Session lief headless ohne lokalen Mount
+von SharePoint `/sites/PL` und ohne `node` im `PATH` (identischer Befund wie Buch-Run 117), die
+Original-Screenshots S. 1100-1101 waren damit nicht einsehbar; Rule `wege-und-vollmachten`/`nichts
+raten` verbietet eine Rekonstruktion ohne Quellenzugriff. Für einen künftigen Lauf auf einer
+Station mit funktionierendem `PL`-Mount oder `node`/M365-Connector.
+
+**Vollständig erledigt (Buch-Run 119, 2026-08-24).** Auf dieser Station (Mac Mini) waren sowohl
+`node` (`/opt/homebrew/bin/node`) als auch der M365-Graph-Connector (`connectors/m365-graph.mjs`,
+Weg 2 aus `connectors/WEGE.md`) verfügbar — der lokale `PL`-Mount fehlte weiterhin, war aber nicht
+nötig. Die beiden Original-Screenshots (`Bildschirmfoto 2026-06-07 um 12.04.15/16.jpg`, laut
+`buecher/seiten-inventar.md` Zeilen 571-572) direkt über die Drive-ID der Bibliothek
+`02_Recht_Norm` geladen und gelesen. **Beide Sätze waren echte Fehler, kein reiner Textverlust:**
+Satz 2 kehrte die Aussage inhaltlich um — im Original widerspricht das Gebäude des Erstbauenden
+**nicht** den Bauvorschriften i.S.v. § 357 Abs. 1 PBG (es ist baurechtskonform bewilligt), steht
+aber näher an der Grenze als sonst zulässig; das Destillat hatte daraus «zwar nicht … baurechtskonform
+bewilligt» gemacht, also das Gegenteil. Satz 3 war keine eigenständige Aussage, sondern das
+verstümmelte Ende des Abrückungserklärungs-Satzes («… darf die Baubehörde nicht mehr verlangen, eine
+Abrückungserklärung abzugeben … bei der Realisierung eines Bauvorhabens einen grösseren als den
+gesetzlichen Grenzabstand einzuhalten», BEZ 2010 Nr. 14/BEZ 1995 Nr. 17) — im vorherigen Satz war
+das Subjekt beim Kürzen verlorengegangen. Beide am Original wortlautnah rekonstruiert, dazu die im
+Original vorangehende, im Destillat bisher fehlende Aussage zum einseitig gewährten Näherbaurecht
+(BEZ 1992 Nr. 34) ergänzt. **GEÄNDERT** `buecher/band-2/15-lage-von-gebaeuden-teil2d.md`
+(Fliesstext + Frontmatter `last_updated`). Damit sind alle drei von Wissens-Chef Run 19 gemeldeten
+Sätze geschlossen.
+
+**(b) Nicht vollzogener Sweep in einem `established`-Artikel — erledigt (Buch-Run 118,
+2026-08-24).** `wiki/abstaende-und-hoehen.md`, Abschnitt «Abstandsprivilegierte Bauteile», zitierte
+die 1/3-/1,3-m-Vorsprungsregel weiterhin ungebrochen als «(§ 260 Abs. 3 PBG, § 27 Abs. 1 ABV)»,
+**ohne den Haupt-/Anhang-Vorbehalt**, obwohl die KB die Divergenz am 27.07.2026 (Buch-Run 62) in
+`baulinien-und-abstandslinien.md` bereits dokumentiert hatte: im Hauptteil des geltenden PBG regelt
+§ 260 Abs. 3 die **Getrenntmessung bei seitlich gegliederten Gebäuden**; die 1/3-Vorsprungsregel
+steht nur in der **Anhang**-Fassung (Stand 28.2.2017) und gilt übergangsrechtlich, bis die
+Gemeinde ihre BZO harmonisiert hat — danach gilt die grosszügigere Hauptteil-Regel **1/2**
+Fassadenlänge/**2 m** Tiefe (§ 260 nPBG i.V.m. § 6c Abs. 1 ABV, gegen `raw/260607_amtlich_zh_abv.md`
+Z. 119 verifiziert — kantonsrechtlich bereits in Kraft, keine blosse Vorlage, siehe die
+Fassungsstand-Umkehr-Klarstellung im selben Artikel, Abschnitt «Harmonisierungsvorlage»). Beide
+Werte jetzt direkt an der zitierten Stelle im Leit-Artikel ergänzt, mit Cross-Referenz auf den
+Abschnitt weiter unten — der Vorbehalt fehlt nicht mehr genau dort, wo ein Lese-Agent zuerst
+einsteigt.
 
 ## 2026-07-31 — revBZO Thalwil: Wo ist die 50-m²-Grenze für Kleinbauten normiert? — ✅ BEANTWORTET 04.08.2026
 Die Synopse (16.04.2025, S. 40, Bemerkungsspalte zu Art. 24 alt/Art. 45 rev) begründet die
