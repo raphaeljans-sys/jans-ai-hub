@@ -2,9 +2,9 @@
 beschreibung: Die Bauausführungsphase im ZH-Baurecht — Baufreigabe (§ 326 PBG), Meldepflichten + baupolizeiliche Kontrollen (§ 327 PBG), Bezugsbewilligung/Schlusskontrolle, Unterbruch der Bauarbeiten / «ewige Baustelle» (§ 328 PBG), Sicherheit der Baustelle (§ 239 PBG).
 title: Bauausführung und Baukontrolle (Kt. ZH)
 status: established
-last_updated: 2026-08-23
-sources: [raw/260607_amtlich_zh_pbg.md, "Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31); Art. 8/679/684/836 ZGB + Art. 29a BV + Art. 32bbis USG + Art. 6 LSV + Art. 11 Abs. 2 USG volltextverifiziert gegen fedlex.data.admin.ch (Modell-D Run 100)"]
-verifiziert: 2026-07-25 (Run 58, Modell D — §§ 326-329 PBG + §§ 10c/30 VRG Bestand aus Run 30/31 bestätigt; Register-Sweep-Nachzug: Geisterbezeichnung «Art. 32bis USG» korrigiert zu «Art. 32bbis USG» — Run 47 hatte diesen Fundort beim ersten Sweep verfehlt); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 8/9/10c/15/30 VRG frisch gegen Nachtrag 133 geprüft, wortidentisch, 0 Änderung; Details [[rechtsschutz-und-rechtsmittelverfahren]]); 2026-08-23 (Run 100, Modell D — erstmals die Bundesrechts-Zitate gegen den amtlichen Wortlaut geprüft: Art. 8/679/684/836 ZGB und Art. 29a BV CONFIRMED wortgleich; Art. 32bbis USG CONFIRMED, aber präzisiert (Geltendmachungsfrist Abs. 3 seit 1.11.2021 abgelaufen); Art. «38 Abs. 2 USG» als Beleg für das Vorsorgeprinzip war FALSCH — korrigiert auf Art. 11 Abs. 2 USG, Art. 6 LSV bleibt für die Baulärm-Richtlinien-Erlasskompetenz richtig)
+last_updated: 2026-08-24
+sources: [raw/260607_amtlich_zh_pbg.md, raw/260824_amtlich_zh_vb-2014-00026.md, "Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31); Art. 8/679/684/836 ZGB + Art. 29a BV + Art. 32bbis USG + Art. 6 LSV + Art. 11 Abs. 2 USG volltextverifiziert gegen fedlex.data.admin.ch (Modell-D Run 100); VB.2014.00026/BEZ 2014 Nr. 46 volltextverifiziert gegen entscheidsuche.ch (Run 108)"]
+verifiziert: 2026-07-25 (Run 58, Modell D — §§ 326-329 PBG + §§ 10c/30 VRG Bestand aus Run 30/31 bestätigt; Register-Sweep-Nachzug: Geisterbezeichnung «Art. 32bis USG» korrigiert zu «Art. 32bbis USG» — Run 47 hatte diesen Fundort beim ersten Sweep verfehlt); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 8/9/10c/15/30 VRG frisch gegen Nachtrag 133 geprüft, wortidentisch, 0 Änderung; Details [[rechtsschutz-und-rechtsmittelverfahren]]); 2026-08-23 (Run 100, Modell D — erstmals die Bundesrechts-Zitate gegen den amtlichen Wortlaut geprüft: Art. 8/679/684/836 ZGB und Art. 29a BV CONFIRMED wortgleich; Art. 32bbis USG CONFIRMED, aber präzisiert (Geltendmachungsfrist Abs. 3 seit 1.11.2021 abgelaufen); Art. «38 Abs. 2 USG» als Beleg für das Vorsorgeprinzip war FALSCH — korrigiert auf Art. 11 Abs. 2 USG, Art. 6 LSV bleibt für die Baulärm-Richtlinien-Erlasskompetenz richtig); 2026-08-24 (Run 108 — VB.2014.00026/BEZ 2014 Nr. 46 E. 3.1.2 erstmals im Volltext gelesen (entscheidsuche.ch): das bisher zitierte Wort «zaegig» kam im Original nicht vor, korrigiert auf den wörtlichen Befund «derart langsam gearbeitet», Rechtsfolge-Massstab präzisiert)
 paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684/836 ZGB; Art. 29a BV; VUV; BauAV; Art. 16 VVEA; Art. 32bbis, Art. 11 Abs. 2 USG; Art. 6 LSV; §§ 2/15/19 KVAV
 quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31)
 ---
@@ -78,9 +78,13 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
 
 - **Zweck:** Schutz von Nachbarschaft und Öffentlichkeit vor Anblick und Gefahren einer **Bauruine**
   (Sicherheit § 239 PBG, Einordnung § 238 PBG → [[raumplanung-und-gestaltung]]).
-- **Unterbruch** liegt vor bei längerem Stillstand — oder wenn so zaegig gebaut wird, dass die Bauzeit
-  in einem **Missverhältnis** zu Volumen/Aufgabe steht (VB.2014.00026; BEZ 2014 Nr. 46). «Längere Zeit»
-  = Einzelfall, **ausser bei Arealüberbauungen: höchstens 2 Jahre** (§ 328 Abs. 1 PBG).
+- **Unterbruch** liegt vor bei längerem Stillstand — oder wenn zwar regelmässig, aber **derart langsam
+  gearbeitet wird**, dass die Bauzeit in keinem vernünftigen Verhältnis zu Volumen/Aufgabe mehr steht
+  (VB.2014.00026 E. 3.1.2, BEZ 2014 Nr. 46, Wortlaut volltextverifiziert Run 108). Massgebend ist dabei
+  nicht der Abstand zwischen einzelnen kleineren Bauarbeiten, sondern eine Gesamtbetrachtung der
+  zeitlichen Distanz zwischen dem beurteilten Bauzustand und der rechtskräftigen Baubewilligung, unter
+  Berücksichtigung der Vorhabengrösse. «Längere Zeit» = Einzelfall, **ausser bei Arealüberbauungen:
+  höchstens 2 Jahre** (§ 328 Abs. 1 PBG).
 - **Rechtsfolgen:** (1) zwingende **Aufforderung** zur Beendigung innert nützlicher Frist; (2) **Androhung**
   im Säumnisfall (§ 328 Abs. 2, amtlicher Wortlaut): **Fertigstellung durch Ersatzvornahme (lit. a)**;
   **Förderung/Weiterführung der Bauarbeiten durch die Gemeinde, soweit es die Sicherheit von Personen

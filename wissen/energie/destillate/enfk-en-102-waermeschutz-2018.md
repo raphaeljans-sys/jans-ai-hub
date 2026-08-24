@@ -1,18 +1,19 @@
 ---
 quelle: "Vollzugshilfe EN-102 «Waermeschutz von Gebaeuden»"
 herausgeber: "EnFK — Konferenz Kantonaler Energiefachstellen"
-ausgabe: "Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe 2016)"
-gelesen: "2026-06-06 (S. 1-16, vollstaendig); Korrektur-Gegenpruefung Tabelle 5 + Frontmatter 2026-07-17 (S. 10-11, per curl+pdftotext)"
-datenstand: "Dez 2018 / SIA 380/1:2016 — operative Vollzugsbasis Kt. ZH bereits seit Anforderungsprofil Version 16.01a (Ausgabe 11.04.2017), fortgefuehrt ueber die EnerG-Revision 1.9.2022 (MuKEn 2014) hinweg. ⚠ MuKEn 2025 von EnDK 08/2025 verabschiedet, kantonale Umsetzung ZH Stand 06/2026 ausstehend."
+ausgabe: "Januar 2020 (Basis: Norm SIA 380/1, Ausgabe 2016) — ⚠ korrigiert 2026-08-24, vorher irrtuemlich als Dezember 2018 gefuehrt (Verwechslung mit der zeitgleich im selben Register erscheinenden Vollzugshilfe EN-112 «Kuehlraeume», die tatsaechlich Dez. 2018 datiert)"
+gelesen: "2026-06-06 (S. 1-16, vollstaendig); Korrektur-Gegenpruefung Tabelle 5 + Frontmatter 2026-07-17 (S. 10-11, per curl+pdftotext); Ausgabedatum-Korrektur 2026-08-24 (unabhaengiger Zweitmirror Kt. Schaffhausen, S. 1 + Fusszeile jeder Seite S. 4-21, per WebFetch geladen)"
+datenstand: "Jan 2020 / SIA 380/1:2016 — operative Vollzugsbasis Kt. ZH bereits seit Anforderungsprofil Version 16.01a (Ausgabe 11.04.2017), fortgefuehrt ueber die EnerG-Revision 1.9.2022 (MuKEn 2014) hinweg. ⚠ MuKEn 2025 von EnDK 08/2025 verabschiedet, kantonale Umsetzung ZH Stand 06/2026 ausstehend."
 status: established
 sources:
-  - "EnFK, Vollzugshilfe EN-102 «Waermeschutz von Gebaeuden», Ausgabe Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe 2016), Tabelle 5 S. 10-11 — Original-PDF energie.tg.ch/public/upload/assets/95320/22_EN-102-d_Waermeschutz_3801_2016.pdf, per curl+pdftotext geladen und gegengeprueft 2026-07-17"
-  - "wissen/energie/destillate/muken-2025-anhang-1-3-uwert-heizwaermebedarf.md (Run 2026-07-17) — hatte den Transkriptionsfehler in Tabelle 5 sowie den falschen Frontmatter-Jahrgang bereits identifiziert und dokumentiert; diese Korrektur setzt die dort empfohlene Bereinigung um"
+  - "EnFK, Vollzugshilfe EN-102 «Waermeschutz von Gebaeuden», Ausgabe Januar 2020 (Basis: Norm SIA 380/1, Ausgabe 2016), Tabelle 5 S. 10-11 — Original-PDF vormals energie.tg.ch/public/upload/assets/95320/22_EN-102-d_Waermeschutz_3801_2016.pdf (per curl+pdftotext geladen und gegengeprueft 2026-07-17; URL seit 2026-08-24 defekt, 301 auf nicht aufloesbaren internen Hostnamen)"
+  - "wissen/energie/destillate/muken-2025-anhang-1-3-uwert-heizwaermebedarf.md (Run 2026-07-17) — hatte den Transkriptionsfehler in Tabelle 5 sowie den falschen Frontmatter-Jahrgang (2009 statt 2016 als SIA-Basis) bereits identifiziert und dokumentiert; diese Korrektur setzt die dort empfohlene Bereinigung um"
   - "Adversarial-Verify Runde 2 (2026-07-23): Kanton Luzern, Kantonale Energieverordnung (KEnV), Anhang 1-3 (Dokument Nr. 774-A1), Amt fuer Umwelt und Energie Luzern — uwe.lu.ch/-/media/UWE/Dokumente/Themen/Energie/Energiegesetz_EnG/Anhang_KEnV.pdf, per curl+pdftoppm (Tabellen liegen als Bildgrafik vor) gegengeprueft 2026-07-23 — unabhaengige vierte Quelle (kantonale Rechtsnorm statt Vollzugs-/Software-Sekundaerdokument), Tabelle 2/3/4/5 UND Anhang 3 (Q_H,li) zahlengleich"
-last_updated: "2026-07-23"
+  - "Ausgabedatum-Korrektur (2026-08-24): Kanton Schaffhausen, Baudepartement Energiefachstelle, Sammel-PDF «Register 2 Gebaeudehuelle» (sh.ch/CMS/get/file/31530027-6467-41e2-9546-311c53380766), enthaelt die vollstaendige Vollzugshilfe EN-102 als eigenstaendiges Kapitel S. 4-21. Zwei voneinander unabhaengige Belege in derselben Datei: (1) die einleitende Registerseite S. 1 listet alle fuenf Dokumente des Registers mit exaktem Ausgabedatum je Titel — EN-102 «Waermeschutz von Gebaeuden» Januar 2020, EN-112 «Kuehlraeume» Dezember 2018, EN-131/132 Juni 2017 — (2) die Fusszeile jeder einzelnen EN-102-Seite (S. 4-21) traegt durchgehend «Ausgabe Januar 2020 (Basis: Norm SIA 380/1, Ausgabe 2016)». Die PDF-Metadaten (Title: Vollzugshilfe EN-102, CreationDate 2020-02-20) stuetzen das Datum zusaetzlich. Tabelle 2 (U-Werte inkl. Storenkasten 0,50/0,50) ist zahlengleich mit dem bisherigen Destillat-Stand — die Werte selbst waren nie falsch, nur das Ausgabedatum im Frontmatter"
+last_updated: "2026-08-24"
 ---
 
-# EN-102 «Waermeschutz von Gebaeuden» (EnFK, Dez 2018)
+# EN-102 «Waermeschutz von Gebaeuden» (EnFK, Jan 2020)
 
 ## Das Wichtigste in 1 Satz
 Diese Vollzugshilfe legt die **konkreten U-Wert-Grenzwerte** (Einzelbauteilnachweis) und die
@@ -126,9 +127,10 @@ Aufzugsschaechte gegen aktiv beheizte Geschosse duerfen vereinfacht mit aequival
   gesteuerte Beschattung einplanen, nicht erst nachruesten.
 
 ## Offene Punkte / zu pruefen
-- ⚠ **Datenstand:** Werte basieren auf SIA 380/1:2016 (EN-102 Dez 2018, Fusszeile jeder Seite
+- ⚠ **Datenstand:** Werte basieren auf SIA 380/1:2016 (EN-102 Jan 2020, Fusszeile jeder Seite
   bestaetigt "Basis: Norm SIA 380/1, Ausgabe 2016" — Korrektur 2026-07-17, vorher irrtuemlich als
-  2009 gefuehrt). Kt. ZH wendet diese Werte bereits seit dem eigenen Anforderungsprofil Version
+  2009 gefuehrt; Ausgabedatum der Vollzugshilfe selbst am 2026-08-24 von Dez 2018 auf Jan 2020
+  berichtigt, siehe Frontmatter `sources`). Kt. ZH wendet diese Werte bereits seit dem eigenen Anforderungsprofil Version
   16.01a (Ausgabe 11.04.2017) an, fortgefuehrt ueber das per 1.9.2022 revidierte EnerG. **MuKEn
   2025** (EnDK 08/2025) uebernimmt dieselben Zahlenwerte unveraendert (siehe
   `[[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]`) — die eigentliche Verschaerfung liegt in

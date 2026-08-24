@@ -12,12 +12,16 @@ links: [[INDEX]], [[BAUHERREN-FAQ]]
 # U-Werte & Heizwärmebedarf — Grenzwerte Schweiz
 
 Themenartikel zu den verbindlichen Anforderungen des winterlichen Wärmeschutzes. Faktenbasis:
-EnFK-Vollzugshilfe EN-102 (Dez 2018, SIA 380/1:**2016**).
+EnFK-Vollzugshilfe EN-102 (Jan 2020, SIA 380/1:**2016**).
 (⚠ Korrektur Wissens-Chef Run 35, 17.08.2026: hier stand «SIA 380/1:2009». EN-102 fusst auf der
 Ausgabe **2016** — belegt im eigenen Destillat `[[enfk-en-102-waermeschutz-2018]]` Z. 4 aus der
 Fusszeile jeder PDF-Seite; die auf 2009 fussende Vollzugshilfe ist das **andere** Dokument EN-2
 (Feb. 2013). Der irrefuehrende SharePoint-Dateiname `…_3801_2009_2018Dez.pdf` hatte denselben
 Fehler schon einmal in `planungsgrundlagen` erzeugt, wo er am 25.07.2026 korrigiert wurde.)
+(⚠⚠ Korrektur 24.08.2026: das **Ausgabedatum** der Vollzugshilfe selbst stand bis hierhin
+irrtümlich mit «Dez 2018» — die Fusszeile jeder Seite und der Registerindex einer unabhängigen
+Zweitquelle (Kt. Schaffhausen) nennen übereinstimmend **Januar 2020**; siehe Frontmatter-Beleg
+in `[[enfk-en-102-waermeschutz-2018]]`. Die Zahlenwerte selbst sind unverändert korrekt.)
 
 > **Querbezug KB normen (Fundstelle/Ausgabe SIA 380/1):** Norm-Fundstelle und Gültigkeitsstand
 > führt das normen-Register `wissen/normen/wiki/REGISTER` (Zeile 204 SIA 380/1). Ausgaben-Kette:
@@ -148,13 +152,13 @@ Q_H, Minergie-Kennzahl **und** PV-Pflicht (10 W/m² EBF) falsch. Detail → `[[e
 ⚠ **Fassungsvermerk (Wissens-Chef Run 37, 19.08.2026):** **SIA 416/1:2007 ist zurückgezogen** (gültig 01.07.2007 bis 31.03.2015), ersetzt durch **SIA 380:2015** (SN 504380:2015). Belegt an zwei Primärquellen (SIA-Shop-Produktdatenblatt «archivierter Titel»; Titelblatt der SIA 380:2015 «Ersatz für SIA 416/1:2007»), Normen-Nacht Run 57. **SIA 380:2015 liegt nicht im Haus** (Ticket `N57-2`). Der EBF-**Begriff** lebt in der Nachfolgenorm weiter — überholt ist die **Fundstelle**, nicht zwingend die Abgrenzung. Ob der kantonale Vollzug (EVEN/EnFK) seinen statischen Verweis nachgeführt hat, ist **nicht geprüft**.
 ⚠⚠ **KORREKTUR 23.08.2026 (KB `normen`, SIA-Sweep zehnte Fortsetzung):** **SIA 380:2015 ist selbst bereits archiviert** — gültig nur 01.04.2015 bis 31.10.2022 (Primärquelle `shop.sia.ch/normenwerk/architekt/380_2015_d`). Die seither gültige Ausgabe ist **SIA 380:2022** (gültig ab 01.11.2022, 60 S., 180.00 CHF, `shop.sia.ch/normenwerk/architekt/380_2022_d`). Die Bring-Schuld N57-2 zielt jetzt auf SIA 380:2022, nicht mehr auf SIA 380:2015 — weder die eine noch die andere Ausgabe liegt im Haus. Details: KB `normen`, `wiki/REGISTER.md` Zeile SIA 380, `wiki/QUESTIONS.md` N57-2.
 
-## ⚠ Versionsabgleich EN-2 (2013, SIA 380/1:2009) ↔ EN-102 (2018)
+## ⚠ Versionsabgleich EN-2 (2013, SIA 380/1:2009) ↔ EN-102 (2020)
 Zwischen den EnFK-Vollzugshilfen-Ausgaben gibt es Abweichungen — für den Nachweis gilt die im
 Kanton aktuell verbindliche Ausgabe (ZH heute SIA 380/1:2016 / EVEN):
-- **Fenster-Grenzwert Neubau:** EN-2 (2013) **1,3** → EN-102 (2018) **1,0** (verschärft).
-- **Umbau-Heizwärmebedarf Q_h,li:** EN-2 (2013) **1,25 × Neubau** ↔ oben geführt 1,5 × (EN-102 2018);
+- **Fenster-Grenzwert Neubau:** EN-2 (2013) **1,3** → EN-102 (2020) **1,0** (verschärft).
+- **Umbau-Heizwärmebedarf Q_h,li:** EN-2 (2013) **1,25 × Neubau** ↔ oben geführt 1,5 × (EN-102 2020);
   vor dem Zitieren konkret gegen die geltende Ausgabe prüfen.
-- **Wärmebrücke Fensteranschlag Ψ (Typ 5):** EN-2 (2013) **0,10** ↔ 0,15 (EN-102 2018).
+- **Wärmebrücke Fensteranschlag Ψ (Typ 5):** EN-2 (2013) **0,10** ↔ 0,15 (EN-102 2020).
 Die **Q_h,li-Grundwerte** (Wohnen MFH 55 / EFH 65 / Verwaltung 65 … MJ/m²) sind in beiden Ausgaben identisch.
 
 **Was die Norm SIA 380/1:2016 selbst gegenüber SIA 380/1:2009 ändert** (belegt aus Sekundärquellen,
@@ -208,7 +212,8 @@ ein unbeheiztes Biwak ausserhalb SIA 380/1, für jedes reguläre beheizte Gebäu
 jede Rechnung hineingeschrieben.
 
 ## Datenstand / Aktualität
-⚠ Werte SIA 380/1:**2016** / EN-102 2018 (Ausgabe-Zuordnung korrigiert Run 35, 17.08.2026). Kt. ZH operativ über EnerG seit **1.9.2022** (MuKEn 2014).
+⚠ Werte SIA 380/1:**2016** / EN-102 Jan 2020 (Ausgabe-Zuordnung SIA-Basis korrigiert Run 35,
+17.08.2026; Ausgabedatum EN-102 selbst korrigiert 24.08.2026, vorher irrtümlich Dez 2018). Kt. ZH operativ über EnerG seit **1.9.2022** (MuKEn 2014).
 **MuKEn 2025** von der EnDK am **29.08.2025** verabschiedet (Details, Änderungen ggü. 2014,
 Umsetzungshorizont 2025-2030 → `[[muken-2025-verabschiedet]]`), kantonale Umsetzung ZH (Stand
 2026-07-12) weiterhin ausstehend → bei konkreten Grenzwert-Zitaten aktuellen ZH-Stand verifizieren.

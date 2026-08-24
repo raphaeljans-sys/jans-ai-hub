@@ -17,8 +17,9 @@ knapp darunter, aber ohne Reserve.
 ## Was gemessen wird
 ⚠ **Der zitierte Grenzwert 0,30 ist aus der Fensteranschlag-Gruppe übernommen und nicht am
 Original verifiziert** (Audit-Korrektur A-P2 02.2, 24.08.2026, siehe
-`[[waermebrueckenkatalog-bfe-fensteranschluss]]`). Massgebend ist heute ohnehin EN-102 (2018),
-Typ 5 Fensteranschlag: Ψ ≤ 0,15 W/(m·K).
+`[[waermebrueckenkatalog-bfe-fensteranschluss]]`). Massgebend ist heute ohnehin EN-102 (Ausgabe
+Januar 2020, ⚠ korrigiert 24.08.2026, vorher irrtümlich 2018), Typ 5 Fensteranschlag:
+Ψ ≤ 0,15 W/(m·K).
 
 Grenz- und Zielwert gemäss SIA 380/1: **0,30 W/(m·K)** (gleicher Grenzwert wie bei der
 Fensterrahmenverbreiterung, Gruppe 4.1). Ablesebeispiel: Stahlbeton-Rollladennische mit

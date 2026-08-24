@@ -29,7 +29,7 @@ gemäss EN-102/SIA 180 ohnehin planerisch vorzusehen ist.
 | Sonnenschutzglas / Low-g, 2-fach (vetroSol A-Typen) | **0,28–0,37** je nach Typ: A70 («70/37») g 0,37 · A60 («61/33») g 0,33 · A50 («53/28») g 0,28 | ~1,0 W/(m²·K) | Flachglas Schweiz, Produktdatenblatt vetroSol A-Typen (CH_Produktblatt_Sonnenschutzglas_DE.pdf) |
 | Sonnenschutzglas / Low-g, 3-fach (vetroSol Trio, stärkste Type) | **~0,17** (Referenzprojekt-Type «vetroSol 30/17 P Trio», LT 30 % / g 0,17) | 0,4–0,6 W/(m²·K) | Flachglas Schweiz, Referenzprojekt-Angabe vetroSol Trio |
 | Sonnenschutzglas — DE-Richtwert-Bandbreite | 0,20–0,45 (unterhalb 0,30 bei starker Beschichtung möglich) | — | DE-Sekundärquellen: koch-bautechnik.de, glaslotsen.de (⚠ keine CH-Fachquelle) |
-| **g_tot mit aussenliegendem, beweglichem Sonnenschutz** (Storen/Raffstoren vor beliebigem Glastyp) | **0,10–0,15** | — | EN-102 (EnFK, Dez. 2018) nach SIA 180:2014 Verfahren 2 — bereits primär belegt in [[fenster-verglasung-uw-g-wert]] / [[enfk-en-102-waermeschutz-2018]] |
+| **g_tot mit aussenliegendem, beweglichem Sonnenschutz** (Storen/Raffstoren vor beliebigem Glastyp) | **0,10–0,15** | — | EN-102 (EnFK, Ausgabe Januar 2020, ⚠ korrigiert 24.08.2026, vorher irrtümlich Dez. 2018) nach SIA 180:2014 Verfahren 2 — bereits primär belegt in [[fenster-verglasung-uw-g-wert]] / [[enfk-en-102-waermeschutz-2018]] |
 
 **Lesehinweis Typenbezeichnung Flachglas Schweiz:** vetroSol-Typen werden als «Lichttransmission /
 g-Wert» benannt (z. B. «70/37» = 70 % Lichttransmission, g-Wert 0,37). Das erklärt, warum ein

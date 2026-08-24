@@ -606,7 +606,7 @@ ab CHF 10'000) · [[naturdaemmstoffe-kennwerte-sommerhitzeschutz]] (Speichermass
 - **Das Gebäudeprogramm**, «Wärmedämmung Fassade, Dach, Wand und Boden gegen Erdreich» —
   dasgebäudeprogramm.ch, Web-Stand 2026-07-16.
 - **Vollzugshilfe Förderprogramm Energie Kanton Schwyz 2026** — über `[[foerderprogramm-energie-sz-2026]]`.
-- **EnFK-Vollzugshilfe EN-102 «Wärmeschutz»** (2018) — über `[[enfk-en-102-waermeschutz-2018]]`.
+- **EnFK-Vollzugshilfe EN-102 «Wärmeschutz»** (Ausgabe Januar 2020, ⚠ korrigiert 24.08.2026, vorher irrtümlich 2018) — über `[[enfk-en-102-waermeschutz-2018]]`.
 - **Wärmedämmvorschriften Kt. ZH (WDV), LS 700.211**, vom 08.06.2022, § 2 Abs. 5 — über
   `[[denkmalschutz-energiesanierung-zh-sz]]` (dort primärquellen-verifiziert).
 - **BFE-Wärmebrückenkatalog** (Bundesamt für Energie, ausgearbeitet durch Infomind GmbH Zürich,

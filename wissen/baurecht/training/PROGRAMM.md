@@ -1696,6 +1696,16 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   geraten. Report `outputs/2026-08-24_buch-run107.md`. **Naechster Schritt:** «zaegig» am
   zitierten Entscheid (VB.2014.00026/BEZ 2014 Nr. 46) verifizieren; sonst zweite
   Re-Verifikationsrunde oder naechster Health-Check-Turnus.
+- **Buch-Run 108 (2026-08-24):** Run-107-Restfrage bearbeitet. VB.2014.00026 (VGr ZH,
+  22.05.2014, BEZ 2014 Nr. 46) volltextverifiziert gegen `entscheidsuche.ch` (analog
+  BRGE-Beschaffung Run 104). **«zaegig» kommt im Original nicht vor** — E. 3.1.2 lautet
+  woertlich «derart langsam gearbeitet wird, dass die Gesamtdauer der Bauarbeiten in keinem
+  vernuenftigen Verhaeltnis zum Bauvolumen bzw. der Bauaufgabe mehr steht». Neu
+  `raw/260824_amtlich_zh_vb-2014-00026.md`; [[bauausfuehrung-und-baukontrolle]] korrigiert
+  (Zitat statt Vermutung, Frontmatter/`verifiziert` nachgefuehrt); QUESTIONS.md-Nachtrag ueber
+  dem Run-107-Eintrag. Report `outputs/2026-08-24_buch-run108.md`. **Naechster Schritt:** kein
+  Fachpunkt mehr offen; regulaerer Health-Check-Turnus, zweite Re-Verifikationsrunde, oder neue
+  Luecke aus `QUESTIONS.md`.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

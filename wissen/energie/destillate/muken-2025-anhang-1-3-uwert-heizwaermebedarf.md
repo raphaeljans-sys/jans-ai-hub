@@ -9,6 +9,7 @@ sources:
   - wissen/energie/destillate/muken-2025-verabschiedet.md (Ausgangsdestillat, Run 74/75)
   - wissen/energie/destillate/enfk-en-102-wärmeschutz-2018.md (bestehendes KB-Destillat, als Referenz für "heutige ZH-Werte" herangezogen — Diskrepanz gefunden, siehe "Offene Punkte")
   - wissen/energie/destillate/en-zh-nachweis-uebersicht.md (EN-ZH-Deckblatt, referenziert bereits "SIA 380/1 Ausgabe 2016")
+  - "⚠ Nachtrag 24.08.2026: das in diesem Destillat und im Ausgangsdestillat mehrfach zitierte Ausgabedatum der Vollzugshilfe EN-102 selbst («Ausgabe Dezember 2018») war falsch — zwei unabhängige Belege (Registerindex + Fusszeile, Kt. Schaffhausen) nennen Januar 2020, siehe [[enfk-en-102-waermeschutz-2018]]. Betrifft nur das Ausgabedatum, nicht die hier dokumentierte Tabelle-5-Diskrepanz (Q_H,li0/Q_H,li), die unverändert korrekt beschrieben ist"
 links:
   - [[muken-2025-verabschiedet]]
   - [[bfe-u-wert-bauteilekatalog-neubauten-2002]]

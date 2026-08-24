@@ -21,7 +21,7 @@ der **Innenanschlag ohne Zwischenleibungsdämmung** (Typ H) am schlechtesten.
 SIA 380/1:2001. Die Einordnungen in der Tabelle unten sind nur mit einem Grenzwert um
 0,20 W/(m·K) stimmig, nicht mit den 0,30 der Balkonplatte (Typ 1) — welcher Wert im Katalog
 selbst steht, ist am Original nachzuprüfen (offener Punkt, siehe QUESTIONS.md). Massgebend ist
-heute ohnehin **EN-102 (2018), Typ 5 Fensteranschlag: Ψ ≤ 0,15 W/(m·K)** →
+heute ohnehin **EN-102 (Ausgabe Januar 2020, ⚠ korrigiert 24.08.2026, vorher irrtümlich 2018), Typ 5 Fensteranschlag: Ψ ≤ 0,15 W/(m·K)** →
 `[[enfk-en-102-waermeschutz-2018]]`. Die Zahlenwerte unten sind Grössenordnungen; für die
 Baueingabe gilt die Simulation nach geltender Norm.
 

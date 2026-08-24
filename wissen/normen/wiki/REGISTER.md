@@ -825,6 +825,10 @@ Norm-Ausgabenlogik (kein Ausgabenblindzonen-Problem wie bei SIA); massgebend ist
 | Seitenschutz mit Auffangnetzen — Anforderungen | 33028.d | Stand Januar 2022 | `suva-33028-2022-seitenschutz-mit-auffangnetzen.md`, established | **Neu 24.08.2026 (SIA-Sweep 33. Fortsetzung).** Zwei Systeme (Drahtseil-Ersatz 1,0 m bzw. Netz ohne Drahtseil 1,5 m Oberkante), Pfostenabstand max. 10 m; ergänzt Auffangschirme |
 | Sicherheit durch Anseilen — Persönliche Absturzschutzausrüstung | 44002.d | Erstausgabe März 1989, überarbeitete Ausgabe Oktober 2025 | `suva-44002-2025-sicherheit-durch-anseilen.md`, established | **Neu 24.08.2026 (SIA-Sweep 33. Fortsetzung).** ⚠ 36-seitige Grundlagenbroschüre, kein Factsheet. Fangstosskraftgrenze 6 kN, Rettungszeit Hängesyndrom 10-20 Min., drei PSAgA-Systemarten, vollständiger EN-Normenkatalog (17 Normen) |
 | Checkliste Kleinarbeiten auf Dächern (bis 2 Personen-Tage) | 67018.d | Ausgabe Januar 2022 | `suva-67018-2022-checkliste-kleinarbeiten-daechern.md`, established | **Neu 24.08.2026 (SIA-Sweep 33. Fortsetzung).** 20-Fragen-Kontrollraster; Rettungszeit 20 Min. deckt sich mit 33029.d/44002.d |
+| Arbeiten am hängenden Seil (SZP) | 33016.d | Stand März 2026 | `suva-33016-2026-arbeiten-am-haengenden-seil.md`, established | **Neu 24.08.2026 (SIA-Sweep 34. Fortsetzung).** Projektleiter SZP Level 3 Pflicht, dreistufiges Ausbildungskonzept (je 5 Tage, Fortbildung max. alle 3 Jahre), zwei-Seile-Redundanz, Gefahrenzonen-Tabelle nach Arbeitshöhe. Zweitjüngste Suva-Publikation dieser KB (nach 67150.d Juli 2026, vor 44002.d Oktober 2025) |
+| Rigging in der Veranstaltungstechnik | 33006.d | Stand Mai 2023 | `suva-33006-2023-rigging-veranstaltungstechnik.md`, established | **Neu 24.08.2026 (SIA-Sweep 34. Fortsetzung).** Vier-Rollen-Matrix Hallenbesitzer/Veranstalter/Projektleiter Veranstaltungstechnik/Rigger, PSAgA-Ausbildung mind. 1 Tag, Alleinarbeitsverbot |
+| Seilwurfsystem mit Industrieschleuder («Dachdecker-Schnellsicherung») | 33032.d | Stand Juni 2022 | `suva-33032-2022-seilwurfsystem-industrieschleuder.md`, established | **Neu 24.08.2026 (SIA-Sweep 34. Fortsetzung).** Schnellsicherung installierbar innert 15 Min., Verankerung beidseits Dachfirst, vierstufige Umsteigpunkt-Prozedur |
+| Seilsicherung im steilen Gelände | 33070.d | Stand Januar 2024 | `suva-33070-2024-seilsicherung-steiles-gelaende.md`, established | **Neu 24.08.2026 (SIA-Sweep 34. Fortsetzung).** Abgrenzung zu 33016.d (Versagen führt NICHT unweigerlich zum Absturz), Ausbildung mind. 1 Tag, zweite Person mit PSA zur Rettung vor Ort |
 
 ✅ **Alle fünf namentlich benannten Publikationen der Ziff.-5-Liste (44078.d, 44046.d, 84018.d,
 67038.d, 67150.d) sind mit dem 24.08.2026 (SIA-Sweep 31. Fortsetzung) erschlossen** —
@@ -838,18 +842,26 @@ PSAgA) sind mit dem 24.08.2026 (SIA-Sweep 32. Fortsetzung) erschlossen.**
 ✅ **Auch die vier daraus abgeleiteten Bring-Schuld-Kandidaten 33026.d, 33028.d, 44002.d und
 67018.d sind mit dem 24.08.2026 (SIA-Sweep 33. Fortsetzung) erschlossen.** Damit ist die enge
 Fassadengerüst-/Auffangnetz-/Dach-Reihe dieser KB vollständig destilliert. **Neuer, deutlich
-grösserer Bring-Schuld-Block entdeckt** (Verweisnetz von 44002.d, Kap. 8): 33016.d (Arbeiten am
-hängenden Seil), 33006.d (Rigging Veranstaltungstechnik), 33032.d (Seilwurfsystem), 33070.d
-(Seilsicherung im steilen Gelände), 33071.d (Sicher arbeiten auf Bäumen), 33072.d (Arbeiten auf
-der Leiter an Bäumen), 33102.d/33103.d/33104.d (Ortsfeste Leitern Schächte/Gebäude/
-Maschinenanlagen), 44062.d (Sicheres Einsteigen in Schächten/Gruben/Kanälen), 44095.d
-(Solaranlagen-Montage), 44096.d (Anschlageinrichtungen auf Dächern), 88816.d/84044.d (Acht
-lebenswichtige Regeln, zwei Formate), 67055.d (Checkliste Ortsfeste Leitern), 67064/1.d +
-67064/2.d (Checkliste Hubarbeitsbühnen, zweiteilig) — alle vermutlich kostenlos, gleiche
-Beschaffungsroute; dazu zwei EKAS-Richtlinien (2134 Forstarbeiten, 6512 Arbeitsmittel), Status
-kostenpflichtig ungeprüft. Bewusst nicht in der 33. Fortsetzung verfolgt (Umfang sprengt den
-bisherigen Zuschnitt), Kandidatenliste vollständig im Destillat `suva-44002-2025-…md` unter
-„Offene Punkte".
+grösserer Bring-Schuld-Block entdeckt** (Verweisnetz von 44002.d, Kap. 8), davon **vier Titel
+mit dem 24.08.2026 (SIA-Sweep 34. Fortsetzung) erschlossen: 33016.d (Arbeiten am hängenden
+Seil), 33006.d (Rigging Veranstaltungstechnik), 33032.d (Seilwurfsystem), 33070.d (Seilsicherung
+im steilen Gelände)** — alle vier kostenlos, gleiche HTML-statt-PDF-Werkzeug-Falle wie 32./33.
+Fortsetzung. ⚠ **Korrektur:** 44002.d (Oktober 2025) war bis zu diesem Lauf als zweitjüngste
+Suva-Publikation dieser KB geführt; 33016.d (Stand März 2026) ist jünger und übernimmt diesen
+Platz (Rang: 67150.d Juli 2026 > 33016.d März 2026 > 44002.d Oktober 2025).
+
+**Verbleibender Rest des Blocks (12 Suva-Titel + 2 EKAS-Richtlinien), noch nicht erschlossen:**
+33071.d (Sicher arbeiten auf Bäumen), 33072.d (Arbeiten auf der Leiter an Bäumen), 33102.d/
+33103.d/33104.d (Ortsfeste Leitern Schächte/Gebäude/Maschinenanlagen), 44062.d (Sicheres
+Einsteigen in Schächten/Gruben/Kanälen), 44095.d (Solaranlagen-Montage), 44096.d
+(Anschlageinrichtungen auf Dächern), 88816.d/84044.d (Acht lebenswichtige Regeln, zwei Formate),
+67055.d (Checkliste Ortsfeste Leitern), 67064/1.d + 67064/2.d (Checkliste Hubarbeitsbühnen,
+zweiteilig) — alle vermutlich kostenlos, gleiche Beschaffungsroute; dazu zwei EKAS-Richtlinien
+(2134 Forstarbeiten, 6512 Arbeitsmittel), Status kostenpflichtig ungeprüft. Aus den vier neu
+gelesenen Titeln zusätzlich referenziert, aber noch **nicht** im ursprünglichen 44002.d-Verzeichnis
+benannt: 67061.d (Notfallplanung), 67154.d (Gebirgsbaustellen), 33019.d (Naturgefahren), 33062.d
+(Kettensäge), 33076.d (Warnkleider) — Kandidatenliste vollständig in den vier neuen Destillaten
+unter „Offene Punkte"/„Verweisstruktur".
 
 ---
 *Aufgebaut im Nacht-Loop `normen-training-nacht`, Run 1 (Sonderprogramm), 11.07.2026.

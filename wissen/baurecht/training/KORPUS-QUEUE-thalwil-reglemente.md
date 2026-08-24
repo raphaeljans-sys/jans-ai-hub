@@ -450,6 +450,20 @@ Backlinks, dekorative ✅) waren beim Nachprüfen bereits anderweitig behoben �
 offene Frage vermerkt. Report `outputs/2026-08-24_buch-run107.md`. **Nächster Schritt:** «zaegig»
 am zitierten Entscheid verifizieren, sonst Health-Check-Turnus oder zweite Re-Verifikationsrunde.
 
+**Run 108 (2026-08-24, ausserhalb T1-T9):** Die von Run 107 offen gelassene Frage bearbeitet:
+VB.2014.00026 (VGr ZH, 22.05.2014, BEZ 2014 Nr. 46) erstmals im Volltext gelesen
+(`entscheidsuche.ch`, analog zur BRGE-Beschaffungsmethode aus Run 104). **Die Prämisse war
+richtig, das Wort war falsch:** «zaegig» kommt im amtlichen Text nicht vor; E. 3.1.2 lautet
+wörtlich «derart langsam gearbeitet wird, dass die Gesamtdauer der Bauarbeiten in keinem
+vernünftigen Verhältnis zum Bauvolumen bzw. der Bauaufgabe mehr steht» — weder «zögerlich» noch
+«schleppend» (beide in Run 107 als Vermutung diskutiert) treffen zu. Neuer
+`raw/260824_amtlich_zh_vb-2014-00026.md` (Regeste + E. 3.1.2/3.1.3 wörtlich), Korrektur in
+[[bauausfuehrung-und-baukontrolle]] samt Frontmatter/`verifiziert`, QUESTIONS.md-Nachtrag über
+dem Run-107-Eintrag (dieser bleibt unverändert stehen). Report `outputs/2026-08-24_buch-run108.md`.
+**Damit ist auch die von Run 107 offen gelassene Restfrage geschlossen.** **Nächster Schritt:**
+kein Fachpunkt mehr aus der Thalwil-Queue oder ihren Nachträgen offen; frei für den regulären
+Health-Check-Turnus, eine zweite Re-Verifikationsrunde, oder eine neue Lücke aus `QUESTIONS.md`.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

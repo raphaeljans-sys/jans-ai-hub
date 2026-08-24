@@ -2392,6 +2392,18 @@ angefragten gegen tatsächlichen Pfad; ein `curl -L`-Statuscode kann diesen Fall
 Anlass war der Fund, dass der Host `geoportal.zh.ch` abgeschaltet ist und **jeden** Pfad auf die
 Kantons-Startseite umleitet. Werkzeugbeschreibung: `wissen/tools/README.md`.
 
+## 2026-08-24 (Buch-Run 108) — «zaegig»-Frage geschlossen: Wortlaut in VB.2014.00026 gefunden und korrigiert
+
+**Auflösung des darunterstehenden Run-107-Befunds.** Volltext von VB.2014.00026 (VGr ZH,
+22.05.2014, BEZ 2014 Nr. 46) direkt bei `entscheidsuche.ch` bezogen (analog zur BRGE-Beschaffung
+in Buch-Run 104, hier aber Verwaltungsgericht statt Baurekursgericht). Erwägung 3.1.2 im Volltext
+gelesen: der amtliche Wortlaut lautet **«derart langsam gearbeitet wird, dass die Gesamtdauer der
+Bauarbeiten in keinem vernünftigen Verhältnis zum Bauvolumen bzw. der Bauaufgabe mehr steht»** —
+kein einzelnes Adjektiv wie «zaegig», «zögerlich» oder «schleppend», wie in der Vermutung unten
+diskutiert. Der Wiki-Artikel [[bauausfuehrung-und-baukontrolle]] wurde entsprechend korrigiert
+(Zitat statt Vermutung), neue Primärquelle `raw/260824_amtlich_zh_vb-2014-00026.md` angelegt.
+Damit ist der «Für einen künftigen Lauf»-Auftrag unten erledigt.
+
 ## 2026-08-24 (Buch-Run 107, Health-Check-Nachtrag) — verdächtiges Wort «zaegig» in `bauausfuehrung-und-baukontrolle.md`, nicht korrigiert
 
 **Fundstelle:** `wiki/bauausfuehrung-und-baukontrolle.md` Zeile 81: «**Unterbruch** liegt vor bei

@@ -2191,7 +2191,7 @@ grosszügige Sturzdämmung besonders.
 
 **Fachlich:** Der BFE-Wärmebrückenkatalog weist für den Fenster-Wand-Anschluss Ψ-Werte zwischen
 **0,08 und 0,36 W/(m·K)** aus (massgebender Grenzwert heute Ψ ≤ 0,15 W/(m·K) für den
-Fensteranschlag, Typ 5 nach EN-102 2018; der Katalog von 2002 rechnet gegen die ältere
+Fensteranschlag, Typ 5 nach EN-102, Ausgabe Januar 2020; der Katalog von 2002 rechnet gegen die ältere
 SIA 380/1:2001). Ein Innenanschlag ohne Zwischenleibungsdämmung liegt meist über dem Grenzwert
 (0,22–0,35), ein Aussenanschlag mit Zwischenleibungsdämmung und
 Sturzdämmung dagegen klar darunter (bis 0,08). Bei Stahlbetonstürzen erhöht sich der Zuschlag

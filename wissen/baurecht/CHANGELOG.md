@@ -3,6 +3,47 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 108: «zaegig» in `bauausfuehrung-und-baukontrolle.md` war ein Digitalisierungs-Artefakt, VB.2014.00026 volltextverifiziert
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterführen» (Batches T1-T8/T9).
+  CHANGELOG und `outputs/2026-08-24_buch-run107.md` gelesen: die Queue und die Bundesrechts-
+  Re-Verifikationskette sind vollständig; Run 107 liess als einzigen offenen Punkt das
+  verdächtige Wort «zaegig» in [[bauausfuehrung-und-baukontrolle]] Z. 81 stehen (bewusst nicht
+  geraten, sondern in `wiki/QUESTIONS.md` als Auftrag für einen künftigen Lauf vermerkt: den
+  zitierten Entscheid VB.2014.00026/BEZ 2014 Nr. 46 im Volltext beziehen).
+- **Beschaffung:** `entscheidsuche.ch` führt VB.2014.00026 (Verwaltungsgericht ZH,
+  1. Abteilung/1. Kammer, 22.05.2014) im Volltext als HTML — keine PDF-Extraktion nötig (anders
+  als bei der BRGE-Quelle in Run 104). Bundesgericht ist am 21.07.2014 auf eine Beschwerde nicht
+  eingetreten, der Entscheid ist rechtskräftig.
+- **Kernbefund:** Erwägung 3.1.2 lautet wörtlich: «Ein Unterbruch der Bauarbeiten während
+  längerer Zeit im Sinn von § 328 Abs. 1 PGB liegt mit anderen Worten auch dann vor, wenn an
+  einer Baute zwar regelmässig, aber **derart langsam gearbeitet wird**, dass die Gesamtdauer
+  der Bauarbeiten in keinem vernünftigen Verhältnis zum Bauvolumen bzw. der Bauaufgabe mehr
+  steht.» Das Wort **«zaegig» kommt im amtlichen Text nicht vor** — weder als Adjektiv noch als
+  Umlaut-Ersatzschreibung auflösbar (Run 107 hatte «zögerlich»/«schleppend» als mögliche, aber
+  unbelegte Lesarten diskutiert; beide treffen nicht zu). Der im Wiki paraphrasierte Massstab
+  («Missverhältnis zu Volumen/Aufgabe») war inhaltlich bereits korrekt, nur der Wortstamm
+  «zaegig» selbst war ein Digitalisierungs-/Diktier-Artefakt ohne Grundlage im Original.
+- **In die KB eingearbeitet:** NEU `raw/260824_amtlich_zh_vb-2014-00026.md` (Regeste +
+  E. 3.1.2/3.1.3 wörtlich, Provenienz-Frontmatter, gemeinfrei Art. 5 URG). GEÄNDERT
+  [[bauausfuehrung-und-baukontrolle]]: Abschnitt 5 korrigiert (Originalzitat statt Vermutung,
+  Rechtsfolge-Massstab nach der Gesamtbetrachtungs-Doktrin präzisiert), Frontmatter
+  (`last_updated`, `sources`, `verifiziert`) nachgeführt. GEÄNDERT `wiki/QUESTIONS.md`: neuer
+  Abschluss-Eintrag direkt über dem unveränderten Run-107-Eintrag (Nachvollziehbarkeit der
+  ursprünglichen Fragestellung bleibt erhalten). GEÄNDERT
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` und `training/PROGRAMM.md`: Run-108-Absatz
+  ergänzt.
+- **Diff-Kontrolle** (Rule `auto-verbesserungen` 260811): `git status --short wissen/baurecht/`
+  vor dem ersten Edit sauber. Nach jedem Schreiben `git diff --numstat` geprüft: neue Raw-Datei
+  als `??` (untracked, kein Diff-Risiko); `bauausfuehrung-und-baukontrolle.md` 10/6 (Frontmatter-
+  Zeilenersatz + Bullet-Ersatz, gegen `git diff` inhaltlich geprüft, keine fremde Zeile berührt);
+  `QUESTIONS.md` 12/0 rein additiv; `KORPUS-QUEUE-thalwil-reglemente.md` 14/0 rein additiv;
+  `training/PROGRAMM.md` 10/0 rein additiv. **Konkurrenz-Check:** `ps aux` vor Arbeitsbeginn
+  zeigte den eigenen Session-Wrapper-Prozess (identischer Prompt-Text, laut Sitzungsauftrag der
+  eigene Lauf, kein Konkurrent) sowie einen unabhängigen Desktop-Claude-Prozess ohne Bezug zu
+  `wissen/baurecht/`.
+- Report `outputs/2026-08-24_buch-run108.md`.
+
 ## 2026-08-24 — Buch-Run 107: Health-Check-Phase-2 (Umlaut-Ersatzschreibung) — der 340-Treffer-Befund zählte blind, maskiert blieben ~20 echte Stellen in 8 Artikeln
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterführen». CHANGELOG (bis Run 106)
