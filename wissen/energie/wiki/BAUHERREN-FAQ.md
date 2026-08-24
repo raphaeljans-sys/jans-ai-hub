@@ -446,7 +446,9 @@ Gesamtenergiedurchlass von Glas + Beschattung: **g-Wert 0,1–0,15** — dann bl
 Überhitzung. Vier Stellschrauben:
 - **Sonnenschutz aussenliegend, beweglich, windfest und gesteuert** — innenliegender Blendschutz
   bringt für die Hitze fast nichts (die Wärme ist dann schon im Raum). Blend- und Sonnenschutz
-  nicht in **einem** Behang kombinieren.
+  nicht in **einem** Behang kombinieren. Konkrete Beispiel-Regelparameter (AHB Stadt Zürich):
+  Überhitzungsschutz ab ~250 W/m² Globalstrahlung, Blendschutz ab ~25 kLux, Windschutz-Rückstellung
+  erst 10 % unter dem Grenzwert (Hysterese gegen Storenflattern) → `[[ahb-merkblatt-386-storensteuerung-2017]]`.
 - **g-Wert (Verglasung + Beschattung) 0,1–0,15** als Zielwert; bei gekühlten Räumen gelten
   zusätzlich normierte Anforderungen an Steuerung und Windfestigkeit (EnFK EN-2, Kap. 8).
 - **Speichermasse** (Massivdecken/-wände) puffert Tagesspitzen; in Kombination mit **Freecooling /

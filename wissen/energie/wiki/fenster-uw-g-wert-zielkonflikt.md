@@ -59,7 +59,8 @@ Grund, warum die Norm hier keine Erleichterung gibt).
 Ergänzend begrenzt **Tab. 8 (Ziff. 5.2.2.3)** den **Glasanteil** je Raumkategorie/Fassadenzahl/
 Sonnenschutz-Steuerung unabhängig vom g_tot (z.B. Wohnen hohe Speicherfähigkeit, eine Fassade:
 50 % manuell / 70 % automatisch gesteuerter Sonnenschutz) — beide Stellschrauben (g_tot und
-Glasanteil) wirken zusammen.
+Glasanteil) wirken zusammen. Die konkrete Regeltechnik hinter «automatisch gesteuert»
+(Grenzwerte/Verzögerungszeiten/Prioritäten) steht in `[[ahb-merkblatt-386-storensteuerung-2017]]`.
 
 **Einfachster Weg (Verfahren 1, EN-102/Kt. ZH):** wer keine Orientierungsrechnung will, legt den
 Sonnenschutz pauschal auf **g_tot ≤ 0,10** aus (unabhängig von Orientierung) — das ist die in der

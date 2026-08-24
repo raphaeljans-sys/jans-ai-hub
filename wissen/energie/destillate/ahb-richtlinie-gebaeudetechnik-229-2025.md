@@ -197,10 +197,15 @@ Projekt ist zuerst dieses Dokument bzw. das passende Fachmerkblatt zu prüfen.
   kantonsrat.zh.ch).
 - Die referenzierten Fachmerkblätter (376 Beleuchtung, 265 Kennzeichnung, 385 PR-NIS, 386
   Storensteuerung, 389 Lithium-Ionen-Lagerung, 393/394 Bühnentechnik/Wärmepumpen-Messkonzept u. a.)
-  sind bis auf **376** (separat destilliert, siehe unten) in dieser KB noch nicht einzeln
-  destilliert — Kandidaten für einen künftigen Lauf, priorisiert nach Healthcare-Relevanz (386
-  Storensteuerung und 394 Wärmepumpen-Messkonzept am ehesten JANS-relevant).
+  sind bis auf **376** (separat destilliert, siehe unten) und **386** (✓ 24.08.2026, siehe unten)
+  in dieser KB noch nicht einzeln destilliert — Kandidaten für einen künftigen Lauf. **394
+  Wärmepumpen-Messkonzept versucht 24.08.2026, aber gescheitert:** PDF gefunden und geladen
+  (`merkblatt-messkonzept-waermepumpen.pdf`, HTTP 200, 1'229'421 Byte, 10 Seiten), der Textlayer
+  liefert aber praktisch nur die Titelseite — der Inhalt ist vollständig als Grafik/Schema gesetzt,
+  kein durchsuchbarer Fliesstext (PyMuPDF `page.get_text()` liefert auf S. 2-10 nur vereinzelte
+  Leerzeichen/Sonderzeichen). Kein Destillat ohne OCR/Bildlesung möglich — bewusst nicht
+  spekulativ nacherzählt, offen für einen Lauf mit Bild-Werkzeug.
 - Teil 5 (Gebäudeautomation) referenziert ein eigenes «Pflichtenheft Gebäudeautomation» (Stand
   06.2025) mit eigener Dokument-Nr. — nicht Teil dieses Destillats, nicht gelesen.
 
-**Backlinks:** [[ahb-zuerich-gt-rl8-beleuchtung]] · [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] · [[gebaeudetechnik-pflichtenheft]] · [[kaeltemittel-r290-waermepumpen-ch]] · [[trinkwassererwaermung-legionellenschutz-energieeffizienz]]
+**Backlinks:** [[ahb-zuerich-gt-rl8-beleuchtung]] · [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] · [[ahb-merkblatt-386-storensteuerung-2017]] · [[gebaeudetechnik-pflichtenheft]] · [[kaeltemittel-r290-waermepumpen-ch]] · [[trinkwassererwaermung-legionellenschutz-energieeffizienz]]

@@ -5979,3 +5979,55 @@ E-R134-3 (Lambda-Anomalie, P3) und der A-BLIND-Bestand ausserhalb der Beleuchtun
 (`ahb-richtlinie-gebaeudetechnik-229-2025.md`, `ahb-merkblatt-376-uebersichtstabelle-
 beleuchtungsanforderungen-2025.md`), alle bestehenden Dateien additiv/präzisierend verändert,
 keine Löschung von Bestand.
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — AHB-Merkblatt 386 Storensteuerung destilliert, 394 Wärmepumpen-Messkonzept als bildbasiert dokumentiert
+
+Auftrag: weitere offene Fragen abarbeiten, Anschluss an den Vorlauf («Für den nächsten Lauf»: die
+in `[[ahb-richtlinie-gebaeudetechnik-229-2025]]` referenzierten, noch nicht destillierten
+Fachmerkblätter, priorisiert nach Healthcare-Relevanz 386 Storensteuerung und 394
+Wärmepumpen-Messkonzept). Vorab `- [ ]`/`- [~]`-Bestand gegengeprüft: unverändert an Raphaels
+Entscheid gebunden (E103, E94, E-R148-1/-2, E-R161-1, E-R230-2) oder P3/P4 ausgeschöpft
+(E-R134-3, E-R150-3, E-R132-4) — beide Merkblätter waren der einzige konkret benannte,
+unblockierte Rest.
+
+- [x] **Neu (24.08.2026, sofort geschlossen): AHB-Merkblatt 386 «Storensteuerung» (März 2017)
+  primärquellenbelegt destilliert.** PDF im selben `stadt-zuerich.ch/.../energie-gebaeudetechnik/`-
+  Verzeichnis wie Dok. 229 gefunden (`merkblatt-storensteuerung.pdf`, HTTP 200 verifiziert,
+  353'611 Byte, 33 Seiten), vollständig mit PyMuPDF gelesen (kein WebFetch-Zusammenfassungsumweg).
+  Neues Destillat `[[ahb-merkblatt-386-storensteuerung-2017]]` (status `established`): Grenzwerte/
+  Verzögerungszeiten/Prioritäten je Funktion (Produktschutz Wind/Frost/Hagel/Niederschlag/Brand
+  als Stufe 1 sperrt alles Übrige; Überhitzungsschutz + Thermoautomatik mit Beispiel-
+  Globalstrahlungswert 250/200 W/m² als Stufe 2; Blendschutz 25/18 kLux als Stufe 3),
+  Ausfallverhalten (Windsensor 48 h, sonst 1 h Detektionsfrist), Wartungsintervalle (2×/Jahr
+  erste 2 Jahre, danach 1×/Jahr, Interventionszeit max. 48 h), drei Systemklassen
+  (Klein-/Objekt-/Integrale Steuerung) mit Empfehlung normierter Systeme (KNX) statt proprietär.
+  **Schliesst eine echte Lücke:** `[[sommerlicher-waermeschutz]]` (Stellschraube 1) und
+  `[[fenster-uw-g-wert-zielkonflikt]]` (Tab.-8-Steuerungsanteil) forderten «automatisch
+  gesteuerten» Sonnenschutz bisher nur allgemein, ohne die dahinterliegende Regeltechnik zu
+  belegen — jetzt mit konkreten Grenzwerten verlinkt. Eingearbeitet in beide Wiki-Artikel sowie
+  `wiki/BAUHERREN-FAQ.md` F11 (Beispielwerte ergänzt) und `destillate/INDEX.md`.
+- [x] **Neu (24.08.2026, dokumentierter Negativbefund): AHB-Merkblatt 394 «Messkonzept
+  Wärmepumpen» (Juni 2020) ist bildbasiert — kein Destillat aus dem Textlayer möglich.** PDF
+  gefunden und geladen (`merkblatt-messkonzept-waermepumpen.pdf`, HTTP 200 verifiziert,
+  1'229'421 Byte, 10 Seiten), mit PyMuPDF ausgelesen: der Textlayer liefert auf 9 der 10 Seiten
+  praktisch nichts (nur die Titelseite trägt extrahierbaren Text, S. 2-10 nur vereinzelte
+  Leerzeichen/Sonderzeichen) — der Inhalt ist vollständig als Schema/Grafik gesetzt. Bewusst
+  **nicht** spekulativ aus dem Dateinamen/Kontext nacherzählt (Rule `wissens-bibliothekar`,
+  Destillat-Treue). Als Negativbefund in `[[ahb-richtlinie-gebaeudetechnik-229-2025]]` (Offene
+  Punkte) dokumentiert, damit ein künftiger Lauf denselben Weg nicht wiederholt, sondern gezielt
+  ein Bildlese-/OCR-Werkzeug einsetzt (keine der bisher in dieser KB verwendeten Extraktionswege
+  — PyPDF2, PyMuPDF `get_text()`, pdftotext — liest gescannte/vektorisierte Grafikinhalte).
+
+**Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid ecoBKP) bleibt Raphael vorzulegen.
+394 Wärmepumpen-Messkonzept braucht ein Bildlese-/OCR-Werkzeug, keine erneute Textextraktion. Von
+den in Dok. 229 referenzierten, noch offenen Fachmerkblättern bleiben 265 (Kennzeichnung), 385
+(PR-NIS), 389 (Lithium-Ionen-Lagerung), 393 (Bühnentechnik) unerforscht — Kandidaten für einen
+künftigen Lauf. A-BLIND-Bestand unverändert (rund 20 von ~40 Kandidaten im 18-29-Backlink-Bereich
+weiterhin einzeln zu prüfen).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: neues Destillat (neue Datei, kein
+Diff-Risiko), `ahb-richtlinie-gebaeudetechnik-229-2025.md` +9/-4 (Offene-Punkte-Absatz präzisiert,
+Backlinks ergänzt), `destillate/INDEX.md` +1/-0, `wiki/BAUHERREN-FAQ.md` +3/-1,
+`wiki/fenster-uw-g-wert-zielkonflikt.md` +2/-1 — durchgehend additiv/präzisierend, keine Löschung
+von Bestand. Zwei Dateien (`sommerlicher-waermeschutz.md`, die neue Destillat-Datei) waren beim
+Prüfzeitpunkt bereits durch den laufenden Mac-Mini-Autosync in Commit `0938e9925` erfasst.

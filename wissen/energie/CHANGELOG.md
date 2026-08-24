@@ -1,5 +1,58 @@
 # CHANGELOG
 
+## 2026-08-24c — AHB-Merkblatt 386 Storensteuerung destilliert, AHB-Merkblatt 394 Wärmepumpen-Messkonzept als bildbasiert dokumentiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand, danach in die Wiki-Artikel einarbeiten. Anschluss an den Vorlauf («A-BLIND-Kandidat
+`ahb-zuerich-gt-rl8-beleuchtung`»), dessen «Für den nächsten Lauf» zwei referenzierte, noch nicht
+einzeln destillierte AHB-Fachmerkblätter aus `[[ahb-richtlinie-gebaeudetechnik-229-2025]]` nannte:
+386 Storensteuerung und 394 Wärmepumpen-Messkonzept (beide als «am ehesten JANS-relevant»
+priorisiert). Vor Beginn den `- [ ]`/`- [~]`-Bestand gegengeprüft: unverändert praktisch alles an
+Raphaels Entscheid gebunden (E103, E94, E-R148-1/-2, E-R161-1, E-R230-2) oder als P3/P4
+ausgeschöpft dokumentiert (E-R134-3, E-R150-3, E-R132-4) — die beiden Merkblätter waren der
+einzige konkret benannte, unblockierte Rest.
+
+**Beide PDFs im selben `stadt-zuerich.ch/.../energie-gebaeudetechnik/`-Verzeichnis wie Dok. 229
+gefunden** (Kandidaten-URLs per `curl -sI` durchprobiert, HTTP 200/application/pdf vor Download
+verifiziert): `merkblatt-storensteuerung.pdf` (386, 353'611 Byte, 33 S.) und
+`merkblatt-messkonzept-waermepumpen.pdf` (394, 1'229'421 Byte, 10 S.), beide mit PyMuPDF
+volltextgelesen.
+
+**386 Storensteuerung (März 2017) vollständig lesbar und destilliert** →
+`[[ahb-merkblatt-386-storensteuerung-2017]]` (neu, `established`). Erstes
+Storensteuerungs-Primärdokument der KB: Grenzwerte/Verzögerungszeiten/Prioritäten je Funktion
+(Produktschutz Wind/Frost/Hagel/Niederschlag/Brand als Stufe 1 sperrt alles; Überhitzungsschutz +
+Thermoautomatik mit Beispiel-Globalstrahlungswert 250/200 W/m² als Stufe 2; Blendschutz 25/18 kLux
+als Stufe 3), Ausfallverhalten (Windsensor 48 h, sonst 1 h Detektionsfrist), Wartungsintervalle
+(2×/Jahr erste 2 Jahre, danach 1×/Jahr, Interventionszeit max. 48 h), drei Systemklassen mit
+Empfehlung normierter Systeme (KNX) statt proprietär. Konkretisiert `[[sommerlicher-waermeschutz]]`
+Stellschraube 1 («aussenliegend, beweglich, windfest, gesteuert») und `[[fenster-uw-g-wert-
+zielkonflikt]]` (Tab.-8-Steuerungsanteil) um die dahinterliegende Regeltechnik, bisher nur
+allgemein benannt.
+
+**394 Wärmepumpen-Messkonzept (Juni 2020) ist bildbasiert, kein Destillat möglich.** Der Textlayer
+liefert auf 9 der 10 Seiten praktisch nichts (nur die Titelseite trägt extrahierbaren Text) — der
+Inhalt ist vollständig als Schema/Grafik gesetzt. Bewusst nicht spekulativ nacherzählt (Rule
+`wissens-bibliothekar`, Destillat-Treue); als Negativbefund in
+`[[ahb-richtlinie-gebaeudetechnik-229-2025]]` (Offene Punkte) dokumentiert, damit ein künftiger
+Lauf denselben Weg nicht wiederholt, sondern gezielt ein OCR-/Bildlese-Werkzeug einsetzt.
+
+Eingearbeitet: `destillate/ahb-merkblatt-386-storensteuerung-2017.md` (neu),
+`destillate/ahb-richtlinie-gebaeudetechnik-229-2025.md` (Offene Punkte, Backlinks),
+`destillate/INDEX.md` (neue Zeile), `wiki/sommerlicher-waermeschutz.md` (Stellschraube 1 + Quelle),
+`wiki/fenster-uw-g-wert-zielkonflikt.md` (Tab.-8-Absatz), `wiki/BAUHERREN-FAQ.md` (F11
+Beispielwerte), `wiki/QUESTIONS.md`. `git diff --numstat` nach jedem Schreibvorgang geprüft: alle
+additiv bzw. mit den erwarteten ersetzten Zeilen, keine fremde Löschung (zwei Dateien —
+`sommerlicher-waermeschutz.md` und die neue Destillat-Datei — bereits durch den laufenden
+Mac-Mini-Autosync in Commit `0938e9925` erfasst, bevor dieser Lauf selbst committen konnte).
+
+**Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid ecoBKP) bleibt Raphael vorzulegen.
+394 Wärmepumpen-Messkonzept braucht ein Bildlese-/OCR-Werkzeug, keine erneute Textextraktion. Von
+den in Dok. 229 referenzierten, noch offenen Fachmerkblättern bleiben 265 (Kennzeichnung), 385
+(PR-NIS), 389 (Lithium-Ionen-Lagerung), 393 (Bühnentechnik) unerforscht — Kandidaten für einen
+künftigen Lauf. A-BLIND-Bestand unverändert (rund 20 von ~40 Kandidaten im 18-29-Backlink-Bereich
+weiterhin einzeln zu prüfen).
+
 ## 2026-08-24b — Recherche-Agent: E94 (Innendämmung CHF/m²) — JANS-Archiv-Weg erschöpfend
 geprüft, weiterhin Negativbefund
 
