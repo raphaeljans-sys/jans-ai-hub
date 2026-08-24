@@ -1,3 +1,61 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: L41-4 (Lignatec Tab. 3) teilbearbeitet — zwei Zeilen nachgetragen, R90-Eskalation ergänzt
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (G41-2,
+unmittelbar darunter) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 50673 (Startzeit 9:08,
+identischer Auftragstext) ist der hostende Prozess dieser Session. PID 51254 arbeitet an
+`wissen/energie` — keine Berührung von `wissen/normen`. `git status` auf `wissen/normen/` war
+sauber vor Bearbeitungsbeginn.
+
+**Frage bearbeitet: L41-4** (Run 41, Lignatec) — Zellwerte der Tabellen 3, 4, 5 waren seit
+Runde 8 (30.07.2026) nicht mehr vollständig neu aufgenommen worden; die Seiten-Inventur
+(`training/lignatec-seiteninventur.md`) lag dafür bereit.
+
+**Vorgehen:** OneDrive-Kopie des Originals (`AR - 01 Projekte/2414 THALWIL/06 Reglemente/
+_Archiv/11 Brandschutz/Lignatec/Lignatec_brandschutz.pdf`, identisch zur SharePoint-Quelle laut
+Frontmatter) mit `pdftoppm -r 400` gerendert (Blatt 04 = S. 8-9 Tabelle 3, Blatt 06 = S. 12-13
+Tabelle 4, Blatt 07 = S. 14-15 Tabelle 5). In Tabelle 3 gezielt die beiden Nutzungszeilen
+gelesen, für die das Destillat trotz acht Vorrunden nie eigene Eckwerte führte: «Industrie-/
+Gewerbebauten q ≤ 1000 MJ/m²» und «Landwirtschaftliche Bauten» (Python/PIL-Crops beider
+Halbseiten je Zeile, direkte Bildlektüre, keine Textextraktion — Methodik-Pflicht 8).
+
+**Ergebnis (3 Ergänzungen in Tabelle 3, alle primärquellenfest):**
+1. **Industrie-/Gewerbebauten q ≤ 1000 MJ/m²** vollständig erfasst: Struktur wie Wohnbauten
+   MFH bis Spalte 4, weicht aber bei 5-6 Geschossen ab — baulich springt direkt auf
+   R60(nbb)/EI60(nbb) **blau**, während Wohnbauten MFH an derselben Stelle noch grau
+   (Holzoption mit beidseitiger Verkleidung) zeigt. Sprinklerkonzept bleibt identisch zu
+   Wohnbauten MFH (weiss, R60③/EI60②③).
+2. **Landwirtschaftliche Bauten** vollständig erfasst: identisch zu «Verkaufsgeschäfte
+   ≤ 1200 m²/≤ 100 P» direkt darüber, durchgehend weiss, endet nach Spalte 4
+   (Abdeckungsgrenze bestätigt).
+3. **Industrie q > 1000 MJ/m²/unbekannte Nutzung**: bisherige Destillat-Aussage («baulich blau
+   ab 2 über 600») war unvollständig — am Original sichtbar ist eine **R90(nbb)/EI90(nbb)-
+   Eskalation ab 4 Geschossen** (Baulich), die für die analoge Tabelle-4-Zeile bereits
+   dokumentiert war, für Tabelle 3 aber fehlte. Sprinklerkonzept bleibt spiegelbildlich
+   durchgehend bei R60(nbb)/EI60(nbb), keine Eskalation.
+
+**Eingearbeitet:** `destillate/lignum-lignatec-brandschutz.md` (drei neue Absätze im
+Tabelle-3-Abschnitt + neuer Verifikationsstand-Eintrag); `wiki/QUESTIONS.md` L41-4 additiv als
+«teilbearbeitet» markiert + Kopfzeile Run 41 nachgeführt.
+
+**Nicht eingearbeitet (bewusst):** ein Versuch, in derselben Runde auch die analogen Zeilen in
+Tabelle 4 zu lesen, scheiterte an der Bildqualität der angefertigten Crops — die
+Spalte-4-Aufteilung (grau/hellgrau gesplittete Zellen) liess sich nicht mit ausreichender
+Sicherheit einer Zeile zuordnen. Um keine geratene Aussage einzuführen, wurde nichts
+geschrieben; Tabelle 4 und Tabelle 5 bleiben für eine künftige Runde offen.
+
+**Diff-Gegenprobe (`git diff --numstat`):** unten dokumentiert. Beide Änderungen rein additiv,
+keine bestehende Aussage entfernt oder überschrieben.
+
+**Einordnung:** echter primärquellenfester Fortschritt an einer Frage, die nach acht
+Verifikationsrunden am selben Dokument noch echte Lücken hatte (zwei nie dokumentierte Zeilen,
+eine unvollständige Eskalationsangabe) — zugleich ein Beleg dafür, dass auch bei sehr hoher
+Rundenzahl noch nicht jede Zeile einer dichten Matrix tatsächlich geprüft war.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: G41-2 (GVZ-Merkblatt 30.17.3) zwei weitere Belege, bleibt offen
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
