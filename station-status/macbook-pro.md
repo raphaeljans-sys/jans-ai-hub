@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.08.2026 17:17:48
+Stand: 24.08.2026 17:28:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:17)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:25)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 24.08.2026 17:17:48
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- cf632451 nas-selfcommit: 3 Datei(en) 2026-08-24 17:15
+- 8528aab4 Synergie-Lauf 17 (24.08.): SYN-44 Honorar-Skill kennt AHB-Zweitbeleg n=0.7-1.3 nicht (Querverweis gesetzt), SYN-45 KB claude-code fehlte als einzige im Wegweiser (nachgetragen), SYN-46 Schutz-Waechter im Rollen-Register offen

@@ -3271,3 +3271,19 @@ ansehen und die neun Dateien bewusst zusammenfuehren —
 Danach pruefen, ob die beiden Commit-Wege dauerhaft nebeneinander bestehen sollen; solange sie
 es tun, wiederholt sich der Stau. | vollgas-radar 24.08.2026 | Infrastruktur / Git-Sicherung |
 hoch | offen
+
+**Nachtrag 24.08.2026 17:55 (Synergie-Lauf 17) zum Eintrag direkt darueber — der Stau waechst
+wie vorhergesagt, er loest sich nicht von selbst.** Eigener Commit-Versuch um 17:50 scheiterte
+an denselben Konflikten (`nas-commit-now.sh` rc=1, dieselben neun Wissens-Dateien in
+`wissen/energie` und `wissen/baurecht`). Zwei neue Messwerte: der native Log
+`sync-tasks/log/selfcommit-202608.log` zaehlt **22 Fehlschlaege seit 12:45:30**, und der Abstand
+ist von «3 voraus / 50 zurueck» (12:57) auf **«19 voraus / 51 zurueck»** (17:10) gewachsen. Ein
+Rebase-Rest liegt **nicht** im Arbeitsbaum (`.git/rebase-merge` und `-apply` fehlen) — der
+Abbruch raeumt sauber auf, es haengt also nichts, aber es kommt auch nichts durch. **Wirkung:
+seit ueber fuenf Stunden erreicht kein NAS-Edit mehr GitHub oder die zweite Station** — auch die
+Erzeugnisse dieses Laufs nicht (`SYNERGIE-REGISTER.md`, `CHANGELOG.md`, `CLAUDE.md`,
+`skills/honorarberechnung-sia102/SKILL.md`; sie liegen geschrieben auf dem NAS und gehen nicht
+verloren, sind aber ungesichert). Die Aktion bleibt unveraendert die des Eintrags darueber; **von
+diesem Lauf bewusst nicht angefasst**, weil das Zusammenfuehren neun parallel beschriebener
+Wissens-Dateien in einem unbeaufsichtigten Lauf genau der Fall aus Rule `auto-verbesserungen`
+260811 ist. Status: **offen, hoch — und dringlicher als um 12:57**.
