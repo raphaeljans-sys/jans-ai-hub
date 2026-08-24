@@ -4228,3 +4228,50 @@ Felder ohnehin nicht braucht.
 > erst nach Kandidatenwahl und Blindfassung oeffnen. Dieselbe Regel jetzt auch verfahrenswirksam
 > in `skills/twin/SKILL.md`, Workflow C Schritt 1, damit sie nicht nur dokumentiert, sondern vom
 > naechsten `twin-fidelity-review`-Lauf tatsaechlich gelesen wird. Nichts Bestehendes geloescht.
+
+## 260824b (Fidelity-Review, Fenster 04.08.–10.08.2026) — fuenf Fragen, die erste ordnet eine ganze Regelfamilie
+
+**#1 — Haengst Du «Freundliche Gruesse» selbst an, oder macht das die Signatur?** Frage an Raphael,
+**ordnet die gesamte Gruss-Regelfamilie im kompilierten Block**. Facette [[stimme]]. Die Mail vom
+05.08.2026 17:04 traegt beides uebereinander: getipptes «Lieber Gruss» / «Raphael», darunter der
+Block, der mit «Freundliche Gruesse» beginnt. Die Mail vom 07.08.2026 16:12 traegt nur den Block.
+Der Zwilling behandelt die beiden bisher als **Alternativen** und muss sich fuer eine entscheiden.
+Konkret: **Ist «Freundliche Gruesse» der fest eingestellte Kopf Deiner Outlook-Signatur — also gar
+keine Entscheidung —, und der getippte Kurzgruss das Einzige, was Du je waehlst?** Und: haengt es
+am Kanal (OWA mit Block, Apple Mail mobil ohne)? Bei «ja» faellt die halbe Gruss-Regel weg und wird
+durch eine einzige ersetzt: im Du einen Kurzgruss tippen, im Sie nicht.
+
+**#2 — Wann ist die Nullform richtig, und wann waere sie unhoeflich?** Frage an Raphael. Facette
+[[arbeitsweise]] / [[beziehungsregister]]. Am 04.08.2026 08:34 hast Du auf die kommentierten
+Brandschutz-Plaene mit einer Mail geantwortet, die **kein einziges eigenes Wort** enthaelt — nur den
+Teams-Einladungsblock, Termin am naechsten Morgen 08:00. Zusammen mit der kommentarlosen
+Weiterleitung vom 22.08. ([[QUESTIONS]] 260823 #3) ist das die zweite belegte Nullform. Konkret:
+**Ersetzt ein gesetzter Termin bei Dir generell die Antwort, wenn die Sache im Betreff steht — und
+gibt es Empfaenger oder Anlaesse, bei denen Du trotzdem einen Satz dazuschreibst?**
+
+**#3 — Steht die wichtigste Frage bewusst zuunterst?** Frage an Raphael. Facette [[denken]] /
+[[arbeitsweise]]. Beide Golds dieses Fensters liefern zuerst vollstaendig den Sachstand und stellen
+die eigentliche Frage erst am Schluss unter einem nackten Label: «Grundsaetzliche Fragestellung:
+Kannst Du mit der bestehenden Vermassung die LBW einmessen?» (05.08.) und «Frage:» (07.08.). Der
+Zwilling setzt seine Bitte reflexhaft nach oben, damit sie nicht untergeht. Konkret: **Stellst Du
+die Frage ans Ende, weil der Empfaenger sie ohne die Fakten davor nicht beantworten kann — oder
+weil eine Frage zuoberst wie eine Forderung wirkt?** Die Antwort entscheidet, ob die Reihenfolge
+eine Denk- oder eine Hoeflichkeitsregel ist.
+
+**#4 — Wofuer dankst Du, und wofuer nicht?** Frage an Raphael. Facette [[stimme]]. Die Mail an den
+Unternehmer (05.08.) oeffnet mit «Besten Dank fuer Deine E-Mail.», die an die Projektleitung
+(07.08.) **ohne jede Dankformel**, obwohl dort zwei ausdrueckliche Fragen an Dich gestellt worden
+waren. Der Unterschied koennte sein: gedankt wird fuer eine **Lieferung** (er schickte kommentierte
+Plaene), nicht fuer eine **Anforderung** (sie stellte Fragen). Konkret: **Stimmt das, oder haengt
+der Eingangsdank eher am Register (Du mit Dank, Sie ohne) beziehungsweise an der Threadlaenge?**
+
+**#5 — Die Zwanzigste Falle greift beim Suchergebnis nicht.** Offen, Hub-intern, kein
+Handlungsbedarf fuer Raphael. `wissen/twin/CLAUDE.md` und `skills/twin/SKILL.md` schreiben seit dem
+24.08. fest, das `summary`-Feld beim Kandidaten-Zuschnitt **nicht zu lesen**. Der Connector liefert
+es aber **unaufgefordert** in jedem Treffer der Ergebnisliste; die Regel ist damit nur als
+Selbstdisziplin durchsetzbar, nicht mechanisch. Dieser Lauf hat sie so weit wie moeglich gehalten
+(Kandidatenwahl bewusst auf die drei leak-armen Treffer, betroffene Anreden nicht gutgeschrieben) —
+und **einen mechanischen Ersatz gefunden**: der Werkzeug-Detektor aus Batch 103
+(`internetMessageId` auf `*.PROD.OUTLOOK.COM` ⇒ eigene Hand) waehlt Gold **ohne jeden Textkontakt**.
+**Empfehlung fuer den naechsten Lauf: zuerst nach Message-ID filtern, dann nach Betreff-Probe, und
+das `summary` gar nicht erst in die Auswahl einbeziehen.**

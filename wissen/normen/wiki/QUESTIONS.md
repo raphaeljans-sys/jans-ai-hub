@@ -2257,7 +2257,7 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); die uebrigen Bestaende (L41-3/L41-4, GVZ G41-1/G41-2, Hindernisfreies Bauen, restliche PAVIDENSA-Punkte) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); die uebrigen Bestaende (L41-3/L41-4, GVZ G41-1/G41-2, H41-2/H41-3/H41-4, restliche PAVIDENSA-Punkte) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -2454,6 +2454,27 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **H41-1** Schlagen § 239 PBG und § 34 BBV I heute auf **SIA 500:2009** durch, oder verweist
   das kantonale Recht noch auf SN 521 500:1988? Die BKZ-Checkliste nennt ausdrücklich die
   Fassung 1988. **Rechtlich relevant, an der Quelle nicht entscheidbar.**
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Direkt an den amtlichen Primärtexten
+  > geprüft, nicht am Sekundärtext: **§ 239c PBG** (700.1) delegiert «Das Nähere … bestimmt sich
+  > nach den anerkannten Regeln der Baukunde. Der Regierungsrat bezeichnet die massgebenden
+  > Regelwerke» (Einfügung durch G vom 22.10.2012, in Kraft seit 1.6.2013, seither unverändert;
+  > geprüfte PBG-Fassung Nachtrag 107, Stand 1.1.2020). **§ 34 Abs. 2 BBV I** (700.21) verweist
+  > auf «die Richtlinien und Normalien gemäss Anhang 2.5»; **Anhang Ziffer 2.515** nennt dort
+  > ausschliesslich «Norm SIA 500:2009, Hindernisfreie Bauten» — geprüft an der **heute
+  > tatsächlich geltenden** Fassung Nachtrag 133 (Stand 1.7.2026), PDF direkt ab ZH-Lex
+  > (`zh.ch`, Erlass 700_21-1981_05_06-1982_01_01-133) geladen. **SN 521 500 wird an keiner
+  > Stelle des aktuellen Erlasses mehr genannt.** Die Anhang-Ziffer trägt Fussnote 59: «Fassung
+  > gemäss RRB vom 31. März 2009 … In Kraft seit 1. Juli 2009» — die Ablösung datiert exakt auf
+  > dieses Datum und ist seither über drei unabhängig geprüfte Fassungsstände (1.7.2018,
+  > 1.10.2019, 1.7.2026) unverändert. **Antwort: SIA 500:2009, nicht SN 521 500:1988** — die
+  > BKZ-Checkliste von 2005 ist an dieser Stelle materiell überholt (für ihren eigenen
+  > Erscheinungszeitpunkt war sie richtig). Zusatzbefund: `prSIA 500:2025-07`
+  > (Vernehmlassungsentwurf, Juli 2025) soll SIA 500:2009 dereinst ersetzen, ist aber **noch
+  > nicht in Kraft** — SIA 500:2009 bleibt die geltende Ausgabe; sobald der Entwurf verabschiedet
+  > ist, muss Anhang 2.515 erneut geprüft werden. Nachgetragen in
+  > `destillate/bkz-2005-checkliste-hindernisfrei-hochbau.md` (Frontmatter-Status und Abschnitt
+  > «Der wertvollste Teil»).
 - **H41-2** Das Mass der «erhöhten Anforderungen» für **Sonderbauten** (Spitäler, Alters- und
   Behindertenheime) gegenüber SN 521 500 — im Dokument nicht beziffert. Für JANS mit
   Healthcare-Schwerpunkt der wichtigste offene Punkt dieses Bestands.
@@ -2513,6 +2534,14 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   über mehrere Spalten **verbundene Zellen** falsch zu. **Regel: Tabellen mit verbundenen Zellen
   oder Farbcodierung werden gerendert und abgelesen, nie extrahiert.** Kandidat für die
   Aufnahme als Methodik-Pflicht 8 ins PROGRAMM.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Geprüft gegen
+  > `training/PROGRAMM.md`: **Methodik-Pflicht 8 — «Tabellen werden gerendert und abgelesen, nie
+  > per Textextraktion aufgenommen»** existiert bereits (aufgenommen aus Run 41 selbst, Freigabe
+  > Raphael am 01.08.2026) und führt wortgleich dieselben beiden Belege (GVZ-Vergleichszeichen,
+  > PAVIDENSA PAV-A 01 verbundene Zellen) plus einen dritten (PAV-A 03 Kreuzmatrix). Der hier
+  > vorgeschlagene Wortlaut ist bereits vollständig umgesetzt — kein neuer Auftrag nötig, dieser
+  > Punkt war ein Duplikat der eigenen bereits erfüllten Forderung.
 
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 

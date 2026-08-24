@@ -1,3 +1,66 @@
+## 2026-08-24 — SIA-Sweep, sechste unabhängige Sättigungs-Verifikation (~06:20 Uhr)
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-Zeilen ohne Volltext beschaffen, Register/Destillate
+nachführen). CHANGELOG-Kopf und Report der fünften Verifikation
+(`outputs/2026-08-24_sia-sweep-fuenfte-unabhaengige-saettigungsverifikation-0536uhr.md`,
+~05:36-05:40 Uhr) zuerst gelesen; eigene Prozess-ID (PID 62959) gegen `ps aux` als eigener
+Lauf bestätigt, kein Konkurrenzlauf.
+
+**Eigene Nachmessung deckungsgleich mit den fünf vorangehenden Läufen:** `norm-inventar.md`
+0 offene Zeilen (`grep -c '^\- \[ \]'`); `wiki/REGISTER.md` weiterhin 59 „Kein Volltext im
+Haus"-Zeilen, ausschliesslich SIA-Familie, jede mit shop.sia.ch-Produktdatenblatt-Beleg
+(gültig-ab-Datum) und kostenpflichtiger Bring-Schuld Raphaels — kein freier Beschaffungsweg
+ungeprüft. Zusätzlich geprüft: die beiden einzigen echten offenen Sachentscheide der KB
+(`wiki/QUESTIONS.md` 260823 N60-1 Doppelbestand-Merge, N60-2 Methodik-Pflicht-14-Freigabe)
+sind bereits korrekt in `logbuch/fristen.md` als „offen, hoch" bei Raphael erfasst — keine
+Nacharbeit nötig. Kein siebter Sweep-Zyklus gefahren: er würde entweder bereits Geschlossenes
+wiederholen oder auf denselben zwei Bring-Schulden sitzen bleiben. Empfehlung unverändert:
+SIA-Sweep bis zu Raphaels Kauf-/Freigabeentscheiden pausieren.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung, H41-1 geschlossen (SIA 500:2009 löst SN 521 500:1988 im ZH-Recht seit 1.7.2009 ab) + M41-1 als Duplikat der bestehenden Methodik-Pflicht 8 erkannt
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten (identischer Auftrag wie
+die zahlreichen Vorläufe dieses Tages). CHANGELOG-Kopf gelesen: die KB gilt für den
+SIA-Sweep-Auftrag seit dem Vormittag als gesättigt; im gesondert geführten Run-41-Bestand
+(Hindernisfreies Bauen, neu aufgenommen) war H41-1 als «rechtlich relevant, an der Quelle nicht
+entscheidbar» offen — das war zu eng gefasst: die Frage ist an einer ANDEREN Quelle (dem
+geltenden kantonalen Recht selbst) sehr wohl entscheidbar, nur nicht am BKZ-Merkblatt von 2005.
+
+**H41-1 geschlossen.** Frage: Schlagen § 239 PBG und § 34 BBV I heute auf SIA 500:2009 durch,
+oder gilt noch die 2005 zitierte SN 521 500:1988? Direkt an den amtlichen ZH-Lex-Primärtexten
+geprüft (`WebSearch`/`WebFetch`, PDFs direkt von `zh.ch` bzw. `notes.zh.ch` geladen, mit
+`pdftotext -layout` gelesen — kein Rendering nötig, echter Textlayer):
+1. **§ 239c PBG** (700.1, Fassung Nachtrag 107/Stand 1.1.2020; Delegationsnorm eingefügt durch
+   G vom 22.10.2012, in Kraft seit 1.6.2013, seither unverändert) delegiert die Bezeichnung der
+   massgebenden Regelwerke ausdrücklich an den Regierungsrat.
+2. **§ 34 Abs. 2 BBV I** (700.21) verweist auf «Anhang 2.5». Drei unabhängig geladene
+   Fassungsstände geprüft — Nachtrag 101 (Stand 1.7.2018), Nachtrag 106 (Stand 1.10.2019) und
+   die **heute tatsächlich geltende Fassung Nachtrag 133 (Stand 1.7.2026)**, letztere per
+   direktem PDF-Download von der offiziellen ZH-Lex-Seite (`700.21_6.5.81_133.pdf`): **Anhang
+   Ziffer 2.515 nennt in allen drei Ständen ausschliesslich «Norm SIA 500:2009, Hindernisfreie
+   Bauten»** (Fussnote 59: «Fassung gemäss RRB vom 31. März 2009 … in Kraft seit 1. Juli 2009»).
+   SN 521 500 kommt im aktuellen Erlass nicht mehr vor.
+3. Zusatzbefund: `prSIA 500:2025-07` (Vernehmlassungsentwurf, Juli 2025) soll SIA 500:2009
+   dereinst ersetzen, ist aber noch nicht in Kraft — SIA 500:2009 bleibt geltende Ausgabe.
+
+**Antwort: SIA 500:2009, seit 1. Juli 2009, nicht SN 521 500:1988.** Die BKZ-Checkliste von 2005
+war für ihren eigenen Erscheinungszeitpunkt korrekt und ist an dieser einen Stelle heute
+materiell überholt. Nachgetragen in
+`destillate/bkz-2005-checkliste-hindernisfrei-hochbau.md` (Frontmatter-Status, Abschnitt «Der
+wertvollste Teil», Offen-Punkt) und `wiki/QUESTIONS.md` (H41-1-Absatz, Run-41-Kopfzeile).
+
+**M41-1 geschlossen als Duplikat.** Der Methodik-Vorschlag «Tabellen mit verbundenen Zellen oder
+Farbcodierung werden gerendert, nie per Textextraktion aufgenommen» existiert bereits wortgleich
+als **Methodik-Pflicht 8** in `training/PROGRAMM.md` (aus demselben Run 41, von Raphael am
+01.08.2026 freigegeben, mit denselben Belegen GVZ/PAVIDENSA). Kein neuer Auftrag — nur in
+`wiki/QUESTIONS.md` als geschlossen markiert, damit der Punkt nicht erneut als offen erscheint.
+
+**Verifikation:** `git diff --numstat` nach beiden Schreibvorgängen geprüft — Destillat 33
+Zeilen hinzugefügt/7 gelöscht, `wiki/QUESTIONS.md` 30 hinzugefügt/1 gelöscht; beide Diffs
+gegengelesen, die Löschungen betreffen ausschliesslich die soeben durch diesen Lauf selbst
+eingefügten Zeilen (Kopfzeile, Fassungsvorbehalt, Offen-Punkt) — kein fremder Inhalt berührt
+(Rule `auto-verbesserungen` 260811). Kein globales Ersetzen verwendet.
+
 ## 2026-08-24 — SIA-Sweep, zwölfte unabhängige Nachmessung: Sättigung erneut bestätigt, bewusst KEIN weiterer Zyklus, Lauf minimal gehalten
 
 **Auftrag:** identisch zum SIA-Sweep-Auftrag der zehn vorangehenden Läufe dieses Tages

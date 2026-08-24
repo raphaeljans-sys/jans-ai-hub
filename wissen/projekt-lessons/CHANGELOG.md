@@ -3,6 +3,33 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 (vierzehnte Fortsetzung) — Neunter Folgeauftrag: Quelle des stale Triggers inzwischen gefunden, dokumentiert in `betrieb-chronik.md`
+
+- **Getan:** Neunter Fortsetzungsauftrag in Folge, wortgleich mit den vorangehenden acht
+  (veralteter Zwischenstand «807 Positionen»/Verweis auf `projekt-triage2`). Vor jeder
+  Handlung Spec, diesen CHANGELOG (dreizehnte Fortsetzung) und `KORPUS-QUEUE.md` gelesen.
+- **[Verifikation]** Eigene Nachzählung von
+  `skills/wissens-destillat/training/buero-projekte-inventar.md`: unverändert 813
+  Sachzeilen, 56 `[x]` destilliert, 757 `[-]` verworfen, 0 `[ ]`/`[t]` offen.
+  `KORPUS-QUEUE.md` führt den Korpus weiterhin als **erledigt** (23.08.2026).
+- **Root Cause seit der dreizehnten Fortsetzung geklärt, ausserhalb dieses KB-CHANGELOG:**
+  Die dreizehnte Fortsetzung fand die Quelle des stale Triggers nicht («Behebung liegt
+  ausserhalb dieser Session»). Eigene Prozess-Rückverfolgung dieser Session (`ps`-Elternkette
+  des eigenen `claude-run.sh`-Prozesses) UND ein unabhängiger, bereits vorliegender Eintrag in
+  `rules/betrieb-chronik.md` (2026-08-24 03:40) zeigen dieselbe Quelle: `/tmp/vollschub-mini.sh`,
+  Raphaels eigene, ausdrücklich angewiesene Kontingent-Kampagne vom 23./24.08.2026 mit einem
+  fest kodierten 5-Elemente-Rotations-`TASKS`-Array, das den `buero-projekte`-Prompt trotz
+  Korpus-Abschluss weiter mitrotiert (`SCHLUSS="2026-08-24 11:30"`, danach endet die Schleife
+  von selbst). Details, Begründung (bewusst nicht editiert/gestoppt) und Lehre für künftige
+  Vollschub-Kampagnen: `rules/betrieb-chronik.md`, Abschnitt 2026-08-24 03:40.
+- **Kein Destillat-/Triage-Schritt, kein neuer Output-Report** — die Faktenlage der KB selbst
+  ist unverändert seit der neunten Fortsetzung. Diese KB (`projekt-lessons`) ist nicht der
+  richtige Ort für die Root-Cause-Dokumentation (Infrastruktur, nicht Fachinhalt) — daher nur
+  dieser Verweis, keine Duplizierung. **Sollte derselbe stale Auftrag vor 11:30 Uhr erneut
+  eintreffen: keine weitere Prüfhandlung mehr nötig, direkt auf diesen Eintrag verweisen.**
+  Echte offene Arbeit im Wissens-Destillat-Prozess liegt weiterhin bei `buero-referenzen`/
+  `archiv-fachwissen` (Ziel-KB `wissen/architektur-fachwissen`, Spec dort jeweils noch offen).
+
 ## 2026-08-24 (dreizehnte Fortsetzung) — Achter Folgeauftrag, identisch stale: Korpus bleibt abgeschlossen, kein weiterer Eintrag mehr geplant
 
 - **Getan:** Achter Fortsetzungsauftrag in Folge, wortgleich mit dem siebten (weiterhin

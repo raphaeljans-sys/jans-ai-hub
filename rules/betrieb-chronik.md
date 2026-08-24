@@ -78,6 +78,36 @@ weiterhin abrufbar), danach lief `nas-commit-now.sh` sofort durch. Ergebnis: Com
 
 ---
 
+## 260824 — SMB-Mount fiel dreimal in einem Lauf weg; `cd` schlug fehl, das Schreiben lief ins Repo-Root
+
+Im `twin-fidelity-review` (05:47–06:30) verschwand `/Volumes/daten` **dreimal**. Dieselbe Störung
+wie im Mail-Batch 103 desselben Tages (dort lag der Mount zeitweise auf `/Volumes/daten-1`);
+`osascript -e 'mount volume "smb://192.168.1.10/daten"'` half jedes Mal beim ersten oder zweiten
+Versuch.
+
+**Die teure Stelle war nicht der Ausfall, sondern die Befehlsform.** Ein Block der Gestalt
+
+    cd /Volumes/daten/jans-ai-hub/wissen/twin/wiki
+    cat >> stimme.md <<'EOF' … EOF
+
+lief mit **fehlgeschlagenem `cd` weiter** (zsh meldet «no such file or directory» und macht weiter)
+und schrieb die Datei in das Verzeichnis, in dem die Shell tatsächlich stand — den SSD-Repo-Root.
+Der `tail` danach bestätigte sogar «ok», weil er dieselbe falsche Datei las. Bemerkt wurde es nur an
+der `cd`-Fehlermeldung im Output.
+
+Behoben ohne Verlust: die Datei nach `…/scratchpad/fid260824/stimme-marker-260824.md` **verschoben**
+(nicht gelöscht), ihr Inhalt korrekt an die NAS-Datei angehängt, Arbeitsbaum mit `git status
+--porcelain` als sauber nachgemessen.
+
+**Regel daraus, für jeden Lauf, der auf das NAS schreibt:** (1) **kein `cd` auf einen NAS-Pfad** —
+absolute Pfade verwenden (das verlangt die CLAUDE.md ohnehin); (2) vor jedem Schreibblock einen
+Mount-Guard setzen, der hart abbricht: `test -f "<eine bekannte Zieldatei>" || { echo ABBRUCH; exit
+1; }`; (3) `set -e` allein genügt **nicht**, wenn der `cd` in einem Mehrzeiler ohne `&&` steht.
+Die beiden folgenden Ausfälle desselben Laufs wurden vom Guard sauber abgefangen — dort wurde
+nichts geschrieben, und der Lauf konnte nach dem Remount exakt fortsetzen.
+
+---
+
 ## 260823c — Triage-Lauf editierte den SSD-Klon statt der NAS-Quelle, Auto-Sync-Stash-Pop hinterliess Konfliktmarker im Commit
 
 **Vorfall:** Interaktive Session auf dem Mac Mini fuehrte die Triage Phase 1 des Korpus

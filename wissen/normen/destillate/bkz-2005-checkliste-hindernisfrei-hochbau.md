@@ -5,7 +5,7 @@ herausgeber: "BKZ, Behindertenkonferenz Kanton Zürich — Bauberatung, Kernstra
 ausgabe: "Stand 27.10.2005 (Kürzel «ac» in der Fusszeile aller vier Seiten)"
 gelesen: "alle 4 Seiten vollständig"
 datenstand: "27.10.2005. PDF-Technikdaten (CreationDate 31.10.2005, ModDate 02.11.2005) getrennt geführt."
-status: "speculative (Erstdestillat 010826, Verifikation ausstehend). FASSUNGSVORBEHALT: stützt sich auf SN 521 500:1988."
+status: "speculative (Erstdestillat 010826, Verifikation ausstehend). Die Checkliste selbst stützt sich auf SN 521 500:1988 — GEKLÄRT 24.08.2026 (H41-1, QUESTIONS-Abarbeitung): das geltende Recht verweist heute auf SIA 500:2009, nicht mehr auf SN 521 500:1988, siehe Abschnitt «Der wertvollste Teil» unten."
 bkp: "querschnittlich (hindernisfreies Bauen)"
 ---
 
@@ -25,11 +25,36 @@ Für **Sonderbauten** (im Dokument genannte Beispiele: Spitäler, Altersheime, B
 gelten gegenüber SN 521 500 **erhöhte Anforderungen**; das Mass der Erhöhung wird im Dokument
 selbst **nicht** beziffert.
 
-⚠ **Fassungsvorbehalt:** Die zitierte Norm SN 521 500:1988 ist die Vorgängerin von
-**SIA 500:2009**. Ob der Mechanismus «Richtlinien und Normalien nach § 239 PBG / § 34 BBV I»
-heute auf SIA 500 durchschlägt, ist im Dokument nicht beantwortbar und in `wiki/QUESTIONS.md`
-als offene Frage geführt. Der Verweis-Mechanismus als solcher ist das Verallgemeinerbare, nicht
-die konkrete Normfassung.
+✅ **Fassungsvorbehalt GEKLÄRT 24.08.2026 (H41-1, QUESTIONS-Abarbeitung).** Die 2005 zitierte
+Norm SN 521 500:1988 ist heute **abgelöst**. Am Primärtext selbst geprüft, nicht am Sekundärtext:
+
+- **§ 239c PBG** (Planungs- und Baugesetz 700.1, Fassung Nachtrag 107, Stand 1.1.2020 — die
+  Delegationsnorm selbst stammt aus der Einfügung durch Gesetz vom 22.10.2012, in Kraft seit
+  1.6.2013, seither unverändert): «Das Nähere zu den nach §§ 239a und 239b erforderlichen
+  baulichen Massnahmen bestimmt sich nach den anerkannten Regeln der Baukunde. **Der
+  Regierungsrat bezeichnet die massgebenden Regelwerke.**»
+- **§ 34 Abs. 2 BBV I** (Besondere Bauverordnung I 700.21, aktuell gültige Fassung Nachtrag 133,
+  Stand 1.7.2026 — heute per Direktdownload ab `zh.ch`/ZH-Lex geprüft, PDF `700.21_6.5.81_133.pdf`):
+  «Die Richtlinien und Normalien gemäss Anhang 2.5 sind zu beachten, insbesondere auch für das
+  Innere der Gebäude.» **Anhang Ziffer 2.515** nennt dort ausschliesslich: «**Norm SIA 500:2009,
+  Hindernisfreie Bauten**» sowie «Empfehlung Wohnungsbau hindernisfrei-anpassbar, Schweizerische
+  Fachstelle für behindertengerechtes Bauen, Ausgabe 1992». **SN 521 500 wird an keiner Stelle
+  des aktuellen Erlasses mehr genannt.**
+- Diese Anhang-Ziffer trägt die Fussnote 59: «Fassung gemäss RRB vom 31. März 2009 (OS 64, 129;
+  ABl 2009, 552). In Kraft seit 1. Juli 2009.» — die Ablösung von SN 521 500:1988 durch
+  SIA 500:2009 im kantonalen Recht datiert damit auf **1. Juli 2009** und ist seither in allen
+  geprüften Fassungen (Stand 1.7.2018, 1.10.2019, 1.7.2026) unverändert stehen geblieben.
+- **Die BKZ-Checkliste von 2005 ist damit an dieser einen Stelle materiell überholt** (nicht
+  falsch für ihren eigenen Erscheinungszeitpunkt) — für heutige Projekte gilt der
+  Verweis-Mechanismus «§ 239 PBG / § 34 BBV I» auf **SIA 500:2009**, siehe [[sia-500-2009]].
+  Der Verweis-Mechanismus als solcher (kantonales Recht bezeichnet eine private Norm für
+  verbindlich) bleibt unverändert und ist das eigentlich Verallgemeinerbare.
+- **Anschlusspunkt, nicht mehr offen als Rechtsfrage, aber tatsächlich in der Schwebe:** die
+  SIA hat im Juli 2025 den Vernehmlassungsentwurf `prSIA 500:2025-07` veröffentlicht, der
+  SIA 500:2009 vollständig ersetzen soll. Stand der Recherche (24.08.2026): der Entwurf ist
+  **noch nicht in Kraft** und darf nicht angewendet werden — SIA 500:2009 bleibt die geltende
+  Ausgabe. Sobald `prSIA 500:2025` verabschiedet ist, muss die BBV-I-Anhangsziffer 2.515
+  erneut geprüft werden, ob der Regierungsrat sie nachzieht.
 
 ## Struktur
 
@@ -84,7 +109,8 @@ Verwendung in einem Erzeugnis gegen die aktuelle Website prüfen — Rule
 
 ## Offen
 
-- Ob § 239 PBG / § 34 BBV I heute auf SIA 500:2009 statt auf SN 521 500:1988 durchschlagen.
+- ✅ GESCHLOSSEN 24.08.2026 (H41-1): Ob § 239 PBG / § 34 BBV I heute auf SIA 500:2009 statt auf
+  SN 521 500:1988 durchschlagen — ja, seit 1. Juli 2009, siehe Abschnitt oben.
 - Das Mass der «erhöhten Anforderungen» für Sonderbauten (Spitäler, Alters- und Behindertenheime)
   — im Dokument nicht beziffert. Für JANS mit Healthcare-Schwerpunkt der praktisch wichtigste
   offene Punkt dieses Dokuments.

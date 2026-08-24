@@ -580,3 +580,36 @@ osascript -e 'tell application id "com.microsoft.Word" to save as document "tmp.
 Das Dokument über seinen Namen adressieren (`document "tmp.docx"`), nicht über `active
 document`. Vor dem nächsten Lauf Word regulär beenden, nie mit `pkill` — sonst beginnt das
 Spiel von vorn.
+
+## Nachtrag 24.08.2026 — Regierungsratsbeschlüsse vor 2000 (Kt. ZH): Staatsarchiv-Portal `zentraleserien.zh.ch`
+
+**Anlass.** KB `wissen/baurecht`, Buch-Run 121/123: ein Fallzitat (RRB Nr. 1294/1995) liess sich
+über die bekannten Wege (`entscheidsuche.ch`, Baurekursgericht-Entscheidnummer-Suche —
+Gerichtsentscheide, keine Regierungsratsbeschlüsse) nicht finden. Fälschlich zunächst als
+«unmöglich» gewertet; Rule `wege-und-vollmachten` verlangt, vorher alle Wege zu prüfen.
+
+**Der Weg:** das Staatsarchiv des Kantons Zürich stellt unter `https://www.zentraleserien.zh.ch`
+die "Zentralen Serien des Kantons Zürich (19./20. Jahrhundert)" bereit — Regierungsratsbeschlüsse
+(RRB) für den Zeitraum **1803-1995**, dazu Kantonsratsprotokolle (KRP), Amtsblatt (ABl) und
+Gesetzessammlung (OS), digitalisiert und volltextdurchsuchbar. Für RRB **nach** dem 1.10.2008
+bleibt der bereits bekannte Weg `zh.ch/.../beschluesse-des-regierungsrates` massgebend; für die
+Lücke **1996-2008 ist bislang kein Zugriffsweg bekannt.**
+
+**Technisch:** die sichtbare Oberfläche ist eine TEI-Publisher/eXist-db-App (clientseitiges
+Rendering, `WebFetch` liest sie nicht sinnvoll aus). Die zugrunde liegende REST-API ist aber
+öffentlich und liefert servergerendertes HTML:
+
+```bash
+curl -A "Mozilla/5.0" -G "https://www.zentraleserien.zh.ch/api/search" \
+  --data-urlencode 'query="<Suchbegriff>"' --data-urlencode "field=text" \
+  --data-urlencode "type=document"
+```
+
+**Falle:** ein Slash im Suchbegriff (z.B. eine RRB-Nummer wie «1294/1995») lässt den
+Lucene-Parser ohne Anführungszeichen abbrechen (`Cannot parse 'text:1294/1995'`). Als Phrase in
+Anführungszeichen übergeben, funktioniert die Suche.
+
+**Grenze:** ausdrücklich nur für **Verwaltungsentscheide des Regierungsrates** vor 2000 — nicht
+für Gerichtsentscheide (Baurekurskommission/-gericht, Verwaltungsgericht), die weiterhin über
+`entscheidsuche.ch` bzw. die Baurekursgericht-Entscheidnummer-Suche laufen. Quelle:
+`wissen/baurecht/outputs/2026-08-24_buch-run123.md`.

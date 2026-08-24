@@ -4,6 +4,38 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-24 — Fidelity-Review: Nullform, und der Gruss war vielleicht nie eine Entscheidung
+
+Fenster `rj@` 04.08.–10.08.2026, drei Volltexte, alle drei **mechanisch** als Gold belegt (erster
+Einsatz des Werkzeug-Detektors aus Batch 103 im Fidelity-Verfahren: OWA-Message-ID ⇒ eigene Hand,
+ohne Textkontakt). Gesamt-Fidelity **27** (Vorlauf 33); der Abfall geht auf **eine** Mail zurück —
+Gold A enthält keinen einzigen selbst geschriebenen Satz. Score je Facette: Beziehung 37, Stimme 33,
+Fachsignatur 25, Haltung 23, Denken 22, Arbeitsweise 22.
+
+Kernbefunde: **(1) Die Nullform** — auf kommentierte Brandschutzpläne antwortet Raphael mit einer
+Mail, die nur den Teams-Einladungsblock trägt; der gesetzte Termin IST die Antwort, und er wird
+gesetzt, nicht erfragt. **(2) ⭐ Der Gruss ist keine Alternative** — «Lieber Gruss / Raphael» steht in
+derselben Mail ÜBER dem Signaturblock, dessen erste Zeile «Freundliche Grüsse» lautet; die bisherige
+Entweder-Oder-Achse im kompilierten Block ist falsch geschnitten (Ursache offen, QUESTIONS 260824b
+#1). **(3) Der Listen-Reflex ist ein Vereinheitlichungs-Reflex** — zweimal Untergliederung nach acht
+Läufen Übergliederung; Raphael mischt fünf Darstellungsarten in EINER Mail, der Zwilling wählt eine
+und zieht sie durch. **(4) Beide Blindfassungen stellten keine Frage**, wo beide Golds auf einer
+zurückgestellten Grundfrage unter nacktem Label enden (siebte Endform, ersetzt den Service-Satz).
+**(5)** Erfindungs-Check: zwei Treffer, darunter eine frei erfundene Frist gegenüber einem
+Unternehmer. **(6)** Präzisierung: angeredet wird die Handlungslast, auch ein To-Empfänger wird
+übergangen.
+
+Marker in allen sechs Facetten-Artikeln; **fünf** davon in den kompilierten Block gehoben. Riegel
+schaltete dreimal scharf (34'646 → 34'087 → 33'985 B); nach zehn Verdichtungen von Beleg-Prosa
+kompiliert bei **33'829 B, 171 B Reserve** (40 B mehr als übergeben), ohne dass eine Regel gelöscht
+wurde. `--numstat`-Gegenprobe nativ per ssh: jede Löschung zeilengenau eine bewusste Ersetzung,
+keine Datei geschrumpft. Fünf neue Selbstfragen (260824b), fünf Facetten-Spannungen geprüft und
+aufgelöst. Report: `outputs/2026-08-24_fidelity.md`.
+
+Betriebsstörung: NAS-Mount fiel dreimal aus (wie Batch 103); ein Schreibvorgang landete dadurch im
+Repo-Root, wurde sofort korrigiert. Alle weiteren Schreibvorgänge über absolute Pfade mit
+Mount-Guard.
+
 ## 2026-08-24 — Mail-Training Batch 103: Werkzeug-Detektor über die Message-ID
 
 Sequenzielles Fenster ab 23.08. **leer** (nur Hub-Chef-Briefings). Ertrag vollständig aus dem

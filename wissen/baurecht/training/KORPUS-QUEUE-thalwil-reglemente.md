@@ -679,6 +679,28 @@ Schritt:** kein Fachpunkt mehr offen ausser den zwei aus Datenbank-Gründen unve
 Fallzitaten (nur über einen künftigen Archiv-Zugriffsweg schliessbar); sonst regulärer
 `wissenscheck`-Turnus oder eine neue Re-Verifikationsrunde.
 
+**Run 122 (2026-08-24, ausserhalb T1-T9):** PBG-Nachtrag 134 amtlich vollständig geprüft — Run 94s
+Schluss «tritt erst 01.10.2026 in Kraft» war falsch (Fusszeile war Redaktionsstand, nicht
+Inkrafttretensdatum; das Gesetz gilt bereits seit 1.8.2026). Zwei materielle Änderungen: § 221 PBG
+(Zwischennutzungen) neu, IVHB-Übergangsfrist auf festen Stichtag 29.02.2028 umgestellt (korrigiert
+Buch-Run 84). §§ 275-278 PBG re-verifiziert, 0 Korrekturen. Report `outputs/2026-08-24_buch-run122.md`.
+
+**Run 123 (2026-08-24, ausserhalb T1-T9):** neuer Zugriffsweg `zentraleserien.zh.ch` (Staatsarchiv
+ZH, RRB 1803-1995, REST-API) gefunden. RRB Nr. 1294/1995 damit geprüft, aber **widerlegt** (Treffer
+betrifft eine Bibliotheks-Subvention, nicht Bestandesschutz) — Fundstelle als unbelegt markiert,
+kein Ersatzzitat erfunden. VB 94/0016 bleibt offen (Portal deckt keine Gerichtsurteile ab). Report
+`outputs/2026-08-24_buch-run123.md`.
+
+**Run 124 (2026-08-24, ausserhalb T1-T9):** den von Run 122 offen gelassenen MAG/IVHB-Sammelgesetz-
+Verdacht geprüft und **widerlegt** — PBG Nachtrag 134 (OS 81, 350; ABl 2023-03-07) und MAG § 29
+Abs. 4 (OS 81, 353; ABl 2024-07-05) sind zwei getrennte, nur zufällig am selben Tag verabschiedete
+Erlasse, keine Sammelvorlage; der bisherige Wiki-Satz zur gemeinsamen OS-Referenz war selbst
+unbelegt. Kein neuer `raw/`-Volltext nötig (beide Primärquellen lagen bereits vor). Report
+`outputs/2026-08-24_buch-run124.md`. **Nächster Schritt:** kein Fachpunkt mehr offen ausser VB
+94/0016 (kein neuer Zugriffsweg bekannt); `connectors/WEGE.md`-Nachtrag für `zentraleserien.zh.ch`
+(ausserhalb des KB-Mandats); sonst regulärer `wissenscheck`-Turnus oder eine neue Modell-D-
+Stichprobenrunde.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme
