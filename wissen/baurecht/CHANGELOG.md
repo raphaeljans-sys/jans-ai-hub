@@ -3,6 +3,63 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 115: letzter Stale-Flag-Block «Health-Check 2026-06-02» geschlossen — Gebühren-Flag erstmals mit Primärquellen belegt (Thalwiler Gebührenverordnung + Preisüberwacher-Studie), BZO-Richtwert-Tabelle-Flag war bereits erledigt
+
+- **Ausgangslage:** Run 114 hatte als letzten offenen Block der chronologischen
+  `QUESTIONS.md`-Sweep-Kette (Run 90-114) den Block «Health-Check 2026-06-02» benannt: zwei
+  Flags, Gebühren 1-3 ‰ ([[baubewilligungsverfahren]]) und BZO-Richtwert-Tabelle
+  ([[zonenkonformitaet]]).
+- **BZO-Richtwert-Tabelle — stale:** die Forderung («Einzelwerte gegen aktuelle BZO prüfen»)
+  ist bereits durch Run 56 (25.07.2026, Art. 13/14/18 BZO Zürich-Stadt, dabei eine komplette
+  unbelegte Platzhaltertabelle aufgedeckt und ersetzt) und Run 75/77 (23.08.2026, Art. 3/6/20a/25
+  BZO Thalwil) amtlich erfüllt. Nur Verifikationsvermerk ergänzt, keine Inhaltsänderung nötig.
+- **Gebühren-Flag — echte, bisher unbelegte Lücke, jetzt geschlossen:** anders als die
+  vorangegangenen Buch-Stale-Flag-Runs betrifft dieser Punkt keine Buch-/PBG-Materie — Volltext-
+  suche in `raw/260607_amtlich_zh_pbg.md` bestätigt, dass das PBG selbst **keine**
+  Promille-Bestimmung für Baubewilligungsgebühren enthält (nur § 231 Abs. 4 PBG, Gebührenordnung
+  für Beanspruchung öffentlichen Grundes — nicht einschlägig — und § 338 PBG, Gerichtsgebühr
+  Baurekursgericht). Baubewilligungsgebühren sind rein kommunale Materie und daher über
+  WebSearch/WebFetch statt Buch/zhlex recherchiert:
+  1. **NEU** `raw/260824_amtlich_zh_thalwil-gebuehrenverordnung.md` — Gebührenverordnung Thalwil
+     (SR 600.1, Erlassdatum 7.12.2017, vorliegende Fassung in Kraft seit 1.1.2024), Auszug Art. 1/
+     4/5 (Allgemeine Bestimmungen) und Art. 21-24 (Abschnitt Bauwesen), bezogen via WebSearch →
+     Gesetzessammlung-Erlassseite → PDF-Download → `pdftotext -layout` (absoluter Pfad
+     `/opt/homebrew/bin/pdftotext` nötig, nicht im PATH dieser Session). Kernbefund: die
+     Verordnung selbst nennt keine Promille-/Prozentsätze, sondern delegiert die effektiven
+     Ansätze an ein separates, amtlich publiziertes «Gebührenreglement Bauwesen» (laut
+     Suchtreffer in Kraft seit 1.1.2018) — dieses war über die JS-gerenderte
+     Gesetzessammlung-Suche (Filterformular ohne direkt verlinkbare Trefferliste) nicht
+     auffindbar, gleiche technische Fallgruppe wie das in `docs/referenz/fedlex-volltexte.md`
+     dokumentierte Fedlex-JS-Problem. Bleibt offener Restpunkt.
+  2. **NEU** `raw/260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md` — Preisüberwacher-
+     Studie «Grosse Unterschiede bei Baubewilligungsgebühren» (WBF/PUE, November 2014, amtliche
+     Publikation admin.ch), Vergleich der 30 einwohnerstärksten Schweizer Gemeinden für drei
+     Haustypen (15-MFH/5-MFH/EFH). Kernzahlen: höchste vs. tiefste Gebühr liegt beim Faktor
+     12-20 auseinander (15 MFH CHF 30'099.50 vs. 1'512.50; 5 MFH CHF 16'588 vs. 1'320; EFH
+     CHF 7'895 vs. 640); eigene Kontrollrechnung gegen die im Original genannten Bausummen ergibt
+     eine reale Bandbreite von ca. 0,3-11 ‰ der Bausumme statt eines fixen Satzes. **Zürich Stadt
+     wird im Fliesstext explizit als eine der teuersten Gemeinden bei allen drei Haustypen
+     genannt.** Datiert (Stand Juni 2014) — als Beleg für Struktur/Bandbreite geeignet, nicht als
+     aktueller Tarif.
+- **GEÄNDERT** `wiki/baubewilligungsverfahren.md`: Abschnitt «Gebühren» neu geschrieben — statt
+  des unbelegten Pauschalwerts «1-3 ‰» jetzt (1) die rechtliche Einordnung (kommunale, nicht
+  kantonale Materie, PBG-Volltext geprüft), (2) die reale Bandbreite aus der Preisüberwacher-
+  Studie (≈0,3-11 ‰, Zürich Stadt unter den teuersten), (3) der Hinweis auf die zweistufige
+  Struktur (Gebührenverordnung + Gebührenreglement) am Beispiel Thalwil. Neuer
+  `verifiziert`-Eintrag 2026-08-24f, `sources` um die beiden neuen raw-Dateien ergänzt.
+- **GEÄNDERT** `wiki/zonenkonformitaet.md`: nur `verifiziert`-Eintrag 2026-08-24g (Stale-Flag
+  bestätigt), `last_updated` nachgezogen — keine inhaltliche Änderung.
+- **GEÄNDERT** `wiki/QUESTIONS.md`: Block «Health-Check 2026-06-02» vollständig geschlossen (alle
+  drei Punkte durchgestrichen mit Fundstellenverweis).
+- **GEÄNDERT** `training/KORPUS-QUEUE-thalwil-reglemente.md`, `training/PROGRAMM.md` — Run-115-
+  Nachtrag.
+- **Damit ist die gesamte chronologische Stale-Flag-Sweep-Kette durch `wiki/QUESTIONS.md`
+  (Run 90-115) abgeschlossen** — kein aus der ursprünglichen Health-Check-/Kapitel-Historie
+  bekannter offener Block mehr. Verbleibende offene Punkte: `RRB 262/2010` (Run 114, Beschluss-
+  Nummer im Buch-Reader schwer lesbar) und «Gebührenreglement Bauwesen Thalwil» (dieser Run,
+  JS-Portal-Problem).
+- REPORT `outputs/2026-08-24_buch-run115.md`.
+
 ## 2026-08-24 — Buch-Run 114: Stale-Flag-Block Kap. 2 T3/3 T1/6 T2 vollständig geschlossen — Kap. 3 Teil 2 (Grenzbereinigung/Gebietssanierung/Landumlegung) war bereits seit 14.07.2026 distilliert, alle drei needs-verification-Listen bereits durch Run 36/37/39/40/43/44 CONFIRMED
 - **GEÄNDERT** `wiki/QUESTIONS.md`: Block «2026-07-02, Kap. 2 T3/3 T1/6 T2» vollständig geschlossen
   (5 Flags). Der Punkt «NEU: Kap. 3 Teil 2 offen» war stale — `buecher/band-1/

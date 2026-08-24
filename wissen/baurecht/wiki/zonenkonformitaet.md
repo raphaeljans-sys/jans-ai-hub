@@ -1,7 +1,7 @@
 ---
 title: Zonenkonformität & BZO-Systematik — Kanton Zürich
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-08-24
 sources: [260602_docs-baurecht-bzo-zh.md, 260602_docs-baurecht-begriffe.md, "Art. 13 BZO Zürich (Stadt)", "Art. 14 BZO Zürich (Stadt)", "Art. 18 BZO Zürich (Stadt)", 260607_amtlich_zh_bzo-zurich-stadt.md, "Art. 3 BZO Thalwil", "Art. 6 BZO Thalwil", "Art. 20a BZO Thalwil", 260607_amtlich_zh_bzo-thalwil.md, 260823_amtlich_zh_bzo-thalwil-grundmasse.md, "Art. 25 BZO Thalwil", "§ 293 PBG", "[[kap16-10_gebaeudedimensionen-harmonisierung]]"]
 links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[baubewilligungsverfahren]], [[gebaeudearten-und-abstandssystem]]
 verifiziert:
@@ -17,6 +17,10 @@ verifiziert:
     methode: "Layout-Neuextraktion (pdftotext -layout) gegen frisch bezogenes amtliches PDF (oerebdocs.zh.ch/getDoc?docid=1296) UND unabhängige Zweitquelle (Projektordner-Screenshot-PDF derselben Erlassseite, Stand 26.11.2024) — Korpus-Queue Batch T3, Buch-Run 75"
     umfang: "Art. 3 (Grundmasse Wohnzonen W1-WG4), Art. 20a (SBV Aufwertung/Verdichtung W3/WG3) BZO Thalwil, gegen raw/260823_amtlich_zh_bzo-thalwil-grundmasse.md"
     ergebnis: "Neue Thalwil-Sektion ergänzt (Grundmasse-Tabelle + Art. 20a + Zonenarten-Legende). Dieselbe Linearisierungs-Fehlerfamilie wie beim Zürich-Stadt-Fall vom 25.07.2026 bestätigt: raw/260607_amtlich_zh_bzo-thalwil.md verschiebt Art. 3 von seinen Zonen-Spalten (Zeilen 682-918); Art. 20a war dort dagegen bereits korrekt lesbar und wird nur bestätigt, nicht neu ingestiert. Zwei unabhängige PDF-Quellen (frischer Download + Projektordner-Kopie) zeichengleich, kein Fassungskonflikt trotz abweichender Gesamtseitenzahl (19 vs. 21, PDF-Exportartefakt)."
+  - datum: 2026-08-24g
+    methode: "Stale-Flag-Block Health-Check 2026-06-02 (Buch-Run 115) — Flag 'BZO-Richtwert-Tabelle: Einzelwerte gegen aktuelle BZO prüfen' geprüft"
+    umfang: "Abgleich der Flag-Formulierung gegen den bestehenden verifiziert-Verlauf dieses Artikels"
+    ergebnis: "stale — die Forderung ist bereits erfüllt. Runs 56 (25.07.2026, Art. 13/14/18 BZO Zürich-Stadt) und 75/77 (23.08.2026, Art. 3/6/20a/25 BZO Thalwil) haben die Grundmasse-Tabellen genau nach dieser Vorgabe amtlich verifiziert, inkl. Aufdeckung einer kompletten Falschtabelle (Run 56: raw/260602_docs-baurecht-bzo-zh.md war ein nie geprüfter Platzhalter). Kein weiterer Prüfbedarf; Flag wird in QUESTIONS.md geschlossen."
 ---
 
 # Zonenkonformität & BZO-Systematik

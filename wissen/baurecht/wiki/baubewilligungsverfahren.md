@@ -2,7 +2,7 @@
 title: Baubewilligungsverfahren — Kanton Zürich
 status: established
 last_updated: 2026-08-24
-sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§ 309 Abs. 1 lit. a-o PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", "§§ 38-52 GG", "§§ 170-171 GG", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, 260823_amtlich_zh_gg.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004"]
+sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§ 309 Abs. 1 lit. a-o PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", "§§ 38-52 GG", "§§ 170-171 GG", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, 260823_amtlich_zh_gg.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004", "Art. 21-24 Gebührenverordnung Thalwil (SR 600.1)", 260824_amtlich_zh_thalwil-gebuehrenverordnung.md, 260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md]
 links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[raumplanung-und-gestaltung]], [[07-zustaendigkeiten-entscheide-auskuenfte]], [[06-baurechtliches-verfahren-teil2]], [[umgebungsgestaltung-und-einfriedungen]], [[fahrzeugabstellplaetze-und-parkierung]]
 verifiziert:
   - datum: 2026-08-24
@@ -25,6 +25,10 @@ verifiziert:
     methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 91, GG-Lücke aus Run 85 geschlossen (Reglemente-Queue 2414 Thalwil T1-T9 unverändert vollständig abgearbeitet)"
     umfang: "§§ 38-52 GG (Behörden-Abschnitt) + §§ 170-171 GG (Neubeurteilung) frisch von zhlex bezogen (LS 131.1, Nachtrag 132, Stand 1.4.2026) gegen die Zuständigkeits-Aufzählung im Abschnitt 'Zuständigkeit: wer ist die Baubehörde' gegengelesen"
     ergebnis: "CONFIRMED mit 1 Korrektur: § 41 GG (Präsidialentscheide bei dringenden/geringfügigen Angelegenheiten) trägt NICHT die Aussage 'Bauvorstand/einzelne Mitglieder' als eigener Delegationskanal; die Delegation an einzelne Mitglieder ODER Ausschüsse (z.B. Bauvorstand) steht einheitlich in § 44 GG. Begriff 'Bauvorstand' kommt im GG-Wortlaut nicht vor (0 Treffer), ist kommunale Bezeichnung. Übrige Fundstellen (§ 48 Abs. 3, § 50, § 51, § 45, § 170 GG) CONFIRMED wortgleich. Neuer raw-Beleg raw/260823_amtlich_zh_gg.md."
+  - datum: 2026-08-24f
+    methode: "Stale-Flag-Block Health-Check 2026-06-02 (Buch-Run 115) — Gebühren-Flag; Recherche über WebSearch/WebFetch statt Buch/zhlex, da Baubewilligungsgebühren rein kommunale, nicht kantonale Materie sind"
+    umfang: "Rechtsgrundlage/Struktur der Gebührenerhebung Thalwil (Gebührenverordnung SR 600.1, Art. 21-24) + Preisüberwacher-Vergleichsstudie 30 einwohnerstärkste Gemeinden (Nov. 2014)"
+    ergebnis: "PBG selbst enthält KEINE Promille-Bestimmung für Baubewilligungsgebühren (Volltextsuche 'Gebühr' in raw/260607_amtlich_zh_pbg.md: nur § 231 Abs. 4 [Gebührenordnung für Beanspruchung öffentlichen Grundes, nicht einschlägig] und § 338 [Gerichtsgebühr Baurekursgericht]) — die frühere Wiki-Formulierung war insofern richtig, dass es keine kantonale Norm gibt. Thalwils Gebührenverordnung (Art. 21/22) delegiert die konkreten Ansätze weiter an ein separates 'Gebührenreglement Bauwesen', das über die JS-gerenderte Gesetzessammlung-Suche nicht auffindbar war (offener Punkt). Die Preisüberwacher-Studie zeigt eine reale Bandbreite von ca. 0.3-11 ‰ der Bausumme über die 30 grössten Gemeinden, mit Zürich Stadt explizit unter den teuersten — die bisherige Pauschalangabe '1-3 ‰' lag am unteren Rand dieser Bandbreite und ist präzisiert/relativiert worden."
 ---
 
 # Baubewilligungsverfahren
@@ -296,6 +300,26 @@ aber gültig; eine **Bedingung** knüpft die Wirksamkeit an ein künftiges Ereig
 und Revers-Typen: [[nebenbestimmungen-und-reverse]].
 
 ## Gebühren
-Abhängig von Gemeinde und Bausumme, als grober Richtwert 1–3 ‰ der Bausumme.
-> *needs-verification:* Richtwert ohne Gewähr — verbindlich ist die kommunale
-> Gebührenordnung der jeweiligen Gemeinde. Quelle noch nicht hinterlegt.
+Baubewilligungsgebühren sind im Kanton Zürich **rein kommunale Materie** — das PBG selbst
+enthält keine Promille- oder Prozentbestimmung dazu (geprüft: einzige Gebühren-Fundstellen im
+PBG-Volltext sind § 231 Abs. 4 PBG, der die Gemeinden zur Gebührenordnung für die
+Beanspruchung **öffentlichen Grundes** ermächtigt — nicht dasselbe wie eine
+Baubewilligungsgebühr —, und § 338 PBG, der die Gerichtsgebühr des Baurekursgerichts auf
+Fr. 500-50'000 festlegt). Jede Gemeinde regelt ihre eigenen Gebühren selbst, meist zweistufig:
+eine allgemeine Gebührenverordnung (Bemessungsgrundsätze, Zuständigkeit Gemeinderat) plus ein
+separates Gebührenreglement mit den effektiven Ansätzen (Beispiel Thalwil: Gebührenverordnung
+SR 600.1 Art. 21/22 delegiert an das «Gebührenreglement Bauwesen», das die eigentlichen Tarife
+trägt).
+
+Als **grobe Grössenordnung ohne kommunale Verbindlichkeit** zeigt die Preisüberwacher-
+Vergleichsstudie (Nov. 2014, 30 einwohnerstärkste Gemeinden CH) eine reale Bandbreite von rund
+**0,3 ‰ bis 11 ‰ der Bausumme**, je nach Gemeinde und Haustyp — bei den kleineren, günstigeren
+Bauvorhaben (Einfamilienhaus) tendenziell höhere Promille-Sätze als bei grossen Mehrfamilien-
+häusern. **Zürich Stadt zählte in dieser Studie bei allen drei untersuchten Haustypen zu den
+teuersten Gemeinden.** Ein einzelner Pauschalwert wie «1-3 ‰» ist nach dieser Quelle nicht
+sachgerecht und lag am unteren Rand der realen Bandbreite.
+
+> Verbindlich ist immer die aktuelle Gebührenordnung/das Gebührenreglement der jeweiligen
+> Gemeinde — im Einzelfall dort anfragen oder die kommunale Gesetzessammlung konsultieren.
+> Belege: `raw/260824_amtlich_zh_thalwil-gebuehrenverordnung.md`,
+> `raw/260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md`.

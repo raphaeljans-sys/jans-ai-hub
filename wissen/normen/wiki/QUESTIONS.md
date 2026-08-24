@@ -2368,6 +2368,15 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   (Feuchtigkeitssperren), 06:2009 (Masstoleranz und Ebenheit), 10:2009 (Fugen in Zementestrichen),
   13:2010 (Untergrund und Einbaudicken), 14:2011 (Fugen mit Parkettbelag). Ob sie im Haus fehlen
   oder anderswo liegen, ist offen.
+
+  > **Teilbeantwortet 24.08.2026 (QUESTIONS-Abarbeitung).** Per M365-Graph-Connector geprüft:
+  > weder im Zielordner (`02_Recht_Norm/04_Merkblätter/Fugenlose Bodenbeläge/`, 9 Dateien
+  > total, alle bereits destilliert) noch sonst irgendwo auf der SharePoint-Site PL
+  > (drive-weite Volltextsuche `search(q='PAV-E')` liefert exakt dieselben 7 vorhandenen
+  > PAV-E-Nummern 01/02/05/11/12/16/17 plus 2 Screenshots, keinen Treffer für 03/04/06/10/13/14).
+  > **Die sechs Merkblätter fehlen im Haus vollständig** — das ist jetzt gemessen, nicht mehr
+  > offen. Beschaffung (PAVIDENSA-Shop, kostenpflichtig) bleibt Bring-Schuld Raphael; Claude
+  > kauft nicht (User-CLAUDE.md „Grenzen").
 - **P41-3** Widerspruch in PAV-E 12:2013: die Klasse «A 3» trägt die Abriebmenge **4** cm³/50 cm².
   Quelleneigenheit oder Satzfehler? Am Merkblatt nicht entscheidbar.
 - **P41-4** PAV-E 17:2012 führt für Calciumsulfat-Fliessestriche und -Mörtelestriche **identische**
@@ -4097,6 +4106,15 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   ist seit Run 5 (260713) als Destillat verfügbar (`sia-382-1-2014.md`, Kern S.1-63,
   Aussenluft-Volumenstrom/Klassierung AUL/RAL/ABL); der Detailvergleich CH- vs. DE-Modell
   kann darauf aufbauen (Anhänge A-G von SIA 382/1 noch offen).
+  **Nachtrag SIA-Sweep-Fortsetzung (24.08.2026, ~04:52 Uhr):** der Klammerzusatz war zum
+  Schreibzeitpunkt (vor Run 17) korrekt, ist seither aber überholt und stand hier
+  unkorrigiert. Am Destillat selbst geprüft: `destillate/sia-382-1-2014.md` Frontmatter
+  `status`-Feld nennt „Anhänge A-G ergänzt Run 17 und unabhängig gegen das PDF verifiziert
+  260721"; Anhang A ist im Fliesstext vorhanden (Z. 96 ff.). Anhänge A-G sind also
+  vollständig destilliert, nicht mehr offen — der eigentliche Methodenvergleich selbst war
+  bereits am 21.07.2026 separat als Artikel `[[din-1946-6-sia-382-1-lueftungsauslegung-methodenvergleich]]`
+  geschlossen (siehe Eintrag unmittelbar darüber, «geschlossen ✓ 2026-07-21»). Kein
+  Handlungsbedarf mehr, nur die veraltete Klammer richtiggestellt.
 
 ## Mini-Run 32 (Mac Mini, 260716, Zuruf-Intensivlauf) — INVENTAR KOMPLETT für DIN/VSS/RAL bestätigt
 

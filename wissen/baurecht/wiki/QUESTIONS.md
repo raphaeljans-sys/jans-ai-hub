@@ -2356,11 +2356,23 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   §§ 4-7 BBV I um die Minergie-Vermutung (§ 4 Abs. 4 BBV I) ergänzt.
 
 ## needs-verification (aus Health-Check 2026-06-02)
-- **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale
-  Gebührenordnung hinterlegen.
+- ~~**Gebühren 1–3 ‰**~~ ([[baubewilligungsverfahren]]): **präzisiert 2026-08-24 (Buch-Run
+  115).** Das PBG selbst enthält keine Promille-Bestimmung für Baubewilligungsgebühren (rein
+  kommunale Materie); Thalwils Gebührenverordnung (SR 600.1, Art. 21/22) delegiert die
+  effektiven Ansätze an ein separates «Gebührenreglement Bauwesen» (über die JS-gerenderte
+  Gesetzessammlung-Suche nicht auffindbar — offener Restpunkt für einen künftigen Lauf oder
+  eine direkte Anfrage bei der Gemeinde). Die Preisüberwacher-Vergleichsstudie (Nov. 2014, 30
+  einwohnerstärkste CH-Gemeinden) belegt eine reale Bandbreite von ca. 0,3-11 ‰ der Bausumme,
+  mit Zürich Stadt unter den teuersten Gemeinden bei allen drei untersuchten Haustypen — der
+  bisherige Pauschalwert «1-3 ‰» lag am unteren Rand dieser Bandbreite. Belege:
+  `raw/260824_amtlich_zh_thalwil-gebuehrenverordnung.md`,
+  `raw/260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md`.
 - ~~**Waldabstand-Ausnahmen 20 m / 10 m**~~ ([[abstaende-und-hoehen]]): **erledigt 2026-06-11**
   per Buchbeleg — § 262 PBG, Regel 30 m, reduzierbar bis 15 m (siehe Archiv unten).
-- **BZO-Richtwert-Tabelle** ([[zonenkonformitaet]]): Einzelwerte gegen aktuelle BZO prüfen.
+- ~~**BZO-Richtwert-Tabelle**~~ ([[zonenkonformitaet]]): **stale, geprüft 2026-08-24 (Buch-Run
+  115)** — bereits vollständig erledigt durch Run 56 (Art. 13/14/18 BZO Zürich-Stadt) und
+  Run 75/77 (Art. 3/6/20a/25 BZO Thalwil), beide amtlich gegen den Erlass verifiziert. Der
+  Health-Check-Block «2026-06-02» ist damit vollständig abgearbeitet.
 
 ## Cross-Article-Spannungen (worth resolving)
 - Noch keine erfasst.

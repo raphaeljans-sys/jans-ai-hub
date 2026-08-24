@@ -608,6 +608,23 @@ zwei Punkte: Gebühren 1-3‰ ([[baubewilligungsverfahren]], Quelle/kommunale Ge
 zu hinterlegen) und BZO-Richtwert-Tabelle ([[zonenkonformitaet]], Einzelwerte gegen aktuelle BZO
 prüfen); ein dritter Punkt (Waldabstand-Ausnahmen) war schon 2026-06-11 geklärt.
 
+**Run 115 (2026-08-24, ausserhalb T1-T9):** letzter offener Stale-Flag-Block «Health-Check
+2026-06-02» geschlossen. BZO-Richtwert-Tabelle war stale (Runs 56/75/77 hatten sie bereits
+amtlich verifiziert). Gebühren-Flag war eine echte, bisher unbelegte Lücke — recherchiert über
+WebSearch/WebFetch statt Buch/zhlex, da Baubewilligungsgebühren ausserhalb des PBG liegen (rein
+kommunale Materie): Thalwils Gebührenverordnung (SR 600.1, Art. 21/22) delegiert die effektiven
+Ansätze an ein separates «Gebührenreglement Bauwesen» (nicht auffindbar, offener Restpunkt); die
+Preisüberwacher-Vergleichsstudie (Nov. 2014) belegt eine reale Bandbreite von ca. 0,3-11 ‰ der
+Bausumme statt eines Pauschalwerts, Zürich Stadt unter den teuersten Gemeinden. Zwei neue
+raw-Belege, [[baubewilligungsverfahren]] Abschnitt Gebühren neu geschrieben. **Damit ist die
+gesamte chronologische Stale-Flag-Sweep-Kette (Run 90-115) durch `QUESTIONS.md` abgeschlossen** —
+kein bekannter offener Block aus der Health-Check-/Kapitel-Historie mehr. Report
+`outputs/2026-08-24_buch-run115.md`.
+
+**Nächster Schritt:** kein chronologischer Stale-Flag-Block mehr offen. Kandidaten: regulärer
+`wissenscheck`-Turnus, weitere Modell-D-Re-Verifikationsrunde, oder das «Gebührenreglement
+Bauwesen Thalwil» direkt bei der Gemeinde abklären (hochbau@thalwil.ch).
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

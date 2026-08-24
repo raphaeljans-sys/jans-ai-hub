@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 04:41:20
+Stand: 24.08.2026 04:51:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 04:20)
+- Developer/jans/ai/hub  (letzte Aktivitaet 04:30)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 04:41:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c642aedc wissen/energie: A-P2 02.17 abgeschlossen - restliche 16 Themenartikel um datenstand ergaenzt
+- be3a37a6 wissen/energie: zwei uebersehene datenstand-Felder nachgeruestet, Backlink-Hygiene-Register Run 123 bereinigt

@@ -1813,6 +1813,28 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   `speculative`. Report `outputs/2026-08-24_buch-run114.md`. **Naechster Schritt:** Stale-Flag-Block
   «Health-Check 2026-06-02» (`QUESTIONS.md` Zeile ~2326) — Gebuehren 1-3‰ + BZO-Richtwert-Tabelle.
 
+- **Run 115 (2026-08-24):** Stale-Flag-Block «Health-Check 2026-06-02» (letzter offener Block der
+  chronologischen QUESTIONS.md-Sweep-Kette, Run 90-115) abgeschlossen — **BZO-Richtwert-Tabelle** war
+  stale (bereits durch Run 56/75/77 amtlich verifiziert), **Gebuehren-Flag** war dagegen eine echte
+  Luecke und wurde erstmals mit Primaerquellen belegt (nicht aus Buch/zhlex, da Baubewilligungsgebuehren
+  rein kommunale Materie ausserhalb des PBG-Volltexts sind — recherchiert via WebSearch/WebFetch):
+  (1) Gebuehrenverordnung Thalwil (SR 600.1, Art. 21/22) zeigt, dass die Verordnung selbst keine
+  Promille-Saetze nennt, sondern an ein separates «Gebuehrenreglement Bauwesen» delegiert, das ueber
+  die JS-gerenderte Gesetzessammlung-Suche nicht auffindbar war (offener Restpunkt, gleiche Fallgruppe
+  wie das Fedlex-JS-Problem); (2) Preisueberwacher-Vergleichsstudie (Nov. 2014, 30 einwohnerstaerkste
+  CH-Gemeinden) belegt eine reale Bandbreite von ca. 0,3-11 ‰ der Bausumme statt eines Pauschalwerts,
+  Zuerich Stadt unter den teuersten Gemeinden bei allen drei Haustypen. Zwei neue raw-Belege, Wiki
+  [[baubewilligungsverfahren]] Abschnitt Gebuehren neu geschrieben (Struktur + Bandbreite statt
+  unbelegtem Pauschalwert), [[zonenkonformitaet]] nur Verifikationsvermerk (keine Inhaltsaenderung).
+  **Damit ist die gesamte chronologische Stale-Flag-Sweep-Kette durch `QUESTIONS.md` (Run 90-115)
+  abgeschlossen** — kein bekannter offener Block mehr aus der urspruenglichen Health-Check-/Kapitel-
+  Historie; einzige verbliebene echte Luecke ist `RRB 262/2010` (Run 114) und der neue Restpunkt
+  «Gebuehrenreglement Bauwesen Thalwil» (Run 115). Report `outputs/2026-08-24_buch-run115.md`.
+  **Naechster Schritt:** kein chronologischer Stale-Flag-Block mehr offen — Kandidaten sind ein
+  regulaerer `wissenscheck`-Health-Check-Turnus, eine weitere Modell-D-Re-Verifikationsrunde, oder
+  gezielt das «Gebuehrenreglement Bauwesen Thalwil» direkt bei der Gemeinde abklaeren
+  (hochbau@thalwil.ch).
+
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 
 Jede Status-Hebung auf `established` durchlaeuft VOR der Hebung eine unabhaengige
