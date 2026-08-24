@@ -1,3 +1,49 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: dreizehnter Lauf — Session-Zugriffslücke, ein Fahrplan-Nachtrag, Sättigung 13. Mal bestätigt
+
+**Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report
+des zwölften Laufs zuerst gelesen.
+
+**Session-Zugriffslücke (wichtig für künftige Läufe):** `/Volumes/daten` war beim Start nicht
+gemountet; zusätzlich war in dieser Session `node` nicht im `PATH` (weder `nvm` noch eine
+System-Installation gefunden) — der M365-Graph-Connector (`connectors/m365-graph.mjs`) war
+damit nicht aufrufbar. Der lokal gemountete SharePoint-Pfad
+`~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/` enthält keinen
+`PL - 02_Recht_Norm`-Ordner (andere Bibliothek). **Folge: keine neuen Norm-Originale lesbar,
+keine primärquellenbasierte Neu-Destillation möglich.** `wissen/normen` selbst ist normaler
+Git-Repo-Inhalt (kein NAS-Symlink) und blieb uneingeschränkt bearbeitbar.
+
+**Vorgehen:** Da Primärquellen-Zugriff fehlte, nur mit den in dieser Session verfügbaren
+Werkzeugen (Datei-Lektüre, `WebSearch`/`WebFetch` auf öffentliche, unauthentifizierte Quellen)
+gezielt zwei Kandidaten aus der 30er-Liste geprüft, die öffentlich (ohne Kauf/Login)
+verifizierbar sind:
+
+1. **SN 641 400 (VSS, Grundlage ZH-Parkplatzberechnung):** eigene Anläufe (`vss-shop/product/SN-641400`,
+   `sn-641400.html`, gezielte WebSearches) — beide 404 bzw. kein Treffer. Deckt sich exakt mit
+   den bereits **vier** dokumentierten Anläufen vom 23./24.08.2026 (Bring-Schuld-Einordnung,
+   Empfehlung: direkter VSS-Kundendienst-Kontakt). Reine Redundanz, **keine QUESTIONS-Änderung**
+   — ein fünfter Web-Anlauf auf denselben Sackgassen wäre selbst Wiederholung gewesen, deshalb
+   nicht als Nachtrag eingetragen.
+2. **BSV 2026 (VKF-Normkonzept, Inkraftsetzung):** `bsvonline.ch/de/aktuell/information-bsv-2026`
+   (WebFetch) bestätigt unveränderten Status (weiterhin nicht in Kraft, IOTH-Plenum März 2027),
+   liefert aber einen bisher nicht dokumentierten, genauer datierten Fahrplan (politische
+   Vernehmlassung August–November 2026, technische Vernehmlassung abgeschlossen Januar 2026).
+   Als Nachtrag unter `wiki/QUESTIONS.md` Z. 4162 eingetragen — echte, wenn auch kleine,
+   Aktualisierung, kein Statuswechsel (weiterhin nicht zitierfähig).
+
+**Ergebnis:** Offene Checkboxen unverändert **30** (12.-13. Lauf identisch). Kein Primärquellen-
+befund möglich; die dreizehnte Bestätigung derselben Kategorisierung wie in Läufen 1–12
+(Bring-Schuld/Kaufentscheid Raphael, Struktur-Entscheide, Quell-Ambiguitäten, Betriebsnotizen).
+
+**Eskalation an Raphael:** unverändert (SIA-Shop-Käufe, Freigabe der destruktiven VKF-
+Duplikat-Merges, alternativ Abdeckungsrichtung VKF-Delta-Destillate). **Neu:** ohne gemountetes
+NAS und ohne funktionierenden `node`/M365-Zugang in einer Session ist für diese KB nur noch
+Buchhaltungspflege und öffentliche Web-Recherche möglich, keine neue Primärquellen-Destillation
+— ein Lauf unter diesen Bedingungen sollte das explizit prüfen (wie hier) statt eine
+Primärquellen-Sichtung vorzutäuschen.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` ein Nachtrag (Z. 4162, BSV-2026-Fahrplan), keine
+Checkbox-Schliessung. Report: `outputs/2026-08-24_questions-abarbeitung-dreizehnter-lauf.md`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: zwölfter Lauf — zwei Alt-Punkte nachgezogen, Rest bestätigt gesättigt
 
 **Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report

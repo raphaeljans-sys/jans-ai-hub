@@ -4477,7 +4477,14 @@ Bestandsbauten erfüllt ein Wärmenetzanschluss die EnerG-Ersatzpflicht (§ 11 A
 wesentlicher Anteil der Wärmeerzeugung aus erneuerbaren Energien, Abwärme oder Abfallverbrennung
 stammt» — das AWEL konkretisiert dies in der Vollzugspraxis auf **mindestens 70 %** (keine Gesetzeszahl,
 sondern Vollzugshilfe). Bei den meisten grossen städtischen Fernwärmenetzen ist diese Schwelle erfüllt.
-→ `[[anergienetz-kalte-fernwaerme-ch]]`. Datenstand 2026-07-24 (Run 87, amtliche Erlasstexte).
+**Kanton Schwyz: Nein.** Am amtlichen Volltext von kEnG (SRSZ 420.100) und kEnV (SRSZ 420.111) geprüft
+(24.08.2026): Es gibt **keine zu § 295 PBG ZH analoge Anschlusszwang-Norm**. Die kantonale
+Energieplanung (§§ 5a/5b kEnG) verpflichtet nur Gemeinden/Energieversorger zur Mitwirkung, nicht den
+einzelnen Grundeigentümer. Ein Fernwärmeanschluss taucht im SZ-Recht nur als freiwillige
+Ausnahme-Erfüllungsoption beim Wärmeerzeugerersatz auf (§ 24f kEnV) sowie als förderfähige Massnahme
+M-07/IP-07 im Massnahmenkatalog — beides Optionen des Bauherrn, keine hoheitliche Pflicht.
+→ `[[anergienetz-kalte-fernwaerme-ch]]`, `[[waermeplanung-kommunal-zh-sz]]`. Datenstand 2026-07-24 (ZH,
+Run 87) / 2026-08-24 (SZ, A-BLIND).
 
 ## F112 — Wie viel Fläche brauche ich für einen Erdwärme-Flächenkollektor statt einer Sonde?
 

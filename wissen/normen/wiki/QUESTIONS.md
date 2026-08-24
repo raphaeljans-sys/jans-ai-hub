@@ -4162,6 +4162,16 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
 - [ ] **BSV 2026 überwachen:** Sobald die definitiven Norm-/Richtlinientexte auf
   bsvonline.ch publiziert sind (erwartet nach IOTH-Entscheid März 2027), herunterladen und
   neben den 2015er-Bestand legen; Skill `brandschutz` erst NACH Inkraftsetzung umstellen.
+  > **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung, dreizehnter Lauf) — weiterhin nicht publiziert,
+  > Fahrplan präzisiert.** `bsvonline.ch/de/aktuell/information-bsv-2026` (WebFetch, Abruf
+  > 24.08.2026) bestätigt: Inkrafttreten weiterhin für 2027 vorgesehen («Inkrafttreten neue
+  > Brandschutzvorschriften jetzt für 2027 vorgesehen», Grund: Steuerungsausschuss sieht an
+  > einigen Stellen noch Detailabstimmungsbedarf zwischen den Vorschriftenteilen). Fahrplan laut
+  > derselben Quelle: technische Vernehmlassung September 2025–Januar 2026 (abgeschlossen),
+  > Schulungsstart Dezember 2025, **politische Vernehmlassung August–November 2026** (läuft ab
+  > diesem Monat), Genehmigung durch die IOTH-Plenarversammlung März 2027. Kein definitiver
+  > Text publiziert, weiterhin nicht zitierfähig als geltendes Recht — Checkbox bleibt offen,
+  > nächster sinnvoller Check erst nach der politischen Vernehmlassung (ab Dezember 2026).
 - [x] DIN-Ordner enthält `FileOpenInstaller.dmg` + Anleitung — **beantwortet, DIN/VSS/RAL
   komplett 13.07.2026 (Run 5):** alle 72 DIN-Dateien wurden destilliert oder als Nicht-Norm
   übersprungen, kein DRM-Hindernis aufgetreten; `FileOpenInstaller.dmg` selbst ist kein
