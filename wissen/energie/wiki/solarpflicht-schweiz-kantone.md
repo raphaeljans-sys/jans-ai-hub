@@ -2,6 +2,7 @@
 title: Solarpflicht Schweiz — Bund und Kantone im Vergleich
 status: emerging
 last_updated: 2026-07-25 (Run 61 — W/m²-Bemessung ZG/GR/GL/AR primärquellen-verifiziert, AI-Widerspruch aufgelöst, Obwalden-Referendum aktualisiert, Neuenburg präzisiert)
+datenstand: "2026-01-06 (ältester tragender Quellenstand: die ZH-Regierungsratsbotschaft zur Solarpflicht-Revision des EnerG vom 06.01.2026 — laut Destillat per Aktualitäts-Check 24.08.2026 unverändert weiterhin nur Botschaft, noch kein geltendes Recht. Das zweite Destillat, der national-kantonale Solarpflicht-Vergleich, trägt einen eigenen, laufend nachgeführten Datenstand 13.07.2026, zuletzt in Run 61 am 25.07.2026 präzisiert. Beide Quellen sind im Artikeltext als weiterhin tragend geführt, keine als überholt markiert)"
 sources: [destillate/solarpflicht-national-mantelerlass-kantone.md, destillate/zh-energiegesetz-revision-solarpflicht-2026.md]
 links: [[INDEX]], [[pv-solar-technologien]], [[muken-2025-verabschiedet]]
 ---

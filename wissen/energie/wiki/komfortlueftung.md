@@ -2,6 +2,7 @@
 title: Komfortlüftung / kontrollierte Wohnungslüftung — frische Luft ohne Wärmeverlust
 status: established
 last_updated: 2026-08-13
+datenstand: "2007 (ältester zitierter Quellenstand: AHB-Merkblatt «Kontrollierte Wohnungslüftung», Stadt Zürich, Fusszeilen-Dateistempel 26.02.2007 — trägt die Messliste/Abnahme-Prozesslogik im Abschnitt «Abnahme und Inbetriebsetzung»; laut eigenem Destillat ist die Prozesslogik altersunabhängig weiterhin tragend, während alle Zahlenwerte zu WRG/Formularen aus den jüngeren Quellen SIA 382/1:2025, SIA 382/5:2021 und den EN-Formularen 2017/2022 stammen. ⚠ Der im Artikeltext separat referenzierte Vollzugsordner-Abschnitt EN-4 (Januar 2009) ist nicht Teil der `sources`-Liste und bleibt hier unberücksichtigt)"
 sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/en-lueftung-kuehlung-zh.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/bfe-komfortlueftung-dimensionierungshilfe-1.md, destillate/ahb-merkblatt-kontrollierte-wohnungslueftung.md]
 links: [[INDEX]], [[en-lueftung-kuehlung-zh]], [[minergie-standards]], [[pv-eigenverbrauch-zev]], [[gebaeudeprogramm-bund-hfm-2015]], [[sommerlicher-waermeschutz]], [[BAUHERREN-FAQ]]
 ---

@@ -2,6 +2,7 @@
 title: GEAK — Gebäudeenergieausweis der Kantone
 status: established
 last_updated: 2026-08-07
+datenstand: "2023 (ältester tragend zitierter Quellenstand: Verein GEAK, Basisbroschüre, Ausgabe 02/2023 — Grundlage u.a. für Abschnitt «Mehrwert über die Förderung hinaus»; nahezu gleich alt und tragend für die Klassierungsmechanik: «Normierung des GEAK» v2.1.0, EnDK, 30.03.2023, Grundlage für «Klassierungsprinzip» und «Wie die Klasse zustande kommt». Beide Fassungen sind laut Destillat weiterhin die geltende Methodik bzw. Broschüre; die übrigen Quellen — geak-gebaeudeenergieausweis-kantone.md und geak-kosten-efh-mfh.md — sind mit Datenstand Juli 2026 deutlich jünger.)"
 sources: [destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/geak-kosten-efh-mfh.md, destillate/geak-normierung-berechnungsmethodik.md, destillate/geak-basisbroschuere-2023.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[foerderung-energie-zh]], [[foerderung-energie-sz]], [[gebaeudeprogramm-bund-hfm-2015]], [[fenster-energieetikette-fea-bfe]], [[oelheizung-gasheizung-ersatzpflicht-zh-sz]]
 ---

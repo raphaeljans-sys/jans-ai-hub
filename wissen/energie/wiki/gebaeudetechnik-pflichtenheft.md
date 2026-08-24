@@ -2,6 +2,7 @@
 title: "Pflichtenheft Gebäudetechnik — was eine Bauherrschaft verbindlich vorgeben sollte"
 status: emerging
 last_updated: "2026-08-13 (Run 129 — Raummodule je Raumtyp + Gebäudeautomation im Pflegebetrieb ergänzt)"
+datenstand: "2008 (älteste tragende Fassung: alle neun AHB-Zürich-Richtlinien RL1-RL9 sowie die Raummodule Büro/Klassenzimmer und der Pflegezentren-Standard liegen als Version Juli 2008 vor — einzelne Erstfreigaben reichen bis 2003/2004 zurück, tragend zitiert wird aber durchgehend die Fassung Juli 2008, wie der Artikel selbst im Warnkasten festhält. ⚠ Mehrere darin referenzierte Normen sind laut eigener Aktualitätsprüfung Run 122 seither aufgehoben oder ersetzt — Art. 20a LRV per 01.01.2022, SIA 380/4 per 31.07.2019, EN 779 über EN ISO 16890 abgelöst, H-FKW-Kältemittel seit ChemRRV grösstenteils untersagt — das betrifft einzelne Zitate im Fliesstext, nicht den Datenstand der AHB-Quellen selbst)"
 sources:
   - "[[ahb-zuerich-gt-rl1-planungsgrundlagen]] bis [[ahb-zuerich-gt-rl9-gebaeudeautomation]] — Richtlinien Gebäudetechnik der Stadt Zürich, Amt für Hochbauten (AHB), Fachstelle Energie & Gebäudetechnik, Version 2.1, Juli 2008 (in Kraft seit 04.05.2004, Fassung 2.1 freigegeben 18.06.2008)"
   - "[[ahb-raummodul-buero]] — AHB Stadt Zürich, «Raummodul Büro — Standard Gebäudetechnik», Version 1.1, Juli 2008 (Erstfreigabe GL AHB 28.09.2005), 11 S. vollständig gelesen (Run 129)"

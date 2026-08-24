@@ -1,5 +1,53 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: verbleibende 16 Themenartikel um das Pflichtfeld `datenstand` ergänzt (A-P2 02.17 abgeschlossen)
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand. Anschluss an die vorangehende Session desselben Tages (zehn von 27 Themenartikeln
+bereits nachgerüstet, 16 bewusst offen gelassen, weil bei ihnen der älteste Quellenstand nicht
+mechanisch aus dem Frontmatter bestimmbar war, sondern eine Lesung des Artikel-Fliesstextes
+brauchte, um überholte von noch tragenden Quellen zu trennen).
+
+Vier parallele Agenten (je vier Artikel, mit identischem Auftrag: Artikel vollständig lesen,
+jede Quelle aus `sources:` auflösen und deren Original-Ausgabedatum lesen, prüfen ob der
+Artikeltext eine Quelle ausdrücklich als abgelöst/ersetzt markiert, dann den ältesten noch
+tragenden Stand als `datenstand`-Zeile im selben Format wie das Vorbild `dachbegruenung-
+gruendach.md` einfügen) haben die restlichen 16 Artikel bearbeitet:
+
+`gebaeudetechnik-pflichtenheft` (2008, AHB-Richtlinien RL1-RL9), `solarpflicht-schweiz-kantone`
+(2026-01-06, ZH-Regierungsratsbotschaft), `waermeplanung-kommunal-zh-sz` (2022, Baureglement
+Freienbach — älterer Energierichtplan 2013 laut Artikeltext nicht mehr auffindbar/abgelöst),
+`schallschutz-sia181` (2008, BFH-Lignum-Flankenübertragungsbericht, laut Quelle „normgültig und
+zeitlos"), `oekologische-materialvorgaben-beschaffung` (1999, AHB-Informationsblatt
+Recyclingprodukte — Materialurteile der ecoBKP 2008/2009 im Artikel selbst als überholt markiert
+und bewusst nicht als Anker verwendet), `geak-gebaeudeenergieausweis` (2023, GEAK-Basisbroschüre/
+Normierung v2.1.0), `abwaermenutzung-gebaeude` (2017, VKF-Richtlinie 25-15de — eine ältere
+2014er-Einzelquelle wird im Artikel selbst unter „Offene Punkte" als unsicher geführt und bewusst
+ausgeschlossen), `waermepumpen-laermschutz` (2002, EMPA/ERFA-Seminar, physikalische Grundlagen
+laut Destillat nicht überholt), `heizleistung-und-waermeerzeuger` (2004, FAWA-Feldanalyse —
+Planungslehren weiterzitiert, absolute JAZ-Werte historisch), `fenster-uw-g-wert-zielkonflikt`
+(2002, BFE-Bauteilekatalog — SIA-382/1:2014-Destillat und dessen Anhang-C-Tabelle sind laut
+eigenem Frontmatter seit 01.02.2025 überholt und daher nicht der Anker), `sommerlicher-
+waermeschutz` (2013, EnFK-Vollzugshilfe EN-2), `umweltwaerme-gewaesser` (2010-02, BFE/UVEK-FAQ
+Wärmepumpen — ein vom Quelldestillat selbst nur grob geschätztes älteres Datum ~2004/2005 bewusst
+nicht als Anker verwendet, da ungesichert), `pv-solar-technologien` (2012, TEC21/TRACÉS-Dossier
+Solares Bauen — Wirkungsgrad-Zahlen im Artikel selbst als „Stand 2012, heute höher" geflaggt,
+nicht als abgelöst), `pv-eigenverbrauch-zev` (2023, EnergieSchweiz/Zogg-Planungsgrundlagen WP/PV/
+E-Mobilität), `holzbau-bauphysik-clt` (2005, SIA-Merkblatt 2001 Wärmedämmstoffe — eine Quelle ohne
+auffindbares Datum bewusst aus dem Vergleich ausgeschlossen statt geraten), `komfortlueftung`
+(2007, AHB-Merkblatt kontrollierte Wohnungslüftung, Messliste/Abnahme-Prozesslogik weiterhin
+tragend).
+
+**Damit ist A-P2 02.17 (Pflichtfeld `datenstand` in allen 37 Themenartikeln) vollständig
+umgesetzt** — alle 27 zuvor fehlenden Felder sind jetzt nachgerüstet, keiner der 16 Artikel
+musste mangels belegbarem Datum unbearbeitet bleiben.
+
+Alle 16 Dateien nach der Bearbeitung per `git diff --numstat` **nativ per ssh** (nie über den
+SMB-Mount) geprüft — durchgehend `1 0` (eine Einfügung, keine Löschung), keine fremde Arbeit
+berührt.
+
+Register: `wiki/QUESTIONS.md` (neuer Abschnitt, schliesst die 02.17-Restbaustelle ab).
+
 ## 2026-08-24 — Interaktive Session: zehn von 27 Themenartikeln um das Pflichtfeld `datenstand` ergänzt (A-P2 02.17)
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und

@@ -1798,6 +1798,21 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   «Kap. 3 Teil 2» (Grenzbereinigung/Landumlegung/Gueterzusammenlegung, echte Lesearbeit, kein reiner
   Stale-Flag-Check).
 
+- **Run 114 (2026-08-24):** Stale-Flag-Block «2026-07-02, Kap. 2 T3/3 T1/6 T2» vollstaendig
+  abgearbeitet, 5 Flags geschlossen — **entgegen der Run-113-Annahme keine echte Lesearbeit noetig.**
+  Die als «noch nicht destilliert» gefuehrte **Kap. 3 Teil 2** (Grenzbereinigung/Gebietssanierung/
+  Landumlegung/Gueterzusammenlegung) war stale: `buecher/band-1/03-quartierplan-landumlegung-teil2.md`
+  (S. 240-265, `status: established`) deckt sie bereits seit 14.07.2026 vollstaendig ab — dieselbe
+  Distillation, aus der Run 44 § 160a/§ 160b/§ 81/§ 129 PBG zog, der Zeiger im QUESTIONS.md war
+  seither nur nie nachgezogen worden. Auch die drei needs-verification-Listen (Kap. 3 T1, Kap. 2 T3,
+  Kap. 6 T2: §§ 90-95/96-101/106/111/114-122 PBG, § 62 StrG, Art. 4/5 WEG, Art. 19 RPG, § 49b/§§ 83-89/
+  § 44a/§ 329 PBG, § 325/§ 325a PBG/§§ 4-7 BBV I) waren durchweg bereits durch Run 36/37/39/40/43/44
+  CONFIRMED. **Keine inhaltliche Wiki-Aenderung noetig** — reine Zeiger-Bereinigung. **Einzige echte,
+  weiterhin offene Luecke: `RRB 262/2010`** (Gestaltungsgrundsaetze Staatsstrassen), Beschluss-Nummer
+  im Buch-Reader schwer lesbar, kein amtliches ZH-RRB-Archiv 2010 im Hub verfuegbar — Flag bleibt
+  `speculative`. Report `outputs/2026-08-24_buch-run114.md`. **Naechster Schritt:** Stale-Flag-Block
+  «Health-Check 2026-06-02» (`QUESTIONS.md` Zeile ~2326) — Gebuehren 1-3‰ + BZO-Richtwert-Tabelle.
+
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 
 Jede Status-Hebung auf `established` durchlaeuft VOR der Hebung eine unabhaengige

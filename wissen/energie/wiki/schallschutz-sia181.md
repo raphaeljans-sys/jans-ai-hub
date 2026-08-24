@@ -2,6 +2,7 @@
 title: Schallschutz im Hochbau — SIA 181:2020 (Anforderungswerte)
 status: established
 last_updated: 2026-07-14
+datenstand: "2008 (ältester tragender Quellenstand: BFH-Lignum-Bericht vom 04.12.2008 zur Flankenübertragungs-Mechanik, gestützt auf SIA 181:2006/EN 12354:2001 — der Mechanismus selbst gilt laut Destillat normgültig und zeitlos auch unter der heute geltenden Ausgabe SIA 181:2020, nur die konkreten Anforderungswerte sind auf 2020 zu beziehen, siehe die im Artikel bereits gesetzte ⚠ Ausgaben-Diskrepanz-Notiz. Die übrigen Quellen sind neuer: CLT-Schallschutz Stora Enso, Produktdokumentation Version 06.2021; Cercle-Bruit-Merkblatt Kt. Schwyz vom 29.01.2021 (löst die Vorversion vom 30.10.2020 ausdrücklich ab); baukultur-laerm.ch zu SIA 181:2020 Ziff. 3.1.1, Stand 20.01.2022; SIA 181:2020 selbst)"
 sources: [destillate/sia-181-schallschutz-anforderungswerte.md, destillate/clt-schallschutz-stora-enso.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschutz-stora-enso]], [[lignum-schallschutz-holzbau-flankenuebertragung]], [[aussenlaerm-schallschutzfenster-strasse-bahn]], [[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]
 ---

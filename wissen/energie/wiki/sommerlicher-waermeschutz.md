@@ -2,6 +2,7 @@
 title: Sommerlicher Wärmeschutz & Hitzeschutz
 status: established
 last_updated: 2026-07-25
+datenstand: "2013 (ältester zitierter Quellenstand: EnFK-Vollzugshilfe EN-2 «Wärmeschutz von Gebäuden», Ausgabe Februar 2013, Basis SIA 380/1:2009 — im Artikelabschnitt «Vollzug» als «Gesetz [EnFK EN-2, Kap. 8]» direkt zitiert für die g-Wert-Pflicht des Sonnenschutzes und die Befreiungstatbestände. ⚠ Die Vollzugshilfen-Reihe wurde seither fortgeschrieben [Nachfolgeausgabe EN-102, Ausgabe Januar 2020, Basis SIA 380/1:2016, ebenfalls als Quelle geführt]; die zahlenmässigen Verfahrensdetails im Artikel stützen sich bereits auf EN-102/SIA 180:2014, EN-2 bleibt aber für den zitierten generischen Befreiungs-/Grundsatzteil tragend, ohne dass der Artikeltext dies ausdrücklich als Ablösung kennzeichnet.)"
 sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/muken-2025-verabschiedet.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---

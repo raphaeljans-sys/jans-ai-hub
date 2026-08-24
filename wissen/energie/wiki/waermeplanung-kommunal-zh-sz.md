@@ -2,6 +2,7 @@
 title: Kommunale Wärmeplanung/Energieplanung — Kt. Zürich und Kt. Schwyz
 status: emerging
 last_updated: 2026-08-13
+datenstand: "2022 (ältester tragender Quellenstand: Baureglement Gemeinde Freienbach, Publikationsexemplar 2022, im Destillat sz-vollzugspraxis-afu-wegleitungen-rechenzentren vollständig auf eine Anschlusszwang-Norm durchsucht, ohne Treffer. Die übrigen Quellen sind neuer: Leitfaden Kommunale Energieplanung SZ, AfU, V01 vom 20.11.2024; kEnG/kEnV/PBG/PBV SZ, Stand 01.02.2025; EnerG ZH, Fassung 01.07.2025; Baureglement Wollerau, gültig ab 20.05.2024; Energieträgerkarte Freienbach, Begleitbericht 10.01.2025. ⚠ Der ursprüngliche Energierichtplan Freienbach von econcept, 2013, ist im Artikeltext ausdrücklich als online nicht mehr auffindbar und durch die Energieträgerkarte 2025 abgelöst markiert und zählt daher nicht als tragender Datenstand)"
 sources: [destillate/waermeplanung-kommunal-zh-sz.md, destillate/energierichtplan-freienbach-econcept.md, destillate/fernwaerme-anschlusspflicht-sz.md, destillate/sz-vollzugspraxis-afu-wegleitungen-rechenzentren.md]
 links: [[INDEX]], [[abwaermenutzung-gebaeude]], [[foerderung-energie-sz]], [[foerderung-energie-zh]]
 ---

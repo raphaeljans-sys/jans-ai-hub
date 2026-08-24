@@ -2,6 +2,7 @@
 title: PV-Eigenverbrauch — Solarstrom selbst nutzen (WP-Lastmanagement) & vermarkten (ZEV/vZEV/LEG)
 status: established
 last_updated: 2026-07-05
+datenstand: "2023 (ältester zitierter Quellenstand: EnergieSchweiz/Zogg-Planungsgrundlagen «Wärmepumpen, Photovoltaik und Elektromobilität», Version 2.0, 02.07.2023, Basis Forschungsprojekt OPTEG 2016-2021 — trägt Hebel 1 «technisch: WP-Lastmanagement»; die stromrechtlichen Hebel 2/3 ZEV/vZEV/LEG stützen sich auf jüngere Quellen ab 2024/2025 und altern laut Artikeltext selbst schnell, verändern den ältesten Stand aber nicht)"
 sources: [destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]], [[heizleistung-und-waermeerzeuger]], [[elektromobilitaet-ladeinfrastruktur]], [[batteriespeicher]]
 ---

@@ -588,6 +588,26 @@ Wiki-Artikel: [[raumplanung-und-gestaltung]], [[baureife-und-erschliessung]]. Re
 Zeile 2282) — enthält neben reinen Stale-Flag-Checks auch die noch nicht distillierte «Kap. 3 Teil 2»
 (Grenzbereinigung/Gebietssanierung/Landumlegung/Güterzusammenlegung, echte Lesearbeit).
 
+**Run 114 (2026-08-24, ausserhalb T1-T9):** Stale-Flag-Block «2026-07-02, Kap. 2 T3/3 T1/6 T2»
+vollständig abgearbeitet, alle fünf Flags geschlossen — entgegen der Run-113-Einschätzung war
+**keine** echte Lesearbeit mehr nötig. Die als «noch nicht distilliert» geführte **Kap. 3 Teil 2**
+(Grenzbereinigung/Gebietssanierung/Landumlegung/Güterzusammenlegung) war stale: `buecher/band-1/
+03-quartierplan-landumlegung-teil2.md` (S. 240-265, `status: established`) deckt sie bereits seit
+14.07.2026 vollständig ab, nur der Zeiger im QUESTIONS.md war seither nie nachgezogen worden — die
+Distillation lag am selben Tag wie Run 44 (§ 160a/§ 160b/§ 81/§ 129 PBG daraus). Auch die drei
+needs-verification-Listen (Kap. 3 T1, Kap. 2 T3, Kap. 6 T2) waren durchweg bereits durch Run 36/37/
+39/40/43/44 (13./14.07.2026, Modell-D-Volltextabgleich) CONFIRMED und in [[raumplanung-und-gestaltung]],
+[[baureife-und-erschliessung]], [[baulinien-und-abstandslinien]] und [[baubewilligungsverfahren]]
+belegt — keine inhaltliche Wiki-Änderung nötig, reine Zeiger-Bereinigung. **Einzige echte, weiterhin
+offene Lücke: `RRB 262/2010`** (Gestaltungsgrundsätze Staatsstrassen), Beschluss-Nummer im
+Buch-Reader schwer lesbar, kein amtliches ZH-RRB-Archiv 2010 im Hub verfügbar — Flag bleibt
+`speculative`. Report `outputs/2026-08-24_buch-run114.md`.
+
+**Nächster Schritt:** Stale-Flag-Block «Health-Check 2026-06-02» (`QUESTIONS.md` Zeile ~2326) —
+zwei Punkte: Gebühren 1-3‰ ([[baubewilligungsverfahren]], Quelle/kommunale Gebührenordnung noch
+zu hinterlegen) und BZO-Richtwert-Tabelle ([[zonenkonformitaet]], Einzelwerte gegen aktuelle BZO
+prüfen); ein dritter Punkt (Waldabstand-Ausnahmen) war schon 2026-06-11 geklärt.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

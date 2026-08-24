@@ -2,6 +2,7 @@
 title: Abwärmenutzung am Gebäude — Rechtspflicht, Quellen und Planungsfolgen
 status: emerging
 last_updated: 2026-07-28
+datenstand: "2017 (ältester tragend zitierter Quellenstand: VKF, Brandschutzrichtlinie «Lufttechnische Anlagen» 25-15de, Ausgabe 01.01.2017 — Grundlage der Aussage zu nicht brennbaren Wärmeträgerflüssigkeiten im Abschnitt «Grossküchenabluft», im Destillat als geltende Fassung geführt, keine neuere Ausgabe belegt. Der inhaltliche Schwerpunkt des Artikels, die Rechtspflicht zur Abwärmenutzung, stützt sich auf den jüngeren § 30a Abs. 2 BBV I ZH, RRB Nr. 840 vom 8.6.2022, in Kraft seit 1.9.2022. ⚠ Die in «Offene Punkte» ausdrücklich als einzelquellenbasiert/unsicher gekennzeichnete Faustregel aus «Kälte Klima Aktuell», Ausgabe 03/2014 (Pfeiffenberger), zählt NICHT als tragender Datenstand — sie ist dort selbst als offene, nicht bestätigte Angabe geführt.)"
 sources: [destillate/serverraum-rechenzentrum-kuehlung-abwaermenutzung-ch.md,
   destillate/abwasserwaermenutzung-kanalisation-zh-sz.md,
   destillate/grosskuechen-lueftung-abluft-wrg-ch.md,

@@ -2309,19 +2309,51 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   **20 Tage Zustellbegehren** (§ 315 Abs. 1 / § 316 PBG; Beleg [[06-baurechtliches-verfahren]] +
   [[06-baurechtliches-verfahren-teil2]], VB.2015.00248). Die 30-Tage-Frist gilt für Rekurs und
   Anzeigeverfahren-Nachbaranzeige. Am amtlichen PBG-Volltext (raw/) endgültig sichern.
-- **NEU: Kap. 3 Teil 2 offen (Erschliessung Rest):** Quartierplan-Detail 3.9 (§§ 125/126/237 PBG),
+- ~~**NEU: Kap. 3 Teil 2 offen (Erschliessung Rest):** Quartierplan-Detail 3.9 (§§ 125/126/237 PBG),
   **Grenzbereinigung / Gebietssanierung / Landumlegung / Güterzusammenlegung** ab S. 238 noch nicht
-  distilliert (Shots ab 121). Ergänzt dann [[baureife-und-erschliessung]].
-- **needs-verification — §§/Erlasse Kap. 3 Teil 1:** § 91 PBG (Erschliessungsplan-Inhalt), §§ 90-95/§ 93
+  distilliert (Shots ab 121). Ergänzt dann [[baureife-und-erschliessung]].~~ → **stale, bereits
+  vollständig erledigt** (geprüft 2026-08-24, Buch-Run 114): `buecher/band-1/03-quartierplan-landumlegung-teil2.md`
+  (S. 240-265, Shots 121-133, `status: established`, `verifiziert: 2026-07-14`) deckt genau diese
+  Lücke vollständig ab — Quartierplan-Rest (§§ 123-176 PBG inkl. § 125/§ 126/§ 237 Abs. 1+2 PBG),
+  **Grenzbereinigung** (§ 3.10, §§ 178-183 PBG), **Gebietssanierung** (§ 3.11, § 186 ff. PBG),
+  Exkurs **Güterzusammenlegung** (§ 3.13.1, §§ 76-94 LG). Der Punkt war nie nachgetragen worden,
+  obwohl die Distillation bereits am 14.07.2026 (Run 44 räumt in derselben Zeit § 160a/§ 160b/§ 81/
+  § 129 PBG darin frei) abgeschlossen war.
+- ~~**needs-verification — §§/Erlasse Kap. 3 Teil 1:** § 91 PBG (Erschliessungsplan-Inhalt), §§ 90-95/§ 93
   (Ersatzvornahme), §§ 96-101/106/111 PBG (Baulinien/Niveau-/Ski-Linien), §§ 114-122 PBG (Werkplan/
   vorsorgl. Bauverbot/Heimschlag), § 62 StrG (Mehrwertbeiträge ¼-½), Art. 4/5 WEG, Art. 19 Abs. 2/3 RPG,
-  `RRB 262/2010` (Nummer schwer lesbar) — sinngemäss nach Buch S. 208-239, Modell D nächster Lauf.
-- **needs-verification — §§/Erlasse Kap. 2 Teil 3:** § 49b PBG (preisgünstiger Wohnraum, Fassung 2019/PWV),
+  `RRB 262/2010` (Nummer schwer lesbar) — sinngemäss nach Buch S. 208-239, Modell D nächster Lauf.~~
+  → **grösstenteils stale, geprüft 2026-08-24 (Buch-Run 114):** § 91 PBG, §§ 90-95 PBG (inkl. § 93
+  Ersatzvornahme), §§ 96-101/106/111 PBG und §§ 114-122 PBG sind seit Buch-Run 36/39 (13./14.07.2026,
+  Modell-D-Volltextabgleich gegen `raw/260607_amtlich_zh_pbg.md`) CONFIRMED und im Destillat
+  `buecher/band-1/03-erschliessung-landsicherung-teil1.md` (`verifiziert`-Feld) sowie
+  [[baulinien-und-abstandslinien]] dokumentiert. § 62 StrG CONFIRMED und korrigiert (Buch-Run 37/40,
+  amtlich `raw/260713_amtlich_zh_strg.md`, LS 722.1 — Buchangabe «kommunal ¼-½, kantonal max. ¼»
+  im Wortlaut NICHT bestätigt, richtig ist § 62 lit. c/d StrG ohne kommunal/kantonal-Split).
+  Art. 4/5 WEG sowie Art. 19 Abs. 1/3 RPG CONFIRMED, Art. 19 Abs. 2 RPG präzisiert (Buch-Run 44,
+  14.07.2026, `raw/260714_amtlich_ch_weg.md` + `raw/260714_amtlich_ch_rpg-erschliessung.md`) —
+  in [[baureife-und-erschliessung]] eingearbeitet. **Echt offen bleibt nur `RRB 262/2010`**
+  (Gestaltungsgrundsätze Staatsstrassen, S. 221): die Beschluss-Nummer ist im Buch-Reader
+  weiterhin schwer lesbar und in dieser KB nicht amtlich auffindbar (kein RRB-Archiv-Zugang
+  ZH 2010 im Hub) — Flag bleibt speculative in `03-erschliessung-landsicherung-teil1.md`.
+- ~~**needs-verification — §§/Erlasse Kap. 2 Teil 3:** § 49b PBG (preisgünstiger Wohnraum, Fassung 2019/PWV),
   §§ 83-89 PBG (Gestaltungsplan-Zuständigkeit/Verfahren/Aufhebung), § 87a (Vorprüfung), § 44a (überkomm. GP),
-  § 329 PBG/§ 41 VRG (Rechtsmittel Nutzungsplanung) — am amtlichen PBG-Volltext gegenprüfen.
-- **needs-verification — Kap. 6 Teil 2:** § 325 PBG + §§ 13-15 BVV (Anzeigeverfahren-Katalog/Voraussetzungen),
+  § 329 PBG/§ 41 VRG (Rechtsmittel Nutzungsplanung) — am amtlichen PBG-Volltext gegenprüfen.~~
+  → **stale, bereits vollständig erledigt** (geprüft 2026-08-24, Buch-Run 114): § 49b PBG (inkl.
+  PWV-Fassung Stand 1.7.2026), §§ 83-89 PBG (inkl. § 87a Vorprüfung 2/3 Monate) und § 44a PBG sind
+  seit Buch-Run 37/43 (13./14.07.2026, Modell-D gegen `raw/260607_amtlich_zh_pbg.md`) CONFIRMED und
+  in [[raumplanung-und-gestaltung]] (Abschnitt «Vorprüfung, Festsetzung, Genehmigung» /
+  «Preisgünstiger Wohnraum») belegt. § 329 PBG/§ 41 VRG (Rechtsmittel Nutzungsplanung) stehen dort
+  ebenfalls mit Fundstelle («Rekurs 30 Tage ans Baurekursgericht, § 329 PBG / § 41 VRG»).
+- ~~**needs-verification — Kap. 6 Teil 2:** § 325 PBG + §§ 13-15 BVV (Anzeigeverfahren-Katalog/Voraussetzungen),
   §§ 4-7 BBV I (private Kontrolle), § 325a PBG (energetische Sanierungen, seit 2019 revidiert) — Stand
-  6. Aufl. 2019, aktuellen Wortlaut prüfen.
+  6. Aufl. 2019, aktuellen Wortlaut prüfen.~~ → **stale, bereits vollständig erledigt** (geprüft
+  2026-08-24, Buch-Run 114): alle vier Positionen sind seit Buch-Run 36/39 (13.07.2026, Modell-D
+  gegen `raw/260607_amtlich_zh_pbg.md`/`_bvv.md`/`_bbv1.md`) CONFIRMED und in
+  [[baubewilligungsverfahren]] belegt — § 325 PBG als reine Delegationsnorm an §§ 13-15 BVV
+  eingeordnet (Dachflächenfenster-Schwelle 1/20 der Dachfläche wortgetreu übernommen), § 325a PBG
+  unverändert seit der 6. Aufl. 2019 bestätigt (`speculative`-Vermerk war bereits aufgelöst),
+  §§ 4-7 BBV I um die Minergie-Vermutung (§ 4 Abs. 4 BBV I) ergänzt.
 
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale

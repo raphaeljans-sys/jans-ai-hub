@@ -1,3 +1,71 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung (SWKI VA103-01): sieben veraltete offene Punkte nachgezogen, ein echter Negativbefund (Jet-Fan)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Nach Sichtung der
+SIA-Sweep-Stränge (N-SIASWEEP-2/3 sind laut den Vorlaeufen zehnfach mit erschöpften
+Quellenarten geprüft, weiteres Wiederholen wurde dort ausdrücklich nicht empfohlen; N60-1/N60-2
+brauchen Raphaels Entscheid, die Bring-Schulden brauchen einen Kauf) wurde stattdessen der
+Bestand `### SWKI VA103-01` unter «Run 41 (01.08.2026) — neu offen» geprüft.
+
+**Befund:** Sechs der acht dort seit dem 01.08.2026 gefuehrten Punkte (S41-1 bis S41-6, alle
+den Bemessungskern, die Mess-/Steuerungsebene, die Brandfallsteuerung, die Kaminhöhen, die
+Spezialanwendungen und den Abnahme-/Betriebsteil betreffend) waren **bereits durch Run 42
+(03.08.2026) direkt im Destillat** `destillate/swki-va103-01-2017.md` beantwortet — nur nie in
+`wiki/QUESTIONS.md` als geschlossen nachgetragen. Jeder Punkt wurde gegen den aktuellen
+Destillat-Text geprüft (Fundstellen S. 42-70) und mit Verweis auf den betreffenden
+Destillat-Abschnitt geschlossen; keine neue Behauptung ohne Beleg übernommen.
+
+**Echter neuer Befund, S41-7:** Die Frage unterstellte, «Impulsventilatoren (Jet-Fan)» seien in
+Ziff. 2.5.3 der Richtlinie beschrieben, aber nicht destilliert. **Am Original geprüft** (PDF
+per M365-Graph-Connector geladen, `SharePoint Site PL, Drive 02_Recht_Norm,
+06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf`, kein Textlayer, per
+`pdftoppm -r 200` gerendert und visuell gelesen): **die Prämisse war falsch.** Ziff. 2.5.3
+«Sonderfälle» (Druckseite 38-39) behandelt die Einleitung vorgenutzter Luft, nicht
+Ventilator-Bauarten. Das vollständige Inhaltsverzeichnis (Druckseiten 2-4) wurde Zeile für
+Zeile gegen die Stichworte «Impuls-», «Jet-» und «Strahlventilator» geprüft — **kein Treffer in
+der ganzen Richtlinie (Kap. 0-9, Anhang A-F)**. Für Impulslüftung (die heute übliche Bauart in
+Tiefgaragen) ist SWKI VA103-01:2017 damit keine Fundstelle. Als expliziter Negativbefund in
+`destillate/swki-va103-01-2017.md`, Abschnitt «Mechanische Lüftung (Kap. 2.5.2)», nachgetragen,
+damit ein künftiger Leser nicht erneut danach sucht.
+
+**S41-8 bleibt offen** (deutsch/französischer Volltext-Diff, nicht systematisch geprüft; nur
+eine Stichprobe an Ziff. 2.5.3 zeigt inhaltliche Deckungsgleichheit).
+
+**Nicht angefasst:** die übrigen Bestände derselben Run-41-Sektion (Lignatec, GVZ RWA-Parkhaus,
+Hindernisfreies Bauen, PAVIDENSA) — kein Abgleich gegen ihre Destillate in diesem Lauf,
+Titel/Status unverändert offen gelassen. `git diff --numstat` nach jedem Schreiben geprüft:
+Destillat +12/-0 (reine Ergänzung), QUESTIONS.md +61/-1 (eine Kopfzeile erweitert, keine
+Löschung).
+
+---
+
+## 2026-08-24 — SIA-Sweep, interaktive Fortsetzung (Raphael-Auftrag ~vormittags): Sättigung erneut bestätigt, Kaufentscheid direkt an Raphael eskaliert statt 40. Bestätigungslauf
+
+**Auftrag Raphael (interaktiv):** SIA-Sweep fortsetzen. CHANGELOG-Kopf und Report der
+39. Fortsetzung (`outputs/2026-08-24_sia-sweep-neununddreissigste-fortsetzung.md`, ~04:20 Uhr)
+zuerst gelesen.
+
+Eigene, unabhängige Nachmessung (nicht nur übernommen, Rule `auto-verbesserungen` 260729b/260807):
+`training/norm-inventar.md` zeigt weiterhin **0 offene Zeilen**; `wiki/REGISTER.md` Abschnitt A
+(329 SIA-Zeilen) enthält keine Zeile ohne Destillat/Bestand/Shop-Beleg, die nicht entweder
+zurückgezogen-ohne-Nachfolger oder bereits im Haus ist. Damit bestätigt sich der Befund der
+Läufe 25-39 ein weiteres Mal unverändert.
+
+**Kein 40. Sweep-Zyklus gefahren.** Die letzten gut zwei Dutzend Fortsetzungen haben denselben
+Befund wiederholt, ohne dass ein neuer kostenloser Beschaffungsweg existiert — der einzige
+verbleibende Schritt ist Raphaels Kaufentscheid zu den P1-Bring-Schulden (Register-Zeilen der
+24. Fortsetzung, `outputs/2026-08-23_sia-sweep-vierundzwanzigste-fortsetzung.md`): u.a.
+SIA 118/430:2023 (80 CHF, `werkvertrag`), SIA 380:2022 (180 CHF, `energie`), SIA 269/8:2017
+(190 CHF, Healthcare-Bestandsbauten), SIA 380/1- und SIA 385/1-Volltext (bislang nur
+Auszug/Bring-Schuld, blockiert `energie-berater`). Dieser Punkt wurde im selben Lauf direkt in
+der Konversation an Raphael zurückgegeben, statt einen weiteren Bestätigungsreport zu
+produzieren, der die KB gemäss Rule `wissens-bibliothekar` nicht substanziell verbessert hätte.
+
+**Keine Schreibarbeit an Register/Destillaten** — nichts Neues zu belegen.
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben dieses CHANGELOG-Eintrags geprüft —
+nur dieser additive Kopf betroffen, keine bestehende Zeile berührt. Kein `git`-Schreibbefehl
+über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — SIA-Sweep 39. Fortsetzung ~04:11-04:20 Uhr: Sättigung unabhängig nachgemessen (nicht nur übernommen), keine neue Arbeit im Mandat, Taktungs-Empfehlung
 
 **Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,

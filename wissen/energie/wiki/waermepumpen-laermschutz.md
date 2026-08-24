@@ -2,6 +2,7 @@
 title: Wärmepumpen-Lärmschutz
 status: established
 last_updated: 2026-07-25
+datenstand: "2002 (ältester tragend zitierter Quellenstand: EMPA/ERFA-Seminar «Zur lärmarmen Konstruktion von Wärmepumpenanlagen», Vortragsunterlage vom 25.02.2002 — Grundlage der vier Massnahmen-Bausteine im Abschnitt «Körperschall im eigenen Gebäude». Laut Destillat sind die physikalischen Grundprinzipien weiterhin Stand der Technik, moderne Produktbeispiele fehlen in der Quelle. Die übrigen tragenden Stände sind neuer: SIA 181:2006 für die Zielwerte im selben Abschnitt, Cercle Bruit 6.21 vom 1.11.2024 für die Aussenlärm-Grenzwerte, Cercle Bruit 6.20 vom 23.09.2025 für Rückkühler-Grossanlagen.)"
 sources: [destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md,
   destillate/waermepumpe-aussenlaerm-vollzugshilfe.md,
   destillate/waermepumpe-laerm-nachmessung-kostenfolge.md,

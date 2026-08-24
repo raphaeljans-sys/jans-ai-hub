@@ -3,6 +3,32 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 114: Stale-Flag-Block Kap. 2 T3/3 T1/6 T2 vollständig geschlossen — Kap. 3 Teil 2 (Grenzbereinigung/Gebietssanierung/Landumlegung) war bereits seit 14.07.2026 distilliert, alle drei needs-verification-Listen bereits durch Run 36/37/39/40/43/44 CONFIRMED
+- **GEÄNDERT** `wiki/QUESTIONS.md`: Block «2026-07-02, Kap. 2 T3/3 T1/6 T2» vollständig geschlossen
+  (5 Flags). Der Punkt «NEU: Kap. 3 Teil 2 offen» war stale — `buecher/band-1/
+  03-quartierplan-landumlegung-teil2.md` (S. 240-265, `status: established`, verifiziert
+  14.07.2026) deckt Quartierplan-Rest, Grenzbereinigung (§§ 178-183 PBG), Gebietssanierung
+  (§ 186 ff. PBG) und Güterzusammenlegung (§§ 76-94 LG) bereits vollständig ab — die Distillation
+  war am selben Tag abgeschlossen wie Buch-Run 44 (§ 160a/§ 160b/§ 81/§ 129 PBG), der Zeiger im
+  QUESTIONS.md war seither nie nachgezogen worden. Die drei needs-verification-Listen (Kap. 3 T1,
+  Kap. 2 T3, Kap. 6 T2) sind ebenfalls stale: alle darin genannten §§/Erlasse waren bereits durch
+  Buch-Run 36 (13.07.2026, § 90-95/96-101/106/111/114-122 PBG + § 325/§ 325a PBG/§§ 4-7 BBV I),
+  Run 37 (§ 49b/§§ 83-89/§ 44a PBG), Run 39 (Kap. 6 T2 Feinschliff), Run 40 (§ 62 StrG korrigiert)
+  und Run 44 (Art. 4/5 WEG, Art. 19 Abs. 1-3 RPG) CONFIRMED und in den betreffenden Wiki-Artikeln
+  belegt. **Einzige echte, weiterhin offene Lücke: `RRB 262/2010`** (Gestaltungsgrundsätze
+  Staatsstrassen) — Beschluss-Nummer im Buch-Reader schwer lesbar, kein amtliches ZH-RRB-Archiv
+  2010 im Hub verfügbar; Flag bleibt `speculative` in `03-erschliessung-landsicherung-teil1.md`.
+- **KEINE inhaltlichen Änderungen** an Wiki-Artikeln nötig — [[raumplanung-und-gestaltung]],
+  [[baureife-und-erschliessung]], [[baulinien-und-abstandslinien]] und [[baubewilligungsverfahren]]
+  trugen die Verifikationsvermerke bereits korrekt; nur der Zeiger im QUESTIONS.md war veraltet.
+  Reine Bibliothekars-Buchhaltung (Lehre: Stale-Flag-Sweeps finden häufiger unnachgezogene Zeiger
+  als echte Lücken, sobald die Bundesrechts-/Modell-D-Kette schon durchgelaufen ist).
+- **GEÄNDERT** `training/KORPUS-QUEUE-thalwil-reglemente.md`, `training/PROGRAMM.md` — Run-114-
+  Nachtrag, nächster Schritt: Stale-Flag-Block «Health-Check 2026-06-02» (`QUESTIONS.md`
+  Zeile ~2326+, Gebühren 1-3‰ + BZO-Richtwert-Tabelle, ein Punkt darin bereits am 11.06.2026
+  geklärt).
+- REPORT `outputs/2026-08-24_buch-run114.md`.
+
 ## 2026-08-24 — Buch-Run 113: Stale-Flag-Block Kap. 1/Kap. 2 T1/Kap. 12 T3 vollständig geschlossen — «§ 935»-Rätsel als § 70 PBG (aufgehoben) aufgelöst, §§ 8a-8e EnerG als Stromnetz-Vollzug statt Bauenergiesparmassnahmen entlarvt, PBG-Titelgliederung komplett CONFIRMED
 - **NEU** `raw/260712_amtlich_zh_energ.md`, Nachtrag «Buch-Run 113: §§ 7-8e EnerG» — vollständiger
   amtlicher Wortlaut §§ 7/8/8a-8e EnerG (Nachtrag 129), frisch von zhlex bezogen (PDF, `pdftotext
