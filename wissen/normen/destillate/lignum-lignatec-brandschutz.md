@@ -1154,3 +1154,26 @@ aktuellere Lignum-Publikation zum Holzbau-Brandschutz abzugleichen.
   Versuch, sie in derselben Runde zu lesen, liess sich die Spalten-4-Aufteilung (grau/hellgrau
   gesplittete Zellen) aus den angefertigten Crops nicht mit ausreichender Sicherheit einer
   Zeile zuordnen; nicht eingearbeitet, um keine geratene Aussage einzuführen.
+
+- **24.08.2026 (QUESTIONS-Abarbeitung, Fund L41-4, Abschlussrunde Tabelle 4):** die fünf in
+  Tabelle 4 bisher ohne eigene Eckwerte geführten Nutzungszeilen («Industrie-/Gewerbebauten
+  q ≤ 1000 MJ/m²», «Bauten mit Räumen grosser Personenbelegung / Verkaufsgeschäfte [c]»,
+  «Parkhäuser/Einstellräume für Motorfahrzeuge», «‹Verkaufsgeschäfte› ≤ 1200 m²/≤ 100 P»,
+  «Landwirtschaftliche Bauten») vollständig zellenweise gelesen: Original neu mit
+  `pdftoppm -r 400` gerendert (OneDrive-Kopie, identisch zur SharePoint-Quelle), Blatt 06
+  (S. 12/S. 13) als volle A3-Seite in Zeilenbänder geschnitten (Python/PIL), je Band linke
+  Halbseite (Nutzung/Spalten 1-3) und rechte Halbseite (Spalten 3-8) nebeneinander gehalten,
+  damit die Nutzungszeile spaltengenau über beide Seiten hinweg zugeordnet bleibt. **5
+  Ergänzungen, alle im Tabelle-4-Abschnitt oben nachgetragen:** drei Zeilen (Bauten grosser
+  Personenbelegung/Verkaufsgeschäfte [c], Verkaufsgeschäfte ≤ 1200 m², Landwirtschaftliche
+  Bauten) bestätigen strukturell bereits aus Tabelle 3 bekannte Eskalations-/Abdeckungsmuster
+  für dieselbe Nutzung; zwei Zeilen (Industrie q ≤ 1000 MJ/m², Parkhäuser/Einstellräume) zeigen
+  eine konzeptabhängige Korridor-Eskalation (Baulich eine Geschossstufe früher blau als
+  Sprinkler), ebenfalls spiegelbildlich zu bereits dokumentierten Tabelle-3-Befunden für
+  dieselbe Nutzung. Keine der fünf Zeilen widerspricht einem bestehenden Destillat-Wert.
+  **Damit ist L41-4 vollständig abgearbeitet**: Tabelle 2 (Run 40), Tabelle 3 (heute, erste
+  Teilrunde), Tabelle 5 (heute, zweite Teilrunde) und nun Tabelle 4 (diese Runde) sind alle
+  seit der letzten vollständigen Zellrunde (Run 8, 260730) erneut zellenweise gegen das
+  Original gehalten worden — kein offener Tabellenabschnitt mehr. `status` bleibt
+  `speculative` (die established-Reife wurde in dieser Runde nicht geprüft, nur die
+  Zellwert-Vollständigkeit).

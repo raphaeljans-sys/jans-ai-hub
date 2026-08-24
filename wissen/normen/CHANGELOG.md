@@ -1,3 +1,32 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: L41-4 abgeschlossen — Lignatec Tabelle 4 zellenweise gegen Original geprüft, fünf Nutzungszeilen nachgetragen
+
+**Auftrag:** Fortsetzung derselben Aufgabe (weitere offene Fragen in `wiki/QUESTIONS.md`
+abarbeiten, Fundstelle je Aussage mit Norm/Ausgabe/Ziffer, nur `established` zitierfähig).
+CHANGELOG und Report des unmittelbar vorangegangenen Laufs (dieser Tag, Tabelle 5) zuerst
+gelesen, dort weitergemacht: letzte offene Tabelle (Tabelle 4, S. 12-13) zellenweise gegen
+das Original gehalten.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 58959 (identischer
+Auftragstext) ist der hostende Prozess dieser Session. PID 57911 (`wissen/baurecht`) und
+PID 59236 (`wissen/normen` SIA-Sweep, andere Dateien: Register/SIA-Destillate, nicht
+Lignatec/QUESTIONS) laufen parallel, keine Dateiüberschneidung.
+
+**Ergebnis:** Die fünf Nutzungszeilen, für die Tabelle 4 im Destillat bisher keine eigenen
+Eckwerte führte («Industrie-/Gewerbebauten q ≤ 1000 MJ/m²», «Bauten mit Räumen grosser
+Personenbelegung / Verkaufsgeschäfte [c]», «Parkhäuser/Einstellräume für Motorfahrzeuge»,
+«‹Verkaufsgeschäfte› ≤ 1200 m²/≤ 100 P», «Landwirtschaftliche Bauten»), am 400-dpi-Rendering
+S. 12/13 (`pdftoppm -r 400`, Blatt 06, in Zeilenbänder über beide Halbseiten geschnitten)
+vollständig zellenweise gelesen und nachgetragen. Alle fünf Zeilen bestätigen
+Eskalations-/Abdeckungsmuster, die für dieselbe Nutzung bereits aus Tabelle 3 dokumentiert
+waren — keine Abweichung zu einem bestehenden Destillat-Wert. **Damit ist L41-4 vollständig
+abgearbeitet**: Tabelle 2 (Run 40), Tabelle 3, Tabelle 4 und Tabelle 5 (alle heute) sind seit
+der letzten vollständigen Zellrunde (Run 8, 260730) erneut zellenweise gegen das Original
+gehalten worden. `destillate/lignum-lignatec-brandschutz.md` und `wiki/QUESTIONS.md` additiv
+nachgeführt. Report: `outputs/2026-08-24_questions-abarbeitung-l41-4-tabelle4-abschluss.md`.
+
+**Diff-Gegenprobe (`git diff --numstat`):** additiv, keine bestehende Aussage entfernt oder
+überschrieben (siehe Report).
+
 ## 2026-08-24 — SIA-Sweep, Fortsetzung ~09:36 Uhr — zwölfte unabhängige Sättigungsverifikation, Bedingung des Vorlaufs geprüft statt nur nachgemessen
 
 **Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,

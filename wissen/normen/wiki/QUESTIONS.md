@@ -2314,7 +2314,7 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); H41-2 Fundstelle identifiziert 24.08.2026 (SIA 500:2009 Anhang H nennt «Merkblatt Nr. 7, Rollstuhlgaengigkeit bei Sonderbauten» der Fachstelle FABB — Zahlenwert bleibt Bring-Schuld/Rueckfrage, kein SIA-Kauf); S41-8 GESCHLOSSEN 24.08.2026 (Praemisse falsch — Deutsch/Franzoesisch stehen zweispaltig auf denselben Seiten, Tabellenwerte strukturell bilingual-einheitlich, Struktur-Fund in Destillat nachgetragen); G41-2 zwei weitere Belege 24.08.2026 (Drittanbieter-Spiegel bestaetigt unveraendert 2011er-Ausgabe, GVZ-Leitfaden RWA 40.1/2013 ist kein Ersatz), bleibt offen; L41-4 weiter teilbearbeitet 24.08.2026 (nach Tabelle 3 jetzt auch Tabelle 5 zellenweise gegen das Original gehalten: keine Abweichung, aber Spalte Tragwerke-nbb Block-4-8 komplett nachgetragen, war in keiner Runde erfasst; Tabelle 4 weiterhin nicht neu gelesen), bleibt offen; die uebrigen Bestaende (GVZ G41-1, restliche PAVIDENSA-Punkte) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); H41-2 Fundstelle identifiziert 24.08.2026 (SIA 500:2009 Anhang H nennt «Merkblatt Nr. 7, Rollstuhlgaengigkeit bei Sonderbauten» der Fachstelle FABB — Zahlenwert bleibt Bring-Schuld/Rueckfrage, kein SIA-Kauf); S41-8 GESCHLOSSEN 24.08.2026 (Praemisse falsch — Deutsch/Franzoesisch stehen zweispaltig auf denselben Seiten, Tabellenwerte strukturell bilingual-einheitlich, Struktur-Fund in Destillat nachgetragen); G41-2 zwei weitere Belege 24.08.2026 (Drittanbieter-Spiegel bestaetigt unveraendert 2011er-Ausgabe, GVZ-Leitfaden RWA 40.1/2013 ist kein Ersatz), bleibt offen; L41-4 GESCHLOSSEN 24.08.2026 (nach Tabelle 3 und Tabelle 5 jetzt auch Tabelle 4 zellenweise gegen das Original gehalten: fuenf bisher unbelegte Nutzungszeilen nachgetragen, keine Abweichung zu bestehenden Werten — alle vier Tabellen 2/3/4/5 seit Run 8 erneut geprueft); die uebrigen Bestaende (GVZ G41-1, restliche PAVIDENSA-Punkte) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -2401,6 +2401,23 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   > **Tabelle 4 weiterhin NICHT neu zellenweise gelesen** (letzte volle Runde 260730/Run 36,
   > 29.-30.07.2026, drei Wochen alt) — bleibt offen. Kein Nulldurchgang, `status` bleibt
   > `speculative`. Report: `outputs/2026-08-24_questions-abarbeitung-l41-4-tabelle5.md`.
+  >
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung, Abschlussrunde Tabelle 4).** Die fünf
+  > in Tabelle 4 bisher ohne eigene Eckwerte geführten Nutzungszeilen («Industrie-/
+  > Gewerbebauten q ≤ 1000 MJ/m²», «Bauten mit Räumen grosser Personenbelegung /
+  > Verkaufsgeschäfte [c]», «Parkhäuser/Einstellräume für Motorfahrzeuge», «‹Verkaufsgeschäfte›
+  > ≤ 1200 m²/≤ 100 P», «Landwirtschaftliche Bauten») wurden am Original S. 12-13
+  > (`pdftoppm -r 400`, Zeilenbänder über beide Halbseiten gehalten) vollständig zellenweise
+  > gelesen und in `destillate/lignum-lignatec-brandschutz.md`, Abschnitt Tabelle 4,
+  > nachgetragen. Alle fünf Zeilen bestätigen Eskalations-/Abdeckungsmuster, die für dieselbe
+  > Nutzung bereits aus Tabelle 3 dokumentiert waren (u.a. Baulich-Korridor eine Geschossstufe
+  > früher blau als Sprinkler bei Industrie q≤1000 und Parkhäusern; Abdeckungsgrenze nach
+  > Spalte 4 bei Verkaufsgeschäften ≤1200 m² und Landwirtschaftlichen Bauten) — keine
+  > Abweichung zu einem bestehenden Destillat-Wert. **Damit ist L41-4 vollständig
+  > abgearbeitet**: Tabelle 2 (Run 40), Tabelle 3, Tabelle 5 und nun Tabelle 4 sind seit der
+  > letzten vollständigen Zellrunde (Run 8, 260730) alle erneut zellenweise gegen das Original
+  > gehalten worden. `status` bleibt `speculative` (nur Zellwert-Vollständigkeit geprüft, nicht
+  > die established-Reife).
 
 ### GVZ RWA-Parkhaus
 - **G41-1 Bedeutung der durchgehend blauen letzten Matrixspalte.** Ob dort «nur der gesprinklerte
