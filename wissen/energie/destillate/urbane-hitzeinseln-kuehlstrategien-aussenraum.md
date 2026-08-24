@@ -204,7 +204,7 @@ liefert ein **differenziertes Teilergebnis**, kein reiner Negativbefund:
 - **Bauherren-Transfer für JANS-Projekte im Kanton Schwyz:** die kantonalen Klimakarten (WebGIS) sind
   eine gute, kostenlose Grundlage, um für ein Grundstück die Hitzebelastung und die Lage zu
   Kaltluftströmen/Frischluftkorridoren abzufragen — analog zur sonstigen Geodaten-Beschaffung
-  (`[[behoerden-vorabklaerung]]`, Skill `planungsgrundlagen`). Eine **persönliche Beratung** wie in
+  (Skill `behoerden-vorabklaerung`). Eine **persönliche Beratung** wie in
   Zürich ist dort aber nicht vorgesehen; bei Bedarf ist die Klimafachstelle direkt zu kontaktieren.
 
 ## Stadt Zürich als Praxisbeispiel: Fachplanung Hitzeminderung
@@ -249,7 +249,7 @@ Lücke, die für ein präzises Update beobachtet werden sollte.
   warum eine zusätzliche Klimaanlage die städtische Überwärmung sogar verschärfen kann.
 - **Für ein konkretes Bauprojekt in der Stadt Zürich**: das Stadtklimatool und die kostenlose
   Freiraumberatung von Grün Stadt Zürich früh im Entwurfsprozess konsultieren (idealerweise vor der
-  Baueingabe, analog zur Praxis bei `[[behoerden-vorabklaerung]]`) — die kommunale Fachplanung
+  Baueingabe, analog zur Praxis bei Skill `behoerden-vorabklaerung`) — die kommunale Fachplanung
   Hitzeminderung liefert standortspezifische Empfehlungen, nicht nur generische Regeln.
 - **Rangfolge der Wirksamkeit — primärquellen-gestützt statt pauschal:** am belastbarsten belegt ist
   der grosskronige Baum (BAFU-Original: über 7 °C Lufttemperatur, v.a. durch Beschattung). Wasser und
@@ -320,7 +320,7 @@ Lücke, die für ein präzises Update beobachtet werden sollte.
 Siehe auch: `[[sommerlicher-waermeschutz]]` (Innenraum-Nachweis SIA 180),
 `[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]` (Fassade als Bauteil, Kosten/Förderung
 Vertikalbegrünung), `[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]` (bauliche Vorstufe vor
-der Klimaanlagen-Bewilligung), `[[behoerden-vorabklaerung]]` (Vorlage für standortspezifische
+der Klimaanlagen-Bewilligung), Skill `behoerden-vorabklaerung` (Vorlage für standortspezifische
 Behördenabklärung vor Baueingabe).
 
 ## Vertiefung Kanton-ZH-Kühlwerte + Rasenfläche (Run 102, 2026-07-25)

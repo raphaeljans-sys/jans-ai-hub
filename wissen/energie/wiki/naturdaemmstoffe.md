@@ -2,6 +2,7 @@
 title: Naturdämmstoffe — ökologisch dämmen, Sommerhitze puffern
 status: established
 last_updated: 2026-07-21
+datenstand: "2005 (ältester tragend zitierter Quellenstand: SIA Merkblatt 2001 «Wärmedämmstoffe», Ausgabe 2005 — deklarierte Lambda-Werte, weiterhin massgebende Grundlage; die übrigen Quellen — Web-Materialbeschreibungen, FASBA/ETA-Brandschutzangaben, Werkhof29-Fallbeispiel — tragen Web-/Fallstand 2024-2026 und sind deutlich jünger)"
 sources: [destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/strohdaemmung-bemessungswert-brandschutz.md, destillate/naturdaemmstoffe-bemessungswerte-brandverhalten.md]
 links: [[INDEX]], [[daemmstoffe-lambda]], [[sommerlicher-waermeschutz]], [[graue-energie]], [[BAUHERREN-FAQ]]
 ---

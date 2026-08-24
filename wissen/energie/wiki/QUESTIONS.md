@@ -4943,3 +4943,51 @@ die KB widerspricht sich selbst.
   SMB-Mount) nach jedem Schreibvorgang und final gebündelt für alle 16 Dateien geprüft — jede
   Zeile `1 0`, keine Löschung, keine fremde Arbeit berührt.
   (reine Zeilenergänzung, keine Löschung von Bestand).
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — zwei übersehene Themenartikel nachgerüstet, Backlink-Hygiene-Register (Run 123) abschliessend bereinigt
+
+- [x] **A-P2 02.17 war entgegen der vorigen Abschlussmeldung noch nicht ganz vollständig: zwei
+  Themenartikel trugen kein Frontmatter-Feld `datenstand`.** Der `datenstand-waechter.py`-Lauf
+  dieser Session fand `energienachweis-zh.md` (trug nur einen inline-Abschnittstitel «⚠ Aktueller
+  Vollzug (Datenstand 2026-06-07)», kein Frontmatter-Feld) und `naturdaemmstoffe.md` (gar keinen
+  Datenstand-Hinweis) — beide waren in der 37er-Zählung der vorigen Session nicht erfasst worden.
+  Nachgerüstet nach demselben Verfahren (Quellen-Frontmatter gelesen, ältester tragender, nicht als
+  überholt markierter Stand gewählt): `energienachweis-zh` (2021, EnerG-Änderung 19.04.2021 / RRB
+  BBV I 14.07.2021, beide in Kraft seit 01.09.2022 — die ältere EN-ZH-005-Formularsammlung Juli
+  2022 ist seit 1.1.2026 durch EVEN abgelöst und im Artikeltext selbst als überholt markiert, daher
+  nicht als Anker verwendet), `naturdaemmstoffe` (2005, SIA Merkblatt 2001 Ausgabe 2005 — deklarierte
+  Lambda-Werte, weiterhin massgebend; übrige Quellen deutlich jünger). Erneuter Werkzeuglauf danach:
+  keine offenen Themenartikel-Treffer mehr.
+- [x] **Backlink-Hygiene-Register (Run 123, 04.08.2026) abschliessend bereinigt — von den sechs dort
+  offen benannten Zielen sind fünf keine echten Fehler, einer war korrigierbar, einer bleibt
+  bewusst als Platzhalter stehen.** `abstaende-und-hoehen` (existiert in `baurecht/wiki/`) und
+  `energie-baueingabe-zusatzformulare` sowie `recht-norm-regenwasser-gewaesserraum-zh` (beide
+  existieren in `planungsgrundlagen/wiki/`) sind legitime, bereits korrekt beschriftete
+  Cross-KB-Links — derselbe False-Positive-Typ wie die acht `normen`-Links, die 03.16 bereits
+  aufgeklärt hat; keine Änderung nötig. **Echter Fehler behoben:**
+  `u-wert-berechnung-bauteilekatalog-neubauten` in `massivbau-bauteildatenblatt-ksv-swisspor.md`
+  zeigte auf einen nie existierenden Namen — korrigiert auf das tatsächliche Ziel
+  `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` (Titel/Inhalt am Original geprüft, passt). **Zwei
+  falsche Skill-Verweise korrigiert:** `behoerden-vorabklaerung` ist ein eigenständiger **Skill**,
+  kein KB-Artikel, und wurde in `urbane-hitzeinseln-kuehlstrategien-aussenraum.md` an drei Stellen
+  fälschlich in Doppelklammern gesetzt (an einer Stelle zusätzlich mit der falschen Zuordnung
+  «Skill `planungsgrundlagen`») — auf reine Skill-Nennung `behoerden-vorabklaerung` umgestellt.
+  **Bewusst als Platzhalter belassen:** `healthcare-energie` ist laut Register ein geplanter, nie
+  angelegter Themenartikel; ein neuer Artikel ist ausserhalb des Scopes dieser Session (keine
+  Primärquellenarbeit, sondern Linkpflege) — die tote Doppelklammer in
+  `foerderprogramm-energie-zh-2026.md` wurde in eine unverlinkte Erwähnung mit Verweis auf dieses
+  Register umgewandelt, damit sie nicht mehr ins Leere zeigt. Das siebte, ursprünglich gelistete
+  Ziel `sia-2024-nutzungsdaten-gesundheitsbau` ist reiner QUESTIONS.md-Journaltext (Verweis auf die
+  eigene Historie dieses Dokuments, kein Artikel-Backlink) und bleibt nach der
+  Append-only-Konvention unverändert.
+- **Die drei von `datenstand-waechter.py` gemeldeten QUESTIONS.md-Pruefstichtag-Treffer (Z. 1408,
+  1448, 4573, «17.08.2026 verstrichen») sind kein neuer Befund — gegengeprüft: alle drei liegen in
+  bereits mit `[x]` geschlossenen historischen Einträgen und wurden inhaltlich bereits eingelöst**
+  (`logbuch/fristen.md`, Eintrag KRNr 6064, Status **erledigt**, «Der Rahmenkredit 2026-2029 ist
+  damit bewilligt»). Das Werkzeug kennt keinen Unterschied zwischen offenem und bereits
+  geschlossenem Eintrag, wenn ein Datum im Fliesstext steht — reines Werkzeugrauschen, keine
+  weitere Handlung nötig.
+  Beleg: `git diff --numstat` nativ per ssh geprüft — `energienachweis-zh.md` +1/-0,
+  `naturdaemmstoffe.md` +1/-0, `massivbau-bauteildatenblatt-ksv-swisspor.md` 1/1,
+  `urbane-hitzeinseln-kuehlstrategien-aussenraum.md` 3/3, `foerderprogramm-energie-zh-2026.md` 2/1
+  — durchgehend präzisierende Textersetzung, keine Löschung von Bestand.

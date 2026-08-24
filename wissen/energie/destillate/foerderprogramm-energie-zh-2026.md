@@ -163,7 +163,8 @@ Quelle im `sources`-Block). Der Zahlenstand dieses Destillats traegt per 20.07.2
   Leistungsstaffel fossiler Sekundaerheizung (bis 70 kWth / 70–100 kWth / ab 100 kWth **max. 10 %
   fossil**) und **Ausschluss von Prozessenergie sowie reiner Warmwasseraufbereitung ohne
   Raumwaerme**. Bei Healthcare-Objekten (grosse Anlagen, hoher Warmwasseranteil) ist das kein
-  Detail, sondern kann die Foerderfaehigkeit kippen → `[[healthcare-energie]]`-relevant.
+  Detail, sondern kann die Foerderfaehigkeit kippen — Healthcare-Energie-relevant (eigener
+  Themenartikel dazu noch nicht angelegt, Backlink-Hygiene-Register `QUESTIONS.md`).
 
 ## Zweite adversariale Nachpruefung (2026-07-21, Run 83)
 **Frischer, unabhaengiger Download des amtlichen PDF von der zh.ch-Domain (nicht aus dem Cache

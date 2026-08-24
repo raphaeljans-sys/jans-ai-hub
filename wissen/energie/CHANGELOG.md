@@ -1,5 +1,61 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: zwei übersehene Themenartikel-`datenstand`-Felder nachgerüstet, Backlink-Hygiene-Register (Run 123) abschliessend bereinigt
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand, Anschluss an die vorangehende Session desselben Tages. CHANGELOG und den `- [ ]`-
+Bestand von `QUESTIONS.md` zuerst vollständig durchgesehen: nach den vorangehenden Fortsetzungs-
+sessionen ist der Korpus für reine Rechercheaufträge weitgehend erschöpft — praktisch jeder
+verbleibende offene Punkt hängt entweder an einer Beschaffungsentscheidung Raphaels (Normkauf SIA
+380/1:2016, Loop-Takt, JANS-eigene Projektdaten für E103/E94), ist als am Quelldokument selbst
+nicht auflösbar dokumentiert, oder ist ein reiner Prozess-Merksatz ohne Sachfrage. Statt einen
+bereits mehrfach für erschöpft erklärten Punkt zu wiederholen, wurde das Prüfwerkzeug
+`wissen/tools/datenstand-waechter.py` erneut über die KB laufen lassen, um zu verifizieren, ob die
+im vorigen Lauf gemeldete Vollständigkeit («A-P2 02.17 vollständig geschlossen, alle 37
+Themenartikel») tatsächlich zutrifft.
+
+**Tat sie nicht ganz:** zwei Themenartikel trugen weiterhin kein Frontmatter-Feld `datenstand` —
+`energienachweis-zh.md` (nur ein inline-Abschnittstitel «Datenstand 2026-06-07», kein
+Frontmatter-Feld) und `naturdaemmstoffe.md` (gar kein Datenstand-Hinweis). Beide waren in der
+37er-Zählung der vorigen Session nicht erfasst worden. Nachgerüstet mit demselben Verfahren wie
+bei den vorangehenden 26 Artikeln (Quellen-Frontmatter gelesen, ältester tragender, nicht als
+überholt markierter Stand gewählt, überholte/historische Quellen ausdrücklich ausgeschlossen):
+`energienachweis-zh` (2021, EnerG-Änderung 19.04.2021 / RRB BBV I 14.07.2021, beide in Kraft seit
+01.09.2022 — die ältere EN-ZH-005-Formularsammlung Juli 2022 ist seit 1.1.2026 durch EVEN abgelöst
+und im Artikeltext selbst als überholt markiert), `naturdaemmstoffe` (2005, SIA Merkblatt 2001
+Ausgabe 2005, weiterhin massgebende Grundlage für deklarierte Lambda-Werte). Erneuter Werkzeuglauf
+danach bestätigt: keine offenen Themenartikel-Treffer mehr.
+
+Als zweiten, ebenfalls noch offenen Punkt aus derselben Werkzeug-Kategorie (A-WERKZEUG/03.16) das
+seit 04.08.2026 (Run 123) im Backlink-Hygiene-Register geführte Sechser-Set toter `[[...]]`-Ziele
+abschliessend bereinigt: drei sind legitime, bereits korrekt beschriftete Cross-KB-Links
+(`abstaende-und-hoehen` in `baurecht/wiki/`, `energie-baueingabe-zusatzformulare` und
+`recht-norm-regenwasser-gewaesserraum-zh` in `planungsgrundlagen/wiki/` — derselbe False-Positive-
+Typ wie die acht `normen`-Links aus 03.16, keine Änderung nötig). Ein echter Fehler war korrigierbar:
+`u-wert-berechnung-bauteilekatalog-neubauten` in `massivbau-bauteildatenblatt-ksv-swisspor.md`
+zeigte auf einen nie existierenden Namen, korrigiert auf `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`
+(Titel/Inhalt am Zieldokument geprüft, passt sachlich). Ein falscher Verweis wurde dreifach
+korrigiert: `behoerden-vorabklaerung` ist ein eigenständiger Skill, kein KB-Artikel — in
+`urbane-hitzeinseln-kuehlstrategien-aussenraum.md` an drei Stellen fälschlich in Doppelklammern
+gesetzt (einmal zusätzlich mit der falschen Zuordnung «Skill `planungsgrundlagen`»), jetzt auf
+reine Skill-Nennung umgestellt. `healthcare-energie` (geplanter, nie angelegter Themenartikel)
+bleibt bewusst ohne neuen Artikel — Linkpflege, keine Primärquellenrecherche, ausserhalb des Scopes
+dieser Session —, die tote Doppelklammer in `foerderprogramm-energie-zh-2026.md` wurde aber in eine
+unverlinkte, auf das Register verweisende Erwähnung umgewandelt. Das siebte ursprünglich gelistete
+Ziel (`sia-2024-nutzungsdaten-gesundheitsbau`) ist reiner `QUESTIONS.md`-Journaltext und bleibt nach
+der Append-only-Konvention unangetastet.
+
+Zusätzlich die drei vom Werkzeug gemeldeten «verstrichener Prüfstichtag 17.08.2026»-Treffer in
+`QUESTIONS.md` gegengeprüft: alle drei liegen in bereits geschlossenen historischen Einträgen und
+sind inhaltlich bereits eingelöst (`logbuch/fristen.md`, KRNr 6064, Status erledigt) — reines
+Werkzeugrauschen, keine weitere Handlung nötig, nur zur Nachvollziehbarkeit im Register vermerkt.
+
+Alle sieben veränderten Dateien nach jedem Schreibvorgang per `git diff --numstat` **nativ per ssh**
+(nie über den SMB-Mount) geprüft: `energienachweis-zh.md` +1/-0, `naturdaemmstoffe.md` +1/-0,
+`massivbau-bauteildatenblatt-ksv-swisspor.md` 1/1, `urbane-hitzeinseln-kuehlstrategien-aussenraum.md`
+3/3, `foerderprogramm-energie-zh-2026.md` 2/1 — durchgehend präzisierende Textersetzung, keine
+Löschung von Bestand. Register: `wiki/QUESTIONS.md`, neuer Abschnitt.
+
 ## 2026-08-24 — Interaktive Session: verbleibende 16 Themenartikel um das Pflichtfeld `datenstand` ergänzt (A-P2 02.17 abgeschlossen)
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und

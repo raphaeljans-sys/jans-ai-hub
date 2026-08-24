@@ -1,3 +1,48 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung (PAVIDENSA P41-1): Materialverträglichkeits-Kreuzmatrix PAV-A 03:2013 nachträglich destilliert, sicherheitskritischer Rückstand geschlossen
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fortsetzung der
+QUESTIONS-Abarbeitung vom selben Vormittag (SWKI-Block, siehe Eintrag oben). Nach der
+Sichtung des Run-41-Bestands (Lignatec/GVZ/Hindernisfreies Bauen/PAVIDENSA, dort als
+«unverändert offen» geführt) wurde **P41-1** aufgegriffen: die Übersichtsmatrix von
+PAV-A 03:2013 war im Erstdestillat bewusst NICHT aufgenommen worden («eine halbrichtige
+Fassung wäre schlimmer als keine»), weil sich mehrspaltige Kopfzeilen mit gedrehtem Text
+und Farbcodierung aus dem Textextrakt nicht spaltengenau rekonstruieren liessen
+(Methodik-Regel M41-1: solche Tabellen werden gerendert, nie extrahiert).
+
+**Durchgeführt:** Original per M365-Graph-Connector beschafft (SharePoint Site PL, Drive
+`02_Recht_Norm`, `04_Merkblätter/Fugenlose Bodenbeläge/PAV-A_03-2013_Schutzschichten.pdf`),
+bei 400 dpi gerendert (`pdftoppm`) und zellenweise über sips-Ausschnitte mit wiederholtem
+Spaltenabgleich gegen die Buchstaben-Kopfzeile (a)-t)) abgelesen. **Zwei separate
+Kreuztabellen** waren im Dokument enthalten, nicht nur eine: S. 1 «Wirksamkeit»
+(mechanische Schutzwirkung, Drainagewirkung, Aufnahme von Schubkräften, Aufwand beim
+Einbau — je hoch/mittel/gering) und S. 2 «Einbaubereiche / Geeignet für /
+**Materialverträglichkeit mit dem Abdichtungsmaterial**» (PBD/PVC/FPO/FLK/TDB/KMB). Beide
+vollständig abgelesen und inhaltlich konsistenzgeprüft (jede Zeilensumme ergibt genau 20 von
+20 Spalten zwischen «verträglich» und «nicht verträglich»/n.a.).
+
+**Zusätzliche unabhängige Gegenprobe für die sicherheitskritische Materialverträglichkeits-
+Tabelle:** die Anzahl «x»-Zeichen je Zeile aus dem rohen `pdftotext -layout`-Extrakt (ohne
+jeden Spaltenbezug, rein als Zählwert) wurde für alle 6 Abdichtungsmaterial-Zeilen mit der
+zellenweisen Ablesung verglichen — exakte Übereinstimmung (PBD 18, PVC 15, FPO 15, FLK 18,
+TDB 15, KMB 15). Das Ergebnis deckt sich zusätzlich mit der bereits vorhandenen Anmerkung n)
+im Destillat («Gussasphalt: Nicht für PVC») — die neue Tabelle bestätigt PVC als
+inkompatibel mit Gussasphalt und zusätzlich mit FPO-/HDPE-Schutzbahnen sowie Walz- und
+Drainasphalt.
+
+**Ergebnis:** `destillate/pav-a-03-2013-schutzsysteme-eigenschaften-wirksamkeit.md` um
+beide Kreuztabellen ergänzt (Abschnitte «Kreuztabelle 1 — Wirksamkeit» und «Kreuztabelle 2
+— Einbaubereiche, Geeignet für, Materialverträglichkeit»), Frontmatter (`gelesen`, `status`)
+und Offen-Abschnitt nachgeführt. Neuer offener Punkt: die vier Herausgeberkürzel PBD/FLK/
+TDB/KMB sind im Original nicht ausgeschrieben und bleiben unaufgelöst (nicht geraten).
+`wiki/QUESTIONS.md`: P41-1 als geschlossen markiert, Run-41-Kopfzeile und der
+Run-42-Querverweis nachgezogen.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — Destillat
++99/-19 (Ersetzung des alten Aufnahme-Vorbehalt-Abschnitts durch die Tabellen, keine fremde
+Zeile berührt), `QUESTIONS.md` +20/-1 (die eine Löschzeile ist der ersetzte Kopfzeilen-Text
+in der Run-41-Überschrift, kein Substanzverlust). Kein `git`-Schreibbefehl über den
+SMB-Mount ausgeführt.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung (SWKI VA103-01): sieben veraltete offene Punkte nachgezogen, ein echter Negativbefund (Jet-Fan)
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Nach Sichtung der

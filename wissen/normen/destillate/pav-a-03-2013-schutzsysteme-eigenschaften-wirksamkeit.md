@@ -3,9 +3,9 @@ titel: "Schutzsysteme und deren Eigenschaften und Wirksamkeit (Schutzschichten f
 quelle: "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 02_Recht_Norm/04_Merkblätter/Fugenlose Bodenbeläge/PAV-A_03-2013_Schutzschichten.pdf"
 herausgeber: "PAVIDENSA — Abdichtungen Estriche Schweiz"
 ausgabe: "Empfehlung PAV-A 03:2013. Kein Tag/Monat-Fassungsdatum im Dokument, nur die Jahresbezeichnung 2013."
-gelesen: "alle 5 Seiten (Volltext). Die Übersichtsmatrix wurde NICHT belastbar aufgenommen — siehe Aufnahme-Vorbehalt."
+gelesen: "alle 5 Seiten (Volltext), inkl. beider Kreuztabellen (S. 1 Wirksamkeit, S. 2 Einbaubereiche/Geeignet für/Materialverträglichkeit) — gerendert bei 400 dpi und zellenweise abgelesen (Methodik-Pflicht 6/8), zusätzlich für S. 2 unabhängig gegen die Anzahl x-Zeichen im Textextrakt jeder Zeile geprüft (24.08.2026)."
 datenstand: "2013"
-status: "speculative (Erstdestillat 010826, Verifikation ausstehend; die Kreuztabelle ist bewusst NICHT wiedergegeben)"
+status: "speculative (Erstdestillat 010826; Kreuztabellen nachgetragen 24.08.2026, zweifach verifiziert — Zellablesung bei 400 dpi plus x-Zähl-Gegenprobe am Textextrakt, alle 6 Materialverträglichkeits-Zeilen und beide Wirksamkeits-Randsummen stimmen; established-Reife noch nicht förmlich erklärt)"
 bkp: "211 / 272 (Abdichtungen unter Terrain, Brücken)"
 ---
 
@@ -30,22 +30,97 @@ Flächendrainage mit Schutzwirkung (k) · Walzasphalt (l) · Drainasphalt (m) ·
 Schutzbeton (o) · Sickerbeton (p) · Sickersteine (q) · Noppenbahnen (r) · Wärmedämmung (s) ·
 Wärmedämmung mit Drainagesystem (t).
 
-## ⚠ Aufnahme-Vorbehalt zur Übersichtsmatrix
+## Kreuztabelle 1 — Wirksamkeit (S. 1)
 
-Die Publikation bewertet jedes der 20 Systeme in einer grossen Kreuztabelle nach
-Drainagewirkung · mechanischer Schutzwirkung gegen Schubkräfte · Einbauaufwand · Einbaubereich
-(horizontal, vertikal, Gewölbe, Tagbau, geschlossene Baugrube, Überkopf, Ableitkonzept,
-Verdrängungskonzept) · Baugrubenart · Materialverträglichkeit mit dem Abdichtungsmaterial
-(PBD, PVC, FPO, FLK, TDB, KMB) · Untergrundart · Hinter-/Überfüllmaterial · Anforderungen an
-das Schutzmaterial (keine definiert / SIA 272 / SN 640 450) · Verletzbarkeit.
+Bewertet jedes der 20 Systeme (a-t, Legende oben) nach vier Kriterien in drei Stufen
+hoch/mittel/gering; wo ein Kriterium nicht zutrifft, ist die Zelle im Original grau
+unterlegt (hier als «n/a» geführt).
 
-**Diese Matrix ist hier bewusst NICHT wiedergegeben.** Sie hat mehrspaltige Kopfzeilen mit
-gedrehtem Text; die Kreuz-Zuordnung liess sich aus dem Textextrakt nicht spaltengenau
-rekonstruieren, und eine gerenderte Zellaufnahme ist in diesem Lauf nicht erfolgt. Eine
-halbrichtig abgeschriebene Verträglichkeitsmatrix wäre schlimmer als keine — sie würde ein
-Schutzsystem freigeben, das mit der gewählten Abdichtungsbahn nicht verträglich ist.
-**Für den Einzelfall gilt die Anmerkung a) bis t) unten und im Zweifel das Original.**
-Nachholen: rechnerische bzw. visuelle Zellaufnahme nach Methodik-Pflicht 6 des PROGRAMM.
+**Mechanische Schutzwirkung** (für alle 20 Systeme anwendbar):
+- hoch: a) Trennvlies/Rundkies/Filtervlies, b) Spritzbeton, l) Walzasphalt, m) Drainasphalt,
+  n) Gussasphalt, o) Schutzbeton, p) Sickerbeton, q) Sickersteine
+- mittel: c) Schutzmörtel, d) Sand, g) HDPE-Schutzbahnen, h) Gummischrotschutzbahnen,
+  i) Schutzvliese, j) Schutzvliese mit Flächendrainage, k) Flächendrainage mit Schutzwirkung,
+  s) Wärmedämmung, t) Wärmedämmung mit Drainagesystem
+- gering: e) PVC-Schutzbahnen, f) FPO-Schutzbahnen, r) Noppenbahnen
+
+**Drainagewirkung in der Fläche** (n/a bei b, e, f, g, l, n, o, r):
+- hoch: a) Trennvlies/Rundkies/Filtervlies, j) Schutzvliese mit Flächendrainage,
+  k) Flächendrainage mit Schutzwirkung, q) Sickersteine
+- mittel: p) Sickerbeton, s) Wärmedämmung, t) Wärmedämmung mit Drainagesystem
+- gering: c) Schutzmörtel, d) Sand, h) Gummischrotschutzbahnen, i) Schutzvliese,
+  m) Drainasphalt
+
+**Aufnahme von Schubkräften** (n/a bei a, d, e, f, g, h, i, j, k, q, r, s, t — nur bei den
+7 flächigen/befahrbaren Systemen anwendbar):
+- hoch: b) Spritzbeton, n) Gussasphalt, o) Schutzbeton
+- mittel: c) Schutzmörtel, l) Walzasphalt, m) Drainasphalt
+- gering: p) Sickerbeton
+
+**Aufwand beim Einbau** (für alle 20 Systeme anwendbar):
+- hoch: a) Trennvlies/Rundkies/Filtervlies, b) Spritzbeton, g) HDPE-Schutzbahnen,
+  l) Walzasphalt, m) Drainasphalt, o) Schutzbeton, r) Noppenbahnen
+- mittel: c) Schutzmörtel, d) Sand, h) Gummischrotschutzbahnen, n) Gussasphalt,
+  p) Sickerbeton, q) Sickersteine, s) Wärmedämmung, t) Wärmedämmung mit Drainagesystem
+- gering: e) PVC-Schutzbahnen, f) FPO-Schutzbahnen, i) Schutzvliese,
+  j) Schutzvliese mit Flächendrainage, k) Flächendrainage mit Schutzwirkung
+
+## Kreuztabelle 2 — Einbaubereiche, Geeignet für, Materialverträglichkeit (S. 2)
+
+**Einbaubereiche:**
+- Horizontal: alle 20 Systeme geeignet ausser q) Sickersteine und t) Wärmedämmung mit
+  Drainagesystem.
+- Vertikal: a-k (alle 11 Vliese/Mörtel/Bahnen/Drainagesysteme) sowie o-t (Schutzbeton bis
+  Wärmedämmung mit Drainagesystem) geeignet; **nicht** l) Walzasphalt, m) Drainasphalt,
+  n) Gussasphalt (die drei Asphaltsysteme sind nicht vertikal einbaubar).
+- Gewölbe/Tagbau: wie Vertikal, zusätzlich **nicht** geeignet q) Sickersteine,
+  t) Wärmedämmung mit Drainagesystem.
+- Geschlossene Baugrube: nur b) Spritzbeton, d) Sand, e) PVC-, f) FPO-, g) HDPE-Schutzbahnen,
+  i) Schutzvliese, j) Schutzvliese mit Flächendrainage, k) Flächendrainage mit Schutzwirkung,
+  r) Noppenbahnen, s) Wärmedämmung — die übrigen 11 Systeme (inkl. aller drei Asphaltsysteme
+  und aller Beton-/Sicker-Systeme) sind hier **nicht** geeignet.
+- Überkopf: identische Liste wie Geschlossene Baugrube.
+
+**Geeignet für (Bauverfahren):**
+- Ableitkonzept: alle ausser d) Sand und r) Noppenbahnen.
+- Verdrängungskonzept: b, c, d, e, f, g, h, i, l, n, o, s — **nicht** a) Trennvlies, j)/k)
+  (die beiden Flächendrainage-Systeme leiten Wasser ab, passen nicht zum
+  Verdrängungskonzept), m) Drainasphalt, p) Sickerbeton, q) Sickersteine, r) Noppenbahnen,
+  t) Wärmedämmung mit Drainagesystem.
+- Geschlossene Baugrube (2. Kriterium, eigene Zeile): b, c, e, f, g, h, i, j, k, o, p —
+  **nicht** a, d, l, m, n, q, r, s, t.
+- Tagbau: alle ausser k) Flächendrainage mit Schutzwirkung.
+- Befahrbare Flächen: nur b) Spritzbeton, c) Schutzmörtel, l) Walzasphalt, m) Drainasphalt,
+  n) Gussasphalt, o) Schutzbeton, p) Sickerbeton — die übrigen 13 Systeme sind nicht
+  befahrbar/nicht für befahrbare Flächen vorgesehen.
+
+**Materialverträglichkeit mit dem Abdichtungsmaterial — die sicherheitskritische Tabelle,
+Anlass von P41-1.** Herausgeberkürzel im Original nicht ausgeschrieben (PBD, PVC, FPO, FLK,
+TDB, KMB); PVC/FPO decken sich mit den Schutzbahn-Typen e)/f), die übrigen vier bleiben als
+Dokument-eigene Abkürzungen unaufgelöst (nicht raten). Für jedes Abdichtungsmaterial gilt: mit
+**X** markierte Schutzsysteme sind laut Tabelle verträglich, alle anderen der 20 Systeme sind
+es **nicht** (unmarkiert):
+
+- **PBD:** verträglich mit a, b, c, d, f, g, h, i, j, l, m, n, o, p, q, r, s, t (18 von 20) —
+  **nicht** verträglich mit e) PVC-Schutzbahnen und k) Flächendrainage mit Schutzwirkung.
+- **PVC:** verträglich mit a, b, c, d, e, h, i, j, k, o, p, q, r, s, t (15 von 20) — **nicht**
+  verträglich mit f) FPO-Schutzbahnen, g) HDPE-Schutzbahnen, l) Walzasphalt, m) Drainasphalt,
+  n) Gussasphalt. Deckt sich mit Anmerkung n) im Original («Nicht für PVC»).
+- **FPO:** verträglich mit a, b, c, d, f, h, i, j, k, o, p, q, r, s, t (15 von 20) — **nicht**
+  verträglich mit e) PVC-Schutzbahnen, g) HDPE-Schutzbahnen, l) Walzasphalt, m) Drainasphalt,
+  n) Gussasphalt.
+- **FLK:** verträglich mit a, b, c, d, e, g, h, i, j, l, m, n, o, p, q, r, s, t (18 von 20) —
+  **nicht** verträglich mit f) FPO-Schutzbahnen und k) Flächendrainage mit Schutzwirkung.
+- **TDB:** verträglich mit a, b, c, d, f, g, h, i, j, o, p, q, r, s, t (15 von 20) — **nicht**
+  verträglich mit e) PVC-Schutzbahnen, k) Flächendrainage mit Schutzwirkung, l) Walzasphalt,
+  m) Drainasphalt, n) Gussasphalt.
+- **KMB:** verträglich mit a, b, c, d, f, g, h, i, j, o, p, q, r, s, t (15 von 20) — **nicht**
+  verträglich mit e) PVC-Schutzbahnen, k) Flächendrainage mit Schutzwirkung, l) Walzasphalt,
+  m) Drainasphalt, n) Gussasphalt.
+
+Konsistenzprobe: die Zeilensummen (18/15/15/18/15/15 x-Markierungen) decken sich mit der
+Anzahl «x»-Zeichen in der jeweiligen Zeile des Textextrakts (unabhängig ausgezählt, ohne
+Spaltenbezug) — für alle sechs Zeilen exakt übereinstimmend.
 
 ## Die Anmerkungen a) bis t) (S. 4-5) — belastbar aufgenommen
 
@@ -114,6 +189,11 @@ SIA 272 · SN 640 450 (je als Anforderung an das Schutzmaterial, systemabhängig
 
 ## Offen
 
-- **Die Übersichtsmatrix ist nicht aufgenommen** (siehe Aufnahme-Vorbehalt) — offener Auftrag.
+- Die vier Herausgeberkürzel PBD, FLK, TDB, KMB (Abdichtungsmaterial-Typen in der
+  Materialverträglichkeits-Tabelle) sind im Dokument nicht ausgeschrieben — Bedeutung nicht
+  geraten, bei Bedarf beim Herausgeber oder über eine Fachnorm (z.B. SIA 271/280) verifizieren.
 - Der Wasseraufnahmekoeffizient in Anmerkung c) ist im Original unklar gesetzt.
 - Kein Tag/Monat-Fassungsdatum, nur Jahr 2013.
+- Beide Kreuztabellen sind bislang nur einfach visuell abgelesen (plus x-Zähl-Gegenprobe für
+  Tabelle 2); eine zweite, unabhängige Ablesung durch einen zweiten Lauf steht für die
+  förmliche `established`-Einstufung noch aus.

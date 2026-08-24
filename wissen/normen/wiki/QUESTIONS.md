@@ -2178,6 +2178,7 @@ war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worde
 ### PAVIDENSA
 Kreuzmatrix PAV-A 03:2013 geprueft, bevor sie ein zweites Mal eingetragen wird: **bereits
 offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintrag noetig.
+*(P41-1 seither GESCHLOSSEN 24.08.2026, siehe dort.)*
 
 ### Fassungsstand-Sammelpunkt (Run 42)
 - **F42-1** Boulevardgastronomie (Gebuehrentarif Rechtsstand 1998), Leitfaden Mobilitaet
@@ -2189,7 +2190,7 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; die uebrigen Bestaende (Lignatec, GVZ RWA, Hindernisfreies Bauen, PAVIDENSA) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); die uebrigen Bestaende (Lignatec, GVZ RWA, Hindernisfreies Bauen, restliche PAVIDENSA-Punkte) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -2344,6 +2345,24 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   Textextrakt nicht spaltengenau rekonstruieren, eine gerenderte Zellaufnahme steht aus. Sie
   entscheidet über die **Materialverträglichkeit** von Schutzsystem und Abdichtungsbahn; eine
   halbrichtige Fassung wäre schlimmer als keine.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Original per M365-Graph-Connector
+  > beschafft (SharePoint Site PL, Drive `02_Recht_Norm`,
+  > `04_Merkblätter/Fugenlose Bodenbeläge/PAV-A_03-2013_Schutzschichten.pdf`), bei 400 dpi
+  > gerendert und zellenweise abgelesen — **beide** Kreuztabellen: die Wirksamkeits-Matrix
+  > (S. 1, 4 Kriterien x 3 Stufen) und die S.-2-Matrix (Einbaubereiche, Geeignet für,
+  > **Materialverträglichkeit mit dem Abdichtungsmaterial** PBD/PVC/FPO/FLK/TDB/KMB). Für die
+  > sicherheitskritische Materialverträglichkeits-Tabelle zusätzliche unabhängige Gegenprobe:
+  > die x-Anzahl je Zeile aus dem rohen Textextrakt (`pdftotext -layout`, ohne Spaltenbezug)
+  > stimmt für alle 6 Zeilen exakt mit der zellenweisen Ablesung überein (18/15/15/18/15/15).
+  > Ergebnis deckt sich mit der bereits destillierten Anmerkung n) («Nicht für PVC»): die
+  > Tabelle bestätigt PVC als inkompatibel mit Gussasphalt (n), zusätzlich mit FPO-Bahnen,
+  > HDPE-Bahnen, Walz- und Drainasphalt. Vollständig eingearbeitet in
+  > `destillate/pav-a-03-2013-schutzsysteme-eigenschaften-wirksamkeit.md` (Abschnitte
+  > «Kreuztabelle 1 — Wirksamkeit» und «Kreuztabelle 2 — Einbaubereiche, Geeignet für,
+  > Materialverträglichkeit»). Offen bleibt nur die Auflösung der vier Herausgeberkürzel PBD/
+  > FLK/TDB/KMB (Dokument schreibt sie nicht aus) — im Destillat als neuer Offen-Punkt geführt,
+  > nicht geraten.
 - **P41-2 Sechs PAV-E-Merkblätter fehlen im Bestand**, obwohl die Checkliste PAV-E 16:2012 sie
   als zuständige Quellen benennt: PAV-E 03:2008 (Austrocknungsverhalten), 04:2008
   (Feuchtigkeitssperren), 06:2009 (Masstoleranz und Ebenheit), 10:2009 (Fugen in Zementestrichen),
