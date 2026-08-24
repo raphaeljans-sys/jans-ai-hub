@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.08.2026 18:50:18
+Stand: 24.08.2026 19:00:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:24)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:38)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 24.08.2026 18:50:18
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- c1852043 heartbeat Check 16 + scripts/git-divergenz.sh: Abgleich NAS/Station/GitHub auf Zuruf sichtbar (Chronik 260824e/f)
+- 42181462 nas-selfcommit: 2 Datei(en) 2026-08-24 19:00

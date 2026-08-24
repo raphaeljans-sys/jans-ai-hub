@@ -19,6 +19,87 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260824h — Bildschirmschoner MacBook Pro auf 3 h; «schlaeft nie» war laengst gesetzt, nur nicht dokumentiert
+
+**Anlass.** Raphael fragte, ob das MacBook Pro wie der Mac Mini auf «schlaeft nie» gestellt
+werden koenne, mit Bildschirmschoner nach 3 h ohne Ruhezustand.
+
+**Messung statt Annahme.** `pmset -g custom` zeigte auf Netzstrom bereits `sleep 0`,
+`disksleep 0`. Entscheidend ist aber `pmset -g`: **`SleepDisabled 1`**. Dieser Schalter
+(`pmset -a disablesleep 1`) unterbindet den Ruhezustand systemweit — auch im
+Batteriebetrieb und auch bei geschlossenem Deckel. Die Batterie-Werte
+(`sleep 1`, `disksleep 10`) sind damit wirkungslos, sie stehen nur noch als Karteileiche
+im Profil. Wer kuenftig das Batterieverhalten aendern will, muss `disablesleep` anfassen,
+nicht `pmset -b sleep`.
+
+**Eingriff (einzig noetiger).** Leerlaufgrenze des Bildschirmschoners von 3600 auf 10800 s:
+`ssh macbook 'defaults -currentHost write com.apple.screensaver idleTime -int 10800'`.
+Kopie der alten ByHost-Plist vorher gesichert nach
+`/Users/raphaeljans/Library/Preferences/ByHost/260824-backup-com.apple.screensaver.4430DB15-A022-51AE-A06B-EB86D8F75637.plist`.
+Rueckbau: derselbe Befehl mit `-int 3600`.
+
+**Warum das ohne Neustart und ohne GUI-Sitzung greift.** Der Wert wird nicht vom
+macOS-Idle-Timer gelesen, sondern vom Waechter `ch.jans.screensaver-idle` (Eintrag 260821),
+der ihn bei jedem Lauf frisch abfragt. Ein `defaults write` per SSH wirkt deshalb hier
+zuverlaessig, waehrend es bei GUI-gelesenen Preferences an cfprefsd scheitern kann.
+
+**Vorgelegter, dann zurueckgezogener Befehl.** Geplant war `sudo pmset -c displaysleep 240`,
+damit der Bildschirm eine Stunde nach dem Schoner abschaltet. Die Messung zeigte, dass
+Universal Control dauerhaft `PreventUserIdleDisplaySleep` haelt (Eintrag 260821); der
+`displaysleep`-Wert ist damit wirkungslos, der Befehl haette nichts bewirkt und wurde
+Raphael deshalb nicht gegeben. Wer die Bildschirmabschaltung wirklich will, muss sie in
+`scripts/screensaver-idle-watchdog.sh` als zweite Stufe (`pmset displaysleepnow` nach
+laengerem Leerlauf) ergaenzen — Eingriff der Klasse Persistenz, nicht nebenbei.
+
+**Nebenbefund zur Messmethode.** `nc -z -G 3 <host> 5900` meldete auch fuer das NAS
+«offen», obwohl dort kein VNC laeuft. Belastbar ist nur der Handshake: Socket oeffnen und
+`RFB 003.889` lesen. Deckt sich mit der Lehre aus 260824d, wo launchd-Ausgaben zu einem
+falschen Befund gefuehrt hatten.
+
+## 260824g — Der LAN-Kurzweg auf station-03 war nie aktiv: `Match host` prueft den falschen Namen, und die Regel stand an der falschen Stelle
+
+**Anlass.** Routinepruefung der SSH-Verbindungen von station-03 zu Mac Mini und MacBook Pro.
+Beide Verbindungen standen, aber `ssh -G mini` loeste auf die Tailscale-Adresse auf, obwohl
+der `Match exec`-Block am Dateiende auf `192.168.1.210` haette umschalten sollen.
+
+**Zwei unabhaengige Fehler, beide belegt mit `ssh -vv -G`.** Erstens vergleicht das Kriterium
+`host` gegen den **bereits aufgeloesten** HostName, nicht gegen den eingegebenen Alias. Der
+Debug-Output sagt es woertlich: `checking match for '...' host 100.120.219.12 originally mini`
+gefolgt von `match not found`. Dafuer zustaendig waere `originalhost`. Zweitens greift die Regel
+auch mit `originalhost` nicht: dann meldet ssh zwar `match found`, der HostName bleibt aber
+unveraendert, weil in `ssh_config` **pro Parameter der zuerst gefundene Wert gewinnt**. Der
+Block `Host mini macmini mac-mini` weiter oben hat HostName bereits gesetzt, bevor die
+Match-Regel ausgewertet wird. Erst `originalhost` **und** Platzierung **oberhalb** des
+Host-Blocks liessen `mini` auf `192.168.1.210` aufloesen (gegengeprueft in einer Testkopie,
+`macbook` und `nas` blieben dabei unberuehrt).
+
+**Damit ist die Empfehlung aus 260824d falsch.** Dort steht, richtig sei «ein an den Host
+gebundener Block am **Dateiende**». Genau diese Konstruktion ist wirkungslos. Ebenso die
+dortige Erklaerung, der Kurzweg greife «nicht innerhalb der 1-Sekunden-Probe»: die Probe
+laeuft einwandfrei durch, `nc -z -G 1 192.168.1.210 22` antwortet in 0.01 s. Sie wurde nur
+nie ausgewertet. Beide Stellen sind dort als ueberholt markiert.
+
+**Messung, die den Kurzweg endgueltig erledigt** (station-03 im WLAN `192.168.53.0/24`,
+20 Pings, Mac Mini frisch gestartet und ruhig): Tailscale `100.120.219.12` min 3.8 / avg 7.3 /
+max 19.3 ms. `192.168.1.210` min 4.7 / avg 7.9 / max 14.6 ms, laeuft von hier ueber `utun4`,
+also ebenfalls durch Tailscale (Subnet-Route des Mini). Direkt per WLAN auf `192.168.53.226`
+min 7.2 / **avg 68.7** / max 280.1 ms. Der einzige tunnelfreie Weg ist also der mit Abstand
+schlechteste, weil das WLAN-Interface des Mini nicht seine Standardroute ist und im
+Stromsparmodus liegt. Tunnelfrei heisst hier nicht schneller.
+
+**Eingriff (Klasse SSH-Zugang, auf Freigabe Raphael).** Der `Match`-Block wurde aus
+`/Users/revendo/.ssh/config` entfernt und durch einen Kommentar mit dieser Begruendung
+ersetzt, damit er nicht neu erfunden wird. Der veraltete Kopfkommentar «Dual-Pfad: erst LAN
+(1 s Test), sonst Tailscale» wurde nachgezogen. Backup vor dem Eingriff:
+`/Users/revendo/.ssh/config.backup-260824-vermaschung`. Gegenprobe: `ssh -G` fuer alle zehn
+Aliasse vorher und nachher zeichenweise identisch, echte Logins zu `mini`, `macbook` und
+`nas` erfolgreich, `vermaschungs-test.sh` Exit 0, alle sechs Richtungen offen.
+
+**Merksatz.** Nach jeder Aenderung an `ssh_config` nicht nur `ssh -G <alias>` fahren, sondern
+`ssh -vv -G <alias>` und die Zeilen `checking match` / `match found` lesen. Ein Block, der
+nicht feuert, und ein Block, der feuert aber wirkungslos bleibt, sehen im normalen `ssh -G`
+identisch aus.
+
 ## 260824f — Die Vermaschung ist jetzt messbar statt nacherzaehlbar: `scripts/vermaschungs-test.sh`
 
 **Anlass.** Der Eintrag 260824d schliesst mit dem Satz «eine Vermaschung wird als Matrix gemessen,
@@ -2455,6 +2536,10 @@ Anlass: Auftrag Raphael, im Buero, alle drei Geraete nebeneinander.
 nachfolgenden Hosts, deren `exec` durchlaeuft. Konkret zeigten `macbook` und `nas`
 danach beide auf `192.168.1.210`. Richtig ist ein an den Host gebundener Block am
 **Dateiende**: `Match host mini,macmini,mac-mini exec "nc -z -G 1 192.168.1.210 22"`.
+> **UEBERHOLT (siehe 260824g):** Diese Empfehlung ist falsch. `Match host` prueft den bereits
+> aufgeloesten HostName statt des Alias, und ein Block am Dateiende kann den HostName eines
+> weiter oben stehenden `Host`-Blocks ohnehin nicht mehr ueberschreiben (erster Wert gewinnt).
+> Die Regel wurde am 24.08.2026 ersatzlos entfernt.
 Ein `ssh -G <alias>` nach jeder Aenderung deckt den Fehler sofort auf.
 
 **Zweite Korrektur, gleiche Sitzung:** `launchctl print system/com.openssh.sshd` mit
@@ -2480,6 +2565,9 @@ zwischen allen Stationen 4 bis 15 ms, direkte Verbindungen ohne DERP-Relay. Der
 LAN-Kurzweg auf `192.168.1.210` greift von den WLAN-Stationen aus nicht innerhalb der
 1-Sekunden-Probe (er laeuft ueber die Subnet-Route, ~70 ms) — der Tailscale-Pfad ist
 dort der schnellere und wird korrekt gewaehlt.
+> **UEBERHOLT (siehe 260824g):** Die Ursache stimmt nicht. Die 1-Sekunden-Probe laeuft
+> durch, `nc` antwortet in 0.01 s; die Regel wurde wegen `Match host` nie ausgewertet. Der
+> Schluss, dass Tailscale der schnellere Pfad ist, bleibt richtig und ist nachgemessen.
 
 **Neu angelegt:** `zettel/` auf dem NAS. Ein Ort fuer Handgriffe, die Raphael an einer
 anderen Station ausfuehren soll — das NAS ist der einzige Pfad, der auf allen Stationen
