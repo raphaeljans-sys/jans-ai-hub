@@ -1,3 +1,25 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung, Verifikationslauf 02:42 Uhr: keine neuen schliessbaren Punkte
+
+**Auftrag:** Weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG-Kopf und Report
+des letzten Laufs (00:22 Uhr, `outputs/2026-08-24_questions-abarbeitung-n41-1.md`) zuerst
+gelesen. Kollisionscheck (`ps aux`): eigener Prozess PID 49313; parallel PID 49584 an KB
+`projekt-lessons`, kein Konflikt.
+
+**Befund:** `wiki/QUESTIONS.md` ist seit dem 00:19-Lauf unveraendert. Gleicher Skript-Filter wie
+im Vorlauf findet weiterhin dieselben vier `##`-Abschnitte ohne Schliess-Marker; alle vier
+einzeln nachgeprueft: (1) Leitplanke Gebaeudekategorien I-XII — dauerhafte Merkregel, kein
+Ticket; (2) NIN Geschirrspueler-Stromkreis (260731) — echte Sackgasse, zweifach recherchiert,
+Normtext nur kostenpflichtig via `ninonline.electrosuisse.ch`, dritter Web-Anlauf im Vorlauf
+bereits als aussichtslos vermerkt; (3) N60-1 AFC-Synopse-Duplikat — destruktive Aktion
+(Zusammenlegen), nach Rule `wissens-bibliothekar` Pause + Rueckfrage Raphael; (4) N60-2
+Methodik-Pflicht-14-Vorschlag — Freigabepflicht Raphael. Keiner der vier Punkte war in diesem
+Lauf ohne Raten oder ohne destruktiven Eingriff schliessbar. Report:
+`outputs/2026-08-24_questions-abarbeitung-verifikation-02uhr.md`.
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprueft — nur der neue Output-Report
+und dieser CHANGELOG-Eintrag, keine bestehende Datei veraendert. Kein `git`-Schreibbefehl ueber
+den SMB-Mount ausgefuehrt.
+
 ## 2026-08-24 — Wissens-Chef Run 41: Bring-Schuld `N41-1` (VSS SN 640 273a) eingetragen
 
 `wiki/QUESTIONS.md` um **N41-1** ergaenzt. Anlass: der am 23.08.2026 angelegte Artikel

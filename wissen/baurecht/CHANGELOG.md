@@ -3,6 +3,29 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 105: Reglemente-Queue Thalwil geprüft (weiterhin vollständig T1-T9), drei veraltete QUESTIONS.md-Einträge nachgeschlossen
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterführen». Bestätigt: die Queue
+  selbst (T1-T9, Run 87) und die Bundesrechts-Re-Verifikationskette (Runs 90-103, zuletzt
+  Run 104 mit BEZ 2019 Nr. 5) sind beide laut ihren eigenen Abschlussvermerken vollständig
+  abgearbeitet — kein neuer Batch, kein neuer Re-Verifikationskandidat. Wie von Run 104
+  vorgeschlagen (Option 1): `wiki/QUESTIONS.md` systematisch nach offenen Punkten gesichtet.
+- **Drei Einträge waren bereits inhaltlich gelöst, aber nie als geschlossen nachgetragen**
+  (reine Bookkeeping-Lücke, keine fachliche Lücke): (1) Kap. 15.13 Fassungsstand nPBG/nABV —
+  längst durch Buch-Run 31/32 und Buch-Run 84 im Wiki-Artikel [[abstaende-und-hoehen]]
+  beantwortet; (2) LSV Art. 40 Abs. 2 / Anhang 3/4 — noch am selben Tag durch Buch-Run 48
+  beschafft und verifiziert; (3) «Bauen im Betrieb (Healthcare)» — inzwischen über sechs
+  Wiki-Artikel verteilt dokumentiert (nicht vollständig geschlossen: ein bündelnder
+  Brücken-Artikel fehlt weiterhin, QUESTIONS.md-Eintrag entsprechend auf ehrlichen
+  Zwischenstand aktualisiert statt auf «erledigt» gesetzt).
+- **In die KB eingearbeitet:** `wiki/QUESTIONS.md` (drei Einträge nachgeschlossen/aktualisiert,
+  Belege auf die tatsächlich lösenden Läufe verlinkt). Kein neuer `raw/`-Volltext, kein
+  Wiki-Artikel-Edit — die fachliche Substanz stand bereits korrekt am Zielort.
+- **Nächster Schritt:** Anhang 3 LRV Ziff. 4 ff. (Herstellerkonformität kleiner Feuerungen) ist
+  eine echte, kleine Restlücke für einen künftigen Beschaffungslauf; ein Brücken-Artikel
+  «Bauen im Betrieb (Healthcare)» wartet auf einen auslösenden Praxisfall.
+- Report `outputs/2026-08-24_buch-run105.md`.
+
 ## 2026-08-24 — Wissens-Chef Run 41 (Cross-KB `normen` ↔ `baurecht`), 3 additive Eingriffe
 
 - `wiki/fahrzeugabstellplaetze-und-parkierung.md` Z. 212-216: **Bring-Schuld an `normen`

@@ -415,6 +415,15 @@ Neuer `raw/260823_amtlich_zh_brge-iii-0170-2018_bez-2019-nr5.md`, eingearbeitet 
 **Nächster Schritt:** keine offene Frage mehr aus der Thalwil-Queue oder der Bundesrechts-Kette;
 frei für Health-Check, neue KB-Lücken aus `QUESTIONS.md`, oder eine zweite Re-Verifikationsrunde.
 
+**Run 105 (2026-08-24, ausserhalb T1-T9):** Queue-Status geprüft und bestätigt (weiterhin
+vollständig). Als Option 1 aus Run 104 `wiki/QUESTIONS.md` systematisch gesichtet: drei Einträge
+waren bereits inhaltlich gelöst, aber nie als geschlossen nachgetragen (Kap. 15.13 Fassungsstand
+nPBG/nABV, LSV Art. 40/Anhang 3-4, Healthcare-Coverage teilaktualisiert) — reine
+Bookkeeping-Pflege, kein neuer Fachinhalt. Report `outputs/2026-08-24_buch-run105.md`.
+**Nächster Schritt:** Anhang 3 LRV Ziff. 4 ff. (kleine echte Restlücke) oder ein Brücken-Artikel
+«Bauen im Betrieb (Healthcare)» bei Praxisanlass; sonst weiterhin Health-Check oder eine zweite
+Re-Verifikationsrunde.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme
