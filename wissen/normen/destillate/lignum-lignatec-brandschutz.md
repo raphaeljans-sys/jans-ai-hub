@@ -418,13 +418,44 @@ werden.
     ab 2 Geschossen ausgeschlossen. **Sprinkler** dagegen bis und mit 3 Geschossen holzmöglich:
     Tragwerk R30④ (weiss), Brandabschnitt EI30(nbb)④ (grau = beidseitig nicht brennbar
     verkleidet); erst ab 4 Geschossen blau.
+  - ⚠ **Industrie-/Gewerbebauten q ≤ 1000 MJ/m² — Zeile bislang ohne eigene Eckwerte im
+    Destillat, nachgetragen 24.08.2026 (QUESTIONS-Abarbeitung, Fund L41-4, Zellwerte am
+    Original S. 8-9 gelesen, `pdftoppm -r 400`):** Struktur identisch zu Wohnbauten MFH bis
+    und mit 4 Geschossen (1&oberstes Keine Anforderung/EI30 · 2 bis 600 Mindestkantenabmessung/
+    EI30 · 2 über 600 baulich R30/EI30, sprinkler Mindestkantenabmessung/EI30 · 3 dieselbe
+    Aufteilung · 4 baulich R60/EI60②, sprinkler R30/EI30②) — **weicht aber ab 5-6 Geschossen
+    von Wohnbauten MFH ab:** baulich springt direkt auf R60(nbb)/EI60(nbb) **blau** (keine
+    Holzbauweise), während bei Wohnbauten MFH an derselben Stelle noch die graue
+    (beidseitig verkleidete) Holzoption R60/EI30(nbb)③ steht. Nur das Sprinklerkonzept bleibt
+    bei 5-6 Geschossen holzmöglich (weiss, R60③/EI60②③, identisch zu Wohnbauten MFH). Ab 7-8
+    Geschossen beide Konzepte zusammengeführt blau R60(nbb)/EI60(nbb). Praktische Konsequenz:
+    bei gewerblicher/industrieller Nutzung mit q ≤ 1000 MJ/m² ist das bauliche Konzept ab
+    5 Geschossen bereits eine Geschossstufe früher aus dem Holzbau ausgeschlossen als bei
+    Wohnbauten MFH.
   - Industrie-/Gewerbebauten q > 1000 MJ/m² gemeinsam mit «Bauten mit unbekannter Nutzung»:
     baulich bereits ab der Spalte «2 über 600 m²» blau, im Sprinklerkonzept erst ab 4 Geschossen
-    (ergänzt 260730 Runde 8).
+    (ergänzt 260730 Runde 8). ⚠ **Eskalations-Nachtrag 24.08.2026 (Fund L41-4):** Das Baulich-
+    Konzept bleibt bei «2 über 600» und bei 3 Geschossen noch auf R60(nbb)/EI60(nbb), steigt
+    aber **ab 4 Geschossen auf R90(nbb)/EI90(nbb)** und bleibt dort durchgehend bis 7-8
+    Geschosse — dieselbe Eskalationsstufe, die das Destillat für die analoge Zeile in Tabelle 4
+    bereits dokumentiert (dort REI90(nbb)/EI90(nbb) ab 4 Geschossen), für Tabelle 3 aber bisher
+    nicht genannt war. Das Sprinklerkonzept bleibt dagegen durchgehend ab 4 Geschossen bei
+    R60(nbb)/EI60(nbb) (blau), **keine R90-Eskalation** — spiegelbildlich zum bereits
+    dokumentierten Tabelle-4-Befund.
   - Bauten mit Räumen grosser Personenbelegung / Verkaufsgeschäfte [c]: in **beiden** Konzepten
     ab 3 Geschossen durchgehend blau (ergänzt 260730 Runde 8).
   - Parkhäuser/Einstellräume: baulich ab 5-6 Geschossen blau, im Sprinklerkonzept erst ab 7-8
     Geschossen (ergänzt 260730 Runde 8).
+  - ⚠ **Landwirtschaftliche Bauten — Zeile bislang ohne eigene Eckwerte im Destillat,
+    nachgetragen 24.08.2026 (QUESTIONS-Abarbeitung, Fund L41-4, Zellwerte am Original S. 8-9
+    gelesen, `pdftoppm -r 400`):** Struktur und Werte **identisch** zu «Verkaufsgeschäfte
+    ≤ 1200 m²/≤ 100 P» direkt darüber und zu Wohnbauten MFH bis Spalte 4: 1&oberstes Keine
+    Anforderung/EI30 · 2 bis 600 Mindestkantenabmessung/EI30 · 2 über 600 baulich R30/EI30,
+    sprinkler Mindestkantenabmessung/EI30 · 3 dieselbe Aufteilung · 4 baulich R60/EI60②,
+    sprinkler R30/EI30②. Durchgehend **weiss** (keine Holzbauteil-Einschränkung), keine
+    farbig markierten Zellen. Für 5-6 und 7-8 Geschosse existieren keine Zellen
+    (Abdeckungsgrenze, s.o.) — die Zeile endet nach Spalte 4, bestätigt durch Augenschein am
+    Original (keine weiteren Spalten rechts von «4» für diese Zeile).
   - Wohnbauten EFH/REFH: «Keine Anforderung» (Tragwerk) bzw. REI90① (Brandabschnitt), weiss,
     über alle vorhandenen Spalten und nur eine Konzeptzeile (Anmerkung ①: als Brandmauer in
     Holzbauweise auf der Parzellengrenze bei Reiheneinfamilienhäusern).
@@ -1053,3 +1084,26 @@ aktuellere Lignum-Publikation zum Holzbau-Brandschutz abzugleichen.
   war eine gezielte Prüfung zweier offener QUESTIONS-Punkte, keine vollständige Tabellenrunde
   (L41-3 Legende/getönte Deckschicht und L41-4 vollständige Zellrunde Tab. 3/4/5 bleiben offen,
   `training/lignatec-seiteninventur.md` liegt dafür bereit). `status` bleibt `speculative`.
+
+- **24.08.2026 (QUESTIONS-Abarbeitung, Fund L41-4, Teilrunde Tabelle 3):** die Seiten-Inventur
+  identifiziert zwei Nutzungszeilen in Tabelle 3, für die das Destillat trotz acht
+  vorangehenden Verifikationsrunden nie eigene Eckwerte führte: «Industrie-/Gewerbebauten
+  q ≤ 1000 MJ/m²» und «Landwirtschaftliche Bauten». Original neu mit `pdftoppm -r 400`
+  gerendert (OneDrive-Kopie, identisch zur SharePoint-Quelle) und beide Zeilen vollständig
+  zellenweise gelesen (Crops beider Halbseiten S. 8/S. 9 je Zeile). **3 Ergänzungen:**
+  (1) Industrie q ≤ 1000 MJ/m² vollständig erfasst — Struktur wie Wohnbauten MFH, weicht aber
+  bei 5-6 Geschossen ab (baulich direkt blau statt grau, eine Geschossstufe strenger als
+  Wohnbauten). (2) Landwirtschaftliche Bauten vollständig erfasst — identisch zu
+  Verkaufsgeschäfte ≤ 1200 m², durchgehend weiss, endet nach Spalte 4. (3) Industrie q > 1000/
+  unbekannte Nutzung: bisher unvollständige Aussage («baulich blau ab 2 über 600») um die am
+  Original sichtbare **R90(nbb)/EI90(nbb)-Eskalation ab 4 Geschossen** ergänzt — dieselbe
+  Eskalationsstufe war für die analoge Tabelle-4-Zeile bereits dokumentiert, für Tabelle 3
+  aber bisher nicht genannt. Alle drei Funde ausschliesslich per Direktlektüre am
+  400-dpi-Rendering, keine Textextraktion (Methodik-Pflicht 8). **Kein Nulldurchgang** —
+  Tabelle 4 und Tabelle 5 wurden in dieser Runde NICHT neu zellenweise gelesen (Budget-Fokus
+  auf die beiden unbelegten Tabelle-3-Zeilen); `status` bleibt `speculative`. Verbleibend für
+  eine künftige Runde: Tabelle 4 «Industrie q ≤ 1000» und «Landwirtschaftliche Bauten» zeigen
+  im 400-dpi-Rendering strukturell ähnliche, bisher nicht im Destillat geführte Zeilen — beim
+  Versuch, sie in derselben Runde zu lesen, liess sich die Spalten-4-Aufteilung (grau/hellgrau
+  gesplittete Zellen) aus den angefertigten Crops nicht mit ausreichender Sicherheit einer
+  Zeile zuordnen; nicht eingearbeitet, um keine geratene Aussage einzuführen.

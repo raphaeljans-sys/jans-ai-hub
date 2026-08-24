@@ -1,5 +1,42 @@
 # CHANGELOG
 
+## 2026-08-24j — A-WERKZEUG-Alterskorpus-Liste abgeschlossen: sechs Wiki-Themenartikel geprüft, Koordinationslücke zwischen zwei Parallelläufen dokumentiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. **Betriebslage:** `ps aux` zeigte
+zwei weitere `claude -p`-Prozesse mit demselben energie-Prompt sowie einen dritten für `wissen/
+normen` — bewusst ein anderer Faden als der zweite energie-Prozess gewählt. Beim Schreiben zeigte
+sich, dass dieser Sibling zwischenzeitlich einen eigenen Eintrag mit derselben Buchstabenfolge
+(«i») committet hatte (`minergie-besser-planen-bauen`, A-BLIND) — dieser Eintrag daher auf «j»
+verschoben, keine Kollision, kein Datenverlust (per `grep` am committeten Stand verifiziert).
+
+Von den 16 im Vorlauf («h») für den nächsten Lauf benannten Alterskorpus-Kandidaten waren **acht
+bereits in einem früheren, ebenfalls heutigen Eintrag** («A-WERKZEUG-Alterskorpus-Liste gegen
+FAQ-Propagation geprüft: kein neuer Fund») einzeln geprüft — der h-Lauf hatte nur den zuletzt
+committeten CHANGELOG-Stand gelesen, nicht den vollen Tagesbestand von `wiki/QUESTIONS.md`, und so
+unwissentlich Kandidaten erneut gelistet. Alle acht nochmals stichprobenartig gegengeprüft: Befund
+bestätigt, keine Datei verändert.
+
+Die verbleibenden **sechs Kandidaten sind reine Wiki-Themenartikel** ohne gleichnamiges Destillat
+(`geak-gebaeudeenergieausweis`, `innendaemmung`, `notstromversorgung-sicherheitsstromversorgung`,
+`pv-eigenverbrauch-zev`, `solarwaerme-warmwasser`, `elektromobilitaet-ladeinfrastruktur`) — genau
+die Prüfebene, die die 5353-Session als eigenen, kleineren Nachlauf offengelassen hatte. Alle sechs
+einzeln an ihrer ältesten Quellenangabe geprüft: durchweg trägt entweder der Fliesstext selbst ein
+⚠/die Jahreszahl inline, oder die zitierende FAQ-Antwort einen eigenen Datenstand-Vorbehalt.
+**Kein neuer Fund.**
+
+**Damit ist die gesamte A-WERKZEUG-Alterskorpus-Liste (~30 Kandidaten, destillate- und wiki-Ebene)
+jetzt mindestens einmal einzeln geprüft** — über alle heutigen Läufe hinweg genau ein echter Fund
+(Duschwasser-WRG F133, im h-Lauf behoben), sonst durchweg saubere Propagation.
+
+**Prozessbeobachtung für künftige Läufe:** parallele Sessions am selben Tag sollten vor einer
+«Für den nächsten Lauf»-Liste den vollen Tagesbestand von `wiki/QUESTIONS.md` durchsuchen, nicht nur
+den zuletzt committeten CHANGELOG-Eintrag lesen, sonst entsteht Doppelarbeit wie hier. Unverändert
+blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf). Details/Belege je
+Kandidat: `wiki/QUESTIONS.md`, Eintrag «2026-08-24j».
+
+`git diff --numstat` nach dem Schreibvorgang: nur `wiki/QUESTIONS.md` verändert (dieser Eintrag),
+keine weitere Datei — reine Verifikation ohne inhaltlichen Fund, additiv.
+
 ## 2026-08-24i — A-BLIND: `minergie-besser-planen-bauen` Nichtwohnbau-Limiten am Produktreglement 2026.1 gelesen, `ecobkp-2026-methodik-und-uebersicht` + E-R161-2 gegengeprüft (kein neuer Fund)
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,

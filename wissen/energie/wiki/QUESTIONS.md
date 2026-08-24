@@ -6332,7 +6332,7 @@ Textextraktion prüfen. Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR
 additiv/präzisierend, keine Löschung von Bestand. Vor dem Schreiben `git status`/`git fetch` geprüft:
 keine gleichzeitige Fremdänderung an den editierten Dateien während der Bearbeitung.
 
-## 2026-08-24i — A-WERKZEUG-Alterskorpus-Liste: die sechs reinen Themenartikel-Kandidaten geprüft, Koordinationslücke zwischen zwei Parallelläufen dokumentiert
+## 2026-08-24j — A-WERKZEUG-Alterskorpus-Liste: die sechs reinen Themenartikel-Kandidaten geprüft, Koordinationslücke zwischen zwei Parallelläufen dokumentiert
 
 Auftrag: weitere offene Fragen abarbeiten, belegt mit Quelle und Datenstand. **Betriebslage:** `ps
 aux` zeigte beim Start zwei weitere `claude -p`-Prozesse mit demselben energie-Prompt (eine davon
