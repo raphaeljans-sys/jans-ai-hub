@@ -1,11 +1,11 @@
 ---
-quelle: "SIA 386.111:2022 'Energieeffizienz von Gebäuden – Teil 1: Einfluss von Gebäudeautomation und Gebäudemanagement' (SIA-Übernahme von SN EN ISO 52120-1:2021, korrigierte Fassung 2022-09; Nachfolgenorm der Reihe SIA 386.110 → SIA 386.111:2017 → SIA 386.111:2022); MuKEn 2025 Art. D.1.23 'Monitoring/Gebäudeautomation' (Basismodul, Teil D); Minergie-Vergleichstabelle 'Minergie im Kontext der MuKEn 2025' (Stand 01.01.2026); BAFU-gehostete TU-Dresden-Kurzstudie Felsmann 2017 zu EN-15232-Effizienzfaktoren; eu.bac-Kostenstudie 2024 (EU-Verband)"
+quelle: "SIA 386.111:2022 'Energieeffizienz von Gebäuden – Teil 1: Einfluss von Gebäudeautomation und Gebäudemanagement' (SIA-Übernahme von SN EN ISO 52120-1:2021, korrigierte Fassung 2022-09; Nachfolgenorm der Reihe SIA 386.110 → SIA 386.111:2017 → SIA 386.111:2022); MuKEn 2025, 'Projekt MuKEn 2025, Stand 29.08.2025' (EnDK, Volltext-PDF endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf), dort Art. 1.23 'Gebäudeautomation (V)', Teil D 'Anforderungen an gebäudetechnische Anlagen'; Minergie-Vergleichstabelle 'Minergie im Kontext der MuKEn 2025' (Stand 01.01.2026); BAFU-gehostete TU-Dresden-Kurzstudie Felsmann 2017 zu EN-15232-Effizienzfaktoren; eu.bac-Kostenstudie 2024 (EU-Verband)"
 herausgeber: "SIA (Norm kostenpflichtig, Metadaten amtlich via shop.sia.ch); EnDK (MuKEn 2025); Verein Minergie (offizielle PDF-Vergleichstabelle minergie.ch); BAFU/TU Dresden Institut für Energietechnik, Prof. Clemens Felsmann (Kurzstudie, gehostet auf bafu.admin.ch); eu.bac European Building Automation and Controls Association (Kostenstudie 2024, EU-Durchschnitt, zitiert Fallstudie Albesiano et al.)"
-ausgabe: "SIA 386.111 Ausgabe 2022, gültig ab 01.09.2022 (Vorgänger SIA 386.111:2017 archiviert seit 31.08.2022, davor SIA 386.110:2012 archiviert seit 30.11.2017, SIA 386.110:2007 noch älter); Bezugsnorm SN EN ISO 52120-1:2021 (korr. 2022-09); MuKEn 2025 verabschiedet EnDK 29.08.2025; Minergie-Vergleichstabelle Stand 01.01.2026"
-gelesen: "shop.sia.ch Produktseiten SIA 386.110/2007, SIA 386.110/2012, SIA 386.111 (amtliche Normmetadaten, Ausgabejahre, Gültig-ab-/Archiviert-seit-Daten, Preise, Nachfolgeregelung – 2026-07-25); energiehub-gebaeude.ch (MuKEn-2025-Fachportal, Art.-1.23-Zusammenfassung); minergie.ch/media/minergie_im_kontext_der_muken_2025.pdf (offizielle Minergie-PDF-Vergleichstabelle Minergie V2026.1 vs. MuKEn 2025, Stand 01.01.2026, per curl+pdftotext im Volltext gelesen); bafu.admin.ch/dam/it/sd-web/yzkzzz7aRAt3/Bewertung-effizienter-Regelung-in-Gebaeuden.pdf (TU-Dresden-Kurzstudie Felsmann, 15.03.2017, per curl+pdftotext im Volltext gelesen, inkl. Tabelle 1 'Desaggregieren der Effizienzfaktoren gemäss EN 15232'); eubac.org 2024-eu.bac-Studie 'Building Automation and Control Systems Impact on EPC Classes in Europe' (per curl+pdftotext im Volltext gelesen); minergie.ch/media/reglement_modul_monitoring-v2025.1.pdf und modul_raumkomfort_v1.4.0.pdf (per WebFetch geprüft, keine Automations-/BACS-Treffer); mega-planer.ch/aktuelles/normierungen (CH-Fachverband Gebäudeautomationsplaner, Normliste); Minergie-Anwendungshilfe 2025-2 (per WebFetch geprüft, keine Automations-Treffer im extrahierbaren Text)"
-datenstand: "2026-07-25 (Run 106, energie-training); SIA-Normstatus per shop.sia.ch-Abfrage 2026-07-25 amtlich verifiziert; MuKEn-2025-Art.-D.1.23-Inhalt aus zwei unabhängig konvergierenden Quellen (offizielle Minergie-Vergleichstabelle + Fachportal energiehub-gebaeude.ch), NICHT am EnDK-Originaltext selbst verbatim verifiziert (EnDK-Basismodul-PDF technisch nicht auffindbar/zugänglich); EN-15232-Effizienzfaktoren primärquellennah für Wohngebäude belegt (BAFU-Studie), Nichtwohngebäude-Tabelle weiterhin nicht belegt; CH-spezifische Investitionskosten weiterhin nicht belegt (nur EU-Durchschnittszahl aus eu.bac-Studie)"
+ausgabe: "SIA 386.111 Ausgabe 2022, gültig ab 01.09.2022 (Vorgänger SIA 386.111:2017 archiviert seit 31.08.2022, davor SIA 386.110:2012 archiviert seit 30.11.2017, SIA 386.110:2007 noch älter); Bezugsnorm SN EN ISO 52120-1:2021 (korr. 2022-09); MuKEn 2025 verabschiedet EnDK 29.08.2025, Dokument 'Projekt MuKEn 2025, Stand 29.08.2025', 117 Seiten; Minergie-Vergleichstabelle Stand 01.01.2026"
+gelesen: "shop.sia.ch Produktseiten SIA 386.110/2007, SIA 386.110/2012, SIA 386.111 (amtliche Normmetadaten, Ausgabejahre, Gültig-ab-/Archiviert-seit-Daten, Preise, Nachfolgeregelung – 2026-07-25); endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf (amtliches EnDK-Basismodul-Volltext-PDF, 117 Seiten, gefunden über endk.ch/publikationen/, per curl+PyPDF2 vollständig gelesen — Art. 1.23 im Original-Wortlaut, 24.08.2026); energiehub-gebaeude.ch (MuKEn-2025-Fachportal, Art.-1.23-Zusammenfassung, jetzt nur noch Hintergrund, nicht mehr einzige Quelle); minergie.ch/media/minergie_im_kontext_der_muken_2025.pdf (offizielle Minergie-PDF-Vergleichstabelle Minergie V2026.1 vs. MuKEn 2025, Stand 01.01.2026, per curl+pdftotext im Volltext gelesen); bafu.admin.ch/dam/it/sd-web/yzkzzz7aRAt3/Bewertung-effizienter-Regelung-in-Gebaeuden.pdf (TU-Dresden-Kurzstudie Felsmann, 15.03.2017, per curl+pdftotext im Volltext gelesen, inkl. Tabelle 1 'Desaggregieren der Effizienzfaktoren gemäss EN 15232'); eubac.org 2024-eu.bac-Studie 'Building Automation and Control Systems Impact on EPC Classes in Europe' (per curl+pdftotext im Volltext gelesen); minergie.ch/media/reglement_modul_monitoring-v2025.1.pdf und modul_raumkomfort_v1.4.0.pdf (per WebFetch geprüft, keine Automations-/BACS-Treffer); mega-planer.ch/aktuelles/normierungen (CH-Fachverband Gebäudeautomationsplaner, Normliste); Minergie-Anwendungshilfe 2025-2 (per WebFetch geprüft, keine Automations-Treffer im extrahierbaren Text)"
+datenstand: "2026-08-24 (MuKEn-2025-Art.-1.23-Wortlaut jetzt direkt am amtlichen EnDK-PDF verifiziert, Stand des Dokuments 29.08.2025); SIA-Normstatus per shop.sia.ch-Abfrage 2026-07-25 amtlich verifiziert; EN-15232-Effizienzfaktoren primärquellennah für Wohngebäude belegt (BAFU-Studie), Nichtwohngebäude-Tabelle weiterhin nicht belegt; CH-spezifische Investitionskosten weiterhin nicht belegt (nur EU-Durchschnittszahl aus eu.bac-Studie)"
 status: established
-last_updated: "2026-07-28 (Run 118: Geltungsstatus-Nachtrag § 41a BBV I 5'000 m² vs. MuKEn-2025 2'000 m², Cross-Check zu energiemonitoring-submetering-grossverbraucher-zh-sz)"
+last_updated: "2026-08-24 (Art. 1.23 im Original-Wortlaut am amtlichen EnDK-Basismodul-PDF verifiziert, Artikelnummer korrigiert D.1.23→1.23, siebte Monitoring-Funktion c ergänzt, Offener Punkt geschlossen)"
 ---
 
 # Destillat — SIA 386 / BACS-Effizienzklassen: Gebäudeautomation im Energienachweis
@@ -15,7 +15,7 @@ Die BACS-Effizienzklassen A–D (Building Automation and Control Systems) bewert
 Gebäudeautomation den Energiebedarf eines Gebäudes senkt (Klasse C = Referenz, A = beste
 Einsparung, D = ineffizient); in der Schweiz normiert heute **SIA 386.111:2022** (Übernahme von
 **SN EN ISO 52120-1:2021**) dieses Verfahren, während die Pflicht zu Automation in der Praxis
-funktional über **MuKEn 2025 Art. D.1.23** (Monitoring-Pflicht ab 2'000 m² EBF bei
+funktional über **MuKEn 2025 Art. 1.23** (Teil D, Monitoring-Pflicht ab 2'000 m² EBF bei
 Nichtwohn-Neubauten) und nicht über eine vorgeschriebene BACS-Klasse greift; **Minergie verlangt
 explizit keine Gebäudeautomation** (nur ein eigenes, tiefer schwellendes Monitoring-Modul).
 
@@ -95,25 +95,36 @@ ist ebenfalls offen (SIA 386.111:2022 selbst nicht im Volltext zugänglich).
 
 ## Schweizer Praxisbezug: wo BACS/Gebäudeautomation heute konkret verlangt wird
 
-1. **MuKEn 2025, Basismodul Teil D, Art. D.1.23 «Monitoring/Gebäudeautomation»** — aus zwei
-   unabhängigen, konvergierenden Quellen bestätigt (energiehub-gebaeude.ch-Fachportal UND die
-   offizielle Minergie-Vergleichstabelle «Minergie im Kontext der MuKEn 2025», Stand 01.01.2026,
-   minergie.ch, im Volltext gelesen): Neubauten der SIA-380/1-Gebäudekategorien **III–XII**
-   (Nichtwohnbauten) ab **2'000 m² Energiebezugsfläche (EBF)** sind mit Gebäudeautomation
-   auszurüsten, die mindestens **Monitoring-Funktionen** erbringt:
+1. **MuKEn 2025, Basismodul Teil D «Anforderungen an gebäudetechnische Anlagen», Art. 1.23
+   «Gebäudeautomation (V)» — jetzt am amtlichen EnDK-Original-PDF im Wortlaut verifiziert**
+   (`MuKEn2025_d-2025-08-29.pdf`, endk.ch, Stand 29.08.2025, S. 31/117, gefunden über
+   endk.ch/publikationen/, 24.08.2026): *«Neubauten der Kategorien III bis XII (Norm SIA 380/1)
+   mit mindestens 2000 m² EBF sind mit Einrichtungen zur Gebäudeautomation auszurüsten, die
+   folgende Überwachungsfunktionen aufweisen:»*
    a) Erfassung der Energieverbrauchsdaten getrennt nach Hauptenergieträger,
-   b) Effizienzkennzahlen für Wärmepumpen/Kältemaschinen,
-   c) Erfassung der Betriebszeiten der Hauptkomponenten,
-   d) Monitoring von Vor-/Rücklauf- und Raumlufttemperaturen,
-   e) benutzerfreundliche Darstellung der Daten (Jahr/Monat/Tag),
-   f) Vergleichsmöglichkeiten mit Vorperioden.
-   Bei Erneuerungen macht MuKEn 2025 **keine Vorgaben** zu Art. D.1.23 (Quelle: Minergie-
-   Vergleichstabelle, Zeile «MuKEn 2025 Erneuerung: Keine Vorgaben»). **Weiterhin bestätigt:
-   keine explizite BACS-Effizienzklasse (A/B/C/D) wird in Art. D.1.23 genannt** — die Pflicht
-   ist funktional (bestimmte Monitoring-Funktionen «Stand der Technik»), nicht klassenbasiert.
-   **Einschränkung:** Der EnDK-Originaltext des Basismoduls selbst war technisch nicht
-   auffindbar/zugänglich; die Fundstelle beruht auf zwei unabhängigen Sekundärquellen, die im
-   Wortlaut übereinstimmen, nicht auf einer verbatim-Lektüre des amtlichen PDF.
+   b) Ermittlung der Energieeffizienz-Kennzahlen der Wärmepumpen und Kältemaschinen,
+   c) **Ermittlung der Energieeffizienz-Kennzahlen von Wärmerückgewinnungs- und
+   Abwärmenutzungsanlagen** — bislang in diesem Destillat fälschlich fehlende siebte Funktion,
+   jetzt ergänzt,
+   d) Erfassung der Betriebszeiten der Hauptkomponenten für Aufbereitung und Verteilung von
+   Wärme, Kälte und Luft,
+   e) Erfassung der wichtigsten Vor- und Rücklauftemperaturen sowie einiger repräsentativer
+   Raumlufttemperaturen **und der Aussentemperatur** (Aussentemperatur bislang in der
+   Zusammenfassung übergangen),
+   f) benutzerfreundliche Darstellung der Daten a–e an zentraler Stelle für mindestens Jahr,
+   Monat (oder Woche), Tag, je Tag mindestens eine Periode während und eine ausserhalb
+   Nutzungszeit,
+   g) benutzerfreundliche Vergleichsmöglichkeiten mit aussagekräftigen Vorperioden.
+   **Korrektur gegenüber dem bisherigen Stand dieses Destillats:** Die amtliche Artikelnummer
+   lautet **«Art. 1.23»** (fortlaufende Basismodul-Nummerierung), nicht «Art. D.1.23» — «D»
+   bezeichnet nur den Teil-Buchstaben («Teil D»), ist aber nicht Bestandteil der Artikelnummer
+   selbst. Ausserdem hatte die bisherige, aus zwei Sekundärquellen (energiehub-gebaeude.ch,
+   Minergie-Vergleichstabelle) rekonstruierte Liste nur sechs statt sieben Funktionen genannt —
+   Funktion c) fehlte vollständig, Funktion e) nannte die Aussentemperatur nicht. Bei
+   Erneuerungen macht MuKEn 2025 laut Minergie-Vergleichstabelle weiterhin **keine Vorgaben** zu
+   Art. 1.23. **Weiterhin bestätigt, jetzt am Originaltext:** keine explizite BACS-
+   Effizienzklasse (A/B/C/D) wird in Art. 1.23 genannt — die Pflicht ist funktional (die
+   Überwachungsfunktionen a–g als «Stand der Technik»), nicht klassenbasiert.
 
 2. **Minergie: explizit KEINE Gebäudeautomations-Pflicht, kein Automations-«Bonus».** Die
    offizielle Minergie-Vergleichstabelle (minergie.ch/media/minergie_im_kontext_der_muken_2025.pdf,
@@ -179,8 +190,8 @@ aus einem realen JANS-Projekt herangezogen werden — **bewusst nicht als CH-Ken
 ## Bauherren-Transfer
 1. **«Muss ich für mein Projekt eine bestimmte BACS-Klasse nachweisen?»** — In der Schweiz gibt es
    heute **keine belegte Pflicht zu einer bestimmten BACS-Klasse A/B/C/D**. Verlangt wird
-   stattdessen ab **2'000 m² EBF bei Nichtwohn-Neubauten** (MuKEn 2025 Art. D.1.23) eine
-   Gebäudeautomation mit bestimmten Monitoring-Funktionen (a–f, siehe oben). Bei Minergie-Zertifi-
+   stattdessen ab **2'000 m² EBF bei Nichtwohn-Neubauten** (MuKEn 2025 Art. 1.23) eine
+   Gebäudeautomation mit bestimmten Monitoring-Funktionen (a–g, siehe oben). Bei Minergie-Zertifi-
    zierung greift zusätzlich das eigene, tiefer schwellende Minergie-Monitoring-Modul (ab
    1'000 m², bei Minergie-A immer) — auch dort **keine** BACS-Klassenpflicht.
    **Geltungsstatus präzisiert (Run 118, Cross-Check zu `[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`):**
@@ -210,11 +221,14 @@ aus einem realen JANS-Projekt herangezogen werden — **bewusst nicht als CH-Ken
    mit Monitoring ist damit faktisch Voraussetzung, unabhängig von einer formalen BACS-Klasse.
 
 ## Offene Punkte (weiterhin ungeklärt trotz neuem Recherchezugang)
-- **Literal-Wortlaut MuKEn 2025 Art. D.1.23** nicht am EnDK-Originaldokument selbst gelesen
-  (Basismodul-PDF auf endk.ch technisch nicht auffindbar) — Inhalt stützt sich auf zwei
-  unabhängige, im Wortlaut übereinstimmende Sekundärquellen (Minergie-offizielle Vergleichstabelle
-  + Fachportal); für eine zitierfähige Rechtsquelle sollte das amtliche PDF nachträglich
-  beschafft werden (z.B. über die EnDK direkt oder eine kantonale Baudirektion).
+- **GESCHLOSSEN 24.08.2026:** Literal-Wortlaut MuKEn 2025 Art. 1.23 jetzt direkt am amtlichen
+  EnDK-Basismodul-PDF gelesen (`MuKEn2025_d-2025-08-29.pdf`, gefunden über endk.ch/publikationen/,
+  vollständig mit PyPDF2 extrahiert). Artikelnummer korrigiert (**1.23**, nicht «D.1.23»), siebte
+  Monitoring-Funktion c) Wärmerückgewinnungs-/Abwärmenutzungs-Effizienzkennzahlen ergänzt (fehlte
+  in der bisherigen Sekundärquellen-Zusammenfassung vollständig), Funktion e) um Aussentemperatur
+  präzisiert. Die beiden bisherigen Sekundärquellen (energiehub-gebaeude.ch, Minergie-
+  Vergleichstabelle) waren in den übernommenen sechs Punkten inhaltlich korrekt, aber
+  unvollständig — kein Widerspruch, sondern eine Auslassung.
 - **Aktuelle SIA-386.111:2022-Effizienzfaktoren (Klassen A–D, differenziert nach Gebäudekategorie)**
   liegen weiterhin hinter der Kostenpflicht der Norm (CHF 144.–) — nicht belegt. Die hier zitierten
   Zahlen (0,88/0,81 Heizung, 0,90/0,80 Warmwasser) stammen aus der **Vorgängernorm EN 15232**

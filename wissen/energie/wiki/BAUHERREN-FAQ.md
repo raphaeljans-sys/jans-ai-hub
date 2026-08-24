@@ -5631,8 +5631,8 @@ nach MuKEn 2025, unabhängig von einer Automations-Klasse.
 Klasse C als Referenz, sind in **SIA 386.111:2022** genormt (Übernahme von SN EN ISO 52120-1:2021;
 Vorsicht: die früher kursierende Bezeichnung «SIA 386.110» ist die 2017 bzw. 2022 abgelöste
 Vorgängerausgabe). Die Schweizer Rechtspraxis verlangt jedoch keine bestimmte Klasse, sondern regelt
-Gebäudeautomation funktional: MuKEn 2025 Art. D.1.23 verpflichtet Nichtwohn-Neubauten ab 2'000 m² EBF
-zu sechs konkreten Monitoring-Funktionen (Formular EN-141 im Kt. ZH), und ab 200'000 kWh/Jahr
+Gebäudeautomation funktional: MuKEn 2025 Art. 1.23 verpflichtet Nichtwohn-Neubauten ab 2'000 m² EBF
+zu sieben konkreten Monitoring-Funktionen (Formular EN-141 im Kt. ZH), und ab 200'000 kWh/Jahr
 Energieverbrauch greift zusätzlich eine Betriebsoptimierungspflicht. **Minergie verlangt explizit
 keine Gebäudeautomation** — das Label kennt nur ein eigenes, tiefer schwellendes Monitoring-Modul
 (ab 1'000 m², bei Minergie-A immer Pflicht), keinen BACS-Klassen-Bonus. Zur Grössenordnung des
@@ -5646,11 +5646,11 @@ rund EUR 2'850 (≈4 Jahre) — ausdrücklich als EU-Durchschnittsfallstudie, ni
 verstehen.
 
 **Quelle + Datenstand:** SIA-Shop-Produktmetadaten shop.sia.ch (Normstatus/Ausgabejahre amtlich
-verifiziert); MuKEn 2025 Art. D.1.23 über zwei konvergierende Quellen (offizielle Minergie-PDF
-«Minergie im Kontext der MuKEn 2025», Stand 01.01.2026 + Fachportal energiehub-gebaeude.ch) —
-NICHT am EnDK-Originaltext selbst verbatim gegengelesen; EN-15232-Effizienzfaktoren aus
+verifiziert); MuKEn 2025 Art. 1.23 direkt am amtlichen EnDK-Basismodul-PDF verifiziert
+(`MuKEn2025_d-2025-08-29.pdf`, endk.ch, Stand 29.08.2025, Nachtrag 24.08.2026 — Artikelnummer
+korrigiert, siebte Monitoring-Funktion ergänzt); EN-15232-Effizienzfaktoren aus
 BAFU/TU-Dresden-Kurzstudie (Felsmann, 15.03.2017); Kostenzahl aus eu.bac-Studie 2024 (EU-Verband).
-Datenstand 25.07.2026 (Run 106).
+Datenstand 24.08.2026.
 → `[[sia-386-bacs-gebaeudeautomation]]`. Status **established** (Kernaussagen — Normidentität,
 MuKEn-Monitoringpflicht, kein Minergie-Bonus — über amtliche/primärnahe Quellen konvergent belegt;
 Nichtwohngebäude-Effizienzfaktoren und CH-Investitionskosten bleiben offen).

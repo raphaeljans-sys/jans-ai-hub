@@ -798,6 +798,23 @@ drei Datenbank-bedingt unverifizierbaren Alt-Fallzitaten (VB 94/0016, VB.2003.00
 Nr. 77), dem Baulinien-Wachposten und dem fachlich zurückgestellten [[geschosse-und-kniestock]];
 sonst regulärer `wissenscheck`-Turnus.
 
+**Run 133 (2026-08-24, ausserhalb T1-T9):** `training/curriculum.md` gegen den tatsächlichen
+Bestand von `buecher/band-2/` geprüft (Auftrag: Buch-Destillate zuerst, beide Bände prüfen).
+**Stale-Note gefunden und korrigiert:** die Kap.-16-Zeile führte weiterhin «16.9-Schluss
+S.1230 f. offen» und Status **[~] weitgehend**, obwohl
+`buecher/band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` (S.1230-1239) diese Spanne
+bereits seit 13.06.2026 abdeckt — derselbe Zeiger-Rückstand wie zuvor bei Kap. 17 (Run 117).
+Kap. 16 auf **[x] VOLLSTAENDIG** gehoben; S.1240 (1 Seite vor Kap. 17) bleibt mangels Zugriff
+auf die Original-Screenshots an dieser Station explizit ungeprüft, nicht als erledigt
+behauptet. **Damit sichtbar gewordene echte Buch-Destillat-Lücken:** Kap. 22
+(Privatrechtliche Bauvorschriften) und Kap. 23 (Glossar Architektur) bleiben `emerging`/P3 —
+Kandidaten für einen künftigen Lauf mit Screenshot-Zugriff. Report
+`outputs/2026-08-24_buch-run133.md`. **Nächster Schritt:** Reglemente-Queue weiterhin
+vollständig abgeschlossen (T1-T9), unverändert durch diesen Lauf; für die KB als Ganzes bleibt
+Kap. 22/23 der naheliegendste nächste Buch-Kandidat, sonst unverändert die drei
+Datenbank-bedingt unverifizierbaren Alt-Fallzitate, der Baulinien-Wachposten und
+[[geschosse-und-kniestock]].
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

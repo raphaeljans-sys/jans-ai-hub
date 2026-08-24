@@ -3,6 +3,46 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 133: Stale-Note Kap. 16 korrigiert — `kap16-10_gebaeudedimensionen-harmonisierung.md` deckt die seit 13.06.2026 fällige Restspanne bereits ab, Kap. 16 auf VOLLSTAENDIG gehoben
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (zuletzt bestätigt Run 132).
+  Kein paralleler Baurecht-Konkurrenzlauf zum Zeitpunkt dieses Laufs aktiv (`ps aux` geprüft; der
+  einzige Treffer mit passendem Prompt ist dieser eigene Lauf, PID 45591). Statt einer weiteren
+  Modell-D-Stichprobe (letzter offener Kandidat [[geschosse-und-kniestock]] bleibt Run-130-Begründung
+  nach zurückgestellt: drei `speculative`-Auslegungsfragen ohne Praxis, kein reiner
+  Beleg-Nachvollzug) wurde `training/curriculum.md` gegen den tatsächlichen Bestand von
+  `buecher/band-2/` geprüft, wie von der Aufgabenstellung verlangt («Buch-Destillate zuerst, beide
+  Bände prüfen»).
+- **Befund:** Die Kap.-16-Zeile in `curriculum.md` führte weiterhin «16.9-Schluss S.1230 f. offen»
+  und den Status **[~] 🟢 weitgehend**. Tatsächlich existiert
+  `buecher/band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` (Shots 619-623, S.1230-1239,
+  `status: established`) bereits seit dem 13.06.2026 — laut CHANGELOG-Eintrag vom selben Tag exakt
+  für diese Seitenspanne angelegt (Attikageschoss-Rückversetzung h/2, massgebendes Terrain,
+  Gesamt-/Fassadenhöhe-Messweise, § 275 Abs. 4/§ 292 nPBG). Der Curriculum-Zeiger wurde nach der
+  Erstellung dieser Datei nie nachgezogen; Buch-Run 34 (13.07.2026) hob darauf aufbauend
+  [[geschosse-und-kniestock]] bereits auf `established`, ohne die Kap.-16-Statuszeile selbst zu
+  korrigieren. Damit ist dasselbe Zeiger-Muster wie in Run 117 (Kap. 17) und der Health-Check-
+  Nachtrag (INDEX-Drifts Kap. `geschosse-und-kniestock`/`umgebungsgestaltung-und-einfriedungen`) —
+  reine Registerpflege, kein neuer Fachinhalt.
+- **Nicht behauptet:** S.1240 (die einzige Seite zwischen Kap.-16.10-Ende und Kap.-17-Beginn
+  S.1241) wurde an dieser Station nicht gegen die Original-Screenshots geprüft — der
+  OneDrive-Quellordner der Buchscans (`SM Planungs und Baurecht`) war unter den durchsuchten
+  Pfaden nicht auffindbar. Kap. 16 daher als inhaltlich vollständig geführt, mit explizit
+  offenem Ein-Seiten-Rest statt einer erfundenen Vollständigkeitsbehauptung (Rule
+  `identifikatoren-verifizieren`/`nichts raten`).
+- GEÄNDERT `training/curriculum.md` (Kap.-16-Zeile: Status [~] → **[x] VOLLSTAENDIG**,
+  Stale-Note-Vermerk ergänzt).
+- `git diff --numstat` nach dem Schreibvorgang geprüft: `curriculum.md` 1/1 — reine
+  Ein-Zeilen-Ersetzung, keine unerwartete Löschung.
+- REPORT `outputs/2026-08-24_buch-run133.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch diesen
+  Lauf. Buch-Abdeckung Band 2 nach diesem Fund: Kap. 11-17/19-21 vollständig/established, Kap. 18
+  bewusst nur Querverweis (Skill `brandschutz`), **Kap. 22 (Privatrechtliche Bauvorschriften) und
+  Kap. 23 (Glossar Architektur) bleiben `emerging`/P3** — echte, noch offene Buch-Destillat-Lücken
+  für einen künftigen Lauf, sofern Zugriff auf die Original-Screenshots besteht. Sonst unverändert:
+  die drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate (VB 94/0016, VB.2003.00051, RB 1992
+  Nr. 77), der Baulinien-Wachposten (PBG-Teilrevision «Baulinien», weiterhin nicht in Kraft) und
+  [[geschosse-und-kniestock]] als fachlich zurückgestellter Modell-D-Kandidat.
+
 ## 2026-08-24 — Buch-Run 132: offene Frage aus Run 131 geschlossen — Art. 7 Ziff. 1 EMRK über österreichische RIS-Kundmachung CONFIRMED, Schweizer Fedlex bleibt an dieser Station komplett unerreichbar
 - ANLASS: Buch-Run 131 hinterliess als einzigen neuen offenen Punkt die Nichtverifizierbarkeit von
   Art. 7 Ziff. 1 EMRK an dieser Station (Fedlex liefert nur die App-Hülle). Kein paralleler
