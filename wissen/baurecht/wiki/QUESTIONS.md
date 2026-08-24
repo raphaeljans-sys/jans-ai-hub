@@ -156,14 +156,21 @@ füllt die Lücke unmittelbar kraft Gesetzessystematik, nicht erst durch richter
 Eingearbeitet in [[baulinien-und-abstandslinien]].
 
 **T-NEU · PBG-Teilrevision «Baulinien» — offen, zu überwachen, analog
-[[negative-vorwirkung-und-bzo-revision]].** Die Vorlage (Regierungsratsbeschluss Nr. 1319/2024)
-ist seit Januar 2025 im Kantonsrat (Medienmitteilung zh.ch 16.01.2025). Stand 24.08.2026:
-weiterhin in Kommissionsberatung, **nicht in Kraft**. Tritt sie in Kraft, wird die oben
-beschriebene Regel enger: 1. Vollgeschoss und Untergeschosse grundsätzlich freizuhalten,
+[[negative-vorwirkung-und-bzo-revision]].** Die Vorlage (Regierungsratsbeschluss Nr. 1319/2024,
+KR-Geschäft 6000) ist seit Januar 2025 im Kantonsrat (Medienmitteilung zh.ch 16.01.2025),
+**nicht in Kraft**. **Nachtrag 24.08.2026 (Buch-Run 135):** die frühere Notiz «weiterhin in
+Kommissionsberatung» war stale — die Kommissionsberatung ist bereits abgeschlossen (KPB-Antrag
+02.12.2025, 10:5 für Verabschiedung), die 1. Lesung ist seit 15.06.2026 abgeschlossen (115:59
+Stimmen), die Redaktionskommission wurde am 02.07.2026 befasst. Beleg nur sekundär
+(`raw/260824_sekundaer_zh_kantonsrat-geschaeft-6000-baulinien.md`, Aggregator inzh.ch — die
+offizielle Geschäftsseite `kantonsrat.zh.ch` ist clientseitig gerendert und per WebFetch nicht
+auslesbar), bei Gelegenheit gegen die Primärquelle nachzuprüfen. Tritt sie in Kraft, wird die
+oben beschriebene Regel enger: 1. Vollgeschoss und Untergeschosse grundsätzlich freizuhalten,
 geschlossene Vorsprünge (Erker/Loggien) mit Pflicht zum «untergeordneten Charakter», offene
 Vorsprünge (Balkone) ab 2. Vollgeschoss weiterhin uneingeschränkt in den Massen der Grundnorm.
-Prüfweg: `kantonsrat.zh.ch` (Geschäftssuche «Baulinien») bzw. `zhlex.zh.ch` LS 700.1 auf neuen
-Nachtrag. Kein Ratedatum setzen.
+Prüfweg: `kantonsrat.zh.ch` (Geschäftssuche «Baulinien», KR-Geschäft 6000) bzw. `zhlex.zh.ch`
+LS 700.1 auf neuen Nachtrag — insbesondere auf Schlussabstimmung/Referendumsfrist/
+Inkraftsetzung, die im Bestand vom 24.08.2026 noch nicht sichtbar waren. Kein Ratedatum setzen.
 
 ## ✅ TEILWEISE GEKLÄRT 2026-08-24 (Buch-Run 121) — Fallzitate der Run-120-«Fallpraxis-Vertiefung» und VB.2012.00531-Frage bearbeitet
 

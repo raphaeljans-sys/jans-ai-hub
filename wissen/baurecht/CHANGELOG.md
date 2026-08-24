@@ -3,6 +3,51 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 135: Fassungsstand-Wachposten PBG-Teilrevision «Baulinien» (KR-Geschäft 6000) nachgeführt — Kommissionsberatung bereits abgeschlossen, Notiz «weiterhin in Kommissionsberatung» war stale
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen. Zwei parallele
+  Baurecht-Läufe mit identischem Prompt liefen zum Zeitpunkt dieses Laufs (`ps aux`: eigener
+  Lauf `mschub770`, unabhängiger zweiter Lauf `mschub766`, dessen Run-134-Arbeit an
+  `training/curriculum.md`/Band 1 zu diesem Zeitpunkt bereits geschrieben, aber die
+  Queue-Datei-Ergänzung noch unkommittiert im Arbeitsverzeichnis lag) — bewusst ein anderes
+  Thema gewählt, um keine Dateikollision zu riskieren (Vorbild Run 130/134): der
+  «Baulinien-Wachposten» aus den «Verbleibend offen»-Listen der letzten Läufe.
+- GEPRÜFT: die offizielle Geschäftsseite `kantonsrat.zh.ch/geschaefte/geschaeft/` ist
+  clientseitig gerendert (JS-SPA) und liefert per WebFetch nur die Navigationshülle, keine
+  Geschäftsdaten — dieselbe Fehlerfamilie wie Fedlex. Über den Aggregator `inzh.ch` (laut
+  eigener Angabe gespeist aus opendata.swiss + kantonsrat.zh.ch) den Verfahrensstand von
+  KR-Geschäft 6000 («Planungs- und Baugesetz (PBG), Änderung, Baulinien») abgerufen — dritter,
+  nicht-interpretierender WebFetch-Durchlauf ergab eine in sich konsistente Zeilenstruktur.
+- **Befund: die KB-Notiz «Stand 24.08.2026 weiterhin in Kommissionsberatung» war zu diesem
+  Zeitpunkt bereits veraltet.** Tatsächlicher Stand: KPB-Antrag 02.12.2025 (10:5 Stimmen für
+  Verabschiedung — Kommissionsberatung damit abgeschlossen), 1. Lesung abgeschlossen 15.06.2026
+  (115:59 Stimmen für Eintreten), Redaktionskommission befasst 02.07.2026. Keine
+  Schlussabstimmung/Referendumsfrist/Inkraftsetzung im geprüften Bestand sichtbar — die Vorlage
+  ist damit weiterhin **nicht in Kraft**, aber drei Verfahrensstufen weiter als zuletzt
+  dokumentiert.
+- **Nur sekundär belegt, nicht amtlich verifiziert:** `inzh.ch` ist ein privater Aggregator ohne
+  auffindbares Impressum; die Daten sind plausibel und intern konsistent, aber nicht gegen die
+  offizielle Quelle selbst geprüft (technisch nicht möglich per WebFetch). Explizit als
+  Sekundärquelle gekennzeichnet, nicht als `amtlich` (Rule `identifikatoren-verifizieren`).
+- NEU `raw/260824_sekundaer_zh_kantonsrat-geschaeft-6000-baulinien.md` (Zeilenstruktur +
+  Provenienz-Frontmatter, Kennzeichnung als Sekundärquelle).
+- GEÄNDERT `raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md` (`status_vorlage`-Feld
+  nachgetragen), `wiki/baulinien-und-abstandslinien.md` (Abschnitt 1a Fassungsstand-Wachposten
+  + Frontmatter `verifiziert`/`sources` nachgeführt), `wiki/QUESTIONS.md` (T-NEU-Eintrag
+  nachgeführt), `training/KORPUS-QUEUE-thalwil-reglemente.md` (Run-135-Eintrag nach
+  etabliertem Muster).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv bzw. erwartete
+  Textergänzung, keine unerwartete Löschung (`ve-pbg-baulinien-bericht.md` 7/2,
+  `QUESTIONS.md` 13/6, `baulinien-und-abstandslinien.md` 18/8 — die Löschungen sind jeweils
+  die ersetzten Wachposten-/Frontmatter-Sätze selbst; neue Raw-Datei ungetrackt/neu).
+- REPORT `outputs/2026-08-24_buch-run135.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch
+  diesen Lauf. Verbleibend offen: die zwei echten Buch-Destillat-Lücken Kap. 22/23 (Band 2,
+  Zugriff auf Original-Screenshots fehlt an dieser Station), die drei Datenbank-bedingt
+  unverifizierbaren Alt-Fallzitate (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77), und
+  [[geschosse-und-kniestock]] als fachlich zurückgestellter Modell-D-Kandidat. Der
+  Baulinien-Wachposten selbst bleibt aktiv zu überwachen (nicht in Kraft), jetzt aber mit
+  aktuellem Verfahrensstand statt einer stale Notiz.
+
 ## 2026-08-24 — Buch-Run 134: Stale-Note Kap. 2 korrigiert — Teil-2-Destillat deckte S.152-169 (BZO-Grundlagen 2.3.7 + vollständige Arealüberbauung) bereits ab, Kap. 2 auf VOLLSTAENDIG gehoben
 - ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (zuletzt bestätigt Run 133).
   Zwei parallele Baurecht-Konkurrenzläufe zum Zeitpunkt dieses Laufs aktiv (`ps aux` geprüft: eigener

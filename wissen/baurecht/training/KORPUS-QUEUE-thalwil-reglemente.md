@@ -836,6 +836,27 @@ KB als Ganzes bleibt Kap. 22/23 (Band 2) der naheliegendste nächste Buch-Kandid
 unverändert die drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate, der Baulinien-Wachposten
 und [[geschosse-und-kniestock]].
 
+**Run 135 (2026-08-24, ausserhalb T1-T9):** den «Baulinien-Wachposten» selbst bearbeitet statt
+einer weiteren Buch-Stichprobe. Zwei parallele Baurecht-Läufe liefen zum Zeitpunkt dieses Laufs
+(`ps aux`: eigener Lauf `mschub770`, unabhängiger Lauf `mschub766`, dessen Run-134-Ergänzung an
+dieser Datei zu diesem Zeitpunkt bereits geschrieben, aber noch unkommittiert im
+Arbeitsverzeichnis lag) — bewusst ein anderes Thema gewählt, um keine Kollision an derselben
+Stelle zu riskieren. Die offizielle Geschäftsseite `kantonsrat.zh.ch` ist clientseitig gerendert
+(JS-SPA, dieselbe Fehlerfamilie wie Fedlex) und per WebFetch nicht auslesbar; über den
+Aggregator `inzh.ch` (opendata.swiss + kantonsrat.zh.ch als Quelle) den Verfahrensstand von
+KR-Geschäft 6000 («PBG, Änderung, Baulinien») abgerufen. **Befund: die Notiz «Stand 24.08.2026
+weiterhin in Kommissionsberatung» war bereits stale** — tatsächlich ist die Kommissionsberatung
+abgeschlossen (KPB-Antrag 02.12.2025, 10:5), die 1. Lesung seit 15.06.2026 abgeschlossen
+(115:59), die Redaktionskommission seit 02.07.2026 befasst. Weiterhin nicht in Kraft (keine
+Schlussabstimmung/Referendumsfrist/Inkraftsetzung sichtbar). **Nur sekundär belegt**
+(`raw/260824_sekundaer_zh_kantonsrat-geschaeft-6000-baulinien.md`, kein amtlicher
+Direktzugriff möglich) — bei Gelegenheit gegen die Primärquelle nachzuprüfen. Eingearbeitet in
+[[baulinien-und-abstandslinien]] (Abschnitt 1a) und `wiki/QUESTIONS.md` (T-NEU). Report
+`outputs/2026-08-24_buch-run135.md`. **Nächster Schritt:** Kap. 22/23 (Band 2) mit
+Screenshot-Zugriff distillieren, sonst unverändert die drei Datenbank-bedingt unverifizierbaren
+Alt-Fallzitate, [[geschosse-und-kniestock]] und eine Primärquellen-Nachprüfung des
+Baulinien-Wachpostens.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme
