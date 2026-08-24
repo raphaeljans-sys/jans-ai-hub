@@ -1,3 +1,63 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung (neunter Lauf): Verify-Abschluss-Teilpunkt (5) BRL 100-15 geschlossen, breiter Sättigungsbefund für den Rest der offenen Checkboxen
+
+**Auftrag:** Fortsetzung derselben Daueraufgabe (offene Fragen in `wiki/QUESTIONS.md`
+abarbeiten, Fundstelle je Aussage mit Norm/Ausgabe/Ziffer, nur `established` zitierfähig).
+CHANGELOG und Report des letzten Laufs derselben Lineage (S42-3/N43-5, M365-Connector)
+zuerst gelesen.
+
+**NAS-Hinweis:** `/Volumes/daten` beim Sessionstart erneut nicht gemountet; `wissen/normen`
+liegt als versionierter Repo-Inhalt vor, keine Blockade für diese Datei.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 67644 (identischer
+Auftragstext) ist Host dieser Session. PID 65994 arbeitet an `wissen/baurecht` (andere KB).
+PID 67853 arbeitet am SIA-Sweep derselben KB (Register/Destillate/Inventar), nicht an
+`wiki/QUESTIONS.md` — etablierter Split, `git status --short wissen/normen/` vor Bearbeitung
+geprüft (keine Overlap-Datei). Der SIA-Sweep-Prozess hat während dieses Laufs eigenständig
+committet (`de5fa0736`), bevor dieser Lauf zu schreiben begann — kein gleichzeitiges
+Schreiben in dieselbe Datei.
+
+**Vorgehen:** Die S42/N43-Lineage selbst war laut letztem Report bereits vollständig
+abgearbeitet (alle Restpunkte dort als Bring-Schuld/Entscheid-Raphael/externe Anfrage
+klassifiziert). Deshalb wurde die gesamte Datei nach verbleibenden `- [ ]`-Checkboxen
+durchsucht (37 Treffer) und stichprobenartig gegen den aktuellen Stand von `wiki/REGISTER.md`,
+`destillate/INDEX.md` und `training/norm-inventar.md` gehalten.
+
+**Bearbeiteter Punkt (Zeile ~4490, «Verify-Abschluss MacBook 13.07.2026»):** Teilpunkt (5)
+«BRL 100-15 Brandmauern: Gegenprüfung des REGISTERs auf eine allfällig spätere Ausgabe» war
+seit dem 13.07.2026 unbeantwortet offen geführt, obwohl die Antwort durch eine unabhängige
+Arbeit (SIA-Sweep Run 60, 23.08.2026) bereits vorlag: `wiki/REGISTER.md` führt BSE 100-15
+mit geltender Fassung **01.01.2017**, Delta-Destillat `destillate/vkf-brl-100-15-fassung-
+2017-delta.md` (Frontmatter geprüft: Quelle VKG-Publikationsportal Dokument
+BSPUB-1394520214-141, Fassung 01.01.2017, gegen Hausbestand
+`PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf`
+Fassung 01.01.2015). Acht amtlich gelistete Fundstellen geprüft, keine materiell. Der
+Delta-Destillat-Status bleibt bewusst `speculative` (nur die acht Fundstellen geprüft, nicht
+der volle Restbestand) — nicht angehoben. Reine Bookkeeping-Schliessung, keine neue
+Quellenlektüre nötig, additiv nachgetragen.
+
+**Sättigungsbefund (Rest der 37 `- [ ]`-Treffer):** stichprobenartig geprüft (N-R40-7 Grauton
+Lignatec, N-R40-3 EN-81-Reihe, N-R21-2 VA105-01, N43-1 bis N43-6, SIA 181:2020, SN 640 052/
+641 400, SIA 118:2013, BRING-SCHULD-Einträge SIA 380/1, 385/1, 266/1, 410-Nachfolgewerke).
+Durchgehendes Muster: entweder (a) explizit als Bring-Schuld/Kaufentscheid/Entscheid-Raphael/
+externe Anfrage (VSA-Kundendienst, SIA-Shop) markiert und in den letzten Tagen mehrfach
+unabhängig erfolglos frei zu beschaffen versucht (z. B. SN 641 400: fünf Anläufe), oder
+(b) bereits an anderer Stelle derselben Datei inhaltlich beantwortet, nur die ursprüngliche
+Checkbox nie auf `[x]` gesetzt (Muster wie beim heute bearbeiteten Punkt). Kein einziger der
+geprüften Punkte war eine neue, mit Primärquellenlektüre lösbare offene Sachfrage. Damit ist
+diese QUESTIONS-Abarbeitung-Lineage nach neun Läufen faktisch **gesättigt**: verbleibende
+Arbeit ist entweder Bring-Schuld (Raphael) oder ein reiner Bookkeeping-Sweep (Checkboxen mit
+bereits vorhandener Antwort abgleichen), keine weitere Quellenrecherche.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` (additiv, +21/-0 Zeilen, Nachtrag unter dem bestehenden
+Teilpunkt-5-Text). Kein Destillat geändert (keine neue Sachaussage, nur Verweis auf
+bestehende, bereits verifizierte Inhalte).
+
+**Empfehlung für künftige Läufe:** Statt weiterer Einzelfragen-Suche in dieser Lineage einen
+gezielten Bookkeeping-Sweep über die verbleibenden ~35 offenen Checkboxen fahren (Muster:
+grep `^\s*- \[ \]`, je Punkt prüfen, ob REGISTER/INDEX/Inventar die Antwort bereits enthält,
+sonst als Bring-Schuld belassen) — deutlich günstiger als erneute Primärquellenlektüre und
+schliesst echte Bookkeeping-Lücken wie die heutige.
+
 ## 2026-08-24 — SIA-Sweep: dreizehnte unabhängige Sättigungsverifikation (09:58 Uhr) — weiterhin 59 Register-/6 Inventar-Zeilen offen, keine Änderung
 
 **Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,

@@ -4537,6 +4537,27 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   > Mismatch») war bereits am 23.08.2026 an anderer Stelle dieser Datei geschlossen (Abschnitt
   > «Dateiname/Inhalt-Mismatch — GESCHLOSSEN 23.08.2026» oben). Damit sind von den ursprünglich
   > fünf Teilpunkten nur noch (1) [destruktiv, Rückfrage Raphael], (4) und (5) offen.
+  >
+  > **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung): Teilpunkt (5) ebenfalls GESCHLOSSEN.** Die
+  > Frage («BRL 100-15 Brandmauern: Gegenprüfung des REGISTERs auf eine allfällig spätere
+  > Ausgabe») ist durch eine zwischenzeitlich unabhängig entstandene Arbeit bereits beantwortet,
+  > hier nur verifiziert und referenziert: `wiki/REGISTER.md` Abschnitt zu den
+  > Fassungs-Delta-Publikationen führt **BSE 100-15 Brandmauern mit geltender Fassung
+  > 01.01.2017** (Zeile «BSE 100-15 Brandmauern | 01.01.2017 | `vkf-brl-100-15-fassung-2017-delta.md`»).
+  > Das Delta-Destillat selbst (`destillate/vkf-brl-100-15-fassung-2017-delta.md`, Frontmatter
+  > geprüft) belegt Quelle **VKG-Publikationsportal Dokument BSPUB-1394520214-141, Fassung
+  > 01.01.2017 (von der Technischen Kommission VKF am 29. September 2016 genehmigte Änderungen)**
+  > gegen den Hausbestand `PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien
+  > 2015/100-15_Brandmauern.pdf` (Fassung 01.01.2015): acht amtlich gelistete Fundstellen,
+  > keine davon materiell (reine Begriffsvereinheitlichung Aussenwand→Aussenwandkonstruktion,
+  > Bedachung→Dachkonstruktion, sowie RF3→RF3(cr)), Anhang-Prinzipschnitte per Rendering
+  > deckungsgleich geprüft (Run 60, 23.08.2026, `last_updated: 2026-08-23`). **Damit ist
+  > REGISTER bereits auf dem aktuellen Stand — keine weitere, vom Register noch nicht erfasste
+  > Ausgabe.** Das Delta-Destillat selbst bleibt `status: speculative` (nur die acht gelisteten
+  > Fundstellen geprüft, nicht der gesamte Restbestand Ziff. 2/5-7 und übriger Anhang) — dieser
+  > Statuswert ist unverändert korrekt und wird hier nicht angehoben. Von den ursprünglich fünf
+  > Teilpunkten bleibt nur noch **(1)** [destruktiv, Rückfrage Raphael] und **(4)**
+  > [steeldoc-ECCS-Diskrepanz, kein ECCS-Volltext im Haus, externe Bring-Schuld] offen.
 - [x] **Mac Mini Run 10 (13.07.2026): Retro-Verifikation DIN-5034-Reihe + DIN-1053-Reihe
   komplett, 8/8 beanstandet-korrigiert.** Alle 4 verbleibenden DIN-5034-Destillate
   (5034-1/2/4/6) und alle 4 verbleibenden DIN-1053-Destillate (1053-1/2/3/100) adversarial
