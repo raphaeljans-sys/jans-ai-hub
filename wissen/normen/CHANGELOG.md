@@ -1,3 +1,33 @@
+## 2026-08-24 — SIA-Sweep: dreizehnte unabhängige Sättigungsverifikation (09:58 Uhr) — weiterhin 59 Register-/6 Inventar-Zeilen offen, keine Änderung
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). CHANGELOG und Report
+des letzten SIA-Sweep-Laufs (zwölfte Sättigungsverifikation, 09:36 Uhr) zuerst gelesen — dessen
+Empfehlung folgend nur den dort vorgeschlagenen Modifikationsdatum-Check wiederholt statt eines
+vollen Sweeps (Rule `wissens-ruecklauf`: kein Pflicht-Rauschen bei unveränderter Lage).
+
+**Kollisionscheck:** eigener Prozess PID 67853 hostet diese Session; PID 67644
+(QUESTIONS-Abarbeitung derselben KB) und PID 65994 (Baurecht-Reglemente, andere KB) laufen
+parallel, keine Dateiüberschneidung mit `wiki/REGISTER.md`, `destillate/` oder
+`training/norm-inventar.md`.
+
+**Befund:** SharePoint-Ordner `SIA_Norm/SIA_Normen/alle/` (140 Dateien, via
+`connectors/m365-graph.mjs` nach `lastModifiedDateTime` geprüft) zeigt weiterhin keine Datei
+neuer als 2026-08-07T09:18:20Z — unverändert zum elften/zwölften Lauf. `wiki/REGISTER.md`
+weiterhin 59 „Kein Volltext im Haus"-Zeilen, `training/norm-inventar.md` weiterhin genau 6
+echte offene `[ ]`-Zeilen (SIA 491, SN EN 12193, SN 640 052, SN 641 400, SN 640 273a, SIA
+181:2020-Re-Destillat), alle bereits mit Produktdatenblatt/Preis/Gültigkeitsdatum belegt und
+ausnahmslos Beschaffungs-Bring-Schuld (SIA-Shop/VSS-Shop bzw. Cross-KB). Commit-Historie seit
+dem zwölften Lauf (`1e6732c43`, `9a6d163d7`, `1691bb782`) betrifft ausschliesslich
+QUESTIONS-Abarbeitung/Kalksandstein-Destillat, keine dieser Dateien.
+
+**Kein Register-, Inventar- oder Destillat-Schreibvorgang.** Report:
+`outputs/2026-08-24_sia-sweep-dreizehnte-unabhaengige-saettigungsverifikation-0958uhr.md`.
+Empfehlung unverändert: SIA-Sweep bleibt pausiert bis neues Rohmaterial im SharePoint-Ordner
+erscheint oder Raphael einen der sechs Kauf-/Beschaffungsentscheide trifft.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: S42-3 (SWKI Tab. 16 Kanton Schwyz) und N43-5 (Kalksandstein Rissweiten-Kapitel + SIA-266-Zitate) bearbeitet — NAS-Sperre über M365-Graph-Connector umgangen
 
 **Auftrag:** Fortsetzung derselben Daueraufgabe (offene Fragen in `wiki/QUESTIONS.md`
