@@ -3300,6 +3300,14 @@ gewollt, gehoert sie stattdessen als Entscheid in die Betriebs-Chronik, damit de
 Radar-Lauf sie nicht erneut als Ausfall meldet. | vollgas-radar 24.08.2026 |
 Infrastruktur / Lern-Loops | hoch | offen
 
+**ERLEDIGT 25.08.2026 00:57 (vollgas-radar).** `ch.jans.nachtschicht` ist auf dem Mac Mini wieder
+geladen (`launchctl list`: `- 0 ch.jans.nachtschicht`), und der Slot **23:30 hat gearbeitet und
+geliefert** — Commit `c71657057` «synobsis-training: 7 weitere QUESTIONS.md-Fragen recherchiert,
+Nachtschicht 23:30». Der vorgelegte `launchctl bootstrap`-Befehl wurde also ausgefuehrt; das
+Lernfenster der Nacht 24./25.08. faellt nicht aus, die Slots 02:30 und 05:30 stehen bevor. Wer den
+Job wiederhergestellt hat, ist nicht belegt, und ein Entscheid dazu fehlt weiterhin in der
+Betriebs-Chronik — sachlich ist der Punkt damit geschlossen. Status: **erledigt.**
+
 
 **NEU 24.08.2026 (vollgas-radar 12:57) — Die Sicherung des NAS-Repos nach GitHub ist gestaut:
 zwei Commit-Wege schreiben auf dieselben Wissens-Dateien.** Aufgefallen beim eigenen
@@ -3375,3 +3383,15 @@ Dateien** frischer Lern-Loop-Arbeit von heute (u.a. `buch-run134` bis `run139`, 
 entscheiden, ob (a) der Merge mit `beide Bloecke behalten` aufgeloest und gepusht wird, oder
 (b) anders zusammengefuehrt wird.** Status: **offen, hoch — Arbeitsbaum blockiert, seit ~12:45
 erreicht kein NAS-Edit mehr GitHub.**
+
+**ERLEDIGT 25.08.2026 00:57 (vollgas-radar) — die Sicherung laeuft wieder, die Zweitursache bleibt
+offen.** `scripts/git-divergenz.sh` meldet um 00:58 fuer beide Richtungen «deckungsgleich»
+(NAS -> GitHub, Station -> GitHub), Ergebnis «in Ordnung». Aufgeloest wurde der Stau ueber den
+Merge `9bb816682` («Merge remote-tracking branch 'github/main'»), soweit die Historie es zeigt als
+Append-Vereinigung und nicht durch Verwerfen einer Seite. Der 15-Minuten-Selfcommit laeuft seither
+ununterbrochen durch (letzter `dfd3584ff` um 00:45). **Offen bleibt die Zweitursache:** zwei
+Schreiber auf `main` — der Synology-Selfcommit und `com.jans.git-auto-sync` des Mac Mini — werden
+dieselbe Append-Kollision wieder erzeugen. Dafuer gebaut, aber noch nicht unter Last belegt, ist
+der Merge-Rueckfall mit Eskalation ins Fristen-Register in `nas-selfcommit.sh` und `git-auto-sync`
+(Commits `bb9d1825a`, `6b334c22e`, Chronik 260824e/f). Status des Staus: **erledigt** — Status der
+Zweitursache: **offen, mittel.**
