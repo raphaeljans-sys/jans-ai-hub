@@ -4009,12 +4009,23 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   Commit-Historie ordnet fremde Arbeit dem falschen Loop zu und erschwert die Nachvollziehbarkeit.
   Ursache ist das pathspec-lose Committen im geteilten Index. Beobachten, ob der native Synology-Cron
   hier ebenfalls pathspec-begrenzt arbeiten müsste.
-- [ ] **Doppelte Run-Nummer 21 im Protokoll.** Zwei Läufe haben heute unabhängig die Nummer 21 belegt;
+- [x] **Doppelte Run-Nummer 21 im Protokoll.** Zwei Läufe haben heute unabhängig die Nummer 21 belegt;
   dieser Lauf führt deshalb die Nummer **22**. Der Report `outputs/2026-07-25_normen-nacht-run21.md`
   bleibt als Protokoll unverändert stehen, seine Kernaussage («keine reale Quelle zu bearbeiten»,
   «7. Bestätigung der Endbedingung») ist durch Run 22 jedoch überholt. Künftig Run-Nummer erst nach
   Sicht der jüngsten `outputs/`-Datei belegen.
 
+  > **GESCHLOSSEN Run 61 (25.08.2026) — die Lehre ist im Programm verankert, damit ist der
+  > Punkt erledigt.** Die Zeile verlangte «Kuenftig Run-Nummer erst nach Sicht der juengsten
+  > `outputs/`-Datei belegen». Genau dieser Satz steht seit Run 22 woertlich als verbindliche
+  > Vorgabe in `training/PROGRAMM.md:89` («Run-Nummer erst nach Sicht der juengsten
+  > `outputs/`-Datei belegen — am 25.07.2026 haben zwei Laeufe unabhaengig die Nummer 21
+  > vergeben») und ist im Auftragstext des Scheduled Task wiederholt. Der historische
+  > Doppeleintrag `outputs/2026-07-25_normen-nacht-run21.md` bleibt als Protokoll stehen.
+  > **Anders als bei den drei gleichzeitig geprueften Faellen (N-R40-7 Z. ~2889, Q&A-
+  > Selbstbefragung Z. ~4080, Z1/Z2 Z. ~5049) traegt diese Zeile KEINEN Schliessungsvermerk
+  > darueber** — sie ist also kein bewusst stehen gelassener Ursprungswortlaut, sondern war
+  > tatsaechlich nie nachgezogen.
 - [x] **Wissenscheck Phase 1 (Health-Check) durchgefuehrt (2026-07-24, Mac Mini) — mit
   budget-bewusster Methodik statt Volltext-Audit.** Der Vorbehalt vom 23.07. (voller
   Struktur-Audit sprengt das Nachtschicht-Budget) hat sich bestaetigt fuer eine Volltext-
@@ -5007,7 +5018,7 @@ einzeln geprüft:
   suissetec-Planungsrichtlinien (Heizung, Lüftung/Klima, Sanitär) sind weiterhin nicht im
   Bestand und nicht in dieser KB erschlossen; Beschaffung über den suissetec-Shop bleibt
   Bring-Schuld.
-- [ ] **NEU 23.08.2026 — BRING-SCHULD P2 — Nachfolgewerke des zurückgezogenen SIA 410/410-1/2
+- [~] **NEU 23.08.2026 — BRING-SCHULD P2 — Nachfolgewerke des zurückgezogenen SIA 410/410-1/2
   beschaffen.** Aus dem Web-verifizierten Rückzug (siehe oben) folgt Bedarf an zwei
   Nachfolgequellen: (1) **SIA 400 «Planbearbeitung im Hochbau»** für die Aussparungsdarstellung
   (ersetzt SIA 410/2) — bereits im REGISTER als `sia-400-2000` verlinkt, Aktualität dieser
@@ -5017,6 +5028,11 @@ einzeln geprüft:
   erschlossen. Niedrigere Priorität als die SIA-266/1-Bring-Schuld, da SIA 410 nur Empfehlungscharakter
   hatte und die JANS-Praxis bereits grösstenteils auf Fachplaner-eigene Pläne abstellt.
   *(Ursprungswortlaut, Teil 1 seither geschlossen — siehe Eintrag direkt darüber.)*
+  > **Nachtrag Run 61 (25.08.2026) — Marker auf `[~]` korrigiert, kein neuer Sachbefund.**
+  > Der Eintrag benennt seine eigene Teilerledigung bereits im Schlusssatz («Teil 1 seither
+  > geschlossen»), stand aber weiter auf `[ ]`. Teil (1) SIA 400:2000 Rev. 1/2015 ist geprueft
+  > und in `destillate/sia-400-2000.md` nachgetragen (23.08.2026); Teil (2) suissetec-
+  > Planungsrichtlinien bleibt Beschaffungs-Bring-Schuld.
 - [~] **P2 — SIA-Merkblatt 2048 «Energetische Betriebsoptimierung» ins Inventar aufnehmen.**
   *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026).* Die KB `energie` hat die Uebergabe
   («Kandidat fuer den Skill/die KB `normen`») in `destillate/muken-2025-modul-7-betriebsoptimierung-hlkkse.md`
@@ -5064,12 +5080,33 @@ einzeln geprüft:
   `wiki/vkf-beherbergungskategorien.md`; Details und Verifikations-Verdikt in der Run-22-Sektion oben.
 - [ ] **SIA 118:2013 nicht im Bestand** — belegt sind nur 1977/1991. Ob die Ausgabe 2013 fuer laufende
   Werkvertraege beschafft werden muss, ist ein Entscheid fuer Raphael.
+  > **Nachtrag Run 61 (25.08.2026) — Bestand mit Primaerquellenzugriff geprueft, Kaufentscheid
+  > bleibt.** Rekursiver `find` ueber `PL - 02_Recht_Norm/02_Normen` (OneDrive materialisiert,
+  > 636 PDF): im Haus liegen `alle/118_1991_d.pdf`, `SIA_Normen/SIA 118/118_1991_d.pdf`,
+  > `alle/118-C1_2026_d.pdf` sowie die Teilnormen 118/2xx (244, 246, 248, 257, 262, 263, 265,
+  > 266-1, 266-2, 267) — **keine Datei mit Ausgabe 2013**. Die Bestandsaussage ist damit erstmals
+  > direkt am Bestand belegt statt nur behauptet; am Kern (Beschaffung = Entscheid Raphael)
+  > aendert das nichts.
+  > ⚠ **Randbefund zum Ursprungswortlaut:** «belegt sind nur 1977/1991» ist ungenau — eine
+  > SIA-118-Ausgabe **1977 liegt nicht im Haus** (der 1977er-Treffer im Bestand ist SIA 150:1977,
+  > eine andere Norm). Belegt ist 1991, dazu die Aenderung C1:2026. Nicht im Ursprungswortlaut
+  > korrigiert (Nachvollziehbarkeit), hier richtiggestellt.
 - [x] **ÜBERHOLT, korrigiert Run 22 (260725):** Die Merkblatt-Serie ist destilliert (Run 16, 260719) —
   `sia-mb-2001-2005` … `sia-mb-2027-2006`, inkl. der prioritären `sia-mb-2024-2006`
   (Standard-Nutzungsbedingungen) und `sia-mb-2023-2004` (Wohnungslüftung). Offen bleibt nicht die
   Destillation, sondern der **Gültigkeitsstand** der 2000er-Serie (eigener Eintrag unten, Run 16).
-- [ ] **VKF-Normkonzept BSV 2026 (Stand 06.10.2022) neu im Inventar** — noch NICHT in Kraft, daher nie
+- [~] **VKF-Normkonzept BSV 2026 (Stand 06.10.2022) neu im Inventar** — noch NICHT in Kraft, daher nie
   als geltendes Recht zitieren. Strategisch relevant als Vorschau auf die Abloesung der BSV 2015.
+  > **Nachtrag Run 61 (25.08.2026, Normen-Nacht) — Teilerledigung, Marker auf `[~]` korrigiert.**
+  > Die *Aufgabe* dieser Zeile («neu im Inventar») ist seit Run 16 erledigt und dort belegt:
+  > `training/norm-inventar.md:1128` fuehrt `07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF
+  > Normkonzept BSV 2026 Stand 2022-10-06.pdf` als `[x] 260719` mit Destillat
+  > `vkf-normkonzept-bsv-2026-entwurf.md` (established, verifiziert beanstandet, 6 Befunde
+  > korrigiert); `destillate/INDEX.md:345` und `wiki/REGISTER.md:1141` sind gleichlautend
+  > nachgefuehrt. Offen bleibt allein der **stehende Warnhinweis** (nie als geltendes Recht
+  > zitieren) — der ist kein abschliessbarer Auftrag, sondern eine Dauerregel; die laufende
+  > Ueberwachung des Inkrafttretens fuehrt der eigene Eintrag «BSV 2026 ueberwachen» (Z. ~4162,
+  > Inkraftsetzung fruehestens Maerz 2027). Kein Primaerquellenbefund, reine Markerkorrektur.
 - [~] **Inventar-Scan haerten:** Der Scan vom 11.07.2026 hat nur `SIA_Normen/alle/` erfasst (58 Dateien
   uebersehen) und Vorschau-PDFs nicht erkannt. Zwei Konsequenzen fuer den naechsten Scan: (1) rekursiv
   ab `02_Normen/` scannen, nicht ab einem Unterordner; (2) je PDF die tatsaechliche Seitenzahl gegen die
@@ -5976,3 +6013,84 @@ Bis dahin gilt im baurecht-Artikel weiterhin der dort bereits gesetzte Vorbehalt
   wiedergabe aus dem SZ-Merkblatt** zu zitieren, nicht als verifizierte VSS-Fundstelle.
   Verifiziert vorhanden ist fuer Zufahrtstyp und Geometrie allein
   `destillate/vss-640050-1993.md` (`established`).
+
+## N61-1 — Drei bisher unentdeckte Destillat-Duplikate in der DE-Kohorte (Run 61, 25.08.2026)
+
+**Befund (neu, nicht Teil der bekannten Reconcile-Duplikate).** Der Eintrag «Duplikate aus dem
+Reconcile» oben listet **fünf VKF-Paare**. Ein systematischer Präfix-Paarabgleich über **alle 461**
+Destillate (`X.md` gegen `<praefix>-X.md` für de/sia/vkf/din/vss/ral) fördert **drei weitere Paare**
+zutage, alle in der deutschen Rechtsquellen-Kohorte, alle mit **identischem Quellpfad**:
+
+| Paar | Umfang ohne Präfix | Umfang mit `de-` | Status ohne Präfix | Status mit `de-` |
+|---|---|---|---|---|
+| `baunvo-1990.md` ↔ `de-baunvo-1990.md` | 8129 B / 119 Z | 6072 B / 81 Z | `established` (verifiziert 260714, Retro-Verifikation Run 19) | `destilliert` |
+| `arbstaettv-2004.md` ↔ `de-arbstaettv-2004.md` | 9539 B / 136 Z | 6911 B / 94 Z | `established` (verifiziert 260714, Retro-Verifikation Run 19) | `destilliert` |
+| `vstaettvo-niedersachsen-2004.md` ↔ `de-vstaettvo-niedersachsen-2004.md` | 16327 B / 200 Z | 6978 B / 96 Z | `established` (vervollständigt S. 1-31/31, verifiziert 260714) | `destilliert` |
+
+Quellpfade (je Paar identisch, per `grep '^quelle:'` an beiden Dateien belegt):
+`DIN_Norm/Sonstiges/BauNVO.pdf` · `DIN_Norm/Sonstiges/ArbStättV.pdf` ·
+`DIN_Norm/Sonstiges/041210_vstaett_vo.pdf`. Die Dateien sind **nicht** identisch (`diff -q`:
+verschieden); die `de-`-Variante ist in allen drei Fällen die kürzere und trägt den
+nicht-kanonischen Status `destilliert`, die präfixlose die längere, verifizierte, `established`.
+
+**`destillate/INDEX.md` führt beide Varianten nebeneinander** — die verifizierten in Z. 85, 86, 89,
+die `de-`-Varianten in Z. 346, 347, 348. Ein Abnehmer, der über den INDEX sucht, kann also auf die
+unverifizierte Kurzfassung geraten.
+
+**Warum das bisher unsichtbar war.** Der Reconcile (Run 5/12, 13./14.07.2026) hat Duplikate über
+gleiche Quelle **innerhalb der VKF-Kohorte** gesucht. Die Methode «Paarabgleich über alle
+Dateinamen-Präfixe der ganzen KB» ist hier erstmals gefahren. Das ist ein weiterer Beleg der
+Methoden-Lehre (Methodik-Pflicht 6): die fünf gefundenen VKF-Paare massen die Reichweite der
+damaligen Methode, nicht den Duplikat-Bestand der KB.
+
+**Nicht selbständig bereinigt** — Löschen/Mergen ist destruktiv und nach Rule `wissens-bibliothekar`
+rückfragepflichtig, wie bei den fünf VKF-Paaren auch. **Vorschlag zur Freigabe:** je Paar die
+präfixlose, `established`-verifizierte Fassung behalten, die `de-`-Variante löschen und aus
+`destillate/INDEX.md` (Z. 346-348) entfernen. Vorher je Paar gegenlesen, ob die Kurzfassung eine
+Aussage enthält, die der Langfassung fehlt (bei den VKF-Paaren war genau das einmal der Fall).
+Das Muster liegt gebündelt mit den fünf VKF-Paaren zum selben Entscheid vor.
+
+## N61-2 — Die Kennzahl «offene Checkboxen» misst Rückstand PLUS Archiv (Run 61, 25.08.2026)
+
+**Befund zur Messmethode, nicht zum Inhalt.** Diese Datei folgt der Konvention, einen gelösten Punkt
+mit einem `[x]`-Schliessungsvermerk zu versehen und den **Ursprungswortlaut darunter als `[ ]`
+stehen zu lassen** («Ursprungswortlaut zur Nachvollziehbarkeit:»). Die Konvention ist sinnvoll und
+soll bleiben — aber sie hat eine Nebenwirkung, die inzwischen messbar Arbeit verbrennt:
+
+**`grep -c '\[ \]'` zählt Rückstand und Archiv zusammen.** Von den 28 offenen Checkboxen dieses
+Laufs sind mindestens **drei** solche bewusst stehen gelassenen Ursprungswortlaute — N-R40-7
+(Z. ~2889, geschlossen 24.08.2026), Q&A-Selbstbefragung (Z. ~4080, geschlossen Run 15) und
+Z1/Z2 SIA 103 (Z. ~5049, geschlossen 24.08.2026). In allen drei Fällen steht der auflösende `[x]`
+unmittelbar darüber.
+
+**Beleg für die Kosten.** Vier unabhängige Prüfagenten dieses Laufs haben genau diese drei Zeilen
+als «Buchhaltungsschuld, auf `[x]` setzen» gemeldet — ein einstimmiger Fehlbefund, der nur durch
+die Gegenprüfung des Hauptprozesses am Original abgefangen wurde (Methodik-Pflicht 5: Agentenbefunde
+nie ohne eigene Gegenprüfung übernehmen; hätte er gegriffen, wäre die Nachvollziehbarkeit von drei
+Einträgen zerstört worden). Dieselbe Sucharbeit haben die Läufe vom 24.08.2026 mehrfach geleistet
+und dabei je ein bis zwei Fälle gefunden; die Liste wurde seit dem 23.08. von 43 über 30 auf 28
+gezählt, ohne dass jemals unterschieden wurde, welcher Anteil davon Archiv ist.
+
+**Vorschlag zur Entscheidung (FREIGABE RAPHAEL, nicht selbständig umgesetzt).** Einen eigenen
+Marker für den archivierten Ursprungswortlaut einführen, z.B. `- [a]` («abgelegt, siehe
+Schliessungsvermerk darüber»). Dann misst `grep -c '\[ \]'` wieder den echten Rückstand, die
+Nachvollziehbarkeit bleibt vollständig erhalten, und kein künftiger Lauf prüft dieselben Zeilen
+erneut. Der Eingriff wäre eine reine Markeränderung an einer überschaubaren Zahl von Zeilen, aber
+er betrifft die ganze Datei — deshalb hier vorgelegt statt ausgeführt. Verwandt mit dem seit Run 52
+offenen Vokabular-Entscheid (Z. ~1290 ff.: 25 abweichende Statuswerte, u.a. 16× `destilliert`), der
+dieselbe Wurzel hat: **ein Vokabular, das nie normiert wurde, wird von jedem Lauf neu ausgelegt.**
+
+## N61-3 — Negativbefund: die Ablage-Dublette ist NICHT die Ursache der Doppel-Destillation N60-1
+
+Geprüft im Zuge des Bestandsscans (Run 61, 25.08.2026), weil eine naheliegende Hypothese zu N60-1
+(«AFC-Synopse 2017 zweimal destilliert») lautete, die Quelldatei liege doppelt und sei deshalb
+zweimal aufgenommen worden. **Die Datei liegt tatsächlich doppelt** —
+`VKF_Norm/02_Brandschutzrichtlinien 2015/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` und
+`VSS_Norm/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf`, **byte-identisch (je 3'882'552 B)**,
+also eine VKF-Datei fehlabgelegt im VSS-Ordner. **Das erklärt die Doppel-Destillation aber nicht:**
+beide Destillate (`vkf-brl-aenderungen-2017.md`, `vkf-aenderungen-brandschutzrichtlinien-2017.md`)
+nennen im Frontmatter denselben Pfad, nämlich den unter `VKF_Norm/`; der VSS-Pfad kommt in keinem
+der beiden vor. Die Ursache bleibt damit beim Reconcile-Vorgang, nicht bei der Ablage.
+Nebenbefund: der im Destillat zitierte Quellpfad existiert unverändert, also **kein**
+Fundstellenfehler. Die Fehlablage selbst ist VSS-Ordner und damit Mac-Mini-Scope (Stations-Split) —
+hier nur dokumentiert, nicht angefasst.

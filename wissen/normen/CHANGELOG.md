@@ -1,3 +1,80 @@
+## 2026-08-25 — Normen-Nacht Run 61: erster Lauf mit Primaerquellenzugriff seit dem 23.08. — drei neue Duplikate, drei Fehlbefunde abgefangen, vier Marker korrigiert
+
+**Ausgangslage.** Lauf-Gate offen, NAS gemountet, kein Kollisionslauf (`ps`). Entscheidender
+Unterschied zu den 14 QUESTIONS-Laeufen und 19 SIA-Sweeps vom 24.08.2026: der
+OneDrive-Primaerquellenzugriff war diesmal **intakt** (PDF-Header lesbar, 636 PDF in PL-02
+sichtbar). Genau diese Voraussetzung hatte der vierzehnte Lauf als fehlend benannt
+(«ein Lauf mit gemountetem NAS und funktionierendem M365-Zugang waere noetig»).
+
+**Bestand und Inventar.** Keine destillierbare Position offen; die sechs verbleibenden
+Inventar-Zeilen sind ausnahmslos Kauf-/Beschaffungs-Bring-Schulden. PL-02-Frischecheck:
+juengste Aenderung unveraendert **2026-08-07**, kein neues Rohmaterial (18 Tage). Damit war
+kein Grunddestillat faellig; gearbeitet wurde auf den Vertiefungsstufen (b) Retro-Verifikation
+und der QUESTIONS-Abarbeitung.
+
+**Methode.** Alle 28 offenen `[ ]`-Checkboxen der `wiki/QUESTIONS.md` wurden in vier parallelen
+Buendeln durch je einen Pruefagenten (Sonnet) **gegen den echten KB-Stand** geprueft — CHANGELOG,
+Destillat-Inhalte, REGISTER, Inventar, INDEX und den Bestand selbst — statt wie zuletzt nur gegen
+die QUESTIONS-Datei. Jeder ERLEDIGT-Befund wurde anschliessend vom Hauptprozess selbst am Original
+nachgeprueft (Methodik-Pflicht 5).
+
+**Das wichtigste Ergebnis ist ein abgefangener Fehlbefund.** Alle vier Agenten meldeten
+uebereinstimmend drei Zeilen als «Buchhaltungsschuld, auf `[x]` setzen»: N-R40-7 (Z. ~2889),
+Q&A-Selbstbefragung (Z. ~4080) und Z1/Z2 SIA 103 (Z. ~5049). Die Gegenpruefung zeigte: **alle drei
+tragen unmittelbar darueber den `[x]`-Schliessungsvermerk** und sind bewusst stehen gelassene
+Ursprungswortlaute (KB-Konvention). Waeren sie geschlossen worden, waere die Nachvollziehbarkeit
+von drei Eintraegen zerstoert worden. Daraus der Methodenbefund **N61-2**: die Kennzahl «offene
+Checkboxen» misst Rueckstand **plus** Archiv — sie ist der Grund, warum seit dem 23.08. dieselbe
+Liste (43 → 30 → 28) immer wieder durchgezaehlt wird. Vorschlag eines eigenen Markers `[a]` fuer
+archivierte Ursprungswortlaute: **FREIGABE RAPHAEL, nicht selbstaendig umgesetzt.**
+
+**Neuer Sachbefund N61-1: drei bisher unentdeckte Destillat-Duplikate.** Ein systematischer
+Praefix-Paarabgleich ueber alle 461 Destillate (Methode erstmals gefahren) fand drei Paare mit
+identischem Quellpfad, die der Reconcile von Run 5/12 uebersehen hatte, weil er nur innerhalb der
+VKF-Kohorte suchte: `baunvo-1990` ↔ `de-baunvo-1990`, `arbstaettv-2004` ↔ `de-arbstaettv-2004`,
+`vstaettvo-niedersachsen-2004` ↔ `de-vstaettvo-niedersachsen-2004`. Je Paar ist die praefixlose
+Fassung laenger und `established`, die `de-`-Variante kuerzer und `destilliert`; **`INDEX.md`
+fuehrt beide nebeneinander** (Z. 85/86/89 gegen Z. 346/347/348), ein Abnehmer kann also auf die
+unverifizierte Kurzfassung geraten. Loeschen ist destruktiv → zur Freigabe vorgelegt, gebuendelt
+mit den fuenf bekannten VKF-Paaren. Vierter Beleg der Methoden-Lehre: die fuenf damals gefundenen
+Paare massen die Reichweite der Methode, nicht den Duplikat-Bestand.
+
+**Negativbefund N61-3.** Die Hypothese, die Doppel-Destillation N60-1 komme von einer doppelt
+abgelegten Quelldatei, ist widerlegt: `Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` liegt
+tatsaechlich byte-identisch doppelt (VKF_Norm **und** VSS_Norm, je 3'882'552 B), aber beide
+Destillate zitieren denselben VKF-Pfad — der VSS-Pfad kommt in keinem vor. Kein Fundstellenfehler.
+
+**Vier Marker korrigiert, alle belegt:**
+- Z. ~4012 «Doppelte Run-Nummer 21» auf `[x]` — die geforderte Lehre steht seit Run 22 woertlich
+  in `training/PROGRAMM.md:89`; diese Zeile traegt als einzige der vier **keinen**
+  Schliessungsvermerk darueber, war also wirklich nie nachgezogen.
+- Z. ~5071 «VKF-Normkonzept BSV 2026» auf `[~]` — Inventaraufnahme seit Run 16 belegt
+  (`norm-inventar.md:1128`, INDEX Z. 345, REGISTER Z. 1141); offen bleibt nur der stehende
+  Warnhinweis, die Ueberwachung fuehrt der eigene Eintrag Z. ~4162 (Inkraftsetzung fruehestens
+  Maerz 2027).
+- Z. ~5010 «Nachfolgewerke SIA 410» auf `[~]` — der Eintrag benannte seine Teilerledigung im
+  Schlusssatz selbst.
+- Z. ~5065 «SIA 118:2013» bleibt `[ ]`, aber erstmals **am Bestand belegt** statt behauptet:
+  rekursiver `find` zeigt 1991, C1:2026 und die Teilnormen 118/2xx, **keine 2013er-Ausgabe**.
+  Randbefund: der Ursprungswortlaut «belegt sind nur 1977/1991» ist ungenau — eine
+  SIA-118-Ausgabe 1977 liegt nicht im Haus (der 1977er-Treffer ist SIA 150:1977).
+
+**Ergebnis der uebrigen 24 Checkboxen:** keine weitere Buchhaltungsschuld. Die Kategorisierung
+haelt — Kauf-Bring-Schulden (SIA 380/1:2016, 385/1:2011, 266/1:2015, 118:2013, 491, EN 12193,
+DIN EN 1627, SN 641 400), destruktive Merge-/Rename-Entscheide bei Raphael, stehende
+Methodennotizen (Fassungspflege, DIN-Sonstiges, Workflow-Tool) und zwei Strukturentscheide
+(Z. ~5469), zu denen unveraendert keine Antwort vorliegt.
+
+**Nicht getan / ausgewiesen (Methoden-Lehre).** Keine neue Norm destilliert (kein Rohmaterial,
+kein Kaufentscheid). Nicht geprueft wurden: die inhaltliche Richtigkeit der drei DE-Duplikat-Paare
+im Detail (nur Umfang, Status und Quellpfad gemessen — der inhaltliche Paarvergleich gehoert in
+den Freigabelauf) und die 49 `speculative`-Destillate, an denen in diesem Lauf keine
+Verifikationsrunde gefahren wurde.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` (vier Markerkorrekturen mit Nachtraegen, drei neue
+Abschnitte N61-1 bis N61-3; Ursprungswortlaute durchgehend erhalten), dieser CHANGELOG-Eintrag,
+Report `outputs/2026-08-25_normen-nacht-run61.md`.
+
 ## 2026-08-24 — Wissens-Chef Run 42: SN 509 431 im REGISTER nachgetragen (Bring-Schuld aus KB `baurecht`)
 
 Die Zeile SIA 431 fuehrte bisher keine SN-Nummer. Nachgetragen: **SN 509 431**, belegt am
