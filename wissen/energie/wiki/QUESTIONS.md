@@ -5309,6 +5309,40 @@ Bestandsschutz-Satz + Quellenzeile). `wiki/heizleistung-und-waermeerzeuger.md` u
 `wiki/gebaeudetechnik-pflichtenheft.md` zitieren das Destillat nur als Verweis ohne die
 betroffenen Detailaussagen — keine Änderung nötig dort.
 
+## 2026-08-24 (interaktive Session, Fortsetzung) — Compounding-Lücke in `graue-energie-betriebsenergie` geschlossen, restlicher A-BLIND-Bestand gegengeprüft
+
+Auftrag: weitere offene Fragen abarbeiten, Anschluss an den A-BLIND-Fall-3-Lauf. Vor neuer
+Primärquellen-Recherche zuerst geprüft, was vom `- [ ]`/`- [~]`-Bestand überhaupt noch ohne
+Raphaels Entscheid bearbeitbar ist — Bestätigung des mehrfach dokumentierten Stands: A-P2 18/18,
+A-P3 14/17 (+03.13/03.15 zusätzlich geschlossen), E103/E94/E-R148-1/E-R148-2/E-R161-1 an
+Normkauf/Projektdaten gebunden, E-R129-5/E-WC32-1/E-R134-3/E-R150-3 bewusst P3/P4.
+
+Sieben `emerging`/`speculative`-Kandidaten aus dem 18-29-Backlink-Bereich (A-BLIND) einzeln gegen
+ihre «Offene Punkte» geprüft: `energie-performance-gap-gesundheitsbau`, `zh-energiegesetz-revision-
+solarpflicht-2026`, `rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh`, `innendaemmung-altbau-
+bauphysik-ch` sind bereits erschöpfend recherchierte Negativbefunde (vier bis sechs unabhängige
+Rechercheversuche, teils erst 24.08.2026 selbst nachgeprüft) — kein neuer Ansatz ohne Normkauf oder
+neue Methode.
+
+- [x] **A-BLIND-Nebenfund (24.08.2026): `graue-energie-betriebsenergie` hatte zwei offene Punkte,
+  die bereits anderswo in der KB beantwortet waren, nur nie verlinkt.** «KBOB-/SIA-2032-Kennwerte
+  einarbeiten» → `[[kbob-graue-treibhausgasemissionen-2025]]` (established seit 26.06.2026).
+  «Sanieren-vs-Neubau-Schwelle» → `[[graue-energie-sanieren-vs-neubau-amortisation]]` (belegter
+  Negativbefund seit 13.07.2026: keine allgemeingültige CH-Jahreszahl, nur die 50-Jahre-
+  Eigenkompensation und ein CO₂-Preis-Schwellenwert als Ersatz). Derselbe Fehlertyp wie 03.15/
+  E-R140-1. Im Destillat mit Verweis geschlossen, Backlinks-Abschnitt neu, `last_updated`
+  nachgeführt. Kein neuer inhaltlicher Fehler, keine neue Primärquelle gelesen.
+
+**Für den nächsten Lauf:** von den 37 A-BLIND-Kandidaten sind jetzt 16 einzeln geprüft (9 aus den
+Vorläufen + 7 aus diesem Lauf); rund 21 (überwiegend `established` ohne offenen Punkt laut
+Frontmatter) bleiben ungeprüft — echter Rest, kein Vorrat-ausgeschöpft-Schluss. `werkhof29-
+zirkulaeres-bauen-stroh-lehm` und `ecobkp-2026-methodik-und-uebersicht` (beide `emerging`) wurden in
+diesem Lauf noch nicht gegen ihre Primärquelle geprüft.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/graue-energie-
+betriebsenergie.md` (Auto-Commit `fc7cdbad` erfasste die erste Teiländerung, zweite additiv
+nachgeführt) — durchgehend additiv/präzisierend, keine Löschung von Bestand.
+
 **Für den nächsten Lauf:** von den 37 Kandidaten im 18-29-Backlink-Bereich sind jetzt 9 einzeln
 gegen Frontmatter/Primärquellen-Lücke geprüft (8 aus dem Vorlauf + `kaeltemittel-r290-
 waermepumpen-ch` aus diesem); die verbleibenden rund 28 (26 bis 18 Backlinks) sind nur per
@@ -5320,3 +5354,42 @@ präzisiert, drei Sachabschnitte korrigiert/ergänzt, zwei Offene-Punkte durchge
 gelöscht, Quelle ergänzt), `destillate/INDEX.md` +1/-1 (eine Zeile ersetzt), `wiki/BAUHERREN-FAQ.md`
 additiv (zwei Satzergänzungen an F72) — durchgehend additiv/präzisierend/korrigierend, keine
 Löschung von Bestand.
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — A-BLIND: ecoBKP-2026 um sechs Merkblätter erweitert (S. 1-40/138), werkhof29 ausgeschöpft
+
+- [x] **Die zwei vom Vorlauf explizit benannten A-BLIND-Kandidaten geprüft.**
+  `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]` ist ein Praxis-/Marketing-Dossier ohne tiefere
+  Primärquelle dahinter — bereits vollständig gelesen, seine offenen Punkte sind an anderer
+  Stelle der KB gelöst und verlinkt (`[[strohdaemmung-bemessungswert-brandschutz]]`,
+  `[[evg-eigenverbrauchsgemeinschaft-solarsplit]]`). **Für A-BLIND ausgeschöpft, kein weiterer
+  Ansatz.** `[[ecobkp-2026-methodik-und-uebersicht]]` hatte dagegen einen echten Rest: nur S. 1-20
+  von 138 gelesen. PDF erneut von `ecobau.ch` geladen (identisch, 8'110'547 Byte) und S. 14-40
+  mit PyPDF2 im Volltext gelesen. Sechs weitere Merkblätter vollständig destilliert: **ecoBKP 21
+  Rohbau 1** (Rest, Bauteil-Varianten-Tabelle nach SIA 390/1 Anhang D — Aussenwand über Terrain
+  und geneigtes Dach durchgehend als Holzkonstruktion vorgegeben), **ecoBKP 211
+  Baumeisterarbeiten** (RC-Beton-Pflicht SIA 2030:2021, «nicht empfohlen: Primärbeton, wenn
+  RC-Beton innerhalb 25 km verfügbar ist», Zementwahl CEM III/A/B 1. Priorität), **ecoBKP 213
+  Montagebau in Stahl** (explizit: Stahlträger/-stützen «deutlich höhere Graue Energie» als Holz —
+  bestätigt denselben Kernbefund wie `[[graue-energie-betriebsenergie]]` auf Bauteilebene;
+  Achtung Asbest in Brandschutzbeschichtungen vor 1990), **ecoBKP 214 Montagebau in Holz**
+  (Formaldehyd-Grenzwerte, «nicht empfohlen: Montage-/Füllschäume»), **ecoBKP 215 Montagebau als
+  Leichtkonstruktion** (Fassadenbekleidungs-Prioritäten inkl. Blechdicken, Naturstein-Transport-
+  distanz < 500 km). **ecoBKP 221 Fenster/Aussentüren/Tore** begonnen (nur Allgemeines +
+  Holzauswahl, S. 35) — Rest offen. **Kein Zitierfehler gefunden** (anders als bei den A-BLIND-
+  Fällen 1-3): das Destillat wurde neu aus der Primärquelle aufgebaut, nicht gegen eine
+  bestehende Behauptung geprüft — der A-BLIND-Zweck hier ist Primärquellen-Absicherung statt
+  Fehlerkorrektur.
+  Eingearbeitet in `destillate/ecobkp-2026-methodik-und-uebersicht.md` (Frontmatter, sechs neue
+  Merkblatt-Abschnitte, Offene-Punkte-Abschnitt, neue Backlinks-Sektion) und `destillate/INDEX.md`
+  (Zeile 39). Status bleibt `emerging` — 21 von 30 Merkblättern weiterhin ungelesen (S. 36-138).
+  **Für den nächsten Lauf:** ecoBKP 221 Fortsetzung + Merkblätter 222-450; sobald ecoBKP 221
+  vollständig gelesen ist, gegen die bereits belegte 2009→2026-Sachänderung in
+  `[[ecobkp-2009-merkblaetter-nach-bkp]]` (Fensterrahmen-Prioritäten) abgleichen — dort bisher
+  nur aus Sekundärvergleich dokumentiert. `werkhof29-zirkulaeres-bauen-stroh-lehm` aus der
+  A-BLIND-Kandidatenliste streichen (ausgeschöpft). A-BLIND-Gesamtstand im 18-29-Backlink-Bereich
+  unverändert (16 von 37 geprüft) — dieser Lauf betraf ein Destillat unterhalb der
+  Backlink-Schwelle, keine neue Zählung.
+  Beleg: `outputs/2026-08-24_ecobkp-2026-merkblaetter-21-215-primaerquelle.md`. `git diff
+  --numstat` geprüft: `destillate/ecobkp-2026-methodik-und-uebersicht.md` +82/-14 (sechs neue
+  Merkblatt-Absätze, alte Kurzfassung ersetzt, keine Löschung von Substanz), `destillate/INDEX.md`
+  +1/-1 (eine Zeile ersetzt).

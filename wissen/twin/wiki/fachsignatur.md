@@ -519,17 +519,15 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
 - **Die Rechtsauskunft trägt Paragraf UND Parzellennummer, nie den blossen Gesetzesnamen — aber nur,
   wenn Raphael die Behauptung TRÄGT (260817, präzisiert 260818):** verantwortet er sie, steht die
   Norm im Satz, subsumiert auf das konkrete Objekt, dann das benannte Deliverable im Indikativ
-  («… festgesetzt (§ 98 PBG), nicht nach einem Fairness-Prinzip … etwa die bestehende
-  Bruchsteinmauer auf Grundstück 5252» → «Ich werde … die Fläche für die Minderwertberechung
-  ausweisen»). Führt dagegen der **Bauherr** die Rechtsschrift selbst, liefert Raphael das
+  («… festgesetzt (§ 98 PBG) … » → «Ich werde … die Fläche für die Minderwertberechung ausweisen»). Führt dagegen der **Bauherr** die Rechtsschrift selbst, liefert Raphael das
   Normmaterial als **Beilage** (Buchauszug «zu Deinen Akten») und nennt im Fliesstext nur die
   Verfahrensart. Nicht die Gattung entscheidet, sondern wer haftet.
 - **Eine Formalie wird bis zur Rechtsfolge durcherzählt, nicht als Aufgabe abgesetzt (260806):**
   Auslöser → Handlung → **Gegenstand mit vorweggenommener Missverständnis-Abwehr in Klammern**
   («… die Eingabequittung unterzeichnen **(keine Pläne)**») → Ausfertigung, Medium und Empfänger
-  («**Original**», «**per Post**», «**Amt für Baubewilligungen**») → **Rechtsfolge** («Damit ist die
-  Baueingabe **rechtsgültig eingegeben**»). Und das Verfahrensrisiko trägt seinen Rechtsbegriff,
-  statt in «termingerecht» übersetzt zu werden: «keine **Sistierung des Verfahrens**». Belege unten.
+  («Original», «per Post», die Amtsstelle beim Namen) → **Rechtsfolge** («rechtsgültig eingegeben»).
+  Das Verfahrensrisiko trägt seinen Rechtsbegriff statt «termingerecht»: «keine **Sistierung des
+  Verfahrens**».
 - **Kontaminations-Drift (260818, bestätigt 260819):** ein Identifikator ODER eine Schlussformel aus
   einem früheren Report, Wiki-Marker oder einer **anderen Mail desselben Fensters** ist Beleg für
   den DAMALIGEN Fall, nie Faktum für den heutigen — neu belegen oder weglassen. Gefährlicher als
@@ -2527,3 +2525,32 @@ Datumsstempel im Dateinamen, nicht als «anbei die Unterlagen».
 
 **Zwei Stufen, dieselbe Mail:** der Fachbegriff steht im Nebensatz, der Sachverhalt im Hauptsatz.
 Raphael fachsimpelt nicht, er benennt den Schritt und geht weiter.
+
+## Die Typenbezeichnung wandert vollständig in den Fragesatz (Fidelity 260824)
+
+Aus der Mail vom 07.08.2026 an die Projektleitung Gebäudetechnik, ein einziger Satz:
+
+> «Würde es sinnvoll sein vorsorglich zusätzlich zu dem Bodenabzug Kochfeld **BORA Professional 3.0
+> Pro Set Flächeninduktion (1x PKAS3, 2x PKFI3, (PKAS3FI) mit Plasmafilter Typ AVITANA aira Quadro L
+> Art.-Nr. 8775)** ein Dunstabzugshaube an der Decke mit hochwertigem Plasmafilter einzuplanen?»
+
+Fabrikat, Serie, Set-Bezeichnung, drei Artikelkürzel mit Stückzahlen, Filtertyp und **Artikelnummer**
+stehen mitten im Fragesatz, statt in eine Anlage oder hinter ein «das gewählte Kochfeld» zu wandern.
+Der Satz wird dadurch schwer lesbar — und genau das ist der Preis, den Raphael zahlt: **die Angabe
+muss bestellbar und prüfbar bleiben, nicht elegant.** Dieselbe Mechanik wie «Registerdaten wörtlich»
+(260805/260806), hier auf Produktdaten angewandt.
+
+Ebenso im selben Text: das beigelegte Fremddokument wird mit **exaktem Dateinamen und Urheber**
+benannt — «das von Herr Cekdar Duran erstellte Dokument
+**260513_Variantenuntersuchung_Gastro_Küche_cedu.pdf**» — statt inhaltlich beschrieben. Und in der
+Mail vom 05.08. stehen die Grundlagen als nackte Dateinamen («51.2.2 Erdgeschoss.pdf» /
+«.dwg»), ohne ein Wort dazu. Die Regel «nie ein erfundener Inhalt zur Belegnummer» hat hier ihre
+positive Kehrseite: **der Dateiname IST die Beschreibung.**
+
+Fachdichte derselben Mails ohne jede Übersetzung, weil unter Fachleuten: «Nachweise BIK / LBW»,
+«Anschluss LBW auf UB EI30 Konform», «GK-Doppelständerwand ab 20.5cm; CW75 … bez. VKF. Nr.»,
+«Brandabschottung in den EI30 Unterzügen», «Vorab Plan Fach Architekt Grundriss 1.OG 1:50».
+
+**Gemessene Zwillings-Drift an derselben Stelle:** die Blindfassung erfand einen «Nachweis der
+Brandabschnittsbildung» und eine Frist «bis Ende Woche», wo die Aufgabe keine nennt — neunte
+Erfindungs-Drift der Messreihe, beide Male entstanden beim Füllen einer selbst gesetzten Struktur.

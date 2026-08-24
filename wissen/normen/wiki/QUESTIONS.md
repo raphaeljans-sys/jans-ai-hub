@@ -2257,17 +2257,46 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); die uebrigen Bestaende (Lignatec, GVZ G41-1/G41-2, Hindernisfreies Bauen, restliche PAVIDENSA-Punkte) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); die uebrigen Bestaende (L41-3/L41-4, GVZ G41-1/G41-2, Hindernisfreies Bauen, restliche PAVIDENSA-Punkte) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
   «Heime für Behinderte, Strafanstalten, geschlossene Erziehungsanstalten». In Runde 10
   ausdrücklich NICHT als Befund gewertet (Tabellenapparat, nicht Fliesstext) — in der nächsten
   Tabellenrunde zu prüfen. Für JANS mit Healthcare-Schwerpunkt potenziell einschlägig.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Original beschafft (OneDrive-Kopie
+  > `AR - 01 Projekte/2414 THALWIL/06 Reglemente/_Archiv/11 Brandschutz/Lignatec/
+  > Lignatec_brandschutz.pdf`, identischer Inhalt zur SharePoint-Quelle laut Frontmatter — der
+  > dort hinterlegte Pfad war auf dieser Station nicht gemountet/synchronisiert), S. 8 per
+  > `pdftoppm -r 300` gerendert und die Fussnote [a] unten links wörtlich gelesen: «Beherbergungs-
+  > betriebe, in denen dauernd oder vorübergehend kranke, pflegebedürftige oder auf fremde Hilfe
+  > angewiesene Personen untergebracht sind, wie Krankenhäuser, Alters- und Pflegeheime, Heime
+  > für Behinderte, Strafanstalten, geschlossene Erziehungsanstalten.» Die drei fehlenden
+  > Nutzungen sind damit **kein eigener Tabelleneintrag**, sondern Teil der Definition der
+  > bereits tabellierten Zeile «Beherbergungsbetriebe [a] z. B. Krankenhäuser» — sie tragen
+  > exakt dieselbe Anforderung (R60(nbb)/EI60(nbb) durchgehend ab 2 Geschossen). Vollständiger
+  > Wortlaut aller drei Fussnoten [a]/[b]/[c] nachgetragen in
+  > `destillate/lignum-lignatec-brandschutz.md`, Abschnitt Tabelle 3. Keine Tabellenrunde nötig
+  > — der Fund lag im Fliesstext der Fussnote, nicht in einer Tabellenzelle.
 - **L41-2 REI90(nbb)/EI90(nbb) in Tabelle 4:** auf S. 13 trägt eine Nutzungszeile diese Werte
   (Spalten 4, 5-6, 7-8), und der Erläuterungskasten derselben Seite definiert die Klasse. Das
   Destillat nennt in seinem gesamten Tab.-4-Abschnitt **keine 90-Minuten-Klasse**. Welche
   Nutzungszeile es ist, wurde nicht abschliessend zugeordnet und deshalb nicht behauptet.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Original (dieselbe Kopie wie L41-1)
+  > als volle A3-Blattseite (Blatt 06 = S. 12 + S. 13) bei 300 dpi gerendert, NICHT nur die
+  > Hälfte S. 13 isoliert — damit die Nutzungsspalte auf S. 12 pixelgenau auf derselben
+  > Bildhöhe mit den Werten auf S. 13 abgeglichen werden konnte (Halbseiten-Split allein hätte
+  > die Zeilenzuordnung nicht gesichert). Ergebnis: die REI90(nbb)/EI90(nbb)-Zeile gehört zu
+  > **«Industrie-/Gewerbebauten q > 1000 MJ/m² · Bauten mit unbekannter Nutzung»**, Baulich-
+  > Konzept, ab 4 Geschossen (Spalten 4, 5-6, 7-8) — **nicht** zu einer Beherbergungsbetriebe-
+  > Zeile; das Sprinklerkonzept derselben Nutzung bleibt durchgehend bei REI60(nbb)/EI60(nbb).
+  > Zur Kontrolle wurde die direkt benachbarte Zeile «Beherbergungsbetriebe [a]» ebenfalls
+  > spaltengenau mitgelesen: sie führt in denselben Spalten durchgehend REI60(nbb)/EI60(nbb),
+  > **kein** REI90 — die JANS-Healthcare-Zeile ist von diesem Fund nicht betroffen. Nachgetragen
+  > als neuer Eckwert-Absatz in `destillate/lignum-lignatec-brandschutz.md`, Abschnitt Tabelle 4
+  > (dort fehlte diese Nutzungszeile bis dahin vollständig).
 - **L41-3 Getönte Deckschicht/Stiel in Tabelle 2:** in drei Zeilen sind Deckschicht und Stiel
   messbar grau unterlegt (177/180/179 gegen 240/245 bei identischem Muster); die Legende kennt
   keine getönte Variante. Konsistent, aber aus der Quelle nicht ableitbar. (Aus Run 40, hier

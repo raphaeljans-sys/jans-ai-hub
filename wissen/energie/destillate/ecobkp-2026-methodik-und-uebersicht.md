@@ -1,19 +1,23 @@
 ---
 quelle: "ecobau, ecoBKP 2026 — Empfehlungen für ökologisches, kreislauffähiges und gesundes
   Bauen nach Baukostenplan (BKP), PDF https://www.ecobau.ch/resources/uploads/eco-bkp/ecoBKP_2026/ecoBKP_2026.pdf,
-  138 Seiten, gelesen S. 1-20 (Impressum, Hintergrund/Methodik, Neuerungen, Inhaltsverzeichnis,
+  138 Seiten, gelesen S. 1-40 (Impressum, Hintergrund/Methodik, Neuerungen, Inhaltsverzeichnis,
   Leitfaden, ecoBKP 112 Abbrüche/Rückbau/Entsorgung vollst., ecoBKP 130 Gemeinsame
-  Baustelleneinrichtung vollst., ecoBKP 201 Baugrubenaushub vollst., ecoBKP 21 Rohbau 1 Beginn
-  Allgemeines+Holzauswahl+Bauteile Gebäudehülle); Rest (ecoBKP 21 Fortsetzung, 211-450, insgesamt
-  30 Merkblätter) noch offen für Folgelauf."
+  Baustelleneinrichtung vollst., ecoBKP 201 Baugrubenaushub vollst., ecoBKP 21 Rohbau 1 vollst.,
+  ecoBKP 211 Baumeisterarbeiten vollst., ecoBKP 213 Montagebau in Stahl vollst., ecoBKP 214
+  Montagebau in Holz/Zimmerarbeiten vollst., ecoBKP 215 Montagebau als Leichtkonstruktion
+  vollst., ecoBKP 221 Fenster/Aussentüren/Tore Beginn Allgemeines+Holzauswahl); Rest (ecoBKP 221
+  Fortsetzung, 222-450, insgesamt noch 21 von 30 Merkblättern) offen für Folgelauf."
 herausgeber: "Verein ecobau, Röntgenstrasse 44, 8005 Zürich (Kerngruppe Severin Lenel/ecobau,
   Stefan Schrader/Büro für Nachhaltigkeit am Bau Zürich, Christian Pestalozzi/ARX Group AG Basel,
   Marianne Stähler/ecobau); Systematik Normpositionen-Katalog NPK © CRB"
 ausgabe: "ecoBKP 2026 / V 1.0, Stand Januar 2026"
-gelesen: "2026-08-05 (S. 1-20/138, via Read-Tool, direkt von ecobau.ch geladen)"
+gelesen: "2026-08-05 (S. 1-20/138); 2026-08-24 (S. 20-40/138, PyPDF2-Volltext, direkt von
+  ecobau.ch nachgeladen und gegen die vorhandene S.-1-20-Fassung geprüft: identisches PDF,
+  8'110'547 Byte)"
 datenstand: "Januar 2026"
 status: emerging
-last_updated: 2026-08-05
+last_updated: 2026-08-24
 ---
 
 # ecoBKP 2026 — Methodik und Übersicht (ecobau)
@@ -85,12 +89,62 @@ Unterboden ≤2,5 m Schütthöhe mit Gründüngung; geböschte Baugrubensicherun
 vorzuziehen gegenüber vertikaler (Spundwand/Rühlwand: "Vielfaches" der Umweltlast); Tiefgründungen
 (Bohrpfahl, Verdrängungspfahl) ökologisch am ungünstigsten.
 
-**ecoBKP 21 Rohbau 1 (Beginn):** Holzauswahl 1. Priorität Label Schweizer Holz/FSC/PEFC,
-2. Priorität EU/EFTA-Herkunft ohne Nachweis, **nicht empfohlen: aussereuropäisches Holz ohne
-Nachweis nachhaltiger Produktion** (Minergie-ECO-Ausschlussvorgabe 210.06). Design-for-
-Disassembly-Kriterien (zugängliche, lösbare, sichtbare Verbindungen; wenig Werkzeugarten;
-standardisierte Komponenten). Bauteil-Varianten-Tabelle (Fundament/Aussenwand/Dach/Innenwand/
-Decke) beginnt S. 14 — **Fortsetzung im nächsten Lauf**.
+**ecoBKP 21 Rohbau 1 (vollständig, S. 13-15):** Holzauswahl 1. Priorität Label Schweizer
+Holz/FSC/PEFC, 2. Priorität EU/EFTA-Herkunft ohne Nachweis, **nicht empfohlen:
+aussereuropäisches Holz ohne Nachweis nachhaltiger Produktion** (Minergie-ECO-Ausschlussvorgabe
+210.06). Design-for-Disassembly-Kriterien (zugängliche, lösbare, sichtbare Verbindungen; wenig
+Werkzeugarten; standardisierte Komponenten). Bauteil-Varianten-Tabelle (Grundlage Anhang D SIA
+390/1) je Bauteil eine empfohlene Konstruktion, keine echte Variantenwahl: Fundament/Bodenplatte
+gedämmt = Betonplatte mit Schaumglasschotter/-platten; Aussenwand unter Terrain gedämmt =
+Betonwand mit EPS/Schaumglas; **Aussenwand über Terrain = Holzständer-/Massivholzwand mit
+Glaswoll-/Steinwolle- oder Holzfaser-/Zellulosefaserdämmung**; **geneigtes Dach = Holzkonstruktion**
+mit Ton-/Betonziegel-, Faserzement- oder Holzschindel-Deckung; nicht tragende Innenwand =
+Lehmstein-Mauerwerk oder Leichtbauwand mit Lehmbau-/Gipsfaserplatten/Gipskarton; tragende
+Innenwand ohne Schall-/Brandschutz = Erdsteinwand mit Lehmputz oder unverputzte Kalksandstein-
+wand; Decke ohne Schall-/Brandschutz = Holz-Lehm-Decke, Hohlkastendecke oder Brettstapeldecke.
+
+**ecoBKP 211 Baumeisterarbeiten (vollständig, S. 16-21):** Betonzusatzmittel/Schalöl/Haftmittel
+möglichst lösemittelfrei (max. 1 %) mit FSHBZ- bzw. EU-Ecolabel-Priorität. **Betonwahl:** RC-Beton
+nach SIA 2030:2021, 1. Priorität RC-C50/RC-M40, 2. Priorität RC-C25/RC-M10, **nicht empfohlen:
+Primärbeton, wenn RC-Beton innerhalb 25 km verfügbar ist**; Zementwahl 1. Priorität CEM III/A/B
+(tiefere graue Energie, aber geringere Frühfestigkeit/mehr Ausschalzeit bei Kälte); Transport-
+distanz Frischbeton max. 35 km. Mauerwerk und Wärmedämmungen je mit Lambda-Bandbreiten nach
+Priorität gelistet (z. B. Leicht-Backstein MBL 1. Priorität bis λ 0,068-0,090 je nach Füllung,
+Lehmstein natürlich getrocknet bis λ 0,210-0,470). Wiederverwendung: 1. Priorität ganze Bauteile
+(Beton, Mauerwerk-Flächen/-Steine, Dämmplatten), 2. Priorität stoffliche Verwertung.
+
+**ecoBKP 213 Montagebau in Stahl (vollständig, S. 22-25):** **«Träger/Stützen aus Stahl weisen
+gegenüber Holz eine deutlich höhere graue Energie und höhere Treibhausgasemissionen auf»** —
+Holz/Holzwerkstoffe sind daher die Vorgabe, Stahl nur bei hohen statischen Anforderungen.
+Alu-Profilbleche ~40 % weniger graue Energie als Stahlblech; Sandwichpaneele mit Alu-Schale
+~40 % weniger graue Energie als Stahlblechkassetten; hochlegierte Stähle (>5 % Legierungs-
+elemente) können ein Vielfaches der grauen Energie unlegierter Stähle enthalten. Korrosionsschutz
+primär konstruktiv, Verzinkung nur in korrosiver Umgebung, **nicht empfohlen: grossflächiger
+Einsatz bewitterter Bleche aus blankem Kupfer/Titanzink/verzinktem Stahl ohne Metallfilter**
+(Gewässerschutz, VSA-Regenwetter-Richtlinie). ⚠ Achtung Bestandsbauten: Brandschutzbeschichtungen/
+Beflockungen vor 1990 können Asbest enthalten (Sanierung vor Demontage).
+
+**ecoBKP 214 Montagebau in Holz/Zimmerarbeiten (vollständig, S. 26-30):** dieselbe Holzauswahl-
+Priorität wie ecoBKP 21/211. **Formaldehyd-Emissionen:** formaldehydfrei verleimte Holzwerkstoffe
+oder Ausgleichskonzentration ≤ 0,02 ppm bzw. diffusionsdichte Beschichtung (Minergie-ECO-
+Ausschlussvorgabe 120.02 bei > 0,03 ppm); vorbeugender chemischer Holzschutz nur bei
+unzureichendem baulichem Witterungsschutz. Verbindungen: **nicht empfohlen: Montage-/
+Füllschäume** (keine luftdichten Anschlüsse, keine Trennbarkeit) — stattdessen lösbare mechanische
+Verbindungen, Stopfen mit Seiden-/Mineralfaserzopf.
+
+**ecoBKP 215 Montagebau als Leichtkonstruktion (vollständig, S. 31-34):** Fassadenbekleidungen mit
+detaillierter Prioritätenliste inkl. Blechdicken (z. B. Alublech blank 1. Priorität bis 1,0 mm,
+2. Priorität bis 2,0 mm; Chromnickelstahlblech analog), **nicht empfohlen: unbeschichtete
+Bleifolien, grossflächige bewitterte Bleche aus blankem Kupfer/Titanzink/verzinktem Stahl ohne
+Metallfilter** (deckungsgleich mit ecoBKP 213). Naturstein-Herkunft: Schweiz/Europa bevorzugt,
+Transportdistanz-Richtwert < 500 km ab Landesgrenze. Fassadenbegrünung: bodengebundene Systeme
+(Rankgerüste/Seilsysteme) ökologisch vorteilhafter als fassadengebundene (substratgefüllte
+Kunststoffbehälter).
+
+**ecoBKP 221 Fenster/Aussentüren/Tore (Beginn, S. 35, nur Allgemeines + Holzauswahl gelesen):**
+Lüftungskonzept nach SIA 180 Kap. 3.2 Pflicht für alle Gebäude, **permanente (auch teilweise)
+Fensteröffnung nicht zulässig**; Holzauswahl-Priorität identisch zu den vorigen Merkblättern.
+**Fortsetzung (Oberflächenbehandlung, U-/g-Werte, Beschläge, Rest S. 36ff.) im nächsten Lauf.**
 
 ## Bauherren-Transfer
 
@@ -102,10 +156,24 @@ NPK-Fassung "ecoDevis" (nicht separat geprüft, siehe Quelle).
 
 ## Offene Punkte (nächster Lauf)
 
-- Rest von ecoBKP 21 (Bauteil-Varianten vollständig) sowie die Merkblätter 211-450 (27 von 30
-  noch ungelesen, S. 20-138).
+- ✓ **Rest von ecoBKP 21 sowie ecoBKP 211/213/214/215 nachgeholt (24.08.2026)** — vollständig
+  gelesen, siehe Abschnitt oben. ecoBKP 221 begonnen (nur Allgemeines/Holzauswahl, S. 35).
+- **Verbleibend: ecoBKP 221 Fortsetzung sowie die Merkblätter 222-450 (21 von 30 noch
+  ungelesen, S. 36-138).**
 - "Methodik ecobau" (referenziertes Zusatzdokument zur Bewertungsgrundlage) nicht gelesen.
 - Kein Abgleich mit `wiki/oekologische-materialvorgaben-beschaffung` (SIA-118/AHB-Beschaffungs-
   strang aus Run 123/Wissens-Chef Run 25) — beide Quellen behandeln Bauökologie, aber
   unterschiedliche Ebenen (Beschaffungsvertrag vs. Materialvorgabe je BKP); Querverlinkung
   nachholen, sobald ecoBKP vollständig destilliert ist.
+- **Neu (24.08.2026):** Abgleich der ecoBKP-221-Fensterrahmen-Vorgabe (sobald S. 36ff. gelesen)
+  gegen die bereits belegte 2009→2026-Sachänderung in `[[ecobkp-2009-merkblaetter-nach-bkp]]`
+  («Kunststoff PVC 1.→2. Priorität, Holz-Metall neu 1. Priorität, U-Werte verschoben») — dort
+  bereits dokumentiert, aber ohne den vollständigen 2026-Wortlaut selbst gegengelesen zu haben.
+
+## Backlinks
+
+[[ecobkp-2009-merkblaetter-nach-bkp]] · [[ecobkp-editionskette-2006-2009]] ·
+[[graue-energie-betriebsenergie]] (Stahl-vs-Holz-Trägeraussage ecoBKP 213 stützt denselben
+Kernbefund: Tragstruktur als grösster grauer-Energie-Posten) · [[daemmstoffe-lambda]]
+(Lambda-Prioritäten ecoBKP 211) · [[strohdaemmung-bemessungswert-brandschutz]] ·
+Skill `ausschreibung` (Rule `bkp-2017-referenz`)

@@ -2,7 +2,10 @@
 title: Abstände und Höhen — Kanton Zürich
 status: established
 last_updated: 2026-08-24
-verifiziert: 2026-08-24 (Buch-Run 122: Abschnitt «Harmonisierungsvorlage» korrigiert — PBG
+verifiziert: 2026-08-24 (Buch-Run 124: MAG/IVHB-Sammelgesetz-Verdacht aus Run 122 widerlegt —
+PBG Nachtrag 134 [OS 81, 350; ABl 2023-03-07] und MAG § 29 Abs. 4 [OS 81, 353; ABl 2024-07-05]
+sind zwei getrennte, nur zufällig am selben Tag verabschiedete Erlasse, keine Sammelvorlage.
+Report `outputs/2026-08-24_buch-run124.md`.) — vorher: 2026-08-24 (Buch-Run 122: Abschnitt «Harmonisierungsvorlage» korrigiert — PBG
 Nachtrag 134 [amtlich frisch bezogen, `raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md`]
 ersetzt die IVHB-Übergangsbestimmung «acht Jahre ab Inkrafttreten» durch den festen Stichtag
 «29. Februar 2028», in Kraft seit 1.8.2026. Korrigiert Buch-Run 84 [23.08.2026], dessen
@@ -486,11 +489,16 @@ Höhen/Attika/Terrain-Umstellung [[kap16-10_gebaeudedimensionen-harmonisierung]]
 > (zh.ch-Informationsseite «noch in Beratung», PBG-Rohtext Stand 1.7.2026/Nachtrag 133), stützte
 > sich aber auf **zwei zu diesem Zeitpunkt bereits veraltete Quellen**: das Gesetz war laut
 > eigener Fussnote schon seit 01.08.2026 in Kraft, drei Wochen vor Run 84s Prüfdatum — nur die
-> beschreibende zh.ch-Seite und der KB-Rohtext hinkten dem amtlichen Nachtrag hinterher. Ob dieses
-> «G vom 26. Januar 2026» dieselbe Vorlage ist, die auch die MAG-Umsetzungsfrist auf 1.3.2028
-> verschob (Run 84, Beleg HEV-Meldung), bleibt offen — beide Änderungen teilen Datum und OS-Referenz
-> «OS 81, 350», was für ein gemeinsames Sammelgesetz statt zweier unabhängiger Vorlagen spricht,
-> ist aber nicht am Wortlaut des MAG selbst geprüft (`speculative`, neuer Punkt in QUESTIONS.md).
+> beschreibende zh.ch-Seite und der KB-Rohtext hinkten dem amtlichen Nachtrag hinterher.
+>
+> **Geklärt (Buch-Run 124, 2026-08-24): kein gemeinsames Sammelgesetz mit dem MAG.** Die
+> IVHB-Übergangsfrist im PBG (Nachtrag 134) und die MAG-Umsetzungsfrist auf 1.3.2028 (§ 29 Abs. 4
+> MAG, Run 84) wurden am selben Tag (26.01.2026) verabschiedet und traten am selben Tag
+> (1.8.2026) in Kraft — aber es sind **zwei getrennte Erlasse**: PBG Nachtrag 134 trägt OS 81,
+> **350** (ABl 2023-03-07), das MAG-Fussnote-9-Zitat dagegen OS 81, **353** (ABl 2024-07-05).
+> Bei einer echten Sammelvorlage wären OS-Seite und ABl-Vernehmlassungsdatum für beide Teile
+> identisch. Beleg: `raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md` vs.
+> `raw/260823_amtlich_zh_mag.md`, Gegenüberstellung in `outputs/2026-08-24_buch-run124.md`.
 > **Für die Praxis:** ab sofort gilt die IVHB-Anpassungsfrist einer Gemeinde als spätestens am
 > 29.02.2028 ablaufend, nicht mehr am 01.03.2025 verstrichen — für Thalwil wie jede andere
 > ZH-Gemeinde, unabhängig vom Harmonisierungsstand der jeweiligen BZO.

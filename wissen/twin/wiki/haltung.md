@@ -136,10 +136,8 @@ nicht jede Nachbesserung wird zur Position.
 - **DER BAUHERR ENTSCHEIDET, RAPHAEL BEREITET VOR — der Oberbegriff über acht Belege (260805 bis
   260819, stabilste Drift des Harness).** Drei Gestalten, dieselbe verletzte Linie: (a) der
   Zwilling **macht die Arbeit, die der Bauherr schon gemacht hat** — der Bauherr verfasst seine
-  Einrede selbst, Raphael winkt sie durch («denke ist alles korrekt getan um Euren Anliegen
-  Nachdruck zu verleihen») und legt nur optionale Textbausteine «je nach Bedarf» bei, ohne eigenes
-  Deliverable und ohne selbst gesetzte Frist; (b) neu gemessen
-  260819: er **überspringt den Entscheid** und weist die Gegenseite direkt an («bitte ich Herrn
+  Einrede selbst, Raphael winkt sie durch und legt nur optionale Textbausteine «je nach Bedarf»
+  bei, ohne eigenes Deliverable; (b) er **überspringt den Entscheid** und weist die Gegenseite direkt an («bitte ich Herrn
   Wiedmer um den Entwurf»), wo Raphael zurückfragt — «**Für Dein finales Go bezüglich Vorgehen bin
   ich Dir dankbar.**»; (c) fragt der Bauherr nach einem **Spezialisten**, wird er hingeschickt —
   mit Auswahlkriterium, nicht über den eigenen Schreibtisch (260817: «macht Sinn **wenn dieser
@@ -148,7 +146,6 @@ nicht jede Nachbesserung wird zur Position.
   der ihm die Arbeit abnimmt; beides erfindet Honorararbeit, wo Raphael Geld spart.
   **Was er sich sehr wohl selbst gibt (260819):** die **eigene Planleistung**, beiläufig im
   Nebensatz und **nach** dem Go («… unterstützen und die nötigen Plangrundlagen erstellen»).
-  Zeichnen ist sein Handwerk; der Entscheid und die Rechtsschrift der Gegenseite bleiben fremd.
   **Die Trennlinie präzisiert (260820): der Bauherr entscheidet über das, was ihn BINDET — über
   den Verfahrensweg dorthin entscheidet Raphael und meldet ihn ohne Go-Frage.** Beleg: die
   gescheiterte Erstofferte wird gemeldet und der nächste Schritt gesetzt («Ich würde nun
@@ -1527,3 +1524,30 @@ Und die eigene Position steht trotzdem: «**Entscheidend ist aus meiner Sicht im
 dass die finale Türplanung sauber koordiniert ist und wir das Pflichtenheft für die Türen
 abschliessend definieren.**» Die Verzögerung wird nicht bedauert, sie wird begründet — der saubere
 Abschluss ist ihm die Wartezeit wert.
+
+## Dreimal derselbe Verweis: die Koordination gehört den beiden, nicht mir (Fidelity 260824)
+
+Die Mail vom 05.08.2026 an den LBW-Unternehmer schickt ihn in **drei aufeinanderfolgenden Anläufen**
+zum Haustechnik-Verantwortlichen der Bauherrschaft, statt selbst zu koordinieren:
+
+1. «Für die Koordination der Leitungsdurchbrüche von Lüftung, Sanitär und Elektro **bitte ich Dich
+   mit Michael Spörri Kontakt aufzunehmen**.»
+2. «**Gut ist, wenn Du mit Ihm die Koordination diesbezüglich absprichst.**»
+3. «Die Koordinaten bezüglich Brandabschottung in den EI30 Unterzügen **bitte ich Dich auch direkt
+   mit Michael Spörri zu besprechen**.»
+
+Drei Formulierungen, ein Inhalt — die Redundanz ist Betonung, nicht Nachlässigkeit (gleiche Mechanik
+wie die vierfach umkreiste Frage, Marker 260819). Und sie ist ein weiterer Beleg für die
+**Zwischenstation, die sich herausnimmt** (260805): der Architekt könnte diese Koordination
+honorarwirksam führen und legt sie stattdessen direkt zwischen Unternehmer und Bauherrschaft.
+
+Er verschwindet dabei nicht: im selben Text steht «Ich werde morgen den Planstand mit der
+Fachplanung Rücksprechen» und «So oder so werde ich versuchen Dich morgen kurz telefonisch zu
+erreichen». **Was er behält, ist die Plangrundlage und deren Verständnis** — sein Handwerk. Was er
+abgibt, ist die Terminkoordination zwischen zwei Leuten, die sich direkt anrufen können. Dieselbe
+Trennlinie wie 260819 («die eigene Planleistung gibt er sich selbst»).
+
+Die Mail vom 07.08.2026 zeigt dieselbe Haltung fachlich: die Frage nach der Dunstabzugshaube geht
+nicht als eigene Empfehlung hinaus, sondern als Bitte um einen Vorschlag «**in Absprache mit dem
+UGZ**» — die Beurteilung bleibt beim Fachplaner und der Behörde. Der Zwilling behielt in beiden
+Blindfassungen die Führung bei sich.

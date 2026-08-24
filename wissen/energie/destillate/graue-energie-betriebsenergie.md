@@ -5,7 +5,8 @@ ausgabe: unbekannt (Lehrmittel-Auszug, 1 Seite); Konzept-Werte, kein Normwert
 gelesen: vollstaendig (1 S.)
 datenstand: ⚠ Lehrmittel-Grobwerte (Jahr nicht angegeben). Groessenordnungs-Aussagen; fuer projektgenaue Bilanz KBOB-Oekobilanzdaten/SIA 2032 heranziehen.
 status: emerging
-last_updated: 2026-06-10
+last_updated: 2026-08-24 (Backlinks zu kbob-graue-treibhausgasemissionen-2025 und
+  graue-energie-sanieren-vs-neubau-amortisation nachgetragen, Compounding-Lücke geschlossen)
 ---
 
 # Destillat — Graue Energie im Verhaeltnis zur Betriebsenergie
@@ -102,4 +103,7 @@ keine allgemeingueltige Konstante; sie illustriert die Richtung, nicht den exakt
      (~CHF 1'000/t) als wirtschaftlicher Ersatz-Hebel. Dieser Punkt bleibt in seinem eigenen
      Destillat weiterhin offen für eine bessere Primärquelle (SIA 2032/390/1, Empa-
      Publikationen direkt) — hier ist nur die fehlende Verlinkung behoben.
-  Backlinks unten ergänzt.
+
+**Backlinks:** [[kbob-graue-treibhausgasemissionen-2025]] (projektgenaue Kennwerte/Massnahmen) ·
+[[graue-energie-sanieren-vs-neubau-amortisation]] (Sanieren-vs-Neubau-Schwelle, Negativbefund) ·
+[[minergie-besser-planen-bauen]] (THGE-Grenzwert 11 kg CO₂/m²·a)

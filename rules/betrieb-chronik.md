@@ -1992,3 +1992,24 @@ Persistenz/Autostart). Vorgelegter Befehl fuer den naechsten interaktiven Lauf:
 `plutil -replace ProgramArguments.1 -string "$HOME/Developer/jans-ai-hub/scripts/screensaver-idle-watchdog.sh" ~/Library/LaunchAgents/ch.jans.screensaver-idle.plist`
 danach `launchctl bootout gui/$(id -u)/ch.jans.screensaver-idle` und erneut `bootstrap`.
 Bis dahin ist die Repo-Kopie die Sicherung, nicht die laufende Fassung.
+
+## 260824 — Doppel-Dispatch derselben Reglemente-Queue-Task (mschub603 + mschub608)
+
+Um 06:03 Uhr liefen gleichzeitig zwei `claude -p`-Instanzen mit identischem Prompt
+("Arbeite die Reglemente-Queue des Baurecht-Trainings weiter …") über
+`scripts/claude-run.sh`: PID 48153 (Lauf-Name `mschub603`, gestartet 05:48) und PID 52138
+(Lauf-Name `mschub608`, gestartet 05:59, dieser Lauf). `mschub603` hatte zu diesem Zeitpunkt
+bereits Buch-Run 122 fertig in die KB geschrieben (CHANGELOG-Eintrag + Wiki-Frontmatter
+`ausnahmebewilligung-und-bestandesschutz.md`) und lief nach 15+ Minuten weiterhin aktiv.
+**Kein Konkurrent im Sinne des Prompt-Hinweises** ("Prozess mit deinem eigenen Lauf-Namen") —
+die beiden Lauf-Namen sind verschieden, es handelt sich um zwei echte, unabhängig gestartete
+Dispatches derselben Task mit 11 Minuten Abstand, beide schreibend auf dieselben Wiki-/
+CHANGELOG-Dateien über den SMB-Mount.
+**Reaktion dieses Laufs (`mschub608`):** keine weiteren KB-Schreibvorgänge, um eine Kollision
+auf den von `mschub603` aktiv bearbeiteten Dateien zu vermeiden (gleiche Logik wie Rule
+`auto-verbesserungen` 260811, hier vor statt nach dem Schaden angewendet). Stattdessen nur
+diese Chronik-Notiz und Beendigung ohne Fachbeitrag.
+**Offen für einen künftigen Lauf:** Ursache der doppelten Dispatch-Zeitpunkte (05:48/05:59)
+in der aufrufenden Rotation/Cron-Konfiguration finden — gleiche Fehlerfamilie wie der
+Stale-Runner-Vorfall PID 68866 (27.07.2026) und die stale `buero-projekte`-Wiederholung
+(`/tmp/vollschub-mini.sh`, s.o.), hier aber ein doppelter statt eines veralteten Aufrufs.

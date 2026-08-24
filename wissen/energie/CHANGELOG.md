@@ -1,5 +1,59 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session (Fortsetzung): ecoBKP 2026 um sechs Merkblätter erweitert (S. 1-40/138)
+
+Anschluss an den Vorlauf (Compounding-Lücke `graue-energie-betriebsenergie`), der zwei offene
+A-BLIND-Kandidaten benannte: `werkhof29-zirkulaeres-bauen-stroh-lehm` (geprüft, ausgeschöpft —
+Marketing-Dossier ohne tiefere Primärquelle) und `ecobkp-2026-methodik-und-uebersicht` (echter
+Rest: nur S. 1-20/138 gelesen). PDF erneut direkt von ecobau.ch geladen und S. 14-40 mit PyPDF2
+vollständig gelesen. **Sechs Merkblätter neu destilliert:** ecoBKP 21 Rohbau 1 (Rest,
+Bauteil-Varianten nach SIA 390/1 Anhang D), ecoBKP 211 Baumeisterarbeiten (RC-Beton-Pflicht SIA
+2030:2021, CEM-III-Zementpriorität), ecoBKP 213 Montagebau in Stahl (Stahl «deutlich höhere
+Graue Energie» als Holz — bestätigt `graue-energie-betriebsenergie`), ecoBKP 214 Montagebau in
+Holz (Formaldehyd-Grenzwerte, Füllschaum-Verbot), ecoBKP 215 Montagebau als Leichtkonstruktion
+(Fassadenbekleidungs-Prioritäten). ecoBKP 221 Fenster begonnen (S. 35), Rest offen.
+
+Eingearbeitet in `destillate/ecobkp-2026-methodik-und-uebersicht.md` (Frontmatter, sechs neue
+Merkblatt-Abschnitte, Offene-Punkte, neue Backlinks-Sektion), `destillate/INDEX.md` (Zeile 39),
+`wiki/QUESTIONS.md` (neuer Abschnitt). Status bleibt `emerging` — 21 von 30 Merkblättern
+weiterhin offen (S. 36-138). Für den nächsten Lauf: ecoBKP 221 Fortsetzung + 222-450, danach
+Abgleich gegen die 2009→2026-Sachänderung in `ecobkp-2009-merkblaetter-nach-bkp`.
+Output: `outputs/2026-08-24_ecobkp-2026-merkblaetter-21-215-primaerquelle.md`.
+
+## 2026-08-24 — Interaktive Session (Fortsetzung): Compounding-Lücke in `graue-energie-betriebsenergie` geschlossen
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den Vorlauf (A-BLIND-
+Fall 3, ChemRRV). Vor neuer Primärquellen-Recherche zuerst den `- [ ]`/`- [~]`-Bestand gegen den
+aktuellen Dateistand geprüft: A-P2 18/18 erledigt, A-P3 14/17 (+03.13/03.15 zusätzlich geschlossen),
+E103/E94/E-R148-1/E-R148-2/E-R161-1 an Raphaels Entscheid gebunden (Normkauf SIA 380/1:2016 bzw.
+SN EN ISO 6946, JANS-Projektdaten), E-R129-5/E-WC32-1/E-R134-3/E-R150-3 bewusst P3/P4 zurückgestellt,
+A-BLIND-Vorrat (18-29-Backlink-Kandidaten) laut Vorlauf 9/37 geprüft.
+
+Von den 18-29-Backlink-Kandidaten sieben mit `status: emerging`/`speculative` gezielt gegen ihre
+«Offene Punkte» geprüft (`energie-performance-gap-gesundheitsbau`, `zh-energiegesetz-revision-
+solarpflicht-2026`, `rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh`, `innendaemmung-altbau-
+bauphysik-ch`, `graue-energie-betriebsenergie`, `werkhof29-zirkulaeres-bauen-stroh-lehm`,
+`ecobkp-2026-methodik-und-uebersicht`). Vier davon sind bereits erschöpfend recherchierte,
+primärquellen-belegte Negativbefunde (fünf bis sechs unabhängige Rechercheversuche je Punkt,
+zuletzt 24.08.2026 selbst nachgeprüft) — kein weiterer Ansatz ohne neue Methode oder Normkauf.
+
+**Ein echter, unblockierter Fund:** `destillate/graue-energie-betriebsenergie.md` (Lehrmittel-
+Auszug, `emerging`, `last_updated` seit 2026-06-10 unverändert) führte zwei offene Punkte
+(«KBOB-/SIA-2032-Kennwerte einarbeiten», «Sanieren-vs-Neubau-Schwelle — noch offene Quelle»), die
+beide **bereits an anderer Stelle der KB beantwortet waren, nur nie von hier verlinkt**: (1)
+`[[kbob-graue-treibhausgasemissionen-2025]]`, established seit 26.06.2026 (KBOB-Faktenblatt
+04.04.2025 + Ökobilanzdaten v8.0); (2) `[[graue-energie-sanieren-vs-neubau-amortisation]]`, seit
+13.07.2026 als belegter Negativbefund geführt (keine allgemeingültige CH-Jahreszahl in der
+geprüften Literatur, nur die 50-Jahre-Eigenkompensation und ein CO₂-Preis-Schwellenwert als Ersatz).
+Derselbe Fehlertyp wie 03.15/E-R140-1: eine Lücke angenommen, ohne zuerst das eigene Register zu
+durchsuchen. Beide Fragen in `graue-energie-betriebsenergie.md` mit Verweis und kurzer Einordnung
+geschlossen, Backlinks-Abschnitt neu ergänzt, `last_updated` nachgeführt. Kein neuer inhaltlicher
+Fehler, keine neue Primärquelle gelesen — deshalb kein separates `outputs/`-Dokument.
+
+`git diff --numstat` nativ per ssh geprüft (Auto-Commit `fc7cdbad` erfasste die erste Teiländerung
+bereits, zweite Teiländerung additiv nachgeführt): rein additiv/präzisierend, keine Löschung von
+Bestand.
+
 ## 2026-08-24 — Interaktive Session: A-BLIND-Fall 3 — ChemRRV Anhang 2.10 Volltext gelesen, Zitierfehler behoben, Destillat auf established gehoben
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den Vorlauf, der den

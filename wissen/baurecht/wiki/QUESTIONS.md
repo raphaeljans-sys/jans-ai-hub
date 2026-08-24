@@ -166,6 +166,25 @@ geprüft, keine der beiden bestätigt die andere.
 und VB.2003.00196 am Original verifiziert; RRB Nr. 1294/1995 und VB 94/0016 bleiben aus
 Datenbank-Gründen offen; VB.2012.00531 geklärt (dieselbe Rechtsfrage, anderer Normkontext).
 
+**→ Weiterbearbeitet Buch-Run 123, 2026-08-24:** neuer Zugriffsweg für RRB 1994/1995 gefunden
+(`zentraleserien.zh.ch`, Staatsarchiv ZH, Regierungsratsbeschlüsse 1803-1995 volltextdurchsuchbar
+über eine öffentliche REST-API `/api/search?query=...&field=text` — Slash im Suchbegriff muss als
+Phrase in Anführungszeichen übergeben werden). **RRB Nr. 1294/1995 damit geprüft, aber
+WIDERLEGT statt bestätigt:** der einzige Volltext-Treffer für „1294/1995" im gesamten Bestand
+betrifft die Subventionsbemessung für Gemeinde- und Schulbibliotheken, nicht Bestandesschutz/
+Abbruchreife. Da RRB-Nummern im Kanton Zürich pro Kalenderjahr fortlaufend über alle Direktionen
+vergeben werden, kann die Nummer nicht zusätzlich einem Baurechtsentscheid zugeordnet sein — die
+Fundstelle in der Sekundärquelle (Raphael Jans, Digest 2020) ist damit falsch attribuiert. Die
+inhaltliche Abbruchreife-Aussage bleibt im Artikel stehen (plausibel, dogmatisch konsistent),
+aber ohne Fundstellen-Beleg — kein Ersatzzitat erfunden. **VB 94/0016 bleibt weiterhin offen:**
+das Staatsarchiv-Portal deckt nur Regierungsratsbeschlüsse ab, keine Verwaltungsgerichtsurteile;
+für diesen Fall ist damit kein neuer Zugriffsweg gefunden. Neue Primärquelle
+`raw/260824_amtlich_zh_zszh-rrb-1294-1995.md`, Korrektur in
+[[ausnahmebewilligung-und-bestandesschutz]]. Report `outputs/2026-08-24_buch-run123.md`.
+**Der neue Zugriffsweg selbst ist der grössere Ertrag dieses Laufs** — er schliesst eine Lücke
+im Wege-Register für vor-2000-Verwaltungsentscheide des Regierungsrates (nicht der Gerichte) und
+sollte in `connectors/WEGE.md` nachgetragen werden (ausserhalb des Mandats dieser KB).
+
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 98) — ZH-Mehrwertausgleich (MAG): Buchstand 2019 war Entwurf, erlassener Text weicht in den Prozentsätzen ab
 
 **War offen seit Erstellung von [[enteignung-und-entschaedigung]] (2026-07-04), zuletzt bei
@@ -212,27 +231,74 @@ gelöscht — bleibt als historischer Entwurfsstand belegtreu stehen).
 
 ---
 
-## ⚠ BEOBACHTEN 2026-08-23 (Buch-Run 94) — PBG-Nachtrag 134 amtlich publiziert, tritt erst 01.10.2026 in Kraft
+## ✅ GEKLÄRT 2026-08-24 (Buch-Run 122) — PBG-Nachtrag 134: Fusszeilen-Datum war NICHT das Inkrafttretensdatum; Gesetz bereits seit 1.8.2026 in Kraft, zwei materielle Änderungen gefunden
 
-**Kein Fehler, aber Fassungsstand-relevant für die ganze KB.** Bei der Re-Verifikation von
-[[nutzungsziffern]] (ältestes `verifiziert`-Datum unter den established-Artikeln, Vorschlag
-Run 93) zeigte ein frisch von `notes.zh.ch` bezogenes amtliches PBG-PDF, dass das PBG bereits
-**Nachtrag 134** trägt (zhlex.zh.ch, Publikationsdatum 01.08.2026) — bisher durchgehend als
-«Nachtrag 133, keine Drift» geführt (zuletzt Buch-Run 93, siehe auch die vielen Nachtrag-133-
-Zitate quer durch dieses Register). Die Fusszeile des amtlichen PDF zeigt jedoch
-**«1. 10. 26 - 134»** gegenüber **«1. 7. 26 - 133»** im bestehenden `raw/260607_amtlich_zh_pbg.md`
-— das heisst, **Nachtrag 134 tritt erst per 01.10.2026 in Kraft**. Heute (23.08.2026) gilt
-weiterhin Nachtrag 133; der bestehende Raw-Bestand ist also nicht veraltet.
+**Korrigiert die Schlussfolgerung von Buch-Run 94 (unten, ursprünglicher Wortlaut archiviert).**
+Run 94 las die Fusszeile des amtlichen PBG-PDF («1. 10. 26 - 134» gegenüber «1. 7. 26 - 133») als
+Inkrafttretensdatum und schloss daraus, Nachtrag 134 trete erst per 01.10.2026 in Kraft. Buch-Run
+122 hat das PDF (`700.1_7.9.75_134.pdf`, frisch von `notes.zh.ch` bezogen, PyMuPDF-Volltext)
+vollständig durchsucht: **beide tatsächlichen Änderungs-Fussnoten (76 und 77) tragen den
+Vermerk „… G vom 26. Januar 2026 (OS 81, 350; ABl 2023-03-07). In Kraft seit 1. August 2026"** —
+keine einzige Fundstelle im Dokument nennt den 1. Oktober 2026. Die Fusszeile «1.10.26 - 134» ist
+damit der **Redaktions-/Publikationsstand dieser konsolidierten PDF-Ausgabe**, nicht das
+Inkrafttretensdatum der materiellen Änderung — Nachtrag 134 war zum Prüfzeitpunkt von Run 94
+(23.08.2026) bereits **drei Wochen lang geltendes Recht**, nicht «kein Fehler, aber noch nicht in
+Kraft» wie dort geschlossen.
 
-Für [[nutzungsziffern]] selbst ist die Frage geklärt: §§ 251/253a/254-260/276/52 PBG
-(Hauptteil UND Anhang) sind zwischen Nachtrag 133 und 134 wortgleich — Nachtrag 134 ändert an
-diesen Bestimmungen nichts. **Nicht gepruft: ob Nachtrag 134 andere, in dieser KB zitierte
-PBG-Paragraphen ändert**, die ausserhalb des in Buch-Run 94 gepruften Bereichs liegen.
+**Zwei materielle Änderungen gefunden** (Volltext + Einordnung: `wiki/abstaende-und-hoehen.md`
+Abschnitt «Harmonisierungsvorlage»; Primärbeleg `raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md`):
 
-**Empfehlung für einen künftigen Lauf:** nach dem 01.10.2026 (sobald Nachtrag 134 tatsächlich
-in Kraft ist) ein vollständiges Änderungsverzeichnis von Nachtrag 134 gegen zhlex.zh.ch ziehen
-und prüfen, ob eine der established-Artikel-Fundstellen betroffen ist — nicht erst warten, bis
-eine Einzelre-Verifikation zufällig darüber stolpert.
+1. **§ 221 PBG neu eingefügt** («Zwischennutzungen») — bis Nachtrag 133 eine leere Randnummer,
+   jetzt eigenständiges Instrument neben § 220. Ergänzt in
+   [[ausnahmebewilligung-und-bestandesschutz]].
+2. **IVHB-Übergangsfrist auf festen Stichtag umgestellt:** «acht Jahre ab Inkrafttreten» (§ 342/
+   § 344-Systematik, Ordnungsfrist ohne Sanktion, verstrichen 01.03.2025) wird durch **„bis
+   spätestens am 29. Februar 2028"** ersetzt. Das korrigiert zugleich Buch-Run 84 (23.08.2026,
+   Zeile unten in diesem Register bzw. in [[abstaende-und-hoehen]]): dessen Befund
+   «Quellenverwechslung mit dem MAG, IVHB-Frist weiterhin acht Jahre/unbeschlossen» war anhand
+   der zum Prüfzeitpunkt verfügbaren Quellen (zh.ch-Infoseite «noch in Beratung», PBG-Rohtext
+   Nachtrag 133) korrekt referenziert, aber **beide Quellen waren zu diesem Zeitpunkt bereits
+   veraltet** — das Gesetz war schon in Kraft.
+
+**Bestätigt, keine weitere Drift:** §§ 275-278 PBG (Geschosse/Kniestock/Fassadenhöhe,
+harmonisierte Fassung, zentrale Fundstelle von [[geschosse-und-kniestock]]) sind zwischen
+Nachtrag 133 und 134 wortlautidentisch (0 Korrekturen) — der ursprünglich für diesen Lauf
+gewählte Re-Verifikationskandidat (ältestes `verifiziert`-Datum unter den established-Artikeln)
+bleibt damit CONFIRMED.
+
+**✅ GEKLÄRT 2026-08-24 (Buch-Run 124):** ob «G vom 26. Januar 2026» eine einzige Sammelvorlage
+ist, die sowohl die IVHB-Übergangsfrist im PBG als auch die MAG-Umsetzungsfrist auf 1.3.2028
+verschob. **Nein — zwei getrennte Erlasse.** Gegenlesen beider Primärquellen zeigt: der Wiki-Satz
+«beide Änderungen teilen … OS-Referenz» war bereits selbst unbelegt/falsch — die OS-Referenzen
+weichen ab. PBG Nachtrag 134 (`raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md`, Fussnote 76/
+77): **OS 81, 350; ABl 2023-03-07.** MAG § 29 Abs. 4 (`raw/260823_amtlich_zh_mag.md`, Fussnote 9):
+**OS 81, 353; ABl 2024-07-05.** Gleiches Datum (26.01.2026) und gleiches Inkrafttreten (1.8.2026),
+aber unterschiedliche OS-Seite und ein um über ein Jahr auseinanderliegendes Vernehmlassungs-
+Datum (ABl) — bei einer echten Sammelvorlage wären OS-Seite und ABl-Datum für alle Teile
+identisch. Der Kantonsrat hat am 26.01.2026 zwei unabhängige Gesetzesänderungen verabschiedet,
+die zufällig am selben Tag beschlossen wurden und am selben Tag (1.8.2026) in Kraft traten; die
+je gewählten neuen Stichtage liegen mit 29.02.2028 (PBG/IVHB) und 01.03.2028 (MAG) einen Tag
+auseinander, was zur Zwei-Erlasse-Lesart passt. Beleg/Volltext-Vergleich: `outputs/2026-08-24_
+buch-run124.md`.
+
+**Kein vollständiges PBG-Nachtrag-134-Änderungsverzeichnis erstellt** (die von Run 94
+vorgeschlagene Vollprüfung «alle in der KB zitierten PBG-Paragraphen gegen Nachtrag 134»)
+— stattdessen gezielt: alle Fussnoten mit Datumsangabe 2026 im Volltext gegrept (ergab
+ausschliesslich die beiden oben genannten Fundstellen 76/77) plus die konkret re-verifizierte
+Stichprobe §§ 275-278. Ein Fund ausserhalb dieser Grep-Methode (z. B. eine reine
+Absatz-Umnummerierung ohne neue Fussnote) wäre damit nicht entdeckt worden — Restrisiko klein,
+da ZH-Gesetzestexte jede inhaltliche Änderung durchgehend fussnotieren, aber nicht
+ausgeschlossen.
+
+---
+
+**Archivierter Ausgangsbefund — Buch-Run 94 (2026-08-23), durch Run 122 korrigiert:**
+«PBG-Nachtrag 134 amtlich publiziert, tritt erst 01.10.2026 in Kraft. Bei der Re-Verifikation
+von [[nutzungsziffern]] zeigte ein frisch von notes.zh.ch bezogenes amtliches PBG-PDF, dass das
+PBG bereits Nachtrag 134 trägt (Publikationsdatum 01.08.2026) — bisher durchgehend als
+„Nachtrag 133, keine Drift" geführt. Die Fusszeile zeigt „1. 10. 26 - 134" gegenüber
+„1. 7. 26 - 133" — das heisst, Nachtrag 134 tritt erst per 01.10.2026 in Kraft. Für
+[[nutzungsziffern]] selbst: §§ 251/253a/254-260/276/52 PBG wortgleich, keine Änderung.»
 
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 91) — GG-Lücke aus Run 85 geschlossen: §§ 38-52 + 170-171 GG frisch bezogen, 1 Korrektur (§ 41 GG trägt nicht «Bauvorstand/einzelne Mitglieder»)
 
@@ -581,9 +647,16 @@ die Klammer ist schlicht unrichtig). Hinzu kommt die abweichende **Messgrösse**
 in Projekten die strengere Annahme (2,50 m) rechnen und die Klärung als Vorbehalt setzen.
 Prüfweg: DLZ Bau, Energie und Umwelt Thalwil, Abt. Baubewilligungen. → [[gebaeudearten-und-abstandssystem]]
 
-**T-09 · 🟡 TEILWEISE ERLEDIGT 2026-08-23 — Auslegung belegt, amtliche/gerichtliche
-Letztbestätigung bleibt offen.** Was folgt aus dem Ablauf der achtjährigen BZO-Anpassungsfrist
-am 01.03.2025? Wortlaut- und Systematikanalyse (§ 342 Abs. 2 / § 344 PBG als Gegenbeweis: wo der
+**T-09 · ✅ ERLEDIGT 2026-08-24 (Buch-Run 122) — die Achtjahresfrist selbst ist durch PBG-Nachtrag
+134 ersetzt, siehe Korrektur-Eintrag oben («PBG-Nachtrag 134») und [[abstaende-und-hoehen]].**
+Die Frage «was folgt aus dem Ablauf der Achtjahresfrist am 01.03.2025» ist damit gegenstandslos:
+massgebend ist seit 1.8.2026 der feste Stichtag 29.02.2028, nicht mehr ein Fristablauf ab
+Inkrafttreten. Die Ordnungsfrist-ohne-Sanktion-Analyse unten bleibt methodisch gültig (sie gilt
+für den neuen Stichtag identisch), ist aber nicht mehr akut, da die Frist noch nicht verstrichen
+ist.
+
+**Ursprüngliche Fassung (referenzhalber, 2026-08-23):** Was folgt aus dem Ablauf der achtjährigen
+BZO-Anpassungsfrist am 01.03.2025? Wortlaut- und Systematikanalyse (§ 342 Abs. 2 / § 344 PBG als Gegenbeweis: wo der
 Gesetzgeber eine Frist mit Sanktion belegen will, tut er das ausdrücklich — hier fehlt jede
 Konsequenzklausel) sowie die offizielle Kantonsseite zur Harmonisierung stützen übereinstimmend:
 **Ordnungsfrist ohne eigenständige Rechtsfolge**, das Anhang-Regime endet nicht automatisch mit
@@ -612,6 +685,15 @@ Ausgangsdatum (1.3.2025) und betreffen beide alle ZH-Gemeinden — daher die Ver
 Sekundärquellen, aber keine Sachidentität. **Der ursprüngliche Hauptbefund bleibt unverändert
 offen** (IVHB-Fristverlängerung selbst weiterhin nicht beschlossen); nur der Zusatzbefund zur
 angeblichen Primärquelle ist jetzt aufgeklärt, nicht bestätigt. Quelle: `outputs/2026-08-23_buch-run84.md`.
+
+**Korrektur 2026-08-24 (Buch-Run 122):** «weiterhin nicht beschlossen» war zum Prüfzeitpunkt
+(23.08.2026) bereits veraltet — der amtliche PBG-Nachtrag 134 (in Kraft seit 1.8.2026, drei
+Wochen vor Run 84s Prüfdatum) enthält die Fristverlängerung auf **29.02.2028** (nicht 1.3.2028
+wie die MAG-Sekundärquelle) bereits als geltenden Gesetzestext. Die beiden am Prüfzeitpunkt
+konsultierten Quellen (zh.ch-Infoseite, PBG-Rohtext Nachtrag 133) hatten den Nachtrag schlicht
+noch nicht nachgezogen. Volle Herleitung: Korrektur-Eintrag «PBG-Nachtrag 134» oben in diesem
+Register, `raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md`,
+`outputs/2026-08-24_buch-run122.md`.
 
 Volle Herleitung in [[abstaende-und-hoehen]], Abschnitt «Harmonisierungsvorlage». Betrifft jede
 noch nicht harmonisierte ZH-Gemeinde, nicht nur Thalwil.

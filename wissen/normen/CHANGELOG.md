@@ -1,3 +1,77 @@
+## 2026-08-24 — SIA-Sweep, zwölfte unabhängige Nachmessung: Sättigung erneut bestätigt, bewusst KEIN weiterer Zyklus, Lauf minimal gehalten
+
+**Auftrag:** identisch zum SIA-Sweep-Auftrag der zehn vorangehenden Läufe dieses Tages
+(Register-Zeilen ohne Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis,
+Register/Destillate nachführen). CHANGELOG-Kopf und `logbuch/fristen.md` zuerst gelesen.
+
+**Eigene, unabhängige Nachmessung** (nicht aus dem Vorlauf übernommen, Rule
+`auto-verbesserungen` 260729b/260807): `training/norm-inventar.md` weiterhin **0 offene
+Zeilen** (`grep -c '^\- \[ \]'`). `wiki/REGISTER.md` weiterhin **60** Zeilen unter «Kein
+Volltext im Haus»/«FRISCH GEMELDET» — für alle ist laut Abschnitt A bereits die
+Produktseiten-Metadatenlage (gültig-ab/gültig-bis, Nachfolgenorm) erfasst; kein Volltext
+davon ist kostenlos beschaffbar. `logbuch/fristen.md` trägt die Betriebseskalation vom
+05:29 Uhr (Runner-Endlosschleife) unverändert und unbeantwortet — kein zweiter Eintrag
+gesetzt (Rule `auto-verbesserungen` 260803: keine Selbstwiederholung ohne neuen Inhalt).
+
+**Kollisionscheck:** `ps aux` zeigt mehrere parallele `claude-run.sh`-Prozesse mit
+identischem oder verwandtem Auftragstext (u.a. `--name mschub611`, eigener Lauf); ein
+weiterer, unabhängiger Prozess hat im selben Zeitfenster den Nachbar-Auftrag
+«QUESTIONS-Abarbeitung» bearbeitet und L41-1/L41-2 geschlossen (Eintrag direkt unterhalb).
+
+**Bewusst kein 12. Sättigungs-Absatz in voller Länge, kein neuer SIA-Sweep-Zyklus.** Für
+keine der 60 Register-Zeilen existiert ein ungeprüfter, kostenloser Beschaffungsweg — die
+Sättigung ist bereits zwölffach unabhängig belegt (elf Voreinträge dieses Tages plus dieser).
+Der Lauf wurde nach der Verifikation bewusst beendet, um kein weiteres Budget auf eine bereits
+mehrfach bestätigte Sättigung zu verbrauchen (der auslösende Loop ist ein Betriebsproblem,
+kein Fachproblem, und Raphaels Entscheid in `logbuch/fristen.md` steht noch aus).
+
+**Verifikation:** `git diff --numstat` nach dem Schreibvorgang geprüft — reine Anfügung
+(`+`), keine Löschung an fremdem Inhalt.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung, Lignatec L41-1/L41-2 geschlossen: Fussnote [a] vollständig nachgetragen, REI90(nbb)-Zeile in Tabelle 4 zugeordnet
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten (identischer Auftrag wie
+die zahlreichen Vorläufe dieses Tages). CHANGELOG-Kopf gelesen: die KB galt seit dem Vormittag
+für den ursprünglichen SIA-Sweep-Auftrag als gesättigt (>30 Läufe, siehe Einträge unten), aber
+im gesondert geführten Run-41-Bestand (Lignatec/GVZ/Hindernisfreies Bauen/PAVIDENSA) waren laut
+Kopfzeile noch mehrere Punkte ohne Kauf-/Struktur-Entscheid offen. Bewusst kein weiteres
+Sättigungs-Duplikat — stattdessen zwei konkrete Lignatec-Punkte bearbeitet.
+
+**L41-1 geschlossen.** Fussnote [a] der Tabelle 3 (S. 8 unten links, Original per OneDrive-
+Kopie beschafft — die im Frontmatter hinterlegte SharePoint-Ablage `PL - 03 Brandschutz/…` war
+auf dieser Station nicht gemountet, eine inhaltsgleiche Projektkopie lag unter `AR - 01
+Projekte/2414 THALWIL/06 Reglemente/_Archiv/11 Brandschutz/Lignatec/Lignatec_brandschutz.pdf`)
+mit `pdftoppm -r 300` gerendert und wörtlich gelesen: «Beherbergungsbetriebe, in denen dauernd
+oder vorübergehend kranke, pflegebedürftige oder auf fremde Hilfe angewiesene Personen
+untergebracht sind, wie Krankenhäuser, Alters- und Pflegeheime, Heime für Behinderte,
+Strafanstalten, geschlossene Erziehungsanstalten.» Die drei bisher im Destillat fehlenden
+Nutzungen sind damit kein eigener Tabelleneintrag, sondern Teil der Definition der Zeile
+«Beherbergungsbetriebe [a] z. B. Krankenhäuser» — sie tragen dieselbe Anforderung
+(R60(nbb)/EI60(nbb) durchgehend ab 2 Geschossen). Für JANS mit Healthcare-Schwerpunkt
+praxisrelevant: Alters- und Pflegeheime sowie Heime für Behinderte sind ausdrücklich
+mitgemeint, nicht nur Spitäler.
+
+**L41-2 geschlossen.** Die volle A3-Seite Blatt 06 (S. 12+13, Tabelle 4) gerendert statt nur
+die S.-13-Hälfte, damit die Nutzungsspalte auf S. 12 pixelgenau gegen die Werte auf S. 13
+ausgerichtet werden konnte. Ergebnis: die REI90(nbb)/EI90(nbb)-Zeile gehört zu «Industrie-/
+Gewerbebauten q > 1000 MJ/m² · Bauten mit unbekannter Nutzung», Baulich-Konzept, ab 4
+Geschossen — nicht zu einer Beherbergungsbetriebe-Zeile (deren Werte in denselben Spalten zur
+Kontrolle mitgelesen: durchgehend REI60(nbb)/EI60(nbb), kein REI90). Diese Nutzungszeile fehlte
+im Tabelle-4-Abschnitt des Destillats bisher vollständig und ist jetzt als eigener
+Eckwert-Absatz ergänzt.
+
+**Beide Funde in `destillate/lignum-lignatec-brandschutz.md`** nachgetragen (Tabelle-3- bzw.
+Tabelle-4-Abschnitt, plus neuer Verifikationsstand-Eintrag) und in `wiki/QUESTIONS.md`
+(L41-1/L41-2-Absätze plus Run-41-Kopfzeile) geschlossen. `status` des Destillats bleibt
+`speculative` — dies war eine gezielte Prüfung zweier Punkte, keine vollständige Tabellenrunde;
+L41-3 (getönte Deckschicht) und L41-4 (vollständige Zellrunde Tab. 3/4/5, Seiten-Inventur liegt
+bereit) bleiben offen.
+
+**Verifikation:** `git diff --numstat` nach beiden Schreibvorgängen geprüft — Destillat 45
+Zeilen hinzugefügt/0 gelöscht (reine Anfügung), `wiki/QUESTIONS.md` 30 hinzugefügt/1 ersetzt
+(nur die Run-41-Kopfzeile aktualisiert, per `git diff` gegengelesen: keine fremde Zeile
+betroffen). Kein globales Ersetzen verwendet (Rule `auto-verbesserungen` 260811).
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung, G41-3 geschlossen (DIN 18232-2:2003-06 gegen 2007-Fassung): Durchflussbeiwerte wertgleich, nur Anhang-Buchstabe verschoben
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG-Kopf und

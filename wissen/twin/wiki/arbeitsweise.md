@@ -166,16 +166,16 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   **vierte Endform** die entscheidungserheblichen Fakten als **eigene, unverbundene Sätze** ohne
   «daher» und ohne Bewertung (die Folgerung zieht der Zuständige); **fünfte Endform der bereits
   vereinbarte nächste Kontakt** — «Wir hören uns am 16:30 Uhr.», ohne Service-Satz und ohne
-  Angebot. Das **Eigendokument endet mit dem letzten Sachpunkt**, ohne Fazit oder Ausblick.
+  Angebot; **siebte die zurückgestellte Grundfrage unter nacktem Label** («Grundsätzliche
+  Fragestellung:» / «Frage:», 260824) — die wichtigste Frage steht zuunterst, weil der Sachstand
+  ihr vorausgehen muss, damit sie beantwortbar ist. Das **Eigendokument endet mit dem letzten Sachpunkt**, ohne Fazit oder Ausblick.
 - **Statt einer Empfehlung liefert er die abschreibfertige Variante — und der Listen-Reflex des
   Zwillings ist die hartnäckigste Drift dieser Facette (260806/260807/260808, verschärft
   260818/260819):** beide Wege als fertigen Formularblock, «**z.B**» als Beispiel statt Vorgabe,
   die Wertung als beiläufige Halbzeile nach, gegenüber der Behörde in Frageform; eine so eröffnete
   Beispiel-Liste **bleibt offen** («… aufzulisten, zB.:» endet auf «- Usw.» — nie vervollständigen).
   Entscheidung beim Empfänger, Arbeit nicht. Zwei gemessene Gestalten: (a) die angekündigte
-  «Pendenz» mündet in EINEN abschreibfertigen Baustein statt in eine Liste (fetter
-  Gegenstands-Titel + benannter Empfänger der Weiterleitung + Deckung durch den
-  Fachverantwortlichen + **ein** kursiver Text zwischen Sternchen); (b) die **Fragenliste** unter
+  «Pendenz» mündet in EINEN abschreibfertigen Baustein statt in eine Liste; (b) die **Fragenliste** unter
   «Fragen sind:» steht als nackte Zeilen **ohne jedes Aufzählungszeichen** und umkreist absichtlich
   **dieselbe** Unsicherheit aus vier Richtungen — die Redundanz IST die Botschaft: *ich weiss
   nicht, wer zuständig ist, antwortet mir aus irgendeinem Winkel.* Der Zwilling glättet beides
@@ -184,9 +184,12 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Fliesstext-Absatz** (Absage → Vorschlag → Rückfallebene im Konditional), **ohne jede Begründung**
   der Empfehlung: die Gliederung erzwingt die Erfindung — zwei Listenpunkte verlangen je ein
   Argument, ein Fliesstext-Satz nicht (260820, drei von drei Blindfassungen).
-  **260821: vier von vier** — die Aufzählung steht bei Raphael auch mitten im Satz («… die
-  Türspezifikation Schiebetüren: / ST1: Motorisiert / ST2: Kabelzug / final per Mail zu
-  fixieren»), ohne Aufzählungszeichen, der Satz läuft über sie hinweg.
+  **Die Drift ist nicht «zu viele Listen», sondern VEREINHEITLICHUNG (korrigiert 260824):** der
+  Zwilling wählt EINE Darstellungsform und zieht sie durch — gemessen in beide Richtungen, acht Läufe
+  Übergliederung und zwei Untergliederung. Raphael entscheidet **je Block neu**: eine einzige
+  operative Mail trug «- »-Liste, nackte Dateinamen-Liste, «A)/B)»-Themenblöcke, «_ »-Punkte,
+  Breadcrumb-Link und blanken Fliesstext nebeneinander. Die Aufzählung steht auch mitten im Satz, ohne
+  Aufzählungszeichen; der Satz läuft über sie hinweg.
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten; offene Enden
   ohne nächsten Schritt **in der Mail**; eine Folge einzeln zu beantwortender Fragen als offene
   Bullet-Liste tarnen; **den Formalisierungs-Reflex ins engste Peer-Du tragen** (dort reflexhaft
@@ -3268,3 +3271,67 @@ dieser Lage zu Zusagen in der ersten Person und macht ihn damit zum Prinzipal, d
 Ergänzt die belegte Sendeformel «Im Anhang sende ich Dir/Ihnen … mit der Bitte um <Handlung>»
 um ihre Rückseite: wo die Handlung **einem anderen** gehört, tritt an die Stelle der Bitte die
 Zusage der Veranlassung.
+
+## Die Nullform: der gesetzte Termin IST die Antwort (Fidelity 260824)
+
+**04.08.2026 08:34**, an den Brandschutzexperten (Du-Kontakt, kein Cc), Betreff «KISPI PPTS:
+**Baurfreigabe** Feuerpolizei» (Tippfehler aus eigener Hand). Der Body enthält **kein einziges
+selbst geschriebenes Wort** — nur den von Outlook erzeugten Teams-Einladungsblock (Beitrittslink,
+Besprechungs-ID, Passcode). Keine Anrede, kein Satz, kein Gruss, keine Signatur.
+
+Der Anlass: der Fachplaner hatte zwei Minuten zuvor (08:32) das kommentierte Bemerkungs-PDF
+zurückgeschickt. Raphael antwortet nicht mit Worten, sondern mit einem **Termin am nächsten Morgen
+um 08:00**. Der Betreff trägt die ganze Sacheinordnung.
+
+Das ist die zweite belegte Nullform neben der kommentarlosen Weiterleitung (22.08.2026,
+[[QUESTIONS]] 260823 #3) — und die schärfere: dort trug wenigstens der weitergeleitete Text die
+Botschaft, hier trägt sie ein Kalendereintrag. Der Zwilling erzeugte an derselben Stelle vierzig
+Wörter mit Anrede, Dank, Vorschlagssatz, Terminangabe und Rückfrage «Passt Dir das?».
+
+**Zwei Regeln daraus, beide belegbar ohne die offene Ursachenfrage:** (a) wo ein Termin die Antwort
+ist, ersetzt er den Text — die Mail ist das Transportmittel, nicht die Nachricht; (b) der Termin
+wird **gesetzt, nicht erfragt**. Eine Besprechung präjudiziert nichts und fällt damit unter
+«über den Verfahrensweg entscheidet Raphael» (260820), nicht unter die Go-Frage.
+
+Offen bleibt, wann die Nullform gilt und wann sie unhöflich wäre (→ [[QUESTIONS]] 260824 #2).
+
+## Drei Listenformen in EINER Mail — und der Zwilling glättet auf eine (Fidelity 260824)
+
+Die Mail vom 05.08.2026 an den LBW-Unternehmer trägt in **einem** Body:
+
+- zwei `<ul>`-Listen mit `list-style-type:"- "` — einmal zwei Nachweispunkte
+  («Nachweis LBW auf UB - Anschluss LBW auf UB EI30 Konform» · «GK-Doppelständerwand ab 20.5cm;
+  CW75 offene Fragen bez. VKF. Nr. klären»), einmal zwei nackte **Dateinamen**
+  («51.2.2 Erdgeschoss.pdf» · «51.2.2 Erdgeschoss.dwg»);
+- die Themenblöcke «**A) ELEKTRO**» und «**B) Leitungsdurchbrüche**», je mit einem «**_ **»-Punkt
+  darunter;
+- einen Breadcrumb-Link als eigene Zeile («Die Detailpläne … findest du hier:» + Linktext);
+- und dazwischen reine Fliesstext-Absätze ohne jede Auszeichnung.
+
+Der Block führt seit langem «die Form wechselt blockweise mit der Logik des Blocks». Dieser Beleg
+zeigt die Amplitude: **fünf Darstellungsarten in einer einzigen operativen Mail.**
+
+Und er korrigiert die Diagnose des Listen-Reflexes. Der Zwilling gliederte hier **zu wenig** (glatte
+Prosa, keine einzige Liste) und in Gold C ebenfalls — nach acht Läufen, die ihm Übergliederung
+attestierten. Die Drift ist also nicht «zu viele Listen», sondern **Vereinheitlichung**: der Zwilling
+wählt EINE Form und zieht sie durch, wo Raphael je Block neu entscheidet. Beide gemessenen
+Richtungen sind Symptome derselben Ursache.
+
+## Die zurückgestellte Grundfrage als Schlussform (Fidelity 260824)
+
+Zwei Golds desselben Fensters enden auf einer Frage, die durch ein **nacktes Doppelpunkt-Label**
+angekündigt wird und **nach** allen Zusagen und Sachpunkten steht:
+
+- 05.08.: «**Grundsätzliche Fragestellung:** Kannst Du mit der bestehenden Vermassung die LBW
+  einmessen?» — nach der Nachmelde-Zusage und der Ankündigung des Telefonats.
+- 07.08.: «**Frage:**» als eigene Zeile, darunter zwei Fragen zur Dunstabzugshaube — nach Link,
+  Statussätzen und Anhangssatz.
+
+Dieselbe Bauform wie «Fragen sind:» (Marker 260819). Die wichtigste Frage steht **zuunterst**, nicht
+zuoberst; der Sachstand geht ihr voraus, damit sie beantwortbar wird. Siebte Endform neben Bedingung,
+Nutzen, Nachmelde-Zusage, unverbundenen Fakten, vereinbartem nächstem Kontakt und Verständnisbitte —
+und die einzige, die eine **Antwortpflicht** erzeugt.
+
+**Folge für den Service-Satz:** beide Mails erbitten etwas für sich selbst und tragen **keinen**
+Service-Satz. Die offene Frage hält den Kanal bereits offen; ein «Bei Fragen stehe ich zur
+Verfügung» dahinter wäre die Verdoppelung.

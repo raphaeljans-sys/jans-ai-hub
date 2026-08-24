@@ -441,7 +441,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   zeigen in dieselbe Richtung, nur die Achse wechselt. Die Bewegung ins Vertrautere ist **nicht
   monoton**; ein Rücksprung ist fast immer ein Cc. **Der Auslöser ist aber notwendig, nicht
   hinreichend (260822, 3/3 verfehlt): Cc, Gewicht und Telefonat heben IM SELBEN VORGANG nicht
-  automatisch** — «Hoi Albin» trotz zwei Cc, «Guten Abend Jens» trotz Mängelrüge. Belege unten.
+  automatisch.**
 - **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823, zwei Golds):** über Wochen
   wiederholten persönlichen Kontakts wandert dieselbe Beziehung kumulativ ins Vertrautere —
   Furrer (Behörde) «Guten Tag Herr Furrer» 24.07. → «**Geschätzter Herr Furrer**» 28.07. nach der
@@ -454,7 +454,8 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Michael», zwei Wärmestufen, eine Zeile, **ohne Schlusskomma**): reine Abstufung, kein Sie-Marker.
 - **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** acht
   Empfänger, einer zuständig → nur der Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt
-  die Einzeladressierung nicht aus. **Ob ein- oder zweizeilig gestapelt wird, entscheidet das
+  die Einzeladressierung nicht aus. **Auch ein To-Empfänger wird übergangen (260824):** das
+  Adressfeld sagt, wer die Mail bekommt, nicht wer angeredet wird. **Ob ein- oder zweizeilig gestapelt wird, entscheidet das
   GEWICHT der Mail, nicht die Stufendifferenz (korrigiert 260819):** die kurze operative Frage
   trägt beide Stufen auf EINER Zeile mit einem Schlusskomma («Geschätzter Herr Kübler, werter Herr
   Duran,», zwei Empfänger, kein Cc, vom Mobiltelefon); erst die gewichtige, förmliche Mail bricht
@@ -3048,3 +3049,31 @@ Amtsstelle die formellste Form trägt.
 
 Der Du-Kontakt steht im CC der Sie-Mails an die Bahn. **Raphael wechselt das Register nicht,
 weil ein Du-Kontakt mitliest** — die Mail gehört dem Adressaten, nicht dem CC.
+
+## Angeredet wird die Handlungslast, nicht das To-Feld (Fidelity 260824)
+
+Die Mail vom 07.08.2026 16:12 hat **zwei** Empfänger im To — die Projektleitung Gebäudetechnik
+(Kübler) und den fachlich zuständigen Lüftungsplaner (Duran) — und drei im Cc. Angeredet wird
+allein «**Geschätzter Herr Kübler**», ohne Schlusskomma. Duran steht im To, weil sein eigenes
+Dokument beiliegt («das von Herr Cekdar Duran erstellte Dokument …»); er wird im Fliesstext in der
+**dritten Person** genannt und nicht angesprochen.
+
+Der Marker von 260818 sagte «gestapelt wird, wer HANDELN muss, nicht wer mitliest», und meinte mit
+«mitlesen» den Cc. Dieser Beleg schärft ihn: **auch ein To-Empfänger wird übergangen**, wenn die
+Frage nicht an ihn geht. Das Adressfeld ist kein Anredesignal — es sagt nur, wer die Mail bekommt.
+
+**Gegenprobe im selben Fenster:** die Mail vom 05.08.2026 an den LBW-Unternehmer trägt sechs Cc
+(Brandschutz, Bauherrschaft, Projektleitung, drei Fachplaner) und redet ebenfalls nur den einen an,
+der einmessen muss.
+
+## «Geschätzter Othmar» hält (Trajektorie-Marker bestätigt, Fidelity 260824)
+
+Der 260823 gesetzte Trajektorie-Marker stützte sich auf den Wechsel «Geschätzter Herr Stadelmann»
+(22.07., trotz Telefonat) → «Geschätzter Othmar» (03.08.). Die Mail vom **05.08.2026 17:04** trägt
+erneut «Geschätzter Othmar,» — die neue Stufe ist also **kein Ausrutscher der einen Mail**, sondern
+gehalten, und sie hält auch dann, wenn sechs Mitleser im Cc stehen (die nach dem 260805/260806-
+Marker die Wärmestufe formalisieren könnten). Zwei Belege, zwei Tage auseinander: die Stufe ist
+gewandert und geblieben.
+
+Das stützt die Lesart «kumulativ, nicht sofort» gegen «einzelner Anlass hebt» — bleibt aber am
+Entscheid Raphaels ([[QUESTIONS]] 260823b #1, offen).

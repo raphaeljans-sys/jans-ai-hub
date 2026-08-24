@@ -429,6 +429,22 @@ werden.
     ausführendes Unternehmen mit Qualitätssicherungssystem. ④ Auf Brandmeldeanlage kann
     verzichtet werden. ⑤ Grenzen der Bruttogeschossflächen (m²) sind davon abhängig, ob das
     Tragwerk aus brennbarem (bb) oder nicht brennbarem (nbb) Material besteht (S. 8-9).
+  - ⚠ **Nutzungs-Fussnoten [a]/[b]/[c] (S. 8, unten links) — vollständiger Wortlaut nachgetragen
+    24.08.2026 (QUESTIONS-Abarbeitung, Fund L41-1):** bis zu diesem Nachtrag fehlte der Text
+    dieser drei Fussnoten im Destillat vollständig, obwohl die Zeilenbezeichnungen «Beherbergungs-
+    betriebe [a]» und «[b]» selbst schon zitiert wurden. **[a]** «Beherbergungsbetriebe, in denen
+    dauernd oder vorübergehend kranke, pflegebedürftige oder auf fremde Hilfe angewiesene Personen
+    untergebracht sind, wie **Krankenhäuser, Alters- und Pflegeheime, Heime für Behinderte,
+    Strafanstalten, geschlossene Erziehungsanstalten**.» Für JANS mit Healthcare-Schwerpunkt
+    zentral: die Zeile «Beherbergungsbetriebe [a] z. B. Krankenhäuser» ist keine auf Spitäler
+    beschränkte Kategorie — **Alters- und Pflegeheime sowie Heime für Behinderte tragen exakt
+    dieselbe Anforderung** (R60(nbb)/EI60(nbb) durchgehend ab 2 Geschossen, ohne Reduktion durch
+    Sprinklerkonzept, siehe Eckwerte oben) wie ein Krankenhaus. **[b]** «Beherbergungsbetriebe, in
+    denen dauernd oder vorübergehend Personen untergebracht sind, welche nicht auf fremde Hilfe
+    angewiesen sind, wie Hotels, Pensionen, Ferienheime.» **[c]** «Die Anforderungen gelten auch
+    für Verkaufsgeschäfte mit einer gesamten Verkaufsfläche von weniger als 1200 m², sofern die
+    ermittelte Personenbelegung mehr als 100 Personen beträgt.» Quelle: S. 8 unten links
+    (identischer Wortlaut auf S. 12 unten links für Tabelle 4 wiederholt, dort selbst geprüft).
 
 **Anforderungen für bestimmte Nutzungen (Ziff. 2.2.3, S. 10)**
 - Räume/Brandabschnitte mit erhöhten Anforderungen: bei erhöhter Personengefährdung, sehr
@@ -561,6 +577,21 @@ werden.
     EI60(nbb) und blau ist. Die frühere Formulierung «durchgehend» überging diese erste Spalte
     (Refuter-Korrektur 260730 Runde 8) — dieselbe Besonderheit, die das Destillat bei den
     Wohnbauten MFH korrekt festhält.
+  - ⚠ **Industrie-/Gewerbebauten q > 1000 MJ/m² · Bauten mit unbekannter Nutzung — Zeile
+    fehlte im Destillat vollständig, nachgetragen 24.08.2026 (QUESTIONS-Abarbeitung, Fund
+    L41-2, Zellwerte am Original S. 12-13 gegen die Nutzungszeile auf S. 12 spaltengenau
+    ausgerichtet gelesen):** Spalte «2 bis 600 bb/1200 nbb» und «2 über 600 bb/1200 nbb» sowie
+    «3 Geschosse»: **beide Konzepte** Treppenhaus REI60(nbb), Korridor EI60(nbb) — bei
+    Sprinkler in den Spalten bis «3» mit den Grautönen REI60/EI30(nbb) bzw. EI30-nbb (nur
+    fluchtwegseitig verkleidet), bei Baulich bereits ab «2 über 600» blau. **Ab 4 Geschossen
+    steigt beim Baulichkonzept sowohl Treppenhaus als auch Korridor auf REI90(nbb)/EI90(nbb)**
+    (blau) und bleibt dort durchgehend bis 7-8 Geschosse — die einzige Nutzungszeile in Tabelle
+    4, die über REI60(nbb)/EI60(nbb) hinausgeht. Das Sprinklerkonzept dagegen bleibt ab 4
+    Geschossen bei REI60(nbb)/EI60(nbb) (blau), keine REI90-Eskalation. Diese Zeile hat mit der
+    JANS-Healthcare-Nutzung nichts zu tun (hohe Brandbelastung/unbekannte Nutzung, nicht
+    Beherbergung) — der REI90(nbb)/EI90(nbb)-Wert war ursprünglich (Fund L41-2) fälschlich in
+    der Nähe der Beherbergungsbetriebe-Zeile vermutet worden; die spaltengenaue Ausrichtung an
+    der Nutzungsspalte auf S. 12 widerlegt das eindeutig.
   - Beherbergungsbetriebe [b] (Hotels): baulich ab 2 Geschossen durchgehend blau; im
     Sprinklerkonzept bis und mit 3 Geschossen **dunkelgrau** in Treppenhaus UND Korridor
     (beidseitig nicht brennbar verkleidet, also Holzbauteile noch möglich), erst ab 4
@@ -989,3 +1020,17 @@ aktuellere Lignum-Publikation zum Holzbau-Brandschutz abzugleichen.
   - **Endbedingung des Vorrang-Auftrags NICHT erfüllt**: die Quelle ist nicht ausgereizt. Eine
     Rückstufung auf Ereignis-Trigger wird ausdrücklich nicht vorgeschlagen. Kein Nulldurchgang,
     `status` bleibt `speculative`.
+
+- **24.08.2026 (QUESTIONS-Abarbeitung, elfte Runde, gezielt L41-1/L41-2 statt volle
+  Tabellenrunde):** OneDrive-Kopie des Originals (`AR - 01 Projekte/2414 THALWIL/06 Reglemente/
+  _Archiv/11 Brandschutz/Lignatec/Lignatec_brandschutz.pdf`, 12 A3-Seiten, identisch zur
+  SharePoint-Quelle laut Frontmatter) mit `pdftoppm -r 300` gerendert, Blatt 04 (S. 8-9,
+  Tabelle 3) und Blatt 06 (S. 12-13, Tabelle 4) als volle A3-Seite UND als Halbseiten gelesen —
+  die volle Seite, damit die Nutzungsspalte auf S. 12 pixelgenau gegen die Werte auf S. 13
+  ausgerichtet werden konnte. Zwei Funde: Fussnote [a]/[b]/[c] (S. 8 unten links, bisher im
+  Destillat nirgends wiedergegeben) und die REI90(nbb)/EI90(nbb)-Zeile in Tabelle 4 (gehört zu
+  «Industrie/Gewerbe q>1000 · unbekannte Nutzung», nicht zu einer Beherbergungsbetriebe-Zeile).
+  Beide in den jeweiligen Tabellenabschnitten oben nachgetragen. **Kein Nulldurchgang** — dies
+  war eine gezielte Prüfung zweier offener QUESTIONS-Punkte, keine vollständige Tabellenrunde
+  (L41-3 Legende/getönte Deckschicht und L41-4 vollständige Zellrunde Tab. 3/4/5 bleiben offen,
+  `training/lignatec-seiteninventur.md` liegt dafür bereit). `status` bleibt `speculative`.

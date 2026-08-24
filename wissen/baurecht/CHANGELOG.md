@@ -3,6 +3,131 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 124: MAG/IVHB-Sammelgesetz-Verdacht (Run 122) widerlegt — zwei getrennte Erlasse
+- ANLASS: Reglemente-Queue 2414 Thalwil (T1-T9) und die anschliessende Stale-Flag-Sweep-Kette
+  sind laut eigenen Abschlussvermerken vollständig (zuletzt Run 116/121/123). Buch-Run 122 hatte
+  einen tangentialen, niedrig priorisierten Punkt offen gelassen: ob «G vom 26. Januar 2026»
+  eine einzige Sammelvorlage ist, die sowohl die IVHB-Übergangsfrist im PBG (Nachtrag 134, neuer
+  Stichtag 29.02.2028) als auch die MAG-Umsetzungsfrist (§ 29 Abs. 4 MAG, neuer Stichtag
+  1.3.2028) verschoben hat.
+- GEPRÜFT: beide bereits in `raw/` vorhandenen Primärquellen wörtlich gegenübergestellt —
+  `raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md` (Fussnote 76/77: „G vom 26. Januar 2026
+  [OS 81, 350; ABl 2023-03-07]") und `raw/260823_amtlich_zh_mag.md` (Fussnote 9: „G vom 26.
+  Januar 2026 [OS 81, 353; ABl 2024-07-05]").
+- BEFUND: **kein gemeinsames Sammelgesetz.** Gleiches Verabschiedungsdatum (26.01.2026) und
+  gleiches Inkrafttreten (1.8.2026), aber unterschiedliche OS-Seite (350 vs. 353) und ein um
+  über ein Jahr auseinanderliegendes Vernehmlassungs-/ABl-Datum (2023-03-07 vs. 2024-07-05) —
+  bei einer echten Sammelvorlage wären OS-Seite und ABl-Datum für alle Teile identisch. Der
+  bestehende Wiki-Satz «beide Änderungen teilen … OS-Referenz OS 81, 350» war selbst unbelegt/
+  falsch (MAG trägt tatsächlich OS 81, 353, nie geprüft gegen den eigenen MAG-Rohtext). Der
+  Kantonsrat hat am 26.01.2026 zwei unabhängige Gesetzesänderungen verabschiedet, die zufällig
+  am selben Tag beschlossen wurden und in Kraft traten; die neuen Stichtage 29.02.2028 (PBG) und
+  01.03.2028 (MAG) liegen einen Tag auseinander, konsistent mit zwei getrennten Redaktionen.
+- GEÄNDERT `wiki/abstaende-und-hoehen.md` (Abschnitt «Harmonisierungsvorlage», offener Punkt
+  aufgelöst, `verifiziert`-Feld ergänzt), `wiki/QUESTIONS.md` (Buch-Run-122-Block, `speculative`-
+  Punkt auf ✅ GEKLÄRT gesetzt, Originaltext nicht gelöscht, nur ergänzt).
+- KEIN neuer `raw/`-Volltext nötig (beide Primärquellen lagen bereits vor). REPORT
+  `outputs/2026-08-24_buch-run124.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9, Stale-Flag-Sweep,
+  Cross-KB-Runs 117-123). Offen bleiben nur die zwei aus Datenbank-Gründen unverifizierten
+  Fallzitate (VB 94/0016) sowie ein regulärer `wissenscheck`-Turnus oder eine neue
+  Modell-D-Stichprobenrunde als Kandidaten für einen künftigen Lauf.
+
+## 2026-08-24 — Buch-Run 123: neuer Zugriffsweg für vor-2000-Regierungsratsbeschlüsse gefunden (Staatsarchiv-Portal zentraleserien.zh.ch) — RRB Nr. 1294/1995 damit geprüft und als falsch attribuiert entlarvt (betrifft Bibliotheksförderung, nicht Bestandesschutz)
+
+- **Ausgangslage:** Buch-Run 121 hatte zwei Fallzitate der Sekundärquelle (Raphael Jans, Digest
+  2020) als aus Datenbank-Gründen unverifizierbar zurückgestellt (RRB Nr. 1294/1995 = BEZ 1996
+  Nr. 5; VB 94/0016 = RB 1994 Nr. 72) — beide vor 2000, ausserhalb von `entscheidsuche.ch` und
+  der Baurekursgericht-Entscheidnummer-Suche. Dieser Lauf hat gezielt nach einem weiteren
+  Zugriffsweg gesucht (Rule `wege-und-vollmachten`: erst alle Wege prüfen, bevor eine Aufgabe als
+  unmöglich gilt), parallel zum inzwischen abgeschlossenen Buch-Run 122 (anderer, gleichzeitig
+  dispatchter Lauf `mschub603`; siehe `rules/betrieb-chronik.md` 260824 zur Doppel-Dispatch-Lage).
+- **Neuer Zugriffsweg gefunden:** Das Staatsarchiv des Kantons Zürich stellt unter
+  `zentraleserien.zh.ch` Regierungsratsbeschlüsse 1803-1995 volltextdurchsuchbar bereit (Portal
+  "Zentrale Serien des Kantons Zürich", TEI-Publisher/eXist-db, öffentliche REST-API
+  `/api/search?query=...&field=text&type=document`). Ein Slash im Suchbegriff muss als Phrase in
+  Anführungszeichen übergeben werden, sonst bricht der Lucene-Parser ab.
+- **RRB Nr. 1294/1995 geprüft — WIDERLEGT statt bestätigt.** Die Phrasensuche „1294/1995" liefert
+  im gesamten Bestand genau einen Treffer: `data/RRB/MM_3_208/MM_3_208_RRB_1995_2655_t.xml`,
+  Titel „Gemeinde- und Schulbibliotheken (Subventionen)" — die RRB-Nummer bemisst dort die
+  Subventionsbemessung für Gemeinde-/Schulbibliotheken, kein Baurechtsthema. Da
+  Regierungsratsbeschlüsse im Kanton Zürich fortlaufend über das ganze Kalenderjahr und über alle
+  Direktionen hinweg nummeriert werden, kann dieselbe Nummer im selben Jahr nicht zusätzlich einem
+  Bestandesschutz-Entscheid zugeordnet sein — die Fundstelle in der Sekundärquelle ist damit falsch
+  attribuiert (gleiche Fehlerfamilie wie die «RRB 262/2010»-Verwechslung aus Buch-Run 116).
+- **Keine Ersatz-Fundstelle erfunden:** die inhaltliche Abbruchreife-Aussage («für ein verfallenes,
+  technisch abbruchreifes Gebäude besteht kein Bestandesschutz mehr») bleibt im Artikel stehen, weil
+  sie plausibel und mit der übrigen, verifizierten Bestandesschutz-Dogmatik konsistent ist — aber
+  jetzt ausdrücklich ohne belegte Fundstelle markiert, statt die falsche Zitat-Nummer stillschweigend
+  weiterzuführen.
+- **VB 94/0016 bleibt offen:** der neue Zugriffsweg deckt nur Regierungsratsbeschlüsse ab, keine
+  Verwaltungsgerichtsurteile — für diesen Fall kein Fortschritt.
+- **GEÄNDERT** `wiki/ausnahmebewilligung-und-bestandesschutz.md` (Sektion «Technische
+  Abbruchreife» korrigiert, `sources`/`verifiziert` ergänzt), `wiki/QUESTIONS.md` (Run-121-Block
+  fortgeschrieben, Empfehlung zum Nachtrag in `connectors/WEGE.md` vermerkt). **NEU**
+  `raw/260824_amtlich_zh_zszh-rrb-1294-1995.md`.
+- `git diff --numstat` (nativ) nach jedem Schreibvorgang geprüft: nur gezielte
+  Additionen/Korrekturen an den erwarteten Stellen, keine unerwarteten Löschungen.
+- REPORT `outputs/2026-08-24_buch-run123.md`.
+
+## 2026-08-24 — Buch-Run 122: PBG-Nachtrag 134 amtlich verifiziert — Fusszeilen-Datum war Redaktionsstand, nicht Inkrafttreten; IVHB-Anpassungsfrist neu 29.02.2028 statt Achtjahresfrist, § 221 PBG (Zwischennutzungen) neu eingefügt, §§ 275-278 CONFIRMED
+
+- **Ausgangslage:** die Reglemente-Queue (T1-T9), die Stale-Flag-Sweep-Kette (Run 90-116) und
+  die Run-120/121-Cross-KB-Nachträge sind laut eigenen Abschlussvermerken vollständig. Als
+  eigenständiger, aus der offenen Empfehlung von Buch-Run 94 abgeleiteter nächster Schritt
+  gewählt: [[geschosse-und-kniestock]] (ältestes `verifiziert`-Datum unter den established-
+  Artikeln, 2026-07-27) am amtlichen PBG-Nachtrag 134 re-verifizieren — Run 94 hatte am
+  01.08.2026 bereits festgestellt, dass das PBG diesen Nachtrag trägt, die Vollprüfung aber auf
+  «nach dem 01.10.2026» vertagt, weil die PDF-Fusszeile «1.10.26 - 134» als Inkrafttretensdatum
+  gelesen wurde.
+- **PDF direkt bezogen** (`https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/
+  BDFE23FD4AE7E6E6C1258E3D001CBB62/$File/700.1_7.9.75_134.pdf`, über die Erlassseite
+  `zhlex.zh.ch/Erlass.html?Open&Ordnr=700.1` aufgelöst, 101 Seiten, PyMuPDF-Volltext) und
+  systematisch nach allen Fussnoten mit einer 2026er-Datumsangabe durchsucht.
+- **Kernkorrektur: die Fusszeile «1.10.26 - 134» ist NICHT das Inkrafttretensdatum.** Beide
+  tatsächlichen Änderungs-Fussnoten (76, 77) tragen den Vermerk «… G vom 26. Januar 2026 (OS 81,
+  350; ABl 2023-03-07). In Kraft seit 1. August 2026» — keine Fundstelle im gesamten Dokument
+  nennt den 1. Oktober 2026. Nachtrag 134 war zum Prüfzeitpunkt von Buch-Run 94 (23.08.2026)
+  bereits drei Wochen lang geltendes Recht. Die Fusszeile ist der Redaktions-/Publikationsstand
+  der konsolidierten PDF-Ausgabe, kein Rechtsdatum.
+- **Zwei materielle Änderungen identifiziert:**
+  1. **§ 221 PBG neu eingefügt** («Zwischennutzungen») — bis Nachtrag 133 eine leere Randnummer
+     ohne Wortlaut, jetzt ein eigenständiges Instrument neben § 220 (befristete Abweichung von
+     der Nutzweise durch die örtliche Baubehörde, zusätzliche Befreiung von Bauvorschriften unter
+     den Voraussetzungen von § 220). Neue Sektion in
+     [[ausnahmebewilligung-und-bestandesschutz]].
+  2. **IVHB-Übergangsfrist auf festen Stichtag umgestellt:** die Übergangsbestimmung zur Änderung
+     vom 14.9.2015 lautete bis Nachtrag 133 «acht Jahre ab Inkrafttreten» (verstrichen
+     01.03.2025); Nachtrag 134 ersetzt das durch «bis spätestens am **29. Februar 2028**».
+     **Korrigiert Buch-Run 84 (23.08.2026):** dessen Befund «Quellenverwechslung mit dem MAG,
+     IVHB-Frist weiterhin acht Jahre/unbeschlossen» war anhand der damals konsultierten Quellen
+     (zh.ch-Infoseite «noch in Beratung», PBG-Rohtext Nachtrag 133) korrekt referenziert, aber
+     **beide Quellen waren zum Prüfzeitpunkt bereits einen Nachtrag veraltet**. Geänderter
+     Abschnitt in [[abstaende-und-hoehen]], «Harmonisierungsvorlage» (Ordnungsfrist-ohne-Sanktion-
+     Analyse bleibt methodisch gültig, jetzt auf den neuen Stichtag bezogen).
+- **Re-Verifikation §§ 275-278 PBG (harmonisiert, Kern von [[geschosse-und-kniestock]]) —
+  CONFIRMED, 0 Korrekturen:** wortlautidentisch zwischen Nachtrag 133 und 134, inkl.
+  Fussnotenverweise 55/59. Der ursprünglich gewählte Re-Verifikationskandidat ist damit bestätigt.
+- **NEU** `raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md` — gezielter Nachtrag (kein
+  Vollersatz der 5000+-Zeilen-Datei `raw/260607_amtlich_zh_pbg.md`, Rule 260811): dokumentiert
+  beide Änderungsstellen mit Wortlaut, Fussnoten-Fundstelle und Einordnung.
+- **GEÄNDERT** `wiki/QUESTIONS.md`: Run-94-Eintrag auf ✅ GEKLÄRT gesetzt (Ausgangswortlaut
+  archiviert, nicht gelöscht), T-09 auf ✅ ERLEDIGT gesetzt, Run-84-Absatz um Korrekturvermerk
+  ergänzt (ursprünglicher Text unverändert stehen gelassen).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: `raw/260824_amtlich_zh_pbg-
+  nachtrag134-aenderungen.md` Neuanlage; `wiki/abstaende-und-hoehen.md` +33/-32 (Block-Ersatz,
+  von `nas-selfcommit` zwischenzeitlich bereits committet, Inhalt nach Commit erneut gegen die
+  Datei verifiziert); `wiki/ausnahmebewilligung-und-bestandesschutz.md` +14/-3;
+  `wiki/QUESTIONS.md` +78/-24 (Ersatz zweier Status-Header plus Korrekturvermerke, Originalwortlaut
+  jeweils als archivierter/referenzierter Block erhalten, keine unerwarteten Löschungen).
+- **Hinweis zu einer parallel laufenden zweiten Instanz dieser Task** (derselbe Lauf-Prompt,
+  PID 46017, gestartet 05:41, sieben Minuten vor dieser Session/PID 48153): diese hatte beim
+  Start bereits Buch-Run 121 fertiggestellt und committet. Vor Beginn der eigenen Arbeit auf
+  deren Prozessende gewartet (kein gleichzeitiger Schreibzugriff auf dieselben Dateien), Zustand
+  frisch gelesen, dann mit einer eigenständigen, nicht überlappenden nächsten Aufgabe (Nachtrag
+  134) fortgefahren.
+- REPORT `outputs/2026-08-24_buch-run122.md`.
+
 ## 2026-08-24 — Buch-Run 121: die zwei tragendsten Fallzitate der Run-120-Fallpraxis-Vertiefung am Original verifiziert — VB.2003.00196-Zitat korrigiert (§ 101 PBG und Zurückhaltungspflicht nicht haltbar), BRKE II Nr. 0130/2007 CONFIRMED, VB.2012.00531-Frage geklärt
 
 - **Ausgangslage:** Buch-Run 120 hatte als Nächsten Schritt benannt, die zwei tragendsten
