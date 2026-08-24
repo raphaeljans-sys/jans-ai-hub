@@ -1,3 +1,49 @@
+## 2026-08-24 — SIA-Sweep, 34. Fortsetzung: erste vier Titel des grossen Bring-Schuld-Blocks (Seil-/Kletter-Reihe), Datierungs-Korrektur 44002.d/33016.d
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen, CHANGELOG-Pflicht). CHANGELOG-Kopf und Report des letzten
+SIA-Sweep-Laufs (33. Fortsetzung, `outputs/2026-08-24_sia-sweep-dreiunddreissigste-fortsetzung.md`)
+zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck** (`ps aux`): eigener Prozess `mschub526` (PID 74963, exakt dieser
+Auftragstext) — eigener Lauf, kein Konkurrent auf denselben Dateien.
+
+**Ausgangslage:** Die 33. Fortsetzung hatte einen grossen neuen Bring-Schuld-Block (16
+Suva-Titel + 2 EKAS-Richtlinien) aus dem Verweisnetz von 44002.d, Kap. 8, entdeckt und eine
+Abarbeitung in mehreren kleineren Fortsetzungen empfohlen.
+
+**Durchgeführt:** Erste vier Titel des Blocks beschafft — thematisch als Seil-/Kletter-Reihe
+gewählt: **33016.d** (Arbeiten am hängenden Seil, SZP, Stand März 2026 — Projektleiter SZP
+Level 3, dreistufiges Ausbildungskonzept, zwei-Seile-Redundanz, Gefahrenzonen-Tabelle),
+**33006.d** (Rigging Veranstaltungstechnik, Stand Mai 2023 — Vier-Rollen-Matrix
+Hallenbesitzer/Veranstalter/Projektleiter/Rigger), **33032.d** (Seilwurfsystem
+Industrieschleuder, Stand Juni 2022 — Schnellsicherung innert 15 Min.), **33070.d**
+(Seilsicherung im steilen Gelände, Stand Januar 2024 — Abgrenzung zur Seilzugangstechnik).
+Gleiche HTML-statt-PDF-Werkzeug-Falle wie 32./33. Fortsetzung, identisch gelöst (Downloadlink
+aus dem `<a>`-Tag unmittelbar vor „PDF Deutsch" extrahiert). Alle vier vollständig gelesen
+(pymupdf), deutsche Fassung am Metadatentitel bestätigt.
+
+**Datierungs-Korrektur:** 33016.d (März 2026) ist jünger als 44002.d (Oktober 2025), das bisher
+als zweitjüngste Suva-Publikation dieser KB galt. Neuer Rang: 67150.d (Juli 2026) > 33016.d
+(März 2026) > 44002.d (Oktober 2025), im REGISTER mit ⚠-Vermerk korrigiert.
+
+**Neue, im ursprünglichen 44002.d-Verzeichnis noch nicht genannte Cross-Referenzen** aus den vier
+gelesenen Titeln: 67061.d, 67154.d, 33019.d, 33062.d, 33076.d — dokumentiert, nicht verfolgt.
+
+**Nachgeführt:** 4 neue Destillate, `destillate/INDEX.md` (+4 Zeilen), `training/norm-inventar.md`
+(+1 Sammelzeile mit Rest-Liste der 12 verbleibenden Titel + 2 EKAS-Richtlinien), `wiki/REGISTER.md`
+Abschnitt D (4 neue Tabellenzeilen, Bring-Schuld-Absatz um Erschliessung + Datierungs-Korrektur +
+aktualisierte Rest-Liste ergänzt). Report:
+`outputs/2026-08-24_sia-sweep-vierunddreissigste-fortsetzung.md`.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft: 4 neue Destillate
+(`git status --porcelain`, alle `??`), `destillate/INDEX.md` 4/0, `training/norm-inventar.md`
+1/0, `wiki/REGISTER.md` 24/12 (Volltextvergleich: die 12 gelöschten Zeilen sind exakt der alte
+Bring-Schuld-Absatz, ersetzt durch die erweiterte Fassung, keine fremde Zeile berührt). Kein
+`git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung 03:06 Uhr: Filter-Lücke gefunden (fünfte übersehene Sektion), SN 641 400 vierter erfolgloser Web-Anlauf
 
 **Auftrag:** Weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG-Kopf und Report

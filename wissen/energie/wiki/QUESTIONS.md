@@ -4559,6 +4559,16 @@ die KB widerspricht sich selbst.
   ueber mehrere Laeufe desselben Tages — Nachpruefung im Interaktions-Nachlauf bestaetigt jeden
   Punkt am Bestand, keiner musste in diesem Lauf noch angefasst werden). Suche `Audit-Korrektur
   A-P2` in `wiki/` und `destillate/` fuer alle Fundstellen. Historische Zeile unten belassen.
+  ⚠ **Praezisierung (24.08.2026, spaeterer Lauf desselben Tages):** «alle 18 erledigt» stimmt fuer
+  15 der 18 Punkte im engeren Sinn (Grep bestaetigt je einen `Audit-Korrektur A-P2 0X.Y`-Beleg im
+  Bestand). **02.17 (Pflichtfeld `datenstand`) ist nur zur Haelfte erledigt**: das Pruefwerkzeug
+  `wissen/tools/datenstand-waechter.py` ist gebaut und laeuft, die eigentliche Nachruestung fehlt
+  weiterhin bei **28 von 37** Themenartikeln ohne das Frontmatter-Feld — das ist exakt die
+  grossflaechige Registerarbeit, die 03.16 als eigenen Lauf benennt, hier nur mit einer echten
+  Zahl hinterlegt. 02.8 und 02.9 sind ueber andere Mechanismen belegt (02.8 s. Text oben «erledigt
+  23.08.», 02.9 s. Eintrag direkt darunter). Kein Widerspruch zur Kernaussage des Laufs (kein
+  Zahlenfehler mehr offen), aber „erledigt" heisst bei 02.17 nur „Werkzeug vorhanden", nicht
+  „Bestand bereinigt".
 - [x] **02.9 KRNr 6064 — jetzt wirklich geprueft, nicht nur registriert.** Der vorige Lauf hatte
   den verstrichenen Pruefstichtag 17.08.2026 nur nach `logbuch/fristen.md` eingetragen (Punkt
   «in Warteschlange»), die CDWS-Abfrage selbst stand noch aus. Nachgeholt 24.08.2026: live gegen
@@ -4604,11 +4614,42 @@ die KB widerspricht sich selbst.
   Sie aendern keine Zahl, die eine Bauherrschaft in eine Rechnung stellt, oder sind Hausordnung
   (Registerhygiene, tote Verweise, Statuswerte ausserhalb der Skala, ein Tippfehler in Z. 84).
 
+- [x] **03.15 EN-102-Ausgabestand geloest (24.08.2026, interaktive Session) — Original-PDF-Abgleich
+  nachgeholt, damit auch der erste A-BLIND-Fall geschlossen.** Die tote TG-Quell-URL (301 auf
+  nicht aufloesbaren internen Hostnamen, `energie.tg.ch`) wurde durch einen unabhaengigen
+  Zweitmirror ersetzt: Kt. Schaffhausen, Baudepartement Energiefachstelle, Sammel-PDF «Register 2
+  Gebaeudehuelle» (sh.ch/CMS/get/file/31530027-6467-41e2-9546-311c53380766), per WebFetch geladen
+  und mit PyPDF2 seitenweise ausgelesen. **Ergebnis: «Januar 2020» ist richtig, «Dezember 2018»
+  war der Fehler** — nicht umgekehrt. Zwei voneinander unabhaengige Belege in derselben Datei:
+  (1) die Registerseite S. 1 listet alle fuenf Dokumente des Registers mit exaktem Ausgabedatum
+  je Titel (EN-102 «Waermeschutz von Gebaeuden» **Januar 2020**, EN-112 «Kuehlraeume» **Dezember
+  2018**, EN-131/132 Juni 2017) — die Dezember-2018-Zahl gehoert zu EN-112, nicht zu EN-102, und
+  wurde vermutlich bei der ersten Destillation (Run 2, 2026-06-06) verwechselt; (2) die Fusszeile
+  jeder einzelnen EN-102-Seite (S. 4-21 des Sammel-PDF) traegt durchgehend «Ausgabe Januar 2020
+  (Basis: Norm SIA 380/1, Ausgabe 2016)». PDF-Metadaten (Title: Vollzugshilfe EN-102, CreationDate
+  2020-02-20) stuetzen das Datum zusaetzlich. **Die Zahlenwerte selbst waren nie falsch** — Tabelle
+  2 (U-Werte inkl. Storenkasten 0,50/0,50) ist zahlengleich mit dem bisherigen Destillat-Stand,
+  nur das Ausgabedatum im Frontmatter war es. Korrigiert in `[[enfk-en-102-waermeschutz-2018]]`
+  (Frontmatter + Titel + Offene-Punkte-Absatz), `destillate/INDEX.md`,
+  `[[u-werte-grenzwerte-ch]]` (3 Stellen inkl. Versionsabgleich-Ueberschrift), `wiki/BAUHERREN-FAQ.md`
+  Z. 2194, `[[g-werte-verglasungstypen-ch]]`, `[[waermebrueckenkatalog-bfe-fensteranschluss]]`,
+  `[[waermebrueckenkatalog-bfe-rollladenkasten]]`, `[[innendaemmung-altbau-bauphysik-ch]]`,
+  `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`,
+  `destillate/muken-2025-anhang-1-3-uwert-heizwaermebedarf.md` (Nachtrag, historische Narrative
+  unveraendert belassen). Die beiden Zeilen 3702/5348 in `BAUHERREN-FAQ.md`, die bereits «Ausgabe
+  Januar 2020» zitierten (und deshalb den Zwiespalt ueberhaupt erst aufgedeckt hatten), waren die
+  ganze Zeit korrekt und brauchten keine Aenderung. **Methodische Notiz:** Original-URLs veralten;
+  wo die zuerst zitierte Quelle tot ist, traegt ein unabhaengiger Zweitmirror (andere Kantons-
+  Energiefachstelle, dieselbe Vollzugshilfe) dieselbe Beweiskraft wie das Original, sofern
+  Fusszeile UND Metadaten uebereinstimmen.
+
 - [ ] **A-BLIND (P1 fuer die Methode): keine der sechs Dimensionen hat eine Originalquelle
   geoeffnet.** Das Audit sagt, dass die KB sich selbst widerspricht — es sagt nicht, ob ein
   Destillat sein PDF richtig wiedergibt. Diese Blindstelle ist gross und gehoert quartalsweise
   fuer die zwanzig meistzitierten Destillate geschlossen. Exemplarisch: welcher Psi-Grenzwert im
   BFE-Waermebrueckenkatalog 2002 wirklich steht, ist ohne das Original nicht entscheidbar (02.2).
+  **Erster Fall aus dieser Blindstelle ist mit 03.15 oben jetzt geschlossen** — als Beleg, dass
+  sich der Aufwand lohnt: es war tatsaechlich ein echter Fehler im Bestand, keine falsche Warnung.
 
 - [ ] **A-WERKZEUG: die zwei neuen Pruefwerkzeuge sind gebaut, ihre Trefferlisten nicht
   abgearbeitet.** `wissen/tools/bezugsgroessen-check.py` (120 Kandidaten fuer energie) und
