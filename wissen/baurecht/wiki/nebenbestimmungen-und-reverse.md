@@ -2,11 +2,11 @@
 beschreibung: Die Nebenbestimmungen der Baubewilligung im Kt. ZH (§ 321 PBG) — Auflage, Bedingung, Befristung und der baurechtliche Revers. Kernunterscheidung: Mängel «ohne besondere Schwierigkeiten» werden via Nebenbestimmung geheilt, sonst Bauverweigerung; Auflage (Verfügung bleibt gültig, Zwangsmittel §§ 30/31 VRG) vs. Bedingung (Wirksamkeit hängt am künftigen Ereignis); Revers = gemischte Nebenbestimmung; Grundbuch-Anmerkung ist nur deklaratorisch. Liefert die rechtliche Einordnung jeder Auflage aus dem Bauentscheid und ist damit die Faktenbasis für den Skill auflagebereinigung.
 title: Nebenbestimmungen der Baubewilligung und Reverse — ZH
 status: established
-last_updated: 2026-08-07
-sources: [raw/260607_amtlich_zh_pbg.md, "[[07-zustaendigkeiten-entscheide-auskuenfte]] (Bd 1, Kap. 7, S. 437-443)"]
-verifiziert: "2026-07-27 (Buch-Run 67, Modell-D-Wortlautabgleich vollständig, PBG Nachtrag 133, VRG-Begründungspflicht seit 1.1.2026 § 10b statt § 10a)"
-quelle_destillat: "[[07-zustaendigkeiten-entscheide-auskuenfte]] (Bd 1, Kap. 7, S. 437-443)"
-paragraphen: ["§ 321 PBG", "§ 326 PBG", "§§ 30/31 VRG", "§ 320 PBG", "§ 73 PBG", "§ 100 PBG", "§ 101 PBG", "§ 244 PBG", "§ 360 PBG", "§ 10b VRG", "§ 16 BBV I", "Art. 962 ZGB", "Art. 164 GBV"]
+last_updated: 2026-08-24 (Buch-Run 128, Abschnitt Kostenentscheid ergänzt, stale Statuszeile aufgelöst)
+sources: [raw/260607_amtlich_zh_pbg.md, raw/260712_amtlich_zh_vrg.md, "[[07-zustaendigkeiten-entscheide-auskuenfte]] (Bd 1, Kap. 7, S. 437-447)"]
+verifiziert: "2026-07-27 (Buch-Run 67, Modell-D-Wortlautabgleich vollständig, PBG Nachtrag 133, VRG-Begründungspflicht seit 1.1.2026 § 10b statt § 10a); 2026-08-24 (Buch-Run 128, Kostenentscheid S. 443-447 ergänzt und amtlich geprüft gegen frisches VRG-PDF Nachtrag 133: § 13/§ 14 VRG CONFIRMED, «§ 340f PBG» existiert nicht [PBG kennt nur §§ 340/340a], «§ 3 VRG» war falsch zugeordnet [ist eine Zuständigkeits-Vorbehaltsnorm], richtig ist § 17 Abs. 2 VRG)"
+quelle_destillat: "[[07-zustaendigkeiten-entscheide-auskuenfte]] (Bd 1, Kap. 7, S. 437-447)"
+paragraphen: ["§ 321 PBG", "§ 326 PBG", "§§ 30/31 VRG", "§ 320 PBG", "§ 73 PBG", "§ 100 PBG", "§ 101 PBG", "§ 244 PBG", "§ 360 PBG", "§ 10b VRG", "§ 13 VRG", "§ 14 VRG", "§ 17 VRG", "§ 16 BBV I", "Art. 962 ZGB", "Art. 164 GBV"]
 links: [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]]
 ---
 
@@ -93,6 +93,24 @@ Bewilligung (Häfelin/Müller/Uhlmann Rz. 921 ff.).
 - Bei Sachzusammenhang mit der Bauausführung kann **Sicherstellung** verlangt werden, i. d. R.
   auf Baubeginn (§ 321 Abs. 3 PBG).
 
+## Kostenentscheid bei mehreren Beteiligten
+
+Ergänzt Buch-Run 128 (7.1.3.5, S. 447), amtlich geprüft gegen frisches VRG-PDF Nachtrag 133;
+die allgemeine Gebühren-/Kostenrechtsgrundlage (§ 13 Abs. 1 VRG) führt
+[[baubewilligungsverfahren]], Abschnitt Gebühren.
+
+- **Mehrere gemeinsam Beteiligte** (z. B. Miteigentümer, die dasselbe Baugesuch gestellt
+  haben): tragen die Kosten in der Regel **zu gleichen Teilen**, mit **subsidiärer Haftung
+  für das Ganze** — Solidarhaftung ist die **Ausnahme**, sie greift nur, wenn sie sich aus
+  dem **zwischen den Beteiligten bestehenden Rechtsverhältnis** ergibt, z. B. bei
+  Miteigentümergemeinschaft/einfacher Gesellschaft (§ 14 VRG).
+- **Amtsstellen als Kostenträger:** nicht über eine eigene Kostenauflage-Norm, sondern über
+  **§ 17 Abs. 2 VRG** (Parteientschädigung) — im Rekursverfahren und im Verfahren vor
+  Verwaltungsgericht kann die **unterliegende Partei oder Amtsstelle** zu einer angemessenen
+  Entschädigung für die Umtriebe ihres Gegners verpflichtet werden, namentlich bei
+  besonderem Aufwand für komplizierte Sachverhalte/schwierige Rechtsfragen oder bei
+  offensichtlich unbegründeten Begehren/Anordnungen.
+
 ## Befristung / Provisorium ≠ Bestandesschutz
 
 Eine befristete Bewilligung ist die **temporäre Tolerierung** einer vorschriftswidrigen
@@ -146,5 +164,12 @@ inhaltlich unverändert, nur die Nummer hat sich verschoben. Quelle: konsolidier
   Polarität zitiert — «müssen nur angemerkt werden» statt korrekt «müssen NICHT angemerkt
   werden») gefunden und korrigiert; **1 Präzisierung** (§ 326 PBG regelt die Baubeginn-Sperre,
   nicht direkt die Vollstreckung — diese liefern §§ 30/31 VRG).
-- Kostenentscheid (§ 13/§ 14 VRG, § 340f PBG) sowie 7.2/7.3 **Auskünfte und baurechtlicher
-  Vorentscheid/Voranfrage** folgen aus dem Rest von Kap. 7 (noch nicht gelesen).
+- ~~Kostenentscheid (§ 13/§ 14 VRG, § 340f PBG) sowie 7.2/7.3 Auskünfte und baurechtlicher
+  Vorentscheid/Voranfrage folgen aus dem Rest von Kap. 7 (noch nicht gelesen).~~ → **stale,
+  aufgelöst (Buch-Run 128):** dieser Vermerk stammte aus Run 11 (19.06.2026) und war seit
+  Run 12 (21.06.2026) überholt. Kap. 7 ist vollständig distilliert; 7.2/7.3 speisen den
+  eigenen Artikel [[baurechtlicher-vorentscheid-und-voranfrage]]. Der Kostenentscheid steht
+  jetzt oben im Abschnitt «Kostenentscheid bei mehreren Beteiligten» — dabei **«§ 340f PBG»
+  als nicht existent** und **«§ 3 VRG» als falsch zugeordnet** (richtig: § 17 Abs. 2 VRG)
+  erkannt und korrigiert, § 13/§ 14 VRG amtlich CONFIRMED (Buch-Run 128, gegen frisches
+  VRG-PDF Nachtrag 133). `last_updated`/`verifiziert` unten nachgeführt.

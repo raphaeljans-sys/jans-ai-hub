@@ -27,11 +27,13 @@ herausgeber: "EBP Schweiz AG / Minergie Schweiz (1); FHNW Institut Energie am Ba
 ausgabe: "(1) Nov. 2019; (2) 18. Brenet Status-Seminar, 2014; (3) Schlussbericht 17.01.2022; (4) 2023,
   Datenstand teils 2022/2017; (5) Web-Stand 2026, Kernstudie viamedica-Stiftung 2009; (6) VDI 3807
   Blatt 2, laufend aktualisierte ages-Datenbank, Ausgabe nicht verifiziert"
-gelesen: "2026-07-25 (alle sechs Quellen via WebSearch/WebFetch/curl+pdftotext an einem Tag geprüft)"
+gelesen: "2026-07-25 (alle sechs Quellen via WebSearch/WebFetch/curl+pdftotext an einem Tag geprüft);
+  2026-08-24 (ECOSPEED-Blogseite per WebFetch geprüft — neuer Ansatzpunkt ohne publizierte
+  Zahlenwerte, siehe Offene Punkte)"
 datenstand: "2026-07-25 (Web-Abruf); inhaltlich älteste Primärzahl viamedica-Stiftung 2009, jüngste
   Stiftung-Münch-Zitate 2022; keine der Quellen ist jünger als 2023"
 status: speculative
-last_updated: "2026-07-25"
+last_updated: "2026-08-24"
 ---
 
 # Destillat — Energie-Performance-Gap im Gesundheitsbau (Spital/Pflegeheim): Negativbefund + Näherungswerte
@@ -218,6 +220,22 @@ Für ein JANS-Neubau- oder Sanierungsprojekt im Gesundheitsbau bedeutet dieser N
   durchsucht** (Websuche auf ihre öffentlichen Seiten) — beide Verbände könnten über interne
   Fachwissen-Bereiche verfügen, die eine tiefere Recherche (ev. Mitgliederzugang) erfordern würden;
   in dieser Session nicht zugänglich.
+- **Neuer Ansatzpunkt, noch nicht ausgeschöpft (24.08.2026):** ECOSPEED AG (Wallisellen ZH,
+  `ecospeed.eu`/`ecospeed.ch`, CO2-Bilanzierungssoftware-Anbieter) wirbt damit, «die CO2-Bilanzen
+  von 120 Krankenhäusern und Pflegeeinrichtungen in der Schweiz und in Deutschland» ausgewertet zu
+  haben, mit den Kategorien Wärmebedarf/Elektrizität/Wasser sowie Energiebezugsfläche, Baujahr und
+  Kennwert-Entwicklung über die Zeit je Einrichtung (Quelle: `ecospeed.eu/wissen/blog/
+  energiekennzahlen-fuer-krankenhaeuser-und-pflegeeinrichtungen/`, per WebFetch geprüft
+  24.08.2026). **Das ist die bislang einzige in dieser Recherche gefundene Ankündigung eines
+  CH-spezifischen Datensatzes für genau diese Gebäudekategorie** — anders als die sechs oben
+  geprüften Quellen (DE-Datensätze bzw. reine Methodik ohne Gesundheitsbau-Fallbeispiel). **Kein
+  einziger Zahlenwert ist jedoch auf der Webseite selbst publiziert** (per WebFetch bestätigt: keine
+  kWh/m²-Angaben, kein VDI-3807-Verweis auf dieser Seite) — die Kennwerte liegen offenbar nur hinter
+  der kommerziellen Software/einem nicht öffentlich verlinkten Whitepaper. Nächster Schritt für eine
+  Vertiefung: direkte Anfrage bei ECOSPEED AG (Sitz Wallisellen ZH) nach dem zugrundeliegenden
+  Benchmark-Bericht, oder Prüfung, ob ein JANS-Gesundheitsbau-Auftraggeber bereits ECOSPEED-Kunde
+  ist. Nicht mit dem oben genannten SpitalBenchmark (spitalbenchmark.ch, KVG-Fallkosten) zu
+  verwechseln — andere Organisation, anderer Fokus.
 
 ## Quellen
 

@@ -361,7 +361,8 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Bedingung; Befristung/Provisorium = kein Bestandesschutz, max. 5 J., BEZ 1992 Nr. 8; **Revers**-
   Typen; Grundbuch-Anmerkung deklaratorisch BGE 111 Ia 183, Art. 962 Abs. 1 ZGB, Alt-Bestand vor
   1.1.2012 gemaess Art. 164 GBV **nicht** anmerkungspflichtig), Kostenentscheid-Beginn
-  (§ 13 VRG/§ 340f PBG). 11 Doppelseiten (213-225; 1 Dup, 2 ueberbel.).
+  (§ 13 VRG; «§ 340f PBG» als Buchzitat existiert nicht amtlich, korrigiert Buch-Run 128).
+  11 Doppelseiten (213-225; 1 Dup, 2 ueberbel.).
   Status: `established` (Buch-Run 67, [[nebenbestimmungen-und-reverse]] volltextverifiziert).
   Speist [[nebenbestimmungen-und-reverse]] + [[baubewilligungsverfahren]].
 - [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] — Kap. 7 Teil 2 (S. 448-484): **Abschluss

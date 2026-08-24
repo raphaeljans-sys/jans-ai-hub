@@ -2,6 +2,56 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24 — Interaktive Session (achte Fortsetzung): neuer Ansatzpunkt für die Gesundheitsbau-Performance-Gap-Lücke gefunden (ECOSPEED), kein Zahlenwert — Bestand vor Auswahl gegen den heutigen Stand geprüft
+
+Auftrag: weitere offene Fragen aus dieser Datei abarbeiten, belegt mit Quelle und Datenstand.
+Zuerst den `- [ ]`-Bestand gegen den aktuellen Dateistand geprüft (Anschluss an die siebte
+Fortsetzung): A-P2/A-P3 laut CHANGELOG vollständig bzw. Sammellauf, A-BLIND-Top-20-Backlink-Vorrat
+laut siebter Fortsetzung ausgeschöpft («keine im Rest der Top-20 gefunden»), A-WERKZEUG laut den
+beiden Folgeläufen abgeschlossen, E-R230-2/E-R148-1/E-R161-1/E103/E94/E-R134-3/E-R150-3 an Raphaels
+Entscheid gebunden oder bereits erschöpfend dokumentierte Negativbefunde. Backlink-Zählung selbst
+neu gezogen (`grep -rhoE '\[\[[a-z0-9-]+\]\]' wiki/ destillate/ | sort | uniq -c`), um unabhängig
+von der Selbsteinschätzung der Vorläufe zu prüfen, ob wirklich nichts Unblockiertes übrig ist.
+
+**Ausgewählt: `[[energie-performance-gap-gesundheitsbau]]`** (21 Backlinks, `status: speculative`,
+`last_updated` seit 2026-07-25 unverändert) — der dokumentierte Negativbefund («keine CH-/D-A-CH-
+Quelle mit Prognose-gegen-Ist-Vergleich für Spital/Pflegeheim gefunden») nennt selbst vier
+unerschöpfte Ansatzpunkte, darunter «VDI 3807 Blatt 2 nicht im Volltext beschafft». Recherchiert:
+(1) `kennwerte-online.de` (VDI/ages-Portal) — WebFetch scheitert an einem Zertifikatsfehler
+(«unable to verify the first certificate»); (2) ages-GmbH-Unterseite zu Krankenhaus-
+Verbrauchskennwerten — laut WebFetch reines Datenerhebungs-Portal, keine Zahlenwerte publiziert,
+Kennwerte nur über kostenpflichtige ages-Kennwerteberichte oder das Portal; (3) allgemeine
+Web-Suche nach Krankenhaus-Energiekennwerten kWh/m²a — findet ausschliesslich deutsche
+Sekundärquellen mit sehr breiten Bandbreiten (Wärme 80-600 kWh/m²BGF·a bzw. 15-70 MWh/Bett,
+Strom 3-23 MWh/Bett), nichts davon Schweiz-spezifisch oder VDI-3807-Volltext.
+
+**Echter neuer Fund: ECOSPEED AG (Wallisellen ZH), ein bislang nicht bekannter CH-Anbieter, wirbt
+mit einer Auswertung von 120 Spitälern/Pflegeeinrichtungen in der Schweiz UND Deutschland**
+(Kategorien Wärmebedarf/Elektrizität/Wasser, dazu Energiebezugsfläche/Baujahr/Kennwert-Entwicklung
+je Einrichtung) — per WebFetch auf `ecospeed.eu/wissen/blog/energiekennzahlen-fuer-krankenhaeuser-
+und-pflegeeinrichtungen/` bestätigt. Das ist der erste in dieser Recherche gefundene Hinweis auf
+einen tatsächlich Schweiz-spezifischen Datensatz für genau diese Gebäudekategorie — anders als die
+sechs zuvor geprüften, überwiegend deutschen Quellen. **Kein Zahlenwert ist jedoch frei zugänglich**
+(WebFetch bestätigt: keine kWh/m²-Angaben, kein VDI-3807-Bezug auf dieser Seite selbst) — die
+eigentlichen Kennwerte liegen offenbar hinter der kommerziellen ECOSPEED-Software oder einem nicht
+öffentlich verlinkten Whitepaper. **Damit bleibt E103/die Kernfrage weiterhin ungelöst**, aber es
+gibt jetzt einen konkreten, benennbaren nächsten Schritt (direkte Anfrage bei ECOSPEED AG, oder
+Prüfung, ob ein JANS-Gesundheitsbau-Auftraggeber bereits ECOSPEED-Kunde ist), der vorher nicht
+dokumentiert war.
+
+Eingearbeitet in `destillate/energie-performance-gap-gesundheitsbau.md` (neuer Absatz in «Offene
+Punkte», `gelesen`- und `last_updated`-Feld ergänzt/nachgeführt). `git diff --numstat` geprüft:
++20/-2 (rein additiv, die zwei ersetzten Zeilen sind die beiden präzisierten Frontmatter-Felder,
+keine Löschung von Bestand). Kein separates `outputs/`-Dokument, da kein Primärzahlenwert
+gewonnen wurde — der Fund ist ein Rechercheweg, kein belegtes Kennwertepaar.
+
+**Für den nächsten Lauf:** ECOSPEED-Kontaktaufnahme ist ausserhalb des Scopes eines KB-Laufs
+(kein Web-Zugriff auf interne Berichte, kein Vertriebskontakt); dieser Punkt bleibt offen, bis
+entweder ein neuer freier Fund gemacht wird oder Raphael/ein Projekt den Kontakt herstellt. Der
+übrige `- [ ]`-Bestand ist unverändert entweder blockiert (Normkauf, Konsolidierungsentscheid
+ecoBKP) oder als erschöpfter Negativbefund dokumentiert — kein weiterer unblockierter A-BLIND-
+Kandidat in dieser Session gefunden.
+
 ## 2026-08-24 — Interaktive Session (siebte Fortsetzung): A-BLIND-Fall 4 — `zev-eigenverbrauch-mfh-her-2025` (17 Backlinks) auf S. 13-39 nachgelesen, echte Regelungslücke geschlossen
 
 Auftrag: weitere offene Fragen abarbeiten. Auswahl nach der im Audit offen benannten Methode

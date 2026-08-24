@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 07:15:42
+Stand: 24.08.2026 07:25:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:12)
@@ -12,4 +12,4 @@ Stand: 24.08.2026 07:15:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e7a8efb4 nas-selfcommit: 19 Datei(en) 2026-08-24 07:15
+- 544d0f72 vollgas-radar 24.08. 07:20 (Nachlauf fuer ausgefallenen 00:58): Ampel DROSSEL 88.9 Prozent, aktiver /tmp-Schub auf drei Stationen (1337 Laeufe, 79491 Zeilen Ertrag), 429 Nullkosten-Fehlversuche gegen 5h-Sperre, Swap-Trend als Fristenzeile

@@ -1,5 +1,51 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## ✅ GEKLÄRT 2026-08-24 (Buch-Run 128) — Kostenentscheid-Abschnitt [[nebenbestimmungen-und-reverse]] nachgetragen, «§ 340f PBG» als nicht existent und «§ 3 VRG» als falsch zugeordnet erkannt (richtig § 17 Abs. 2 VRG), stale Restschuld-Vermerke in Kap.-7-Destillat aufgelöst
+
+**Anlass:** Buch-Run 127 nennt als einen von drei möglichen nächsten Schritten eine
+Modell-D-Stichprobe an [[nebenbestimmungen-und-reverse]] («seit Ersterstellung nie erneut
+geprüft»). Beim Lesen des Artikels fiel auf: die eigene Statuszeile am Artikelende behauptete,
+der Kostenentscheid (§§ 13/14 VRG, «§ 340f PBG») sei «noch nicht gelesen» — das war falsch
+und stammte unverändert aus Run 11 (19.06.2026), obwohl Run 12 (21.06.2026) Kap. 7
+nachweislich vollständig abgeschlossen hatte (`curriculum.md`: «Kap. 7 abgeschlossen»). Der
+Kostenentscheid-Abschnitt (7.1.3.5) stand bereits vollständig im Buch-Destillat
+[[07-zustaendigkeiten-entscheide-auskuenfte]] (S. 443-447), war aber nie in einen Wiki-Artikel
+übernommen worden und trug dort drei `needs-verification`-Flags.
+
+**Geprüft:** amtlicher VRG-Volltext frisch bezogen (zhlex, Ordnr. 175.2, Nachtrag 133, PDF via
+`notes.zh.ch`-Redirect-Kette + PyMuPDF-Extraktion, da die Erlassseite JS-gerendert ist und
+`pdftotext` auf dieser Station nicht installiert ist).
+
+- **§ 13 Abs. 1/2 VRG** (allgemeine Gebühren-/Kostenrechtsgrundlage, Kostenauflage bei
+  mehreren Beteiligten nach Unterliegen) — **CONFIRMED wortgleich**.
+- **§ 14 VRG** (Kostenauflage bei gemeinsam Beteiligten: zu gleichen Teilen, subsidiäre
+  Haftung für das Ganze, Solidarhaftung nur ausnahmsweise aus dem Rechtsverhältnis) —
+  **CONFIRMED wortgleich**; deckt sich mit der bereits durch Buch-Run 110 verifizierten
+  Fassung in [[rechtsschutz-und-rechtsmittelverfahren]].
+- **«§ 340f PBG»** (vom Buch als Nebenfundstelle neben § 13 Abs. 1 VRG zitiert) — **existiert
+  nicht**: das PBG kennt an dieser Stelle nur § 340 (Strafen) und § 340a (Verjährung der
+  Strafverfolgung), volltextgeprüft gegen `raw/260607_amtlich_zh_pbg.md`. Keine Ersatzfundstelle
+  erfunden; die tragende Rechtsgrundlage bleibt allein § 13 Abs. 1 VRG.
+- **«§ 3 VRG»** (vom Buch/der Ersttranskription für «Kostenauflage an Amtsstellen» zitiert) —
+  **falsch zugeordnet**: § 3 VRG lautet «Besondere gesetzliche Bestimmungen, welche die
+  Zuständigkeit anders ordnen, bleiben vorbehalten» — ein reiner Zuständigkeits-, kein
+  Kostenartikel. Die tatsächlich einschlägige Norm ist **§ 17 Abs. 2 VRG**
+  (Parteientschädigung: im Rekurs-/Verwaltungsgerichtsverfahren kann die unterliegende
+  **Partei oder Amtsstelle** zu einer Entschädigung verpflichtet werden).
+- **RB 1992 Nr. 77** (Gebührenverdoppelung bei zweiter Gesuchsprüfung) bleibt unverifiziert —
+  ein 1992er-Rechenschaftsbericht-Zitat liegt ausserhalb der bekannten Jahrgangsabdeckung von
+  `entscheidsuche.ch` (gleiche Fallfamilie wie VB 94/0016, Run 127); kein neuer Zugriffsweg
+  geprüft, um Scope-Kriechen zu vermeiden. **Unterliegerprinzip bei Lärmklagen** (S. 447) bleibt
+  ebenfalls offen — im Buch ohne eigene Paragraphenangabe, keine Norm erfunden.
+
+**Geändert:** [[nebenbestimmungen-und-reverse]] (neuer Abschnitt «Kostenentscheid bei mehreren
+Beteiligten», stale Statuszeile aufgelöst, Frontmatter/`paragraphen` nachgeführt),
+[[07-zustaendigkeiten-entscheide-auskuenfte]] (Abschnitt 7.1.3.5 korrigiert, stale
+«Restschuld Kap. 7»-Vermerk unter «Offene Punkte» aufgelöst, Frontmatter), `buecher/INDEX.md`
+(Zeiger korrigiert). **NEU** `raw/260824_amtlich_zh_vrg-par3-par17.md` (§§ 1-3 + § 17 VRG,
+treu abgeschrieben, PyMuPDF-Extraktion aus frischem 31-seitigem VRG-PDF Nachtrag 133), in
+`raw/_INGESTED.md` registriert. Report `outputs/2026-08-24_buch-run128.md`.
+
 ## ✅ ZUGRIFFSWEG ABSCHLIESSEND GEPRÜFT 2026-08-24 (Buch-Run 127) — VB 94/0016 (RB 1994 Nr. 72): kein freier digitaler Weg, Jahrgang 1994 statistisch nicht im Index
 
 **War offen seit Buch-Run 120/121** (`[[ausnahmebewilligung-und-bestandesschutz]]`, Abschnitt

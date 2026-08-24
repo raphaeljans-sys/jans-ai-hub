@@ -4,10 +4,10 @@ kapitel: 7 — Baurechtliche Zustaendigkeiten, Entscheide und Auskuenfte
 band: 1
 seiten: 424-447 (Teil 1 — Abschnitt 7.1 «Der kommunale baurechtliche Entscheid»; Kapitel reicht bis S. 484)
 shots: 213-225 (Bildschirmfoto 2026-06-07 um 11.46.57 – 11.47.19; Shot 215 Duplikat von 214; Shots 217/224 ueberbelichtet)
-paragraphen: ["§ 318 PBG", "§ 319 PBG", "§ 320 PBG", "§ 321 PBG", "§ 325 PBG", "§ 326 PBG", "§ 329 PBG", "§ 340f PBG", "§ 73 PBG", "§ 100 PBG", "§ 101 PBG", "§ 244 PBG", "§ 360 PBG", "§ 313 PBG", "§ 316 PBG", "§ 5 GG", "§ 40 GG", "§ 41 GG", "§ 44 GG", "§ 45 GG", "§ 47 GG", "§ 48 GG", "§ 50 GG", "§ 51 GG", "§ 53 GG", "§ 170 GG", "§ 10 VRG", "§ 10a VRG", "§ 13 VRG", "§ 14 VRG", "§ 5a VRG", "§ 4 BVV", "§ 12 BVV", "§ 13 BVV", "§ 3 BBV I", "§ 16 BBV I", "Art. 29 BV", "Art. 30 BV", "Art. 25a RPG", "Art. 22 RPG", "Art. 962 ZGB", "Art. 164 GBV", "Art. 48 USG"]
+paragraphen: ["§ 318 PBG", "§ 319 PBG", "§ 320 PBG", "§ 321 PBG", "§ 325 PBG", "§ 326 PBG", "§ 329 PBG", "§ 73 PBG", "§ 100 PBG", "§ 101 PBG", "§ 244 PBG", "§ 360 PBG", "§ 313 PBG", "§ 316 PBG", "§ 5 GG", "§ 40 GG", "§ 41 GG", "§ 44 GG", "§ 45 GG", "§ 47 GG", "§ 48 GG", "§ 50 GG", "§ 51 GG", "§ 53 GG", "§ 170 GG", "§ 10 VRG", "§ 10a VRG", "§ 13 VRG", "§ 14 VRG", "§ 17 VRG", "§ 5a VRG", "§ 4 BVV", "§ 12 BVV", "§ 13 BVV", "§ 3 BBV I", "§ 16 BBV I", "Art. 29 BV", "Art. 30 BV", "Art. 25a RPG", "Art. 22 RPG", "Art. 962 ZGB", "Art. 164 GBV", "Art. 48 USG"]
 status: emerging
 gelesen: 2026-06-19
-last_updated: 2026-06-19
+last_updated: 2026-08-24 (Buch-Run 128, Kostenentscheid-Paragraphen §§ 13/14/17 VRG amtlich verifiziert, § 340f PBG als nicht existent + § 3 VRG als falsch zugeordnet korrigiert)
 ---
 
 # Kap. 7 — Baurechtliche Zustaendigkeiten, Entscheide und Auskuenfte (Teil 1: Der kommunale baurechtliche Entscheid)
@@ -195,16 +195,39 @@ der massgebenden Baugesuchsunterlagen, durchgefuehrte Verfahrensart.
 
 **7.1.3.5 Kostenentscheid (S. 443-447):**
 - Die Baubewilligungsbehoerden koennen ihre Amtshandlungen mit **Gebuehren und (weiteren)
-  Kosten** belasten (§ 13 Abs. 1 Satz 1 VRG; § 340f PBG, S. 443). Bei einer **zweiten
-  Gesuchspruefung** kann die Gebuehr bis auf das **Doppelte** erhoeht werden (RB 1992 Nr. 77,
-  S. 446 — `needs-verification`, p.444/445 ueberbelichtet).
+  Kosten** belasten (§ 13 Abs. 1 Satz 1 VRG, S. 443 — **CONFIRMED wortgleich, Buch-Run 128**
+  gegen frisches PDF Nachtrag 133: «Die Verwaltungsbehoerden koennen fuer ihre Amtshandlungen
+  Gebuehren und Kosten auferlegen. Der Regierungsrat bezeichnet die kostenpflichtigen
+  Amtshandlungen und die hiefuer zu erhebenden Gebuehren in einer Verordnung»). **Die
+  Buch-Nebenfundstelle «§ 340f PBG» existiert nicht** — das PBG kennt an dieser Stelle nur
+  § 340 (Strafen) und § 340a (Verjaehrung der Strafverfolgung), kein § 340f; entweder eine seit
+  der 6. Buchauflage (2019) aufgehobene/umnummerierte Bestimmung oder ein Lesefehler des
+  Scans, Buch-Run 128, gegen `raw/260607_amtlich_zh_pbg.md`. Die tragende Rechtsgrundlage ist
+  allein § 13 Abs. 1 VRG. Bei einer **zweiten Gesuchspruefung** kann die Gebuehr laut Buch bis
+  auf das **Doppelte** erhoeht werden (RB 1992 Nr. 77, S. 446 — `needs-verification`, p.444/445
+  ueberbelichtet; RB-Zitat von 1992 liegt ausserhalb der Jahrgangsabdeckung von
+  `entscheidsuche.ch`, gleiche Faelle wie VB 94/0016/Run 127, kein Zugriffsweg bekannt, bleibt
+  offen).
 - **Gebuehrenordnung zum Vollzug des Umweltrechts:** Grundlage Art. 48 USG; Gebuehren fuer
   Bewilligungen/Kontrollen umweltrechtlicher Anlagen (S. 446).
 - **Kostenauflage an mehrere Beteiligte:** in der Regel zu gleichen Teilen, subsidiaer
-  solidarische Haftung bei Rechtsverhaeltnis-Solidaritaet (§ 14 VRG, S. 447 — `needs-verification`).
-- **Kostenauflage an Amtsstellen** moeglich (§ 3 VRG, S. 447 — `needs-verification`).
+  solidarische Haftung bei Rechtsverhaeltnis-Solidaritaet (§ 14 VRG, S. 447 — **CONFIRMED
+  wortgleich, Buch-Run 128** gegen frisches PDF Nachtrag 133; deckt sich mit der bereits durch
+  Buch-Run 110 verifizierten Fassung in [[rechtsschutz-und-rechtsmittelverfahren]]).
+- **Kostenauflage an Amtsstellen** ist **nicht** in § 3 VRG geregelt — **§ 3 VRG betrifft den
+  Vorbehalt besonderer gesetzlicher Zustaendigkeitsordnungen** («Besondere gesetzliche
+  Bestimmungen, welche die Zustaendigkeit anders ordnen, bleiben vorbehalten»), ein reiner
+  Zustaendigkeits-, kein Kostenartikel — Fehlzuordnung im Buch/der Ersttranskription
+  aufgeloest, Buch-Run 128, gegen frisches PDF Nachtrag 133. Die tatsaechlich einschlaegige
+  Norm ist **§ 17 Abs. 2 VRG** («e. Parteientschaedigung»): im Rekursverfahren und im Verfahren
+  vor Verwaltungsgericht kann **die unterliegende Partei oder Amtsstelle** zu einer
+  angemessenen Entschaedigung fuer die Umtriebe ihres Gegners verpflichtet werden, namentlich
+  bei besonderem Aufwand fuer komplizierte Sachverhalte/schwierige Rechtsfragen oder bei
+  offensichtlich unbegruendeten Begehren/Anordnungen.
 - **Laermklagen/Anzeigen** von Anwohnern: «Unterliegerprinzip» — Kostenfolge nur bei
-  gesetzwidrigem/rechtsmissbraeuchlichem Verhalten (S. 447 — `needs-verification`).
+  gesetzwidrigem/rechtsmissbraeuchlichem Verhalten (S. 447 — weiterhin `needs-verification`,
+  im Buch ohne eigene Paragraphenangabe; vermutlich Anwendungsfall von § 13 Abs. 2 VRG, aber
+  nicht am amtlichen Text nachgewiesen).
 
 ## 3. Formeln & Schwellenwerte (woertlich belegt)
 - Eigenstaendige/unterstellte Kommission: **mind. 5 Mitglieder** (§ 51 Abs. 3 GG, S. 426).
@@ -252,13 +275,20 @@ der massgebenden Baugesuchsunterlagen, durchgefuehrte Verfahrensart.
   Bestandesschutz — sauber zu trennen von § 220/§ 357 PBG ([[ausnahmebewilligung-und-bestandesschutz]]).
 
 ## 6. Offene Punkte / zu verifizieren
-- **Restschuld Kap. 7 (Teil 2):** Abschnitt 7.1.3.5 Kostenentscheid vollstaendig + die
-  **wichtigen** Folgeabschnitte **7.2/7.3 Baurechtliche Auskuenfte und Vorentscheid/Voranfrage**
-  (baurechtlicher Vorentscheid, vorsorgliche/verbindliche Auskunft) sind **noch nicht gelesen**
-  (ab Shot ~226, S. 448-484). **Hohe Bueroprioritaet** — Voranfrage ist Kernwerkzeug.
-- **needs-verification (ueberbelichtete Seiten):** Ausstand-Details S. 430/431 (Shot 217) +
-  Kostenentscheid-Bemessung S. 444/445 (Shot 224) + Kostenauflage Solidarhaftung/Amtsstellen
-  S. 447 (Shot 225) am amtlichen VRG-/PBG-Volltext (`raw/`) gegenpruefen (Modell D).
+- ~~**Restschuld Kap. 7 (Teil 2):** Abschnitt 7.1.3.5 Kostenentscheid vollstaendig + die
+  wichtigen Folgeabschnitte 7.2/7.3 Baurechtliche Auskuenfte und Vorentscheid/Voranfrage sind
+  noch nicht gelesen.~~ → **stale, aufgeloest (Buch-Run 128):** dieser Vermerk war seit
+  Run 12 (21.06.2026) nicht mehr aktuell. **7.1.3.5 Kostenentscheid** steht bereits vollstaendig
+  oben in diesem Destillat (S. 443-447, Shots 224/225); **7.2/7.3** wurden am selben Tag
+  (Run 12) im Schwester-Destillat [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]]
+  (S. 448-484, Shots 226-244) gelesen und speisen [[baurechtlicher-vorentscheid-und-voranfrage]].
+  Kap. 7 ist damit vollstaendig distilliert, siehe `curriculum.md` («Kap. 7 abgeschlossen»).
+- **needs-verification, Modell D (Buch-Run 128 teilweise erledigt):** Ausstand-Details
+  S. 430/431 (Shot 217) weiterhin offen. Kostenentscheid-Bemessung S. 444/445 (Shot 224) +
+  Kostenauflage-Solidarhaftung/Amtsstellen S. 447 (Shot 225) **gegen den amtlichen VRG-Volltext
+  geprueft** — Ergebnis siehe Abschnitt 7.1.3.5 oben (§ 340f PBG existiert nicht, § 3 VRG war
+  falsch zugeordnet, § 13/§ 14 VRG CONFIRMED); RB 1992 Nr. 77 (Doppelgebuehr) bleibt aus
+  Datenbank-Gruenden unverifiziert.
 - ~~**§ 326 PBG** (Erzwingung von Auflagen) genauer Wortlaut am amtlichen PBG-Volltext sichern.~~
   → **erledigt (Buch-Run 67):** § 326 PBG (`raw/260607_amtlich_zh_pbg.md` Z. 3367-3373) regelt
   nicht die Erzwingung, sondern die **Baubeginn-Sperre**, bis auf den Baubeginn gestellte

@@ -3,6 +3,83 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+
+**ERLEDIGT 24.08.2026, 07:07 (Logbuch-Radar) — Die dritte Nachfassung an L. Bajrami ist
+hinausgegangen; die A7-Widerrufsmechanik hat erstmals produktiv getragen.** Das Widerrufsfenster
+des Vorgangs **260823-085517-38206** lief ohne STOP ab (Postfächer geprüft, keine Veto-Antwort).
+Die Queue erkannte den Vorgang um 07:04 als fällig, `versand-mail-senden.sh` erzeugte und sandte
+die Mail um **07:07:50** an livdin.bajrami@jegen.ch. **Zwischenzustand, der beim nächsten Mal
+Ruhe erlaubt:** um 07:09 lag die Mail noch im Postausgang, obwohl Log und Queue bereits
+«ausgeführt» schrieben — das Script quittiert die AppleScript-Rückmeldung, nicht die Zustellung.
+Bis 07:20 hatte Apple Mail sie ausgeliefert. **Die offene Frage des Hub-Chefs vom 23.08. ist damit
+beantwortet: Apple Mail lässt sich aus dem launchd-Kontext steuern.** Wer den Versand künftig
+belegen will, prüft die Gesendeten, nicht die Logzeile. Der Vorgang liegt in
+`logbuch/widerruf/erledigt/`. Status: **erledigt.** Der Termin selbst bleibt eine Bringschuld
+Bajramis, Frist Dienstag 25.08.2026.
+| Mail in Gesendete Elemente am Original gelesen 24.08.2026 (gesendet 07:07:50, an livdin.bajrami@jegen.ch, Betreff «KISPI PPTS Los 274.01: Termin Massaufnahme innere Verglasung»); Postausgang-Zwischenzustand um 07:09 gemessen, um 07:20 leer | 2619 KISPI, Los 274.01 | hoch | erledigt
+
+**ERLEDIGT 24.08.2026, 00:09 (Logbuch-Radar) — Beide Submissionspakete sind in der
+Projektstruktur; der Mac Mini hat die zwei Sync-Tasks in der Nacht abgearbeitet.** Die zwei
+Registerzeilen vom 23.08. 23:5x und 24.08. 00:1x führten die Ablage als «wartet auf den Mac Mini»,
+weil die Station macbook-revendo keinen Schreibweg in die Projektablage hat. Der Runner hat beide
+Tasks um **00:09** ausgeführt, und die Ziele sind heute am Original nachgemessen:
+**LOS 281.21 Linoleum Therapieküche** liegt vollständig unter
+`03_BKP/LOS_281.21 Bodenbeläge Linoleum Kautschuk Pfister Professional/281.21 03 AS versand/INEVO AG/`
+(Begleitschreiben, LV, Antwortformular, Adressblatt, je DOCX und PDF);
+**LV Plattenarbeiten Nasszellen** liegt unter
+`03_BKP/LOS_281.63 Plattenarbeiten Süd AG Keramik GmbH/03 AS versand/` als DOCX, PDF und MD, und
+gespiegelt **ohne MD** in der für Dritte zugänglichen Bibliothek
+`JANS - 2619-KISPI - Dokumente/2 Umbauprojekt Neu PPTS/33.04 BKP/LOS_281.6 Plattenarbeiten
+Nasszellen/260823-LV/` — Rule `projekt-ablage-stand` und `auto-verbesserungen` 260813 eingehalten.
+**Beiläufig entschieden hat das Script eine offene Frage:** es fand den bestehenden Los-Ordner
+281.63 und legte das Nasszellen-LV dort ab, statt ein eigenes Los zu eröffnen. Das ist eine
+Ablageentscheidung, nicht Raphaels Sachentscheid — **ob 281.63 die richtige Loszuordnung ist,
+bleibt offen** und steht in der Zeile vom 24.08. 00:1x. Ebenso unverändert offen: Formatentscheid
+FB70/FB71, Bemusterung Wandbelag, Raumliste Klasse IV, Termine, sowie beim Los 281.21 die
+Planrevision Küchenbelag und die Versandfreigabe. Status der **Ablage: erledigt**; die
+Sachentscheide bleiben offen.
+| Zielordner am Original gemessen 24.08.2026 07:0x (`ls` in beiden Bibliotheken, Dateigrössen und Zeitstempel 00:09); Ausführung belegt in `sync-tasks/log/runner-202608.log`, Zeilen 24.08. 00:09:43 und 00:09:51, beide Tasks in `sync-tasks/done/` | 2619 KISPI, Lose 281.21 und 281.6 | mittel | erledigt (Ablage)
+
+**NEU 24.08.2026, 07:0x (Logbuch-Radar) — Der Zugangs-Token der Revendo-Station wurde im Klartext
+in ein Gespräch kopiert und ist als offengelegt zu behandeln.** Beim Einbinden der dritten Station
+am 23.08. hat Raphael den OAuth-Token der dortigen Claude-CLI selbst ins Gespräch gestellt
+(«bitte mach es selber ich kann es nicht»). Der Token ist **ein Jahr gültig** und gibt vollen
+Zugriff auf das Claude-Konto. Er wurde weder in eine Datei geschrieben noch verwendet, aber ein
+Geheimnis, das einmal in einem Transkript steht, ist kein Geheimnis mehr. **AKTION Raphael: auf der
+Revendo-Station `claude setup-token` ausführen, damit der alte Token hinfällig wird.** Kein
+Termindruck, aber je früher, desto kleiner das Fenster. Zusammenhang zur Grenze in der
+User-CLAUDE.md («Passwörter, Zertifikate und Tokens nie in Dateien schreiben, nie committen»): die
+Regel deckt Dateien und Commits, nicht das Gespräch selbst — der Fall zeigt die Lücke.
+| Konversations-Destillat 24.08.2026, Abschnitt 1, aus der MacBook-Session vom 23.08. 17:20 bis 17:35; im Register bis heute nicht geführt (grep über `fristen.md` ohne Treffer) | Betrieb/Sicherheit | mittel | offen
+
+**NACHTRAG 24.08.2026, 07:0x (Logbuch-Radar) zur Endlosschleife von 05:29: gemessen ist es
+grösser als der SIA-Sweep, und drei von vier Läufen scheitern am Sitzungslimit.** Die Zeile von
+05:29 benennt den SIA-Sweep. Die eigene Auszählung des Lauf-Journals `logbuch/laeufe/260824-laeufe.jsonl`
+zeigt für die sieben Stunden zwischen 00:05 und 07:08 **566 Läufe**, verteilt über rund fünfzig
+`mschub`-Namen, also nicht einen Auftrag, sondern den ganzen Vollschub-Fuhrpark.
+**437 dieser 566 Läufe endeten mit rc≠0**, und zwar durchgehend mit derselben Meldung
+«You've hit your session limit» (325 auf dem Mac Mini, Reset 02:40; 112 auf der Revendo-Station,
+Reset 05:10). Der Runner startet also gegen eine geschlossene Tür neu, statt bis zum Reset zu
+warten. **Kostenbild:** 352.64 USD API-Äquivalent in sieben Stunden, davon 320.80 auf die 129
+erfolgreichen und 31.84 auf die 437 Fehlläufe — die Fehlläufe sind einzeln billig, in der Masse
+aber der Grund, warum das Journal heute 241 kB statt der üblichen 3.5 kB gross ist.
+**Ursache, nicht Defekt:** direkte Folge des Vollschub-Auftrags vom 23.08.; mit dem
+Kontingent-Reset heute 12:00 fällt der Auslöser **nicht** von selbst weg. Die Aktion bleibt die
+der Zeile von 05:29 (Runner stoppen oder entzerren, Entscheid Raphael); ergänzend wäre ein
+Rückzieher-Verhalten beim Sitzungslimit die eigentliche Lehre. Kein neuer Punkt, Nachtrag zur
+bestehenden Zeile.
+| Eigene Auszählung von `logbuch/laeufe/260824-laeufe.jsonl` am Original 24.08.2026 07:0x (566 Zeilen, rc- und Kostenfelder aggregiert, `result_tail` der Fehlläufe ausgezählt) | Betrieb/Kontingent | mittel | offen
+
+**NACHTRAG 24.08.2026, 07:0x (Logbuch-Radar) zum bexio-Strang: sechzehnter Tag, heute erneut
+gegengemessen, Befund unverändert.** `node connectors/bexio.mjs --verzug --json` antwortet weiter
+mit **HTTP 401**; der Connector weist selbst darauf hin, dass der Token erst am **13.12.2026**
+abläuft, die Sitzung dahinter also serverseitig beendet wurde. Damit ist der Verzugsstand den
+sechzehnten Kalendertag unverifizierbar und die fünf überfälligen Positionen bleiben ungemahnt,
+weil ohne verifizierten Zahlstatus kein Mahn-Guard greift. Keine Mahnaktion, keine Buchung.
+Aktion unverändert: **neuen Personal Access Token in bexio ausstellen und in `~/.bexio.env`
+eintragen.** Kein neuer Punkt, nur die heutige Gegenmessung.
+| `node connectors/bexio.mjs --verzug --json` am Original ausgeführt 24.08.2026 07:0x, Antwort HTTP 401 mit Ablaufhinweis 13.12.2026 | Debitoren/bexio | hoch | offen
+
 **NEU 24.08.2026, 05:29 (Session SIA-Sweep KB normen) — Der SIA-Sweep-Auftrag der KB
 `wissen/normen` laeuft seit den fruehen Morgenstunden im Minutentakt als Endlosschleife und
 produziert nur noch Wiederholungs-Befunde.** Eigene, unabhaengige Nachmessung (05:27 Uhr)

@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session (achte Fortsetzung): neuer Rechercheweg (ECOSPEED AG) für die Gesundheitsbau-Performance-Gap-Lücke dokumentiert, kein Zahlenwert gewonnen
+
+Auftrag: weitere offene Fragen aus `wiki/QUESTIONS.md` abarbeiten. Bestand gegen den aktuellen
+Dateistand geprüft (A-P2/A-P3/A-BLIND-Top-20/A-WERKZEUG laut Vorläufen abgeschlossen, restliche
+Punkte an Raphaels Entscheid gebunden oder erschöpfte Negativbefunde); Backlink-Zählung selbst neu
+gezogen statt der Selbsteinschätzung der Vorläufe zu vertrauen.
+
+Ausgewählt: `[[energie-performance-gap-gesundheitsbau]]` (21 Backlinks, `speculative`, einer der
+vier im Destillat selbst benannten offenen Ansatzpunkte: «VDI 3807 Blatt 2 nicht im Volltext
+beschafft»). `kennwerte-online.de` per WebFetch nicht erreichbar (Zertifikatsfehler); die
+ages-GmbH-Unterseite zu Krankenhaus-Kennwerten ist ein reines Datenerhebungsportal ohne publizierte
+Zahlen. **Neuer Fund:** ECOSPEED AG (Wallisellen ZH) wirbt mit einer Auswertung von 120 Spitälern/
+Pflegeeinrichtungen in der Schweiz und Deutschland (Wärmebedarf/Elektrizität/Wasser) — der erste
+Hinweis in dieser Recherche auf einen tatsächlich Schweiz-spezifischen Datensatz für diese
+Gebäudekategorie, aber ohne frei zugängliche Zahlenwerte (nur hinter der kommerziellen Software/
+einem nicht verlinkten Whitepaper). Als neuer, konkreter Ansatzpunkt in den «Offenen Punkten»
+dokumentiert (Kontaktaufnahme ECOSPEED, oder Prüfung ob ein JANS-Gesundheitsbau-Auftraggeber
+bereits Kunde ist) — nicht selbst aufgelöst, kein Zahlenwert gewonnen.
+
+Eingearbeitet: `destillate/energie-performance-gap-gesundheitsbau.md` (neuer Offene-Punkte-Absatz,
+`gelesen`/`last_updated` nachgeführt), `wiki/QUESTIONS.md` (neuer Kopf-Abschnitt). `git diff
+--numstat` geprüft: destillate-Datei +20/-2 (additiv plus zwei präzisierte Frontmatter-Zeilen),
+QUESTIONS.md rein additiv. Kein `outputs/`-Report, da kein Primärzahlenwert gewonnen wurde.
+
 ## 2026-08-24 — Interaktive Session (siebte Fortsetzung): A-BLIND-Fall 4 — Erheblichkeitsschwelle Art. 15 EnV in `zev-eigenverbrauch-mfh-her-2025` nachgetragen
 
 Auftrag: weitere offene Fragen aus `wiki/QUESTIONS.md` abarbeiten. Die A-BLIND-Methode («nächste

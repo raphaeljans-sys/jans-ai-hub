@@ -304,12 +304,20 @@ aber gültig; eine **Bedingung** knüpft die Wirksamkeit an ein künftiges Ereig
 und Revers-Typen: [[nebenbestimmungen-und-reverse]].
 
 ## Gebühren
-Baubewilligungsgebühren sind im Kanton Zürich **rein kommunale Materie** — das PBG selbst
-enthält keine Promille- oder Prozentbestimmung dazu (geprüft: einzige Gebühren-Fundstellen im
-PBG-Volltext sind § 231 Abs. 4 PBG, der die Gemeinden zur Gebührenordnung für die
-Beanspruchung **öffentlichen Grundes** ermächtigt — nicht dasselbe wie eine
-Baubewilligungsgebühr —, und § 338 PBG, der die Gerichtsgebühr des Baurekursgerichts auf
-Fr. 500-50'000 festlegt). Jede Gemeinde regelt ihre eigenen Gebühren selbst, meist zweistufig:
+**Allgemeine Rechtsgrundlage: § 13 Abs. 1 VRG** (nicht im PBG selbst; ergänzt Buch-Run 128,
+amtlich geprüft gegen frisches VRG-PDF Nachtrag 133): «Die Verwaltungsbehörden können für
+ihre Amtshandlungen Gebühren und Kosten auferlegen. Der Regierungsrat bezeichnet die
+kostenpflichtigen Amtshandlungen und die hiefür zu erhebenden Gebühren in einer Verordnung.»
+Diese generelle VRG-Ermächtigung gilt für **alle** Verwaltungsbehörden im Kanton, also auch
+für die kommunale Baubehörde — das PBG braucht dafür keine eigene Norm. Baubewilligungsgebühren
+sind im Kanton Zürich trotzdem **faktisch rein kommunale Materie**, weil § 13 Abs. 1 VRG die
+konkrete Bemessung an eine Verordnung delegiert und diese Delegationskette bei
+Baubewilligungen auf der **kommunalen** Gebührenverordnung endet, nicht auf einer kantonalen
+(geprüft: einzige PBG-eigenen Gebühren-Fundstellen im PBG-Volltext sind § 231 Abs. 4 PBG, der
+die Gemeinden zur Gebührenordnung für die Beanspruchung **öffentlichen Grundes** ermächtigt —
+nicht dasselbe wie eine Baubewilligungsgebühr —, und § 338 PBG, der die Gerichtsgebühr des
+Baurekursgerichts auf Fr. 500-50'000 festlegt; kein eigener PBG-Artikel für die
+Baubewilligungsgebühr selbst). Jede Gemeinde regelt ihre eigenen Gebühren selbst, meist zweistufig:
 eine allgemeine Gebührenverordnung (Bemessungsgrundsätze, Zuständigkeit Gemeinderat) plus ein
 separates Gebührenreglement mit den effektiven Ansätzen (Beispiel Thalwil: Gebührenverordnung
 SR 600.1 Art. 21/22 delegiert an das «Gebührenreglement Bauwesen», das die eigentlichen Tarife

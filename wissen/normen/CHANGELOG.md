@@ -1,3 +1,36 @@
+## 2026-08-24 — SIA-Sweep-Fortsetzung (07:30 Uhr): neunte unabhängige Sättigungsbestätigung
+
+**Auftrag:** identisch zu den acht Vorläufen desselben Tages. CHANGELOG-Kopf (07:19-Uhr-Eintrag,
+achte Bestätigung, bereits vorhanden) zuerst gelesen — dieser Lauf ist damit die neunte, nicht
+die achte Nachmessung.
+
+**Eigene Nachmessung — unverändert:** `training/norm-inventar.md` 0 offene `[ ]`-Zeilen;
+`wiki/REGISTER.md` 59 Zeilen „Kein Volltext im Haus" (SIA- plus die per Cross-KB-Zufluss aus
+`baurecht` mitgeführten VSS/SN-Bring-Schuld-Zeilen), jede belegt mit Produktdatenblatt/Preis.
+`wiki/QUESTIONS.md` (5'581 Zeilen): letzte 80 Zeilen gelesen, jüngster Punkt N41-1
+(SN 640 273a) bereits geschlossen (Registerzeile + Kaufliste, Rest ist Bring-Schuld). Keine
+neuen/geänderten Rohdateien seit dem 07:07-Uhr-Report. `git status --short` auf den vier
+KB-Kerndateien war zum Zeitpunkt der eigenen Prüfung leer.
+
+**Kollisionscheck:** eigener Prozess `mschub708` (PID-Kette 91268/91275) trägt denselben
+Auftragstext — kein Konkurrenzlauf. Parallel: `mschub706` (Thalwil-Reglemente, KB `baurecht`),
+`mschub705` (QUESTIONS-Abarbeitung, KB `energie`) — andere Deliverables. Der bereits am
+07:07/07:19 Uhr identifizierte Ad-hoc-Burst-Runner läuft jetzt als `/tmp/vollschub-mini-v2.sh`
+(PID 78931, seit 07:09 Uhr, `SCHLUSS="2026-08-24 11:30"`) — nur gelesen, nicht verändert;
+Ursache der Respawns bleibt eine Betriebsfrage ausserhalb dieses fachlichen Auftrags.
+
+**Einordnung:** Der SIA-Sweep ist inhaltlich abgeschlossen, bis Raphael über die 59
+kostenpflichtigen Registerzeilen entscheidet (Kauf shop.sia.ch/VSS-Shop) bzw. den
+VSS-Kundendienst-Kontakt für SN 641 400 freigibt (Mail-Versand-Sperre). Weitere automatische
+Läufe auf denselben Auftrag erzeugen ab jetzt nur noch identische Kurzverifikationen, bis sich
+der Registerstand durch einen Kauf oder eine Freigabe ändert.
+
+**Empfehlung unverändert:** SIA-Sweep bis zu Raphaels Kauf-/Freigabeentscheiden (REGISTER
+Abschnitt A, u.a. P1 SIA 380/1, 385/1, 266/1; plus N60-1/N60-2 in `logbuch/fristen.md`) pausieren.
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprüft — rein additiv, 0 Löschungen.
+Kein `git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — SIA-Sweep-Fortsetzung (07:19 Uhr): achte unabhängige Sättigungsbestätigung, Runner läuft bis 11:30 Uhr weiter
 
 **Auftrag:** identisch zu den sieben Vorläufen desselben Tages. CHANGELOG-Kopf (07:07-Uhr-Eintrag)
