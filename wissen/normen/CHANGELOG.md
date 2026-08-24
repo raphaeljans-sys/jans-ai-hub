@@ -1,3 +1,62 @@
+## 2026-08-24 — SIA-Sweep 39. Fortsetzung ~04:11-04:20 Uhr: Sättigung unabhängig nachgemessen (nicht nur übernommen), keine neue Arbeit im Mandat, Taktungs-Empfehlung
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen, Destillate
+anlegen). Statt einen weiteren Zyklus zu fahren, wurde zuerst die von den Läufen 25-38 bereits
+behauptete Sättigung selbst dreifach nachgemessen (Rule `auto-verbesserungen` 260807/260729b —
+Befunde erst prüfen, dann glauben): `training/norm-inventar.md` zeigt 0 offene Zeilen; ein
+Struktur-Scan von `wiki/REGISTER.md` Abschnitt A (329 SIA-Zeilen) findet keine Zeile ohne
+Destillat/Bestand/Shop-Beleg, die nicht entweder zurückgezogen-ohne-Nachfolger oder bereits im
+Haus ist; die dokumentierte Vollständigkeits-Gegenprobe der fünften Fortsetzung (23.08.2026,
+alle 140 SharePoint-Dateien gegen die 55 „Kein Volltext im Haus"-Nummern geprüft) und die
+Bring-Schulden-Priorisierung der 24./25. Fortsetzung (alle 59 Zeilen ohne Volltext P1-P4
+sortiert, letzter Beschaffungsweg — ein fremdes iNorm-Abo — geprüft und verworfen) bestätigen:
+für keine verbleibende Zeile existiert noch ein ungeprüfter, kostenloser Beschaffungsweg. Die
+verbleibenden Lücken sind ausschliesslich kostenpflichtige Volltext-Käufe, die Raphaels
+Einzelentscheid brauchen (User-CLAUDE.md „Grenzen": keine Buchungen/Zahlungen ohne Freigabe).
+
+**Keine Schreibarbeit an Register/Destillaten** — nichts Neues zu belegen; unbelegtes
+Nachschreiben würde die KB verdünnen statt verbessern (Rule `wissens-bibliothekar`).
+
+**Betriebsbeobachtung, keine Fach-Frage:** Seit ~00:00 Uhr liefen für diese KB mind. 14
+SIA-Sweep- plus vergleichbar viele QUESTIONS-Abarbeitungs-Läufe im 5-15-Minuten-Takt, obwohl
+der fachliche Ertrag seit der 25. Fortsetzung (23.08.2026) auf Randfragen und Wiederholungen
+geschrumpft ist; zwei Läufe kollidierten sogar auf denselben zwei EKAS-Destillaten (siehe
+Eintrag oben). Empfehlung an die taktende Instanz (nicht selbst umgesetzt, da Loop-/
+Taktungsänderungen unter `rules/betrieb-chronik.md` fallen, nicht unter diesen fachlichen
+Auftrag): den SIA-Sweep-Auftrag bis zu Raphaels Bring-Schulden-Entscheid pausieren oder auf ein
+noch dünn bearbeitetes Mandat (VSS/DIN/RAL) umstellen. Report:
+`outputs/2026-08-24_sia-sweep-neununddreissigste-fortsetzung.md`.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — nur die neue
+Report-Datei (+92/-0, additiv) und dieser additive CHANGELOG-Kopf betroffen, keine bestehende
+Zeile berührt. Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung 04:09 Uhr: stale Kopfzeile am EKAS-Kollisionsbefund korrigiert, Restbestand erneut als ausgeschöpft bestätigt
+
+**Auftrag:** offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstellenpflicht (Norm, Ausgabe,
+Ziffer), nur `established`-Destillate zitierfähig. CHANGELOG-Kopf und Report des letzten Laufs
+(`outputs/2026-08-24_questions-abarbeitung-ekas-richtlinien.md`, ~04:03 Uhr) zuerst gelesen.
+
+Eigener Python-Scan über alle `##`-Abschnitte deckte eine Kopfzeilen-Diskrepanz auf: der
+EKAS-Kollisionsbefund vom Kopf der Datei trug weiterhin «ENTSCHEID RAPHAEL nötig» in der
+Überschrift, obwohl der Fliesstext bereits dokumentiert, dass der parallele Lauf (PID 92836,
+SIA-Sweep 38. Fortsetzung) den Kollisionsbefund selbst bemerkt und seine Duplikate entfernt hat
+(~04:05 Uhr) — der Entscheidbedarf war damit bereits entfallen, nur die Kopfzeile war stehen
+geblieben. Nicht-destruktiv korrigiert: Kopfzeile trägt jetzt «✅ GESCHLOSSEN ~04:05 Uhr», kein
+Fliesstext verändert.
+
+Die übrigen sechs verbleibenden offenen Punkte (Leitplanke Gebäudekategorien I-XII, NIN-
+Geschirrspüler, N60-1 AFC-Synopse-Duplikat, N60-2 Methodik-Pflicht-14, Bring-Schulden aus KB
+`baurecht`, SIA 384/4:2025, N41-1 VSS SN 640 273a) erneut geprüft: unverändert entweder
+dauerhafte Referenz oder an eine Entscheidung/Freigabe/einen Kauf durch Raphael gebunden — kein
+neuer Web-Weg gefunden, der nicht bereits mehrfach dokumentiert und ausgeschöpft ist.
+
+**Verifikation:** `git diff --numstat` nach dem Schreibvorgang geprüft — `wiki/QUESTIONS.md`
+zeigt 1 hinzugefügte, 1 geänderte Zeile (nur die Kopfzeile), keine sonstige Zeile berührt. Kein
+`git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt. Report:
+`outputs/2026-08-24_questions-abarbeitung-0409uhr.md`.
+
 ## 2026-08-24 — SIA-Sweep, 38. Fortsetzung: Kollision mit parallelem Lauf aufgelöst (eigene EKAS-Duplikate entfernt), 33045.d geklärt
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

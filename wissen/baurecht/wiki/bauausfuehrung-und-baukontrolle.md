@@ -3,9 +3,9 @@ beschreibung: Die Bauausführungsphase im ZH-Baurecht — Baufreigabe (§ 326 PB
 title: Bauausführung und Baukontrolle (Kt. ZH)
 status: established
 last_updated: 2026-08-24
-sources: [raw/260607_amtlich_zh_pbg.md, raw/260824_amtlich_zh_vb-2014-00026.md, "Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31); Art. 8/679/684/836 ZGB + Art. 29a BV + Art. 32bbis USG + Art. 6 LSV + Art. 11 Abs. 2 USG volltextverifiziert gegen fedlex.data.admin.ch (Modell-D Run 100); VB.2014.00026/BEZ 2014 Nr. 46 volltextverifiziert gegen entscheidsuche.ch (Run 108)"]
-verifiziert: 2026-07-25 (Run 58, Modell D — §§ 326-329 PBG + §§ 10c/30 VRG Bestand aus Run 30/31 bestätigt; Register-Sweep-Nachzug: Geisterbezeichnung «Art. 32bis USG» korrigiert zu «Art. 32bbis USG» — Run 47 hatte diesen Fundort beim ersten Sweep verfehlt); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 8/9/10c/15/30 VRG frisch gegen Nachtrag 133 geprüft, wortidentisch, 0 Änderung; Details [[rechtsschutz-und-rechtsmittelverfahren]]); 2026-08-23 (Run 100, Modell D — erstmals die Bundesrechts-Zitate gegen den amtlichen Wortlaut geprüft: Art. 8/679/684/836 ZGB und Art. 29a BV CONFIRMED wortgleich; Art. 32bbis USG CONFIRMED, aber präzisiert (Geltendmachungsfrist Abs. 3 seit 1.11.2021 abgelaufen); Art. «38 Abs. 2 USG» als Beleg für das Vorsorgeprinzip war FALSCH — korrigiert auf Art. 11 Abs. 2 USG, Art. 6 LSV bleibt für die Baulärm-Richtlinien-Erlasskompetenz richtig); 2026-08-24 (Run 108 — VB.2014.00026/BEZ 2014 Nr. 46 E. 3.1.2 erstmals im Volltext gelesen (entscheidsuche.ch): das bisher zitierte Wort «zaegig» kam im Original nicht vor, korrigiert auf den wörtlichen Befund «derart langsam gearbeitet», Rechtsfolge-Massstab präzisiert); 2026-08-24 (Run 111, Stale-Flag-Sweep QUESTIONS.md Kap.-8-Block — § 239 Abs. 1 PBG + § 309 Abs. 1 lit. c PBG CONFIRMED; §§ 3/23 BVV bereits korrekt zitiert; § 24 BVV als echte Lücke neu ergänzt (elektronische Protokollierung, qualifizierte Signatur); § 12a BBV I CONFIRMED — Suchfehler eines früheren Laufs behoben, Fundstelle im Raw als «§ 12 a.» mit Leerzeichen erfasst; Attribution «Sanitäreinrichtungen → BBV II» war FALSCH, BBV II kennt kein § 12a, beide Kriterien [Austrocknung + Sanitär] stehen im selben § 12a BBV I, korrigiert. Art. 3a ABV bleibt trotz Suche NICHT verifizierbar — Zitat unverändert stehen gelassen, als offene Diskrepanz in QUESTIONS.md geführt, nicht ohne Gegenbeleg entfernt)
-paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I; Art. 3a ABV (Zitat ungeprüft, siehe QUESTIONS.md); Art. 8/679/684/836 ZGB; Art. 29a BV; VUV; BauAV; Art. 16 VVEA; Art. 32bbis, Art. 11 Abs. 2 USG; Art. 6 LSV; §§ 2/15/19 KVAV
+sources: [raw/260607_amtlich_zh_pbg.md, raw/260824_amtlich_zh_vb-2014-00026.md, "Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31); Art. 8/679/684/836 ZGB + Art. 29a BV + Art. 32bbis USG + Art. 6 LSV + Art. 11 Abs. 2 USG volltextverifiziert gegen fedlex.data.admin.ch (Modell-D Run 100); VB.2014.00026/BEZ 2014 Nr. 46 volltextverifiziert gegen entscheidsuche.ch (Run 108); Art. 3/82-86 BauAV volltextverifiziert gegen fedlex.data.admin.ch eli/cc/2021/384 Konsolidierung 01.01.2024 (Run 112)"]
+verifiziert: 2026-07-25 (Run 58, Modell D — §§ 326-329 PBG + §§ 10c/30 VRG Bestand aus Run 30/31 bestätigt; Register-Sweep-Nachzug: Geisterbezeichnung «Art. 32bis USG» korrigiert zu «Art. 32bbis USG» — Run 47 hatte diesen Fundort beim ersten Sweep verfehlt); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 8/9/10c/15/30 VRG frisch gegen Nachtrag 133 geprüft, wortidentisch, 0 Änderung; Details [[rechtsschutz-und-rechtsmittelverfahren]]); 2026-08-23 (Run 100, Modell D — erstmals die Bundesrechts-Zitate gegen den amtlichen Wortlaut geprüft: Art. 8/679/684/836 ZGB und Art. 29a BV CONFIRMED wortgleich; Art. 32bbis USG CONFIRMED, aber präzisiert (Geltendmachungsfrist Abs. 3 seit 1.11.2021 abgelaufen); Art. «38 Abs. 2 USG» als Beleg für das Vorsorgeprinzip war FALSCH — korrigiert auf Art. 11 Abs. 2 USG, Art. 6 LSV bleibt für die Baulärm-Richtlinien-Erlasskompetenz richtig); 2026-08-24 (Run 108 — VB.2014.00026/BEZ 2014 Nr. 46 E. 3.1.2 erstmals im Volltext gelesen (entscheidsuche.ch): das bisher zitierte Wort «zaegig» kam im Original nicht vor, korrigiert auf den wörtlichen Befund «derart langsam gearbeitet», Rechtsfolge-Massstab präzisiert); 2026-08-24 (Run 111, Stale-Flag-Sweep QUESTIONS.md Kap.-8-Block — § 239 Abs. 1 PBG + § 309 Abs. 1 lit. c PBG CONFIRMED; §§ 3/23 BVV bereits korrekt zitiert; § 24 BVV als echte Lücke neu ergänzt (elektronische Protokollierung, qualifizierte Signatur); § 12a BBV I CONFIRMED — Suchfehler eines früheren Laufs behoben, Fundstelle im Raw als «§ 12 a.» mit Leerzeichen erfasst; Attribution «Sanitäreinrichtungen → BBV II» war FALSCH, BBV II kennt kein § 12a, beide Kriterien [Austrocknung + Sanitär] stehen im selben § 12a BBV I, korrigiert. Art. 3a ABV bleibt trotz Suche NICHT verifizierbar — Zitat unverändert stehen gelassen, als offene Diskrepanz in QUESTIONS.md geführt, nicht ohne Gegenbeleg entfernt); 2026-08-24 (Run 112 — Art. 3a ABV war eine Verwechslung der Abkürzung mit dem Bundesrecht BauAV: die zutreffende Fundstelle für die Asbest-Meldepflicht ist Art. 3 Abs. 2 + Art. 82-86 BauAV (SR 832.311.141), CONFIRMED gegen fedlex.data.admin.ch eli/cc/2021/384 (Konsolidierung 01.01.2024, PDF-Volltext via Filestore-Route beschafft) — insb. Art. 86 «Meldepflicht für Asbestsanierungsunternehmen» (14 Tage vor Ausführung an die Suva). Derselbe Wiki-Artikel zitierte dieselbe Pflicht im Abschnitt «Arbeitnehmerschutz» bereits korrekt, aber mit der Vor-2021-Nummerierung «Art. 60a/60b BauAV» — beide Stellen jetzt auf die aktuelle Fundstelle harmonisiert. Die genaue Historie der Einführung «seit 1.6.2018» liess sich am amtlichen Fedlex-Archiv (alte ELI 2005/560) in diesem Lauf nicht nachvollziehen, bleibt offen in QUESTIONS.md — betrifft nur die Datumsangabe, nicht die heute geltende Fundstelle)
+paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I; Art. 3 Abs. 2 + Art. 82-86 BauAV (Asbest-Meldepflicht, CONFIRMED Run 112 — vormals fälschlich "Art. 3a ABV" zitiert); Art. 8/679/684/836 ZGB; Art. 29a BV; VUV; Art. 16 VVEA; Art. 32bbis, Art. 11 Abs. 2 USG; Art. 6 LSV; §§ 2/15/19 KVAV
 quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31)
 ---
 
@@ -46,9 +46,23 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
   grundleitungen, Rohbauvollendung, Bezugsbereitschaft**) und Bauvollendung (§ 327 Abs. 1 PBG, § 23 BVV).
 - **Gebäudeabbruch:** bewilligungspflichtig **nur in Kernzonen** (§ 309 Abs. 1 lit. c PBG), sonst nur
   **meldepflichtig**; im Lichte § 239 PBG (Sicherheit, Entsorgung Abbruchmaterial).
-- **Asbest (Art. 3a ABV, seit 1.6.2018):** Abbruch ist der örtlichen Baubehörde **auch ohne
-  Baubewilligung** rechtzeitig vor Beginn zu melden; ordnungsgemässe Entsorgung nachzuweisen
-  (Art. 16 VVEA). → **Praxisfalle bei Umbau/Abbruch im Bestand.**
+- **Asbest (Art. 3 Abs. 2 + Art. 82-86 BauAV, insb. Art. 86 Meldepflicht):** Abbruch ist der
+  örtlichen Baubehörde **auch ohne Baubewilligung** rechtzeitig vor Beginn zu melden;
+  ordnungsgemässe Entsorgung nachzuweisen (Art. 16 VVEA). → **Praxisfalle bei Umbau/Abbruch im
+  Bestand.** **Korrigiert 2026-08-24 (Buch-Run 112):** vormals als "Art. 3a ABV" zitiert — diese
+  Fundstelle war am kantonalen `raw/260607_amtlich_zh_abv.md` nicht verifizierbar (Run 111).
+  Die zutreffende Norm ist Bundesrecht: BauAV (SR 832.311.141), Art. 3 Abs. 2 (Gefährdungsermittlung
+  bei Asbestverdacht, Arbeitgeberpflicht) und Art. 82-86 (Bestimmungen für anerkannte
+  Asbestsanierungsunternehmen; Art. 86: Meldung an die Suva mindestens 14 Tage vor Ausführung,
+  Formularpflicht) — CONFIRMED gegen den amtlichen Fedlex-Volltext (fedlex.data.admin.ch, eli/cc/
+  2021/384, Konsolidierung 01.01.2024). Derselbe Artikel zitiert weiter unten (Abschnitt
+  Arbeitnehmerschutz) dieselbe Pflicht bereits korrekt als "Art. 60a/60b BauAV" — das ist die
+  Nummerierung der BauAV-Fassung vor der Totalrevision 2021; die beiden Zitate im selben Artikel
+  widersprachen sich in Quelle (kantonal vs. Bundesrecht) und Nummerierung. Das genaue
+  Inkrafttretensdatum "1.6.2018" der Asbest-Meldepflicht in der Vorgängerfassung konnte in diesem
+  Lauf nicht am amtlichen Fedlex-Archiv nachvollzogen werden (Filestore-Route lieferte für die
+  alte ELI 2005/560 keine Snapshot-Treffer) — als offener Nachtrag in QUESTIONS.md geführt, die
+  heute geltende Fundstelle (Art. 3/82-86 BauAV) ist davon unabhängig gesichert.
 
 ## 3. Baupolizeiliche Kontrollen (§ 327 Abs. 2 PBG)
 
@@ -129,7 +143,8 @@ Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-au
   `wissen/normen/destillate/vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz`) — Detail
   **nicht hier**, Skill `brandschutz`.
 - **Arbeitnehmerschutz:** Bundesrecht **VUV** (Unfallverhütung) + **BauAV** (Bauarbeiten); Asbestsanierung
-  nur durch anerkannte Spezialfirmen mit **SUVA-Meldung** (Art. 60a/60b BauAV). Vollzug SUVA/kant.
+  nur durch anerkannte Spezialfirmen mit **SUVA-Meldung** (Art. 82-86, insb. Art. 86 BauAV — Nummerierung
+  seit der Totalrevision 2021, vormals Art. 60a/60b, korrigiert Run 112). Vollzug SUVA/kant.
   Arbeitsinspektorat, nicht die Baubehörde.
 - **Baustellenentsorgung:** **Entsorgungskonzept** einzureichen ab voraussichtlich **> 200 m³ Bauabfällen**
   oder bei Schadstoffen (PCB/PAK/Blei/**Asbest**) — Bauten vor 1990 erfordern Schadstoff-Vorabklärung
@@ -163,8 +178,8 @@ Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-au
   Artikel behandelt ausschliesslich Dispens § 220 PBG und Bestandesschutz § 357 PBG und enthält zu
   «Baubeginn»/«Auflage» keine Fundstelle. Der Verweis auf ihn bleibt im Abschnitt «Verwandte Artikel»
   richtig, als Handoff zur KB `auflagebereinigung` griff er ins Leere.]
-- Bestand/Umbau (Healthcare-Kernkompetenz): Asbest-Meldepflicht (Art. 3a ABV) und Bezugskontrolle
-  (Austrocknung/Hygiene) früh in `pendenzenliste`/Terminplan.
+- Bestand/Umbau (Healthcare-Kernkompetenz): Asbest-Meldepflicht (Art. 82-86 BauAV) und
+  Bezugskontrolle (Austrocknung/Hygiene) früh in `pendenzenliste`/Terminplan.
 
 ## Verwandte Artikel
 [[baubewilligungsverfahren]] · [[nebenbestimmungen-und-reverse]] ·

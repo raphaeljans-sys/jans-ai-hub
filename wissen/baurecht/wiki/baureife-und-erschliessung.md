@@ -1,13 +1,14 @@
 ---
 title: Baureife & Erschliessung — Kanton Zürich
 status: established
-last_updated: 2026-08-23
-sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "§§ 90-95 PBG", "§ 93 PBG", "§§ 114-119 PBG", "§§ 120-122 PBG", "§§ 125 ff. PBG", "§ 160a PBG", "§ 160b PBG", "§ 81 PBG", "§ 129 PBG", "§ 62 StrG", "Art. 19 RPG", "Art. 22 RPG", "Art. 4 WEG", "Art. 5 WEG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 7 GSchG", "§ 97 WsV", "§ 98 WsV", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md, 03-erschliessung-landsicherung-teil1.md, 03-quartierplan-landumlegung-teil2.md, 260714_amtlich_ch_rpg-erschliessung.md, 260714_amtlich_ch_weg.md, 260803_amtlich_zh_wsv.md]
+last_updated: 2026-08-24
+sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "§§ 90-95 PBG", "§ 93 PBG", "§§ 114-119 PBG", "§§ 120-122 PBG", "§§ 125 ff. PBG", "§ 160a PBG", "§ 160b PBG", "§ 81 PBG", "§ 129 PBG", "§ 62 StrG", "Art. 19 RPG", "Art. 22 RPG", "Art. 4 WEG", "Art. 5 WEG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 7 GSchG", "§ 97 WsV", "§ 98 WsV", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "§ 10 VErV", "§ 11 VErV", "§ 12 VErV", "Anhang 1 VErV", "ZN (aufgehoben 01.06.2020)", "VSiV (aufgehoben 01.06.2020)", "StrAV (aufgehoben 01.06.2020)", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md, 03-erschliessung-landsicherung-teil1.md, 03-quartierplan-landumlegung-teil2.md, 260714_amtlich_ch_rpg-erschliessung.md, 260714_amtlich_ch_weg.md, 260803_amtlich_zh_wsv.md, raw/260803_amtlich_zh_verkehrserschliessungsv.md]
 links: [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baulinien-und-abstandslinien]], [[raumplanung-und-gestaltung]], [[12-baureife]], [[12-baureife-teil3-versorgung-entsorgung]], [[03-erschliessung-landsicherung-teil1]]
 verifiziert:
   - "2026-07-14 (Modell-D Art. 19/22/27 RPG + WEG-Klärung, Buch-Run 44, gegen neu beschafften Fedlex-Volltext) — Art. 19 Abs. 1/3 RPG und Art. 22 Abs. 2 lit. b RPG CONFIRMED wortgetreu; Art. 19 Abs. 2 RPG KORRIGIERT (enthält keine feste 15-Jahres-Frist, diese stammt aus Art. 5 Abs. 1 WEG nur für Wohnbauland); Art. 27 RPG CONFIRMED (5 Jahre Bundesmaximum, PBG § 346 konkretisiert kantonal mit 3+2 Jahren, nicht wortgleich aber deckungsgleich); Art. 4 Abs. 1/2 WEG und Art. 5 Abs. 1 WEG CONFIRMED wortgetreu; WEG-Abkürzung geklärt als Bundesgesetz über die Wohnbau- und Eigentumsförderung SR 843, keine Verwechslung mit kant. WWG"
   - "2026-08-23 (Modell-D Re-Verifikation Grundanforderungen §§ 232-237 PBG, Buch-Run 86, gegen raw/260607_amtlich_zh_pbg.md Nachtrag 133 sowie den amtlichen Fedlex-Volltext GSchG SR 814.20 Konsolidierung 1.1.2022) — §§ 233 Abs. 1/2, 234, 235, 236 Abs. 1, 237 Abs. 1 Satz 2, 237 Abs. 2, 237 Abs. 4 PBG CONFIRMED wortgetreu (inkl. bereits frühere Präzisierungen 'Behandlung nicht Beseitigung' und 'Gemeindevorstand'); § 236 Abs. 2/3 und § 237 Abs. 3 PBG bislang nicht im Artikel behandelt (Ergänzungs-, kein Fehlerbefund, geringe praktische Relevanz, nicht nachgetragen). KORRIGIERT: die Fundstelle '§ 232 PBG / Art. 11 GSchG' für die gebäudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten) trägt die Aussage nicht mehr - § 232 PBG regelt nur die Duldungspflicht für geringfügige öffentliche Einrichtungen auf privatem Grund, das PBG enthält keine Kanalisationsbestimmung mehr; Art. 11 GSchG regelt nur die Anschlusspflicht ans öffentliche Kanalisationsnetz, nicht die Trennung. Der systemische Grundsatz liegt näher bei Art. 7 Abs. 1/2 GSchG; die exakte gebäudebezogene Rechtsgrundlage bleibt offen (wiki/QUESTIONS.md). CONFIRMED dagegen Art. 10/11/17 GSchG für die übrigen Aussagen dieses Abschnitts (Kanalisationserstellungspflicht Gemeinde, Anschlusspflicht, Baubewilligungsvoraussetzung)."
   - "2026-08-23 (Modell-D Schliessung der Trennsystem-Lücke aus Buch-Run 86, Buch-Run 93, gegen raw/260803_amtlich_zh_wsv.md, WsV LS 724.11 Nachtrag 133, in Kraft seit 01.06.2026, bezogen 03.08.2026) — die gebäudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten) trägt heute § 97 Abs. 1-3 WsV (Grundsatz: getrennte Grundstücksentwässerungsanlagen bei Neu-/Umbauten mit erheblichem Eingriff; lokale Versickerung/Verdunstung; Erhalt des natürlichen Wasserhaushalts) sowie § 98 WsV (Stufenfolge bei technischer Unmöglichkeit: Regenabwasserkanalisation in oberirdisches Gewässer, subsidiär Anschluss an die zentrale ARA). CONFIRMED wortgleich gegen den amtlichen Volltext (Abschnitt E. Siedlungsentwässerung, Z. 1074-1123); WsV statt WsG bestätigt sich damit als tragende Norm."
+  - "2026-08-24 (Buch-Run 112, Stale-Flag-Sweep + Modell-D-Volltextabgleich gegen raw/260803_amtlich_zh_verkehrserschliessungsv.md) — Abschnitt 'Rechtsgrundlagen & Verordnungsstand' korrigiert: (1) nicht nur die StrAV, auch die Zugangsnormalien (ZN) und die Verkehrssicherheitsverordnung (VSiV) sind per 01.06.2020 aufgehoben, alle drei zusammengeführt in der Verkehrserschliessungsverordnung (VErV, LS 700.4) — Beleg Dispositiv IV/V des Erlasses; (2) die vom Buch als 'EV' bezeichnete Erschliessungsverordnung ist dieselbe VErV (identisches Erlassdatum 17.04.2019, identische Vorgänger-Trias); (3) die Zugangskategorien-Schwellenwerte stehen in Anhang 1 VErV, freigegeben über § 10 Abs. 3/4 VErV — nicht in §§ 11/12 VErV, die nur Kriterien und Verfahren der nachgelagerten Feinerschliessungsplanung regeln; (4) der WE-Wert für Zufahrtsstrasse 1 war falsch (150/300 WE, nicht 100/300 WE). §§ 120/150/264/346 PBG (Stale-Flag-Block 2026-06-26) bereits an anderer Stelle (wiki/QUESTIONS.md Zeile ~1822) volltextverifiziert — Zeiger hier war veraltet, kein neuer Fachbefund."
 ---
 
 # Baureife & Erschliessung
@@ -190,15 +191,43 @@ Instrumente, um Land für künftige öffentliche Werke/Erschliessungen freizuhal
 
 ## Rechtsgrundlagen & Verordnungsstand
 
-- Konkretisierung der Zugänglichkeit über die **Zugangsnormalien (ZN, § 237 Abs. 2 PBG)**, die
-  **Verkehrssicherheitsverordnung (VSiV)** und die **Strassenabstandsverordnung (StrAV)**. **[AUFGEHOBEN per 01.06.2020 — Nachfolgerin: Verkehrserschliessungsverordnung, RRB 17.04.2019, gleiche LS 700.4; Mauern/Einfriedigungen neu § 26, Pflanzen § 27, Kurven-Innenseite § 28, Sichtbereiche § 23. Belegt zhlex-Erlassseite LS 700.4 (Aufhebungsdatum 01.06.2020) + raw/260803_amtlich_zh_verkehrserschliessungsv.md. Das Buch (6. Aufl. 2019) und das Merkblatt der Gemeinde Thalwil zitieren noch die alte StrAV — Triage 03.08.2026]**
-- Die zusammenführende **Erschliessungsverordnung (EV)** wird im Buch (Bd 2, S. 750) bereits als
-  geltender Erlass zitiert: die Zugangskategorien stehen in **§ 11 Abs. 1 EV** (Standard) bzw.
-  **§ 12 EV** (planerische Ermittlung), wobei der bisherige § 6 ZN ausdrücklich als Vorgänger
-  genannt wird. Die EV hebt die Schwellenwerte an (Beispiel S. 750): Zufahrtsweg bis 10 WE (ZN) →
-  bis 50 WE (§ 11 EV) bzw. bis 100 WE (§ 12 EV); Zufahrtsstrasse 1 bis 30 → 100/300 WE. **Praxis:**
-  vor harter Bezifferung die im konkreten Verfahren geltende Fassung (EV-§§ ↔ noch ZN/VSiV/StrAV)
-  und die OEV-Erhöhung (§ 4 Abs. 2 ZN / EV) am amtlichen Erlass prüfen.
+- Konkretisierung der Zugänglichkeit über die **Zugangsnormalien (ZN, § 237 Abs. 2 PBG, ehem.
+  LS 700.5)**, die **Verkehrssicherheitsverordnung (VSiV, ehem. LS 700.6)** und die
+  **Strassenabstandsverordnung (StrAV, ehem. LS 700.4)**. **[KORRIGIERT 2026-08-24, Buch-Run 112:
+  nicht nur die StrAV, alle DREI Erlasse sind per 01.06.2020 AUFGEHOBEN und in EINEM einzigen
+  Nachfolgeerlass zusammengeführt — der Verkehrserschliessungsverordnung (VErV, RRB 17.04.2019,
+  LS 700.4). Wortlaut der Aufhebung: „IV. Folgende Verordnungen werden aufgehoben: a.
+  Strassenabstandsverordnung … b. Normalien über die Anforderungen an Zugänge … (Zugangsnormalien)
+  c. Verkehrssicherheitsverordnung …" (raw/260803_amtlich_zh_verkehrserschliessungsv.md, Dispositiv
+  IV/V, Z. 39-47). Frühere Fassung dieses Artikels hatte nur die StrAV als aufgehoben markiert und
+  ZN + VSiV stillschweigend als weiterhin geltend zitiert — das war unvollständig, nicht falsch
+  benannt, aber mit derselben Fassungsstand-Wirkung wie die "§§-10-12-StrAV-Falle" aus Run 89.
+  Mauern/Einfriedigungen neu § 26 VErV, Pflanzen § 27 VErV, Kurven-Innenseite § 28 VErV,
+  Sichtbereiche § 23 VErV/Anhang 3+4 (s. [[umgebungsgestaltung-und-einfriedungen]]). Das Buch
+  (6. Aufl. 2019) und das Merkblatt der Gemeinde Thalwil zitieren noch die alten Einzelerlasse —
+  Triage 03.08.2026.]**
+- Die vom Buch (Bd 2, S. 750) als "EV" bezeichnete, zusammenführende Erschliessungsverordnung ist
+  nach Abgleich mit dem amtlichen Volltext **dieselbe VErV** (identisches Erlassdatum 17.04.2019;
+  die drei im Buch als Vorgänger genannten Erlasse ZN/VSiV/StrAV sind exakt die drei per VErV
+  aufgehobenen Verordnungen) — das Buch verwendet für den zum Zeitpunkt der 6. Auflage (2019) noch
+  nicht in Kraft stehenden Erlass eine andere Arbeitsabkürzung. **KORRIGIERT 2026-08-24 (Run 112,
+  Modell-D-Volltextabgleich gegen raw/260803_amtlich_zh_verkehrserschliessungsv.md, Z. 176-235,
+  376-435): die Zugangskategorien-Schwellenwerte selbst stehen nicht in §§ 11/12, sondern in
+  Anhang 1 VErV, freigegeben über § 10 Abs. 3 VErV (Standardbeschluss des Gemeindevorstands,
+  publiziert) bzw. § 10 Abs. 4 VErV (planerische Ermittlung) — beide ausdrücklich "bis zu den
+  Höchstwerten gemäss Anhang 1" (Fussnote 2 zu Anhang 1: "Höchstwert gemäss § 10 Abs. 3 und 4").
+  §§ 11/12 VErV regeln nicht die Zahlenwerte, sondern die nachgelagerte Fein­erschliessungsplanung:
+  § 11 die dabei zu berücksichtigenden Kriterien (Ausbaustand, ÖV-Güte, Verkehrsart, BZO-Vorgaben,
+  Verkehrsberuhigung, Schulweg/Velo-Bedeutung), § 12 Inhalt und Verfahren des
+  Feinerschliessungsplans (Plan + technischer Bericht, Verfahren nach §§ 5-7 PBG). Die
+  Zahlenwerte selbst waren zudem bei der Zufahrtsstrasse 1 falsch übernommen: **bis 150 WE
+  (Standard) / bis 300 WE (mit Feinerschliessung)**, nicht "100/300 WE" — vollständige Tabelle
+  Anhang 1: Zufahrtsweg 50/100 WE, Zufahrtsstrasse 1 150/300 WE, Zufahrtsstrasse 2 300/600 WE,
+  Erschliessungsstrasse 600/1200 WE. **Praxis:** vor harter Bezifferung die im konkreten Verfahren
+  geltende Fassung (VErV-§§/Anhänge ↔ noch ZN/VSiV/StrAV bei Altverfahren vor 01.06.2020) am
+  amtlichen Erlass prüfen; die OEV-Erschliessungsgüte wirkt nicht über eine separate
+  Erhöhungsnorm, sondern als eines von sechs Kriterien der Feinerschliessungsplanung (§ 11 lit. b
+  VErV).
 
 ## Rechtliche Sicherung der Erschliessung (§§ 236/237 PBG)
 

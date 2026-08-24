@@ -2159,22 +2159,37 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   **§ 12a BBV I CONFIRMED**, im Wiki korrigiert (siehe [[bauausfuehrung-und-baukontrolle]]). **§ 12a
   BBV II existiert dagegen tatsächlich nicht** (auch mit Leerzeichen-Suche 0 Treffer) — der Artikel
   zitierte «Sanitäreinrichtungen → BBV II», das war falsch, korrigiert auf «beides § 12a BBV I».
-- **Art. 3a ABV — weiterhin NICHT verifizierbar**, auch mit Leerzeichen-Suchvariante «3 a.» geprüft
+- ~~**Art. 3a ABV — weiterhin NICHT verifizierbar**, auch mit Leerzeichen-Suchvariante «3 a.» geprüft
   (0 Treffer, kein «Asbest» im gesamten `raw/260607_amtlich_zh_abv.md`) — geprüft 2026-08-24 (Buch-Run
   111). **Anders als bei § 12a BBV I ist das hier kein Suchartefakt:** der bestehende, `established`
   Wiki-Artikel [[bauausfuehrung-und-baukontrolle]] zitiert «Art. 3a ABV» zweimal (Asbest-Meldepflicht
   seit 1.6.2018) — dieses Zitat bleibt vorerst unverändert stehen (nicht ohne Gegenbeleg entfernt), ist
   aber am aktuellen ABV-Volltext **nicht bestätigbar**. Mögliche Erklärung noch ungeprüft: andere
-  Fassung/anderer Erlass (Suva/EKAS-Asbestregeln, Bauabfallverordnung) statt ABV — **für nächsten Lauf**.
-  **Art. 16 VVEA dagegen bereits erledigt:** Buch-Run 24 (09.07.2026) hat «Baustellenentsorgung Art. 16
+  Fassung/anderer Erlass (Suva/EKAS-Asbestregeln, Bauabfallverordnung) statt ABV — **für nächsten Lauf**.~~
+  → **gelöst 2026-08-24 (Buch-Run 112):** Verwechslung der Abkürzung — die zutreffende Fundstelle ist
+  Bundesrecht: **Art. 3 Abs. 2 + Art. 82-86 BauAV** (SR 832.311.141), CONFIRMED gegen fedlex.data.admin.ch
+  eli/cc/2021/384 (Konsolidierung 01.01.2024), insb. **Art. 86 «Meldepflicht für
+  Asbestsanierungsunternehmen»** (14 Tage vor Ausführung an die Suva). Derselbe Wiki-Artikel zitierte
+  dieselbe Pflicht im Abschnitt «Arbeitnehmerschutz» bereits korrekt, aber mit der Vor-2021-Nummerierung
+  «Art. 60a/60b BauAV» — beide Stellen jetzt harmonisiert. Beleg:
+  `raw/260824_amtlich_ch_bauav-art3-82-86.md`. **Offen bleibt** nur die Datumsgenealogie «seit
+  1.6.2018» (vermutlich eine Teilrevision der Vorgängerfassung, die Art. 60a/60b einführte) — die
+  Filestore-Route lieferte für die alte ELI `2005/560` keinen echten Snapshot-Treffer (mehrere
+  Kandidatendaten getestet, u.a. `20180601`); ohne Belang für die heute geltende Fundstelle.
+  **Art. 16 VVEA bereits erledigt:** Buch-Run 24 (09.07.2026) hat «Baustellenentsorgung Art. 16
   VVEA (Konzept ab > 200 m³)» bereits in [[bauausfuehrung-und-baukontrolle]] Abschn. 6 eingearbeitet
-  (siehe Eintrag oben, 2026-07-09). Die Asbest-Meldepflicht **speziell** bleibt offen.
+  (siehe Eintrag oben, 2026-07-09).
 - **§ 24 BVV (elektronische Protokollierungspflicht der Baukontrollen)** — echte Lücke, Wortlaut lag
   bereits in `raw/260607_amtlich_zh_bvv.md` Z. 621 vor, jetzt in [[bauausfuehrung-und-baukontrolle]]
   ergänzt (Buch-Run 111): Ergebnisse elektronisch protokolliert, qualifizierte elektronische Signatur,
   Beizug weiterer Bewilligungsstellen auf Verlangen.
-- **§ 8 Abs. 2 IDG ZH (Drohnen-Datenschutz, KGer LU Horw):** weiterhin offen, nicht Teil dieses Laufs
-  (tangentiales Thema, kein Kernbaurecht).
+- **§ 8 Abs. 2 IDG ZH (Drohnen-Datenschutz, KGer LU Horw):** weiterhin offen. **Neuer Hinweis
+  2026-08-24 (Buch-Run 112, WebSearch, nicht vollständig verifiziert:** der Drohnen-Fall Horw ist
+  eine **Luzerner** Gemeinde, das Urteil stammt vom **Kantonsgericht Luzern** (7H 17 49, 18.04.2018),
+  nicht von einer Zürcher Instanz — «IDG ZH» als Rechtsgrundlage für einen Luzerner Fall ist damit
+  mutmasslich falsch zitiert; einschlägig wäre eher das Luzerner Datenschutzrecht. Nicht vertieft
+  geprüft (tangentiales Thema, kein Kernbaurecht) — **für einen künftigen Lauf**, falls das Thema
+  Drohnenaufnahmen/Datenschutz je Kernbaurecht-relevant wird.
 
 ## Offene Wissenslücken / needs-verification — neu (2026-06-26, aus Buch-Run Kap. 12)
 - ~~**Baureife / Erschliessung / Zugänglichkeit nicht im Wiki**~~ → **erledigt 2026-06-26** (Run 14):

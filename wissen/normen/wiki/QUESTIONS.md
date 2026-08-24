@@ -1,6 +1,6 @@
 # Offene Fragen — KB Normen
 
-## 24.08.2026, ~04:00 Uhr — EKAS 2134/6512 zweimal parallel destilliert (Kollision zweier gleichzeitiger Läufe, ENTSCHEID RAPHAEL nötig)
+## 24.08.2026, ~04:00 Uhr — EKAS 2134/6512 zweimal parallel destilliert (Kollision zweier gleichzeitiger Läufe) ✅ GESCHLOSSEN ~04:05 Uhr — paralleler Lauf hat Duplikate selbst entfernt, ENTSCHEID-RAPHAEL-Bedarf entfällt (Details im Nachtrag unten)
 
 - **Befund:** Zwei unabhängige, gleichzeitig laufende Claude-Prozesse haben denselben offenen
   Punkt der SIA-Sweep 37. Fortsetzung (beide EKAS-Richtlinien 2134 «Forstarbeiten» und 6512

@@ -1,5 +1,31 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: A-BLIND-Fall 2, GSchG/GSchV-Wortlaut für Erdwärmesonden am Fedlex-Primärtext verifiziert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an die zwanzigste
+Fortsetzung des QUESTIONS-Nachlaufs (23.08.2026) — dort waren alle frage-getriebenen Punkte auf
+Raphaels Entscheid (Normkauf, Projektdaten-Freigabe, Loop-Takt) oder auf sachliche Sackgassen
+gelaufen. Statt diese sechs erneut zu prüfen, den offenen A-BLIND-Auftrag aufgegriffen («Kandidaten
+für die zwanzig meistzitierten Destillate: noch nicht ausgewählt») und per Backlink-Zählung
+(`[[...]]`-Referenzen in `wiki/` + `destillate/`) den nächsten Kandidaten bestimmt:
+`[[erdwaermesonden-bewilligung-zh-sz]]` (32 Backlinks), dessen Frontmatter selbst offen als Lücke
+führte: «GSchG/GSchV-Wortlaut weiterhin nicht direkt am Bundes-Primärtext verifiziert».
+
+Mit dem in `docs/referenz/fedlex-volltexte.md` dokumentierten Ausweichweg (`fedlex.data.admin.ch`
+statt `www`, `pdf-a` statt `html`, mehrere Konsolidierungsdaten per curl durchprobiert) beide
+Erlasse direkt gelesen: GSchG Art. 19 Abs. 2 (SR 814.20, Stand 01.01.2022, seit 2007 unverändert)
+und GSchV Art. 29/32 Abs. 2 Bst. c (SR 814.201, Stand 01.12.2025, PyPDF2). **Ergebnis: keine
+Diskrepanz** — beide Artikel bestätigen wörtlich die im Destillat bereits dargestellte
+Bewilligungspflicht für Erdsonden-Grundwassernutzung («einschliesslich Nutzungen zu Heiz- und
+Kühlzwecken») in besonders gefährdeten Bereichen. Eingearbeitet in
+`destillate/erdwaermesonden-bewilligung-zh-sz.md` (Frontmatter, Abschnitt «Offene Punkte»,
+Quellenliste) und `wiki/QUESTIONS.md` (neuer datierter Abschnitt, zwei weitere geprüfte Kandidaten
+als bereits ausgeschöpft benannt: `waermepumpe-systemvergleich`, `fernwaerme-anschlusskosten-zh`).
+Weiterhin offen (kantonales Recht SZ, nicht Bundesrecht): SZ-Kostenpunkt, Verfahrensfrist.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: beide betroffenen Dateien laufen additiv/
+präzisierend, keine fremde Löschung.
+
 ## 2026-08-24 — Interaktive Session: kompletter BFE-Wärmebrückenkatalog (17 Detailgruppen) am Original verifiziert, schliesst Auskragung-Restpunkt
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
