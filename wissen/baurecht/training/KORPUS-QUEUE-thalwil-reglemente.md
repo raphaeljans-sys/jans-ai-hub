@@ -879,6 +879,28 @@ für eine Station mit gemounteter `PL`-Bibliothek); sonst unverändert die drei
 Datenbank-bedingt unverifizierbaren Alt-Fallzitate und [[geschosse-und-kniestock]] als
 fachlich zurückgestellter Modell-D-Kandidat.
 
+**Run 137 (2026-08-24, ausserhalb T1-T9):** `wiki/QUESTIONS.md` nach echten (nicht bereits
+durchgestrichenen) offenen Einträgen durchsucht (Kap. 22/23 weiterhin ohne Screenshot-Zugriff
+blockiert). Gefunden: der Eintrag «Baupolizeiliche Missstände + Brandstattrecht § 307 PBG offen»
+(2026-06-18) war **stale** — das Companion-Destillat
+[[20-ausnahmen-teil2-milderung-missstaende-brandstatt]] deckt diese Seiten bereits seit
+2026-07-10 ab, Modell-D-verifiziert 2026-07-13 (Buch-Run 38), `status: established`. Zeiger in
+drei Dateien korrigiert (`QUESTIONS.md`, `buecher/band-2/20-ausnahmen-bestandesschutz.md`,
+`buecher/INDEX.md`). Bei der Gelegenheit zwei echte Restpunkte desselben Companion-Destillats
+abgearbeitet: **§ 20 Abs. 2 WsG** amtlich gegen `raw/260803_amtlich_zh_wsg.md` geprüft — das
+Destillat unterschlug bisher die kumulative Voraussetzung «Wiederaufbau ausserhalb des
+Gewässerraums nicht möglich», nur die parallelen Wiki-/Buchartikel hatten sie bereits korrekt;
+präzisiert. **Art. 24c Abs. 2 RPG** erstmals gegen einen frischen Fedlex-Volltext geprüft (neu
+`raw/260824_amtlich_ch_rpg-art24c.md`, Stand 1.7.2026) — die dortige Behauptung «lässt
+Wiederaufbau auch bei freiwilligem Abbruch zu» ist am Gesetzeswortlaut **nicht verifizierbar**
+(RPG-weite Suche nach «Abbruch» trifft nur die sachfremde Abbruchprämie Art. 5a); nicht
+korrigiert, sondern als offene Diskrepanz markiert, da sie möglicherweise aus der
+Buchkommentierung zu Kap. 21 (S. 1503 ff.) stammt und ohne Screenshot-Zugriff nicht
+abschliessend auflösbar ist. Report `outputs/2026-08-24_buch-run137.md`. **Nächster Schritt:**
+Art.-24c-Diskrepanz und Kap. 22/23 mit Screenshot-Zugriff auflösen, sonst unverändert die drei
+Datenbank-bedingt unverifizierbaren Alt-Fallzitate, der Baulinien-Wachposten und
+[[geschosse-und-kniestock]].
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

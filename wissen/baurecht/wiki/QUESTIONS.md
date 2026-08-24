@@ -2467,8 +2467,22 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Erweiterungs-/Nutzungsänderungs-Kasuistik) in [[20-ausnahmen-bestandesschutz]] ergänzt (S. 1450-1455,
   Shots 729-731). **Offen bleibt § 357 Abs. 5** (Milderung von Bauvorschriften für zweckmässige Nutzung),
   ab Shot 732 / S. 1456 ff.
-- **Baupolizeiliche Missstände + Brandstattrecht § 307 PBG offen:** dritter/vierter Tatbestand
-  der Kap.-20-Übersicht (Wiederaufbau zerstörter Gebäude), S. 1456 ff. noch nicht distilliert.
+- ~~**Baupolizeiliche Missstände + Brandstattrecht § 307 PBG offen:** dritter/vierter Tatbestand
+  der Kap.-20-Übersicht (Wiederaufbau zerstörter Gebäude), S. 1456 ff. noch nicht distilliert.~~ →
+  **stale, bereits erledigt (Buch-Run 137, 2026-08-24):** S. 1456 ff. wurde bereits am selben Tag
+  wie dieser Eintrag (2026-07-10) im Companion-Destillat
+  [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]] distilliert und 2026-07-13
+  Modell-D-verifiziert (§ 358/§ 307 PBG CONFIRMED) — nur der Zeiger hier und in
+  `buecher/band-2/20-ausnahmen-bestandesschutz.md` war seither nie nachgezogen worden. Gleiche
+  Fehlerfamilie wie Run 105/109/110/113-115/133/134. Bei dieser Gelegenheit zusätzlich zwei echte
+  Restpunkte im Companion-Destillat geschlossen: **§ 20 Abs. 2 WsG** (Brandstattrecht im
+  Gewässerraum) amtlich gegen `raw/260803_amtlich_zh_wsg.md` geprüft und um eine bisher fehlende
+  kumulative Voraussetzung präzisiert; **Art. 24c Abs. 2 RPG** erstmals gegen einen frischen
+  Fedlex-Volltext geprüft (`raw/260824_amtlich_ch_rpg-art24c.md`, Stand 1.7.2026) — die dortige
+  Aussage «lässt Wiederaufbau auch bei freiwilligem Abbruch zu» ist am Gesetzeswortlaut **nicht
+  verifizierbar** (RPG-weite Suche nach «Abbruch» trifft nur die sachfremde Abbruchprämie Art. 5a)
+  und bleibt als offene Diskrepanz markiert, auflösbar erst mit Buch-Screenshot-Zugriff Kap. 21
+  (S. 1503 ff., an dieser Station nicht verfügbar).
 - ~~**needs-verification — Wortlaut § 220 / § 357 Abs. 1 PBG:** im Destillat
   [[20-ausnahmen-bestandesschutz]] nach Buch S. 1434/1444 sinngemäss wiedergegeben; am amtlichen
   PBG-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).~~ → **stale, bereits erledigt

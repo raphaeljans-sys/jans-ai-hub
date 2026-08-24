@@ -7,7 +7,7 @@ shots: "720-731 (distilliert, S. 1433-1455; § 357 Abs. 5 Milderungsklausel erga
 paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 262 PBG", "§ 67 PBG", "§ 49 Abs. 3 PBG", "§ 100 PBG", "§ 101 PBG", "§ 269 PBG", "§ 275 Abs. 2 PBG", "§ 360 PBG", "§ 21 WWG", "Art. 24 RPG", "Art. 24c RPG", "Art. 24c Abs. 2 RPG", "Art. 37a RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 9 BV", "Art. 8 ZGB", "§ 34 BBV I"]
 status: emerging
 gelesen: 2026-06-07
-last_updated: 2026-07-13 (§ 357 Abs. 5 Wortlaut ergaenzt)
+last_updated: 2026-08-24 (Buch-Run 137, stale Shot-732-Zeiger korrigiert; § 357 Abs. 5 Wortlaut ergaenzt 2026-07-13)
 ---
 
 # Kap. 20 — Ausnahmetatbestaende bei vorschriftswidrigen Bauten und Anlagen
@@ -435,7 +435,11 @@ Gesamtwuerdigung zu beurteilen.
   2026-07-13, Abschnitt 20.3.5) — der zugehoerige **Buch-Abschnitt** (Kommentierung/Praxis/
   erlassene Verordnungen) ist aber weiterhin **nicht gelesen**, vermutlich unmittelbar vor
   S. 1456 — Shots ab 732 nachholen.
-- **Baupolizeiliche Missstaende** (S. 1456 ff.) und **Brandstattrecht § 307 PBG** (S. 1457 ff.) —
-  vierter/dritter Tatbestand der Uebersicht — weiterhin offen (Shots ab 732 nicht in diesem Lauf).
+- ~~**Baupolizeiliche Missstaende** (S. 1456 ff.) und **Brandstattrecht § 307 PBG** (S. 1457 ff.) —
+  vierter/dritter Tatbestand der Uebersicht — weiterhin offen (Shots ab 732 nicht in diesem Lauf).~~
+  → **stale, bereits erledigt:** Shot 732 wurde am selben Tag (2026-07-10) im Companion-Destillat
+  [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]] distilliert (§ 358/§ 307 PBG
+  Modell-D-verifiziert 2026-07-13, Buch-Run 38); nur der Zeiger hier war nie nachgezogen worden
+  (nachgetragen 2026-08-24, Buch-Run 137).
 - Verhaeltnis § 357 ↔ **§ 101 PBG** (baulinienwidriger Bestand, schon in [[baulinien-und-abstandslinien]])
   und ↔ **Art. 24c RPG** (ausserhalb Bauzone, Kap. 21) im Wiki sauber abgrenzen.

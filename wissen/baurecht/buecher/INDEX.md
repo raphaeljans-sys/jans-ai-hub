@@ -214,7 +214,10 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Aussiedlung BGer 1C_567/2014; i.V.m. § 228 Abs. 1 Unterhaltspflicht; § 243 Abs. 2 Parkplatz-Spezialfall),
   **§ 307 PBG Brandstattrecht** (Wiederaufbau brand-/katastrophenzerstoerter vorschriftswidriger Bauten in
   Bauzonen, **innert 3 J.**, Art/Umfang/Lage, verbessernder Wiederaufbau BEZ 1998 Nr. 8; ausserhalb Bauzone
-  Art. 24c Abs. 2 RPG; § 15m HWSchV — aufgehoben 01.06.2026, heute § 20 WsG). 1 Doppelseite (Shot 732). Status: `emerging`. **SCHLIESST Kap. 20.**
+  Art. 24c Abs. 2 RPG; § 15m HWSchV — aufgehoben 01.06.2026, heute § 20 WsG amtlich verifiziert, präzisiert
+  um kumulative Voraussetzung, Buch-Run 137). 1 Doppelseite (Shot 732). Status: `established` (Zeiger korrigiert
+  2026-08-24, Datei selbst seit Modell-D-Verifikation 2026-07-13 established; Art. 24c Abs. 2 RPG als offene
+  Diskrepanz markiert). **SCHLIESST Kap. 20.**
   Speist [[ausnahmebewilligung-und-bestandesschutz]] + [[bestandsumbau-eingriffstiefe]].
 - [[12-baureife]] — Kap. 12 Teil 1+2 (S. 707-741): **Baureife** als erstes der Grundanforderungen
   (§§ 233-249 PBG) — **technische Erschliessung** (Zugaenglichkeit/Wasser/Energie/Entsorgung,

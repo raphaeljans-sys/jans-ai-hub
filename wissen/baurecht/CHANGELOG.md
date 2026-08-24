@@ -3,6 +3,59 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 137: stale Kap.-20-Zeiger (Companion-Destillat war seit 2026-07-13 established) korrigiert; § 20 Abs. 2 WsG präzisiert; Art. 24c Abs. 2 RPG «freiwilliger Abbruch»-Aussage als offene Diskrepanz markiert
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen; Kap. 22/23 (Band 2) weiterhin
+  ohne Screenshot-Zugriff an dieser Station (SharePoint-Bibliothek `PL - 02_Recht_Norm` nicht
+  gemountet). `ps aux` geprüft: zwei parallele Läufe aktiv, aber auf `wissen/normen` bzw.
+  `wissen/energie` — keine Kollision mit `baurecht`. `wiki/QUESTIONS.md` nach echten (nicht bereits
+  durchgestrichenen) offenen Einträgen durchsucht statt einer weiteren Modell-D-Stichprobe.
+- GEFUNDEN (stale Zeiger, gleiche Fehlerfamilie wie Run 105/109/110/113-115/133/134): der Eintrag
+  «Baupolizeiliche Missstände + Brandstattrecht § 307 PBG offen» (`QUESTIONS.md`, 2026-06-18) sowie
+  die «Offene Punkte»/Frontmatter-Notizen in `buecher/band-2/20-ausnahmen-bestandesschutz.md` und die
+  Statuszeile in `buecher/INDEX.md` behaupteten weiterhin «S. 1456 ff. nicht distilliert». Tatsächlich
+  deckt das Companion-Destillat [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]] diese Seiten
+  bereits seit 2026-07-10 ab, Modell-D-verifiziert 2026-07-13 (Buch-Run 38, § 307/§ 358 PBG
+  CONFIRMED), `status: established` im eigenen Frontmatter — die Zeiger wurden nach der Erstellung
+  nie nachgezogen. Alle drei Stellen korrigiert.
+- ECHTE KORREKTUR: **§ 20 Abs. 2 WsG** (Brandstattrecht im Gewässerraum, Nachfolgenorm der per
+  1.6.2026 aufgehobenen § 15m Abs. 2 HWSchV) war im Companion-Destillat verkürzt zitiert («sofern die
+  Hochwassersicherheit nicht beeinträchtigt wird»). Amtlich gegen `raw/260803_amtlich_zh_wsg.md`
+  geprüft: der Gesetzeswortlaut verlangt **kumulativ** zwei Voraussetzungen — «wenn ein Wiederaufbau
+  ausserhalb des Gewässerraums nicht möglich ist **und** die Baute oder Anlage die
+  Hochwassersicherheit nicht beeinträchtigt». Die erste Voraussetzung fehlte vollständig; die
+  parallelen Artikel [[abstaende-und-hoehen]] und [[15-lage-von-gebaeuden]] führen die Norm bereits
+  seit Buch-Run 47 (2026-07-17) korrekt — nur dieses eine Destillat war seither nicht nachgezogen.
+  Korrigiert.
+- OFFENE DISKREPANZ (nicht als Fehler korrigiert, da nicht abschliessend auflösbar): dieselbe Stelle
+  behauptete «Ausserhalb der Bauzonen gilt Art. 24c Abs. 2 RPG (lässt den Wiederaufbau auch bei
+  freiwilligem Abbruch zu)», bisher nur destillat-/buchbelegt. Erstmals gegen einen frischen
+  Fedlex-Volltext geprüft (neu `raw/260824_amtlich_ch_rpg-art24c.md`, Filestore-Muster
+  `docs/referenz/fedlex-volltexte.md`, ELI 1979/1573_1573_1573, Stand 1.7.2026). **Die Aussage ist am
+  Gesetzeswortlaut nicht auffindbar** — Art. 24c Abs. 2 RPG kennt nur die generelle Voraussetzung
+  «rechtmässig erstellt oder geändert», keine Unterscheidung freiwilliger/unfreiwilliger Beseitigung;
+  eine RPG-weite Suche nach «Abbruch» trifft ausschliesslich die sachfremde Abbruchprämie Art. 5a.
+  Als offene Diskrepanz markiert statt stillschweigend fortgeführt oder ohne Beleg gelöscht — die
+  Aussage könnte aus der Buchkommentierung zu Kap. 21 (S. 1503 ff.) stammen, an dieser Station ohne
+  Screenshot-Zugriff nicht nachprüfbar.
+- NEU `raw/260824_amtlich_ch_rpg-art24c.md` (amtliche Primärquelle Art. 24c RPG, Volltext +
+  Provenienz).
+- GEÄNDERT `buecher/band-2/20-ausnahmen-teil2-milderung-missstaende-brandstatt.md` (Frontmatter
+  `last_updated`/`verifiziert`, § 20-WsG-Korrektur + Art.-24c-Diskrepanz, «Offene Punkte»),
+  `buecher/band-2/20-ausnahmen-bestandesschutz.md` (Frontmatter `shots`/`last_updated`, «Offene
+  Punkte»), `buecher/INDEX.md` (Statuszeile `emerging` → `established`), `wiki/QUESTIONS.md`
+  (Eintrag 2026-06-18 als stale/erledigt markiert, neue Befunde nachgetragen),
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (Run-137-Eintrag).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv bzw. erwartete
+  Ersetzung derselben Sätze, keine unerwartete Löschung (neue Raw-Datei ungetrackt; Companion-
+  Destillat 5/4; `20-ausnahmen-bestandesschutz.md` 7/3; `buecher/INDEX.md` 4/1; `QUESTIONS.md` 16/2;
+  `KORPUS-QUEUE...` 22/0 rein additiv).
+- REPORT `outputs/2026-08-24_buch-run137.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch diesen
+  Lauf. Verbleibend offen: Kap. 22/23 (Band 2, weiterhin ohne Screenshot-Zugriff), die drei
+  Datenbank-bedingt unverifizierbaren Alt-Fallzitate (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77),
+  [[geschosse-und-kniestock]], der Baulinien-Wachposten und **neu** die Art.-24c-Abs.-2-RPG-
+  Diskrepanz — alle vier nur mit weiteren Primärquellen bzw. Screenshot-Zugriff auflösbar.
+
 ## 2026-08-24 — Buch-Run 136: Baulinien-Wachposten (KR-Geschäft 6000) amtlich bestätigt über den offiziellen Kantonsrats-Webservice statt des privaten Aggregators
 - ANLASS: Run 135 hatte den Verfahrensstand der PBG-Teilrevision «Baulinien» nur sekundär
   (Aggregator `inzh.ch`) belegen können, weil die offizielle Geschäftsseite
