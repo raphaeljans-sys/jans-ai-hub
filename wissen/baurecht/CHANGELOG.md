@@ -3,6 +3,44 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 110: Stale-Flag-Sweep Kap. 7 T1/T2 — zwei stale Zeiger geschlossen, zwei echte Lücken neu belegt (§§ 5a/13/14 VRG, Art. 138 ZPO, Art. 49 BGG, § 20 BVV)
+
+- **Ausgangslage:** Fortsetzung von Run 109 (Stale-Flag-Sweep in `wiki/QUESTIONS.md`); nächstältere
+  Blöcke «Kap. 7 Teil 1» (2026-06-19) und «Kap. 7 Teil 2» (2026-06-21) geprüft, vier
+  `needs-verification`-Flags.
+- **Zwei Flags waren stale:** § 322/§ 324 PBG bereits CONFIRMED via Buch-Run 66/96
+  (`verifiziert`-Feld [[baurechtlicher-vorentscheid-und-voranfrage]]); § 328 PBG bereits CONFIRMED
+  via Buch-Run 30 (`verifiziert`-Feld [[bauausfuehrung-und-baukontrolle]]); § 326 PBG + Art. 962
+  ZGB/Art. 164 GBV bereits CONFIRMED via Buch-Run 67 (`verifiziert`-Feld
+  [[nebenbestimmungen-und-reverse]]) — nur der Zeiger in `QUESTIONS.md` war veraltet, kein neuer
+  Fachbefund.
+- **Zwei Flags waren echte, bisher ungeprüfte Lücken — jetzt geschlossen:**
+  1. **§§ 5a/13/14 VRG** frisch von zhlex bezogen (`erlass-175_2-1959_05_24-1960_05_01-133.html`,
+     weiterhin Nachtrag 133, keine Drift seit Run 64) und in `raw/260712_amtlich_zh_vrg.md`
+     additiv nachgetragen. **§ 5a VRG (Ausstand)** war im Wiki bislang gar nicht geführt — neuer
+     Abschnitt 2b in [[rechtsschutz-und-rechtsmittelverfahren]]. **§ 13 Abs. 2 VRG**
+     (Unterliegerprinzip) CONFIRMED wortgleich. **§ 14 VRG präzisiert eine bisherige Vermutung:**
+     die Grundregel bei gemeinsam Beteiligten ist **subsidiäre Haftung für das Ganze zu gleichen
+     Teilen**, Solidarhaftung nur ausnahmsweise aus dem Rechtsverhältnis der Beteiligten (nicht
+     Solidarhaftung als Regel, wie die alte QUESTIONS.md-Formulierung vermuten liess).
+  2. **Art. 138 ZPO + Art. 49 BGG** erstmals von Fedlex bezogen — neue Primärquellen
+     `raw/260824_amtlich_ch_zpo-art138.md` (SR 272, ELI 2010/262, Stand 1.1.2025 — Stand
+     1.1.2026/1.1.2024 liefern nur die 77'151-Byte-JS-App-Hülle) und
+     `raw/260824_amtlich_ch_bgg-art49.md` (SR 173.110, ELI 2006/218 — drei geratene ELI
+     2006/166/2006/1069/2006/1205 scheiterten, korrekte ELI erst per WebSearch gefunden). Beide
+     **CONFIRMED wortgleich**: Art. 138 Abs. 3 lit. a ZPO (Zustellfiktion 7. Tag), Art. 49 BGG
+     (aus fehlender/unrichtiger Rechtsmittelbelehrung kein Nachteil). Zusätzlich **§ 20 BVV**
+     (Gültigkeitsdauer-Definition) neu CONFIRMED gegen `raw/260607_amtlich_zh_bvv.md`. Alle drei
+     bislang nicht in [[baurechtlicher-vorentscheid-und-voranfrage]] geführt — neuer Abschnitt
+     «Zustellung, Rechtsmittelbelehrung, Gültigkeitsdauer der Bewilligung».
+- **In die KB eingearbeitet:** `raw/260712_amtlich_zh_vrg.md` (additiver Nachtrag §§ 5a/13/14),
+  zwei neue Primärquellen (ZPO/BGG), zwei Wiki-Artikel (neue Abschnitte + Frontmatter/verifiziert),
+  `wiki/QUESTIONS.md` (vier Bullets geschlossen), `training/KORPUS-QUEUE-thalwil-reglemente.md`,
+  `training/PROGRAMM.md` (Tracker), dieses CHANGELOG.
+- **Nächster Schritt:** Stale-Flag-Sweep an den nächstälteren Blöcken fortsetzen (Kap. 8/12/1/2/3/6,
+  `QUESTIONS.md` ab ca. Zeile 2060) — einige enthalten nach erster Durchsicht echte, weiterhin
+  offene Lücken (z.B. §§ 120/150/264/346 PBG in Kap. 12), nicht nur veraltete Zeiger.
+
 ## 2026-08-24 — Buch-Run 109: drei veraltete needs-verification-Flags in QUESTIONS.md geschlossen (Bookkeeping, kein neuer Fachbefund)
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterführen» (Batches T1-T8/T9).

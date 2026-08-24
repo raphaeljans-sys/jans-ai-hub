@@ -2,11 +2,11 @@
 beschreibung: Der baurechtliche Vorentscheid im Kt. ZH (§§ 323/324 PBG) als Kernwerkzeug der Vorabklärung — teilverbindliche, rechtsmittelfähige, drei Jahre wirksame Verfügung über grundlegende, projektunabhängige Rechtsfragen. Abgrenzung zur blossen Auskunft (nur ausnahmsweise via Treu und Glauben bindend, 5 kumulative Voraussetzungen) und zur formlosen Verhandlungslösung. Wer (auch Kaufinteressent ohne Baubefugnis), was (nur Rechtsfragen, nicht Einordnung/Detail), wie lange (3 Jahre Bindung), Drittwirkung seit 1.7.2014. Verbindlicher Unterbau für behörden-vorabklärung, machbarkeit, ankaufsprüfung, nutzungsstrategie.
 title: Baurechtlicher Vorentscheid und Voranfrage — ZH
 status: established
-last_updated: 2026-08-23
-sources: [raw/260607_amtlich_zh_pbg.md, "[[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] (Bd 1, Kap. 7, S. 477-484)"]
-verifiziert: "Buch-Run 66 (2026-07-27, Festigungsmodus Priorität c, erster Modell-D-Lauf dieses Artikels seit Erstellung 2026-06-21): vollständiger Wortlautabgleich gegen raw/260607_amtlich_zh_pbg.md — § 322 Abs. 1 PBG (Gültigkeit der Bewilligung, Erlöschen nach 3 Jahren, Z. 3313-3320), § 323 PBG (Vorentscheide, Abs. 1 grundlegende Rechtsfragen + Koordinationsgebot, Abs. 2 Verfahren wie Baubewilligung, Z. 3332-3339), § 324 PBG (Rechtswirkung wie Bewilligung, Änderungsvorbehalt, Z. 3340-3343), § 310 Abs. 3 PBG (Nachweis Baubefugnis nur bei Nicht-Eigentümer, Z. 3199-3206), § 315 PBG (Zustellungsbegehren binnen 20 Tagen, kein Einspracheverfahren, Z. 3249-3257), § 213 PBG (Anspruch auf Entscheid über Schutzwürdigkeit inkl. Jahresfrist + Erstreckung max. 1 weiteres Jahr, Z. 2114-2122) — alle CONFIRMED, 0 Korrekturen, 0 Halluzinationen. Fassungsstand PBG weiterhin Nachtrag 133 (Z. 3266 «1. 7. 26 - 133»), keine Drift. Die 3-Jahres-Bindung des Vorentscheids stützt sich korrekt auf § 322 Abs. 1 analog (§ 324 PBG selbst nennt keine eigene Frist, verweist nur auf die Bewilligungswirkung) — im Artikel bereits richtig referenziert. Art. 5 Abs. 3 BV / Art. 2 Abs. 3 KV / Art. 8 ZGB sowie alle zitierten BEZ-/VB-/BGE-Entscheide sind Rechtsprechung/Bundesverfassungsrecht, nicht am kantonalen PBG-Wortlaut verifizierbar (ausserhalb Scope Modell D). — Buch-Run 96 (2026-08-23, zweiter Modell-D-Lauf): erneuter vollständiger Wortlautabgleich derselben sechs Paragraphen gegen raw/260607_amtlich_zh_pbg.md (Z. 3199-3206, 3249-3257, 3314-3343, 2114-2123) — weiterhin CONFIRMED wortgleich, 0 Korrekturen. Fassungsstand PBG unverändert Nachtrag 133 (Z. 3266 «1. 7. 26 - 133»); der am selben Tag in Buch-Run 94 amtlich festgestellte PBG-Nachtrag 134 tritt erst per 01.10.2026 in Kraft und betrifft die hier zitierten §§ 213/310/315/322/323/324 nicht (kein neuer Nachweis nötig, siehe Run 94 für die volle Herleitung). Buch-Destillat [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] (status weiterhin emerging) ohne neue Diskrepanz gegengelesen."
-quelle_destillat: "[[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] (Bd 1, Kap. 7, S. 477-484)"
-paragraphen: ["§ 323 PBG", "§ 324 PBG", "§ 322 PBG", "§ 310 PBG", "§ 315 PBG", "§ 213 PBG", "Art. 5 BV", "Art. 2 KV", "Art. 8 ZGB"]
+last_updated: 2026-08-24
+sources: [raw/260607_amtlich_zh_pbg.md, raw/260607_amtlich_zh_bvv.md, raw/260824_amtlich_ch_zpo-art138.md, raw/260824_amtlich_ch_bgg-art49.md, "[[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] (Bd 1, Kap. 7, S. 448-454, 477-484)"]
+verifiziert: "Buch-Run 66 (2026-07-27, Festigungsmodus Priorität c, erster Modell-D-Lauf dieses Artikels seit Erstellung 2026-06-21): vollständiger Wortlautabgleich gegen raw/260607_amtlich_zh_pbg.md — § 322 Abs. 1 PBG (Gültigkeit der Bewilligung, Erlöschen nach 3 Jahren, Z. 3313-3320), § 323 PBG (Vorentscheide, Abs. 1 grundlegende Rechtsfragen + Koordinationsgebot, Abs. 2 Verfahren wie Baubewilligung, Z. 3332-3339), § 324 PBG (Rechtswirkung wie Bewilligung, Änderungsvorbehalt, Z. 3340-3343), § 310 Abs. 3 PBG (Nachweis Baubefugnis nur bei Nicht-Eigentümer, Z. 3199-3206), § 315 PBG (Zustellungsbegehren binnen 20 Tagen, kein Einspracheverfahren, Z. 3249-3257), § 213 PBG (Anspruch auf Entscheid über Schutzwürdigkeit inkl. Jahresfrist + Erstreckung max. 1 weiteres Jahr, Z. 2114-2122) — alle CONFIRMED, 0 Korrekturen, 0 Halluzinationen. Fassungsstand PBG weiterhin Nachtrag 133 (Z. 3266 «1. 7. 26 - 133»), keine Drift. Die 3-Jahres-Bindung des Vorentscheids stützt sich korrekt auf § 322 Abs. 1 analog (§ 324 PBG selbst nennt keine eigene Frist, verweist nur auf die Bewilligungswirkung) — im Artikel bereits richtig referenziert. Art. 5 Abs. 3 BV / Art. 2 Abs. 3 KV / Art. 8 ZGB sowie alle zitierten BEZ-/VB-/BGE-Entscheide sind Rechtsprechung/Bundesverfassungsrecht, nicht am kantonalen PBG-Wortlaut verifizierbar (ausserhalb Scope Modell D). — Buch-Run 96 (2026-08-23, zweiter Modell-D-Lauf): erneuter vollständiger Wortlautabgleich derselben sechs Paragraphen gegen raw/260607_amtlich_zh_pbg.md (Z. 3199-3206, 3249-3257, 3314-3343, 2114-2123) — weiterhin CONFIRMED wortgleich, 0 Korrekturen. Fassungsstand PBG unverändert Nachtrag 133 (Z. 3266 «1. 7. 26 - 133»); der am selben Tag in Buch-Run 94 amtlich festgestellte PBG-Nachtrag 134 tritt erst per 01.10.2026 in Kraft und betrifft die hier zitierten §§ 213/310/315/322/323/324 nicht (kein neuer Nachweis nötig, siehe Run 94 für die volle Herleitung). Buch-Destillat [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] (status weiterhin emerging) ohne neue Diskrepanz gegengelesen. — Buch-Run 110 (2026-08-24, Fortsetzung des Stale-Flag-Sweeps aus Run 109, Kap.-7-T2-Flag QUESTIONS.md 2026-06-21): drei bisher nicht im Artikel geführte Zitate aus dem Destillat (S. 448-454) erstmals amtlich geprüft — § 20 Abs. 1 BVV (Gültigkeitsdauer-Definition) CONFIRMED gegen raw/260607_amtlich_zh_bvv.md; Art. 138 Abs. 3 lit. a ZPO (Zustellfiktion 7. Tag) CONFIRMED wortgleich gegen frisch bezogenes raw/260824_amtlich_ch_zpo-art138.md (Fedlex, Stand 1.1.2025 — Stand 1.1.2026/1.1.2024 liefern nur die 77'151-Byte-JS-App-Hülle); Art. 49 BGG (fehlerhafte/fehlende Rechtsmittelbelehrung kein Nachteil) CONFIRMED wortgleich gegen frisch bezogenes raw/260824_amtlich_ch_bgg-art49.md (Fedlex, Stand 1.1.2025; korrekte ELI 2006/218 erst per WebSearch ermittelt, drei geratene ELI 2006/166/2006/1069/2006/1205 lieferten App-Hülle bzw. Fehlerseite). Neuer Abschnitt «Zustellung, Rechtsmittelbelehrung, Gültigkeitsdauer der Bewilligung» im Fliesstext ergänzt."
+quelle_destillat: "[[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] (Bd 1, Kap. 7, S. 448-454, 477-484)"
+paragraphen: ["§ 323 PBG", "§ 324 PBG", "§ 322 PBG", "§ 310 PBG", "§ 315 PBG", "§ 213 PBG", "§ 20 BVV", "§ 6 PBG", "§ 316 PBG", "§ 270 PBG", "§ 10 VRG", "Art. 5 BV", "Art. 2 KV", "Art. 8 ZGB", "Art. 9 BV", "Art. 112 BGG", "Art. 49 BGG", "Art. 18 KV", "Art. 138 ZPO"]
 links: [[baubewilligungsverfahren]], [[nebenbestimmungen-und-reverse]], [[ausnahmebewilligung-und-bestandesschutz]]
 ---
 
@@ -94,6 +94,29 @@ Verbindlichkeit will, verlangt einen **Vorentscheid**, keine Auskunft.
 Behörde **befangen** machen (BGer 1C_150/2009 [AG]; BGE 140 I 326). Im Kt. ZH ist das **systembedingt
 weniger heikel**, weil das Baubewilligungsverfahren **kein Einspracheverfahren** kennt — Dritte
 ersuchen nur um Zustellung (§ 315 PBG; VB.2013.00337). In anderen Kantonen (z. B. SZ) zurückhaltender.
+
+## Zustellung, Rechtsmittelbelehrung, Gültigkeitsdauer der Bewilligung
+
+**Zustellung** erfolgt schriftlich, i. d. R. als eingeschriebener Brief zur Beweissicherung des
+fristauslösenden Zeitpunkts (§ 6 Abs. 1 lit. b PBG). Der Fristenlauf folgt **analog** Art. 138 ZPO:
+ein nicht abgeholtes Einschreiben gilt am **7. Tag** nach dem erfolglosen Zustellungsversuch als
+zugestellt, sofern die Person mit einer Zustellung rechnen musste (Art. 138 Abs. 3 lit. a ZPO,
+amtlich CONFIRMED wortgleich). Zustelladressaten von Gesetzes wegen: die Baugesuchstellenden
+(§ 10 Abs. 3 lit. a VRG) sowie Dritte, die nach § 315 Abs. 1 PBG ein Zustellbegehren gestellt haben
+(§ 316 Abs. 2 PBG) — ein Näherbaurechtsgeber muss dafür **kein** eigenes Zustellbegehren stellen
+(§ 270 Abs. 3 PBG).
+
+**Rechtsmittelbelehrung** ist Pflicht (Art. 112 lit. d BGG, Art. 18 Abs. 2 KV, § 10 Abs. 1 VRG:
+zulässiges Rechtsmittel, Instanz, Frist; Angaben zu Legitimation/Kostenfolgen nicht erforderlich)
+und **formelles Gültigkeitserfordernis**: aus **fehlender oder unrichtiger** Rechtsmittelbelehrung
+darf den Parteien **kein Nachteil** erwachsen (Art. 49 BGG, amtlich CONFIRMED wortgleich). Art. 49
+BGG regelt unmittelbar nur das bundesgerichtliche Verfahren; auf kantonale/kommunale Verfügungen
+wirkt derselbe Grundsatz über Treu und Glauben (Art. 9 BV).
+
+**Gültigkeitsdauer.** § 20 BVV definiert, welche Bewilligungen für die 3-Jahres-Frist nach § 322 PBG
+zählen: als baurechtliche Bewilligungen gelten alle Bewilligungen und Genehmigungen, die nach dem
+PBG Voraussetzung für den Baubeginn sind (§ 20 Abs. 1 BVV, amtlich CONFIRMED gegen
+`raw/260607_amtlich_zh_bvv.md`) — eine Klarstellung, kein eigenständiges Fristregime.
 
 ## Anwendung JANS
 

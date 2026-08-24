@@ -292,6 +292,46 @@ nach Projektbedarf.
 > Abschnitt A). **Kein Volltext gekauft** — alle vier bleiben reine Metadaten-Zeilen, Beschaffung
 > weiterhin Bring-Schuld. Report: `outputs/2026-08-23_sia-sweep-neunte-fortsetzung.md`.
 
+> **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung, Lauf 03:36 Uhr) — zwei weitere Wege für
+> N-SIASWEEP-2/3 geprüft, beide negativ, aber echt neu (nicht Wiederholung der Empfehlung der
+> siebten Fortsetzung).** (1) **Kostenlose-Leseprobe-Route (die Methode, die N-SIASWEEP-4 in der
+> achten Fortsetzung geschlossen hat) direkt an SIA 422 getestet:** Produktseite
+> `shop.sia.ch/normenwerk/architekt/422_2009_d/D/Product` hat tatsächlich einen freien
+> Leseproben-Download (`DownloadAnhang`, 5 Seiten, per `curl` geladen, `pdftotext -layout`
+> vollständig gelesen). Ergebnis: die Leseprobe zeigt nur Titelblatt, Inhaltsverzeichnis und die
+> **ursprüngliche** Genehmigungsklausel («Die Zentralkommission … hat die vorliegende Norm SIA 422
+> … am 22. November 2007 genehmigt. Sie ist gültig ab 1. Juni 2009.») — keinen Hinweis auf den
+> Rückzug 2024, kein Wasserzeichen, keine Ersetzt-Klausel. **Strukturell erklärbar:** die
+> Leseprobe ist die eingefrorene Erstausgabe von 2009, nicht ein bei Archivierung
+> nachgeführtes Dokument; anders als bei SIA 405:2025 (dort war die Leseprobe die NEUE,
+> ablösende Norm mit eigener Ersetzt-Klausel im Vorwort) gibt es bei SIA 422/2021/2025 keine
+> Nachfolgenorm, deren Leseprobe man stattdessen läse. Die Methode ist für Rückzüge **ohne**
+> benannten Nachfolger prinzipiell nicht anwendbar, nicht nur für diese drei Fälle — künftige
+> Läufe müssen sie hier nicht erneut versuchen. Stichprobe an SIA 2021 (Produktseite
+> `shop.sia.ch/normenwerk/architekt/2021_2002_d/D/Product`) bestätigt: Leseprobe nur
+> Inhaltsverzeichnis, Produktseite selbst weiterhin ohne Nachfolgerfeld — kein neuer Befund.
+> (2) **Fünf weitere ZN-Sitzungsartikel** (SIA-Eigenmedium `sia.ch/de/dienstleistungen/
+> artikelbeitraege/…` und Espazium-Zweitveröffentlichungen) gezielt auf das Rückzugsfenster
+> 27.10.2023–03.01.2024 hin geprüft: Juni 2024 («Fünf neue Normen, ein Rückzug» — Rückzug betrifft
+> SIA 2031:2016, nicht 422/2025), September 2014 und März 2015 (beide zum bekannten
+> gescheiterten 2014er-Anlauf, keine neue Substanz gegenüber dem bereits in dieser Datei
+> vermerkten Befund), November 2016 (reine Gültigkeitsverlängerungen, kein Rückzug), sowie ein
+> Wayback-Snapshot (`web.archive.org`, Stand 03.06.2023) einer sia.ch-Artikelseite mit
+> ähnlichem URL-Muster («…vierten-sitzung…-2») — dieser zeigt einen Rückzug von
+> SIA V118/274:2010 und SIA 370/21:1987, ebenfalls nicht 422/2025, und stammt inhaltlich aus
+> einer früheren Sitzung (Freigaben mit Gültigkeitsdatum 01.02.2023), nicht aus der laut
+> WebSearch-Synopse am 07.12.2023 stattgefundenen vierten Sitzung 2023 («15 Beschlüsse, davon
+> ein Rückzug») — **genau diese** wäre die wahrscheinlichste Fundstelle, ihre tatsächliche
+> Artikel-URL liess sich aber nicht auflösen: `sia.ch`-Artikelseiten sind clientseitig
+> gerendert (WebFetch und `curl` liefern beide nur eine leere JS-Hülle, `wc -c` ~3,4 KB ohne
+> Fliesstext — dieselbe bereits dokumentierte Grenze wie bei den Webinar-Seiten), und generische
+> Espazium-URL-Titel («SIA: Beschlüsse zu Normen» u.ä.) werden über Jahre mehrfach wiederverwendet
+> und liefern damit über Suchtreffer nicht zuverlässig die jüngste Fassung. **Damit sind jetzt
+> zehn unabhängige Quellenarten für N-SIASWEEP-2/3 erschöpft** (die neun der Fortsetzungen 1-9
+> plus die Leseproben-Route). Kein Fortschritt bei den beiden eigentlichen Fragen (Rückzugsgrund
+> SIA 422, ZN-Sitzung/Begründung SIA 2025); das bereits belegte Rückzugsfenster selbst bleibt
+> unverändert gültig. Report: `outputs/2026-08-24_questions-abarbeitung-0336uhr.md`.
+
 ---
 
 ## Normen-Lauf Run 58 (20.08.2026) — VKF-Fassungs-Sweep: N27-1 geschlossen, 23 Destillate überholt

@@ -5,7 +5,9 @@
 `https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-175_2-1959_05_24-1960_05_01-133.html`
 PDF-Volltext (Stand-Fussnote «1. 7. 25 - 129»): zhlex, Ordnr. 175.2
 **Beschafft/Stand:** 2026-07-12
-**Umfang:** nur §§ 8, 9, 10c, 15, 30 (und flankierend 29a/31 zum Verständnis) — treu abgeschrieben.
+**Umfang:** §§ 8, 9, 10c, 15, 30 (und flankierend 29a/31 zum Verständnis), sowie **§§ 5a, 13, 14**
+(Ausstand, Kosten/Kostenauflage — nachgetragen 2026-08-24, Buch-Run 110, frisch von derselben
+zhlex-Erlassseite bezogen, weiterhin Nachtrag 133) — treu abgeschrieben.
 **Fassungsstand geprueft:** 2026-07-27 (Buch-Run 64) — zhlex-Erlassseite (`history-entry-0`) zeigt
 aktuell **Nachtrag 133** («1. 7. 26 - 133»), gegenueber Nachtrag 129 zum Zeitpunkt der Beschaffung
 also **Drift in der Nachtragsnummer**. Frisches PDF (`175.2_24.5.59_133.pdf`) Wort fuer Wort gegen
@@ -113,3 +115,57 @@ Erfüllung anzusetzen.
 selbstständig erlassen werden. Sie ist nicht durch Rekurs anfechtbar.
 
 3 In dringlichen Fällen kann von einer Zwangsandrohung abgesehen werden.
+
+---
+
+## Nachtrag 2026-08-24 (Buch-Run 110) — §§ 5a, 13, 14 VRG
+
+Frisch von derselben zhlex-Erlassseite bezogen (`erlass-175_2-1959_05_24-1960_05_01-133.html` →
+`175.2_24.5.59_133.pdf`, Nachtrag weiterhin 133, keine Drift seit Buch-Run 64/2026-07-27).
+
+### § 5a VRG — Ausstand
+
+1 Personen, die eine Anordnung zu treffen, dabei mitzuwirken oder sie vorzubereiten haben,
+treten in den Ausstand, wenn sie in der Sache persönlich befangen erscheinen, insbesondere:
+a. in der Sache ein persönliches Interesse haben,
+b. mit einer Partei in gerader Linie oder in der Seitenlinie bis zum dritten Grade verwandt
+   oder verschwägert oder durch Ehe, Verlobung, eingetragene Partnerschaft, faktische
+   Lebensgemeinschaft oder Kindesannahme verbunden sind,
+c. Vertreter einer Partei sind oder für eine Partei in der gleichen Sache tätig waren.
+
+2 Ist der Ausstand streitig, so entscheidet darüber die Aufsichtsbehörde oder, wenn es sich
+um den Ausstand eines Mitgliedes einer Kollegialbehörde handelt, diese Behörde unter
+Ausschluss des betreffenden Mitgliedes.
+
+### § 13 VRG — Kosten und Parteientschädigung. a. Verfahrenskosten und Kostenauflage
+
+1 Die Verwaltungsbehörden können für ihre Amtshandlungen Gebühren und Kosten auferlegen.
+Der Regierungsrat bezeichnet die kostenpflichtigen Amtshandlungen und die hiefür zu
+erhebenden Gebühren in einer Verordnung.
+
+2 Mehrere am Verfahren Beteiligte tragen die Kosten in der Regel entsprechend ihrem
+Unterliegen. Kosten, die ein Beteiligter durch Verletzung von Verfahrensvorschriften oder
+durch nachträgliches Vorbringen solcher Tatsachen oder Beweismittel verursacht, die er schon
+früher hätte geltend machen können, sind ihm ohne Rücksicht auf den Ausgang des Verfahrens
+zu überbinden.
+
+3 In Verfahren betreffend personalrechtliche Streitigkeiten werden keine Kosten erhoben;
+vorbehalten bleibt die Kostenauflage an die unterliegende Partei, die durch ihre
+Prozessführung einen unangemessenen Aufwand verursacht hat.
+
+4 In Stimmrechtssachen werden Verfahrenskosten erhoben, wenn das Rechtsmittel offensichtlich
+aussichtslos ist.
+
+### § 14 VRG — b. Kostenauflage bei gemeinsam Beteiligten
+
+Haben mehrere Beteiligte dasselbe Begehren gestellt oder richtet sich das Verfahren gegen
+mehrere Beteiligte, so tragen sie die ihnen auferlegten Kosten in der Regel zu gleichen
+Teilen unter subsidiärer Haftung für das Ganze, soweit nicht durch das zwischen ihnen
+bestehende Rechtsverhältnis Solidarhaftung begründet ist.
+
+**Befund:** die Grundregel ist **subsidiäre Haftung für das Ganze**, nicht Solidarhaftung —
+Solidarhaftung greift nur ausnahmsweise, wenn sie sich aus dem **zwischen den Beteiligten
+bestehenden Rechtsverhältnis** ergibt (z.B. Miteigentümergemeinschaft, einfache
+Gesellschaft). Die in `wiki/QUESTIONS.md` (Kap. 7 Teil 1, 2026-06-19) offen geführte Vermutung
+«Solidarhaftung §§ 13/14 VRG» war insofern ungenau formuliert, als Solidarhaftung die
+Ausnahme, nicht die Regel ist.

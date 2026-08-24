@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 03:29:20
+Stand: 24.08.2026 03:39:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:04)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 03:29:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 338f675e wissen/baurecht: Buch-Run 109 - drei veraltete needs-verification-Flags in QUESTIONS.md geschlossen (Kap. 4 Natur-/Heimatschutz, Bookkeeping)
+- 2b244dcb nas-selfcommit: 4 Datei(en) 2026-08-24 03:30

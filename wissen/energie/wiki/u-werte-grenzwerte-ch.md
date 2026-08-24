@@ -1,10 +1,11 @@
 ---
 title: U-Werte & Heizwärmebedarf — Grenzwerte Schweiz
 status: established
-last_updated: 2026-08-23 (Run 161: neuer Abschnitt «Einen fremden U-Wert-Rechenweg prüfen —
-  vier Griffe», aus der Prüfung einer KI-erzeugten U-Wert-Rechnung in der Referenzablage PL-04;
-  23.08.2026 interaktive Session: Griff 02 nachgeführt, E-R161-1 (ruhende Luftschicht) geschlossen,
-  schwach belüftete Zwischenstufe bleibt offen)
+last_updated: 2026-08-24 (Fensteranschluss-Grenzwert 0,30 W/(m·K) am BFE-Original verifiziert,
+  Restfrage aus Audit A-P2 02.2 geschlossen; 2026-08-23 Run 161: neuer Abschnitt «Einen fremden
+  U-Wert-Rechenweg prüfen — vier Griffe», aus der Prüfung einer KI-erzeugten U-Wert-Rechnung in
+  der Referenzablage PL-04; 23.08.2026 interaktive Session: Griff 02 nachgeführt, E-R161-1
+  (ruhende Luftschicht) geschlossen, schwach belüftete Zwischenstufe bleibt offen)
 sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/ki-generierte-fachdokumente-referenzablage.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
@@ -59,9 +60,9 @@ im Umbau ohne Grenzwert, beim Systemnachweis in Q_H einzurechnen.
 Grenzwert-Grössenordnung gilt weiter, exakter Wert vor Baueingabe an aktueller Norm prüfen.
 
 **Fensteranschluss (Gruppe 4.1):** Ψ 0,08-0,36 W/(m·K) — massgebender Grenzwert heute Ψ ≤ 0,15
-(Typ 5, siehe Z. 48 oben); der Katalog von 2002 rechnet gegen die ältere SIA 380/1:2001, der dort
-zitierte Grenzwert 0,30 ist nicht am Original verifiziert (⚠ Audit-Korrektur A-P2 02.2,
-24.08.2026). Aussenanschlag mit Zwischenleibungsdämmung schneidet klar besser ab als reiner
+(Typ 5, siehe Z. 48 oben); der Katalog von 2002 rechnet gegen die ältere SIA 380/1:2001 mit
+**Grenzwert 0,30 W/(m·K)** (am Original verifiziert 24.08.2026, gleicher Wortlaut für Gruppe 4.1
+und 4.2). Aussenanschlag mit Zwischenleibungsdämmung schneidet klar besser ab als reiner
 Innenanschlag; Stahlbetonsturz-Malus bis +0,14 W/(m·K) bei dünner Sturzdämmung (2 cm), auf +0,02
 senkbar mit 6 cm → `[[waermebrueckenkatalog-bfe-fensteranschluss]]` (FAQ F49).
 

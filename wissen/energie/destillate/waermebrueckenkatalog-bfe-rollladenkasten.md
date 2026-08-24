@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppe 4.2 «Rollladenkasten» (S. 91-92), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-13 (S. 91-92 vollständig via Read/PDF-Bildextraktion)
+gelesen: 2026-07-13 (S. 91-92 vollständig via Read/PDF-Bildextraktion); 2026-08-24 Grenzwertstelle (S. 91) am Textlayer erneut verifiziert
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither mehrfach revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-13
+status: established (Grenzwert am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 ---
 
 # Wärmebrückenkatalog BFE — Rollladenkasten (Gruppe 4.2)
@@ -15,15 +15,19 @@ mit Ψ-Werten von **0,18–0,26 W/(m·K)** knapp am Grenzwert von 0,30 W/(m·K) 
 knapp darunter, aber ohne Reserve.
 
 ## Was gemessen wird
-⚠ **Der zitierte Grenzwert 0,30 ist aus der Fensteranschlag-Gruppe übernommen und nicht am
-Original verifiziert** (Audit-Korrektur A-P2 02.2, 24.08.2026, siehe
-`[[waermebrueckenkatalog-bfe-fensteranschluss]]`). Massgebend ist heute ohnehin EN-102 (Ausgabe
+✓ **Grenzwert am Original verifiziert (24.08.2026, schliesst den offenen Punkt aus
+Audit-Korrektur A-P2 02.2).** Primärdokument erneut heruntergeladen
+(pubdb.bfe.admin.ch/de/publication/download/465) und Textlayer direkt gelesen: S. 91 des
+Katalogs nennt für Gruppe 4.2 wörtlich denselben Satz wie Gruppe 4.1: «Grenz- und Zielwert des
+W-Werts gemäss der Norm SIA 380/1: **0.30 W/(m · K)**» — der zuvor übernommene Wert war korrekt,
+die frühere Unsicherheit ist damit aufgelöst. Massgebend ist heute ohnehin EN-102 (Ausgabe
 Januar 2020, ⚠ korrigiert 24.08.2026, vorher irrtümlich 2018), Typ 5 Fensteranschlag:
 Ψ ≤ 0,15 W/(m·K).
 
 Grenz- und Zielwert gemäss SIA 380/1: **0,30 W/(m·K)** (gleicher Grenzwert wie bei der
-Fensterrahmenverbreiterung, Gruppe 4.1). Ablesebeispiel: Stahlbeton-Rollladennische mit
-Holzfenster bei aussen gedämmtem Mauerwerk, U-Wert Wand 0,18 → **Ψ = 0,22 W/(m·K)**.
+Fensterrahmenverbreiterung, Gruppe 4.1, jetzt beidseitig am Original bestätigt). Ablesebeispiel:
+Stahlbeton-Rollladennische mit Holzfenster bei aussen gedämmtem Mauerwerk, U-Wert Wand 0,18 →
+**Ψ = 0,22 W/(m·K)**.
 
 ## Kernwerte (Ψ in W/(m·K), Nischenhöhe 25 cm)
 - **4.2-A1 Zwischenleibungsanschlag innen:** 0,18–0,26 (Holz/Holz-Alu/Kunststoff, U-Wand

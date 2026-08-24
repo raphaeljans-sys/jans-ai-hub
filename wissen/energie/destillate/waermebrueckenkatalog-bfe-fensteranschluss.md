@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppe 4.1 «Fensterrahmenverbreiterung» (S. 84-90), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-12 (S. 83-90 vollst. via Read/PDF-Bildextraktion)
+gelesen: 2026-07-12 (S. 83-90 vollst. via Read/PDF-Bildextraktion); 2026-08-24 Grenzwertstelle (S. 84) am Textlayer erneut verifiziert
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-12
+status: established (Grenzwert am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 links: [[waermebrueckenkatalog-bfe-balkonplatte]], [[fenster-verglasung-uw-g-wert]]
 ---
 
@@ -17,13 +17,18 @@ Laibung an die Wand stösst) erzeugt Psi-Werte zwischen **0,08 und 0,36 W/(m·K)
 der **Innenanschlag ohne Zwischenleibungsdämmung** (Typ H) am schlechtesten.
 
 ## Grenzwert
-⚠ **Grenzwert (Audit-Korrektur A-P2 02.2, 24.08.2026):** Der BFE-Katalog 2002 rechnet gegen
-SIA 380/1:2001. Die Einordnungen in der Tabelle unten sind nur mit einem Grenzwert um
-0,20 W/(m·K) stimmig, nicht mit den 0,30 der Balkonplatte (Typ 1) — welcher Wert im Katalog
-selbst steht, ist am Original nachzuprüfen (offener Punkt, siehe QUESTIONS.md). Massgebend ist
-heute ohnehin **EN-102 (Ausgabe Januar 2020, ⚠ korrigiert 24.08.2026, vorher irrtümlich 2018), Typ 5 Fensteranschlag: Ψ ≤ 0,15 W/(m·K)** →
-`[[enfk-en-102-waermeschutz-2018]]`. Die Zahlenwerte unten sind Grössenordnungen; für die
-Baueingabe gilt die Simulation nach geltender Norm.
+✓ **Grenzwert am Original verifiziert (24.08.2026, schliesst den offenen Punkt aus
+Audit-Korrektur A-P2 02.2).** Primärdokument erneut heruntergeladen
+(pubdb.bfe.admin.ch/de/publication/download/465) und Textlayer direkt gelesen: S. 84 des Katalogs
+(PDF-S. 86) nennt wörtlich «Grenz- und Zielwert des W-Werts gemäss der Norm SIA 380/1:
+**0.30 W/(m · K)**» — für die Gruppe 4.1 unmittelbar über der Tabelle 4.1-A1. Derselbe Wert gilt
+laut Katalog auch für Gruppe 4.2 Rollladenkasten (S. 91, gleicher Wortlaut) und stimmt mit dem
+bereits destillierten Grenzwert der Balkonplatte (Gruppe 1) überein — **kein Widerspruch, die
+frühere Vermutung eines abweichenden Grenzwerts um 0,20 W/(m·K) ist damit widerlegt.** Massgebend
+ist heute ohnehin **EN-102 (Ausgabe Januar 2020, ⚠ korrigiert 24.08.2026, vorher irrtümlich 2018),
+Typ 5 Fensteranschlag: Ψ ≤ 0,15 W/(m·K)** → `[[enfk-en-102-waermeschutz-2018]]` — der 2002er-Wert
+0,30 ist nur noch für die Einordnung der historischen Katalog-Tabelle selbst massgebend, nicht für
+eine heutige Baueingabe.
 
 ## Anschlagsarten im Überblick (Gruppe 4.1, Zwischenleibungsanschlag)
 Der Katalog unterscheidet nach Lage des Fensterrahmens in der Fensterlaibung:
@@ -35,14 +40,22 @@ Der Katalog unterscheidet nach Lage des Fensterrahmens in der Fensterlaibung:
 - **Typ Z** (Sturz-/Nischen-Sonderfall) — vergleichbar mit Typ A.
 
 ## Beispielwerte (U-Wert Wand 0,20 W/(m²·K), Holzfenster, Nischenhöhe 23 cm)
-| Anschlagstyp | Ψ-Wert | Einordnung |
+⚠ **Einordnungs-Spalte korrigiert 24.08.2026** (gegen den jetzt am Original bestätigten
+Grenzwert 0,30 W/(m·K), vorher fälschlich gegen ~0,20 bewertet):
+
+| Anschlagstyp | Ψ-Wert | Einordnung (Grenzwert Katalog 2002: 0,30) |
 |---|---|---|
-| H1 Innenanschlag (kein Zusatz) | 0,25 | über Grenzwert |
-| A1 Zwischenleibungsanschlag innen | 0,26 | über Grenzwert |
-| A3 Zwischenleibungsanschlag mittig | 0,23 | über Grenzwert |
-| A5 Zwischenleibungsanschlag aussen | 0,21 | knapp über Grenzwert |
-| I1 Innenanschlag mit Zwischenleibungsdämmung | 0,22 | über Grenzwert |
+| H1 Innenanschlag (kein Zusatz) | 0,25 | unter Grenzwert, wenig Reserve |
+| A1 Zwischenleibungsanschlag innen | 0,26 | unter Grenzwert, wenig Reserve |
+| A3 Zwischenleibungsanschlag mittig | 0,23 | unter Grenzwert |
+| A5 Zwischenleibungsanschlag aussen | 0,21 | unter Grenzwert |
+| I1 Innenanschlag mit Zwischenleibungsdämmung | 0,22 | unter Grenzwert |
 | I3 Innenanschlag mit Zwischenleibungsdämmung, Sturzdämmung | 0,12 | **klar unter Grenzwert** |
+
+Bei grösserer Nischenhöhe (35 statt 23 cm) reissen die schlechtesten Innenanschlag-Varianten
+(Typ H2/H4) den Grenzwert 0,30 tatsächlich, mit Werten bis 0,35 (Direktbeleg PDF-S. 89/90) —
+dort bleibt die frühere Einordnung «über Grenzwert» richtig; nur die Nischenhöhe-23-cm-Beispiele
+oben waren falsch eingeordnet.
 
 *(Werte bei U-Wert Wand 0,20; höhere Wanddämmung [U-Wert 0,15] verbessert die Werte
 zusätzlich um ca. 0,02-0,04 W/(m·K), siehe Volltabellen.)*

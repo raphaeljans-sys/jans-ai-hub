@@ -19,6 +19,38 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 2026-08-24 03:40 — Quelle des seit acht Läufen gesuchten stale `buero-projekte`-Triggers gefunden: `/tmp/vollschub-mini.sh`
+
+Die KB `wissen/projekt-lessons` erhielt seit dem 23.08.2026 vierzehn nahezu identische
+Fortsetzungsauftraege («Triage des Korpus `buero-projekte` weiterfuehren», stets mit dem
+veralteten Zwischenstand «807 Positionen»/Verweis auf `projekt-triage2»), obwohl der Korpus
+laut `KORPUS-QUEUE.md` seit dem 23.08. **erledigt** ist (813 Sachzeilen, 0 offen). Acht
+vorangegangene Sessions dokumentierten das im KB-CHANGELOG und suchten die Quelle erfolglos
+in `scripts/` und `logbuch/vollgas/` — sie lag ausserhalb des Repos.
+
+**Fund:** `/tmp/vollschub-mini.sh` (PPID 1, orphaned von einer geschlossenen Shell/Terminal-
+Session, offensichtlich Raphaels eigene Vollschub-Kampagne vom 23./24.08., siehe
+`logbuch/vollgas/RADAR.md` 16:20-Eintrag «auf Raphaels ausdrueckliche Anweisung»). Das Script
+haelt ein **fest kodiertes 5-Elemente-`TASKS`-Array** (Zeile 9-15) und waehlt bei jedem freien
+Slot (`MAXP=5` parallel) per `N=$((N+1)); T="${TASKS[$((N % 5))]}"` einfach die naechste Zeile
+im Rotationszyklus — **ohne jede Ruecksicht darauf, ob die Aufgabe bereits erledigt ist.**
+Index 0 ist genau der stale `buero-projekte`-Prompt; bei fuenf Slots trifft er im
+Schnitt jeden fuenften Spawn. Laeuft bis `SCHLUSS="2026-08-24 11:30"` (Zeile 5), danach
+endet die Schleife von selbst; vorzeitiger Stopp ueber `touch /tmp/STOP-vollschub` (vom
+Script selbst vorgesehen, Zeile 17).
+
+**Bewusst nicht editiert/gestoppt:** (1) Eine Datei-Aenderung an `/tmp/vollschub-mini.sh`
+wirkt auf den bereits laufenden, orphanen Prozess nicht — das `TASKS`-Array ist beim
+Scriptstart einmal in den Bash-Prozess eingelesen, ein spaeteres Ueberschreiben der Datei
+aendert daran nichts. (2) Es ist Raphaels eigene, ausdruecklich angewiesene
+Kontingent-Kampagne; sie eigenmaechtig per `STOP`-Datei zu beenden widerspraeche ihrem Zweck
+(Kontingent verbrauchen) und ist keine Routineentscheidung einer einzelnen Session (Rule
+`interaktive-eingriffe`). **Bei einer naechsten Vollschub-Kampagne:** dem Rotations-Script
+entweder eine Fertig-Pruefung vor dem Dispatch mitgeben (z.B. `KORPUS-QUEUE.md`/CHANGELOG auf
+`erledigt` grep, Aufgabe bei Treffer aus dem Array streichen) oder die TASKS-Liste kurz genug
+halten, dass ein Korpus-Abschluss sie manuell nachziehen kann, statt sie fuer Stunden fest
+laufen zu lassen.
+
 ## 2026-08-23 21:20 — zweiter stale `.git/index.lock` am selben Tag, nach kollidiertem Rebase (Buch-Run 93)
 
 Waehrend des Baurecht-Buch-Trainings (Run 93, `wissen/baurecht`) kollidierte der ausgeloeste

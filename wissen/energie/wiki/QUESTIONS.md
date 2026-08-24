@@ -4745,3 +4745,47 @@ die KB widerspricht sich selbst.
   weiterhin die grossflaechige Nachruestung, die einen eigenen Lauf braucht.
   Beleg: `git diff --numstat` nach jedem Schreibvorgang geprueft, siehe CHANGELOG-Eintrag
   24.08.2026 «Registerpflege».
+
+## 2026-08-24 (interaktive Session, Fortsetzung «Registerpflege 03.16») — A-P2-Queue gegengeprüft, ein Restpunkt am Original neu geklärt
+
+- [x] **A-P2 (18-Punkte-Warteschlange) vollständig gegengeprüft: alle 18 Korrekturen bereits im
+  Bestand, keine einzige noch offen.** Jeden der 18 Punkte (02.1-02.18) einzeln gegen den
+  aktuellen Dateistand geprüft (grep auf die im Audit-Report vorgegebenen Korrektur-Formulierungen
+  in den benannten Dateien und Zeilenbereichen) — 02.1 bis 02.18 sind bereits angewendet, von
+  mehreren parallelen Sessions desselben Tages (u.a. den «Fortsetzung»-Läufen und der
+  Registerpflege). Die ursprüngliche Checkbox oben blieb nur deshalb `[ ]`, weil kein Lauf sie
+  nach getaner Arbeit geschlossen hat — nachgeholt.
+- [x] **02.2-Restfrage geklärt: der BFE-Wärmebrückenkatalog 2002 setzt für Gruppe 4.1
+  (Fensterrahmenverbreiterung) UND Gruppe 4.2 (Rollladenkasten) denselben Grenzwert wie die
+  Balkonplatte — 0,30 W/(m·K), nicht 0,20.** Primärdokument neu heruntergeladen
+  (`pubdb.bfe.admin.ch/de/publication/download/465`, 132 Seiten) und der Textlayer direkt mit
+  PyMuPDF gelesen (entgegen der Notiz vom 12./13.07.2026, der Textlayer sei nicht extrahierbar —
+  er ist es, mit `page.get_text()` sauber). Zwei wortgleiche Fundstellen: Katalog-S. 84
+  («4.1 Fensterrahmenverbreiterung», unmittelbar vor Tabelle 4.1-A1) und Katalog-S. 91
+  («4.2 Rollladenkasten», unmittelbar vor Tabelle 4.2-A1) tragen je den Satz «Grenz- und Zielwert
+  des W-Werts gemäss der Norm SIA 380/1: 0.30 W/(m · K)». Die frühere Vermutung eines abweichenden
+  Grenzwerts um 0,20 (Audit-Korrektur 24.08.2026) ist damit **widerlegt**. Nebenbefund: die
+  Beispielwerte-Tabelle in `[[waermebrueckenkatalog-bfe-fensteranschluss]]` hatte fünf Ψ-Werte
+  (0,21-0,26) fälschlich als «über Grenzwert» eingeordnet — gegen den jetzt bestätigten Grenzwert
+  0,30 liegen sie alle darunter; nur die Nischenhöhe-35-cm-Varianten (Typ H2/H4, bis 0,35, direkt
+  am Original auf Katalog-S. 87/88 nachgelesen) reissen den Grenzwert tatsächlich. Beide
+  Destillate (`waermebrueckenkatalog-bfe-fensteranschluss`, `waermebrueckenkatalog-bfe-
+  rollladenkasten`) von `emerging` auf `established` gehoben (Grenzwert jetzt primärquellen-
+  verifiziert, Kennwerte-Tabellen bleiben Katalog-Stand 2002). Eingearbeitet in beide Destillate,
+  `wiki/u-werte-grenzwerte-ch.md`, `wiki/BAUHERREN-FAQ.md` F49-Quellenzeile, `destillate/INDEX.md`
+  (beide Zeilen).
+- [ ] **Neu offen: welchen Grenzwert der BFE-Wärmebrückenkatalog 2002 für die Gruppen 1
+  (Auskragung, per `[[waermebrueckenkatalog-bfe-auskragung]]`) sowie 2/3/6 selbst nennt, ist mit
+  diesem Fund nicht automatisch miterledigt** — nur 4.1/4.2 wurden am Original geprüft. Sollte ein
+  künftiger Lauf an diesen Gruppen arbeiten, den Textlayer direkt lesen (funktioniert, kein
+  Bildextraktions-Umweg nötig), nicht aus der Balkonplatten-Gruppe pauschal übertragen.
+- **02.3-Restfrage («drei Definitionen der 75-%-Schwelle») ist bereits gelöst, nur nicht als
+  erledigt vermerkt:** Audit-Korrektur A-P3 03.3 (`wiki/komfortlueftung.md`, 24.08.2026) klärt,
+  dass es **zwei**, nicht drei unabhängige Kennzahlen sind — Temperatur-Wärmerückgewinnung
+  (Minergie ≥ 80 %, SIA 382/1 ≥ 73 %, ZH-Standardlösung 80 %) und Feuchterückgewinnung (Minergie
+  ≥ 60 %, in SIA 382/1 gar nicht als Grenzwert geführt) — beide bereits im Artikel
+  auseinandergehalten. Kein weiterer Rechercheauftrag.
+- Nicht angefasst, weiterhin an Raphaels Entscheid gebunden: **E103**, **E94**, **E-R148-1**
+  (Normkauf SIA 380/1:2016), **E-R148-2** (Steuerungsgrösse Loop-Takt), **E-R161-1**
+  (SN EN ISO 6946 Luftschicht-Restfall). Beleg dieses Laufs: `git diff --numstat` nach jedem
+  Schreibvorgang geprüft, ausschliesslich additiv/präzisierend, keine Löschung von Bestand.

@@ -1,5 +1,44 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: A-P2-Queue gegengeprüft (18/18 bereits erledigt), Wärmebrückenkatalog-Grenzwert am Original neu bestätigt
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand, Anschluss an den CHANGELOG-Stand und den letzten Lauf (Registerpflege 03.16,
+selber Tag). Vor der Suche nach neuem Rechercheaufwand zuerst die als offen `[ ]` markierten
+Punkte einzeln gegen den aktuellen Dateistand gegengeprüft, statt der Checkbox zu glauben.
+
+**(1) A-P2 (18-Punkte-Warteschlange aus dem Audit «Qualitätsoffensive») ist vollständig
+angewendet — alle 18 Korrekturen (02.1-02.18) einzeln gegen die im Audit-Report benannten
+Dateien/Zeilenbereiche verifiziert, keine einzige noch ausstehend.** Mehrere parallele Sessions
+desselben Tages hatten die Arbeit bereits erledigt, aber keine hatte die Checkbox im Register
+geschlossen — das ist jetzt nachgeholt, mit Verweis auf jede der 18 Fundstellen.
+
+**(2) Eine echte inhaltliche Restfrage aus 02.2 dabei geklärt, nicht nur die Checkbox
+kontrolliert:** der Grenzwert, den der BFE-Wärmebrückenkatalog 2002 für seine eigenen Gruppen
+4.1 (Fensterrahmenverbreiterung) und 4.2 (Rollladenkasten) nennt, war unklar (Vermutung ~0,20
+gegen den destillierten 0,30 der Balkonplatte). Primärdokument neu heruntergeladen
+(`pubdb.bfe.admin.ch/de/publication/download/465`) und der Textlayer direkt mit PyMuPDF
+gelesen — entgegen der zwei früheren Notizen vom Juli 2026, der Text sei nicht extrahierbar und
+brauche Bildextraktion. Beide Katalogseiten (S. 84 und S. 91) tragen wortgleich «Grenz- und
+Zielwert des W-Werts gemäss der Norm SIA 380/1: 0.30 W/(m · K)» — die Vermutung 0,20 ist
+widerlegt, beide Gruppen teilen den Grenzwert mit der Balkonplatte. Nebenbefund beim
+Gegenlesen: die Beispielwerte-Tabelle im Fensteranschluss-Destillat hatte fünf Werte
+(0,21-0,26) fälschlich als «über Grenzwert» eingeordnet — gegen 0,30 liegen sie darunter,
+korrigiert. Beide betroffenen Destillate von `emerging` auf `established` gehoben.
+
+**(3) Nebenbei geprüft und als bereits gelöst dokumentiert:** die 02.3-Restfrage («drei
+Definitionen der 75-%-Lüftungsschwelle») ist durch die frühere Audit-Korrektur A-P3 03.3
+bereits beantwortet (zwei Kennzahlen, nicht drei — Temperatur- vs. Feuchterückgewinnung),
+nur nie als erledigt vermerkt.
+
+Register nachgeführt: `destillate/waermebrueckenkatalog-bfe-fensteranschluss.md`,
+`destillate/waermebrueckenkatalog-bfe-rollladenkasten.md` (Frontmatter + Inhalt),
+`destillate/INDEX.md` (beide Statuszeilen), `wiki/u-werte-grenzwerte-ch.md`,
+`wiki/BAUHERREN-FAQ.md` (F49-Quellenzeile), `wiki/QUESTIONS.md` (neuer Abschnitt,
+A-P2-Gesamtstatus + 02.2-Restfrage geschlossen, ein neuer Anschlusspunkt für die
+Wärmebrücken-Gruppen 1/2/3/6 eröffnet). Nach jedem Schreibvorgang `git diff --numstat`
+geprüft — ausschliesslich additiv/präzisierend, keine Löschung von Bestand.
+
 ## 2026-08-24 — Interaktive Session: Registerpflege 03.16 begonnen (11 Destillate registriert, ein Zwilling geschlossen, drei Statuswerte normiert, tote-Links-Zahl gegengeprueft)
 
 Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an den heutigen

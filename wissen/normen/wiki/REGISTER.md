@@ -829,6 +829,10 @@ Norm-Ausgabenlogik (kein Ausgabenblindzonen-Problem wie bei SIA); massgebend ist
 | Rigging in der Veranstaltungstechnik | 33006.d | Stand Mai 2023 | `suva-33006-2023-rigging-veranstaltungstechnik.md`, established | **Neu 24.08.2026 (SIA-Sweep 34. Fortsetzung).** Vier-Rollen-Matrix Hallenbesitzer/Veranstalter/Projektleiter Veranstaltungstechnik/Rigger, PSAgA-Ausbildung mind. 1 Tag, Alleinarbeitsverbot |
 | Seilwurfsystem mit Industrieschleuder («Dachdecker-Schnellsicherung») | 33032.d | Stand Juni 2022 | `suva-33032-2022-seilwurfsystem-industrieschleuder.md`, established | **Neu 24.08.2026 (SIA-Sweep 34. Fortsetzung).** Schnellsicherung installierbar innert 15 Min., Verankerung beidseits Dachfirst, vierstufige Umsteigpunkt-Prozedur |
 | Seilsicherung im steilen Gelände | 33070.d | Stand Januar 2024 | `suva-33070-2024-seilsicherung-steiles-gelaende.md`, established | **Neu 24.08.2026 (SIA-Sweep 34. Fortsetzung).** Abgrenzung zu 33016.d (Versagen führt NICHT unweigerlich zum Absturz), Ausbildung mind. 1 Tag, zweite Person mit PSA zur Rettung vor Ort |
+| Ortsfeste Leitern in Schächten (Schachtleitern) | 33102.d | Ausgabe März 2026 | `suva-33102-2026-ortsfeste-leitern-schaechte.md`, established | **Neu 24.08.2026 (SIA-Sweep 36. Fortsetzung).** Norm SN EN 14396; Schächte >100 cm Tiefe + Begehungspflicht = Leiter (BauAV Art. 15); Absturzsicherung ab 5 m (empf. ab 3 m); Ein-/Ausstiegshilfe min. 100 cm (Altbestand vor 2005: 60 cm) |
+| Ortsfeste Leitern an Gebäuden | 33103.d | Stand September 2023 | `suva-33103-2023-ortsfeste-leitern-gebaeude.md`, established | **Neu 24.08.2026 (SIA-Sweep 36. Fortsetzung).** Bemessungsanker DIN 18799 (nicht SN EN 14396); seit 01.01.2024 Durchgangssperre am oberen Zugang bei Rückenschutz-Leitern zwingend |
+| Ortsfeste Leitern an maschinellen Anlagen | 33104.d | Stand September 2024 | `suva-33104-2024-ortsfeste-leitern-maschinelle-anlagen.md`, established | **Neu 24.08.2026 (SIA-Sweep 36. Fortsetzung).** Bemessungsanker ISO 14122-4; strengere Werte als Gebäude/Schacht: Absturzsicherung bereits ab 3 m, Ausstiegssperre ab 0,5 m, Holmüberstand 1100 mm |
+| Checkliste Ortsfeste Leitern | 67055.d | Ausgabe Juli 2024 | `suva-67055-2024-checkliste-ortsfeste-leitern.md`, established | **Neu 24.08.2026 (SIA-Sweep 36. Fortsetzung).** 21-Fragen-Kontrollraster, konsolidiert die Masstabellen aller drei Leitertypen (33102/33103/33104.d); Rundsprossen-Verbot seit Okt. 2016 (Maschinen)/Juni 2019 (bauliche Anlagen) |
 
 ✅ **Alle fünf namentlich benannten Publikationen der Ziff.-5-Liste (44078.d, 44046.d, 84018.d,
 67038.d, 67150.d) sind mit dem 24.08.2026 (SIA-Sweep 31. Fortsetzung) erschlossen** —
@@ -850,18 +854,27 @@ Fortsetzung. ⚠ **Korrektur:** 44002.d (Oktober 2025) war bis zu diesem Lauf al
 Suva-Publikation dieser KB geführt; 33016.d (Stand März 2026) ist jünger und übernimmt diesen
 Platz (Rang: 67150.d Juli 2026 > 33016.d März 2026 > 44002.d Oktober 2025).
 
-**Verbleibender Rest des Blocks (12 Suva-Titel + 2 EKAS-Richtlinien), noch nicht erschlossen:**
-33071.d (Sicher arbeiten auf Bäumen), 33072.d (Arbeiten auf der Leiter an Bäumen), 33102.d/
-33103.d/33104.d (Ortsfeste Leitern Schächte/Gebäude/Maschinenanlagen), 44062.d (Sicheres
-Einsteigen in Schächten/Gruben/Kanälen), 44095.d (Solaranlagen-Montage), 44096.d
-(Anschlageinrichtungen auf Dächern), 88816.d/84044.d (Acht lebenswichtige Regeln, zwei Formate),
-67055.d (Checkliste Ortsfeste Leitern), 67064/1.d + 67064/2.d (Checkliste Hubarbeitsbühnen,
-zweiteilig) — alle vermutlich kostenlos, gleiche Beschaffungsroute; dazu zwei EKAS-Richtlinien
-(2134 Forstarbeiten, 6512 Arbeitsmittel), Status kostenpflichtig ungeprüft. Aus den vier neu
-gelesenen Titeln zusätzlich referenziert, aber noch **nicht** im ursprünglichen 44002.d-Verzeichnis
-benannt: 67061.d (Notfallplanung), 67154.d (Gebirgsbaustellen), 33019.d (Naturgefahren), 33062.d
-(Kettensäge), 33076.d (Warnkleider) — Kandidatenliste vollständig in den vier neuen Destillaten
-unter „Offene Punkte"/„Verweisstruktur".
+✅ **Die vierteilige «Ortsfeste Leitern»-Reihe 33102.d/33103.d/33104.d/67055.d (Schächte,
+Gebäude, maschinelle Anlagen, konsolidierte Checkliste) ist mit dem 24.08.2026 (SIA-Sweep 36.
+Fortsetzung) erschlossen** — drei unterschiedliche Bemessungsanker je Einbauort (SN EN 14396
+Schacht / DIN 18799 Gebäude / ISO 14122-4 Maschine) mit teils abweichenden Schwellenwerten
+(Absturzsicherung ab 3 m bei Maschinen, sonst 5 m), von der Checkliste 67055.d in einer
+gemeinsamen Kontrolltabelle zusammengeführt.
+
+**Verbleibender Rest des Blocks (8 Suva-Titel + 2 EKAS-Richtlinien), noch nicht erschlossen:**
+33071.d (Sicher arbeiten auf Bäumen), 33072.d (Arbeiten auf der Leiter an Bäumen), 44062.d
+(Sicheres Einsteigen in Schächten/Gruben/Kanälen — von 33102.d als Cross-Referenz benannt),
+44095.d (Solaranlagen-Montage), 44096.d (Anschlageinrichtungen auf Dächern), 88816.d/84044.d
+(Acht lebenswichtige Regeln zum Anseilschutz, zwei Formate — von 67055.d als Cross-Referenz
+benannt), 67064/1.d + 67064/2.d (Checkliste Hubarbeitsbühnen, zweiteilig; Web-Titelcheck
+24.08.2026 bestätigt «Teil 1: Planung des Einsatzes» / «Teil 2: Kontrolle am Einsatzort») —
+alle vermutlich kostenlos, gleiche Beschaffungsroute (HTML-Produktseite mit «PDF Deutsch»-
+Dropdown, kein direkter waswo-PDF-Link); dazu zwei EKAS-Richtlinien (2134 Forstarbeiten, 6512
+Arbeitsmittel), Status kostenpflichtig ungeprüft. Aus den vier Titeln der 34. Fortsetzung
+zusätzlich referenziert, aber noch **nicht** im ursprünglichen 44002.d-Verzeichnis benannt:
+67061.d (Notfallplanung), 67154.d (Gebirgsbaustellen), 33019.d (Naturgefahren), 33062.d
+(Kettensäge), 33076.d (Warnkleider) — Kandidatenliste vollständig in den vier Destillaten der
+34. Fortsetzung unter „Offene Punkte"/„Verweisstruktur".
 
 ---
 *Aufgebaut im Nacht-Loop `normen-training-nacht`, Run 1 (Sonderprogramm), 11.07.2026.

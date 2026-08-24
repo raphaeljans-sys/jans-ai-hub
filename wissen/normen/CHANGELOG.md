@@ -1,3 +1,71 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung 03:36 Uhr: zwei neue Wege für N-SIASWEEP-2/3 getestet, beide negativ
+
+**Auftrag:** offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Ausgangslage: die Läufe 03:17 und
+03:30 Uhr desselben Tages hatten bestätigt, dass alle verbleibenden offenen Sektionen an einer
+externen Handlung Raphaels hängen — mit Ausnahme der drei N-SIASWEEP-Fragen (SIA 422, SIA 2021,
+SIA 2025), die laut SIA-Sweep bereits mit zehn Quellenarten erschöpft waren, aber zwei aus dem
+Erfolg der neunten Fortsetzung ableitbare neue Wege noch nicht spezifisch getestet hatten.
+
+- **Leseproben-Route direkt an SIA 422/2021 getestet** (dieselbe Methode, die N-SIASWEEP-4 über
+  einen kostenlosen `shop.sia.ch`-`DownloadAnhang` geschlossen hatte): negativ, aber strukturell
+  erklärt — die Leseprobe zeigt nur die eingefrorene Erstausgabe samt ursprünglicher
+  Genehmigungsklausel (SIA 422: «genehmigt 22.11.2007, gültig ab 1.6.2009»), keinen Hinweis auf
+  den Rückzug 2024. Die Methode funktioniert nur, wenn ein Nachfolger existiert, dessen Leseprobe
+  eine Ersetzt-Klausel trägt (wie bei SIA 405:2025) — bei Rückzügen ohne Nachfolger prinzipiell
+  unanwendbar.
+- **Fünf weitere ZN-Sitzungsartikel** (Espazium/sia.ch, Juni 2024/Sept. 2014/März 2015/Nov.
+  2016/Wayback-Snapshot früh-2023) gezielt auf das belegte Rückzugsfenster (27.10.2023-03.01.2024)
+  geprüft — keiner nennt SIA 422 oder SIA 2025. Die wahrscheinlichste Fundstelle (vierte
+  ZN-Sitzung 2023, 07.12.2023, «ein Rückzug» laut WebSearch-Synopse) liess sich nicht auflösen:
+  `sia.ch`-Artikelseiten sind clientseitig gerendert (WebFetch/curl liefern nur eine leere
+  JS-Hülle), Espazium-Artikeltitel für dieses Genre werden über Jahre wiederverwendet.
+
+Nachtrag additiv in `wiki/QUESTIONS.md` nach dem Block der neunten Fortsetzung eingefügt (40
+Zeilen hinzugefügt, 0 entfernt, `git diff --numstat` geprüft). Kein inhaltlicher Fortschritt bei
+den beiden eigentlichen Fragen, aber zwei weitere Sackgassen dokumentiert und strukturell erklärt
+— reduziert künftigen Doppelaufwand. Report: `outputs/2026-08-24_questions-abarbeitung-0336uhr.md`.
+
+## 2026-08-24 — SIA-Sweep, 36. Fortsetzung: vierteilige Suva-Reihe «Ortsfeste Leitern» erschlossen (33102/33103/33104/67055.d)
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen, CHANGELOG-Pflicht). CHANGELOG-Kopf und Report des letzten
+SIA-Sweep-Laufs (35. Fortsetzung) zuerst gelesen.
+
+Die 35. Fortsetzung hatte bestätigt: der wörtlich beauftragte Teilauftrag (SIA-Produktdatenblätter)
+ist seit der 34. Fortsetzung vollständig gesättigt — 0 offene `[ ]`-Zeilen im Inventar,
+Abschnitt A des Registers vollständig verifiziert. Sinnvolle Fortsetzung ist seither der von
+den vorangegangenen Läufen selbst entdeckte Suva-/EKAS-Bring-Schuld-Block (Verweisnetz aus
+44002.d Kap. 8): von den nach der 34. Fortsetzung verbliebenen 12 Titeln + 2 EKAS-Richtlinien
+wurde die thematisch geschlossene vierteilige Reihe **«Ortsfeste Leitern»** bearbeitet:
+33102.d (Schachtleitern, Norm SN EN 14396, Ausgabe März 2026), 33103.d (Gebäude, Bemessungsanker
+DIN 18799, Stand September 2023), 33104.d (maschinelle Anlagen, Bemessungsanker ISO 14122-4,
+Stand September 2024), 67055.d (konsolidierte 21-Fragen-Checkliste aller drei Typen, Ausgabe
+Juli 2024). Alle vier über die HTML-Produktseite (`www.suva.ch/waswo/<Nr>.d`) mit dem bereits
+in den Vorläufen etablierten «PDF Deutsch»-Dropdown-Link beschafft — bei diesen vier Titeln kein
+Sprachfallen- und kein HTML-statt-PDF-Artefakt, direkter korrekter PDF-Download.
+
+**Kernbefund:** die drei Ausführungs-Factsheets verwenden je nach Einbauort **drei
+unterschiedliche Bemessungsnormen** mit unterschiedlichen Sicherheitsschwellen — an
+maschinellen Anlagen (ISO 14122-4) gilt strenger als an Gebäuden (DIN 18799) oder Schächten
+(SN EN 14396): Absturzsicherung bereits ab 3 m statt 5 m, Ausstiegssperre ab 0,5 m statt erst
+ab 2024 bzw. gar nicht, Holmüberstand 1100 mm statt 1000 mm. Die Checkliste 67055.d führt alle
+drei Massreihen in einer gemeinsamen Kontrolltabelle zusammen und ist damit das praktikablere
+Abnahme-Werkzeug für den Skill `unternehmerkontrolle`.
+
+**4 neue Destillate**, alle Status `established` (vollständig am Original gelesen, keine
+unabhängige Refuter-Runde): `destillate/suva-33102-2026-ortsfeste-leitern-schaechte.md`,
+`suva-33103-2023-ortsfeste-leitern-gebaeude.md`, `suva-33104-2024-ortsfeste-leitern-maschinelle-anlagen.md`,
+`suva-67055-2024-checkliste-ortsfeste-leitern.md`.
+
+**Nachgeführt:** `wiki/REGISTER.md` Abschnitt D (4 neue Tabellenzeilen + Bring-Schuld-Rest von
+12 auf 8 Suva-Titel reduziert, neuer ✅-Vermerk); `destillate/INDEX.md` (4 neue Zeilen);
+`training/norm-inventar.md` (1 neue additive Log-Zeile, Bring-Schuld-Rest fortgeschrieben).
+Verbleibender Rest: 33071.d, 33072.d, 44062.d, 44095.d, 44096.d, 88816.d/84044.d,
+67064/1.d+67064/2.d (8 Suva-Titel) + EKAS 2134/6512 (Status kostenpflichtig ungeprüft).
+Report: `outputs/2026-08-24_sia-sweep-sechsunddreissigste-fortsetzung.md`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung 03:30 Uhr: zwei veraltete Kopfzeilen korrigiert, Datei erneut als ausgeschöpft bestätigt
 
 **Auftrag:** Weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, mach dort weiter, wo der

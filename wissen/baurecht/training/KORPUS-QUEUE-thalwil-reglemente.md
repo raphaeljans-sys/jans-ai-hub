@@ -480,6 +480,28 @@ Schritt:** kein Fachpunkt mehr aus der Thalwil-Queue oder ihren bisher gesichtet
 ältere `QUESTIONS.md`-Blöcke (ab ca. Zeile 2000, Kap. 7/8/12/16 T2/T3) sind noch nicht auf denselben
 Stale-Flag-Befund geprüft, sonst regulärer Health-Check-Turnus oder zweite Re-Verifikationsrunde.
 
+**Run 110 (2026-08-24, ausserhalb T1-T9):** Stale-Flag-Sweep aus Run 109 fortgesetzt — die beiden
+nächstältesten Blöcke «Kap. 7 Teil 1» (2026-06-19) und «Kap. 7 Teil 2» (2026-06-21) geprüft, vier
+`needs-verification`-Flags. **Zwei waren stale:** § 322/§ 324/§ 328 PBG bereits CONFIRMED
+(`verifiziert`-Feld [[baurechtlicher-vorentscheid-und-voranfrage]] Run 66/96,
+[[bauausfuehrung-und-baukontrolle]] Run 30); § 326 PBG + Art. 962 ZGB/Art. 164 GBV bereits CONFIRMED
+([[nebenbestimmungen-und-reverse]] Run 67) — nur der Zeiger in `QUESTIONS.md` war veraltet. **Zwei
+waren echte, bisher ungeprüfte Lücken** und wurden neu geschlossen: §§ 5a/13/14 VRG frisch von
+zhlex bezogen (weiterhin Nachtrag 133) — § 5a VRG (Ausstand) war im Wiki bis dahin gar nicht
+geführt, § 14 VRG präzisiert die bisherige «Solidarhaftung»-Vermutung zur amtlich richtigen Regel
+(subsidiäre Haftung für das Ganze, Solidarhaftung nur ausnahmsweise); Art. 138 ZPO (Zustellfiktion)
++ Art. 49 BGG (Rechtsmittelbelehrung) erstmals von Fedlex bezogen (neue Primärquellen
+`raw/260824_amtlich_ch_zpo-art138.md`, `raw/260824_amtlich_ch_bgg-art49.md`; die korrekte BGG-ELI
+2006/218 liess sich erst per WebSearch finden, drei geratene ELI scheiterten an der JS-App-Hülle)
+— beide CONFIRMED wortgleich; § 20 BVV (Gültigkeitsdauer-Definition) ebenfalls neu CONFIRMED. Neuer
+Abschnitt 2b «Ausstand» in [[rechtsschutz-und-rechtsmittelverfahren]], neuer Abschnitt «Zustellung,
+Rechtsmittelbelehrung, Gültigkeitsdauer der Bewilligung» in
+[[baurechtlicher-vorentscheid-und-voranfrage]]. Report `outputs/2026-08-24_buch-run110.md`.
+**Nächster Schritt:** Stale-Flag-Sweep fortsetzen an den nächstälteren Blöcken (Kap. 8/12/1/2/3/6,
+`QUESTIONS.md` ab ca. Zeile 2060) — einige davon enthalten nach erster Durchsicht echte, weiterhin
+offene Lücken (z.B. §§ 120/150/264/346 PBG in Kap. 12), nicht nur veraltete Zeiger; sonst regulärer
+Health-Check-Turnus oder zweite Re-Verifikationsrunde.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

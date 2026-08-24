@@ -1717,6 +1717,22 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   Thalwil-Queue oder ihren Nachtraegen offen; weitere `QUESTIONS.md`-Sichtung (aeltere
   Kap.-Bloecke ab Zeile ~2000 noch nicht durchgesehen), regulaerer Health-Check-Turnus, oder eine
   zweite Re-Verifikationsrunde.
+- **Buch-Run 110 (2026-08-24):** Stale-Flag-Sweep aus Run 109 fortgesetzt (naechstaeltere Bloecke
+  Kap. 7 Teil 1/2, Zeilen 2031-2058). Zwei Drittel der vier Flags waren stale (§ 322/§ 324/§ 328
+  PBG bereits CONFIRMED via Run 66/96/30; § 326 PBG + Art. 962 ZGB/Art. 164 GBV bereits CONFIRMED
+  via Run 67 — nur der Zeiger hier veraltet). **Zwei echte Luecken neu geschlossen:** (1) §§ 5a/13/14
+  VRG erstmals amtlich von zhlex bezogen (Nachtrag 133) — Ausstand (§ 5a) war im Wiki gar nicht
+  gefuehrt, § 14 VRG praezisiert die bisherige «Solidarhaftung»-Vermutung zu subsidiaerer Haftung
+  als Regel; (2) Art. 138 ZPO (Zustellfiktion) + Art. 49 BGG (Rechtsmittelbelehrung) erstmals von
+  Fedlex bezogen (BGG-ELI 2006/218 erst per WebSearch gefunden, drei geratene ELI schlugen fehl) —
+  beide CONFIRMED wortgleich, neue Primaerquellen `raw/260824_amtlich_ch_zpo-art138.md` +
+  `raw/260824_amtlich_ch_bgg-art49.md`. § 20 BVV (Gueltigkeitsdauer-Definition) ebenfalls neu
+  CONFIRMED. Neuer Abschnitt 2b «Ausstand» in [[rechtsschutz-und-rechtsmittelverfahren]], neuer
+  Abschnitt «Zustellung, Rechtsmittelbelehrung, Gueltigkeitsdauer» in
+  [[baurechtlicher-vorentscheid-und-voranfrage]]. Report `outputs/2026-08-24_buch-run110.md`.
+  **Naechster Schritt:** Stale-Flag-Sweep fortsetzen (Bloecke Kap. 8/12/1/2/3/6, Zeilen ~2060-2190,
+  noch nicht durchgesehen — einige enthalten echte, noch offene Luecken, z.B. §§ 120/150/264/346
+  PBG in Kap. 12), sonst regulaerer Health-Check-Turnus oder zweite Re-Verifikationsrunde.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

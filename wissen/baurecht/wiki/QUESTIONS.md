@@ -2036,20 +2036,45 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Verhandlungslösung). Destillat [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] deckt
   zusätzlich **Gültigkeit/Widerruf § 322/§ 328 PBG** und die **besonderen kant. Zuständigkeiten
   (Anhang BVV)** ab. Speist [[baubewilligungsverfahren]] (Schritt 1 «Voranfrage»). **Kap. 7 fertig.**
-- **needs-verification — überbelichtete Seiten S. 430/431 + 444/445:** Ausstand-Details (Shot 217)
+- ~~**needs-verification — überbelichtete Seiten S. 430/431 + 444/445:** Ausstand-Details (Shot 217)
   und Kostenentscheid-Bemessung/Solidarhaftung §§ 13/14 VRG (Shots 224/225) im Destillat
   [[07-zustaendigkeiten-entscheide-auskuenfte]] nur eingeschränkt lesbar; am amtlichen VRG-/PBG-
-  Volltext (raw/) gegenprüfen (Modell D).
-- **§ 326 PBG (Erzwingung von Auflagen) + Art. 164 GBV / Art. 962 ZGB (Anmerkungspflicht):**
-  Wortlaut am amtlichen Volltext sichern (in [[nebenbestimmungen-und-reverse]] sinngemäss).
+  Volltext (raw/) gegenprüfen (Modell D).~~ → **erledigt 2026-08-24 (Buch-Run 110).** §§ 5a/13/14
+  VRG frisch von zhlex bezogen (Nachtrag 133, `raw/260712_amtlich_zh_vrg.md` Nachtrag 2026-08-24) und
+  CONFIRMED: **Ausstand** § 5a VRG (persönliches Interesse, Verwandtschaft/Verschwägerung bis
+  3. Grad, Vertretung; Streitentscheid Aufsichtsbehörde) war im Wiki bislang gar nicht geführt —
+  neuer Abschnitt 2b in [[rechtsschutz-und-rechtsmittelverfahren]]. **§ 13 Abs. 2 VRG**
+  (Unterliegerprinzip) CONFIRMED wortgleich. **§ 14 VRG präzisiert die «Solidarhaftung»-Vermutung:**
+  Grundregel ist **subsidiäre Haftung für das Ganze zu gleichen Teilen**, Solidarhaftung nur
+  ausnahmsweise aus dem Rechtsverhältnis der Beteiligten (Miteigentum, einfache Gesellschaft) —
+  Abschnitt 5 entsprechend ergänzt.
+- ~~**§ 326 PBG (Erzwingung von Auflagen) + Art. 164 GBV / Art. 962 ZGB (Anmerkungspflicht):**
+  Wortlaut am amtlichen Volltext sichern (in [[nebenbestimmungen-und-reverse]] sinngemäss).~~ →
+  **erledigt, nachgetragen 2026-08-24 (Buch-Run 110).** Bereits durch Buch-Run 67 (27.07.2026)
+  vollständig geprüft — `verifiziert`-Feld [[nebenbestimmungen-und-reverse]]: § 326 PBG
+  (Baubeginn-Sperre bei auf den Baubeginn gestellten Auflagen) sowie Art. 962 ZGB/Art. 164 GBV
+  (Anmerkungspflicht/Übergangsbestimmung) CONFIRMED, 1 Korrektur seinerzeit (invertierte Polarität
+  Art. 164 GBV). Nur der Zeiger hier war veraltet, kein neuer Fachbefund.
 
 ## Offene Wissenslücken / needs-verification — neu (2026-06-21, aus Buch-Run Kap. 7 Teil 2)
-- **§ 322 / § 324 / § 328 PBG + § 20 BVV (Wortlaut):** Geltungsdauer 3 J. (Verwirkung, Fristbeginn
+- ~~**§ 322 / § 324 / § 328 PBG + § 20 BVV (Wortlaut):** Geltungsdauer 3 J. (Verwirkung, Fristbeginn
   letzte Bewilligung), Vorentscheid-Bindung, Stillstand, koordinationspflichtige Beurteilungen — im
   Destillat [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] sinngemäss; am amtlichen
-  PBG-/BVV-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).
-- **Art. 138 ZPO (Zustellfiktion 7 Tage) + Art. 49 BGG (fehlerhafte Rechtsmittelbelehrung):** aus
-  dem Buch übernommen, am Fedlex-Volltext sichern.
+  PBG-/BVV-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).~~ → **erledigt 2026-08-24
+  (Buch-Run 110, Vorarbeit teils stale).** § 322/§ 324 PBG bereits CONFIRMED via Buch-Run 66/96
+  (`verifiziert`-Feld [[baurechtlicher-vorentscheid-und-voranfrage]]); § 328 PBG bereits CONFIRMED
+  via Buch-Run 30 (`verifiziert`-Feld [[bauausfuehrung-und-baukontrolle]]) — beide Zeiger hier waren
+  veraltet. **§ 20 BVV war die einzige echte Lücke** und wurde jetzt erstmals geprüft: CONFIRMED
+  gegen `raw/260607_amtlich_zh_bvv.md` (Definition, welche Bewilligungen für die § 322-PBG-Frist
+  zählen) — neuer Abschnitt in [[baurechtlicher-vorentscheid-und-voranfrage]].
+- ~~**Art. 138 ZPO (Zustellfiktion 7 Tage) + Art. 49 BGG (fehlerhafte Rechtsmittelbelehrung):** aus
+  dem Buch übernommen, am Fedlex-Volltext sichern.~~ → **erledigt 2026-08-24 (Buch-Run 110).** Beide
+  erstmals frisch von Fedlex bezogen (neue Primärquellen `raw/260824_amtlich_ch_zpo-art138.md`,
+  `raw/260824_amtlich_ch_bgg-art49.md`) und **CONFIRMED wortgleich**: Art. 138 Abs. 3 lit. a ZPO
+  (Zustellfiktion 7. Tag nach missglücktem Zustellversuch) und Art. 49 BGG (aus fehlender/
+  unrichtiger Rechtsmittelbelehrung kein Nachteil). Beide bisher gar nicht in
+  [[baurechtlicher-vorentscheid-und-voranfrage]] geführt — neuer Abschnitt «Zustellung,
+  Rechtsmittelbelehrung, Gültigkeitsdauer der Bewilligung» ergänzt.
 - **Anhang zur BVV (Ziffern-Zuordnung kant. Stellen):** nur als Auswahl erfasst (AFV/ALN/AWEL/UVP);
   vollständige Ziffern-Liste bei Bedarf am amtlichen BVV-Anhang nachführen — keine echte Lücke, nur
   Vertiefungsoption.

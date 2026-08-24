@@ -2199,7 +2199,8 @@ gegenüber Backstein um bis zu **+0,14 W/(m·K)** bei dünner Sturzdämmung (2 c
 Sturzdämmung sinkt dieser Malus auf nur noch +0,02 W/(m·K).
 
 **Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
-`[[waermebrueckenkatalog-bfe-fensteranschluss]]`, emerging. Ergänzt `[[fenster-verglasung-uw-g-wert]]`
+`[[waermebrueckenkatalog-bfe-fensteranschluss]]`, established (Grenzwert 0,30 W/(m·K) am Original
+verifiziert 24.08.2026). Ergänzt `[[fenster-verglasung-uw-g-wert]]`
 und `[[waermebrueckenkatalog-bfe-balkonplatte]]` (Curriculum-Punkt A4 Wärmebrücken).
 
 ---
