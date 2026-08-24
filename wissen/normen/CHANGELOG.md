@@ -1,3 +1,60 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: H41-2 (Sonderbauten-Anforderungen) — Fundstelle identifiziert, kein SIA-Kauf nötig
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (SIA
+266/2-C2, unmittelbar darunter) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 43457 (Startzeit 8:51,
+identischer Auftragstext) ist der hostende Prozess dieser Session. PID 44014 ist ein echter
+paralleler Lauf an derselben KB `wissen/normen` (SIA-Sweep, Register/Destillate/Inventar) —
+deshalb bewusst wieder rein additiv gearbeitet: `wiki/QUESTIONS.md` additiv ergänzt,
+`wiki/REGISTER.md`, `destillate/` und `training/norm-inventar.md` nicht angefasst
+(Kollisionsgefahr, Rule `sync-kanonische-quelle`). PID 45040 arbeitet an `wissen/energie`,
+keine Berührung.
+
+**Frage bearbeitet: H41-2** (`wiki/QUESTIONS.md`, Abschnitt Run 41 → Hindernisfreies Bauen) —
+das Mass der «erhöhten Anforderungen» für Sonderbauten (Spitäler, Alters-/Behindertenheime)
+gegenüber SN 521 500, im BKZ-2005-Dokument nicht beziffert, laut Frage der praktisch
+wichtigste offene Punkt dieses Bestands für JANS' Healthcare-Schwerpunkt.
+
+**Vorgehen:** `destillate/sia-500-2009.md` (Frontmatter `status: established`, aber Ziff. 0-12 +
+Anhang A + E vollständig gelesen, Anhänge B-D/F-H noch nicht) via M365-Graph-Connector am
+Original geprüft — nicht am Destillat, weil die Frage genau in den ungelesenen Teil zielt.
+Site `PL` → Drive `02_Recht_Norm` → `.../SIA_Normen/alle/500_2009.pdf` per Graph-Downloadlink
+geladen (4,4 MB), mit `pdftotext -layout` **vollständig** (nicht nur der bereits destillierte
+Teil) durchsucht.
+
+**Ergebnis:**
+1. **Ziff. 0.1.5, S. 5** (bereits im Destillat sinngemäss geführt, jetzt wörtlich verifiziert):
+   «Diese Norm ist nicht hinreichend für Bauten zur Pflege und Betreuung von Personen, wie
+   Spitäler, Rehabilitationsstätten, Wohn- und Pflegeheime sowie Alterswohnungen u.ä. Für
+   solche Bauten sind die spezifischen, dem jeweiligen Zweck entsprechenden Anforderungen
+   vorrangig.» SIA 500:2009 selbst beziffert die «erhöhten Anforderungen» nicht — Sonderbauten
+   liegen ausserhalb seines Geltungsbereichs, nicht nur strenger innerhalb davon geregelt.
+2. **Neuer Fund im bisher ungelesenen Anhang H «Publikationen» (S. 59):** die Literaturliste der
+   Schweizerischen Fachstelle für behindertengerechtes Bauen FABB, Zürich nennt namentlich
+   «**Merkblatt Nr. 7, Rollstuhlgängigkeit bei Sonderbauten**» — exakt die gesuchte Quelle. Liegt
+   im Haus nicht vor, gehört zur selben Publikationsfamilie wie die in H41-4 bereits als fehlend
+   dokumentierten Merkblätter 14/04 und 15/04 derselben Fachstelle.
+
+**In `wiki/QUESTIONS.md` bei H41-2 nachgetragen** (additiv, Ursprungswortlaut unangetastet) +
+Kopfzeile des Run-41-Abschnitts aktualisiert (H41-2 aus der Liste der «unverändert offenen»
+Punkte in eine eigene Statuszeile verschoben). H41-2 bleibt im Kern offen (Zahlenwert nicht im
+Haus) — jetzt aber mit primärquellenfest identifizierter Fundstelle statt vager Vermutung, und
+mit der wichtigen Korrektur, dass **kein kostenpflichtiger SIA-Kauf** nötig ist (SIA 500:2009
+ist bereits vollständig im Haus und wurde jetzt vollständig durchsucht) — die Bring-Schuld ist
+eine Anfrage bei der Fachstelle, potenziell kostenlos.
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` 27/1 (additiv + eine
+Kopfzeilen-Aktualisierung). Keine weiteren Dateien geändert.
+
+**Einordnung:** echter primärquellenfester Fund (Volltextsuche über den bisher nur teilweise
+gelesenen Anhangsteil einer bereits `established` geführten Norm) statt Sackgassen-Dokumentation
+— schliesst nicht die ganze Frage, aber ersetzt eine vage "SIA 500 wäre kostenpflichtig zu
+prüfen"-Vermutung durch eine konkrete, kostenfrei verfolgbare nächste Handlung.
+
+---
+
 ## 2026-08-24 — SIA-Sweep, Fortsetzung ~08:54 Uhr — elfte unabhängige Sättigungsverifikation
 
 **Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
