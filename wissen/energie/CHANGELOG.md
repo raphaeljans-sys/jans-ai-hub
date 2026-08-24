@@ -1,5 +1,117 @@
 # CHANGELOG
 
+## 2026-08-24e — Brandschutz-Lücke in `batteriespeicher` geschlossen: bestehendes VKF-Destillat nie ins Wiki eingearbeitet
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand, danach in die Wiki-Artikel einarbeiten. **Betriebslage:** Beim Start liefen laut
+`ps aux` mindestens zwei weitere parallele Läufe desselben Prompts (Run-Namen `mschub741`,
+`mschub745`, dieser Lauf `mschub749`) — sie destillierten zeitgleich die AHB-Fachmerkblätter
+265/385/389/393 (siehe 24.08.24d). Um Kollisionen auf denselben Dateien zu vermeiden, wurde
+bewusst ein anderer, unblockierter Punkt bearbeitet.
+
+**Bestandslücke:** `wiki/batteriespeicher.md` — das Kernprodukt für die Bauherren-Frage «lohnt
+sich ein Batteriespeicher», verlinkt aus FAQ F38 — enthielt bislang **keinen Brandschutz-
+Abschnitt**, obwohl die KB seit Run 94 (25.07.2026) ein vollständiges, `established`
+primärquellenbelegtes Destillat dazu führt: `[[vkf-lithium-batteriespeicher-brandschutz]]`
+(VKF-Brandschutzmerkblatt 2005-15 + FAQ 2005-01, Hazard-Level-Tabelle HL I < 15 kWh / HL II
+15-100 kWh EI 60 bzw. EI 30 bei LFP / HL III > 100 kWh, Mindestabstand 2,5 m). Das Destillat war
+nie in den zugehörigen Wiki-Artikel eingearbeitet worden.
+
+**Geschlossen:** neuer Abschnitt «Brandschutz / sichere Lagerung» in `wiki/batteriespeicher.md`
+(Tabelle nach Speicherkapazität, Hinweis auf die LFP-Chemie-Abfrage in der Ausschreibung), plus
+Verweis auf das zeitgleich vom Sibling-Lauf destillierte `[[ahb-merkblatt-389-lithium-ionen-
+batterien-lagerung]]` für kleinere mobile Akkus (Velo-/E-Bike-Ladestationen). FAQ **F38** um
+denselben Brandschutz-Kern ergänzt (2,5 m Mindestabstand, EI 30/60, Chemie-Abfrage). Frontmatter
+(`sources`, `links`, `datenstand`) von `wiki/batteriespeicher.md` nachgeführt — `datenstand` neu
+1.6.2021 (ältester zitierter Stand, VKF-Grundlagentabelle), nicht mehr nur 2025 (Marktzahlen).
+
+**Nebenfund:** Das neue Destillat `[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]`
+behauptete in seinen «Offenen Punkten», das VKF-Brandschutzmerkblatt sei «in dieser KB nicht
+vorhanden» — zum Bearbeitungszeitpunkt bereits falsch (das VKF-Destillat existierte seit Run 94).
+Richtiggestellt: konkreter Verweis mit Kernzahlen, Hinweis dass die 15-kWh-Schwelle beider
+Dokumente dieselbe Zahl aus verschiedenen Regelwerken ist (kein Widerspruch, sondern Bestätigung).
+
+**Für den nächsten Lauf:** unverändert E-R230-2 (Raphael vorzulegen), 393/394 (beide bildbasiert,
+OCR-Werkzeug nötig), A-BLIND-Bestand (rund 20 von ~40 Kandidaten im 18-29-Backlink-Bereich). Die
+in Dok. 229 referenzierte Fachmerkblatt-Liste ist damit vollständig abgearbeitet bis auf 393/394.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/ahb-merkblatt-389-lithium-
+ionen-batterien-lagerung.md` +10/-3, `wiki/batteriespeicher.md` +30/-4, `wiki/BAUHERREN-FAQ.md`
++5/-0 — durchgehend additiv/präzisierend, keine Löschung von Bestand. Keine der editierten
+Dateien war zum Bearbeitungszeitpunkt gleichzeitig durch einen Sibling-Lauf verändert (vorab und
+danach per `git status`/`git diff --numstat` geprüft).
+
+## 2026-08-24d — Drei weitere AHB-Fachmerkblätter destilliert (265 Kennzeichnung, 385 PR-NIS, 389 Lithium-Ionen-Lagerung), 393 Bühnentechnik als bildbasiert dokumentiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand, danach in die Wiki-Artikel einarbeiten. Anschluss an den Vorlauf (24.08.24c), dessen
+«Für den nächsten Lauf» die vier noch unerforschten, in `[[ahb-richtlinie-gebaeudetechnik-229-2025]]`
+referenzierten AHB-Fachmerkblätter benannte: 265 (Kennzeichnung), 385 (PR-NIS), 389
+(Lithium-Ionen-Lagerung), 393 (Bühnentechnik). Vor Beginn den `- [ ]`/`- [~]`-Bestand
+gegengeprüft: unverändert praktisch alles an Raphaels Entscheid gebunden (E103, E94,
+E-R148-1/-2, E-R161-1, E-R230-2) oder als P3/P4 ausgeschöpft dokumentiert (E-R134-3, E-R150-3,
+E-R132-4) — die vier benannten Merkblätter waren der einzige konkret benannte, unblockierte Rest.
+
+**Alle vier PDFs im selben `stadt-zuerich.ch/.../energie-gebaeudetechnik/`-Verzeichnis gefunden**
+(Kandidaten-URLs per WebSearch ermittelt, danach `curl -sI` gegen jede Kandidaten-URL verifiziert,
+HTTP 200/application/pdf vor Download), mit `pdftotext -layout` volltextextrahiert (kein
+PyMuPDF/fitz in dieser Python-Umgebung installiert, `pdftotext` als gleichwertige Alternative
+verwendet).
+
+**265 Kennzeichnung und Beschriftung Gebäudetechnik (Juli 2022, V 3.0) grösstenteils destilliert**
+→ `[[ahb-richtlinie-265-kennzeichnung-beschriftung-gebaeudetechnik]]` (neu, `emerging`, S. 1-11/28
+gelesen): sechsteiliger Adress-Code für Betriebsmittel/GA-Datenpunkte, Medien-Abkürzungstabelle je
+Gewerk (u. a. PV-Kürzel EPE/EPP/EPR für Eigenverbrauch/Produktion/Rückspeisung). Kap. 3.2-4
+(Kennfarben, Detailregeln, Anhang-Beispiele) nicht ausgewertet — als offener Punkt vermerkt.
+
+**385 Planungsrichtlinie Nichtionisierende Strahlung PR-NIS (August 2011, V 2.1) grösstenteils
+destilliert** → `[[ahb-merkblatt-385-planungsrichtlinie-nis]]` (neu, `emerging`, S. 1-14/34
+gelesen, Anhänge A-E nicht ausgewertet): ergänzt die eidgenössische NISV um raumnutzungsabhängige
+Grenzwerte (Nutzungszone A = besonders empfindlich, u. a. **Bettenzimmer**; Zone B = übrige
+Daueraufenthaltsräume, u. a. **Stationszimmer/Behandlungsräume**) mit konkreten Zahlenwerten
+(50 Hz: NZA 0.4 µT/50 V/m, NZB 1 µT/500 V/m) und einer Kostenfolge von 1-3 % Mehrkosten BKP 23.
+**Datenstand-Warnung gesetzt:** die Richtlinie selbst sieht einen 4-Jahres-Prüfzyklus vor, seit
+der letzten dokumentierten Revision (2011) sind das mindestens drei ausgefallene Zyklen (⚠⚠⚠
+15 Jahre). Ergänzt das bereits vorhandene, noch ältere `[[elektrosmog-informationsblatt-ahb-ewz]]`
+(2002, allgemeines Infoblatt ohne eigenes Zonensystem) um die konkrete AHB-Systematik —
+gegenseitig verlinkt.
+
+**389 Sichere Lagerung von Lithium-Ionen-Batterien (September 2023) vollständig destilliert** →
+`[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]` (neu, `established`, 9/9 S. vollständig):
+dreistufiges Konzept nach Energieinhalt (< 1 kWh sichere Platzierung, 1-15 kWh zertifizierter
+Sicherheitsschrank mit 90-Min.-Feuerwiderstand nach SN EN 14470-1/1363-1, > 15 kWh eigener Raum
+Hazard Level II/III). In `wiki/batteriespeicher.md` bereits durch einen parallel laufenden Lauf
+eingearbeitet und mit dem dort vorhandenen `[[vkf-lithium-batteriespeicher-brandschutz]]`
+zusammengeführt (die 15-kWh-Schwelle des AHB-Merkblatts und die HL-I/II-Grenze des
+VKF-Merkblatts sind dieselbe Zahl, kein Widerspruch) — dieser Abgleich lag ausserhalb der
+eigenen Bearbeitung dieses Laufs, wurde aber beim `git diff`-Check sichtbar und ist inhaltlich
+korrekt, keine Korrektur nötig.
+
+**393 Bühnentechnik (17.06.2020) gescheitert, gleicher Befund wie das bereits zuvor dokumentierte
+394 Wärmepumpen-Messkonzept:** PDF gefunden und geladen (`merkblatt-buehnentechnik.pdf`, HTTP 200,
+1'812'725 Byte, 17 Seiten), `pdftotext -layout` liefert von 17 Seiten nur 32 Zeilen — praktisch
+ausschliesslich Adress-/Titelblock, der Inhalt ist vollständig als Grafik/Schema gesetzt. Kein
+Destillat ohne OCR/Bildlesung möglich, als Negativbefund in
+`[[ahb-richtlinie-gebaeudetechnik-229-2025]]` (Offene Punkte) nachgetragen statt spekulativ
+nacherzählt.
+
+Eingearbeitet: drei neue Destillate, `destillate/ahb-richtlinie-gebaeudetechnik-229-2025.md`
+(Offene Punkte + Backlinks aktualisiert), `destillate/INDEX.md` (drei neue Zeilen),
+`wiki/gebaeudetechnik-pflichtenheft.md` (neuer Abschnitt + Frontmatter sources/last_updated),
+`destillate/elektrosmog-informationsblatt-ahb-ewz.md` (Querverweis + Backlinks),
+`destillate/batteriespeicher-heimspeicher-pv-ch.md` (Querverweis zu 389). `git diff --numstat`
+nach jedem Schreibvorgang geprüft: durchgehend additiv, keine Löschung von Bestand. Vier der
+Destillate (`ahb-richtlinie-gebaeudetechnik-229-2025.md` + die drei neuen) wurden zwischenzeitlich
+durch den laufenden Mac-Mini-Autosync in Commit `3ea6f2425` erfasst, bevor dieser Lauf selbst
+committen konnte — Inhalt beim Nachprüfen unverändert korrekt übernommen.
+
+**Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid ecoBKP) bleibt Raphael vorzulegen.
+393/394 brauchen ein OCR-/Bildlese-Werkzeug, keine erneute Textextraktion. Kap. 3.2-4 von 265
+(Kennfarben, Detailregeln) und die Anhänge A-E von 385 (Grenzwert-Herleitung, Messmethodik,
+Zonenplan-Muster) sind für ein konkretes Mandat nachzuholen. A-BLIND-Bestand unverändert (rund
+20 von ~40 Kandidaten im 18-29-Backlink-Bereich weiterhin einzeln zu prüfen) — in diesem Lauf
+nicht berührt, da die vier benannten Merkblätter Vorrang hatten.
+
 ## 2026-08-24c — AHB-Merkblatt 386 Storensteuerung destilliert, AHB-Merkblatt 394 Wärmepumpen-Messkonzept als bildbasiert dokumentiert
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und

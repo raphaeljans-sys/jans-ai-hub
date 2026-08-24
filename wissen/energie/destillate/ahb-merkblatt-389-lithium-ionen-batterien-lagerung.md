@@ -72,8 +72,15 @@ Speichersysteme, NIN).
 ## Offene Punkte
 
 - Kap. 5.3 (Raumkriterien > 15 kWh) verweist nur auf «anerkannte Regeln der Technik» und die VKF,
-  ohne eigene Bauteilwerte — für ein konkretes Grossspeicher-Projekt bräuchte es das VKF-
-  Brandschutzmerkblatt selbst (in dieser KB nicht vorhanden, Domäne Skill `brandschutz`).
+  ohne eigene Bauteilwerte. **Korrektur (24.08.2026):** Das VKF-Brandschutzmerkblatt ist entgegen
+  einer früheren Fassung dieses Abschnitts **in dieser KB bereits vorhanden und primärquellen-
+  belegt** — `[[vkf-lithium-batteriespeicher-brandschutz]]` (Run 94, established) liefert genau die
+  hier fehlenden Bauteilwerte: dreistufige Hazard-Level-Tabelle nach kWh/Brandabschnitt (HL I
+  < 15 kWh, HL II 15–100 kWh EI 60/EI 30 bei LFP nach FAQ 2005-01, HL III > 100 kWh
+  Freiaufstellung/RF1-Nebenbaute). Die 15-kWh-Schwelle dieses AHB-Merkblatts und die HL-I/II-Grenze
+  des VKF-Merkblatts sind **dieselbe Zahl**, nur aus verschiedenen Regelwerken — kein Widerspruch,
+  sondern Bestätigung.
 - Keine Aktualitätsprüfung über den Verweis in Dok. 229 (Stand 08.2025) hinaus.
 
-**Backlinks:** [[ahb-richtlinie-gebaeudetechnik-229-2025]] · [[batteriespeicher-heimspeicher-pv-ch]]
+**Backlinks:** [[ahb-richtlinie-gebaeudetechnik-229-2025]] · [[batteriespeicher-heimspeicher-pv-ch]] ·
+[[vkf-lithium-batteriespeicher-brandschutz]]

@@ -1793,6 +1793,11 @@ nicht der erste.
 - **Technik:** ~80 % der Anlagen **Lithium-Eisenphosphat (LFP)**, kobaltfrei, sicher; Lebensdauer
   **10–20 Jahre**. **Notstrom:** nur **~30 %** der Systeme können bei Netzausfall wirklich das ganze
   Haus weiterversorgen — wer das will, muss es **ausdrücklich verlangen**.
+- **Brandschutz (VKF, primärquellenbelegt):** Ein typischer Heimspeicher (5–15 kWh) liegt an der
+  Grenze zu **Hazard Level II** (ab 15 kWh/Brandabschnitt) — Mindestabstand **2,5 m** zu brennbaren
+  Materialien gilt immer, ein eigener Raum mit **EI 30** (bei LFP) bzw. **EI 60** (andere
+  Lithium-Ionen-Chemien) ist empfohlen bzw. ab 15 kWh gefordert. Die Chemie (LFP oder nicht) gehört
+  deshalb in die Ausschreibung. Details: `[[vkf-lithium-batteriespeicher-brandschutz]]`.
 
 **Wann eher ja:** hoher Abend-/Nachtverbrauch, Wunsch nach Autarkie/Notstrom, hohe Strompreise /
 tiefe Einspeisevergütung. **Wann eher nein:** tagsüber ohnehin hoher, steuerbarer Verbrauch (WP +

@@ -2,6 +2,41 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24 — Interaktive Session (zehnte Fortsetzung): drei AHB-Fachmerkblätter destilliert (265/385/389), 393 als bildbasiert dokumentiert
+
+Auftrag: weitere offene Fragen abarbeiten, Anschluss an den unmittelbaren Vorlauf (CHANGELOG
+24.08.24c), dessen «Für den nächsten Lauf» vier noch unerforschte, in
+`[[ahb-richtlinie-gebaeudetechnik-229-2025]]` referenzierte AHB-Fachmerkblätter benannte: 265
+(Kennzeichnung), 385 (PR-NIS), 389 (Lithium-Ionen-Lagerung), 393 (Bühnentechnik). Bestand vorab
+gegengeprüft: unverändert alles Übrige an Raphaels Entscheid gebunden oder als P3/P4
+ausgeschöpft dokumentiert — diese vier Merkblätter waren der einzige konkret benannte,
+unblockierte Rest.
+
+- [x] **Alle vier PDFs gefunden und geprüft (24.08.2026).** 265, 385, 389 vollständig bzw.
+  grösstenteils destilliert (`[[ahb-richtlinie-265-kennzeichnung-beschriftung-gebaeudetechnik]]`,
+  `[[ahb-merkblatt-385-planungsrichtlinie-nis]]`, `[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]`).
+  393 Bühnentechnik ist wie das bereits zuvor dokumentierte 394 **vollständig bildbasiert**
+  (`pdftotext -layout` liefert von 17 Seiten nur 32 Zeilen, praktisch nur Adress-/Titelblock) —
+  kein Destillat ohne OCR möglich, in `[[ahb-richtlinie-gebaeudetechnik-229-2025]]` (Offene
+  Punkte) nachgetragen.
+- **385 PR-NIS mit Datenstand-Warnung:** August 2011, ⚠⚠⚠ 15 Jahre alt, die Richtlinie selbst sieht
+  einen 4-Jahres-Prüfzyklus vor — für ein aktuelles Bauherren-Pflichtenheft vor Zitat auf eine
+  neuere Fassung prüfen (in diesem Lauf nicht gezielt gesucht).
+- **Nebenbefund:** ein parallel laufender Prozess hat währenddessen `wiki/batteriespeicher.md`
+  und das neue `389`-Destillat selbst mit dem bereits vorhandenen
+  `[[vkf-lithium-batteriespeicher-brandschutz]]` zusammengeführt (VKF-Hazard-Level-Schwelle und
+  AHB-15-kWh-Schwelle sind dieselbe Zahl) — beim `git diff`-Check sichtbar, inhaltlich korrekt,
+  keine eigene Korrektur nötig, siehe CHANGELOG 24.08.24d.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv, keine Löschung von
+Bestand. Details: `CHANGELOG.md` 2026-08-24d.
+
+**Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid ecoBKP) bleibt Raphael vorzulegen.
+393/394 brauchen ein OCR-/Bildlese-Werkzeug. Kap. 3.2-4 von 265 und die Anhänge A-E von 385 sind
+für ein konkretes Mandat nachzuholen. **A-BLIND-Bestand unverändert** (rund 20 von ~40 Kandidaten
+im 18-29-Backlink-Bereich weiterhin einzeln gegen ihre Primärquelle zu prüfen) — in diesem Lauf
+nicht berührt, echter Rest für einen künftigen Lauf.
+
 ## 2026-08-24 — Interaktive Session (neunte Fortsetzung): A-WERKZEUG-Rest stichprobenartig geprüft, ein echter Tool-Fehler in `datenstand-waechter.py` behoben, zwei stale Prüfstichtag-Treffer annotiert
 
 Auftrag: weitere offene Punkte aus dieser Datei abarbeiten, Anschluss an die achte Fortsetzung.
@@ -6031,3 +6066,48 @@ Backlinks ergänzt), `destillate/INDEX.md` +1/-0, `wiki/BAUHERREN-FAQ.md` +3/-1,
 `wiki/fenster-uw-g-wert-zielkonflikt.md` +2/-1 — durchgehend additiv/präzisierend, keine Löschung
 von Bestand. Zwei Dateien (`sommerlicher-waermeschutz.md`, die neue Destillat-Datei) waren beim
 Prüfzeitpunkt bereits durch den laufenden Mac-Mini-Autosync in Commit `0938e9925` erfasst.
+
+## 2026-08-24 (interaktive Session, Fortsetzung, parallel zu weiteren Läufen desselben Tages) — Brandschutz-Lücke in `batteriespeicher` geschlossen: bestehendes VKF-Destillat war nie ins Wiki eingearbeitet
+
+Auftrag: weitere offene Fragen abarbeiten. **Hinweis zur Betriebslage:** Beim Start liefen laut
+`ps aux` mindestens zwei weitere parallele Läufe desselben Prompts (Run-Namen `mschub741`,
+`mschub745`); dieser Lauf ist `mschub749`. Die Siblings destillierten währenddessen die AHB-
+Merkblätter 265 (Kennzeichnung), 385 (NIS-Planungsrichtlinie) und aktualisierten 389
+(Lithium-Ionen-Lagerung, bereits vorher von einem Sibling neu angelegt und committet, siehe
+Commit `3ea6f2425`) — um Kollisionen auf denselben Dateien zu vermeiden, wurde bewusst ein
+anderer, unblockierter Punkt gewählt: die **Wiki-Einarbeitung** einer bereits bestehenden,
+primärquellenbelegten Brandschutz-Recherche, die nie den Weg in den zugehörigen Bauherren-Artikel
+fand.
+
+- [x] **Echte Bestandslücke gefunden und geschlossen: `wiki/batteriespeicher.md` (das
+  Kernprodukt für die Bauherren-Frage «lohnt sich ein Batteriespeicher») enthielt bislang KEINEN
+  Brandschutz-Abschnitt**, obwohl die KB seit Run 94 (25.07.2026) ein vollständiges, established
+  primärquellenbelegtes Destillat dazu führt: `[[vkf-lithium-batteriespeicher-brandschutz]]`
+  (VKF-Brandschutzmerkblatt 2005-15 + FAQ 2005-01, Hazard-Level-Tabelle HL I < 15 kWh / HL II
+  15-100 kWh EI 60 bzw. EI 30 bei LFP / HL III > 100 kWh). Neuer Abschnitt «Brandschutz / sichere
+  Lagerung» in `wiki/batteriespeicher.md` mit Tabelle nach Speicherkapazität, plus Hinweis auf das
+  neue (von einem Sibling-Lauf soeben destillierte) `[[ahb-merkblatt-389-lithium-ionen-batterien-
+  lagerung]]` für kleinere mobile Akkus (Velo-/E-Bike-Ladestationen, Summenbildung bei
+  Mehrfach-Ladeplätzen). FAQ **F38** um denselben Brandschutz-Kern ergänzt (Tabelle gekürzt auf
+  die Kernzahlen: 2,5 m Mindestabstand, EI 30/60, Chemie-Abfrage in die Ausschreibung).
+- [x] **Zweiter Nebenfund: das neue Destillat `[[ahb-merkblatt-389-lithium-ionen-batterien-
+  lagerung]]` behauptete in seinen «Offenen Punkten», das VKF-Brandschutzmerkblatt sei «in dieser
+  KB nicht vorhanden» — das war zum Zeitpunkt des Sibling-Laufs (der `[[vkf-lithium-
+  batteriespeicher-brandschutz]]` offenbar nicht per Backlink-Suche gefunden hatte) bereits
+  falsch. Richtiggestellt: konkreter Verweis mit Kernzahlen (15-kWh-Schwelle beider Dokumente ist
+  dieselbe Zahl aus verschiedenen Regelwerken, kein Widerspruch) statt Negativbefund.
+
+**Für den nächsten Lauf:** unverändert E-R230-2 (Raphael vorzulegen), 393/394 (beide bildbasiert,
+OCR-Werkzeug nötig — 393 wurde vom Sibling-Lauf noch während dieser Bearbeitung geschlossen,
+siehe CHANGELOG 24.08.24d), A-BLIND-Bestand (rund 20 von ~40 Kandidaten 18-29-Backlink-Bereich).
+Die Sibling-Läufe 265/385 haben ihre Wiki-Einarbeitung laut CHANGELOG 24.08.24d bereits selbst
+erledigt (`wiki/gebaeudetechnik-pflichtenheft.md`, `destillate/elektrosmog-informationsblatt-ahb-
+ewz.md`) — damit ist die in Dok. 229 referenzierte Fachmerkblatt-Liste vollständig abgearbeitet
+bis auf 394/393 (OCR).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/ahb-merkblatt-389-lithium-
+ionen-batterien-lagerung.md` +10/-3 (Offene-Punkte-Korrektur, Backlink ergänzt),
+`wiki/batteriespeicher.md` +30/-4 (neuer Abschnitt, Frontmatter/Backlinks ergänzt),
+`wiki/BAUHERREN-FAQ.md` +5/-0 — durchgehend additiv/präzisierend, keine Löschung von Bestand.
+Keine der von diesem Lauf editierten Dateien war zum Bearbeitungszeitpunkt durch einen Sibling
+gleichzeitig verändert (vorab und danach per `git status`/`git diff --numstat` geprüft).

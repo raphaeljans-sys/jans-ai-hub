@@ -1,11 +1,11 @@
 ---
-quelle: SIA «Grundlagenbericht zu SIA 2024 — Revision 2021 inkl. Korrigenda SIA 2024-C1:2024» (cms.sia.ch/de/api/getMedia/941); SIA «Harmonisierung SIA-Standardwerte und Gebäudekategorien — Statusbericht» (cms.sia.ch/de/api/getMedia/940, bezieht sich auf Vernehmlassungsentwurf SIA 2024:2019); BFE/EnergieSchweiz «Kälte effizient erzeugen — Das Wichtigste zur Kälteerzeugung nach SIA 382/1» (pubdb.bfe.admin.ch/de/publication/download/8559); EnFK-Anforderungsprofil SIA 380/1:2016 (Version 16.01a, 11.04.2017)
+quelle: SIA «Grundlagenbericht zu SIA 2024 — Revision 2021 inkl. Korrigenda SIA 2024-C1:2024» (cms.sia.ch/de/api/getMedia/941); SIA «Harmonisierung SIA-Standardwerte und Gebäudekategorien — Statusbericht» (cms.sia.ch/de/api/getMedia/940, bezieht sich auf Vernehmlassungsentwurf SIA 2024:2019); BFE/EnergieSchweiz «Kälte effizient erzeugen — Das Wichtigste zur Kälteerzeugung nach SIA 382/1» (pubdb.bfe.admin.ch/de/publication/download/8559); EnFK-Anforderungsprofil SIA 380/1:2016 (Version 16.01a, 11.04.2017); **SIA 2024-C2:2025 «Korrigenda C2 zum Merkblatt SIA 2024:2021», deutsche Fassung, SNR 592024:2021-C2:2025 de, 15 S., gültig ab 2025-06-01, gefunden 24.08.2026 über shop.sia.ch (GUID bf2a2d6f-443c-47e0-b73a-5c7a5060ed31, Endpunkt `/D/DownloadAnhang`) — die Korrigenda selbst ist laut eigenem Text («Sie steht unter www.sia.ch/korrigenda … zur Verfügung») kostenlos, anders als das Merkblatt SIA 2024:2021 selbst; vollständig gelesen**
 herausgeber: SIA (Schweizerischer Ingenieur- und Architektenverein), Kommission 2024 / Kommission 382; Bundesamt für Energie (BFE) / EnergieSchweiz
-ausgabe: SIA 2024:2021 inkl. Korrigenda C1:2024 (aktuell gültige Fassung, ersetzt SIA 2024:2015); Statusbericht bezieht sich auf den Vernehmlassungsentwurf SIA 2024:2019 (Konsultationsstand, nicht deckungsgleich mit der schliesslich verabschiedeten 2021er-Fassung); SIA 382/1 in Kraft seit 1.7.2014 (BFE-Merkblatt bezieht sich auf diese Ausgabe; seit 1.2.2025 gilt SIA 382/1:2025 — im BFE-Merkblatt nicht mehr abgebildet, als offener Punkt vermerkt)
-gelesen: 2026-07-14, PDFs vollständig via pdftotext ausgewertet (Grundlagenbericht 43 S., Statusbericht ~40 relevante Seiten, BFE-Merkblatt 6 S.)
-datenstand: Grundlagenbericht datiert 20.10.2024; Statusbericht Copyright 2019 (Vernehmlassungsstand SIA 2024:2019, teilweise durch die verabschiedete Fassung SIA 2024:2021 überholt); BFE-Merkblatt undatiert im Extrakt, bezieht sich auf SIA 382/1:2014
-status: emerging (Kernaussagen aus dem offiziellen SIA-Grundlagenbericht — nicht normativ, aber von der SIA-Kommission 2024 selbst verfasst und autoritativ — sowie einem SIA-Statusbericht, dessen Zahlen teilweise Vernehmlassungsstand 2019 sind; die eigentliche Normtabelle SIA 2024:2021 Anhang A/F selbst liegt NICHT im Volltext vor, da kostenpflichtig im SIA-Shop; keine Sekundärquelle konnte das widerlegen, aber Volltextabgleich mit dem bezahlten Normtext steht aus)
-last_updated: 2026-07-26
+ausgabe: SIA 2024:2021 inkl. Korrigenda C1:2024 **und C2:2025** (aktuell gültige Fassung, ersetzt SIA 2024:2015); Statusbericht bezieht sich auf den Vernehmlassungsentwurf SIA 2024:2019 (Konsultationsstand, nicht deckungsgleich mit der schliesslich verabschiedeten 2021er-Fassung); SIA 382/1 in Kraft seit 1.7.2014 (BFE-Merkblatt bezieht sich auf diese Ausgabe; seit 1.2.2025 gilt SIA 382/1:2025 — im BFE-Merkblatt nicht mehr abgebildet, als offener Punkt vermerkt)
+gelesen: 2026-07-14, PDFs vollständig via pdftotext ausgewertet (Grundlagenbericht 43 S., Statusbericht ~40 relevante Seiten, BFE-Merkblatt 6 S.); **Korrigenda C2:2025 vollständig gelesen 24.08.2026 (curl+PyPDF2, deutsche UND französische Fassung geladen, deutsche zitiert)**
+datenstand: Grundlagenbericht datiert 20.10.2024; Statusbericht Copyright 2019 (Vernehmlassungsstand SIA 2024:2019, teilweise durch die verabschiedete Fassung SIA 2024:2021 überholt, siehe unten Tabelle-20-Abgleich); BFE-Merkblatt undatiert im Extrakt, bezieht sich auf SIA 382/1:2014; **Korrigenda C2:2025 gültig ab 01.06.2025 — jüngster Datenstand dieses Artikels für die Tabellen 4-9/11/14-17/20**
+status: emerging (die Korrigenda C2:2025 liefert jetzt primärquellenbelegte, freie Energie-/Leistungsbedarfswerte für 8.01-8.03 und die Gebäudekategorie-VIII-Summe — die eigentlichen vollständigen Raumdatenblätter mit allen Eingabeparametern (Personendichte, Betriebszeiten je Raumnutzung, Anhang A/B/C im Detail) liegen weiterhin NICHT im Volltext vor, da das Merkblatt SIA 2024:2021 selbst kostenpflichtig im SIA-Shop bleibt; keine Sekundärquelle konnte das widerlegen)
+last_updated: 2026-08-24
 merge_historie: "2026-07-26 — Merge des Zwillings-Destillats `sia-2024-nutzungsdaten-gesundheitsbau` (140 Zeilen, Run 69) in diesen Artikel auf Freigabe Raphael. Uebernommen: Flaechenanteile-Tabelle (Statusbericht Tab. 5), Vergleich geltend SIA-380/1-Tab.-27 vs. Harmonisierungsvorschlag SIA-2024:2019 inkl. EnFK-Grenzwerte, Luftmengen-Zeitreihe 2015 vs. 2021-Entwurf, drei offene Punkte, Backlinks. Quelldatei geloescht, alle Backlinks umgebogen."
 ---
 
@@ -152,6 +152,53 @@ Behandlungsräumen führt das wegen zusätzlicher Vor-/Nachspülzeiten teils zu 
 der gesunkene spezifische Volumenstrom bedeutet also nicht automatisch weniger Energiebedarf. Beim
 Bettenzimmer steigen die Volllaststunden von 7'010 h auf den durchgehenden 24/7-Betrieb (8'760 h).
 
+## Energie- und Leistungsbedarf 8.01–8.03 nach SIA 2024-C2:2025 (Nachtrag 24.08.2026)
+
+Die Korrigenda C2:2025 (gültig ab 1.6.2025) ersetzt die Tabellen 4–9 des Merkblatts vollständig und
+ist — anders als das Merkblatt SIA 2024:2021 selbst — kostenlos zugänglich (offizieller SIA-Hinweis
+im Dokument: «Sie steht unter www.sia.ch/korrigenda … zur Verfügung»). Das schliesst den bisherigen
+offenen Punkt «kein W/m²-Kennwert für Klimakälteleistung von Spital-/Pflegeräumen gefunden» und
+liefert erstmals primärquellenbelegte, freie Zahlen für die drei Gesundheitsbau-Raumnutzungen:
+
+**Energiebedarf pro Nettogeschossfläche (Tab. 4/5/6 C2:2025), kWh/m²·a:**
+
+| Raumnutzung | Wertebereich | Geräte (EA) | Prozessanlagen (EPs) | Beleuchtung (EL) | Klimakälte (QC) | Heizwärme (QH) | Warmwasser (QW) |
+|---|---|---|---|---|---|---|---|
+| 8.01 Bettenzimmer | Standard | 10.5 | 0 | 8.2 | 13.7 | 10.8 | 67.7 |
+| 8.01 Bettenzimmer | Zielwert | 7.0 | 0 | 2.7 | 11.3 | 6.0 | 67.7 |
+| 8.01 Bettenzimmer | Bestand | 14.0 | 0 | 10.5 | 0.3 | 89.0 | 67.7 |
+| 8.02 Stationszimmer | Standard | 31.5 | 0 | 55.7 | 73.0 | 1.2 | 0.0 |
+| 8.02 Stationszimmer | Zielwert | 15.8 | 0 | 28.3 | 49.3 | 1.2 | 0.0 |
+| 8.02 Stationszimmer | Bestand | 47.3 | 0 | 71.6 | 17.4 | 68.2 | 0.0 |
+| 8.03 Behandlungsraum | Standard | 32.7 | 33 | 28.0 | 24.4 | 9.0 | 0.0 |
+| 8.03 Behandlungsraum | Zielwert | 21.8 | 11 | 10.7 | 16.8 | 4.8 | 0.0 |
+| 8.03 Behandlungsraum | Bestand | 43.6 | 44 | 36.0 | 4.4 | 87.2 | 0.0 |
+
+**Leistungsbedarf pro Nettogeschossfläche (Tab. 7/8 C2:2025), W/m²:**
+
+| Raumnutzung | Wertebereich | Geräte (pA) | Prozessanlagen (pPs) | Beleuchtung (pL) | Klimakälte (C) | Heizwärme (HL) |
+|---|---|---|---|---|---|---|
+| 8.01 Bettenzimmer | Standard | 6 | 0 | 5.3 | 31.9 | 16.9 |
+| 8.01 Bettenzimmer | Zielwert | 4 | 0 | 3.4 | 24.6 | 13.0 |
+| 8.02 Stationszimmer | Standard | 10 | 0 | 9.7 | 64.6 | 16.4 |
+| 8.02 Stationszimmer | Zielwert | 5 | 0 | 6.2 | 52.6 | 13.2 |
+| 8.03 Behandlungsraum | Standard | 15 | 15 | 14.6 | 60.2 | 20.5 |
+| 8.03 Behandlungsraum | Zielwert | 10 | 5 | 9.3 | 47.5 | 15.7 |
+
+**Einordnung:** Die Prozessanlagen-Leistung des Behandlungsraums bleibt bei 15 W/m² (Standard) —
+deckungsgleich mit dem bereits an anderer Stelle in dieser KB primärquellen-verifizierten Wert
+(FAQ-Run 80, 18.07.2026). Die im Grundlagenbericht (Okt. 2024, oben unter «Prozessanlagen»)
+zitierte Zahl «Elektrizitätsbedarf gesamt 8.03 = 120 kWh/m², davon 33 Prozessanlagen» ist damit
+**durch C2:2025 präzisiert, nicht widerlegt**: 33 kWh/m² Prozessanlagen stimmt exakt; die Summe aus
+Geräten (32.7) + Prozessanlagen (33) + Beleuchtung (28.0) ergibt nach C2:2025 aber 93.7 statt 120
+kWh/m² — der Grundlagenbericht bezog sich auf den Stand vor der Korrigenda-Korrektur vom 1.6.2025
+(Geräte/Beleuchtung wurden nachträglich gesenkt, Prozessanlagen unverändert gelassen). Für
+Bauherren-Aussagen ab sofort die C2:2025-Werte zitieren, nicht mehr die Grundlagenbericht-Tabelle.
+**Kernaussage bestätigt sich:** Klimakälte- und Elektrizitätsbedarf von Stationszimmer/
+Behandlungsraum liegen ein Mehrfaches über dem Bettenzimmer; das Bettenzimmer trägt dafür den mit
+Abstand höchsten Warmwasserbedarf (67.7 kWh/m², unverändert über alle drei Wertebereiche — SIA 2024
+behandelt Warmwasser nicht effizienzabhängig, sondern als fixen Nutzungswert).
+
 ## Prozessanlagen: die zentrale Neuerung für Gesundheitsbauten
 
 Die Revision SIA 2024:2021 führt erstmals eine eigene Kategorie **Prozessanlagen** ein, die von den
@@ -232,7 +279,9 @@ Transfer unten).
   SIA-2044-Stundenverfahren. Für den Jahresbedarf ein Monatsbilanzverfahren analog SIA 380/1.
   **Kein raumnutzungsspezifischer W/m²- oder kWh/m²-Zahlenwert für die Kühlleistung von Spital/Pflege
   liess sich im Grundlagenbericht finden** — die Norm liefert die Berechnungsmethode, nicht einen
-  fixen Kennwert für Kategorie VIII (offener Punkt).
+  fixen Kennwert für Kategorie VIII (offener Punkt **geschlossen 24.08.2026**: die Korrigenda
+  C2:2025 liefert den Kennwert direkt, siehe Tabelle oben — Klimakälte-Leistung Standard 31.9 W/m²
+  Bettenzimmer, 64.6 W/m² Stationszimmer, 60.2 W/m² Behandlungsraum).
 
 ## Energiebedarfsvergleich: Spital/Pflege vs. Wohnbau (Gebäudeparkmodell Neubau 2010)
 
@@ -264,6 +313,25 @@ Grossküche/Wäscherei-nahe Nutzungen, die in einem Pflegeheim oft mit im Gebäu
 stammen aus einer TEP-Energy-Untersuchung von 2016 zum Gebäudepark 2010 und sind **nicht** direkt mit den
 SIA-2024:2021-Kennwerten deckungsgleich (Datierung 2010, andere Berechnungsmethodik) — sie dienen hier als
 grössenordnungsmässige Plausibilisierung, nicht als Norm-Zitat.
+
+**Nachtrag 24.08.2026 — echter Anhang-F-Wert jetzt verfügbar, aber ohne VIII.1/VIII.2-Trennung:**
+Die Korrigenda C2:2025 ersetzt auch Tabelle 20 (Anhang F, «Harmonisierung der Standardwerte auf
+Raum- und Gebäudeebene») — die tatsächliche, aktuell gültige Gebäudekategorie-Summe für Kategorie
+VIII. Wichtiger Befund: **Tabelle 20 führt Kategorie VIII weiterhin undifferenziert als eine
+einzige Spalte «Spital»**, keine Aufteilung VIII.1/VIII.2. Standardwerte-Elektrizität VIII gesamt:
+Geräte 8.5 + Beleuchtung 9.9 + Lüftung 5.1 + Prozessanlagen 2.6 + Allg. Gebäudetechnik 8.2 = **34.3
+kWh/m²EBF·a** (Zielwerte: 5.3+3.3+2.8+0.9+8.2 = 20.5; Bestand: 12.0+12.8+0.6+3.5+8.2 = 37.1);
+Heizwärme Standard 10.4, Warmwasser 21.8 kWh/m²EBF·a. Das relativiert die an anderer Stelle in
+dieser KB (FAQ, Run 80, 18.07.2026) aus dem Grundlagenbericht **rekonstruierten** Werte
+«VIII.1 ≈ 36 / VIII.2 ≈ 30 kWh/m²EBF·a Elektrizität» — jene Zahlen waren ein belegter
+Analogieschluss (Flächenanteile-gewichtete Schätzung), keine direkte Anhang-F-Lektüre, weil der
+Normvolltext damals nicht vorlag. Der jetzt primärquellen-gelesene, aktuelle Anhang-F-Wert (34.3)
+liegt plausibel zwischen den beiden rekonstruierten Teilwerten — bestätigt die Grössenordnung,
+löst aber nicht auf, ob die Norm selbst intern nach VIII.1/VIII.2 differenziert: **sie tut es in
+Anhang F nicht**, nur auf Raumnutzungs-Ebene (8.01–8.03) und bei den Flächenanteilen (Statusbericht
+Tab. 5, weiterhin Entwurfsstand 2019, s.o.). Für eine bewilligungsrelevante VIII.1/VIII.2-Aussage
+bleibt darum die Raumnutzungsmischung eines konkreten Projekts massgebend, nicht ein pauschaler
+Gebäudekategorie-Kennwert.
 
 ## Kanton ZH/SZ: Nichtwohnbau-spezifische Nachweispflichten
 
