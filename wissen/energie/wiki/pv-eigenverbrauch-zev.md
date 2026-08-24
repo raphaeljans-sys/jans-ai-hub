@@ -48,7 +48,8 @@ trägt. Zwei Hebel heben ihn — ein **technischer** (den Strom im eigenen Gebä
   Kosten höchstens die **halbe Ersparnis** zusätzlich). Einrechenbar: PV-Produktionskosten, Messtarife,
   Dienstleistergebühr, Netzstrom 1:1. Mieter haben ein **Wahlrecht** bei ZEV-Gründung + Anfechtungsrecht;
   keine Überwälzung über den Nettomietzins. Berechnung mit dem EnergieSchweiz-Excel (2024-03-11).
-  → [[zev-mieter-strompreis-eigenverbrauch]] (EnergieSchweiz-Leitfaden/lokalerstrom.ch, EnV Art. 16).
+  → [[zev-mieter-strompreis-eigenverbrauch]] (EnergieSchweiz-Leitfaden/lokalerstrom.ch, primaerquellen-
+  verifiziert EnV Art. 16b Abs. 2/3, in Kraft seit 1.1.2025).
 
 ## Hebel 3 — organisatorisch über die Liegenschaft hinaus: die LEG (ab 1.1.2026)
 - Die **Lokale Elektrizitätsgemeinschaft (LEG)** ist das **dritte** neue Instrument (StromVG, Volksentscheid

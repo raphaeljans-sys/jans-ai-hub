@@ -1,5 +1,48 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session (Fortsetzung): E12-Restpunkt geschlossen — EnV Art. 16a/16b für die ZEV-Mieterpreisregel primärquellen-verifiziert
+
+Auftrag: weitere offene Punkte aus `wiki/QUESTIONS.md` abarbeiten. Vor neuer Primärquellenarbeit
+zunächst den gesamten `- [ ]`/`- [~]`-Bestand durchgesehen: praktisch alles ist entweder an
+Raphaels Entscheid gebunden (Normkauf SIA 380/1:2016/E-R148-1, SN EN ISO 6946/E-R161-1,
+JANS-Projektdaten E103/E94, Konsolidierungsentscheid ecoBKP-2026/E-R230-2) oder als P3/P4
+bereits erschöpfend dokumentierter Negativbefund (E-R134-3, E-R150-3, E-R132-4). Der einzige
+noch unblockierte, öffentlich mit Primärtext lösbare Rest war der in **E12** seit 2026-07-05
+offen stehende Punkt: die **exakte EnV-Artikelnummer** der ZEV-Mieter-Preisregel («80 %-Pauschale
+ODER Gestehungskosten mit Hälfte-Differenz») war nur über die Sekundärquelle lokalerstrom.ch als
+«EnV Art. 16a/16b» vermutet, nie am Verordnungstext selbst geprüft.
+
+**Vorgehen:** Energieverordnung (EnV, SR 730.01) über den in `docs/referenz/fedlex-volltexte.md`
+dokumentierten Ausweichweg direkt bei `fedlex.data.admin.ch` geladen (ELI `2017/763`,
+Konsolidierungsstand 1.1.2026, PDF 752'919 Byte, HTTP 200 `application/pdf` verifiziert vor der
+Auswertung) und mit PyPDF2 vollständig ausgelesen. Ergänzend den **Erläuternden Bericht des BFE**
+zur EnV-Änderung (`pubdb.bfe.admin.ch/de/publication/download/11639`, 34 Seiten) geladen und
+gezielt nach den Artikeln 16a/16b sowie nach einem Rp./kWh-Zahlenbeispiel durchsucht.
+
+**Ergebnis: die Vermutung von lokalerstrom.ch ist bestätigt, jetzt mit exakter Absatz-Zuordnung.**
+**Art. 16a EnV** («Abrechnung der externen Kosten eines Zusammenschlusses») regelt die extern
+bezogene Elektrizität — verbrauchsabhängig, ohne die 80 %-Deckelung (nur der Anteil für ein
+internes Verteilnetz wird gedeckelt, Abs. 3). **Art. 16b EnV** («Abrechnung der internen Kosten
+eines Zusammenschlusses») trägt die eigentliche Preisregel: Abs. 2 die 80 %-Pauschale, Abs. 3 die
+effektiven Kosten abzüglich Einspeiseerlös mit der «Hälfte der Differenz» in Bst. c, wenn die
+effektiven Kosten unter dem Deckel liegen. Beide Artikel wurden erst durch die EnV-Änderung vom
+20.11.2024 eingefügt, in Kraft seit **1.1.2025** (AS 2024 702); laut Erläuterndem Bericht ist die
+80 %-Zahl selbst dabei **materiell unverändert** aus der Vorgängerfassung von Art. 16 EnV
+übernommen worden, nur neu aufgeteilt und nummeriert. **Kein Zahlenbeispiel gefunden:** die im
+Erläuternden Bericht vorkommenden Rp./kWh-Werte betreffen ein anderes Thema
+(Herkunftsnachweis-Vergütung) — ein Rechenbeispiel zur 80 %-/Gestehungskosten-Regel existiert nur
+im projektbezogen zu befüllenden EnergieSchweiz-Excel, das bleibt so offen wie zuvor dokumentiert,
+aber jetzt als geprüfte Aussage statt als Annahme.
+
+Eingearbeitet in `destillate/zev-mieter-strompreis-eigenverbrauch.md` (neuer Abschnitt
+«Rechtsgrundlage», Frontmatter, Offene-Punkte-Abschnitt beide Punkte abschliessend beantwortet),
+`wiki/pv-eigenverbrauch-zev.md` und `wiki/BAUHERREN-FAQ.md` F32-Quellenzeile (EnV Art. 16 →
+Art. 16b Abs. 2/3 präzisiert), `destillate/INDEX.md` (Zeile aktualisiert), `wiki/QUESTIONS.md`
+(E12-Restpunkt geschlossen).
+
+`git diff --numstat` nativ per ssh nach jedem Schreibvorgang geprüft: alle Dateien additiv bzw.
+mit den erwarteten präzisierten Zeilen, keine Löschung von Bestand.
+
 ## 2026-08-24 — Interaktive Session (neunte Fortsetzung): Werkzeug-Fehler in `datenstand-waechter.py` behoben (DIN-1946-4 als Jahr 1946 misgelesen), A-WERKZEUG-Restfrage stichprobenartig entwarnt
 
 Auftrag: weitere offene Punkte aus `wiki/QUESTIONS.md` abarbeiten, Anschluss an die achte

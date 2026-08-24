@@ -27,12 +27,37 @@ verrechnet werden).
 - **Berechnungshilfe:** EnergieSchweiz stellt ein **Excel** «Berechnung der PV-Stromkosten im Eigenverbrauch
   in einem ZEV» bereit (Stand 2024-03-11).
 
+## Rechtsgrundlage (primaerquellen-verifiziert 24.08.2026, EnV Stand 1.1.2026)
+Die EnV trennt **externe** und **interne** Kosten des Zusammenschlusses in zwei Artikeln; die
+80 %-/Gestehungskosten-Regel dieses Artikels gilt **nur fuer die internen Kosten** (Art. 16b) —
+die extern bezogene Elektrizitaet (Art. 16a) wird separat und grundsaetzlich unbeschraenkt
+verbrauchsabhaengig weiterverrechnet:
+- **Art. 16a EnV «Abrechnung der externen Kosten eines Zusammenschlusses»**: extern bezogene
+  Elektrizitaet + Netznutzung/Messung des Zusammenschlusses (Abs. 1) werden den Teilnehmenden
+  **verbrauchsabhaengig** in Rechnung gestellt (Abs. 2). **Nur** wenn darin ein Anteil fuer ein
+  ZEV-internes Verteilnetz steckt (Abs. 1 Bst. b), gilt eine Deckelung: nicht hoeher, als bei
+  Nichtteilnahme am ZEV (Abs. 3).
+- **Art. 16b EnV «Abrechnung der internen Kosten eines Zusammenschlusses»**: intern produzierte
+  Energie + interne Messung/Datenbereitstellung/Abrechnung + anteiliges internes Verteilnetz
+  (Abs. 1). **Hier** die beiden Preisbildungswege dieses Artikels: **Abs. 2** die 80 %-Pauschale,
+  **Abs. 3** die effektiven Kosten abzueglich Einspeiseerloes, gedeckelt auf den Vergleichswert bei
+  Nichtteilnahme, mit **Abs. 3 Bst. c** der «Haelfte der Differenz», wenn die effektiven Kosten
+  darunter liegen.
+- Beide Artikel wurden durch die EnV-Aenderung vom 20.11.2024 **eingefuegt**, in Kraft seit
+  **1.1.2025** (AS 2024 702) — die vorherige Fassung von Art. 16 EnV regelte den Gehalt nicht in
+  dieser Aufspaltung; die 80 %-Zahl selbst ist laut Erlaeuterndem Bericht («uebernimmt, redaktionell
+  leicht angepasst, den bisherigen Regelungsgehalt») **materiell unveraendert** aus der Vorgaenger-
+  fassung uebernommen worden, nur die Artikelnummerierung/-aufteilung ist neu.
+
 ## Was in den ZEV-Strompreis einfliessen darf
-- **Solarstrom-Produktionskosten** (Kapital-/Betriebskosten der PV-Anlage)
-- **Messtarife** (privater Smart Meter / Submetering)
-- **Dienstleistergebuehren** (Abrechnungs-/Vertreter-Dienstleister)
-- **Netznutzung** fuer den *zugekauften Netzstrom* — **1:1** an die Teilnehmer weitergegeben (kein Aufschlag)
-- Grenze: **alle Kostenpositionen zusammen** (inkl. Dienstleister) duerfen die genannte Obergrenze nicht ueberschreiten.
+- **Solarstrom-Produktionskosten** (Kapital-/Betriebskosten der PV-Anlage) — interne Kosten, Art. 16b
+- **Messtarife** (privater Smart Meter / Submetering) — interne Messung, Art. 16b Abs. 1 Bst. b
+- **Dienstleistergebuehren** (Abrechnungs-/Vertreter-Dienstleister) — interne Kosten, Art. 16b
+- **Netznutzung** fuer den *zugekauften Netzstrom* — externe Kosten (Art. 16a), verbrauchsabhaengig,
+  nur beim internen-Verteilnetz-Anteil auf den Nichtteilnahme-Vergleichswert gedeckelt (Art. 16a Abs. 3)
+- Grenze: **alle internen Kostenpositionen zusammen** (Art. 16b, inkl. Dienstleister) duerfen die
+  80 %-/Gestehungskosten-Obergrenze nicht ueberschreiten; die externen Kosten (Art. 16a) laufen
+  separat verbrauchsabhaengig.
 
 ## Mieterrechte (Mietrecht-Schnittstelle)
 - **Wahlrecht bei ZEV-Gruendung:** **bestehende** Mieter koennen dem ZEV-Beitritt fuer die laufende Mietdauer
@@ -54,9 +79,16 @@ verrechnet werden).
   ([[leg-lokale-elektrizitaetsgemeinschaft-2026]]).
 
 ## Offene Punkte
-- **Exakte EnV-Artikelnummer** der 80 %-/Halbteilungs-Regel (lokalerstrom.ch nennt EnV Art. 16a/16b; primaer
-  ist der **Leitfaden Eigenverbrauch** — Original-PDF noch nicht seitengenau destilliert).
-- **Zahlenbeispiel** (Rp/kWh) aus dem EnergieSchweiz-Excel als Rechen-Muster — projektbezogen ergaenzen.
+- **Exakte EnV-Artikelnummer — GESCHLOSSEN 24.08.2026** (E12-Restpunkt aus `wiki/QUESTIONS.md`):
+  Art. 16a/16b EnV primaerquellen-verifiziert (siehe «Rechtsgrundlage» oben), keine Diskrepanz zu
+  lokalerstrom.ch. Der begleitende Leitfaden Eigenverbrauch selbst bleibt weiterhin nicht
+  seitengenau destilliert (nur die verbindliche EnV + der Erlaeuternde Bericht).
+- **Zahlenbeispiel (Rp/kWh)** — im Erlaeuternden Bericht zur EnV-Aenderung (BFE, 34 Seiten,
+  vollstaendig durchsucht 24.08.2026) **nicht enthalten**; die dort vorkommenden Rp./kWh-Werte
+  betreffen ein anderes Thema (Herkunftsnachweis-Verguetung, nicht die ZEV-Mieterpreisregel). Ein
+  Zahlenbeispiel existiert nur im **EnergieSchweiz-Excel** «Berechnung der PV-Stromkosten im
+  Eigenverbrauch in einem ZEV» — bleibt projektbezogen zu rechnen, kein weiterer Primaerquellen-Weg
+  gefunden.
 
 **Backlinks:** ZEV/vZEV-Grundlagen [[zev-eigenverbrauch-mfh-her-2025]] · LEG (oeffentliches Netz)
 [[leg-lokale-elektrizitaetsgemeinschaft-2026]] · MFH-Eigenverbrauchswerte [[pv-ertrag-eigenverbrauch-praxis]] ·

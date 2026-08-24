@@ -1,3 +1,50 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: H41-3 geklärt, H41-4 Web-Sackgasse dokumentiert, L41-3 nachgezogen
+
+**Auftrag:** offene Fragen aus `wiki/QUESTIONS.md` abarbeiten (nicht der SIA-Sweep — anderer
+Auftragsstrang desselben Tages, siehe die Sättigungseinträge oben/unten). CHANGELOG- und
+QUESTIONS-Bestand zuerst gelesen, dann bei den zuletzt noch unbearbeiteten offenen Punkten aus
+Run 41 (Hindernisfreies Bauen, Lignatec) weitergemacht, da dort echte, nicht kostenpflichtige
+Lücken standen.
+
+- **H41-3 GESCHLOSSEN.** Die Adressüberschneidung BKZ-Bauberatung/Fachstelle an der Kernstrasse
+  57 (BKZ-Checkliste 2005) ist keine zufällige Ko-Lokation, sondern eine organisatorische
+  Beziehung: die BKZ betreibt die regionale Bauberatungsstelle Zürich im nationalen Netzwerk der
+  Fachstelle «Hindernisfreie Architektur» (bis 2017 «Schweizerische Fachstelle für
+  behindertengerechtes Bauen»), Trägerin ist die 1981 gegründete «Stiftung zur Förderung einer
+  behindertengerechten baulichen Umwelt». Belegt per WebFetch auf zwei Seiten von
+  `hindernisfreie-architektur.ch` (Bauberatungsstelle Zürich, Über-uns/Die Schweizer Fachstelle),
+  abgerufen 24.08.2026. **Nebenbefund mit Korrekturbedarf:** die im Destillat geführte Adresse
+  Kernstrasse 57, 8004 Zürich ist veraltet — beide Stellen firmieren heute unter Zollstrasse 115,
+  8005 Zürich. Korrektur direkt in `destillate/bkz-2005-checkliste-hindernisfrei-hochbau.md`
+  nachgetragen (Rule `identifikatoren-verifizieren`), Frage in `QUESTIONS.md` geschlossen.
+- **H41-4 — echte Sackgasse, dokumentiert, nicht geraten.** Vier gezielte Web-Anläufe (Websuche +
+  WebFetch auf drei Seiten von `hindernisfreie-architektur.ch`) fanden keine Konkordanztabelle,
+  die die historischen Merkblatt-Nummern «14/04»/«15/04» einem heutigen Titel zuordnet;
+  `web.archive.org` war für diese Session nicht abrufbar. Bleibt Bring-Schuld/Rückfrage
+  (`fachstelle@hindernisfreie-architektur.ch`) — fällt unter die Mail-Versand-Sperre, nicht
+  selbständig ausgelöst.
+- **L41-3 nachgezogen (kein neuer Fund).** War im Destillat `destillate/lignum-lignatec-
+  brandschutz.md` bereits als «GEKLÄRT 24.08.2026» dokumentiert (Grauton an Deckschicht/Stiel in
+  Tabelle 2 = Legendenfarbe «Baustoff brennbar», Pixelmessung), aber in `QUESTIONS.md` nie
+  nachgezogen. Eigene Gegenprüfung am lokalen OneDrive-Spiegel (`AR - 01 Projekte/2414 THALWIL/
+  06 Reglemente/_Archiv/11 Brandschutz/Lignatec/`, da die kanonische SharePoint-`PL -
+  02_Recht_Norm`-Bibliothek auf dieser Station nicht lokal gepinnt ist) bestätigt das Bild
+  unabhängig. Nur die QUESTIONS-Nachführung war der eigentliche Fund.
+- **Weiterhin offen, unverändert:** H41-2 (Mass der «erhöhten Anforderungen» Sonderbauten,
+  Fundstelle wäre SIA 500:2009 selbst, kostenpflichtig), L41-4, GVZ G41-1/G41-2, restliche
+  PAVIDENSA-Punkte (P41-3 bis P41-5) — nicht bearbeitet in diesem Lauf, da entweder Bring-Schuld
+  Raphael oder SharePoint-Zugriff nötig, der auf dieser Station nicht gemountet ist (`PL -
+  02_Recht_Norm` fehlt im lokalen OneDrive-Baum; nur Projektordner sind gepinnt, gemäss
+  On-Demand-Standard, Rule `auto-verbesserungen` 260814).
+- **Methodik-Hinweis:** M365-Graph-Connector (`connectors/m365-graph.mjs`) ist auf dieser
+  Station vorhanden, aber ohne Datei-Download-Hilfsfunktion für SharePoint-Drive-Items — für
+  die Originale, die nicht lokal gepinnt sind, wäre ein zusätzlicher Beschaffungsschritt
+  (Graph-`search`+`content`-Endpunkt) nötig gewesen, in diesem Lauf nicht gebaut.
+
+`git diff --numstat` nach jedem Schreiben geprüft (Rule `auto-verbesserungen` 260811): beide
+Dateien nur Additionen plus je einer ersetzten Zeile (die erweiterte Offen-Bullet-Zeile bzw. die
+Run-41-Kopfzeile), keine ungewollte Löschung.
+
 ## 2026-08-24 — SIA-Sweep-Fortsetzung (07:34 Uhr): zehnte unabhängige Sättigungsbestätigung, Kurzeintrag
 
 **Auftrag:** identisch zu den neun Vorläufen desselben Tages (letzter Eintrag 07:30 Uhr). Eigene

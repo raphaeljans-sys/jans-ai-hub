@@ -1441,7 +1441,8 @@ den Nettomietzins überwälzt werden. Rechnen mit dem **EnergieSchweiz-Excel** (
 
 **Quelle:** VSE «Handbuch Eigenverbrauchsregelung» HER-CH 2025 (verabschiedet 10.02.2025; Rechtsbasis EnG +
 revidierte EnV, Stand 01.01.2025) → `[[zev-eigenverbrauch-mfh-her-2025]]`; Mieter-Preisregel (EnergieSchweiz-
-Leitfaden Eigenverbrauch / lokalerstrom.ch, EnV Art. 16) → `[[zev-mieter-strompreis-eigenverbrauch]]`;
+Leitfaden Eigenverbrauch / lokalerstrom.ch, primärquellen-verifiziert 24.08.2026 EnV Art. 16b Abs. 2/3,
+in Kraft seit 1.1.2025) → `[[zev-mieter-strompreis-eigenverbrauch]]`;
 Eigenverbrauch technisch heben (WP/Lastmanagement) → F31 / `[[wp-pv-eigenverbrauch-lastmanagement]]`;
 MFH-Eigenverbrauchswerte F18 → `[[pv-ertrag-eigenverbrauch-praxis]]`; Themenartikel → `[[pv-eigenverbrauch-zev]]`;
 STWEG-Reglement → Skill `stockwerkeigentum`. ⚠ **Datenstand 2026-07-05:** vZEV/LEG mit dem Stromgesetz frisch —

@@ -5790,3 +5790,30 @@ Zeilen, keine fremde Löschung.
 **Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid) Raphael vorlegen; bis dahin an
 anderen, tatsächlich noch offenen `- [ ]`/`- [~]`-Punkten weiterarbeiten (E-R132-4-Nachfolge,
 E-WC32-1 als Methodendisziplin sofort anwendbar).
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — E12-Restpunkt geschlossen: EnV Art. 16a/16b für die ZEV-Mieterpreisregel primärquellen-verifiziert
+
+- [x] **E12-Restpunkt («exakte EnV-Artikelnummer der 80 %-/Halbteilungs-Regel») — GESCHLOSSEN
+  24.08.2026.** Bisher nur über die Sekundärquelle lokalerstrom.ch als «EnV Art. 16a/16b» vermutet
+  (`destillate/zev-mieter-strompreis-eigenverbrauch.md`, seit 2026-07-05 offen). Energieverordnung
+  (SR 730.01, ELI `2017/763`) über `fedlex.data.admin.ch` (Konsolidierung 1.1.2026, 752'919 Byte
+  PDF, HTTP/Content-Type vor Auswertung verifiziert) vollständig mit PyPDF2 gelesen, dazu der
+  Erläuternde Bericht des BFE zur EnV-Änderung (`pubdb.bfe.admin.ch/de/publication/download/11639`,
+  34 S.) gezielt durchsucht. **Ergebnis: die Vermutung stimmt, jetzt mit exakter Absatz-Zuordnung**
+  — Art. 16a EnV regelt die externen Kosten (verbrauchsabhängig, keine 80 %-Deckelung ausser beim
+  internen-Verteilnetz-Anteil, Abs. 3); Art. 16b EnV trägt die eigentliche Preisregel (Abs. 2 die
+  80 %-Pauschale, Abs. 3 die effektiven Kosten mit der «Hälfte der Differenz» in Bst. c). Beide
+  Artikel erst durch die EnV-Änderung vom 20.11.2024 eingefügt, in Kraft seit 1.1.2025 (AS 2024
+  702); die 80 %-Zahl selbst laut Erläuterndem Bericht materiell unverändert aus der
+  Vorgängerfassung übernommen. **Kein Zahlenbeispiel im Erläuternden Bericht gefunden** (die dort
+  vorkommenden Rp./kWh-Werte betreffen die Herkunftsnachweis-Vergütung, ein anderes Thema) — das
+  im Destillat bereits als «projektbezogen ergänzen» offen gelassene Excel-Zahlenbeispiel bleibt
+  so offen, jetzt aber als geprüfte statt vermutete Aussage. Eingearbeitet in
+  `destillate/zev-mieter-strompreis-eigenverbrauch.md` (neuer Abschnitt «Rechtsgrundlage»,
+  Frontmatter, Offene-Punkte-Abschnitt), `wiki/pv-eigenverbrauch-zev.md`, `wiki/BAUHERREN-FAQ.md`
+  F32-Quellenzeile, `destillate/INDEX.md`. Beleg: `git diff --numstat` nach jedem Schreibvorgang
+  geprüft, durchgehend additiv/präzisierend, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** E-R230-2 (Konsolidierungsentscheid ecoBKP) bleibt Raphael vorzulegen;
+E-R132-4-Nachfolge und E-WC32-1 (Methodendisziplin) weiterhin die nächsten ohne Raphaels Entscheid
+bearbeitbaren Punkte.
