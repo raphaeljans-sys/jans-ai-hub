@@ -5107,6 +5107,20 @@ aus der Recht-KB hier angekommen.
 > Cross-KB-Lücke mehr. **SN 641 400** bleibt ungeprüft: derselbe URL-Pfad (`.../product/641400`)
 > liefert HTTP 404, kein Ersatzpfad gefunden — weiterhin externe Bring-Schuld.
 >
+> **Dritte unabhängige Negativ-Bestätigung (24.08.2026, QUESTIONS-Abarbeitung):** erneut versucht,
+> den Nachfolger für SN 640 052 frei (ohne Kauf) zu ermitteln — drei unabhängige Wege, alle ohne
+> Ergebnis: (1) WebSearch «VSS Norm Wendeanlagen Nachfolgenorm SN 640 052 ausser Kraft» liefert
+> keinen Treffer mit Nachfolgeangabe; (2) `vssg.ch/public/upload/assets/437/190219_VSS_Normuebearbeitung_NFK.pdf`
+> (Revisionsliste vom 19.02.2019, zeitlich passend zur «VSS-Strukturanpassung März 2019») betrifft
+> nachweislich nur die Normengruppe «Grünräume, Fauna und Umweltbegleitung» (640 6xx/7xx), nicht
+> den Entwurfsbereich mit 640 052 — falsche Teilliste, keine Fehlermeldung; (3) die offizielle
+> Shop-Produktseite `mobilityplatform.ch/de/vss-shop/product/640052` selbst (WebFetch, Abruf
+> 24.08.2026) führt **kein** Nachfolger-/Ersatznorm-Feld, nur den Status «Ausser Kraft,
+> 01.01.1977 bis 31.03.2019». Damit ist die Sachfrage nach drei unabhängigen Läufen (23.08. und
+> zweimal 24.08., je andere Methode) durchgängig ergebnislos — die Einstufung als kostenpflichtige
+> VSS-Bring-Schuld ist bestätigt, ein weiterer kostenloser Versuch ist nicht sinnvoll, ausser eine
+> neue Quelle wird konkret benannt.
+>
 > **Weiterer Anlauf 23.08.2026 (QUESTIONS-Abarbeitung 19), Ergebnis weiterhin negativ, aber neuer
 > Befund.** (1) `mobilityplatform.ch/de/vss-shop/product/641400` erneut mit HTTP 404 bestätigt
 > (`curl -L`, Endziel `www.mobilityplatform.ch`); auch die Varianten `641-400` und `00641400`

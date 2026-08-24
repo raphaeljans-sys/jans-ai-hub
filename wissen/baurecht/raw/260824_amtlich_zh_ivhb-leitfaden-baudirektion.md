@@ -18,12 +18,16 @@ charakter: >
   Fassungsstand-Umkehr Alt/Anhang → Hauptteil-PBG, die diese KB an vielen Stellen
   dokumentiert (vgl. [[abstaende-und-hoehen]], [[geschosse-und-kniestock]]).
 hinweis: >
-  Ausschnitt (nicht alle 49 Seiten) — nur die Passagen zu Unterniveaubauten/
-  unterirdischen Bauten, Fassadenflucht/-linie/projizierter Fassadenlinie,
-  Untergeschossen und den drei Nutzungsziffern (ÜZ/Grünflächenziffer/Wintergärten),
-  bezogen zur Klärung der needs-verification-Frage «Unterniveaubauten neu bei der
-  Überbauungsziffer angerechnet?» (Buch-Run 55, [[nutzungsziffern]]). Bei Bedarf
-  vollständig nachbeziehen (Inhaltsverzeichnis mit allen 20 IVHB-Ziffern unten).
+  Ausschnitt (nicht alle 49 Seiten) — Passagen zu Unterniveaubauten/unterirdischen
+  Bauten, Fassadenflucht/-linie/projizierter Fassadenlinie, Kniestockhöhe/
+  Voll-/Dach-/Untergeschossen und den drei Nutzungsziffern (ÜZ/Grünflächenziffer/
+  Wintergärten). Ursprünglich bezogen zur Klärung der needs-verification-Frage
+  «Unterniveaubauten neu bei der Überbauungsziffer angerechnet?» (Buch-Run 55,
+  [[nutzungsziffern]]); am 24.08.2026 (Buch-Run 133) um die Seiten 27/29/32-33
+  (Kniestockhöhe/Vollgeschoss/Dachgeschosse, IVHB Ziff. 5.3/6.1/6.3) ergänzt zur
+  Klärung zweier `speculative`-Fragen in [[geschosse-und-kniestock]] (Messweise-
+  Übertragbarkeit auf die harmonisierte Fassung). Bei Bedarf vollständig nachbeziehen
+  (Inhaltsverzeichnis mit allen 20 IVHB-Ziffern unten).
 ---
 
 # Harmonisierung der Baubegriffe — Leitfaden der Baudirektion Kanton Zürich (Auszug)
@@ -98,6 +102,59 @@ der Gebäudelänge und -breite massgebend. Die auf die Ebene der amtlichen Verme
 projizierte Fassadenlinie dient als Hilfsgrösse für die Bestimmung der Abstände
 (Grenz-, Gebäude- und Baulinienabstand), der Gebäudelänge, Gebäudebreite sowie der
 Überbauungsziffer.»
+
+## S. 27 — Kniestockhöhe (IVHB Ziff. 5.3, § 275 Abs. 5 PBG)
+
+> § 275 PBG: «5 Die Kniestockhöhe ist der Höhenunterschied zwischen der Oberkante des
+> Dachgeschossbodens im Rohbau und der Schnittlinie der Fassadenflucht mit der Oberkante
+> der Dachkonstruktion.»
+
+**Was ändert sich?** «Bisher wurde die Kniestockhöhe 0,4 m hinter der Fassade ab dem
+fertigen Dachgeschossboden bis zur Unterkante der Dachverkleidung (Fertigmass) gemessen
+(vgl. die Skizzen im Anhang zur ABV in der bisherigen Fassung). Gemäss neuer Regelung
+bemisst sich die Kniestockhöhe von der Oberkante des Dachgeschossbodens im Rohbau bis
+zur Schnittlinie der Fassadenflucht mit der Oberkante der Dachkonstruktion.»
+
+**Erläuterungen:** «Die Messweise der Kniestockhöhe ergab sich bisher aus § 275 Abs. 2
+PBG. Sie ist eine Hilfsgrösse, die dazu dient, Dachgeschosse von Vollgeschossen zu
+unterscheiden. Der obere Messpunkt liegt auf der Schnittlinie zwischen der
+Fassadenflucht und der Oberkante der Dachkonstruktion. Die Dachkonstruktion ist im
+bautechnischen Sinn das Traggerüst, also das Dachtragwerk. **Darüber liegen (meist)
+eine Isolation und eine Dachhaut samt Unterkonstruktion** (z.B. Lattung,
+Konterlattung). Der untere Messpunkt liegt auf Höhe der Oberkante der rohen
+Tragkonstruktion des Dachgeschossbodens (z.B. auf Höhe der Oberkante einer Balkenlage
+oder eines Betonbodens) **ohne allfällige Isolationen und Unterlagsböden**.»
+
+## S. 29 — Vollgeschosse (IVHB Ziff. 6.1, § 275 Abs. 1 PBG)
+
+> § 275 PBG: «1 Vollgeschosse sind alle Geschosse von Gebäuden ausser Unter-, Dach- und
+> Attikageschosse. Bei zusammengebauten Gebäuden und bei Gebäuden, die in der Höhe oder
+> in der Situation gestaffelt sind, wird die Vollgeschosszahl für jeden Gebäudeteil bzw.
+> für jedes Gebäude separat ermittelt.»
+
+**Was ändert sich?** «-» (keine gesonderte Erläuterung; reine Ausschlussdefinition,
+siehe Fliesstext des Leitfadens).
+
+## S. 32-33 — Dachgeschosse (IVHB Ziff. 6.3, § 275 Abs. 2 PBG)
+
+> § 275 PBG: «2 Dachgeschosse sind Geschosse mit einer Kniestockhöhe bis 1,5 m.»
+
+**Was ändert sich?** «Für Dachgeschosse gilt neu eine einheitliche Kniestockhöhe von
+höchstens 1,5 m. Bisher betrug die Kniestockhöhe 0,9 m bzw. 1,3 m bei vor dem 1. Juli
+1978 bewilligten Gebäuden. Die bisherige Praxis, wonach besondere Dachformen, wie z.B.
+(Mansarden-)Walm- und Tonnendächer, unterhalb einer bestimmten Dachprofillinie (im
+Winkel von 45° ab Schnittpunkt Dachfläche - Fassade) liegen mussten, ist nicht
+IVHB-konform. Solche Dächer sind neu (unter Einhaltung der Kniestockhöhe) zulässig,
+sofern die Gemeinden sie nicht im Rahmen von Dachgestaltungsvorschriften (§ 49 Abs. 2
+lit. d PBG) verbieten.»
+
+**Erläuterungen:** «Wird das zulässige Mass der Kniestockhöhe überschritten, handelt es
+sich nicht um ein Dachgeschoss, sondern um ein Vollgeschoss. Ein Kniestock (oder eine
+Kniestockwand) setzt eine entsprechende Dachkonstruktion voraus. Eine beschränkte
+Kniestockhöhe bedeutet jedoch nicht, dass das Dach bezüglich seiner optischen
+Erscheinung eingeschränkt ist. Das kommunale Recht kann deshalb bei Bedarf die
+Abmessungen und Erscheinungsform der Dächer mit Gestaltungsvorschriften regeln, etwa
+durch Beschränkung der Dachneigung.»
 
 ## S. 30 — Untergeschosse (IVHB Ziff. 6.2, § 275 Abs. 3 PBG / § 29 ABV)
 

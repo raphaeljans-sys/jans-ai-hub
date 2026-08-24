@@ -1,3 +1,49 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: SN 640 052 Nachfolgenorm dritte unabhängige Negativ-Bestätigung
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (Eintrag
+unmittelbar darunter, 33045.d) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** drei Hintergrundprozesse. PID 27689
+(identischer Auftragstext, identische `--max-budget-usd 25`, Startzeit 8:18) ist der eigene
+hostende Prozess dieser Session — kein Konkurrent. PID 27214 arbeitet an `wissen/energie`, PID
+27493 an `wissen/baurecht` (Thalwil-Reglemente) — beide keine Berührung mit `wissen/normen`.
+Kein weiterer Prozess an dieser KB aktiv — anders als der Vorlauf (dort PID 26241 real-parallel),
+deshalb in diesem Lauf auch `wiki/REGISTER.md` und `destillate/` grundsätzlich änderbar gewesen
+(hier nicht nötig, keine neue Norm destilliert).
+
+**Vorgehen:** `grep` auf offene Marker in `wiki/QUESTIONS.md` findet aktuell 28 Fundstellen
+(gegenüber 33 im Vorlauf — fünf sind seither geschlossen worden). Stichprobe von vier nicht
+zuletzt einzeln geprüften Zeilen (2003-15/VKF, lignum-lignatec, SIA-382/1-Anhänge, Kalk-Nachfolger
+zu SIA 215) zeigt: drei davon sind bereits weiter unten im selben Dokument als geschlossen
+nachgetragen (reine stehen gebliebene Vorwärtsreferenz, kein Handlungsbedarf), die vierte
+(Kalk/SN EN 459-1) ist eine unveränderte, korrekt klassifizierte Bring-Schuld Raphael/Fachplaner.
+
+**Echte Recherche — SN 640 052 «Wendeanlagen» Nachfolgenorm (Z. 5095, Cross-KB-Bringschuld an
+`baurecht`, dort bereits geschlossen; die Sachfrage selbst blieb offen):** drei unabhängige,
+kostenlose Wege erneut versucht, alle ohne Ergebnis. (1) WebSearch nach «VSS Norm Wendeanlagen
+Nachfolgenorm SN 640 052 ausser Kraft» — kein Treffer mit Nachfolgeangabe. (2) Die vom
+WebSearch-Ergebnis nahegelegte VSS-Revisionsliste vom 19.02.2019
+(`vssg.ch/public/upload/assets/437/190219_VSS_Normuebearbeitung_NFK.pdf`, Datum passend zur
+«VSS-Strukturanpassung März 2019») per WebFetch geladen und mit `pdftotext -layout` gegengelesen
+— sie betrifft ausschliesslich die Normengruppe «Grünräume, Fauna und Umweltbegleitung»
+(640 6xx/7xx), nicht den Entwurfsbereich mit 640 052. Falsche Teilliste, kein Fund. (3) Die
+offizielle Shop-Produktseite `mobilityplatform.ch/de/vss-shop/product/640052` selbst per WebFetch
+abgerufen — führt kein Nachfolger-/Ersatznorm-Feld, nur Status «Ausser Kraft, 01.01.1977 bis
+31.03.2019». Ergebnis in `wiki/QUESTIONS.md` bei der bestehenden Zeile nachgetragen (additiv, kein
+Wortlaut entfernt).
+
+**Einordnung:** dritte unabhängige Bestätigung derselben Sackgasse (23.08. + zweimal 24.08., je
+andere Methode) — die Einstufung als kostenpflichtige VSS-Bring-Schuld ist damit belastbar, kein
+weiterer kostenloser Versuch angezeigt, ausser eine neue Quelle wird konkret benannt. Kein
+Fachbefund im established-Sinn, aber ein dokumentierter Aufwandsschutz für künftige Läufe (spart
+drei wiederholte Web-Anfragen).
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` 14/0 (reiner additiver Nachtrag).
+`wiki/REGISTER.md` und `destillate/` unverändert.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: veralteter «offen»-Vermerk zu 33045.d zurückverlinkt (kein neuer Fachbefund)
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit

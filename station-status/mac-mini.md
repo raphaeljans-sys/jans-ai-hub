@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 08:07:11
+Stand: 24.08.2026 08:17:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:04)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 08:07:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6cca66cc baurecht: Buch-Run 131 - Modell-D-Wortlautabgleich grundlagen-planungs-baurecht (10/10 CONFIRMED, Art. 26/27 BV + Art. 1-10 ZGB nachgetragen)
+- 45fc12a2 normen KB: QUESTIONS-Abarbeitung 24.08. - veralteter Offen-Vermerk zu 33045.d zurueckverlinkt, CHANGELOG nachgetragen
