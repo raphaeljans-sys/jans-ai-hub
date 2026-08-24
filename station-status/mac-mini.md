@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 03:08:47
+Stand: 24.08.2026 03:19:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:39)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 03:08:47
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 749c25ea wissen/projekt-lessons: CHANGELOG dreizehnte Fortsetzung buero-projekte, Korpus weiterhin abgeschlossen
+- 5e640552 nas-selfcommit: 2 Datei(en) 2026-08-24 03:15

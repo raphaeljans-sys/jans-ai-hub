@@ -4684,3 +4684,64 @@ die KB widerspricht sich selbst.
   die offene Frage ist, ob dieses Alter auch in der FAQ/den Themenartikeln ankommt, die daraus
   zitieren — das ist die grossflaechige Registerarbeit, die 03.16 bereits als eigenen Lauf
   benennt, kein Einzeleinsatz.
+
+- [x] **03.16, erste echte Teilabarbeitung (24.08.2026, interaktive Session): der «eigene Lauf»
+  ist jetzt begonnen, nicht nur wieder verschoben.** Drei der vier benannten Baustellen bearbeitet:
+  **(a) 11 unregistrierte Destillate registriert** — `asbest-dimension-jenseits-spritzasbest`,
+  `eco-bau-pflanzen-am-bau`, `elektrosmog-informationsblatt-ahb-ewz`,
+  `en-1b-hoechstanteil-berechnungsbeispiel`, `energ-bbv1-waermebedarf-rechtsgrundlagen-zh`,
+  `energiequelle-erdsonden-potentialabklaerung-zh-innenstadt`,
+  `haushaltgeraete-professionelle-beschaffung-stadt-zh`, `kbob-bodenbelaege-buerobau-50-jahre`,
+  `kbob-pcb-fugendichtungsmassen-2004-4`, `minergie-me-antrag-nachweisformular-kommentiert`,
+  `vollzugsordner-energie-zh-abschnitt3-en1` — alle mit Status/Datenstand aus dem eigenen
+  Frontmatter in `destillate/INDEX.md` nachgetragen (Frontmatter je Datei zuerst gelesen, keine
+  Angabe geraten). **Dabei zwei echte Dubletten gefunden und im Registereintrag benannt (nicht
+  gemerged — destruktive Aktion braucht Rueckfrage, Rule `wissens-bibliothekar`):**
+  `eco-bau-pflanzen-am-bau` zitiert dieselbe PL-02-Datei `5.26PflanzenamBau.pdf` wie das bereits
+  registrierte `[[pflanzen-am-bau-projektierungsgrundlagen-zh]]`; `kbob-bodenbelaege-buerobau-
+  50-jahre` zitiert dieselbe PL-02-Datei `3.27.I Bodenbelaege(KBOB2000_1).pdf` wie das bereits
+  registrierte `[[bodenbelaege-buerobau-kbob-vergleich-50-jahre]]` — beide Male am `quelle`-Feld
+  wortgleich verifiziert, nicht nur vom Dateinamen vermutet.
+  **(b) Der verwaiste Vollzugsordner-Zwilling (A-P2 02.16) tatsaechlich geschlossen, nicht nur
+  im Frontmatter angekuendigt:** `vollzugsordner-energie-zh-abschnitt3-en1.md` trug seit dem
+  fruehen 24.08.-Lauf ein `last_updated`-Feld, das einen «Warnblock unten» versprach — im Artikel
+  selbst stand keiner. Jetzt nachgetragen: ein Abschnitt «Verhaeltnis zum Zwilling», der erklaert,
+  dass beide Dateien denselben Seitenbereich derselben Quelle unabhaengig destilliert haben und
+  sich ergaenzen statt duplizieren (diese Datei traegt den vollstaendigen Fliesstext, der
+  registrierte Zwilling die WDV-2022-Vergleichstabelle).
+  **(c) Drei Statuswerte ausserhalb der Skala normiert** (Skala laut `wissen/WISSEN-CLAUDE.md`:
+  `emerging | established | speculative`, plus die energie-KB-lokale Erweiterung `superseded`):
+  `g-werte-verglasungstypen-ch.md` (`needs-verification` → `speculative`, da Werte aus einer
+  WebSearch-Zusammenfassung stammen, nicht aus eigenem Volltext-Lesen),
+  `energierichtplan-freienbach-econcept.md` (`teilverifiziert — …` → `established`, weil das
+  tatsaechlich zitierte Nachfolgedokument vollstaendig im Volltext gelesen ist; der Negativbefund
+  zum econcept-Original von 2013 bleibt im Artikeltext unveraendert stehen),
+  `swki-va106-vernehmlassung-zugangsversuch.md` (Freitext-Negativbefund → `established`, analog
+  zur KB-Konvention fuer mehrfach reproduzierte Negativbefunde; der volle Wortlaut des
+  Rechercheergebnisses bleibt im Artikeltext, nichts davon ging beim Normieren verloren — vor dem
+  Schreiben geprueft, dass der Freitext im Body bereits vollstaendig vorkommt).
+  **(d) Die tote-Links-Zahl «rund 20» gegengeprueft, nicht einfach uebernommen:** ein eigener
+  Scan (`[[…]]`-Ziele in `destillate/` + `wiki/` gegen vorhandene Dateinamen) fand 21 Treffer.
+  Bei genauer Pruefung sind das **keine 21 neuen offenen Fehler**: 4 sind FAQ-interne
+  Fragenanchors (`[[F16]]`/`[[F71]]`/`[[F77]]`/`[[F245]]`, kein Dateiziel gemeint), 2 sind
+  historische Zeilen in diesem Dokument (E67/2026-07-14, «Neues Thema…»/2026-07-25 — beide vor
+  dem Merge vom 26.07.2026 datiert, bewusst unveraendert nach KB-Konvention), 8 sind legitime
+  Cross-KB-Links auf existierende Artikel der **KB `normen`** (`sia-271-2007`, `sia-312-2013`,
+  `sia-2040-2017`, `sia-416-1-2007`, `sia-416-2003`, `sia-mb-2024-2006`,
+  `vkf-brl-26-15-gefaehrliche-stoffe`, `vkf-teilrevision-2026-pyrotechnik` — alle in
+  `wissen/normen/destillate/` gefunden und verifiziert, mein erster Scan pruefte faelschlich nur
+  gegen die energie-KB selbst). Die verbleibenden **6 sind bereits identisch im
+  Backlink-Hygiene-Register (Run 123, 04.08.2026, weiter oben in diesem Dokument) erfasst** —
+  `behoerden-vorabklaerung`, `abstaende-und-hoehen`, `healthcare-energie`,
+  `energie-baueingabe-zusatzformulare`, `recht-norm-regenwasser-gewaesserraum-zh`,
+  `u-wert-berechnung-bauteilekatalog-neubauten` — kein neuer Fund, aber jetzt mit einem
+  unabhaengigen zweiten Scan (24.08.2026) bestaetigt, dass seither keine weiteren dazugekommen
+  sind. **Ergebnis: die tote-Links-Baustelle aus 03.16 ist bereits vollstaendig erfasst, nicht
+  mehr offen als Suchproblem** — offen bleibt nur, die 6 im Register stehenden Ziele inhaltlich
+  zu beheben (Skill-Nennung statt Artikel-Link, Cross-KB-Praefix, oder neues Destillat), das ist
+  inhaltliche Artikelarbeit, kein Registerscan mehr.
+  **Weiterhin offen aus 03.16:** die 31 Themenartikel ohne `datenstand`-Feld und die rund 30
+  Alterskorpus-Destillate (A-WERKZEUG) — bewusst nicht in diesem Lauf angefasst, das ist
+  weiterhin die grossflaechige Nachruestung, die einen eigenen Lauf braucht.
+  Beleg: `git diff --numstat` nach jedem Schreibvorgang geprueft, siehe CHANGELOG-Eintrag
+  24.08.2026 «Registerpflege».

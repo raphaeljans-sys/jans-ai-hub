@@ -464,6 +464,22 @@ dem Run-107-Eintrag (dieser bleibt unverändert stehen). Report `outputs/2026-08
 kein Fachpunkt mehr aus der Thalwil-Queue oder ihren Nachträgen offen; frei für den regulären
 Health-Check-Turnus, eine zweite Re-Verifikationsrunde, oder eine neue Lücke aus `QUESTIONS.md`.
 
+**Run 109 (2026-08-24, ausserhalb T1-T9):** `wiki/QUESTIONS.md` systematisch nach Run-108-Option 4
+gesichtet (analog Run 105). Der Block «2026-07-08, aus Buch-Run 23: Kap. 4 Natur-/Heimatschutz»
+führte drei `needs-verification`-Flags (KNHV-Paragraphen §§ 2a/4/6/7/8/9/10/12/13-32; PBG-Paragraphen
+§§ 203-217/50/76/238/338b + Bundesrecht Art. 78 BV/NHG/Art. 17 RPG; VRG-Paragraphen Kap. 9 Teil 2
++ § 338/339 PBG), die inhaltlich bereits durch die Läufe 31/33/39/44/61/64/99/102 geschlossen waren
+— nie als erledigt nachgetragen. Geprüft und bestätigt: KNHV §§ 10/12 CONFIRMED gegen
+`raw/260714_amtlich_zh_knhv.md` (Run 61); alle genannten PBG-Paragraphen CONFIRMED gegen
+`raw/260607_amtlich_zh_pbg.md`; die Bundesrechts-Zitate (Art. 78 Abs. 1 BV, neun NHG-Artikel,
+Art. 17 RPG) CONFIRMED gegen frische fedlex-Volltexte (Run 99); VRG-Paragraphen inkl. Fassungsstand
+§ 26b/§ 339 PBG und die Gerichtsgebühr-Bandbreite Fr. 500-50'000 (§ 338 Abs. 2 PBG) CONFIRMED
+(Run 44/64/102). Alle drei Flags in `wiki/QUESTIONS.md` mit Fundstellenverweis geschlossen — reine
+Bookkeeping-Pflege, kein neuer Fachbefund. Report `outputs/2026-08-24_buch-run109.md`. **Nächster
+Schritt:** kein Fachpunkt mehr aus der Thalwil-Queue oder ihren bisher gesichteten Nachträgen offen;
+ältere `QUESTIONS.md`-Blöcke (ab ca. Zeile 2000, Kap. 7/8/12/16 T2/T3) sind noch nicht auf denselben
+Stale-Flag-Befund geprüft, sonst regulärer Health-Check-Turnus oder zweite Re-Verifikationsrunde.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

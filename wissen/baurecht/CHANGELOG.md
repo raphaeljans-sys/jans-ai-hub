@@ -3,6 +3,48 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 109: drei veraltete needs-verification-Flags in QUESTIONS.md geschlossen (Bookkeeping, kein neuer Fachbefund)
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterführen» (Batches T1-T8/T9).
+  CHANGELOG und `outputs/2026-08-24_buch-run108.md` gelesen: Queue T1-T9 und ihre Nachträge
+  (Run 104-108) sowie die Bundesrechts-Re-Verifikationskette (Run 90-103) sind laut eigenen
+  Abschlussvermerken vollständig. Run 108 nennt als Option 4 «`QUESTIONS.md` nach weiteren
+  offenen Punkten sichten» — analog zu Run 105 (der dasselbe Muster bereits dreimal fand).
+- **Fund:** Der Block «Offene Wissenslücken / needs-verification — neu (2026-07-08, aus
+  Buch-Run 23: Kap. 4 Natur-/Heimatschutz)» führte drei `needs-verification`-Flags, die
+  inhaltlich längst durch spätere Läufe geschlossen waren, aber nie als erledigt
+  nachgetragen wurden — dieselbe Lücken-Familie wie Run 105 (fehlende Schliessungs-
+  Nachträge trotz erledigter Sache).
+- **Geprüft und bestätigt (keine neue Quelle nötig, nur Gegenlesen des bestehenden
+  `verifiziert`-Felds in [[naturschutz-und-denkmalschutz]] und [[rechtsschutz-und-
+  rechtsmittelverfahren]]):**
+  1. KNHV-Paragraphen §§ 2a/4/6/7/8/9/10/12/13-32: `raw/260714_amtlich_zh_knhv.md`
+     (Nachtrag 130) seit Buch-Run 39 (14.07.2026) in der KB; §§ 10/12 KNHV zuletzt in
+     Buch-Run 61 (27.07.2026) CONFIRMED gegen den Volltext, 0 Korrekturen.
+  2. §§ 203/205/207/209/210/211/213/216/217 PBG + § 50/§ 76/§ 238/§ 338b PBG: alle
+     wortlautgeprüft gegen `raw/260607_amtlich_zh_pbg.md` (Buch-Run 31/33, vollständig
+     bestätigt Run 61). Die Bundesrechts-Zitate Art. 78 Abs. 1 BV, Art. 2/3/5/7/8/13/17/
+     17a/25 NHG und Art. 17 RPG wurden erstmals in Buch-Run 99 (23.08.2026, Modell-D-
+     Re-Verifikationskette) gegen frische fedlex-Volltexte geprüft — CONFIRMED wortgleich,
+     0 Korrekturen.
+  3. VRG-Paragraphen Kap. 9 Teil 2 (§ 25/§ 26b/§ 86a-d/§ 87/§ 89 VRG + § 338/§ 339 PBG):
+     CONFIRMED in Buch-Run 44 (14.07.2026); Fassungsstand § 26b VRG (in Kraft seit
+     1.10.2016) und § 339 PBG (in Kraft seit 1.7.2014) unverändert bestätigt, zuletzt
+     Nachtrag-133-Check Buch-Run 64 (27.07.2026); die Gerichtsgebühr-Bandbreite
+     Fr. 500-50'000 steht wortwörtlich in § 338 Abs. 2 PBG (CONFIRMED, Buch-Run 46).
+- **In die KB eingearbeitet:** `wiki/QUESTIONS.md` — alle drei Flags durchgestrichen und mit
+  Fundstellenverweis auf die tragenden Runs als erledigt markiert, gleiche Nachtrags-Optik
+  wie bei Run 105. **Kein Wiki-Artikel geändert** (keine neue Erkenntnis, nur Schliessung
+  einer bereits gelösten, aber unbereinigten Frage). `training/KORPUS-QUEUE-thalwil-
+  reglemente.md` (Run-109-Absatz nach Run 108) und `training/PROGRAMM.md`
+  (Tracker-Eintrag) nachgeführt.
+- **Nächster Schritt:** kein Fachpunkt mehr aus der Thalwil-Queue oder ihren bisher
+  gesichteten Nachträgen offen. Ältere `QUESTIONS.md`-Blöcke (ab ca. Zeile 2000, Kap. 7/8/
+  12/16 Teil 2/3) sind noch nicht auf denselben Stale-Flag-Befund geprüft — Kandidat für
+  einen künftigen Lauf. Sonst regulärer Health-Check-Turnus oder eine zweite
+  Re-Verifikationsrunde.
+- Report `outputs/2026-08-24_buch-run109.md`.
+
 ## 2026-08-24 — Buch-Run 108: «zaegig» in `bauausfuehrung-und-baukontrolle.md` war ein Digitalisierungs-Artefakt, VB.2014.00026 volltextverifiziert
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterführen» (Batches T1-T8/T9).

@@ -1961,18 +1961,32 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   [[04-natur-und-heimatschutz]] (S. 268-309). **Speist [[ausnahmebewilligung-und-bestandesschutz]] /
   [[bestandsumbau-eingriffstiefe]] / [[enteignung-und-entschaedigung]] und die Skills `ankaufspruefung`/
   `machbarkeit`/`planungsgrundlagen`.**
-- **needs-verification — KNHV-Paragraphen (§§ 2a/4/6/7/8/9/10/12/13-32 KNHV):** aus dem Reader-Fliesstext
+- ~~**needs-verification — KNHV-Paragraphen (§§ 2a/4/6/7/8/9/10/12/13-32 KNHV):** aus dem Reader-Fliesstext
   belegt, aber die Kantonale Natur- und Heimatschutzverordnung ist nicht als amtlicher Volltext in raw/ —
-  vor Kundenzitat am LS-Erlass (KNHV) gegenprüfen.
-- **needs-verification — §§ 203/205/207/209/210/211/213/216/217 PBG + § 50/§ 76/§ 238/§ 338b PBG:** im
+  vor Kundenzitat am LS-Erlass (KNHV) gegenprüfen.~~ → **erledigt, nachgetragen 2026-08-24 (Buch-Run 109,
+  Fund beim Sichten dieser Datei — bereits durch frühere Läufe beantwortet, hier nur die Schliessung
+  nachgeführt).** `raw/260714_amtlich_zh_knhv.md` (Nachtrag 130) liegt seit Buch-Run 39 (14.07.2026) in
+  der KB; §§ 10/12 KNHV wortlautgeprüft in [[naturschutz-und-denkmalschutz]] (zuletzt Stichproben-
+  Re-Verifikation Buch-Run 61, 27.07.2026, CONFIRMED, 0 Korrekturen).
+- ~~**needs-verification — §§ 203/205/207/209/210/211/213/216/217 PBG + § 50/§ 76/§ 238/§ 338b PBG:** im
   Destillat [[04-natur-und-heimatschutz]] sinngemäss nach Buch S. 268-309; am amtlichen PBG-Volltext (raw/)
-  gegenprüfen (Modell D nächster Lauf). Ebenso Art. 78 BV / Art. 2/3/5/7/8/13/17a/25 NHG am Fedlex-Volltext.
+  gegenprüfen (Modell D nächster Lauf). Ebenso Art. 78 BV / Art. 2/3/5/7/8/13/17a/25 NHG am Fedlex-Volltext.~~
+  → **erledigt, nachgetragen 2026-08-24 (Buch-Run 109).** Alle genannten PBG-Paragraphen wortlautgeprüft
+  gegen `raw/260607_amtlich_zh_pbg.md` (Buch-Run 31/33, zuletzt vollständig Run 61 CONFIRMED). Die
+  Bundesrechts-Zitate (Art. 78 Abs. 1 BV, Art. 2/3/5/7/8/13/17/17a/25 NHG, Art. 17 RPG) wurden erstmals in
+  der Modell-D-Re-Verifikationskette gegen frische fedlex-Volltexte geprüft (Buch-Run 99, 23.08.2026) —
+  CONFIRMED wortgleich, 0 Korrekturen. Siehe `verifiziert`-Feld [[naturschutz-und-denkmalschutz]].
 - **Materielle Enteignung bei Unterschutzstellung:** nur querverwiesen (Buch S. 322) — vertieft in
   [[enteignung-und-entschaedigung]] (Kap. 5, 5.3). Kein Doppelaufbau, Verknüpfung ok.
-- **needs-verification — VRG-Paragraphen Kap. 9 Teil 2 (§ 25/§ 26b/§ 86a-d/§ 87/§ 89 VRG + § 338/§ 339
+- ~~**needs-verification — VRG-Paragraphen Kap. 9 Teil 2 (§ 25/§ 26b/§ 86a-d/§ 87/§ 89 VRG + § 338/§ 339
   PBG):** aus den Screenshots belegt, aber Fassungsstände (§ 26b in Kraft 1.10.2016; § 339 PBG in Kraft
   1.7.2014) und Gerichtsgebühr-Bandbreite (500-50'000 Fr.) am amtlichen VRG-/PBG-Volltext (raw/)
-  gegenprüfen, bevor sie in Kundenberatung zitiert werden.
+  gegenprüfen, bevor sie in Kundenberatung zitiert werden.~~ → **erledigt, nachgetragen 2026-08-24
+  (Buch-Run 109).** Alle genannten VRG-/PBG-Paragraphen wortlautgeprüft: §§ 25/26a-d/55/58/86-89 VRG +
+  §§ 317/338/339/339b PBG (Buch-Run 44, 14.07.2026); § 26b VRG-Fassungsstand (in Kraft seit 1.10.2016,
+  Nachtrag 133 seit Run 64 bestätigt) und § 339 PBG (in Kraft seit 1.7.2014) unverändert bestätigt; die
+  Gerichtsgebühr-Bandbreite Fr. 500-50'000 steht wortwörtlich in § 338 Abs. 2 PBG (CONFIRMED, siehe
+  [[rechtsschutz-und-rechtsmittelverfahren]] Zeile 171). Kein offener Fassungsstand-Zweifel mehr.
 
 ## Offene Wissenslücken — neu (2026-06-17, aus Buch-Run Kap. 17 Teil 1)
 - ~~**Wohnhygiene/Raumanforderungen §§ 299-306 PBG**~~ → **erledigt 2026-06-17** (Run 9):

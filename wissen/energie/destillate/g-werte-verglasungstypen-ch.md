@@ -4,8 +4,8 @@ herausgeber: Flachglas (Schweiz) AG (CH-Glashersteller, Gruppe Flachglas/AGC) �
 ausgabe: Web-Stand Juli 2026 (flachglas.ch Produktseiten vetroTherm 2-fach/3-fach, vetroSol/vetroSol Trio, PDF «Isolierglas vetroIso/vetroTherm/vetroSol/vetroProtect»); DE-Fachportale ohne Ausgabedatum, laufend gepflegt
 gelesen: 2026-07-13 (WebSearch-Zusammenfassung der flachglas.ch-Produktseiten und des Produktdatenblatts «CH_Produktblatt_Sonnenschutzglas_DE.pdf»; ⚠ Direktabruf per WebFetch lieferte für flachglas.ch nur eine Platzhalterseite «Hier entsteht eine neue Website» — die Zahlen stammen aus der Suchmaschinen-Zusammenfassung des indexierten Seiteninhalts, nicht aus eigenem Volltext-Lesen. Vor einer belastbaren Projektangabe das aktuelle Produktdatenblatt beim Hersteller anfordern oder GlasCalc-Tool nutzen)
 datenstand: Produktkennwerte (g-Wert nach EN 410, Ug nach EN 673) herstellerabhängig und Stand der jeweiligen Produktlinie; DE-Richtwert-Bandbreiten allgemeingültig/stabil, aber nicht CH-amtlich
-status: needs-verification
-last_updated: 2026-07-13
+status: speculative
+last_updated: "2026-08-24 (Audit-Korrektur A-P3 03.16: Status von Nicht-Skala-Wert `needs-verification` auf `speculative` normiert, Aussage inhaltlich unveraendert — WebSearch-Zusammenfassung statt eigenem Volltext-Lesen, siehe `gelesen`-Feld)"
 ---
 
 # g-Werte je Verglasungstyp — 2-fach / 3-fach / Sonnenschutzglas (CH)

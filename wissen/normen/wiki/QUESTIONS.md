@@ -4543,6 +4543,14 @@ beschaffen» (QUESTIONS `:558`) nennt als Adressaten nur `energie-berater`/`plan
 > nicht per Web gangbare nächste Schritt. **Verbleibende Bring-Schulden Raphaels: SIA 491,
 > SN EN 12193 (beide Kauf), SN 641 400 (Herkunftsklärung ausserhalb Web).**
 
+> **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung).** Da der Web-Weg für SN 641 400 nach vier
+> Anläufen ausgeschöpft ist (siehe oben), hier nur der konkrete nächste Schritt recherchiert,
+> nicht die Norm selbst: VSS-Kundendienst laut offizieller Website `vss.ch` (WebFetch, Abruf
+> 24.08.2026, Erstquelle) — **info@vss.ch**, Tel. **+41 44 269 40 20**, Sihlquai 255, 8005
+> Zürich (Telefonnummer durch unabhängige WebSearch-Zweitquelle bestätigt). Direkte Anfrage nach
+> Ablösungsnorm/Ablösungstabelle SN 641 400 dort möglich — das ist der von den Vorläufer-Läufen
+> benannte, aber bislang nicht mit Kontaktdaten unterlegte «VSS-Kundendienst»-Schritt.
+
 ## Run 32 (MacBook Pro, 27.07.2026) — Verifikations-Vertiefung statt neuer Destillate
 
 Acht parallele Refuter-Agenten haben die Run-31-Folgeaufgaben abgearbeitet: dritte
@@ -4736,6 +4744,14 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 - Stand: NIN liegt nicht in PL-02/02_Normen (dort nur SIA/VKF/DIN/VSS/RAL/Lignum). Web-Recherche 31.07.2026: keine explizite NIN-Fundstelle gefunden; deutsche DIN 18015-2 verlangt eigene Stromkreise fuer Geraete >2 kW (in CH nicht direkt verbindlich). Praxis-Hebel: Montageanleitung des Herstellers (verbindlich) + Bemessung des Endstromkreises.
 - Zweiter Web-Recherche-Anlauf 23.08.2026 (QUESTIONS-Abarbeitung): vier gezielte WebSearch-Anfragen (NIN + Geschirrspueler/Kuechengeraete/eigener Stromkreis/NIN-Know-how) und ein WebFetch-Versuch auf eine als Treffer gelistete Electrosuisse-PDF (`nin_kh_53.pdf`, HTTP 404) sowie auf die frei zugaengliche NIN-FAQ-Sammlung `mueller-pe.ch/nin_fragen.php` (durchsucht, kein Treffer zu Kuechengeraeten/Endstromkreisen). Kein Fund, echte Sackgasse: der eigentliche Normtext (SN 411000 bzw. die NIN-Arbeitsblaetter im Volltext) liegt hinter der kostenpflichtigen `ninonline.electrosuisse.ch`-Anmeldung, frei zugaengliche Sekundaerquellen (FAQ-Seiten, oeffentliche Auszuege) behandeln diese Detailfrage nicht.
 - Naechster Schritt (unveraendert): NIN-Zugang (ninonline.electrosuisse.ch, kostenpflichtig — Bring-Schuld Raphael) oder Rueckfrage Elektroplaner; bei Antwort Destillat-Artikel anlegen. Ein weiterer freier Web-Recherche-Anlauf ueber dieselben Quellenarten verspricht keinen Mehrwert.
+- **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung):** Kontaktdaten fuer den Bring-Schuld-Schritt
+  recherchiert, nicht die Norm selbst. Electrosuisse-Hauptkontakt laut offizieller Kontaktseite
+  `electrosuisse.ch/de/kontakt/` (WebFetch, Abruf 24.08.2026, Erstquelle): **info@electrosuisse.ch**,
+  Tel. **+41 58 595 11 11**, Hauptsitz Luppmenstrasse 1, 8320 Fehraltorf; Kontaktformular fuehrt
+  die Kategorie «Bestellung Produkt / Norm». ⚠ Eine spezifischere Adresse
+  `normenverkauf@electrosuisse.ch` (Tel. 058 595 11 90) wurde nur in der WebSearch-Zusammenfassung
+  genannt, auf der Shop-Seite selbst per Gegenprobe **nicht bestaetigt** — nicht als eigenstaendig
+  belegte Angabe uebernommen, nur der Hauptkontakt ist zitierfaehig.
 
 ## 260807 — Bezugsgroessen-Divergenz E_vm: SIA 2056 Tab. 42 gegen SIA 387/4 Tab. 4 (KB-intern)
 

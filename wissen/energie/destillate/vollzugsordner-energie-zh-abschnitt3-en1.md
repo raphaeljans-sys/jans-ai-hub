@@ -5,7 +5,7 @@ ausgabe: "Vollzugsordner Energie, Abschnitt 3.1 «Grundsätze und Verfahren» (�
 gelesen: "PDF-Seiten 53-68 von 199 (Abschnitt 3.1 vollständig, Abschnitt 3.2 = Vollzugshilfe EN-1 vollständig inkl. aller 11 Standardlösungen und des Rechnerischen Nachweises; PDF-Seite 68 ist leer/Trennblatt zum Folgeabschnitt), 2026-08-19 (Run 144)"
 datenstand: "Juni 2013 (Vollzugsordner) / Januar 2009 (Vollzugshilfe EN-1) ⚠⚠⚠ ABGELÖST. Aktualitätsprüfung am amtlichen WDV-Volltext durchgeführt 2026-08-21 (Run 148, siehe Zwilling `[[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]]`): die 80-%-Regel des § 10a EnerG gilt seit 01.09.2022 nicht mehr; die elf Standardlösungen sind für Neubauten ersatzlos entfallen und durch VIER Standardlösungen in § 9 WDV 2022 ersetzt. Diese Datei ist historische Referenz, keine Planungsgrundlage."
 status: superseded
-last_updated: "2026-08-24 (Audit-Korrektur A-P2 02.16: Vollzugsordner-Zwilling ohne Register-Eintrag, siehe Warnblock unten)"
+last_updated: "2026-08-24 (Audit-Korrektur A-P2 02.16 abgeschlossen: Zwilling-Abschnitt ergänzt, Datei in destillate/INDEX.md registriert)"
 links:
   - [[en-1b-hoechstanteil-berechnungsbeispiel]]
   - [[en-120-standardloesungen-waermeerzeugerersatz-zh]]
@@ -16,6 +16,21 @@ links:
 ---
 
 # Destillat — Vollzugsordner Energie Kt. Zürich, Abschnitt 3.1/3.2: Höchstanteil an nichterneuerbaren Energien, EN-1 (Stand Juni 2013 / Vollzugshilfe Januar 2009)
+
+## Verhältnis zum Zwilling `[[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]]`
+
+Zwei unabhängige Läufe (Run 144, unterschiedliche Sitzungen desselben Tages) haben dieselbe
+Quelle destilliert und dabei zwei eigenständige Dateien erzeugt, statt eine zu erweitern — beide
+lasen praktisch denselben Seitenbereich (53-68 gegen 53-67 von 199). Nachträglich geprüft
+(24.08.2026, Audit-Korrektur A-P2 02.16): **kein Duplikat im engeren Sinn**, sondern
+komplementär. **Diese Datei** trägt den vollständigen Fliesstext (alle elf Standardlösungen
+einzeln, Rechenbeispiele Abwärme/Solarkollektoren, JAZ-Tabelle, «Bauherren-Transfer»-Abschnitt).
+Der **Zwilling** trägt stattdessen die Vergleichstabelle EN-1 (2009) gegen WDV 2022 §§ 9/10, die
+hier fehlt. Beide sind seit der Aktualitätsprüfung Run 148 (21.08.2026) korrekt auf `superseded`
+gesetzt. Wer nur eine der beiden Dateien liest, sollte die andere für den jeweils fehlenden Teil
+ergänzend heranziehen; ein Zusammenführen in eine Datei wäre sinnvoll, ist aber bewusst nicht in
+diesem Lauf erfolgt (reine Registerarbeit, kein Fachurteil nötig — sonst geht bei einer der beiden
+Fassungen Substanz verloren, wenn niemand sie vorher zeilengenau abgleicht).
 
 ## Das Wichtigste in 1 Satz
 

@@ -1,3 +1,106 @@
+## 2026-08-24 — SIA-Sweep, 35. Fortsetzung: Abschnitt A (SIA-Produktdatenblatt-Sweep) als gesättigt bestätigt; SN 640 052/SN 641 400 aus QUESTIONS ins REGISTER konsolidiert
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen, CHANGELOG-Pflicht). CHANGELOG-Kopf und Report des letzten
+SIA-Sweep-Laufs (34. Fortsetzung, `outputs/2026-08-24_sia-sweep-vierunddreissigste-fortsetzung.md`)
+zuerst gelesen.
+
+**Kollisionscheck** (`ps aux`): eigener Prozess `mschub531` (PID 78211, exakt dieser
+Auftragstext) — eigener Lauf. Zusätzlich ein **fremder, aber ebenfalls eigener** Sibling-Lauf
+gefunden: `mschub529` (PID 77189/77188), Auftrag „Arbeite offene Fragen in QUESTIONS.md ab" —
+läuft auf denselben KB-Dateien, ist aber nicht dieser Auftragstext. Deshalb bewusst **nicht**
+in `wiki/QUESTIONS.md` geschrieben (das ist dessen Arbeitsbereich), nur additiv in `wiki/REGISTER.md`
+und `training/norm-inventar.md`.
+
+**Bestandsaufnahme Abschnitt A (SIA — Gültigkeit je Norm):** Systematischer Grep aller
+„Kein Volltext im Haus"-Zeilen (54 insgesamt) zeigt: **52 bereits mit Produktseiten-Abruf
+(„abgerufen 23.08.2026") belegt**, nur 2 ohne — SIA 381/3 (Nachfolgeinhalt bereits über SIA 2028
+verifiziert, Basisnorm selbst nicht mehr nötig) und SIA 118/430 (Preis/Ausgabe bereits verifiziert,
+kein kostenloser Zugang gefunden). **Der wörtlich beauftragte Teilauftrag „SIA-Zeilen ohne Datei
+im Haus, Produktdatenblätter beschaffen" ist damit erledigt** — die vorangegangenen 34
+Fortsetzungen haben ihn vollständig abgearbeitet. `training/norm-inventar.md` bestätigt: 0 offene
+`[ ]`-Zeilen mit SIA-Präfix, nur noch 6 cross-KB-Bring-Schulden (SIA 491, SN EN 12193, SN 640 052,
+SN 641 400, SN 640 273a, SIA 181:2020) — alle kostenpflichtig oder VSS-Zitierprobleme, keine mit
+freiem Web-Beschaffungsweg offen.
+
+**Durchgeführt (Konsolidierung statt Neufund):** Für SN 640 052 und SN 641 400 eigenständig
+gegengeprüft, ob die REGISTER-Sektion B (VSS-Gültigkeit) den bereits am 23.08.2026 in
+`wiki/QUESTIONS.md` erarbeiteten Stand führt — **tat sie nicht**, beide Normen fehlten dort
+komplett als Zeile, obwohl die Sachfrage in QUESTIONS bereits (SN 640 052) geklärt bzw.
+(SN 641 400) vierfach erfolglos bearbeitet war. Zwei neue REGISTER-Zeilen ergänzt (Abschnitt B):
+(1) **SN 640 052 «Wendeanlagen»**, ausser Kraft seit 31.03.2019 (Preis CHF 45.20), eigenständig
+gegengeprüft (`mobilityplatform.ch/de/vss-shop/product/640052`), deckungsgleich mit dem
+23.08.-Befund; Cross-KB-Vorbehalt in `baurecht` bereits gesetzt, kein Handlungsbedarf mehr dort.
+Zusätzlich versucht, den unbekannten Nachfolger über die ASTRA-Strukturanpassungsdokumentation
+(„astra 8A002", VSS-Normenwerk-Umstellung März 2019) zu finden — **zweifach HTTP 502**, echte
+Werkzeug-Falle (Server temporär down), kein inhaltlicher Befund. (2) **SN 641 400** — fünfter
+Beschaffungsversuch (Wikipedia-Normenliste, Shop-Retry) bestätigt nur den bereits vierfach in
+QUESTIONS dokumentierten Negativbefund, keine neue Substanz; REGISTER-Zeile verweist auf den
+einzig offenen Weg (VSS-Kundendienst, Kontakt bereits im 03:17-Uhr-QUESTIONS-Lauf recherchiert)
+statt den Web-Weg ein sechstes Mal zu wiederholen.
+
+**Nachgeführt:**
+- `wiki/REGISTER.md` Abschnitt B: 2 neue Tabellenzeilen (SN 640 052, SN 641 400).
+- `training/norm-inventar.md`: die beiden bestehenden `[ ]`-Zeilen (560/561) um den
+  Konsolidierungsbefund ergänzt, keine neue Zeile.
+- `CHANGELOG.md`: dieser Eintrag, oberhalb des vorherigen (chronologisch korrekt eingefügt).
+
+**Offen für den nächsten Lauf:** (1) Rest des Suva-Bring-Schuld-Blocks aus der 34. Fortsetzung
+(12 Titel + 2 EKAS-Richtlinien, `wiki/REGISTER.md` Abschnitt D) — das ist kein SIA-Stoff im
+engeren Sinn, gehört aber zum selben Loop. (2) ASTRA-Strukturanpassungsdokument bei Gelegenheit
+erneut abrufen (HTTP 502 war ein Server-, kein Inhaltsproblem) — könnte den SN-640-052-Nachfolger
+liefern. (3) Mit Abschnitt A gesättigt, verlagert sich der sinnvolle Sweep-Fokus auf Abschnitt D
+(Suva) und auf echte Neuzugänge im Bestand (Frischecheck der SIA/VKF-Dateizahl).
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `wiki/REGISTER.md`
+2/0 (rein additiv, zwei neue Tabellenzeilen, kein Bestand berührt, inkl. einer Selbstkorrektur
+innerhalb desselben Laufs, siehe unten), `training/norm-inventar.md` 2/2 (exakt die zwei
+bearbeiteten Zeilen ersetzt, keine Nachbarzeile berührt — u.a. ein Tippfehler
+„baureich-und-erschliessung" sofort im selben Lauf auf „baureife-und-erschliessung" korrigiert).
+**Selbstkorrektur-Hinweis:** Die REGISTER-Zeilen wurden im Lauf einmal überschrieben — der erste
+Entwurf stellte die beiden Funde fälschlich als Neufunde dieses Laufs dar, bevor der Abgleich mit
+`wiki/QUESTIONS.md` zeigte, dass sie grösstenteils bereits bekannt waren; die zweite, hier
+protokollierte Fassung ordnet sie korrekt als Konsolidierung ein. Kein `git`-Schreibbefehl über
+den SMB-Mount ausgeführt; Commit über den 15-Minuten-`nas-selfcommit`-Cron bzw.
+`scripts/nas-commit-now.sh`.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung 03:17 Uhr: Kontaktdaten für zwei Bring-Schuld-Punkte (SN 641 400, NIN-Geschirrspüler) verifiziert
+
+**Auftrag:** Weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG-Kopf und Report
+des letzten Laufs (03:06 Uhr, `outputs/2026-08-24_questions-abarbeitung-0306uhr.md`) zuerst
+gelesen.
+
+**Kollisionscheck** (`ps aux`): eigener Prozess (PID 77189, exakt dieser Auftragstext) — eigener
+Lauf, kein Konkurrent auf `wissen/normen/`.
+
+**Eigene Gegenprobe:** Ein zweiter unabhängiger Scan aller `##`-Abschnitte bestätigte die vom
+03:06-Lauf gefundenen fünf offenen Sektionen (Leitplanke Gebäudekategorien I–XII, NIN-
+Geschirrspüler, N60-1 AFC-Synopse-Duplikat, N60-2 Methodik-Pflicht-14-Vorschlag,
+Bring-Schulden-Sektion aus `baurecht`) als vollständig — keine sechste übersehene Sektion.
+
+**Durchgeführt:** Da bei allen fünf Sektionen die Schliessung an Raphaels Entscheidung, Freigabe
+oder Kauf hängt (bzw. bei der Leitplanke bereits erledigt ist), wurde die Wiederholung bereits
+mehrfach dokumentierter Sackgassen (SN 641 400 vierfach, NIN-Geschirrspüler zweifach erfolglos
+recherchiert) vermieden. Stattdessen für zwei Bring-Schuld-Punkte den **konkreten nächsten
+Schritt** recherchiert: (1) VSS-Kundendienst für SN 641 400 — `info@vss.ch`, +41 44 269 40 20
+(Erstquelle `vss.ch` per WebFetch, Telefonnummer per WebSearch zweitquellenbestätigt); ein
+weiterer Shop-Suchseiten-Versuch (`mobilityplatform.ch/.../search?q=641400`) bestätigte nur den
+bekannten 404-Befund, kein neuer Weg. (2) Electrosuisse-Kundendienst für die NIN-Geschirrspüler-
+Frage — `info@electrosuisse.ch`, +41 58 595 11 11 (Erstquelle `electrosuisse.ch/de/kontakt/` per
+WebFetch); eine in der WebSearch-Zusammenfassung genannte spezifischere Adresse
+(`normenverkauf@electrosuisse.ch`) liess sich auf der Quellseite nicht bestätigen und wurde
+**nicht** übernommen. N60-1, N60-2 und die Leitplanke bleiben unverändert bei Raphael bzw. ohne
+Handlungsbedarf.
+
+**Nachgeführt:** `wiki/QUESTIONS.md` an zwei Stellen rein additiv ergänzt (Bring-Schulden-Sektion
+`baurecht`, NIN-Geschirrspüler-Abschnitt). Report:
+`outputs/2026-08-24_questions-abarbeitung-0317uhr.md`.
+
+**Verifikation:** `git diff --numstat -- wissen/normen/wiki/QUESTIONS.md`: 16 Zeilen hinzugefügt,
+0 gelöscht, rein additiv. Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — SIA-Sweep, 34. Fortsetzung: erste vier Titel des grossen Bring-Schuld-Blocks (Seil-/Kletter-Reihe), Datierungs-Korrektur 44002.d/33016.d
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

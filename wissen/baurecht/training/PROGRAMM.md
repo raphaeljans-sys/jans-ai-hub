@@ -1706,6 +1706,17 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   dem Run-107-Eintrag. Report `outputs/2026-08-24_buch-run108.md`. **Naechster Schritt:** kein
   Fachpunkt mehr offen; regulaerer Health-Check-Turnus, zweite Re-Verifikationsrunde, oder neue
   Luecke aus `QUESTIONS.md`.
+- **Buch-Run 109 (2026-08-24):** `QUESTIONS.md` nach Run-108-Vorschlag (Option 4) systematisch
+  gesichtet, analog Run 105. Gefunden: der Block «2026-07-08, aus Buch-Run 23: Kap. 4
+  Natur-/Heimatschutz» fuehrte drei `needs-verification`-Flags (KNHV-Paragraphen, PBG-Paragraphen
+  + Bundesrecht BV/NHG/RPG, VRG-Paragraphen Kap. 9 Teil 2), die durch spaetere Laeufe (Run 31/33/
+  39/44/61/64/99/102) laengst geschlossen waren, aber nie als erledigt nachgetragen wurden —
+  gleiche Luecken-Familie wie Run 105. Alle drei mit Fundstellenverweis auf die tragenden Runs
+  geschlossen; kein neuer Fachbefund, reine Bookkeeping-Pflege. Report
+  `outputs/2026-08-24_buch-run109.md`. **Naechster Schritt:** kein Fachpunkt mehr aus der
+  Thalwil-Queue oder ihren Nachtraegen offen; weitere `QUESTIONS.md`-Sichtung (aeltere
+  Kap.-Bloecke ab Zeile ~2000 noch nicht durchgesehen), regulaerer Health-Check-Turnus, oder eine
+  zweite Re-Verifikationsrunde.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

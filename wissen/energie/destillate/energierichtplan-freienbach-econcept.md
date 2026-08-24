@@ -19,8 +19,8 @@ gelesen: >
   Wayback-Machine (nur die einzeilige Projektbeschreibung der econcept-Webseite ist archiviert,
   kein Bericht/PDF).
 datenstand: "Recherche 29.07.2026"
-status: "teilverifiziert — Negativbefund fuer das Originaldokument, Volltext-Fund fuer das aktuell gueltige Nachfolgedokument"
-last_updated: 2026-07-29
+status: established
+last_updated: "2026-08-24 (Audit-Korrektur A-P3 03.16: Status von Nicht-Skala-Wert `teilverifiziert` auf `established` normiert — das tatsaechlich zitierte Nachfolgedokument, Begleitbericht Energietraegerkarte 10.01.2025, ist vollstaendig im Volltext gelesen und primaerquellenverifiziert; der Negativbefund zum econcept-Original von 2013 bleibt unveraendert im Rechercheweg-Abschnitt dokumentiert)"
 ---
 
 # Energierichtplan Freienbach (econcept) — Rechercheergebnis und aktuelles Praxisdokument

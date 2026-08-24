@@ -29,12 +29,8 @@ gelesen: "29.07.2026. Vernehmlassungs-PDF selbst (die-planer.ch/wp-content/uploa
 datenstand: "Statusprüfung SWKI-Website 29.07.2026 (einen Tag nach der letzten Prüfung im
   Schwesterdestillat vom 28.07.2026); zusätzlich unabhängig bestätigt durch einen
   Wayback-Snapshot vom 20.04.2026, der denselben Status zeigt."
-status: "Negativbefund zur Vernehmlassungs-PDF selbst BESTÄTIGT (vierter Versuch, diesmal mit
-  Wayback-CDX-Vollsuche statt nur Einzel-URL-Check) — kein Zugang gefunden, auch kein
-  Wayback-Snapshot je vorhanden. Als Nebenfund NEU ZUGÄNGLICH: das Inhaltsverzeichnis der
-  aktuell gültigen SWKI 2004-1 (bisher blockiert durch SSL-Zertifikatsfehler auf der alten
-  shop.swki.ch-Struktur; die Richtlinie selbst bleibt kostenpflichtig und ungelesen)."
-last_updated: 2026-07-29
+status: established
+last_updated: "2026-08-24 (Audit-Korrektur A-P3 03.16: Status von Nicht-Skala-Freitext auf `established` normiert — nach KB-Konvention gilt ein vierfach gegengeprüfter, reproduzierbarer Negativbefund als established, analog anderer Negativbefund-Destillate der KB; voller Wortlaut des Rechercheergebnisses unveraendert im Artikeltext)"
 ---
 
 # SWKI VA106-01 — zweiter Zugangsversuch zur Vernehmlassungs-PDF (29.07.2026)

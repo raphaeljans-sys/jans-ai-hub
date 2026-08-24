@@ -1,5 +1,102 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: Registerpflege 03.16 begonnen (11 Destillate registriert, ein Zwilling geschlossen, drei Statuswerte normiert, tote-Links-Zahl gegengeprueft)
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an den heutigen
+Audit-Nachlauf. 03.16 («Register-Sammelauftrag ist nur zu einem Sechstel abgearbeitet») war der
+einzige noch unbearbeitete Punkt der Audit-Pruefwarteschlange, der explizit als eigener Lauf
+benannt war — dieser Lauf ist dieser eigene Lauf.
+
+**(1) Elf unregistrierte Destillate in `destillate/INDEX.md` nachgetragen**, jede Zeile aus dem
+eigenen Frontmatter der jeweiligen Datei (Status/Datenstand/Quelle), nicht geraten. Dabei zwei
+echte Dubletten am `quelle`-Feld verifiziert (nicht gemerged, nur benannt — destruktive Aktion
+braucht Rueckfrage): `eco-bau-pflanzen-am-bau` ↔ `[[pflanzen-am-bau-projektierungsgrundlagen-zh]]`
+(identische PL-02-Datei), `kbob-bodenbelaege-buerobau-50-jahre` ↔
+`[[bodenbelaege-buerobau-kbob-vergleich-50-jahre]]` (identische PL-02-Datei).
+
+**(2) Verwaisten Vollzugsordner-Zwilling tatsaechlich geschlossen** (A-P2 02.16): die Datei
+`vollzugsordner-energie-zh-abschnitt3-en1.md` trug ein `last_updated`-Feld, das einen «Warnblock
+unten» ankuendigte, der nie geschrieben wurde — jetzt nachgeholt (Abschnitt «Verhaeltnis zum
+Zwilling», erklaert die Aufgabenteilung zwischen dieser Datei und
+`[[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]]`).
+
+**(3) Drei Statuswerte ausserhalb der KB-Skala normiert** (`emerging | established | speculative`
+plus lokal `superseded`): `g-werte-verglasungstypen-ch.md` (`needs-verification` → `speculative`),
+`energierichtplan-freienbach-econcept.md` (`teilverifiziert — …` → `established`, das zitierte
+Nachfolgedokument ist vollstaendig im Volltext gelesen), `swki-va106-vernehmlassung-
+zugangsversuch.md` (Freitext-Negativbefund → `established`). In allen drei Faellen vorher
+geprueft, dass der urspruengliche Wortlaut inhaltlich im Artikeltext erhalten bleibt — nichts
+verloren, nur das Feld auf die Skala normiert.
+
+**(4) Die «rund 20 toten Links» aus 03.16 gegengeprueft statt uebernommen:** eigener Scan aller
+`[[…]]`-Ziele in `destillate/` + `wiki/` gegen vorhandene Dateien fand 21 Treffer. Bei Pruefung:
+4 FAQ-interne Fragenanchors (kein Dateiziel), 2 historische QUESTIONS.md-Zeilen (vor dem
+26.07.2026-Merge datiert, bewusst unveraendert), 8 legitime Cross-KB-Links auf existierende
+Artikel der KB `normen` (mein erster Scan pruefte faelschlich nur gegen die energie-KB), 6
+bereits identisch im Backlink-Hygiene-Register (Run 123, 04.08.2026) erfasst. **Kein neuer
+Fund** — aber die Suchflaeche ist jetzt mit einem zweiten, unabhaengigen Scan bestaetigt
+abgeschlossen, offen bleibt nur die inhaltliche Behebung der 6 bereits bekannten Ziele.
+
+**Weiterhin offen aus 03.16** (bewusst nicht in diesem Lauf angefasst): die 31 Themenartikel
+ohne Frontmatter-Feld `datenstand` und die rund 30 Alterskorpus-Destillate — das bleibt die
+grossflaechige Nachruestung, die A-WERKZEUG als eigenen Lauf benennt.
+
+Alle Schreibvorgaenge mit `git diff --numstat` geprueft (nativer SSD-Klon): `destillate/INDEX.md`
++11/-0, `destillate/vollzugsordner-energie-zh-abschnitt3-en1.md` +16/-1 (erwartete Ersetzung
+einer Frontmatter-Zeile durch den erweiterten Wortlaut), `destillate/g-werte-verglasungstypen-
+ch.md` +2/-2, `destillate/energierichtplan-freienbach-econcept.md` +2/-2,
+`destillate/swki-va106-vernehmlassung-zugangsversuch.md` +2/-6 (Freitext-Status durch
+Ein-Wort-Status ersetzt, Inhalt vorher im Artikelkoerper als vollstaendig vorhanden verifiziert),
+`wiki/QUESTIONS.md` +61/-0 — keine Loeschung ist eine fremde Kuerzung. Register (`QUESTIONS.md`
+03.16-Punkt) mit Fortschritt nachgefuehrt, historische Zeilen unveraendert belassen.
+
+## 2026-08-24 — Interaktive Session: EN-102-Ausgabedatum korrigiert (echter A-BLIND-Fall) + A-P2-Praezisierung
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an die Pruefwarteschlange
+aus dem Audit vom 23.08.2026. Aufgegriffen: **03.15**, der einzige noch offene Punkt aus A-P3, der
+einen echten Original-PDF-Abgleich statt einer reinen KB-internen Pruefung verlangte — und damit
+zugleich der **erste konkrete Fall aus der A-BLIND-Blindstelle** (keine der sechs Audit-Dimensionen
+hatte je ein Original geoeffnet).
+
+**Befund: die Vollzugshilfe EN-102 «Waermeschutz von Gebaeuden» (EnFK) ist seit Anlage der KB
+(Run 2, 06.06.2026) mit dem falschen Ausgabedatum gefuehrt worden.** Die Original-Quelle
+(energie.tg.ch) ist seit diesem Lauf tot (301-Redirect auf einen nicht aufloesbaren internen
+Hostnamen). Ersatzbeleg: Kt. Schaffhausen, Baudepartement Energiefachstelle, Sammel-PDF «Register 2
+Gebaeudehuelle», per WebFetch geladen und mit PyPDF2 seitenweise ausgelesen. Zwei unabhaengige
+Belege in derselben Datei bestaetigen **Ausgabe Januar 2020** (nicht Dezember 2018): die
+Registeruebersicht S. 1 listet EN-102 explizit mit «Januar 2020» — Dezember 2018 gehoert zur
+**anderen** Vollzugshilfe EN-112 «Kuehlraeume» im selben Register, mit der EN-102 offenbar bei der
+Erstdestillation verwechselt wurde; die Fusszeile jeder EN-102-Seite (S. 4-21) traegt durchgehend
+«Ausgabe Januar 2020». PDF-Metadaten (CreationDate 2020-02-20) stuetzen das. **Die Zahlenwerte
+selbst waren nie falsch** — Tabelle 2 (inkl. Storenkasten 0,50/0,50) ist zahlengleich mit dem
+bisherigen Destillat-Stand, korrigiert wurde ausschliesslich das Ausgabedatum.
+
+Korrigiert in 10 Dateien: `destillate/enfk-en-102-waermeschutz-2018.md` (Frontmatter, Titel,
+Offene-Punkte-Absatz, mit vollem Beleg in `sources`), `destillate/INDEX.md`,
+`wiki/u-werte-grenzwerte-ch.md` (3 Stellen inkl. Versionsabgleich-Ueberschrift EN-2↔EN-102),
+`wiki/BAUHERREN-FAQ.md` (Z. 2194), `destillate/g-werte-verglasungstypen-ch.md`,
+`destillate/waermebrueckenkatalog-bfe-fensteranschluss.md`,
+`destillate/waermebrueckenkatalog-bfe-rollladenkasten.md`,
+`destillate/innendaemmung-altbau-bauphysik-ch.md`,
+`destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md`,
+`destillate/muken-2025-anhang-1-3-uwert-heizwaermebedarf.md` (Nachtrag, historische
+Lauf-Narrative bewusst unveraendert belassen, KB-Konvention). Zwei Stellen in `BAUHERREN-FAQ.md`
+(Z. 3702/5348), die schon vorher «Ausgabe Januar 2020» zitierten, waren die ganze Zeit korrekt —
+sie hatten den Zwiespalt erst sichtbar gemacht (Audit 23.08., Punkt 03.15).
+
+**Zusaetzliche Praezisierung:** die Behauptung «A-P2: alle 18 Punkte erledigt» (frueherer Lauf
+desselben Tages) stimmt nur fuer 15 von 18 im engeren Sinn. **02.17 (Pflichtfeld `datenstand`)
+ist nur zur Haelfte erledigt** — das Pruefwerkzeug ist gebaut, aber 28 von 37 Themenartikeln
+fuehren das Feld weiterhin nicht (mit `for`-Schleife nachgezaehlt). Kein neuer Fehler, aber eine
+Zahl statt einer pauschalen Erledigt-Behauptung; Nachtrag direkt an der betroffenen Zeile in
+`wiki/QUESTIONS.md`, historische Zeile nicht geloescht.
+
+Alle Schreibvorgaenge mit `git diff --numstat` geprueft (nativ im NAS-Repo, `git status` haengt
+nicht ueber SMB bei gezielten Pfaden): alle Aenderungen additiv bzw. mit genau der erwarteten
+einen ersetzten Zeile (Datumsangabe), keine fremde Loeschung; beide betroffenen Commits
+(`5e640552`, `ca4288f2`) liefen bereits durch den 15-Min-`nas-selfcommit`, bevor der Diff
+gemessen wurde — Inhalt am committeten Stand verifiziert. Report: `outputs/2026-08-24_en-102-ausgabedatum-korrektur.md`.
+
 ## 2026-08-24 — Interaktive Session: A-WERKZEUG-Ersttranche + KRNr 6064 real geprueft (nicht nur registriert)
 
 Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an die heutige Session
