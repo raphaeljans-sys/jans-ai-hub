@@ -172,6 +172,154 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### planungsgrundlagen ↔ normen (Brandschutz-Wegweiser, erster ganzflaechiger Sweep) — geprueft 2026-08-24 (Run 42)
+
+**Der Uebergabepunkt 1 aus Run 41, eingeloest.** Der Artikel
+`planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md` (rund 2'200 Zeilen, `established`,
+destilliert VKF-Wortlaut materiell) war bis dahin nur an drei Stellen gegen die KB `normen`
+geprueft. Zwei Melder haben ihn haelftig durchgearbeitet, zwei Refuter gegengelesen.
+**Vier bestaetigte Befunde, ein widerlegter** — alle vier auf der Wegweiser-Seite additiv
+korrigiert, kein Eingriff in `normen`:
+
+1. **§4b Z. 571 — VKF-BSR 15-15 Ziff. 2.3.4 verkuerzt wiedergegeben.** Es fehlten
+   «**eingeschossig**» und «**untereinander**»; so gelesen wirkte die 3'600-m²-Abstandbefreiung
+   auch fuer mehrgeschossige Bauten und gegenueber grundstuecksfremden Bauten. Der Refuter hat
+   den Befund **verschaerft** (der Melder sah nur «eingeschossig») und die Ursprungsstelle
+   gefunden: dieselbe Verkuerzung liegt in `planungsgrundlagen/wiki/QUESTIONS.md` Z. 1410
+   (Lauf-Eintrag C7/Run 19) — bewusst **nicht** angefasst, das ist ein abgeschlossenes
+   Laufprotokoll (append-only, Rule 260811).
+2. **§5w Z. 1896 — Blitzschutz Hochhaeuser > 30 m: der Wegweiser fuehrte III/III**, den Wert der
+   Ausgabe 2015. Seit 01.01.2017 gilt Spalte B = **II**, die einzige geaenderte Zahl der
+   Anhang-Tabelle a-j; die Anforderung wurde also **verschaerft**, der Wegweiser nannte die zu
+   schwache Klasse. Zwei unabhaengige Belege (`energie/destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md`
+   am VKF-Primaer-PDF 2017; `normen/destillate/vkf-brl-aenderungen-2017.md` S. 28).
+3. **§5ac Z. 2052 — der Artikel widersprach seiner eigenen Belegquelle.** Er erklaerte die
+   Aenderungen 2017 pauschal fuer «durchgaengig redaktionelle Praezisierungen»; dieselbe
+   AFC-Gegenueberstellung, auf die er sich beruft, fuehrt «Blitzschutz Hochhaeuser verschaerft»
+   unter den **materiellen** Aenderungen. **Die gefaehrlichere der beiden Stellen**, weil eine
+   pauschale Unbedenklichkeitsaussage das Nachpruefen generell abschaltet. Derselbe Irrtum ist
+   in `planungsgrundlagen/wiki/QUESTIONS.md` Z. 1300 durchgeschlagen.
+4. **§5l Z. 1555 — kantonaler Vollzugs-Vorbehalt ZH fehlte** (GVZ-Merkblatt 30.17.3, RWA in
+   gesprinklerten Einstellhallen 1'201-3'600 m²). **Der Refuter hat die Aktion begrenzt:** der
+   Melder wollte das GVZ-Destillat als «gepruefte Planungsregel» fuehren — es traegt aber nach
+   vier Refuter-Runden `status: speculative` mit dem Vermerk «HEBUNG AUF established ERNEUT NICHT
+   ZULAESSIG» und stuetzt sich auf die abgeloeste VKF-RWA-Ausgabe 2003. Gesetzt wurde der
+   **Vorbehalt**, keine Zahl. Rule `normen-referenz` Ziff. 1b hat hier zum ersten Mal messbar
+   verhindert, dass eine Warnkarte als Planungswert weiterwandert.
+5. **Widerlegt:** die Feuerwehr-Bewegungsflaechen (6×11 m, 60 m Schlauchlaenge, 18 t) seien
+   unbelegt. Der Vorbehalt steht bereits **vierfach** — zweimal im Artikel selbst, einmal in
+   dessen QUESTIONS/INDEX und einmal in der Empfaenger-KB `normen` (QUESTIONS Z. 3585). Der
+   Befund meldete einen dokumentierten, bewusst offengehaltenen Zustand als neuen Mangel.
+   Nebenbei: die Zuordnung des Merkblatts «Feuerwehrzufahrten» **zur VKF** ist selbst unbelegt;
+   falls die Zahlen je gebraucht werden, ist die Quelle bei den kantonalen Brandschutzbehoerden
+   zu suchen, nicht im VKF-Richtlinienwerk.
+
+**Zusaetzlich gesetzt:** Kante von §5ac zu den beiden BSV-2015-Destillaten der Normen-KB
+(`vkf-bsv2015-vernehmlassungsbericht.md` fuehrend, `vkf-bsv2015-bericht-aenderungen.md`
+Duplikat) — Auffindbarkeit, und die offene Duplikat-Frage wird vom Wegweiser aus sichtbar.
+**Formhinweis fuer kuenftige Laeufe:** der Wegweiser verweist KB-uebergreifend 29-mal ueber den
+vollen Pfad und nur dreimal ueber `[[…]]`. Wikilinks loesen KB-lokal auf und zeigen ueber
+KB-Grenzen ins Leere — **die Pfadform ist die belastbare**, nicht die Wikilink-Form.
+
+**Rest des Artikels ohne Befund:** QSS-Tabellen §3, Feuerwiderstands-Tabellen §4b,
+Parkhaus-Kennzahlen §4c, Atrien §4d, Doppelfassaden §4e, Beherbergung-Fluchtwege §5d,
+Lignum-Holzbau §5, VKF-Verzeichnis 40-15 §5f — geprueft, deckungsgleich oder bereits mit
+korrektem Fundstellen-/Aktualitaetshinweis versehen. **Der Artikel gilt damit als
+ganzflaechig gegengelesen**; kuenftige Laeufe brauchen nur noch das Delta.
+
+### energie ↔ planungsgrundlagen (EN-102-Edition, SIA 2040 → SIA 390/1) — geprueft 2026-08-24 (Run 42)
+
+Zwei Befunde, beide auf der `planungsgrundlagen`-Seite korrigiert.
+
+1. **EN-102 «Dez. 2018» — der Melder hatte recht in der Sache und unrecht in der Begruendung.**
+   Er wollte einen Verwechslungs-Vermerk (EN-112 «Kuehlraeume») setzen, den die fuehrende KB
+   **am selben Tag zurueckgezogen** hatte: `energie/destillate/enfk-en-102-waermeschutz-2018.md`
+   Abschnitt «Zwei Ausgaben — Editionsklaerung» haelt fest, die Dez.-2018-Fassung sei eine echte
+   **Vorauflage** von EN-102 selbst, beide Ausgaben lagen nebeneinander vor. **Lehre: ein
+   `outputs/`-Dokument ist kein Fuehrungsstand** — das zitierte
+   `outputs/2026-08-24_en-102-ausgabedatum-korrektur.md` trug die widerrufene Begruendung, das
+   Destillat den geltenden. Der Refuter fand zudem den **echten** Mangel, den der Melder
+   ausdruecklich als Nicht-Befund abgehakt hatte («no Free-Cooling references — not a cross-KB
+   issue»): die einzigen zwei materiellen Aenderungen der Revision liegen in **Kapitel 8**, und
+   die Free-Cooling-Erleichterung fehlte in `planungsgrundlagen` **vollstaendig**. *Die
+   Abwesenheit war hier der Befund.*
+2. **SIA 2040:2017 ohne Abloesungsvermerk** — abgeloest seit **01.02.2025** durch **SIA
+   390/1:2025 «Klimapfad»**. `planungsgrundlagen` hedgte nur mit «⚠ Edition vor Zitat
+   verifizieren» (warnt vor der falschen *Auflage*, nicht vor der *Abloesung*) und fuehrte
+   SIA 390/1 als gleichrangigen **Parallelweg** statt als Nachfolgenorm. Der Refuter fand zwei
+   weitere betroffene Stellen, die der Melder uebersah. **Geldfolge:** die Zielwerttabelle steht
+   unmittelbar neben dem realen JANS-Deliverable (Oekobilanz Wettbewerb «Schlierenweg 31») und
+   ist damit Vorlage fuer Wettbewerbs- und Machbarkeitsbeitraege. **Grenze eingehalten:** aus
+   SIA 390/1 wurde **keine Zahl** uebernommen, nur der Statusvermerk — der Normtext ist
+   kostenpflichtig und normen-seitig ausdruecklich nur bibliografisch belegt.
+
+### normen ↔ baurecht (SN-Nummer SIA 431) — geprueft 2026-08-24 (Run 42)
+
+`baurecht/wiki/bauausfuehrung-und-baukontrolle.md` Z. 161 fuehrte «SN 409 431». Amtlich gilt
+**SN 509 431**. **Entscheidend war eine Quelle, die der Melder nicht fand:** der Widerspruch ist
+in `baurecht` selbst amtlich aufgeloest — `raw/260607_amtlich_zh_bbv1.md` Z. 1080 gibt den Anhang
+BBV I im Wortlaut wieder, und zwei Zeilen darueber steht SIA 430 = SN 509 430. Die Wiki-Zeile
+widersprach also nicht nur der Normen-KB, sondern **ihrem eigenen raw-Beleg**, auf den sie sich
+beruft. **Der Refuter hat den Zielumfang erweitert:** die Zahl steht auch im Buch-Destillat
+`buecher/band-1/08-ausfuehrung-teil2-baustellensicherheit.md` Z. 71 — waere nur die Wiki-Zeile
+korrigiert worden, haette der naechste Buch-Lauf den Fehler zurueckgeschrieben. Buchwiedergabe
+stehen gelassen (offen, ob das Werk den Dreher druckt), Korrekturvermerk mit
+Nichtzurueckschreib-Auflage daneben. Kante in `normen/wiki/REGISTER.md` gesetzt, damit kuenftige
+Zitate die Nummer aus dem Register ziehen.
+
+### energie ↔ planungsgrundlagen (Entwertungs-Bringschuld E-R161-3) — geprueft 2026-08-24 (Run 42)
+
+**Der Uebergabepunkt 2 aus Run 41 — und die Diagnose kippte um 180 Grad.** Der Melder hielt die
+12 in PL-03 gelisteten Nicht-PDF-Dateien fuer ungesichtet und wollte einen Folgeeintrag
+«E-R161-3b» oeffnen. Widerlegt: PL-03 wurde am **28.07.2026** von `planungsgrundlagen` als
+**Vollinventar aller 153 Dateien** geprueft, jeder Nicht-Treffer inhaltlich geoeffnet
+(`outputs/2026-07-28_nachaudit-pl03-brandschutz-vollinventar.md`, 145/153 verarbeitet), Korpus
+seither unveraendert. `08 QS/Die feuerpolizeilichen Bedingungen.docx` war sogar schon am
+**13.07.2026** als private ChatGPT-Notiz erkannt und als Nicht-Fund dokumentiert. **Der neue
+offene Punkt haette eine abgeschlossene Doppelarbeit bestellt.**
+
+Zwei Lehren fuer die Registerfuehrung: (a) **«kein Zielort» war ein Fehlschluss** — dass
+`brandschutz` ein Skill und keine `wissen/`-KB ist, heisst nicht, dass niemand zustaendig waere;
+zustaendig ist `planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md`. (b) Der Rest-Vorbehalt
+liegt bei **PL-02**, nicht PL-03: dort sind fuenf von rund 20 Energie-Kandidaten geoeffnet, der
+Rest ist Analogieschluss — der Melder hatte genau die falsche Bibliothek als die geschlossene
+gefuehrt. Beides additiv in `energie/wiki/QUESTIONS.md` nachgetragen.
+
+### kunde-bopp ↔ projekt-lessons (Rotation, seit Run 21 nicht geprueft) — geprueft 2026-08-24 (Run 42)
+
+**Cross-KB-Nullbefund bestaetigt, KB-interner Widerspruch gefunden.** Die beiden KBs beruehren
+sich inhaltlich nicht (0 Treffer beidseitig auf `bopp|ebmatingen|giebelweg|woma|…`); das ist
+korrekte Scope-Trennung, kein Mangel — der verallgemeinerbare Ertrag aus Giebelweg 12 ist an den
+Skill `massgebendes-terrain` zurueckgeflossen, belegt im CHANGELOG 30.07.2026.
+
+**Der Refuter fand dabei einen Fehler, den der Melder als «bereits bereinigt» abgehakt hatte:**
+`kunde-bopp/wiki/QUESTIONS.md` fuehrte in der **«beantwortet»-Sektion** «volle Attika
+budgetkonform, Reserve **8 m³**» — den am 12.06.2026 **verworfenen** Zwischenstand ueber ein
+ausgemitteltes MT. Geltend ist der Endstand vom 13.06.2026: **1'162 m³, Reserve 105 m³**. Die
+Nachfuehrung von Run 21 hatte nur den Artikel und den Output erfasst, diese Datei nicht — und die
+heutige Pflege-Session hat den Absatz angefasst und die Zahl daneben stehen lassen. Aussenwirkung:
+die Reserve traegt die Einwendung vom 30.06.2026 an die Gemeinde Langnau a/A; die dahinterliegende
+Ausmittelungs-Methode waere gegenueber der Behoerde nicht haltbar. Additiv korrigiert.
+
+⚠ **Registervermerk:** die Begruendung «`projekt-lessons` ist auf Bauleitung/Ausfuehrung/
+Healthcare **begrenzt**» ueberzeichnet dessen `CLAUDE.md` («**Schwerpunkt**», dazu «Kosten &
+Termine» und «Behoerden & Bewilligungen»). Am Nullbefund aendert das nichts, aber die Formel darf
+kuenftig nicht als Ausschlussgrund zitiert werden.
+
+### grobkosten ↔ immobilienbewertung ↔ skills/kostenschaetzung — geprueft 2026-08-24 (Run 42), Nullbefund
+
+Achte Pruefung desselben Dreiecks (16, 27, 28, 29, 31, 35, 37, 39, jetzt 42). **Nullbefund haelt
+der Gegenpruefung stand:** Fuehrungs-Kanten beidseitig gesetzt und nicht nur in der Matrix
+(`grobkosten/wiki/kennwerte.md` Z. 21-24 und 530-542 erklaert sich fuer Healthcare ausdruecklich
+fuer **nicht** fuehrend; `skills/kostenschaetzung/SKILL.md` Z. 53-58 spiegelt es). Der
+Averecura/Vella-Vorbehalt reist bis in
+`entwurfs-referenzen/wiki/parameter-sets/healthcare-neubau-zh.json` mit. Der gefaehrlichste
+Kandidat war die Zahl **1'100**, die in zwei Einheiten kursiert — CHF/m³ GV in `grobkosten`,
+CHF/m² HNF im Skill — an beiden Stellen sauber deklariert, der Skill warnt sogar ausdruecklich
+(«Bezugsflaeche beachten»). **Das Dreieck ist gesaettigt; kuenftige Laeufe nur noch bei neuem
+Kennwert-Zuwachs anfassen.**
+
+
 ### energie ↔ planungsgrundlagen (Grassen-Biwak: eine KI-Rechnung als Benchmark gefuehrt) — geprueft 2026-08-24 (Run 41)
 
 **Der schwerste Befund dieses Laufs.** `energie` hat am 23.08.2026 (Lauf 161) zwei als

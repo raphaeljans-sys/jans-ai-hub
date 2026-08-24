@@ -2,6 +2,64 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-24 — Wissens-Chef Run 42: der Brandschutz-Wegweiser ganzflaechig, und ein Refuter, der die Diagnose umdreht
+
+Delta-Basis 23.08.2026 23:13, Fenster 23,9 h, **183 Commits**, HEAD `8a1e3fc1b`, 491 geaenderte
+Dateien in `wissen/`. Uhr-Kontrolle bestanden (23:11 CEST gegen nativen Synology-Selfcommit
+22:59:36). Zuschnitt: 6 Melder (`model: sonnet`) + 6 Refuter (Hauptmodell) = **12 Agenten**,
+2'222'663 Token, 235 Werkzeugaufrufe, 12,2 Min, 0 Fehler. **11 Befunde gemeldet, 9 bestaetigt,
+1 widerlegt, 2 Nullbefunde bestaetigt. 9 Aktionen, alle additiv.**
+
+- **Der groesste offene Posten aus Run 41 ist abgetragen.** `brandschutz-pl03-wegweiser.md`
+  (rund 2'200 Zeilen) erstmals ganzflaechig gegen `normen` geprueft: **4 bestaetigte Befunde**,
+  drei mit Aussenwirkung. Der schwerste ist nicht die falsche Zahl, sondern der Satz, der das
+  Nachpruefen abschaltet — §5ac erklaerte die VKF-Aenderungen 2017 pauschal fuer «durchgaengig
+  redaktionell», waehrend die eigene Belegquelle «Blitzschutz Hochhaeuser verschaerft» unter den
+  materiellen Aenderungen fuehrt; genau darunter stand in §5w der ueberholte Wert **III/III**
+  statt III/II. Dazu: BSR 15-15 Ziff. 2.3.4 ohne «eingeschossig» und «untereinander» wiedergegeben
+  (Abstandbefreiung 3'600 m²), fehlender GVZ-Vollzugsvorbehalt ZH bei Parkhaus-RWA, fehlende
+  Kante zu den BSV-2015-Destillaten. **Widerlegt:** die Feuerwehr-Bewegungsflaechen seien unbelegt
+  — der Vorbehalt steht bereits vierfach. Der Artikel gilt jetzt als gegengelesen.
+- **Erster messbarer Erfolg der `speculative`-Sperre** (Rule `normen-referenz` Ziff. 1b): der
+  Melder wollte das GVZ-RWA-Destillat als «gepruefte Planungsregel» fuehren; es traegt nach vier
+  Refuter-Runden `speculative` und stuetzt sich auf die abgeloeste VKF-RWA-Ausgabe 2003. Gesetzt
+  wurde der Vorbehalt mit Klaerungsauftrag, **keine Zahl**.
+- **Der Refuter hat in drei von sechs Feldern die Aktion korrigiert statt bestaetigt.** (a) Die
+  Entwertungs-Bringschuld E-R161-3 kippte um 180 Grad: PL-03 war am 28.07.2026 als Vollinventar
+  aller 153 Dateien geprueft, der geforderte Folgeeintrag haette Doppelarbeit bestellt; der
+  Rest-Vorbehalt liegt bei **PL-02**, und «kein Zielort» war ein Fehlschluss (zustaendig ist der
+  Wegweiser-Artikel). (b) Beim EN-102-Fall stuetzte sich der Melder auf ein `outputs/`-Dokument,
+  das die eigene KB **am selben Tag widerrufen** hatte — **ein `outputs/`-Dokument ist kein
+  Fuehrungsstand**; der echte Mangel war die in `planungsgrundlagen` vollstaendig fehlende
+  Free-Cooling-Erleichterung aus Kapitel 8, die der Melder ausdruecklich als Nicht-Befund abhakte.
+  (c) Ein «KEIN BEFUND» verdeckte einen Fehler mit Aussenwirkung (Giebelweg, siehe unten).
+- **SIA 2040:2017 stand vierfach unvermerkt in `planungsgrundlagen`**, obwohl seit **01.02.2025**
+  durch SIA 390/1:2025 «Klimapfad» abgeloest; der vorhandene Hedge warnte vor der falschen
+  *Auflage*, nicht vor der *Abloesung*, und fuehrte SIA 390/1 als Parallelweg statt als
+  Nachfolgenorm. Geldfolge: die Zielwerttabelle steht neben dem realen Wettbewerbs-Deliverable
+  «Schlierenweg 31». Keine Zahl aus SIA 390/1 uebernommen (Normtext kostenpflichtig).
+- **SN 409 431 → SN 509 431** (SIA-Empfehlung 431, Entwaesserung von Baustellen). Der Beleg lag
+  in der eigenen KB: der Anhang BBV I im raw-Wortlaut, auf den sich die Wiki-Zeile beruft. Der
+  Refuter erweiterte den Zielumfang aufs Buch-Destillat — sonst haette der naechste Buch-Lauf den
+  Dreher zurueckgeschrieben. Kante im `normen`-REGISTER gesetzt.
+- **Giebelweg 12: Baumassenreserve 8 m³ statt 105 m³** in der «beantwortet»-Sektion von
+  `kunde-bopp/wiki/QUESTIONS.md` — der am 12.06.2026 verworfene Stand ueber ein **unzulaessig**
+  ausgemitteltes MT, waehrend der eigene Artikel derselben KB den Endstand fuehrt. Run 21 hatte
+  Artikel und Output nachgefuehrt, diese Datei nicht; eine Pflege-Session desselben Tages fasste
+  den Absatz an und liess die Zahl stehen. Aussenwirkung: die Reserve traegt die Einwendung an die
+  Gemeinde Langnau a/A. **Eine falsche Zahl in einer «beantwortet»-Sektion ist gefaehrlicher als
+  eine offene Frage — sie wird zitiert, nicht geprueft.**
+- **Nullbefunde bestaetigt:** `kunde-bopp` ↔ `projekt-lessons` (korrekte Scope-Trennung, mit
+  Registervermerk gegen die zu weite Ausschluss-Begruendung) · das Kostendreieck `grobkosten` ↔
+  `immobilienbewertung` ↔ `kostenschaetzung` (achte Pruefung, **gesaettigt**) ·
+  `architektur-fachwissen` weiterhin ohne Destillat, nicht faellig. Betriebsbefund aus
+  Synergie-Lauf 17 (Selfcommit-Rebase-Konflikt) ist erledigt, Log zeigt seit 22:30 wieder push OK.
+
+**Keine neuen offenen Entscheide fuer Raphael.** Geaenderte Dateien: 9 Wiki-/Destillat-/
+Registerdateien (45/0, 17/0, 4/4, 1/1, 9/1, 2/0, 1/1, 25/0, 14/0), 5 KB-CHANGELOGs,
+`QUERBEZUEGE.md` (148/0). Bericht: `outputs/2026-08-24_wissens-chef-run42.md`.
+
+
 ## 2026-08-24 — Synergie-Lauf 17 (Tagestakt): der Fachentscheid und sein unbemerkter Zweitbeleg
 
 Delta-Basis 23.08.2026 17:10, Fenster 23,8 h, **177 Commits**, HEAD `0a27fab4`. Uhr-Check
