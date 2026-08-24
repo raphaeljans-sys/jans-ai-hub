@@ -19,6 +19,72 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260824c — Tailscale-Ausfall auf dem Mac Mini behoben (4 Tage, ganzes Wochenende); Wächter mit Selbstheilung gebaut
+
+Interaktive Session mit Raphael auf dem Mac Mini, ausgelöst durch seine Beobachtung am
+Tailscale-Fenster. Der Ausfall selbst ist der Eintrag `260823` weiter unten; hier steht die
+Behebung, die belastbare Zeitachse und was daraus gebaut wurde.
+
+**Behoben:** `tailscale up` als Benutzer, ohne `sudo`. Nachgemessen: `BackendState: Running`,
+IP `100.120.219.12`, `Health: []`, `PrimaryRoutes: ['192.168.1.0/24']` — die Subnet-Route ist in
+der Admin-Konsole also durchgehend freigegeben geblieben.
+
+**Der entscheidende Messwert:** `tailscale debug prefs` zeigte `WantRunning: false` bei
+`LoggedOut: false`. Der Tunnel war **abgeschaltet, nicht abgestürzt**: Anmeldung gültig (Expiry
+«Never»), Netzwerk-Extension durchgehend geladen (PID 1827 seit dem Boot 19.08. 10:25:49). Das
+erklärt, warum die Einstellungen alle korrekt aussahen und trotzdem nichts half — **weder «VPN
+On Demand → Always» noch «Launch Tailscale at login» setzen `WantRunning` zurück auf true.** Die
+erste reagiert auf Netzwechsel, die zweite startet die App. Ein gesetztes «aus» bleibt aus.
+
+**Ursache unbelegt, und das bleibt so.** Der Unified Log reicht nur bis 21.08. 22:30 zurück (am
+21.08. um 22:30 verdrängt durch eine grosse Installation), der Stopp lag davor. Der naheliegende
+Verdacht Sparkle-Auto-Update **trägt nicht**: das Bundle wurde am 20.08. um 02:20/02:23 ersetzt
+(Zeitstempel `Contents/Info.plist` bzw. `Contents/MacOS/Tailscale`), der Vollgas-Radar hatte den
+Stopp aber schon um **00:57** gemessen. Das Update kam danach. Eine erste Fassung dieses Befundes
+hatte die Kette umgekehrt aufgeschrieben; die Register-Zeile im Fristen-Register korrigiert das.
+Familie «erst messen, dann deuten» — ein plausibler, gut belegbarer Kausalstrang kann trotzdem
+in der falschen Richtung laufen.
+
+**Werkzeug-Falle, teuer in Diagnosezeit:** `log` ist in **zsh ein Builtin** (listet Benutzer).
+`log show --predicate '…'` scheitert dort mit `log:1: too many arguments`, und mit
+`2>/dev/null` **schweigt es einfach** — ein leeres Ergebnis, das wie ein Sachbefund aussieht
+(«keine Tailscale-Logeinträge»). Immer `/usr/bin/log` schreiben. Gleiche Familie wie die
+Nicht-UTF-8-`grep`-Falle im Selfcommit-Log (Eintrag 260730b): **ein leeres Suchergebnis ist
+zuerst eine Aussage über das Werkzeug.**
+
+**Warum vier Tage nichts geschah — nicht Erkennung, sondern Einstufung und Kanal.** Viermal
+gemessen (19.08. Nachtschicht, 20.08. 00:57 Radar, 23.08. Runs 149/150), sauber im
+Fristen-Register, mit dem exakt richtigen Behebungsbefehl. Eingestuft als «mittel /
+Hub-Infrastruktur» und damit nach Eintrag 260803 **kein Sendegrund**; der zweite Beleg lag in
+dieser Chronik, die nicht importiert wird. Zusätzlich sah `stationen-watchdog.sh` den Mini
+durchgehend als frisch: seine Stempel und `station-status/` schreibt er über den **LAN**-SMB-Mount,
+und der LAN lief (0.4 ms). **Frisch und gleichzeitig unerreichbar** — genau die Lücke zwischen
+«läuft» und «ist erreichbar», die Check 13 nicht schliesst.
+
+**Gebaut (in dieser Session):**
+- `scripts/tailscale-waechter.sh` — zwei Blickrichtungen in einem Script, auf beiden Stationen zu
+  betreiben. Nach innen: Zustand prüfen, bei Bedarf selbst heilen (Stufe 1 `tailscale up`,
+  Stufe 2 App-Neustart, also was der Knopf «Relaunch Tailscale» tut). Nach aussen: sind die
+  Always-On-Gegenstellen `macmini` und `diskstation918` im Tailnet sichtbar. Zusätzlich wird die
+  **Subnet-Route** geprüft, weil ein laufender Tunnel ohne angenommene Route denselben Ausfall in
+  unauffälligerer Form ist. Sende-Politik: Selbstheilung still (Log + Stamp), Heilung
+  fehlgeschlagen → Mail als P1, Gegenstelle offline → Mail. Mailweg samt Entwurfs-Zählung aus
+  `stationen-watchdog.sh` übernommen.
+- `heartbeat` Check 15 — trennt «erreichbar» als eigene Frage von Check 13 («läuft»).
+- `templates/launchd/ch.jans.tailscale-waechter.plist` — 300 s, `RunAtLoad`, reiner lokaler
+  Statusabruf, keine Claude-Session, kein Kontingentverbrauch, kein Taktgeber.
+- Rule `auto-verbesserungen` 260824 — Erreichbarkeit von aussen ist P1, nicht Hub-Intern.
+
+**Restrisiko, benannt statt kaschiert:** Tailscale ist in der Standalone-Variante eine **GUI-App**,
+und ein LaunchAgent läuft erst nach dem GUI-Login. Steht der Mini nach einem Stromausfall im
+Login-Fenster, läuft weder Tailscale noch der Wächter. Ohne Auto-Login trägt diese Massnahme den
+Kaltstartfall nicht — das ist eine Systemeinstellung und gehört Raphael. Ebenso offen: ein Reboot
+räumt die alte Extension-Version 1.102.2 ab, die auf «waiting to uninstall on reboot» steht.
+
+**Eingriffe dieser Session** (Rule `interaktive-eingriffe`): `tailscale up` (umkehrbar, stellt den
+Soll-Zustand her, im Gespräch mit Raphael). Der LaunchAgent (Klasse 5, Persistenz) wurde
+**angekündigt und nicht ohne Wort installiert**.
+
 ## 2026-08-24 07:15 — Vollschub-Rotation korrigiert: stale `buero-projekte`-Aufgabe aus dem laufenden Script entfernt (Abweichung vom Eintrag 03:40)
 
 Fortsetzung des Fundes von 03:40 (unten). Dieser Lauf (`mschub635`, selbst über

@@ -522,3 +522,9 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   Entlastung und hätte Raphaels Handeln heute nicht verändert. Statt dessen Abschnitt
   «AG-Gründung 07.08.2026» im heutigen Datumsblock von `logbuch/LOGBUCH.md`; `fristen.md` in
   beiden AG-Zeilen nachgeführt.
+
+---
+
+## CHANGELOG (Monitor-Befund 24.08.2026, 07:46)
+
+**24.08.2026 — Monitor funktioniert seit 17 Tagen nicht (seit 07.08.2026).** Letzter Eintrag 30.07. mit Durchbruch UBS. Stand unbekannt: Kapitalbescheinigung-Status unklar. Task-Lauf 19.08. 05:47 brach mit Modell-Fehler ab. Fristen + Logbuch dokumentiert. Aktion: Monitor zu prüfen, Posteingang mail@ manuell prüfen.
