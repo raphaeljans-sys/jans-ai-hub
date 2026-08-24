@@ -1,7 +1,7 @@
 ---
 title: "Jury-DNA Healthcare (Alters-/Pflege-/Gesundheitsbau) — was in Schweizer Healthcare-Wettbewerben gewinnt (Synthese aus 8 ausgewerteten Juryberichten)"
 status: established
-last_updated: 2026-08-17
+last_updated: 2026-08-24
 sources:
   - "8 aktiv ausgewertete Referenz-Juryberichte in wiki/extern/ (2012–2025, Healthcare: Spital/Klinik, Pflegeheim/Alterszentrum, Psychiatrie, betreutes Alterswohnen), subtyp-gespreizt, aber pro Subtyp schmale Basis (siehe Verifikations-Hinweis)"
   - "Abschnitt 7 (Rückkopplung, 17.08.2026) zusätzlich: raw/2101-kssg-h14_beurteilungsbericht.txt, raw/2101-kssg-h14_programm.txt, raw/2101-kssg-h14_eigene-abgabe-plaene.txt, raw/2101-kssg-h14_projekttext-diggelmann.txt, raw/2205-guggerbach_jurybericht.txt, raw/2205-guggerbach_programm.txt, raw/2205-guggerbach_projekttext.txt"
@@ -545,7 +545,15 @@ Abschnitt 4 (HOSPES), zeigt aber die andere Flanke derselben Asymmetrie.
    gemeinsame Nenner ist schmaler und nur so weit belegt: **der Fussabdruck allein ist nicht
    die Kennzahl, an der die Jury Wirtschaftlichkeit misst.** Ob die beiden Fälle wirklich
    einer Regel folgen, entscheidet die Verdichtung V3 — bis dahin zwei verwandte
-   Einzelbeobachtungen, keine bestätigte Regel.
+   Einzelbeobachtungen, keine bestätigte Regel. **Eingelöst am 24.08.2026 (Verdichtung V3,
+   Lauf 05): ja, sie folgen einer Regel** — nachzulesen als Befund 4a in
+   [[muster/delta-zum-ersten-rang]]. Der gemeinsame Nenner ist, dass die kostentreibende
+   Fläche ausserhalb des Bildes liegt, das der Fussabdruck zeigt (in 2102 darunter, in 2205
+   daneben). Zwei Züge kommen dort hinzu, die dieser Abschnitt nicht sehen konnte: die
+   **Bezugsgrösse wechselt mit der Bauaufgabe** (Wohnung / Nutzfläche / Feldposition GF und
+   GV), und die Kennzahl **kann den Sieg kosten, aber nicht kaufen** — in 2205 trug der
+   3. Rang «Tetris» die beste Wirtschaftlichkeitsbeurteilung des Feldes, der Sieger nur eine
+   mittlere.
 2. **H9 — Geltungsbereich einschränken: das Muster stammt aus dem stationären Pflegebau.**
    In 2101 zeigt der Bericht ein lückenloses Gegenbild: die drei Beiträge mit Holz- oder
    Hybridtragwerk belegen die Ränge 5, 6 und 7 (03 BETULA PAPYRIFERA «ein Hybrid von einer

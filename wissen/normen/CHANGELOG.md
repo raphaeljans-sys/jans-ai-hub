@@ -1,3 +1,27 @@
+## 2026-08-24 — SIA-Sweep-Fortsetzung (07:34 Uhr): zehnte unabhängige Sättigungsbestätigung, Kurzeintrag
+
+**Auftrag:** identisch zu den neun Vorläufen desselben Tages (letzter Eintrag 07:30 Uhr). Eigene
+Nachmessung vier Minuten später: `training/norm-inventar.md` weiterhin 0 offene Zeilen,
+`wiki/REGISTER.md` weiterhin 59 Zeilen „Kein Volltext im Haus" (alle SIA-Familie, alle mit
+Produktdatenblatt/Preis belegt), `wiki/QUESTIONS.md` weiterhin 33 offene Zeilen, durchgehend
+Bring-Schuld/Struktur-/Freigabeentscheide bei Raphael. Kein neuer fachlicher Ertrag möglich — in
+vier Minuten kann sich an kostenpflichtigen Register-Positionen nichts geändert haben. Deshalb
+bewusst nur dieser Kurzeintrag statt eines weiteren vollständigen Reports (Rule
+`wissens-ruecklauf`: kein Pflicht-Rauschen ohne neuen Inhalt).
+
+**Kollisionscheck:** eigener Prozess `mschub712`, Kind von `bash /tmp/vollschub-mini-v2.sh`
+(PID 78931, seit 07:09 Uhr) — derselbe bereits identifizierte Ad-hoc-Burst-Runner, der diesen
+Sweep-Auftrag ohne Sättigungs-Erkennung im Minutentakt neu zieht. Parallel: `mschub711`
+(QUESTIONS-Abarbeitung `normen`), `mschub709` (QUESTIONS `energie`) — andere Deliverables, keine
+Kollision. Runner unangetastet (Taktungsentscheid ausserhalb dieses fachlichen Auftrags, endet
+nach eigener Logik um 11:30 Uhr).
+
+**Empfehlung unverändert:** SIA-Sweep bis zu Raphaels Kauf-/Freigabeentscheiden (REGISTER
+Abschnitt A, u.a. P1 SIA 380/1, 385/1, 266/1; plus N60-1/N60-2 in `logbuch/fristen.md`) pausieren.
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprüft — rein additiv, 0 Löschungen.
+Kein `git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — SIA-Sweep-Fortsetzung (07:30 Uhr): neunte unabhängige Sättigungsbestätigung
 
 **Auftrag:** identisch zu den acht Vorläufen desselben Tages. CHANGELOG-Kopf (07:19-Uhr-Eintrag,

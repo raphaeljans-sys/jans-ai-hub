@@ -1,7 +1,7 @@
 ---
 title: "Jury-DNA Schul- und Bildungsbauten — was in Schweizer Schulwettbewerben gewinnt (Synthese aus 23 ausgewerteten Juryberichten)"
 status: established
-last_updated: 2026-08-13
+last_updated: 2026-08-24
 sources:
   - "23 aktiv ausgewertete Referenz-Juryberichte in wiki/extern/ (2012–2026, überwiegend Schul-/Bildungsbau)"
 links:
@@ -501,8 +501,20 @@ liegen. Beide Groessen sind vor Abgabe gegen das Feld zu schaetzen, nicht nur di
 Diese Regel steht nicht auf 2102 allein: die Fussabdruck-gegen-Volumen-Unterscheidung ist in
 Abschnitt 3, Punkt 7 bereits ueber Baetterkinden unabhaengig belegt. 2102 liefert hier den
 Fall, in dem beide Seiten der Unterscheidung **im selben Projekt** auftreten. Der Sieger lag «im Bereich des Mittelfeldes knapp unter dem Mittelwert» (S. 21) —
-und wurde fuer seinen Footprint sogar geruegt («ein eher grosser Footprint», S. 21). Er
+und wurde fuer seinen Footprint sogar geruegt. Er
 gewann trotz schlechterem Fussabdruck, weil die Gesamtkennwerte stimmten.
+**Zitat berichtigt und ergänzt am 24.08.2026 (Verdichtung V3, Lauf 05):** Hier stand bisher
+«ein eher grosser Footprint» als wörtliches Zitat; der Bericht sagt «Das Ensemble aus zwei
+getrennten Baukörpern führt zu einem eher grossen Footprint.» Der Satz geht ausserdem weiter,
+und das ändert die Lesart: «Das Gesamtresultat wird weiter getrübt durch das grosse
+unterirdische Volumen.» **Der Sieger wurde also für BEIDE Grössen gerügt, die 2102 kosteten
+— Footprint und unterirdisches Volumen — und gewann trotzdem.** Damit war das unterirdische
+Volumen in diesem Verfahren nicht der trennende Faktor; getrennt hat allein die Feldposition
+der Absolutwerte GF, GV und Kosten. Die vollständige Zusammenführung dieser Beobachtung mit
+H8 aus dem Healthcare-Katalog steht als Befund 4a in [[muster/delta-zum-ersten-rang]]
+(dort auch die wechselnde Bezugsgrösse je Bauaufgabe und die Asymmetrie «kostet den Sieg,
+kauft ihn nicht»). Seitenangaben oben nach der Zählung dieses Artikels; die Fusszeile des
+PDF nennt für diese Stellen S. 22 (offener Versatz-Audit, QUESTIONS.md).
 
 **Schaerfung zu S9/S3 — das Kompensationsmittel muss ueberall dort liegen, wo die Ursache
 liegt.** In 2206 erzeugte das umlaufende Vordach denselben Effekt an zwei Orten, wurde aber

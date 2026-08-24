@@ -3,6 +3,85 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 129: `connectors/WEGE.md`-Nachtrag für die `entscheidsuche.ch`-Such-API (Buch-Run 126/127) eingetragen
+- ANLASS: Buch-Run 127 nannte als einen von drei möglichen nächsten Schritten einen
+  `connectors/WEGE.md`-Nachtrag für die in Run 126/127 rekonstruierte interne Such-API von
+  `entscheidsuche.ch` (`_searchV2.php`) — bislang nur in den KB-eigenen Outputs dokumentiert,
+  nicht im hub-weiten Wege-Register, das Rule `wege-und-vollmachten` vor jedem «geht nicht»
+  verbindlich vorschreibt zu konsultieren.
+- **Kein neuer Fachbefund, reine Registerpflege ausserhalb der KB selbst:** kein `raw/`-,
+  `wiki/`- oder `buecher/`-Edit. Übertragen wurden die bereits verifizierten Fakten aus Run
+  126/127 (Endpunkt, `term`-Query auf Feld `reference` mit führendem Leerzeichen im indizierten
+  Format, `content_url` für den statischen Volltext, die belegte Abdeckungsgrenze ab ~2000 für
+  `hierarchy: ZH_VG`) in einen eigenständigen Registereintrag nach dem Muster des bestehenden
+  `zentraleserien.zh.ch`-Eintrags direkt darüber (Weg, Testbefehl, Falle, Grenze, Quelle).
+- **Zwei Nebenläufe vermieden:** zum Zeitpunkt dieses Laufs liefen zwei weitere Instanzen
+  desselben Prompts (`mschub706`, `mschub710`, gestartet 07:21/07:28) bereits aktiv an der
+  KB selbst — Run 128 (Kostenentscheid [[nebenbestimmungen-und-reverse]]) wurde während dieses
+  Laufs von einer der beiden committet. Um keine gleichzeitige Bearbeitung derselben
+  Wiki-Artikel zu riskieren, wurde bewusst eine Aufgabe ausserhalb der KB-Wiki-Dateien gewählt
+  (Run 127 selbst führte sie als «ausserhalb des KB-Mandats»).
+- GEÄNDERT `connectors/WEGE.md` (neuer Abschnitt «Nachtrag 24.08.2026 — ZH-Gerichtsentscheide
+  ohne bekanntes Datum: interne Such-API von `entscheidsuche.ch`», +37/-0 Zeilen).
+- `git diff --numstat` nach dem Schreibvorgang geprüft: `connectors/WEGE.md` 37/0, rein
+  additiv, keine Löschung.
+- REPORT `outputs/2026-08-24_buch-run129.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), keine Änderung. Der
+  dritte von Run 127 genannte Kandidat (Modell-D-Stichprobe an
+  [[ausnuetzungsuebertragung]]/[[nutzungsziffern]]) bleibt offen für einen künftigen Lauf.
+
+## 2026-08-24 — Buch-Run 128: Kostenentscheid-Abschnitt in [[nebenbestimmungen-und-reverse]] nachgetragen — «§ 340f PBG» existiert nicht, «§ 3 VRG» war falsch zugeordnet (richtig § 17 Abs. 2 VRG), zwei stale Restschuld-Vermerke aus Run 11 in der Kap.-7-Destillat-Kette aufgelöst
+- ANLASS: Buch-Run 127 empfahl als einen von mehreren möglichen nächsten Schritten eine
+  Modell-D-Stichprobe an [[nebenbestimmungen-und-reverse]] («seit Ersterstellung nie erneut
+  geprüft»). Beim Lesen fiel die eigene Statuszeile des Artikels auf: sie behauptete, der
+  Kostenentscheid (§§ 13/14 VRG, «§ 340f PBG») sowie 7.2/7.3 seien «noch nicht gelesen» —
+  unverändert seit Run 11 (19.06.2026), obwohl Run 12 (21.06.2026) Kap. 7 nachweislich
+  vollständig abgeschlossen hatte (`curriculum.md`: «Kap. 7 abgeschlossen»). Der
+  Kostenentscheid-Abschnitt (7.1.3.5) stand bereits vollständig im Buch-Destillat
+  [[07-zustaendigkeiten-entscheide-auskuenfte]] (S. 443-447), war aber nie in einen
+  Wiki-Artikel übernommen worden und trug dort drei `needs-verification`-Flags.
+- GEPRÜFT: amtlicher VRG-Volltext frisch bezogen (zhlex, Ordnr. 175.2, Nachtrag 133 — identischer
+  Stand wie der bereits vorliegende Auszug, keine Fassungsstand-Drift; Erlassseite JS-gerendert,
+  PDF über die notes.zh.ch-Redirect-Kette + PyMuPDF-Extraktion aus dem vollständigen 31-seitigen
+  PDF bezogen, da `pdftotext` auf dieser Station weiterhin nicht installiert ist). **§ 13
+  Abs. 1/2 VRG und § 14 VRG CONFIRMED wortgleich** (§ 14 deckt sich mit der bereits durch
+  Buch-Run 110 verifizierten Fassung in [[rechtsschutz-und-rechtsmittelverfahren]]). **«§ 340f
+  PBG»** (Buch-Nebenfundstelle) **existiert nicht** — das PBG kennt an dieser Stelle nur § 340
+  (Strafen) und § 340a (Verjährung), geprüft gegen `raw/260607_amtlich_zh_pbg.md`; keine
+  Ersatzfundstelle erfunden, tragende Rechtsgrundlage bleibt § 13 Abs. 1 VRG. **«§ 3 VRG»**
+  (für «Kostenauflage an Amtsstellen» zitiert) **war falsch zugeordnet** — § 3 VRG ist eine
+  reine Zuständigkeits-Vorbehaltsnorm («Besondere gesetzliche Bestimmungen, welche die
+  Zuständigkeit anders ordnen, bleiben vorbehalten»), kein Kostenartikel. Die tatsächlich
+  einschlägige Norm ist **§ 17 Abs. 2 VRG** (Parteientschädigung: im Rekurs-/
+  Verwaltungsgerichtsverfahren kann die unterliegende Partei **oder Amtsstelle** zu einer
+  Entschädigung verpflichtet werden). RB 1992 Nr. 77 (Gebührenverdoppelung bei zweiter
+  Gesuchsprüfung) bleibt aus Datenbank-Gründen unverifiziert (1992, ausserhalb der bekannten
+  Jahrgangsabdeckung von `entscheidsuche.ch`, gleiche Fallfamilie wie VB 94/0016 aus Run 127);
+  kein neuer Zugriffsweg dafür geprüft, um Scope-Kriechen zu vermeiden.
+- NEU `raw/260824_amtlich_zh_vrg-par3-par17.md` (§§ 1-3 + § 17 VRG, treu abgeschrieben). GEÄNDERT
+  [[nebenbestimmungen-und-reverse]] (neuer Abschnitt «Kostenentscheid bei mehreren
+  Beteiligten», stale Statuszeile aufgelöst, Frontmatter/`paragraphen`/`verifiziert`
+  nachgeführt), [[baubewilligungsverfahren]] (Abschnitt Gebühren um die allgemeine
+  VRG-Rechtsgrundlage § 13 Abs. 1 ergänzt), [[07-zustaendigkeiten-entscheide-auskuenfte]]
+  (Abschnitt 7.1.3.5 korrigiert, stale «Restschuld Kap. 7»-Vermerk unter «Offene Punkte»
+  aufgelöst, Frontmatter), `buecher/INDEX.md` (Zeiger korrigiert), `wiki/QUESTIONS.md` (neuer
+  Block oben), `raw/_INGESTED.md` (neue Registerzeile).
+- `git diff --numstat` geprüft (die Änderungen wurden zwischenzeitlich durch die reguläre
+  15-Minuten-`nas-selfcommit`-Routine committet, Commit `55068c77`, 07:30 Uhr; Nachweis über
+  `git show --numstat` statt Working-Tree-Diff): nur additive/gezielte Änderungen an den
+  erwarteten Stellen (INDEX.md +2/-1, Kap.-7-Destillat +45/-15, neue raw-Datei +62/-0,
+  `_INGESTED.md` +1/-0, `QUESTIONS.md` +46/-0, `baubewilligungsverfahren.md` +14/-6,
+  `nebenbestimmungen-und-reverse.md` +32/-7), keine unerwarteten Löschungen.
+- REPORT `outputs/2026-08-24_buch-run128.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9). Kein Fachpunkt mehr
+  offen ausser VB 94/0016, VB.2003.00051 und RB 1992 Nr. 77 (alle drei aus Datenbank-Gründen
+  unverifizierbar, dokumentiert statt erneut versucht) sowie der registrierten
+  PBG-Teilrevision «Baulinien» als Fassungsstand-Wachposten. Nächste Kandidaten: regulärer
+  `wissenscheck`-Turnus, Modell-D-Stichprobe an [[ausnuetzungsuebertragung]]/[[nutzungsziffern]]
+  (zuletzt 2026-07-25/Run 55) oder an einem anderen seit Ersterstellung nie erneut geprüften
+  Artikel, `connectors/WEGE.md`-Nachtrag für die `entscheidsuche.ch`-Such-API (Fund aus Run 126,
+  bisher nicht registriert).
+
 ## 2026-08-24 — Buch-Run 127: Zugriffsweg für VB 94/0016 (RB 1994 Nr. 72) abschliessend geprüft — Jahrgang 1994 im Suchindex entscheidsuche.ch statistisch nicht vorhanden (0 Treffer 1991-1995), kein freier digitaler Weg mehr offen
 - ANLASS: Buch-Run 126 empfahl als einen von drei möglichen nächsten Schritten eine gezielte
   Suche nach einem alternativen Zugriffsweg für vor-2000/nicht-indexierte VB-Entscheide, analog

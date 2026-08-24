@@ -2,6 +2,78 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24 — Interaktive Session (neunte Fortsetzung): A-WERKZEUG-Rest stichprobenartig geprüft, ein echter Tool-Fehler in `datenstand-waechter.py` behoben, zwei stale Prüfstichtag-Treffer annotiert
+
+Auftrag: weitere offene Punkte aus dieser Datei abarbeiten, Anschluss an die achte Fortsetzung.
+Verifiziert, dass Prozess-PID des eigenen Laufs (`claude -p ... --max-budget-usd 25`) kein
+Konkurrent ist, sondern diese Session selbst (Startzeit deckt sich exakt). Bestand gegen den
+`- [ ]`-Rest geprüft: nur noch 11 Checkboxen offen, alle bis auf A-WERKZEUG entweder an Raphaels
+Entscheid gebunden (Normkauf SIA 380/1:2016 bzw. SN EN ISO 6946, Konsolidierung ecoBKP, JANS-
+Projektdaten für E103/Pflegeplatz-Kennwert) oder als erschöpfte Negativbefunde dokumentiert
+(E94 Innendämmung, E-R150-3 Willerzell, E-R134-3 Lambda-Anomalie).
+
+**A-WERKZEUG, zweite Teilabarbeitung — der von der ersten Teilabarbeitung offen gelassene Rest
+(«31 Themenartikel ohne datenstand» ist laut CHANGELOG 6. Fortsetzung inzwischen 37/37 erledigt;
+die ~30 «Alterskorpus-Destillate ≥ 18 Monate» blieben unbearbeitet).** `datenstand-waechter.py
+energie` neu gezogen (jetzt 40 statt der früher gemeldeten Treffer): rund 30 aus Geld-/Markt-
+Stichwörtern gealterte Destillate, alle mit eigenem ⚠/⚠⚠/⚠⚠⚠-Alterungsvermerk im `datenstand`-
+Feld. **Stichprobe von 21 Destillat-FAQ-Zitatstellen einzeln gelesen** (nicht nur `grep` auf ein
+Warnzeichen, sondern der volle Absatz um jede `[[slug]]`-Zitierung): `glasbauten-hoher-glasanteil-
+sia2021`, `ahb-checkliste-raumluftmessungen`, `ahb-checkliste-solarstromanlagen-2008`, `ahb-
+bedingungen-werkleistungen-nachhaltiges-bauen`, `ecobkp-2009-merkblaetter-nach-bkp`,
+`duschwasser-waermerueckgewinnung-joulia`, `innendaemmung`, `notstromversorgung-
+sicherheitsstromversorgung`, `swki-lueftung-gesundheitsbau-hygiene-energie`,
+`pv-fassade-ertrag-pvsol` (beide Zitierstellen), `pv-kosten-amortisation-praxis-ewz` (beide
+Zitierstellen), `sia-2060-kosten-ladeinfrastruktur-vertiefung`, `haushaltgeraete-effizienz-
+beschaffung-topten` — **in jedem geprüften Fall trägt die FAQ-Stelle bereits einen erkennbaren
+Alters-/Vorbehaltshinweis** (⚠-Zeile, «überholt», «Grössenordnung», Herstellerangabe als nicht
+unabhängig geprüft ausgewiesen, oder — bei `innendaemmung`/F-Förderprogramm — die dort tatsächlich
+zitierten Quellen sind selbst aktuell 2026, der 2002er-Altbestand des Destillats wird an dieser
+Stelle gar nicht gezogen). **Kein einziger echter Propagations-Fehler gefunden** — die A-WERKZEUG-
+Sorge («ob das Alter auch in der FAQ ankommt») bestätigt sich an der Stichprobe nicht als
+Bestandsproblem. Ein grober Häufigkeits-Scan über die restlichen, öfter zitierten Destillate
+(`pv-eigenverbrauch-zev` 9×, `pv-ertrag-eigenverbrauch-praxis` 12×, `zev-eigenverbrauch-mfh-
+her-2025` 8× u.a., automatisiertes Nachbarschafts-Grep auf ⚠/veraltet/überholt/marktabhängig)
+zeigt niedrigere Trefferquoten (1-9 von 8-12), das ist aber **kein verlässlicher Befund** — ein
+Warnhinweis steht bei Mehrfachzitaten typischerweise einmal im Absatz, nicht bei jeder einzelnen
+Erwähnung, und eine automatisierte Nachbarschaftssuche kann das nicht unterscheiden von einer
+echten Lücke. **Für einen künftigen Lauf offen:** die hochzitierten ZEV/PV-Destillate mit derselben
+Vollständigkeit (jeder Absatz einzeln gelesen, nicht nur Nachbarschafts-Grep) durchgehen, falls
+die Zeit reicht — an der bisherigen Stichprobe deutet nichts auf ein systematisches Problem hin.
+
+**Ein echter Fund: `datenstand-waechter.py` selbst meldet einen Falsch-Positiv.**
+`swki-lueftung-gesundheitsbau-hygiene-energie.md` wurde mit «962 Monate alt» geflaggt — Ursache:
+das `datenstand`-Feld erwähnt die deutsche Analognorm **DIN 1946-4**, und die bare-Jahr-
+Rückfallebene der Funktion `monate_alt()` liest «1946» als Jahreszahl (kein `YYYY-MM`- oder
+`DD.MM.YYYY`-Muster vorhanden, also greift `re.findall(r"(?:19|20)\d{2}", roh)`, das «1946» aus
+«1946-4» matcht). **Behoben in `wissen/tools/datenstand-waechter.py`:** neue Konstante
+`NORMBEZEICHNUNG` (Regex `\b(?:DIN|ISO|SIA|EN|SN|SNV|VDI|VKF|prEN|ÖNORM|CEN)\s?(?:19|20)\d{2}
+(?:[/-]\d+)?\b`), die Norm-/Richtliniennummern vor der Jahres-Extraktion aus dem Text entfernt.
+Verifiziert: `monate_alt()` liefert für diese Datei jetzt `None` (kein echtes Jahr im Feld) statt
+962; der volle `energie`-Lauf zeigt 39 statt 40 Treffer, der KB-übergreifende Lauf bleibt
+lauffähig (420 Treffer über alle KBs, keine neue Exception). Das ist ein Werkzeug-Fehler, kein
+Bestandsfehler — betrifft potenziell jede KB mit Norm-Zitaten wie «EN 1992», «ISO 1940», nicht nur
+`energie`.
+
+**Zwei stale «Prüfstichtag 17.08.2026 verstrichen»-Treffer annotiert (nicht behoben, da bereits
+gelöst).** Die drei vom Werkzeug gemeldeten Treffer (Z. 1577/1617/4747 vor dieser Änderung) sind
+Text in bereits `[x]`-geschlossenen historischen Run-83/82-Einträgen bzw. der Lösungseintrag
+selbst (02.9, unten) — die Sache (KRNr 6064 Rahmenkredit) ist seit 24.08.2026 nachweislich
+erledigt (`logbuch/fristen.md`, Eintrag «erledigt» gesetzt). Bei den beiden historischen Einträgen
+(Z. 1577, 1617) je ein Nachtrag «✓ Nachtrag 24.08.2026: … kein offener Punkt mehr» ergänzt, ohne
+den historischen Text selbst zu ändern (Rule `wissens-bibliothekar`: Historie bleibt stehen). Der
+dritte Treffer (Z. 4747) liegt im Lösungseintrag selbst und ist damit selbsterklärend — keine
+weitere Änderung nötig. Das Werkzeug wird diese drei Zeilen bei jedem künftigen Lauf weiterhin
+melden (by design, siehe Docstring: es soll gerade verhindern, dass ein Datum in einem
+abgehakten Eintrag untergeht) — mit den Nachträgen ist jetzt aber sofort erkennbar, dass keine
+Prüfung mehr nötig ist.
+
+Eingearbeitet: `wissen/tools/datenstand-waechter.py` (Bugfix), `wiki/QUESTIONS.md` (dieser
+Eintrag, zwei Nachtrags-Zeilen bei den historischen Fundstellen). `git diff --numstat` geprüft:
+beide Dateien rein additiv (+4/-0 QUESTIONS.md, +9/-0 datenstand-waechter.py), keine fremde
+Löschung. Kein `outputs/`-Report, da kein neuer Primärquellen-Kennwert entstanden ist — der Ertrag
+dieser Session ist ein Werkzeug-Fix plus eine Stichproben-Entwarnung, kein neuer Fachinhalt.
+
 ## 2026-08-24 — Interaktive Session (achte Fortsetzung): neuer Ansatzpunkt für die Gesundheitsbau-Performance-Gap-Lücke gefunden (ECOSPEED), kein Zahlenwert — Bestand vor Auswahl gegen den heutigen Stand geprüft
 
 Auftrag: weitere offene Fragen aus dieser Datei abarbeiten, belegt mit Quelle und Datenstand.
@@ -1575,6 +1647,8 @@ Empfehlung). SharePoint PL-04 Energie erneut geprüft, keine neue Datei seit 14.
   frisch gezogenen amtlichen PDF (SHA-256-verifiziert) unverändert bestätigt, kein Fehlerfund;
   KRNr-6064-Verfahrensstand unverändert (Kommission KEVU, Schlussabstimmung weiterhin ausstehend,
   nächste Prüfung nach 17.08.2026).
+  ✓ **Nachtrag 24.08.2026:** dieser Prüfstichtag ist erledigt, siehe unten «02.9 KRNr 6064 —
+  jetzt wirklich geprueft» — kein offener Punkt mehr, dieser Absatz bleibt als Historie stehen.
 
 **Nicht bearbeitet in Run 83 (bewusst zurückgestellt):** E92/E95 (SMGV-Merkblatt Nr. 70,
 kostenpflichtig), E103 (Pflegeplatz-Kennwert), E84 (ZH-Solarpflicht-Beratungstermin) — alle
@@ -1615,6 +1689,8 @@ Eintrag ist ein 63-Byte-OneDrive-Platzhalter, kein PDF). Reiner Verdichtungs-/Ve
   «KR-Nr. 6064» war per generischer Websuche nicht verifizierbar; in Run 82 wurde die Nummer über den
   CDWS-Kantonsrats-Webservice (parlzhcdws.cmicloud.ch) identifiziert — kein Widerspruch, andere Quelle.
   Nächste Prüfung nach Plenarsitzung 17.08.2026.
+  ✓ **Nachtrag 24.08.2026:** Plenarsitzung geprüft, siehe unten «02.9 KRNr 6064 — jetzt wirklich
+  geprueft» — kein offener Punkt mehr, dieser Absatz bleibt als Historie stehen.
 - [x] **Neues Thema PV-Entsorgung/Recycling/Lebensende CH** ✓ 2026-07-23, neues Destillat
   `[[pv-entsorgung-recycling-lebensende-ch]]`, FAQ **F105** neu (emerging). Neu offen: belastbare
   CH-Recyclingquote in Prozent (nur Materialanteile/Swissolar-Pauschale «>75 %» gefunden); der

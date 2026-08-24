@@ -613,3 +613,40 @@ Anführungszeichen übergeben, funktioniert die Suche.
 für Gerichtsentscheide (Baurekurskommission/-gericht, Verwaltungsgericht), die weiterhin über
 `entscheidsuche.ch` bzw. die Baurekursgericht-Entscheidnummer-Suche laufen. Quelle:
 `wissen/baurecht/outputs/2026-08-24_buch-run123.md`.
+
+## Nachtrag 24.08.2026 — ZH-Gerichtsentscheide ohne bekanntes Datum: interne Such-API von `entscheidsuche.ch`
+
+**Anlass.** KB `wissen/baurecht`, Buch-Run 126/127: die üblichen `entscheidsuche.ch`-Direkt-URLs
+brauchen ein bekanntes Entscheiddatum. Für drei Fallzitate (VB.2003.00370, VB.2007.00383,
+VB.2003.00051, später VB 94/0016) lag nur die Aktenzeichen-/Referenznummer vor, kein Datum.
+
+**Der Weg:** aus dem JS-Bundle der Website (`js/app.*.js`) lässt sich ein öffentlich
+erreichbarer Elasticsearch-Proxy rekonstruieren, der direkt über die Referenznummer sucht:
+
+```bash
+curl -s -X POST "https://entscheidsuche.ch/_searchV2.php" -H "Content-Type: application/json" \
+  -d '{"query":{"term":{"reference":" VB.2003.00118"}}}'
+```
+
+**Falle:** das indizierte Feld `reference` trägt ein **führendes Leerzeichen** vor dem
+Aktenzeichen (Format „ VB.JJJJ.NNNNN"); ohne das Leerzeichen im Term liefert die Abfrage 0
+Treffer, obwohl der Fall existiert. Ein Treffer liefert `content_url` — den Pfad zum
+**statischen**, nicht JS-gerenderten Volltext-HTML unter `entscheidsuche.ch/docs/…`, direkt per
+`curl` abrufbar (kein `WebFetch` nötig, das die JS-Oberfläche selbst nicht sinnvoll ausliest).
+
+**Reichweite geprüft, nicht nur vermutet:** eine Datums-Aggregation über den gesamten
+ZH-Verwaltungsgerichts-Bestand (`{"size":0,"query":{"term":{"hierarchy":"ZH_VG"}},"aggs":
+{"by_year":{"date_histogram":{"field":"date","calendar_interval":"year","format":"yyyy"}}}}`)
+zeigt: der Index ist für **1991-1995 vollständig leer** (0 Treffer, auch für 1994 einzeln
+bestätigt) und beginnt praktisch erst 2000 (219 Treffer); 1996-1999 nur 1-3 Einzeltreffer. Für
+Fälle vor 2000 ist dieser Weg also **strukturell aussichtslos**, nicht nur im Einzelfall
+erfolglos — nicht erneut versuchen. Einziger Ersatzweg dafür: kostenpflichtige
+Urteilskopie-Bestellung direkt beim Verwaltungsgericht ZH (keine Zahlungen ohne Einzelfreigabe,
+User-CLAUDE.md «Grenzen»).
+
+**Grenze:** ausschliesslich Entscheide des **Verwaltungsgerichts ZH** (`hierarchy: ZH_VG`) ab
+Jahrgang ~2000; für Regierungsratsbeschlüsse vor 2000 gilt der Weg `zentraleserien.zh.ch` oben,
+für Baurekursgericht-Entscheide die separate Entscheidnummer-Suche. Quelle:
+`wissen/baurecht/outputs/2026-08-24_buch-run126.md`,
+`wissen/baurecht/outputs/2026-08-24_buch-run127.md`,
+`wissen/baurecht/raw/260824_amtlich_zh_entscheidsuche-abdeckung-vb-1994.md`.

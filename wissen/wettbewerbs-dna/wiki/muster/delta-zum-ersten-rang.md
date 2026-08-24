@@ -1,7 +1,7 @@
 ---
 title: Delta zum 1. Rang — was JANS-Beitraege vom Sieg trennte (Muster ueber alle 7 verfuegbaren Dossiers)
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-08-24
 sources: [teilnahmen/2101-kssg-h14.md, teilnahmen/2102-muttenz.md, teilnahmen/2103-steinhofschule.md, teilnahmen/2205-guggerbach.md, teilnahmen/2206-schoental.md, teilnahmen/2408-biwak-grassen.md, teilnahmen/2507-tkhl-ps-halden.md]
 links: [[2101-kssg-h14]], [[2102-muttenz]], [[2103-steinhofschule]], [[2205-guggerbach]], [[2206-schoental]], [[2408-biwak-grassen]], [[2507-tkhl-ps-halden]]
 ---
@@ -173,6 +173,128 @@ Flaechennachweis ist kein Pflichtformular, sondern ein aktiver Wettbewerbshebel.
 Zielkorridor Mittelwert oder knapp darunter, aber Nutzflaeche im Verhaeltnis zur
 Geschossflaeche maximieren. (Maschinell prueffaehig via flaechen-nachweis +
 grobkosten-onepager.)
+
+## Befund 4a — Verdichtung V3: an welcher Kennzahl die Jury Wirtschaftlichkeit misst (H8 und S7 zusammengeführt, 24.08.2026)
+
+Diese Verdichtung löst die Frage ein, die `muster/jury-argumente-healthcare.md` Abschnitt 7.3
+Punkt 1 ausdrücklich «der Verdichtung V3» überlassen hat: ob die H8-Beobachtung aus dem
+Healthcare-Katalog (2205 Guggerbach) und die S7-Beobachtung aus dem Schulbau-Katalog (2102
+Muttenz) einer gemeinsamen Regel folgen oder zwei verwandte Einzelfälle bleiben. **Sie folgen
+einer gemeinsamen Regel.** Die Regel ist schmaler als beide Einzelbeobachtungen, und sie trägt
+zwei Züge, die keine der beiden allein gezeigt hat: eine wechselnde Bezugsgrösse und eine
+Asymmetrie.
+
+**Seitenangaben zu 2102 folgen in diesem Abschnitt der Fusszeile des Jurybericht-PDF.** Die
+älteren Befunde dieses Artikels zitieren dieselben Stellen um eine Seite tiefer (S. 39 statt
+S. 40, S. 21 statt S. 22); der Versatz ist ein offener Audit-Punkt aus Vertiefungslauf 02 und
+wird hier bewusst nicht durch Umnummerierung des Altbestands geheilt (Rule 260811). Für 2205
+und 2101 stimmen Fusszeile und bestehende Zitate überein, dort besteht kein Versatz.
+
+### Der Kernbefund
+
+**Der Fussabdruck ist in keinem der drei Verfahren mit belegter Wirtschaftlichkeitswürdigung die
+Kennzahl, an der die Jury Wirtschaftlichkeit gemessen hat.** Er ist ein städtebauliches Argument
+(Freiraum, Erweiterbarkeit) und wird als solches auch honoriert. In **beiden** eigenen Verfahren,
+in denen JANS ihn als Wirtschaftlichkeitsargument vortrug, hat die Jury den städtebaulichen Teil
+bestätigt und den wirtschaftlichen Schluss im selben Abschnitt kassiert:
+
+- **2102 Muttenz (Schulbau, BL, 2022):** «Der kompakte Fussabdruck lässt viel Freiraum und
+  ermöglicht eine spätere Erweiterung der Schulanlage» (S. 40) — und im selben Würdigungstext
+  «Das Projekt weist sowohl die grösste Geschossfläche wie auch das grösste Volumen auf. Die
+  hohen Kennwerte zeigen sich auch in den vergleichsweise hohen Kosten.» (S. 40). Die Ursache
+  benennt die Jury selbst: «Die Doppelsporthalle ist zu Zweidrittel in den Boden versenkt … Dies
+  führt zwar zu einem kleinen oberirdischen Volumen, das aber einen grossen unterirdischen
+  Fussabdruck aufweist.» (S. 40).
+- **2205 Guggerbach Davos (Alterswohnen 65+, GR, 2022):** Der eigene Projekttext führt «Der
+  minimale Fussabdruck der Gebäude, die leicht ausgedrehte Setzung zueinander und die regelmässig
+  polygonale Form …» als Kernargument (eigener Projekttext, Abschnitt Städtebau). Die Jury
+  bestätigt und kassiert in einem Satz: «Die beiden Baukörper in sich sind kompakt ausgebildet,
+  allerdings führt die Aufteilung auf zwei Baukörper an sich zu höheren Kosten.» (S. 50).
+
+### Die gemeinsame Mechanik — das ist die Regel
+
+In beiden Fällen zerfällt «kompakt» in eine **sichtbare** und eine **gerechnete** Hälfte, und die
+Jury urteilt über die gerechnete. Die Ursachen sind ausdrücklich verschieden: in 2102 liegt die
+kostentreibende Fläche **unter** dem sichtbaren Fussabdruck, in 2205 **neben** ihm (doppelte Hülle
+und doppelte Erschliessung zweier Körper). Der gemeinsame Nenner ist genau dieser:
+
+> **Die Fläche, welche die Kennzahl treibt, liegt regelmässig ausserhalb des Bildes, das der
+> Fussabdruck zeigt.** Wer «kompakt» über den Fussabdruck behauptet, behauptet es an der Grösse,
+> die nicht gemessen wird.
+
+Damit ist das Muster über **zwei Bauaufgaben, zwei Kantone und zwei unabhängige Verfahren** belegt
+und keine Einzelbeobachtung mehr. Was es **nicht** ist: eine Aussage darüber, welche der beiden
+Ursachen häufiger auftritt — dafür ist die Basis mit je einem Verfahren zu schmal.
+
+### Die Bezugsgrösse wechselt mit der Bauaufgabe (neu aus der Zusammenführung)
+
+Eine universelle Wirtschaftlichkeits-Kennzahl gibt es in den drei Verfahren nicht. Die Jury wählt
+die Bezugsgrösse nach der **Nutzungseinheit der Bauaufgabe**:
+
+| Verfahren | Bauaufgabe | gemessen wurde | Beleg |
+|---|---|---|---|
+| 2102 Muttenz | Schulbau | GF und GV als **Feldposition** gegen die Konkurrenz | «grösste Geschossfläche wie auch das grösste Volumen» (S. 40) gegen den Sieger «im Bereich des Mittelfeldes knapp unter dem Mittelwert», «Dasselbe gilt für die Kosten» (S. 22) |
+| 2101 KSSG H14 | Gesundheitsbau (ambulant) | **CHF je Nutzfläche** | «bietet INSERE am meisten Nutzfläche und weist in Bezug auf die Erstellungskosten ein gutes CHF/NF-Verhältnis auf» (S. 22) |
+| 2205 Guggerbach | Alterswohnen | **Erstellungskosten pro Wohnung** | «Die Erstellungskosten pro Wohnung sind im oberen Durchschnitt, so dass mit einer mittleren Wirtschaftlichkeit zu rechnen ist.» (Sieger Sonnenblume, S. 19) |
+
+Ergänzend aus dem externen Katalog dieselbe Logik als Verhältniszahl: Flächeneffizienz GF/NF
+(LUKS Sursee, der Sieger mit einem «Flächeneffizienzwert von 1.64»,
+[[extern/jurybericht-luks-sursee-schwyzermatt]]) und Hüllflächenzahl (Sihlsana Adliswil, ein
+Beitrag erfüllt das Kriterium «mit einer entsprechend erhöhten Hüllflächenzahl nicht ganz»,
+[[extern/jurybericht-alterszentrum-sihlsana-adliswil]]).
+
+**Praktische Folge:** Vor Abgabe ist nicht «die Kompaktheit» nachzuweisen, sondern die
+Bezugsgrösse zu bestimmen, welche die Ausloberin für diese Bauaufgabe rechnen lässt — und dann
+diese. Im Wohnungsbau ist es die Wohnung, im Gesundheitsbau die Nutzfläche, im Schulbau die
+Feldposition der Absolutwerte.
+
+### Kompaktheit ist ein Drittel eines Teilurteils, nicht das Urteil (Beleg 2205)
+
+Der Jurybericht 2205 bewertet die Wirtschaftlichkeit über eine **feste Dreier-Formel**, die in
+**elf** Projektwürdigungen an derselben Stelle des Absatzes wiederkehrt (elf Vorkommen des
+Schlusssatzes «… Wirtschaftlichkeit zu rechnen ist»): Kompaktheit, dann Eingriffstiefe in
+Baugrund und Bestand («Baugrundsicherungen/ Unterfangungen» und «statische Eingriffe» im Haus A),
+dann Erstellungskosten pro Wohnung. Erst daraus folgt das Wirtschaftlichkeits-Prädikat.
+**Kompaktheit ist darin ein Drittel des Teilurteils** — was erklärt, weshalb ein sehr kompakter
+Beitrag mit ungünstiger Eingriffstiefe schlechter dasteht als ein mittelmässig kompakter ohne sie.
+Dass die Formel als Raster abgefragt und nicht als Einzelkritik formuliert wurde, ist an der
+gleichlautenden Satzstellung in allen elf Würdigungen ablesbar.
+
+### Die Asymmetrie: die Kennzahl kann den Sieg kosten, aber nicht kaufen
+
+Drei unabhängige Belege:
+
+- **2205, der sauberste Fall:** «Tetris» (3. Rang) ist «sehr kompakt» und «Die Erstellungskosten
+  pro Wohnung sind im Vergleich gering, so dass mit einer guten Wirtschaftlichkeit zu rechnen
+  ist.» (S. 28) — die beste Wirtschaftlichkeitsbeurteilung des Feldes. Der **Sieger**
+  «Sonnenblume» ist «mittelmässig kompakt» mit «mittlerer Wirtschaftlichkeit» (S. 19). Die
+  bestbewertete Wirtschaftlichkeit gewann nicht.
+- **2102:** Der Sieger «hannes» wurde für **beide** Grössen gerügt, die den eigenen Beitrag
+  kosteten: «Das Ensemble aus zwei getrennten Baukörpern führt zu einem eher grossen Footprint.
+  Das Gesamtresultat wird weiter getrübt durch das grosse unterirdische Volumen.» (S. 22) — und
+  gewann, weil GF, GV und Kosten in der Feldmitte lagen und der Betrieb überzeugte («Die
+  Aufteilung und Anordnung der verschiedenen Räume ist optimal für den Schulbetrieb.», S. 22).
+  **Damit war das unterirdische Volumen in 2102 nicht der trennende Faktor** — es wurde bei beiden
+  Projekten gerügt. Getrennt hat allein die Feldposition der Absolutwerte. Diese Präzisierung
+  korrigiert die Lesart der S7-Schärfung aus Vertiefungslauf 02, welche den Sieger nur beim
+  Footprint gerügt sah.
+- **Niederrohrdorf** (extern, in `muster/jury-argumente-schulbauten.md` Abschnitt 3 Punkt 7
+  belegt): Rang 2 lag unter den Kosten des Siegers und gewann trotzdem nicht.
+
+### Handlungsregel (maschinell prüfbar)
+
+1. **Bezugsgrösse zuerst bestimmen** (Wohnung / Nutzfläche / Feldposition GF und GV) und den
+  Nachweis darauf ausrichten, nicht auf den Fussabdruck.
+2. **Absolut:** GF und GV gegen die erwartbare Feldmitte schätzen; Zielkorridor Mittelwert oder
+  knapp darunter (deckt sich mit Befund 4).
+3. **Verhältnis:** GF/NF und Hüllfläche/GF ausweisen, nicht nur die Nutzfläche.
+4. **Treiber benennen:** jede UG-Fläche, jeden zusätzlichen Baukörper und jeden Eingriff in
+  Baugrund oder Bestand ausdrücklich begründen, statt ihn mit dem Fussabdruck-Argument zu
+  übertönen. Der Fussabdruck bleibt ein städtebauliches Argument und ist dort wertvoll — als
+  Wirtschaftlichkeitsargument ist er in 2 von 2 eigenen Verfahren kassiert worden.
+
+Zuständige Agenten: `flaechen-nachweis` (2 und 3), `grobkosten-onepager` (1 und 2),
+`programm-pruefer` (4 als Prüfzeile «Mehrkostentreiber benannt und begründet?»).
 
 ## Befund 5 — Koerper-Gliederung bei gemischten Massstaeben, EIN Koerper bei gleichartigem Programm
 

@@ -3,6 +3,123 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 24.08.2026 (06:55 bis 07:30, planmässig, Montag)
+
+Zur Übernahme durch den Hub-Chef um 08:39. Kein eigener Mailversand: der Chef-Lauf vom 23.08. ist
+gelaufen (Briefing 09:05 gesendet, 4'673 Zeichen), und kein Punkt verlangt Handeln vor 08:39. Die
+einzige Frist des Tages, das TeKoSi-Türkonzept, liegt bei der Gegenseite.
+
+### Erledigt seit gestern
+
+**Die dritte Nachfassung an L. Bajrami ist um 07:07:50 hinausgegangen.** Das Widerrufsfenster des
+Vorgangs 260823-085517-38206 lief ohne STOP ab, die Queue führte ihn um 07:04 aus, die Mail liegt
+belegt in den Gesendeten Elementen (an livdin.bajrami@jegen.ch, Betreff «KISPI PPTS Los 274.01:
+Termin Massaufnahme innere Verglasung»). **Damit ist die offene Frage des Chefs vom 23.08.
+beantwortet: Apple Mail lässt sich aus dem launchd-Kontext steuern.** Ein Detail für das nächste
+Mal: um 07:09 lag die Mail noch im Postausgang, obwohl Log und Queue schon «ausgeführt» schrieben,
+weil das Script die AppleScript-Rückmeldung quittiert und nicht die Zustellung. Bis 07:20 war sie
+draussen. Wer den Versand belegen will, prüft die Gesendeten, nicht die Logzeile.
+
+**Beide Submissionspakete liegen in der Projektstruktur.** Der Mac Mini hat die zwei Sync-Tasks um
+00:09 abgearbeitet; die Ziele sind heute am Original nachgemessen. LOS 281.21 Linoleum
+Therapieküche liegt vollständig im Ordner INEVO AG, das LV Plattenarbeiten Nasszellen im
+bestehenden Los 281.63 und ohne MD-Datei gespiegelt in die für Dritte zugängliche
+KISPI-Bibliothek. Die zwei Registerzeilen «wartet auf den Mac Mini» sind damit erledigt. Beiläufig
+hat das Script eine offene Frage entschieden, indem es den bestehenden Los-Ordner 281.63 nahm statt
+ein eigenes Los zu eröffnen; das ist eine Ablageentscheidung, Raphaels Sachentscheid zur
+Loszuordnung bleibt offen.
+
+**Der Förderkredit-Befund der KB energie ist aufgelöst:** Rahmenkredit Förderprogramm Energie ZH,
+KRNr 6064, Zustimmung 17.08.2026 mit 172 Stimmen, Ausgabenbremse erfüllt. Keine Förderlücke im
+zweiten Halbjahr 2026.
+
+### Aus unseren Gesprächen
+
+**Der Vollschub vom Sonntag.** Auf die Frage, ob das Wochenkontingent noch am Sonntag auf 100 %
+gebracht werden kann, war die gemessene Antwort nein, und zwar um Faktor zwei bis drei: nötig
+gewesen wären 5.2 Mio Token pro Stunde, das Sechzehnfache des Wochendurchschnitts. Auf
+ausdrückliche Anweisung liefen trotzdem zwölf gegatete Läufe über drei Stationen. Gewirkt hat es:
+Stand heute 07:10 sind 150.68 von rund 167 Mio verbraucht, also 90.2 % bei 97.1 % verstrichener
+Woche, gegenüber einem Rückstand von 54.6 Punkten am Vortag. Die 100 % blieben wie vorhergesagt
+ausser Reichweite. **Reset heute 12:00.**
+
+**Ein Zugangs-Token ist offengelegt.** Beim Einbinden der Revendo-Station wurde deren OAuth-Token
+im Klartext ins Gespräch kopiert. Er ist ein Jahr gültig und gibt vollen Kontozugriff; verwendet
+oder in eine Datei geschrieben wurde er nicht, aber ein Geheimnis in einem Transkript ist keines
+mehr. **Aktion: auf der Revendo-Station `claude setup-token` ausführen.** Neu im Register.
+
+**Eine dritte Station ist aufgetaucht und nachgetragen.** `macbook-pro-von-revendo`, mit 32 GB und
+12 Kernen die stärkste der drei Maschinen, war in keinem Hub-Register geführt und steht jetzt im
+Setup-Konnektor. Zwei Fallen sind entschärft: der Stationsname unterscheidet sich vom Haupt-MacBook
+nur in der Gross-/Kleinschreibung und hätte auf dem NAS still dessen Messdatei überschrieben
+(behoben im Script, nicht an den Systemeinstellungen); und Fernstarts sind dort nicht möglich, weil
+die CLI nur am GUI-Schlüsselbund angemeldet ist. Die Gegenmessung von dort präzisiert den
+bekannten Mini-Punkt: Tailscale ist auf dem Mac Mini seit etwa dem 20.08. offline.
+
+**Die KB energie hat ein Audit mit dreizehn Agenten hinter sich.** 49 Befunde, 47 halten der
+Gegenprüfung stand. Der Satz, auf den es ankommt: kein einziger Befund stammt aus einer externen
+Quelle, die KB widersprach sich selbst. Gebaut wurde ein maschineller Prüfer, der die Fehlerklasse
+künftig findet. Kein Fristenthema, aber ein Qualitätsmuster, das auch die anderen KBs betrifft.
+
+**Der Runner läuft im Leerlauf, und zwar breiter als gestern gemeldet.** Die Registerzeile von
+05:29 nennt den SIA-Sweep. Die eigene Auszählung des Lauf-Journals zeigt für 00:05 bis 07:08
+**566 Läufe über rund fünfzig Auftragsnamen, davon 437 mit rc≠0** und durchgehend derselben Meldung
+«You've hit your session limit». Der Runner startet gegen eine geschlossene Tür neu, statt bis zum
+Reset zu warten. Kostenbild: 352.64 USD API-Äquivalent in sieben Stunden, davon 320.80 auf die 129
+erfolgreichen Läufe. Das ist die Folge des Vollschub-Auftrags, kein eigenständiger Defekt, und mit
+dem Reset um 12:00 fällt der Auslöser nicht von selbst weg. **Aktion Raphael: den Runner stoppen
+oder entzerren** (Claude greift nach Rule `interaktive-eingriffe` nicht selbst in Cron und Runner
+ein).
+
+### Überfällig
+
+**bexio antwortet den sechzehnten Tag mit HTTP 401**, heute erneut gegengemessen. Der Token läuft
+erst am 13.12.2026 ab, die Sitzung dahinter wurde serverseitig beendet. Alle fünf überfälligen
+Positionen bleiben ungemahnt, weil ohne verifizierten Zahlstatus kein Mahn-Guard greift. Löst nur
+ein neuer Personal Access Token in `~/.bexio.env`.
+
+### In den nächsten 7 Tagen
+
+Heute, 09:00 bis 09:30, Teams: Abgleich und Status PPTS mit C. Schaefer, C. Allerkamp und
+A. Spahic.
+
+Heute läuft die Frist des von TeKoSi zugesagten korrigierten Türkonzepts zuhanden der
+Bauherrschaft ab; eingegangen ist bis 07:15 nichts, der Ball liegt bei L. Hiltmann, JANS hat
+geliefert.
+
+Dienstag 25.08.: Frist der heute versandten Nachfassung, bis wann Jegen den Massaufnahme-Termin
+nennt.
+
+Mittwoch 26.08., 13:00 bis 14:00, ASS.B PPTS: Treffen mit O. Stadelmann (Organisation M. Spörri,
+dazu F. Würsch, S. Gerber, A. Spahic).
+
+Donnerstag 27.08., 13:00 bis 14:00, Teams: Koordinationssitzung Gruner/Jans/KISPI. Der Begleittext
+der Einladung sagt weiterhin «Zwei-Wochen-Rhythmus»; massgeblich sind die Termininstanzen, und die
+liegen wöchentlich.
+
+Heute 12:00: Reset des Wochenkontingents.
+
+### In Beobachtung
+
+Gastzugriff SharePoint: L. Bajrami läuft am 07.09.2026 ab, L. Hiltmann am 22.09.2026, von neunzehn
+Externen genau diese zwei. Küchenbodenentscheid FB70 gegen Linoleum vor der Ausschreibung
+LOS 281.21. Vier Materialisierungsentscheide des Küchenbauers. Formatwiderspruch FB70/FB71 bei den
+Plattenarbeiten sowie Loszuordnung 281.63, Bemusterung Wandbelag, Raumliste Klasse IV und Termine.
+Freigabe der Prinzippläne liegt seit dem 18.08. bei Raphael. Unbeantwortete Gartenmail von
+S. Tschopp, am 22.08. ohne Begleittext an P. Weisser weitergeleitet. M365-Speicher bei 81.83 %.
+Tailscale auf dem Mac Mini gestoppt, Mini seit etwa 20.08. offline. Normen-Entscheide N60-1 und
+N60-2.
+
+### Vorschlag Kalendereinträge
+
+Keine. Die drei Termine der Woche stehen bereits im Kalender, die Fristen brauchen keinen Eintrag.
+
+### Token-Tempo
+
+Vortag 23.08.2026: MacBook Pro 577.42 Mio Token / 390.93 USD, Mac Mini 1'619.20 Mio Token /
+621.88 USD, Summe rund 2'196.62 Mio Token / 1'012.81 USD API-Äquivalent (die Revendo-Station ist in
+diesen zwei Messungen nicht enthalten).
+
 ## Abo-Auslastung 23.08.2026 (18:07, wöchentlicher Check Mac Mini) — GRÜN, 42 %, Tempo 0.47
 
 **Der Lauf hat stattgefunden.** Letzter Lauf 16.08. 18:06, Abstand genau 7 Tage — kein

@@ -57,6 +57,14 @@ TERMIN_SPRACHE = re.compile(
 CHF_ZEILE = re.compile(r"CHF\s?[\d'’.]{3,}|[\d'’.]{3,}\s?(CHF|Fr\.)|Rp\./kWh")
 JAHRESZAHL = re.compile(r"(19|20)\d{2}")
 
+# Norm-/Richtliniennummern wie «DIN 1946-4» oder «EN 1992-1» faellen sonst als vermeintliche
+# Jahreszahl in die blosse-Jahr-Rueckfallebene von monate_alt() (Fund 24.08.2026: DIN 1946-4
+# in `swki-lueftung-gesundheitsbau-hygiene-energie.md` ergab 962 Monate statt eines echten
+# Alters). Vor der Jahres-Extraktion wird der Zahlenteil solcher Bezeichnungen entfernt.
+NORMBEZEICHNUNG = re.compile(
+    r"\b(?:DIN|ISO|SIA|EN|SN|SNV|VDI|VKF|prEN|ÖNORM|CEN)\s?(?:19|20)\d{2}(?:[/-]\d+)?\b"
+)
+
 
 def frontmatter(text):
     """Zeilenweise statt mit yaml: die KBs enthalten Frontmatter-Werte mit Doppelpunkten,
@@ -78,6 +86,7 @@ def monate_alt(roh, heute):
     """Massgeblich ist die JUENGSTE Jahresangabe im Feld. Viele datenstand-Felder sind
     Fliesstext («Rechtsbasis EnG 2016 + revidierte EnV, Stand 01.01.2025») — wer dort die
     erste Zahl nimmt, meldet ein taggenau gepflegtes Destillat als zehn Jahre alt."""
+    roh = NORMBEZEICHNUNG.sub(" ", roh or "")
     kandidaten = []
     for jahr, monat in re.findall(r"(\d{4})-(\d{2})", roh or ""):
         kandidaten.append((int(jahr), int(monat)))

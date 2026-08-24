@@ -1,5 +1,42 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session (neunte Fortsetzung): Werkzeug-Fehler in `datenstand-waechter.py` behoben (DIN-1946-4 als Jahr 1946 misgelesen), A-WERKZEUG-Restfrage stichprobenartig entwarnt
+
+Auftrag: weitere offene Punkte aus `wiki/QUESTIONS.md` abarbeiten, Anschluss an die achte
+Fortsetzung. Der verbliebene `- [ ]`-Bestand (11 Checkboxen) ist bis auf A-WERKZEUG entweder an
+Raphaels Entscheid gebunden (Normkauf, ecoBKP-Konsolidierung, JANS-Projektdaten für E103) oder
+bereits erschöpfend dokumentierter Negativbefund.
+
+**A-WERKZEUG:** die von der ersten Teilabarbeitung offen gelassenen ~30 «Alterskorpus-Destillate
+≥ 18 Monate» stichprobenartig geprüft — 21 FAQ-Zitierstellen einzeln im vollen Absatz gelesen (u.a.
+`glasbauten-hoher-glasanteil-sia2021`, `innendaemmung`, `duschwasser-waermerueckgewinnung-joulia`,
+`ahb-checkliste-solarstromanlagen-2008`, `sia-2060-kosten-ladeinfrastruktur-vertiefung`). **In
+jedem geprüften Fall trägt die FAQ-Stelle bereits einen Alters-/Vorbehaltshinweis** — kein echter
+Propagations-Fehler gefunden. Für die hochzitierten ZEV/PV-Destillate (8-12 Zitate je Slug) bleibt
+eine vollständige Einzelprüfung offen für einen künftigen Lauf; ein grober Häufigkeits-Scan zeigt
+dort niedrigere Warnquoten, ist aber methodisch nicht belastbar genug für eine Aussage.
+
+**Echter Fund: `wissen/tools/datenstand-waechter.py` meldete einen Falsch-Positiv.**
+`swki-lueftung-gesundheitsbau-hygiene-energie.md` (energie) wurde mit «962 Monate alt» geflaggt,
+weil die bare-Jahr-Rückfallebene von `monate_alt()` die Norm-Bezeichnung **DIN 1946-4** als
+Jahreszahl 1946 las. Behoben: neue Konstante `NORMBEZEICHNUNG` entfernt Norm-/Richtliniennummern
+(DIN/ISO/SIA/EN/SN/SNV/VDI/VKF/prEN/ÖNORM/CEN + vierstellige Zahl) vor der Jahres-Extraktion.
+Verifiziert: die Datei liefert jetzt korrekt kein Alter mehr (statt 962 Monate), der volle
+`energie`-Lauf zeigt 39 statt 40 Treffer, der KB-übergreifende Lauf bleibt lauffähig (420 Treffer,
+keine neue Exception). Der Fehler betraf potenziell jede KB mit Norm-Zitaten dieser Form
+(«EN 1992», «ISO 1940» u.ä.), nicht nur `energie` — die Werkzeugreparatur wirkt KB-übergreifend.
+
+Zusätzlich zwei stale «Prüfstichtag 17.08.2026 verstrichen»-Treffer in `QUESTIONS.md` (Z. 1577,
+1617) mit einem Nachtrags-Vermerk versehen, ohne den historischen Text zu ändern — die Sache
+(KRNr 6064 Rahmenkredit) ist seit 24.08.2026 belegt erledigt (`logbuch/fristen.md`); das Werkzeug
+wird die Zeilen weiterhin melden (by design), der Nachtrag macht aber sofort sichtbar, dass keine
+neue Prüfung nötig ist.
+
+Eingearbeitet: `wissen/tools/datenstand-waechter.py`, `wissen/energie/wiki/QUESTIONS.md`. `git
+diff --numstat` geprüft: beide Dateien rein additiv (+4/-0 bzw. +9/-0), keine fremde Löschung.
+Kein `outputs/`-Report — kein neuer Fachkennwert, sondern ein Werkzeug-Fix plus eine
+Stichproben-Entwarnung.
+
 ## 2026-08-24 — Interaktive Session (achte Fortsetzung): neuer Rechercheweg (ECOSPEED AG) für die Gesundheitsbau-Performance-Gap-Lücke dokumentiert, kein Zahlenwert gewonnen
 
 Auftrag: weitere offene Fragen aus `wiki/QUESTIONS.md` abarbeiten. Bestand gegen den aktuellen

@@ -718,6 +718,36 @@ mehr offen ausser VB 94/0016 und der neuen Kantonsrats-Beobachtung; sonst regul�
 `last_updated`: `wiki/geschosse-und-kniestock.md`, dessen Kniestock-Teil in der Re-
 Verifikationskette bisher nicht angefasst wurde).
 
+**Run 126 (2026-08-24, ausserhalb T1-T9):** Modell-D-Stichprobe an [[geschosse-und-kniestock]]
+(Kniestock-Rechtsprechung). VB.2003.00370 korrigiert (Galerie bei 1,5 m Breite NICHT
+anrechenbar, nicht «Richtwert ab 1,5 m»), VB.2007.00383 CONFIRMED wortgleich, VB.2003.00051 im
+Suchindex nicht auffindbar. Report `outputs/2026-08-24_buch-run126.md`.
+
+**Run 127 (2026-08-24, ausserhalb T1-T9):** Zugriffsweg für VB 94/0016 abschliessend geprüft —
+Jahrgang 1994 im Index von `entscheidsuche.ch` statistisch nicht vorhanden (0 Treffer
+1991-1995), kein freier digitaler Weg mehr offen; kostenpflichtige Bestellung beim Gericht als
+Option im Wiki vermerkt. Report `outputs/2026-08-24_buch-run127.md`.
+
+**Run 128 (2026-08-24, ausserhalb T1-T9):** Modell-D-Stichprobe an
+[[nebenbestimmungen-und-reverse]] (seit Ersterstellung nie erneut geprüft, Run-127-Empfehlung).
+Dabei zwei stale Restschuld-Vermerke aus Run 11 (19.06.2026) gefunden und aufgelöst — Kap. 7
+war seit Run 12 vollständig distilliert, der Kostenentscheid-Abschnitt stand bereits im
+Buch-Destillat, aber nie im Wiki. Neuer Wiki-Abschnitt «Kostenentscheid bei mehreren
+Beteiligten» ergänzt; dabei zwei Fehlzuordnungen amtlich aufgelöst: **«§ 340f PBG» existiert
+nicht** (PBG kennt nur §§ 340/340a), **«§ 3 VRG» war falsch zugeordnet** (ist eine
+Zuständigkeits-Vorbehaltsnorm, richtig ist § 17 Abs. 2 VRG, Parteientschädigung/Amtsstelle);
+§§ 13/14 VRG CONFIRMED wortgleich gegen frisches PDF Nachtrag 133. RB 1992 Nr. 77 bleibt aus
+Datenbank-Gründen offen (gleiche Fallfamilie wie VB 94/0016). Neue Primärquelle
+`raw/260824_amtlich_zh_vrg-par3-par17.md`. Report `outputs/2026-08-24_buch-run128.md`.
+
+**Nächster Schritt:** kein Fachpunkt mehr offen ausser den drei aus Datenbank-Gründen
+unverifizierbaren Zitaten (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77) und der registrierten
+PBG-Teilrevision «Baulinien» als Fassungsstand-Wachposten. Kandidaten: regulärer
+`wissenscheck`-Turnus, Modell-D-Stichprobe an [[ausnuetzungsuebertragung]]/[[nutzungsziffern]]
+(zuletzt 2026-07-25/Run 55) oder an `wiki/geschosse-und-kniestock.md` (Restteile ausserhalb der
+in Run 126 geprüften Kniestock-Rechtsprechung), oder ein `connectors/WEGE.md`-Nachtrag für die
+in Run 126 gefundene `entscheidsuche.ch`-Such-API (bisher nicht registriert).
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme
