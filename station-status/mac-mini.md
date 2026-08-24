@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 00:00:12
+Stand: 25.08.2026 00:10:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:36)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 25.08.2026 00:00:12
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- d3e4a8d6c nas-selfcommit: 19 Datei(en) 2026-08-25 00:00
+- c2c5024f6 baurecht Buch-Run 140: Diskrepanz aus Run 137 aufgeloest — die Wiederaufbau-Regel steht in Art. 42 Abs. 4 RPV, nicht in Art. 24c Abs. 2 RPG; zwei vertauschte Schwellenwerte korrigiert (Halb-Anrechnung gilt INNEN, 60-%-Innenschwelle fehlte, Art. 42 Abs. 3 lit. a/b + Art. 43 Abs. 2 RPV); vier Fassungsstands-Nachtraege RPV-Revision 1.1.2026; RPG-Aenderungsumfang aus Run 103 geklaert (nur Sachueberschrift); Fedlex-Werkzeugfallen dokumentiert
