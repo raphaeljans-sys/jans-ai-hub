@@ -551,9 +551,10 @@ Abschnitt 4 (HOSPES), zeigt aber die andere Flanke derselben Asymmetrie.
    Fläche ausserhalb des Bildes liegt, das der Fussabdruck zeigt (in 2102 darunter, in 2205
    daneben). Zwei Züge kommen dort hinzu, die dieser Abschnitt nicht sehen konnte: die
    **Bezugsgrösse wechselt mit der Bauaufgabe** (Wohnung / Nutzfläche / Feldposition GF und
-   GV), und die Kennzahl **kann den Sieg kosten, aber nicht kaufen** — in 2205 trug der
-   3. Rang «Tetris» die beste Wirtschaftlichkeitsbeurteilung des Feldes, der Sieger nur eine
-   mittlere.
+   GV), und die Kennzahl **kann den Sieg kosten, aber nicht kaufen** — in 2205 erreichen
+   nur zwei Beiträge die oberste Wirtschaftlichkeitsstufe («gute»), der 3. Rang «Tetris» und
+   der nicht prämierte «Talis»; der Sieger «Sonnenblume» trägt eine «mittlere». Beide Träger
+   der Bestnote gewannen nicht.
 2. **H9 — Geltungsbereich einschränken: das Muster stammt aus dem stationären Pflegebau.**
    In 2101 zeigt der Bericht ein lückenloses Gegenbild: die drei Beiträge mit Holz- oder
    Hybridtragwerk belegen die Ränge 5, 6 und 7 (03 BETULA PAPYRIFERA «ein Hybrid von einer

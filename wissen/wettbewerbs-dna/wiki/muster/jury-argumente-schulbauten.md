@@ -507,8 +507,11 @@ gewann trotz schlechterem Fussabdruck, weil die Gesamtkennwerte stimmten.
 «ein eher grosser Footprint» als wörtliches Zitat; der Bericht sagt «Das Ensemble aus zwei
 getrennten Baukörpern führt zu einem eher grossen Footprint.» Der Satz geht ausserdem weiter,
 und das ändert die Lesart: «Das Gesamtresultat wird weiter getrübt durch das grosse
-unterirdische Volumen.» **Der Sieger wurde also für BEIDE Grössen gerügt, die 2102 kosteten
-— Footprint und unterirdisches Volumen — und gewann trotzdem.** Damit war das unterirdische
+unterirdische Volumen.» **Der Sieger wurde also ebenfalls für Footprint UND unterirdische Masse
+gerügt und gewann trotzdem.** Die Begriffe der beiden Würdigungen sind dabei nicht deckungsgleich:
+beim Sieger nennt der Bericht ein «grosse[s] unterirdische[s] Volumen», beim eigenen Beitrag einen
+«grossen unterirdischen Fussabdruck» und separat das «grösste Volumen» ohne den Zusatz
+«unterirdisch». Damit war das unterirdische
 Volumen in diesem Verfahren nicht der trennende Faktor; getrennt hat allein die Feldposition
 der Absolutwerte GF, GV und Kosten. Die vollständige Zusammenführung dieser Beobachtung mit
 H8 aus dem Healthcare-Katalog steht als Befund 4a in [[muster/delta-zum-ersten-rang]]

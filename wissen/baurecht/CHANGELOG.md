@@ -3,6 +3,48 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 132: offene Frage aus Run 131 geschlossen — Art. 7 Ziff. 1 EMRK über österreichische RIS-Kundmachung CONFIRMED, Schweizer Fedlex bleibt an dieser Station komplett unerreichbar
+- ANLASS: Buch-Run 131 hinterliess als einzigen neuen offenen Punkt die Nichtverifizierbarkeit von
+  Art. 7 Ziff. 1 EMRK an dieser Station (Fedlex liefert nur die App-Hülle). Kein paralleler
+  Baurecht-Konkurrenzlauf zum Zeitpunkt dieses Laufs aktiv (`ps aux` geprüft; zwei parallele
+  `energie`-Läufe liefen an anderer KB, keine Kollision).
+- GEPRÜFT: Fedlex-Filestore für SR 0.101 (ELI `1974/2151_2151_2151`) mit zwölf
+  Konsolidierungsdaten (19740101, 19981101, 20180101-20260101) durchprobiert — durchgehend nur die
+  9'148-Byte-App-Hülle, kein Volltext. `echr.coe.int/documents/convention_deu.pdf` liefert eine
+  Cloudflare-Challenge-Seite statt eines PDF. **Beide bisher dokumentierten Wege bestätigt
+  ausgeschöpft, kein neuer Fund über Fedlex/coe.int selbst.**
+- **Aufgelöst über einen dritten Weg:** die österreichische Bundesrechtssammlung RIS
+  (`ris.bka.gv.at`, Gesetzesnummer 10000308) kundmacht dieselbe Konvention amtlich (BGBl. Nr.
+  210/1958, tagesaktuelle Fassung geändert durch BGBl. III Nr. 30/1998/Protokoll Nr. 11). Da die
+  EMRK nur Englisch/Französisch als verbindliche Vertragssprachen kennt (Art. 59 EMRK), führen
+  die deutschsprachigen Signatarstaaten (Österreich, Deutschland, Schweiz, Liechtenstein) dieselbe
+  abgestimmte deutsche Übersetzung — der Wortlaut ist zwischen den amtlichen Kundmachungen
+  identisch. Zusätzlich gegen die vor Protokoll Nr. 11 gültige Fassung (03.09.1958-31.10.1998)
+  gegengelesen: Art. 7 ist in beiden Fassungen wortgleich (Protokoll Nr. 11 änderte nur die
+  Kontrollmechanismus-Artikel, nicht die materiellen Rechte Art. 2-18). **Ergebnis: CONFIRMED
+  wortgleich** mit der bisherigen Buch-Paraphrase (S. 98), kein Fehler.
+- NEU `raw/260824_amtlich_at_emrk-art7.md` (Volltext Art. 7 + Provenienz/Methode-Frontmatter,
+  klar als österreichische Kundmachung statt Schweizer Fedlex-Fassung gekennzeichnet).
+- GEÄNDERT `wiki/grundlagen-planungs-baurecht.md` (Blockquote + `verifiziert`/`sources`
+  nachgeführt), `wiki/QUESTIONS.md` (Punkt von OFFEN auf GEKLÄRT), `raw/_INGESTED.md` (neue
+  Zeile), `docs/referenz/fedlex-volltexte.md` (Nachtrag: EMRK an Fedlex/coe.int komplett
+  unerreichbar, Ausweichweg über RIS für multilaterale Verträge mit deutscher Fassung dokumentiert
+  — cross-KB nützlich für `normen`/`energie`/`firmengruendung-ch`), `training/KORPUS-QUEUE-
+  thalwil-reglemente.md` (Run-132-Eintrag nach etabliertem Muster).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv bzw. erwartete
+  Zeilenersetzung, keine unerwartete Löschung (`grundlagen-planungs-baurecht.md` 14/7 — reine
+  Frontmatter-/Blockquote-Ersetzung; `QUESTIONS.md` 22/11 — Statuswechsel OFFEN→GEKLÄRT derselben
+  Frage; `fedlex-volltexte.md` 18/0; `_INGESTED.md` 1/0; neue Raw-Datei ungetrackt/neu).
+- REPORT `outputs/2026-08-24_buch-run132.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9). Damit ist auch der von
+  Run 131 offen gelassene Punkt geschlossen. Verbleibend: drei Datenbank-bedingt unverifizierbare
+  Alt-Fallzitate (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77), der Baulinien-Wachposten (PBG-
+  Teilrevision «Baulinien», weiterhin nicht in Kraft) und [[geschosse-und-kniestock]] als fachlich
+  zurückgestellter Modell-D-Kandidat (drei offene `speculative`-Auslegungsfragen ohne Praxis).
+  Sonst kein offener Kandidat mehr in dieser KB; nächster Schritt regulärer `wissenscheck`-Turnus
+  oder eine neue Modell-D-Stichprobe, sobald ein Artikel älter als [[grundlagen-planungs-baurecht]]
+  wird.
+
 ## 2026-08-24 — Buch-Run 131: Modell-D-Wortlautabgleich [[grundlagen-planungs-baurecht]] — 10/10 Zitate CONFIRMED, echter Inhaltsfund statt Fehler (Art. 26/27 BV + Art. 1–10 ZGB standen seit Erstellung als Quelle im Frontmatter, nie im Fliesstext eingebaut)
 - ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (Run 87, bestätigt Run 130).
   Als Fortsetzung der Modell-D-Re-Verifikationskette (Runs 90-130) nannte Run 130 zwei Kandidaten

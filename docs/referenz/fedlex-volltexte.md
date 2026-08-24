@@ -53,6 +53,24 @@ als «Anhang nicht online lesbar» verbuchen (das war die urspruengliche Fehlein
 Route mit mehreren Konsolidierungsdaten probieren. Betrifft potenziell jede KB, die Bundesrecht per
 Filestore zitiert (`normen`, `baurecht`, `energie`, `firmengruendung-ch`).
 
+## Nachtrag 24.08.2026 (Buch-Run 131/132) — EMRK (SR 0.101) bleibt an Fedlex/coe.int komplett unerreichbar; Ausweichweg ueber oesterreichisches RIS
+
+Anders als bei GSchV/GSchG oben ist die EMRK (SR 0.101, ELI `1974/2151_2151_2151`) **an keiner
+Fedlex-Route** abrufbar: zwoelf getestete Konsolidierungsdaten (19740101, 19981101,
+20180101-20260101) liefern durchgehend nur die leere App-Huelle, sowohl ueber `www.` als auch
+ueber `fedlex.data.admin.ch`. Auch der direkte Weg zum Vertragsdepositar
+`echr.coe.int/documents/convention_deu.pdf` scheitert (Cloudflare-Challenge-Seite statt PDF).
+
+**Funktionierender Ausweichweg fuer die EMRK (und vermutlich weitere multilaterale Vertraege mit
+deutscher Fassung):** die oesterreichische Bundesrechtssammlung **RIS**
+(`ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=<Nr>&Artikel=<N>`) kundmacht
+denselben Vertragstext amtlich (fuer die EMRK: Gesetzesnummer `10000308`, BGBl. Nr. 210/1958).
+Da die EMRK nur Englisch/Franzoesisch als verbindliche Vertragssprachen kennt (Art. 59 EMRK),
+verwenden die deutschsprachigen Signatarstaaten (A/D/CH/FL) dieselbe abgestimmte deutsche
+Uebersetzung — der Wortlaut ist zwischen den amtlichen Kundmachungen identisch, auch wenn die
+Fundstelle selbst nicht schweizerisch ist. Bei Zitierung klar als solche kennzeichnen (nicht als
+SR-Fundstelle ausgeben). Beleg: `wissen/baurecht/raw/260824_amtlich_at_emrk-art7.md`.
+
 ## Verwandt
 
 - Rule `normen-referenz.md` — Fundstellenpflicht bei Normen (importiert).

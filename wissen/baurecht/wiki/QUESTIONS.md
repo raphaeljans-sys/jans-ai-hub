@@ -1,18 +1,29 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
-## 🔓 OFFEN seit 2026-08-24 (Buch-Run 131) — Art. 7 Ziff. 1 EMRK an dieser Station nicht amtlich verifizierbar
+## ✅ GEKLÄRT 2026-08-24 (Buch-Run 132) — Art. 7 Ziff. 1 EMRK über österreichische RIS-Kundmachung derselben Konvention CONFIRMED; Schweizer Fedlex selbst bleibt unerreichbar
 
 **Fundstelle:** `wiki/grundlagen-planungs-baurecht.md`, Abschnitt «Weitere Grundsätze», Beleg
-für «nulla poena sine lege» — zitiert nach dem Buch (S. 98), nicht amtlich gegengelesen.
+für «nulla poena sine lege».
 
-**Befund:** Fedlex liefert für die EMRK (SR 0.101, ELI `1974/2151_2151_2151`) an dieser Station
-weder über `www.fedlex.admin.ch` (77'151 Byte App-Hülle) noch über `fedlex.data.admin.ch`
-(9'148 Byte, alle getesteten Konsolidierungsdaten 2018-2026) einen echten Volltext — anders als
-bei GSchV/GSchG (Rule/Referenz `docs/referenz/fedlex-volltexte.md`, Nachtrag 23.08.2026) hat
-auch die `data.`-Ausweichroute hier nicht funktioniert. Für einen künftigen Lauf: Route über
-den Europarat (`coe.int`/HUDOC) oder eine SR-0.101-spezifische Fedlex-Variante probieren, dann
-`docs/referenz/fedlex-volltexte.md` um den Befund ergänzen. Sachlich nicht dringend — Art. 7
-Ziff. 1 EMRK ist eine Nebenbeleg-Fundstelle, keine tragende Norm dieser KB.
+**Ursprünglicher Befund (Buch-Run 131):** Fedlex liefert für die EMRK (SR 0.101, ELI
+`1974/2151_2151_2151`) an dieser Station weder über `www.fedlex.admin.ch` noch über
+`fedlex.data.admin.ch` einen echten Volltext.
+
+**Nachgeprüft (Buch-Run 132):** Fedlex bleibt für alle zwölf getesteten Konsolidierungsdaten
+(19740101, 19981101, 20180101-20260101) bei der leeren 9'148-Byte-App-Hülle; auch
+`echr.coe.int/documents/convention_deu.pdf` liefert eine Cloudflare-Challenge-Seite statt eines
+PDF (beide Routen bleiben damit bestätigt unerreichbar, kein neuer Ausweg über Fedlex/coe.int
+selbst gefunden). **Aufgelöst über einen dritten Weg:** die österreichische Bundesrechtssammlung
+RIS (`ris.bka.gv.at`) kundmacht dieselbe Konvention unter BGBl. Nr. 210/1958 (tagesaktuelle
+Fassung, geändert durch BGBl. III Nr. 30/1998). Da die EMRK nur Englisch/Französisch als
+verbindliche Vertragssprachen kennt (Art. 59 EMRK), verwenden die deutschsprachigen
+Signatarstaaten (A/D/CH/FL) dieselbe abgestimmte deutsche Übersetzung — der Wortlaut ist
+zwischen den Kundmachungen identisch. Zusätzlich gegen die vor Protokoll Nr. 11 gültige Fassung
+(1958-1998) gegengelesen: Art. 7 ist in beiden Fassungen wortgleich (Protokoll Nr. 11 änderte nur
+die Kontrollmechanismus-Artikel, nicht die materiellen Rechte). **CONFIRMED wortgleich** mit der
+bisherigen Buch-Paraphrase, kein Fehler. Neue Primärquelle
+`raw/260824_amtlich_at_emrk-art7.md`; `docs/referenz/fedlex-volltexte.md` um den Befund und den
+Ausweichweg ergänzt.
 
 ## ✅ GEKLÄRT 2026-08-24 (Buch-Run 128) — Kostenentscheid-Abschnitt [[nebenbestimmungen-und-reverse]] nachgetragen, «§ 340f PBG» als nicht existent und «§ 3 VRG» als falsch zugeordnet erkannt (richtig § 17 Abs. 2 VRG), stale Restschuld-Vermerke in Kap.-7-Destillat aufgelöst
 

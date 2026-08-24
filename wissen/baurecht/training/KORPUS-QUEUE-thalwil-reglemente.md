@@ -783,6 +783,21 @@ dieser KB ausser den drei Datenbank-bedingt unverifizierbaren Zitaten, dem Bauli
 Wachposten und einem allfälligen Ausweg für den EMRK-Fedlex-Zugriff (Kandidat für
 `docs/referenz/fedlex-volltexte.md`); sonst regulärer `wissenscheck`-Turnus.
 
+**Run 132 (2026-08-24, ausserhalb T1-T9):** die von Run 131 offen gelassene Frage geschlossen —
+Art. 7 Ziff. 1 EMRK bleibt an der Schweizer Fedlex-Quelle selbst unerreichbar (zwölf
+Konsolidierungsdaten durchprobiert, nur App-Hülle; auch `echr.coe.int` liefert eine
+Cloudflare-Challenge statt Text), aber über die österreichische RIS-Kundmachung derselben
+Konvention (BGBl. Nr. 210/1958, Gesetzesnummer 10000308) **CONFIRMED wortgleich** aufgelöst — die
+EMRK kennt nur Englisch/Französisch als Vertragssprachen (Art. 59 EMRK), die deutschsprachigen
+Signatarstaaten führen dieselbe abgestimmte Übersetzung. Zusätzlich gegen die vor Protokoll Nr. 11
+gültige Fassung (1958-1998) gegengelesen: Art. 7 selbst unverändert. Neue Primärquelle
+`raw/260824_amtlich_at_emrk-art7.md`; `docs/referenz/fedlex-volltexte.md` um den Befund und den
+RIS-Ausweichweg ergänzt (cross-KB nützlich für `normen`/`energie`/`firmengruendung-ch`). Report
+`outputs/2026-08-24_buch-run132.md`. **Nächster Schritt:** kein Fachpunkt mehr offen ausser den
+drei Datenbank-bedingt unverifizierbaren Alt-Fallzitaten (VB 94/0016, VB.2003.00051, RB 1992
+Nr. 77), dem Baulinien-Wachposten und dem fachlich zurückgestellten [[geschosse-und-kniestock]];
+sonst regulärer `wissenscheck`-Turnus.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme
