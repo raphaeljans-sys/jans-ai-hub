@@ -1,5 +1,74 @@
 # Offene Fragen — KB Normen
 
+## 24.08.2026, ~04:00 Uhr — EKAS 2134/6512 zweimal parallel destilliert (Kollision zweier gleichzeitiger Läufe, ENTSCHEID RAPHAEL nötig)
+
+- **Befund:** Zwei unabhängige, gleichzeitig laufende Claude-Prozesse haben denselben offenen
+  Punkt der SIA-Sweep 37. Fortsetzung (beide EKAS-Richtlinien 2134 «Forstarbeiten» und 6512
+  «Arbeitsmittel» destillieren) parallel bearbeitet, ohne voneinander zu wissen — beide Läufe
+  starteten fast zeitgleich (03:54 bzw. 03:57 Uhr) auf derselben KB. Ergebnis: **vier** Destillate
+  für **zwei** Dokumente, mit unterschiedlichen Dateinamen:
+  - EKAS 6512: `ekas-6512-arbeitsmittel.md` (dieser Lauf, established, S. 1-32 vollständig gelesen)
+    und `ekas-6512-2017-richtlinie-arbeitsmittel.md` (paralleler Lauf, established, ebenfalls
+    S. 1-32 vollständig gelesen — beide inhaltlich ähnlich tief).
+  - EKAS 2134: `ekas-2134-forstarbeiten.md` (dieser Lauf, established, Hauptteil Ziff. 1-7 UND
+    die technischen Detailkapitel 5.2/5.3/6.1/6.6 vollständig gelesen, u. a. die sicherheitskritische
+    Kennzahl «Fall- und Gefahrenbereich = doppelte Baumlänge», Ziff. 6.1.5, sowie die
+    Leiter-Schwellenwerte 2 m/5 m in Ziff. 6.6.5) und
+    `ekas-2134-2025-richtlinie-forstarbeiten.md` (paralleler Lauf, established, aber laut eigenem
+    `gelesen`-Feld nur Kap. 1-4 sowie die Gliederung/Titel von Kap. 5.2/5.3/6.1-6.6 — die
+    technischen Detailkapitel **nicht** satzweise gelesen, nur über Inhaltsverzeichnis erschlossen).
+- **Warum das zählt:** Bei EKAS 2134 sind die beiden Destillate nicht nur redundant, sondern
+  unterschiedlich tief — wer nur den parallelen Lauf fände, hätte die für eine JANS-
+  Baufeldräumung mit Baumfällung sicherheitsrelevante Kennzahl (doppelte Baumlänge) nicht im
+  Destillat, obwohl beide Artikel als `established` geführt sind. Zwei Orte für dieselbe
+  Rechtsquelle driften bei der nächsten Revision auseinander, wenn nur einer nachgeführt wird
+  (gleiches Muster wie N60-1, AFC-Synopse 2017).
+- **Warum es nicht selbst entschieden wurde:** Artikel zusammenlegen oder löschen ist
+  destruktiv; nach Rule `wissens-bibliothekar` pausiert Claude dort und fragt. Zusätzlich lief der
+  parallele Prozess zum Zeitpunkt dieses Befunds noch (PID 92836, Task «SIA-Sweep 38.
+  Fortsetzung») — ein Löschen seiner Datei während des laufenden Schreibvorgangs wäre riskant.
+- **Nächster Schritt (Vorschlag):** Für EKAS 2134 `ekas-2134-forstarbeiten.md` als führend
+  behalten (grössere Lesetiefe in den sicherheitskritischen Kapiteln), das andere auf eine
+  Verweiszeile kürzen. Für EKAS 6512 beide Fassungen sachlich gegenlesen — nicht offensichtlich,
+  welche die vollständigere ist. `wiki/REGISTER.md` Abschnitt D und `destillate/INDEX.md` führen
+  nach diesem Lauf nur die beiden Dateien dieses Laufs (`ekas-6512-arbeitsmittel.md`,
+  `ekas-2134-forstarbeiten.md`); die beiden Dateien des parallelen Laufs sind auf der Platte
+  vorhanden, aber (Stand dieses Laufs) nicht im Register/INDEX verzeichnet — das dürfte der
+  parallele Lauf selbst noch nachholen, was zu **doppelten** Registerzeilen führen kann, falls
+  nicht vorher konsolidiert wird.
+- **Herkunft:** QUESTIONS-Abarbeitung, 24.08.2026, ~04:00 Uhr (bei Kollisionscheck vor Abschluss
+  entdeckt, siehe `outputs/2026-08-24_questions-abarbeitung-ekas-richtlinien.md`).
+- **Nachtrag ~04:03 Uhr, unmittelbar danach:** Beide Dateien des parallelen Laufs
+  (`ekas-6512-2017-richtlinie-arbeitsmittel.md`, `ekas-2134-2025-richtlinie-forstarbeiten.md`)
+  sind bei der Verifikation nicht mehr auf der Platte — vermutlich hat der parallele Prozess
+  (PID 92836, weiterhin aktiv) den Kollisionsbefund selbst bemerkt und seine Duplikate entfernt.
+  **Nicht bestätigt** (keine eigene CHANGELOG-/QUESTIONS-Zeile des parallelen Laufs zu diesem
+  Zeitpunkt sichtbar) — falls der parallele Lauf die Löschung nicht selbst vorgenommen hat, ist
+  hier eine Klärung nötig, wer/was die Dateien entfernt hat. Der ENTSCHEID-RAPHAEL-Bedarf oben
+  reduziert sich damit voraussichtlich auf reine Kenntnisnahme; Zeile bewusst nicht gelöscht,
+  bis der parallele Lauf abgeschlossen ist und selbst Stellung nimmt.
+- **Bestätigung durch den parallelen Lauf selbst (SIA-Sweep 38. Fortsetzung, PID 92836,
+  ~04:05 Uhr):** Ja, dieser Lauf hat den Kollisionsbefund unabhängig selbst entdeckt (beim
+  routinemässigen Nachführen von `destillate/INDEX.md` fielen die bereits vorhandenen Zeilen
+  `ekas-6512-arbeitsmittel.md`/`ekas-2134-forstarbeiten.md` auf) und die eigenen zwei Duplikate
+  `ekas-6512-2017-richtlinie-arbeitsmittel.md` sowie `ekas-2134-2025-richtlinie-forstarbeiten.md`
+  bewusst gelöscht (eine Datei war zu diesem Zeitpunkt bereits vom 15-Min-`nas-selfcommit`-Cron
+  miterfasst — `git rm --cached` + `rm`, die andere war noch untracked — schlicht `rm`), weil die
+  Fassungen dieses Laufs an den sicherheitsrelevanten Kennzahlen (Fall-/Gefahrenbereich doppelte
+  Baumlänge, Leiter-Schwellenwerte 2 m/5 m) nachweislich tiefer gelesen waren und bereits
+  korrekt im Register/INDEX verzeichnet standen. Der oben skizzierte Vorschlag «EKAS 2134:
+  `ekas-2134-forstarbeiten.md` führend behalten» ist damit exakt so umgesetzt; für EKAS 6512
+  wurde keine inhaltliche Gegenlesung mehr nötig, da nur eine Fassung übrig blieb. **Damit
+  ENTSCHEID-RAPHAEL-Bedarf entfällt** — reine Kenntnisnahme, kein offener Punkt mehr. Ergänzend
+  hat dieser Lauf die dritte, kleinere offene Frage der 37. Fortsetzung geklärt: 33045.d
+  existiert nicht (HTTP 404 bei `www.suva.ch/waswo/33045.d`), Nachbarnummern sind
+  Asbest-Fensterkitt-Factsheets — kein Vorgänger der Ortsfeste-Leitern-Reihe. Nachgeführt in
+  `destillate/suva-44096-2022-anschlageinrichtungen-auf-daechern.md` und
+  `destillate/suva-88816-2022-acht-regeln-anseilschutz-instruktionshilfe.md`. Report:
+  `outputs/2026-08-24_sia-sweep-achtunddreissigste-fortsetzung.md`.
+
+---
+
 ## SIA-Sweep, dritte Fortsetzung (23.08.2026) — N-SIASWEEP-2/-3 per offiziellen SIA-Publikationsverzeichnissen datiert
 
 **Ausgangslage:** die Blindzone (Abschnitt A, SIA-Zeilen ohne Datei im Haus) war laut den
@@ -331,6 +400,45 @@ nach Projektbedarf.
 > plus die Leseproben-Route). Kein Fortschritt bei den beiden eigentlichen Fragen (Rückzugsgrund
 > SIA 422, ZN-Sitzung/Begründung SIA 2025); das bereits belegte Rückzugsfenster selbst bleibt
 > unverändert gültig. Report: `outputs/2026-08-24_questions-abarbeitung-0336uhr.md`.
+
+---
+
+## QUESTIONS-Abarbeitung (24.08.2026, Lauf ~03:55 Uhr) — beide EKAS-Richtlinien destilliert (offener Punkt 1 der 37. Fortsetzung erledigt)
+
+**Ausgangslage:** Report der SIA-Sweep 37. Fortsetzung (`outputs/2026-08-24_sia-sweep-siebenunddreissigste-fortsetzung.md`)
+liess drei offene Punkte zurück: (1) beide EKAS-Richtlinien (2134 Forstarbeiten, 76 S.; 6512
+Arbeitsmittel, 32 S.) destillieren — bereits als kostenlos verfügbar bestätigt; (2) den 16-Titel
+breiteren Cross-Referenzen-Rest (Baumpflege, Solar/Asbest, Hubarbeitsbühnen/Krane, Ausbildung)
+erst nach Rückfrage bei Raphael fortsetzen, da er über den ursprünglichen SIA-Teilauftrag
+hinausreicht; (3) 33045.d (ungeklärte Nummer) bei Gelegenheit auflösen.
+
+**Punkt 1 erledigt:** Beide PDFs per `curl -sL` von `ekas.admin.ch/fileadmin/Dokumente/
+Richtlinien/gueltig/` geladen, mit `pdftotext -layout` extrahiert und vollständig (6512) bzw.
+im Hauptteil samt Ausbildungs- und Rechtsgrundlagen-Anhängen (2134) gelesen. Zwei neue
+Destillate: `destillate/ekas-6512-arbeitsmittel.md` (established) und
+`destillate/ekas-2134-forstarbeiten.md` (established, Anhänge 2-6/8-11 nur über
+Inhaltsverzeichnis erschlossen, im Frontmatter offen ausgewiesen). Kernbefund 6512: Ziff. 5.3
+(Art. 32a Abs. 3 VUV) verlangt eine dokumentierte Überprüfung von Baugerüsten, Rollgerüsten und
+Baustellenaufzügen nach jeder Montage — direkt anschlussfähig an die JANS-Bauleitungspraxis.
+Kernbefund 2134: der Fall- und Gefahrenbereich beim Baumfällen entspricht der doppelten
+Baumlänge (Ziff. 6.1.5); die Richtlinie ist die Rechtsgrundlage der bereits destillierten
+Suva-Publikationen 33071.d/33072.d (identische 2-m-/5-m-Schwellenwerte für Leitersicherung
+in Ziff. 6.6.5).
+
+**Punkt 2 (16-Titel-Cross-Referenzen-Rest) bewusst NICHT fortgesetzt** — die 37. Fortsetzung hat
+selbst empfohlen, vor einer weiteren Ausweitung über den ursprünglichen, von 44002.d Kap. 8
+ausgehenden SIA-Teilauftrag hinaus Rücksprache zu halten. Diese Empfehlung wird hier befolgt,
+nicht überschrieben. **Offen für Raphael:** soll der Suva-/EKAS-Sweep über die jetzt vollständig
+erschlossene «Fassadengerüst/Absturzsicherung/Forstarbeiten»-Kernreihe hinaus in die neuen
+Themenfelder Baumpflege, Solar/Asbest-Faserzement, Hubarbeitsbühnen/Krane und Ausbildung/
+Motivation fortgesetzt werden, oder gilt der jetzige Stand als Abschlusspunkt dieses Sweeps?
+
+**Punkt 3 (33045.d) nicht bearbeitet** — kein neuer Fortschritt in diesem Lauf, bleibt offen für
+eine künftige Runde.
+
+Nachgeführt: `wiki/REGISTER.md` Abschnitt D (zwei neue Registerzeilen + Status «erschlossen»),
+`destillate/INDEX.md` (zwei neue Zeilen), `training/norm-inventar.md` (eine neue additive
+`[x]`-Log-Zeile). Report: `outputs/2026-08-24_questions-abarbeitung-ekas-richtlinien.md`.
 
 ---
 

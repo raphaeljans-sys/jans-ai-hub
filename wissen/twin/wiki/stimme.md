@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-08-24
 gewichtung: authentisch
-sources: [260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -4213,3 +4213,53 @@ und ein Verfahrensweg, den die Behörde ohnehin vorgibt, ist nichts, was er für
 
 Der Gruss ist in derselben Mail «Freundliche Grüsse», nicht das «Danke und Gruss», das die
 Sie-Behördenmail sonst davorsetzen kann — der Zwilling wählte «Danke und Gruss».
+
+## Das Schreibwerkzeug als Gold-Detektor (Batch 103, `emerging`)
+
+Die Mail-Trefferliste liefert die Gewichtung mit, bevor ein einziger Volltext gelesen wird: eine
+`internetMessageId` auf **`@<HOST>.PROD.OUTLOOK.COM`** heisst, die Mail wurde **in Outlook/OWA
+getippt**, und dorthin greift der Hub nicht — er versendet über Apple Mail. Solche Mails sind
+**eigene Hand**, unabhängig vom Datum. Eine ID auf `@raphaeljans.ch` heisst nur Apple Mail und
+sagt nichts, weil beide denselben Kanal benutzen.
+
+Der Detektor ist **einseitig** und hängt an einer Betriebsentscheidung: sobald ein Connector über
+Graph `sendMail` verschickt, trägt auch ein Hub-Erzeugnis eine `PROD.OUTLOOK.COM`-ID. Vor Gebrauch
+prüfen ([[QUESTIONS]] 260824 #1).
+
+Beide so ausgewiesenen Mails dieses Batches tragen je einen Fehler, den kein Modell schreibt —
+«veranlassen **das** die Dokumente» und ein Komma zwischen Präpositionalgefüge und Verb
+(«Nach Rücksprache mit der Bauherrschaft**,** sende ich Ihnen»). Werkzeug-Detektor und
+Fehlerinsel bestätigen sich gegenseitig, ohne voneinander abgeleitet zu sein.
+
+## «lgr», klein geschrieben, als unterste Gruss-Stufe (Batch 103)
+
+Die Sechs-Wort-Quittung an einen Du-Kontakt lautet vollständig: «Hello, jetzt habe ich Sie
+bekommen. / lgr» — kein Name, kein Signaturblock, und der Gruss als **Kleinbuchstaben-Kürzel**.
+Batch 98 hatte «Lgr» gross belegt; die Kleinschreibung ist die knappere Schwester davon.
+
+Zwei Nebenbefunde aus denselben sechs Wörtern: die Öffnung «**Hello,**» — englisches Grusswort im
+deutschen Kurzvollzug, Einzelbeleg, `emerging` — und «jetzt habe ich **Sie** bekommen», wo die
+*Liste* gemeint ist. Die Sie-Grossschreibung greift auf ein sachliches Pronomen über. Der Zwilling
+darf das nicht nachahmen, aber er muss wissen, dass Gold so aussieht.
+
+⚠ `stilmetrik.py` zählt die Kleinschreibung nicht (`\bLgr\b` ist case-sensitiv). Bewusst nicht im
+Lauf repariert, sonst werden die Zahlen der Batches 98 bis 102 unvergleichbar
+([[QUESTIONS]] 260824 #3).
+
+## Wortschatz aus eigener Hand (Batch 103, OWA-belegt)
+
+«**retourniert**» statt «zurückgeschickt» · «**so bald als möglich**» statt «so bald wie möglich»,
+die ältere schweizerische Form · «**prozessuale Bearbeitung**» · «Besten Dank für Ihre
+**prompte** Antwort». Dazu «**Besten Dank für Ihre E-Mail.**» als allein stehende zweite Zeile —
+dritter unabhängiger Beleg dafür, dass «Besten Dank für …» im Sie-Register die stehende Zweitzeile
+ist und nicht in den ersten Sachsatz eingebaut wird.
+
+## Satzlänge trennt nur innerhalb der Gattung (Widerspruch zu Batch 102, nicht geglättet)
+
+Batch 102 mass den Eigentext **länger** als den Maschinentext (56 gegen 14.7 Wörter), Batch 103
+misst ihn **kürzer** (12.2 gegen 15.5). Beide Male trennt die **Fehlerdichte** sauber (3.1 gegen
+0.0 je 100 Wörter), die Satzlänge nicht.
+
+**Erhebungsregel:** die Satzlänge ist nur innerhalb derselben Gattung ein Handsignal. Über
+Gattungen hinweg — Kurzantwort gegen Erstkontakt-Brief — misst sie den Anlass
+([[QUESTIONS]] 260824 #4).

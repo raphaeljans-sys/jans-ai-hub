@@ -4,8 +4,8 @@ herausgeber: Kanton Zürich (AWEL) / Bund (GSchG/GSchV) / Kanton Schwyz (Amt fü
 ausgabe: Web-Recherche, amtliche Kantons-/Stadt-Webseiten
 gelesen: 2026-07-14 (Run 66)
 datenstand: 2026-07-14 (Web-Recherche, keine explizit datierten Formulare ausser Gesuchsformular AWEL 400-003 Stand 06.2024)
-status: established (Kernstruktur; die ZH-Bewilligungs- und Gebührenrechtsgrundlage wurde vom Wissens-Chef in Run 20 auf geltendes Recht umgestellt: § 44 Abs. 1 lit. a Ziff. 3 und lit. f WsG, § 92 WsV, Gebühr über § 209 WsV mit Verweis auf die GebV UR. Die in Run 67 verifizierten § 35/§ 69 KGSchV (LS 711.11) sind per 01.01.2022 aufgehoben und nur noch historisch, bis 31.12.2021, einschlägig; Details im Korrekturkasten). Fassungsstand GebV UR (LS 710.2, Nachtrag 075) und Gebührenordnung für die Verwaltungsbehörden 30.06.1966 (LS 682, Nachtrag 099) am 23.08.2026 gegen die amtliche zh.ch-Erlassseite verifiziert, beide aktuell (schliesst E-R20-2/E-R20-3). Offen: SZ-Kostenpunkt, exakte Verfahrensfrist als verbindliche Norm sowie GSchG/GSchV-Wortlaut weiterhin nicht direkt am Bundes-Primärtext verifiziert
-last_updated: 2026-08-23 (E-R20-2/E-R20-3 geschlossen, GebV UR und Gebührenordnung 1966 am Original verifiziert; zuvor 2026-07-29 Wissens-Chef Run 20; Fachstand Run 67)
+status: established (Kernstruktur; die ZH-Bewilligungs- und Gebührenrechtsgrundlage wurde vom Wissens-Chef in Run 20 auf geltendes Recht umgestellt: § 44 Abs. 1 lit. a Ziff. 3 und lit. f WsG, § 92 WsV, Gebühr über § 209 WsV mit Verweis auf die GebV UR. Die in Run 67 verifizierten § 35/§ 69 KGSchV (LS 711.11) sind per 01.01.2022 aufgehoben und nur noch historisch, bis 31.12.2021, einschlägig; Details im Korrekturkasten). Fassungsstand GebV UR (LS 710.2, Nachtrag 075) und Gebührenordnung für die Verwaltungsbehörden 30.06.1966 (LS 682, Nachtrag 099) am 23.08.2026 gegen die amtliche zh.ch-Erlassseite verifiziert, beide aktuell (schliesst E-R20-2/E-R20-3). GSchG Art. 19–22 / GSchV Art. 29/32 am 24.08.2026 direkt am Fedlex-Primärtext verifiziert (kein Abweichungsfund, A-BLIND-Fall 2). Weiterhin offen: SZ-Kostenpunkt und exakte Verfahrensfrist als verbindliche Norm (kantonales Recht SZ, nicht Bundesrecht)
+last_updated: 2026-08-24 (GSchG/GSchV-Wortlaut am Fedlex-Primärtext verifiziert, A-BLIND; zuvor 2026-08-23 E-R20-2/E-R20-3, 2026-07-29 Wissens-Chef Run 20, Fachstand Run 67)
 ---
 
 # Erdwärmesonden — Bewilligungsverfahren Kt. Zürich und Kt. Schwyz
@@ -157,8 +157,25 @@ eine Zahl gegenüber dem Bauherrn kommuniziert wird.
 - Detaillierter Inhalt des AWEL-PDF «Tiefenbeschränkung von Erdwärmesonden» technisch nicht
   extrahierbar (nur Bild-/komprimierte Datenströme) — die 500-m-Angabe stammt aus dem Haupttext der
   Übersichtsseite, nicht aus diesem Detaildokument.
-- Genauer Wortlaut GSchG Art. 19–22 / GSchV Art. 32 nicht direkt von fedlex.admin.ch verifiziert
-  (JavaScript-Schranke), nur über Sekundärquellen-Synthese.
+- ✓ **Geschlossen 24.08.2026:** Genauer Wortlaut GSchG Art. 19–22 / GSchV Art. 32 direkt am
+  Fedlex-Filestore verifiziert (Weg `fedlex.data.admin.ch`/`www.fedlex.admin.ch` statt
+  JS-Portal, Rule `auto-verbesserungen` 260721 + Nachtrag Buch-Run 82). GSchG (SR 814.20, ELI
+  `1992/1860_1860_1860`), Konsolidierungsstand 01.01.2022 (letzter über diese Route erreichbarer
+  Snapshot; Art. 19 trägt keine spätere Änderungsfussnote, Text seit der Fassung 2006/2007
+  unverändert, gilt also auch heute): **Art. 19 Abs. 2** bestätigt wörtlich «In den besonders
+  gefährdeten Bereichen bedürfen die Erstellung und die Änderung von Bauten und Anlagen sowie
+  Grabungen, Erdbewegungen und ähnliche Arbeiten einer kantonalen Bewilligung, wenn sie die
+  Gewässer gefährden können» — exakt die im Artikel zitierte Bewilligungsgrundlage. GSchV
+  (SR 814.201, ELI `1998/2863_2863_2863`), Konsolidierungsstand 01.12.2025 (PDF, `pdf-a`,
+  927'081 Byte, PyPDF2 ausgelesen): **Art. 32 Abs. 2 Bst. c** bestätigt wörtlich, dass in den
+  besonders gefährdeten Bereichen (Art. 29 GSchV) eine Bewilligung nach Art. 19 Abs. 2 GSchG
+  insbesondere erforderlich ist für «Grundwassernutzungen (einschliesslich Nutzungen zu Heiz-
+  und Kühlzwecken)» — das ist die Bundesrechtsgrundlage für die Bewilligungspflicht von
+  Erdwärmesonden im Au-Bereich, wortgleich mit der bisherigen Sekundärquellen-Synthese, kein
+  Abweichungsfund. Art. 20/21 GSchV (Grundwasserschutzzonen/-areale) ebenfalls wortgleich
+  gelesen, keine Diskrepanz zur bisherigen Darstellung. **Damit primärquellen-verifiziert, kein
+  Korrekturbedarf am Fliesstext.** Zweiter A-BLIND-Fall (Rule `wissens-bibliothekar`,
+  QUESTIONS.md A-BLIND): Ergebnis diesmal Bestätigung, kein Fehler.
 - SZ: keine amtliche Gebühren-/Fristenangabe (CHF/Wochen) gefunden; kursierende Sekundärzahlen
   (CHF 200–1'000, «mehrere Wochen») bewusst nicht übernommen.
 - SZ: genaue kantonale Rechtsgrundlage (Pendant zur ZH-BVV) nicht identifiziert — sz.ch verweist nur
@@ -176,6 +193,10 @@ eine Zahl gegenüber dem Bauherrn kommuniziert wird.
   `baurecht`, Buch-Run 69, 28.07.2026).
 - Gebührenverordnung zum Vollzug des Umweltrechts (GebV UR, LS 710.2, Stand 1.1.12/Nachtrag 75) —
   PDF-Volltext gelesen (Run 67).
+- GSchG Art. 19–22 (SR 814.20), Fedlex-Filestore, Konsolidierungsstand 01.01.2022, ELI
+  `1992/1860_1860_1860`; GSchV Art. 29/32 (SR 814.201), Fedlex-Filestore, Konsolidierungsstand
+  01.12.2025, ELI `1998/2863_2863_2863` — beide Volltext gelesen 24.08.2026 (PyPDF2/Regex,
+  Weg `fedlex.data.admin.ch` gemäss `docs/referenz/fedlex-volltexte.md`).
 - zh.ch «Erdwärmesonden», «Oberflächennahe Erdwärme», «Bauen in Grundwasserschutzzonen», «Bauen in
   Grundwasservorkommen», «Grundwasserschutz» — Web-Quellen, abgerufen im Rahmen dieser Recherche.
 - Gesuchsformular Erdwärmesonden (AWEL 400-003, Stand 06.2024, PDF) — zh.ch.

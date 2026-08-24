@@ -89,10 +89,11 @@ Regel.
 ## Cross-Referenzen aus dem Text selbst
 
 Merkblatt «Sicherheit durch Anseilen» (44002.d, destilliert); Checkliste «Ortsfeste Leitern»
-(67055.d, destilliert); **Factsheet «Ortsfeste Leitern» (33045.d, nicht destilliert — gleiche
-ungeklärte Nummer wie in 44096.d referenziert)**; **«Ausbildung und Instruktion im Betrieb»
-(66109.d, nicht destilliert)**; **«Regeln schaffen Klarheit» (66110.d, nicht destilliert)**;
-**«Die wollen einfach nicht — wirklich?» (66112.d, nicht destilliert)**.
+(67055.d, destilliert); Factsheet «Ortsfeste Leitern» (33045.d — **Nummer existiert nicht,
+SIA-Sweep 38. Fortsetzung 24.08.2026 geprüft: HTTP 404, siehe Klärung in
+[[suva-44096-2022-anschlageinrichtungen-auf-daechern]]**); **«Ausbildung und Instruktion im
+Betrieb» (66109.d, nicht destilliert)**; **«Regeln schaffen Klarheit» (66110.d, nicht
+destilliert)**; **«Die wollen einfach nicht — wirklich?» (66112.d, nicht destilliert)**.
 
 ## JANS-Praxis-Transfer
 
@@ -103,6 +104,6 @@ ungeklärte Nummer wie in 44096.d referenziert)**; **«Ausbildung und Instruktio
 
 ## Offene Punkte
 
-- 33045.d, 66109.d, 66110.d, 66112.d sind Cross-Referenzen, in dieser KB noch nicht
-  destilliert.
+- 66109.d, 66110.d, 66112.d sind Cross-Referenzen, in dieser KB noch nicht destilliert.
+  33045.d geklärt (SIA-Sweep 38. Fortsetzung, 24.08.2026): Nummer existiert nicht — geschlossen.
 - Keine unabhängige Refuter-Runde durchgeführt.

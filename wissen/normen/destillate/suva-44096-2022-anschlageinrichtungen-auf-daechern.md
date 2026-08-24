@@ -123,9 +123,11 @@ destilliert); 84044.d/88816.d «Acht lebenswichtige Regeln Anseilschutz» (desti
 Factsheet «Arbeiten am hängenden Seil» (33016.d, destilliert); Factsheet «Seitenschutz»
 (33017.d, destilliert); **Factsheet «Durchbruchsichere Dachflächen» (33027.d, nicht
 destilliert)**; Factsheet «Seilwurfsystem mit Industrieschleuder» (33032.d, destilliert);
-**Factsheet «Ortsfeste Leitern» (33045.d, nicht destilliert — Titel weicht ab von der
-bekannten Vierteilreihe 33102/33103/33104/67055; möglicherweise Vorgänger-Nummer, im
-Original nicht aufgelöst)**.
+Factsheet «Ortsfeste Leitern» (33045.d — **Nummer existiert nicht, SIA-Sweep 38. Fortsetzung
+24.08.2026 geprüft: `www.suva.ch/waswo/33045.d` liefert HTTP 404; Nachbarnummern
+33042.d-33044.d/33047.d sind Asbest-Fensterkitt-Factsheets, thematisch fremd — kein
+Vorgänger der Vierteilreihe 33102/33103/33104/67055, Referenz im Original vermutlich ein
+Zahlendreher oder eine seither zurückgezogene Publikation**).
 
 ## JANS-Praxis-Transfer
 
@@ -140,6 +142,6 @@ Original nicht aufgelöst)**.
 ## Offene Punkte
 
 - 33027.d weiterhin offen (auch in 44095.d referenziert).
-- 33045.d ungeklärter Titel/Nummer — evtl. identisch mit der vierteiligen Ortsfeste-Leitern-
-  Reihe unter anderer/älterer Nummerierung; im nächsten Lauf abklären.
+- 33045.d geklärt (SIA-Sweep 38. Fortsetzung, 24.08.2026): Nummer existiert nicht (HTTP 404),
+  kein Bezug zur Ortsfeste-Leitern-Reihe — geschlossen, kein weiterer Klärungsbedarf.
 - Keine unabhängige Refuter-Runde durchgeführt.

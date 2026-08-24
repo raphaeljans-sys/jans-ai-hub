@@ -38,6 +38,42 @@ Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/be
 > Vollständige Belegkette und Korrekturliste im Eintrag ganz unten in dieser Datei
 > («2026-07-29 — GESCHLOSSEN: Felix Stählin gehört zu Elektro Stählin AG»).
 
+## Offen — Runde 260824 (twin-mail-training, Batch 103)
+
+Quelle: `raw/260824-mailbatch-103.md`. Das sequenzielle Fenster war leer; der Ertrag stammt aus
+dem Thread-Rückgriff auf den Strang SBB-Näherbaurecht (Projekt 2414 Thalwil). Die ersten beiden
+Fragen richten sich an Raphael, die letzten beiden sind Aufgaben an den Harness.
+
+1. **Versendet der Hub weiterhin ausschliesslich über Apple Mail?** Batch 103 hat einen neuen,
+   kostenlosen Gold-Detektor belegt: eine `internetMessageId` auf `@<HOST>.PROD.OUTLOOK.COM`
+   beweist, dass die Mail in Outlook/OWA getippt wurde, und dorthin greift der Hub nicht. Der
+   Detektor **fällt in dem Moment**, in dem irgendein Connector über Graph `sendMail` verschickt —
+   dann trägt auch ein Hub-Erzeugnis eine `PROD.OUTLOOK.COM`-ID und wird fälschlich als Gold
+   gelesen. *Facette: Stimme (Gewichtung). Warum: der Detektor spart pro Lauf mehrere
+   `read_resource`-Aufrufe, ist aber nur so lange gültig, wie der Versandweg unverändert ist —
+   und ein falsch als Gold gelesenes Hub-Erzeugnis ist genau die Echo-Falle, gegen die die ganze
+   Gewichtung gebaut ist.*
+
+2. **Wechselst Du zwischen «Geschätzter Herr X» und «Sehr geehrter Herr X» absichtlich?** Am
+   14.07. und am 20.07.2026 hast Du denselben Menschen in derselben Sache einmal so und einmal so
+   angeschrieben, beide Male von Hand. Mein Schluss: die beiden Formeln sind austauschbar und
+   tragen **keine** Distanzstufe. Trifft das zu, oder steckt eine Absicht darin, die ich nicht
+   sehe? *Facette: Beziehungsregister. Warum: der Zwilling liest heute eine Wärmestufe in die
+   Wahl hinein und baut daraus eine Distanz, die es womöglich gar nicht gibt.*
+
+3. **`stilmetrik.py`: Gruss-Kürzel case-insensitiv zählen.** Das Muster `\bLgr\b` ist
+   case-sensitiv und lässt das belegte **`lgr`** in Kleinschreibung durch. Die Änderung ist
+   trivial, macht aber die Gruss-Zahlen der Batches 98 bis 103 untereinander unvergleichbar —
+   deshalb im Lauf **nicht** vorgenommen. Zu entscheiden: reparieren und den Bruch im Register
+   vermerken, oder beim alten Muster bleiben. *Facette: Stimme (Messinstrument).*
+
+4. **Satzlänge als Handsignal nur noch innerhalb einer Gattung erheben.** Batch 102 mass den
+   Eigentext länger als den Maschinentext, Batch 103 kürzer; beide Male trennte allein die
+   Fehlerdichte. Vorschlag zur Aufnahme in die Erhebungsregeln: die Satzlänge wird nur zwischen
+   Texten **derselben Gattung** verglichen, sonst misst sie den Anlass. *Facette: Stimme
+   (Messinstrument). Warum: sonst wird in jedem zweiten Batch ein Scheinbefund als Trennbefund
+   protokolliert.*
+
 ## Offen — Runde 260804 (twin-fragesteller, aus Fidelity-Review 2026-08-04)
 
 Quelle: Drift-Report `outputs/2026-08-04_fidelity.md`. Besonderheit dieses Laufs: erstes

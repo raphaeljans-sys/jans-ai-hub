@@ -4,6 +4,23 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-24 — Mail-Training Batch 103: Werkzeug-Detektor über die Message-ID
+
+Sequenzielles Fenster ab 23.08. **leer** (nur Hub-Chef-Briefings). Ertrag vollständig aus dem
+Thread-Rückgriff auf den Strang SBB-Näherbaurecht (Projekt 2414 Thalwil), vier eigene Texte über
+sieben Wochen in zwei Registern. Neu belegt: eine `internetMessageId` auf `@*.PROD.OUTLOOK.COM`
+weist eine Mail **einseitig** als eigene Hand aus, weil der Hub über Apple Mail versendet —
+kostenloser dritter Gold-Detektor neben Stichtag und Fehlerinsel, `emerging`, mit protokollierter
+Bruchstelle (Graph `sendMail`). Weiter: Anredeformel im Sie-Register schwankt beim selben
+Empfänger und trägt keine Distanzstufe; «lgr» klein als unterste Gruss-Stufe; die Buchstaben-
+Blockliste steht nun in beide Richtungen; «Ich werde veranlassen, dass …» als Zustell- statt
+Handlungszusage. Mikro-Metrik: Satzlänge 12.2 / 9.7 / 15.5 W, Fehler je 100 W 3.1 / 1.7 / 0.0 —
+sechster Trennbefund in Folge, Satzlänge-Widerspruch zu Batch 102 offen protokolliert.
+Geschrieben: `raw/260824-mailbatch-103.md`, `raw/_INGESTED.md`, fünf Facetten-Artikel
+(stimme, beziehungsregister, denken, arbeitsweise, fachsignatur), `wiki/QUESTIONS.md`
+(Runde 260824, vier Einträge). `haltung.md` unverändert — dieser Batch trug dazu nichts bei.
+Gehirn nicht neu kompiliert (elfter Batch in Folge).
+
 ## 2026-08-24 — Vertiefungslauf: Preview-Leak im Fidelity-Review formalisiert (Zwanzigste Falle)
 
 **Kein Zugriff auf den Mail-Korpus in dieser Sitzung** (M365-Zertifikat

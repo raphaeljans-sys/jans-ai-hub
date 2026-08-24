@@ -1798,3 +1798,77 @@ Thread ergiebiger ist als eine leere Woche; (2) sequenziell `rj@` ab 23.08.2026;
 (Kernbefund 2) an jeder Trefferliste **vor** dem `read_resource` anwenden; (4) Drafts mit dem
 Duplikat-Detektor aus Batch 101 vorsortieren. **Vor der Lektuere zwingend BEIDE Teile dieser Datei
 auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 103 (24.08.2026) — Sent Items + Drafts + Inbox `rj@`, Fenster ab 23.08.2026, dann Thread-Rückgriff
+
+**Sequenzielles Fenster: null Gold** (ein Sent-Eintrag, zwei Drafts, alle drei dasselbe
+Hub-Chef-Briefing; Inbox sechs von acht Maschinen- oder Hub-Post). Zweites leeres Wochenendfenster
+in Folge. Der Ertrag stammt vollständig aus dem in Batch 102 gesetzten **Thread-Rückgriff**, hier
+auf den Strang **SBB-Näherbaurecht** des Projekts 2414 Thalwil, Bohlweg 3 — nicht auf den dort
+schon ausgewerteten Gemeinde-/Umgebungsstrang. Eine Mail vom 20.07.2026 trug den vollständig
+zitierten Thread mit **vier eigenen Texten über sieben Wochen in zwei Registern**.
+
+**Kernbefund 1 — ⭐ die Message-ID trennt das Schreibwerkzeug.** `internetMessageId` auf
+`@<HOST>.PROD.OUTLOOK.COM` ⇒ in Outlook/OWA getippt ⇒ **eigene Hand, unabhängig vom Datum**, denn
+der Hub versendet über Apple Mail. `@raphaeljans.ch` ⇒ Apple Mail ⇒ sagt nichts (beide nutzen
+denselben Kanal). Der Detektor ist **einseitig** und steht kostenlos in jeder Trefferliste, noch
+vor dem ersten `read_resource`. **⚠ Er fällt, sobald ein Connector über Graph `sendMail`
+verschickt** — dann trägt ein Hub-Erzeugnis dieselbe ID-Form (Echo-Falle). Status `emerging`,
+vor Gebrauch prüfen ([[QUESTIONS]] 260824 #1).
+
+**Kernbefund 2 — die Fehlerinsel bestätigt den Detektor unabhängig.** Beide OWA-Mails tragen je
+einen Fehler, den kein Modell schreibt: «veranlassen **das** die Dokumente» und ein Komma zwischen
+Präpositionalgefüge und Verb. Dazu in der Kurzquittung «jetzt habe ich **Sie** bekommen» für die
+*Liste*. Zwei Detektoren, die sich stützen, ohne voneinander abgeleitet zu sein.
+
+**Kernbefund 3 — «Geschätzter Herr X» und «Sehr geehrter Herr X» sind kein Registersignal.**
+Derselbe Empfänger, dieselbe Sache, sechs Tage Abstand, beide Male eigene Hand, beide Formeln.
+Damit schwankt im Sie-Register nicht nur das Komma (Batch 102 Kernbefund 6), sondern die Formel
+selbst. Der Zwilling liest dort eine Distanzstufe, die es nicht gibt ([[QUESTIONS]] 260824 #2).
+
+**Kernbefund 4 — «lgr» klein als unterste Gruss-Stufe**, in einer Sechs-Wort-Quittung ohne Namen
+und ohne Signaturblock; dazu die Öffnung «Hello,» an einen Du-Kontakt (Einzelbeleg, `emerging`).
+⚠ `stilmetrik.py` zählt die Kleinschreibung nicht (`\bLgr\b` case-sensitiv) — **bewusst nicht im
+Lauf repariert**, sonst brechen die Vergleichszahlen der Batches 98–102
+([[QUESTIONS]] 260824 #3).
+
+**Kernbefund 5 — die Blockliste geht in beide Richtungen.** Batch 102 belegte die
+Buchstabenblöcke A–F als Antwortformular **an eine Behörde**; hier reduziert dieselbe Form einen
+Amtsbrief **für den Bauherrn** auf «A) …» / «B) …», stellt eine Empfehlung in genau einem Satz
+daneben und schliesst mit «Für Dein finales Go bezüglich Vorgehen bin ich Dir dankbar».
+Dreischritt: aufgliedern → empfehlen → Entscheid abholen, ohne einen begründenden Absatz.
+
+**Kernbefund 6 — «Ich werde veranlassen, dass …»: er handelt nicht, er stellt zu.** Auf die Bitte
+um Unterzeichnung antwortet er nicht mit «Ich unterschreibe»; die Unterschrift gehört der
+Bauherrschaft. Gleiche Bewegung: «Nach Rücksprache mit der Bauherrschaft, sende ich Ihnen …» —
+die Legitimation steht vor der Tat. Gegenüber Dritten ist er der Weg, nicht der Entscheider.
+
+**Kernbefund 7 — Wortschatz aus eigener Hand:** «retourniert», «so bald als möglich» (nicht «wie»),
+«prozessuale Bearbeitung», «Ihre prompte Antwort»; «Besten Dank für Ihre E-Mail.» als allein
+stehende Zweitzeile — dritter unabhängiger Beleg für diese Zweitzeile im Sie-Register.
+
+**Mikro-Metrik** (Gold 98 W aus drei Eigentexten · Verdacht 58 W · Kontrollgruppe 201 W):
+Satzlänge ø **12.2 / 9.7 / 15.5** W · Fehler je 100 W **3.1 / 1.7 / 0.0** · Du-Gross-Quote im
+Verdachtstext **1.0**. **Sechster Trennbefund in Folge** (98–103), diesmal in beiden Kennzahlen
+gleichgerichtet.
+
+**⚠ Widerspruch zu Batch 102, nicht geglättet.** Dort war der Eigentext **länger** als der
+Maschinentext (56 gegen 14.7 W), hier **kürzer** (12.2 gegen 15.5). Belastbar ist beide Male allein
+die **Fehlerdichte**. **Erhebungsregel:** Satzlänge nur **innerhalb derselben Gattung** vergleichen,
+sonst misst sie den Anlass ([[QUESTIONS]] 260824 #4).
+
+**⚠ Gehirn NICHT neu kompiliert, elfter Batch in Folge.** Reserve in diesem Lauf **nicht** gemessen;
+letzter gemessener Stand 21.08.2026 (32'796 B von 34'000 B). Die Zahl ist eine Fortschreibung, kein
+Messwert (Falle aus Batch 99). Die Marker wirken als Marker-Prosa über die Twin-Agenten.
+
+**Betriebsstörung:** Der NAS-Mount lag zu Beginn auf `/Volumes/daten-1` statt `/Volumes/daten`
+(`nas-auto-mount.sh` scheiterte seit 03:22 in Serie an der Verifizierung) und fiel während des
+Laufs zweimal weiter ganz weg. Jedes Mal half `osascript … mount volume` direkt. Gehört in die
+Betriebschronik.
+
+**Nächstes Fenster:** (1) den **Werkzeug-Detektor** auf die ganze Trefferliste anwenden, bevor
+gelesen wird — er ist kostenlos und schlägt die Betreff-Probe; (2) vorher prüfen, ob der Hub noch
+über Apple Mail versendet, sonst fällt er; (3) sequenziell `rj@` ab 24.08.2026, bei leerem Fenster
+Thread-Rückgriff auf einen **anderen** Thread als 2414 Thalwil (dieser ist in zwei Strängen
+abgeschöpft); (4) **vor der Lektüre zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle
+UND die Gold-Verbrauch-Abschnitte der Fidelity-Läufe.**

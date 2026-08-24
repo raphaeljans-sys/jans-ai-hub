@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-08-24
 gewichtung: authentisch
-sources: [260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -1105,3 +1105,24 @@ ausdrücklich offen, statt sie mit Plausiblem zu füllen.
 Der Zwilling baute an derselben Stelle drei ausformulierte Fragen, einen erklärenden Absatz zur
 Zuständigkeitsteilung SRZ/AfB und eine Fristfrage — alles drei erfunden, und alles drei nimmt der
 Behörde genau die offene Antwort weg, die Raphael haben will.
+
+## Der Dreischritt der Entscheidungsvorlage (Batch 103, verstärkt Batch 102)
+
+Wenn ein fremder Amtsbrief eine Entscheidung des Bauherrn verlangt, baut Raphael die Mail in drei
+Zügen, ohne einen einzigen begründenden Absatz:
+
+1. **Fremde Position aufgliedern** — der Brief wird auf mit Grossbuchstaben markierte Tatsachen
+   reduziert: «A) Sie verzichten auf …», «B) Herr <Nachname> schlägt … vor.» Je eine Zeile, keine
+   Wertung darin.
+2. **Eigene Empfehlung in genau einem Satz** — «Ich würde das Vorgehen mittels separater
+   Vereinbarung unterstützen und die nötigen Plangrundlagen erstellen.» Die Empfehlung steht
+   **neben** den Fakten, nicht über ihnen; sie wird nicht verteidigt.
+3. **Entscheid abholen** — «Für Dein finales Go bezüglich Vorgehen bin ich Dir dankbar.»
+
+Batch 102 hatte die Buchstabenblöcke A–F als **Antwortformular an eine Behörde** belegt (die dort
+inline hineingeantwortet hat). Mit diesem Batch steht dieselbe Form auch **nach innen**, zum
+Bauherrn, als Entscheidungsvorlage. Es ist eine Form für beide Richtungen: nach oben zum Ausfüllen,
+nach innen zum Entscheiden.
+
+**Was der Zwilling falsch macht:** er begründet die Empfehlung. Raphael stellt sie hin und
+überlässt das Gewicht dem Empfänger.

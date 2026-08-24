@@ -904,8 +904,12 @@ aus 44062.d), 67061.d (Checkliste Notfallplanung, aus 44062.d — bereits als Ka
 Faserzementplatten, aus 44095.d), 33068.d (Installationsarbeiten auf asbesthaltigen
 Faserzementdachplatten, aus 44095.d), 84041.d/88815.d (Neun lebenswichtige Regeln
 Dächer/Fassaden, aus 44095.d), 84042.d/88814.d (5+5 lebenswichtige Regeln Elektrizität, aus
-44095.d), 33045.d (Factsheet Ortsfeste Leitern — ungeklärte Nummer, ggf. Vorgänger der
-33102/33103/33104-Reihe, aus 44096.d und 88816.d), 66109.d/66110.d/66112.d
+44095.d), 33045.d (Factsheet Ortsfeste Leitern — **Nummer geprüft und verworfen, SIA-Sweep
+38. Fortsetzung 24.08.2026: `www.suva.ch/waswo/33045.d` liefert HTTP 404 „Seite nicht
+gefunden"; die Nachbarnummern 33042.d-33044.d/33047.d sind zudem thematisch fremd
+(Asbesthaltiger Fensterkitt/Faserzementplatten), nicht Leitern — die Vermutung „Vorgänger der
+33102/33103/33104-Reihe" ist damit widerlegt, kein Nachfolgeversuch nötig**, aus 44096.d und
+88816.d), 66109.d/66110.d/66112.d
 (Ausbildungs-/Motivations-Publikationen, aus 88816.d), 88180.d (Checkliste Kranführer
 Fahrzeugkrane, aus 67064-2.d), 66138.d (Merkblatt Freileitungen, aus 67064-1.d und
 67064-2.d). Dieser Rest ist deutlich breiter als der ursprüngliche, von 44002.d ausgehende

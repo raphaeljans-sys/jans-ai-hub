@@ -4820,3 +4820,35 @@ die KB widerspricht sich selbst.
   (Normkauf SIA 380/1:2016), **E-R148-2** (Steuerungsgrösse Loop-Takt), **E-R161-1**
   (SN EN ISO 6946 Luftschicht-Restfall). Beleg dieses Laufs: `git diff --numstat` nach jedem
   Schreibvorgang geprüft, ausschliesslich additiv/präzisierend, keine Löschung von Bestand.
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — A-BLIND-Fall 2: GSchG/GSchV-Wortlaut für Erdwärmesonden verifiziert
+
+- [x] **A-BLIND, zweiter ausgewählter Kandidat (24.08.2026): `[[erdwaermesonden-bewilligung-zh-sz]]`
+  (32 Backlinks, drittmeistzitierter Kandidat unter den nicht-established-blockierten Destillaten)
+  am Bundes-Primärtext geprüft — GSchG Art. 19–22 und GSchV Art. 29/32 waren bislang nur aus
+  Sekundärquellen-Synthese übernommen (JS-Schranke von fedlex.admin.ch bisher als Blockade
+  gewertet).** Mit dem in `docs/referenz/fedlex-volltexte.md` (Nachtrag Buch-Run 82, 23.08.2026)
+  dokumentierten Ausweichweg (`fedlex.data.admin.ch` statt `www`, `pdf-a` statt `html`, mehrere
+  Konsolidierungsdaten durchprobiert und per `curl -w "%{content_type} %{size_download}"`
+  verifiziert) beide Erlasse direkt gelesen: GSchG (SR 814.20, ELI `1992/1860_1860_1860`,
+  Konsolidierungsstand 01.01.2022 — letzter über diese Route erreichbarer Snapshot; Art. 19 trägt
+  keine Änderungsfussnote nach 2007, der Wortlaut ist damit auch heute aktuell) und GSchV
+  (SR 814.201, ELI `1998/2863_2863_2863`, Konsolidierungsstand 01.12.2025, PDF 927'081 Byte,
+  PyPDF2 ausgelesen). **Ergebnis: keine Diskrepanz.** Art. 19 Abs. 2 GSchG bestätigt wörtlich die
+  kantonale Bewilligungspflicht für Bauten/Anlagen/Grabungen in besonders gefährdeten Bereichen,
+  wenn sie die Gewässer gefährden können; Art. 32 Abs. 2 Bst. c GSchV bestätigt wörtlich, dass
+  «Grundwassernutzungen (einschliesslich Nutzungen zu Heiz- und Kühlzwecken)» in diesen Bereichen
+  (Art. 29 GSchV) bewilligungspflichtig nach Art. 19 Abs. 2 GSchG sind — exakt die
+  Bundesrechtsgrundlage, die das Destillat bereits so darstellte. Eingearbeitet in
+  `[[erdwaermesonden-bewilligung-zh-sz]]` (Frontmatter `status`/`last_updated`, Abschnitt «Offene
+  Punkte», Quellenliste). **Weiterhin offen, bewusst nicht angefasst (kantonales Recht SZ, nicht
+  Bundesrecht):** SZ-Kostenpunkt (keine amtliche Gebühren-/Fristenangabe gefunden) und exakte
+  Verfahrensfrist als verbindliche Norm. **Für A-BLIND als Methode:** zweiter Fall nach 03.15 (dort
+  ein echter Fehler), hier eine Bestätigung — beide Ergebnistypen sind der Zweck der Übung. Nächste
+  ausgewählte Kandidaten (nach Zitierhäufigkeit, noch nicht established/nicht bereits an Raphaels
+  Entscheid gebunden): `waermepumpe-systemvergleich` (45, Restpunkt Grundwasser-JAZ bereits als
+  Datenlücke ohne CH-Feldstudie dokumentiert, kein neuer Ansatz), `fernwaerme-anschlusskosten-zh`
+  (31, Energie-Ausserschwyz-Tarif bereits mit ~180 Adressabfragen ausgeschöpft, kein neuer Ansatz).
+  Damit sind unter den nicht bereits ausgeschöpften/blockierten Kandidaten aktuell keine weiteren
+  offen — der nächste A-BLIND-Fortschritt braucht entweder ein neu destilliertes, häufig
+  zitiertes Dokument oder Raphaels Freigabe für die Normkauf-/Loop-Takt-Entscheide.

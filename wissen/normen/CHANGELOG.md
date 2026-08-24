@@ -1,3 +1,91 @@
+## 2026-08-24 — SIA-Sweep, 38. Fortsetzung: Kollision mit parallelem Lauf aufgelöst (eigene EKAS-Duplikate entfernt), 33045.d geklärt
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen, CHANGELOG-Pflicht). CHANGELOG-Kopf und Report des letzten
+SIA-Sweep-Laufs (37. Fortsetzung) zuerst gelesen.
+
+Der wörtlich beauftragte SIA-Teilauftrag bleibt seit der 34. Fortsetzung gesättigt (0 offene
+`[ ]`-Zeilen, erneut verifiziert). Von den drei offenen Punkten der 37. Fortsetzung wurde Punkt
+1 (beide EKAS-Richtlinien 2134/6512 destillieren) begonnen — dabei zeigte sich, dass ein
+paralleler, fast zeitgleich gestarteter Prozess («QUESTIONS-Abarbeitung») denselben Punkt
+bereits unabhängig und mit grösserer Lesetiefe (u. a. Fall-/Gefahrenbereich = doppelte
+Baumlänge, Ziff. 6.1.5 EKAS 2134) bearbeitet und bereits korrekt in `wiki/REGISTER.md`/
+`destillate/INDEX.md` verzeichnet hatte. Die eigenen zwei redundanten Destillate
+(`ekas-6512-2017-richtlinie-arbeitsmittel.md`, `ekas-2134-2025-richtlinie-forstarbeiten.md`)
+wieder entfernt (kein inhaltlicher Verlust), Bestätigungs-Nachtrag im bereits vom parallelen
+Lauf angelegten `wiki/QUESTIONS.md`-Abschnitt ergänzt — der dort offen gelassene
+«ENTSCHEID-RAPHAEL-Bedarf» reduziert sich damit auf reine Kenntnisnahme.
+
+Punkt 3 der 37. Fortsetzung geklärt: die als «ungeklärte Nummer, ggf. Vorgänger der
+33102/33103/33104-Reihe» geführte Suva-Publikation **33045.d existiert nicht**
+(`www.suva.ch/waswo/33045.d` → HTTP 404, ebenso 33046.d; Nachbarnummern 33042.d-33044.d/33047.d
+sind Asbest-Fensterkitt-/Faserzement-Factsheets, thematisch fremd). In den Destillaten
+`suva-44096-2022-anschlageinrichtungen-auf-daechern.md` und `suva-88816-2022-acht-regeln-
+anseilschutz-instruktionshilfe.md` sowie `wiki/REGISTER.md` Abschnitt D nachgeführt.
+
+Punkt 2 (16-Titel-Cross-Referenzen-Rest über den ursprünglichen SIA-Teilauftrag hinaus) bewusst
+weiterhin nicht fortgesetzt — wartet laut `wiki/QUESTIONS.md` auf Raphaels Entscheid.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — alle Änderungen an
+`wiki/QUESTIONS.md`, `wiki/REGISTER.md`, den beiden Suva-Destillaten und `training/
+norm-inventar.md` additiv bzw. auf die betroffene Zeile begrenzt; keine fremde Zeile berührt.
+Die beiden eigenen Duplikat-Destillate rückstandslos entfernt (eine bereits vom
+`nas-selfcommit`-Cron erfasste Datei über `git rm --cached`+`rm`, die andere noch untracked über
+`rm`). Kein `git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt. Report:
+`outputs/2026-08-24_sia-sweep-achtunddreissigste-fortsetzung.md`.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung ~04:00 Uhr: beide EKAS-Richtlinien destilliert, Kollision mit parallelem Lauf entdeckt und dokumentiert
+
+**Auftrag:** offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstellenpflicht (Norm, Ausgabe,
+Ziffer), nur `established`-Destillate zitierfähig. CHANGELOG-Kopf und Report des letzten Laufs
+(37. Fortsetzung des SIA-Sweeps, `outputs/2026-08-24_sia-sweep-siebenunddreissigste-fortsetzung.md`)
+zuerst gelesen; dort drei offene Punkte: (1) beide EKAS-Richtlinien 2134/6512 destillieren,
+(2) den breiteren 16-Titel-Cross-Referenzen-Rest erst nach Rücksprache mit Raphael fortsetzen,
+(3) 33045.d (ungeklärte Nummer) bei Gelegenheit auflösen.
+
+**Punkt 1 erledigt:** Beide PDFs von `ekas.admin.ch/fileadmin/Dokumente/Richtlinien/gueltig/`
+geladen (`curl -sL`), mit `pdftotext -layout` extrahiert und gelesen — 6512 «Arbeitsmittel»
+(32 S.) vollständig, 2134 «Forstarbeiten» (76 S.) Hauptteil Ziff. 1-7 plus die technischen
+Detailkapitel 5.2/5.3/6.1/6.6 vollständig, Anhang 7/12-14 vollständig, Anhänge 2-6/8-11 nur über
+Inhaltsverzeichnis erschlossen (im Frontmatter offen ausgewiesen). Zwei neue Destillate:
+`destillate/ekas-6512-arbeitsmittel.md`, `destillate/ekas-2134-forstarbeiten.md`, beide
+`established`. Kernbefund 6512: Ziff. 5.3 (Art. 32a Abs. 3 VUV) verlangt eine dokumentierte
+Überprüfung von Baugerüsten/Rollgerüsten/Baustellenaufzügen nach jeder Montage — direkt
+anschlussfähig an die JANS-Bauleitungspraxis. Kernbefund 2134: Fall- und Gefahrenbereich beim
+Baumfällen = doppelte Baumlänge (Ziff. 6.1.5); die Richtlinie ist die Rechtsgrundlage der bereits
+destillierten Suva-Publikationen 33071.d/33072.d (identische 2-m-/5-m-Leiterschwellenwerte in
+Ziff. 6.6.5). `wiki/REGISTER.md` Abschnitt D und `destillate/INDEX.md` nachgeführt,
+`training/norm-inventar.md` um eine additive Log-Zeile ergänzt.
+
+**Punkt 2 bewusst nicht fortgesetzt** — die Empfehlung der 37. Fortsetzung (Rücksprache vor
+Ausweitung über den ursprünglichen SIA-Teilauftrag hinaus) wird befolgt, nicht überschrieben;
+offene Frage an Raphael in `wiki/QUESTIONS.md` festgehalten. **Punkt 3 nicht bearbeitet.**
+
+**Kollision mit parallelem Lauf entdeckt:** Beim Kollisionscheck vor Laufende zeigte sich, dass
+ein zweiter, unabhängig um 03:57 Uhr gestarteter Claude-Prozess (Task «SIA-Sweep 38.
+Fortsetzung», PID 92836, weiterhin aktiv) **denselben Auftrag** — beide EKAS-Richtlinien
+destillieren — parallel und ohne Kenntnis dieses Laufs bearbeitet hat. Ergebnis: vier Destillate
+für zwei Dokumente unter unterschiedlichen Dateinamen (`ekas-6512-arbeitsmittel.md` vs.
+`ekas-6512-2017-richtlinie-arbeitsmittel.md`; `ekas-2134-forstarbeiten.md` vs.
+`ekas-2134-2025-richtlinie-forstarbeiten.md`). Bei EKAS 2134 sind die beiden Fassungen
+unterschiedlich tief (dieser Lauf las die technischen Detailkapitel inkl. der sicherheitskritischen
+Kennzahl «doppelte Baumlänge» vollständig, der parallele Lauf nur über Inhaltsverzeichnistitel).
+**Nicht selbst konsolidiert** (destruktiv, Rule `wissens-bibliothekar`, paralleler Prozess lief zum
+Befundzeitpunkt noch) — stattdessen als neuer, prominent platzierter Punkt am Kopf von
+`wiki/QUESTIONS.md` dokumentiert, mit Entscheidvorschlag (dieser Lauf als führend für 2134,
+6512 sachlich gegenlesen) und dem Hinweis, dass Register/INDEX aktuell nur die Dateien dieses
+Laufs führen — der parallele Lauf dürfte seine eigenen Registereinträge noch nachziehen, was zu
+doppelten Zeilen führen kann, falls nicht vorher konsolidiert wird.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: REGISTER.md/INDEX.md/norm-inventar.md/
+`ekas-6512-arbeitsmittel.md` waren bereits durch den 15-Minuten-`nas-selfcommit` (Commit
+`6df65218`, 04:00:02 Uhr) gesichert, bevor dieser Lauf sie erneut prüfen konnte — inhaltlich
+unveränderte, additive Edits, keine fremde Zeile berührt. `wiki/QUESTIONS.md` zeigte danach
+80/0 (rein additiv, zwei Blöcke). Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+Report: `outputs/2026-08-24_questions-abarbeitung-ekas-richtlinien.md`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung 03:36 Uhr: zwei neue Wege für N-SIASWEEP-2/3 getestet, beide negativ
 
 **Auftrag:** offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Ausgangslage: die Läufe 03:17 und
