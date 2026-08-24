@@ -2251,3 +2251,54 @@ beiden Faelle. Ertrag je Tag ueber `git log --since/--until --name-only`, nie ue
 weil das Remote `origin` heisst und nicht `github`. Ein leeres Ergebnis ist zuerst eine Aussage
 ueber das Werkzeug (Familie 260730b / 260807 / `wege-und-vollmachten`). Gegenprobe ueber einen
 zweiten Weg deckte es auf.
+
+## 260824d — Vollvermaschung der drei Stationen (SSH, Bildschirmfreigabe, Tailscale)
+
+Am 24.08.2026 wurde die dritte Station **station-03** (MacBook Pro von Revendo, Benutzer
+`revendo`, Tailscale 100.96.212.110) vollstaendig in den Stations-Verbund eingebunden.
+Anlass: Auftrag Raphael, im Buero, alle drei Geraete nebeneinander.
+
+**Eingriffe auf station-03** (beide umkehrbar, Sicherungen daneben):
+- `~/.ssh/config` um die Aliase `mini`, `macbook`, `nas` erweitert. Sicherung
+  `~/.ssh/config.backup-260824`.
+- `~/.ssh/authorized_keys` um den Mini-Schluessel `macmini-ai-hub` erweitert. Sicherung
+  `~/.ssh/authorized_keys.backup-260824`.
+
+**Falle beim ersten Anlauf, festgehalten damit sie nicht wiederkehrt:** Ein
+`Match exec`-Block, der eingerueckt innerhalb eines `Host`-Blocks steht, ist in
+`ssh_config` **nicht** verschachtelt. Er beendet den Host-Block und gilt fuer alle
+nachfolgenden Hosts, deren `exec` durchlaeuft. Konkret zeigten `macbook` und `nas`
+danach beide auf `192.168.1.210`. Richtig ist ein an den Host gebundener Block am
+**Dateiende**: `Match host mini,macmini,mac-mini exec "nc -z -G 1 192.168.1.210 22"`.
+Ein `ssh -G <alias>` nach jeder Aenderung deckt den Fehler sofort auf.
+
+**Zweite Korrektur, gleiche Sitzung:** `launchctl print system/com.openssh.sshd` mit
+`active count = 0` und `com.apple.screensharing` mit `state = not running` bedeuten
+**nicht**, dass die Dienste aus sind — beide sind On-Demand-Dienste, launchd haelt nur
+den Socket. Die belastbare Messung ist der Port: `nc -z 127.0.0.1 22` bzw. ein echter
+VNC-Handshake auf 5900 (Antwort `RFB 003.889`). Auf Basis der launchd-Ausgabe war
+Raphael faelschlich ein Aktivierungsbefehl vorgelegt worden, den es nicht brauchte.
+
+**Verbindungsmatrix nach dem Lauf, alle neun Richtungen gemessen:** acht mal OK.
+Offen bleibt allein `station-03 -> NAS` (Synology-SSH), weil der Schluessel von
+station-03 nicht in `~/.ssh/authorized_keys` der DiskStation liegt. Der Weg ueber den
+Mini (`ssh mini "bash ~/Developer/jans-ai-hub/scripts/nas-commit-now.sh '<Msg>'"`)
+funktioniert und traegt bis dahin. Der Versuch, den Schluessel per SSH-Kette
+station-03 -> mini -> NAS nachzutragen, wurde vom Auto-Mode-Klassifikator geblockt —
+korrekt, die Klasse «SSH-Zugang gewaehren» gehoert nicht in eine ferngesteuerte Kette.
+Der Befehl wurde Raphael stattdessen vorgelegt.
+
+**Netz-Topologie im Buero, gemessen:** Mac Mini haengt am Kabel in `192.168.1.0/24` und
+ist Tailscale-Subnet-Router fuer dieses Netz. MacBook Pro (`192.168.53.201`) und
+station-03 (`192.168.53.155`) haengen im WLAN `192.168.53.0/24`. Latenz ueber Tailscale
+zwischen allen Stationen 4 bis 15 ms, direkte Verbindungen ohne DERP-Relay. Der
+LAN-Kurzweg auf `192.168.1.210` greift von den WLAN-Stationen aus nicht innerhalb der
+1-Sekunden-Probe (er laeuft ueber die Subnet-Route, ~70 ms) — der Tailscale-Pfad ist
+dort der schnellere und wird korrekt gewaehlt.
+
+**Neu angelegt:** `zettel/` auf dem NAS. Ein Ort fuer Handgriffe, die Raphael an einer
+anderen Station ausfuehren soll — das NAS ist der einzige Pfad, der auf allen Stationen
+identisch gemountet ist. Hintergrund: Claude-Code-Sitzungen synchronisieren **nicht**
+ueber den Account (kein Pendant zum ChatGPT-Sessionsync); jede Station fuehrt ihre eigene
+Sitzung. Bis SSH steht, ist das NAS der Uebergabeweg; danach entfaellt er, weil Befehle
+direkt fern ausgefuehrt werden.
