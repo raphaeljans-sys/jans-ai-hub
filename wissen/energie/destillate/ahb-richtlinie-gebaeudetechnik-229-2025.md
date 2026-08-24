@@ -197,15 +197,22 @@ Projekt ist zuerst dieses Dokument bzw. das passende Fachmerkblatt zu prüfen.
   kantonsrat.zh.ch).
 - Die referenzierten Fachmerkblätter (376 Beleuchtung, 265 Kennzeichnung, 385 PR-NIS, 386
   Storensteuerung, 389 Lithium-Ionen-Lagerung, 393/394 Bühnentechnik/Wärmepumpen-Messkonzept u. a.)
-  sind bis auf **376** (separat destilliert, siehe unten) und **386** (✓ 24.08.2026, siehe unten)
-  in dieser KB noch nicht einzeln destilliert — Kandidaten für einen künftigen Lauf. **394
-  Wärmepumpen-Messkonzept versucht 24.08.2026, aber gescheitert:** PDF gefunden und geladen
+  sind jetzt bis auf **393/394** vollständig destilliert: **376** (separat, siehe unten), **386**
+  (✓ 24.08.2026, siehe unten), **265** ✓ 24.08.2026 `[[ahb-richtlinie-265-kennzeichnung-beschriftung-gebaeudetechnik]]`,
+  **385** ✓ 24.08.2026 `[[ahb-merkblatt-385-planungsrichtlinie-nis]]` (⚠ Datenstand 2011, 15 Jahre,
+  Richtlinie selbst sieht 4-Jahres-Prüfzyklus vor), **389** ✓ 24.08.2026
+  `[[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]]`. **393 Bühnentechnik ebenfalls
+  gescheitert (24.08.2026), gleicher Befund wie 394:** PDF gefunden und geladen
+  (`merkblatt-buehnentechnik.pdf`, HTTP 200, 1'812'725 Byte, 17 Seiten), Textlayer liefert nur
+  Titelseite/Kopfzeilen (`pdftotext -layout` extrahiert von 17 Seiten nur 32 Zeilen, praktisch
+  ausschliesslich Adress-/Titelblock) — Inhalt vollständig als Grafik/Schema gesetzt. **394
+  Wärmepumpen-Messkonzept (bereits zuvor gescheitert):** PDF gefunden und geladen
   (`merkblatt-messkonzept-waermepumpen.pdf`, HTTP 200, 1'229'421 Byte, 10 Seiten), der Textlayer
   liefert aber praktisch nur die Titelseite — der Inhalt ist vollständig als Grafik/Schema gesetzt,
   kein durchsuchbarer Fliesstext (PyMuPDF `page.get_text()` liefert auf S. 2-10 nur vereinzelte
-  Leerzeichen/Sonderzeichen). Kein Destillat ohne OCR/Bildlesung möglich — bewusst nicht
-  spekulativ nacherzählt, offen für einen Lauf mit Bild-Werkzeug.
+  Leerzeichen/Sonderzeichen). Für **beide** kein Destillat ohne OCR/Bildlesung möglich — bewusst
+  nicht spekulativ nacherzählt, offen für einen Lauf mit Bild-Werkzeug.
 - Teil 5 (Gebäudeautomation) referenziert ein eigenes «Pflichtenheft Gebäudeautomation» (Stand
   06.2025) mit eigener Dokument-Nr. — nicht Teil dieses Destillats, nicht gelesen.
 
-**Backlinks:** [[ahb-zuerich-gt-rl8-beleuchtung]] · [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] · [[ahb-merkblatt-386-storensteuerung-2017]] · [[gebaeudetechnik-pflichtenheft]] · [[kaeltemittel-r290-waermepumpen-ch]] · [[trinkwassererwaermung-legionellenschutz-energieeffizienz]]
+**Backlinks:** [[ahb-zuerich-gt-rl8-beleuchtung]] · [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] · [[ahb-merkblatt-386-storensteuerung-2017]] · [[ahb-richtlinie-265-kennzeichnung-beschriftung-gebaeudetechnik]] · [[ahb-merkblatt-385-planungsrichtlinie-nis]] · [[ahb-merkblatt-389-lithium-ionen-batterien-lagerung]] · [[gebaeudetechnik-pflichtenheft]] · [[kaeltemittel-r290-waermepumpen-ch]] · [[trinkwassererwaermung-legionellenschutz-energieeffizienz]]
