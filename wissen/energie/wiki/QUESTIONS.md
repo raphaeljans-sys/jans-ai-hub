@@ -2,6 +2,60 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24r — Periodische Nachprüfung: Stand PBG-Revision «erleichtertes Bauen im Bestand» weiterhin ohne Kantonsratsschritt (Negativbefund bestätigt)
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** NAS zu Laufbeginn nicht gemountet,
+`wissen/energie/` lokal git-getrackt und unbetroffen. `ps`/Elternprozess-Prüfung: ein zweiter
+`claude -p`-Prozess mit identischem Energie-Prompt lief parallel (PID 71949, sechs Minuten vor
+dem eigenen PID 76760 gestartet, beide `mschub79x`-Wrapper) — echter Geschwisterlauf, kein
+Duplikat-Fehlalarm. `git status`/`git diff --numstat` vor und nach jedem Schreibvorgang geprüft,
+keine Kollision: der Geschwisterlauf hatte `destillate/elektroheizungs-ersatzpflicht-zh-sz.md`,
+`wiki/BAUHERREN-FAQ.md` und `destillate/INDEX.md` bereits vor Beginn dieses Laufs committet.
+
+Gewählt: das Destillat `[[pbg-revision-erleichtertes-bauen-bestand-zh]]` trug seit der letzten
+Prüfung (20.07.2026, Run 82) einen expliziten Prüfauftrag «bei der nächsten periodischen Prüfung
+auf zh.ch/kantonsrat.zh.ch nach einer neuen Vorlage/einem neuen Geschäft suchen» — mit gut fünf
+Wochen Abstand ein sinnvoller Termin für die Nachprüfung, kein A-BLIND-Fall (das Destillat ist
+bereits primärquellen-verifiziert; hier ging es um eine Aktualitätsprüfung, nicht um eine
+Erstverifikation).
+
+Sechs WebSearch-Anfragen mit unterschiedlichen Suchbegriffen (Kantonsratsvorlage, Botschaft,
+Regierungsratsbeschluss, § 220a PBG, Vernehmlassungs-Auswertung) sowie WebFetch auf
+bauimmorecht.ch, den zh.ch-Medienmitteilungsfilter und `inzh.ch/kantonsrat/geschaefte/`
+durchgeführt. **Ergebnis: derselbe Negativbefund wie am 20.07.2026** — weiterhin kein
+Regierungsratsantrag an den Kantonsrat, kein Kantonsratsgeschäft, kein Beschluss, kein
+Inkraftsetzungsdatum zu «erleichtertes Bauen im Bestand» auffindbar. Die Vernehmlassungs-
+Auswertung (Stellungnahmen-Zusammenfassung) ist ebenfalls weiterhin nicht auffindbar.
+
+**Nebenfund (Werkzeug, kein Rechtsinhalt):** `inzh.ch/kantonsrat/geschaefte/id/<hash>` ist —
+anders als `kantonsrat.zh.ch` — für WebFetch als Klartext lesbar und zeigt eine echte,
+laufend aktualisierte Geschäftsliste (Einträge bis August 2026 sichtbar); eine Testabfrage traf
+aber mangels funktionierendem Volltext-Suchparameter nur ein bereits 1995 erledigtes,
+themenfremdes Geschäft gleichen Titels (KR-Nr. 3473) — kein Ersatz für einen echten
+Datenbank-Suchzugriff, aber ein Hinweis für einen künftigen Lauf mit Browser-Zugriff statt
+WebFetch.
+
+Eingearbeitet: `destillate/pbg-revision-erleichtertes-bauen-bestand-zh.md` (Frontmatter
+datenstand/status/last_updated auf 24.08.2026 nachgeführt, Kopfsatz präzisiert, neuer
+Chronologie-Eintrag 24.8.2026, Offene-Punkte-Absatz um Werkzeughinweis ergänzt),
+`destillate/INDEX.md` (Zeile 217 nachgeführt: Datenstand 2026-08-24, Quelle um die
+Nachprüfung ergänzt).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `pbg-revision-erleichtertes-bauen-
+bestand-zh.md` +42/-11 (additiv/präzisierend, keine Löschung von Bestand — bestehende
+Aussagen ergänzt, nicht ersetzt, ausser der reinen Datumsangabe im Kopfsatz),
+`destillate/INDEX.md` +1/-1 (Zeilenersatz derselben Registerzeile).
+
+**Für den nächsten Lauf:** Kein neuer Rechtsstand zu «erleichtertes Bauen im Bestand» — bei der
+übernächsten periodischen Prüfung (Vorschlag: nicht vor September/Oktober 2026) zuerst
+`inzh.ch/kantonsrat/geschaefte/` mit Browser-Zugriff statt WebFetch auf eine funktionierende
+Volltextsuche prüfen. Übrige A-BLIND-Kandidaten aus 24q unverändert offen: `pv-marktzahlen-
+kosten-ch-2025`, `muken-2025-modul-7-betriebsoptimierung-hlkkse`, `ahb-merkblatt-376-
+uebersichtstabelle-beleuchtungsanforderungen-2025` (alle drei bereits established mit
+primärquellen-Volltextlesung, daher als A-BLIND-Kandidaten fraglich — vor Auswahl prüfen, ob
+tatsächlich noch ungelesene Primärquellen offen sind, nicht nur die Backlink-Zahl).
+
 ## 2026-08-24q — A-BLIND: `elektroheizungs-ersatzpflicht-zh-sz` — MuKEn-2025-Art. 5.1 «ohne Wasserverteilsystem» am Original bestätigt, Art. 5.2-Befreiungskatalog nachgetragen
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,

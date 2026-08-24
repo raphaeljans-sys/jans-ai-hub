@@ -1,5 +1,43 @@
 # CHANGELOG
 
+## 2026-08-24r — Periodische Nachprüfung: Stand PBG-Revision «erleichtertes Bauen im Bestand» weiterhin ohne Kantonsratsschritt (Negativbefund bestätigt)
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** NAS zu Laufbeginn nicht gemountet,
+`wissen/energie/` lokal git-getrackt und unbetroffen. Ein zweiter `claude -p`-Prozess mit
+identischem Energie-Prompt lief parallel (PID 71949, sechs Minuten früher gestartet, gleicher
+Wrapper-Typ `mschub79x`) — echter Geschwisterlauf, kein Duplikat-Fehlalarm; `git status`/`git diff
+--numstat` vor und nach jedem Schreibvorgang geprüft, keine Kollision (der Geschwisterlauf hatte
+seine Dateien bereits committet, bevor dieser Lauf zu schreiben begann).
+
+Gewählt: `[[pbg-revision-erleichtertes-bauen-bestand-zh]]` trug seit Run 82 (20.07.2026) einen
+expliziten periodischen Prüfauftrag zum Kantonsratsstand — mit gut fünf Wochen Abstand ein
+sinnvoller Nachprüf-Termin. Sechs WebSearch-Anfragen + WebFetch auf bauimmorecht.ch, den
+zh.ch-Medienmitteilungsfilter und `inzh.ch/kantonsrat/geschaefte/` durchgeführt: **derselbe
+Negativbefund wie am 20.07.2026** — weiterhin kein Regierungsratsantrag, kein Kantonsratsgeschäft,
+kein Beschluss, kein Inkraftsetzungsdatum, keine veröffentlichte Vernehmlassungs-Auswertung
+auffindbar. Nebenfund: `inzh.ch/kantonsrat/geschaefte/id/<hash>` ist für WebFetch anders als
+`kantonsrat.zh.ch` als Klartext lesbar (echte, bis August 2026 aktuelle Geschäftsliste), aber ohne
+funktionierenden Volltext-Suchparameter nicht gezielt durchsuchbar — als Werkzeughinweis für einen
+künftigen Lauf mit Browser-Zugriff im Destillat vermerkt.
+
+Eingearbeitet: `destillate/pbg-revision-erleichtertes-bauen-bestand-zh.md` (Frontmatter
+datenstand/status/last_updated auf 24.08.2026, Kopfsatz präzisiert, neuer
+Chronologie-Eintrag 24.8.2026, Offene-Punkte-Absatz um Werkzeughinweis ergänzt),
+`destillate/INDEX.md` (Zeile 217 nachgeführt), `wiki/QUESTIONS.md` (dieser Eintrag).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `pbg-revision-erleichtertes-bauen-
+bestand-zh.md` +42/-11, `destillate/INDEX.md` +1/-1 (Zeilenersatz derselben Registerzeile),
+`wiki/QUESTIONS.md` +54/-0 — durchgehend additiv/präzisierend, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** Kein neuer Rechtsstand zu «erleichtertes Bauen im Bestand» — nächste
+periodische Prüfung nicht vor September/Oktober 2026 sinnvoll, dann mit Browser-Zugriff auf
+`inzh.ch/kantonsrat/geschaefte/` statt WebFetch versuchen. Die übrigen A-BLIND-Kandidaten aus 24q
+(`pv-marktzahlen-kosten-ch-2025`, `muken-2025-modul-7-betriebsoptimierung-hlkkse`, `ahb-merkblatt-
+376-uebersichtstabelle-beleuchtungsanforderungen-2025`) sind bereits established mit
+primärquellen-Volltextlesung — vor erneuter Auswahl als A-BLIND-Kandidat prüfen, ob dort
+tatsächlich noch ungelesene Primärquellen offen sind, nicht nur nach Backlink-Zahl auswählen.
+
 ## 2026-08-24q — A-BLIND: `elektroheizungs-ersatzpflicht-zh-sz` — MuKEn-2025 Art. 5.1 «ohne Wasserverteilsystem» primärquellenbelegt, Art. 5.2-Befreiungskatalog ergänzt
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
