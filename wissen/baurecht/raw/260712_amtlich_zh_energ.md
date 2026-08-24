@@ -305,3 +305,68 @@ durch das Baurekursgericht entschieden.³⁴
   19.4.2021 neu gefasst).
 - Fussnote 9 (§ 10 aufgehoben durch G vom 25. Juni 1995. In Kraft seit 1.
   Oktober 1997).
+
+## Nachtrag 2026-08-24 (Buch-Run 113): §§ 7-8e EnerG (II. Titel / II a. Titel)
+
+Additiv beschafft, um die in [[baureife-und-erschliessung]] offen gelassene Frage zu § 8a
+EnerG zu klären (bislang von diesem Auszug nicht abgedeckt). Quelle: identischer amtlicher
+PDF-Volltext (`pdf_url` oben, Nachtrag 129, Stand Publikation 1.7.2025), per
+`pdftotext -layout` neu extrahiert, 2026-08-24.
+
+**II. Titel — Energieplanung**
+
+§ 7.¹⁶ 1 Die Gemeinden können für ihr Gebiet eine eigene Energieplanung erlassen.
+
+§ 8.³⁰ **Aufgehoben** (Fussnote 30: Aufgehoben durch G vom 25. Oktober 2021, OS 77, 239;
+ABl 2021-02-05. In Kraft seit 1. Juni 2022.)
+
+**II a. Titel — Vollzug des Stromversorgungsgesetzes¹⁹** (Fussnote 19: Eingefügt durch G
+vom 20. September 2010, OS 66, 55; ABl 2009, 1706. In Kraft seit 1. März 2011.)
+
+§ 8 a.¹⁹ *Zuteilung der Netzgebiete* — 1 Der Regierungsrat teilt die gesamte Fläche des
+Kantons in Netzgebiete auf und weist sie den Netzbetreibern zu. Diese betreiben innerhalb
+ihres Netzgebietes das lokale und das regionale Verteilnetz.
+2 Bei der Aufteilung und Zuweisung berücksichtigt der Regierungsrat die bestehenden
+Eigentumsverhältnisse an den Elektrizitätsnetzen und vertragliche Regelungen über die Netze.
+Das Gebiet einer politischen Gemeinde wird in der Regel den in dieser Gemeinde tätigen
+Netzbetreibern zugewiesen.
+3 Bestehende Netzgebiete werden nur ausnahmsweise aufgeteilt.
+4 Vor der Bildung und Zuweisung der Netzgebiete werden die Netzbetreiber und die Gemeinden
+angehört. Die zuständige Direktion des Regierungsrates kann Pläne und weitere Unterlagen
+einfordern.
+
+§ 8 b.¹⁹ *Leistungsauftrag* — Der Regierungsrat kann die Netzbetreiber mittels
+Leistungsaufträgen nach Art. 5 Abs. 1 StromVG zu Leistungen verpflichten, die folgenden
+Zwecken dienen: a. Verbesserung der Grundversorgung über das durch Art. 5-7 StromVG gebotene
+Mass, b. Verbesserung der Versorgungssicherheit über das durch Art. 8 StromVG gebotene Mass,
+insbesondere zur Bewältigung von ausserordentlichen Lagen, c. Effizienzsteigerung der
+Elektrizitätsverwendung, d. Erbringung von Energiedienstleistungen, insbesondere zur
+Bereitstellung von Wärme, Kälte, Licht und mechanischer Arbeit.
+
+§ 8 c.¹⁹ *Anschlussrecht und Anschlusspflicht* — 1 Im zugewiesenen Gebiet ist ausschliesslich
+der Netzbetreiber berechtigt, Netzanschlüsse für Endverbraucher zu erstellen.
+2 Ein Netzbetreiber ist verpflichtet, sämtliche Endverbraucher seines Gebiets anzuschliessen,
+ausgenommen diejenigen Endverbraucher, die von ihrem Anschlussrecht keinen Gebrauch machen
+wollen. Befindet sich der Endverbraucher ausserhalb der Bauzone, dürfen ihm höchstens die
+tatsächlich verursachten Anschlusskosten auferlegt werden. Im Streitfall entscheidet der
+Netzbetreiber mit Verfügung.
+3 Ein Netzbetreiber kann einen Endverbraucher ausserhalb seines Netzgebietes anschliessen,
+wenn dieser, die betroffenen Netzbetreiber und Gemeinden sowie die zuständige Direktion
+zustimmen.
+
+§ 8 d.¹⁹ *Angleichung unterschiedlicher Netznutzungstarife* — Der Regierungsrat kann
+Massnahmen gemäss Art. 14 Abs. 4 StromVG zur Angleichung unverhältnismässiger Unterschiede
+bei den Netznutzungstarifen beschliessen.
+
+§ 8 e.¹⁹ *Rechtsschutz* — 1 Das Verwaltungsgericht beurteilt im Klageverfahren Streitigkeiten
+betreffend das Anschlussrecht gemäss § 8 c Abs. 1 und 3.
+2 Der Regierungsrat entscheidet über Rekurse betreffend diejenigen Anteile im
+Elektrizitätstarif, die Abgaben und Leistungen an das Gemeinwesen darstellen.
+
+**Kernbefund:** §§ 8a-8e EnerG regeln ausschliesslich den kantonalen Vollzug des
+(Bundes-)Stromversorgungsgesetzes (Netzgebiets-Zuteilung an Netzbetreiber, deren
+Anschlussrecht/-pflicht, Leistungsaufträge, Tarifangleichung, Rechtsschutz) — **nicht** die
+Energiesparmassnahmen für Neubauten (§§ 9 ff., andere Materie, Titel III). Die vom
+Buch-Destillat genannte Spanne «§§ 8a/9-13 EnerG» als zusammenhängender Regelungsblock ist
+damit widerlegt: § 8a EnerG gehört sachlich zu § 8c (Netzanschlusspflicht des
+Elektrizitätsversorgers), nicht zur Bauenergie-Kette der §§ 9 ff.

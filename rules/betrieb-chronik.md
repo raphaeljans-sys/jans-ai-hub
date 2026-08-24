@@ -1919,6 +1919,49 @@ trinkt.
 Die uebrigen Aufsichts-Takte bleiben unveraendert; `vollgas-fruehwarnung` (taeglich 06:25)
 ist weiterhin der Kanal, wenn das Kontingent kippt.
 
+## 260824 — Quelle des stale «buero-projekte»-Wiederholungsauftrags gefunden: `/tmp/vollschub-mini.sh`
+
+Seit dem Vollschub-Nachtrag vom 23.08.2026 16:20 (`logbuch/vollgas/RADAR.md`, Auftrag
+Raphael, acht gegatete Läufe) hat der Korpus `buero-projekte` (Ziel-KB `wissen/projekt-lessons`)
+denselben, seit 23.08.2026 veralteten Auftragstext («807 Positionen laut KORPUS-QUEUE.md,
+Vorlauf projekt-triage2») mittlerweile **14 Mal in Folge** erhalten — obwohl der Korpus laut
+`KORPUS-QUEUE.md` bereits am 23.08.2026 vollständig abgeschlossen wurde (Inventar, Triage,
+Destillat, Kurator-Stufe). Elf Vorläufer-Sessions (siebte bis dreizehnte Fortsetzung,
+`wissen/projekt-lessons/CHANGELOG.md`) haben das wiederholt festgestellt, aber die Quelle
+im Repo nicht gefunden («in `scripts/`, `logbuch/vollgas/` oder sonst im Repo nicht
+gefunden», so die dreizehnte Fortsetzung).
+
+**Ursache, per Prozessbaum verifiziert (`ps -o pid,ppid,command`):** ein am 23.08.2026 17:20
+von Raphael manuell gestartetes, nicht versioniertes Script `/tmp/vollschub-mini.sh`
+(PPID 1, also von der Shell abgehängt, läuft im Hintergrund weiter). Es rotiert seit dem
+Start alle ~25 s durch ein **statisches 5-Zeilen-Array** `TASKS` (buero-projekte-Triage,
+SIA-Sweep normen, energie-QUESTIONS, Thalwil-Reglemente-Queue, normen-QUESTIONS) und
+spawnt bei freiem Slot (`MAXP=5`, gemessen an `pgrep -f "claude-run.sh --name mschub"`)
+per `nohup ... scripts/claude-run.sh --name mschub<N> --budget 25 --perm acceptEdits`
+einen neuen Lauf mit dem **fest einprogrammierten** Prompt — unabhängig davon, ob der
+jeweilige Korpus zwischenzeitlich abgeschlossen wurde. Läuft bis `SCHLUSS = 2026-08-24 11:30`
+(Abbruch-Datei `/tmp/STOP-vollschub`, vom Script selbst geprüft, existierte zum
+Fundzeitpunkt nicht).
+
+**Warum das im Repo nicht auffindbar war:** das Script liegt in `/tmp`, ausserhalb jeder
+versionierten Quelle (`scripts/`, `~/.claude/scheduled-tasks/`, `logbuch/vollgas/`,
+LaunchAgents/Crontab — alle geprüft, alle leer). Es ist reines Laufzeit-Artefakt eines
+manuellen Vollschub-Starts, kein Bestandteil der regulären Automatik.
+
+**Bewusst nicht angefasst:** weder das laufende Script editiert (Gefahr: eine
+Bash-Datei waehrend der laufenden Ausfuehrung eines `while`-Loops zu veraendern kann den
+Interpreter aus dem Takt bringen, da er die Datei inkrementell nachliest — kein sauber
+umkehrbarer Eingriff an einem fremden, noch laufenden Prozess) noch `/tmp/STOP-vollschub`
+gesetzt (würde alle vier weiterhin sinnvollen Rotationsaufgaben mitbeenden, nicht nur die
+erledigte). Das Script terminiert selbst um 11:30 Uhr heute; der Rest-Schaden ist auf
+diese ca. 7 h und höchstens 1/5 der Neuspawns begrenzt.
+
+**Für Raphael, falls früher gestoppt werden soll:** `touch /tmp/STOP-vollschub` beendet die
+gesamte Rotation. Um nur `buero-projekte` aus der Rotation zu nehmen, ohne den laufenden
+Prozess zu stören: Script beenden (`kill 42800` bzw. aktuelle PID via
+`pgrep -f vollschub-mini.sh`), die `buero-projekte`-Zeile aus dem `TASKS`-Array löschen,
+neu starten. Der Korpus selbst braucht keine weitere Bearbeitung — er ist fertig.
+
 ## 260821 — MacBook Pro: Bildschirmschoner-Waechter trotz Universal-Control-Assertion
 
 Der Bildschirmschoner startete nie, obwohl `idleTime` korrekt auf 3600 s stand: Universal

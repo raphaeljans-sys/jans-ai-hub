@@ -2,6 +2,7 @@
 title: Bezugsgrössen des Energienachweises — EBF, Gebäudehüllziffer, Dämmperimeter
 status: emerging
 last_updated: 2026-08-03
+datenstand: "2003 (ältester zitierter Quellenstand: BBL-Merkblatt «Untergeschosse dämmen», BBL-Nr. 805.150.3 d, Stand 10.01.2003; die Bezugsgrössen-Definitionen selbst — Gebäudeform, EBF — tragen kein eigenes Ausgabedatum)"
 sources: [destillate/gebaeudehuellziffer-ebf-flaechendefinition.md, destillate/untergeschosse-daemmen.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/minergie-p-a-anwendungshilfe-2019.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[minergie-standards]], [[energienachweis-zh]]
 ---

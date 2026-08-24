@@ -4501,9 +4501,10 @@ Datenstand 2026-08-24 (Audit-Korrektur A-P2 02.1).
 zu verwechseln mit dem unabhängigen Fördermittel-Geschäft **KRNr 6064** (Rahmenkredit
 2026-2029, ohne Solarpflicht-Bezug), das am 17.08.2026 bewilligt wurde → F7/
 `[[foerderung-energie-zh]]`. Die Bewilligung von 6064 präjudiziert 6062/6063 nicht (andere
-Rechtsgrundlage, andere Geschäftsart); erneute CDWS-Live-Abfrage 24.08.2026 bestätigt für 6062
-unverändert **PendentBeiNeu = Kommission**, einziger Ablaufschritt weiterhin «Antrag
-Regierungsrat» vom 26.11.2025 — der unten beschriebene Sachstand gilt fort.
+Rechtsgrundlage, andere Geschäftsart); erneute CDWS-Live-Abfrage 24.08.2026 bestätigt für **beide**
+Geschäfte (6062 UND 6063 einzeln abgefragt) unverändert **PendentBeiNeu = Kommission**, einziger
+Ablaufschritt weiterhin «Antrag Regierungsrat» vom 26.11.2025 — der unten beschriebene Sachstand
+gilt fort, Details siehe `[[zh-energiegesetz-revision-solarpflicht-2026]]`.
 
 Nein. Der Regierungsrat hat der KEVU (Kommission für Energie, Verkehr und Umwelt) des Kantonsrats am
 26.11.2025 seinen Antrag zur Änderung des Energiegesetzes vorgelegt (**KRNr 6062** Solarpflicht +

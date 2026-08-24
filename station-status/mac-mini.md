@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 04:10:31
+Stand: 24.08.2026 04:20:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 04:10)
+- Developer/jans/ai/hub  (letzte Aktivitaet 04:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 04:10:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 46d212b8 twin-mail-training Batch 103: Fenster 23.-24.08.2026 leer, Thread-Rueckgriff SBB-Naeherbaurecht; Werkzeug-Detektor via Message-ID
+- c55568c0 nas-selfcommit: 11 Datei(en) 2026-08-24 04:15

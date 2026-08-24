@@ -4852,3 +4852,66 @@ die KB widerspricht sich selbst.
   Damit sind unter den nicht bereits ausgeschöpften/blockierten Kandidaten aktuell keine weiteren
   offen — der nächste A-BLIND-Fortschritt braucht entweder ein neu destilliertes, häufig
   zitiertes Dokument oder Raphaels Freigabe für die Normkauf-/Loop-Takt-Entscheide.
+
+- [x] **A-BLIND-Schwelle abgesenkt (24.08.2026, Fortsetzung desselben Laufs): Backlink-Zählung für
+  18-29 statt ≥30 Referenzen wiederholt, kein neuer primärquellen-verifizierbarer Kandidat
+  gefunden — aber ein echter Datenstand-Nachtrag erledigt.** Backlink-Skript erneut über
+  `wiki/*.md` + `destillate/*.md` laufen lassen (38 Destillate mit 18-29 Backlinks). Stichprobe der
+  acht meistzitierten daraus (29-27 Backlinks) einzeln gegen Frontmatter/«Offene Punkte» geprüft:
+  `bfe-u-wert-bauteilekatalog-neubauten-2002` (bereits established, offener Punkt ist SN EN ISO
+  6946 = E-R161-1, blockiert an Normkauf), `ahb-zuerich-gt-rl8-beleuchtung` (Alterskorpus-Problem,
+  keine A-BLIND-Frage — die Norm selbst ist abgelöst, kein PDF-Lesefehler), `pv-marktzahlen-kosten-
+  ch-2025`/`fernwaerme-anschlusspflicht-zh` (established, keine offenen Primärquellen-Punkte),
+  `muken-2025-modul-7-betriebsoptimierung-hlkkse` (der einzige dort vermerkte Primärtext-Punkt war
+  bereits am 19.07.2026 geschlossen, nur nicht mit durchgestrichenem Text markiert gewesen —
+  Markup jetzt korrekt). **Kein neuer A-BLIND-Fall unter den 18-29-Backlink-Kandidaten.**
+  Stattdessen einen anderen, konkret gangbaren Weg genutzt: `zh-energiegesetz-revision-
+  solarpflicht-2026` (Backlinks nicht gezählt, da `status: emerging` mit eigenem Verfahrenstracking)
+  trug seit Run 95 (25.07.2026) keinen frischen Datenstand-Check mehr; die dort begründete
+  «passiv/ereignisgetrieben»-Empfehlung wurde mit einer erneuten CDWS-Live-Abfrage
+  (`parlzhcdws.cmicloud.ch`, KRNr 6062 UND 6063 einzeln) eingelöst: **beide Geschäfte unverändert
+  bei `PendentBeiNeu = Kommission`, kein neuer Ablaufschritt seit 26.11.2025** — ein Monat ohne
+  Fortschritt seit Run 87. Eingearbeitet in `destillate/zh-energiegesetz-revision-solarpflicht-2026.md`
+  (neuer Abschnitt «Aktualitäts-Check 2026-08-24», Frontmatter `last_updated`) und
+  `wiki/BAUHERREN-FAQ.md` F116 (Nachtrag um KRNr 6063 ergänzt, bisher nur 6062 explizit genannt).
+  **Für den nächsten Lauf:** unter 18 Backlinks lohnt sich die Methode nicht mehr (Streuverlust zu
+  gering zitierten Einzelquellen); der A-BLIND-Vorrat aus stark zitierten, primärtext-offenen
+  Destillaten ist damit für dieses Quartal ausgeschöpft. `git diff --numstat` nach jedem
+  Schreibvorgang geprüft: alle drei Dateien laufen additiv (Destillat +27/-1 Frontmatter-Zeile,
+  FAQ +4/-3 Umformulierung, keine Löschung von Bestand).
+
+## 2026-08-24 (interaktive Session, Fortsetzung «02.17 Themenartikel-Nachrüstung») — zehn von 27 fehlenden `datenstand`-Feldern nachgerüstet
+
+- [x] **10 von 27 Themenartikeln ohne `datenstand`-Feld (A-P2 02.17 / 03.16-Restbaustelle)
+  nachgerüstet, mit belegtem ältesten Quellenstand statt Kompilierdatum.** Vor Beginn geprüft,
+  ob der 24.08.2026-Bestand aktuell ist (`wc -l wiki/*.md`, Feld-Scan über alle 37 Themenartikel):
+  27 trugen tatsächlich noch kein `datenstand`. Für jeden bearbeiteten Artikel die Frontmatter
+  aller in `sources:` gelisteten Destillate gelesen (`gelesen`/`ausgabe`-Felder), das älteste
+  tatsächlich zitierte Ausgabedatum bestimmt und mit kurzer Einordnung (⚠ falls die Quelle durch
+  eine neuere Fassung überholt oder nur Faustwert ist) eingetragen:
+  `dachbegruenung-gruendach` (2009, Checkliste Stadt ZH — Fachnorm SIA 312:2013 bleibt
+  massgebend), `holzwerkstoffe-formaldehyd-innenraumklima` (2008, einzige Quelle, kein
+  Aktualitäts-Vorbehalt im Artikel), `daemmstoffe-lambda` (2002, BFE-Bauteilekatalog),
+  `elektrosmog` (2002, AHB-Informationsblatt — beide Quellen >20 Jahre alt), `bezugsgroessen-
+  energienachweis` (2003, BBL-Merkblatt Untergeschosse dämmen), `u-werte-grenzwerte-ch` (2002,
+  BFE-Bauteilekatalog/-Wärmebrückenkatalog, primärquellen-verifiziert), `innendaemmung` (2002,
+  BFE-Wärmebrückenkatalog, Grundlage SIA 380/1:2001, im Artikel selbst als Grössenordnung
+  geflaggt), `gebaeudeschadstoffe` (2004, KBOB-Empfehlung PCB-Fugendichtungsmassen),
+  `reinraum-op-klimatisierung` (2015, SWKI VA105-01), `notstromversorgung-
+  sicherheitsstromversorgung` (2020, BFE Fact-Sheet 45).
+  **Bewusst nicht in diesem Lauf bearbeitet (17 verbleibend):** `abwaermenutzung-gebaeude`,
+  `fenster-uw-g-wert-zielkonflikt`, `geak-gebaeudeenergieausweis`, `gebaeudetechnik-
+  pflichtenheft` (0 Quellen im Frontmatter, braucht Recherche im Fliesstext),
+  `heizleistung-und-waermeerzeuger`, `holzbau-bauphysik-clt`, `komfortlueftung`,
+  `oekologische-materialvorgaben-beschaffung` (0 Quellen im Frontmatter), `pv-eigenverbrauch-zev`,
+  `pv-solar-technologien`, `schallschutz-sia181`, `solarpflicht-schweiz-kantone`,
+  `sommerlicher-waermeschutz`, `u-werte-grenzwerte-ch` [erledigt, s.o.], `umweltwaerme-gewaesser`,
+  `waermeplanung-kommunal-zh-sz`, `waermepumpen-laermschutz`. Grund für den Stopp bei zehn: bei
+  mehreren der verbleibenden Artikel ist der älteste Quellenstand nicht mechanisch bestimmbar,
+  weil einzelne Quellen im selben Artikel ausdrücklich als «ersetzt»/«abgelöst» markiert sind
+  (z.B. AWEL-Leitfaden 2010 vs. Planungshilfe 2025 bei `abwaermenutzung-gebaeude` und
+  `umweltwaerme-gewaesser`) — das braucht eine Lesung des Artikeltextes selbst, nicht nur der
+  Frontmatter-Daten der Quellen, um den tatsächlich tragenden (nicht den historisch zitierten)
+  Datenstand zu bestimmen. Sauberer eigener Lauf statt Rateübernahme.
+  Beleg: `git diff --numstat` nach jedem Schreibvorgang geprüft, alle zehn Dateien `+1/-0`
+  (reine Zeilenergänzung, keine Löschung von Bestand).

@@ -1,5 +1,69 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: zehn von 27 Themenartikeln um das Pflichtfeld `datenstand` ergänzt (A-P2 02.17)
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand. CHANGELOG und letzten Lauf-Report zuerst gelesen; der Bestand war weiter, als die
+zuletzt gelesenen Berichte vermuten liessen — die A-P2-18-Punkte-Warteschlange, die im Auditpapier
+vom 23.08.2026 noch als offen geführt wurde, war bereits vollständig von mehreren parallelen
+Sessions desselben Tages abgearbeitet (Gegenprüfung: alle 18 Korrekturformulierungen einzeln am
+Dateistand nachgemessen, keine einzige fehlte). Ebenso bereits erledigt: A-BLIND (Wärmebrückenkatalog
+komplett primärquellen-verifiziert, Erdwärmesonden-GSchG/GSchV geprüft, Backlink-Schwelle
+abgesenkt), der grösste Teil der Registerhygiene 03.16 (unregistrierte Destillate, Statuswerte,
+tote Links).
+
+Als echten nächsten Schritt die von der letzten Session ausdrücklich offen gelassene
+Restbaustelle aus 02.17 aufgegriffen: 27 der 37 Themenartikel trugen noch kein Pflichtfeld
+`datenstand` (verbindlich seit Audit-Korrektur A-P2 02.17, `CLAUDE.md`). Für zehn Artikel mit
+eindeutig bestimmbarem ältestem Quellenstand (kein «ersetzt/abgelöst»-Sonderfall im Artikeltext,
+der eine tiefere Lesung gebraucht hätte) das Feld nachgerüstet, je mit dem ältesten tatsächlich
+zitierten Ausgabedatum der in `sources:` gelisteten Destillate: `dachbegruenung-gruendach` (2009),
+`holzwerkstoffe-formaldehyd-innenraumklima` (2008), `daemmstoffe-lambda` (2002), `elektrosmog`
+(2002), `bezugsgroessen-energienachweis` (2003), `u-werte-grenzwerte-ch` (2002), `innendaemmung`
+(2002), `gebaeudeschadstoffe` (2004), `reinraum-op-klimatisierung` (2015),
+`notstromversorgung-sicherheitsstromversorgung` (2020).
+
+17 Artikel bewusst nicht angefasst — bei mehreren steht im Fliesstext eine ausdrückliche
+Ablösung («AWEL-Leitfaden 2010 ersetzt durch Planungshilfe 2025» u.ä.), dort wäre der
+mechanisch älteste Frontmatter-Wert der falsche Datenstand (der einer überholten, nicht mehr
+tragenden Quelle). Diese Fälle brauchen eine Lesung des Artikeltextes selbst, nicht nur der
+Quellen-Frontmatter, und sind für einen eigenen Lauf notiert (Details:
+`wiki/QUESTIONS.md`, Abschnitt 24.08.2026 «02.17 Themenartikel-Nachrüstung»).
+
+Register: `wiki/QUESTIONS.md` (neuer datierter Abschnitt mit vollständiger Bearbeitet-/
+Verbleibend-Liste). `git diff --numstat` nach jedem Schreibvorgang geprüft: alle zehn Dateien
+`+1/-0` (reine Zeilenergänzung, keine Löschung von Bestand).
+
+## 2026-08-24 — Interaktive Session: A-BLIND-Schwelle auf 18-29 Backlinks abgesenkt (kein neuer Fall), KRNr 6062/6063 Solarpflicht-Verfahrensstand live nachgeprüft
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand.
+Anschluss an den A-BLIND-Fall-2-Lauf von vorhin (selber Tag), der empfahl, entweder die
+Backlink-Schwelle auf 20-29 abzusenken oder auf neu destillierte Quellen zu warten.
+
+Backlink-Zählung wiederholt (Python, `[[...]]`-Referenzen in `wiki/`+`destillate/`, gegen
+existierende Destillate gefiltert) für den Bereich 18-29 Backlinks (38 Treffer). Die acht
+meistzitierten davon (27-29 Backlinks) einzeln gegen Frontmatter/«Offene Punkte» geprüft:
+`bfe-u-wert-bauteilekatalog-neubauten-2002` (offener Punkt blockiert an Normkauf SN EN ISO 6946,
+dieselbe Kategorie wie E-R161-1), `ahb-zuerich-gt-rl8-beleuchtung` (Alterskorpus/Norm abgelöst,
+keine A-BLIND-Frage), `pv-marktzahlen-kosten-ch-2025`, `fernwaerme-anschlusspflicht-zh` (beide
+established ohne offene Primärquellen-Punkte), `muken-2025-modul-7-betriebsoptimierung-hlkkse`
+(einziger Primärtext-Punkt war bereits am 19.07.2026 geschlossen, Durchstreichungs-Markup jetzt
+nachgezogen). **Kein neuer A-BLIND-Fall in diesem Bereich.**
+
+Stattdessen einen konkret gangbaren Datenstand-Check nachgeholt: `zh-energiegesetz-revision-
+solarpflicht-2026` hatte seit Run 95 (25.07.2026) keine frische Prüfung mehr. Live-Abfrage der
+CDWS-Geschäftsdatenbank Kantonsrat ZH (`parlzhcdws.cmicloud.ch`) für **beide** Geschäftsnummern
+einzeln (KRNr 6062 Solarpflicht, KRNr 6063 Langzeitspeicher) — Ergebnis: **unverändert
+`PendentBeiNeu = Kommission`, kein neuer Ablaufschritt seit dem Antrag Regierungsrat vom
+26.11.2025**, ein Monat ohne Fortschritt seit der letzten Prüfung (Run 87). Eingearbeitet in
+`destillate/zh-energiegesetz-revision-solarpflicht-2026.md` (neuer Abschnitt «Aktualitäts-Check
+2026-08-24», Frontmatter `last_updated`) und `wiki/BAUHERREN-FAQ.md` F116 (Nachtrag von 24.08.
+war bereits vorhanden, aber nur für 6062 formuliert — auf beide Geschäftsnummern ausgeweitet).
+
+Register: `wiki/QUESTIONS.md` (neuer datierter Abschnitt mit Kandidatenliste und Befund).
+`git diff --numstat` nach jedem Schreibvorgang geprüft: Destillat +27/-1 (Frontmatter-Zeile
+ersetzt), FAQ +4/-3 (Umformulierung, keine Löschung), QUESTIONS.md rein additiv (+27/-0).
+
 ## 2026-08-24 — Interaktive Session: A-BLIND-Fall 2, GSchG/GSchV-Wortlaut für Erdwärmesonden am Fedlex-Primärtext verifiziert
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an die zwanzigste

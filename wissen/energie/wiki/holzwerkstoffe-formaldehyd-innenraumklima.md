@@ -2,6 +2,7 @@
 title: Holzwerkstoffe im Innenausbau — Formaldehyd
 status: emerging
 last_updated: "2026-08-15 (Mac Mini Nachtschicht 05:30, Run 133)"
+datenstand: "2008 (einzige Quelle: EMPA/BAFU-Merkblatt Holzwerkstoffe/Formaldehyd, Juli 2008, ISSN 1421-0320 — Alter im Artikel selbst noch nicht als Vorbehalt vermerkt, keine neuere Fassung geprüft)"
 sources: [destillate/holzwerkstoffe-innenraeume-formaldehyd.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[gebaeudeschadstoffe]], [[minergie-innenraumklima]]
 ---

@@ -2,6 +2,7 @@
 title: Dämmstoffe & λ-Werte — Schnellreferenz
 status: established
 last_updated: 2026-06-09
+datenstand: "2002 (ältester zitierter Quellenstand: BFE-U-Wert-Bauteilekatalog Neubauten 2002; SIA-Dokumentation D 0200/2001 «Wärmedämmstoffe» Ausgabe 2005 ist der jüngere der beiden Grundwerte — für die Baueingabe massgebend bleibt die aktuelle SIA-380/1-Ausgabe, hier nur Faustwerte)"
 sources: [destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md]
 links: [[INDEX]], [[u-werte-grenzwerte-ch]], [[BAUHERREN-FAQ]]
 ---

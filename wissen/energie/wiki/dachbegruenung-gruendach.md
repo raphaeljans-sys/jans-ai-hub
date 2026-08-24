@@ -2,6 +2,7 @@
 title: Dachbegrünung (Gründach) — Vorgaben und PV-Synergie
 status: emerging
 last_updated: "2026-08-24 (Audit-Nachtrag A-P2 02.15: FAQ F236 auf denselben SIA-312-Stand gebracht)"
+datenstand: "2009 (ältester zitierter Quellenstand: Stadt-Zürcher Checkliste Dachbegrünung, 16.02.2009 — taugt laut Artikeltext nur zur ersten Grössenordnung, nicht zum Zitat in einem Aussendokument; fachnormativ massgebend ist SIA 312:2013, geführt in der KB `normen`)"
 sources: [destillate/dachbegruenung-checkliste-stadt-zh.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]], [[sia-312-2013]], [[pflanzen-am-bau-projektierungsgrundlagen-zh]]
 ---

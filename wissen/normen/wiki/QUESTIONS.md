@@ -2189,7 +2189,7 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; die uebrigen Bestaende (Lignatec, GVZ RWA, Hindernisfreies Bauen, PAVIDENSA) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -2223,25 +2223,85 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   (Benutzerkategorien, Parkdauer, Wagenbewegungen je Parkplatz), Tab. 15 (Kaltstart 22 m³/WB,
   Kaltfahrt 0,35 m³/m, Wartezeit 10 m³/WB) und den vier Korrekturfaktoren f_ODA/f_IDA/f_FG/f_IH.
   Ohne sie erweckt das Destillat Bemessungsfähigkeit, die es nicht hat. **Dringlichster Punkt.**
+
+  > ✅ **GESCHLOSSEN (nachgetragen 24.08.2026, QUESTIONS-Abarbeitung).** Bereits durch Run 42
+  > (03.08.2026) und einen zweiten unabhängigen Durchgang erledigt, hier nur nie nachgezogen:
+  > `destillate/swki-va103-01-2017.md`, Abschnitt «Bemessungskern — Kap. 3.4 und 3.5» führt
+  > Tab. 12 (Wagenbewegungen/PP, S. 55), Tab. 15 (Kaltstart 22 m³/WB, Kaltfahrt 0,35 m³/m,
+  > Wartezeit 10 m³/WB, S. 58) und die vier Korrekturfaktoren mit Bandbreiten (S. 58) —
+  > **f_VG, nicht f_FG**, das Destillat korrigiert die eigene Frage an dieser Stelle. Abschnitt
+  > «Bemessung — Ergänzungen zu Kap. 3» ergänzt dazu Tab. 11/13/14 und die Rechenreihenfolge
+  > (Ziff. 3.5.6, Abb. 23). Beide Durchgänge vom Hauptprozess am eigenen 200-dpi-Rendering
+  > gegengeprüft (`status: speculative`, established-Reife noch nicht erklärt, aber inhaltlich
+  > vollständig und rechnerisch geschlossen).
 - **S41-2 Die Mess- und Steuerungsebene fehlt ganz** (Kap. 2.8): Schaltwerte Tab. 10 (CO ein bei
   50 ppm, Alarm 200 ppm; NO, NO₂), Messstellendichte (eine je 20 PP oder 400 m², mindestens zwei
   je Anlage), Fühlerhöhen (CO 1,5-3,0 m, NO/NO₂ 0,2-1,5 m), Nachlaufzeit min. 5 Minuten,
   Mehrstufigkeit ab 2'000 m³/h empfohlen und ab 2 kW zwingend.
+
+  > ✅ **GESCHLOSSEN (nachgetragen 24.08.2026).** Run 42 (03.08.2026), Abschnitt «Mess-, Steuer-
+  > und Regeltechnik — Kap. 2.8»: Tab. 10 (S. 50-51, alle drei Gase, drei Schaltstufen plus
+  > Alarmierung), Messstellenanordnung Ziff. 2.8.8 (S. 51, Richtwert 20 PP/400 m², Fühlerhöhen
+  > CO 1,5-3,0 m / NO,NO₂ 0,2-1,5 m), Nachlaufzeit ≥ 5 Min. (Ziff. 2.8.3, S. 48), Mehrstufigkeit
+  > (Ziff. 2.8.5, S. 48, ab 2'000 m³/h empfohlen / ab 2 kW zwingend) — alle Werte identisch mit
+  > der hier gestellten Frage.
 - **S41-3 Ziff. 2.8.2 Brandfall fehlt** — für den Skill `brandschutz` die zentrale Aussage: die
   Entrauchung darf NICHT allein mit der normalen Lüftungsanlage erfolgen; Kombination nur mit
   separatem Abluftventilator für die Lüftung.
+
+  > ✅ **GESCHLOSSEN (nachgetragen 24.08.2026).** Run 42, Abschnitt «⚠ Brandfallsteuerung und
+  > Entrauchung (Ziff. 2.8.2, S. 48)» — wörtlich: «Die Entrauchung einer Garage darf nicht nur
+  > mit der normalen Lüftungsanlage erfolgen», Kombination nur mit separatem Abluftventilator;
+  > deckt sich mit der Frage, zusätzlich mit den Verweisen VKF-BSR 25-15de/21-15de belegt und im
+  > Destillat ausdrücklich an das Merkblatt [[gvz-rwa-parkhaus-einstellraum]] verlinkt.
 - **S41-4 Die konkreten Kaminhöhen fehlen** (Tab. 7/8): Normalfall Q/S ≤ 1 Schrägdach Firsthöhe
   + 0,5 m, Flachdach min. 1,5 m, begehbares Flachdach min. 2 m; für Q/S > 1 abweichend.
+
+  > ✅ **GESCHLOSSEN (nachgetragen 24.08.2026).** Run 42, Abschnitt «Fortluft — Ergänzungen zu
+  > Kap. 2.6»: Tab. 7 (S. 42) exakt mit den hier gefragten Werten, Tab. 8 (Beurteilungsradius,
+  > S. 42) zusätzlich aufgenommen. **Nicht Teil dieser Frage, aber am selben Ort weiterhin offen
+  > markiert:** ob «Firsthöhe + 1,0 m» in der Spalte Q/S > 1 ein eigenständiger Wert oder Teil
+  > der Maximum-Bildung ist — dafür bleibt Tab. 7/2.6-Frage unten in dieser Datei zuständig.
 - **S41-5 Kap. 2.7 Spezialanwendungen fehlt ganz** — Waschboxen, Motorrad-/Veloräume,
   Autoaufzüge und insbesondere **Elektrofahrzeuge** (SN EN 50272-3 nur bei wässrigem Elektrolyt;
   bei Lithium stattdessen Wärmeeintrag 10 % der Ladeleistung nach VDI 2166 Blatt 2). Bei
   heutigen Tiefgaragenprojekten der praktisch meistgefragte Punkt.
+
+  > ✅ **GESCHLOSSEN (nachgetragen 24.08.2026).** Run 42, Abschnitt «Spezialanwendungen — Kap.
+  > 2.7»: alle sieben Unterziffern (Waschboxen, Motorrad-/Mofaräume, Veloräume, Autoaufzüge,
+  > Elektrofahrzeuge, Gasfahrzeuge, Anlieferungen) mit Fundstelle S. 45-47. Elektrofahrzeuge
+  > mit der hier gefragten Lithium/wässriger-Elektrolyt-Unterscheidung wörtlich übernommen,
+  > dazu ausdrücklich vermerkt, was die Richtlinie zu Elektrofahrzeugen NICHT regelt
+  > (Brandgefahr, thermisches Durchgehen, Ladeinfrastruktur-Bemessung).
 - **S41-6 Kap. 6/7 Abnahme und Betrieb fehlen** — Abnahme nach SIA 118 Art. 157-164,
   Abnahmeprotokolle SWKI 96-5, Kontrollmessverfahren SN EN 12599, jährliche Wartungspflicht.
   Für `unternehmerkontrolle` und `kostenkontrolle` einschlägig.
+
+  > ✅ **GESCHLOSSEN (nachgetragen 24.08.2026).** Run 42, Abschnitt «Prüfungen, Betrieb, Rückbau
+  > — Kap. 6 bis 9»: Abnahme nach SIA 118 Art. 157-164 und SWKI 96-5 (Ziff. 6.1/6.2, S. 64),
+  > Kontrollmessverfahren SN EN 12599 (Ziff. 6.5, S. 66, mit dem Vorbehalt, dass die Richtlinie
+  > selbst keine Toleranzwerte nennt, sondern an SIA 382/1 verweist), jährliche
+  > Wartungspflicht (Ziff. 7.2, S. 69) — alle vier Fundstellen der Frage identisch übernommen.
 - **S41-7 Impulsventilatoren (Jet-Fan, Ziff. 2.5.3) fehlen** — heute die übliche Bauart in
   Tiefgaragen; Funktionsnachweis mittels Simulation zwingend.
+
+  > ✅ **GESCHLOSSEN 24.08.2026, mit Gegenbefund: die Prämisse der Frage war falsch.** Am
+  > Original geprüft (SharePoint Site PL, Drive `02_Recht_Norm`,
+  > `06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf`, per
+  > M365-Graph-Connector geladen, `pdftoppm -r 200` gerendert): **Ziff. 2.5.3 «Sonderfälle»
+  > (Druckseite 38-39) behandelt ausschliesslich die Einleitung vorgenutzter Luft** (Fortluft
+  > aus Büros/Lagern als Zuluft, Kategorie FOL 1/REJ 1 nach SIA 382/1) — kein Wort zu
+  > Ventilator-Bauarten. Das vollständige Inhaltsverzeichnis (Druckseiten 2-4, gerendert und
+  > gelesen) enthält in der gesamten Gliederung (Kap. 0-9, Anhang A-F) **keine** Ziffer und
+  > **keinen** Treffer auf «Impuls-», «Jet-» oder «Strahlventilator». Die Richtlinie regelt nur
+  > die klassische Zu-/Abluft-Kanalführung (Kap. 2.5.2); für Impulslüftung ist sie keine
+  > Fundstelle. Nachgetragen als expliziter Negativbefund in
+  > `destillate/swki-va103-01-2017.md`, Abschnitt «Mechanische Lüftung (Kap. 2.5.2)», damit
+  > ein künftiger Leser nicht erneut danach sucht.
 - **S41-8** Ob die französische Parallelfassung von der deutschen abweicht — nicht gediffed.
+  *(Weiterhin offen — Stichprobe an Ziff. 2.5.3 im Rahmen der S41-7-Prüfung 24.08.2026 zeigt
+  inhaltliche Deckungsgleichheit, ist aber kein systematischer Diff und schliesst die Frage
+  nicht.)*
 - **S41-9 (P2, Korrektur 01.08.2026, Ultra-Code-Review): Grenzfall exakt 100 m².**
 
   > ✅ **GESCHLOSSEN 23.08.2026.** Original beschafft (SharePoint Site PL, Drive `02_Recht_Norm`,

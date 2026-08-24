@@ -2,6 +2,7 @@
 title: Elektrosmog / niederfrequente elektromagnetische Felder beim Bauen
 status: emerging
 last_updated: "2026-08-12 (Mac Mini Nachtschicht 13:30, neu angelegt)"
+datenstand: "2002 (ältester zitierter Quellenstand: Stadt-Zürcher AHB-Informationsblatt Elektrosmog, Ausgabe 02.02/Februar 2002; das zweite Merkblatt «Vorgehen bei Beschwerden» datiert AHB/30.09.2005 — beide über 20 Jahre alt, vor einer Projektanwendung auf Aktualität prüfen)"
 sources: [destillate/elektrosmog-informationsblatt-ahb-ewz.md, destillate/vorgehen-bei-beschwerden-innenraumklima.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[gebaeudeschadstoffe]]
 ---

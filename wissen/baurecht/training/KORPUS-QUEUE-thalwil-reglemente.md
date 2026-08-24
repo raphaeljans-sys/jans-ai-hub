@@ -532,6 +532,62 @@ Blöcken (Kap. 12/1/2/3/6, `QUESTIONS.md` ab ca. Zeile 2140) fortsetzen — Kap.
 echte Lücken (§§ 120/150/264/346 PBG bereits über [[baulinien-und-abstandslinien]] teilweise
 mitverifiziert, gegenprüfen ob vollständig).
 
+**Run 112 (2026-08-24, ausserhalb T1-T9):** Die drei kleinen Run-111-Restpunkte abgearbeitet, dazu
+der Stale-Flag-Sweep über den kompletten «2026-06-26/06-30, Kap. 12»-Block. **16.9-Schluss: stale**
+— Shots 607-622 (S. ~1208-1239) sind bereits vollständig als `[x]` erfasst, die 16.9-Auslegung
+(§ 293 Abs. 1/4 PBG, VB.2016.00592) endet regulär im Buch, kein abgeschnittener Text; keine
+Buch-Seitenlektüre nötig. **Art. 3a ABV: aufgelöst, keine reine Zeiger-Korrektur.** Die Fundstelle
+war eine Abkürzungs-Verwechslung: die kantonale ABV kennt keinen Art. 3a, die zutreffende Norm ist
+Bundesrecht — **Art. 3 Abs. 2 + Art. 82-86 BauAV** (SR 832.311.141), CONFIRMED gegen
+fedlex.data.admin.ch (neue Primärquelle `raw/260824_amtlich_ch_bauav-art3-82-86.md`). Derselbe
+Wiki-Artikel zitierte dieselbe Pflicht an anderer Stelle bereits korrekt, aber mit der
+Vor-2021-Nummerierung «Art. 60a/60b BauAV» — beide Stellen harmonisiert. Die Datumsgenealogie «seit
+1.6.2018» bleibt offen (Fedlex-Filestore lieferte für die alte ELI 2005/560 keinen Snapshot). **§ 8
+Abs. 2 IDG ZH: nicht gelöst, aber ein Leck gefunden** — der zitierte Drohnen-Fall Horw ist ein
+Luzerner, nicht Zürcher Fall (Kantonsgericht LU, 18.04.2018); «IDG ZH» als Fundstelle ist damit
+mutmasslich falsch, bleibt tangential offen. **Kap.-12-Block: durchgängig stale**, kein neuer
+Fachbefund — § 120/150/264/346 PBG bereits am 13.07.2026 volltextverifiziert (Zeiger seit über
+einem Monat veraltet), Kap. 12 Teil 4 (S. 770-807) bereits am 2026-07-03 (Run 20) vollständig
+distilliert («Kap. 12 VOLLSTAENDIG»), § 227 PBG/§ 12 BBV II bereits im Buchdestillat bzw. am
+amtlichen BBV-II-Volltext bestätigt. **Echte Korrektur stattdessen bei «Stand EV»:** die vom Buch
+als «EV» bezeichnete Erschliessungsverordnung ist dieselbe **Verkehrserschliessungsverordnung
+(VErV)**, die am 03.08.2026 bereits für die StrAV-Frage beschafft, aber nie gegen diese
+Zugangskategorien-Frage geprüft worden war — sie ersetzt neben der StrAV auch die Zugangsnormalien
+(ZN) und die Verkehrssicherheitsverordnung (VSiV), alle drei per 01.06.2020 aufgehoben (Dispositiv
+IV/V des Erlasses). Die Zugangskategorien-Schwellenwerte (Zufahrtsweg/-strasse 1/2,
+Erschliessungsstrasse) stehen in Anhang 1 VErV, freigegeben über § 10 Abs. 3/4 VErV — nicht in
+§§ 11/12 VErV, die nur die nachgelagerte Feinerschliessungsplanung regeln; zudem war der WE-Wert
+für Zufahrtsstrasse 1 falsch beziffert (150/300 WE statt 100/300 WE). Geänderte Wiki-Artikel:
+[[baureife-und-erschliessung]], [[bauausfuehrung-und-baukontrolle]]. Report
+`outputs/2026-08-24_buch-run112.md`.
+**Nächster Schritt:** verbleibende Stale-Flag-Blöcke «2026-06-30, Kap. 1/2 T1/12 T3» und
+«2026-07-02, Kap. 2 T3/3 T1/6 T2» (`QUESTIONS.md` ab ca. Zeile 2213) prüfen; Datumsgenealogie
+Art. 3a ABV → Art. 60a/60b BauAV (Teilrevision vor 2021) bei Gelegenheit nachrecherchieren.
+
+**Run 113 (2026-08-24, ausserhalb T1-T9):** Stale-Flag-Block «2026-06-30, Kap. 1/Kap. 2 T1/Kap. 12
+T3» vollständig abgearbeitet, alle drei Flags geschlossen. **«§ 935» als Arealüberbauungsbonus war
+kein OCR-Lesefehler**, sondern **§ 70 PBG** — seit 1.2.1992 aufgehoben (G vom 1.9.1991, OS 51, 817),
+CONFIRMED gegen `raw/260607_amtlich_zh_pbg.md` Z. 793; der Bonus wird seither ausschliesslich
+kommunal über die BZO geregelt (§ 69 PBG i.V.m. § 72 PBG), kein kantonaler Fixwert mehr. **§§ 8a/9-13
+EnerG als zusammenhängender Block war eine falsche Prämisse:** frisch von zhlex bezogener Volltext
+(§§ 7-8e EnerG, additiv in `raw/260712_amtlich_zh_energ.md` nachgetragen) zeigt, dass §§ 8a-8e EnerG
+den kantonalen Vollzug des Stromversorgungsgesetzes regeln (Netzgebiets-Zuteilung, **Anschlussrecht/
+-pflicht § 8c**, Leistungsaufträge, Tarifangleichung, Rechtsschutz) — eine andere Materie als die
+Bauenergiesparmassnahmen §§ 9 ff.; § 8 EnerG selbst ist seit 1.6.2022 aufgehoben. § 8c EnerG neu als
+tragende Norm für die Anschlusspflicht ans Elektrizitätsnetz in [[baureife-und-erschliessung]]
+ergänzt. **PBG-Titelgliederung (Kap. 1) komplett CONFIRMED:** alle sieben Titelgrenzen direkt am
+amtlichen Volltext gelesen, Buchtabelle (I §§1-7 · II §§8-202 · III §§203-217 · IV §§218-328 ·
+V §§329-339b · VI §§340-341 · VII §§342-361) war bereits wortgleich richtig, keine Korrektur nötig.
+**Kap.-12-T3-Restpunkte** (§ 237 Abs. 4 PBG, § 16 FeuerwehrV, §§ 109-115 LG, Art. 694 ZGB, Art.
+10/11/17 GSchG, § 8 KGSchV) waren bereits durch Run 71/86/93 in [[baureife-und-erschliessung]]
+CONFIRMED — nur der Zeiger in `QUESTIONS.md` war veraltet; § 27/§ 39 WWG neu als ohne praktische
+Relevanz geschlossen (WWG per 1.6.2026 aufgehoben, Substanz liegt in §§ 93/100 WsG). Geänderte
+Wiki-Artikel: [[raumplanung-und-gestaltung]], [[baureife-und-erschliessung]]. Report
+`outputs/2026-08-24_buch-run113.md`.
+**Nächster Schritt:** Stale-Flag-Block «2026-07-02, Kap. 2 T3/3 T1/6 T2» (`QUESTIONS.md` ab ca.
+Zeile 2282) — enthält neben reinen Stale-Flag-Checks auch die noch nicht distillierte «Kap. 3 Teil 2»
+(Grenzbereinigung/Gebietssanierung/Landumlegung/Güterzusammenlegung, echte Lesearbeit).
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

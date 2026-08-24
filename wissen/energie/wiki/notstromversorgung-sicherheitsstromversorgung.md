@@ -2,6 +2,7 @@
 title: Notstromversorgung / Sicherheitsstromversorgung — Spital und Pflegeheim
 status: established
 last_updated: 2026-07-25
+datenstand: "2020 (ältester zitierter Quellenstand: BFE Fact-Sheet 45, Stand 01.05.2020; VKF-Merkblatt 2009-15de Stand 09.12.2024 ist die jüngste, für die Vorschrift massgebende Fassung)"
 sources: [destillate/notstromversorgung-netzersatzanlage-spital-pflegeheim-ch.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[sia-386-bacs-gebaeudeautomation]]
 ---

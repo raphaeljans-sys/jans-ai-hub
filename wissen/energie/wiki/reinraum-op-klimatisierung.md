@@ -2,6 +2,7 @@
 title: Reinraum-/OP-Klimatisierung im Gesundheitsbau — Schweiz
 status: emerging
 last_updated: 2026-07-26
+datenstand: "2015 (SWKI VA105-01:2015, genehmigt 02.07.2015, in Kraft seit 01.08.2015 — die einzige Fachnorm der Quelle; die USZ-Baurichtlinie 244/245 ist im PDF selbst undatiert, referenziert aber DIN 1946-4:2008-12 und ist damit ebenfalls älter, nicht als eigener Datenstand geprüft)"
 sources: [destillate/reinraum-op-klimatisierung-gesundheitsbau-ch.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]
 ---

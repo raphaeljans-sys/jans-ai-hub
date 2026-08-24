@@ -2,6 +2,7 @@
 title: Gebäudeschadstoffe beim Umbau (Kt. ZH)
 status: established
 last_updated: "2026-08-23 (E-R25-3 vollständig geschlossen: Anhang 5 VVEA Ziffer 2.3 sowie Art. 16 VVEA per Fedlex-Filestore-Diff 01.01.2026 gegen 01.08.2026 als wortidentisch bestätigt; zuvor E-R25-2 Meldepflicht bei Abbruch ergänzt, § 3a Abs. 1 AbfV ZH LS 712.11 + Art. 86 BauAV am Original verifiziert; zuvor 2026-08-16 Mac Mini Nachtschicht 13:30 — PCB-Prozess-Ergänzung)"
+datenstand: "2004 (ältester zitierter Quellenstand: KBOB-Empfehlung PCB-Fugendichtungsmassen 2004/4; die beiden AHB-Checklisten datieren 2005, die aktuelle Stadt-Zürcher Schadstoff-Checkliste 02.2023, die Bundesrechtsgrundlagen VVEA/BauAV sind am 23.08.2026 am Fedlex-Konsolidierungsstand verifiziert)"
 sources: [destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/asbest-dimension-jenseits-spritzasbest.md, destillate/ahb-checkliste-schadstoffe-in-bauten.md, destillate/kbob-pcb-fugendichtungsmassen-2004-4.md, "AbfV ZH LS 712.11 § 3a (zh.ch, Nachtrag 101, abgerufen 23.08.2026)", "BauAV SR 832.311.141 Art. 86 (Fedlex, Fassung 18.6.2021, abgerufen 23.08.2026)", "VVEA SR 814.600 Art. 16 und Anhang 5 (Fedlex-Filestore, Konsolidierungsstände 01.01.2026 und 01.08.2026, Diff am 23.08.2026 durchgeführt)"]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[private-kontrolle-zh]], [[werkhof29-zirkulaeres-bauen-stroh-lehm]], [[graue-energie]], [[asbest-dimension-jenseits-spritzasbest]], [[ahb-checkliste-schadstoffe-in-bauten]], [[kbob-pcb-fugendichtungsmassen-2004-4]]
 ---

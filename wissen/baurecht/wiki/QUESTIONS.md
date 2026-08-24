@@ -2131,9 +2131,16 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   `raw/260607_amtlich_zh_abv.md` CONFIRMED — siehe `verifiziert`-Feld [[abstaende-und-hoehen]] («2026-07-13,
   Modell-D-Volltextabgleich adversarial § 282/§ 284/§ 292/§ 293 PBG + § 28/§ 30 ABV»). Der Zeiger hier war
   seit über einem Monat veraltet, kein neuer Fachbefund.
-- **NEU Kap. 16 offen — 16.9-Schluss (S. 1230 f.):** Abgrabungen/Freilegung UG endet nicht auf S. 1229;
+- ~~**NEU Kap. 16 offen — 16.9-Schluss (S. 1230 f.):** Abgrabungen/Freilegung UG endet nicht auf S. 1229;
   läuft in den bereits distillierten Teil 16.10 (Harmonisierung, Shot 619). Kleiner Rest, **weiterhin
-  offen** (nicht Teil des Buch-Run-111-Sweeps — Buch-Seitenlektüre, kein reiner Zeiger-Check).
+  offen** (nicht Teil des Buch-Run-111-Sweeps — Buch-Seitenlektüre, kein reiner Zeiger-Check).~~ →
+  **stale, geprüft 2026-08-24 (Buch-Run 112):** Shots 607-622 (S. ~1208-1237) sind alle bereits als
+  `[x]` im Seiten-Inventar erfasst; `buecher/band-2/16-gebaeudedimensionen-teil3-umgebung.md` behandelt
+  «16.9 Freilegung von Untergeschossen (S. 1227-1229)» inkl. § 293 Abs. 1/4 PBG **vollständig bis zum
+  Kapitelende**, mit eigener Auslegungs-Kasuistik (VB.2016.00592, S. 1229) und Urteilsliste. Der
+  Übergang zu 16.10 (S. 1230/1231, Harmonisierung/MT) ist ein Kapitelwechsel im Buch, keine
+  abgeschnittene Lücke — beide Destillate zusammen decken S. 1208-1239 lückenlos ab. Kein neuer
+  Fachbefund, keine Buch-Seitenlektüre nötig.
 
 ## Offene Wissenslücken / needs-verification — neu (2026-06-22, aus Buch-Run Kap. 8)
 - ~~**Rest Kap. 8 offen (Restschuld):** ab S. 510 — 8.3 Sicherheit der Baustelle Detail~~ → **erledigt
@@ -2204,26 +2211,45 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Kehrplatz (SN 640 052), Fussgängerschutz (Bankett 30 cm/Trottoir 1 m), Erleichterungen (§ 11 ZN /
   § 360 Abs. 3 PBG / letzte Baulücke), Umweltschutzrecht-Erschliessung (Art. 24 USG/§ 128 PBG),
   Erreichbarkeit OEV (§ 237 Abs. 1 Satz 2 PBG, AngebotsV, 300-Personen-Schwelle).
-- **Rest Kap. 12** → **teil-erledigt 2026-06-30** (Run 16): S. 742-769 distilliert
+- ~~**Rest Kap. 12** → **teil-erledigt 2026-06-30** (Run 16): S. 742-769 distilliert
   ([[12-baureife-teil3-versorgung-entsorgung]]) — 12.3.6 rechtliche Sicherung § 237 Abs. 4 PBG,
   12.4 Wasser/Energie § 236 PBG (Löschwasser § 16 FeuerwehrV, Grundwasserschutzzonen S1/S2/S3,
   Energie zwingend), 12.5 Abwasser (GSchG/Kanalisationsanschluss Art. 17, GEP § 8 KGSchV). **Offen
   bleibt Teil 4: S. 770-809** — Rest 12.5 (Anschlussgebühren-Bemessung), **Abfall/Kehricht** und
-  **belastete Standorte/Altlasten Art. 32c USG/AltlV** (im gelesenen Bereich noch nicht behandelt).
-- **needs-verification — §§/Erlasse Kap. 12 Teil 2:** § 227 PBG (Schwertransporte), § 12 BBV II,
+  **belastete Standorte/Altlasten Art. 32c USG/AltlV** (im gelesenen Bereich noch nicht behandelt).~~
+  → **stale, bereits vollständig erledigt** (geprüft 2026-08-24, Buch-Run 112): Teil 4 (S. 770-807)
+  wurde bereits am 2026-07-03 in Run 20 distilliert ([[12-baureife-teil4-gebuehren-abfall-altlasten]]:
+  Anschlussgebühren Art. 60a GSchG/§ 45 EG GSchG, Abfall/Kehricht Art. 30-32b USG/VVEA/VeVA/AbfG ZH,
+  Altlasten Art. 32c/32d/32bbis/32dbis USG + AltlV) — siehe `training/curriculum.md` Zeile 44,
+  «Kap. 12 VOLLSTAENDIG». Der Zeiger hier war seit über einem Monat veraltet.
+- ~~**needs-verification — §§/Erlasse Kap. 12 Teil 2:** § 227 PBG (Schwertransporte), § 12 BBV II,
   § 18 PVG, AngebotsV (§§ 2/4), ZN §§ 4/5/6/7/9/10/11/12, § 360 Abs. 3 PBG — sinngemäss nach Buch
   S. 724-741, am amtlichen Volltext gegenprüfen (Modell D); Anhang-ZN-Tabellenwerte gegen den heute
-  geltenden Erlass spiegeln.
-- **Stand Erschliessungsverordnung (EV) ZH** → **geklärt (Buchbeleg) 2026-06-30** (Run 16): das Buch
+  geltenden Erlass spiegeln.~~ → **stale, geprüft 2026-08-24 (Buch-Run 112):** § 227 PBG bereits
+  wortgleich im Destillat `buecher/band-2/12-baureife.md` (Z. 311 f.) und im Buchparagraphen-Register
+  geführt; § 12 BBV II CONFIRMED (Zugang Einkaufszentren über Sammelstrassen, `raw/260607_amtlich_zh_bbv2.md`
+  Z. 121). Die Zugangs-/AngebotsV-Zahlenwerte sind durch die untenstehende VErV-Korrektur ohnehin
+  überholt — ZN/AngebotsV selbst sind seit 01.06.2020 aufgehoben (s. [[baureife-und-erschliessung]]).
+- ~~**Stand Erschliessungsverordnung (EV) ZH** → **geklärt (Buchbeleg) 2026-06-30** (Run 16): das Buch
   (Bd 2, S. 750) zitiert die **EV bereits als geltenden Erlass** — Zugangskategorien in **§ 11 Abs. 1 EV**
   (Standard) / **§ 12 EV** (planerisch), mit § 6 ZN ausdrücklich als Vorgänger; EV hebt die WE-Schwellen
   an (Zufahrtsweg 10 → 50/100 WE). **Rest-needs-verification:** den exakt heute in Kraft stehenden
-  EV-Wortlaut/Inkraftsetzungsdatum am amtlichen LS-Erlass spiegeln, bevor harte Masszahlen zitiert werden.
+  EV-Wortlaut/Inkraftsetzungsdatum am amtlichen LS-Erlass spiegeln, bevor harte Masszahlen zitiert werden.~~
+  → **echte Korrektur, nicht nur Verifikation, 2026-08-24 (Buch-Run 112):** die «EV» des Buches ist
+  dieselbe **Verkehrserschliessungsverordnung (VErV, LS 700.4, RRB 17.04.2019)**, die auch StrAV und
+  VSiV ersetzt (raw/260803_amtlich_zh_verkehrserschliessungsv.md bereits am 03.08.2026 beschafft, aber
+  bislang nicht gegen diese Frage geprüft). Die Zugangskategorien-Schwellenwerte stehen nicht in §§
+  11/12, sondern in **Anhang 1 VErV**, freigegeben über **§ 10 Abs. 3/4 VErV**; §§ 11/12 regeln nur
+  Kriterien/Verfahren der Feinerschliessungsplanung. Zufahrtsstrasse 1 zudem falsch beziffert
+  (150/300 WE, nicht 100/300 WE). Details und volle Korrektur in [[baureife-und-erschliessung]].
 - ~~**needs-verification — Wortlaut am amtlichen Volltext (raw/):** §§ 233/234/235/236/237 PBG~~ →
   **erledigt 2026-07-12 (Run 30):** §§ 233-237 volltextverifiziert (Run-30-Sektion oben) — § 234
   (Gemeindevorstand-Antrag), § 235 (3-J-Erlassfrist), § 236 («Behandlung»), § 237 Abs. 4 (Grundbuch-
-  Anmerkung) korrigiert. **Offen** noch: § 120 PBG (vorsorgliches Bauverbot), § 150 PBG (Quartierplanbann),
-  § 264 PBG (Verkehrsbaulinien), § 346 PBG (Planungszone, 3+2 J.) — nächster Modell-D-Lauf.
+  Anmerkung) korrigiert. ~~**Offen** noch: § 120 PBG (vorsorgliches Bauverbot), § 150 PBG (Quartierplanbann),
+  § 264 PBG (Verkehrsbaulinien), § 346 PBG (Planungszone, 3+2 J.) — nächster Modell-D-Lauf.~~ →
+  **stale, bereits erledigt** (geprüft 2026-08-24, Buch-Run 112): alle vier bereits am 13.07.2026
+  volltextverifiziert, siehe Eintrag oben («✅ § 120/§ 150/§ 264/§ 346 PBG … volltextverifiziert»,
+  Zeile ~1822) und `verifiziert`-Feld [[baulinien-und-abstandslinien]]. Der Zeiger hier war veraltet.
 
 ## Offene Wissenslücken / needs-verification — neu (2026-06-30, aus Buch-Run 16: Kap. 1 / Kap. 2 T1 / Kap. 12 T3)
 - ~~**Grundlagen/Rechtsquellen/Verfassungsgrundsätze nicht im Wiki**~~ → **erledigt 2026-06-30** (Run 16):
@@ -2241,17 +2267,31 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   (a) **Shot 76 / S. 150-151** nicht gelesen (OneDrive-I/O-Fehler `…11.42.54.jpg`) — nachholen;
   (b) **Sondernutzungsplanung / Gestaltungsplan §§ 83 ff. PBG** + Quartierplan + Nutzungsplanverfahren/
   Rechtsschutz § 329 PBG ab S. 169/170 (Teil 3). Detailwerte je Zone gehören weiter in [[zonenkonformitaet]].
-- **needs-verification — §§/Lesefehler Kap. 2 Teil 2:** **«§ 935» als Arealüberbauungsbonus** (S. 168)
-  ist mutmasslich ein Reader-/OCR-Lesefehler (richtig wohl § 71/§ 72 PBG bzw. ABV) — am amtlichen
-  PBG-Volltext (§§ 69-73 PBG) gegenprüfen, bleibt `speculative`. Ebenso exakte Abs./lit. von Art. 15 RPG,
-  § 56 PBG, § 60 PBG aus dem Fliesstext rekonstruiert; vor Zitat prüfen (Modell D).
-- **needs-verification — §§/Erlasse Kap. 12 Teil 3:** § 237 Abs. 4 PBG (Benützungsrechte), § 27/§ 39 WWG
+- ~~**needs-verification — §§/Lesefehler Kap. 2 Teil 2:** **«§ 935» als Arealüberbauungsbonus** (S. 168)
+  ist mutmasslich ein Reader-/OCR-Lesefehler~~ → **geklärt 2026-08-24 (Buch-Run 113):** kein Lesefehler
+  — **§ 70 PBG**, seit 1.2.1992 aufgehoben (G vom 1.9.1991, OS 51, 817); der Bonus wird seither
+  kommunal über die BZO geregelt (§ 69/§ 72 PBG). CONFIRMED gegen `raw/260607_amtlich_zh_pbg.md`
+  Z. 793. Eingearbeitet in [[raumplanung-und-gestaltung]] und `buecher/band-1/02-nutzungsplanung-
+  zonenarten-teil2.md`. Exakte Abs./lit. von Art. 15 RPG, § 56 PBG, § 60 PBG bereits andernorts
+  verifiziert (Buch-Run 63/97, [[raumplanung-und-gestaltung]]).
+- ~~**needs-verification — §§/Erlasse Kap. 12 Teil 3:** § 237 Abs. 4 PBG (Benützungsrechte), § 27/§ 39 WWG
   (Wasser/Löschwasser), § 16 FeuerwehrV (Hydranten 100/60 m), §§ 109-115 LG (Flurweg/Öffentlicherklärung),
-  Art. 694 ZGB (Notwegrecht), Art. 10/11/17 GSchG, § 8 KGSchV (GEP), §§ 8a/9-13 EnerG — sinngemäss nach
-  Buch S. 742-769, am amtlichen Volltext gegenprüfen (Modell D).
-- **needs-verification — Kap. 1 PBG-Titel-Endparagraphen + 15-J-Frist Art. 15 RPG:** im Destillat
-  [[01-grundlagen]] die exakten §§-Spannen der VII PBG-Titel teils `speculative` (Buchtabelle unscharf);
-  die wörtliche 15-Jahres-Bauzonenbedarfs-Formel steht in Kap. 2 (Art. 15 RPG, S. 114), nicht Kap. 1.
+  Art. 694 ZGB (Notwegrecht), Art. 10/11/17 GSchG, § 8 KGSchV (GEP), §§ 8a/9-13 EnerG~~ → **geklärt
+  2026-08-24 (Buch-Run 113):** grösstenteils bereits durch spätere Läufe (Run 71/86/93) CONFIRMED in
+  [[baureife-und-erschliessung]] — § 237 Abs. 4, § 16 FeuerwehrV, §§ 109-115 LG, Art. 694 ZGB, Art.
+  10/11/17 GSchG, § 8 KGSchV alle bereits im Artikel belegt. **Neu geschlossen:** § 27/§ 39 WWG sind
+  ohne praktische Relevanz (WWG per 1.6.2026 aufgehoben, Substanz liegt in §§ 93/100 WsG); §§ 8a/9-13
+  EnerG als zusammenhängender Block war eine **falsche Prämisse** — §§ 8a-8e EnerG regeln den Vollzug
+  des Stromversorgungsgesetzes (Netzanschlusspflicht § 8c), nicht die Bauenergiesparmassnahmen §§ 9 ff.;
+  § 8 EnerG selbst ist seit 1.6.2022 aufgehoben. Frischer Volltext `raw/260712_amtlich_zh_energ.md`
+  (Nachtrag «Buch-Run 113: §§ 7-8e EnerG»).
+- ~~**needs-verification — Kap. 1 PBG-Titel-Endparagraphen + 15-J-Frist Art. 15 RPG:** im Destillat
+  [[01-grundlagen]] die exakten §§-Spannen der VII PBG-Titel teils `speculative`~~ → **geklärt
+  2026-08-24 (Buch-Run 113):** alle sieben Titelgrenzen direkt gegen `raw/260607_amtlich_zh_pbg.md`
+  gelesen, Buchtabelle **CONFIRMED wortgleich** (I §§1-7 · II §§8-202 · III §§203-217 · IV §§218-328 ·
+  V §§329-339b · VI §§340-341 · VII §§342-361), keine Korrektur nötig. Die 15-Jahres-Bauzonenbedarfs-
+  Formel (Art. 15 Abs. 1 RPG) ist bereits seit Buch-Run 97 korrekt und alleinstehend in
+  [[raumplanung-und-gestaltung]] verankert.
 
 ## Offene Wissenslücken / needs-verification — neu (2026-07-02, aus Buch-Run 18: Kap. 2 T3 / Kap. 3 T1 / Kap. 6 T2)
 - ~~**Sondernutzungsplanung / Gestaltungsplan §§ 83 ff. PBG** (Restschuld Kap. 2)~~ → **erledigt

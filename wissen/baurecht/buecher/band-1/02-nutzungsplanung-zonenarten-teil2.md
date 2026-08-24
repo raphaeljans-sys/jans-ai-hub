@@ -196,7 +196,8 @@ des OEREB-Katasters nach (§§ 4/10 VDNP) (S. 152 f.).
 ### Besondere Instrumente der kommunalen BZO — Arealueberbauung (2.3.7.5)
 - **Arealueberbauung (§§ 69–73 PBG):** in der Bauordnung festgesetzte **Mindestflaeche** (RB 1997
   Nr. 81), die eine durch den **Arealueberbauungsbonus** bewirkte Erhoehung der zulaessigen Nutzung
-  (§ 935?, S. 168 — Bonus) ermoeglicht; dafuer muessen die erhoehten Anforderungen an Gestaltung,
+  (**§ 70 PBG, seit 1.2.1992 aufgehoben** — der Bonus liegt heute in der kommunalen BZO, § 69/§ 72
+  PBG; S. 168, geklaert Buch-Run 113) ermoeglicht; dafuer muessen die erhoehten Anforderungen an Gestaltung,
   Ausstattung und Umgebung entsprechen (S. 168). Bei der Beurteilung sind insbesondere die
   Beziehungen zum Orts- und Landschaftsbild, der architektonische Ausdruck, Umfang und Gestaltung
   der Freiraeume, die Wohnlichkeit und Wohnhygiene, die Versorgungs- und Entsorgungsloesung sowie
@@ -279,10 +280,17 @@ des OEREB-Katasters nach (§§ 4/10 VDNP) (S. 152 f.).
 - **Shot 76 (S. 150–151) nicht gelesen** (OneDrive-I/O-Fehler, Operation timed out) — dazwischen
   liegt der Uebergang von den Grundwasserschutzzonen (2.3.4.3) zur kantonalen Rahmennutzungsplanung
   (2.3.6); im naechsten Lauf nachholen (Datei `Bildschirmfoto 2026-06-07 um 11.42.54.jpg`).
-- Einzelne §-Nummern aus dem Fliesstext/Reader teils schwer lesbar: **Arealueberbauungsbonus
-  «§ 935»** (S. 168) wirkt wie ein OCR-/Lesefehler — am amtlichen PBG-Volltext (§§ 69–73 PBG, ABV)
-  gegenpruefen, bleibt `speculative`. Ebenso die exakte Abs./lit.-Zuordnung einzelner Art.-15-RPG-
-  und § 60 PBG-Stellen.
+- ~~Einzelne §-Nummern aus dem Fliesstext/Reader teils schwer lesbar: **Arealueberbauungsbonus
+  «§ 935»** (S. 168) wirkt wie ein OCR-/Lesefehler~~ → **geklaert 2026-08-24 (Buch-Run 113):** kein
+  OCR-Fehler, sondern ein aufgehobener Paragraf. **§ 70 PBG** stand historisch fuer den
+  Arealueberbauungsbonus, ist aber **seit 1.2.1992 aufgehoben** (G vom 1.9.1991, OS 51, 817) — im
+  amtlichen Volltext `raw/260607_amtlich_zh_pbg.md` Z. 793 nur noch als leerer Paragraf mit
+  Fussnotenverweis erkennbar («§ 70.25»). Einen eigenstaendigen kantonalen Bonus-Prozentsatz kennt
+  weder das heutige PBG noch die ABV (§ 8 ABV regelt nur die Flaechenmessung fuer Arealueberbauungen,
+  kein Bonus); der Ausnuetzungs-Bonus wird seit der Aufhebung **kommunal** ueber die Bau- und
+  Zonenordnung festgelegt (§ 69 PBG i.V.m. § 72 PBG: die BZO kann von der Regelbauweise abweichende
+  Bauvorschriften enthalten). Ebenso die exakte Abs./lit.-Zuordnung einzelner Art.-15-RPG- und
+  § 60 PBG-Stellen (davon unberuehrt, bereits andernorts verifiziert, siehe [[raumplanung-und-gestaltung]]).
 - **§§ 251–253 PBG** (Wohnanteil/WEH-Mechanik) hier nur gestreift — Detail (Berechnung Wohnanteil,
   WEH-Pflicht) gehoert zu Kap. 14 (Nutzungsart/Wohnanteil) bzw. eigenem Wiki-Artikel.
 - Verhaeltnis **Sondernutzungsplanung (Gestaltungsplan/Quartierplan)** zur Rahmennutzungsplanung

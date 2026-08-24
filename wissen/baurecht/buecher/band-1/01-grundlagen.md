@@ -151,7 +151,7 @@ Neben dem **nominalen** Planungs- und Baurecht (Vorschriften im umschriebenen Si
 - **Gewohnheitsrecht — 3 Voraussetzungen** (S. 86): langjaehrige, ununterbrochene und einheitliche Praxis · Fuellen einer Gesetzesluecke · gefordert durch Rechtsgleichheit/Rechtsueberzeugung.
 - **Genehmigungsumfang** (S. 108): Pruefung auf **Rechtmaessigkeit, Zweckmaessigkeit und Angemessenheit** (§ 5 Abs. 1 PBG).
 - **Normabweichung** (S. 85): von beachtlichen Normen darf nur **«aus wichtigen Gruenden»** abgewichen werden (§ 360 Abs. 3 PBG).
-- **PBG-Gliederung VII Titel** (S. 106): I §§ 1–7 · II §§ 8–202 · III §§ 203–217 · IV §§ 218–328 · V §§ 329–339b · VI §§ 340–341 · VII §§ 342–361 (Titel-/Spannenwerte aus der Buchtabelle; einzelne Endwerte teilweise schwer lesbar — `speculative` fuer die exakte Obergrenze Titel II/V, Titelgrenzen aber belegt).
+- **PBG-Gliederung VII Titel** (S. 106): I §§ 1–7 · II §§ 8–202 · III §§ 203–217 · IV §§ 218–328 · V §§ 329–339b · VI §§ 340–341 · VII §§ 342–361 — **CONFIRMED 2026-08-24 (Buch-Run 113)**, alle sieben Titel-Kopfzeilen samt erstem/letztem Paragrafen direkt gegen `raw/260607_amtlich_zh_pbg.md` gelesen (I. Titel Z. 25, § 1/§ 7a; II. Titel Z. 109, § 8; III. Titel Z. 2004, § 203; IV. Titel Z. 2176, § 218, endet § 328 g. vor V. Titel Z. 3475; V. Titel §§ 329-339 b vor VI. Titel Z. 3609; VI. Titel §§ 340-341; VII. Titel Z. 3627, §§ 342-361, letzter Paragraf § 361 Z. 3851) — die Buchtabelle war wortgleich richtig, keine Korrektur.
 
 ## 4. Praxis / Fallrecht (aus dem Buch zitiert)
 
@@ -179,7 +179,7 @@ Neben dem **nominalen** Planungs- und Baurecht (Vorschriften im umschriebenen Si
 
 ## 6. Offene Punkte / zu verifizieren
 
-- Exakte **Endparagraphen der PBG-Titel** (insb. Obergrenze Titel II «Das Planungsrecht» und Titel V «Der Rechtsschutz») aus der Buchtabelle S. 106 sind in der Lesefassung teils unscharf — Titel-Spannen als Orientierung uebernommen, die genauen Schluss-§§ am Original/in der LS-Gesetzessammlung verifizieren (`speculative` markiert).
+- ~~Exakte **Endparagraphen der PBG-Titel** (insb. Obergrenze Titel II «Das Planungsrecht» und Titel V «Der Rechtsschutz») aus der Buchtabelle S. 106 sind in der Lesefassung teils unscharf~~ → **geklaert 2026-08-24 (Buch-Run 113):** alle Titelgrenzen direkt am amtlichen Volltext gelesen und CONFIRMED (siehe Abschnitt 3 oben) — keine Korrektur noetig, die Buchtabelle war bereits praezise.
 - Die genaue **Bauzonen-Bedarfsfrist «15 Jahre»** ist im Buchtext sinngemaess wiedergegeben; die woertliche Norm (Art. 15 RPG) wurde auf den gelesenen Seiten nicht abgebildet — bei Bedarf im RPG-Volltext nachschlagen.
 - **Stand IVHB-Beitritte / Kanton ZH**: das Buch ist 6. Aufl. 2019; der ablehnende Stand des Kantons Zuerich zur IVHB sollte fuer aktuelle Faelle gegen den heutigen Rechtsstand abgeglichen werden (Harmonisierungsdynamik).
 - Einzelne **BEZ-/BGE-Jahrgangsnummern** auf den Seiten 95–98 waren teils klein gesetzt; die wichtigsten sind belegt, Randzitate ggf. am Original nachfuehren.
