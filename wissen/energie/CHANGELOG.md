@@ -1,5 +1,44 @@
 # CHANGELOG
 
+## 2026-08-24l — A-BLIND: `minergie-zertifizierung-workflow` — Reglementsversion 2023.1 gegen 2026.1 geprüft, Prozesskapitel als ungeprüft geflaggt
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** NAS zu Laufbeginn nicht gemountet
+(`wissen/energie/` lokal git-getrackt, unbetroffen). `ps aux` zeigte einen weiteren `claude -p`-
+Prozess mit demselben Energie-Prompt (PID 57407) — per `ps -p $$`/Elternprozess-Prüfung als eigener
+Elternprozess dieser Session identifiziert, kein Sibling-Lauf zu dieser KB (parallel liefen nur
+`normen`- und `baurecht`-Läufe, andere KBs).
+
+Gelesen: CHANGELOG-Eintrag k («nächste Kandidaten `minergie-zertifizierung-workflow` (23) und
+`ecobkp-2026-methodik-und-uebersicht` (24)»). **Vorab-Korrektur:** `ecobkp-2026-methodik-und-
+uebersicht` war laut den Einträgen i/j bereits an mehreren Vorläufen desselben Tages vollständig
+geschlossen — k hatte offenbar nicht den vollen Tagesbestand von `wiki/QUESTIONS.md` durchsucht
+(dieselbe Prozessbeobachtung wie schon in j). Nicht erneut bearbeitet.
+
+**Fund:** `destillate/minergie-zertifizierung-workflow.md` zitiert Produktreglement Version 2023.1
+(Nachweiskurs 25.09.2023) als Grundlage. Seit 01.01.2026 gilt Version 2026.1 — established belegt
+in `[[minergie-produktreglement-2026-1-muken-vergleich]]` (datenstand 2026-08-07), das aber
+ausdrücklich nur Kapitel 14-17 + ausgewählte Anhänge liest, **nicht** die Prozesskapitel 1-13, in
+denen Label-Plattform/Antrags-Checkliste/Prüfrunden-Logik geregelt wären. Zwei Teilaspekte sind
+über `wiki/minergie-standards.md` (Update 15.08.2026) indirekt bestätigt (Label-Plattform statt
+Excel-Mappe; keine Zertifikatsbefristung laut offizieller Ablauf-Seite) — die übrige Prozessdetail-
+Liste bleibt bis zu einer echten Volltextprüfung der Kapitel 1-13 als Stand 2023 zu behandeln.
+
+Eingearbeitet: `destillate/minergie-zertifizierung-workflow.md` (Frontmatter `geltungsbereich` neu,
+`last_updated` aktualisiert, Nachtrag-Absatz in «Offene Punkte»), `destillate/INDEX.md` (⚠-Vermerk),
+`wiki/QUESTIONS.md` (Eintrag «2026-08-24l»). Status bleibt `established` (Prozessaussagen der
+gelesenen Seiten weiterhin primärquellenbelegt; Vorbehalt im Geltungsbereich statt pauschaler
+Abwertung, Rule-Vorgabe).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/minergie-zertifizierung-
+workflow.md` +19/-1, `destillate/INDEX.md` +1/-1, `wiki/QUESTIONS.md` +46/-0 — durchgehend
+additiv/präzisierend, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** Volltextprüfung Kapitel 1-13 des Produktreglements 2026.1 gegen die
+Antrags-Checkliste/Hilfstools-Liste (neuer Primärquellen-Lesevorgang). A-BLIND-Bestand: 11 von 39
+Backlink-Kandidaten geprüft, rund 28 verbleiben (`ecobkp-2026-methodik-und-uebersicht` nicht erneut
+listen). Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf).
+
 ## 2026-08-24k — A-BLIND: `kaeltemittel-r290-waermepumpen-ch` — CH-Marktanteil R290 an FWS-Primärquelle bestätigter Negativbefund
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,

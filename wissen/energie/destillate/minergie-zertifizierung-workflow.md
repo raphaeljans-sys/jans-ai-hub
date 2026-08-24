@@ -5,7 +5,12 @@ ausgabe: Kursunterlagen 2023; Label-Plattform 2023; Produktreglement Gebaeudesta
 gelesen: S. 43-57 des Foliensatzes (Zertifizierungs-Logik Gebaeude/Areal, Label-Plattform, Antrags-Checkliste, Nachweisformulare/Hilfstools, MKZ-Optimierung, Pruef-/Zertifizierungsprozess AS↔ZS)
 datenstand: 2026-06-18 (Minergie 2023, Stand 25.09.2023; Label-Plattform laeuft, Reglement periodisch revidiert)
 status: established
-last_updated: 2026-06-18
+geltungsbereich: "established gilt fuer die Prozessaussagen der gelesenen Foliensatzseiten (S. 43-57).
+  Die zitierte Reglementsversion 2023.1 ist seit 01.01.2026 durch Version 2026.1 abgeloest
+  (siehe `[[minergie-produktreglement-2026-1-muken-vergleich]]`); deren Kapitel 1-13 (Prozess/
+  Plattform) sind dort nicht gelesen, daher keine Erstquellen-Bestaetigung, dass Antrags-
+  Checkliste/Pruefrunden-Logik unter 2026.1 unveraendert gelten (Nachtrag 24.08.2026, s. u.)."
+last_updated: 2026-08-24
 ---
 
 # Destillat — Minergie: Nachweisfuehrung, Antrag & Zertifizierung (Workflow)
@@ -78,3 +83,16 @@ zum **provisorischen** und nach Bauausfuehrung zum **definitiven Zertifikat**.
 - **Abgrenzung:** Zertifizierungs-/Plattform-Bedienung im Detail → Online-Manual Minergie;
   Energierecht/Vollzug → Skill `baurecht`. WPesti als WP-Entscheidungsgrundlage → F6 /
   `[[waermepumpe-systemvergleich]]`.
+- **Nachtrag 24.08.2026 (A-BLIND-Pruefung):** Die hier zitierte Kursgrundlage (Produktreglement
+  **2023.1**) ist inzwischen durch **Version 2026.1** (gueltig ab 01.01.2026) abgeloest —
+  established belegt in `[[minergie-produktreglement-2026-1-muken-vergleich]]`. Die **Kapitel
+  1-13 des Reglements 2026.1** (dort waere die Prozess-/Plattform-Logik selbst geregelt) sind in
+  jenem Destillat explizit **nicht gelesen** — dieses Destillat kann daher nicht aus erster Hand
+  bestaetigen, dass Label-Plattform-Ablauf, Antrags-Checkliste und Pruefrunden-Logik unveraendert
+  gelten. Zwei Teilaspekte sind indirekt bestaetigt: `wiki/minergie-standards.md` (Update
+  15.08.2026) haelt fest, dass der Nachweis weiterhin ueber die Label-Plattform eingereicht wird
+  (nicht wieder ueber eine Excel-Mappe), und dass die offizielle Ablauf-Seite
+  (`minergie.ch/de/zertifizieren/ablauf/`, geprueft 15.08.2026) weiterhin keine Befristung des
+  Zertifikats nennt — beides deckt sich mit den Aussagen hier. Die **Antrags-Checkliste und die
+  MKZ-Optimierungs-Hebel bleiben ungeprueft gegen 2026.1** und sind bis zu einer Volltextpruefung
+  der Kapitel 1-13 als Stand 2023 zu behandeln, nicht als aktuell bestaetigt.

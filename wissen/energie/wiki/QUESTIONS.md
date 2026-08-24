@@ -6455,3 +6455,49 @@ geprüft, rund 29 verbleiben; nächste Kandidaten aus der h-Lauf-Liste: `minergi
 workflow` (23, noch ungeprüft) und `ecobkp-2026-methodik-und-uebersicht` (24, mehrere kleinere
 Merkblatt-Lücken laut h-Lauf). Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug),
 SIA 380/1:2016 (Normkauf).
+
+## 2026-08-24l — A-BLIND: `minergie-zertifizierung-workflow` — Reglementsversion 2023.1 gegen aktuelle 2026.1 geprüft, Prozesskapitel als ungeprüft geflaggt
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** `ps -p $$` und Elternprozess-Prüfung
+zeigten, dass der einzige weitere `claude -p`-Prozess mit demselben Energie-Prompt (PID 57407) der
+eigene Elternprozess dieser Session ist — kein Sibling-Lauf zu dieser KB aktiv (parallel liefen nur
+ein `normen`- und ein `baurecht`-Lauf, andere KBs). Letzten Eintrag (2026-08-24k) gelesen: «nächste
+Kandidaten `minergie-zertifizierung-workflow` (23) und `ecobkp-2026-methodik-und-uebersicht` (24)».
+
+**Vorab-Korrektur der k-Empfehlung:** `ecobkp-2026-methodik-und-uebersicht` war laut den Einträgen
+2026-08-24i und -24j bereits an mehreren Vorläufen desselben Tages vollständig geprüft und
+geschlossen (nur E-R230-2/Raphael offen) — der k-Lauf hatte, wie schon in -24j als Prozessbeobachtung
+festgehalten, offenbar nicht den vollen Tagesbestand durchsucht. Nicht erneut bearbeitet, stattdessen
+`minergie-zertifizierung-workflow` (23 Backlinks) übernommen.
+
+**Fund:** Das Destillat zitiert als Grundlage «Produktreglement Gebäudestandards Version 2023.1»
+(Nachweiskurs 25.09.2023). Diese Version ist seit **01.01.2026 durch Version 2026.1** abgelöst —
+established belegt in `[[minergie-produktreglement-2026-1-muken-vergleich]]` (datenstand
+2026-08-07). Jenes Destillat hat aber explizit **nur Kapitel 14-17 + ausgewählte Anhänge** gelesen,
+**nicht die Kapitel 1-13**, in denen die Prozess-/Plattform-Logik selbst geregelt wäre — die in
+`minergie-zertifizierung-workflow` beschriebene Antrags-Checkliste, Nachweisformulare/Hilfstools
+(WPesti/PVopti/etc.) und die Prüfrunden-Logik AS↔ZS sind damit **nicht aus erster Hand gegen 2026.1
+verifiziert**.
+
+**Zwei Teilaspekte indirekt bestätigt** (bereits in `wiki/minergie-standards.md`, Update 15.08.2026,
+dokumentiert, dort nur nicht mit dem Destillat selbst rückverknüpft): (1) der Nachweis läuft weiterhin
+über die Label-Plattform, nicht wieder über eine herunterladbare Excel-Mappe; (2) die offizielle
+Ablauf-Seite (`minergie.ch/de/zertifizieren/ablauf/`, geprüft 15.08.2026) nennt weiterhin keine
+Befristung des Zertifikats — deckt sich mit der hier getroffenen Aussage. Kein Widerspruch gefunden,
+aber auch keine vollständige Bestätigung der übrigen Prozessdetails (Checkliste, Hilfstools-Liste).
+
+Eingearbeitet: `destillate/minergie-zertifizierung-workflow.md` (Frontmatter `geltungsbereich` neu,
+`last_updated` 2026-06-18 → 2026-08-24, neuer Nachtrag-Absatz in «Offene Punkte»), `destillate/
+INDEX.md` (⚠-Vermerk in der Statuszelle).
+
+`git diff --numstat` nach dem Schreibvorgang geprüft: `destillate/minergie-zertifizierung-workflow.md`
++19/-1, `destillate/INDEX.md` +1/-1 — additiv/präzisierend, keine Löschung von Bestand. Status bleibt
+`established` (Rule: established nicht pauschal abwerten, sondern im Geltungsbereich differenzieren).
+
+**Für den nächsten Lauf:** eine vollständige Prüfung der Kapitel 1-13 des Produktreglements 2026.1
+gegen die Antrags-Checkliste/Hilfstools-Liste in `minergie-zertifizierung-workflow` wäre der
+naheliegende Folgeschritt, ist aber ein neuer Primärquellen-Lesevorgang (nicht nur ein Abgleich).
+A-BLIND-Bestand: 11 von 39 Backlink-Kandidaten jetzt geprüft, rund 28 verbleiben (`ecobkp-2026-
+methodik-und-uebersicht` NICHT erneut listen, siehe Vorab-Korrektur oben). Unverändert blockiert:
+E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf).
