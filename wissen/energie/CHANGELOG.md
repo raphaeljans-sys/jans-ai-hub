@@ -1,5 +1,34 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: A-BLIND-Fall 3 — ChemRRV Anhang 2.10 Volltext gelesen, Zitierfehler behoben, Destillat auf established gehoben
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den Vorlauf, der den
+A-BLIND-Vorrat («18-29-Backlink-Kandidaten») als für dieses Quartal ausgeschöpft erklärt hatte,
+dabei aber nur 8 von 37 Kandidaten einzeln geprüft hatte. Rest gezielt nach Frontmatter-`status`
+gefiltert und einen echten Fund gemacht: `[[kaeltemittel-r290-waermepumpen-ch]]` (status `emerging`)
+trug einen offenen Punkt «Bestandsschutz-Wortlaut nicht direkt aus dem ChemRRV-Verordnungstext …
+geprüft».
+
+ChemRRV Anhang 2.10 (SR 814.81) über die dokumentierte Fedlex-Ausweichroute
+(`fedlex.data.admin.ch`, Konsolidierungsstand 1.1.2027, enthält die Revision vom 29.10.2025) im
+Volltext gelesen (PyPDF2, Ziff. 1-7 vollständig). Ergebnis: Bestandsschutz und die
+Übergangsfrist-Kurzformel (6/12 Monate) bestätigt; ein echter Zitierfehler gefunden und behoben
+(die Füllmengenbegrenzungen 0,18-0,48 kg/kW standen fälschlich unter «Ziff. 2.6» statt der
+korrekten Fundstelle Ziff. 2.1 Abs. 5, und mit falscher Reichweite «für Wärmepumpen mit GWP < 150»
+statt der tatsächlichen Grössenregel «Anlagen mit luftgekühltem Verflüssiger > 50 kW»); die
+vereinfachte GWP-Staffelung der Wärmepumpen-Verbote präzisiert (tatsächlich vier eigenständige,
+nach Heizleistung UND Bauart UND GWP gestaffelte Verbote plus grössen-/bauartabhängige
+Übergangsausnahmen).
+
+Destillat auf `established` gehoben, eingearbeitet in `destillate/INDEX.md` und
+`wiki/BAUHERREN-FAQ.md` F72. Details, vollständige Fundstellen und offener Rest (rund 28 der 37
+18-29-Backlink-Kandidaten noch nicht einzeln primärquellen-geprüft): `wiki/QUESTIONS.md`, Abschnitt
+vom selben Tag. Output: `outputs/2026-08-24_a-blind-fall3-chemrrv-anhang-2-10-kaeltemittel.md`.
+
+`git diff --numstat` geprüft: `destillate/kaeltemittel-r290-waermepumpen-ch.md` +77/-26,
+`destillate/INDEX.md` +1/-1, `wiki/BAUHERREN-FAQ.md` additiv (zwei Satzergänzungen) — durchgehend
+additiv/präzisierend/korrigierend, keine Löschung von Bestand.
+
 ## 2026-08-24 — Automatischer Lauf: Registersammellauf 03.16 — drei Duplikat-Paare abgeglichen, eine Falschaussage korrigiert
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den CHANGELOG-Stand

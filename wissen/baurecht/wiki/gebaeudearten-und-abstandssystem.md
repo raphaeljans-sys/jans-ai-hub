@@ -19,7 +19,7 @@ verifiziert:
     methode: "Modell-D-Volltextabgleich, Buch-Run 59, Stichproben-Re-Verifikation (Priorität c, PROGRAMM.md) — Kandidat mit ältestem verifiziert-Datum ohne Rechecke seit Ersterfassung"
     umfang: "Privatrechtlicher Abschnitt: Art. 688 ZGB (Fedlex, konsolidiert Stand 1.1.2025) + §§ 168-179 EG ZGB (LS 230, zhlex Nachtrag 133/Stand 1.7.2026) frisch amtlich beschafft (bislang kein raw-Beleg in der KB vorhanden)"
     ergebnis: "LückE GESCHLOSSEN, 0 Korrekturen an bestehenden Aussagen: Art. 688 ZGB CONFIRMED als Delegationsnorm; §§ 169-174/177-179 EG ZGB (Sträucher 50 cm, Bäume 2-4 m/Rebland 8 m, Baumschule 1 m, Waldboden 50 cm, Verjährung 5 Jahre, Grünhecken 50 cm bis 2 m/darüber hinaus proportional, andere Einfriedigungen 150 cm) vollständig erfasst und ins Kapitel 'Privatrechtliche Abstände' integriert. Fallrecht BEZ 1989 Nr. 21/RB 1991 Nr. 84 (Zonengrenzen-Frage, anderes Thema) bleibt unbelegt — keine Gerichtsentscheid-Datenbank verfügbar, weiterhin als offen ausgewiesen statt stillschweigend übernommen"
-sources: ["§ 260 Abs. 1/4 PBG", "§ 261 PBG", "§ 269 PBG", "§ 270 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 3 PBG", "§ 2 ABV", "§ 2a ABV", "§ 2b ABV", "§ 2c ABV", "§ 21 ABV", "§ 25 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "§ 18 Abs. 1 BBV II (Fassung 097, geltend)", "§ 18 Abs. 1 BBV II (Fassung 067, in Kraft bis 01.03.2017)", "Art. 24 BZO Thalwil", "Art. 688 ZGB", "§§ 169-174/177-179 EG ZGB", "Buch Bd 2 S. 995-998", "raw/260607_amtlich_zh_abv.md", "raw/260607_amtlich_zh_pbg.md", "raw/260607_amtlich_zh_bvv.md", "raw/260607_amtlich_zh_bbv2.md", "raw/260607_amtlich_zh_bzo-thalwil.md", "raw/260725_amtlich_zh_egzgb.md", "zhlex LS 700.22 Fassungsgeschichte (abgerufen 2026-08-17)", "Buch Bd 2 S. 1095/1108 (BEZ 1996 Nr. 30)", "buecher/band-2/15-lage-von-gebaeuden-teil2d.md"]
+sources: ["§ 260 Abs. 1/4 PBG", "§ 261 PBG", "§ 269 PBG", "§ 270 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 3 PBG", "§ 2 ABV", "§ 2a ABV", "§ 2b ABV", "§ 2c ABV", "§ 21 ABV", "§ 25 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "§ 18 Abs. 1 BBV II (Fassung 097, geltend)", "§ 18 Abs. 1 BBV II (Fassung 067, in Kraft bis 01.03.2017)", "Art. 24 BZO Thalwil", "Art. 688 ZGB", "§§ 169-174/177-179 EG ZGB", "Buch Bd 2 S. 995-998", "raw/260607_amtlich_zh_abv.md", "raw/260607_amtlich_zh_pbg.md", "raw/260607_amtlich_zh_bvv.md", "raw/260607_amtlich_zh_bbv2.md", "raw/260607_amtlich_zh_bzo-thalwil.md", "raw/260725_amtlich_zh_egzgb.md", "zhlex LS 700.22 Fassungsgeschichte (abgerufen 2026-08-17)", "Buch Bd 2 S. 1095/1108 (BEZ 1996 Nr. 30)", "buecher/band-2/15-lage-von-gebaeuden-teil2d.md", "VB.2012.00531 (VGr 10.4.2013, Volltext entscheidsuche.ch, Buch-Run 121)"]
 links: [[abstaende-und-hoehen]], [[15-lage-von-gebaeuden]], [[baubewilligungsverfahren]], [[geschosse-und-kniestock]], [[umgebungsgestaltung-und-einfriedungen]], [[negative-vorwirkung-und-bzo-revision]]
 ---
 
@@ -58,7 +58,14 @@ allfälliger Pergolen**.
 Nr. 30) — im Standardwerk **zweifach** belegt, unabhängig für beide Normkontexte: § 49 Abs. 3
 PBG (Bd 2, S. 1095, `buecher/band-2/15-lage-von-gebaeuden-teil2d.md` Z. 101-103) und § 273 PBG
 (Bd 2, S. 1108, ebd. Z. 221-226). Geklärt Buch-Run 80, 23.08.2026 (`wiki/QUESTIONS.md`, vormals
-offene Frage aus Buch-Run 79).
+offene Frage aus Buch-Run 79). **Zusatzbeleg Buch-Run 121 (2026-08-24):** VB.2012.00531 (VGr
+10.4.2013, Altersheim Zürich-Wipkingen, Volltext gelesen) bestätigt dieselbe 10°-Schwelle
+(«ein Dach mit einer Neigung von 10° oder mehr ist … als Schrägdach zu bezeichnen», Flachdach
+nur bei < 5°) im **allgemeinen** Gebäudehöhen-/Firsthöhen-Kontext (§ 281 PBG) — eine von BEZ 1996
+Nr. 30 unabhängige, spätere VGr-Bestätigung derselben Schwelle. Der Entscheid äussert sich nicht
+zu besonderen Gebäuden (§ 273/§ 49 Abs. 3 PBG) und ersetzt daher nicht die oben bereits über den
+Buchdestillat-Querverweis geklärte Übertragungsfrage, bestätigt aber deren Prämisse (die
+Schwelle gilt seit Jahrzehnten unverändert als gefestigte VGr-Praxis).
 
 **Unterscheidung Nutzung vs. Mass:** Beim «besonderen Gebäude» ist die **Nutzung**
 (kein Daueraufenthalt) qualifizierend; bei Mini-/abstandsfreien Bauten allein das **Mass**.

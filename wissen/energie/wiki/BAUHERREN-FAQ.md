@@ -2921,8 +2921,11 @@ offen).
 **Kurz-Antwort:** Die Schweiz stellt die Kältemittel-Regulierung ab **2027** (Einfuhr 1.1./Abgabe
 1.7.) so um, dass natürliche Kältemittel wie **Propan (R290, GWP 3)** für neue Wärmepumpen kleiner/
 mittlerer Leistung faktisch zum Standard werden — synthetische Kältemittel mit hohem GWP (R410A,
-GWP 2'088) werden zunehmend eingeschränkt. Bestehende Anlagen dürfen unverändert weiterlaufen
-(Bestandsschutz).
+GWP 2'088) werden zunehmend eingeschränkt. Bestehende Anlagen dürfen unverändert weiterlaufen und
+auch mit R410A/R32 nachgefüllt werden (Bestandsschutz, seit 24.08.2026 am ChemRRV-Verordnungstext
+selbst verifiziert: die Verbote richten sich nur gegen Herstellung/Inverkehrbringen/Einfuhr sowie
+das Nachfüllen bestimmter Hoch-GWP-Kältemittel in namentlich genannte Gewerbe-/Industrieanlagen —
+Wärmepumpen sind dort nicht gelistet).
 
 **Fachlich:** Propan ist als **A3-Kältemittel** brennbar. Ab einer Füllmenge von **0,15 kg** pro
 Kreislauf sind bei Innenaufstellung zusätzliche Massnahmen nötig (Belüftung, Gaswarnanlage oder
@@ -2938,11 +2941,13 @@ verifizierten SCOP-/JAZ-Zahlen. Belastbare CHF-Mehrkosten liegen weiterhin nicht
 widersprüchliche Marketing-Quellen, trotz gezielter Nachrecherche Run 67).
 
 **Quelle:** BAFU «Stand der Technik stationäre Anlagen mit in der Luft stabilen Kältemitteln» (Stand
-1.1.2026), ChemRRV Anh. 2.10 (Revision 29.10.2025), suissetec HEIZ241 (Jan. 2026), SVK-Merkblatt A3/
+1.1.2026), ChemRRV Anh. 2.10 Volltext (SR 814.81, Revision 29.10.2025, konsolidierter Stand 1.1.2027
+direkt bei fedlex.data.admin.ch gelesen), suissetec HEIZ241 (Jan. 2026), SVK-Merkblatt A3/
 A2L (Juli 2025), EnergieSchweiz/BAFU Kältemittel-Fibel (Run 67) →
 `[[kaeltemittel-r290-waermepumpen-ch]]`. Ergänzt `[[heizleistung-und-waermeerzeuger]]`. Status
-**emerging** (BAFU-Primärquellen + Fachverbandsmerkblätter geprüft; Effizienz teilweise belegt,
-CHF-Kosten bestätigter Negativbefund).
+**established** (A-BLIND-Primärquellenverifikation 24.08.2026: Regulatorik jetzt am
+Verordnungstext selbst verifiziert, ein Zitierfehler zu den Füllmengenbegrenzungen behoben;
+Effizienz teilweise belegt, CHF-Kosten bestätigter Negativbefund).
 
 ---
 

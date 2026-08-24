@@ -1,11 +1,11 @@
 ---
-quelle: BAFU «Stand der Technik stationäre Anlagen mit in der Luft stabilen Kältemitteln» (Stand 1.1.2026) + BAFU «Grafische Zusammenfassung der Regelungen zum Inverkehrbringen stationärer Anlagen mit Kältemitteln» (Stand Mai 2026); ChemRRV Anhang 2.10 (SR 814.81), revidiert Bundesratsbeschluss 29.10.2025 (AS 2025 747); suissetec Merkblatt HEIZ241 (Januar 2026); SVK-Merkblatt A3/A2L (Juli 2025)
-herausgeber: BAFU (Bundesamt für Umwelt) / suissetec / SVK ASF ATF
-ausgabe: Web-Recherche, amtliche PDFs direkt heruntergeladen und per pdftotext im Volltext ausgewertet
-gelesen: 2026-07-14 (Run 66)
-datenstand: Stand 1.1.2026 (BAFU «Stand der Technik») bzw. Mai 2026 (BAFU Inverkehrbringen-Grafik); ChemRRV-Revision Einfuhr-Stichtag 1.1.2027 / Abgabe-Stichtag 1.7.2027
-status: emerging (regulatorische Kernaussagen aus geprüften BAFU-Primärquellen + referenzierten Fachverbands-Merkblättern; ChemRRV-Verordnungstext selbst weiterhin nicht im Volltext geprüft; Effizienzvergleich seit Run 67 über EnergieSchweiz/BAFU-Kältemittel-Fibel teilweise belegt, CHF-Kostenvergleich weiterhin unbelegt)
-last_updated: 2026-07-14 (Run 67)
+quelle: BAFU «Stand der Technik stationäre Anlagen mit in der Luft stabilen Kältemitteln» (Stand 1.1.2026) + BAFU «Grafische Zusammenfassung der Regelungen zum Inverkehrbringen stationärer Anlagen mit Kältemitteln» (Stand Mai 2026); ChemRRV Anhang 2.10 (SR 814.81), revidiert Bundesratsbeschluss 29.10.2025 (AS 2025 747) — Volltext konsolidierter Stand 1.1.2027 direkt bei fedlex.data.admin.ch gelesen (24.08.2026); suissetec Merkblatt HEIZ241 (Januar 2026); SVK-Merkblatt A3/A2L (Juli 2025)
+herausgeber: BAFU (Bundesamt für Umwelt) / suissetec / SVK ASF ATF / Bundeskanzlei (Fedlex)
+ausgabe: Web-Recherche, amtliche PDFs direkt heruntergeladen und per pdftotext bzw. PyPDF2 im Volltext ausgewertet
+gelesen: 2026-07-14 (Run 66); ChemRRV Anhang 2.10 Volltext 2026-08-24 (interaktive Session, A-BLIND)
+datenstand: Stand 1.1.2026 (BAFU «Stand der Technik») bzw. Mai 2026 (BAFU Inverkehrbringen-Grafik); ChemRRV konsolidierter Stand 1.1.2027 (Snapshot fedlex.data.admin.ch, enthält die per 29.10.2025 beschlossene Revision)
+status: established (regulatorische Kernaussagen jetzt am ChemRRV-Verordnungstext selbst verifiziert, nicht mehr nur über BAFU-Sekundärgrafiken; Effizienzvergleich seit Run 67 über EnergieSchweiz/BAFU-Kältemittel-Fibel teilweise belegt, CHF-Kostenvergleich weiterhin unbelegt — deshalb Detailpunkte im Abschnitt „Kosten-/Effizienzvergleich" unverändert als offen markiert)
+last_updated: 2026-08-24 (A-BLIND-Primärquellenverifikation, Fortsetzung des Fokus auf 18-29-Backlink-Kandidaten)
 ---
 
 # Kältemittel R290 (Propan) bei Wärmepumpen — Regulatorik, Brandschutz, Bauherren-Wahl
@@ -24,17 +24,46 @@ Füllmengen- und Aufstellungsgrenzen, während Bestandsanlagen vollen Bestandssc
   **1.7.2027 (Abgabe an Dritte)**.
 - **Natürliche Kältemittel** (Kategorie 1: R290 Propan, R744 CO₂, R717 Ammoniak) sind uneingeschränkt
   zulässig.
-- **Wärmepumpen, gestaffelt nach Heizleistung Q0H und GWP:** GWP < 150 grundsätzlich zulässig
-  (Füllmengenbegrenzung Luftwärmetauscher); GWP 150–750 grundsätzlich nicht zulässig (befristete
-  Ausnahme Split-Anlagen bis 31.12.2028); GWP 750–2100 nicht zulässig (befristete Ausnahme in sich
-  geschlossene Anlagen > 50 kW Heizleistung bis 31.12.2029); GWP > 2100 nicht zulässig. Innen
-  aufgestellte, in sich geschlossene Wärmepumpen bis 750 kW mit GWP < 2100 gelten per 1.1.2026 als
-  «Stand der Technik ohne Ersatz» und dürfen die Ausnahme nutzen.
-- **Bestandsschutz:** bestehende Anlagen dürfen weiterbetrieben, repariert und mit synthetischem
-  Kältemittel nachgefüllt werden — keine Austauschpflicht (Sekundärquelle EKZ Blue, nicht direkt am
-  ChemRRV-Text verifiziert, aber konsistent mit der Übergangsmechanik).
-- **Übergangsfrist bei Wegfall einer Ausnahme:** 6 Monate (Einfuhr) / 12 Monate (Abgabe an Dritte),
-  sobald ein «Ersatz nach Stand der Technik» verfügbar wird (Anh. 2.10 Ziff. 7 Abs. 7 ChemRRV).
+- **Wärmepumpen, gestaffelt nach Heizleistung und GWP (24.08.2026 am Verordnungstext präzisiert —
+  vorherige Fassung war eine Vereinfachung, die die tatsächliche Struktur unvollständig
+  wiedergab).** Anh. 2.10 Ziff. 2.1 Abs. 3 Bst. d ChemRRV verbietet das Inverkehrbringen von
+  Wärmepumpen, die (1) mehr als 250 kW Heizleistung haben — unabhängig vom Kältemittel — oder (2)
+  höchstens 12 kW Heizleistung UND GWP ≥ 150 haben, oder (3) GWP ≥ 750 haben — unabhängig von der
+  Grösse —, oder (4) «in sich geschlossen» sind UND GWP ≥ 150 haben. Eine Wärmepumpe zwischen
+  12 kW und 250 kW, die **nicht** in sich geschlossen ist (Split-Anlage) und ein GWP unter 750
+  aufweist, fällt damit unter **keines** der vier Verbote. Befristete Übergangsausnahmen (Anh. 2.10
+  Ziff. 7 Abs. 3/4) lockern das zusätzlich: Split-Anlagen mit GWP ≤ 750 sind bis 31.12.2028 auch
+  unterhalb 12 kW von Verbot (2) ausgenommen, Split-Anlagen > 12 kW mit GWP ≤ 2100 bis 31.12.2028
+  von Verbot (3), und in sich geschlossene Anlagen > 50 kW mit GWP ≤ 2100 bis 31.12.2029 von den
+  Verboten (3)/(4). **Praktische Faustregel bleibt richtig** (kleine/mittlere Wärmepumpen mit
+  hohem GWP werden zunehmend eingeschränkt, R290/natürliche Kältemittel bleiben immer zulässig),
+  die vorherige Darstellung als einfache vierstufige GWP-Bandbreite (< 150 / 150–750 / 750–2100 /
+  > 2100) unabhängig von Grösse und Bauart war aber eine Vereinfachung, die im Einzelfall zu
+  falschen Schlüssen führen kann — bei einer konkreten Anlage zählen Heizleistung, Bauart
+  (Split/in sich geschlossen) UND GWP gemeinsam. Die Aussage «innen aufgestellte, in sich
+  geschlossene Wärmepumpen bis 750 kW mit GWP < 2100 gelten per 1.1.2026 als „Stand der Technik
+  ohne Ersatz"» stammt aus der BAFU-Grafik (nicht Bestandteil des Verordnungstexts selbst, dort nur
+  über die BAFU-Empfehlungspflicht nach Ziff. 6 Bst. a delegiert) und bleibt unverändert stehen,
+  da sie der Verordnung nicht widerspricht.
+- **Bestandsschutz (24.08.2026 primärquellen-verifiziert):** die Verbote in Anhang 2.10 Ziff. 2.1
+  richten sich ausschliesslich gegen «Herstellung, Inverkehrbringen, Einfuhr … und Ausfuhr» sowie
+  gegen das «Nachfüllen» bestimmter Kältemittel (Ziff. 3.2/3.3) — nicht gegen den Betrieb
+  bestehender Anlagen. Bestehende Wärmepumpen dürfen unverändert weiterbetrieben und repariert
+  werden. Für das **Nachfüllen** mit synthetischem Kältemittel gilt konkret: das generelle
+  Nachfüll-Verbot ab GWP ≥ 2500 (Ziff. 3.3.1 Abs. 1) betrifft R410A (GWP 2088) nicht; das
+  Nachfüll-Verbot ab GWP ≥ 750 (Ziff. 3.3.1 Abs. 2) gilt nur für die dort abschliessend genannten
+  Gewerbe-/Industrie-Kälteanlagen und Kunsteisanlagen — **Wärmepumpen sind in dieser Liste nicht
+  aufgeführt.** Bestehende Wärmepumpen dürfen also auch mit R410A/R32 weiter nachgefüllt werden,
+  keine Austauschpflicht. (Vorher nur über die Sekundärquelle EKZ Blue belegt, jetzt am
+  Verordnungstext selbst nachgelesen: fedlex.data.admin.ch, Anhang 2.10 Ziff. 2.1/3.3.1, konsolidierter
+  Stand 1.1.2027.)
+- **Übergangsfrist bei Wegfall einer Ausnahme (24.08.2026 wortlautgeprüft, bestätigt):** Anh. 2.10
+  Ziff. 7 Abs. 7 ChemRRV lautet, sobald aufgrund einer Änderung des Standes der Technik ein Ersatz
+  vorliegt, dürfen die bisherigen Anlagen/Geräte «noch während 6 Monate hergestellt, zu beruflichen
+  oder gewerblichen Zwecken eingeführt sowie **während weiterer 6 Monate** an Dritte abgegeben
+  werden» — in Summe 6 Monate Herstellung/Einfuhr, danach nochmals 6 Monate (also bis Monat 12 ab
+  Stichtag) Abgabe an Dritte. Die bisherige Kurzformel «6 Monate (Einfuhr) / 12 Monate (Abgabe an
+  Dritte)» trifft die Wirkung damit richtig.
 
 ## Brandschutz/Sicherheit A3-Kältemittel (Propan)
 
@@ -97,9 +126,19 @@ Füllmengen- und Aufstellungsgrenzen, während Bestandsanlagen vollen Bestandssc
   **Aussenaufstellung bleibt der einfache Regelfall**. Alternative (Herstellerangabe, nicht CH-
   amtlich verifiziert): **Hydrosplit-Konzept** — der Propan-Kreislauf verbleibt vollständig in der
   Aussen-/Monoblock-Einheit, ins Gebäude gelangt nur ein kältemittelfreier Wasser-Glykol-Kreislauf.
-  Ergänzend die BAFU-Grafik (ChemRRV Anh. 2.10, Stand Mai 2026): für Wärmepumpen mit GWP < 150 gelten
-  zusätzlich regulatorische Füllmengenbegrenzungen 0,18–0,48 kg/kW Heizleistung (Ziff. 2.6) — unabhängig
-  von den bauseitigen SN-EN-378-Brandschutzanforderungen zu lesen.
+  **Korrektur 24.08.2026 (A-BLIND, Zitierfehler behoben):** die vormals hier genannte Fundstelle
+  «Ziff. 2.6» ist falsch — Ziff. 2.6 im Verordnungstext heisst «Pflichten für die Ausfuhr von
+  Anlagen» und hat mit Füllmengen nichts zu tun. Die tatsächliche Fundstelle für regulatorische
+  Füllmengenbegrenzungen ist **Anh. 2.10 Ziff. 2.1 Abs. 5 ChemRRV** (Wortlaut geprüft): sie
+  verbieten das Inverkehrbringen von **Anlagen mit luftgekühltem Verflüssiger und einer
+  Kälteleistung von mehr als 50 kW**, wenn sie pro kW Kälteleistung mehr als 0,18 kg (GWP ≥ 750)
+  bzw. 0,4 kg (GWP < 750) enthalten, oder — bei Abwärmenutzung/freier Kühlung — mehr als 0,22 kg
+  bzw. 0,48 kg. **Nicht** «für Wärmepumpen mit GWP < 150», wie hier zuvor stand: die Vorschrift ist
+  eine reine Grössen-/Füllmengenregel (> 50 kW Kälteleistung), unabhängig vom GWP-Wert selbst. Die
+  50-kW-Schwelle bedeutet: für haustypische EFH/MFH-Wärmepumpen greift sie in aller Regel nicht —
+  massgebend bleiben dort die bauseitigen SN-EN-378-Brandschutzanforderungen (0,15/1,5 kg oben).
+  Relevant wird Ziff. 2.1 Abs. 5 erst bei grösseren Anlagen (z.B. Areal-/Anergienetz-
+  Wärmepumpenzentralen).
 
 ## Bauherren-Transfer
 
@@ -126,15 +165,27 @@ nicht belastbar belegen (siehe unten) — nur ungeprüfte Marketing-/Vergleichsp
   müssten dafür ausgewertet werden).
 - Konkretes kg-Propan-pro-kW-Heizleistungs-Verhältnis für marktübliche CH-Luft/Wasser-Geräte: fehlt,
   würde die Innenaufstellungs-Schwelle in kW statt nur kg ausdrücken.
-- Bestandsschutz-Wortlaut nicht direkt aus dem ChemRRV-Verordnungstext bzw. der BAFU-Vollzugshilfe
-  geprüft (nur über Sekundärquellen bestätigt).
-- Exakte Spaltenzuordnung der BAFU-Tabelle für Wärmepumpen-Leistungsklassen aus dem PDF-Layout nicht
-  vollständig eindeutig rekonstruierbar — bei rechtsverbindlicher Anwendung im Einzelfall Originaltext
-  in Anhang 2.10 ChemRRV direkt einsehen.
+- ~~Bestandsschutz-Wortlaut nicht direkt aus dem ChemRRV-Verordnungstext geprüft~~ **GESCHLOSSEN
+  24.08.2026:** am Verordnungstext selbst verifiziert, siehe Abschnitt «Regulatorischer Rahmen»
+  oben.
+- ~~Exakte Spaltenzuordnung der BAFU-Tabelle für Wärmepumpen-Leistungsklassen … nicht vollständig
+  eindeutig rekonstruierbar~~ **GESCHLOSSEN 24.08.2026:** die vierteilige Verbotsstruktur (Anh. 2.10
+  Ziff. 2.1 Abs. 3 Bst. d, Nr. 1-4) und die zugehörigen Übergangsausnahmen (Ziff. 7 Abs. 3/4) sind
+  jetzt direkt am Verordnungstext nachvollzogen, nicht mehr nur über die BAFU-Grafik interpretiert
+  — siehe korrigierter Abschnitt «Wärmepumpen, gestaffelt nach Heizleistung und GWP» oben. Dabei
+  wurde ein echter Zitierfehler gefunden und behoben: die zuvor unter «Ziff. 2.6» geführten
+  Füllmengenbegrenzungen (0,18-0,48 kg/kW) stehen tatsächlich in Ziff. 2.1 Abs. 5 und gelten nur
+  für Anlagen mit luftgekühltem Verflüssiger > 50 kW Kälteleistung, nicht generell für Wärmepumpen
+  mit GWP < 150.
 - Marktverfügbarkeit von R290-Wärmepumpen für grössere MFH-Anlagen (> 12 kW) nicht belastbar geklärt.
 
 ## Quellen
 
+- **ChemRRV Anhang 2.10 (SR 814.81), Volltext** — `fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/
+  eli/cc/2005/478/20270101/de/pdf-a/…pdf` (konsolidierter Stand 1.1.2027, enthält die per
+  Bundesratsbeschluss 29.10.2025 beschlossene Revision; `www.fedlex.admin.ch` lieferte für dieses
+  Konsolidierungsdatum keinen Treffer, Ausweichroute nach `docs/referenz/fedlex-volltexte.md`
+  verwendet), Ziffern 1-7 (PDF-S. 161-172) vollständig mit PyPDF2 gelesen, 24.08.2026.
 - BAFU «Stand der Technik stationäre Anlagen mit in der Luft stabilen Kältemitteln», Stand 1.1.2026
   (PDF, per pdftotext vollständig gelesen).
 - BAFU «Grafische Zusammenfassung der Regelungen zum Inverkehrbringen stationärer Anlagen mit

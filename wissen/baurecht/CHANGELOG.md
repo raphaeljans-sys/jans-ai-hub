@@ -3,6 +3,62 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 121: die zwei tragendsten Fallzitate der Run-120-Fallpraxis-Vertiefung am Original verifiziert — VB.2003.00196-Zitat korrigiert (§ 101 PBG und Zurückhaltungspflicht nicht haltbar), BRKE II Nr. 0130/2007 CONFIRMED, VB.2012.00531-Frage geklärt
+
+- **Ausgangslage:** Buch-Run 120 hatte als Nächsten Schritt benannt, die zwei tragendsten
+  Fallzitate der neuen «Fallpraxis-Vertiefung» in [[ausnahmebewilligung-und-bestandesschutz]]
+  am Original zu verifizieren (BRKE II Nr. 0130/2007, VB.2003.00196), sowie zu prüfen, ob
+  VB.2012.00531 dieselbe Rechtsfrage betrifft wie die bereits als BEZ 1996 Nr. 30 geführte
+  10°-Schrägdach-Schwelle. `pdftotext` fehlt auf dieser Station; Original-PDFs wurden mit
+  PyMuPDF (`fitz`, bereits installiert) gelesen.
+- **BRKE II Nr. 0130/2007 (BEZ 2008 Nr. 12) — CONFIRMED.** Über die POST-basierte
+  Entscheidnummer-Suche von `baurekursgericht-zh.ch/rechtsprechung/entscheiddatenbank/
+  entscheidnummer/` (Formularfelder `department`/`number`/`year`) gefunden, PDF
+  `/media/BRKE_II_0130_2007_754.pdf`. Bestätigt: drei Attikageschosse auf drei Wohngebäude mit
+  je drei Vollgeschossen (W3 55 %, faktisch rund 97 % Ausnützung) wurden trotz erheblicher
+  Übernutzung als mit § 357 Abs. 1 PBG vereinbar beurteilt, weil keine Umgehungsabsicht der
+  Neubauvorschriften erkennbar ist und die Bausubstanz überwiegend erhalten bleibt (E. 5.1/5.2,
+  unter Bezug auf RB 1986 Nr. 99 = BEZ 1987 Nr. 5 und die VGr-Praxisänderung BEZ 2006 Nr. 32
+  E. 4.1 f.).
+- **VB.2003.00196 (RB 2003 Nr. 14 = BEZ 2004 Nr. 8) — TEILWEISE CONFIRMED, mit echter Korrektur.**
+  Volltext gefunden unter `entscheidsuche.ch/docs/ZH_Verwaltungsgericht/
+  ZH_VG_001_-VB-2003-00196_08-10-2003.html` (Datumssuffix aus dem bekannten Entscheiddatum
+  konstruiert, direkt erfolgreich). Der in der Sekundärquelle behauptete «Ermessensspielraum bei
+  § 357 Abs. 1 PBG» ist wörtlich bestätigt (E. 2c: «beträchtlicher Entscheidungsspielraum»,
+  «qualifizierte Entscheidungs- und Ermessensfreiheit») — dient dem Gericht dort aber zur
+  Begründung der **Gemeindelegitimation** nach § 21 lit. b VRG, nicht zu einer Aussage über
+  gerichtliche Zurückhaltung. **Zwei Teile der Sekundärquelle waren am Original nicht haltbar:**
+  (1) § 101 PBG kommt im Entscheid nicht vor — die Ausweitung von § 357 Abs. 1 PBG auf § 101 PBG
+  war eine unbelegte Verallgemeinerung, keine Aussage des Gerichts. (2) Die behauptete
+  Zurückhaltungspflicht des Baurekursgerichts (mit den Fundstellen § 20 Abs. 1/§ 50 VRG) ist
+  durch den Entscheid **widerlegt**: E. 5 zeigt das Gegenteil — das Verwaltungsgericht wirft der
+  Baurekurskommission I eine «schematische Betrachtungsweise» vor, die «der gebotenen
+  einzelfallbezogenen Interessenabwägung nicht gerecht» werde, hebt deren Rekursentscheid auf und
+  setzt die eigene Interessenabwägung an dessen Stelle. § 20 Abs. 1 VRG und § 50 VRG werden im
+  Entscheid nicht zitiert.
+- **Zwei Fallzitate bleiben unverifiziert** (RRB Nr. 1294/1995 = BEZ 1996 Nr. 5; VB 94/0016 =
+  RB 1994 Nr. 72): beide vor dem Jahr 2000, ausserhalb der online frei zugänglichen
+  Entscheiddatenbanken (VGr-Volltextdatenbank deckt laut eigener Angabe erst ab 1.1.2000; die
+  Baurekursgericht-Entscheidnummer-Suche liefert für diese Jahrgänge keinen Treffer — anders als
+  bei Run 116 (RRB 39/2010) half hier auch keine WebSearch-Alternativroute). Zugriffsversuch
+  dokumentiert (Rule `wege-und-vollmachten`), **kein Ingest ohne Beleg**.
+- **VB.2012.00531 (VGr 10.4.2013, Altersheim Zürich-Wipkingen) geklärt:** betrifft dieselbe
+  Rechtsfrage wie BEZ 1996 Nr. 30 (Flachdach < 5°, Schrägdach ≥ 10°), aber im **allgemeinen**
+  Gebäudehöhen-/Firsthöhen-Kontext (§ 281 PBG), nicht im Kontext der besonderen Gebäude
+  (§ 273/§ 49 Abs. 3 PBG). Löst die bereits in Buch-Run 80 über einen Buchdestillat-Querverweis
+  geklärte Übertragungsfrage nicht neu auf, bestätigt aber unabhängig deren Prämisse: die
+  10°-Schwelle ist seit BEZ 1996 Nr. 30 (1996) bis mindestens 2013 unverändert gefestigte
+  VGr-Praxis. **GEÄNDERT** `wiki/gebaeudearten-und-abstandssystem.md` (Fussnote ⁴ ergänzt,
+  `sources`).
+- **GEÄNDERT** `wiki/ausnahmebewilligung-und-bestandesschutz.md` (Fallpraxis-Vertiefung
+  korrigiert/ergänzt, `sources`, `verifiziert`), `wiki/QUESTIONS.md` (neuer Block, Run-120-Eintrag
+  mit Verweis geschlossen).
+- `git diff --numstat` (nativ) nach jedem Schreibvorgang geprüft: nur gezielte Additionen/
+  Korrekturen an den erwarteten Stellen (`ausnahmebewilligung-und-bestandesschutz.md` +42/-23,
+  `gebaeudearten-und-abstandssystem.md` +9/-2, `QUESTIONS.md` +47/-0), keine unerwarteten
+  Löschungen.
+- REPORT `outputs/2026-08-24_buch-run121.md`.
+
 ## 2026-08-24 — Buch-Run 120: Cross-KB-Übergabe von `wissen/energie` (12 PL-02-Dateien) einzeln geprüft — Besitzstandsgarantie-Fallpraxis ergänzt, neuer Artikel Stockwerkeigentum-Teilungsplan, Klientendaten bewusst ausgefiltert
 
 - **Ausgangslage:** Reglemente-Queue (T1-T9) und die chronologische Stale-Flag-Sweep-Kette

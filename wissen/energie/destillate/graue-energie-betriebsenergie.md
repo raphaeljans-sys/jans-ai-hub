@@ -83,6 +83,23 @@ Gebaeuden»** (nicht in dieser Quelle). Die 1:9-Relation ist ein **didaktisches 
 keine allgemeingueltige Konstante; sie illustriert die Richtung, nicht den exakten Faktor.
 
 ## Offene Punkte
-- KBOB-/SIA-2032-Kennwerte fuer konkrete graue-Energie-Bilanz (kg CO₂-eq/m²) einarbeiten.
-- Sanieren-vs-Neubau: Schwellenwert, ab dem der Substanzerhalt die graue Energie des Neubaus
-  schlaegt (F9 / Block D2 — noch offene Quelle).
+- ✓ **Beide Punkte GESCHLOSSEN 24.08.2026 (interaktive Session, A-BLIND-Nachlauf): Compounding-
+  Lücke, keine neue Recherche nötig.** Beide Fragen waren bereits an anderer Stelle der KB
+  beantwortet, nur nicht von hier aus verlinkt — derselbe Fehlertyp wie 03.15/E-R140-1 («eine
+  Lücke wird angenommen, ohne zuerst das eigene Register zu durchsuchen»).
+  1. **KBOB-/SIA-2032-Kennwerte fuer konkrete graue-Energie-Bilanz** liegen seit 26.06.2026
+     `established` vor: `[[kbob-graue-treibhausgasemissionen-2025]]` (KBOB-Faktenblatt
+     04.04.2025 + KBOB-Ökobilanzdaten v8.0, neun Reduktionsmassnahmen, bis zu 40 % GTHGE-
+     Reduktion bei MFH, «Restwert Bestandsbauten»-Konzept). Für ein projektgenaues Zahlenpaar
+     (kg CO₂-eq/m²) ist das jetzt die Zielquelle, nicht dieses Lehrmittel-Destillat.
+  2. **Sanieren-vs-Neubau-Schwellenwert (F9/Block D2)** ist als **belegter Negativbefund**
+     dokumentiert, nicht offen: `[[graue-energie-sanieren-vs-neubau-amortisation]]` (status
+     `emerging`, seit 13.07.2026) — eine allgemeingültige CH-Jahreszahl existiert in der
+     geprüften Literatur (BAFU/Wüest Partner 2020, Wüest-Partner-Blog 2022/2024, INFRAS, Empa)
+     **nicht**; belastbar ist nur, dass die tieferen Betriebsemissionen eines Minergie-
+     Ersatzneubaus dessen **eigene** graue Emissionen innert rund 50 Jahren kompensieren (nicht
+     dieselbe Frage wie «schlägt Neubau die Sanierung») sowie ein CO₂-Preis-Schwellenwert
+     (~CHF 1'000/t) als wirtschaftlicher Ersatz-Hebel. Dieser Punkt bleibt in seinem eigenen
+     Destillat weiterhin offen für eine bessere Primärquelle (SIA 2032/390/1, Empa-
+     Publikationen direkt) — hier ist nur die fehlende Verlinkung behoben.
+  Backlinks unten ergänzt.

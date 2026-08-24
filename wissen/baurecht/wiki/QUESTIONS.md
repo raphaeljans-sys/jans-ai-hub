@@ -1,5 +1,48 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## ✅ TEILWEISE GEKLÄRT 2026-08-24 (Buch-Run 121) — Fallzitate der Run-120-«Fallpraxis-Vertiefung» und VB.2012.00531-Frage bearbeitet
+
+**War offen seit Buch-Run 120** (`[[ausnahmebewilligung-und-bestandesschutz]]`, Abschnitt
+«Fallpraxis-Vertiefung»): fünf Fallzitate aus einer Sekundärquelle (Raphael Jans, eigener
+Digest 2020) waren nicht am Original geprüft; zusätzlich offen, ob VB.2012.00531 dieselbe
+Rechtsfrage betrifft wie die bereits als BEZ 1996 Nr. 30 geführte 10°-Schrägdach-Schwelle.
+
+**Die zwei tragendsten Fallzitate verifiziert** (Methode wie Run 104/108, `entscheidsuche.ch`
+bzw. die `entscheidnummer`-Suche von `baurekursgericht-zh.ch`, PDF-Extraktion mit PyMuPDF, da
+`pdftotext` auf dieser Station fehlt):
+
+- **BRKE II Nr. 0130/2007 (BEZ 2008 Nr. 12) — CONFIRMED.** Volltext gefunden über das
+  POST-Suchformular der Entscheidnummer-Suche (`department=BRKE II`, `number=130`,
+  `year=2007`); PDF `/media/BRKE_II_0130_2007_754.pdf`. Bestätigt inhaltlich die
+  Wiki-Zusammenfassung (Attikageschosse auf drei Vollgeschosse trotz ~97 % Übernutzung als
+  Besitzstandsgarantie-konform beurteilt, keine Umgehungsabsicht erkennbar).
+- **VB.2003.00196 (RB 2003 Nr. 14 = BEZ 2004 Nr. 8) — TEILWEISE CONFIRMED, mit Korrektur.**
+  Volltext gefunden unter `entscheidsuche.ch/docs/ZH_Verwaltungsgericht/
+  ZH_VG_001_-VB-2003-00196_08-10-2003.html`. Der «Ermessensspielraum bei § 357 Abs. 1 PBG»
+  ist wörtlich bestätigt (E. 2c), diente dem Gericht dort aber zur Begründung der
+  Gemeindelegitimation, nicht als Aussage zur gerichtlichen Zurückhaltung. **Zwei Teile der
+  Sekundärquelle waren nicht haltbar und sind im Wiki-Artikel korrigiert:** § 101 PBG kommt im
+  Entscheid nicht vor; die behauptete Zurückhaltungspflicht des Baurekursgerichts (mit den
+  Fundstellen § 20 Abs. 1/§ 50 VRG) ist durch den Entscheid widerlegt — E. 5 zeigt das
+  Verwaltungsgericht, wie es der Baurekurskommission I eine «schematische Betrachtungsweise»
+  vorwirft und deren Interessenabwägung durch die eigene ersetzt.
+
+**Zwei Fallzitate bleiben unverifiziert** (RRB Nr. 1294/1995 = BEZ 1996 Nr. 5; VB 94/0016 =
+RB 1994 Nr. 72): beide vor dem Jahr 2000, ausserhalb der online frei zugänglichen
+Entscheiddatenbanken (VGr-Datenbank deckt erst ab 1.1.2000; die Baurekursgericht-
+Entscheidnummer-Suche liefert für diese Jahrgänge/Kommissionen keinen Treffer). Zugriffsversuch
+dokumentiert (Rule `wege-und-vollmachten`), kein Ingest ohne Beleg — bleiben als offene,
+unverifizierte Sekundärquellen-Zitate im Wiki-Artikel gekennzeichnet.
+
+**VB.2012.00531 geklärt:** betrifft dieselbe Rechtsfrage wie BEZ 1996 Nr. 30 (10°-Schwelle
+Flachdach/Schrägdach), aber im allgemeinen Gebäudehöhen-/Firsthöhen-Kontext (§ 281 PBG, Fall
+Altersheim Zürich-Wipkingen, VGr 10.4.2013) — nicht im Kontext der besonderen Gebäude
+(§ 273/§ 49 Abs. 3 PBG). Löst die bereits in Buch-Run 80 anderweitig geklärte
+Übertragungsfrage nicht neu auf, bestätigt aber unabhängig deren Prämisse (gefestigte,
+über Jahrzehnte unveränderte VGr-Schwelle). Ergänzt in [[gebaeudearten-und-abstandssystem]].
+
+Report `outputs/2026-08-24_buch-run121.md`.
+
 ## ✅ GEKLÄRT 2026-08-24 (Buch-Run 120) — Cross-KB-Übergabe von `wissen/energie` (24.08.2026) — 12 nie gesichtete Baurecht-/STWEG-docx in PL-02
 
 **Herkunft:** `wissen/energie` hat PL-02 Recht_Norm am 23.08.2026 (Run 161, Fortsetzung
@@ -118,6 +161,10 @@ offen:** ob VB.2012.00531 (Steildach-10°-Schwelle, aus den nicht übernommenen 
 Rechtsfrage betrifft wie die bereits als offen geführte BEZ-1996-Nr.-30-Frage zur Übertragbarkeit
 der 10°-Schwelle auf besondere Gebäude (T8, Run 79) — beide Fallzahlen bisher nicht am Original
 geprüft, keine der beiden bestätigt die andere.
+
+**→ Bearbeitet Buch-Run 121, 2026-08-24** (siehe eigener Block oben): BRKE II Nr. 0130/2007
+und VB.2003.00196 am Original verifiziert; RRB Nr. 1294/1995 und VB 94/0016 bleiben aus
+Datenbank-Gründen offen; VB.2012.00531 geklärt (dieselbe Rechtsfrage, anderer Normkontext).
 
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 98) — ZH-Mehrwertausgleich (MAG): Buchstand 2019 war Entwurf, erlassener Text weicht in den Prozentsätzen ab
 

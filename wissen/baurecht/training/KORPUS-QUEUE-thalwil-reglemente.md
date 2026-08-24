@@ -664,6 +664,21 @@ Report `outputs/2026-08-24_buch-run120.md`. **Nächster Schritt:** Fallzitate de
 Fallpraxis-Vertiefung am Original verifizieren (`entscheidsuche.ch`), oder regulärer
 `wissenscheck`-Turnus / neue Re-Verifikationsrunde.
 
+**Run 121 (2026-08-24, ausserhalb T1-T9):** die zwei tragendsten Fallzitate aus Run 120 am Original
+verifiziert. BRKE II Nr. 0130/2007 (BEZ 2008 Nr. 12) **CONFIRMED** über die Entscheidnummer-Suche
+von `baurekursgericht-zh.ch`. VB.2003.00196 (RB 2003 Nr. 14 = BEZ 2004 Nr. 8) **teilweise
+CONFIRMED, mit Korrektur** — der Ermessensspielraum bei § 357 Abs. 1 PBG ist bestätigt, aber die
+Sekundärquelle hatte ihn fälschlich auf § 101 PBG ausgeweitet und eine Zurückhaltungspflicht des
+Baurekursgerichts behauptet, die der Entscheid tatsächlich widerlegt (das Verwaltungsgericht
+ersetzt dort die Interessenabwägung der Baurekurskommission durch die eigene). RRB Nr. 1294/1995
+und VB 94/0016 bleiben unverifiziert (vor 2000, keine Online-Datenbank verfügbar). Zusätzlich
+geklärt: VB.2012.00531 betrifft dieselbe 10°-Schwellen-Rechtsfrage wie BEZ 1996 Nr. 30, aber im
+allgemeinen Firsthöhen- statt im Kontext der besonderen Gebäude — Zusatzbeleg in
+[[gebaeudearten-und-abstandssystem]]. Report `outputs/2026-08-24_buch-run121.md`. **Nächster
+Schritt:** kein Fachpunkt mehr offen ausser den zwei aus Datenbank-Gründen unverifizierten
+Fallzitaten (nur über einen künftigen Archiv-Zugriffsweg schliessbar); sonst regulärer
+`wissenscheck`-Turnus oder eine neue Re-Verifikationsrunde.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

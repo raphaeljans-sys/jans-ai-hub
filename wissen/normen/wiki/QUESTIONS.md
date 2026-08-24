@@ -2283,6 +2283,21 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   Fall ist tabelliert» oder «der Wert gilt für beide Fälle» gemeint ist, sagt der Fliesstext
   nicht. Auslegungsfrage an die Kantonale Feuerpolizei ZH.
 - **G41-2** Ob eine neuere Ausgabe des Merkblatts 30.17.3 als die vom 28.02.2011 existiert.
+
+  > **Teilgeprüft, weiterhin offen (24.08.2026, QUESTIONS-Abarbeitung).** Web-Check auf
+  > `gvz.ch` (öffentliche Übersichtsseiten «Brandschutz — Vorschriften & Weisungen — Online»
+  > und «Feuerwehr — Weisungen/Merkblätter/Downloads», abgerufen 24.08.2026): **keine der
+  > beiden Seiten listet eine Nummer 30.17.3.** Auffällig: die Feuerwehr-Weisungsliste führt
+  > unter der Nummer **30.17 aktuell «Strassenrettungs-Konzept»** — ein anderes Thema als
+  > RWA/Einstellraum Parkhaus. Das ist **kein Beleg für eine neuere Ausgabe oder eine
+  > Rückziehung** des Merkblatts, sondern zeigt nur, dass die 30.17.3-Nummer möglicherweise
+  > einer anderen Dokumentklasse (Brandschutz-Merkblatt statt Feuerwehr-Weisung) angehört und
+  > auf den geprüften Übersichtsseiten nicht auffindbar war; die GVZ-Website nutzt für
+  > Merkblätter zusätzlich eine dynamische Suchfunktion, die per automatisiertem Abruf keine
+  > Trefferliste lieferte. **Nicht geschlossen** — offen bleibt, ob 30.17.3 unter einer
+  > anderen Rubrik geführt wird oder tatsächlich aus dem Bestand entfernt wurde; dafür wäre
+  > entweder eine direkte Suche auf `gvz.ch` im Browser oder eine Anfrage bei GVZ nötig
+  > (Bring-Schuld/Rückfrage, nicht mit den geprüften Wegen abschliessend beantwortbar).
 - **G41-3** DIN 18232-2:2003-06 (Quelle der Durchflussbeiwerte) gegen die im Haus liegende
   Fassung 2007 — weiterhin ungeprüft.
 

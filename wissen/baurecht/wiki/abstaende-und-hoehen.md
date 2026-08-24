@@ -2,7 +2,14 @@
 title: Abstände und Höhen — Kanton Zürich
 status: established
 last_updated: 2026-08-24
-verifiziert: 2026-08-24 (Buch-Run 118, QUESTIONS.md-Fund Wissens-Chef Run 19b: die Sektion
+verifiziert: 2026-08-24 (Buch-Run 122: Abschnitt «Harmonisierungsvorlage» korrigiert — PBG
+Nachtrag 134 [amtlich frisch bezogen, `raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md`]
+ersetzt die IVHB-Übergangsbestimmung «acht Jahre ab Inkrafttreten» durch den festen Stichtag
+«29. Februar 2028», in Kraft seit 1.8.2026. Korrigiert Buch-Run 84 [23.08.2026], dessen
+«unbeschlossen»-Befund auf zwei zum Prüfzeitpunkt bereits veralteten Quellen beruhte
+[zh.ch-Infoseite, PBG-Rohtext Nachtrag 133]. §§ 275-278 PBG [Geschosse/Kniestock/Fassadenhöhe]
+zusätzlich wortlautgeprüft gegen Nachtrag 134 — identisch mit Nachtrag 133, 0 Korrekturen.
+Report `outputs/2026-08-24_buch-run122.md`.) — vorher: 2026-08-24 (Buch-Run 118, QUESTIONS.md-Fund Wissens-Chef Run 19b: die Sektion
 «Abstandsprivilegierte Bauteile» zitierte die 1/3-/1,3-m-Vorsprungsregel ohne den Haupt-/
 Anhang-Vorbehalt, der im Schwester-Artikel [[baulinien-und-abstandslinien]] bereits seit
 Buch-Run 62 dokumentiert ist. Ergänzt: «alt/Anhang»-Kennzeichnung der 1/3-Regel + die geltende
@@ -25,7 +32,7 @@ ergänzt (Art. 738 ZGB, Buch Bd 2 Kap. 22.9.3, S. 1534 — echte Lücke, bislang
 («Anrechenbares Untergeschoss»-Screenshot) und § 260 Abs. 3 (alt/Anhang, «Vordach»-Screenshots)
 gegen Bestand CONFIRMED, keine Textänderung nötig — beide bereits seit Buch-Run 31/32 verifiziert.
 Bericht `outputs/2026-08-23_buch-run77.md`.) — vorher: 2026-07-27 (Buch-Run 59, Festigungsmodus Priorität a: Cross-KB-Flag Wissens-Chef Run 16/energie-KB geschlossen — § 260 Abs. 4 PBG [Minibau, 1,5 m/2 m², vollständig abstandsfrei, bereits geltender Hauptteil] war in diesem Artikel bislang gar nicht enthalten, nur in [[gebaeudearten-und-abstandssystem]] und der Harmonisierungs-Sektion weiter unten; jetzt explizit im Hauptabschnitt «Grenzabstand» ergänzt und klar von der «Besonderes Gebäude»/§ 273-Erleichterung [4 m/5 m, nur reduzierter Gebäudeabstand] abgegrenzt. Gegen raw/260607_amtlich_zh_pbg.md Z. 2747-2748 [§ 260 Abs. 4, harmonisiert] und Z. 1272-1274 [§ 2 Abs. 2 ABV, Anhang] wortlautverifiziert. 0 Halluzinationen, 1 echte Lücke geschlossen, kein Fehler in bestehendem Text); 2026-07-17 (Buch-Run 47, Modell-D Nachlauf Gewässerraum: Fliesstext Art. 41a/41b GSchV erneut CONFIRMED — kein Änderungsbedarf hier; die Divergenz lag in der Kennzahlen-Tabelle des Destillats [[15-lage-von-gebaeuden]], dort korrigiert); 2026-07-13 (Modell-D-Volltextabgleich adversarial § 282/§ 284/§ 292/§ 293 PBG + § 28/§ 30 ABV gegen raw/260607_amtlich_zh_pbg.md + raw/260607_amtlich_zh_abv.md, beide Fassungen Haupt-/Anhangteil geprüft: Hochhaus-Schwelle 25 m, Dachaufbauten 1/2 harmonisiert vs. 1/3 alt, Freilegung UG 1,5 m, Schattenwurf 3 Std. alle CONFIRMED; § 28 ABV „≤ 0,5 m"-Regel als Gerichtspraxis statt Gesetzeswortlaut präzisiert) — vorher: 2026-07-13 (Querverweis-Aktualisierung nach Modell-D-Verifikation von [[geschosse-und-kniestock]], Buch-Run 33) — vorher: 2026-07-12 (Modell-D §§ 278-293 PBG, Buch-Run 32; zusätzlich Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewässerraum-Schwellen als zwei Absätze bestätigt, kein Widerspruch) — vorher: 2026-07-12 (Modell-D-Volltextabgleich §§ 269-274/292 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Fassungsstand harmonisiert=geltend korrigiert, § 273/§ 292 Doppelwerte)
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 275 Abs. 1/3/4 PBG", "§ 275 Abs. 3 PBG alt", "§ 276 PBG", "§ 278 Abs. 1/2 PBG", "§ 278 Abs. 1/3 PBG alt", "§ 279 Abs. 1/2 PBG", "§ 279 Abs. 1 PBG alt", "§ 280 Abs. 1/2/4 PBG", "§ 280 Abs. 1 PBG alt", "§ 281 PBG", "§ 281 PBG alt", "§ 282 PBG", "§ 282 PBG alt", "§ 283 PBG (aufgehoben)", "§ 284 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 29 ABV", "§ 30 Abs. 1 lit. a/b ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 41a GSchV", "Art. 41b GSchV", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 292 PBG", "§ 292 PBG alt", "§ 293 Abs. 1/2/4 PBG", "§ 28 Abs. 1/2/3 ABV", "§ 28 Abs. 1/2 ABV alt", "§ 30 Abs. 1 lit. a/b ABV", "§ 2c ABV", "VB.2005.00519", "§ 6 nABV", "§ 6a nABV", "§ 6b nABV", "§ 6c nABV", "§ 6d nABV", "§ 7 nABV", "§ 2a nABV", "§ 260 nPBG", "§ 269 nPBG", "§ 273 nPBG", "§ 100 nPBG", "§ 260 Abs. 4 PBG", "§ 2 Abs. 2 ABV", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1124-1133", "Buch Bd 2 S. 1194-1229", "raw/260712_amtlich_ch_gschv.md", "Merkblatt über die Messweise im Zusammenhang mit Neu- oder Umbauten, Gemeinde Thalwil DLZ Bau Energie und Umwelt, Stand 20.01.2022", "Art. 738 ZGB", "Buch Bd 2 S. 1534 (Kap. 22.9.3)", "§ 276 Abs. 1/2 PBG", "Art. 6 Abs. 5 BZO Thalwil", "raw/260607_amtlich_zh_bzo-thalwil.md"]
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 275 Abs. 1/3/4 PBG", "§ 275 Abs. 3 PBG alt", "§ 276 PBG", "§ 278 Abs. 1/2 PBG", "§ 278 Abs. 1/3 PBG alt", "§ 279 Abs. 1/2 PBG", "§ 279 Abs. 1 PBG alt", "§ 280 Abs. 1/2/4 PBG", "§ 280 Abs. 1 PBG alt", "§ 281 PBG", "§ 281 PBG alt", "§ 282 PBG", "§ 282 PBG alt", "§ 283 PBG (aufgehoben)", "§ 284 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 29 ABV", "§ 30 Abs. 1 lit. a/b ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 41a GSchV", "Art. 41b GSchV", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 292 PBG", "§ 292 PBG alt", "§ 293 Abs. 1/2/4 PBG", "§ 28 Abs. 1/2/3 ABV", "§ 28 Abs. 1/2 ABV alt", "§ 30 Abs. 1 lit. a/b ABV", "§ 2c ABV", "VB.2005.00519", "§ 6 nABV", "§ 6a nABV", "§ 6b nABV", "§ 6c nABV", "§ 6d nABV", "§ 7 nABV", "§ 2a nABV", "§ 260 nPBG", "§ 269 nPBG", "§ 273 nPBG", "§ 100 nPBG", "§ 260 Abs. 4 PBG", "§ 2 Abs. 2 ABV", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1124-1133", "Buch Bd 2 S. 1194-1229", "raw/260712_amtlich_ch_gschv.md", "Merkblatt über die Messweise im Zusammenhang mit Neu- oder Umbauten, Gemeinde Thalwil DLZ Bau Energie und Umwelt, Stand 20.01.2022", "Art. 738 ZGB", "Buch Bd 2 S. 1534 (Kap. 22.9.3)", "§ 276 Abs. 1/2 PBG", "Art. 6 Abs. 5 BZO Thalwil", "raw/260607_amtlich_zh_bzo-thalwil.md", "raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md"]
 links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[15-lage-von-gebaeuden-teil3-harmonisierung]], [[16-gebaeudedimensionen-teil2-hoehen-dach]], [[16-gebaeudedimensionen-teil3-umgebung]], [[kap16-10_gebaeudedimensionen-harmonisierung]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
 ---
 
@@ -461,38 +468,32 @@ Höhen/Attika/Terrain-Umstellung [[kap16-10_gebaeudedimensionen-harmonisierung]]
 > 16,5 m / Summe der Grenzabstände §§ 270-271, Waldabstand 30 m § 262) sind in beiden Fassungen
 > gleich und am Volltext bestätigt.
 >
-> **Rechtsfolge des Fristablaufs 01.03.2025 (geklärt 2026-08-23, Auslegung belegt, amtliche
-> Letztbestätigung offen):** Die Übergangsbestimmung setzte den Gemeinden eine Achtjahresfrist ab
-> Inkrafttreten (01.03.2017) zur Anpassung, die am 01.03.2025 verstrich. Abs. 2 derselben
-> Bestimmung knüpft die Weitergeltung des Anhang-Regimes ausdrücklich an «bis zur Anpassung»,
-> **nicht** an einen Stichtag («längstens aber bis …» fehlt) — Wortlaut bestätigt
-> `raw/260607_amtlich_zh_pbg.md` Z. 3907-3914. Systematischer Gegenbeweis aus dem PBG selbst: wo
-> der Gesetzgeber eine Frist mit Sanktion versehen will, tut er das ausdrücklich (§ 342 Abs. 2:
-> Sicherung durch Planungszonen bei Fristversäumnis; § 344: vorläufige Regelung durch die
-> Direktion) — für die Achtjahresfrist fehlt jede solche Konsequenzklausel. Die offizielle
-> Kantonsseite (zh.ch, Harmonisierung der Baubegriffe) bestätigt dieselbe Lesart («soweit die
-> geänderten Bestimmungen noch nicht wirksam sind, gelten … die Anhänge») und der Regierungsrat
-> beantragte beim Kantonsrat eine ordentliche Fristverlängerung um drei Jahre (Stand Abruf
-> 23.08.2026: «noch in Beratung») statt einer Notmassnahme gegen ein Rechtsvakuum. **Fazit:
-> Ordnungsfrist ohne eigenständige Rechtsfolge** — für die konkrete Gemeinde bleibt massgebend,
-> ob sie tatsächlich harmonisiert hat, nicht ob der 01.03.2025 verstrichen ist. Weder Verwaltungs-
-> noch Baurekursgericht ZH haben dazu (soweit auffindbar) entschieden — die Einschätzung ist
-> rechtsmethodisch belegt, aber nicht amtlich/gerichtlich letztbestätigt.
+> **Frist tatsächlich verlängert — PBG Nachtrag 134, amtlich bestätigt (korrigiert 2026-08-24,
+> Buch-Run 122).** Die Übergangsbestimmung zur Änderung vom 14. September 2015 lautete bis
+> Nachtrag 133 «acht Jahre ab Inkrafttreten» (verstrichen 01.03.2025, dazu die
+> Ordnungsfrist-Analyse unten). **Nachtrag 134** (amtlicher Volltext frisch bezogen, Fusszeile
+> «1.10.26 - 134», Fussnote 77 «Fassung gemäss G vom 26. Januar 2026 [OS 81, 350; ABl
+> 2023-03-07]. In Kraft seit 1. August 2026») ersetzt das durch einen festen Stichtag: **«Die
+> Gemeinden passen ihre Bau- und Zonenordnungen bis spätestens am 29. Februar 2028 an die
+> Änderung vom 14. September 2015 an.»** Beleg: `raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md`.
+> Abs. 2/3 derselben Bestimmung (Weitergeltungs-Katalog der Anhang-Paragraphen,
+> Sonderbauvorschriften/Gestaltungspläne bleiben gültig) sind wortgleich unverändert — die
+> **Ordnungsfrist-ohne-Sanktion-Analyse oben bleibt damit in der Sache gültig**, nur der
+> Stichtag selbst ist jetzt kalendarisch fixiert statt laufzeitbezogen.
 >
-> **Widerspruch geklärt (2026-08-23, Buch-Run 84): Quellenverwechslung, keine echte
-> Fristverlängerung der IVHB-Harmonisierung.** Die zunächst unbelegte Behauptung «26.01.2026
-> beschlossene Fristverlängerung auf 29.02.2028» betrifft ein **anderes** Geschäft. Primärquellen
-> live geprüft: (1) zh.ch, Seite «Harmonisierung der Baubegriffe» (Abruf 23.08.2026), wörtlich:
-> «Der Regierungsrat hat beim Kantonsrat beantragt, diese Frist um drei Jahre zu verlängern. Das
-> Geschäft ist aktuell noch in Beratung im Kantonsrat.» — die IVHB-Fristverlängerung ist also
-> weiterhin **nicht beschlossen**. (2) Das reale Datum 26.01.2026 mit der Zahl **1.3.2028** (nicht
-> 29.02.2028) gehört zur Umsetzungsfrist des **Mehrwertausgleichsgesetzes (MAG)** — einem
-> eigenständigen Gesetz zum Planungsmehrwert, sachlich unabhängig von der Baubegriffe-
-> Harmonisierung, aber mit demselben Ausgangsdatum 1.3.2025 und derselben Gemeinde-Zielgruppe
-> (Beleg: HEV Kanton Zürich, Meldung 26.01.2026). Für Thalwil und jede andere ZH-Gemeinde gilt
-> daher unverändert: die IVHB-Achtjahresfrist ist Ordnungsfrist ohne Sanktion (siehe oben), eine
-> Verlängerung ist beim Kantonsrat hängig, aber noch nicht beschlossen — bei einem konkreten Fall
-> weiterhin die zh.ch-Harmonisierungsseite auf den aktuellen Stand prüfen.
+> **Korrektur an Buch-Run 84 (23.08.2026):** dessen Einordnung «Quellenverwechslung mit dem MAG,
+> IVHB-Frist weiterhin acht Jahre/unbeschlossen» war zum Prüfzeitpunkt formal korrekt referenziert
+> (zh.ch-Informationsseite «noch in Beratung», PBG-Rohtext Stand 1.7.2026/Nachtrag 133), stützte
+> sich aber auf **zwei zu diesem Zeitpunkt bereits veraltete Quellen**: das Gesetz war laut
+> eigener Fussnote schon seit 01.08.2026 in Kraft, drei Wochen vor Run 84s Prüfdatum — nur die
+> beschreibende zh.ch-Seite und der KB-Rohtext hinkten dem amtlichen Nachtrag hinterher. Ob dieses
+> «G vom 26. Januar 2026» dieselbe Vorlage ist, die auch die MAG-Umsetzungsfrist auf 1.3.2028
+> verschob (Run 84, Beleg HEV-Meldung), bleibt offen — beide Änderungen teilen Datum und OS-Referenz
+> «OS 81, 350», was für ein gemeinsames Sammelgesetz statt zweier unabhängiger Vorlagen spricht,
+> ist aber nicht am Wortlaut des MAG selbst geprüft (`speculative`, neuer Punkt in QUESTIONS.md).
+> **Für die Praxis:** ab sofort gilt die IVHB-Anpassungsfrist einer Gemeinde als spätestens am
+> 29.02.2028 ablaufend, nicht mehr am 01.03.2025 verstrichen — für Thalwil wie jede andere
+> ZH-Gemeinde, unabhängig vom Harmonisierungsstand der jeweiligen BZO.
 
 - **Alles wird von der *projizierten Fassadenlinie* gemessen.** Drei neue Begriffe:
   **Fassadenflucht** = Mantelfläche aus den Lotgeraden durch die äussersten Baukörperpunkte

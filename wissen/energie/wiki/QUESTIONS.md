@@ -5253,3 +5253,70 @@ vergleich-50-jahre.md` +6/-0, `haushaltgeraete-professionelle-beschaffung-stadt-
 `haushaltgeraete-professionelle-beschaffung-2004-erstausgabe.md` +8/-0, `destillate/INDEX.md`
 +6/-6 (sechs Zeilenersetzungen, keine Löschung von Bestand) — durchgehend
 additiv/präzisierend/korrigierend, keine Löschung von Substanz.
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — A-BLIND-Fall 3: ChemRRV Anhang 2.10 Volltext gelesen, Zitierfehler behoben, Destillat auf established gehoben
+
+Auftrag: weitere offene Fragen abarbeiten, Anschluss an den letzten Lauf
+(`outputs/2026-08-24_a-blind-schwelle-18-29-backlinks-krnr-6062-6063.md`). Dessen Schluss («A-BLIND-
+Vorrat für dieses Quartal ausgeschöpft») beruhte auf einer Stichprobe von nur 8 der 38 gemeldeten
+18-29-Backlink-Kandidaten (die acht meistzitierten, 27-29 Backlinks) — die übrigen 30 waren nicht
+einzeln geprüft. Backlink-Zählung mit eigenem Python-Skript reproduziert (37 Treffer, kleine
+Abweichung zum Vorlauf durch Zählmethode, keine Sachdifferenz) und den Rest gezielt nach
+Frontmatter-`status` gefiltert: von 14 stichprobenartig geprüften Destillaten (26 bis 18 Backlinks)
+waren die meisten bereits `established` ohne offenen Primärquellen-Punkt oder ihre Lücke war eine
+bereits bekannte Normkauf-Blockade — **eine echte, öffentlich zugängliche A-BLIND-Lücke gefunden:**
+`[[kaeltemittel-r290-waermepumpen-ch]]` (Backlinks nicht in der Top-8, aber `status: emerging`
+mit dem expliziten offenen Punkt «Bestandsschutz-Wortlaut nicht direkt aus dem
+ChemRRV-Verordnungstext … geprüft (nur über Sekundärquellen bestätigt)» sowie einer nie
+aufgelösten «Spaltenzuordnung der BAFU-Tabelle»).
+
+**ChemRRV Anhang 2.10 (SR 814.81) im Volltext gelesen** über die in `docs/referenz/
+fedlex-volltexte.md` dokumentierte Ausweichroute (`fedlex.data.admin.ch`, `de/pdf-a`): die
+`www`-Route lieferte für das benötigte Konsolidierungsdatum keinen Treffer, mehrere Kandidatendaten
+gegen `fedlex.data.admin.ch` durchprobiert und per `curl -w "%{content_type} %{size_download}"`
+verifiziert — Stand **1.1.2027** (enthält bereits die per Bundesratsbeschluss 29.10.2025
+beschlossene Revision) lieferte ein echtes PDF (2,13 MB, 216 Seiten). Anhang 2.10 (Ziff. 1-7,
+PDF-S. 161-172) vollständig mit PyPDF2 gelesen.
+
+**Drei Ergebnisse:**
+1. **Bestandsschutz bestätigt und jetzt primärquellen-verifiziert:** die Verbote in Ziff. 2.1
+   richten sich nur gegen Herstellung/Inverkehrbringen/Einfuhr/Ausfuhr sowie das Nachfüllen
+   bestimmter Kältemittel (Ziff. 3.2/3.3) — nicht gegen den Betrieb bestehender Anlagen.
+   Nachfüllen mit R410A (GWP 2088) bleibt für Wärmepumpen zulässig: das generelle Verbot ab
+   GWP ≥ 2500 (Ziff. 3.3.1 Abs. 1) betrifft R410A nicht, und das Verbot ab GWP ≥ 750 (Ziff. 3.3.1
+   Abs. 2) gilt nur für eine abschliessende Liste von Gewerbe-/Industrie-Kälteanlagen und
+   Kunsteisanlagen, in der Wärmepumpen nicht vorkommen.
+2. **Übergangsfrist Ziff. 7 Abs. 7 wortlautgeprüft, die bisherige Kurzformel «6 Monate Einfuhr /
+   12 Monate Abgabe an Dritte» bestätigt** (im Wortlaut: 6 Monate Herstellung/Einfuhr, danach
+   nochmals 6 Monate — also bis Monat 12 — Abgabe an Dritte).
+3. **Echter Zitierfehler gefunden und behoben:** die im Destillat genannten
+   Füllmengenbegrenzungen (0,18-0,48 kg/kW) standen unter der falschen Fundstelle «Ziff. 2.6»
+   (das ist tatsächlich «Pflichten für die Ausfuhr von Anlagen», ein anderes Thema) und mit
+   falscher Reichweite («für Wärmepumpen mit GWP < 150»). Richtig: **Ziff. 2.1 Abs. 5** — eine
+   reine Grössen-/Füllmengenregel für **Anlagen mit luftgekühltem Verflüssiger und Kälteleistung
+   > 50 kW**, unabhängig vom GWP-Schwellenwert 150. Für haustypische EFH/MFH-Wärmepumpen
+   (deutlich unter 50 kW) greift sie damit in aller Regel nicht. **Nebenbefund beim
+   Gegenlesen:** die vereinfachte Darstellung «Wärmepumpen gestaffelt nach GWP-Bandbreite (< 150 /
+   150-750 / 750-2100 / > 2100)» gab die tatsächliche Struktur von Ziff. 2.1 Abs. 3 Bst. d
+   (vier eigenständige, nach Heizleistung UND Bauart UND GWP gestaffelte Verbote plus
+   grössen-/bauartabhängige Übergangsausnahmen nach Ziff. 7 Abs. 3/4) unvollständig wieder —
+   präzisiert, ohne die praktische Kernaussage (kleine/mittlere Hoch-GWP-Wärmepumpen werden
+   zunehmend eingeschränkt) zu ändern.
+
+Destillat auf `established` gehoben (Frontmatter + drei Abschnitte + Offene-Punkte-Liste
+ergänzt), eingearbeitet in `destillate/INDEX.md` und `wiki/BAUHERREN-FAQ.md` F72 (Status +
+Bestandsschutz-Satz + Quellenzeile). `wiki/heizleistung-und-waermeerzeuger.md` und
+`wiki/gebaeudetechnik-pflichtenheft.md` zitieren das Destillat nur als Verweis ohne die
+betroffenen Detailaussagen — keine Änderung nötig dort.
+
+**Für den nächsten Lauf:** von den 37 Kandidaten im 18-29-Backlink-Bereich sind jetzt 9 einzeln
+gegen Frontmatter/Primärquellen-Lücke geprüft (8 aus dem Vorlauf + `kaeltemittel-r290-
+waermepumpen-ch` aus diesem); die verbleibenden rund 28 (26 bis 18 Backlinks) sind nur per
+`status`-Feld grob gefiltert, nicht einzeln gegen die Primärquelle verifiziert — echter Rest für
+einen künftigen A-BLIND-Lauf, kein «Vorrat ausgeschöpft».
+
+`git diff --numstat` geprüft: `destillate/kaeltemittel-r290-waermepumpen-ch.md` +77/-26 (Frontmatter
+präzisiert, drei Sachabschnitte korrigiert/ergänzt, zwei Offene-Punkte durchgestrichen statt
+gelöscht, Quelle ergänzt), `destillate/INDEX.md` +1/-1 (eine Zeile ersetzt), `wiki/BAUHERREN-FAQ.md`
+additiv (zwei Satzergänzungen an F72) — durchgehend additiv/präzisierend/korrigierend, keine
+Löschung von Bestand.

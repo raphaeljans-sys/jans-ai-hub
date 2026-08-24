@@ -27,19 +27,28 @@ DIN-Fassung bestätigt. Fund in beiden Dateien nachgetragen: `wiki/QUESTIONS.md`
 Run-41-Kopfzeile aktualisiert) und `destillate/gvz-rwa-parkhaus-einstellraum.md` (Abschnitt
 «Offene Punkte»).
 
+**G41-2 zusätzlich teilgeprüft (Web-Check gvz.ch), NICHT geschlossen.** Die öffentlichen
+Übersichtsseiten «Brandschutz — Vorschriften & Weisungen — Online» und «Feuerwehr —
+Weisungen/Merkblätter/Downloads» (abgerufen 24.08.2026) listen keine Nummer 30.17.3.
+Auffällig, aber **kein Beleg**: die Feuerwehr-Weisungsliste führt die Nummer 30.17 aktuell für
+ein anderes Thema («Strassenrettungs-Konzept»). Die GVZ-Website nutzt für Merkblätter
+zusätzlich eine dynamische Suche, die per automatisiertem Abruf keine Trefferliste lieferte —
+ob 30.17.3 unter anderer Rubrik geführt wird oder tatsächlich entfallen ist, bleibt offen
+(dafür wäre Browser-Suche oder Rückfrage bei GVZ nötig). Befund dokumentiert statt spekuliert
+(Rule `wissens-bibliothekar`: nichts raten).
+
 **Verbleibend im selben Bestand, weiterhin echte Bring-Schulden/Auslegungsfragen (nicht
 bearbeitet, damit hier keine Spekulation entsteht):** G41-1 (Auslegungsfrage an die Kantonale
-Feuerpolizei ZH, nicht aus der Quelle beantwortbar), G41-2 (ob eine neuere GVZ-Merkblattausgabe
-existiert — Web-Check nicht Teil dieses Laufs), Lignatec L41-1/-2/-4 (Tabellenrunde am
+Feuerpolizei ZH, nicht aus der Quelle beantwortbar), Lignatec L41-1/-2/-4 (Tabellenrunde am
 Original nötig, Seiteninventur liegt vor, aber nicht in diesem Lauf gefahren), Hindernisfreies
 Bauen H41-1/-2/-3/-4 (Rechtsfrage bzw. fehlende Merkblätter), restliche PAVIDENSA-Punkte
 (P41-3/-4/-5, Quelleneigenheiten ohne Beleg für einen Fehler).
 
 **Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft —
 `gvz-rwa-parkhaus-einstellraum.md` 13 Zeilen hinzugefügt/4 ersetzt (eigener «Offene
-Punkte»-Absatz, angekert ersetzt, keine fremde Löschung), `wiki/QUESTIONS.md` 12
-hinzugefügt/1 ersetzt (Kopfzeile aktualisiert + G41-3-Antwortblock angefügt). Kein globales
-Ersetzen verwendet (Rule `auto-verbesserungen` 260811).
+Punkte»-Absatz, angekert ersetzt, keine fremde Löschung), `wiki/QUESTIONS.md` 27
+Zeilen reine Anfügung (Kopfzeile aktualisiert + G41-3-Antwortblock + G41-2-Teilbefund
+angefügt). Kein globales Ersetzen verwendet (Rule `auto-verbesserungen` 260811).
 
 ## 2026-08-24 — SIA-Sweep, fünfte unabhängige Sättigungsverifikation (~05:36-05:40 Uhr): Gap ausschliesslich SIA, DIN/VSS/RAL bestätigt sauber
 - Auftrag: SIA-Sweep fortsetzen (Register-Zeilen ohne Volltext, Produktdatenblätter mit
