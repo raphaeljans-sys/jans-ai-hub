@@ -1,3 +1,52 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: SIA 266/2-C2:2025 primärquellenfest gelesen (ersetzt C1, Anhang B wandert zu SIA 269/6-1:2025)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (Eintrag
+unmittelbar darunter, SIA 266/2 Gültigkeit + C1) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** drei Hintergrundprozesse. PID 35613
+(identischer Auftragstext, Startzeit 8:39) ist der eigene hostende Prozess dieser Session —
+kein Konkurrent. PID 34901 arbeitet an `wissen/energie`, keine Berührung. PID 35827 ist ein
+**echter** paralleler Lauf an derselben KB `wissen/normen` (SIA-Sweep, Register/Destillate) —
+deshalb bewusst weiterhin **rein additiv nur in `wiki/QUESTIONS.md`** gearbeitet,
+`wiki/REGISTER.md`, `destillate/` und `training/norm-inventar.md` nicht angefasst
+(Kollisionsgefahr, Rule `sync-kanonische-quelle`; der Sweep-Prozess hat zwischen Sessionstart
+und jetzt bereits selbst einen neuen Kopf-Eintrag geschrieben — beim Prepend berücksichtigt).
+
+**Fortsetzung des unmittelbar darunterstehenden Laufs (N53-1, SIA 266/2:2012):** dessen offen
+gelassener Rest war Datum/Inhalt der zweiten Korrigenda **C2** — die Shop-Produktseite hatte
+nur „Revision 2, Revisionsdatum 01.11.2025" ohne Zuordnung geliefert. Direkten Downloadlink
+über gezielte WebSearch gefunden (`shop.sia.ch/93e9218b-4e4c-49e4-8083-494b547d73d0/D/DownloadAnhang`),
+PDF per WebFetch geladen (landet als Binärdatei im Tool-Cache) und mit `pdftotext -layout`
+volltextgelesen (franz. Fassung SN 505266/2-C2:2025 fr, einzige zugestellte Sprache, 3 S.).
+
+**Ergebnis, primärquellenfest:** SIA 266/2-C2:2025, SIA-Kommission «Normes de structures
+porteuses», beschlossen 17.10.2025, gültig ab 01.11.2025, Wortlaut «Il remplace le correctif
+SIA 266/2-C1:2024» — **C2 ersetzt C1 vollständig**, kein additives Korrigenda-Paar. Zwei
+Korrekturstellen wortgenau gelesen: (1) Ziff. 3.1.8.1 (E-Modul-Formel Natursteinmauerwerk)
+nochmals neu gefasst, differenziert nach Ausführungstyp A/B vs. C/D/E; (2) Anhang B
+(Steinbearbeitung, S. 47-50) ersatzlos gestrichen — Wortlaut: «Cette annexe se trouve à
+présent dans la norme SIA 269/6-1:2025, annexe B Façonnage des pierres.» Neuer Cross-
+Referenz-Punkt für einen künftigen SIA-269/6-1-Lauf (Norm im REGISTER bislang nur über einen
+269/5-C1-Vorwort-Nebenbefund vom 23.08.2026 bekannt, eigener Anhang-B-Inhalt noch nicht
+gesichtet). Praktische Folge für die Beschaffung: künftig genügt Grundtext + C2:2025, C1:2024
+muss nicht mehr separat geladen werden.
+
+**In `wiki/QUESTIONS.md` bei N53-1 nachgetragen (additiv):** neuer Absatz unter der 24.08.-
+Notiz von der Vorlauf-Session, Ursprungswortlaut unangetastet. N53-1 bleibt im Kern weiter
+offen (Grundtext SIA 266/2:2012 selbst nicht im Haus, Bring-Schuld Raphael/Kauf) — jetzt aber
+mit vollständig primärquellenfest geklärter Korrigenda-Lage.
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` 24/0 (reiner additiver
+Nachtrag). Keine weiteren Dateien geändert.
+
+**Einordnung:** direkte Fortsetzung des Vorlaufs, echter primärquellenfester Fund (nicht nur
+Sackgassen-Dokumentation) — schliesst die im Vorlauf ehrlich offen gelassene Wissenslücke
+vollständig und liefert einen neuen, bisher unbekannten Cross-Referenz-Hinweis auf SIA
+269/6-1:2025.
+
+---
+
 ## 2026-08-24 — SIA-Sweep, Fortsetzung ~08:39 Uhr — zehnte unabhängige Sättigungsverifikation
 
 **Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,

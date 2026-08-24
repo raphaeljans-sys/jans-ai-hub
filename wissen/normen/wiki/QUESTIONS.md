@@ -1364,6 +1364,34 @@ Beschaffungsposten, gleiche Klasse wie N52-5 und die sechs ABB aus Run 51.
 > und C2 laden**, sonst wäre das Destillat bei Ziff. 3.1.8.1/Anhang B und ggf. der C2-Stelle
 > von vornherein veraltet.
 
+> **C2 primärquellenfest gelesen 24.08.2026 (QUESTIONS-Abarbeitung, Folgelauf).** Direkter
+> Shop-Downloadlink gefunden (WebSearch → `shop.sia.ch/93e9218b-4e4c-49e4-8083-494b547d73d0/D/DownloadAnhang`),
+> PDF via WebFetch geladen und mit `pdftotext -layout` volltextgelesen (franz. Fassung
+> SN 505266/2-C2:2025 fr, 3 S. — einzige zugestellte Sprachversion, Inhalt normativ
+> sprachunabhängig relevant). **SIA 266/2-C2:2025**: von der SIA-Kommission «Normes de
+> structures porteuses» am **17.10.2025** beschlossen, gültig ab **01.11.2025** — Wortlaut:
+> «Il remplace le correctif SIA 266/2-C1:2024.» **C2 ersetzt C1 vollständig, ergänzt es nicht.**
+> Damit ist die oben offen gelassene Frage nach Datum/Inhalt von C2 primärquellenfest
+> geklärt, und die Vermutung «Revision 2 / 01.11.2025 = allgemeines Shop-Metadatum» präzisiert:
+> 01.11.2025 ist das eigene Gültigkeitsdatum von C2.
+> **Inhalt (2 Korrekturstellen, Original wortgenau gegengelesen):**
+> 1. **Ziff. 3.1.8.1** (Elastizitätsmodul Natursteinmauerwerk) wird gegenüber C1 nochmals neu
+>    gefasst: differenzierte Formel für Ausführungstypen A/B vs. C/D/E, neu mit Hinweis auf
+>    Streuung der Materialverteilung im Wandquerschnitt und richtungsabhängige Verbundeffekte.
+> 2. **Anhang B (S. 47-50, Steinbearbeitung) wird ersatzlos gestrichen** — Wortlaut: «Cette
+>    annexe se trouve à présent dans la norme SIA 269/6-1:2025, annexe B Façonnage des pierres.»
+>    Der Inhalt wandert in die Erhaltungsnorm **SIA 269/6-1:2025**, die im REGISTER bislang nur
+>    über einen Vorwort-Nebenbefund vom 23.08.2026 bekannt ist (`[[sia-269-3-5-korrigenda]]`,
+>    Zeile SIA 269/5) — der dortige eigene Anhang-B-Inhalt selbst wurde noch nicht gesichtet,
+>    neuer Cross-Referenz-Punkt für einen künftigen SIA-269/6-1-Lauf.
+>
+> **Praktische Folge für die Beschaffung:** Beim künftigen Vollzugriff auf SIA 266/2:2012
+> genügt **Grundtext + C2:2025** — C1:2024 ist durch C2 ersetzt und muss nicht mehr separat
+> geladen werden (Präzisierung der obigen «C1 und C2 laden»-Empfehlung). **N53-1 bleibt im
+> Kern weiter offen** (Grundtext SIA 266/2:2012 selbst ist weiterhin nicht im Haus, Bring-
+> Schuld Raphael/Kauf), aber die Korrigenda-Lage ist jetzt vollständig geklärt — Shop-Seite
+> führt nur C1+C2, keine weitere Korrigenda erkennbar.
+
 **N53-2 — GESCHLOSSEN (17.08.2026, Run 54).** Beide Aufträge erledigt.
 - **SIA 416/1:2007:** Die Abdeckungsrichtung ist auf Kap. 0-2 und Kap. 4-5/Anhänge nachgeholt
   (7 Segment-Agenten über S. 4-22 und S. 26-40). Ergebnis **37 Kern- und 20 Nebenlücken**,
