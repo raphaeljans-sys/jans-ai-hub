@@ -3,9 +3,14 @@ beschreibung: Der Teilungsplan (Aufteilungsplan) bei der Begründung von Stockwe
 title: Stockwerkeigentum — Teilungsplan und Begründungsverfahren
 status: emerging
 last_updated: 2026-08-24
-sources: ["raw/260607_amtlich_zh_pbg.md (Art. 712a ff. ZGB nicht kantonal, nur Querverweis)", "notariate-zh.ch, Aufteilungsplan-Beispiel Kanton Zürich", "cadastre-manual.admin.ch, Empfehlung «Digitale Dokumentation Stockwerkeigentum – Aufteilungsplan»", "bj.admin.ch, Botschaft zur Revision des Stockwerkeigentumsrechts (Art. 712a ff. ZGB), Art. 712ebis E-ZGB", "Raphael Jans, eigene Arbeitsnotizen (Links/Checkliste), nicht datiert bzw. 2025 — generalisierbarer Verfahrensteil ohne Projekt-/Klientenbezug übernommen"]
+sources: ["raw/260607_amtlich_zh_pbg.md (Art. 712a ff. ZGB nicht kantonal, nur Querverweis)", "notariate-zh.ch, Aufteilungsplan-Beispiel Kanton Zürich", "cadastre-manual.admin.ch, Empfehlung «Digitale Dokumentation Stockwerkeigentum – Aufteilungsplan»", "bj.admin.ch, Botschaft zur Revision des Stockwerkeigentumsrechts (Art. 712a ff. ZGB), Art. 712ebis E-ZGB", "raw/260824_amtlich_ch_curiavista-geschaeft-26044-stwe-revision.md (Geschäft 26.044, amtlicher Curia-Vista-Webservice)", "Raphael Jans, eigene Arbeitsnotizen (Links/Checkliste), nicht datiert bzw. 2025 — generalisierbarer Verfahrensteil ohne Projekt-/Klientenbezug übernommen"]
 paragraphen: ["Art. 712a ZGB", "Art. 712e ZGB", "Art. 712ebis E-ZGB (Entwurf, noch nicht in Kraft)"]
 links: [[ausnahmebewilligung-und-bestandesschutz]]
+verifiziert:
+  - datum: 2026-08-24
+    methode: "Wachposten-Check (Buch-Run 138), amtlicher Curia-Vista-OData-Webservice (ws.parlament.ch/odata.svc) statt der clientseitig gerenderten HTML-Suche (WebFetch liefert dort HTTP 403)"
+    umfang: "Beratungsstadium der Revision Art. 712a ff. ZGB / Art. 712ebis E-ZGB, offen seit Artikel-Erstellung als ungeprüfter Vorbehalt geführt"
+    ergebnis: "Geschäft amtlich identifiziert (26.044, Botschaft 13.05.2026, Status «Eingereicht», Erstrat Nationalrat). Kein Inkrafttreten, keine Schlussabstimmung. Eine sekundär behauptete RK-N-Kommissionsprüfung (20./21.08.2026) liess sich im abgerufenen Hauptdatensatz nicht amtlich bestätigen — bleibt aktiver Wachposten."
 ---
 
 # Stockwerkeigentum — Teilungsplan und Begründungsverfahren
@@ -59,9 +64,19 @@ Darstellung der räumlichen Struktur der Gebäudeteile (Sonder-/Gemeinschaftseig
 das ist der praktisch wichtigste Fortschritt gegenüber heute — ein **Berichtigungsanspruch bei
 späterer Unrichtigkeit** ist erstmals ausdrücklich vorgesehen (heute fehlt ein solcher Anspruch
 für den Teilungsplan als eigenständiges Dokument, nur für die Wertquote nach Art. 712e Abs. 2
-ZGB). **Der Entwurf ist noch kein geltendes Recht** — Inkrafttreten und allfällige
-Parlamentsänderungen sind zum Prüfzeitpunkt nicht verifiziert; vor einer Mandats-Aussage zur
-Pflicht das aktuelle Beratungsstadium (Parlamentsdienste curia vista) neu prüfen.
+ZGB). **Der Entwurf ist noch kein geltendes Recht.**
+
+**Amtlicher Verfahrensstand (geprüft 24.08.2026 gegen den offiziellen Curia-Vista-Webservice
+`ws.parlament.ch/odata.svc`, Geschäft **26.044**, `raw/260824_amtlich_ch_curiavista-geschaeft-26044-stwe-revision.md`):**
+Botschaft des Bundesrats vom **13.05.2026** («Stockwerkeigentumsrecht [Art. 712a ff. ZGB],
+Änderung»), Ursprung Motion 19.3410 Caroni, Erstrat **Nationalrat**, formaler Webservice-Status
+**«Eingereicht»** (Statusdatum 13.05.2026). Eine Sekundärquelle (`centrepatronal.ch`, Fachartikel)
+nennt zusätzlich eine erste Prüfung durch die Kommission für Rechtsfragen des Nationalrats (RK-N)
+am 20./21.08.2026 — dieser Kommissionsschritt ist im amtlichen Hauptdatensatz **nicht** sichtbar
+(dafür wäre der verlinkte `Preconsultations`-Teildatensatz nötig, nicht abgerufen) und bleibt daher
+unbestätigt. **Damit weiterhin: kein Inkrafttreten, keine Schlussabstimmung, keine
+Referendumsfrist** — vor einer Mandats-Aussage den Stand erneut prüfen (Vorlage bewegt sich, letzte
+Datensatz-Änderung laut Webservice 21.08.2026).
 
 **Praxisfolge für JANS:** Auch ohne gesetzliche Pflicht ist ein sauberer Aufteilungsplan schon
 heute empfehlenswert — er trägt zur Auslegung des Begründungsakts bei und reduziert das Risiko
@@ -100,6 +115,9 @@ ein konkretes Mandat. **Nur das abstrahierte Verfahrensskelett (Abschnitt oben) 
 ## Offene Punkte
 
 - Beratungsstadium von Art. 712ebis E-ZGB (Botschaft vs. bereits verabschiedet vs. in Kraft) zum
-  Zeitpunkt einer künftigen Mandatsberatung neu prüfen — hier nur als Stand 24.08.2026 dokumentiert.
+  Zeitpunkt einer künftigen Mandatsberatung neu prüfen — jetzt amtlich als **Geschäft 26.044**
+  identifiziert und mit Status «Eingereicht» (13.05.2026) belegt (Buch-Run 138, 24.08.2026); bleibt
+  ein aktiver Wachposten, da die Vorlage sich weiterbewegt (Datensatz zuletzt geändert 21.08.2026,
+  eine Kommissionsprüfung RK-N 20./21.08.2026 ist sekundär behauptet, amtlich noch nicht bestätigt).
 - Kein Bezug zur kantonalen Handhabung (Grundbuchamt ZH/SZ, Formvorschriften) — bisher rein
   bundesrechtlich/notariatspraktisch recherchiert.

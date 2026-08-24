@@ -464,6 +464,20 @@ dem Run-107-Eintrag (dieser bleibt unverändert stehen). Report `outputs/2026-08
 kein Fachpunkt mehr aus der Thalwil-Queue oder ihren Nachträgen offen; frei für den regulären
 Health-Check-Turnus, eine zweite Re-Verifikationsrunde, oder eine neue Lücke aus `QUESTIONS.md`.
 
+**Run 138 (2026-08-24, ausserhalb T1-T9):** Kap. 22/23 (Band 2) weiterhin ohne Screenshot-Zugriff
+(SharePoint-Bibliothek `PL - 02_Recht_Norm` an dieser Station nicht gemountet, erneut geprüft).
+Stattdessen den bisher ungeprüften Vorbehalt in [[stockwerkeigentum-teilungsplan-und-begruendung]]
+(Cross-KB-Artikel aus `wissen/energie`) zum Beratungsstadium der STWE-Revision (Art. 712ebis E-ZGB)
+bearbeitet — amtlicher Curia-Vista-Webservice (`ws.parlament.ch/odata.svc`) statt der
+clientseitig gerenderten HTML-Suche (WebFetch dort HTTP 403) direkt per curl abgefragt: Geschäft
+**26.044** identifiziert, Botschaft 13.05.2026, Status «Eingereicht», Erstrat Nationalrat. Eine
+sekundär behauptete RK-N-Kommissionsprüfung (20./21.08.2026) liess sich amtlich nicht bestätigen,
+bleibt offene Präzisierung. Neuer `raw/260824_amtlich_ch_curiavista-geschaeft-26044-stwe-revision.md`,
+Artikel um amtlichen Verfahrensstand + erstes `verifiziert`-Feld ergänzt. Report
+`outputs/2026-08-24_buch-run138.md`. **Nächster Schritt:** Kap. 22/23 bzw. die Art.-24c-Diskrepanz
+(Run 137) mit Screenshot-Zugriff auflösen, sobald verfügbar; sonst STWE-Wachposten weiter
+beobachten (analog Baulinien-Wachposten) oder regulärer `wissenscheck`-Turnus.
+
 **Run 109 (2026-08-24, ausserhalb T1-T9):** `wiki/QUESTIONS.md` systematisch nach Run-108-Option 4
 gesichtet (analog Run 105). Der Block «2026-07-08, aus Buch-Run 23: Kap. 4 Natur-/Heimatschutz»
 führte drei `needs-verification`-Flags (KNHV-Paragraphen §§ 2a/4/6/7/8/9/10/12/13-32; PBG-Paragraphen

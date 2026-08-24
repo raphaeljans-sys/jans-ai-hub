@@ -3,6 +3,54 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 138: STWE-Revisions-Wachposten (Art. 712ebis E-ZGB) amtlich identifiziert über den offiziellen Curia-Vista-Webservice — Geschäft 26.044, Status «Eingereicht»
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (letzte Bestätigung Run 137).
+  Screenshot-Zugriff auf die SharePoint-Bibliothek `PL - 02_Recht_Norm` (Kap. 22/23, letzte echte
+  Buch-Destillat-Lücke) an dieser Station erneut geprüft und weiterhin nicht verfügbar — `ls
+  ~/Library/CloudStorage/` zeigt nur die üblichen OneDrive/Dropbox/GoogleDrive-Wurzeln, keine
+  `PL`-Bibliothek. `ps aux` geprüft: eigener Lauf (PID 72128) plus je ein Prozesspaar für parallele
+  Läufe der Schwester-KBs `wissen/normen` und `wissen/energie` — keine baurecht-Konkurrenz.
+  `verifiziert`-Datumsfelder aller `established`-Artikel gesichtet: die grosse Mehrheit ist bereits
+  heute (2026-08-24) über die Runs 90-137 mehrfach re-verifiziert; als echte, bisher nie geprüfte
+  Lücke identifiziert: der «Offene Punkte»-Vorbehalt in [[stockwerkeigentum-teilungsplan-und-begruendung]]
+  (Cross-KB-Artikel aus `wissen/energie`, erstellt 23.08.2026) zum Beratungsstadium der
+  STWE-Revision — bisher nur als «zum Prüfzeitpunkt nicht verifiziert» geführt, nie amtlich
+  nachgeprüft.
+- GEFUNDEN: die Curia-Vista-HTML-Suche (`parlament.ch/de/ratsbetrieb/suche-curia-vista`) ist
+  clientseitig gerendert, WebFetch liefert HTTP 403 — dieselbe Fehlerfamilie wie
+  `kantonsrat.zh.ch` (Buch-Run 135). Die Bundesversammlung betreibt aber einen offiziellen
+  OData-Webservice (`ws.parlament.ch/odata.svc`), per curl direkt abrufbar. Sekundärquelle
+  (`centrepatronal.ch`, Fachartikel) lieferte die Geschäftsnummer **26.044**; die Filterabfrage auf
+  dieses Feld (`BusinessShortNumber`) traf im amtlichen Webservice genau einen Datensatz — **die
+  Sekundärquelle war zutreffend, jetzt amtlich bestätigt**, gleiches Vorgehen wie beim
+  Baulinien-Wachposten (Run 135/136).
+- BESTÄTIGT (amtlich): Geschäft 26.044 «Stockwerkeigentumsrecht (Art. 712a ff. ZGB). Änderung»,
+  Botschaft des Bundesrats **13.05.2026**, Ursprung Motion 19.3410 Caroni, Erstrat **Nationalrat**,
+  formaler Status **«Eingereicht»** (Statusdatum 13.05.2026). Die von der Sekundärquelle behauptete
+  Kommissionsprüfung der RK-N am 20./21.08.2026 liess sich im abgerufenen `Business`-Hauptdatensatz
+  **nicht** amtlich bestätigen (dafür wäre der verlinkte `Preconsultations`-Teildatensatz nötig,
+  nicht abgerufen) — als offene Präzisierung vermerkt statt stillschweigend übernommen. Kein
+  Inkrafttreten, keine Schlussabstimmung, keine Referendumsfrist im geprüften Datensatz.
+- NEU `raw/260824_amtlich_ch_curiavista-geschaeft-26044-stwe-revision.md` (amtliche Primärquelle,
+  JSON-Auszug + vollständige Provenienz inkl. Metadaten-Herleitung des Feldnamens).
+- GEÄNDERT `wiki/stockwerkeigentum-teilungsplan-und-begruendung.md`: Abschnitt
+  «Rechtsverbindlichkeit heute vs. die laufende Revision» um den amtlichen Verfahrensstand ergänzt;
+  «Offene Punkte» Punkt 1 (Beratungsstadium) aufgelöst zu einem aktiv zu überwachenden, jetzt aber
+  amtlich verankerten Wachposten; Frontmatter `sources` + neues `verifiziert`-Feld (Artikel hatte
+  bisher gar keines).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: `stockwerkeigentum-teilungsplan-und-
+  begruendung.md` 23/5 — die 5 Löschungen sind die beiden ersetzten Fliesstext-/Offene-Punkte-Sätze
+  selbst, keine unerwartete Löschung; neue Raw-Datei ungetrackt/neu.
+- REPORT `outputs/2026-08-24_buch-run138.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch diesen
+  Lauf. Verbleibend offen: Kap. 22/23 (Band 2, weiterhin ohne Screenshot-Zugriff), die drei
+  Datenbank-bedingt unverifizierbaren Alt-Fallzitate (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77),
+  [[geschosse-und-kniestock]] als zurückgestellter Modell-D-Kandidat, der Baulinien-Wachposten
+  (PBG-Teilrevision, unverändert seit Run 136), die Art.-24c-Abs.-2-RPG-Diskrepanz aus Run 137
+  (weiterhin nur mit Screenshot-Zugriff Kap. 21 auflösbar), und **neu** der STWE-Revisions-
+  Wachposten (Geschäft 26.044, weiterhin «Eingereicht», nicht in Kraft) — bleibt aktiv zu
+  überwachen wie der Baulinien-Wachposten.
+
 ## 2026-08-24 — Buch-Run 137: stale Kap.-20-Zeiger (Companion-Destillat war seit 2026-07-13 established) korrigiert; § 20 Abs. 2 WsG präzisiert; Art. 24c Abs. 2 RPG «freiwilliger Abbruch»-Aussage als offene Diskrepanz markiert
 - ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen; Kap. 22/23 (Band 2) weiterhin
   ohne Screenshot-Zugriff an dieser Station (SharePoint-Bibliothek `PL - 02_Recht_Norm` nicht
