@@ -2189,6 +2189,30 @@ Produkte, der Treffer ist deshalb immer am Titel gegenzulesen.
   Statusfeld: nicht als Bemessungsgrundlage verwenden. Ferner ungeprüft: der Wortlaut der
   SIA 266 selbst (Art. 4.3.1, 4.3.1.3, 4.3.4.3) und der aktuelle Ausgabenstand der SIA 262
   (das Merkblatt stützt sich auf SIA 262:2003).
+
+  > ⚠ **TEILWEISE GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung), primärquellenfest.** Beide
+  > offenen Teilfragen bearbeitet, Original erstmals seit dem NAS-Ausfall wieder erreichbar
+  > (M365-Graph-Connector, `04_Merkblätter/Bemessung Kalksandstein.pdf`, Text-Layer vorhanden
+  > — `pdftotext -layout` statt bisher nur 300-dpi-Rendering).
+  > 1. **Rissweiten-Diagramm-Kapitel neu geschrieben:** `destillate/kalksandstein-bemessung-
+  >    sia266-ksv-2012.md`, Abschnitt «Gebrauchstauglichkeit / Rissweite», enthält jetzt
+  >    Nxo = 100 kN/m¹ und alle drei Ablese-Transformationen (Ordinate r200·Nxo/Nx, Abszisse
+  >    hcr·√(Nx/Nxo), Kurvenparameter ϑ·√(Nxo/Nx)) im Fliesstext, nicht mehr nur im
+  >    Verifikations-Anhang.
+  > 2. **SIA-266-Wortlaut geprüft** (gegen `sia-266-2003.md`-Original, `pdftotext`):
+  >    Art. 4.3.1.1/4.3.1.3 (Tragsicherheitsformel, teilweise eingebundene Decken) **bestätigt
+  >    wortgleich**. Art. 4.3.4.3 (Merkblatt S.12, fyd-Aktivierung) ist ein **Druckfehler des
+  >    Merkblatts selbst** — Art. 4.3.4.3 SIA 266 regelt Druckgewölbe unter Querbelastung
+  >    (unbewehrtes Mauerwerk), nicht fyd. Die tatsächlich einschlägige Stelle ist
+  >    **Art. 4.2.1.2/4.2.1.3** (η₃ = 1,5 für vollfugig vermörtelte Stossfugen) — sachlich
+  >    bleibt die Merkblatt-Aussage richtig, nur die eigene Fundstellenangabe ist falsch.
+  >    SIA-262-Fassungsfrage (K4) bestätigt: 2003 war zum Publikationszeitpunkt des Merkblatts
+  >    (Herbst 2012) die geltende Ausgabe, heute gilt SIA 262:2013 — Bewehrungsschema vor
+  >    Verwendung gegen die aktuelle Fassung zu prüfen.
+  > **Bewusst nicht geändert:** der `status`-Wert bleibt `speculative` — K4 bis K10 aus Run 43
+  > stehen weiterhin nur im Verifikations-Anhang, nicht im Fliesstext, und ein Statuswechsel
+  > auf `established` ist einem eigenen Verifikationslauf vorbehalten (siehe Statusfeld-Notiz
+  > im Destillat). Verbleibend offen: K4-K10 in den Fliesstext einarbeiten.
 - **N43-6 — SWKI, was Anhang E nicht regelt.** Der Anhang nennt **keine abnehmende oder
   genehmigende Instanz** für den Simulationsnachweis, keine Qualifikationsanforderung an den
   CFD-Ingenieur und keine Konvergenzkriterien. Bei einem Nachweis, der den Volumenstrom um bis
@@ -2208,7 +2232,7 @@ Aussage weiterführt, liest ein Nutzer zuerst den Fehler — dieselbe Mechanik w
 Absturzsicherungs-Destillat aus Run 42, wo die Kurzfassung falsch und der Fliesstext richtig
 war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worden.
 
-## Run 42 (03.08.2026) — neu offen ⚠ S42-2 GESCHLOSSEN 24.08.2026 (BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 direkt geprueft: «Firsthoehe + 1,0 m» ist Kriterium a) der Maximum-Bildung, kein eigenstaendiger Wert)
+## Run 42 (03.08.2026) — neu offen ⚠ S42-2 GESCHLOSSEN 24.08.2026 (BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 direkt geprueft: «Firsthoehe + 1,0 m» ist Kriterium a) der Maximum-Bildung, kein eigenstaendiger Wert); S42-3 GESCHLOSSEN 24.08.2026 (SWKI-Original erstmals seit NAS-Ausfall via M365-Graph-Connector erreichbar, Tab. 16 komplett gelesen: keine Schwyz-Station, Luzern/Altdorf bestaetigt und gleichwertig); N43-5 TEILWEISE GESCHLOSSEN 24.08.2026 (Rissweiten-Diagramm-Kapitel neu geschrieben, SIA-266-Zitate geprueft — Art. 4.3.4.3 im Merkblatt selbst ein Druckfehler, richtig waere 4.2.1.2/4.2.1.3; K4-K10 bleiben offen)
 
 ### KL Hochbau, Sanitäre Anlagen ([[kl-hochbau-sanitaer-katalogblaetter]])
 - **K42-1 Herausgeber/Werktitel/Ausgabedatum unbekannt.** Keine der acht gelesenen Seiten
@@ -2293,6 +2317,27 @@ war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worde
   > Fortluft. Kein Korrekturbedarf am bestehenden Destillat-Text.
 - **S42-3** Fuer den Kanton Schwyz enthaelt Tab. 16 (Anhang A) **keinen** eigenen
   Stationseintrag; naechstgelegen sind Altdorf und Luzern. Eine Zuordnung ist nicht belegt.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung), primaerquellenfest.** Original
+  > erstmals seit dem NAS-Ausfall wieder erreichbar (M365-Graph-Connector, Site PL, Drive
+  > `02_Recht_Norm`, `06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf`,
+  > direkt via Graph-API heruntergeladen). Tab. 16 (Druckseiten 73-74, PDF-Seiten 75-76 bei
+  > Rendering-Offset +2) vollstaendig bei 300 dpi gerendert und **alle 40 Stationszeilen**
+  > alphabetisch gelesen (Adelboden … Zürich-MeteoSchweiz): **keine** Zeile heisst «Schwyz»
+  > oder nennt einen Ort im Kanton Schwyz (kein Einsiedeln, Pfäffikon SZ, Lachen, Freienbach,
+  > Küssnacht). Die bereits vermutete Nachbar-Zuordnung ist damit bestätigt: **Luzern**
+  > (θODA = 0,5 °C, fIDA,exp 1,00) und **Altdorf** (θODA = 1,2 °C, fIDA,exp 1,00) sind die
+  > einzigen Stationen mit vergleichbarer Seehöhe/Lage am Vierwaldstättersee-Becken; beide
+  > tragen identische Faktoren (Garage exponiert 5 °C/1,00, geschützt 10 °C/0,77) — die Wahl
+  > zwischen den beiden ist damit für die Bemessung praktisch folgenlos. Eine **normative**
+  > Zuordnungsregel (welche Station bei fehlendem Standort zu wählen ist) nennt weder Tab. 16
+  > noch das SWKI-Dokument selbst; sie stammt aus SIA 2028 «Klimadaten für Bauphysik,
+  > Energie- und Gebäudetechnik», deren **Basis-Merkblatt 2010 weiterhin nicht im Haus ist**
+  > (kostenpflichtig, Bring-Schuld, siehe `wiki/REGISTER.md` Zeile SIA 2028) — eine dort evtl.
+  > genannte Auswahlmethodik bleibt offen, ändert aber am praktischen Ergebnis (Luzern/Altdorf,
+  > beide gleichwertig) nichts. `destillate/swki-va103-01-2017.md` unveraendert (Tab. 16 bleibt
+  > aus Urheberrechtsgruenden nicht als Volltabelle kopiert); dieser Befund ist rein am
+  > Original geprueft und hier dokumentiert.
 
 ### Absturzsicherungen ZH ([[stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019]])
 - **A42-1** Geometrische Bedeutung der Kote ≤ 90 in der Skizze «nur obere Traverse» unklar;

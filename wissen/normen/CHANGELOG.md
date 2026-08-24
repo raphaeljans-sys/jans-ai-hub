@@ -1,3 +1,76 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: S42-3 (SWKI Tab. 16 Kanton Schwyz) und N43-5 (Kalksandstein Rissweiten-Kapitel + SIA-266-Zitate) bearbeitet — NAS-Sperre über M365-Graph-Connector umgangen
+
+**Auftrag:** Fortsetzung derselben Daueraufgabe (offene Fragen in `wiki/QUESTIONS.md`
+abarbeiten, Fundstelle je Aussage mit Norm/Ausgabe/Ziffer, nur `established` zitierfähig).
+CHANGELOG und Report des letzten Laufs (S42-2, SWKI/BAFU) zuerst gelesen; dessen Empfehlung
+folgend S42-3 und N43-5 aufgegriffen — beide waren dort als „benötigen NAS-Zugriff, aktuell
+nicht erreichbar" zurückgestellt worden.
+
+**NAS-Hinweis:** `/Volumes/daten` war beim Sessionstart erneut nicht gemountet. Anders als im
+Vorlauf wurde diesmal **nicht** aufgegeben, sondern der zweite dokumentierte SharePoint-Zugriffsweg
+getestet: `node connectors/m365-graph.mjs` (App-only-Zertifikat-Auth, unabhängig vom NAS-Mount,
+git-versioniert im SSD-Repo) — `--selbsttest` bestätigte Erreichbarkeit. Beide für diesen Lauf
+benötigten Originale (SWKI VA103-01, Site PL, `06_Richtlinien/SWKI/`; Kalksandstein-Merkblatt,
+`04_Merkblätter/Bemessung Kalksandstein.pdf`) sowie zusätzlich SIA 266:2003 (`02_Normen/SIA_Norm/
+SIA_Normen/alle/266_2003_d.pdf`) wurden über den Connector direkt heruntergeladen (Graph-API
+`downloadUrl`, `curl`). Damit ist der Zugriffsweg, der im S42-2-Bericht als offene Empfehlung
+stand, verifiziert nutzbar — auch ohne NAS-Mount.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 63651 (Startzeit 9:46,
+identischer Auftragstext) ist der hostende Prozess dieser Session. PID 62145 arbeitet an
+`wissen/energie/wiki/QUESTIONS.md` — andere KB, keine Berührung. PID 63854 arbeitet am
+SIA-Sweep von `wissen/normen` (Register/Destillate/Inventar-Neuzugänge), nicht an
+`wiki/QUESTIONS.md` — etablierter Split (siehe Vorläufe), keine Dateiüberschneidung erwartet
+und `git status --short wissen/normen/` vor Bearbeitungsbeginn geprüft.
+
+## Bearbeitete Punkte
+
+**S42-3** (SWKI VA103-01:2017, Tab. 16, Anhang A): SWKI-Original erstmals in dieser Lauf-Serie
+wieder direkt lesbar. Tab. 16 (Druckseiten 73-74, PDF-Seiten 75-76, Rendering-Offset +2 bestätigt)
+bei 300 dpi vollständig gerendert, alle 40 Stationszeilen alphabetisch gelesen. Ergebnis: **keine**
+Zeile für Kanton Schwyz; **Luzern und Altdorf** bestätigt als einzige Stationen mit vergleichbarer
+Lage/Höhe, beide mit identischen Garage-Faktoren (5°C/1,00 exponiert, 10°C/0,77 geschützt) —
+die Wahl zwischen beiden ist bemessungstechnisch folgenlos. Eine normative Auswahlregel für
+fehlende Standorte würde aus SIA 2028 selbst stammen, dessen Basis-Merkblatt weiterhin
+kostenpflichtige Bring-Schuld ist (Bestand unverändert) — ändert am praktischen Ergebnis nichts.
+
+**N43-5** (Kalksandstein-Bemessungsmerkblatt, K·S·V 2012), teilweise geschlossen: Original mit
+Text-Layer bezogen (`pdftotext`, statt bisher nur 300-dpi-Visuallektüre). Zwei Teilfragen gelöst:
+1. **Rissweiten-Diagramm-Kapitel** (`destillate/kalksandstein-bemessung-sia266-ksv-2012.md`,
+   Abschnitt «Gebrauchstauglichkeit / Rissweite») **neu geschrieben**: Nxo = 100 kN/m¹ und alle
+   drei Ablese-Transformationen (Ordinate r200·Nxo/Nx, Abszisse hcr·√(Nx/Nxo), Kurvenparameter
+   ϑ·√(Nxo/Nx)) jetzt im Fliesstext statt nur im Verifikations-Anhang (K3, Run 43).
+2. **SIA-266-Zitate geprüft** gegen `sia-266-2003.md`-Original: Art. 4.3.1.1/4.3.1.3
+   (Tragsicherheitsformel, teilweise eingebundene Decken) **wortgleich bestätigt**. Art. 4.3.4.3
+   (Merkblatt S.12, «zur Aktivierung von fyd») ist ein **Druckfehler des Merkblatts selbst** — die
+   zitierte Ziffer regelt im Original Druckgewölbe unter Querbelastung (unbewehrtes Mauerwerk),
+   nicht fyd; korrekt wäre Art. 4.2.1.2/4.2.1.3 (η₃ = 1,5 für vollfugig vermörtelte Stossfugen).
+   Die Sachaussage des Merkblatts bleibt richtig, nur seine eigene Fundstellenangabe ist falsch.
+   SIA-262-Fassungsfrage (K4) bestätigt: 2003 war zum Publikationszeitpunkt (Herbst 2012) die
+   geltende Ausgabe, heute gilt SIA 262:2013.
+
+**Bewusst nicht geändert:** `status`-Feld des Kalksandstein-Destillats bleibt `speculative` — K4
+bis K10 aus Run 43 stehen weiterhin nur im Verifikations-Anhang, nicht im Fliesstext; ein
+Statuswechsel auf `established` ist einem eigenen Verifikationslauf vorbehalten, nicht dieser
+QUESTIONS-Abarbeitung.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` (S42-3, N43-5, Run-42-Kopfzeile, additiv),
+`destillate/kalksandstein-bemessung-sia266-ksv-2012.md` (Kapitel neu geschrieben, Frontmatter
+nachgeführt), `destillate/INDEX.md` (Zeile Kalksandstein nachgeführt). Report:
+`outputs/2026-08-24_questions-abarbeitung-s42-3-n43-5-m365-connector.md`.
+
+## Diff-Gegenprobe (`git diff --numstat`)
+
+`destillate/kalksandstein-bemessung-sia266-ksv-2012.md` wurde durch einen parallel laufenden
+NAS-Auto-Sync-Commit (`9a6d163d7 auto-sync [Macmini]: 6 Dateien geaendert`, 09:53 Uhr) bereits
+miterfasst, bevor dieser Lauf selbst committen konnte — Inhalt am Original geprüft (`git show
+9a6d163d7 -- <Datei>`), exakt die hier beschriebene, additive Änderung, keine Fremdinhalte, keine
+bestehende Aussage entfernt. `wiki/QUESTIONS.md` (+46/-1) und `destillate/INDEX.md` (+1/-1)
+verbleiben regulär durch diesen Lauf zu committen — beide additiv, keine bestehende Aussage
+gelöscht oder überschrieben.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: S42-2 geschlossen — SWKI Tab. 7 Q/S>1 gegen BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 verifiziert
 
 **Auftrag:** Fortsetzung derselben Daueraufgabe (offene Fragen in `wiki/QUESTIONS.md`
