@@ -1,7 +1,6 @@
 # JANS Zettel — offene Handgriffe
 
-Stand 24.08.2026, 17:40 · gelegt von Claude auf **station-03** (MacBook Pro von Revendo)
-Aufgabe: Vollvermaschung Mac Mini ↔ MacBook Pro ↔ station-03 (SSH, Bildschirmfreigabe, Tailscale)
+Stand 24.08.2026, 18:20 · **Aufgabe erledigt**
 
 Dieser Ordner liegt auf dem NAS und ist damit auf **jeder** Station unter demselben Pfad
 sichtbar: `/Volumes/daten/jans-ai-hub/zettel/`. Datei am anderen Gerät öffnen mit
@@ -10,34 +9,45 @@ sichtbar: `/Volumes/daten/jans-ai-hub/zettel/`. Datei am anderen Gerät öffnen 
 
 ---
 
-## Handgriff 1 — am Mac Mini UND am MacBook Pro (identisch, je einmal)
+## Erledigt — Vollvermaschung Mac Mini ↔ MacBook Pro ↔ station-03
 
-Trägt den Schlüssel von station-03 ein, damit SSH von dort funktioniert.
-Doppelte Zeilen werden entfernt, mehrfaches Ausführen schadet nicht.
+Alle sechs Richtungen am 24.08.2026 real durchgetestet (nicht nur Dateien gelesen, sondern
+je eine SSH-Verbindung gefahren), alle passwortlos:
 
-```
-mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGGb1iYRisn0Zk3D0pvYOhs3QkzVhrb9D6JEryzu0ecC mail@raphaeljans.ch' >> ~/.ssh/authorized_keys && sort -u ~/.ssh/authorized_keys -o ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && echo FERTIG
-```
+| von | nach | Ergebnis |
+|---|---|---|
+| Mac Mini | MacBook Pro | Macbookpro |
+| Mac Mini | station-03 | MacBook Pro von Revendo |
+| MacBook Pro | Mac Mini | Macmini |
+| MacBook Pro | station-03 | MacBook Pro von Revendo |
+| station-03 | Mac Mini | Macmini |
+| station-03 | MacBook Pro | Macbookpro |
 
-## Handgriff 2 — auf station-03 (MacBook Pro von Revendo)
+Ebenfalls gemessen: Remote Login auf allen drei Macs an, Bildschirmfreigabe registriert
+(Port 5900 offen), Tailscale auf allen drei Macs plus NAS verbunden, Mini ist Subnet-Router
+für 192.168.1.0/24, NAS auf Mini und MacBook Pro gemountet.
 
-Schaltet Remote Login und Bildschirmfreigabe ein, damit Mini und MacBook Pro
-auch dorthin kommen. Fragt nach dem Passwort dieser Station.
-Rückgängig: derselbe Befehl mit `off` statt `on` und `disable` statt `enable`.
+### Der Befund, der nicht im ursprünglichen Zettel stand
 
-```
-sudo systemsetup -setremotelogin on && sudo launchctl enable system/com.apple.screensharing && sudo launchctl bootstrap system /System/Library/LaunchDaemons/com.apple.screensharing.plist
-```
+Der Zettel deckte nur die Richtung **station-03 zu den beiden anderen** ab. Die Gegenrichtung
+**Mini zu station-03** war nie eingerichtet und schlug beim Nachmessen fehl: station-03 trug
+die Schlüssel `mail@raphaeljans.ch` und `raphaeljans@me.com`, der Mac Mini meldet sich aber
+mit einem eigenen Schlüssel `macmini-ai-hub`. Das MacBook Pro kam durch, weil es
+`raphaeljans@me.com` benutzt. Geschlossen durch Nachtragen des Mini-Schlüssels auf station-03.
 
-## Handgriff 3 — Zustandsmeldung von jedem Gerät
-
-Reine Messung, ändert nichts. Ergebnis Raphael zurückmelden.
-
-```
-echo "Station: $(scutil --get ComputerName)"; echo "Remote Login: $(sudo systemsetup -getremotelogin)"; launchctl print system/com.apple.screensharing 2>/dev/null | grep -m1 state || echo "Bildschirmfreigabe: aus"; /Applications/Tailscale.app/Contents/MacOS/Tailscale status >/dev/null 2>&1 && echo "Tailscale: verbunden" || echo "Tailscale: NICHT verbunden"; ls /Volumes/daten/jans-ai-hub >/dev/null 2>&1 && echo "NAS: gemountet" || echo "NAS: FEHLT"
-```
+Lehre: eine Vermaschung wird als Matrix gemessen, nicht als Liste von Handgriffen.
+Vollständig in `rules/betrieb-chronik.md`, Eintrag 260824d.
 
 ---
+
+## Adressen (Tailscale, Stand 24.08.2026)
+
+| Station | Tailscale-IP | Benutzer |
+|---|---|---|
+| Mac Mini | 100.120.219.12 | raphaeljans |
+| MacBook Pro | 100.117.99.62 | raphaeljans |
+| station-03 (MacBook Pro von Revendo) | 100.96.212.110 | revendo |
+| NAS diskstation918 | 100.92.246.28 | raphaeljans |
 
 ## Public Keys aller Stationen
 
@@ -45,13 +55,25 @@ Ablage: `/Volumes/daten/jans-ai-hub/sync-tasks/pubkeys/`
 
 | Station | Schlüssel-Kommentar |
 |---|---|
-| station-03 (MacBook Pro von Revendo, Benutzer `revendo`) | `mail@raphaeljans.ch` |
-| Mac Mini / MacBook Pro (Benutzer `raphaeljans`) | `raphaeljans@me.com` |
+| station-03 (MacBook Pro von Revendo) | `mail@raphaeljans.ch` |
+| Mac Mini | `macmini-ai-hub` |
+| MacBook Pro | `raphaeljans@me.com` |
 
-## Erledigt (24.08.2026, auf station-03)
+## Rest, klein und nicht blockierend
 
-- SSH-Aliase `mini`, `macbook`, `nas` in `~/.ssh/config` angelegt, Backup unter `config.backup-260824`
-- Public Key von station-03 auf dem NAS abgelegt
-- Gemessen: Tailscale auf allen drei Macs plus NAS verbunden; Mini ist Subnet-Router
-  für 192.168.1.0/24; Port 22 und 5900 auf Mini und MacBook Pro offen;
-  Latenz zu Mini 4–15 ms, zu MacBook Pro 4–8 ms (direkt, kein Relay)
+In `~/.ssh/config` des MacBook Pro fehlt ein Alias für station-03 (dort nur `github.com`
+und `mini`). Die nackte Adresse funktioniert. Nachzutragen wäre:
+
+```
+Host station-03
+    HostName 100.96.212.110
+    User revendo
+```
+
+---
+
+## Zustandsmeldung von jedem Gerät (reine Messung, ändert nichts)
+
+```
+echo "Station: $(scutil --get ComputerName)"; echo "Remote Login: $(sudo systemsetup -getremotelogin)"; launchctl print system/com.apple.screensharing 2>/dev/null | grep -m1 state || echo "Bildschirmfreigabe: aus"; /Applications/Tailscale.app/Contents/MacOS/Tailscale status >/dev/null 2>&1 && echo "Tailscale: verbunden" || echo "Tailscale: NICHT verbunden"; ls /Volumes/daten/jans-ai-hub >/dev/null 2>&1 && echo "NAS: gemountet" || echo "NAS: FEHLT"
+```

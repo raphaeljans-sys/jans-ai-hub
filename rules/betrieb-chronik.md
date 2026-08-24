@@ -19,6 +19,38 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260824d — SSH-Vollvermaschung der drei Macs hergestellt; der Zettel deckte nur eine Richtung ab
+
+Interaktive Session mit Raphael auf dem Mac Mini, ausgeloest durch den Zettel
+`zettel/JETZT.md`, den Claude am 24.08.2026 17:40 auf station-03 (MacBook Pro von Revendo,
+Benutzer `revendo`) hinterlegt hatte.
+
+**Ausgefuehrt hat Raphael selbst.** Der Auto-Mode-Klassifikator sperrte das Schreiben in
+`~/.ssh/authorized_keys` — die Sperre wurde nicht umgangen (Rule `wege-und-vollmachten`),
+sondern der fertige Befehl vorgelegt. Claude hat gemessen und verifiziert, nicht geschrieben.
+
+**Stand nachher, alle sechs Richtungen real getestet** (nicht nur Dateien gelesen, sondern je
+`ssh … scutil --get ComputerName` durchgefahren): Mini↔MacBook Pro, Mini↔station-03,
+MacBook Pro↔station-03 — passwortlos in jede Richtung.
+
+**Der Befund, der nicht im Zettel stand:** Der Zettel deckte nur die Richtung *station-03 zu den
+beiden anderen* ab. Die Gegenrichtung *Mini zu station-03* war nie eingerichtet und schlug beim
+Nachmessen fehl. Ursache: station-03 trug `mail@raphaeljans.ch` und `raphaeljans@me.com`, der
+Mac Mini meldet sich aber mit einem eigenen Schluessel `macmini-ai-hub`. Das MacBook Pro kam
+durch, weil es `raphaeljans@me.com` benutzt — **ein Teilerfolg, der wie ein Vollerfolg aussah.**
+Geschlossen durch Nachtragen des Mini-Schluessels auf station-03.
+
+**Lehre:** Eine Vermaschung wird als **Matrix** gemessen, nicht als Liste von Handgriffen. Wer
+nur prueft, ob der Schluessel in der Datei steht, misst die Absicht; wer die Verbindung faehrt,
+misst den Zustand. Die eine fehlende Richtung waere sonst erst beim naechsten Fernzugriff
+aufgefallen — gleiche Familie wie Eintrag `260824c` («laeuft» ist nicht «erreichbar»).
+
+**Adressen (Tailscale, Stand 24.08.2026):** Mini `100.120.219.12` · MacBook Pro
+`100.117.99.62` · station-03 `100.96.212.110` (Benutzer `revendo`) · NAS `100.92.246.28`.
+
+**Offen, klein:** In `~/.ssh/config` des MacBook Pro fehlt ein Alias fuer station-03 (dort nur
+`github.com` und `mini`). Nicht blockierend, die nackte Adresse funktioniert.
+
 ## 260824c — Tailscale-Ausfall auf dem Mac Mini behoben (4 Tage, ganzes Wochenende); Wächter mit Selbstheilung gebaut
 
 Interaktive Session mit Raphael auf dem Mac Mini, ausgelöst durch seine Beobachtung am
