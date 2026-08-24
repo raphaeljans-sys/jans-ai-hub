@@ -103,7 +103,9 @@ Trainingslauf (`../training/PROGRAMM.md`).
   `emerging`. **SCHLIESST Kap. 21.** Speist [[baurecht]] + [[ausnahmebewilligung-und-bestandesschutz]].
 - [[22-privatrechtliche-bauvorschriften]] — Kap. 22 (S. 1517-1534): **Privatrechtliche Bauvorschriften** —
   Nachbarrecht **ZGB Art. 679/684/685 ff.**, **§§ 169-178 EG ZGB Pflanzenabstaende**. 13 Doppelseiten.
-  Status: `emerging`.
+  Status: `emerging` (Abschnitte 22.3-22.4 + 22.8-22.9 am 24.08.2026, Buch-Run 139, gegen frische
+  Screenshots wortlautgeprueft und 6 Korrekturen eingearbeitet; 22.1-22.2/22.5-22.7 weiterhin auf
+  Stand 29.06.2026).
 - [[23-glossar-architektur]] — Kap. 23 (S. 1537-1549): **Glossar Architektur** — Begriffe mit §-Belegen.
   8 Doppelseiten. Status: `emerging`.
 - [[14-nutzungsdichte-ausnuetzung]] — Kap. 14: AZ/BMZ/UEZ/Freiflaechenziffer, anrechenbare

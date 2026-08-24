@@ -478,6 +478,24 @@ Artikel um amtlichen Verfahrensstand + erstes `verifiziert`-Feld ergänzt. Repor
 (Run 137) mit Screenshot-Zugriff auflösen, sobald verfügbar; sonst STWE-Wachposten weiter
 beobachten (analog Baulinien-Wachposten) oder regulärer `wissenscheck`-Turnus.
 
+**Run 139 (2026-08-24, ausserhalb T1-T9) — Kap.-22/23-Blockade aufgelöst:** die seit über zehn
+Läufen (130-138) als "kein Screenshot-Zugriff" geführte Sperre war kein echter Zugriffsverlust,
+sondern eine ungefundene Route — die Bibliothek `PL - 02_Recht_Norm` war nur nie über den
+bestehenden M365-Graph-Connector aufgelöst worden (bisher ausschliesslich lokale Mounts geprüft).
+SharePoint-Site "PL" gefunden, Drive "02_Recht_Norm" darin, exakter Pfad aus `buecher/CLAUDE.md`
+bestätigt (781 Dateien = 780 Doppelseiten). Zugriffsweg jetzt dauerhaft in `buecher/CLAUDE.md`
+dokumentiert (Site/Drive-Auflösung, Token-Download, `-L`-Redirect-Falle). Sechs Screenshots gelesen,
+davon zwei Kap. 22 (S. 1520/1521, S. 1530/1531): **6 echte Korrekturen** in
+`buecher/band-2/22-privatrechtliche-bauvorschriften.md` (Art. 699 ZGB falsch zugeordnet, Regel zu
+offenen Einfriedungen fehlte, ganzer Absatz zur öffentlich-rechtlichen Seite der Einfriedungen
+fehlte, 22.4.1 OCR-verfälscht — Kernbegriff **Fahrnisbauten** fehlte, Wirkrichtung Art. 674 Abs. 1
+ZGB verkehrt —, Zeitschranke Art. 641 Abs. 2 ZGB fehlte, § 220 PBG fehlte und
+VB.2012.00810/VB.2014.00314 waren vertauscht samt OCR-verfälschtem Villenservitut-Beispiel). Status
+bleibt `emerging` (nur Teilabschnitte gegengelesen). Report `outputs/2026-08-24_buch-run139.md`.
+**Nächster Schritt:** mit demselben Zugriffsweg die Kap.-22-Restabschnitte, Kap. 23 vollständig und
+die Art.-24c-RPG-Diskrepanz (Run 137, Kap. 21) abarbeiten — keine Blockade mehr, reine
+Fortsetzungsarbeit.
+
 **Run 109 (2026-08-24, ausserhalb T1-T9):** `wiki/QUESTIONS.md` systematisch nach Run-108-Option 4
 gesichtet (analog Run 105). Der Block «2026-07-08, aus Buch-Run 23: Kap. 4 Natur-/Heimatschutz»
 führte drei `needs-verification`-Flags (KNHV-Paragraphen §§ 2a/4/6/7/8/9/10/12/13-32; PBG-Paragraphen

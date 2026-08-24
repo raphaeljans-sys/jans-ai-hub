@@ -4,10 +4,15 @@ kapitel: 22
 band: 2
 seiten: 1517-1534
 shots: Bildschirmfoto 2026-06-07 um 12.08.54 (Titel S. 1517) bis 12.09.05 (S. 1534)
-paragraphen: ZGB Art. 667, 668, 669, 670, 673, 674, 675, 677, 679, 684, 685, 686, 687, 689, 690, 691, 710, 736, 737, 738, 742, 779, 973; OR Art. 18; § 169-178 EG ZGB; § 203, 228, 238, 278, 289, 290, 291 PBG; § 1, 329 VRG; StGB Art. 256
+paragraphen: ZGB Art. 667, 668, 669, 670, 673, 674, 675, 677, 679, 684, 685, 686, 687, 689, 690, 691, 699, 710, 736, 737, 738, 742, 779, 973; OR Art. 18; § 169-178 EG ZGB; § 203, 220, 228, 238, 278, 289, 290, 291 PBG; § 1, 329 VRG; StGB Art. 256
 status: emerging
 gelesen: 2026-06-29
-last_updated: 2026-06-29
+last_updated: 2026-08-24
+verifiziert:
+  - datum: 2026-08-24
+    methode: "Modell-D-Wortlautabgleich (Buch-Run 139) gegen frische Screenshots derselben Buchseiten (SharePoint-Bibliothek PL - 02_Recht_Norm, erstmals via M365-Graph-Connector statt lokalem Mount erreicht)"
+    umfang: "Abschnitte 22.3.3-22.4.2 (S. 1520/1521) und 22.8.1-22.9.1 (S. 1530/1531) — teilverifiziert, nicht das ganze Kapitel"
+    ergebnis: "6 echte Korrekturen (Art. 699 ZGB falsch zugeordnet, offene Einfriedungen fehlten, oeffentlich-rechtliche Einfriedungs-Passage komplett fehlte, Art. 677/674 ZGB in 22.4.1 OCR-verfaelscht, Zeitschranke 22.4.2 fehlte, § 220 PBG fehlte, VB.2012.00810/VB.2014.00314 vertauscht, Villenservitut-Beispiel OCR-verfaelscht). Abschnitte 22.1-22.2 und 22.5-22.7 diesmal nicht gegengelesen, bleiben auf dem Stand von 2026-06-29."
 ---
 
 # Kap. 22 — Privatrechtliche Bauvorschriften (Band 2, S. 1517-1534)
@@ -69,33 +74,68 @@ Diese privatrechtlichen Schranken werden im baurechtlichen Bewilligungsverfahren
   Nachbarn (Art. 670 ZGB). Rechtsverhaeltnisse bei der Brandmauer → § 290 und
   § 291 PBG (S. 1520).
 - **22.3.4 Einfriedung:** Grundsaetzlich darf jeder Eigentuemer sein Grundstueck
-  durch Zaeune, Hecken oder Mauern einfrieden (Art. 699 ZGB). Das kantonale Recht
-  kann weitere Beschraenkungen vorsehen: **§ 177 EG ZGB** legt fest, dass
-  Gruenhecken gegen den Willen des Nachbarn nicht naeher als die haelftige Hoehe
-  und jedenfalls aber nicht 60 cm vor der Grenze gehalten werden duerfen. Tote
-  Hecken, Holzwaende oder Mauern, die die Hoehe von 150 cm nicht uebersteigen, darf
-  der Eigentuemer an die Grenze setzen; uebersteigen sie diese Hoehe, kann der
-  Nachbar verlangen, dass sie um die haelftige Mehrhoehe von der Grenze entfernt
-  werden (**§ 178 EG ZGB**). (S. 1520; Schema "Hoehe von Einfriedungen und Mauern
-  § 178 EG ZGB" auf S. 1521.)
+  durch Zaeune, Hecken oder Mauern einfrieden. Diese Einfriedungen duerfen jedoch
+  die Ausuebung von Nachbar- und Dienstbarkeitsrechten sowie — bei Wald- und
+  Weidegrundstuecken — das allgemeine **Zutrittsrecht des Publikums (Art. 699 ZGB)**
+  nicht verunmoeglichen (**korrigiert 2026-08-24, Buch-Run 139:** Art. 699 ZGB stuetzt
+  im Buchtext diese Zutrittsrecht-Schranke, nicht das allgemeine Einfriedungsrecht
+  selbst — bisherige Fassung hatte den Verweis am falschen Satz). Das kantonale Recht
+  kann weitere Beschraenkungen des Einfriedungsrechts vorsehen: **§ 177 EG ZGB** legt
+  fest, dass Gruenhecken gegen den Willen des Nachbarn nicht naeher als die haelftige
+  Hoehe und jedenfalls aber nicht 60 cm von der Grenze gehalten werden duerfen. Andere
+  Einfriedungen als Gruenhecken — sogenannte tote Hecken, Holzwaende oder Mauern —,
+  welche die Hoehe von 150 cm nicht uebersteigen, darf der Eigentuemer an der Grenze
+  anbringen und daran auch Spaliere ziehen; ueberschreiten sie jene Hoehe, kann der
+  Nachbar begehren, dass sie je um die Haelfte der Hoehe **ueber** 150 cm von der
+  Grenze entfernt werden (**§ 178 EG ZGB**). **Fuer offene Einfriedungen (z.B.
+  Gitter- oder Palisadenzaeune) gelten keine Abstandsvorschriften** (bisher nicht
+  erfasst, ergaenzt Buch-Run 139). (S. 1520; Schema "Hoehe von Einfriedungen und
+  Mauern § 178 EG ZGB" auf S. 1521.)
+- **22.3.5 Oeffentlich-rechtliche Seite der Einfriedungen (S. 1521, neu erfasst
+  Buch-Run 139):** Fuer den Fusspunkt der Hoehenberechnung gilt dieselbe Praxis wie
+  bei Pflanzenabstaenden (S. 1528, → 22.7.4). Die privatrechtlichen
+  Einfriedungsbestimmungen sind **nicht zwingender Natur** und koennen durch
+  nachbarliche Vereinbarung geaendert werden; sie werden im baurechtlichen
+  Bewilligungsverfahren **grundsaetzlich nicht geprueft**. Vom oeffentlichen
+  Planungs- und Baurecht her sind Einfriedungen nur geringen Einschraenkungen
+  unterworfen: In Kernzonen und Quartiererhaltungszonen kann die Bau- und
+  Zonenordnung Hoehenbeschraenkungen zum Schutz des Orts- und Quartierbildes
+  vorsehen; an Strassen unterliegen Einfriedungen den Anforderungen der
+  Verkehrssicherheit (Verweis S. 874, nicht nachgeschlagen). Im Uebrigen erschoepft
+  sich die oeffentlich-rechtliche Beurteilung von Einfriedungen in der Frage der
+  rechtsgenuegenden Gestaltung und Einordnung gemaess **§ 238 PBG** (**VB.2017.00615,
+  E. 4.1**).
 
 ### 22.4 Ueberragende Bauteile, Ueberbau (S. 1521 ff.)
-- **22.4.1 Grundsatz:** Bauten werden normalerweise dem Eigentuemer des Bodens
-  zugerechnet (sogenanntes Akzessionsprinzip). Wer dem Grundeigentuemer einen
-  besonderen Eigentuemer hat (Art. 677 ZGB), ist ein Baurecht errichtet worden, sind
-  Bauberechtigte (und nicht der Grundeigentuemer) Eigentuemer am Bau (Art. 675 und
-  779 ZGB) — wird hingegen fuer einen Bau fremdes Material verwendet, erhaelt
-  automatisch der Grundeigentuemer das Eigentum am Bau (Art. 671-673 ZGB).
-- Ragt ein Teil eines Gebaeudes auf ein Nachbargrundstueck (Ueberbau), kann der
-  ueberbaute Grundeigentuemer eine **dingliche Baurechtsdienstbarkeit** verlangen
-  (Art. 674 Abs. 1 ZGB) — oder fuer den Fall der unberechtigten Beseitigung
-  (S. 1521).
-- **22.4.2 Legalisierung des Ueberbaus:** Ragen Teile eines Gebaeudes ueber die
-  Grenze, kann der verletzte Nachbar Beseitigung verlangen (Art. 641 Abs. 2 ZGB),
-  wenn er sich nicht vertraglich zur Duldung verpflichtet hat. Tatbestand: indessen
-  nicht zu verwechseln mit den an der Grenze stehenden Grenzvorrichtungen (zum
-  Beispiel Brandmauern). Der Vertrag auf Duldung eines Ueberbaus kann formlos
-  abgeschlossen werden (S. 1521/1522).
+- **22.4.1 Grundsatz (korrigiert 2026-08-24, Buch-Run 139 — vormals OCR-unscharf,
+  siehe Offene Punkte):** Bauten gehoeren normalerweise dem Eigentuemer des Bodens,
+  auf dem sie stehen (sogenanntes Akzessionsprinzip); davon gibt es aber
+  verschiedene Ausnahmen. Sogenannte **Fahrnisbauten**, die nicht in eine dauernde
+  Verbindung mit dem Boden gebracht werden koennen, koennen einen besonderen
+  Eigentuemer haben (**Art. 677 ZGB**) — dieser zentrale Begriff fehlte in der
+  bisherigen Fassung ganz. Ist ein Baurecht errichtet worden, hat der
+  Bauberechtigte (und nicht der Grundeigentuemer) das Eigentum am Bau (Art. 675 und
+  779 ff. ZGB). Wird hingegen fuer einen Bau fremdes Material verwendet, erhaelt
+  automatisch der Grundeigentuemer das Eigentum am Bau und demzufolge auch an
+  diesem Material (Art. 671-673 ZGB).
+- Ragt nur ein Teil eines Gebaeudes ueber oder unter der Erdoberflaeche auf ein
+  Nachbargrundstueck (zum Beispiel weil zur Zeit des Baus die amtliche Vermessung
+  noch nicht durchgefuehrt war), sollte moeglichst auch dieser Gebaeudeteil dem
+  Eigentuemer des Gesamtgebaeudes gehoeren: Dies ist nach **Art. 674 Abs. 1 ZGB**
+  der Fall, **wenn der Eigentuemer bereits eine im Grundbuch eingetragene
+  Grunddienstbarkeit hat, welche den Ueberbau gestattet** (sei es durch Vertrag oder
+  auf einseitiges Begehren richterlich zugesprochen) — **korrigiert 2026-08-24:** die
+  bisherige Fassung beschrieb faelschlich ein Verlangensrecht des ueberbauten
+  Nachbarn; tatsaechlich beschreibt Art. 674 Abs. 1 ZGB die Rechtsfolge einer bereits
+  bestehenden Dienstbarkeit zugunsten des ueberbauenden Eigentuemers (S. 1521).
+- **22.4.2 Legalisierung des Ueberbaus:** Ragen einzelne Teile eines Gebaeudes oder
+  eines anderen Bauwerks ueber die Grenze ins Nachbargrundstueck (in der Luft, auf
+  oder unter der Erdoberflaeche), kann der verletzte Nachbar **grundsaetzlich
+  unbefristet** Beseitigung verlangen (Art. 641 Abs. 2 ZGB; Zeitschranke ergaenzt
+  Buch-Run 139), wenn er sich nicht vertraglich zur Duldung verpflichtet hat.
+  Tatbestand: indessen nicht zu verwechseln mit den an der Grenze stehenden
+  Grenzvorrichtungen (zum Beispiel Brandmauern). Der Vertrag auf Duldung eines
+  Ueberbaus kann formlos abgeschlossen werden (S. 1521/1522).
 - Kumulativ erforderlich (Art. 674 Abs. 3 ZGB — einseitiges Recht bzw. Zuweisung
   des Eigentums am beanspruchten Boden): Vorliegen einer Baute oder anderen
   Vorrichtung gemaess Art. 674 ZGB (keine Anlagen, die sich in einer blossen
@@ -215,24 +255,52 @@ Diese privatrechtlichen Schranken werden im baurechtlichen Bewilligungsverfahren
   es sei denn, der Inhalt der Dienstbarkeit decke sich mit einer oeffentlich-
   rechtlichen Baubeschraenkung (S. 1530).
 - Die Bauvorschriften des Planungs- und Baugesetzes (§ 218 Abs. 1 PBG) und die
-  entsprechenden Ausfuehrungsvorschriften → oeffentliches Recht. Sodann ist denkbar,
-  dass Nachbarn privatrechtlich groessere Grenzabstaende, Hoehenbeschraenkungen (zum
-  Beispiel etwa § 177 und 178) vereinbaren — diese Bestimmungen sind mehr als
-  oeffentlich-rechtlich. Privatrechtliche Baubeschraenkungen koennen im Grundbuch
-  eingetragen werden (S. 1530).
-- **22.8.2 Keine Beruecksichtigung von baurechtlichen Dienstbarkeiten im
-  Baubewilligungsverfahren:** Beispiel eines Villenservituts (Eigentuemer
-  verpflichten sich auf den Grundstuecken nur ein Gebaeude mit Souterrain,
-  Erdgeschoss und Dachgeschoss zu errichten; freistehende Wohnungen mehrere
-  Geschosse, kein einziges, nicht ueber acht Meter hohes Gebaeude). Alle
-  Dienstbarkeiten gehen auf Vereinbarungen zwischen zwei Nachbarn zurueck und sind
-  nicht Teil der oeffentlich-rechtlichen Bauvorschriften (BEZ 1994 Nr. 29;
-  vgl. HUSER 2016). Pruefung der Mitspracherecht (Fassadengestaltung darf nur mit
-  Zustimmung des Vorstandes des Bauamtes geaendert werden, VB.2014.00314) — die
-  Einhaltung der Dienstbarkeit ist im Baubewilligungsverfahren abgewiesen
-  (VB.2012.00810). Gepruefte werden hingegen im Baubewilligungsverfahren
-  Dienstbarkeiten, welche die Erschliessung des Baugrundstuecks betreffen (zum
-  Beispiel Wegrecht; S. 1531).
+  entsprechenden Ausfuehrungsvorschriften → oeffentliches Recht; sie begruenden
+  keine Privatrechte. Privatrechtliche Vorschriften finden sich dagegen im ZGB oder
+  im EG ZGB (vgl. etwa §§ 177 und 178). Sodann ist denkbar, dass Nachbarn
+  privatrechtlich groessere Grenzabstaende, Hoehenbeschraenkungen (zum Beispiel
+  Aussichtsservitut), Nutzungsverbote (z.B. Verbot, ein Restaurant auf einer
+  Liegenschaft zu betreiben) usw. vereinbaren, welche strenger als die
+  oeffentlich-rechtlichen Bauvorschriften sind. **Diese Bestimmungen sind nicht
+  zwingender Natur** — das heisst, dass von ihnen ohne Ausnahmebewilligung
+  (**§ 220 PBG**) abgewichen werden kann, wenn sich die betroffenen Privaten
+  entsprechend einigen (**§ 220 PBG bisher nicht erfasst, ergaenzt Buch-Run 139**).
+  Private Baubeschraenkungen sind regelmaessig in der Form von Dienstbarkeiten im
+  Grundbuch eingetragen. Mitunter finden sich im Grundbuch auch Anmerkungen zu
+  altrechtlichen Quartierbauvorschriften, die seinerzeit nach Massgabe des
+  Baugesetzes fuer Ortschaften mit staedtischen Verhaeltnissen von den betroffenen
+  Grundeigentuemern erlassen und vom Gemeindevorstand sowie Regierungsrat genehmigt
+  wurden; solche Regelungen buessten mit Inkrafttreten des PBG ihre
+  oeffentlich-rechtliche Verbindlichkeit jedoch ein, soweit sie nicht ausdruecklich
+  in die dem PBG angepasste kommunale Bau- und Zonenordnung ueberfuehrt wurden
+  (**VB.2012.00810** — Fundstelle korrigiert Buch-Run 139, siehe 22.8.2) (S. 1530).
+- **22.8.2 Keine Beruecksichtigung von bauhindernden Dienstbarkeiten im
+  Baubewilligungsverfahren** (Titel korrigiert Buch-Run 139): **Beispiel einer
+  Villenservitut** (korrigiert, bisherige Fassung war OCR-verfaelscht): Die
+  jeweiligen Eigentuemer von Kat.-Nrn. XY verpflichten sich, auf den genannten
+  Grundstuecken nur je ein Gebaeude mit Souterrain, Erdgeschoss und Dachgeschoss zu
+  erstellen; jedes Haus darf hoechstens zwei selbststaendige Wohnungen enthalten.
+  Dagegen duerfen ausser den bewilligten Haeusern je noch ein kleines, nicht ueber
+  acht Meter hohes Gebaeude (Herrschaftsstall, Automobilremise usw. oder auch ein
+  Wohnhaus) errichtet werden, das mit keinem Bauteil die Hoehe von 536 m ue. M.
+  ueberschreitet. Alle Dienstbarkeiten gehen auf Vereinbarungen zwischen zwei
+  Nachbarn zurueck und sind nicht Teil der oeffentlich-rechtlichen Bauvorschriften;
+  sie sind im Baubewilligungsverfahren nicht zu beruecksichtigen, es sei denn, ihr
+  Inhalt decke sich mit einer Beschraenkung, die auch aufgrund des oeffentlichen
+  (Bau-)Rechts ohnehin besteht — Grund: im Baubewilligungsverfahren wird
+  grundsaetzlich nur die Uebereinstimmung des Bauvorhabens mit den
+  oeffentlich-rechtlichen Bauvorschriften geprueft (**BEZ 1994 Nr. 29**; vgl. auch
+  HUSER 2016). Nicht zu beruecksichtigen ist ferner auch ein servitutarisch
+  gesichertes Mitspracherecht fuer die Fassadengestaltung — Beispiel «Die
+  Fassadengestaltung darf nur mit Zustimmung des Vorstandes des Bauamtes geaendert
+  werden» (**VB.2014.00314**, Fundstellen-Bezug korrigiert Buch-Run 139: die
+  bisherige Fassung zitierte hierfuer faelschlich VB.2012.00810, das tatsaechlich
+  die Quartierbauvorschriften-Altrecht-Passage oben belegt): im Baubewilligungs-
+  verfahren wird im Zusammenhang mit der Fassadengestaltung allein die Einhaltung
+  der oeffentlich-rechtlichen Baunormen (Aesthetikvorschriften) geprueft, fuer die
+  Ausuebung eines privatrechtlich abgestuetzten Mitspracherechts ist dort kein Raum.
+  Geprueft werden hingegen im Baubewilligungsverfahren Dienstbarkeiten, welche die
+  Erschliessung des Baugrundstuecks betreffen (zum Beispiel Wegrecht; S. 1530/1531).
 
 ### 22.9 Dienstbarkeiten im Speziellen (S. 1531 ff.)
 - **22.9.1 Aufhebung oder Aenderung von Dienstbarkeiten:** Will ein Grundeigentuemer
@@ -323,8 +391,13 @@ Diese privatrechtlichen Schranken werden im baurechtlichen Bewilligungsverfahren
   Glauben (S. 1534).
 - **BGE 139 III 404 ff.; BGE 137 III 145** — oeffentlich-rechtliche Vorgaben bei der
   Auslegung; natuerliches Publizitaetsprinzip (S. 1534).
-- **VB.2014.00314 / VB.2012.00810** — Dienstbarkeiten (Fassadengestaltung) werden im
-  Baubewilligungsverfahren nicht geprueft (S. 1531).
+- **VB.2014.00314** — servitutarisch gesichertes Mitspracherecht (Fassadengestaltung)
+  wird im Baubewilligungsverfahren nicht geprueft (S. 1531).
+- **VB.2012.00810** — altrechtliche Quartierbauvorschriften verlieren mit Inkrafttreten
+  des PBG ihre oeffentlich-rechtliche Verbindlichkeit, soweit nicht in die BZO
+  ueberfuehrt (S. 1530; Fundstellen-Zuordnung korrigiert Buch-Run 139).
+- **VB.2017.00615, E. 4.1** — rechtsgenuegende Gestaltung/Einordnung von Einfriedungen
+  gemaess § 238 PBG (S. 1521; neu erfasst Buch-Run 139).
 
 ## 5. Anwendungs-Transfer JANS (eigene Einordnung)
 
@@ -345,11 +418,16 @@ Diese privatrechtlichen Schranken werden im baurechtlichen Bewilligungsverfahren
 
 ## 6. Offene Punkte / zu verifizieren
 
-- OCR-Unschaerfen in 22.4.1 (Akzessionsprinzip / Art. 671-677 ZGB) und 22.9 — die
-  ZGB-Artikelnummern sind belegt, aber einzelne Satzpassagen sind aus den
-  Screenshots nur teilweise lesbar; bei zitierfaehiger Verwendung am Original (E-Book
-  S. 1521 f. / 1531 ff.) gegenlesen.
+- **Buch-Run 139 (2026-08-24):** die vormals als "OCR-unscharf" markierte Stelle
+  22.4.1 ist jetzt gegen einen frischen Screenshot gelesen und korrigiert (siehe
+  Frontmatter `verifiziert`); Punkt erledigt.
+- **Verbleibend ungeprueft:** 22.1, 22.2, 22.5, 22.6, 22.7 sowie 22.9.2/22.9.3 wurden
+  in diesem Lauf **nicht** gegen frische Screenshots gelesen (Zeitgruende) — Stand
+  weiterhin 2026-06-29, potenziell derselben OCR-Fehlerfamilie unterworfen wie die
+  jetzt korrigierten Stellen. Empfehlung fuer einen kuenftigen Lauf: mit demselben
+  M365-Graph-Zugriffsweg (siehe CHANGELOG Buch-Run 139) fortsetzen.
 - Verweise auf Werk-interne Seiten (S. 748 Notwegrecht, S. 1061 Strassenabstaende
-  Pflanzen) nicht nachgeschlagen — bei Bedarf separat erfassen.
+  Pflanzen, S. 874 Verkehrssicherheit Einfriedungen) nicht nachgeschlagen — bei
+  Bedarf separat erfassen.
 - Strassenabstaende von Pflanzen (§ 174 EG ZGB) detailliert → eigenes Strassen-
   Kapitel des Werks.

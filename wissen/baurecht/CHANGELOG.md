@@ -3,6 +3,50 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 139: Screenshot-Zugriffsweg fuer SharePoint-Bibliothek PL - 02_Recht_Norm gefunden (M365-Graph-Connector statt lokalem Mount); Kap. 22 (Privatrechtliche Bauvorschriften) teilweise Modell-D-wortlautgeprueft, 6 echte Korrekturen
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollstaendig abgeschlossen; Kap. 22/23 (Band 2) galten
+  seit ueber zehn Laeufen (Run 130-138) als letzte echte Buch-Destillat-Luecke, weil an keiner
+  Station ein lokaler Mount der Bibliothek `PL - 02_Recht_Norm` gefunden wurde.
+  **Konkurrenzlage:** waehrend der CHANGELOG/QUEUE-Sichtung schrieb ein weiterer aktiver
+  Claude-Prozess auf derselben Station parallel Run 138 (STWE-Wachposten) — abgewartet, bis der
+  Arbeitsbaum sauber war (Commit `ccbcc4668`), erst dann eigene Arbeit begonnen (keine
+  Schreibkollision).
+- GEFUNDEN: die Bibliothek existiert und ist ueber den bestehenden Connector
+  `connectors/m365-graph.mjs` erreichbar, ganz ohne lokalen Mount — bisher hatte niemand die
+  SharePoint-**Site** direkt aufgeloest (`--get "/sites?search=PL"` → Site "PL"; deren Drives →
+  Drive `"02_Recht_Norm"`, dessen `webUrl` irrefuehrend `PL  Immobilienpreise` als Pfadsegment zeigt
+  — das erklaert, weshalb Namenssuchen auf den Anzeigepfad bisher ins Leere liefen). Darin exakt der
+  in `buecher/CLAUDE.md` dokumentierte Pfad `01_Gesetze/02_Zuerich/Planung/SM Planungs und
+  Baurecht/` mit 781 Dateien (= die "780 Screenshot-Doppelseiten" aus `seiten-inventar.md`).
+  Download per `--token graph` (Bearer-Token) + `curl -sL .../content` (der `-L`-Redirect ist
+  zwingend, sonst 0-Byte-Datei). Zugriffsweg dauerhaft in `buecher/CLAUDE.md` dokumentiert.
+- VERIFIKATION: 6 Screenshots geladen und gelesen (S. 1514 [noch Kap. 21], S. 1520/1521 und
+  S. 1530/1531 [Kap. 22], S. 1538/1539 und S. 1544/1545 [Kap. 23 Glossar, keine §-Korrekturen
+  noetig], S. 1550 [leere Schlussseite]). **6 echte Korrekturen** in
+  `buecher/band-2/22-privatrechtliche-bauvorschriften.md`: (1) Art. 699 ZGB war am falschen Satz
+  (Zutrittsrecht-Schranke statt allgemeines Einfriedungsrecht); (2) Regel zu offenen Einfriedungen
+  (Gitter-/Palisadenzaeune, keine Abstandsvorschriften) fehlte; (3) ganzer Absatz zur
+  oeffentlich-rechtlichen Seite der Einfriedungen fehlte (§ 238 PBG, VB.2017.00615 E. 4.1,
+  Kernzonen-Hoehenbeschraenkungen, Verkehrssicherheit) — neuer Abschnitt 22.3.5; (4) 22.4.1 war
+  OCR-verfaelscht (Kernbegriff **Fahrnisbauten**/Art. 677 ZGB fehlte ganz, Wirkrichtung von
+  Art. 674 Abs. 1 ZGB war verkehrt — nicht der Nachbar verlangt eine Dienstbarkeit, sondern die
+  Norm beschreibt die Rechtsfolge einer bereits bestehenden); (5) Zeitschranke "grundsaetzlich
+  unbefristet" bei Art. 641 Abs. 2 ZGB fehlte; (6) § 220 PBG fehlte und **VB.2012.00810/
+  VB.2014.00314 waren vertauscht** (Ersteres gehoert zur Quartierbauvorschriften-Altrecht-Passage,
+  nicht zur Mitspracherecht-Passage), dazu war das Villenservitut-Beispiel OCR-verfaelscht.
+- Status bleibt bewusst `emerging` (nicht `established`) — nur 22.3-22.4 und 22.8-22.9 wurden
+  gegengelesen, 22.1/22.2/22.5-22.7/22.9.2-22.9.3 und Kap. 23 vollstaendig bleiben fuer einen
+  kuenftigen Lauf offen (jetzt mit bekanntem Zugriffsweg, keine Blockade mehr).
+- GEAENDERT `buecher/band-2/22-privatrechtliche-bauvorschriften.md` (130/52 Zeilen, additiv +
+  ersetzte Fehlpassagen), `buecher/INDEX.md` (Statuszeile ergaenzt, 3/1), `buecher/CLAUDE.md`
+  (Zugriffsweg dokumentiert).
+- REPORT `outputs/2026-08-24_buch-run139.md`.
+- STATUS Reglemente-Queue: weiterhin vollstaendig abgeschlossen (T1-T9), unveraendert durch diesen
+  Lauf. Verbleibend offen: Kap.-22-Restabschnitte + Kap. 23 (jetzt loesbar, kein Blocker mehr), die
+  Art.-24c-Abs.-2-RPG-Diskrepanz aus Run 137 (ebenfalls mit demselben Zugriffsweg loesbar, in diesem
+  Lauf nicht bearbeitet), die drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate, der
+  Baulinien- und der STWE-Revisions-Wachposten — alle unveraendert durch diesen Lauf.
+
 ## 2026-08-24 — Buch-Run 138: STWE-Revisions-Wachposten (Art. 712ebis E-ZGB) amtlich identifiziert über den offiziellen Curia-Vista-Webservice — Geschäft 26.044, Status «Eingereicht»
 - ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (letzte Bestätigung Run 137).
   Screenshot-Zugriff auf die SharePoint-Bibliothek `PL - 02_Recht_Norm` (Kap. 22/23, letzte echte

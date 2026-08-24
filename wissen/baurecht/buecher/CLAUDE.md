@@ -31,6 +31,19 @@ buecher/
 Quell-Screenshots liegen auf SharePoint (nicht im Repo):
 `PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/SM Planungs und Baurecht/`
 
+**Zugriffsweg (gefunden Buch-Run 139, 24.08.2026):** ein lokaler Mount dieser Bibliothek war an
+keiner bisher geprueften Station verfuegbar (~10 Laeufe scheiterten daran, Kap. 22/23 zu lesen).
+Funktionierender Weg stattdessen ueber den bestehenden Connector, ohne lokalen Mount:
+1. Site aufloesen: `node connectors/m365-graph.mjs --get "/sites?search=PL"` → Site "PL".
+2. Drives der Site: `node connectors/m365-graph.mjs --get "/sites/{site-id}/drives"` → Drive
+   `"02_Recht_Norm"` (der `webUrl` zeigt irrefuehrend `PL  Immobilienpreise` als Pfadsegment —
+   deshalb schlaegt eine Namenssuche auf den Anzeigepfad fehl, nicht auf den Site-/Drive-Namen).
+3. Ordner/Dateien: `--get "/drives/{drive-id}/root:/01_Gesetze/02_Zuerich/Planung/SM Planungs und Baurecht:/children?\$top=999"`.
+4. Download: Bearer-Token holen (`node connectors/m365-graph.mjs --token graph`), dann
+   `curl -sL -H "Authorization: Bearer $TOKEN" "https://graph.microsoft.com/v1.0/drives/{drive-id}/root:/{urlencodierter-pfad}:/content" -o datei.jpg`
+   — **`-L` ist zwingend**, der Endpunkt liefert einen 302-Redirect auf die eigentliche
+   Download-URL, ohne `-L` entsteht eine 0-Byte-Datei.
+
 ## Destillat-Format (jede Datei in band-1/ band-2/)
 
 Frontmatter: `name`, `kapitel`, `band`, `seiten`, `shots`, `paragraphen` (zitierte §§),
