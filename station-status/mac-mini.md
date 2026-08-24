@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 01:32:41
+Stand: 25.08.2026 01:42:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 25.08.2026 01:32:41
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 36f2bdb03 nas-selfcommit: 4 Datei(en) 2026-08-25 01:30
+- e688180ac normen Run 61: drei unentdeckte DE-Destillat-Duplikate (N61-1), Methodenbefund zur Checkbox-Zaehlung (N61-2), Negativbefund zur N60-1-Hypothese (N61-3); vier Marker belegt korrigiert, drei einstimmige Agenten-Fehlbefunde durch Gegenpruefung abgefangen
