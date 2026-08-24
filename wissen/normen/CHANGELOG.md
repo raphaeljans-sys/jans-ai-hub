@@ -1,3 +1,29 @@
+## 2026-08-24 — SIA-Sweep, Fortsetzung ~08:39 Uhr — zehnte unabhängige Sättigungsverifikation
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). NAS bei Session-Start
+nicht gemountet; `wissen/` und `rules/` liegen als echte git-Ordner im SSD-Repo vor, dort
+gearbeitet (Rule `git-auto-push.md`).
+
+**Kollisionscheck:** paralleler Prozess auf derselben KB, aber anderes Deliverable
+(`wiki/QUESTIONS.md`) — deshalb hier bewusst nicht angefasst.
+
+**Nachmessung:** `training/norm-inventar.md` weiterhin 0 offene Positionen; `wiki/REGISTER.md`
+weiterhin 59 „Kein Volltext im Haus"-Zeilen, Stichprobe (SIA 106/113/118-Serie, 2000er-
+Merkblattblock) bestätigt: jede belegt mit Produktdatenblatt, Preis, Gültigkeitsdaten, Rest
+ausnahmslos „Beschaffung Bring-Schuld". Keine neuen/geänderten Rohdateien seit der neunten
+Verifikation (07:30 Uhr). Damit **zehnte unabhängige Bestätigung** derselben Sättigung — kein
+fachlicher Ertrag über die neun Vorläufe hinaus möglich, deshalb keine volle Redundanz-Runde.
+
+**Diff-Gegenprobe (`git diff --numstat`):** rein additiv, 0 Löschungen. Bericht:
+`outputs/2026-08-24_sia-sweep-zehnte-unabhaengige-saettigungsverifikation-0839uhr.md`.
+
+**Empfehlung unverändert:** SIA-Sweep bis zu Raphaels Kauf-/Freigabeentscheiden (59 Register-
+zeilen shop.sia.ch/VSS-Shop, VSS-Kundendienst-Kontakt SN 641 400 mailfreigabepflichtig)
+pausieren.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: SIA 266/2:2012 Gültigkeit primärverifiziert + zwei Korrigenda gefunden
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
