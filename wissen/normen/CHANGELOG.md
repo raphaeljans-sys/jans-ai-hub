@@ -1,3 +1,61 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: SIA 266/2:2012 Gültigkeit primärverifiziert + zwei Korrigenda gefunden
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (Eintrag
+unmittelbar darunter, SN 640 052) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** drei Hintergrundprozesse mit `claude -p`
+aktiv, davon **zwei mit textidentischem Normen-QUESTIONS-Auftrag** (PID 30395 seit 8:27, PID
+34081 seit 8:34) sowie ein dritter an `wissen/energie` (PID 33206, keine Berührung). Da nicht
+zweifelsfrei feststellbar war, welcher der beiden identischen Prozesse der eigene hostende ist,
+wurde dieser Lauf **vorsorglich rein additiv nur in `wiki/QUESTIONS.md`** gehalten —
+`wiki/REGISTER.md`, `destillate/` und `training/norm-inventar.md` bewusst nicht angefasst
+(Kollisionsgefahr mit einem echten Parallel-Lauf, Rule `sync-kanonische-quelle`).
+
+**Ausgangslage:** `grep` auf offene Marker findet weiterhin rund 30 Fundstellen; eine erneute
+Stichprobe (N57-2/N57-4, N-R40-7-Grauton, N53-2000er-Kaskade 2003-15/2008-15/2011-15, SVGW-
+Scope-Frage) zeigt: **alle geprüften Zeilen sind bereits an anderer Stelle im selben Dokument
+geschlossen** (Konvention: Ursprungswortlaut bleibt stehen, Auflösung steht als eigener
+✅-Absatz meist unmittelbar davor) — reine Vorwärtsreferenzen, kein Handlungsbedarf, nicht
+weiter dokumentiert (Rule `wissens-ruecklauf`: kein Pflicht-Rauschen bei Wiederholungsbefund).
+
+**Echter neuer Fund — N53-1 (Z. 1341, Ursprungsnotiz Run 53, 16.08.2026): SIA 266/2:2012
+«Natursteinmauerwerk» nicht im Haus, Gültigkeit bisher nicht primärverifiziert.** Zwei
+unabhängige Primärquellen abgerufen (WebFetch, keine Suchmaschinen-Zusammenfassung):
+1. `shop.sia.ch/normenwerk/ingenieur/266-2_2012_d/D/Product` (SN 505266/2) — **SIA 266/2:2012
+   ist weiterhin die aktuell geltende Ausgabe** (gültig ab 01.01.2012, 60 S., 170.00 CHF, kein
+   Nachfolger), löste ihrerseits SIA V178:1996 ab (archiviert 31.12.2011 — deckt sich mit dem
+   bereits im Bestand vermerkten Datum). Die bestehende Beschaffungs-Empfehlung bleibt also
+   richtig gezielt, kein Fehlkauf-Risiko wie beim SIA-416/1-Fund vom 23.08.2026.
+2. `espazium.ch/de/aktuelles/korrigenda-norm-sia-natursteinmauerwerk` (Fachartikel) —
+   **Korrigenda C1:2024**, von der SIA-Kommission Tragwerksnormen Ende Juni 2024 beschlossen,
+   **gültig seit 01.07.2024**, betrifft **Ziff. 3.1.8.1 und Anhang B (Steinbearbeitungen)**,
+   kostenlos im SIA-Shop.
+
+**Nicht established, ehrlich offen gelassen:** Die Shop-Produktseite führt zusätzlich ein
+**zweites Korrigenda-Dokument C2** («Revision 2», Revisionsdatum 01.11.2025) — Inhalt und
+genaues Gültigkeitsdatum von C2 sind mit den verfügbaren kostenlosen Mitteln (WebFetch-
+Zusammenfassung der Shop-Seite, WebSearch ohne Sekundärquelle zu C2) nicht ermittelbar; nicht
+geraten, sondern als offener Rest markiert.
+
+**Korrektur in `wiki/QUESTIONS.md` (additiv, Ursprungswortlaut unangetastet):** Bei N53-1 einen
+neuen Absatz «Gültigkeit primärverifiziert 24.08.2026» eingefügt mit beiden Funden und dem
+Hinweis, bei künftiger Beschaffung C1 und C2 zusammen mit dem Grundtext zu laden, damit ein
+künftiges Destillat nicht von Beginn an bei Ziff. 3.1.8.1/Anhang B veraltet ist.
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` 19/0 (reiner additiver
+Nachtrag, kein Wortlaut entfernt). Keine weiteren Dateien geändert.
+
+**Einordnung:** Ein Lauf, ein primärquellenfester Fund (Gültigkeit + C1) plus ein ehrlich
+offen gelassener Rest (C2) auf einer Zeile, die zuvor reiner unverifizierter Beschaffungsposten
+war. Kein Kauf ausgelöst — SIA 266/2:2012 samt Korrigenda bleibt Bring-Schuld Raphael. Die
+übrigen ~30 offenen Zeilen wurden nach Stichprobe nicht neu bearbeitet (bereits an anderer
+Stelle geschlossen oder unveränderte Bring-Schuld/Scope-Entscheidung), um keine Zeit auf
+Wiederholungsbestätigung zu verwenden, während zwei weitere Prozesse dieselbe Datei parallel
+bearbeiten.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: SN 640 052 Nachfolgenorm dritte unabhängige Negativ-Bestätigung
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit

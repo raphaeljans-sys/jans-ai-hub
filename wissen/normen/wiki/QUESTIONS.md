@@ -1345,6 +1345,25 @@ Ausschreibungs- und Vertragsbedingungen für Natursteinmauerwerk sind belegt, di
 Anforderungen nicht. Zugleich Nachfolgenorm der per 31.12.2011 ersetzten Empf. SIA 178:1996.
 Beschaffungsposten, gleiche Klasse wie N52-5 und die sechs ABB aus Run 51.
 
+> **Gültigkeit primärverifiziert 24.08.2026 (QUESTIONS-Abarbeitung).** Produktseite
+> `shop.sia.ch/normenwerk/ingenieur/266-2_2012_d/D/Product` (WebFetch, SN 505266/2) bestätigt:
+> **SIA 266/2:2012 ist weiterhin die aktuell gültige Ausgabe** (gültig ab 01.01.2012, 60 S.,
+> 170.00 CHF), kein Nachfolger, löste ihrerseits SIA V178:1996 ab (archiviert 31.12.2011,
+> deckt sich mit dem bereits im Ursprungswortlaut oben genannten Datum). Die Beschaffungs-
+> Empfehlung bleibt also richtig gezielt — kein Fehlkauf-Risiko wie beim SIA-416/1-Fund.
+> **Neu, noch nicht im Bestand berücksichtigt: zwei Korrigenda seit Erstpublikation.**
+> **C1:2024** ist primärquellenfest belegt (Espazium-Fachartikel
+> `espazium.ch/de/aktuelles/korrigenda-norm-sia-natursteinmauerwerk`, WebFetch): von der
+> SIA-Kommission Tragwerksnormen Ende Juni 2024 beschlossen, gültig seit 01.07.2024, betrifft
+> **Ziff. 3.1.8.1 und Anhang B (Steinbearbeitungen)**, kostenlos unter `shop.sia.ch/normenwerk`.
+> **C2** wird auf derselben Shop-Produktseite als zweites Korrigenda-Dokument geführt
+> (Produktseite nennt „Revision 2", Revisionsdatum 01.11.2025) — Inhalt und genaues
+> Gültigkeitsdatum von C2 sind **nicht** primärquellenfest ermittelt (Shop-Seite nur als
+> WebFetch-Zusammenfassung gelesen, keine eigene Sichtung des C2-Dokuments); WebSearch fand
+> keine Sekundärquelle dazu. **Bei Beschaffung des Volltextes: neben SIA 266/2:2012 auch C1
+> und C2 laden**, sonst wäre das Destillat bei Ziff. 3.1.8.1/Anhang B und ggf. der C2-Stelle
+> von vornherein veraltet.
+
 **N53-2 — GESCHLOSSEN (17.08.2026, Run 54).** Beide Aufträge erledigt.
 - **SIA 416/1:2007:** Die Abdeckungsrichtung ist auf Kap. 0-2 und Kap. 4-5/Anhänge nachgeholt
   (7 Segment-Agenten über S. 4-22 und S. 26-40). Ergebnis **37 Kern- und 20 Nebenlücken**,
