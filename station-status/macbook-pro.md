@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.08.2026 19:00:35
+Stand: 24.08.2026 19:10:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:38)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 24.08.2026 19:00:35
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 42181462 nas-selfcommit: 2 Datei(en) 2026-08-24 19:00
+- 43179d54 Chronik 260824h: Bildschirmschoner MacBook Pro auf 3 h; SleepDisabled 1 dokumentiert
