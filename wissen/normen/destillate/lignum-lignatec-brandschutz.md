@@ -697,6 +697,19 @@ werden.
     bei Beherbergungsbetrieben [a] und bei Bauten mit grosser Personenbelegung/Verkaufsgeschäften
     [c] (der Bodenbelag Korridor bleibt dort grau; Refuter-Korrektur 260729 Run 36, vom
     Hauptprozess am 300-dpi-Rendering S. 15 selbst nachgezählt).
+  - ⚠ **Spalte «Tragwerke nbb» (Block 4-8) — bisher in keiner Runde erfasst, nachgetragen
+    24.08.2026 (QUESTIONS-Abarbeitung, L41-4):** Bei nicht brennbarem Tragwerk (nbb) ist
+    innerhalb der Dämmschicht-Gruppe **nur die Unterspalte Aussenwand grau** (Anwendung von
+    Holz nur unter bedingten Auflagen gemäss Brandschutzrichtlinie VKF), **Innenwand und
+    Decke sind durchgehend weiss** (freie Holzanwendung, BKZ ≥ 4.2, keine Auflage) — und zwar
+    für **alle neun Nutzungszeilen ausser Wohnbauten EFH/REFH** (dort weiss wie sonst auch).
+    Diese Asymmetrie (nur Aussenwand eingeschränkt, Innenwand/Decke frei) steht in keiner
+    bisherigen Destillat-Fassung; plausibler Grund ist die Brandausbreitung über die Fassade,
+    die bei Innenbauteilen nicht in gleicher Weise greift, aber das ist eine Einordnung, keine
+    Quellenaussage — die Quelle selbst nennt nur die Farbcodierung, keine Begründung.
+    Gelesen am 300-dpi-Rendering S. 15 (`pdftoppm -r 300`), Original-Kopie
+    `AR - 01 Projekte/2414 THALWIL/06 Reglemente/_Archiv/11 Brandschutz/Lignatec/
+    Lignatec_brandschutz.pdf`, gegen alle zehn Nutzungszeilen einzeln geprüft.
     Bereits im Block **1-3 Geschosse** ist die Dämmschicht **Aussenwand** bei
     Beherbergungsbetrieben [a] blau (alle neun übrigen Nutzungszeilen dort weiss) — die frühere
     Formulierung «bei 4-8 Geschossen zusätzlich die Dämmschichten» suggerierte fälschlich, im

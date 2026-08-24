@@ -1,3 +1,23 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: L41-4 Fortsetzung — Lignatec Tab. 5 zellenweise gegen Original geprüft, Spalte «Tragwerke nbb» nachgetragen
+
+**Auftrag:** Fortsetzung derselben Aufgabe (weitere offene Fragen in `wiki/QUESTIONS.md`
+abarbeiten, Fundstelle je Aussage mit Norm/Ausgabe/Ziffer, nur `established` zitierfähig).
+CHANGELOG und Report des unmittelbar vorangegangenen Laufs (dieser Tag, Tabelle 3) zuerst
+gelesen, dort weitergemacht: Tabelle 5 (S. 15) zellenweise gegen das Original gehalten.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 55942 (identischer
+Auftragstext) ist der hostende Prozess dieser Session. PID 54781 (`wissen/baurecht`) und
+PID 54548 (`wissen/energie`) laufen parallel, keine Berührung von `wissen/normen`.
+
+**Ergebnis:** Alle im Destillat behaupteten Tabelle-5-Zellwerte am 300-dpi-Rendering S. 15
+bestätigt (inkl. der Run-33/36-Refuter-Korrekturen), keine Abweichung gefunden. **Neuer Fund:**
+Spalte «Tragwerke nbb» (Block 4-8) war in keiner der neun vorherigen Runden erfasst —
+nachgetragen: Aussenwand grau, Innenwand/Decke weiss, für alle Nutzungszeilen ausser
+Wohnbauten EFH/REFH. Tabelle 4 weiterhin nicht neu gelesen (letzte volle Runde 260730/Run 36,
+drei Wochen alt) — bleibt offen. `destillate/lignum-lignatec-brandschutz.md` und
+`wiki/QUESTIONS.md` additiv nachgeführt. Report:
+`outputs/2026-08-24_questions-abarbeitung-l41-4-tabelle5.md`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: L41-4 (Lignatec Tab. 3) teilbearbeitet — zwei Zeilen nachgetragen, R90-Eskalation ergänzt
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
