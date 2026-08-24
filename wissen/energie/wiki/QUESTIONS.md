@@ -2,6 +2,55 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24s — A-BLIND: `anergienetz-kalte-fernwaerme-ch` — Rechtsrahmen SZ am kEnG/kEnV-Original verifiziert, HTTP-403-Blockade war ein Werkzeugproblem
+
+Auftrag: A-BLIND-Bestand fortsetzen (18-29-Backlink-Bereich), Anschluss an 24q/24r. Eigene
+Backlink-Zählung nachgebaut (`grep -o '\[\[[^]]*\]\]'` über `wiki/*.md` + `destillate/*.md`,
+gefiltert auf existierende Destillate): `[[anergienetz-kalte-fernwaerme-ch]]` (21 Backlinks) trug
+seit Run 90 (25.07.2026) den offenen Punkt «Kanton SZ: Seite … lieferte HTTP 403 — kein SZ-Bezug
+verifizierbar» — status war deshalb weiterhin `emerging`, obwohl der ZH-Rechtsrahmen bereits seit
+Run 87 `established` ist.
+
+Per WebSearch die tatsächlichen sz.ch-PDF-URLs gefunden (`sz.ch/public/upload/assets/5836/
+420_100.pdf` für kEnG SRSZ 420.100, `.../32457/420_111.pdf` für kEnV SRSZ 420.111) und per `curl`
++ `pdftotext -layout` (Homebrew-Pfad `/opt/homebrew/bin/pdftotext`, im PATH fehlend) vollständig
+geladen und gelesen (10 bzw. 22 Seiten). **Fund:** der HTTP 403 aus Run 90 war eine falsch geratene
+Asset-ID, kein genereller Blockzugriff — die korrekten URLs sind per `curl` problemlos erreichbar.
+**Ergebnis: Bestätigung, kein Zitierfehler.** § 5a/§ 5b kEnG (wortgleich am Original geprüft) sind
+reine Behörden-/Energieversorger-Mitwirkungspflicht für die kantonale Energieplanung — keine
+Grundeigentümer-Anschlusspflicht analog § 295 PBG ZH. § 24f kEnV (Kapitel VII, Wärmeerzeugerersatz)
+lässt einen Fernwärmeanschluss nur als freiwillige Ausnahme-Erfüllungsoption zu (Abs. 3 lit. b,
+Anschlussvertrag innert 3 Jahren), zusätzlich als förderfähige Massnahme M-07/IP-07 im
+Massnahmenkatalog. Deckt sich wortgleich mit dem bereits primärquellen-verifizierten
+Schwesterdestillat `[[waermeplanung-kommunal-zh-sz]]` (§ 5a/§5b dort bereits identisch zitiert) —
+hier zusätzlich unabhängig selbst am Original nachgeprüft statt nur über den Schwesterartikel
+übernommen.
+
+Eingearbeitet: `destillate/anergienetz-kalte-fernwaerme-ch.md` (Frontmatter quelle/gelesen/
+datenstand/status/last_updated ergänzt, neuer Abschnitt «Rechtsrahmen SZ», Offene-Punkte-Zeile
+zu SZ geschlossen, Querbezug zu `waermeplanung-kommunal-zh-sz` ergänzt), `destillate/INDEX.md`
+(neue Zeile), `wiki/BAUHERREN-FAQ.md` F111 (SZ-Absatz neu).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv (neue Abschnitte/
+Zeilen, keine Löschung von Bestand ausser der ersetzten Frontmatter-Zeilen). **Hinweis:** der
+lokale `auto-sync`-launchd-Prozess auf diesem Mac hat die drei Dateien während dieses Laufs
+bereits automatisch committet und gepusht (Commit `79b822b2b`, gemeinsam mit einem parallel
+laufenden `normen`-KB-Lauf) — nicht durch diese Session selbst ausgelöst.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand jetzt ein weiterer Kandidat geprüft (grobe Schätzung
+weiterhin, wie in 24q/24r: rund 26 von 39 im 18-29-Backlink-Bereich offen — die genaue Zahl
+schwankt je nach Lauf leicht, weil neue Destillate laufend dazukommen und die Zählmethode
+Rundungsfehler hat). Öffentlich zugängliche, noch ungeprüfte Kandidaten im 18-29-Backlink-Bereich
+mit konkretem
+Primärquellen-Zugang: `wpz-buchs-feldmessung-jaz-2016-2019` (25, bereits primärquellen-destilliert,
+prüfen ob als A-BLIND-Fall überhaupt noch offen), `bvv-zh-meldeverfahren-klimaanlagen-
+waermepumpen` (21, bereits established mit Originalwortlaut — vor Auswahl prüfen, ob wirklich noch
+offen), `sia-181-schallschutz-anforderungswerte` (20), `haushaltgeraete-effizienz-beschaffung-
+topten` (20), `graue-energie-betriebsenergie` (20, bereits mehrfach A-BLIND-gegengeprüft),
+`fenster-energieetikette-fea-bfe` (20, bereits über Zweitquelle bestätigt). `minergie-
+zertifizierung-workflow` (29) hat laut 24o/24p noch offen geflaggte Prozesskapitel — ebenfalls ein
+legitimer Anschluss.
+
 ## 2026-08-24r — Periodische Nachprüfung: Stand PBG-Revision «erleichtertes Bauen im Bestand» weiterhin ohne Kantonsratsschritt (Negativbefund bestätigt)
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
@@ -5301,6 +5350,18 @@ die KB widerspricht sich selbst.
   wo die zuerst zitierte Quelle tot ist, traegt ein unabhaengiger Zweitmirror (andere Kantons-
   Energiefachstelle, dieselbe Vollzugshilfe) dieselbe Beweiskraft wie das Original, sofern
   Fusszeile UND Metadaten uebereinstimmen.
+
+- [x] **A-BLIND, Fortsetzung 24.08.2026: `[[anergienetz-kalte-fernwaerme-ch]]` (21 Backlinks),
+  Rechtsrahmen SZ am kEnG/kEnV-Original verifiziert.** Der bisherige offene Punkt «SZ-Seite lieferte
+  HTTP 403» stellte sich als falsch geratene Asset-URL heraus, kein genereller Zugriffsblock — die
+  amtlichen PDFs (kEnG SRSZ 420.100, kEnV SRSZ 420.111) waren per `curl` mit korrekter Asset-ID
+  problemlos ladbar. Ergebnis: Bestätigung, kein Zitierfehler — § 5a/§ 5b kEnG sind reine Behörden-/
+  Energieversorger-Mitwirkungspflicht (keine Grundeigentümer-Anschlusspflicht), § 24f kEnV lässt
+  einen Fernwärmeanschluss nur als freiwillige Ausnahmeoption zu. Deckt sich wortgleich mit dem
+  bereits primärquellen-verifizierten Schwesterdestillat `[[waermeplanung-kommunal-zh-sz]]`, hier
+  aber unabhängig selbst am Original nachgeprüft. Rechtsrahmen ZH+SZ jetzt vollständig established
+  (nur die CHF/m²-Kennzahl, n=1, bleibt offen). Details: CHANGELOG 24s. **A-BLIND-Bestand: rund 26
+  von 39 im 18-29-Backlink-Bereich weiterhin offen** (grobe Schätzung, siehe 24q/24r).
 
 - [ ] **A-BLIND (P1 fuer die Methode): keine der sechs Dimensionen hat eine Originalquelle
   geoeffnet.** Das Audit sagt, dass die KB sich selbst widerspricht — es sagt nicht, ob ein

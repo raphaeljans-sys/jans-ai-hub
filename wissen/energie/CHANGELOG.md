@@ -1,5 +1,81 @@
 # CHANGELOG
 
+## 2026-08-24s — A-BLIND: `anergienetz-kalte-fernwaerme-ch` — Rechtsrahmen SZ am kEnG/kEnV-Original verifiziert, alte HTTP-403-Blockade war ein Werkzeugproblem
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. Anschluss an CHANGELOG-Eintrag 24r («Übrige A-BLIND-
+Kandidaten aus 24q unverändert offen … alle drei bereits established mit primärquellen-
+Volltextlesung, daher als A-BLIND-Kandidaten fraglich — vor Auswahl prüfen, ob tatsächlich noch
+ungelesene Primärquellen offen sind»). **Betriebslage:** `wissen/energie/` lokal git-getrackt und
+vollständig vorhanden (NAS-Mount-Status irrelevant). `ps aux` vor Beginn geprüft: mindestens ein
+weiterer `claude -p`-Prozess mit identischem Energie-Prompt lief parallel (Wrapper-Namen
+`mschub801`/`mschub805`) — `git diff --numstat` nach jedem Schreibvorgang geprüft, keine Kollision
+aufgetreten. Ein lokaler `auto-sync`-launchd-Prozess auf diesem Mac hat während dieses Laufs
+selbständig committet und gepusht (Commit `79b822b2b`, «auto-sync [Macmini]: 6 Dateien geaendert»,
+enthielt drei Dateien dieses Laufs zusammen mit einem parallelen `normen`-KB-Lauf) — dieser Lauf
+selbst hat keinen `git commit`/`git push` ausgeführt, wie im Auftrag verlangt.
+
+Eigene Backlink-Zählung nachgebaut (`grep -o '\[\[[^]]*\]\]'` über `wiki/*.md` + `destillate/*.md`,
+gefiltert auf existierende Destillate-Dateinamen; 39 Destillate im 18-29-Backlink-Bereich). Die drei
+von 24r zurückgestellten Kandidaten (`pv-marktzahlen-kosten-ch-2025`, `muken-2025-modul-7-
+betriebsoptimierung-hlkkse`, `ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025`)
+sowie `fernwaerme-anschlusspflicht-zh` und `geak-klassengrenzen-relative-klassierung` (beide laut
+Register bereits primärquellen-/adversarial verifiziert) übersprungen. **Gewählt:
+`[[anergienetz-kalte-fernwaerme-ch]]`** (21 Backlinks) — der ZH-Rechtsrahmen ist seit Run 87
+(24.07.2026) `established`, der Gesamtstatus blieb aber `emerging` wegen eines expliziten offenen
+Punkts: «Kanton SZ: Seite zur kommunalen Energieplanung lieferte HTTP 403 — kein SZ-Bezug
+verifizierbar» (Run 90, 25.07.2026).
+
+Per WebSearch die tatsächlichen sz.ch-PDF-URLs gefunden (`sz.ch/public/upload/assets/5836/
+420_100.pdf` = kEnG SRSZ 420.100, `.../32457/420_111.pdf` = kEnV SRSZ 420.111) und direkt per
+`curl` heruntergeladen — beide luden mit HTTP 200 (63 KB bzw. 126 KB, 10 bzw. 22 Seiten). **Erster
+Fund:** der frühere HTTP 403 war eine falsch geratene Asset-ID beim eigenen Probe-Versuch, kein
+genereller Zugriffsblock von sz.ch — die korrekten URLs sind ohne Weiteres per `curl` erreichbar
+(kein Browser-Zugriff nötig). Mit `pdftotext -layout` (Homebrew-Pfad `/opt/homebrew/bin/pdftotext`,
+war nicht im PATH) vollständig extrahiert und gezielt auf Anschluss-/Netz-/Planungsbegriffe geprüft.
+
+**Zweiter Fund (Sachfrage):** § 5a kEnG («Der Kanton führt eine Energieplanung. Diese: a) enthält
+eine Beurteilung des aktuellen Bedarfs und Angebots an Energie im Kanton; b) liefert … die
+Entscheidungsgrundlagen für Massnahmen der Raumplanung und der Projektierung von Anlagen; c) dient
+den Gemeinden, Bezirken und den mit der Energieversorgung betrauten Unternehmen als Grundlage für
+ihre Energieplanung») und § 5b kEnG (Mitwirkungspflicht der Gemeinden/Bezirke/Energieversorger)
+sind reine Behörden-/Versorger-Normen — **keine Grundeigentümer-Anschlusspflicht**, anders als
+§ 295 Abs. 2 PBG ZH. Der Wortlaut deckt sich exakt mit dem bereits primärquellen-verifizierten
+Schwesterdestillat `[[waermeplanung-kommunal-zh-sz]]` (dort schon am 25.07.2026 dieselben zwei
+Paragraphen zitiert) — hier zusätzlich unabhängig selbst am kEnG/kEnV-Original nachgeprüft statt
+nur über den Schwesterartikel übernommen. In der kEnV taucht ein Fernwärmeanschluss nur zweimal auf:
+als freiwillige Ausnahme-Erfüllungsoption beim Wärmeerzeugerersatz (§ 24f Abs. 3 lit. b, Kapitel VII
+«Erneuerbare Wärme beim Wärmeerzeugerersatz» — Anschlussvertrag innert 3 Jahren, nur bei
+ausserordentlichen Verhältnissen statt Standardlösung) und als förderfähige Massnahme M-07 (bis
+70 kWth, Fr. 4'000.– + Fr. 200.–/kW) bzw. IP-07 (über 70 kWth) im Massnahmenkatalog. **Ergebnis:
+Bestätigung, kein Zitierfehler** — der Rechtsrahmen SZ ist jetzt primärquellenbelegt, nicht nur
+über das Schwesterdestillat übernommen, und der Gesamtstatus kann auf «Rechtsrahmen ZH+SZ
+established» präzisiert werden (die CHF/m²-Kennzahl, n=1, bleibt der einzige verbleibende
+emerging-Punkt).
+
+Eingearbeitet: `destillate/anergienetz-kalte-fernwaerme-ch.md` (Frontmatter quelle/gelesen/
+datenstand/status/last_updated erweitert, neuer Abschnitt «Rechtsrahmen SZ — amtlich verifiziert»,
+Offene-Punkte-Zeile zu SZ geschlossen, Querbezug zu `waermeplanung-kommunal-zh-sz` ergänzt),
+`destillate/INDEX.md` (neue Zeile für diesen Lauf), `wiki/BAUHERREN-FAQ.md` F111 (neuer SZ-Absatz:
+«Nein» statt der bisher rein ZH-fokussierten Antwort), `wiki/QUESTIONS.md` (neue `[x]`-Zeile
+oberhalb der A-BLIND-Meta-Zeile, neuer Top-Eintrag 24s, Backlink-Zähler nachgeführt).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `anergienetz-kalte-fernwaerme-ch.md`
++45/-9 (additiv, Frontmatter-Zeilen ersetzt statt gelöscht), `destillate/INDEX.md` +1/-0,
+`wiki/BAUHERREN-FAQ.md` +9/-2 (Ergänzung, kein Textverlust), `wiki/QUESTIONS.md` +61/-0 —
+durchgehend additiv, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand grobe Schätzung weiterhin rund 26 von 39 im
+18-29-Backlink-Bereich offen (Zählmethode hat Rundungsfehler, siehe 24q/24r). Öffentlich
+zugängliche, noch ungeprüfte Kandidaten mit konkretem Primärquellen-Zugang: `wpz-buchs-
+feldmessung-jaz-2016-2019` (25, bereits primärquellen-destilliert — vor Auswahl prüfen, ob als
+A-BLIND-Fall überhaupt noch offen), `bvv-zh-meldeverfahren-klimaanlagen-waermepumpen` (21, bereits
+established mit Originalwortlaut — ebenfalls erst prüfen), `sia-181-schallschutz-
+anforderungswerte` (20), `haushaltgeraete-effizienz-beschaffung-topten` (20), `fenster-
+energieetikette-fea-bfe` (20, bereits über Zweitquelle bestätigt). `minergie-zertifizierung-
+workflow` (29) hat laut 24o/24p noch offen geflaggte Prozesskapitel — ein legitimer Anschluss ohne
+neue Kandidatenwahl.
+
 ## 2026-08-24r — Periodische Nachprüfung: Stand PBG-Revision «erleichtertes Bauen im Bestand» weiterhin ohne Kantonsratsschritt (Negativbefund bestätigt)
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
