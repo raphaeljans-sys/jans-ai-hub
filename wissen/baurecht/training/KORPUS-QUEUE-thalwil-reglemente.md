@@ -762,6 +762,27 @@ unverifizierbaren Zitate und der Baulinien-Wachposten bleiben unverändert offen
 Modell-D-Kandidat nach `last_updated` steht [[geschosse-und-kniestock]] (2026-07-27) oder
 [[grundlagen-planungs-baurecht]] (2026-08-03) an; sonst regulärer `wissenscheck`-Turnus.
 
+**Run 131 (2026-08-24, ausserhalb T1-T9):** Modell-D-Stichprobe an
+[[grundlagen-planungs-baurecht]] ([[geschosse-und-kniestock]] bleibt bewusst zurückgestellt,
+Run 130s Begründung: drei offene `speculative`-Auslegungsfragen ohne Praxis, kein reiner
+Beleg-Nachvollzug). Sieben BV-Artikel (Art. 5/8/9/26/27/36/75) frisch gegen Fedlex geprüft
+(neu `raw/260824_amtlich_ch_bv-art5-8-9-26-27-36-75.md`) — **7/7 CONFIRMED wortgleich**, kein
+Fehler. Drei ZGB-Einleitungsartikel (Art. 2/3/8) ebenso gegen Fedlex geprüft — **3/3 CONFIRMED**.
+§§ 220/321/328 PBG gegen den bestehenden Rohtext geprüft — **CONFIRMED**, unberührt von
+Nachtrag 134. Kein Fehler gefunden, aber ein echter Inhaltsfund: Art. 26/27 BV und
+Art. 1–10 ZGB standen seit der Ersterstellung als Quelle im Frontmatter, ohne je im
+Fliesstext eingebaut zu sein — der Buch-Beleg (`01-grundlagen.md`, Kap. 1.4.5/1.4.6, S. 97 f.)
+lag die ganze Zeit bereit. Nachgetragen: Eigentumsgarantie/Wirtschaftsfreiheit als Basis des
+behördlichen Ermessensspielraums bei § 238 PBG (Ästhetik), neue Sektion «Weitere Grundsätze»
+zu Treu-und-Glauben/gutem-Glauben/Beweislast/nulla-poena-sine-lege. Art. 7 Ziff. 1 EMRK blieb
+unverifiziert (Fedlex liefert für die EMRK an dieser Station nur die App-Hülle, weder über
+`www.` noch `data.`-Subdomain) — offen vermerkt, nicht als geprüft ausgegeben. Report
+`outputs/2026-08-24_buch-run131.md`. **Nächster Schritt:** [[geschosse-und-kniestock]] bleibt
+der letzte fachlich zurückgestellte Kandidat; sonst kein offener Modell-D-Kandidat mehr in
+dieser KB ausser den drei Datenbank-bedingt unverifizierbaren Zitaten, dem Baulinien-
+Wachposten und einem allfälligen Ausweg für den EMRK-Fedlex-Zugriff (Kandidat für
+`docs/referenz/fedlex-volltexte.md`); sonst regulärer `wissenscheck`-Turnus.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

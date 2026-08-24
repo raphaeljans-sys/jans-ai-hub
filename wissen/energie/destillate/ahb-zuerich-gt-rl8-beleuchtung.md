@@ -5,7 +5,7 @@ ausgabe: "Version 2.1, Juli 2008 (freigegeben durch die Geschäftsleitung AHB am
 gelesen: "Seiten 1-4 (vollständiges Dokument), 2026-08-03"
 datenstand: "2008 ⚠⚠ Alterskorpus mit einem belegten Totverweis (Aktualitaetspruefung Run 122, 03.08.2026): **SIA 380/4:2006 ist archiviert (gueltig bis 31.07.2019)** und wurde aufgeteilt — fuer Beleuchtung gilt heute **SIA 387/4:2023 (gueltig ab 01.08.2023)**, daneben SIA 2056:2019. Damit hat die im Dokument beschriebene **MINERGIE-Skala «drei Viertel zwischen Grenzwert und Zielwert SIA 380/4» keine gueltige Bezugsgroesse mehr und ist nicht mehr rechenbar**. Das Nachweistool www.energycodes.ch ist nicht mehr erreichbar; im Kt. Zuerich laeuft der Nachweis Beleuchtung seit 01.01.2026 ueber Formular EN-111 auf der Plattform EVEN. Ebenfalls ueberholt: die Lampentechnik (Long-Life-Leuchtstoffroehren T8/T5, «Halogen vermeiden») ist vor-LED. Gueltig bleibt die Steuerungslogik nach Raumtyp. Weitere Normverweise (EN 12464-1, NIN 2005, SN EN 1838, SN EN 50171) koennen in neuerer Ausgabe vorliegen"
 status: emerging
-last_updated: "2026-08-03 (Run 122)"
+last_updated: "2026-08-24 (Nachfolge-Dokumentensystem gefunden und primärquellenbelegt: [[ahb-richtlinie-gebaeudetechnik-229-2025]] + [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]])"
 ---
 
 # Destillat — Richtlinie GT Beleuchtung, Stadt Zürich AHB (V2.1, 2008)
@@ -98,10 +98,31 @@ Falls durch Auflagen oder spezielle Anforderungen Notbeleuchtungsanlagen für Fl
 - **Für die Bauherren-FAQ direkt brauchbar:** die Halbautomatik-vs.-Automatik-Unterscheidung nach Raumtyp (Büro/Sitzungszimmer = Präsenz+Tageslicht mit manuellem Einschalten; Korridor/Toilette/Garage = voll automatisch inkl. Einschalten) ist eine gute, praxisnahe Grundregel für die Beantwortung der Frage "welche Lichtsteuerung brauche ich wo?" — unabhängig vom Bauherrn. Ebenso der Hinweis Betriebswirkungsgrad 70-90 % und EU-Effizienzklasse A als Auswahlkriterium für Leuchten, sowie die 60-Minuten-Funktionserhalt-Pflicht bei Notbeleuchtungsverkabelung.
 - Kostenrelevanz für eine Bauherrschaft: Pflicht zum SIA-380/4-Nachweis bedeutet Planungsaufwand (Lichtplaner-Leistung), bei grösseren Vorhaben (Analogieschwelle 5 Mio. Franken bei der Stadt Zürich — private Schwelle kann tiefer liegen) sogar ein dreistufiger Nachweis über den ganzen Projektverlauf. Die Steuerungspflicht (Präsenz-/Tageslichtsensoren) ist ein Mehrkosten- und zugleich Betriebskosten-Sparposten; genaue Zahlen liefert das Dokument nicht.
 
+## Nachfolge-Dokumentensystem gefunden (24.08.2026, primärquellenbelegt)
+
+**Diese Richtlinie V2.1 (2008) ist historisch, das aktuelle AHB-Dokumentensystem sieht anders aus.**
+Seit August 2025 gilt für AHB-Bauvorhaben primär die **KBOB-Empfehlung Gebäudetechnik** (Stand
+01.2020) «in vollem Umfang», ergänzt durch die schlanke **Richtlinie Gebäudetechnik Nr. 229**
+(August 2025) — siehe `[[ahb-richtlinie-gebaeudetechnik-229-2025]]`, Teil 3 Beleuchtung: heute
+**DALI/DALI-2 als verbindlicher Bus-Standard**, Nachlaufzeiten 5 Min. (halbautomatisch) bzw. 2 Min.
+(automatisch), «Schwarmtechnologie» optional für Verkehrsflächen. Die hier lange gesuchte
+Lux-Übersichtstabelle existiert als eigenständiges, aktuelles Dokument: **Merkblatt Nr. 376,
+August 2025** — siehe `[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]`
+für die vollständige Tabelle nach SIA 387/4 und EN 12464-1, inkl. Healthcare-Zeile (Bettenzimmer,
+Behandlungsraum, Stationszimmer). Beide Nachfolgedokumente wurden im Volltext gelesen und
+primärquellenverifiziert.
+
 ## Offene Punkte
 
-- **Keine konkreten Lux-Werte je Raumtyp im Dokument** — die im Text erwähnte "Übersichtstabelle" mit den wichtigsten EN-12464-1-Werten für Stadt-Zürich-Bauten ist nicht Teil der gelesenen 4 Seiten; falls für eine Bauherren-Antwort konkrete Lux-Sollwerte nötig sind, muss die aktuelle EN 12464-1 direkt konsultiert werden (Skill `energie`/`normen`).
-- **Keine spezifische Anschlussleistung (W/m²)** angegeben — weder für den MINERGIE-Grenzwert noch für den SIA-380/4-Grenz-/Zielwert; nur die relative grafische Einordnung (¾/¼-Skala) ist belegt.
-- Dokument ist **Version 2.1 von Juli 2008** — 18 Jahre alt. Alle referenzierten Normen (SIA 380/4:2006, EN 12464-1, NIN 2005, SN EN 1838, SN EN 50171) können zwischenzeitlich durch neuere Ausgaben ersetzt worden sein; vor Verwendung in einem aktuellen Projekt gegen die geltende Fassung prüfen (insbesondere MuKEn/kantonales Energierecht ZH, das seit 2008 mehrfach revidiert wurde).
-- Unklar, ob die Richtlinie GT Beleuchtung der Stadt Zürich seither aktualisiert wurde (spätere Versionsnummer als V2.1 möglich) — nicht Teil dieser Quelle, nicht geprüft.
+- ~~**Keine konkreten Lux-Werte je Raumtyp im Dokument**~~ — ✓ **GESCHLOSSEN 24.08.2026**: die
+  gesuchte Übersichtstabelle existiert als eigenständiges Dokument, Merkblatt Nr. 376 (August 2025),
+  vollständig destilliert in `[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]`.
+- **Keine spezifische Anschlussleistung (W/m²)** angegeben — weder für den MINERGIE-Grenzwert noch für den SIA-380/4-Grenz-/Zielwert; nur die relative grafische Einordnung (¾/¼-Skala) ist belegt. Bleibt ohne praktische Relevanz: die MINERGIE-¾-Skala ist seit dem Archivieren von SIA 380/4 (2019) nicht mehr rechenbar (siehe unten) und taucht im Nachfolgedokument (2025) nicht mehr auf.
+- Dokument ist **Version 2.1 von Juli 2008** — 18 Jahre alt. Alle referenzierten Normen (SIA 380/4:2006, EN 12464-1, NIN 2005, SN EN 1838, SN EN 50171) können zwischenzeitlich durch neuere Ausgaben ersetzt worden sein; vor Verwendung in einem aktuellen Projekt gegen die geltende Fassung prüfen (insbesondere MuKEn/kantonales Energierecht ZH, das seit 2008 mehrfach revidiert wurde). **EN 12464-1 primärnah bestätigt aktualisiert:** die heute gültige Fassung ist **EN 12464-1:2021** (löste die Ausgabe von 2011 ab, WebSearch-Sekundärquellen DIN/LiTG/licht.de, 24.08.2026 — nicht am Normtext selbst verifiziert, Fassungsführung bleibt bei KB `normen`).
+- ~~Unklar, ob die Richtlinie GT Beleuchtung der Stadt Zürich seither aktualisiert wurde~~ — ✓
+  **GESCHLOSSEN 24.08.2026**: ja, das gesamte AHB-Dokumentensystem wurde umgebaut (siehe Abschnitt
+  oben und `[[ahb-richtlinie-gebaeudetechnik-229-2025]]`, Fund-Anlass). Ob speziell die alte
+  9-teilige RL1-RL9-Nummerierung formell aufgehoben wurde, bleibt offen (dort dokumentiert).
 - Keine Aussage zu Tageslichtnutzung im engeren Sinn (z. B. Tageslichtquotient, Fensterflächenanteil) — das Dokument behandelt nur die *Steuerung* nach Tageslichtsensoren, nicht die bauliche Tageslichtplanung selbst.
+
+**Backlinks:** [[ahb-richtlinie-gebaeudetechnik-229-2025]] · [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] · [[ahb-zuerich-uebersichtstabelle-beleuchtung-en12464]] · [[gebaeudetechnik-pflichtenheft]] · [[energienachweis-zh]] · [[pv-solar-technologien]]

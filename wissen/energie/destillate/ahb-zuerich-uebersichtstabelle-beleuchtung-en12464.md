@@ -4,8 +4,8 @@ herausgeber: "Stadt Zürich, Amt für Hochbauten (AHB), Lindenhofstrasse 21, Pos
 ausgabe: "Datumsangabe nur in der Fusszeile/Dateiname: 19.01.2007. Das Dokument enthält kein eigenes Feld «Dokumentdatum» oder eine Versionsnummer wie die Anlagedokumentation-Richtlinien der gleichen Reihe — 19.01.2007 ist die einzige im Dokument auffindbare Datumsangabe."
 gelesen: "Seite 1, vollständig, 2026-08-19 (Run 143)"
 datenstand: "⚠ 19.01.2007 — knapp 20 Jahre alt, weit über 18 Monate. Aktualitätsvorbehalt: welche Fassung von SN EN 12464-1 und von SIA 2024 die Tabelle referenziert, wird im Dokument selbst nicht genannt (nur die Normbezeichnungen «EN 12464-1» und «SIA 2024», keine Jahreszahl). Ob die Zahlenwerte (Em, UGR) mit der heute gültigen SN EN 12464-1-Fassung übereinstimmen, ist hier nicht geprüft — die Fassungsführung liegt bei der KB `normen` (Rule `normen-referenz`)."
-status: "speculative — reine Wertetabelle ohne im Dokument sichtbare Herleitung oder Berechnung; die Übereinstimmung mit der jeweils aktuell gültigen SN-EN-12464-1-Fassung wird hier nicht behauptet, sondern ist gegen die KB `normen` zu prüfen"
-last_updated: "2026-08-23 (interaktive Session, E-R143-2 Teilbefund)"
+status: "speculative — reine Wertetabelle ohne im Dokument sichtbare Herleitung oder Berechnung; die Übereinstimmung mit der jeweils aktuell gültigen SN-EN-12464-1-Fassung wird hier nicht behauptet, sondern ist gegen die KB `normen` zu prüfen. ⚠ Historischer Datenpunkt: eine datierte Nachfolge-Tabelle (August 2025) existiert, siehe [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]"
+last_updated: "2026-08-24 (Nachfolge-Merkblatt 376 gefunden, E-R143-2 plausibel erklärt, nicht am 2007er-Original nachgeprüft)"
 ---
 
 # Destillat — Übersichtstabelle Beleuchtungsanforderungen nach EN 12464-1, Stadt Zürich AHB (2007)
@@ -91,5 +91,18 @@ Em = mittlere Beleuchtungsstärke (Wartungswert) in Lux; UGR = Unified-Glare-Rat
 - Welche Fassung von SN EN 12464-1 und von SIA 2024 die Tabelle abbildet, ist im Dokument nicht angegeben — Fassungsprüfung ist Sache der KB `normen` (Rule `normen-referenz`), hier wird keine Fassung behauptet.
 - Innerhalb der Tabelle sind einzelne Raumnutzungen ohne SIA-2024-Markierung («X» fehlt) aufgeführt (Zeichensaal, Computerraum, Musikraum, Bettenzimmer mit einfacher Untersuchung) — das Dokument erklärt nicht, ob das bedeutet, dass diese Nutzungen keine SIA-2024-Standardnutzung sind, oder ob es sich um eine Auslassung handelt.
 - Bei «Turnhalle, Sporthalle» widersprechen sich der Tabellenwert für Wettkampfsport (500 lx, in der Spalte «spezielle Bereiche») und der Fussnotenwert (750 lx, Fussnote 4) — beide Werte werden hier unverändert aus dem Dokument wiedergegeben, ohne Auflösung des Widerspruchs. ⚠ **Teilbefund 23.08.2026 (E-R143-2, `wiki/QUESTIONS.md`):** SIA 387/4:2017, Tabelle 4 (Original gelesen, Zeile 11.1 Turnhalle) nennt für die allgemeine Nutzung E_0 = 500 lx — deckt sich mit dem Tabellenwert, nicht mit der Fussnote, führt aber keine eigene Wettkampf-Zeile. Die einschlägige Norm für Wettkampf-Sportstättenbeleuchtung ist SN EN 12193 (nicht EN 12464-1), im PL-02-Bestand nicht vorhanden, bei KB `normen` als Bring-Schuld offen. Sekundärquellen (nicht zitierfähig) nennen für die Wettkampfklasse I eine Bandbreite 500-750 lx je Sportart, was beide AHB-Werte plausibel machen würde, ohne es zu beweisen. Widerspruch bleibt ungelöst.
+  ⚠ **Weiterer Teilbefund 24.08.2026 (plausible, nicht am Original bewiesene Erklärung):** die
+  datierte Nachfolge-Tabelle Merkblatt 376 (August 2025,
+  `[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]]`) zeigt für dieselbe
+  Turnhallen-Zeile exakt dieselben zwei Zahlen (500 und 750), aber sauber in drei getrennten Spalten:
+  Evm = 300, **E0 = 500** (rechnerischer Referenzwert = Evm × k0, allgemeine Nutzung), **spezielle
+  Bereiche/Wettkampfsport = 750**. Das legt nahe, dass diese 2007er-Tabelle den E0-Wert (500)
+  versehentlich in die «spezielle Bereiche»-Spalte statt in eine eigene E0-Spalte gesetzt hat (diese
+  ältere Tabelle führt keine k0/E0-Unterscheidung) — **kein echter Redaktionsfehler der Quelle
+  bewiesen, aber eine strukturelle Erklärung gefunden, die ohne Widerspruch auskommt.** Nicht am
+  2007er-PDF-Original nachgeprüft (Zellenlayout dafür nötig). **Für aktuelle Bauherren-Antworten
+  massgebend ist ab 24.08.2026 die 2025er-Tabelle**, nicht mehr diese hier.
 - Dokument ist mit 19.01.2007 rund 20 Jahre alt; kein Hinweis im Dokument selbst, ob es seither aktualisiert wurde.
 - Verwandtes Reihen-Destillat: [[ahb-zuerich-gt-rl8-beleuchtung]] (dort war das Fehlen dieser Tabelle als offener Punkt vermerkt; dieses Destillat schliesst die Lücke teilweise, ohne die dortigen Aktualitätsvorbehalte zu SIA 380/4 zu berühren).
+
+**Backlinks:** [[ahb-zuerich-gt-rl8-beleuchtung]] · [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] · [[ahb-richtlinie-gebaeudetechnik-229-2025]]

@@ -1,5 +1,19 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 🔓 OFFEN seit 2026-08-24 (Buch-Run 131) — Art. 7 Ziff. 1 EMRK an dieser Station nicht amtlich verifizierbar
+
+**Fundstelle:** `wiki/grundlagen-planungs-baurecht.md`, Abschnitt «Weitere Grundsätze», Beleg
+für «nulla poena sine lege» — zitiert nach dem Buch (S. 98), nicht amtlich gegengelesen.
+
+**Befund:** Fedlex liefert für die EMRK (SR 0.101, ELI `1974/2151_2151_2151`) an dieser Station
+weder über `www.fedlex.admin.ch` (77'151 Byte App-Hülle) noch über `fedlex.data.admin.ch`
+(9'148 Byte, alle getesteten Konsolidierungsdaten 2018-2026) einen echten Volltext — anders als
+bei GSchV/GSchG (Rule/Referenz `docs/referenz/fedlex-volltexte.md`, Nachtrag 23.08.2026) hat
+auch die `data.`-Ausweichroute hier nicht funktioniert. Für einen künftigen Lauf: Route über
+den Europarat (`coe.int`/HUDOC) oder eine SR-0.101-spezifische Fedlex-Variante probieren, dann
+`docs/referenz/fedlex-volltexte.md` um den Befund ergänzen. Sachlich nicht dringend — Art. 7
+Ziff. 1 EMRK ist eine Nebenbeleg-Fundstelle, keine tragende Norm dieser KB.
+
 ## ✅ GEKLÄRT 2026-08-24 (Buch-Run 128) — Kostenentscheid-Abschnitt [[nebenbestimmungen-und-reverse]] nachgetragen, «§ 340f PBG» als nicht existent und «§ 3 VRG» als falsch zugeordnet erkannt (richtig § 17 Abs. 2 VRG), stale Restschuld-Vermerke in Kap.-7-Destillat aufgelöst
 
 **Anlass:** Buch-Run 127 nennt als einen von drei möglichen nächsten Schritten eine

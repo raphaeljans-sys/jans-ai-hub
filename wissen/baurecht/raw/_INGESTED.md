@@ -48,6 +48,7 @@ jeder Eintrag von mindestens einem Wiki-Artikel zitiert wird.
 | 260824_amtlich_zh_thalwil-gebuehrenverordnung.md | 260824 | Gemeinde Thalwil, Gebührenverordnung, Art. 21/22 (delegiert an das Gebührenreglement Bauwesen) | [[baubewilligungsverfahren]] | eingearbeitet, Buch-Run 115 |
 | 260824_amtlich_zh_vb-2014-00026.md | 260824 | Verwaltungsgericht ZH, VB.2014.00026 (BEZ 2014 Nr. 46) vom 22.05.2014 (entscheidsuche.ch, amtlich) | [[bauausfuehrung-und-baukontrolle]] | eingearbeitet, Buch-Run 108 — korrigiert ein falsch erinnertes Zitatwort («zaegig» kommt im Original nicht vor) |
 | 260824_amtlich_zh_zszh-rrb-1294-1995.md | 260824 | zentraleserien.zh.ch (Staatsarchiv ZH, RRB 1803-1995, REST-API) | [[ausnahmebewilligung-und-bestandesschutz]] | eingearbeitet, Buch-Run 123 — Fund widerlegt den vermuteten Bezug (RRB betrifft eine Bibliotheks-Subvention, nicht Bestandesschutz), als unbelegt markiert |
+| 260824_amtlich_ch_bv-art5-8-9-26-27-36-75.md | 260824 | fedlex.data.admin.ch, BV SR 101, ELI 1999/404, Konsolidierung 1.1.2024 | [[grundlagen-planungs-baurecht]] | eingearbeitet, Buch-Run 131 — 7/7 CONFIRMED wortgleich; Nebenbefund Art. 26/27 BV waren als Quelle im Frontmatter, aber nie im Fliesstext eingebaut |
 
 **Hinweis Primärquelle-Volltexte (`*_amtlich_*`):** amtliche, konsolidierte Gesetzes-Volltexte
 (gemeinfrei nach Art. 5 URG), gezogen mit `skills/baurecht/connectors/recht-ch.mjs`. Sie sind die

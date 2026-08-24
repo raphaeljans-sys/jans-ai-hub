@@ -91,7 +91,7 @@ zu protokollieren.**
 | Wärmepumpen/Kältemaschinen | **JAZ für das Gesamtsystem inkl. Förderenergie** dokumentieren UND messtechnisch überprüfen, Systemgrenze ausweisen | RL1, RL3, RL4 |
 | Kälteanlagen ab 5 kW | eigener Strom- und Impulszähler | [[ahb-zuerich-gt-rl4-raumkuehlung]] |
 | Lüftung | WRG-Temperaturänderungsgrad bei jeder Anlage nachmessen; Kanaldichtheit **vor dem Isolieren** prüfen | [[ahb-zuerich-gt-rl5-lueftungsanlagen]] |
-| Beleuchtung | Nachweis (2008: SIA 380/4 — **heute SIA 387/4:2023**), ab ca. 5 Mio. CHF Bausumme **dreistufig** (Projekt / Ausschreibung / Übergabe) | [[ahb-zuerich-gt-rl8-beleuchtung]] |
+| Beleuchtung | Nachweis (2008: SIA 380/4 — **heute SIA 387/4:2023**), ab ca. 5 Mio. CHF Bausumme **dreistufig** (Projekt / Ausschreibung / Übergabe); aktuell (2025) DALI/DALI-2 verbindlich, Lux-Werte nach SIA 387/4 + EN 12464-1 | [[ahb-zuerich-gt-rl8-beleuchtung]], [[ahb-richtlinie-gebaeudetechnik-229-2025]], [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] |
 | Betrieb | **1-2 Jahre fachliche Nachbetreuung (Betriebsoptimierung) nach Inbetriebsetzung** | [[ahb-zuerich-gt-rl1-planungsgrundlagen]] |
 
 **Bauherren-Transfer:** Die JAZ-Messpflicht und die Betriebsoptimierung sind die zwei Punkte, die
@@ -146,11 +146,29 @@ Ab **Raumtiefe > 6 m** getrennte Schaltkriterien für fensternahe und fensterfer
 Halbautomatik). Dimmbare Lichtregelung und Szenensteuerung nur in Einzelfällen (Mehrzwecksaal,
 Konferenzraum). Leuchten: Betriebswirkungsgrad 70-90 %, Leuchtmittel EU-Effizienzklasse A.
 
-⚠ **Zwei Vorbehalte.** Erstens nennt die Quelle **keine Lux- und keine W/m²-Werte** (die
-erwähnte EN-12464-1-Übersichtstabelle ist nicht Teil des Dokuments) — konkrete Sollwerte müssen
-aus der geltenden EN 12464-1 kommen. Zweitens ist die Lampentechnik (Long-Life-Leuchtstoffröhren
-T8/T5, «Halogen vermeiden») **vor-LED und damit überholt**; die Steuerungslogik dagegen gilt
-unverändert.
+⚠ **Zwei Vorbehalte, ✓ Lux-Lücke seit 24.08.2026 geschlossen.** Erstens nannte die 2008er-Quelle
+**keine Lux- und keine W/m²-Werte** — die konkreten Sollwerte stehen jetzt in der aktuellen
+AHB-Lux-Tabelle nach SIA 387/4 + EN 12464-1, siehe
+[[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] (Büro/Sitzungszimmer
+500 lx, Korridor/Treppenhaus 100 lx, Bettenzimmer 100 lx, Behandlungsraum 500-750 lx/Untersuchung
+1'000 lx). Zweitens ist die Lampentechnik (Long-Life-Leuchtstoffröhren T8/T5, «Halogen
+vermeiden») **vor-LED und damit überholt**; die Steuerungslogik gilt in der Substanz weiter,
+ist aber im aktuellen AHB-Dokument (siehe unten) technisch präzisiert.
+
+**Aktuelle Fassung (August 2025):** Die Steuerungslogik nach Raumtyp bleibt inhaltlich
+unverändert, ist aber im heutigen AHB-System — [[ahb-richtlinie-gebaeudetechnik-229-2025]], Teil 3
+— technisch konkretisiert: **DALI/DALI-2 ist heute der verbindliche Bus-Standard** für beide
+Steuerungsarten, mit fixen **Nachlaufzeiten (5 Min. halbautomatisch, 2 Min. automatisch)** und der
+optionalen «Schwarmtechnologie» für Verkehrsflächen/Garagen. ⚠ **Strukturell wichtiger Befund:**
+die alte 9-teilige AHB-Richtlinienfamilie GT_RL1-GT_RL9 (2008, Grundlage dieses ganzen Artikels)
+taucht in der aktuellen AHB-Dokumentenliste (Stand 08.2025) namentlich nicht mehr auf — die
+heutige Struktur ist «KBOB-Empfehlung Gebäudetechnik (Basis) + Richtlinie 229 (schlanke
+AHB-Ergänzung) + eigenständige Fachmerkblätter». Ob die alte Nummerierung formell aufgehoben
+wurde, ist nicht geprüft (Detail und Fundstellen: `[[ahb-richtlinie-gebaeudetechnik-229-2025]]`,
+Abschnitt «Fund-Anlass»). **Praktische Folge für diesen ganzen Artikel:** bei einem aktuellen
+Projekt zuerst die KBOB-Empfehlung + Richtlinie 229 + das passende Fachmerkblatt prüfen, die
+RL1-RL9-Inhalte hier als möglicherweise überholten Ausgangspunkt behandeln, nicht als aktuellen
+Stand.
 
 ## Gebäudeautomation: die drei Vorgaben, die 20 Jahre halten
 

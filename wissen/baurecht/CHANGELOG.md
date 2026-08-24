@@ -3,6 +3,55 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 131: Modell-D-Wortlautabgleich [[grundlagen-planungs-baurecht]] — 10/10 Zitate CONFIRMED, echter Inhaltsfund statt Fehler (Art. 26/27 BV + Art. 1–10 ZGB standen seit Erstellung als Quelle im Frontmatter, nie im Fliesstext eingebaut)
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (Run 87, bestätigt Run 130).
+  Als Fortsetzung der Modell-D-Re-Verifikationskette (Runs 90-130) nannte Run 130 zwei Kandidaten
+  nach `last_updated`: [[geschosse-und-kniestock]] (2026-07-27, bewusst zurückgestellt — drei
+  offene `speculative`-Auslegungsfragen ohne Praxis, kein reiner Beleg-Nachvollzug) und
+  [[grundlagen-planungs-baurecht]] (2026-08-03, zweitältester Artikel) — Letzteren gewählt. Kein
+  paralleler Konkurrenzlauf zum Zeitpunkt dieses Laufs aktiv (`ps aux` geprüft).
+- GEPRÜFT: Art. 5/8/9/26/27/36/75 BV frisch gegen Fedlex (ELI `1999/404`, Konsolidierung
+  1.1.2024 — 20260101/20250101/20220101/20190101 lieferten nur die 9'148-Byte-App-Hülle, erst
+  20240101/20210101 lieferten echten Volltext) — **7/7 CONFIRMED wortgleich**. Art. 2/3/8 ZGB
+  gegen Fedlex (ELI `24/233_245_233`, Stand 1.1.2026) — **3/3 CONFIRMED wortgleich**. §§ 220/321/
+  328 PBG gegen `raw/260607_amtlich_zh_pbg.md` (Nachtrag 133) — **CONFIRMED**; laut
+  `raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md` (Buch-Run 122) ändert Nachtrag 134
+  gegenüber 133 ausschliesslich § 221 PBG und eine Übergangsbestimmung, beide hier nicht
+  betroffen. **0 Fehler gefunden** — anders als in Run 71 (drei echte Fehler) diesmal eine reine
+  Bestätigungsrunde.
+- **Echter Inhaltsfund statt Fehlerkorrektur:** `Art. 26 BV`, `Art. 27 BV` und `Art. 1–10 ZGB`
+  standen seit Artikel-Erstellung (2026-06-30) im Frontmatter `sources`, wurden aber im
+  Fliesstext nie eingebaut — grep-geprüft, 0 Treffer. Der Buch-Destillat
+  (`buecher/band-1/01-grundlagen.md`, Kap. 1.4.5/1.4.6, S. 97 f.) trug den fehlenden Inhalt die
+  ganze Zeit bereits fertig ausformuliert: Eigentumsgarantie (Art. 26 BV) und Wirtschaftsfreiheit
+  (Art. 27 BV) als Quelle des behördlichen Ermessensspielraums bei unbestimmten Begriffen
+  (Ästhetik, § 238 Abs. 1 PBG); die ZGB-Einleitungsartikel (Treu und Glauben Art. 2, guter Glaube
+  Art. 3, Beweislast Art. 8, dazu nulla-poena-sine-lege Art. 7 Ziff. 1 EMRK/§ 1 StGB) als
+  eigenständige Grundsatzgruppe neben den Verfassungsgrundsätzen. Nebenbefund: auch `Art. 8 BV`
+  (Rechtsgleichheit) war im Fliesstext bereits verwendet, fehlte aber umgekehrt in den
+  `sources` — beide Richtungen jetzt synchronisiert.
+- **Nicht amtlich verifizierbar:** Art. 7 Ziff. 1 EMRK — Fedlex liefert für SR 0.101 weder über
+  `www.` noch über `data.`-Subdomain einen Volltext (nur App-Hülle, alle getesteten
+  Konsolidierungsdaten). Beleg bleibt der Buch-Wortlaut, offen vermerkt in `wiki/QUESTIONS.md`,
+  nicht als geprüft ausgegeben (Rule `identifikatoren-verifizieren`/`nichts raten`).
+- NEU `raw/260824_amtlich_ch_bv-art5-8-9-26-27-36-75.md` (7 BV-Artikel, Fedlex-Volltext +
+  Verifikationsbefund).
+- GEÄNDERT `wiki/grundlagen-planungs-baurecht.md` (§ 238-Satz um Art. 26/27 BV ergänzt, neue
+  Sektion «Weitere Grundsätze» zu Art. 2/3/8 ZGB + Art. 7 Ziff. 1 EMRK/§ 1 StGB, Frontmatter
+  `last_updated`/`verifiziert`/`sources` nachgeführt), `raw/_INGESTED.md` (neue Zeile),
+  `wiki/QUESTIONS.md` (neuer offener Punkt EMRK-Fedlex-Zugriff),
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (Run-131-Eintrag nach etabliertem Muster).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv, keine
+  unerwartete Löschung (`grundlagen-planungs-baurecht.md` 35/4 — die 4 Löschungen sind die
+  ersetzten Frontmatter-/Satzstellen selbst, keine fremde Löschung; `_INGESTED.md` 1/0;
+  `QUESTIONS.md` 14/0; `KORPUS-QUEUE-...` 21/0; neue Raw-Datei ungetrackt/neu).
+- REPORT `outputs/2026-08-24_buch-run131.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9). Nächster Modell-D-
+  Kandidat bleibt [[geschosse-und-kniestock]] (fachlich zurückgestellt); sonst kein offener
+  Kandidat mehr in dieser KB ausser den drei Datenbank-bedingt unverifizierbaren Zitaten
+  (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77), dem Baulinien-Wachposten und dem neuen
+  EMRK-Fedlex-Zugriffsproblem; sonst regulärer `wissenscheck`-Turnus.
+
 ## 2026-08-24 — Buch-Run 130: needs-verification «Unterniveaubauten neu bei der Überbauungsziffer angerechnet?» (Buch-Run 55) geschlossen — amtlicher IVHB-Leitfaden der Baudirektion Kt. ZH bestätigt die Buch-Aussage
 - ANLASS: Buch-Run 129 nannte als verbleibenden Kandidaten die Modell-D-Stichprobe an
   [[ausnuetzungsuebertragung]]/[[nutzungsziffern]]. Diese wurden bereits am 23.08.2026 (Run 92)
