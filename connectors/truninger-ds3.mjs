@@ -160,21 +160,40 @@ async function holeSeite(idOderPfad, pagingOffset = 0) {
 
 /** Holt ALLE Eintraege eines Ordners ueber saemtliche Seiten hinweg.
  *  DS3 zeigt nur 30 Eintraege pro Seite; Folgeseiten via ?pref__paging=<offset>
- *  (Navigationsleiste "paging_border"). Ohne dies werden grosse Ordner gekappt. */
+ *  (Navigationsleiste "paging_border"). Ohne dies werden grosse Ordner gekappt.
+ *
+ *  ACHTUNG (belegt 24.08.2026, Collection-39378111): Die Navigationsleiste listet
+ *  NICHT alle Offsets — bei vielen Seiten zeigt sie ein Fenster plus die letzte
+ *  Seite und ueberspringt die Offsets dazwischen (0,30,…,210,270 — 240 fehlte).
+ *  Wer nur den Leisten-Links folgt, verliert stillschweigend eine ganze Seite
+ *  (hier u.a. S-ARC_7550). Darum wird lueckenlos in 30er-Schritten geblaettert,
+ *  bis eine Seite nichts Neues mehr liefert; die Leiste dient nur noch dazu, das
+ *  bekannte Maximum zu erkennen. */
+const SEITENGROESSE = 30;
+
 async function holeAlleEintraege(idOderPfad) {
   const html = await holeSeite(idOderPfad);
   const eintraege = parseEintraege(html);
-  const offsets = [...html.matchAll(/\?pref__paging=(\d+)/g)]
+  const gesehen = new Set(eintraege.map(e => e.id));
+
+  const leiste = [...html.matchAll(/\?pref__paging=(\d+)/g)]
     .map(m => parseInt(m[1], 10)).filter(o => o > 0);
-  const distinct = [...new Set(offsets)].sort((a, b) => a - b);
-  if (distinct.length) {
-    const gesehen = new Set(eintraege.map(e => e.id));
-    for (const off of distinct) {
-      const h2 = await holeSeite(idOderPfad, off);
-      for (const e of parseEintraege(h2)) {
-        if (!gesehen.has(e.id)) { gesehen.add(e.id); eintraege.push(e); }
-      }
+  let maxBekannt = leiste.length ? Math.max(...leiste) : 0;
+  if (!maxBekannt) return eintraege;
+
+  for (let off = SEITENGROESSE; off <= maxBekannt; off += SEITENGROESSE) {
+    const h2 = await holeSeite(idOderPfad, off);
+    let neue = 0;
+    for (const e of parseEintraege(h2)) {
+      if (!gesehen.has(e.id)) { gesehen.add(e.id); eintraege.push(e); neue++; }
     }
+    // Leiste der Folgeseite kann weitere Offsets aufdecken (Fenster wandert mit).
+    const weitere = [...h2.matchAll(/\?pref__paging=(\d+)/g)]
+      .map(m => parseInt(m[1], 10)).filter(o => o > 0);
+    if (weitere.length) maxBekannt = Math.max(maxBekannt, ...weitere);
+    // Schutz gegen Endlosschleife bei Servern, die ueber das Ende hinaus die
+    // letzte Seite wiederholen: nach der letzten Leisten-Seite ohne Neues Schluss.
+    if (neue === 0 && off >= maxBekannt) break;
   }
   return eintraege;
 }
