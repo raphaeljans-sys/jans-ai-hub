@@ -1,5 +1,54 @@
 # CHANGELOG
 
+## 2026-08-24m — A-BLIND-Folgelauf: Kapitel 0-5 des Produktreglements 2026.1 gelesen, E-125-6 (Zertifikat-Gültigkeit) gelöst
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** NAS zu Laufbeginn nicht gemountet
+(`wissen/energie/` lokal git-getrackt, unbetroffen).
+
+Gelesen: CHANGELOG-Eintrag `24l` («Für den nächsten Lauf: Volltextprüfung Kapitel 1-13 des
+Produktreglements 2026.1 gegen die Antrags-Checkliste/Hilfstools-Liste»). Umgesetzt: eigener
+PDF-Download (`curl`, 52 Seiten bestätigt) + PyPDF2-Volltextextraktion der Originalquelle.
+**Gelesen: Kapitel 0 (Präambel), 1 (Allgemeines), 2 (Zertifizierungsverfahren, vollständig), 3
+(Gebühren), 4 (Technische Grundsätze), 5 (Gesamtenergiebilanz-Einführung/MKZ).** Kapitel 6-13
+bewusst nicht gelesen — grösstenteils bereits über `[[minergie-standards]]`/Anhang A/G/H/J
+abgedeckt, eigener Folgelauf.
+
+**Hauptfund:** Kapitel 2.1.3/2.2.3 lösen `wiki/QUESTIONS.md` E-125-6 (offen seit Run 125,
+07.08.2026, zuletzt «stärkerer Negativbefund» 15.08.2026). Primärquellenwörtlich: provisorisches
+Zertifikat 3 Jahre gültig (+2 Jahre Fristverlängerung möglich), definitives Zertifikat
+unbeschränkt gültig, sofern keine energetisch relevante Änderung erfolgt und das Gebäude auf der
+Minergie-Gebäudeliste bleibt; bei energetisch relevanter Änderung Rezertifizierung nötig (Kap.
+2.3.1, kostenpflichtig, max. 50 % der ordentlichen Gebühr). Weitere primärquellenwörtliche
+Prozessdetails ohne bisherigen Beleg in der KB: 3-Monats-Fristen für Einreichung/Nachbesserung,
+begrenzter Prüfumfang (technische Plausibilitätskontrolle statt Nachrechnungspflicht),
+strafrechtliche Folgen bei Falschangaben (Art. 253 StGB), Stichprobenquote ≥20 % aller
+zertifizierten Projekte bis 5 Jahre nach dem definitiven Zertifikat, Gebührenstaffel.
+
+**Nebenfund (Negativbefund per Volltextsuche):** Die Antrags-Checkliste und die Hilfstool-Namen
+(WPesti, PVopti, Lüftung, SoWs) aus `[[minergie-zertifizierung-workflow]]` kommen im
+Reglementstext (Kap. 0-13) nicht vor — sie gehören zur Label-Plattform/Anwendungshilfe (2026.2),
+einer anderen Quelle. Kein neuer offener Punkt, sondern eine Geltungsbereichs-Abgrenzung.
+
+Eingearbeitet: `destillate/minergie-produktreglement-2026-1-muken-vergleich.md` (Frontmatter,
+neuer Abschnitt «Kapitel 2 — Zertifizierungsverfahren», Offene-Punkte-Absatz), `destillate/
+minergie-zertifizierung-workflow.md` (Frontmatter, Nachtrag-Absatz), `wiki/minergie-standards.md`
+(Gültigkeitsdauer-Absatz gelöst), `wiki/BAUHERREN-FAQ.md` F221 (Fachlich/Bauherren-Transfer/
+Quelle), `wiki/QUESTIONS.md` (E-125-6 → `[x]`, neuer Eintrag `24m`), `destillate/INDEX.md`
+(beide Registerzeilen nachgeführt).
+
+`git diff --numstat` gegen den Vorgänger-Commit geprüft (die vier Kern-Dateien wurden durch den
+laufenden Auto-Sync-Prozess der Station bereits zwischenzeitlich committet, Diff daher gegen
+Commit `cd0891078` statt Arbeitsverzeichnis gebildet): `minergie-produktreglement-2026-1-muken-
+vergleich.md` +77/-8, `minergie-zertifizierung-workflow.md` +31/-14, `BAUHERREN-FAQ.md` +15/-7,
+`minergie-standards.md` +12/-8 — durchgehend additiv/präzisierend, keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** Kapitel 6-13 des Produktreglements 2026.1 gegen den bestehenden
+Bestand primärquellenweise gegenlesen (bisher nur über Anhänge/Sekundärabgleich abgedeckt).
+A-BLIND-Bestand unverändert: rund 28 von 39 Backlink-Kandidaten offen (`ecobkp-2026-methodik-
+und-uebersicht` nicht erneut listen). Unverändert blockiert: E-R230-2 (Raphael), 393/394
+(OCR-Werkzeug), SIA 380/1:2016 (Normkauf).
+
 ## 2026-08-24l — A-BLIND: `minergie-zertifizierung-workflow` — Reglementsversion 2023.1 gegen 2026.1 geprüft, Prozesskapitel als ungeprüft geflaggt
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,

@@ -2,6 +2,52 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24m — A-BLIND-Folgelauf: Kapitel 0-5 des Produktreglements 2026.1 gelesen, E-125-6 gelöst
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. Anschluss an CHANGELOG-Eintrag 24l («Für den nächsten
+Lauf: Volltextprüfung Kapitel 1-13 des Produktreglements 2026.1 gegen die Antrags-Checkliste/
+Hilfstools-Liste»). **Betriebslage:** NAS zu Laufbeginn nicht gemountet, `wissen/energie/` lokal
+git-getrackt und unbetroffen.
+
+PDF eigenständig heruntergeladen (`curl`, 52 Seiten bestätigt) und mit PyPDF2 volltextextrahiert
+(nicht aus Sekundärzitat). **Gelesen: Kapitel 0 (Präambel), 1 (Allgemeines), 2
+(Zertifizierungsverfahren, vollständig), 3 (Gebühren), 4 (Technische Grundsätze), 5
+(Gesamtenergiebilanz-Einführung/MKZ, Ausbau Mietende, Spezialzertifizierungen).** Kapitel 6-13
+(technische Detailanforderungen je Gewerk) bewusst nicht gelesen — grösstenteils bereits über
+`[[minergie-standards]]`/Anhang A/G/H/J abgedeckt, eigener Folgelauf.
+
+**Hauptfund:** Kapitel 2.1.3/2.2.3 lösen `wiki/QUESTIONS.md` E-125-6 (Gültigkeitsdauer eines
+Minergie-Zertifikats), eine seit Run 125 (07.08.2026) offene Frage, zuletzt mit «stärkerem
+Negativbefund» (15.08.2026) aber ungelöst. Primärquellenwörtlich: provisorisches Zertifikat 3
+Jahre gültig (+2 Jahre Fristverlängerung möglich), definitives Zertifikat unbeschränkt gültig,
+sofern keine energetisch relevante Änderung erfolgt und das Gebäude auf der Minergie-Gebäudeliste
+bleibt; bei energetisch relevanter Änderung Rezertifizierung nötig (Kap. 2.3.1, kostenpflichtig).
+
+**Nebenfund (Volltextsuche, kein Primärfund):** Die in `[[minergie-zertifizierung-workflow]]`
+genannte Antrags-Checkliste und die Hilfstool-Namen (WPesti, PVopti, Lüftung, SoWs) kommen im
+Reglementstext selbst nicht vor — sie gehören zur Label-Plattform/Anwendungshilfe (2026.2), einer
+anderen Quelle. Diese beiden Listen bleiben damit auf dem Stand des Nachweiskurses 2023, das ist
+kein neuer offener Punkt, sondern eine Abgrenzung des Geltungsbereichs dieses Lesevorgangs.
+
+Eingearbeitet: `destillate/minergie-produktreglement-2026-1-muken-vergleich.md` (Frontmatter
+`gelesen`/`geltungsbereich`/`verifikation`/`last_updated`, neuer Abschnitt «Kapitel 2 —
+Zertifizierungsverfahren», Offene-Punkte-Absatz präzisiert), `destillate/minergie-
+zertifizierung-workflow.md` (Frontmatter `geltungsbereich`, Nachtrag-Absatz), `wiki/minergie-
+standards.md` (Gültigkeitsdauer-Absatz von Negativbefund auf gelöst), `wiki/BAUHERREN-FAQ.md`
+F221 (Fachlich/Bauherren-Transfer/Quelle-Absätze), `wiki/QUESTIONS.md` (E-125-6 auf `[x]`,
+dieser Eintrag).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft — durchgehend additiv/präzisierend, keine
+Löschung von Bestand.
+
+**Für den nächsten Lauf:** Kapitel 6-13 des Produktreglements 2026.1 gegen den bestehenden
+Bestand (`[[minergie-standards]]`, Anhang A/G/H/J) primärquellenweise gegenlesen (neuer
+Primärquellen-Lesevorgang, bisher nur über Anhänge/Sekundärabgleich abgedeckt). A-BLIND-Bestand
+unverändert: rund 28 von 39 Backlink-Kandidaten noch offen (`ecobkp-2026-methodik-und-uebersicht`
+nicht erneut listen). Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA
+380/1:2016 (Normkauf).
+
 ## 2026-08-24 — Interaktive Session (zehnte Fortsetzung): drei AHB-Fachmerkblätter destilliert (265/385/389), 393 als bildbasiert dokumentiert
 
 Auftrag: weitere offene Fragen abarbeiten, Anschluss an den unmittelbaren Vorlauf (CHANGELOG
@@ -3924,12 +3970,17 @@ durchfuehrbar.
   ergänzt, Wiki `[[minergie-standards]]` um den Stand der Bezugsdokumente. **Offen bleibt** nur,
   wie stark sich die Feldstruktur zwischen 2022.4 und der heutigen Plattform-Eingabe
   unterscheidet — das ist nur an einem realen Plattform-Projekt prüfbar.
-- **E-125-6 — bleibt offen, aber mit stärkerem Negativbefund.** Die offizielle Ablauf-Seite
-  (`minergie.ch/de/zertifizieren/ablauf/`, geprüft 15.08.2026) beschreibt provisorische und
-  definitive Zertifizierung in je sieben Schritten und nennt **keine Befristung, keinen Verfall,
-  keine Erneuerung**. Das stützt den bisherigen Stand, beweist aber nichts: eine Prozessseite
-  schweigt auch dann, wenn es eine Frist gibt. Abschliessend nur bei der Zertifizierungsstelle
-  zu klären; wertrelevant beim Verkauf.
+- [x] **E-125-6 — GESCHLOSSEN 24.08.2026 (A-BLIND-Folgelauf, Kapitel 2 des Produktreglements
+  2026.1 primärquellenweise gelesen).** Die Prozessseite (15.08.2026) schwieg zu Recht nicht aus
+  Zufall — das Reglement selbst trennt zwei Regimes: **provisorisches** Zertifikat 3 Jahre gültig
+  (+2 Jahre Fristverlängerung möglich, Kap. 2.1.3), **definitives** Zertifikat unbeschränkt gültig,
+  sofern keine energetisch relevante Änderung erfolgt und das Gebäude auf der Minergie-
+  Gebäudeliste bleibt (Kap. 2.2.3). Bei energetisch relevanter Änderung: Rezertifizierung nötig
+  zum Erhalt der Gültigkeit (Kap. 2.3.1). Eingearbeitet in `[[minergie-zertifizierung-workflow]]`,
+  `[[minergie-produktreglement-2026-1-muken-vergleich]]`, `wiki/minergie-standards.md`,
+  `wiki/BAUHERREN-FAQ.md` F221. Die Fünfjahresfrist aus dem Reglement 2010 (Mehrfachanwendung der
+  Marke) ist damit als andere, unabhängige Frist bestätigt — keine Kontinuität zur neu gefundenen
+  3+2-Jahres-Regel des provisorischen Zertifikats.
 - [x] **E-R134-1 (P2) — GESCHLOSSEN 16.08.2026 (Run 137): die Grundzahl «182» misst nicht, was
   sie zu messen vorgibt.** Ursprung: Run 121 zählte «1'171 PDF in PL-02, davon energierelevant
   **182**» über einen **Dateinamen-Filter, dessen Filterbegriffe nie festgehalten wurden** — die
