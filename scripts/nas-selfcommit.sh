@@ -89,21 +89,106 @@ if ! git diff --cached --quiet 2>/dev/null; then
     git commit -q -m "$CMSG" && log "commit: $N Datei(en) — $CMSG"
 fi
 
-# 2. Remote abgleichen (rebase, niemals Merge-Zustand hinterlassen)
-#    Remote-Name dynamisch — auf dem NAS heisst er "github", nicht "origin"
+# 2. Remote abgleichen — mit Divergenz-Messung, Merge-Rueckfall und Eskalation
+#
+#    Anlass 24.08.2026 (Chronik 260824e): Der frueherere Stand kannte GENAU EINEN
+#    Abgleichweg, "git pull --rebase". Scheiterte der, brach er ab und versuchte es
+#    15 Minuten spaeter erneut — still, ohne Meldung. Am 24.08. lief das von 12:45
+#    bis 18:18 durch: 26 Commits nur auf dem NAS, 51 nur auf GitHub, 9 Dateien
+#    beidseitig geaendert, sechs Stunden ohne Backup. Ein Waechter, dessen einziger
+#    Reparaturweg blockiert ist, laeuft nicht ins Leere, sondern im Kreis.
+#
+#    Drei Ergaenzungen:
+#      a) Divergenz wird GEMESSEN (beide Richtungen), nicht nur "ungleich" festgestellt.
+#      b) Bei echter Divergenz faellt der Lauf nach dem Rebase auf einen MERGE zurueck.
+#         Der Merge verlangt Konflikte einmal statt pro nachgespieltem Commit.
+#      c) Nach ESKALATION_AB erfolglosen Runden wandert der Befund ins Fristen-Register
+#         — der Ort, den logbuch-radar und hub-chef taeglich lesen (Rule 260805).
+#    Konfliktfall bleibt unveraendert konservativ: abbrechen, NIE einen Merge-/Rebase-
+#    Zustand hinterlassen (der Guard weiter oben wuerde sonst alle Folgelaeufe stoppen).
+
 REMOTE=$(git remote 2>/dev/null | head -1)
 REMOTE=${REMOTE:-origin}
 git fetch -q "$REMOTE" 2>>"$LOG" || { log "fetch fehlgeschlagen"; exit 1; }
 BR=$(git rev-parse --abbrev-ref HEAD)
-if [ "$(git rev-parse HEAD)" != "$(git rev-parse "$REMOTE/$BR" 2>/dev/null)" ]; then
-    if ! git pull --rebase --autostash -q "$REMOTE" "$BR" 2>>"$LOG"; then
-        git rebase --abort 2>/dev/null
-        log "rebase fehlgeschlagen — abgebrochen, naechster Lauf versucht erneut"
-        exit 1
-    fi
+
+FEHLZAEHLER="sync-tasks/log/selfcommit-fehlversuche"
+ESKALATION_AB=3
+
+# Divergenz messen: wie viele Commits hat jede Seite, die die andere nicht hat?
+VOR=$(git rev-list --count "$REMOTE/$BR..HEAD" 2>/dev/null || echo 0)   # nur lokal
+ZUR=$(git rev-list --count "HEAD..$REMOTE/$BR" 2>/dev/null || echo 0)   # nur remote
+
+abgleich_ok() {
+    printf '0' > "$FEHLZAEHLER" 2>/dev/null
     if git push -q "$REMOTE" "$BR" 2>>"$LOG"; then
         log "push OK ($(git log --oneline -1 2>/dev/null | cut -c1-70))"
-    else
-        log "push fehlgeschlagen"
+        return 0
     fi
+    log "push fehlgeschlagen"
+    return 1
+}
+
+abgleich_fehlgeschlagen() {
+    # $1 = Kurzbegruendung fuers Log
+    N=$(cat "$FEHLZAEHLER" 2>/dev/null || echo 0)
+    case "$N" in ''|*[!0-9]*) N=0 ;; esac
+    N=$((N + 1))
+    printf '%s' "$N" > "$FEHLZAEHLER" 2>/dev/null
+    log "abgleich fehlgeschlagen ($1) — Versuch $N, Divergenz ${VOR} lokal / ${ZUR} remote"
+
+    if [ "$N" -eq "$ESKALATION_AB" ]; then
+        # "WARNUNG" macht die Zeile fuer den Heartbeat (Check 7) grep-bar.
+        log "WARNUNG: Abgleich seit $N Laeufen blockiert — Divergenz ${VOR} lokal / ${ZUR} remote, Eintrag im Fristen-Register"
+        REG="logbuch/fristen.md"
+        if [ -f "$REG" ]; then
+            TMP="$(mktemp)" || return 1
+            {
+                head -4 "$REG"
+                printf '\n**NEU %s (nas-selfcommit, automatisch) — Der Abgleich NAS/GitHub ist seit %s Laeufen blockiert.**\n' \
+                    "$(date '+%d.%m.%Y, %H:%M')" "$N"
+                printf 'Divergenz aktuell: **%s Commits nur auf dem NAS, %s nur auf GitHub.** Weder Rebase noch Merge\n' "$VOR" "$ZUR"
+                printf 'gehen automatisch durch, das NAS-Repo ist seither NICHT nach GitHub gesichert. Konflikte von Hand\n'
+                printf 'zusammenfuehren (Merge, nicht Rebase — er verlangt die Konflikte einmal statt pro Commit), vorher\n'
+                printf 'einen Sicherungszweig setzen. Vorgehen und Praezedenzfall: `rules/betrieb-chronik.md` 260824e.\n'
+                printf 'Diese Zeile wird erst wieder geschrieben, wenn der Abgleich zwischenzeitlich lief. | Hub-Infrastruktur (Git-Sync) | hoch | offen\n'
+                tail -n +5 "$REG"
+            } > "$TMP" && mv "$TMP" "$REG" && git add "$REG" >/dev/null 2>&1 \
+                && git commit -q -m "nas-selfcommit: Abgleich blockiert seit $N Laeufen — Eintrag im Fristen-Register" \
+                && log "Fristen-Register ergaenzt"
+        fi
+    fi
+    return 1
+}
+
+if [ "$VOR" -gt 0 ] && [ "$ZUR" -eq 0 ]; then
+    # Nur wir sind voraus — der haeufige Fall, direkt pushen.
+    abgleich_ok || abgleich_fehlgeschlagen "push"
+elif [ "$VOR" -eq 0 ] && [ "$ZUR" -gt 0 ]; then
+    # Nur die Gegenseite ist voraus — Fast-Forward, nichts zu pushen.
+    if git merge -q --ff-only "$REMOTE/$BR" 2>>"$LOG"; then
+        printf '0' > "$FEHLZAEHLER" 2>/dev/null
+        log "fast-forward auf $REMOTE/$BR ($(git log --oneline -1 2>/dev/null | cut -c1-70))"
+    else
+        abgleich_fehlgeschlagen "fast-forward"
+    fi
+elif [ "$VOR" -gt 0 ] && [ "$ZUR" -gt 0 ]; then
+    # Echte Divergenz: erst Rebase (saubere Historie), dann Merge als Rueckfall.
+    if git pull --rebase --autostash -q "$REMOTE" "$BR" 2>>"$LOG"; then
+        abgleich_ok || abgleich_fehlgeschlagen "push nach rebase"
+    else
+        git rebase --abort 2>/dev/null
+        log "rebase fehlgeschlagen (${VOR}/${ZUR}) — versuche Merge"
+        if git -c user.name="NAS Selfcommit" -c user.email="nas@raphaeljans.ch" \
+               merge --no-edit -q "$REMOTE/$BR" 2>>"$LOG"; then
+            abgleich_ok || abgleich_fehlgeschlagen "push nach merge"
+        else
+            # Konflikte: NIE einen Merge-Zustand hinterlassen.
+            git merge --abort 2>/dev/null
+            abgleich_fehlgeschlagen "rebase und merge, Konflikte brauchen ein Urteil"
+        fi
+    fi
+else
+    # Deckungsgleich — nichts zu tun, Zaehler zuruecksetzen.
+    printf '0' > "$FEHLZAEHLER" 2>/dev/null
 fi

@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.08.2026 18:19:28
+Stand: 24.08.2026 18:29:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:19)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 24.08.2026 18:19:28
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- bd4b765d station-03 vollvermascht: SSH-Aliase, Schluesseltausch, Chronik 260824d, zettel/ angelegt
+- 4784e7bf Chronik 260824e + Fristen: NAS/GitHub-Spaltung analysiert und behoben (Merge 9bb81668), Zweitursache zwei Schreiber auf main offen
