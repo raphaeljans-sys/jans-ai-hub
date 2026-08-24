@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.08.2026 13:11:03
+Stand: 24.08.2026 13:21:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:11)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:13)
 - /Volumes/daten/jans/ai/hub/logbuch/laeufe  (letzte Aktivitaet 13:01)
 - /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 12:59)
 
@@ -21,4 +21,4 @@ Stand: 24.08.2026 13:11:03
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- a7a24f1e vollgas-radar 24.08. 12:57: [FREI] nach Wochen-Reset 12:00, Probe OK 40s; P1 ch.jans.nachtschicht auf Mini nicht geladen (Registerzeile + fertiger Befehl); Schub beendet mit 1370 Laeufen / 75 Prozent Fehlversuchen; zwei Messfallen (Ampel auf 1 von 3 Stationen, Watchdog gaukelt 180s vor); Swap-Zeile erledigt
+- 2d4ee307 vollgas-radar 24.08. 12:57 Nachtrag P1b: GitHub-Sicherung gestaut (3 voraus / 50 zurueck seit Basis 08:21), zwei Commit-Wege auf 9 gemeinsame Wissens-Dateien; Registerzeile mit Diagnosebefehl
