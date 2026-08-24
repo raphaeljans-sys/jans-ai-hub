@@ -621,9 +621,31 @@ gesamte chronologische Stale-Flag-Sweep-Kette (Run 90-115) durch `QUESTIONS.md` 
 kein bekannter offener Block aus der Health-Check-/Kapitel-Historie mehr. Report
 `outputs/2026-08-24_buch-run115.md`.
 
-**Nächster Schritt:** kein chronologischer Stale-Flag-Block mehr offen. Kandidaten: regulärer
-`wissenscheck`-Turnus, weitere Modell-D-Re-Verifikationsrunde, oder das «Gebührenreglement
-Bauwesen Thalwil» direkt bei der Gemeinde abklären (hochbau@thalwil.ch).
+**Run 116 (2026-08-24, ausserhalb T1-T9):** die beiden letzten offenen Punkte aus Run 115
+geschlossen. **RRB 262/2010 war ein Lesefehler** — richtig ist **RRB 39/2010** vom 13.1.2010
+(«Baulinienrevision, Konzept Aufarbeitung und Bewirtschaftung, Finanzierung»), amtlich bezogen
+und inhaltlich/datumsgleich mit der Buchstelle S. 221 deckungsgleich; Gegenprobe auf «0262»
+liefert HTTP 404. **«Gebührenreglement Bauwesen» Thalwil gefunden** (SR 600.3, Fassung
+1.1.2026) — nicht über die JS-Suche, sondern über die statische Übersichtsseite
+`thalwil.ch/gebuehrenthalwil` und deren Redirect-Kette zum PDF. Kernbefund: Thalwil bemisst
+Baubewilligungsgebühren über feste Grundtaxen in Franken, nicht promillebasiert (EFH ab
+Fr. 1'350.–, MFH ab Fr. 1'700.– zzgl. Fr. 350.–/Wohnung, Gewerbe ab Fr. 1'700.– zzgl.
+Fr. 0.75/m³ ab 500 m³). Neue Primärquellen `raw/260824_amtlich_zh_rrb-39-2010-
+baulinienrevision.md` und `raw/260824_amtlich_zh_thalwil-gebuehrenreglement-bauwesen.md`.
+Geänderte Wiki-Artikel: [[baubewilligungsverfahren]]; Buch-Destillat
+`03-erschliessung-landsicherung-teil1.md` korrigiert. Report `outputs/2026-08-24_buch-run116.md`.
+
+**Nächster Schritt:** kein bekannter offener Punkt mehr — weder aus der Reglemente-Queue (T1-T9,
+seit Run 79) noch aus der chronologischen Stale-Flag-Sweep-Kette (Run 90-116). Kandidaten für
+einen künftigen Lauf: regulärer `wissenscheck`-Turnus, oder eine unabhängige Stichproben-
+Re-Verifikationsrunde (Modell D) über bereits `established` markierte Artikel, um Drift seit der
+Erstverifikation zu prüfen.
+
+## Status: Queue vollständig abgeschlossen (2026-08-24, Run 116)
+
+Alle Batches T1-T9 erledigt (zuletzt T8/Run 79, 23.08.2026); die daran anschliessende
+chronologische Stale-Flag-Sweep-Kette (Run 90-116) ist ebenfalls abgeschlossen. Diese Queue-Datei
+bleibt als Arbeitsprotokoll bestehen, wird aber nicht mehr als aktive Warteschlange geführt.
 
 ## Arbeitsregeln je Batch
 

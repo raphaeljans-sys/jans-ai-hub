@@ -3,6 +3,92 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 117: negative Vorwirkung Thalwil am amtlich servierten Dokument nachgeprüft (unverändert), stale Bookkeeping-Note Kap. 17 korrigiert, Cross-KB-PL-02-Zugriff auf dieser Station gescheitert (dokumentiert)
+
+- **Ausgangslage:** Die Reglemente-Queue (T1-T9) und die daran anschliessende chronologische
+  Stale-Flag-Sweep-Kette (Run 90-116) sind seit Run 116 vollständig abgearbeitet — kein
+  chronologischer Restpunkt mehr offen. Dieser Lauf wählte darum das einzige noch `status:
+  emerging` geführte Wiki-Objekt der KB, [[negative-vorwirkung-und-bzo-revision]] (die beiden
+  offenen Punkte T-01/T-02 aus `wiki/QUESTIONS.md` hängen an einem realen, noch nicht
+  eingetretenen Verfahrensschritt der Gemeinde Thalwil, nicht an einer Wissenslücke), sowie den
+  neu eingegangenen Cross-KB-Eintrag von `wissen/energie` (24.08.2026).
+- **T-01 mit stärkerer Methode nachgeprüft, Befund unverändert:** bisherige Prüfungen (03./23.08.)
+  lasen nur die Verfahrensseiten von thalwil.ch. Dieser Lauf hat stattdessen das **amtlich
+  servierte Rechtsdokument selbst** frisch abgerufen — dieselbe `oerebdocs.zh.ch`-URL
+  (`getDoc?docid=1296`), aus der bereits `raw/260607_amtlich_zh_bzo-thalwil.md` stammt — und mit
+  `pdftotext -layout` extrahiert. Kopfzeile unverändert: «Von der Gemeindeversammlung festgesetzt
+  am 11.12.2019» / «Von der Baudirektion genehmigt am 29. April 2020». Die Gemeinde liefert unter
+  derselben docid weiterhin die alte Fassung aus — ein stärkerer Beleg als eine Verfahrensseite,
+  die schlicht schweigen könnte. T-02 (aktualisierte Vorwirkungs-Synopse) ebenfalls erneut
+  geprüft, keine neuere Fassung auffindbar. **GEÄNDERT** `wiki/negative-vorwirkung-und-bzo-revision.md`
+  (Verfahrensstand-Tabelle, `verifiziert`-Feld, `last_updated`, offene Punkte),
+  `wiki/QUESTIONS.md` (T-01/T-02 je um einen datierten Nachtrag ergänzt). Status bleibt bewusst
+  `emerging` — es ist kein Wissensdefizit, sondern ein realer Schwebezustand.
+- **Stale-Bookkeeping-Note in `training/curriculum.md` Kap. 17 korrigiert:** die Zeile behauptete
+  weiterhin, [[wohnhygiene-und-raumanforderungen]] bleibe `emerging` «bis PBG §§299-306
+  volltextverifiziert» — das ist seit Buch-Run 32 (12.07.2026) erledigt, der Wiki-Artikel steht
+  seither auf `status: established` (zuletzt bestätigt Buch-Run 95, 23.08.2026). Gleiche
+  Fehlerfamilie wie die in Run 105/109/110/113-115 bereits behobenen stale Zeiger — nur diesmal
+  in `curriculum.md` statt `QUESTIONS.md` gefunden.
+- **Cross-KB-Übergabe von `wissen/energie` (12 nie gesichtete Baurecht-/STWEG-docx in PL-02):
+  Zugriffsversuch dokumentiert gescheitert, kein Sachbefund.** Diese Session lief headless auf
+  einer Station ohne lokalen Mount der SharePoint-Site `/sites/PL` (unter
+  `OneDrive-FreigegebeneBibliotheken–JANS` fehlt der `PL`-Ordner) und ohne `node` im `PATH`
+  (`command not found: node`) — damit war weder der Datei- noch der Connector-Weg verfügbar.
+  Rule `wege-und-vollmachten`: ein leeres Ergebnis ist zuerst eine Aussage über das Werkzeug,
+  nicht über die Quelle — deshalb **kein** Ingest, **keine** Aussage über Dubletten, nur eine
+  aus dem Dateinamen naheliegende, ausdrücklich ungeprüfte Vermutung (`Seehaldenstrasse
+  31/200831 BR Grundstück.docx` könnte dieselbe Datei sein wie das bereits als authentisch
+  geführte `200831 BR Grundstück.pdf` aus der Thalwil-Reglemente-Queue) im Register vermerkt.
+  **GEÄNDERT** `wiki/QUESTIONS.md` (Zugriffsversuch + Vermutung als Nachtrag ergänzt, Eintrag
+  bleibt offen). Nächster Schritt für eine Station mit funktionierendem `PL`-Mount oder `node`.
+- `git diff --numstat` (nativ, nicht über SMB) nach jedem Schreibvorgang geprüft: nur gezielte
+  Additionen in den vier bestehenden Dateien, keine unerwarteten Löschungen.
+- REPORT `outputs/2026-08-24_buch-run117.md`.
+
+## 2026-08-24 — Buch-Run 116: Reglemente-Queue vollständig abgeschlossen — RRB 262/2010 als Lesefehler aufgelöst (richtig: RRB 39/2010), Gebührenreglement Bauwesen Thalwil erstmals vollständig beschafft
+
+- **Ausgangslage:** Run 115 hatte die chronologische Stale-Flag-Sweep-Kette (Run 90-115)
+  abgeschlossen und zwei verbleibende, genuin offene Punkte benannt: `RRB 262/2010` (Nummer im
+  Buch-Reader schwer lesbar, S. 221, Verkehrsbaulinien 3.6.3) und das über die JS-gerenderte
+  Gesetzessammlung-Suche nicht auffindbare «Gebührenreglement Bauwesen» Thalwil. Beide Wege vor
+  dem Abbruch geprüft (Rule `wege-und-vollmachten`), beide gelöst.
+- **RRB 262/2010 → RRB 39/2010 («Baulinienrevision, Konzept Aufarbeitung und Bewirtschaftung,
+  Finanzierung», Regierungsrat ZH, Sitzung 13.1.2010):** WebSearch nach der Buchstelle fand
+  keinen Treffer für «262», aber einen für «39» — selbes Datum, exakt dasselbe Sachthema
+  (Festsetzungsgrundsätze für Verkehrsbaulinien an Staatsstrassen: 6-m-Grundabstand an
+  ausgebauten Strassen, 3-5 m/Fahrspur an unfertigen, Trasseesicherung, Kernzonen-Verzicht).
+  Direkter Abruf über das amtliche URL-Muster (`zh.ch/bin/zhweb/publish/regierungsratsbeschluss-
+  unterlagen./2010/39/RRB-2010-0039.pdf`) bestätigt Inhalt und Dispositiv vollständig; die
+  Gegenprobe auf `RRB-2010-0262.pdf` liefert HTTP 404 — diese Nummer existiert im amtlichen
+  Archiv nicht. **NEU** `raw/260824_amtlich_zh_rrb-39-2010-baulinienrevision.md` (vollständiger
+  Wortlaut inkl. Dispositiv I-IV). **GEÄNDERT**
+  `buecher/band-1/03-erschliessung-landsicherung-teil1.md`: Fundstelle korrigiert, Flag von
+  `speculative` auf `established`. **GEÄNDERT** `wiki/QUESTIONS.md`: letzter offener Punkt aus
+  dem T6-Batch geschlossen.
+- **Gebührenreglement Bauwesen Thalwil (SR 600.3, Fassung 1.1.2026) gefunden:** die JS-gerenderte
+  Volltextsuche der Gesetzessammlung blieb (wie in Run 115) ohne Treffer; die statische
+  Übersichtsseite `thalwil.ch/gebuehrenthalwil` nennt den Dokumenttitel aber im Klartext-Link
+  (`/_rtr/information_2653196`), der über eine 301/302-Redirect-Kette
+  (`/gesetzessammlung/sammlung/2653196` → `/_doc/6370262` → `/_docn/6370262/SR_600.3_…pdf`) zum
+  PDF führt — kein Login, kein JS-Rendering nötig, nur eine andere Einstiegsseite als die Suche.
+  **Kernbefund:** Thalwil bemisst Baubewilligungsgebühren **nicht promillebasiert**, sondern über
+  feste Grundtaxen plus Zuschläge in Franken (EFH Grundtaxe ab Fr. 1'350.–, MFH ab Fr. 1'700.–
+  zzgl. Fr. 350.–/Wohnung, Gewerbe/Fabrik ab Fr. 1'700.– zzgl. Fr. 0.75/m³ ab 500 m³ umbautem
+  Raum). Ein Promillewert für Thalwil war also nie sachgerecht bestimmbar — nicht nur unbelegt,
+  sondern methodisch die falsche Bemessungsgrösse. **NEU**
+  `raw/260824_amtlich_zh_thalwil-gebuehrenreglement-bauwesen.md` (vollständiger Volltext:
+  Baupolizei, Feuerpolizei, Feuerungskontrolle, baulicher Zivilschutz). **GEÄNDERT**
+  `wiki/baubewilligungsverfahren.md`: Abschnitt «Gebühren» um das konkrete Thalwil-Beispiel
+  ergänzt, neuer `verifiziert`-Eintrag 2026-08-24h, `sources` ergänzt.
+- **GEÄNDERT** `training/KORPUS-QUEUE-thalwil-reglemente.md` — Run-116-Nachtrag, Queue-Status
+  final auf vollständig abgeschlossen gesetzt.
+- **Damit hat die Reglemente-Queue (T1-T9) samt der daran anschliessenden chronologischen
+  Stale-Flag-Sweep-Kette (Run 90-116) keine bekannten offenen Punkte mehr.** Nächster sinnvoller
+  Schritt: regulärer `wissenscheck`-Turnus oder eine neue, unabhängige Modell-D-Re-Verifikations-
+  runde über bereits `established` markierte Artikel (Stichprobenprinzip).
+- REPORT `outputs/2026-08-24_buch-run116.md`.
+
 ## 2026-08-24 — Cross-KB-Bringschuld von `wissen/energie` entgegengenommen: 12 nie gesichtete Baurecht-/STWEG-docx in PL-02
 
 - **[flag]** `wissen/energie` hat beim filterlosen Sichten von PL-02 Recht_Norm (Run 161,

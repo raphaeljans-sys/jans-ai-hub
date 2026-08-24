@@ -1,5 +1,38 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: A-WERKZEUG-Alterskorpus-Liste gegen FAQ-Propagation geprüft, kein neuer Fund
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den CHANGELOG-Stand
+(letzter Eintrag: Cross-KB-Bringschuld). Vor der Recherche zuerst alle elf noch offen `[ ]`
+markierten Punkte gegen den aktuellen Stand geprüft statt der Checkbox zu glauben: A-P2 18/18
+erledigt, A-P3 14/17 (Rest expliziter Sammellauf), A-BLIND-Vorrat fürs Quartal ausgeschöpft,
+E103/E94/E-R148-1/E-R148-2/E-R161-1 an Raphaels Entscheid gebunden (Normkauf SIA 380/1:2016 bzw.
+SN EN ISO 6946 — auch die Schwester-KB `normen` führt SIA 380/1:2016 nur als 6/60-Seiten-
+Struktur-Auszug, Status speculative, Volltext fehlt dort ebenfalls; JANS-Projektdaten-Freigabe für
+E103/E94), E-R129-5/E-WC32-1/E-R134-3/E-R150-3 bewusst als P3/P4 zurückgestellt. Einzig
+**A-WERKZEUG** hatte einen echten ungeprüften Rest: ob die Alterswarnung der rund 30
+Alterskorpus-Destillate (`datenstand-waechter.py`) auch bei den zitierenden FAQ-Antworten ankommt
+— derselbe Mechanismus wie Audit-Fehlerklasse 04.2 («die KB weiss es besser, als sie sagt»), aber
+für diese Liste nie einzeln durchgegangen.
+
+**Werkzeuglauf:** `datenstand-waechter.py energie --heute 2026-08-24` → 37 Treffer (34 Destillate +
+3 bereits als Werkzeugrauschen geklärte QUESTIONS.md-Pruefstichtage). Die 22 davon mit mindestens
+einer `wiki/BAUHERREN-FAQ.md`-Zitierstelle einzeln mit `grep -B3 -A3` geprüft, inkl. aller sechs
+Fundstellen des höchstzitierten Destillats `pv-ertrag-eigenverbrauch-praxis` (12 FAQ-Zitate).
+**Ergebnis: alle 22 propagieren ihre Alterswarnung korrekt an jeder geprüften Zitierstelle — kein
+neuer Fund.** Vollständige Liste der geprüften Destillate im QUESTIONS.md-Eintrag desselben Tages.
+
+**Nicht geprüft, bewusst zurückgestellt (kleiner Folgelauf, kein Blocker):** sechs Destillate ohne
+FAQ-Zitat (nur Wiki-Themenartikel-Zitate, niedrigere Risikoklasse, bereits Gegenstand der
+abgeschlossenen Themenartikel-Nachrüstung), sowie ob die Warnungen an den Wiki-Themenartikel-
+Zitierstellen selbst (statt FAQ) ebenso vollständig sind.
+
+Da kein inhaltlicher Fehler gefunden wurde, wurde ausschliesslich `wiki/QUESTIONS.md` (neuer
+Abschnitt, additiv) verändert, keine weitere Datei. `git diff --numstat` nach dem Schreibvorgang
+geprüft: rein additiv, keine Löschung von Bestand. Report: dieser CHANGELOG-Eintrag +
+QUESTIONS.md-Abschnitt vom selben Tag (kein separates `outputs/`-Dokument, da keine neue
+Primärquelle gelesen wurde).
+
 ## 2026-08-24 — Interaktive Session: Cross-KB-Bringschuld aus Run 161 eingelöst (baurecht/normen)
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und `- [ ]`-Bestand

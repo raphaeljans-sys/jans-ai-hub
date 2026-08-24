@@ -31,6 +31,22 @@ erste Schritt für einen künftigen Baurecht-Lauf, bevor entschieden wird, ob ei
 lohnt. Die 7 SIA-Vertragsrecht-docx aus demselben PL-02-Scan (`02_Normen/SIA_Norm/SIA_Vertraege/`)
 sind separat in `wissen/normen/wiki/QUESTIONS.md` nachgetragen (dortige Zuständigkeit).
 
+⚠ **Zugriffsversuch 2026-08-24 (Buch-Run 117) gescheitert — Werkzeug-/Stationsbefund, keine
+Sachaussage über die Dateien selbst (Rule `wege-und-vollmachten`, «leeres Ergebnis ist zuerst
+eine Aussage über das Werkzeug»).** Diese Session lief headless auf einer Station ohne die
+SharePoint-Site `/sites/PL` als lokalen OneDrive-Mount (unter
+`~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS` liegt nur `AD/AR/IMMO/JANS-2619`,
+kein `PL`-Ordner) und ohne `node` im `PATH` (Connector/M365-Weg damit ebenfalls nicht verfügbar,
+`command not found: node`). Vergleicht man die 6 Dateinamen unter `Seehaldenstrasse 31/` und die
+losen `200508`/`200523`/`200529`-Dateien mit dem Echo-Schutz-Abschnitt der
+`training/KORPUS-QUEUE-thalwil-reglemente.md` («Authentisch (Gold): … z.B. `200831 BR Grundstück.pdf`,
+`260302 BR Grundstück Thalwil.docx`»), liegt eine Dublette nahe (`Seehaldenstrasse 31/200831 BR
+Grundstück.docx` vs. das dort bereits als authentisch geführte `200831 BR Grundstück.pdf`) — **das
+ist eine Vermutung aus dem Dateinamen, keine geprüfte Aussage**, und wird hier bewusst nicht als
+Befund verbucht. Nächster Schritt für eine Station mit funktionierendem `PL`-Mount oder
+funktionierendem `node`/M365-Connector: die 12 Dateien öffnen, gegen bereits ingestete Quellen
+diffen, dann entscheiden.
+
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 98) — ZH-Mehrwertausgleich (MAG): Buchstand 2019 war Entwurf, erlassener Text weicht in den Prozentsätzen ab
 
 **War offen seit Erstellung von [[enteignung-und-entschaedigung]] (2026-07-04), zuletzt bei
@@ -511,6 +527,13 @@ Gesetzessammlung SR 700.1 und das Amtsblatt Kanton Zürich zeigen keinen neuen S
 keine publizierte Genehmigung der Baudirektion, kein Inkrafttretensdatum. Massgebend bleibt
 unverändert die alte BZO (11.12.2019, in Kraft seit 31.08.2024). Weiterhin zu überwachen, nicht
 zu erraten.
+⚠ **Nachgeprüft 2026-08-24 (Buch-Run 117), andere Methode, unverändert offen:** statt der
+Verfahrensseiten diesmal das amtlich servierte Dokument selbst frisch abgerufen
+(`https://oerebdocs.zh.ch/getDoc?docid=1296`, dieselbe URL wie `raw/260607_amtlich_zh_bzo-thalwil.md`)
+und mit `pdftotext -layout` extrahiert — Kopfzeile unverändert „Von der Gemeindeversammlung
+festgesetzt am 11.12.2019“ / „Von der Baudirektion genehmigt am 29. April 2020“. Stärkerer Beleg
+als eine Verfahrensseite, die schlicht schweigen könnte: die Gemeinde liefert unter derselben
+docid noch immer die alte Fassung aus. Weiterhin zu überwachen.
 
 **T-02 · Gibt es eine aktualisierte Vorwirkungs-Synopse nach der Festsetzung?**
 Die ausgewertete Fassung datiert vom **05.09.2025**, also aus der Zeit **vor** der
@@ -518,6 +541,9 @@ Festsetzung. Zwischen Auflage und Festsetzung können Bestimmungen aufgrund der
 Einwendungen geändert worden sein; dann stimmt die Grau-Markierung nicht mehr. Der
 Projektordner enthält keine spätere Fassung (Stand 03.08.2026). Bei der nächsten
 Thalwiler Eingabe bei der Gemeinde nachfragen.
+⚠ **Nachgeprüft 2026-08-24 (Buch-Run 117):** `thalwil.ch/bzorevision` + `/71413` verlinken
+weiterhin nur die Auflagedokumente von 2025 (Synopse 05.09.2025); keine neuere Fassung
+öffentlich auffindbar. Bleibt offen bis zur nächsten Thalwiler Projekteingabe.
 
 **T-03 · Zitat-Flag im Destillat [[12-baureife]]: «RB 1980 Nr. 113» vs. «RB 1998 Nr. 113».**
 Dasselbe Destillat zitiert in Ziff. 12.2.1.1 (S. 709 f.) «RB 1980 Nr. 113» für das

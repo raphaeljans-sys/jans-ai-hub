@@ -5033,3 +5033,62 @@ die KB widerspricht sich selbst.
   `naturdaemmstoffe.md` +1/-0, `massivbau-bauteildatenblatt-ksv-swisspor.md` 1/1,
   `urbane-hitzeinseln-kuehlstrategien-aussenraum.md` 3/3, `foerderprogramm-energie-zh-2026.md` 2/1
   — durchgehend präzisierende Textersetzung, keine Löschung von Bestand.
+
+## 2026-08-24 (interaktive Session, Fortsetzung) — A-WERKZEUG-Alterskorpus-Liste gegen FAQ-Propagation geprüft: kein neuer Fund
+
+Auftrag: weitere offene Fragen abarbeiten, Anschluss an den heutigen CHANGELOG-Stand (Cross-KB-
+Bringschuld war der letzte Eintrag). Erst systematisch gegen den aktuellen Dateistand verifiziert,
+was von den elf noch offenen `[ ]`-Punkten überhaupt noch Recherchearbeit erlaubt: A-P2 ist laut
+CHANGELOG 18/18 erledigt, A-P3 14/17 (Rest Sammellauf), A-BLIND-Vorrat fürs Quartal ausgeschöpft,
+E103/E94/E-R148-1/E-R148-2/E-R161-1 an Raphaels Entscheid gebunden (Normkauf SIA 380/1:2016 bzw.
+SN EN ISO 6946, JANS-Projektdaten-Freigabe), E-R129-5/E-WC32-1/E-R134-3/E-R150-3 bewusst als P3/P4
+zurückgestellt. Einzig **A-WERKZEUG** hatte mit der «31 Themenartikel ohne `datenstand`/rund 30
+Alterskorpus-Destillate»-Zeile noch einen nicht abschliessend geprüften Rest: die Themenartikel-
+Nachrüstung ist laut CHANGELOG (vier Sessions, zuletzt «zwei übersehene Themenartikel …») komplett,
+aber ob die **Alterswarnung der Destillate auch bei den zitierenden FAQ-Antworten ankommt**
+(derselbe Mechanismus wie Audit-Fehlerklasse 04.2), war nie einzeln durchgegangen worden.
+
+**Vorgehen:** `python3 wissen/tools/datenstand-waechter.py energie --heute 2026-08-24` neu
+ausgeführt → 37 Treffer (34 Destillate + 3 bereits als Werkzeugrauschen geklärte QUESTIONS.md-
+Pruefstichtage, siehe Eintrag oben). Von den 34 Destillaten nach FAQ-Zitierhäufigkeit priorisiert
+(`grep -c "\[\[<slug>\]\]" wiki/BAUHERREN-FAQ.md`) und die **22 mit mindestens einer FAQ-Zitierstelle**
+einzeln mit `grep -B3 -A3` an jeder Zitierstelle gegen den Fliesstext geprüft: trägt die Antwort an
+der Stelle, wo das Destillat referenziert wird, den Alters-/Marktvorbehalt, oder erscheint der
+Destillat-Name nackt.
+
+**Befund: alle 22 geprüften Destillate propagieren ihre Alterswarnung korrekt in jede geprüfte
+FAQ-Zitierstelle — kein neuer Fund, kein Fehler dieser Klasse offen.** Geprüft (FAQ-Zitate in
+Klammern): `haushaltgeraete-effizienz-beschaffung-topten` (1), `haushaltgeraete-professionelle-
+beschaffung-2004-erstausgabe` (1), `ahb-checkliste-solarstromanlagen-2008` (1), `bodenbelaege-
+buerobau-kbob-vergleich-50-jahre` (1), `ecobkp-2009-merkblaetter-nach-bkp` (1), `ahb-bedingungen-
+werkleistungen-nachhaltiges-bauen` (1), `ahb-checkliste-raumluftmessungen` (1), `sunskin-roof-
+indach-planung` (3), `minergie-nachweiskurs-2023-mkz-thge` (3), `duschwasser-waermerueckgewinnung-
+joulia` (1), `pv-fassade-ertrag-pvsol` (2), `pv-kosten-amortisation-praxis-ewz` (2), `sia-2060-
+kosten-ladeinfrastruktur-vertiefung` (2), `sonnendach-solarpotenzial-bfe` (2), `gebaeudeschadstoffe-
+checkliste-zh` (2), `glasbauten-hoher-glasanteil-sia2021` (1), `massivbau-bauteildatenblatt-ksv-
+swisspor` (1), `wdvs-brandriegel-fassadendaemmung-vkf` (1), `werkhof29-zirkulaeres-bauen-stroh-lehm`
+(2), `zev-eigenverbrauch-mfh-her-2025` (8, alle Fundstellen geprüft), `zev-mieter-strompreis-
+eigenverbrauch` (3), `swki-lueftung-gesundheitsbau-hygiene-energie` (1), sowie **stichprobenartig
+alle sechs Fundstellen von `pv-ertrag-eigenverbrauch-praxis`** (12 FAQ-Zitate, höchste Priorität)
+— durchweg ⚠-Vorbehalt in derselben Antwort oder unmittelbar an der Zitierstelle.
+
+**Nicht geprüft, bewusst zurückgestellt:** die verbleibenden sechs Destillate ohne FAQ-Zitat
+(`2000-watt-gesellschaft-sieben-thesen-ahb`, `ahb-checkliste-schadstoffe-in-bauten`, `asbest-
+dimension-jenseits-spritzasbest`, `vorgehen-bei-beschwerden-innenraumklima`, `topten-haushaltgeraete-
+liegenschaftenverwaltung`) — sie erreichen die Bauherrschaft nicht direkt (nur Themenartikel-
+Zitate), das ist die niedrigere Risikoklasse und war ausserdem Gegenstand der bereits
+abgeschlossenen Themenartikel-Nachrüstung (volle Fliesstext-Lesung). Ebenfalls nicht geprüft: ob
+die Warnungen an den Wiki-Themenartikel-Zitierstellen (nicht FAQ) ebenso vollständig sind — das
+bliebe ein eigener, kleinerer Nachlauf.
+
+**Einordnung für den nächsten Lauf:** Damit ist die in A-WERKZEUG offen benannte Sorge («ob dieses
+Alter auch in der FAQ … ankommt») für den bauherren-exponierten Teil des Korpus mit einem echten
+Ergebnis beantwortet, nicht nur verschoben — die frühere Sorge war unbegründet, weil die
+Datenstand-Disziplin dieser KB (⚠-Vorbehalt direkt an jeder Zitierstelle statt nur im Frontmatter)
+bereits vor der heutigen Nachrüstung gelebte Praxis war. Der verbleibende Rest der A-WERKZEUG-Liste
+(6 wiki-only Destillate, Wiki-Themenartikel-Zitierstellen ungeprüft) ist klein genug für einen
+einzelnen Folgelauf, aber kein Recherche-Blocker.
+
+Diese Session fand **keinen neuen inhaltlichen Fehler** und hat daher ausschliesslich diesen
+QUESTIONS.md-Abschnitt geschrieben, keine weitere Datei verändert. `git diff --numstat` nach dem
+Schreibvorgang geprüft: rein additiv.

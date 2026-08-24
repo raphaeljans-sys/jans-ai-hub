@@ -4199,7 +4199,7 @@ einzeln geprüft:
 
 ## Mini-Run 30 (Mac Mini, 260715) — offene Lücken aus der Vertiefungsstufe (d) Querschnitts-Synthese DIN/VSS/RAL
 
-- [ ] **SIA 266/262/267 Detailbemessung nicht gegen DIN 1053/1045-2/1054 gegengeprüft:**
+- [x] **SIA 266/262/267 Detailbemessung nicht gegen DIN 1053/1045-2/1054 gegengeprüft:**
   Abschnitt 9 der Synthese (`wiki/synthese-din-vss-ral-fachskills.md`) stützt sich auf die
   bereits gelesenen Ausschnitte der SIA-Destillate (SIA 266 Ziff. 2.3.2.2, SIA 262 Ziff. 2/
   4.2.1/4.3.6/4.3.8/4.3.10/5.2.2-5.2.4/6.4.2, SIA 267 Ziff. 0-5/8 bis 8.4.4). Nicht gelesen:
@@ -4214,6 +4214,12 @@ einzeln geprüft:
   `destillate/sia-266-2003.md` bzw. `destillate/sia-267-2003.md`. Der eigentliche
   Ziffer-für-Ziffer-Abgleich gegen DIN 1053/1045-2/1054 (Abschnitt D, Mac-Mini-Scope) wurde
   in diesem Lauf NICHT durchgeführt — das bleibt für den nächsten Cross-Check-Lauf offen.
+  **GESCHLOSSEN 24.08.2026 (Registerpflege, kein neuer Sachverhalt):** der hier vertagte
+  Ziffer-für-Ziffer-Abgleich wurde bereits am 23.08.2026 durchgeführt und im unmittelbar
+  folgenden Eintrag dieses Blocks dokumentiert (`outputs/2026-08-23_cross-check-sia266-267-vs-din1053-1054.md`,
+  dort korrekt mit `[x] GESCHLOSSEN 23.08.2026` markiert) — nur diese Checkbox wurde beim
+  damaligen Schliessen nicht mitgezogen, weil der Abgleich als neuer Eintrag statt als
+  Update dieses Eintrags erfasst wurde.
 - [x] **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung, Cross-Check-Lauf).** Ziffer-für-Ziffer-
   Abgleich SIA 266 ↔ DIN 1053-1 und SIA 267 ↔ DIN 1054 durchgeführt, dazu Scope-Klärung
   SIA 262 ↔ DIN 1045-2. Vollständiger Bericht mit allen Fundstellen:

@@ -1,3 +1,151 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung, siebter Anlauf: eine weitere stehengebliebene Checkbox geschlossen (SIA 266/267 ↔ DIN 1053/1054)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fortsetzung nach dem
+zuletzt gelesenen Stand (CHANGELOG-Kopf, sechste unabhängige Sättigungsverifikation vom
+selben Tag). Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen).
+
+**Kollisionscheck:** `ps aux` geprüft — nur die drei eigenen Prozesse (Name `mschub576`/
+`mschub579`, exakt dieser Auftragstext) mit Bezug zu `wissen/normen`. Kein Konkurrenzlauf.
+
+**Eigene Durchsicht statt Übernahme der Sättigungs-Behauptung:** alle 34 verbleibenden
+`^- \[ \]`-Treffer in `wiki/QUESTIONS.md` einzeln gegen ihren Kontext gelesen (nicht nur
+gezählt). Ergebnis: der überwiegende Teil ist entweder ausdrücklich externe Bring-Schuld
+(Kaufentscheid Raphael: SIA 2014 CAD-Layerkatalog, SIA 181:2020, SIA 118:2013, VA
+105-01:2015, SIA 491/SN EN 12193/SN 640 052/SN 641 400, SIA 380/1:2016, SIA 385/1:2011,
+SIA 266/1:2015), eine Strukturentscheidung bei Raphael (Run-31-Reichweitenfrage,
+Cross-Contamination/Doppelte-Run-Nummer-Prozessnotizen), oder bereits korrekt mit
+Ursprungswortlaut+vorangestelltem Schliess-Vermerk dokumentiert (Konvention der KB).
+
+**Fund — SIA 266/262/267 ↔ DIN 1053/1045-2/1054 (Mini-Run-30-Block, Zeile ~4202) war
+bereits gelöst, nur die Checkbox nie nachgezogen.** Der vollständige Ziffer-für-Ziffer-
+Abgleich wurde bereits am 23.08.2026 durchgeführt und als eigener, unmittelbar folgender
+Eintrag im selben Block dokumentiert (`outputs/2026-08-23_cross-check-sia266-267-vs-din1053-1054.md`,
+dort korrekt `[x] GESCHLOSSEN`) — weil der Abgleich als neuer Bullet statt als Update des
+alten erfasst wurde, blieb die ursprüngliche Checkbox auf `[ ]` stehen. Checkbox auf `[x]`
+gesetzt, Schliess-Vermerk mit Fundstelle direkt im Eintrag ergänzt (`wiki/QUESTIONS.md`,
+Mini-Run-30-Block).
+
+**Zusätzlich verifiziert (kein Fund, reine Gegenprobe):** die im vorletzten CHANGELOG-Eintrag
+behauptete Cross-KB-Auslieferung der SN-640-052-Klärung an `wissen/baurecht` — direkt an der
+Zieldatei gegengelesen: `wissen/baurecht/wiki/baureife-und-erschliessung.md` Z. 82-88 trägt
+den Ausser-Kraft-Vorbehalt (seit 31.03.2019) samt Verweis auf diese KB vollständig. Bestätigt.
+
+**Kein neuer SIA-Sweep-Zyklus, keine weitere Checkbox schliessbar.** Für die verbleibenden
+33 offenen Punkte existiert kein ungeprüfter, kostenloser Beschaffungsweg mehr — dieselbe
+Sättigung wie in den sechs vorangegangenen Läufen, jetzt am siebten unabhängigen Durchgang
+bestätigt. **Betriebsbeobachtung unverändert (fällt unter `rules/betrieb-chronik.md`,
+nicht hier behoben):** der Auftrag feuert weiterhin im Minutentakt neu, ohne dass zwischen
+den Läufen neue Substanz entsteht — ausser dem heute gefundenen Registerfehler war in
+diesem Durchgang nichts mehr zu heben.
+
+**Verifikation:** `git diff --numstat` nach dem Schreibvorgang geprüft —
+`wiki/QUESTIONS.md` `+7/-1` (eine gezielte Zeilenersetzung: Checkbox-Zeichen + Anhängen
+des Schliess-Vermerks, keine fremde Zeile berührt). Kein `git commit`/`push`/`pull`/`rebase`
+über den SMB-Mount ausgeführt.
+
+## 2026-08-24 — SIA-Sweep, sechste unabhängige Sättigungsverifikation: kein neuer Zyklus, kein neues Destillat
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen). CHANGELOG-Kopf und der Report der fünften
+Zustandsmeldung (`outputs/2026-08-24_sia-sweep-vierte-unabhaengige-saettigungsverifikation-0452uhr.md`
+sowie die beiden CHANGELOG-Einträge danach) zuerst gelesen.
+
+**Kollisionscheck:** `ps aux` geprüft — nur die drei eigenen Prozesse (Name `mschub576`, exakt
+dieser Auftragstext, `claude-run.sh`-Wrapper) mit Bezug zu `wissen/normen`. Kein Konkurrenzlauf.
+
+**Eigene, unabhängige Nachmessung statt Übernahme der bisherigen Sättigungs-Behauptung** (Rule
+`auto-verbesserungen` 260729b/260807): `training/norm-inventar.md` zeigt weiterhin **0 offene
+Zeilen**. `wiki/REGISTER.md` Abschnitt A führt unverändert **59 Zeilen** „Kein Volltext im
+Haus", jede bereits mit Produktseiten-Beleg (gültig-ab, ggf. Rückzugsdatum). Das ist die
+**sechste unabhängige Bestätigung** derselben Sättigung.
+
+**Zusätzlich `wiki/QUESTIONS.md` selbst durchgesehen** (34 Treffer auf `^- \[ \]`), da die
+reine Inventar-/Register-Zählung diese Datei nicht abdeckt. Ergebnis: der grösste Teil der
+Treffer ist bereits durch einen vorangestellten `[x]`-Korrektureintrag erledigt — die KB-
+Konvention lässt den ursprünglichen Wortlaut mit unverändertem `[ ]` stehen, wenn der
+korrigierende Absatz direkt davor „Ursprungswortlaut:" markiert (z.B. Z. 4468-4479, der
+Z1/Z2-Punkt aus dem vorletzten Lauf). Vier konkrete Kandidaten stichprobenartig gegengelesen
+(SIA-2014-Layerkatalog Z. 3775, DIN EN 1627 Z. 3903, SIA-271-Wegleitung Z. 4568, SIA
+491/SN EN 12193/SN 640 052/SN 641 400-Block Z. 4719-4772): alle vier sind bereits mehrfach
+bearbeitet und explizit als externe Bring-Schuld (Kaufentscheid Raphael) oder — bei SN 640 052
+— als vollständig geklärt („ausser Kraft seit 31.03.2019") dokumentiert. Für Letzteres wurde
+zusätzlich geprüft, ob die in derselben Notiz verlangte **Cross-KB-Bringschuld an
+`wissen/baurecht`** (Rule `wissens-bibliothekar`, Cross-KB-Bringschuld-Absatz) bereits
+ausgeliefert ist: ja — `wissen/baurecht/wiki/baureife-und-erschliessung.md` Z. 84-90 trägt den
+Vorbehalt bereits vollständig, `wissen/baurecht/wiki/QUESTIONS.md` Z. 2615-2616 bestätigt die
+Verifikation. Kein weiterer Handlungsbedarf dort.
+
+**Kein neuer SIA-Sweep-Zyklus, kein neues Destillat.** Für keine der 59 Register-Zeilen und
+keinen der geprüften QUESTIONS-Punkte existiert ein ungeprüfter, kostenloser Beschaffungsweg
+mehr. **Betriebsbeobachtung erneut sichtbar gemacht (nicht selbst behoben, fällt unter
+`rules/betrieb-chronik.md`):** der Auftrag wurde laut Output-Verzeichnis in den letzten Stunden
+im Minutentakt neu gestartet (u.a. 03:06, 03:17, 03:29, 03:36, 04:09, 04:52, 04:55, 04:58 Uhr),
+obwohl die Sättigung seit mehreren Läufen unverändert dokumentiert ist. Ein weiterer Durchlauf
+im selben Takt wird dieselbe Bestätigung ein siebtes Mal liefern, ohne die KB zu verbessern.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: zwei stehengebliebene Checkboxen geschlossen (VKF-BRL 16-15, SIA-103-Z-Werte)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fortsetzung nach dem
+zuletzt gelesenen Stand (CHANGELOG-Kopf und Report der vierten unabhängigen
+Sättigungsverifikation, `outputs/2026-08-24_sia-sweep-vierte-unabhaengige-saettigungsverifikation-0452uhr.md`,
+~04:52 Uhr). Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar` (nichts
+raten, jede Aussage belegen).
+
+**Kollisionscheck:** `ps aux` geprüft — nur der eigene Prozess (PID 13450, exakt dieser
+Auftragstext) mit Bezug zu `wissen/normen`. Kein Konkurrenzlauf.
+
+**Fund 1 — VKF-BRL 16-15, Checkbox „P1 — Fassung Stand 01.12.2022 vollständig destillieren"
+war bereits gelöst, nur nie angehakt.** Der unmittelbar darüberstehende Absatz („GESCHLOSSEN
+23.08.2026") hatte die Klärung längst dokumentiert; die ursprüngliche `- [ ]`-Zeile blieb
+trotzdem stehen. Eigene Gegenprüfung am Destillat: `destillate/vkf-brl-16-15-flucht-rettungswege.md`
+Frontmatter `datenstand` bestätigt alle drei Änderungsstufen (ABSV 22.03.2017, TKB 09.06.2021,
+Fehlerkorrektur 01.12.2022) als „jetzt am Original geprueft und destilliert", Abschnitt
+„Fassung 01.12.2022 — Delta zur Fassung 01.01.2017" vorhanden (Z. 253), `status:
+established-mit-vorbehalt`. Checkbox auf `[x]` gesetzt, Fundstellenbeleg ergänzt.
+
+**Fund 2 — Z1/Z2-Koeffizienten des SIA-103-Grundfaktors waren bereits destilliert, nur nicht
+verlinkt.** Die QUESTIONS-Zeile behauptete, `destillate/sia-honorar-hilfsmittel.md` liefere nur
+die Z-Werte für SIA 102, der SIA-103-Gegenpart fehle. Am Destillat selbst geprüft: Die Datei
+(status `established`, adversarial verifiziert 17.07.2026) führt seit ihrer Anlage eine
+vollständige Tabelle für **alle vier** LHO (102/103/105/108), Z. 161-165 — **SIA 103
+(Bauingenieure): Z1 = 0.075, Z2 = 7.23** (Z-Werte-Blatt 2015, Tabellenkopf «Z-Werte 2014»),
+zusätzlich die Zeitreihe 2005-2015 (Z. 173-183, Wert seit Jahrgang 2009 unverändert). Honorar
+nach Baukosten ist damit nach SIA 103 durchrechenbar. `destillate/sia-103-2003.md` (Ziff. 7.2.2,
+Abschnitt «Zentrale Tabellen», Abschnitt «Offene Punkte») auf `sia-honorar-hilfsmittel.md`
+verlinkt und mit den Zahlenwerten ergänzt; QUESTIONS-Checkbox geschlossen. Datenstand bleibt
+2015 — ob der SIA seither ein neueres Z-Werte-Blatt publiziert hat, ist nicht geprüft und beim
+nächsten Bedarf gegen `shop.sia.ch` zu verifizieren.
+
+**Weitere gesichtete, bewusst nicht geschlossene Punkte:** N-R40-3 (zehn nicht destillierte
+EN-81-Teile, P4, nur bei konkretem Projektbedarf), N-R40-7 (Grauton in Lignatec-Tabelle 2,
+P3, aus dem Quelltext nicht deutbar), der SIA-491/SN-EN-12193/SN-640-052/SN-641-400-Block
+(SN 640 052 bereits vollständig geklärt; die übrigen drei sind nach vier bzw. fünf
+dokumentierten Anläufen ausschliesslich noch über Kauf bzw. direkten VSS-Kundendienst-Kontakt
+lösbar — Kontaktdaten bereits im vorherigen Lauf recherchiert, Kontaktaufnahme selbst ist
+Versand und bleibt Freigabe Raphael), SIA 181:2020 Re-Destillat (Bring-Schuld, kostenpflichtig),
+SIA 266/262/267-Detailbemessungs-Cross-Check gegen DIN (grösserer, noch offener Abgleich,
+kein Kurzfund). Für keinen dieser Punkte ergab die Prüfung einen sofort schliessbaren
+Widerspruch zwischen Text und Checkbox-Status wie bei den beiden oben behobenen Funden.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft —
+`destillate/sia-103-2003.md` `+3/-3` (drei gezielte Zeilenersetzungen, keine fremde Zeile
+berührt), `wiki/QUESTIONS.md` `+44/-2` (rein additive Nachträge vor den unveränderten
+Ursprungszeilen, die zwei Löschzeilen sind die beiden umgestellten Checkbox-Zeichen `[ ]`→`[x]`).
+Kein `git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt.
+
+## 2026-08-24 — Cross-KB-Bringschuld von `wissen/energie` entgegengenommen: 6 nie gesichtete SIA-Vertragsrecht-docx in PL-02
+
+- **[flag]** `wissen/energie` hat beim filterlosen Sichten von PL-02 Recht_Norm (Run 161,
+  23.08.2026) 6 docx/doc aus `02_Normen/SIA_Norm/SIA_Vertraege/` gefunden, die ausserhalb des
+  Energie-Scopes liegen. Fundstelle jetzt in `wiki/QUESTIONS.md` (neuer Abschnitt oben) mit
+  vollständigen Pfaden gesichert. Noch nicht inhaltlich gesichtet — mehrere tragen ein
+  gleichnamiges `.pdf` daneben, vor Destillation prüfen, ob nur Word-Vorlage der bereits als PDF
+  vorliegenden Norm oder eigenständiger Inhalt (z.B. `230529_Vertragsunterschiede.docx`, kein
+  erkennbares PDF-Pendant im Scan).
+
 ## 2026-08-24 — SIA-Sweep, weitere Fortsetzung (~04:52 Uhr): vierte unabhängige Sättigungs-Verifikation, eine veraltete QUESTIONS-Klammer korrigiert, kein neuer Sweep-Zyklus gefahren
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

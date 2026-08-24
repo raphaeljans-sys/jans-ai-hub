@@ -2,7 +2,7 @@
 title: Baubewilligungsverfahren — Kanton Zürich
 status: established
 last_updated: 2026-08-24
-sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§ 309 Abs. 1 lit. a-o PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", "§§ 38-52 GG", "§§ 170-171 GG", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, 260823_amtlich_zh_gg.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004", "Art. 21-24 Gebührenverordnung Thalwil (SR 600.1)", 260824_amtlich_zh_thalwil-gebuehrenverordnung.md, 260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md]
+sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§ 309 Abs. 1 lit. a-o PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", "§§ 38-52 GG", "§§ 170-171 GG", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, 260823_amtlich_zh_gg.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004", "Art. 21-24 Gebührenverordnung Thalwil (SR 600.1)", 260824_amtlich_zh_thalwil-gebuehrenverordnung.md, 260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md, 260824_amtlich_zh_thalwil-gebuehrenreglement-bauwesen.md]
 links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[raumplanung-und-gestaltung]], [[07-zustaendigkeiten-entscheide-auskuenfte]], [[06-baurechtliches-verfahren-teil2]], [[umgebungsgestaltung-und-einfriedungen]], [[fahrzeugabstellplaetze-und-parkierung]]
 verifiziert:
   - datum: 2026-08-24
@@ -29,6 +29,10 @@ verifiziert:
     methode: "Stale-Flag-Block Health-Check 2026-06-02 (Buch-Run 115) — Gebühren-Flag; Recherche über WebSearch/WebFetch statt Buch/zhlex, da Baubewilligungsgebühren rein kommunale, nicht kantonale Materie sind"
     umfang: "Rechtsgrundlage/Struktur der Gebührenerhebung Thalwil (Gebührenverordnung SR 600.1, Art. 21-24) + Preisüberwacher-Vergleichsstudie 30 einwohnerstärkste Gemeinden (Nov. 2014)"
     ergebnis: "PBG selbst enthält KEINE Promille-Bestimmung für Baubewilligungsgebühren (Volltextsuche 'Gebühr' in raw/260607_amtlich_zh_pbg.md: nur § 231 Abs. 4 [Gebührenordnung für Beanspruchung öffentlichen Grundes, nicht einschlägig] und § 338 [Gerichtsgebühr Baurekursgericht]) — die frühere Wiki-Formulierung war insofern richtig, dass es keine kantonale Norm gibt. Thalwils Gebührenverordnung (Art. 21/22) delegiert die konkreten Ansätze weiter an ein separates 'Gebührenreglement Bauwesen', das über die JS-gerenderte Gesetzessammlung-Suche nicht auffindbar war (offener Punkt). Die Preisüberwacher-Studie zeigt eine reale Bandbreite von ca. 0.3-11 ‰ der Bausumme über die 30 grössten Gemeinden, mit Zürich Stadt explizit unter den teuersten — die bisherige Pauschalangabe '1-3 ‰' lag am unteren Rand dieser Bandbreite und ist präzisiert/relativiert worden."
+  - datum: 2026-08-24h
+    methode: "Buch-Run 116 — Reglemente-Queue-Restpunkt aus Run 115 gelöst: 'Gebührenreglement Bauwesen' Thalwil direkt über die statische HTML-Übersichtsseite thalwil.ch/gebuehrenthalwil samt Redirect-Kette (/_rtr/ → /gesetzessammlung/sammlung/ → /_doc/ → /_docn/…pdf) gefunden, nicht über die JS-Suche"
+    umfang: "SR 600.3 Gebührenreglement Bauwesen, Fassung 1.1.2026, vollständiger Volltext (Baupolizei, Feuerpolizei, Feuerungskontrolle, baulicher Zivilschutz)"
+    ergebnis: "CONFIRMED: Thalwil bemisst NICHT promillebasiert, sondern über feste Grundtaxen plus Zuschläge in Franken (EFH Grundtaxe ab Fr. 1'350.–, MFH ab Fr. 1'700.– zzgl. Fr. 350.–/Wohnung, Gewerbe ab Fr. 1'700.– zzgl. Fr. 0.75/m³ ab 500 m³). Ergänzt die Preisüberwacher-Promillebandbreite oben um ein konkretes Gegenbeispiel und schliesst damit den letzten aus der Reglemente-Queue (KORPUS-QUEUE-thalwil-reglemente.md) offenen Punkt."
 ---
 
 # Baubewilligungsverfahren
@@ -319,7 +323,18 @@ häusern. **Zürich Stadt zählte in dieser Studie bei allen drei untersuchten H
 teuersten Gemeinden.** Ein einzelner Pauschalwert wie «1-3 ‰» ist nach dieser Quelle nicht
 sachgerecht und lag am unteren Rand der realen Bandbreite.
 
+**Konkretes Beispiel Thalwil (Buch-Run 116, 2026-08-24, Gebührenreglement Bauwesen SR 600.3,
+Fassung 1.1.2026 vollständig beschafft):** bestätigt die Erwartung — Thalwil rechnet **nicht**
+promillebasiert, sondern über feste Grundtaxen plus Zuschläge in Franken. Baubewilligung
+ordentliches Verfahren: Einfamilienhaus Grundtaxe ab Fr. 1'350.–, Mehrfamilienhaus ab
+Fr. 1'700.– (Grundtaxe/Hauseingang) zzgl. Fr. 350.– je weiterer Wohnung, Geschäfts-/
+Gewerbebauten Grundtaxe ab Fr. 1'700.– zzgl. Fr. 0.75/m³ ab 500 m³ umbautem Raum (SIA);
+Anzeigeverfahren ab Fr. 350.–, Meldeverfahren Solaranlagen fest Fr. 50.–; Rohbau-/
+Schlussabnahme je 50 % der Baubewilligungsgebühr. Ein Umrechnen in einen Promillesatz wäre
+für Thalwil methodisch falsch — die Gemeinde kennt diese Bemessungsgrundlage nicht.
+
 > Verbindlich ist immer die aktuelle Gebührenordnung/das Gebührenreglement der jeweiligen
 > Gemeinde — im Einzelfall dort anfragen oder die kommunale Gesetzessammlung konsultieren.
 > Belege: `raw/260824_amtlich_zh_thalwil-gebuehrenverordnung.md`,
-> `raw/260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md`.
+> `raw/260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md`,
+> `raw/260824_amtlich_zh_thalwil-gebuehrenreglement-bauwesen.md`.

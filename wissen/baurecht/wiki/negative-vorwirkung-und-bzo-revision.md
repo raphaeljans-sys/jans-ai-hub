@@ -1,11 +1,12 @@
 ---
 title: Negative Vorwirkung einer BZO-Revision — Mechanik und Fall Thalwil
 status: emerging
-last_updated: 2026-08-03
+last_updated: 2026-08-24
 sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 120 PBG", "Art. 27 RPG", "VB.2008.00044", "RB 1998 Nr. 113", "VB.2014.00627", "BGE 118 Ia 512", "BGE 116 Ia 453", "revBZO Thalwil Art. 31", "revBZO Thalwil Art. 50", "BZO Thalwil Art. 3", 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_bzo-thalwil.md, 260607_amtlich_zh_pbg.md, 12-baureife.md]
 links: [[baureife-und-erschliessung]], [[raumplanung-und-gestaltung]], [[zonenkonformitaet]], [[nutzungsziffern]], [[abstaende-und-hoehen]], [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[12-baureife]], [[kartenportale-zonenplan-zh]] (KB planungsgrundlagen, Prüfweg Verfahrensstand), [[kartenportale-oereb-kataster-system-zh]] (KB planungsgrundlagen, ÖREB-Flag revision_läuft)
 verifiziert:
   - "2026-08-03 (Ersterstellung, Buch-Run 72) — § 234/§ 235 PBG wortgetreu gegen raw/260607_amtlich_zh_pbg.md Z. 2362-2372 gegengelesen; Verfahrensdaten Thalwil (Auflage 16.05.-15.07.2025, Festsetzung Urne 14.06.2026, Genehmigung/Inkrafttreten noch offen) gegen thalwil.ch gegengelesen; die Grau-Markierung der Synopse maschinell aus dem PDF-Content-Stream extrahiert und am gerenderten Pixel (#D9D9D9) verifiziert"
+  - "2026-08-24 (Buch-Run 117) — Verfahrensstand mit stärkerer Methode nachgeprüft: statt nur der Verfahrensseiten (bereits am 23.08.2026 ergebnislos geprüft, siehe QUESTIONS.md T-01) wurde das amtlich servierte Rechtsdokument selbst frisch abgerufen (`https://oerebdocs.zh.ch/getDoc?docid=1296`, dieselbe URL wie raw/260607_amtlich_zh_bzo-thalwil.md) und mit pdftotext -layout extrahiert. Kopfzeile unverändert: „Von der Gemeindeversammlung festgesetzt am 11.12.2019“ / „Von der Baudirektion genehmigt am 29. April 2020“ — keine neue Fassung unter derselben docid. thalwil.ch/bzorevision + /71413 weiterhin ohne Angabe zu Genehmigung/Inkrafttreten der Revision; keine aktualisierte Vorwirkungs-Synopse auffindbar. Status unverändert: Abschnitt 4-6 bleibt gültig, weiterhin zu überwachen."
 ---
 
 # Negative Vorwirkung einer BZO-Revision
@@ -96,8 +97,8 @@ Gemeindevorstand eine Planungszone beantragen — längstens 3 Jahre, um 2 Jahre
 | Öffentliche Auflage und Anhörung | 16.05.2025 bis 15.07.2025 | thalwil.ch/bzorevision |
 | Synopse «Fassung zur Negativen Vorwirkung» | 05.09.2025 | Dokumentkopf, Projekt-Nr. 31124 |
 | Festsetzung durch die Stimmbevölkerung | 14.06.2026, 78.81 % Ja (4'546 : 1'222) | thalwil.ch/bzorevision |
-| Genehmigung Baudirektion | **noch nicht publiziert** (Stand 03.08.2026) | thalwil.ch |
-| Inkrafttreten | **noch nicht erfolgt** (Stand 03.08.2026) | Gesetzessammlung Thalwil führt weiterhin SR 700.1 BZO vom 11.12.2019, in Kraft seit 31.08.2024 |
+| Genehmigung Baudirektion | **noch nicht publiziert** (Stand 24.08.2026) | thalwil.ch; amtlich serviertes Dokument (oerebdocs docid=1296) unverändert |
+| Inkrafttreten | **noch nicht erfolgt** (Stand 24.08.2026) | Gesetzessammlung Thalwil führt weiterhin SR 700.1 BZO vom 11.12.2019, in Kraft seit 31.08.2024 |
 
 **Massgebend ist damit weiterhin die BZO vom 11.12.2019** (`raw/260607_amtlich_zh_bzo-thalwil.md`),
 überlagert von der negativen Vorwirkung der revBZO. Die Festsetzung vom 14.06.2026 hat daran
@@ -202,7 +203,9 @@ Planungsbüros, kein Rechtstext**.
 ## Offene Punkte
 
 - Datum der Genehmigung durch die Baudirektion und des Inkrafttretens — beide zum Stand
-  03.08.2026 nicht publiziert. Zu überwachen (siehe [[QUESTIONS]], T-01).
+  24.08.2026 weiterhin nicht publiziert (dritte unabhängige Prüfung, diesmal am amtlich
+  servierten Dokument selbst, nicht nur an den Verfahrensseiten). Zu überwachen (siehe
+  [[QUESTIONS]], T-01).
 - Ob die Gemeinde nach der Festsetzung eine **aktualisierte** Vorwirkungs-Synopse publiziert
   hat: die hier ausgewertete Fassung datiert vom 05.09.2025, also aus der Zeit vor der
   Festsetzung.
