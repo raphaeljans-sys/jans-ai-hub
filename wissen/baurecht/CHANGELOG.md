@@ -3,6 +3,48 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 126: Kniestock-/Anrechenbarkeits-Rechtsprechung in [[geschosse-und-kniestock]] verifiziert — Fehlzitat VB.2003.00370 korrigiert (Galerie bei 1,5 m Breite NICHT anrechenbar, nicht «Richtwert ab 1,5 m»), VB.2007.00383 CONFIRMED wortgleich, VB.2003.00051 im Suchindex nicht auffindbar
+- ANLASS: Reglemente-Queue 2414 Thalwil (T1-T9) und die Stale-Flag-/Cross-KB-Kette (Run 90-125)
+  sind laut eigenen Abschlussvermerken vollständig. Buch-Run 125 empfahl als nächsten
+  eigenständigen Schritt eine Modell-D-Stichprobe an [[geschosse-und-kniestock]] — dessen
+  Kniestock-Teil trug drei VB-Rechtsprechungszitate (VB.2003.00370, VB.2007.00383,
+  VB.2003.00051), keines je am Original geprüft, in der gesamten Re-Verifikationskette
+  (Run 90-125) nicht angefasst.
+- ZUGRIFFSWEG: die klassischen `entscheidsuche.ch`-Direkt-URLs benötigen ein bekanntes
+  Entscheiddatum, das für keines der drei Zitate vorlag. Aus dem JS-Bundle der Website
+  (`js/app.*.js`) die interne Such-API rekonstruiert: `https://entscheidsuche.ch/_searchV2.php`
+  (öffentlicher Elasticsearch-Proxy, POST/JSON). Eine `term`-Query auf das Feld `reference`
+  (Format: führendes Leerzeichen + „VB.JJJJ.NNNNN") liefert exakte Treffer inkl. `content_url`
+  zum statischen, per `curl` abrufbaren Volltext-HTML. An zwei bekannten Kontrollproben
+  (VB.2003.00118, VB.2003.00445) verifiziert, bevor auf die drei Zielzitate angewendet.
+- GEPRÜFT: **VB.2003.00370** (10.03.2004) — der Wiki-Artikel zitierte einen «Richtwert ab
+  1,5 m Breite» für die Anrechenbarkeit einer Galerie. E. 2.2 sagt das Gegenteil: eine 1,5 m
+  breite Galerie wurde als «zu Wohnzwecken ungeeignet» und damit **nicht anrechenbar**
+  beurteilt («dient in erster Linie als Erschliessungsfläche […] und weist für eine
+  zusätzliche Nutzung ungünstige Proportionen auf»). 1,5 m ist im Entscheid der als zu schmal
+  befundene Sachverhaltswert, keine Sufficiency-Schwelle; der tatsächlich tragende Massstab
+  ist die objektive Wohn-/Arbeitsnutzungs-Eignung im Einzelfall. **VB.2007.00383**
+  (12.03.2008) — E. 7.1 deckt sich wortgleich mit dem bestehenden Wiki-Satz zu § 276 Abs. 2
+  PBG (Ersatz von Vollgeschossen durch Dach-/Untergeschosse ist kein Verzicht auf die
+  Geschosszahl); der Entscheid nennt dafür selbst bereits VB.1999.00270 (17.02.2000) als
+  älteren Präzedenzfall. **VB.2003.00051** — `term`-Query liefert 0 Treffer, obwohl der
+  ZH-Verwaltungsgerichts-Index für 2003 vollständig gefüllt ist (269 Entscheide) und alle
+  drei Kontrollproben auffindbar waren; die Methode ist damit verlässlich, das Zitat fehlt
+  tatsächlich im Index — gleiche Fehlerfamilie wie die RRB-1294/1995-Fehlattribution
+  (Buch-Run 123). Keine Ersatzfundstelle erfunden.
+- NEU `raw/260824_amtlich_zh_vb-2003-00370.md`, `raw/260824_amtlich_zh_vb-2007-00383.md`.
+  GEÄNDERT `wiki/geschosse-und-kniestock.md` (Galerie-Bullet korrigiert, § 276 Abs. 2-Bullet
+  datiert/belegt, Untergeschoss-Bullet um Nichtfund-Vermerk erweitert; Frontmatter
+  `verifiziert`/`sources` nachgeführt), `wiki/QUESTIONS.md` (neuer Block oben),
+  `raw/_INGESTED.md` (zwei neue Registerzeilen).
+- `git diff --numstat` (nativ) nach jedem Schreibvorgang geprüft: nur additive/gezielte
+  Änderungen an den erwarteten Stellen (geschosse-und-kniestock.md +43/-9, QUESTIONS.md
+  +38/-0), keine unerwarteten Löschungen.
+- REPORT `outputs/2026-08-24_buch-run126.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9). Offen bleiben die aus
+  Datenbank-Gründen unverifizierten Fallzitate VB 94/0016 und (neu) VB.2003.00051, sowie die
+  registrierte PBG-Teilrevision «Baulinien» als Fassungsstand-Wachposten.
+
 ## 2026-08-24 — Buch-Run 125: gilt § 6c ABV (2 m/halbe Fassadenlänge) auch im Baulinienbereich? Ja, gesetzessystematisch seit 1.3.2017 — amtlich bestätigt durch den Bericht zur laufenden PBG-Teilrevision «Baulinien»; neuer aktiver Fassungsstand-Wachposten
 - ANLASS: Reglemente-Queue 2414 Thalwil (T1-T9) und die anschliessende Stale-Flag-/
   Cross-KB-Kette (Run 90-124) sind laut eigenen Abschlussvermerken vollständig. Als
