@@ -1,3 +1,57 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: G41-2 (GVZ-Merkblatt 30.17.3) zwei weitere Belege, bleibt offen
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (S41-8,
+unmittelbar darunter) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 48893 (Startzeit 9:04,
+identischer Auftragstext) ist der hostende Prozess dieser Session. Der zuvor aktive parallele
+Prozess PID 46568 (Autor des S41-8-Commits) ist inzwischen beendet — `git log`/`git status` auf
+`wissen/normen/` bestätigen sauberen, committeten Stand, kein Konflikt. Zwei weitere Prozesse
+(PID 48100, 49570) arbeiten an `wissen/energie`, keine Berührung.
+
+**Frage bearbeitet: G41-2** (Run 41, GVZ RWA-Parkhaus) — ob eine neuere Ausgabe des Merkblatts
+30.17.3 «Rauch- und Wärmeabzugsanlagen (RWA) in Parkhäusern und Einstellräumen für
+Motorfahrzeuge» als die vom 28.02.2011 existiert. War bereits einmal teilgeprüft (Web-Check auf
+`gvz.ch`-Übersichtsseiten, keine Nummer 30.17.3 gefunden, «Nicht geschlossen»).
+
+**Vorgehen:** WebSearch + WebFetch, zwei neue Wege gegenüber dem Vorlauf. (1) Direktsuche nach
+dem Dokumenttitel statt der Nummer förderte einen Drittanbieter-Spiegel zutage
+(`readkong.com/de/document/view/1060180`) — WebFetch extrahierte daraus Nummer, Datum und
+Herausgeber. (2) Die GVZ-Feuerwehr-Weisungsliste wurde vollständig für den Bereich 30.1x-30.2x
+abgefragt (statt nur nach 30.17.3 zu suchen); zusätzlich ein GVZ-eigenes RWA-Dokument
+(`gvz.ch/_file/245/131119-leitfaden-rwa.pdf`) gefunden und mit `pdftotext -layout` gegen den
+Hausbestand geprüft (WebFetch scheiterte am binären PDF, lokale Kopie unter
+`.claude/projects/.../tool-results/webfetch-*.pdf` wurde stattdessen extrahiert).
+
+**Ergebnis:**
+1. Der Drittanbieter-Spiegel bestätigt **unabhängig dieselbe Ausgabe**: Nr. 30.17.3, Ausgabedatum
+   28.02.2011, in Kraft ab 11.04.2011, Kantonale Feuerpolizei/GVZ — keine jüngere Fassung dort
+   auffindbar.
+2. Die GVZ-Abteilung Brandschutz führt aktuell einen eigenständigen «Leitfaden für die Planung,
+   Ausführung und Abnahme von Rauch- und Wärmeabzugsanlagen (RWA)», **Nr. 40.1, Ausgabe vom
+   7. Oktober 2013**, gegründet auf den VKF-BSR-28-15-Entwurf — inhaltlich aber **kein Ersatz**
+   für 30.17.3: er regelt allgemein Ingenieur-Nachweisverfahren (N4), nicht spezifisch
+   Parkhäuser/Einstellräume, und nennt 30.17.3 nirgends.
+3. Die Nummernserie 40.x (Leitfäden) ist erkennbar eine andere Zählung als 30.x
+   (Feuerwehr-Weisungen, vollständig durchgesehen bis 30.29) und als die vermutete
+   Brandschutz-Merkblatt-Serie mit dritter Ziffernstelle — stützt (beweist aber nicht) die bereits
+   geäusserte Vermutung, dass 30.17.3 einem heute nicht mehr aktiv geführten Nummernschema
+   angehört.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` bei G41-2 additiv ergänzt (Ursprungswortlaut und erste
+Teilprüfung unangetastet) + Kopfzeile Run 41 aktualisiert. **Frage bleibt offen** — kein Beleg
+für Rückzug oder Fortbestand, weiterhin nur per Bring-Schuld/Rückfrage bei GVZ oder
+Browser-Direktsuche abschliessend klärbar.
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` — additiv, keine bestehende
+Aussage entfernt oder überschrieben (siehe unten).
+
+**Einordnung:** kein Abschluss, aber zwei zusätzliche primärquellenfeste Belege (unabhängiger
+Spiegel + GVZ-eigenes Leitfaden-PDF), die die Sackgasse enger eingrenzen, ohne sie zu erfinden.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: S41-8 (SWKI VA103-01, Sprachfassung D/F) geschlossen — Prämisse widerlegt
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit

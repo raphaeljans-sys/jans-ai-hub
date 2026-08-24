@@ -2314,7 +2314,7 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); H41-2 Fundstelle identifiziert 24.08.2026 (SIA 500:2009 Anhang H nennt «Merkblatt Nr. 7, Rollstuhlgaengigkeit bei Sonderbauten» der Fachstelle FABB — Zahlenwert bleibt Bring-Schuld/Rueckfrage, kein SIA-Kauf); S41-8 GESCHLOSSEN 24.08.2026 (Praemisse falsch — Deutsch/Franzoesisch stehen zweispaltig auf denselben Seiten, Tabellenwerte strukturell bilingual-einheitlich, Struktur-Fund in Destillat nachgetragen); die uebrigen Bestaende (L41-4, GVZ G41-1/G41-2, restliche PAVIDENSA-Punkte) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); H41-2 Fundstelle identifiziert 24.08.2026 (SIA 500:2009 Anhang H nennt «Merkblatt Nr. 7, Rollstuhlgaengigkeit bei Sonderbauten» der Fachstelle FABB — Zahlenwert bleibt Bring-Schuld/Rueckfrage, kein SIA-Kauf); S41-8 GESCHLOSSEN 24.08.2026 (Praemisse falsch — Deutsch/Franzoesisch stehen zweispaltig auf denselben Seiten, Tabellenwerte strukturell bilingual-einheitlich, Struktur-Fund in Destillat nachgetragen); G41-2 zwei weitere Belege 24.08.2026 (Drittanbieter-Spiegel bestaetigt unveraendert 2011er-Ausgabe, GVZ-Leitfaden RWA 40.1/2013 ist kein Ersatz), bleibt offen; die uebrigen Bestaende (L41-4, GVZ G41-1, restliche PAVIDENSA-Punkte) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -2397,6 +2397,24 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   > anderen Rubrik geführt wird oder tatsächlich aus dem Bestand entfernt wurde; dafür wäre
   > entweder eine direkte Suche auf `gvz.ch` im Browser oder eine Anfrage bei GVZ nötig
   > (Bring-Schuld/Rückfrage, nicht mit den geprüften Wegen abschliessend beantwortbar).
+  >
+  > **Zwei weitere Belege, weiterhin nicht abschliessend geklärt (24.08.2026, Fortsetzung).**
+  > (1) Ein Drittanbieter-Spiegel des Dokuments (`readkong.com/de/document/view/1060180`,
+  > Titel «Rauch- und Wärmeabzugsanlagen (RWA) in Parkhäusern und Einstellräumen für
+  > Motorfahrzeuge») bestätigt unabhängig **Nummer 30.17.3, Ausgabedatum 28.02.2011, in Kraft
+  > ab 11.04.2011, Herausgeberin Kantonale Feuerpolizei/GVZ** — deckungsgleich mit dem
+  > Hausbestand, keine jüngere Fassung dort auffindbar. (2) Die GVZ-Abteilung Brandschutz
+  > führt aktuell einen eigenständigen **«Leitfaden für die Planung, Ausführung und Abnahme
+  > von Rauch- und Wärmeabzugsanlagen (RWA)», Nr. 40.1, Ausgabe vom 7. Oktober 2013**
+  > (`gvz.ch/_file/245/131119-leitfaden-rwa.pdf`, per `pdftotext` geprüft) — inhaltlich aber
+  > **kein Ersatz**: er regelt allgemein Ingenieur-Nachweisverfahren (N4, sinngemäss N2/N3)
+  > nach dem VKF-BSR-28-15-Entwurf, nicht spezifisch Parkhäuser/Einstellräume, und nennt
+  > 30.17.3 an keiner Stelle. Die Nummernserie 40.x (Leitfäden) ist erkennbar eine andere
+  > Zählung als 30.x (Feuerwehr-Weisungen) und als die vermutete Brandschutz-Merkblatt-Serie
+  > mit dritter Ziffernstelle (30.17.**3**) — stützt die bereits geäusserte Vermutung, dass
+  > 30.17.3 einem heute nicht mehr aktiv geführten Nummernschema angehört, beweist aber
+  > weder Rückzug noch Fortbestand. **Bleibt offen**, weiterhin nur per Bring-Schuld/Rückfrage
+  > bei GVZ oder Browser-Direktsuche auf `gvz.ch` abschliessend klärbar.
 - **G41-3** DIN 18232-2:2003-06 (Quelle der Durchflussbeiwerte) gegen die im Haus liegende
   Fassung 2007 — weiterhin ungeprüft.
 

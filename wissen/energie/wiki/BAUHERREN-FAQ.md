@@ -5020,7 +5020,10 @@ Duschwasser-Wärme zurück und kühlt dabei nichts als das abfliessende Wasser �
 nur über den Wasserdruck. Der Mehrpreis gegenüber einer normalen Duschrinne beträgt laut
 Hersteller nur rund **CHF 600.–**, bei einer Einsparung von rund 1'000 kWh/Jahr (4-Personen-
 Haushalt) amortisiert sich das in rund 3 Jahren — deutlich schneller als klassische
-Sanierungsmassnahmen wie Fenster- oder Dachsanierung. Offiziell anrechenbar ist die Massnahme
+Sanierungsmassnahmen wie Fenster- oder Dachsanierung. ⚠ **Diese Kosten-/Amortisationszahl stammt
+aus dem Joulia-Herstellerdokument von Oktober 2020** (Werbeaussage, nicht unabhängig geprüft);
+aktuelle Schweizer Marktpreise 2025/2026 wurden trotz Recherche nicht gefunden — vor einer
+Kostenzusage mit einer aktuellen Offerte gegenprüfen. Offiziell anrechenbar ist die Massnahme
 gleich dreifach: bei der kantonalen Baubewilligung (EN-ZH) pauschal mit 10 % der Warmwasser-
 produktion ohne Produktnachweis, bei Minergie produktspezifisch mit bis zu 46 % (amtlich
 hinterlegtes Herstellerbeiblatt). Beim GEAK gibt es KEINE feste Pauschale wie bei EN-ZH — die
@@ -5037,11 +5040,12 @@ Gesamtenergiebedarf steigt von rund 10 % bei Altbauten auf bis zu 73 % bei Miner
 wirkt eine Reduktion des Warmwasserbedarfs verhältnismässig stärker. Baulich zu beachten:
 Einbauhöhe 9–12 cm, nur für Duschen (nicht Badewannen) geeignet — früh mit dem Sanitärplaner
 abstimmen.
-→ `[[duschwasser-waermerueckgewinnung-joulia]]`. Datenstand 25.07.2026 (Run 97). Status
-**emerging** (Hersteller- und Minergie-Primärquelle vorhanden, GEAK-Mechanik und SIA-385/2-
-Existenz jetzt primärquellig belegt; Kosten-/Amortisationsangabe stammt aber weiterhin vom
-Hersteller selbst und ist nicht unabhängig geprüft, und der genaue SIA-385/2-Rechenweg bleibt
-hinter der kostenpflichtigen Norm verschlossen).
+→ `[[duschwasser-waermerueckgewinnung-joulia]]`. Datenstand: GEAK-/SIA-385/2-Recherche 25.07.2026
+(Run 97), **Kosten-/Amortisationsangabe weiterhin Oktober 2020** (Herstellerdokument, ältester
+zitierter Stand — s. Vorbehalt oben). Status **emerging** (Hersteller- und Minergie-Primärquelle
+vorhanden, GEAK-Mechanik und SIA-385/2-Existenz jetzt primärquellig belegt; Kosten-/
+Amortisationsangabe stammt aber weiterhin vom Hersteller selbst und ist nicht unabhängig geprüft,
+und der genaue SIA-385/2-Rechenweg bleibt hinter der kostenpflichtigen Norm verschlossen).
 
 ## F134 — Was kostet eine Massivbau-Kompaktfassade (Kalksandstein/Backstein mit Aussendämmung) pro m²?
 
