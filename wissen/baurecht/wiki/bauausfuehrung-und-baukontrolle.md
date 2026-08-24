@@ -158,11 +158,19 @@ Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-au
   die allgemeinen Sanierungs-/Kostentragungsregeln Art. 32c ff. USG, hier nicht vertieft.)*
 - **Bauemissionen:** **Baulärm** wird nicht über Grenzwerte, sondern über die **Baulärm-Richtlinie**
   (drei Massnahmenstufen A/B/C, Vorsorgeprinzip Art. 11 Abs. 2 USG, Erlasskompetenz Art. 6 LSV) gesteuert;
-  Baustellen-**abwasser** SIA 431 (SN 409 431), AWEL-bewilligungspflichtig. *(Modell-D-Korrektur Run 100:
+  Baustellen-**abwasser** SIA 431 (SN 509 431), AWEL-bewilligungspflichtig. *(Modell-D-Korrektur Run 100:
   hier stand «Art. 38 Abs. 2 USG» — § 38 USG regelt Aufsicht/Vollzugskoordination des Bundes, nicht das
   Vorsorgeprinzip. Die Baulärm-Richtlinien stützen sich amtlich auf Art. 6 LSV; das Vorsorgeprinzip selbst
   steht in Art. 11 Abs. 2 USG. Bestätigt gegen den amtlichen Wortlaut, fedlex.data.admin.ch, Stand
   01.01.2025 LSV / 01.01.2025 USG.)*
+  *(Korrektur Wissens-Chef Run 42, 24.08.2026: die SN-Nummer lautete hier «SN 409 431». Amtlich
+  gilt **SN 509 431** — der Anhang BBV I nennt im Wortlaut «Empfehlung SIA 431, Ausgabe 1997,
+  Entwässerung von Baustellen (Norm SN 509 431)», `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`
+  Z. 1080; dieselbe amtliche Liste führt zwei Zeilen darüber SIA 430 = SN 509 430, eine
+  «SN 409 …» kommt darin nirgends vor. Bestätigt durch das established-Destillat
+  `wissen/normen/destillate/sia-431-1997.md` (Volltext 28 S. gegen Original geprüft 13.07.2026).
+  Ursprung des Zahlendrehers: `wissen/baurecht/buecher/band-1/08-ausfuehrung-teil2-baustellensicherheit.md`
+  Z. 71 — dort ebenfalls vermerkt, damit der nächste Buch-Lauf ihn nicht zurückschreibt.)*
 - **Amtliche Vermessung (§§ 2/15/19 KVAV):** neue Bauten sind binnen **1 Jahr** in die amtliche Vermessung
   aufzunehmen (§ 19 Abs. 1 KVAV) — Kap.-8-Schluss.
 

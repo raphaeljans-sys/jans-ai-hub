@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.08.2026 23:07:16
+Stand: 24.08.2026 23:27:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:27)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 23:07:16
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 8a1e3fc1b energie Run 162: A-BLIND Top-20 — SIA 390/1 seit 01.02.2025 in Kraft (Fehler behoben), KBOB-Oekobilanzdaten v9.0, EN-102-Editionsklaerung (Grenzwerte unveraendert), FAQ F258 Free-Cooling; Cross-KB normen REGISTER korrigiert
+- 9c18ad5fb nas-selfcommit: 2 Datei(en) 2026-08-24 23:15

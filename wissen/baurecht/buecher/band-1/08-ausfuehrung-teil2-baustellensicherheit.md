@@ -70,6 +70,8 @@ Der Schluss von Kapitel 8 regelt die **oeffentlich-rechtlichen Pflichten waehren
 **8.4.3 Entwaesserung von Baustellen (S. 525):**
 - Abwasserentsorgung nach **SIA-Empfehlung 431 «Entwaesserung von Baustellen» (SN 409 431)**, verbindlich nach Ziff. 2.71 Anhang BBV I. Grundsaetze: Teilstroeme am Anfallort fassen; unverschmutztes Abwasser versickern/oberirdisch ableiten; verschmutztes via Sedimentation/Neutralisation; wassergefaehrdende Stoffe nie versickern/in Gewaesser/Kanalisation. Vor Baubeginn i.d.R. **Entwaesserungskonzept**. Kantonal bewilligungspflichtig durch AWEL: Einleitung Baustellenabwasser in Oberflaechengewaesser/Kanalisation, Versickerung, Grundwasserhaltung, Vorbehandlungsanlagen. Details www.baustellen.zh.ch.
 
+*(Korrekturvermerk Wissens-Chef Run 42, 24.08.2026: die SN-Nummer «SN 409 431» ist unzutreffend, unabhängig davon, ob sie so im Buch gedruckt steht. Amtlich gilt **SN 509 431** — Anhang BBV I, `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` Z. 1080 (dieselbe Liste: SIA 430 = SN 509 430); bestätigt durch `wissen/normen/destillate/sia-431-1997.md` (`established`, Volltext gegen Original geprüft 13.07.2026). Beim nächsten Buch-Lauf nicht zurückschreiben. Offen: ob das Standardwerk selbst den Dreher druckt — die Screenshots liegen auf SharePoint und sind nicht gegengelesen; die Buchwiedergabe bleibt deshalb unverändert stehen.)*
+
 ### 8.5 Bauemissionen (S. 526-534)
 
 **8.5.1 Laerm und Erschuetterungen — 8.5.1.1 Baulaerm (S. 526-529):**

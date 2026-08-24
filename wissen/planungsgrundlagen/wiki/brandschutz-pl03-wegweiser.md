@@ -571,6 +571,14 @@ gegenüber Fremdgrundstücken gilt **4 m**; mehrere Nebenbauten untereinander be
 Stoffe). Büro-/Gewerbe-/Industriebauten (Areal-Überbauung, vergleichbare Nutzung/Brandgefahr)
 sind abstandsbefreit bis **3'600 m²** zusammenhängende Arealfläche.
 
+> ⚠ **Präzisierung 24.08.2026 (Gegenprobe Normen-KB).** Die Befreiung gilt nach VKF-BSR 15-15de
+> Ziff. 2.3.4 nur für Arealüberbauungen aus **eingeschossigen** Büro-/Gewerbe-/Industriebauten
+> und nur **untereinander** (nicht gegenüber grundstücksfremden Bauten). Bei mehrgeschossigen
+> Bauten ist sie **nicht** anwendbar; dort gelten die Regelabstände nach Ziff. 2.1/2.2. Beleg:
+> `wissen/normen/destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md` (Ziff. 2.3.4, S. 6;
+> `status: established`, beide Fassungen 01.01.2015/01.01.2017 verifiziert).
+> *(Wissens-Chef Run 42.)*
+
 **Reale JANS-Anwendung — Benchmark Regensdorf (16.–17.02.2024):** Anfrage der Brandschutzfachstelle
 **EFP AG Regensdorf** (Katrin Panter) an JANS zum «feuerpolizeilichen Mindestabstand»; JANS-Antwort
 zitiert exakt Ziff. 2.1/2.2 der BSR 15-15de (Fassung 01.01.2017) mit den Höhenband-Präzisierungen
@@ -1566,6 +1574,19 @@ Grundlage für laufende Bewilligungsverfahren.
 > darunter** (`wissen/normen/destillate/vkf-brl-aenderungen-2017.md`, Abschnitt «Rauch- und
 > Wärmeabzugsanlagen»). Zu berichtigen ist die Fassungsangabe, nicht die Zahl. Für Ziffern
 > **ausserhalb** von 3.1 vor dem Zitat gegen die Fassung 2017 prüfen.
+>
+> **Kantonaler Vollzug ZH — vor dem Festschreiben prüfen.** Die oben genannten Schwellen sind
+> die VKF-Bundesgrundlage. Im Kanton Zürich existiert daneben das Merkblatt der Kantonalen
+> Feuerpolizei/GVZ Nr. **30.17.3** «RWA in Parkhäusern und Einstellräumen» (28.02.2011), das
+> für **gesprinklerte Einstellhallen unter Terrain im Band 1'201 bis 3'600 m²
+> Brandabschnittsfläche** strengere Anforderungen stellt als BSR 21-15 Ziff. 3.1. Das
+> Merkblatt stützt sich allerdings auf die abgelöste VKF-RWA-Ausgabe 2003; seine Fortgeltung
+> ist **ungeklärt**. Bei ZH-Objekten in diesem Band die Divergenz **vor** Konzept- und
+> Kostenfestlegung aktiv mit der Kantonalen Feuerpolizei/GVZ klären — weder ungeprüft
+> budgetieren noch ungeprüft weglassen. Quelle: `wissen/normen/destillate/gvz-rwa-parkhaus-einstellraum.md`,
+> Abschnitt «Fassungs- und Kollisionsvorbehalt» — ⚠ `status: speculative`, die dortigen Werte
+> nach Rule `normen-referenz` Ziff. 1b **vor Verwendung am Original-Merkblatt gegenlesen**,
+> nicht aus dem Destillat zitieren. *(Wissens-Chef Run 42, 24.08.2026.)*
 
 ---
 
@@ -1895,6 +1916,17 @@ lebenserhaltenden Anlagen) ein Überspannungsschutzkonzept in Betreiberverantwor
 der Elektroplanung zu koordinieren. Weitere Auslöser: Räume >300 Pers. (III/II), Hochhäuser
 >30 m (III/III). Detailplanung/-bemessung des LPS selbst macht der Blitzschutz-Fachplaner.
 
+> ⚠ **Fassungsvorbehalt Blitzschutz (Ausgabe 2017).** Für **Hochhäuser (Gesamthöhe > 30 m)**
+> lautet Spalte B (innerer Blitzschutz/LEMP) seit **01.01.2017** neu **Klasse II statt III** —
+> die einzige geänderte Zahl der Anhang-Tabelle a-j. Verbindlich ist damit **III/II**, nicht
+> das oben genannte III/III (Wert der Ausgabe 2015). Ebenfalls 2017 geändert: Referenznorm
+> «SEV-Leitsätze 4022» → «SNR 464022». Führende Quelle für den geltenden Stand:
+> `wissen/energie/destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md` (VKF-Primär-PDF
+> Ausgabe 01.01.2017, `established`); Delta-Beleg `wissen/normen/destillate/vkf-brl-aenderungen-2017.md`
+> (S. 28) und Fassungsstand-Warnung in `wissen/normen/destillate/vkf-brl-22-15-blitzschutzsysteme.md`.
+> Die Werte für Beherbergung [a] (III/II) und Räume > 300 Pers. (III/II) sind in beiden
+> Ausgaben identisch. *(Wissens-Chef Run 42, 24.08.2026.)*
+
 ## 5x · Wärmetechnische Anlagen (Heizräume, Feuerungen, Küchen) — BSR 24-15de (Run 36, 2026-07-14; gekürzt Run 37, 2026-07-14)
 
 Volltext-Ziffern siehe `wissen/normen/destillate/vkf-brl-24-15-waermetechnische-anlagen.md`
@@ -1998,6 +2030,13 @@ im Stahlbau» tec 02:2015** (Stahlbau Zentrum Schweiz, `PL-03/02 Brandschutzrich
 2015-17-22/SService Nr19091815480.pdf` — irreführender Dateiname, tatsächlich eine Fachpublikation).
 Alle drei Dateien waren bisher nur pauschal als «02 BSR» mitgezählt, nie inhaltlich ausgewertet.
 
+Der Vernehmlassungsbericht liegt in der Normen-KB seitengenau destilliert vor:
+`wissen/normen/destillate/vkf-bsv2015-vernehmlassungsbericht.md` (führend, 200 Zeilen) und
+`wissen/normen/destillate/vkf-bsv2015-bericht-aenderungen.md` (Duplikat derselben Quelle,
+90 Zeilen; Inhaltsabgleich 24.08.2026 ohne Widerspruch, Zusammenlegung ausstehend, Entscheid
+Raphael). Bei Fundstellenbedarf dort nachschlagen statt neu aus dem PDF zu destillieren.
+*(Kante gesetzt Wissens-Chef Run 42, 24.08.2026.)*
+
 ### Genese BSV 2015 (Vernehmlassungsbericht 2013) — das WARUM hinter den bereits dokumentierten Kernzahlen
 
 Der Bericht erklärt, wieso die BSV 2015 so aufgebaut sind, wie sie in diesem Wegweiser bereits
@@ -2050,6 +2089,12 @@ gegen den vorher nur behaupteten Stand «Revisionsstand 2017 identisch in der Sa
 volltextbelegt: die **Zahlenwerte/Schwellen bleiben unverändert** (Brandschutzabstände 5/7.5/10 m
 bzw. 4/5/6 m, Fluchtweg-Kernzahlen, QSS-Tabelle strukturell gleich); die Änderungen 2017 sind
 durchgängig **redaktionelle Präzisierungen**:
+- ⚠ **Blitzschutz — nicht bloss redaktionell.** BRL 22-15, Anhang zu Ziff. 2, Zeile c
+  (Hochhäuser > 30 m): Spalte B **2015 III → 2017 II**, materielle Verschärfung des inneren
+  Blitzschutzes; Referenznorm neu SNR 464022. Beleg in derselben AFC-Quelle, S. 28
+  (`wissen/normen/destillate/vkf-brl-aenderungen-2017.md`, Z. 24 «Blitzschutz Hochhäuser
+  verschärft»). Die Aussage «Zahlenwerte/Schwellen bleiben unverändert» gilt für diese Zeile
+  **nicht**. *(Nachtrag Wissens-Chef Run 42, 24.08.2026.)*
 - neue/präzisierte **Begriffe**: Dachkonstruktion (von Bedachung getrennt), Einliegerwohnung,
   Galerie (neu definiert);
 - ⚠ **Gesamthöhe bei Flachdächern — nicht bloss redaktionell** (eingegrenzt 22.08.2026,
