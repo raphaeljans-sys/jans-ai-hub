@@ -3246,3 +3246,28 @@ Auto-Mode-Klassifikator haengengeblieben (Systemdienst-Eingriff); dieser wird na
 gewollt, gehoert sie stattdessen als Entscheid in die Betriebs-Chronik, damit der naechste
 Radar-Lauf sie nicht erneut als Ausfall meldet. | vollgas-radar 24.08.2026 |
 Infrastruktur / Lern-Loops | hoch | offen
+
+
+**NEU 24.08.2026 (vollgas-radar 12:57) — Die Sicherung des NAS-Repos nach GitHub ist gestaut:
+zwei Commit-Wege schreiben auf dieselben Wissens-Dateien.** Aufgefallen beim eigenen
+Commit-Versuch (`nas-commit-now.sh` meldete rc=1 mit vier Merge-Konflikten). Native Gegenprobe
+auf der Synology: der **Commit ist durchgegangen** (`a7a24f1e`), Arbeitsbaum sauber, kein
+`MERGE_HEAD`, keine `index.lock` — **gescheitert ist allein der Push**. Echter Abstand nach
+`git fetch`: **3 Commits voraus, 50 zurueck**; gemeinsame Basis `8d8dec35` von heute **08:21**,
+GitHub-Kopf `c7a8aa50` von **10:43** («auto-sync [Macmini]»). Ursache ist ein Entwurfsproblem,
+kein Defekt: der Mac Mini pusht ueber `com.jans.git-auto-sync` direkt nach GitHub, waehrend die
+Synology ueber `nas-selfcommit.sh` denselben Bestand committet. Seit der Basis ueberlappen
+**9 Dateien** — `wissen/energie/{destillate/INDEX.md, destillate/ahb-richtlinie-gebaeudetechnik-229-2025.md,
+wiki/QUESTIONS.md, wiki/gebaeudetechnik-pflichtenheft.md, CHANGELOG.md}` und
+`wissen/baurecht/{CHANGELOG.md, wiki/QUESTIONS.md, outputs/2026-08-24_buch-run133.md,
+training/KORPUS-QUEUE-thalwil-reglemente.md}`. **Kein Datenverlust:** beide Staende existieren
+vollstaendig, sie sind nur nicht vereinigt. Aber der Stau waechst mit jedem 15-Min-Lauf des
+Selfcommits, der dieselben Konflikte erneut trifft, und GitHub ist die Backup-Schicht. **Nicht
+eigenmaechtig aufgeloest** — neun parallel beschriebene Wissens-Dateien zusammenzufuehren ist
+genau der Fall aus Rule `auto-verbesserungen` 260811 (nie aus HEAD wiederherstellen, ohne fremde
+unbestaetigte Arbeit auszuschliessen). **AKTION Raphael / interaktive Session:** Lage nativ
+ansehen und die neun Dateien bewusst zusammenfuehren —
+`ssh raphaeljans@diskstation918.tail8265aa.ts.net "cd /volume2/daten/jans-ai-hub && git fetch github main && git rev-list --left-right --count HEAD...github/main && git diff --name-only HEAD github/main"`.
+Danach pruefen, ob die beiden Commit-Wege dauerhaft nebeneinander bestehen sollen; solange sie
+es tun, wiederholt sich der Stau. | vollgas-radar 24.08.2026 | Infrastruktur / Git-Sicherung |
+hoch | offen
