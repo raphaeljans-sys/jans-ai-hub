@@ -2,6 +2,68 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24t — A-BLIND: `sia-181-schallschutz-anforderungswerte` — Flankenübertragung Holzbau am Lignum-Bericht vertieft, Duplikat-Beinahe-Fehler korrigiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** NAS zu Laufbeginn nicht gemountet,
+`wissen/energie/` lokal git-getrackt und unbetroffen. `ps aux` zeigte zwei weitere `claude -p`-
+Prozesse mit demselben Energie-Prompt (PID 80714, kurz vor Laufbeginn beendet/committet als
+`79b822b2b`, sowie den eigenen Prozess) — kein aktiver Sibling-Lauf zu dieser KB während der
+eigenen Arbeit; `git status`/`git diff --numstat` vor und nach jedem Schreibvorgang geprüft,
+keine Kollision.
+
+Aus der 24s-Kandidatenliste `sia-181-schallschutz-anforderungswerte` (20 Backlinks) gewählt: trug
+seit 2026-06-24 den offenen Punkt «Flankenübertragung/Anschlussdetails Holzbau (Lignum-
+Dokumentation, konkrete Stoss-Lösungen) noch nicht belegt». Per WebSearch die einschlägige
+BFH-Lignum-Publikation gefunden («Schallschutz im Holzbau», Bericht Nr. 2712-SB-01, 04.12.2008,
+72 S., öffentlich auf lignum.ch), per WebFetch+curl geladen und den Volltext (mangels `pdftotext`
+im PATH über `/opt/homebrew/bin/pdftotext -layout`) durchsucht.
+
+**Duplikat-Beinahe-Fehler:** zunächst ein neues Destillat für diesen Bericht angelegt, ohne vorher
+`destillate/INDEX.md` zu prüfen — derselbe Bericht war bereits am 28.06.2026 als
+`[[lignum-schallschutz-holzbau-flankenuebertragung]]` destilliert (damals S. 1-14, Kap. 1-5.2).
+Fehler bemerkt, weil der Ziel-Wiki-Artikel `wiki/schallschutz-sia181.md` bereits auf genau diesen
+(korrekten) Dateinamen verlinkte. Duplikat sofort gelöscht, stattdessen das bestehende Destillat um
+die tatsächlich neuen Teile erweitert.
+
+**Fund (Nachtrag zum bestehenden Destillat, S. 49-50 + 64-71 zusätzlich gelesen):** Kap. 8 des
+Berichts ist der **Entwurf** des späteren Bauteilkatalogs — die Rw-/Ln,w-Felder der Typenblätter
+sind in dieser 2008er-Fassung leere Formularfelder, der fertige Katalog war laut Bericht erst für
+2010/2013 geplant. Ein konkreter Zahlenwert war trotzdem entnehmbar: abgehängte Decke ~60 mm bei
+Kastendecken → **3-6 dB** Verbesserung. Qualitativ ergänzt: Rahmenbau-Aussenwände reduzieren
+Flankenübertragung über eine Innenverkleidung mit Installationsebene, während statisch nötige
+Aussteifungen sie erhöhen (Zielkonflikt Statik/Akustik); Massivholzplatten-Wände über entkoppelte
+Innen-/Aussenverkleidung und steife Gesamtkonstruktion.
+
+**Anschlussrecherche (Negativbefund, Werkzeugproblem):** die aus diesem Projekt entstandenen
+fertigen Werke — kostenpflichtige Lignum-Dokumentation (seit Juni 2023) und Online-Bauteilkatalog
+(`bauteilkatalog.lignum.ch` seit 2014, heute `lignumdata.ch`) — waren am 24.08.2026 nicht
+erreichbar (`lignumdata.ch` → HTTP 500, `bauteilkatalog.lignum.ch` → Connection refused). Nicht
+geklärt, ob temporär oder dauerhaft; keine Werte von dort übernommen. Ein vollständiger,
+numerischer Rw-/Ln,w-Katalog je Anschlussdetail bleibt damit offen.
+
+Eingearbeitet: `destillate/lignum-schallschutz-holzbau-flankenuebertragung.md` (neuer Abschnitt
+«Bauteilkatalog-Entwurf», `gelesen`/`last_updated` nachgeführt), `destillate/sia-181-
+schallschutz-anforderungswerte.md` (neuer Abschnitt «Flankenübertragung im Holzbau», Offene-
+Punkte präzisiert, `last_updated` nachgeführt), `wiki/schallschutz-sia181.md` (Holzbau/CLT-Absatz
+um den 60mm/3-6dB-Wert und den Katalog-Zugriffshinweis ergänzt, `last_updated` nachgeführt),
+`destillate/INDEX.md` (Zeile 102 nachgeführt).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv/präzisierend (neue
+Abschnitte, keine Löschung von Bestand ausser ersetzten Frontmatter-Zeilen).
+
+**Für den nächsten Lauf:** Prozess-Lehre festgehalten — vor dem Anlegen eines neuen Destillats zu
+einer bereits im Backlink-Kontext auftauchenden Quelle IMMER zuerst `destillate/INDEX.md` bzw. die
+`sources:`/`links:`-Frontmatter der referenzierenden Wiki-Artikel grep-prüfen, nicht erst nach dem
+Schreiben. Inhaltlich offen: `lignumdata.ch`/`bauteilkatalog.lignum.ch` bei nächster Gelegenheit
+erneut prüfen. Übrige A-BLIND-Kandidaten aus 24s unverändert offen: `wpz-buchs-feldmessung-
+jaz-2016-2019` (25, prüfen ob als A-BLIND-Fall überhaupt noch offen), `bvv-zh-meldeverfahren-
+klimaanlagen-waermepumpen` (21, vor Auswahl prüfen ob wirklich noch offen), `haushaltgeraete-
+effizienz-beschaffung-topten` (bereits mehrfach vertieft, eher kein A-BLIND-Fall mehr), `graue-
+energie-betriebsenergie` (20, bereits mehrfach gegengeprüft), `fenster-energieetikette-fea-bfe`
+(20, bereits über Zweitquelle bestätigt), `minergie-zertifizierung-workflow` (29, laut 24o/24p
+Prozesskapitel noch offen geflaggt).
+
 ## 2026-08-24s — A-BLIND: `anergienetz-kalte-fernwaerme-ch` — Rechtsrahmen SZ am kEnG/kEnV-Original verifiziert, HTTP-403-Blockade war ein Werkzeugproblem
 
 Auftrag: A-BLIND-Bestand fortsetzen (18-29-Backlink-Bereich), Anschluss an 24q/24r. Eigene

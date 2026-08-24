@@ -1,3 +1,40 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: vierzehnter Lauf — zwei weitere Alt-Punkte nachgezogen, Sättigung bestätigt
+
+**Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report
+des dreizehnten Laufs zuerst gelesen (kein Primärquellenzugriff dort, nur Fahrplan-Nachtrag
+BSV 2026, 30 offene Checkboxen unverändert).
+
+**NAS-Hinweis:** `/Volumes/daten` auch in dieser Session nicht gemountet; `wissen/normen` ist
+Repo-Inhalt (kein NAS-Symlink), keine Blockade für diese Datei.
+
+**Vorgehen:** Alle 30 offenen Checkboxen einzeln mit Kontext gelesen. Gezielt nach Cross-KB-
+Verweisen gesucht, die durch spätere Arbeit überholt sein könnten (0 neue Treffer, der einzige
+"Vorarbeit vorhanden"-Fund lag bereits in einem am selben Tag geschlossenen Eintrag) sowie nach
+internen Buchhaltungsschulden (Sachverhalt im eigenen Text bereits gelöst, Checkbox nie
+nachgezogen — das Muster aus dem zwölften Lauf). **Zwei Fälle gefunden:** (1) Z. ~4349
+"Dateiname/Inhalt-Mismatch" — Sachverhalt bereits am 23.08.2026 an zwei Stellen dieser Datei
+geschlossen (direkte Schliessung darüber + Querverweis in Teilpunkt (3) des "Verify-Abschluss
+MacBook"-Eintrags), Checkbox stand trotzdem auf `[ ]` → geschlossen. (2) Z. ~4500
+"Verify-Abschluss MacBook": 3 von 5 verschachtelten Teilpunkten waren laut eigenen Nachträgen
+vom zwölften Lauf bereits gelöst, äussere Checkbox stand unverändert auf `[ ]` → Marker auf
+`[~]` (teilweise geschlossen) korrigiert, verbleibende zwei blockierte Teilpunkte (destruktiver
+Merge / externe ECCS-Bring-Schuld) benannt.
+
+**Ergebnis:** 30 → 28 offene Checkboxen. Kein neuer Primärquellenbefund, reine
+Dokumentpflege — der zugrundeliegende Sachstand war in beiden Fällen bereits vorher gelöst.
+Die übrigen 26 Punkte wurden gegen ihre Kategorisierung geprüft (Bring-Schuld/Kaufentscheid
+Raphael, destruktive Struktur-/Merge-Entscheide, genuine Quell-Ambiguitäten, Betriebsnotizen) —
+keine Fehlkategorisierung gefunden.
+
+**Eskalation an Raphael:** unverändert (SIA-Shop-Käufe, Freigabe der vier destruktiven
+VKF-Duplikat-Merges, SN-641-400-Klärung via VSS-Kundendienst — Kontakt bereits im 13. Lauf
+recherchiert: info@vss.ch, +41 44 269 40 20). Nach 14 Läufen ist die Liste für
+Sessions ohne Primärquellenzugriff (NAS/M365) strukturell ausgeschöpft.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` ein Punkt auf `[x]` (Z. ~4349), ein Punkt auf `[~]`
+(Z. ~4500), Ursprungswortlaut jeweils erhalten. Report:
+`outputs/2026-08-24_questions-abarbeitung-vierzehnter-lauf.md`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: dreizehnter Lauf — Session-Zugriffslücke, ein Fahrplan-Nachtrag, Sättigung 13. Mal bestätigt
 
 **Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report

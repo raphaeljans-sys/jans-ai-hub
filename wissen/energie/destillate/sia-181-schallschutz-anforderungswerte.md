@@ -5,7 +5,7 @@ ausgabe: "Norm SIA 181:2020 (Aussenlaerm-Korrektur Jan. 2007 uebernommen); Anhan
 gelesen: 2026-06-24
 datenstand: "2026-06-24 / Norm SIA 181:2020 (gueltige CH-Norm Schallschutz Hochbau)"
 status: established
-last_updated: 2026-06-24
+last_updated: 2026-08-24
 ---
 
 # SIA 181:2020 — Schallschutz im Hochbau: Anforderungswerte
@@ -116,9 +116,24 @@ Dauergeraeusche Haustechnik **innerhalb** der Einheit (L_H, Empfehlung): Schlaf-
   kann D_e = L_r − 33 (mittel) Schallschutzfenster + entkoppelte Lueftung verlangen — frueh im
   Laermgutachten klaeren (Laermschutz-Verordnung/USG-Planungswerte → Skill `baurecht`).
 
+## Flankenübertragung im Holzbau (Nachtrag 24.08.2026)
+
+Die SIA-181-Systematik zur Flankenübertragung — Projektierungszuschlag KP (Ziff. 4.1.1.2),
+Zuschlag KF für Flankenübertragungen am Bau und die Spektrum-Anpassungswerte C/Ctr/CI
+(Ziff. 4.1.1.3) — ist jetzt primärquellenbelegt über den BFH-Lignum-Bericht 2712-SB-01 (2008):
+`[[lignum-schallschutz-holzbau-flankenuebertragung]]`. Konkretes Zahlenbeispiel von dort:
+eine Wohnungstrennwand mit R'w = 55 dB in-situ (flankenbehaftet) kann im Labor-Direktdämm-Mass
+Rw = 60 dB erreichen; die Differenz ist der KP/KF-Effekt. Ein bezifferter Einzelwert für
+Holzbau-Anschlüsse: abgehängte Decke ~60 mm bei Kastendecken bringt **3-6 dB** Verbesserung.
+Ein vollständiger, tabellarischer Katalog konkreter Rw-/Ln,w-Werte je Anschlussdetail (Stoss-
+Lösung) ist damit **weiterhin nicht** belegt — der dafür zuständige Online-Bauteilkatalog
+(`lignumdata.ch`/`bauteilkatalog.lignum.ch`) war am 24.08.2026 wegen Serverfehler nicht
+erreichbar (Details siehe verlinktes Destillat).
+
 ## Offene Punkte / Abgrenzung
-- **Flankenuebertragung / Anschlussdetails Holzbau** (Lignum-Dokumentation, konkrete Stoss-Loesungen)
-  noch nicht belegt → Folgelauf.
+- **Numerischer Anschlussdetail-Katalog Holzbau** (Rw/Ln,w je Stoss-Lösung): `lignumdata.ch` bei
+  nächster Gelegenheit erneut prüfen (Werkzeugproblem 24.08.2026, siehe
+  `[[lignum-schallschutz-holzbau-flankenuebertragung]]`).
 - **Aussenlaerm-Rechtsrahmen** (USG/LSV Belastungsgrenzwerte, Planungs-/Immissionswerte) → Skill `baurecht`
   (oeffentlich-rechtlich), waehrend SIA 181 die **privatrechtliche/bautechnische** Seite abdeckt.
 - Exakte **C/C_tr/C_v-Spektrumanpassung** und die Mess-/Rechenverfahren (SIA 181 Hauptteil) hier nicht
@@ -130,4 +145,5 @@ SIA 181:2020 «Schallschutz im Hochbau», Anforderungswerte zusammengefasst (Anh
 Nutzungseinheiten) aus SIA 181:2006, da die 2020er-Norm dazu keine Empfehlungen mehr macht.
 ⚠ **Datenstand 2026-06-24:** Werte aus einer Buero-Zusammenfassung der Norm — fuer den
 projektverbindlichen Nachweis die **Original-Norm SIA 181:2020** beiziehen. Backlinks:
-`[[holzbau-bauphysik-clt]]`, `[[clt-schallschutz-stora-enso]]`, `[[schallschutz-sia181]]`.
+`[[holzbau-bauphysik-clt]]`, `[[clt-schallschutz-stora-enso]]`, `[[schallschutz-sia181]]`,
+`[[lignum-schallschutz-holzbau-flankenuebertragung]]`.

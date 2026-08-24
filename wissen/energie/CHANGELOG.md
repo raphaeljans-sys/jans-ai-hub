@@ -9092,3 +9092,27 @@ Ansprechstellen AfB/AWL) in `wiki/BAUHERREN-FAQ.md`.
 
 **Stand PL-02:** 83 von 182 energierelevanten PDF destilliert (80 bis Run 134, 3 in Run 135),
 99 offen. Register `training/pdf-inventar.md` nachgeführt.
+
+## 2026-08-24t — A-BLIND: `sia-181-schallschutz-anforderungswerte` — Flankenübertragung Holzbau am Lignum-Bericht vertieft
+
+QUESTIONS-Abarbeitung, Anschluss an 24s. Offenen Punkt «Flankenübertragung/Anschlussdetails
+Holzbau» aus `sia-181-schallschutz-anforderungswerte` bearbeitet: BFH-Lignum-Bericht 2712-SB-01
+(04.12.2008, 72 S., lignum.ch) per curl+pdftotext vollständig geladen und die Kap. 8-Anhang-Seiten
+49-50/64-71 zusätzlich gelesen. **Duplikat-Beinahe-Fehler korrigiert:** derselbe Bericht war schon
+seit 28.06.2026 als `[[lignum-schallschutz-holzbau-flankenuebertragung]]` destilliert — eigenes
+neu angelegtes Zweitdestillat sofort gelöscht, stattdessen das bestehende erweitert (Lehre:
+`destillate/INDEX.md` vor dem Anlegen eines neuen Destillats grep-prüfen).
+
+Neuer, primärquellenbelegter Fund: Kap. 8 ist der **Entwurf** des späteren Bauteilkatalogs (Rw-/
+Ln,w-Felder 2008 noch leer, Katalog erst für 2010/2013 geplant); ein bezifferter Einzelwert bleibt
+entnehmbar (abgehängte Decke ~60 mm bei Kastendecken → 3-6 dB Verbesserung) plus qualitative
+Flankenreduktions-Prinzipien je Konstruktionstyp (Rahmenbau: Innenverkleidung mit
+Installationsebene vs. schallverschlechternde Aussteifung; Massivholzplatten: entkoppelte
+Verkleidung). Negativbefund: die daraus entstandenen fertigen Werke (Lignum-Dokumentation 2023,
+Online-Bauteilkatalog `lignumdata.ch`/`bauteilkatalog.lignum.ch`) waren am 24.08.2026 wegen
+Serverfehlern nicht erreichbar — numerischer Anschlussdetail-Katalog bleibt offen.
+
+Geänderte Dateien: `destillate/lignum-schallschutz-holzbau-flankenuebertragung.md` (+32/-3, neuer
+Abschnitt Bauteilkatalog-Entwurf), `destillate/sia-181-schallschutz-anforderungswerte.md` (+20/-4,
+neuer Abschnitt Flankenübertragung Holzbau), `wiki/schallschutz-sia181.md` (+5/-2, Holzbau/CLT-
+Absatz ergänzt), `destillate/INDEX.md` (+1/-1), `wiki/QUESTIONS.md` (Eintrag 24t).

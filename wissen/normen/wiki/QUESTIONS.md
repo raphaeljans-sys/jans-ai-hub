@@ -4346,7 +4346,7 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   SharePoint-Ordner tatsächlich als eigenständige, zweite Datei daneben — bestätigt per
   Ordnerlisting (`/children`), kein Merge-Fall. Nachtrag im Destillat selbst,
   Abschnitt «Offene Punkte». Ursprungswortlaut bleibt unten stehen.
-- [ ] ~~Dateiname/Inhalt-Mismatch~~ (Ursprungswortlaut, siehe Schliessung oben): `vkf-merkblatt-brandschutzklassifikation-bauteile.md` hat als
+- [x] ~~Dateiname/Inhalt-Mismatch~~ (Ursprungswortlaut, siehe Schliessung oben): `vkf-merkblatt-brandschutzklassifikation-bauteile.md` hat als
   Quelle `Brandschutz-Praevention.pdf`, der Dateiname passt aber nicht zum Inhalt (Klassifikation
   von Bauteilen statt Prävention). Prüfen, ob der Inhalt wirklich zur Quelle passt, ggf. umbenennen
   auf ein passendes Muster (z.B. `vkf-brl-praevention-organisatorischer-brandschutz.md` — kollidiert
@@ -4354,6 +4354,13 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   hat: beide Destillate zu `Brandverhuetung & organisatorischer Brandschutz.pdf` bzw.
   `Brandschutz-Praevention.pdf` — evtl. sind das zwei verschiedene PDFs mit ähnlichem Thema, am
   Original gegenlesen bevor gemerged wird.
+  **Checkbox nachgezogen 24.08.2026 (QUESTIONS-Abarbeitung).** Die Frage ist bereits doppelt
+  beantwortet, nur hier nie abgehakt: die Schliessung oben (23.08.2026) hat am Original bestätigt,
+  dass der Dateiname vom Serien-/Herausgeber-Brand stammt (nicht vom Inhalt) und dass
+  `Brandverhuetung & organisatorischer Brandschutz.pdf` per Ordnerlisting eine tatsächlich
+  eigenständige zweite Datei ist — kein Merge-Fall; derselbe Befund wird zusätzlich unter
+  Teilpunkt (3) des «Verify-Abschluss MacBook»-Eintrags weiter unten ausdrücklich referenziert
+  («bereits am 23.08.2026 an anderer Stelle dieser Datei geschlossen»).
 - [x] **DIN EN 12101-2 im VKF-Ordner:** `VKF_Norm/02_Brandschutzrichtlinien 2015/DIN EN 12101-2.pdf`
   ist eine Dublette der bereits unter DIN destillierten `din-en-12101-2-2003.md` (Mac Mini) — beim
   Reconcile referenziert statt neu destilliert, keine Aktion nötig.
@@ -4497,8 +4504,11 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   `outputs/2026-07-13_normen-mini-run9.md`. **Nächster Lauf:** weitere Retro-Verifikation
   des grossen Rests unverifizierter DIN/VSS-Destillate (DIN 5034-Reihe, DIN 1053-Reihe,
   weitere DIN-EN-Normen, VSS-Altbestand), danach Stufe (c) Q&A-Selbstbefragung.
-- [ ] **Verify-Abschluss MacBook (13.07.2026): neue offene Punkte aus den 9
-  Retro-Verifikationen.** (1) Drei Duplikat-Merges noch offen:
+- [~] **Verify-Abschluss MacBook (13.07.2026): neue offene Punkte aus den 9
+  Retro-Verifikationen — 3 von 5 Teilpunkten inzwischen geschlossen (siehe Nachträge unten),
+  Marker nachgezogen 24.08.2026 (QUESTIONS-Abarbeitung).** Verbleibend offen: Teilpunkt (1)
+  [destruktiv, Rückfrage Raphael] und Teilpunkt (4) [steeldoc-ECCS-Diskrepanz, kein ECCS-Volltext
+  im Haus, externe Bring-Schuld]. (1) Drei Duplikat-Merges noch offen:
   `vkf-aenderungen-brandschutzrichtlinien-2017.md` → `vkf-brl-aenderungen-2017.md`,
   `vkf-merkblatt-2001-15-solaranlagen.md` → `vkf-brm-2001-15-solaranlagen.md`,
   `vkf-brl-anerkennungsverfahren.md` → `vkf-brl-28-15-anerkennungsverfahren.md`
