@@ -203,10 +203,10 @@ Richtpreis-Tabellen 162 Module / 59,93 kWp / 51'029 kWh — Groessenordnung ~60 
   ist ein belegter Fall mit **Rendite −2,02 %/a** und keinem Break-even im 40-Jahre-Horizont;
   entscheidend sind Kostenkennwert, Eigenverbrauchsanteil und der Abstand der Gestehungskosten
   zum Netztarif (hier 22,56 gegen 24,00 Rp/kWh, also nur 6 %). → FAQ F253, F254.
-- **Spezifischer Ertrag** als Planungs-Faustwert CH Mittelland/Voralpen: **~950–1'025 kWh/kWp·a**
-  (beide Beispiele real; gut besonntes, sued-/leicht-ostorientiertes Dach mit ~26° Neigung). Steiler
-  Nord-/Schattenlage tiefer, Flachdach Sued-Aufstaenderung aehnlich. → Schnellschaetzung Jahresertrag
-  = **kWp × ~1'000 kWh**.
+- **Spezifischer Ertrag als Planungs-Faustwert (Audit-Korrektur A-P3 03.4, 24.08.2026):**
+  entscheidend ist die **Ausrichtung**, nicht die Region: **kWp × ~1'000 kWh** bei Süd/optimaler
+  Neigung, **kWp × ~850 kWh** bei Ost-West, Verschattung oder steiler Neigung. (Der frühere Zusatz
+  «beide Beispiele … mit ~26° Neigung» stammte aus der Fassung vor Beispiel C und ist gestrichen.)
 - **Eigenverbrauchsquote OHNE Batterie ist fast reine Lastprofil-Frage:** Single ~8 % (B), grosses
   **MFH/Gewerbe ~33 %** (C, Tagverbrauch aus Gewerbe/mehreren Parteien), grosser Haushalt mit
   WP/E-Auto ~44 % (A). **Faustlinie:** je mehr Verbrauch tagsueber zur Produktion passt, desto hoeher

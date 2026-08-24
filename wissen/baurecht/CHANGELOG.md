@@ -3,6 +3,54 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 106: Anhang 3 LRV Ziff. 4 ff. gelesen — die seit 13.07.2026 offene Frage nach der «Herstellerkonformität kleiner Feuerungen» beruhte auf einer falschen Prämisse
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterführen». CHANGELOG und
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` gelesen: T1-T9 (Run 87) und die
+  Bundesrechts-Re-Verifikationskette (Runs 90-104) sind laut eigenen Abschlussvermerken
+  vollständig; Run 105 (heute, vor diesem Lauf) hat bereits die letzte Bookkeeping-Lücke in
+  `wiki/QUESTIONS.md` geschlossen und als nächsten Schritt «Anhang 3 LRV Ziff. 4 ff.» benannt —
+  eine seit Buch-Run 33 (13.07.2026) offene, nie vertieft geprüfte Restfrage. Vor dem ersten Edit
+  `ps aux | grep "claude -p"` geprüft: nur der eigene Session-Prozess (PID 51801) und zwei fremde
+  Prozesse an anderen KBs (`energie`, `normen`) — kein Konflikt auf `wissen/baurecht/`.
+- **LRV-Volltext bezogen:** Fedlex, Route `fedlex.data.admin.ch` (Filestore-Muster, Rule
+  `docs/referenz/fedlex-volltexte.md`), ELI `1986/208_208_208`, Konsolidierungsdatum 20260101,
+  98-seitiges PDF (1,55 MB, `application/pdf` bestätigt). PyMuPDF-Extraktion (kein `pdftotext` auf
+  dieser Station), Anhang 3 (Seiten 63-72 des PDF) vollständig gelesen.
+- **Kernbefund: die Prämisse der offenen Frage war falsch.** Anhang 3 Ziff. 4 ff. enthält **keine**
+  Herstellerkonformitäts-Regelung. Die Gliederung ist eine reine Emissionsgrenzwert-Systematik:
+  Ziff. 3 Besondere Vorschriften bei mehreren Einzelfeuerungen, **Ziff. 4 Ölfeuerungen** (41 Heizöl
+  Extra leicht, 42 Heizöl Mittel/Schwer), **Ziff. 5 Feuerungen für feste Brennstoffe** (51 Kohle,
+  52 Holz), **Ziff. 6 Gasfeuerungen** — je Brennstoff/Leistungsklasse Grenzwerttabellen für Staub,
+  CO, NOx, SOx, ohne jede Prüfnorm. Die einzige Konformitäts-Bestimmung im ganzen Anhang steht in
+  **Ziffer 524 «Messung und Kontrolle»** (Teil von Ziff. 52 Holzfeuerungen) und ist eng begrenzt:
+  serienmässig hergestellte **Einzelraumfeuerungen** (Cheminée-/Kachelöfen) sind von der
+  Abnahmemessung befreit, wenn eine Konformitätserklärung nach **Art. 7 der
+  Energieeffizienzverordnung (EnEV, SR 730.02)** die Einhaltung von Anhang 1.19 EnEV bestätigt;
+  handwerklich hergestellte Öfen sind befreit, wenn sie nach dem
+  Kachelofenberechnungsprogramm feusuisse gebaut oder mit einem Staubabscheidesystem nach
+  VDI 3670 ausgerüstet sind. Diese Konformitätserklärung ist **EnEV-, nicht LRV-eigenes Recht**
+  und betrifft ausschliesslich Einzelraum-Feststofffeuerungen — für Öl-/Gasfeuerungen existiert
+  keine Entsprechung.
+- **Damit bleibt die bereits am 13.07.2026 (Buch-Run 33) gefundene Antwort vollständig und wird
+  bestätigt, nicht revidiert:** Für Öl-/Gasfeuerungen ist die periodische Feuerungskontrolle nach
+  Art. 13 Abs. 3 LRV die einzige generelle Qualitätssicherung; eine Nachfolgeregelung zur
+  aufgehobenen Konformitätserklärung nach Art. 20 LRV a.F. existiert nicht und wurde auch nicht in
+  Anhang 3 verlagert.
+- **In die KB eingearbeitet:** `raw/260713_amtlich_ch_lrv.md` (OFFEN-Punkt 1 als erledigt markiert,
+  vollständige Auflösung mit Fundstellen ergänzt), `buecher/band-2/17-haustechnische-anlagen-teil3.md`
+  (Zeile 75, OFFEN-Vermerk geschlossen), `wiki/QUESTIONS.md` (Eintrag Zeile 1914 geschlossen).
+  Kein Edit am Wiki-Artikel [[wohnhygiene-und-raumanforderungen]] — er führte die Aussage zur
+  Feuerungskontrolle bereits korrekt, ohne den jetzt geschlossenen OFFEN-Zusatz. Kein neuer
+  Wiki-Artikel. `training/PROGRAMM.md` (Tracker-Einträge Run 105 nachgetragen — fehlte, gleiche
+  Lücken-Familie wie Run 41 — und Run 106 neu), `training/KORPUS-QUEUE-thalwil-reglemente.md`
+  (Fortsetzungs-Absatz ergänzt).
+- **Diff-Kontrolle (Rule `auto-verbesserungen` 260811):** `git status --short wissen/baurecht/` vor
+  dem ersten Edit sauber. Nach jedem Schreiben `git diff --numstat` geprüft (raw 24/2, buecher-Destillat
+  1/1, QUESTIONS.md 1/1) und `git diff | grep "^-"` bestätigt: jede gelöschte Zeile ist exakt die
+  gezielt ersetzte Passage, keine fremde Zeile verloren.
+- Report `outputs/2026-08-24_buch-run106.md`.
+
 ## 2026-08-24 — Buch-Run 105: Reglemente-Queue Thalwil geprüft (weiterhin vollständig T1-T9), drei veraltete QUESTIONS.md-Einträge nachgeschlossen
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterführen». Bestätigt: die Queue

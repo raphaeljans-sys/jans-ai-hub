@@ -85,7 +85,10 @@ greifen genau an diesen Termen an:
 Technik (Wärmeerzeuger, PV) kommt danach — sie ist günstiger und kleiner, wenn die Hülle
 zuerst stimmt.
 
-**Quelle:** SIA 380/1 Heizwärmebedarf → `[[sia-380-1-heizwaermebedarf-berechnung]]`.
+**Quelle (Audit-Korrektur A-P3 03.14, 24.08.2026):** SIA 380/1:2016 «Heizwärmebedarf von Gebäuden»
+(im Kt. ZH massgebende Ausgabe) → `[[sia-380-1-heizwaermebedarf-berechnung]]`, ⚠ Status auf
+emerging: das Versionsjahr im vorliegenden Auszug ist nicht genannt und noch nicht gegen die
+aktuelle Fassung geprüft.
 
 ---
 
@@ -255,9 +258,13 @@ notwendige Leistung = EBF × 10 W/m², max. 30 kW. Fläche: ~8 m²/kW (kristalli
 unwirtschaftlich. Die Pflicht ist klein; für Eigenverbrauch/Minergie lohnt oft eine grössere
 Anlage. Indach-/Solardachplatten erfüllen die Pflicht gestalterisch sauber.
 
-**Quelle:** Formular EnFK EN-104 «Eigenstromerzeugung bei Neubauten» (Version Juni 2019) →
-`[[enfk-en-104-eigenstromerzeugung]]`. PV-Typ-Wahl siehe F4; Brandschutz dachintegrierter PV →
-Skill `brandschutz`.
+**Quelle (Audit-Korrektur A-P3 03.9, 24.08.2026):** Operative Rechtsgrundlage ist **§ 10c EnerG
+mit § 47b BBV I** (Kt. Zürich). Das zitierte Formular EnFK EN-104 «Eigenstromerzeugung bei
+Neubauten» (Version Juni 2019, → `[[enfk-en-104-eigenstromerzeugung]]`) war nur bis 31.12.2024
+gültig; der Nachweis läuft in ZH seit 1.1.2026 elektronisch über **EVEN** (`energievollzug.ch`,
+Formular EN-104-ZH, → F12). **Ausblick MuKEn 2025** (Planungshinweis, in ZH noch nicht
+umgesetzt): der 30-kW-Deckel entfällt, massgebend würde stattdessen 20 W/m² EBF. PV-Typ-Wahl
+siehe F4; Brandschutz dachintegrierter PV → Skill `brandschutz`.
 
 ---
 
@@ -798,8 +805,10 @@ statistik (Anlagen nach 2019), WPesti-Standardwerte.
 
 ## F18 — «Wieviel Strom bringt meine PV-Anlage — und wieviel davon kann ich selbst nutzen?»
 
-**Kurz:** Rechne mit **rund 1'000 kWh Ertrag je kWp und Jahr** (gut besonntes Dach, Schweizer
-Mittelland) — ein 8-kWp-Dach liefert also ~8'000 kWh/a. Wieviel Du davon **selbst** nutzt, hängt
+**Kurz:** Rechne mit **rund 1'000 kWh Ertrag je kWp und Jahr bei Süd/optimaler Neigung**, mit
+**rund 850 kWh bei Ost-West-Ausrichtung, Verschattung oder steiler Neigung** — entscheidend ist die
+Ausrichtung, nicht die Region (Audit-Korrektur A-P3 03.4, 24.08.2026) — ein 8-kWp-Süddach liefert
+also ~8'000 kWh/a. Wieviel Du davon **selbst** nutzt, hängt
 fast nur an Deinem Verbrauchsprofil: **ohne Batterie ~8 % bei einem Single-Haushalt, bis ~44 % bei
 einem grossen Haushalt mit Wärmepumpe und E-Auto**. Und: im **Sommer produziert die Anlage 3–4×
 so viel wie im Winter** — den Winter-Heizstrom deckt PV nicht.
@@ -1222,7 +1231,10 @@ Bedingungen: **Gesuch vor Baubeginn** (`portal.dasgebaeudeprogramm.ch/sz`), nur 
 Öl-/Gas-/Elektroheizung im **Bestand** (Ersatzneubau = Neubau, nicht gefördert), Dämmung nur bei
 **Baubewilligung vor 2000** und U ≤ 0,20 / Verbesserung ≥ 0,07, GEAK Plus ab Förderbeitrag CHF 10'000,
 max. **50 % der Investition**, min. CHF 3'000 / **max. CHF 300'000/Gesuch**. WP nur Elektromotor (bis
-15 kW WPSM-Zertifikat, ab 15 kW FWS-Gütesiegel + Leistungsgarantie). **Klimaprämie + kantonale
+15 kW WPSM-Zertifikat, ab 15 kW FWS-Gütesiegel + Leistungsgarantie). ⚠ Die Solarthermie-Förderung
+rechnet in **kWth Nennleistung**, diese KB dimensioniert Solarthermie sonst in **m² Kollektorfläche**
+(→ F40) — die Nennleistung stammt aus `kollektorliste.ch` und ist beim Anbieter zu verlangen, eine
+Umrechnung wird hier nicht geschätzt (Audit-Korrektur A-P3 03.13, 24.08.2026). **Klimaprämie + kantonale
 Beiträge nicht kombinierbar.** **PV fördert der Kanton nicht** — die läuft über den Bund (Pronovo,
 nach Inbetriebnahme, vgl. F7/F27).
 
@@ -1724,15 +1736,20 @@ Luftwechsel (SIA 382/1) projektabhängig prüfen.
 
 ## F38 — «Lohnt sich ein Batteriespeicher zu meiner Solaranlage?»
 
-**Kurz:** Ein Batteriespeicher **erhöht Deine Unabhängigkeit spürbar** (selbst genutzter Solarstrom
-steigt von rund **30 % auf bis zu 70–90 %**), rechnet sich aber **meist gerade knapp** und **hilft im
-Winter praktisch nicht**. Deshalb zuerst die **fast gratis Hebel** ausschöpfen — Verbrauch in die Sonne
+**Kurz:** Ein Batteriespeicher hebt den Anteil des selbst genutzten Solarstroms deutlich
+(**Eigenverbrauchsquote** von rund **30 % auf bis zu 70–90 %**), rechnet sich aber **meist gerade
+knapp** und **hilft im Winter praktisch nicht**. Das ist **nicht dasselbe wie Unabhängigkeit vom
+Netz**: der **Selbstversorgungsgrad (Autarkie)** liegt auch mit Speicher bei **50–80 %**, ohne
+Speicher regelmässig unter 35 % — die drei Kennzahlen trennt F255 (Audit-Korrektur A-P3 03.1,
+24.08.2026). Deshalb zuerst die **fast gratis Hebel** ausschöpfen — Verbrauch in die Sonne
 schieben (Wärmepumpe, Warmwasser, E-Auto per Energiemanagement) — und die Batterie **bewusst als
 Komfort-/Autarkie-Entscheid** sehen, nicht als Sparbüchse.
 
 **Fachlich:** Ohne weitere Massnahmen nutzt man rund **30 %** des eigenen Solarstroms selbst; mit einem
 **Energiemanagement (EMS) plus Wärmepumpe/E-Mobilität** steigt das auf **~50 %**, mit **Batterie** auf
-bis zu **~70 %** (Swissolar: bis 90 % möglich), Autarkiegrad **50–80 %**. Entscheidend ist die
+bis zu **~70 %** (Swissolar: bis 90 % möglich), Autarkiegrad **50–80 %** (⚠ Marktangabe, nicht
+amtlich belegt, und sie gilt nur für eine auf den Jahresverbrauch ausgelegte Anlage: die Autarkie
+kann den Deckungsgrad nie überschreiten. Beim KB-Fall Willerzell liegt dieser bei 53 %). Entscheidend ist die
 **Wirtschaftlichkeits-Schwelle von EnergieSchweiz: ab ~35 % Eigenverbrauch** lohnt sich eine PV-Anlage —
 **und diese 35 % erreicht man meist schon OHNE Batterie**. Der Speicher ist also der **teuerste** Hebel,
 nicht der erste.
@@ -1839,7 +1856,10 @@ ALLE Parkplätze auf einmal** legen.
   A «Pipe for Power» **CHF 65**/Wohnung, Stufe B «Power for Building» **CHF 180**/Wohnung, Stufe
   C1 «Power to Garage» **CHF 350**/Wohnung, Stufe C2 «Power to Parking» **CHF 400**/Wohnung —
   die Grunderschliessung bis C1/C2 ist damit die mit Abstand günstigste Stufe; erst die
-  betriebsbereite Ladestation selbst (Stufe D) kostet **CHF 3'100 je E-Parkplatz**.
+  betriebsbereite Ladestation selbst (Stufe D) kostet **CHF 3'100 je E-Parkplatz**. ⚠
+  **Preisstand dieser Zahlen: Netzbeitrag und Kabel Juni 2019**, publiziert im AWEL-Infoblatt vom
+  13.10.2020 — als Verhältniszahl zwischen den Ausbaustufen zu lesen, nicht als CHF-Budget 2026
+  (Audit-Korrektur A-P3 03.7, 24.08.2026).
 
 **Ergänzung — bidirektionale + Quartier-Ladestationen amtlich gegengelesen (16.07.2026):** Die
 amtliche ZH-Förderbroschüre (Amt für Mobilität, April 2023) wurde direkt gelesen: **bidirektionale
@@ -1862,7 +1882,10 @@ bewusst `emerging`. Kanton ZH fördert die Grunderschliessung zusätzlich mit CH
 
 **Ergänzt 2026-07-15 — wichtige Klarstellung Förderzuständigkeit:** Das ZH-Förderprogramm
 Ladeinfrastruktur (CHF 500/300, Budget total CHF 50 Mio., Stand 06.07.2026 bereits **über 92 %
-ausgeschöpft**) läuft über die **Volkswirtschaftsdirektion/Amt für Mobilität** (Portal
+ausgeschöpft** — ⚠ dieser Topf war am **06.07.2026 zu über 92 % ausgeschöpft**; vor jeder Zusage
+den Stand beim Amt für Mobilität erfragen und den Beitrag nicht in die Investitionsrechnung
+einstellen, solange er nicht bestätigt ist, Audit-Korrektur A-P3 03.8, 24.08.2026) läuft über die
+**Volkswirtschaftsdirektion/Amt für Mobilität** (Portal
 portal.dasgebäudeprogramm.ch/zh) — ein **anderes Amt** als das AWEL/Baudirektion-Programm für
 Wärmedämmung/Wärmepumpen/GEAK. Neubauten ab 2023 sind von der ZH-Förderung ausgeschlossen. In
 **Schwyz gibt es auf Kantonsebene keine eigene Ladeinfrastruktur-Förderung** (Negativbefund, AfU
@@ -1910,7 +1933,11 @@ Wärme **weniger Dachfläche** braucht.
   Sommerhalbjahr, braucht aber **fast immer ein Zusatzsystem** für Winter/Schlechtwetter.
 - **Reine Warmwasser-Frage:** Ein **Wärmepumpenboiler** ist der einfache, stromsparende Standard; ein
   **rein elektrischer Boiler** ist billig in der Anschaffung, aber teuer und energieschwach im Betrieb.
-- **Förderung Solarthermie** ist belegt: **CHF 2'400 + 1'000/kWth** (ZH wie SZ).
+- **Förderung Solarthermie** ist belegt: **CHF 2'400 + 1'000/kWth** (ZH wie SZ). ⚠ Diese KB
+  dimensioniert Solarthermie in **m² Kollektorfläche**, die Förderung rechnet in **kWth
+  Nennleistung** — die Brücke fehlt: die Nennleistung stammt aus `kollektorliste.ch` und ist beim
+  Anbieter zu verlangen, eine Umrechnung m² → kWth wird hier nicht geschätzt (Audit-Korrektur
+  A-P3 03.13, 24.08.2026; offene Frage → QUESTIONS.md).
 
 **Entscheid-Reihenfolge:** (1) Wärmeerzeuger klären (WP als Standard); (2) Dach **primär mit PV** belegen;
 (3) Solarthermie nur bei ganzjährig hohem Warmwasserbedarf — dann bewusst **Kollektorfläche gegen PV-Fläche**
@@ -2439,7 +2466,11 @@ Interessenabwägung bei Landschafts-/Ortsbild-/Denkmalschutz. Parallel soll ein 
 Netzbetreiber (federführend EKZ) zur Förderung von Energie-Langzeitspeichern eingeführt werden,
 finanziert über eine Abgabe von max. 0,5 Rp./kWh (~2 % Strompreiserhöhung geschätzt). Beide
 Vorlagen sind als Regierungsratsbeschluss erfasst (RRB Nr. 1229/2025 Solarpflicht, RRB Nr.
-1231/2025 Langzeitspeicher, je 06.01.2026). Politisch zeichnet sich der Streitpunkt nicht bei der
+1231/2025 Langzeitspeicher — ⚠ **Datumskorrektur** Audit A-P3 03.10, 24.08.2026: eine RRB-Nummer
+des Jahrgangs 2025 kann nicht «je 06.01.2026» beschlossen worden sein; der Beschluss datiert
+folgerichtig auf **2025**, die Botschaft ans Parlament wurde am 06.01.2026 öffentlich, das ist die
+Medienmitteilung, nicht das RRB-Datum selbst — exaktes RRB-Datum in dieser KB nicht belegt).
+Politisch zeichnet sich der Streitpunkt nicht bei der
 Solarpflicht als solcher ab: der HEV Kanton Zürich unterstützt sie bei Neubauten, lehnt sie für
 Bestandsbauten ab; SP und Grüne begrüssen beide Vorlagen grundsätzlich, finden sie aber **nicht
 weitgehend genug**. Die Regelung ist enger gefasst als die MuKEn-2025-PV-Pflicht (20 W/m² EBF,
@@ -2448,9 +2479,12 @@ Institutionsbauten) statt auf alle Neubauten.
 
 **Quelle:** Medienmitteilung Kanton Zürich (06.01.2026) + Presseecho (20 Minuten, NZZ,
 Tages-Anzeiger, pv magazine) → `[[zh-energiegesetz-revision-solarpflicht-2026]]`, emerging.
-**Offen:** die daraus abgeleitete Kantonsrats-Geschäftsnummer/der Beratungsstand (kantonsrat.zh.ch
-ist als JS-Single-Page-App per WebFetch nicht auslesbar, zwei Versuche 2026-07-13 erfolglos),
-exakter Gesetzeswortlaut, Inkrafttretensdatum.
+**Verfahrensstand (Audit-Korrektur A-P3 03.10, seit 24.07.2026 amtlich bekannt, → F116):** die
+Kantonsrats-Geschäftsnummern sind **KRNr 6062** (Solarpflicht) und **KRNr 6063**
+(Langzeitspeicher), amtlich identifiziert via CDWS-Geschäftsdatenbank; seit dem Antrag vom
+26.11.2025 liegen beide unverändert bei der KEVU, eine Kommissions- oder Plenumsberatung ist bis
+zum letzten Check nicht protokolliert. **Weiterhin offen:** exakter Gesetzeswortlaut,
+Inkrafttretensdatum.
 
 ---
 
@@ -3662,7 +3696,10 @@ ZH-Nachweis (EN-102 Kapitel 8) ist eine bewusste Vereinfachung von SIA 180. Auss
 Sonnenschutz erreicht gtot ≈ 0,07-0,13, innenliegender bei identischer Verglasung nur
 0,36-0,40 — Faktor 4-5.
 
-**Quelle + Datenstand:** EnFK/EnDK Vollzugshilfe EN-102 (Ausgabe Januar 2020, Kapitel 8); Kt. ZH
+**Quelle + Datenstand:** EnFK/EnDK Vollzugshilfe EN-102 (Ausgabe Januar 2020 zitiert, ⚠ Audit
+A-P3 03.15: das established-Destillat `[[enfk-en-102-waermeschutz-2018]]` nennt für dieselbe
+Vollzugshilfe «Ausgabe Dezember 2018» — offener Abgleichspunkt, Zahlenwerte unberührt, siehe
+QUESTIONS.md), Kapitel 8; Kt. ZH
 Vollzugsordner Energie (Sept. 2022); HBA Kt. ZH Richtlinie Sommerlicher Wärmeschutz
 (23.01.2023, Version 5.1); Stadt Zürich AHB Wegleitung Sommerlicher Wärmeschutz — alle per
 curl+pdftotext gelesen 16.07.2026. Destillat: `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`.
@@ -5297,8 +5334,10 @@ Vollzugshilfe abweichende Wegleitung gefunden werden (Negativbefund) — SZ dür
 nationalen Massstab anwenden wie Kt. ZH, seit 1.1.2026 ebenfalls über die EVEN-Plattform
 eingereicht.
 
-**Quelle + Datenstand:** EnFK/EnDK-Vollzugshilfe EN-102 (Ausgabe Januar 2020, Basis SIA 380/1:2016)
-Kap. 8 + Kt.-ZH-Vollzugsordner Energie (Sept. 2022) + HBA-Richtlinie Sommerlicher Wärmeschutz
+**Quelle + Datenstand:** EnFK/EnDK-Vollzugshilfe EN-102 (Ausgabe Januar 2020 zitiert, ⚠ Audit
+A-P3 03.15: das established-Destillat `[[enfk-en-102-waermeschutz-2018]]` nennt «Ausgabe
+Dezember 2018» — offener Abgleichspunkt, Zahlenwerte unberührt, siehe QUESTIONS.md; Basis
+SIA 380/1:2016) Kap. 8 + Kt.-ZH-Vollzugsordner Energie (Sept. 2022) + HBA-Richtlinie Sommerlicher Wärmeschutz
 (23.01.2023) + Stadt-ZH-Wegleitung, alle per curl+pdftotext gelesen 16.07.2026; SIA 180:2014
 Ziff. 5.2.4.1 (g_tot-Grenzwerte Fassadenfenster) aus `wissen/normen/destillate/sia-180-2014`;
 MuKEn-2025-Originaltext Art. 1.7–1.11 (EnDK, amtl. PDF endk.ch, verabschiedet 29.08.2025) per
@@ -5589,9 +5628,12 @@ SWKI/EnergieSchweiz; 2018 lag die Gebühr noch bei CHF 245). Passt ein Altbau-So
 ein Standard-Modul, gibt es den formalen Weg der **Einzelfreigabe** (CHF 200–500 zzgl. MWST).
 Aus einer bereits in dieser KB etablierten Schweizer Feldmessung (WPZ Buchs/OST) lässt sich zudem
 eine Grössenordnung für den Effizienzverlust bei höherer Vorlauftemperatur herleiten: rund
-**1,0–1,2 % JAZ-Verlust pro °C** (grobe, selbst gerechnete Näherung über drei 10-°C-Klassen
-Neubau/Sanierung/Altbau) — deutlich weniger, als die zuvor hier verwendete, unbelegte deutsche
-Fachportal-Faustregel von 2–2,5 % pro °C suggerierte; jene Zahl wurde zurückgezogen. Für den
+**1,0–1,2 % JAZ-Verlust pro °C bei Luft/Wasser-Wärmepumpen**, dagegen nur rund **0,6–0,7 % bei
+Sole/Wasser** (grobe Eigenherleitung über drei 10-°C-Klassen Neubau/Sanierung/Altbau; der absolute
+Rückgang ist in beiden Systemen ähnlich, relativ fällt er bei Sole/Wasser kleiner aus, weil er auf
+einen höheren Ausgangswert trifft — Audit-Korrektur A-P3 03.2, 24.08.2026) — deutlich weniger, als
+die zuvor hier verwendete, unbelegte deutsche Fachportal-Faustregel von 2–2,5 % pro °C suggerierte;
+jene Zahl wurde zurückgezogen. Für den
 hydraulischen Abgleich bzw. einen einzelnen Heizkörperersatz nennt eine einzelne Schweizer
 Heizungsfirma (axora.ch) als Marktbandbreite CHF 1'500–3'000 bzw. CHF 800–1'800 pro Stück
 (kommerzielle Einzelquelle, keine Verbandsstatistik). **Korrigiert:** Eine zuvor hier vermutete

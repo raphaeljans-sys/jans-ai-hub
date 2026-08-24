@@ -3,8 +3,8 @@ quelle: PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.
 herausgeber: Kursauszug «Energetische Gesamtoptimierung», Bezeichnungen nach SIA 380/1 (Klimadaten SIA 381/2)
 gelesen: vollstaendig (1 S.)
 datenstand: ⚠ Formelwerk nach SIA 380/1; Versionsjahr im Auszug nicht genannt — gegen aktuelle Fassung pruefen.
-status: established
-last_updated: 2026-06-06
+status: emerging (Audit-Korrektur A-P3 03.14, 24.08.2026: solange das eigene Datenstand-Feld "gegen aktuelle Fassung pruefen" verlangt, ist established nicht haltbar; im Kt. ZH massgebend ist SIA 380/1:2016)
+last_updated: 2026-08-24
 ---
 
 # Destillat — Heizwaermebedarf Qh berechnen (SIA 380/1)

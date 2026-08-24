@@ -11,11 +11,14 @@ links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-
 
 > ⚠ **Datenstand 2026-06-26** (Programm-Version 01.01.2026). Fördersätze altern — vor jeder
 > Zusage gegen `zh.ch` / `portal.dasgebaeudeprogramm.ch/zh` prüfen. **2026 unverändert ggü. 2025**
-> bestätigt (Baudirektion-Mitteilung 24.10.2025). Befristet ist das Programm auf den
-> **Rahmenkredit 2023–2026 bzw. bis zur Budgeterschöpfung**; der Regierungsrat datiert den
+> bestätigt (Baudirektion-Mitteilung 24.10.2025). Befristet war das Programm auf den
+> **Rahmenkredit 2023–2026 bzw. bis zur Budgeterschöpfung**; der Regierungsrat hatte den
 > Anschlussbedarf in seiner Mitteilung vom **15.01.2026** ausdrücklich auf **«Mitte 2026 bis
-> Ende 2029»** — der laufende Kredit trägt also **nicht zwingend bis Jahresende**. Gesuch darum
-> nicht auf das 2. Halbjahr 2026 schieben → F7.
+> Ende 2029»** datiert. **Nachtrag 2026-08-24: die Anschlussfinanzierung ist beschlossen** — der
+> Kantonsrat hat den Rahmenkredit 2026–2029 (KRNr 6064, 60 Mio. CHF) am **17.08.2026 mit 172
+> Stimmen bewilligt** (Ausgabenbremse erfüllt, primärquellenverifiziert über die
+> CDWS-Geschäftsdatenbank), es folgt also keine Förderlücke im 2. Halbjahr 2026 → Details unten,
+> Abschnitt «Abgrenzung».
 
 ## Das Wichtigste
 Der Kanton ZH fördert den Weg weg von fossiler Wärme und hin zur besseren Hülle mit

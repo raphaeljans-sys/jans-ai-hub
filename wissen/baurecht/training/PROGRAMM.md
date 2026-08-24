@@ -1655,6 +1655,29 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   Rest-Frage geschlossen. Report `outputs/2026-08-23_buch-run104.md`. **Naechster Schritt:** keine
   offene Frage mehr aus der Thalwil-Queue oder der Bundesrechts-Kette; naechster Lauf frei fuer
   Health-Check, neue KB-Luecken aus `QUESTIONS.md`, oder eine zweite Re-Verifikationsrunde.
+- **Buch-Run 105 (2026-08-24):** Tracker-Nachtrag (fehlte, gleiche Luecken-Familie wie bei Run 41).
+  Queue-Status geprueft und bestaetigt (T1-T9 weiterhin vollstaendig). `wiki/QUESTIONS.md`
+  systematisch gesichtet: drei Eintraege waren bereits inhaltlich geloest, aber nie als
+  geschlossen nachgetragen (Kap. 15.13 Fassungsstand nPBG/nABV, LSV Art. 40/Anhang 3-4,
+  Healthcare-Coverage teilaktualisiert) — reine Bookkeeping-Pflege, kein neuer Fachinhalt.
+  Report `outputs/2026-08-24_buch-run105.md`.
+- **Buch-Run 106 (2026-08-24):** Den von Run 33/104/105 zuletzt offen gelassenen Punkt bearbeitet:
+  «Anhang 3 LRV Ziff. 4 ff. (Herstellerkonformitaet kleiner Feuerungen)» — bislang nur als
+  OFFEN-Vermerk gefuehrt, nie gelesen. LRV-Volltext (Fedlex `fedlex.data.admin.ch`, Stand
+  1.1.2026, PDF 98 S.) bezogen, Anhang 3 Ziff. 3-6 vollstaendig extrahiert und geprueft.
+  **Ergebnis: die Praemisse der offenen Frage war falsch.** Ziff. 4 ff. ist eine reine
+  Emissionsgrenzwert-Systematik je Brennstoff (4 Oelfeuerungen, 5 feste Brennstoffe, 6
+  Gasfeuerungen), keine Konformitaetsregelung. Die einzige Konformitaets-Bestimmung im ganzen
+  Anhang (Ziff. 524) betrifft nur serienmaessig hergestellte Einzelraum-Feststofffeuerungen und
+  stuetzt sich auf Art. 7 EnEV (SR 730.02), nicht auf LRV-eigenes Recht. Fuer Oel-/Gasfeuerungen
+  bleibt die bereits am 13.07.2026 (Run 33) gefundene Antwort (periodische Feuerungskontrolle
+  Art. 13 Abs. 3 LRV) die einzige Qualitaetssicherung. Eingearbeitet in `raw/260713_amtlich_ch_
+  lrv.md` (Nachtrag), `buecher/band-2/17-haustechnische-anlagen-teil3.md` und `wiki/QUESTIONS.md`.
+  Kein neuer Wiki-Artikel-Edit (der wiki-Artikel [[wohnhygiene-und-raumanforderungen]] fuehrte die
+  Aussage bereits korrekt, ohne den jetzt geschlossenen OFFEN-Zusatz). Report
+  `outputs/2026-08-24_buch-run106.md`. **Naechster Schritt:** keine offene Frage mehr aus der
+  Thalwil-Queue, der Bundesrechts-Kette oder dem LRV-Nachtrag; frei fuer Health-Check-Aktionen
+  (Phase 2, Umlaut-Ersatzschreibung ~340 Stellen) oder eine zweite Re-Verifikationsrunde.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

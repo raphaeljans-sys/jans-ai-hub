@@ -3,9 +3,9 @@ quelle: Foerderprogramm Energie Kanton Zuerich 2026 (Baudirektion ZH, AWEL), PDF
 herausgeber: Kanton Zuerich, Baudirektion, Amt fuer Abfall Wasser Energie und Luft (AWEL)
 ausgabe: Version 01.01.2026
 gelesen: S. 1-38 VOLLSTAENDIG (alle Foerdersaetze inkl. Minergie-ECO + Solarthermie, 2026-06-26; PDF hat 38 statt der frueher notierten 37 Seiten, korrigiert 2026-07-20)
-datenstand: 2026-07-21 (Programm Version 01.01.2026 unveraendert; alle 20 geprueften Foerdersaetze am amtlichen PDF ZUM ZWEITEN MAL unabhaengig nachverifiziert, Run 83, frischer Download 21.07.2026 22:33 Uhr, SHA-256 ad95248d…; Befristung/Kantonsratsbeschluss KRNr 6064 Stand unveraendert gegenueber Run 82)
+datenstand: 2026-07-21 (Programm Version 01.01.2026 unveraendert; alle 20 geprueften Foerdersaetze am amtlichen PDF ZUM ZWEITEN MAL unabhaengig nachverifiziert, Run 83, frischer Download 21.07.2026 22:33 Uhr, SHA-256 ad95248d…); Anschlussfinanzierung KRNr 6064 (Rahmenkredit 2026-2029) am 17.08.2026 vom Kantonsrat bewilligt, primaerquellenverifiziert 2026-08-24 (CDWS-Geschaeftsdatenbank, Sekundaerbestaetigung cash.ch/baublatt.ch)
 status: established
-last_updated: 2026-07-21
+last_updated: 2026-08-24
 ---
 
 # Destillat — Foerderprogramm Energie Kanton Zuerich 2026
@@ -208,6 +208,23 @@ Kommission» (KEVU, 07.05.2026, einstimmig zur Bewilligung) — kein neuer Ablau
 (insbesondere keine Schlussabstimmung) seit Run 82 hinzugekommen. Erwartungsgemaess, da die
 naechste moegliche Sitzung (164., 17.08.2026) heute (21.07.2026) noch nicht stattgefunden hat.
 Naechster Pruefpunkt: nach dem 17.08.2026 erneut abfragen.
+
+**KRNr 6064 — bewilligt (Nachtrag 2026-08-24).** Dieselbe CDWS-Geschaeftsdatenbank erneut
+abgefragt (`...searchdetails?q=krnr%20any%206064&l=de-CH`, 24.08.2026): dritter Ablaufschritt
+**«Zustimmung» am 17.08.2026, 172 Stimmen, Ausgabenbremse erfuellt**; Status `PendentBeiNeu`
+jetzt **Erledigt**. Der Kantonsrat hat den Rahmenkredit 2026-2029 (60 Mio. CHF Kanton, mit
+CO₂-Abgabe und Bundes-Impulsprogramm bis 286 Mio. CHF fuer 2026-2029, vgl. Abschnitt oben)
+damit in der ersten Sitzung nach der Sommerpause bewilligt, wie in Run 82/83 als naechstes
+moegliches Datum vorausgesagt. Zwei unabhaengige Sekundaerquellen bestaetigen Datum und Betrag
+(cash.ch, 17.08.2026: «Zürcher Kantonsrat genehmigt 60 Millionen für Energie-Subventionen»,
+SVP stimmte bei Kritik an den Kosten ebenfalls zu; baublatt.ch dieselbe Meldung). Referendum/
+Inkrafttreten sind in den CDWS-Daten nicht dokumentiert und damit fuer diese KB nicht
+verifizierbar — fuer die Bauherren-Beratung zaehlt der bewilligte Rahmenkredit, das Programm
+2026 laeuft ohnehin unveraendert weiter (Abschnitt oben, 20/20 Foerdersaetze zweifach bestaetigt).
+**Die in Abschnitt 1 oben offen gelassene Frage «Fortsetzung politisch aufgegleist, aber noch
+nicht rechtskraeftig beschlossen» ist damit beantwortet: rechtskraeftig beschlossen seit
+17.08.2026.** Schliesst den in `wiki/QUESTIONS.md` (Audit 23.08.2026, A-P2 02.9) und
+`logbuch/fristen.md` (Eintrag 24.08.2026) offen gehaltenen Pruefstichtag.
 
 ## Faustregel-Beispiele 2026 (Bauherren-Zahlen, komplett)
 - Oelheizung raus → **Luft-Wasser-WP CHF 2'900**, **Erdsonden-/Grundwasser-WP CHF 6'800**,

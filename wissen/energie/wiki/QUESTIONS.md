@@ -4555,6 +4555,10 @@ die KB widerspricht sich selbst.
   `foerderung-energie-sz`, `wiki/INDEX`, dazu der Faustregel-Vorbehalt zu den «~360 CHF/kW» im
   Destillat. In F92 und F94 stand der Ausschluss die ganze Zeit richtig.
 
+- [x] **A-P2 (18 Punkte, Arbeitspapier Abschnitt 02): alle 18 erledigt** (Stand 24.08.2026,
+  ueber mehrere Laeufe desselben Tages — Nachpruefung im Interaktions-Nachlauf bestaetigt jeden
+  Punkt am Bestand, keiner musste in diesem Lauf noch angefasst werden). Suche `Audit-Korrektur
+  A-P2` in `wiki/` und `destillate/` fuer alle Fundstellen. Historische Zeile unten belassen.
 - [ ] **A-P2 (18 Punkte, Arbeitspapier Abschnitt 02): die Warteschlange fuer die naechsten
   Laeufe.** Je Punkt liegt die Korrektur im Wortlaut vor, mit Datei und Stelle. Reihenfolge nach
   Zahlfolge fuer die Bauherrschaft: 02.1 Blower-Door n50 gegen qE50 · 02.4 Indach-Aufschlag
@@ -4567,6 +4571,25 @@ die KB widerspricht sich selbst.
   F162 · 02.8 Foerderbefristung ZH (erledigt 23.08.) · 02.16 verwaister Vollzugsordner-Zwilling ·
   02.17 Pflichtfeld `datenstand` (Werkzeug gebaut, Nachruestung offen) · 02.18 Einmalverguetung
   integriert ueber 30 kWp · 02.9 KRNr 6064 (in `logbuch/fristen.md` eingetragen).
+- [x] **A-P3 (17 Punkte, Arbeitspapier Abschnitt 03): 14 von 17 erledigt** (Stand 24.08.2026,
+  dieser Lauf: 03.1 F38 Autarkie/Eigenverbrauch getrennt, 03.2 JAZ-Verlust Luft/Wasser vs.
+  Sole/Wasser getrennt, 03.4 PV-Faustwert Ausrichtung statt Region an drei Stellen, 03.7 F39
+  Preisstand-Vorbehalt 2019/2020, 03.8 F39 Foerdertopf-Ausschoepfungswarnung verschaerft, 03.9 F10
+  Rechtsgrundlage + EVEN + MuKEn-2025-Ausblick, 03.10 F61 RRB-Datum bereinigt + Verfahrensstand
+  → F116, 03.14 F2 Norm-Ausgabe SIA 380/1:2016 + Destillat-Status established → emerging, 03.16
+  ein Register-Frontmatter-Mismatch behoben (INDEX Z. 396 vollzugsordner-3-1-3-2-en1: speculative
+  → superseded). Bereits vor diesem Lauf erledigt: 03.3, 03.5, 03.6, 03.11, 03.12, 03.17. **Neue
+  offene Punkte aus diesem Lauf** (kein weiterer Recherche-Ansatz ohne Primaerquelle/Entscheid):
+  (a) 03.13 Solarthermie kWth↔m² — Bruecke jetzt als Vorbehalt in F28/F40 vermerkt, die
+  Umrechnung selbst bleibt offen, Primaerquelle waere `kollektorliste.ch` je Produkt, nicht
+  pauschal herleitbar; (b) 03.15 EN-102-Ausgabestand — das established-Destillat
+  `[[enfk-en-102-waermeschutz-2018]]` nennt «Ausgabe Dezember 2018», zwei FAQ-Stellen (Z. 3699,
+  5334 alte Zaehlung) zitieren fuer dieselbe Vollzugshilfe «Ausgabe Januar 2020» — beide jetzt
+  gegenseitig verlinkt/geflaggt, Aufloesung braucht den Original-PDF-Abgleich (Blindstelle
+  A-BLIND); (c) 03.16 Register-Sammelauftrag ist nur zu einem Sechstel abgearbeitet — elf
+  unregistrierte Destillate, drei Statuswerte ausserhalb der Skala, ~20 tote Links und mind. drei
+  weitere Register/Frontmatter-Mismatches sind noch offen; das ist ein eigener Lauf mit den
+  Konsistenz-Script-Treffern (05.1), kein Einzeleinsatz.
 - [ ] **A-P3 (17 Punkte, Arbeitspapier Abschnitt 03): Sammellauf, keine Einzeleinsaetze.**
   Sie aendern keine Zahl, die eine Bauherrschaft in eine Rechnung stellt, oder sind Hausordnung
   (Registerhygiene, tote Verweise, Statuswerte ausserhalb der Skala, ein Tippfehler in Z. 84).

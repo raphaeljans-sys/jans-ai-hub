@@ -279,12 +279,34 @@ Terrassensiedlungen, tiefen Abgastemperaturen, in unebenem Gelände.
 
 ### OFFEN (nicht abschliessend verifiziert / ausserhalb des Auftragsumfangs)
 
-1. **Anhang 3 LRV Ziff. 4 ff. (Detailanforderungen an einzelne Feuerungstypen,
+1. ~~**Anhang 3 LRV Ziff. 4 ff. (Detailanforderungen an einzelne Feuerungstypen,
    Emissionsgrenzwerte, Prüfnormen für Herstellerkonformität)** wurde nicht
    vollständig durchgearbeitet — für die Frage «wie wird die Herstellerkonformität
    kleiner Feuerungen heute nachgewiesen» (Nachfolgeregelung zum aufgehobenen
    Art. 20 LRV) wäre eine vertiefte Anhang-3-Lektüre nötig. Als offen markiert,
-   nicht Teil dieses Auftrags.
+   nicht Teil dieses Auftrags.~~ → **erledigt 24.08.2026 (Buch-Run 106):** Anhang 3
+   Ziff. 3-6 vollständig gelesen (Fedlex-PDF Stand 1.1.2026, s.o.). **Die Prämisse der
+   Frage war falsch:** Ziff. 4 ff. enthält KEINE Herstellerkonformitäts-Regelung. Die
+   Gliederung ist: Ziff. 3 Besondere Vorschriften bei mehreren Einzelfeuerungen,
+   **Ziff. 4 Ölfeuerungen** (41 Heizöl Extra leicht, 42 Heizöl Mittel/Schwer — reine
+   Emissionsgrenzwert-Tabellen), **Ziff. 5 Feuerungen für feste Brennstoffe** (51
+   Kohle, 52 Holz), **Ziff. 6 Gasfeuerungen** — durchweg Emissionsgrenzwerte nach
+   Brennstoff/Leistungsklasse, keine Prüfnormen. Die einzige Konformitäts-Bestimmung
+   im ganzen Anhang 3 steht in **Ziffer 524 «Messung und Kontrolle»** (Teil von
+   Ziff. 52 Holzfeuerungen) und ist eng: **serienmässig hergestellte
+   Einzelraumfeuerungen** (Cheminée-/Kachelöfen nach Ziff. 22 Bst. f) sind von der
+   Abnahmemessung befreit, wenn eine **Konformitätserklärung nach Art. 7 der
+   Energieeffizienzverordnung (EnEV, SR 730.02)** bestätigt, dass die Anlage Anhang
+   1.19 EnEV entspricht; handwerklich hergestellte Öfen sind befreit, wenn sie nach
+   einem anerkannten Berechnungsverfahren (Kachelofenberechnungsprogramm feusuisse)
+   gebaut oder mit einem Staubabscheidesystem nach VDI 3670 ausgerüstet sind. Diese
+   Konformitätserklärung ist **EnEV-, nicht LRV-Recht** und gilt nur für
+   Einzelraum-Feststofffeuerungen — für Öl-/Gasfeuerungen gibt es keine Entsprechung.
+   **Damit bleibt die bereits am 13.07.2026 (Buch-Run 33) gefundene Antwort
+   vollständig:** die einzige generelle Qualitätssicherung für Öl-/Gasfeuerungen ist
+   die periodische Feuerungskontrolle nach Art. 13 Abs. 3 LRV; eine
+   Herstellerkonformitäts-Prüfung wie die frühere Art.-20-Konformitätserklärung
+   existiert dafür nicht mehr und wurde auch nicht in Anhang 3 verlagert.
 2. **BAFU-Kaminempfehlungen: eine allfällige noch neuere Auflage nach Dezember
    2018** wurde nicht gefunden; die BAFU-Publikationsseite listet aktuell (Stand
    Recherche 13.07.2026) die 1. aktualisierte Auflage Dezember 2018 (Erstausgabe

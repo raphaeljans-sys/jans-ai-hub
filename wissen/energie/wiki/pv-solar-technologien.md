@@ -44,8 +44,9 @@ Neubau Kt. ZH: PV ≥ **10 W/m² EBF**, max. 30 kW (Detail → [[BAUHERREN-FAQ]]
 `[[enfk-en-104-eigenstromerzeugung]]`). Typ-Wahl → [[BAUHERREN-FAQ]] F4.
 
 ## Ertrag & Eigenverbrauch (Praxiswerte)
-- **Spez. Ertrag CH Mittelland/Voralpen: ~950–1'025 kWh/kWp·a** (zwei reale Vorprojekte, gut
-  besonntes Süd-/leicht-Ost-Dach ~26°). Schnellschätzung Jahresertrag = **kWp × ~1'000 kWh**.
+- **Spez. Ertrag (Audit-Korrektur A-P3 03.4, 24.08.2026):** entscheidend ist die **Ausrichtung**,
+  nicht die Region. Schnellschätzung Jahresertrag = **kWp × ~1'000 kWh** bei Süd/optimaler Neigung,
+  **kWp × ~850 kWh** bei Ost-West, Verschattung oder steiler Neigung.
 - **Saisonalität hart:** Sommer ≈ **3–4× Winter** → PV deckt den WP-Heizstrom im Winter nicht;
   «Plusenergie» = Jahres-Netzbilanz, kein Inselbetrieb.
 - **Eigenverbrauch ohne Speicher ist Lastprofil-Frage:** Single ~8 %, **grosses MFH/Gewerbe ~33 %**

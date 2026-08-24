@@ -424,6 +424,22 @@ Bookkeeping-Pflege, kein neuer Fachinhalt. Report `outputs/2026-08-24_buch-run10
 «Bauen im Betrieb (Healthcare)» bei Praxisanlass; sonst weiterhin Health-Check oder eine zweite
 Re-Verifikationsrunde.
 
+**Run 106 (2026-08-24, ausserhalb T1-T9):** Die von Run 105 benannte Restlücke bearbeitet: Anhang 3
+LRV Ziff. 4 ff. («Detailanforderungen an einzelne Feuerungstypen, Prüfnormen für
+Herstellerkonformität», seit 13.07.2026/Buch-Run 33 als OFFEN geführt) erstmals vollständig gelesen
+(Fedlex-PDF, Stand 1.1.2026). **Die Prämisse der offenen Frage war falsch:** Ziff. 4 ff. enthält
+keine Herstellerkonformitäts-Regelung, sondern reine Emissionsgrenzwert-Tabellen je Brennstoff
+(4 Ölfeuerungen, 5 feste Brennstoffe, 6 Gasfeuerungen). Die einzige Konformitäts-Bestimmung im
+ganzen Anhang (Ziffer 524) ist eng auf serienmässig hergestellte Einzelraum-Feststofffeuerungen
+begrenzt und stützt sich auf Art. 7 EnEV, nicht auf LRV-eigenes Recht — für Öl-/Gasfeuerungen
+bleibt die bereits gefundene Antwort (periodische Feuerungskontrolle Art. 13 Abs. 3 LRV) die
+einzige Qualitätssicherung. Eingearbeitet in `raw/260713_amtlich_ch_lrv.md`,
+`buecher/band-2/17-haustechnische-anlagen-teil3.md`, `wiki/QUESTIONS.md`. Kein neuer Wiki-Artikel.
+Report `outputs/2026-08-24_buch-run106.md`. **Damit ist auch die von Run 33 offen gelassene
+LRV-Restlücke geschlossen.** **Nächster Schritt:** kein Fachpunkt mehr aus der Thalwil-Queue offen;
+frei für Health-Check-Aktionen (Phase 2, Umlaut-Ersatzschreibung) oder eine zweite
+Re-Verifikationsrunde.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

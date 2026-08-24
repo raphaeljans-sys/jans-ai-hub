@@ -1,5 +1,60 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: Pruefwarteschlange A-P3 fortgesetzt (7 von 8 restlichen P2/P3-Punkten)
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an den Qualitaets-Audit
+vom 23.08.2026 (`outputs/2026-08-23_energie-audit-qualitaetsoffensive.md`), dessen Folge-Antrieb
+seit diesem Audit die Pruefwarteschlange in `wiki/QUESTIONS.md`, Abschnitt «Audit 23.08.2026»,
+ist. Erste Pruefung zeigte: **alle 18 A-P2-Punkte waren bereits durch fruehere Laeufe desselben
+Tages erledigt** (Suche `Audit-Korrektur A-P2` in `wiki/` und `destillate/` bestaetigt jeden
+Punkt am Bestand) — das QUESTIONS.md-Kaestchen selbst stand aber noch offen und ist jetzt als
+`[x]` nachgetragen (historische Zeile belassen, KB-Muster).
+
+**A-P3 (Sammellauf, 17 Punkte): sieben in diesem Lauf neu erledigt, sechs waren schon vorher
+erledigt, drei bleiben offen aus Primaerquellen-Gruenden.** Neu in diesem Lauf: 03.1 (F38,
+Batteriespeicher-Kurzantwort trennt jetzt Eigenverbrauchsquote von Autarkie, mit Verweis auf
+F255), 03.2 (JAZ-Verlust je Grad Vorlauftemperatur jetzt getrennt fuer Luft/Wasser 1,0-1,2 % und
+Sole/Wasser 0,6-0,7 %), 03.4 (PV-Faustwert an drei Stellen — Destillat
+`pv-ertrag-eigenverbrauch-praxis`, FAQ F18, `pv-solar-technologien` — auf Ausrichtung statt
+Region umgestellt: kWp × 1'000 Sued, kWp × 850 Ost-West/Verschattung/steil), 03.7 (F39
+Ladeinfrastruktur-Grunderschliessung mit Preisstand-Vorbehalt Juni 2019/AWEL-Infoblatt
+13.10.2020), 03.8 (F39 Foerdertopf-Ausschoepfung 92 % mit expliziter Vor-Zusage-Warnung
+verschaerft), 03.9 (F10 PV-Pflicht: Rechtsgrundlage § 10c EnerG/§ 47b BBV I ergaenzt, EN-104
+Juni-2019-Formular als bis 31.12.2024 befristet markiert, EVEN-Nachfolge und MuKEn-2025-Ausblick
+angehaengt), 03.10 (F61 Solarpflicht ZH: unstimmiges RRB-Datum «je 06.01.2026» fuer eine
+2025er-RRB-Nummer aufgeloest, Verfahrensstand von F116 nachgezogen — KRNr 6062/6063, seit
+26.11.2025 unveraendert bei der KEVU), 03.14 (F2 Norm-Fundstelle auf SIA 380/1:2016 praezisiert,
+Destillat `sia-380-1-heizwaermebedarf-berechnung` von established auf emerging gesenkt, solange
+das eigene Datenstand-Feld eine Pruefung gegen die aktuelle Fassung verlangt, INDEX.md
+nachgezogen), 03.16 (ein konkreter Register/Frontmatter-Mismatch behoben: INDEX.md Z. 396 fuehrte
+`vollzugsordner-energie-zh-abschnitt3-1-3-2-en1` noch als speculative mit der laengst
+widerlegten 80-%-Regel-Behauptung, obwohl das Frontmatter der Datei seit Run 148 (21.08.2026)
+korrekt auf superseded steht).
+
+Bereits vor diesem Lauf erledigt und verifiziert: 03.3 (Komfortlueftung Minergie-80-%-vs-Norm-73-%
+sauber getrennt von der Feuchte-Kenngroesse), 03.5 (Kantonsvergleich SZ/ZH-Foerderung korrekt),
+03.6 (F80 Fernwaerme-Vergleich mit Vorbehalt), 03.11 (F42 Solarthermie-Preisstand 2020 markiert),
+03.12 (graue-energie.md trennt THGE von MJ), 03.17 (Tippfehler «zürst» nicht mehr vorhanden).
+
+**Drei Punkte bleiben aus Prinzip offen**, kein weiterer Recherche-Ansatz ohne Primaerquelle oder
+Entscheid: 03.13 (Solarthermie kWth gegen m² — die Bruecke steht jetzt als Vorbehalt in F28/F40,
+die Umrechnung selbst braucht die produktspezifische Nennleistung von `kollektorliste.ch`, keine
+Pauschalformel), 03.15 (EN-102-Ausgabestand — das established-Destillat
+`enfk-en-102-waermeschutz-2018` nennt Dezember 2018, zwei FAQ-Stellen zitieren fuer dieselbe
+Vollzugshilfe Januar 2020; beide Stellen sind jetzt gegenseitig geflaggt, die Aufloesung braucht
+den Original-PDF-Abgleich — Teil der A-BLIND-Blindstelle), 03.16 (der Register-Sammelauftrag ist
+nur zu einem Sechstel abgearbeitet: elf unregistrierte Destillate, drei Statuswerte ausserhalb
+der Skala, rund 20 tote Links sind unveraendert offen und gehoeren in einen eigenen Lauf mit den
+Konsistenz-Script-Treffern aus Abschnitt 05.1 des Audits, nicht in Einzeleinsaetze).
+
+Alle Schreibvorgaenge mit `git diff --numstat` geprueft (native Pruefung im SSD-Klon, da `git
+status` ueber den SMB-Mount haengt, Rule `sync-kanonische-quelle`): `destillate/INDEX.md` +2/-2,
+`destillate/pv-ertrag-eigenverbrauch-praxis.md` +4/-4, `destillate/sia-380-1-heizwaermebedarf-
+berechnung.md` +2/-2, `wiki/BAUHERREN-FAQ.md` +66/-24, `wiki/pv-solar-technologien.md` +3/-2,
+`wiki/QUESTIONS.md` +23/-0 — jede Loeschung ist die erwartete Ersetzung der eigenen vorherigen
+Formulierung, keine fremde Kuerzung. `wiki/QUESTIONS.md` mit Fortschrittsnotiz nachgefuehrt
+(A-P2 als erledigt nachgetragen, A-P3 mit Einzelstatus je Punkt, historische Zeilen belassen).
+
 ## 2026-08-24 — Entwertungs-Sweep: die eigene Warnkarte praezisiert (Cross-KB aus `wettbewerbs-dna`)
 
 - **`destillate/ki-generierte-fachdokumente-referenzablage.md` — Nachtrag unter «Offene Punkte».**

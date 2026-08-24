@@ -1,3 +1,131 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung, Verifikationslauf 02:54 Uhr: dritte Bestätigung in Folge, keine neuen schliessbaren Punkte
+
+**Auftrag:** Weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG-Kopf und Report
+des letzten Laufs (02:42 Uhr, `outputs/2026-08-24_questions-abarbeitung-verifikation-02uhr.md`)
+zuerst gelesen. Kollisionscheck (`ps aux`): eigener Prozess PID 53453; parallel PID 50583 (KB
+`energie`, andere Datei) und PID 50316 (KB `normen`, SIA-Sweep-Fortsetzung — Register/Destillate/
+Inventar, nicht `QUESTIONS.md`), kein Konflikt.
+
+**Befund:** `wiki/QUESTIONS.md` seit 00:19:53 unveraendert. Eigener Filter (korrigiert: prueft
+Schliess-Marker auch in der Ueberschriftzeile selbst) findet weiterhin dieselben vier
+`##`-Abschnitte ohne Schliess-Marker wie der 02:42-Lauf: (1) Leitplanke Gebaeudekategorien I-XII
+— dauerhafte Merkregel, kein Ticket; (2) NIN Geschirrspueler-Stromkreis (260731) — Sackgasse,
+dreifach recherchiert, Normtext nur kostenpflichtig; (3) N60-1 AFC-Synopse-Duplikat — destruktive
+Aktion, Pause + Rueckfrage Raphael nach Rule `wissens-bibliothekar`; (4) N60-2
+Methodik-Pflicht-14-Vorschlag — Freigabepflicht Raphael. N41-1 (VSS SN 640 273a) korrekt als
+geschlossen erkannt, Register-/Inventar-Zeile gegengeprueft (REGISTER.md:857,
+norm-inventar.md:562). Dritter Verifikationslauf in Folge mit identischem Ergebnis; ein weiterer
+reiner Wiederholungslauf ohne neuen Ausloeser (Cross-KB-Uebergabe, Wissens-Chef-Fund, Raphaels
+Entscheid zu N60-1/N60-2) liefert keinen zusaetzlichen Erkenntniswert. Report:
+`outputs/2026-08-24_questions-abarbeitung-verifikation-0254uhr.md`.
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprueft — nur der neue Output-Report
+und dieser CHANGELOG-Eintrag, keine bestehende Datei veraendert. Kein `git`-Schreibbefehl ueber
+den SMB-Mount ausgefuehrt.
+
+## 2026-08-24 — SIA-Sweep, 32. Fortsetzung: neun Suva-Factsheets der Fassadengerüst-Reihe (33001-33029), Werkzeug-Falle HTML-statt-PDF entdeckt
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen, CHANGELOG-Pflicht). CHANGELOG-Kopf und Report des letzten
+Laufs (31. Fortsetzung, `outputs/2026-08-24_sia-sweep-einunddreissigste-fortsetzung.md`) zuerst
+gelesen, dort weitergemacht.
+
+**Kollisionscheck** (`ps aux`) vor Arbeitsbeginn: eigener Prozess (Skript-Wrapper `mschub516`,
+exakt dieser Auftragstext, kein anderer Prozess mit demselben Auftrag). Parallel läuft ein
+Prozess an der KB `wissen/energie` (anderer Auftragstext, keine Berührung).
+
+**Ausgangslage geprüft:** Die 31. Fortsetzung hatte fünf Suva-Publikationen der
+Fassadengerüst-Reihe (44078.d, 44046.d, 84018.d, 67038.d, 67150.d) erschlossen und die
+verbleibenden neun Factsheets 33001.d/33017.d/33020.d/33021.d/33022.d-33025.d/33029.d
+(Auffangnetze, Seitenschutz, Gerüstbeläge, Dachdeckerschutzwand, Dachfangwände, Gerüstzugänge,
+PSAgA) als direkten Fortsetzungspunkt benannt. `training/norm-inventar.md` unverändert bei
+5 offenen kostenpflichtigen SIA/VKF-Bring-Schulden (SIA 491, SN EN 12193, SN 640 052,
+SN 641 400, SIA 181:2020) — kein Kaufentscheid seit der 31. Fortsetzung.
+
+## Durchgeführt: alle neun Factsheets beschafft, gelesen, destilliert
+
+**Neue Werkzeug-Falle entdeckt (verschieden von der Sprachfalle der 31. Fortsetzung):** Der
+direkte `curl`-Abruf von `www.suva.ch/waswo/<Nr>.D` lieferte bei **allen neun** Factsheets NICHT
+das PDF selbst, sondern die HTML-Produktseite (Content-Type `text/html`) mit
+Sprachauswahl-Dropdown («PDF Deutsch»/«PDF Französisch»/«PDF Italienisch»). `pymupdf` (Python
+`fitz`) öffnete diese HTML-Datei anstandslos als 6-seitiges Dokument (MuPDF rendert HTML-Layout)
+und lieferte plausibel aussehenden Fliesstext samt Navigations-/Footer-Rauschen — **ohne
+Fehlermeldung**, was die Falle besonders tückisch macht: ein Content-Type-Check wäre nötig
+gewesen, ein reiner „hat pymupdf Text geliefert?"-Test genügt nicht. Bemerkt am fehlenden
+PDF-Metadatentitel (nur der HTML-`<title>`-Tag war gesetzt, kein PDF-Autor/-Titel-Feld) und am
+untypisch kurzen, werbelastigen Fliesstext ohne die erwarteten technischen Kennwerte/Tabellen.
+
+**Lösung:** Aus der HTML-Struktur (`<li class="dropdown-link">`-Elemente mit Linktext «PDF
+Deutsch») den echten Downloadlink auf `suva-p-001.sitecorecontenthub.cloud/api/public/content/
+<content-id>?...&download=true` extrahiert und direkt geladen. Alle neun echten PDFs danach am
+PDF-Metadatentitel (z. B. „33001.d - Sicherheitsanforderung für Auffangnetze - Factsheet -
+Suva") als deutsche Fassung verifiziert — keine der neun Publikationen zeigte die
+Sprachverwechslungs-Falle der 31. Fortsetzung (44078/44046/84018), diese neue Fallenart betraf
+stattdessen alle neun gleichermassen.
+
+**Neun neue Destillate, alle `established`:**
+
+| Nr. | Titel | Ausgabe | Kernwert |
+|---|---|---|---|
+| 33001.d | Sicherheitsanforderung für Auffangnetze | Januar 2022 | Aufhängepunkt 6 kN, Randabstand max. 2,5 m, Netz/Bauteil-Abstand max. 30 cm |
+| 33017.d | Seitenschutz — Anforderungen an die Bauteile | September 2022 | Klassen A/B/C nach SN EN 13374, Prüfkräfte FT1/FT2/FH1/FH2/FD |
+| 33020.d | Gerüstbeläge von Fassadengerüsten — Anforderungen | Januar 2022 | < L/100 und max. 25 mm Durchbiegung, Lastklassen 2,0/3,0/4,5 kN/m² |
+| 33021.d | Anforderungen an Gerüstbeläge im Spenglergang | Januar 2022 | 100-kg-Stahlkugel-Prüfung, Resttragfähigkeit 150 kg, reine Holzbeläge verboten |
+| 33022.d | Dachdeckerschutzwand beim Fassadengerüst | Januar 2022 | Pflicht ab 30°, Öffnungen max. 100 cm², Rückverankerung ab 2,0 m |
+| 33023.d | Dachfangwände — Dachneigung bis 45° | Januar 2022 | Mindesthöhe 1,00 m (1,50 m ohne Rohrtraverse), Kugel Ø 100 mm |
+| 33024.d | Seitenschutz an Fassadengerüsten | September 2022 | Vermassung SN EN 12811-1 Art. 5.5, doppeltes Innengeländer ab 2,0 m |
+| 33025.d | Gerüstzugänge mit Treppen | Januar 2022 | Zugangsdistanz max. 25 m, Leiterverbot, Treppenklassen A/B |
+| 33029.d | PSAgA im Fassadengerüstbau | Januar 2022 | TOP-Prinzip, Rettung innert 20 Min., Ausbildung mind. 1 Tag |
+
+Alle neun vollständig gelesen (PDF-Textlayer, `pymupdf`-Extraktion nach Korrektur der
+Werkzeug-Falle, kein Scan), Status `established`, keine unabhängige Refuter-/Zweitrunde
+(offener Punkt in jedem Destillat vermerkt, gleiche Einschränkung wie bei der 31. Fortsetzung).
+
+**Nebenbefund, dokumentiert statt aufgelöst:** `suva-33029` (PSAgA) nennt für die
+betriebsinterne Rettung eines Gestürzten **20 Minuten**, `suva-44078` (Fassadengerüst-Montage,
+bereits im Bestand) nennt **15-20 Minuten** für denselben Sachverhalt — beide Werte am
+jeweiligen Original bestätigt, keine Widersprüchlichkeit behauptet (überlappende Bandbreite,
+unterschiedliche Publikationen derselben Suva-Reihe), im neuen Destillat als Beobachtung
+festgehalten.
+
+## Nachgeführt
+
+- 9 neue Destillat-Dateien in `destillate/` (siehe Tabelle), alle Frontmatter mit `quelle`,
+  `herausgeber`, `ausgabe`, `gelesen`, `status: established`, `verifikation`-Vermerk inkl.
+  Werkzeug-Falle.
+- `destillate/INDEX.md`: 9 neue Zeilen nach der bestehenden `suva-67150`-Zeile.
+- `training/norm-inventar.md`: 1 neue Sammelzeile `[x] 260824` mit vollem Beleg (alle neun
+  Publikationen), nach der bestehenden 67150.d-Zeile.
+- `wiki/REGISTER.md` Abschnitt D: 9 neue Tabellenzeilen in der Suva-Publikationstabelle; der
+  bisherige Bring-Schuld-Absatz zu den neun Factsheets wurde durch einen ✅-Vermerk ersetzt,
+  ergänzt um vier neue, aus den Verweislisten der Factsheets stammende Bring-Schuld-Kandidaten
+  (33026.d, 33028.d, 44002.d, 67018.d).
+
+## Offen für den nächsten Lauf
+
+1. **Vier neue Bring-Schuld-Kandidaten**, alle kostenlos, alle kurz, gleiche Beschaffungsroute
+   (mit der neu entdeckten HTML-Falle rechnen): 33026.d (Arbeitsplattformnetze), 33028.d
+   (Seitenschutz mit Auffangnetzen, aus 33001.d/33022.d referenziert), 44002.d (Sicherheit durch
+   Anseilen, aus 33023.d/33029.d referenziert), 67018.d (Checkliste Kleinarbeiten auf Dächern,
+   aus 33023.d referenziert). Damit ist die Suva-Fassadengerüst-/Dach-Reihe dieser KB praktisch
+   vollständig vernetzt — ein weiterer Fund würde nur noch über neue Querverweise entstehen.
+2. **84018.d-Aktualität weiterhin ungeklärt** (aus 31. Fortsetzung übernommen, kein
+   Aktualitäts-Check durchgeführt).
+3. Danach unverändert: Raphaels Kaufentscheide zu den 5 kostenpflichtigen SIA/VKF-Bring-Schulden,
+   oder Rest-Check der übrigen bfu-Publikationen (2.003/2.005/2.027/2.032/2.034/2.075) auf
+   neuere Fassungen.
+
+## Verifikation
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: 9 neue Destillat-Dateien (`git status
+--porcelain`, alle `??` — kein Bestand überschrieben), `destillate/INDEX.md` 9/0,
+`training/norm-inventar.md` 1/0, `wiki/REGISTER.md` 18/4 (9 neue Tabellenzeilen plus
+Block-Ersatz des Bring-Schuld-Absatzes; Volltext-Diff geprüft, keine fremde Zeile berührt). Kein
+`git`-Schreibbefehl über den SMB-Mount ausgeführt; Commit über den 15-Minuten-`nas-selfcommit`-
+Cron bzw. `scripts/nas-commit-now.sh`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung, Verifikationslauf 02:42 Uhr: keine neuen schliessbaren Punkte
 
 **Auftrag:** Weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG-Kopf und Report

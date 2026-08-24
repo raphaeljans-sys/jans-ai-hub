@@ -812,14 +812,28 @@ Norm-Ausgabenlogik (kein Ausgabenblindzonen-Problem wie bei SIA); massgebend ist
 | Acht zentrale Fragen rund um das Rollgerüst | 84018.d | Erstausgabe Juni 1999, überarbeitete Ausgabe November 2003 | `suva-84018-2003-rollgeruest-acht-fragen.md`, established | **Neu 24.08.2026 (SIA-Sweep 31. Fortsetzung).** ⚠ Älteste Suva-Publikation dieser KB, Aktualitäts-Check auf neuere Ausgabe nicht durchgeführt. Standhöhe max. 8 m aussen/12 m innen — deckt sich wortgleich mit 67150.d, 23 Jahre jüngerer Fassung |
 | Checkliste Fassadengerüste | 67038.d | Ausgabe Februar 2022 | `suva-67038-2022-checkliste-fassadengeruest.md`, established | **Neu 24.08.2026 (SIA-Sweep 31. Fortsetzung).** 22-Fragen-Kontrollraster, Gerüstgruppen-Nutzlasten identisch mit 44077.d |
 | Checkliste Rollgerüste | 67150.d | Ausgabe Juli 2026 | `suva-67150-2026-checkliste-rollgeruest.md`, established | **Neu 24.08.2026 (SIA-Sweep 31. Fortsetzung).** Jüngste Suva-Publikation dieser KB. 19-Fragen-Kontrollraster, Standhöhe max. 8 m aussen/12 m innen (deckt sich mit 84018.d), Montage/Demontage ab 2,0 m gesichert (BauAV Art. 23) |
+| Sicherheitsanforderung für Auffangnetze | 33001.d | Stand Januar 2022 | `suva-33001-2022-auffangnetze.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** Aufhängepunkt-Kraft 6 kN, Randabstand max. 2,5 m, Netz/Bauteil-Abstand max. 30 cm. ⚠ Werkzeug-Falle: `waswo/33001.D` lieferte per curl die HTML-Produktseite statt PDF, echter Downloadlink aus «PDF Deutsch»-Dropdown extrahiert (gilt für alle neun Factsheets dieser Fortsetzung) |
+| Seitenschutz — Anforderungen an die Bauteile | 33017.d | Stand September 2022 | `suva-33017-2022-seitenschutz-anforderungen-bauteile.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** Klassen A/B/C nach SN EN 13374 mit Prüfkräften (FT1/FT2/FH1/FH2/FD), Grundlage für 33022/33023/33024 |
+| Gerüstbeläge von Fassadengerüsten — Anforderungen | 33020.d | Stand Januar 2022 | `suva-33020-2022-geruestbelaege-fassadengeruest.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** Zwei Prüfbedingungen (< L/100, max. 25 mm Durchbiegung), Lastklassen-Tabelle 2,0/3,0/4,5 kN/m² deckungsgleich mit 44077/67038 |
+| Anforderungen an Gerüstbeläge im Spenglergang | 33021.d | Stand Januar 2022 | `suva-33021-2022-geruestbelaege-spenglergang.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** Dynamische Prüfung 100-kg-Stahlkugel aus 2,50 m, Resttragfähigkeit 150 kg; reine Holzbeläge verboten |
+| Dachdeckerschutzwand beim Fassadengerüst | 33022.d | Stand Januar 2022 | `suva-33022-2022-dachdeckerschutzwand.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** Pflicht ab 30° Dachneigung, Öffnungen max. 100 cm², Rückverankerung ab 2,0 m; Strafrechts-Hinweis BauAV Art. 47 |
+| Dachfangwände — Dachneigung bis 45° | 33023.d | Stand Januar 2022 | `suva-33023-2022-dachfangwaende.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** Mindesthöhe 1,00 m (1,50 m ohne Rohrtraverse), Kugeldurchlässigkeit max. Ø 100 mm, Prüfung SN EN 13374 Klasse C |
+| Seitenschutz an Fassadengerüsten | 33024.d | Stand September 2022 | `suva-33024-2022-seitenschutz-fassadengeruest.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** Fassadenspezifische Vermassung nach SN EN 12811-1 Art. 5.5, doppeltes Innengeländer ab 2,0 m, Kabelbinder-Verbot |
+| Gerüstzugänge mit Treppen | 33025.d | Stand Januar 2022 | `suva-33025-2022-geruestzugaenge-treppen.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** Zugangsdistanz max. 25 m, Leiterverbot, Treppenklassen A/B, statische Mindestlasten (1,5 kN Einzellast/1,0 kN/m² Flächenlast) |
+| Persönliche Schutzausrüstung gegen Absturz (PSAgA) im Fassadengerüstbau | 33029.d | Stand Januar 2022 | `suva-33029-2022-psaga-fassadengeruestbau.md`, established | **Neu 24.08.2026 (SIA-Sweep 32. Fortsetzung).** TOP-Prinzip, Rettung innert 20 Min., Ausbildungspflicht mind. 1 Tag |
 
 ✅ **Alle fünf namentlich benannten Publikationen der Ziff.-5-Liste (44078.d, 44046.d, 84018.d,
 67038.d, 67150.d) sind mit dem 24.08.2026 (SIA-Sweep 31. Fortsetzung) erschlossen** —
 Ausgangslage war die 30. Fortsetzung (23.08.2026), die diese Liste als offenen Kandidaten für
-eine Mandatsausweitung über SIA/VKF hinaus benannt hatte. Nicht destilliert, weiterhin
-Bring-Schuld-Kandidaten (alle kostenlos, alle sehr kurz — 1-2 Seiten Factsheet-Format):
-33001.d/33017.d/33020.d/33021.d/33022.d-33025.d/33029.d (neun Factsheets: Auffangnetze,
-Seitenschutz, Gerüstbeläge, Dachdeckerschutzwand, Dachfangwände, Gerüstzugänge, PSAgA).
+eine Mandatsausweitung über SIA/VKF hinaus benannt hatte.
+
+✅ **Auch die neun Factsheets 33001.d/33017.d/33020.d/33021.d/33022.d-33025.d/33029.d
+(Auffangnetze, Seitenschutz, Gerüstbeläge, Dachdeckerschutzwand, Dachfangwände, Gerüstzugänge,
+PSAgA) sind mit dem 24.08.2026 (SIA-Sweep 32. Fortsetzung) erschlossen.** Diese
+Publikationsreihe der Suva im Bereich Bau (Postfach, 6002 Luzern) ist damit vollständig
+destilliert. Neue Bring-Schuld-Kandidaten aus den Verweislisten der neun Factsheets: 33026.d
+(Arbeitsplattformnetze), 33028.d (Seitenschutz mit Auffangnetzen), 44002.d (Sicherheit durch
+Anseilen), 67018.d (Checkliste Kleinarbeiten auf Dächern) — alle kostenlos, alle kurz.
 
 ---
 *Aufgebaut im Nacht-Loop `normen-training-nacht`, Run 1 (Sonderprogramm), 11.07.2026.
