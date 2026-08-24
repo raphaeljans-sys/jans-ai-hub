@@ -19,6 +19,62 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260824e — NAS-Repo und GitHub liefen 6 h auseinander; der Selbstheilungsweg des Committers WAR der Fehler
+
+**Befund.** Von 08:21 bis 18:20 Uhr divergierten NAS-Repo und GitHub: 26 Commits nur auf dem NAS,
+51 nur auf GitHub, 9 Dateien beidseitig geaendert (alle in `wissen/baurecht` und `wissen/energie`).
+Sechs Stunden lang war das NAS-Repo **nicht gesichert**, und je nach Datei stand der aktuelle Stand
+nur auf einer der beiden Seiten.
+
+**Die Mechanik, und warum sie nicht von selbst heilte.** `nas-selfcommit.sh` gleicht ausschliesslich
+per `git pull --rebase --autostash` ab und bricht bei Fehlschlag mit `git rebase --abort` ab
+(Zeilen 99-101). Ab 12:45 scheiterte der Rebase reproduzierbar am selben Commit `3b57a882`. Ergebnis:
+alle 15 Minuten committete er lokal, rebasete, scheiterte, brach ab — im Log von 12:45 bis 18:18
+lueckenlos derselbe Dreisatz. **Der einzige Reparaturweg des Waechters war genau die Operation, die
+scheiterte.** Ein Selbstheiler, dessen einziger Weg blockiert ist, laeuft nicht ins Leere, sondern
+im Kreis, und meldet dabei nichts nach aussen.
+
+**Zweitursache.** Die GitHub-Seite trug lauter `auto-sync [Macmini]`-Commits: der SSD-Klon des Mac
+Mini pusht per launchd direkt nach GitHub, waehrend der NAS-Committer denselben Zweig lokal
+fortschreibt. Zwei Schreiber auf einem Zweig, einer davon ohne funktionierenden Abgleich, ergibt
+genau diese Spaltung. Die Lern-Loops schrieben waehrenddessen in beide Seiten hinein.
+
+**Behoben, interaktiv, angekuendigt und umkehrbar.** Sicherungszweig `rettung/nas-vor-merge-260824`
+und Tag `rettung-nas-260824` auf `85c4596b` gesetzt, dann **Merge statt Rebase** — der Merge
+verlangt die 9 Konfliktdateien genau einmal, ein Rebase haette 26 Commits einzeln nachgespielt.
+Sechs Konflikte waren rein additiv (beide Seiten haben oben im Register eingefuegt) und wurden als
+Union aufgeloest, beide Seiten erhalten, stichprobenweise nachgemessen. Zwei brauchten Urteil:
+
+- `wissen/baurecht/outputs/2026-08-24_buch-run133.md` — **add/add**: zwei parallele Laeufe erzeugten
+  zwei **verschiedene** Berichte unter derselben Nummer. Beide erhalten (Lauf A / Lauf B), keiner
+  verworfen; die Nummernvergabe gehoert bereinigt, ist aber eine KB-Entscheidung und wurde nicht
+  eigenmaechtig getroffen.
+- `wissen/energie/destillate/ahb-richtlinie-gebaeudetechnik-229-2025.md` — **echter Sachwiderspruch**:
+  ein Lauf erklaerte Merkblatt 394 fuer nicht destillierbar («kein Destillat ohne OCR/Bildlesung»,
+  Textlayer leer), der andere Lauf hat es per Bildrendering gelesen und ein `established`-Destillat
+  angelegt. Zugunsten des existierenden Destillats aufgeloest und als aufgeloester Widerspruch im
+  Artikel markiert. **393 Buehnentechnik bleibt offen** mit demselben Befund — nach dem 394-Fall ist
+  der Weg aber bekannt. Lehre, dort vermerkt: ein leerer Textlayer ist eine Aussage ueber das
+  Werkzeug, nicht ueber die Quelle (gleiche Familie wie Rule `wege-und-vollmachten` und die
+  `grep`-Falle in `auto-verbesserungen` 260730b).
+
+Merge `9bb81668`, gepusht; danach `github/main..HEAD` = 0 und `HEAD..github/main` = 0. SSD-Klone auf
+Mac Mini und MacBook Pro nachgezogen, alle drei Repos auf `9bb81668`.
+
+**Lehren.**
+1. **Ein Waechter mit genau einem Reparaturweg ist kein Waechter.** `nas-selfcommit.sh` sollte nach
+   N erfolglosen Rebase-Versuchen nicht still weiterkreisen, sondern den Zustand melden — ein
+   Divergenz-Check (`git rev-list --count` in beide Richtungen) kostet nichts und haette den Befund
+   um 13:00 statt um 18:20 sichtbar gemacht.
+2. **Stiller Dauerfehlschlag schlaegt lauten Ausfall.** Wie `260824c` (Tailscale): der Zustand war
+   messbar und wurde nie gemeldet. Nicht das Erkennen fehlte, sondern der Kanal.
+3. Gefunden wurde das Ganze nur, weil ein gewoehnlicher `nas-commit-now.sh` fuer eine unverwandte
+   Aufgabe (SSH-Vermaschung, Eintrag `260824d`) mit rc=1 quittierte. **Ein rc, den man wegsieht, ist
+   ein Befund, den man verliert.**
+
+**Offen:** Die Zweitursache ist nicht behoben — Mac Mini und NAS pushen weiterhin beide auf `main`.
+Solange das so bleibt, kann die Spaltung wiederkehren.
+
 ## 260824d — SSH-Vollvermaschung der drei Macs hergestellt; der Zettel deckte nur eine Richtung ab
 
 Interaktive Session mit Raphael auf dem Mac Mini, ausgeloest durch den Zettel

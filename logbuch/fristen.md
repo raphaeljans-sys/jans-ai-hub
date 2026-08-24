@@ -3,6 +3,20 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NEU 24.08.2026, 18:30 (interaktive Session, Mac Mini) — Zwei Schreiber auf `main`: die
+NAS/GitHub-Spaltung kann wiederkehren.** Heute liefen NAS-Repo und GitHub sechs Stunden
+auseinander (26 Commits nur NAS, 51 nur GitHub, 9 Dateien beidseitig); behoben per Merge
+`9bb81668`, alle drei Repos wieder deckungsgleich, Sicherung auf Zweig
+`rettung/nas-vor-merge-260824`. **Die Ursache ist NICHT behoben:** Der SSD-Klon des Mac Mini
+pusht per launchd direkt nach GitHub, waehrend `nas-selfcommit.sh` denselben Zweig auf der
+Synology fortschreibt. Zweitens heilt der NAS-Committer sich nicht selbst — sein einziger
+Abgleichweg ist `git pull --rebase`, und bei dessen Fehlschlag bricht er ab und versucht es alle
+15 Minuten erneut, still, ohne Meldung (Log 12:45 bis 18:18 lueckenlos derselbe Dreisatz).
+**Zu entscheiden:** entweder nur EIN Schreiber auf `main`, oder `nas-selfcommit.sh` bekommt einen
+Divergenz-Check (`git rev-list --count` in beide Richtungen) plus Meldung nach N Fehlversuchen.
+Solange keins von beidem steht, ist die naechste stille Sechs-Stunden-Spaltung eine Frage der
+Zeit. Volle Analyse: `rules/betrieb-chronik.md` 260824e. | Hub-Infrastruktur (Git-Sync) | hoch | offen
+
 **NEU 24.08.2026, 07:46 (ag-gruendung-monitor autonomer Lauf, Fehler entdeckt) — Monitor defekt seit 07.08.2026, Kapitalbesch
 
 heinigung Status unbekannt.** Der Task `ag-gruendung-monitor` schreibt sein Logbuch-Abschnitt seit 17 Tagen nicht (letzte Einträge 30.07.2026, damals großer Durchbruch UBS). Der Task ist der einzige Kanal zu mail@raphaeljans.ch, wo UBS-Kapitalbescheinigung + Notariats-Antwort eintreffen würde. Letzter belegter Stand 30.07.: UBS-Antrag bei Geschäftsstelle Wiedikon eingereicht, erwartet IBAN ca. 03./04.08., Kapitalbescheinigung ca. 06./07.08. Zwischenbilanz: 18 Tage später, Posteingänge ungeprüft, Notariat Mathies damals bis mindestens 14.08. abwesend (Autoantwort war gesetzt). **Ursache Monitor-Ausfall:** Lauf vom 19.08. 05:47 brach mit «issue with the selected model» ab (Logs zeigen dies); aktuelle SKILL.md trägt korrekte ID, aber Fehler trat auf. **Status: Monitor zu prüfen und neu zu starten, Mail-Posteingänge mail@raphaeljans.ch manuell auf Kapitalbescheinigung und Notariats-Antwort prüfen.** | AG-Gründung Raphael Jans AG | hoch | offen
