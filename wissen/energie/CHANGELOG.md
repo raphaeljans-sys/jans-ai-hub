@@ -1,5 +1,56 @@
 # CHANGELOG
 
+## 2026-08-24o — A-BLIND-Folgelauf: Kapitel 6-13 des Produktreglements 2026.1 gelesen, Elektromobilität-Fehler C2→C1 korrigiert, Luftdichtheit-q_E50-Lücke gelöst
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,
+danach in die Wiki-Artikel einarbeiten. Anschluss an CHANGELOG-Eintrag 24m («Für den nächsten
+Lauf: Kapitel 6-13 des Produktreglements 2026.1 primärquellenweise gegenlesen»). **Betriebslage:**
+NAS zu Laufbeginn nicht gemountet, `wissen/energie/` lokal git-getrackt und unbetroffen.
+
+PDF eigenständig heruntergeladen (`curl`, 52 Seiten) und mit PyPDF2 volltextextrahiert. Für zwei
+Stellen, an denen PyPDF2 keinen sauberen Fliesstext lieferte (Kap. 6.2 Luftdichtheit, Kap. 13
+Elektromobilität-Ausbaustufen je Gebäudekategorie), zusätzlich mit `pdfplumber` (nachinstalliert)
+tabellenweise extrahiert. **Gelesen: Kapitel 6-13 vollständig** (Gebäudehülle, sommerlicher
+Komfort, Wärmeerzeugung, Warmwasser, Lufterneuerung, Elektrizitätsbedarf, Eigenstromerzeugung,
+Elektromobilität) — das Produktreglement 2026.1 ist damit durchgehend Kap. 0-17 primärquellenweise
+gelesen, nur Anhang B3/C/D bleiben offen.
+
+**Hauptfund 1 (Fehlerkorrektur):** `wiki/minergie-standards.md` zitierte für die 60-%-
+Elektromobilitäts-Pflicht «SIA 2060 C2» (übernommen aus der Kursunterlage 2023,
+`[[minergie-nachweiskurs-2023-mkz-thge]]`). Primärquellenwörtlich verlangt das Reglement 2026.1
+Kap. 13 für alle ladepflichtigen Gebäudekategorien durchgehend **Ausbaustufe C1** — die
+vollständige Tabelle (Kategorien I-XII) listet ausschliesslich A oder C1, keine Stufe C2, bestätigt
+durch die unabhängige Anhang-A-Vergleichstabelle. Wiki auf C1 korrigiert, Kursunterlage-Zitat mit
+Korrektur-Vermerk stehen gelassen (Destillat-Treue).
+
+**Hauptfund 2 (offen geflaggte Extraktionslücke gelöst):** `[[minergie-besser-planen-bauen]]` hatte
+vermerkt, die q_E50-Luftdichtheitstabelle aus Kap. 6.2 liesse sich nicht zuverlässig auslesen. Mit
+pdfplumber jetzt sauber extrahiert: eine einzige, kategorie-übergreifende Tabelle — nur
+**Minergie-P/-A: 0,8 m³/(h·m²) Neubau, 1,6 Erneuerung**; für den Basisstandard nennt das Reglement
+keinen eigenen Zahlenwert (nur allgemeine SIA-180-Konformität, Messpflicht nur für P/A). Der
+bisher für den Basisstandard zitierte Wert 1,2/1,6 stammt nachweislich aus der Planungsbroschüre
+2023, nicht aus dem Reglement — in Destillat und Wiki entsprechend präzisiert, nicht gelöscht.
+
+**Nebenfunde (bestätigend):** Heizwärmebedarf 90/70/90 % Q_H,li MuKEn 2025 + Untergrenze
+15 kWh/(m²·a); Wärmeerzeugung-Spitzenlastregel (ab 80 kW max. 10 % fossil); Monitoring-Schwelle
+1'000 m² — deckungsgleich mit dem Bestand. Neu dokumentiert: Warmwasser-Effizienzfaktor 0,9 bei
+⅔ Armaturen Klasse A, Lufterneuerungs-Ausnahmen, 50-%-Zuschlag bei gekippten Fenstern in der
+Erneuerung, Beleuchtungs-Standardwert +20 % bei unbekanntem Mieterausbau.
+
+Eingearbeitet: `destillate/minergie-produktreglement-2026-1-muken-vergleich.md` (Frontmatter,
+neuer Abschnitt «Kapitel 6-13», Offene-Punkte gekürzt), `destillate/minergie-besser-planen-bauen.md`
+(offener Punkt gelöst), `destillate/minergie-nachweiskurs-2023-mkz-thge.md` (Korrektur-Vermerk),
+`wiki/minergie-standards.md` (Tabelle + Update-Absatz korrigiert, neuer Luftdichtheit-Absatz),
+`wiki/QUESTIONS.md` (neuer Eintrag 24o), `destillate/INDEX.md` (drei Registerzeilen).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv/präzisierend (Destillat
+88+/11-, Wiki 20+/5-, Nachweiskurs 6+/1-, Besser-planen-bauen 12+/9-), keine Löschung von Bestand.
+
+**Für den nächsten Lauf:** Anhang B3, C, D des Produktreglements 2026.1 lesen — danach ist das
+gesamte Reglement primärquellenweise abgedeckt. Unverändert blockiert: E-R230-2 (Raphael),
+393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf), E-R161-1 (SN EN ISO 6946, Normkauf), E103
+(Entscheid Raphael), E94 (Innendämmung CHF/m², Recherchewege erschöpft).
+
 ## 2026-08-24n — A-BLIND: `gebaeudeprogramm-bund-hfm-2015` — 607-Mio.-Zahl und 18-Module-Tabelle primärquellenbestätigt, KIG-Impulsprogramm als dritte Geldquelle ergänzt, Förderrisiko Entlastungsprogramm 2027 vermerkt
 
 Bewusst ein Nicht-Minergie-Thema gewählt, da beim Start ein echter Sibling-Prozess (PID 60629,

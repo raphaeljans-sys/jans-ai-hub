@@ -2,6 +2,74 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24o — A-BLIND-Folgelauf: Kapitel 6-13 des Produktreglements 2026.1 gelesen, Elektromobilität-Fehler C2→C1 korrigiert, Luftdichtheit-q_E50-Lücke gelöst
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. Anschluss an CHANGELOG-Eintrag 24m («Für den nächsten
+Lauf: Kapitel 6-13 des Produktreglements 2026.1 gegen den bestehenden Bestand primärquellenweise
+gegenlesen»). **Betriebslage:** NAS zu Laufbeginn nicht gemountet, `wissen/energie/` lokal
+git-getrackt und unbetroffen; ein `claude -p`-Prozess mit demselben Energie-Prompt lief parallel
+(erkennbar am identischen `--max-budget-usd 25`-Wert dieser Session — laut Betriebsanweisung
+der eigene Elternprozess, kein Sibling; die zwischenzeitlich sichtbaren unkommitteten Änderungen
+an `CHANGELOG.md`/`QUESTIONS.md`/`gebaeudeprogramm-bund-hfm-2015.md`/`foerderung-energie-zh.md`
+stammen vom vorangegangenen Eintrag 24n desselben Laufs, kein Konflikt).
+
+PDF eigenständig heruntergeladen (`curl`, 52 Seiten bestätigt), Volltext mit PyPDF2 extrahiert.
+Für zwei Stellen, an denen PyPDF2 keinen sauberen Fliesstext lieferte (Kap. 6.2 Luftdichtheit,
+Kap. 13 Elektromobilität-Ausbaustufen je Gebäudekategorie), zusätzlich mit `pdfplumber`
+(nachinstalliert, `pip3 install pdfplumber`) tabellenweise extrahiert. **Gelesen: Kapitel 6
+(Gebäudehülle: Heizwärmebedarf, Luftdichtheit), 7 (Sommerlicher Komfort), 8 (Wärmeerzeugung/
+Heizung), 9 (Warmwasser), 10 (Lufterneuerung), 11 (Elektrizitätsbedarf), 12 (Eigenstromerzeugung),
+13 (Elektromobilität) — alle vollständig.** Damit ist das Produktreglement 2026.1 jetzt
+durchgehend Kap. 0-17 primärquellenweise gelesen (nur Anhang B3/C/D bleiben offen).
+
+**Hauptfund 1 (Fehlerkorrektur):** `wiki/minergie-standards.md` zitierte für die Elektromobilitäts-
+Pflicht «SIA 2060 **C2** ‹Power to parking›» (übernommen aus `[[minergie-nachweiskurs-2023-mkz-thge]]`,
+einer Kursunterlage von 2023). Primärquellenwörtlich verlangt das Produktreglement 2026.1 Kap. 13
+für alle Gebäudekategorien mit Ladepflicht durchgehend **Ausbaustufe C1** («Horizontale Zuleitung
+... für mindestens 60 % der Parkplätze»); die vollständige Tabelle (Kategorien I-XII) listet
+ausschliesslich A oder C1, eine Stufe C2 kommt im Reglementstext nicht vor — bestätigt durch die
+bereits am 05.08.2026 gelesene Anhang-A-Vergleichstabelle (identische Zeile C1 A C1 A C1 A A C1 C1
+C1 A A). Wiki korrigiert auf C1, Kursunterlage-Zitat mit Korrektur-Vermerk stehen gelassen
+(Destillat-Treue).
+
+**Hauptfund 2 (offen geflaggte Extraktionslücke gelöst):** `[[minergie-besser-planen-bauen]]` hatte
+seit der letzten Bearbeitung offen vermerkt, dass sich die q_E50-Luftdichtheitstabelle aus
+Kap. 6.2 des Reglements «nicht zuverlässig auslesen» liess. Mit `pdfplumber` jetzt sauber
+extrahiert: eine einzige, gebäudekategorie-übergreifende Tabelle — **Minergie-P/-A: 0,8 m³/(h·m²)
+Neubau, 1,6 Erneuerung**; für den Basisstandard Minergie nennt das Reglement **keinen eigenen
+Zahlenwert** (nur allgemeine SIA-180-Konformität, Messpflicht nur für P/A). Der bisher in der KB
+für den Basisstandard zitierte Wert **1,2/1,6** stammt damit nachweislich aus der
+Planungsbroschüre 2023, nicht aus dem Reglement selbst — in beiden betroffenen Dateien (Destillat
++ `wiki/minergie-standards.md`) entsprechend präzisiert, nicht gelöscht.
+
+**Nebenfunde (bestätigend, keine Abweichung):** Heizwärmebedarf 90/70/90 % Q_H,li MuKEn 2025 sowie
+Untergrenze 15 kWh/(m²·a); Wärmeerzeugung-Spitzenlastregel (ab 80 kW max. 10 % fossil); Monitoring-
+Schwelle 1'000 m² — alle deckungsgleich mit dem bestehenden Bestand. Neu dokumentiert (bisher nicht
+in der KB): Warmwasser-Effizienzfaktor 0,9 bei ⅔ Armaturen Klasse A, Lufterneuerungs-Ausnahmen
+(Baujahr vor 2000 bestimmter Kategorien, Lebensmittelverkauf bis 2'000 m²), 50-%-Zuschlag bei
+gekippten Fenstern in der Erneuerung, Beleuchtungs-Standardwert +20 % bei unbekanntem Mieterausbau.
+
+Eingearbeitet: `destillate/minergie-produktreglement-2026-1-muken-vergleich.md` (Frontmatter
+`gelesen`/`geltungsbereich`/`verifikation`, neuer Abschnitt «Kapitel 6-13», Offene-Punkte-Absatz
+gekürzt), `destillate/minergie-besser-planen-bauen.md` (offener Punkt gelöst, Tabelle präzisiert),
+`destillate/minergie-nachweiskurs-2023-mkz-thge.md` (Korrektur-Vermerk bei der C2-Aussage),
+`wiki/minergie-standards.md` (Tabelle + Update-2023-Absatz korrigiert, neuer Luftdichtheit-Absatz,
+Frontmatter `sources`/`verifikation`), `destillate/INDEX.md` (drei Registerzeilen nachgeführt).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv/präzisierend
+(Destillat 88+/11-, Wiki 20+/5-, Nachweiskurs 6+/1-, Besser-planen-bauen 12+/9-), keine Löschung
+von Bestand — die wenigen `-`-Zeilen sind ausschliesslich Textstellen, die durch die präzisere
+Fassung direkt ersetzt wurden (z. B. die alte «Kapitel 6-13 nicht gelesen»-Formulierung).
+
+**Für den nächsten Lauf:** Anhang B3 (Nutzungsgrade und Gewichtungsfaktoren), Anhang C
+(sommerlicher Komfort) und Anhang D (Lüftung mit natürlicher Nachströmung) des Produktreglements
+2026.1 bleiben als letzte ungelesene Teile — danach ist das gesamte Reglement primärquellenweise
+abgedeckt. A-BLIND-Bestand unverändert: rund 28 von 39 Backlink-Kandidaten offen. Unverändert
+blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf), E-R148-1/
+E-R161-1 (Normkauf SIA 380/1:2016 bzw. SN EN ISO 6946, Beschaffungsentscheid Raphaels), E103
+(Entscheid Raphael zu JANS-Projektdaten), E94 (Innendämmung CHF/m², Recherchewege erschöpft).
+
 ## 2026-08-24n — A-BLIND: `gebaeudeprogramm-bund-hfm-2015` (27 Backlinks) — 607-Mio.-Zahl und 18-Module-Tabelle primärquellenbestätigt, dritte Geldquelle (KIG-Impulsprogramm) und Förderrisiko 2027 ergänzt
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,

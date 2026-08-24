@@ -40,8 +40,8 @@ ein an den **Klimawandel angepasster sommerlicher Waermeschutz** (Wetterdaten 20
 | Kontrollierte Lufterneuerung | Ja | Ja | Ja |
 | Sommerlicher Waermeschutz | erhoehte Anf. auf Basis **Wetterdaten 2035** | « | « |
 | Energietraeger | keine fossilen Brennstoffe | « | « |
-| Luftdichtheit q_a50 Neubau | 1,2 m³/h·m² | 0,8 (gemessen) | 0,8 (gemessen) |
-| Luftdichtheit q_a50 Erneuerung | 1,6 | 1,6 | 1,6 |
+| Luftdichtheit q_a50 Neubau ⚠ nur P/A im Reglement 2026.1 beziffert, s. u. | 1,2 m³/h·m² (nur Broschüre) | 0,8 (gemessen) | 0,8 (gemessen) |
+| Luftdichtheit q_a50 Erneuerung | 1,6 (nur Broschüre) | 1,6 | 1,6 |
 | Energie-Monitoring | Ja, wenn > 1000 m² EBF | « | Ja (alle Groessen)** |
 
 \** Minergie-A unter 1000 m² ohne Waermemessung. Werte gelten fuer Wohnen MFH; andere
@@ -150,15 +150,18 @@ vom älteren Planungsheft-Datenstand oben.
   werden bei Effizienzklasse-C-Leuchtmitteln+Steuerung bzw. bei Einsatz Minergie-Modul Leuchten.
   Bei Erneuerungen sind die AGT-Werte mit Faktor 1,3 zu multiplizieren. Kategorie XII (Hallenbäder)
   ist generell von der MKZ-Pflicht ausgenommen (Spezialzertifizierung statt Standardnachweis).
-- **Luftdichtheit q_E50:** eigene Tabelle Neubau/Erneuerung im Reglement referenziert (S. 13), die
-  konkreten m³/(h·m²)-Werte liessen sich aus der PDF-Tabellenlayout-Extraktion nicht zuverlässig
-  auslesen (Kap. 6.2) — **nicht übernommen, um nichts zu erfinden**; die oben stehenden Werte für
-  Wohnen MFH (1,2/1,6 Minergie, 0,8 gemessen P/A) bleiben unverändert nur für diese Kategorie belegt.
+- **Luftdichtheit q_E50 — GELÖST 24.08.2026 (A-BLIND-Folgelauf, pdfplumber-Tabellenextraktion statt
+  reiner Textextraktion):** Das Produktreglement 2026.1 Kap. 6.2 enthält genau EINE Tabelle, ohne
+  Aufteilung nach Gebäudekategorie: **Minergie-P, Minergie-A: 0,8 m³/(h·m²) Neubau, 1,6 Erneuerung.**
+  Für den Basisstandard Minergie nennt das Reglement **keinen eigenen Zahlenwert** — nur P/A
+  benötigen überhaupt eine Luftdichtheitsmessung, der Basisstandard muss lediglich die allgemeinen
+  Anforderungen der Norm SIA 180:2014 einhalten. Der in der obigen Tabelle stehende Wert **1,2/1,6
+  für den Basisstandard stammt somit NICHT aus dem Produktreglement**, sondern ausschliesslich aus
+  dieser Planungsbroschüre (Ausgabe 2023) — Destillat-Treue: Wert nicht gelöscht, aber als
+  Broschüren-Wert statt Reglement-Wert eingeordnet. Details/Primärquellenzitat →
+  `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
 
 ## Offene Punkte / zu pruefen
-- ⚠ Luftdichtheit q_E50 für Zweckbauten/Nichtwohnkategorien: Tabellenwerte im Produktreglement
-  2026.1 S. 13 nicht sauber extrahierbar (Layout-Grafik) — bei Bedarf PDF direkt am Bildschirm statt
-  per Textextraktion prüfen.
 - THGE-Bilanzierung (welche Bauteile, welche Datenbank/KBOB) als eigene Quelle vertiefen (→ FAQ F9 graue Energie).
 
 Verwandt: `[[enfk-en-102-waermeschutz-2018]]`, `[[enfk-en-02-waermeschutz-2013]]`,

@@ -2,11 +2,11 @@
 quelle: "Produktreglement Gebäudestandards MINERGIE® / MINERGIE-P® / MINERGIE-A®, Version 2026.1 — https://www.minergie.ch/media/produktreglement-minergie-p-a-v2026-1.pdf (52 Seiten, öffentlich abgerufen 05.08.2026, PDF-Erstellung 08.01.2026)"
 herausgeber: Verein Minergie, Bäumleingasse 22, 4051 Basel
 ausgabe: "Version 2026.1, Ausgabe vom 08. Januar 2026, gültig ab 01. Januar 2026; vom Vorstand des Vereins Minergie im November 2025 genehmigt. Ersetzt alle früheren Reglemente in seinem Anwendungsbereich. Neuerungen gegenüber Version 2025.1 sind im Original blau eingefärbt."
-gelesen: "GELESEN: Kapitel 0 (Präambel), 1 (Allgemeines), 2 (Zertifizierungsverfahren zur Erlangung des Minergie-Zertifikats, vollständig, 24.08.2026), 3 (Gebühren, vollständig, 24.08.2026), 4 (Technische Grundsätze und generelle Anforderungen, vollständig, 24.08.2026), 5 (Gesamtenergiebilanz Gebäudebetrieb — Einführung/MKZ-Definition, Ausbau durch Mietende, Spezialzertifizierungen, vollständig, 24.08.2026), 14 (Monitoring), 15 (THGE in der Erstellung), 16 (Systemerneuerung), 17 (Schlussbestimmungen); Anhang A (Minergie im Kontext der MuKEn 2025, vollständig), Anhang B1 (MKZ Definition/Projektwert), Anhang B2 (MKZ-Anforderungen, Standardertrag Eigenproduktion und nutzbare Dachfläche), Anhang E (Anforderung an die Eigenstromproduktion, vollständig), Anhang F (Monitoring, vollständig), Anhang G (THGE-Grenzwerte je Gebäudekategorie, vollständig, 07.08.2026), Anhang H (Anforderungen Systemerneuerung, vollständig, 07.08.2026), Anhang J (Übersicht der Anforderungen für Neubau und Erneuerung, vollständig, 07.08.2026). NICHT GELESEN: Kapitel 6-13 (Gebäudehülle, thermischer Komfort Sommer, Wärmeerzeugung/Heizung, Warmwasser, Lufterneuerung, Elektrizitätsbedarf Beleuchtung/Geräte, Eigenstromerzeugung, Elektromobilität — technische Detailanforderungen, in dieser KB grösstenteils über andere Destillate/`[[minergie-standards]]` abgedeckt); Anhang B3 (Nutzungsgrade und Gewichtungsfaktoren, S. 35), Anhang C (Thermischer Komfort im Sommer, S. 37), Anhang D (Lüftung mit natürlicher Nachströmung, S. 38). Von 52 Seiten."
+gelesen: "GELESEN: Kapitel 0 (Präambel), 1 (Allgemeines), 2 (Zertifizierungsverfahren zur Erlangung des Minergie-Zertifikats, vollständig, 24.08.2026), 3 (Gebühren, vollständig, 24.08.2026), 4 (Technische Grundsätze und generelle Anforderungen, vollständig, 24.08.2026), 5 (Gesamtenergiebilanz Gebäudebetrieb — Einführung/MKZ-Definition, Ausbau durch Mietende, Spezialzertifizierungen, vollständig, 24.08.2026), **6 (Gebäudehülle: Heizwärmebedarf, Luftdichtheit), 7 (Thermischer Komfort im Sommer), 8 (Wärmeerzeugung und Heizung), 9 (Warmwasser), 10 (Lufterneuerung), 11 (Elektrizitätsbedarf Beleuchtung/Geräte/AGT), 12 (Eigenstromerzeugung), 13 (Elektromobilität) — alle vollständig, 24.08.2026 (A-BLIND-Folgelauf)**, 14 (Monitoring), 15 (THGE in der Erstellung), 16 (Systemerneuerung), 17 (Schlussbestimmungen); Anhang A (Minergie im Kontext der MuKEn 2025, vollständig), Anhang B1 (MKZ Definition/Projektwert), Anhang B2 (MKZ-Anforderungen, Standardertrag Eigenproduktion und nutzbare Dachfläche), Anhang E (Anforderung an die Eigenstromproduktion, vollständig), Anhang F (Monitoring, vollständig), Anhang G (THGE-Grenzwerte je Gebäudekategorie, vollständig, 07.08.2026), Anhang H (Anforderungen Systemerneuerung, vollständig, 07.08.2026), Anhang J (Übersicht der Anforderungen für Neubau und Erneuerung, vollständig, 07.08.2026). NICHT GELESEN: Anhang B3 (Nutzungsgrade und Gewichtungsfaktoren, S. 35), Anhang C (Thermischer Komfort im Sommer, S. 37), Anhang D (Lüftung mit natürlicher Nachströmung, S. 38). Von 52 Seiten."
 datenstand: "Januar 2026 — der aktuell geltende Stand. Übergangsregel beachten: Nachweise nach dem alten Produktreglement 2025.1 können noch bis 31.12.2026 zur provisorischen Zertifizierung eingereicht werden (Kap. 17.1). Minergie revidiert das Produktreglement jährlich; vor einer Projektzusage die dann geltende Version auf minergie.ch prüfen."
 status: established
-geltungsbereich: "Der Status `established` gilt AUSSCHLIESSLICH für die oben unter GELESEN aufgeführten Kapitel und Anhänge. Aussagen zu sommerlichem Komfort (Anhang C), Lüftung mit natürlicher Nachströmung (Anhang D), zu Nutzungsgraden/Gewichtungsfaktoren (Anhang B3) und zu den technischen Detailanforderungen der Kapitel 6-13 sind aus diesem Destillat NICHT belegbar. **Die Antrags-Checkliste und die Hilfstools-Namen (WPesti, PVopti, Lüftung, SoWs) aus `[[minergie-zertifizierung-workflow]]` kommen im Reglementstext selbst NICHT vor** (Volltextsuche über Kap. 0-13 am 24.08.2026 negativ) — sie sind Bestandteil der Label-Plattform/Anwendungshilfe, nicht des Produktreglements, und bleiben daher ausserhalb des mit diesem Destillat belegbaren Bereichs. **Ausnahme Anhang G/H/J (Nachtrag 07.08.2026):** nur einfach gelesen, Zahlen gegen den bestehenden Wiki-Stand `[[minergie-standards]]` abgeglichen (deckungsgleich, keine Abweichung gefunden), aber KEIN eigenes Refuter-Panel gefahren (Budgetdisziplin Nachtschicht-Einzelagent) — Einzelaussagen aus diesen drei Anhängen vor einer verbindlichen Verwendung am Original oder mit einer zweiten Prüfung gegenlesen. **Kapitel 0-5 (Nachtrag 24.08.2026):** einfach gelesen (Modell D, Volltextabgleich), kein Refuter-Panel — Einzelaussagen mit hoher Tragweite (insbesondere die Gültigkeitsfristen in Kap. 2) sind primärquellenwörtlich zitiert, nicht nur paraphrasiert, um das Risiko einer Fehldeutung ohne zweite Prüfung zu senken."
-verifikation: "Modell D (Volltextabgleich an der Originalquelle) am 05.08.2026 im Hauptmodell, plus zweistufiges Refuter-Panel (Zahlen-Refuter und Aussagen-Refuter, je mit Widerlegungsauftrag) — gilt fuer die am 05.08.2026 gelesenen Kapitel/Anhaenge. Zahlen-Refuter: 40 Aussagen geprüft, 36 bestätigt, kein einziger Zahlendreher und keine vertauschte Spalte. Aussagen-Refuter: 10 Beanstandungen, sämtlich an der Grenze Quelle/Deutung — alle am Original nachgeprüft, alle berechtigt, alle korrigiert. Die beiden folgenschwersten Korrekturen: (1) die Aussage, das rechnerische Soll werde nicht mit den Messdaten verglichen, war zu weit gefasst und wird durch Anhang F widerlegt; (2) der Vergleich der 60-%-Dachbelegung mit 20 W/m² EBF war eine Rechenbehauptung ohne Rechnung und ist ohne die Geschosszahl nicht zulässig. Beide Beanstandungen stammten aus Anhängen (B2, E), die in der ersten Fassung ungelesen waren und für diese Korrektur nachgelesen wurden. **Nachtrag 07.08.2026 (Anhang G/H/J):** Einzelagenten-Lauf ohne Refuter-Panel; die THGE-Basiswerte aus Anhang G wurden gegen `[[minergie-standards]]` (dort am 21.07.2026 unabhängig verifiziert) gegengelesen und stimmen zahlenmässig ueberein — das ist eine Plausibilisierung, kein vollstaendiger Neu-Verifikationslauf fuer Anhang H/J. **Nachtrag 24.08.2026 (Kap. 0-5):** eigener PDF-Download + PyPDF2-Volltextextraktion der Originalquelle (nicht aus Sekundärzitat), Zertifizierungsverfahren/Gebühren/Grundsätze gegen den bestehenden Bestand (`[[minergie-zertifizierung-workflow]]`, `wiki/minergie-standards.md`, `wiki/QUESTIONS.md` E-125-6) abgeglichen; kein zweites Refuter-Panel."
+geltungsbereich: "Der Status `established` gilt AUSSCHLIESSLICH für die oben unter GELESEN aufgeführten Kapitel und Anhänge. Aussagen zu sommerlichem Komfort (Anhang C), Lüftung mit natürlicher Nachströmung (Anhang D) und zu Nutzungsgraden/Gewichtungsfaktoren (Anhang B3) sind aus diesem Destillat NICHT belegbar. **Kapitel 6-13 (Nachtrag 24.08.2026):** einfach gelesen (kein Refuter-Panel, Einzelagenten-Budget wie die übrigen 24.08.-Nachträge), zwei Tabellen (Kap. 6.2 Luftdichtheit, Kap. 13 Elektromobilität-Ausbaustufen) per pdfplumber statt reiner Textextraktion gelesen, da PyPDF2 sie nicht sauber auslas. **Die Antrags-Checkliste und die Hilfstools-Namen (WPesti, PVopti, Lüftung, SoWs) aus `[[minergie-zertifizierung-workflow]]` kommen im Reglementstext selbst NICHT vor** (Volltextsuche über Kap. 0-13 am 24.08.2026 negativ) — sie sind Bestandteil der Label-Plattform/Anwendungshilfe, nicht des Produktreglements, und bleiben daher ausserhalb des mit diesem Destillat belegbaren Bereichs. **Ausnahme Anhang G/H/J (Nachtrag 07.08.2026):** nur einfach gelesen, Zahlen gegen den bestehenden Wiki-Stand `[[minergie-standards]]` abgeglichen (deckungsgleich, keine Abweichung gefunden), aber KEIN eigenes Refuter-Panel gefahren (Budgetdisziplin Nachtschicht-Einzelagent) — Einzelaussagen aus diesen drei Anhängen vor einer verbindlichen Verwendung am Original oder mit einer zweiten Prüfung gegenlesen. **Kapitel 0-5 (Nachtrag 24.08.2026):** einfach gelesen (Modell D, Volltextabgleich), kein Refuter-Panel — Einzelaussagen mit hoher Tragweite (insbesondere die Gültigkeitsfristen in Kap. 2) sind primärquellenwörtlich zitiert, nicht nur paraphrasiert, um das Risiko einer Fehldeutung ohne zweite Prüfung zu senken."
+verifikation: "Modell D (Volltextabgleich an der Originalquelle) am 05.08.2026 im Hauptmodell, plus zweistufiges Refuter-Panel (Zahlen-Refuter und Aussagen-Refuter, je mit Widerlegungsauftrag) — gilt fuer die am 05.08.2026 gelesenen Kapitel/Anhaenge. Zahlen-Refuter: 40 Aussagen geprüft, 36 bestätigt, kein einziger Zahlendreher und keine vertauschte Spalte. Aussagen-Refuter: 10 Beanstandungen, sämtlich an der Grenze Quelle/Deutung — alle am Original nachgeprüft, alle berechtigt, alle korrigiert. Die beiden folgenschwersten Korrekturen: (1) die Aussage, das rechnerische Soll werde nicht mit den Messdaten verglichen, war zu weit gefasst und wird durch Anhang F widerlegt; (2) der Vergleich der 60-%-Dachbelegung mit 20 W/m² EBF war eine Rechenbehauptung ohne Rechnung und ist ohne die Geschosszahl nicht zulässig. Beide Beanstandungen stammten aus Anhängen (B2, E), die in der ersten Fassung ungelesen waren und für diese Korrektur nachgelesen wurden. **Nachtrag 07.08.2026 (Anhang G/H/J):** Einzelagenten-Lauf ohne Refuter-Panel; die THGE-Basiswerte aus Anhang G wurden gegen `[[minergie-standards]]` (dort am 21.07.2026 unabhängig verifiziert) gegengelesen und stimmen zahlenmässig ueberein — das ist eine Plausibilisierung, kein vollstaendiger Neu-Verifikationslauf fuer Anhang H/J. **Nachtrag 24.08.2026 (Kap. 0-5):** eigener PDF-Download + PyPDF2-Volltextextraktion der Originalquelle (nicht aus Sekundärzitat), Zertifizierungsverfahren/Gebühren/Grundsätze gegen den bestehenden Bestand (`[[minergie-zertifizierung-workflow]]`, `wiki/minergie-standards.md`, `wiki/QUESTIONS.md` E-125-6) abgeglichen; kein zweites Refuter-Panel. **Nachtrag 24.08.2026 (Kap. 6-13, A-BLIND-Folgelauf):** eigener PDF-Download + Volltextextraktion (PyPDF2), für die zwei tabellenlastigen Stellen (Kap. 6.2, Kap. 13) zusätzlich pdfplumber-Tabellenextraktion, da PyPDF2 dort keinen sauberen Text lieferte; gegen `wiki/minergie-standards.md` und die Destillate `[[minergie-besser-planen-bauen]]`/`[[minergie-nachweiskurs-2023-mkz-thge]]` abgeglichen; kein Refuter-Panel."
 last_updated: 2026-08-24
 ---
 
@@ -404,6 +404,86 @@ M: 82 / 77 / 103 / 68 / 95 / 91 / 82 / 112 / 73 / 48 / 57 — P: 77 / 72 / 94 / 
   — das ist eine hydraulische und elektrische Planungsvorgabe. Nachträglich eingebaut wird es teuer
   (→ [[gebaeudetechnik-pflichtenheft]]).
 
+## Kapitel 6-13 — technische Detailanforderungen je Gewerk (neu gelesen 24.08.2026, A-BLIND-Folgelauf)
+
+Volltext extrahiert (PyPDF2), für Kap. 6.2 und Kap. 13 zusätzlich pdfplumber-Tabellenextraktion,
+da PyPDF2 dort die Tabellenstruktur nicht als Fliesstext auslas (nur Überschrift/Fussnote, keine
+Zahlen — der Grund, warum diese beiden Stellen bisher unbelegt blieben, siehe `[[minergie-besser-
+planen-bauen]]`).
+
+**Kap. 6.1 Heizwärmebedarf:** bestätigt deckungsgleich mit `wiki/minergie-standards.md` — Q_H
+(Standard) nach SIA 380/1:2016 darf **90 % (Minergie), 70 % (Minergie-P), 90 % (Minergie-A)** der
+Neubau-Grenzwerte Q_H,li der MuKEn 2025 nicht überschreiten; Minergie-P bei Erneuerung 90 %, sonst
+keine Erneuerungs-Anforderung. **Neu, bisher nicht in der KB:** Untergrenze **15 kWh/(m²·a)**, auch
+wenn die Grenzwertberechnung tiefer ausfällt.
+
+**Kap. 6.2 Luftdichtheit — löst die in `[[minergie-besser-planen-bauen]]` offen geflaggte
+Extraktionslücke.** Primärquellenwörtlich (pdfplumber-Tabelle, S. 12 des PDF) gibt es genau EINE
+Tabelle, ohne Aufteilung nach Gebäudekategorie (die dort offene Frage nach separaten
+Zweckbau-Werten erledigt sich damit — es existiert keine zweite Tabelle):
+
+| | Neubau q_E50 | Erneuerung q_E50 |
+|---|---|---|
+| Minergie-P, Minergie-A | 0,8 m³/(h·m²) | 1,6 m³/(h·m²) |
+
+**Präzisierung, primärquellenwörtlich:** Für den Basisstandard Minergie (ohne P/A) nennt das
+Reglement 2026.1 in Kap. 6.2 KEINEN eigenen Zahlenwert. Wörtlich gilt nur die allgemeine Pflicht,
+«die Anforderungen an die Luftdichtheit der Hüllfläche gemäss Norm SIA 180:2014 resp. SN EN ISO
+9972:2022 ... in allen Minergie-Standards generell einzuhalten»; eine **Luftdichtheitsmessung ist
+ausdrücklich nur für Minergie-P und Minergie-A vorgeschrieben** («Für die Baustandards
+Minergie-P und Minergie-A ist die Luftdichtheit der Gebäudehülle mit einer Luftdichtheitsmessung
+nachzuweisen»). Der in `[[minergie-besser-planen-bauen]]` (Tabelle 1, Planungsbroschüre 2023)
+zitierte Wert **q_a50 = 1,2 m³/(h·m²)** für den Basisstandard stammt damit NICHT aus dem
+Produktreglement 2026.1 selbst — er bleibt auf die Planungsbroschüre 2023 beschränkt (⚠ dort
+nachgetragen, Rule Destillat-Treue: nicht gelöscht, nur eingeordnet).
+
+**Kap. 7 Sommerlicher Komfort:** drei Nachweisvarianten (einfache Kriterien im Nachweisformular →
+Hilfstool sommerlicher Wärmeschutz → SIA-180/380-2-Simulation), Wetterdaten 2035, bei aktiv
+gekühlten Räumen zwingend Verfahren 3 nach SIA 180:2014 — deckungsgleich mit dem bestehenden
+Wiki-Stand, keine neue Zahl.
+
+**Kap. 8 Wärmeerzeugung:** Verbot fossiler Heizung/Warmwasser bestätigt, mit drei Ausnahmen
+(Spitzenlast ab 80 kW Heizleistung max. 10 % fossil, wärmegeführte WKK mit ≥ 35 % El./Brennstoff-
+Verhältnis, Fernwärme mit ≤ 50 % fossilem Anteil) — deckungsgleich mit `wiki/minergie-standards.md`
+(«ab 80 kW max. 10 % fossil»). Abwärmenutzungspflicht mit zwei Befreiungsgründen (nicht rationell
+nutzbar, unwirtschaftlich kurze Betriebsperiode), bisher nicht in der KB dokumentiert.
+
+**Kap. 9 Warmwasser (neu):** Standard-Nutzwärmebedarf nach SIA 380/1:2016; Faktor **0,9**, wenn
+mind. ⅔ der Warmwasser-Entnahmearmaturen Effizienzklasse A entsprechen; Elektrizitätsbedarf von
+Warmhaltebändern mit **20 % des Warmwasserbedarfs** anzunehmen, wenn keine Detailberechnung
+vorliegt (Vollzugshilfe EN-101 zur MuKEn 2014); alternativ Berechnung nach SIA 385/2:2025.
+
+**Kap. 10 Lufterneuerung (neu):** automatische Aussenluftzufuhr für alle Gebäudekategorien
+Pflicht, unkontrollierte Fensterlüftung genügt nicht. Ausnahmen: Neubauten Gebäudekategorien
+IX Industrie/X Lager (empfohlen, nicht Pflicht), Bauten vor Baujahr 2000 der Kategorien III/V/VII/
+IX/X/XI, Lebensmittel-Verkaufsflächen bis 2'000 m². Bei Erneuerungen mit vermehrt gekippten
+Fenstern im Winter: **Zuschlag 50 %** auf den berechneten thermisch wirksamen
+Aussenluftvolumenstrom.
+
+**Kap. 11 Elektrizitätsbedarf (neu):** Beleuchtung/Geräte/allgemeine Gebäudetechnik nach
+SIA 2056:2019; bei Zweckbauten Beleuchtungsnachweis nach SIA 387/4:2023 (Mittelwert Grenz-/
+Zielwert), bei unbekanntem Mieterausbau zum Antragszeitpunkt **Standardwert +20 %**.
+
+**Kap. 12 Eigenstromerzeugung:** PV-Anrechnungsbedingungen a-d bestätigt (Anlage auf/am Gebäude
+oder auf einem anderen, im selben Bauprojekt zertifizierten/nicht zertifizierbaren Bauwerk auf
+demselben Grundstück; Minergie-A-Kompensation nur zwischen Minergie-A-Gebäuden, nicht zwischen
+Neubau und Erneuerung; keine nachträgliche Anrechnung bestehender Anlagen bei Neubauten). Die
+60-%-Dachflächen-Herleitung bleibt weiterhin Anhang-E/Anwendungshilfe vorbehalten (unverändert,
+siehe „Offene Punkte" unten).
+
+**Kap. 13 Elektromobilität — korrigiert einen bestehenden Fehler in `wiki/minergie-standards.md`.**
+Primärquellenwörtlich (pdfplumber-Tabelle, S. 21 des PDF) verlangt das Reglement für alle
+Gebäudekategorien mit Ladepflicht durchgehend **Ausbaustufe C1** nach SIA-Merkblatt 2060:2020
+(«Horizontale Zuleitung ... für mindestens 60 % der Parkplätze»); die vollständige Tabelle
+(Kategorien I-XII) listet ausschliesslich **A oder C1**, Stufe B wird laut Reglement «jeweils
+nicht gefordert», eine Stufe C2 kommt im Reglementstext an keiner Stelle vor. Die Anhang-A-
+Vergleichstabelle (bereits gelesen, 05.08.2026) bestätigt dieselbe Zeile unabhängig
+(C1 A C1 A C1 A A C1 C1 C1 A A für Kategorien I-XII). Die bisherige Zitierung **«SIA 2060 C2 ‹Power
+to parking›»** in `[[minergie-nachweiskurs-2023-mkz-thge]]` (Kursunterlage 2023) — von dort in
+`wiki/minergie-standards.md` übernommen — ist gegen die seit 01.01.2026 geltende Version 2026.1
+nicht mehr haltbar. Kursunterlage-Zitat bleibt mit Korrektur-Vermerk stehen (Destillat-Treue),
+der Wiki-Artikel wird auf C1 korrigiert.
+
 ## Offene Punkte
 
 - **Anhang G/H/J sind gelesen, aber nur einfach (kein Refuter-Panel, Nachtrag 07.08.2026).** Die
@@ -412,14 +492,11 @@ M: 82 / 77 / 103 / 68 / 95 / 91 / 82 / 112 / 73 / 48 / 57 — P: 77 / 72 / 94 / 
   (Übersichtstabellen) haben noch KEINE zweite, unabhängige Prüfung durchlaufen.
 - **Anhang J führt keine eigene THGE-Zeile für Erneuerungen** («Keine Anforderungen») — das ist
   konsistent mit Kap. 15, wurde aber nicht gegen eine dritte Quelle geprüft.
-- **Kapitel 0-5 sind seit 24.08.2026 gelesen** (Zertifizierungsablauf, Gebühren, Grundsätze, MKZ-
-  Einführung — siehe eigener Abschnitt oben). **Weiterhin nicht gelesen: Kapitel 6-13**, die
-  technischen Detailanforderungen je Gewerk (Gebäudehülle, sommerlicher Komfort, Wärmeerzeugung
-  inkl. Verbot fossiler Heizungen im Detail, Warmwasser, Lufterneuerung, Elektrizitätsbedarf,
-  Eigenstromerzeugung, Elektromobilität) — grösstenteils über `[[minergie-standards]]` und Anhang
-  A/G/H/J bereits abgedeckt, aber ohne eigene Kapitel-6-13-Primärquellenlesung. Ebenso nicht
-  gelesen: Anhang B3 (Nutzungsgrade und Gewichtungsfaktoren), C (sommerlicher Komfort), D (Lüftung
-  mit natürlicher Nachströmung).
+- **Kapitel 0-13 sind seit 24.08.2026 vollständig gelesen** (Zertifizierungsablauf, Gebühren,
+  Grundsätze, MKZ-Einführung, technische Detailanforderungen je Gewerk — siehe eigene Abschnitte
+  oben). Weiterhin nicht gelesen: Anhang B3 (Nutzungsgrade und Gewichtungsfaktoren), C (sommerlicher
+  Komfort), D (Lüftung mit natürlicher Nachströmung). Kein Refuter-Panel für Kap. 0-13
+  (Einzelagenten-Budgetdisziplin) — vor einer Verwendung mit hoher Tragweite zweite Prüfung erwägen.
 - **Antrags-Checkliste/Hilfstools (WPesti, PVopti, SoWs) bleiben auf dem Stand 2023.1** — im
   Reglementstext selbst nicht enthalten (s. o.), Primärquelle wäre die Anwendungshilfe 2026.2.
 - **Die Herleitung des Belegungsgrads liegt ausserhalb dieses Dokuments.** Anhang E sagt zur

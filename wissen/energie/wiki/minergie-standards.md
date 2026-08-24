@@ -3,12 +3,16 @@ title: Minergie-Standards & Eigenstromerzeugung
 status: established
 last_updated: 2026-08-24
 datenstand: 2026-01-01 (Produktreglement MINERGIE/-P/-A Version 2026.1, gültig ab 01.01.2026 — massgebende Primärquelle für alle Kennwerte dieses Artikels)
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md]
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/minergie-produktreglement-2026-1-muken-vergleich.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-nachweiskurs-2023-mkz-thge]], [[graue-energie]]
 verifikation: "Adversarial Verify 2026-07-21 gegen Produktreglement MINERGIE/-P/-A Version 2026.1
   (gueltig ab 01.01.2026, minergie.ch). THGE-Zeile unten aktualisiert (Grenzwerte 2026.1 hoeher als
   2023); Wetterdaten 2035 bestaetigt; MKZ 51/46/29 als Planungsbroschueren-Richtwert gekennzeichnet,
-  nicht als Reglement-Fixwert. Details `[[minergie-nachweiskurs-2023-mkz-thge]]`."
+  nicht als Reglement-Fixwert. Details `[[minergie-nachweiskurs-2023-mkz-thge]]`. **Nachtrag
+  24.08.2026 (A-BLIND-Folgelauf, Kap. 6-13 primärquellenwörtlich gelesen):** Elektromobilität-
+  Ausbaustufe von C2 auf **C1** korrigiert (Kursunterlage-2023-Fehler, Reglement 2026.1 kennt keine
+  Stufe C2); Luftdichtheit q_E50 präzisiert (nur P/A im Reglement beziffert, Basisstandard-Wert 1,2
+  stammt aus der Planungsbroschüre, nicht dem Reglement) → `[[minergie-produktreglement-2026-1-muken-vergleich]]`."
 ---
 
 # Minergie-Standards & Eigenstromerzeugung
@@ -39,7 +43,7 @@ verifikation: "Adversarial Verify 2026-07-21 gegen Produktreglement MINERGIE/-P/
 | Minergie-Kennzahl ⚠ Richtwert, siehe Hinweis | 51 kWh/m² | 46 | 29 |
 | Heizwärmebedarf | 90 % MuKEn 2014 | 70 % MuKEn | 90 % MuKEn |
 | **THGE Erstellung** (Treibhausgasemissionen, **nicht** graue Energie in MJ) ⚠ seit 2026.1 revidiert | 11,5 kg CO₂-eq **je m² EBF**·a (GW_EBF) | 11,5 | 11,5 |
-| Luftdichtheit q_a50 | 1,2 | 0,8 (gemessen) | 0,8 (gemessen) |
+| Luftdichtheit q_a50 Neubau ⚠ nur P/A im Reglement 2026.1 beziffert | 1,2 (Planungsbroschüre 2023, nicht im Reglement 2026.1 gefunden) | 0,8 (gemessen) | 0,8 (gemessen) |
 Immer: Komfortlüftung, **sommerl. Wärmeschutz auf Wetterdaten 2035**, keine fossilen Brennstoffe,
 **Dach voll mit PV** (Neubau ≥ 60 % Dachfläche), Leerrohre E-Mobilität. Detail/Erneuerungswerte →
 `[[minergie-besser-planen-bauen]]`.
@@ -56,8 +60,19 @@ Immer: Komfortlüftung, **sommerl. Wärmeschutz auf Wetterdaten 2035**, keine fo
 > neues Kriterium **THGE in der Erstellung** (2023: 11 kg MFH, je Gebäudekategorie 11–17, Spitäler 17
 > → `[[graue-energie]]`); Heizwärmebedarf **90 % Q_h,li** (Minergie/-A); sommerl. Wärmeschutz auf
 > **Klima 2035, max. 100 h** (2026.1 bestätigt unverändert); **Monitoring ab 1'000** statt 2'000 m² EBF;
-> **60 % der Parkplätze elektrifiziert** (SIA 2060 C2); Wärmeerzeugung Spitzenlast **ab 80 kW max. 10 %
-> fossil** (2017: max. 30 %). Detail → `[[minergie-nachweiskurs-2023-mkz-thge]]`.
+> **60 % der Parkplätze elektrifiziert** (SIA 2060 **C1** ⚠ korrigiert 24.08.2026 — die
+> Kursunterlage 2023 nannte «C2», das primärquellenwörtlich gelesene Produktreglement 2026.1
+> Kap. 13 listet für alle Gebäudekategorien mit Ladepflicht ausschliesslich A oder **C1**, keine
+> Stufe C2, siehe `[[minergie-produktreglement-2026-1-muken-vergleich]]`); Wärmeerzeugung
+> Spitzenlast **ab 80 kW max. 10 % fossil** (2017: max. 30 %). Detail →
+> `[[minergie-nachweiskurs-2023-mkz-thge]]`.
+
+> **Luftdichtheit q_E50 (Kap. 6.2, 2026.1, primärquellenwörtlich geprüft 24.08.2026):** Das
+> Produktreglement nennt nur EINE Tabelle, gültig für **Minergie-P/Minergie-A** (0,8 m³/(h·m²)
+> Neubau, 1,6 Erneuerung) — keine gebäudekategoriespezifische Aufteilung. Für den Basisstandard
+> Minergie ist im Reglement **kein eigener Zahlenwert** genannt; nur P/A benötigen überhaupt eine
+> Luftdichtheitsmessung. Der oben in der Tabelle stehende Wert 1,2 für den Basisstandard stammt aus
+> der Planungsbroschüre 2023, nicht aus dem Reglement selbst → `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
 
 > **Update 2026.1 (THGE-Grenzwerte revidiert, gültig ab 01.01.2026):** Das Produktreglement 2026.1
 > setzt neue, **höhere** GW_EBF-Basiswerte je Gebäudekategorie fest: Wohnen MFH neu **11,5**
