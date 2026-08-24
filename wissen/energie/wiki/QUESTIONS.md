@@ -6222,3 +6222,59 @@ planen-bauen` (27, aktuelles Minergie-Reglement/Nichtwohnbau-Limiten auf minergi
 gebaeudeautomation` selbst hat weiterhin offene Punkte zu Nichtwohngebäude-Effizienzfaktoren und
 CH-Investitionskosten (beide hinter Normkosten/fehlender CH-Studie, nicht kurzfristig lösbar).
 Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug).
+
+## 2026-08-24h — A-WERKZEUG: 14 der ~30 Alterskorpus-Kandidaten aus `datenstand-waechter.py` einzeln gegen ihre FAQ-Zitierstellen geprüft
+
+Anschluss an den offenen Punkt oben («A-WERKZEUG: … 31 Themenartikel ohne `datenstand` … 30
+Destillate mit Alterskorpus ≥ 18 Monate NICHT einzeln bearbeitet»). **Betriebslage:** `ps aux`
+zeigte beim Start einen weiteren, länger laufenden parallelen Lauf desselben Prompts (andere PID,
+bereits ~6 Min. CPU-Zeit) — dessen letzter committeter CHANGELOG-Eintrag («g») zeigte die
+A-BLIND-Backlink-Warteschlange als seine nächsten Schritte; bewusst ein anderer, unblockierter
+Faden gewählt, um keine Kollision zu erzeugen.
+
+`python3 wissen/tools/datenstand-waechter.py energie --hub $(pwd)` (mit `--hub` gegen das lokale
+Repo statt das nicht gemountete NAS, s. `wissen/tools/README.md`) liefert **39 Befunde** (35
+Alterskorpus-Destillate + 4 selbsterklärend-stale Prüfstichtag-Treffer, letztere bereits in einem
+früheren Lauf annotiert, kein neuer Punkt). Von den ~30 Alterskorpus-Destillaten wurden **14
+einzeln gegen ihre `[[…]]`-Zitierstellen in `wiki/BAUHERREN-FAQ.md` gelesen** (nicht nur registriert):
+`haushaltgeraete-professionelle-beschaffung-2004-erstausgabe`,
+`bodenbelaege-buerobau-kbob-vergleich-50-jahre`, `haushaltgeraete-effizienz-beschaffung-topten`,
+`spf-tkn-kollektorliste-berechnungsmethodik`, `vorgehen-bei-beschwerden-innenraumklima`,
+`ahb-checkliste-schadstoffe-in-bauten`, `asbest-dimension-jenseits-spritzasbest`,
+`ecobkp-2009-merkblaetter-nach-bkp`, `pv-kosten-amortisation-praxis-ewz`,
+`pv-fassade-ertrag-pvsol`, `sia-2060-kosten-ladeinfrastruktur-vertiefung`,
+`massivbau-bauteildatenblatt-ksv-swisspor`, `wdvs-brandriegel-fassadendaemmung-vkf` sowie
+`duschwasser-waermerueckgewinnung-joulia`.
+
+**13 von 14 waren bereits sauber propagiert** (Alters-⚠ steht am Zitat selbst, nicht nur im
+Destillat-Frontmatter) — die KB-Disziplin trägt. **Eine echte Lücke gefunden und behoben:** F133
+(«Lohnt sich eine Wärmerückgewinnung aus dem Duschwasser?») präsentierte die Herstellerzahl
+CHF 600.–/3 Jahre Payback aus dem Joulia-Techdoku **Oktober 2020** ohne Alters-Vorbehalt als
+aktuelle Aussage — der einzige Hinweis war die irreführende Fusszeile «Datenstand 25.07.2026
+(Run 97)», die tatsächlich nur die spätere GEAK-/SIA-385/2-Recherche datiert, nicht die
+Kostenangabe selbst. Behoben in `wiki/BAUHERREN-FAQ.md`: expliziter ⚠-Vorbehalt im Fliesstext
+(Quelle Oktober 2020, keine 2025/26er-CH-Marktpreise gefunden, vor Kostenzusage mit Offerte
+gegenprüfen) und die Datenstand-Zeile am Absatzende in zwei Alter getrennt (GEAK/SIA-385/2 vs.
+Kosten). Das Destillat selbst (`destillate/duschwasser-waermerueckgewinnung-joulia.md`) trug den
+Vorbehalt bereits korrekt im Frontmatter — die Lücke lag ausschliesslich in der Weitergabe an die
+Bauherren-FAQ, exakt das Fehlerbild, das dieser A-WERKZEUG-Punkt sucht.
+
+**Für den nächsten Lauf:** rund 16 Alterskorpus-Kandidaten aus der 39er-Liste sind noch nicht
+einzeln geprüft — u. a. `2000-watt-gesellschaft-sieben-thesen-ahb`,
+`ahb-bedingungen-werkleistungen-nachhaltiges-bauen`, `ahb-checkliste-raumluftmessungen`,
+`ahb-checkliste-solarstromanlagen-2008`, `glasbauten-hoher-glasanteil-sia2021`,
+`sonnendach-solarpotenzial-bfe`, `sunskin-roof-indach-planung`,
+`zev-eigenverbrauch-mfh-her-2025`, `elektromobilitaet-ladeinfrastruktur`, `solarwaerme-warmwasser`,
+`notstromversorgung-sicherheitsstromversorgung`, `innendaemmung`, `geak-gebaeudeenergieausweis`,
+`pv-eigenverbrauch-zev`, `pv-ertrag-eigenverbrauch-praxis`, `gebaeudeschadstoffe-checkliste-zh`,
+`kbob-bodenbelaege-buerobau-50-jahre` (bereits als Dublette zu `bodenbelaege-buerobau-kbob-
+vergleich-50-jahre` dokumentiert, kein eigener Zitierpfad). Die 31-Themenartikel-ohne-`datenstand`-
+Teilfrage aus dem ursprünglichen Punkt ist laut Eintrag weiter oben in dieser Datei («Nachtrag
+24.08.2026, fünfte Fortsetzung») inzwischen auf 37/37 geschlossen — dieser Teilstrang ist erledigt.
+
+`git diff --numstat` nach dem Schreibvorgang: `wiki/BAUHERREN-FAQ.md` +10/-6 (zwei gezielte
+Text-/Vorbehalt-Ergänzungen im selben Abschnitt F133, keine Struktur geändert, keine Löschung von
+Bestand ausserhalb der korrigierten Stelle). Die Datei wurde von diesem Lauf zwischenzeitlich durch
+den launchd-Auto-Sync committet (`auto-sync [Macmini]`, gemeinsam mit unabhängigen Änderungen des
+parallelen `normen`-Laufs) — Edit vor dem Commit über `grep` im committeten Stand verifiziert, kein
+Verlust.

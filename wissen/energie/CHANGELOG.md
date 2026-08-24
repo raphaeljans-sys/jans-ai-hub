@@ -1,5 +1,40 @@
 # CHANGELOG
 
+## 2026-08-24h — A-WERKZEUG: 14 Alterskorpus-Kandidaten gegen FAQ-Zitierstellen geprüft, eine echte Propagations-Lücke (Duschwasser-WRG-Kosten) behoben
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. **Betriebslage:** `ps aux` zeigte
+beim Start drei parallele `claude -p`-Läufe insgesamt, davon einen weiteren `energie`-Lauf (andere
+PID, ~6 Min. CPU-Vorsprung, committeter Stand «g» nannte die A-BLIND-Backlink-Warteschlange als
+eigene nächste Schritte) — bewusst ein anderer, unblockierter Faden gewählt. Das NAS war zu
+Laufbeginn nicht gemountet; `wissen/energie/` liegt lokal git-getrackt, unbetroffen, `--hub`-Flag
+von `datenstand-waechter.py` gegen das lokale Repo statt NAS gesetzt.
+
+Der offene A-WERKZEUG-Punkt («Trefferlisten der beiden neuen Prüfwerkzeuge nicht abgearbeitet»,
+Rest «~30 Destillate mit Alterskorpus ≥ 18 Monate NICHT einzeln bearbeitet») wieder aufgenommen.
+`datenstand-waechter.py energie` liefert 39 Befunde; **14 der ~30 Alterskorpus-Kandidaten einzeln
+gegen ihre Zitierstellen in `wiki/BAUHERREN-FAQ.md` gelesen** (Liste im QUESTIONS-Eintrag). **13
+waren bereits sauber propagiert** — die eigene ⚠-Disziplin der KB trägt. **Eine echte Lücke:** F133
+(Duschwasser-Wärmerückgewinnung Joulia) zitierte die Herstellerzahl CHF 600.–/3 Jahre Payback aus
+Oktober 2020 ohne Alters-Vorbehalt im Fliesstext — nur eine irreführende Datenstand-Fusszeile
+(«25.07.2026», tatsächlich nur die spätere GEAK-/SIA-385/2-Teilrecherche). Das Destillat selbst
+trug den Vorbehalt bereits korrekt; die Lücke lag ausschliesslich in der FAQ-Weitergabe.
+
+**Behoben in `wiki/BAUHERREN-FAQ.md` F133:** expliziter ⚠-Vorbehalt im Fliesstext (Quelle Okt.
+2020, keine 2025/26er-CH-Marktpreise gefunden trotz Recherche, vor Kostenzusage mit Offerte
+gegenprüfen) + Datenstand-Zeile in zwei Alter getrennt (GEAK/SIA-385/2-Stand vs. Kosten-Stand).
+
+**Für den nächsten Lauf:** rund 16 Alterskorpus-Kandidaten der 39er-Liste weiterhin nicht einzeln
+geprüft (vollständige Liste im QUESTIONS-Eintrag, u. a. `zev-eigenverbrauch-mfh-her-2025`,
+`pv-eigenverbrauch-zev`, `geak-gebaeudeenergieausweis`, `sonnendach-solarpotenzial-bfe`). Die
+31-Themenartikel-ohne-`datenstand`-Teilfrage ist laut früherem Eintrag bereits auf 37/37
+geschlossen. Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016
+(Normkauf).
+
+`git diff --numstat` nach dem Schreibvorgang: `wiki/BAUHERREN-FAQ.md` +10/-6, `wiki/QUESTIONS.md`
++56/-0 — additiv/präzisierend, keine Löschung von Bestand. `wiki/BAUHERREN-FAQ.md` wurde
+zwischenzeitlich durch den launchd-Auto-Sync committet (gemeinsam mit unabhängigen Änderungen des
+parallelen `normen`-Laufs); Edit im committeten Stand per `grep` verifiziert, kein Verlust.
+
 ## 2026-08-24g — A-BLIND: MuKEn-2025-Art.-1.23-Wortlaut am amtlichen EnDK-Basismodul-PDF verifiziert, Artikelnummer und siebte Monitoring-Funktion korrigiert
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
