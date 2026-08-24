@@ -1,3 +1,50 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: veralteter «offen»-Vermerk zu 33045.d zurückverlinkt (kein neuer Fachbefund)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht zuerst
+lesen, dort weitermachen. Kollisionscheck (`ps aux -> claude -p`, siehe unten) vor Beginn.
+
+**Kollisionscheck:** Drei `claude -p`-Hintergrundprozesse aktiv. PID 25964 (identischer
+Auftragstext, identische `--max-budget-usd 25`, Startzeit 8:13) ist der eigene hostende Prozess
+dieser Session — kein Konkurrent. PID 24091 arbeitet an der KB `baurecht`, keine Berührung. PID
+26241 ist ein **echter** paralleler Lauf an derselben KB `wissen/normen` (Auftrag «SIA-Sweep
+fortsetzen … Register nachführen, Destillate anlegen», gestartet 8:14) — deshalb in diesem Lauf
+bewusst nur additiv in `wiki/QUESTIONS.md` gearbeitet, `wiki/REGISTER.md` und `destillate/`
+nicht angefasst (Kollisionsgefahr mit dem parallelen Register-/Destillat-Schreiber).
+
+**Ausgangslage:** Der CHANGELOG-Kopf zeigt für den 23./24.08.2026 eine sehr dichte
+Sättigungshistorie (elf+ SIA-Sweep-Fortsetzungen, mehrere QUESTIONS-Abarbeitungs-Läufe). Ein
+`grep` auf offene Marker («bleibt offen», «nicht bearbeitet», «weiterhin offen», «noch offen»,
+«bleibt unklar», «ungeklärt bleibt») in `wiki/QUESTIONS.md` findet aktuell 33 Fundstellen; eine
+Stichprobe der jüngsten Abschnitte (N59-1 bis N59-4, N58-1, N58-4, N57-1 bis N57-4, N60-1, N60-2,
+N61, SIA-384/4-Bring-Schuld, N41-1, N-SIASWEEP-2/3) zeigt, dass praktisch jede davon bereits
+eigens als Bring-Schuld Raphael (Kauf), destruktive Entscheidung (Artikel-Merge) oder
+primärquellenfest erschöpfte Sackgasse (bis zu zehn geprüfte Quellenarten) ausgewiesen ist. Ein
+erneutes vollständiges Gegenlesen dieser Zeilen wäre reine Wiederholungsbestätigung (Rule
+`wissens-ruecklauf`: kein Pflicht-Rauschen) und wurde unterlassen.
+
+**Echter, wenn auch kleiner Fund:** Der Abschnitt «QUESTIONS-Abarbeitung (24.08.2026, Lauf
+~03:55 Uhr)», Punkt 3, führte **33045.d (ungeklärte Nummer) nicht bearbeitet — bleibt offen für
+eine künftige Runde**. Tatsächlich wurde genau diese Frage **zehn Minuten später** (SIA-Sweep, 38.
+Fortsetzung, weiter oben in derselben Datei, Z. 130-135) bereits geklärt: 33045.d existiert nicht
+(`www.suva.ch/waswo/33045.d` → HTTP 404), Nachbarnummern sind Asbest-Fensterkitt-Factsheets.
+Derselbe Fehlertyp wie beim SIA-2014-Fund des Vorlaufs — eine interne Lösung, die nie an die
+anfragende Stelle zurückverlinkt wurde, hier innerhalb desselben Dokuments statt cross-KB. Bei
+Punkt 3 nachgetragen: ✅-Absatz mit Fundstellenverweis auf die Erstklärung (Z. 130-135 dieser
+Datei, Report `outputs/2026-08-24_sia-sweep-achtunddreissigste-fortsetzung.md`). Punkt 2
+desselben Abschnitts (16-Titel-Cross-Referenzen-Rest) bleibt bewusst unverändert — dort steht eine
+echte Rückfrage an Raphael, keine bereits gelöste Frage.
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` 10/0 (reiner additiver Nachtrag,
+kein Wortlaut entfernt). Keine weiteren Dateien geändert.
+
+**Einordnung:** Ein Lauf, ein kleiner Konsolidierungsfund, keine neue Fachaussage. Die
+verbleibenden ~32 offenen Zeilen sind nach der vorliegenden Stichprobe weiterhin Bring-Schuld,
+destruktive Entscheidung oder erschöpfte Sackgasse — kein Ansatzpunkt für einen kostenlosen
+Fortschritt ohne Kauf oder Raphaels Entscheid gefunden.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: Merkblatt SIA 2014 «CAD-Layerorganisation» war seit Wochen im Haus, nur nicht verlinkt
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
