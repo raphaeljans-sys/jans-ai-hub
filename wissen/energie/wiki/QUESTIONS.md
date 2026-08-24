@@ -7030,3 +7030,139 @@ naheliegende Folgeschritt, ist aber ein neuer Primärquellen-Lesevorgang (nicht 
 A-BLIND-Bestand: 11 von 39 Backlink-Kandidaten jetzt geprüft, rund 28 verbleiben (`ecobkp-2026-
 methodik-und-uebersicht` NICHT erneut listen, siehe Vorab-Korrektur oben). Unverändert blockiert:
 E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf).
+
+## 2026-08-24 (automatischer Nachtlauf, 22:37) — A-BLIND auf die Top-20: zwei echte Fehler, eine Editionsklärung, ein neuer Fachfund
+
+**Auftrag und Lage.** Täglicher Energie-Trainingslauf. Beide PDF-Korpora (PL-04 seit Run 150/161,
+PL-02 seit Run 148) sind erschöpft; Block 1 «Transfer» wurde daher nach der Methode A-BLIND
+gefahren, für die `QUESTIONS.md` ausdrücklich einen eigenen Lauf vorsah: «Nächste Kandidaten für
+die zwanzig meistzitierten Destillate: noch nicht ausgewählt, das bleibt ein eigener Lauf.»
+`ps aux` vor Beginn geprüft: **kein paralleler `claude -p`-Energielauf**, keine Kollisionsgefahr.
+
+**Auswahl, messend statt schätzend.** Backlink-Zählung über `wiki/*.md` + `destillate/*.md` neu
+gebildet, auf existierende Destillat-Dateinamen gefiltert. Von den Top-20 tragen **15 einen
+dokumentierten Original-Lesevorgang** im Feld `gelesen:`; die vier ohne (`en-zh-nachweis-uebersicht`,
+`waermepumpe-systemvergleich`, `denkmalschutz-energiesanierung-zh-sz`, `erdwaermesonden-bewilligung-zh-sz`)
+lösen sich bei Einzelprüfung teilweise auf — bei zweien steht der Verifikationsvermerk im Feld
+`status:` statt in `gelesen:`. **Die A-BLIND-Prämisse «keine der Dimensionen hat eine Originalquelle
+geöffnet» trifft auf die Top-20 heute also nur noch eingeschränkt zu.** Ausgewählt wurden deshalb
+nicht «unverifizierte», sondern **sechs Destillate mit einem ausdrücklich datierten, alternden
+Datenstand** — der praktisch relevantere Blindfleck.
+
+### Ergebnis der sechs Prüfungen
+
+**01 ⚠⚠ ECHTER FEHLER — SIA 390/1 war nie «in Vernehmlassung».** Die Norm **SIA 390/1:2025
+«Klimapfad — Treibhausgasbilanz über den Lebenszyklus von Gebäuden» ist seit dem 01.02.2025
+publiziert und in Kraft** (SIA-Zentralkommission Normen 05.12.2024; shop.sia.ch, espazium.ch). Sie
+ersetzt **SIA 2040:2017** samt Korrigendum und baut methodisch auf SIA 2032 auf (kein
+Ablösungsverhältnis dort). Die KB führte sie an **fünf** Stellen als in Vernehmlassung — der Fehler
+war bereits beim letzten Update dieses Destillats (29.07.2026) sachlich falsch, nicht bloss
+veraltet. Korrigiert in `kbob-graue-treibhausgasemissionen-2025`, `ecobkp-2026-tragwerk-und-rohbau`,
+`graue-energie-sanieren-vs-neubau-amortisation`, `wiki/graue-energie.md` und **FAQ F8**. Die
+historische Angabe in `minergie-nachweiskurs-2023-mkz-thge` («damals in Vernehmlassung») war und
+bleibt richtig und wurde nur um den heutigen Stand ergänzt.
+
+**02 ⚠ ECHTER FEHLER — KBOB-Ökobilanzdaten stehen bei v9.0, nicht v8.0.** kbob.admin.ch weist
+wörtlich «Ökobilanzdaten im Baubereich (Version 9.0) … 14. Juli 2026» aus; dazwischen lag eine v8.1
+(Bilanzierungsregeln 05.03.2026). Korrigiert in Destillat und `wiki/graue-energie.md`, in FAQ F8
+vermerkt. Das Faktenblatt selbst ist unverändert Version 1 vom 04.04.2025 (PDF erneut geladen,
+822'352 Bytes, Titelzeile «Bern, 04.04.2025»).
+
+**03 EDITIONSKLÄRUNG EN-102 — die eigene Korrektur von heute Mittag war richtig, ihre Begründung
+falsch.** Die KB hat am 24.08.2026 den Ausgabestand von EN-102 auf «Januar 2020» korrigiert und die
+frühere Angabe «Dezember 2018» als **Verwechslung mit EN-112 «Kühlräume»** erklärt. Beide Ausgaben
+wurden in diesem Lauf nebeneinander geladen: es sind **zwei echte Ausgaben derselben Vollzugshilfe
+EN-102**, beide 18 Seiten, beide auf Basis SIA 380/1:2016 (`energie.tg.ch` = Dez. 2018, 832'765 B ·
+`energiehub-gebaeude.ch` = Jan. 2020, 841'171 B; Titelblatt und jede Fusszeile tragen das Datum
+wörtlich). Der ursprüngliche PL-04-Dateiname trug das Datum sogar im Namen
+(`…_3801_2009_2018Dez.pdf`). **Zusatzbefund:** der Frontmatter-Vermerk «tg.ch-URL seit 2026-08-24
+defekt, 301 auf nicht auflösbaren Hostnamen» liess sich nicht reproduzieren — HTTP 200, keine
+Umleitung. **Fachlich entscheidend und der eigentliche Wert dieses Punkts:** der Volltext-Diff ergibt
+**genau zwei materielle Änderungen**, beide Kap. 8, beide im Revisionsindex der Jan-2020-Ausgabe
+ausgewiesen («Sept. 2019 · 8.1 Sonnenschutz · Präzisierung zu Free-Cooling» und «Sept. 2019 · 8.4
+Diagramm · Präzisierung: Einzuhaltende Punkte sind ‹Vereinfachungen›»). **Kap. 2/5/6/7 sind
+wortgleich — sämtliche U-Wert- und Heizwärmebedarf-Grenzwerte der KB sind unverändert gültig, und
+zwar zeilenweise verglichen statt plausibel angenommen.** Bei 57 Backlinks ist das die belastbarste
+Aussage dieses Laufs.
+
+**04 NEUER FACHFUND — Free-Cooling befreit von der automatischen Sonnenschutz-Steuerung.** Aus
+derselben Revision, in der KB nirgends erfasst (EN-102 Jan. 2020, Kap. 8.1, wörtlich): «Automatische
+Steuerung des Sonnenschutzes ist nötig, wenn eine Kältemaschine für die Kühlung eingebaut wird. Das
+heisst bei einer Anlage ohne Kältemaschine z.B. Free-Cooling via Erdsonde oder Grundwasser, ist die
+Automatisierung des Sonnenschutzes keine Pflicht. Das alleinige Betreiben von Umwälz- und
+Förderpumpen gilt nicht als aktive Kühlung.» Auslöser ist die **Kältemaschine**, nicht die Kühlung.
+Verbindet zwei bisher getrennte KB-Stränge (Free-Cooling/Geocooling ↔ sommerlicher Wärmeschutz) zu
+einem konkreten Kostenhebel an der Fassade → neuer Abschnitt in
+`sommerlicher-waermeschutz-sia180-nachweisverfahren`, **FAQ F258 neu**.
+
+**05 BESTÄTIGUNGEN (vollwertige Ergebnisse, keine Leerläufe).** SIA 2063 «Integrales Energie- und
+Leistungsmanagement in Gebäuden» ist **weiterhin nicht publiziert** (SIA-Publikationsliste Stand
+30.07.2026 kennt keine Zeile 2063) · die Zogg-Planungsgrundlagen sind unverändert **V2.0/02.07.2023**
+(Versionsverlauf im PDF gelesen) · die Pronovo-Richtlinie ist unverändert **V4.1/03.06.2026** und der
+Grundbeitrag **CHF 0** wörtlich belegt · der **EVEN-Kern** (elektronischer Vollzug seit 01.01.2026,
+Rolle der Privaten Kontrolle) ist seit dem Web-Stand 07.06.2026 unverändert · die **MuKEn-2025-
+Umsetzung** ist in **ZH und SZ weiterhin nicht aufgegleist**, ein Jahr nach Verabschiedung.
+
+**06 PRÄZISIERUNGEN.** LEG: der Rabatt 40/20 % ist jetzt am **amtlichen Verordnungswortlaut**
+belegt (**Art. 19h StromVV**, SR 734.71, konsolidiert 01.01.2026, via Fedlex-Filestore) statt nur
+über die Branchenempfehlung; deren **Anhang 1 wurde im Dez. 2025 gelöscht** (Version blieb V2).
+EIV: **Winterstrombonus** gilt nur **ab 100 kW**, Schwelle 500 kWh/kW im Winterhalbjahr, **3.50 bzw.
+2.50 CHF/kW × Winterstrom-Mehrertrag**, Auszahlung erst nach drei vollen Winterhalbjahren — für die
+typische Bauherren-Anlage unter 100 kW **gegenstandslos**, was aus der bisherigen Fassung nicht
+hervorging. EVEN: die abgelöste Formularreihe heisst amtlich **«EN-101 bis EN-141»**, «EN-ZH-005»
+ist die Nummer eines einzelnen Blattes. SmartGridready: das **EMS-Label kommt erst ab Herbst 2026**.
+Portal: **endk.ch leitet per 301 auf energiehub-gebaeude.ch** um — der bisherige «Spiegel» ist die
+kanonische Adresse geworden, der alte Provenienz-Vorbehalt («endk.ch liefert 404») ist damit anders
+zu lesen.
+
+### Cross-KB-Bringschuld eingelöst (Rule `wissens-bibliothekar`)
+
+Die Normbefunde gehören der KB **`normen`**, die nach Rule `normen-referenz` die Fundstellen-
+Autorität ist. Dort trug `wiki/REGISTER.md` **SIA 2040:2017 mit dem Vermerk «gilt»** — für eine seit
+anderthalb Jahren abgelöste Norm. Im selben Lauf korrigiert und dort eingetragen: SIA 2040 als
+ERSETZT, **SIA 390/1:2025 als Neuzugang** (mit Verhältnis zu SIA 2032), **SIA 2063 als
+Negativbefund**; CHANGELOG-Eintrag in `wissen/normen/CHANGELOG.md` gesetzt. ⚠ Alle drei Normtexte
+sind kostenpflichtig und wurden **nicht** eingesehen — belegt sind ausschliesslich bibliografische
+Angaben und Publikationsstatus.
+
+### Neue offene Punkte
+
+- [ ] **E-R162-1 (P1): Ändern sich zitierte Einzelwerte durch KBOB v9.0?** Die KB rechnet an
+  mehreren Stellen mit Ökobilanz-Kennwerten auf Basis **v8.0**. Der Sprung auf **v9.0 (14.07.2026)**
+  ist dokumentiert, aber **nicht ausgewertet** — die KBOB-Seite nennt ausdrücklich «Anpassungen
+  gegenüber der Version 8.0». Solange nicht geprüft ist, welche Werte betroffen sind, gilt jede
+  bauteilbezogene CO₂-Zahl der KB als **v8.0-Stand**. Eigener Lauf: v9.0-Liste ziehen und gegen die
+  in `kbob-bauteilkatalog-co2-je-aufbau` / `kbob-massivbau-bauteilaufbau-co2` zitierten Werte
+  diffen. Aus eigener Kraft lösbar (XLSX frei verfügbar), kein Normkauf-Blocker.
+- [ ] **E-R162-2 (P2): Leistungsbeiträge EIV 360/300/400 CHF/kWp nur indirekt belegt.** Der
+  Pronovo-Tarifrechner rechnet serverseitig und gibt per curl/WebFetch nur Platzhalter aus; die
+  Richtlinie druckt keine aktuelle Tariftabelle. Gestützt sind die Werte über die dokumentierte
+  Anpassung per 01.04.2025 und die Swissolar-Aussage vom 09.01.2026 («Die Vergütungssätze werden
+  dieses Jahr nicht gesenkt»), **wörtlich bestätigt sind sie nicht**. Lösbar über eine
+  Live-Berechnung im Browser (Chrome-Werkzeug) oder eine Rückfrage bei Pronovo. Bis dahin im
+  Destillat als indirekt belegt geführt. **Gegenprobe für die Vorsicht:** eine Anbieter-Sekundär-
+  quelle nannte einen Grundbeitrag von «ca. CHF 350 pro Anlage» — direkter Widerspruch zur
+  Primärquelle (CHF 0).
+- [ ] **E-R162-3 (P3): EVEN — Bülach nennt 01.02.2026, der Kanton 01.01.2026.** Gemeindespezifische
+  Verzögerung, redaktioneller Fehler oder zweiter Rollout-Schritt (Erstellung ab 1.1.,
+  Gemeinde-Übermittlung via eBaugesucheZH ab 1.2.)? Bewusst nicht stillschweigend übernommen.
+  Praktisch relevant für JANS, weil der KISPI-Nachweis über EVEN läuft.
+- [ ] **E-R162-4 (P3): Läuft die Free-Cooling-Erleichterung unter MuKEn 2025 weiter?** Art. 1.9
+  Abs. 2 fasst die Ausnahme anders (reversible Wärmepumpen in Wohnbauten ohne aktive
+  Kühlabgabeelemente). Nicht belegt und derzeit auch nicht entscheidbar, solange kein Kanton die
+  MuKEn 2025 umgesetzt hat. Erst wieder aufgreifen, wenn eine kantonale Vorlage erscheint.
+- [ ] **E-R162-5 (P3, Werkzeug): sz.ch antwortet auf Übersichtsseiten mit HTTP 403.** Die
+  Einzel-PDF unter `sz.ch/public/upload/assets/<id>/…` sind per curl erreichbar, die allgemeine
+  Vernehmlassungs-/Rechtsgrundlagen-Liste nicht (Bot-Schutz, in zwei unabhängigen Läufen bestätigt).
+  Das ist eine Aussage über das Werkzeug, nicht über den Inhalt — gehört nach `connectors/WEGE.md`,
+  damit der nächste Lauf den Umweg über die Trägerorganisationen (energie-zentralschweiz.ch) nicht
+  neu erfinden muss.
+
+### Für den nächsten Lauf
+
+**E-R162-1 zuerst** (KBOB v9.0-Diff) — das ist der einzige der fünf neuen Punkte, der zitierte
+Zahlen der KB betreffen könnte, und er ist ohne Blocker lösbar. Danach die A-BLIND-Methode auf die
+**Ränge 21–40** der Backlink-Liste anwenden, mit derselben Auswahl-Logik: nicht «unverifiziert»,
+sondern **alternder Datenstand** ist das brauchbarere Kriterium. Unverändert blockiert und nicht
+erneut aufgreifen: E-R148-1 (Normkauf SIA 380/1:2016), E-R161-1 (SN EN ISO 6946), E-R230-2
+(Entscheid Raphael), E103 (Entscheid Raphael zur Auswertung eigener Healthcare-Projektdaten).

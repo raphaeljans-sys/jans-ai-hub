@@ -1,7 +1,17 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-29 (Wissens-Chef Run 20, Cross-KB-Korrekturen: F186 kantonale Grundlage
+last_updated: 2026-08-24 (Run 162, A-BLIND-Nachtlauf auf die meistzitierten Destillate:
+  **F258 neu** «Muss unser Sonnenschutz motorisiert und automatisch gesteuert sein?» —
+  Free-Cooling via Erdsonde/Grundwasser loest die Pflicht zur automatischen Sonnenschutz-
+  Steuerung NICHT aus (EN-102 Jan. 2020 Kap. 8.1, Ausloeser ist die Kaeltemaschine);
+  **F8 Fehlerkorrektur** — SIA 390/1:2025 «Klimapfad» ist seit 01.02.2025 in Kraft, stand hier
+  als «in Vernehmlassung», dazu KBOB-Oekobilanzdaten v9.0/14.07.2026 statt v8.0;
+  **F47 erweitert** — Umsetzungsstand MuKEn 2025 in ZH und SZ mit Pruefdatum 24.08.2026
+  (weiterhin keine Vorlage, ein Jahr nach Verabschiedung) und Portal-Umzug endk.ch →
+  energiehub-gebaeude.ch; **F33 erweitert** — LEG-Rabatt 40/20 % jetzt am Verordnungswortlaut
+  Art. 19h StromVV belegt, erster Praxisfall Lupsingen BL, Negativbefund amtliche Statistik.
+  Vorher: 2026-07-29 (Wissens-Chef Run 20, Cross-KB-Korrekturen: F186 kantonale Grundlage
   § 97 Abs. 3 WsG ergänzt inkl. Reichweite der Gebührenfreiheit, F187 falscher Negativbefund zur
   Bewilligungspflicht durch § 92 WsV / § 44 WsG ersetzt und die Eisspeicher-Zuordnung als eigene
   Subsumtion gekennzeichnet, F71 von der per 01.01.2022 aufgehobenen KGSchV auf WsG/WsV/§ 209 WsV
@@ -37,7 +47,7 @@ last_updated: 2026-07-29 (Wissens-Chef Run 20, Cross-KB-Korrekturen: F186 kanton
   Baudenkmälern als neue Themenfelder erschlossen; Run 94: F127 neu, VKF-Richtlinie 22-15 gezielt
   auf Batteriespeicher-Mengenschwellen geprüft, Negativbefund; Run 93: F123-F126 neu, GVZ-PV-
   Feuerwehrmeldung, VKF Gefährliche Stoffe Negativbefund, Glas-g-Wert Negativbefund,
-  Massivbau-CO2-Gegenzahl)
+  Massivbau-CO2-Gegenzahl))
 sources: [destillate/waermeplanung-kommunal-zh-sz.md, destillate/warmwasser-waermepumpe-boiler-retrofit.md, destillate/tiefengeothermie-schweiz.md, destillate/waermepumpe-koerperschallisolation-empa.md, destillate/grossverbraucherartikel-zielvereinbarung-zh-sz.md, destillate/innendaemmung-altbau-bauphysik-ch.md, destillate/pv-rueckliefer-verguetung-mindestverguetung-2026.md, destillate/klimapraemie-heizungsersatz-klik.md, destillate/holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/blockheizkraftwerk-bhkw-mfh-pflegeheim-ch.md, destillate/elektroheizungs-ersatzpflicht-zh-sz.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/fernwaerme-anschlusspflicht-sz.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md, destillate/pv-blitzschutz-gebaeudeversicherung-ch.md, destillate/anergienetz-kalte-fernwaerme-ch.md, destillate/oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz.md, destillate/uf-werte-rahmenmaterial-grobuebersicht.md, destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md, destillate/denkmalschutz-energiesanierung-zh-sz.md, destillate/energie-baudenkmal-haustechnik-zh.md, destillate/energie-baudenkmal-solarenergie-zh.md, destillate/sia-2060-kosten-ladeinfrastruktur-vertiefung.md, destillate/notstromversorgung-netzersatzanlage-spital-pflegeheim-ch.md, destillate/ruckkuehlwerk-kuehlturm-legionellen-bewilligung-ch.md, destillate/ortsbildschutz-kernzone-solaranlagen-zh-sz.md]
 links: [[INDEX]]
 ---
@@ -572,8 +582,17 @@ macht das erstmals messbar — mit einem **Treibhausgas-Grenzwert je Gebäudekat
   80 kW max. 10 % fossil, ausser WKK/Fernwärme). Der verbleibende Strom-CO₂ hängt an Effizienz und
   Strommix — die **Minergie-Kennzahl (MKZ)** minimiert ihn, die **Dach-PV** deckt einen Teil selbst.
 - **Erstellung (graue Energie / THGE):** «**0 ist nicht möglich, nur minimieren**». Minergie 2023
-  setzt dafür **Grenzwerte je Kategorie**; der strengere **Klimapfad SIA 390/1** (in Vernehmlassung)
+  setzt dafür **Grenzwerte je Kategorie**; der strengere **Klimapfad SIA 390/1:2025**
   verlangt für Wohn-/Dienstleistungsbauten **9 kg CO₂-eq/m²·a inkl. PV/Erdsonde/Solarthermie**.
+  ⚠ **Korrektur 2026-08-24:** hier stand «in Vernehmlassung». Die Norm **SIA 390/1:2025 «Klimapfad —
+  Treibhausgasbilanz über den Lebenszyklus von Gebäuden» ist seit dem 01.02.2025 publiziert und in
+  Kraft** und ersetzt SIA 2040:2017 «SIA-Effizienzpfad Energie». Für die Bauherrschaft ändert das
+  die Antwort in einem Punkt: Netto-Null hat für Ihr Gebäude seit Anfang 2025 eine **anerkannte
+  Rechenregel über den ganzen Lebenszyklus** (Erstellung + Betrieb + Mobilität, mit Absenkpfad bis
+  2050) — wer heute «klimaneutral» in ein Programm, eine Ausschreibung oder einen Werkvertrag
+  schreibt, sollte sich auf diese Norm beziehen statt auf eine eigene Definition. Sie ist deswegen
+  **nicht automatisch Pflicht**: eine SIA-Norm gilt nur, soweit sie vereinbart oder von einem Label
+  bzw. Gesetz in Bezug genommen wird.
 - **Die grössten Hebel sind baulich, nicht haustechnisch:** kompakt bauen, **wenig oder kein
   Untergeschoss**, einfache Lastabtragung/geringe Spannweiten, **Holz statt Massiv**, **Bestand
   weiterverwenden**. Ein gut gedämmter Holzleichtbau hat ~59 statt ~74 MJ/m²·a graue Energie (vgl. F9).
@@ -586,8 +605,11 @@ macht das erstmals messbar — mit einem **Treibhausgas-Grenzwert je Gebäudekat
 `[[minergie-fallstudie-maison-climat]]`; graue Energie/Hebel → `[[graue-energie-betriebsenergie]]` /
 F9; Themenartikel → `[[graue-energie]]`, `[[minergie-standards]]`. ⚠ **Datenstand 2026-06-17:**
 «Netto-Null» ist für Einzelgebäude (noch) kein einheitlich definierter Rechtsbegriff — Bund/Kantone
-konkretisieren laufend (Klimaschutz-Gesetz); KBOB-Ökobilanzdaten / SIA 2032 / SIA 390/1 noch in
-Entwicklung. Betriebs-CO₂ über den Strommix nicht beziffert (Annahme, nicht belegt). Energierecht/
+konkretisieren laufend (Klimaschutz-Gesetz). ⚠ **Nachgeführt 2026-08-24:** der frühere Zusatz
+«KBOB-Ökobilanzdaten / SIA 2032 / SIA 390/1 noch in Entwicklung» ist überholt — **SIA 390/1:2025 ist
+seit 01.02.2025 in Kraft**, und die **KBOB-Ökobilanzdaten stehen bei Version 9.0 vom 14.07.2026**
+(vorher hier v8.0; nächste umfassende Überarbeitung laut KBOB auf Anfang 2027 angekündigt). Wer
+projektgenau rechnet, zieht die v9.0-Liste, nicht die im Bestand zitierte v8.0. Betriebs-CO₂ über den Strommix nicht beziffert (Annahme, nicht belegt). Energierecht/
 Heizverbot → Skill `baurecht`.
 
 ---
@@ -1506,6 +1528,27 @@ Themenartikel → `[[pv-eigenverbrauch-zev]]`. ⚠ **Datenstand 2026-07-05/2026-
 Kraft, Umsetzung frisch — konkrete Rp/kWh-Wirkung standortabhängig beim VNB prüfen (Preisbildung ist gemäss
 Primärquelle ausdrücklich frei, keine amtliche Bandbreite vorgegeben). Energierecht → Skill `baurecht`.
 
+**Nachgeführt 24.08.2026 — drei Punkte, die diese Antwort belastbarer machen:**
+
+**01 Der Rabatt steht jetzt im Gesetzestext, nicht nur in einer Branchenempfehlung.** Die 40 % und
+20 % sind **Art. 19h der Stromversorgungsverordnung (StromVV, SR 734.71)**, konsolidierte Fassung
+Stand 01.01.2026, am 24.08.2026 direkt am amtlichen Text nachgelesen. Wenn Sie mit Ihrem
+Netzbetreiber über den Rabatt sprechen, ist das die Fundstelle — die Ausnahmeliste in Abs. 5
+(Systemdienstleistungen, Stromreserve, Netzzuschlag, Abgaben an Gemeinwesen) deckt sich wörtlich
+mit der Aufzählung oben.
+
+**02 Es gibt den ersten dokumentierten Praxisfall.** Die LEG **Lupsingen BL** läuft seit April 2026
+mit **68 Mitgliedern**. Berichtete Grössenordnung: Käufer zahlen rund **20 % weniger** als der
+regionale Standardtarif, kleine Produzenten erhalten im Sommer bis zur Hälfte mehr als bei
+Rücklieferung an den grossen Versorger — in den ersten Monaten rund CHF 4'400 Ersparnis auf der
+Käuferseite und CHF 1'100 Mehrertrag auf der Verkäuferseite. ⚠ **Ein Einzelfall aus einem
+Medienbericht (SRF, 26.07.2026), kein Landesdurchschnitt** — er zeigt, dass das Modell in der
+Praxis funktioniert, und liefert eine Hausnummer, keine Rechengrundlage.
+
+**03 Eine gesamtschweizerische Zahl gibt es noch nicht.** Weder ElCom noch BFE publizieren, wie
+viele LEG bisher gegründet wurden oder zu welchen Tarifen. Wer Ihnen eine Landeszahl nennt, nennt
+eine Schätzung. Für Ihr Projekt zählt ohnehin nur, was Ihr eigener Netzbetreiber sagt.
+
 ---
 
 ## F34 — «Kann ich ökologisch dämmen, ohne im Winter schlechter dazustehen — und hilft das gegen Sommerhitze?»
@@ -2179,7 +2222,42 @@ materielle Zuordnungsfehler (25-%-Schwelle, Modulstatus Teil G) und eine Auslass
 `[[muken-2025-modul-g-co2-grenzwerte]]`. Ergänzt `[[energienachweis-zh]]` und `[[graue-energie]]`
 (Ausblick). ⚠ **Vorbehalt Quellenprovenienz:** Der Volltext liegt nur als PDF-Spiegel auf
 energiehub-gebäude.ch vor (endk.ch liefert 404); für eine verbindliche Zitierung im
-Bewilligungsverfahren ist die amtliche EnDK-Fassung zu beschaffen.
+Bewilligungsverfahren ist die amtliche EnDK-Fassung zu beschaffen. **Nachtrag 24.08.2026 zum
+Portal:** endk.ch ist kein 404 mehr, sondern leitet per 301 auf **energiehub-gebaeude.ch** um —
+das Portal wurde umbenannt, der Spiegel ist damit die kanonische Adresse geworden.
+
+**Umsetzungsstand geprüft am 24.08.2026 — für Ihr Baugesuch ändert sich weiterhin nichts.** Ein
+Jahr nach der Verabschiedung hat **weder Zürich noch Schwyz** eine Vorlage zur Umsetzung der
+MuKEn 2025 publiziert:
+
+**01 Kanton Zürich.** Der kantonale Vollzugsordner Energie stammt laut zh.ch unverändert vom
+**Januar 2023 und basiert auf den MuKEn 2014**; die zuletzt publizierte EnerG-Änderung datiert
+vom 05.12.2022 (in Kraft 01.10.2023) und betraf das Meldeverfahren für Solaranlagen und
+Wärmepumpen, nicht die MuKEn 2025. Die kantonale Klimastrategie nennt als Massnahme lediglich,
+dass «im Rahmen der Mustervorschriften der Kantone im Energiebereich (MuKEn) weiterhin mit der
+EnDK zusammengearbeitet» werde — ohne Verfahrensstand und ohne Termin. Eine 2024 laufende
+ZH-Vernehmlassung «Revision Energiegesetz und Richtplan» betrifft nachweislich ein anderes Thema
+(Beschleunigung der Bewilligungsverfahren für Wind- und grosse Solaranlagen).
+
+**02 Kanton Schwyz.** Die geltenden kEnG/kEnV-Fassungen (Kantonsrat 14.06.2021 bzw. Regierungsrat
+22.03.2022, in Kraft seit 01.05.2022) beruhen ebenfalls auf MuKEn 2014. Der Regierungsrat hat im
+September 2025 zwar eine Einzelfrage zur PV-Pflicht beantwortet (RRB Nr. 632/2025 vom 02.09.2025),
+darin aber ausdrücklich auf **MuKEn 2014** und den EnDK-Beschluss vom 30.08.2024 abgestellt — die
+MuKEn 2025 kommen in dem Dokument nicht vor. Eine Gesamtrevision ist nicht aufgegleist.
+
+**03 Auch die Vollzugshilfen sind noch nicht nachgezogen.** Das EnDK-Portal führt aktuell nur die
+Formularsätze «EN-100 bis EN-142 (MuKEn 2014)» und historisch «EN-1 bis EN-16 (MuKEn 2008)» —
+**kein MuKEn-2025-Satz**, und kein publizierter Termin dafür. Die Vollzugshilfe EN-102
+«Wärmeschutz von Gebäuden» liegt weiterhin in der Ausgabe **Januar 2020 auf Basis
+SIA 380/1:2016** vor, auch in der im August 2025 neu hochgeladenen Fassung (→ F3, F258).
+
+**Für die Bauherrschaft heisst das:** planen Sie nach geltendem kantonalem Recht. Die MuKEn 2025
+sind ein Ausblick für die nächsten Jahre (EnDK-Zielhorizont: alle Kantone bis 2030), kein
+Massstab, an dem heute ein Gesuch gemessen wird. Wo ein Projekt aber ohnehin über die Jahre
+läuft, lohnt es sich, die zwei absehbar strengsten Punkte freiwillig mitzudenken: die **PV-Pflicht
+ohne 30-kW-Kappung** und die **Grenzwerte für graue Energie** (→ F9, F81). Nächste Prüfung dieses
+Umsetzungsstands: bei der nächsten Aktualisierung dieser Antwort, frühestens sinnvoll in einigen
+Monaten.
 
 ---
 
@@ -8865,3 +8943,25 @@ Korrigiert ergibt derselbe Aufbau **rund 0,37 bis 0,39 W/m²K** statt der behaup
 **Bauherren-Transfer:** Zwei Dinge auseinanderhalten. Erstens: **wo steht der Wert her?** Jedes λ gehört auf ein Herstellerdatenblatt oder auf SIA 2001 zurückgeführt (→ `[[daemmstoffe-lambda]]`, `[[sia-2001-waermedaemmstoffe-lambda]]`). Zweitens: **wofür reicht die Zahl?** Der geprüfte Aufbau erreichte selbst korrigiert nur rund 0,37 W/m²K und lag damit **mehr als doppelt so hoch wie der Neubau-Grenzwert von 0,17 W/m²K** für opake Bauteile (→ `[[u-werte-grenzwerte-ch]]`, F3). Das war im Ausgangsfall vertretbar, weil es um ein unbeheiztes Biwak ging, das nicht unter SIA 380/1 fällt — nur stand das nirgends im Dokument. **Wenn Sie mit einer KI gerechnet haben, bringen Sie die Rechnung mit; wir prüfen den Weg, das kostet zehn Minuten und ist deutlich günstiger als eine Rückweisung durch die private Kontrolle** (→ `[[private-kontrolle-zh]]`).
 
 **Quelle:** `[[ki-generierte-fachdokumente-referenzablage]]` (eigene Prüfung zweier KI-erzeugter Dokumente aus der JANS-Referenzablage PL-04, 23.08.2026, `established`); R_si/R_se und Rechenformel → `[[clt-bauphysik-stora-enso]]`; λ-Werte Massivholz → `[[clt-bauteilkatalog-stora-enso]]` (0,110) und `[[clt-bauphysik-stora-enso]]` (0,12), Spread nicht erklärt (E-R161-2); Grenzwerte → `[[u-werte-grenzwerte-ch]]`. ⚠ Der Tabellenwert für ruhende Luftschichten nach SN EN ISO 6946 ist in der KB **nicht erfasst** (E-R161-1) — bei einem unbelüfteten Aufbau daher am Normtext nachschlagen, nicht schätzen.
+
+---
+
+## F258 — «Muss unser Sonnenschutz motorisiert und automatisch gesteuert sein — oder reicht Handbedienung?»
+
+**Kurz:** Das hängt an einer einzigen Frage: **Ist eine Kältemaschine im Spiel?** Wird aktiv gekühlt, ist die automatische Steuerung des Sonnenschutzes Pflicht. Kühlen Sie dagegen **passiv über Erdsonde oder Grundwasser** (Free-Cooling/Geocooling, es laufen nur Umwälz- und Förderpumpen), ist die Automatisierung **keine Pflicht** — die Pumpen gelten ausdrücklich nicht als aktive Kühlung. Das ist über eine ganze Fassade eine relevante Kostenposition. **Achtung, zweite Bedingung:** unabhängig von der Kältemaschine greift die Pflicht trotzdem, sobald eine Kühlung rechnerisch «notwendig» oder «erwünscht» ist.
+
+**Fachlich:** Die Regel steht in der Vollzugshilfe **EN-102 «Wärmeschutz von Gebäuden» (EnFK/EnDK), Ausgabe Januar 2020, Kapitel 8.1**, wörtlich:
+
+> «Automatische Steuerung des Sonnenschutzes ist nötig, wenn eine Kältemaschine für die Kühlung eingebaut wird. Das heisst bei einer Anlage ohne Kältemaschine z.B. Free-Cooling via Erdsonde oder Grundwasser, ist die Automatisierung des Sonnenschutzes keine Pflicht. Das alleinige Betreiben von Umwälz- und Förderpumpen gilt nicht als aktive Kühlung.»
+
+Drei Punkte gehören dazu, sonst wird die Erleichterung falsch verstanden:
+
+**01 Der g-Wert bleibt in jedem Fall Pflicht.** Entfallen kann nur die **automatische Steuerung**, nicht der Sonnenschutz selbst. Ein guter Sonnenschutz ist nach derselben Vollzugshilfe bei allen Räumen einschliesslich Wohnbauten Pflicht; der variable Sonnenschutz ist in der Zürcher Praxis auf **gtot ≤ 0,10** auszulegen (→ F88, F11).
+
+**02 Die Windfestigkeit hängt an derselben Bedingung.** EN-102 knüpft die Anforderung an die Windfestigkeit an «die gleichen Kriterien wie für eine automatische Steuerung». Wo die Automatik entfällt, entfällt auch die daran gekoppelte Windfestigkeits-Anforderung aus dem Berechnungsverfahren — die Produktnorm-Klassierung bleibt davon unberührt, und **ohne automatische Steuerung ist eine Windwiderstandsklasse höher anzusetzen**.
+
+**03 Kanton und Stadt dürfen strenger sein.** Die zitierte Regel ist die **nationale** Vollzugshilfe. Die Praxis der Stadt Zürich und des kantonalen Hochbauamts verlangt bei hohem Glasanteil ohnehin motorisierten Sonnenschutz mit automatischer Steuerung — dort hilft die Free-Cooling-Erleichterung nicht. Bei städtischen Bauvorhaben also zuerst die kommunale Wegleitung lesen.
+
+**Bauherren-Transfer:** Wenn Sie eine Erdsonde planen, prüfen Sie das Kühlkonzept **früh und zusammen mit dem Sonnenschutz**, nicht getrennt. Die Kombination Erdsonde plus Free-Cooling ist in unserer Wissensbasis mehrfach als der wirtschaftlich attraktive Kühlweg belegt (→ `[[betonkernaktivierung-tabs-energieeffizienz]]`, `[[erdsonden-regeneration-sondenfeld-dimensionierung]]`) — sie spart nicht nur die Kältemaschine und deren Strom, sondern nach dieser Regel auch die Fassaden-Automatik. Umgekehrt: **wer nachträglich eine Kältemaschine ergänzt, holt die Steuerungspflicht mit.** Das gehört in den Entscheid hinein, nicht danach.
+
+**Quelle:** EnFK/EnDK, Vollzugshilfe EN-102 «Wärmeschutz von Gebäuden», Ausgabe **Januar 2020** (Basis SIA 380/1:2016), Kap. 8.1 — am 24.08.2026 direkt am PDF gelesen (`energiehub-gebaeude.ch`, Upload 08/2025) → `[[enfk-en-102-waermeschutz-2018]]`, `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`. **Datenstand-Hinweis:** die Passage kam mit der Revision **Sept. 2019** hinzu; die noch kursierende Vorauflage **Dezember 2018** derselben Vollzugshilfe enthält sie **nicht** — beide Ausgaben wurden am 24.08.2026 im Volltext verglichen, alle Grenzwert-Tabellen sind zwischen ihnen identisch. ⚠ **Nicht belegt:** ob die Free-Cooling-Erleichterung unter **MuKEn 2025 Art. 1.9** gleich weiterläuft; deren Ausnahme ist anders gefasst (reversible Wärmepumpen in Wohnbauten ohne aktive Kühlabgabeelemente). Solange weder ZH noch SZ die MuKEn 2025 umgesetzt haben (Stand 24.08.2026, → F47), gilt die EN-102-Regel.

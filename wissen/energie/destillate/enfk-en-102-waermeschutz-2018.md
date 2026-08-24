@@ -1,7 +1,7 @@
 ---
 quelle: "Vollzugshilfe EN-102 «Waermeschutz von Gebaeuden»"
 herausgeber: "EnFK — Konferenz Kantonaler Energiefachstellen"
-ausgabe: "Januar 2020 (Basis: Norm SIA 380/1, Ausgabe 2016) — ⚠ korrigiert 2026-08-24, vorher irrtuemlich als Dezember 2018 gefuehrt (Verwechslung mit der zeitgleich im selben Register erscheinenden Vollzugshilfe EN-112 «Kuehlraeume», die tatsaechlich Dez. 2018 datiert)"
+ausgabe: "Januar 2020 (Basis: Norm SIA 380/1, Ausgabe 2016) — die geltende Fassung. ⚠⚠ **Begruendung der Korrektur vom 2026-08-24 am selben Tag richtiggestellt:** die frueher gefuehrte Angabe «Dezember 2018» war KEINE Verwechslung mit EN-112 «Kuehlraeume», sondern eine **echte, aeltere Ausgabe derselben Vollzugshilfe EN-102**, die weiterhin auf einem kantonalen Spiegel liegt. Beide Ausgaben nebeneinander geladen und verglichen, siehe Abschnitt «Zwei Ausgaben — Editionsklaerung»"
 gelesen: "2026-06-06 (S. 1-16, vollstaendig); Korrektur-Gegenpruefung Tabelle 5 + Frontmatter 2026-07-17 (S. 10-11, per curl+pdftotext); Ausgabedatum-Korrektur 2026-08-24 (unabhaengiger Zweitmirror Kt. Schaffhausen, S. 1 + Fusszeile jeder Seite S. 4-21, per WebFetch geladen)"
 datenstand: "Jan 2020 / SIA 380/1:2016 — operative Vollzugsbasis Kt. ZH bereits seit Anforderungsprofil Version 16.01a (Ausgabe 11.04.2017), fortgefuehrt ueber die EnerG-Revision 1.9.2022 (MuKEn 2014) hinweg. ⚠ MuKEn 2025 von EnDK 08/2025 verabschiedet, kantonale Umsetzung ZH Stand 06/2026 ausstehend."
 status: established
@@ -10,7 +10,7 @@ sources:
   - "wissen/energie/destillate/muken-2025-anhang-1-3-uwert-heizwaermebedarf.md (Run 2026-07-17) — hatte den Transkriptionsfehler in Tabelle 5 sowie den falschen Frontmatter-Jahrgang (2009 statt 2016 als SIA-Basis) bereits identifiziert und dokumentiert; diese Korrektur setzt die dort empfohlene Bereinigung um"
   - "Adversarial-Verify Runde 2 (2026-07-23): Kanton Luzern, Kantonale Energieverordnung (KEnV), Anhang 1-3 (Dokument Nr. 774-A1), Amt fuer Umwelt und Energie Luzern — uwe.lu.ch/-/media/UWE/Dokumente/Themen/Energie/Energiegesetz_EnG/Anhang_KEnV.pdf, per curl+pdftoppm (Tabellen liegen als Bildgrafik vor) gegengeprueft 2026-07-23 — unabhaengige vierte Quelle (kantonale Rechtsnorm statt Vollzugs-/Software-Sekundaerdokument), Tabelle 2/3/4/5 UND Anhang 3 (Q_H,li) zahlengleich"
   - "Ausgabedatum-Korrektur (2026-08-24): Kanton Schaffhausen, Baudepartement Energiefachstelle, Sammel-PDF «Register 2 Gebaeudehuelle» (sh.ch/CMS/get/file/31530027-6467-41e2-9546-311c53380766), enthaelt die vollstaendige Vollzugshilfe EN-102 als eigenstaendiges Kapitel S. 4-21. Zwei voneinander unabhaengige Belege in derselben Datei: (1) die einleitende Registerseite S. 1 listet alle fuenf Dokumente des Registers mit exaktem Ausgabedatum je Titel — EN-102 «Waermeschutz von Gebaeuden» Januar 2020, EN-112 «Kuehlraeume» Dezember 2018, EN-131/132 Juni 2017 — (2) die Fusszeile jeder einzelnen EN-102-Seite (S. 4-21) traegt durchgehend «Ausgabe Januar 2020 (Basis: Norm SIA 380/1, Ausgabe 2016)». Die PDF-Metadaten (Title: Vollzugshilfe EN-102, CreationDate 2020-02-20) stuetzen das Datum zusaetzlich. Tabelle 2 (U-Werte inkl. Storenkasten 0,50/0,50) ist zahlengleich mit dem bisherigen Destillat-Stand — die Werte selbst waren nie falsch, nur das Ausgabedatum im Frontmatter"
-last_updated: "2026-08-24"
+last_updated: "2026-08-24 (zweiter Lauf desselben Tages: Editionsklaerung Dez. 2018 ↔ Jan. 2020 am Volltext-Diff, Revisionsindex gefunden, Zahlengleichheit aller Grenzwert-Tabellen belegt)"
 ---
 
 # EN-102 «Waermeschutz von Gebaeuden» (EnFK, Jan 2020)
@@ -138,6 +138,62 @@ Aufzugsschaechte gegen aktiv beheizte Geschosse duerfen vereinfacht mit aequival
 - λ-Wert-Tabellen der Baustoffe stehen im SIA-Register (www.sia.ch/register) bzw. im
   BFE-Bauteilekatalog → siehe `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`.
 - Kennwerte Normfenster + g-Wert: «Merkblatt Fenster» der EnFK (www.endk.ch).
+
+## Zwei Ausgaben — Editionsklaerung (2026-08-24, Volltext-Diff)
+
+**Es gibt EN-102 in zwei Ausgaben, beide auf Basis SIA 380/1:2016, beide 18 Seiten.** Beide wurden
+am 24.08.2026 nebeneinander per `curl` geladen und mit `pdftotext -layout` volltext-verglichen:
+
+| Ausgabe | Fundort (Abruf 24.08.2026) | Groesse |
+|---|---|---|
+| **Dezember 2018** (aeltere) | `energie.tg.ch/public/upload/assets/95320/22_EN-102-d_Waermeschutz_3801_2016.pdf` — HTTP 200, laedt einwandfrei | 832'765 B |
+| **Januar 2020** (geltende) | `energiehub-gebaeude.ch/wp-content/uploads/2025/08/EN-102-d_Waermeschutz_3801_2016_2020Jan-2.pdf` — kanonisches EnDK-Portal, Upload 08/2025 | 841'171 B |
+
+Titelblatt und Fusszeile jeder Seite tragen das jeweilige Datum woertlich
+(«Ausgabe Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe 2016)» bzw. «Ausgabe Januar 2020 …»).
+
+**Zwei Richtigstellungen an der eigenen Arbeit vom selben Tag:**
+
+1. **Die Ausgabe «Dezember 2018» war nie ein Irrtum.** Der erste Korrekturlauf vom 24.08.2026 hat
+   sie als Verwechslung mit EN-112 «Kuehlraeume» erklaert. Das stimmt nicht: sie ist eine echte
+   Vorauflage von EN-102 selbst — der urspruengliche PL-04-Quelldateiname
+   `EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf` traegt das Datum sogar im Namen. **Richtig war
+   die Korrektur des geltenden Standes auf Januar 2020, falsch war ihre Begruendung.**
+2. **Der thurgauer Spiegel ist NICHT defekt.** Der Frontmatter-Vermerk «URL seit 2026-08-24
+   defekt, 301 auf nicht aufloesbaren internen Hostnamen» liess sich heute nicht reproduzieren:
+   HTTP 200, 832'765 Bytes, keine Umleitung. Er zeigt nur die aeltere Ausgabe.
+
+**Der fachlich entscheidende Befund: die Zahlen sind identisch.** Der Volltext-Diff (Ausgabezeile
+neutralisiert) ergibt genau **zwei materielle Aenderungen**, beide im Kapitel 8 (sommerlicher
+Waermeschutz), beide im Revisionsindex der Ausgabe Januar 2020 woertlich ausgewiesen:
+
+> «Sept. 2019 · 8.1 Sonnenschutz · Praezisierung zu Free-Cooling»
+> «Sept. 2019 · 8.4 Diagramm · Praezisierung: Einzuhaltende Punkte sind «Vereinfachungen»»
+
+**Kapitel 2, 5, 6 und 7 sind wortgleich** — damit sind **alle in diesem Destillat gefuehrten
+Grenzwerte** (Tabelle 2 U-Werte Neubau, Tabelle 3 Waermebruecken, Tabelle 4 Umbau/Umnutzung,
+Tabelle 5 Heizwaermebedarf) zwischen den beiden Ausgaben unveraendert. Es besteht **kein
+Korrekturbedarf an einer einzigen Zahl** der KB, und die 57 Backlinks auf dieses Destillat tragen
+weiter. Das ist der belastbare Teil des Befunds: nicht «vermutlich gleich», sondern zeilenweise
+verglichen.
+
+**Sachlicher Zugewinn aus der Revision (Kap. 8.1, Wortlaut Ausgabe Januar 2020):**
+
+> «Automatische Steuerung des Sonnenschutzes ist noetig, wenn eine Kaeltemaschine fuer die
+> Kuehlung eingebaut wird. Das heisst bei einer Anlage ohne Kaeltemaschine z.B. Free-Cooling via
+> Erdsonde oder Grundwasser, ist die Automatisierung des Sonnenschutzes keine Pflicht. Das
+> alleinige Betreiben von Umwaelz- und Foerderpumpen gilt nicht als aktive Kuehlung.»
+
+Dieser Satz stand in der Ausgabe Dezember 2018 noch nicht und war in der KB nirgends erfasst →
+eingearbeitet in `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`, Bauherren-Antwort
+**F258**. Die zweite Aenderung (Kap. 8.4) stuft die im Ablaufdiagramm genannten Punkte
+ausdruecklich als «Vereinfachung» ein — der volle SIA-180-Nachweis bleibt der Massstab, das
+Diagramm ist der vereinfachte Weg dorthin.
+
+**Portal-Umzug (fuer kuenftige Links):** `endk.ch` leitet per 301 auf **`energiehub-gebaeude.ch`**
+um; die Vollzugshilfen liegen dort unter `/fachleute/vollzugshilfen/`. Das dortige Angebot fuehrt
+weiterhin nur die Saetze «EN-100 bis EN-142 (MuKEn 2014)» und historisch «EN-1 bis EN-16
+(MuKEn 2008)» — **kein MuKEn-2025-Satz**, kein Termin dafuer publiziert (Abruf 24.08.2026).
 
 Verwandt: `[[sia-380-1-heizwaermebedarf-berechnung]]`, `[[bauphysik-heizwaermebedarf-kennwerte]]`,
 `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`, `[[enfk-en-104-eigenstromerzeugung]]`,

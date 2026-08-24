@@ -5,7 +5,7 @@ ausgabe: EN-102 Ausgabe Januar 2020 (Basis SIA 380/1:2016) · HBA-Richtlinie 23.
 gelesen: 2026-07-16 (curl+pdftotext, Volltext aller vier Dokumente); 2026-07-25 (MuKEn-2025-Originaltext Art. 1.7-1.11 + Erläuterungen per curl+pdftotext vollständig gelesen; Kt.-SZ-Vollzugsseiten via WebFetch gelesen); 2026-07-25 Run 104 (SIA-Shop-Produktmetadaten SIA 380/2:2022 + SIA 382/1:2025 via WebFetch; SIA-180-Korrigenda C2:2020 (11 S., gratis) per curl+pdftotext vollständig gelesen; SIA-4001:2022-Wegleitung nur Titelseite/Inhaltsverzeichnis als Gratis-Leseprobe; SIA-Normentwurf prSIA 382/1:2022-11 (182 S., svlw.ch, Vernehmlassungsentwurf ohne Gültigkeit) per curl+pdftotext vollständig gelesen; espazium-Fachartikel «Neue Normen SIA 380 und SIA 380/2» via WebFetch)
 datenstand: 2026-07-16 — SIA-180:2014-Grenzwerte für Verfahren 1 direkt zitiert; Verfahren-2-gtot-Grenzwerte für Fassadenfenster (Fig. 12) über SIA 180 Ziff. 5.2.4.1 aus KB `normen` ergänzt (Wissens-Chef Run 6), Fig. 13 (Dachflächenfenster) weiterhin offen; V3-Kriterium auf Norm (Fig. 3, 0 h) vs. Vollzugs-Abweichung (Fig. 4, 100/400 h) präzisiert; EN-ZH-Formularstruktur amtlich bestätigt. **2026-07-25 ergänzt:** MuKEn 2025 Art. 1.9 (Basismodul-Ebene, ⚠ Empfehlung der EnDK, noch nicht automatisch geltendes kantonales Recht) sowie Kt.-SZ-Vollzug (EVEN seit 1.1.2026, keine eigene, von der nationalen EN-102-Vollzugshilfe abweichende Wegleitung auffindbar — Negativbefund, siehe unten). **2026-07-25 Run 104 ergänzt:** Figur 13 (Dachflächenfenster) bleibt trotz vertiefter Recherche unbelegt (Negativbefund Korrigenda C2:2020 bestätigt nur, dass Fig. 13 dort NICHT korrigiert wurde); SIA-380/2-vs-382/1-Verhältnis aufgelöst — echter Normen-Systemwechsel 2022/2025 bestätigt (SIA 382/1:2025 ersetzt SIA 382/1:2014, SIA 380/2:2022 ersetzt SIA 382/2:2011+SIA 2044:2019), kein Zitierfehler im MuKEn-2025-Kommentar.
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-08-24 (Free-Cooling-Erleichterung aus EN-102 Kap. 8.1 Ausgabe Januar 2020 neu erfasst; Negativbefund MuKEn-2025-Umsetzung ZH/SZ nachgetragen)
 ---
 
 # Sommerlicher Wärmeschutz — Nachweisverfahren nach SIA 180:2014 (Kt. ZH)
@@ -128,6 +128,39 @@ als das gesetzliche Minimum (siehe unten).
   ganztags verschattete Fenster ohne Reflexionen
 - Aussenliegende bewegliche Systeme: **Windwiderstandsklasse 4** nach SN EN 13659+A1 als Minimum
   (ohne automatische Steuerung eine Klasse höher)
+
+## Free-Cooling: wann die automatische Steuerung des Sonnenschutzes NICHT Pflicht ist
+
+**Neu erfasst 2026-08-24** aus der Vollzugshilfe **EN-102, Ausgabe Januar 2020, Kap. 8.1** — die
+Passage kam mit der Revision Sept. 2019 hinzu und fehlte in der Vorauflage Dez. 2018 (Editions-
+vergleich → `[[enfk-en-102-waermeschutz-2018]]`). Wortlaut:
+
+> «Automatische Steuerung des Sonnenschutzes ist nötig, wenn eine Kältemaschine für die Kühlung
+> eingebaut wird. Das heisst bei einer Anlage ohne Kältemaschine z.B. Free-Cooling via Erdsonde
+> oder Grundwasser, ist die Automatisierung des Sonnenschutzes keine Pflicht. Das alleinige
+> Betreiben von Umwälz- und Förderpumpen gilt nicht als aktive Kühlung.»
+
+**Was das praktisch heisst:** Der Auslöser für die Steuerungspflicht ist die **Kältemaschine**,
+nicht die Kühlung als solche. Wer über eine Erdsonde oder Grundwasser **passiv** kühlt
+(Geocooling/Free-Cooling, nur Umwälz- und Förderpumpen im Betrieb), löst die Pflicht zur
+automatischen Sonnenschutz-Steuerung **nicht** aus — die Pumpen zählen ausdrücklich nicht als
+aktive Kühlung. Die zweite Auslöse-Bedingung bleibt davon unberührt: sobald eine Kühlung nach
+SIA 382/1:2014 «notwendig» oder «erwünscht» ist, greift die Steuerungspflicht trotzdem.
+
+**Warum das für JANS zählt:** Motorisierung plus automatische Steuerung des Sonnenschutzes ist
+über eine ganze Fassade eine erhebliche Position, und die Kombination Erdsonde + Free-Cooling ist
+in der KB an mehreren Stellen als der wirtschaftlich attraktive Kühlweg belegt
+(`[[betonkernaktivierung-tabs-energieeffizienz]]`, `[[erdsonden-regeneration-sondenfeld-dimensionierung]]`).
+Beides zusammengelesen ergibt einen konkreten Planungshebel, den bisher weder das eine noch das
+andere Destillat allein hergab.
+
+⚠ **Zwei Vorbehalte, ausdrücklich:** (1) Die Aussage stammt aus der **nationalen** Vollzugshilfe;
+ein Kanton oder eine Stadt kann strenger sein (die Stadt-ZH-/HBA-Praxis oben verlangt bei hohem
+Glasanteil ohnehin motorisierten Sonnenschutz mit automatischer Steuerung — dort greift die
+Erleichterung nicht). (2) Unter **MuKEn 2025 Art. 1.9 Abs. 2** ist die Systematik anders gefasst
+(Ausnahme dort: reversible Wärmepumpen in Wohnbauten ohne aktive Kühlabgabeelemente); ob die
+Free-Cooling-Erleichterung dort gleich weiterläuft, ist **nicht belegt** und bleibt offen, solange
+kein Kanton die MuKEn 2025 umgesetzt hat (Stand 24.08.2026: weder ZH noch SZ, siehe unten).
 
 ## MuKEn 2025 Art. 1.9 — künftige Basismodul-Anforderung (Ausblick)
 

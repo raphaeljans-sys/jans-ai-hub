@@ -139,8 +139,12 @@ Erweiterung) lohnt:
   neu gemacht werden, nicht die 50-Jahre-Marke pauschal übernommen werden.
 - **Nächster Recherche-Schritt** (für eine spätere Vertiefung): gezielt nach ETH-Dissertationen/
   Empa-Berichten mit «Break-even-Punkt» oder «Kipppunkt» Sanierung/Ersatzneubau suchen, sowie
-  nach der aktualisierten SIA-390/1-Vernehmlassung (Klimapfad), die laut
+  nach der Norm **SIA 390/1:2025 «Klimapfad»** (Klimapfad), die laut
   `[[kbob-graue-treibhausgasemissionen-2025]]` konkrete Zielwerte inkl. Betrieb setzt.
+  ⚠ **Statusangabe korrigiert 2026-08-24:** hier stand «aktualisierte SIA-390/1-Vernehmlassung»,
+  die Norm ist jedoch **seit 01.02.2025 publiziert und in Kraft** (sie ersetzt SIA 2040:2017).
+  Der Normtext selbst bleibt kostenpflichtig und wurde nicht eingesehen — die Zielwerte sind
+  weiterhin nur ueber Sekundaerquellen belegt.
 - **Empa-Lead geprüft und verworfen (2026-07-13, Run 49):** Das naheliegend klingende Empa-Projekt
   «DemoUpCARMA» (ETH-geführt, mit Empa/Eawag/PSI) behandelt **Carbonatisierung von Recyclingbeton**
   zur Erzeugung negativer Emissionen — ein anderes Thema, **kein** Sanieren-vs-Neubau-Kipppunkt.

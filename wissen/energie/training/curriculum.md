@@ -2591,3 +2591,24 @@ lesen), zwei geschärfte (F18, F26/F251), zwei gewachsene Themenartikel
    in QUESTIONS abarbeiten statt Dateien) und **rücklaufgetrieben** (Kennwerte aus echten
    JANS-Projektofferten in die KB heben, wie es E-R150-2 gerade verlangt). Beides braucht keinen
    neuen Ordner, sondern eine Entscheidung.
+
+## Nachtrag Run 162 (24.08.2026, automatischer Nachtlauf) — die Steuerungsfrage ist beantwortet
+
+Der Punkt 4 des Run-150-Nachtrags («PL-02 und PL-04 sind beide abgearbeitet. Der Loop braucht
+entweder einen neuen Korpus oder einen anderen Antrieb … Beides braucht keinen neuen Ordner,
+sondern eine Entscheidung») ist mit diesem Lauf **praktisch entschieden, nicht formal**: der
+fragengetriebene Antrieb hat in einem einzigen Lauf **zwei echte Fehler** in den meistzitierten
+Destillaten gefunden (SIA 390/1 als «in Vernehmlassung» geführt, obwohl seit 01.02.2025 in Kraft;
+KBOB-Oekabilanzdaten v8.0 statt v9.0), dazu eine Editionsklaerung an einem 57-fach verlinkten
+Destillat und einen neuen Fachfund. Das ist ein besserer Ertrag als die letzten Dateilaeufe am
+Korpusende, wo von sieben Positionen genau eine neuen Fachwert trug.
+
+**Arbeitsregel, die sich dabei herausgestellt hat:** Kandidaten **nicht** nach «hat noch keine
+Primaerquellen-Verifikation» auswaehlen — bei den Top-20 trifft das nur noch auf wenige zu —,
+sondern nach **alterndem, ausdruecklich datiertem Datenstand**. Wo ein Destillat selbst schreibt
+«in Vernehmlassung», «in Vorbereitung», «Stand 06/2026 ausstehend», «Version x.0», steht eine
+pruefbare Behauptung mit Verfallsdatum. Genau dort lagen beide Fehler.
+
+**Naechster Zuschnitt:** Raenge 21-40 der Backlink-Liste nach derselben Logik; parallel der
+Ruecklauf-Antrieb (E-R150-2, Kennwerte aus echten JANS-Projektofferten), der weiterhin unberuehrt
+ist und nichts mit dem Korpusende zu tun hat.

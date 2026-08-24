@@ -5,7 +5,7 @@ ausgabe: BD LEG – CH 2025 V2, vom VSE-Vorstand verabschiedet 27.06.2025 (Vorga
 gelesen: 2026-07-05 (Web via WebFetch: ekz.ch LEG-Seite + Websuche StromVG/LEG 2026); ergaenzt 2026-07-13 (gwa-energie.ch + upgrid.ch, Rp/kWh-Marktbeispiele); VOLLSTAENDIG VERIFIZIERT 2026-07-13 (Run 52, Primaerquelle BD LEG – CH 2025 V2 lokal per Read-Tool gelesen, S. 1-35)
 datenstand: revidiertes Stromversorgungsgesetz (StromVG), Volksentscheid 09.06.2024, in Kraft **1.1.2026**; Branchenempfehlung BD LEG – CH 2025 V2 verabschiedet 27.06.2025; Anmeldeanspruch fuer LEG erst ab 1.1.2026, fruehestens wirksam per 1.4.2026 (3-Monats-Frist); ⚠ Rp/kWh-Marktbeispiele Stand Juli 2026, nicht amtlich
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-24 (Art. 19h StromVV als amtlicher Direktbeleg fuer 40/20 % nachgetragen; Streichung Anhang 1 der Branchenempfehlung, erster Praxisfall Lupsingen, Negativbefund amtliche Statistik)
 ---
 
 # LEG — Lokale Elektrizitaetsgemeinschaft (Solarstrom uebers oeffentliche Quartiernetz teilen)
@@ -151,6 +151,40 @@ solange der Speicherbetreiber die Bilanz-Bedingung einhält:
   Batteriemonitor 2026 im VSE-Branchendokument zu LEG, Kapitel 8 (noch nicht seitengenau gegen die
   BD-LEG-Primärquelle selbst verifiziert, nur über Sekundärzitat des Batteriemonitors bekannt).
   → [[batteriespeicher-heimspeicher-pv-ch]]
+
+## Verifikation 2026-08-24 — amtlicher Direktbeleg, erster Praxisfall, Negativbefund Statistik
+
+**01 Der Rabatt 40/20 % steht jetzt im Verordnungswortlaut, nicht nur in der Branchenempfehlung.**
+Bisher stuetzte sich dieses Destillat auf die VSE-Branchenempfehlung. Am 24.08.2026 direkt an der
+konsolidierten **StromVV (SR 734.71), Stand 01.01.2026**, nachgelesen (Fedlex-Filestore-Weg nach
+`docs/referenz/fedlex-volltexte.md`, da das Portal ohne JavaScript keinen Text liefert):
+**Art. 19h StromVV «Reduktion des Netznutzungstarifs»**, Abs. 1 — «Der Abschlag auf dem
+Netznutzungstarif, den die Teilnehmer der Gemeinschaft fuer den Bezug von selbst erzeugter
+Elektrizitaet geltend machen koennen (Art. 17e Abs. 3 StromVG), betraegt **40 Prozent** ihres
+Netznutzungstarifs nach Artikel 18 Absatz 3.» Abs. 3 — kann der Strom «aus netztopologischen
+Gruenden … nicht ohne Transformation der Spannung» zu jedem Teilnehmer gelangen, «verringert sich
+der Abschlag fuer alle Endverbraucher der Gemeinschaft auf **20 Prozent**». Abs. 5 nennt woertlich,
+was **nicht** rabattiert wird: Systemdienstleistungen, Stromreserve nach WResV, Netzzuschlag nach
+Art. 35 EnG, Abgaben und Leistungen an Gemeinwesen — deckungsgleich mit der Ausnahmeliste oben.
+
+**02 Branchenempfehlung unveraendert V2, aber Anhang 1 ist weg.** Es gibt keine V3. Die
+Chronologie-Tabelle der geladenen Fassung nennt woertlich «27. Juni 2025 Genehmigung VSE Vorstand»
+und «Dezember 2025 Nach Publikation MC/SDAT wurde Anhang 1 geloescht.» — die Versionsnummer blieb
+V2, ein Anhang entfiel. Wer sich auf Anhang 1 der Branchenempfehlung beruft, beruft sich auf etwas,
+das seit Dezember 2025 nicht mehr Teil des Dokuments ist.
+
+**03 Erster dokumentierter Praxisfall (Einzelbeleg, nicht amtlich).** LEG **Lupsingen BL**, laut
+SRF-Bericht vom 26.07.2026 mit **68 Mitgliedern** «eine der groessten der Schweiz», in Betrieb
+«seit dem Start im April» 2026. Genannte Groessenordnungen: Kaeufer zahlen rund **20 % weniger**
+als der regionale Standardtarif, kleine Produzenten erhalten im Sommer **bis zur Haelfte mehr** als
+bei Ruecklieferung an den grossen Versorger; seit Start rund CHF 4'400 kollektive Ersparnis auf der
+Kaeuferseite und rund CHF 1'100 Mehrertrag auf der Verkaeuferseite. ⚠ **Journalistische Quelle,
+Einzelfall, kein Landesdurchschnitt** — als Groessenordnung brauchbar, nicht als Rechengrundlage.
+
+**04 Negativbefund: es gibt keine amtliche Gesamtstatistik.** Weder ElCom noch BFE publizieren
+(Stand 24.08.2026) eine gesamtschweizerische Zahl gegruendeter LEG, eine Kantonsverteilung oder
+amtlich erhobene Durchschnittstarife. Zwei unabhaengige Suchwege, kein Treffer auf ein
+Monitoring-Dokument. Wer eine solche Zahl nennt, nennt eine Schaetzung.
 
 ## Offene Punkte
 - **Neu:** die im BD-LEG-Dokument (Kapitel 8) beschriebenen erlaubten Messkonzepte für Speicher in

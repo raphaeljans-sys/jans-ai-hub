@@ -1,5 +1,68 @@
 # CHANGELOG
 
+
+## 2026-08-24 — Run 162 (automatischer Nachtlauf): A-BLIND auf die zwanzig meistzitierten Destillate — zwei echte Fehler, eine Editionsklärung, ein neuer Fachfund
+
+**Ausgangslage.** Beide PDF-Korpora erschöpft (PL-04 seit Run 150/161, PL-02 seit Run 148); Block 1
+«Transfer» daher nach der Methode A-BLIND gefahren, für die `QUESTIONS.md` ausdrücklich einen
+eigenen Lauf vorsah. `ps aux` vor Beginn: kein paralleler Energielauf, keine Kollisionsgefahr.
+Sechs parallele Sonnet-Subagenten für die Primärquellen-Recherche, Urteil und Schreibarbeit im
+Hauptkontext (Rule `modellwahl-routine`).
+
+**Befund zur Methode selbst.** Backlink-Zählung neu gebildet: von den Top-20 tragen **15 einen
+dokumentierten Original-Lesevorgang**; bei zweien der vier Ausreisser steht der Vermerk im Feld
+`status:` statt in `gelesen:`. Die A-BLIND-Prämisse trifft auf die Spitze der KB also nur noch
+eingeschränkt zu. Ausgewählt wurden deshalb sechs Destillate mit **ausdrücklich datiertem,
+alterndem Datenstand** — und genau dort lagen beide Fehler.
+
+**Zwei echte Fehler behoben.** (1) **SIA 390/1 war nie «in Vernehmlassung»:** die Norm
+**SIA 390/1:2025 «Klimapfad — Treibhausgasbilanz über den Lebenszyklus von Gebäuden»** ist seit dem
+**01.02.2025 publiziert und in Kraft** und ersetzt SIA 2040:2017; die KB führte sie an fünf Stellen
+falsch, unter anderem in **FAQ F8 (Netto-Null)** — der Fehler war schon beim letzten Update des
+Destillats (29.07.2026) sachlich falsch, nicht bloss veraltet. (2) **KBOB-Ökobilanzdaten stehen bei
+v9.0 (14.07.2026)**, nicht v8.0; zwischenzeitlich existierte v8.1. Ob zitierte Einzelwerte betroffen
+sind, ist **nicht geprüft** → neuer P1-Punkt E-R162-1.
+
+**Editionsklärung EN-102 (57 Backlinks) — Korrektur an der eigenen Arbeit desselben Tages.** Ein
+früherer Lauf vom 24.08. hatte den Ausgabestand zu Recht auf «Januar 2020» korrigiert, die frühere
+Angabe «Dezember 2018» aber als Verwechslung mit EN-112 «Kühlräume» erklärt. Beide Dateien
+nebeneinander geladen: es sind **zwei echte Ausgaben derselben Vollzugshilfe** (832'765 B / 841'171 B,
+je 18 S., beide Basis SIA 380/1:2016). **Die Korrektur war richtig, ihre Begründung falsch.** Der
+Volltext-Diff ergibt **genau zwei materielle Änderungen** (Revisionsindex Jan. 2020, beide
+Sept. 2019, beide Kap. 8) — **Kap. 2/5/6/7 wortgleich, alle U-Wert- und Heizwärmebedarf-Grenzwerte
+der KB unverändert gültig**, zeilenweise verglichen. Nebenbefund: der Vermerk, die Thurgauer Quelle
+sei defekt, liess sich nicht reproduzieren (HTTP 200).
+
+**Neuer Fachfund → FAQ F258.** Aus derselben Revision, in der KB nirgends erfasst: **Free-Cooling via
+Erdsonde oder Grundwasser löst die Pflicht zur automatischen Sonnenschutz-Steuerung nicht aus** —
+Auslöser ist die Kältemaschine, «das alleinige Betreiben von Umwälz- und Förderpumpen gilt nicht als
+aktive Kühlung». Verbindet Geocooling und sommerlichen Wärmeschutz zu einem Kostenhebel an der
+Fassade.
+
+**Bestätigungen und Präzisierungen.** SIA 2063 weiterhin unpubliziert (SIA-Publikationsliste Stand
+30.07.2026) · Zogg-Planungsgrundlagen unverändert V2.0/02.07.2023 · Pronovo-Richtlinie unverändert
+V4.1/03.06.2026, Grundbeitrag CHF 0 wörtlich belegt · EVEN-Kern seit 07.06.2026 unverändert,
+abgelöste Formularreihe amtlich «EN-101 bis EN-141», SZ auf demselben Weg (ZBPUK) · **MuKEn-2025-
+Umsetzung in ZH und SZ ein Jahr nach Verabschiedung weiterhin nicht aufgegleist** · LEG-Rabatt
+40/20 % neu am **Verordnungswortlaut Art. 19h StromVV** belegt statt nur über die Branchenempfehlung,
+deren Anhang 1 im Dez. 2025 gelöscht wurde · **Winterstrombonus** gilt nur ab 100 kW (3.50 bzw.
+2.50 CHF/kW × Winterstrom-Mehrertrag, Auszahlung nach drei Winterhalbjahren) und ist für die typische
+Bauherren-Anlage gegenstandslos · SmartGridready-EMS-Label erst ab Herbst 2026 · **endk.ch leitet per
+301 auf energiehub-gebaeude.ch** um.
+
+**Cross-KB-Bringschuld eingelöst.** `wissen/normen/wiki/REGISTER.md` führte **SIA 2040:2017 mit dem
+Vermerk «gilt»** — in genau dem Register, das Rule `normen-referenz` als Fundstellen-Autorität
+benennt. Korrigiert, **SIA 390/1:2025 als Neuzugang** eingetragen (inkl. Verhältnis zu SIA 2032: kein
+Ablösungsverhältnis), **SIA 2063 als Negativbefund** festgehalten, CHANGELOG dort gesetzt. ⚠ Alle
+Normtexte kostenpflichtig, **nicht eingesehen** — belegt sind nur Publikationsstatus und
+bibliografische Angaben.
+
+**Geändert:** 11 Destillate · `wiki/BAUHERREN-FAQ.md` (F258 neu, F8/F47/F33 überarbeitet) ·
+`wiki/graue-energie.md` · `destillate/INDEX.md` · `wiki/QUESTIONS.md` (Laufabschnitt + 5 neue offene
+Punkte E-R162-1 bis -5) · `training/curriculum.md` · `raw/_INGESTED.md` (Falle Nr. 14) ·
+`wissen/normen/wiki/REGISTER.md` + `wissen/normen/CHANGELOG.md`. Report:
+`outputs/2026-08-24_energie-run162.md`.
+
 ## 2026-08-24c — AHB-Merkblätter 386 (Storensteuerung) und 394 (Wärmepumpen-Messkonzept) primärquellenbelegt destilliert
 
 Anschluss an die vorige Session («386 Storensteuerung und 394 Wärmepumpen-Messkonzept am ehesten

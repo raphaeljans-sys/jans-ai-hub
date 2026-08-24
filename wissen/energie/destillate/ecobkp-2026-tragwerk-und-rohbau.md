@@ -466,7 +466,9 @@ Die folgenden Punkte sind eine Einordnung von JANS, keine wörtliche Wiedergabe 
   aussen), 271/273/283/285 (Gipser-/Schreinerarbeiten, Deckenbekleidungen, Oberflächenbehandlung
   innen)). Wer diese Gewerke belegt braucht, muss die entsprechenden Seiten separat destillieren.
 - Keine Prüfung, ob und wie sich die ecoBKP-2026-Vorgaben zu den zwei bereits in der KB vorhandenen
-  Referenzsystemen SIA 390/1 (Klimapfad-Norm, in Vernehmlassung, siehe `[[graue-energie]]`) und
+  Referenzsystemen SIA 390/1 (Klimapfad-Norm, **seit 01.02.2025 publiziert und in Kraft** —
+  Statusangabe korrigiert 2026-08-24, hier stand vorher «in Vernehmlassung»; siehe
+  `[[graue-energie]]`) und
   Minergie-ECO widerspiegeln — die Verweise in der Quelle (z. B. Ausschlussvorgaben
   Minergie-ECO 210.06/210.07/220.09/220.10/230.04/230.05/120.02/120.04/220.05) sind zwar notiert,
   aber die referenzierten Minergie-ECO-Ziffern selbst wurden nicht gegengelesen.

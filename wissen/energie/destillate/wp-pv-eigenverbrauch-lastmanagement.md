@@ -3,9 +3,9 @@ quelle: «Wärmepumpen, Photovoltaik und Elektromobilität — Planungsgrundlage
 herausgeber: EnergieSchweiz / Bundesamt für Energie BFE (Autor Prof. Dr. David Zogg, FHNW; Co-Autoren BFE, FWS, Swissolar, Swiss-E-Mobility, SmartGridready, Hubacher Engineering)
 ausgabe: Version 2.0, 02.07.2023 (mit Elektromobilität ergänzt; V1.0 01.10.2021)
 gelesen: 2026-07-04 (S. 1-16 vollst.); E-Mobilitaets-Teil ergaenzt 2026-07-11 aus dem Zogg-Fachartikel HK-Gebaeudetechnik 4/24 (S. 52-57 vollst.)
-datenstand: 2023 (Basis Forschungsprojekt OPTEG 2016, >50 reale Installationen 2016–2021); SIA 2063 (Energie-/Lastmanagement) in Vorbereitung
+datenstand: 2023 (Basis Forschungsprojekt OPTEG 2016, >50 reale Installationen 2016–2021); SIA 2063 (Energie-/Lastmanagement) weiterhin **in Vorbereitung** — geprueft 2026-08-24 an der SIA-Publikationsliste Stand 30.07.2026, dort nicht gelistet
 status: established
-last_updated: 2026-07-11
+last_updated: 2026-08-24 (Aktualitaets-Check: SIA 2063 und Quellversion bestaetigt, SmartGridready-EMS-Label ab Herbst 2026 ergaenzt)
 ---
 
 # WP + PV — Eigenverbrauchsoptimierung & Lastmanagement (EnergieSchweiz/Zogg 2023)
@@ -113,6 +113,30 @@ Methode «Laden auf den Tag».
 - **Effizienz vor Eigenverbrauchs-Show:** Nie den Ueberschuss in einen Heizstab «verbraten», nur damit die
   Eigenverbrauchszahl steigt — die JAZ der WP faellt und es wird unwirtschaftlich.
 - **Grundvoraussetzung**: WP zuerst korrekt einregulieren (Heizkurve, hydraulischer Abgleich), dann optimieren.
+
+## Aktualitaets-Check 2026-08-24 — beides bestaetigt, ein Zusatz
+
+**01 SIA 2063 ist weiterhin nicht publiziert.** Die offizielle SIA-Publikationsliste
+(cms.sia.ch/de/api/getMedia/674, **Stand 30.07.2026**, Abruf 24.08.2026) springt im Nummernbereich
+von «2062 2023 Photovoltaik auf und an Gebaeuden» direkt auf «2065 2024 Planen und Bauen in
+Projektallianzen» — **eine Zeile 2063 existiert dort nicht**. Der Vermerk «in Vorbereitung» im
+Frontmatter bleibt damit sachlich richtig; er traegt jetzt ein Pruefdatum, damit der naechste Lauf
+nicht bei null beginnt. (Die SIA-Vernehmlassungsseite selbst ist eine JS-Huelle und lieferte keinen
+Volltext — kein Widerspruch, nur keine Zusatzbestaetigung.)
+
+**02 Die Quelle selbst ist unveraendert Version 2.0.** Das von pubdb.bfe.admin.ch ausgelieferte PDF
+traegt im Versionsverlauf (S. 2) woertlich «1.0 01.10.2021 D. Zogg Planungsgrundlagen
+PV-Waermepumpen» und «2.0 02.07.2023 D. Zogg Mit Elektromobilitaet ergaenzt und ueberarbeitet» —
+keine V3. Dieses Destillat zitiert die aktuellste verfuegbare Fassung.
+
+**03 Zusatz SmartGridready: das EMS-Label kommt erst.** smartgridready.ch/ems, Abruf 24.08.2026,
+woertlich: «Mit unserem neuen Label (ab Herbst 2026) zeichnen wir EMS aus, die grundlegende
+Funktionen erfuellen.» Genannt sind sechs Zertifizierungskriterien (Sicherheit, Kommunikation
+innerhalb von Gebaeuden, Netzanbindung, Leistungsbegrenzung, Systemoptimierung, Monitoring),
+geprueft ueber FHNW und BFH. **Nicht belegt und deshalb nicht behauptet:** Anzahl bereits
+zertifizierter Produkte sowie ein Foerder- oder Pflichtbezug. Fuer die Bauherrschaft heisst das:
+ein herstelleruebergreifendes EMS-Guetesiegel ist im Entstehen, aber zum heutigen Zeitpunkt noch
+kein Auswahlkriterium, auf das man sich in einer Ausschreibung stuetzen koennte.
 
 ## Offene Punkte
 - Konkrete kWh-/CHF-Endergebnisse der 5 Praxisbeispiele (S. 59–75: EFH Remigen, MFH Wettingen/Wetzikon,

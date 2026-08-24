@@ -1,5 +1,37 @@
 ## 2026-08-24 — SIA-Sweep: fünfzehnte Sättigungsverifikation (10:38 Uhr) — weiterhin 59 Register-/6 Inventar-Zeilen offen, keine Änderung
 
+
+## 2026-08-24 — SIA 2040:2017 als ersetzt richtiggestellt, SIA 390/1:2025 und Negativbefund SIA 2063 neu im Register (Bring-Schuld aus KB `energie`)
+
+Eingang aus dem Energie-Nachtlauf vom 24.08.2026 (Aktualitaetspruefung der meistzitierten
+Energie-Destillate an der Primaerquelle), Rule `wissens-bibliothekar`, Abschnitt
+Cross-KB-Bringschuld — der findende Lauf traegt die Pflicht, den Fund der Empfaenger-KB
+sichtbar zu machen.
+
+**Der Befund ist eine Korrektur, keine Ergaenzung.** `wiki/REGISTER.md` fuehrte **SIA 2040:2017
+(SIA-Effizienzpfad Energie, 2000-Watt) mit dem Vermerk «gilt»**. Die Norm ist seit dem
+**01.02.2025 durch SIA 390/1:2025 «Klimapfad — Treibhausgasbilanz ueber den Lebenszyklus von
+Gebaeuden» ersetzt** (Zentralkommission Normen SIA, verabschiedet 05.12.2024; shop.sia.ch nennt
+SIA 2040:2017 samt Korrigendum SIA 2040-C1 ausdruecklich als ersetzt; espazium.ch woertlich «wurde
+per 1. Februar 2025 publiziert»). Damit hat das Register anderthalb Jahre lang eine abgeloeste
+Norm als geltend ausgewiesen — relevant, weil Rule `normen-referenz` genau dieses Register als
+Fundstellen-Autoritaet benennt.
+
+Drei Zeilen geaendert bzw. neu:
+1. **SIA 2040** — Statusvermerk «gilt» ersetzt durch «ERSETZT», mit Beleg und Verweis auf 390/1.
+2. **SIA 390/1:2025** — Neuzugang mit Titel, Verabschiedungs-/Publikationsdatum, Geltungsbereich,
+   Absenkpfad bis 2050 und dem Verhaeltnis zu SIA 2032 (**kein Abloesungsverhaeltnis**: SIA 2032
+   bleibt die Oekobilanzierungs-Methodik, 390/1 baut darauf auf).
+3. **SIA 2063** — Negativbefund festgehalten: «Integrales Energie- und Leistungsmanagement in
+   Gebaeuden» wird seit 2021 als «in Vorbereitung» zitiert, ist aber in der offiziellen
+   SIA-Publikationsliste (Stand **30.07.2026**) nicht enthalten. Nicht publiziert, nicht
+   zitierfaehig — damit muss der naechste Lauf, der auf die Referenz stoesst, nicht neu suchen.
+
+⚠ **Umfang der Belege ausdruecklich:** Alle drei Normtexte sind kostenpflichtig und wurden **nicht
+eingesehen**. Belegt sind ausschliesslich bibliografische Angaben und der Publikationsstatus aus
+oeffentlich zugaenglichen Herausgeber-Seiten. Zahlenwerte aus SIA 390/1 duerfen daraus **nicht**
+abgeleitet werden.
+
 **Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
 Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). Report des letzten
 SIA-Sweep-Laufs (vierzehnte Sättigungsverifikation, 10:05 Uhr, 33 Min. zuvor) zuerst gelesen.

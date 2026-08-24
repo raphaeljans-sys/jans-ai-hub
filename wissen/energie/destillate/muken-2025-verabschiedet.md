@@ -513,6 +513,51 @@ Quelle: EnDK, Website endk.ch, Seite «Publikationen» (`endk.ch/publikationen/`
 curl+pdftotext verifiziert 2026-07-20 (Wayback/Sitemap-Recherche, kein Wayback-Fund nötig — Datei
 liegt live auf endk.ch).
 
+## Aktualitäts-Check 2026-08-24 — ein Jahr nach Verabschiedung: weiterhin keine Umsetzungsvorlage
+
+Nachprüfung des Abschnitts «Aktualitäts-Check 2026-07-23» am heutigen Stand, rund ein Jahr nach der
+EnDK-Verabschiedung vom 29.08.2025. **Ergebnis: unverändert, mit drei neuen Belegen.**
+
+**01 Kanton Zürich — kein publiziertes Verfahren.** zh.ch «Vollzugsordner Energie», Abruf
+24.08.2026: «Die aktuelle Ausgabe stammt vom Januar 2023 … und basiert auf den MuKEn 2014.» Die
+letzte publizierte EnerG-Änderung (zhlex, Erlass 730.1) trägt Beschlussdatum **05.12.2022**,
+Inkraftsetzung 01.10.2023, und betraf das Meldeverfahren für Solaranlagen und Wärmepumpen. Die
+kantonale Klimastrategie (Massnahme GE03) sagt nur, dass «im Rahmen der Mustervorschriften der
+Kantone im Energiebereich (MuKEn) weiterhin mit der EnDK zusammengearbeitet» werde — ohne
+Verfahrensstand, ohne Termin. ⚠ **Nicht verwechseln:** die 2024 laufende ZH-Vernehmlassung
+«Revision Energiegesetz und Richtplan» betrifft die Beschleunigung der Bewilligungsverfahren für
+Wind- und grosse Solaranlagen, nicht die Gebäude-Wärmevorschriften.
+
+**02 Kanton Schwyz — kein publiziertes Verfahren.** Der jüngste einschlägige Regierungsratsbeschluss
+(**RRB Nr. 632/2025 vom 02.09.2025**, Antwort auf die Motion M 7/25 zur PV-Pflicht, per curl von
+sz.ch geladen) stellt ausdrücklich auf **MuKEn 2014** ab: «Die Eigenstromerzeugungspflicht für
+Neubauten wurde mit den MuKEn 2014 eingeführt. An der Plenarversammlung der EnDK vom 30. August 2024
+wurde die Eigenstromerzeugungspflicht auf bestehende Bauten ausgeweitet.» Die MuKEn 2025 werden im
+Dokument nicht erwähnt — und das drei Tage nach ihrer Verabschiedung. Die geltenden kEnG/kEnV
+(Kantonsrat 14.06.2021 bzw. Regierungsrat 22.03.2022, in Kraft seit 01.05.2022) beruhen ebenfalls
+auf MuKEn 2014. Eine zwischenzeitliche Teilrevision betraf allein die Tiefengeothermie-Förderung
+(§ 14/§ 15 kEnG), ohne MuKEn-Bezug. ⚠ Werkzeug-Vermerk: die allgemeine sz.ch-Vernehmlassungsliste
+antwortete mit **HTTP 403** (Bot-Schutz); die Einzel-PDF unter `sz.ch/public/upload/assets/<id>/…`
+sind dagegen per curl erreichbar. Der Negativbefund stützt sich auf die erreichbaren Dokumente, ein
+abschliessender Beweis über die gesperrte Übersichtsseite fehlt.
+
+**03 Auch die Vollzugsebene ist nicht nachgezogen.** Das EnDK-Portal führt unter
+«Fachleute → Vollzugshilfen» weiterhin nur die Sätze «EN-100 bis EN-142 (MuKEn 2014)» und
+historisch «EN-1 bis EN-16 (MuKEn 2008)» — **kein MuKEn-2025-Satz und kein Termin dafür**
+(Abruf 24.08.2026). Die Vollzugshilfe EN-102 «Wärmeschutz von Gebäuden» liegt selbst in der im
+August 2025 neu hochgeladenen Fassung unverändert als **Ausgabe Januar 2020 auf Basis
+SIA 380/1:2016** vor (→ `[[enfk-en-102-waermeschutz-2018]]`). Solange die Vollzugshilfen auf
+MuKEn 2014 stehen, ist auch praktisch nichts umgestellt.
+
+**04 Portal-Umzug, für alle künftigen Links.** **`endk.ch` leitet per 301 auf
+`energiehub-gebaeude.ch` um.** Der frühere Provenienz-Vorbehalt («endk.ch liefert 404, nur Spiegel
+verfügbar») ist damit anders zu lesen: das Portal wurde umbenannt beziehungsweise migriert, der
+bisherige «Spiegel» ist die kanonische Adresse geworden.
+
+**Zusammengefasst für die Bauherren-Antwort (F47):** Die MuKEn 2025 bleiben ein Ausblick. Für ein
+heute eingereichtes Gesuch in ZH oder SZ gilt weiterhin das auf MuKEn 2014 beruhende kantonale
+Recht — ein Jahr nach Verabschiedung, bei einem EnDK-Zielhorizont «alle Kantone bis 2030».
+
 ## Aktualitäts-Check 2026-07-23 — kantonaler Umsetzungsstand ZH/SZ unverändert
 
 Gezielte Nachrecherche (WebSearch/WebFetch) zum Umsetzungsstand in den Kantonen ZH und SZ, im

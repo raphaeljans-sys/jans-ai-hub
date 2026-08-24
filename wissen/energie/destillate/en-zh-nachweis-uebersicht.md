@@ -3,7 +3,7 @@ quelle: "EN-ZH «Nachweis der energetischen und schalltechnischen Massnahmen» (
 herausgeber: "Baudirektion Kanton Zürich, AWEL — Energie"
 ausgabe: "EN-ZH-005, Version Juli 2022 (gueltig bis 31.12.2025)"
 gelesen: 2026-06-07
-datenstand: "PDF-Formular Juli 2022; ⚠ seit 1.1.2026 abgeloest durch elektronischen Vollzug EVEN (energievollzug.ch) — Web-Stand 2026-06-07"
+datenstand: "PDF-Formular Juli 2022; ⚠ seit 1.1.2026 abgeloest durch elektronischen Vollzug EVEN (energievollzug.ch) — Web-Stand **2026-08-24 nachgeprueft** an den oeffentlichen zh.ch-Seiten, Kern unveraendert; abgeloeste Formularreihe amtlich «EN-101 bis EN-141»"
 status: established
 last_updated: 2026-08-24 (Korrektur: veraltete SIA-380/1-2009-Prämisse in «Offene Punkte»
   richtiggestellt, EVEN-Verweis auf `planungsgrundlagen` nachgetragen — inhaltliche Kennwerte
@@ -53,6 +53,53 @@ weiter — nur das Medium hat gewechselt.
 - Welche Nachweise konkret noetig sind, haengt von Bauaufgabe (Neubau/Umbau/Umnutzung) und
   Nutzung ab — das EN-ZH-Deckblatt (heute EVEN) ist die Checkliste dafuer.
 - **Praxis 2026:** Energienachweis im Kt. ZH = `energievollzug.ch` (EVEN), nicht mehr PDF.
+
+## Aktualitaets-Check 2026-08-24 — EVEN-Kern bestaetigt, zwei Praezisierungen, eine Luecke
+
+Der EVEN-Teil dieses Destillats beruhte auf einem Web-Stand vom 07.06.2026. Am 24.08.2026 an den
+oeffentlichen zh.ch-Seiten nachgeprueft. **energievollzug.ch selbst liefert ohne Login/JavaScript
+keinen Inhalt** (bestaetigt; kein Login-Versuch unternommen) — der belegbare Weg ist die
+zh.ch-Informationsseite, nicht die Plattform.
+
+**01 Kern bestaetigt.** zh.ch «Energienachweise», Abruf 24.08.2026, woertlich: «Seit 1. Januar 2026
+erfolgt im Kanton Zuerich der Vollzug der energetischen und schalltechnischen Massnahmen ueber die
+neue Plattform «EVEN – Elektronischer Vollzug energetischer Nachweise».» Und: «Die Nachweise sind
+ab sofort ueber die EVEN-Produktivumgebung zu erfassen und bei der Behoerde einzureichen.»
+Uebergangsregel woertlich: das WTA-Formular (2024) «kann fuer Projekte verwendet werden, die bis
+Ende 2025 eingereicht wurden».
+
+**02 ⚠ Formularbezeichnung praezisiert.** Die amtliche Seite nennt als abgeloeste PDF-Formulare
+**«EN-101 bis EN-141»**, nicht «EN-ZH-005». Der Name «EN-ZH-005» stammt vom Deckblatt des
+PL-04-Quell-PDF und ist die Formularnummer **dieses einen Blattes**, nicht die Bezeichnung der
+abgeloesten Reihe. Beides ist richtig, aber nicht dasselbe — bei einer Zitierung gegenueber
+Behoerde oder Fachplanung gehoert die amtliche Reihenbezeichnung «EN-101 bis EN-141» verwendet.
+
+**03 Private Kontrolle unveraendert.** zh.ch «Private Kontrolle Energie», woertlich: die Fachleute
+nutzen «die Formulare fuer die Projekt- und die Ausfuehrungskontrolle auf der Energienachweis-
+plattform EVEN», und «ueber diese Plattform erfolgt auch die Bestaetigung der Privaten Kontrolle
+und das Einreichen an die zustaendigen Baubewilligungsbehoerden der Staedte und Gemeinden». Der
+oben beschriebene Ablauf stimmt.
+
+**04 Kanton SZ geht denselben Weg.** Die ZBPUK hat EVEN fuer die Zentralschweizer Kantone (LU, NW,
+OW, **SZ**, ZG, UR) gemeinsam per Anfang 2026 eingefuehrt; woertlich: «Ab dem 1. Januar 2026 sind
+Energienachweise mit EVEN zu erstellen und einzureichen», bereits eingereichte PDF-Nachweise laufen
+im alten Prozess weiter (energie-zentralschweiz.ch, Abruf 24.08.2026). **Kein SZ-Sonderweg.**
+⚠ Werkzeug-Vermerk: sz.ch selbst antwortete sowohl per WebFetch als auch per curl mit **HTTP 403**
+(Bot-Schutz) — das ist eine Aussage ueber das Werkzeug, nicht ueber den Inhalt; der Beleg stammt
+deshalb von der Traegerorganisation. Gehoert ins Wege-Register.
+
+**05 Nicht belegbar: Gebuehren und eine Einreichungsfrist.** Fuer den Energienachweis selbst liess
+sich weder eine Gebuehr noch eine ausdrueckliche Frist «vor Baubeginn» woertlich finden. Belegt ist
+nur die **Registrierungsgebuehr der Kontrollperson** (zh.ch «Befugnis zur Privaten Kontrolle
+Energie beantragen»): «fuer den ersten Fachbereich Fr. 400.- und fuer jeden weiteren Fr. 200.-»,
+dazu «pro Fachbereich eine Jahresgebuehr von Fr. 100.-» ab dem zweiten Jahr. Das ist ein anderer
+Sachverhalt und darf nicht als Nachweisgebuehr zitiert werden.
+
+**06 Offen: ein abweichendes Gemeindedatum.** Die Gemeinde Buelach nennt fuer den eigenen
+Einreichungsweg via eBaugesucheZH woertlich «ab dem 1. Februar 2026», waehrend der Kanton den
+01.01.2026 nennt. Ob gemeindespezifische Verzoegerung, redaktioneller Fehler oder zweiter
+Rollout-Schritt (Erstellung ab 1.1., Gemeinde-Uebermittlung ab 1.2.), ist **nicht geklaert** —
+bewusst nicht stillschweigend uebernommen, siehe «Offene Punkte».
 
 ## Offene Punkte
 - EVEN-Detailablauf (Rollen, Fristen, Schnittstelle zur eBaugesuch-Plattform): mittlerweile in

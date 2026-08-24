@@ -5,7 +5,7 @@ ausgabe: BFE-Faktenblatt Stand 27.11.2025 (PDF-Metadaten) · Pronovo «Richtlini
 gelesen: 2026-07-23 (Pronovo-Richtlinie PDF vollst. 56 S. via pdftotext; BFE-Faktenblatt PDF 5 S.; ElCom-FAQ PDF Abschnitt 1.6 + Fussnoten Art. 12/15; BFE-Referenzmarktpreise-PDF; Pronovo-Website haeufige-fragen/ + neuerungen-einmalverguetung-photovoltaik/ als Rohtext)
 datenstand: Struktur 2025/2026 (ab 1.1.2025 erhoehte Neigungs-/Parkflaechenboni) · Basis-Leistungsbeitraege KLEIV unveraendert seit 01.04.2025 (360/300/400 CHF/kWp) · **Grundbeitrag = CHF 0 seit 1.4.2024** (jetzt primaerquellen-belegt) · Winterstrombonus (ersetzt Hoehenbonus) fuer IBN ab 1.1.2026 neu mit CHF-Wert belegt · Minimalverguetung Rueckliefer-/Abnahmepflicht neu seit 1.1.2026 (Art. 15 EnG/Art. 12 EnV) — separat dokumentiert, nicht Teil der EIV
 status: established
-last_updated: 2026-07-23
+last_updated: 2026-08-24 (Winterstrombonus-Mechanik und 100-kW-Untergrenze ergaenzt; Belegvorbehalt zu 360/300/400 CHF/kWp gesetzt; Richtlinienstand V4.1 bestaetigt)
 ---
 
 # Destillat — PV-Einmalverguetung des Bundes (EIV / KLEIV / GREIV / HEIV)
@@ -144,6 +144,38 @@ Einspeisung-Hebel, ~7 J Amortisation) fuer Machbarkeit/Erstgespraech steht in `w
 → `energie-betriebsenergie-pv-wirtschaftlichkeit` (§2/§3). **Fuehrung:** die EIV-Saetze/Systematik bleiben
 hier (energie, established); planungsgrundlagen verweist dorthin. Doppelspur der EIV-Systematik im dortigen
 §1 ist markiert und zum Verschlanken vorgemerkt.
+
+## Verifikation 2026-08-24 — Winterstrombonus praezisiert, ein Belegvorbehalt neu
+
+**01 Richtlinienstand bestaetigt.** Pronovo «Richtlinie Photovoltaik 2026» ist weiterhin
+**Version 4.1, Ausgabedatum 03.06.2026** (56 S.); die Aenderungstabelle S. 4 nennt woertlich
+«03.06.2026 · 4.1 · Aufnahme des Winterstrombonus». Keine neuere Fassung.
+
+**02 Grundbeitrag CHF 0 woertlich am Original belegt.** Richtlinie V4.1, Kap. 8, S. 20: «Die
+Einmalverguetung setzt sich aus einem Grund- und einem Leistungsbeitrag pro kW installierter
+Leistung zusammen. Wobei der Grundbeitrag seit dem 1. April 2024 CHF 0 betraegt.»
+
+**03 Winterstrombonus — die Mechanik, die hier bisher fehlte.** Aus der Pronovo-FAQ
+(pronovo.ch/de/foerderung/photovoltaik/haeufige-fragen/, Abruf 24.08.2026) und Richtlinie V4.1
+Kap. 9.4: der Bonus gilt **nur fuer Anlagen ab 100 kW** mit Inbetriebnahme ab 01.01.2026 und nur,
+wenn die Produktion im Winterhalbjahr (1. Oktober bis 31. Maerz) **500 kWh pro kW uebersteigt**.
+Er ist **keine Pauschale**, sondern **3.50 CHF/kW ohne Eigenverbrauch bzw. 2.50 CHF/kW mit
+Eigenverbrauch, je multipliziert mit dem durchschnittlichen spezifischen Winterstrom-Mehrertrag**.
+Ausbezahlt wird erst rueckwirkend, «sofern die Anspruchsvoraussetzungen waehrend drei vollen
+Winterhalbjahren erfuellt sind»; eine Produktionssimulation ist mit dem Gesuch einzureichen. Er
+ersetzt den per 01.01.2026 ausgelaufenen Hoehenbonus. **Fuer die typische Bauherren-Anlage unter
+100 kW ist er damit gegenstandslos** — das war aus der bisherigen Formulierung nicht erkennbar.
+
+**04 ⚠ Belegvorbehalt zu den Leistungsbeitraegen 360/300/400 CHF/kWp.** Diese drei Zahlen liessen
+sich am 24.08.2026 **nicht woertlich** an einer statischen Primaerquelle bestaetigen: die
+Richtlinie druckt keine aktuelle Tariftabelle, sondern verweist auf den Online-Tarifrechner, und
+dieser rechnet serverseitig (per curl/WebFetch nur Platzhalter «-.--»). Indirekt gestuetzt sind sie
+gut — Pronovo dokumentiert die Anpassung per 01.04.2025, und Swissolar schreibt am 09.01.2026
+woertlich «Die Verguetungssaetze werden dieses Jahr nicht gesenkt». **Bis zur Live-Bestaetigung im
+Rechner sind die drei Werte daher als indirekt belegt zu fuehren, nicht als primaerquellenbelegt.**
+Gegenprobe fuer die Vorsicht: eine gepruefte Anbieter-Sekundaerquelle nannte einen Grundbeitrag von
+«ca. CHF 350 pro Anlage» — direkter Widerspruch zur Primaerquelle (CHF 0). Werte fuer 2027 sind
+nirgends publiziert, auch nicht als Ankuendigung.
 
 ## Offene Punkte / Folgelaeufe
 - **Teilweise geklaert (2026-07-23):** der Grundbeitrag betraegt CHF 0 (primaerquellen-belegt), die

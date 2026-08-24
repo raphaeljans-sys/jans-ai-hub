@@ -1,8 +1,8 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
-last_updated: 2026-08-23
-datenstand: 2006-12 (ältester zitierter Quellenstand: KBOB-Ökobilanzdaten-Gründungsempfehlung 2007, Datenstand Dezember 2006 — im Artikel als Methodik-Illustration ohne geltende Rechenwerte gekennzeichnet; aktuelle Datenbasis KBOB-Ökobilanzdaten v8.0, 20.02.2026; KBOB-Faktenblatt Graue THGE, Stand 04.04.2025)
+last_updated: 2026-08-24
+datenstand: 2006-12 (ältester zitierter Quellenstand: KBOB-Ökobilanzdaten-Gründungsempfehlung 2007, Datenstand Dezember 2006 — im Artikel als Methodik-Illustration ohne geltende Rechenwerte gekennzeichnet; aktuelle Datenbasis KBOB-Ökobilanzdaten **v9.0, 14.07.2026** — korrigiert 2026-08-24, vorher v8.0; KBOB-Faktenblatt Graue THGE, Stand 04.04.2025 unverändert Version 1; Norm **SIA 390/1:2025 «Klimapfad» seit 01.02.2025 in Kraft**, ersetzt SIA 2040:2017)
 sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md, destillate/kbob-oekobilanzdaten-baubereich-2007.md]
 links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]], [[kbob-oekobilanzdaten-baubereich-2007]]
 ---
@@ -56,8 +56,15 @@ einreichbar.
 - **Healthcare-relevant:** Spitäler liegen beim Basisgrenzwert GW_EBF bei **19,9 (Minergie 2023)
   bzw. 18,5 (Minergie 2026.1) kg CO₂-eq/m² EBF·a** — technik-/materialintensiver, daher höher als
   Wohnen. Konkretes Planungsziel im JANS-Healthcare-Geschäft.
-- **Strenger:** Klimapfad-Norm **SIA 390/1** (in Vernehmlassung) verlangt für Kat. I–VI **9 kg/m²·a
-  inkl. PV/Erdsonde/Solarthermie**.
+- **Strenger:** Klimapfad-Norm **SIA 390/1:2025 «Klimapfad — Treibhausgasbilanz über den
+  Lebenszyklus von Gebäuden»** verlangt für Kat. I–VI **9 kg/m²·a inkl. PV/Erdsonde/Solarthermie**.
+  ⚠ **Statuskorrektur 2026-08-24:** hier stand «in Vernehmlassung» — die Norm ist **seit
+  01.02.2025 publiziert und in Kraft** (Zentralkommission Normen SIA 05.12.2024; sie ersetzt
+  SIA 2040:2017 «SIA-Effizienzpfad Energie» samt Korrigendum SIA 2040-C1 und baut methodisch auf
+  SIA 2032 auf). **In Kraft heisst hier nicht rechtsverbindlich:** eine SIA-Norm gilt nur, soweit
+  sie vereinbart oder von einem Label/Gesetz in Bezug genommen wird — siehe den Abschnitt «Kommt
+  rechtlich» weiter unten. Der Zielwert 9 kg/m²·a stammt weiterhin aus dem Minergie-Nachweiskurs
+  2023, nicht aus dem Normtext selbst (kostenpflichtig, nicht eingesehen).
 - **Bauliche Reduktionshebel** (grösster → kleinster, ~18 → ~3 kg): geringe **Spannweiten** →
   Materialisierung → tieferer **Fensteranteil** → Gebäudetechnik nicht in die Decke einlegen →
   optimierte **Baugrube/Fundation, wenig/kein UG** → **Neubau ohne UG** → **Weiterverwendung** von
@@ -102,7 +109,9 @@ liefert den Rahmen (Datenstand 04.04.2025) → `[[kbob-graue-treibhausgasemissio
   Bestandserhalt schlagen Materialoptimierung am Neubau.**
 - **Kommt rechtlich:** Pa.Iv. 20.433 → die Kantone **müssen** künftig (Art. 45 Abs. 3 lit. e EnG)
   **Grenzwerte für graue Energie** festlegen (kommende MuKEn). Heute schon im Vollzug nur über Labels:
-  **Minergie-ECO** (GW1/GW2), **SNBS**, **SIA 390/1 Klimapfad** (strengste Zielwerte, inkl. Betrieb).
+  **Minergie-ECO** (GW1/GW2), **SNBS**, **SIA 390/1:2025 Klimapfad** (strengste Zielwerte, inkl.
+  Betrieb; als Norm seit 01.02.2025 in Kraft, aber nur über Vereinbarung/Label wirksam — nicht als
+  Gesetz).
 
 ## Konkrete kg CO₂-eq/m² je Bauteil (belegt 2026-07-21)
 Zwei frei zugängliche Quellen liefern jetzt Bauteil-Kennwerte (Detail-Tabellen und Vorbehalte →

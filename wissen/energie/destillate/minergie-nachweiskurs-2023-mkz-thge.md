@@ -73,8 +73,11 @@ gewichteter Endenergie gebildete Gesamtenergiebilanz abzueglich Eigenproduktion.
   statt durch EBF und liefert einen um 25 % zu tiefen Wert. Die Formel/Systematik gilt unveraendert
   auch im Produktreglement 2026.1 (Anhang G) — nur die GW_EBF-Werte je Kategorie wurden angepasst,
   siehe Verifikations-Update.
-- **Zum Vergleich:** Klimapfad-Norm **SIA 390/1** (damals in Vernehmlassung) fordert fuer Kat. I–VI
-  **9 kg/m²·a inkl. PV/Erdsonde/Solarthermie** — strenger als der Minergie-Basisgrenzwert.
+- **Zum Vergleich:** Klimapfad-Norm **SIA 390/1** (zum Kurszeitpunkt 2023 in Vernehmlassung;
+  **inzwischen publiziert als SIA 390/1:2025, in Kraft seit 01.02.2025** — Statusnachtrag
+  2026-08-24, die historische Angabe «damals in Vernehmlassung» war und bleibt richtig) fordert
+  fuer Kat. I–VI **9 kg/m²·a inkl. PV/Erdsonde/Solarthermie** — strenger als der
+  Minergie-Basisgrenzwert.
 - **THGE-Logik (3 Schichten):** Betrieb *im Gebaeude* → 0 (Fossilverbot, ausser Spitzenlast);
   Betrieb *beigezogene Energie* → von Effizienz und Nutzenden abhaengig; **Erstellung (verbaute THGE)
   → «0 nicht moeglich, minimieren»** — genau das ist Gegenstand des Minergie-Nachweises.
