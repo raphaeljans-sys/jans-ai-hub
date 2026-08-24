@@ -1,3 +1,34 @@
+## 2026-08-24 — SIA-Sweep, Fortsetzung ~08:54 Uhr — elfte unabhängige Sättigungsverifikation
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). NAS bei
+Session-Start nicht gemountet; `wissen/` und `rules/` liegen als echte git-Ordner im
+SSD-Repo vor, dort gearbeitet (Rule `sync-kanonische-quelle`). SharePoint-Normenordner
+auf dieser Station aktuell nicht im erwarteten OneDrive-Pfad sichtbar — ohne Belang, da die
+Register-Verifikation über `shop.sia.ch`/`mobilityplatform.ch` läuft, nicht über lokale PDFs.
+
+**Kollisionscheck:** echter paralleler Prozess an derselben KB, aber am anderen Deliverable
+(`wiki/QUESTIONS.md`) — deckungsgleich mit dem etablierten Split, keine Kollision.
+
+**Nachmessung:** `wiki/REGISTER.md` weiterhin **59** „Kein Volltext im Haus"-Zeilen;
+`training/norm-inventar.md` weiterhin **6** echte offene `[ ]`-Zeilen (SIA 491, SN EN 12193,
+SN 640 052, SN 641 400, SN 640 273a, SIA 181:2020-Re-Destillat) — jede belegt mit
+Produktdatenblatt/Preis/Gültigkeitsdatum, ausnahmslos Beschaffung Bring-Schuld. Kein neues
+Rohmaterial, kein neuer Commit auf `wissen/normen/` seit dem Vorlauf 08:43 Uhr. **Elfte
+unabhängige Bestätigung** derselben Sättigung (nach vollständigem 140-Dateien-Cross-Check
+gegen zwei amtliche SIA-Kataloge in früheren Läufen) — deshalb strukturelle Nachmessung statt
+einer weiteren vollen Stichprobenrunde (Rule `wissens-ruecklauf`: kein Pflicht-Rauschen).
+
+**Diff-Gegenprobe (`git diff --numstat`):** keine Änderung an `wiki/REGISTER.md`,
+`destillate/` oder `training/norm-inventar.md`. Bericht:
+`outputs/2026-08-24_sia-sweep-elfte-unabhaengige-saettigungsverifikation-0854uhr.md`.
+
+**Empfehlung unverändert:** SIA-Sweep bis zu Raphaels Kauf-/Freigabeentscheiden (59
+Register-/6 Inventarzeilen, SIA-Shop/VSS-Shop, VSS-Kundendienst `info@vss.ch` für SN 641 400)
+pausieren. Nächster voller Sweep nur bei neuem Rohmaterial oder Kaufentscheid sinnvoll.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: SIA 266/2-C2:2025 primärquellenfest gelesen (ersetzt C1, Anhang B wandert zu SIA 269/6-1:2025)
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
