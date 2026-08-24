@@ -7691,17 +7691,25 @@ und die Treibhausgasemissionen der Erstellung.
 den Bauzustand zu lesen und nicht als Qualitätsversprechen nach heutigem Massstab. Zweitens
 lohnt sich der Blick auf die Haustechnik: Ein 2012 zertifiziertes Haus hat mit hoher
 Wahrscheinlichkeit keine PV-Anlage, und der Wärmeerzeuger nähert sich nach 14 Jahren dem
-Ersatzzeitpunkt, womit die kantonale Substitutionspflicht ins Spiel kommt. Drittens ist Vorsicht
-geboten bei Aussagen zur Gültigkeit: Das Reglement 2010 nennt eine Fünfjahresfrist im
-Zusammenhang mit der Mehrfachanwendung der Marke. Ob damit auch das objektbezogene Zertifikat
-verfällt, ist aus dieser Quelle nicht zu entscheiden. Vor einer Aussage gegenüber Käuferschaft
-oder Bank ist der Zertifikatsstatus bei der Zertifizierungsstelle abzufragen, statt ihn
-herzuleiten.
+Ersatzzeitpunkt, womit die kantonale Substitutionspflicht ins Spiel kommt. Drittens zur
+Gültigkeit, jetzt primärquellenbelegt statt nur vermutet (Stand 24.08.2026): Ein **definitives**
+Zertifikat wie das von 2012 ist gemäss geltendem Produktreglement 2026.1 **unbeschränkt gültig**
+— aber nur, solange am Gebäude **keine energetisch relevante Änderung** vorgenommen wurde und
+das Objekt weiterhin auf der Minergie-Gebäudeliste geführt wird. Ein Wärmeerzeuger-Ersatz (siehe
+oben, nach 14 Jahren wahrscheinlich) zählt als energetisch relevante Änderung — ohne
+Rezertifizierung (Meldung an die Zertifizierungsstelle, kostenpflichtig, max. 50 % der
+ordentlichen Gebühr) ist unklar, ob das Zertifikat des verkauften Objekts noch den tatsächlichen
+Zustand abbildet. Vor einer verbindlichen Aussage gegenüber Käuferschaft oder Bank ist deshalb
+weiterhin der Zertifikatsstatus bei der Zertifizierungsstelle abzufragen — jetzt aber mit der
+gezielten Frage, ob seit 2012 eine energetisch relevante Änderung gemeldet und rezertifiziert
+wurde, statt allgemein nach dem Verfall zu fragen.
 
 **Quelle:** Verein MINERGIE, «Reglement zur Nutzung der Qualitätsmarke MINERGIE», Stand Januar
 2010, und «Wegleitung Nachweis-Formular MINERGIE», Version 11 vom 03.02.2010, gelesen 07.08.2026
 → `[[minergie-reglement-wegleitung-2010-historisch]]` (Status **superseded**, historische
-Fassung). Geltender Stand: `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
+Fassung). Geltender Stand inkl. Gültigkeitsregime: Produktreglement Gebäudestandards MINERGIE
+Version 2026.1, Kap. 2.1.3/2.2.3/2.3.1, gelesen 24.08.2026 →
+`[[minergie-produktreglement-2026-1-muken-vergleich]]`, `[[minergie-zertifizierung-workflow]]`.
 
 ---
 

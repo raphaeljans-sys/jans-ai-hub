@@ -165,14 +165,18 @@ die Kopplung Hülle ↔ Haustechnik, nicht ihre Werte.
 herunterladbare Excel-Mappe → `[[minergie-nachweisformular-2022-set]]` (dort die Auflösung der
 Frage E-125-5).
 
-**Zur Gültigkeitsdauer eines Zertifikats: weiterhin Negativbefund.** Die offizielle
-Ablauf-Seite (`minergie.ch/de/zertifizieren/ablauf/`, geprüft 15.08.2026) beschreibt die
-provisorische und die definitive Zertifizierung in je sieben Schritten und nennt **keine
-Befristung, keinen Verfall und keine Erneuerung** des Zertifikats. Das bestätigt den bisherigen
-Stand in `[[minergie-zertifizierung-workflow]]`; die Fünfjahresfrist aus dem Reglement 2010
-betrifft die Mehrfachanwendung der Marke, nicht das objektbezogene Zertifikat (QUESTIONS
-E-125-6 bleibt offen, weil ein Negativbefund auf einer Prozessseite kein Beleg für das
-Gegenteil ist — abschliessend nur bei der Zertifizierungsstelle zu klären).
+**Zur Gültigkeitsdauer eines Zertifikats: geklärt am Original, 24.08.2026 (löst E-125-6).**
+Kapitel 2 des Produktreglements 2026.1 unterscheidet zwei Regimes: das **provisorische**
+Zertifikat (Bauphase) ist **3 Jahre gültig**, verlängerbar um **2 Jahre** in begründeten Fällen
+(Kap. 2.1.3); das **definitive** Zertifikat (nach Bauabnahme — das für einen späteren Verkauf
+relevante Dokument) ist **unbeschränkt gültig**, sofern **keine energetisch relevante Änderung**
+am Gebäude erfolgt und es weiterhin auf der Minergie-Gebäudeliste geführt wird (Kap. 2.2.3). Bei
+einer energetisch relevanten Änderung (z. B. Wärmeerzeuger-Ersatz, PV-Zubau) ist eine
+Rezertifizierung nötig, um die Gültigkeit zu erhalten (Kap. 2.3.1, kostenpflichtig, max. 50 % der
+ordentlichen Gebühr). Details, Primärzitat und Fundstelle: `[[minergie-zertifizierung-workflow]]`
+Nachtrag 24.08.2026, `[[minergie-produktreglement-2026-1-muken-vergleich]]` Abschnitt «Kapitel 2».
+Die Fünfjahresfrist aus dem Reglement 2010 betraf die Mehrfachanwendung der Marke und war damit
+eine andere Frist als die hier gefundene — Zufall der Zahl, keine Kontinuität der Regel.
 
 **Die Debatte um das Label gehört zur Beratung.** Dass Minergie unter Fachleuten nicht
 unbestritten ist (Dämmlogik gegen Emissions- und Erzeugungsseite, belegt 2009/2010), ist als

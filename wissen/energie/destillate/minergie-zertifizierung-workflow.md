@@ -7,9 +7,14 @@ datenstand: 2026-06-18 (Minergie 2023, Stand 25.09.2023; Label-Plattform laeuft,
 status: established
 geltungsbereich: "established gilt fuer die Prozessaussagen der gelesenen Foliensatzseiten (S. 43-57).
   Die zitierte Reglementsversion 2023.1 ist seit 01.01.2026 durch Version 2026.1 abgeloest
-  (siehe `[[minergie-produktreglement-2026-1-muken-vergleich]]`); deren Kapitel 1-13 (Prozess/
-  Plattform) sind dort nicht gelesen, daher keine Erstquellen-Bestaetigung, dass Antrags-
-  Checkliste/Pruefrunden-Logik unter 2026.1 unveraendert gelten (Nachtrag 24.08.2026, s. u.)."
+  (siehe `[[minergie-produktreglement-2026-1-muken-vergleich]]`). **Update 24.08.2026, zweiter
+  Lauf desselben Tages:** Kapitel 0-5 des Reglements 2026.1 sind inzwischen primärquellenweise
+  gelesen — die hier beschriebene Zertifizierungslogik (Antrag/Prüfung/Ausstellung über die
+  Label-Plattform) ist unter 2026.1 bestätigt unveraendert, ergänzt um neue Prozessdetails
+  (Fristen, Gebühren, Gültigkeitsdauer, Stichproben — s. Nachtrag unten). Weiterhin nicht am
+  Original der Version 2026.1 geprüft: Kapitel 6-13 sowie die Antrags-Checkliste und die
+  Hilfstool-Namen (WPesti/PVopti/Lüftung/SoWs) selbst — diese kommen im Reglementstext gar nicht
+  vor (Volltextsuche negativ), sondern gehören zur Label-Plattform/Anwendungshilfe."
 last_updated: 2026-08-24
 ---
 
@@ -85,14 +90,26 @@ zum **provisorischen** und nach Bauausfuehrung zum **definitiven Zertifikat**.
   `[[waermepumpe-systemvergleich]]`.
 - **Nachtrag 24.08.2026 (A-BLIND-Pruefung):** Die hier zitierte Kursgrundlage (Produktreglement
   **2023.1**) ist inzwischen durch **Version 2026.1** (gueltig ab 01.01.2026) abgeloest —
-  established belegt in `[[minergie-produktreglement-2026-1-muken-vergleich]]`. Die **Kapitel
-  1-13 des Reglements 2026.1** (dort waere die Prozess-/Plattform-Logik selbst geregelt) sind in
-  jenem Destillat explizit **nicht gelesen** — dieses Destillat kann daher nicht aus erster Hand
-  bestaetigen, dass Label-Plattform-Ablauf, Antrags-Checkliste und Pruefrunden-Logik unveraendert
-  gelten. Zwei Teilaspekte sind indirekt bestaetigt: `wiki/minergie-standards.md` (Update
-  15.08.2026) haelt fest, dass der Nachweis weiterhin ueber die Label-Plattform eingereicht wird
-  (nicht wieder ueber eine Excel-Mappe), und dass die offizielle Ablauf-Seite
-  (`minergie.ch/de/zertifizieren/ablauf/`, geprueft 15.08.2026) weiterhin keine Befristung des
-  Zertifikats nennt — beides deckt sich mit den Aussagen hier. Die **Antrags-Checkliste und die
-  MKZ-Optimierungs-Hebel bleiben ungeprueft gegen 2026.1** und sind bis zu einer Volltextpruefung
-  der Kapitel 1-13 als Stand 2023 zu behandeln, nicht als aktuell bestaetigt.
+  established belegt in `[[minergie-produktreglement-2026-1-muken-vergleich]]`. Zu diesem
+  Zeitpunkt waren die **Kapitel 1-13 des Reglements 2026.1** dort noch nicht gelesen.
+- **Nachtrag 24.08.2026, zweiter Lauf desselben Tages — Kapitel 0-5 jetzt primärquellenweise
+  gelesen** (Volltextabgleich, Details in `[[minergie-produktreglement-2026-1-muken-vergleich]]`
+  Abschnitt «Kapitel 2 — Zertifizierungsverfahren»). Ergebnis: **die hier beschriebene
+  Zertifizierungslogik (Antrag → Prüfung → provisorisches, dann definitives Zertifikat, über die
+  Label-Plattform) ist unter 2026.1 unverändert bestätigt**, ergänzt um primärquellenwörtliche
+  Details, die diese Kursgrundlage 2023 nicht enthielt: feste Fristen (3 Monate für Einreichung/
+  Nachbesserung, sonst Verfahrenseinstellung), ein begrenzter Prüfumfang (technische
+  Plausibilitätskontrolle, keine Nachrechnungspflicht), strafrechtliche Folgen bei Falschangaben
+  (Art. 253 StGB Falschbeurkundung), eine Stichprobenquote von mindestens 20 % aller zertifizierten
+  Projekte (bis 5 Jahre nach dem definitiven Zertifikat), die Gebührenstaffel (Kap. 3) und die
+  Rezertifizierungswege bei energetisch relevanten Änderungen (Kap. 2.3). **Wichtigster Einzelfund:
+  eine bisher in der KB unbelegte Gültigkeitsfrist** — das provisorische Zertifikat ist 3 Jahre
+  gültig (verlängerbar um 2), das definitive Zertifikat unbeschränkt gültig, sofern keine
+  energetisch relevante Änderung erfolgt und das Gebäude auf der Minergie-Gebäudeliste bleibt. Löst
+  `wiki/QUESTIONS.md` E-125-6 (bisher offen, s. `wiki/minergie-standards.md` Update 15.08.2026 und
+  `wiki/BAUHERREN-FAQ.md` F221).
+  **Weiterhin ungeprüft gegen 2026.1: Kapitel 6-13** (technische Detailanforderungen) sowie **die
+  Antrags-Checkliste und die Hilfstool-Namen (WPesti, PVopti, Lüftung, SoWs) selbst** — eine
+  Volltextsuche über Kap. 0-13 des Reglements 2026.1 fand diese Tool-Namen **nicht**; sie gehören
+  zur Label-Plattform/Anwendungshilfe (Version 2026.2), nicht zum Reglementstext, und wären dort zu
+  verifizieren, nicht hier.
