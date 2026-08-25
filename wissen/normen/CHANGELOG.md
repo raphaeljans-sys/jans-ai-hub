@@ -1,3 +1,53 @@
+## 2026-08-26 — Normen-Nacht Run 62: erste Abdeckungsrunde auf SIA 118 — 84 Kernlücken, kein falscher Wert
+
+- **`destillate/sia-118-1991.md` (+120/−5):** Auf dem meistgezogenen Destillat des Hub (Rule
+  `normen-referenz` verpflichtet `werkvertrag`, `unternehmerkontrolle`, `kostenkontrolle` und
+  `ausschreibung` darauf) lief erstmals die **Abdeckungsrichtung**. Sechs Segment-Agenten nahmen
+  Art. 1-190 absatzweise auf und hielten sie gegen das Destillat. Ergebnis: **84 Kern- und 82
+  Nebenlücken bei null falschen Werten**. Die Kernbefunde sind **inline** eingearbeitet
+  (Methodik-Pflicht 9), 18 Blöcke über alle sieben Kapitel, dazu ein neuer Abschnitt
+  «Kostengrundlage, Teuerung, Bauhandwerkerpfandrecht (Kap. 2.4-2.7)» und sieben neue Zeilen in der
+  Kennzahlen-Schnellübersicht.
+- **Die folgenreichsten Lücken:** Art. 163 (erkannter, aber nicht protokollierter Mangel gilt als
+  stillschweigend genehmigt — die Protokollfalle der Abnahme, ganzer Artikel fehlte) · Art. 125
+  Abs. 2 (nur die Fassadengerüst-Freifrist war destilliert, **nicht** der Vergütungsanspruch für
+  längeres Vorhalten — der Absatz neigte sich dadurch gegen den Unternehmer) · Art. 83
+  Bauhandwerkerpfandrecht (durch die falsche Bereichsangabe «Teuerung Art. 62-83» verschluckt;
+  die Teuerung reicht nur bis Art. 82) · Art. 169 (alle drei Schranken der Mängelrechte fehlten) ·
+  Art. 86 Abs. 4 (Ausnahme von der ±20-%-Regel, die als *zentrale Kennzahl* geführt wird) ·
+  Art. 147/151 (Gesamtpreisverträge haben eine eigene Zahlungs- und Sicherheitensystematik).
+- **Zwei eigene Funde des Hauptprozesses ausserhalb der Agenten-Segmente:** Die letzten beiden
+  Blätter des PDF sind **kein Gesetzestext-Abdruck**, wie das Destillat behauptete, sondern das
+  **SIA-Merkblatt A 95-004d vom 05.01.1995** der Kommission 118 zur MWST — mit der dauerhaft
+  gültigen Einrechnungsfiktion (nicht offen ausgewiesene MWST gilt als in die Preise eingerechnet,
+  keine Nachforderung) und den Teuerungs-Ausschlüssen bei Pauschalpreis und Regie-Richtpreis.
+  Ferner Art. 135 Abs. 4 (Bauherr stellt bei Ausbau >5 Geschosse/>15 m Vertikaltransport und
+  Sanitäres kostenlos), den kein Agent gemeldet hatte.
+- **Status `established` → `speculative`.** Die Refuter- und Q&A-Runden vom Juli 2026 bleiben
+  ausdrücklich gültig; herabgestuft wird allein nach **Methodik-Pflicht 13**, weil beide
+  Prüfrichtungen auf allen Teilen gelaufen sein müssen und die Nebenbefunde offen sind. Dieselbe
+  Entscheidung wie bei `sia-416-1-2007` in Run 54. **Prüfstand-Tabelle ins Destillat** aufgenommen,
+  mit Ausweis dessen, was ungeprüft blieb.
+- **Zweiter realer Beleg für Methodik-Pflicht 13, und der bisher grösste.** SIA 118 hatte drei
+  unabhängige Prüfrunden bestanden und galt im Frontmatter als «vollständig gegen den Volltext
+  verifiziert». Die Lücken fallen fast durchgehend in Klasse (b) des Run-53-Schemas —
+  weggelassener eigenständiger Inhalt, für den die Refuter-Richtung strukturell blind ist.
+- **Abgefangener Fehlbefund:** Der Report von Run 61 führte den «Fliesstext der Kapitel 1-4 des
+  Lignatec» als nie gefahrene Vertiefung. Run 41 hat ihn am 01.08.2026 gefahren, und
+  `wiki/QUESTIONS.md` hält das seit dem 24.08.2026 fest. Run 61 hat eine überholte Zeile der
+  Reports 40-45 fortgeschrieben. Als N62-4 geschlossen. Methodik-Pflicht 10, angewandt auf eine
+  **interne** Statusaussage.
+- **Seitenversatz am Rand abgelesen statt gerechnet** (Methodik-Pflicht 6): gedruckte Seite =
+  PDF-Seite minus 2, an sechs Stichproben belegt. Zitiert wird im Destillat gleichwohl nach
+  Artikel und Absatz — ungeprüfte Seitenzahlen zu streuen war der Fehler aus Run 50.
+- **`wiki/QUESTIONS.md` (+34/−0):** N62-1 (82 Nebenbefunde einarbeiten), N62-2 (Refuter-Runde auf
+  das MWST-Merkblatt), N62-3 (**prüfen, ob dieselbe Lücke weitere `established`-Destillate trifft
+  — nur 26 von 461 tragen einen Prüfstand**), N62-4 (geschlossen).
+- **`destillate/INDEX.md`** Zeile 59 nachgeführt. Report:
+  `outputs/2026-08-26_normen-nacht-run62.md`.
+- **Inventar unverändert:** kein neues Rohmaterial (PL-02 jüngste Änderung 07.08.2026, PL-03 keine),
+  0 destillierbare Positionen; die 6 offenen Zeilen bleiben Kauf-Bring-Schulden.
+
 ## 2026-08-25 — Wissens-Chef Run 43: Art. 229 StGB — derselbe Strafrahmen-Fehler, den `baurecht` an sich selbst korrigiert hat
 
 - **Zwei Rechtsstands-Vorbehalte gesetzt (je +12/−0):** `destillate/bfu-sicherheit-rechtliche-aspekte.md`

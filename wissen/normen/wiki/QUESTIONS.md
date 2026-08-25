@@ -6111,3 +6111,34 @@ kostenpflichtig sind, ist mindestens der Publikationsstatus auf shop.sia.ch zu k
 Werte in einem Nachweis verwendet werden. Hinweis eingetragen durch die KB `energie` gemäss Rule
 `wissens-bibliothekar` (Cross-KB-Bringschuld); Beleg
 `wissen/energie/outputs/2026-08-25_energie-run163.md`.
+
+## Run 62 (MacBook Pro, 26.08.2026) — neu offen aus der ersten Abdeckungsrunde auf SIA 118:1991
+
+Kontext: Auf `sia-118-1991.md` lief am 26.08.2026 erstmals die **Abdeckungsrichtung**
+(Methodik-Pflicht 13). Sie förderte **84 Kern- und 82 Nebenlücken** zutage — bei **null falschen
+Werten**. Die Kernbefunde sind inline eingearbeitet, die Nebenbefunde nicht. Voller Lauf-Report:
+`outputs/2026-08-26_normen-nacht-run62.md`.
+
+- [ ] **N62-1 — Die 82 Nebenbefunde zu SIA 118:1991 einarbeiten.** Sie stehen vollständig im
+  Lauf-Report, sind aber nicht im Destillat. Schwerpunkte: Teuerungsmechanik Art. 65-81
+  (Lohn-, Material-, Transportpreisteuerung), Beispielkataloge (Art. 39 Abs. 2, Art. 43 Abs. 1,
+  Art. 63), Vertretungsdetails (Art. 33 Abs. 1-2, Art. 35 Abs. 1, Art. 36 Abs. 2-3).
+  Nächster Lauf, kein Fremdbedarf.
+- [ ] **N62-2 — Refuter-Runde auf das beigebundene SIA-Merkblatt A 95-004d (MWST).** Run 62 hat es
+  erstmals erfasst (Abdeckungsrichtung), aber noch keine unabhängige Widerlegungsprüfung gefahren.
+  Solange sie fehlt, bleibt der Abschnitt `speculative`.
+- [ ] **N62-3 — Prüfen, ob dieselbe Lücke andere `established`-Destillate trifft.** SIA 118 trug
+  `established` seit dem 17.07.2026 auf Grundlage von Refuter- und Q&A-Runden allein — genau die
+  Konstellation, die Methodik-Pflicht 13 seit dem 17.08.2026 als unzureichend bezeichnet. Im Bestand
+  tragen **26 von 461** Destillaten einen Prüfstand; die übrigen `established`-Destillate sind
+  daraufhin nicht gesichtet. **Kandidatenliste erstellen, priorisiert nach Abnehmer-Reichweite**
+  (Rule `normen-referenz` zieht namentlich SIA 102, SIA 416/1, VKF für Werkvertrag, Honorar,
+  Flächen und Brandschutz).
+- [x] **N62-4 — Fehlbefund abgefangen (kein Auftrag).** Der Report von Run 61 führte den
+  «Fliesstext der Kapitel 1-4 des Lignatec» als nächste fällige, nie gefahrene Vertiefung. Das ist
+  überholt: Run 41 (01.08.2026) hat den Fliesstext-Diff gefahren und die Seiten-Inventur
+  `training/lignatec-seiteninventur.md` erstellt; `wiki/QUESTIONS.md` hält das seit dem 24.08.2026
+  ausdrücklich fest (dortige Zeilen zum Lignatec-Block). Run 61 hat eine überholte Zeile der Reports
+  40-45 fortgeschrieben, ohne sie gegen den KB-Stand zu prüfen — derselbe Fehlertyp, den
+  Methodik-Pflicht 10 für externe Statusaussagen beschreibt, hier auf einen **internen** Vorgang
+  angewandt. Kein KB-Fehler, ein Report-Fehler; hier geschlossen, damit ihn kein dritter Lauf erbt.

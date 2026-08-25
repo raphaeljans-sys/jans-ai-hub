@@ -147,3 +147,28 @@ Orchestrator/nächsten Lauf):
   ansetzen, mit deren Ablauf seine Forderung auch ohne Bescheid der Bauleitung fällig wird. Diese
   Fälligkeits-Mechanik ist im Destillat (Zeile Art. 153-156) nicht ausdrücklich abgebildet. LUECKE,
   gemeldet.
+
+---
+
+## ⚠ Nachtrag Run 62 (26.08.2026) — was diese Q&A-Runde strukturell nicht finden konnte
+
+Die Abdeckungsrunde vom 26.08.2026 fand in derselben Norm **84 Kernlücken bei null falschen
+Werten**. Diese Q&A-Runde hatte «keine sachlichen Fehler» gemeldet — beides ist richtig und kein
+Widerspruch, sondern misst zwei verschiedene Dinge.
+
+**Der lehrreichste Einzelfall steht in dieser Datei selbst: F10.** Die Frage lautet, wie lange
+Fassadengerüste dem Bauherrn nach Vollendung unentgeltlich zur Verfügung stehen — und die Antwort
+(zwei Monate, Art. 125 Abs. 2) ist korrekt. Derselbe Absatz beginnt aber mit einer zweiten,
+gegenläufigen Regel: Verlangt die Bauleitung längeres Vorhalten, als die Arbeiten es erfordern,
+**hat der Unternehmer Anspruch auf zusätzliche Vergütung**. Die fehlte im Destillat und ist erst in
+Run 62 nachgetragen worden.
+
+**Warum F10 sie nicht finden konnte:** Die Prüfungsfragen dieser Runde sind **aus dem Destillat**
+abgeleitet. Eine Frage kann nur nach etwas fragen, das jemand schon kennt. Damit teilt die
+Q&A-Selbstbefragung die Blindheit der Refuter-Richtung, die **Methodik-Pflicht 13** für Klasse (b)
+beschreibt (weggelassener eigenständiger Inhalt): Sie prüft zuverlässig, ob das Vorhandene stimmt,
+und ist für das Fehlende strukturell blind. Wer die Fragen dagegen aus der **Quelle** ableitet,
+erhält eine Abdeckungsprüfung — eine andere Methode mit anderem Namen.
+
+**Praktische Folge:** Eine bestandene Q&A-Runde ist wie eine bestandene Refuter-Runde **kein**
+Vollständigkeitsnachweis und trägt für sich allein keinen Statuswechsel auf `established`.
