@@ -1946,6 +1946,27 @@ alle zweiten Stufen tenantweit leer (**sechzehnter Lauf in Folge**), keine Auto-
 Wochenendfenster ist verstrichen; bei 7 Tagen bis zur 88-%-Marke sollte der Trim nicht bis
 zum naechsten warten.**
 
+**Nachtrag 25.08.2026, 20:08 (Lauf `tenant-hygiene-weekly`, Dienstag) — ruhiger Tag, aber
+der Anteil bleibt derselbe.** Stand: **878.52 GB von 1'054 GB, 83.35 %**, freier Puffer
+175.48 GB. Tageszuwachs nur **+2.08 GB** (nach +13.90 GB am Montag), zweitniedrigster
+Werktagswert der Reihe. **Das Bemerkenswerte ist die Zusammensetzung, nicht die Menge:**
+JANS.PROJEKTE wuchs um 1.98 GB, und der Versionsverlauf derselben Site wuchs um exakt
+dieselben 1.98 GB (105.51 → 107.49 GB, jetzt 17.9 % der Site). Das Wachstum der Site
+besteht also zu 100 % aus Versionen, tenantweit sind es 95.2 % des Tageszuwachses; der
+kleine Rest sind 98 MB regulaerer Projektzuwachs auf kispi. Der gestrige Befund von rund
+480 MB je Version ist heute **nicht nachpruefbar** (zu kleine Tagesmenge gegenueber der
+Messverzoegerung von bis zu 24 h) und bleibt als Spur bestehen, ohne bestaetigt zu sein.
+**Restlaufzeit 26 Tage** (Wochenschnitt 6.75 GB/Tag, etwa 20. September), 19 Tage beim
+Werktagsschnitt; achter Tag in Folge unter 60 Tagen. **Die 88-%-Marke bleibt rund 7 Tage
+entfernt (etwa 1. September).** Konfiguration unveraendert: `MajorVersionLimit: 0`,
+`EnableAutoExpirationVersionTrim: false` auf allen elf belegten Sites. Trim-Potenzial heute
+rund **91 GB** (kauft beim Wochenschnitt rund 13 Tage). **Bestes verbleibendes Fenster ist
+das Wochenende 29./30.08.** — es liegt noch knapp vor der 88-%-Marke, aber ohne Reserve.
+Papierkoerbe: alle zweiten Stufen tenantweit leer (**siebzehnter Lauf in Folge**), keine
+Auto-Bereinigung, 0 GB; erste Stufen 500 Objekte / 1.54 GB unangetastet (+2 Objekte).
+Report: `tenant-hygiene/reports/260825-hygiene.md`. Status: **Punkt 1 (Limit-Umstellung)
+offen seit 43 Tagen, Punkt 2 (Trim) dringend — Entscheid Raphael, Admin Center.**
+
 Eintrag 13.08.2026 (Hub-Chef 08:39, Regellauf — **ein neuer Vorgang seit dem Radar, und die
 vier Entwuerfe liegen um 08:45 immer noch unversendet**):
 
