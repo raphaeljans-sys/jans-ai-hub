@@ -417,7 +417,10 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   geehrte. Behörde nach Vertrautheit UND Gewicht des Anliegens: bekannt→Geschätzte/r;
   unbekanntes/generisches Postfach: triviale Service-/Koordinations-/Technik-Bitte→namenloses
   «Guten Tag»/«Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und
-  Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. Die
+  Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren.
+  **Trägt die Sammeladresse einen Firmennamen und passt weder Person noch «Sehr geehrte Damen und
+  Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
+  (260825).** Die
   triviale technische Service-Bitte an ein Sammelpostfach trägt NUR die Kurzbitte «Bitte
   veranlassen Sie …» + FG+Block, OHNE Begründung/Dank/Service-Satz.
   Anrede mit wachsender Vertrautheit nachziehen; Opener aus Anlass +
@@ -444,9 +447,9 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   automatisch.**
 - **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823, zwei Golds):** über Wochen
   wiederholten persönlichen Kontakts wandert dieselbe Beziehung kumulativ ins Vertrautere —
-  Furrer (Behörde) «Guten Tag Herr Furrer» 24.07. → «**Geschätzter Herr Furrer**» 28.07. nach der
-  Besprechung; Stadelmann (Unternehmer) «Geschätzter Herr Stadelmann» 22.07. **trotz** Telefonat
-  → «**Geschätzter Othmar**» 03.08. Der Kanalwechsel wirkt verzögert, nicht sofort, und bewegt die
+  Furrer (Behörde) «Guten Tag Herr …» 24.07. → «**Geschätzter Herr …**» 28.07. nach der Besprechung;
+  Stadelmann (Unternehmer) «Geschätzter Herr …» 22.07. **trotz** Telefonat → «**Geschätzter
+  Othmar**» 03.08. Der Kanalwechsel wirkt verzögert, nicht sofort, und bewegt die
   **Wärmestufe innerhalb** des Registers (Sie/Nachname bzw. Vorname bleiben). Der belegte Opener
   gilt **innerhalb** des Vorgangs, nicht über Wochen: eine Anrede braucht den Beleg UND sein
   Datum. Wer nur statische Auslöser prüft, irrt beidseitig — 260822 dreimal zu hoch, 260823
@@ -3144,3 +3147,37 @@ gilt in **beiden** Registern.
 
 ⚠ Die Zeile zu Alessandra Eberhard-Stählin bleibt bewusst leer. Ihr Bruder/Partner Felix Stählin
 ist als **Du** belegt; das überträgt sich **nicht**. Sie schreibt selbst «Guten Tag Herr Jans».
+
+## Fidelity 260825 — die Firma selbst als Adressat, und eine Regel, die hält
+
+Quelle: Fidelity-Review 25.08.2026, Gold C (29.07.2026 10:31, an das Kreditoren-Sammelpostfach
+`260kredi@huwiler.ch`, Cc die Verwalterin bei Privera). `authentisch`, `PROD.OUTLOOK.COM`.
+
+**Marker 1 — ⭐ «Geschätzte Firma Huwiler Services AG», ohne Schlusskomma.** Eine Anredestufe, die
+das Register bisher **nicht kennt**. Der Artikel führt für das unbekannte/generische Postfach nur
+zwei Möglichkeiten: namenloses «Guten Tag»/«Grüezi» bei der trivialen Service-Bitte,
+«Sehr geehrte Damen und Herren» beim gewichtigen Ersuchen. Hier passt keine von beiden — der
+Vorgang ist weder trivial (die Rechnung wurde zurückgewiesen und gelöscht) noch rechtsbegründet,
+und der Adressat ist keine Person, sondern eine **Sammeladresse mit Firmennamen**. Raphael redet
+darum die **juristische Person** an. Der Zwilling wählte in der Blindfassung «Guten Tag» und lag
+damit regelkonform daneben. In den kompilierten Block gehoben.
+
+**Marker 2 — die Nicht-Spiegel-Regel hält, unter Druck.** Die Gegenseite eröffnet mit
+«Sehr geehrte Damen und Herren». Raphael spiegelt **nicht**, sondern wählt seine eigene Stufe —
+zusätzlicher Beleg für das Don't «das Anrede-Wort des Gegenübers spiegeln» (gemessener Verstoss
+260816). Bemerkenswert, weil der Anlass (Zurückweisung der eigenen Rechnung) zum Formalisieren
+eingeladen hätte.
+
+**Marker 3 — der Cc bleibt unangeredet.** Die Verwalterin steht im Cc und wird weder angeredet
+noch im Fliesstext erwähnt. Bestätigt «gestapelt wird, wer HANDELN muss, nicht wer mitliest»
+(260818/260824); handeln muss hier die Kreditorenstelle.
+
+**Gegenprobe zur Anlassgewicht-Klausel (`rules/anrede-kontakte.md`):** Roman Steinmann trägt in
+beiden Nova-Golds «Geschätzter Roman,» — bei der Lieferung des Baubeschriebs wie bei der eigenen
+Rechnung. Die Registerzeile führt ihn als «Salut Roman» warm, «fällt bei Mahn-/Geldkontext auf
+«Guten Tag» zurück». Beide Golds sind Geldkontext (KV, Rechnung) und zeigen **weder** «Salut»
+**noch** «Guten Tag», sondern die mittlere Stufe. Kein Widerspruch zur Klausel «Gewicht des
+Anliegens schlägt den Routine-Default» — im Gegenteil, zwei weitere Belege für sie. Die
+**Rückfall-Formulierung** in der Zeile Steinmann ist damit aber zu grob: gemessen fällt er nicht
+auf «Guten Tag», sondern steigt auf «Geschätzter». ⚠ Rule-Zeile **nicht selbst geändert**
+(Rückfragepflicht, Rule `wissens-bibliothekar`); vorgelegt als [[QUESTIONS]] 260825b #4.

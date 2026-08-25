@@ -4309,3 +4309,69 @@ die ID in jeder Trefferliste ohnehin mitkommt. Braucht Raphaels Ja, weil es eine
 (offen seit 15.08.2026, sechs Nachfragen). Ab hier **nicht mehr neu gestellt**, nur noch gezählt,
 damit der QUESTIONS-Kopf frei bleibt für Ungeklärtes. Der Wortlaut-Vorschlag von 260815 #4 gilt
 unverändert: nivellieren nur «bei grossen oder unbekannten Verteilern», sonst gestaffelt anreden.
+
+## 260825b (Fidelity-Review, Strang Albertstrasse 7 / Nova) — vier Fragen, zwei Hub-interne Notizen
+
+**#1 — Hängt der getippte Kurzgruss an der persönlichen Begegnung?** Frage an Raphael. Facette
+[[stimme]]. **Gehört zusammen mit 260824b #1 beantwortet — beide ordnen dieselbe Regelfamilie.**
+Zwei Mails an denselben Empfänger, dieselbe Anrede «Geschätzter Roman,», dieselbe Gattung
+(Lieferung mit Anhängen), zwölf Tage auseinander: die vom **17.07.** trägt **nur** den
+Signaturblock, die vom **29.07.** «**Lieber Gruss und bis bald**» darüber. Der Unterschied, den
+wir sehen: am 28.07. hattet Ihr telefoniert und ein Wiedersehen stand an, am 17.07. war Roman in
+den Ferien. Konkret: **Tippst Du den Kurzgruss, wenn Ihr Euch gerade gesehen/gesprochen habt oder
+bald seht — und lässt ihn weg, wenn der Kontakt rein schriftlich bleibt?** Der Zwilling koppelt
+ihn heute an die Gattung («operative Zwischenfrage → kurz, Lieferung → FG») und liegt damit bei
+beiden Mails falsch.
+
+**#2 — Erklärst Du Deine Anhänge bewusst nie?** Frage an Raphael. Facette [[arbeitsweise]].
+Beide Nova-Golds nennen den Anhang und sagen **kein Wort** über seinen Inhalt: «Im Anhang sende
+ich Dir den Baubeschrieb …», «… die Zusammenstellung des KV's Albertstrasse 7.» Der Zwilling
+schob in beiden Blindfassungen einen Erklärabsatz nach (Gliederung, Systematik, markierte
+Annahmen) — **fünf frei erfundene Sachaussagen über Dokumente, die er nie gesehen hat**, und er
+schrieb dadurch rund doppelt so lang wie Du. Konkret: **Stimmt die Vermutung, dass Du nichts
+beschreibst, weil der Empfänger den Anhang ohnehin öffnet — oder erklärst Du sehr wohl, nur dann,
+wenn der Empfänger fachfremd ist oder das Dokument neu in seiner Art?** Die Antwort entscheidet,
+ob der Zwilling die Erklärung ganz streichen oder an eine Bedingung knüpfen soll.
+
+**#3 — Die Registerzeile Steinmann sagt das Gegenteil des Gemessenen.** Frage an Raphael.
+Facette [[beziehungsregister]], betrifft `rules/anrede-kontakte.md`. Dort steht: «Salut Roman»
+warm, «fällt bei Mahn-/Geldkontext auf «Guten Tag» zurück». Beide Golds dieses Laufs **sind**
+Geldkontext (KV-Zusammenstellung mit Deiner Rechnung, Baubeschrieb zum KV) und tragen **weder**
+«Salut» **noch** «Guten Tag», sondern «**Geschätzter Roman,**» — also die Stufe *hinauf*, nicht
+hinab. Das passt zur Klausel «Gewicht des Anliegens schlägt den Routine-Default», widerspricht
+aber der Rückfall-Formulierung derselben Zeile. Konkret: **Kann die Rückfall-Halbzeile gestrichen
+und durch «bei Geld-/Vertragsanlass «Geschätzter Roman»» ersetzt werden?** Die Rule-Zeile ist
+**nicht** selbst geändert worden (Rückfragepflicht).
+
+**#4 — «Geschätzte Firma <Name> AG» — Einzelfall oder Deine Form für Firmen-Sammeladressen?**
+Frage an Raphael. Facette [[beziehungsregister]]. Am 29.07.2026 hast Du das
+Kreditoren-Sammelpostfach der Huwiler Services AG so angeredet, ohne Schlusskomma — obwohl die
+Gegenseite mit «Sehr geehrte Damen und Herren» eröffnet hatte. Der Zwilling kennt bisher nur
+namenloses «Guten Tag» (triviale Bitte) und «Sehr geehrte Damen und Herren» (gewichtiges
+Ersuchen) und wählte in der Blindfassung «Guten Tag». Konkret: **Ist «Geschätzte Firma X AG»
+Deine Standardform, sobald die Sammeladresse einen Firmennamen trägt und kein Ansprechpartner
+bekannt ist?** Die Form ist als Marker eingetragen; bei «Einzelfall» wird sie wieder herabgestuft.
+
+**#5 — Hub-intern, kein Handlungsbedarf: die Prüfaufgabe aus 260813 #1 ist gelaufen und hat die
+Hypothese NICHT bestätigt.** Dort stand, die Satzlänge über dem Korpusband 11.9–14.3 (Batch 90:
+16.5 W, Batch 91: 17.6 W) sei möglicherweise ein **KISPI-Gattungseffekt** und an einem Fenster
+**ausserhalb KISPI** zu prüfen. Dieser Lauf hat genau das getan — Strang Albertstrasse 7 / Nova,
+drei Golds — und misst **16.6 W**, praktisch identisch mit Batch 90. Damit ist die
+KISPI-Hypothese **geschwächt, nicht bestätigt**; die naheliegendere Erklärung ist, dass das
+**Korpusband selbst veraltet** ist (es stammt aus den 2025er-Batches 03/04/05/08/10/12).
+⚠ **Nicht entschieden**, weil die Stichprobe mit **116 Wörtern** ein Fünftel bis ein Achtel der
+Batches 90/91 beträgt und ein einziger langer Satz den Mittelwert um rund zwei Wörter verschiebt.
+**Empfehlung: das Band erst nach einer Messung über ≥ 500 W ausserhalb KISPI neu setzen** — und
+bis dahin keine Drift-Aussage auf die Satzlänge stützen.
+
+**#6 — Hub-intern: Gegenmessung zur Du-Gross-Frage 260825 #1.** Dieser Lauf misst
+Du-Gross **1.0** (5/5) in eigener Hand — gegen **0.667** am 24.08. Beide Nova-Golds sind
+**überlegte Desktop-Mails** (OWA, mehrere Anhänge), der 0.0-Fall vom 24.08. war ein hastiger
+Kurzvorspann. Das stützt Antwortmöglichkeit **(b) «registerabhängig»** aus 260825 #1 (gross in
+überlegten Mails, klein in kurzen Du-Nachrichten) und schwächt (c) «klein ist richtig».
+Kein neuer Handlungsbedarf; die Frage an Raphael bleibt unverändert offen, der Zwilling schreibt
+weiter gross.
+
+**#7 — Zähler, nicht neu gestellt:** Nivellier-Zeile in `rules/anrede-kontakte.md` — **zehnter**
+Beleg dagegen (Gold C: Sammelpostfach im To, Verwalterin im Cc, nur der Handelnde angeredet),
+null dafür. Offen seit 15.08.2026.

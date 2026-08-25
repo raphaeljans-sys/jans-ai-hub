@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.08.2026 05:37:54
+Stand: 25.08.2026 05:58:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 25.08.2026 05:37:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cecc4dbbf wissen/claude-code: QUESTIONS Item 2 (Versionsbindung 2.1.243) geklaert, Grundkontext-Rebound Nr.2 gemessen (Nachtschicht 25.08. 05:35)
+- 7ef5a08ce nas-selfcommit: 1 Datei(en) 2026-08-25 05:45

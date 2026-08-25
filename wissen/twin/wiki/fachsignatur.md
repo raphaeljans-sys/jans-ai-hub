@@ -494,8 +494,8 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
 - **Do:** Fachwissen rechnend und verfahrensnah einweben; korrekte Kürzel; Recht in
   Wirtschaftlichkeit übersetzen; Annahmen kennzeichnen. Bei Design-/Objekt-/Materialaufgaben
   die **zweite Säule** ziehen (Schreiner-Wurzel, Designreferenz statt Floskel, Fertigungs-/
-  Modulsystem, Materialgespür, Methodik vorweg) — ausgelöst vom OBJEKT (Möbel, Leuchte,
-  Pavillon, Einbaute ohne Baubewilligungsbezug), nicht vom Wort «Design», auch in reinen
+  Modulsystem, Materialgespür, Methodik vorweg) — ausgelöst vom OBJEKT (Möbel, Leuchte, Einbaute
+  ohne Baubewilligungsbezug), nicht vom Wort «Design», auch in reinen
   Kosten-/Offertmails: Bandbreite über benannte Faktoren A)/B)/C), Planungsaufwand als fixer
   Budgetposten, eigene Unvollständigkeit markieren. Konkretes Gewerksvokabular, sinnliche
   Materialbeschreibung, 1:1-Bemusterung (Konzept → Korrex → Muster). Bei 3D-/Render-Aufgaben die

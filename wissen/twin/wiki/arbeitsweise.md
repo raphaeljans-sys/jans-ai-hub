@@ -174,8 +174,8 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   260818/260819):** beide Wege als fertigen Formularblock, «**z.B**» als Beispiel statt Vorgabe,
   die Wertung als beiläufige Halbzeile nach, gegenüber der Behörde in Frageform; eine so eröffnete
   Beispiel-Liste **bleibt offen** («… aufzulisten, zB.:» endet auf «- Usw.» — nie vervollständigen).
-  Entscheidung beim Empfänger, Arbeit nicht. Zwei gemessene Gestalten: (a) die angekündigte
-  «Pendenz» mündet in EINEN abschreibfertigen Baustein statt in eine Liste; (b) die **Fragenliste** unter
+  Entscheidung beim Empfänger, Arbeit nicht. Zwei Gestalten: (a) die angekündigte «Pendenz» mündet
+  in EINEN abschreibfertigen Baustein statt in eine Liste; (b) die **Fragenliste** unter
   «Fragen sind:» steht als nackte Zeilen **ohne jedes Aufzählungszeichen** und umkreist absichtlich
   **dieselbe** Unsicherheit aus vier Richtungen — die Redundanz IST die Botschaft: *ich weiss
   nicht, wer zuständig ist, antwortet mir aus irgendeinem Winkel.* Der Zwilling glättet beides
@@ -185,10 +185,9 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   der Empfehlung: die Gliederung erzwingt die Erfindung — zwei Listenpunkte verlangen je ein
   Argument, ein Fliesstext-Satz nicht (260820, drei von drei Blindfassungen).
   **Die Drift ist nicht «zu viele Listen», sondern VEREINHEITLICHUNG (korrigiert 260824):** der
-  Zwilling wählt EINE Darstellungsform und zieht sie durch — gemessen in beide Richtungen, acht Läufe
-  Übergliederung und zwei Untergliederung. Raphael entscheidet **je Block neu**: eine einzige
-  operative Mail trug «- »-Liste, nackte Dateinamen-Liste, «A)/B)»-Themenblöcke, «_ »-Punkte,
-  Breadcrumb-Link und blanken Fliesstext nebeneinander. Die Aufzählung steht auch mitten im Satz, ohne
+  Zwilling wählt EINE Darstellungsform und zieht sie durch — gemessen in beide Richtungen. Raphael
+  entscheidet **je Block neu**: eine einzige operative Mail trug «- »-Liste, Dateinamen-Liste,
+  «A)/B)»-Themenblöcke, «_ »-Punkte, Breadcrumb-Link und Fliesstext nebeneinander. Die Aufzählung steht auch mitten im Satz, ohne
   Aufzählungszeichen; der Satz läuft über sie hinweg.
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten; offene Enden
   ohne nächsten Schritt **in der Mail**; eine Folge einzeln zu beantwortender Fragen als offene
@@ -3403,3 +3402,29 @@ Aus der Freigabe-Bitte an die Bauherrschaft (24.08.2026 18:02), drei Bewegungen 
 Prüfung weiter → Bauherrschaft gibt «final frei». Er formuliert die Freigabe ausdrücklich als
 fremde Handlung («zu prüfen und final freizugeben»), auch dort, wo er fachlich längst entschieden
 hat. Gleiche Bewegung wie «Ich werde veranlassen, dass …» (Batch 103).
+
+## Fidelity 260825 — der Anhang wird benannt, nicht beschrieben
+
+Quelle: Fidelity-Review 25.08.2026, Golds A und B (Albertstrasse 7 / Nova).
+
+**Marker — ⭐ die Übererklärungs-Drift bei der Anhangs-Lieferung.** Beide Golds nennen ihre
+Anhänge und **sagen nichts über deren Inhalt**: «Im Anhang sende ich Dir den Baubeschrieb …»,
+«Im Anhang sende ich Dir die Zusammenstellung des KV’s Albertstrasse 7.» Kein Satz zur Gliederung,
+zur Systematik, zum Umfang, zur Methode.
+
+Beide Blindfassungen schoben einen Erklärabsatz nach — «nach BKP gegliedert, damit er sich direkt
+gegen die eingehenden Angebote halten lässt», «fasst die vorliegenden Angebote nach BKP zusammen
+und weist je Position den Stand aus», «Wo eine Angabe noch offen ist, habe ich sie als Annahme
+markiert». **Fünf frei erfundene Sachaussagen über Dokumente, die der Zwilling nie gesehen hat**,
+und jede einzelne klingt plausibel und fachlich richtig. Das ist die Familie der Erfindungs-Drift
+(260804/260805/260817), hier in ihrer harmlosesten und darum gefährlichsten Gestalt: nicht eine
+falsche Zahl, sondern eine **erfundene Beschreibung des eigenen Anhangs**.
+
+Die Ursache ist strukturell, nicht sprachlich: der Zwilling hält einen Zweizeiler für zu wenig
+und füllt ihn auf. **Der Empfänger öffnet den Anhang ohnehin** — genau darum steht dort nichts.
+Die Regel steht bereits als Don't in [[fachsignatur]] («Material … erfinden, um einen Beschrieb
+oder eine Mail zu füllen»); neu ist der belegte Auslöser **Anhangs-Lieferung**, und dass die
+Erfindung hier nicht dem Fach, sondern der **Textlänge** dient.
+
+Längenmessung: Gold A zwei Sätze, Gold B drei, Gold C zwei. Die Blindfassungen trugen fünf, fünf
+und drei. Der Zwilling schreibt bei dieser Gattung rund **doppelt so lang** wie Raphael.
