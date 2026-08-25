@@ -42,7 +42,7 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | SharePoint und Graph lesen | `m365 request` | `m365-graph.mjs` | MCP-Connector | Browser |
 | SharePoint schreiben, Berechtigungen | `m365 spo` | `m365 request` (SPO REST) | PnP PowerShell | Admin Center |
 | Entra, Gäste, Gruppen | `m365 entra` | Graph via `m365 request` | | Admin Center |
-| Mail senden | Apple Mail (osascript) | Graph `Mail.Send` | `icloud-mail.py` | |
+| Mail senden | Apple Mail (osascript) | **Graph `Mail.Send` via m365-CLI — produktiv belegt 25.08.2026** (siehe unten) | `icloud-mail.py` | |
 | Mail lesen, durchsuchen | Apple Mail (osascript) | Graph `/messages` | MCP Outlook | |
 | Kalender | MCP Outlook `outlook_calendar_search` | Apple Calendar (osascript, **nur iCloud-Kalender**) | ~~Graph `/events`~~ Sackgasse, 403 | Outlook Web |
 | Buchhaltung, Debitoren | `connectors/bexio.mjs` | | | bexio-Weboberfläche |
@@ -692,3 +692,42 @@ Volltexte der verlinkten PDFs (dafür `eDocument`-`ID` im XML, Downloadweg nicht
 den Gesetzestext selbst (nach Inkrafttreten) bleibt `zhlex.zh.ch` massgebend. Quelle:
 `wissen/baurecht/raw/260824_amtlich_zh_kr-geschaeft-6000-baulinien-cdws.md`,
 `wissen/baurecht/outputs/2026-08-24_buch-run136.md`.
+
+## Mail senden, zweiter Weg: Graph `Mail.Send` über die m365-CLI (belegt 25.08.2026)
+
+**Wann:** Apple Mail antwortet nicht mehr auf Apple Events. Symptom: `osascript -e 'tell
+application id "com.apple.mail" to …'` hängt ohne Antwort und ohne Fehler,
+`scripts/mail-vorfilter.sh` liefert keine Ausgabe. Der Prozess läuft dabei — die App ist nicht
+abgestürzt, sie reagiert nicht. Ein leeres Ergebnis ist auch hier zuerst eine Aussage über das
+Werkzeug, nicht über die Sache.
+
+**Befehl** (Arbeitsverzeichnis `~/Developer/jans-ai-hub`, Zertifikats-Anmeldung vorausgesetzt,
+`m365 status` zeigt `authType: certificate`):
+
+```
+./node_modules/.bin/m365 outlook mail send \
+  --to "rj@raphaeljans.ch" \
+  --sender "rj@raphaeljans.ch" \
+  --subject "<Betreff>" \
+  --bodyContentType HTML \
+  --bodyContents "$(cat <body>.html)"
+```
+
+**Zu beachten:**
+- `--sender` ist bei App-Auth **Pflicht**, sonst fehlt das Postfach.
+- Rule `mail-formatierung` gilt weiter: den Body als HTML mit
+  `font-family:Aptos,Calibri,Helvetica,sans-serif; font-size:12pt; color:#000000` setzen.
+  Fliesstext in `<p>`-Absätzen, Zeilenumbruch innerhalb eines Absatzes als `<br>`; Sonderzeichen
+  escapen.
+- **Der Rückgabewert belegt den Versand nicht.** Wie beim Apple-Mail-Weg (Lehre 24.08.2026) wird in
+  den **Gesendeten** nachgemessen, etwa über `outlook_email_search` mit `folderName: "Sent Items"`.
+- Die CLI liegt **nicht im `PATH`** (Rule 260809): immer über `./node_modules/.bin/m365` aufrufen.
+
+**Sackgassen, nicht erneut versuchen:**
+- `timeout` existiert auf macOS nicht (keine coreutils). Für eine Zeitgrenze eine Hintergrund-PID
+  mit einer `kill -0`-Schleife prüfen oder `gtimeout` installieren.
+- Der MCP-Outlook-Connector kann **lesen und suchen, aber nicht senden** — dort gibt es kein
+  Werkzeug zum Versand.
+- Apple Mail per `killall` neu zu starten ist **kein unbeaufsichtigter Weg**: im Entwurfsordner
+  können unversendete Entwürfe liegen.
+

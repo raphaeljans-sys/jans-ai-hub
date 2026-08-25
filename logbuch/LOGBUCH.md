@@ -3,6 +3,118 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 25.08.2026 (06:55 bis 07:40, planmässig, Dienstag). Ausnahme: selbst gemailt
+
+**Warum diesmal eine eigene Mail:** Der Hub-Chef-Lauf vom 24.08. ist ausgefallen (dreifach
+gemessen: keine Chef-Sektion im Logbuch, kein Eintrag in `widerruf/versand.log`, kein Briefing in
+den Gesendeten). Das Radar-Briefing von gestern hat Raphael damit nie erreicht. Dazu liegt ein
+Punkt vor, der vor 08:39 zählt: das UBS-Kapitaleinzahlungskonto steht seit acht Tagen bereit und
+niemand hat es gesehen. Beide Bedingungen der Ausnahme aus Schritt 6 sind erfüllt.
+
+### Erledigt seit gestern
+
+**TeKoSi hat fristgerecht geliefert, und Raphael hat noch am selben Abend weitergereicht.**
+L. Hiltmann sandte am 24.08. um 10:13 Türmatrix, Türbuch, Elektro-Installationsbuch und
+Sicherheitskonzept; um 18:02 gingen sie an N. Ramminger und L. Merci zur finalen Freigabe.
+Die selbst gesetzte Frist vom 19.08. ist eingehalten, der Ball liegt bei der Bauherrschaft.
+
+**Drei Bringschulden gegenüber Fachplanern und Unternehmern sind eingelöst.** Die Küchen-
+Querschnitte an M. Eren (Gruner) um 16:55 mit dem finalen Ausführungsplan; die Plangrundlagen
+und Teeküchen-Regeldetails an N. Rothe (Röthlisberger) um 17:09; die Offert-Nachfrage der
+Elektro Stählin AG binnen vier Minuten an Nova weitergeleitet.
+
+**Der Runner-Leerlauf hat aufgehört.** Heute zwei Läufe, beide fehlerfrei, gegenüber 601 Läufen
+mit 437 Fehlschlägen am 24.08. Der Vollschub-Supervisor wurde am Montagmittag gestoppt. Die drei
+Registerzeilen dazu sind geschlossen.
+
+**Tailscale läuft auf dem Mac Mini wieder**, die Erreichbarkeit von aussen ist hergestellt.
+Der Truninger-Connector-Fix ist committet (`508ddd19c`).
+
+### Aus unseren Gesprächen
+
+**Der Montag war ein Projekttag am KISPI.** Vier SharePoint-Freischaltungen, und dabei die
+eigentliche Ursache gefunden: Die Bibliothek «Dokumente» hat eine unterbrochene Rechtevererbung,
+Hiltmann hatte effektiv null Rechte. Bei drei weiteren Gästen mit demselben Muster wurde es
+gleich mitbehoben.
+
+**Die Bodenbelags-Systematik FB50 bis FB72 ist destilliert**, samt dem praktisch wichtigsten
+Punkt: FB51 ist ein System, kein Belag. Zwei Bringschulden Dritter stehen vor der Ausschreibung
+LOS 281.21 aus, die Normfundstelle bei Gruner und die raumweise Freigabeliste.
+
+**Die CAD-Daten der Standmischbatterie sind beschafft**, aber Fabrikat und Ausladung sind
+Annahmen und müssen bestätigt werden. Das hat jetzt einen Termin, siehe unten.
+
+**Zwei Fragen aus den Gesprächen blieben unbeantwortet:** ob mit dem Apparatetyp SAN 1.6 ein
+Einlochmischer ohne Wandmontage möglich ist und ob die Einladung «Projekt-ID 00936-7354-RO»
+seriös ist. Die zweite Session brach mit einem API-Fehler ab.
+
+### Überfällig
+
+**Das UBS-Kapitaleinzahlungskonto ist seit dem 17.08. eröffnet und wartet auf die Einzahlung.**
+IBAN CH46 0027 6276 1238 74D7 N, Kontoinhaber «Raphael Jans AG In Gründung». Die UBS schreibt,
+die Kapitalbescheinigung gehe automatisch per Einschreiben hinaus, sobald das Kapital eingegangen
+ist. Diese Bescheinigung ist die Voraussetzung für die Beurkundung. Acht Tage Stillstand, weil der
+`ag-gruendung-monitor` seit dem 07.08. nicht mehr schreibt und niemand auf dieses Postfach
+gesehen hat.
+Der Firmenname «Raphael Jans AG» ist von der JANS-GmbH-Blockade nicht betroffen.
+
+**bexio antwortet den siebzehnten Tag mit HTTP 401.** Der Token läuft erst am 13.12.2026 ab, die
+Sitzung dahinter wurde beendet. Fünf überfällige Positionen bleiben ungemahnt. Es hilft nur ein
+neuer Personal Access Token in `~/.bexio.env`.
+
+### In den nächsten 7 Tagen
+
+**Heute:** Rückbau der Leichtbauwände OG1 beginnt, mit Abschaltung der Brandmeldeanlage; der
+Kalendereintrag steht. Heute läuft die Frist ab, innert der Jegen den Massaufnahme-Termin nennen
+muss.
+Röthlisberger hat den Werkstattplan «bis spätestens morgen Abend» zugesagt, gerechnet ab Montag
+ist das heute Abend.
+
+**Mittwoch, 26.08.:** zwei Termine vor Ort. 11:00 Brandschutz-Begehung mit J. Ziegel, von Raphael
+selbst gesetzt; A. Spahic hat zugesagt, M. Spörri abgesagt. 13:00 PPTS-Treffen mit O. Stadelmann,
+ASS.B.
+
+**Donnerstag, 27.08., 13:00:** Koordinationssitzung Gruner/Jans/KISPI, Teams. Der Begleittext sagt
+weiterhin Zwei-Wochen-Rhythmus, massgeblich sind die Instanzen, und die liegen wöchentlich.
+
+**Montag, 31.08., 09:00:** Abgleich finaler Gesamtzeitplan mit C. Schaefer und C. Allerkamp, Teams,
+15 Minuten. Von Raphael am 24.08. angenommen.
+
+**Dienstag, 01.09.:** Produktionsstart der Türen bei Jegen. Daran hängt der Montagestart 12.10.
+Voraussetzung ist die Türmatrix, und dort fehlen die architektonischen Angaben, die Raphael am 24.08.
+gegenüber Hiltmann ausdrücklich zugesagt hat: die olivgrün markierten Spalten und die BKP-Nummern
+in Spalte A. Das ist die drängendste Bringschuld der Woche.
+
+**Knapp danach, Mittwoch, 02.09.:** Planfreigabe Therapieküche. Röthlisberger hat die Kette
+genannt, Produktionsstart 07.09., Montage 12. bis 16.10. Damit sind zwölf seit dem 08.08. offene
+Nutzer- und Materialisierungsentscheide erstmals terminiert, von Frontdekor und Griffleiste bis
+zu den Typenbezeichnungen der bestehenden Geräte. Am selben Termin hängt die Bestätigung des
+Batterie-Fabrikats bei emme.
+
+### In Beobachtung
+
+Finale Freigabe der Türfachplanung bei Ramminger und Merci. Zielordner-Pfad für Hiltmann noch
+offen, kann mit der Türmatrix in einer Mail nachgereicht werden. Gastzugriff SharePoint läuft bei
+L. Bajrami am 07.09. und bei L. Hiltmann am 22.09. ab. Küchenbodenentscheid FB70 gegen Linoleum
+und Formatwiderspruch FB70/FB71 vor der Ausschreibung LOS 281.21, Eingabefrist 11.09. Überarbeiteter
+Kostenvoranschlag Albertstrasse 7 an Nova, von Raphael selbst auf Mitte September gelegt.
+Synology-Home steht unverändert auf 777, die am 24.08. angeordnete Massnahme ist nicht vollzogen.
+Der Tailscale-Wächter ist gebaut, aber nicht geladen. R. Guerini ist bis zum 07.09. abwesend.
+
+### Vorschlag Kalendereinträge
+
+**Türmatrix ergänzen, Vorschlag heute oder morgen, zwei bis drei Stunden.** Sie ist die
+Voraussetzung für den Produktionsstart am 01.09. und die einzige Position der Woche, bei der
+JANS selbst blockiert. Nicht eingetragen, nur vorgeschlagen.
+
+**Entscheide Therapieküche bündeln, Vorschlag bis Freitag, 28.08.** Zwölf Punkte, teils mit den
+Nutzern zu klären; Inninger hatte das ausdrücklich angeboten. Frist ist der 02.09.
+
+### Token-Tempo
+
+Vortag 24.08.2026: MacBook Pro 194.05 Mio Token / 147.30 USD, Mac Mini 1'704.28 Mio Token /
+608.87 USD, Summe rund 1'898.33 Mio Token / 756.17 USD API-Äquivalent.
+
 ## Nachtschicht-Zyklus Mac Mini 25.08.2026, 05:30
 
 Prioritaeten 1-4 leer/nicht anwendbar: keine pending Tasks; Synobsis Stufe 2 unveraendert

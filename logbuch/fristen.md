@@ -3,6 +3,185 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NEU 25.08.2026, 06:55 bis 07:35 (Logbuch-Radar) — P1: Das UBS-Kapitaleinzahlungskonto der
+Raphael Jans AG ist seit dem 17.08.2026 eröffnet und liegt seit acht Tagen unbeachtet im
+Postfach. Genau der Schaden, vor dem die Zeile vom 24.08. zum defekten Monitor gewarnt hat.**
+Am Original gelesen: Mail **17.08.2026 10:18** von `sh-cic-onboarding-newclients@ubs.com`
+(Claudia Bitic, UBS Switzerland AG, Corporate & Real Estate Banking, C&RE Onboarding) an
+**mail@raphaeljans.ch**, Betreff «Ihr Kapitaleinzahlungskonto». Inhalt: das Konto ist eröffnet,
+**IBAN CH46 0027 6276 1238 74D7 N**, Kontoinhaber **Raphael Jans AG In Gründung**, BIC
+UBSWCHZH80A. Wörtlich: «Sobald das Kapital auf dem Konto eingegangen ist, werden wir automatisch
+die entsprechende Bescheinigung per eingeschriebener Post versenden.» Ergänzend: nach dem
+Handelsregister-Eintrag ist die UBS unter **044 236 48 48** anzurufen, damit das operative Konto
+eröffnet wird.
+**Warum das die wichtigste Zeile des Tages ist:** die Kapitalbescheinigung ist die Voraussetzung
+für die Beurkundung beim Notariat. Sie kommt nicht von selbst, sondern **erst nach der
+Einzahlung** — und die ist eine Handlung Raphaels. Der Vorgang stand seit dem 27.06. still, war
+am 30.07. bei der UBS eingereicht, und die Antwort liegt seit dem 17.08. vor. **Acht Tage
+Stillstand, die niemand gesehen hat**, weil der einzige Kanal auf dieses Postfach, der Task
+`ag-gruendung-monitor`, seit dem 07.08. nicht mehr schreibt. Die Registerzeile vom 24.08. 07:46
+hat den blinden Fleck korrekt benannt; heute ist belegt, was darin lag.
+**Nebenbefund zum Firmennamen:** die UBS führt das Konto auf «Raphael Jans AG». Die Blockade
+«JANS AG» durch die bestehende JANS GmbH betrifft diese Namensform nicht.
+**AKTION Raphael, keine Automatik:** Einzahlung des Aktienkapitals auf die genannte IBAN
+auslösen. **Claude löst keine Zahlung aus und legt keine Zahlung vor** (harte Grenze
+User-CLAUDE.md); die Kontoangaben stehen hier nur, damit der Weg ohne erneutes Suchen offen ist.
+| Mail UBS 17.08.2026 10:18, Konto mail@raphaeljans.ch, Body am Original gelesen 25.08.2026 07:2x (Anhang nur Legal Disclaimer, kein Beleg) | AG-Gründung Raphael Jans AG | hoch | offen
+
+**NEU 25.08.2026, 07:0x (Logbuch-Radar) — TeKoSi hat fristgerecht geliefert, Raphael hat noch am
+selben Abend an die Bauherrschaft weitergereicht; zurück kommt EINE neue Bringschuld an JANS, und
+sie sitzt auf dem kritischen Pfad.** L. Hiltmann (TeKoSi) sendet am **24.08.2026 10:13** vier
+Dokumente: `KISPI_Therapiestation 1.OG_Türbuch_260824.pdf`, `KISPI_TFP_Master_
+TMatrix_Ausfuehrung_Umbau 1.OG_260824.xlsx`, `KISPI_Therapiestation 1.OG_Elektro-
+Installationsbuch_260824.pdf`, `KISPI_Therapiestation 1.OG_Sicherheitskonzept_TEK_260824.pdf`.
+Damit ist die von Raphael am 19.08. gesetzte Frist «bis Montag den 24.08.26 z.H. Bauherrschaft»
+**eingehalten**; die Registerzeile vom 24.08. («Ball bei L. Hiltmann») ist erledigt. Raphael hat
+um **18:02** unter dem Betreff «231.10 01 TeKoSi Projektplaene Umbau PPTS» an **N. Ramminger und
+L. Merci** (Cc Spahic, Würsch, Spörri, Bajrami, Hiltmann) zur Prüfung und finalen Freigabe
+weitergereicht.
+**Die neue Bringschuld:** Hiltmann bittet in derselben Mail wörtlich, «in der Türmatrix die
+architektonischen Angaben zu ergänzen. Alle olivgrün markierten Spalten sind für die Architektur
+vorgesehen … Bitte ergänze in der Spalte A noch die BKP NR.» Raphael hat das um 11:24 ausdrücklich
+zugesagt: «Die olivgrün markierten Spalten in der Türmatrix und die BKP-Nummern in Spalte A ergänze
+ich und sende Dir die Matrix zurück.» **Geliefert ist sie nicht** (keine ausgehende Mail mit der
+Matrix im Fenster). **Warum das drängt:** Jegen macht die Plananpassung Los 274.01 ausdrücklich von
+Türmatrix, Türbuch und Korrex abhängig; daran hängen Vorbestellung, **Produktionsstart 01.09.2026**
+und Montagestart 12.10.2026. Die BKP-Nummern sind gegen `references/bkp-2017/` zu setzen, nicht zu
+schätzen (Rule `bkp-2017-referenz`).
+**Zweiter, kleinerer Punkt aus demselben Faden:** der Platzhalter `[ZIELORDNER OFFEN]` in Raphaels
+Mail von 11:24 hat konkret gewirkt — Hiltmann hatte um 10:13 ausdrücklich «den Link inklusive
+Ablageort» erbeten und bekam die Klammer. Der Zugriff selbst funktioniert seit der Rechtekorrektur
+(Hiltmann 11:30: «Super vielen Dank mache ich»), die **Pfadangabe fehlt weiterhin**. Sie kann mit
+der Türmatrix in einer Mail nachgereicht werden:
+`.../2 Umbauprojekt Neu PPTS/33.04 BKP/LOS_231.10 Türen System TeKoSi AG/`.
+| Mail Hiltmann 24.08.2026 10:13 samt Anhangsliste und Body am Original gelesen 25.08.2026 07:0x; Antwort rj@ 11:24 und 11:32 sowie Weiterleitung an die Bauherrschaft 18:02 in den Gesendeten am Original gelesen | 2619 KISPI, Lose 231.10 und 274.01 | hoch | offen
+
+**NEU 25.08.2026, 07:1x (Logbuch-Radar) — Die Therapieküche hat jetzt eine harte Terminkette, und
+damit bekommen zwölf seit dem 08.08. offene Nutzerentscheide erstmals eine Frist: Planfreigabe
+02.09.2026.** N. Rothe (Röthlisberger AG / Schreinermanufaktur) nennt am **24.08.2026 07:45** die
+Termine: **Planfreigabe bis 02.09.2026**, Produktionsstart ab 07.09.2026, Produktion fertig
+09.10.2026, Montagestart 12.10.2026, Montage fertig 16.10.2026. Zusätzlich: «Der Werkstattplan
+werde ich Ihnen bis spätestens morgen Abend zustellen» — das ist **Dienstag 25.08.2026, heute**,
+eine Bringschuld Röthlisbergers.
+**Was daran neu ist:** der Fragenkatalog T. Inningers vom 08.08.2026 (zwölf Punkte: abschliessbarer
+Schrank Spülmittelkanister, Beckengrösse neben Combi-Dämpfer, Kompostabwurf Blanco Solon-IF,
+Steckdosenpositionen, Oberschrank über Tiefkühlschrank, Schubladeneinteilung, Typenbezeichnungen
+und Einbauskizzen der bestehenden Geräte, Frontdekor, Griffleiste, Vollkerndekor Sockel und Leiste,
+Überstand Arbeitsplatte, Finish Arbeitsplatte) stand bisher ohne Termin im Register. **Er ist jetzt
+terminiert:** ohne diese Entscheide gibt es am 02.09. keine Planfreigabe, und die ganze Kette bis
+zur Montage im Oktober verschiebt sich. Inninger hatte ausdrücklich angeboten, einzelne Punkte
+direkt mit den Nutzern zu besprechen.
+**Derselbe Termin bindet den offenen Fabrikatsentscheid:** die Standmischbatterie ist im Hub als
+Annahme geführt (KWC GASTRO 24.501.146.000 bzw. 24.501.144.000, Registerzeile vom 25.08. 06:2x).
+Fabrikat und Ausladung müssen **vor** dem 02.09. bei emme bzw. Gastro-Online bestätigt sein, sonst
+wird eine Planfreigabe auf ungeprüfter Grundlage erteilt.
+| Mail N. Rothe 24.08.2026 07:45 samt zitiertem Inninger-Fragenkatalog vom 08.08.2026 14:50, Body am Original gelesen 25.08.2026 07:1x | 2619 KISPI, Therapieküche | hoch | offen — Frist 02.09.2026
+
+**NEU 25.08.2026, 07:3x (Logbuch-Radar) — Der Hub-Chef-Lauf vom 24.08. ist ausgefallen; das
+Radar-Briefing von gestern hat Raphael damit nie erreicht.** Dreifach unabhängig gemessen:
+(1) im `LOGBUCH.md` fehlt jeder Abschnitt «Hub-Chef 24.08.2026», die letzte Chef-Sektion stammt vom
+**23.08.**; (2) `logbuch/widerruf/versand.log` endet mit dem Jegen-Versand vom 24.08. 07:07, danach
+kein Chef-Eintrag; (3) in den Gesendeten von rj@ liegt zwischen dem 23.08. 09:05 und heute **kein
+Tagesbriefing**. Das Radar-Briefing vom 24.08. wurde regulär geschrieben und lag zur Übernahme
+bereit — es wurde nie abgeholt.
+**Warum das zählt und nicht Hub-Interna ist:** der Chef ist seit dem 03.08. der EINZIGE reguläre
+Meldekanal an Raphael; die übrigen Loops sind bewusst entmailt. Fällt er aus, meldet niemand, und
+der Ausfall selbst meldet sich auch nicht. Genau dieses Muster hat beim `ag-gruendung-monitor` acht
+Tage Stillstand erzeugt (Zeile oben). Der Radar hat deshalb heute die im eigenen Auftrag vorgesehene
+**Ausnahme gezogen und selbst gemailt**. Die Ursache des Chef-Ausfalls ist nicht gemessen; die Task
+ist auf dem MacBook Pro registriert (`~/.claude/scheduled-tasks/hub-chef-taeglich/`) und trägt keine
+Logdatei, die den Fehlschlag belegen würde.
+**AKTION Raphael:** prüfen, ob der Chef-Lauf heute 08:39 stattfindet. Bleibt er erneut aus, ist es
+der zweite Ausfall in Folge und der Meldekanal ist als defekt zu behandeln.
+| `grep "^## " LOGBUCH.md`, `logbuch/widerruf/versand.log` und die Gesendeten von rj@ (Fenster 22.08. bis 25.08.), alle drei am Original gemessen 25.08.2026 07:3x | Hub-Infrastruktur / Meldekanal | hoch | offen
+
+**NEU 25.08.2026, 08:0x (Logbuch-Radar) — Apple Mail antwortet auf dieser Station nicht mehr auf
+osascript, und das ist mit hoher Wahrscheinlichkeit die Ursache des Hub-Chef-Ausfalls. Der Versand
+lief heute über den zweiten Weg des Registers.** Gemessen: `osascript -e 'tell application id
+"com.apple.mail" to get name of every account'` liefert **nach 60 Sekunden keine Antwort** und wurde
+abgebrochen; ein parallel gestarteter Lauf von `scripts/mail-vorfilter.sh 26` hing über
+30 Minuten ohne Ausgabe. Der Prozess `Mail.app` selbst läuft (frisch gestartet), `maild` seit rund
+21 Stunden — die App ist also **nicht abgestürzt, sondern reagiert nicht auf Apple Events**, dasselbe
+Muster wie beim Tailscale-Befund vom Wochenende.
+**Der Zusammenhang, auf den es ankommt:** der Hub-Chef sendet sein Tagesbriefing über genau diesen
+Weg (osascript, Bundle-ID `com.apple.mail`). Fällt Apple Mail aus, schreibt der Chef weder Mail noch
+Logbuch-Abschnitt — was am 24.08. beobachtet wurde (eigene Zeile oben). Das ist eine **Hypothese mit
+starkem Indiz**, kein Beweis: die Task hinterlässt keine Logdatei, an der sich der Fehlschlag ablesen
+liesse. **Genau das ist der zweite Befund** — ein Meldekanal ohne eigenes Fehlerprotokoll kann seinen
+Ausfall nicht melden.
+**Was heute funktioniert hat:** `connectors/WEGE.md` nennt für «Mail senden» als zweiten Weg
+**Graph `Mail.Send`**. Der Radar hat ihn über die zertifikatsangemeldete m365-CLI benutzt
+(`./node_modules/.bin/m365 outlook mail send --sender rj@raphaeljans.ch --bodyContentType HTML`),
+Body als Aptos 12 pt gesetzt (Rule `mail-formatierung`). Der Versand ist **in den Gesendeten
+nachgemessen**, nicht am Rückgabewert (Lehre vom 24.08.): 25.08.2026 **07:12:46**, 5'859 Zeichen
+Fliesstext. Der Weg ist damit erstmals produktiv belegt und im Register nachgetragen.
+**AKTION Raphael:** Apple Mail auf dem MacBook Pro neu starten. Das ist nicht unbeaufsichtigt
+geschehen, weil im Entwurfsordner unversendete Entwürfe liegen (unter anderem der an L. Hiltmann)
+und ein erzwungenes Beenden sie gefährden könnte. Zu erwägen ist ausserdem, den Hub-Chef auf den
+Graph-Weg umzustellen oder ihm einen Rückfall darauf zu geben — heute hat der Radar diesen Rückfall
+von Hand gespielt.
+| Eigene Messungen 25.08.2026 08:0x: osascript-Zeitgrenze 60 s ohne Antwort, `ps -eo pid,etime` auf Mail.app und maild, Versandbeleg in den Gesendeten von rj@ (25.08. 07:12:46) | Hub-Infrastruktur / Meldekanal | hoch | offen
+
+**NEU 25.08.2026, 07:1x (Logbuch-Radar) — Selbstzusage Raphaels: überarbeitetes Kostenvoranschlag
+Albertstrasse 7 an Nova, Mitte September.** Auf die Nachfrage der Elektro Stählin AG
+(`a.staehlin@staehlin-ag.ch`, 24.08. 16:58: das Julioffert für «Albertstrasse 7 / Sanierung» liege
+seit Wochen ohne Rückmeldung) hat Raphael um **17:02** an R. Steinmann (Nova Property Fund
+Management AG) weitergeleitet, Cc a. und f. Stählin, und dabei zugesagt: «Ich bin am überarbeiten
+des KV's gemäss letzter Sitzung und kann Dir wie besprochen Mitte September …». Die Nachfrage des
+Unternehmers ist damit **beantwortet**; die Zusage gegenüber der Bauherrschaft ist **neu und
+terminiert sich selbst auf Mitte September**. Sie stand bisher in keinem Register.
+| Mail Stählin 24.08.2026 16:58 und Weiterleitung rj@ 17:02, beide am Original gelesen 25.08.2026 07:1x | 2620 Albertstrasse 7 | mittel | offen — Selbstfrist Mitte September 2026
+
+**ERLEDIGT 25.08.2026, 07:1x (Logbuch-Radar) — Drei Bringschulden gegenüber Fachplanern und
+Unternehmern sind am 24.08. eingelöst worden, alle eingehend gegen ausgehend gepaart.**
+(1) **Küchen-Querschnitte an Gruner:** M. Eren bat am 24.08. 11:36 «Bitte sende mir noch die
+Querschnitte der Küchen, wie an der Sitzung besprochen»; Raphael liefert um **16:55** unter
+«2619 KISPI | Finaler Ausführungsplan Architektur» den Link auf «02 Plangrundlagen Ausführung» samt
+den zwei Schnitten durch den Spülkorpus (1.00 Spülen / Rüsten) an zehn Empfänger.
+(2) **Plangrundlagen an Röthlisberger:** Raphael sendet um **17:09** «260824 Detail 1_1
+Fotos_Schnitte» sowie die Teeküchen-Regeldetails aus den Revisionsplänen.
+(3) **Offert-Nachfrage Stählin:** binnen vier Minuten beantwortet, siehe eigene Zeile oben.
+Ebenfalls erledigt: der am 24.08. im Destillat als «uncommittet im SSD-Repo» gemeldete Fix am
+Truninger-Connector (lückenloses Blättern) ist draussen, Commit **`508ddd19c`**.
+| Alle drei Paarungen in Posteingang und Gesendeten von rj@ am Original gelesen 25.08.2026 07:1x; Commit per `git log -- connectors/truninger-ds3.mjs` gemessen | 2619 KISPI / 2620 Albertstrasse 7 / Hub | mittel | erledigt
+
+**NACHTRAG 25.08.2026, 07:2x (Logbuch-Radar) zum Runner-Leerlauf vom 24.08.: er hat aufgehört,
+gemessen, ohne dass ein Eingriff nötig wurde.** Das Lauf-Journal `logbuch/laeufe/260825-laeufe.jsonl`
+zählt für heute **2 Läufe, beide rc=0**, gegenüber **601 Läufen mit 437 Fehlschlägen** am 24.08.
+Der Vollschub-Supervisor `/tmp/vollschub-mini-v2.sh` wurde laut Destillat am 24.08. um 12:57 von
+Raphael selbst gestoppt (STOP-Datei und PID 78931). Die Registerzeilen vom 24.08. 05:29 und 06:58
+(SIA-Sweep-Endlosschleife) und der Nachtrag von 07:0x sind damit **gegenstandslos**; die geforderte
+Aktion «Runner stoppen oder entzerren» ist erfüllt. Offen bleibt allein die dort benannte Lehre:
+ein Rückzieher-Verhalten beim Sitzungslimit, damit der Runner nicht gegen eine geschlossene Tür
+neu startet. **Kostenbild zum Vergleich:** 24.08. rund 1'898 Mio Token und 756 USD
+API-Äquivalent über beide Stationen, heute bis 07:30 rund 5 USD.
+| Eigene Auszählung beider Lauf-Journale am Original 25.08.2026 07:2x (601 gegen 2 Zeilen, rc-Feld aggregiert) | Betrieb/Kontingent | mittel | erledigt
+
+**NACHTRAG 25.08.2026, 07:2x (Logbuch-Radar) zum bexio-Strang: siebzehnter Tag, erneut
+gegengemessen, Befund unverändert.** `node connectors/bexio.mjs --verzug --json` antwortet weiter
+mit **HTTP 401**; der Connector weist selbst darauf hin, dass der Token erst am **13.12.2026**
+abläuft. Damit bleibt der Verzugsstand unverifizierbar und die fünf überfälligen Positionen bleiben
+ungemahnt. Keine Mahnaktion, keine Buchung. Aktion unverändert: **neuen Personal Access Token in
+bexio ausstellen und in `~/.bexio.env` eintragen.** Kein neuer Punkt, nur die heutige Gegenmessung.
+| `node connectors/bexio.mjs --verzug --json` am Original ausgeführt 25.08.2026 07:0x, Antwort HTTP 401 mit Ablaufhinweis 13.12.2026 | Debitoren/bexio | hoch | offen
+
+**NACHTRAG 25.08.2026, 07:2x (Logbuch-Radar) zum Tailscale-Strang: der Tunnel läuft wieder, der
+Wächter ist weiterhin nicht scharf.** Auf dem Mac Mini zeigt `launchctl list` den laufenden
+Tailscale-Prozess (`application.io.tailscale.ipn.macsys…`, PID 666) — die Erreichbarkeit von aussen
+ist wiederhergestellt. **`ch.jans.tailscale-waechter` ist aber nach wie vor nicht geladen**; die
+Vorlage `templates/launchd/ch.jans.tailscale-waechter.plist` existiert, der Job läuft nicht. Der
+Schutz gegen eine Wiederholung des Erreichbarkeits-P1 vom Wochenende steht damit weiterhin nur auf
+dem Heartbeat-Check 15, und der läuft auf Zuruf. Kein neuer Punkt, Nachtrag zur Zeile vom 25.08.
+06:2x. **Die dritte Zeile jenes Blocks (Synology-Home auf 777) ist heute direkt auf der Synology
+gegengemessen und bestätigt:** `/var/services/homes/raphaeljans` steht unverändert auf
+`drwxrwxrwx+`, `.ssh` korrekt auf `drwx------`. Der erste Prüfversuch lief irrtümlich über
+`ssh mini` und damit auf den Mac Mini, wo das Verzeichnis gar nicht existiert — ein leeres Ergebnis
+war dort eine Aussage über den Prüfweg, nicht über die Sache (Rule `wege-und-vollmachten`). Die
+Gegenmessung über `raphaeljans@diskstation918.tail8265aa.ts.net` zeigt den Befund unverändert:
+seit Raphaels «ja dann schalte es ab» vom 24.08. 18:25 ist nichts geschehen. Aktion Raphael
+unverändert: Rechte auf 755 oder enger setzen.
+| `ssh mini "launchctl list"` am Original gemessen 25.08.2026 07:1x | Hub-Infrastruktur (Erreichbarkeit) | hoch | offen
+
 **NEU 25.08.2026, 06:2x (konversations-log, Fenster 24.08. 04:13 bis 25.08. 06:13) — Aus den
 Gespraechen des 24.08.: neun Positionen, davon acht offen und eine geschlossen; vier betreffen das
 Projekt 2619 KISPI.**
