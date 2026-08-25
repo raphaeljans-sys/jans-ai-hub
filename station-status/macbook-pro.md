@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.08.2026 01:41:28
+Stand: 25.08.2026 01:51:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 01:35)
@@ -12,4 +12,4 @@ Stand: 25.08.2026 01:41:28
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- e688180ac normen Run 61: drei unentdeckte DE-Destillat-Duplikate (N61-1), Methodenbefund zur Checkbox-Zaehlung (N61-2), Negativbefund zur N60-1-Hypothese (N61-3); vier Marker belegt korrigiert, drei einstimmige Agenten-Fehlbefunde durch Gegenpruefung abgefangen
+- fa30123bd nas-selfcommit: 2 Datei(en) 2026-08-25 01:45
