@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 20:02:35
+Stand: 25.08.2026 20:12:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 25.08.2026 20:02:35
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- a30e8a0e3 nas-selfcommit: 4 Datei(en) 2026-08-25 20:00
+- dbb38d521 fristen: Nachtrag Tenant-Speicher 25.08.2026 (83.35 %, Restlaufzeit 26 Tage)
