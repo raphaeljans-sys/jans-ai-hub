@@ -3,6 +3,36 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht-Zyklus Mac Mini 25.08.2026, 05:30
+
+Prioritaeten 1-4 leer/nicht anwendbar: keine pending Tasks; Synobsis Stufe 2 unveraendert
+853/853; Fristen-Register ohne neuen, fuer diesen Lauf umsetzbaren Punkt; alle KBs mit
+`training/PROGRAMM.md` entweder eigen getaktet (baurecht, normen, energie, planungsgrundlagen,
+wettbewerbs-dna) oder per eigenem Statuskopf ausdruecklich als «kein gueltiges Ziel fuer
+Prioritaet 4» markiert (immobilienbewertung, spec — beide Ereignis-Trigger statt Zeittakt,
+trotz `enabled=false` explizit ausgeschlossen), Rest ausgesetzt/erledigt (bauprodukte,
+grobkosten, projekt-lessons). `auflagebereinigung` hatte um 02:35 dieser Nacht bereits einen
+`wissenscheck`-Phase-1-Lauf erhalten (siehe Eintrag darunter) — kein Doppellauf.
+
+Auf Prioritaet 5 ausgewichen: KB `claude-code` gewaehlt (zweitaeltester Wiki-Stand aller KBs,
+13.08., kein aktiver Taktgeber, sieben offene QUESTIONS-Punkte). Zwei Punkte bearbeitet:
+(1) **QUESTIONS Item 2 geklaert** — Versionsbindung `/vibe`/`--resume`/`/memory`/Sub-Ordner-
+CLAUDE.md gegen die installierte Version 2.1.243 verifiziert: `--resume`, `/resume`, `/memory`
+und CLAUDE.md-Auto-Discovery bestaetigt, `/vibe` nicht gefunden (Binary-Stringsuche). Nebenfund:
+Distribution laeuft seit dieser Version ueber einen NPM-Wrapper + nachgeladenen nativen
+Mach-O-arm64-Binary, nicht mehr per gebuendeltem `cli.js`. (2) **QUESTIONS Item 3
+fortgeschrieben** — frische Grundkontext-Messung (`[[kontext-architektur]]`, identischer
+Messweg wie 29.07./03.08./06.08.): **125'112 B / ~31'278 Token** (CLAUDE.md + 24 Importe),
+der **zweite vollstaendige Rebound** seit der Kontext-Diaet 2.0 und diesmal **19'539 B ueber**
+dem Vor-Diaet-Wert (staerker als der erste Rebound am 03.08. mit +9'909 B). Groesster
+Einzelposten wieder `rules/auto-verbesserungen.md` (31'081 B, 24.8 %, +78 % seit 06.08.) —
+dieselbe Datei, deren Auslagerung am 19.07. die urspruengliche Diaet war. Neuer offener Punkt
+(QUESTIONS Item 4): ob Rule 260719 einen periodischen Schwellenwert-Riegel braucht, weil die
+Einzelfall-Pruefung pro neuem Eintrag den Rebound nachweislich nicht verhindert — Entscheid
+bei Raphael, nichts selbst umgebaut. Details: `wissen/claude-code/CHANGELOG.md` 25.08.2026.
+Commit `cecc4dbbf` (nativ via `nas-commit-now.sh`), nur additive Aenderungen. Kein Fan-out,
+kein Versand, keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund 2.6 von 5 USD.
+
 ## Nachtschicht-Zyklus Mac Mini 25.08.2026, 02:30
 
 Prioritaeten 1-5 leer bzw. ausgeschoepft (Sync-Tasks leer, Synobsis Stufe 2 gesaettigt seit
