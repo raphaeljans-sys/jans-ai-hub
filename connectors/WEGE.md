@@ -731,3 +731,21 @@ Werkzeug, nicht über die Sache.
 - Apple Mail per `killall` neu zu starten ist **kein unbeaufsichtigter Weg**: im Entwurfsordner
   können unversendete Entwürfe liegen.
 
+
+## Nachtrag 25.08.2026 — Sackgasse: `m365 outlook event list` gibt es nicht
+
+Gemessen im Hub-Chef-Lauf vom 25.08.2026, als Apple Mail auf osascript nicht antwortete und
+Mail wie Kalender ueber die m365-CLI gehen sollten. **`m365 outlook mail send` und
+`m365 outlook message list` existieren und tragen** (Mail-Weg 2, seit 25.08. produktiv belegt;
+`--userName <konto> --folderName Inbox|SentItems --output json` liefert die Threads als JSON und
+ist deutlich schneller als der Vorfilter). **Einen Kalender-Befehl hat die CLI dagegen nicht:**
+`m365 outlook event list` antwortet mit «Command 'outlook event list' was not found» (CLI v11.5.0).
+
+Es bleibt beim Nachtrag vom 22.08.: **Kalender lesen ueber MCP Outlook `outlook_calendar_search`.**
+Nicht erneut versuchen, den Kalender ueber die m365-CLI zu holen — der Befehl fehlt, das ist keine
+Berechtigungs- und keine Anmeldefrage.
+
+**Merksatz aus demselben Lauf:** faellt Apple Mail aus, faellt `scripts/mail-vorfilter.sh` mit aus
+(es haengt an osascript und lief ueber 30 Minuten ohne Ausgabe). Der Vorfilter ist damit **kein
+verlaesslicher erster Schritt**, wenn die Station Apple-Event-Probleme zeigt; dann direkt auf
+`m365 outlook message list` ausweichen.
