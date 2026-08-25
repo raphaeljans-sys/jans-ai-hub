@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.08.2026 13:10:18
+Stand: 25.08.2026 13:20:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:02)
@@ -12,4 +12,4 @@ Stand: 25.08.2026 13:10:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d844051bc vollgas-radar 25.08. 12:57: [FREI], Budget 6.9% bei 14.9% Woche; Befund 13:30-Slot Nachtschicht am 24.08. spurlos ausgefallen
+- 52a07e1b1 nas-selfcommit: 2 Datei(en) 2026-08-25 13:15
