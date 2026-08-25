@@ -2,6 +2,60 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-25 — Wissens-Chef Run 43: derselbe Fehler zweimal, und drei Wochen Standzeit für drei Messfehler
+
+Delta-Basis 24.08.2026 23:11, Fenster 24,0 h, **115 Commits**, HEAD `f89dc1051`, 71 geänderte
+Dateien in `wissen/`. Uhr-Kontrolle bestanden (23:11 CEST gegen nativen Synology-Selfcommit
+23:03:38). Zuschnitt: 6 Melder (`model: sonnet`) + 6 Refuter (Hauptmodell) = **12 Agenten**,
+2'081'458 Token, 192 Werkzeugaufrufe, 7,3 Min, 0 Fehler. **6 Befunde gemeldet, 5 bestätigt,
+1 widerlegt, 2 Nullbefunde bestätigt**, dazu vier eigene Funde im Hauptkontext. 16 Dateien
+geändert, alle additiv oder zeilenneutral.
+
+- **Der harte Befund: die RPV-Schwellen ausserhalb der Bauzone.** `baurecht` korrigierte am 24.08.
+  (Buch-Run 140) einen eigenen Destillationsfehler; `planungsgrundlagen` führte die falsche Formel
+  weiter — in einem Abschnitt, der ausdrücklich zum Nachschlagen an dieser Stelle einlädt. Art. 42
+  Abs. 3 RPV kennt zwei getrennte Schwellen (lit. a innen +60 % aBGF, lit. b aussen weder 30 % noch
+  100 m², Erweiterungen **innen** halb angerechnet); die Anrechnungsrichtung war umgekehrt, die
+  60-%-Innenschwelle fehlte. Der Refuter ergänzte zwei Punkte, die der Melder nicht hatte:
+  Vergleichszustand nach Art. 42 Abs. 2 RPV (nicht starr 1.7.1972) und die Fassung seit 1.1.2026.
+  Nachtrag +16/−0, am amtlichen Volltext gegengelesen. **Aussenwirkung: wer die alte Zeile einer
+  Bauherrschaft gibt, halbiert ihr den Innenausbau-Spielraum.**
+- **Derselbe Fehlertyp, gespiegelt: Art. 229 StGB.** Beide bfu-Destillate in `normen` geben «bis zu
+  drei Jahren» für **beide** Tatbestände; richtig ist Abs. 1 vorsätzlich bis fünf, Abs. 2
+  fahrlässig bis drei — **genau die Verwechslung, die `baurecht` in Buch-Run 101 an sich selbst
+  korrigiert hat**. Der Refuter fand die zweite, vom Melder übersehene Fundstelle und wies nach,
+  dass deren `status`-Vorbehalt (kantonales Recht vor 2011) Bundesrecht nicht deckt. Zwei
+  Vorbehalte je +12/−0, Quellenwerte unverändert.
+- **Der Refuter hat zweimal die Aktion gedreht.** Beim § 239-PBG-Fall wollte der Melder von
+  `baurecht` auf ein `speculative` normen-Destillat verweisen — Art. 58 OR, Art. 229 StGB, BauPG
+  und PrSG stehen samt BGE 91 II 208 in derselben KB, mit **stärkerem** Beleg. Zeiger auf die
+  eigene Bd.-2-Faktenbasis gesetzt (+15/−0).
+- **Zwei Nullbefunde, beide aussagekräftig.** (a) Die Uf-Entwertung aus `energie` Run 163 ist
+  **nicht** in den Hub gesickert: einziger Fund ausserhalb trägt den Vermerk bereits — Gegenprobe
+  zum Run-41-Befund, die Bringschuld hat funktioniert. (b) Der Giebelweg-Fehlertyp «falsche Zahl in
+  der beantwortet-Sektion» findet sich in acht KBs kein zweites Mal; Übergabepunkt 3 aus Run 42 ist
+  damit erledigt.
+- **Was die Aufsicht sich selbst eingebrockt hat.** Fünf Artikel in `planungsgrundlagen` tragen
+  Nachträge, die jünger sind als ihr `last_updated` — Urheber sind die Wissens-Chef-Läufe 39/41/42.
+  Die Frische-Anzeige der KB verrottete durch die Läufe, die sie prüfen. Alle fünf nachgezogen.
+  **Arbeitsregel ab Run 43: wer einen fremden Wiki-Artikel additiv korrigiert, zieht dessen
+  `last_updated` im selben Lauf nach.**
+- **Drei Wochen Standzeit für drei Messfehler.** Der `wissenscheck` meldete in `auflagebereinigung`
+  dreimal (01.08./03.08./25.08.) denselben «toten Backlink» — der Zielartikel existierte die ganze
+  Zeit. Ursache: zwei Dateien schreiben `links:` mit zusätzlicher YAML-Listenklammer (hubweit 65
+  ohne, 2 mit), die `wiki-konsistenz.sh` als Linknamen liest; dazu `quellen:` statt `sources:`
+  (hubweit 296 zu 3). Angeglichen, beide KBs erstmals seit dem 01.08. befundfrei. **Lehre: ein
+  Befund, der dreimal unverändert wiederkehrt, ist zuerst am Werkzeug zu prüfen.**
+- **Zwei `established`-Artikel waren unauffindbar:** `synthese-sia-vkf-fachskills` und
+  `vkf-beherbergungskategorien` fehlten im `normen`-INDEX, obwohl der Skill `brandschutz` den
+  zweiten wörtlich braucht. Nachregistriert (+2/−0).
+
+**Ein offener Entscheid für Raphael:** die Steinmann-Zeile in `rules/anrede-kontakte.md` ist zu
+weit gefasst («Geld» ist nicht gleich «Mahnung» — drei neuere Belege messen «Geschätzter Roman»).
+Der Vermerk wurde vom **Auto-Mode-Klassifikator zurückgehalten und nicht umgangen**; fertiger
+Wortlaut in Abschnitt 9 des Laufberichts. Register 66 → 68 Matrixzeilen, sechs neue Prüfeinträge.
+Bericht: `outputs/2026-08-25_wissens-chef-run43.md`. Keine Mail (still by default).
+
 ## 2026-08-25 — Synergie-Lauf 18: ein neuer Command, drei Kanten nachgezogen, vier Nullbefunde gemessen
 
 Delta-Basis 24.08.2026 17:10, Fenster 24,0 h, **124 Commits**, HEAD `b4aa253d5`. Uhr-Kontrolle
