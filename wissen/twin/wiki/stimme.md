@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-08-25
 gewichtung: authentisch
-sources: [260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -4315,3 +4315,64 @@ Für den Zwilling ändert das **nichts**: er schreibt weiterhin durchgehend gros
 DNA). Für die **Echo-Detektion** ist es ein Signal — eine Du-Gross-Quote von exakt 1.0 über einen
 längeren, hastig wirkenden Text ist ein Maschinen-Indiz, nicht ein Gütezeichen. Deckt sich mit der
 in Batch 103 gemessenen Quote 1.0 im Verdachtstext; zweiter unabhängiger Beleg.
+
+## Batch 104 (25.08.2026) — ⭐ die Du-Gross-Quote ist ein Autorschafts-Detektor, kein Stilmarker
+
+**Der schärfste Trennbefund der Serie 98–104**, weil beide Extremwerte aus demselben Postfach,
+demselben Tag und teils **derselben Mail** stammen. Gemessen mit `stilmetrik.py` über drei
+Gruppen des Fensters 24.08.2026:
+
+| Gruppe | Wörter | Du-Gross-Quote | Satzlänge ø | Fehler/100 W |
+|---|---|---|---|---|
+| **Gold** (eigene Hand, Outlook/OWA + Outlook Mobile, 4 Texte) | 187 | **0.667** | 15.6 | **4.3** |
+| **Korrektur-Delta** (eigener Vorspann vor einem Hub-Entwurf) | 25 | **0.0** | 25.0 | 4.0 |
+| **Kontrollgruppe** (Hub-Erzeugnis, Apple Mail, 2 Texte) | 159 | **1.0** | 14.5 | **0.0** |
+
+**⚠ Widerspruch zur DNA-Kernregel «Du/Dich/Dir/Deine immer gross», nicht geglättet.** Der
+bisherige Wiki-Stand (Batch 103) las die Kleinschreibung als Ausnahme in «schnell nachgeschobenen
+Nebensätzen» und schloss: «für den Zwilling ändert das nichts». Diese Lesart hält der Messung
+nicht mehr stand. In eigener Hand steht **jedes dritte** Du klein, und im Kurztext an einen
+Du-Kontakt («Brauchst **du** die Pläne jetzt», «Ja **du** kannst die alte Version löschen»)
+**durchgehend**. Die Quote 1.0 ist damit nicht die Norm mit seltenen Abweichungen, sondern die
+**Signatur des Zwillings**. Entscheid liegt bei Raphael ([[QUESTIONS]] 260825 #1) — bis dahin
+schreibt der Zwilling unverändert gross, weil eine Rule-Kernzeile nicht aus einem Lauf fällt.
+
+**Beleg in einer einzigen Mail** (an einen Du-Kontakt der Fachplanung, 24.08.2026 11:31,
+`korrektur-delta`): Raphael stellt dem Hub-Entwurf einen eigenen Satz voran. Der Vorspann trägt
+«du» klein, der übernommene Teil vier Zeilen darunter «**D**u bist neu als Mitglied eingetragen»
+und «Melde **D**ich mit **D**einer Gruner-Adresse». Zwei Autoren, ein Body, die Naht ist an der
+Grossschreibung ablesbar.
+
+## Batch 104 — «Bester Gruss Raphael»: dritte Gruss-Stufe, unbelegt bis heute
+
+Neuer Gruss aus eigener Hand (24.08.2026 08:45, Du-Kontakt Brandschutz-Fachplanung, OWA):
+**«Bester Gruss Raphael»** — ohne Komma, ohne Zeilenumbruch vor dem Namen, ohne Signaturblock.
+Er steht zwischen dem warmen «Lieber Gruss» und dem knappen «Lgr». Damit ist die Gruss-Skala in
+eigener Hand vierstufig belegt: «Lieber Gruss» · **«Bester Gruss»** · «Lgr» · «lgr» (klein,
+Batch 103). Status `emerging`, Einzelbeleg.
+
+**⚠ Der Signaturblock ist kein Registersignal.** Dieselbe Person bekommt am selben Tag
+«Freundliche Grüsse» samt vollem Absenderblock (Apple Mail und Outlook Mobile hängen ihn
+automatisch an) und «Lgr» ohne alles (OWA, von Hand getippt). Der Block sagt etwas über das
+**Gerät**, nichts über die Nähe. Wer ihn als Distanzmerkmal liest, misst den Mailclient.
+
+## Batch 104 — die Höflichkeitsfrage ist eine Aufforderung: «Darf ich Dich Bitten …» mit Punkt
+
+**Dreifach am selben Tag belegt, aus eigener Hand, in beiden Registern** — damit `established`:
+
+> «Darf ich Euch **B**itten die … Grundlagen der Türfachplanung zu prüfen und final freizugeben:»
+> «Darf ich Euch **B**itten mir bis morgen Abend ein Feedback zu geben.»
+> «Darf ich Dich **B**itten mit dem Elektro-Unternehmer … kurz Kontakt aufzunehmen.»
+
+Drei Eigenheiten, die zusammen auftreten und die ein Modell einzeln alle «korrigieren» würde:
+
+1. **«Bitten» steht gross.** Konsequent, nicht versehentlich — drei von drei.
+2. **Der Satz endet mit Punkt, nie mit Fragezeichen.** Die Frageform ist reine Höflichkeitshülle;
+   gemeint ist eine Aufforderung, und die Interpunktion verrät es. Gleiche Bewegung im
+   Korrektur-Delta: «Brauchst du die Pläne jetzt**,**» — eine echte Frage, mit Komma
+   weitergeschrieben statt mit Fragezeichen geschlossen.
+3. **Kein Komma vor dem erweiterten Infinitiv** («Bitten die … zu prüfen»).
+
+**Folge für den Zwilling:** Die Formel nicht zu «Darf ich Dich bitten, … zu prüfen?» glätten. Und
+sie **nicht variieren** — Raphael setzt sie in derselben Mail zweimal wortgleich ein, wo ein
+Modell beim zweiten Mal zu «Ich wäre froh um» ausweichen würde. Die Wiederholung ist der Beleg.

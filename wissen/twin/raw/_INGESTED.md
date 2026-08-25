@@ -1872,3 +1872,100 @@ gelesen wird — er ist kostenlos und schlägt die Betreff-Probe; (2) vorher pr�
 Thread-Rückgriff auf einen **anderen** Thread als 2414 Thalwil (dieser ist in zwei Strängen
 abgeschöpft); (4) **vor der Lektüre zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle
 UND die Gold-Verbrauch-Abschnitte der Fidelity-Läufe.**
+
+## Batch 104 (25.08.2026) — Sent Items `rj@`, Fenster 23.–24.08.2026
+
+Rohdatei `260825-mailbatch-104.md`. Sequenzielles Fenster nach Batch 103 fortgesetzt
+(`order: oldest`, `folderName: Sent Items`). **Erstes ergiebiges sequenzielles Fenster nach zwei
+leeren Wochenendfenstern in Folge** — der Montag 24.08. bringt 17 Sent Items, davon **7 mit
+`PROD.OUTLOOK.COM`**. Der in Batch 103 gesetzte Auftrag wurde in der vorgegebenen Reihenfolge
+abgearbeitet: (1) Vorbedingung geprueft (`grep -rn "sendMail" connectors/ scripts/` **leer** ⇒ der
+Hub versendet weiter ueber Apple Mail, der Detektor haelt), (2) Detektor auf die **ganze
+Trefferliste** angewandt **vor** dem ersten `read_resource`, (3) erst danach 6 Volltexte gelesen.
+**Der Thread-Rueckgriff war nicht noetig** — das sequenzielle Fenster trug diesmal selbst.
+
+**Der Detektor hat sich als Auswahlwerkzeug bewaehrt:** er hat die Lektuere von 10 Apple-Mail-Mails
+erspart (davon 5 nachweislich Hub-Briefings) und alle 5 Gold-Texte vorab benannt. **Verfeinerung:**
+er trennt auch **Outlook Mobile** ab (`ms-outlook-mobile-signature` im HTML) — zwei Gold-Texte sind
+vom Handy. **Grenze, sauber belegt:** eine Apple-Mail-Mail («feuerplizeiliche Abnahme», Betreff
+«Luftung») ist trotz unauffaelliger ID eigene Hand — der Detektor ist einseitig, die **Fehlerinsel**
+bleibt der noetige zweite Test.
+
+**Kernbefund 1 — ⭐ die Du-Gross-Quote ist ein Autorschafts-Detektor, kein Stilmarker.** Gold
+**0.667**, Eigen-Vorspann **0.0**, Hub **1.0** — beide Extreme am selben Tag, im Fall des
+Fachplaner-Zugangs in **derselben Mail**: Raphaels Vorspann traegt «Brauchst **du**», der vier
+Zeilen tiefer uebernommene Hub-Text «**D**u bist neu als Mitglied». **⚠ Damit widerlegt der Korpus
+die DNA-Kernzeile «Du/Dich/Dir/Deine immer gross» als Beschreibung Raphaels** — sie beschreibt den
+Zwilling. Der bisherige Wiki-Stand (Batch 103) las die Kleinschreibung als Ausnahme in
+«nachgeschobenen Nebensaetzen»; bei jedem dritten Du haelt diese Lesart nicht mehr. **Nicht
+geglaettet, nicht selbst geaendert:** Entscheid Raphaels, [[QUESTIONS]] 260825 #1, bis dahin
+schreibt der Zwilling unveraendert gross.
+
+**Kernbefund 2 — ⭐ die Registerdifferenz ist teilweise eine Autorschaftsdifferenz.** Sauberster
+Kontrollversuch des Harness: derselbe Empfaenger, derselbe Thread, **acht Minuten** Abstand.
+Hub/Apple Mail «Lieber Levi» + Du gross + «Freundliche Gruesse» + Signaturblock, 89 Woerter —
+eigene Hand/OWA «Hoi Levi / Ja du kannst die alte Version loeschen. / Lgr», **8 Woerter**. Ohne den
+Detektor waeren beide als Beleg fuer dasselbe Register gelesen worden, und der Korpus haette sich
+selbst bestaetigt. **Folge:** Registerzeilen, die zwischen Beginn der Claude-Aera und dem
+24.08.2026 aus Mails abgeleitet wurden, tragen ein Echo-Risiko; die Richtung ist dabei bekannt —
+der Zwilling greift **eine Stufe zu foermlich**, nie zu locker. Vorschlag statt Rueckpruefung des
+Bestands: ID-Pflicht **vor jeder Rule-Aenderung** an `anrede-kontakte.md` ([[QUESTIONS]] 260825 #2).
+
+**Kernbefund 3 — ⭐ das Korrektur-Delta hat eine Richtung: der Eigensatz steht VORNE.** Erstes
+strukturell lesbares Delta des Harness. Raphael uebernimmt einen Hub-Entwurf und stellt ihm **vor**
+der Sachauskunft einen eigenen Satz voran, der drei Dinge enthaelt, die der Entwurf nicht wissen
+konnte: Rueckfrage nach dem echten Bedarf, laufender eigener Arbeitsschritt, **selbst gesetzte
+Frist in Stunden** («lade in 2h alles fix hoch»). Arbeitsteilung an der Naht ablesbar: **der
+Zwilling liefert die Fakten, Raphael die Dringlichkeit und die Selbstverpflichtung.**
+
+**Kernbefund 4 — «Darf ich Dich/Euch Bitten …» ist eine Aufforderung, keine Frage.** Dreifach am
+selben Tag, aus eigener Hand, in beiden Registern ⇒ `established`. Drei Eigenheiten treten
+gemeinsam auf, die ein Modell einzeln alle glaetten wuerde: **«Bitten» gross** (3/3), **Punkt statt
+Fragezeichen** (3/3), kein Komma vor dem erweiterten Infinitiv. Gleiche Bewegung im Delta:
+«Brauchst du die Pläne jetzt**,**». **Und er variiert nicht** — dieselbe Formel steht in einer Mail
+zweimal wortgleich, wo ein Modell beim zweiten Mal ausweichen wuerde.
+
+**Kernbefund 5 — «Bester Gruss Raphael», dritte Gruss-Stufe** (ohne Komma, ohne Umbruch, ohne
+Block), Einzelbeleg `emerging`. Gruss-Skala in eigener Hand nun vierstufig: «Lieber Gruss» ·
+«Bester Gruss» · «Lgr» · «lgr». **⚠ Zugleich entwertet:** derselbe Kontakt bekommt am selben Tag
+«Freundliche Gruesse» + vollen Signaturblock (automatisch angehaengt) und «Lgr» ohne alles — **der
+Signaturblock misst das Geraet, nicht die Naehe.**
+
+**Kernbefund 6 — «Werte Frau A, geschaetzter B,»: Sie und Du in EINER Anredezeile.** Neunter
+unabhaengiger Beleg gegen die Nivellier-Zeile, **null** dafuer. Gegenprobe im selben Batch stuetzt
+das: bei vier Empfaengern lautet die Anrede nur «Geschaetzter Jens,» — die Mitleser bekommen gar
+keine. Nicht Nivellierung, nicht Staffelung, sondern **Adressierung**. Die Frage ist seit
+15.08.2026 offen (sechs Nachfragen) und wird **ab hier nur noch gezaehlt, nicht neu gestellt**.
+
+**Kernbefund 7 — Anlassgewicht, fuenfter unabhaengiger Beleg.** Der als «Salut Roman» warm
+gefuehrte Asset-Manager bekommt «Geschaetzter Roman,», Anlass ist eine verbindliche Terminzusage.
+
+**Kernbefund 8 — er vermittelt, statt zu vertroesten.** Auf die Standnachfrage einer Unternehmerin
+antwortet er **nicht ihr**, sondern bittet den Bauherrn um direkte Kontaktaufnahme und setzt die
+Fragende ins Cc, wo sie mitliest, dass etwas geschieht. Verschaerft Batch 103 Kernbefund 6: er ist
+der Weg **aktiv** — er schiebt nicht weiter, er verkuppelt. Neuer Gliederungsmarker
+**«Von meiner Seite:»** (Bitte an den anderen · eigener Stand).
+
+**Kernbefund 9 — Frist herleiten statt setzen.** Die Frist «bis morgen Abend» steht neben ihrem
+Grund (Massaufnahme morgen 10:30 vor Ort), dazu ein **Ersatzkanal**, falls sie nicht haelt
+(«Fragen koennten allenfalls spontan auch vor Ort gestellt werden»), und der Fachplaner wird
+**vor ihm selbst** als Ansprechpartner genannt.
+
+**⚠ Operativer Befund, kein Stilbefund:** ein Hub-Erzeugnis ging mit dem unausgefuellten
+Platzhalter `→ [ZIELORDNER OFFEN]` an einen externen Fachplaner. Der Platzhalter war handwerklich
+richtig gesetzt, nur nicht gefuellt — und passierte `korrektur` und das Twin-Gate ungehindert.
+Eingetragen in `logbuch/fristen.md` 25.08.2026 mit dem Vorschlag eines Platzhalter-Riegels
+(`\[[A-Z_ ]{4,}\]`) im Agenten `layout`.
+
+**⚠ Gehirn NICHT neu kompiliert, zwoelfter Batch in Folge.** Reserve in diesem Lauf **nicht**
+gemessen; letzter gemessener Stand 21.08.2026 (32'796 B von 34'000 B). Die Zahl ist eine
+Fortschreibung, kein Messwert (Falle aus Batch 99). Die Marker wirken als Marker-Prosa ueber die
+Twin-Agenten. **Eine Neukompilierung waere hier ohnehin verfrueht**, solange [[QUESTIONS]] 260825
+#1 offen ist — der Auto-Block traegt die Du-Gross-Kernzeile.
+
+**Naechstes Fenster:** (1) sequenziell `rj@` ab 25.08.2026, Detektor wieder **vor** der Lektuere und
+die `sendMail`-Vorbedingung wieder pruefen; (2) den Detektor um die **Outlook-Mobile-Signatur**
+erweitern, er trennt feiner als gedacht; (3) bei leerem Fenster Thread-Rueckgriff, **nicht** auf
+2414 Thalwil (in zwei Straengen abgeschoepft) — offen waere der Strang **Albertstrasse 7 /
+Nova**, in diesem Batch nur angeschnitten; (4) **vor der Lektuere zwingend BEIDE Teile dieser
+Datei auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

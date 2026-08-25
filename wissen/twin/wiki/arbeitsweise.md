@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-08-25
 gewichtung: authentisch
-sources: [260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -3335,3 +3335,71 @@ und die einzige, die eine **Antwortpflicht** erzeugt.
 **Folge für den Service-Satz:** beide Mails erbitten etwas für sich selbst und tragen **keinen**
 Service-Satz. Die offene Frage hält den Kanal bereits offen; ein «Bei Fragen stehe ich zur
 Verfügung» dahinter wäre die Verdoppelung.
+
+## Batch 104 (25.08.2026) — ⭐ das Korrektur-Delta hat eine Richtung: der Eigensatz steht VORNE
+
+Erstes im Harness **strukturell** lesbares Korrektur-Delta (24.08.2026 11:31, Du-Kontakt
+Fachplanung). Raphael übernimmt einen Hub-Entwurf zur Zugangsfreischaltung und sendet ihn — aber
+er stellt ihm **vor der Sachauskunft** einen eigenen Satz voran:
+
+> Hoi Mustafa
+>
+> **Brauchst du die Pläne jetzt, ich übertrage noch die 1:20 in den 1:50 Grundrissplan und lade
+> in 2h alles fix hoch.**
+>
+> Dein Zugriff auf den Projektraum … ist freigeschaltet. Du bist neu als Mitglied eingetragen …
+
+Die Arbeitsteilung ist an der Naht ablesbar: **der Zwilling liefert die vollständige, korrekte
+Sachauskunft — Raphael liefert die Dringlichkeit und die Selbstverpflichtung.** Sein Satz enthält
+das, was der Entwurf nicht wissen konnte: eine Rückfrage nach dem echten Bedarf («Brauchst du die
+Pläne jetzt»), den laufenden eigenen Arbeitsschritt und eine **selbst gesetzte Frist in Stunden**
+(«lade in 2h alles fix hoch»).
+
+**Die Reihenfolge ist der Befund.** Er hängt seinen Satz nicht an, er stellt ihn davor — die
+Antwort auf die Frage, die der andere wirklich hat, kommt vor der Antwort auf die Frage, die
+gestellt wurde. **Regel für den Zwilling:** Wo eine Sachauskunft an einen wartenden Beteiligten
+geht, gehört die Angabe «was ich gerade tue und bis wann es da ist» **an den Anfang**, nicht in
+einen Ausblick am Schluss.
+
+## Batch 104 — er vermittelt, statt zu vertrösten
+
+Eine Unternehmerin fragt nach sechs Wochen nach dem Stand ihrer Offerte («Ist das Projekt
+weiterhin aktuell?»). Raphael antwortet **nicht ihr**. Er schreibt dem Asset-Manager der
+Bauherrschaft, bittet ihn um direkte Kontaktaufnahme mit dem Unternehmer — und setzt die
+Fragende **ins Cc**, wo sie mitliest, dass etwas passiert:
+
+> «Darf ich Dich Bitten mit dem Elektro-Unternehmer Felix Stählin bezüglich Alberstrasse 7 kurz
+> Kontakt aufzunehmen. **Von meiner Seite:** Ich bin am überarbeiten des KV's gemäss letzter
+> Sitzung und kann Dir wie besprochen Mitte September 2026 den revidierten KV unterbreiten.»
+
+Zwei Sätze, die ganze Mail. Er hätte die Nachfrage mit einer Zwischenmeldung beantworten können;
+stattdessen stellt er die **Verbindung** her, die die Sache tatsächlich löst, und macht seinen
+eigenen Beitrag im selben Atemzug terminlich verbindlich. Verschärft den Marker aus Batch 103
+(«gegenüber Dritten ist er der Weg, nicht der Entscheider»): er ist der Weg **aktiv** — er
+schiebt nicht weiter, er verkuppelt.
+
+**Neuer Gliederungsmarker: «Von meiner Seite:»** als Absatzöffner. Trennt die Bitte an den
+anderen vom eigenen Stand. Verwandt mit «Ich erlaube mir, … zusammenzufassen», aber kürzer und
+rein zweiteilig: *was Du tun sollst · was ich tue*.
+
+## Batch 104 — Frist begründen, Ersatzkanal mitliefern, den Fachplaner vor sich selbst nennen
+
+Aus der Freigabe-Bitte an die Bauherrschaft (24.08.2026 18:02), drei Bewegungen in vier Zeilen:
+
+1. **Frist mit Grund statt Frist allein.** «Darf ich Euch Bitten mir bis morgen Abend ein
+   Feedback zu geben.» — und unmittelbar darunter der Grund: «Herr Bajrami Livdin von Jegen AG
+   (Türbauer) wird morgen 10:30 Uhr die Massaufnahme … vornehmen und mit mir vor Ort sein.» Die
+   Frist ist nicht gesetzt, sie ist **hergeleitet**. Deckt sich mit dem Batch-84-Marker
+   («Zahlungserinnerung aus dem fehlenden Freigabeschritt begründen, nicht aus der Fälligkeit»).
+2. **Ersatzkanal, falls die Frist nicht hält.** «Fragen an den Türbauer könnten allenfalls spontan
+   auch vor Ort gestellt werden.» Er baut den Ausweg gleich mit ein, statt auf Einhaltung zu
+   bestehen. Konditional im Konjunktiv, ohne Druck.
+3. **Der Fachplaner steht vor ihm selbst.** «Bei Fragen steht **Levi Hiltmann oder ich** jederzeit
+   gerne zur Verfügung.» Die Reihenfolge ist nicht zufällig: der Ersteller der Grundlage wird
+   namentlich als erster Ansprechpartner sichtbar gemacht. Er zieht die Zuständigkeit nicht an
+   sich, obwohl die Mail von ihm kommt.
+
+**Der Freigabeweg selbst, in einer Zeile belegt:** Fachplaner erstellt → Raphael leitet zur
+Prüfung weiter → Bauherrschaft gibt «final frei». Er formuliert die Freigabe ausdrücklich als
+fremde Handlung («zu prüfen und final freizugeben»), auch dort, wo er fachlich längst entschieden
+hat. Gleiche Bewegung wie «Ich werde veranlassen, dass …» (Batch 103).

@@ -3395,3 +3395,36 @@ dieselbe Append-Kollision wieder erzeugen. Dafuer gebaut, aber noch nicht unter 
 der Merge-Rueckfall mit Eskalation ins Fristen-Register in `nas-selfcommit.sh` und `git-auto-sync`
 (Commits `bb9d1825a`, `6b334c22e`, Chronik 260824e/f). Status des Staus: **erledigt** — Status der
 Zweitursache: **offen, mittel.**
+
+## 25.08.2026 (twin-mail-training Batch 104) — Platzhalter `[ZIELORDNER OFFEN]` an externen Fachplaner versendet
+
+**Beim Lesen des Mail-Korpus aufgefallen, nicht gesucht.** Die Mail «AW: KISPI PPTS: Türplanung»
+an Levi Hiltmann (TeKoSi AG, externer Türfachplaner), versendet am **24.08.2026 11:24** über
+Apple Mail, enthält im Fliesstext einen **unausgefüllten Platzhalter**:
+
+> Ablageort:
+> Team-Site "JANS - 2619-KISPI"
+> → Bibliothek "Dokumente"
+> **→ [ZIELORDNER OFFEN]**
+
+Der Platzhalter war handwerklich **richtig gesetzt** (Rule: nichts erfinden, Lücke offen lassen
+statt raten) — er wurde nur nicht gefüllt, und die Mail ging trotzdem raus. Die Wirkung ist
+doppelt: der Empfänger bekommt **keinen brauchbaren Ablageort** (der mitgeschickte Link zeigt auf
+die Bibliotheks-Wurzel `Forms/AllItems.aspx`, nicht auf den Zielordner), und die eckige
+Grossbuchstaben-Klammer ist für einen externen Planer als **Maschinen-Artefakt lesbar**.
+
+**Was zu tun ist:** eine kurze Nachfassung mit dem konkreten Zielordner-Pfad an
+levi.hiltmann@tekosi.ch. Sachlich ist der Vorgang inzwischen vermutlich erledigt — Hiltmann hat am
+selben Tag um 11:30 geantwortet und um 11:32 die Rückmeldung «Ja du kannst die alte Version
+löschen» erhalten, der Zugriff funktionierte also. **Es bleibt die offene Pfadangabe**, und der
+Los-Ordner ist aus dem Batch bekannt:
+`.../2 Umbauprojekt Neu PPTS/33.04 BKP/LOS_231.10 Türen System TeKoSi AG/`.
+
+**Zweiter, wichtigerer Punkt — die Lücke im Versandweg.** Ein Erzeugnis mit einem
+unausgefüllten Platzhalter hat den Skill `korrektur` und das Twin-Gate passiert, ohne
+aufgehalten zu werden. Ein Muster wie `[A-ZÄÖÜ ]{3,}\bOFFEN\]` bzw. allgemein `\[[A-ZÄÖÜ_ ]{4,}\]`
+ist billig prüfbar und sollte **jeden** ausgehenden Mail-Body und jedes DOCX blockieren. Das ist
+eine Ergänzung am Agenten `layout` (Korrektur-Harness), nicht am Twin.
+
+Status: **offen, mittel** — (a) Pfad nachreichen (Aktion Raphael, eine Zeile),
+(b) Platzhalter-Riegel im Korrektur-Harness (umkehrbare Hub-Arbeit, kann ein Folgelauf bauen).

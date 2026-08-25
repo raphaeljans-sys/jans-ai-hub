@@ -4,6 +4,45 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-25 — Batch 104: die Du-Gross-Quote misst den Autor, nicht den Stil
+
+Fenster `rj@` Sent Items 23.–24.08.2026, 17 Treffer, **7 mit `PROD.OUTLOOK.COM`**. Erstes
+ergiebiges sequenzielles Fenster nach zwei leeren Wochenendfenstern; der Thread-Rückgriff war
+nicht nötig. Werkzeug-Detektor aus Batch 103 erstmals **auf die ganze Trefferliste vor der
+Lektüre** angewandt — er ersparte 10 Mails und benannte alle 5 Gold-Texte vorab; Vorbedingung
+(`sendMail` nirgends im Hub) geprüft und erfüllt. 6 Volltexte gelesen.
+
+**Drei ⭐-Befunde.** (1) Die **Du-Gross-Quote trennt Autoren, nicht Register**: Gold 0.667,
+Eigen-Vorspann 0.0, Hub 1.0 — beide Extreme am selben Tag, einmal in **derselben Mail**. Damit
+⚠ **widerlegt der Korpus die DNA-Kernzeile «Du immer gross» als Beschreibung Raphaels**; nicht
+geglättet, nicht selbst geändert, Entscheid offen ([[QUESTIONS]] 260825 #1), der Zwilling schreibt
+bis dahin unverändert gross. (2) Die **Registerdifferenz ist teilweise eine
+Autorschaftsdifferenz**: derselbe Empfänger, derselbe Thread, acht Minuten — «Lieber X» (Hub, 89 W)
+gegen «Hoi X / Lgr» (eigene Hand, 8 W); der Zwilling greift **eine Stufe zu förmlich**, nie zu
+locker ([[QUESTIONS]] 260825 #2). (3) Erstes strukturell lesbares **Korrektur-Delta mit Richtung**:
+der Eigensatz steht **vor** der Sachauskunft — der Zwilling liefert die Fakten, Raphael die
+Dringlichkeit und die Selbstverpflichtung.
+
+Weiter destilliert: «Darf ich Dich/Euch **B**itten …» mit grossem «Bitten» und **Punkt statt
+Fragezeichen** (3/3 an einem Tag, beide Register ⇒ `established`, und er variiert die Formel
+bewusst nicht) · «Bester Gruss Raphael» als dritte Gruss-Stufe (`emerging`) · der **Signaturblock
+misst das Gerät, nicht die Nähe** · «Werte Frau A, geschätzter B,» als neunter Beleg gegen die
+Nivellier-Zeile, mit Gegenprobe: bei vier Empfängern wird nur der Hauptadressat angeredet
+(**Adressierung**, nicht Nivellierung) · Anlassgewicht fünffach belegt · «er vermittelt, statt zu
+vertrösten» samt neuem Gliederungsmarker «Von meiner Seite:» · Frist **herleiten** statt setzen,
+Ersatzkanal mitliefern, den Fachplaner vor sich selbst nennen · Massstab als blosses Verhältnis,
+Los-Nummer im Betreff ist **kein** BKP-Code.
+
+Geschrieben: [[stimme]] (+61), [[beziehungsregister]] (+67), [[arbeitsweise]] (+68),
+[[fachsignatur]] (+26), [[QUESTIONS]] (+34), `raw/_INGESTED.md` (+97), `raw/260825-mailbatch-104.md`
+(neu). Alle Schreibvorgänge mit `--numstat` gemessen, **0 Löschungen** (Rule 260811).
+
+**Ausserhalb der KB:** ein Hub-Erzeugnis ging am 24.08. mit dem unausgefüllten Platzhalter
+`→ [ZIELORDNER OFFEN]` an einen externen Fachplaner und passierte dabei `korrektur` und das
+Twin-Gate ungehindert. Eingetragen in `logbuch/fristen.md` (Rule 260805) mit dem Vorschlag eines
+Platzhalter-Riegels im Agenten `layout`. **Gehirn nicht neu kompiliert** (12. Batch in Folge) —
+hier bewusst, solange die Du-Gross-Frage offen ist: der Auto-Block trägt genau diese Kernzeile.
+
 ## 2026-08-24 — Fidelity-Review: Nullform, und der Gruss war vielleicht nie eine Entscheidung
 
 Fenster `rj@` 04.08.–10.08.2026, drei Volltexte, alle drei **mechanisch** als Gold belegt (erster

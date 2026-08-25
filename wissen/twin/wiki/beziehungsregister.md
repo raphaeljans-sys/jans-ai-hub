@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-08-25
 gewichtung: authentisch
-sources: [260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -3077,3 +3077,70 @@ gewandert und geblieben.
 
 Das stützt die Lesart «kumulativ, nicht sofort» gegen «einzelner Anlass hebt» — bleibt aber am
 Entscheid Raphaels ([[QUESTIONS]] 260823b #1, offen).
+
+## Batch 104 (25.08.2026) — ⭐ die Registerdifferenz ist teilweise eine Autorschaftsdifferenz
+
+**Der bisher sauberste Kontrollversuch des Harness**, weil alles konstant gehalten ist ausser dem
+Schreibenden: **derselbe Empfänger, derselbe Thread, derselbe Tag, acht Minuten Abstand.**
+
+| | 24.08.2026 11:24 (Apple Mail, Hub) | 24.08.2026 11:32 (OWA, eigene Hand) |
+|---|---|---|
+| Anrede | «Lieber Levi» | «Hoi Levi» |
+| Du-Schreibung | «an **D**ir», «**D**eine», «**D**u hast» | «Ja **du** kannst» |
+| Gruss | «Freundliche Grüsse / Raphael Jans» + Block | «Lgr» |
+| Umfang | 89 Wörter, sieben Absätze | **8 Wörter** |
+| Fehler | keine | keine (zu kurz) |
+
+Der Zwilling hat dem Kontakt eine Stufe **«Lieber …»** zugeschrieben, Raphael schreibt ihm
+**«Hoi …»**. Beide Mails stehen im selben Postfach, und ohne den Werkzeug-Detektor
+(`internetMessageId` auf `PROD.OUTLOOK.COM`, Batch 103) wären beide als Beleg für dasselbe
+Register gelesen worden — der Korpus hätte sich selbst bestätigt.
+
+**Folge, und sie ist unbequem:** Ein Teil der im Beziehungsregister gesammelten «Wärmestufen»
+kann aus Claude-Erzeugnissen stammen, die nie als solche erkannt wurden. **Jede Registerzeile,
+die zwischen dem Beginn der Claude-Ära und dem 24.08.2026 (Batch 103) belegt wurde, trägt dieses
+Risiko** — der Detektor existiert erst seit gestern. Kein Anlass, den Bestand zu verwerfen; sehr
+wohl Anlass, vor jeder Rule-Änderung an `anrede-kontakte.md` die Belegmail auf ihre
+`internetMessageId` zu prüfen ([[QUESTIONS]] 260825 #2). Der belegte Befund selbst geht in die
+Richtung **zu förmlich**: der Zwilling greift eine Stufe zu hoch, nie zu tief.
+
+## Batch 104 — neunter Beleg gegen die Nivellier-Zeile, diesmal Sie und Du in EINER Zeile
+
+> «Werte Frau Ramminger, geschätzter Lior,»
+
+Zwei Empfänger im An, fünf im Cc, **eine** Anredezeile, **zwei** Register: «Werte Frau +
+Nachname» (Sie) neben «geschätzter + Vorname» (Du). Aus eigener Hand, 24.08.2026 18:02,
+Outlook Mobile. Die Nivellier-Zeile in `rules/anrede-kontakte.md` («bei mehreren Empfängern die
+höflichste Anrede wählen») würde hier «Werte Frau Ramminger, werter Herr Merci» verlangen.
+
+Damit stehen **neun** unabhängige Belege gegen die Zeile und **null** dafür. Die Zeile trägt seit
+21.08.2026 einen ⚠-Vermerk und wartet auf Raphaels Entscheid; der Zwilling fragt seit dem
+15.08.2026 danach. Zehn Tage, sechs Nachfragen — **die Frage wird ab hier nicht neu gestellt,
+sondern nur noch gezählt**, damit sie den QUESTIONS-Kopf nicht weiter verstopft.
+
+**Gegenprobe im selben Batch, und sie stützt die Staffelung:** In der Brandschutz-Mail an vier
+Empfänger (ein Du-Fachplaner im An, drei Bauherrenvertreter dahinter) lautet die Anrede
+**nur** «Geschätzter Jens,». Die Mitleser bekommen gar keine Anrede — er redet den an, den er
+meint, und lässt die anderen mithören. Nicht Nivellierung, nicht Staffelung: **Adressierung**.
+
+## Batch 104 — Anlassgewicht schlägt Routine-Default, fünfter unabhängiger Beleg
+
+Der Asset-Manager der Bauherrschaft ist in `rules/anrede-kontakte.md` mit «Salut Roman» warm
+geführt, mit Rückfall auf «Guten Tag» im Geld-/Mahnkontext. Belegt am 24.08.2026 17:02 (eigene
+Hand, Outlook Mobile): **«Geschätzter Roman,»** — Anlass ist die Weiterleitung einer
+Unternehmer-Nachfrage plus die verbindliche Zusage eines Termins («Mitte September 2026 den
+revidierten KV unterbreiten»). Verbindliches Ergebnis ⇒ eine Stufe höher, danach fällt der Faden
+zurück. Die Klausel ist damit fünffach belegt (Tschopp, Besnik, Hiltmann, Spörri, Steinmann) und
+gilt in **beiden** Registern.
+
+## Batch 104 — Registerzeilen aus diesem Fenster
+
+| Kontakt | Rolle | Beleg 24.08.2026 | Register |
+|---|---|---|---|
+| Nicklas Rothe | Röthlisberger AG, Schreiner (Küchenbau) | «Geschätzter Herr Rothe,» | **Sie** — Erstbeleg, neuer Kontakt |
+| Nora Ramminger | Kinderspital, Bauherrenseite | «Werte Frau Ramminger,» | **Sie**, Stufe «werte» |
+| Lior Merci | Kinderspital, Bauherrenseite | «geschätzter Lior,» | **Du** |
+| Alessandra Eberhard-Stählin | Elektro Stählin AG | (nur Cc, kein eigener Text) | offen — **nicht raten** |
+
+⚠ Die Zeile zu Alessandra Eberhard-Stählin bleibt bewusst leer. Ihr Bruder/Partner Felix Stählin
+ist als **Du** belegt; das überträgt sich **nicht**. Sie schreibt selbst «Guten Tag Herr Jans».

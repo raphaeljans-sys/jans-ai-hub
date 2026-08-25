@@ -4275,3 +4275,37 @@ und **einen mechanischen Ersatz gefunden**: der Werkzeug-Detektor aus Batch 103
 (`internetMessageId` auf `*.PROD.OUTLOOK.COM` ⇒ eigene Hand) waehlt Gold **ohne jeden Textkontakt**.
 **Empfehlung fuer den naechsten Lauf: zuerst nach Message-ID filtern, dann nach Betreff-Probe, und
 das `summary` gar nicht erst in die Auswahl einbeziehen.**
+
+## 260825 (Batch 104)
+
+**#1 — Wird «du» in eigener Hand klein geschrieben, und soll der Zwilling das übernehmen?**
+Gemessen am Fenster 24.08.2026: Du-Gross-Quote **0.667** in eigener Hand, **0.0** im selbst
+getippten Kurztext, **1.0** in den Hub-Erzeugnissen — beide Extreme am selben Tag, im Fall Eren
+in **derselben Mail** (Naht zwischen Vorspann und übernommenem Entwurf). Die DNA-Kernzeile
+«Du/Dich/Dir/Deine immer gross» beschreibt damit belegbar den Zwilling, nicht Raphael.
+Drei mögliche Antworten, die alle vertretbar sind:
+(a) *«Gross ist gewollt»* — die Kleinschreibung ist Tippgeschwindigkeit, der Zwilling soll sie
+    ausdrücklich **nicht** nachahmen; die Rule bleibt, das Wiki hält den Befund als reines
+    Echo-Detektionsmerkmal.
+(b) *«Registerabhängig»* — gross im Sie und in ausgehenden Dokumenten, klein in kurzen
+    Du-Nachrichten unter etwa 30 Wörtern.
+(c) *«Klein ist richtig»* — die Rule wird korrigiert.
+**Bis zum Entscheid schreibt der Zwilling unverändert gross.** Eine Kernzeile der DNA fällt nicht
+aus einem Lauf, und die Kleinschreibung ist der Fehler, den man einem Erzeugnis am ehesten
+verzeiht. Beleg: [[stimme]], Abschnitt Batch 104.
+
+**#2 — Sollen die Registerzeilen der Claude-Ära rückwirkend gegen den Werkzeug-Detektor
+geprüft werden?** Der Detektor (`internetMessageId` auf `PROD.OUTLOOK.COM` ⇒ eigene Hand) existiert
+erst seit dem 24.08.2026. Jede Anrede-/Gruss-Stufe, die seither im Beziehungsregister aus einer
+Mail der Claude-Ära abgeleitet wurde, kann aus einem Claude-Erzeugnis stammen. Belegter Fall aus
+diesem Batch: derselbe Kontakt, acht Minuten Abstand, «Lieber Levi» (Hub) gegen «Hoi Levi»
+(eigene Hand) — der Zwilling greift **eine Stufe zu förmlich**, nie zu locker.
+Vorschlag zur Entlastung, ohne neuen Lauf: **keine Rückprüfung des ganzen Bestands**, aber eine
+Pflicht **vor jeder Rule-Änderung** an `anrede-kontakte.md` — die Belegmail wird auf ihre
+`internetMessageId` geprüft, bevor eine Zeile geschrieben oder geändert wird. Kostet nichts, weil
+die ID in jeder Trefferliste ohnehin mitkommt. Braucht Raphaels Ja, weil es eine Rule-Vorschrift wäre.
+
+**#3 — Nivellier-Zeile: neunter Beleg dagegen, null dafür.** Keine neue Frage, nur der Zähler
+(offen seit 15.08.2026, sechs Nachfragen). Ab hier **nicht mehr neu gestellt**, nur noch gezählt,
+damit der QUESTIONS-Kopf frei bleibt für Ungeklärtes. Der Wortlaut-Vorschlag von 260815 #4 gilt
+unverändert: nivellieren nur «bei grossen oder unbekannten Verteilern», sonst gestaffelt anreden.
