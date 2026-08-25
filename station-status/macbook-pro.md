@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.08.2026 03:44:49
+Stand: 25.08.2026 03:55:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:44)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 25.08.2026 03:44:49
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 53c04a626 nas-selfcommit: 2 Datei(en) 2026-08-25 03:45
+- 2f2c04f24 twin-mail-training Batch 104: Fenster rj@ 23.-24.08.2026 — Du-Gross-Quote als Autorschafts-Detektor, Registerdifferenz = Autorschaftsdifferenz, erstes strukturelles Korrektur-Delta
