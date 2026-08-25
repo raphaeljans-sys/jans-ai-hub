@@ -3,6 +3,52 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NACHTRAG 25.08.2026, 08:4x (Hub-Chef) zur Türmatrix-Zeile von 07:0x — der Umfang ist um eine
+Grössenordnung grösser als geschätzt, und ein Teil davon hängt an Zulieferungen Dritter, die
+niemand angefragt hat.** Die Zeile von heute Morgen benennt die Bringschuld korrekt und schätzt
+sie im Briefing auf zwei bis drei Stunden. **Eigene Auszählung an einer Arbeitskopie der Datei
+`KISPI_TFP_Master_ TMatrix_Ausfuehrung_Umbau 1.OG_260824.xlsx`, Blatt «Türmatrix», Zeilen 2442 bis
+2474:** die Matrix führt **61 olivgrüne Spalten** (Kopfzeile M7: «Olivgrüne Felder: Pflege der
+Einträge durch die Architektur»). Davon sind **55 bei allen 33 Umbau-Türen leer**; gefüllt sind
+allein Geschoss, Plan-Koordinate, Raumfunktionsnummer, Raumbezeichnung und Vorgangs-ID.
+**Gegenprobe** an 60 bestehenden Innentüren desselben Geschosses mit Positionsnummer 273.01:
+dieselben Felder **60/60 gefüllt** (Design-Typ, Bauart, Schalldämmwert, Anschlag, Rohbaumassen,
+Zargentyp, Materialien, Oberflächen, Bandtyp, Beschlagmaterial). Die Lücke ist also nicht eine
+Nachbesserung, sondern die **vollständige architektonische Türspezifikation: rund 1'800 Einträge**.
+**Was daran den 01.09. gefährdet:** der Block Bauphysik (DD Schalldämmwert R'w+C, DE Prüfklima,
+DH U-Wert) und der Strahlenschutz (DG, nach Angabe MED-Planung) sind **Zulieferungen Dritter und
+bisher nicht angefragt**. Sie lassen sich nicht im Büro nachholen.
+**Zur Nummer in Spalte A, gegen Rule `bkp-2017-referenz` geprüft:** die Matrix arbeitet durchgehend
+mit **zweistelligen Nachkommastellen** (273.01 bei 1'186 Türen, 274.01 bei 324, 273.61 bei 274,
+273.03 bei 215). Das sind **Positionsnummern der Projektsystematik, keine BKP-2017-Codes** — das
+BKP 2017 kennt unter 273 nur einstellige Nachkommastellen (dieselbe Falle wie die Korrektur
+«271.10» vom 04.08.2026). Heute steht in Spalte A bei allen 33 Zeilen der Text «Umbau Therapie».
+Die Zuordnung je Tür ist **erst nach dem Setzen von DC Bauart und DR/DZ Material belegbar** und
+wurde deshalb **nicht geraten und nicht eingetragen**.
+**Arbeitsgrundlage abgelegt** (Aktion A3, Original in SharePoint nicht angefasst):
+`AR - 01 Projekte/2619_KINDERSPITAL/03_BKP/LOS_231.10 Türfachplanung System TeKoSi AG/231.10 08
+Korrespondenz/260825-Tuermatrix-Luecken-Umbau-1OG/260825-Tuermatrix-Luecken-Umbau-1OG.md` — nennt
+die 33 Türen namentlich und die fehlenden Felder in sechs Arbeitsschritten geordnet.
+**AKTION Raphael:** (1) Bauphysik und MED-Planung **heute** um die Werte für DD, DE, DH und DG
+angehen, das ist der lange Pfad. (2) Entscheiden, ob der Produktionsstart 01.09. mit dieser
+Datenlage zu halten ist oder ob Jegen vorgewarnt werden muss.
+| Eigene Auszählung 25.08.2026 08:4x an Arbeitskopie `/tmp/tmatrix-chef-260825.xlsx` (openpyxl, Füllfarben FFC2D69B/FFD6E3BC in Kopfzeile 7/8, Leerzählung Zeilen 2442-2474, Gegenprobe 60 Zeilen BKP 273.01 Geschoss 01) | 2619 KISPI, Lose 231.10 und 274.01 | hoch | offen — Produktionsstart 01.09.2026
+
+**NACHTRAG 25.08.2026, 08:5x (Hub-Chef) zur Meldekanal-Zeile von 07:3x: der Chef-Lauf hat heute
+stattgefunden, der Kanal ist nicht defekt — er läuft aber nur, weil er von Hand auf Graph
+ausgewichen ist.** Das Tagesbriefing ist **25.08.2026 08:50:58** an rj@ gesendet und **in den
+Gesendeten nachgemessen** (4'758 HTML-Bytes, 4'389 Zeichen Fliesstext, kein Leer-Draft). Die vom
+Radar geforderte Prüfung «findet der Lauf um 08:39 statt» ist damit **positiv beantwortet**; ein
+zweiter Ausfall in Folge liegt nicht vor.
+**Der Befund darunter bleibt aber offen und ist der eigentliche Punkt:** der Versand ging über
+`m365 outlook mail send`, weil Apple Mail auf dieser Station weiterhin nicht auf osascript
+antwortet. **Der Skill `hub-chef` hat diesen Rückfall nicht eingebaut** — er ist heute wie beim
+Radar von Hand gespielt worden. Solange das so bleibt, hängt der einzige reguläre Meldekanal an
+einer Anwendung, die seit gestern nicht reagiert, und der Ausfall meldet sich weiterhin nicht
+selbst. Die Empfehlung der 08:0x-Zeile (Graph-Rückfall fest einbauen, Fehlerprotokoll für die
+Task) ist damit **doppelt belegt** und unverändert offen.
+| Versandbeleg in den Gesendeten von rj@ 25.08.2026 08:50:58 samt Body-Auszählung, eigene Messung | Hub-Infrastruktur / Meldekanal | hoch | offen
+
 **NEU 25.08.2026, 06:55 bis 07:35 (Logbuch-Radar) — P1: Das UBS-Kapitaleinzahlungskonto der
 Raphael Jans AG ist seit dem 17.08.2026 eröffnet und liegt seit acht Tagen unbeachtet im
 Postfach. Genau der Schaden, vor dem die Zeile vom 24.08. zum defekten Monitor gewarnt hat.**

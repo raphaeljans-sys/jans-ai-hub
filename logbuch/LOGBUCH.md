@@ -3,6 +3,67 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 25.08.2026 (08:39 bis 08:5x) — Tagesbriefing GESENDET, Türmatrix-Lückenliste erstellt (A3)
+
+**Der Lauf hat stattgefunden.** Damit ist die Aktion beantwortet, die der Radar heute um 07:3x
+gefordert hat: der Ausfall vom 24.08. war einmalig, der Meldekanal ist nicht als defekt zu
+behandeln. **Der Versand lief über den Graph-Weg**, nicht über Apple Mail — die osascript-Blockade
+vom Morgen besteht unverändert. Das ist zugleich der zweite produktive Beleg für den zweiten Weg
+aus `connectors/WEGE.md` (der erste war der Radar um 07:12).
+
+### Ausgeführte Aktion (A3, Ablage/Analyse)
+
+**Türmatrix Umbau 1.OG ausgezählt, Lückenliste abgelegt.**
+Auslöser: die Registerzeile von 07:0x nennt die Ergänzung der olivgrünen Spalten und der BKP-Nummern
+als drängendste Bringschuld der Woche; der Radar schätzte zwei bis drei Stunden.
+Guards: rein lesende Analyse an einer Arbeitskopie (`/tmp/tmatrix-chef-260825.xlsx`), das Original in
+SharePoint **nicht angefasst**; Ablage als neue Datei in eigenem Ordner nach Dateinamen-Konvention,
+nichts überschrieben, nichts gelöscht.
+Ergebnis: `AR - 01 Projekte/2619_KINDERSPITAL/03_BKP/LOS_231.10 Türfachplanung System TeKoSi AG/
+231.10 08 Korrespondenz/260825-Tuermatrix-Luecken-Umbau-1OG/260825-Tuermatrix-Luecken-Umbau-1OG.md`
+
+**Der Befund korrigiert die Aufwandschätzung materiell** (eigene Zeile in `fristen.md`): von den
+61 olivgrünen Architektur-Spalten sind **55 bei allen 33 Umbau-Türen leer**; gefüllt sind nur
+Geschoss, Plan-Koordinate, Raumfunktionsnummer, Raumbezeichnung und Vorgangs-ID. Gegenprobe an
+60 bestehenden Innentüren desselben Geschosses (BKP 273.01): dieselben Felder **60/60 gefüllt**.
+Rund 1'800 Einträge, nicht zwei bis drei Stunden.
+
+**Methodischer Nebenbefund zur Rule `bkp-2017-referenz`:** die Matrix arbeitet durchgehend mit
+zweistelligen Nachkommastellen (273.01 bei 1'186 Türen, 274.01 bei 324, 273.61 bei 274). Das sind
+Positionsnummern der Projektsystematik, **keine BKP-2017-Codes** — das BKP 2017 kennt unter 273
+nur einstellige Nachkommastellen. Genau die Falle der Korrektur vom 04.08.2026. Die Zuordnung je
+Tür ist erst belegbar, wenn Bauart (DC) und Material (DR/DZ) gesetzt sind; heute steht in Spalte A
+bei allen 33 Zeilen der Text «Umbau Therapie». **Nichts geraten, nichts eingetragen.**
+
+### Briefing
+
+**GESENDET** 25.08.2026 **08:50:58** an rj@raphaeljans.ch, Betreff «Hub-Chef 25.08.26 — Tuermatrix:
+55 von 61 Architektur-Feldern leer, 01.09. betroffen; UBS-Einzahlung weiter offen».
+**Nachgemessen in den Gesendeten, nicht am Rückgabewert** (Lehre 24.08.): 4'758 HTML-Bytes,
+**4'389 Zeichen Fliesstext** — kein Leer-Draft. Aptos 12 pt, echte Umlaute, keine Gedankenstriche.
+Struktur: Erledigt / Entwürfe / Fällig-Droht 7 Tage / Service-Chancen / Beobachten.
+
+**Sendegrund:** operative Befunde reichlich (Türmatrix-Korrektur, UBS-Einzahlung, bexio Tag 17,
+zwei Fristen heute). **Das Radar-Briefing wurde nicht wiederholt**, nur weitergetragen; neu sind
+allein der Türmatrix-Befund, die Bestätigung des heutigen Chef-Laufs und Ziegels Zusage.
+
+### Signale, die keinen eigenen Punkt ergaben
+
+Posteingang rj@ seit 24.08. 12:00 über Graph gelesen: sechs Nachrichten, davon vier Termin-Antworten
+zur Brandschutz-Begehung (**J. Ziegel angenommen 25.08. 07:21** — neu gegenüber dem Radar,
+A. Spahic zugesagt, M. Spörri abgesagt), eine Abwesenheitsnotiz Guerini, eine Stählin-Nachfrage
+(bereits am 24.08. beantwortet, Registerzeile besteht). Postfach mail@: seit 24.08. nur eine
+Werbemail. Kalender 25.08. bis 01.09. via Graph gegen das Radar-Briefing geprüft, vier Termine,
+**deckungsgleich**. Sync-Task-Queues leer, Freigabe-Queue leer, `remote-tasks/pending` leer.
+`node connectors/bexio.mjs --verzug` erneut **HTTP 401** (Tag 17), keine Mahnaktion — Guard A1
+nicht erfüllt, weil der Abgleich nicht laufen kann.
+
+**Werkzeug-Hinweis für den nächsten Lauf:** `scripts/mail-vorfilter.sh` ist auf dieser Station
+derzeit unbrauchbar (hängt an Apple Mail). Der Graph-Weg über `./node_modules/.bin/m365 outlook
+message list --userName <konto> --folderName Inbox|SentItems --output json` funktioniert und ist
+schnell; `m365 outlook event list` existiert **nicht**, der Kalender läuft über das
+M365-MCP-Werkzeug `outlook_calendar_search`.
+
 ## Radar-Briefing 25.08.2026 (06:55 bis 07:40, planmässig, Dienstag). Ausnahme: selbst gemailt
 
 **Warum diesmal eine eigene Mail:** Der Hub-Chef-Lauf vom 24.08. ist ausgefallen (dreifach
