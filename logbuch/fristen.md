@@ -3740,3 +3740,41 @@ eine Ergänzung am Agenten `layout` (Korrektur-Harness), nicht am Twin.
 
 Status: **offen, mittel** — (a) Pfad nachreichen (Aktion Raphael, eine Zeile),
 (b) Platzhalter-Riegel im Korrektur-Harness (umkehrbare Hub-Arbeit, kann ein Folgelauf bauen).
+
+---
+
+**NACHTRAG 25.08.2026, 09:4x (heartbeat-daily) zu Punkt 2 des Nachtrags 06:2x — Korrektur einer
+Sachaussage: «Heartbeat Check 15» existiert nicht.** Der Punkt haelt zutreffend fest, dass
+`ch.jans.tailscale-waechter` nicht geladen ist, und schliesst mit «bis dahin traegt nur der
+Heartbeat». **Beides zusammen ist irrefuehrend, weil der Heartbeat den Tailscale-Zustand gar nicht
+misst.** Nachgemessen 25.08. 09:4x am kanonischen Script: `grep -i tailscale
+scripts/heartbeat.sh` liefert **null Treffer**; das Script hat 306 Zeilen und **acht** Checks
+(NAS, Git, M365, Disk, Sync-Tasks, Symlinks, Dok-Pipeline, Schutzmechanik), sein letzter Commit
+ist `50f4553a9` vom **13.08.2026** — also elf Tage **vor** dem Wochenendausfall. Der Wachhund
+(`scripts/tailscale-waechter.sh`) und die Vorlage existieren seit 24.08., die Verdrahtung in den
+Heartbeat wurde **nie gebaut**. Es gibt derzeit also **keinen** Mechanismus, der einen erneuten
+`WantRunning: false` bemerkt — weder den launchd-Job noch den Heartbeat.
+
+Dies ist dasselbe Muster wie Rule `auto-verbesserungen` 260807: eine Gegenmassnahme gilt als
+vorhanden, weil sie dokumentiert ist, ohne dass ihre Wirkung je gemessen wurde. Auch CLAUDE.md
+fuehrt sie unter «heartbeat Check 15» als bestehend. **Der Registereintrag von 06:2x hat den
+Ausfall der Gegenmassnahme korrekt erkannt, aber ihren Umfang zu klein geschaetzt: es fehlt nicht
+nur die Installation, es fehlt auch der Check.**
+
+Ist-Zustand heute gruen, gemessen 09:4x: Tailscale aktiv, `macmini` online im Tailnet,
+`ssh mini` antwortet (uptime 14:51). Der P1 ist **behoben**, nicht der Schutz davor.
+
+Aktion, zweiteilig:
+1. **Heartbeat-Check nachruesten** — fertig gebaut und getestet, aber **nicht geschrieben**: der
+   Auto-Mode-Klassifikator hat den Schreibzugriff auf `scripts/heartbeat.sh` blockiert (Rule
+   `wege-und-vollmachten`: nie umgehen, fertigen Befehl vorlegen). Gepatchte Fassung liegt unter
+   `<scratchpad>/heartbeat-neu.sh`, Syntax geprueft (`bash -n` OK), Codepfad isoliert getestet
+   (Ausgabe: «Tailscale aktiv · macmini online · Waechter NICHT installiert», reach_ok=false).
+   Diff gegen den Bestand: +66 Zeilen, 2 Loeschungen — beides belegte Zeilenersetzungen
+   (Warnungs-Logik, JSON-Block), kein Datenverlust (Rule 260811 nachgemessen).
+   Der Check misst **getrennt**, was Rule 260824 getrennt verlangt: Daemon laeuft · Peer-Station
+   erreichbar · Waechter installiert. Er warnt, ohne den Gesamtstatus kritisch rot zu setzen.
+2. **plist installieren und laden** (unveraendert offen aus Punkt 2 von 06:2x) — Klasse
+   Systemdienst/Persistenz, faellt unter die Freigabe-Schwelle, wird von diesem Lauf nicht selbst
+   ausgefuehrt.
+   | Hub-Infrastruktur (Erreichbarkeit) | hoch | offen
