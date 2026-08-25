@@ -3799,3 +3799,29 @@ Aktion, zweiteilig:
    Systemdienst/Persistenz, faellt unter die Freigabe-Schwelle, wird von diesem Lauf nicht selbst
    ausgefuehrt.
    | Hub-Infrastruktur (Erreichbarkeit) | hoch | offen
+
+
+**NACHTRAG 25.08.2026, 23:1x (Energie-Lern-Lauf Run 163) — zwei Datenstands-Termine, die
+Bauherren-Aussagen betreffen.** Eingetragen nach Rule `auto-verbesserungen` 260805 (terminkritische
+Funde gehoeren ins Register, nicht nur in den Laufbericht). Beides ist **kein** Handlungsbedarf fuer
+Raphael heute, sondern eine Vormerkung fuer die Beratung.
+
+1. **Fernwaerme Stadt Zuerich: Tarifstruktur wechselt per 2027 — Status «zu pruefen», ohne Frist.**
+   Die Stadt ersetzt das indexbasierte Tarifsystem durch ein **kostenbasiertes Gebuehrenmodell**
+   (Medienmitteilung 05.11.2025, Teilrevision Waermeversorgungsverordnung, Motion GR Nr. 2022/441);
+   amtlich belegt ist bislang nur die **Richtung**, nicht die Hoehe. Ein Medienbericht nennt
+   Arbeitspreis 65 → 35 CHF/MWh und Leistungspreis 42 → 145 CHF/kW; die amtliche Mitteilung nennt
+   diese Zahlen **nicht** (selbst nachgeprueft). **Wirkung, falls bestaetigt:** die
+   Fernwaerme-Wirtschaftlichkeit verschiebt sich vom Verbrauch zur Fixgebuehr — ein gut gedaemmtes
+   Gebaeude profitiert dann **weniger**, nicht mehr. Wer bis dahin eine Fernwaerme-Rechnung fuer eine
+   Bauherrschaft aufstellt, sollte den Vorbehalt nennen. Belegkette und offener Punkt E-R163-1:
+   `wissen/energie/destillate/fernwaerme-anschlusskosten-zh.md`.
+2. **Agro Energie Schwyz: Grund- und Arbeitspreis laufen am 30.09.2026 ab** (Anschlussgebuehr bis
+   31.12.2026). Noch keine Folgeversion publiziert. Ab Oktober 2026 neu ziehen, bevor SZ-Zahlen in
+   eine Offerte oder Studie wandern. Offener Punkt E-R163-6.
+
+**Ausserdem berichtigt (kein Termin, aber beratungsrelevant):** die in der Wissensbasis gefuehrten
+Uf-Fallback-Werte fuer Fensterrahmen (Holz 1,9 / Kunststoff 2,5 / Verbundprofil 3,3) sind **seit
+08.2009 amtlich abgeloest**; es gelten **1,8 / 2,2 / 2,8** (Merkblatt Fenster, Best-Nr. 805.107.d).
+Alle Fundstellen sind nachgezogen. Wer in einem aelteren JANS-Dokument die alten Werte findet, sollte
+sie ersetzen. Lauf: `wissen/energie/outputs/2026-08-25_energie-run163.md`.
