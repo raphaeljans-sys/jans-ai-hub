@@ -3141,3 +3141,104 @@ Rueckstand −8.2). (d) kein verfehltes Briefing-Deliverable. (e) Radar-Herzschl
 (`ssh mini 'pkill -f vollschub-mini-v2.sh'`, beendet nur den Taktgeber, laufende Einzellaeufe
 sichern ihren Ertrag) oder bewusst durchlaufen lassen und den Ausfall einzelner Briefings in Kauf
 nehmen. Der Entscheid liegt bei Raphael; dieser Lauf stellt nichts ab.
+
+## 2026-08-25 07:18 CEST — Rohblock (Messung zuerst, Bewertung folgt unten)
+
+Messzeitpunkt 07:15–07:18 CEST. Beide Stationen messbar (`ssh mini` antwortete sofort,
+Tailnet steht wieder — der Ausfall 20.–24.08. ist behoben).
+
+Verbrauch je Tag, teuer (in+cache_creation+out) / total, rekursives Glob inkl. Subagenten:
+
+MacBook Pro — 17.08. 10.23/254.85 · 18.08. 5.22/119.87 · 19.08. 6.29/133.47 ·
+20.08. 8.68/209.49 · 21.08. 7.07/175.25 · 22.08. 7.90/238.93 · 23.08. 18.50/458.66 ·
+24.08. 8.65/214.98 · 25.08. (bis 07:15) 2.16/63.82.
+
+Mac Mini — 17.08. 2.30/66.25 · 18.08. 1.09/33.12 · 19.08. 3.04/41.98 · 20.08. 1.90/51.42 ·
+21.08. 3.56/81.37 · 22.08. 0.93/20.20 · 23.08. **53.17/1710.92** · 24.08. **46.70/1611.21** ·
+25.08. (bis 07:15) 0.48/14.29.
+
+Beide Stationen zusammen, teuer: 23.08. **71.67 Mio**, 24.08. **55.35 Mio**, 25.08. bisher
+2.64 Mio. Zum Vergleich die sechs Tage davor: 12.5 / 6.3 / 9.3 / 10.6 / 10.6 / 8.8 Mio.
+
+Der Mini-Verbrauch verteilt sich auf sehr viele kleine Sessions, nicht auf einen Ausreisser:
+groesster Einzelverbraucher am 23.08. 0.90 Mio (`energie-training`), am 24.08. 0.47 Mio
+(Energie-Subagent). Es ist die ANZAHL Laeufe, nicht die Laenge. Alle Zeilen sind
+Lern-Loops und Nachtschicht-Dispatches (energie-training, normen-SIA-Sweep, baurecht-Reglemente,
+projekt-lessons, archiv-fachwissen-Inventar) — keine interaktive Arbeit.
+
+## 2026-08-25 07:24 CEST — BEWERTUNG: keine Mail (beide erfuellten Kriterien sind bereits gemeldet)
+
+**Blockade-Check (Schritt 2): null echte Limit-Ereignisse in 24 h**, strukturell geprueft
+(`isApiErrorMessage`/`type=error`/429 plus Limit-Text im selben Datensatz). Weder 5h- noch
+Wochensperre. Kontrollprobe gefahren: der Teilstring `scheduled-task` kommt in 767 Dateien vor,
+das Muster greift also.
+
+**Wochenkontingent gesund.** Seit dem Reset 24.08. 12:00 CEST: MacBook Pro 7.31 Mio, Mac Mini
+3.04 Mio, zusammen **10.35 von 167 Mio** bei rund 14 % verstrichener Woche. Kein Rueckstand,
+kein Drossel-Anlass. Kriterium (c) nicht erfuellt.
+
+**Radar-Herzschlag frisch.** Juengster Eintrag in RADAR.md ist der 25.08. 00:57 (erste `## `-
+Ueberschrift, nicht der Dateikopf), zugehoerige Session 24.08. 22:57 UTC. Rund 6.5 h alt,
+Schwelle ist 12 h. Kriterium (e) nicht erfuellt.
+
+**Ertrag hoch, Stueckkosten fallend.** Artikel je Tag ueber `git log --name-only` gemessen, nicht
+ueber mtime: 22.08. 12 (ohne Twin-Facetten 6) · 23.08. 74 (68) · 24.08. 85 (79) · 25.08. bisher 7
+(2). Stueckkosten teuer je Artikel: 23.08. 0.97 Mio, 24.08. **0.65 Mio** — der Schub hat geliefert,
+und er ist im zweiten Tag guenstiger geworden. Keine Delta-Null-Serie: die sechs juengsten
+outputs-Reports (twin, auflagebereinigung, normen, baurecht, koordination, energie) tragen alle
+einen Befund. Kriterium (f) nicht erfuellt.
+
+**Korpus-Queue nicht komplett.** Korpora 1 (`bauprodukte`) und 2 (`buero-projekte`) sind erledigt;
+3 (`buero-referenzen`) und 4 (`archiv-fachwissen`) stehen nach der Inventar-Phase 0 vom 23.08.
+Kriterium (g) nicht erfuellt.
+
+### Kriterium (b) erfuellt — aber derselbe Befund, gestern gemailt
+
+Teurer Tagesverbrauch beider Stationen zusammen: **23.08. 71.67 Mio**, **24.08. 55.35 Mio**. Beide
+Tage liegen weit ueber der 35-Mio-Schwelle, und die Zwei-Tages-Bedingung (je >18 Mio) ist ebenfalls
+erfuellt. Der Treiber ist der `/tmp`-Vollgas-Schub auf dem Mac Mini, den die Fruehwarnung am
+**24.08. 07:50 bereits gemailt** hat und den der Chef-Radar am 24.08. 07:20 als P1 mit fertigem
+Stopp-Befehl vorgelegt hat. Der Schub ist seit dem Wochen-Reset 24.08. 12:00 beendet (Radar-Eintrag
+24.08. 12:57), und der 25.08. liegt bis 07:15 bei 2.64 Mio zusammen — wieder im Normalband. Eine
+zweite Mail zu einem beendeten Vorgang mit hohem Ertrag waere die Wiederholungsmail, die Schritt 7
+ausschliesst.
+
+### Kriterium (d) erfuellt — und vom Radar heute Morgen bereits selbst gemeldet
+
+**Am 24.08. sind alle drei operativen Vormittags-Briefings am selben Fehler gestorben:**
+`mahnwesen-verzugscheck` (Start 08:07 CEST, 18 Zeilen), `zahlungsabgleich-check` (08:25, 18 Zeilen)
+und `hub-chef-taeglich` (08:40, 20 Zeilen) — jeder Lauf endete mit `API Error: 529 Overloaded`,
+also einer serverseitigen Ueberlastung, **nicht** einer Kontingentsperre. Zum Vergleich: dieselben
+Tasks liefen am 21.–23.08. mit 72 bis 354 Zeilen sauber durch. Damit ist am 24.08. der einzige
+regulaere Meldekanal ausgefallen.
+
+**Das ist bereits bei Raphael.** Der `logbuch-radar` hat den Ausfall heute 06:55–07:40 dreifach
+gemessen (keine Chef-Sektion im Logbuch, kein Eintrag in `widerruf/versand.log`, kein Briefing im
+Postausgang) und daraufhin sein Briefing als Ausnahme selbst gemailt (Graph-Weg). Genau dafuer ist
+seine Ausnahme-Klausel da; sie hat funktioniert. Diese Aufsicht meldet denselben Ausfall nicht ein
+zweites Mal 20 Minuten spaeter.
+
+**Was der Fruehwarnung eigenstaendig auffaellt und an den Radar geht:** die 529-Welle traf am
+24.08. **alle drei** Briefings toedlich, waehrend dieselbe Stoerung am 30.07.2026 (RADAR.md,
+Eintrag 09:57) nur den `hub-chef` erwischte und der `zahlungsabgleich-check` sie damals ueberlebte,
+weil er **inline auswich** statt den Korrektur-Fan-out zu wiederholen. Der heutige `logbuch-radar`
+ist ebenfalls auf einen 529 gelaufen und hat ihn ueberlebt (383 Zeilen, Deliverable erreicht). Die
+Sollbruchstelle ist also bekannt, die Ausweich-Technik ebenfalls, und sie ist in den drei
+gestorbenen Tasks nicht eingebaut. Zweiter gleichartiger Vorfall in vier Wochen, beim zweiten Mal
+mit dreifachem statt einfachem Schaden. Das ist ein Hub-Internum ohne Aussenwirkung und damit nach
+Rule 260803 kein Sendegrund — es gehoert hierher und in die Hand des Radars, der auf Befunde dieses
+Logs handelt.
+
+**Zweiter Punkt fuer den Radar:** die Korpora 3 und 4 der Destillat-Queue tragen beide «Spec
+weiterhin offen», haben aber die Inventar-Phase 0 am 23.08. bereits hinter sich. Noch kein
+Spec-Gate-Hang (je ein Lauf, Schwelle sind mehr als zwei), aber ab dem naechsten Lauf ohne Spec
+ist es einer. Beobachten.
+
+**Nicht erfuellt:** (a) keine interaktive Session hatte ein Limit-Ereignis. Die interaktive Session
+vom 24.08. zur ungeprueften Einladung (Projekt-ID 00936-7354-RO) endete zwar mit `529 Overloaded`,
+das ist aber eine Serverstoerung und kein Usage-Limit; der Punkt steht ohnehin als offene Frist im
+Register (`logbuch/fristen.md`, Punkt 4). (c) (e) (f) (g) wie oben.
+
+**Naechste Mail:** nicht fuer diese beiden Befunde. Erst wieder bei neuer Kontingent-Erschoepfung,
+bei einem Briefing-Ausfall, den der Radar NICHT selbst meldet, bei fehlendem Radar-Herzschlag oder
+bei Aufwand ohne Wissenszuwachs. Zuletzt gemailt: **24.08.2026 07:50**.
