@@ -53,6 +53,39 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-25 12:57 — [FREI] **Alles im Lot, ein neuer Befund: der 13:30-Slot der Mac-Mini-Nachtschicht ist am 24.08. ersatzlos ausgefallen — kein Lauf, aber auch kein «uebersprungen» im Log.** Fenster frei, Budget entspannt, sechs KBs mit echtem Delta, kein Loop auf Delta Null.
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 25.08. 00:57, dieser 12:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). `lastRunAt` der eigenen Task 25.08. 10:57 UTC = 12:57 CEST, deckungsgleich mit diesem Lauf. Keine Luecke, kein zweiter Ausfalltyp zu pruefen.
+
+**Fensterzustand [FREI].** Probe ueber die app-gebuendelte CLI **2.1.237**: «OK», rc=0, in **6 Sekunden** — mit dem entkoppelten Watchdog gemessen (`> /dev/null 2>&1 < /dev/null` am `sleep`-Kind, `pkill -P` danach). Damit ist die Reihe der schnellen Messungen stabil: 5 s (25.08. 00:57), 6 s (jetzt). Keine Waisen (`ps` auf `claude -p` leer). Speicher unauffaellig: rund 4.1 GB frei+inaktiv+spekulativ, `kern.memorystatus_vm_pressure_level: 1`.
+
+**Kontingent: reichlich Luft, und der Vorsprung ist negativ.** `kontingent-budget.sh`: Ampel **FREI**, **11.51 von 167 Mio (6.9 %)** bei **14.9 %** verstrichener Woche, Vorsprung **−8.0 Punkte**. Der Verbrauch laeuft dem Zeitverlauf also deutlich hinterher — genau die Gleichverteilung, die Raphael am 03.08. angeordnet hat. Beide Arbeitsstationen frisch (Macbookpro 8.47 Mio, Macmini 3.04 Mio, Alter 0.0 bzw. 0.1 h). Keine Drossel faellig, keine Drossel zurueckzudrehen.
+
+**Liefer-Delta: sechs KBs, gemessen ueber git statt ueber `find` (Werkzeugfalle 20.08.).** Seit dem letzten Eintrag geaenderte Dateien je Wissensbasis: **baurecht 15 · twin 10 · normen 3 · claude-code 3 · auflagebereinigung 2 · spec 1**. Alle nachtaktiven Lern-Loops haben substanziell geliefert, jeder mit belegtem Ergebnis im CHANGELOG: `normen-training-nacht` Run 61 (drei unentdeckte DE-Destillat-Duplikate, drei einstimmige Agenten-Fehlbefunde durch Gegenpruefung abgefangen), `baurecht-buch-training` Buch-Run 140 (Wiederaufbau-Regel richtiggestellt: Art. 42 Abs. 4 RPV statt Art. 24c Abs. 2 RPG, zwei vertauschte Schwellenwerte korrigiert), `twin-mail-training` Batch 104 (erstes strukturelles Korrektur-Delta), Nachtschicht 05:35 (`claude-code`, Grundkontext-Rebound Nr. 2 gemessen). **Kein Loop auf Delta Null, keine Ruecktakt- oder Stilllegungsmassnahme faellig.**
+
+**Feuermechanismen: unveraendert korrekt, beide Stationen geprueft.** MacBook Pro: `ch.jans.vollgas-supervisor` und `ch.jans.vollgas-monitor` tragen weiterhin `.disabled-260729`, `com.jans.aihub.runner` weiterhin `.disabled-260728`. Mac Mini: `ch.jans.vollgas-supervisor.plist.disabled-260729`, `ch.jans.nachtschicht` geladen mit letztem Exit 0. Mini-Registry vollstaendig beim Sollstand (acht Tasks, vier davon korrekt stillgelegt). **Nichts wiederbelebt, nichts doppelt gefeuert.** Der stehende Entscheid vom 30.07. bleibt gewahrt.
+
+### P2 — Der 13:30-Slot der Nachtschicht ist am 24.08. ausgefallen, und zwar spurlos
+
+Die Nachtschicht des Mac Mini traegt vier Slots (23:30 / 02:30 / 05:30 / 13:30, aus der plist verifiziert). Das Log `~/Library/Logs/ch.jans.nachtschicht.log` zeigt fuer die letzten drei Tage:
+
+- **23.08.:** 02:30 ✓ · 05:30 ✓ · **13:30 ✓** (Exit 0, 450 s, 2.97 USD) · 23:30 «Weiche: keine Station bereit — Zyklus uebersprungen»
+- **24.08.:** 02:30 Exit 1 nach **2 Sekunden** · 05:30 ✓ · **13:30 — kein Eintrag** · 23:30 ✓
+- **25.08.:** 02:30 ✓ · 05:30 ✓ · 13:30 zum Zeitpunkt dieser Messung (12:57) noch nicht faellig
+
+**Der Unterschied ist der Punkt.** Am 23.08. um 23:30 hat die Arbeits-Weiche sauber gegriffen und ihren Verzicht protokolliert — so soll ein uebersprungener Slot aussehen. Am 24.08. um 13:30 steht **gar nichts** im Log: weder ein Start noch ein Verzicht. Das ist kein Weichen-Entscheid, sondern ein nicht gefeuerter Job. Da die Nachtschicht seit dem Ausbau des Endlos-Runners der **einzige** Lern-Taktgeber ist und einen uebersprungenen Slot niemand nachholt, kostet das ein Viertel der Tageskapazitaet dieses Taktgebers.
+
+**Ein Ausfall ist noch keine Serie, deshalb jetzt keine Massnahme.** Ein Reload der plist waere ein Eingriff in Systemdienste (Klasse 4 der Rule `interaktive-eingriffe`) und gehoert nicht in einen unbeaufsichtigten Regellauf. **Pruefvorschrift fuer den naechsten Lauf (00:57):** im Log nachsehen, ob der 25.08.-13:30-Slot gefeuert hat. Fehlt er ein zweites Mal in Folge, ist es ein Muster — dann gehoert der Befund mit dem exakten Reload-Befehl vorgelegt, statt weiter beobachtet zu werden.
+
+**Nicht verwechseln mit dem Exit-1 vom 24.08. 02:30.** Der lief 2 Sekunden und fiel damit in das Fenster **vor** dem Wochen-Reset (~03:00), also in eine Kontingentsperre. Ein Liefer-Delta von Null waehrend einer Sperre ist ausdruecklich kein Leerlauf; der Punkt ist erledigt und nicht Teil dieses Befunds.
+
+### P3 — Die Homebrew-Wedge der CLI dauert nun drei Tage, laenger als beim letzten Mal
+
+`/opt/homebrew/bin/claude` zeigt unveraendert auf **2.1.231**, Symlink-Datum **22.08. 05:15** — seit vier Tagen kein Nachschub, und das Caskroom fuehrt keine neuere Fassung. Zum Vergleich: die gleichartige Wedge mit 2.1.224 (15./16.08.) war nach rund **zwei** Tagen durch 2.1.226 abgeloest. **Kein Blocker:** die app-gebuendelte 2.1.237 traegt die Probe seit dem 22.08. zuverlaessig und wird unabhaengig von Homebrew aktualisiert. Der Punkt steht hier, damit die Verlaengerung dokumentiert ist und die PATH-Probe nicht aus Gewohnheit zurueckgestellt wird: **wieder auf PATH umstellen erst, wenn eine Messung dort rc=0 zeigt.** Ein rc=137 der PATH-Probe bleibt bis dahin ein Verdacht auf ein gewedgtes Binary, nicht auf ein leeres Fenster.
+
+**Keine Mail.** Kein neuer P1-Blocker, kein geloester P1, kein erschoepftes Wochenkontingent. Der Nachtschicht-Slot und die Homebrew-Wedge sind Hub-Interna ohne Aussenwirkung und damit nach Rule 260803 kein Sendegrund. Zuletzt gemailt: **24.08.2026 07:50** (vollgas-fruehwarnung).
+
+---
 ## 2026-08-25 00:57 — [FREI] **Beide P1 des Vorlaufs sind gelöst: die Nachtschicht des Mac Mini läuft wieder, und die Sicherung nach GitHub ist deckungsgleich. Seit dem Wochen-Reset kein einziger Fehlversuch mehr — die 437 Fehlläufe des 24.08. liegen sämtlich vor 03:00, also vor dem Reset.** Kein Loop auf Delta Null, keine Massnahme nötig.
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 24.08. 12:57, dieser 25.08. 00:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). `lastRunAt` der eigenen Task 24.08. 22:57 UTC = 25.08. 00:57 CEST, deckungsgleich mit diesem Lauf. Keine Lücke.
