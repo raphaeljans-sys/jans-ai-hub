@@ -53,6 +53,36 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-26 00:57 — [FREI] **Der P2-Befund vom 25.08. ist entkraeftet: der 13:30-Slot der Nachtschicht hat am 25.08. gefeuert (Exit 0, 537 s). Kein Muster, Einzelausfall am 24.08.** Fenster frei, Budget entspannt, zehn KBs mit Liefer-Delta, kein Loop auf Delta Null.
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 25.08. 12:57, dieser 26.08. 00:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Luecke, kein zweiter Ausfalltyp zu pruefen.
+
+**Fensterzustand [FREI].** Probe ueber die app-gebuendelte CLI, jetzt **2.1.241** (die App hat seit dem letzten Lauf von 2.1.237 aktualisiert; der Ordner wird zur Laufzeit ermittelt, deshalb ohne Eingriff): «OK», rc=0, in **6 Sekunden**. Reihe der schnellen Messungen stabil: 5 s (25.08. 00:57) · 6 s (25.08. 12:57) · 6 s (jetzt). Keine Waisen (`ps` auf `claude -p` leer).
+
+**Kontingent: reichlich Luft, Vorsprung weiterhin negativ.** `kontingent-budget.sh`: Ampel **FREI**, **16.91 von 167 Mio (10.1 %)** bei **22.0 %** verstrichener Woche, Vorsprung **−11.9 Punkte** (vor 12 h: −8.0). Der Rueckstand hat sich also vergroessert, der Verbrauch laeuft dem Zeitverlauf klar hinterher — die vom 03.08. angeordnete Gleichverteilung ist eingehalten, mit Reserve. Beide Stationen frisch (Macbookpro 11.48 Mio, Macmini 5.43 Mio, Alter je 0.0 h). Keine Drossel faellig, keine zurueckzudrehen.
+
+**Speicher: enger als zuletzt, aber unkritisch.** Rund **1.15 GB** frei+inaktiv+spekulativ gegen 4.1 GB vor 12 h, bei unveraendertem `kern.memorystatus_vm_pressure_level: 1` (normal). Der Druckindikator ist die massgebliche Groesse, nicht die absolute Zahl; kein Handlungsbedarf, aber im naechsten Lauf mitmessen — faellt der Wert weiter UND steigt der Pressure Level auf 2, ist es ein Befund.
+
+**Liefer-Delta: zehn KBs, ueber git gemessen (Werkzeugfalle `find -newermt`, 20.08.).** Seit dem letzten Eintrag geaenderte Dateien je Wissensbasis: **energie 17 · planungsgrundlagen 7 · normen 6 · koordination 5 · projekt-lessons 3 · auflagebereinigung 3 · twin 2 · kunde-bopp 2 · entwurfs-referenzen 2 · baurecht 2**. 55 Commits im Fenster, davon mehrere mit belegtem Ergebnis im Betreff: `energie` Run 163 (Fenster-Uf-Tabelle als amtlich abgeloest erkannt, E-121-1 geschlossen, Minergie-Zahlendreher berichtigt), `wissens-chef` Run 43 (RPV-Schwellen an `planungsgrundlagen` nachgezogen, drei Werkzeug-Fehlalarme nach drei Wochen behoben), Synergie-Lauf 18 (SYN-47 bis SYN-49), `tenant-hygiene` (878.52 GB / 83.35 %, Restlaufzeit 26 Tage, in `logbuch/fristen.md` nachgetragen). **Kein Loop auf Delta Null, keine Ruecktakt- oder Stilllegungsmassnahme faellig.** `claude-code` und `spec` liegen in diesem Fenster ohne Delta, hatten es aber im vorangehenden — ein Fenster ist keine Serie, die Drei-Laeufe-Schwelle ist nicht erreicht.
+
+**Feuermechanismen: unveraendert korrekt, beide Stationen geprueft.** MacBook Pro: `ch.jans.vollgas-supervisor` und `ch.jans.vollgas-monitor` weiterhin `.disabled-260729`, `com.jans.aihub.runner` weiterhin `.disabled-260728`, `launchctl list` zeigt keinen davon geladen. Mac Mini: `ch.jans.vollgas-supervisor.plist.disabled-260729`, `ch.jans.nachtschicht` geladen mit letztem Exit 0. **Nichts wiederbelebt, nichts doppelt gefeuert.** Der stehende Entscheid vom 30.07. bleibt gewahrt.
+
+### Erledigt — P2 vom 25.08. (Nachtschicht-13:30-Slot) ist entkraeftet
+
+Die Pruefvorschrift des letzten Laufs ist erfuellt. Das Log zeigt fuer den 25.08. alle vier Slots vollstaendig:
+
+- **25.08.:** 02:30 ✓ (Exit 0, 358 s) · 05:30 ✓ (Exit 0, 516 s) · **13:30 ✓ (Exit 0, 537 s)** · 23:30 ✓ (Exit 0, 660 s)
+
+Der 13:30-Slot hat also gefeuert. Damit bleibt der Ausfall vom **24.08. 13:30 ein Einzelfall**, kein Muster; ein Reload der plist ist nicht gerechtfertigt und der Punkt ist geschlossen. Zum Vergleich der Rahmen: auch am 21., 22. und 23.08. lief der 13:30-Slot jeweils sauber durch. Der Auffaelligkeitszaehler steht damit bei einem einzigen fehlenden Slot in fuenf Tagen.
+
+**Werkzeug-Nachtrag zur Messung.** Der erste Leseversuch griff mit `grep -E "^\[2026-08-2[45]"` ins Log und lieferte **still null Zeilen** — das Log fuehrt seine Zeitstempel **ohne eckige Klammern** (`2026-08-25T13:30:09+02:00 …`). Das sah einen Moment lang aus wie ein weiterer spurloser Ausfall und war eine Aussage ueber das Suchmuster, nicht ueber die Quelle. Gegengemessen mit `tail -40` auf die Rohdatei, und erst diese Messung zaehlt. Gleiche Familie wie die `find -newermt`-Falle (20.08.) und die grep-Falle am nicht-UTF-8-Selfcommit-Log (Rule `auto-verbesserungen` 260730b). **Fuer kuenftige Laeufe: das Nachtschicht-Log immer roh mit `tail` lesen, nie mit einem geratenen Zeilenpraefix filtern.**
+
+### P3 — Speicherwert im naechsten Lauf gegenmessen
+
+Kein Blocker und keine Massnahme, nur eine Beobachtung mit Pruefauftrag: 4.1 GB → 1.15 GB innerhalb von 12 h bei gleichbleibendem Pressure Level 1. Das ist mit hoher Wahrscheinlichkeit normale Cache-Belegung durch die Nachtlaeufe (der 23:30-Zyklus lief 11 Minuten und endete um 23:41). Im naechsten Lauf beide Groessen erneut erheben; nur die Kombination aus weiter fallendem Wert und steigendem Pressure Level waere ein Befund.
+
+---
+
 ## 2026-08-25 12:57 — [FREI] **Alles im Lot, ein neuer Befund: der 13:30-Slot der Mac-Mini-Nachtschicht ist am 24.08. ersatzlos ausgefallen — kein Lauf, aber auch kein «uebersprungen» im Log.** Fenster frei, Budget entspannt, sechs KBs mit echtem Delta, kein Loop auf Delta Null.
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 25.08. 00:57, dieser 12:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). `lastRunAt` der eigenen Task 25.08. 10:57 UTC = 12:57 CEST, deckungsgleich mit diesem Lauf. Keine Luecke, kein zweiter Ausfalltyp zu pruefen.
