@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 08:23:42
+Stand: 25.08.2026 08:44:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 25.08.2026 08:23:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 594ced9f6 nas-selfcommit: 2 Datei(en) 2026-08-25 08:15
+- d2e438aeb fristen: Nachtrag Hygiene-Lauf 25.08. — bexio 401 unveraendert, 17 Tage blind, Laufluecke 24.08. bei beiden Debitoren-Loops
