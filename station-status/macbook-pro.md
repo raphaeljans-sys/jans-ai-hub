@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.08.2026 07:20:42
+Stand: 25.08.2026 07:41:16
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:20)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 25.08.2026 07:20:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 80398c0ee logbuch-radar 25.08.2026: Briefing (Ausnahme-Versand via Graph), Register +179, WEGE.md Mail-Ersatzweg belegt
+- 33af12ed4 nas-selfcommit: 3 Datei(en) 2026-08-25 07:30
