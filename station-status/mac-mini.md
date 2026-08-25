@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 03:56:32
+Stand: 25.08.2026 04:06:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 25.08.2026 03:56:32
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 2f2c04f24 twin-mail-training Batch 104: Fenster rj@ 23.-24.08.2026 — Du-Gross-Quote als Autorschafts-Detektor, Registerdifferenz = Autorschaftsdifferenz, erstes strukturelles Korrektur-Delta
+- fd259d183 nas-selfcommit: 4 Datei(en) 2026-08-25 04:00

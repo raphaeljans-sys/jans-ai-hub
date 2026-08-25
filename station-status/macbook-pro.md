@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.08.2026 03:55:06
+Stand: 25.08.2026 04:05:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 03:53)
@@ -12,4 +12,4 @@ Stand: 25.08.2026 03:55:06
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 2f2c04f24 twin-mail-training Batch 104: Fenster rj@ 23.-24.08.2026 — Du-Gross-Quote als Autorschafts-Detektor, Registerdifferenz = Autorschaftsdifferenz, erstes strukturelles Korrektur-Delta
+- fd259d183 nas-selfcommit: 4 Datei(en) 2026-08-25 04:00
