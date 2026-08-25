@@ -1,8 +1,8 @@
 ---
 title: Kontext-Architektur des Hubs — was wann laedt
 status: established
-last_updated: 2026-08-06
-sources: [messung-260729-grundkontext, messung-260803-grundkontext-wissens-chef-run23, messung-260806-grundkontext-wissens-chef-run27, lecture-260729-anthropic]
+last_updated: 2026-08-25
+sources: [messung-260729-grundkontext, messung-260803-grundkontext-wissens-chef-run23, messung-260806-grundkontext-wissens-chef-run27, messung-260825-grundkontext-nachtschicht, lecture-260729-anthropic]
 links: [[lecture-260729-anthropic]], [[INDEX]], [[environment-jans-hub]] (KB spec — formales Layer-3-Modell)
 ---
 
@@ -50,10 +50,38 @@ Schluessel 4 B/Token.
 | **Stand 06.08.2026 23:41, 21 @-Importe** | **89'746** | **~22'436** |
 | Netto-Veraenderung 03.08. 22:30 → 06.08. 23:41 | -25'736 | Auslagerung -28'558, uebrige Rules +2'822 |
 | Stand gegenueber dem Vor-Diaet-Wert 105'573 B | -15'827 | 15 % unter dem Ausgangswert |
+| **Stand 25.08.2026 05:35, 24 @-Importe (CLAUDE.md + Importe, ohne User-Level)** | **125'112** | **~31'278** |
+| davon `~/.claude/CLAUDE.md` (User-Level, separat) | 3'269 | ~817 |
+| **Gesamt inkl. User-Level 25.08.2026** | **128'381** | **~32'095** |
+| Netto-Veraenderung 06.08. 23:41 → 25.08. 05:35 | +35'366 | +3 Importe (`interaktive-eingriffe`, `wege-und-vollmachten`, `wissens-ruecklauf`) + Wiederanwachsen bestehender Rules |
+| Stand gegenueber dem Vor-Diaet-Wert 105'573 B | **+19'539** | **19 % ueber dem Ausgangswert — die Diaet ist zum zweiten Mal vollstaendig aufgezehrt, diesmal deutlicher als am 03.08. (+9'909 B)** |
 
 *(Zeile 06.08. nachgemessen Wissens-Chef Run 27, Messweg unveraendert. Der Wert deckt sich mit
 der unabhaengigen Messung des Verifikators vom 03.08. 23:25 — der Grundkontext hat sich in den
 drei Tagen seither nicht bewegt.)*
+
+**Zweiter Rebound, staerker als der erste (25.08.2026, Nachtschicht Mac Mini).** In den 19 Tagen
+seit der letzten Messung (06.08. 23:41) ist der Grundkontext um 35'366 B gewachsen und liegt mit
+125'112 B (CLAUDE.md + 24 Importe) erstmals seit der Diaet wieder **ueber** dem Vor-Diaet-Wert —
+und zwar deutlicher als beim ersten Rebound am 03.08. (+19'539 B gegenueber +9'909 B). Grosster
+Einzelposten ist wieder `rules/auto-verbesserungen.md` mit 31'081 B (24.8 % des Grundkontexts,
+Rang 1 vor `CLAUDE.md` selbst mit 19'135 B / 15.3 %) — genau die Datei, deren Auslagerung nach
+`rules/betrieb-chronik.md` am 19.07.2026 die urspruengliche Diaet war und deren eigener
+Eintragskopf mahnt, neue Verbesserungen "nicht reflexhaft hierhin" zu schreiben. Der Import ist
+in den 19 Tagen um drei gewachsen (`interaktive-eingriffe.md` 8'216 B, `wege-und-vollmachten.md`
+2'237 B, `wissens-ruecklauf.md` 2'204 B kamen hinzu — je nach Aufnahme in CLAUDE.md legitime
+Grundregeln, keine Fehlbuchung), der Rest des Wachstums ist Wiederanwachsen bestehender Dateien,
+v.a. `auto-verbesserungen.md` selbst (17'469 B am 06.08. → 31'081 B am 25.08., +78 % in 19 Tagen —
+jeder neue datierte Eintrag zaehlt hier voll mit, weil die Datei komplett importiert bleibt, nicht
+nur ihr aktueller Kopf). **Diese Messung ist selbst ein Beleg fuer das Muster, das sie beschreibt:**
+Der Verifikationsmechanismus (Rule 260719 Kontext-Diaet: "vor jedem Anwachsen einer importierten
+Rule fragen: automatisch oder lazily?") wird befolgt — jeder einzelne neue `auto-verbesserungen`-
+Eintrag ist inhaltlich begruendet —, aber die Summe der Einzelentscheide produziert trotzdem
+denselben Rebound wie beim ersten Mal. Eine Einzeldatei-Pruefung verhindert das Muster nicht;
+noetig waere ein periodischer Schwellenwert-Check (analog dem `MAX_AUTO_BYTES`-Riegel bei
+`jans-dna-facetten.md`, siehe unten) direkt auf `auto-verbesserungen.md`. Kein Eingriff in diesem
+Lauf (unbeaufsichtigte Nachtschicht, Entscheid ueber eine weitere Auslagerungsrunde liegt bei
+Raphael) — der Befund ist als offener Punkt in [[QUESTIONS]] nachgetragen.
 
 *(Zeile 03.08. nachgemessen Wissens-Chef Run 23; Messweise unveraendert: `stat -f %z` ueber
 `CLAUDE.md` + `~/.claude/CLAUDE.md` + alle @-importierten Rules. **Stand 03.08.2026 22:30 — 46
@@ -97,9 +125,9 @@ Groesster Einzelposten vor der Diaet: `rules/auto-verbesserungen.md` mit 36'029 
 Speicher-Messwerte, Vorfallschroniken —, das bei fachlicher Arbeit (Offerte, Baurecht,
 Mail) keine Rolle spielt. Ausgelagert nach `rules/betrieb-chronik.md` (nicht importiert).
 
-**Groesste Einzelposten heute: `CLAUDE.md` und `rules/auto-verbesserungen.md`, je knapp 20 %.**
-Bis zum 03.08.2026 war es `rules/jans-dna.md`; seit der Facetten-Auslagerung am selben Abend
-ist sie auf 4.3 % zurueckgefallen. Gemessen am 06.08.2026 23:41:
+**Groesste Einzelposten am 06.08.2026: `CLAUDE.md` und `rules/auto-verbesserungen.md`, je knapp
+20 %.** Bis zum 03.08.2026 war es `rules/jans-dna.md`; seit der Facetten-Auslagerung am selben
+Abend ist sie auf 4.3 % zurueckgefallen. Gemessen am 06.08.2026 23:41:
 
 | Datei | Bytes | Anteil am Grundkontext |
 |---|---|---|
@@ -112,6 +140,22 @@ ist sie auf 4.3 % zurueckgefallen. Gemessen am 06.08.2026 23:41:
 Die beiden Spitzenreiter sind damit die Datei, die den Wegweiser traegt, und genau jene Rule,
 deren Auslagerung die Diaet 2.0 war. `rules/jans-dna.md` bleibt bewusst importiert — sie rahmt
 jede Texterzeugung und ist echter Grundkontext —, ist als Kostenposten aber nicht mehr fuehrend.
+
+**Gemessen am 25.08.2026 05:35 — `auto-verbesserungen.md` wieder klar vor `CLAUDE.md`:**
+
+| Datei | Bytes | Anteil am Grundkontext (125'112 B) |
+|---|---|---|
+| `rules/auto-verbesserungen.md` | 31'081 | 24.8 % |
+| `CLAUDE.md` | 19'135 | 15.3 % |
+| `rules/anrede-kontakte.md` | 11'901 | 9.5 % |
+| `rules/interaktive-eingriffe.md` | 8'216 | 6.6 % |
+| `rules/bkp-2017-referenz.md` | 4'411 | 3.5 % |
+
+`auto-verbesserungen.md` hat sich seit 06.08. fast verdoppelt (+78 %) und den Rang 1 zurueck-
+erobert, den es vor der Diaet 2.0 schon einmal hatte (dort 36'029 B / 34 %). `anrede-kontakte.md`
+ist auf Rang 3 aufgestiegen (4'932 → 11'901 B, +141 % seit 06.08.) — plausibel erklaert durch den
+laufenden Korpus-Abgleich der Anrede-Klauseln (mehrere datierte Nachtraege im August), aber
+denselben Wachstumsmustern unterworfen wie `auto-verbesserungen.md`.
 
 ### Der Verlauf von `rules/jans-dna.md`
 

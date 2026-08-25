@@ -82,15 +82,62 @@ Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeit
    Zu klaeren: braucht ein MA-Onboarding eine unveraenderliche Policy-Schicht, oder genuegt
    der NAS-Symlink-Weg?
 
-2. **Versionsbindung unbekannt.** Die Lecture nennt `/vibe`, `--resume`, `/memory` und
-   Sub-Ordner-CLAUDE.md, ohne Versionen zu nennen. Zu pruefen, welche davon in der hier
-   installierten Fassung tatsaechlich existieren — nicht annehmen.
-
 3. **Token-Kosten des Grundkontexts pro Modell.** Gemessen wurde am 29.07. die Byte-Groesse
    (87'398 B nach der Diaet, grob 21'800 Token). Eine exakte Tokenzahl je Modell fehlt.
-   Nutzen: erst ab der naechsten groesseren Diaet-Runde relevant.
+   Nutzen: erst ab der naechsten groesseren Diaet-Runde relevant. **Update 25.08.2026:** die
+   naechste groessere Diaet-Runde ist jetzt faellig — der Grundkontext liegt mit 125'112 B
+   erstmals seit der Diaet wieder ueber dem Vor-Diaet-Wert (105'573 B), staerker als beim
+   ersten Rebound am 03.08. Details, Ursachenanalyse und Datei-Aufschluesselung:
+   [[kontext-architektur]], Abschnitt «Zweiter Rebound, staerker als der erste». Offen bleibt
+   die exakte Tokenzahl je Modell (Byte/Token-Schluessel ist weiterhin grob 4 B/Token, kein
+   modellspezifischer Tokenizer-Lauf).
+
+## Offen (25.08.2026)
+
+4. **`rules/auto-verbesserungen.md` waechst trotz Einzelfall-Pruefung weiter — braucht die
+   Rule 260719 einen eigenen Schwellenwert-Riegel, analog `MAX_AUTO_BYTES` bei
+   `jans-dna-facetten.md`?** Befund der Nachtschicht Mac Mini 25.08.2026: die Datei ist von
+   17'469 B (06.08.) auf 31'081 B (25.08.) gewachsen, +78 % in 19 Tagen, und ist damit wieder
+   der groesste Einzelposten im Grundkontext (24.8 %) — obwohl jeder einzelne neue Eintrag
+   die Rule 260719 befolgt (datiert, imperativ, inhaltlich begruendet). Das legt nahe: eine
+   Pruefung pro Eintrag verhindert den Rebound nicht, weil die Summe vieler kleiner
+   legitimer Eintraege genau denselben Effekt hat wie ein einzelner grosser. `jans-dna.md`
+   hat dieses Muster bereits einmal durchlaufen (Auto-Block-Wachstum) und wurde mit einem
+   harten Byte-Riegel im Erzeuger-Script geloest (`skills/twin/tools/build_dna.py`,
+   `MAX_AUTO_BYTES = 30'000`). Fuer `auto-verbesserungen.md` gibt es keinen vergleichbaren
+   Mechanismus, weil hier von Hand geschrieben wird, nicht kompiliert. Zu klaeren durch
+   Raphael: (a) ein dritter Auslagerungsschnitt wie am 19.07./03.08. (b) ein regelmaessiger
+   Grenzwert-Check im `wissenscheck`/`methoden-radar`, der bei Ueberschreiten eine Meldung
+   statt eine Auslagerung ausloest, oder (c) bewusst nichts tun, weil der Inhalt trotz Groesse
+   fuer die taegliche Arbeit werthaltig bleibt. Nichts geaendert in diesem Lauf (unbeaufsichtigt,
+   Entscheid mit Aussenwirkung auf den ganzen Hub-Grundkontext).
 
 ## Beantwortet
+
+- **Versionsbindung `/vibe`, `--resume`, `/memory`, Sub-Ordner-CLAUDE.md** (gestellt 29.07.2026,
+  geklaert 25.08.2026, Nachtschicht Mac Mini, installierte Version **2.1.243**): drei von vier
+  Elementen der Lecture bestaetigt, eines nicht gefunden. **`--resume`/`-r`** ist ein aktiver
+  CLI-Flag (`claude --help`: «Resume a conversation by session ID»), **`/resume`** ein
+  dazugehoeriger Slash-Command (im Hilfetext direkt erwaehnt). **`/memory`** ist als exakter
+  String im Binary bestaetigt, im selben Muster wie die zweifelsfrei echten Commands `/clear`
+  und `/compact`; das zugehoerige Auto-Memory-System ist in dieser KB-Instanz aktiv im Einsatz
+  (dieses Dokument selbst ist ein Produkt davon). **Sub-Ordner-/CLAUDE.md-Auto-Discovery** ist
+  im `--bare`-Hilfetext ausdruecklich als abschaltbares Feature benannt («skip … CLAUDE.md
+  auto-discovery») und empirisch bestaetigt: diese Session laedt sowohl die projektweite
+  `CLAUDE.md` als auch `~/.claude/CLAUDE.md` (User-Level). **`/vibe` wurde NICHT gefunden** —
+  eine binaerweite Stringsuche (`strings claude.exe | grep -i vibe`) liefert nur einen
+  Treffer aus einem unabhaengigen Kontext (Bildbeschreibung «a sketchy vibe, handwritten…»),
+  keinen Hinweis auf einen Slash-Command. Vermutung: die Lecture meinte mit «vibe» das
+  Konzept "Vibe Coding" allgemein, nicht einen konkreten Befehl — bleibt unbestaetigt, aber
+  fuer die Versionsbindung selbst nicht mehr relevant.
+
+  **Nebenfund, nicht Teil der urspruenglichen Frage:** die installierte Version verteilt sich
+  nicht mehr als gebuendeltes `cli.js` (Node-Skript), sondern als schlankes NPM-Wrapper-Paket
+  (`cli-wrapper.cjs`, `install.cjs`), das beim Postinstall einen **nativen kompilierten
+  Mach-O-arm64-Binary** (`bin/claude.exe`, plattformspezifisches Paket
+  `@anthropic-ai/claude-code-darwin-arm64`) nachlaedt. Fuer die KB relevant, weil bisherige
+  Recherchen (z.B. Slash-Command-Listen) nicht mehr per Textsuche im Node-Quellcode moeglich
+  sind, sondern nur noch per `strings` auf dem Binary oder ueber die offizielle Doku.
 
 - **Acht fehlende Slides der Anthropic-Lecture** (gestellt 30.07.2026 vom Loop
   `methoden-radar`, gleichentags beantwortet durch Raphael): **bewusst aufgeraeumt.**

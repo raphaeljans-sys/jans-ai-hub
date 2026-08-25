@@ -2,6 +2,43 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-25 (Mac-Mini-Nachtschicht, 05:30-Slot) — QUESTIONS-Item 2 geklaert (Versionsbindung), Grundkontext-Rebound Nr. 2 gemessen und dokumentiert
+
+Prioritaeten 1-4 leer/nicht anwendbar (keine pending Tasks; Synobsis Stufe 2 unveraendert
+853/853; Fristen-Register ohne neuen, fuer diesen Lauf umsetzbaren Punkt; alle KBs mit
+`training/PROGRAMM.md` entweder eigen getaktet oder explizit als «kein gueltiges Ziel fuer
+Prioritaet 4» markiert — inkl. `immobilienbewertung` und `spec`, die trotz deaktiviertem
+Scheduled Task per eigenem Statuskopf ausdruecklich ausschliessen). `auflagebereinigung`
+(aeltester Wiki-Stand aller KBs ohne Taktgeber, 03.08.) hatte um 02:35 dieser Nacht bereits
+einen `wissenscheck`-Phase-1-Lauf erhalten — kein Doppellauf. Auf Prioritaet 5 ausgewichen,
+KB `claude-code` gewaehlt (zweitaeltester Wiki-Stand, 13.08., kein aktiver Taktgeber, sieben
+offene QUESTIONS-Punkte, keiner davon heute Nacht schon bearbeitet).
+
+- **QUESTIONS Item 2 (Versionsbindung `/vibe`/`--resume`/`/memory`/Sub-Ordner-CLAUDE.md,
+  offen seit 29.07.) geklaert** direkt gegen die installierte Version 2.1.243: `--resume`/
+  `/resume` und `/memory` bestaetigt (Hilfetext bzw. Binary-Stringsuche, Musterabgleich mit
+  den zweifelsfrei echten Commands `/clear`/`/compact`), Sub-Ordner-CLAUDE.md-Auto-Discovery
+  bestaetigt (`--bare`-Hilfetext + empirisch diese Session), `/vibe` NICHT gefunden (einzige
+  Stringtreffer sind aus einem Bilderklaerungs-Kontext, kein Slash-Command). Nebenfund:
+  die Distribution hat sich von gebuendeltem `cli.js` auf einen schlanken NPM-Wrapper plus
+  nachgeladenen nativen Mach-O-arm64-Binary umgestellt — relevant fuer kuenftige
+  Versions-Recherchen (Textsuche im Node-Quellcode funktioniert nicht mehr, nur noch
+  `strings` auf dem Binary oder die offizielle Doku).
+- **QUESTIONS Item 3 (Token-Kosten Grundkontext) fortgeschrieben:** [[kontext-architektur]]
+  um eine frische Messung vom 25.08.2026 05:35 ergaenzt (`stat -f%z` ueber `CLAUDE.md` + alle
+  24 @-Importe, identischer Messweg wie 29.07./03.08./06.08.). Ergebnis: **125'112 B**
+  (CLAUDE.md + Importe, ~31'278 Token grob) bzw. **128'381 B** inkl. User-Level-CLAUDE.md —
+  der zweite vollstaendige Rebound seit der Kontext-Diaet 2.0, diesmal **19'539 B ueber** dem
+  Vor-Diaet-Wert (der erste Rebound am 03.08. lag nur 9'909 B darueber). Groesster
+  Einzelposten wieder `rules/auto-verbesserungen.md` (31'081 B, 24.8 %, +78 % seit 06.08.) —
+  dieselbe Datei, deren Auslagerung am 19.07. die urspruengliche Diaet war. Neuer offener
+  Punkt QUESTIONS Item 4 aufgenommen: ob die Rule 260719 einen periodischen
+  Schwellenwert-Riegel braucht (analog `MAX_AUTO_BYTES` bei `jans-dna-facetten.md`), weil die
+  Einzelfall-Pruefung pro neuem Eintrag den Rebound nachweislich nicht verhindert.
+- Kein Wiki-Artikel neu angelegt, keine Loeschung, keine Umbenennung. Kein Fan-out, kein
+  Versand, keine Buchung, keine destruktive Aktion. `git diff --numstat` (nativ via ssh statt
+  ueber SMB, Rule `sync-kanonische-quelle`) nach Abschluss zu pruefen.
+
 ## 2026-08-22 (Mac-Mini-Nachtschicht, 05:30-Slot) — Erst-Health-Check: 2 Findings (Umlaute KB-weit, Riegel-Zahlen veraltet)
 
 Prioritaeten 1-4 des Nachtschicht-Auftrags wie im 02:31-Lauf desselben Zyklus bestaetigt
