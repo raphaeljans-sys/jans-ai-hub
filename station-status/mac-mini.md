@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 07:11:46
+Stand: 25.08.2026 07:22:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 25.08.2026 07:11:46
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b3bdead7a nas-selfcommit: 4 Datei(en) 2026-08-25 07:00
+- d5caf242d vollgas-fruehwarnung 25.08.2026: keine Mail — 529-Ausfall aller drei Briefings 24.08. (vom Radar bereits gemeldet), Verbrauchsspitze 23./24.08. gestern gemailt
