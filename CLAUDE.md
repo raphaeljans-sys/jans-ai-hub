@@ -230,6 +230,7 @@ Weg scheiterte (die M365-CLI liegt nicht im `PATH`). Werkzeuge pruefen und repar
 | `/korrektur` | Korrektur-Harness auf ein Erzeugnis |
 | `/rollen` | Rollen-Haushalt: Bilanz, Nutzungs-Radar, Schutzmechanik-Selbsttest |
 | `/tiefenrecherche` | Vertiefte Recherche: parallele recherche-Agenten je Suchwinkel, belegter Bericht |
+| `/vermaschung` | Harter Test der Stations-Vermaschung: SSH-Matrix beide Richtungen, NAS-Schreibprobe, Datenumlauf, Git-/Symlink-/Uhrenstand |
 
 ## Baurecht-Wissensbasis (Schnellreferenz)
 `docs/baurecht/`: begriffe.md, pbg_zh.md, bzo_zh.md, verfahren.md, praxisfaelle.md.

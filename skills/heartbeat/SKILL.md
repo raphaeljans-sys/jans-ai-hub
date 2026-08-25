@@ -349,6 +349,19 @@ Das Heartbeat-Script kann direkt ausgeführt werden:
 bash /Volumes/daten/jans-ai-hub/scripts/heartbeat.sh
 ```
 
+**Vorbehalt: das Script deckt nicht alle Checks dieses Skills.** Gemessen am 25.08.2026
+fuehrt `scripts/heartbeat.sh` (306 Zeilen, letzter Commit `50f4553a9` vom 13.08.2026) **acht**
+Checks aus: NAS, Git, M365, Disk, Sync-Tasks, Symlinks, Dok-Pipeline, Schutzmechanik. Die
+Checks 9 bis 16 oben (Trust, Stations-Verbindungen, Grundkontext-Budget, Tasks-Spiegel,
+Wege-Radar, Stations-Watchdog, Methoden-Eingang, Tailscale, Git-Abgleich) leistet **nur der
+Skill-Lauf**. Das Script meldet «✅ Alles OK», ohne sie geprueft zu haben. Namentlich der
+Tailscale-Check fehlt (`grep -i tailscale scripts/heartbeat.sh` liefert null Treffer), also
+genau der Schutz vor dem Vorfall 260824c. Die Nachruestung ist gebaut und getestet, aber
+blockiert und im Fristen-Register gefuehrt (`logbuch/fristen.md`, Nachtrag 25.08.2026 09:4x);
+Fassung unter `scripts/heartbeat.sh.VORSCHLAG-260825`. Bis dahin gilt: fuer eine belastbare
+Aussage den Skill fahren, nicht das Script. Dasselbe Muster wie Rule `auto-verbesserungen`
+260807 (eine Gegenmassnahme gilt als vorhanden, weil sie dokumentiert ist).
+
 ## Als Scheduled Task
 
 Für automatischen täglichen Check als Desktop Scheduled Task einrichten:
@@ -363,3 +376,5 @@ Für automatischen täglichen Check als Desktop Scheduled Task einrichten:
 - `/nas` — NAS-Mount prüfen und reparieren
 - `/m365` — M365 Connector testen
 - `/station-sync` — Sync-Tasks der anderen Station ausführen
+- `/vermaschung` — harter Test der Wege **zwischen** den Stationen (SSH-Matrix, NAS-Schreibprobe,
+  Datenumlauf, Uhren). Dieser Skill und `/status` pruefen **diese** Station

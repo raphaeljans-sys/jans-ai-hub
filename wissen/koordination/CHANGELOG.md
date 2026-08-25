@@ -2,6 +2,31 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-25 — Synergie-Lauf 18: ein neuer Command, drei Kanten nachgezogen, vier Nullbefunde gemessen
+
+Delta-Basis 24.08.2026 17:10, Fenster 24,0 h, **124 Commits**, HEAD `b4aa253d5`. Uhr-Kontrolle
+bestanden (17:10 CEST gegen nativen Synology-Selfcommit 17:00:06), Filter-Gegenprobe bestanden.
+Der Selfcommit-Rebase-Konflikt aus Lauf 17 ist behoben, das Repo steht ohne Divergenz.
+
+Strukturelles Delta: **1 neuer Baustein** (`commands/vermaschung.md` + `scripts/vermaschungs-test.sh`).
+**Drei Befunde, alle umgesetzt und additiv:** SYN-47 — `/vermaschung` fehlte als einziger von 13
+Commands in der Command-Tabelle der `CLAUDE.md` (Einzeiler nachgetragen, 1/0). SYN-48 — die
+Rueckkante bei `/station-status` fehlte, und dessen Anweisung «aelter als 30 Min = offline» legt
+nahe, frisch sei in Ordnung; genau diese Lesart verdeckte den viertaegigen Tailnet-Ausfall
+20.-24.08. (Warn-Absatz «Frisch heisst nicht erreichbar» gesetzt, 8/0). SYN-49 — `skills/heartbeat/SKILL.md`
+ist im Fenster auf 16 Checks gewachsen, `scripts/heartbeat.sh` steht bei acht und meldet trotzdem
+«Alles OK» (Vorbehalt gesetzt, 15/0, kein Eingriff ins Script).
+
+**Vier Nullbefunde gemessen statt gemeldet:** die fehlende Rollen-Register-Zeile ist keiner (nur
+3 von 13 Commands stehen dort, und die Rule verpflichtet Skills/Agenten/Loops); `WEGE.md` ist
+vollstaendig verdrahtet; `heartbeat.sh.VORSCHLAG-260825` und `git-divergenz.sh` sind in der
+Betriebsschicht korrekt gefuehrt. SYN-43 aufgerollt (Beteiligter bewegt), Ergebnis unveraendert:
+die Sachfrage haengt am ausstehenden Entscheid Raphaels.
+
+Alle Schreibvorgaenge mit `numstat` gemessen, keine Datei hat Zeilen verloren, kein globales
+Ersetzen. Register 46 → 49 Tabellenzeilen. Laufbericht:
+`outputs/2026-08-25_synergie-lauf-18.md`. Keine Mail (still by default).
+
 ## 2026-08-24 — Wissens-Chef Run 42: der Brandschutz-Wegweiser ganzflaechig, und ein Refuter, der die Diagnose umdreht
 
 Delta-Basis 23.08.2026 23:13, Fenster 23,9 h, **183 Commits**, HEAD `8a1e3fc1b`, 491 geaenderte
