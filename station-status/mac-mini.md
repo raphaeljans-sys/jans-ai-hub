@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 07:42:36
+Stand: 25.08.2026 07:52:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 25.08.2026 07:42:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 33af12ed4 nas-selfcommit: 3 Datei(en) 2026-08-25 07:30
+- edfdd1d17 ag-gruendung-monitor: UBS-Konto 17.08. eröffnet, Einzahlung ÜBERdüE (8 Tage still)
