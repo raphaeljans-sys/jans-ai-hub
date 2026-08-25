@@ -3,6 +3,19 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht-Zyklus Mac Mini 25.08.2026, 02:30
+
+Prioritaeten 1-5 leer bzw. ausgeschoepft (Sync-Tasks leer, Synobsis Stufe 2 gesaettigt seit
+02.07., alle KBs mit `training/PROGRAMM.md` entweder ueber eigenen Taktgeber ausgeschlossen
+oder auf Ereignis-Trigger pausiert, architekten-synobsis QUESTIONS.md heute Nacht bereits
+zweimal bearbeitet). Prioritaet 6: wissenscheck Phase 1 auf `auflagebereinigung` (aeltestes
+Health-Check-Datum 08-03 unter allen KBs ohne aktiven Taktgeber). Ergebnis:
+`wissen/auflagebereinigung/outputs/2026-08-25_health-check.md`, A0·B2·C1·D0·E0·F2·G2. Kernbefund:
+zwei Verstoesse (toter Backlink, ae/oe/ue-Anteil) stehen im dritten Audit in Folge unveraendert,
+weil Phase 2 seit Juni nie interaktiv angestossen wurde; die PDF-Annotationen-Extraktionsmethode
+(zweifach belegt) ist trotz zweier Verweise nie ins Wiki gewandert; `fristenlogik-bauentscheid-zh.md`
+ist reif fuer Promotion `emerging`→`established`. Keine Aktionen ausgefuehrt (unbeaufsichtigt).
+
 ## Radar-Briefing 24.08.2026 (06:55 bis 07:30, planmässig, Montag)
 
 Zur Übernahme durch den Hub-Chef um 08:39. Kein eigener Mailversand: der Chef-Lauf vom 23.08. ist

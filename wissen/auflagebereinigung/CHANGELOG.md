@@ -2,6 +2,21 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-25 (Nachtschicht Mac Mini, Wissenscheck Phase 1) — A0 · B2 · C1 · D0 · E0 · F2 · G2
+
+- Health-Check-Report abgelegt: `outputs/2026-08-25_health-check.md`. Prioritaet 6 gewaehlt,
+  weil diese KB unter allen KBs ohne aktiven Taktgeber das aelteste Health-Check-Datum
+  (08-03) und den aeltesten inhaltlichen Wiki-Stand (29.07.) trug. Kernbefund: der tote
+  Backlink `[[[fristenlogik-bauentscheid-zh]]` in `aemter-stadt-zuerich.md` und der hohe
+  ae/oe/ue-Anteil in `gvz-einreichung-bma-sprinkler.md`/`formular-verifizierung.md` stehen
+  jetzt im DRITTEN Audit in Folge unveraendert (01.08./03.08./25.08.) — Phase 2 laeuft nur
+  interaktiv und wurde seither nie angestossen. Neu erkannt: die zweifach belegte
+  PDF-Annotationen-Extraktionsmethode (31.07./03.08.) wurde nie ins Wiki uebernommen, obwohl
+  bereits doppelt als `[[behoerdenantwort-in-pdf-kommentaren]]` verlinkt — der Artikel
+  existiert nicht. `fristenlogik-bauentscheid-zh.md` als Promotion-Kandidat
+  `emerging`→`established` identifiziert. Phase 2 (Aktionen) nicht ausgefuehrt —
+  unbeaufsichtigter Lauf.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B2 · C1 · D0 · E0 · F1 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Zwei B-Befunde: toter Backlink `[[[fristenlogik-bauentscheid-zh]]` (Klammer-Tippfehler) in `wiki/aemter-stadt-zuerich.md`, `wiki/gvz-einreichung-bma-sprinkler.md` ohne `sources`. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
