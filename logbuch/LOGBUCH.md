@@ -3,6 +3,25 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht-Zyklus Mac Mini 25.08.2026 (Versuchs-Slot 13:30) — Wissenscheck entwurfs-referenzen Phase 1
+
+Prioritaeten 1-3 leer/erledigt (keine pending remote-/sync-Tasks; Synobsis Stufe 2 weiterhin
+vollstaendig 853/853, letzte zwei Nachtschicht-Laeufe vom 24.08. haben bereits QUESTIONS.md
+bearbeitet; Fristen-Register zeigt heute nur bereits vom Hub-Chef/Radar/ag-gruendung-monitor
+gemeldete Punkte, nichts fuer diesen Slot Offenes). Priotaet 4 (freies Ziel) leer: `energie`
+lief bereits im eigenen Loop heute, `bauprodukte`/`grobkosten` formal erledigt. Auf Prioritaet 6
+ausgewichen (wissenscheck Phase 1, unbeaufsichtigt): `entwurfs-referenzen` trug unter allen KBs
+ohne eigenen Taktgeber das aelteste Health-Check-Datum (08-03).
+
+Ergebnis: A0 B0 C0 D0 E0 F1 G0 — kein neuer Befund, die acht Vertiefungslaeufe vom 23.08.
+(Auftrag Raphael) hatten die KB bereits gruendlicher geprueft als ein monatlicher Sammellauf
+leisten koennte. Einziger offener Punkt (unveraendert seit 08-03, gleiche Klasse): die drei
+JSON-Parameter-Sets schreiben durchgehend ASCII (ae/oe/ue) statt echter Umlaute — vermutlich
+beabsichtigt fuer maschinenlesbare Felder, aber nie als Ausnahme dokumentiert. Nicht selbst
+entschieden (Phase 2 nur interaktiv). Voller Report: `wissen/entwurfs-referenzen/outputs/
+2026-08-25_health-check.md`, CHANGELOG-Eintrag gesetzt. Keine Ordnerumbenennung, kein Fan-out,
+kein Versand, keine Buchung, keine destruktive Aktion.
+
 ## Hub-Chef 25.08.2026 (08:39 bis 08:5x) — Tagesbriefing GESENDET, Türmatrix-Lückenliste erstellt (A3)
 
 **Der Lauf hat stattgefunden.** Damit ist die Aktion beantwortet, die der Radar heute um 07:3x

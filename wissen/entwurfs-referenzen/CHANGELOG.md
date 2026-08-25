@@ -1,5 +1,16 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-25 (Nachtschicht Mac Mini, Versuchs-Slot 13:30) — Wissenscheck Phase 1: A0 B0 C0 D0 E0 F1 G0
+
+Faellig als aeltestes Health-Check-Datum unter den KBs ohne eigenen Taktgeber (letzter Check
+08-03). Bestaetigt den durch die acht Vertiefungslaeufe vom 23.08. bereits sehr gruendlich
+geprueften Stand, kein neuer Befund. Der 08-03-Backlink-Befund ist strukturell geloest
+(Notation-Klausel `wiki/INDEX.md` seit 23.08.). Einziger offener Punkt: die drei
+Parameter-Set-JSON schreiben durchgehend ASCII (ae/oe/ue) statt echter Umlaute — vermutlich
+beabsichtigt fuer maschinenlesbare Felder, aber nie als Ausnahme in `CLAUDE.md` festgehalten;
+nicht selbst entschieden (Phase 2 unbeaufsichtigt nicht ausgefuehrt). Voller Report:
+`outputs/2026-08-25_health-check.md`.
+
 ## 2026-08-23 (Vertiefungslauf 8 Revendo) — Querprobe zwischen den Feldern: die Sets sind in sich stimmig
 
 Die Prüfregel aus `wissen/grobkosten` in der hier passenden Form angewendet: **die Felder eines
