@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 08:03:09
+Stand: 25.08.2026 08:13:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 25.08.2026 08:03:09
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 03bc8c82e nas-selfcommit: 3 Datei(en) 2026-08-25 08:00
+- 11d79b029 fristen: Nachtrag Verzugscheck 25.08. — bexio 401, 17 Tage blind, CHF 51'400 unverifiziert
