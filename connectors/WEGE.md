@@ -749,3 +749,51 @@ Berechtigungs- und keine Anmeldefrage.
 (es haengt an osascript und lief ueber 30 Minuten ohne Ausgabe). Der Vorfilter ist damit **kein
 verlaesslicher erster Schritt**, wenn die Station Apple-Event-Probleme zeigt; dann direkt auf
 `m365 outlook message list` ausweichen.
+
+
+## Git-Zustand von NAS-Dateien messen (`--numstat`) — Repo liegt auf `/volume2`, nicht `/volume1`
+
+**Faehigkeit:** nach einem Schreibvorgang auf eine geteilte NAS-Datei den Umfang messen, wie es
+Rule `auto-verbesserungen` 260811 verlangt (append-only-Dateien muessen `-0` zeigen).
+
+**Die Falle:** `git diff --numstat` im SSD-Klon `~/Developer/jans-ai-hub` liefert fuer NAS-Edits
+**leere Ausgabe** — der Klon ist ein anderer Arbeitsbaum als der SMB-Mount `/Volumes/daten/...`.
+Eine leere Ausgabe sieht dabei wie «keine Aenderungen» aus und ist in Wahrheit eine Aussage ueber
+den falschen Baum (gleiche Familie wie `auto-verbesserungen` 260730b und 260807: ein leeres
+Ergebnis ist zuerst eine Aussage ueber das Werkzeug). `git` ueber den SMB-Mount ist verboten
+(Rule `sync-kanonische-quelle`).
+
+**Der Weg, Rangfolge 1 (funktioniert, belegt 25.08.2026, Energie-Run 163):**
+
+```bash
+ssh -o ConnectTimeout=10 -o BatchMode=yes raphaeljans@diskstation918.tail8265aa.ts.net \
+  "cd /volume2/daten/jans-ai-hub && git diff --numstat -- <pfad>"
+```
+
+⚠ **Der Repo-Pfad auf der Synology ist `/volume2/daten/jans-ai-hub`.** Der naheliegende Griff nach
+`/volume1/...` scheitert mit `cd: No such file or directory` und kostete drei Fehlversuche; der
+Host-Alias `diskstation` loest nicht auf, es braucht den vollen Tailscale-Namen. Beides ist im
+Setup-Konnektor nicht hinterlegt (`hub-setup.mjs --alles` nennt fuer `nas-ds918` nur die
+Mount-Befehle, keinen SSH-Zugang) — der Zugangsstring steht in `scripts/nas-commit-now.sh`, Variable
+`NAS_SSH`. Dort zuerst nachschlagen.
+
+**Sackgassen (nicht erneut laufen):** `ssh diskstation` (Name loest nicht auf) ·
+`/volume1/daten/jans-ai-hub` (existiert nicht) · `git`-Schreibbefehle ueber den SMB-Mount
+(haengen uninterruptibel, Rule `sync-kanonische-quelle`).
+
+**Hinweis:** Lesende `git`-Befehle nativ per ssh sind unbedenklich und fallen nicht unter die
+Ankuendigungspflicht der Rule `interaktive-eingriffe` (Lesen ist nie ein Eingriff).
+
+## Fedlex-Volltext der LSV (SR 814.41): nur Konsolidierungsdatum `20260401` traegt
+
+Ergaenzung zu `docs/referenz/fedlex-volltexte.md` (Nachtrag 23.08.2026), belegt am 25.08.2026:
+Fuer die **Laermschutz-Verordnung**, ELI `1987/338_338_338`, liefert die `www`-Filestore-Route
+unter `20260401` den echten Volltext (**196'542 Byte**), unter dem sonst ueblichen `20260101`
+dagegen die textlose App-Huelle von **77'151 Byte** — exakt die in der Referenz beschriebene
+Byte-Signatur. Die Huelle antwortet mit HTTP 200; nur die Groesse verraet sie. **Immer die
+Bytegroesse pruefen, nie den Statuscode allein.**
+
+```bash
+curl -sSL -o lsv.html -w "%{http_code} %{size_download}\n" \
+  "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1987/338_338_338/20260401/de/html/fedlex-data-admin-ch-eli-cc-1987-338_338_338-20260401-de-html.html"
+```

@@ -6094,3 +6094,20 @@ der beiden vor. Die Ursache bleibt damit beim Reconcile-Vorgang, nicht bei der A
 Nebenbefund: der im Destillat zitierte Quellpfad existiert unverändert, also **kein**
 Fundstellenfehler. Die Fehlablage selbst ist VSS-Ordner und damit Mac-Mini-Scope (Stations-Split) —
 hier nur dokumentiert, nicht angefasst.
+
+
+### Eingang aus KB `energie` (Run 163, 25.08.2026) — Uf-Default-Werte im SIA-Merkblatt 2021 tragen Stand 2002
+
+**Kein Fundstellenfehler, kein Änderungsbedarf am Destillat — ein Alterungshinweis.**
+`destillate/sia-mb-2021.md` nennt Default-Rahmenwerte U_f von 1,9 / 1,9 / 2,5 / 3,3 W/(m²·K). Diese
+sind zahlengenau identisch mit der Fallback-Tabelle des BFE-Bauteilekatalogs Neubauten (2002), deren
+Fenster-Kapitel seit 08.2009 durch das «Merkblatt Fenster» (Best-Nr. 805.107.d) **amtlich abgelöst
+ist**; dort gelten **1,8 / 2,2 / 2,8**. Beide Dokumente berufen sich auf **SIA D 0176 (2002)** — die
+Differenz ist also eine Fortschreibung derselben Wurzel, keine widersprüchliche Parallelquelle.
+
+**Offen für diese KB:** Ob das SIA-Merkblatt 2021 selbst seit 2002 eine neue Ausgabe erhalten hat,
+ist hier **nicht geprüft** (die KB `energie` hat nur die BFE-Seite verifiziert). Da SIA-Merkblätter
+kostenpflichtig sind, ist mindestens der Publikationsstatus auf shop.sia.ch zu klären, bevor die
+Werte in einem Nachweis verwendet werden. Hinweis eingetragen durch die KB `energie` gemäss Rule
+`wissens-bibliothekar` (Cross-KB-Bringschuld); Beleg
+`wissen/energie/outputs/2026-08-25_energie-run163.md`.

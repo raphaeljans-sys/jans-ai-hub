@@ -1,3 +1,14 @@
+## 2026-08-25 — Eingang aus KB `energie` (Run 163): Uf-Default-Werte im SIA-Merkblatt 2021 als Stand 2002 markiert
+
+Hinweis an `destillate/sia-mb-2021.md` (**Werte unveraendert gelassen**) und Eintrag in `wiki/QUESTIONS.md`: die dortigen
+Default-Rahmenwerte U_f 1,9 / 1,9 / 2,5 / 3,3 W/(m2K) entsprechen zahlengenau der Fallback-Tabelle des BFE-Bauteilekatalogs
+Neubauten (2002), deren Fenster-Kapitel seit 08.2009 durch das «Merkblatt Fenster» (Best-Nr. 805.107.d) **amtlich abgeloest**
+ist; dort gelten **1,8 / 2,2 / 2,8**. Beide fussen auf **SIA D 0176 (2002)** — die Differenz ist eine Fortschreibung derselben
+Wurzel, kein Widerspruch. Das SIA-Merkblatt ist von der BFE-Ablösungsklausel formal nicht erfasst (sie nennt nur
+Planungswerkzeuge des Bundes). **Offen fuer diese KB:** Publikationsstatus des SIA-Merkblatts 2021 selbst (kostenpflichtig,
+hier nicht geprueft). Cross-KB-Bringschuld nach Rule `wissens-bibliothekar`; Beleg
+`wissen/energie/outputs/2026-08-25_energie-run163.md`.
+
 ## 2026-08-25 — Normen-Nacht Run 61: erster Lauf mit Primaerquellenzugriff seit dem 23.08. — drei neue Duplikate, drei Fehlbefunde abgefangen, vier Marker korrigiert
 
 **Ausgangslage.** Lauf-Gate offen, NAS gemountet, kein Kollisionslauf (`ps`). Entscheidender
