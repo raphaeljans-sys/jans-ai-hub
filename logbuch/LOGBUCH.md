@@ -8612,3 +8612,7 @@ ohne Treffer offen geblieben. Details: `wissen/architekten-synobsis/CHANGELOG.md
 
 Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung,
 keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.
+
+## 25.08.2026
+
+- 23:xx Wissenscheck Phase 1 projekt-lessons (Nachtschicht): A0 B2 C0 D2 E0 F3 G1 — Klammer-Tippfehler-Backlink aus dem 03.08.-Check bestaetigt behoben (Run 43); groesster Befund: raw/_INGESTED.md erfasst nur 2 von den Dutzenden Quelldateien, die 12 der 14 Artikel ueber den externen Wissens-Destillat-Korpus buero-projekte speisten. Report: wissen/projekt-lessons/outputs/2026-08-25_health-check.md

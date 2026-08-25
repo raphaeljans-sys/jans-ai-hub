@@ -3,6 +3,26 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-25 — Wissens-Health-Check (Nachtschicht Mac Mini, Phase 1)
+
+Vollständiges Audit aller 14 Wiki-Artikel gegen die sieben Standard-Prüfungen: A
+Widersprüche 0, B kaputte Backlinks/Orphans 2 (zwei isolierte, aber sachlich korrekte
+Orphan-Artikel `kispi-lbw-rohdichte-800` und `roethlisberger-geraetepreis-pruefung-273-35`;
+der im Check vom 03.08.2026 gemeldete Klammer-Tippfehler-Backlink ist bestätigt behoben,
+Wissens-Chef Run 43), C unbelegte Claims 0, D RAW-Coverage-Lücken 2 (ein bekannter, bewusst
+offener Raw-Eintrag; strukturell wichtiger: `raw/_INGESTED.md` erfasst nur 2 von den
+eigentlichen Dutzenden Quelldateien, die 12 der 14 Artikel über den externen
+Wissens-Destillat-Korpus `buero-projekte` speisten), E veraltete Artikel 0 (jüngste KB,
+ältester Artikel 33 Tage), F Schreibregel-Verstösse 3 (Frontmatter-Schema-Drift zwischen
+vier älteren Artikeln mit flachen Feldern und zehn neueren mit verschachteltem `tags:`;
+veraltete Statistikzeile in `INDEX.md`; ein `links:`-Feld mit Freitext statt reiner
+Backlink-Liste, gleiche Fehlerfamilie wie der Run-43-Fund), G Promotion-Kandidaten 1
+(Mahnkaskaden-Muster «fehlende Auftragsgrundlage», belegt durch
+`kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087` und
+`eh-europe-1527-mahnkaskade-unbezahlter-zusatzauftrag`, beide bereits wechselseitig
+verlinkt, aber noch `emerging` trotz zweitem unabhängigem Beleg).
+- Report: outputs/2026-08-25_health-check.md
+
 ## 2026-08-25 — Wissens-Chef Run 43: Notation angeglichen, KB wieder befundfrei
 
 `wiki/kispi-behoerden-zustaendigkeitswechsel-1171-26.md` Z. 6 (1/1, Zeilenzahl 112/112): die
