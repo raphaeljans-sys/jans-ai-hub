@@ -81,8 +81,12 @@ Holz, Kunststoff (PVC, mit Stahlkern zur Aussteifung), Holz-Metall und Aluminium
 braucht zwingend eine thermische Trennung**, sonst Wärmebrücke. Holz punktet bei der Nachhaltigkeit,
 Holz-Metall ist die klassische wetterrobuste Kombination.
 
-**Amtlicher Uf-Fallback (BFE-Bauteilekatalog 2002, Kap. 5.1.2, S. 66) — primärquellen-bestätigt
-2026-07-15**, einzusetzen «wenn keine überwachten Angaben vorliegen»:
+**Uf-Fallback (BFE-Bauteilekatalog 2002, Kap. 5.1.2, S. 66) — ⚠ HISTORISCH, seit 08.2009 amtlich
+abgelöst** (Merkblatt Fenster, Best-Nr. 805.107.d, löst Kap. 5.1 dieses Katalogs wörtlich ab;
+selbst gegengelesen 2026-08-25). **Für einen Nachweis gelten Holz/Holz-Metall 1,8 · Kunststoff 2,2
+· wärmegedämmte Verbundprofile 2,8 W/(m²·K)** → `[[enfk-fensterblatt]]`. Die Bestätigung vom
+2026-07-15 betraf die *korrekte Wiedergabe der Quelle von 2002*, nicht deren Geltung. Wortlaut dort,
+einzusetzen «wenn keine überwachten Angaben vorliegen»:
 
 | Rahmenmaterial | Uf [W/(m²·K)] |
 |---|---|
@@ -231,7 +235,10 @@ mit der SIA-331-Grösse bewusst davon ab (Kontext, nicht im Volltext geprüft).
   (nur Nachweismethodik gefunden, keine Tabelle) weiterhin offen.
 
 **Erledigt am 2026-07-15 (vorher offen):** amtliche g-Werte 2-IV-IR/3-IV-IR (62 %/45 %) und
-Uf-Fallback (Holz 1,9/Kunststoff 2,5/Verbundprofil 3,3) primärquellen-bestätigt; FEA-Klassengrenzen
+Uf-Fallback (Holz 1,9/Kunststoff 2,5/Verbundprofil 3,3) primärquellen-bestätigt — ⚠ **berichtigt
+2026-08-25 (Run 163): bestätigt war die quellentreue Wiedergabe des Katalogs 2002, nicht dessen
+Geltung; die Uf-Werte sind seit 08.2009 amtlich abgelöst (1,8/2,2/2,8), die g-Werte bleiben
+unberührt**; FEA-Klassengrenzen
 A-G (Uw,eq-Schwellen) aus dem BFE-Faktenblatt direkt gelesen; Referenzfenstergrösse 1,55×1,15 m
 amtlich bestätigt (SIA-331-Zuordnung bleibt sekundärquellenbelegt).
 

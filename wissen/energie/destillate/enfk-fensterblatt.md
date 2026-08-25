@@ -177,11 +177,15 @@ Auszug (Glas-Ug in W/m²K x Rahmen-Uf in W/m²K → Uw in W/m²K):
 | Kunststoff | 2,2 |
 | Wärmegedämmte Verbundprofile | 2,8 |
 
-⚠ Diese Werte weichen von den im Destillat `[[fenster-verglasung-uw-g-wert]]` dokumentierten
-BFE-Bauteilekatalog-Werten (2002: Holz 1,9/Kunststoff 2,5/Verbundprofile 3,3) ab — beide Quellen
-sind amtliche Fallback-Rechenwerte, aber aus unterschiedlichen Jahren/Regelwerken. Vor
-Verwendung im Nachweis die aktuell geltende Fassung (heutige SIA 380/1 bzw. kantonale
-Vollzugshilfe) prüfen.
+✅ **Diese Werte gelten, die 2002er nicht — entschieden 2026-08-25 (Run 163), vorher offener Punkt
+E-121-1.** Die Abweichung zu den BFE-Bauteilekatalog-Werten (2002: Holz 1,9/Kunststoff 2,5/
+Verbundprofile 3,3) ist **keine Parallelität zweier amtsnaher Quellen**, sondern eine **Ablösung**:
+dieses Merkblatt erklärt auf seiner letzten Seite wörtlich, es «löst folgende Planungswerkzeuge des
+Bundes ab · U-Wert-Berechnung und Bauteilekatalog Neubauten, **Kapitel 5.1 Fenster (Ausgabe 2002)**»
+(Original selbst gegengelesen, PDF Best-Nr. 805.107.d). Für Fenster-Rechenwerte gilt damit dieses
+Merkblatt, nicht `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`. ⚠ Weiterhin zu beachten: das
+Merkblatt selbst fusst auf SIA 380/1:**2009**; die geltende Normausgabe ist 2016 — vor einem
+verbindlichen Nachweis den kantonalen Stand (EN-102/EVEN) prüfen.
 
 ### Ψg-Werte Glasrandverbund (Tabellen 9/10, Basis EN ISO 10077-1:2006 Anhang E)
 

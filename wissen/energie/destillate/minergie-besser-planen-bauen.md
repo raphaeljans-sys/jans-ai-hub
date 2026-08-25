@@ -3,7 +3,7 @@ quelle: "Minergie-Wissen «Besser planen, besser bauen — Optimieren mit Minerg
 herausgeber: "Verein Minergie, Basel"
 ausgabe: "Veroeffentlichung 2018, Ueberarbeitung September 2023 (web-Ausgabe minergiewissen_planer_d_2023)"
 gelesen: "2026-06-06 (S. 1-16, Ausgabe ~2017); 2026-06-09 (S. 1-16, Ueberarbeitung 2023)"
-datenstand: "Minergie-Standard Ueberarbeitung 09/2023 (Basis MuKEn 2014, mit neuem Kriterium THGE Erstellung). ⚠ Minergie-Reglement/Kennzahlen werden periodisch revidiert — konkrete Limiten vor Zitieren auf minergie.ch verifizieren."
+datenstand: "Minergie-Standard Ueberarbeitung 09/2023 (Basis MuKEn 2014, mit neuem Kriterium THGE Erstellung). ⚠ **Zwei Angaben der Tabelle unten sind seit dem Produktreglement 2026.1 überholt (A-BLIND-Prüfung 2026-08-25, Run 163, am Original nachgemessen): (1) der Heizwärmebedarf bemisst sich neu als Prozentsatz der MuKEn-2025-Grenzwerte Q_H,li, nicht mehr MuKEn 2014 — die Prozentsätze 90/70/90 und die resultierenden Zahlenwerte bleiben unverändert, es wechselt die zitierte Rechtsgrundlage; (2) der THGE-Grenzwert ist neu je Gebäudekategorie gestaffelt (11,5 bis 18,5), für Wohnen MFH 11,5 statt pauschal 11 kg CO₂-eq/(m²EBF·a).** Massgeblich für zitierfähige Zahlen ist `[[minergie-produktreglement-2026-1-muken-vergleich]]`. Minergie-Reglement/Kennzahlen werden periodisch revidiert — konkrete Limiten vor Zitieren auf minergie.ch verifizieren."
 status: established
 last_updated: 2026-08-24
 quelle_pfad: "PL - 04 Energie/wissen.minergie.ch/minergiewissen_planer_d_2023_web_1-231002-143235.pdf"
@@ -32,9 +32,9 @@ ein an den **Klimawandel angepasster sommerlicher Waermeschutz** (Wetterdaten 20
 |---|---|---|---|
 | **Minergie-Kennzahl** Neubau | **51 kWh/m²** | **46 kWh/m²** | **29 kWh/m²** |
 | Minergie-Kennzahl Erneuerung | 82 kWh/m² | 77 kWh/m² | 29 kWh/m² |
-| Heizwaermebedarf Neubau | 90 % MuKEn 2014 | 70 % MuKEn 2014 | 90 % MuKEn 2014 |
-| Heizwaermebedarf Erneuerung | keine Vorgabe | 90 % MuKEn 2014 | keine Vorgabe |
-| **THGE in der Erstellung** Neubau | **11 kg CO₂/m² EBF·a** | 11 kg/m² | 11 kg/m² |
+| Heizwaermebedarf Neubau ⁽¹⁾ | 90 % MuKEn 2014 | 70 % MuKEn 2014 | 90 % MuKEn 2014 |
+| Heizwaermebedarf Erneuerung ⁽¹⁾ | keine Vorgabe | 90 % MuKEn 2014 | keine Vorgabe |
+| **THGE in der Erstellung** Neubau ⁽²⁾ | **11 kg CO₂/m² EBF·a** | 11 kg/m² | 11 kg/m² |
 | Eigenstromproduktion Neubau | Dach voll mit PV (≥ 60 % der Dachflaeche) | « | bedarfsdeckend |
 | Eigenstromproduktion Erneuerung | ≥ 30 % der Dachflaeche | « | bedarfsdeckend |
 | Kontrollierte Lufterneuerung | Ja | Ja | Ja |
@@ -43,6 +43,19 @@ ein an den **Klimawandel angepasster sommerlicher Waermeschutz** (Wetterdaten 20
 | Luftdichtheit q_a50 Neubau ⚠ nur P/A im Reglement 2026.1 beziffert, s. u. | 1,2 m³/h·m² (nur Broschüre) | 0,8 (gemessen) | 0,8 (gemessen) |
 | Luftdichtheit q_a50 Erneuerung | 1,6 (nur Broschüre) | 1,6 | 1,6 |
 | Energie-Monitoring | Ja, wenn > 1000 m² EBF | « | Ja (alle Groessen)** |
+
+⁽¹⁾ ⚠ **Bezugsbasis seit Produktreglement 2026.1: MuKEn 2025, nicht MuKEn 2014** (Kap. 6.1 wörtlich:
+«in % der Neubau-Grenzwerte Q_H,li der MuKEn 2025»; Original selbst gegengelesen 2026-08-25). Die
+Prozentsätze 90/70/90 sind unverändert, und die Grenzwerte Q_H,li selbst sind laut
+`[[muken-2025-verabschiedet]]` zahlenmässig identisch — es wechselt die **zitierte Rechtsgrundlage**,
+nicht die Zahl. Für ein Nachweisdokument die neue Fassung zitieren.
+
+⁽²⁾ ⚠ **Seit Reglement 2026.1 je Gebäudekategorie gestaffelt, für Wohnen MFH 11,5 statt 11.**
+Anhang G nennt GW_EBF: Wohnen MFH 11,5 · Wohnen EFH 12,5 · Verwaltung 12,5 · Schule 12 · Verkauf
+18,5 · Restaurant 15 · Versammlungslokal 16 · Spital 18,5 · Industrie/Lager/Sportbaute/Hallenbad je
+16 kg CO₂-eq/(m²EBF·a), dazu GW_(GF−EBF) 5,5 für unbeheizte Flächen und Zuschläge für Erdsonde
+(0,3), PV (7,1 je m² Panelfläche) und Thermie (5,6 je m² Kollektorfläche). Selbst am Original
+nachgemessen 2026-08-25 → `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
 
 \** Minergie-A unter 1000 m² ohne Waermemessung. Werte gelten fuer Wohnen MFH; andere
 Gebaeudekategorien abweichend (Reglement minergie.ch).

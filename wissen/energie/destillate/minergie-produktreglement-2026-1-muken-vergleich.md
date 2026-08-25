@@ -333,8 +333,14 @@ bereits im Wiki vermerkten Einschränkung zu 51/46/29).
 **MKZ Neubau, Beispielwerte** [kWh/(m²EBF·a)], Standard M / P / A, je Gebäudekategorie
 (Wohnen MFH · Wohnen EFH · Verwaltung · Schule · Verkauf · Restaurant · Versammlungslokal ·
 Spital · Industrie · Lager · Sportbaute; Hallenbad ohne MKZ-Vorgabe):
-M: 51 / 38 / 70 / 36 / 71 / 62 / 53 / 93 / 41 / 30 / 36 — P: 45 / 36 / 67 / 31 / 64 / 55 / 46 /
+M: 51 / 38 / 70 / 36 / 71 / 62 / 53 / 93 / 41 / 30 / 36 — P: **46 / 35** / 67 / 31 / 64 / 55 / 46 /
 86 / 34 / 23 / 29 — A: 29 / 26 / 32 / 19 / 32 / 34 / 21 / 47 / 25 / 20 / 23.
+
+⚠ **Berichtigt 2026-08-25 (Run 163):** die beiden ersten P-Werte standen hier als «45 / 36»
+(Wohnen MFH / Wohnen EFH). Anhang J des Reglements 2026.1 nennt **46 / 35** — die Ziffern waren
+vertauscht. Am Original nachgemessen (`pdftotext -layout`, Anhang J, Zeile «P 46 35 67 31 64 55 46
+86 34 23 29»); alle übrigen neun P-Werte sowie die Zeilen M und A stimmen unverändert. Der Wert 46
+für Wohnen MFH deckt sich mit `[[minergie-besser-planen-bauen]]`, das ihn schon vorher richtig führte.
 
 **MKZ Erneuerung, Beispielwerte**, gleiche Kategorienreihenfolge:
 M: 82 / 77 / 103 / 68 / 95 / 91 / 82 / 112 / 73 / 48 / 57 — P: 77 / 72 / 94 / 58 / 85 / 81 / 72 /

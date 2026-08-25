@@ -2,10 +2,10 @@
 quelle: "GEAK / GEAK Plus — Der Gebäudeenergieausweis der Kantone (Verein GEAK); kantonale Vollzugsquellen ZH (AWEL) und SZ (AfU)"
 herausgeber: "Verein GEAK (im Auftrag der Konferenz Kantonaler Energiedirektoren EnDK) — geak.ch; BFE-Gebäudeprogramm; Baudirektion ZH/AWEL; Amt für Umwelt und Energie Kt. Schwyz"
 ausgabe: "Webseiten geak.ch (Stand 2026); Produkt-/Nutzungsreglement Version 01.01.2026; Basisbroschüre 2023; Fördertabelle geak.ch/foerderung (Stand Januar 2026); AfU SZ «FAQ Förderprogramm und Energie-Gesetz», Stand 28.08.2025"
-gelesen: "geak.ch: /der-geak/was-ist-der-geak, /produkte/geak, /der-geak/faq-zum-geak, /weg-zum-geak (2026-07-08); geak.ch/der-geak/foerderung, sz.ch Energielabel/GEAK, AfU-SZ-FAQ-PDF (Volltext), zh.ch Bauvorschriften Gebäude/Energie (2026-07-14)"
-datenstand: "2026-07-14 (Reglemente 01.01.2026; Fördertabelle geak.ch Stand 01/2026; SZ-FAQ Stand 28.08.2025); Gültigkeit bis 10 J; CHF-Kosten projektabhängig"
+gelesen: "geak.ch: /der-geak/was-ist-der-geak, /produkte/geak, /der-geak/faq-zum-geak, /weg-zum-geak (2026-07-08); geak.ch/der-geak/foerderung, sz.ch Energielabel/GEAK, AfU-SZ-FAQ-PDF (Volltext), zh.ch Bauvorschriften Gebäude/Energie (2026-07-14); A-BLIND-Gegenprüfung 2026-08-25: ZH-Förderprogramm 2026 (ktzh_foerderprogramm_2026.pdf, S. 9), SZ-Vollzugshilfe Förderprogramm Energie 2026 (Kap. 18, inhaltlich deckungsgleich mit der AfU-FAQ vom 28.08.2025), fr.ch/vwbd/afe (Freiburg Art. 11a EnGe / Art. 5 EnR)"
+datenstand: "2026-07-14 (Reglemente 01.01.2026; Fördertabelle geak.ch Stand 01/2026; SZ-FAQ Stand 28.08.2025); Gültigkeit bis 10 J; CHF-Kosten projektabhängig — **gegengeprüft 2026-08-25 (A-BLIND, Run 163): keine Abweichung zu ZH-Förderprogramm 2026 (Version 01.01.2026), SZ-Vollzugshilfe Förderprogramm Energie 2026 und geak.ch; CHF 1'000/1'500, Schwelle CHF 10'000, 100 kWh/m²·a und 150 m² EBF wörtlich bestätigt; Freiburg-Gesetzesartikel ergänzt**"
 status: established
-last_updated: "2026-07-15"
+last_updated: "2026-08-25"
 ---
 
 # GEAK & GEAK Plus — der Gebäudeenergieausweis der Kantone
@@ -112,8 +112,14 @@ Nachweisweg** (der GEAK ist *eine* von mehreren Möglichkeiten, eine gesetzliche
   Handänderung, Heizungsersatz UND Baubewilligung — drei Anlässe) und **Jura** (beim Verkauf/
   Eigentümerwechsel). Alle vier sind Westschweizer Kantone; **Deutschschweiz kennt aktuell keine
   Handänderungspflicht** für den GEAK (ZH/SZ fördern die Erstellung nur, siehe oben). Weitere
-  Kantone könnten künftig nachziehen (Quelle nennt keinen Zeitplan). ⚠ Keine Gesetzesartikel-Nummern
-  gefunden — vor einer verbindlichen Aussage im Einzelfall am kantonalen Energiegesetz verifizieren.
+  Kantone könnten künftig nachziehen (Quelle nennt keinen Zeitplan). **Freiburg amtlich belegt
+  (A-BLIND-Gegenprüfung 2026-08-25):** die Pflicht steht in **Art. 11a EnGe** (Energiegesetz,
+  SGF 770.1) i.V.m. **Art. 5 EnR** (Energiereglement, SGF 770.11) und gilt seit **2013** für
+  **Neubauten und Gebäude, die veräussert werden** — wörtlich fr.ch/de/vwbd/afe/warum-einen-geak-
+  erstellen: «Der GEAK ist seit 2013 gemäss Energiegesetz obligatorisch (Art. 11a EnGe und EnR
+  Art. 5) für: Neubauten; Gebäude, die veräussert werden.» ⚠ Für **VD/NE/JU weiterhin keine
+  Gesetzesartikel-Nummer verifiziert** — dort vor einer verbindlichen Aussage im Einzelfall am
+  kantonalen Energiegesetz prüfen.
 
 ## Bauherren-Transfer
 - Der GEAK beantwortet die Frage **«wie effizient ist mein Gebäude — und was bringt eine Sanierung am

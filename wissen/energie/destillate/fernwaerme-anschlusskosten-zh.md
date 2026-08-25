@@ -32,10 +32,25 @@ Schnitt CHF 14'393 Anschlusskosten und CHF 3'052–3'467 Jahreskosten für ein E
 Arbeitspreis: P1 = 65 CHF/MWh × Teuerungsfaktor (2026 = 1.24) × Rücklauftemperaturzuschlag
 (0–20 %, nur Heizperiode Okt–März) → 8.06–9.67 Rp./kWh (ohne CO2-Abgabe/MWST).
 
-Leistungspreis 0–250 kW: P2 = (900 + 42 × kW) × Index Wohnbaupreise (2026 = 1.14).
+Leistungspreis P2, **drei Leistungsbänder** (Index Wohnbaupreise ZIW, 2026 = 1.14) —
+⚠ **ergänzt 2026-08-25 (Run 163), vorher stand hier nur das erste Band:**
+- 0–250 kW: P2 = (900 + 42 × kW) × ZIW
+- **251–5000 kW: P2 = (900 + 42 × 250 + 17 × [kW − 250]) × ZIW**
+- **> 5000 kW: P2 = (900 + 42 × 250 + 17 × 4750 + 9 × [kW − 5000]) × ZIW**
 
-Anschlussbeitrag Neubau, L ≤ 1 MW: P3 = (25'000 + 263'000 × L[MW]) × 1.14.
-Anschlussbeitrag Bestand: P3 = (25'000 + 179'000 × L[MW]) × 1.14.
+Der Grenzkostensatz je kW fällt also oberhalb 250 kW von 42 auf 17 und oberhalb 5 MW auf 9 CHF/kW.
+**Für JANS praxisrelevant:** ein Pflegeheim oder grösseres MFH liegt regelmässig im zweiten Band —
+mit dem Ein-Band-Ansatz gerechnet wird der Grundpreis dort deutlich überschätzt.
+
+Anschlussbeitrag P3 (Neubau), **zwei Leistungsbänder**:
+- L ≤ 1 MW: P3 = (25'000 + 263'000 × L[MW]) × 1.14
+- **L > 1 MW: P3 = (109'000 + 179'000 × L[MW]) × 1.14** ⚠ ergänzt 2026-08-25 (Run 163)
+
+Anschlussbeitrag Bestand (ohne Leistungsband): P3 = (25'000 + 179'000 × L[MW]) × 1.14.
+
+Alle Formeln am Original nachgemessen (ewz «Tarifsystem Fernwärme 2022 – Ausgabe Juni 2026»,
+`ewz.ch/dam/ewz/meinewz/Dokumentencenter/now-fit/wv-kva-holz-tarifsystem-2022.pdf`, selbst per
+pdftotext gelesen 2026-08-25).
 
 Eigene Beispielrechnungen (Indexstand 2026, exkl. MWST, nach der amtlichen Formel, keine
 amtlich publizierten Einzelbeispiele):
@@ -49,6 +64,30 @@ amtlich publizierten Einzelbeispiele):
 P3-Werte sind "standardisierte Richtwerte" (ewz-Dokument); verbindlich ist die individuelle
 Fernwärmeofferte. ⚠ Ausblick im ewz-Dokument: ab voraussichtlich 2029 einheitliches
 Gebührenmodell für alle städtischen thermischen Netze angestrebt, tendenziell höher als heute.
+
+### ⚠ Verfallsdatum: die obigen Zahlen gelten voraussichtlich nur noch bis Ende 2026
+
+**Amtlich belegt (qualitativ):** Die Stadt Zürich ersetzt das indexbasierte Tarifsystem durch ein
+**kostenbasiertes Gebührenmodell**. Medienmitteilung Stadt Zürich vom 05.11.2025, «Stadtrat
+beantragt Rechtsgrundlage zur Einführung einheitlicher Fernwärmegebühren» (Teilrevision der
+Wärmeversorgungsverordnung, Motion GR Nr. 2022/441), wörtlich: *«Die neuen Gebühren werden
+tendenziell höher liegen als der heutige Tarif der Fernwärme aus der Kehrichtverbrennung und
+tendenziell tiefer als jener aus Umweltwärme.»* Die Vorlage lag am 05.11.2025 als **Antrag beim
+Gemeinderat, noch nicht beschlossen**.
+
+**Nur sekundär belegt (quantitativ) — nicht zitierfähig, aber zu wichtig zum Weglassen:** Ein
+Medienbericht (watson.ch, 28.03.2026, «Fernwärmetarif 2027: Fixkosten steigen in der Stadt Zürich
+massiv») nennt für den Wärmeverbund KVA/Holz **ab 2027 einen Arbeitspreis von 35 statt 65 CHF/MWh
+und einen Leistungspreis von 145 statt 42 CHF/kW**, gestützt auf einen Stadtratsbeschluss vom
+26.11.2025. **Selbst nachgeprüft am 25.08.2026: die amtliche Medienmitteilung vom 05.11.2025 nennt
+weder diese Zahlen noch dieses Beschlussdatum** — sie bleibt qualitativ. Die Zahlen sind damit
+**nicht primärquellenbelegt** und dürfen so nicht gegenüber einer Bauherrschaft verwendet werden.
+
+**Was daraus folgt:** Die Richtung ist amtlich belegt und für die Beratung entscheidend — der
+Tarif verschiebt sich **vom Verbrauch zur Fixgebühr**. Wer heute eine Fernwärme-Wirtschaftlichkeit
+über die Arbeitspreis-Ersparnis rechnet, rechnet gegen den Trend: ein gut gedämmtes Gebäude mit
+wenig Verbrauch profitiert künftig **weniger**, weil der Fixanteil steigt. Vor jeder verbindlichen
+Aussage den geltenden Tarif beim ewz erfragen. → offener Punkt E-R163-1.
 
 ## Winterthur (Vergleich, nicht primärverifiziert)
 

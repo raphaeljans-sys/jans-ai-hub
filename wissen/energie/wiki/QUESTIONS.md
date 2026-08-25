@@ -3761,11 +3761,19 @@ Ordner ist lesbar und wurde in diesem Lauf produktiv genutzt.
 
 **Neue offene Punkte aus diesem Lauf:**
 
-- **E-121-1 — Uf-Rechenwerte widersprüchlich (mittlere Priorität).** Das EnFK-Fensterblatt (2009)
-  nennt Uf Holz 1,8 / Kunststoff 2,2 / Verbundprofil 2,8 W/(m²·K); der BFE-Bauteilekatalog (2002)
-  nennt 1,9 / 2,5 / 3,3. Beide sind amtsnah. Vermutung (unbelegt): Fortschreibung zwischen 2002
-  und 2009. Aufzulösen an der geltenden SIA-380/1-Ausgabe bzw. den kantonalen Rechenwerten →
-  `[[enfk-fensterblatt]]`, `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`.
+- ✅ **E-121-1 — GESCHLOSSEN 2026-08-25 (Run 163). Es ist keine Parallelität, sondern eine Ablösung.**
+  Das Merkblatt Fenster (EnFK/EnergieSchweiz/BFE, Best-Nr. 805.107.d, 08.2009) erklärt auf seiner
+  letzten Seite wörtlich: *«Das Merkblatt löst folgende Planungswerkzeuge des Bundes ab · U-Wert-
+  Berechnung und Bauteilekatalog Neubauten, **Kapitel 5.1 Fenster (Ausgabe 2002)** · U-Wert-Berechnung
+  und Bauteilekatalog Sanierungen, Kapitel 5.1 Fenster (Ausgabe 2002) · k-Werte und g-Werte von
+  Fenstern (Ausgabe 1995)»* (Original selbst gegengelesen). **Es gelten damit 1,8 / 2,2 / 2,8**, nicht
+  1,9 / 2,5 / 3,3. Nachgezogen in `[[enfk-fensterblatt]]`, `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`,
+  `[[fenster-verglasung-uw-g-wert]]`, `wiki/fenster-verglasung.md` und FAQ F35/F69.
+  **Methodische Lehre:** die Auflösung stand seit dem 03.08.2026 im `datenstand`-Feld von
+  `[[enfk-fensterblatt]]` («Das Merkblatt selbst weist aus, dass es ältere BFE-Planungswerkzeuge …
+  ablöst») — sie wurde nur nie mit diesem offenen Punkt verbunden, während das Schwester-Destillat
+  die 2002er-Werte gleichzeitig als «primärquellen-bestätigt» führte. Die Antwort lag drei Wochen
+  in der eigenen KB, in der falschen Datei. Gleiche Familie wie der WEGE-Befund 260809.
 - **E-121-2 — Klimareferenz-Widerspruch bei der Gebäudehüllziffer.** Quelle rechnet mit 8,5 °C /
   8 % pro K (SIA 380/1:2009), KB-Basis ist 9,4 °C / 6 % pro K (SIA 380/1:2016). Nicht geglättet →
   `[[gebaeudehuellziffer-ebf-flaechendefinition]]`, `[[bezugsgroessen-energienachweis]]`.
@@ -7191,3 +7199,55 @@ Zahlen der KB betreffen könnte, und er ist ohne Blocker lösbar. Danach die A-B
 sondern **alternder Datenstand** ist das brauchbarere Kriterium. Unverändert blockiert und nicht
 erneut aufgreifen: E-R148-1 (Normkauf SIA 380/1:2016), E-R161-1 (SN EN ISO 6946), E-R230-2
 (Entscheid Raphael), E103 (Entscheid Raphael zur Auswertung eigener Healthcare-Projektdaten).
+
+
+### Run 163 (25.08.2026) — A-BLIND auf die Ränge 21–40, Auswahl nach alterndem Datenstand
+
+Sieben Prüfungen parallel (sechs Destillate + Inventar-Rest), Urteil und alle Datei-Eingriffe im
+Hauptkontext nach eigener Gegenprüfung am Original (Rule `auto-verbesserungen` 260729b).
+
+**Geschlossen:** **E-121-1** (Uf-Ablösung, s. o.) · **E-R162-1** (KBOB v9.0-Diff: der Verdacht
+bestätigt sich **nicht** — die KB zitiert keinen Kennwert wörtlich aus der KBOB-Liste; Stichprobe
+Position 01.002 «Hochbaubeton unspezifisch» zwischen v8.0 und v9.0 unverändert. Nebenbefund: das
+KB-weit geführte Datum «v8.0 (20.02.2026)» ist falsch, amtlich ist **04.03.2026**) ·
+**E-R162-5** (sz.ch HTTP 403 **nicht reproduzierbar** — alle sz.ch-Seiten und -PDFs waren am
+25.08.2026 direkt erreichbar; der 403 war offenbar transient, kein Weg-Eintrag nötig) ·
+**Fedlex-Vorbehalt** in `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]` (Anhang 6 LSV jetzt
+am Primärtext gegengelesen).
+
+**Neue offene Punkte:**
+
+- **E-R163-1 (P1, terminlich) — ewz-Fernwärmetarif wechselt per 2027 die Struktur.** Amtlich belegt
+  ist nur die Richtung: die Stadt Zürich ersetzt das indexbasierte System durch ein kostenbasiertes
+  Gebührenmodell (Medienmitteilung 05.11.2025, Teilrevision Wärmeversorgungsverordnung, Motion
+  GR Nr. 2022/441; Vorlage lag als Antrag beim Gemeinderat). Die konkreten Zahlen (Arbeitspreis
+  65 → 35 CHF/MWh, Leistungspreis 42 → 145 CHF/kW, Stadtratsbeschluss 26.11.2025) stehen **nur in
+  einem Medienbericht** (watson.ch 28.03.2026); die amtliche Mitteilung nennt sie **nicht** — selbst
+  nachgeprüft. **Bis zum Primärbeleg nicht gegenüber Bauherrschaft verwenden.** Nächster Schritt:
+  Stadtratsbeschluss/Gemeinderatsvorlage im Zürcher Geschäftsverwaltungssystem suchen oder ewz
+  direkt anfragen. Wirkung, falls bestätigt: die Fernwärme-Wirtschaftlichkeit verschiebt sich vom
+  Verbrauch zur Fixgebühr — gut gedämmte Gebäude profitieren dann **weniger**.
+- **E-R163-2 — keine systematische Rechtsprechungsabfrage zu Wärmepumpen-Lärm.** Die Websuche fand
+  keine Praxisänderung 2025/2026, das ist ein schwacher Negativbefund. Offen: Volltextabfrage auf
+  `search.bger.ch` → `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`.
+- **E-R163-3 — Merkblatt Fenster fusst auf SIA 380/1:2009, geltend ist 2016.** Die Ablösung des
+  2002er-Katalogs ist eindeutig; ob die Werte 1,8 / 2,2 / 2,8 unter SIA 380/1:2016 unverändert
+  gelten, ist **nicht** belegt. Eine neuere Merkblatt-Ausgabe war nicht auffindbar. Vor einem
+  verbindlichen Nachweis den kantonalen Stand (EN-102/EVEN) prüfen.
+- **E-R163-4 — Rg-Luftschichttabelle im Nachfolgekatalog nicht auffindbar.** Der amtliche
+  «U-Werte Katalog» 02.2016 (Best-Nr. 805.150.D, gleicher Autor wie 2002) enthält im extrahierten
+  Volltext die Variable Rg, aber keine Zahlentabelle nach Dicke/Richtung — möglicherweise nur als
+  Grafik oder an SN EN ISO 6946 ausgelagert. Die 2002er-Tabelle (0,11–0,22) bleibt bis dahin die
+  einzige belegte Fassung → `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`.
+- **E-R163-5 — Preisüberwacher-«Herbst 2024»-Zahlen sind aufgewertet, aber ohne PDF.** Die Werte
+  (CHF 1'878–5'267, Ø 3'467/Jahr bzw. 17 Rp./kWh, +10 % gegenüber 08.2022) stehen inzwischen im
+  Fliesstext der amtlichen Themenseite selbst, nicht nur in einem Drittportal — ein eigenständiger
+  Bericht existiert weiterhin nicht (letzter Vollbericht 06.07.2023) →
+  `[[fernwaerme-anschlusskosten-zh]]`.
+- **E-R163-6 (terminlich, fällig 30.09.2026) — Agro Energie Schwyz Grund-/Arbeitspreis läuft ab.**
+  Noch keine Folgeversion publiziert; nach dem 30.09.2026 neu ziehen.
+
+**Für den nächsten Lauf:** A-BLIND auf die **Ränge 41–60** mit demselben Kriterium. Vorher
+**E-R163-1** angehen — es ist der einzige neue Punkt mit Terminwirkung und Zahlenrelevanz für
+Bauherren-Aussagen. Unverändert blockiert, nicht erneut aufgreifen: **E-R148-1** (Normkauf
+SIA 380/1:2016), **E-R161-1** (SN EN ISO 6946), **E-R230-2** und **E103** (beide Entscheid Raphael).

@@ -1,6 +1,45 @@
 # CHANGELOG
 
 
+## 2026-08-25 — Energie Run 163: A-BLIND Ränge 21–40; abgelöste Fenster-Tabelle gefunden (E-121-1 geschlossen)
+
+Sieben parallele Prüfungen auf die meistzitierten Destillate mit alterndem Datenstand; jede
+Beanstandung vor dem Eingriff selbst am Original gegengeprüft.
+
+**Hauptfund:** Die Uf-Fallback-Tabelle des BFE-Bauteilekatalogs 2002 (Holz 1,9 / Kunststoff 2,5 /
+Verbundprofil 3,3) ist **seit 08.2009 amtlich abgelöst** — das «Merkblatt Fenster» (Best-Nr.
+805.107.d) erklärt die Ablösung von «Kapitel 5.1 Fenster (Ausgabe 2002)» wörtlich und nennt
+**1,8 / 2,2 / 2,8**. Damit ist der seit 03.08.2026 offene Punkt **E-121-1 entschieden**: keine
+Parallelität zweier amtsnaher Quellen, sondern eine Hierarchie. Nachgezogen in fünf Dateien plus
+FAQ F35/F69. Die Auflösung stand seit drei Wochen im `datenstand`-Feld von `enfk-fensterblatt`,
+wurde aber nie mit dem offenen Punkt verbunden.
+
+**Zweiter Fund:** Zahlendreher in `minergie-produktreglement-2026-1-muken-vergleich` (56 Backlinks,
+gepflegt am Vortag) — MKZ Minergie-P Neubau stand als «45 / 36», Anhang J nennt **46 / 35**.
+
+**E-R162-1 (P1) geschlossen, Verdacht entkräftet:** Die KB zitiert keinen Kennwert wörtlich aus der
+KBOB-Liste; die Stichprobe «Hochbaubeton unspezifisch» ist zwischen v8.0 und v9.0 unverändert.
+Nebenbefund: das KB-weit geführte Datum «v8.0 (20.02.2026)» ist falsch — amtlich **04.03.2026**;
+geltend ist v9.0 (14.07.2026). Versionsangaben nachgezogen.
+
+**Weiter:** `minergie-besser-planen-bauen` eingeordnet (Heizwärmebedarf bezieht sich seit Reglement
+2026.1 auf MuKEn **2025**, Zahlenwerte unverändert; THGE Wohnen MFH **11,5** statt 11, neu je
+Gebäudekategorie gestaffelt) · `fernwaerme-anschlusskosten-zh` um **zwei eigene Formel-Funde**
+ergänzt (P2 hat drei Leistungsbänder 42/17/9 CHF je kW, P3 Neubau zwei ab 1 MW — für Pflegeheime
+praxisrelevant) und um das **Verfallsdatum 2027** mit ausdrücklich als nicht zitierfähig markierter
+Zahlenlage (E-R163-1) · `cerclebruit-…` bestätigt, Anhang 6 LSV erstmals am Fedlex-Primärtext
+gegengelesen, Vorbehalt geschlossen · `geak-…` bestätigt, Freiburg Art. 11a EnGe / Art. 5 EnR belegt.
+
+**Register:** `training/pdf-inventar.md` **vollständig geschlossen** — die letzten drei Zeilen
+entschieden. Der Willerzell-SolarReport war entgegen der Agentenmeldung längst destilliert (Run 150),
+nur nie abgehakt; kein Duplikat angelegt.
+
+**Nicht übernommen:** zwei Agentenbefunde, die der eigenen Gegenprüfung nicht standhielten (ewz-2027-
+Zahlen als «primärbelegt» dargestellt, tatsächlich nur Medienbericht; Willerzell als «neue Quelle»).
+
+Report: `outputs/2026-08-25_energie-run163.md`.
+
+
 ## 2026-08-24 — Wissens-Chef Run 42: Entwertungs-Bringschuld E-R161-3 richtiggestellt (Diagnose umgekehrt)
 
 Der Melde-Agent des Wissens-Chefs hielt die 11 docx + 1 EML aus PL-03 fuer bis heute ungesichtet

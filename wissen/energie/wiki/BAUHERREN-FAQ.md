@@ -559,7 +559,8 @@ Ersatzneubau ist ökologisch/ökonomisch nur dann klar zu rechtfertigen, wenn er
 **Quelle:** «Begriffe des Energiemanagements» (Energetische Gesamtoptimierung, S. 116) →
 `[[graue-energie-betriebsenergie]]`; THGE-Grenzwert → `[[minergie-besser-planen-bauen]]`;
 **9 Reduktionshebel + Kennzahl-Logik (SIA 2032, Messgrösse kg CO₂-eq/m² EBF)** → KBOB-Faktenblatt
-04.04.2025, Datenbasis KBOB-Ökobilanzdaten **v8.0** (20.02.2026) → `[[kbob-graue-treibhausgasemissionen-2025]]`,
+04.04.2025, Datenbasis KBOB-Ökobilanzdaten **v9.0** (14.07.2026; berichtigt 2026-08-25, vorher v8.0 mit
+falschem Datum 20.02.2026 — v8.0 datiert amtlich auf 04.03.2026) → `[[kbob-graue-treibhausgasemissionen-2025]]`,
 Themenartikel → `[[graue-energie]]`. **Amortisationsschwelle Sanieren-vs-Ersatzneubau** (BAFU/Wüest
 Partner 2020 + Wüest Partner 2022/2024, Status `emerging`, keine belegte Jahreszahl gefunden) →
 `[[graue-energie-sanieren-vs-neubau-amortisation]]`. ⚠ **Datenstand 2026-06-26:** die MJ-Zahlen sind
@@ -1632,10 +1633,12 @@ in Zahlen sehen will: die freiwillige FEA (FFF/SZFF/EnergieSchweiz) klassiert Fe
 < 0, solare Gewinne übersteigen die Verluste) bis **G** (Uw,eq ≥ 0,8); ein Musterfenster mit Uw 1,1 und
 g-Wert 60 % erreicht bereits Klasse A → `[[fenster-energieetikette-fea-bfe]]` (exakte Klassentabelle).
 
-**Ergänzung — Uf amtlich nach Rahmenmaterial (bestätigt 2026-07-15):** Der amtliche BFE-Bauteile-
-katalog (2002, Kap. 5.1.2) nennt als **Fallback-Höchstwerte ohne Produktnachweis**: Holz/Holz-Metall
-**Uf 1,9**, Kunststoff **Uf 2,5**, wärmegedämmte Verbundprofile (Alu mit thermischer Trennung)
-**Uf 3,3 W/(m²·K)**. Reale, gut gedämmte Produkte liegen oft darunter (Holzfenster real eher
+**Ergänzung — Uf amtlich nach Rahmenmaterial (⚠ berichtigt 2026-08-25):** Ohne Produktnachweis gelten
+**Holz/Holz-Metall Uf 1,8**, **Kunststoff Uf 2,2**, **wärmegedämmte Verbundprofile Uf 2,8 W/(m²·K)**
+— aus dem «Merkblatt Fenster» (EnFK/EnergieSchweiz/BFE, Best-Nr. 805.107.d, Tabelle 8, Basis
+SIA D 0176). Die zuvor hier genannten Werte 1,9 / 2,5 / 3,3 stammten aus dem BFE-Bauteilekatalog
+2002, dessen **Kapitel 5.1 Fenster genau dieses Merkblatt seit 08.2009 ausdrücklich ablöst**
+(Wortlaut am Original nachgelesen). Reale, gut gedämmte Produkte liegen oft darunter (Holzfenster real eher
 
 **Korrektur zur g-Wert-Quelle (16.07.2026):** die bisher zitierte «SZFF Doku 31.03» (Herkunft der
 45-55-%-Bandbreite für Dreifachglas) liess sich im Volltext NICHT auffinden — sie ist vermutlich
@@ -2904,8 +2907,10 @@ noch offen: CH-CHF-Mehrkosten und Ctr-Werte je Hersteller).
 **Kurz-Antwort:** Der Fenster-U-Wert Uw ist eine **Mischrechnung** aus Rahmen (Uf), Glas (Ug) und
 Glasrandverbund (Ψg), flächengewichtet nach Rahmenanteil: **Uw = (Uf·Af + Ug·Ag + Ψg·lg) / Aw**.
 Ohne Produktdatenblatt gelten konservative Fallback-Werte für den Rahmen: **Holz/Holz-Metall
-1,9 · Kunststoff 2,5 · wärmegedämmte Verbundprofile (Alu) 3,3 W/(m²·K)** — reale moderne Produkte
-liegen meist deutlich darunter.
+1,8 · Kunststoff 2,2 · wärmegedämmte Verbundprofile (Alu) 2,8 W/(m²·K)** — reale moderne Produkte
+liegen meist deutlich darunter. ⚠ **Berichtigt 2026-08-25:** hier standen bis dahin 1,9 / 2,5 / 3,3
+aus dem BFE-Bauteilekatalog 2002; dessen Fenster-Kapitel ist seit 08.2009 amtlich abgelöst
+(«Merkblatt Fenster», Best-Nr. 805.107.d, Tabelle 8) → `[[enfk-fensterblatt]]`.
 
 **Fachliche Begründung:**
 1. **Rahmenanteil entscheidet mit.** Bei sonst gleichem Glas verbessert ein **schmalerer
@@ -3405,6 +3410,10 @@ ursprünglich offenen Punkte am 2026-07-25 primärquellenverifiziert geschlossen
 > Holz 1,9/Kunststoff 2,5/Verbundprofil 3,3 W/(m²·K)) → `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`
 > jetzt vollständig (S. 1-80/80), schliesst den in `[[fenster-verglasung]]` offen vermerkten Punkt
 > «amtliche Uf-Tabelle je Rahmenmaterial» (mit Vorbehalt: Werte von 2002, konservativer Fallback).
+> ⚠ **Berichtigt 2026-08-25 (Run 163):** diese Uf-Werte sind **nicht mehr die geltende Fallback-Tabelle**
+> — das Fenster-Kapitel des Katalogs 2002 ist seit 08.2009 amtlich abgelöst; es gelten 1,8 / 2,2 / 2,8
+> (Merkblatt Fenster, Best-Nr. 805.107.d) → `[[enfk-fensterblatt]]`. Der Eintrag bleibt als Laufbericht
+> unverändert stehen, die Sachaussage ist damit überholt.
 
 > **FAQ-Stand 2026-07-14 (Run 64):** F68 (Aussenlärm) auf **established** gehoben — die
 > Klassentabellen-Frage ist jetzt abschliessend geklärt (SIA 181 definiert keine Fensterklassen,
@@ -4816,7 +4825,7 @@ Flachdach in einem Massivholz-Plattensystem (BRESTA) mit Kies-Nutzschicht kommt 
 rund 204–206 kg CO2-eq/m², also 6–8× höher als die schlanke Ständerwand-Aussenwand, weil zusätzliche
 mineralische/bituminöse Schichten (Kies, Dichtungsbahn) das Gewicht treiben. Für eine
 projektspezifische, verbindliche Zahl (z.B. Energienachweis, SIA-2032-Berechnung) bleiben diese
-Werte Anhaltspunkte — massgebend ist immer die aktuelle KBOB-Liste v8.0 (20.02.2026) mit dem
+Werte Anhaltspunkte — massgebend ist immer die aktuelle KBOB-Liste v9.0 (14.07.2026) mit dem
 effektiven Schichtaufbau. → `[[kbob-bauteilkatalog-co2-je-aufbau]]`, `[[graue-energie]]`,
 `[[kbob-graue-treibhausgasemissionen-2025]]`.
 Datenstand 2026-07-25 (Run 92). Status **established** (beide Quellen primärquellenbelegt mit

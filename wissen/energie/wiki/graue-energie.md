@@ -99,7 +99,8 @@ liefert den Rahmen (Datenstand 04.04.2025) → `[[kbob-graue-treibhausgasemissio
   verifiziert). «Modul A+B4+C» bezeichnet die Systemgrenze und ist dem KBOB-Faktenblatt entnommen, nicht
   einem gelesenen Normtext. Die Kennwerte selbst bleiben unverändert korrekt EBF-bezogen; in `normen`
   fehlt bisher ein SIA-2032-Destillat (Bring-Schuld SIA 2032:2020) → `[[kbob-graue-treibhausgasemissionen-2025]]`.
-- **Datenbasis:** KBOB-**Ökobilanzdaten im Baubereich v8.0 (20.02.2026)** — anerkannte Werte für
+- **Datenbasis:** KBOB-**Ökobilanzdaten im Baubereich v9.0 (14.07.2026)** (⚠ berichtigt 2026-08-25:
+  vorher v8.0, und deren Datum lautet amtlich 04.03.2026, nicht 20.02.2026) — anerkannte Werte für
   GWP/Primärenergie/UBP je Baustoff; SIA-2032-Vorprojektwerte rechnen sie auf Bauteile herunter.
 - **Reduktionspotenzial bis 40 %** (MFH) durch Kombination baulicher Massnahmen. Die **9 Hebel**
   (grösster Bauherren-Effekt zuerst): **1 früh Ziele setzen · 2 Suffizienz (weniger bauen, wenig UG/

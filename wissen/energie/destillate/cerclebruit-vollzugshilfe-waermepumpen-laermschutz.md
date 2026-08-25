@@ -40,8 +40,10 @@ Leq = LWA2°C − 11 dB + DC − 20·log(s / s0)
   **EN 12102-1:2022**, verifiziert 23.08.2026 in KB `normen`,
   `wissen/normen/destillate/en-12102-1-2022.md`).
 - `DC` = Richtwirkungsmass, abhängig vom Aufstellungsort: **freistehend (≥3 m zur Wand) +3 dB**,
-  **an der Wand +6 dB** (weitere Zuschläge bei einspringender Fassadenecke bzw. wenn Quelle und
-  Empfangsort an derselben Fassade liegen).
+  **an der Wand +6 dB**, **einspringende Ecke +9 dB**; liegen Quelle und Empfangsort an **derselben
+  Fassade bzw. Fassadenflucht**, bleibt es bei **+3 dB** wie freistehend (präzisiert 2026-08-25,
+  Run 163 — vorher stand hier pauschal «weitere Zuschläge», was den Fassadenflucht-Fall
+  fälschlich als Zuschlag lesen liess).
 - `s` = Abstand in Metern zwischen Lärmquelle und Immissionsort (nächstes Fenster eines
   lärmempfindlichen Raums bzw. Baulinie bei unbebauten Parzellen), `s0` = 1 m.
 
@@ -135,7 +137,23 @@ keine Rechercheluecke — analog zu `kantonsrat.zh.ch` in `[[zh-energiegesetz-re
 - Die kantonalen Vollzugs-Ergänzungen (z.B. Kt. ZH: Meldeverfahren, Beurteilungsort-Praxis) sind
   in einer separaten Web-Quelle (`zh.ch/laermschutz-neuanlagen`) beschrieben, nicht in diesem
   Primärdokument selbst — als eigener Bauherren-Transfer-Punkt ergänzt.
-- Die Planungswerttabelle ist über Sekundärquellen belegt, nicht am Fedlex-Primärtext selbst
-  gegengelesen (Werkzeug-Grenze JS-Rendering) — bei Bedarf am gedruckten LSV-Text verifizieren.
+- ✅ **Erledigt 2026-08-25 (Run 163): die Planungswerttabelle ist jetzt am Fedlex-Primärtext selbst
+  gegengelesen** und zahlengenau bestätigt. Die frühere Werkzeug-Grenze (JS-Rendering) ist über die
+  Filestore-Route umgangen (`docs/referenz/fedlex-volltexte.md`), konsolidierte Fassung vom
+  **01.04.2026**. Wörtlich aus Anhang 6 Ziff. 2: «I 50 40 55 45 65 60 · II 55 45 60 50 70 65 ·
+  III 60 50 65 55 70 65 · IV 65 55 70 60 75 70» (Planungswert / Immissionsgrenzwert / Alarmwert,
+  je Tag und Nacht). Ebenfalls wörtlich bestätigt: Anhang 6 Ziff. 1 Abs. 1 lit. e erfasst
+  «Heizungs-, Lüftungs- und Klimaanlagen», und Art. 7 Abs. 3 LSV lautet unverändert, weitergehende
+  Begrenzungen seien nur zu treffen, «wenn mit höchstens einem Prozent der Investitionskosten der
+  Anlage eine Begrenzung der Emissionen von mindestens 3 dB erzielt werden kann».
+  ⚠ **Hinweis zum Konsolidierungsdatum:** nur `20260401` liefert den echten Volltext (196 kB); das
+  sonst übliche `20260101` gibt die textlose App-Hülle von 77'151 Byte zurück — dieselbe Falle, die
+  `fedlex-volltexte.md` im Nachtrag vom 23.08.2026 beschreibt.
+- Die **LSV-Revision per 01.04.2026** betrifft die Koordination von Siedlungsentwicklung und
+  Lärmschutz bei Wohnbauten, **nicht** Anhang 6 und nicht die Wärmepumpen-Bestimmung Ziff. 34;
+  die hier zitierte Rechtslage ist unverändert in Kraft.
+- Offen: eine **systematische Rechtsprechungsabfrage** (search.bger.ch, Volltext) zu
+  Wärmepumpen-Lärm 2025/2026 wurde nicht durchgeführt — die Websuche fand keine einschlägige
+  Praxisänderung, das ist aber ein schwacher Negativbefund, kein Nachweis. → E-R163-2
 
 **Backlinks:** [[waermepumpe-systemvergleich]] · [[heizleistung-und-waermeerzeuger]]

@@ -13,7 +13,7 @@ ergaenzende_quellen: (1) Minergie/eco-bau «Berechnung der Grauen Energie und de
 
 > Das verbindliche Bundes-Faktenblatt, wie die **graue Energie / die Treibhausgasemissionen der
 > Erstellung (GTHGE)** eines Gebaeudes reduziert werden — neun Massnahmen + die Kennzahl-Logik
-> nach SIA 2032. Datenbasis fuer projektgenaue Oekobilanzen: KBOB-Oekobilanzdaten **v8.0**.
+> nach SIA 2032. Datenbasis fuer projektgenaue Oekobilanzen: KBOB-Oekobilanzdaten **v9.0 (14.07.2026)**.
 
 ## Das Wichtigste in 1 Satz
 Mit besser werdender Huelle/erneuerbarer Waerme kehrt sich das Gewicht um — die **graue Energie
@@ -49,7 +49,17 @@ MFH **bis zu 40 % GTHGE-Reduktion** moeglich, wobei **Suffizienz und Bestandserh
   ihre Quellen die Minergie-/SIA-2040-Konvention anwenden. Korrigiert ist ausschliesslich die
   Norm-Zuschreibung der Bezugsfläche. In der KB `normen` fehlt bisher ein SIA-2032-Destillat, das
   Register führt SIA 2032 nur mit der Ausgabe 2010 — Bring-Schuld an `normen`: **SIA 2032:2020**.
-- **Datenbasis fuer die Berechnung:** **KBOB-Oekobilanzdaten im Baubereich, Version 8.0 (20.02.2026)**
+- **Datenbasis fuer die Berechnung:** **KBOB-Oekobilanzdaten im Baubereich, Version 9.0 (14.07.2026)**
+  ⚠ **Zwei Berichtigungen 2026-08-25 (Run 163), amtliche Versionsliste kbob.admin.ch selbst gelesen:**
+  (1) geltend ist **v9.0 vom 14.07.2026**, nicht v8.0; (2) **v8.0 datiert amtlich auf den 04.03.2026,
+  nicht auf den 20.02.2026** — das bisher KB-weit geführte Datum 20.02.2026 ist unbelegt und war schon
+  fuer v8.0 falsch. Versionsfolge laut Quelle: v5 (17.10.2024) · v6/v6.2 (03.12.2024) · v7.0
+  (09.02.2026) · **v8.0 (04.03.2026)** · v8.02 (16.03.2026) · **v9.0 (14.07.2026)**. Davon zu trennen
+  sind die *Bilanzierungsregeln* v8.1 (05.03.2026), ein Methodik-Regelwerk, keine Zahlenliste.
+  **Wirkung auf die KB-Zahlen: keine** — geprueft 2026-08-25, die KB zitiert keinen Kennwert woertlich
+  aus der KBOB-Liste selbst (alle Zahlen stammen aus Minergie/eco-bau 2016, Wuest Partner 2025,
+  Lignumdata V6/2024, treeze 2016/2017); die Stichprobe Position 01.002 «Hochbaubeton unspezifisch»
+  ist zwischen v8.0 und v9.0 unveraendert. Damit ist **E-R162-1 geschlossen**.
   (Methodik ecoinvent) — anerkannte Grundlage fuer Primaerenergie, Treibhausgaspotenzial (GWP),
   Umweltbelastungspunkte (UBP) je Baustoff/Bauteil. SIA-2032-Vorprojektwerte rechnen diese Daten auf
   gaengige Konstruktionen herunter (Resultat pro m² Bauteilflaeche).
@@ -142,7 +152,7 @@ PV-Anlage **13.3**, therm. Solarkollektoren **5.2**, Erdsonden **0.3** (je kg CO
   vermerkt, sinngemaess auf die kg-CO₂-Tabelle uebertragbar (nicht selbst nachgerechnet).
 - **Wichtiger Vorbehalt:** Das sind **Grenz-/Zertifizierungswerte** (kalibriert an SIA 2040), keine
   «typischen» Durchschnitts-Bauteilwerte, und die Datenbasis ist die **KBOB-Liste 2016** (2009/1) — nicht
-  die aktuelle v8.0 (20.02.2026) aus dem Hauptartikel oben. Als Groessenordnung/Struktur-Referenz aber
+  die aktuelle v9.0 (14.07.2026) aus dem Hauptartikel oben. Als Groessenordnung/Struktur-Referenz aber
   gut geeignet: Summe der Wohnen-MFH-Bauteile (GW1≈6.8/GW2≈11.0 kg CO₂/m²·a) deckt sich mit den in der
   gleichen Anleitung genannten Gesamt-Grenzwerten fuer Wohnen MFH (GWTHAE1=8.0/GWTHAE2=10.0 kg CO₂/m²·a).
 
@@ -178,7 +188,7 @@ Tabellenwerte im Original, nur als Groessenordnung zu lesen:**
 ## Offene Punkte
 - **Teilweise geschlossen (2026-07-21):** konkrete kg-Richtwerte je Bauteil jetzt aus zwei frei
   zugaenglichen Quellen belegt (siehe Nachtrag oben) — die **kostenpflichtigen** KBOB-Oekobilanzdaten
-  v8.0 / SIA-2032:2020-Vorprojektwerte (aktuellste Datenbasis, exakte m²-Aufbauten statt Grenzwerte/
+  v9.0 / SIA-2032:2020-Vorprojektwerte (aktuellste Datenbasis, exakte m²-Aufbauten statt Grenzwerte/
   Median-Boxplots) bleiben fuer eine projektgenaue Berechnung dennoch die praezisere Quelle.
 - Konkrete **Sanieren-vs-Neubau-Amortisationsschwelle** der grauen Energie: siehe separat belegten
   Negativbefund in `[[graue-energie-sanieren-vs-neubau-amortisation]]` (D20, 2026-07-13) — keine

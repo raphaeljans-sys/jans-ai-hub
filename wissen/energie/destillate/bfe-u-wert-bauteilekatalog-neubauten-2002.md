@@ -198,8 +198,19 @@ kann dasselbe Glas in einem schmalen und einem breiten Rahmen zwei ganz untersch
 Ψg = laengenbezogener Glasrandverbund-Koeffizient [W/(m·K)], lg = Umfang des Glasrands [m],
 Aw = Gesamtflaeche Fenster [m²].
 
-**Fallback-Werte OHNE Herstellerangaben (Kap. 5.1.2, ⚠ Ausgabe 2002 — konservative Maximalwerte,
-keine Bestwerte moderner Produkte):**
+⚠ **AMTLICH ABGELÖST SEIT 08.2009 — nicht mehr für einen Nachweis verwenden.** Das «Merkblatt
+Fenster — Das Fenster im Energienachweis» (EnFK/EnergieSchweiz/BFE, Bestellnummer **805.107.d**,
+Ausgabe **08.2009**) löst dieses Kapitel ausdrücklich ab; wörtlich auf seiner letzten Seite:
+*«Das Merkblatt löst folgende Planungswerkzeuge des Bundes ab · U-Wert-Berechnung und
+Bauteilekatalog Neubauten, Kapitel 5.1 Fenster (Ausgabe 2002) · U-Wert-Berechnung und
+Bauteilekatalog Sanierungen, Kapitel 5.1 Fenster (Ausgabe 2002) · k-Werte und g-Werte von
+Fenstern (Ausgabe 1995)»* (selbst gegengelesen 2026-08-25, Run 163). **Geltende Rechenwerte
+(Tabelle 8, Basis SIA D 0176): Holz/Holz-Metall 1,8 · Kunststoff 2,2 · wärmegedämmte
+Verbundprofile 2,8 W/(m²·K)** → `[[enfk-fensterblatt]]`. Die Werte unten sind der **historische
+Stand 2002** und bleiben nur zur Nachvollziehbarkeit stehen.
+
+**Fallback-Werte OHNE Herstellerangaben (Kap. 5.1.2, ⚠ Ausgabe 2002, ABGELÖST — konservative
+Maximalwerte, keine Bestwerte moderner Produkte):**
 
 | Rahmenmaterial | Uf [W/(m²·K)] |
 |---|---|
