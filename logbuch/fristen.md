@@ -3,6 +3,93 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NEU 25.08.2026, 06:2x (konversations-log, Fenster 24.08. 04:13 bis 25.08. 06:13) — Aus den
+Gespraechen des 24.08.: neun Positionen, davon acht offen und eine geschlossen; vier betreffen das
+Projekt 2619 KISPI.**
+Quelle je Punkt: Gespraech Mac Mini 24.08.2026, Destillat
+`logbuch/konversationen/260825-konversationen.md`. Zwei weitere gemeldete Punkte wurden vor dem
+Eintrag nachgemessen und sind **erledigt**, darum stehen sie hier nicht: der SSH-Key
+`mail@raphaeljans.ch` liegt auf beiden Stationen, und die drei am 24.08. entladenen launchd-Jobs
+(`nachtschicht`, `wissens-trigger`, `synctask-runner`) sind wieder geladen.
+
+1. **Sync-Architektur: Raphael hat entschieden, der Registereintrag darueber steht noch auf offen.**
+   Auf die Vorlage der zwei Wege antwortete er am 24.08. abends woertlich «nein mach eine ganz
+   einfach symple lösung die stabil ist und direkt». Damit gilt: **zwei Schreiber bleiben**, kein
+   Rule-Umbau, keine KB-Sperre; als Sicherung `scripts/git-divergenz.sh` (nur lesend) und Check 16
+   im Heartbeat. Der Eintrag «NEU 24.08.2026, 18:45 — Entscheid faellig» ist damit sachlich
+   **erledigt**; er wird hier nicht ueberschrieben, sondern durch diesen Nachtrag geschlossen.
+   | Hub-Infrastruktur (Git-Sync) | hoch | erledigt
+
+2. **Tailscale-Waechter gebaut, aber nicht scharf.** `scripts/tailscale-waechter.sh`, Heartbeat
+   Check 15 und die Vorlage `templates/launchd/ch.jans.tailscale-waechter.plist` existieren seit
+   24.08. **Nachgemessen 25.08. 06:2x: `ch.jans.tailscale-waechter` ist auf dem Mac Mini NICHT
+   geladen** (`launchctl list` zeigt nur Tailscale-eigene Jobs). Der Schutz gegen den
+   Erreichbarkeits-P1 vom Wochenende laeuft also nicht; bis dahin traegt nur der Heartbeat, und der
+   laeuft auf Zuruf. Aktion: plist installieren und laden.
+   | Hub-Infrastruktur (Erreichbarkeit) | hoch | offen
+
+3. **Sicherheitsbefund Synology: Home-Verzeichnis auf 777, angeordnete Massnahme nicht vollzogen.**
+   `/var/services/homes/raphaeljans` steht auf `drwxrwxrwx+`; `.ssh` selbst ist korrekt 700, aber
+   Schreibrecht am uebergeordneten Verzeichnis genuegt, damit ein anderer DSM-Account `.ssh`
+   umbenennt und ein eigenes daneben anlegt — und damit Key-Zugang als Raphael hat. Raphael
+   antwortete am 24.08. 18:25 «ja dann schalte es ab», die Session bricht dort ab.
+   **Nachgemessen 25.08. 06:2x: Rechte unveraendert `drwxrwxrwx+`.** Aktion Raphael: entscheiden,
+   was genau abgeschaltet werden soll, und die Rechte auf 755 oder enger setzen.
+   | Sicherheit (NAS-Zugang) | hoch | offen
+
+4. **Ungepruefte Einladung mit moeglicher Frist: «Offizielle Einladung zur Einreichung von
+   Projektvorschlägen – Projekt-ID: 00936-7354-RO – 24.08.2026.eml».** Raphael legte die Mail am
+   24.08. vor und fragte woertlich «ist diese mail seriös, kannst du die daten herunter laden?».
+   **Die Session endete mit `API Error: 529 Overloaded`, es liegt keine Antwort vor**, und keine
+   spaetere Session im Fenster nimmt die Frage auf. Ob die Einladung eine Eingabefrist traegt, ist
+   ungeprueft; ein Phishing-Verdacht ist ebenso wenig ausgeraeumt. Aktion: Seriositaet pruefen,
+   dann Frist feststellen.
+   | Akquisition / Sicherheit | hoch | offen
+
+5. **2619 KISPI, Therapiekueche: Fabrikat der Standmischbatterie ist eine Annahme.** Weder der
+   emme-Kuechenplan (2026-2022325/1/1, 09.07.2026) noch der Gastro-Online-Installationsplan
+   (26-122-01.3, Vorabzug, 01.05.2026) nennen Fabrikat oder Artikelnummer. Auf Entscheid Raphaels
+   wurden die CAD-Daten von **KWC GASTRO 24.501.146.000 (A 300)** und **24.501.144.000 (A 200)**
+   beschafft und nach DWG gewandelt. **Vor der Ausfuehrungsplanung bei emme bzw. Gastro-Online
+   bestaetigen lassen**, sonst wird auf ungepruefter Grundlage geplant. Zusaetzlich zu pruefen: die
+   Freihoehe gegen den Fenstersturz am Fensterspueltisch (Wand 9, Anschluss S01).
+   | 2619 KISPI (Therapiekueche) | hoch | offen
+
+6. **2619 KISPI, Bodenbelaege: zwei Bring-Schulden Dritter vor der Ausschreibung LOS 281.21.**
+   (a) Die **verbindliche Normfundstelle** fuer die medizinisch genutzten Raumgruppen als
+   FB51-Ausloeser ist beim Elektroplaner **Gruner AG** einzuholen; sie ist im Hub nicht belegt und
+   wurde bewusst nicht geraten. (b) Die **raumweise Freigabeliste FB51** steht als Bestaetigung von
+   Elektroplanung und Medizintechnik aus. Grundlage: Factsheet
+   `.../LOS_281.00 Bodenbeläge Grundlagen/260821-2619-Bodenbelag-Index-FB50-FB51/`.
+   | 2619 KISPI (BKP 281) | mittel | offen
+
+7. **2619 KISPI: Mail-Entwurf an Levi Hiltmann liegt unversendet in Apple Mail.** Nach der Behebung
+   seiner Zugriffsrechte (SharePoint-Gruppe 5, Site-User 51) wurde ein Entwurf vorbereitet
+   (`rj@raphaeljans.ch`, Register Du, «Lieber Levi»), aber nicht versendet. **Zusammenhang zum
+   Register-Punkt vom 25.08. ueber den Platzhalter `[ZIELORDNER OFFEN]`:** der dort fehlende
+   Zielordner-Pfad
+   (`.../2 Umbauprojekt Neu PPTS/33.04 BKP/LOS_231.10 Türen System TeKoSi AG/`) gehoert in genau
+   diesen Entwurf — beide Punkte loesen sich mit einer Mail.
+   | 2619 KISPI (Tueren, LOS 231.10) | mittel | offen
+
+8. **2619 KISPI: Raphaels Fachfrage zum Lavabo S016 blieb unbeantwortet.** Gefragt war, ob mit dem
+   Apparatetyp-Modul «SAN 1.6» (Plan 51_G-ARC_S016, Index B, 07.06.2024) ein **Einlochmischer ohne
+   Wandmontage** moeglich ist. Beantwortet wurde nur, um welchen Typ es sich handelt (Waschtisch
+   Kunststein n. A. ARC, Einhandmischer wandmontiert Similor Citypro Liberty, WT-Platte
+   450 x 340 mm, OK +0.850, Mischerachse +1.000). Haengt mit dem Register-Punkt vom 20.08. zur
+   Montagehoehe der Wandmischbatterie zusammen.
+   | 2619 KISPI (BKP 260) | mittel | offen
+
+9. **KB `energie`: falscher THGE-Kennwert stand seit 2023 im Wiki, Verwendung nach aussen
+   ungeprueft.** Das 13-Agenten-Audit vom 24.08. fand als P1, dass das THGE-Rechenbeispiel fuer
+   Minergie durch die **Geschossflaeche statt die EBF** dividierte und damit einen um 25 % zu
+   strengen Zielwert lieferte; fuer ein Spital nannte die KB faelschlich 17, geltend sind
+   **19,9 bzw. 18,5 kg CO2-eq je m2 EBF**. Die KB ist korrigiert. **Offen ist die Frage, ob der
+   falsche Wert je in ein Kundendokument geflossen ist** — das ist zu pruefen, bevor der Punkt als
+   erledigt gilt.
+   | Wissensbasis / Kundenrisiko | mittel | offen
+
+
 **NEU 24.08.2026, 18:45 (interaktive Session, Mac Mini) — Entscheid faellig: Die Lern-Laeufe
 schreiben in den SSD-Klon, die Rule verlangt den NAS. Beide Sync-Waechter sind gehaertet, die
 Architekturfrage bleibt offen.** Heute liefen NAS-Repo und GitHub sechs Stunden auseinander
