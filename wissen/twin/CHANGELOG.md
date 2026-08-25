@@ -4,6 +4,45 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-25 — Fidelity-Review: der Gruss folgt der Begegnung, die Bitte hat eine fünfte Form
+
+Report `outputs/2026-08-25_fidelity.md`. **Kein Datumsfenster, sondern Thread-Rückgriff** auf den
+Strang **Albertstrasse 7 / Nova** (Empfehlung Batch 104) — das vom Vorlauf vorgeschlagene Fenster
+11.–17.08. wurde vor dem Lesen verworfen, weil Batch 95 es mit 16 Volltexten abgeerntet hat.
+**Erstes Nicht-KISPI-Material seit Batch 91.** Drei Golds (17.07. 12:47, 29.07. 10:31, 29.07.
+10:38), alle `authentisch`, alle vor der Lektüre über `internetMessageId` auf `PROD.OUTLOOK.COM`
+belegt; Betreff-Probe schied «Waschtürme/REAP» vorab aus. **Gesamt-Fidelity 36** (nach 27).
+
+Befunde: (1) ⭐ **die Gattung trennt die beiden Grussformen nicht — die persönliche Begegnung tut
+es**; kontrollierter Vergleich, derselbe Empfänger, dieselbe Anrede, dieselbe Gattung, einmal
+«Lieber Gruss und bis bald» + Block (nach Telefonat, Wiedersehen absehbar), einmal nur der Block
+(Empfänger in den Ferien). Dritter und **ältester** Beleg für den Kurzgruss ÜBER dem Block
+(260824). Bewusst **nicht** kompiliert, solange 260824b #1 offen ist. (2) ⭐ **fünfte, nominale
+Bitte-Form**: die Bitte wandert als Zweckangabe in den Liefersatz («mit der Bitte um Durchsicht»,
+«zur Kontrolle und Freigabe bei»), kein eigener Satz — kompiliert. (3) **der Service-Satz fällt
+auch vor dem bloss vorgeschlagenen nächsten Kontakt**; Verallgemeinerung von 260824, macht die
+Regel kürzer — kompiliert. (4) ⭐ **die Anhangs-Lieferung wird benannt, nicht beschrieben**: beide
+Blindfassungen erfanden fünf Sachaussagen über nie gesehene Dokumente und schrieben doppelt so
+lang. (5) **«Geschätzte Firma <Name> AG»** — Anredestufe für Firmen-Sammeladressen, die das
+Register nicht kannte — kompiliert; zugleich zwei Regeln bestätigt (nicht spiegeln, Cc
+unangeredet). (6) **der Dank weicht auf «Ihre E-Mail» aus**, wo sein Gegenstand eine Beanstandung
+ist. (7) **Prüfaufgabe 260813 #1 gelaufen**: 16.6 W ausserhalb KISPI — KISPI-Hypothese geschwächt,
+aber bei 116 W Stichprobe **nicht entschieden**; Band erst nach ≥ 500 W neu setzen.
+
+Sechs Facetten-Widersprüche geprüft, vier aufgelöst, zwei mit offenem Entscheid Raphaels.
+`QUESTIONS.md` **260825b** ergänzt: vier Fragen an Raphael (Gruss/Begegnung — gemeinsam mit
+260824b #1 zu beantworten; Anhänge nie erklären; Registerzeile Steinmann in
+`rules/anrede-kontakte.md` sagt das Gegenteil des Gemessenen; Firmen-Anrede), zwei Hub-interne
+Notizen (Satzlängen-Methodik, Du-Gross-Gegenmessung **1.0** gegen 0.667 vom 24.08. — stützt
+Antwort (b) «registerabhängig»), ein Zähler (Nivellier-Zeile, zehnter Beleg dagegen).
+
+Gehirn **neu kompiliert** nach viertem scharfem Riegel-Abbruch (34'400 B): drei
+Verdichtungsrunden auf **33'855 B, 145 B Reserve**, ausschliesslich Beleg-Prosa gestrichen,
+darunter eine echte **Doppelung** in [[haltung]] (die Gegenprobe 260819 wiederholte wörtlich das
+Zitat zwei Sätze weiter oben). Keine Regel gelöscht. Gegenprobe `git diff --numstat` nativ per
+ssh: `haltung` als einzige Datei geschrumpft (8/11), alle 11 Löschungen zeilengenau die bewussten
+Verdichtungen.
+
 ## 2026-08-25 — Batch 104: die Du-Gross-Quote misst den Autor, nicht den Stil
 
 Fenster `rj@` Sent Items 23.–24.08.2026, 17 Treffer, **7 mit `PROD.OUTLOOK.COM`**. Erstes
