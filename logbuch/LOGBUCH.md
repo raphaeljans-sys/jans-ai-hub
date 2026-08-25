@@ -11,6 +11,16 @@ den Gesendeten). Das Radar-Briefing von gestern hat Raphael damit nie erreicht. 
 Punkt vor, der vor 08:39 zählt: das UBS-Kapitaleinzahlungskonto steht seit acht Tagen bereit und
 niemand hat es gesehen. Beide Bedingungen der Ausnahme aus Schritt 6 sind erfüllt.
 
+### AG-Gründung Raphael Jans — Kapitaleinzahlung ÜBERdüE
+
+**BEFUND (Monitor 25.08. ~07:40):** UBS-Kapitaleinzahlungskonto seit **17.08.2026 10:18** eröffnet und bereit. Kontodetails (IBAN CH46 0027 6276 1238 74D7 N, BIC UBSWCHZH80A, Kontoinhaber «Raphael Jans AG In Gründung») liegen im Postfach mail@raphaeljans.ch seit **acht Tagen unbeachtet**. Das ist genau der blinde Fleck, den die fristen.md-Zeile vom 24.08. benannt hat: Der Monitor ist seit 07.08. defekt und kann nicht warnen.
+
+**Kritischer Pfad:** Einzahlung CHF 50'000 (Vollliberierung, Banküberweisung) → UBS sendet Kapitalbescheinigung automatisch per Einschreiben innert 2 AT → Beurkundung kann folgen.
+
+**Notariat:** Gründungsurkunde und Firmenname-Anpassung («JANS AG» → «Raphael Jans AG», Word-Dateien) liegen weiterhin als unversandter Entwurf vom 18.07.08:50 bei rj@. Beurkundungstermin ist nie vorgeschlagen worden — wird frühestens ab ca. 05.09. möglich sein (nach Eingang der Kapitalbescheinigung Anfang Sept.).
+
+**Aktion:** Einzahlung auslösen (Claude löst keine Zahlung aus). Kontodetails stehen in fristen.md (AG-Zeile 25.08.) + aktualisierter Spec (wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md).
+
 ### Erledigt seit gestern
 
 **TeKoSi hat fristgerecht geliefert, und Raphael hat noch am selben Abend weitergereicht.**

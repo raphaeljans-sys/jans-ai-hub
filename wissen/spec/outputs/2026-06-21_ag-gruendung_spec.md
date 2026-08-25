@@ -297,6 +297,27 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   UBS-Blockadezeile ist auf «erledigt 30.07.» gesetzt, die Fortsetzungszeile (IBAN-Kette,
   Nachfass-Schwelle 05.08.) neu eroeffnet. Der Monitor hat nicht gedoppelt, sondern die
   Notariats-Prioritaet als eigene Zeile nachgetragen.
+
+- **25.08.2026 (Monitor-Lauf, Montag): KAPITALEINZAHLUNG UEBERDUE.** UBS hat am **17.08.2026 10:18**
+  die IBAN gesendet: **CH46 0027 6276 1238 74D7 N**, Kontoinhaber «Raphael Jans AG In Gründung»,
+  BIC UBSWCHZH80A. Mail lag im Postfach mail@ seit **acht Tagen unbeachtet** — genau das,
+  wovor die Registerzeile vom 24.08. 07:46 warnte (Blind-Fleck des defekten Monitors seit 07.08.).
+  Logbuch-Radar 25.08. 06:55 hat den Fund nachgewiesen und die Sache ins Register gepinnt.
+  **Kritischer Pfad:** Einzahlung CHF 50'000 (Vollliberierung, zwingend Bank-/Postüberweisung) →
+  UBS sendet Kapitalbescheinigung automatisch per Einschreiben innert 2 AT → Beurkundung kann
+  danach erfolgen (Notariat-Termin ausstehend, Entwurf dort noch nicht eingegangen).
+  **Einzahlungsdetails:** IBAN `CH46 0027 6276 1238 74D7 N`, BIC `UBSWCHZH80A`,
+  Begünstigter «Raphael Jans AG In Gründung», Mitteilungstext «Kapitaleinzahlung» oder «Capital
+  contribution». Nach Einzahlung ist kein weiterer Kontakt mit der UBS nötig — die
+  Kapitalbescheinigung kommt automatisch per Einschreiben.
+  **AKTION P1:** Einzahlung auslösen (darf durch Claude nicht erfolgen; Kontoangaben stehen hier
+  nur, dass der Weg ohne erneutes Suchen offen ist).
+  **Notariat:** Entwurf der Gründungsurkunde und Anpassungsrequest («Firmenname JANS AG →
+  Raphael Jans AG, Word-Dateien») liegen weiterhin als unversandter Entwurf vom 18.07.08:50 bei
+  rj@. Notariatstermin ist nie vorgeschlagen worden; zu klären: kann die Beurkundung frühestens
+  ab ca. 05.09. erfolgen (2 AT nach Kapitalbescheinigung Anfang Sept., wenn Einzahlung heute/morgen
+  erfolgt)?
+  fristen.md nachgefuehrt vom Radar 25.08. 07:35.
   **Status-Mail an rj@ gesendet** (echte Phasenaenderung; Inhalt bewusst nicht das
   Radar-Referat, sondern der eine offene Schritt Notariat + die Terminrechnung).
 
