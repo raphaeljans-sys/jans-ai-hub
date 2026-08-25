@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 08:54:31
+Stand: 25.08.2026 09:04:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 25.08.2026 08:54:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e254733d3 nas-selfcommit: 2 Datei(en) 2026-08-25 08:45
+- 929deb4d9 WEGE: Sackgasse m365 outlook event list; Graph-Mailweg produktiv belegt; Vorfilter faellt mit Apple Mail aus
