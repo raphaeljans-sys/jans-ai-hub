@@ -2,6 +2,30 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-25 — Wissens-Chef Run 43: die RPV-Schwellen und fünf Frontmatter, die durch die eigene Aufsicht verrotteten
+
+- **`wiki/recht-norm-rechtsprechung-vg-zh.md`, nach Z. 200 (+16/−0):** Der Abschnitt «Art. 24c RPG»
+  führte die Kurzformel «Nutzflächenzunahme max. 30 %/100 m² gegenüber 1.7.1972, Art. 42 Abs. 3 RPV»
+  und lädt ausdrücklich zum Nachschlagen ein («bei Bedarf … hier nachschlagen»). Genau diesen
+  Destillationsfehler hat `baurecht` am 24.08.2026 (Buch-Run 140) an sich selbst korrigiert; die
+  Korrektur erreichte diese KB nicht. Gesetzt ist ein Nachtrag mit den **zwei getrennten Schwellen**
+  (lit. a innerhalb +60 % aBGF, seit 1.1.2026 mit Überschreitung bis 100 m² bei altrechtlicher
+  Erstwohnung; lit. b ausserhalb weder 30 % noch 100 m², Erweiterungen **innerhalb** nur halb
+  angerechnet), dazu zwei vom Melder nicht bemerkte Punkte: massgeblicher Vergleichszustand ist nach
+  **Art. 42 Abs. 2 RPV** der Zeitpunkt der Zuweisung zum Nichtbaugebiet (1.7.1972 gilt nur für
+  Art. 41 RPV), und die Wiederaufbau-Regel steht in **Art. 42 Abs. 4 RPV**, nicht in Art. 24c Abs. 2 RPG.
+  Am amtlichen Volltext `wissen/baurecht/raw/260824_amtlich_ch_rpv-art41-43a.md` selbst gegengelesen.
+  Führend bleibt `baurecht`; die Zeile ist Abgrenzungswissen.
+- **Fünf Frontmatter nachgezogen (je 1/1):** `energie-uebersicht.md` (07-30 → 08-24),
+  `energie-heizwaermebedarf-waermeerzeugerleistung.md` (07-25 → 08-24),
+  `energie-minergie-referenzprojekt-maison-climat.md` (07-13 → 08-21),
+  `energie-energienachweis-zh-formulare.md` (07-30 → 08-21), `brandschutz-pl03-wegweiser.md`
+  (08-23 → 08-24). Der bisherige Stand ist in jeder Zeile mitgeführt, keine Information geht verloren.
+  **Ursache ist die Aufsicht selbst:** die Wissens-Chef-Läufe 39/41/42 haben diese Artikel additiv
+  korrigiert und ihr `last_updated` nicht nachgezogen — die Frische-Anzeige der KB verrottete durch
+  die Läufe, die sie prüfen. **Arbeitsregel ab Run 43: wer einen fremden Wiki-Artikel additiv
+  korrigiert, zieht dessen `last_updated` im selben Lauf nach.**
+
 ## 2026-08-24 — Wissens-Chef Run 42: Brandschutz-Wegweiser-Sweep (erstmals ganzflaechig) + Energie-Editionen
 
 Erster systematischer Durchgang des gesamten Artikels `wiki/brandschutz-pl03-wegweiser.md`

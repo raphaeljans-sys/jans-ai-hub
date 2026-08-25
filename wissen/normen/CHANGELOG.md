@@ -1,3 +1,22 @@
+## 2026-08-25 — Wissens-Chef Run 43: Art. 229 StGB — derselbe Strafrahmen-Fehler, den `baurecht` an sich selbst korrigiert hat
+
+- **Zwei Rechtsstands-Vorbehalte gesetzt (je +12/−0):** `destillate/bfu-sicherheit-rechtliche-aspekte.md`
+  (nach Z. 109) und `destillate/bfu-sicherheit-im-wohnungsbau.md` (nach Z. 45) geben die bfu-Kurzinfo
+  von 02.2011 wieder, die für **beide** Tatbestände von Art. 229 StGB «bis zu drei Jahren» nennt.
+  Für den **vorsätzlichen** Fall trifft das nicht zu: **Abs. 1 bis fünf Jahre**, die drei Jahre gelten
+  für den **fahrlässigen Abs. 2**. Führende Fundstelle im Haus:
+  `wissen/baurecht/wiki/widerrechtliche-bauten-und-sanktionen.md` (Stand 1.1.2026 volltextverifiziert).
+  **Es ist derselbe Fehlertyp, den `baurecht` in Buch-Run 101 an sich selbst korrigiert hat** — der
+  Abs.-2-Wert wandert auf den praktisch massgeblicheren Vorsatzfall. Der Wert zur fahrlässigen
+  Missachtung bleibt richtig; die Kumulationspflicht wurde nicht nachgeprüft und weder bestätigt noch
+  verworfen. Der Refuter fand die zweite Fundstelle, die der Melder übersehen hatte: der dortige
+  `status`-Vorbehalt deckt nur **kantonales** Recht vor dem 1.1.2011 ab, Art. 229 StGB ist Bundesrecht.
+- **`wiki/INDEX.md` (+2/−0):** `synthese-sia-vkf-fachskills` (established seit 17.07.) und
+  `vkf-beherbergungskategorien` (established seit 25.07., zweifach adversarial geprüft) waren nie im
+  INDEX registriert und damit über den Skill `normen` nicht auffindbar. Beide nachgetragen. Der zweite
+  Artikel hat einen direkten Abnehmer: der Skill `brandschutz` nennt «Beherbergung a/b/c» wörtlich.
+  Gemessen mit `tools/wiki-konsistenz.sh`: von 8 Sachartikeln waren 6 registriert, jetzt 8.
+
 ## 2026-08-25 — Eingang aus KB `energie` (Run 163): Uf-Default-Werte im SIA-Merkblatt 2021 als Stand 2002 markiert
 
 Hinweis an `destillate/sia-mb-2021.md` (**Werte unveraendert gelassen**) und Eintrag in `wiki/QUESTIONS.md`: die dortigen

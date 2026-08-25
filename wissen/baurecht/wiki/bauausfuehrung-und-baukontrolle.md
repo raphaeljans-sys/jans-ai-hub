@@ -132,6 +132,21 @@ entsprechen und dürfen Personen/Sachen nicht gefährden (§ 239 Abs. 1 PBG; Bew
 VB.2016.00551). Behördenaufgabe im Bewilligungsverfahren (§ 3 BVV) und während der Bauarbeiten; primäre
 Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-ausfuehrung-teil2-baustellensicherheit]].
 
+- **Haftungsrechtliche Ebene zu § 239 Abs. 1/2 PBG (Zeiger-Nachtrag 25.08.2026, Wissens-Chef Run 43):**
+  Dieser Abschnitt deckt § 239 PBG aus der Bauausführungs-Perspektive von **Bd. 1 Kap. 8** ab. Die
+  materielle Ausdeutung der «anerkannten Regeln der Baukunde» und der Baumaterialien steht in
+  **Bd. 2 Kap. 13.3.2** und ist dort belegt: Verletzung strafbar nach **Art. 229 StGB**,
+  **Werkeigentümerhaftung Art. 58 OR** (BGE 91 II 208), «fachgerecht» = Stand der Technik
+  (§ 2 BVV I, § 3 Abs. 1 BBV I, § 360 PBG), Baumaterialien nach **Art. 3 Abs. 1/2 und Art. 4 BauPG**
+  in Verbindung mit **Art. 3 Abs. 1 PrSG** sowie Art. 28 USG und Art. 73 BV
+  (→ [[13-weitere-grundanforderungen-teil2]], Z. 35-36). Der Satz «primäre Verantwortung bleibt bei
+  Bauherr/Unternehmer/Planer» hat dort seine Rechtsgrundlage. Zum Strafrahmen von Art. 229 StGB gilt
+  die Fundstelle in [[widerrechtliche-bauten-und-sanktionen]] (Abs. 1 vorsätzlich bis 5 Jahre,
+  Abs. 2 fahrlässig bis 3 Jahre, Stand 1.1.2026 volltextverifiziert). Zum Zusammenspiel
+  Art. 363 OR / Art. 58 OR / PrHG führt die KB `normen` das Destillat
+  `bfu-sicherheit-rechtliche-aspekte.md` (bfu-Kurzinfo 02.2011) — nachrangige Fachpublikation,
+  **nicht** als Rechtsstand zitieren.
+
 - **Schutz benachbarten Grundeigentums (§ 239 Abs. 1 PBG):** Die Behörde kann zum Schutz Dritter
   eingreifen (VB.2016.00551). Bei riskanten Bauvorhaben wird vor Baubeginn ein **Rissprotokoll** des
   Nachbargebäudes aufgenommen — ein **privatrechtlicher Rechtsbehelf**; das Baurekursgericht ist dafür

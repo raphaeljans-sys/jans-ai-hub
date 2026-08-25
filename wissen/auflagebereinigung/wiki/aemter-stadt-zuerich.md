@@ -3,7 +3,7 @@ title: Ämter & Adressaten der Auflagen (Stadt Zürich)
 status: emerging
 last_updated: 2026-07-29
 sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH, PBG, BVV, BBV I, VKF-Brandschutzrichtlinien, Logbuch-Journal 24.07./25.07./27.07.2026 (KISPI Auflagebereinigung 1171/26 Lenggstrasse 30)]
-links: [[[fristenlogik-bauentscheid-zh]], [[auflagentypen-gewerkzuteilung]], [[brandschutz-auflagen-qss]], wissen/projekt-lessons/wiki/kispi-behoerden-zustaendigkeitswechsel-1171-26.md]
+links: [[fristenlogik-bauentscheid-zh]], [[auflagentypen-gewerkzuteilung]], [[brandschutz-auflagen-qss]], wissen/projekt-lessons/wiki/kispi-behoerden-zustaendigkeitswechsel-1171-26.md
 ---
 
 # Ämter & Adressaten der Auflagen (Stadt Zürich)

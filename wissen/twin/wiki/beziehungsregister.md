@@ -3181,3 +3181,8 @@ Anliegens schlägt den Routine-Default» — im Gegenteil, zwei weitere Belege f
 **Rückfall-Formulierung** in der Zeile Steinmann ist damit aber zu grob: gemessen fällt er nicht
 auf «Guten Tag», sondern steigt auf «Geschätzter». ⚠ Rule-Zeile **nicht selbst geändert**
 (Rückfragepflicht, Rule `wissens-bibliothekar`); vorgelegt als [[QUESTIONS]] 260825b #4.
+
+⚠ **Berichtigung 25.08.2026 (Wissens-Chef Run 43):** der Verweis eine Zeile darüber nennt
+«260825b #4»; die Steinmann-Frage steht in [[QUESTIONS]] als **260825b #3** (#4 ist die unverwandte
+Frage «Geschätzte Firma <Name> AG» zu Firmen-Sammeladressen). Wer dem alten Zeiger folgt, landet
+beim falschen Punkt.

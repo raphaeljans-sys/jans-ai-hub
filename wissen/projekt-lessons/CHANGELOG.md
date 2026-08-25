@@ -3,6 +3,15 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-25 — Wissens-Chef Run 43: Notation angeglichen, KB wieder befundfrei
+
+`wiki/kispi-behoerden-zustaendigkeitswechsel-1171-26.md` Z. 6 (1/1, Zeilenzahl 112/112): die
+`links:`-Zeile schrieb `links: [[[sbb-naeherbaurecht-thalwil-2414-vordach]], …]` mit zusätzlicher
+YAML-Listenklammer, wodurch `tools/wiki-konsistenz.sh` den Link als tot meldete. Der Zielartikel
+`wiki/sbb-naeherbaurecht-thalwil-2414-vordach.md` existiert. Gleicher Fall wie in
+`wissen/auflagebereinigung` — beide Dateien verweisen zudem aufeinander, die Cross-KB-Kante war
+für das Werkzeug also unsichtbar. Die KB meldet jetzt keine Befunde mehr.
+
 ## 2026-08-24 (fünfzehnte Fortsetzung) — Zehnter Folgeauftrag: stale Trigger nicht nur dokumentiert, sondern an der Quelle behoben
 
 - **Getan:** Zehnter Fortsetzungsauftrag in Folge. Anders als von der vierzehnten

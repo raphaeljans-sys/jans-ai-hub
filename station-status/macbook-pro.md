@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.08.2026 23:06:46
+Stand: 25.08.2026 23:27:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/activity/display/performance/386804  (letzte Aktivitaet 23:00)
@@ -13,4 +13,4 @@ Stand: 25.08.2026 23:06:46
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- f89dc1051 logbuch/fristen: zwei Datenstands-Termine aus Energie-Run 163 (ewz-Tarifwechsel 2027, Agro Energie SZ 30.09.2026) + Hinweis abgeloeste Uf-Werte
+- 9162d73b8 nas-selfcommit: 2 Datei(en) 2026-08-25 23:15

@@ -1,7 +1,7 @@
 ---
 title: Energie — Übersicht (PV, U-Wert, Energienachweis)
 status: established
-last_updated: 2026-07-30
+last_updated: 2026-08-24 (Wissens-Chef Runs 41/42 und Entwertungs-Sweep, 24.08.2026; Frontmatter nachgezogen Run 43 — Stand davor 2026-07-30)
 sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html (12.06.2026), SIA 380/1, "CLT by Stora Enso — Technical documentation Building physics" (Version 06.2021, PL-04/U Wert berechnung/clt, S.6-11 vollständig Run 25+56), realer JANS-Fall Biwak Grassen U-Wert-Optimierung (PL-04/U Wert berechnung/Grassen Biwak, Run 25), PL-04/_Betriebsenergie/IMG_3525-3538 (Fallbeispiel-Screenshots, ungeklärte Primärquelle, erneut vollständig gelesen Run 56), zh.ch/planen-bauen/bauvorschriften-gebaeude-energie + zh.ch/umwelt-tiere/klima/langfristige-klimastrategie (Massnahmen GE01-GE05) + hev-zh.ch/muken + espazium.ch (Refresh 14.07.2026, Run 38)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]], [[energie-private-kontrolle-zh]], [[energie-baueingabe-zusatzformulare]], [[energie-minergie-referenzprojekt-maison-climat]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]]
 ---

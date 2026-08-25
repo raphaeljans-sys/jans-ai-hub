@@ -43,6 +43,18 @@ Diese Dokumentation ist entgegen ihrem allgemeinen Titel KEIN bauteilbezogener A
 - **Verwaltungsrecht**: Im Bewilligungsverfahren bildet die Erfüllung einer technischen Norm oft Bewilligungsvoraussetzung bzw. Auflage.
 - **Haftpflichtrecht**: Die Einhaltung einer technischen Norm begründet im Schweizer Recht in der Regel die tatsächliche Vermutung, dass der Stand der Technik eingehalten ist — und damit wiederum die Vermutung eines den haftungsrechtlichen Sorgfaltspflichten genügenden Verhaltens (relevant insbesondere für die Werkeigentümerhaftung nach Art. 58 OR).
 - **Strafrecht**: Art. 229 StGB (Baugefährdung) — Freiheitsstrafe bis zu 3 Jahren oder Geldstrafe für, wer vorsätzlich bei der Leitung oder Ausführung eines Bauwerks oder eines Abbruchs die anerkannten Regeln der Baukunde ausser Acht lässt und dadurch wissentlich Leib und Leben von Mitmenschen gefährdet; bei fahrlässigem Ausserachtlassen ebenfalls Freiheitsstrafe bis 3 Jahre oder Geldstrafe. **Bei der vorsätzlichen Tatbegehung ist die Geldstrafe zwingend mit der Freiheitsstrafe zu verbinden** («Mit Freiheitsstrafe ist eine Geldstrafe zu verbinden», S. 18) — also kumulativ, nicht alternativ; diese Kumulationspflicht fehlte in einer Vorfassung (Refuter-Korrektur 260730 Runde 1).
+
+  ⚠ **Rechtsstand-Vorbehalt zum Strafrahmen (Vermerk 25.08.2026, Wissens-Chef Run 43, nicht Teil der
+  Quelle):** Die bfu-Kurzinfo stammt von Februar 2011 und trägt für **beide** Tatbestände «bis zu drei
+  Jahren». Das trifft für den **vorsätzlichen** Fall nicht zu: **Art. 229 Abs. 1 StGB** droht
+  Freiheitsstrafe **bis zu fünf Jahren** oder Geldstrafe an; die drei Jahre gelten für den
+  **fahrlässigen** Tatbestand **Abs. 2**. Führende Fundstelle im Haus:
+  `wissen/baurecht/wiki/widerrechtliche-bauten-und-sanktionen.md` (Stand 1.1.2026 volltextverifiziert).
+  **Es ist derselbe Fehler, den `baurecht` in Buch-Run 101 an sich selbst korrigiert hat** — der
+  Abs.-2-Wert wird auf den praktisch massgeblicheren Vorsatzfall Abs. 1 übertragen. Der Wert des
+  Bullets zur fahrlässigen Missachtung bleibt richtig. Die Kumulationspflicht (Geldstrafe zusätzlich
+  zur Freiheitsstrafe) ist hier nicht nachgeprüft und wird weder bestätigt noch verworfen. Für die
+  Risikoaufklärung gegenüber Bauherrschaft oder Planern nicht diese Zeile zitieren, sondern `baurecht`.
 - **Drei Gerichtsfälle als Beleg (S.31):**
   - Unveröffentlichtes Bundesgerichtsurteil vom 19.6.1984: Architekt und Hauseigentümerin wurden unter anderem wegen Nichteinhaltens der (damals noch als Empfehlung geltenden) SIA 358 zu Schadenersatz und Genugtuung verurteilt; das Bundesgericht hielt fest, dass Fachverbands-Empfehlungen als Ausdruck der üblicherweise zu beachtenden Sorgfalt gelten.
   - BGE 120 IV 300 (1994): Bei fehlender gesetzlicher Regel kann sich die Sorgfaltspflicht aus allgemein anerkannten Rechtsgrundsätzen, Verhaltensregeln und Verkehrsnormen ergeben — auch aus solchen, die von privaten oder halböffentlichen Verbänden erlassen wurden.

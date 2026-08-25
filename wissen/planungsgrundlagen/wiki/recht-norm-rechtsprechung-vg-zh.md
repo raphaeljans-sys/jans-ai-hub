@@ -199,6 +199,22 @@ als Abgrenzungswissen relevant — kein eigener Artikel, da kein realer Anwendun
 Bedarf (Umnutzung eines Bestandsbaus ausserhalb Bauzone) hier nachschlagen oder Skill `baurecht`
 konsultieren.
 
+⚠ **Nachtrag 25.08.2026 (Wissens-Chef Run 43): die Kurzformel «max. 30 %/100 m²» oben ist
+unvollständig — für die Schwellenwerte nicht hier zitieren, sondern in `wissen/baurecht`
+nachschlagen.** Art. 42 Abs. 3 RPV kennt **zwei getrennte Schwellen**: **lit. a innerhalb** des
+bestehenden Gebäudevolumens darf die anrechenbare Bruttogeschossfläche um **nicht mehr als
+60 %** erweitert werden (seit 1.1.2026 mit Überschreitungsmöglichkeit bis 100 m² aBGF bei
+altrechtlicher Erstwohnung, V vom 15.10.2025, AS 2025 659); **lit. b ausserhalb** des Volumens,
+und nur unter den Voraussetzungen von Art. 24c Abs. 4 RPG, darf die gesamte Erweiterung **weder
+30 % noch 100 m²** überschreiten, wobei **die Erweiterungen innerhalb des Volumens nur halb
+angerechnet** werden. Zweitens: massgeblicher Vergleichszustand ist nach **Art. 42 Abs. 2 RPV**
+der Zustand im **Zeitpunkt der Zuweisung zum Nichtbaugebiet**; der Stichtag **1.7.1972** gilt nur
+für altrechtliche Bauten nach Art. 41 RPV, nicht als starrer Referenzzustand. Drittens: die
+Wiederaufbau-Voraussetzungen stehen in **Art. 42 Abs. 4 RPV**, nicht in Art. 24c Abs. 2 RPG.
+Beleg: amtlicher Volltext `wissen/baurecht/raw/260824_amtlich_ch_rpv-art41-43a.md` (RPV SR 700.1,
+Fedlex ELI cc/2000/310, Stand 1.1.2026), destilliert in `wissen/baurecht` Buch-Run 140
+(24.08.2026). Führend für RPG/RPV ist **baurecht**, diese Zeile bleibt Abgrenzungswissen.
+
 ## Nutzung im JANS-Workflow
 
 - **[[recht-norm-dispensrecht]]:** verlinkt hierher für die konkrete Rechtsprechungs-Tiefe zu § 357

@@ -4,6 +4,24 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-25 — Wissens-Chef Run 43: ein Zeiger, der auf die falsche Frage zeigte
+
+`wiki/beziehungsregister.md` nach Z. 3183 (+5/−0): die Steinmann-Gegenprobe des Fidelity-Laufs
+schloss mit «vorgelegt als [[QUESTIONS]] 260825b #4»; die Steinmann-Frage steht dort als **#3**,
+#4 ist die unverwandte Frage «Geschätzte Firma <Name> AG» zu Firmen-Sammeladressen. Berichtigung
+additiv gesetzt, der ursprüngliche Satz bleibt stehen.
+
+Der zugehörige Melder-Befund «die Rule-Zeile Steinmann trägt keinen Verweis auf die offene
+Twin-Frage» wurde vom Refuter **widerlegt**: die Kante existiert dreifach (QUESTIONS 260825b #3
+mit wörtlichem Zeilenzitat, `beziehungsregister.md` mit ⚠-Vermerk, CHANGELOG-Zeile). Der einzige
+echte Defekt war die falsche Nummer.
+
+**Offen und Raphael vorgelegt:** der ⚠-Vermerk an der Steinmann-Zeile in `rules/anrede-kontakte.md`
+(Rückfall auf «Guten Tag» ist nur für die **Mahnung** belegt, nicht für Geldkontext allgemein —
+drei neuere Belege messen «Geschätzter Roman»). Der Schreibzugriff auf die Rule wurde vom
+Auto-Mode-Klassifikator zurückgehalten; der fertige Wortlaut steht im Laufbericht
+`wissen/koordination/outputs/2026-08-25_wissens-chef-run43.md`. Der Regelwortlaut ist unverändert.
+
 ## 2026-08-25 — Fidelity-Review: der Gruss folgt der Begegnung, die Bitte hat eine fünfte Form
 
 Report `outputs/2026-08-25_fidelity.md`. **Kein Datumsfenster, sondern Thread-Rückgriff** auf den

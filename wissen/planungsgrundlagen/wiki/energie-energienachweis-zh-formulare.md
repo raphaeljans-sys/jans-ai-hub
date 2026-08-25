@@ -1,7 +1,7 @@
 ---
 title: Energienachweis Kt. ZH — Fachformular-Liste (EN-ZH) & EVEN-Plattform
 status: established
-last_updated: 2026-07-30
+last_updated: 2026-08-21 (Textstand 21.08.2026; Frontmatter nachgezogen Wissens-Chef Run 43, 25.08.2026 — Stand davor 2026-07-30)
 sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Juli 2022 / EN-105.pdf Version August 2017 / EN-110-ZH.pdf Version September 2022), PL - 04 Energie/Solaranlage/EN104/26_EN-104.pdf (EnDK Version Juni 2019), www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html (abgerufen 12.06.2026), energievollzug.ch (EVEN), endk.ch + energiehub-gebäude.ch (MuKEn 2025, abgerufen 18.06.2026 + Refresh 13.07.2026), hev-zh.ch/energie-zentralschweiz.ch (Refresh 13.07.2026), EnerG/BBV I/WDV ZH, zh.ch/planen-bauen/bauvorschriften-gebaeude-energie + zh.ch/umwelt-tiere/klima/langfristige-klimastrategie + hev-zh.ch/politik/energie-umwelt/muken + aeesuisse.ch (Refresh 14.07.2026, Run 38), wissen/baurecht/raw/260712_amtlich_zh_energ.md (§ 10c-Verifikation, Run 53), stadt-zürich.ch (§ 49b PBG-Korrektur, Run 53, 2026-07-19)]
 links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]], [[energie-private-kontrolle-zh]]
 ---

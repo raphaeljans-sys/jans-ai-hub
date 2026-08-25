@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-25 — Wissens-Chef Run 43: die drei Audit-Befunde waren alle drei Werkzeug-Artefakte
+
+Der `wissenscheck` meldete am 01.08., 03.08. und 25.08. denselben «toten Backlink
+`[[[fristenlogik-bauentscheid-zh]]` in `aemter-stadt-zuerich.md`» und ein «Frontmatter ohne
+sources:». **Beide Befunde waren keine inhaltlichen Mängel:**
+
+- Der Zielartikel `wiki/fristenlogik-bauentscheid-zh.md` existiert seit je. Die `links:`-Zeile
+  schrieb die Wiki-Links in eine zusätzliche YAML-Listenklammer (`links: [[[a]], [[b]], pfad]`),
+  wodurch `tools/wiki-konsistenz.sh` `[[[fristenlogik-bauentscheid-zh]]` als Linknamen las. Hubweit
+  schreiben 65 Artikel die Form ohne äussere Klammer; nur zwei Dateien wichen ab. Notation angeglichen
+  (1/1, Zeilenzahl 71/71).
+- `wiki/gvz-einreichung-bma-sprinkler.md` trug seine drei GVZ-Weisungen unter dem Schlüssel
+  `quellen:` statt `sources:`. Die Quellen waren also vollständig da, nur unter dem falschen
+  Feldnamen (hubweit: 296 Dateien `sources:`, 3 `quellen:`). Schlüssel angeglichen (1/1, 105/105),
+  Inhalt unverändert.
+
+Die KB ist damit erstmals seit dem 01.08. befundfrei (`tools/wiki-konsistenz.sh auflagebereinigung`).
+**Lehre für die Aufsicht: ein Befund, der dreimal unverändert wiederkehrt, ist zuerst am Werkzeug zu
+prüfen, nicht an der KB.** Phase 2 des `wissenscheck` läuft nur interaktiv — die Befunde lagen darum
+drei Wochen, obwohl beide in zwei Minuten behebbar waren.
+
 ## 2026-08-25 (Nachtschicht Mac Mini, Wissenscheck Phase 1) — A0 · B2 · C1 · D0 · E0 · F2 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-25_health-check.md`. Prioritaet 6 gewaehlt,

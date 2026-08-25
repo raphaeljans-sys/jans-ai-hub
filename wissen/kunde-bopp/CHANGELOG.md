@@ -2,6 +2,15 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-25 — Wissens-Chef Run 43: Vorwärtsreferenz als solche gekennzeichnet
+
+`wiki/profil-christoph-bopp.md` Z. 48 (1/1, Zeilenzahl 82/82): «Siehe [[auftrags-muster-bopp]].»
+las sich wie ein Verweis auf einen vorhandenen Artikel; der Artikel ist geplant, aber nicht
+geschrieben (INDEX Z. 13/16 und die `links:`-Zeile kennzeichnen ihn korrekt als *(geplant)*).
+Zusatz gesetzt: «(geplant, noch nicht ausformuliert — der Inhalt steht bis dahin hier)».
+Kein toter Link, sondern eine bewusste Vorwärtsreferenz; der `wiki-konsistenz.sh`-Treffer dazu ist
+ein Fehlalarm derselben Familie wie in `auflagebereinigung`.
+
 ## 2026-08-24 — Wissens-Chef Run 42: Giebelweg-12-Baumassenreserve in QUESTIONS.md berichtigt
 
 `wiki/QUESTIONS.md` fuehrte in der **«beantwortet»-Sektion** den Stand «volle Attika

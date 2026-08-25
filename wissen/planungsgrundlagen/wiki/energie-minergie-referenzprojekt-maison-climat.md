@@ -1,7 +1,7 @@
 ---
 title: Minergie-Referenzprojekt "Maison Climat" Biel (Holzbau, Minergie-A)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-21 (Rückkante, Wissens-Chef Run 39; Frontmatter nachgezogen Wissens-Chef Run 43, 25.08.2026 — Stand davor 2026-07-13)
 sources: [wissen.minergie.ch, Projektseite "Maison Climat" (PL-04/wissen.minergie.ch/Maison_Climat/Beschreibung.docx, Grundrisse 0_EG/1_2_OG/3_OG.pdf, Detail-/Treppen-PDF AN_Treppe.pdf, Bildschirmfoto 2023-09-28), PL - 04 Energie/wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Fallstudie_Nachweiskurs-230925-172638.pdf (Minergie Nachweiskurs 2023, "Fallstudie Maison Climat", 25.09.2023, Run 29 2026-07-13)]
 links: [[energie-uebersicht]], [[minergie-standards]], [[energie-heizwaermebedarf-waermeerzeugerleistung]], [[energie-private-kontrolle-zh]]
 ---

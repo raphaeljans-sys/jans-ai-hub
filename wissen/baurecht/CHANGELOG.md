@@ -3,6 +3,20 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-25 — Wissens-Chef Run 43: § 239 PBG zeigt jetzt auf seine eigene Faktenbasis in Bd. 2
+
+`wiki/bauausfuehrung-und-baukontrolle.md`, Abschnitt 6 «Sicherheit der Baustelle (§ 239 PBG)»,
+Zeiger-Nachtrag nach Z. 133 (+15/−0). Der Abschnitt deckte § 239 PBG nur aus der
+Bauausführungs-Perspektive von Bd. 1 Kap. 8 ab; der Satz «primäre Verantwortung bleibt bei
+Bauherr/Unternehmer/Planer» stand ohne jeden haftungsrechtlichen Beleg, und die einzige
+«229»-Fundstelle im Artikel war «§§ 229 ff. PBG» (Hammerschlagsrecht), eine andere Norm.
+**Die Faktenbasis lag die ganze Zeit in derselben KB:** `buecher/band-2/13-weitere-grundanforderungen-teil2.md`
+Z. 35-36 führt Art. 229 StGB, Werkeigentümerhaftung Art. 58 OR (BGE 91 II 208), BauPG Art. 3/4,
+Art. 3 Abs. 1 PrSG, Art. 28 USG und Art. 73 BV. Der Melder hatte diese Belege als «in baurecht gar
+nicht vorhanden» gemeldet und einen Verweis auf ein `speculative` normen-Destillat vorgeschlagen —
+der Refuter hat beides widerlegt und den Zeiger auf die eigene, stärkere Quelle gedreht
+(Bd.-2-Destillat mit BGE statt bfu-Kurzinfo von 2011).
+
 ## 2026-08-24 — Buch-Run 140: die Wiederaufbau-Regel steht in Art. 42 Abs. 4 RPV, nicht im RPG — dazu zwei vertauschte Schwellenwerte im Bestandesrecht ausserhalb der Bauzone
 
 Buch-Run 137 hatte die Aussage «Art. 24c Abs. 2 RPG lässt den Wiederaufbau auch bei freiwilligem

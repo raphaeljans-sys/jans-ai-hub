@@ -107,6 +107,18 @@ Materialverwendung) — Art. 363 des Schweizerischen Obligationenrechts (OR) (S.
   Strafgesetzbuchs, StGB) (S. 2).
 - **Vorsätzliche** Missachtung: Freiheitsstrafe bis zu drei Jahren oder Geldstrafe; mit
   der Freiheitsstrafe ist zusätzlich eine Geldstrafe zu verbinden (S. 2).
+
+  ⚠ **Rechtsstand-Vorbehalt zum Strafrahmen (Vermerk 25.08.2026, Wissens-Chef Run 43, nicht Teil der
+  Quelle):** Die bfu-Kurzinfo stammt von Februar 2011 und trägt für **beide** Tatbestände «bis zu drei
+  Jahren». Das trifft für den **vorsätzlichen** Fall nicht zu: **Art. 229 Abs. 1 StGB** droht
+  Freiheitsstrafe **bis zu fünf Jahren** oder Geldstrafe an; die drei Jahre gelten für den
+  **fahrlässigen** Tatbestand **Abs. 2**. Führende Fundstelle im Haus:
+  `wissen/baurecht/wiki/widerrechtliche-bauten-und-sanktionen.md` (Stand 1.1.2026 volltextverifiziert).
+  **Es ist derselbe Fehler, den `baurecht` in Buch-Run 101 an sich selbst korrigiert hat** — der
+  Abs.-2-Wert wird auf den praktisch massgeblicheren Vorsatzfall Abs. 1 übertragen. Der Wert des
+  Bullets zur fahrlässigen Missachtung bleibt richtig. Die Kumulationspflicht (Geldstrafe zusätzlich
+  zur Freiheitsstrafe) ist hier nicht nachgeprüft und wird weder bestätigt noch verworfen. Für die
+  Risikoaufklärung gegenüber Bauherrschaft oder Planern nicht diese Zeile zitieren, sondern `baurecht`.
 - **Fahrlässige** Missachtung: Sanktion Freiheitsstrafe bis zu drei Jahren oder Geldstrafe
   (S. 2).
 - Werden Personen nicht nur gefährdet, sondern auch verletzt oder getötet, können

@@ -45,7 +45,7 @@ als weitere Organe. Quelle: `outputs/2026-07-21_drittes-kmu-mandat.md`.
 
 ## Typische Auftragsarten → JANS-Skill
 
-Siehe [[auftrags-muster-bopp]]. Drei wiederkehrende Cluster:
+Siehe [[auftrags-muster-bopp]] (geplant, noch nicht ausformuliert — der Inhalt steht bis dahin hier). Drei wiederkehrende Cluster:
 
 1. **Stockwerkeigentum (STWEG)** — Begründung, Wertquoten, Aufteilungsplan, Reglement →
    Skill `stockwerkeigentum`. Sein **häufigstes** Thema (Ebmatingen 113/115: Notariatstermin

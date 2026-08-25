@@ -2,7 +2,7 @@
 title: "GVZ-Einreichungsweg für Brandmelde- und Sprinkleranlagen (Kt. Zürich)"
 status: established
 last_updated: 2026-07-20
-quellen:
+sources:
   - "GVZ-Weisung 20.07 «Brandmeldeanlagen», 1. Januar 2015 (gvz.ch/_file/271, Volltext gelesen 20.07.2026)"
   - "GVZ-Weisung 20.08 «Sprinkleranlagen», Stand 2015 (gvz.ch/_file/272, Kap. 5–7 gelesen 20.07.2026)"
   - "GVZ-Weisung 30.25 «Alarmuebertragung von Brandmelde- und Sprinkleranlagen» (nur referenziert)"

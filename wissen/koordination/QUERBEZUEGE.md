@@ -61,6 +61,8 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Zuercher Index der Wohnbaupreise (ZIW): Indexstand, Stuetzstellen und Umrechnungsfaktoren** | **grobkosten** (`wiki/kennwerte`, Abschnitt «Baupreisindex ZH») — fuehrt seit Run 16 (17.08.2026) den Stand **01.10.2025 = 116.1 Punkte**, direkt an der **Primaerquelle** Stadt Zuerich verifiziert statt ueber die HEV-SZ-Reproduktion | `immobilienbewertung` (`realwert-sachwert`) verweist dorthin und pflegt die Reihe nicht mehr parallel — NEU Run 35. Sie hing einen Publikationsschritt zurueck (01.04.2025 = 1210.4). **Nicht zu verwechseln** mit dem **BFS-Baupreisindex** (andere Basis, andere Methodik, andere Region): der ist in beiden KBs deckungsgleich (April 2026 = 100.6, Basis Okt-2025) und wird nirgends mit dem ZIW verrechnet — beide KBs tragen die Verwechslungswarnung bereits selbst. Die Tab.-2-Richtwerte in `realwert-sachwert` bleiben auf dem Faktor 1.346 gerechnet; die Umstellung verschoebe sie um ~0,3 % und gehoert in die regulaere Ueberarbeitung |
 | **Mehrfach-Destillation derselben Quell-PDF ueber KB-Grenzen** (gemessen auf Dateiebene, nur `wiki/`+`destillate/`+`buecher/`) | **kein einzelner Fuehrender — es ist eine Messgroesse.** Run 35 (17.08.2026): 33 Quell-PDF von ≥2 KBs destilliert, 38 KB-uebergreifende Paare, davon **2 verdrahtet, 36 nicht**. Cluster: pg↔normen 18 · pg↔energie 11 · energie↔normen 4 · immobilienbewertung↔normen 2 · baurecht↔normen 1 | **Regel:** wer aus einem Ordner destilliert, der bereits von einer anderen KB bedient wird, prueft zuerst deren Bestand und setzt die Kante in beide Richtungen. **Zwei Vorbehalte, ohne die die Zahl luegt:** (1) gemessen ist die Kante auf **Dokument**ebene — mehrere Artikel sind auf **KB**-Ebene sehr wohl verdrahtet (z.B. `energie-heizwaermebedarf-waermeerzeugerleistung` nennt die KB `energie` zweimal als fuehrend); der scharfe Fall ist `recht-norm-arbeitshilfen-planungsdetails` mit **null** Verweisen bei drei Doppel-Destillaten. (2) **Doppelbewirtschaftung ist nicht per se falsch** — falsch ist nur, sie nicht aufzuschreiben. Die Messung findet die Stellen; die Lektuere entscheidet. Abarbeitung clusterweise, ein Cluster je Lauf — NEU Run 35 |
 | **Mehrwertabgabe ZH: Satz, Ausloeser und Erhebungsvoraussetzung** (kant. MAG LS 700.9 §§ 2/4, kommunal § 19) | **baurecht** (`wiki/enteignung-und-entschaedigung.md`, Volltext-verifiziert 23.08.2026, Buch-Run 98: kantonal **fix 20 %**, nur Einzonung oder Umzonung-in-Zone-fuer-oeffentliche-Bauten; kommunal **bis 40 %** des um Fr. 100'000 gekuerzten Mehrwerts, nur bei Auf-/Umzonung und nur mit eigenem Gemeindereglement, Flaechenschwelle 1'200-2'000 m²) | `immobilienbewertung` (`wiki/residualwertmethode.md`) fuehrte bislang nur die generische Wuest-Kurs-Angabe «20-40 % Ermessen der Gemeinde» ohne Kanton-/Ausloeser-Unterscheidung — kein Sachwiderspruch (die Bandbreite deckt die ZH-Zahlen zufaellig ab), aber eine Praezisions-Luecke mit Rechenfolge: die beiden Saetze koennen nebeneinander, nur einer oder gar keiner greifen, je nach Zonierungsart. `machbarkeit`/`agents/wirtschaftlichkeit-rechner.md` (Residualwert-Motor Typ B) fuehren Mehrwertabgabe **gar nicht** — ungeprueft, ob das im Scope liegt (meist Ausnuetzung im Rahmen der geltenden Zone, nicht Um-/Aufzonung) — NEU 24.08.2026 (`wissen/koordination`, interaktive Pruefung, kein Scheduled Run). Querbezug in `residualwertmethode.md` gesetzt (additiv); `wirtschaftlichkeit-rechner` bewusst nicht angefasst, da Scope-Frage ungeklaert |
+| Bauten ausserhalb der Bauzone (RPG Art. 24c/37a, RPV Art. 41-43a) | **baurecht** | planungsgrundlagen (fuehrt nur Abgrenzungswissen, verweist fuer die Schwellen) |
+| Strafrahmen Art. 229 StGB (Baugefaehrdung) | **baurecht** | normen (bfu-Kurzinfo 02.2011, nachrangig, mit Rechtsstands-Vorbehalt) |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
 > korrekt, dass eine andere KB nachziehen muss, notiert den Flag aber NUR bei sich. Zwei Fundorte
@@ -171,6 +173,76 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **U-Wert-Rechenwege und Bauteilaufbauten aus Fremd-/KI-Dokumenten** (Pruefung, Methodenfehler, Warnkarten) | **energie** (`destillate/ki-generierte-fachdokumente-referenzablage`, `wiki/u-werte-grenzwerte-ch` §«vier Griffe», FAQ F257) | `planungsgrundlagen` (`energie-uebersicht`) fuehrte den Fall Grassen-Biwak bis Run 41 als **Benchmark** und traegt seit 24.08.2026 den Ueberholt-Vermerk. **Merksatz aus dem Fall:** ein plausibles Ergebnis ist kein Beleg fuer eine richtige Rechnung — drei Methodenfehler hoben sich fast auf — NEU Run 41 |
 
 ## Gepruefte Paare
+
+### baurecht → planungsgrundlagen (RPV-Schwellen ausserhalb Bauzone) — geprueft 2026-08-25 (Run 43)
+
+**Entwertungs-Nachverfolgung, bestaetigt und gesetzt.** `baurecht` hat am 24.08. (Buch-Run 140) die
+Formel «max. 30 %/100 m², Erweiterungen ausserhalb nur halb angerechnet» als Destillationsfehler
+korrigiert. `planungsgrundlagen/wiki/recht-norm-rechtsprechung-vg-zh.md` Z. 195-196 fuehrte sie
+unveraendert — und lud ausdruecklich zum Nachschlagen an dieser Stelle ein. Nachtrag gesetzt
+(+16/−0) mit beiden Schwellen (lit. a innen +60 %, lit. b aussen weder 30 % noch 100 m², innen halb
+angerechnet), dem Vergleichszustand nach Art. 42 Abs. 2 RPV und der Wiederaufbau-Fundstelle
+Art. 42 Abs. 4 RPV. Am amtlichen Volltext gegengelesen. **Der Refuter fand zwei Punkte, die der
+Melder nicht hatte** (Vergleichszustand, Fassungsstand 1.1.2026). Vollstaendigkeit innerhalb
+`baurecht` geprueft: dort ist die Korrektur durchgezogen, kein Rest-Vorkommen.
+Fuehrend fuer RPG/RPV bleibt **baurecht** — Matrixzeile ergaenzt.
+
+### energie → Hub (Uf-Fenster-Werte, Entwertung Run 163) — geprueft 2026-08-25 (Run 43), NULLBEFUND
+
+Die am 25.08. von `energie` belegte Abloesung der BFE-2002-Fallback-Tabelle (1,9/2,5/3,3 → 1,8/2,2/2,8
+per «Merkblatt Fenster» 805.107.d, 08.2009) ist **nicht in den Hub gesickert**. Geprueft:
+`planungsgrundlagen/wiki/` vollstaendig, `normen/wiki/` + rund 300 Destillate, `baurecht/wiki/`,
+`skills/energie`, `skills/planungsgrundlagen`, `skills/kostenschaetzung`, `references/`. Einziger
+Fund ausserhalb `energie` ist `normen/destillate/sia-mb-2021.md` Z. 35 — und der traegt den Vermerk
+bereits, gesetzt von `normen` am selben Tag. **Gegenprobe zum Run-41-Befund**, wo die Entwertung den
+Abnehmer nicht erreichte: hier hat die Bringschuld nach Rule `wissens-bibliothekar` funktioniert.
+
+### normen ↔ baurecht (Art. 229 StGB, bfu-Destillate) — geprueft 2026-08-25 (Run 43)
+
+Rotationspunkt aus Run 21 (bfu-Destillate) eingeloest. **Bestaetigt:** beide bfu-Destillate geben den
+Strafrahmen von Art. 229 StGB mit «bis zu drei Jahren» fuer **beide** Tatbestaende wieder; richtig ist
+Abs. 1 vorsaetzlich bis fuenf Jahre, Abs. 2 fahrlaessig bis drei. **Es ist derselbe Fehler, den
+`baurecht` in Buch-Run 101 an sich selbst korrigiert hat.** Vorbehalte an beiden Stellen gesetzt
+(je +12/−0), Werte unveraendert. Fuehrend fuer den Strafrahmen ist **baurecht**
+(`wiki/widerrechtliche-bauten-und-sanktionen.md`, Stand 1.1.2026 volltextverifiziert), die
+bfu-Kurzinfo 02.2011 ist nachrangige Fachpublikation. Zweitens: `baurecht/wiki/bauausfuehrung-und-baukontrolle.md`
+Abschnitt 6 zeigte nicht auf seine eigene Faktenbasis in Bd. 2 Kap. 13.3.2 — Zeiger gesetzt (+15/−0).
+**Der Refuter hat den Zielort gedreht:** der Melder wollte auf ein `speculative` normen-Destillat
+verweisen, waehrend Art. 58 OR, Art. 229 StGB, BauPG und PrSG samt BGE 91 II 208 in derselben KB
+belegt liegen.
+
+### twin ↔ rules/anrede-kontakte — geprueft 2026-08-25 (Run 43), teils widerlegt
+
+**Bestaetigt:** die Rueckfall-Halbzeile der Steinmann-Registerzeile («faellt bei Mahn-/Geldkontext auf
+«Guten Tag» zurueck») ist durch drei neuere Belege eingegrenzt — 17.07., 29.07. und 24.08.2026 messen
+im Geldkontext dreimal «Geschaetzter Roman», also die Stufe *hinauf*. Der einzige Beleg fuer den
+Rueckfall ist eine **Mahnung** (19.03.2026); «Geld» ist nicht gleich «Mahnung». Der Vermerk an der
+Rule-Zeile wurde vom **Auto-Mode-Klassifikator zurueckgehalten** und liegt als fertiger Wortlaut im
+Laufbericht — nicht umgangen (Rule `wege-und-vollmachten`). **Widerlegt:** der zweite Melder-Befund
+(«die Rule-Zeile traegt keinen Verweis auf die offene Twin-Frage») — die Kante existiert dreifach.
+Echter Nebenfund des Refuters: der Rueckverweis in `twin/wiki/beziehungsregister.md` Z. 3183 nannte
+QUESTIONS «260825b #4» statt **#3**; berichtigt (+5/−0).
+
+### QUESTIONS-«beantwortet»-Sektionen (8 KBs) — geprueft 2026-08-25 (Run 43), NULLBEFUND
+
+Uebergabepunkt 3 aus Run 42 (Fehlertyp «falsche Zahl in der beantwortet-Sektion», Anlass Giebelweg
+8 m³ statt 105 m³). Geprueft in `planungsgrundlagen`, `energie`, `normen`, `baurecht`,
+`immobilienbewertung`, `grobkosten`, `auflagebereinigung`, `spec`: kein zweiter Fall gefunden. Der
+Giebelweg-Fall bleibt bis auf Weiteres ein Einzelfall, kein Muster — der Sweep muss nicht wiederholt
+werden, solange keine neue Teil-Nachfuehrung (Artikel ja, QUESTIONS nein) protokolliert wird.
+
+### Werkzeug-Fehlalarme im Wissens-Layer (auflagebereinigung, projekt-lessons, kunde-bopp, immobilienbewertung) — geprueft 2026-08-25 (Run 43)
+
+Kein Cross-KB-Widerspruch, sondern ein Messfehler mit drei Wochen Standzeit. Der `wissenscheck`
+meldete in `auflagebereinigung` am 01.08., 03.08. und 25.08. denselben «toten Backlink» — der
+Zielartikel existierte die ganze Zeit. Ursache: zwei Dateien schrieben die `links:`-Zeile mit
+zusaetzlicher YAML-Listenklammer (`links: [[[a]], …]`), die `tools/wiki-konsistenz.sh` als Teil des
+Linknamens liest (hubweit 65 Artikel ohne, 2 mit). Angeglichen (je 1/1), beide KBs jetzt befundfrei.
+Ebenso: `quellen:` statt `sources:` in einem Frontmatter (hubweit 296 zu 3) — die Quellen waren
+vollstaendig da. **Lehre: ein Befund, der dreimal unveraendert wiederkehrt, ist zuerst am Werkzeug zu
+pruefen.** Zwei weitere Fehlalarm-Familien gemessen, nicht behoben (Vorschlag im Laufbericht):
+Registerdateien ohne Frontmatter (`immobilienbewertung/wiki/wissensluecken.md`) und bewusste
+Vorwaertsreferenzen auf geplante Artikel (`kunde-bopp`, dort als *(geplant)* gekennzeichnet).
 
 ### planungsgrundlagen ↔ normen (Brandschutz-Wegweiser, erster ganzflaechiger Sweep) — geprueft 2026-08-24 (Run 42)
 
