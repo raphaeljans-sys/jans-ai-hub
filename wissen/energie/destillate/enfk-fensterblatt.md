@@ -177,8 +177,14 @@ Auszug (Glas-Ug in W/m²K x Rahmen-Uf in W/m²K → Uw in W/m²K):
 | Kunststoff | 2,2 |
 | Wärmegedämmte Verbundprofile | 2,8 |
 
-✅ **Diese Werte gelten, die 2002er nicht — entschieden 2026-08-25 (Run 163), vorher offener Punkt
-E-121-1.** Die Abweichung zu den BFE-Bauteilekatalog-Werten (2002: Holz 1,9/Kunststoff 2,5/
+⛔ **ÜBERHOLT — diese Tabelle ist die Fassung der Ausgabe 2009 und gilt nicht mehr
+(festgestellt 26.08.2026, Run 164).** Die geltende **Ausgabe 2021** desselben Merkblatts führt
+andere Rechenwerte und einen anderen Geltungsbereich: **Holz/Holz-Metall 1,4 · Kunststoff 1,9 ·
+Wärmegedämmte Verbundprofile 2,5 · Metallprofile 3,3 W/(m²·K)**, und zwar ausdrücklich nur noch
+**für ältere Fenster** (Tabelle 6). Siehe Abschnitt «Ausgabe 2021» unten. Der frühere Entscheid
+vom 25.08.2026 (Run 163), diese 2009er-Werte gälten, war richtig gegenüber dem Bauteilekatalog
+2002, aber er verglich zwei überholte Quellen miteinander — die geltende Ausgabe lag nicht vor.
+Historisch bleibt festzuhalten: Die Abweichung zu den BFE-Bauteilekatalog-Werten (2002: Holz 1,9/Kunststoff 2,5/
 Verbundprofile 3,3) ist **keine Parallelität zweier amtsnaher Quellen**, sondern eine **Ablösung**:
 dieses Merkblatt erklärt auf seiner letzten Seite wörtlich, es «löst folgende Planungswerkzeuge des
 Bundes ab · U-Wert-Berechnung und Bauteilekatalog Neubauten, **Kapitel 5.1 Fenster (Ausgabe 2002)**»
