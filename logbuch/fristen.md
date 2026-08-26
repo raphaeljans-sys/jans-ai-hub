@@ -3825,3 +3825,71 @@ Uf-Fallback-Werte fuer Fensterrahmen (Holz 1,9 / Kunststoff 2,5 / Verbundprofil 
 08.2009 amtlich abgeloest**; es gelten **1,8 / 2,2 / 2,8** (Merkblatt Fenster, Best-Nr. 805.107.d).
 Alle Fundstellen sind nachgezogen. Wer in einem aelteren JANS-Dokument die alten Werte findet, sollte
 sie ersetzen. Lauf: `wissen/energie/outputs/2026-08-25_energie-run163.md`.
+
+---
+
+**NACHTRAG 26.08.2026, 06:1x (konversations-log) — zwei Fachkorrekturen aus der Nacht, kein Termin,
+aber beratungsrelevant.** Quelle: Gespräch/Automatikbetrieb MacBook Pro 25.08.–26.08.2026. Im Fenster
+25.08. 04:13 bis 26.08. 06:13 fand **kein einziges Gespräch** mit Raphael statt; alle 35 Sessions
+waren automatische Läufe. Die drei offenen operativen Punkte (AG-Gründung/Kapitaleinzahlung,
+KISPI-Türmatrix, bexio-Token) haben sich in diesem Fenster **nicht bewegt** — sie sind bereits
+registriert und werden hier bewusst nicht gedoppelt. Neu sind allein die beiden folgenden Positionen.
+
+1. **SIA 118:1991 — 84 Kernlücken im meistgezogenen Destillat des Hub geschlossen. Status «zu
+   pruefen» für Altdokumente, ohne Frist.** Der Normen-Lauf 62 (26.08., 01:28–05:11) hat die
+   Abdeckungsrichtung erstmals auf `wissen/normen/destillate/sia-118-1991.md` gefahren. Das Destillat
+   trug seit dem 17.07.2026 `established`, gestützt auf drei bestandene Prüfrunden — die
+   Abdeckungsrichtung war dort nie gelaufen. Ergebnis: **84 Kernlücken und 82 Nebenlücken bei null
+   falschen Werten**; alle Zahlen stimmten, es fehlte Inhalt. Rule `normen-referenz` verpflichtet
+   `werkvertrag`, `unternehmerkontrolle`, `kostenkontrolle` und `ausschreibung` auf diese Norm, und
+   die Ausgabe 2013 ist nicht im Haus — die Skills ziehen also genau dieses Destillat.
+   **Was für die laufende Bauleitung zählt:**
+   **Art. 163** fehlte ganz — ein bei der gemeinsamen Prüfung erkannter, aber **nicht protokollierter**
+   Mangel gilt als stillschweigend genehmigt, die Unternehmerhaftung entfällt insoweit. Die schärfste
+   Regel des Abnahmekapitels und eine unmittelbare Protokollpflicht bei jeder Abnahme.
+   **Art. 125 Abs. 2** war halbiert und neigte sich gegen den Unternehmer: das Destillat führte nur
+   den zweiten Satz (Rohbau-Fassadengerüste zwei Monate unentgeltlich) und liess den ersten weg —
+   verlangt die Bauleitung längeres Vorhalten, als die Arbeiten es erfordern, **hat der Unternehmer
+   Anspruch auf zusätzliche Vergütung**. So gelesen hätte ein Bauleiter einen berechtigten Nachtrag
+   abgewiesen.
+   **Art. 83** (Bauhandwerkerpfandrecht, Anspruch nach Art. 837 ff. ZGB, Ausschluss bei öffentlichen
+   Bauten) fehlte inhaltlich ganz — verschluckt durch eine falsche Bereichsgrenze in den eigenen
+   «Offenen Punkten» («Art. 62-83»); die Teuerungsabrechnung reicht nur bis Art. 82.
+   **Art. 86 Abs. 4** nennt die Ausnahme zur ±20-%-Regel (bei zur Ausschreibungszeit bautechnisch
+   unbestimmbaren Mengen gelten Abs. 1-3 nicht) — die Regel stand als *zentrale Kennzahl* ohne ihre
+   Schranke. **Art. 147/151:** Gesamtpreisverträge haben eine eigene Zahlungssystematik,
+   Teilzahlungsplan und Rückbehalt sind dort gesondert im Werkvertrag zu regeln; die Prozentsätze des
+   Art. 150 gelten nicht automatisch. **Art. 169:** die drei Mängelrechte standen ohne ihre Schranken,
+   das Destillat überdehnte die Bauherrenrechte.
+   **Aktion:** keine Frist. Wer ein älteres JANS-Erzeugnis mit SIA-118-Bezug wiederverwendet
+   (Werkvertrag, LV-Vorbemerkungen, Abnahmeprotokoll, Nachtragsbeurteilung), liest die betroffene
+   Stelle neu am korrigierten Destillat. 18 Blöcke sind inline eingearbeitet, jeder Kernbefund vom
+   Hauptprozess selbst am Original nachgelesen. Lauf:
+   `wissen/normen/outputs/2026-08-26_normen-nacht-run62.md`.
+   | Fachwissen (Norm, Bauleitung) | mittel | zu pruefen |
+
+2. **RPV Art. 42 Abs. 3 und Art. 229 StGB — zwei Werte, die einer Bauherrschaft schaden konnten.
+   Korrigiert, ohne Frist.** Der Wissens-Chef-Lauf 43 (25.08., 23:1x–26.08. 05:11) fand zweimal
+   denselben Fehlertyp: eine Korrektur, die ihre Nachbar-Wissensbasis nicht erreicht hat.
+   **(a) Bauen ausserhalb der Bauzone.** `baurecht` hatte am 24.08. die eigene Formel korrigiert,
+   `planungsgrundlagen` führte die falsche unverändert weiter, ausgerechnet in einem Abschnitt, der
+   ausdrücklich zum Nachschlagen an dieser Stelle einlädt. Art. 42 Abs. 3 RPV kennt **zwei getrennte
+   Schwellen**: **lit. a innerhalb** des bestehenden Gebäudevolumens **+60 % der aBGF**, **lit. b
+   ausserhalb** weder 30 % noch 100 m² — und **die Erweiterungen innerhalb werden halb angerechnet**.
+   Die Anrechnungsrichtung stand umgekehrt, die 60-%-Innenschwelle fehlte ganz. **Wirkung: wer die
+   alte Zeile einer Bauherrschaft gibt, halbiert ihr den Innenausbau-Spielraum und rechnet den Anbau
+   zu günstig.** Am amtlichen Volltext gegengelesen; dabei zwei Punkte ergänzt: massgeblicher
+   Vergleichszustand ist nach **Art. 42 Abs. 2 RPV** der Zeitpunkt der Zuweisung zum Nichtbaugebiet
+   (der Stichtag 1.7.1972 gilt nur für altrechtliche Bauten nach Art. 41 RPV), und lit. a kennt seit
+   **01.01.2026 (AS 2025 659)** eine Überschreitungsmöglichkeit bis 100 m² aBGF bei altrechtlicher
+   Erstwohnung.
+   **(b) Art. 229 StGB** stand in zwei bfu-Destillaten der KB `normen` mit «bis zu drei Jahren» für
+   **beide** Tatbestände. Richtig: **Abs. 1 vorsätzlich bis fünf Jahre**, Abs. 2 fahrlässig bis drei —
+   der zu tiefe Wert lag auf dem praktisch massgeblicheren Vorsatzfall. Derselbe Fehler, den
+   `baurecht` in Buch-Run 101 an sich selbst korrigiert hatte.
+   **Aktion:** Alle Fundstellen sind nachgezogen, keine Frist. **Offen bleibt ein Punkt für Raphael:**
+   ein Vermerk an einer importierten Rule wurde vom Auto-Mode-Klassifikator blockiert und liegt
+   regelkonform als fertiger Vorschlag im Laufbericht
+   `wissen/koordination/outputs/2026-08-25_wissens-chef-run43.md` (Rule `wege-und-vollmachten`: nie
+   umgehen, fertigen Befehl vorlegen).
+   | Fachwissen (Baurecht, Bauherren-Beratung) | mittel | offen |
