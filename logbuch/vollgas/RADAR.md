@@ -53,6 +53,47 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-26 12:57 — [FREI] **Beide Frühwarnungs-Punkte von heute morgen sind entkräftet: das Lauf-Gate protokolliert normal, und die Destillat-Front steht an einem interaktiven Gate, nicht wegen Leerlaufs.** Fenster frei (5 s), Wochenbudget 16.3 Punkte UNTER dem Zeitverlauf, fünf KBs mit Liefer-Delta, kein Loop auf Delta Null.
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 26.08. 00:57, dieser 12:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke, kein zweiter Ausfalltyp zu prüfen.
+
+**Fensterzustand [FREI].** Probe über die app-gebündelte CLI, jetzt **2.1.246** (die App hat seit dem 00:57-Lauf von 2.1.241 aktualisiert; der Ordner wird zur Laufzeit ermittelt, deshalb ohne Eingriff): «OK», rc=0, in **5 Sekunden**. Reihe der schnellen Messungen weiter stabil: 5 s (25.08. 00:57) · 6 s (25.08. 12:57) · 6 s (26.08. 00:57) · 5 s (jetzt). Keine Waisen (`ps` auf `claude -p` leer), Speicherdruck normal (`kern.memorystatus_vm_pressure_level: 1`).
+
+**Homebrew liefert weiterhin nicht nach — die Wedge ist am fünften Tag.** `/opt/homebrew/bin/claude` zeigt unverändert auf **2.1.231** (Symlink vom 22.08. 05:15), das Caskroom führt keine neuere Fassung. Die PATH-Probe wurde deshalb erneut gar nicht erst versucht; sie kostet 180 s und liefert einen rc=137, der wie eine Kontingentsperre aussieht und keine ist. Der Rückfallweg über die app-gebündelte CLI trägt seit dem 22.08. verlässlich. **Am 15./16.08. dauerte die Nachlieferung rund zwei Tage, diesmal sind es fünf** — der Umweg ist damit faktisch der Normalweg und nicht mehr die Ausnahme; die Auftragsdatei trägt das bereits so.
+
+**Wochenbudget entspannt, mit Reserve.** `kontingent-budget.sh --json`: Ampel **FREI**, 21.5 von 167 Mio teuren Token = **12.9 %**, bei **29.1 %** verstrichener Woche. Vorsprung **-16.3 Punkte**, der Verbrauch läuft dem Zeitverlauf also deutlich HINTERHER. Beide Stationsdateien frisch (MacBook Pro 15.63 Mio, Mac Mini 5.87 Mio, je 0.0 h alt). Kein Drossel-Anlass; der stehende Entscheid vom 03.08. («gleichmässig über die Woche») ist eingehalten, mit Luft nach oben statt nach unten.
+
+**Feuermechanismen: alle drei Orte stimmen überein.** (i) Registry MacBook Pro: alle aktiven Tasks mit `lastRunAt` von heute, keine ausgefallene. (ii) launchd: `ch.jans.vollgas-monitor` und `ch.jans.vollgas-supervisor` liegen auf beiden Stationen unverändert als `*.disabled-260729` und sind nicht geladen; auf dem Mac Mini ist `ch.jans.nachtschicht` geladen mit **Exit 0**. (iii) Kein Loop wird doppelt gefeuert. Der stehende Entscheid vom 30.07. («nicht wieder beleben») ist gewahrt.
+
+**Liefer-Delta über 13 h, gemessen per `git diff --name-only` gegen die Basis (nicht per `find -newermt`):** `twin` 10 Dateien · `normen` 6 · `energie` 4 · `firmengruendung-ch` 2 · `spec` 1. Dazu Register- und Regelpflege (`logbuch/fristen.md`, `rules/anrede-kontakte.md`, `rules/betrieb-chronik.md`, `rules/jans-dna-facetten.md`, `skills/hub-chef/SKILL.md`). 64 Commits im Fenster, davon der Grossteil `nas-selfcommit`; die inhaltlichen Träger sind `logbuch-radar`, `hub-chef`, `twin-fidelity-review`, `heartbeat` und die beiden Nachtschicht-Läufe. **Kein Loop auf Delta Null**, keine Rücktaktung fällig.
+
+### P2 — Die Destillat-Front steht an einem interaktiven Gate, nicht wegen Leerlaufs (Befund der Frühwarnung 07:15 richtiggestellt)
+
+Die Frühwarnung meldet seit dem 23.08. täglich «Destillat-Front steht seit 23.08.». Der Wortlaut legt einen stockenden Loop nahe. Die Messung am Register `skills/wissens-destillat/KORPUS-QUEUE.md` zeigt etwas anderes:
+
+- **Korpus 1 `bauprodukte`: erledigt 15.08.2026**, 214 inventarisiert, 26 destilliert, **0 offen**.
+- **Korpus 2 `buero-projekte` nach `projekt-lessons`: erledigt 23.08.2026**, 813 Zeilen, **0 offen**, Kurator-Stufe abgeschlossen.
+- **Korpus 3 `buero-referenzen`** und **Korpus 4 `archiv-fachwissen`**, beide mit Ziel-KB `architektur-fachwissen`: Inventar-Phase 0 am 23.08. abgeschlossen (8'604 Dateien gesichtet), seither der Vermerk «Noch kein Destillat; **Spec weiterhin offen**». Die KB führt **zwei** Wiki-Artikel.
+
+**Der Stillstand ist sachlich richtig.** Zwei Sperren, beide interaktiv, keine davon durch einen Nachtlauf auflösbar: die Spec-Methode (Rule `spec-methode`) verlangt bei einem Vorhaben dieser Grösse das Aufdecken des Ziels mit bestätigten Schlüsselentscheiden; und Rule `auto-verbesserungen` **260823** verlangt für einen Massen-Sweep über genau diese zwei Geschäftsdaten-Bäume eine vorher benannte Ausschlussliste (Verträge, Bewerbungen, Personaldossiers, Adress- und Kontaktdaten). Der Anlassfall jener Regel — `16_Portfolios`, eingegangene Bewerbungsmappen, am 23.08. committet und gepusht — stammt aus eben diesem Korpus 3. **Ein Loop, der hier von selbst weiterliefe, wäre der Defekt, nicht der Stillstand.**
+
+Die Mac-Mini-Nachtschicht läuft unterdessen und liefert: 26.08. 02:35 `energie` (Primärbeleg Fernwärme-Anschlusskosten ZH, rc=0, 351 s) und 05:36 `firmengruendung-ch` (Wissenscheck Phase 1, rc=0, 400 s). Das Ausweichen auf Wissenscheck- und Einzelbeleg-Läufe ist regelkonforme Prioritätswahl. **Ertrag, nicht Leerlauf — der Loop wird ausdrücklich NICHT rückgetaktet.**
+
+**Massnahme dieses Laufs:** Der Punkt stand in keinem Register (`grep` über `fristen.md` ohne Treffer) und wurde deshalb täglich neu als Loop-Befund gemeldet, statt als das, was er ist: eine offene Pendenz an Raphael. Eine Zeile ist additiv in `logbuch/fristen.md` nachgetragen (Prio mittel, offen, keine Frist), damit die Wiederholung endet und der Punkt täglich mitgelesen wird — Rule 260805, «Befunde gehören ins Register, nicht nur in den eigenen Bericht». `--numstat` gegengemessen: **25 hinzugefügt, 0 gelöscht.**
+
+### P3 — Der zweite Frühwarnungs-Punkt ist ein Ausreisser-Trugschluss: das Lauf-Gate protokolliert normal
+
+Die Frühwarnung meldet «Lauf-Gate protokolliert seit 24.08. nicht mehr». Die Dateigrössen des Lauf-Journals: 3'545 B (21.08.) · 3'477 B (22.08.) · **326'693 B (23.08.)** · **273'125 B (24.08.)** · 3'463 B (25.08.) · 1'742 B (26.08. bis 12:57). Der Normalzustand des Journals sind **zwei bis vier Nachtschicht-Zeilen täglich**, also rund 3.5 kB; genau das liefert es seit dem 25.08. wieder. Die Ausreisser waren der 23./24.08. mit dem Vollschub-Fuhrpark (566 Läufe allein am 24.08., davon 437 mit rc≠0 am Sitzungslimit — im Fristen-Register dokumentiert). **Gemessen wurde der Abfall von einem Ausnahmewert auf den Normalwert und als Ausfall gelesen.** Gleiche Familie wie die `find -newermt`-Falle vom 20.08.: **ein auffälliger Zahlenverlauf ist zuerst eine Aussage über die Bezugsgrösse, nicht über den Betrieb.** Kein Handlungsbedarf; der Punkt ist hier festgehalten, damit ihn der nächste Lauf nicht ein drittes Mal aufgreift.
+
+### Einzeiler (unverändert oder anderswo erledigt)
+
+- **Tailscale:** Der Mac Mini ist wieder im Tailnet (`100.120.219.12`, online). Der Wächter aus Rule 260824 ist auf **keiner** Station installiert; der `heartbeat` hat das heute 09:40 erkannt und als P1-Klasse ins Fristen-Register geschrieben. Erkannt, registriert, nicht meine Baustelle — hier nur als Quittung.
+- **Zwei Registries:** Mac Mini per `ssh` gegengeprüft, `ch.jans.nachtschicht` geladen und mit Exit 0, kein wiederbelebter Vollgas-Job.
+- **Aufsicht sparsam:** Regellauf inline gefahren, kein Subagent, rund 12 Werkzeugaufrufe. Die eine Vertiefung (Korpus-Queue) war durch den P2-Befund gedeckt.
+- **Keine Mail.** Kein neuer P1-Blocker, kein gelöster, kein erschöpftes Wochenkontingent. Beide P-Punkte sind Hub-Interna ohne Aussenwirkung (Rule 260803).
+
+---
+
 ## 2026-08-26 00:57 — [FREI] **Der P2-Befund vom 25.08. ist entkraeftet: der 13:30-Slot der Nachtschicht hat am 25.08. gefeuert (Exit 0, 537 s). Kein Muster, Einzelausfall am 24.08.** Fenster frei, Budget entspannt, zehn KBs mit Liefer-Delta, kein Loop auf Delta Null.
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 25.08. 12:57, dieser 26.08. 00:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Luecke, kein zweiter Ausfalltyp zu pruefen.

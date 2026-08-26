@@ -3987,3 +3987,28 @@ registriert und werden hier bewusst nicht gedoppelt. Neu sind allein die beiden 
    `wissen/koordination/outputs/2026-08-25_wissens-chef-run43.md` (Rule `wege-und-vollmachten`: nie
    umgehen, fertigen Befehl vorlegen).
    | Fachwissen (Baurecht, Bauherren-Beratung) | mittel | offen |
+
+**NEU 26.08.2026, 12:5x (Vollgas-Chef-Radar) — Die Destillat-Front steht nicht wegen Leerlaufs
+still, sondern an einem interaktiven Gate: für die Korpora 3 und 4 fehlt die Spec.** Die
+Frühwarnung meldet seit dem 23.08. täglich «Destillat-Front steht». Die Messung am Register
+`skills/wissens-destillat/KORPUS-QUEUE.md` zeigt den Grund: Korpus 1 (`bauprodukte`) ist seit dem
+15.08. erledigt, Korpus 2 (`buero-projekte` nach `projekt-lessons`) seit dem 23.08. — beide mit
+null offenen Positionen. Korpus 3 (`buero-referenzen`) und Korpus 4 (`archiv-fachwissen`), beide
+mit Ziel-KB `architektur-fachwissen`, haben am 23.08. die Inventar-Phase 0 abgeschlossen und
+tragen seither den Vermerk «Noch kein Destillat; **Spec weiterhin offen**». Die KB hat zwei
+Wiki-Artikel bei 8'604 gesichteten Dateien.
+**Der Stillstand ist damit sachlich richtig, kein Loop-Defekt.** Zwei Gründe sperren die
+Fortsetzung, und beide verlangen eine interaktive Sitzung, keinen Nachtlauf: die Spec-Methode
+(Rule `spec-methode`) verlangt für ein Vorhaben dieser Grösse das Aufdecken des Ziels mit
+bestätigten Schlüsselentscheiden; und Rule `auto-verbesserungen` **260823** verlangt für einen
+Massen-Sweep über genau diese beiden Geschäftsdaten-Bäume eine **vorher benannte
+Ausschlussliste** (Verträge, Bewerbungen, Personaldossiers, Adress- und Kontaktsammlungen,
+Lohn- und Honorardaten). Der Anlassfall dieser Regel — `16_Portfolios`, Bewerbungsmappen, am
+23.08. committet und gepusht — stammt aus eben diesem Korpus 3.
+Die Mac-Mini-Nachtschicht läuft und liefert unterdessen normal; sie weicht regelkonform auf
+Wissenscheck- und Einzelbeleg-Läufe aus (26.08. 02:35 `energie`, 05:36 `firmengruendung-ch`,
+beide rc=0). **Das ist Ertrag, nicht Leerlauf** — der Loop wird deshalb ausdrücklich NICHT
+rückgetaktet. **Aktion Raphael: Spec für die Korpora 3 und 4 interaktiv aufsetzen, mit der
+Ausschlussliste nach 260823 als Teil der Spec.** Keine Frist; bis dahin bleibt die grösste
+Wissenslücke des Hub (8'604 gesichtete Dateien, 2 Artikel) unbearbeitet.
+| Register `skills/wissens-destillat/KORPUS-QUEUE.md` Zeilen 14-17 am Original gelesen 26.08.2026 12:5x; Liefer-Delta über `git diff --name-only` gemessen; Lauf-Journal `logbuch/laeufe/260826-laeufe.jsonl` (2 Läufe, beide rc=0) | Hub/Wissens-Layer | mittel | offen |
