@@ -150,6 +150,40 @@ offen» gelesen.
 Eintrag aus `freigabe-status.sh --briefing`, mit Titel, Station, Alter und Dateiname — auch
 wenn er die 24-h-Sendeschwelle noch nicht erreicht. Ohne Eintrag: «keine Eintraege ab 12 h».
 
+### Versandweg — Apple Mail zuerst, Graph als belegter Ersatzweg (nachgetragen 26.08.2026)
+
+Der Versand läuft über Apple Mail (osascript, `application id "com.apple.mail"`, Absender
+rj@raphaeljans.ch). **Antwortet Apple Mail nicht, fällt der Lauf NICHT aus** — er weicht auf
+Weg 2 aus. Das war vom 24. bis 26.08.2026 dreimal nötig und wurde jedes Mal von Hand
+gespielt, weil dieser Abschnitt fehlte; am 24.08. fiel das Tagesbriefing deswegen ganz aus.
+
+1. **Erreichbarkeit prüfen, mit Zeitgrenze.** `timeout` gibt es auf macOS nicht: den
+   osascript-Aufruf als Hintergrund-PID starten und nach rund 25 s abbrechen. Hängt er,
+   ist Apple Mail blockiert (Symptom: Prozess läuft, AppleEvent-Zeitüberschreitung -1712).
+2. **Weg 2, Graph `Mail.Send` über die m365-CLI** (Arbeitsverzeichnis
+   `~/Developer/jans-ai-hub`, Zertifikats-Anmeldung, `m365 status` zeigt
+   `authType: certificate`; die CLI liegt **nicht** im `PATH`):
+
+```
+./node_modules/.bin/m365 outlook mail send \
+  --to "rj@raphaeljans.ch" --sender "rj@raphaeljans.ch" \
+  --subject "<Betreff>" --bodyContentType HTML \
+  --bodyContents "$(cat <body>.html)"
+```
+
+   `--sender` ist bei App-Auth Pflicht. Rule `mail-formatierung` gilt unverändert: Body als
+   HTML mit `font-family:Aptos,Calibri,Helvetica,sans-serif; font-size:12pt; color:#000000`.
+3. **Immer in den Gesendeten nachmessen**, nie am Rückgabewert (Lehre 24.08.2026) — Zeichen-
+   bzw. Bytezahl des Bodys ins Logbuch.
+4. **Den Ersatzweg im Briefing und im Logbuch benennen.** Ein Meldekanal, der still auf einen
+   Ersatzweg wechselt, verdeckt den Ausfall des Hauptwegs — genau das hat die Blockade drei
+   Tage lang unsichtbar gehalten.
+
+Volles Wege-Register samt Sackgassen: `connectors/WEGE.md`, Abschnitt «Mail senden, zweiter
+Weg». **Ein Nebeneffekt für den Twin ist zu beachten:** seit dem Ausweichen auf Graph tragen
+Hub-Briefings denselben `PROD.OUTLOOK.COM`-Host wie Raphaels eigene OWA-Mails; die
+`internetMessageId` beweist die eigene Hand nicht mehr (Befund `twin` 26.08.2026).
+
 ## Compounding
 Korrektur-Deltas (was Raphael am Briefing/Entwurf aendert) und neue Whitelist-Kandidaten im
 Logbuch festhalten; Vorschlaege zur Whitelist-Erweiterung nur unterbreiten, nie selbst
