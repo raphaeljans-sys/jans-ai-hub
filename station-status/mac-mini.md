@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.08.2026 02:43:21
+Stand: 26.08.2026 02:53:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 02:35)
@@ -12,4 +12,4 @@ Stand: 26.08.2026 02:43:21
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 6530fe068 energie Nachtschicht 26.08: E-R163-1 fortgesetzt, Stadtratsbeschluss STRB 3879/2025 amtlich identifiziert
+- 7a6eabc25 nas-selfcommit: 2 Datei(en) 2026-08-26 02:45
