@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.08.2026 08:01:53
+Stand: 26.08.2026 08:12:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 26.08.2026 08:01:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c7f3ef9af nas-selfcommit: 2 Datei(en) 2026-08-26 08:00
+- ca8f1b24f fristen: Umlaut-Korrektur im Verzugscheck-Nachtrag 26.08.2026
