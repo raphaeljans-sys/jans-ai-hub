@@ -54,9 +54,8 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Kurzgruss «Lieber Gruss»/«Lgr.», gern erweitert («Lieber Gruss und schöner Abend.» + «Raphael.»
   mit Punkt); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
   **Adressat** → FG+Block, in der Sie-Behördenmail als «Danke und Gruss» davor. **Ein bloss
-  orientierender Cc hebt den Kurzgruss NICHT auf** (Weiterleitung an den Du-Bauherrn, Gegenseite im
-  Cc → «Lieber Gruss» + nur «Raphael»): der Mitleser bewegt allein die **Anrede** («Geschätzter
-  Stefan» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz hängt an der
+  orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
+  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz hängt an der
   GATTUNG, nicht am Empfänger (260807/260808):** wer für sich selbst etwas erbittet, hält den
   Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, Auskunft, die man
   dem Amt GIBT, **Erst-Offertanfrage** — die praezisierte Zweitanfrage im laufenden Verfahren
@@ -67,23 +66,19 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
   (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
-  **einseitige Lieferzusage** («Du erhaeltst von mir im Verlauf der KW 7 …», 260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820):** «Danke für Dein
-  Angebot.» oben, «Besten Dank …» als letzter Satz — die Wiederholung rahmt die
-  dazwischenliegende Nachforderung freundlich ein; nie zu einem einzigen, aufgewerteten Dank
-  verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824):** «Lieber Gruss» /
-  «Raphael» steht in derselben OWA-Mail **über** dem Block, dessen eigene erste Zeile «Freundliche
-  Grüsse» lautet — zwei Zeilen, nicht zwei Alternativen; ein vorhandenes «Freundliche Grüsse»
-  beweist darum keinen Gruss-Entscheid.
+  **einseitige Lieferzusage** («Du erhaeltst von mir im Verlauf der KW 7 …», 260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)** — die Wiederholung
+  rahmt die dazwischenliegende Nachforderung ein; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
+  **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet — zwei Zeilen, nicht zwei
+  Alternativen; ein vorhandenes «Freundliche Grüsse» beweist keinen Gruss-Entscheid.
   **«Beste Grüsse» steht auch im vertrauten Du** (Kurzmeldung an den
-  Bauherrenvertreter, 260820). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel** — das «AW:»
-  im eigenen Thread trägt den vollen Block. Anrede-Skala → [[beziehungsregister]].
+  Bauherrenvertreter, 260820). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel.** Anrede-Skala → [[beziehungsregister]].
   Emoji 😊 und Mundart nur privat-sozial und nur bei Spiegelung. Aufzählung: «–» + «oder» in der
-  formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt **blockweise mit
-  der Logik des Blocks** (→ [[arbeitsweise]]). Im Peer-Du erlaubt: «Gel»-Opener, saloppe
+  formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt **blockweise**
+  (→ [[arbeitsweise]]). Im Peer-Du erlaubt: «Gel»-Opener, saloppe
   Superlative, «haha», grussloser Wunschsatz, Urgenz-Titel statt Anrede, «Bester Gruss».
   Ehrliche Selbst-Nebenzeile mit «…» stehen lassen; sicherheitskritisches Einzelwort in VERSALIEN;
   **fette Handlungsanweisung mit Ausrufezeichen auch im Sie** (260817); schlechte Nachricht
-  kommentarlos quittieren. Detail-Präzedenzen: Abschnitte unten.
+  kommentarlos quittieren.
 - **Die Bitte-Form richtet sich danach, WER den Druck erzeugt — vier Stufen (260805 + 260806);
   bei der Anhangs-Lieferung ins Du eine fünfte, NOMINALE (260825, zweifach):** die Bitte wandert
   als Zweckangabe in den Liefersatz («… sende ich Dir den Baubeschrieb **mit der Bitte um
@@ -101,27 +96,26 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Anforderung eines Dokuments, das einem ohnehin zusteht, auch nicht bei namentlich bekannter
   Sachbearbeiterin (260816, zweifach belegt). Belegnummern inline mit Form: «RE-00079 **(PDF)**».
   Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile nach der Anrede**.
-  **Die Bitte endet auf einem PUNKT, nie auf einem Fragezeichen (260820, zweifach):** «Daher Bitte
-  ich Dich uns der Typ dieser Rolladensteuerung anzugeben.» Die
-  «Darf ich»-Form ist bei ihm **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage — wer
-  ein Fragezeichen setzt, stellt sie zur Disposition. Ebenso trägt **eine** Bitte gern **zwei
-  Gegenstände, mit «und» verbunden** (Nachtrag + Reduktion), statt in zwei Bitten zu zerfallen.
+  **Die Bitte endet auf einem PUNKT, nie auf einem Fragezeichen (260820, zweifach):** die
+  «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage — ein
+  Fragezeichen stellt sie zur Disposition. Ebenso trägt **eine** Bitte gern **zwei Gegenstände,
+  mit «und» verbunden**, statt in zwei Bitten zu zerfallen; und **zwei Stufen der Skala können in
+  EINEM Absatz nacheinander stehen, je Gegenstand geschaltet** (260826).
 - **Im operativen Peer-Du gilt die Kurzzahl, nicht der Apostroph (260821):** Differenz zuerst,
   Absolutwerte einheitenlos in Klammern nach — «CHF **40K** mehr (von 120 auf 160)», «4Stk».
   Der Apostroph gehört der ausgewiesenen Zahl in Offerte/Dokument/förmlicher Mail. Die
-  dreifache Verstärkung («sehr sehr sehr viel») nicht zu «sehr hoch» glätten. **«Danke und
+  dreifache Verstärkung nicht glätten. **«Danke und
   Gruss» ist ein eigener Kurzgruss, auch im vertrauten Du** — er hängt an der Gattung (Bitte um
   Nacharbeit), nicht am Sie-Behördenregister.
 - **Englisch: «Hello <Vorname>,», nicht «Hi» (260806).** Der Abbruch einer Zusage öffnet ohne
   Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
   Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
   **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
-- **Die Abgebots-/Nachfassbitte im laufenden Vergabeverfahren trägt KEINEN Service-Satz (260818):**
-  anders als die Erst-Offertenanfrage ist sie Abwicklung im Mandat — «Im Auftrag der Bauherrschaft
-  **bitte ich Sie** …» (nackter Indikativ, nicht «darf ich Sie bitten»: der Druck stammt von der
-  Bauherrschaft), dann «Danke für Ihre Unterstützung.» + «**Wir freuen uns auf die Zusammenarbeit.**»
-  Der Zusammenarbeits-Satz stellt den Zuschlag in Aussicht, bevor er formell ist. Der Nachlass wird
-  als Total beziffert («-8%tot»), nie als «besprochene Reduktion» umschrieben.
+- **Alles im laufenden Vergabeverfahren trägt KEINEN Service-Satz (260818, erweitert 260826):**
+  Abgebot, Nachfass **und schon die präzisierte Zweitanfrage** sind Abwicklung im Mandat — «Im
+  Auftrag der Bauherrschaft **bitte ich Sie** …» (nackter Indikativ: der Druck stammt von der
+  Bauherrschaft), dann «Danke für Ihre Unterstützung.» + «**Wir freuen uns auf die
+  Zusammenarbeit.**» Der Nachlass wird als Total beziffert («-8%tot»), nie umschrieben.
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji oder
   Mundart ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail:
   Hochdeutsch); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als

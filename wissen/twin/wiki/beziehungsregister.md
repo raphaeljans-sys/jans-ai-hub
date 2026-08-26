@@ -446,13 +446,12 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   hinreichend (260822, 3/3 verfehlt): Cc, Gewicht und Telefonat heben IM SELBEN VORGANG nicht
   automatisch.**
 - **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823, zwei Golds):** über Wochen
-  wiederholten persönlichen Kontakts wandert dieselbe Beziehung kumulativ ins Vertrautere —
-  Furrer (Behörde) «Guten Tag Herr …» 24.07. → «**Geschätzter Herr …**» 28.07. nach der Besprechung;
-  Stadelmann (Unternehmer) «Geschätzter Herr …» 22.07. **trotz** Telefonat → «**Geschätzter
-  Othmar**» 03.08. Der Kanalwechsel wirkt verzögert, nicht sofort, und bewegt die
+  wiederholten persönlichen Kontakts wandert dieselbe Beziehung kumulativ ins Vertrautere
+  (Furrer, Stadelmann). Der Kanalwechsel wirkt verzögert, nicht sofort, und bewegt die
   **Wärmestufe innerhalb** des Registers (Sie/Nachname bzw. Vorname bleiben). Der belegte Opener
   gilt **innerhalb** des Vorgangs, nicht über Wochen: eine Anrede braucht den Beleg UND sein
-  Datum. Wer nur statische Auslöser prüft, irrt beidseitig — 260822 dreimal zu hoch, 260823
+  Datum. **Sie haftet am VORGANG, nicht an der Person (260826):** derselbe Betrieb, elf Tage,
+  gewechselter Ansprechpartner — «Sehr geehrter Herr <A>» → «Geschätzte Frau <B>». Wer nur statische Auslöser prüft, irrt beidseitig — 260822 dreimal zu hoch, 260823
   zweimal zu tief. **«werter <Vorname>» steht dabei auch im Du** («Geschätzter Othmar, werter
   Michael», zwei Wärmestufen, eine Zeile, **ohne Schlusskomma**): reine Abstufung, kein Sie-Marker.
 - **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** acht
@@ -465,16 +464,14 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   auf zwei Zeilen um, **Komma nur auf der ersten**.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
-  spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»
-  «Geschätzte Frau Frick» — Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des
-  Eingangs; gemessener Verstoss 260816, Beleg im Artikel. **Gestapelt wird nur bei
+  spiegeln** (Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des Eingangs;
+  gemessener Verstoss 260816, Belege im Artikel. **Gestapelt wird nur bei
   GLEICHER Stufe verkürzt** («Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die
   Nachnamen); bei auseinandergehenden Stufen gilt die Zeilenregel des Stapel-Markers oben
   (Gewicht entscheidet); ein Cc kann angeredet, ein anderer übergangen werden, die
   Reihenfolge folgt nicht dem To-Feld (260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
-  Haupt-Du-Empfänger adressieren, ohne die Cc-/Mitbeteiligten zu prüfen — sind mehrere Personen
-  am Vorgang beteiligt (auch nur im Cc), gestapelte Anrede + kollektives «Euch»/«Ihr» setzen,
-  nicht das singuläre «Dich»; **die gestapelte Anrede zu einer kollektiven Sammelform
+  Haupt-Du-Empfänger adressieren, ohne die Cc-Mitbeteiligten zu prüfen — sind mehrere am Vorgang
+  beteiligt, gestapelte Anrede + kollektives «Euch»/«Ihr» statt des singulären «Dich»; **die gestapelte Anrede zu einer kollektiven Sammelform
   zusammenziehen** — «Geschätzter Herr A, werter Herr B», nie «Sehr geehrte Herren A und B»
   (gemessener Verstoss 260821, Marker seit 260714j).
 

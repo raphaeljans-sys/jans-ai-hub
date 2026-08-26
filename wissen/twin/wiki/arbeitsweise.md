@@ -141,20 +141,17 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   mich unverzüglich») statt passiver Verfügbarkeitsformel; die **mehrteilige Verfahrens-/
   Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand gliedern**
   (Behörden-Dekomposition), nicht flach auflisten; **die «A) B) C)»-Form ist Raphaels LISTENFORM,
-  kein Registersignal (korrigiert 260817, zweifach widerlegt: ein `<ol>` mit
-  `list-style-type:"A) "` an die Sachbearbeiterin Buchhaltung, «A) … B) …» im Fliesstext an den
-  vertrauten Du-Kontakt)** — sie trägt Fragen, Traktanden und Befundpaare gleichermassen, fetter
+  kein Registersignal (korrigiert 260817, zweifach widerlegt)** — sie trägt Fragen, Traktanden
+  und Befundpaare gleichermassen, fetter
   Titel je Traktandum, Unterpunkte darunter; offene Spezifikationslisten als «_ »/«–» davon
   trennen;
   **Ablage-Verweise als Breadcrumb Zeile für Zeile** (Bibliothek → … → Zielordner), Link erst
   darunter unter «Hier der Link:»;
-  **der Eingabetermin des Angebots steht als Nachklapp UNTER dem Signaturblock (260826)** —
-  «Eingabetermin Angebot: heute 17:00 Uhr»; der **Ausfuehrungs**termin bleibt oben unter
-  «Rahmenbedingungen». Alles ueber dem Gruss betrifft das Bauteil, die Zeile darunter das
-  Verfahren. Nie in den Fliesstext oder in die Bitte einruehren, wo sie eine Angabe unter
-  zehn wird;
-  im **engsten Peer-Du** die Rohheit des Originals halten (spontane Reihenfolge,
-  Fliesstext-Anschluss, Urgenz-Titel statt Anrede, grussloser Schluss — dort **korrekt**);
+  **der Eingabetermin des Angebots steht als Nachklapp UNTER dem Signaturblock (260826)**, der
+  **Ausfuehrungs**termin oben unter «Rahmenbedingungen» — ueber dem Gruss das Bauteil, darunter
+  das Verfahren; nie in den Fliesstext einruehren, wo die Frist eine Angabe unter zehn wird;
+  im **engsten Peer-Du** die Rohheit des Originals halten (spontane Reihenfolge, Urgenz-Titel
+  statt Anrede, grussloser Schluss — dort **korrekt**);
   **Behörden-Kontaktformular**: dessen Feldraster als Mail-Body ausfüllen, und auch **ohne**
   Formular die als Prosa gestellte Rückfrage als **«_ »-Feldraster Label: Wert** beantworten, ohne
   Anrede, mit FG+Block (260805); bei unklarer **Zuständigkeit** dieselbe Anfrage im selben Zug an

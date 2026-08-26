@@ -500,11 +500,10 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Budgetposten, eigene Unvollständigkeit markieren. Konkretes Gewerksvokabular, sinnliche
   Materialbeschreibung, 1:1-Bemusterung (Konzept → Korrex → Muster). Bei 3D-/Render-Aufgaben die
   **dritte Säule** (C4D-/FBX-/Pfad-Terminologie), aber **knapp**. **Wo eine Angabe nicht belegt
-  werden kann, setzt er einen VERWEISANKER statt einer plausiblen Zahl (260826, dreifach in
-  EINER Mail):** «analog Referenz» / «gemaess Referenz» — beim Glasaufbau, beim Fugenverschluss
-  («Seidenzopf») und beim Montageansatz («2 Monteure, ca. 2 Stunden»). Eine ausgefuehrte
-  Referenzarbeit ist der Massstab; der Unternehmer kann kalkulieren, die Angabe bleibt pruefbar,
-  und niemand muss erfinden. Das ist das praktische Gegenmittel zur Erfindungs-Drift. Wo etwas vom Gegenüber gebraucht
+  werden kann, setzt er einen VERWEISANKER statt einer plausiblen Zahl (260826, dreifach in EINER
+  Mail):** «analog Referenz» / «gemaess Referenz» bei Glasaufbau, Fugenverschluss und
+  Montageansatz. Eine ausgefuehrte Referenzarbeit ist der Massstab — kalkulierbar, pruefbar,
+  ohne Erfindung. Das praktische Gegenmittel zur Erfindungs-Drift. Wo etwas vom Gegenüber gebraucht
   wird, vorher die Reibung wegnehmen: Ursache belegen, Zielgefäss selbst anlegen, mit dem Nutzen
   schliessen. **Rechtsbegründete Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen:**
   (a) **eigenes Recht/eine Schwelle geltend machen** (Gesuch, Abmeldung, Antrag): Norm zitieren

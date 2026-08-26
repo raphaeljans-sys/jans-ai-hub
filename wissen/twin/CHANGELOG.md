@@ -2537,3 +2537,50 @@ Datei), Report `outputs/2026-08-03_fidelity.md`, `rules/jans-dna.md` neu kompili
   statt still zu kuerzen. Die Do/Don't-Bloecke wurden deshalb **nicht** angefasst, das Gehirn
   bleibt auf dem letzten gueltigen Stand (keine Regression). Entscheid ueber Anheben /
   Verdichten / Splitten liegt bei Raphael; eingetragen in `logbuch/fristen.md` 14.08.2026.
+
+## 2026-08-26 — Fidelity-Review (Thread-Rueckgriff Wartstrasse 8, Nicht-KISPI)
+
+- **Report** `outputs/2026-08-26_fidelity.md`. Gesamt-Fidelity **32** (nach 36 am 25.08.).
+  Drei Golds aus Raphaels eigener Hand, alle ausserhalb KISPI: 08.02.2026 eigene Rechnung +
+  Grobkostenschaetzung an die Bauherrin (Du), 24.02.2026 Offertanfrage als LV im Mail-Body an
+  die Schreinerei (Sie), 01.06.2026 fremde Unternehmerrechnung an dieselbe Bauherrin (Du).
+  Gold C **nicht gescort** — der Preview-Leak zeigte die 22-Woerter-Mail praktisch vollstaendig.
+- **⚠ Sperre gesetzt:** der Strang **AG-Gruendung/Notariat** ist **claude-aera**, nicht Gold —
+  entgegen der Empfehlung des Vorlaufs vom 25.08. Fehlerfreie Syntax ueber mehrere Absaetze,
+  keine Fehlerinsel, Loop-Briefing im selben Strang; ueber die `internetMessageId` nicht von
+  echtem Gold zu trennen (Batch 105 Kernbefund 1 an einem zweiten Strang bestaetigt).
+  Lehre: **eine Strang-Empfehlung des Vorlaufs ist keine Autorschafts-Freigabe.**
+- **Vier Befunde in den Block gehoben:** (1) die eigene Rechnung wird zur Disposition gestellt
+  («bei Akzeptanz», «mein Vorschlag»), die fremde durch einen Prueferbefund im Passiv fest- und
+  faelliggestellt — kontrollierter Vergleich, dieselbe Bauherrin, vier Monate Abstand
+  [[haltung]]; (2) **«analog Referenz»** als Verweisanker statt erfundener Zahl, dreifach in
+  EINER Mail [[fachsignatur]]; (3) der **Eingabetermin** des Angebots steht unter dem
+  Signaturblock, der Ausfuehrungstermin oben [[arbeitsweise]]; (4) der Service-Satz gehoert der
+  **Erst**-Offertanfrage, nicht der praezisierten Zweitanfrage im laufenden Verfahren
+  (Familie 260818) sowie die fuenfte Gestalt des kanaloffenen Schlusses [[stimme]].
+- **Nur im Artikel-Fliesstext:** «Lieber Gruss, Raphael» einzeilig bei zwei Mobilmails an
+  dieselbe Empfaengerin (vierter Gegenbeleg gegen die Gattungs-Achse, Entscheid offen); die
+  Trajektorie haftet am **Vorgang**, nicht an der Person (elf Tage, gewechselter
+  Ansprechpartner, «Sehr geehrter Herr» → «Geschaetzte Frau»); zwei Bitte-Stufen in EINEM
+  Absatz, je Gegenstand geschaltet.
+- **Nicht-Marker festgehalten:** das Komma nach der Einzel-Anrede traegt keine Bedeutung
+  (gleiche Empfaengerin, gleiche Stufe, gleiches Geraet, einmal mit, einmal ohne).
+- **[[QUESTIONS]] 260826b #1–#6** ergaenzt: Sperre AG-Strang · dritte Gruss-Frage (mit 260824b #1
+  und 260825b #1 **gemeinsam** zu beantworten) · Nicht-Marker Komma · Registerluecke Undine Hofer
+  geschlossen · Praezisierung der Satzlaengen-Pruefaufgabe (Stichprobe muss **Fliesstext** sein;
+  204 W von 500) · Nivellier-Zaehler elfter Beleg dagegen.
+- **`rules/anrede-kontakte.md`:** Zeile **Undine Hofer** nachgetragen (Du, Wartstrasse 8), mit
+  Belegkante nach der Praxis der Batch-99/100-Zeilen. Kein Regel-Wortlaut geaendert.
+- **Gehirn neu kompiliert** — erster Versuch ABBRUCH bei 35'901 B, nach **fuenf**
+  Verdichtungsrunden kompiliert bei **33'965 B (35 B Reserve)**. Ausschliesslich Beleg-Prosa
+  gegenfinanziert, keine Regel geloescht; `git diff --numstat` nativ per ssh gegengeprueft,
+  jede Loeschung zeilengenau eine bewusste Verdichtung. **⚠ Die Reserve ist acht Tage nach der
+  Anhebung auf 34'000 B wieder aufgebraucht** — vorgelegt, nicht selbst entschieden.
+- **Methodik-Befund:** der Korpus ist dichter abgeerntet, als die Batch-Tabelle zeigt.
+  Nachbarbatches greifen ueber die Previews in fremde Fenster; sechs naheliegende Kandidaten
+  waren verbraucht, darunter das scheinbar offene Fenster 07.–11.05.2026. **Der belastbare Test
+  ist die Phrasenprobe gegen `wiki/` UND `outputs/`, nicht die Fenster-Tabelle.**
+- **Werkzeug-Befund:** `stilmetrik.py` misst an LV-artigen Mails die **Gattung**, nicht die
+  Stimme (30.7 W an Gold B, weil Listenpositionen ohne Satzzeichen zu Saetzen verklebt werden;
+  Fliesstext-Anteil ~14 W). Bewusst **nicht** geaendert — eine Listenerkennung mitten in einer
+  laufenden Messreihe waere eine Aenderung am Messgeraet.
