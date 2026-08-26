@@ -1,11 +1,11 @@
 ---
-quelle: «SCOP versus COP und JAZ — Grundlagen fuer die Wirtschaftlichkeitsrechnung» (Fachvortrag)
+quelle: «SCOP versus COP und JAZ — Grundlagen fuer die Wirtschaftlichkeitsrechnung» (Fachvortrag), https://www.fws.ch/wp-content/uploads/2019/01/161108-Gruenenwald.pdf
 herausgeber: Harry Gruenenwald, Gruenenwald AG (Otelfingen ZH); Bezug Norm EN 14825:2013
-ausgabe: Foliensatz (undatiert; Bezug FWS-Tagungskontext) — Bezug auf EN 14825:2013
+ausgabe: Foliensatz FWS-Tagung, erstellt 08.11.2016 (PDF-Metadaten `CreationDate`, Datum am Original bestaetigt, A-BLIND-Nachtrag 26.08.2026)
 gelesen: 2026-06-27 (Foliensatz vollst., S. 1-12)
-datenstand: ⚠ Vortragsfolien, Datierung unklar; Norm-Bezug EN 14825:2013 (Pruefnorm SCOP weiterhin gueltig)
+datenstand: Foliensatz 08.11.2016 (Datierung geklaert, s.u.); Norm-Bezug EN 14825:2013 im Vortrag zitiert — aktuell gueltige Ausgabe ist **EN 14825:2022** (Zwischenausgaben 2016/2019), Pruefmethodik/Klimazonen Helsinki/Strassburg/Athen unveraendert, die Ausgabe 2013 selbst ist NICHT mehr die geltende Norm
 status: established
-last_updated: 2026-06-27
+last_updated: 2026-08-26 (A-BLIND Raenge 41-60, Mac-Mini-Nachtschicht: Datierung geklaert, Norm-Ausgabe nachgetragen)
 ---
 
 # Destillat — COP vs. SCOP vs. JAZ bei Waermepumpen (EN 14825)
@@ -31,7 +31,7 @@ Effizienz, auf die es fuer die Wirtschaftlichkeit ankommt.
 - Wichtig (Vortrag): Peripherie nicht abgebildet, Messpunkte willkuerlich, COP laesst **keine
   Systemvergleiche** zu, on/off-Betrieb.
 
-### SCOP — EN 14825:2013
+### SCOP — EN 14825:2013 (im Vortrag zitierte Ausgabe; heute gueltig EN 14825:2022)
 - **3 Heizzonen:** C (colder, Helsinki, −22 °C) · **A (average, Strassburg, −10 °C)** · W (warmer, Athen, +2 °C);
   Heizgrenze in allen Zonen **+16 °C**.
 - **2 Wassertemperaturen:** Niedertemperatur **35 °C** / Hochtemperatur **55 °C**.
@@ -57,4 +57,14 @@ Effizienz, auf die es fuer die Wirtschaftlichkeit ankommt.
 ## Offene Punkte / Folgelaeufe
 - WPesti/SIA 384/3 als **verbindliches CH-Rechenverfahren** (vgl. `[[minergie-zertifizierung-workflow]]`)
   gegen SCOP/JAZ einordnen — eigener Folgelauf.
-- Datierung des Foliensatzes unklar; Norm-Bezug EN 14825:2013 (SCOP-Pruefverfahren weiter gueltig).
+- ~~Datierung des Foliensatzes unklar~~ **geklaert 26.08.2026:** PDF-Metadaten des Originals
+  (`pdfinfo`) nennen `CreationDate: Tue Nov 8 16:08:34 2016 CET` — Foliensatz vom **08.11.2016**,
+  deckt sich mit dem fws.ch-Dateinamen `161108-Gruenenwald.pdf` (FWS-eigene Datumskonvention).
+- **Norm-Ausgabe nachgetragen (A-BLIND, 26.08.2026):** EN 14825 wurde nach 2013 mehrfach revidiert
+  (2016, 2019, aktuell **2022**, s. DIN EN 14825:2023-10). Die drei Referenzklimazonen
+  Helsinki/Strassburg/Athen und die im Vortrag genannten Pruefpunkte sind laut Websuche in der
+  aktuellen Ausgabe unveraendert weitergefuehrt — die **Kernaussage dieses Destillats (SCOP fuer
+  CH-Klima ~5-7 % zu guenstig) bleibt damit inhaltlich tragfaehig**. Nicht primaerquellen-geprueft
+  ist die Ausgabe EN 14825:2022 selbst (kostenpflichtige Norm, nicht im Haus); wer die Norm-Ausgabe
+  wörtlich zitiert (z. B. in einer Ausschreibung oder einem Energienachweis), verweist auf **EN
+  14825:2022**, nicht auf die hier zitierte 2013er-Fassung des Vortrags.

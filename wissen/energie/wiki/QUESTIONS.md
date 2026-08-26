@@ -2,6 +2,60 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-26 (Mac-Mini-Nachtschicht, Versuchs-Slot 13:30) — A-BLIND Ränge 41–60: Backlink-Ranking neu gebildet, ein Fall bearbeitet
+
+Fortsetzung des Auftrags aus Run 163 (A-BLIND auf die Ränge 41-60, Kriterium «alternder Datenstand
+statt fehlender Verifikation»). Beide PDF-Korpora (PL-02/PL-04) bleiben geschlossen, TRANSFER-Block
+entfällt daher weiterhin. Aus Budgetgründen (Nachtschicht-Deckel) nur EIN Fall statt der vollen
+20er-Charge bearbeitet; die restlichen 19 stehen unten für den nächsten Lauf bereit, damit das
+Ranking nicht neu berechnet werden muss.
+
+**Ranking (Backlink-Zählung `[[slug]]` über wiki/+destillate/+outputs/, 336 Slugs gesamt), Ränge 41-60:**
+41 (23) innendaemmung-altbau-bauphysik-ch — bereits gut abgesichert (SIA 180/4001 aktuell), kein Fund.
+42 (23) elektroheizungs-ersatzpflicht-zh-sz — status established, MuKEn-2025-Wortlaut bereits 24.08. primärverifiziert.
+43 (22) werkhof29-zirkulaeres-bauen-stroh-lehm — offen, Quelle explizit als Marketing-Dossier 2024 markiert.
+44 (22) sia-181-schallschutz-anforderungswerte — bereits am 24.08. vertieft (Lignum-Bericht).
+45 (22) bvv-zh-meldeverfahren-klimaanlagen-waermepumpen — datenstand 20.07.2026, Nachtrag 133, wirkt aktuell.
+46 (21) graue-energie-betriebsenergie — offen, «Lehrmittel-Grobwerte, Jahr nicht angegeben».
+47 (21) energiemonitoring-submetering-grossverbraucher-zh-sz — datenstand 27.07.2026, wirkt aktuell.
+48 (21) en-lueftung-kuehlung-zh — datenstand nennt EVEN-Ablösung seit 1.1.2026 bereits selbst.
+49 (21) haushaltgeraete-effizienz-beschaffung-topten — bereits in Run 123 primärquellen-korrigiert (EnEV/SR 730.02), sauber.
+50 (21) private-kontrolle-zh — datenstand April 2025, wirkt aktuell.
+51 (21) sia-386-bacs-gebaeudeautomation — datenstand 24.08.2026, frisch primärverifiziert.
+**52 (20) cop-scop-jaz-waermepumpe-gruenenwald — BEARBEITET, s.u.**
+53 (20) vkf-richtlinie-22-15-blitzschutzsysteme — datenstand 25.07.2026, wirkt aktuell.
+54 (20) fenster-energieetikette-fea-bfe — Label seit 1.1.2015 unverändert in Kraft laut eigenem Vermerk.
+55 (20) trinkwassererwaermung-legionellenschutz-energieeffizienz — datenstand 25.07.2026, kein neuerer Stand gefunden.
+56 (20) ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025 — datenstand 08/2025, jüngst.
+57 (20) geak-klassengrenzen-relative-klassierung — datenstand 2023/Juli 2026, wirkt aktuell.
+58 (20) pv-blitzschutz-gebaeudeversicherung-ch — datenstand 25.07.2026, wirkt aktuell.
+59 (19) energie-performance-gap-monitoring-inbetriebnahme — datenstand 25.07.2026, wirkt aktuell.
+60 (19) sommerlicher-waermeschutz-sia180-nachweisverfahren — mehrfach 2026 nachgetragen, wirkt aktuell.
+
+**Bearbeiteter Fall: `[[cop-scop-jaz-waermepumpe-gruenenwald]]` (Rang 52, 20 Backlinks).** Zwei
+offene Punkte geschlossen, keine inhaltliche Fehlfortpflanzung gefunden:
+1. **Datierung des Foliensatzes** (bisher «unklar») — Original-PDF erneut von fws.ch geladen
+   (`https://www.fws.ch/wp-content/uploads/2019/01/161108-Gruenenwald.pdf`), `pdfinfo` zeigt
+   `CreationDate: Tue Nov 8 16:08:34 2016 CET` — Foliensatz vom **08.11.2016**, deckt sich mit dem
+   FWS-eigenen Dateinamen. Geklärt.
+2. **Norm-Ausgabe EN 14825:2013** — per WebSearch verifiziert: die Norm wurde nach 2013 mehrfach
+   revidiert (2016, 2019, aktuell **2022**, DIN EN 14825:2023-10). Die drei Referenzklimazonen
+   (Helsinki/Strassburg/Athen) und die Prüfpunkte sind laut Recherche unverändert weitergeführt —
+   die Kernaussage des Destillats (SCOP für CH ~5-7 % zu günstig gerechnet) bleibt tragfähig. Die
+   Norm-Ausgabe 2022 selbst wurde **nicht** primärquellen-geprüft (kostenpflichtig, nicht im Haus);
+   das Destillat weist jetzt aus, dass wörtliche Norm-Zitate auf 2022 zu beziehen sind, nicht auf
+   die im Vortrag zitierte 2013er-Fassung. Geänderte Datei: `destillate/cop-scop-jaz-waermepumpe-gruenenwald.md`.
+
+**Für den nächsten Lauf:** die 19 verbleibenden Positionen aus obiger Liste sind nach grober
+Sichtung unauffällig (Datenstand aktuell oder bereits kürzlich geprüft) — Ausnahme
+`werkhof29-zirkulaeres-bauen-stroh-lehm` (43) und `graue-energie-betriebsenergie` (46), beide mit
+unklarem/als Marketing markiertem Quellenstand und bisher nicht vertieft geprüft. Diese zwei zuerst
+nehmen, danach Ränge 61-80 neu ranken. E-R163-1 (ewz-Fernwärmetarif-Volltext) unverändert offen,
+diese Session nicht angerührt.
+| Backlink-Ranking per Python-Zaehlscript (Bash, kein Agent) neu gebildet; PDF-Metadaten von fws.ch
+selbst geladen und mit `pdfinfo`/`pdftotext` gegengelesen; EN-14825-Revisionsstand per WebSearch
+(dinmedia.de, iteh.ai) verifiziert | 2026-08-26 |
+
 ## 2026-08-24t — A-BLIND: `sia-181-schallschutz-anforderungswerte` — Flankenübertragung Holzbau am Lignum-Bericht vertieft, Duplikat-Beinahe-Fehler korrigiert
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle/Datenstand,

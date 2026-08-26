@@ -1,6 +1,26 @@
 # CHANGELOG
 
 
+## 2026-08-26 (Mac-Mini-Nachtschicht, Versuchs-Slot 13:30) — A-BLIND Ränge 41-60: Ranking neu gebildet, `cop-scop-jaz-waermepumpe-gruenenwald` bearbeitet
+
+Beide PDF-Korpora (PL-02/PL-04) bleiben geschlossen, Auftrag aus Run 163 aufgenommen: A-BLIND auf
+die Ränge 41-60. Backlink-Ranking per lokalem Python-Zählscript neu gebildet (336 Slugs, kein
+Agent nötig) und in `wiki/QUESTIONS.md` für Folgeläufe hinterlegt. Aus Budgetgründen nur ein Fall
+statt der vollen 20er-Charge bearbeitet.
+
+`[[cop-scop-jaz-waermepumpe-gruenenwald]]` (Rang 52, 20 Backlinks): Datierung des Foliensatzes
+geklärt (Original erneut von fws.ch geladen, `pdfinfo` zeigt CreationDate 08.11.2016) und
+Norm-Ausgabe nachgetragen (EN 14825:2013 im Vortrag zitiert, aktuell gültig ist EN 14825:2022;
+Referenzklimazonen laut Recherche unverändert, Kernaussage des Destillats bleibt tragfähig).
+Kein inhaltlicher Fehler gefunden, zwei offene Punkte geschlossen. Geänderte Datei:
+`destillate/cop-scop-jaz-waermepumpe-gruenenwald.md`.
+
+Restliche 19 Positionen der Ränge 41-60 grob gesichtet: 17 wirken unauffällig (Datenstand aktuell
+oder jüngst geprüft), zwei bleiben für den nächsten Lauf vorgemerkt (`werkhof29-zirkulaeres-bauen-
+stroh-lehm`, `graue-energie-betriebsenergie` — beide unklarer/als Marketing markierter
+Quellenstand). E-R163-1 (ewz-Fernwärmetarif-Volltext) diese Session nicht angerührt, Stand
+unverändert offen.
+
 ## 2026-08-26 (Mac-Mini-Nachtschicht) — E-R163-1 fortgesetzt: amtlicher Beschluss zum ewz-Fernwärmetarif 2027 gefunden
 
 Prioritätsauftrag aus Run 163 aufgenommen (einziger offener Punkt mit Termin-/Zahlenwirkung).
