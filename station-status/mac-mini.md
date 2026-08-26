@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 26.08.2026 13:41:02
+Stand: 26.08.2026 13:51:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:40)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:43)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 26.08.2026 13:41:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 199fdd07a energie: A-BLIND Raenge 41-60, cop-scop-jaz-waermepumpe-gruenenwald Datierung+Norm-Ausgabe nachgetragen (Mac-Mini Nachtschicht 13:30)
+- f946e182b nas-selfcommit: 2 Datei(en) 2026-08-26 13:45
