@@ -3,6 +3,133 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+
+## 2026-08-26 (Logbuch-Radar, 06:5x bis 07:2x) — Register gepflegt, sechs neue Zeilen
+
+Erledigt: Ausführungspläne LBW an Estermann versandt (25.08. 17:49); HUB12-Anlass vom 10.09.
+hinfällig. Neu ins Register: Termin Ziegel heute 11:00, Termin Stadelmann heute 13:00, Zusage
+Terminprogramm Röthlisberger bis Ende KW35, Termin Gesamtzeitplan 31.08. 09:00, Planfreigabe
+Werkplan Therapieküche 02.09., Kreditor Berufsbildungsfonds CHF 220.00 fällig 24.09., finale
+TeKoSi-Freigabe durch die KISPI-Fachstellen offen. Vier Zeilen im Status nachgezogen. Offen und
+unverändert: UBS-Einzahlung (9. Tag), bexio-Token (18. Tag). Abdeckungslücke benannt: Apple Mail
+antwortet seit drei Tagen nicht auf osascript, das Konto raphaeljans@outlook.com hat keinen
+Graph-Weg und ist damit seit dem 25.08. ungelesen. Kein Versand, keine Buchung, kein
+Kalendereintrag.
+
+## Radar-Briefing 26.08.2026
+
+**Lagebild:** Ein ruhiger Tag im Postfach, aber ein dichter im Kalender. Zwei Vor-Ort-Termine am
+Kinderspital, und beide tragen etwas, das seit Wochen offen ist. Dazu ist gestern Abend der erste
+Werkplan der Therapieküche eingetroffen und hat eine Terminkette scharf gestellt, die bis zur
+Montage im Oktober durchläuft.
+
+### Erledigt seit gestern
+
+**Die Ausführungspläne für die Leichtbauwände sind bei Estermann.** Du hast sie am 25.08. um 17:49
+an O. Stadelmann gesandt, mit Jens Ziegel, dem KISPI und L. Bajrami (Jegen) im Kopie-Feld:
+Ausführungsplan Architekt 1:50, Detailpläne Ausholzung 1:20, Schnitt Therapieküche und der frisch
+eingetroffene Röthlisberger-Werkplan. Die Anweisungen sind darin gesetzt: Ausholzung
+Sanitärapparate wie üblich, Oberschränke gemäss Werkplan, Geschirrtablar gemäss Architektenplan
+SAN 1:20, Unterzüge der beiden Schiebetüren mit Jegen absprechen, generell EI30. Damit ist die
+Grundlage für den heutigen Termin um 13:00 gelegt.
+
+**Der HUB12-Anlass vom 10. September fällt weg.** HUB12 legt die beiden diesjährigen Anlässe wegen
+reduzierter Mitgliederbeiträge zu einem einzigen Fest zusammen, neu am **Mittwoch 9. Dezember
+2026**. Die Registerzeile ist geschlossen, der neue Termin als Merkposten übernommen. Du hast die
+Mail gestern um 18:47 bereits an Marco Prencipe und Peter Weisser weitergeleitet.
+
+### Aus unseren Gesprächen
+
+Im ganzen Fenster (25.08. 04:13 bis heute 06:13) hat kein Gespräch mit Claude stattgefunden, alle
+35 Sitzungen waren automatische Läufe. Zwei Befunde daraus sind trotzdem beratungsrelevant, weil
+sie Auskünfte betreffen, die Du einer Bauherrschaft geben könntest.
+
+**SIA 118:1991 hatte 84 Kernlücken.** Das meistgezogene Norm-Destillat des Hub trug seit dem 17.07.
+den Status «gesichert» und war inhaltlich unvollständig, bei null falschen Zahlen. Die für die
+Bauleitung folgenreichsten Funde: **Art. 163** fehlte ganz (ein bei der Abnahme erkannter, aber
+nicht protokollierter Mangel gilt als stillschweigend genehmigt, die Unternehmerhaftung entfällt
+insoweit), **Art. 125 Abs. 2** war halbiert und las sich so, als sei längeres Vorhalten des
+Gerüsts gratis, und **Art. 83** zum Bauhandwerkerpfandrecht fehlte inhaltlich. Alles ist
+eingearbeitet.
+
+**Zwei Rechtskorrekturen mit Aussenwirkung.** Bei **RPV Art. 42 Abs. 3** stand die falsche Formel
+in der Wissensbasis Planungsgrundlagen. Richtig sind zwei getrennte Schwellen: innerhalb des
+Gebäudevolumens plus 60 Prozent der anrechenbaren Bruttogeschossfläche, ausserhalb weder 30 Prozent
+noch 100 m², und Erweiterungen innerhalb werden nur halb angerechnet. Wer die alte Zeile
+weitergegeben hätte, hätte einer Bauherrschaft den Innenausbau-Spielraum halbiert und den Anbau zu
+günstig gerechnet. Bei **Art. 229 StGB** stand «bis zu drei Jahren» für beide Tatbestände; richtig
+ist vorsätzlich bis fünf Jahre, fahrlässig bis drei.
+
+### In den nächsten 7 Tagen
+
+**Heute 11:00, Kinderspital vor Ort: Brandschutz mit Jens Ziegel.** Du bist Organisator, Ziegel hat
+zugesagt, Spörri, Würsch und Spahic sind eingeladen. Ziegel hat gestern um 16:12 geschrieben, er
+habe heute um 08:30 einen Termin mit Benjamin Kübler, um die Lüftungsplanung final zu besprechen,
+und werde Dir um 11:00 berichten. Damit bekommt der Lüftungsstrang, der seit dem UGZ-Fachbefund vom
+14. Juli offen ist, heute Vormittag zum ersten Mal eine gebündelte Antwort.
+
+**Heute 13:00, Kinderspital vor Ort: Treffen mit Othmar Stadelmann** (Organisator M. Spörri, mit
+Würsch, Gerber, Spahic). Anlass ist der Rückbau der Leichtbauwände im OG1, der diese Woche läuft.
+Die Pläne dafür hat er seit gestern Abend.
+
+**Morgen 27.08. 13:00: Koordinationssitzung Gruner / Jans / KISPI**, Teams, der
+Zwei-Wochen-Serientermin.
+
+**Freitag 28.08.: das bereinigte Terminprogramm für Röthlisberger.** Du hast es am 24.08. um 17:10
+selbst zugesagt, wörtlich «am Ende dieser Woche KW35». Es ist die einzige selbst gesetzte Frist
+dieser Woche, und sie zählt mehr, als ihre Grösse vermuten lässt: Nicklas Rothe hat seine
+Terminkette am 24.08. einseitig gesetzt (Planfreigabe 02.09., Produktionsstart 07.09., Produktion
+fertig 09.10., Montage 12. bis 16.10.). Solange kein bereinigtes Programm dagegensteht, gilt seine
+Kette samt der Freigabefrist, die Dich bindet.
+
+**Montag 31.08. 09:00: Abgleich finaler Gesamtzeitplan**, Teams, eine Viertelstunde, Organisatorin
+Cornelia Schäfer mit Claudia Allerkamp und Albin Spahic. Der Termin liegt genau zwischen dem
+Produktionsstart der Türmatrix am 01.09. und der Planfreigabe der Therapieküche am 02.09.
+
+**Dienstag 01.09.: Produktionsstart Türmatrix.** Unverändert der Punkt mit dem grössten Rückstand:
+55 der 61 olivgrünen Architektur-Spalten sind bei allen 33 Umbau-Türen leer, rund 1'800 Einträge.
+Schalldämmwert, Prüfklima, U-Wert und Strahlenschutz sind Zulieferungen von Bauphysik und
+MED-Planung und bisher nicht angefragt.
+
+**Mittwoch 02.09.: Planfreigabe Werkplan Therapieküche.** Nicklas Rothe hat gestern um 17:12 die
+erste Fassung gesandt (`25_08_2026_264619-01_Therapieküche_KISPI_Zürich.dft.pdf`) und bittet um
+zeitnahe Rückmeldung. Zwei Vorbehalte nennt er selbst: die **KWC-Armaturen konnte er nicht optisch
+einzeichnen**, und Texte wie Kommentare stammen aus seiner Offerte, nicht aus der
+Ausführungsplanung. Die Armaturen sind genau der Punkt, den Du ihm am 24.08. als besonders zu
+prüfen aufgegeben hattest, nämlich Position und Fixierung in Bezug auf Stabilität und Nutzung. Der
+Plan schweigt also dort, wo die Frage gestellt war. Offen ist zusätzlich, ob die zwölf
+Klärungspunkte von Tobias Inniger vom 08.08. beantwortet sind (Frontdekor, Griffleiste,
+Vollkerndekor, Überstand und Finish der Arbeitsplatte, Steckdosenpositionen, Typenbezeichnungen der
+bauseitigen Geräte). Aus dem Thread ist das nicht belegbar.
+
+### In Beobachtung
+
+Die UBS-Einzahlung von CHF 50'000 für die Raphael Jans AG ist seit neun Tagen offen; das Konto ist
+seit dem 17.08. eröffnet, die Kapitalbescheinigung kommt erst nach der Zahlung, die Beurkundung
+frühestens um den 05.09. Der bexio-Token wird seit achtzehn Tagen mit HTTP 401 abgelehnt, der
+letzte verifizierte Zahlstatus ist der 08.08.; es wurde nichts gemahnt. Die finale Freigabe der
+TeKoSi-Türfachplanung liegt seit dem 24.08. bei den KISPI-Fachstellen. Neu und ohne Eile: der
+Berufsbildungsfonds Raum- und Bauplanung stellt CHF 220.00 in Rechnung, fällig am 24.09.; die
+Rechnung läuft noch auf die Saumstrasse 21, eine Adressmutation wäre sinnvoll.
+
+**Eine Lücke, die ich benennen muss:** Apple Mail antwortet seit drei Tagen nicht auf osascript. Ich
+habe rj@ und mail@ über Graph vollständig gelesen, aber das Konto raphaeljans@outlook.com existiert
+nur in Apple Mail und hat keinen zweiten Weg. Es ist seit dem 25.08. ungelesen, und es ist das Konto
+des Projekts 2414 Thalwil. Die beiden Thalwil-Punkte im Register, Eingabe Begleitbeschrieb und
+SBB-Näherbaurechtsvereinbarung, konnte ich heute nicht gegenprüfen; ich führe sie unverändert, ohne
+zu behaupten, dass sie es sind.
+
+### Vorschlag Kalendereinträge
+
+Freitag 28.08., Erinnerung am Morgen: bereinigtes Terminprogramm an Röthlisberger senden. Mittwoch
+02.09., Erinnerung: Planfreigabe Werkplan Therapieküche. Beides nur als Vorschlag, ich trage nichts
+ein.
+
+### Token-Tempo
+
+Vortag 25.08.: MacBook Pro 182.7 Mio Tokens (136.01 USD), Mac Mini 83.3 Mio Tokens (38.41 USD),
+zusammen 266.0 Mio Tokens und 174.42 USD API-Kostenäquivalent.
+
 ## Nachtschicht-Zyklus Mac Mini 25.08.2026 (Versuchs-Slot 13:30) — Wissenscheck entwurfs-referenzen Phase 1
 
 Prioritaeten 1-3 leer/erledigt (keine pending remote-/sync-Tasks; Synobsis Stufe 2 weiterhin
