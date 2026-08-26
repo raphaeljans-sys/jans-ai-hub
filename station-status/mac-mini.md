@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.08.2026 07:10:31
+Stand: 26.08.2026 07:20:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 26.08.2026 07:10:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d25470465 logbuch-radar 26.08.2026: Register +6 Zeilen (Termine Ziegel/Stadelmann/Gesamtzeitplan, Zusage Terminprogramm KW35, Planfreigabe Therapiekueche 02.09., Kreditor BBF CHF 220), 4 Status nachgezogen, Briefing im Logbuch
+- 29cea2c6a vollgas-fruehwarnung 26.08.2026: still beendet, kein Kriterium erfuellt (0 Limit-Ereignisse, 10.77 Mio teuer am 25.08., alle 4 Briefings geliefert, Radar 6 h frisch, Stueckkosten 0.51 Mio/Artikel); zwei Radar-Punkte: Destillat-Front steht seit 23.08., Lauf-Gate protokolliert seit 24.08. nicht mehr
