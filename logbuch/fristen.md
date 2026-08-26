@@ -3920,6 +3920,19 @@ Uf-Fallback-Werte fuer Fensterrahmen (Holz 1,9 / Kunststoff 2,5 / Verbundprofil 
 Alle Fundstellen sind nachgezogen. Wer in einem aelteren JANS-Dokument die alten Werte findet, sollte
 sie ersetzen. Lauf: `wissen/energie/outputs/2026-08-25_energie-run163.md`.
 
+⛔ **NOCHMALS BERICHTIGT 26.08.2026 (energie Run 164) — bitte diese Fassung verwenden.** Auch
+**1,8 / 2,2 / 2,8 ist ueberholt**: das sind die Werte der Merkblatt-**Ausgabe 2009**. Geltend ist
+die **Ausgabe 2021** (Herausgeberin **EnDK**, Basis **SIA 380/1:2016**), Tabelle 6:
+**Holz/Holz-Metall 1,4 · Kunststoff 1,9 · waermegedaemmte Verbundprofile 2,5 · Metallprofile
+3,3 W/(m²·K)** — und **nur noch zur Beurteilung aelterer Fenster**. Fuer **neue** Fenster gibt es
+keinen materialbezogenen Rueckfallwert mehr; dort ist der **deklarierte Uf des Produkts**
+einzusetzen (Rahmen-Datenblatt in der Ausschreibung verlangen).
+**Beratungsrelevanz:** mit den 2009er-Werten wird die Einsparung eines Fensterersatzes gegenueber
+der Bauherrschaft **ueberschaetzt** — die neuen Rechenwerte lassen das Altfenster besser dastehen.
+Alle KB-Fundstellen (10 in 6 Dateien) sowie die Querverweise in `wissen/normen` und
+`wissen/koordination` sind nachgezogen. Lauf:
+`wissen/energie/outputs/2026-08-26_energie-run164.md`.
+
 ---
 
 **NACHTRAG 26.08.2026, 06:1x (konversations-log) — zwei Fachkorrekturen aus der Nacht, kein Termin,

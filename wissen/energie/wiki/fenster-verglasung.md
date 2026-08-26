@@ -110,9 +110,15 @@ Uw-Anforderung (ZH/Minergie ≤ 1,0). Detail inkl. Formel → `[[fenster-energie
   WebSearch-Zusammenfassung) plus DE-Richtwert-Bandbreiten → `[[g-werte-verglasungstypen-ch]]`.
   Amtliche CH-Primärquelle mit Typen-Tabelle bleibt weiterhin offen.
 - **Amtliche Uf-Tabelle je Rahmenmaterial: geschlossen 2026-07-14 (Run 65), ⚠ Werte berichtigt
-  2026-08-25 (Run 163).** **Es gelten Holz/Holz-Metall 1,8 · Kunststoff 2,2 · wärmegedämmte
-  Verbundprofile 2,8 W/(m²·K)** aus dem «Merkblatt Fenster» (EnFK/EnergieSchweiz/BFE, Best-Nr.
-  805.107.d, Tabelle 8, Basis SIA D 0176) → `[[enfk-fensterblatt]]`. Der zuvor hier geführte
+  2026-08-25 (Run 163).** ⛔ **Erneut berichtigt 2026-08-26 (Run 164) — die
+  Ausgabe 2021 des Merkblatts war der KB unbekannt.** Geltend ist die **Ausgabe 2021** des
+  «Merkblatt Fenster» (Herausgeberin **EnDK**, Basis **SIA 380/1:2016**), Tabelle 6:
+  **Holz/Holz-Metall 1,4 · Kunststoff 1,9 · wärmegedämmte Verbundprofile 2,5 · Metallprofile
+  3,3 W/(m²·K)** — und **nur noch für ältere Fenster** (Beurteilung bestehender Bauten ohne
+  Datenblatt). Für **neue** Fenster gibt es keinen materialbezogenen Rückfallwert mehr; dort
+  zählt der deklarierte Uf des Produkts. Die zuvor hier geführten Werte 1,8 · 2,2 · 2,8
+  stammen aus der **Ausgabe 2009** (Best-Nr. 805.107.d, Tabelle 8) und sind überholt
+  → `[[enfk-fensterblatt]]`. Der zuvor hier geführte
   BFE-Bauteilekatalog 2002 (Kap. 5.1.2) nannte 1,9 · 2,5 · 3,3 W/(m²·K); **sein Fenster-Kapitel ist
   seit 08.2009 ausdrücklich abgelöst** (Ablösungsklausel im Merkblatt selbst nachgelesen). Historisch
   bleibt aus dem Katalog 2002 brauchbar: die

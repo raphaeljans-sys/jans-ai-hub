@@ -204,9 +204,11 @@ Ausgabe **08.2009**) löst dieses Kapitel ausdrücklich ab; wörtlich auf seiner
 *«Das Merkblatt löst folgende Planungswerkzeuge des Bundes ab · U-Wert-Berechnung und
 Bauteilekatalog Neubauten, Kapitel 5.1 Fenster (Ausgabe 2002) · U-Wert-Berechnung und
 Bauteilekatalog Sanierungen, Kapitel 5.1 Fenster (Ausgabe 2002) · k-Werte und g-Werte von
-Fenstern (Ausgabe 1995)»* (selbst gegengelesen 2026-08-25, Run 163). **Geltende Rechenwerte
-(Tabelle 8, Basis SIA D 0176): Holz/Holz-Metall 1,8 · Kunststoff 2,2 · wärmegedämmte
-Verbundprofile 2,8 W/(m²·K)** → `[[enfk-fensterblatt]]`. Die Werte unten sind der **historische
+Fenstern (Ausgabe 1995)»* (selbst gegengelesen 2026-08-25, Run 163). **Geltende Rechenwerte: Ausgabe 2021 des Merkblatts
+(EnDK, Basis SIA 380/1:2016), Tabelle 6 — Holz/Holz-Metall 1,4 · Kunststoff 1,9 · wärmegedämmte
+Verbundprofile 2,5 · Metallprofile 3,3 W/(m²·K), nur noch für ältere Fenster**
+→ `[[enfk-fensterblatt]]`. ⚠ **Berichtigt 26.08.2026 (Run 164):** hier standen 1,8 / 2,2 / 2,8
+aus der Ausgabe 2009 (Tabelle 8, Basis SIA D 0176). Die Werte unten sind der **historische
 Stand 2002** und bleiben nur zur Nachvollziehbarkeit stehen.
 
 **Fallback-Werte OHNE Herstellerangaben (Kap. 5.1.2, ⚠ Ausgabe 2002, ABGELÖST — konservative

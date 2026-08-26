@@ -1,5 +1,49 @@
 # CHANGELOG
 
+## 2026-08-26 (Run 164, Scheduled Task 22:38) — E-R163-3 geschlossen: das «Merkblatt Fenster» hat eine Ausgabe 2021; 10 Fundstellen berichtigt
+
+**Der Fund.** Die KB führte die Rahmen-Rechenwerte Uf 1,8 / 2,2 / 2,8 als geltend und hatte sie am
+25.08.2026 (Run 163) sogar noch *auf* diese Werte hin korrigiert. Beide dabei verglichenen Quellen
+waren überholt: geltend ist die **Ausgabe 2021** des «Merkblatt Fenster» (Herausgeberin **EnDK**,
+mitgeltend ausdrücklich **SIA 380/1:2016**), Tabelle 6 mit **Holz/Holz-Metall 1,4 · Kunststoff 1,9 ·
+wärmegedämmte Verbundprofile 2,5 · Metallprofile 3,3 W/(m²·K)** — und **nur noch für ältere
+Fenster**. Für neue Fenster kennt die geltende Ausgabe keinen materialbezogenen Rückfallwert mehr;
+dort zählt der deklarierte Uf des Produkts. Damit ist **E-R163-3** beantwortet (Run 163 hatte
+vermerkt, eine neuere Ausgabe sei «nicht auffindbar»).
+
+**Belegkante.** PDF selbst gelesen (16 S., `pdftotext -layout`), SHA-256 `95c204f6…5aed0ddd`,
+CreationDate 18.02.2021, EnDK-Impressum. `endk.ch/de/fachleute-1/vollzugshilfen` leitet per HTTP 301
+auf `energiehub-gebaeude.ch` um — amtliche Plattform, kein Drittanbieter.
+
+**Berichtigt (10 Fundstellen, 6 Dateien):** `destillate/enfk-fensterblatt.md` (Uf-Tabelle als
+historisch markiert, neuer Abschnitt «Ausgabe 2021», Frontmatter → `established`),
+`destillate/fenster-verglasung-uw-g-wert.md` (2), `destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md`,
+`destillate/INDEX.md` (2), `wiki/fenster-verglasung.md`, `wiki/BAUHERREN-FAQ.md` (F35, F69, F199,
+Laufbericht-Zeile). Der in F199/INDEX seit Run 121 vermerkte «offene Widerspruch» zum
+Bauteilekatalog 2002 ist damit gegenstandslos.
+
+**Bauherren-Wirkung:** im Bestand rechnen Altfenster etwas besser, der Gewinn eines Fensterersatzes
+entsprechend kleiner — mit den 2009er-Werten wird die Einsparung überschätzt. In der Ausschreibung
+gehört das Rahmen-Datenblatt eingefordert, nicht die Materialangabe.
+
+**Prüfwerkzeuge:** `kennwert-recompute` 0 Befunde; `wiki-konsistenz` 20 Treffer ohne Bestandsfehler
+(FAQ-interne Fragenanker + Zeilenumbruch-Artefakte, bereits dokumentierte Werkzeuggrenze);
+`bezugsgroessen-check` 126 Kandidaten, Stichprobe ohne Fund; `datenstand-waechter` 39, davon 4
+Werkzeug-Rauschen (erledigte Prüfstichtage → E-R164-3). **Rückwärts-Diff** über die drei
+vorgemerkten Destillate (`werkhof29…`, `graue-energie-betriebsenergie`,
+`vorgehen-bei-beschwerden-innenraumklima`): alle drei sauber, Vorbehalte an jeder Zitierstelle
+mitgegangen; Stichprobe Autarkie↔Deckungsgrad (Run 150) vollständig propagiert.
+
+**Methodische Lehre (neu offen als E-R164-2):** Die KB prüft Quellen auf Ablösung durch *andere*
+Quellen, aber nicht auf eine neuere *Ausgabe derselben* Quelle. Ein Ablösungsnachweis zwischen zwei
+Altdokumenten ist kein Aktualitätsnachweis. Betroffen sind alle Vollzugshilfen/Merkblätter mit
+Bestellnummer. Zweite Lehre: die Abschlussregel braucht **Schreibvarianten** — der erste grep fand
+8 Fundstellen, der zweite (`Uf 1,8`, `Kunststoff Uf 2,2`) zwei weitere mit der Sachaussage im
+Fliesstext.
+
+Report: `outputs/2026-08-26_energie-run164.md`.
+
+
 
 ## 2026-08-26 (Mac-Mini-Nachtschicht, Versuchs-Slot 13:30) — A-BLIND Ränge 41-60: Ranking neu gebildet, `cop-scop-jaz-waermepumpe-gruenenwald` bearbeitet
 

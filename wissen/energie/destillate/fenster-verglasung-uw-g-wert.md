@@ -83,8 +83,12 @@ Holz-Metall ist die klassische wetterrobuste Kombination.
 
 **Uf-Fallback (BFE-Bauteilekatalog 2002, Kap. 5.1.2, S. 66) — ⚠ HISTORISCH, seit 08.2009 amtlich
 abgelöst** (Merkblatt Fenster, Best-Nr. 805.107.d, löst Kap. 5.1 dieses Katalogs wörtlich ab;
-selbst gegengelesen 2026-08-25). **Für einen Nachweis gelten Holz/Holz-Metall 1,8 · Kunststoff 2,2
-· wärmegedämmte Verbundprofile 2,8 W/(m²·K)** → `[[enfk-fensterblatt]]`. Die Bestätigung vom
+selbst gegengelesen 2026-08-25). **Für einen Nachweis gelten die Werte der Ausgabe 2021 des
+Merkblatts (EnDK, Basis SIA 380/1:2016), Tabelle 6: Holz/Holz-Metall 1,4 · Kunststoff 1,9 ·
+wärmegedämmte Verbundprofile 2,5 · Metallprofile 3,3 W/(m²·K) — und nur noch für ältere
+Fenster; für neue Fenster ist der deklarierte Uf des Produkts einzusetzen**
+→ `[[enfk-fensterblatt]]`. ⚠ **Berichtigt 26.08.2026 (Run 164):** hier standen bis dahin
+1,8 / 2,2 / 2,8 aus der Ausgabe **2009** desselben Merkblatts. Die Bestätigung vom
 2026-07-15 betraf die *korrekte Wiedergabe der Quelle von 2002*, nicht deren Geltung. Wortlaut dort,
 einzusetzen «wenn keine überwachten Angaben vorliegen»:
 
@@ -237,8 +241,9 @@ mit der SIA-331-Grösse bewusst davon ab (Kontext, nicht im Volltext geprüft).
 **Erledigt am 2026-07-15 (vorher offen):** amtliche g-Werte 2-IV-IR/3-IV-IR (62 %/45 %) und
 Uf-Fallback (Holz 1,9/Kunststoff 2,5/Verbundprofil 3,3) primärquellen-bestätigt — ⚠ **berichtigt
 2026-08-25 (Run 163): bestätigt war die quellentreue Wiedergabe des Katalogs 2002, nicht dessen
-Geltung; die Uf-Werte sind seit 08.2009 amtlich abgelöst (1,8/2,2/2,8), die g-Werte bleiben
-unberührt**; FEA-Klassengrenzen
+Geltung; die Uf-Werte sind seit 08.2009 amtlich abgelöst, die g-Werte bleiben
+unberührt** — ⚠⚠ **nochmals berichtigt 26.08.2026 (Run 164): der dort genannte Ablösewert
+1,8/2,2/2,8 ist die Ausgabe 2009; geltend ist die Ausgabe 2021 mit 1,4/1,9/2,5/3,3**; FEA-Klassengrenzen
 A-G (Uw,eq-Schwellen) aus dem BFE-Faktenblatt direkt gelesen; Referenzfenstergrösse 1,55×1,15 m
 amtlich bestätigt (SIA-331-Zuordnung bleibt sekundärquellenbelegt).
 

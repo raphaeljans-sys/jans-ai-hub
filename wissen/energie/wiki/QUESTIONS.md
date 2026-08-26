@@ -7312,3 +7312,73 @@ am Primärtext gegengelesen).
 **E-R163-1** angehen — es ist der einzige neue Punkt mit Terminwirkung und Zahlenrelevanz für
 Bauherren-Aussagen. Unverändert blockiert, nicht erneut aufgreifen: **E-R148-1** (Normkauf
 SIA 380/1:2016), **E-R161-1** (SN EN ISO 6946), **E-R230-2** und **E103** (beide Entscheid Raphael).
+
+### Run 164 (26.08.2026) — E-R163-3 geschlossen: das Merkblatt Fenster hat eine Ausgabe 2021
+
+**Geschlossen: E-R163-3.** Die Frage lautete, ob die Uf-Werte 1,8 / 2,2 / 2,8 unter
+SIA 380/1:2016 unverändert gelten, nachdem das «Merkblatt Fenster» auf SIA 380/1:2009 fusst.
+Run 163 hielt fest, eine neuere Merkblatt-Ausgabe sei «nicht auffindbar». **Sie existiert:
+Ausgabe 2021**, Herausgeberin EnDK, ausdrücklich mitgeltend **SIA 380/1:2016**.
+
+**Antwort: nein, die Werte gelten nicht unverändert — sie sind andere, und der Geltungsbereich
+ist enger.** Tabelle 6 der Ausgabe 2021 führt **Holz/Holz-Metall 1,4 · Kunststoff 1,9 ·
+wärmegedämmte Verbundprofile 2,5 · Metallprofile 3,3 W/(m²·K)**, und zwar nur noch als
+Rückfallwert zur Beurteilung **bestehender** Bauten ohne Datenblatt. Für **neue** Fenster kennt
+die geltende Ausgabe keinen materialbezogenen Rückfallwert mehr; dort zählt der deklarierte Uf
+des Produkts (Tabelle 7 rechnet mit Uf 1,0 / 1,2 / 1,4 / 1,7). Die Werte 1,8 / 2,2 / 2,8 kommen
+im Volltext der Ausgabe 2021 als Rahmen-Uf nirgends mehr vor.
+
+**Belegkante:** PDF selbst gelesen (`pdftotext -layout`, 16 S.), SHA-256
+`95c204f63e11e54ef1ce7c610cab0fbbd91029b0bad5f7aac427d8305aed0ddd`, CreationDate 18.02.2021,
+Impressum «Konferenz Kantonaler Energiedirektoren EnDK, Haus der Kantone, 3011 Bern». Bezogen
+über die amtliche Plattform: `endk.ch/de/fachleute-1/vollzugshilfen` leitet per **HTTP 301** auf
+`energiehub-gebaeude.ch` um — das Portal ist die EnDK selbst, kein Drittanbieter.
+
+**Was dieser Fall methodisch zeigt (wichtiger als der Zahlenfund).**
+
+1. **Zwei überholte Quellen gegeneinander zu prüfen erzeugt einen falschen Geltungsentscheid.**
+   Run 163 hat sauber belegt, dass das Merkblatt 2009 den Bauteilekatalog 2002 ablöst, und daraus
+   geschlossen, die 2009er-Werte «gelten». Der Schluss war logisch richtig und im Ergebnis falsch,
+   weil die Frage «welche ist die geltende **Ausgabe** dieser Quelle» nie gestellt wurde. **Ein
+   Ablösungsnachweis zwischen zwei Altdokumenten ist kein Aktualitätsnachweis.**
+2. **«Nicht auffindbar» ist eine Aussage über die Suche.** Die Ausgabe 2021 lag auf der Website
+   der Herausgeberin. Gefunden wurde sie mit einer Suche nach der **Bestellnummer plus Sachwort**
+   statt nach dem Titel allein.
+3. **Der Geltungsbereich altert mit den Zahlen.** Die inhaltlich folgenreichste Änderung ist nicht
+   1,8 → 1,4, sondern der Wegfall des Materialwerts für **neue** Fenster. Wer nur Zahlen gegen
+   Zahlen difft, hätte sie übersehen.
+4. **Der breite grep der Abschlussregel ist keine Formalie.** Der erste grep (exakte Zahlenfolge)
+   fand 8 Fundstellen, ein zweiter über Schreibvarianten (`Uf 1,8`, `Kunststoff Uf 2,2`) zwei
+   weitere — F35 und F199, beide mit der Sachaussage im Text. Ohne den zweiten Durchgang wäre der
+   Indach-Fall exakt wiederholt worden.
+
+**Korrigierte Dateien (10 Fundstellen):** `destillate/enfk-fensterblatt.md` (Uf-Tabelle als
+historisch markiert + neuer Abschnitt «Ausgabe 2021» + Frontmatter),
+`destillate/fenster-verglasung-uw-g-wert.md` (2), `destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md`,
+`destillate/INDEX.md` (2), `wiki/fenster-verglasung.md`, `wiki/BAUHERREN-FAQ.md` (F35, F69, F199,
+Laufbericht-Zeile).
+
+**Neue offene Punkte:**
+
+- [ ] **E-R164-1 (P2): Lag zwischen 2009 und 2021 eine Zwischenausgabe, und gibt es nach 2021 eine
+  neuere?** Die EnDK-Vollzugshilfen-Seite rendert ihre Dateiliste per JavaScript und war per
+  WebFetch nicht auslesbar; der Nachweis stützt sich auf das Dokument selbst («Ausgabe 2021»).
+  Lösbar über das Chrome-Werkzeug oder eine direkte Anfrage bei der EnDK.
+- [ ] **E-R164-2 (P2, methodisch): Der Ausgabenstand ist KB-weit nie systematisch geprüft worden.**
+  Dieser Fall war kein Einzelfall der Sorgfalt, sondern eine Lücke der Methode: die KB prüft
+  Quellen auf Ablösung durch **andere** Quellen, aber nicht auf eine **neuere Ausgabe derselben**
+  Quelle. Kandidaten mit demselben Risiko sind alle Vollzugshilfen und Merkblätter mit
+  Bestellnummer (EnFK/EnDK/BFE). Vorschlag: eigener Lauf, der für die zwanzig meistzitierten
+  amtsnahen Destillate je die Herausgeber-Website nach der aktuellen Ausgabe abfragt.
+- [ ] **E-R164-3 (P3, Werkzeug): `datenstand-waechter.py` meldet erledigte Prüfstichtage weiter.**
+  Vier Treffer (QUESTIONS Z. 596/2208/2250/5395) betreffen Stichtage, die am 24.08.2026 nachweislich
+  abgearbeitet und mit «✓ Nachtrag» annotiert wurden. Das Werkzeug liest die Annotation nicht.
+  Kleine Ergänzung: Treffer unterdrücken, wenn im Umfeld ein `✓`/`[x]` steht.
+
+**Unverändert blockiert, nicht erneut aufgreifen:** E-R148-1 (Normkauf SIA 380/1:2016), E-R161-1
+(SN EN ISO 6946), E-R230-2 und E103 (beide Entscheid Raphael). **E-R163-1** (ewz-Fernwärmetarif,
+Volltext STRB 3879/2025) bleibt offen, in diesem Lauf nicht bearbeitet.
+
+**Für den nächsten Lauf:** **E-R164-2** zuerst — es ist der einzige neue Punkt, der eine ganze
+Klasse von Destillaten betrifft, und dieser Lauf hat gezeigt, was er kostet, wenn er offen bleibt.
+Danach A-BLIND Ränge 61-80 (Ranking-Skript in QUESTIONS, Eintrag 26.08.2026).

@@ -2,10 +2,10 @@
 quelle: PL - 02_Recht_Norm/06_Richtlinien/Minergie/Merkblaetter/EnFK_Fensterblatt_de.pdf
 herausgeber: EnFK — Konferenz Kantonaler Energiefachstellen (Conférence des services cantonaux de l'énergie), in Zusammenarbeit mit EnergieSchweiz/Bundesamt für Energie BFE
 ausgabe: 08.2009 (Bestellnummer 805.107.d), Grundlage Norm SIA 380/1:2009 «Thermische Energie im Hochbau»
-gelesen: 1-16 (alle Seiten)
+gelesen: 1-16 (alle Seiten); Ausgabe 2021 zusaetzlich vollstaendig gelesen 2026-08-26 (Run 164)
 datenstand: 2009 ⚠ Datenstand 17 Jahre alt (heute 2026); Grundlage ist die Norm SIA 380/1:2009, die seither revidiert wurde (aktuelle Fassung 2016) — sämtliche Grenzwerte, Uw/Ug/Uf/Ψg-Rechenwerte und Verschattungsregeln vor Verwendung im Energienachweis gegen den aktuellen kantonalen Stand (EN-ZH/EVEN, geltende SIA-380/1-Ausgabe) prüfen. Das Merkblatt selbst weist aus, dass es ältere BFE-Planungswerkzeuge (Bauteilekatalog Neubauten/Sanierungen 2002, k-/g-Werte-Merkblatt 1995) ablöst.
-status: emerging
-last_updated: 2026-08-03
+status: established (Ausgabe 2009 als historisch; geltende Ausgabe 2021 am Original nachgetragen)
+last_updated: 2026-08-26
 links: [[fenster-verglasung-uw-g-wert]], [[waermebrueckenkatalog-bfe-fensteranschluss]]
 ---
 
@@ -274,3 +274,65 @@ Komfort.
   4-12-6-12-4) nur auszugsweise übernommen.
 - Aktueller Stand der Norm SIA 380/1 (2016-Fassung) und deren Auswirkung auf die hier
   destillierten Grenzwerte/Rechenwerte wurde nicht gegengeprüft.
+
+---
+
+## Ausgabe 2021 — die geltende Fassung (nachgetragen 26.08.2026, Run 164)
+
+**Befund:** Es gibt eine **Ausgabe 2021** desselben Merkblatts, ausdrücklich auf Basis
+**SIA 380/1:2016**. Sie war der KB bis heute unbekannt; Run 163 hielt am 25.08.2026 fest, eine
+neuere Ausgabe sei «nicht auffindbar» (E-R163-3). Damit hat die KB die Rechenwerte der Ausgabe
+2009 rund ein Jahr lang als geltend geführt.
+
+**Belegkante.** PDF selbst gelesen (`pdftotext -layout`, 16 S.), bezogen am 26.08.2026 von der
+amtlichen EnDK-Plattform: `endk.ch/de/fachleute-1/vollzugshilfen` leitet per **HTTP 301** auf
+`energiehub-gebaeude.ch` um — das Portal ist also die EnDK selbst, kein Drittanbieter. Datei
+`https://energiehub-gebaeude.ch/wp-content/uploads/2023/02/Merkblatt_Fenster_D_2021.pdf`,
+SHA-256 `95c204f63e11e54ef1ce7c610cab0fbbd91029b0bad5f7aac427d8305aed0ddd`, PDF-CreationDate
+18.02.2021. Impressum: **Konferenz Kantonaler Energiedirektoren EnDK, Haus der Kantone,
+Speichergasse 6, 3011 Bern**. Fusszeile durchgehend «Ausgabe 2021».
+
+**Mitgeltende Normen (S. 15, wörtlich):** SIA 180:2014 · SIA 331:2012 · SIA 380:2015 ·
+**SIA 380/1:2016 «Heizwärmebedarf»**. Damit ist E-R163-3 beantwortet: die Ausgabe 2021 ist auf
+die geltende Normfassung nachgeführt.
+
+### Tabelle 6 — Rechenwerte für den Rahmen-U-Wert Uf **für ältere Fenster**
+
+| Rahmenmaterial | Uf in W/(m²·K) |
+|---|---|
+| Holz / Holz-Metall | **1,4** |
+| Kunststoff | **1,9** |
+| Wärmegedämmte Verbundprofile | **2,5** |
+| Metallprofile | **3,3** |
+
+### Zwei Änderungen gegenüber 2009, beide erheblich
+
+1. **Die Zahlen sind andere.** 2009 (Tabelle 8): 1,8 / 2,2 / 2,8. 2021 (Tabelle 6):
+   1,4 / 1,9 / 2,5, dazu neu eine vierte Zeile Metallprofile 3,3. Die Werte 1,8 / 2,2 / 2,8
+   kommen im Volltext der Ausgabe 2021 als Rahmen-Uf **nirgends mehr vor** (grep-geprüft).
+2. **Der Geltungsbereich ist enger.** 2009 war die Tabelle der allgemeine Rückfallwert
+   «ohne überwachte Produktangaben». 2021 steht sie im Block «ältere Fenster», eingeleitet mit:
+   «Ohne detaillierte Angaben sind diese Werte beim Beurteilen von **bestehenden Bauten**
+   einzusetzen.» Für **neue** Fenster führt die Ausgabe 2021 keinen materialbezogenen
+   Rückfallwert mehr, sondern rechnet in Tabelle 7 mit dem deklarierten Uf des Produkts
+   (Spalten 1,0 / 1,2 / 1,4 / 1,7 W/(m²·K)).
+
+### Bauherren-Transfer
+
+Für den Bauherrn heisst das zweierlei. **Beim Bestand** (Sanierungsentscheid, GEAK, Beurteilung
+alter Fenster ohne Datenblatt) sind die Rechenwerte **tiefer** als bisher in der KB geführt —
+der rechnerische Ist-Zustand eines Altfensters fällt also etwas **besser** aus, und der
+rechnerische Gewinn eines Fensterersatzes entsprechend **kleiner**. Wer mit den 2009er-Werten
+argumentiert, überschätzt die Einsparung. **Beim Neubau/Ersatz** gibt es den bequemen
+Materialwert gar nicht mehr: verlangt wird der **deklarierte Uf des konkreten Produkts**. In der
+Ausschreibung gehört darum das Rahmen-Datenblatt eingefordert, nicht die Materialangabe
+«Holz-Metall».
+
+### Nicht geprüft
+
+Ob zwischen 2009 und 2021 eine Zwischenausgabe lag, und ob nach 2021 eine neuere Fassung
+erschienen ist (die EnDK-Vollzugshilfen-Seite rendert die Dateiliste per JavaScript und war per
+WebFetch nicht auslesbar). Der Nachweis stützt sich auf das Dokument selbst, das «Ausgabe 2021»
+trägt. Für einen verbindlichen Nachweis zusätzlich den kantonalen Stand prüfen (EN-102/EVEN,
+→ `[[enfk-en-102-waermeschutz-2018]]`, das seinerseits für Normfenster-Kennwerte auf dieses
+Merkblatt verweist).

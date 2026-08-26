@@ -1633,12 +1633,15 @@ in Zahlen sehen will: die freiwillige FEA (FFF/SZFF/EnergieSchweiz) klassiert Fe
 < 0, solare Gewinne übersteigen die Verluste) bis **G** (Uw,eq ≥ 0,8); ein Musterfenster mit Uw 1,1 und
 g-Wert 60 % erreicht bereits Klasse A → `[[fenster-energieetikette-fea-bfe]]` (exakte Klassentabelle).
 
-**Ergänzung — Uf amtlich nach Rahmenmaterial (⚠ berichtigt 2026-08-25):** Ohne Produktnachweis gelten
-**Holz/Holz-Metall Uf 1,8**, **Kunststoff Uf 2,2**, **wärmegedämmte Verbundprofile Uf 2,8 W/(m²·K)**
-— aus dem «Merkblatt Fenster» (EnFK/EnergieSchweiz/BFE, Best-Nr. 805.107.d, Tabelle 8, Basis
-SIA D 0176). Die zuvor hier genannten Werte 1,9 / 2,5 / 3,3 stammten aus dem BFE-Bauteilekatalog
-2002, dessen **Kapitel 5.1 Fenster genau dieses Merkblatt seit 08.2009 ausdrücklich ablöst**
-(Wortlaut am Original nachgelesen). Reale, gut gedämmte Produkte liegen oft darunter (Holzfenster real eher
+**Ergänzung — Uf amtlich nach Rahmenmaterial (⚠⚠ zweimal berichtigt, zuletzt 2026-08-26):** Die
+amtlichen Rückfallwerte gelten **nur für die Beurteilung bestehender Fenster**:
+**Holz/Holz-Metall Uf 1,4**, **Kunststoff Uf 1,9**, **wärmegedämmte Verbundprofile Uf 2,5**,
+**Metallprofile Uf 3,3 W/(m²·K)** — «Merkblatt Fenster», **Ausgabe 2021** (Herausgeberin EnDK,
+Basis SIA 380/1:2016), Tabelle 6. **Für ein neues Fenster gibt es keinen Materialwert mehr**;
+dort ist der deklarierte Uf des Produkts einzusetzen (Datenblatt verlangen). Zur Korrekturkette:
+2026-08-25 wurde von 1,9 / 2,5 / 3,3 (BFE-Bauteilekatalog 2002) auf 1,8 / 2,2 / 2,8 (Merkblatt
+**Ausgabe 2009**) berichtigt; am 2026-08-26 zeigte sich, dass **beide** Quellen überholt sind und
+die Ausgabe 2021 gilt. Reale, gut gedämmte Produkte liegen oft darunter (Holzfenster real eher
 
 **Korrektur zur g-Wert-Quelle (16.07.2026):** die bisher zitierte «SZFF Doku 31.03» (Herkunft der
 45-55-%-Bandbreite für Dreifachglas) liess sich im Volltext NICHT auffinden — sie ist vermutlich
@@ -2906,11 +2909,16 @@ noch offen: CH-CHF-Mehrkosten und Ctr-Werte je Hersteller).
 
 **Kurz-Antwort:** Der Fenster-U-Wert Uw ist eine **Mischrechnung** aus Rahmen (Uf), Glas (Ug) und
 Glasrandverbund (Ψg), flächengewichtet nach Rahmenanteil: **Uw = (Uf·Af + Ug·Ag + Ψg·lg) / Aw**.
-Ohne Produktdatenblatt gelten konservative Fallback-Werte für den Rahmen: **Holz/Holz-Metall
-1,8 · Kunststoff 2,2 · wärmegedämmte Verbundprofile (Alu) 2,8 W/(m²·K)** — reale moderne Produkte
-liegen meist deutlich darunter. ⚠ **Berichtigt 2026-08-25:** hier standen bis dahin 1,9 / 2,5 / 3,3
-aus dem BFE-Bauteilekatalog 2002; dessen Fenster-Kapitel ist seit 08.2009 amtlich abgelöst
-(«Merkblatt Fenster», Best-Nr. 805.107.d, Tabelle 8) → `[[enfk-fensterblatt]]`.
+Ohne Produktdatenblatt gelten Rückfallwerte für den Rahmen — **aber nur zur Beurteilung
+**bestehender** Fenster**: **Holz/Holz-Metall 1,4 · Kunststoff 1,9 · wärmegedämmte
+Verbundprofile 2,5 · Metallprofile 3,3 W/(m²·K)** («Merkblatt Fenster», **Ausgabe 2021**,
+Herausgeberin EnDK, Basis SIA 380/1:2016, Tabelle 6) → `[[enfk-fensterblatt]]`. Für ein
+**neues** Fenster gibt es diesen Materialwert nicht mehr: dort ist der **deklarierte Uf des
+Produkts** einzusetzen — verlangen Sie das Rahmen-Datenblatt. ⚠ **Zweimal berichtigt.**
+2026-08-25 (Run 163) von 1,9 / 2,5 / 3,3 (BFE-Bauteilekatalog 2002, Fenster-Kapitel seit 08.2009
+abgelöst) auf 1,8 / 2,2 / 2,8; **2026-08-26 (Run 164)** auf die heutigen Werte, weil die beiden
+zuvor verglichenen Quellen **beide überholt** waren und die geltende Ausgabe 2021 der KB
+unbekannt war.
 
 **Fachliche Begründung:**
 1. **Rahmenanteil entscheidet mit.** Bei sonst gleichem Glas verbessert ein **schmalerer
@@ -3414,6 +3422,9 @@ ursprünglich offenen Punkte am 2026-07-25 primärquellenverifiziert geschlossen
 > — das Fenster-Kapitel des Katalogs 2002 ist seit 08.2009 amtlich abgelöst; es gelten 1,8 / 2,2 / 2,8
 > (Merkblatt Fenster, Best-Nr. 805.107.d) → `[[enfk-fensterblatt]]`. Der Eintrag bleibt als Laufbericht
 > unverändert stehen, die Sachaussage ist damit überholt.
+> ⚠⚠ **Nochmals berichtigt 2026-08-26 (Run 164):** auch die 1,8 / 2,2 / 2,8 sind überholt — sie
+> stammen aus der **Ausgabe 2009** des Merkblatts. Geltend ist die **Ausgabe 2021** (EnDK, Basis
+> SIA 380/1:2016), Tabelle 6: **1,4 / 1,9 / 2,5 / 3,3**, und nur noch für **ältere** Fenster.
 
 > **FAQ-Stand 2026-07-14 (Run 64):** F68 (Aussenlärm) auf **established** gehoben — die
 > Klassentabellen-Frage ist jetzt abschliessend geklärt (SIA 181 definiert keine Fensterklassen,
@@ -6809,10 +6820,14 @@ Ein gutes Fenster schlecht eingebaut fällt also durch.
 «Fensterblatt», Ausgabe 08.2009, Bestellnummer 805.107.d, Seiten 1-16 vollständig; Grundlage
 SIA 380/1:2009. ⚠ Datenstand 17 Jahre alt — sämtliche Grenz- und Rechenwerte vor Verwendung im
 Energienachweis gegen den aktuellen kantonalen Stand (EVEN/EN-ZH, geltende SIA-380/1-Ausgabe)
-prüfen. Offener Widerspruch, bewusst nicht aufgelöst: die Uf-Rechenwerte dieses Merkblatts
-(Holz 1,8 / Kunststoff 2,2 / Verbundprofil 2,8) weichen von jenen des BFE-Bauteilekatalogs 2002
-(1,9 / 2,5 / 3,3) ab. Datenstand 2026-08-03 (Run 121) → `[[enfk-fensterblatt]]`.
-Status **emerging**.
+prüfen. ⛔ **Aufgelöst 2026-08-26 (Run 164):** Der früher hier vermerkte «offene Widerspruch»
+zwischen den Uf-Rechenwerten dieses Merkblatts (Holz 1,8 / Kunststoff 2,2 / Verbundprofil 2,8)
+und jenen des BFE-Bauteilekatalogs 2002 (1,9 / 2,5 / 3,3) ist **gegenstandslos: beide Fassungen
+sind überholt.** Geltend ist die **Ausgabe 2021** des Merkblatts (Herausgeberin EnDK, Basis
+**SIA 380/1:2016**), Tabelle 6: **Holz/Holz-Metall 1,4 · Kunststoff 1,9 · wärmegedämmte
+Verbundprofile 2,5 · Metallprofile 3,3 W/(m²·K)**, und nur noch für **ältere** Fenster; für neue
+Fenster ist der deklarierte Uf des Produkts einzusetzen. Datenstand 2026-08-26 (Run 164)
+→ `[[enfk-fensterblatt]]`. Status **established**.
 
 ## F200 — «Wie kommen Sie auf den U-Wert meiner bestehenden Wand, ohne sie zu öffnen?»
 

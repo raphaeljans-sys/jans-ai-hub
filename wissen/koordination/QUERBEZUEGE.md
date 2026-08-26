@@ -189,7 +189,7 @@ Fuehrend fuer RPG/RPV bleibt **baurecht** — Matrixzeile ergaenzt.
 
 ### energie → Hub (Uf-Fenster-Werte, Entwertung Run 163) — geprueft 2026-08-25 (Run 43), NULLBEFUND
 
-Die am 25.08. von `energie` belegte Abloesung der BFE-2002-Fallback-Tabelle (1,9/2,5/3,3 → 1,8/2,2/2,8
+⛔ **Nachgefuehrt 26.08.2026 (energie Run 164): die Kette geht weiter — 1,8/2,2/2,8 ist die Merkblatt-Ausgabe 2009 und ebenfalls ueberholt; geltend ist die Ausgabe 2021 (EnDK, Basis SIA 380/1:2016) mit 1,4/1,9/2,5/3,3, nur noch fuer aeltere Fenster.** Die am 25.08. von `energie` belegte Abloesung der BFE-2002-Fallback-Tabelle (1,9/2,5/3,3 → 1,8/2,2/2,8
 per «Merkblatt Fenster» 805.107.d, 08.2009) ist **nicht in den Hub gesickert**. Geprueft:
 `planungsgrundlagen/wiki/` vollstaendig, `normen/wiki/` + rund 300 Destillate, `baurecht/wiki/`,
 `skills/energie`, `skills/planungsgrundlagen`, `skills/kostenschaetzung`, `references/`. Einziger
