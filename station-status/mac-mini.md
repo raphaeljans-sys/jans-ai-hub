@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.08.2026 17:16:50
+Stand: 26.08.2026 17:27:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 26.08.2026 17:16:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7fd8fc0c7 nas-selfcommit: 3 Datei(en) 2026-08-26 17:15
+- e1a73076a Synergie-Lauf 19: SYN-50 als terminkritischer Befund ins Fristen-Register (Rule 260805)
