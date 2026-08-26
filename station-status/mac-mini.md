@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.08.2026 13:10:12
+Stand: 26.08.2026 13:20:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 26.08.2026 13:10:12
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b550713d3 vollgas-radar 26.08.2026 12:57: beide Fruehwarnungs-Punkte entkraeftet (Lauf-Gate normal, Destillat-Front an interaktivem Spec-Gate); Registerzeile fuer Korpora 3+4 nachgetragen
+- e83f19102 nas-selfcommit: 2 Datei(en) 2026-08-26 13:15
