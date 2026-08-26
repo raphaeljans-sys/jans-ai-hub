@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.08.2026 13:30:22
+Stand: 26.08.2026 13:40:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:04)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 26.08.2026 13:30:22
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 87592492f nas-selfcommit: 4 Datei(en) 2026-08-26 13:30
+- 199fdd07a energie: A-BLIND Raenge 41-60, cop-scop-jaz-waermepumpe-gruenenwald Datierung+Norm-Ausgabe nachgetragen (Mac-Mini Nachtschicht 13:30)
