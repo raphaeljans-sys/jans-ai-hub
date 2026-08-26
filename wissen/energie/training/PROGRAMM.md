@@ -169,3 +169,39 @@ entscheidbar.
 **Aktualitaet, Widersprueche im Bestand und Belegkante** — alle drei halten den Bestand gegen
 sich selbst. Die Rechenpruefung hat vor allem bewiesen, dass die KB rechnen kann; die Statuskette
 lieferte Praevention statt Korrektur. Der Loop soll entsprechend gewichtet sein.
+
+---
+
+## Sechste Pruefung ab Run 164 (26.08.2026): **Ist das die geltende AUSGABE der Quelle?**
+
+**Warum die Pruefung dazukommt.** Am 26.08.2026 zeigte sich, dass die KB die Rahmen-Rechenwerte
+des «Merkblatt Fenster» rund ein Jahr lang in der Fassung von **2009** als geltend fuehrte und sie
+am Vortag sogar noch *auf* diese Fassung hin korrigiert hatte. Die geltende **Ausgabe 2021** lag
+die ganze Zeit auf der Website der Herausgeberin. Der Lauf davor hatte sauber belegt, dass das
+Merkblatt 2009 den Bauteilekatalog 2002 abloest — und daraus geschlossen, die 2009er-Werte gaelten.
+
+**Der Merksatz: ein Abloesungsnachweis zwischen zwei Altdokumenten ist kein Aktualitaetsnachweis.**
+Die KB prueft seit je, ob eine Quelle durch eine **andere** Quelle abgeloest wurde. Sie hat nie
+geprueft, ob es eine **neuere Ausgabe derselben** Quelle gibt. Das ist eine Luecke der Methode,
+nicht der Sorgfalt eines einzelnen Laufs.
+
+**Was ab jetzt gilt.** Traegt ein Destillat eine Quelle mit **Bestellnummer, Ausgabe- oder
+Versionsangabe** (Vollzugshilfen und Merkblaetter von EnFK/EnDK/BFE, Reglemente, Normauszuege),
+wird vor jeder Geltungsaussage die **Herausgeber-Website nach der aktuellen Ausgabe** befragt.
+Erst danach darf «es gelten …» geschrieben werden; sonst heisst es «die Ausgabe JJJJ nennt …».
+
+**Zwei Handgriffe, die den Fall geloest haben und die Regel wert sind:**
+
+1. **Nach Bestellnummer plus Sachwort suchen, nicht nach dem Titel allein.** Der Vorlauf hatte
+   «keine neuere Ausgabe auffindbar» vermerkt — «nicht auffindbar» ist eine Aussage ueber die
+   Suche, nicht ueber den Bestand (gleiche Familie wie Rule `wege-und-vollmachten`).
+2. **Den Geltungsbereich mitlesen, nicht nur die Zahlen.** Die folgenreichere Aenderung war nicht
+   1,8 → 1,4, sondern dass die Materialtabelle heute **nur noch fuer aeltere Fenster** gilt und es
+   fuer neue Fenster gar keinen Rueckfallwert mehr gibt. Ein reiner Zahlen-Diff haette sie
+   uebersehen.
+
+**Ergaenzung zur Abschlussregel (Schritt 5).** Der grep der Abschlussregel braucht
+**Schreibvarianten**, nicht nur die exakte Zahlenfolge. Im selben Fall fand der erste Durchgang
+(`1,8 / 2,2 / 2,8`) acht Fundstellen, der zweite ueber Varianten (`Uf 1,8`, `Kunststoff Uf 2,2`)
+**zwei weitere mit der Sachaussage im Fliesstext** — beide in der FAQ. Ohne den zweiten Durchgang
+waere der Indach-Fall exakt wiederholt worden.
