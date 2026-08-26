@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.08.2026 05:58:03
+Stand: 26.08.2026 06:08:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 26.08.2026 05:58:03
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9d96cbc46 nas-selfcommit: 7 Datei(en) 2026-08-26 05:45
+- 2824da0f2 twin-fidelity-review: 2026-08-26 (Wartstrasse 8, Fidelity 32; AG-Strang als claude-aera gesperrt; Gehirn neu kompiliert 33965 B)
