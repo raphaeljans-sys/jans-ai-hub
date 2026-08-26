@@ -1,6 +1,23 @@
 # CHANGELOG
 
 
+## 2026-08-26 (Mac-Mini-Nachtschicht) — E-R163-1 fortgesetzt: amtlicher Beschluss zum ewz-Fernwärmetarif 2027 gefunden
+
+Prioritätsauftrag aus Run 163 aufgenommen (einziger offener Punkt mit Termin-/Zahlenwirkung).
+Websuche + WebFetch auf `stadt-zuerich.ch` und `gemeinderat-zuerich.ch`: der von watson.ch
+(28.03.2026) zitierte Stadtratsbeschluss vom 26.11.2025 existiert amtlich und ist identifiziert —
+**STRB Nr. 3879/2025** («Elektrizitätswerk, Revision Fernwärmetarif»), Pfad `/2025/11/` bestätigt
+den Zeitraum. Die dort abrufbare Seite ist nur eine Kurzübersicht ohne Volltext/PDF; die vier
+Tarifzahlen (65→35 CHF/MWh, 42→145 CHF/kW) bleiben damit sekundär (watson), sind aber jetzt an
+einen amtlich nachgewiesenen Beschluss statt an eine unbelegte Medienbehauptung geknüpft. Auch die
+zugehörige Weisung des Stadtrats (Geschäft 2025/525, 12.11.2025, Departement der Industriellen
+Betriebe) wurde identifiziert; das Geschäftsverwaltungssystem des Gemeinderats ist eine dynamische
+Suchmaske ohne stabile Direkt-URL und liess sich innerhalb des Budgets nicht weiter auflösen —
+Volltext-Beschaffung bleibt offen für einen dedizierten Lauf oder eine direkte ewz-Anfrage.
+Geänderte Dateien: `destillate/fernwaerme-anschlusskosten-zh.md` (+13 Zeilen, markierter Nachtrag),
+`wiki/QUESTIONS.md` (E-R163-1 Status gehoben, Beschlussnummer ergänzt). Bericht:
+`outputs/2026-08-26_e-r163-1-primaerbeleg-fernwaerme.md`.
+
 ## 2026-08-25 — Energie Run 163: A-BLIND Ränge 21–40; abgelöste Fenster-Tabelle gefunden (E-121-1 geschlossen)
 
 Sieben parallele Prüfungen auf die meistzitierten Destillate mit alterndem Datenstand; jede

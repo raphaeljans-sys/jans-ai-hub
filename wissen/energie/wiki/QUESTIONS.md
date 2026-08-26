@@ -7217,16 +7217,23 @@ am Primärtext gegengelesen).
 
 **Neue offene Punkte:**
 
-- **E-R163-1 (P1, terminlich) — ewz-Fernwärmetarif wechselt per 2027 die Struktur.** Amtlich belegt
-  ist nur die Richtung: die Stadt Zürich ersetzt das indexbasierte System durch ein kostenbasiertes
-  Gebührenmodell (Medienmitteilung 05.11.2025, Teilrevision Wärmeversorgungsverordnung, Motion
-  GR Nr. 2022/441; Vorlage lag als Antrag beim Gemeinderat). Die konkreten Zahlen (Arbeitspreis
-  65 → 35 CHF/MWh, Leistungspreis 42 → 145 CHF/kW, Stadtratsbeschluss 26.11.2025) stehen **nur in
-  einem Medienbericht** (watson.ch 28.03.2026); die amtliche Mitteilung nennt sie **nicht** — selbst
-  nachgeprüft. **Bis zum Primärbeleg nicht gegenüber Bauherrschaft verwenden.** Nächster Schritt:
-  Stadtratsbeschluss/Gemeinderatsvorlage im Zürcher Geschäftsverwaltungssystem suchen oder ewz
-  direkt anfragen. Wirkung, falls bestätigt: die Fernwärme-Wirtschaftlichkeit verschiebt sich vom
-  Verbrauch zur Fixgebühr — gut gedämmte Gebäude profitieren dann **weniger**.
+- **E-R163-1 (P1, terminlich) — ewz-Fernwärmetarif wechselt per 2027 die Struktur.** ⚠ **Fortgesetzt
+  26.08.2026 (Mac-Mini-Nachtschicht):** der von watson.ch zitierte Beschluss ist jetzt amtlich
+  gefunden — **STRB Nr. 3879/2025** («Elektrizitätswerk, Revision Fernwärmetarif»), gelistet unter
+  `stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/stadtratsbeschluesse/2025/11/`
+  (Pfad `/2025/11/` deckt sich mit dem watson-Datum 26.11.2025). Die abgerufene Seite ist aber nur
+  eine Kurzübersicht (Titel + Nummer, kein Volltext/PDF) — die vier Zahlen (Arbeitspreis
+  65 → 35 CHF/MWh, Leistungspreis 42 → 145 CHF/kW) sind damit **weiterhin nicht am Amtstext
+  gegengelesen**, nur die Existenz und exakte Bezeichnung des Beschlusses. Das Zürcher
+  Geschäftsverwaltungssystem (gemeinderat-zuerich.ch/geschaefte) ist eine dynamische Suchmaske ohne
+  stabile Direkt-URL zum Geschäft 2025/525 (Weisung des Stadtrats, 12.11.2025, Departement der
+  Industriellen Betriebe) — innerhalb des Nachtschicht-Budgets nicht auflösbar, braucht einen
+  dedizierten Lauf oder eine direkte ewz-Anfrage für den Volltext/das PDF. **Bis zum Volltext
+  weiterhin nicht gegenüber Bauherrschaft verwenden**, aber Status gehoben von «unbelegt» auf
+  «Beschluss amtlich nachgewiesen, Zahlen sekundär bis Volltext». Wirkung, falls die watson-Zahlen
+  bestätigt werden: die Fernwärme-Wirtschaftlichkeit verschiebt sich vom Verbrauch zur Fixgebühr —
+  gut gedämmte Gebäude profitieren dann **weniger**. Nachgezogen in
+  `[[fernwaerme-anschlusskosten-zh]]`.
 - **E-R163-2 — keine systematische Rechtsprechungsabfrage zu Wärmepumpen-Lärm.** Die Websuche fand
   keine Praxisänderung 2025/2026, das ist ein schwacher Negativbefund. Offen: Volltextabfrage auf
   `search.bger.ch` → `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`.

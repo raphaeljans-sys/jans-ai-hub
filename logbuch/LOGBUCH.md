@@ -8616,3 +8616,13 @@ keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.
 ## 25.08.2026
 
 - 23:xx Wissenscheck Phase 1 projekt-lessons (Nachtschicht): A0 B2 C0 D2 E0 F3 G1 — Klammer-Tippfehler-Backlink aus dem 03.08.-Check bestaetigt behoben (Run 43); groesster Befund: raw/_INGESTED.md erfasst nur 2 von den Dutzenden Quelldateien, die 12 der 14 Artikel ueber den externen Wissens-Destillat-Korpus buero-projekte speisten. Report: wissen/projekt-lessons/outputs/2026-08-25_health-check.md
+
+## 26.08.2026
+
+- Nachtschicht (Mac Mini, Prioritaet 4): E-R163-1 fortgesetzt (Vorgabe aus Energie-Run 163) —
+  Stadtratsbeschluss STRB Nr. 3879/2025 «Elektrizitaetswerk, Revision Fernwaermetarif» amtlich
+  identifiziert (Titel+Nummer+Zeitraum bestaetigt), die vier watson-Tarifzahlen (65→35 CHF/MWh,
+  42→145 CHF/kW) bleiben mangels Volltext-Zugriff weiterhin sekundaer belegt. Status im Destillat
+  `fernwaerme-anschlusskosten-zh` und in `wiki/QUESTIONS.md` gehoben. Bericht:
+  `wissen/energie/outputs/2026-08-26_e-r163-1-primaerbeleg-fernwaerme.md`. Kein Fan-out, kein
+  Versand, keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund 2.5 von 5 USD.

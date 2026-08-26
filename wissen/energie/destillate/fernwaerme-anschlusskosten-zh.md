@@ -83,6 +83,21 @@ und einen Leistungspreis von 145 statt 42 CHF/kW**, gestützt auf einen Stadtrat
 weder diese Zahlen noch dieses Beschlussdatum** — sie bleibt qualitativ. Die Zahlen sind damit
 **nicht primärquellenbelegt** und dürfen so nicht gegenüber einer Bauherrschaft verwendet werden.
 
+⚠ **Nachtrag 26.08.2026 (Mac-Mini-Nachtschicht, E-R163-1 fortgesetzt):** Der von watson.ch
+zitierte Beschluss **existiert amtlich** und ist gefunden: **STRB Nr. 3879/2025** («Elektrizitätswerk,
+Revision Fernwärmetarif»), gelistet unter
+`stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/stadtratsbeschluesse/2025/11/`
+(Pfadsegment `/2025/11/` bestätigt den November-2025-Zeitraum, deckt sich mit dem watson-Datum
+26.11.2025). Die abgerufene Seite ist jedoch nur eine **Kurzübersicht** (Titel + Nummer, kein
+Volltext, keine Tariftabelle) — die Zahlen 35/65 CHF/MWh und 145/42 CHF/kW sind damit **weiterhin
+nicht direkt am Amtstext verifiziert**, aber die Existenz und Bezeichnung des Beschlusses selbst
+sind jetzt amtlich bestätigt statt nur über einen Medienbericht behauptet. **Status damit von
+«unbelegt» auf «Beschluss amtlich nachgewiesen, Zahlen sekundär (watson) bis zum Volltext-Zugriff»
+gehoben.** Offener Rest: Volltext/PDF von STRB 3879/2025 beschaffen (evtl. Amtsblatt-Archiv oder
+direkte ewz-Anfrage) und die vier Zahlen dort gegenlesen — braucht einen dedizierten Lauf, das
+Geschäftsverwaltungssystem des Gemeinderats ist eine dynamische Suchmaske ohne stabile Direkt-URL
+und liess sich innerhalb des Nachtschicht-Budgets nicht weiter auflösen.
+
 **Was daraus folgt:** Die Richtung ist amtlich belegt und für die Beratung entscheidend — der
 Tarif verschiebt sich **vom Verbrauch zur Fixgebühr**. Wer heute eine Fernwärme-Wirtschaftlichkeit
 über die Arbeitspreis-Ersparnis rechnet, rechnet gegen den Trend: ein gut gedämmtes Gebäude mit
