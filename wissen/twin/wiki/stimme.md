@@ -59,12 +59,15 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Stefan» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz hängt an der
   GATTUNG, nicht am Empfänger (260807/260808):** wer für sich selbst etwas erbittet, hält den
   Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, Auskunft, die man
-  dem Amt GIBT, **Offerten-/Submissionsanfrage**); wer liefert, meldet oder **das Amt um Auskunft
+  dem Amt GIBT, **Erst-Offertanfrage** — die praezisierte Zweitanfrage im laufenden Verfahren
+  traegt ihn NICHT (260826: dieselbe Firma, 13.02. Erstanfrage mit «Besten Dank fuer Ihr
+  Angebot.», 24.02. volles LV mit nacktem Schluss; Familie 260818)); wer liefert, meldet oder **das Amt um Auskunft
   ERSUCHT** (260823), hört nach dem letzten Sachsatz
   auf (Transmittal, Freigabe-Rückfrage an den durchleitenden Partner, Gesuch/Antrag,
   Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
-  (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824/260825, vierfach):** offene
-  Frage oder vorgeschlagener nächster Kontakt. **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820):** «Danke für Dein
+  (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
+  Frage, vorgeschlagener naechster Kontakt oder
+  **einseitige Lieferzusage** («Du erhaeltst von mir im Verlauf der KW 7 …», 260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820):** «Danke für Dein
   Angebot.» oben, «Besten Dank …» als letzter Satz — die Wiederholung rahmt die
   dazwischenliegende Nachforderung freundlich ein; nie zu einem einzigen, aufgewerteten Dank
   verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824):** «Lieber Gruss» /
@@ -4496,3 +4499,30 @@ Batch 104s «3/3» war eine Fensterbeobachtung und verallgemeinert nicht.
 («Solltest Du bauseitige Leistungen wie z.B. wegfraesen … ; diese werden auf den Unterlagsboden
 gestellt, bitte ich Dich dies … zu klaeren.» — das Verb zum «Solltest Du» fehlt), **doppeltes
 «z.B.» in einem Satz**, kleingeschriebenes nominalisiertes Verb «wegfraesen».
+
+## Fidelity 260826 — der Gruss bei zwei Mobilmails an dieselbe Empfaengerin
+
+Zwei Zahlungsbitten, dieselbe Bauherrin, dasselbe Geraet (`ms-outlook-mobile-signature`),
+beide mit Beleg im Anhang:
+
+- **08.02.2026 19:57** (eigene Rechnung + Grobkostenschaetzung, vier Anhaenge): getippt
+  «**Lieber Gruss, Raphael**» — **einzeilig, mit Komma** — ueber dem Block, dessen erste Zeile
+  «Freundliche Gruesse» lautet.
+- **01.06.2026 17:09** (fremde Unternehmerrechnung, Unternehmer im Cc): **kein** getippter
+  Gruss, nur der Block.
+
+Damit erklaert weder die **Gattung** (beide «Lieferung mit Substanz», die der Block auf
+FG+Block fuehrt — vierter Gegenbeleg nach 260825 Befund 1) noch das **Geraet** den Unterschied
+(Batch 105 Kernbefund 7 erklaert den Signaturblock, nicht den getippten Gruss). Die einzeilige
+Form mit Komma steht ausserdem nicht im Block, der den Kurzgruss zweizeilig fuehrt.
+
+**Bewusst nicht in den Block gehoben** — dieselbe Regelfamilie wie [[QUESTIONS]] 260824b #1 und
+260825b #1, beide offen. Drei Belege, eine Antwort: 260826b #2.
+
+**Zwei Bitte-Stufen in EINEM Absatz, je Gegenstand geschaltet (08.02.2026):** «Darf ich Dich
+**B**itten die Unterlagen zu pruefen und bei Akzeptanz der Rechnung die Zahlung zu ueberweisen.»
+(Stufe 1, fremde Ressource Geld) — unmittelbar gefolgt von «**Bitte entnehme** dem Zahlungsplan
+mein Vorschlag …» (Stufe 2, nackter Imperativ, laufendes Mandat). Die Vier-Stufen-Skala schaltet
+**innerhalb** einer Mail, nach Gegenstand, nicht nach Empfaenger. Dazu der Versal-Slip
+(«**B**itten» gross, «**b**itten» klein in der Mail vom 01.06.) — haeufig, nicht ausnahmslos
+(vgl. Batch 105).

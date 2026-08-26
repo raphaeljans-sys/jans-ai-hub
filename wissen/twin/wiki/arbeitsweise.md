@@ -148,6 +148,11 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   trennen;
   **Ablage-Verweise als Breadcrumb Zeile für Zeile** (Bibliothek → … → Zielordner), Link erst
   darunter unter «Hier der Link:»;
+  **der Eingabetermin des Angebots steht als Nachklapp UNTER dem Signaturblock (260826)** —
+  «Eingabetermin Angebot: heute 17:00 Uhr»; der **Ausfuehrungs**termin bleibt oben unter
+  «Rahmenbedingungen». Alles ueber dem Gruss betrifft das Bauteil, die Zeile darunter das
+  Verfahren. Nie in den Fliesstext oder in die Bitte einruehren, wo sie eine Angabe unter
+  zehn wird;
   im **engsten Peer-Du** die Rohheit des Originals halten (spontane Reihenfolge,
   Fliesstext-Anschluss, Urgenz-Titel statt Anrede, grussloser Schluss — dort **korrekt**);
   **Behörden-Kontaktformular**: dessen Feldraster als Mail-Body ausfüllen, und auch **ohne**

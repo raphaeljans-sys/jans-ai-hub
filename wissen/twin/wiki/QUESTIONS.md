@@ -4416,3 +4416,65 @@ das leere Ergebnis wurde als Entwarnung gelesen. Keine Frage an Raphael, nur fes
 
 **#4 — Nivellier-Zeile: zehnter Beleg dagegen, null dafuer.** Nur der Zaehler (Beschluss aus
 260825 #3: nicht mehr neu gestellt). Fuenf Mitleser im Cc, keiner in der Anredezeile.
+
+## 260826b (Fidelity-Review, Thread-Rueckgriff Wartstrasse 8) — eine Sperre, eine Rule-Frage, vier Praezisierungen
+
+**#1 — Hub-intern, KEINE Frage an Raphael, aber die wichtigste Zeile dieses Laufs: der Strang
+AG-Gruendung/Notariat ist als Gold GESPERRT.** Der Fidelity-Lauf 260825 hat ihn als offenen
+Nicht-KISPI-Strang empfohlen. Er ist **claude-aera**: die Mails ans Notariat Wiedikon
+(03.08.2026 an Mathies, 12.08.2026 ans Sammelpostfach) tragen fehlerfreie Syntax ueber mehrere
+Absaetze, sauber gestufte Verweisketten und Normzitate im Fliesstext, aber **keine einzige
+Fehlerinsel**; im selben Strang steht ein Loop-Briefing an `rj@` selbst. Ihre
+`internetMessageId` ist zeichengleich mit der von Raphaels eigenen Apple-Mail-Sendungen — der
+Strang ist ueber die ID **nicht** von echtem Gold zu trennen (Batch 105 Kernbefund 1, hier an
+einem zweiten unabhaengigen Strang bestaetigt).
+**Lehre, die ueber diesen Strang hinausgeht: eine Fenster-/Strang-Empfehlung des Vorlaufs ist
+keine Autorschafts-Freigabe.** Wer sie uebernimmt, prueft den Strang selbst.
+
+**#2 — «Lieber Gruss, Raphael» auf EINER Zeile, bei einer Lieferung mit Substanz und der
+eigenen Rechnung. Frage an Raphael — bitte ZUSAMMEN mit 260824b #1 und 260825b #1
+beantworten.** Facette [[stimme]].
+Gold A (08.02.2026, eigene Rechnung + Grobkostenschaetzung an die Bauherrin, Du, vom
+Mobiltelefon) schliesst mit «**Lieber Gruss, Raphael**» — einzeilig, mit Komma — ueber dem
+Signaturblock, dessen erste Zeile «Freundliche Gruesse» lautet. Gold C (01.06.2026, dieselbe
+Empfaengerin, dasselbe Geraet, fremde Rechnung) traegt **gar keinen** getippten Gruss.
+Der kompilierte Block sagt fuer beide «Lieferung mit Substanz → FG+Block» und kennt den
+Kurzgruss nur **zweizeilig**. Damit stehen jetzt **drei** offene Fragen derselben Familie:
+- 260824b #1: steht «Freundliche Gruesse» fix in Deiner Signatur (dann beweist es keinen Entscheid)?
+- 260825b #1: trennt die **Begegnung** die beiden Grussformen, nicht die Gattung?
+- 260826b #2 (neu): ist «Lieber Gruss, Raphael» einzeilig eine **eigene Stufe** — oder dieselbe
+  Stufe, nur am Telefon getippt?
+Eine einzige Antwort auf alle drei ersetzt voraussichtlich eine halbe Regelseite im teuersten
+Block des Harness. **Nichts in den Block gehoben**, solange die aelteren zwei offen sind.
+
+**#3 — Nicht-Marker, ausdruecklich festgehalten: das Komma nach der Einzelanrede traegt keine
+Bedeutung.** Facette [[beziehungsregister]]. Keine Frage, eine Warnung an kuenftige Laeufe.
+«Geschaetzte Undine» (Gold A, **ohne** Komma) und «Geschaetzte Undine,» (Gold C, **mit** Komma):
+gleiche Empfaengerin, gleiche Waermestufe, gleiches Geraet, gleicher Anlasstyp (Geld). Der Block
+regelt das Komma bei der **Firmen**-Anrede (260825, ohne) und bei der **gestapelten** Anrede
+(260819, nur auf der ersten Zeile); die Einzelanrede ist ungeregelt — **und soll es bleiben**.
+Wer aus einem Einzelbeleg eine Kommaregel baut, kompiliert Rauschen in den teuersten Block.
+
+**#4 — Registerluecke geschlossen, zur Kenntnis: Undine Hofer fehlte in
+`rules/anrede-kontakte.md`.** Facette [[beziehungsregister]]. Sie ist die Bauherrenvertreterin
+Wartstrasse 8 und in vier Fidelity-Laeufen als Du-Kontakt belegt; die Rule fuehrte keine Zeile.
+**Zeile nachgetragen** mit Belegkante, nach der Praxis der Batch-99/100-Zeilen (Wissens-Chef
+Run 39) — belegte Beobachtung aus Raphaels eigener Hand, kein geaenderter Regel-Wortlaut.
+Bitte bei Gelegenheit gegenlesen; falsch waere sie nur, wenn das Du nicht mehr gilt.
+
+**#5 — Praezisierung der offenen Pruefaufgabe 260825b #5: die Satzlaengen-Stichprobe muss
+FLIESSTEXT sein, nicht nur Nicht-KISPI.** Facette [[stimme]], Hub-intern.
+`stilmetrik.py` misst an Gold B (Leistungsverzeichnis im Mail-Body) **30.7 W** — die zehn
+LV-Positionen tragen keine Satzzeichen und werden zu Saetzen verklebt. Der Fliesstext-Anteil
+liegt bei rund 14 W. Am Nicht-KISPI-Fliesstext dieses Laufs: Gold A **11.0 W**, Gold C
+**7.3 W** — beide im bzw. unter dem alten Korpusband 11.9–14.3. Das **schwaecht** die Lesart
+von 260825 Befund 7, das Band sei veraltet (dort 16.6 W); naeher liegt
+**Gattungsabhaengigkeit**. Kumulierte Nicht-KISPI-Fliesstext-Stichprobe: **204 W von
+verlangten 500**. Bis dahin **keine** Drift-Aussage auf die Satzlaenge stuetzen.
+**Am Werkzeug wurde bewusst nichts geaendert** — eine Listenerkennung mitten in einer laufenden
+Messreihe waere eine Aenderung am Messgeraet, nicht an der Messung. Wenn, dann vor dem naechsten
+Bandentscheid und mit Regressionsprobe an den alten Batches.
+
+**#6 — Nivellier-Zeile: elfter Beleg dagegen, null dafuer.** Nur der Zaehler (Beschluss aus
+260825 #3). Gold C: die Bauherrin im To, der Unternehmer im Cc, angeredet wird nur, wer zahlen
+muss.

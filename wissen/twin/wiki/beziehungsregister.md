@@ -3224,3 +3224,31 @@ den CSS-Fingerabdruck umgeschrieben werden, bevor Raphael ihn entscheidet.
 **Cc-Beobachtung, ohne Anrede:** fuenf Mitleser, **keiner** von ihnen wird in der Anredezeile
 genannt. Zehnter unabhaengiger Beleg gegen die Nivellier-Zeile, null dafuer (nur gezaehlt, nicht
 neu gestellt — Beschluss aus 260825 #3): adressiert wird, wer handeln soll.
+
+## Fidelity 260826 (Thread-Rueckgriff Wartstrasse 8) — Trajektorie am VORGANG, und ein Nicht-Marker
+
+**Die Waermestufe wandert mit dem Vorgang, nicht mit der Person (erster Beleg dieser Art).**
+Derselbe Betrieb (Schreinerei/Hobel Genossenschaft), elf Tage Abstand, **gewechselter**
+Ansprechpartner:
+
+- **13.02.2026 08:55** — Erstanfrage an Herrn Wissmann: «**Sehr geehrter Herr Wissmann**»
+  (kalt), drei Zeilen, Plangrundlagen im Anhang, Schluss «Besten Dank fuer Ihr Angebot.»
+- **24.02.2026 07:08** — nach einem Daumenpreis der Gegenseite, an Frau Gasser (Mitglied der
+  Geschaeftsleitung): «**Geschaetzte Frau Gasser**», volles Leistungsverzeichnis im Body.
+
+Die bisherigen Trajektorie-Belege (Furrer, Stadelmann, 260823) waren **personengebunden** —
+derselbe Mensch wandert ueber Wochen ins Waermere. Hier wandert die Stufe, obwohl der Mensch
+wechselt: was sich erwaermt hat, ist die **Zusammenarbeit am Vorgang**. Nicht gespiegelt wurde
+im Uebrigen auch hier — die Gegenseite schrieb «Guten Tag Herr Jans» (Don't 260816 gehalten).
+
+**⚠ Nicht-Marker, ausdruecklich festgehalten: das Komma nach der EINZEL-Anrede bedeutet nichts.**
+«Geschaetzte Undine» (08.02.2026, **ohne** Komma) gegen «Geschaetzte Undine,» (01.06.2026,
+**mit** Komma) — dieselbe Empfaengerin, dieselbe Waermestufe, dasselbe Geraet (Mobiltelefon),
+derselbe Anlasstyp (Zahlungsbitte). Der Block regelt das Komma bei der **Firmen**-Anrede
+(260825, ohne) und bei der **gestapelten** (260819, nur erste Zeile); die Einzelanrede ist
+ungeregelt und soll es bleiben. Wer daraus eine Regel baut, kompiliert Rauschen.
+Vermerkt in [[QUESTIONS]] 260826b #3.
+
+**Registerluecke geschlossen:** Undine Hofer (Bauherrenvertreterin Wartstrasse 8, **Du**,
+«Geschaetzte Undine» bei Gewicht, «Hoi Undine» operativ) fehlte in `rules/anrede-kontakte.md`
+und ist dort nachgetragen.

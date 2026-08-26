@@ -125,6 +125,15 @@ nicht jede Nachbesserung wird zur Position.
   bitte ich sie den günstigst möglichen … zu verwenden. Das Wunschkonzert ist vorbei.»). Im Fazit steht der
   Befund **gegen den erklärten Favoriten der Bauherrschaft**, wenn die Rechnung ihn nicht trägt,
   und die eigene Variante wird selbstkritisch bewertet («machbar, aber schon massiv»).
+- **Die eigene Rechnung wird zur Disposition gestellt, die fremde festgestellt (260826,
+  kontrollierter Vergleich: dieselbe Bauherrin, dieselbe Anrede, vier Monate Abstand).** Vor der
+  **fremden** Zahlungsbitte steht der Prueferbefund im Passiv, ohne Begruendung, und macht sie
+  faellig: «Die Arbeiten von FSG wurden gemaess Angebot bewerkstelligt.» — zwei Saetze, fertig;
+  der Unternehmer liest im Cc, dass sein Werk abgenommen ist. Diesen Satz kann Raphael fuer sich
+  selbst nicht schreiben. Bei der **eigenen** Rechnung tritt an seine Stelle der Vorbehalt («…
+  und **bei Akzeptanz der Rechnung** die Zahlung zu ueberweisen») und der Zahlungsplan heisst
+  «**mein Vorschlag** fuer die Honorierung meiner Arbeit» — die eigene Rechnung wird laenger und
+  bleibt ablehnbar. Nie zu «zur Zahlung freigeben» glaetten; das kassiert genau den Vorbehalt.
 - **Den eigenen Prüfaufwand beziffern, die Zustimmung verweigern, die Person freistellen
   (260816):** «Ich habe mir nun 2.5 Stunden … Zeit genommen … kann ich dieser Baueingabe … nicht
   zustimmen.» Die Härte hängt am Preis-Leistungs-Verhältnis, die Anwesenden werden entlastet, der
