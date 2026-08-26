@@ -3,6 +3,18 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-26 (Mac-Mini-Nachtschicht, Prioritaet 6) — Wissens-Health-Check (Phase 1)
+- A1 · B2 (Orphans, 0 tote Links) · C0 · D0 · E0 · F0 · G1. Zwei echte Befunde, beide
+  dokumentarisch/strukturell, keine Sachaussage betroffen: (1) `QUESTIONS.md` fuehrt den
+  GmbH-Artikel noch als "needs-verification (Sekundaerquellen)" vom 21.07.2026, obwohl er
+  noch am selben Tag in einem zweiten Lauf am Fedlex-Volltext verifiziert wurde (Artikel +
+  INDEX zeigen den korrekten, verifizierten Stand) — nur der QUESTIONS-Eintrag wurde nie
+  nachgezogen. (2) `verwaltungsrat.md` und `steuern-bei-gruendung.md` sind echte Orphans
+  (kein Content-Artikel verlinkt zurueck, nur INDEX/QUESTIONS) — vom automatisierten
+  `wiki-konsistenz.sh` nicht erkannt, weil das Script nur tote/aufloesbare Links prueft,
+  keine fehlenden Inbound-Links. Keine Aktionen ausgefuehrt (Phase 2 nur interaktiv);
+  Report mit konkreten Nachtrags-/Backlink-Vorschlaegen: `outputs/2026-08-26_health-check.md`.
+
 ## 2026-08-23 (dritter Lauf desselben Tages) — needs-verification zu UVG Art. 68/69 und MWSTG Art. 66 vollständig aufgelöst
 - **Auftrag:** Pflegelauf gegen den Stand der Raphael Jans AG; die beiden vom Lauf um
   17:19 offen gelassenen needs-verification-Punkte in [[nachgruendung-anmeldungen]]

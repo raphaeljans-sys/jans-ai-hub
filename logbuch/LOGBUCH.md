@@ -8626,3 +8626,21 @@ keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.
   `fernwaerme-anschlusskosten-zh` und in `wiki/QUESTIONS.md` gehoben. Bericht:
   `wissen/energie/outputs/2026-08-26_e-r163-1-primaerbeleg-fernwaerme.md`. Kein Fan-out, kein
   Versand, keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund 2.5 von 5 USD.
+
+- Nachtschicht (Mac Mini, eigener Zyklus, Prioritaet 6): Prioritaeten 1-3 leer/erledigt (keine
+  pending remote-/sync-Tasks; Synobsis Stufe 2 weiterhin vollstaendig 853/853, `vectors.npz`
+  unveraendert seit 24.08.; Fristen-Register nur Hub-Infrastruktur/Vormerkungen ausserhalb
+  eigener Handlungsmacht). Prioritaet 4 durchgeprueft: alle KBs mit eigenem Taktgeber
+  (baurecht/normen/planungsgrundlagen/wettbewerbs-dna) oder Ereignis-Trigger-Status
+  (bauprodukte/spec/immobilienbewertung erledigt bzw. auf Zuruf) ausgeschlossen; energie war
+  bereits durch den fruehren Zyklus dieser Nacht aktualisiert (Run 163, s.o.); grobkosten/
+  projekt-lessons bleiben ausgesetzt. Prioritaet 5 (QUESTIONS.md architekten-synobsis) ohne
+  neuen Ansatzpunkt (die zwei verbliebenen Fragen Giannaci_Paolo/Killer_Hermes sind bereits
+  zweimal recherchiert, echte Sackgassen). Auf Prioritaet 6 ausgewichen: Wissenscheck Phase 1
+  `firmengruendung-ch` (letzter Check 23 Tage alt, laengster Ruecklauf mit vorhandenem Report).
+  Ergebnis: A1 B2 (Orphans, 0 tote Links) C0 D0 E0 F0 G1 — beide echten Befunde dokumentarisch/
+  strukturell (veralteter QUESTIONS-Vermerk zum GmbH-Artikel; zwei Orphan-Artikel
+  `verwaltungsrat`/`steuern-bei-gruendung`, vom Cross-KB-Backlink-Script nicht erkannt, da es
+  nur tote Links, keine fehlenden Inbound-Links prueft), keine Sachaussage betroffen. Report:
+  `wissen/firmengruendung-ch/outputs/2026-08-26_health-check.md`. Kein Fan-out, kein Versand,
+  keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund 2.3 von 5 USD.
