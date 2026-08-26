@@ -717,11 +717,22 @@ Werkzeug, nicht über die Sache.
 - `--sender` ist bei App-Auth **Pflicht**, sonst fehlt das Postfach.
 - Rule `mail-formatierung` gilt weiter: den Body als HTML mit
   `font-family:Aptos,Calibri,Helvetica,sans-serif; font-size:12pt; color:#000000` setzen.
+  **Diese Zeichenfolge ist zugleich der Echo-Schutz-Detektor des Zwillings** (seit 26.08.2026,
+  `wissen/twin/wiki/arbeitsweise.md` Z. 3481 bis 3483): `Aptos,Calibri`/`#000000` heisst Hub,
+  `Aptos,Arial`/`rgb(0,0,0)` heisst eigene Hand. Nicht an die OWA-Signatur angleichen — sonst
+  faellt die Trennung still aus (SYN-51).
   Fliesstext in `<p>`-Absätzen, Zeilenumbruch innerhalb eines Absatzes als `<br>`; Sonderzeichen
   escapen.
 - **Der Rückgabewert belegt den Versand nicht.** Wie beim Apple-Mail-Weg (Lehre 24.08.2026) wird in
   den **Gesendeten** nachgemessen, etwa über `outlook_email_search` mit `folderName: "Sent Items"`.
 - Die CLI liegt **nicht im `PATH`** (Rule 260809): immer über `./node_modules/.bin/m365` aufrufen.
+- **Wer diesen Weg ebenfalls braucht (Stand 26.08.2026 nur beim `hub-chef` hinterlegt):** die vier
+  Kanäle, die nach Rule `auto-verbesserungen` 260803 im Ausnahmefall selbst melden dürfen —
+  `logbuch-radar` (Schritt 6), `ag-gruendung-monitor`, `vollgas-fruehwarnung`,
+  `vollgas-chef-radar`. Ihre Prompts schreiben ausnahmslos den ersten Weg vor und kennen diesen
+  Abschnitt nicht; sie melden bei blockiertem ersten Weg still gar nicht. Weg 2 heilt dabei nur
+  das **Senden** (mit `--sender rj@raphaeljans.ch`), nicht das **Lesen** eines Kontos ohne
+  Delegate-Zugriff. Befund SYN-50, Synergie-Lauf 19.
 
 **Sackgassen, nicht erneut versuchen:**
 - `timeout` existiert auf macOS nicht (keine coreutils). Für eine Zeitgrenze eine Hintergrund-PID

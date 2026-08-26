@@ -173,6 +173,12 @@ gespielt, weil dieser Abschnitt fehlte; am 24.08. fiel das Tagesbriefing deswege
 
    `--sender` ist bei App-Auth Pflicht. Rule `mail-formatierung` gilt unverändert: Body als
    HTML mit `font-family:Aptos,Calibri,Helvetica,sans-serif; font-size:12pt; color:#000000`.
+   **Diese Zeichenfolge nicht ohne Gegenprüfung ändern.** Sie ist seit dem 26.08.2026 zugleich
+   der Echo-Schutz-Detektor des Zwillings: `wissen/twin/wiki/arbeitsweise.md` (Tabelle Z. 3481
+   bis 3483) trennt eine Hub-Mail von Raphaels eigener Hand allein an `Aptos,Calibri`/`#000000`
+   gegen `Aptos,Arial`/`rgb(0,0,0)`. Eine Angleichung an die OWA-Signatur liesse den Detektor
+   still ausfallen, und Hub-Briefings wanderten als Stil-Gold ins Twin-Wiki — der Echo-Schutz
+   aus Rule `jans-dna` ist als eisern bezeichnet. Befund SYN-51, Synergie-Lauf 19.
 3. **Immer in den Gesendeten nachmessen**, nie am Rückgabewert (Lehre 24.08.2026) — Zeichen-
    bzw. Bytezahl des Bodys ins Logbuch.
 4. **Den Ersatzweg im Briefing und im Logbuch benennen.** Ein Meldekanal, der still auf einen

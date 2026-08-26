@@ -2,6 +2,39 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-26 — Synergie-Lauf 19: der Hub lernt einen Ersatzweg, und nur einer merkt es
+
+Delta-Basis 25.08.2026 17:10, Fenster 24,0 h, **116 Commits**, HEAD `188eb0923`. Uhr-Kontrolle
+bestanden (17:10 CEST gegen nativen Synology-Selfcommit 17:00:06), Gegenprobe der Filterung
+bestanden. Strukturelles Delta: 0 neue Bausteine, 6 bewegte Bestandsdateien (2 davon der eigene
+Schreibvorgang von Lauf 18). Inline, kein Fan-out.
+
+**Drei neue Befunde, alle an derselben Störung: Apple Mail antwortet seit 25.08. nicht mehr auf
+Apple Events.** SYN-50 — der `hub-chef` hat den belegten zweiten Versandweg (Graph `Mail.Send`
+über die m365-CLI) am 26.08. in seinen Skill geschrieben; gemessen kennt ihn ausser dem
+Wege-Register kein weiterer Baustein, während die vier Kanäle, die nach Rule 260803 im
+Ausnahmefall selbst melden dürfen, ausnahmslos den ersten Weg vorschreiben. `betrieb-chronik.md`
+260826 belegt unabhängig, dass der `ag-gruendung-monitor` seit 25.08. 06:00 blind ist und als
+Abhilfe die Diagnose des ersten Wegs sucht. Die Redundanz der Ausnahmekanäle ist scheinbar.
+SYN-51 — seit dem Ausweichen auf Graph beweist die `internetMessageId` die eigene Hand nicht mehr;
+der Zwilling hat den CSS-Fingerabdruck als Ersatzdetektor gemessen, aber die erzeugende Seite
+(`hub-chef`, Wege-Register) führt dieselbe Zeichenfolge nur als Schriftvorgabe — eine Angleichung
+an die OWA-Signatur liesse den Echo-Schutz still ausfallen. SYN-52 — `mail-draft-guard.sh` stuft
+reine Lesebefehle als Mail-Entwurf ein (in diesem Lauf zweimal ausgelöst, beim Messen genau
+dieses Mailwegs); die Falle ist nur im Prompt eines einzelnen Loops dokumentiert und
+widerspricht der Bash-Ausnahme in `rules/umlaute-konvention.md`.
+
+**Drei Nullbefunde gemessen** (Rückkante Wege-Register vollständig; der Twin-Befund existiert und
+wurde dort zuerst erhoben; die neue Anrede-Zeile ist belegter Rückfluss aus vier Fidelity-Läufen).
+SYN-43 zum zweiten Mal aufgerollt, weil `jans-dna-facetten.md` sich bewegt hat — Sachfrage bleibt
+am Entscheid Raphaels, Status unverändert.
+
+**Geschrieben (alles additiv, jeder Anker vorher auf Trefferzahl 1 assertiert):**
+`skills/hub-chef/SKILL.md` +6/0 (200 → 206), `connectors/WEGE.md` +11/0 (799 → 810, zwei
+Einfügungen), `SYNERGIE-REGISTER.md` +3 Tabellenzeilen (49 → 52) plus Fussnote (835 → 893),
+Laufbericht `outputs/2026-08-26_synergie-lauf-19.md` (90 Z.). Keine Datei hat Zeilen verloren.
+
+
 ## 2026-08-25 — Wissens-Chef Run 43: derselbe Fehler zweimal, und drei Wochen Standzeit für drei Messfehler
 
 Delta-Basis 24.08.2026 23:11, Fenster 24,0 h, **115 Commits**, HEAD `f89dc1051`, 71 geänderte
