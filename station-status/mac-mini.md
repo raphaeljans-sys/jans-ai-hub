@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 27.08.2026 00:59:19
+Stand: 27.08.2026 01:09:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 27.08.2026 00:59:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6154be1c8 nas-selfcommit: 3 Datei(en) 2026-08-27 00:45
+- fd6175042 vollgas-radar 27.08. 00:57: [FREI], Budget -21.3 Punkte, fuenf KBs mit Delta, kein Leerlauf; P3 Permission-Wildcard
