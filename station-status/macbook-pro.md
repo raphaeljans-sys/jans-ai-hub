@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.08.2026 22:45:32
+Stand: 26.08.2026 22:55:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 26.08.2026 22:45:32
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ea9abc1b3 nas-selfcommit: 4 Datei(en) 2026-08-26 22:45
+- b68a27ac5 energie: sechste Pflichtpruefung ins PROGRAMM — geltende AUSGABE der Quelle pruefen (Lehre Run 164)
