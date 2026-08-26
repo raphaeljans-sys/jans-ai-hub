@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.08.2026 03:45:00
+Stand: 26.08.2026 03:55:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 26.08.2026 03:45:00
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 6613c05ac nas-selfcommit: 2 Datei(en) 2026-08-26 03:45
+- d2ff7b0b2 twin-mail-training Batch 105: Fenster 25.08.2026 — Werkzeug-Detektor gefallen, CSS-Ersatz gemessen

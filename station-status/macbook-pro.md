@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.08.2026 03:44:26
+Stand: 26.08.2026 03:54:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:44)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:51)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 26.08.2026 03:44:26
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 380229e48 nas-selfcommit: 4 Datei(en) 2026-08-26 03:30
+- d2ff7b0b2 twin-mail-training Batch 105: Fenster 25.08.2026 — Werkzeug-Detektor gefallen, CSS-Ersatz gemessen
