@@ -32,7 +32,12 @@ ANREDEN = [r"Hoi\s+\w+", r"Geschaetzter?\s+\w+", r"Gesch[aä]tzte?r?\s+\w+",
 GRUESSE = [r"Freundliche\s+Gr[uü]sse", r"Lieber\s+Gruss", r"Liebe\s+Gr[uü]sse",
            r"Viele\s+Gr[uü]sse", r"Beste\s+Gr[uü]sse",
            # Kurzformen, belegt Batch 98 (17.08.2026): «Lgr» als knappste Gruss-Stufe
-           r"\bLgr\b", r"\bLG\b"]
+           r"\bLgr\b", r"\bLG\b",
+           # Nachgetragen Batch 105 (26.08.2026): zwei belegte Stufen liefen als Null durch
+           # die Metrik, weil ihr Muster fehlte. «Bester Gruss» (Batch 104) traf
+           # r"Beste\s+Gr[uü]sse" NICHT; «Danke und Gruss» (Batch 105) stand gar nicht drin.
+           # Eine Null aus einem Messwerkzeug ist zuerst eine Aussage ueber das Muster.
+           r"Danke\s+und\s+Gr[uü]ss", r"Bester\s+Gruss", r"Besten\s+Gruss"]
 
 
 def measure(text: str) -> dict:

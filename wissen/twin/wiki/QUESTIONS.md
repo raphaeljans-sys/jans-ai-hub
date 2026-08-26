@@ -4375,3 +4375,44 @@ weiter gross.
 **#7 — Zähler, nicht neu gestellt:** Nivellier-Zeile in `rules/anrede-kontakte.md` — **zehnter**
 Beleg dagegen (Gold C: Sammelpostfach im To, Verwalterin im Cc, nur der Handelnde angeredet),
 null dafür. Offen seit 15.08.2026.
+
+## 260826 (Batch 105, Fenster 25.08.2026) — eine Rule-Frage, zwei Hub-interne Befunde
+
+**#1 — Der Brandschutz-/Trockenbau-Fachbetrieb ist im Du. Soll die Zeile in
+`rules/anrede-kontakte.md` nachgezogen werden — und wie?** Frage an Raphael. Facette
+[[beziehungsregister]], betrifft eine **importierte** Rule.
+Belegt am 25.08.2026 aus eigener Hand (CSS-Fingerabdruck + Mobile-Signatur + drei
+Fehlerinsel-Treffer): «Geschaetzter <Vorname>», durchgehend «Dich/Du/Dir». Am **22.07.2026**
+schrieb derselbe Kontakt-Thread noch «Geschaetzter Herr <Nachname>» im Sie — **nach einem
+Telefonat**. Genau dieser Fall steht heute als ⚠-**Gegenbeleg** in der Rule und begrenzt dort die
+Klausel «ein persoenliches Treffen hebt das Register».
+Der neue Beleg widerlegt den Gegenbeleg nicht, er **datiert** ihn: der Wechsel kam, aber gut einen
+Monat spaeter. Das stuetzt die Fassung «Trajektorie, kein Standbild» in `jans-dna-facetten.md`
+und spricht gegen die Handlungsanweisung «Kalender des laufenden Tages pruefen» in
+`anrede-kontakte.md`. Zwei vertretbare Antworten:
+(a) *Zeile ergaenzen, ⚠-Absatz stehen lassen* — der Kontakt bekommt eine Du-Zeile mit Datum
+    «seit 25.08.2026, davor Sie», der Gegenbeleg bleibt als historischer Beleg der Verzoegerung.
+(b) *Zeile ergaenzen UND den ⚠-Absatz umschreiben* — die «Kalender pruefen»-Anweisung faellt
+    zugunsten der Trajektorien-Fassung; dann ist auch 260822b #1 miterledigt.
+**Nichts selbst geaendert** (`anrede-kontakte.md`: «Claude aendert den Wortlaut einer Rule nicht
+selbst»). Bis zum Entscheid gilt der belegte Opener desselben Kontakts — **also neu das Du.**
+
+**#2 — Hub-intern, entwertet einen eigenen Vorschlag: die Bestands-ID-Pflicht aus 260825 #2 ist
+ueberholt.** Dort war vorgeschlagen, vor jeder Rule-Aenderung an `anrede-kontakte.md` die
+`internetMessageId` der Belegmail zu pruefen. **Diese ID beweist seit dem 25.08.2026 nichts mehr**
+(Detektor gefallen, siehe [[arbeitsweise]] Batch 105). Der Vorschlag ist nicht falsch, aber sein
+Pruefmittel ist es: er muss vor der Entscheidung auf den **CSS-Fingerabdruck**
+(`Aptos,Calibri`/`#000000` ⇒ Hub gegen `Aptos,Arial`/`rgb(0,0,0)` ⇒ eigene Hand) umgeschrieben
+werden. Kein Handlungsbedarf fuer Raphael ausser: **260825 #2 nicht in der alten Fassung
+genehmigen.**
+
+**#3 — Hub-intern, Lehre fuer kuenftige Waechter.** Die Vorbedingung, mit der Batch 104 den
+Detektor absicherte (`grep -rn "sendMail" connectors/ scripts/`), ist **heute noch leer** und der
+Detektor ist trotzdem gefallen — der Graph-Versand lief ueber die **m365-CLI von Hand**, nicht
+ueber einen Connector. **Eine Vorbedingung, die nur den bekannten Weg prueft, sichert nichts.**
+Richtig waere gewesen, den **Zustand** zu messen (Absendeweg der letzten Hub-Mail), nicht ein
+Werkzeug zu erraten. Gleiche Familie wie `auto-verbesserungen` 260730b/260807, hier verschaerft:
+das leere Ergebnis wurde als Entwarnung gelesen. Keine Frage an Raphael, nur festgehalten.
+
+**#4 — Nivellier-Zeile: zehnter Beleg dagegen, null dafuer.** Nur der Zaehler (Beschluss aus
+260825 #3: nicht mehr neu gestellt). Fuenf Mitleser im Cc, keiner in der Anredezeile.

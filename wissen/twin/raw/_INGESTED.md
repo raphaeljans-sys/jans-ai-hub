@@ -1969,3 +1969,91 @@ erweitern, er trennt feiner als gedacht; (3) bei leerem Fenster Thread-Rueckgrif
 2414 Thalwil (in zwei Straengen abgeschoepft) — offen waere der Strang **Albertstrasse 7 /
 Nova**, in diesem Batch nur angeschnitten; (4) **vor der Lektuere zwingend BEIDE Teile dieser
 Datei auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 105 (26.08.2026) — Sent Items `rj@`, Fenster 25.08.2026
+
+Rohdatei `260826-mailbatch-105.md`. Sequenzielles Fenster nach Batch 104 fortgesetzt
+(`order: oldest`, `folderName: Sent Items`). **4 Sent Items**, alle vier mit
+`PROD.OUTLOOK.COM` — und genau das ist der Kernbefund: 2 davon sind **Hub-Briefings**.
+Ein Thread-Rueckgriff war nicht noetig und waere ins Leere gelaufen, weil der in Batch 104
+vorgeschlagene Strang **Albertstrasse 7 / Nova** am selben Tag vom Fidelity-Lauf 260825b
+abgeschoepft wurde (Bestandsabgleich VOR der Lektuere, wie vorgeschrieben).
+
+**⭐ Kernbefund 1 — DER WERKZEUG-DETEKTOR IST GEFALLEN, wie in Batch 103 vorhergesagt.** Apple
+Mail antwortet seit dem 24.08. nicht mehr auf osascript; Radar (07:12) und Hub-Chef (08:50) sind
+am 25.08. **von Hand auf Graph ausgewichen** (`m365 outlook mail send`; belegt in
+`connectors/WEGE.md` und `logbuch/fristen.md` 25.08.). Beide Hub-Briefings tragen seither
+`PROD.OUTLOOK.COM`, **zeichengenau denselben Host** wie Raphaels eigene OWA-Mail. **Ab dem
+25.08.2026 beweist die `internetMessageId` nichts mehr.**
+
+**⚠ Kernbefund 2 — die Vorbedingungspruefung war falsch gebaut, und das ist der teurere Teil.**
+Batch 104 sicherte den Detektor mit `grep -rn "sendMail" connectors/ scripts/`. Dieser grep ist
+**heute immer noch leer** — der Weg lief ueber die **m365-CLI von Hand**, nicht ueber einen
+Connector mit diesem String. Der Waechter prueft eine Zeichenkette, die auf dem tatsaechlichen Weg
+gar nie auftauchen kann; er konnte nicht ausloesen. **Merksatz: eine Vorbedingung, die nur den
+bekannten Weg prueft, sichert nichts — sie muss den Zustand messen (Absendeweg der letzten
+Hub-Mail), nicht ein Werkzeug erraten.** Gleiche Familie wie Rule `auto-verbesserungen`
+260730b/260807, hier verschaerft, weil das leere Ergebnis als **Entwarnung** gelesen wurde.
+
+**Kernbefund 3 — Ersatz-Detektor, gemessen statt vermutet: der CSS-Fingerabdruck.**
+Hub via Graph = `Aptos,Calibri,Helvetica` + `color:#000000` + EIN Wrapper-`<div>` mit `<p>`;
+Raphael OWA = `Aptos,Arial,Helvetica` + `color:rgb(0,0,0)` + ein `<div>` je Zeile; Outlook Mobile
+zusaetzlich `direction:ltr` + `ms-outlook-mobile-signature`. **Ehrlicher Nachteil:** er steht im
+Body, nicht in der Trefferzeile, und kostet je Pruefung ein `read_resource`. Darum zweistufig:
+Gratis-Vorfilter (Empfaenger == `rj@` selbst UND Loop-Name im Betreff ⇒ Hub, nicht lesen; erspart
+hier 2 von 4), dann der bezahlte CSS-Nachweis. Er ist **zweiseitig** und damit staerker als der
+alte. **Bruchstelle vorsorglich benannt:** ein Hub-Weg, der den Body nicht selbst setzt, loescht
+den `Calibri`-Marker — dann bleibt nur die **Fehlerinsel**, der einzige Detektor ohne
+Werkzeugbindung.
+
+**⭐ Kernbefund 4 — die Du-Gross-Quote trennt in diesem Batch NICHT.** Gold (143 W) **1.0**,
+Kontrollgruppe Hub (390 W) **1.0**. Batch 104s Satz «Du-Gross-Quote ist ein Autorschafts-Detektor»
+gilt damit **nicht allgemein**. Der Vergleich beider Batches stuetzt stattdessen Antwort **(b)
+registerabhaengig** aus [[QUESTIONS]] 260825 #1, zweiter unabhaengiger Beleg nach 260825b #6:
+0.0 an einem 25-Woerter-Kurzvorspann, 1.0 an einer gesetzten Lieferung mit sechs Anhaengen.
+Satzlaenge trennt wieder nicht (11.0 gegen 12.6).
+
+**Kernbefund 5 — Registerwechsel Sie → Du beim Brandschutz-/Trockenbau-Fachbetrieb, verzoegert.**
+«Geschaetzter <Vorname>» + durchgehend Du, am 25.08. Derselbe Kontakt blieb am **22.07. nach
+einem Telefonat** im Sie mit Nachname — und ist genau der ⚠-**Gegenbeleg**, mit dem
+`rules/anrede-kontakte.md` die Treffen-Klausel begrenzt. Der Wechsel kam, **gut einen Monat
+spaeter**: das entwertet den Gegenbeleg nicht, es **datiert** ihn und stuetzt die Fassung
+«Trajektorie, kein Standbild» (`jans-dna-facetten.md`) gegen die Anweisung «Kalender des
+laufenden Tages pruefen». **Rule nicht selbst geaendert**, vorgelegt als [[QUESTIONS]] 260826 #1.
+
+**Kernbefund 6 — «Danke und Gruss», fuenfte Gruss-Stufe, vom Messwerkzeug nicht gesehen.** Das
+Muster fehlte in `stilmetrik.py`; rueckwirkend galt dasselbe fuer «Bester Gruss» aus Batch 104
+(`Beste\s+Gr[uü]sse` trifft es nicht). **Zwei belegte Stufen liefen als Null durch die Metrik.**
+Werkzeug im selben Lauf ergaenzt und mit Regressionsprobe nachgemessen.
+
+**Kernbefund 7 — zwei Gruesse uebereinander.** Getipptes «Danke und Gruss» + automatischer
+Mobile-Signaturblock mit «Freundliche Gruesse». Zweiter unabhaengiger Beleg: **der Signaturblock
+misst das Geraet, nicht die Naehe.** Fuer das Register zaehlt nur der getippte Gruss.
+
+**Kernbefund 8 — «Danke.» schliesst die Laengenskala nach unten** (ein Wort, Punkt, keine
+Anrede, kein Gruss, keine Signatur).
+
+**Kernbefund 9 — die Bauteil-Lieferung an den Ausfuehrenden als Bauform** (Planliste mit
+Massstab und Dateiname, Anweisungen mit Referenz «wie ueblich»/«gem. Werkplan <Firma>»,
+**delegierte Abstimmungen statt eigener Entscheide**, eine generelle Auflage zum Schluss,
+Verfuegbarkeit + naechster Kontakt). Fachvokabel **«Ausholzung»** 4×, «EI30» ohne Erlaeuterung.
+
+**⚠ Widerspruch zu Batch 104 Kernbefund 4, festgehalten statt geglaettet:** die mitzitierte
+eigene Mail vom 24.08. 09:46 schreibt «Darf ich Dich **b**itten … zu organisieren.» — klein.
+Der Versal-Slip nach «Bitte(n)» ist **haeufig, nicht ausnahmslos**; der **Punkt statt
+Fragezeichen** haelt. Batch 104s «3/3» war eine Fensterbeobachtung.
+
+**⚠ Gehirn NICHT neu kompiliert, dreizehnter Batch in Folge.** Reserve in diesem Lauf **nicht**
+gemessen; letzter gemessener Stand 21.08.2026 (32'796 B von 34'000 B) — Fortschreibung, kein
+Messwert. Eine Neukompilierung bleibt verfrueht, solange [[QUESTIONS]] 260825 #1 offen ist: der
+Auto-Block traegt die Du-Gross-Kernzeile, und dieser Batch hat die Beleglage dazu **verschoben,
+nicht geklaert**.
+
+**Naechstes Fenster:** (1) sequenziell `rj@` ab 26.08.2026 — **den alten ID-Detektor NICHT mehr
+verwenden**, stattdessen Gratis-Vorfilter (Selbstadressierung + Loop-Name im Betreff) und dann
+CSS-Fingerabdruck beim Lesen; (2) die Vorbedingung neu bauen: **nicht** nach `sendMail` greppen,
+sondern den CSS-Fingerabdruck der **letzten Hub-Mail** messen und mit der erwarteten Signatur
+vergleichen; (3) bei leerem Fenster Thread-Rueckgriff **weder** auf 2414 Thalwil **noch** auf
+Albertstrasse 7 / Nova (beide abgeschoepft) — offen waere der Strang **Wartstrasse 8**;
+(4) **vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die
+Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

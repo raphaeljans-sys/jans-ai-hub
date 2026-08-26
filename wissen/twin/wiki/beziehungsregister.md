@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 gewichtung: authentisch
-sources: [260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -3186,3 +3186,41 @@ auf «Guten Tag», sondern steigt auf «Geschätzter». ⚠ Rule-Zeile **nicht s
 «260825b #4»; die Steinmann-Frage steht in [[QUESTIONS]] als **260825b #3** (#4 ist die unverwandte
 Frage «Geschätzte Firma <Name> AG» zu Firmen-Sammeladressen). Wer dem alten Zeiger folgt, landet
 beim falschen Punkt.
+
+## Batch 105 (26.08.2026) — Registerwechsel Sie → Du beim Brandschutz-Fachbetrieb, verzoegert
+
+⭐ Der Trockenbau-/Brandschutz-Fachbetrieb (Estermann) wird am **25.08.2026** mit **«Geschaetzter
+<Vorname>»** angeschrieben und durchgehend **geduzt**: «bitte ich **Dich**» (2×), «Solltest
+**Du**», «Ich stehe **Dir** jederzeit zur Verfuegung». Gattung: Planlieferung an den
+Ausfuehrenden, fuenf Mitleser im Cc (Brandschutz, Bauherrschaft, Baumeister).
+
+Bisheriger belegter Stand (`rules/anrede-kontakte.md`, ⚠-Absatz vom 22.08.2026): derselbe Kontakt
+blieb am **22.07.2026 nach einem Telefonat** bei «Geschaetzter Herr <Nachname>» — Sie, mit
+Nachname. Genau dieser Fall war der **Gegenbeleg**, mit dem die Klausel «ein persoenliches
+Treffen hebt das Register» eingeschraenkt wurde.
+
+**Der Wechsel hat inzwischen stattgefunden, gut einen Monat spaeter.** Das entwertet den
+Gegenbeleg nicht, es **datiert** ihn: er belegt, dass der Wechsel **nicht am Tag des Kontakts**
+geschieht. Damit stuetzt der Fall die praezisere Fassung in `rules/jans-dna-facetten.md`
+(«Trajektorie, kein Standbild», verzoegerte Wirkung) und **nicht** die Handlungsanweisung in
+`anrede-kontakte.md` («Kalender des laufenden Tages pruefen, die Anrede des letzten Threads ist
+ueberholt»). Ein Zwilling, der am 22.07. dem Kalender gefolgt waere, haette dreimal falsch
+geduzt; ein Zwilling, der heute noch dem Thread von damals folgt, siezt einen Kontakt, der
+laengst im Du steht. **Beide Fehler haben dieselbe Ursache: eine Stufe wird als Zustand gelesen,
+nicht als Bewegung.**
+
+⚠ **Rule NICHT selbst geaendert.** `anrede-kontakte.md` schreibt selbst «Claude aendert den
+Wortlaut einer Rule nicht selbst»; der Kontakt hat dort bisher **keine eigene Zeile**, er kommt
+nur im ⚠-Gegenbeleg-Absatz vor — eine Du-Zeile fuer ihn wuerde die dortige Begruendung
+aushebeln, ohne dass Raphael entschieden hat. Vorgelegt als [[QUESTIONS]] 260826 #1.
+
+**Belegfuehrung nach dem NEUEN Detektor**, nicht nach der gefallenen `internetMessageId`
+(siehe [[arbeitsweise]], Batch 105): CSS-Fingerabdruck `Aptos,Arial` / `color:rgb(0,0,0)`,
+`ms-outlook-mobile-signature`, dazu drei Fehlerinsel-Treffer — dreifach unabhaengig eigene Hand.
+Damit ist zugleich die in [[QUESTIONS]] 260825 #2 vorgeschlagene **Bestands-ID-Pflicht vor jeder
+Rule-Aenderung** ueberholt: die ID beweist seit dem 25.08. nichts mehr, der Vorschlag muss auf
+den CSS-Fingerabdruck umgeschrieben werden, bevor Raphael ihn entscheidet.
+
+**Cc-Beobachtung, ohne Anrede:** fuenf Mitleser, **keiner** von ihnen wird in der Anredezeile
+genannt. Zehnter unabhaengiger Beleg gegen die Nivellier-Zeile, null dafuer (nur gezaehlt, nicht
+neu gestellt — Beschluss aus 260825 #3): adressiert wird, wer handeln soll.

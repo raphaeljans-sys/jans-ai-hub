@@ -4,6 +4,29 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-26 — twin-mail-training Batch 105 (Fenster 25.08.2026): der Werkzeug-Detektor ist gefallen
+
+`raw/260826-mailbatch-105.md` neu (203 Z.). Sequenzielles Fenster, 4 Sent Items, davon **2
+Hub-Briefings und 2 Golds**. Kernbefund: die in Batch 103 benannte Bruchstelle ist am 25.08.
+eingetreten — der Hub ist nach dem Apple-Mail-Ausfall auf `m365 outlook mail send` (Graph)
+ausgewichen, seither tragen Hub-Briefings dieselbe `PROD.OUTLOOK.COM`-ID wie Raphaels eigene
+OWA-Mail. **Die ID beweist nichts mehr.** Zusätzlich entlarvt: die Vorbedingungsprüfung
+(`grep "sendMail"`) ist bis heute leer und konnte nie auslösen, weil der Graph-Weg über die CLI
+von Hand lief — eine Vorbedingung, die nur den bekannten Weg prüft, sichert nichts.
+Ersatz gemessen und dokumentiert: **CSS-Fingerabdruck** (`Aptos,Calibri`/`#000000` ⇒ Hub gegen
+`Aptos,Arial`/`rgb(0,0,0)` ⇒ eigene Hand), zweistufig mit einem Gratis-Vorfilter davor.
+Weiter: Du-Gross-Quote trennt hier **nicht** (Gold 1.0 = Hub 1.0) und schränkt Batch 104 ein;
+Registerwechsel Sie → Du beim Brandschutz-/Trockenbau-Fachbetrieb, **verzögert um gut einen
+Monat** (Rule nicht selbst geändert, vorgelegt); «Danke und Gruss» als fünfte Gruss-Stufe.
+Geschrieben: `wiki/stimme.md`, `wiki/beziehungsregister.md`, `wiki/fachsignatur.md`,
+`wiki/arbeitsweise.md` (je additiv + Frontmatter `last_updated`/`sources`),
+`wiki/QUESTIONS.md` (Abschnitt 260826, 1 Rule-Frage + 3 Hub-interne Befunde),
+`raw/_INGESTED.md` (Batch-105-Abschnitt).
+Werkzeug: `skills/twin/tools/stilmetrik.py` um `Danke und Gruss` / `Bester Gruss` /
+`Besten Gruss` ergänzt — beide Stufen liefen bisher als **Null** durch die Metrik; mit
+Regressionsprobe nachgemessen. **Eine Null aus einem Messwerkzeug ist zuerst eine Aussage über
+das Muster.**
+
 ## 2026-08-25 — Wissens-Chef Run 43: ein Zeiger, der auf die falsche Frage zeigte
 
 `wiki/beziehungsregister.md` nach Z. 3183 (+5/−0): die Steinmann-Gegenprobe des Fidelity-Laufs

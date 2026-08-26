@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 gewichtung: authentisch
-sources: [260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2580,3 +2580,30 @@ PPTS» trägt eine **bürointerne Los-Nummer**, keinen BKP-2017-Code — das BKP
 zweistellige Nachkommastelle (Rule `bkp-2017-referenz`, Korrektur 04.08.2026). Der Zwilling darf
 solche Betreffs **nie** mit dem Präfix «BKP» nachbauen. Bestätigt die Betreff-Konvention:
 `<Los-Nr.> <lfd. Nr.> <Firma> <Inhalt> <Projektkürzel>`.
+
+## Batch 105 (26.08.2026) — «Ausholzung»: die bauseitige Vorleistung als Fachvokabel
+
+**«Ausholzung»** viermal in einer Mail, als Substantiv fuer die bauseitige Vorleistung im
+Trockenbau (Aussparung/Ausnehmung fuer Sanitaerapparate, Armaturen, Garnituren, Oberschraenke,
+Geschirrtablare). Er erklaert das Wort nicht und stellt ihm keine Definition voran — es ist die
+Sprache des Ausfuehrenden, nicht die des Bauherrn.
+
+**Die Referenz steht immer beim Anspruch, nie allein.** Jeder Anweisungsblock traegt seine
+Quelle mit: «wie ueblich» (eingespielte Praxis dieses Betriebs), «gem. Werkplan <Schreinerei>»,
+«gem. Architektenplan SAN 1:20». Kein einziger Auftrag ohne Bezugsdokument — und der Bezug geht
+bei fremden Werkplaenen **ueber den Firmennamen**, nicht ueber die Plannummer.
+
+**Planlisten tragen Massstab UND Dateinamen.** «Ausfuehrungsplan Architekt 1:50» /
+«Detailplaene fuer Ausholzung mit Schnittdarstellung 1:20», darunter jeweils der exakte
+Dateiname des Anhangs. Der Empfaenger kann Plan und Datei ohne Rueckfrage paaren.
+
+**Die generelle Auflage steht zum Schluss und ist ein Satz:** «Bitte beachte generell die EI30
+Anforderungen.» Keine Herleitung, keine VKF-Ziffer, kein Nachweisverlangen — die Klasse allein,
+an einen Betrieb, der sie kennt. Gegenstueck zur ausfuehrlichen Brandschutz-Argumentation
+gegenueber Bauherrschaft und Behoerde: **dieselbe Sache, andere Tiefe je Empfaenger.**
+
+**Verfahrensvokabel aus derselben Woche** (mitzitiert, 24.08.): «die feuerplizeiliche Abnahme des
+Projektes … sowie ein Zeitfenster fuer eine allfaellige Abnahme des Objektes **mit der
+Feuerpolizei vor Ort** … gemaess noch zu bestimmenden finaler Terminplan». Der Tippfehler und der
+Kasusfehler sind Beleg der eigenen Hand (siehe [[stimme]]), die Konstruktion ist die Fachsignatur:
+**Amtstermin vor Nachweis.**

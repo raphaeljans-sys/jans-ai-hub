@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 gewichtung: authentisch
-sources: [260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -4447,3 +4447,52 @@ Satzlänge ø **16.6 W**, Tausender-Apostroph 0, Ellipsen 0, «%» kam nicht vor
 Achtel der Stichproben, aus denen die Batches 90 (910 W) und 91 (721 W) ihre Werte zogen. Bei
 sieben Sätzen verschiebt ein einziger langer Satz den Mittelwert um rund zwei Wörter. Siehe
 [[QUESTIONS]] 260825b #2 und #3.
+
+## Batch 105 (26.08.2026) — Fenster 25.08.2026, Sent Items `rj@`
+
+⭐ **Die Du-Gross-Quote trennt NICHT grundsaetzlich — Batch 104 eingeschraenkt.** Gemessen an
+einer zweifelsfrei eigenhaendigen Planlieferung (143 W): Du-Gross **1.0**, 4 von 4. Die
+Kontrollgruppe (Hub-Chef via Graph, 390 W) ebenfalls **1.0**. Batch 104 hatte aus Gold 0.667 /
+Hub 1.0 den Satz gezogen, die Quote sei ein **Autorschafts-Detektor**; als allgemeine Aussage ist
+das hiermit widerlegt. Sie trennt **manchmal**.
+Was der Vergleich stattdessen stuetzt, ist Antwort **(b) «registerabhaengig»** aus
+[[QUESTIONS]] 260825 #1 — zweiter unabhaengiger Beleg nach 260825b #6: Batch 104 mass die 0.0 an
+einem **25-Woerter-Kurzvorspann**, dieser Batch die 1.0 an einer **sorgfaeltig gesetzten
+Lieferung mit sechs Anhaengen**. Kurz und getippt ⇒ klein, gesetzt und ausgehend ⇒ gross.
+**Bis zum Entscheid schreibt der Zwilling unveraendert gross** (unveraendert aus 260825 #1).
+Satzlaenge trennt wieder nicht (11.0 gegen 12.6) — nur innerhalb derselben Gattung vergleichen.
+
+**«Danke und Gruss» — fuenfte Gruss-Stufe eigener Hand.** Getippt, ohne Komma, ohne Namen, am
+Schluss einer Planlieferung an einen ausfuehrenden Unternehmer im Du. Skala damit:
+«Freundliche Gruesse» · «Lieber Gruss» · «Bester Gruss» · **«Danke und Gruss»** · «Lgr» / «lgr».
+⚠ **Das Muster stand nicht in `stilmetrik.py`** — der Lauf meldete `gruesse: {}` fuer eine Mail,
+die einen Gruss traegt; dasselbe galt rueckwirkend fuer «Bester Gruss» aus Batch 104
+(`Beste\s+Gr[uü]sse` trifft «Bester Gruss» nicht). Zwei belegte Stufen liefen als Null durch die
+Metrik. Werkzeug im selben Lauf ergaenzt. **Merksatz: eine Null aus einem Messwerkzeug ist
+zuerst eine Aussage ueber das Muster.**
+
+**Zwei Gruesse uebereinander, und der untere zaehlt nicht.** Unter dem getippten «Danke und
+Gruss» haengt der automatische Mobile-Signaturblock mit «Freundliche Gruesse» + vollem
+Absenderblock (Helvetica 9 pt). Zweiter unabhaengiger Beleg fuer Batch 104 Kernbefund 5:
+**der Signaturblock misst das Geraet, nicht die Naehe.** Fuer die Registerbestimmung zaehlt
+ausschliesslich der **getippte** Gruss.
+
+**«Danke.» — die knappste Stufe, ein Wort mit Punkt.** Antwort an den Brandschutz-Fachplaner auf
+eine Terminmeldung, die keine Handlung ausloest: keine Anrede, kein Gruss, keine Signatur, nur
+der zitierte Vorgaenger darunter. Damit ist die Laengenskala nach unten geschlossen: **ein Wort**
+(Kenntnisnahme) · Zweizeiler ohne Anrede (operative Zwischenfrage) · Anrede + Absatz + Gruss
+(Sachauskunft) · gegliederte Lieferung. Der Zwilling neigt auf der untersten Stufe zum
+Auffuellen — dieselbe Drift wie bei der Anhangs-Lieferung (260825b #2).
+
+⚠ **Widerspruch zu Batch 104 Kernbefund 4, festgehalten statt geglaettet.** Batch 104 mass
+«Darf ich Dich/Euch **B**itten» mit grossem «Bitten» 3/3. Die in diesem Fenster mitzitierte
+eigene Mail vom 24.08. 09:46 lautet «Darf ich Dich **b**itten die feuerplizeiliche Abnahme …
+zu organisieren.» — klein. Der aeltere, breitere Wiki-Stand oben ist der richtige: der
+Versal-Slip nach «Bitte(n)» ist **haeufig, aber nicht ausnahmslos**. Der **Punkt statt
+Fragezeichen** haelt in allen Faellen; die Grossschreibung ist ein Slip, keine Regel.
+Batch 104s «3/3» war eine Fensterbeobachtung und verallgemeinert nicht.
+
+**Fehlerinsel (Beleg der eigenen Hand, NICHT nachzuahmen):** Anakoluth mit Semikolon-Splice
+(«Solltest Du bauseitige Leistungen wie z.B. wegfraesen … ; diese werden auf den Unterlagsboden
+gestellt, bitte ich Dich dies … zu klaeren.» — das Verb zum «Solltest Du» fehlt), **doppeltes
+«z.B.» in einem Satz**, kleingeschriebenes nominalisiertes Verb «wegfraesen».

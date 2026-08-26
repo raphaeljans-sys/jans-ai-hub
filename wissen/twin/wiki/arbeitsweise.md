@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 gewichtung: authentisch
-sources: [260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -3428,3 +3428,70 @@ Erfindung hier nicht dem Fach, sondern der **Textlänge** dient.
 
 Längenmessung: Gold A zwei Sätze, Gold B drei, Gold C zwei. Die Blindfassungen trugen fünf, fünf
 und drei. Der Zwilling schreibt bei dieser Gattung rund **doppelt so lang** wie Raphael.
+
+## Batch 105 (26.08.2026) — die Bauteil-Lieferung an den Ausfuehrenden, als Bauform
+
+Die Planlieferung vom 25.08.2026 folgt einer wiederholbaren Gliederung **ohne eine einzige
+Ueberschrift**:
+
+1. **Anrede**, dann sofort «Im Anhang folgende Plaene:» — kein Vorspann, **keine Erklaerung der
+   Anhaenge**. Dritte Gattung, in der das gilt (nach 260825b #2): er beschreibt nicht, was der
+   Empfaenger ohnehin oeffnet.
+2. **Planliste, gruppiert nach Zweck, je mit Massstab und exaktem Dateinamen.**
+3. **Anweisungsbloecke im Imperativ**, jeder mit seiner Referenz («wie ueblich», «gem. Werkplan
+   <Schreinerei>», «gem. Architektenplan SAN 1:20»).
+4. **Delegierte Abstimmungen statt eigener Entscheide:** «bitte ich Dich die Ausfuehrung mit
+   <Baumeister> abzusprechen», «bitte ich Dich dies mit der Bauleitung vor Ort zu klaeren».
+5. **Eine generelle Auflage zum Schluss**, knapp.
+6. **Verfuegbarkeit + naechster Kontakt:** «Ich stehe Dir jederzeit zur Verfuegung. Wir sehen uns
+   morgen.»
+
+⭐ Bemerkenswert an (4): **er zieht die Koordination nicht an sich.** Der Architekt liefert die
+Grundlage und benennt, **mit wem** der Unternehmer sich abstimmt. Dieselbe Bewegung wie Batch 104
+Kernbefund 8 («er vermittelt, statt zu vertroesten»), hier nach unten in die Ausfuehrung
+gerichtet. Der Zwilling neigt an dieser Stelle dazu, die Klaerung selbst zu uebernehmen oder eine
+Rueckmeldung an sich zu verlangen — beides ist eine Stufe zu besitzergreifend.
+
+## Batch 105 — ⭐ Werkzeug-Detektor gefallen; Ersatz gemessen
+
+**Die in Batch 103 benannte Bruchstelle ist am 25.08.2026 eingetreten.** Apple Mail antwortet auf
+der Station seit dem 24.08. nicht mehr auf osascript; Radar (07:12) und Hub-Chef (08:50) sind von
+Hand auf Graph ausgewichen (`m365 outlook mail send`, belegt in `connectors/WEGE.md` und
+`logbuch/fristen.md` 25.08.). Beide Hub-Briefings tragen seither eine `PROD.OUTLOOK.COM`-ID,
+**zeichengenau denselben Host** wie Raphaels eigene OWA-Mail. **Ab dem 25.08.2026 beweist die
+`internetMessageId` nichts mehr.** Wer sie weiter als Gold-Nachweis liest, zieht Hub-Erzeugnisse
+als Stilquelle ein — genau die Echo-Falle, vor der Batch 103 gewarnt hat.
+
+⚠ **Die Vorbedingungspruefung war falsch gebaut, und das ist der teurere Teil.** Batch 104 sicherte
+den Detektor mit `grep -rn "sendMail" connectors/ scripts/`. Dieser grep ist **heute immer noch
+leer** — und der Detektor ist trotzdem gefallen: der Graph-Weg laeuft ueber die **m365-CLI von
+Hand**, nicht ueber einen Connector mit diesem String. Der Waechter prueft eine Zeichenkette, die
+auf dem tatsaechlichen Weg **nie** auftauchen kann; er konnte gar nicht ausloesen. Gleiche Familie
+wie Rule `auto-verbesserungen` 260730b/260807, hier verschaerft: **das leere Ergebnis wurde als
+Entwarnung gelesen.** Merksatz fuer kuenftige Waechter: **eine Vorbedingung, die nur den bekannten
+Weg prueft, sichert nichts — sie muss den Zustand messen (hier: den Absendeweg der letzten
+Hub-Mail), nicht ein Werkzeug erraten.**
+
+**Ersatz-Detektor, an den vier Mails dieses Fensters gemessen:**
+
+| Weg | Schriftstack | Farbe | Struktur | Zusatzmarker |
+|---|---|---|---|---|
+| Hub via Graph/m365 | `Aptos,Calibri,Helvetica,sans-serif` | `color:#000000` | EIN Wrapper-`<div>`, Text in `<p>` | keiner |
+| Raphael OWA (Desktop) | `Aptos,Arial,Helvetica,sans-serif` | `color:rgb(0,0,0)` | ein `<div>` **je Zeile** | `mail-editor-reference-message-container` |
+| Raphael Outlook Mobile | `Aptos,Arial,Helvetica,sans-serif` | `color:rgb(0,0,0)` | `<div>` je Zeile + `direction:ltr` | `ms-outlook-mobile-signature` |
+
+Trennscharf ist schon **`Calibri` gegen `Arial`**: der Hub-Body wird nach Rule `mail-formatierung`
+von Hand gesetzt, Outlook setzt seinen Stack selbst. Zweites unabhaengiges Merkmal ist die
+Farbnotation (`#000000` von Hand gegen `rgb(0,0,0)` von Outlook), drittes die Absatzstruktur.
+
+**Ehrlicher Nachteil:** der neue Detektor ist **nicht gratis** — er steht im Body, nicht in der
+Trefferzeile, und kostet je Pruefung ein `read_resource`. Darum zweistufig:
+1. **Gratis-Vorfilter:** Empfaenger == `rj@` selbst UND Betreff beginnt mit einem Loop-Namen
+   (`Hub-Chef`, `Radar`, `AG-Gruendung`, …) ⇒ Hub, nicht lesen. Erspart in diesem Fenster 2 von 4.
+2. **Bezahlter Nachweis beim Lesen:** CSS-Fingerabdruck. Er ist **zweiseitig** und damit staerker
+   als der alte — er weist die eigene Hand **und** den Hub aus, nicht nur eine Richtung.
+
+**Bruchstelle des Ersatzes, vorsorglich benannt:** faellt der Hub je auf einen Weg zurueck, der den
+Body nicht selbst setzt (Outlook-Draft, OWA-Automatisierung), verschwindet der `Calibri`-Marker.
+**Die Fehlerinsel bleibt der einzige Detektor, der an keinem Werkzeug haengt** — sie ist die
+Rueckfallebene.
