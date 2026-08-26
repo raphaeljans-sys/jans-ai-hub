@@ -1,6 +1,6 @@
 ---
 name: synergie-lauf-monatlich
-description: Monatlicher Synergie-Orchestrator-Lauf (Struktur-Aufsicht des JANS AI Hub). Takt am 03.08.2026 von 04:40 auf 21:40 verlegt (Empfehlung vollgas-radar 01.08.): der alte Slot lag nur 26 Min hinter planungsgrundlagen-wartung (04:10), also unter der dokumentierten Taktentzerrung von min. 2 h; am 01.08. liefen beide tatsaechlich ueberlappend. Bewusst NICHT am Monatsersten umgestellt — eine Cron-Aenderung re-armt die Task fuer denselben Tag und erzeugt einen Doppellauf.
+description: STILLGELEGT am 13.08.2026 — abgeloest durch den taeglichen Task `synergie-lauf-taeglich` (17:00, Anordnung Raphael). Nicht geloescht, damit die Lauf-Historie 01–04 dieses Namens zurechenbar bleibt (Rule `rollen-taxonomie`: ein ersetzter Name kappt die ganze Historie in der Rollen-Bilanz). Vorgeschichte: Takt am 03.08.2026 von 04:40 auf 21:40 verlegt (Empfehlung vollgas-radar), Erstlauf 01.08.2026, Laeufe 02–04 am 25.07., 01.08. und 12./13.08.
 ---
 
 Fuehre den monatlichen Lauf des Skills `synergie-orchestrator` aus (Freigabe Raphael 15.07.2026, Takt: monatlich im Nachtfenster).
