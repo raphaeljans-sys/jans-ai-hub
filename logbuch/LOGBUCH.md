@@ -8868,3 +8868,18 @@ keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.
   nur tote Links, keine fehlenden Inbound-Links prueft), keine Sachaussage betroffen. Report:
   `wissen/firmengruendung-ch/outputs/2026-08-26_health-check.md`. Kein Fan-out, kein Versand,
   keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund 2.3 von 5 USD.
+
+- Nachtschicht (Mac Mini, 23:31, eigener Zyklus, Prioritaet 5): Prioritaeten 1-3 leer/nicht
+  umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 1+2 weiterhin vollstaendig
+  853/853 verarbeitet, `vectors.npz` unveraendert seit 24.08.; Fristen-Register fuehrt nur
+  bereits bekannte «Aktion Raphael»-Punkte ausserhalb eigener Handlungsmacht). Prioritaet 4
+  durchgeprueft: `energie` heute bereits dreimal aktualisiert (02:35/13:39/13:43), `bauprodukte`
+  seit 15.08. formal erledigt, `grobkosten` seit 13.08. ausgesetzt — kein freies Ziel. Auf
+  Prioritaet 5 ausgewichen: sechs weitere offene Identitaets-/Sachfragen aus
+  `wissen/architekten-synobsis/wiki/QUESTIONS.md` per WebSearch geklaert (direkt im
+  Hauptkontext, kein Fan-out). Fuenf von sechs mit belastbarem Ergebnis (Baumann_Ludwig,
+  Arbeitsgruppe_4, BIQ_Architekten, Boesch_Ivo bestaetigt; Bicvardo_Arcitects als
+  wahrscheinliche Verschreibung von Bicuadro Architects Rom identifiziert ohne Direktbeleg),
+  eine ohne Treffer offen (DECARVALHO_BOTELHO). CHANGELOG-Eintrag gesetzt, `git diff --numstat`
+  nativ geprueft (6/6 Zeilen additiv erweitert, keine Loeschung). Kein Fan-out, kein Versand,
+  keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund 1.7 von 5 USD.

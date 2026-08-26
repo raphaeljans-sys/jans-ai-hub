@@ -12,7 +12,7 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Norm-Fundstellen SIA/VKF/VSS (Ziffer/Ausgabe/Kennwert) | **normen** | baurecht (nennt Norm, verweist auf Destillat) |
 | Energie-Fachphysik / U-Werte / Grenzwerte / PV-Technologie | **energie** | planungsgrundlagen/energie-* |
 | Energienachweis-Verfahren / EVEN / Formulare / Private Kontrolle | **planungsgrundlagen** (energie-*) | energie (verweist fuer Verfahren) |
-| Grobkennwerte CHF/m3 GV (BKP 1-5, Wohnbau) | **grobkosten** | immobilienbewertung/realwert |
+| Grobkennwerte CHF/m3 GV (BKP 1-5, Wohnbau) | **grobkosten** | immobilienbewertung/realwert, skills/machbarkeit/wissensbasis (Kubaturmethode — verweist dorthin; der eigene Ebmatingen-Wert 2'400 CHF/m³ GV ist seit 25.07.2026 geflaggt und **nicht zu verwenden**, siehe Run-44-Abschnitt) — NEU Run 44 (26.08.2026): machbarkeit fuehrte einen eigenen m³-GV-Wert, war in dieser Matrix aber nicht registriert |
 | Wuest-Ausbaustandard-Tabelle CHF/m2 HNF (Immobilien entwickeln) | **immobilienbewertung** | grobkosten (verweist) |
 | Wuest-Kostenbenchmark-Referenz (Median/Quantile) | **skills/kostenschaetzung/referenzen** | grobkosten + immobilienbewertung |
 | Spec-Methode (formales Geruest) | **spec** | twin (verweist als Evidenz) |

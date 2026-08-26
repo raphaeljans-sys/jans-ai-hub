@@ -2,6 +2,66 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-26 — Wissens-Chef Run 44: eine Synthese wurde sichtbar, während ihre Quelle unsicher wurde
+
+Delta-Basis 25.08.2026 23:11, Fenster 24,0 h, **116 Commits**, HEAD `2b6cd0693`, 62 geänderte Dateien
+in `wissen/` + `rules/`. Uhr-Kontrolle bestanden (23:11 CEST gegen nativen Synology-Selfcommit
+23:00:06). Zuschnitt: 6 Melder (`model: sonnet`) + 6 Refuter (Hauptmodell) = **12 Agenten**,
+2'142'633 Token, 210 Werkzeugaufrufe, 8,6 Min, 0 Fehler. **6 Befunde gemeldet, 5 bestätigt, 1
+widerlegt, 3 Nullbefunde gemessen**, dazu 3 eigene Funde im Hauptkontext. 9 Dateien geändert, 8 rein
+additiv, 1 gewollte Zeilenersetzung.
+
+- **Der harte Befund: zwei Läufe haben `normen/wiki/synthese-sia-vkf-fachskills.md` in die Zange
+  genommen.** Run 43 hat sie am 25.08. im `INDEX.md` nachregistriert (sie war seit 17.07.
+  `established`, aber nie auffindbar); `normen` Run 62 hat ihr Quelldestillat `sia-118-1991.md` am
+  26.08. auf **`speculative`** herabgestuft (84 Kern-, 82 Nebenlücken). Die Synthese wurde also genau
+  dann breiter sichtbar, als ihre Grundlage unsicherer wurde. Materiell betroffen ist die Zeile
+  «Mängelrechte-Kaskade»: sie gibt die drei Wahlrechte aus Art. 169 SIA 118:1991 **schrankenlos**
+  wieder — Run 62 nennt das «die Bauherrenrechte überdehnt» und hat u.a. die Schranke der
+  übermässigen Kosten (Art. 368 Abs. 2 OR) nachgetragen. **Aussenwirkung: wer bei einer echten
+  Mängelsituation nur die Kurzzeile liest, vertritt gegenüber dem Unternehmer eine zu weite
+  Rechtsposition** — und die Skills `werkvertrag`/`ausschreibung`/`unternehmerkontrolle` ziehen genau
+  diese Tabelle. ⚠-Vorbehalt vor der Tabelle gesetzt (+23/−0); der Statusentscheid bleibt bei `normen`.
+- **Der lehrreichste Befund (Hauptkontext): eine erfüllte Bringschuld am falschen Ort verhindert
+  nichts.** `normen/destillate/sia-2024-korrigenda-c1-c2.md` führt sich selbst als «noch nicht
+  ausgeführt» — die Übergabe stand längst in `energie/wiki/QUESTIONS.md` Z. 2049–2056, vom selben
+  Tag. Der Rückverweis fehlte dagegen ganz, und das kostete: `normen` las C1+C2 am **23.08.**
+  vollständig, `energie` beschaffte und las C2:2025 am **24.08.** noch einmal selbst (deutsche und
+  französische Fassung). Ursache ist strukturell — die Notiz landete in der `QUESTIONS.md`, während
+  der Folgelauf am **Destillat** arbeitete. Rule `wissens-bibliothekar` verlangt seit 23.08., dass der
+  erledigende Lauf den Fund sichtbar macht; dieser Fall zeigt, dass «irgendwo in der Empfänger-KB»
+  nicht genügt. Beide Richtungen jetzt gesetzt (+13/−0 bzw. +14/−0). Drittens war die Warnung im
+  energie-Block («normen führt 2006 bzw. 2014») nur noch **zur Hälfte** wahr — für SIA 2024 seit
+  23.08. überholt, für SIA 382/1 weiterhin zutreffend; präzisiert.
+- **Ein Monat Standzeit für Faktor 2.8.** `skills/machbarkeit/wissensbasis/02_kennwerte-kosten.md:30`
+  führt 2'400 CHF/m³ GV gegen den führenden Band 850–1'050. Der Refuter hat den einzigen Ausweg
+  verschlossen: BKP 2 ist Teilmenge von BKP 1–5 und müsste **tiefer** liegen, nicht 2.8-fach höher.
+  Der Mangel ist Registerhygiene — der Punkt stand seit 25.07. nur im Laufbericht von Run 15 und im
+  CHANGELOG, also an zwei Orten, die kein Aufsichtslauf abgreift (Rule `auto-verbesserungen` 260805).
+  Flag geschärft (+10/−0), Matrixzeile um `skills/machbarkeit` ergänzt, Punkt erstmals
+  wiedervorlagefähig registriert. Die Zahl bleibt stehen: Einheitenverdacht ungeklärt.
+- **Zwei weitere bestätigte Befunde, beide erledigt.** (a) `normen` führte in `QUESTIONS.md` und
+  `CHANGELOG.md` die Uf-Werte 1,8/2,2/2,8 als geltend, obwohl `energie` Run 164 am selben Tag auf die
+  Ausgabe **2021** (1,4/1,9/2,5) korrigiert hatte — der ⛔-Vermerk stand im Destillat, nur die
+  Journale hingen zurück; nachgetragen (+9/−0, +8/−0). (b) `auflagebereinigung` zeigte für die
+  GVZ-Anmeldeschwellen auf ein seit 20.08. `superseded`-Destillat; materiell ändert sich nichts
+  (Delta nur Ziff. 3.2.2, zitiert sind 4.1/3.10), aber der Bauleiter landete auf einer Warnung ohne
+  Einordnung. Fassungs-Nachtrag gesetzt (+11/−0).
+- **Widerlegt: die Rule hält Stadelmann nicht auf «Sie».** Der Melder wollte eine importierte Rule
+  gegen einen Belegstand ändern, den seine eigene Quelle anders qualifiziert. Stadelmann hat in der
+  Kontaktliste gar keine Tabellenzeile; die Anweisung «den belegten Opener halten» ist
+  selbst-aktualisierend und führt mit dem Beleg vom 25.08. selbst zum Du. Der behauptete dreifache
+  Beleg ist **einfach**: das Beziehungsregister qualifiziert die beiden älteren Fälle (03./05.08.)
+  ausdrücklich als keinen Registerwechsel. Der Punkt liegt Raphael ohnehin als `twin` QUESTIONS
+  260826 #1 vor.
+- **Drei Nullbefunde gemessen:** die Uf-Korrektur ist hub-weit ausserhalb `energie` nirgends
+  zurückgeblieben; der KISPI-Zuständigkeitswechsel ist in beiden KBs Wort für Wort deckungsgleich und
+  bidirektional verlinkt; Art. 229 StGB sitzt nach Run 43 beidseitig, keine Stelle im Hub führt noch
+  «drei Jahre» für den vorsätzlichen Tatbestand.
+- **Offen für Raphael:** die gerissene Belegkette zwischen `rules/anrede-kontakte.md` Z. 58–60 und
+  `rules/jans-dna-facetten.md` (Commit `2824da0f2` hat die zitierten Einzeldaten dort entfernt) —
+  beides Rules, deren Wortlaut Claude nicht selbst ändert. Details: `outputs/2026-08-26_wissens-chef-run44.md`.
+
 ## 2026-08-26 — Synergie-Lauf 19: der Hub lernt einen Ersatzweg, und nur einer merkt es
 
 Delta-Basis 25.08.2026 17:10, Fenster 24,0 h, **116 Commits**, HEAD `188eb0923`. Uhr-Kontrolle

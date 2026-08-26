@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## 2026-08-26 (Wissens-Chef Run 44) — Rückverweis auf die führende KB `normen` gesetzt; halb veraltete Ausgaben-Warnung präzisiert
+
+Eingriff in `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (+13/−0, rein additiv,
+keine Zahl geändert). Zwei Befunde des Wissens-Chefs:
+
+1. **Rückverweis fehlte.** Der Artikel nannte `wissen/normen/destillate/sia-2024-korrigenda-c1-c2.md`
+   (`status: established`, gelesen 23.08.2026) nirgends — obwohl er die Korrigenda **C2:2025 am
+   24.08.2026 selbst noch einmal beschafft und vollständig gelesen** hat (deutsche und französische
+   Fassung), einen Tag nachdem `normen` beide Korrigenda vollständig gelesen hatte. Die
+   Cross-KB-Notiz von `normen` war korrekt gesetzt, aber in `wiki/QUESTIONS.md` Z. 2049–2056 — nicht
+   in dem Destillat, an dem der Folgelauf arbeitete. Zeiger jetzt gesetzt: `[[sia-2024-korrigenda-c1-c2]]`
+   und `[[sia-2024-2021]]`.
+2. **Ausgaben-Warnung nur noch zur Hälfte gültig.** Der Querbezug-Block warnte seit 14.07.2026, das
+   normen-Register führe «bislang 2006 bzw. 2014, Re-Destillate ausstehend». Für **SIA 2024** ist das
+   seit dem 23.08.2026 überholt (`normen` hat den Stand direkt am SIA-Shop verifiziert: gültig ab
+   01.12.2021, ersetzt 2015; beide Korrigenda geschlossen, Kategorie-8-Werte in C1/C2 zeilenidentisch).
+   Für **SIA 382/1** trifft die Warnung weiterhin zu (`sia-382-1-2014`, Vermerk «durch SIA 382/1:2025
+   ueberholt»). Präzisiert, damit eine zur Hälfte falsche Warnung nicht ganz ignoriert wird.
+
+Beleg und Herleitung: `wissen/koordination/outputs/2026-08-26_wissens-chef-run44.md`.
+
 ## 2026-08-26 (Run 164, Scheduled Task 22:38) — E-R163-3 geschlossen: das «Merkblatt Fenster» hat eine Ausgabe 2021; 10 Fundstellen berichtigt
 
 **Der Fund.** Die KB führte die Rahmen-Rechenwerte Uf 1,8 / 2,2 / 2,8 als geltend und hatte sie am

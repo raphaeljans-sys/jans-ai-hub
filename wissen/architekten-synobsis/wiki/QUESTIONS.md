@@ -5,37 +5,37 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 ## 1 Leere oder fast leere Ordner
 
 - **Balisat** — Ordner komplett leer (0 Dateien). Wer oder was ist Balisat? Loeschen, fuellen oder als Platzhalter markieren?
-- **Baumann_Ludwig** — Ordner komplett leer (0 Dateien). Ist der Wiener Ringstrassen-Architekt Ludwig Baumann gemeint? Fuellen oder entfernen?
+- **Baumann_Ludwig** — Ordner komplett leer (0 Dateien). Ist der Wiener Ringstrassen-Architekt Ludwig Baumann gemeint? Fuellen oder entfernen? **RECHERCHIERT 26.08.2026 (Nachtschicht Mac Mini):** Person bestaetigt. Ludwig Baumann (11.05.1853 Seibersdorf bis 06.02.1936 Wien), Studium ETH Zuerich 1870-1874 bei Gottfried Semper, errichtete 1909-1913 als letzten Monumentalbau am Ring das k.u.k. Kriegsministerium (Stubenring), 1907 Baufuehrer der Neuen Hofburg (Nachfolge Friedrich Ohmann), spaeter Hauptvertreter des oesterreichischen Neobarock («Reichsstil»), auch Bauten in Berndorf fuer Arthur Krupp. Der Ordner ist damit korrekt einer realen Person zugeordnet, nur leer — Fuellen/Entfernen bleibt Freigabesache. Quellen: architektenlexikon.at/de/26.htm, en.wikipedia.org/wiki/Ludwig_Baumann_(architect), geschichtewiki.wien.gv.at/Ludwig_Baumann.
 - **6a Architects** — nur 1 Bild. Soll das Londoner Buero ausgebaut werden (z.B. South London Gallery, Raven Row) oder bleibt der Ordner Stub?
 - **Aando_Tadao** — nur 2 Bilder, zudem Schreibfehler (siehe unten). Zusammenfuehren mit einem allfaelligen korrekten Ando-Ordner weiter hinten im Alphabet?
 - **Albini_Franco** — 9 Bilder ohne Projektstruktur und ohne Dokumente. Projekte (z.B. Museen Genua) nachziehen?
 - **Alder_Michael** — nur 2 Bilder, 1 Dokument. Basler Wohnbauten ergaenzen oder Stub belassen?
 - **Alpago_Novello_Alberto** — nur 4 Bilder. Ausbauen oder Stub?
-- **Arbeitsgruppe_4** — 3 Bilder, 1 Dokument. Reicht das als Merkposten fuer die oesterreichische Gruppe?
+- **Arbeitsgruppe_4** — 3 Bilder, 1 Dokument. Reicht das als Merkposten fuer die oesterreichische Gruppe? **RECHERCHIERT 26.08.2026 (Nachtschicht Mac Mini):** bestaetigt. Arbeitsgruppe 4 war der 1950 gewaehlte Name eines Zusammenschlusses von vier Architekturstudenten der Meisterklasse Clemens Holzmeister (Akademie der bildenden Kuenste Wien): Friedrich Kurrent (1931-2022), Johannes Spalt (1920-2010), Wilhelm Holzbauer (1930-2019) und bis 1953 Otto Leitner (*1930). Kurrent/Spalt arbeiteten bis Anfang der 1970er zusammen; ueber zwei Jahrzehnte rund 120 Projekte, gut ein Dutzend realisiert, gilt als Meilenstein der oesterreichischen Nachkriegsarchitektur (Retrospektive Architekturzentrum Wien 2010). Als Merkposten fuer die Gruppe ausreichend, kein Einzelbuero. Quellen: de.wikipedia.org/wiki/Arbeitsgruppe_4, austria-forum.org/af/AustriaWiki/Arbeitsgruppe_4.
 - **Archigram** — leere Standard-Ablagestruktur 00 bis 07 mit nur 1 Dokument. Struktur wieder entfernen oder mit Material fuellen?
 - **BAUMBERGER_STEGMEIER** — 3 Bilder, keine Projekte; zudem Slug in Grossbuchstaben (Normierung auf Baumberger_Stegmeier?).
 - **Baumann_Povel** — 3 Bilder; Name unklar. Ist Povel ein Vorname, ein Partner oder ein Tippfehler?
 - **Bachem_Joseph** — nur 1 Bild zu St Martin Kaulsdorf. Stub belassen?
 - **Bazzani_Cesare** — nur 1 Bild zur GNAM Rom. Stub belassen?
 - **Bawa Cheffrey** — 3 Bilder, 1 Dokument; zusaetzlich Schreibfehler und Leerzeichen im Ordnernamen (siehe unten).
-- **BIQ_Architekten** — nur ein Literaturordner mit 4 Dateien. Welches Buero ist gemeint (BIQ Stadsontwerp Rotterdam?), und soll es Projekte erhalten?
+- **BIQ_Architekten** — nur ein Literaturordner mit 4 Dateien. Welches Buero ist gemeint (BIQ Stadsontwerp Rotterdam?), und soll es Projekte erhalten? **RECHERCHIERT 26.08.2026 (Nachtschicht Mac Mini):** Vermutung bestaetigt. biq (auch «BIQ stadsontwerp») ist ein 1994 von Rick Wessels und Hans van der Heijden gegruendetes Rotterdamer Buero, Fokus staedtische Bestandsentwicklung/Energiewende/Zirkularitaet, urspruenglich Reihenhausbau Neubau/Sanierung, spaeter Innenstadtlagen; Europan-4-Gewinner 1996 (Liverpool), Teilnahme Architekturbiennale Venedig (Gruppe St. John/Caruso zu leistbarem Wohnungsbau). Projekte nachziehen bleibt eine Kapazitaets-/Freigabefrage. Quellen: biqarchitecten.nl, e-architect.com/architects/biqstad.
 - **Azzola_Durrisch_Architekten** — nur TEC21-Berichte, keine eigenen Projektordner. Als Wettbewerbs-Quellensammlung belassen?
 - **Atelier5** — nur 2 Dokumente (Frankfurt Riedberg). Das Hauptwerk (Siedlung Halen) fehlt komplett; ergaenzen?
 - **Alessi_Alberto** — nur 3 Dokumente, keine Bilder. Rolle in der Bibliothek eher Autor/Forscher als Architekt; so belassen?
 - **Boehm_Markus** — enthaelt nur einen leeren «Neuer Ordner» (0 Dateien). Wer ist Markus Boehm? Loeschen oder fuellen?
 - **Calatrava_Santiago** — nur leerer Ordner «00 Ingenieur», 0 Dateien. Ausbauen oder Stub?
 - **Conte_Pianetti_Zanetta_Arch** — komplett leer (0 Dateien). Welches Buero ist gemeint?
-- **Bicvardo_Arcitects** — 2 Bilder, doppelter Schreibfehler im Slug. Welches Buero ist gemeint?
+- **Bicvardo_Arcitects** — 2 Bilder, doppelter Schreibfehler im Slug. Welches Buero ist gemeint? **RECHERCHIERT 26.08.2026 (Nachtschicht Mac Mini):** wahrscheinlich geklaert, kein Direktbeleg. Der Slug ist plausibel eine doppelte Verschreibung von «Bicuadro Architects» (BICUADRO Architects Associates, Rom, gegruendet 2007 von Francesco Bezzi, Massimiliano Brugia und Valerio Campi; Lucia Catenacci ab 2011 vierte Partnerin; seit rund 2020 als OBICUA fortgefuehrt) — eine Firma «Bicvardo» selbst ist in keiner Quelle nachweisbar, «Bicuadro» ist lautlich und in der Buchstabenfolge sehr nah. Ohne Ordnerinhalt (Bildunterschriften) nicht abschliessend zu bestaetigen. Quellen: bicuadro.it/en/team, archello.com/brand/bicuadro-architects, obicua.it.
 - **Blaf_Architekten** — nur 1 Bild. Belgisches Buero BLAF ausbauen oder Stub?
 - **Blum_Grossenbacher_Architekten** — 2 Dateien ohne Bilder/Dokumente. Stub belassen?
-- **Boesch_Ivo** — 1 Bild; Ivo Boesch ist eher Publizist (Hochparterre). Gehoert der Ordner in die Bibliothek?
+- **Boesch_Ivo** — 1 Bild; Ivo Boesch ist eher Publizist (Hochparterre). Gehoert der Ordner in die Bibliothek? **RECHERCHIERT 26.08.2026 (Nachtschicht Mac Mini):** bestaetigt. Ivo Boesch (*1974), Dipl. Architekt ETH mit eigenem Buero seit 2000, war 2003-2007 Wettbewerbsredaktor bei TEC21 und ist seit 2007 Redaktor bei Hochparterre (Schwerpunkt Wettbewerbe, Baukultur, Architektur-Spaziergaenge, seit 2017 zertifizierter Wanderleiter BAW) — Doppelrolle Architekt/Publizist, in der Bibliothek aber als Publizistik-/Theorie-Merkposten passender denn als Referenzarchitekt (analog Kapfinger_Otto). Quelle: hochparterre.ch/team/ivo-boesch, nextroom.at/actor.php?id=18462.
 - **Brauen_Waelchli, Brunhart_Brunner_Kranz, Buehler_Martin, Burkhardt_Elsa, Carmassi_Massimo, Cebra_Architekten, Chochol, Cohen_Preston_Scott, Consoni_Beat, Da_Vinci_Leonardo, Dieste_Elado, Dietrich_Untertrifaller, Dogma, Dunkel** — je 1 bis 2 Dateien. Sammelfrage: als Merkposten belassen oder gezielt fuellen?
 - **C18** — kryptischer Slug mit 1 Bild. Wofuer steht C18 (18. Jahrhundert? Buero?)?
 - **Buzzi_e_Buzzi** — 3 Dateien; Textauszug ist eine Vorlesungs-/Analysenotiz mit vielen Tippfehlern, kein Buero-Dossier.
 - **Butterfield_William und Cadafalch** — nur leere Standard-Ablagestruktur mit je 1 Dokument. Struktur entfernen oder fuellen?
 - **Chamberlin** — nur Barbican-Wikipedia-Material (2 Dateien). Slug auf Chamberlin_Powell_Bon erweitern?
 - **Cheung_Simon** — 6 Dateien, Name nicht zuordenbar. Wer ist Simon Cheung?
-- **DECARVALHO_BOTELHO** — 6 Bilder, Grossbuchstaben-Slug, Duo ungeklaert (portugiesisch?).
+- **DECARVALHO_BOTELHO** — 6 Bilder, Grossbuchstaben-Slug, Duo ungeklaert (portugiesisch?). **RECHERCHIERT 26.08.2026 (Nachtschicht Mac Mini):** kein belastbarer Treffer. Weder eine Firma noch ein Duo «de Carvalho / Botelho» ist unter diesem gemeinsamen Namen auffindbar; beide Nachnamen kommen in Portugal einzeln bei Architekten/Kuenstlern vor (u.a. Ribeiro de Carvalho Arquitectos, Helena Botelho OA), aber keine Quelle verbindet sie als Buero. Bleibt offen, nur aus dem Ordnerinhalt (Bildunterschriften, Projektbeschriftung) zu klaeren.
 - **Dudler** — 4 Bilder; Doppelordner zu Dudler_Max. Zusammenfuehren (nach Freigabe)?
 - **Caniggia_Gianfranco** — 5 Bilder ohne Struktur. Als Theorie-Merkposten belassen?
 - **Cedric_Price** — 9 Bilder ohne Struktur; Hauptwerk (Fun Palace, Potteries Thinkbelt) fehlt. Ausbauen?

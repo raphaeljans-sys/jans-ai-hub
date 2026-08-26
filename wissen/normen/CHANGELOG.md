@@ -1,3 +1,34 @@
+## 2026-08-26 (Wissens-Chef Run 44) — drei Nachträge von aussen: eine Synthese, ein Journal, eine erfüllte Bringschuld
+
+Cross-KB-Lauf des Wissens-Chefs, alle drei Eingriffe **rein additiv** (kein Wert, kein Status
+geändert). Herleitung: `wissen/koordination/outputs/2026-08-26_wissens-chef-run44.md`.
+
+- **`wiki/synthese-sia-vkf-fachskills.md` (+23/−0) — ⚠-Vorbehalt vor die Tabelle 1.3 gesetzt.** Der
+  Artikel trägt `status: established` / `last_updated: 2026-07-17` und führt als Quelle
+  `destillate/sia-118-1991.md` — das **Run 62 am selben Tag** auf `speculative` herabgestuft hat.
+  Materiell betroffen ist die Zeile «Mängelrechte-Kaskade»: sie gibt die drei Wahlrechte aus Art. 169
+  schrankenlos wieder, während Run 62 als Kernbefund festhält, das Destillat habe «die Bauherrenrechte
+  überdehnt», und die Schranken nachgetragen hat (u.a. übermässige Kosten, Art. 368 Abs. 2 OR).
+  Art. 163 und Art. 83 fehlen in der Synthese ganz. Verschärfend: Wissens-Chef Run 43 hat den Artikel
+  am 25.08. im `INDEX.md` nachregistriert — er wurde für `werkvertrag`/`ausschreibung`/
+  `unternehmerkontrolle` also genau dann auffindbar, als seine Quelle unsicher wurde.
+  **Der Statusentscheid für diesen Artikel wurde bewusst NICHT vorweggenommen — er gehört dieser KB.**
+- **`wiki/QUESTIONS.md` (+9/−0) und dieser CHANGELOG (+8/−0) — ⛔-Nachtrag zu den Uf-Rechenwerten.**
+  Der Eingang aus `energie` Run 163 (25.08.) formulierte «dort gelten 1,8 / 2,2 / 2,8» als geltenden
+  Stand. `energie` Run 164 hat einen Tag später erkannt, dass auch die Ausgabe **2009** des Merkblatts
+  Fenster überholt ist: geltend ist die **Ausgabe 2021** (EnDK, mitgeltend SIA 380/1:2016), Tab. 6 mit
+  **1,4 / 1,9 / 2,5**. Der ⛔-Vermerk stand bereits in `destillate/sia-mb-2021.md` Z. 35, von `energie`
+  selbst gesetzt — nachgehinkt sind allein die beiden **Journaldateien dieser KB**, und die werden per
+  Volltextsuche gelesen. Kein Zahlen-Diff am Destillat nötig.
+- **`destillate/sia-2024-korrigenda-c1-c2.md` (+14/−0) — Selbstaussage richtiggestellt.** Der Artikel
+  schloss mit «Cross-KB-Bringschuld … noch nicht ausgeführt». Sie **war** ausgeführt, am selben Tag
+  (23.08.), in `wissen/energie/wiki/QUESTIONS.md` Z. 2049–2056. Wer den Artikel las, hätte die
+  Übergabe ein zweites Mal vorgenommen. Der Rückverweis in die Gegenrichtung fehlte dagegen ganz —
+  mit belegter Folge: `energie` hat die Korrigenda **C2:2025 am 24.08.** selbst noch einmal beschafft
+  und vollständig gelesen, einen Tag nachdem diese KB beide Korrigenda gelesen hatte. Ursache: die
+  Notiz landete in der `QUESTIONS.md`, während der Folgelauf am **Destillat** arbeitete. Der
+  Rückverweis ist dort jetzt gesetzt.
+
 ## 2026-08-26 — Normen-Nacht Run 62: erste Abdeckungsrunde auf SIA 118 — 84 Kernlücken, kein falscher Wert
 
 - **`destillate/sia-118-1991.md` (+120/−5):** Auf dem meistgezogenen Destillat des Hub (Rule

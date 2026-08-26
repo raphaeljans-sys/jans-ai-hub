@@ -4,6 +4,28 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-26 23:31 (Mac Mini Nachtschicht) — Sechs weitere offene Fragen aus QUESTIONS.md recherchiert (Baumann_Ludwig, Arbeitsgruppe_4, BIQ_Architekten, Bicvardo_Arcitects, Boesch_Ivo, DECARVALHO_BOTELHO)
+
+Prioritaeten 1-3 leer/nicht umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
+weiterhin vollstaendig 853/853 verarbeitet, `vectors.npz` unveraendert seit 24.08.; Fristen-
+Register fuehrt nur bereits bekannte «Aktion Raphael»-Punkte, nichts fuer diesen Lauf).
+Prioritaet 4: `energie` wurde im eigenen Loop bereits mehrfach heute aktualisiert (Runs
+02:35/13:39/13:43, Wiki-/Destillate-Mtimes frisch), `bauprodukte`/`grobkosten` sind laut
+Vorgabe formal erledigt bzw. ausgesetzt. Auf Prioritaet 5 ausgewichen: sechs weitere offene
+Identitaets-/Sachfragen aus `wiki/QUESTIONS.md` per WebSearch geklaert (direkt im
+Hauptkontext, kein Fan-out).
+
+Fuenf von sechs Fragen mit belastbarem Ergebnis geklaert (Ludwig Baumann als Kriegsministerium-
+Architekt am Ring bestaetigt, Arbeitsgruppe 4 als Kurrent/Spalt/Holzbauer/Leitner-Quartett
+bestaetigt, BIQ_Architekten als Rotterdamer biq stadsontwerp bestaetigt, Boesch_Ivo als
+Architekt/Hochparterre-Redaktor-Doppelrolle bestaetigt, Bicvardo_Arcitects als wahrscheinliche
+Doppelverschreibung von Bicuadro Architects Rom identifiziert ohne Direktbeleg); eine bleibt
+ohne belastbaren Treffer offen (DECARVALHO_BOTELHO). Details je Frage mit Quellenangabe direkt
+in `wiki/QUESTIONS.md`. Keine Ordnerumbenennung vorgenommen (Freigabesache Raphael), kein
+Fan-out, kein Versand, keine Buchung, keine destruktive Aktion. `git diff --numstat` nativ
+geprueft: 6 Zeilen geaendert / 6 Zeilen (dieselben sechs Bulletzeilen additiv erweitert),
+keine Loeschung von Bestand.
+
 ## 2026-08-24 23:30 (Mac Mini Nachtschicht, zweiter Lauf) — Sechs weitere offene Fragen aus QUESTIONS.md recherchiert (Giannaci_Paolo, Hancock_John, Guidotti_Architetti, Killer_Hermes, Kiel_Andrew, Nimbus_Architekten, architectuul)
 
 Prioritaeten 1-3 leer/nicht umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 2

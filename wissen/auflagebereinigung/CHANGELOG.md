@@ -2,6 +2,26 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-26 (Wissens-Chef Run 44) — Fassungs-Nachtrag: der Zeiger auf das BMA-Destillat führt auf einen `superseded`-Stand
+
+Eingriff in `wiki/gvz-einreichung-bma-sprinkler.md`, Querbezug-Block (+11/−0, rein additiv).
+
+Der Artikel verweist für die Anmeldeschwellen (BMA >10 Melder oder 600 m²; SPA >10 Sprinkler oder
+100 m²) und die Ausserbetriebsetzungs-Frist auf `wissen/normen/destillate/vkf-brl-20-15-brandmeldeanlagen`.
+Dieses Destillat trägt seit dem Fassungs-Sweep der KB `normen` (Run 58, 20.08.2026) `status:
+superseded` mit dem Vermerk «Nicht als geltende Fundstelle zitieren» — destilliert ist die Fassung
+01.01.2015, geltend ist **01.01.2017**. Der Cross-Check dieses Paars war seit dem 20.07.2026 (Run 10)
+als «bereinigt + verlinkt» geschlossen und wurde seither nicht wieder aufgerufen.
+
+**Materiell ändert sich nichts:** das Fassungs-Delta `vkf-brl-20-15-fassung-2017-delta` (23.08.2026)
+grenzt die Änderung auf **Ziff. 3.2.2** ein (IOTH-Beschluss 22.09.2016, «Ausgenommene Bereiche»); die
+hier zitierten **Ziff. 4.1 / 3.10** sind unverändert. `vkf-brl-19-15-sprinkleranlagen` ist weiterhin
+`established (verifiziert)`. Der Nachtrag ordnet das ein, damit ein Bauleiter, der für eine
+fristgebundene GVZ-Auflage (2619 KISPI Ziff. II.25/26) dem Link folgt, die Warnung dort nicht als
+Ungültigkeit der Schwelle liest.
+
+Beleg: `wissen/koordination/outputs/2026-08-26_wissens-chef-run44.md`.
+
 ## 2026-08-25 — Wissens-Chef Run 43: die drei Audit-Befunde waren alle drei Werkzeug-Artefakte
 
 Der `wissenscheck` meldete am 01.08., 03.08. und 25.08. denselben «toten Backlink
