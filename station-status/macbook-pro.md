@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.08.2026 08:11:40
+Stand: 26.08.2026 08:21:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:09)
@@ -18,4 +18,4 @@ Stand: 26.08.2026 08:11:40
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- ca8f1b24f fristen: Umlaut-Korrektur im Verzugscheck-Nachtrag 26.08.2026
+- ce047e628 nas-selfcommit: 2 Datei(en) 2026-08-26 08:15
