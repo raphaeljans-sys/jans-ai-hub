@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.08.2026 08:43:00
+Stand: 26.08.2026 08:53:16
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 26.08.2026 08:43:00
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a7a003ead nas-selfcommit: 2 Datei(en) 2026-08-26 08:30
+- 551ac9164 hub-chef 26.08.2026: Briefing gesendet (5598 Zeichen), Jegen S2-Plan abgelegt (A3), Graph-Ersatzweg in SKILL.md eingebaut, Estermann-Absage richtiggestellt

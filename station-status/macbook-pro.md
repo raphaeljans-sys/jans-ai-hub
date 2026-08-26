@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.08.2026 08:42:31
+Stand: 26.08.2026 08:52:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:42)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:52)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 26.08.2026 08:42:31
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- a7a003ead nas-selfcommit: 2 Datei(en) 2026-08-26 08:30
+- 551ac9164 hub-chef 26.08.2026: Briefing gesendet (5598 Zeichen), Jegen S2-Plan abgelegt (A3), Graph-Ersatzweg in SKILL.md eingebaut, Estermann-Absage richtiggestellt
