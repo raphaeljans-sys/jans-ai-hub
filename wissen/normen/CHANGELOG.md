@@ -1,3 +1,45 @@
+## 2026-08-27 (Normen-Nacht Run 63) — Abdeckungsrunde auf SIA 102:2020; N62-3 beantwortet
+
+Zweite Anwendung der Abdeckungsrichtung auf ein langjährig `established`-Destillat, plus die
+Kandidatenliste, die Run 62 als N62-3 verlangt hatte. Report:
+`outputs/2026-08-27_normen-nacht-run63.md`.
+
+- **`destillate/sia-102-2020.md` (+226/−24) — 34 Kernlücken inline eingearbeitet, Status
+  `established` → `speculative`, Prüfstand-Tabelle ergänzt.** Die Refuter- und Q&A-Runden vom
+  14.07.2026 bleiben gültig; es wurde **kein falscher Wert** gefunden. Die erstmals gefahrene
+  Abdeckungsrichtung (6 Segmente, S. 5-41, Scan ohne Textlayer, visuell an 200-dpi-Renderings)
+  fand **34 Kern- und 52 Nebenlücken**. Die 24 entfernten Zeilen sind einzeln geprüft und
+  ausnahmslos beabsichtigte Zeilenersetzungen. Schwerste Einzelbefunde: die Vertretungs- und
+  Notkompetenz-Regeln (Ziff. 1.2.33/1.2.34), die fehlende Pflicht zur Herausgabe in **digitaler
+  Form** ohne Formvereinbarung (1.2.8, BIM-/CAD-relevant), die Honorarabgrenzung zu Beratern und
+  Spezialisten (3.5.4), die Servituten-Prüfung als Grundleistung des Vorprojekts (4.31) und die
+  **Kostenrevision nach Offertvergleich** als Grundleistung der Teilphase 41.
+- **Ein Fundstellenfehler korrigiert (1):** Das Destillat schrieb einen Inhalt des **Art. 3.4.2**
+  dem **Art. 2.3.1 Satz 2** zu. Am Original S. 11 und S. 13 nachgelesen und berichtigt. Gefunden
+  als Zufallsfund eines Agenten ausserhalb seines Auftrags — daraus N63-2.
+- **Ein Strukturbefund, der die Lücken erklärt:** Die Norm baut jede Teilphase als Tabelle mit
+  fünf Leistungsbereichen plus AG-Block; das Destillat hat durchgehend nur die Spalte
+  *Auftragsgegenstand* aufgenommen. Als Warnblock vor Art. 4 gesetzt, weil daraus abgeleitete
+  Leistungsumfänge den Aufwand systematisch unterschätzen.
+- **`wiki/synthese-sia-vkf-fachskills.md` (+2/−1) — eine verschmolzene Regel getrennt.** Die
+  Synthese führte «Phasen 1/2/6 ohne Grundleistungen» und «gesondert zu honorieren» als **eine**
+  Aussage unter der Fundstelle «3.3.3-3.3.5». Tatsächlich sind es zwei: Ziff. 3.3.2 (Phasen) und
+  Ziff. 3.3.5 (besondere Aufträge wie Studien, Beratungen, Koordinations-, Kontroll- und
+  Überwachungsaufgaben — **phasenunabhängig**). Die verschmolzene Fassung verbarg einen
+  Honoraranspruch mitten in den Phasen 3-5. Zeile korrigiert, zweite Zeile ergänzt.
+  **Derselbe Artikel war schon am 26.08.2026 (Wissens-Chef Run 44) wegen der SIA-118-Herabstufung
+  zu bereinigen** — er ist der zentrale Weiterverteiler und verdient eine eigene Durchsicht.
+- **`skills/honorarberechnung-sia102/SKILL.md` (+3/−1) — Statusangabe nachgeführt.** Der Skill
+  zitierte das Destillat als `established`. Mit ausdrücklichem Vermerk, dass der für den Skill
+  entscheidende Negativbefund «kein Art. 7» davon **nicht** betroffen ist: er wurde in Run 63 an
+  den Schlussseiten des Originals eigens nachgeprüft und bestätigt.
+- **`training/n62-3-pruefstand-kandidaten.md` (neu) — N62-3 beantwortet.** Von **310**
+  `established`-Destillaten tragen **2** einen Prüfstand, beide DIN (Mac-Mini-Scope). Im
+  SIA/VKF-Bestand dieser Station: **keines**. Priorisiert nach entscheidungstragender Reichweite
+  (Konsumenten in `skills/*/SKILL.md`, `agents/`, `rules/` — Referenz- und LV-Dateien bewusst
+  nicht gezählt, sie hätten die Rangfolge verfälscht). Nächster Kandidat: `sia-416-2003.md`.
+- **`destillate/INDEX.md`, `wiki/QUESTIONS.md`** nachgeführt (N63-1, N63-2 offen; N62-3 geschlossen).
+
 ## 2026-08-26 (Wissens-Chef Run 44) — drei Nachträge von aussen: eine Synthese, ein Journal, eine erfüllte Bringschuld
 
 Cross-KB-Lauf des Wissens-Chefs, alle drei Eingriffe **rein additiv** (kein Wert, kein Status

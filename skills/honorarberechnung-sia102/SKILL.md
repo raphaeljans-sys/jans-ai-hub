@@ -80,7 +80,9 @@ oben zieht zusätzlich Phase 21 Vorstudien in die 100 % und gewichtet die Ausfü
 **Nie als SIA-102:2020-Fundstelle zitieren.** Diese Ausgabe endet mit Art. 6 und enthält
 weder einen Art. 7 noch eine Anhang-A-Prozenttabelle; eine baukostenabhängige
 Prozent-Honorarrechnung ist über SIA 102:2020 **nicht** normativ zu belegen (Beleg:
-`wissen/normen/destillate/sia-102-2020.md`, status `established`, Original S. 1-41 gelesen).
+`wissen/normen/destillate/sia-102-2020.md`, Original S. 1-41 gelesen; Status seit 27.08.2026
+`speculative` — die Aussage «kein Art. 7» ist davon **nicht** betroffen, sie wurde in Run 63
+am Original der Schlussseiten eigens nachgeprüft und bestätigt).
 Wer prozentual nach Baukosten rechnet, beruft sich auf **SIA 102:2014, Ziff. 7.7** oder weist
 die Werte als bürointerne Konvention aus. Korrigiert 18.08.2026 (Wissens-Chef Run 36, M1-1);
 die Prozentwerte selbst blieben unverändert, nur die Herkunftsangabe war falsch.

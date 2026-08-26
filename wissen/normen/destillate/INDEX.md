@@ -50,7 +50,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-teilrevision-2026-pyrotechnik.md` | VKF-Teilrevision 2026 (BRL 12-15 + 26-15), Pyrotechnik | in Kraft 01.04.2026 | speculative (Erstdestillat Run 58, Wortlaut-Diff beider Fassungen; keine Refuter-Runde) |
 | `sia-register-2013.md` | SIA Rückzugs-/Ersatz-Register | Stand 25.02.2013 | established (verifiziert 260714, Stichprobe 13 Normen-Nummern, 1 Fehler in REGISTER.md korrigiert) |
 | `sia-gesamtverzeichnis-2002.md` | SIA Produkt-/Preiskatalog | ~2002 (historisch) | established (verifiziert 260714, Volltextabgleich) |
-| `sia-102-2020.md` | SIA 102 Leistungen + Honorare Architekten | 2020 | established, vollständig verifiziert 260714 (71 Aussagen, 0 Fehler, Art. 5 + Teilphasen 4.3/4.4/4.53/4.6 ergänzt) |
+| `sia-102-2020.md` | SIA 102 Leistungen + Honorare Architekten | 2020 | **speculative (herabgestuft Run 63, 27.08.2026)** — Refuter/Q&A 260714 bestanden (71 Aussagen, 0 Fehler) und weiterhin gültig; die erstmals gefahrene Abdeckungsrichtung fand aber **34 Kern-, 52 Nebenlücken + 1 Fundstellenfehler** (2.3.1→3.4.2). Kernbefunde inline eingearbeitet, Prüfstand im Destillat. Zweiter Fall nach `sia-118-1991` |
 | `sia-102-2003.md` | SIA 102 Leistungen + Honorare Architekten | 2003 | speculative (nicht destilliert, Ablösungskette dokumentiert) |
 | `sia-103-2003.md` | SIA 103 Leistungen + Honorare Bauingenieure | 2003 | established (verifiziert 260712) |
 | `sia-105-2020.md` | SIA 105 Leistungen + Honorare Landschaftsarchitekten | 2020 | established (verifiziert 260712) |

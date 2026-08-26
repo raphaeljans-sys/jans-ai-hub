@@ -6151,3 +6151,40 @@ Werten**. Die Kernbefunde sind inline eingearbeitet, die Nebenbefunde nicht. Vol
   40-45 fortgeschrieben, ohne sie gegen den KB-Stand zu prüfen — derselbe Fehlertyp, den
   Methodik-Pflicht 10 für externe Statusaussagen beschreibt, hier auf einen **internen** Vorgang
   angewandt. Kein KB-Fehler, ein Report-Fehler; hier geschlossen, damit ihn kein dritter Lauf erbt.
+
+## Run 63 (MacBook Pro, 27.08.2026) — Abdeckungsrunde auf SIA 102:2020, und die Antwort auf N62-3
+
+Kontext: Auf `sia-102-2020.md` lief am 27.08.2026 erstmals die **Abdeckungsrichtung**
+(Methodik-Pflicht 13). Sie förderte **34 Kern- und 52 Nebenlücken** zutage — bei **null falschen
+Werten** — sowie **einen Fundstellenfehler**. Die Kernbefunde sind inline eingearbeitet, der
+Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
+`outputs/2026-08-27_normen-nacht-run63.md`.
+
+- [ ] **N63-1 — Die 52 Nebenbefunde zu SIA 102:2020 einarbeiten.** Sie stehen vollständig im
+  Lauf-Report. Schwerpunkt ist ein einziges Muster: die Norm baut jede Teilphase als Tabelle mit
+  den Leistungsbereichen *Auftragsgegenstand · Organisation · Kosten/Finanzierung · Termine ·
+  Administration* plus einem eigenen Block «Leistungen und Entscheide des Auftraggebers»; das
+  Destillat hat durchgehend nur den **Auftragsgegenstand** aufgenommen. Betroffen: 4.11, 4.21,
+  4.22, 4.31, 4.32, 4.61, 4.62, 4.63. Nächster Lauf, kein Fremdbedarf.
+- [ ] **N63-2 — Fundstellen des Destillats systematisch prüfen.** Run 63 fand eine falsche
+  Fundstelle (das Destillat schrieb einen Inhalt des Art. 3.4.2 dem Art. 2.3.1 Satz 2 zu, am
+  Original S. 11 und S. 13 nachgelesen und korrigiert). **Gefunden wurde sie als Zufallsfund
+  eines Abdeckungs-Agenten, nicht durch eine darauf gerichtete Prüfung.** Bei Destillaten,
+  deren Zweck die belegte Fundstelle ist, ist «Fundstellen-Richtigkeit» damit eine dritte
+  Prüfrichtung neben Refuter und Abdeckung — und sie ist bisher auf **keinem** Destillat
+  systematisch gelaufen. Vorzulegen wäre, ob daraus eine eigene Methodik-Pflicht wird; das ist
+  Raphaels Entscheid, hier nur der Befund.
+- [x] **N62-3 — BEANTWORTET.** Die Kandidatenliste liegt als
+  `training/n62-3-pruefstand-kandidaten.md`. **Ergebnis: von 310 `established`-Destillaten
+  tragen 2 einen Prüfstand, und beide sind DIN (Mac-Mini-Scope).** Im SIA/VKF-Bestand dieser
+  Station trägt kein einziges `established`-Destillat einen Prüfstand. SIA 118 war also kein
+  Einzelfall, sondern der Normalfall — Run 63 hat mit SIA 102 den zweiten Fall belegt (34 Kern-
+  lücken nach bestandener Refuter- und Q&A-Runde), womit die Trefferquote der nachgeholten
+  Abdeckungsrichtung bei **3 von 3** liegt (416/1 in Run 54, 118 in Run 62, 102 in Run 63).
+  Priorisiert nach entscheidungstragender Reichweite ist der nächste Kandidat
+  **`sia-416-2003.md`** (12 Konsumenten, davon 4 rechnende Agenten, 74 Zeilen, kein Prüfstand —
+  während die Teilnorm `sia-416-1-2007` 994 Zeilen und einen Prüfstand trägt). Die Liste
+  enthält zudem einen **Vorschlag zur Reihenfolge**, der bei Raphael liegt: 308 Kandidaten
+  linear abzuarbeiten ist kein Weg (Run 63 kostete eine Nacht für eine Norm), vorgeschlagen ist
+  eine Stichprobenstufe, die zuerst an einem bereits vollständig gemessenen Destillat zu
+  kalibrieren wäre.
