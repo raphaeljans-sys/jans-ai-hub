@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.08.2026 23:26:39
+Stand: 26.08.2026 23:36:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:20)
@@ -12,4 +12,4 @@ Stand: 26.08.2026 23:26:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4487427a7 nas-selfcommit: 3 Datei(en) 2026-08-26 23:15
+- 154399045 wissens-chef Run 44: SIA-118-Synthese established ueber speculative-Quelle — Vorbehalt gesetzt; SIA-2024-Bringschuld beidseitig geschlossen
