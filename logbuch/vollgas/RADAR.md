@@ -53,6 +53,35 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-27 00:57 — [FREI] **Regellauf ohne Befund: Fenster frei in 5 s, Wochenbudget 21.3 Punkte unter dem Zeitverlauf, fünf KBs mit Liefer-Delta.** Kein Loop auf Delta Null, keine Massnahme fällig. Ein neuer P3 zur Permission-Hygiene.
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 26.08. 12:57, dieser 27.08. 00:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke; der zweite Ausfalltyp (`lastRunAt` gegen Eintragsdatum) war nicht zu prüfen.
+
+**Fensterzustand [FREI].** Probe über die app-gebündelte CLI, jetzt **2.1.246** (unverändert seit dem 12:57-Lauf): «OK», rc=0, in **5 Sekunden**. Reihe weiter stabil und schnell: 5 s (25.08. 00:57) · 6 s (25.08. 12:57) · 6 s (26.08. 00:57) · 5 s (26.08. 12:57) · 5 s (jetzt). Keine Waisen (`ps` auf `claude -p` leer), Speicherdruck normal (`kern.memorystatus_vm_pressure_level: 1`).
+
+**Die Homebrew-Wedge ist am sechsten Tag.** `/opt/homebrew/bin/claude` zeigt unverändert auf **2.1.231** (Symlink vom 22.08. 05:15), das Caskroom führt keine neuere Fassung. Die PATH-Probe wurde erneut gar nicht erst versucht. Zum Vergleich: am 15./16.08. dauerte die Nachlieferung rund zwei Tage. Der Rückfallweg über die app-gebündelte CLI trägt seit fünf Tagen ohne Ausfall und ist faktisch der Normalweg.
+
+**Wochenbudget: deutliche Reserve.** `kontingent-budget.sh --json`: Ampel **FREI**, 25.08 von 167 Mio teuren Token = **15.0 %**, bei **36.3 %** verstrichener Woche. Vorsprung **-21.3 Punkte**, der Verbrauch läuft dem Zeitverlauf also klar hinterher (12:57-Lauf: -16.3). Beide Stationsdateien frisch (MacBook Pro 18.47 Mio, Mac Mini 6.61 Mio, 0.0 bzw. 0.5 h alt). Kein Drossel-Anlass; der stehende Entscheid vom 03.08. («gleichmässig über die Woche») ist eingehalten.
+
+**Feuermechanismen: alle drei Orte stimmen, beide Registries geprüft.** (i) Registry MacBook Pro: alle aktiven Tasks mit `lastRunAt` vom 26.08., keine ausgefallene; `normen-training-nacht` steht auf 27.08. 01:27 und ist damit fällig, nicht verpasst. (ii) Registry Mac Mini per `ssh mini`: **acht** Tasks, exakt der dokumentierte Sollstand. `energie-training` trägt weiterhin `enabled: false` in der Frontmatter und feuert trotzdem — der bekannte Doku-gegen-Live-Widerspruch, der laut Auftrag **nicht geheilt**, sondern gemessen wird; die Messung bestätigt ihn erneut (Run 164 mit 13 geänderten `energie`-Dateien, Commits 22:45–23:00). (iii) launchd: `ch.jans.vollgas-monitor` und `ch.jans.vollgas-supervisor` liegen auf beiden Stationen als `*.disabled-260729` und sind nicht geladen; auf dem Mac Mini ist `ch.jans.nachtschicht` geladen mit **Exit 0**. Der stehende Entscheid vom 30.07. («nicht wieder beleben») ist gewahrt. Kein Loop wird doppelt gefeuert.
+
+**Liefer-Delta über die letzten 13 h, gemessen per `git diff --name-only` gegen die Basis** (nicht per `find -newermt`, Werkzeug-Falle vom 20.08.): `energie` 13 Dateien · `normen` 5 · `koordination` 5 · `auflagebereinigung` 2 · `architekten-synobsis` 2. Dazu Register- und Skill-Pflege (`logbuch/fristen.md`, `logbuch/LOGBUCH.md`, `skills/hub-chef/SKILL.md`, `skills/machbarkeit/wissensbasis/02_kennwerte-kosten.md`). 60 Commits im Fenster, davon der Grossteil `nas-selfcommit`; die inhaltlichen Träger sind `energie-training` (Run 164, Merkblatt Fenster Ausgabe 2021, Uf-Rechenwerte KB-weit berichtigt), `wissens-chef` (Run 44, SIA-118-Synthese), `synergie-lauf-taeglich` (Lauf 19, SYN-50 bis SYN-52) und `tenant-hygiene`. **Kein Loop auf Delta Null, keine Rücktaktung fällig.**
+
+**Zur Vollständigkeit, damit nichts falsch gelesen wird:** die Twin-Loops (`twin-mail-training` 03:35, `twin-fidelity-review` 05:45) erscheinen in dieser Liste nicht, weil ihre Läufe vom 26.08. **vor** der Messbasis (26.08. 12:00) liegen. Ihr Delta wurde im 12:57-Eintrag erfasst (`twin` 10 Dateien). Das ist ein Fenstereffekt, kein Leerlauf.
+
+### P3 — Eine Permission-Regel in `settings.local.json` hat einen Wildcard vor dem Rest des Befehls
+
+Die Fensterprobe gab nebenbei eine Warnung des Berechtigungssystems aus. In
+`~/Developer/jans-ai-hub/.claude/settings.local.json`, Zeile 19, steht die Regel
+
+`Bash(sed 's|.*/500 Invest/||' /Users/.../tool-results/bwjaoq471.txt)`
+
+Der `*` ist als Teil eines sed-Ausdrucks gemeint, der Matcher liest ihn aber als Platzhalter: an dieser Stelle eingeschobene Optionen würden mitgenehmigt, ohne zu fragen. **Der praktische Schaden ist gering** — die Regel endet auf einer einzelnen, konkreten Transkript-Datei, und `settings.local.json` ist stationslokal und nicht versioniert. Es ist genau eine solche Regel in der Datei. Trotzdem gehört sie bereinigt: entweder den `*` durch den gemeinten Wert ersetzen oder die Zeile ersatzlos streichen, da sie einer längst abgeschlossenen Einzelaufgabe entstammt. Kein Eingriff in diesem Lauf, weil die Datei zu Raphaels lokaler Konfiguration gehört und der Nutzen einer stillen Änderung den Eingriff nicht rechtfertigt.
+
+**Keine Mail.** Kein P1-Blocker, kein gelöster P1, kein erschöpftes Wochenkontingent. Regellauf schlank gefahren, inline gemessen (keine Subagenten-Delegation, Rule `modellwahl-routine` in der Fassung vom 08.08.).
+
+---
+
 ## 2026-08-26 12:57 — [FREI] **Beide Frühwarnungs-Punkte von heute morgen sind entkräftet: das Lauf-Gate protokolliert normal, und die Destillat-Front steht an einem interaktiven Gate, nicht wegen Leerlaufs.** Fenster frei (5 s), Wochenbudget 16.3 Punkte UNTER dem Zeitverlauf, fünf KBs mit Liefer-Delta, kein Loop auf Delta Null.
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 26.08. 00:57, dieser 12:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke, kein zweiter Ausfalltyp zu prüfen.
