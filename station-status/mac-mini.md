@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.08.2026 07:00:14
+Stand: 26.08.2026 07:10:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 26.08.2026 07:00:14
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 875de2503 nas-selfcommit: 4 Datei(en) 2026-08-26 07:00
+- d25470465 logbuch-radar 26.08.2026: Register +6 Zeilen (Termine Ziegel/Stadelmann/Gesamtzeitplan, Zusage Terminprogramm KW35, Planfreigabe Therapiekueche 02.09., Kreditor BBF CHF 220), 4 Status nachgezogen, Briefing im Logbuch
