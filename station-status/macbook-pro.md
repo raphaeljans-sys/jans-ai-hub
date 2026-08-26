@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.08.2026 09:54:29
+Stand: 26.08.2026 10:04:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 09:49)
@@ -18,4 +18,4 @@ Stand: 26.08.2026 09:54:29
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- bac5aeda1 heartbeat 26.08.2026: Tailscale-Waechter auf keiner Station installiert (Fristen-Register, P1-Klasse); update_haengt-Defekt behoben (grep -c + || echo 0 = zwei Zeilen, Sparkle-Warnung war toter Code); gleiches Muster in session-insights.sh korrigiert
+- b2049ba3b nas-selfcommit: 4 Datei(en) 2026-08-26 10:00
