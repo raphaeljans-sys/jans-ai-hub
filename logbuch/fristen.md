@@ -4012,3 +4012,35 @@ rückgetaktet. **Aktion Raphael: Spec für die Korpora 3 und 4 interaktiv aufset
 Ausschlussliste nach 260823 als Teil der Spec.** Keine Frist; bis dahin bleibt die grösste
 Wissenslücke des Hub (8'604 gesichtete Dateien, 2 Artikel) unbearbeitet.
 | Register `skills/wissens-destillat/KORPUS-QUEUE.md` Zeilen 14-17 am Original gelesen 26.08.2026 12:5x; Liefer-Delta über `git diff --name-only` gemessen; Lauf-Journal `logbuch/laeufe/260826-laeufe.jsonl` (2 Läufe, beide rc=0) | Hub/Wissens-Layer | mittel | offen |
+
+## 26.08.2026 (Synergie-Lauf 19) — die vier Ersatz-Meldekanäle kennen den zweiten Versandweg nicht
+
+**Beim Prüfen des Tagesdeltas aufgefallen, nicht gesucht.** Der `hub-chef` hat am 26.08. um 08:45
+den belegten zweiten Versandweg in seinen Skill geschrieben (Graph `Mail.Send` über die m365-CLI,
+`skills/hub-chef/SKILL.md` Z. 153 ff.); `connectors/WEGE.md` führt ihn seit dem 25.08. vollständig.
+Gemessen über alle Skills, Agenten und Commands kennt ihn ausser dem Register **kein weiterer
+Baustein**. Die vier Kanäle, die nach Rule `auto-verbesserungen` 260803 im Ausnahmefall selbst
+melden dürfen, schreiben ausnahmslos den ersten Weg vor: `logbuch-radar` (Schritt 6),
+`ag-gruendung-monitor`, `vollgas-fruehwarnung`, `vollgas-chef-radar`.
+
+**Terminkritisch, deshalb hier und nicht nur im Laufbericht.** `rules/betrieb-chronik.md` 260826
+misst am selben Tag um 07:52 denselben Ausfall am dritten Tag und hält fest: «Seitdem blind: beide
+Mail-Kanäle für `ag-gruendung-monitor` (mail@UBS, rj@Notariat) nicht erreichbar». Genau dieser
+Kanal ist der einzige, der bei Eingang der **UBS-Kapitalbescheinigung**, bei einem vergebenen oder
+verfallenden **Beurkundungstermin** oder bei einer **24-Stunden-Frist** noch am selben Tag melden
+darf. Er kann es derzeit nicht, und er weiss nicht, dass er es über den zweiten Weg könnte. Die
+Chronik sucht als Abhilfe die Diagnose des ersten Wegs (TCC, Keychain, Prozess-Neustart), während
+der zweite seit einem Tag belegt danebenliegt — das ist der Fall, den Rule `wege-und-vollmachten`
+Ziff. 1 und 2 ausdrücklich adressiert.
+
+**Saubere Abgrenzung, damit die Erwartung stimmt:** Weg 2 heilt das **Senden** (mit
+`--sender rj@raphaeljans.ch`; `Mail.Send` ist in der App-Registrierung belegt, `WEGE.md` Z. 17 und
+168), **nicht das Lesen** eines Kontos ohne Delegate-Zugriff. Der Lesestrang des
+`ag-gruendung-monitor` auf mail@ bleibt am ersten Weg hängen und braucht die Diagnose weiterhin.
+
+**Aktion Raphael:** den Abschnitt «Antwortet der erste Weg nicht» aus `skills/hub-chef/SKILL.md`
+in die vier Task-Prompts übernehmen (drei Zeilen plus Zeiger auf `connectors/WEGE.md`). Die
+Prompts liegen ausserhalb des Repos, und eine Änderung an Meldekanälen ist kein Querverweis —
+sie gehört nicht in einen unbeaufsichtigten Lauf. Gesetzt hat dieser Lauf nur den Zeiger im
+Wege-Register, der die vier Kanäle beim Namen nennt.
+| Befund SYN-50 im Register `wissen/koordination/SYNERGIE-REGISTER.md`; Belege am Objekt gelesen 26.08.2026 17:2x (Commit `d80a58ffb`, `connectors/WEGE.md` Z. 45 und 696 ff., `rules/betrieb-chronik.md` 260826, die vier Task-Prompts) | Hub/Meldekanäle | hoch | offen |

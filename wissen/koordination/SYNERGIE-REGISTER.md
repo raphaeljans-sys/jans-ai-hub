@@ -890,7 +890,8 @@ Trefferzahl 1 assertiert, kein globales Suchen-und-Ersetzen, alle Eingriffe zeil
 `skills/hub-chef/SKILL.md` **+6/0** (200 → 206); `connectors/WEGE.md` **+11/0** (799 → 810, zwei
 getrennte Einfuegungen); Register **58/1** fuer SYN-50 bis SYN-52 samt Fussnote,
 **49 → 52 Tabellenzeilen** (835 → 893 Zeilen); `wissen/koordination/CHANGELOG.md` **+33/0**
-(2560 → 2593). **Zur einen gezaehlten Loeschung im Register:** sie ist ein Zeilenende-Artefakt,
+(2560 → 2593); `logbuch/fristen.md` **+32/0** (4014 → 4046, Eintrag zu SYN-50 nach Rule
+`auto-verbesserungen` 260805, weil terminkritisch — ein Laufbericht ist kein Meldekanal). **Zur einen gezaehlten Loeschung im Register:** sie ist ein Zeilenende-Artefakt,
 kein Inhaltsverlust — die Datei endete bisher ohne abschliessendes Newline («\ No newline at end
 of file»), die betroffene Zeile («Laufbericht: `outputs/2026-08-25_synergie-lauf-18.md`.») steht
 unveraendert und weiterhin genau einmal in der Datei, gegengeprueft per `grep -c`. Netto also
