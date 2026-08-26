@@ -19,6 +19,34 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260826b — Der Tailscale-Waechter war nie installiert, und seine Reboot-Warnung war toter Code
+
+Befund des heartbeat-Laufs vom 26.08.2026 09:40 (MacBook Pro), beim Abarbeiten der Checks 7 bis 16.
+
+**(1) Der Waechter laeuft auf keiner Station.** `scripts/tailscale-waechter.sh` und
+`templates/launchd/ch.jans.tailscale-waechter.plist` entstanden am 24.08. als Gegenmassnahme zum
+Vier-Tage-Ausfall (Eintrag 260824c). Das Template verlangt die Installation auf **beiden** Stationen.
+`launchctl list` zeigt `ch.jans.tailscale-waechter` weder auf dem MacBook Pro noch auf dem Mac Mini —
+die Massnahme wurde geschrieben und nie scharfgestellt. Kein akuter Ausfall: beide Tunnel sind oben,
+`ssh mini` traegt, der Stations-Watchdog meldet alles frisch. Es fehlt das Netz, nicht die Verbindung.
+Installation ist Persistenz-Klasse und wurde darum im unbeaufsichtigten Lauf **nicht** ausgefuehrt,
+sondern als Aktion Raphael ins Fristen-Register geschrieben (Rule `interaktive-eingriffe`).
+
+**(2) `update_haengt()` war seit dem ersten Tag defekt — behoben.** Die Funktion kombinierte
+`grep -c` mit `|| echo 0`. `grep -c` gibt bei null Treffern "0" aus **und** endet mit rc=1, also feuerte
+das `|| echo 0` ebenfalls: `HAENGT` enthielt zwei Zeilen ("0\n0"). Jeder der drei
+`[ "$HAENGT" -gt 0 ]`-Tests brach damit mit `integer expression expected` ab statt zu greifen. Die
+Folge ist die unangenehme: **die Sparkle-Reboot-Warnung — also genau der Fingerabdruck der
+Ausfallursache vom 20.08. — konnte nie ausloesen.** Ein Waechter, dessen wichtigste Warnzeile toter
+Code ist, sieht im Log aus wie einer, der funktioniert (gleiche Familie wie die Schutzmechanik-Lehre
+28.07. und Rule `auto-verbesserungen` 260807: zuerst fragen, was ein Zaehler wirklich zaehlt).
+Korrigiert auf `n=$(... grep -c ...); echo "${n:-0}"`, Lauf danach fehlerfrei mit exit 0. Dasselbe
+Muster steckte in `scripts/session-insights.sh` (Zeilen 50 und 101) und ist mitkorrigiert.
+
+**Merksatz:** Eine Gegenmassnahme ist erst wirksam, wenn sie **geladen** ist. Zwischen «Script und
+Plist liegen im Repo» und «der Job laeuft» liegt ein Schritt, den niemand misst — genau die Luecke,
+die Eintrag 260824 fuer die Erreichbarkeit selbst beschreibt, hier eine Ebene hoeher.
+
 ## 260826 — Apple Mail osascript-Timeout, dritter Tag, Monitor blind
 
 **Gemessen 26.08.2026 07:45.** osascript-Zugriff auf beide Mail-Konten (mail@, rj@) läuft erneut

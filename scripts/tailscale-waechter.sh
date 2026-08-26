@@ -204,8 +204,15 @@ print(";".join(peers))
 # der Fingerabdruck genau des Vorfalls vom 20.08. — er gehoert in den Bericht,
 # damit die Ursache beim naechsten Mal nicht wieder gesucht werden muss.
 update_haengt() {
-    systemextensionsctl list 2>/dev/null \
-        | grep -c "io.tailscale.*waiting to uninstall" 2>/dev/null || echo 0
+    # `grep -c` gibt bei 0 Treffern "0" aus UND endet mit rc=1 — ein zusaetzliches
+    # `|| echo 0` feuert dann ebenfalls und macht daraus zwei Zeilen ("0\n0").
+    # Jeder spaetere `[ "$HAENGT" -gt 0 ]`-Test brach damit mit
+    # "integer expression expected" ab, statt zu greifen: die Sparkle-Warnung
+    # (Ursache des Ausfalls 20.-24.08.2026) konnte nie ausloesen. Befund heartbeat 26.08.2026.
+    local n
+    n=$(systemextensionsctl list 2>/dev/null \
+        | grep -c "io.tailscale.*waiting to uninstall" 2>/dev/null)
+    echo "${n:-0}"
 }
 
 # ============================================================================

@@ -47,7 +47,7 @@ done | grep -v -e '^\[' -e '^<' -e 'tool_result' -e 'system-reminder' \
 total=$(wc -l < "$TMP" | tr -d ' ')
 
 # --- Helfer: Treffer pro Themen-Regex --------------------------------------
-count() { grep -ciE "$1" "$TMP" 2>/dev/null || echo 0; }
+count() { local n; n=$(grep -ciE "$1" "$TMP" 2>/dev/null); echo "${n:-0}"; }
 
 echo "# Session-Insights — JANS AI Hub"
 echo
@@ -98,7 +98,7 @@ echo
 echo "## auto-verbesserungen.md — Eintraege"
 echo
 if [ -f "$AUTO" ]; then
-  entries=$(grep -cE '^## [0-9]{6} ' "$AUTO" 2>/dev/null || echo 0)
+  entries=$(grep -cE '^## [0-9]{6} ' "$AUTO" 2>/dev/null); entries=${entries:-0}
   echo "Aktuell $entries datierte Eintraege. Pruefen: welcher ist ≥N× wiederkehrend"
   echo "und sollte zu dedizierter Rule/Skill-Edit befoerdert werden?"
   echo
