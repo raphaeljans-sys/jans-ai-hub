@@ -19,6 +19,18 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260826 — Apple Mail osascript-Timeout, dritter Tag, Monitor blind
+
+**Gemessen 26.08.2026 07:45.** osascript-Zugriff auf beide Mail-Konten (mail@, rj@) läuft erneut
+in 2-Minuten AppleEvent-Timeout. Das ist identisch mit Befund vom 25.08. 06:00. **Startpunkt:**
+25.08. um 06:00 (zeitlich mit der Mail-Blockade des Hub-Radar zusammenfallend, aber unabhängiger
+Task). **Seitdem blind:** beide Mail-Kanäle für `ag-gruendung-monitor` (mail@UBS, rj@Notariat)
+nicht erreichbar.
+
+**Diagnostik erforderlich:** TCC-Berechtigungen (Festplattenvollzugriff für Mail/osascript),
+Keychain-Status (Session), Mail-Prozess (Neustart), evtl. launchd-Agent-Restart
+(com.apple.mail.metadata_index).
+
 ## 260824h — Bildschirmschoner MacBook Pro auf 3 h; «schlaeft nie» war laengst gesetzt, nur nicht dokumentiert
 
 **Anlass.** Raphael fragte, ob das MacBook Pro wie der Mac Mini auf «schlaeft nie» gestellt

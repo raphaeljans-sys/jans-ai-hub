@@ -4,6 +4,24 @@ Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Ha
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 
+## 2026-08-26 (ag-gruendung-monitor, 07:5x) — Monitor blockiert seit 25.08., Betriebsstörung gemeldet
+
+**Betriebsbefund:** Der Task `ag-gruendung-monitor` kann Mail nicht auslesen. osascript-Zugriff auf
+beide Konten (mail@, rj@) läuft erneut in AppleEvent-Timeout (2 Min). Das ist identisch mit dem
+Ausfall vom 25.08. 06:00. Konsequenz: beide kritischen Kanäle (UBS-Kapitalkontoöffnung,
+Notariat-Terminangebot) sind seit drei Tagen blind. Falls die UBS-Kapitalbescheinigung inzwischen
+eingegangen ist, wird sie nicht erkannt.
+
+**Status nach Spec:** Kapitalkontoöffnung 17.08.2026 ist **verifiziert** (Fristen-Register, nur aus
+dem Beleg vom 25.08. abgelesen); nächster Schritt bleibt «Einzahlung CHF 50'000 → automatische
+Kapitalbescheinigung». Firmenname-Blockade (JANS AG vs. JANS GmbH) steht weiterhin unverändert;
+Notariat hat einen Namensalternativ-Antrag gestellt, wartet auf Rückmeldung Raphael.
+
+**Übergabe an betrieb-chronik:** Mail-TCC/Keychain/Neustart-Diagnostik erforderlich. Der Monitor
+kann nicht weiterlaufen, solange der Kanal blockiert ist.
+
+| Gemessen 26.08.2026 07:45 am Original | AG-Gründung Raphael Jans AG | P1 (Betriebsstörung) | offen — TCC/Keychain
+
 ## 2026-08-26 (Logbuch-Radar, 06:5x bis 07:2x) — Register gepflegt, sechs neue Zeilen
 
 Erledigt: Ausführungspläne LBW an Estermann versandt (25.08. 17:49); HUB12-Anlass vom 10.09.

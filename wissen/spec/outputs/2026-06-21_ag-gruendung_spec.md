@@ -3,6 +3,9 @@
 Erstellt: 2026-06-21 · Methode: Skill `spec` (Karpathy/Marchese) · Faktenbasis KB
 `firmengruendung-ch` (A1-A10, Belegliste). Erste reale Anwendung der Spec-Methode.
 
+**CHANGELOG (neueste zuoberst):**
+- **2026-08-26 07:05:** Monitor-Task `ag-gruendung-monitor` läuft erneut in osascript-Timeout (2 Min AppleEvent-Block). Beide Mail-Kanäle (mail@UBS, rj@Notariat) seit 25.08. 06:00 blind. Kapitalkontoöffnung UBS 17.08. wird nicht erkannt. Logbuch-Eintrag als P1-Befund. Betriebsstörung, nicht fachlich.
+
 ## Ziel (1 Satz)
 **Haftungstrennung nach Risiko:** Die bestehende **Einzelfirma** "Raphael Jans -
 Architekten ETH" bleibt bestehen und macht kuenftig nur noch **risikoarmes Consulting**

@@ -65,6 +65,14 @@ selbst. Die Empfehlung der 08:0x-Zeile (Graph-Rückfall fest einbauen, Fehlerpro
 Task) ist damit **doppelt belegt** und unverändert offen.
 | Versandbeleg in den Gesendeten von rj@ 25.08.2026 08:50:58 samt Body-Auszählung, eigene Messung | Hub-Infrastruktur / Meldekanal | hoch | offen
 
+**NACHTRAG 26.08.2026, 07:0x (ag-gruendung-monitor, dritter Tag Blockade) — BEFUND: osascript
+bleibt auf 2-Minuten-Timeout (AppleEvent, identisch wie Messungen 25.08.). Der Monitor ist damit
+BLIND und kann weder mail@ noch rj@ auslesen. Datum vom 25.08. steht weiterhin als letzter
+verifizierter Stand. Kapitalkontoöffnung UBS 17.08. wird dadurch NICHT erkannt, und die
+Kapitalbescheinigung (wenn inzwischen eingegangen) bleibt unsichtbar. Sendegrund P1.**
+→ Übergabe an `betrieb-chronik.md` 260826: Mail-Prozess zeitüberschritt, TCC-Perms, ggf.
+Neustart + Keychain erforderlich.
+
 **NEU 25.08.2026, 06:55 bis 07:35 (Logbuch-Radar) — P1: Das UBS-Kapitaleinzahlungskonto der
 Raphael Jans AG ist seit dem 17.08.2026 eröffnet und liegt seit acht Tagen unbeachtet im
 Postfach. Genau der Schaden, vor dem die Zeile vom 24.08. zum defekten Monitor gewarnt hat.**
