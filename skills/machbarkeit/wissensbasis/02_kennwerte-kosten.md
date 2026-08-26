@@ -38,6 +38,16 @@ Geschäftsflächen-Ertrag grob mit **5.5 % Bruttorendite** kapitalisieren.
   > schätzung (`2412 Ebmatingen/09_Dokumente/Im Grossacher 2/Grobkostenberechnung/…Stand241125.xlsx`)
   > für Grobschätzungen den Wert der führenden KB `wissen/grobkosten/wiki/kennwerte` verwenden.
   > Vorlage: `wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md`.
+
+  > **Solange dieses Flag steht: den Wert 2'400 NICHT verwenden.** Für CHF/m³ GV Wohnen den Band
+  > **850–1'050** (Anker ~1'020) aus der führenden KB `wissen/grobkosten/wiki/kennwerte` einsetzen.
+  > Gegengeprüft und unverändert am **26.08.2026 (Wissens-Chef Run 44)**: der Faktor 2.8 lässt sich
+  > auch über die Bezugsgrössen nicht erklären — BKP 2 ist Teilmenge von BKP 1–5 und müsste
+  > *tiefer* liegen, nicht höher; die Etikett-Differenz vergrössert den Widerspruch, statt ihn
+  > aufzulösen. **Kein Entscheid Raphaels nötig** — offen ist allein der Abgleich mit der
+  > Original-xlsx im Projektordner. Seit dem 25.07.2026 stand der Punkt nur im Laufbericht und im
+  > CHANGELOG und war damit nicht wiedervorlagefähig; er ist jetzt in
+  > `wissen/koordination/QUERBEZUEGE.md` registriert (Run-15-Abschnitt, Nachtrag 26.08.2026).
 - Healthcare/Pflege höher; Steinhof rechnete **CHF 1'700/m³** (älterer Stand) bzw.
   WALD **CHF 4'000/m² GF** (Pflegeheim). → Kennwert immer mit Nutzung + Jahr belegen.
 

@@ -6105,6 +6105,15 @@ Fenster-Kapitel seit 08.2009 durch das «Merkblatt Fenster» (Best-Nr. 805.107.d
 ist**; dort gelten **1,8 / 2,2 / 2,8**. Beide Dokumente berufen sich auf **SIA D 0176 (2002)** — die
 Differenz ist also eine Fortschreibung derselben Wurzel, keine widersprüchliche Parallelquelle.
 
+> ⛔ **NACHTRAG 26.08.2026 (Wissens-Chef Run 44) — die Werte 1,8 / 2,2 / 2,8 im Absatz darüber sind
+> ihrerseits überholt.** Die KB `energie` hat am selben Tag (Run 164) festgestellt, dass auch das
+> «Merkblatt Fenster» in der Ausgabe **2009** nicht mehr die geltende ist: geltend ist die **Ausgabe
+> 2021** (Herausgeberin EnDK, mitgeltend SIA 380/1:2016), Tabelle 6 mit Holz/Holz-Metall **1,4**,
+> Kunststoff **1,9**, wärmegedämmte Verbundprofile **2,5**. Der Eingang von Run 163 oben bleibt als
+> Zwischenstand lesbar, ist aber **nicht als geltender Rechenwert zu zitieren**. Belege:
+> `wissen/energie/outputs/2026-08-26_energie-run164.md`; der ⛔-Vermerk steht bereits in
+> `destillate/sia-mb-2021.md` Z. 35, nur dieser Journaleintrag hing zurück.
+
 **Offen für diese KB:** Ob das SIA-Merkblatt 2021 selbst seit 2002 eine neue Ausgabe erhalten hat,
 ist hier **nicht geprüft** (die KB `energie` hat nur die BFE-Seite verifiziert). Da SIA-Merkblätter
 kostenpflichtig sind, ist mindestens der Publikationsstatus auf shop.sia.ch zu klären, bevor die

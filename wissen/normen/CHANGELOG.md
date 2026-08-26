@@ -78,6 +78,14 @@ Planungswerkzeuge des Bundes). **Offen fuer diese KB:** Publikationsstatus des S
 hier nicht geprueft). Cross-KB-Bringschuld nach Rule `wissens-bibliothekar`; Beleg
 `wissen/energie/outputs/2026-08-25_energie-run163.md`.
 
+> ⛔ **Nachtrag 26.08.2026 (Wissens-Chef Run 44):** die hier als geltend genannten Werte **1,8 / 2,2 / 2,8**
+> sind die Ausgabe **2009** des Merkblatts Fenster und einen Tag später durch `energie` Run 164 selbst
+> überholt worden. Geltend ist die **Ausgabe 2021** (EnDK, mitgeltend SIA 380/1:2016), Tab. 6:
+> Holz/Holz-Metall **1,4** · Kunststoff **1,9** · wärmegedämmte Verbundprofile **2,5**. Kein Zahlen-Diff
+> am Destillat nötig — der ⛔-Vermerk steht dort seit dem 26.08. (`destillate/sia-mb-2021.md` Z. 35);
+> nachgezogen wurde nur dieser Journaleintrag und `wiki/QUESTIONS.md`. Beleg:
+> `wissen/energie/outputs/2026-08-26_energie-run164.md`.
+
 ## 2026-08-25 — Normen-Nacht Run 61: erster Lauf mit Primaerquellenzugriff seit dem 23.08. — drei neue Duplikate, drei Fehlbefunde abgefangen, vier Marker korrigiert
 
 **Ausgangslage.** Lauf-Gate offen, NAS gemountet, kein Kollisionslauf (`ps`). Entscheidender

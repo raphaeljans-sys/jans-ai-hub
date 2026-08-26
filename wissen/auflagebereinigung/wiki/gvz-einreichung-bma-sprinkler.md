@@ -25,6 +25,17 @@ u.ae. zustaendig, die Anlagen-Schiene BMA/SPA gehoert der GVZ.
 > `wissen/normen/destillate/vkf-brl-20-15-brandmeldeanlagen` und `.../vkf-brl-19-15-sprinkleranlagen`
 > (KB normen fuehrend); dieser Artikel fuehrt den **GVZ-Einreichungsweg/Vollzug** (kantonal).
 
+> ⚠ **Fassungs-Nachtrag 26.08.2026 (Wissens-Chef Run 44).** Das BMA-Destillat
+> `vkf-brl-20-15-brandmeldeanlagen` traegt seit dem Fassungs-Sweep der KB `normen` (Run 58,
+> 20.08.2026) `status: superseded` mit dem Vermerk «Nicht als geltende Fundstelle zitieren» —
+> destilliert ist die Fassung 01.01.2015, geltend ist **01.01.2017**. **Fuer die hier zitierten
+> Schwellen aendert das nichts:** das Fassungs-Delta `vkf-brl-20-15-fassung-2017-delta` grenzt die
+> materielle Aenderung auf **Ziff. 3.2.2** («Ausgenommene Bereiche», IOTH-Beschluss 22.09.2016) ein;
+> die oben zitierten **Ziff. 4.1 / 3.10** sind unveraendert. Das Sprinkler-Destillat
+> `vkf-brl-19-15-sprinkleranlagen` ist weiterhin `established (verifiziert)`. Wer dem Link folgt,
+> soll die Warnung dort also einordnen koennen und nicht auf einen scheinbar ungueltigen Stand
+> stossen.
+
 ## 1. Projektbegutachtung — VOR Ausfuehrungsbeginn (Pflichtschritt)
 
 **BMA (Weisung 20.07 Ziff. 7.1):** Projekte (Neuanlagen, wesentliche Erweiterungen/

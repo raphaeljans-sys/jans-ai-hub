@@ -86,6 +86,29 @@ sie wird nur rechtsverbindlich, wenn die Parteien sie als Vertragsbestandteil be
 
 ### 1.3 Abnahme, Mängelrechte, Garantie, Sicherheiten
 
+> ⚠ **Vorbehalt 26.08.2026 (Wissens-Chef Run 44) — diese Tabelle vor dem Zitieren gegen das
+> Quelldestillat lesen.** Das Quelldestillat `destillate/sia-118-1991.md` wurde am **26.08.2026
+> (normen Run 62)** erstmals gegen die Abdeckungsrichtung am Original geprüft und dabei von
+> `established` auf **`speculative`** herabgestuft (84 Kern- und 82 Nebenlücken). Dieser
+> Synthese-Artikel trägt weiterhin `status: established` und `last_updated: 2026-07-17` und ist
+> gegen diese Befunde **noch nicht nachgezogen**.
+>
+> **Konkret betroffen ist die Zeile «Mängelrechte-Kaskade» unten.** Run 62 hält als Kernbefund
+> fest, das Destillat habe «die Bauherrenrechte überdehnt»: die drei Wahlrechte aus **Art. 169
+> SIA 118:1991** stehen nicht schrankenlos. Nachgetragen sind dort insbesondere (1) das Beharren
+> auf Verbesserung nur, soweit sie im Verhältnis zum Interesse des Bauherrn an der
+> Mängelbeseitigung **keine übermässigen Kosten** verursacht (Art. 368 Abs. 2 OR), und (2) die
+> entsprechende Verrechnung beim Minderungsabzug. Wer eine reale Mängelsituation beurteilt
+> (Ersatzvornahme, Minderung, Rücktritt), liest **`destillate/sia-118-1991.md` Z. 161 ff.**, nicht
+> diese Kurzzeile. Ebenfalls in Run 62 nachgetragen und hier nicht abgebildet: **Art. 163**
+> (Genehmigungsfalle) und **Art. 83** (Bauhandwerkerpfandrecht).
+>
+> Der Artikel ist seit dem 25.08.2026 (Run 43) im `INDEX.md` registriert und darüber für die Skills
+> `werkvertrag`, `ausschreibung` und `unternehmerkontrolle` auffindbar — er wurde also genau in dem
+> Moment breiter sichtbar, in dem seine Quelle unsicherer wurde. **Der Statusentscheid für diesen
+> Artikel liegt bei der KB `normen` und wird hier nicht vorweggenommen.** Beleg:
+> `wissen/normen/outputs/2026-08-26_normen-nacht-run62.md`.
+
 | Thema | Norm + Ausgabe | Ziffer/Artikel | Kernaussage |
 |---|---|---|---|
 | Wirkung der Abnahme | SIA 118:1991 | Art. 157 | Werk geht in die Obhut des Bauherrn über, **die Gefahr geht auf ihn über**, Garantie- und Verjährungsfrist beginnen zu laufen. |

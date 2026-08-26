@@ -121,3 +121,17 @@ nur Ziff. 1.1.6.1/1.1.6.3/1.1.2.12) schliesst die dort offene Prüf-Bring-Schuld
 `normen`; eine Cross-KB-Notiz gehört bei nächster Gelegenheit auch in die `energie`-eigene
 `QUESTIONS.md`/das betroffene Destillat (Rule `wissens-bibliothekar`, Cross-KB-Bringschuld
 260823 noch nicht ausgeführt — reiner Zeitgrund dieses Laufs, nicht inhaltlich offen).
+
+**✅ Bringschuld erfüllt — Korrektur dieses Absatzes am 26.08.2026 (Wissens-Chef Run 44).** Der Satz
+darüber ist überholt: die Cross-KB-Notiz **wurde am selben Tag (23.08.2026) ausgeführt** und steht in
+`wissen/energie/wiki/QUESTIONS.md` Z. 2049–2056 als «Cross-KB-Nachtrag 23.08.2026 (KB `normen`,
+SIA-Sweep sechzehnte Fortsetzung)», inhaltlich deckungsgleich mit dem obigen Befund. Wer diesen
+Artikel liest, muss die Übergabe also **nicht erneut vornehmen**.
+
+Der Rückverweis in die Gegenrichtung fehlte allerdings bis heute: das energie-Destillat
+`sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` nannte diesen Artikel nicht und hat die
+Korrigenda **C2:2025 am 24.08.2026 selbst noch einmal beschafft und vollständig gelesen** (deutsche
+und französische Fassung) — einen Tag, nachdem `normen` beide Korrigenda bereits vollständig gelesen
+hatte. Die Doppelarbeit ist damit belegt und ihre Ursache benannt: die Notiz landete in der
+`QUESTIONS.md`, nicht in dem Destillat, an dem der energie-Lauf tatsächlich arbeitete. Der
+Rückverweis ist am 26.08.2026 dort gesetzt worden (Wissens-Chef Run 44).

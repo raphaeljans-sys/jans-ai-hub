@@ -38,6 +38,19 @@ werden.
 > normen-KB (Register `wissen/normen/wiki/REGISTER`). ⚠ **Ausgaben-Diskrepanz:** dieser Artikel arbeitet
 > mit **SIA 2024:2021** und **SIA 382/1:2025**; das normen-Register fuehrt bislang **2006** bzw. **2014**.
 > Re-Destillate in normen ausstehend (Wissens-Chef Run 4, 2026-07-14).
+
+> **Nachtrag 26.08.2026 (Wissens-Chef Run 44) — die Warnung darüber gilt nur noch zur Hälfte.**
+> Für **SIA 2024** hat `normen` den Stand am **23.08.2026** direkt am Original verifiziert
+> (Produktseite SN 592024: gültig ab 01.12.2021, ersetzt die Ausgabe 2015) und dabei beide
+> **Korrigenda C1:2024 und C2:2025** vollständig gelesen — es sind kostenlose SRD-Downloads.
+> Ergebnis dort: die Kategorie-8-Werte (Bettenzimmer 8.01, Stationszimmer 8.02, Behandlungsraum
+> 8.03) sind in den Tabellen 4–9 zwischen C1 und C2 **zeilenidentisch**; C2 ändert nur drei
+> Definitionsziffern (1.1.2.12 / 1.1.6.1 / 1.1.6.3). Massgebliches Gegenstück in der führenden KB:
+> **[[sia-2024-korrigenda-c1-c2]]** (`wissen/normen/destillate/`, `status: established`), dazu
+> [[sia-2024-2021]]. Die Registerzeile in `wissen/normen/wiki/REGISTER.md` trägt diesen Stand
+> ebenfalls; nur die Spalte «Ausgabe» steht dort weiterhin auf 2006.
+> Für **SIA 382/1** bleibt die Warnung dagegen zutreffend: `normen` führt `sia-382-1-2014`
+> (established, Vermerk «durch SIA 382/1:2025 ueberholt»), ein Re-Destillat der Ausgabe 2025 fehlt.
 - **Verhältnis zu SIA 380/1** (Heizwärmebedarf): SIA 2024 liefert die Eingabedaten, SIA 380/1 das
   Nachweisverfahren für den Heizwärmebedarf im kantonalen Energievollzug. Die 12
   Gebäudekategorien aus SIA 380/1 (Tab. 24/25, bereits im Destillat

@@ -174,6 +174,167 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### grobkosten ↔ immobilienbewertung ↔ skills/machbarkeit (Ebmatingen 2'400 vs. 855 CHF/m³ GV) — geprueft 2026-08-26 (Run 44), BESTAETIGT
+
+- **Befund:** `skills/machbarkeit/wissensbasis/02_kennwerte-kosten.md:30` fuehrt weiterhin «Wohnen
+  Vollausbau ~CHF 2'400/m³ GV (Ebmatingen-Grobkosten, BKP-2-Kennwert)» gegen den fuehrenden Band
+  **850–1'050 CHF/m³ GV** in `wissen/grobkosten/wiki/kennwerte` (Ebmatingen ~855, Z. 55–56) und den
+  zuliefernden Wert in `wissen/immobilienbewertung/wiki/realwert-sachwert:245`. Faktor **2.8**.
+- **Der Refuter hat den Befund abgeschwaecht, nicht gekippt.** Die Zeile ist nicht «quellenlos», sie
+  nennt eine Herkunft und ist **unverifiziert** — das bestimmt den Loesungsweg (nachlesen, nicht
+  ersetzen). Die Bezugsgroessen-Erklaerung, sonst der staerkste Widerlegungsgrund, traegt hier
+  ausdruecklich **nicht**: BKP 2 ist Teilmenge von BKP 1–5 und muesste **tiefer** liegen, nicht
+  2.8-fach hoeher. Die Etikett-Differenz vergroessert den Widerspruch, statt ihn zu erklaeren.
+  Baumasse↔GV scheidet ebenfalls aus (Faktor 1.25–1.45 laut fuehrender KB).
+- **Der eigentliche Mangel ist Registerhygiene, nicht die Zahl.** Die ⚠-needs-decision-Box unter der
+  Zeile stellt den Wert fuer den Leser bereits operativ still. Der Punkt existiert seit dem
+  25.07.2026 als **E-3** — aber nur in `outputs/2026-07-25_wissens-chef-run15.md` Z. 110–118 und
+  `CHANGELOG.md:2172`, also an zwei Orten, die kein Aufsichtslauf regelmaessig abgreift. Genau das
+  untersagt Rule `auto-verbesserungen` 260805 («Ein Laufbericht ist kein Meldekanal»). git-Stand der
+  Skill-Datei: unveraendert seit 2026-07-25 21:00:04 — **ein Monat Standzeit**.
+- **Kein Entscheid Raphaels noetig.** Offen ist allein der Abgleich mit
+  `2412 Ebmatingen/09_Dokumente/Im Grossacher 2/Grobkostenberechnung/…Stand241125.xlsx`. Verdacht
+  Einheitenfehler CHF/m² GF — dieselbe Datei fuehrt den Wuest-Median 2'800 CHF/m² GF, in dessen Feld
+  die 2'400 genau liegen. Indiz, kein Beweis; deshalb wird die Zahl **nicht** ersetzt.
+- **Aktion Run 44:** Flag im Skill additiv geschaerft (+10/−0) — «Solange dieses Flag steht: den Wert
+  2'400 NICHT verwenden», mit dem einzusetzenden Band und der Gegenpruefung vom 26.08. Damit ist der
+  Punkt erstmals wiedervorlagefaehig registriert. **Status: offen (Verifikationsaufgabe im Hub).**
+
+### normen intern ↔ Fach-Skills (SIA-118-Synthese traegt `established` ueber ein heute herabgestuftes Destillat) — geprueft 2026-08-26 (Run 44), BESTAETIGT
+
+- **Befund:** `wissen/normen/wiki/synthese-sia-vkf-fachskills.md` traegt `status: established` und
+  `last_updated: 2026-07-17` und fuehrt als Quelle `destillate/sia-118-1991.md` — das **heute**
+  (26.08.2026, normen Run 62) erstmals gegen die Abdeckungsrichtung am Original geprueft und von
+  `established` auf **`speculative`** herabgestuft wurde (84 Kern-, 82 Nebenluecken).
+- **Konkret betroffen:** die Zeile «Maengelrechte-Kaskade» (Z. 94) gibt die drei Wahlrechte aus
+  **Art. 169 SIA 118:1991** schrankenlos wieder. Run 62 haelt als Kernbefund fest, das Destillat habe
+  «die Bauherrenrechte ueberdehnt», und hat die Schranken nachgetragen — u.a. das Beharren auf
+  Verbesserung nur, soweit sie keine **uebermaessigen Kosten** verursacht (Art. 368 Abs. 2 OR).
+  Ebenfalls nachgetragen und in der Synthese nicht abgebildet: **Art. 163** (Genehmigungsfalle) und
+  **Art. 83** (Bauhandwerkerpfandrecht).
+- **Die Verschaerfung liegt im Zusammentreffen zweier Laeufe:** Run 43 hat den Artikel am 25.08. im
+  `INDEX.md` nachregistriert (er war seit 17.07. `established`, aber nie auffindbar) — er wurde also
+  fuer `werkvertrag`, `ausschreibung` und `unternehmerkontrolle` genau in dem Moment breiter
+  sichtbar, in dem seine Quelle unsicherer wurde.
+- **Aktion Run 44:** ⚠-Vorbehalt unmittelbar vor der betroffenen Tabelle gesetzt (+23/−0), mit
+  Zeiger auf `destillate/sia-118-1991.md` Z. 161 ff. **Der Statusentscheid fuer den Artikel selbst
+  bleibt bei der KB `normen` und wurde nicht vorweggenommen — offener Punkt.**
+
+### energie → normen (Uf-Rechenwerte: der Zwischenstand von gestern steht als «geltend») — geprueft 2026-08-26 (Run 44), BESTAETIGT
+
+- **Befund:** `normen/wiki/QUESTIONS.md` Z. 6099–6108 und `normen/CHANGELOG.md` Z. 70–79 halten den
+  Eingang aus `energie` Run 163 (25.08.) fest und formulieren «dort gelten **1,8 / 2,2 / 2,8**» als
+  aktuellen Fakt. Einen Tag spaeter hat `energie` Run 164 erkannt, dass auch die Ausgabe **2009** des
+  Merkblatts Fenster ueberholt ist: geltend ist die **Ausgabe 2021** (EnDK, mitgeltend SIA 380/1:2016),
+  Tab. 6 mit Holz/Holz-Metall **1,4** · Kunststoff **1,9** · Verbundprofile **2,5**.
+- **`energie` hat sauber gearbeitet:** der ⛔-Vermerk steht bereits in `normen/destillate/sia-mb-2021.md`
+  Z. 35, gesetzt von `energie` selbst. Nachgehinkt sind allein die beiden **Journaldateien** derselben
+  KB — der Fehlertyp ist also nicht «Korrektur unterlassen», sondern «Korrektur nicht ins eigene
+  Journal nachgezogen». Wer die KB per Volltextsuche nach «Merkblatt Fenster» befragt, trifft zuerst
+  auf den ueberholten Zwischenstand.
+- **Aktion Run 44:** datierte ⛔-Nachtraege in `normen/wiki/QUESTIONS.md` (+9/−0) und
+  `normen/CHANGELOG.md` (+8/−0). Kein Zahlen-Diff am Destillat noetig. **Erledigt.**
+
+### auflagebereinigung → normen (GVZ-Einreichung zeigt auf ein `superseded`-Destillat) — geprueft 2026-08-26 (Run 44), BESTAETIGT
+
+- **Befund:** `auflagebereinigung/wiki/gvz-einreichung-bma-sprinkler.md` Z. 20–26 verweist fuer die
+  Anmeldeschwellen auf `normen/destillate/vkf-brl-20-15-brandmeldeanlagen`. Dieses Destillat traegt
+  seit dem Fassungs-Sweep (normen Run 58, 20.08.2026) `status: superseded` mit dem Vermerk «Nicht als
+  geltende Fundstelle zitieren» — destilliert ist 01.01.2015, geltend ist **01.01.2017**. Der
+  Cross-Check dieses Paars wurde zuletzt am **20.07.2026 (Run 10)** als «bereinigt + verlinkt»
+  geschlossen und seither nicht wieder aufgerufen.
+- **Materiell aendert sich nichts** — und genau das musste jemand feststellen: das Fassungs-Delta
+  `vkf-brl-20-15-fassung-2017-delta` (23.08.) grenzt die Aenderung auf **Ziff. 3.2.2** ein; die
+  zitierten **Ziff. 4.1 / 3.10** sind unveraendert. `vkf-brl-19-15-sprinkleranlagen` ist weiterhin
+  `established (verifiziert)`.
+- **Aussenwirkung:** ein Bauleiter, der fuer eine fristgebundene GVZ-Auflage (2619 KISPI Ziff. II.25/26)
+  ueber den verlinkten Pfad nachschlaegt, landet auf einer Warnung ohne Einordnung.
+- **Aktion Run 44:** Fassungs-Nachtrag im Querbezug-Block gesetzt (+11/−0). **Erledigt.**
+
+### normen ↔ energie (SIA 2024 Korrigenda C1/C2 — eine erfuellte Bringschuld, die sich selbst als offen fuehrt) — geprueft 2026-08-26 (Run 44, Hauptkontext), BESTAETIGT
+
+- **Befund, zwei Haelften.** (a) `normen/destillate/sia-2024-korrigenda-c1-c2.md` Z. 119–122 schliesst
+  mit «Cross-KB-Bringschuld … **noch nicht ausgefuehrt** — reiner Zeitgrund dieses Laufs». Sie **war**
+  ausgefuehrt, am selben Tag, in `energie/wiki/QUESTIONS.md` Z. 2049–2056. Wer den Artikel liest,
+  nimmt die Uebergabe ein zweites Mal vor. (b) Der **Rueckverweis fehlte** ganz: das energie-Destillat
+  `sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` nennt den normen-Artikel nirgends.
+- **Die Doppelarbeit ist belegt, nicht vermutet.** `normen` hat C1 **und** C2 am 23.08. vollstaendig
+  gelesen (kostenlose SRD-Downloads). Das energie-Destillat traegt im Frontmatter: «Korrigenda C2:2025
+  vollstaendig gelesen **24.08.2026** (curl+PyPDF2, deutsche UND franzoesische Fassung geladen)» —
+  einen Tag danach, dieselbe Quelle, unabhaengig beschafft.
+- **Die Ursache ist strukturell und lehrreich:** die Bringschuld-Notiz landete in der `QUESTIONS.md`,
+  nicht in dem Destillat, an dem der energie-Lauf tatsaechlich arbeitete. Eine erfuellte Bringschuld
+  am falschen Ort verhindert die Doppelarbeit nicht.
+- **Dritter Fund am selben Ort:** der Querbezug-Block des energie-Destillats warnte «das
+  normen-Register fuehrt bislang 2006 bzw. 2014, Re-Destillate ausstehend (Run 4, 14.07.2026)». Fuer
+  **SIA 2024** ist das seit dem 23.08. ueberholt (Original verifiziert, Korrigenda geschlossen); fuer
+  **SIA 382/1** trifft es weiterhin zu (`sia-382-1-2014`, Vermerk «durch SIA 382/1:2025 ueberholt»).
+- **Aktion Run 44:** Rueckverweis auf `[[sia-2024-korrigenda-c1-c2]]` + Praezisierung der halb
+  veralteten Warnung in `energie` gesetzt (+13/−0); Richtigstellung der Selbstaussage in `normen`
+  gesetzt (+14/−0). Beide Richtungen stehen jetzt. **Erledigt.**
+
+### twin ↔ rules/anrede-kontakte — geprueft 2026-08-26 (Run 44), 1 WIDERLEGT / 1 BESTAETIGT
+
+- **WIDERLEGT — «die Rule haelt Stadelmann auf Sie fest».** Der Refuter hat den Melder an vier
+  unabhaengigen Stellen gekippt: (1) Stadelmann hat in der Kontaktliste **gar keine Tabellenzeile**;
+  die Rule haelt ihn nirgends fest, sie zeigt mit «den belegten Opener desselben Kontakts halten» auf
+  die juengste Belegkante — was mit dem Beleg vom 25.08. **zum Du fuehrt**, die Rule ist an dieser
+  Stelle selbst-aktualisierend. (2) Der Korrekturhinweis Z. 57–62 nennt den Stadelmann-Wechsel
+  bereits namentlich und datiert (22.07. → 03.08.). (3) Die Meldequelle selbst schreibt: «Das
+  entwertet den Gegenbeleg nicht, es **datiert** ihn.» (4) Der Punkt liegt Raphael bereits als
+  `twin/wiki/QUESTIONS.md` 260826 #1 mit ausformulierten Optionen vor.
+  **Zaehlfehler des Melders:** er behauptete drei belegte Du-Instanzen; das Beziehungsregister
+  qualifiziert die beiden aelteren (03./05.08.) selbst als **keinen** Registerwechsel («behaelt
+  Sie-freie Vornamen-Anrede ohne Du-Pronomen»). Belegt ist **eine** (25.08., Batch 105).
+- **BESTAETIGT — die Belegkette zwischen den beiden Rule-Dateien ist gerissen.**
+  `rules/anrede-kontakte.md` Z. 58–60 zitiert aus `rules/jans-dna-facetten.md` die Datumskette
+  «Furrer 24.07. → 28.07., Stadelmann 22.07. trotz Telefonat → 03.08.». Der Commit `2824da0f2`
+  (26.08., 06:04, twin-fidelity-review) hat genau diese Einzeldaten aus `facetten.md` entfernt und
+  durch «(Furrer, Stadelmann)» ersetzt. Wer der Verweisung folgt, findet die Daten dort nicht mehr.
+  **Keine Aussenwirkung** (interne Nachvollziehbarkeit), aber die Belegkette der wichtigsten
+  Anrede-Praezisierung wird bruechig.
+  **Keine Aktion:** beides sind Rules. Claude aendert den Wortlaut einer Rule nicht selbst — und ein
+  Ruecksetzen in `facetten.md` wuerde gegen den twin-Loop arbeiten, der die Datei taeglich pflegt.
+  **Offener Punkt fuer Raphael.**
+
+### energie ↔ planungsgrundlagen (Uf-Korrektur Run 164, hub-weite Propagation) — geprueft 2026-08-26 (Run 44), NULLBEFUND
+
+- Die Uf-Korrektur aus `energie` Run 164 (10 Fundstellen in 6 Dateien) wurde hub-weit gegengesucht:
+  die alten Werte im Uf-Kontext und «Merkblatt Fenster»/«enfk-fensterblatt» **ausserhalb**
+  `wissen/energie` — **kein Treffer** in `planungsgrundlagen`, in keiner anderen KB, in `skills/`
+  oder `rules/`. Innerhalb `energie` ist die Propagation durchgaengig (Destillate, `wiki/fenster-
+  verglasung.md`, `BAUHERREN-FAQ` F35/F69/F199). Der einzige Rueckstand lag in den **normen**-Journalen
+  und ist oben erledigt.
+- Die Grenze Fachphysik ↔ Verfahren haelt: die vier bewegten `planungsgrundlagen/energie-*`-Artikel
+  fuehren keine eigene Uf-Rahmentabelle und verweisen fuer Grenzwerte auf die energie-Destillate.
+- Aehnlich klingende Zahlen in `energie/destillate/uf-werte-rahmenmaterial-grobuebersicht.md`
+  (bawos.ch/SZFF) und `normen/destillate/sia-180-081-2017.md` stammen aus **unabhaengigen
+  Primaerquellen** und sind nicht Gegenstand der Korrektur — kein Widerspruch.
+
+### auflagebereinigung ↔ projekt-lessons (KISPI-Zustaendigkeitswechsel 1171/26) — geprueft 2026-08-26 (Run 44), NULLBEFUND
+
+- Beide im Fenster bewegten Dateien aenderten **nur Frontmatter-Syntax** (kaputte dreifache eckige
+  Klammer im `links:`-Feld), kein inhaltlicher Eingriff.
+- Kein Widerspruch: beide nennen identisch AfB-Team 5 / Linus Furrer (Stand 24.07.2026, Gebiet
+  Weinegg) und die UGZ-Sonderzustaendigkeit Hansen / Stv. Zala (Stand 27.07.2026, 14:41) — Namen,
+  Daten und Uhrzeiten Wort fuer Wort deckungsgleich.
+- Kein Matrix-Verstoss: der projekt-lessons-Artikel formuliert durchgehend datiert und gebietsbezogen
+  und verweist fuer die generische Amtsliste auf `aemter-stadt-zuerich`. Querverlinkung bidirektional
+  vorhanden (Z. 6 hier, Z. 6 und 65 dort).
+
+### normen ↔ baurecht (Art. 229 StGB, Abnahme/Ruegefrist) — geprueft 2026-08-26 (Run 44), NULLBEFUND
+
+- Die Art.-229-Korrektur aus Run 43 sitzt **beidseitig sauber**: beide bfu-Destillate tragen den
+  identischen korrekten Rechtsstand (Abs. 1 vorsaetzlich bis fuenf, Abs. 2 fahrlaessig bis drei) mit
+  Verweis auf die fuehrende Quelle; `baurecht/wiki/widerrechtliche-bauten-und-sanktionen.md` fuehrt
+  seit Buch-Run 101 dasselbe. **Keine Stelle im Hub** fuehrt noch «bis zu drei Jahren» fuer den
+  vorsaetzlichen Tatbestand; die vier SUVA-Destillate nennen nur die Artikelnummer.
+- Abnahme / Ruegefrist / Garantiefrist kommen in `baurecht` ueberhaupt nicht vor (grep leer) — die
+  SIA-118-Systematik ist rein privatrechtlich und wird unbestritten von `normen` gefuehrt. Kein
+  materielles Fortschreiben von Norm-Kennwerten in `baurecht`.
+- Bauhandwerkerpfandrecht: `baurecht` fuehrt das Thema an keiner Stelle — unbestrittene
+  Erstabdeckung durch `normen`, kein Widerspruch.
+
 ### baurecht → planungsgrundlagen (RPV-Schwellen ausserhalb Bauzone) — geprueft 2026-08-25 (Run 43)
 
 **Entwertungs-Nachverfolgung, bestaetigt und gesetzt.** `baurecht` hat am 24.08. (Buch-Run 140) die
