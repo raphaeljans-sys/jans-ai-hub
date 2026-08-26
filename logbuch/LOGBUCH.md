@@ -4,6 +4,85 @@ Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Ha
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 
+## Hub-Chef 26.08.2026 (08:39 bis 09:0x) — Tagesbriefing GESENDET, Jegen-Plan abgelegt (A3), Graph-Ersatzweg fest eingebaut
+
+**Versandweg wieder Graph, vierter Tag Apple-Mail-Blockade.** Erreichbarkeit vor dem Lauf gemessen:
+`osascript` auf `application id "com.apple.mail"` bricht nach 25 s ohne Antwort ab, der Prozess läuft.
+Gelesen wurde deshalb über Graph (M365-CLI, `authType: certificate`), rj@ und mail@ vollständig ab
+04:00 UTC; Kalender über `outlook_calendar_search`.
+
+### Ausgeführte Aktionen
+
+**A3 — Jegen-Prinzipplan S2 abgelegt.** Auslöser: Mail L. Bajrami (Jegen) 26.08. 07:46 an rj@ mit zwei
+Anhängen. Guards: Kopie in einen neuen Ordner, nichts überschrieben, nichts gelöscht; Zielordner
+eindeutig (bestehendes Los mit gewachsener Ordnerkonvention «JJMMTT Titel»). Am Plan selbst
+nachgelesen statt aus der Mail geschlossen: Revisionszeile neu **26.08.2026 07:23:42 Livdin Bajrami**
+über der Erstfassung 13.07.2026, Plannummer unverändert `01.0.303.1_S2_1.OG_10`, Jegen Cristallo-Glisse
+1-flg mit Swingout EI30 VKF-Nr. 26925, Festverglasung VKF-Nr. 26347, Brandschutzglas EI30 Monoscheibe
+15 mm. **MD5-Gegenprobe gegen die Fassung vom 14.07. im Projektordner: verschieden** — echte
+Neufassung, keine Zweitzustellung. Ergebnis:
+`AR - 01 Projekte/2619_KINDERSPITAL/03_BKP/LOS_274.01 Innere Verglasungen JEGEN/274.01 08 Korrespondenz/
+260826 Prinzipplan S2 angepasst/`
+
+**A4 — Register.** Zwei Nachträge in `logbuch/fristen.md`: die beiden Eingänge nach dem Radar-Fenster
+(08:4x) und die Richtigstellung von 08:5x (siehe unten). Append-only, `diff` gegen Sicherungskopie
+zeigt je **0 Löschungen**.
+
+**Verbesserung selbst umgesetzt (Rule 260730): der Graph-Ersatzweg steht jetzt im Skill.** Der Punkt
+stand seit dem 25.08. doppelt belegt im Register offen («der Skill `hub-chef` hat diesen Rückfall
+nicht eingebaut»), und am 24.08. fiel das Tagesbriefing genau daran ganz aus. Neuer Abschnitt in
+`skills/hub-chef/SKILL.md`, Phase 6: Erreichbarkeitsprüfung mit Zeitgrenze (kein `timeout` auf macOS),
+Graph-Befehl mit `--sender`-Pflicht, Nachmessung in den Gesendeten statt am Rückgabewert, Pflicht den
+Ersatzweg zu benennen, dazu der Twin-Nebeneffekt (die `internetMessageId` beweist die eigene Hand
+nicht mehr). `diff` gegen Sicherungskopie: 0 Löschungen. **Damit ist die Registerzeile «Meldekanal»
+vom 25.08. inhaltlich erledigt**, offen bleibt allein die Ursache der Apple-Mail-Blockade selbst
+(TCC/Keychain, liegt beim `ag-gruendung-monitor`-Befund von 07:5x).
+
+### Briefing
+
+**GESENDET** 26.08.2026 **08:49:57** an rj@raphaeljans.ch, Betreff «Hub-Chef 26.08.26 — Ziegel:
+Leitungen in EI30-RF1-Waenden nur mit Zulassung; Jegen S2-Plan neu und abgelegt».
+**In den Gesendeten nachgemessen, nicht am Rückgabewert:** 9'263 HTML-Bytes, **5'598 Zeichen
+Fliesstext** — kein Leer-Draft. Aptos 12 pt je Absatz gesetzt (nicht nur am Container, damit die
+Word-Engine sie nicht überschreibt), echte Umlaute, sechsstellige Daten durchgehend, kein
+Gedankenstrich als Stilmittel. QS: Korrektur-Harness gelaufen, `rechtschreibung` grün (zwei
+Pflichtkommata), `layout` gelb mit Befund Datumsmischung, abgekürzte Pfade und ungesicherte
+Schriftvorgabe — alle drei vor dem Versand behoben.
+
+**Sendegrund:** zwei operative Eingänge nach dem Radar-Fenster (J. Ziegel 08:15 zur EI30-RF1-Anforderung,
+L. Bajrami 07:46 zum S2-Plan), dazu eine ausgeführte Whitelist-Aktion. Das Radar-Briefing wurde
+weitergetragen, nicht wiederholt.
+
+### Richtigstellung im selben Lauf, still ins Register (keine zweite Mail)
+
+Beim Nachmessen des Versands zeigte sich in den Gesendeten, dass Raphael die Sache **parallel selbst
+bewegt** hat: 08:28 Weiterleitung an O. Stadelmann, 08:44 dessen Antwort, 08:46 Weiterleitung an
+J. Ziegel. **Position 02 des Briefings ist damit überholt** — Estermann ist heute nicht auf der
+Baustelle («Wir werden ab morgen Donnerstag wieder starten»), der Zulassungsinhaber sitzt dem
+13:00-Termin also nicht gegenüber. **Keine zweite Mail:** Raphael kennt die Absage aus erster Hand,
+der Fehler beeinflusst sein Handeln nicht (Sende-Schwelle, Ein-Mail-Prinzip). Der sachlich wichtigere
+Teil steht als eigene Registerzeile: Stadelmanns Antwort («unsere Wände, Anschlüsse und Ausführungen
+sind mindestens nach EI30 und nach Baufachkunde. Schott ob Schall- oder Brandschutz, sind bauseits zu
+erstellen») ist eine allgemeine Ausführungszusicherung und **beantwortet Ziegels Frage nicht** — die
+verlangte Aussage des Zulassungsinhabers zur Leitungsführung in der zertifizierten nichtbrennbaren
+Wand fehlt weiterhin.
+
+### Signale, die keinen eigenen Punkt ergaben
+
+`freigabe-status.sh --kurz` und `--briefing`: mac-mini 0, macbook-pro 0, keine Einträge ab 12 h,
+Exit 0. `stationen-watchdog.sh --briefing`: alle Stationen und Sync-Jobs fristgerecht, Exit 0.
+Sync-Task-Queues und `remote-tasks/pending` leer. `node connectors/bexio.mjs --verzug` erneut
+**HTTP 401** (achtzehnter Tag) — Guard A1 nicht erfüllt, keine Mahnaktion; der Verzugscheck von
+08:05 und der Hygiene-Lauf von 08:2x haben den Stand bereits ins Register geschrieben, keine
+Doppelmeldung. Kalender 26.08. bis 02.09. gegen das Radar-Briefing geprüft, **deckungsgleich**
+(ein leerer Ganztagseintrag «Neues Ereignis» am 01.09. bleibt uninterpretiert). Postfach mail@:
+im Fenster ab 04:00 UTC keine neue Nachricht. Konversations-Destillat 26.08. gelesen: kein Gespräch
+im Fenster, alle 35 Sessions automatisch; die drei operativen Punkte unverändert.
+
+**Fortbestehende Abdeckungslücke, unverändert weitergetragen:** `raphaeljans@outlook.com` hat keinen
+Graph-Weg und ist seit dem 25.08. ungelesen; die beiden Thalwil-Punkte konnten nicht gegengeprüft
+werden und werden unverändert geführt.
+
 ## 2026-08-26 (ag-gruendung-monitor, 07:5x) — Monitor blockiert seit 25.08., Betriebsstörung gemeldet
 
 **Betriebsbefund:** Der Task `ag-gruendung-monitor` kann Mail nicht auslesen. osascript-Zugriff auf

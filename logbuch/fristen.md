@@ -3,6 +3,69 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NACHTRAG 26.08.2026, 08:5x (Hub-Chef, Richtigstellung des eigenen Briefings von 08:49) — Estermann
+ist heute NICHT auf der Baustelle, und die Antwort des Zulassungsinhabers beantwortet Ziegels Frage
+nicht.** Beim Nachmessen des Versands in den Gesendeten von rj@ zeigte sich, dass Raphael die Sache
+bereits selbst bewegt hat, während dieser Lauf schrieb. Kette am Original gelesen: RJ leitet Ziegels
+Mail um **08:28** an O. Stadelmann und A. Spahic weiter (Cc Würsch, Spörri, Eren, Cetin, Kübler,
+Duran); Stadelmann antwortet um **08:44**; RJ leitet dessen Antwort um **08:46** an J. Ziegel und
+A. Spahic weiter («Hoi Jens, folgend die Mail vom LBW-Estermann»).
+
+**Zwei Dinge daraus, die im Briefing von 08:49 noch nicht stehen konnten:**
+(1) **Der 13:00-Termin verliert seinen wichtigsten Teilnehmer.** Stadelmann wörtlich: «Wir werden ab
+morgen Donnerstag wieder starten. Somit ist es für uns nicht möglich heute auf der Baustelle zu
+sein.» Position 02 des Briefings («der Zulassungsinhaber sitzt Dir gegenüber») ist damit überholt.
+Ob der Termin ohne Estermann stattfindet, entscheidet der Organisator M. Spörri; Raphael kennt die
+Absage aus erster Hand, deshalb keine zweite Mail (Ein-Mail-Prinzip).
+(2) **Die Antwort deckt Ziegels Frage sachlich nicht ab, und das ist der eigentliche Punkt.**
+Stadelmann schreibt: «unsere Wände, Anschlüsse und Ausführungen sind mindestens nach EI30 und nach
+Baufachkunde. Schott ob Schall- oder Brandschutz, sind bauseits zu erstellen.» Das ist eine
+allgemeine Zusicherung zur Ausführung. Ziegel hatte etwas anderes verlangt, nämlich die Angabe des
+**Zulassungsinhabers, ob Leitungen IN der brandabschnittsbildenden Wand mit seiner Zertifizierung
+der nichtbrennbaren Wand nach EI30-RF1 vereinbar sind**. Diese Aussage fehlt weiterhin, und mit ihr
+die Entscheidungsgrundlage für die Alternative Installationsebene. Der Satz zu den bauseitigen
+Schotts verschiebt zudem eine Leistung, die im Verhältnis zu Los 271.10 sauber zugeordnet sein will.
+**Empfehlung:** die Frage im 11:00-Termin mit Ziegel präzise fassen (Wandsystem, Zulassungsnummer,
+zulässige Leitungsführung) und Estermann schriftlich genau darauf antworten lassen, nicht auf die
+Ausführungsqualität allgemein.
+| Gesendete rj@ 26.08.2026 08:28 / 08:46 und Antwort O. Stadelmann 08:44, Volltext am Original gelesen (Graph) | 2619 KISPI OG1, Lose 271.10 und 298.5 | hoch | offen — Zulassungsaussage fehlt |
+
+**NACHTRAG 26.08.2026, 08:4x (Hub-Chef) — zwei Eingänge nach dem Radar-Fenster, beide KISPI, beide
+für die heutigen Vor-Ort-Termine relevant.** Der Radar hat bis 06:13 gelesen; danach sind zwei Mails
+eingetroffen, die er nicht mehr sehen konnte.
+
+**(1) Jens Ziegel, 08:15, an rj@ — eine neue technische Anforderung an die Leichtbauwände, die heute
+auf der Baustelle steht.** Betreff «260826_KISPI Bettenstation_ Brandabschnittsbildende Wände
+EI30-RF1». Wörtlich: sind Leitungen in der brandabschnittsbildenden Wand verlegt, «so ist durch den
+Zulassungsinhaber anzugeben ob dies für seine Zertifizierung der nichtbrennbaren Wand (Anforderung
+gem. Brandschutztechnischer Stellungnahme EI30-RF1) in Ordnung ist. Wenn dies mit seiner Zulassung
+nicht vereinbar ist, sind die Leitungen in der Installationsebene und nicht in Wänden zu führen.»
+**Warum das zählt:** der Rückbau der Leichtbauwände im OG1 läuft seit dem 25./26.08., die
+Ausführungspläne sind seit dem 25.08. 17:49 bei Estermann, und der Zulassungsinhaber ist genau der
+Betrieb, der heute um 13:00 vor Ort ist. Die Frage gehört damit in beide Termine des Tages: um 11:00
+mit Ziegel die Anforderung fixieren, um 13:00 mit O. Stadelmann die Zulassung des verwendeten
+Wandsystems abfragen. Wird die Leitungsführung in der Wand nicht von der Zulassung gedeckt, ist die
+Installationsebene die Folge, und das ist eine Ausführungs- und Kostenfrage, keine Detailfrage.
+Ziegel schliesst mit «Wir sehen uns nachher auf der Baustelle». Nebenbefund für die Terminplanung:
+seine Ferienabwesenheit steht in der Signatur auf **14.09. bis 05.10.2026**.
+
+**(2) Livdin Bajrami (Jegen), 07:46, an rj@ — der angepasste Prinzipplan der Schiebetür S2 ist da.**
+«im Anhang sende ich Ihnen den angepassten Plan der Schiebetür S2 gemäss dem aktuellen
+Grundrissplan», zwei Anhänge: `S2_1.OG_Türe EI30 Cristallo_Swingout.pdf` und der Architekten-Grundriss
+`2619_ 51.1_S-ARC_1341_GR-01_41_GRUNDR-OG1-41-UMB.pdf`. **Am Plan selbst nachgelesen:** Revisionszeile
+neu **26.08.2026 07:23:42 Livdin Bajrami** über der Erstfassung 13.07.2026, Plannummer unverändert
+`01.0.303.1_S2_1.OG_10`, Türelement Jegen Cristallo-Glisse 1-flg mit Swingout, EI30, VKF-Nr. 26925,
+Festverglasung Jegen Cristallo EI30 VKF-Nr. 26347, Brandschutzglas EI30 Monoscheibe 15 mm. Gegen die
+im Projektordner liegende Fassung vom 14.07. ist die Datei inhaltlich verschieden (MD5 abweichend),
+also eine echte Neufassung und keine erneute Zustellung. **Anschluss an eine offene Zusage:** in der
+Estermann-Mail vom 25.08. 17:49 steht die Anweisung, die Unterzüge der beiden Schiebetüren mit Jegen
+abzusprechen. Der neue Plan ist die Grundlage dafür und sollte vor dem 13:00-Termin gesichtet sein.
+**Abgelegt (Aktion A3, Kopie, nichts überschrieben):** `AR - 01 Projekte/2619_KINDERSPITAL/03_BKP/
+LOS_274.01 Innere Verglasungen JEGEN/274.01 08 Korrespondenz/260826 Prinzipplan S2 angepasst/`
+(Ordnername nach der in diesem Los gewachsenen Konvention «JJMMTT Titel», Originaldateinamen
+unverändert). Eine JANS-Rückmeldung an Bajrami ist noch nicht erfolgt.
+| Mails rj@ 26.08.2026 07:46 und 08:15, Volltext und Anhänge am Original gelesen (Graph, Apple Mail blockiert); Planinhalt aus dem PDF-Titelblock, MD5-Vergleich gegen die Fassung 14.07. | 2619 KISPI OG1, Lose 271.10 und 274.01 | hoch | offen — beide Termine heute 11:00 und 13:00 |
+
 **NACHTRAG 26.08.2026, 06:5x (Logbuch-Radar) — zwei Messungen und eine Abdeckungslücke, die zusammen
 gehören.** (1) **bexio, achtzehnter Tag.** `node connectors/bexio.mjs --verzug --json` heute erneut am
 Original ausgeführt, Antwort unverändert HTTP 401 mit dem Hinweis, der Token laufe erst am 13.12.2026
