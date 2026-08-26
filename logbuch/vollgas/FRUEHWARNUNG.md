@@ -3242,3 +3242,96 @@ Register (`logbuch/fristen.md`, Punkt 4). (c) (e) (f) (g) wie oben.
 **Naechste Mail:** nicht fuer diese beiden Befunde. Erst wieder bei neuer Kontingent-Erschoepfung,
 bei einem Briefing-Ausfall, den der Radar NICHT selbst meldet, bei fehlendem Radar-Herzschlag oder
 bei Aufwand ohne Wissenszuwachs. Zuletzt gemailt: **24.08.2026 07:50**.
+
+## 2026-08-26 — Rohblock (Messzeitpunkt 07:15 CEST)
+
+**Teurer Tagesverbrauch (in + cache_creation + out), Mio Token, rekursiv inkl. Subagenten:**
+
+MacBook Pro: 18.08. 5.22 · 19.08. 6.29 · 20.08. 8.68 · 21.08. 7.07 · 22.08. 7.90 · 23.08. 18.50 ·
+24.08. 8.65 · 25.08. 7.89 · 26.08. bis 07:15 1.39.
+Mac Mini: 18.08. 1.09 · 19.08. 3.04 · 20.08. 1.90 · 21.08. 3.56 · 22.08. 0.93 · 23.08. 53.17 ·
+24.08. 46.70 · 25.08. 2.88 · 26.08. bis 07:15 0.44.
+Beide zusammen: 23.08. 71.67 · 24.08. 55.35 · **25.08. 10.77** · 26.08. bis 07:15 1.83.
+
+**Total (inkl. cache_read), Mio Token:** MacBook Pro 25.08. 178.59 / 26.08. 43.55; Mac Mini
+25.08. 83.14 / 26.08. 14.64.
+
+Beide Stationen messbar (Mini ueber den Alias `mini`, keine Timeouts). Der `/tmp`-Vollgas-Schub
+vom 23./24.08. ist in den Zahlen als abgeschlossene Spitze sichtbar; der 25.08. liegt mit 10.77 Mio
+zusammen wieder im Normalband, der 26.08. laeuft normal an. Bewertung folgt unten.
+
+### Bewertung — kein Meldegrund, keine Mail
+
+**Kein einziges der sieben Kriterien ist erfuellt.** Erster ruhiger Lauf seit dem 23.08.
+
+**(a) Blockade — nichts.** Null echte Usage-/Rate-Limit-Ereignisse in den letzten 24 h, weder
+interaktiv noch in einem Loop (strukturell geprueft: `isApiErrorMessage`, `type=="error"`,
+`apiErrorStatus==429`, danach Limit-Wortfilter). Kontrollprobe bestanden — der Teilstring
+`scheduled-task` kommt in 186 von 224 Dateien des Fensters vor, das Suchmuster greift also.
+
+**(b) Verbrauch — zurueck im Normalband.** Beide Stationen zusammen am **25.08. 10.77 Mio** teuer,
+am 26.08. bis 07:15 erst 1.83 Mio. Die Ueberschreitungen des 23.08. (71.67) und 24.08. (55.35)
+liegen ausserhalb der 24-h-Betrachtung, sind durch den beendeten `/tmp`-Vollgas-Schub erklaert und
+wurden am 24.08. 07:50 gemailt. Keine Wiederholungsmail.
+
+**(c) Wochen-Kontingent — nicht erschoepft.** Der Chef-Radar fuehrt seit dem Reset vom 24.08. 12:00
+durchgehend [FREI]; juengster Eintrag 26.08. 00:57 «Budget entspannt».
+
+**(d) Operative Briefings — alle vier haben geliefert.** Am 25.08.: `logbuch-radar` 385 Zeilen,
+`mahnwesen-verzugscheck` 106, `zahlungsabgleich-check` 85, `hub-chef-taeglich` 267 mit
+**belegtem Versand um 08:50:58** (4'389 Zeichen, in den Gesendeten nachgemessen). Der
+`logbuch-radar` von heute lief 06:55 bis 07:11 mit 242 Zeilen und hat sein Briefing ins Logbuch
+geschrieben. Die drei uebrigen Vormittags-Tasks sind zum Messzeitpunkt 07:15 noch nicht faellig
+(08:05 / 08:23 / 08:39) — ihr Ausbleiben ist hier **kein** Befund. Die 529-Welle vom 24.08. hat
+sich nicht wiederholt.
+
+**(e) Radar-Herzschlag — frisch.** Juengste `## `-Ueberschrift in RADAR.md: **26.08. 00:57**, rund
+6 Stunden alt, weit unter der 12-Stunden-Schwelle. Zweites Signal unabhaengig bestaetigt: Session
+`vollgas-chef-radar` vom 25.08. 22:57 UTC, 66 Zeilen, sauber beendet.
+
+**(f) Destillat — kein Aufwand ohne Ertrag, aber die Front steht.** Der Destillat-Loop hat in den
+letzten 48 h **gar keine Tokens verbraucht**, damit ist (f) definitionsgemaess nicht erfuellt.
+Ertrag der Nacht kommt aus den Wissenscheck- und Trainings-Laeufen: Artikel je Tag ueber `git`
+gemessen — 23.08. 77 (ohne Twin-Facetten 71) · 24.08. 85 (79) · **25.08. 21 (16)** · 26.08. bisher
+5 (0, alles Twin-Facetten). **Stueckkosten teuer je Artikel am 25.08.: 0.51 Mio** (ohne Twin
+0.67 Mio) — nach 0.97 am 23.08. und 0.65 am 24.08. der bisher guenstigste Wert der Reihe. Keine
+Delta-Null-Serie: von den acht juengsten outputs-Reports traegt genau einer eine Delta-Null-Formel,
+die uebrigen sieben haben einen Befund. Die Mac-Mini-Nachtschicht lief in beiden Naechten
+vollstaendig durch (25.08. 02:36 / 05:38 / **13:39** / 23:41, 26.08. 02:35 / 05:36, alle rc=0,
+je rund 2.4 bis 3.2 von 5 USD).
+
+**Der Mittags-Slot 13:30 hat geliefert** (25.08., 537 s, rc=0, Health-Check `entwurfs-referenzen`)
+— das bestaetigt die Entkraeftung des P2-Befunds durch den Radar vom 26.08. 00:57 aus zweiter,
+unabhaengiger Quelle (Lauf-Journal statt Radar-Messung). Der Ausfall vom 24.08. bleibt damit ein
+Einzelfall, kein Muster. Das Lauf-Gate hat den Slot nie abgewiesen.
+
+**(g) Korpus-Queue — nicht komplett.** Korpora 1 und 2 erledigt, 3 (`buero-referenzen`) und 4
+(`archiv-fachwissen`) stehen weiterhin nach der Inventar-Phase 0 vom 23.08.
+
+### Zwei Beobachtungen fuer den Radar (Hub-intern, kein Sendegrund nach Rule 260803)
+
+**1. Die Destillat-Front steht seit drei Tagen still, und die Spec-Frage ist noch offen.** Seit dem
+23.08. hat kein Destillat-Lauf die Korpora 3 oder 4 angefasst; `wissen/architektur-fachwissen/wiki/`
+haelt unveraendert **zwei** Artikel. Die beiden Commits, die seither auf die KB zeigen, stammen aus
+fremden Laeufen (`wissens-chef` Run 41, energie-Audit), nicht aus dem Destillat. Beide Korpora
+tragen in der Queue weiterhin «Spec weiterhin offen». Das ist **noch kein** Spec-Gate-Hang — die
+Schwelle sind mehr als zwei Laeufe ohne Spec, und es hat seither gar keinen Lauf gegeben. Der
+gestern hier vermerkte Satz «ab dem naechsten Lauf ohne Spec ist es einer» gilt unveraendert
+weiter. Neu ist die andere Haelfte des Bildes: die Nachtschicht waehlt seit drei Naechten
+durchgehend Wissenscheck-Prioritaeten und kommt am Destillat nicht mehr vorbei. Sauber gearbeitet,
+aber die Queue bewegt sich nicht — das ist eine Priorisierungsfrage fuer den Radar, keine Stoerung.
+
+**2. Das Lauf-Gate protokolliert nicht mehr, obwohl es laufen muesste.** Letzte Zeile in
+`logbuch/speicher/gate-Macmini.log` ist **24.08. 05:30**. Seither sind sechs Nachtschicht-Slots
+gefeuert (25.08. 02:36/05:38/13:39/23:41, 26.08. 02:35/05:36), alle mit rc=0 im Lauf-Journal, ohne
+dass eine einzige FREIGABE- oder ABGEWIESEN-Zeile entstanden waere. Entweder schreibt das Gate seit
+dem 24.08. nicht mehr, oder die Laeufe gehen an ihm vorbei. Beides ist harmlos, solange das
+Kontingent entspannt ist — genau deshalb faellt es jetzt auch niemandem auf. Es ist aber die
+Messgrundlage der Drossel-Entscheidung: faellt das Gate still aus, greift bei der naechsten
+Knappheit die Drosselschwelle nicht mehr, und der erste Beleg dafuer waere dann eine
+Kontingentsperre. Nach Rule 260807 gilt hier der Kern: ein Konfigurationsteil, dessen Wirkung nicht
+gemessen ist, gilt nicht als wirksam. Fuer den Radar zum Nachmessen.
+
+**Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
+Kontingent-Erschoepfung, einem Briefing-Ausfall, den der Radar nicht selbst meldet, fehlendem
+Radar-Herzschlag oder Aufwand ohne Wissenszuwachs.
