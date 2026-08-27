@@ -1,3 +1,64 @@
+## 2026-08-28 — Normen-Nacht Run 64: Abdeckungsrunde auf SIA 416:2003 (Rang 1 der Prüfstand-Kandidaten) + Kalibrierung der Stichprobenstufe
+
+**Arbeitsgegenstand.** Vertiefungsstufe (b). `destillate/sia-416-2003.md` war Rang 1 der in
+Run 63 erstellten Kandidatenliste: 12 entscheidungstragende Konsumenten, davon vier Agenten,
+die Flächen und Volumen rechnen. Verschärfend war das Missverhältnis zur Teilnorm — 994 Zeilen
+mit Prüfstand dort, 74 Zeilen ohne Prüfstand bei der Mutternorm.
+
+**Ergebnis: 12 Kern- und 18 Nebenlücken, kein einziger falscher Wert.** Sechs parallele
+Aufnahme-Agenten (je ein Quellenabschnitt), alle Kernbefunde vom Hauptprozess am Original
+nachgeprüft. Quelle mit echtem Textlayer; Tabellen und Figuren dennoch gerendert und
+abgelesen (Methodik-Pflicht 8), Präfix `sia416-r64-`, Seitenversatz an S. 5 und S. 17
+abgelesen und null.
+
+**Die folgenreichsten Befunde:**
+- **Die Messregel für die Gebäudehöhe steht nicht im Normtext, sondern in Figur 8 (S. 53).**
+  Ziff. 5 sagt nur «GF × zugehörige Höhe». Die Figur zeigt geschossweise Segmente (H 2.UG bis
+  H DG) plus ein eigenes Segment «Dicke Dach» bis zum First. Das GV reicht damit bis zur
+  Dachaussenhaut und schliesst die Dachkonstruktion ein — wer bis zur inneren Deckenlinie
+  misst, unterschätzt jedes Steildach-GV und damit jede CHF/m³-Kostenzahl.
+- **Ziff. 4.3 entzieht auch die Aussen-Konstruktionsfläche AKF der Zuordnung.** Das Destillat
+  führte nur «GGF und KF». Die Matrix, am Rendering Zelle für Zelle abgelesen, lässt AKFT und
+  AKFN in allen sechs Zeilen ohne Beziehung. Relevant für den `wertquoten-rechner`.
+- **Die Vier-Faktoren-Regel fehlte ganz** (Vorwort S. 5 und Ziff. 0.2, S. 6): Flächen und
+  Volumen decken nur den Faktor **Quantität**; Form, Qualität und Komplexität sind separat
+  einzubeziehen. Das ist die normative Grundlage für die Kennwert-Differenzierung, die
+  `grobkosten-onepager` und `kostenschaetzung` bereits praktizieren — bisher ohne Beleg.
+- **Der Anhang war nie vollständig gelesen.** Das Frontmatter wies S. 44-48 aus; tatsächlich
+  reicht er bis S. 57 mit den Figuren 1-12. In den nie eingesehenen Seiten lagen die Höhenregel
+  und die Antwort auf die im Destillat selbst offen geführte Frage «Balkon AGF vs. UF».
+- **Laubengang ist AVF, nicht ANF** (Figur 6, S. 51, vom Hauptprozess am Bild bestätigt): die
+  Nutzungsart entscheidet auch im Aussenbereich, nicht die Bauform.
+- **Der Nebensatz zu den Fundationen** («die einer Verbesserung der Tragfähigkeit des Baugrundes
+  dienen») fehlte — normale Streifenfundamente sind also **nicht** ausgenommen. Figur 8 bestätigt
+  es zeichnerisch. Vom Hauptprozess von Neben- auf Kernbefund hochgestuft.
+
+**Status `established` → `speculative`, Prüfstand-Tabelle ins Destillat.** Refuter- und
+Q&A-Runde vom Juli liefen nur auf S. 1-15 und waren dort zufrieden (22 Fragen, null
+Abweichungen); die erste Abdeckungsrunde fand auf denselben Seiten trotzdem 12 Kernlücken.
+Dritter realer Beleg für Methodik-Pflicht 13 nach Run 54 und Run 62.
+
+**Zweiter Arbeitsgegenstand: die in Run 63 offen gebliebene Kalibrierung der Stichprobenstufe.**
+Blinder Lauf auf `sia-118-1991` in der Fassung **vor** Run 62 (aus Git), Kapitel 1/5/6 per
+Seed gezogen und protokolliert, bevor die Run-62-Details gelesen wurden. Ergebnis: 17 Kern-
+und 9 Nebenfunde; die vier folgenreichsten Vollrunden-Kernbefunde (Art. 163, 164, 169, 147/151)
+blind reproduziert; von 18 gemeldeten Artikeln führt die heutige Fassung 17, drei davon
+inhaltlich nachgelesen — **keine erkennbaren Falsch-Positive**. Der eine Rest (Art. 3) ist ein
+echter, in N62-1 noch offener Rückstand.
+
+**Die Messung korrigiert den eigenen Vorschlag aus Run 63:** Die Stichprobe schlug in **allen
+drei** gezogenen Kapiteln an und hätte die Vollrunde ausgelöst. Bei einem betroffenen Destillat
+spart sie damit nichts — Stufe 2 der vorgeschlagenen Dreiteilung mündet in Stufe 1. Ihr Wert
+liegt im **Sortieren**, nicht im Sparen: sie misst billig, wie stark ein Destillat betroffen ist,
+und ersetzt damit die Priorisierung nach blosser Nennungs-Reichweite. Ausdrücklich **nicht**
+gemessen ist die Spezifität (N64-3): ob die Stichprobe schweigt, wenn ein Destillat sauber ist.
+Anlage: `training/n64-stichproben-kalibrierung.md`.
+
+**Nachgeführt:** `destillate/sia-416-2003.md` (Kernbefunde inline, Methodik-Pflicht 9),
+`destillate/INDEX.md`, `training/norm-inventar.md`, `wiki/QUESTIONS.md` (N64-1 bis N64-5),
+`training/n64-stichproben-kalibrierung.md` (neu). Report
+`outputs/2026-08-28_normen-nacht-run64.md`.
+
 ## 2026-08-27 (Wissens-Chef Run 45) — die aufgetrennte SIA-102-Fundstelle stand 280 Zeilen tiefer unverändert weiter
 
 Eingriff in `wiki/synthese-sia-vkf-fachskills.md`, Z. 457 (1/1 — eine gewollte Zeilenersetzung

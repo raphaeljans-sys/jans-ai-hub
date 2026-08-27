@@ -6212,3 +6212,37 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   linear abzuarbeiten ist kein Weg (Run 63 kostete eine Nacht für eine Norm), vorgeschlagen ist
   eine Stichprobenstufe, die zuerst an einem bereits vollständig gemessenen Destillat zu
   kalibrieren wäre.
+
+## Run 64 (MacBook Pro, 28.08.2026) — Abdeckungsrunde auf SIA 416:2003, und die Kalibrierung der Stichprobenstufe
+
+- [ ] **N64-1 — Die 18 Nebenbefunde zu SIA 416:2003 einarbeiten.** Sie stehen vollständig im
+  Report `outputs/2026-08-28_normen-nacht-run64.md`. Grösster Block: die fehlenden
+  Wortdefinitionen des Volumenteils (NGV/NV/VV/FV wurden in diesem Lauf bereits ergänzt, die
+  übrigen Nuancen nicht) sowie die Figuren-Detailbefunde 1-3, 5, 9 des Anhang-Laufs.
+- [ ] **N64-2 — Refuter-Runde auf den Nachträgen von Run 64.** Die neuen Blöcke im Destillat
+  (Ziff. 0.2 dritter Absatz, Ziff. 0.4 sechste Regel, Ziff. 4.1-4.3, Höhenregel aus Figur 8,
+  der ganze Figurenanhang) tragen bisher **nur** die Abdeckungsrichtung. Nach Methodik-Pflicht 13
+  ist der Prüfstand erst vollständig, wenn beide Richtungen auf allen Teilen gelaufen sind —
+  ohne diese Runde bleibt `speculative` richtig.
+- [ ] **N64-3 — Die Spezifität der Stichprobenstufe ist nicht gemessen.** Die Kalibrierung
+  (`training/n64-stichproben-kalibrierung.md`) hat die **Sensitivität** belegt: die Stichprobe
+  findet Lücken, wenn welche da sind (17 Kernfunde in 3 von 3 gezogenen Kapiteln, vier
+  Vollrunden-Kernbefunde blind reproduziert, keine Falsch-Positive). Sie hat **nicht** gemessen,
+  ob die Stichprobe schweigt, wenn ein Destillat sauber ist. Genau das ist aber die
+  Voraussetzung dafür, aus einem Nullbefund «Status bleibt» abzuleiten — der Kern von Stufe 2
+  der vorgeschlagenen Dreiteilung. **Das Hindernis ist real:** ein nachweislich sauberes
+  Destillat ist im Bestand nicht bekannt. Möglicher Weg: die Anlage aus Run 53 umdrehen und
+  eine bereits vollständig gemessene Fassung (`sia-118-1991` heutiger Stand, `sia-416-1-2007`)
+  als «sauberen» Prüfling verwenden — mit dem ausdrücklichen Vorbehalt, dass «vollständig
+  gemessen» nicht «lückenlos» heisst.
+- [ ] **N64-4 — Art. 3 SIA 118 ist weiterhin offen.** Die blinde Stichprobe hat ihn als Lücke
+  angezeigt; Run 62 führte ihn unter den «gar nicht erwähnten Artikeln» des Segments A, er blieb
+  aber im Nebenbefund-Block N62-1 liegen. Grundlegende Abschlussformen des Werkvertrags
+  (schriftlich, mündlich, durch Handeln) samt empfohlenem Vorgehen bei grösseren Bauarbeiten.
+  Kleiner Einzelpunkt, gehört beim Abarbeiten von N62-1 mit erledigt.
+- [ ] **N64-5 — «Dicke Dach» in Figur 8 (S. 53) ist nicht normativ gesichert.** Das Segment ist
+  als eigenes Höhenmass zwischen H DG und First eindeutig ablesbar, und die Konsequenz für das
+  GV (bis Dachaussenhaut) ist damit belegt. Ob das Mass selbst normativ fixiert oder illustrativ
+  ist, und worauf sich «H DG» als Referenzlinie bezieht, geht aus den Figurenseiten nicht hervor.
+  Für die Grobkosten-Praxis genügt der belegte Teil; für einen Streitfall wäre der französische
+  oder italienische Normteil als Kontrolltext beizuziehen.
