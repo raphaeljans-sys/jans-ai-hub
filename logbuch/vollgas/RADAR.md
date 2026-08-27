@@ -53,6 +53,40 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-28 00:57 — [FREI] **Regellauf ohne Befund: Fenster frei in 6 s, sieben KBs mit Liefer-Delta, alle Loops gesund.** Neuer P2: die Kontingent-Reserve wächst zum vierten Mal in Folge, der Verbrauch läuft dem Zeitverlauf um 29.8 Punkte hinterher — bei einem Auftrag, der das Ausschöpfen verlangt.
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 27.08. 12:57, dieser 28.08. 00:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke; `lastRunAt` des eigenen Tasks steht auf 27.08. 22:57 UTC und ist dieser Lauf, der zweite Ausfalltyp war also nicht zu prüfen.
+
+**Fensterzustand [FREI].** Probe über die app-gebündelte CLI, weiterhin **2.1.246**: «OK», rc=0, in **6 Sekunden**. Reihe unverändert stabil: 6 s (25.08. 12:57) · 6 s (26.08. 00:57) · 5 s (26.08. 12:57) · 5 s (27.08. 00:57) · 6 s (27.08. 12:57) · 6 s (jetzt). Keine Waisen (`ps` auf `claude -p` leer), Speicherdruck normal (`kern.memorystatus_vm_pressure_level: 1`).
+
+**Die Homebrew-Wedge steht seit sechs vollen Tagen.** `/opt/homebrew/bin/claude` zeigt unverändert auf **2.1.231** (Symlink vom 22.08. 05:15), das Caskroom führt keine neuere Fassung. Die PATH-Probe wurde erneut gar nicht erst versucht. Der Rückfallweg über die app-gebündelte CLI trägt weiterhin ohne einen einzigen Ausfall; ein Handlungsbedarf entsteht daraus nicht, weil beide Wege unabhängig voneinander aktualisiert werden.
+
+**Feuermechanismen: alle drei Orte stimmen, beide Registries geprüft.** (i) Registry MacBook Pro: **jeder** aktive Task mit frischem `lastRunAt` — `logbuch-radar` 06:54, `konversations-log` 06:13, `vollgas-fruehwarnung` 07:15, `mahnwesen-verzugscheck` 08:05, `zahlungsabgleich-check` 08:22, `ag-gruendung-monitor` 07:46, `hub-chef-taeglich` 08:39, `heartbeat-daily` 07:40, die Twin-Loops 03:39 und 05:44, `synergie-lauf-taeglich` 17:09, `tenant-hygiene-weekly` 20:08, `wissens-chef` 23:11. Keine ausgefallene; `normen-training-nacht` steht mit nextRunAt 01:27 noch aus und ist nicht überfällig. (ii) Registry Mac Mini per `ssh mini`: **acht** Tasks, exakt der dokumentierte Sollstand, unverändert. (iii) launchd: `ch.jans.vollgas-monitor` und `ch.jans.vollgas-supervisor` liegen auf beiden Stationen als `*.disabled-260729` und sind nicht geladen; auf dem Mac Mini ist `ch.jans.nachtschicht` geladen mit **Exit 0**. Der stehende Entscheid vom 30.07. («nicht wieder beleben») ist gewahrt. Kein Loop wird doppelt gefeuert.
+
+**Liefer-Delta über die letzten 13 h, gemessen per `git diff --name-only` gegen die Basis** (nicht per `find -newermt`, Werkzeug-Falle vom 20.08.): `energie` 14 Dateien · `koordination` 5 · `planungsgrundlagen` 4 · `normen` 4 · `wettbewerbs-dna` 3 · `architekten-synobsis` 2 · `baurecht` 1 — **sieben KBs**, gegenüber vier im letzten Eintrag. Dazu Register- und Stammdatenpflege (`logbuch/fristen.md`, `logbuch/LOGBUCH.md`, `rules/anrede-kontakte.md`, `rules/normen-referenz.md`, `tenant-hygiene/reports/260827-hygiene.md`). 56 Commits im Fenster, der Grossteil `nas-selfcommit`.
+
+Die inhaltlichen Träger sind vier Läufe: `synergie-lauf-taeglich` (17:22 und 17:28, Lauf 20 mit SYN-53 bis SYN-55 plus Umlaut-Nachlauf), `energie-training` auf dem Mac Mini (22:55, Run 165 mit Ausgabenstand-Sweep und dem destillierten Änderungsprotokoll zur ZH-Förderung), `wissens-chef` (23:31, Run 45) und die Mac-Mini-Nachtschicht (23:33, sechs weitere Identitätsfragen der Synobsis). **Kein Loop auf Delta Null, keine Rücktaktung fällig.**
+
+**Bemerkenswert und ausdrücklich positiv:** `wissens-chef` Run 45 hat seine vier Cross-KB-Befunde nicht nur im eigenen Bericht abgelegt, sondern die Bringschuld in **vier fremden `QUESTIONS.md`** gesetzt (`wettbewerbs-dna`, `planungsgrundlagen`, `normen`, `baurecht`). Genau das verlangt die am 23.08. ergänzte Cross-KB-Klausel in Rule `wissens-bibliothekar` — hier zum ersten Mal in einer Messung dieses Radars sichtbar erfüllt. Das erklärt zugleich, warum vier KBs mit nur ein bis vier Dateien im Delta erscheinen: es ist Aufsichtsarbeit, nicht ein je eigener Lern-Lauf.
+
+### P2 — Die Kontingent-Reserve wächst zum vierten Mal in Folge, und der Auftrag lautet Ausschöpfen, nicht Sparen
+
+`kontingent-budget.sh --json`: Ampel **FREI**, 34.7 von 167 Mio teuren Token = **20.8 %**, bei **50.6 %** verstrichener Woche. Vorsprung **-29.8 Punkte**. Beide Stationsdateien frisch (MacBook Pro 26.97 Mio, Mac Mini 7.72 Mio, 0.0 bzw. 0.4 h alt).
+
+Die Reihe der letzten vier Messungen ist monoton: **-16.3 · -21.3 · -24.9 · -29.8**. Das ist kein Ausreisser mehr, sondern ein Trend über zwei volle Tage, und er zeigt in die Richtung, die dieser Radar laut Auftrag beobachten soll — nur mit umgekehrtem Vorzeichen zum bekannten Risiko. Bei linearer Fortschreibung endet die Woche bei rund 41 % des kalibrierten Budgets; knapp drei Fünftel des Kontingents blieben ungenutzt.
+
+Einordnung, damit die Zahl nicht überinterpretiert wird: die Obergrenze von 167 Mio ist am Limit-Treffer vom 01.08.2026 **kalibriert** und kein von Anthropic ausgewiesener Wert. Die Aussage «41 % am Wochenende» ist deshalb eine Aussage über die eigene Kalibrierung, nicht über das echte Abo-Limit. Belastbar ist allein die Richtung: der Verbrauch fällt seit Wochenmitte gegenüber dem Zeitverlauf zurück, statt ihm vorauszulaufen.
+
+Der stehende Entscheid vom 03.08. («gleichmässig über die Woche») ist damit eingehalten — er verbietet die Bündelung auf Montag bis Mittwoch, er verlangt aber nicht, unter der Linie zu bleiben. Die Frage, ob die frei bleibende Kapazität auf eine offene Wissenslücke umgelenkt werden soll, ist **Raphaels Entscheid**, nicht der des Radars: ein Loop hochzutakten ist die Gegenrichtung des Leerlauf-Waechter-Auftrags und wäre ohne Anlass ein Eingriff in einen Bestand, der gerade sauber liefert. Kein Eingriff in diesem Lauf, keine Mail (kein P1). Der Befund wird ab jetzt in jedem Eintrag mit der Reihe fortgeschrieben; kippt sie, ist er ohne Weiteres erledigt.
+
+### P3 (unverändert, aus dem Eintrag 27.08. 12:57) — Der Ordner `token-drosselung-100810` ohne Registry-Eintrag
+
+`~/.claude/scheduled-tasks/token-drosselung-100810` besteht weiterhin, `list_scheduled_tasks` kennt dazu keinen Eintrag. Befund und Begründung stehen im Eintrag vom 27.08. 12:57; der Vorschlag (nach `_erledigt/` verschieben statt löschen) liegt unverändert bei Raphael. Kein Eingriff: einen Task-Ordner zu löschen ist im Sinne von Rule `interaktive-eingriffe` nicht umkehrbar, und dieser Lauf ist unbeaufsichtigt.
+
+### P3 (unverändert) — Permission-Regel mit Wildcard
+
+Die Fensterprobe gab die bekannte Warnung zur Regel in `~/Developer/jans-ai-hub/.claude/settings.local.json` erneut aus; der Befund ist unverändert und dort ausführlich beschrieben. Kein Eingriff, weil die Datei zu Raphaels lokaler, nicht versionierter Konfiguration gehört.
+
 ## 2026-08-27 12:57 — [FREI] **Regellauf ohne Befund: Fenster frei in 6 s, Wochenbudget 24.9 Punkte unter dem Zeitverlauf, vier KBs mit Liefer-Delta.** Kein Loop auf Delta Null, keine Massnahme fällig. Ein neuer P3: ein Task-Ordner ohne Registry-Eintrag.
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 27.08. 00:57, dieser 27.08. 12:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke; der zweite Ausfalltyp (`lastRunAt` gegen Eintragsdatum) war nicht zu prüfen — `lastRunAt` des eigenen Tasks steht auf 12:57 und ist dieser Lauf.
