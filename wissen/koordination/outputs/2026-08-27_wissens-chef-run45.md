@@ -214,7 +214,17 @@ stehen unverändert dort.
 | `wissen/wettbewerbs-dna/wiki/muster/kennwerte-healthcare.md` | +7 / −0 |
 | `wissen/normen/wiki/synthese-sia-vkf-fachskills.md` | +1 / −1 (gewollt: präzisierte Tabellenzeile) |
 | `wissen/koordination/QUERBEZUEGE.md` | +102 / −1 (gewollt: Matrixzeile Healthcare um `wettbewerbs-dna` ergänzt) |
-| `wissen/koordination/CHANGELOG.md` + `outputs/` | dieser Bericht |
+| `wissen/wettbewerbs-dna/wiki/QUESTIONS.md` | +16 / −0 (offener KB-Punkt) |
+| `wissen/planungsgrundlagen/wiki/QUESTIONS.md` | +16 / −0 (offener KB-Punkt) |
+| `wissen/baurecht/wiki/QUESTIONS.md` | +19 / −0 (Gegenrichtung, Bringschuld) |
+| `wissen/normen/wiki/QUESTIONS.md` | +8 / −0 (vierter Datenpunkt an N63-3) |
+| `wissen/koordination/CHANGELOG.md` | +38 / −0 |
+| `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md` | dieser Bericht (neu) |
+
+**Cross-KB-Bringschuld erfüllt (Rule `wissens-bibliothekar`, Fassung 23.08.2026):** jeder offene Punkt
+steht in der `QUESTIONS.md` der **Empfänger-KB**, nicht nur in diesem Bericht — die Lehre aus Run 44,
+dass der Zeiger dort stehen muss, wo weitergearbeitet wird. Der vierte SIA-102-Datenpunkt hängt als
+datierter Nachtrag am bestehenden Eintrag **N63-3**, nicht als neuer Eintrag daneben.
 
 Keine Datei hat Bestand verloren; die drei Ersetzungen sind oben einzeln ausgewiesen (Rule
 `auto-verbesserungen` 260811, jede per `git diff --numstat` nativ über ssh gemessen, nie über SMB).

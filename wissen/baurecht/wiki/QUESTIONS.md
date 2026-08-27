@@ -1,5 +1,24 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## OFFEN 2026-08-27 (Wissens-Chef Run 45) — Baulinien: braucht der Rechtsartikel einen direkten Zeiger auf den Geodatum-Artikel?
+
+`wiki/baulinien-und-abstandslinien.md` ist laut Fuehrungsmatrix fuehrend fuer die **materielle**
+Wuerdigung der Linien (Bauverbot bis zur Linie, §§ 96-101 PBG, § 67, § 66, § 220 PBG). Die
+**Beschaffungsseite** fuehrt `planungsgrundlagen/wiki/kartenportale-baulinien-abstandslinien-zh.md`
+(ZH-OGD-WFS, ±150-m-Fenster, proj-Layer-Namensschema, senkrechte Abstandsmessung). **Die beiden
+Artikel nannten einander in keiner Richtung.**
+
+Die fehlende Richtung `planungsgrundlagen` → `baurecht` ist am 27.08.2026 gesetzt. Die Gegenrichtung
+ist **bewusst nicht** gesetzt worden: der Rechtsartikel laesst den Leser nicht ohne Beschaffungspfad
+zurueck (er nennt `geo-zh.mjs`, `geo-sz.mjs`, den Agenten `baulinien-analyst`, den Skill
+`machbarkeit`), und ueber `wiki/abstaende-und-hoehen.md` Z. 272 besteht ein indirekter Pfad. Was
+fehlt, ist der Zeiger auf den Artikel, der **die Fallen des Beschaffungswegs** dokumentiert.
+
+**Zu entscheiden von dieser KB (kein Entscheid Raphaels):** direkter Verweis oder indirekter Pfad
+genuegt. Beleg: `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md`, Registereintrag in
+`wissen/koordination/QUERBEZUEGE.md` (Paar baurecht ↔ planungsgrundlagen, geprueft 27.08.2026).
+
+
 ## ✅ GEKLÄRT 2026-08-24 (Buch-Run 132) — Art. 7 Ziff. 1 EMRK über österreichische RIS-Kundmachung derselben Konvention CONFIRMED; Schweizer Fedlex selbst bleibt unerreichbar
 
 **Fundstelle:** `wiki/grundlagen-planungs-baurecht.md`, Abschnitt «Weitere Grundsätze», Beleg

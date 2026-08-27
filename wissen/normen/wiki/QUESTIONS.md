@@ -6190,6 +6190,14 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   Registrierung, damit die Durchsicht an einer Stelle steht, die ein Radar liest.
   Nachgetragen 27.08.2026, Synergie-Lauf 20 (SYN-54), Cross-KB-Bringschuld nach Rule
   `wissens-bibliothekar`.
+  **Nachtrag 27.08.2026, Wissens-Chef Run 45 — es sind inzwischen VIER Vorbehalte, nicht drei.**
+  Hinzugekommen ist Z. 457: die Fundstelle «3.3.3-3.3.5», die Run 63 am selben Tag in Tabelle 2.3
+  aufgetrennt hatte, stand dort im Abschnitt fuer den Skill `kostenschaetzung` unveraendert weiter
+  und ist jetzt auf «4.21 / 3.3.2 / 3.3.4» praezisiert. **Das ist ein eigenes Argument fuer die
+  Durchsicht:** die drei bisherigen Vorbehalte kamen von aussen an den Artikel heran; dieser vierte
+  zeigt, dass eine Korrektur im Artikel selbst nicht bis ans Ende getragen wurde. Wer die Durchsicht
+  fuehrt, prueft die Tabellen 4 bis 8 (ab Z. 400) mit derselben Sorgfalt wie Tabelle 2.3. Beleg:
+  `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md`.
 - [x] **N62-3 — BEANTWORTET.** Die Kandidatenliste liegt als
   `training/n62-3-pruefstand-kandidaten.md`. **Ergebnis: von 310 `established`-Destillaten
   tragen 2 einen Prüfstand, und beide sind DIN (Mac-Mini-Scope).** Im SIA/VKF-Bestand dieser

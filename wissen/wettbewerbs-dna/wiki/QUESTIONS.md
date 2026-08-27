@@ -3,6 +3,22 @@
 Stand: 27.07.2026 (Wohnungsbau B4+B6 abgeschlossen; Verfahrens-Sonderfaelle-Frage und
 Extrakt-Grenze Koch-Areal geklaert, fehlende 1. Stufe Walkeweg bleibt offen)
 
+## Offen (neu 27.08.2026, Wissens-Chef Run 45)
+
+- [ ] **Healthcare-Ausnahme in der Standardformel des Muster-Templates.** `wiki/muster/kennwerte-healthcare.md`
+  wies an drei Stellen (Z. 78, 365, 690) `wissen/grobkosten/` als fuehrende CHF/m³-Quelle aus. Fuer
+  **Healthcare** fuehrt `grobkosten` ausdruecklich **nicht** — fuehrend ist
+  `wissen/immobilienbewertung/wiki/realwert-sachwert` (826–1'420 CHF/m³ GV, Median ~1'100, Bezugsgroesse
+  **BKP 2 Gebaeude**). Die drei Stellen sind am 27.08.2026 additiv praezisiert (+7/−0).
+  **Die offene Frage ist die Ursache, nicht der Einzelfall:** der Satz ist eine KB-weite Standardformel,
+  die in den Schwesterartikeln **Schulbau** (B6, 20.07.) und **Wohnungsbau** (B6, 27.07.) sachlich
+  **richtig** ist und dort nicht angefasst werden darf. Er wurde beim Ableiten unbedacht mituebertragen.
+  Zu entscheiden ist, ob das Muster-Template selbst eine Bauaufgaben-Weiche bekommt, damit der naechste
+  abgeleitete Artikel den Uebertrag nicht wiederholt. **Kein Entscheid Raphaels, Sache dieser KB.**
+  Beleg: `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md`, Registereintrag in
+  `wissen/koordination/QUERBEZUEGE.md` (Paar wettbewerbs-dna ↔ grobkosten ↔ immobilienbewertung).
+
+
 ## Offen (neu 17.08.2026, Etappe 4 Lauf 03)
 
 - **Zählkonflikt im Beurteilungsbericht 2101 am PDF entscheiden.** Das Inhaltsverzeichnis

@@ -76,6 +76,22 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > Beides ist Arbeit der KB `normen`, nicht des Wartungslaufs; hier steht es, damit es nicht
 > allein im Laufbericht verpufft.
 
+## Offen (neu 27.08.2026, Wissens-Chef Run 45)
+
+- [ ] **Baulinien: Gegenrichtung und benannte Artikelzuordnung.** `wiki/kartenportale-baulinien-abstandslinien-zh.md`
+  trug in **keiner** Richtung einen Rueckverweis in die KB `baurecht`, obwohl der dortige Rechtsartikel
+  `baurecht/wiki/baulinien-und-abstandslinien.md` die materielle Wuerdigung fuehrt (Bauverbot bis zur
+  Linie, §§ 96-101 PBG, Gewaesserabstandslinie § 67, Waldabstandslinie § 66, Ausnahmebewilligung § 220
+  PBG). Diese Richtung ist am 27.08.2026 gesetzt (+9/−1, Querbezug-Block + Frontmatter-Link).
+  **Offen bleiben zwei Fragen der KB-Fuehrung:** (1) Braucht der `baurecht`-Rechtsartikel einen
+  **direkten** Verweis zurueck auf diesen Geodatum-Artikel, oder genuegt der bestehende indirekte Pfad
+  ueber `baurecht/wiki/abstaende-und-hoehen.md` Z. 272? (2) Soll die Matrixzeile «Wald-/Gewaesserabstand,
+  Baulinien, Zonenmasse, Verfahren» in `wissen/koordination/QUERBEZUEGE.md` eine **benannte
+  Artikelzuordnung** erhalten statt nur der KB-Namen — der Fall zeigt, dass die KB-Ebene zwei Artikel
+  unverbunden lassen kann, obwohl die Matrix formal stimmt. **Kein Entscheid Raphaels.**
+  Beleg: `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md`.
+
+
 ## Lauf 2026-08-23 (Vertiefungslauf 8 Revendo, Auftrag Raphael) — ein abgeschalteter Host, den sechs Läufe für erreichbar gehalten haben
 
 **Auftrag:** wie Lauf 6 und 7 — Endpunkte, Links und Connector-Wege verifizieren, belegt arbeiten.
