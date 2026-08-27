@@ -257,3 +257,16 @@ gegen die committete Fassung gefahren und lieferte den brauchbaren Wert.
 
 Festgehalten, weil es die Regel aus Eintrag 260807 zum zweiten Mal in Folge belegt: **ein
 leeres Ergebnis ist zuerst eine Aussage über das Werkzeug, nicht über die Quelle.**
+
+**Zweiter Fall im selben Lauf, und der Grund, warum Rule 260730b die Verifikation verlangt.**
+Der explizite `nas-commit-now.sh` meldete Erfolg, sein Commit (`f1ac76fa3`) enthielt aber
+**weder das Destillat noch die Kalibrieranlage** — also genau die beiden inhaltlich wichtigsten
+Dateien. Wer nur den Rückgabewert gelesen hätte, hätte den Lauf als vollständig committet
+gemeldet. Die Nachmessung im Ziel zeigt die harmlose Ursache: der 15-Minuten-Cron
+`nas-selfcommit` war um **01:45** dazwischengefahren und hatte beide Dateien bereits mitgenommen
+(`186ea04b3`, «6 Datei(en)»). Der explizite Commit um 01:48 trug folglich nur den Rest nach.
+Beide Commits stehen auf `origin/main`, der Arbeitsbaum ist sauber, es fehlt nichts — die
+Änderungen dieses Laufs liegen lediglich auf **zwei** Commits statt auf einem.
+Merksatz für den nächsten Lauf: **ein `--stat` des eigenen Commits ist keine Vollständigkeits-
+prüfung, solange ein zweiter Committer auf dieselbe Ablage schreibt** — zu prüfen ist der
+Zustand des Ziels, nicht der Inhalt des eigenen Commits.
