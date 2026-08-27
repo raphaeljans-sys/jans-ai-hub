@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.08.2026 17:36:24
+Stand: 27.08.2026 17:56:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 17:28)
@@ -12,4 +12,4 @@ Stand: 27.08.2026 17:36:24
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- e25597a59 Synergie-Lauf 20 Nachlauf: echte Umlaute in den neu geschriebenen Textbloecken (Rule umlaute-konvention), Code-Spans und Bestand unberuehrt
+- 0eee8ff99 nas-selfcommit: 4 Datei(en) 2026-08-27 17:45
