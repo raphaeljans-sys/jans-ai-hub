@@ -4,6 +4,122 @@ Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Ha
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 
+## Radar-Briefing 27.08.2026 (06:55, planmässig, MIT Befund)
+
+Lagebild: KISPI PPTS hat seit gestern Abend eine verbindliche Terminkette bis zur Betriebsaufnahme,
+und der engste Punkt darin ist der morgige Freitag. Alles andere ist unverändert; die drei bekannten
+Blockaden (bexio, Apple Mail, Tailscale-Wächter) stehen weiter.
+
+### Erledigt seit gestern
+
+**Jegen S2, Rückmeldung ist raus.** Der Register-Vermerk von gestern («eine JANS-Rückmeldung an
+Bajrami ist noch nicht erfolgt») ist überholt: RJ hat am 26.08. 08:55 mit Skizze zurückgefragt, ob
+empfangsseitig ein zusätzlicher RHS-Pfosten nötig ist und ob der bestehende RHS in der Wand des
+angrenzenden Türelements für die Schiebetüre aktiviert werden kann. Ball bei Jegen.
+
+**Brandschutz-Begehung 11:00 gehalten, Protokoll liegt vor.** J. Ziegel hat das Kurzprotokoll am
+selben Tag zugestellt (14:31 ohne Anhang, nach Reklamation um 16:03 dann 18:13 mit Anhang).
+
+**Termin 13:00 mit O. Stadelmann hinfällig.** Estermann hat um 08:44 für denselben Tag abgesagt und
+nimmt die Arbeiten ab heute wieder auf. Die offene Zulassungsfrage zu Leitungen in EI30-RF1-Wänden
+blieb damit ungeklärt und läuft weiter.
+
+**Interne Brandschutz-Abnahme ist terminiert.** 20.11.2026, 13:00 bis 14:30, vor Ort im 1. OG,
+Organisator Ziegel, von RJ um 16:01 angenommen.
+
+**Ziegels Rückfrage ist beantwortet.** Seine Frage, ob die Anmeldung der Nutzung
+(Fertigstellungsanzeige) über RJ läuft, ist mit der Meldekarten-Mail von 17:04 faktisch bejaht;
+Ziegel steht im Verteiler.
+
+### Überfällig
+
+**bexio, neunzehnter Tag ohne Zugang.** Der Verzugscheck lehnt heute erneut mit HTTP 401 ab. Damit
+bleiben CHF 51'400.00 in fünf Positionen auf dem verifizierten Stand vom 08.08. hängen, darunter
+RE-00087 (Kinderspital, CHF 15'000.00, Mahnung 2, Zahlfrist 15.07. abgelaufen) sowie RE-00098 und
+RE-00099 (Kinderspital, CHF 13'600.00 und CHF 3'680.00, Mahnung 1, Frist 12.08.). Der Token läuft
+erst am 13.12.2026 ab, die Session dahinter ist serverseitig beendet. Nur ein neuer Personal Access
+Token löst das; warten hilft nicht.
+
+### In den nächsten 7 Tagen
+
+**Heute 13:00 bis 14:00, Koordinationssitzung Gruner/Jans/KISPI (Teams).** Das ist die von RJ selbst
+angesetzte «strategische Absprache» der Abnahmetermine. Zwei Fragen liegen unbeantwortet beim
+Gremium: Sind alle Auflagen für bis und mit Baustart erledigt, und kann das Datum so den Behörden
+kommuniziert werden?
+
+**Vor der Sitzung zu sichten: das QS-Kurzprotokoll.** Es ist kein Textprotokoll, sondern der
+annotierte Brandschutzplan (6 Seiten, 22 Text- und 25 Freihand-Anmerkungen, acht markierte
+Polygonflächen). Maschinell lesbar sind nur Einzelnotizen wie «Bereich mit BS Decke», «Schiene
+Hilti, ca. 4x4cm» und «EI30 Trockenbauwand» sowie der Vorbehalt «Verortungen sind beispielhaft und
+nicht abschliessend». Die übrigen Anmerkungen liegen als Zeichnungsobjekte vor und sind im Original
+zu lesen.
+
+**Heute: Rückmeldung Ziegel zum Termin der feuerpolizeilichen Abnahme.** Er hat sie für heute
+zugesagt. Für die Terminlegung wichtig: Ziegel ist montags und freitags abwesend und in den Ferien
+vom 14.09. bis 05.10.2026.
+
+**Morgen, Freitag 28.08.: zwei eigene Zusagen auf denselben Tag.** Erstens das Ziel, alle Termine der
+behördlichen Abnahmen fixiert zu haben (KW48). Zweitens das bereinigte Terminprogramm an
+Röthlisberger/Schreinermanufaktur, zugesagt am 24.08. bis Ende KW35. Beide hängen an derselben Kette.
+
+**Montag 31.08.: Der Terminplan geht an die Bauherrschaft**, um 09:00 zusätzlich der
+Viertelstunden-Termin «Abgleich finaler Gesamtzeitplan» mit C. Schäfer, C. Allerkamp und
+A. Spahic (Teams).
+
+**Dienstag 01.09.: Meldung Baustart an die Feuerpolizei der Stadt Zürich** (KW36), vorbehältlich der
+Bestätigung durch das Gremium.
+
+**Mittwoch 02.09.: Planfreigabe Werkplan Therapieküche.** Die fachliche Rückmeldung von JANS steht
+weiterhin aus, und der Plan lässt die KWC-Armaturen offen.
+
+**Donnerstag 03.09.: nächste Koordinationssitzung** 13:00 bis 14:00 (Teams).
+
+Zum Horizont dahinter, weil er den Freitag erklärt: Fertigstellungsanzeige an das AfB in der KW48
+(23.11.), interne Brandschutz-Abnahme 20.11., und der Nutzer startet die Inbetriebnahme am 01.12.2026.
+
+### In Beobachtung
+
+Zulassungsaussage Estermann zu Leitungen in EI30-RF1-Wänden fehlt weiterhin; Estermann ist ab heute
+wieder auf der Baustelle. TeKoSi-Türfachplanung wartet auf die finale Freigabe der KISPI-Fachstellen.
+Türmatrix Umbau 1. OG: Die Zulieferungen Dritter (Bauphysik, MED-Planung) sind weiter der lange Pfad.
+AG-Gründung: Das UBS-Kapitaleinzahlungskonto ist seit dem 17.08. offen, die Einzahlung von
+CHF 50'000 ist die einzige Handlung, die den Schritt löst; in mail@ ist seither nichts Neues von der
+UBS eingegangen. Tailscale-Wächter ist auf keiner der beiden Stationen installiert (P1-Klasse, beide
+Tunnel derzeit oben). Apple Mail antwortet den vierten Tag nicht auf osascript (AppleEvent-Timeout
+-1712); gelesen wurde deshalb über Graph. **Abdeckungslücke, unverändert seit 25.08.:** Das Konto
+raphaeljans@outlook.com hat keinen Graph-Weg und ist damit ungelesen. Zu allen Punkten des Projekts
+2414 Thalwil (Begleitbeschrieb, SBB-Näherbaurechtsvereinbarung) konnte heute deshalb keine
+Gegenprüfung stattfinden.
+
+### Vorschlag Kalendereinträge
+
+Der ganztägige Eintrag vom 01.09. im Kalender rj@ heisst «Neues Ereignis» und trägt keinen Inhalt;
+sinnvoll wäre «Meldung Baustart Feuerpolizei Stadt Zürich (KW36)». Für morgen 28.08. wäre eine
+Erinnerung am Vormittag angebracht, die beide Zusagen desselben Tages zusammenfasst (Abnahmetermine
+fixieren, Terminprogramm an Röthlisberger). Nicht eingetragen, nur vorgeschlagen.
+
+### Token-Tempo
+
+Gestern 26.08.: MacBook Pro 152.4 Mio. Token (~125 USD), Mac Mini 44.8 Mio. (~21 USD), zusammen rund
+197.2 Mio. Token (~146 USD Äquivalent).
+
+### Registerpflege dieses Laufs (Journal)
+
+Sieben neue Zeilen im Aktiv-Block (28.08. Fixierung der Abnahmetermine, 31.08. Kommunikation an die
+Bauherrschaft, 01.09. Meldung Baustart Feuerpolizei, 27.08. erwartete Rückmeldung Ziegel, Auswertung
+des QS-Kurzprotokolls, 20.11. interne Abnahme, 23.11. Fertigstellungsanzeige). Zwei gehaltene
+beziehungsweise hinfällige Termine vom 26.08. ins Archiv verschoben, ein Nachtrag an der RHS-Zeile
+vom 21.08. Gemessener Diff auf `logbuch/fristen.md`: zehn Einfügungen, drei Löschungen, und die drei
+Löschungen sind genau die zwei verschobenen Zeilen und die eine ergänzte Zeile.
+
+Quellen dieses Laufs: Register und Journal, Konversations-Destillat 27.08. (im Fenster kein einziges
+Gespräch, beide Stationen nur Automatikläufe), bexio `--verzug`, rj@ und mail@ vollständig über Graph
+(Apple Mail antwortet nicht), M365-Kalender acht Tage, Sync- und Remote-Queues (beide leer). Das
+Kurzprotokoll der QS-Begehung wurde über Graph heruntergeladen und am Objekt geprüft. Nicht prüfbar:
+raphaeljans@outlook.com.
+
+---
+
 ## Hub-Chef 26.08.2026 (08:39 bis 09:0x) — Tagesbriefing GESENDET, Jegen-Plan abgelegt (A3), Graph-Ersatzweg fest eingebaut
 
 **Versandweg wieder Graph, vierter Tag Apple-Mail-Blockade.** Erreichbarkeit vor dem Lauf gemessen:
