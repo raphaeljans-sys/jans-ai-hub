@@ -418,7 +418,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   unbekanntes/generisches Postfach: triviale Service-/Koordinations-/Technik-Bitte→namenloses
   «Guten Tag»/«Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und
   Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren.
-  **Trägt die Sammeladresse einen Firmennamen und passt weder Person noch «Sehr geehrte Damen und
+  **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die
   triviale technische Service-Bitte an ein Sammelpostfach trägt NUR die Kurzbitte «Bitte
@@ -3306,3 +3306,23 @@ prüfen, ob `<X>` im Anzeigenamen an **erster** Position steht (dann Nachname) o
 Brandschutz-/Trockenbau-Fachbetrieb «Geschätzter <Vorname>», Du · Bauherren-Techniker «werter
 <Vorname>», Du · Werkplaner Türen «Guten Morgen Herr <Nachname>**,**» mit Komma, Sie ·
 Bauherren-Sekretariat «Geschätzte Frau <…>», Sie · Elfer-Verteiler «Geschätzte Alle», Du-Kollektiv.
+
+## Namensform: Transkription zurückdrehen, Auszeichnung übernehmen (Fidelity 260827)
+
+Zwei Belege, die sich scheinbar widersprechen und zusammen eine feinere Regel ergeben:
+
+- **Sörensen** (SRZ Schutzbauten): die Person signiert «Soerensen», Raphael schreibt konsequent
+  «Sörensen» — die **Umlaut-Transkription wird zurückgedreht**, sie ist ein technisches Artefakt
+  (Beleg oben, Batch 90).
+- **DAKAJ** (Sachbearbeiterin JOMOS, 25.06.2026 14:47): die Person signiert «Verona DAKAJ»,
+  Raphael redet sie als «Geschätzte Frau **DAKAJ**» an — die **Auszeichnung des Namens wird
+  übernommen**, sie ist eine Selbstbezeichnung.
+
+Die Blindfassung schrieb «Frau Dakaj» und verfehlte damit die Form bei richtiger Stufe. **Bewusst
+nicht in den Do/Don't-Block gehoben** (zwei Belege, ein Gegenfall, Riegel bei 22 B Reserve) —
+beim dritten Beleg neu vorlegen.
+
+Ebenfalls aus diesem Lauf: die **englische Anrede hängt am Kontakt, nicht an der Sprache**.
+«Hello <Vorname>,» ist für den 3D-Freelancer belegt (260806), «**Hi Hleb**» für den
+Webprogrammierer — zweifach, 16.02. und 27.06.2026, also vor und nach dem Hub. Im Block
+korrigiert; die Lehre steht in [[QUESTIONS]] 260827b #1.

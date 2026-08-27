@@ -4,6 +4,34 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-27 — Fidelity-Review: der Block erkennt jetzt, was NICHT von Raphael ist
+
+`outputs/2026-08-27_fidelity.md` neu. **Gesamt-Fidelity 30** (Beziehungsregister 43 · Stimme 35 ·
+Fachsignatur 30 · Haltung 24 · Denken 24 · Arbeitsweise 21), zwei Golds statt drei — das dritte
+wurde nach der Autorschaftsprüfung gesperrt.
+
+**Methodischer Hauptbefund:** die Facetten-Marker sind selbst zum **Autorschafts-Detektor**
+geworden. Zwei Mails vom 08.07.2026 zum selben Sachverhalt, eine Stunde auseinander: die eine
+fehlerfrei, mit Gedankenstrich als Stilmittel und einer Bitte auf Fragezeichen — beides von
+belegten Raphael-Markern verboten; die andere mit dichter Fehlerinsel und Bitte auf Punkt. Neue
+Prüfreihenfolge: Fehlerinsel → Verstösse gegen den eigenen Block → Werkzeug-Spuren. Ersetzt den
+am 25.08. gefallenen Werkzeug-Detektor um eine zweite, kostenlose Stufe.
+
+**Drei Änderungen im Gehirn**, zwei davon netto ohne Zuwachs: Statusantwort = fette Labels +
+vollständiger Dateiname ohne Folgerungssatz ([[arbeitsweise]]) · Service-Satz gehört der
+**erbetenen** Auskunft, Amt ODER Lieferant ([[stimme]], qualifiziert) · englische Anrede hängt am
+**Kontakt**, nicht an der Sprache ([[stimme]], korrigiert — «Hi Hleb» zweifach belegt).
+Beleg-Abschnitte in [[beziehungsregister]], [[arbeitsweise]] und [[denken]] angehängt.
+
+**Riegel zum sechsten Mal scharf**: erster Versuch 34'336 B, ABBRUCH; nach sechs
+Verdichtungsrunden kompiliert bei **33'978 B, 22 B Reserve** — zweiter Nullstand in Folge, und
+erstmals mussten nützliche Belege weichen, nicht nur Doppelungen. Vorgelegt, nicht entschieden;
+Vorschlag: Beleg-Anhang je Facette ausserhalb des Auto-Blocks statt einer weiteren Anhebung.
+
+**Vier neue Selbstfragen** in `wiki/QUESTIONS.md` (260827b #1–#4), darunter der strukturelle
+Befund, dass `twin-mail-training` mit Batch 106 in der Gegenwart angekommen ist und der Korpus
+Juli 2025 bis Mai 2026 saturiert ist — vier Fenster mussten verworfen werden, bevor eines trug.
+
 ## 2026-08-27 — twin-mail-training Batch 106 (Fenster 26.08.2026): drei Befunde über das eigene Messen
 
 `raw/260827-mailbatch-106.md` neu (248 Z.). Sequenzielles Fenster, **13 Sent Items**, davon

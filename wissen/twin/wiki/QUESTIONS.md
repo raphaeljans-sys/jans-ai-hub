@@ -4561,3 +4561,87 @@ nach `auto-verbesserungen` 260803).
 **Merksatz, dritter Beleg derselben Familie an einem Tag:** eine Zustandsaussage, die dreizehnmal
 abgeschrieben und nie gemessen wurde, wird durch Wiederholung nicht wahrer. Gleiche Familie wie
 Rule `auto-verbesserungen` 260730b/260807 — und wie die beiden Werkzeug-Befunde dieses Laufs.
+
+---
+
+## 260827b (Fidelity-Review 27.08.2026) — vier neue Fragen, davon eine an die Methode selbst
+
+**#1 — Englische Anrede: «Hi» oder «Hello»? Der Block hat den Zwilling in den Fehlgriff
+geführt.** · *Facette [[stimme]] / [[beziehungsregister]]* · Entscheid Raphael nicht nötig,
+Beleg genügt — hier nur zur Kenntnis dokumentiert.
+
+Der Block führte seit 260806 «**Englisch: «Hello <Vorname>,», nicht «Hi»**». Die Blindfassung
+folgte dieser Regel und schrieb «Hello Hleb,», das Gold schreibt «**Hi Hleb**». Zwei
+unabhängige Belege desselben Kontakts, **16.02.2026** und **27.06.2026** — also vor und nach dem
+Hub, mithin keine Claude-Kontamination. Der ursprüngliche 260806-Beleg stammt vom
+**3D-Freelancer** (Yorck), nicht vom Webprogrammierer. Die Regel war nie falsch, sie war zu
+weit: die englische Anrede hängt am **Kontakt**, nicht an der Sprache. Marker im Block
+entsprechend korrigiert, nicht gestrichen.
+
+**Der Nebenbefund ist der wichtigere:** dies ist der erste gemessene Fall, in dem eine
+**übergeneralisierte Blockregel den Zwilling aktiv vom Gold wegführt**. Bisher wurde Drift immer
+als «Marker fehlte» oder «Marker nicht angewandt» gebucht. Beim nächsten Übertragen eines
+Einzelbelegs in den Block darum den **Geltungsbereich mitschreiben** (Kontakt, Gattung, Register)
+— eine Regel ohne Geltungsbereich wird zur Regel für alles.
+
+**#2 — Trägt die erbetene Auskunft an einen Lieferanten den Service-Satz? (Nachtrag zur
+Gattungsregel)** · *Facette [[stimme]]* · Entscheid Raphael **nicht** nötig, zwei Belege.
+
+Der Block trennt seit 260807/260808: wer für sich selbst etwas erbittet, hält den Kanal offen;
+wer liefert oder meldet, hört nach dem letzten Sachsatz auf. Gold B (25.06.2026, Sachstand an die
+Sachbearbeiterin der Sprinklerfirma) **liefert** — und trägt trotzdem «Bei Fragen oder
+Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung.» Dieselbe Formel steht in der
+Anfrage-Mail desselben Vorgangs (03.06.2026 an den BU-Leiter). Die Blindfassung liess den Satz
+weg — **erstmals in dieser Richtung**; die letzten Läufe massen durchweg das Gegenteil (Satz
+gesetzt, wo keiner steht).
+
+Auflösung, im Block nachgezogen: nicht «Amt» ist das Kriterium, sondern die **erbetene**
+Auskunft. Wer eine Frage beantwortet, die ihm gestellt wurde, hält den Kanal offen — gleich ob
+Amt oder Lieferant. Wer ungefragt liefert oder meldet, nicht.
+
+**#3 — Wie erkennt der Harness ab jetzt seine eigenen Erzeugnisse? Der Block ist zum
+Autorschafts-Detektor geworden.** · *Methodenfrage, Hub-intern* · **Kein Raphael-Entscheid
+nötig, aber die wichtigste methodische Neuerung dieses Laufs.**
+
+Batch 105 (25.08.) hat den bisherigen Werkzeug-Detektor fallen sehen: Message-ID und
+OWA-Fingerabdruck trennen Raphaels eigene Sendungen nicht mehr von Hub-Erzeugnissen. Übrig blieb
+die **Fehlerinsel** — Tippfehler, Grossschreibungs-Slips, Mundart. Dieser Lauf hat einen zweiten,
+unabhängigen Detektor gemessen, und er kostet nichts:
+
+**Ein Hub-Erzeugnis verletzt belegte Raphael-Marker, ein Eigentext nicht.** Am Vormittag des
+08.07.2026 gingen zwei Mails zum **selben Sachverhalt** (Waschküche Albertstrasse 7, Elektro,
+Anschlüsse Waschmaschine/Tumbler) an zwei Empfänger: 08:55 an den Elektriker, 10:00 an den
+Sanitär. Die 10:00-Mail trägt «Sehe ich das **R**ichtig: … wurde keine expliziten Anschlüsse …
+**A**ngeboten?» und «Darf ich Dich **B**itten dies in das Angebot zu integrieren.» — Fehlerinsel
+dicht, Bitte auf **Punkt** (Marker 260820). Die 08:55-Mail ist über fünf Absätze fehlerfrei,
+trägt einen **Gedankenstrich als Stilmittel** (den die JANS-DNA ausdrücklich verbietet) und endet
+ihre Bitte auf einem **Fragezeichen** — genau der Marker, den 260820 zweifach als Raphael-Verbot
+belegt hat.
+
+Der Detektor ist damit **selbsttragend**: je genauer der Block Raphael beschreibt, desto
+zuverlässiger erkennt er, was nicht von Raphael ist. Praktische Prüfreihenfolge für den nächsten
+Lauf: (1) Fehlerinsel, (2) Marker-Verstösse gegen den eigenen Block, (3) Werkzeug-Spuren. Die
+Reihenfolge ist neu; bisher stand das Werkzeug zuoberst.
+
+**#4 — Der Korpus ist im Bereich Juli 2025 bis Mai 2026 saturiert. Woher kommt das Gold der
+nächsten Wochen?** · *Methodenfrage, Hub-intern* · **Vorgelegt, nicht selbst entschieden.**
+
+Dieser Lauf hat **vier** Fenster verworfen, bevor er ein brauchbares fand: 16.–20.02.2026
+(Batch 30/31), 27.–31.03.2026 (Batch 37/38, obwohl die Fenster-Tabelle dort eine Lücke zeigt),
+25.06.2026 (Auftragserteilung und Sörensen-Transmittal beide im Wiki) und der 09.07.2026
+(Strangschema, Bajrami, Lanz alle verbraucht). Die Phrasenprobe aus Empfehlung 2 des Vorlaufs hat
+in allen vier Fällen gegriffen und je zwei `grep` gekostet — sie ist ihr Geld wert und sollte
+Pflicht werden.
+
+Der Befund dahinter ist struktureller Art: **`twin-mail-training` ist mit Batch 106 in der
+Gegenwart angekommen** (Fenster 26.08.2026, also gestern). Damit konkurriert der Fidelity-Review
+täglich mit dem Mail-Training um dieselben frischen Sendungen, und die alten Fenster sind
+abgeerntet. Frei sind noch Reste in **Juni und Juli 2026** — genau dort, wo die Autorschaftsfrage
+am teuersten ist, weil der Hub bereits mitschreibt.
+
+Drei Wege, keiner davon selbst gewählt: (a) Fidelity-Review und Mail-Training auf getrennte
+Fenster verabreden (Training vorne in der Gegenwart, Review hinten in Juni/Juli); (b) den Review
+auf **Drafts** und Korrektur-Deltas umstellen, wo Raphaels Eingriff selbst das Lernsignal ist;
+(c) den Takt des Reviews strecken, weil frisches Gold knapper wird als die Läufe. Empfehlung
+des Laufs: **(a) sofort, (b) mittelfristig** — das Korrektur-Delta ist ohnehin die höherwertige
+Quelle, und es erschöpft sich nicht.

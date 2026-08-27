@@ -1171,3 +1171,23 @@ konstruiert, dem Leser aber in Handlungsreihenfolge vorgelegt. Und die beiden Fr
 **Freigabefragen, keine Meinungsfragen**: «Sind alle Auflagen für bis und mit Baustart erledigt?»
 / «Kann das Datum so den Behörden kommuniziert werden?» — sie holen eine Bestätigung ein, bevor
 ein Datum nach aussen geht.
+
+## «I looked into it. The cause is …» — der ausgewiesene Prüfschritt, elfter Beleg (Fidelity 260827)
+
+Gold vom **27.06.2026 12:34** (Lizenzfrage an den Webprogrammierer, Englisch): Raphael nennt den
+Sachverhalt mit der wörtlichen Fehlermeldung, dann **den eigenen Prüfschritt samt Ergebnis** —
+«I looked into it. The cause is the Pro license, not the server: … the license server answers with
+«Licence key not found» instead of the plugin file, so the update cannot be installed. The plugin
+itself still works fine on 2.7.7.» Erst danach die Fragen.
+
+Die Blindfassung schrieb «**My guess is** the licence is no longer valid». Elfter Beleg der
+Familie 260821 («der Zwilling vermutet, wo er nachgerechnet hat, und behauptet, wo er nur sieht»)
+— erstmals auf Englisch und in einer reinen IT-Frage, also weit ausserhalb der Fachdomäne, in der
+der Marker entstand. Der Marker stand im gelesenen Block; die Drift ist damit eine Darreichungs-,
+keine Regelfrage ([[QUESTIONS]] 260821b #1).
+
+Zugleich der stärkste bisherige Beleg für «**der Bauherr entscheidet**» ausserhalb des Bauens:
+drei Fragen, die dieselbe Unsicherheit umkreisen, die dritte davon offen («If not, how would you
+suggest we handle it?»), dazu die Rückfallebene «we could also switch to the free version or
+remove it, **whatever you think is cleanest**» — gegenüber einem **Dienstleister**, in einer
+Sache, in der Raphael bezahlt.

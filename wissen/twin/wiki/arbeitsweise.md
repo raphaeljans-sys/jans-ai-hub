@@ -147,6 +147,9 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   trennen;
   **Ablage-Verweise als Breadcrumb Zeile für Zeile** (Bibliothek → … → Zielordner), Link erst
   darunter unter «Hier der Link:»;
+  **die Antwort auf eine Statusfrage besteht aus fetten Labels + vollstaendigem DATEINAMEN und
+  KEINEM Folgerungssatz (260827)** — der Beleg zieht den Schluss; der Zwilling haengt reflexhaft
+  eine Handlungsaufforderung an und kassiert damit den offenen Raum;
   **der Eingabetermin des Angebots steht als Nachklapp UNTER dem Signaturblock (260826)**, der
   **Ausfuehrungs**termin oben unter «Rahmenbedingungen» — ueber dem Gruss das Bauteil, darunter
   das Verfahren; nie in den Fliesstext einruehren, wo die Frist eine Angabe unter zehn wird;
@@ -3535,3 +3538,22 @@ aber in falscher Schreibung** («Lgr» gegen das Gold «lgr»), und die Du-Gross
 selben Lauf korrigiert und mit Regressionsprobe nachgemessen. **Merksatz, verschärft: eine Null
 aus einem Messwerkzeug ist zuerst eine Aussage über das Muster — und eine Quote ohne ihre
 Grundgesamtheit ist überhaupt nicht lesbar.**
+
+## Die Statusantwort besteht aus Belegen, nicht aus Sätzen (Fidelity 260827)
+
+Gold vom **25.06.2026 14:47** (Antwort auf die Statusanfrage einer Sachbearbeiterin, «ist bereits
+eine Entscheidung getroffen?»): Raphael antwortet mit zwei fetten Labels und je einem
+**vollständigen Dateinamen** darunter — «Angebot JOMOS (CHF 26'389.40 inkl. MwST):» /
+`20260612 Angebot Planung + Kostenschätzung.pdf`, «Freigabe Angebot von Bauherrschaft:» /
+`260622_2619_PPTS_KISPI_Auftragserteilung_Sprinkleranlage_Ausführungstermin_Angebot.pdf`. Danach
+der Service-Satz und der Block. **Keine Folgerung, keine Terminbitte, kein «Sie haben den
+Auftrag».** Die beiden Belege nebeneinander sagen alles.
+
+Knappste Gestalt der **vierten Endform**: nicht einmal mehr unverbundene Sätze, nur noch Belege.
+Der Dateiname ist dabei Beleg und Ablageadresse zugleich und steht ungekürzt — Schwester des
+Markers «Belegnummern inline mit Form» in [[stimme]].
+
+**Vorrang vor «immer einen nächsten Schritt anbieten»:** wo die Belege den Schluss tragen, ist der
+nächste Schritt Sache des Empfängers. Die Blindfassung hängte «Wir bitten Sie, die Ausführung …
+einzuplanen und uns den Ausführungstermin mitzuteilen» an und kassierte damit den offenen Raum —
+dieselbe Bewegung wie beim Akzeptanzvorbehalt (260826 Befund 1). In den Block gehoben.

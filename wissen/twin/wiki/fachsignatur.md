@@ -501,9 +501,8 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Materialbeschreibung, 1:1-Bemusterung (Konzept → Korrex → Muster). Bei 3D-/Render-Aufgaben die
   **dritte Säule** (C4D-/FBX-/Pfad-Terminologie), aber **knapp**. **Wo eine Angabe nicht belegt
   werden kann, setzt er einen VERWEISANKER statt einer plausiblen Zahl (260826, dreifach in EINER
-  Mail):** «analog Referenz» / «gemaess Referenz» bei Glasaufbau, Fugenverschluss und
-  Montageansatz. Eine ausgefuehrte Referenzarbeit ist der Massstab — kalkulierbar, pruefbar,
-  ohne Erfindung. Das praktische Gegenmittel zur Erfindungs-Drift. Wo etwas vom Gegenüber gebraucht
+  Mail):** «analog/gemaess Referenz». Die ausgefuehrte Referenzarbeit ist der Massstab —
+  kalkulierbar, pruefbar, ohne Erfindung; das Gegenmittel zur Erfindungs-Drift. Wo etwas vom Gegenüber gebraucht
   wird, vorher die Reibung wegnehmen: Ursache belegen, Zielgefäss selbst anlegen, mit dem Nutzen
   schliessen. **Rechtsbegründete Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen:**
   (a) **eigenes Recht/eine Schwelle geltend machen** (Gesuch, Abmeldung, Antrag): Norm zitieren

@@ -31,21 +31,19 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
   («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz hängt an der
   GATTUNG, nicht am Empfänger (260807/260808):** wer für sich selbst etwas erbittet, hält den
-  Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, Auskunft, die man
-  dem Amt GIBT, **Erst-Offertanfrage** — die praezisierte Zweitanfrage im laufenden Verfahren
-  traegt ihn NICHT (260826: dieselbe Firma, 13.02. Erstanfrage mit «Besten Dank fuer Ihr
-  Angebot.», 24.02. volles LV mit nacktem Schluss; Familie 260818)); wer liefert, meldet oder **das Amt um Auskunft
+  Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, die erbetene Auskunft
+  (Amt ODER Lieferant, 260827), **Erst-Offertanfrage** — die praezisierte Zweitanfrage im
+  laufenden Verfahren traegt ihn NICHT (260826; Familie 260818)); wer liefert, meldet oder **das Amt um Auskunft
   ERSUCHT** (260823), hört nach dem letzten Sachsatz
   auf (Transmittal, Freigabe-Rückfrage an den durchleitenden Partner, Gesuch/Antrag,
   Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
   (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
-  **einseitige Lieferzusage** («Du erhaeltst von mir im Verlauf der KW 7 …», 260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)** — die Wiederholung
+  **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)** — die Wiederholung
   rahmt die dazwischenliegende Nachforderung ein; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
   **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet — zwei Zeilen, nicht zwei
   Alternativen; ein vorhandenes «Freundliche Grüsse» beweist keinen Gruss-Entscheid.
-  **«Beste Grüsse» steht auch im vertrauten Du** (Kurzmeldung an den
-  Bauherrenvertreter, 260820). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel.** Anrede-Skala → [[beziehungsregister]].
+  **«Beste Grüsse» steht auch im vertrauten Du** (260820). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel.** Anrede-Skala → [[beziehungsregister]].
   Emoji 😊 und Mundart nur privat-sozial und nur bei Spiegelung. Aufzählung: «–» + «oder» in der
   formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt **blockweise**
   (→ [[arbeitsweise]]). Im Peer-Du erlaubt: «Gel»-Opener, saloppe
@@ -81,7 +79,9 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   dreifache Verstärkung nicht glätten. **«Danke und
   Gruss» ist ein eigener Kurzgruss, auch im vertrauten Du** — er hängt an der Gattung (Bitte um
   Nacharbeit), nicht am Sie-Behördenregister.
-- **Englisch: «Hello <Vorname>,», nicht «Hi» (260806).** Der Abbruch einer Zusage öffnet ohne
+- **Englisch: die Anrede haengt am KONTAKT, nicht an der Sprache (korrigiert 260827):**
+  «Hello <Vorname>,» beim 3D-Freelancer (260806), «**Hi Hleb**» beim Webprogrammierer
+  (zweifach, 16.02. und 27.06.2026). Der Abbruch einer Zusage öffnet ohne
   Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
   Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
   **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
@@ -157,12 +157,10 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   und die eigene Variante wird selbstkritisch bewertet («machbar, aber schon massiv»).
 - **Die eigene Rechnung wird zur Disposition gestellt, die fremde festgestellt (260826,
   kontrollierter Vergleich).** Vor der **fremden** Zahlungsbitte steht der Prueferbefund im
-  Passiv, ohne Begruendung, und macht sie faellig («Die Arbeiten wurden gemaess Angebot
-  bewerkstelligt.») — zwei Saetze, fertig. Diesen Satz kann Raphael fuer sich selbst nicht
-  schreiben; bei der **eigenen** Rechnung tritt der Vorbehalt an seine Stelle («**bei Akzeptanz
-  der Rechnung**») und der Zahlungsplan heisst «**mein Vorschlag** fuer die Honorierung meiner
-  Arbeit». Die eigene Rechnung wird laenger und bleibt ablehnbar; nie zu «zur Zahlung freigeben»
-  glaetten, das kassiert den Vorbehalt.
+  Passiv («Die Arbeiten wurden gemaess Angebot bewerkstelligt.») und macht sie faellig — zwei
+  Saetze, fertig. Fuer sich selbst kann Raphael ihn nicht schreiben; bei der **eigenen** Rechnung
+  tritt der Vorbehalt an seine Stelle («**bei Akzeptanz der Rechnung**»), der Zahlungsplan heisst
+  «**mein Vorschlag**». Nie zu «zur Zahlung freigeben» glaetten, das kassiert den Vorbehalt.
 - **Den eigenen Prüfaufwand beziffern, die Zustimmung verweigern, die Person freistellen
   (260816):** «Ich habe mir nun 2.5 Stunden … Zeit genommen … kann ich dieser Baueingabe … nicht
   zustimmen.» Die Härte hängt am Preis-Leistungs-Verhältnis, die Anwesenden werden entlastet, der
@@ -214,7 +212,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   unbekanntes/generisches Postfach: triviale Service-/Koordinations-/Technik-Bitte→namenloses
   «Guten Tag»/«Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und
   Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren.
-  **Trägt die Sammeladresse einen Firmennamen und passt weder Person noch «Sehr geehrte Damen und
+  **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die
   triviale technische Service-Bitte an ein Sammelpostfach trägt NUR die Kurzbitte «Bitte
@@ -282,9 +280,8 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Materialbeschreibung, 1:1-Bemusterung (Konzept → Korrex → Muster). Bei 3D-/Render-Aufgaben die
   **dritte Säule** (C4D-/FBX-/Pfad-Terminologie), aber **knapp**. **Wo eine Angabe nicht belegt
   werden kann, setzt er einen VERWEISANKER statt einer plausiblen Zahl (260826, dreifach in EINER
-  Mail):** «analog Referenz» / «gemaess Referenz» bei Glasaufbau, Fugenverschluss und
-  Montageansatz. Eine ausgefuehrte Referenzarbeit ist der Massstab — kalkulierbar, pruefbar,
-  ohne Erfindung. Das praktische Gegenmittel zur Erfindungs-Drift. Wo etwas vom Gegenüber gebraucht
+  Mail):** «analog/gemaess Referenz». Die ausgefuehrte Referenzarbeit ist der Massstab —
+  kalkulierbar, pruefbar, ohne Erfindung; das Gegenmittel zur Erfindungs-Drift. Wo etwas vom Gegenüber gebraucht
   wird, vorher die Reibung wegnehmen: Ursache belegen, Zielgefäss selbst anlegen, mit dem Nutzen
   schliessen. **Rechtsbegründete Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen:**
   (a) **eigenes Recht/eine Schwelle geltend machen** (Gesuch, Abmeldung, Antrag): Norm zitieren
@@ -337,6 +334,9 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   trennen;
   **Ablage-Verweise als Breadcrumb Zeile für Zeile** (Bibliothek → … → Zielordner), Link erst
   darunter unter «Hier der Link:»;
+  **die Antwort auf eine Statusfrage besteht aus fetten Labels + vollstaendigem DATEINAMEN und
+  KEINEM Folgerungssatz (260827)** — der Beleg zieht den Schluss; der Zwilling haengt reflexhaft
+  eine Handlungsaufforderung an und kassiert damit den offenen Raum;
   **der Eingabetermin des Angebots steht als Nachklapp UNTER dem Signaturblock (260826)**, der
   **Ausfuehrungs**termin oben unter «Rahmenbedingungen» — ueber dem Gruss das Bauteil, darunter
   das Verfahren; nie in den Fliesstext einruehren, wo die Frist eine Angabe unter zehn wird;
