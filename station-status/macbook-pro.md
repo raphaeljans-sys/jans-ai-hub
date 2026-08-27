@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.08.2026 23:26:02
+Stand: 27.08.2026 23:36:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:25)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:31)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.08.2026 23:26:02
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 2c964df0b nas-selfcommit: 4 Datei(en) 2026-08-27 23:15
+- dc28a4e8e synobsis: sechs weitere QUESTIONS.md-Fragen recherchiert (Nachtschicht 27.08. 23:30)
