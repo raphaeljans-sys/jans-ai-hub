@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.08.2026 17:26:07
+Stand: 27.08.2026 17:36:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:26)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:28)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.08.2026 17:26:07
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- c7e2abb13 Synergie-Lauf 20 (27.08.2026): SYN-53 Anrede-Beleg nur im nicht importierten Block, SYN-54 Synthese-Artikel sammelt Vorbehalte bei gruenem Status, SYN-55 normen-referenz kennt den gemessenen dritten Status nicht
+- e25597a59 Synergie-Lauf 20 Nachlauf: echte Umlaute in den neu geschriebenen Textbloecken (Rule umlaute-konvention), Code-Spans und Bestand unberuehrt
