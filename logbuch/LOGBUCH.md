@@ -8883,3 +8883,23 @@ keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.
   eine ohne Treffer offen (DECARVALHO_BOTELHO). CHANGELOG-Eintrag gesetzt, `git diff --numstat`
   nativ geprueft (6/6 Zeilen additiv erweitert, keine Loeschung). Kein Fan-out, kein Versand,
   keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund 1.7 von 5 USD.
+
+## 27.08.2026
+
+- Nachtschicht (Mac Mini, 05:30, eigener Zyklus, Prioritaet 5): Prioritaeten 1-3 leer/nicht
+  umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 1+2 weiterhin vollstaendig
+  853/853 verarbeitet, `vectors.npz` unveraendert seit 24.08.; Fristen-Register fuehrt nur
+  bereits bekannte «Aktion Raphael»-Punkte ausserhalb eigener Handlungsmacht). Prioritaet 4
+  durchgeprueft: `energie` (letzter Lauf 26.08. 22:48, Run 164), `normen` (27.08. 01:42) und
+  `twin` (27.08. 03:51) je an eigenem aktivem Taktgeber, `baurecht`/`planungsgrundlagen`/
+  `wettbewerbs-dna` per Vorgabe ausgeschlossen, `bauprodukte`/`grobkosten`/`projekt-lessons`
+  weiterhin erledigt/ausgesetzt — kein freies Ziel. Auf Prioritaet 5 ausgewichen: sechs weitere
+  offene Identitaets-/Sachfragen aus `wissen/architekten-synobsis/wiki/QUESTIONS.md` per
+  WebSearch geklaert (direkt im Hauptkontext, kein Fan-out). Zwei mit belastbarem Ergebnis
+  bestaetigt (Chamberlin als Chamberlin, Powell and Bon; FHV als Fruehauf, Henry & Viladoms),
+  zwei mit plausiblem, unbestaetigtem Tippfehler-Kandidaten (Balisat → vermutlich Balissat
+  Kaçani; Handa_Heike_Prof → vermutlich Heike Hanada), zwei ohne Treffer offen (Cheung_Simon,
+  E_Architekten). CHANGELOG-Eintrag gesetzt, `git diff --numstat` nativ ueber ssh geprueft
+  (CHANGELOG +22/-0, QUESTIONS.md 6/6 Zeilen rein additiv erweitert, keine Loeschung), Commit
+  via `nas-commit-now.sh` ausgeloest und bestaetigt. Kein Fan-out, kein Versand, keine Buchung,
+  keine destruktive Aktion. Budget dieses Zyklus: rund 2.6 von 5 USD.
