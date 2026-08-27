@@ -2,6 +2,28 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-27 — Wissens-Chef Run 45: ein abgelaufenes Formulardatum und die fehlende Rückkante zum Baurecht
+
+- **[inhalt]** **`wiki/energie-energienachweis-zh-formulare.md` (+11/−0, rein additiv):** Die
+  Quellenangabe zu **EN-104** führte «gültig bis 31.12.2024». Das ist der Stempel des lokal
+  abgelegten Exemplars; das nationale Formular wurde durch die EnDK-Sammel-Neustempelung vom
+  **28.11.2025** auf **31.12.2026** verlängert, bei unveränderter Sachversion Juni 2019 — direkt an
+  der EnDK-Plattform nachgemessen (`wissen/energie/destillate/enfk-nachweisformulare-gueltigkeit-2026.md`,
+  energie Run 165 vom 27.08.2026). Diese KB ist laut Führungsmatrix für die Formularseite führend,
+  hatte den Punkt aber nicht nachgezogen; EN-104 fehlte auch im eigenen Abschnitt «Datenstand / offen»,
+  wo EN-105 mit derselben Kante bereits stand. Beides ergänzt.
+- **Der Fehler wirkt ausserhalb ZH, nicht in ZH:** für ein Zürcher Gesuch gilt ohnehin EVEN; der im
+  selben Abschnitt zitierte JANS-Realbeleg ist **Einsiedeln SZ**, und genau dort läuft das nationale
+  Formular bis Ende 2026 weiter. Der zweite Halbsatz «→ ab 2026 EN-104-ZH/EVEN» bleibt richtig.
+- **[link]** **`wiki/kartenportale-baulinien-abstandslinien-zh.md` (+9/−1):** Querbezug-Block gesetzt
+  und `[[baulinien-und-abstandslinien]]` ins Frontmatter aufgenommen (die eine Ersetzung ist die
+  erweiterte `links:`-Zeile). Der Geodatum-Artikel trug **in keiner Richtung** einen Rückverweis in
+  die KB `baurecht`, obwohl der dortige Rechtsartikel die materielle Würdigung führt (Bauverbot bis
+  zur Linie, §§ 96-101 PBG, § 67, § 66, § 220 PBG). Zwei indirekte Brücken über Schwesterartikel
+  bestanden; das direkte Artikelpaar war unverbunden.
+
+Beleg: `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md`.
+
 ## 2026-08-25 — Wissens-Chef Run 43: die RPV-Schwellen und fünf Frontmatter, die durch die eigene Aufsicht verrotteten
 
 - **`wiki/recht-norm-rechtsprechung-vg-zh.md`, nach Z. 200 (+16/−0):** Der Abschnitt «Art. 24c RPG»

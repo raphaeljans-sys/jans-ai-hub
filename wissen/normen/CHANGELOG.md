@@ -1,3 +1,29 @@
+## 2026-08-27 (Wissens-Chef Run 45) — die aufgetrennte SIA-102-Fundstelle stand 280 Zeilen tiefer unverändert weiter
+
+Eingriff in `wiki/synthese-sia-vkf-fachskills.md`, Z. 457 (1/1 — eine gewollte Zeilenersetzung
+innerhalb der Tabellenzeile, kein Bestandsverlust).
+
+Run 63 hat am selben Tag in Tabelle 2.3 die verschmolzene Fundstelle «3.3.3-3.3.5» aufgetrennt und im
+CHANGELOG festgehalten, dieser Artikel sei «der zentrale Weiterverteiler» und verdiene «eine eigene
+Durchsicht». Die Durchsicht endete vor Zeile 457: dort trug die Zeile «Wo Kostenschätzung nicht
+Grundleistung ist» dieselbe Sammelangabe unverändert weiter — im Abschnitt für den Skill
+`kostenschaetzung`.
+
+Präzisiert auf **Ziff. 4.21 / 3.3.2** (keine Grundleistungen in Phase 2) **/ 3.3.4** (besonders zu
+vereinbarende Leistungen), mit ⚠-Vermerk, dass der **phasenunabhängige** Sonderhonorar-Anspruch nach
+**Ziff. 3.3.5** nicht hierher gehört, sondern in Tabelle 2.3 steht und auch mitten in den Phasen 3
+bis 5 gilt. Die alte Angabe war nicht durchweg falsch, sondern unpräzise verschmolzen (3.3.3
+definiert die Grundleistungen, 3.3.4 die besonders zu vereinbarenden) — deshalb präzisiert statt
+ersetzt.
+
+**Der Artikel trägt damit vier inline gesetzte Vorbehalte aus vier unabhängigen Läufen** (Z. 270
+SYN-41 · Z. 89 Run 44 · Z. 176/177 Run 63 · Z. 457 dieser Lauf) und im Frontmatter weiterhin
+`status: established` / `last_updated: 2026-07-17`. Der Statusentscheid gehört dieser KB; er ist als
+**N63-3** in `wiki/QUESTIONS.md` registriert (Synergie-Lauf 20, 27.08.2026) und wird hier nicht
+vorweggenommen.
+
+Beleg: `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md`.
+
 ## 2026-08-27 (Normen-Nacht Run 63) — Abdeckungsrunde auf SIA 102:2020; N62-3 beantwortet
 
 Zweite Anwendung der Abdeckungsrichtung auf ein langjährig `established`-Destillat, plus die

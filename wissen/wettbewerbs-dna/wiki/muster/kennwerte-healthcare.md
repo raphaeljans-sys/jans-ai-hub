@@ -75,6 +75,8 @@ struktureller Befund über alle vier Extraktions-Shards hinweg, keine Lücke die
   (ca. 50'000 m², S. 8) ist eine Soll-Vorgabe der Ausschreibung.
 - **Kosten je Bett oder je Pflegeplatz** publiziert keiner der 11 Berichte.
 
+⚠ **Healthcare-Präzisierung (27.08.2026, Wissens-Chef Run 45):** Für **Healthcare** führt `wissen/grobkosten/` ausdrücklich **nicht** — dort gilt `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (826–1'420 CHF/m³ GV, Median ~1'100, Bezugsgrösse **BKP 2 Gebäude**, nicht direkt mit BKP-1-5-Werten vergleichbar; oberer Endpunkt mit Vorbehalt). Der Satz oben ist die KB-weite Standardformel, die für Schulbau und Wohnungsbau richtig ist und nur hier fehlgeht. Führungsmatrix: `wissen/koordination/QUERBEZUEGE.md`.
+
 **Konsequenz:** Für CHF/m³ bleibt die KB `wissen/grobkosten/` die führende Quelle. Dieser
 Benchmark taugt **nicht** zur Kostenschätzung und **nicht** zur Volumenkalibrierung. Er
 liefert das, was in Healthcare-Juryberichten tatsächlich belegbar ist: **Programm-Mengengerüst
@@ -363,6 +365,8 @@ methodisch gemischt: Bauherren-Kostenziel (SKP 1–9 inkl. Honorare und MwSt.) g
 Volumen der **eigenen, im 2. Rundgang ausgeschiedenen** Abgabe. Sie sind der einzige
 CHF/m³-Datenpunkt der ganzen Sammlung und trotzdem **nicht benchmarkfähig** — für CHF/m³
 gilt weiterhin `wissen/grobkosten/`.
+
+⚠ **Healthcare-Präzisierung (27.08.2026, Wissens-Chef Run 45):** Für **Healthcare** führt `wissen/grobkosten/` ausdrücklich **nicht** — dort gilt `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (826–1'420 CHF/m³ GV, Median ~1'100, Bezugsgrösse **BKP 2 Gebäude**, nicht direkt mit BKP-1-5-Werten vergleichbar; oberer Endpunkt mit Vorbehalt). Der Satz oben ist die KB-weite Standardformel, die für Schulbau und Wohnungsbau richtig ist und nur hier fehlgeht. Führungsmatrix: `wissen/koordination/QUERBEZUEGE.md`.
 
 **Nicht ableitbar und bewusst nicht gerechnet:** Adliswil (CHF 73 Mio. für 136 Pflegeplätze
 *und* 60 Alterswohnungen) und Thurgauerstrasse (CHF 113 Mio. für 96 GFA-Plätze *und* rund
@@ -688,6 +692,9 @@ Healthcare ist die Mengenachse des Raumprogramms hart, die Flächenachse weich.*
 - **`kosten_referenz.chf_m3_gv_band`** — bewusst weglassen. Der einzige CHF/m³-Wert der
   Sammlung (rund 916 CHF/m³, 2101) mischt Bauherren-Soll mit dem Ist-Volumen einer
   ausgeschiedenen eigenen Abgabe. Führend bleibt `wissen/grobkosten/`.
+  ⚠ Für **Healthcare** führt `wissen/grobkosten/` ausdrücklich **nicht** — dort gilt
+  `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (826–1'420 CHF/m³ GV, Median ~1'100,
+  Bezugsgrösse **BKP 2 Gebäude**). Nachtrag Wissens-Chef Run 45, 27.08.2026.
 - **`kosten_referenz.chf_m2_gf`** — dito (rund 2'930 CHF/m² GF, 2101, gleicher Mangel).
 - **`kosten_referenz.chf_je_bett` / `chf_je_pflegeplatz`** — die beiden abgeleiteten Werte
   (1.2 Mio. je Akutbett aus KSA; 462'500 je Demenz-Pflegeplatz aus Bombach, Preisstand

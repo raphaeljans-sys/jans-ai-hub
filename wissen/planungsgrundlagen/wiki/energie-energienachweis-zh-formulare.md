@@ -97,6 +97,15 @@ Quelle: **Formular EN-104** (EnDK, Nr. 403-EN-104-001-ger, Version Juni 2019, g�
 EGRID CH527708492462, Abbruch & Neubau EFH** — EBF neu 320 m² → notwendige Leistung **3.2 kW**,
 gedeckt mit 22 × PREFA-Solardachplatte (146 W) = 3.2 kW.
 
+⚠ **Gültigkeits-Nachtrag (27.08.2026, Wissens-Chef Run 45):** Die oben genannte Gültigkeit
+«bis 31.12.2024» ist der Stempel des lokal abgelegten Exemplars und damit ein überholter
+Zwischenstand. Das nationale EN-104 wurde durch die EnDK-Sammel-Neustempelung vom **28.11.2025**
+auf **gültig bis 31.12.2026** verlängert, bei **unveränderter Sachversion Juni 2019** — direkt an
+der EnDK-Plattform verifiziert (`wissen/energie/destillate/enfk-nachweisformulare-gueltigkeit-2026.md`,
+[[enfk-nachweisformulare-gueltigkeit-2026]], energie Run 165). Massgeblich ist die Kante
+**ausserhalb des Kantons Zürich** — genau dort liegt der oben zitierte Realbeleg (Einsiedeln SZ);
+für ein ZH-Gesuch gilt ohnehin EVEN. Der zweite Halbsatz «→ ab 2026 EN-104-ZH/EVEN» bleibt richtig.
+
 - **Bemessungsformel:** **Notwendige Leistung = EBF neu × 10 W/m²**, gedeckelt auf **Maximum
   30 kW**. (Beispiel: 320 m² × 10 W/m² = 3'200 W = 3.2 kW.)
 - **Flächenbedarf je kW (Modul-Annahme im Formular):** **mono-/polykristallin 8 m²/kW** ·
@@ -229,6 +238,8 @@ erfasst — offener Punkt für einen künftigen Recht/Norm-Lauf.
   EVEN. Vor jeder Einreichung die in EVEN hinterlegte Version verwenden.
 - ⚠ EN-105 (EnDK Aug 2017) gültig bis 31.12.2026 — läuft Jahresende aus; EnDK-Nachfolgeversion
   zum Jahreswechsel prüfen (`endk.ch`).
+- ⚠ **EN-104** (EnDK Juni 2019) gültig bis **31.12.2026** (neu gestempelt 28.11.2025) — wie
+  EN-105 zum Jahreswechsel 2026/27 nachprüfen. Nachtrag Wissens-Chef Run 45, 27.08.2026.
 - ⚠ **MuKEn 2025:** von der **EnDK-Plenarversammlung am 29.08.2025** verabschiedet (Umsetzungs-
   horizont **bis 2030**, Basismodul materiell unverändert zu übernehmen). Konkrete Neubau-
   Neuerungen (belegt energiehub-gebäude.ch, 04.07.2026): **Wärmebedarf vollständig erneuerbar/

@@ -10,7 +10,7 @@ sources:
   - Senkrechter-Abstand-Messung (K5-Rest) validiert 2026-07-08, Zweitmethoden-Gegenrechnung Seuzach 29.8 m
   - proj-Layer-Namensschema per GetCapabilities verifiziert + Live-Benchmark Hardackerstrasse 2 Kloten
     (Kat. 3061, EGRID CH670577750811) validiert 2026-07-13 (Training Run 19)
-links: [[kartenportale-zonenplan-zh]] [[kartenportale-bund-geodaten]] [[kartenportale-oereb-egrid-bezug]] [[kartenportale-geoportale-uebersicht]] [[kartenportale-grundlagen-checkliste-neue-parzelle]]
+links: [[kartenportale-zonenplan-zh]] [[kartenportale-bund-geodaten]] [[kartenportale-oereb-egrid-bezug]] [[kartenportale-geoportale-uebersicht]] [[kartenportale-grundlagen-checkliste-neue-parzelle]] [[baulinien-und-abstandslinien]]
 ---
 
 # Baulinien & Abstandslinien Kt. ZH — login-frei
@@ -21,6 +21,14 @@ Vektor** — über denselben **ZH-OGD-WFS** `maps.zh.ch/wfs/OGDZHWFS`, der schon
 ([[kartenportale-zonenplan-zh]]) liefert. Das ist die Datengrundlage, die der Agent
 `baulinien-analyst` braucht, um das **öffentlich-rechtliche Baufeld** zu bestimmen (Skill
 `machbarkeit`).
+
+> **Querbezug — was dieser Artikel NICHT führt (Nachtrag 27.08.2026, Wissens-Chef Run 45).**
+> Dieser Artikel ist der **Geodatum- und Beschaffungs-Wegweiser**: WFS-Endpunkt, Layer-Namensschema,
+> ±150-m-Fenster, senkrechte Abstandsmessung. Die **materielle Würdigung** der Linien — Bauverbot bis
+> zur Linie, §§ 96-101 PBG, Gewässerabstandslinie § 67, Waldabstandslinie § 66, Ausnahmebewilligung
+> § 220 PBG — trägt der führende Rechtsartikel `wissen/baurecht/wiki/baulinien-und-abstandslinien.md`
+> ([[baulinien-und-abstandslinien]]). Bei Abweichung gilt der `baurecht`-Fachartikel; hier wird kein
+> Abstands- oder Zonenrecht fortgeschrieben (Führungsmatrix `wissen/koordination/QUERBEZUEGE.md`).
 
 > Warum nicht aus dem OEREB-PDF? Der PDF nennt die Linien nur als Thema/Verweis. Der OGD-WFS
 > liefert die **Geometrie + Typ + Zweck + Rechtsstatus** strukturiert — man kann den Abstand zur

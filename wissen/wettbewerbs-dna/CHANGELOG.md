@@ -1,5 +1,28 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-08-27 — Wissens-Chef Run 45: der Healthcare-Fehlzeiger auf `grobkosten`, dreimal in einem Artikel
+
+- **[inhalt]** **`wiki/muster/kennwerte-healthcare.md` (+7/−0, rein additiv):** Der Artikel wies für
+  CHF/m³ dreimal (Z. 78, Z. 365, Z. 690) die KB `wissen/grobkosten/` als führende Quelle aus. Für
+  **Healthcare** führt `grobkosten` ausdrücklich **nicht** — führend ist
+  `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (826–1'420 CHF/m³ GV, Median ~1'100,
+  Bezugsgrösse **BKP 2 Gebäude**), so die Führungsmatrix in `wissen/koordination/QUERBEZUEGE.md` und
+  der Kopfblock von `grobkosten/wiki/kennwerte.md` Z. 21-24.
+- **Es ist ein Formel-Übertrag, kein Fachdissens:** derselbe Satz steht wortgleich in den
+  Schwesterartikeln Schulbau und Wohnungsbau, wo er **richtig** ist. Deshalb additiv ergänzt statt
+  ersetzt, und abschnittsweise am Anker editiert (Rule `auto-verbesserungen` 260811), damit die
+  richtigen Instanzen unberührt bleiben.
+- **Aussenwirkung gering, vom Refuter belegt:** wer dem Fehlzeiger folgt, landet in `grobkosten` auf
+  einem korrekt beschilderten Wegweiser, der Healthcare ausdrücklich ausschliesst und weiterleitet.
+  Real ist ein Umweg und ein Wortlaut-Widerspruch in einem `established`-Artikel. Der Bezugsgrössen-
+  Vorbehalt BKP 2 gegen BKP 1-5 wandert mit dem neuen Zeiger mit.
+- **Drei Reparaturläufe hatten daneben getroffen:** Run 16 (26.07.) korrigierte den JSON, Run 17/27
+  (27.07./06.08.) den `grobkosten`-Kopfblock, Run 35 (17.08.) den Schwesterartikel
+  `jury-argumente-healthcare.md` — der Quellartikel blieb jedes Mal unberührt (letzte Änderung
+  25.07.2026, `1725cbdc0`).
+
+Beleg: `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md`.
+
 ## 2026-08-24 — Kante zur Energie-Betrachtung gesetzt (Entwertungs-Sweep, Cross-KB)
 
 - **[inhalt]** **`wiki/teilnahmen/2408-biwak-grassen.md`:** Kante nach `wissen/energie` und

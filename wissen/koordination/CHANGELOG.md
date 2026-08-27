@@ -2,6 +2,44 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-27 (Run 45) — vier Befunde, vier bestätigt, keiner ungeschoren: die Refuter-Stufe hat diesmal jeden korrigiert statt einen gekippt
+
+**Zuschnitt:** 6 Melder (`model: sonnet`) + 4 Refuter (Hauptmodell) = 10 Agenten, 1'800'065 Token,
+163 Werkzeugaufrufe, 6,7 Min, 0 Fehler. Delta 115 Commits / 24,0 h. Report:
+`outputs/2026-08-27_wissens-chef-run45.md`.
+
+- **`wettbewerbs-dna/wiki/muster/kennwerte-healthcare.md` (+7/−0)** — wies an **drei** Stellen
+  `grobkosten` als führende CHF/m³-Quelle aus, in einem durchgehend **Healthcare**-Artikel. Dort
+  führt `grobkosten` ausdrücklich nicht (führend: `immobilienbewertung/wiki/realwert-sachwert`,
+  826–1'420 CHF/m³ GV, **BKP 2**). Formel-Übertrag aus den Schwesterartikeln Schulbau/Wohnungsbau, wo
+  derselbe Satz **richtig** ist — deshalb additiv am Anker ergänzt, nie global ersetzt. Drei
+  Reparaturläufe (Run 16, 17/27, 35) hatten den Quellartikel jedes Mal verfehlt; er kam in
+  `QUERBEZUEGE.md` null-mal vor. Matrixzeile ergänzt.
+- **`planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md` (+11/−0)** — EN-104 als «gültig
+  bis 31.12.2024» geführt; tatsächlich per EnDK-Sammel-Neustempelung 28.11.2025 auf **31.12.2026**
+  verlängert (energie Run 165, am Original gemessen). Wirkt **ausserhalb ZH** — der im selben
+  Abschnitt zitierte Realbeleg ist Einsiedeln SZ. EN-104 fehlte zudem im eigenen Abschnitt
+  «Datenstand / offen», wo EN-105 mit derselben Kante bereits stand.
+- **`normen/wiki/synthese-sia-vkf-fachskills.md` (1/1)** — die von Run 63 am selben Tag aufgetrennte
+  SIA-102-Fundstelle «3.3.3-3.3.5» stand 280 Zeilen tiefer unverändert weiter. Präzisiert auf
+  «4.21 / 3.3.2 / 3.3.4» mit Vermerk, dass Ziff. 3.3.5 phasenunabhängig ist. **Vierter inline-Vorbehalt
+  aus vier Läufen bei `status: established`** — Statusentscheid gehört der KB (N63-3).
+- **`planungsgrundlagen/wiki/kartenportale-baulinien-abstandslinien-zh.md` (+9/−1)** — Rechtsartikel
+  und Geodatum-Artikel zu denselben Linien kannten einander in keiner Richtung. Die vollständig
+  fehlende Richtung gesetzt; die Gegenrichtung bleibt als Entscheid der KB-Führung offen.
+- **2 Nullbefunde gemessen** (energie ↔ normen Fenster/Uf · auflagebereinigung ↔ projekt-lessons ↔
+  normen superseded-Zeiger), **1 Nebenfund widerlegt**: der «fehlende» Abnehmer-Vermerk in
+  `jury-argumente-healthcare.md` steht im Frontmatter Z. 21-22 — gesucht worden war mit den falschen
+  Begriffen. Zweiter Beleg an zwei Tagen für: ein leeres Suchergebnis ist zuerst eine Aussage über das
+  Werkzeug (Rule `auto-verbesserungen` 260730b/260807).
+- **Werkzeug-Beobachtung:** `datenstand-waechter.py` erstmals hub-weit gefahren — 420 Kandidaten, 205
+  der Klasse «CHF ohne Jahreszahl», davon 48 in `twin`, wo CHF-Beträge **Zitatbelege aus Mails** sind
+  und kein `datenstand` tragen können. Kalibrierungsgrenze, kein Mangel. `wiki-konsistenz.sh`
+  unverändert 42 bekannte Fehlalarme.
+- **Keine offenen Entscheide für Raphael.** Drei Punkte liegen bei den KBs (normen: Statusentscheid ·
+  wettbewerbs-dna: Healthcare-Ausnahme im Muster-Template · baurecht/planungsgrundlagen: Gegenrichtung
+  und benannte Artikelzuordnung in der Matrix).
+
 ## 2026-08-27 — Synergie-Lauf 20: drei Befunde, und eine Rückkante, die zum ersten Mal funktioniert hat
 
 Tagestakt, Delta-Basis 26.08.2026 17:10, Fenster 24,0 h, **111 Commits**, HEAD `0ac25fdad`.

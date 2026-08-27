@@ -25,7 +25,7 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Dachbegruenung/Gruendach: **Substrat-/Qualitaetsstandard, bauphysikalische Kennwerte, PV-Kombination** (Schichtstaerke, Wasserrueckhalt, λ-Werte, Panelabstand, Bautenschutzmatte) | **energie** (`dachbegruenung-gruendach`) | planungsgrundlagen verweist; `bauprodukte`/`normen` fuehren die Norm-Fundstellen (SIA 271:2007 Abdichtung, SIA 312:2013 Begruenung — Cross-KB-Pruefung Run 25) — NEU Run 33. Dachbegruenung war damit dreimal Gegenstand einer Cross-KB-Pruefung (Run 22, 25, 33), ohne je eine Matrixzeile zu haben; der strukturgleiche Fall Regenwasser/Schwammstadt hat seine seit Run 16 |
 | Referenz-Architekten/-Projekte + Raumtypologien/Parti (wer/was liegt in der Bibliothek) | **architekten-synobsis** | entwurfs-referenzen (verweist per Katalog/Slug) |
 | Entwurfs-Kennwerte je Bauaufgabe (HNF/GF, Programm, Entwurfsregeln, Parameter-Sets) | **entwurfs-referenzen** | architekten-synobsis (nennt die Abnehmer-KB) |
-| Healthcare-Kostenkennwerte CHF/m3 GV + CHF je Pflegeplatz (belegte Realwerte) | **immobilienbewertung** (`realwert-sachwert`) | entwurfs-referenzen, machbarkeit, healthcare-wirtschaftlichkeit — **grobkosten fuehrt Healthcare NICHT** (untersagt seine m3-Werte dafuer ausdruecklich) |
+| Healthcare-Kostenkennwerte CHF/m3 GV + CHF je Pflegeplatz (belegte Realwerte) | **immobilienbewertung** (`realwert-sachwert`) | entwurfs-referenzen, machbarkeit, healthcare-wirtschaftlichkeit, **wettbewerbs-dna** (`wiki/muster/kennwerte-healthcare` — NEU Run 45, 27.08.2026: fuehrte dreimal `grobkosten` als fuehrende CHF/m3-Quelle, additiv praezisiert) — **grobkosten fuehrt Healthcare NICHT** (untersagt seine m3-Werte dafuer ausdruecklich) |
 | Kantonaler Energie-Erlassstand ZH (EnerG LS 730.1, BBV I §§ 47-48c) — Wortlaut, §§-Nummern, Fassungsstand/Nachtrag | **baurecht** (`raw/260712_amtlich_zh_energ.md`, `raw/260607_amtlich_zh_bbv1.md`) | energie + planungsgrundlagen (zitieren die raw-Dateien, schreiben den Wortlaut nicht fort) — NEU Run 16 |
 | Grossverbraucherartikel/Zielvereinbarung — Vollzugswege (UZV/KZV/EVA), Behoerdenpraxis AWEL/AfU, Schwellen-Transfer auf Bauaufgaben, SZ-Energierecht (kEnG/kEnV) | **energie** (`grossverbraucherartikel-zielvereinbarung-zh-sz`) | planungsgrundlagen (Formularseite EN-141/BO), baurecht (Erlasswortlaut) — NEU Run 16 |
 | Produkt-/Systemwissen nach BKP (Bauteilaufbauten, Hersteller-/Systemtypen, Verarbeitungs- und Bemusterungspraxis, historische Angebots-/Preisstände als Zeitdokument) | **bauprodukte** | normen (Norm-Fundstellen), grobkosten/immobilienbewertung (Kennwerte), projekt-lessons (Einzelfall) — NEU Run 19 (Erst-Pruefung der KB) |
@@ -173,6 +173,107 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **U-Wert-Rechenwege und Bauteilaufbauten aus Fremd-/KI-Dokumenten** (Pruefung, Methodenfehler, Warnkarten) | **energie** (`destillate/ki-generierte-fachdokumente-referenzablage`, `wiki/u-werte-grenzwerte-ch` §«vier Griffe», FAQ F257) | `planungsgrundlagen` (`energie-uebersicht`) fuehrte den Fall Grassen-Biwak bis Run 41 als **Benchmark** und traegt seit 24.08.2026 den Ueberholt-Vermerk. **Merksatz aus dem Fall:** ein plausibles Ergebnis ist kein Beleg fuer eine richtige Rechnung — drei Methodenfehler hoben sich fast auf — NEU Run 41 |
 
 ## Gepruefte Paare
+
+### wettbewerbs-dna ↔ grobkosten ↔ immobilienbewertung (Healthcare-CHF/m³-Fuehrung) — geprueft 2026-08-27 (Run 45), BESTAETIGT
+
+- **Befund:** `wissen/wettbewerbs-dna/wiki/muster/kennwerte-healthcare.md` weist an **drei** Stellen
+  (Z. 78 «Konsequenz: Fuer CHF/m³ bleibt die KB `wissen/grobkosten/` die fuehrende Quelle», Z. 365,
+  Z. 690) `grobkosten` als fuehrende CHF/m³-Quelle aus. Die Matrixzeile oben und der Kopfblock von
+  `grobkosten/wiki/kennwerte.md` Z. 21-24 sagen das Gegenteil: fuer **Healthcare** fuehrt `grobkosten`
+  ausdruecklich **nicht**, fuehrend ist `immobilienbewertung/wiki/realwert-sachwert` (826–1'420
+  CHF/m³ GV, Median ~1'100, **BKP 2**).
+- **Refuter: bestaetigt, in der Sache groesser, in der Wirkung kleiner.** Groesser, weil der Melder
+  nur zwei der drei Fundstellen sah — die dritte (Z. 365) steht ausgerechnet neben der Tabelle der
+  abgeleiteten CHF/m³- und CHF-je-Pflegeplatz-Werte. Kleiner, weil `grobkosten` **keine Sackgasse**
+  ist: der Kopfblock dort leitet mit Bezugsgroessen-Vorbehalt korrekt weiter. Real ist ein Umweg mit
+  Fehlleitungsrisiko und ein Wortlaut-Widerspruch in einem `established`-Artikel, keine Frankenwirkung.
+- **Die Natur des Fehlers bestimmt die Loesung:** der Satz ist eine KB-weite Standardformel, die in
+  den Schwesterartikeln **Schulbau** (B6, 20.07.) und **Wohnungsbau** (B6, 27.07.) sachlich **richtig**
+  ist. Nur die Healthcare-Instanz geht fehl. Deshalb additiv ergaenzt und abschnittsweise am Anker
+  editiert, nie global ersetzt (Rule `auto-verbesserungen` 260811).
+- **Warum es so lange stand:** drei Reparaturlaeufe trafen daneben — Run 16 (26.07.) den JSON,
+  Run 17/27 (27.07./06.08.) den `grobkosten`-Kopfblock, Run 35 (17.08.) den Schwesterartikel
+  `jury-argumente-healthcare.md`. Der Quellartikel blieb unberuehrt (letzte Aenderung 25.07.2026).
+  Er kam in dieser Datei **null-mal** vor; ab heute ist er in der Matrix registriert.
+- **Aktion:** +7/−0 in `kennwerte-healthcare.md` (drei Anker), Matrixzeile ergaenzt, CHANGELOG der KB.
+- **Status:** erledigt. Nebenfrage an die KB `wettbewerbs-dna` (kein Entscheid Raphaels): ob die
+  Standardformel im Muster-Template selbst eine Healthcare-Ausnahme bekommt, damit der naechste
+  abgeleitete Artikel den Uebertrag nicht wiederholt.
+
+### energie ↔ planungsgrundlagen (EN-104 Gueltigkeit, Formularsatz 2026) — geprueft 2026-08-27 (Run 45), BESTAETIGT
+
+- **Befund:** `planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md` Z. 95-96 fuehrt
+  EN-104 als «gueltig bis **31.12.2024**». `energie/destillate/enfk-nachweisformulare-gueltigkeit-2026.md`
+  Z. 40 (erhoben 27.08.2026, Run 165, an der EnDK-Plattform, PDF-Fusszeile + ModDate) weist dasselbe
+  Formular (403-EN-104-001-ger, Sachversion Juni 2019 unveraendert) als **gueltig bis 31.12.2026** aus,
+  neu gestempelt am 28.11.2025. **planungsgrundlagen ist fuer die Formularseite fuehrend** und hatte
+  den Punkt nicht nachgezogen.
+- **Refuter: bestaetigt, mit drei Einschraenkungen.** (1) Nur das Datum ist ueberholt; der Halbsatz
+  «→ ab 2026 EN-104-ZH/EVEN» bleibt richtig und wird vom energie-Destillat gestuetzt. (2) Die
+  Aussenwirkung liegt **ausserhalb** des Kantons Zuerich — in ZH gilt ohnehin EVEN; der im selben
+  Abschnitt zitierte JANS-Realbeleg ist **Einsiedeln SZ**, und dort laeuft das nationale Formular
+  weiter. (3) Es ist womoeglich kein Ablesefehler, sondern der korrekt wiedergegebene Stempel des
+  lokal abgelegten Exemplars — ein **veralteter Exemplarstand**, nicht ein Faktenfehler. Die Klasse
+  VERALTET trifft, «falsch» waere zu stark. Die materiellen Kennwerte (10 W/m² EBF, Deckel 30 kW,
+  8/16 m²/kW) sind von beiden Seiten gedeckt und unbestritten.
+- **Der eigentliche Mangel ist Registerhygiene:** derselbe Artikel fuehrt im Abschnitt «Datenstand /
+  offen» EN-ZH, EN-110-ZH und **EN-105** mit ihrer Ablaufkante — EN-104 fehlte dort vollstaendig.
+- **Aktion:** +11/−0 (Nachtrag an der Quellenangabe + EN-104 als ⚠-Merkposten zum Jahreswechsel
+  2026/27 im Datenstand-Abschnitt), CHANGELOG der KB.
+- **Status:** erledigt. Wiedervorlage zum **Jahreswechsel 2026/27** liegt im Artikel selbst, nicht hier.
+
+### baurecht ↔ planungsgrundlagen (Baulinien: Rechtsartikel ↔ Geodatum-Artikel) — geprueft 2026-08-27 (Run 45), BESTAETIGT
+
+- **Befund:** `planungsgrundlagen/wiki/kartenportale-baulinien-abstandslinien-zh.md` und
+  `baurecht/wiki/baulinien-und-abstandslinien.md` behandeln dieselben Linien aus den beiden Haelften
+  der Fuehrungsmatrix (Recht ↔ Geodatum) und nannten einander **in keiner Richtung**.
+- **Refuter: bestaetigt, aber praezisiert.** Der Rechtsartikel laesst den Leser nicht ohne
+  Beschaffungspfad zurueck — er nennt `geo-zh.mjs`, `geo-sz.mjs`, den Agenten `baulinien-analyst` und
+  den Skill `machbarkeit`. Es fehlt nicht der Weg, sondern der Zeiger auf den Artikel, der **die
+  Fallen dieses Wegs** dokumentiert (WFS-Endpunkt, ±150-m-Fenster, Layer-Namensschema, senkrechte
+  Abstandsmessung). Zwei **indirekte** Bruecken bestanden ueber je einen Schwesterartikel
+  (`baurecht/wiki/abstaende-und-hoehen` Z. 272 · `planungsgrundlagen/wiki/recht-norm-abstandsvorschriften-wald-gewaesser`
+  Z. 26/31). Vollstaendig fehlend war allein die Richtung **pg-Geodatum-Artikel → baurecht**.
+- **Aktion:** diese eine Richtung gesetzt (+9/−1 — die Ersetzung ist die erweiterte `links:`-Zeile im
+  Frontmatter): Querbezug-Block nach dem Muster von `recht-norm-abstandsvorschriften-wald-gewaesser`
+  Z. 28-32, plus `[[baulinien-und-abstandslinien]]` im Frontmatter.
+- **Offen (Entscheid der KB-Fuehrung, nicht dieses Laufs):** ob die Gegenrichtung im
+  `baurecht`-Rechtsartikel noetig ist oder der indirekte Pfad ueber `abstaende-und-hoehen` genuegt,
+  und ob die Matrixzeile «Wald-/Gewaesserabstand, Baulinien …» eine **benannte Artikelzuordnung**
+  erhalten soll statt nur KB-Namen.
+
+### normen (KB-intern, aus der Abnehmer-Pruefung Run 45) — 2026-08-27
+
+- **Befund:** `normen/wiki/synthese-sia-vkf-fachskills.md` Z. 457 trug die verschmolzene
+  SIA-102-Fundstelle «3.3.3-3.3.5» unveraendert weiter, die Run 63 am selben Tag in Tabelle 2.3
+  (Z. 176/177) bereits aufgetrennt hatte. Die von Run 63 selbst verlangte Durchsicht des Artikels
+  endete 280 Zeilen zu frueh — im Abschnitt fuer den Skill `kostenschaetzung`.
+- **Refuter: bestaetigt, abgeschwaecht.** Die alte Angabe war nicht durchweg falsch, sondern
+  unpraezise verschmolzen (3.3.3 definiert die Grundleistungen, 3.3.4 die besonders zu
+  vereinbarenden). Fehlerhaft war die tragende Ziffer und die Miteinbeziehung von 3.3.5.
+- **Aktion:** Fundstelle auf «4.21 / **3.3.2** / **3.3.4**» praezisiert, mit ⚠-Vermerk, dass der
+  **phasenunabhaengige** Sonderhonorar-Anspruch nach Ziff. 3.3.5 in Tabelle 2.3 steht und auch in den
+  Phasen 3 bis 5 gilt (1/1, gewollte Zeilenersetzung innerhalb der Tabellenzeile).
+- **Der Artikel traegt damit vier inline gesetzte Vorbehalte aus vier unabhaengigen Laeufen** (Z. 270
+  SYN-41 · Z. 89 Run 44 · Z. 176/177 Run 63 · Z. 457 dieser Lauf) bei `status: established`. Der
+  Statusentscheid gehoert der KB `normen` und ist als **N63-3** registriert (Synergie-Lauf 20) — hier
+  bewusst nicht vorweggenommen.
+
+### Nullbefunde und ein widerlegter Nebenfund (Run 45, 27.08.2026)
+
+- **energie ↔ normen (Fenster/Uf, Merkblatt 2021, SIA 2024):** Nullbefund, gemessen. Alle vier
+  Pruefpunkte sind durch die Wissens-Chef-Laeufe 43 und 44 am 25./26.08. abschliessend behandelt; die
+  Gegenprobe fand ausserhalb `wissen/energie` keine Fundstelle mehr mit den ueberholten Uf-Defaults.
+- **auflagebereinigung ↔ projekt-lessons ↔ normen (superseded-Zeiger):** Nullbefund, gemessen. Der
+  Anlassfall (`vkf-brl-20-15-brandmeldeanlagen`) ist seit Run 44 eingeordnet; kein weiterer Zeiger
+  einer der beiden KBs zeigt uneingeordnet auf ein `superseded`- oder `speculative`-Destillat.
+- **WIDERLEGT (Nebenfund eines Refuters, von ihm selbst als ungeprueft gekennzeichnet):** Der fuer
+  Run 35 protokollierte «Abnehmer-Vermerk» in `wettbewerbs-dna/wiki/muster/jury-argumente-healthcare.md`
+  sei nicht auffindbar. **Er steht dort**, im Frontmatter Z. 21-22 («ABNEHMER: … healthcare-neubau-zh.json
+  zitiert diesen Artikel als materielle B4-Quelle»). Gesucht worden war nach «grobkosten», «realwert»,
+  «immobilienbewertung» — Begriffe, die in einem Vermerk ueber die KB `entwurfs-referenzen` nicht
+  vorkommen. **Zweiter Beleg desselben Musters an zwei Tagen:** ein leeres Suchergebnis ist zuerst eine
+  Aussage ueber das Werkzeug, nicht ueber die Quelle (Rule `auto-verbesserungen` 260730b/260807).
 
 ### grobkosten ↔ immobilienbewertung ↔ skills/machbarkeit (Ebmatingen 2'400 vs. 855 CHF/m³ GV) — geprueft 2026-08-26 (Run 44), BESTAETIGT
 
