@@ -4,6 +4,31 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-27 23:30 (Mac Mini Nachtschicht) — Sechs weitere offene Fragen aus QUESTIONS.md recherchiert (Baumann_Povel, C18, Koyama, Hufnagel, Luebps_Atelier, Worm_Maximilian)
+
+Prioritaeten 1-3 leer/nicht umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
+weiterhin vollstaendig 853/853, `vectors.npz` unveraendert seit 24.08.; Fristen-Register
+fuehrt nur bereits bekannte Punkte, nichts fuer diesen Lauf). Prioritaet 4: `energie`,
+`normen` und `twin` sind an ihren eigenen taeglichen Scheduled Tasks/Loops (Laeufe alle noch
+heute, 27.08.), `baurecht`/`planungsgrundlagen`/`wettbewerbs-dna` per Vorgabe ausgeschlossen,
+`bauprodukte`/`grobkosten` formal erledigt/ausgesetzt — kein gueltiges freies Ziel. Auf
+Prioritaet 5 ausgewichen, gleiche Methodik wie die Laeufe seit 24.08.: sechs weitere offene
+Identitaets-/Sachfragen aus `wiki/QUESTIONS.md` per WebSearch geklaert (direkt im
+Hauptkontext, kein Fan-out).
+
+Zwei Fragen mit belastbarem Ergebnis geklaert (Hufnagel als Hufnagel Puetz Rafaelian
+Architekten Berlin bestaetigt inkl. Gruender/Werke; Worm_Maximilian als Magdeburger Architekt
+der Firma Worm-Krayl plausibel, nur ueber einen Bibliothekskatalog belegt), drei mit
+plausiblem, aber nicht direkt bestaetigtem Kandidaten (Baumann_Povel vermutlich Tippfehler
+fuer den daenischen Architekten Povl Baumann, C18 vermutlich das zeitgenoessische Buero C18
+Architekten BDA, Luebps_Atelier vermutlich Atelier Lüps Schondorf trotz abweichender
+Schreibweise), eine ohne belastbaren Treffer (Koyama, haeufiger japanischer Nachname ohne
+Anhaltspunkt im leeren Ordner). Details je Frage mit Quellenangabe direkt in
+`wiki/QUESTIONS.md`. Keine Ordnerumbenennung vorgenommen (Freigabesache Raphael), kein
+Fan-out, kein Versand, keine Buchung, keine destruktive Aktion. `git diff --numstat` nativ
+geprueft: 6 Zeilen geaendert / 6 Zeilen (dieselben sechs Bulletzeilen additiv erweitert),
+keine Loeschung von Bestand.
+
 ## 2026-08-27 05:30 (Mac Mini Nachtschicht) — Sechs weitere offene Fragen aus QUESTIONS.md recherchiert (Balisat, Chamberlin, Cheung_Simon, E_Architekten, FHV, Handa_Heike_Prof)
 
 Prioritaeten 1-3 leer/nicht umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 1+2

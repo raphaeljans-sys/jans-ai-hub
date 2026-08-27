@@ -9126,3 +9126,15 @@ keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.
   Bericht: `30 JANS AI HUB OUTPUT/zahlungsabgleich/2026/260827_bexio-Hygiene.md`.
   **Aktion Raphael unverändert offen:** neuer PAT (Scopes `kb_invoice_show`, `kb_invoice_edit`)
   in `~/.bexio.env`, sinnvollerweise auf beiden Stationen.
+
+- Nachtschicht Mac Mini (23:30-Slot): Prioritäten 1-4 leer bzw. nicht anwendbar (keine
+  pending remote-/sync-Tasks; Synobsis Stufe 1+2 weiterhin vollständig 853/853; `energie`/
+  `normen`/`twin` bereits an eigenem Takt heute gelaufen; `baurecht`/`planungsgrundlagen`/
+  `wettbewerbs-dna` ausgeschlossen, `bauprodukte`/`grobkosten` formal erledigt/ausgesetzt).
+  Auf Priorität 5 ausgewichen: sechs weitere offene Identitätsfragen aus
+  `wissen/architekten-synobsis/wiki/QUESTIONS.md` per WebSearch recherchiert (Baumann_Povel,
+  C18, Koyama, Hufnagel, Luebps_Atelier, Worm_Maximilian) — zwei belastbar geklärt
+  (Hufnagel, Worm_Maximilian), drei plausibel ohne Direktbeleg (Baumann_Povel, C18,
+  Luebps_Atelier), eine ohne Treffer (Koyama). Details und Quellen in der QUESTIONS.md,
+  CHANGELOG-Eintrag gesetzt. Keine Ordnerumbenennung, kein Fan-out, kein Versand, keine
+  Buchung, keine destruktive Aktion.
