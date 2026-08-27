@@ -9025,3 +9025,22 @@ keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.
   (CHANGELOG +22/-0, QUESTIONS.md 6/6 Zeilen rein additiv erweitert, keine Loeschung), Commit
   via `nas-commit-now.sh` ausgeloest und bestaetigt. Kein Fan-out, kein Versand, keine Buchung,
   keine destruktive Aktion. Budget dieses Zyklus: rund 2.6 von 5 USD.
+
+- Zahlungsabgleich / bexio-Hygiene (08:3x, read-only): **vierzehnter Lauf in Folge ohne
+  Datengrundlage**. Vorfilter `bexio-vorfilter.mjs --voll` bricht mit Exit 2 ab, HTTP 401
+  bereits beim Teilaufruf `--abgleich`; zwei Gegenproben bestätigen die Token-Ursache (Aussteller
+  `auth.bexio.com/.../userinfo` 401, `api.bexio.com/2.0/company_profile` 401). `~/.bexio.env`
+  unverändert vom 13.06.2026 11:05, Token nicht abgelaufen (13.12.2026) — die Session dahinter
+  wurde serverseitig beendet. Weg 2 (Mac Mini) nativ per ssh erneut geprüft: `~/.bexio.env`
+  existiert dort weiterhin nicht. Blind seit 09.08., letzter verifizierter Zahlstatus
+  08.08.2026 08:36 = **19 Kalendertage**. Snapshot `state/zustand-letzter-lauf.json` bewusst
+  NICHT fortgeschrieben (Stand 08.08. 08:24), damit das aufgelaufene Delta beim ersten Lauf nach
+  dem Tokenwechsel vollständig sichtbar wird; `vorbehalte.json` unverändert (07.08. 21:33),
+  Tx 3470/3445/854 unangetastet. Altstand eingefroren: 19 Phantom-Kandidaten CHF 81'364.70,
+  84 Duplikat-Kandidaten, CHF 51'400.00 in fünf Positionen unverifiziert blockiert
+  (RE-00098/99, RE-00100, RE-00101, RE-00087). Nichts gebucht, nichts reconciled, nichts auf
+  «ignoriert» gesetzt, nichts gemahnt, nichts versendet. Keine separate Mail: Befund inhaltlich
+  unverändert und vom Verzugscheck heute früh bereits berichtet (Ein-Mail-Prinzip, Rule 260803).
+  Bericht: `30 JANS AI HUB OUTPUT/zahlungsabgleich/2026/260827_bexio-Hygiene.md`.
+  **Aktion Raphael unverändert offen:** neuer PAT (Scopes `kb_invoice_show`, `kb_invoice_edit`)
+  in `~/.bexio.env`, sinnvollerweise auf beiden Stationen.

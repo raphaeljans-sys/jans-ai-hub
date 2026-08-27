@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 27.08.2026 08:10:54
+Stand: 27.08.2026 08:21:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 27.08.2026 08:10:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f7a72f7fd logbuch: Verzugscheck-Nachtrag 27.08.2026 (bexio 401, Tag 19 blind)
+- 300b28fe5 nas-selfcommit: 2 Datei(en) 2026-08-27 08:15

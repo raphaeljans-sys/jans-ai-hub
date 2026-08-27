@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.08.2026 08:10:57
+Stand: 27.08.2026 08:21:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:09)
@@ -12,4 +12,4 @@ Stand: 27.08.2026 08:10:57
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f7a72f7fd logbuch: Verzugscheck-Nachtrag 27.08.2026 (bexio 401, Tag 19 blind)
+- 300b28fe5 nas-selfcommit: 2 Datei(en) 2026-08-27 08:15
