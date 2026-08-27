@@ -4,6 +4,12 @@ Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Ha
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 
+## AG-Gründung 27.08.2026 (Monitor blind, keine Neueingänge)
+
+**Stand:** Kapitaleinzahlungskonto UBS seit 17.08. eröffnet (IBAN CH46 0027 6276 1238 74D7 N, Kontoinhaber Raphael Jans AG In Gründung). **Nächster Schritt:** CHF 50'000 einzahlen → Kapitalbescheinigung per Einschreiben → dann Beurkundung beim Notar Wiedikon möglich.
+
+**Problem:** ag-gruendung-Monitor läuft seit 25.08. 06:00 auf osascript-Timeout (2 Min AppleEvent-Block), beide Mail-Kanäle (mail@UBS, rj@Notariat) sind blind. Letzter verifizierter Stand: Radar-Lauf vom 25.08., der die Kapitalkontoöffnung manuell abgelesen hat. **Kapitalbescheinigung (wenn eingegangen) ist derzeit nicht sichtbar.** → Übergabe an betrieb-chronik 260826 (TCC-Berechtigungen, Mail-Prozess).
+
 ## Radar-Briefing 27.08.2026 (06:55, planmässig, MIT Befund)
 
 Lagebild: KISPI PPTS hat seit gestern Abend eine verbindliche Terminkette bis zur Betriebsaufnahme,

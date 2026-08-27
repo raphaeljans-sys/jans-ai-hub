@@ -111,6 +111,9 @@ die 33 Türen namentlich und die fehlenden Felder in sechs Arbeitsschritten geor
 **AKTION Raphael:** (1) Bauphysik und MED-Planung **heute** um die Werte für DD, DE, DH und DG
 angehen, das ist der lange Pfad. (2) Entscheiden, ob der Produktionsstart 01.09. mit dieser
 Datenlage zu halten ist oder ob Jegen vorgewarnt werden muss.
+**NACHTRAG 27.08.2026, 08:0x (ag-gruendung-monitor, weiterhin blind) — Kapitalkontoöffnung bestätigt, Notariat seit 25.08. nicht erreichbar.** Der Monitor läuft auf osascript-Timeout seit 25.08. 06:00. Letzte Botschaft an mail@raphaeljans.ch: 17.08.2026 10:18, UBS-Kapitalkontoöffnung mit IBAN (Kontoinhaber Raphael Jans AG In Gründung). **Nächster Schritt:** CHF 50'000 einzahlen → Kapitalbescheinigung per Einschreiben → Beurkundung möglich. **Blockade:** osascript AppleEvent-Timeout (TCC/Keychain/Mail-Prozess, siehe betrieb-chronik 260826).
+| Status: 27.08.2026, letzter Radar-Fund 25.08., Kapitalkontoöffnung UBS 17.08. bestätigt, Notariat seit 25.08. blind | AG JANS Gründung | hoch | offen — Kapitaleinzahlung ausstehend, Kapitalbescheinigung unbekannt (Monitor blind) |
+
 | Eigene Auszählung 25.08.2026 08:4x an Arbeitskopie `/tmp/tmatrix-chef-260825.xlsx` (openpyxl, Füllfarben FFC2D69B/FFD6E3BC in Kopfzeile 7/8, Leerzählung Zeilen 2442-2474, Gegenprobe 60 Zeilen BKP 273.01 Geschoss 01) | 2619 KISPI, Lose 231.10 und 274.01 | hoch | offen — Produktionsstart 01.09.2026
 
 **NACHTRAG 25.08.2026, 08:5x (Hub-Chef) zur Meldekanal-Zeile von 07:3x: der Chef-Lauf hat heute
