@@ -743,6 +743,41 @@ Werkzeug, nicht über die Sache.
   können unversendete Entwürfe liegen.
 
 
+### Sackgasse: Mail-ENTWURF anlegen geht über Graph NICHT (belegt 27.08.2026)
+
+Der Weg oben trägt das **Senden**. Er trägt **nicht** das Anlegen eines Entwurfs im Postfach.
+Gemessen am 27.08.2026 um 09:0x:
+
+```
+./node_modules/.bin/m365 request \
+  --url "https://graph.microsoft.com/v1.0/users/rj@raphaeljans.ch/messages" \
+  --method post --content-type "application/json" --body "@<entwurf>.json"
+→ Error: Request failed with status code 403
+```
+
+Die Zertifikats-App hat `Mail.Send`, aber keine Schreibrechte auf das Postfach
+(`Mail.ReadWrite` fehlt). Ein Entwurf lässt sich damit weder anlegen noch ändern.
+
+**Warum das zählt:** Whitelist-Aktion **A5** verlangt Mail-Entwürfe als **Draft im Postfach**.
+Solange Apple Mail auf einer Station nicht auf Apple Events antwortet, ist A5 auf dieser Station
+auf **keinem** Weg ausführbar. Der Ausweg ist kein Ersatzweg, sondern eine Einschränkung: der
+Entwurf wird als Datei in den Projektordner gelegt und im Tagesbriefing im Volltext genannt.
+Er existiert dann, er liegt nur nicht dort, wo die Whitelist ihn erwartet.
+
+**Zwei mögliche Behebungen, beide Entscheid Raphaels:** Apple Mail auf der Station reparieren
+(TCC-Berechtigungen, Keychain, Mail-Prozess — Befund `rules/betrieb-chronik.md` 260826) oder
+`Mail.ReadWrite` für die App nachtragen. Das Nachtragen einer Graph-Berechtigung ist **keine**
+A6-Massnahme: es weitet die Rechte über den Soll-Zustand hinaus aus.
+
+**Nicht weiter geprüft:** die Gegenprobe an den zugewiesenen App-Rollen (`appRoleAssignments`
+gegen die Graph-`appRoles` auflösen) wurde vom Auto-Mode-Klassifikator blockiert und nach Rule
+`wege-und-vollmachten` **nicht umgangen**. Der 403 auf `POST /messages` ist als Beleg
+ausreichend; wer die Rollenliste braucht, legt den Befehl vor.
+
+**Ein dritter Weg, ungeprüft:** ein Entwurf liesse sich theoretisch als `.eml` in einen
+überwachten Ordner schreiben oder über die Outlook-Web-Oberfläche anlegen. Beides ist am
+27.08.2026 nicht versucht worden und steht hier als Kandidat, nicht als Weg.
+
 ## Nachtrag 25.08.2026 — Sackgasse: `m365 outlook event list` gibt es nicht
 
 Gemessen im Hub-Chef-Lauf vom 25.08.2026, als Apple Mail auf osascript nicht antwortete und

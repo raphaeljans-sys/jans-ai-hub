@@ -4,6 +4,88 @@ Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Ha
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 
+
+## Hub-Chef 27.08.2026 (08:39 bis 09:2x) — Tagesbriefing GESENDET, Tür-ID-Abgleich gerechnet (A3), A5 als nicht ausführbar belegt
+
+**Versandweg wieder Graph, fünfter Tag Apple-Mail-Blockade.** Erreichbarkeit vor dem Lauf gemessen:
+`osascript` auf `application id "com.apple.mail"` bricht nach 25 s ohne Antwort ab, der Prozess läuft
+(PID 243). Gelesen wurde über Graph (M365-CLI, `authType: certificate`), rj@ und mail@; Kalender über
+`outlook_calendar_search`, 27.08. bis 03.09.
+
+### Ausgeführte Aktionen
+
+**A3 — Tür-ID-Abgleich Matrix gegen Grundriss, gerechnet und abgelegt.** Auslöser: Mail L. Bajrami
+(Jegen AG) 27.08. 08:36 an rj@, er kann die Türen nicht zuordnen und verlangt den gültigen
+Revisionsstand. **Beide Quellen am Original ausgezählt**, nicht aus der Mail geschlossen: Arbeitskopie
+der Türmatrix (Dateistand 25.08. 13:23, openpyxl, Spalte W «Tür-Nr.», Zeilen 2442 bis 2474) gegen den
+Ausführungsgrundriss OG1-41-UMB (Dateistand 25.08. 17:02, pdftotext). Ergebnis: **von 33 Türnummern
+decken sich 28**; vier Nummern der Matrix tragen im dritten Block eine Stelle zu viel (01.2.3013.01 /
+3014 / 3015 / 3017 gegen 01.2.013.01 / 014 / 015 / 017 im Plan), eine steht nur in der Matrix
+(01.0.300.02). **Zusatzbefund über die Füllfarben der Kopfzeile:** Spalte X «Hilfsfeld
+Änderungsmanagement, bisherige Türnummer» ist olivgrün (nach Legende M7 in der Pflege der Architektur)
+und bei allen 33 Umbau-Türen **leer** — genau dort fehlt die Nachvollziehbarkeit der Umnummerierung,
+die Bajrami vermisst. Spalte W selbst ist nicht olivgrün. Ergebnis abgelegt (Kopie, nichts
+überschrieben) unter
+`~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2619_KINDERSPITAL/03_BKP/LOS_231.10 Türfachplanung System TeKoSi AG/231.10 08 Korrespondenz/260827-Tuer-ID-Abgleich-Matrix-Grundriss/`
+mit der Gegenüberstellung als MD und dem Antwort-Entwurf als TXT.
+
+**Nicht geraten:** ob die vier Nummern Erfassungsfehler sind oder eine gewollte Umnummerierung, ist
+**nicht** entschieden worden. Der Formatbruch ist belegt, die Ursache nicht; der Entscheid gehört
+Raphael und steht so im Briefing.
+
+**A4 — Register.** Drei Nachträge in `logbuch/fristen.md` (Tür-ID-Befund, neuer Ausführungszeitraum
+inevo, A5-Blocker). Append-only, `diff` gegen Sicherungskopie: **0 Löschungen, 15 Einfügungen**.
+
+**A5 — NICHT ausführbar, und das ist der zweite Befund des Laufs.** Die Whitelist verlangt
+Mail-Entwürfe als **Draft im Postfach**. Apple Mail antwortet nicht (siehe oben), und der
+Graph-Ersatzweg trägt das **Senden** (`Mail.Send`, seit 24.08. viermal belegt), aber **nicht das
+Anlegen eines Drafts**: `POST /users/rj@raphaeljans.ch/messages` antwortet **HTTP 403**. Der Entwurf
+wurde deshalb als Datei abgelegt und im Briefing im Volltext genannt. **Kein Umgehungsversuch** — die
+Gegenprobe an den App-Rollen wurde vom Auto-Mode-Klassifikator blockiert und nach Rule
+`wege-und-vollmachten` nicht umgangen; der 403 ist Beleg genug. Eintrag in `connectors/WEGE.md` gesetzt.
+
+### Briefing
+
+**GESENDET** 27.08.2026 **09:22:35** an rj@raphaeljans.ch, Betreff «Hub-Chef 27.08.26 — Jegen kann die
+Tueren nicht zuordnen: vier Nummern der Matrix brechen das Schema, Produktionsstart 01.09.».
+**In den Gesendeten nachgemessen, nicht am Rückgabewert:** 10'951 HTML-Bytes, **5'536 Zeichen
+Fliesstext**, `Aptos,Calibri` und `#000000` im Body gesetzt (Echo-Schutz-Detektor des Zwillings intakt).
+QS: Korrektur-Harness gelaufen, `rechtschreibung` gelb (Zollzeichen statt Guillemets,
+Türnummern-Schreibweise) und `layout` gelb (abgekürzter Ablagepfad als echter Regelverstoss, Position 04
+ungegliedert, Freigabe-Abschnitt meldete null während vier Entscheide offen lagen) — alle
+übernommenen Befunde vor dem Versand behoben.
+
+**Sendegrund:** ausgeführte Whitelist-Aktion, versandbereiter Entwurf und zwei operative Befunde nach
+dem Radar-Fenster (Bajrami 08:36, Würsch 07:30). Das Radar-Briefing von 06:55 wurde weitergetragen,
+nicht wiederholt.
+
+### Twin-Gate, mit einem gefangenen Fehler
+
+Der `twin-chef` hat den ersten Entwurf **nicht freigegeben** (Fidelity 72 von 80) und dabei eine echte
+Erfindung gefunden: der Entwurf versprach Bajrami den bereinigten Stand «zusammen mit dem
+Terminprogramm». Das Terminprogramm ist eine Zusage an N. Rothe / Röthlisberger (Los 273.35, fällig
+28.08.), gegenüber Jegen existiert keine solche Bringschuld — Kontaminations-Drift 260818, eine echte
+Zusage aus einem fremden Los, die dadurch verifiziert aussieht. Zweitens war «ich kläre bis morgen ab»
+ein Termin für eine **fremde** Antwort. Beides in der veredelten Fassung entfernt. Nicht übernommen
+wurde sein Absatz «Arbeitsstand, keine Bestellgrundlage»: sachlich belegt, aber eine Aussage über den
+eigenen Planungsstand gegenüber einem Dritten, und damit Raphaels Ermessen — als Option in Position 05
+des Briefings vorgelegt statt eingebaut.
+
+### Signale, die keinen eigenen Punkt ergaben
+
+`freigabe-status.sh --kurz` und `--briefing`: mac-mini 0, macbook-pro 0, keine Einträge ab 12 h,
+Exit 0. `stationen-watchdog.sh --briefing`: alle Stationen und Sync-Jobs fristgerecht, Exit 0.
+Sync-Task- und `remote-tasks/pending`-Queues leer. `node connectors/bexio.mjs --verzug` erneut
+**HTTP 401** (neunzehnter Tag) — Guard A1 nicht erfüllt, keine Mahnaktion; der Radar hat den Stand
+bereits gemeldet, im Briefing nur als Geldposition wiederholt. Kalender 27.08. bis 03.09. gegen das
+Radar-Briefing geprüft, **deckungsgleich** (der leere Ganztagseintrag «Neues Ereignis» am 01.09. bleibt
+uninterpretiert). Konversations-Destillat 27.08.: im Fenster kein einziges echtes Gespräch, beide
+Stationen nur Automatikläufe — zweites arbeitsfreies Fenster in Folge. Postfach mail@ seit gestern
+Mittag nur Werbung, kein UBS-Eingang; die Kapitalbescheinigung bleibt damit unsichtbar
+(`ag-gruendung-monitor` blind, Abschnitt oben). Ohne eigenen Punkt, weil ohne Aussenwirkung: Microsoft
+meldet am 26.08. 19:39 «Out of File capacity» für Dataverse (881.94 MB von 0 MB) — Power-Platform-
+Kapazität ohne Lizenz, kein Bezug zum SharePoint-Speicher des Tenants.
+
 ## AG-Gründung 27.08.2026 (Monitor blind, keine Neueingänge)
 
 **Stand:** Kapitaleinzahlungskonto UBS seit 17.08. eröffnet (IBAN CH46 0027 6276 1238 74D7 N, Kontoinhaber Raphael Jans AG In Gründung). **Nächster Schritt:** CHF 50'000 einzahlen → Kapitalbescheinigung per Einschreiben → dann Beurkundung beim Notar Wiedikon möglich.
