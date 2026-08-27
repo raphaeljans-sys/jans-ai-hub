@@ -6174,6 +6174,22 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   Prüfrichtung neben Refuter und Abdeckung — und sie ist bisher auf **keinem** Destillat
   systematisch gelaufen. Vorzulegen wäre, ob daraus eine eigene Methodik-Pflicht wird; das ist
   Raphaels Entscheid, hier nur der Befund.
+- [ ] **N63-3 — Der Synthese-Artikel `wiki/synthese-sia-vkf-fachskills.md` braucht die eigene
+  Durchsicht, die Run 63 selbst verlangt hat — bisher steht sie nur im CHANGELOG und im
+  Lauf-Report.** Der Artikel traegt `status: established` / `last_updated: 2026-07-17` und ist seit
+  dem 25.08.2026 im `INDEX.md` gefuehrt, also fuer `werkvertrag`, `ausschreibung`,
+  `unternehmerkontrolle`, `honorarberechnung-sia102` und `brandschutz` auffindbar. Inzwischen
+  tragen **drei** voneinander unabhaengige Laeufe je einen inline gesetzten ⚠-Vorbehalt hinein:
+  Z. 270 (22.08.2026, VKF-Fassungen, Synergie-Lauf 15 / SYN-41), Z. 89 (26.08.2026,
+  Quelle `sia-118-1991.md` auf `speculative`, Wissens-Chef Run 44) und Z. 176/177 (27.08.2026,
+  Quelle `sia-102-2020.md` auf `speculative` plus eine korrigierte Fundstelle, Run 63). **Zwei der
+  im Frontmatter gefuehrten Quellen sind damit Entwurf, der Artikel selbst weiterhin gruen.** Rule
+  `normen-referenz` Ziff. 1b macht genau dieses Feld zum Entscheidungskriterium: wer es liest, sieht
+  `established` und zitiert ohne Gegenlesen; die Vorbehalte stehen 89 bzw. 270 Zeilen tiefer.
+  **Der Statusentscheid gehoert dieser KB** (so schon Run 44 ausdruecklich) — hier nur die
+  Registrierung, damit die Durchsicht an einer Stelle steht, die ein Radar liest.
+  Nachgetragen 27.08.2026, Synergie-Lauf 20 (SYN-54), Cross-KB-Bringschuld nach Rule
+  `wissens-bibliothekar`.
 - [x] **N62-3 — BEANTWORTET.** Die Kandidatenliste liegt als
   `training/n62-3-pruefstand-kandidaten.md`. **Ergebnis: von 310 `established`-Destillaten
   tragen 2 einen Prüfstand, und beide sind DIN (Mac-Mini-Scope).** Im SIA/VKF-Bestand dieser
