@@ -3335,3 +3335,83 @@ gemessen ist, gilt nicht als wirksam. Fuer den Radar zum Nachmessen.
 **Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
 Kontingent-Erschoepfung, einem Briefing-Ausfall, den der Radar nicht selbst meldet, fehlendem
 Radar-Herzschlag oder Aufwand ohne Wissenszuwachs.
+
+---
+
+## 27.08.2026 07:15 — Rohmessung (Bewertung folgt im selben Lauf)
+
+**MacBook Pro** (teuer = in+cache_creation+out, rekursiv inkl. Subagenten):
+27.08. teuer 1.54 / total 46.36 (Tag laeuft erst seit 07:15) · 26.08. teuer 7.02 / total 159.88 ·
+25.08. teuer 7.89 / total 178.59 · 24.08. teuer 8.65 / total 214.98 · 23.08. teuer 18.50 /
+total 458.66 · 22.08. teuer 7.90 / total 238.93 · 21.08. teuer 7.07 / total 175.25 · 20.08.
+teuer 8.68 / total 209.49.
+
+**Mac Mini** (ueber Alias `ssh mini`, rc=0, gleiches Skript via scp):
+27.08. teuer 0.34 / total 8.20 · 26.08. teuer 1.18 / total 44.81 · 25.08. teuer 2.88 /
+total 83.14 · 24.08. teuer 46.70 / total 1611.21 · 23.08. teuer 53.17 / total 1710.92 ·
+22.08. teuer 0.93 / total 20.20 · 21.08. teuer 3.56 / total 81.37 · 20.08. teuer 1.90 /
+total 51.42.
+
+**Blockade-Status:** beide Stationen **keine** strukturellen Usage-/Rate-Limit-Ereignisse in den
+letzten 24 h (isApiErrorMessage / type=error / apiErrorStatus=429 mit Limit-Text). Kontrollprobe
+Task-Opener bestanden: MacBook 169 von 465 Dateien, Mini 14 von 948 — das Muster trifft, ein
+leeres Ergebnis waere also ein Sachbefund und kein Werkzeugfehler.
+
+### Bewertung — kein Meldekriterium erfuellt, still beendet
+
+**(a) Keine blockierte interaktive Sitzung.** Strukturelle Suche (nicht Wort-grep) ueber beide
+Stationen: null Fehlerereignisse mit Limit-Bezug in 24 h.
+
+**(b) Verbrauch normal.** Kombiniert teuer: 26.08. **8.20 Mio** (MacBook 7.02 + Mini 1.18),
+25.08. 10.77, 27.08. bis 07:15 erst 1.88. Die Schwellen (35 Mio an einem Tag, zweimal 18 Mio in
+Folge) sind seit dem 25.08. weit unterschritten. Die Spitzen **23.08. 71.67 und 24.08. 55.35**
+liegen ueber der Schwelle, gehoeren aber zum 50-Agenten-Vollschub, der **am 24.08. 07:50 bereits
+gemailt** und im Fristen-Register dokumentiert wurde — keine Wiederholungsmail (Punkt 7).
+
+**(c) Wochenkontingent entspannt.** Radar 27.08. 00:57: Ampel FREI, 25.08 von 167 Mio teuren
+Token = 15.0 % bei 36.3 % verstrichener Woche, Vorsprung **-21.3 Punkte**. Kein Drossel-Anlass.
+
+**(d) Alle vier operativen Briefings haben geliefert** — gemessen an den **Timestamps im
+Dateiinhalt**, nicht an mtime: ein Backup-Vorgang hatte am 27.08. 02:22 zahlreiche Transcripts
+gleichzeitig angefasst und haette bei mtime-Messung falsche Laufzeiten ergeben. Echte Laeufe:
+`hub-chef-taeglich` 26.08. 08:39-08:52, **Briefing gesendet 08:49:57** (9'263 HTML-Bytes, in den
+Gesendeten nachgemessen) · `mahnwesen-verzugscheck` 26.08. 08:05-08:09 · `zahlungsabgleich-check`
+26.08. 08:22-08:25 · `logbuch-radar` **heute 06:54-07:10**, 190 Zeilen, sauber beendet. Die drei
+Vormittags-Tasks sind zum Messzeitpunkt 07:15 noch nicht faellig — ihr Ausbleiben ist kein Befund.
+
+**(e) Radar-Herzschlag frisch.** Juengste `## `-Ueberschrift in RADAR.md: **27.08. 00:57**, rund
+6.3 h alt. Zweites Signal bestaetigt: Session `vollgas-chef-radar` 26.08. 22:57 UTC, 75 Zeilen,
+sauber beendet.
+
+**(f) Kein Aufwand ohne Ertrag.** Der Destillat-Loop hat in 48 h **gar keine Tokens verbraucht**,
+damit ist (f) definitionsgemaess nicht erfuellt. Ertrag der Nacht aus den Trainings- und
+Wissenscheck-Laeufen; Artikel je Tag ueber `git` gemessen (nie `find -newermt`): 24.08. 85 (ohne
+Twin 79) · 25.08. 21 (16) · **26.08. 9 (4)** · 27.08. bisher 7 (1). **Stueckkosten teuer je
+Artikel am 26.08.: 0.91 Mio** (ohne Twin 2.05). Reihe: 0.97 (23.08.) · 0.65 (24.08.) · 0.51
+(25.08.) · 0.91 (26.08.). Die Gegenprobe reproduziert die Vortageswerte exakt. Keine
+Delta-Null-Serie: von den zehn juengsten outputs-Reports traegt keiner eine Delta-Null-Formel.
+Nachtschicht vollstaendig durchgelaufen (26.08. 02:35/05:36/13:39/13:43/23:34, 27.08.
+02:30/05:35, alle rc=0); der **Mittags-Slot 13:30 hat erneut geliefert** — zweiter Beleg in Folge.
+
+**(g) Korpus-Queue nicht komplett.** 1 und 2 erledigt, 3 (`buero-referenzen`) und 4
+(`archiv-fachwissen`) stehen unveraendert nach Inventar-Phase 0 vom 23.08., Spec weiterhin offen.
+
+### Fuer den Radar (Hub-intern, kein Sendegrund nach Rule 260803)
+
+**Die Entkraeftung des Gate-Befunds vom 26.08. 12:57 trifft eine andere Datei.** Der Radar
+widerlegte den Punkt ueber die **Dateigroessen des Lauf-Journals** (`logbuch/laeufe/*.jsonl`) und
+schloss daraus «das Lauf-Gate protokolliert normal». Der Befund der Fruehwarnung galt aber dem
+**Gate-Log** `logbuch/speicher/gate-Macmini.log`, also den FREIGABE-/ABGEWIESEN-Zeilen. Dieses Log
+steht heute unveraendert: **letzte Zeile 24.08. 05:30, 19 Zeilen gesamt** — zweifach gemessen,
+ueber SMB und **nativ per ssh auf dem Mini** (Rule 260730b, SMB kann veralten). Seither sind rund
+zehn Nachtschicht-Slots gefeuert, alle rc=0, ohne eine einzige Gate-Zeile. Zum Vergleich:
+`gate-Macbookpro.log` ist frisch (27.08. 01:28). Entweder schreibt das Gate auf dem Mini seit dem
+24.08. nicht mehr, oder die Mini-Laeufe gehen an ihm vorbei. **Der Radar-Punkt selbst war
+sachlich richtig** (der Journal-Abfall vom Ausnahme- auf den Normalwert war tatsaechlich ein
+Ausreisser-Trugschluss) — er beantwortet nur eine andere Frage als die gestellte. Harmlos, solange
+das Kontingent entspannt ist; es ist aber die Messgrundlage der Drossel-Entscheidung. Zum
+Nachmessen am Original, nicht an einer Ersatzgroesse.
+
+**Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
+Kontingent-Erschoepfung, einem Briefing-Ausfall, den der Radar nicht selbst meldet, fehlendem
+Radar-Herzschlag oder Aufwand ohne Wissenszuwachs.
