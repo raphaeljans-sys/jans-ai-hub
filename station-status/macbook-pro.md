@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.08.2026 07:19:33
+Stand: 27.08.2026 07:40:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:07)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.08.2026 07:19:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 41d6b25a7 vollgas-fruehwarnung 27.08.2026: still beendet, kein Meldekriterium; Gate-Log Mini seit 24.08. stumm (Radar-Entkraeftung traf Lauf-Journal)
+- 08789909f nas-selfcommit: 3 Datei(en) 2026-08-27 07:30
