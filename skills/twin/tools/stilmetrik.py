@@ -32,7 +32,10 @@ ANREDEN = [r"Hoi\s+\w+", r"Geschaetzter?\s+\w+", r"Gesch[aä]tzte?r?\s+\w+",
 GRUESSE = [r"Freundliche\s+Gr[uü]sse", r"Lieber\s+Gruss", r"Liebe\s+Gr[uü]sse",
            r"Viele\s+Gr[uü]sse", r"Beste\s+Gr[uü]sse",
            # Kurzformen, belegt Batch 98 (17.08.2026): «Lgr» als knappste Gruss-Stufe
-           r"\bLgr\b", r"\bLG\b",
+           # 27.08.2026 (Batch 106): «Lgr» stand seit Batch 98 im Muster und traf trotzdem
+           # nicht — das Gold vom 26.08. schreibt es KLEIN («lgr»). Ein gepflegtes Muster
+           # mit falscher Schreibung ist so still wie ein fehlendes.
+           r"\b[Ll]gr\b", r"\bLG\b",
            # Nachgetragen Batch 105 (26.08.2026): zwei belegte Stufen liefen als Null durch
            # die Metrik, weil ihr Muster fehlte. «Bester Gruss» (Batch 104) traf
            # r"Beste\s+Gr[uü]sse" NICHT; «Danke und Gruss» (Batch 105) stand gar nicht drin.
@@ -46,7 +49,8 @@ def measure(text: str) -> dict:
 
     du_cap = sum(len(re.findall(rf"\b{f}\b", text)) for f in DU_FORMS)
     du_low = sum(len(re.findall(rf"\b{f.lower()}\b", text)) for f in DU_FORMS if f[0].isupper())
-    du_total = max(du_cap + du_low, 1)
+    du_formen_total = du_cap + du_low
+    du_total = max(du_formen_total, 1)
 
     apostroph = len(re.findall(r"\d['’]\d", text))
     prozent_total = text.count("%")
@@ -73,7 +77,13 @@ def measure(text: str) -> dict:
 
     return {
         "woerter": nwords,
-        "du_gross_quote": round(du_cap / du_total, 3),
+        # 27.08.2026 (Batch 106): bis hierher gab die Quote bei NULL Du-Formen still 0.0
+        # aus — nicht unterscheidbar von «alle klein geschrieben». Genau diese Leermessung
+        # stand hinter dem Streit Batch 104 («Autorschafts-Detektor») gegen Batch 105
+        # («trennt nicht»). Jetzt None bei leerer Grundgesamtheit, analog zur Prozent-Quote,
+        # plus der Zaehler selbst — eine Quote ohne ihre Grundgesamtheit ist nicht lesbar.
+        "du_formen_total": du_formen_total,
+        "du_gross_quote": round(du_cap / du_total, 3) if du_formen_total else None,
         "tausender_apostroph_treffer": apostroph,
         "prozent_mit_leerschlag_quote": round(prozent_space / max(prozent_total, 1), 3) if prozent_total else None,
         "ellipsen_pro_1000w": round(ellipsen / nwords * 1000, 2),
