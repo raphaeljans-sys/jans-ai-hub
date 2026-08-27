@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.08.2026 03:43:42
+Stand: 27.08.2026 03:53:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:43)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.08.2026 03:43:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 16bf60307 nas-selfcommit: 3 Datei(en) 2026-08-27 03:30
+- e31422381 twin-mail-training Batch 106: Fenster 26.08.2026 (Kollektivregister, werter im Du, Du-Quote als Messartefakt, lgr, Gehirn-Reserve 35 B)
