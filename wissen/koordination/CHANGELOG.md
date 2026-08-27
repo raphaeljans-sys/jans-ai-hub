@@ -2,62 +2,62 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
-## 2026-08-27 — Synergie-Lauf 20: drei Befunde, und eine Rueckkante, die zum ersten Mal funktioniert hat
+## 2026-08-27 — Synergie-Lauf 20: drei Befunde, und eine Rückkante, die zum ersten Mal funktioniert hat
 
 Tagestakt, Delta-Basis 26.08.2026 17:10, Fenster 24,0 h, **111 Commits**, HEAD `0ac25fdad`.
 Uhr-Kontrolle bestanden (17:10 CEST gegen nativen Synology-Selfcommit 17:00:05), Gegenprobe
-bestanden. Strukturelles Delta: **0 neue** Bausteine, **3 bewegte Bestandsdateien** — Frueh-Ausstieg
+bestanden. Strukturelles Delta: **0 neue** Bausteine, **3 bewegte Bestandsdateien** — Früh-Ausstieg
 griff nicht. Inline, kein Agenten-Fan-out. **3 Befunde (SYN-53, SYN-54, SYN-55), 3 Nullbefunde
-gemessen.** 5 Dateien geaendert, 3 rein additiv, 2 mit gewollter Zeilenersetzung. Laufbericht:
+gemessen.** 5 Dateien geändert, 3 rein additiv, 2 mit gewollter Zeilenersetzung. Laufbericht:
 `outputs/2026-08-27_synergie-lauf-20.md`.
 
 - **SYN-53 — die belegte Anrede stand nur in der Datei, die vielleicht geladen wird.** Der
-  Fidelity-Review vom 27.08. korrigierte den uebergeneralisierten Marker «Englisch: «Hello», nicht
-  «Hi»» zu «die englische Anrede haengt am **Kontakt**, nicht an der Sprache» — «Hi Hleb» beim
+  Fidelity-Review vom 27.08. korrigierte den übergeneralisierten Marker «Englisch: «Hello», nicht
+  «Hi»» zu «die englische Anrede hängt am **Kontakt**, nicht an der Sprache» — «Hi Hleb» beim
   Webprogrammierer, zweifach aus eigener Hand belegt (16.02. und 27.06.2026, vor **und** nach dem
   Hub). Der Zwilling zog den Marker in `rules/jans-dna-facetten.md` nach, **aber nur dort**. Diese
-  Datei ist ausdruecklich **nicht** importiert; `rules/anrede-kontakte.md` ist es, sagt «immer zuerst
+  Datei ist ausdrücklich **nicht** importiert; `rules/anrede-kontakte.md` ist es, sagt «immer zuerst
   hier nachschlagen» und setzt «Default = Sie». Wer nach Vorschrift zuerst das Register liest, bekam
-  fuer Hleb (fehlte ganz) und Yorck von Dietze (ohne englischen Opener) die falsche Auskunft. Das
+  für Hleb (fehlte ganz) und Yorck von Dietze (ohne englischen Opener) die falsche Auskunft. Das
   Nachtrags-Verfahren ist etabliert — sieben Zeilen kamen so am 20./21. und 26.08. hinein; es lief
   hier nicht, weil der Fall als reine Marker-Korrektur gebucht wurde. **Gesetzt:** beide Zeilen
-  nachgetragen bzw. ergaenzt, rein additiv, kein Klausel-Wortlaut angefasst, Nachname von Hleb
-  ausdruecklich offen statt geraten.
-- **SYN-54 — ein Artikel sammelt Vorbehalte, sein Guetesiegel bleibt gruen.**
-  `wissen/normen/wiki/synthese-sia-vkf-fachskills.md` traegt unveraendert `status: established` /
-  `last_updated: 2026-07-17`, waehrend **drei unabhaengige Laeufe** je einen ⚠-Vorbehalt inline
+  nachgetragen bzw. ergänzt, rein additiv, kein Klausel-Wortlaut angefasst, Nachname von Hleb
+  ausdrücklich offen statt geraten.
+- **SYN-54 — ein Artikel sammelt Vorbehalte, sein Gütesiegel bleibt grün.**
+  `wissen/normen/wiki/synthese-sia-vkf-fachskills.md` trägt unverändert `status: established` /
+  `last_updated: 2026-07-17`, während **drei unabhängige Läufe** je einen ⚠-Vorbehalt inline
   gesetzt haben: Z. 270 (22.08., VKF-Fassungen, SYN-41), Z. 89 (26.08., Quelle `sia-118-1991.md` →
   `speculative`, Run 44), Z. 176/177 (27.08., Quelle `sia-102-2020.md` → `speculative`, Run 63).
   Zwei Frontmatter-Quellen sind damit Entwurf. Rule `normen-referenz` Ziff. 1b macht genau dieses
-  Feld zum Entscheidungskriterium — wer ihr folgt, sieht gruen und hoert 89 bzw. 270 Zeilen vor dem
-  Vorbehalt auf zu lesen. Verschaerfend: Run 43 hat den Artikel am 25.08. im `INDEX.md`
+  Feld zum Entscheidungskriterium — wer ihr folgt, sieht grün und hört 89 bzw. 270 Zeilen vor dem
+  Vorbehalt auf zu lesen. Verschärfend: Run 43 hat den Artikel am 25.08. im `INDEX.md`
   nachregistriert, er wurde also genau dann auffindbar, als seine Grundlage unsicher wurde. Run 63
-  hat die noetige Durchsicht selbst benannt — der Satz steht aber nur im CHANGELOG und im
+  hat die nötige Durchsicht selbst benannt — der Satz steht aber nur im CHANGELOG und im
   Lauf-Report, nicht in `wiki/QUESTIONS.md` (N63-1/N63-2 betreffen das Destillat). Rule
   `auto-verbesserungen` 260805: ein Laufbericht ist kein Meldekanal. **Gesetzt:** als **N63-3** in
   `wissen/normen/wiki/QUESTIONS.md` registriert (Cross-KB-Bringschuld) und ⚠-Zeiger in die
-  INDEX-Zeile. **Statusentscheid bewusst NICHT vorweggenommen** — er gehoert der KB `normen`.
+  INDEX-Zeile. **Statusentscheid bewusst NICHT vorweggenommen** — er gehört der KB `normen`.
 - **SYN-55 — die Rule kennt zwei Status, die KB hat einen dritten gemessen.**
   `wissen/normen/training/n62-3-pruefstand-kandidaten.md` (neu, Run 63): von **310**
-  `established`-Destillaten tragen **2** einen Pruefstand, im SIA/VKF-Bestand **keines**; beide je
-  gefahrenen Abdeckungslaeufe fanden erhebliche Luecken bei **null falschen Werten**. `established`
-  belegt Richtigkeit, nicht Vollstaendigkeit — die KB sagt das selbst («misst Ungewissheit, nicht
-  Mangel»). Rule `normen-referenz` Ziff. 1b kennt den Zustand nicht. Gefaehrlich ist nicht der
+  `established`-Destillaten tragen **2** einen Prüfstand, im SIA/VKF-Bestand **keines**; beide je
+  gefahrenen Abdeckungsläufe fanden erhebliche Lücken bei **null falschen Werten**. `established`
+  belegt Richtigkeit, nicht Vollständigkeit — die KB sagt das selbst («misst Ungewissheit, nicht
+  Mangel»). Rule `normen-referenz` Ziff. 1b kennt den Zustand nicht. Gefährlich ist nicht der
   zitierte Wert, sondern der **Umkehrschluss aus dem Schweigen**; Run 63 lieferte am selben Tag den
   Beleg (das SIA-102:2020-Destillat hatte von jeder Teilphasen-Tabelle nur die Spalte
   *Auftragsgegenstand* aufgenommen). Die Kandidatenliste nennt `rules/normen-referenz` als
   Konsumenten (Z. 68) — die Kante ist gesehen, aber nur vom Zulieferer. **Gesetzt:** Ziff. **1c** als
-  reiner Querverweis; der binaere Status bleibt unangetastet.
-- **Der wichtigste Nullbefund: eine Rueckkante hat funktioniert.** `normen` Run 63 hat
+  reiner Querverweis; der binäre Status bleibt unangetastet.
+- **Der wichtigste Nullbefund: eine Rückkante hat funktioniert.** `normen` Run 63 hat
   `sia-102-2020.md` herabgestuft **und im selben Lauf** `skills/honorarberechnung-sia102/SKILL.md`
-  nachgezogen (`ce498d218`), samt der Praezision, dass der fuer den Skill entscheidende Negativbefund
-  «kein Art. 7» davon nicht betroffen ist, weil eigens nachgeprueft. Genau die Bewegung, deren Fehlen
-  SYN-36 und SYN-41 geruegt hatten. SYN-54 richtet sich darum **nicht** gegen diesen Lauf.
+  nachgezogen (`ce498d218`), samt der Präzision, dass der für den Skill entscheidende Negativbefund
+  «kein Art. 7» davon nicht betroffen ist, weil eigens nachgeprüft. Genau die Bewegung, deren Fehlen
+  SYN-36 und SYN-41 gerügt hatten. SYN-54 richtet sich darum **nicht** gegen diesen Lauf.
 - **Zwei weitere gemessene Nullbefunde:** (a) die Kandidatenliste dupliziert `QUERBEZUEGE.md`
-  **nicht** — inhaltliche Querbezuege gegen Reichweiten-Metrik, verschiedene Groessen; (b) kein neuer
+  **nicht** — inhaltliche Querbezüge gegen Reichweiten-Metrik, verschiedene Grössen; (b) kein neuer
   Baustein heisst auch keine fehlenden Contract-Pflichtfelder, keine fehlende `rollen-map.tsv`-Zeile,
   keine fehlende Allowlist-Freigabe. **SYN-43** zum dritten Mal aufgerollt (Facetten-Datei erneut
-  bewegt, 18/18), Ergebnis unveraendert: haengt am Entscheid Raphaels, Status «teilweise umgesetzt».
+  bewegt, 18/18), Ergebnis unverändert: hängt am Entscheid Raphaels, Status «teilweise umgesetzt».
 - **Kein Sendegrund** (Rule 260803): alle drei Befunde Hub-intern ohne Aussenwirkung, kein Eintrag in
   `logbuch/fristen.md`. Still beendet.
 

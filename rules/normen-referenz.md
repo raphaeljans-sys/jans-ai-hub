@@ -18,13 +18,13 @@ SIA 416 bei Flächen, VKF im Brandschutz):
    Ziff. 8.4.2.2, die bis zur Korrektur durch Run 49/50 in einen Fach-Skill weitergereicht
    wurde. Der Status stand die ganze Zeit im Destillat.)
    **1c. Querverweis, kein neuer Status (gesetzt 27.08.2026, Synergie-Lauf 20):** `established`
-   sagt aus, dass die geprueften Werte richtig sind — **nicht**, dass die Norm vollstaendig
+   sagt aus, dass die geprüften Werte richtig sind — **nicht**, dass die Norm vollständig
    erfasst ist. Die KB `normen` hat das am 27.08.2026 gemessen: von 310 `established`-Destillaten
-   tragen 2 einen Pruefstand, im SIA/VKF-Bestand keines; beide bisher gefahrenen
-   Abdeckungslaeufe fanden in `established`-Destillaten erhebliche Luecken bei null falschen
+   tragen 2 einen Prüfstand, im SIA/VKF-Bestand keines; beide bisher gefahrenen
+   Abdeckungsläufe fanden in `established`-Destillaten erhebliche Lücken bei null falschen
    Werten (`wissen/normen/training/n62-3-pruefstand-kandidaten.md`). Bei einem breiten
-   Leistungs- oder Vollstaendigkeitsschluss darum das Original beiziehen, statt sich auf die
-   Abwesenheit einer Angabe im Destillat zu stuetzen. Ob daraus ein eigener Status wird,
+   Leistungs- oder Vollständigkeitsschluss darum das Original beiziehen, statt sich auf die
+   Abwesenheit einer Angabe im Destillat zu stützen. Ob daraus ein eigener Status wird,
    entscheidet die KB `normen` mit Raphael, nicht diese Rule.
 2. **Fundstelle nennen:** Norm + Ausgabe + Ziffer (z.B. «SIA 118:1991, Art. 172»).
    Ohne Fundstelle keine Norm-Behauptung — stattdessen als offen markieren und in

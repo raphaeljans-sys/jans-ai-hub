@@ -6176,17 +6176,17 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   Raphaels Entscheid, hier nur der Befund.
 - [ ] **N63-3 — Der Synthese-Artikel `wiki/synthese-sia-vkf-fachskills.md` braucht die eigene
   Durchsicht, die Run 63 selbst verlangt hat — bisher steht sie nur im CHANGELOG und im
-  Lauf-Report.** Der Artikel traegt `status: established` / `last_updated: 2026-07-17` und ist seit
-  dem 25.08.2026 im `INDEX.md` gefuehrt, also fuer `werkvertrag`, `ausschreibung`,
+  Lauf-Report.** Der Artikel trägt `status: established` / `last_updated: 2026-07-17` und ist seit
+  dem 25.08.2026 im `INDEX.md` geführt, also für `werkvertrag`, `ausschreibung`,
   `unternehmerkontrolle`, `honorarberechnung-sia102` und `brandschutz` auffindbar. Inzwischen
-  tragen **drei** voneinander unabhaengige Laeufe je einen inline gesetzten ⚠-Vorbehalt hinein:
+  tragen **drei** voneinander unabhängige Läufe je einen inline gesetzten ⚠-Vorbehalt hinein:
   Z. 270 (22.08.2026, VKF-Fassungen, Synergie-Lauf 15 / SYN-41), Z. 89 (26.08.2026,
   Quelle `sia-118-1991.md` auf `speculative`, Wissens-Chef Run 44) und Z. 176/177 (27.08.2026,
   Quelle `sia-102-2020.md` auf `speculative` plus eine korrigierte Fundstelle, Run 63). **Zwei der
-  im Frontmatter gefuehrten Quellen sind damit Entwurf, der Artikel selbst weiterhin gruen.** Rule
+  im Frontmatter geführten Quellen sind damit Entwurf, der Artikel selbst weiterhin grün.** Rule
   `normen-referenz` Ziff. 1b macht genau dieses Feld zum Entscheidungskriterium: wer es liest, sieht
   `established` und zitiert ohne Gegenlesen; die Vorbehalte stehen 89 bzw. 270 Zeilen tiefer.
-  **Der Statusentscheid gehoert dieser KB** (so schon Run 44 ausdruecklich) — hier nur die
+  **Der Statusentscheid gehört dieser KB** (so schon Run 44 ausdrücklich) — hier nur die
   Registrierung, damit die Durchsicht an einer Stelle steht, die ein Radar liest.
   Nachgetragen 27.08.2026, Synergie-Lauf 20 (SYN-54), Cross-KB-Bringschuld nach Rule
   `wissens-bibliothekar`.
