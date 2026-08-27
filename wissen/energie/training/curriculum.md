@@ -2612,3 +2612,28 @@ pruefbare Behauptung mit Verfallsdatum. Genau dort lagen beide Fehler.
 **Naechster Zuschnitt:** Raenge 21-40 der Backlink-Liste nach derselben Logik; parallel der
 Ruecklauf-Antrieb (E-R150-2, Kennwerte aus echten JANS-Projektofferten), der weiterhin unberuehrt
 ist und nichts mit dem Korpusende zu tun hat.
+
+## Run 165 (27.08.2026) — Ausgabenstand statt Transfer; die Frage hinter der Frage
+
+Das PDF-Inventar ist abgearbeitet; der Transfer-Block bestand aus **neuen Quellen aus dem Web**
+(Änderungsprotokoll AWEL, zwölf Formular-PDFs, HFM-Original, Merkblatt Fenster) statt aus dem
+Korpus. Zwei Lehren, beide übertragbar:
+
+1. **Es gibt drei verschiedene Aktualitätsfragen, nicht eine.** (a) Löst eine *andere* Quelle diese
+   ab? (b) Gibt es eine *neuere Ausgabe derselben* Quelle? (c) Ist die richtige Ausgabe *vollständig
+   erfasst*? Run 163 beantwortete (a) und schloss daraus falsch auf (b) — das kostete Run 164 zehn
+   Fundstellen. Dieser Lauf beantwortete (b) systematisch (Ergebnis: drei Bestätigungen) und stiess
+   dabei auf (c) als eigene, bisher nie gemessene Fehlerklasse.
+2. **Ein Begleitdokument ist der wahrscheinlichste Ort einer Abdeckungslücke.** Die Förderbroschüre
+   war vollständig gelesen; das zweiseitige **Änderungsprotokoll daneben** enthielt fünf Bedingungen,
+   die über die Förderfähigkeit entscheiden. Wer nur das Hauptdokument liest, kennt die Beträge und
+   nicht die Ausschlussgründe.
+
+**Werkzeug-Ertrag:** JS-gerenderte WordPress-Portale (hier die amtliche EnDK-Plattform) sind über
+`/wp-json/wp/v2/media?search=<begriff>&per_page=100` vollständig auslesbar — Dateiliste samt Upload-
+und Änderungsdatum. Das schliesst den Blocker E-R164-1 und macht Ausgabenstände dort maschinell
+prüfbar. Gleiche Familie wie die bisherigen Werkzeug-Lehren: **ein leeres Suchergebnis ist zuerst
+eine Aussage über das Werkzeug**, nicht über den Bestand.
+
+**Nächster Zuschnitt:** E-R165-1 (Begleitdokument-Prüfung der zehn meistzitierten Destillate),
+danach A-BLIND Ränge 61-80.

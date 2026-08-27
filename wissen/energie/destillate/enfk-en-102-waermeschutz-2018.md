@@ -198,3 +198,25 @@ weiterhin nur die Saetze «EN-100 bis EN-142 (MuKEn 2014)» und historisch «EN-
 Verwandt: `[[sia-380-1-heizwaermebedarf-berechnung]]`, `[[bauphysik-heizwaermebedarf-kennwerte]]`,
 `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`, `[[enfk-en-104-eigenstromerzeugung]]`,
 `[[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]`.
+
+---
+
+## Ausgabenstand-Prüfung 2026-08-27 (Run 165, E-R164-2) — Ausgabe Januar 2020 BESTÄTIGT
+
+Erstmals wurde nicht nur geprüft, ob eine **andere** Quelle diese Vollzugshilfe ablöst, sondern ob
+eine **neuere Ausgabe derselben** Vollzugshilfe existiert — die Frage, an der Run 164 beim Merkblatt
+Fenster gescheitert war.
+
+**Ergebnis: keine neuere Ausgabe.** Auf der amtlichen EnDK-Plattform `energiehub-gebaeude.ch` (Ziel
+des HTTP-301 von `endk.ch/de/fachleute-1/vollzugshilfen`) liegt als jüngste Datei
+`EN-102-d_Waermeschutz_3801_2016_2020Jan-2.pdf` (Upload 12.08.2025). PDF-Title «Vollzugshilfe EN-102»,
+CreationDate 20.02.2020, Fusszeile durchgehend **«Ausgabe Januar 2020 (Basis: Norm SIA 380/1, Ausgabe
+2016)»**. Der bisher defekte TG-Link ist damit durch eine amtliche, erreichbare Fundstelle ersetzt.
+
+**Die MuKEn-2025-Generation der Vollzugshilfen ist per 27.08.2026 nicht publiziert.** Der im
+Frontmatter vermerkte Vorbehalt («kantonale Umsetzung ZH ausstehend») bleibt damit gültig; er betrifft
+die künftige Ablösung, nicht den heutigen Stand.
+
+**Familien-Trennung beachten:** Die Nummer EN-102 trägt auch ein **Nachweisformular** (EN-102a/b/c,
+Versionen August 2020 / Oktober 2018 / Juni 2023, gültig bis 31.12.2026). Das ist ein anderes Dokument
+als diese Vollzugshilfe. Erhebung und Tabelle: `[[enfk-nachweisformulare-gueltigkeit-2026]]`.

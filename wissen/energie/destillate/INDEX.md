@@ -446,3 +446,22 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 **Kein neues Destillat angelegt.** Der vom Inventar-Agenten als «neu» gemeldete Willerzell-SolarReport
 ist seit Run 150 vollstaendig in [[pv-ertrag-eigenverbrauch-praxis]] verarbeitet — nur die
 Inventarzeile war nie abgehakt. `training/pdf-inventar.md` ist damit **vollstaendig geschlossen**.
+
+## Nachtrag Run 165 (27.08.2026) — E-R164-2: erste systematische Ausgabenstand-Prüfung
+
+Geprüft wurde nicht die Ablösung durch **andere** Quellen, sondern die Existenz einer **neueren
+Ausgabe derselben** Quelle — die Frage, an der Run 164 beim Merkblatt Fenster gescheitert war.
+
+| Destillat | Quelle | Status | Datenstand |
+|---|---|---|---|
+| [[foerderprogramm-zh-2026-aenderungsprotokoll]] (neu) | AWEL «Änderungsprotokoll Förderprogramm 2026» (Anpassungen_Förderbroschüre_2026.pdf), Volltext 2 S. via curl+pdftotext | established | 2026-08-27 / Version 01.01.2026 |
+| [[enfk-nachweisformulare-gueltigkeit-2026]] (neu) | Amtliche EnDK-Plattform energiehub-gebaeude.ch, 12 Formular-PDFs einzeln geladen (Fusszeile + pdfinfo) | established | 2026-08-27 / Formularsatz gültig bis 31.12.2026 |
+| [[enfk-en-102-waermeschutz-2018]] (Vermerk) | dito, Vollzugshilfe EN-102 am Original | **Ausgabe Januar 2020 BESTÄTIGT**, keine neuere Ausgabe; amtliche Fundstelle ersetzt den defekten TG-Link | 2026-08-27 |
+| [[gebaeudeprogramm-bund-hfm-2015]] (Vermerk) | endk.ch, HFM-PDF 136 S. am Original | **HFM 2015 / rev. September 2016 BESTÄTIGT**, kein «HFM 2025» | 2026-08-27 |
+| [[enfk-fensterblatt]] (Vermerk) | dito, Merkblatt_Fenster_D_2021.pdf | **E-R164-1 geschlossen**: einzige Ausgabe, SHA-256 byte-identisch mit dem Run-164-Hash | 2026-08-27 |
+| [[foerderprogramm-energie-zh-2026]] (Vermerk) | Änderungsprotokoll des AWEL | Ausgabe 01.01.2026 bestätigt; **fünf förderentscheidende Bedingungen nachgetragen** (Abdeckungs-, kein Ausgabenfehler) | 2026-08-27 |
+
+**Werkzeug-Nebenbefund:** Die JS-gerenderte Vollzugshilfen-Übersicht der EnDK ist über die
+WordPress-REST-API `/wp-json/wp/v2/media?search=<begriff>&per_page=100` vollständig auslesbar
+(Upload- und Änderungsdatum je Datei). Damit ist der Ausgabenstand dieser Plattform maschinell
+prüfbar und **E-R164-1** gegenstandslos.

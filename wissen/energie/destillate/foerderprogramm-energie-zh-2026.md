@@ -242,3 +242,30 @@ nicht rechtskraeftig beschlossen» ist damit beantwortet: rechtskraeftig beschlo
   (Gebaeudeprogramm; Pronovo PV-Einmalverguetung) — nicht Teil dieses kantonalen Hefts; bei Bedarf
   eigene Quelle. ⚠ Vor verbindlicher Zusage immer aktuellen Stand `zh.ch` / Hotline 0800 93 93 93
   pruefen (Budget kann unterjaehrig erschoepft sein).
+
+---
+
+## Nachtrag 2026-08-27 (Run 165): das AWEL publiziert ein Änderungsprotokoll zu dieser Broschüre
+
+Neben der Broschüre liegt in derselben amtlichen Dokumentenablage ein zweiseitiges
+**«Änderungsprotokoll Förderprogramm 2026»** (Datei `Anpassungen_Förderbroschüre_2026.pdf`,
+CreationDate 18.12.2025, ModDate 01.01.2026). Es listet seitengenau, welche Förderbedingungen **mit**
+der Ausgabe 01.01.2026 geändert wurden.
+
+**Wichtig für die Einordnung:** Das Protokoll ist **kein unterjähriger Nachtrag** — die Ausgabe
+01.01.2026 bleibt die geltende Fassung, und der Ausgabenstand dieses Destillats ist korrekt. Das
+Protokoll ist der **Diff 2025 → 2026** und macht Bedingungen sichtbar, die beim Lesen der Broschüre
+leicht überlesen werden.
+
+**Fünf Bedingungen daraus waren in dieser KB bis zum 27.08.2026 nicht erfasst**, obwohl die Broschüre
+am 26.06.2026 vollständig (S. 1-38) gelesen worden war: die GEAK-Aktualitäts- und Reihenfolgeregel
+(S. 11), die gestaffelte Zulässigkeit fossiler Sekundärheizungen nach Leistungsband (S. 14/15/18/20),
+der Ausschluss von Prozessenergie und reiner Warmwasseraufbereitung (S. 14/15/18/20), die 90-%-Regel
+der Gesamtsanierung samt Estrichboden-Ausnahme und EnV-Deckelung ab CHF 100'000 (S. 28) sowie die
+Sperre für Minergie-ECO nach bereits bezogenen Einzelmassnahmen (S. 32).
+
+Das ist ein **Abdeckungs-, kein Ausgabenfehler**: `established` bedeutet, dass die geprüften Werte
+stimmen, nicht dass die Quelle vollständig erfasst ist (Rule `normen-referenz` Ziffer 1c). Die
+Beitragshöhen dieses Destillats sind unverändert und zweifach primärquellenverifiziert.
+
+Volltext und Bauherren-Transfer: `[[foerderprogramm-zh-2026-aenderungsprotokoll]]`.

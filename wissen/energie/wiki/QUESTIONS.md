@@ -7382,3 +7382,60 @@ Volltext STRB 3879/2025) bleibt offen, in diesem Lauf nicht bearbeitet.
 **Für den nächsten Lauf:** **E-R164-2** zuerst — es ist der einzige neue Punkt, der eine ganze
 Klasse von Destillaten betrifft, und dieser Lauf hat gezeigt, was er kostet, wenn er offen bleibt.
 Danach A-BLIND Ränge 61-80 (Ranking-Skript in QUESTIONS, Eintrag 26.08.2026).
+
+## Lauf 165 (27.08.2026) — E-R164-2 durchgeführt, E-R164-1 geschlossen
+
+**✓ E-R164-2 (P2) ERLEDIGT — erste systematische Ausgabenstand-Prüfung.** Geprüft wurde die Frage
+«gibt es eine **neuere Ausgabe derselben** Quelle», nicht «löst eine **andere** Quelle sie ab».
+Ergebnis für die geprüften amtsnahen Spitzenreiter: **drei Bestätigungen, keine Korrektur** —
+Vollzugshilfe **EN-102 = Ausgabe Januar 2020**, **HFM 2015 / rev. September 2016**, **Merkblatt
+Fenster = Ausgabe 2021**. Zusätzlich erhoben: der nationale **Formularsatz EN-101a bis EN-141** wurde
+am 28.11.2025 sammelweise auf **«gültig bis 31.12.2026»** gestempelt, ohne inhaltliche Revision; die
+**MuKEn-2025-Generation ist nicht publiziert**. Destillat
+`[[enfk-nachweisformulare-gueltigkeit-2026]]`.
+
+**✓ E-R164-1 (P2) GESCHLOSSEN — keine Zwischen- oder Folgeausgabe des Merkblatts Fenster.** Der
+Blocker war das JS-Rendering der EnDK-Dokumentenliste. Die Plattform läuft auf WordPress; die
+REST-API `/wp-json/wp/v2/media?search=<begriff>&per_page=100` gibt die vollständige Dateiliste mit
+Upload- und Änderungsdatum heraus. Dort existiert genau **eine** Merkblatt-Fenster-Datei
+(`Merkblatt_Fenster_D_2021.pdf`), deren SHA-256 **byte-identisch** mit dem in Run 164 protokollierten
+Hash ist. Damit ist Run 164 aus zweiter, unabhängiger Fundstelle bestätigt.
+
+**✓ Nebenertrag: fünf förderentscheidende Bedingungen nachgetragen.** Das AWEL publiziert neben der
+Förderbroschüre ein **Änderungsprotokoll** (`Anpassungen_Förderbroschüre_2026.pdf`). Es ist **kein
+unterjähriger Nachtrag** — die Ausgabe 01.01.2026 bleibt geltend —, enthält aber fünf Bedingungen,
+die die KB trotz vollständiger Broschürenlektüre (26.06.2026, S. 1-38) nicht erfasst hatte:
+GEAK-Jahresfrist und Reihenfolgeregel, fossile Sekundärheizung nach Leistungsband, Ausschluss von
+Prozessenergie/reiner WW-Aufbereitung, 90-%-Regel der Gesamtsanierung mit EnV-Deckelung ab
+CHF 100'000, Minergie-ECO-Sperre nach Einzelmassnahmen. Destillat
+`[[foerderprogramm-zh-2026-aenderungsprotokoll]]`, verdichtet in **F7** und **F82**.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R165-1 (P2): Abdeckungslücke ist eine eigene Fehlerklasse — und sie ist nicht gemessen.**
+  Der Förder-Fund war kein Ausgabenfehler, sondern eine **Abdeckungslücke**: die richtige Ausgabe war
+  vollständig gelesen worden, und fünf Bedingungen fehlten trotzdem. Rule `normen-referenz` Ziffer 1c
+  beschreibt genau das für die KB `normen` («`established` heisst geprüfte Werte stimmen, nicht Quelle
+  vollständig erfasst»). Für `energie` ist diese Klasse nie erhoben worden. Vorschlag: bei den zehn
+  meistzitierten Destillaten prüfen, ob die Quelle ein **Begleitdokument** hat (Änderungsprotokoll,
+  Korrigenda, FAQ, Merkblatt, Anhang) — Begleitdokumente sind der wahrscheinlichste Ort solcher Lücken.
+- [ ] **E-R165-2 (P2): Gültigkeitsende des Formularsatzes am 31.12.2026 ist ein Terminrisiko.**
+  Ob die Kantone erneut verlängern oder die MuKEn-2025-Generation einführen, ist offen und ohne
+  angekündigten Termin. Ab **Oktober 2026** monatlich an der EnDK-Plattform prüfen (REST-API-Abfrage
+  genügt); für Projekte mit Baueingabe Anfang 2027 ist die Frage beratungsrelevant.
+- [ ] **E-R165-3 (P3): Änderungsprotokoll für den Kanton Schwyz nicht geprüft.**
+  Ob das AfU SZ ein entsprechendes Begleitdokument zum Förderprogramm 2026 publiziert, wurde nicht
+  untersucht → `[[foerderprogramm-energie-sz-2026]]`. Gleiche Frage für die Folgejahre in ZH: ob das
+  AWEL das Protokoll **jährlich** publiziert, ist nicht belegt (nur die Ausgabe 2026 aufgefunden).
+- [ ] **E-R165-4 (P3): Ausgabenstand-Sweep deckt zwölf EN-Nummern ab, nicht den ganzen Satz.**
+  Nicht einzeln geöffnet: EN-106, EN-113, EN-121 bis EN-123, EN-130 bis EN-136, EN-140, EN-142.
+  Geringe Priorität, weil die Sammel-Neustempelung vom 28.11.2025 alle Dateien gleich behandelt hat.
+
+**Unverändert blockiert, nicht erneut aufgreifen:** E-R148-1 (Normkauf SIA 380/1:2016), E-R161-1
+(SN EN ISO 6946), E-R230-2 und E103 (beide Entscheid Raphael). **E-R163-1** (ewz-Fernwärmetarif,
+Volltext STRB 3879/2025) bleibt offen, in diesem Lauf nicht bearbeitet. **E-R164-3** (Werkzeug
+`datenstand-waechter.py`) unverändert offen.
+
+**Für den nächsten Lauf:** **E-R165-1** zuerst (Begleitdokument-Prüfung der zehn meistzitierten
+Destillate) — derselbe Hebel wie E-R164-2, eine Ebene tiefer, und dieser Lauf hat gezeigt, dass die
+Klasse real ist. Danach A-BLIND Ränge 61-80.

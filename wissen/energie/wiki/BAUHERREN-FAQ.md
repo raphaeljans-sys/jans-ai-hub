@@ -407,6 +407,24 @@ Antragsstopp auffindbar. Energierecht/Heizverbot → Skill `baurecht`.
 
 ---
 
+**Nachtrag 27.08.2026 — drei Bedingungen aus dem amtlichen Änderungsprotokoll, die Gesuche kippen:**
+1. **Gesamtsanierung, 90-%-Regel:** Mindestens **90 % aller Bauteilflächen gegen Aussenklima**
+   (ohne Fenster und Türen) müssen nach der Basismassnahme gedämmt werden. Bei **Aufstockungen und
+   Anbauten** zählen nur die bestehen bleibenden Flächen; bei unbeheiztem Dachboden darf statt des
+   Dachs der **Estrichboden** gedämmt werden — dessen Fläche zählt dann für die Anforderung, aber
+   **nicht für den Förderbeitrag**.
+2. **Deckelung:** Ab einer Fördersumme von **CHF 100'000** gelten die **Minimalfördersätze nach der
+   eidg. Energieverordnung (EnV)**; Maximum bleibt **CHF 500'000 je Gesuch**.
+3. **Weichenstellung Minergie-ECO:** Wer für dieselbe Liegenschaft bereits Fördergelder für
+   **Einzelmassnahmen** bezogen hat, kann **kein Gesuch mehr für eine Modernisierung nach
+   Minergie-ECO** stellen (Ausnahme: Erstinstallation Wärmeverteilsystem). Diese Entscheidung fällt
+   zu Beginn der Planung, nicht am Ende — Einzelmassnahmen **oder** ECO-Modernisierung.
+
+**Quelle des Nachtrags:** AWEL, «Änderungsprotokoll Förderprogramm 2026»
+(Anpassungen_Förderbroschüre_2026.pdf, CreationDate 18.12.2025), am 27.08.2026 im Volltext gelesen
+→ `[[foerderprogramm-zh-2026-aenderungsprotokoll]]`. Datenstand 01.01.2026, Ausgabe am selben Tag
+als geltend bestätigt.
+
 ## F13 — «Wie gross muss meine Heizung sein?»
 
 **Kurz:** Als grobe Faustregel braucht ein **Neubau ~25–40 Watt je m²** beheizte Fläche, ein
@@ -3640,6 +3658,23 @@ Gesetzeswortlaut — vor einer verbindlichen Einzelfall-Aussage am kantonalen En
 verifizieren.
 
 ---
+
+**Nachtrag 27.08.2026 — der GEAK hat für die Förderung ein Verfalldatum und eine Reihenfolge:**
+- **Aktualität:** Das **Publikationsdatum des GEAK darf bei Gesuchstellung nicht älter als ein Jahr
+  sein.** Bei Gebäudeanalysen nach Pflichtenheft BFE ist das **Ausstellungsdatum** massgebend. Ein
+  auf Vorrat erstellter GEAK ist für die Förderung wertlos, sobald er dieses Jahr überschreitet.
+- **Reihenfolge (die teure Falle):** Existiert für dieselbe Liegenschaft ein Fördergesuch für
+  **Wärmedämmung mit voraussichtlichem Beitrag ≥ CHF 10'000**, so muss das **Ausstellungsdatum des
+  Beratungsberichts VOR der Online-Erfassung** des Dämmungsgesuchs liegen. Es genügt also nicht,
+  den GEAK Plus zu haben — er muss **früher datiert** sein als die Gesuchseingabe.
+
+**Praktisch für die Bauherrenberatung:** Bei etappierten Sanierungen den GEAK Plus **zeitlich an das
+Gesuch heranrücken** (nicht zu früh bestellen, nicht zu spät), und die Gesuchseingabe erst nach
+Erhalt des datierten Beratungsberichts auslösen.
+
+**Quelle:** AWEL, «Änderungsprotokoll Förderprogramm 2026», S. 11, am 27.08.2026 im Volltext gelesen
+→ `[[foerderprogramm-zh-2026-aenderungsprotokoll]]`. Gilt für den Kanton Zürich; für **SZ** ist ein
+entsprechendes Protokoll nicht geprüft.
 
 ## F83 — «Was kostet mich im Kanton Schwyz der Fernwärmeanschluss — und was der Strom-Netzanschluss für PV und Ladestationen?»
 
@@ -8989,3 +9024,39 @@ Drei Punkte gehören dazu, sonst wird die Erleichterung falsch verstanden:
 **Bauherren-Transfer:** Wenn Sie eine Erdsonde planen, prüfen Sie das Kühlkonzept **früh und zusammen mit dem Sonnenschutz**, nicht getrennt. Die Kombination Erdsonde plus Free-Cooling ist in unserer Wissensbasis mehrfach als der wirtschaftlich attraktive Kühlweg belegt (→ `[[betonkernaktivierung-tabs-energieeffizienz]]`, `[[erdsonden-regeneration-sondenfeld-dimensionierung]]`) — sie spart nicht nur die Kältemaschine und deren Strom, sondern nach dieser Regel auch die Fassaden-Automatik. Umgekehrt: **wer nachträglich eine Kältemaschine ergänzt, holt die Steuerungspflicht mit.** Das gehört in den Entscheid hinein, nicht danach.
 
 **Quelle:** EnFK/EnDK, Vollzugshilfe EN-102 «Wärmeschutz von Gebäuden», Ausgabe **Januar 2020** (Basis SIA 380/1:2016), Kap. 8.1 — am 24.08.2026 direkt am PDF gelesen (`energiehub-gebaeude.ch`, Upload 08/2025) → `[[enfk-en-102-waermeschutz-2018]]`, `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`. **Datenstand-Hinweis:** die Passage kam mit der Revision **Sept. 2019** hinzu; die noch kursierende Vorauflage **Dezember 2018** derselben Vollzugshilfe enthält sie **nicht** — beide Ausgaben wurden am 24.08.2026 im Volltext verglichen, alle Grenzwert-Tabellen sind zwischen ihnen identisch. ⚠ **Nicht belegt:** ob die Free-Cooling-Erleichterung unter **MuKEn 2025 Art. 1.9** gleich weiterläuft; deren Ausnahme ist anders gefasst (reversible Wärmepumpen in Wohnbauten ohne aktive Kühlabgabeelemente). Solange weder ZH noch SZ die MuKEn 2025 umgesetzt haben (Stand 24.08.2026, → F47), gilt die EN-102-Regel.
+
+
+## F259 — «Mit welchen Energienachweis-Formularen muss ich 2026 rechnen — und ändert sich das zum Jahreswechsel?»
+
+**Kurz-Antwort für den Bauherrn:** Für das ganze Jahr 2026 gilt der bekannte Formularsatz — die
+Kantone haben ihn Ende November 2025 unverändert weiterlaufen lassen und die Gültigkeit auf den
+**31.12.2026** verlängert. Es gibt also 2026 keinen Wechsel der Nachweisregeln. Offen ist der
+**Jahreswechsel 2026/27**: dann läuft die Gültigkeit aus, und ob die Kantone erneut verlängern oder
+die neue MuKEn-2025-Generation einführen, ist heute nicht entschieden. Bei Projekten mit Baueingabe
+Anfang 2027 gehört das als Terminrisiko in die Planung.
+
+**Fachlich:** Der nationale Nachweisformular-Satz der Kantone (EN-101a bis EN-141) wurde am
+**28.11.2025** vollständig neu gestempelt: alle zwölf geprüften Formulare tragen neu **«gültig bis
+31.12.2026»**, während ihre **Sachversionen unverändert** blieben (September 2016 bis Juni 2023).
+Identischer Änderungstag über alle Dateien bei unveränderten Sachversionen heisst: reine
+Gültigkeitsverlängerung, keine inhaltliche Revision. Die **MuKEn-2025-Generation** der Formulare und
+Vollzugshilfen ist per 27.08.2026 **nicht publiziert** und ohne angekündigten Termin — auch die
+Vollzugshilfe **EN-102 «Wärmeschutz von Gebäuden»** steht unverändert auf **Ausgabe Januar 2020**
+(Basis SIA 380/1:2016).
+
+**Eine Verwechslung, die immer wieder Datumsstreit erzeugt:** Unter derselben Nummer «EN-102» laufen
+**zwei verschiedene Dokumente** — die **Vollzugshilfe** (erklärendes Fachdokument mit den
+Grenzwerten, Ausgabe Januar 2020) und das **Nachweisformular** (EN-102a/b/c, Versionen August 2020 /
+Oktober 2018 / Juni 2023). Eine Fundstelle ist erst eindeutig, wenn die Dokumentfamilie mitgenannt
+wird.
+
+**Im Kanton Zürich** ist seit dem **1.1.2026** ohnehin nicht mehr das Papierformular das
+Einreichemedium, sondern die Plattform **EVEN** (energievollzug.ch); die nationalen Formulare geben
+dort weiterhin die inhaltliche Struktur vor → F-Einträge zum Energienachweis und
+`[[en-zh-nachweis-uebersicht]]`.
+
+**Quelle:** Amtliche EnDK-Plattform energiehub-gebaeude.ch (Ziel des HTTP-301 von
+endk.ch/de/fachleute-1/vollzugshilfen); zwölf Formular-PDFs am 27.08.2026 einzeln geladen und je
+Fusszeile und PDF-Metadaten ausgewertet. Destillat mit vollständiger Tabelle:
+`[[enfk-nachweisformulare-gueltigkeit-2026]]`, dazu `[[enfk-en-102-waermeschutz-2018]]`.
+⚠ **Datenstand 2026-08-27.** Die Gültigkeitsfrage 2027 ist offen und vor einer Terminzusage neu zu prüfen.

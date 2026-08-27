@@ -359,3 +359,16 @@ gesehen zu haben».
 **`energiehub-gebaeude.ch`** um; Vollzugshilfen unter `/fachleute/vollzugshilfen/`. Dort werden
 weiterhin nur die Saetze «EN-100 bis EN-142 (MuKEn 2014)» und «EN-1 bis EN-16 (MuKEn 2008)"
 gefuehrt — kein MuKEn-2025-Satz (Abruf 24.08.2026).
+
+## Nachtrag 27.08.2026 (Run 165) — Portal maschinell auslesbar, MuKEn-2025-Satz weiterhin nicht publiziert
+
+Der Vermerk vom 24.08.2026 (nur «EN-100 bis EN-142 (MuKEn 2014)» und «EN-1 bis EN-16 (MuKEn 2008)»,
+kein MuKEn-2025-Satz) ist am 27.08.2026 **bestätigt** — und die Erhebung ist jetzt nicht mehr auf die
+gerenderte Seitenansicht angewiesen: die Plattform läuft auf WordPress, ihre REST-API
+`https://energiehub-gebaeude.ch/wp-json/wp/v2/media?search=<begriff>&per_page=100` liefert die
+vollständige Dateiliste mit Upload- und Änderungsdatum (66 EN-Treffer).
+
+**Erhoben:** Der nationale Formularsatz (EN-101a bis EN-141, Upload 13.01.2026) wurde am **28.11.2025**
+sammelweise auf **«gültig bis 31.12.2026»** gestempelt, bei unveränderten Sachversionen
+(September 2016 bis Juni 2023). Die Vollzugshilfe **EN-102** steht unverändert auf **Ausgabe Januar
+2020**. Destillat: `destillate/enfk-nachweisformulare-gueltigkeit-2026.md`.

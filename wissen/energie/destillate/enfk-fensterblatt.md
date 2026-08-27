@@ -336,3 +336,25 @@ WebFetch nicht auslesbar). Der Nachweis stützt sich auf das Dokument selbst, da
 trägt. Für einen verbindlichen Nachweis zusätzlich den kantonalen Stand prüfen (EN-102/EVEN,
 → `[[enfk-en-102-waermeschutz-2018]]`, das seinerseits für Normfenster-Kennwerte auf dieses
 Merkblatt verweist).
+
+---
+
+## E-R164-1 GESCHLOSSEN am 2026-08-27 (Run 165) — keine Zwischen- oder Folgeausgabe
+
+Run 164 musste offenlassen, ob zwischen der Ausgabe 2009 und der Ausgabe 2021 eine weitere Fassung
+liegt oder der Ausgabe 2021 bereits eine neuere gefolgt ist; die EnDK-Dokumentenliste ist JS-gerendert
+und gab per curl keine Dateiliste heraus.
+
+**Der Blocker ist gelöst und die Frage beantwortet.** Die Plattform läuft auf WordPress; ihre
+REST-API `/wp-json/wp/v2/media?search=Merkblatt&per_page=100` liefert die vollständige Dateiliste.
+Zum Stichwort «Fenster» existiert dort **genau eine** Merkblatt-Datei: `Merkblatt_Fenster_D_2021.pdf`
+(Upload 07.02.2023, PDF-CreationDate 18.02.2021, 16 Seiten). Der SHA-256 der von dieser amtlichen
+Ablage geladenen Datei ist
+`95c204f63e11e54ef1ce7c610cab0fbbd91029b0bad5f7aac427d8305aed0ddd` — **byte-identisch** mit dem in
+Run 164 protokollierten Hash. Die Rahmen-Rechenwerte Holz/Holz-Metall **1,4** · Kunststoff **1,9** ·
+wärmegedämmte Verbundprofile **2,5** · Metallprofile **3,3** W/(m²·K) wurden im Volltext erneut
+gelesen und bestätigt.
+
+Damit ist der Befund von Run 164 aus einer **zweiten, unabhängigen Fundstelle** bestätigt (dort über
+den 301-Redirect, hier über die Medienbibliothek derselben Plattform) und **E-R164-1 erledigt**.
+Sweep-Kontext: `[[enfk-nachweisformulare-gueltigkeit-2026]]`.

@@ -131,3 +131,26 @@ Details → `[[zh-energiegesetz-revision-solarpflicht-2026]]`.
   → `[[pv-einmalverguetung-bund-bfe]]`. Verbleibt: konkrete M-02…M-18-Sätze je Kanton (nur bei Projekt-
   bedarf), Schwyzer Förderprogramm (SZ) als Gegenstück.
 - ⚠ Budget kann unterjährig erschöpft sein — vor Zusage Stand `zh.ch` / Hotline 0800 93 93 93 prüfen.
+
+## Nachtrag 27.08.2026 — das Änderungsprotokoll des AWEL (fünf Bedingungen jenseits der Beträge)
+
+Das AWEL publiziert neben der Förderbroschüre ein zweiseitiges **Änderungsprotokoll**, das den Diff
+2025 → 2026 seitengenau festhält. Es ist **kein unterjähriger Nachtrag** — die Ausgabe 01.01.2026
+bleibt geltend —, macht aber fünf Bedingungen sichtbar, die über die **Förderfähigkeit** entscheiden
+und nicht über die Beitragshöhe:
+
+1. **GEAK-Aktualität:** Publikationsdatum bei Gesuchstellung **nicht älter als ein Jahr**; bei
+   Gebäudeanalysen nach Pflichtenheft BFE zählt das Ausstellungsdatum.
+2. **Reihenfolge bei Wärmedämmung ≥ CHF 10'000:** Das **Ausstellungsdatum des Beratungsberichts muss
+   vor der Online-Erfassung** des Dämmungsgesuchs liegen.
+3. **Fossile Sekundärheizung gestaffelt:** bis 70 kWth und 70-100 kWth ohne fossile Sekundärheizung,
+   ab 100 kWth **max. 10 %** des Gesamtwärmebedarfs fossil.
+4. **Zweckbindung Raumwärme:** **Prozessenergie und alleinige Warmwasseraufbereitung sind nicht
+   förderberechtigt** — relevant für Healthcare, Hotellerie und Gewerbe mit hohem WW-Anteil.
+5. **Gesamtsanierung:** **90 % aller Bauteilflächen** gegen Aussenklima (ohne Fenster/Türen) gedämmt;
+   Estrichboden zulässig statt Dach (zählt nicht für den Beitrag); ab **CHF 100'000** Fördersumme
+   EnV-Minimalsätze, Maximum **CHF 500'000/Gesuch**; nach bezogenen **Einzelmassnahmen kein
+   Minergie-ECO-Gesuch** mehr (Ausnahme Erstinstallation Wärmeverteilsystem).
+
+Volltext, Seitenangaben und Bauherren-Transfer: `[[foerderprogramm-zh-2026-aenderungsprotokoll]]`.
+FAQ-Verdichtung in **F7** (Bedingungen) und **F82** (GEAK-Frist und Reihenfolge).

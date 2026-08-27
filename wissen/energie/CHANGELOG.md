@@ -1,5 +1,57 @@
 # CHANGELOG
 
+## 2026-08-27 (Run 165, Scheduled Task) — E-R164-2 durchgeführt: Ausgabenstand systematisch geprüft, drei Bestätigungen, eine Abdeckungslücke gefunden; E-R164-1 geschlossen
+
+**Der Auftrag.** Run 164 hatte als Kernbefund hinterlassen, dass die KB stets nur prüft, ob eine
+**andere** Quelle ein Destillat ablöst — nie, ob eine **neuere Ausgabe derselben** Quelle existiert.
+Genau daran war das «Merkblatt Fenster» gebrochen (zehn Fundstellen berichtigt).
+
+**Das Ergebnis: keine Korrektur nötig, drei Bestätigungen.** Vollzugshilfe **EN-102 = Ausgabe Januar
+2020** (PDF-Title «Vollzugshilfe EN-102», CreationDate 20.02.2020, Fusszeile durchgehend);
+**HFM 2015, revidierte Fassung September 2016** (136 S., CreationDate 08.12.2016, Titelblatt
+wörtlich), kein «HFM 2025»; **Merkblatt Fenster Ausgabe 2021**, SHA-256 `95c204f6…5aed0ddd`
+**byte-identisch** mit dem Run-164-Hash. Run 164 hat also nicht überkorrigiert — die dort geänderten
+Fundstellen stehen jetzt auf einer zweiten, unabhängigen Fundstelle.
+
+**Neu erhoben: der nationale Formularsatz läuft bis 31.12.2026.** Alle zwölf geprüften Formulare
+(EN-101a bis EN-141) tragen denselben **ModDate 28.11.2025** und dieselbe neue Gültigkeit
+«bis 31.12.2026», bei **unveränderten Sachversionen** (September 2016 bis Juni 2023) — eine
+Sammel-Neustempelung, keine inhaltliche Revision. Die **MuKEn-2025-Generation ist nicht publiziert**.
+Festgehalten ist zugleich die Trennung der zwei Dokumentfamilien unter derselben Nummer:
+**Vollzugshilfe** (Fachdokument) gegen **Nachweisformular** (Eingabeformular) — die Hauptursache
+widersprüchlicher Datumsangaben zu EN-Nummern. Neues Destillat
+`destillate/enfk-nachweisformulare-gueltigkeit-2026.md`.
+
+**Der methodisch wichtigste Fund war ein Nebenertrag.** Das AWEL publiziert neben der Förderbroschüre
+ein zweiseitiges **Änderungsprotokoll** (`Anpassungen_Förderbroschüre_2026.pdf`, CreationDate
+18.12.2025). Es ist **kein unterjähriger Nachtrag** — die Ausgabe 01.01.2026 bleibt geltend —, enthält
+aber **fünf förderentscheidende Bedingungen**, welche die KB trotz vollständiger Broschürenlektüre
+(26.06.2026, S. 1-38) nicht erfasst hatte: GEAK-Jahresfrist, Reihenfolgeregel (Beratungsbericht muss
+**vor** der Gesuchserfassung datiert sein, ab CHF 10'000 Dämmungsbeitrag), fossile Sekundärheizung
+nach Leistungsband (ab 100 kWth max. 10 %), Ausschluss von Prozessenergie und reiner
+Warmwasseraufbereitung, 90-%-Regel der Gesamtsanierung mit EnV-Deckelung ab CHF 100'000 und
+Minergie-ECO-Sperre nach Einzelmassnahmen. Neues Destillat
+`destillate/foerderprogramm-zh-2026-aenderungsprotokoll.md`.
+
+**Das ist ein Abdeckungs-, kein Ausgabenfehler** — eine Fehlerklasse, die der Hub bisher nur für die
+KB `normen` benannt hat (Rule `normen-referenz` Ziffer 1c: `established` heisst «die geprüften Werte
+stimmen», nicht «die Quelle ist vollständig erfasst»). Für `energie` ist sie nie gemessen worden und
+neu als **E-R165-1** offen, mit der Vermutung, wo sie sitzt: in **Begleitdokumenten** neben dem
+Hauptdokument.
+
+**E-R164-1 geschlossen, Werkzeug-Ertrag.** Der Blocker war das JS-Rendering der EnDK-Dokumentenliste.
+Die Plattform läuft auf WordPress; die REST-API `/wp-json/wp/v2/media?search=<begriff>&per_page=100`
+liefert die vollständige Dateiliste samt Upload- und Änderungsdatum (66 EN-Treffer). Zum Merkblatt
+Fenster existiert dort genau **eine** Datei — keine Zwischen- oder Folgeausgabe.
+
+**Block 2 erfüllt:** **F7** (Förderbedingungen) und **F82** (GEAK-Frist und Reihenfolge) geschärft,
+**F259** neu («Mit welchen Nachweisformularen muss ich 2026 rechnen?»), Themenartikel
+`wiki/foerderung-energie-zh.md` gewachsen. Zwei neue Destillate, zehn Dateien append-only ergänzt,
+**kein Kennwert eines bestehenden Destillats geändert**. Terminfolge (Gültigkeitsende 31.12.2026)
+zusätzlich in `logbuch/fristen.md` eingetragen (Rule 260805).
+
+Beleg und Herleitung: `wissen/energie/outputs/2026-08-27_energie-run165.md`.
+
 ## 2026-08-26 (Wissens-Chef Run 44) — Rückverweis auf die führende KB `normen` gesetzt; halb veraltete Ausgaben-Warnung präzisiert
 
 Eingriff in `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (+13/−0, rein additiv,

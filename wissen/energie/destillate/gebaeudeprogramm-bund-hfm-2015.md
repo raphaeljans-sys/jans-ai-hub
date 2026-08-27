@@ -109,3 +109,20 @@ Minergie-ECO 110/70/50 usw.) siehe `[[foerderprogramm-energie-zh-2026]]` / `[[fo
 
 → Backlinks: `[[foerderung-energie-zh]]`, `[[foerderprogramm-energie-zh-2026]]`,
 `[[pv-einmalverguetung-bund-bfe]]`, `[[energienachweis-zh]]`, BAUHERREN-FAQ F7 / F27.
+
+---
+
+## Ausgabenstand-Prüfung 2026-08-27 (Run 165, E-R164-2) — HFM 2015 BESTÄTIGT
+
+Geprüft wurde, ob eine neuere Ausgabe des Harmonisierten Fördermodells existiert (etwa ein «HFM 2025»
+im Gefolge der MuKEn 2025). **Ergebnis: nein.** Die EnDK führt weiterhin
+`endk.ch/wp-content/uploads/2025/07/Harmonisiertes-Foerdermodell-2015-D.pdf` als geltendes Dokument
+(Upload Juli 2025). Das PDF selbst geladen: 136 Seiten, PDF-Title «Microsoft Word - hfm2015.docx»,
+CreationDate 08.12.2016, Titelblatt «Harmonisiertes Fördermodell der Kantone (HFM 2015),
+Schlussbericht, **Revidierte Fassung vom September 2016**, von der Konferenz Kantonaler
+Energiedirektoren EnDK anlässlich der Plenarversammlung vom **21. August 2015** verabschiedet»
+(Herausgeber BFE + EnFK, Bearbeitung INFRAS).
+
+Die Frontmatter-Angabe dieses Destillats ist damit an der Primärquelle bestätigt. Ein
+MuKEn-2025-bedingter Nachfolger ist weder publiziert noch mit Termin angekündigt.
+Sweep-Kontext: `[[enfk-nachweisformulare-gueltigkeit-2026]]`.

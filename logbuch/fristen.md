@@ -4082,3 +4082,23 @@ Prompts liegen ausserhalb des Repos, und eine Änderung an Meldekanälen ist kei
 sie gehört nicht in einen unbeaufsichtigten Lauf. Gesetzt hat dieser Lauf nur den Zeiger im
 Wege-Register, der die vier Kanäle beim Namen nennt.
 | Befund SYN-50 im Register `wissen/koordination/SYNERGIE-REGISTER.md`; Belege am Objekt gelesen 26.08.2026 17:2x (Commit `d80a58ffb`, `connectors/WEGE.md` Z. 45 und 696 ff., `rules/betrieb-chronik.md` 260826, die vier Task-Prompts) | Hub/Meldekanäle | hoch | offen |
+
+## 27.08.2026 — Energienachweis-Formularsatz der Kantone: Gültigkeit endet am 31.12.2026
+
+**Was gilt.** Die EnDK hat den nationalen Nachweisformular-Satz (EN-101a bis EN-141) am **28.11.2025**
+sammelweise neu gestempelt auf **«gültig bis 31.12.2026»**, ohne die Formulare inhaltlich zu
+revidieren (Sachversionen unverändert September 2016 bis Juni 2023). Für das ganze Jahr 2026 gilt
+damit der bekannte Satz; die Vollzugshilfe **EN-102** steht unverändert auf **Ausgabe Januar 2020**.
+
+**Warum das eine Frist ist.** Am **31.12.2026** läuft die Gültigkeit aus. Ob die Kantone erneut
+verlängern oder die **MuKEn-2025-Generation** einführen, ist offen und **ohne angekündigten Termin**
+(die MuKEn-2025-Vollzugshilfen sind per 27.08.2026 nicht publiziert). Für Projekte mit **Baueingabe
+Anfang 2027** ist das ein Terminrisiko, das in der Terminplanung und gegenüber der Bauherrschaft
+anzusprechen ist — nicht erst im Dezember.
+
+**Konkret zu tun.** Ab **Oktober 2026 monatlich** den Stand an der amtlichen EnDK-Plattform prüfen;
+eine Abfrage genügt und ist maschinell möglich:
+`curl -s "https://energiehub-gebaeude.ch/wp-json/wp/v2/media?search=EN-&per_page=100"` (die
+gerenderte Seitenansicht ist JS-basiert und gibt nichts heraus).
+
+| Beleg: `wissen/energie/destillate/enfk-nachweisformulare-gueltigkeit-2026.md` (zwölf Formular-PDFs am 27.08.2026 einzeln geladen, Fusszeile und PDF-Metadaten je Datei ausgewertet); Laufbericht `wissen/energie/outputs/2026-08-27_energie-run165.md`; offener Punkt E-R165-2 | Projekte/Baueingabe ZH+SZ | mittel | offen, Prüfbeginn Oktober 2026 |
