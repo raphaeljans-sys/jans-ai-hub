@@ -4,6 +4,28 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-27 05:30 (Mac Mini Nachtschicht) — Sechs weitere offene Fragen aus QUESTIONS.md recherchiert (Balisat, Chamberlin, Cheung_Simon, E_Architekten, FHV, Handa_Heike_Prof)
+
+Prioritaeten 1-3 leer/nicht umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
+weiterhin vollstaendig 853/853, `vectors.npz` unveraendert seit 24.08.; Fristen-Register fuehrt
+nur bereits bekannte «Aktion Raphael»-Punkte, nichts fuer diesen Lauf). Prioritaet 4: `energie`
+und `normen` sind an ihren eigenen taeglichen Scheduled Tasks (letzte Laeufe 26.08. 22:48 bzw.
+27.08. 01:42), `twin` am eigenen Fragesteller-Takt (27.08. 03:51) — alle drei damit kein
+gueltiges freies Ziel; `bauprodukte`/`grobkosten` formal erledigt/ausgesetzt, `baurecht`/
+`planungsgrundlagen`/`wettbewerbs-dna` per Vorgabe ausgeschlossen. Auf Prioritaet 5 ausgewichen,
+gleiche Methodik wie die Laeufe vom 24./26.08.: sechs weitere offene Identitaets-/Sachfragen aus
+`wiki/QUESTIONS.md` per WebSearch geklaert (direkt im Hauptkontext, kein Fan-out).
+
+Zwei Fragen mit belastbarem Ergebnis geklaert (Chamberlin als Chamberlin, Powell and Bon /
+Barbican Estate bestaetigt; FHV als Fruehauf, Henry & Viladoms, Lausanne 2008, bestaetigt),
+zwei mit plausiblem, aber nicht direkt belegtem Namens-Tippfehler-Kandidaten (Balisat →
+vermutlich Balissat Kaçani, Baden; Handa_Heike_Prof → vermutlich Heike Hanada, TU Dortmund/
+Bauhaus-Museum Weimar), zwei ohne belastbaren Treffer (Cheung_Simon, E_Architekten). Details je
+Frage mit Quellenangabe direkt in `wiki/QUESTIONS.md`. Keine Ordnerumbenennung vorgenommen
+(Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
+`git diff --numstat` nativ zu pruefen vor dem Commit (Rule `auto-verbesserungen` 260811): nur
+additive Ergaenzung an den sechs Bulletzeilen, keine Loeschung von Bestand.
+
 ## 2026-08-26 23:31 (Mac Mini Nachtschicht) — Sechs weitere offene Fragen aus QUESTIONS.md recherchiert (Baumann_Ludwig, Arbeitsgruppe_4, BIQ_Architekten, Bicvardo_Arcitects, Boesch_Ivo, DECARVALHO_BOTELHO)
 
 Prioritaeten 1-3 leer/nicht umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
