@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-08-27
 gewichtung: authentisch
-sources: [260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1550,3 +1550,26 @@ Die Mail vom 07.08.2026 zeigt dieselbe Haltung fachlich: die Frage nach der Duns
 nicht als eigene Empfehlung hinaus, sondern als Bitte um einen Vorschlag «**in Absprache mit dem
 UGZ**» — die Beurteilung bleibt beim Fachplaner und der Behörde. Der Zwilling behielt in beiden
 Blindfassungen die Führung bei sich.
+
+## Batch 106 (26.08.2026) — durchstellen statt Nadelöhr sein
+
+**Raphael sichert seine Position nicht durch Informationskontrolle.** In der Mail vom
+26.08.2026 15:58 (`authentisch`) gibt er den vollständigen **Kontaktblock zweier Fachleute** in
+den Body («Hier die jeweilige Koordinaten der Planer für Koordinationsfragen vorab») und
+adressiert die beiden mit einer Zwischenzeile **«@<Fachplaner> & <Unternehmer>»** mitten im
+Fliesstext. Er koppelt zwei Beteiligte direkt aneinander — und tut das **vorab**, vor der
+Sitzung, damit sie ohne ihn vorwärtskommen. Ein Projektleiter, der sich für unentbehrlich halten
+wollte, täte das Gegenteil.
+
+Dieselbe Bewegung am selben Tag fachlich (08:28): die Frage, ob Leitungen in der zertifizierten
+Wand zulässig sind, geht **an den Zulassungsinhaber** — «Darf ich Euch bitten das Mail vom QS …
+zu beantworten wie das vorgehen ist für Euch … als Zulassungsinhaber». Er beurteilt nicht selbst,
+was er nicht verantworten kann, und delegiert die Aussage an den, der dafür haftet. Vierter
+Beleg der Linie «delegierte Abstimmungen statt eigener Entscheide» (Batch 105) und derselbe
+Reflex wie beim «in Absprache mit dem UGZ» vom 07.08.2026: **die Beurteilung bleibt bei dem, der
+sie verantwortet — die Koordination bleibt bei ihm.**
+
+Die Kehrseite ist keine Zurückhaltung: wo er zuständig ist, weist er unmissverständlich an
+(«Ich bitte die Bauleitung dies zur Kenntnis zu nehmen und die Unternehmer/Installateure vor Ort
+diesbezüglich anzuweisen …») und bestellt die Beweisführung gleich mit («Es ist eine
+Fotodokumentation … zu führen»). **Delegiert wird das Urteil, nicht die Führung.**

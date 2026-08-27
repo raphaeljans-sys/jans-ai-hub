@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 gewichtung: authentisch
-sources: [260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2611,3 +2611,37 @@ Projektes … sowie ein Zeitfenster fuer eine allfaellige Abnahme des Objektes *
 Feuerpolizei vor Ort** … gemaess noch zu bestimmenden finaler Terminplan». Der Tippfehler und der
 Kasusfehler sind Beleg der eigenen Hand (siehe [[stimme]]), die Konstruktion ist die Fachsignatur:
 **Amtstermin vor Nachweis.**
+
+## Batch 106 (26.08.2026) — die Auflage wird als Bauleistung formuliert, der Nachweis gleich mitbestellt
+
+Vokabular des Fensters, durchgehend **ohne Erläuterung** an Fachleute: **EI30-RF1**,
+Zulassungsinhaber, Zertifizierung der nichtbrennbaren Wand, Brandschutztechnische Stellungnahme,
+Installationsebene, **LBW** (Leichtbauwand, als blosses Kürzel), Deckenanschluss LBW EI30 an
+Betondecke, **RHS-Pfosten** samt der statischen Wendung «kann nicht für die Schiebetüre
+**aktiviert** werden», Meldekarte, **AfB**, **SRZ**, Feuerpolizei, Fertigstellungsanzeige,
+behördliche Abnahmen, Brandschutzklasse Textil/Trägerplatte.
+
+**Die tragende Konstruktion, dritter Beleg und Ergänzung der Linie «Amtstermin vor Nachweis»
+(Batch 105): die Auflage wird nicht als Vorschrift zitiert, sondern in den Leistungsumfang
+eingebaut und dem Ausführenden zugeschrieben.** Wörtlich (26.08.2026 08:28, `authentisch`):
+«Diese Installationsanforderungen sind integraler Bestandteil der Elektro und
+Sanitärinstallationsarbeiten.» Kein Normverweis, keine Zitatkette — der Brandschutz wird zur
+**geschuldeten Leistung** erklärt. Erst danach die Anweisung an die Bauleitung, die Unternehmer
+entsprechend anzuweisen.
+
+**Und die Beweisführung wird im selben Atemzug bestellt:** «Es ist eine Fotodokumentation der
+Sanitär- und Elektroinstallationen in EI30 Wänden zu führen.» Der Satz steht **zuletzt**, nach
+den Einzelanweisungen, als generelle Auflage — zweiter Beleg der Bauform aus Batch 105
+(Kernbefund 9). Die Fachsignatur denkt den **Nachweis als Bauteil**: was später gegenüber der
+Feuerpolizei belegt werden muss, wird während der Ausführung erzeugt, nicht nachträglich
+rekonstruiert.
+
+**Der Deeplink als Fachbeleg.** In der Traktandenliste trägt eine Position statt einer Frage
+einen **SharePoint-Deeplink auf den Fotoordner der Vorbegehung** («260821 GT — LBW Anpassungen»).
+Der Beleg ersetzt die Beschreibung; die Position benennt nur noch das Bauteil.
+
+**Zwei Termingattungen sauber getrennt** (Terminmail 17:04): die **Meldung an die Feuerpolizei
+zum Baustart** und die **Fertigstellungsanzeige / Meldekarte an das AfB** — je mit Datum und
+Kalenderwoche, und mit der richtigen Empfängerbehörde. Die behördlichen Abnahmen werden als
+eigener, zu fixierender Terminblock geführt («Diese sollen in der KW48 erfolgen»), getrennt vom
+Nutzertermin der Inbetriebnahme.

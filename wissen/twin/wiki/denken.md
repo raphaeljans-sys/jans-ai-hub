@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-08-27
 gewichtung: authentisch
-sources: [260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -1140,3 +1140,34 @@ Frage, die der Empfänger ohne die vorangehenden Fakten nicht beantworten kann, 
 
 Beide Blindfassungen stellten **gar keine Frage** — sie kündigten Nachlieferungen an und schlossen.
 Damit fehlte in beiden Fällen der eigentliche Zweck der Mail (→ [[QUESTIONS]] 260824 #3).
+
+## Batch 106 (26.08.2026) — die Rückfrage als behauptete Lesart, und die Rückwärtsplanung vom unverrückbaren Termin
+
+**Die Verständnisprüfung wird nicht als offene Frage gestellt, sondern als ausformulierte
+Lesart zur Bestätigung.** Die Mail an den Werkplaner (Sie, 26.08.2026 08:55, `authentisch`)
+besteht aus drei Sätzen: «Habe ich das richtig verstanden (siehe Skizze)**.**» — mit **Punkt** —
+und darunter **zwei Aussagesätze, die je mit einem Fragezeichen enden**: «Es ist richtig wir
+müssen Empfang-Seitig ein Zusätzlicher RHS-Pfosten stellen?» / «Der bestehende RHS … kann nicht
+für die Schiebetüre aktiviert werden sodass der Träger an den bestehenden Pfosten montiert wird?»
+
+Die Figur: **er fragt nicht, wie es gemeint ist, sondern schreibt seine Auslegung als Behauptung
+hin und lässt sie bestätigen.** Der Gewinn ist beweistechnisch — ein «ja» der Gegenseite
+dokumentiert den **Sachverhalt**, nicht bloss eine Meinung, und die Beweislast für einen Irrtum
+liegt danach beim Fachplaner. Dazu die **annotierte Fotoskizze** als Anhang: «siehe Skizze»
+ersetzt die Beschreibung der Geometrie vollständig (dritter Beleg der 260820-Linie «die Skizze
+trägt die Zahlen, sie ergänzt den Text nicht»).
+
+**Rückwärts gedacht, vorwärts erzählt — und das einzige Fett sitzt auf dem Unverrückbaren.**
+Die Terminmail (17:04, Elfer-Verteiler) baut: Vorschlag mit zwei Daten, je **Datum + KW** →
+zwei Freigabefragen A)/B) → Absprachetermin («morgen strategisch miteinander absprechen») →
+Zielfrist («Ziel ist es bis am Freitag den 28.08.26 alle Termine … zu fixieren») → wer wann
+informiert wird («Am Montag den 31.08.26 wird der Terminplan der Bauherrschaft kommuniziert») →
+**zuletzt**, als einziger fett gesetzter Text der Mail, die Randbedingung, aus der alles Übrige
+folgt: «Der Nutzer muss die Inbetriebnahme am **01.12.26** starten.»
+
+**Das Fett markiert nicht das Wichtigste für den Leser, sondern das Nichtverhandelbare** — den
+einen Termin, den niemand im Verteiler bewegen kann. Die Kette wird von dort rückwärts
+konstruiert, dem Leser aber in Handlungsreihenfolge vorgelegt. Und die beiden Fragen davor sind
+**Freigabefragen, keine Meinungsfragen**: «Sind alle Auflagen für bis und mit Baustart erledigt?»
+/ «Kann das Datum so den Behörden kommuniziert werden?» — sie holen eine Bestätigung ein, bevor
+ein Datum nach aussen geht.

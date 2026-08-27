@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 gewichtung: authentisch
-sources: [260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -4520,3 +4520,54 @@ mein Vorschlag …» (Stufe 2, nackter Imperativ, laufendes Mandat). Die Vier-St
 **innerhalb** einer Mail, nach Gegenstand, nicht nach Empfaenger. Dazu der Versal-Slip
 («**B**itten» gross, «**b**itten» klein in der Mail vom 01.06.) — haeufig, nicht ausnahmslos
 (vgl. Batch 105).
+
+## Batch 106 (26.08.2026) — die Gruss-Stufe «lgr», und eine Kennzahl, die nie mass, was sie zu messen schien
+
+**Sechste Gruss-Stufe: «lgr»**, kleingeschrieben, ohne Punkt, direkt über dem Signaturblock
+(Agenda-Mail an den Brandschutzexperten, Du-Register, 26.08.2026 09:58, `authentisch`). Kürzel
+für «Lieber Gruss». Die Skala der getippten Grüsse ist damit belegt als: «Freundliche Grüsse»
+(förmlich, meist nur aus dem Signaturblock) · «Lieber Gruss» · «Bester Gruss» / «Besten Gruss» ·
+«Danke und Gruss» · **«lgr» / «Lgr»** (knappste Stufe, nur im vertrauten Du) · gar kein Gruss.
+
+⚠ **Werkzeug-Befund, gleiche Familie wie Batch 105, aber verschärft:** `stilmetrik.py` führte
+`r"\bLgr\b"` bereits seit Batch 98 — **gross**. Die Suche läuft ohne `IGNORECASE`, also blieb
+das kleingeschriebene Gold still. **Ein gepflegtes Muster mit falscher Schreibung ist so still
+wie ein fehlendes.** In Batch 105 fehlte das Muster, hier war es da und trotzdem blind. Auf
+`r"\b[Ll]gr\b"` erweitert, Grossform mit Regressionsprobe nachgemessen.
+
+⭐ **Die Du-Gross-Quote hat nie Autorschaft gemessen.** Der Streit zwischen Batch 104
+(«Autorschafts-Detektor») und Batch 105 («trennt nicht») ist gegen **beide** Deutungen
+entschieden: die Kennzahl rechnete `du_total = max(du_cap + du_low, 1)` und gab bei **null**
+Du-Formen still `0.0` aus — nicht unterscheidbar von «alle klein geschrieben». Drei der sechs
+Golds dieses Batches sind genau solche Leermessungen (eine Achtwort-Mail im Du-Register, zwei
+Sie-Mails). Batch 105s «0.0 an einem 25-Wörter-Kurzvorspann» ist derselbe Mechanismus.
+
+Selbst wo die Quote etwas misst, ist die Grundgesamtheit winzig: **4 Du-Formen auf 432 Wörter**
+im ganzen Batch, in einem Gold eine Quote von 1.0 auf **n = 1**. Für die Facette heisst das:
+**die Du-Grossschreibung bleibt ein harter Stil-Marker (belegt 1.0, wo sie vorkommt), taugt aber
+nicht als Detektor** — weder für Autorschaft noch für Register. Werkzeug korrigiert: `None` bei
+leerer Grundgesamtheit, `du_formen_total` wird mitgeführt. **Eine Quote ohne ihre Grundgesamtheit
+ist nicht lesbar.** → [[QUESTIONS]] 260825 #1 hatte eine dritte, unbeachtete Antwort.
+
+**«Darf ich … bitten»: beide Varianten am selben Tag, in derselben Hand.** 08:28 im Du-Kollektiv
+«Darf ich Euch **b**itten … zu beantworten wie das vorgehen ist**.**» (klein, Punkt) gegen 15:58
+im Sie «Darf ich Sie **B**itten … einzuladen**?**» (gross, Fragezeichen). Damit sind **beide**
+Teilbeobachtungen aus Batch 104 als Fensterbeobachtung entwertet — auch der bis dahin gehaltene
+«Punkt statt Fragezeichen». Was bleibt, ist die Konstruktion: **die Bitte ist nie ein Imperativ,
+sondern eine Erlaubnisfrage in der ersten Person**, gefolgt vom Auftrag im Infinitiv. Register
+und Satzzeichen schwanken, die Höflichkeitsfigur nicht.
+
+**Traktanden laufen als Buchstaben, nicht als Zahlen.** Zweimal am selben Tag `A) B) C) …`
+(sechs Besprechungsthemen, zwei Freigabefragen). Aufbau je Position: Gegenstand, dann angehängte
+Kurzfrage, getrennt durch Semikolon **mit Leerschlag davor** oder Doppelpunkt — «…
+Fassadenverkleidung Fichte/Tanne ; Möglich?», «Untergrundmaterial Ist/soll?». Kein Fliesstext,
+kein Kontext.
+
+**Nebenbefund Datumsschreibung:** in aufeinanderfolgenden Zeilen derselben Mail «01.09.26» und
+«23.11.2026» — die Jahreszahl schwankt zwischen zwei- und vierstellig; Termine tragen die
+**Kalenderwoche als Anhängsel** («01.09.26, KW36»).
+
+Fehlerinsel dieses Fensters, dicht und weiterhin der einzige werkzeugfreie Autorschaftsbeleg:
+«mir Dir», «auf er Baustelle», «Generel», «Leichbauwänden», «Brandschutzkalsse»,
+«Empfang-Seitig ein Zusätzlicher RHS-Pfosten», «Herr Nicklas Rothe Nicklas Rothe»,
+«die jeweilige Koordinaten», «mein Vorschlag für die Termine».

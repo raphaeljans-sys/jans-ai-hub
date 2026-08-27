@@ -2057,3 +2057,99 @@ vergleichen; (3) bei leerem Fenster Thread-Rueckgriff **weder** auf 2414 Thalwil
 Albertstrasse 7 / Nova (beide abgeschoepft) — offen waere der Strang **Wartstrasse 8**;
 (4) **vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die
 Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 106 (27.08.2026) — Sent Items `rj@`, Fenster 26.08.2026
+
+Rohdatei `260827-mailbatch-106.md` (248 Z.). Sequenzielles Fenster nach Batch 105 fortgesetzt
+(`order: oldest`, `folderName: Sent Items`). **13 Sent Items**, alle vom 26.08.: 1 Hub-Briefing
+(Gratis-Vorfilter, **nicht gelesen**), 2 automatische Kalenderantworten, 1 leere Weiterleitung,
+**6 Golds**, davon 5 im Volltext. Bestandsabgleich vor der Lektüre gefahren: der in Batch 105 als
+offen vorgeschlagene Strang **Wartstrasse 8** wurde am 26.08. vom Fidelity-Lauf abgeschöpft
+(Golds 08.02., 24.02., 01.06.2026) — ein Rückgriff wäre ins Leere gelaufen und war nicht nötig.
+
+**Der Ersatz-Detektor hat den ersten Regelbetrieb bestanden.** Alle fünf Golds tragen den
+OWA-Fingerabdruck `Aptos,Arial,Helvetica` + `color:rgb(0,0,0)`, ein `<div>` je Zeile, vier davon
+`ms-outlook-mobile-signature`. Der Gratis-Vorfilter sortierte 1 von 13 kostenlos aus. Die
+Fehlerinsel war dicht genug, um den CSS-Nachweis unabhängig zu stützen.
+
+**⭐ Kernbefund 1 — die Du-Gross-Quote hat nie Autorschaft gemessen.** Der Streit Batch 104
+(«Autorschafts-Detektor») gegen Batch 105 («trennt nicht») ist gegen **beide** Deutungen
+entschieden: `stilmetrik.py` rechnete `du_total = max(du_cap + du_low, 1)` und gab bei **null**
+Du-Formen still `0.0` aus, ununterscheidbar von «alle klein geschrieben». Drei der sechs Golds
+sind solche Leermessungen; Batch 105s «0.0 an einem 25-Wörter-Kurzvorspann» ebenfalls. Der ganze
+Batch trägt **4 Du-Formen auf 432 Wörter**, ein Gold eine Quote 1.0 auf **n = 1**. Werkzeug
+korrigiert (`None` bei leerer Grundgesamtheit, `du_formen_total` mitgeführt), Regressionsprobe
+gefahren. Die Du-Grossschreibung bleibt harter Stil-Marker, die **Quote taugt nicht als
+Detektor**. → [[QUESTIONS]] 260825 #1 hatte eine dritte Antwort.
+
+**Kernbefund 2 — «lgr», sechste Gruss-Stufe.** Kleingeschrieben, ohne Punkt, über dem
+Signaturblock. `r"\bLgr\b"` stand seit Batch 98 im Muster — **gross**, ohne `IGNORECASE`, also
+still. **Ein gepflegtes Muster mit falscher Schreibung ist so still wie ein fehlendes.**
+Auf `r"\b[Ll]gr\b"` erweitert, Grossform nachgemessen.
+
+**⭐ Kernbefund 3 — Kollektivregister statt Nivellierung.** Elfer-Verteiler mit belegt gemischten
+Registern: «Geschätzte Alle» + «sende ich **Euch**» — kollektives Du, gerade **nicht** die
+höflichste Stufe. Damit ist der Rest der Nivellier-Zeile in `rules/anrede-kontakte.md` («bei
+grossen oder unbekannten Verteilern») für den **grossen, vertrauten** Verteiler widerlegt; über
+unbekannte Verteiler sagt der Beleg nichts. **Rule nicht selbst geändert**, vorgelegt als
+[[QUESTIONS]] 260827 #1.
+
+**⭐ Kernbefund 4 — «Geschätzter Othmar, werter Albin».** (a) Der Registerwechsel beim
+Brandschutz-/Trockenbau-Fachbetrieb hält (zweiter Beleg nach 25.08., diesmal an erster Stelle
+eines Achter-Verteilers) und stützt weiter «Trajektorie, kein Standbild». (b) **«werter» ist
+nicht ans Sie gebunden** — hier mit Vornamen an einen belegten Du-Kontakt. Die Stufe misst
+**Wärme, nicht Anredeform**, und dient der **Abstufung zwischen zwei Empfängern** in einer Zeile.
+
+**⚠ Kernbefund 5 — «Herr/Frau + Vorname aus dem Anzeigenamen», zweiter unabhängiger Beleg.**
+«Geschätzte Frau Amanda» an eine Empfängerin namens «Valentin Michelle Amanda» (Nachname
+Valentin) — derselbe Mechanismus wie «Herr Mustafa» für Mustafa Eren. Damit **Fehlerklasse**,
+kein Ausrutscher. Fehlerinsel, **kein Stilmarker**; der Zwilling korrigiert sie (Prüfregel in
+[[QUESTIONS]] 260827 #2 vorgelegt).
+
+**Kernbefund 6 — «Darf ich … bitten»: beide Varianten am selben Tag.** 08:28 klein + Punkt
+(Du-Kollektiv), 15:58 gross + Fragezeichen (Sie). Damit sind **beide** Batch-104-Teilbeobachtungen
+als Fensterbeobachtung entwertet, auch der bis dahin gehaltene «Punkt statt Fragezeichen». Es
+bleibt die Konstruktion: **Erlaubnisfrage in der ersten Person statt Imperativ.**
+
+**Kernbefund 7 — Traktanden als A) B) C)**, zweimal am selben Tag; je Position Gegenstand plus
+angehängte Kurzfrage, ein Punkt trägt statt der Frage einen SharePoint-Deeplink auf Belegfotos.
+
+**Kernbefund 8 — die Rückfrage als behauptete Lesart.** «Habe ich das richtig verstanden (siehe
+Skizze)**.**» mit Punkt, darunter Aussagesätze mit Fragezeichen. Beweistechnisch: das «ja»
+dokumentiert den Sachverhalt. Dritter Beleg der 260820-Linie «die Skizze trägt die Zahlen».
+
+**Kernbefund 9 — Rückwärtsplanung vom unverrückbaren Nutzertermin**; das **einzige Fett** der
+Mail sitzt auf diesem Datum. Termine tragen Datum + KW; die Jahreszahl schwankt zwei-/vierstellig.
+
+**Kernbefund 10 — durchstellen statt Nadelöhr sein.** Kontaktkoordinaten zweier Fachleute vorab
+in den Body, «@X & Y» als Zwischenzeile im Fliesstext; die Zulassungsfrage geht an den
+Zulassungsinhaber. **Delegiert wird das Urteil, nicht die Führung.**
+
+**Kernbefund 11 — die Auflage als Bauleistung, der Nachweis gleich mitbestellt.** «Diese
+Installationsanforderungen sind integraler Bestandteil der Elektro und Sanitärinstallations-
+arbeiten» + «Es ist eine Fotodokumentation … zu führen» als generelle Auflage **zuletzt**.
+
+**⭐ Kernbefund 12 — die Warnzeile «Gehirn seit N Batches nicht neu kompiliert» war falsch.**
+Gemessen statt fortgeschrieben: (1) falsche Datei — `build_dna.py` schreibt seit 03.08.2026 nach
+`rules/jans-dna-facetten.md`, `rules/jans-dna.md` hat seither **keinen Auto-Block und keine
+Sentinels**; (2) der Block ist **aktuell** (33'965 B auf Platte, 33'965 B frisch, zeichengleich,
+zuletzt geschrieben 26.08. 06:02); (3) Batch-Abschnitte wirken **nie** aufs Gehirn, weil
+`extract_block()` nur den Do/Don't-Block zieht — trotz sechs neuer Abschnitte ±0 B. **Der echte
+Befund: 35 B Reserve von 34'000** (Stimme 7'433 · Arbeitsweise 6'369 · Beziehungsregister 6'234 ·
+Haltung 6'110 · Fachsignatur 4'898 · Denken 2'773). Die nächste Erweiterung eines Do/Don't-Blocks
+bricht am Wachstums-Riegel ab; vorher verdichten oder `MAX_AUTO_BYTES` bewusst anheben.
+**Diese Warnzeile wird ab hier NICHT mehr fortgeschrieben**; an ihre Stelle tritt die
+Reserve-Messung.
+
+**Drei Befunde derselben Familie in einem Lauf:** ein Muster, das wegen falscher Schreibung still
+blieb; eine Quote, die Leermessungen als Wert ausgab; eine Zustandsaussage, die dreizehnmal
+abgeschrieben und nie gemessen wurde. **Keiner davon war ein Sachbefund — alle drei waren
+Aussagen über das eigene Messen.**
+
+**Nächstes Fenster:** (1) sequenziell `rj@` **ab 27.08.2026**, Sent Items, `order: oldest`;
+(2) Gratis-Vorfilter vor dem CSS-Fingerabdruck; (3) bei leerem Fenster **kein** Thread-Rückgriff
+auf 2414 Thalwil, Albertstrasse 7 / Nova oder Wartstrasse 8 (alle drei abgeschöpft) — offen wären
+**Jegen / Werkplanung Türen** oder die Behördenschiene **AfB / Feuerpolizei**; (4) **vor der
+Lektüre zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die Gold-Verbrauch-
+Abschnitte der Fidelity-Läufe**; (5) Reserve des Auto-Blocks messen statt die alte Warnzeile
+abzuschreiben.

@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 gewichtung: authentisch
-sources: [260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -3249,3 +3249,60 @@ Vermerkt in [[QUESTIONS]] 260826b #3.
 **Registerluecke geschlossen:** Undine Hofer (Bauherrenvertreterin Wartstrasse 8, **Du**,
 «Geschaetzte Undine» bei Gewicht, «Hoi Undine» operativ) fehlte in `rules/anrede-kontakte.md`
 und ist dort nachgetragen.
+
+## Batch 106 (26.08.2026) — das Kollektivregister, «werter» im Du, und eine Fehlerklasse mit zweitem Beleg
+
+⭐ **Der grosse gemischte Verteiler bekommt «Geschätzte Alle» + Du-Kollektiv.** Die Terminmail
+vom 26.08.2026 17:04 geht an **elf** Empfänger mit belegt gemischten Registern — Du-Kontakte
+(Bauherren-Techniker, Teamleiter HLKKS, Brandschutzexperte) neben Sie-Kontakten (Bauherrenseite,
+Fachplaner). Raphael wählt **weder** die höflichste Stufe **noch** eine Staffelung, sondern eine
+dritte Form: **«Geschätzte Alle»** in der Anrede, **«sende ich Euch»** im Text.
+
+Das ist der bislang klarste Beleg zur seit dem 15.08.2026 offenen Nivellier-Frage
+(→ [[QUESTIONS]] 260815 #4 ff., ⚠-Vermerk in `rules/anrede-kontakte.md`): **die Kollektivform
+ist ein eigenes, drittes Register, keine Angleichung nach oben.** Der dort vorgeschlagene
+Rule-Wortlaut, der «bei grossen oder unbekannten Verteilern» ausdrücklich weiter nivellieren
+wollte, ist an diesem Gold widerlegt — für den **grossen, aber vertrauten** Verteiler jedenfalls;
+über unbekannte Verteiler sagt er nichts. Zweiter Beleg am selben Tag: die Achter-Verteilermail
+um 08:28 staffelt zwar die Anrede, führt im Fliesstext aber ebenfalls Du-Kollektiv («Darf ich
+**Euch** bitten»). **Rule nicht selbst geändert**, vorgelegt als [[QUESTIONS]] 260827 #1.
+
+⭐ **«Geschätzter Othmar, werter Albin» — zwei Wärmestufen in einer Anredezeile.** Zwei neue
+Befunde daran:
+
+**(a) Der Registerwechsel beim Brandschutz-/Trockenbau-Fachbetrieb hält.** Batch 105 belegte
+«Geschätzter <Vorname>» + Du am 25.08. für den Kontakt, der am **22.07. nach einem Telefonat**
+noch im Sie mit Nachname stand — genau der ⚠-Gegenbeleg, mit dem `rules/anrede-kontakte.md` die
+Treffen-Klausel begrenzt. Am **26.08.** steht er zum zweiten Mal auf der neuen Stufe, diesmal an
+**erster Stelle eines Achter-Verteilers**. Der Wechsel ist kein Einzelfall mehr. Das stützt
+weiter die Fassung «Trajektorie, kein Standbild» (`rules/jans-dna-facetten.md`) gegen die
+Anweisung «Kalender des laufenden Tages prüfen»: der Wechsel kam **gut einen Monat nach** dem
+Treffen und blieb dann.
+
+**(b) «werter» ist nicht an das Sie gebunden.** `rules/anrede-kontakte.md` führt die Stufe
+bisher ausschliesslich im **Sie**-Register (Beleg «werter Herr Suljanovic»). Hier steht **«werter
+Albin»** — Vorname, und der Empfänger ist ein seit Projektstart belegter **Du**-Kontakt. Die
+Stufe misst also **Wärme, nicht Anredeform**: sie existiert im Sie mit Nachnamen und im Du mit
+Vornamen. Für den Zwilling: «werter» ist die Stufe **unterhalb** von «Geschätzter» in derselben
+Zeile — ein Mittel zur **Abstufung zwischen zwei Empfängern**, nicht zur Wahl von Du oder Sie.
+
+⚠ **Fehlerklasse «Herr/Frau + Vorname aus dem Anzeigenamen», zweiter unabhängiger Beleg.** Die
+15:58-Mail beginnt mit **«Geschätzte Frau Amanda»**; die Empfängerin heisst im
+Outlook-Anzeigenamen «Valentin Michelle Amanda» — Nachname **Valentin**, Vornamen Michelle
+Amanda. Raphael nahm den **letzten** Namensteil für den Nachnamen. Exakt derselbe Mechanismus wie
+im dokumentierten Fall «Herr Mustafa» für Mustafa Eren (Nachname Eren), den die Rule bereits mit
+⚠ führt. Zwei unabhängige Belege machen daraus eine **Fehlerklasse**: sie entsteht, wo die
+Bauherrschaft ihr Adressbuch als «Nachname Vorname [Zweitvorname]» führt und die Mail vom Telefon
+aus geht.
+
+**Der Zwilling darf das nie nachahmen** — es ist Fehlerinsel (Autorschaftsbeleg), kein
+Stilmarker. Hier kann der Zwilling seinem Original **überlegen** sein: vor «Herr/Frau <X>»
+prüfen, ob `<X>` im Anzeigenamen an **erster** Position steht (dann Nachname) oder an letzter
+(dann Vorname); bei Unklarheit die im Adressteil belegte Form nehmen oder auf «Geschätzte
+<Vorname>» ausweichen. → [[QUESTIONS]] 260827 #2.
+
+**Registerstand dieses Fensters, alle aus Raphaels eigener Hand:** Brandschutzexperte VKF
+«Geschätzter <Vorname>» und «Hoi <Vorname>» am selben Tag (Anlassgewicht, nicht Person) ·
+Brandschutz-/Trockenbau-Fachbetrieb «Geschätzter <Vorname>», Du · Bauherren-Techniker «werter
+<Vorname>», Du · Werkplaner Türen «Guten Morgen Herr <Nachname>**,**» mit Komma, Sie ·
+Bauherren-Sekretariat «Geschätzte Frau <…>», Sie · Elfer-Verteiler «Geschätzte Alle», Du-Kollektiv.

@@ -4478,3 +4478,86 @@ Bandentscheid und mit Regressionsprobe an den alten Batches.
 **#6 — Nivellier-Zeile: elfter Beleg dagegen, null dafuer.** Nur der Zaehler (Beschluss aus
 260825 #3). Gold C: die Bauherrin im To, der Unternehmer im Cc, angeredet wird nur, wer zahlen
 muss.
+
+## 260827 (Batch 106, Fenster 26.08.2026) — zwei Rule-Fragen, eine Selbstkorrektur, ein Hub-interner Befund
+
+**#1 — Nivelliert Raphael bei grossen Verteilern, oder ist «Geschätzte Alle» + Du-Kollektiv ein
+eigenes drittes Register?** · *Facette: Beziehungsregister* · **offen, an Raphael**
+
+`rules/anrede-kontakte.md` trägt seit dem 21.08.2026 einen ⚠-Vermerk: die Zeile «bei mehreren
+Empfängern die höflichste Anrede wählen» ist durch sechs Belege der **gestaffelten** Anrede
+widerlegt, der Entscheid steht aus. Der vorgeschlagene Ersatzwortlaut wollte das Nivellieren
+«bei grossen oder unbekannten Verteilern» ausdrücklich beibehalten. **Genau dieser Rest ist am
+26.08.2026 gefallen:** die Terminmail an **elf** Empfänger mit belegt gemischten Registern
+schreibt «Geschätzte Alle» und im Text «sende ich **Euch**» — das kollektive **Du**, also gerade
+**nicht** die höflichste Stufe. Die Achter-Verteilermail desselben Tages staffelt die Anrede und
+führt im Fliesstext ebenfalls Du-Kollektiv.
+
+Die Frage an Raphael ist damit präziser als bisher: **Gilt das Kollektiv-Du bei jedem grossen
+Verteiler, oder nur, wenn die Mehrheit oder der Kern des Verteilers ohnehin im Du steht?** Für
+einen grossen Verteiler mit **unbekannten** Empfängern gibt es weiterhin keinen Beleg. Bis zum
+Entscheid gilt: bei vertrauten Projektverteilern «Geschätzte Alle» + Euch; bei unbekannten
+Empfängern nachfragen statt raten. **Claude ändert den Rule-Wortlaut nicht selbst.**
+
+**#2 — «Geschätzte Frau <Vorname>»: darf der Zwilling die Fehlerklasse korrigieren?** ·
+*Facette: Beziehungsregister* · **offen, an Raphael**
+
+Zweiter unabhängiger Beleg derselben Fehlerklasse: «Geschätzte Frau Amanda» an eine Empfängerin,
+die im Outlook-Anzeigenamen «Valentin Michelle Amanda» heisst (Nachname **Valentin**) — genau wie
+das schon mit ⚠ dokumentierte «Herr Mustafa» für Mustafa Eren (Nachname Eren). Die Ursache ist
+mechanisch: Adressbücher der Bauherrschaft führen «Nachname Vorname Zweitvorname», die Mail geht
+vom Telefon aus, der letzte Namensteil wird für den Nachnamen gehalten.
+
+Der Zwilling lernt Stil, nicht Tippfehler — hier wäre er seinem Original also **überlegen**.
+Vorgeschlagene Regel, die Raphael bestätigen oder verwerfen soll: **vor «Herr/Frau <X>» prüfen,
+ob `<X>` im Anzeigenamen an erster Position steht (dann Nachname) oder an letzter (dann Vorname);
+bei Unklarheit die im Adressteil belegte Form nehmen oder auf «Geschätzte/r <Vorname>»
+ausweichen.** Bis zum Entscheid handelt der Zwilling so, meldet die Korrektur aber nicht als
+Stilabweichung.
+
+**#3 — Selbstkorrektur zu 260825 #1 (Du-Gross-Quote): die Frage hatte eine dritte Antwort.** ·
+*Facette: Stimme* · **beantwortet, Hub-intern**
+
+Gefragt war, ob die Du-Gross-Quote **(a)** Autorschaft oder **(b)** Register misst. Sie misst
+**keines von beidem**: `stilmetrik.py` rechnete `du_total = max(du_cap + du_low, 1)` und gab bei
+**null** Du-Formen still `0.0` aus — ununterscheidbar von «alle klein geschrieben». Drei der
+sechs Golds dieses Batches sind solche Leermessungen; Batch 105s «0.0 an einem 25-Wörter-
+Kurzvorspann» ebenfalls. Der ganze Batch trägt **4 Du-Formen auf 432 Wörter**, ein Gold eine
+Quote von 1.0 auf **n = 1**. Werkzeug korrigiert (`None` bei leerer Grundgesamtheit,
+`du_formen_total` mitgeführt, Regressionsprobe gefahren). Die **Du-Grossschreibung bleibt ein
+harter Stil-Marker**; die **Quote taugt nicht als Detektor**. Damit ist auch die Sperre für die
+Neukompilierung des Gehirns nicht mehr an dieser Frage aufgehängt (siehe #4).
+
+**#4 — Der Satz «Gehirn seit N Batches nicht neu kompiliert» war falsch. Gemessen statt
+fortgeschrieben.** · *Hub-intern, kein Raphael-Entscheid nötig*
+
+Seit Batch 93 trägt jeder `_INGESTED.md`-Abschnitt die Warnung «⚠ Gehirn NICHT neu kompiliert,
+N-ter Batch in Folge», zuletzt «vierzehnter», dazu den Reservestand «21.08.2026, 32'796 B von
+34'000 B — Fortschreibung, kein Messwert». **Dieser Lauf hat gemessen. Drei Dinge daran waren
+falsch, alle in derselben Richtung:**
+
+1. **Falsche Datei.** Die Warnung verweist auf `rules/jans-dna.md` und dessen «Auto-Block, der
+   die Du-Gross-Kernzeile trägt». Dort steht seit der Auslagerung vom **03.08.2026**
+   (Grundkontext-Diät Runde 2, Freigabe Raphael) **gar kein Auto-Block mehr** — die Datei ist
+   3'870 B gross und enthält keine Sentinels. `build_dna.py` schreibt seit demselben Tag nach
+   **`rules/jans-dna-facetten.md`** (nicht importiert, vor jedem Texterzeugnis zu lesen).
+2. **Der Block ist aktuell, nicht veraltet.** Der kompilierte Block auf Platte ist **zeichengleich**
+   mit dem, was aus den heutigen Facetten frisch entstünde (33'965 B gegen 33'965 B, Vergleich
+   gefahren). Datei zuletzt geschrieben 26.08.2026 06:02. Es gab nichts zu kompilieren.
+3. **Batch-Abschnitte wirken gar nicht aufs Gehirn.** `extract_block()` zieht je Facette
+   ausschliesslich den **Do/Don't-Block**. Beleg-Prosa wie die Batch-Abschnitte dieses Laufs
+   fliesst nie ein — deshalb ändert sich der Block trotz sechs neuer Abschnitte um **0 B**. Wer
+   das Gehirn ändern will, muss den Do/Don't-Block bearbeiten, nicht den Artikel verlängern.
+
+**Der echte Befund ist ein anderer und ernster: die Reserve beträgt 35 B von 34'000.**
+Facettenweise: Stimme 7'433 · Arbeitsweise 6'369 · Beziehungsregister 6'234 · Haltung 6'110 ·
+Fachsignatur 4'898 · Denken 2'773 B. Die **nächste** Erweiterung eines Do/Don't-Blocks lässt
+`build_dna.py` abbrechen — der Wachstums-Riegel greift wie gebaut und schreibt nichts. Vor der
+nächsten Regeländerung im Gehirn ist also **zuerst zu verdichten** (Stimme ist der grösste und
+älteste Block) oder `MAX_AUTO_BYTES` bewusst anzuheben. **Nicht dringend, aber beim nächsten
+Regelbedarf blockierend** — darum hier notiert, nicht im Fristen-Register (kein operativer Befund
+nach `auto-verbesserungen` 260803).
+
+**Merksatz, dritter Beleg derselben Familie an einem Tag:** eine Zustandsaussage, die dreizehnmal
+abgeschrieben und nie gemessen wurde, wird durch Wiederholung nicht wahrer. Gleiche Familie wie
+Rule `auto-verbesserungen` 260730b/260807 — und wie die beiden Werkzeug-Befunde dieses Laufs.

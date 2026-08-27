@@ -4,6 +4,47 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-27 — twin-mail-training Batch 106 (Fenster 26.08.2026): drei Befunde über das eigene Messen
+
+`raw/260827-mailbatch-106.md` neu (248 Z.). Sequenzielles Fenster, **13 Sent Items**, davon
+1 Hub-Briefing (Gratis-Vorfilter, ungelesen), 2 Kalenderantworten, 1 leere Weiterleitung,
+**6 Golds** (5 im Volltext). Der Ersatz-Detektor aus Batch 105 (CSS-Fingerabdruck) hat den
+ersten Regelbetrieb bestanden.
+
+**Inhaltlich:** Kollektivregister «Geschätzte Alle» + Du-Kollektiv am Elfer-Verteiler mit
+gemischten Registern — widerlegt den Nivellier-Rest von `rules/anrede-kontakte.md` für den
+grossen, vertrauten Verteiler (Rule **nicht** selbst geändert, vorgelegt). «Geschätzter Othmar,
+werter Albin»: Registerwechsel beim Brandschutz-/Trockenbau-Fachbetrieb gehalten (2. Beleg), und
+**«werter» ist nicht ans Sie gebunden** — die Stufe misst Wärme, nicht Anredeform. «Geschätzte
+Frau Amanda» an eine Empfängerin namens Valentin Michelle Amanda: **zweiter Beleg der Fehlerklasse
+«Herr/Frau + Vorname aus dem Anzeigenamen»** (wie «Herr Mustafa»), Fehlerinsel und kein
+Stilmarker. «Darf ich … bitten» in **beiden** Varianten am selben Tag — beide
+Batch-104-Teilbeobachtungen als Fensterbeobachtung entwertet. Dazu: Traktanden als A) B) C), die
+Rückfrage als behauptete Lesart mit Punkt, Rückwärtsplanung vom unverrückbaren Nutzertermin
+(einziges Fett), «durchstellen statt Nadelöhr», die Auflage als Bauleistung mit gleich
+mitbestellter Fotodokumentation.
+
+**Drei Befunde über das Messen selbst, alle im selben Lauf behoben oder korrigiert:**
+(1) Die **Du-Gross-Quote** gab bei null Du-Formen still `0.0` aus — ununterscheidbar von «alles
+klein». Darauf gründete der Streit Batch 104 gegen 105; beide Deutungen fallen. Werkzeug: `None`
+bei leerer Grundgesamtheit, `du_formen_total` mitgeführt.
+(2) **«lgr»** blieb still, weil `r"\bLgr\b"` seit Batch 98 **gross** im Muster stand — ein
+gepflegtes Muster mit falscher Schreibung ist so still wie ein fehlendes. Auf `r"\b[Ll]gr\b"`
+erweitert.
+(3) Die seit Batch 93 abgeschriebene Warnzeile **«Gehirn seit N Batches nicht neu kompiliert»**
+ist falsch: falsche Datei (`build_dna.py` schreibt seit 03.08. nach `rules/jans-dna-facetten.md`,
+`rules/jans-dna.md` hat keinen Auto-Block mehr), der Block ist **aktuell** (33'965 B ≡ 33'965 B,
+zeichengleich), und Batch-Abschnitte wirken nie aufs Gehirn (`extract_block()` zieht nur den
+Do/Don't-Block). Der echte Befund ist die **Reserve: 35 B von 34'000** — die nächste Erweiterung
+eines Do/Don't-Blocks bricht am Wachstums-Riegel ab. Warnzeile ab sofort ersetzt durch die
+Reserve-Messung.
+
+Geschrieben: `wiki/stimme.md`, `wiki/beziehungsregister.md`, `wiki/denken.md`, `wiki/haltung.md`,
+`wiki/fachsignatur.md`, `wiki/arbeitsweise.md` (je additiv + Frontmatter `last_updated`/`sources`),
+`wiki/QUESTIONS.md` (Abschnitt 260827: 2 Rule-Fragen an Raphael, 1 Selbstkorrektur, 1 Messbefund),
+`raw/_INGESTED.md` (Batch-106-Abschnitt). Werkzeug: `skills/twin/tools/stilmetrik.py`, beide
+Korrekturen mit Regressionsprobe nachgemessen. **Regeln nicht selbst geändert.**
+
 ## 2026-08-26 — twin-mail-training Batch 105 (Fenster 25.08.2026): der Werkzeug-Detektor ist gefallen
 
 `raw/260826-mailbatch-105.md` neu (203 Z.). Sequenzielles Fenster, 4 Sent Items, davon **2
