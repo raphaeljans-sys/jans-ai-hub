@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.08.2026 07:50:23
+Stand: 27.08.2026 08:00:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:48)
@@ -12,4 +12,4 @@ Stand: 27.08.2026 07:50:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d6b06bbb5 ag-gruendung-monitor: Kapitalkontoöffnung UBS 17.08. bestätigt, Monitor seit 25.08. blind (osascript-Timeout)
+- 36b49e313 nas-selfcommit: 3 Datei(en) 2026-08-27 08:00
