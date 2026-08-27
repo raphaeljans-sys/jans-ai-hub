@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 27.08.2026 01:40:25
+Stand: 27.08.2026 01:50:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 27.08.2026 01:40:25
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 930ba05cb nas-selfcommit: 4 Datei(en) 2026-08-27 01:30
+- ac4cba566 normen Run 63: Abdeckungsrunde SIA 102:2020 (34 Kern-/52 Nebenluecken, 1 Fundstellenfehler, kein falscher Wert), Status established->speculative + Pruefstand; N62-3 beantwortet (2 von 310 established-Destillaten mit Pruefstand) inkl. Kandidatenliste; Synthese-Artikel und honorarberechnung-Skill nachgezogen
