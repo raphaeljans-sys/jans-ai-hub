@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.08.2026 13:09:06
+Stand: 27.08.2026 13:29:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 12:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:00)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.08.2026 13:09:06
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 208fbc3fe vollgas-radar: 27.08. 12:57 [FREI] Regellauf ohne Befund, Budget -24.9 Pkt, P3 Karteileichnam token-drosselung-100810
+- 0993274f9 nas-selfcommit: 4 Datei(en) 2026-08-27 13:15
