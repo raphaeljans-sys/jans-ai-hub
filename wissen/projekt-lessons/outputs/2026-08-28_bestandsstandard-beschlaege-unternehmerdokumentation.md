@@ -1,5 +1,5 @@
 ---
-title: Bestandsstandards fuer Beschlaege und Zutritt liegen in der Unternehmerdokumentation der Bauplattform
+title: Bestandsstandards für Beschläge und Zutritt liegen in der Unternehmerdokumentation der Bauplattform
 status: established
 last_updated: 2026-08-28
 sources:
@@ -15,32 +15,32 @@ links:
 Bei einem Umbau im Bestand, dessen Bauteile in der Machart dem Originalbau entsprechen
 sollen, steht der Produktstandard nicht in der Architekturablage, sondern in der
 **Unternehmerdokumentation der Bauplattform**, Rubrik 70, im Los des jeweiligen Gewerks
-unter `09_Materialdeklaration`. Dort liegen Herstellerauskuenfte, Produktdeklarationen und
-Bohrschablonen der tatsaechlich verbauten Fabrikate.
+unter `09_Materialdeklaration`. Dort liegen Herstellerauskünfte, Produktdeklarationen und
+Bohrschablonen der tatsächlich verbauten Fabrikate.
 
-Belegter Fall 2619 KISPI, 28.08.2026: Der Tuerbauer der inneren Verglasungen fragte nach
-Typbezeichnung und Bohrschablone des elektronischen Tuerbeschlags. Weder Tuerbuch noch
-Tuermatrix nennen ein Fabrikat. Die Antwort lag in `LOS_235.21 Zutrittskontrolle Gesamt`:
-elektronischer Tuerdruecker Uhlmann & Zacher CX8172, Wandleser CX8132, dazu die Bohrschablone
-fuer die Rundrosette.
+Belegter Fall 2619 KISPI, 28.08.2026: Der Türbauer der inneren Verglasungen fragte nach
+Typbezeichnung und Bohrschablone des elektronischen Türbeschlags. Weder Türbuch noch
+Türmatrix nennen ein Fabrikat. Die Antwort lag in `LOS_235.21 Zutrittskontrolle Gesamt`:
+elektronischer Türdrücker Uhlmann & Zacher CX8172, Wandleser CX8132, dazu die Bohrschablone
+für die Rundrosette.
 
-# Zweite Quelle: die Master-Tuermatrix dokumentiert den Ist-Zustand
+# Zweite Quelle: die Master-Türmatrix dokumentiert den Ist-Zustand
 
-Die Tuermatrix der Tuerfachplanung fuehrt neben den Soll-Spalten auch **verbaute
-Komponenten** (Schlosstechnik, elektrischer Tueroeffner, Tuerkontakt Zuko und EMA,
-Tuerschliesser). Damit laesst sich der Bestandsstandard statistisch belegen, statt ihn zu
-raten. Im Fall KISPI: Beschlagmaterial CNS bei 2146 Tueren, Schlosstechnik Glutz 24020 bei
-631, Tuerkontakt Zuko DMC 20 bei 91, Tuerschliesser GEZE TS 5000 bei 87.
+Die Türmatrix der Türfachplanung führt neben den Soll-Spalten auch **verbaute
+Komponenten** (Schlosstechnik, elektrischer Türöffner, Türkontakt Zuko und EMA,
+Türschliesser). Damit lässt sich der Bestandsstandard statistisch belegen, statt ihn zu
+raten. Im Fall KISPI: Beschlagmaterial CNS bei 2146 Türen, Schlosstechnik Glutz 24020 bei
+631, Türkontakt Zuko DMC 20 bei 91, Türschliesser GEZE TS 5000 bei 87.
 
 # Anwendung
 
 Vor jeder Beschlags- oder Komponentenauskunft an einen Unternehmer im Bestandsumbau: erst die
-Rubrik 70 des passenden Loses auf der Bauplattform pruefen, dann die verbauten Spalten der
-Tuermatrix auszaehlen. Was dort nicht belegt ist, wird als offener Punkt benannt und ueber die
-architektenseitige Spalte der Tuermatrix nachgeliefert, nicht geschaetzt.
+Rubrik 70 des passenden Loses auf der Bauplattform prüfen, dann die verbauten Spalten der
+Türmatrix auszählen. Was dort nicht belegt ist, wird als offener Punkt benannt und über die
+architektenseitige Spalte der Türmatrix nachgeliefert, nicht geschätzt.
 
 # Abgrenzung der Lieferung
 
-Beschlagsleser und Zutrittselektronik gehoeren zum Elektro-Los der Zutrittskontrolle, nicht
-zum Los des Tuerbauers. Dieser erbringt nur Ausschnitt, Bohrbild und Dornmass. Diese
-Abgrenzung gehoert in jede Antwort, sonst kalkuliert der Unternehmer Fremdleistung mit.
+Beschlagsleser und Zutrittselektronik gehören zum Elektro-Los der Zutrittskontrolle, nicht
+zum Los des Türbauers. Dieser erbringt nur Ausschnitt, Bohrbild und Dornmass. Diese
+Abgrenzung gehört in jede Antwort, sonst kalkuliert der Unternehmer Fremdleistung mit.
