@@ -4,6 +4,7 @@ Erstellt: 2026-06-21 · Methode: Skill `spec` (Karpathy/Marchese) · Faktenbasis
 `firmengruendung-ch` (A1-A10, Belegliste). Erste reale Anwendung der Spec-Methode.
 
 **CHANGELOG (neueste zuoberst):**
+- **2026-08-28 07:25:** Monitor-Lauf blind, osascript-Timeout seit sechtem Tag (Mail.app unresponsive). Kapitalkontoöffnung UBS 17.08. VERIFIZIERT (IBAN CH46 0027 6276 1238 74D7 N, Kontoinhaber Raphael Jans AG In Gründung). Nächster Schritt: CHF 50'000 einzahlen → Bescheinigung per Einschreiben → Beurkundung. Notariat Wiedikon seit 25.08. nicht erreichbar (osascript-Block). Firmenname-Aktion Raphael (22.06. gefordert) weiterhin offen: JANS AG durch JANS GmbH blockiert, Alternative wählen + HR-Vorprüfung. Stand: logbuch/fristen.md nachtragen + NAS-Repo commit.
 - **2026-08-27 08:10:** Monitor weiterhin blind, aber Kapitalkontoöffnung UBS 17.08. via Radar-Lauf verifiziert (IBAN CH46 0027 6276 1238 74D7 N, Kontoinhaber Raphael Jans AG In Gründung). Nächster Schritt: CHF 50'000 einzahlen → Bescheinigung per Einschreiben → Beurkundung möglich. Notariat Wiedikon seit 25.08. nicht erreichbar (osascript-Block). Stand in logbuch/LOGBUCH.md + fristen.md nachtragen.
 - **2026-08-26 07:05:** Monitor-Task `ag-gruendung-monitor` läuft erneut in osascript-Timeout (2 Min AppleEvent-Block). Beide Mail-Kanäle (mail@UBS, rj@Notariat) seit 25.08. 06:00 blind. Kapitalkontoöffnung UBS 17.08. wird nicht erkannt. Logbuch-Eintrag als P1-Befund. Betriebsstörung, nicht fachlich.
 
