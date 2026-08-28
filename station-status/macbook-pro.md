@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 06:17:20
+Stand: 28.08.2026 06:27:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:17)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:18)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 06:17:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4dbd32792 nas-selfcommit: 4 Datei(en) 2026-08-28 06:15
+- 75ab5334b konversations-log 2026-08-28: Destillat 26h (1 echtes Gespraech: KISPI-Pendenzenliste), 2 Registerzeilen 31.08./KW36

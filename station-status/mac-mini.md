@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.08.2026 06:16:37
+Stand: 28.08.2026 06:26:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 06:16:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4dbd32792 nas-selfcommit: 4 Datei(en) 2026-08-28 06:15
+- 75ab5334b konversations-log 2026-08-28: Destillat 26h (1 echtes Gespraech: KISPI-Pendenzenliste), 2 Registerzeilen 31.08./KW36
