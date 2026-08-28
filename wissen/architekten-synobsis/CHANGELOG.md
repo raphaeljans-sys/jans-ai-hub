@@ -4,6 +4,33 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-28 02:30 (Mac Mini Nachtschicht) — Zwei weitere offene Fragen aus QUESTIONS.md recherchiert (Boehm_Markus, Prinz_Norman/Seddig/Sigg/Schneller_Andreas/Schuerer_Architekten/Smith_Samuel_Modell)
+
+Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis Stufe
+1+2 vollstaendig; `bauprodukte` formal erledigt (Endbedingung erreicht), `energie` heute
+bereits an eigenem Takt gelaufen (Run 165/167), `baurecht`/`normen`/`planungsgrundlagen`/
+`wettbewerbs-dna` per Vorgabe ausgeschlossen (eigener Taktgeber). `architektur-fachwissen`
+gegengeprueft und bewusst NICHT gewaehlt: die beiden dort offenen Punkte (#15 Aufbewahrung
+Bewerbungsunterlagen Dritter, #16 unbeschriftetes Diplomarbeitsfoto) sind ausdruecklich als
+Entscheid Raphael markiert und beruehren zudem den sensiblen Korpus aus Rule
+`auto-verbesserungen` 260823 (Bewerbungsdossiers Dritter) — kein autonomes Ziel.
+
+Auf Prioritaet 5 ausgewichen, gleiche Methodik wie die Laeufe seit 24.08.: zwei weitere
+Fragen aus `wiki/QUESTIONS.md` per WebSearch geklaert (direkt im Hauptkontext, kein Fan-out).
+**Boehm_Markus** belastbar geklaert: Sohn Gottfried Boehms, aber nachweislich KEIN Architekt
+(Informatik/Geologie-Studium, malerische Gestaltung von Architektur) — erklaert plausibel den
+leeren Ordner. Die Sammelfrage **Prinz_Norman/Seddig/Sigg/Schneller_Andreas/
+Schuerer_Architekten/Smith_Samuel_Modell** gemischt: Schneller_Andreas (Zuercher Buero
+schneller.ch bestaetigt, Projektordner-Bezug «Holziken» aber NICHT in dessen Projektliste
+gefunden) und Smith_Samuel_Modell (Samuel Pujol Smith, ETH/Kerez/Zumthor, Smith Studio
+Zuerich) als plausibelste Treffer markiert; Seddig als einziger eindeutiger Treffer
+(Seddig Fehrmann Architekten Mainz); Prinz_Norman schwach (ein Coroflot-Profil ohne weitere
+Belege); Sigg und Schuerer_Architekten bleiben mangels Ordnerinhalt nicht eingrenzbar (je
+mehrere gleichnamige Schweizer Bueros gefunden). QUESTIONS.md inline ergaenzt (Diff nativ
+per ssh als rein additiv geprueft: 2/2 Zeilen erweitert, keine Loeschung). Keine
+Ordnerumbenennung, kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
+Budget dieses Zyklus: rund 2 von 5 USD.
+
 ## 2026-08-27 23:30 (Mac Mini Nachtschicht) — Sechs weitere offene Fragen aus QUESTIONS.md recherchiert (Baumann_Povel, C18, Koyama, Hufnagel, Luebps_Atelier, Worm_Maximilian)
 
 Prioritaeten 1-3 leer/nicht umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 1+2

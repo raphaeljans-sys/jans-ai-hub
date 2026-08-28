@@ -9138,3 +9138,25 @@ keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.
   Luebps_Atelier), eine ohne Treffer (Koyama). Details und Quellen in der QUESTIONS.md,
   CHANGELOG-Eintrag gesetzt. Keine Ordnerumbenennung, kein Fan-out, kein Versand, keine
   Buchung, keine destruktive Aktion.
+
+## 2026-08-28 02:30 Nachtschicht Mac Mini — Prioritaeten 1-4 gesaettigt, Prioritaet 5: architekten-synobsis QUESTIONS.md
+
+- Prioritäten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis
+  Stufe 1+2 vollständig; `bauprodukte` formal erledigt (Endbedingung erreicht seit 15.08.),
+  `energie` heute bereits an eigenem Takt gelaufen (Run 165/167), `baurecht`/`normen`/
+  `planungsgrundlagen`/`wettbewerbs-dna` per Vorgabe ausgeschlossen. `architektur-fachwissen`
+  gegengeprüft und bewusst nicht gewählt: die beiden dort offenen Punkte sind ausdrücklich
+  Entscheid Raphael und berühren den sensiblen Korpus aus Rule `auto-verbesserungen` 260823
+  (Bewerbungsdossiers Dritter) — kein autonomes Ziel.
+  Auf Priorität 5 ausgewichen: zwei weitere offene Fragen aus
+  `wissen/architekten-synobsis/wiki/QUESTIONS.md` per WebSearch recherchiert (Boehm_Markus;
+  Sammelfrage Prinz_Norman/Seddig/Sigg/Schneller_Andreas/Schuerer_Architekten/
+  Smith_Samuel_Modell). Boehm_Markus belastbar geklärt (Sohn Gottfried Böhms, aber kein
+  Architekt — Maler/Gestalter). Aus der Sammelfrage zwei plausible Treffer (Schneller_Andreas
+  Zürich, Holziken-Bezug aber unbestätigt; Smith_Samuel_Modell = Samuel Pujol Smith Zürich),
+  ein eindeutiger Treffer (Seddig Fehrmann Architekten Mainz), ein schwacher Treffer
+  (Prinz_Norman), zwei mangels Ordnerinhalt nicht eingrenzbar (Sigg, Schuerer_Architekten —
+  je mehrere gleichnamige Schweizer Büros). Details und Quellen in der QUESTIONS.md,
+  CHANGELOG-Eintrag gesetzt. Diff nativ als rein additiv geprüft (2/2 Zeilen erweitert, keine
+  Löschung). Keine Ordnerumbenennung, kein Fan-out, kein Versand, keine Buchung, keine
+  destruktive Aktion. Budget: rund 2 von 5 USD.
