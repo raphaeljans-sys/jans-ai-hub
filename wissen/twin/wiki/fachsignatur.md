@@ -1,7 +1,7 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-27
+last_updated: 2026-08-28
 gewichtung: authentisch
 sources: [260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
@@ -2644,3 +2644,39 @@ zum Baustart** und die **Fertigstellungsanzeige / Meldekarte an das AfB** — je
 Kalenderwoche, und mit der richtigen Empfängerbehörde. Die behördlichen Abnahmen werden als
 eigener, zu fixierender Terminblock geführt («Diese sollen in der KW48 erfolgen»), getrennt vom
 Nutzertermin der Inbetriebnahme.
+
+## Batch 107 (27.08.2026) — die Tür-ID als sprechende Nummer, und der Plan als Beleg
+
+Quelle: `rj@` 27.08.2026 08:12 und 13:46, Gewichtung **authentisch**.
+
+### Die Nummernlogik wird erklärt, nicht behauptet
+
+«… und der Logik (wonach die FM Nummer-Struktur/Raumnummer in die Tür-ID-Nr. aufgenommen wird)
+der Nummerierung entsprechen ist somit folgende Tür-ID korrekt: Umbau-10 / Tür-ID-Nr.:
+01.2.013.01». Der Aufbau `<Gebäude>.<Geschoss>.<Raum>.<Element>` wird nicht als Konvention gesetzt,
+sondern aus dem **FM-Nummernsystem des Betreibers** hergeleitet — die Tür erbt die Raumnummer.
+Daraus folgt die Fehlerdiagnose zwingend: eine Ziffer zu viel im Raumteil («3013» statt «013»)
+kann nur ein Tippfehler sein, weil es den Raum 3013 im Geschoss nicht gibt. **Die Fachlogik
+liefert hier den Beweis, nicht bloss die Begründung.**
+
+### Zwei Aussagen, zweimal derselbe Belegsatz: «Gemäss <Plan> …»
+
+- «**Gemäss Sicherheitskonzeptplan** KISPI_Therapiestation 1.OG_Sicherheitskonzept_TEK_260824.pdf
+  von TeKoSi und dem Ausführungsplan Fach Architektur, welche beide korrekt sind …» (08:12)
+- «**Gemäss Lüftungsplan** 206_GR_O01_ALG_LU01_Installationsplan.pdf würde dies funktionieren.»
+  (13:46)
+
+Der Plan wird mit **Gattungsname plus vollständigem Dateinamen** genannt, teils als
+SharePoint-Deeplink hinterlegt. Kein «gemäss den Plänen», kein «soweit ersichtlich». Fügt sich zur
+belegten Linie, dass Kennwerte und Grundlagen benannt und nie geraten werden.
+
+### Gewerkevokabular des Tages (Innenausbau/Gebäudetechnik, KISPI PPTS)
+
+Elektrotrasse · Hilti-Joch («Hiltijoch») · Heizschlaufenbereich · Vorsatzschale · Bodenablauf ·
+Siphon · Kernbohrung in der Betondecke · GT-Leitungen · Brandabschottung · Schottungsplan ·
+Brandlast in EI30-Leichtbauwand · Türmatrix / Türbuch / Installationsbuch / Sicherheitskonzeptplan
+· Flügelwand · Bodenschwelle · «Gut zur Ausführung» als Freigabevermerk mit zwei Unterschriften.
+
+Bemerkenswert die Abkürzung im Protokollkopf: die Fachplaner werden mit **Kürzel + Firma**
+geführt («Würsch Fabian, ELE KISPI» · «Suljanovic Igor, SAN KISPI» · «Spörri Michael, HLK KISPI» ·
+«Raphael Jans, AR JANS»). ELE/SAN/HLK/AR/QS stehen ohne Auflösung; die Runde kennt sie.

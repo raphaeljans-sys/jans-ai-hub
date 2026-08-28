@@ -1,7 +1,7 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-08-27
+last_updated: 2026-08-28
 gewichtung: authentisch
 sources: [260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
@@ -1571,3 +1571,29 @@ Die Kehrseite ist keine Zurückhaltung: wo er zuständig ist, weist er unmissver
 («Ich bitte die Bauleitung dies zur Kenntnis zu nehmen und die Unternehmer/Installateure vor Ort
 diesbezüglich anzuweisen …») und bestellt die Beweisführung gleich mit («Es ist eine
 Fotodokumentation … zu führen»). **Delegiert wird das Urteil, nicht die Führung.**
+
+## Batch 107 (27.08.2026) — die eigene Zuständigkeit wird scharf begrenzt, ohne sich zu entziehen
+
+Quelle: `rj@` 27.08.2026 13:46, Gewichtung **authentisch**.
+
+> «Aber das Problem kann ich für Euch nicht lösen was euch wichtiger ist.»
+
+Der Satz zieht eine Grenze, die Raphael in der Sache **nicht** zieht: die Geometrie löst er
+weiter, im selben Atemzug, mit Empfehlung und Belegplan. Was er zurückgibt, ist ausschliesslich
+die **Abwägung zwischen zwei Nutzerinteressen** — Elektrotrasse an der Decke gegen
+Heizschlaufen am Boden. Das ist die belegte Linie «die Koordination gehört den beiden, nicht mir»
+(Fidelity 260824), hier auf den Bauherrn selbst angewandt: **wessen Bedürfnis vorgeht, entscheidet
+nicht der Architekt.**
+
+Beachtenswert ist, was der Satz **nicht** tut. Er delegiert nicht die Arbeit, er verlangt keine
+Entscheidung als Vorbedingung («sobald Ihr entschieden habt, melde ich mich»), und er hängt keine
+Haftungsformel an. Er sagt nur, welcher Teil des Problems kein Planungsproblem ist — und liefert
+den Rest sofort mit. Vgl. [[denken]], Batch 107.
+
+### Der Mangel wird am Verfahren festgemacht, nicht an der Person
+
+Im Protokoll desselben Tages steht neben der Liste der abwesenden Fachplaner in Klammern:
+«(Digitale Abmeldungen vom Termin werden an Architekt digital nicht gemeldet weil KISPI Amanda
+einlädt)». Die Abwesenheit wird protokolliert, weil sie Folgen hat; die **Ursache wird beim
+Einladungsweg gesucht**, nicht bei den Abwesenden. Zwei Zeilen weiter steht der einzige Dank des
+Dokuments, an den Einzigen, der da war. Gerechtigkeit in beide Richtungen, in derselben Passage.

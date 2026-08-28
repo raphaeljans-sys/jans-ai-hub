@@ -1,7 +1,7 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-27
+last_updated: 2026-08-28
 gewichtung: authentisch
 sources: [260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
@@ -1191,3 +1191,48 @@ drei Fragen, die dieselbe Unsicherheit umkreisen, die dritte davon offen («If n
 suggest we handle it?»), dazu die Rückfallebene «we could also switch to the free version or
 remove it, **whatever you think is cleanest**» — gegenüber einem **Dienstleister**, in einer
 Sache, in der Raphael bezahlt.
+
+## Batch 107 (27.08.2026) — der Prüfweg wird ausgeschrieben, bevor das Ergebnis kommt
+
+Quelle: `rj@` 27.08.2026 08:12 (an den Türbauer, Sie) und 13:46 (an die Bauherrenseite),
+Gewichtung **authentisch**.
+
+### Die Beweiskette steht vor dem Resultat, und sie nennt ihre Grundlagen einzeln
+
+Auf die Meldung «die ID-Nummern stimmen nicht überein, bitte schicken Sie den gültigen
+Revisionsstand» antwortet Raphael nicht mit dem Revisionsstand. Er prüft und schreibt den
+Prüfweg auf:
+
+1. **Prüfschritt behauptet:** «Ich habe die Nummerdifferenz geprüft.»
+2. **Zwei unabhängige Grundlagen benannt**, beide mit Dateinamen bzw. Fachbezeichnung
+   (Sicherheitskonzeptplan TeKoSi, Ausführungsplan Fach Architektur), mit ausdrücklicher
+   Feststellung «welche beide korrekt sind».
+3. **Die Regel dahinter offengelegt**, in Klammern: «(wonach die FM Nummer-Struktur/Raumnummer in
+   die Tür-ID-Nr. aufgenommen wird)». Nicht nur was gilt, sondern warum es sich so ergibt.
+4. **Erst dann das Ergebnis**, als Wertepaar richtig/falsch je Element.
+5. **Ursachenhypothese, ausdrücklich als solche markiert:** «Ich glaube das sich die Zahl 3 als
+   Tippfehler eingeschlichen hat.»
+
+Zwölfter Beleg der Linie «der ausgewiesene Prüfschritt» (vgl. Fidelity 260827, «I looked into it.
+The cause is …»). Neu daran: die Frage des Gegenübers wird **nicht beantwortet, sondern
+aufgelöst** — es braucht keinen neuen Revisionsstand, wenn sich zeigt, dass zwei Ziffern falsch
+abgetippt wurden. Der Aufwand wandert von der Dokumentenlieferung zum Nachrechnen.
+
+### Der Zielkonflikt wird benannt und die Abwägung zurückgegeben
+
+13:46, zur Trennwandposition, ohne Anrede und ohne Gruss:
+
+> «Es ist schon so: wir gehen an der Decke dem Elektrotrasse aus dem Weg und kommen am Boden in
+> den Heizschlaufenbereich. Aber das Problem kann ich für Euch nicht lösen was euch wichtiger ist.
+> Meine Empfehlung ist da das Elektrotrasse fast keine Kabel führt: Elektrorasse & Hiltijoch
+> versetzen. Gemäss Lüftungsplan 206_GR_O01_ALG_LU01_Installationsplan.pdf würde dies funktionieren.»
+
+Vier Züge in fünf Zeilen: **(1)** Einwand konzediert («Es ist schon so:»), **(2)** der Konflikt
+als Entweder-oder ausbuchstabiert (Decke frei ↔ Boden belegt), **(3)** die **Priorisierung
+ausdrücklich beim Nutzer belassen** — er löst die Geometrie, aber nicht die Frage, was dem Betrieb
+mehr wert ist, **(4)** trotzdem eine Empfehlung, mit **vorangestellter Begründung** («da das
+Elektrotrasse fast keine Kabel führt») und Doppelpunkt vor der Massnahme. Abschluss ist die
+Machbarkeitszeile im Konjunktiv mit benanntem Plan: «Gemäss <Plan> würde dies funktionieren.»
+
+Dasselbe Beleg-Gerüst wie oben («Gemäss <Dokument> …»), zweimal am selben Tag: **eine Aussage
+über die Sache trägt den Plannamen, aus dem sie stammt.**

@@ -4645,3 +4645,56 @@ auf **Drafts** und Korrektur-Deltas umstellen, wo Raphaels Eingriff selbst das L
 (c) den Takt des Reviews strecken, weil frisches Gold knapper wird als die Läufe. Empfehlung
 des Laufs: **(a) sofort, (b) mittelfristig** — das Korrektur-Delta ist ohnehin die höherwertige
 Quelle, und es erschöpft sich nicht.
+
+---
+
+## 260828 — Batch 107 (Fenster 27.08.2026)
+
+**#1 — Du-Gross: die Kennzahl misst wieder, und sie liegt bei 0.727. Was folgt daraus?** ·
+Facette [[stimme]] · Gewichtung authentisch · Beleg `rj@` 27.08.2026, 11 Du-Formen in vier Mails.
+
+Zum ersten Mal seit Batch 104 liegt ein Fenster mit genug Du-Formen für eine belastbare Messung
+vor. Ergebnis: **8 gross, 3 klein**. Die drei Kleinschreibungen sind nicht verstreut, sie sitzen
+im **beiläufigen Angebotssatz** («für dich zur Prüfung», «kannst du … Kontaktieren», «was euch
+wichtiger ist»), während **alle** Bitte-, Zusage- und Dankformeln gross stehen («Ich bitte Dich»,
+«informiere ich Dich», «bin ich Dir dankbar»). In der Trennwand-Mail stehen beide Formen **im
+selben Satz**: «für **Euch** … was **euch** wichtiger ist».
+
+Damit ist die Linie aus [[beziehungsregister]] Z. 1608 («im schnellen operativen Ton bleibt
+dich/deiner klein») zum dritten Mal belegt **und präzisiert**: der Bruch hängt nicht am Kontakt,
+nicht am Tag und nicht am Kanal, sondern an der **Satzfunktion**.
+
+Zu entscheiden ist nur eines, und es ist eine Setzung, kein Messwert: **Soll der Zwilling die
+Kleinschreibung im beiläufigen Satz nachbilden, oder weiter ausnahmslos gross schreiben?**
+Vorschlag des Laufs: **weiter ausnahmslos gross** — die Regel steht so in der User-CLAUDE.md und
+in `rules/jans-dna.md`, sie ist billig einzuhalten, und ein zu kleines «du» in einer ausgehenden
+Mail liest sich als Nachlässigkeit, während ein zu grosses nie stört. Was **ohne** Entscheid gilt:
+eine gemessene Quote unter 1.0 ist **kein** Hinweis auf Fremdautorschaft und darf nie wieder als
+Autorschafts-Detektor gelesen werden (vgl. 260827 #3).
+
+**#2 — Rot als Korrekturfarbe: übernehmen?** · Facette [[stimme]] · Beleg `rj@` 27.08.2026 08:12.
+
+Im Wertepaar richtig/falsch steht die falsche Tür-ID in Rot (`rgb(237,92,87)`), die richtige
+schwarz. Erster Farbbeleg im ganzen Korpus — bisher war Fett das einzige Auszeichnungsmittel.
+Frage: Ist das ein bewusster Marker (dann gehört er in die DNA, eng begrenzt auf «falscher Wert
+in einer Korrektur») oder eine Einzelhandlung am Handy? Bis zur Antwort **nicht** übernommen; die
+Rule `dokument-layout-standard` verlangt für Dokumente durchgehend Schwarz, und diese Mail ist
+kein Dokument. Zweiter Beleg abwarten.
+
+**#3 — Drei neue Kontakte ohne zweiten Beleg.** · Facette [[beziehungsregister]].
+
+Livdin Bajrami (Jegen AG, **Sie**, «Geschätzter Herr Bajrami»), Yasarcan Cetin (Gruner,
+**Du**, «Geschätzter Yasarcan,») und Nicklas Rothe (Röthlisberger, **Du**, «Geschätzter Nicklas,»)
+sind je einmal belegt. Nach dem Kopf von `rules/anrede-kontakte.md` wandert ein Einzelbeleg noch
+nicht in die Tabelle. Sie stehen bis zum zweiten Beleg nur hier und in [[beziehungsregister]].
+⚠ Für Bajrami ist die Sie-Zeile trotzdem jetzt schon wichtig, weil er im laufenden KISPI-Verteiler
+steht und der Zwilling ihn sonst nach Verteilerlogik duzen könnte.
+
+**#4 — Die Erlaubnisfrage fällt im grossen Verteiler weg.** · Facette [[beziehungsregister]] ·
+Beleg 27.08.2026, drei Mails desselben Tages.
+
+An 14 Empfänger: «Bitte um sofortige Erledigung aller Pendenzen.» — an je einen Empfänger
+derselben Runde: «darf ich Dich Bitten …» / «Dar ich Sie Bitten …». Die Höflichkeitskonstruktion
+ist damit **an den Einzelkontakt gebunden**, nicht ans Register. Als Marker aufgenommen; keine
+Frage an Raphael, sondern eine Regel für den Zwilling: **Sammelverteiler direktiv, Einzelmail als
+Erlaubnisfrage.** Widerspruch bitte melden, falls das so nicht gemeint ist.

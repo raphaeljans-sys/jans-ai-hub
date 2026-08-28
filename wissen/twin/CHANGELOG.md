@@ -4,6 +4,42 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-28 — Batch 107: die Du-Gross-Quote misst wieder, und sie liegt bei 0.727
+
+`raw/260828-mailbatch-107.md` neu; alle sechs Facetten-Artikel und `wiki/QUESTIONS.md` ergänzt
+(`last_updated: 2026-08-28`). Fenster **27.08.2026** vollständig gelistet: 13 Sent Items, davon
+**9 Golds** (authentisch), 5 im Volltext gelesen. Gratis-Vorfilter (Selbstadressierung +
+Loop-Name im Betreff) hat erneut ein `read_resource` gespart.
+
+**⭐ Hauptbefund:** Batch 106 hatte die Du-Gross-Quote entwertet, weil sie bei null Du-Formen
+still `0.0` ausgab. Dieses Fenster trägt **11 Du-Formen in vier Mails** — die erste belastbare
+Messung seit Batch 104, und sie fällt gegen die DNA-Kernregel aus: **8 gross, 3 klein, Quote
+0.727**. Die Kleinschreibungen streuen nicht, sie sitzen ausnahmslos im beiläufigen Angebotssatz
+(«für dich zur Prüfung», «kannst du … Kontaktieren»), während alle Bitte-, Zusage- und
+Dankformeln gross stehen; in einem Satz stehen **beide Formen nebeneinander** («für Euch … was
+euch wichtiger ist»). Damit ist die Linie aus `beziehungsregister` Z. 1608 dritter Beleg **und
+präzisiert**: der Bruch hängt an der **Satzfunktion**, nicht am Kontakt, Tag oder Kanal. Für den
+Zwilling ändert das nichts — «Du immer gross» ist Setzung, kein Messwert. Für die Lesart der
+Kennzahl ändert es alles: **eine Quote unter 1.0 ist kein Autorschafts-Signal.**
+
+**Zweiter ⭐:** die **Genehmigungsfiktion verlässt das Protokoll** — «@Levi Hiltmann Bitte kurz
+nachprüfen; ohne Reaktion ist Sachverhalt Mail bestätigt», fristlos, an den Cc-Mitleser, in einer
+gewöhnlichen Fachmail. Erster Beleg war ein Protokoll von 2023; der Marker ist damit mehrfach
+belegt und nicht mehr protokollgebunden.
+
+Weitere Befunde: **Rot als Korrekturfarbe** (erster Farbbeleg im Korpus, bis zum zweiten Beleg
+nicht übernommen) · **Sammelverteiler direktiv, Einzelmail als Erlaubnisfrage** (dieselbe Runde,
+derselbe Tag) · Protokoll gegliedert am **LOS-Baum** mit `_` / `>` / `>>` als Ebenen · jede
+Pendenz **zweimal zugestellt**, adressiert vor gesammelt · «Geschätzte Frau Amanda» zum dritten
+Mal an dieselbe Empfängerin ⇒ **Fehlerklasse bestätigt** · drei neue Kontakt→Register-Paare
+(Bajrami **Sie**, Cetin **Du**, Rothe **Du**, alle mit der Wärmestufe «Geschätzte/r»), je
+Einzelbeleg und darum noch nicht in `rules/anrede-kontakte.md`.
+
+**Gehirn gemessen statt fortgeschrieben:** `build_dna.py` nach den Ergänzungen ausgeführt —
+«bereits aktuell (keine Aenderung)», Datei byte- und hashgleich. Kernbefund 12 aus Batch 106 im
+Regelbetrieb bestätigt. **Reserve jetzt 22 B von 34'000** (Batch 106: 35 B); die nächste
+Erweiterung eines Do/Don't-Blocks bricht am Wachstums-Riegel ab.
+
 ## 2026-08-27 — Fidelity-Review: der Block erkennt jetzt, was NICHT von Raphael ist
 
 `outputs/2026-08-27_fidelity.md` neu. **Gesamt-Fidelity 30** (Beziehungsregister 43 · Stimme 35 ·

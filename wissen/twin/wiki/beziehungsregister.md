@@ -1,7 +1,7 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-27
+last_updated: 2026-08-28
 gewichtung: authentisch
 sources: [260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
@@ -3326,3 +3326,61 @@ Ebenfalls aus diesem Lauf: die **englische Anrede hängt am Kontakt, nicht an de
 «Hello <Vorname>,» ist für den 3D-Freelancer belegt (260806), «**Hi Hleb**» für den
 Webprogrammierer — zweifach, 16.02. und 27.06.2026, also vor und nach dem Hub. Im Block
 korrigiert; die Lehre steht in [[QUESTIONS]] 260827b #1.
+
+## Batch 107 (27.08.2026) — direktiv im Verteiler, Erlaubnisfrage im Einzelkontakt; drei neue Kontakte
+
+Quelle: `rj@` Sent Items 27.08.2026, 9 Golds, Gewichtung **authentisch**.
+
+### ⭐ Die Tonstärke der Bitte hängt an der Verteilergrösse, nicht am Register
+
+Am selben Tag, an dieselbe Projektrunde:
+
+- **14 Empfänger** (Protokollversand, 16:49): «**Bitte um sofortige Erledigung aller Pendenzen.**»
+  — Imperativ, kein Weichzeichner, kein «darf ich», kein Fragezeichen.
+- **1 Empfänger** (13:49, an den HLK-Teamleiter, Du): «Hoi Michi, **darf ich Dich Bitten** dem
+  Leichtbauwand-Ersterller mitzuteilen dass …»
+- **1 Empfänger** (17:15, an die Sekretariatsseite, Sie): «**Dar ich Sie Bitten** Herr Bajrami
+  Livdin … Einzuladen.»
+
+Die Erlaubnisfrage aus Batch 104/106 ist damit **an den Einzelkontakt gebunden**. Sobald der
+Verteiler gross wird, fällt sie weg und der Satz wird direktiv. Das ist keine Registerfrage —
+im Verteiler stehen dieselben Du-Kontakte, die einzeln die höfliche Form bekommen. Es ist eine
+Frage der **Adressierbarkeit**: eine Bitte an vierzehn Leute hat keinen Adressaten mehr, also
+wird sie zur Anweisung an die Sache.
+
+### Der Dank sitzt in Klammern, öffentlich, und trifft genau einen
+
+Im Protokoll listet Raphael die Planer-Abwesenden namentlich und schreibt darunter:
+«**Anwesend: Mustafa Eren (Danke)**». Der einzige erschienene Fachplaner wird vor der ganzen
+Runde gedankt, in zwei Wörtern und Klammern. Wärme im formellen Dokument, minimal dosiert und
+**namentlich zugeordnet** — dieselbe Ökonomie wie beim nachgestellten «danke» am Satzende
+(08:12: «Sie können im exelfile Direkt die Nummer anpassen, danke.»).
+
+### Der Prozessmangel wird benannt, die Person nicht beschuldigt
+
+Zur selben Abwesenheitsliste, in Klammern: «(Digitale Abmeldungen vom Termin werden an Architekt
+digital nicht gemeldet weil KISPI Amanda einlädt)». Die Ursache steht im Protokoll, damit sie
+abstellbar wird; niemand wird gerügt. Fügt sich zur belegten Linie in [[haltung]], den Mangel am
+System festzumachen statt an der Person.
+
+### Neue Kontakt→Register-Paare (alle 27.08.2026, aus Raphaels eigener Hand)
+
+| Kontakt | Rolle | Register | Beleg |
+|---|---|---|---|
+| Livdin Bajrami | Jegen AG, Projektleiter/Techn. Planer (LOS_274.01 Innere Verglasungen) | **Sie**, «Geschätzter Herr Bajrami» (ohne Komma) | 08:12; Gegenseite «Guten Morgen Herr Jans» |
+| Yasarcan Cetin | Gruner AG, Elektroplaner | **Du**, «Geschätzter Yasarcan,» (mit Komma) | 08:30 |
+| Nicklas Rothe | Röthlisberger AG / Schreinermanufaktur, Küchenbauer (LOS_273.35) | **Du**, «Geschätzter Nicklas,» | 15:55; Du-Formen 4/4 gross |
+
+Alle drei tragen die Stufe «Geschätzte/r» — bei zweien im Du, bei einem im Sie. Das stützt erneut,
+dass «geschätzt» eine **Wärmestufe** ist und keine Anredeform (vgl. den «werter»-Befund aus
+Batch 106). Nachzutragen in `rules/anrede-kontakte.md`, sobald ein zweiter Beleg je Kontakt
+vorliegt; ein Einzelbeleg wandert nach Regelkopf der Liste noch nicht in die Tabelle.
+
+### ⚠ «Geschätzte Frau Amanda» — dritter Beleg derselben Fehlerklasse, an dieselbe Empfängerin
+
+Am 26.08. bereits als Fehlerklasse festgehalten (Batch 106, Kernbefund 5): Anrede mit «Frau» +
+**Vorname aus dem Anzeigenamen** («Valentin Michelle Amanda», Nachname Valentin). Am 27.08. 17:15
+wiederholt sich derselbe Griff, wörtlich, an dieselbe Person. Damit ist es **systematisch, nicht
+situativ** — der Anzeigename des Adressbuchs wird ungeprüft übernommen, wie zuvor bei
+«Herr Mustafa» (Nachname Eren). Bleibt **Fehlerinsel, kein Stilmarker**; der Zwilling korrigiert
+sie still. Die Prüfregel liegt in [[QUESTIONS]] 260827 #2 zur Bestätigung.

@@ -2153,3 +2153,52 @@ auf 2414 Thalwil, Albertstrasse 7 / Nova oder Wartstrasse 8 (alle drei abgeschö
 Lektüre zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die Gold-Verbrauch-
 Abschnitte der Fidelity-Läufe**; (5) Reserve des Auto-Blocks messen statt die alte Warnzeile
 abzuschreiben.
+
+---
+
+## Batch 107 (28.08.2026) — Sent Items `rj@`, Fenster 27.08.2026
+
+**Datei:** `260828-mailbatch-107.md` · **Gewichtung:** authentisch (9 Golds) ·
+**eingearbeitet:** ja (alle sechs Facetten + [[QUESTIONS]] 260828 #1–#4)
+
+**Abgedeckt:** `rj@` Sent Items **27.08.2026** vollständig gelistet (`totalResultCount: 13`, eine
+Seite, `order: oldest`). Davon 1 Hub-Briefing per Gratis-Vorfilter übersprungen (Selbstadressierung
++ Loop-Name «Hub-Chef» im Betreff, kein `read_resource` verbraucht), 1 leere Weiterleitung, 2
+Kontaktdatenblätter ohne Prosa. **9 Golds**, davon 5 im Volltext gelesen (08:12 · 08:30 · 13:46 ·
+15:55 · 16:49), 4 vollständig aus der Suchvorschau (09:15 · 13:49 · 14:35 · 17:15).
+
+**Verbraucht — nicht erneut destillieren:** Tür-ID-Klärung Bajrami 08:12 · Grundlagen
+Elektroplanung an Cetin 08:30 · Brandabschöttler/AGI 09:15 · Trennwand 2.039 zu Fluchtweg 0.300
+13:46 · Unterzug Therapieküche an Spörri 13:49 · Produkteangabe Keramikplättli 14:35 · Küchenbau
+Röthlisberger A)–D) 15:55 · Protokoll 10. Koordinationssitzung 16:49 · Einladung Bajrami an das
+Sekretariat 17:15. Mit dem 27.08. ist zusätzlich die Schiene **Jegen / Werkplanung Türen**
+abgeschöpft (sie stand seit Batch 106 als Reserve).
+
+**Kernbefunde:** (1) ⭐ Du-Gross-Quote misst zum ersten Mal seit Batch 104 wieder — 11 Du-Formen,
+**0.727**; die drei Kleinschreibungen sitzen ausnahmslos im beiläufigen Angebotssatz, alle
+Bitte-/Zusage-/Dankformeln stehen gross, in einem Satz beide Formen nebeneinander. Dritter Beleg
+der Linie [[beziehungsregister]] Z. 1608 und deren Präzisierung: der Bruch hängt an der
+**Satzfunktion**. (2) ⭐ Die **Genehmigungsfiktion verlässt das Protokoll** — «ohne Reaktion ist
+Sachverhalt Mail bestätigt», fristlos, an den Cc-Mitleser, in einer Fachmail. (3) **Rot als
+Korrekturfarbe**, erster Farbbeleg im Korpus, nicht übernommen bis zum zweiten Beleg.
+(4) Sammelverteiler **direktiv**, Einzelmail als **Erlaubnisfrage** — dieselbe Runde, derselbe
+Tag. (5) Protokoll gegliedert am **LOS-Baum**, `_` für Positionen, `>`/`>>` für Ablagetiefe.
+(6) Jede Pendenz **zweimal zugestellt**: adressiert vor gesammelt. (7) «Geschätzte Frau Amanda»
+zum dritten Mal, dieselbe Empfängerin ⇒ **Fehlerklasse bestätigt, systematisch**.
+
+**Reserve des Auto-Blocks — gemessen, nicht abgeschrieben:** `build_dna.py` meldet
+**33'978 B von 34'000, also 22 B Reserve** (Batch 106 mass 35 B). Der Lauf hat die sechs
+Facetten-Artikel um je einen Batch-Abschnitt erweitert und den Kompilierer danach ausgeführt:
+Ergebnis **«bereits aktuell (keine Aenderung)», Datei byte- und hashgleich**. Damit ist
+Kernbefund 12 aus Batch 106 im Regelbetrieb bestätigt — `extract_block()` zieht nur den
+Do/Don't-Block, Batch-Abschnitte wirken nie aufs Gehirn. **Die nächste Erweiterung eines
+Do/Don't-Blocks bricht am Wachstums-Riegel ab**; vorher verdichten oder `MAX_AUTO_BYTES` bewusst
+anheben. `rules/jans-dna.md` trägt weiterhin keinen Auto-Block (0 Sentinels), Ziel ist
+`rules/jans-dna-facetten.md`.
+
+**Nächstes Fenster:** (1) sequenziell `rj@` **ab 28.08.2026**, Sent Items, `order: oldest`;
+(2) Gratis-Vorfilter vor dem CSS-Fingerabdruck (hat erneut gespart); (3) bei leerem Fenster **kein**
+Thread-Rückgriff auf 2414 Thalwil, Albertstrasse 7 / Nova, Wartstrasse 8 oder Jegen/Türen — alle
+vier abgeschöpft; offen bleibt die Behördenschiene **AfB / Feuerpolizei**; (4) vor der Lektüre
+zwingend **beide Teile dieser Datei** auswerten (Batch-Tabelle UND die Gold-Verbrauch-Abschnitte
+der Fidelity-Läufe) und die Phrasenprobe fahren; (5) Auto-Block-Reserve messen statt fortschreiben.

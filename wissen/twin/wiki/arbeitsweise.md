@@ -1,7 +1,7 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-08-27
+last_updated: 2026-08-28
 gewichtung: authentisch
 sources: [260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
@@ -3557,3 +3557,85 @@ Markers «Belegnummern inline mit Form» in [[stimme]].
 nächste Schritt Sache des Empfängers. Die Blindfassung hängte «Wir bitten Sie, die Ausführung …
 einzuplanen und uns den Ausführungstermin mitzuteilen» an und kassierte damit den offenen Raum —
 dieselbe Bewegung wie beim Akzeptanzvorbehalt (260826 Befund 1). In den Block gehoben.
+
+## Batch 107 (27.08.2026) — das Protokoll läuft am LOS-Baum entlang, und jede Pendenz wird zweimal zugestellt
+
+Quelle: `rj@` 27.08.2026, 9 Golds, Kern ist der Protokollversand 16:49 an **14 Empfänger**,
+Gewichtung **authentisch**.
+
+### ⭐ Der Ordnungsschlüssel ist die Los-Nummer, nicht das Thema und nicht die Person
+
+Das Protokoll der 10. Koordinationssitzung ist streng nach aufsteigender Los-Nummer gegliedert:
+225.40 → 231.10 → 233.01 → 235.80 → 250.01 → 259.21 → 271.10 → 273.01 → 273.04 → 273.35 →
+274.01 → 281.20 → 281.63 → 291.00 → 294.50 → 298.50 → 298.60. Jede Überschrift folgt demselben
+Muster, fett: `LOS_<Nr> <Gewerk> <FIRMA IN VERSALIEN>`. Vor den Losen stehen nur zwei Blöcke:
+Teilnehmer und **Termine**; nach ihnen die Pendenzen. Wer etwas sucht, sucht über sein Gewerk,
+nicht über das Sitzungsgespräch.
+
+**⚠ Fachlicher Vorbehalt zur Nummer:** «LOS_271.10 Gipserarbeiten ESTERMANN» ist eine
+**bürointerne Los-Nummer**, kein BKP-2017-Code — das BKP kennt unter 271 nur 271.0/271.1/271.2.
+Raphaels eigener Sprachgebrauch bestätigt damit genau die Trennung, die Rule `bkp-2017-referenz`
+seit 04.08.2026 verlangt: die Los-Nummer nie mit dem Präfix «BKP» schreiben. Der Zwilling
+übernimmt die Los-Schreibweise `LOS_<Nr>`, **nicht** als BKP-Code.
+
+### Aufzählungszeichen: `_` für die Position, `>` für die Ablagetiefe, `>>>` für den Verweis
+
+Innerhalb jedes Loses trägt jede Zeile den Unterstrich-Bullet «`_ `» (belegt seit Mailbatch 12).
+Neu und im Korpus bisher nicht festgehalten ist die **zweite Ebene**: Dokumentenketten werden mit
+`>` und `>>` eingerückt, wobei die Tiefe dem Ablagepfad entspricht (`> LOS_298.50 …` → `> 298.50
+01 GRUNER AG BRANDSCHUTZDOKUMENTE …` → `>> 260826_Kurzprotokoll QS Begehung …_sign.pdf`). Im
+Mailvorspann steht `>>>` vor dem Verweis auf die separate Pendenzen-PDF. Die Zeichen sind keine
+Dekoration, sie bilden **Hierarchie ohne Einrückung** ab — kopierbar, in jeder Mailansicht stabil.
+
+### Zweifache Zustellung: derselbe Wortlaut als Protokolleintrag und als Einzelmail
+
+Der Protokolleintrag zu LOS_273.35 (Küchenbau) trägt vier Punkte: Befestigungsdetail Spülarmatur,
+Montagetermin KW41, Lieferumfang Sanitärarmaturen, Grundplatte durch Schreiner KISPI ohne
+Mehrpreis. **Dieselben vier Punkte gingen 54 Minuten vorher als A) B) C) D)-Liste direkt an den
+Küchenbauer** (15:55), im Wortlaut praktisch identisch, dort in der zweiten Person («werden von
+Dir geliefert»), im Protokoll in der dritten («von Röthlisberger»). Der Betroffene erfährt seine
+Pendenz also **einzeln und adressiert**, bevor sie ihn im Sammeldokument erreicht. Vierter Beleg
+der A)-B)-C)-Listenform (vgl. Batch 106, Kernbefund 7).
+
+Dasselbe Prinzip trägt der ganze Tag: die Brandabschottungs-Frage (09:15) und die
+Kontaktzustellung (13:30) laufen als Einzelmails, tauchen abends im Protokoll unter ihrem Los
+wieder auf, und ein Textblock wird dabei **wörtlich zweimal verwendet** («QS&AR stehe für
+Baustellenbesichtigung oder Fragen für Detaillösungen bereit», unter 225.40 und unter 298.50).
+
+### Die Frist trägt Datum, Wochentag und namentliche Empfänger
+
+«… bis am Montag den 31.08.26 liefern oder per Mail an alle inkl.: - Allerkamp Claudia <Mail>
+- Schäfer Cornelia <Mail>». Eine Pendenz ist erst vollständig, wenn **wer, bis wann und an wen**
+darin steht; die Mailadressen stehen ausgeschrieben im Protokoll, nicht im Verteiler versteckt.
+Dieselben zwei offenen Fragen erscheinen **zweimal im selben Dokument** — oben unter «Offene
+Fragen» und unten unter «Pendenzen». Redundanz mit Absicht, wie die Doppelzustellung oben.
+
+### Termine: Datum + KW, und das einzige Fett sitzt auf dem Nutzertermin
+
+«_ Meldung Baustart Feuerpolizei: 01.09.26, KW36 / _ Fertigstellungsanzeige: 23.11.2026, KW48 /
+_ Der Nutzer muss die Inbetriebnahme am **01.12.26** starten.» Dritter Beleg der Rückwärtsplanung
+vom unverrückbaren Nutzertermin (Batch 106, Kernbefund 9), und wieder ist **genau dieses Datum
+das einzige Fett** des Blocks. Die Jahreszahl bleibt gemischt zwei-/vierstellig innerhalb
+derselben drei Zeilen.
+
+### Die Widerspruchsfrist im Fliesstext — zweiter Beleg, erstmals gegenüber einem Mitgelesenen
+
+08:12, letzte Zeile vor dem Gruss: «**@Levi Hiltmann** Bitte kurz nachprüfen; ohne Reaktion ist
+Sachverhalt Mail bestätigt.» Zwei Dinge stehen in einem Satz: die **Inline-Adressierung eines
+Cc-Empfängers** mit «@Name» (vgl. Batch 106, Kernbefund 10) und eine **Genehmigungsfiktion** —
+Schweigen gilt als Bestätigung, ohne dass eine Frist genannt wird. Der erste Beleg dieser
+Konstruktion stammt aus einem Protokoll von 2023 («gilt als genehmigt», mit Bitte um kurzes
+OK-Feedback); hier steht sie in einer **Fachmail an Dritte**, und sie richtet sich nicht an den
+Hauptempfänger, sondern an den fachlich zuständigen Mitleser. Damit ist der Marker mehrfach
+belegt und nicht mehr protokollgebunden: **wo eine Klärung sonst hängen bliebe, setzt Raphael die
+Bestätigung als Voreinstellung und verschiebt die Bringschuld auf den Widerspruch.**
+
+### Der Zwischenstand wird als vorläufig markiert, mit zugesagtem Nachlauf
+
+08:30 an den Elektroplaner: «Ich bitte Dich die Unterlagen zu prüfen und in die Fachplanung
+einzuarbeiten; **als Stand der Planung**. Es wird noch Anpassungen geben da wir jetzt die
+Elektrospezifikationen pro Türelement in Abstimmung mit Jegen AG sind. Sobald wir die finalen
+Werkpläne freigegeben haben informiere ich Dich und bitte um die finale Planeinarbeitung.» Die
+Statusqualifikation hängt nachgestellt am Semikolon; der Vorbehalt nennt **seinen Grund**, und die
+Zusage benennt den **Auslöser** des nächsten Schritts (Freigabe), nicht ein Datum. Arbeit läuft
+weiter, während die Grundlage noch wandert — mit ausdrücklichem Nachlaufversprechen statt Warten.
