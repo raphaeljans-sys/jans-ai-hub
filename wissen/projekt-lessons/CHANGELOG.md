@@ -1,6 +1,16 @@
 # CHANGELOG — Wissensbasis Projekt-Lessons
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
+
+## 2026-08-28
+
+- `outputs/2026-08-28_bestandsstandard-beschlaege-unternehmerdokumentation.md` angelegt.
+  Befund aus der Beantwortung der offenen Fragen der Jegen AG (2619 KISPI, BKP 274.01):
+  Produktstandards des Originalbaus stehen in Rubrik 70 Unternehmerdokumentation der
+  Bauplattform (`09_Materialdeklaration`), nicht in der Architekturablage; die Master-
+  Tuermatrix dokumentiert zusaetzlich die verbauten Komponenten und macht den Bestandsstandard
+  auszaehlbar.
+
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
 ## 2026-08-25 — Wissens-Health-Check (Nachtschicht Mac Mini, Phase 1)
