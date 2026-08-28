@@ -4,6 +4,31 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-28 — Fidelity-Review: der Sent-Items-Korpus ist zu Ende, die Drafts fangen an
+
+`outputs/2026-08-28_fidelity.md` neu. **Gesamt-Fidelity 29** (Vorlauf 30), Golds A' 24 / B' 36 /
+C' 27. Erstmals **alle drei Golds aus dem Ordner Drafts** — 123 Stueck, von keinem Batch je
+angefasst (alle zogen «Sent Items»), zurueckreichend bis Juli 2025 und damit **vor die
+Claude-Aera**. Anlass: die Fenster-Tabelle in `raw/_INGESTED.md` ist von Juli 2025 bis heute
+**lueckenlos**, und die vom Vorlauf als frei empfohlene Saumstrasse-Schiene stand bereits in
+[[fachsignatur]]. Auswahlkriterium ist ab jetzt die **Mail**, nicht ihr Fenster (Restrisiko
+benannt). Der Autorschafts-Detektor aus 260827 hat produktiv zwei Kandidaten gesperrt, einen
+davon ueber einen Verstoss gegen die Rule `anrede-kontakte` statt gegen den Auto-Block.
+
+Drei Marker in den Auto-Block: **Begruendung der Bitte sagt, wofuer ICH sie brauche** (Stimme,
+neu), **«Waere es Ihnen moeglich …» = weiche Sie-Variante der ersten Stufe** (Stimme,
+Praezisierung), **achte Endform: Aufforderung zum Kanalwechsel** (Arbeitsweise, neu). Drei
+Artikel-Nachtraege ausserhalb des Blocks (Furrer-Trajektorie, Betreff als Zustellfeld,
+Kanalwechsel-Beleg). `wiki/QUESTIONS.md` um fuenf Fragen ergaenzt (260828b #1 bis #5).
+
+**Riegel gemessen, nicht fortgeschrieben:** `build_dna.py` kompiliert bei **33'952 B von
+34'000, also 48 B Reserve** (Vorlauf 22 B) — **ein** Verdichtungsdurchgang statt sechs, weil
+die Gegenfinanzierung vor der Einfuegung geplant wurde. 13 Stellen gekuerzt, ausschliesslich
+Beleg-Prosa und Beispielzitate, **keine Regel geloescht**. Zweiter Lauf nacheinander bestaetigt
+Kernbefund 12 aus Batch 106: die Batch-/Fidelity-Abschnitte wirken nicht aufs Gehirn, der
+zweite Aufruf meldet «bereits aktuell». Die Vorlage eines **Beleg-Anhangs je Facette ausserhalb
+des Auto-Blocks** bleibt offen und wird wiederholt.
+
 ## 2026-08-28 — Batch 107: die Du-Gross-Quote misst wieder, und sie liegt bei 0.727
 
 `raw/260828-mailbatch-107.md` neu; alle sechs Facetten-Artikel und `wiki/QUESTIONS.md` ergänzt

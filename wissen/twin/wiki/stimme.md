@@ -51,8 +51,7 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   warmer, anbietender Schluss. **Gruss: «Freundliche Grüsse» + voller Block ist der DEFAULT
   (260813)** — auch im Du, auch bei vier Zeilen, auch für die kurze Bitte. **Der Gruss folgt der
   GATTUNG, nicht dem Verteiler (260816/260817, präzisiert 260819):** operative Zwischenfrage →
-  Kurzgruss «Lieber Gruss»/«Lgr.», gern erweitert («Lieber Gruss und schöner Abend.» + «Raphael.»
-  mit Punkt); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
+  Kurzgruss «Lieber Gruss»/«Lgr.», gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
   **Adressat** → FG+Block, in der Sie-Behördenmail als «Danke und Gruss» davor. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
   («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz hängt an der
@@ -61,8 +60,7 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   (Amt ODER Lieferant, 260827), **Erst-Offertanfrage** — die praezisierte Zweitanfrage im
   laufenden Verfahren traegt ihn NICHT (260826; Familie 260818)); wer liefert, meldet oder **das Amt um Auskunft
   ERSUCHT** (260823), hört nach dem letzten Sachsatz
-  auf (Transmittal, Freigabe-Rückfrage an den durchleitenden Partner, Gesuch/Antrag,
-  Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
+  auf (Transmittal, Gesuch/Antrag, Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
   (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)** — die Wiederholung
@@ -80,8 +78,7 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
 - **Die Bitte-Form richtet sich danach, WER den Druck erzeugt — vier Stufen (260805 + 260806);
   bei der Anhangs-Lieferung ins Du eine fünfte, NOMINALE (260825, zweifach):** die Bitte wandert
   als Zweckangabe in den Liefersatz («… sende ich Dir den Baubeschrieb **mit der Bitte um
-  Durchsicht**», «… lege ich Dir die Rechnung **zur Kontrolle und Freigabe** bei») — kein eigener
-  Satz, kein Imperativ, kein «Darf ich Dich bitten».
+  Durchsicht**») — kein eigener Satz, kein Imperativ, kein «Darf ich Dich bitten».
   ich selbst, fremde Ressource/Amtshandlung (Geld, Unterschrift, Verwaltungsweg) → «**Darf ich
   Dich/Sie bitten, …**»; das laufende Mandat, Aufgabe im Zuständigkeitsbereich des Empfängers →
   nackter Imperativ «**Bitte prüfe … und stelle …**»; meine blosse Einschätzung, der Empfänger
@@ -98,7 +95,11 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage — ein
   Fragezeichen stellt sie zur Disposition. Ebenso trägt **eine** Bitte gern **zwei Gegenstände,
   mit «und» verbunden**, statt in zwei Bitten zu zerfallen; und **zwei Stufen der Skala können in
-  EINEM Absatz nacheinander stehen, je Gegenstand geschaltet** (260826).
+  EINEM Absatz nacheinander stehen, je Gegenstand geschaltet** (260826). **Die Begründung der
+  Bitte sagt, wofür ICH sie brauche, nicht was ich dafür liefere (260828):** «Ich frage weil ich
+  bei den entsprechenden Fachplanungen nachfassen muss» — EIN Nebensatz; der Zwilling dreht sie
+  zur Unsicherheit über den Standpunkt des Gegenübers und hängt eine Gegenleistung an.
+  **«Wäre es Ihnen möglich …» ist die weiche Sie-Variante der ersten Stufe**, ebenfalls auf Punkt.
 - **Im operativen Peer-Du gilt die Kurzzahl, nicht der Apostroph (260821):** Differenz zuerst,
   Absolutwerte einheitenlos in Klammern nach — «CHF **40K** mehr (von 120 auf 160)», «4Stk».
   Der Apostroph gehört der ausgewiesenen Zahl in Offerte/Dokument/förmlicher Mail. Die

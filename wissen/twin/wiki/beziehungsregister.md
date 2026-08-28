@@ -414,10 +414,9 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   <Vorname>», Architektenkollege/Wettbewerbspartner→Peer-Du «Guten Morgen <Vorname>» + «Lieber
   Gruss», Privatkunde-Sie warm→Guten Tag, warm-sozial/branchenfern→Liebe/r + ev. 😊 + «Beste
   Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
-  geehrte. Behörde nach Vertrautheit UND Gewicht des Anliegens: bekannt→Geschätzte/r;
-  unbekanntes/generisches Postfach: triviale Service-/Koordinations-/Technik-Bitte→namenloses
-  «Guten Tag»/«Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und
-  Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren.
+  geehrte. Behörde nach Vertrautheit UND Gewicht: bekannt→Geschätzte/r;
+  unbekanntes Postfach: triviale Service-Bitte→namenloses «Guten Tag»/«Grüezi»,
+  gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren.
   **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die
@@ -459,8 +458,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   die Einzeladressierung nicht aus. **Auch ein To-Empfänger wird übergangen (260824):** das
   Adressfeld sagt, wer die Mail bekommt, nicht wer angeredet wird. **Ob ein- oder zweizeilig gestapelt wird, entscheidet das
   GEWICHT der Mail, nicht die Stufendifferenz (korrigiert 260819):** die kurze operative Frage
-  trägt beide Stufen auf EINER Zeile mit einem Schlusskomma («Geschätzter Herr Kübler, werter Herr
-  Duran,», zwei Empfänger, kein Cc, vom Mobiltelefon); erst die gewichtige, förmliche Mail bricht
+  trägt beide Stufen auf EINER Zeile mit einem Schlusskomma (zwei Empfänger, kein Cc); erst die gewichtige, förmliche Mail bricht
   auf zwei Zeilen um, **Komma nur auf der ersten**.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
@@ -3384,3 +3382,25 @@ wiederholt sich derselbe Griff, wörtlich, an dieselbe Person. Damit ist es **sy
 situativ** — der Anzeigename des Adressbuchs wird ungeprüft übernommen, wie zuvor bei
 «Herr Mustafa» (Nachname Eren). Bleibt **Fehlerinsel, kein Stilmarker**; der Zwilling korrigiert
 sie still. Die Prüfregel liegt in [[QUESTIONS]] 260827 #2 zur Bestätigung.
+
+## Fidelity 260828 — Furrer, dritter Datenpunkt derselben Trajektorie
+
+Gewichtung: authentisch (Draft aus Raphaels eigener Hand, Fehlerinsel dicht: «Ich frage weil»
+ohne Komma, «Abänderungplanes»). Quelle: `rj@` Drafts 12.08.2026 16:06, an Linus Furrer (AfB
+Stadt Zürich), Betreff «AfB BE KISPI PPTS Auflagen vor Baubeginn.pdf».
+
+**Anrede: «Geschätzter Herr Furrer»** — ohne Schlusskomma. Die bisher belegten Formen desselben
+Kontakts sind «Guten Tag Herr Furrer (AfB)» (Erstkontakt, Rollen-Tag in der Anredezeile) und
+«Sehr geehrter Herr Linus Furrer (AfB, II.1.a)» (gestapelte 14-Empfänger-Mail). Der neue Beleg
+liegt **wärmer als beide** und trägt weder Rollen-Tag noch Vollnamen.
+
+Damit ist der Trajektorien-Marker (260823) zum dritten Mal an derselben Beziehung belegt: die
+Bewegung läuft **innerhalb** des Sie-Registers (Nachname bleibt), sie läuft ins Wärmere, und
+sie ist an keinen einzelnen Auslöser gebunden — zwischen den Belegen liegen Wochen gemeinsamer
+Verfahrensarbeit, kein Telefonat und kein Kanalwechsel. Der Fall stützt die Fassung in
+`rules/jans-dna-facetten.md` («Trajektorie, kein Standbild») und **nicht** die
+Sofortwirkungs-Lesart der Treffen-Klausel in `rules/anrede-kontakte.md`.
+
+Kein Eintrag in `rules/anrede-kontakte.md`: Furrer trägt dort noch keine Zeile, und ein
+Draft-Einzelbeleg reicht nach dem Kopf jener Datei nicht für die Tabelle. Zweiten Beleg
+abwarten.

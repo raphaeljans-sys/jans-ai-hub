@@ -179,7 +179,7 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   eigene Varianten ersetzt; **die dünne Faktenlage wird OFFEN gelassen, nie mit Plausiblem
   gefüllt** (260817, sechste Erfindungs-Drift in Folge): der Zwilling erfindet Rechtsfolgen,
   Dokumentinhalte und nächste Schritte, wo Raphael die Lücke stehen lässt und benennt — «müsste man
-  prüfen (Zustand Immobilie / Marktsituation / Investitionsbedarf)», «macht Sinn wenn …».
+  prüfen …», «macht Sinn wenn …».
 - **Die Verfahrensart benennen, um den Aufwand zu begrenzen (260818):** «Da es sich um eine
   **informelle Mitwirkungsfrist und nicht um eine formelle Rekursfrist** handelt, ist alles korrekt
   getan» — die Einordnung beruhigt und spart dem Bauherrn Arbeit, statt Dringlichkeit zu erzeugen;

@@ -4698,3 +4698,84 @@ derselben Runde: «darf ich Dich Bitten …» / «Dar ich Sie Bitten …». Die 
 ist damit **an den Einzelkontakt gebunden**, nicht ans Register. Als Marker aufgenommen; keine
 Frage an Raphael, sondern eine Regel für den Zwilling: **Sammelverteiler direktiv, Einzelmail als
 Erlaubnisfrage.** Widerspruch bitte melden, falls das so nicht gemeint ist.
+
+---
+
+## 260828b — Fidelity-Review (Golds aus Drafts: Shabani 29.07.2025, Furrer 12.08.2026, Eren 25.08.2026)
+
+**#1 — Tippst Du den Kurzgruss erst beim Absenden?** · *Facette [[stimme]]* · **Entscheid
+Raphael nötig, aber billig.**
+
+Zwei der drei Golds dieses Laufs (Eren 25.08., Shabani 29.07.2025) gehen vom letzten Sachsatz
+**direkt in den Signaturblock** — kein getipptes «Lieber Gruss / Raphael» darüber. Beides sind
+operative Mails, für die der Block seit 260816 den Kurzgruss vorsieht; beide Blindfassungen
+setzten ihn folgerichtig und lagen scheinbar falsch.
+
+Beides sind aber **Drafts**, und beide sind sichtbar unfertig (Shabani bricht mitten im Satz
+ab, Eren endet eine Zeile ohne Punkt). Die Frage ist deshalb nicht «gilt der Marker noch»,
+sondern schlicht: **schreibst Du den Kurzgruss zuletzt, kurz vor dem Senden?** Wenn ja, ist an
+Drafts der Gruss grundsätzlich nicht messbar, und der Harness darf aus seinem Fehlen nie einen
+Marker bauen. Wenn nein, ist der Kurzgruss seltener als der Block behauptet.
+
+Bis zur Antwort gilt der bestehende Marker unverändert; nachgetragen ist nur seine Umkehrung
+(**der Signaturblock schliesst den Kurzgruss nicht ein**), und die ist als Draft-Vorbehalt
+markiert, nicht als Regel.
+
+**#2 — Der Sent-Items-Korpus ist zu Ende. Die Drafts sind die Antwort — soll das Mail-Training
+mitziehen?** · *Methodenfrage, Hub-intern* · **Vorgelegt, nicht selbst entschieden.**
+
+Der Vorlauf meldete Saturierung und nannte Juni/Juli 2026 als frei. Nachgemessen an der
+Fenster-Tabelle: **der Bestand ist von Juli 2025 bis heute lückenlos erfasst**, 71 Fenster ohne
+Lücke, und die konkret empfohlene Saumstrasse-Schiene stand längst in [[fachsignatur]].
+
+Dieser Lauf hat stattdessen den Ordner **Drafts** geöffnet: 123 Stück, von keinem Batch je
+angefasst (alle zogen «Sent Items»), zurückreichend bis **Juli 2025** — also in die Zeit vor
+Claude. Damit existiert wieder echtes Gold der höchsten Gewichtungsstufe, und zwar in Menge.
+
+Zu entscheiden ist die Arbeitsteilung: **soll `twin-mail-training` die Drafts ebenfalls
+erschliessen, oder bleiben sie dem Fidelity-Review vorbehalten?** Empfehlung des Laufs:
+**vorbehalten**. Das Training steht in der Gegenwart und hat mit den täglichen Sendungen
+genug; der Review braucht eine Quelle, die nicht schon gelesen wurde, und die Drafts liefern
+mit dem Korrektur-Delta obendrein das höherwertige Signal. Wenn beide hineingreifen, ist auch
+diese Quelle in drei Wochen erschöpft.
+
+**#3 — Ist der Betreff bei Dir ein Zustelladressfeld, kein Titel?** · *Facette [[arbeitsweise]]*
+· Zwei Belege, kein Entscheid nötig, aber eine Bestätigung wäre nützlich.
+
+Gold A läuft im Thread «AW: Angebot TDD Zugerstrasse 49 in Baar», handelt aber von Projekt 2414
+Thalwil (Anhang `2414-10 JANS Projektpläne Architektur A3.pdf`, Rechnungsadresse Familie
+Tschopp). Gold B trägt als Betreff schlicht den **Dateinamen des Anhangs**: «AfB BE KISPI PPTS
+Auflagen vor Baubeginn.pdf».
+
+Die Lesart: der bestehende Thread ist das schnellste Adressbuch, und der Betreff wird nicht
+nachgeführt, weil er den Empfänger findet, nicht den Inhalt beschreibt. Das passt zum
+260827-Marker «der Dateiname IST die Antwort». **Für den Block zu dünn** (zwei Belege, beide
+Drafts), im Artikel vermerkt. Frage an Dich, weil der Zwilling sonst jeden Betreff sorgfältig
+neu formuliert und damit etwas repariert, was Du bewusst so lässt.
+
+**#4 — «Wäre es Ihnen möglich …» gegenüber «Darf ich Sie bitten …»: Behörde gegen Unternehmer,
+oder Gewicht gegen Gewicht?** · *Facette [[stimme]]* · Ein Beleg, Antwort billig.
+
+Gold B bittet die Baubewilligungsbehörde: «**Wäre es Ihnen möglich** mir den Statusbericht …
+per Printscreen zukommen zu lassen**.**» Die Skala kennt für diese Stufe (eigenes Wollen,
+fremde Ressource) bisher nur «Darf ich Sie bitten, …». Beide enden auf einem Punkt, beide sind
+Höflichkeitsrahmen — aber «Wäre es Ihnen möglich» räumt dem Gegenüber ein Nein ein, das «Darf
+ich Sie bitten» nicht einräumt.
+
+Ist das (a) die Form für die **Behörde**, die tatsächlich nicht muss, oder (b) die Form für
+eine **kleine Gefälligkeit** unabhängig vom Empfänger? Als Variante derselben Stufe
+mitgeschrieben; die Unterscheidung entscheidet, ob der Zwilling sie gegenüber Unternehmern
+verwenden darf.
+
+**#5 — Die Begründung nach innen: gilt sie auch, wo Du etwas lieferst?** · *Facette [[stimme]]*
+· Neuer Marker aus diesem Lauf, eine Nachfrage dazu.
+
+Neu im Block (Befund 4): Deine Begründung sagt, **wofür Du die Sache brauchst** («weil ich bei
+den entsprechenden Fachplanungen nachfassen muss»), nie, was Du dem Gegenüber dafür lieferst.
+Die Blindfassung bot der Behörde ungefragt an, «die fehlenden Nachweise gebündelt zuzustellen»
+— eine einseitige Zusage, die im Gold nicht steht.
+
+Die Nachfrage: gilt das auch dort, wo Du **ohnehin** lieferst? Also darfst Du in derselben Mail
+sagen «ich sende Ihnen danach X», wenn X ohnehin fällig ist — oder ist auch das eine Zusage zu
+viel, weil sie einen Termin schafft, den niemand verlangt hat? Der Marker ist bewusst eng
+gefasst (**keine erfundene Gegenleistung**) und würde bei einem Ja unverändert bleiben.

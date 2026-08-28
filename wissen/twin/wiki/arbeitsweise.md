@@ -156,8 +156,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   im **engsten Peer-Du** die Rohheit des Originals halten (spontane Reihenfolge, Urgenz-Titel
   statt Anrede, grussloser Schluss — dort **korrekt**);
   **Behörden-Kontaktformular**: dessen Feldraster als Mail-Body ausfüllen, und auch **ohne**
-  Formular die als Prosa gestellte Rückfrage als **«_ »-Feldraster Label: Wert** beantworten, ohne
-  Anrede, mit FG+Block (260805); bei unklarer **Zuständigkeit** dieselbe Anfrage im selben Zug an
+  Formular die Prosa-Rückfrage als **«_ »-Feldraster Label: Wert** beantworten (260805); bei unklarer **Zuständigkeit** dieselbe Anfrage im selben Zug an
   zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen.
   Studien-/Sitzungspräsentation: Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
 - **Nummeriert wird nach der Sache, nicht nach der Gattung (260804):** nummeriert wird eine
@@ -169,7 +168,8 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   und **ein Gewerk ohne Kenntnisstand fehlt**, auch wenn der Betreff es nennt.
 - **Wie eine Mail endet (260803/260807/260817):** auf Bedingung, Nutzen oder Nachmelde-Zusage;
   **vierte Endform** die entscheidungserheblichen Fakten als **eigene, unverbundene Sätze** ohne
-  «daher» und ohne Bewertung (die Folgerung zieht der Zuständige); **fünfte Endform der bereits
+  «daher» und ohne Bewertung (die Folgerung zieht der Zuständige); **achte die Aufforderung zum KANALWECHSEL** («Ruf mich doch morgen kurz an um die
+  Sanitärplanung abzuschliessen.», 260828) — mit Zweck, ohne Frist; **fünfte Endform der bereits
   vereinbarte nächste Kontakt** — «Wir hören uns am 16:30 Uhr.», ohne Service-Satz und ohne
   Angebot; **siebte die zurückgestellte Grundfrage unter nacktem Label** («Grundsätzliche
   Fragestellung:» / «Frage:», 260824) — die wichtigste Frage steht zuunterst, weil der Sachstand
@@ -191,8 +191,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Argument, ein Fliesstext-Satz nicht (260820, drei von drei Blindfassungen).
   **Die Drift ist nicht «zu viele Listen», sondern VEREINHEITLICHUNG (korrigiert 260824):** der
   Zwilling wählt EINE Darstellungsform und zieht sie durch — gemessen in beide Richtungen. Raphael
-  entscheidet **je Block neu**: eine einzige operative Mail trug «- »-Liste, Dateinamen-Liste,
-  «A)/B)»-Themenblöcke, «_ »-Punkte, Breadcrumb-Link und Fliesstext nebeneinander. Die Aufzählung steht auch mitten im Satz, ohne
+  entscheidet **je Block neu**: eine einzige operative Mail trug sechs Formen nebeneinander. Die Aufzählung steht auch mitten im Satz, ohne
   Aufzählungszeichen; der Satz läuft über sie hinweg.
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten; offene Enden
   ohne nächsten Schritt **in der Mail**; eine Folge einzeln zu beantwortender Fragen als offene
@@ -3639,3 +3638,44 @@ Werkpläne freigegeben haben informiere ich Dich und bitte um die finale Planein
 Statusqualifikation hängt nachgestellt am Semikolon; der Vorbehalt nennt **seinen Grund**, und die
 Zusage benennt den **Auslöser** des nächsten Schritts (Freigabe), nicht ein Datum. Arbeit läuft
 weiter, während die Grundlage noch wandert — mit ausdrücklichem Nachlaufversprechen statt Warten.
+
+## Fidelity 260828 — der Betreff ist ein Zustellfeld, kein Titel (zwei Belege, für den Block zu dünn)
+
+Gewichtung: authentisch (beides Drafts aus Raphaels eigener Hand). Quellen: `rj@` Drafts
+29.07.2025 13:06 und 12.08.2026 16:06.
+
+Zwei Belege, dieselbe Bewegung:
+
+- Die Offertanfrage an den Fachplaner-Partner läuft im Thread «**AW: Angebot TDD Zugerstrasse
+  49 in Baar**», handelt aber von einem anderen Projekt (Anhang `2414-10 JANS Projektpläne
+  Architektur A3.pdf`, Rechnungsadresse in Thalwil). Der bestehende Thread dient als
+  Adressbuch; der Betreff wird nicht nachgeführt.
+- Die Bitte an die Baubewilligungsbehörde trägt als Betreff schlicht den **Dateinamen des
+  Anhangs**: «AfB BE KISPI PPTS Auflagen vor Baubeginn.pdf».
+
+Lesart: der Betreff findet den Empfänger, er beschreibt nicht den Inhalt. Das ist die Schwester
+des 260827-Markers «der Dateiname IST die Antwort» — dort im Body, hier in der Kopfzeile.
+
+**Bewusst nicht in den Do/Don't-Block gehoben:** zwei Belege, beide Drafts, und der Riegel steht
+bei 48 B. Praktische Folge für den Zwilling trotzdem festhalten: einen vorgefundenen Betreff
+**nicht ungefragt neu formulieren** — die scheinbare Unordnung ist eine Arbeitsweise, keine
+Nachlässigkeit. Offen als [[QUESTIONS]] 260828b #3.
+
+## Fidelity 260828 — die Endform «Kanalwechsel» (in den Block gehoben)
+
+Gewichtung: authentisch. Quelle: `rj@` Drafts 25.08.2026 18:03 an den Sanitärplaner, Cc drei
+Bauherrenvertreter.
+
+Die Mail stellt drei offene Punkte (Planeinarbeitung, Ablageort der Fremdpläne, zwei Brünneli),
+liefert den Ablage-Link für die eigene Seite und endet:
+
+> «Ruf mich doch morgen kurz an um die Sanitärplanung abzuschliessen.»
+
+Kein schriftlicher Arbeitsauftrag, keine Frist, kein Service-Satz. Die Aufforderung trägt ihren
+**Zweck** («um die Sanitärplanung abzuschliessen») und bleibt im Ton weich («doch», «kurz»).
+Wo mehrere Punkte gleichzeitig offen sind, holt Raphael sie ans Telefon, statt sie schriftlich
+zu zerlegen.
+
+Die Blindfassung machte daraus zwei Imperative plus eine **erfundene Frist** («bis Ende Woche»)
+— der Listen- und Formalisierungs-Reflex dieser Facette in neuer Gestalt. Als **achte Endform**
+in den Do/Don't-Block aufgenommen.

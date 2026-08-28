@@ -127,8 +127,7 @@ nicht jede Nachbesserung wird zur Position.
   und die eigene Variante wird selbstkritisch bewertet («machbar, aber schon massiv»).
 - **Die eigene Rechnung wird zur Disposition gestellt, die fremde festgestellt (260826,
   kontrollierter Vergleich).** Vor der **fremden** Zahlungsbitte steht der Prueferbefund im
-  Passiv («Die Arbeiten wurden gemaess Angebot bewerkstelligt.») und macht sie faellig — zwei
-  Saetze, fertig. Fuer sich selbst kann Raphael ihn nicht schreiben; bei der **eigenen** Rechnung
+  Passiv und macht sie faellig — zwei Saetze, fertig. Fuer sich selbst kann Raphael ihn nicht schreiben; bei der **eigenen** Rechnung
   tritt der Vorbehalt an seine Stelle («**bei Akzeptanz der Rechnung**»), der Zahlungsplan heisst
   «**mein Vorschlag**». Nie zu «zur Zahlung freigeben» glaetten, das kassiert den Vorbehalt.
 - **Den eigenen Prüfaufwand beziffern, die Zustimmung verweigern, die Person freistellen
