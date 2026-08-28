@@ -2,6 +2,45 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-28 (Synergie-Lauf 21) — ein Umbau zog vier Stellen nach und liess die fuenfte aus: drei Befunde am `heartbeat`
+
+**Zuschnitt:** inline, kein Fan-out. Delta 110 Commits / 24,0 h, Delta-Basis 27.08. 17:10.
+Strukturelles Delta: 0 neue Bausteine, 5 geaenderte Rules (2 davon Eigenrauschen des Laufs 20),
+1 geaendertes Script. Report: `outputs/2026-08-28_synergie-lauf-21.md`.
+
+Alles haengt an Commit `c09742dab`/`80291f302` (28.08. 09:45): der seit dem 24.08. dokumentierte,
+aber nie existierende Erreichbarkeits-Check wurde in `scripts/heartbeat.sh` eingebaut (+63/−2,
+in fuenf Szenarien getestet). Der Lauf zog Rule, Chronik und Fristen-Register sauber nach — und
+liess `skills/heartbeat/SKILL.md` aus, also die eine Datei, die den ausdruecklichen Vorbehalt
+gegen dieses Script traegt.
+
+- **SYN-56 — `skills/heartbeat/SKILL.md` (30/−12, 380 → 398).** Der Vorbehalt aus SYN-49 hat sein
+  Vorzeichen umgedreht: er nannte «acht Checks», «306 Zeilen», Commit `50f4553a9` vom 13.08. und
+  woertlich «`grep -i tailscale scripts/heartbeat.sh` liefert null Treffer». Gemessen sind es neun
+  Checks, 367 Zeilen, `c09742dab` und **sieben** Treffer. Der Absatz liess damit eine **vorhandene**
+  Gegenmassnahme als abwesend erscheinen — die Selbsttaeuschung von Rule 260807 in der
+  Gegenrichtung. Nicht gestrichen, sondern aktualisiert: der Kern (sieben Skill-Checks bleiben
+  ungedeckt) ist weiterhin richtig.
+- **SYN-57 — `rules/betrieb-chronik.md` (16/−0, 2656 → 2672).** Die Lehre «Ein Fund, der nur im
+  Scratchpad liegt, ist verloren … gehoert als Patch in den Repo-Baum» ist am eigenen Repo
+  widerlegt: `scripts/heartbeat.sh.VORSCHLAG-260825` lag seit Commit `2d70d19de` vom 25.08. 10:00
+  git-getrackt im Repo-Baum, 372 Zeilen, `bash -n` sauber, funktionsgleich — und ihr Pfad stand an
+  **zwei** Stellen. SYN-49 hatte sie am 25.08. sogar ausdruecklich als «kein Redundanz-Befund»
+  gefuehrt. Die tragende Lehre ist Rule 260809 (ein vorhandener Weg, den niemand findet, ist so gut
+  wie keiner), nicht die Ablage. Berichtigungsvermerk additiv gesetzt, Wortlaut der Lehre
+  unangetastet.
+- **SYN-58 — `rules/auto-verbesserungen.md` (5/−2, 412 → 415) + `skills/heartbeat/SKILL.md`.**
+  Derselbe Check traegt im Script die Nummer 9, im Skill die 15. Die Korrektur vom 28.08. erklaerte
+  die 15 zum Planungsartefakt — sie ist seit `ec1ee78ba` (24.08.) real vergeben, in lueckenloser
+  Reihe 1 bis 16. Rahmenangabe an beiden Enden ergaenzt, keine Umnummerierung.
+- **SYN-49 nachgefuehrt** (bewegter Vorlaeufer von SYN-56). **SYN-43 zum vierten Mal aufgerollt**
+  (`jans-dna-facetten` erneut bewegt) — kein neuer Befund, Entscheid Raphael steht aus.
+
+**Nicht uebernommen:** die `.VORSCHLAG`-Datei als Doppelbestand (Entfernen ist nie Sache dieses
+Laufs — Entscheid Raphael), die Riegel-Differenz an `jans-dna-facetten` (ohne Beleg kein Befund),
+der Wegweiser-Einzeiler in CLAUDE.md (Wegweiser-Prinzip). Register **+3 Tabellenzeilen** (55 → 58),
+keine Zeile verloren; alle Loeschungen belegte Zeilenersetzungen.
+
 ## 2026-08-27 (Run 45) — vier Befunde, vier bestätigt, keiner ungeschoren: die Refuter-Stufe hat diesmal jeden korrigiert statt einen gekippt
 
 **Zuschnitt:** 6 Melder (`model: sonnet`) + 4 Refuter (Hauptmodell) = 10 Agenten, 1'800'065 Token,

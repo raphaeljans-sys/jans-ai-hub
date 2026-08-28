@@ -272,6 +272,14 @@ bash /Volumes/daten/jans-ai-hub/scripts/methoden-scan.sh
 
 ### 15. Fernzugang (Tailscale-Waechter)
 
+⚠ **Zwei Nummern fuer denselben Check, beide gueltig.** Hier ist er Nr. 15 (Skill-Zaehlung,
+vergeben am 24.08.2026, Commit `ec1ee78ba`); in `scripts/heartbeat.sh` ist er der **9.** Check
+in Ausfuehrungsreihenfolge. Rule `auto-verbesserungen` 260824 und `rules/betrieb-chronik.md`
+260828 nennen ihn seit dem 28.08. den «9. Check» und bezeichnen die 15 dabei als Nummer, die
+«aus einer Planung» stamme — das trifft nicht zu: sie ist seit dem 24.08. hier real vergeben,
+in einer lueckenlosen Reihe 1 bis 16. Wer eine der beiden Zahlen zitiert, nennt den Rahmen
+dazu. Nachgetragen vom Synergie-Lauf 21 (28.08.2026, SYN-58).
+
 Check 13 fragt, ob die andere Station **laeuft**. Dieser Check fragt, ob sie **erreichbar**
 ist. Das sind zwei verschiedene Fragen, und die Luecke dazwischen hat vier Tage gekostet:
 vom 20.08.2026 gegen 02:20 bis zum 24.08. war der Mac Mini vom Tailnet getrennt, ohne dass
@@ -349,18 +357,28 @@ Das Heartbeat-Script kann direkt ausgeführt werden:
 bash /Volumes/daten/jans-ai-hub/scripts/heartbeat.sh
 ```
 
-**Vorbehalt: das Script deckt nicht alle Checks dieses Skills.** Gemessen am 25.08.2026
-fuehrt `scripts/heartbeat.sh` (306 Zeilen, letzter Commit `50f4553a9` vom 13.08.2026) **acht**
-Checks aus: NAS, Git, M365, Disk, Sync-Tasks, Symlinks, Dok-Pipeline, Schutzmechanik. Die
-Checks 9 bis 16 oben (Trust, Stations-Verbindungen, Grundkontext-Budget, Tasks-Spiegel,
-Wege-Radar, Stations-Watchdog, Methoden-Eingang, Tailscale, Git-Abgleich) leistet **nur der
-Skill-Lauf**. Das Script meldet «✅ Alles OK», ohne sie geprueft zu haben. Namentlich der
-Tailscale-Check fehlt (`grep -i tailscale scripts/heartbeat.sh` liefert null Treffer), also
-genau der Schutz vor dem Vorfall 260824c. Die Nachruestung ist gebaut und getestet, aber
-blockiert und im Fristen-Register gefuehrt (`logbuch/fristen.md`, Nachtrag 25.08.2026 09:4x);
-Fassung unter `scripts/heartbeat.sh.VORSCHLAG-260825`. Bis dahin gilt: fuer eine belastbare
-Aussage den Skill fahren, nicht das Script. Dasselbe Muster wie Rule `auto-verbesserungen`
-260807 (eine Gegenmassnahme gilt als vorhanden, weil sie dokumentiert ist).
+**Vorbehalt: das Script deckt nicht alle Checks dieses Skills.** Nachgemessen am 28.08.2026
+fuehrt `scripts/heartbeat.sh` (367 Zeilen, letzter Commit `c09742dab` vom 28.08.2026) **neun**
+Checks aus: NAS, Git, M365, Disk, Sync-Tasks, Symlinks, Dok-Pipeline, Schutzmechanik und neu
+«Erreichbarkeit» (Tailscale). Die uebrigen sieben Checks oben (8 Trust, 9 Stations-Verbindungen,
+10 Grundkontext-Budget, 11 Tasks-Spiegel, 12 Wege-Radar, 13 Stations-Watchdog, 14
+Methoden-Eingang, 16 Git-Abgleich) leistet **nur der Skill-Lauf**. Das Script meldet
+«✅ Alles OK», ohne sie geprueft zu haben; fuer eine Aussage ueber diese Checks den Skill
+fahren, nicht das Script. Muster Rule `auto-verbesserungen` 260807 (eine Gegenmassnahme gilt
+als vorhanden, weil sie dokumentiert ist).
+
+⚠ **Bis zum 28.08.2026 stand hier das Gegenteil, und es war zuletzt falsch.** Der Vorbehalt
+in der Fassung vom 25.08. nannte acht Checks, das Script mit 306 Zeilen und Commit `50f4553a9`
+vom 13.08., und schrieb woertlich, der Tailscale-Check fehle — `grep -i tailscale
+scripts/heartbeat.sh` liefere «null Treffer». Seit dem Umbau vom 28.08. (Commit `c09742dab`,
++63/−2) liefert derselbe Befehl **sieben** Treffer: der Check ist eingebaut, in fuenf Szenarien
+getestet, und der Schutz vor Vorfall 260824c wird vom Script getragen. Der Vorbehalt hatte
+damit sein Vorzeichen umgedreht — er liess eine vorhandene Gegenmassnahme als abwesend
+erscheinen, also genau die Selbsttaeuschung von 260807 in der Gegenrichtung. Aktualisiert vom
+Synergie-Lauf 21 (28.08.2026, SYN-56); Sachstand und Testszenarien: `rules/betrieb-chronik.md`
+260828, `logbuch/fristen.md` Nachtrag 28.08.2026 09:4x. **Offen bleibt allein** die Installation
+des launchd-Jobs `ch.jans.tailscale-waechter` (Persistenz-Klasse, Aktion Raphael) — der Check
+meldet sie heute korrekt als fehlend.
 
 ## Als Scheduled Task
 

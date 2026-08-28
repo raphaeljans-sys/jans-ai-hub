@@ -50,6 +50,22 @@ Zwei Lehren, beide schon bekannt und hier erneut belegt:
    getestet; weil sie an einer Berechtigungsgrenze hing und nur als Pfad im Register vermerkt war,
    musste sie am 28.08. neu gebaut werden. Was ein Klassifikator blockiert, gehoert als fertiger
    Befehl oder als Patch **in den Repo-Baum**, nicht in ein sessiongebundenes Verzeichnis.
+   ⚠ **Berichtigung 28.08.2026 (Synergie-Lauf 21, SYN-57): diese Lehre ist am eigenen Repo
+   widerlegt — der Patch lag genau dort, wohin sie ihn verlangt.**
+   `scripts/heartbeat.sh.VORSCHLAG-260825` ist seit Commit `2d70d19de` vom **25.08.2026 10:00**
+   git-getrackt im Repo-Baum: 372 Zeilen, `bash -n` sauber, zehn Tailscale-Treffer, dieselben drei
+   Messungen (Daemon · Peer · Waechter). Sie lag nicht im Scratchpad, sie war nicht weg, und ihr
+   Pfad stand woertlich an zwei Stellen — in `skills/heartbeat/SKILL.md` und im Fristen-Nachtrag
+   vom 25.08. Das Register wusste es sogar ausdruecklich: SYN-49 (Lauf 18, 25.08.) haelt fest, die
+   `.VORSCHLAG`-Datei im Repo sei «aus demselben Grund kein Redundanz-Befund». Die tragende Lehre
+   ist damit **nicht** die Ablage, sondern Rule `wege-und-vollmachten` bzw.
+   `auto-verbesserungen` 260809: **ein vorhandener Weg, den niemand findet, ist so gut wie
+   keiner** — hier verschaerft, weil der Weg zweifach vermerkt war und trotzdem nicht gesucht
+   wurde. Die Neuformulierung vom 28.08. ist gegenueber der Fassung vom 25.08. eine Umschrift
+   derselben Sache (116 Diff-Zeilen, 372 → 367 Zeilen), keine Reparatur einer unbrauchbaren
+   Vorlage. **Praktische Folge:** vor dem Neubau einer blockierten Massnahme zuerst nach einer
+   bereits abgelegten Fassung suchen (`git log -S`, `ls *.VORSCHLAG*`, den Pfad im Register lesen).
+   Der Rest des Eintrags 260828 ist unberuehrt und bleibt gueltig; Lehre 1 ist unbestritten.
 
 Verweise auf «Check 15» in `auto-verbesserungen.md` und in dieser Datei (Z. 411) im selben Lauf auf
 den tatsaechlichen Namen «Erreichbarkeit» korrigiert; die Nummer stammte aus einer Planung, nicht

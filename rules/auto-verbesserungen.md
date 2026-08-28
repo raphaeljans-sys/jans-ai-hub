@@ -39,8 +39,11 @@ zuerst.
   `LoggedOut: false` — abgeschaltet, nicht abgestürzt; deshalb half keine der korrekt gesetzten
   Optionen («VPN On Demand → Always», «Launch at login» setzen `WantRunning` nicht zurück).
   Gegenmassnahmen: `scripts/tailscale-waechter.sh`, `heartbeat`-Check «Erreichbarkeit»
-  (der 9. Check; als «Check 15» war er hier bis zum 28.08.2026 vorweggenommen, gebaut wurde
-  er erst am 28.08. — die Nummer stammte aus einer Planung, nicht aus dem Script),
+  (im **Script** der 9. Check, im **Skill** als Nr. 15 gefuehrt — beide Zahlen gelten, je nach
+  Rahmen; gebaut wurde er erst am 28.08.2026, bis dahin war er hier vorweggenommen. Die
+  Klarstellung «die Nummer stammte aus einer Planung» stand hier bis zum 28.08. und traf nicht
+  zu: `### 15. Fernzugang` ist seit dem 24.08. in `skills/heartbeat/SKILL.md` real vergeben.
+  Berichtigt vom Synergie-Lauf 21, SYN-58),
   `templates/launchd/ch.jans.tailscale-waechter.plist`. Chronik: `betrieb-chronik.md` 260824c.
 - **Gilt für:** alle Loops, Radare, Watchdogs und Sessions, die Betriebszustände erheben; alle
   Stationen. Präzisiert Eintrag 260803 (Sende-Schwelle) und 260805 (Register statt Laufbericht).
