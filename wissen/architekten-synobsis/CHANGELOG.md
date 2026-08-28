@@ -4,6 +4,33 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-28 05:30 (Mac Mini Nachtschicht) — Sechs weitere offene Fragen aus QUESTIONS.md recherchiert (Conte_Pianetti_Zanetta_Arch, Taylor, Whiting_Luci, Wollkenstein, maya, darlington_meyer)
+
+Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
+vollstaendig (`vectors.npz` unveraendert); `bauprodukte`/`grobkosten` formal erledigt/ausgesetzt,
+`energie` erst vor rund drei Stunden im eigenen Takt gelaufen (Run 165, 27.08.), `baurecht`/
+`normen`/`planungsgrundlagen`/`wettbewerbs-dna` per Vorgabe ausgeschlossen (eigener Taktgeber).
+Fristen-Register (`logbuch/fristen.md`) fuehrt nur bereits bekannte, weiterlaufende Punkte ohne
+neuen Handlungsbedarf fuer diesen Zyklus.
+
+Auf Prioritaet 5 ausgewichen, gleiche Methodik wie die Laeufe seit 24.08.: sechs weitere offene
+Identitaets-/Sachfragen aus `wiki/QUESTIONS.md` per WebSearch geklaert (direkt im Hauptkontext,
+kein Fan-out, Katalog-JSONs vorab auf Zusatzkontext geprueft — keine Dateinamen verfuegbar, nur
+Dateizahlen/-typen).
+
+**Conte_Pianetti_Zanetta_Arch** belastbar bestaetigt: Conte Pianetti Zanetta Architetti Sagl,
+Carabbia/Lugano (Tessin), Partner Mario Conte, Gionas Pianetti, Michele Zanetta, u.a. Centro
+Gioventù e Sport Bellinzona. Die restlichen fuenf Namen aus derselben Sammelfrage (Charge 6)
+blieben unbestaetigt oder mehrdeutig: **darlington_meyer** plausibel (Darlington Meier
+Architekten AG, Zuerich, gegruendet 2004, Schreibvariante Meier/Meyer), **Taylor** und **maya**
+zu generisch (Taylor haeufiger Nachname bzw. Buero in Minden ohne Schweiz-Bezug; maya zweideutig
+zwischen dem Buero Mayarchitekten und der mittelamerikanischen Maya-Architektur), **Whiting_Luci**
+und **Wollkenstein** ohne jeden Treffer. Details je Frage mit Quellenangabe direkt in
+`wiki/QUESTIONS.md`. `git diff --numstat` nativ geprueft: 2 Zeilen geaendert / 2 Zeilen (dieselben
+zwei Bulletzeilen additiv erweitert), keine Loeschung von Bestand. Keine Ordnerumbenennung, kein
+Fan-out, kein Versand, keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund 1.7
+von 5 USD.
+
 ## 2026-08-28 02:30 (Mac Mini Nachtschicht) — Zwei weitere offene Fragen aus QUESTIONS.md recherchiert (Boehm_Markus, Prinz_Norman/Seddig/Sigg/Schneller_Andreas/Schuerer_Architekten/Smith_Samuel_Modell)
 
 Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis Stufe

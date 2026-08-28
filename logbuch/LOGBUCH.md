@@ -9160,3 +9160,22 @@ keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.
   CHANGELOG-Eintrag gesetzt. Diff nativ als rein additiv geprüft (2/2 Zeilen erweitert, keine
   Löschung). Keine Ordnerumbenennung, kein Fan-out, kein Versand, keine Buchung, keine
   destruktive Aktion. Budget: rund 2 von 5 USD.
+
+## 2026-08-28 05:30 Nachtschicht Mac Mini — Prioritaeten 1-4 weiterhin gesaettigt, Prioritaet 5: architekten-synobsis QUESTIONS.md
+
+- Prioritäten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis
+  Stufe 1+2 vollständig (`vectors.npz` unverändert); `bauprodukte`/`grobkosten` formal
+  erledigt/ausgesetzt, `energie` erst vor rund drei Stunden im eigenen Takt gelaufen (Run 165),
+  `baurecht`/`normen`/`planungsgrundlagen`/`wettbewerbs-dna` per Vorgabe ausgeschlossen.
+  Fristen-Register führt nur bereits bekannte, weiterlaufende Punkte ohne neuen
+  Handlungsbedarf für diesen Zyklus.
+  Auf Priorität 5 ausgewichen: sechs weitere offene Fragen aus
+  `wissen/architekten-synobsis/wiki/QUESTIONS.md` per WebSearch recherchiert
+  (Conte_Pianetti_Zanetta_Arch; Sammelfrage Taylor/Whiting_Luci/Wollkenstein/maya/
+  darlington_meyer). Conte_Pianetti_Zanetta_Arch belastbar bestätigt (Conte Pianetti Zanetta
+  Architetti Sagl, Carabbia/Lugano). Aus der Sammelfrage ein plausibler Treffer
+  (darlington_meyer → Darlington Meier Architekten AG Zürich), zwei zu generisch für eine
+  Eingrenzung (Taylor, maya), zwei ohne jeden Treffer (Whiting_Luci, Wollkenstein). Details und
+  Quellen in der QUESTIONS.md, CHANGELOG-Eintrag gesetzt. Diff nativ als rein additiv geprüft
+  (2/2 Zeilen erweitert, keine Löschung). Keine Ordnerumbenennung, kein Fan-out, kein Versand,
+  keine Buchung, keine destruktive Aktion. Budget: rund 1.7 von 5 USD.
