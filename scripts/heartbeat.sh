@@ -238,6 +238,65 @@ else
 fi
 
 # =============================================================================
+# Erreichbarkeit von aussen (Tailscale) — P1-Klasse nach Rule 260824
+# =============================================================================
+# «laeuft» und «ist erreichbar» sind ZWEI Messungen. Frische Statusdateien und
+# Herzschlag-Stempel beweisen nur das Erste: sie werden ueber den LAN-Mount
+# geschrieben und bleiben gruen, waehrend die Station von auswaerts unerreichbar
+# ist. Genau so blieb der Mac Mini vom 20. bis 24.08.2026 vier Tage lang vom
+# Tailnet getrennt, viermal korrekt gemessen und nie gemeldet. Darum hier
+# getrennt: Daemon laeuft · Peer-Station erreichbar · Waechter installiert.
+reach_ok=true
+reach_msg=""
+TS_BIN="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+REACH_TEILE=()
+if [ -x "$TS_BIN" ]; then
+    ts_out=$("$TS_BIN" status 2>&1)
+    if [ $? -eq 0 ] && ! printf '%s' "$ts_out" | grep -q "Tailscale is stopped"; then
+        REACH_TEILE+=("Tailscale aktiv")
+        # Peer = die jeweils andere Always-On-Station
+        case "$(hostname -s)" in
+            [Mm]acmini) PEER="macbookpro" ;;
+            *)          PEER="macmini" ;;
+        esac
+        PEER_ZEILE=$(printf '%s\n' "$ts_out" | grep -w -- "$PEER" | head -1)
+        if [ -z "$PEER_ZEILE" ]; then
+            reach_ok=false
+            REACH_TEILE+=("$PEER nicht im Tailnet")
+        elif printf '%s' "$PEER_ZEILE" | grep -q "offline"; then
+            reach_ok=false
+            REACH_TEILE+=("$PEER OFFLINE — Fernzugang tot (ssh/Dispatch/externer Mount)")
+        else
+            REACH_TEILE+=("$PEER online")
+        fi
+    else
+        reach_ok=false
+        REACH_TEILE+=("Tailscale GESTOPPT → Menuleiste «Connect», danach Ursache klaeren")
+    fi
+else
+    reach_ok=false
+    REACH_TEILE+=("Tailscale-CLI nicht gefunden")
+fi
+# Waechter installiert? Gegenmassnahme aus Rule 260824; die Installation selbst
+# ist Persistenz-Klasse (Rule interaktive-eingriffe) und bleibt Aktion Raphael.
+if launchctl list 2>/dev/null | grep -q "ch.jans.tailscale-waechter"; then
+    REACH_TEILE+=("Waechter aktiv")
+else
+    reach_ok=false
+    REACH_TEILE+=("Waechter NICHT installiert")
+fi
+# Join mit « · »: "${arr[*]}" nutzt nur das ERSTE IFS-Zeichen, darum von Hand.
+REACH_TEXT=""
+for teil in "${REACH_TEILE[@]}"; do
+    if [ -z "$REACH_TEXT" ]; then REACH_TEXT="$teil"; else REACH_TEXT="$REACH_TEXT · $teil"; fi
+done
+if $reach_ok; then
+    reach_msg="✅ $REACH_TEXT"
+else
+    reach_msg="⚠️  $REACH_TEXT"
+fi
+
+# =============================================================================
 # Gesamt-Status ermitteln
 # =============================================================================
 CRITICAL_FAIL=false
@@ -246,7 +305,7 @@ WARNINGS=false
 if ! $nas_ok || ! $git_ok || ! $disk_ok || ! $symlinks_ok; then
     CRITICAL_FAIL=true
 fi
-if ! $m365_ok || ! $sync_ok || ! $schutz_ok; then
+if ! $m365_ok || ! $sync_ok || ! $schutz_ok || ! $reach_ok; then
     WARNINGS=true
 fi
 
@@ -274,7 +333,8 @@ if $JSON_MODE; then
     "disk": {"ok": $disk_ok, "message": "$disk_msg"},
     "sync_tasks": {"ok": $sync_ok, "message": "$sync_msg"},
     "symlinks": {"ok": $symlinks_ok, "message": "$symlinks_msg"},
-    "schutzmechanik": {"ok": $schutz_ok, "message": "$schutz_msg"}
+    "schutzmechanik": {"ok": $schutz_ok, "message": "$schutz_msg"},
+    "erreichbarkeit": {"ok": $reach_ok, "message": "$reach_msg"}
   },
   "critical_failures": $CRITICAL_FAIL,
   "warnings": $WARNINGS
@@ -293,6 +353,7 @@ else
     printf "Symlinks:       %s\n" "$symlinks_msg"
     printf "Dok-Pipeline:   %s\n" "$prod_msg"
     printf "Schutzmechanik: %s\n" "$schutz_msg"
+    printf "Erreichbarkeit: %s\n" "$reach_msg"
     echo "─────────────────────────────────────────────"
     echo "STATUS: $OVERALL"
     echo ""
