@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.08.2026 07:59:22
+Stand: 28.08.2026 08:09:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 07:59:22
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2cdbe81b2 ag-gruendung-monitor: 28.08.2026 — Mail-Monitor blind, osascript-Timeout, UBS-Stand verifiziert
+- 412bc8ecf mahnwesen-verzugscheck 28.08.2026: bexio 401, zwanzigster blinder Tag — Register-Nachtrag + Logbuch
