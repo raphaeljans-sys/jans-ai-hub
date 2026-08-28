@@ -1,9 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 11:05:15
+Stand: 28.08.2026 11:25:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/activity/display/performance/386804  (letzte Aktivitaet 11:03)
+- Developer/jans/ai/hub//claude/worktrees/kwc/sirius/bs302/kispi/cd9dd1  (letzte Aktivitaet 11:25)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +13,4 @@ Stand: 28.08.2026 11:05:15
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6a5a91db9 wissen/projekt-lessons: Bestandsstandard Beschlaege via Unternehmerdokumentation (Fall 2619 KISPI Jegen)
+- 585dd8669 nas-selfcommit: 1 Datei(en) 2026-08-28 11:15

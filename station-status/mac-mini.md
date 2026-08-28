@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.08.2026 11:14:36
+Stand: 28.08.2026 11:24:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 11:14:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e2397791d wissen/projekt-lessons: Umlaute korrigiert im Report Bestandsstandard Beschlaege
+- 585dd8669 nas-selfcommit: 1 Datei(en) 2026-08-28 11:15
