@@ -1,5 +1,23 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-28 (Projektfrage 2619 KISPI) — belegte Kennwerte EI30-Schiebetüren
+
+Neuer Report `outputs/2026-08-28_kennwerte-ei30-schiebetueren-kispi.md`. Zwei unabhängig
+belegte Preisreihen für EI30-Schiebetüren mit integrierter Fluchttüre am selben Objekt,
+sechs Jahre auseinander: Jos. Berchtold AG aus dem KBOB-Werkvertrag G-BKP 273.04_05 des
+KISPI-Neubaus (Preisstand 05.10.2020, Serie 31 Stück, via Truninger-Plattform,
+69 Vertragswesen) und Jegen AG aus der beauftragten Offerte O-91161-01.1 des Umbaus
+1.OG PPTS (Preisstand 12.06.2026, Einzelstück).
+
+**Kernbefund:** Bei Berchtold ist der Mehrpreis für die Ausführung in EI30 mit CHF 0.00
+eingesetzt, an zwei Türtypen unabhängig belegt (Pos. 491.406 und 491.515). Die
+Brandschutzqualität am Schiebeelement treibt den Preis dort nicht; Grösse und Beschlag tun es.
+
+Bandbreite für die Grobschätzung: Serie CHF 12'000 bis 15'000, Einzelstück im Umbau
+CHF 18'000 bis 23'000 je Element, exkl. MWSt, exkl. Elektro und Malerarbeiten.
+
+Offen: die Indexierung 2020 auf 2026 ist qualitativ benannt, nicht belegt gerechnet.
+
 ## 2026-08-23 (Vertiefungslauf 11 Revendo) — neues Prüfwerkzeug `kennwert-recompute.sh`
 
 Die heute gewonnene Prüfregel — `Kosten ÷ Bezugsgrösse` selbst nachrechnen und gegen den
