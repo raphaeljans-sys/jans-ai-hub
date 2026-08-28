@@ -84,7 +84,7 @@ den Nachweis. Vgl. Skill `volumenstudie` und `grobkosten-onepager`.
   `[[sia-416-2003]]` in der KB `normen` (`status: established`, Ziff. 2, deutscher Normteil
   komplett gelesen) trägt die Hierarchie GF = NGF + KF, NGF = NF + VF + FF sowie die
   Abgrenzung HNF/NNF mit Fundstelle. Die schwache RHYMO-Quelle ist damit ersetzbar; der
-  Abgleich Begriff für Begriff steht noch aus.
+  Abgleich Begriff für Begriff steht noch aus. **Nachtrag 28.08.2026 (Wissens-Chef Run 46): der Status hat gewechselt.** `[[sia-416-2003]]` trägt seit dem 28.08.2026 **`status: speculative`** (KB `normen`, Run 64: erste Abdeckungsrunde, 12 Kern- und 18 Nebenlücken, dabei **kein einziger falscher Wert**; der Figurenanhang S. 49-57 war bis dahin nie eingesehen). Die oben genannte Flächenhierarchie GF = NGF + KF bleibt unberührt und richtig. Nach Rule `normen-referenz` Ziff. 1b ist ein `speculative`-Destillat aber eine **Warnkarte, keine Zitierquelle**: der Begriffsabgleich gegen die RHYMO-Quelle darf bis zur Refuter-Runde (dort **N64-2**) nicht als vollzogen gelten.
 - Die EBF-Abgrenzungsregel («Beheizen sonst üblich») ist über SIA 380/1:**2001** Anhang F belegt;
   ob sie in der geltenden Ausgabe wortgleich steht, ist nicht verifiziert.
 - Eine belegte Zahlentabelle «Gebäudehüllziffer → Grenzwertzuschlag» fehlt in der KB noch; die

@@ -12,6 +12,11 @@ links:
 
 # Befund
 
+> **Schwester-Report zum selben Vorgang** (gesetzt 28.08.2026, Wissens-Chef Run 46):
+> `/Volumes/daten/jans-ai-hub/wissen/grobkosten/outputs/2026-08-28_kennwerte-ei30-schiebetueren-kispi.md`
+> — dort die belegten Preisreihen für die EI30-Schiebetüren desselben Loses (Berchtold 2020, Jegen 2026),
+> hier die Prozess-Lehre. Führungsteilung: `grobkosten` führt die Kennwerte, `projekt-lessons` den Fall.
+
 Bei einem Umbau im Bestand, dessen Bauteile in der Machart dem Originalbau entsprechen
 sollen, steht der Produktstandard nicht in der Architekturablage, sondern in der
 **Unternehmerdokumentation der Bauplattform**, Rubrik 70, im Los des jeweiligen Gewerks

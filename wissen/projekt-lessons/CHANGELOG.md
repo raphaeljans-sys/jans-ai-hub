@@ -5,7 +5,8 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 ## 2026-08-28
 
 - `outputs/2026-08-28_bestandsstandard-beschlaege-unternehmerdokumentation.md` angelegt.
-  Befund aus der Beantwortung der offenen Fragen der Jegen AG (2619 KISPI, BKP 274.01):
+  Befund aus der Beantwortung der offenen Fragen der Jegen AG (2619 KISPI, LOS 274.01 — bürointerne
+  Los-Nummer, kein BKP-Code; BKP 2017: 274 Innere Spezialverglasungen, berichtigt 28.08.2026 Run 46):
   Produktstandards des Originalbaus stehen in Rubrik 70 Unternehmerdokumentation der
   Bauplattform (`09_Materialdeklaration`), nicht in der Architekturablage; die Master-
   Türmatrix dokumentiert zusätzlich die verbauten Komponenten und macht den Bestandsstandard

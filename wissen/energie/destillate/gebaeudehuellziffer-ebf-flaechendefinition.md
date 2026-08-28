@@ -228,7 +228,7 @@ Primärquelle der Norm.
   Original zu ziehen — `[[sia-416-2003]]` in der KB `normen` trägt `status: established` und
   führt die Hierarchie GSF → GF (= NGF + KF) → AGF sowie NGF = NF + VF + FF und die
   HNF/NNF-Abgrenzung mit Ziffer. Der Abgleich der RHYMO-Begriffe gegen SIA 416:2003 Ziff. 2
-  bleibt zu leisten; bis dahin gilt der Vorbehalt oben unverändert.
+  bleibt zu leisten; bis dahin gilt der Vorbehalt oben unverändert. **Nachtrag 28.08.2026 (Wissens-Chef Run 46): der Status hat gewechselt.** `[[sia-416-2003]]` trägt seit dem 28.08.2026 **`status: speculative`** (KB `normen`, Run 64: erste Abdeckungsrunde, 12 Kern- und 18 Nebenlücken, dabei **kein einziger falscher Wert**; der Figurenanhang S. 49-57 war bis dahin nie eingesehen). Die oben genannte Flächenhierarchie GF = NGF + KF bleibt unberührt und richtig. Nach Rule `normen-referenz` Ziff. 1b ist ein `speculative`-Destillat aber eine **Warnkarte, keine Zitierquelle**: der Begriffsabgleich gegen die RHYMO-Quelle darf bis zur Refuter-Runde (dort **N64-2**) nicht als vollzogen gelten.
 - **Zahlenwerte Qh,li0/ΔQh,li je Gebäudekategorie** werden in Gebaeudeform.pdf nicht
   tabelliert (nur die qualitative Aussage "ähnliche Grössenordnung, +/-30 %"); die konkreten
   Kategorie-Werte stehen in `[[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]` (Tabelle C,

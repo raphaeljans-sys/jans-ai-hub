@@ -4,13 +4,20 @@ status: established
 last_updated: 2026-08-28
 sources:
   - "Jos. Berchtold AG, KBOB-Werkvertrag G-BKP 273.04_05 «Sondertüren Teil 1/Teil 2», Neubau Kinderspital Zürich, Vertragsdatum 11.05.2021, Vertragsnummer 273045, Werkpreis CHF 1'100'695 exkl. MWSt; LV-Stand Submission Süd/Nord 05.10.2020, NPK-Bau 622 Türen D/18(V'20). Quelle: Truninger-Plattform ds3.data-share.ch, Projektraum / 69 Vertragswesen / Werkverträge Unternehmer, File-33360212"
-  - "Jegen AG, Offerte O-91161-01.1 vom 23.06.2026 (beauftragt 25.06.2026), BKP 274.01 Innere Verglasungen, Umbau 1.OG PPTS Kinderspital, Total CHF 242'693 exkl. MWSt; Positionsliste «2619 KISPI BKP274.1_Innere Verglasung_Positionsliste_Submission_Stand260612.xlsx»"
+  - "Jegen AG, Offerte O-91161-01.1 vom 23.06.2026 (beauftragt 25.06.2026), LOS 274.01 «Innere Verglasungen» (bürointerne Los-Nummer, kein BKP-Code; BKP 2017: 274 Innere Spezialverglasungen, ohne Unterposition — berichtigt 28.08.2026 Wissens-Chef Run 46), Umbau 1.OG PPTS Kinderspital, Total CHF 242'693 exkl. MWSt; Positionsliste «2619 KISPI BKP274.1_Innere Verglasung_Positionsliste_Submission_Stand260612.xlsx»"
   - "Werkplan Jegen S1_01.300.1 Glisse_DINR, Index B vom 17.07.2026, Türelement Jegen Grandissimo Glisse 1-flg EI30, VKF Nr. 25973"
 links:
-  - "[[grobkosten-bkp-2]]"
+  - "[[kennwerte]]"   # berichtigt 28.08.2026 Run 46: [[grobkosten-bkp-2]] existiert nicht, der Kennwerte-Artikel der KB heisst `kennwerte`
 ---
 
 # Kennwerte EI30-Schiebetüren mit integrierter Fluchttüre
+
+> **Schwester-Report zum selben Vorgang** (gesetzt 28.08.2026, Wissens-Chef Run 46):
+> `/Volumes/daten/jans-ai-hub/wissen/projekt-lessons/outputs/2026-08-28_bestandsstandard-beschlaege-unternehmerdokumentation.md`
+> — dort die Prozess-Lehre desselben Falls (wo der Produktstandard des Bestands liegt), hier die
+> Kennwerte. Beide entstanden am 28.08.2026 aus der Beantwortung derselben Jegen-Fragen und kannten
+> einander nicht. Führungsteilung nach `wissen/koordination/QUERBEZUEGE.md`: `grobkosten` führt die
+> Kennwerte, `projekt-lessons` die Beweiskette des Einzelfalls.
 
 Zwei unabhängig belegte Preisreihen für dieselbe Bauaufgabe am selben Objekt, sechs Jahre
 auseinander. Sie erlauben erstmals eine Bandbreite für ein Bauteil, das in Grobschätzungen

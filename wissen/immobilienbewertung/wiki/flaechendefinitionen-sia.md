@@ -3,7 +3,7 @@ title: Flaechendefinitionen (SIA 416 / SIA 416/1)
 status: established
 last_updated: 2026-07-10
 sources: [SIA 416:2003 (SN 504 416) Flaechen und Volumen von Gebaeuden — kanonische Norm-PDF IMMO-03 FLÄCHENBEZEICHNUNG/sia/416_2003_dfi.pdf, S. 6-15 vollstaendig verankert Run 10 (Hierarchie GSF/GF/NGF/NF/HNF/NNF/VF/FF/KF/AGF, Volumen GV/NGV/KV/AKV, Miet-/STWE-Flaechen FSN/FGN, Abgrenzung 0.1), IMMO-06 Kennwerte `_Kennwerte Jans.docx` (R. Jans 25.03.2025 — JANS-Umrechnungsfaktor aGF/GF Altbau 0.8 / Neubau 0.9, D8, Run 16), IMMO-06 WOHNEN Baumasse (Flaechenkonzeption Wohnen.pdf, R. Jans 20.10.2024, Haselstudstrasse 12 Wald), JANS 8-Objekt-Referenzvergleich Healthcare «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410, GF/GV/HNF nach SIA 416 → Healthcare-Flaechenfaktoren HNF/GF ~0.55, Run 14 2026-07-06), Schaetzungsanleitung Kap. 5 (Tab. 12 Nutzflaechen, Tab. 13 Raumeinheiten)]
-links: [[realwert-sachwert]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[vergleichswert-hedonisch]], [[sia-416-1-2007]] (Norm-Fundstelle in `wissen/normen/destillate/`, ergänzt 18.08.2026 Wissens-Chef Run 36)
+links: [[realwert-sachwert]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[vergleichswert-hedonisch]], [[sia-416-1-2007]] (Norm-Fundstelle in `wissen/normen/destillate/`, ergänzt 18.08.2026 Wissens-Chef Run 36), [[sia-416-2003]] (Mutternorm, Norm-Fundstelle in `wissen/normen/destillate/` — ergänzt 28.08.2026 Wissens-Chef Run 46; Ziel trägt seit dem 28.08.2026 `status: speculative`, siehe Prüfvermerk unten)
 ---
 
 # Flaechendefinitionen (SIA 416)
@@ -178,6 +178,20 @@ Fuer Miete und Stockwerkeigentum gliedert die Norm dieselben Flaechen nach **Nut
 GGF und KF entziehen sich dieser Zuordnung (Matrix Norm 4.3). Diese Gliederung ist die
 Flaechen-Grundlage fuer **STWEG-Wertquoten** → Skill `stockwerkeigentum` (gewichtete Flaechen
 Sonderrecht ↔ gemeinschaftlich; [[bewertungsverfahren-ueberblick]]).
+
+⚠ **Prüfauftrag, kein Beleg (Wissens-Chef Run 46, 28.08.2026).** Die führende KB `normen` hat am
+28.08.2026 (Run 64) die Matrix Ziff. 4.3 am Figuren-Rendering Zelle für Zelle abgelesen und kommt zum
+Ergebnis, dass sich **zusätzlich die Aussen-Konstruktionsflächen AKFT (3.2.1) und AKFN (3.2.2)** der
+Zuordnung entziehen, nicht nur GGF und KF. Der Satz oben gibt den **Fliesstext** der Norm korrekt
+wieder (dieser nennt nur «Gebäudegrundfläche, Konstruktionsfläche») und ist damit nicht falsch.
+Die Vertiefung wird hier **nicht übernommen**: das Ziel [[sia-416-2003]] trägt seit dem 28.08.2026
+`status: speculative`, und genau dieser Block ist dort unter **N64-2** als noch nicht gegengeprüft
+geführt. Nach Rule `normen-referenz` Ziff. 1b ist ein `speculative`-Destillat eine Warnkarte, keine
+Zitierquelle; der Präzedenzfall an diesem Artikel (Wissens-Chef Run 35, 17.08.2026) untersagt die
+Änderung eines `established`-Artikels auf ein `speculative`-Destillat hin. **Vor der nächsten
+Wertquoten-Anwendung am Original gegenlesen.** Praktische Folge wäre gering: aussenliegende
+Konstruktionsbauteile sind weder Sonder- noch Gemeinschaftsanteil — dieselbe Rechtsfolge wie bei
+GGF und KF.
 
 ## Nutzflächen-Anrechnung (Schätzungsanleitung Tab. 12)
 
