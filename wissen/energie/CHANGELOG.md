@@ -1,5 +1,62 @@
 # CHANGELOG
 
+## 2026-08-28 (Run 166, Scheduled Task) — E-R165-1 beantwortet: Begleitdokument-Lücke bei 5 von 5 geprüften Quellen; HFM 2015 wird ab 2028 abgelöst
+
+**Der Auftrag.** Run 165 hatte die dritte Aktualitätsfrage formuliert — ist die richtige Ausgabe
+einer Quelle auch **vollständig** erfasst? — mit der Vermutung, die Lücke sitze in
+Begleitdokumenten (Änderungsprotokoll, Korrigenda, FAQ, Anhang).
+
+**Das Ergebnis: bestätigt, 5 von 5.** Fünf parallele Rechercheure auf die fünf meistzitierten
+Quellen mit Begleitdokument-Kultur; bei jeder fehlte mindestens ein Dokument.
+
+**Zwei methodische Lehren.** (1) Die Lücke sitzt in **Links innerhalb bereits gelesener Quellen**:
+Die EnDK-Medienmitteilung vom 29.08.2025 ist seit dem 12.07.2026 als gelesen ausgewiesen und
+verlinkt die amtliche MuKEn-Änderungsübersicht ausdrücklich — der Link wurde nie verfolgt. Eine
+Quelle ist erst ausgewertet, wenn ihre eigenen Verweise auf Begleitmaterial verfolgt sind. (2) Eine
+Korrigenda über eine **Drittquelle** zusammengefasst zu kennen, ist nicht dasselbe, wie sie gelesen
+zu haben — die Drittquelle referiert nur, was für ihren eigenen Zweck zählte.
+
+**Neues Destillat:** `sia-380-1-korrigenda-c1-2019` (SN 520380/1-C1:2019, 5 S., **kostenlos**,
+gültig ab 01.03.2019, Volltext gelesen). Materieller Fund: **Zielwert-Faktor für Neubauten 60 % →
+70 %** (Ziff. 2.3.11), dazu Rechennorm-Wechsel SN EN ISO 13790 → **SN EN ISO 52016-1**. Die KB
+führte den Korrigenda-Inhalt seit dem 13.07.2026 in zwei Destillaten als «nicht gelesen»; beide
+Lücken sind geschlossen.
+
+**Die Korrektur wurde bewusst als Vorbehalt gesetzt, nicht als Überschreibung:** Das betroffene
+Destillat gibt SIA 380/1:**2009** wieder, wo 60 % aus der Tabelle nachrechenbar sind (195/117,
+140/84). Quellentreu richtig, nur heute irreführend. Abschlussregel mit Schreibvarianten angewandt:
+genau eine betroffene Fundstelle KB-weit.
+
+**Wichtigster Einzelfund — HFM 2015 wird abgelöst.** Die EnDK hat **am 28.08.2026** in Mendrisio das
+**GFM 2028** bekanntgegeben (Fusion Gebäude- + Impulsprogramm, Rechtsgrundlage Entlastungspaket
+2027, Vernehmlassung Herbst 2026). Betrifft die meistzitierte Förderquelle der KB. Als Termin in
+`logbuch/fristen.md` eingetragen.
+
+**Vier Bestandsdestillate ergänzt:** `muken-2025-verabschiedet` (amtliche Änderungsübersicht, zehn
+Punkte — darunter die Warnung, dass «Teil G» in MuKEn 2014 die Beleuchtung und in MuKEn 2025 die
+Graue Energie meint), `pv-einmalverguetung-bund-bfe` (vier unbekannte Pronovo-Begleitdokumente),
+`minergie-produktreglement-2026-1-muken-vergleich` (8-Jahre-Ausnahme zur 5-Jahres-Regel, direkt an
+die Regel gesetzt), `gebaeudeprogramm-bund-hfm-2015` (GFM 2028 + vier Ausschlüsse).
+
+**Verdichtung:** **F91** um die drei Punkte geschärft, an denen die Einmalvergütung praktisch
+scheitert (Beglaubigungsfrist ab Inbetriebnahme, 30-Tage-Einsprache, MwSt-Freiheit bei erhaltenem
+Vorsteuerabzug); **F7** um den Fördermodellwechsel 2028 — ohne Zahlen für 2028, weil es keine
+belegten gibt.
+
+**Verifikation:** Sieben Funde selbst am Original gegengelesen (Rule 260729b), je mit Hash bzw.
+wörtlichem Zitat. **Bewusst nicht gehoben:** die vier HFM-Ausschlüsse und drei Fristen tragen einen
+sichtbaren Verifikationsvorbehalt und sind als E-R166-3 offen.
+
+**Werkzeug-Ertrag:** `datenstand-waechter.py` erkennt jetzt **quittierte** Prüfstichtage (Quittung
+im Umfeld) und weist sie getrennt ohne Befundstatus aus — die ursprüngliche Design-Absicht (auch
+abgehakte Einträge sehen) bleibt erhalten. Beide Pfade gemessen: `energie` 39 → 35, alle KBs
+420 → 416, exakt die vier Quittierten, keine andere KB betroffen.
+
+**Diff nativ per ssh:** alle append-only-Dateien -0; einzige Löschung 3 Zeilen in `BAUHERREN-FAQ.md`
+(bewusste Ersetzung des F91-Quellenblocks).
+
+Report: `outputs/2026-08-28_energie-run166.md`.
+
 ## 2026-08-27 (Run 165, Scheduled Task) — E-R164-2 durchgeführt: Ausgabenstand systematisch geprüft, drei Bestätigungen, eine Abdeckungslücke gefunden; E-R164-1 geschlossen
 
 **Der Auftrag.** Run 164 hatte als Kernbefund hinterlassen, dass die KB stets nur prüft, ob eine

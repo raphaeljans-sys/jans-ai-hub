@@ -31,6 +31,28 @@ Jahresmitteltemperatur 8,5 °C. A_th/A_E = Gebaeudehuellzahl (therm. Huellflaech
 > ausgewertet bei der jeweils typischen Huellzahl der Kategorie. Der **Zielwert** liegt grob bei
 > ~60 % des Grenzwerts.
 
+> ⚠ **Der Faktor 60 % gilt nur fuer die hier wiedergegebene Ausgabe SIA 380/1:2009 — heute sind
+> es 70 %** (nachgetragen 28.08.2026, Run 166). In der Tabelle oben ist 60 % korrekt und
+> nachrechenbar (EFH 195/117, MFH 140/84, jeweils exakt 0,60). Die geltende Fassung
+> **SIA 380/1:2016** hat den Faktor durch die **Korrigenda SIA 380/1-C1:2019** geaendert.
+> Woertlich, Ziff. 2.3.11, linke Spalte «bisher» / rechte Spalte «Korrektur»:
+> «Die Zielwerte Q_H,ta fuer Neubauten betragen **60 %** der Grenzwerte Q_H,li fuer Neubauten.
+> Q_H,ta = 0,6 · Q_H,li» → «Die Zielwerte Q_H,ta fuer Neubauten betragen **70 %** der Grenzwerte
+> Q_H,li fuer Neubauten. Q_H,ta = **0,7 · Q_H,li**».
+> Korrigenda genehmigt 23.10.2018 durch die SIA-Kommission fuer Gebaeudetechnik- und
+> Energienormen, **gueltig ab 01.03.2019**, 5 S., Preisgruppe 0 (kostenlos), Referenznummer
+> SN 520380/1-C1:2019 de. Im Volltext gelesen 28.08.2026 (SHA-256 des geprueften PDF
+> `cce8de67ff7509a90875f83941f555b50b63accae26c0500f1062ce86bf0e60f`).
+> **Fuer die Bauherren-Beratung heisst das:** wer den Zielwert heute als «40 % unter dem
+> Grenzwert» verkauft, verspricht zehn Prozentpunkte zu viel — die Latte liegt seit 2019
+> bewusst tiefer, weil der 2016er-Grenzwert selbst schon deutlich schaerfer ist als der
+> 2009er. Der Zielwert bleibt die Messlatte fuer ambitionierte Bauherren, aber mit 0,7.
+
+> ⚠ **Rechennorm-Verweis ueberholt** (gleiche Korrigenda, nachgetragen 28.08.2026): Die unten
+> genannte **EN ISO 13790** ist zurueckgezogen. Die Korrigenda C1:2019 ersetzt den Verweis in
+> SIA 380/1:2016 durchgehend durch **SN EN ISO 52016-1** (u.a. Ziff. 3.1.1: «Die Berechnung des
+> Heizwaermebedarfs richtet sich nach dem Monatsbilanzverfahren von SN EN ISO 52016-1»).
+
 ## Waermestrombilanz (Grundlagen)
 - Momentane Heizleistung je Raum: **Φ_h = Φ_T + Φ_V − Φ_g**
   (Transmission + Lueftung − nutzbare Abwaerme von Personen/Geraeten/Sonne).

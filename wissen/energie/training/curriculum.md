@@ -2637,3 +2637,20 @@ eine Aussage über das Werkzeug**, nicht über den Bestand.
 
 **Nächster Zuschnitt:** E-R165-1 (Begleitdokument-Prüfung der zehn meistzitierten Destillate),
 danach A-BLIND Ränge 61-80.
+
+## Run 166 (28.08.2026) — E-R165-1 durchgeführt, Trefferquote 5/5
+
+Fünf meistzitierte Destillate mit Begleitdokument-Kultur geprüft (MuKEn 2025, HFM 2015/
+Gebäudeprogramm, Minergie-Produktreglement 2026.1, SIA 2024 + 380/1, PV-Förderung Bund/Pronovo).
+**Bei allen fünf fehlte mindestens ein Begleitdokument** — die Fehlerklasse ist damit gemessen,
+nicht mehr vermutet.
+
+**Die Lehre, die den Zuschnitt künftiger Läufe ändert:** Die Lücke ist nicht primär eine
+Suchaufgabe, sondern eine **Auswertungsaufgabe an bereits gelesenen Quellen**. Die amtliche
+MuKEn-Änderungsübersicht war aus der Medienmitteilung heraus verlinkt, die seit Juli als gelesen
+gilt. Für den Loop heisst das: beim Destillieren die **Verweise am Dokumentende** mitnehmen, nicht
+nur den Fliesstext.
+
+**Nächster Zuschnitt:** E-R166-3 (HFM-Ausschlüsse am Original gegenlesen — die härtesten Befunde
+des Laufs, bewusst ungehoben gelassen), danach E-R166-6 (Begleitdokument-Prüfung Ränge 6-20).
+A-BLIND Ränge 61-80 bleiben dahinter.

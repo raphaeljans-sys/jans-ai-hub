@@ -85,6 +85,13 @@ kein aktuell geltendes Recht.
   [[sia-harmonisierung-standardwerte-gebaeudekategorien-2019]]).
 - Korrigenda C1 (2019) zu SIA 380/1:2016 ist weiterhin inhaltlich nicht gelesen (offene Lücke
   bereits im bestehenden Destillat vermerkt, hier nur bestätigt).
+  ✓ **ERLEDIGT 28.08.2026 (Run 166).** Korrigenda im Volltext gelesen; die materiellen Funde
+  (Zielwert-Faktor 60 % → **70 %**, Ziff. 2.3.11; Verweiswechsel SN EN ISO 13790 →
+  **SN EN ISO 52016-1**) sind in `[[sia-380-1-2016-aenderungen-gegenueber-2009]]` und
+  `[[bauphysik-heizwaermebedarf-kennwerte]]` eingetragen. Der Ausgabenstand dieses Destillats
+  bleibt unverändert richtig: **SIA 380/1:2016 mit Revision 1 / C1 per 01.03.2019** ist am
+  SIA-Shop am 28.08.2026 erneut als aktuelle Ausgabe bestätigt (60 S., keine Neuausgabe
+  2023–2026, keine Korrigenda C2).
 - Kein Norm-Volltext gekauft — diese Einschätzung stützt sich ausschliesslich auf öffentlich
   zugängliche SIA-Shop-Metadaten und Sekundärtreffer, nicht auf den kostenpflichtigen Volltext.
 - Keine Nachfolgeversion des Harmonisierungs-Statusberichts (V2/V3, nach 2019) im Web gefunden —

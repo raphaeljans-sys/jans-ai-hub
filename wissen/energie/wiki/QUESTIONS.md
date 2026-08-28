@@ -2,6 +2,79 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-28 (Run 166) — E-R165-1 beantwortet: die Begleitdokument-Luecke ist real, 5 von 5
+
+**Die Frage war** (E-R165-1, aus Run 165): Ist die richtige Ausgabe einer Quelle auch
+**vollstaendig erfasst** — oder sitzt Wissen in Begleitdokumenten daneben (Aenderungsprotokoll,
+Korrigenda, FAQ, Anhang)? Geprueft wurden fuenf der meistzitierten Quellen. **Ergebnis: bei allen
+fuenf fehlte mindestens ein Begleitdokument.** Die Klasse ist damit nicht mehr Vermutung, sondern
+gemessen. ✓ **E-R165-1 erledigt 28.08.2026.**
+
+**Die praezisere Fassung der Lehre.** Die Luecke sitzt nicht nur in Dokumenten, die man suchen
+muss — sie sitzt in **Links innerhalb bereits gelesener Quellen**. Belegt am MuKEn-Fall: die
+EnDK-Medienmitteilung vom 29.08.2025 ist seit dem 12.07.2026 als gelesene Quelle ausgewiesen und
+verlinkt die amtliche Aenderungsuebersicht ausdruecklich. Der Link wurde nie verfolgt. **Eine
+Quelle gilt erst dann als ausgewertet, wenn ihre eigenen Verweise auf Begleitmaterial verfolgt
+sind.** Zweitens, am SIA-Fall: eine Korrigenda ueber eine **Drittquelle** zusammengefasst zu
+kennen, ist nicht dasselbe, wie sie gelesen zu haben — die Drittquelle referiert nur, was fuer
+ihren eigenen Zweck relevant war (hier: Formel-Druckfehler; nicht referiert: die materielle
+Aenderung des Zielwert-Faktors).
+
+### In diesem Lauf geschlossen (selbst am Original gegengelesen)
+- [x] **SIA 380/1-C1:2019 im Volltext gelesen** ✓ 2026-08-28. Neues Destillat
+  `[[sia-380-1-korrigenda-c1-2019]]`. Materieller Fund: **Zielwert-Faktor 60 % → 70 %**
+  (Ziff. 2.3.11). Die veraltete 60-%-Faustregel in `[[bauphysik-heizwaermebedarf-kennwerte]]` ist
+  mit Vorbehalt versehen (die Zahl bleibt korrekt fuer die dort wiedergegebene Ausgabe 2009).
+  Abschlussregel angewandt: grep ueber `wiki/` und `destillate/` mit Schreibvarianten, genau eine
+  betroffene Fundstelle KB-weit. Schliesst die seit 13.07.2026 in zwei Destillaten offen gefuehrte
+  Luecke «Korrigenda-Inhalt nicht gelesen».
+- [x] **MuKEn-2025-Aenderungsuebersicht der EnDK erschlossen** ✓ 2026-08-28, zehn Punkte ins
+  Destillat `[[muken-2025-verabschiedet]]`. Wichtigster Einzelpunkt fuer die KB: **«Teil G» meint
+  in MuKEn 2014 die Beleuchtung, in MuKEn 2025 die Graue Energie** — Verwechslungswarnung gesetzt.
+- [x] **PV-Foerderung: vier unbekannte Pronovo-Begleitdokumente** ✓ 2026-08-28, in
+  `[[pv-einmalverguetung-bund-bfe]]` und FAQ **F91**. Vier Kernfunde einzeln am Original
+  gegengelesen (Beglaubigungsfrist, 30-Tage-Einsprache, EIV ohne MwSt, Winterstrombonus-Schwellen).
+- [x] **Minergie: 8-Jahre-Ausnahme bei Fernwaerme/Biogas** ✓ 2026-08-28, in
+  `[[minergie-produktreglement-2026-1-muken-vergleich]]` direkt an die 5-Jahres-Regel gesetzt,
+  damit kein Widerspruch im Bestand entsteht. Quelle: Anwendungshilfe 2026.2, Kap. 7.2.11/7.2.12.
+- [x] **HFM 2015 wird abgeloest — GFM 2028** ✓ 2026-08-28, siehe E-R166-2 unten.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R166-2 (P2, terminiert): GFM 2028 — Vernehmlassung Herbst 2026 verfolgen.** Die EnDK hat
+  am 28.08.2026 das Gemeinsame Foerdermodell Bund-Kantone 2028 bekanntgegeben; es loest ab 2028
+  das HFM 2015 ab (Fusion Gebaeude- + Impulsprogramm, Rechtsgrundlage Entlastungspaket 2027).
+  Vernehmlassung im Rahmen der Revision der Energieverordnung im **Herbst 2026**. **Ab Oktober
+  2026 monatlich pruefen**, ob die Unterlagen publiziert sind; dann ziehen und destillieren.
+  Auch in `logbuch/fristen.md` eingetragen (Rule `auto-verbesserungen` 260805).
+- [ ] **E-R166-3 (P2): HFM-2015-Ausschluesse gegenlesen.** Die vier Ausschluesse und drei Fristen,
+  die als Nachtrag in `[[gebaeudeprogramm-bund-hfm-2015]]` stehen (Fensterersatz nicht
+  foerderfaehig; Neubau/Anbau/Aufstockung ausgeschlossen; Bund-/Kantonsbauten nach Art. 57 EnV
+  ausgeschlossen; CO2-abgabebefreite Standorte ausgeschlossen; Gesuch vor Baubeginn; Foerderzusage
+  2 Jahre gueltig; GEAK-Nachweis binnen 3 Jahren; Steuerabzug nur auf dem selbst getragenen
+  Anteil) stammen aus einem Rechercheauftrag mit woertlichen Zitaten, sind aber **nicht einzeln
+  von Hand am Original nachgeschlagen**. Der Abschnitt ist entsprechend geflaggt. Vor einer
+  verbindlichen Zusage an eine Bauherrschaft: Originalstelle pruefen. Danach Statushebung.
+- [ ] **E-R166-1 (P3): Rechenzentrums-Schwellenwert im verabschiedeten MuKEn-Volltext.** Die
+  Aenderungsuebersicht nennt «Abwaermenutzung Kaelteerzeugung (Rechenzentren): Abgabe zu
+  Gestehungskosten» ohne Schwellenwert. Der Entwurfs-Redline vom 30.08.2024 nennt 230 kW
+  elektrische Dauerleistung — im **verabschiedeten** Text vom 29.08.2025 nicht gegengeprueft,
+  darum bewusst nicht als Kennwert gefuehrt.
+- [ ] **E-R166-4 (P3): Minergie — vier weitere unbekannte Begleitdokumente offen.** Erschlossen,
+  aber noch nicht destilliert: Nutzungsreglement Marke Minergie 2023.1 (enthaelt eine
+  Sanktionsleiter mit Konventionalstrafen und einen Stundensatz fuer Zusatzaufwaende),
+  Zusatzanforderungen Industriebauten 2026.1, Berechnungsmethodik THGE in der Erstellung 2026.1,
+  Erlaeuterungsbericht Nachweis Bereich Erstellung. Die Anwendungshilfe 2026.2 selbst hat 61
+  Unterseiten und ist nur an den Frist-/Gebuehren-Treffern gelesen.
+- [ ] **E-R166-5 (P3): Impulsprogramm operativ unbekannt.** Eigenes Modulschema **IP-04 bis
+  IP-19** neben M-01…M-18, eigene Foerdersaetze und Fristen; die KB kennt es nur als Stichwort.
+  Kanton Zuerich hatte 2025 die hoechsten Impulsprogramm-Verpflichtungen aller Kantone — direkt
+  JANS-relevant. Quelle: Jahresbericht 2025 des Gebaeudeprogramms (publiziert 21.08.2026, der KB
+  bisher unbekannt).
+- [ ] **E-R166-6 (P3): Begleitdokument-Pruefung auf die Raenge 6-20 ausdehnen.** Geprueft sind
+  fuenf Quellen. Bei fuenf von fuenf war etwas zu finden — die Trefferquote rechtfertigt die
+  Fortsetzung.
+
 ## 2026-08-26 (Mac-Mini-Nachtschicht, Versuchs-Slot 13:30) — A-BLIND Ränge 41–60: Backlink-Ranking neu gebildet, ein Fall bearbeitet
 
 Fortsetzung des Auftrags aus Run 163 (A-BLIND auf die Ränge 41-60, Kriterium «alternder Datenstand

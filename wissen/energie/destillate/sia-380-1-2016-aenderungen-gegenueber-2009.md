@@ -150,6 +150,25 @@ das auf dem aktuell geltenden SIA-380/1-Stand basiert — ein Angebot/Nachweis, 
   relevanten Korrigenda-Inhalte (Formel-Druckfehler S. 32d/34f/38d/42f) sind über das
   ZH-Anforderungsprofil Kap. 3.10 jetzt indirekt bekannt, das Korrigenda-PDF selbst wurde nicht
   direkt gelesen.
+  ✓ **ERLEDIGT 28.08.2026 (Run 166): das Korrigenda-PDF ist jetzt direkt gelesen** —
+  SN 520380/1-C1:2019 de, 5 S., Preisgruppe 0 (kostenlos), genehmigt 23.10.2018, gültig ab
+  01.03.2019, im Volltext geprüft (SHA-256
+  `cce8de67ff7509a90875f83941f555b50b63accae26c0500f1062ce86bf0e60f`).
+  ⚠ **Das indirekte Wissen war unvollständig, nicht falsch.** Über das ZH-Anforderungsprofil
+  waren nur die **Formel-Druckfehler** bekannt. Die Korrigenda enthält darüber hinaus zwei
+  Änderungen, die kein Druckfehler sind:
+  1. **Ziff. 2.3.11 — materielle Änderung des Zielwert-Faktors** von «Q_H,ta = 0,6 · Q_H,li» auf
+     «Q_H,ta = **0,7 · Q_H,li**» (60 % → 70 % der Grenzwerte, Neubauten).
+  2. **Durchgängiger Verweiswechsel** von der zurückgezogenen **SN EN ISO 13790** auf
+     **SN EN ISO 52016-1** (u.a. Ziff. 3.1.1, 0.2.2, 0.3.7, 3.2.6, 3.5.x).
+     Zusätzlich Ziff. 2.2.2.3 neu: Dachflächenfenster dürfen mit dem Wert für die vertikale Lage
+     beurteilt werden, solange sie **weniger als 10 % der Dachfläche** einnehmen; Ziff. 2.2.1.4
+     streicht den Zusatz «und bei Gebäuden mit Innendämmung» (der Einzelbauteilnachweis ist bei
+     g < 0,3 generell unzulässig, nicht nur bei Innendämmung).
+  **Lehre für die KB:** eine Korrigenda über eine Drittquelle zusammengefasst zu kennen, ist
+  nicht dasselbe, wie sie gelesen zu haben — die Drittquelle referiert nur, was für ihren
+  eigenen Zweck relevant war. Der Fund geht in die Korrektur von
+  `[[bauphysik-heizwaermebedarf-kennwerte]]` ein.
 - Verhältnis zu MuKEn 2025 (`[[muken-2025-verabschiedet]]`, verabschiedet 29.08.2025): eine
   Folgeversion SIA 380/1, die MuKEn 2025 abbildet, ist zum Datenstand dieses Destillats nicht
   bekannt/nicht recherchiert.

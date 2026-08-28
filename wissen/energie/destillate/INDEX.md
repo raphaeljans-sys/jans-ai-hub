@@ -64,6 +64,7 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[bfe-waermeerzeugerleistung-2015]] | _Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung | established (vollst., 5 S.) | ⚠ 12.2015 / SIA 384/1:2009 |
 | [[sia-380-1-standardnutzungswerte-tab24-25]] | _Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1 | established (1 S., Tab. 24/25) | SIA 380/1 Anhang A |
 | [[sia-380-1-beispiel-monatsbilanz]] | _Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel | established (1 S., Rechenbsp.) | SIA 380/1 / SIA 381/2 |
+| [[sia-380-1-korrigenda-c1-2019]] | shop.sia.ch, SN 520380/1-C1:2019 de (5 S., Preisgruppe 0, kostenlos), Volltext gelesen 28.08.2026 | established (Modell D am Original; **Zielwert-Faktor 60 % → 70 %** Ziff. 2.3.11, Rechennorm EN ISO 13790 → **EN ISO 52016-1**, Dachflächenfenster-Ausnahme 10 %, Streichung «Innendämmung» beim Einzelbauteilnachweis) | Korrigenda gültig ab 01.03.2019 zu SIA 380/1:2016 |
 | [[grundsaetze-energieeffizientes-bauen]] | _Heizwaermebedarf/U-Wert_Gebäudehülle | emerging (1 S., Grundsaetze) | ⚠ Lehrbuch-Niveau |
 | [[foerderprogramm-energie-zh-2026]] | Web: zh.ch Foerderprogramm Energie 2026 (PDF S. 1-37) | established (VOLLST.: WP/Daemmung/Minergie-ECO/Solarthermie/Beratung) | 2026-06-26 / Version 01.01.2026 |
 | [[graue-energie-betriebsenergie]] | _Heizwaermebedarf/Betriebsenergie | emerging (vollst., 1 S.) | ⚠ Lehrmittel-Grobwerte |

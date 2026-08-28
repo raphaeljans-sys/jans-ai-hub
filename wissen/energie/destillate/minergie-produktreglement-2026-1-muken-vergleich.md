@@ -39,6 +39,34 @@ Das **provisorische** Zertifikat (während der Bauphase, vor Fertigstellung) ist
 einem späteren Verkauf) ist unbefristet gültig — an zwei Bedingungen geknüpft, nicht bedingungslos:
 keine energetisch relevante Änderung am Gebäude, und weiterhin geführt auf der Minergie-Gebäudeliste.
 
+> ⚠ **Zwei belegte Ausnahmen von den 5 Jahren: bei Fernwärme- und Biogas-Übergang gelten
+> 8 Jahre** (nachgetragen 28.08.2026, Run 166). Quelle ist nicht das Produktreglement, sondern
+> die **Anwendungshilfe zu den Gebäudestandards, Version 2026.2** (Ausgabe 01.07.2026), Kap.
+> 7.2.11 und 7.2.12 — ein Begleitdokument, das dieses Destillat bisher nur dem Namen nach kannte.
+> Wörtlich, Kap. 7.2.11: «Wird an einem Standort innerhalb der nächsten **acht Jahre** ein
+> Fernwärmeanschluss geplant oder ein bestehendes Fernwärmenetz auf erneuerbare Energien
+> umgestellt, so kann … während dieser max. acht Jahre bei einer Erneuerung eine bestehende
+> fossile Wärmeerzeugung weiterbetrieben bzw. bei einem Neubau eine fossile
+> Übergangswärmeerzeugung eingesetzt werden. Als Startpunkt der Laufzeit der acht Jahre gilt das
+> **Datum der provisorischen Zertifizierung**. … Bei erfolgreicher Prüfung wird das provisorische
+> Zertifikat ausgestellt und hat eine **Gültigkeit von acht Jahren**.» Analog Kap. 7.2.12 für eine
+> bestehende **Gasheizung mit Biogas-Zertifikaten**: Weiterbetrieb «bis acht Jahre nach der
+> provisorischen Zertifizierung», sofern für die Betriebsdauer Biogas-Zertifikate gekauft und
+> nachgewiesen werden.
+> **Bedingungen im Fernwärmefall:** mit dem Zertifizierungsantrag sind der **Anschlussvertrag**
+> mit dem Netzbetreiber und der Nachweis einer **Konzession für ein Fernwärmegebiet** (bei
+> privaten Netzbetreibern eine gleichwertige Bestätigung) einzureichen; der Minergie-Nachweis
+> wird bereits mit der Wärmeerzeugung Fernwärme geführt. Nach Bauvollendung gibt es zunächst nur
+> eine **Bestätigung der korrekten Umsetzung exkl. Wärmeerzeugung, kein definitives Zertifikat** —
+> das folgt erst nach dem tatsächlichen Anschluss, gegen Inbetriebnahmeprotokoll und technisches
+> Datenblatt.
+> **Bauherren-Transfer:** Das ist der Weg, ein Minergie-Ziel zu halten, obwohl die Fernwärme im
+> Quartier noch nicht liegt. Ohne diese Ausnahme führt die Regel «max. 5 Jahre» bei einem
+> Fernwärme-Projekt in die Irre — acht Jahre sind fast das Doppelte und decken einen realistischen
+> Netzausbau-Horizont. Der Preis dafür ist, dass das definitive Zertifikat bis zum Anschluss
+> aussteht, was bei einem Verkauf in der Zwischenzeit erklärungsbedürftig ist.
+> Gegengelesen am Original 28.08.2026 (Kap. 7.2.11 Volltext).
+
 **Was bei energetisch relevanten Änderungen passiert (Kap. 2.3.1 Rezertifizierung):** Wer die
 Gültigkeit trotz einer solchen Änderung (Beispiel des Reglements: anderer Energieträger bei der
 Wärmeerzeugung, Anbau) erhalten will, muss über das Formular «Meldung Änderung an bestehenden

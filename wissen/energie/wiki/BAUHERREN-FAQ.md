@@ -425,6 +425,33 @@ Antragsstopp auffindbar. Energierecht/Heizverbot → Skill `baurecht`.
 → `[[foerderprogramm-zh-2026-aenderungsprotokoll]]`. Datenstand 01.01.2026, Ausgabe am selben Tag
 als geltend bestätigt.
 
+**⚠ Nachtrag 28.08.2026 — ab 2028 gilt ein anderes Fördermodell, und die Bedingungen werden eher
+enger.** Die Konferenz Kantonaler Energiedirektoren hat am **28.08.2026** das **Gemeinsame
+Fördermodell Bund-Kantone 2028 (GFM 2028)** bekanntgegeben. Es löst ab 2028 das bisherige
+Harmonisierte Fördermodell HFM 2015 ab, indem Gebäude- und Impulsprogramm **fusioniert** werden;
+die gesetzliche Grundlage kam über das **Entlastungspaket 2027** des Bundesparlaments.
+
+**Was das für Sie als Bauherrschaft heisst — drei Punkte:**
+1. **Bis Ende 2027 ändert sich nichts.** Alle Beträge und Bedingungen oben gelten weiter. Wer
+   jetzt saniert, rechnet mit den heutigen Zahlen.
+2. **Ab 2028 wird neu gerechnet, und zwar tendenziell strenger.** Die EnDK schreibt, das Modell
+   fokussiere «stärker auf jene Massnahmen, die eine besonders hohe Wirkung … erzielen», und die
+   Fördervoraussetzungen würden weiterentwickelt, um «**Mitnahmeeffekte zu reduzieren**». Das ist
+   die Ankündigung engerer Voraussetzungen, nicht bloss anderer Beträge.
+3. **Praktische Folge:** Eine förderfähige Massnahme, die ohnehin ansteht, sollte nicht ohne
+   sachlichen Grund über den Jahreswechsel 2027/28 geschoben werden. Ob sie 2028 noch gleich
+   gefördert wird, ist heute offen — und die Antwort kommt frühestens mit der Vernehmlassung.
+
+**Wann Genaueres bekannt ist:** Das Modell geht **im Herbst 2026** im Rahmen der Revision der
+Energieverordnung in die Vernehmlassung. Erst dann sind die konkreten Fördervoraussetzungen
+lesbar. Bis dahin nennt diese Antwort bewusst keine Zahlen für 2028 — es gibt keine belegten.
+
+**Quelle:** EnDK-Medienmitteilung «EnDK setzt wichtige Akzente für das neue Gebäudeprogramm»,
+Plenarversammlung Mendrisio TI, **28.08.2026**, am selben Tag im Volltext gelesen
+(`endk.ch/endk-setzt-wichtige-akzente-fuer-das-neue-gebaeudeprogramm/`)
+→ `[[gebaeudeprogramm-bund-hfm-2015]]`. Als Termin im Fristen-Register geführt. Status
+**established** für die Tatsache der Ablösung und den Vernehmlassungstermin; alles Weitere offen.
+
 ## F13 — «Wie gross muss meine Heizung sein?»
 
 **Kurz:** Als grobe Faustregel braucht ein **Neubau ~25–40 Watt je m²** beheizte Fläche, ein
@@ -3967,10 +3994,38 @@ Abs. 2); sie sind in der Art.-15-Vergütung **nicht** enthalten und werden, wenn
 separat vergütet. Rangfolge der Verwertung: Eigenverbrauch → ZEV/vZEV im MFH → LEG im Quartier →
 Einspeisung als Restwert.
 
-**Quelle + Datenstand:** EnG SR 730.0 Art. 9, 15, 25; EnV SR 730.01 Art. 12 (Stand 1.1.2026,
+**Drei Dinge, an denen die Einmalvergütung praktisch scheitert** (ergänzt 28.08.2026, aus den
+Pronovo-Begleitdokumenten, die vorher nicht ausgewertet waren):
+
+1. **Die Frist läuft ab Inbetriebnahme, nicht ab Gesuch.** Die beglaubigten Anlagedaten müssen
+   «bis spätestens Ende des Folgemonats nach der Inbetriebnahme» bei Pronovo sein. Wird die Frist
+   verpasst, besteht bis zum Nachreichen **kein Anspruch**, und rückwirkend wird nur **ein
+   Kalendermonat** vergütet — der Rest ist endgültig weg. Bei Grossanlagen im GREIV kann das
+   Gesuch nach drei Monaten sogar abgewiesen werden. Diese Frist gehört in den Bauzeitplan, nicht
+   in die Nachbearbeitung.
+2. **Die Verfügung ist 30 Tage lang anfechtbar, danach nicht mehr.** Gegen eine EIV-Verfügung
+   kann innert 30 Tagen nach Eröffnung bei Pronovo Einsprache erhoben werden (Art. 66 Abs. 1
+   EnG); das Verfahren ist «in der Regel kostenlos». Eine zu tief bemessene Vergütung lässt sich
+   also günstig korrigieren — aber nur im ersten Monat.
+3. **Die Einmalvergütung kommt ohne Mehrwertsteuer, und sie kürzt den Vorsteuerabzug nicht.**
+   Sie gilt mehrwertsteuerlich als Kostenausgleichszahlung, nicht als Subvention. Für eine
+   mehrwertsteuerpflichtige Bauherrschaft ist das ein echter Vorteil: der Vorsteuerabzug auf der
+   Investition bleibt vollständig erhalten.
+
+**Und eine Schwelle, die ab 2026 zählt:** Wer eine bestehende Anlage im alten
+Einspeisevergütungssystem (EVS/KEV) in eine **LEG** einbringt, verliert für die Dauer der
+Teilnahme die Einspeiseprämie und muss zu viel Bezogenes zurückzahlen. Vor jedem LEG-Beitritt
+zuerst prüfen, in welchem Fördersystem die Anlage steckt.
+
+**Quelle + Datenstand:** EnG SR 730.0 Art. 9, 15, 25, 66; EnV SR 730.01 Art. 12 (Stand 1.1.2026,
 Volltext gelesen 16.07.2026); BFE-Faktenblatt PV-Förderung / Pronovo-Sätze (Stand Sept. 2025,
-für 2026 verifiziert). Destillate: `[[pv-rueckliefer-verguetung-mindestverguetung-2026]]` +
-`[[pv-einmalverguetung-bund-bfe]]` + `[[pv-ertrag-eigenverbrauch-praxis]]`. Status **established**.
+für 2026 verifiziert). Die drei Punkte oben aus: Pronovo «Richtlinie EnFV — Allgemeiner Teil»
+V4.1, Ausgabedatum 01.07.2026, Kap. 3.3 und 9.2; Pronovo «Mehrwertsteuer-Praxis (Fördermittel)»,
+Stand März 2026, Ziff. 1 und 3a; Pronovo/Swissolar/VSE «Factsheet LEG, ZEV und vZEV», gültig ab
+Januar 2026 — alle drei am 28.08.2026 selbst geladen und im Volltext gegengelesen. Destillate:
+`[[pv-rueckliefer-verguetung-mindestverguetung-2026]]` + `[[pv-einmalverguetung-bund-bfe]]` +
+`[[pv-ertrag-eigenverbrauch-praxis]]` + `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`.
+Status **established**.
 
 ---
 

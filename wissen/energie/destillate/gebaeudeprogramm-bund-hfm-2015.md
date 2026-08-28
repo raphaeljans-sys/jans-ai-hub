@@ -126,3 +126,84 @@ Energiedirektoren EnDK anlässlich der Plenarversammlung vom **21. August 2015**
 Die Frontmatter-Angabe dieses Destillats ist damit an der Primärquelle bestätigt. Ein
 MuKEn-2025-bedingter Nachfolger ist weder publiziert noch mit Termin angekündigt.
 Sweep-Kontext: `[[enfk-nachweisformulare-gueltigkeit-2026]]`.
+
+---
+
+## ⚠ Nachtrag 28.08.2026 (Run 166) — das HFM 2015 wird abgelöst: GFM 2028
+
+**Der Satz darüber («ein Nachfolger ist weder publiziert noch mit Termin angekündigt») stimmt
+seit heute nicht mehr.** Die EnDK hat am **28.08.2026** an ihrer Plenarversammlung in
+Mendrisio (TI) das **Gemeinsame Fördermodell Bund-Kantone 2028 (GFM 2028)** bekanntgegeben.
+Medienmitteilung `endk.ch/endk-setzt-wichtige-akzente-fuer-das-neue-gebaeudeprogramm/`, selbst
+abgerufen und im Volltext gelesen am 28.08.2026.
+
+**Was belegt ist, wörtlich aus der Mitteilung:**
+- «Ab 2028 wird das Gebäudeprogramm durch die **Fusion der aktuellen Gebäude- und
+  Impulsprogramme** auf eine neue Grundlage gestellt.»
+- «Die neuen gesetzlichen Bestimmungen wurden vom Bundesparlament im Rahmen des
+  **Entlastungspakets 2027** beschlossen.»
+- «Im Vergleich zur bisherigen Förderung fokussiert dieses stärker auf jene Massnahmen, die eine
+  besonders hohe Wirkung für die Energie- und Klimaziele erzielen. Gleichzeitig werden die
+  **Fördervoraussetzungen weiterentwickelt**, um technologischen und wirtschaftlichen
+  Entwicklungen Rechnung zu tragen, **Mitnahmeeffekte zu reduzieren** und gezielte
+  Investitionsimpulse auszulösen.»
+- «Das neue Fördermodell wird **im Herbst 2026** durch den Bund im Rahmen der **Revision der
+  Energieverordnung in die Vernehmlassung** geschickt.»
+
+**Was das für die KB heisst.** Das HFM 2015 ist die **meistzitierte Förderquelle** dieser
+Wissensbasis. Es bleibt bis Ende 2027 die geltende Grundlage — nichts an den heutigen
+Förderauskünften wird dadurch falsch. Aber jede Aussage mit Wirkung **ab 2028** steht ab sofort
+unter Vorbehalt, und der Halbsatz «Fördervoraussetzungen weiterentwickelt … Mitnahmeeffekte
+reduzieren» ist die Ankündigung **strengerer Bedingungen**, nicht nur neuer Beträge.
+
+**Bauherren-Transfer:** Wer eine Sanierung über 2027 hinaus plant, sollte wissen, dass die
+Förderlandschaft 2028 wechselt und die Bedingungen eher enger werden. Das ist ein Argument,
+förderfähige Massnahmen **nicht** ohne Not über den Jahreswechsel 2027/28 zu schieben. Die
+Vernehmlassung im Herbst 2026 ist der Zeitpunkt, an dem die konkreten Fördervoraussetzungen
+erstmals lesbar werden — bis dahin gibt es ausser der Fusion und der Stossrichtung keine
+belegten Details, und es wird hier auch keine erfunden.
+
+**Als Frist eingetragen** in `logbuch/fristen.md` (Vernehmlassung GFM 2028, Herbst 2026).
+Offene Frage E-R166-2: Vernehmlassungsunterlagen ziehen, sobald publiziert.
+
+## Nachtrag 28.08.2026 (Run 166) — vier belegte Ausschlüsse, die hier fehlten
+
+Aus der Begleitdokument-Prüfung E-R165-1; die Quellen (HFM-2015-Schlussbericht Kap. 2-6, den
+dieses Destillat bisher ausdrücklich als ungelesen führte, sowie Jahresbericht 2025 und die FAQ
+von dasgebaeudeprogramm.ch) sind neu erschlossen. **Diese vier sind für eine Bauherrenauskunft
+in ZH/SZ die folgenreichsten**, weil sie eine Förderung ganz ausschliessen statt sie nur zu
+bemessen:
+
+1. **Fensterersatz wird nicht gefördert** — seit Einführung des HFM 2015. Der häufige Irrtum ist,
+   ein Fensterersatz laufe unter «Wärmedämmung» (M-01). Er tut es nicht; ebenso wenig die
+   Wärmedämmung von Estrichboden und Kellerdecke.
+2. **Neubauten, Anbauten und Aufstockungen sind ausgeschlossen** (M-01): förderberechtigt sind
+   nur bereits im Ausgangszustand beheizte Gebäudeteile.
+3. **Bauten von Bund und Kantonen sind nicht förderberechtigt** (Art. 57 EnV). Gemeindebauten
+   grundsätzlich schon — ausser der Kanton hat den Minergie-Standard für sie gesetzlich
+   vorgeschrieben, dann darf er die Förderung aussetzen (gesetzliche Pflicht wird nicht
+   gefördert).
+4. **Von der CO2-Abgabe befreite Unternehmensstandorte sind ausgeschlossen** (Art. 104 Abs. 2
+   CO2-Verordnung). Zusätzlich eine Reihenfolge-Falle: beim Abschluss einer neuen
+   Verminderungsverpflichtung darf für denselben Standort **kein Fördergesuch offen sein**.
+
+**Dazu drei Fristen und eine Steuerfolge, alle im Destillat bisher nicht geführt:**
+- Das **Fördergesuch muss vor Baubeginn** eingereicht sein, sonst ist es ungültig.
+- Die **Förderzusage ist zwei Jahre gültig**, verlängerbar um sechs Monate.
+- Bei M-10/M-11 ist der GEAK-Nachweis nach Umsetzung **bis spätestens drei Jahre nach
+  Förderantrag** einzureichen.
+- **Steuerlich:** abziehbar ist nur der selbst getragene Kostenanteil — der geförderte Teil ist
+  **nicht** abzugsfähig. Das relativiert den Nettonutzen einer Förderung für Bauherren mit hoher
+  Grenzsteuerbelastung spürbar und gehört in jede Wirtschaftlichkeitsrechnung.
+
+**Ferner: Kombinationsverbote.** Einzelbauteil (M-01), Einzelanlagen (M-02 bis M-09) und
+Gesamtsanierung (M-12/M-13) sind im gleichen Bauprojekt **nicht** miteinander kombinierbar; die
+Boni M-14 und M-15 sind untereinander nicht kombinierbar. Weitere allgemeine Grenzen: maximal
+50 % der Gesamtinvestitionen, keine Förderung bei einem resultierenden Beitrag unter CHF 1'000.
+
+⚠ **Verifikationsstand dieses Abschnitts:** Die Angaben stammen aus einem Rechercheauftrag mit
+wörtlichen Zitaten und Seitenangaben, sind aber — anders als der GFM-2028-Abschnitt darüber —
+**nicht einzeln von Hand am Original gegengelesen**. Sie sind damit belastbar genug, um eine
+Auskunft zu **prüfen**, aber vor einer verbindlichen Zusage an eine Bauherrschaft ist die
+betreffende Stelle am Original nachzuschlagen. Statushebung dieses Abschnitts auf `established`
+erst nach dieser Gegenprüfung (offene Frage E-R166-3).

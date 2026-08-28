@@ -594,3 +594,96 @@ dokumentation/aktuelles/kt-sz-fristverlaengerung-vernehmlassung-revision-kantona
 geothermie-schweiz.ch/teilrevision-energiegesetz-kanton-schwyz-fuer-tiefengeothermie; kein
 Zugriff auf kantonsrat.zh.ch/geschaefte (JS-SPA, bestätigte Werkzeuggrenze) und sz.ch/kanton/
 vernehmlassungen (HTTP 403 bei WebFetch).
+
+---
+
+## Nachtrag 28.08.2026 (Run 166) — die amtliche Änderungsübersicht, die wir übersehen haben
+
+**Der Fund und wie er entstand.** Die Begleitdokument-Prüfung E-R165-1 hat ein amtliches
+EnDK-Dokument zutage gefördert, das dieses Destillat nie kannte: **«MuKEn 2025 —
+Änderungsübersicht gegenüber den MuKEn 2014»**, 6 S., PDF-CreationDate 19.08.2025, **ModDate
+29.08.2025 13:23** (am Tag der Verabschiedung selbst finalisiert), Autor «Ramming», EnDK.
+Bezugsquelle `energiehub-gebaeude.ch/wp-content/uploads/2025/08/Vergleich_MuKEn_14_25_D.pdf`,
+selbst geladen und im Volltext gelesen (SHA-256
+`6a21e85ccf07048dd703d9d58826eb32efefee0b25940247ad9dae348dcd8ff1`).
+
+**Warum das unangenehm ist:** Die EnDK-Medienmitteilung vom 29.08.2025 verlinkt dieses Dokument
+ausdrücklich («Link zur Änderungsübersicht gegenüber den MuKEn 2014»). Diese Medienmitteilung
+ist in diesem Destillat seit dem 12.07.2026 als **gelesene Quelle** ausgewiesen. Der Link wurde
+nicht verfolgt. Die KB hat sich die Vergleichstabelle stattdessen selbst aus dem 117-seitigen
+Volltext gebaut — sorgfältig, aber ohne die amtliche Einordnung, welche Änderungen die
+Herausgeberin selbst für die «nennenswerten» hält.
+
+**Die methodische Lehre, präziser als E-R165-1 sie formuliert hatte:** Die Lücke sitzt nicht
+nur in Begleitdokumenten, die man suchen muss — sie sitzt in **Links innerhalb bereits gelesener
+Quellen**. Eine Quelle gilt erst dann als ausgewertet, wenn ihre eigenen Verweise auf
+Begleitmaterial verfolgt sind.
+
+### Was die Änderungsübersicht enthält und dieses Destillat nicht hatte
+
+Alle Zitate wörtlich aus dem selbst geladenen PDF, Seitenangabe in Klammern.
+
+**1. ⚠ Teil-G-Verwechslungsgefahr zwischen den Ausgaben (S. 3, Teil D).** Wörtlich:
+«Teil G MuKEn 14 (Elektrische Energie – Beleuchtung) neu in Teil D integriert». **In MuKEn 2014
+war Teil G die Beleuchtung, in MuKEn 2025 ist Teil G die Graue Energie.** Wer «Teil G» ohne
+Ausgabejahr zitiert, kann zwei völlig verschiedene Regelungsgegenstände meinen. Dieses Destillat
+behandelt Teil G (Graue Energie) auf weiten Strecken — die Warnung gehört daneben.
+
+**2. Gebäudeautomation: vom fakultativen Modul ins Basismodul (S. 3, Teil D).** Wörtlich:
+«Modul 5 MuKEn 14 (Ausrüstungspflicht Gebäudeautomation bei Neubauten) neu in Teil D
+integriert». Teil D ist Basismodul; Module sind für die Kantone fakultativ. Die Ausrüstungspflicht
+wandert damit aus dem Wahlbereich in die Grundempfehlung.
+⚠ **Nicht mit «Modul 5» der Ausgabe 2025 verwechseln:** dort heisst Modul 5 «Sanierungspflicht
+dezentrale Elektroheizungen» (siehe Tabelle oben, Z. 191). Zwei verschiedene Module 5 in zwei
+Ausgaben — die Übersicht meint das von **2014**.
+
+**3. Elektro-Warmwasser neu saisonal beschränkt (S. 3, Teil D).** Wörtlich: «Warmwasser im
+Winterhalbjahr nicht elektrisch direkt, PV-Überschussnutzung im Sommerhalbjahr zulässig».
+
+**4. Abwärme aus Kälteerzeugung, Rechenzentren (S. 3, Teil D).** Wörtlich: «Abwärmenutzung
+Kälteerzeugung (Rechenzentren): Abgabe zu Gestehungskosten». Für Healthcare- und Grossbauten mit
+erheblicher Kühllast eine neue Pflichtenlage, nicht nur eine Möglichkeit.
+
+**5. Klimaanlagen-Nachrüstung im Bestand (S. 3, Teil D).** Wörtlich: «Nachrüstung Klimaanlagen in
+bestehenden Bauten auch zulässig, wenn PV-Anlage.»
+
+**6. Graue Energie — der «10-Punkte-Nachweis» als Vereinfachung (S. 1).** Wörtlich, Neubau:
+«Neue Anforderung, Umsetzung Bundesvorgabe: Einfacher 10-Punkte-Nachweis oder Berechnung auf
+Basis Minergie». Dieses Destillat behandelt Teil G ausführlich, kennt aber nur den
+Berechnungspfad. Für den Bestandesbau wörtlich: «Betroffen, wenn neubauartiger Umbau → dann wie
+Neubau» — das grenzt den Anwendungsbereich «wesentliche Erneuerung» auf **neubauartige** Umbauten
+ein.
+
+**7. Nachweis über GEAK oder Minergie-Label als Alternativpfad (S. 1).** Wörtlich, Neubau:
+«Vereinfachung: Gesamtenergieberechnung entfällt (Einzelanforderungen: Gute Hülle, erneuerbare
+Wärmeerzeugung, Eigenstromerzeugung). Nachweis über GEAK oder Minergie-Label auch möglich».
+→ `[[geak-gebaeudeenergieausweis]]`, `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
+
+**8. EVEN als vorgesehene Vollzugsplattform, nicht als ZH-Eigenheit (S. 1).** Wörtlich, für
+Neubau **und** Bestandesbau gleichlautend: «Vereinfachung: Nachweis statt PDF-Formulare über
+Webplattform (EVEN www.energievollzug.ch)». Die KB kannte EVEN bisher nur als Zürcher
+Vollzugsweg (EN-104-ZH) — es ist der von den MuKEn 2025 selbst vorgesehene, gesamtschweizerisch
+harmonisierte Weg. → `[[energienachweis-zh]]`.
+
+**9. Vorbildfunktion der öffentlichen Hand mit Rechtsgrundlage (S. 4, Teil O).** Wörtlich:
+«Anpassung der Zielsetzung an die Vorgaben gemäss Art. 10 Abs. 4 KlG» (Klimagesetz).
+
+**10. Eigene Teile K und L (S. 4).** Teil K «Nachweis und Erfüllung der Anforderungen an den
+Energiebedarf von Neubauten»; Teil L «Projektnachweis» — wörtlich «Neuer Teil: Anteil aus dem
+bestehenden Teil R herausgelöst und um Vorgaben an den digitalen Energienachweis (EVEN) ergänzt
+(Nutzung Daten)». Beide Teile waren hier nicht als eigenständige Regelungseinheiten geführt.
+
+**Bestätigt, nicht geändert:** «Gebäudehülle/Wärmeschutz — Keine Änderungen/Verschärfungen»
+(S. 1, für Neubau und Bestandesbau) und «Teil C Wärmeschutz von Gebäuden — Keine materiellen
+Änderungen» (S. 3). Das deckt sich mit dem bisherigen Stand des Destillats.
+
+**Statusfolge:** Der Status `established` bleibt. Keine Aussage dieses Destillats wird durch den
+Fund widerlegt — er **ergänzt** um Punkte, die aus dem Normtext allein nicht als «die
+nennenswerten» erkennbar waren. Was neu ist, trägt jeweils die Fundstelle der Übersicht.
+
+**Weiterhin offen:** Die Übersicht ist eine Zusammenfassung der Herausgeberin, kein Rechtstext.
+Für jede verbindliche Aussage gilt weiterhin der Artikeltext der MuKEn 2025 (bereits im Haus).
+Der in der Übersicht nur stichwortartig genannte Gestehungskosten-Punkt hat im Entwurfs-Redline
+vom 30.08.2024 einen konkreten Schwellenwert (Rechenzentrums-Dauerleistung 230 kW) — **im
+verabschiedeten Volltext vom 29.08.2025 noch nicht gegengeprüft**, darum hier nur als Hinweis
+und nicht als Kennwert geführt (→ neue offene Frage E-R166-1).

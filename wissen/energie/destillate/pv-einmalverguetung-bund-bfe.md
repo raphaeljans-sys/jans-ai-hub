@@ -191,3 +191,91 @@ nirgends publiziert, auch nicht als Ankuendigung.
 - **Kantonales/kommunales** Add-on via `energiefranken.ch`; **Bundes-Gebaeudeprogramm** (Heizung/Huelle)
   ist separat (vgl. F7).
 - Energierecht/PV-Pflicht (kantonal, Dachflaeche) → Skill `baurecht` / F10.
+
+---
+
+## Nachtrag 28.08.2026 (Run 166) — vier Begleitdokumente, die dieses Destillat nicht kannte
+
+**Der Befund.** Die Begleitdokument-Pruefung E-R165-1 hat ergeben: die hier gefuehrten
+Hauptquellen sind **aktuell und richtig** (Pronovo-Richtlinie PV weiterhin V4.1 vom 03.06.2026,
+Aenderungstabelle S. 4 selbst geprueft, keine V4.2; BFE-Faktenblatt pubdb 7238 unveraendert Stand
+27.11.2025). **Die Luecke lag nicht in der Ausgabe, sondern im Umfang:** die PV-Richtlinie
+verweist mehrfach auf eigenstaendige Begleitdokumente, die hier nie ausgewertet wurden.
+
+Vier davon sind neu erschlossen, alle bei Pronovo:
+
+| Dokument | Ausgabe / Version | Umfang |
+|---|---|---|
+| Richtlinie EnFV — **Allgemeiner Teil** | V4.1, Ausgabedatum **01.07.2026** | 19 S. |
+| Factsheet **LEG, ZEV und vZEV** (Swissolar/VSE/EnergieSchweiz) | gueltig ab Januar 2026 | 4 S. |
+| Factsheet **Winterstrombonus** | gueltig ab Januar 2026 | 2 S. |
+| **Mehrwertsteuer-Praxis (Foerdermittel)** | Stand Maerz 2026 | 4 S. |
+| **Leitfaden Beglaubigung** von Stromproduktionsanlagen | Ausgabe 01.07.2025 | 32 S. |
+
+⚠ **Merkposten zur Versionierung:** Der «Allgemeine Teil» traegt **dieselbe Versionsnummer 4.1**
+wie die PV-Richtlinie, aber ein **anderes Ausgabedatum** (01.07.2026 statt 03.06.2026) und wird
+inhaltlich unabhaengig gepflegt (Aenderungstabelle S. 3: «01.07.2026 · 4.1 · Ergaenzung zu Lokalen
+Elektrizitaetsgemeinschaften (LEG)»). Wer «Pronovo-Richtlinie V4.1» schreibt, muss sagen, welche.
+
+### Die fuenf foerderentscheidenden Funde (alle am Original gegengelesen 28.08.2026)
+
+**1. Die EIV wird komplett ohne Mehrwertsteuer ausbezahlt.** MwSt-Praxis, Ziff. 3a, woertlich:
+«Einmalverguetungen (EIV) qualifizieren sich mehrwertsteuerlich als Kostenausgleichszahlung
+(Art. 18 Abs. 2 Bst. g MWSTG). Deshalb erfolgt die Auszahlung komplett ohne Mehrwertsteuer.»
+**Bauherren-Transfer:** Die EIV ist damit ein **Netto-Zufluss** und nicht um die MwSt zu kuerzen,
+wenn man sie gegen die Investition rechnet. Umgekehrt gilt: der Erhalt einer
+Kostenausgleichszahlung **kuerzt den Vorsteuerabzug nicht** (Ziff. 1, S. 1) — fuer eine
+mehrwertsteuerpflichtige Bauherrschaft ein spuerbarer Unterschied gegenueber einer Subvention.
+
+**2. Beglaubigungsfrist: Ende des Folgemonats nach Inbetriebnahme.** Allgemeiner Teil, Kap. 3.3,
+woertlich: «Die beglaubigten Anlagedaten muessen bis spaetestens Ende des Folgemonats nach der
+Inbetriebnahme eingereicht werden. Wird diese Frist nicht eingehalten, so besteht bis zum
+Nachreichen der Beglaubigung kein Anspruch auf die Einspeisepraemie bzw. es werden keine HKN
+rueckwirkend ausgestellt. Ab Vorliegen der Beglaubigung werden rueckwirkend nur fuer den letzten
+Kalendermonat HKN ausgestellt bzw. wird die Einspeisepraemie ausbezahlt.»
+**Bauherren-Transfer:** Diese Frist ist die stillste Geldfalle des ganzen Verfahrens. Sie laeuft
+**ab Inbetriebnahme**, nicht ab Gesuch, und wer sie verpasst, verliert die Vergütung fuer die
+verstrichene Zeit **endgueltig** — nachgereicht wird nur ein Monat. Fuer GREIV-Anlagen gilt
+zusaetzlich: werden die Daten nicht binnen **drei Monaten** ab Inbetriebnahme eingereicht, kann
+das Gesuch abgewiesen werden. Die Frist gehoert in den Bauzeitplan, nicht in die Nachbearbeitung.
+
+**3. 30 Tage Einsprachefrist gegen Pronovo-Verfuegungen.** Allgemeiner Teil, Kap. 9.2, woertlich:
+«Nach Art. 66 Abs. 1 EnG kann bei Pronovo gegen deren Verfuegungen betreffend das EVS
+(Art. 19 EnFV) die Einspeiseverguetung nach bisherigem Recht und die EIV fuer Photovoltaikanlagen
+(Art. 25 EnFV) innert 30 Tagen nach Eroeffnung Einsprache erhoben werden.» Das
+Einspracheverfahren ist **in der Regel kostenlos**, Parteientschaedigungen werden nicht
+ausgerichtet. Gegen den Einspracheentscheid steht die Beschwerde ans Bundesverwaltungsgericht
+offen; bei BKB-/GMP-Verfuegungen geht die Beschwerde **direkt** ans Bundesverwaltungsgericht,
+ebenfalls innert 30 Tagen.
+**Bauherren-Transfer:** Eine zu tief bemessene EIV ist anfechtbar, und zwar guenstig — aber nur
+30 Tage lang. Die Verfuegung gehoert am Eingangstag geprueft, nicht abgelegt.
+
+**4. Winterstrombonus — zwei verschiedene Leistungsschwellen.** Factsheet Winterstrombonus,
+woertlich: «Der Bonus richtet sich an PV-Anlagen ab 150 kW (PV-Auktionen) bzw. 100 kW (EIV), die
+ab dem 1. Januar 2026 in Betrieb genommen werden». Dieses Destillat fuehrte bisher nur die
+100-kW-Untergrenze. Die GMP-Berechnung lautet woertlich: «Spezifischer Winterstrom-Mehrertrag
+× 17,5 Rp. ÷ spezifischer Winterstromertrag»; im EIV-Pfad werden die Betraege (CHF 3.50 bzw.
+**CHF 2.50 pro kW fuer Anlagen mit Eigenverbrauch**) «mit dem durchschnittlichen spezifischen
+Winterstrom-Mehrertrag multipliziert».
+
+**5. LEG schliesst EVS-Anlagen aus.** Factsheet LEG, woertlich: «Anlagen im
+Einspeiseverguetungssystem (EVS) sind von der Teilnahme an einer LEG jedoch ausgeschlossen. Nimmt
+eine EVS-Anlage an einer LEG teil, besteht fuer die Dauer der Teilnahme kein Anspruch auf die
+Einspeisepraemie. Die zu viel erhaltene Verguetung ist Pronovo zurueckzuerstatten.» Ergaenzend
+(Allgemeiner Teil, Kap. 2.5/2.6): PV-Anlagen **ohne** Eigenverbrauchsrecht (GMP/HEIV) duerfen
+nicht an einem (virtuellen) ZEV teilnehmen, **wohl aber** an einer LEG.
+**Bauherren-Transfer:** Wer eine bestehende EVS-Anlage in eine LEG einbringt, verliert die
+Einspeisepraemie fuer die Dauer der Teilnahme und muss Bezogenes zurueckzahlen. Das ist bei der
+LEG-Planung ab 2026 der erste Pruefpunkt. → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`,
+`[[pv-eigenverbrauch-zev]]`.
+
+**Nebenfund, kostenrelevant:** Bei PV-Anlagen unter **100 kW** darf das Audit auch von der
+Betreiberin der Messstelle (Netzbetreiberin) oder einem Kontrollorgan durchgefuehrt werden statt
+von einem akkreditierten Auditor (Allgemeiner Teil, Kap. 3.3) — das spart bei kleineren
+Bauherren-Anlagen echtes Geld.
+
+**Nicht PV-relevant, geprueft und verworfen:** «Factsheet Waermebonus» (Maerz 2026) betrifft
+ausschliesslich Biogas-/BHKW-Waermenutzung.
+
+**Statusfolge:** `established` bleibt; keine bisherige Aussage ist widerlegt, die
+Winterstrombonus-Schwelle ist **ergaenzt** (100 kW war nicht falsch, nur unvollstaendig).
