@@ -3178,3 +3178,30 @@ wäre. Nicht angefasst (Rule `identifikatoren-verifizieren`/`nichts raten`).
 **Für einen künftigen Lauf:** die zitierten Entscheide (VB.2014.00026, BEZ 2014 Nr. 46) im
 Volltext beziehen (Baurekursgericht-ZH-Entscheiddatenbank, analog Buch-Run 104) und das
 tatsächlich verwendete Wort dort ablesen, statt zu raten.
+
+
+## Wissens-Chef Run 46 (28.08.2026) — Cross-KB-Eingang
+
+- [x] **B46-1 (erledigt im selben Lauf) — Art. 45 EnG war zweimal als Rechtsgrundlage des
+  Gebäudeprogramms geführt.** `wiki/baureife-und-erschliessung.md` Z. 318 und
+  `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` Z. 49 wiesen die Förderung des
+  Gebäudeprogramms Art. 45 EnG zu. **Am amtlichen Volltext gegengelesen** (Fedlex, EnG SR 730.0,
+  Konsolidierung 20260101, abgerufen 28.08.2026): Art. 45 trägt den Randtitel «Gebäude» und
+  verpflichtet ausschliesslich die **Kantone, Vorschriften zu erlassen** (Abs. 1-3) — kein Wort zu
+  Förderbeiträgen. Die Fördermechanik steht in **Art. 50-52 EnG** (Art. 50 Energie- und
+  Abwärmenutzung, Art. 51 Grundsätze Globalbeiträge, Art. 52 Globalbeiträge nur bei kantonalem
+  Förderprogramm) i.V.m. **Art. 34 CO2-Gesetz**. Beide Stellen sind korrigiert bzw. mit ⚠-Vermerk
+  versehen.
+  **Nicht angefasst und richtig:** `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md` Z. 21
+  nennt Art. 45 EnG korrekt als «Bundes-Energierecht». Ebenso unangetastet der Laufbericht
+  `outputs/2026-06-30_buch-run16.md` Z. 51 — Laufberichte werden nicht rückwirkend redigiert.
+- [x] **B46-2 (erledigt im selben Lauf) — Fenster als förderfähig geführt.** Dieselbe Buchzeile nannte
+  Fenster unter den förderfähigen Gebäudeteilen. Seit dem **HFM 2015** (gültig ab 01.01.2017) sind
+  Fenster, Türen, Kellerdecken und Estrichböden ausgeschlossen — dreifach unabhängig belegt in der KB
+  `energie` (`gebaeudeprogramm-bund-hfm-2015`, `foerderprogramm-energie-zh-2026` Z. 63,
+  `foerderprogramm-energie-sz-2026` Z. 56). Der Buchstand (6. Aufl. 2019) gibt vermutlich den
+  Vorgängerstand wieder; die Buchseite S. 760-761 wurde nicht eingesehen, deshalb Fassungsstand-Vermerk
+  statt Umschreibung.
+  **Zu beachten:** der Buch-Layer ist nach `skills/baurecht/SKILL.md` Z. 70-71 eine **zitierbare**
+  Synthese (Stufe 0b), keine Rohschicht — eine solche Zeile kann direkt in eine Bauherren-Auskunft
+  laufen.

@@ -2,6 +2,29 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-28 (Wissens-Chef Run 46) — Backlink zur Mutternorm gesetzt, die Vertiefung bewusst nicht übernommen
+
+`wiki/flaechendefinitionen-sia.md` (+16/−1). Der Artikel baut vollständig auf SIA 416:2003 auf, führte im
+Frontmatter aber nur `[[sia-416-1-2007]]` (die zurückgezogene Ergänzungsnorm) und **nicht** die
+Mutternorm. Damit endete die Kette `grobkosten/wiki/kennwerte` → `flaechendefinitionen-sia` → ✗ in einer
+Sackgasse: wer über `grobkosten-onepager` oder `kostenschaetzung` beim CHF/m³-GV-Bezug landete, kam nie
+zum geprüften Normtext. Backlink gesetzt.
+
+**Die inhaltliche Vertiefung wurde ausdrücklich NICHT übernommen, sondern als Prüfauftrag vermerkt.**
+Die KB `normen` hat am 28.08.2026 (Run 64) am Figuren-Rendering abgelesen, dass sich neben GGF und KF
+auch die **Aussen-Konstruktionsflächen AKFT und AKFN** der Zuordnung nach Ziff. 4.3 entziehen. Der Satz
+hier gibt den **Fliesstext** der Norm korrekt wieder und ist nicht falsch. Das Ziel trägt seit heute
+`status: speculative`, und genau dieser Block ist dort unter **N64-2** als noch nicht gegengeprüft
+geführt. Der Präzedenzfall an genau diesem Artikel (Wissens-Chef Run 35, 17.08.2026) untersagt die
+Änderung eines `established`-Artikels auf ein `speculative`-Destillat hin; Rule `normen-referenz`
+Ziff. 1b sagt dasselbe generisch.
+
+**Als Doppelspurigkeit gemeldet, aber widerlegt:** dass diese KB die SIA-416-Kernhierarchie eigenständig
+führt, ist **gewollt** und seit Run 35/36 registriert — `normen` führt die zitierfähige Fundstelle, diese
+KB die baupraktische Einordnung. Der Vorschlag, die Tabellen auf einen Zeiger zu verschlanken, hätte
+zudem eine `established`-Tabelle durch einen Zeiger auf eine `speculative`-Quelle ersetzt und wäre nach
+Rule `wissens-bibliothekar` Punkt 4 ohnehin rückfragepflichtig gewesen.
+
 ## 2026-08-23 (Vertiefungslauf 20 Revendo) — neues Prüfwerkzeug `kennwert-recompute.sh`
 
 Die heute gewonnene Prüfregel — `Kosten ÷ Bezugsgrösse` selbst nachrechnen und gegen den

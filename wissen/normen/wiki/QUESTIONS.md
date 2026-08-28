@@ -6246,3 +6246,34 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   ist, und worauf sich «H DG» als Referenzlinie bezieht, geht aus den Figurenseiten nicht hervor.
   Für die Grobkosten-Praxis genügt der belegte Teil; für einen Streitfall wäre der französische
   oder italienische Normteil als Kontrolltext beizuziehen.
+
+
+## Wissens-Chef Run 46 (28.08.2026) — Cross-KB-Eingang
+
+- [x] **N46-1 (erledigt im selben Lauf) — Korrigenda SIA 380/1-C1:2019 war in `normen` nicht angekommen.**
+  Die KB `energie` hat sie am 28.08.2026 (Run 166) im Volltext gelesen und destilliert
+  (`wissen/energie/destillate/sia-380-1-korrigenda-c1-2019.md`, SN 520380/1-C1:2019, gültig ab
+  01.03.2019, Preisgruppe 0). Nach der Führungsmatrix führt **`normen`** den Fassungsstand einer Norm
+  **inkl. Korrigenda** — der Stand fehlte hier an drei Stellen. Gesetzt wurden Vermerke in
+  `destillate/sia-380-1-2016.md` (Korrigenda-Block, Z. 131, Z. 151), `destillate/INDEX.md` und
+  `wiki/REGISTER.md`.
+  **Der eigentliche Punkt ist kein Neuland:** die KB hat die Regel am 28.07.2026 (Run 19) selbst
+  geschrieben — «bei unveränderter Ausgabe können Korrigenda Ziffern materiell ändern … bei jedem
+  SIA-Destillat die Korrigenda-Liste des SIA-Shops prüfen (Preisgruppe 0)» (`CHANGELOG.md`
+  Z. 9904-9906, wortgleich `QUESTIONS.md` Z. 5669-5671). Sie war für SIA 380/1 nicht vollzogen.
+  **Offen für die KB `normen` (kein Entscheid Raphaels):** ob die Regel aus Run 19 einmal systematisch
+  über den ganzen SIA-Destillatbestand gefahren wird. SIA 2028 führt seine beiden Korrigenda
+  vorbildlich (REGISTER Z. 528), SIA 380/1 führte keine — die Durchsetzung ist heute ungleichmässig.
+- [ ] **N46-2 — Der `speculative`-Schutz greift bei Korrigenda strukturell nicht.**
+  Rule `normen-referenz` Ziff. 1b verlangt bei `status: speculative` das Gegenlesen am Original.
+  Bei einer Korrigenda führt genau das in die Irre: ein Gegenlesen am PDF `i380-1_2016_d.pdf`
+  **bestätigt** «SN EN 13790», weil die Korrigenda ein eigenständiges Dokument ist. Der übliche
+  Auffangmechanismus fängt diesen Fehlertyp nicht ab. Belegt am Fall N46-1.
+- [ ] **N46-3 — Der Statuswechsel `sia-416-2003` established → speculative (28.08., Run 64) erreichte
+  die Konsumenten nicht.** Das Destillat hat **12 in `training/n62-3-pruefstand-kandidaten.md` Z. 67
+  namentlich geführte Konsumenten**, darunter vier rechnende Agenten. Zwei Artikel der KB `energie`
+  boten es am 16.08. (Wissens-Chef Run 34) ausdrücklich mit «`status: established`» als autoritativen
+  Ersatz für eine schwache Quelle an; diese beiden Stellen sind heute nachgetragen. **Offen für die KB
+  `normen`:** ob ein Statuswechsel an einem Destillat mit bekannter Konsumentenliste künftig eine
+  Benachrichtigungspflicht auslöst — heute trägt der Wechsel keine, und die Konsumentenliste lag
+  bereits vor.

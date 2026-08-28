@@ -1,3 +1,33 @@
+## 2026-08-28 (Wissens-Chef Run 46) — die Korrigenda SIA 380/1-C1:2019 war in dieser KB nicht angekommen
+
+Cross-KB-Befund, additiv geheilt: **drei Stellen** führten den Fassungsstand der SIA 380/1 ohne die
+Korrigenda **SN 520380/1-C1:2019** (gültig ab 01.03.2019, 5 S., Preisgruppe 0), obwohl `normen` nach der
+Führungsmatrix den Fassungsstand **inkl. Korrigenda** führt. Die KB `energie` hatte sie am selben Tag
+(Run 166) im Volltext gelesen und destilliert.
+
+- `destillate/sia-380-1-2016.md` (+9/−2): Korrigenda-Block konkretisiert; **inline ⚠ an Z. 131 und
+  Z. 151**, wo «SN EN 13790» aktiv als geltend geführt wurde — Z. 151 im Abschnitt «Normbezüge … für
+  die Anwendung relevant». Massgebend ist heute **SN EN ISO 52016-1**.
+- `destillate/INDEX.md` (+1/−1) und `wiki/REGISTER.md` (+1/−1): Korrigenda-Vermerk in der Ausgabe-Spalte,
+  nach dem Muster der Nachbarzeile SIA 2028, die ihre beiden Korrigenda vorbildlich führt.
+
+**Zwei Dinge sind daran bemerkenswert.** Erstens ist der Punkt **kein Neuland**: die KB hat die Regel am
+28.07.2026 (Run 19) selbst geschrieben — «bei unveränderter Ausgabe können Korrigenda Ziffern materiell
+ändern … bei jedem SIA-Destillat die Korrigenda-Liste des SIA-Shops prüfen» — und für SIA 380/1 nicht
+vollzogen. Zweitens greift hier der übliche Auffangmechanismus **strukturell nicht**: Rule
+`normen-referenz` Ziff. 1b verlangt bei `speculative` das Gegenlesen am Original, und genau das würde
+«SN EN 13790» bestätigen, weil die Korrigenda ein eigenständiges Dokument ist. Als **N46-2** in
+`wiki/QUESTIONS.md` registriert.
+
+**Abgeschwächt gegenüber der Erstmeldung:** der zweite materielle Korrigenda-Inhalt (Zielwert-Faktor
+60 % → 70 %) hat aus dieser Datei **keine Aussenwirkung** — sie trägt ab Z. 17 ein Warnbanner und
+verbietet dem Agenten `energie-berater` ab Z. 165 jede Q_H-Ableitung; aus ihr dürfen überhaupt keine
+Werte herausgehen. Die scharfe Kante ist allein der Rechennorm-Verweis. Gemessener Nullbefund: der
+Zielwert-Faktor 60 % kommt ausserhalb der KB `energie` hub-weit **nirgends** vor.
+
+Ausserdem als **N46-3** registriert: der Statuswechsel `sia-416-2003` `established` → `speculative`
+(Run 64, heute) erreichte die **12 namentlich bekannten Konsumenten** nicht.
+
 ## 2026-08-28 — Normen-Nacht Run 64: Abdeckungsrunde auf SIA 416:2003 (Rang 1 der Prüfstand-Kandidaten) + Kalibrierung der Stichprobenstufe
 
 **Arbeitsgegenstand.** Vertiefungsstufe (b). `destillate/sia-416-2003.md` war Rang 1 der in

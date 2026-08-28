@@ -64,6 +64,10 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Bauten ausserhalb der Bauzone (RPG Art. 24c/37a, RPV Art. 41-43a) | **baurecht** | planungsgrundlagen (fuehrt nur Abgrenzungswissen, verweist fuer die Schwellen) |
 | Strafrahmen Art. 229 StGB (Baugefaehrdung) | **baurecht** | normen (bfu-Kurzinfo 02.2011, nachrangig, mit Rechtsstands-Vorbehalt) |
 
+| **Rechtsgrundlage der Gebaeude-Foerderung des Bundes** (Gebaeudeprogramm: welcher Artikel traegt Foerderbeitraege, welcher die kantonalen Vorschriften) | **energie** (`gebaeudeprogramm-bund-hfm-2015`) fuer Programm, Foerdersaetze und Ausschluesse; die **Artikelzuordnung** ist am Fedlex-Volltext gegengelesen: Foerderung = **Art. 50-52 EnG i.V.m. Art. 34 CO2-Gesetz**, kantonale Vorschriften = **Art. 45 EnG** (Randtitel «Gebaeude») | `baurecht` verweist dorthin und fuehrt Art. 45 EnG nur als Bundes-Energierecht/kantonale Vorschriften — **NEU Run 46 (28.08.2026)**, Anlass: beide baurecht-Stellen wiesen die Foerderung faelschlich Art. 45 EnG zu |
+| **Statuswechsel an einem Destillat mit bekannter Konsumentenliste** (wer benachrichtigt die Konsumenten) | **die fuehrende KB** setzt den Status; die **Benachrichtigung der Konsumenten ist heute ungeregelt** und faellt faktisch dem Wissens-Chef zu | Anlass Run 46: `sia-416-2003` wechselte am 28.08.2026 `established` → `speculative` bei **12 namentlich bekannten Konsumenten** (`normen/training/n62-3-pruefstand-kandidaten.md` Z. 67); zwei energie-Artikel behaupteten den alten Status woertlich weiter. Registriert als **N46-3** |
+| **Korrigenda zu einer SIA-Norm** (eigenstaendiges Dokument, aendert Ziffern bei unveraenderter Ausgabe) | **normen** — Fassungsstand inkl. Korrigenda, Regel der KB seit Run 19 (28.07.2026) | `energie` destilliert den Volltext, wenn er dort gebraucht wird, und **bringt den Fassungsstand nach `normen` zurueck** — NEU Run 46: bei SIA 380/1-C1:2019 unterblieb der Rueckweg, `normen` fuehrte SN EN 13790 an zwei Stellen aktiv weiter |
+
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
 > korrekt, dass eine andere KB nachziehen muss, notiert den Flag aber NUR bei sich. Zwei Fundorte
 > in einem Lauf: der Fassungs-Flag zur VKF-BRL 16-15 stand seit Run 52 in `planungsgrundlagen` und
@@ -173,6 +177,157 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **U-Wert-Rechenwege und Bauteilaufbauten aus Fremd-/KI-Dokumenten** (Pruefung, Methodenfehler, Warnkarten) | **energie** (`destillate/ki-generierte-fachdokumente-referenzablage`, `wiki/u-werte-grenzwerte-ch` §«vier Griffe», FAQ F257) | `planungsgrundlagen` (`energie-uebersicht`) fuehrte den Fall Grassen-Biwak bis Run 41 als **Benchmark** und traegt seit 24.08.2026 den Ueberholt-Vermerk. **Merksatz aus dem Fall:** ein plausibles Ergebnis ist kein Beleg fuer eine richtige Rechnung — drei Methodenfehler hoben sich fast auf — NEU Run 41 |
 
 ## Gepruefte Paare
+
+
+### baurecht ↔ energie (Gebaeudeprogramm: Rechtsgrundlage und Foerderfaehigkeit) — geprueft 2026-08-28 (Run 46)
+
+**Zwei Fehler in einer Buchzeile, einer davon in die konsumierte Wiki-Schicht weitergewandert.**
+`baurecht/buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` Z. 49 fuehrte «Art. 45 EnG
+(Gebaeudeprogramm) — Foerdermassnahmen Bund/Kanton fuer energetische Sanierung von Gebaeudeteilen
+(Wand, Dach, Boden, **Fenster**)». `baurecht/wiki/baureife-und-erschliessung.md` Z. 318 trug die
+Artikelzuordnung weiter.
+
+**Am amtlichen Volltext gegengelesen** (Fedlex, EnG SR 730.0, Konsolidierung 20260101, Filestore, Rule
+`auto-verbesserungen` 260721): **Art. 45 EnG traegt den Randtitel «Gebaeude» und verpflichtet
+ausschliesslich die Kantone, Vorschriften zu erlassen** (Abs. 1-3). Die Foerdermechanik steht in
+**Art. 50-52 EnG** (Art. 50 Energie- und Abwaermenutzung, Art. 51 Grundsaetze Globalbeitraege/
+Finanzhilfen, Art. 52 Globalbeitraege nur bei kantonalem Foerderprogramm) i.V.m. **Art. 34 CO2-Gesetz**.
+Zweitens sind **Fenster seit dem HFM 2015 (ab 01.01.2017) nicht mehr foerderfaehig** — dreifach
+unabhaengig in der KB `energie` belegt (Destillat HFM 2015, Foerderdestillate ZH und SZ).
+
+**Warum es zaehlt:** der Buch-Layer ist nach `skills/baurecht/SKILL.md` Z. 70-71 eine **zitierbare**
+Synthese (Stufe 0b), keine Rohschicht — die Zeile kann direkt in eine Bauherren-Auskunft laufen. Und die
+Wiki-Zeile liegt in der tatsaechlich konsumierten Schicht.
+
+**Abgeschwaecht:** die Foerderfaehigkeit ist **veralteter, nicht falscher** Buchstand — eine 6. Auflage
+2019 kann den Vorgaengerstand vor 2017 korrekt wiedergeben. Die Buchseite S. 760-761 wurde nicht
+eingesehen. Deshalb Fassungsstand-Vermerk statt Umschreibung; die Artikelzuordnung dagegen ist schlicht
+falsch und wurde berichtigt. **Nicht angefasst, weil richtig:** `buecher/band-2/17-…` Z. 21 nennt
+Art. 45 EnG korrekt als Bundes-Energierecht.
+
+**Aktion:** wiki +3/−1 (gewollte Zeilenersetzung), Buch-Destillat +1/−1 (Tabellenzeile). Matrixzeile
+gesetzt. Status: bereinigt.
+
+### normen ↔ energie (Fassungsstand SIA 380/1, Korrigenda C1:2019) — geprueft 2026-08-28 (Run 46)
+
+**Der Rueckweg einer Bringschuld fehlte.** `energie` hat am 28.08.2026 (Run 166) die Korrigenda
+**SN 520380/1-C1:2019** im Volltext gelesen und destilliert (kostenlos, Preisgruppe 0; Zielwert-Faktor
+Neubauten **60 % → 70 %**, Verweiswechsel **SN EN ISO 13790 → SN EN ISO 52016-1**). Nach der Matrix
+fuehrt **`normen`** den Fassungsstand inkl. Korrigenda — dort war sie an **drei** Stellen nicht
+angekommen, und `normen` fuehrte «SN EN 13790» in `destillate/sia-380-1-2016.md` **zweimal aktiv**
+weiter, einmal davon im Abschnitt «Normbezuege … fuer die Anwendung relevant».
+
+**Kein Neuland:** die KB `normen` hat die Regel am 28.07.2026 (Run 19) selbst geschrieben — «bei
+unveraenderter Ausgabe koennen Korrigenda Ziffern materiell aendern … bei jedem SIA-Destillat die
+Korrigenda-Liste des SIA-Shops pruefen (Preisgruppe 0)». Fuer SIA 380/1 nicht vollzogen; die Nachbarzeile
+SIA 2028 fuehrt ihre beiden Korrigenda vorbildlich.
+
+**Der strukturelle Fund (N46-2):** der `speculative`-Schutz greift hier **nicht**. Rule
+`normen-referenz` Ziff. 1b verlangt bei `speculative` das Gegenlesen am Original — genau das wuerde
+«SN EN 13790» **bestaetigen**, weil die Korrigenda ein eigenstaendiges Dokument ist. Der uebliche
+Auffangmechanismus faengt diesen Fehlertyp strukturell nicht ab.
+
+**Abgeschwaecht:** der Zielwert-Faktor hat aus dieser Datei **keine Aussenwirkung** (Warnbanner ab Z. 17,
+ausdrueckliches Q_H-Ableitungsverbot fuer den Agenten `energie-berater` ab Z. 165 — aus ihr duerfen
+ueberhaupt keine Werte herausgehen). Scharf ist allein der Rechennorm-Verweis. **Gemessener Nullbefund:**
+der Zielwert-Faktor 60 % kommt ausserhalb `energie` hub-weit nirgends vor.
+
+**Aktion:** `sia-380-1-2016.md` +9/−2, `destillate/INDEX.md` +1/−1, `wiki/REGISTER.md` +1/−1 (je
+Zeilenersetzung in der Ausgabe-Spalte). E46-1 als Verfahrensfrage an `energie`, N46-2 an `normen`.
+Status: sachlich bereinigt, Verfahrensfrage offen.
+
+### normen → 12 Konsumenten (Statuswechsel `sia-416-2003`) — geprueft 2026-08-28 (Run 46)
+
+**Ein Destillat mit bekannter Konsumentenliste wechselte den Status, und niemand erfuhr davon.**
+`normen` hat `destillate/sia-416-2003.md` am 28.08.2026 (Run 64) von `established` auf **`speculative`**
+herabgestuft (12 Kern- und 18 Nebenluecken, **kein falscher Wert**; der Figurenanhang S. 49-57 war nie
+eingesehen). Die **12 Konsumenten stehen namentlich** in
+`normen/training/n62-3-pruefstand-kandidaten.md` Z. 67, darunter vier rechnende Agenten.
+
+Gefunden ueber einen **deterministischen Vorfilter dieses Laufs**, der hub-weit prueft, ob ein Artikel
+den *Status seines Link-Ziels* behauptet und ob der noch stimmt: 258 Rohtreffer, nach Abzug der
+Journalprosa genau **zwei riskante** Faelle (Behauptung `established`, Ziel real `speculative`) —
+`energie/destillate/gebaeudehuellziffer-ebf-flaechendefinition.md` Z. 228 und
+`energie/wiki/bezugsgroessen-energienachweis.md` Z. 84. Beide stammen aus Wissens-Chef **Run 34**
+(16.08.2026) und boten das Destillat als **autoritativen Ersatz** fuer eine schwache Quelle (RHYMO,
+private Immobilienfirma) an. Alle uebrigen Treffer sind konservativ-veraltet (behauptet `emerging`,
+Ziel laengst `established`) und damit ungefaehrlich.
+
+**Was NICHT geschah, und warum:** die inhaltlichen Vertiefungen aus Run 64 wurden **nicht** in die
+Konsumenten uebertragen. Praezedenz an genau diesem Artikelpaar (Run 35, 17.08.2026): «keine Aenderung
+eines `established`-Artikels auf ein `speculative`-Destillat hin»; Rule `normen-referenz` Ziff. 1b
+generisch; und `normen` fuehrt die betroffenen Bloecke selbst unter **N64-2** als noch nicht
+gegengeprueft. Gesetzt wurden deshalb **Pruefvermerke**, keine Korrekturen.
+
+**Widerlegt:** die gemeldete Doppelspurigkeit `immobilienbewertung/wiki/flaechendefinitionen-sia` gegen
+`normen`. Die Doppelbewirtschaftung ist **gewollt und seit Run 35/36 registriert** — `normen` fuehrt die
+zitierfaehige Fundstelle, `immobilienbewertung` die baupraktische Einordnung. Der Vorschlag, die Tabellen
+auf einen Zeiger zu verschlanken, haette eine `established`-Tabelle durch einen Zeiger auf eine
+`speculative`-Quelle ersetzt und waere nach Rule `wissens-bibliothekar` Punkt 4 rueckfragepflichtig.
+
+**Aktion:** Backlink `[[sia-416-2003]]` in `flaechendefinitionen-sia` gesetzt (die Kette
+`grobkosten/kennwerte` → `flaechendefinitionen-sia` → ✗ war eine Sackgasse), dort +15/−1 mit
+Pruefauftrag; zwei energie-Statusnachtraege +1/−1. Matrixzeile gesetzt. N46-3 an `normen`.
+
+### grobkosten ↔ projekt-lessons ↔ bauprodukte (Fall EI30-Schiebetueren KISPI) — geprueft 2026-08-28 (Run 46)
+
+**Die Fuehrungsteilung haelt, die Verbindung fehlte, und beide trugen einen Phantom-BKP-Code.**
+Zwei Reports zum selben Vorgang (Jegen AG, KISPI, dieselbe Beantwortung, derselbe Tag) nannten einander
+**null-mal**. Die Arbeitsteilung selbst ist sauber: `grep -c CHF` im projekt-lessons-Report = 0, und der
+grobkosten-Report fuehrt keine uebertragbare Prozess-Lehre.
+
+**Schwerer als die Verlinkung:** beide fuehrten «**BKP 274.01**». Die kanonische Liste
+`references/bkp-2017/BKP-2017-Liste.md` Z. 533-538 kennt unter **273** nur `.0` bis `.3` und **274
+«Innere Spezialverglasungen» ohne jede Unterposition**. «274.01» ist eine bueroeigene Los-Nummer — exakt
+die Fehlerfamilie, welche die importierte Rule `bkp-2017-referenz.md` seit dem 04.08.2026 verbietet
+(Fall «271.10»). **Der Hub weiss es an anderer Stelle richtig:** derselbe projekt-lessons-Report schreibt
+korrekt `LOS_235.21`, und `koordination/outputs/2026-07-25_entscheid-radar.md` Z. 49 schreibt «Jegen
+**Los** 274.01». Nicht angefasst: die Quellenzeile «G-BKP 273.04_05» — woertliche Bezeichnung des
+KBOB-Werkvertrags, als Fremdbezeichnung zulaessig.
+
+Dazu ein **toter Wikilink** je Report: `[[grobkosten-bkp-2]]` (existiert nicht; auf `[[kennwerte]]`
+berichtigt) und `[[koordination]]` (existiert nicht; **bewusst nicht entfernt** — Loeschen faellt unter
+Rule `wissens-bibliothekar` Punkt 4, als PL46-2 vorgelegt).
+
+**Nullbefund, gemessen:** `bauprodukte` fuehrt keinen Artikel zu Tueren/Spezialverglasungen und nach der
+Matrix ohnehin **keine Kennwerte fuer Kalkulationen** — kein Widerspruch, kein Handlungsbedarf. Als
+BP46-2 nur vermerkt, damit ein kuenftiger Tueren-Artikel die Fundstellen findet. Nebenbefund BP46-1:
+BKP 281 steht im bauprodukte-INDEX zweimal.
+
+**Struktureller Fund (PL46-3):** tote Links in `outputs/` sind hub-weit **ungeprueft** — Pruefung B des
+Skills `wissenscheck` deckt nur `wiki/`. Beide heute gefundenen toten Zeiger lagen in `outputs/`.
+
+**Aktion:** grobkosten-Output +9/−2, projekt-lessons-Report +5/−0, projekt-lessons CHANGELOG +15/−1,
+wechselseitiger Klartext-Verweis gesetzt. Status: bereinigt bis auf PL46-2.
+
+### twin ↔ rules/anrede-kontakte.md — geprueft 2026-08-28 (Run 46) — kein Rule-Eingriff
+
+**Zwei Zeiger in einer importierten Rule sind ueberholt, und der Grund ist eine Fehlerklasse.**
+`rules/anrede-kontakte.md` Z. 16 nennt «**Sechs** unabhaengige authentische Belege» gegen die
+Nivellier-Zeile; das twin-Wiki steht heute bei **elf** (`twin/wiki/QUESTIONS.md` Z. 4478, «elfter Beleg
+dagegen, null dafuer»). Z. 22 verweist auf «`QUESTIONS.md` … zuletzt Z. 3494-3503» — **dort steht heute
+eine voellig andere Frage** (Telefonnummern-Schreibweise, Du-Grossschreibung). Der Verweis war beim
+Setzen korrekt und ist weggewandert, weil `QUESTIONS.md` nicht rein append-only ist: die twin-Loops
+tragen auch oberhalb nach. **Die ID-Zeiger derselben Klammer (260815 #4, 260816 #1) haben gehalten.**
+Lehre: absolute Zeilennummern aus einer Rule in eine rueckwirkend editierte Wiki-Datei sind grundsaetzlich
+instabil — ID-Zeiger verwenden.
+
+**Bewusst kein Eingriff.** Der ⚠-Vermerk ist zwar Claudes eigener Text (Run 39), aber er steht in einer
+**importierten Rule**, und die Datei sagt selbst: «Claude aendert den Wortlaut einer Rule nicht selbst.»
+Bei einem Grenzfall in einer Datei, die in jeder Session laedt, gilt Zurueckhaltung. Beides Raphael
+vorgelegt.
+
+**Abgeschwaecht und nicht gemeldet:** der Stadelmann-Punkt ist am 26.08. (Run 44) bereits adjudiziert
+(«keine Aktion»); neu ist allein die Belegzahl — von **eins auf zwei** (Batch 106). Im eigenen Register
+nachgefuehrt, kein neuer Entscheid.
+
+**Nicht in die Rule uebernommen:** die drei neuen Kontakte aus Batch 107 (Bajrami, Cetin, Rothe) fehlen
+in der Rule-Tabelle. Das twin-Wiki haelt dazu selbst die Schwelle fest («sobald ein zweiter Beleg je
+Kontakt vorliegt»). Fuer **Livdin Bajrami** ist sie erfuellt — drei Belege ueber mehrere Batches, drei
+Waermestufen im Sie («Sehr geehrter Herr» → «Gruezi Herr» → «Geschaetzter Herr»); fuer **Nicklas Rothe**
+ebenfalls, mit einem belegten Wechsel **Sie → Du** binnen dreier Tage. Die Aufnahme in die Kontaktliste
+ist nach dem Kopf der Rule Raphaels Entscheid («Im Zweifel nachfragen, nie raten») — vorgelegt, nicht
+vollzogen.
 
 ### wettbewerbs-dna ↔ grobkosten ↔ immobilienbewertung (Healthcare-CHF/m³-Fuehrung) — geprueft 2026-08-27 (Run 45), BESTAETIGT
 
@@ -386,7 +541,7 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
   `twin/wiki/QUESTIONS.md` 260826 #1 mit ausformulierten Optionen vor.
   **Zaehlfehler des Melders:** er behauptete drei belegte Du-Instanzen; das Beziehungsregister
   qualifiziert die beiden aelteren (03./05.08.) selbst als **keinen** Registerwechsel («behaelt
-  Sie-freie Vornamen-Anrede ohne Du-Pronomen»). Belegt ist **eine** (25.08., Batch 105).
+  Sie-freie Vornamen-Anrede ohne Du-Pronomen»). Belegt ist **eine** (25.08., Batch 105). ⚠ **Nachgefuehrt 28.08.2026 (Run 46): es sind inzwischen zwei** — Batch 106 (26.08.2026) liefert «Geschätzter Othmar, werter Albin» an erster Stelle eines Achter-Verteilers (`wissen/twin/wiki/beziehungsregister.md` Z. 3268-3278). Der Sachentscheid bleibt unveraendert bei Raphael (`twin/wiki/QUESTIONS.md` 260826 #1); dies ist reine Zahlenpflege im eigenen Register.
 - **BESTAETIGT — die Belegkette zwischen den beiden Rule-Dateien ist gerissen.**
   `rules/anrede-kontakte.md` Z. 58–60 zitiert aus `rules/jans-dna-facetten.md` die Datumskette
   «Furrer 24.07. → 28.07., Stadelmann 22.07. trotz Telefonat → 03.08.». Der Commit `2824da0f2`

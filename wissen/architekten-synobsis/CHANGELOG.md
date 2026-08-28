@@ -4,6 +4,29 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-28 23:30 (Mac Mini Nachtschicht) — Sechs Namen aus Sammelfrage Charge 1 recherchiert (Brauen_Waelchli, Brunhart_Brunner_Kranz, Buehler_Martin, Burkhardt_Elsa, Consoni_Beat, Dunkel)
+
+Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
+vollstaendig (853/853, `vectors.npz` unveraendert); `bauprodukte`/`grobkosten` formal
+erledigt/ausgesetzt, `energie` erst rund 30 Minuten zuvor im eigenen Takt gelaufen (Run 166,
+22:58); `baurecht`/`normen`/`planungsgrundlagen`/`wettbewerbs-dna` per Vorgabe ausgeschlossen
+(eigener Taktgeber). Fristen-Register (`logbuch/fristen.md`) fuehrt nur bereits bekannte,
+weiterlaufende Punkte ohne neuen Handlungsbedarf fuer diesen Zyklus.
+
+Auf Prioritaet 5 ausgewichen, gleiche Methodik wie die Laeufe seit 24.08.: sechs bislang
+unrecherchierte Namen aus der Sammelfrage-Charge 1 (`wiki/QUESTIONS.md` Zeile 32, vierzehn Namen
+insgesamt) per WebSearch geklaert, direkt im Hauptkontext, kein Fan-out.
+
+**Brauen_Waelchli**, **Brunhart_Brunner_Kranz**, **Buehler_Martin** und **Consoni_Beat**
+belastbar bestaetigt (je ein eindeutiges, aktives Schweizer/Liechtensteiner Architekturbuero
+gefunden). **Burkhardt_Elsa** und **Dunkel** nur wahrscheinlich (Schreibvariante Burckhardt-Blum
+bzw. Vorname-Zuordnung William Dunkel), da ohne Ordnerinhalt nicht gegen den konkreten Dateiinhalt
+verifizierbar. Details je Name mit Quellenangabe direkt in `wiki/QUESTIONS.md` an der bestehenden
+Sammelfrage-Zeile angehaengt. `git diff --numstat` nativ geprueft: 1 Zeile geaendert / 1 Zeile
+(dieselbe Bulletzeile additiv erweitert), keine Loeschung von Bestand. Keine Ordnerumbenennung,
+kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund
+1.7 von 5 USD.
+
 ## 2026-08-28 05:30 (Mac Mini Nachtschicht) — Sechs weitere offene Fragen aus QUESTIONS.md recherchiert (Conte_Pianetti_Zanetta_Arch, Taylor, Whiting_Luci, Wollkenstein, maya, darlington_meyer)
 
 Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis Stufe 1+2

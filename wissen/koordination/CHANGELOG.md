@@ -2,6 +2,66 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-28 (Run 46) — vier von fuenf Befunden waren zwoelf Stunden alt: zwei Naechte guter KB-Arbeit, je eine Kante ueber die eigene Grenze hinaus nicht bedient
+
+**Zuschnitt:** 5 Melder (`model: sonnet`) + 5 Refuter (Hauptmodell) = 10 Agenten, 1'819'895 Token,
+173 Werkzeugaufrufe, 9,2 Min, 0 Fehler. Delta 109 Commits / 24,0 h. Dazu ein eigener Hauptkontext-Strang
+(neuer deterministischer Vorfilter, Verifikation am amtlichen Bundesrecht). Report:
+`outputs/2026-08-28_wissens-chef-run46.md`.
+
+**5 Befundstraenge bestaetigt, 1 widerlegt, 3 Nullbefunde gemessen. 21 Dateien, 13 rein additiv,
+8 gewollte Zeilenersetzungen — keine Datei hat Bestand verloren.**
+
+- **`baurecht` (+3/−1 wiki, +1/−1 Buch)** — fuehrte an zwei Stellen «Gebaeudeprogramm (**Art. 45 EnG**)».
+  **Am Fedlex-Volltext gegengelesen** (EnG SR 730.0, Konsolidierung 20260101, vom Hauptprozess selbst
+  gezogen): Art. 45 traegt den Randtitel «Gebaeude» und verpflichtet ausschliesslich die **Kantone,
+  Vorschriften zu erlassen** — keine Foerderbeitraege. Foerderung = **Art. 50-52 EnG i.V.m. Art. 34
+  CO2-Gesetz**. Dieselbe Zeile fuehrte zudem **Fenster als foerderfaehig**, obwohl sie seit dem HFM 2015
+  (ab 01.01.2017) ausgeschlossen sind (dreifach in `energie` belegt). **Zwei Fehler, zwei Behandlungen:**
+  die Artikelzuordnung ist falsch und wurde berichtigt; die Foerderfaehigkeit ist veralteter, nicht
+  falscher Buchstand (6. Aufl. 2019) und bekam einen Fassungsstand-Vermerk. Der Buch-Layer ist nach
+  `skills/baurecht/SKILL.md` eine **zitierbare** Synthese — die Zeile kann in eine Bauherren-Auskunft
+  laufen.
+- **`normen` (+9/−2, +1/−1, +1/−1)** — die Korrigenda **SN 520380/1-C1:2019** (von `energie` gestern
+  Nacht im Volltext destilliert) war an drei Stellen nicht angekommen; «SN EN 13790» lief **zweimal
+  aktiv** weiter, einmal im Abschnitt «fuer die Anwendung relevant». Massgebend ist SN EN ISO 52016-1.
+  **Der strukturelle Fund (N46-2):** der `speculative`-Schutz greift hier nicht — ein Gegenlesen am
+  Original *bestaetigt* den alten Stand, weil die Korrigenda ein eigenstaendiges Dokument ist.
+  **Kein Neuland:** `normen` hat die Korrigenda-Regel am 28.07. (Run 19) selbst geschrieben und fuer
+  SIA 380/1 nicht vollzogen. Abgeschwaecht: der Zielwert-Faktor (60 % → 70 %) hat aus dieser Datei keine
+  Aussenwirkung (Warnbanner, Werteverbot fuer `energie-berater`); scharf ist allein der Rechennorm-Verweis.
+- **Statuswechsel `sia-416-2003` `established` → `speculative`** (normen Run 64, gestern Nacht) erreichte
+  die **12 namentlich bekannten Konsumenten** nicht. Gefunden ueber einen **neu gebauten Vorfilter**
+  (behauptet ein Artikel den Status seines Link-Ziels?): 258 Rohtreffer, nach Abzug der Journalprosa
+  genau **zwei riskante** — beide in `energie`, beide aus Wissens-Chef Run 34, beide boten das Destillat
+  woertlich als «`status: established`» als autoritativen Ersatz an. **Bewusst nur Pruefvermerke, keine
+  Korrekturen:** Praezedenz Run 35 an genau diesem Artikelpaar («keine Aenderung eines
+  `established`-Artikels auf ein `speculative`-Destillat hin»), Rule `normen-referenz` 1b, und `normen`
+  fuehrt die betroffenen Bloecke selbst unter N64-2 als ungeprueft. Backlink zur Mutternorm gesetzt
+  (`flaechendefinitionen-sia` +15/−1) — die Kette `grobkosten/kennwerte` → dorthin → ✗ war eine Sackgasse.
+- **WIDERLEGT: Doppelspurigkeit `immobilienbewertung` ↔ `normen`.** Gewollt und seit Run 35/36
+  registriert. Der Vorschlag, die Tabellen zu verschlanken, haette eine `established`-Tabelle durch einen
+  Zeiger auf eine `speculative`-Quelle ersetzt und waere als Merge rueckfragepflichtig gewesen.
+- **`grobkosten` + `projekt-lessons` (+9/−2, +5/−0, +15/−1)** — zwei Reports vom selben Tag zum selben
+  Vorgang kannten einander null-mal; verbunden. **Schwerer:** beide fuehrten «**BKP 274.01**». Am
+  kanonischen Original geprueft — BKP 2017 kennt unter 273 nur `.0`–`.3` und **274 ohne Unterposition**;
+  «274.01» ist eine bueroeigene Los-Nummer. Exakt die Fehlerfamilie «271.10» (Rule `bkp-2017-referenz`
+  seit 04.08.2026), diesmal **zwoelf Stunden** nach Entstehung gefunden statt nach dreizehn Monaten.
+  Dazu je ein toter Wikilink; `[[grobkosten-bkp-2]]` → `[[kennwerte]]` berichtigt, `[[koordination]]`
+  **bewusst nicht entfernt** (Loeschen = Rueckfrage, PL46-2).
+- **Kein Rule-Eingriff bei `anrede-kontakte.md`**, obwohl zwei Zeiger ueberholt sind (Zaehler «sechs»
+  gegen elf; Zeilenzeiger zeigt heute auf eine andere Frage). **Fehlerklasse belegt:** absolute
+  Zeilennummern aus einer Rule in eine rueckwirkend editierte Wiki-Datei sind instabil — die ID-Zeiger
+  derselben Klammer haben gehalten. Raphael vorgelegt, nicht angefasst.
+- **Drei Nullbefunde gemessen:** Foerderung ausserhalb `energie` (null Dateien in `planungsgrundlagen`),
+  Zielwert-Faktor 60 % (hub-weit nirgends ausserhalb `energie`), `bauprodukte` und Tueren (kein Artikel,
+  fuehrt ohnehin keine Kennwerte).
+
+**Register:** +3 Matrixzeilen (Rechtsgrundlage Gebaeude-Foerderung · Statuswechsel mit Konsumentenliste ·
+Korrigenda-Rueckweg), 5 Pruefabschnitte, Belegzaehler Stadelmann von eins auf zwei nachgefuehrt
+(+156/−1). Cross-KB-Bringschuld in fuenf `QUESTIONS.md` erfuellt.
+
+
 ## 2026-08-28 (Synergie-Lauf 21) — ein Umbau zog vier Stellen nach und liess die fuenfte aus: drei Befunde am `heartbeat`
 
 **Zuschnitt:** inline, kein Fan-out. Delta 110 Commits / 24,0 h, Delta-Basis 27.08. 17:10.

@@ -2,6 +2,19 @@
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 
+## 2026-08-28 (Wissens-Chef Run 46) — «BKP 274.01» berichtigt, Schwester-Report verbunden
+
+- `CHANGELOG.md` Z. 8 (+2/−1): «BKP 274.01» auf `LOS 274.01` berichtigt. BKP 2017 kennt **274 ohne
+  Unterposition** (`references/bkp-2017/BKP-2017-Liste.md` Z. 538); «274.01» ist eine bürointerne
+  Los-Nummer. Fehlerfamilie «271.10», Rule `bkp-2017-referenz.md` seit 04.08.2026. **Die KB weiss es an
+  anderer Stelle richtig** — der Report selbst schreibt korrekt `LOS_235.21 Zutrittskontrolle Gesamt`.
+- `outputs/2026-08-28_bestandsstandard-beschlaege-unternehmerdokumentation.md` (+6/−0): Klartext-Verweis
+  auf den Schwester-Report in `grobkosten` gesetzt (belegte Preisreihen desselben Loses). Beide entstanden
+  am 28.08.2026 aus derselben Jegen-Beantwortung und kannten einander nicht.
+- Offen gelassen (**PL46-2**, bewusst kein Selbstvollzug): der tote Wikilink `[[koordination]]` im
+  Frontmatter desselben Reports. Entfernen ist ein Löschvorgang und fällt nach Rule
+  `wissens-bibliothekar` Punkt 4 unter Rückfrage.
+
 ## 2026-08-28
 
 - `outputs/2026-08-28_bestandsstandard-beschlaege-unternehmerdokumentation.md` angelegt.

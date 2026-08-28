@@ -419,3 +419,16 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
     mit Freiheitsgraden, sondern trägt über die Seitenzahl denselben Belegsanspruch
     wie das Destillat selbst. Wo eine Zahl im Praxisteil auftaucht, die im
     Sachabschnitt des Artikels nicht steht, ist sie belegpflichtig oder zu streichen.
+
+
+## Wissens-Chef Run 46 (28.08.2026) — Cross-KB-Eingang
+
+- [ ] **BP46-1 — Registerdefekt: BKP 281 steht im `wiki/INDEX.md` zweimal** (Z. 27 «Bodenbeläge
+  (Estrich-Systeme)» und Z. 97 «Bodenbeläge»). Beim nächsten bauprodukte-Lauf mitnehmen. Gefunden als
+  Nebenbefund bei der Prüfung, ob die KB Brandschutz-Türen führt.
+- [ ] **BP46-2 — Kein Artikel zu Türen/Spezialverglasungen (BKP 273.0 / 274).** Am 28.08.2026 sind in
+  `grobkosten` belegte Preisreihen für EI30-Schiebetüren mit integrierter Fluchttüre entstanden
+  (Berchtold 2020 Serie, Jegen 2026 Einzelstück). **Kein Handlungsbedarf und ausdrücklich kein
+  Widerspruch:** `bauprodukte` führt nach der Führungsmatrix keine Kennwerte für Kalkulationen, und ein
+  Artikel auf Vorrat wäre nach dem Schreib-Riegel in `skills/wissenscheck/SKILL.md` Z. 55-78
+  unerwünscht. Hier nur vermerkt, damit ein künftiger Türen-Artikel die belegten Fundstellen findet.

@@ -7512,3 +7512,26 @@ Volltext STRB 3879/2025) bleibt offen, in diesem Lauf nicht bearbeitet. **E-R164
 **Für den nächsten Lauf:** **E-R165-1** zuerst (Begleitdokument-Prüfung der zehn meistzitierten
 Destillate) — derselbe Hebel wie E-R164-2, eine Ebene tiefer, und dieser Lauf hat gezeigt, dass die
 Klasse real ist. Danach A-BLIND Ränge 61-80.
+
+
+## Wissens-Chef Run 46 (28.08.2026) — Cross-KB-Eingang
+
+- [ ] **E46-1 — Die Abschlussregel «grep KB-weit» braucht einen Cross-KB-Schritt.**
+  Run 166 hat die Korrigenda SIA 380/1-C1:2019 vorbildlich destilliert und die betroffene Fundstelle
+  **KB-intern** gesucht («Abschlussregel angewandt: grep über `wiki/` und `destillate/` mit
+  Schreibvarianten, genau eine betroffene Fundstelle **KB-weit**», Z. 29-31). Die KB `normen` führt
+  nach der Matrix den Fassungsstand **inkl. Korrigenda** und hatte den Stand nicht — sie führte
+  «SN EN 13790» an zwei Stellen aktiv weiter, eine davon im Abschnitt «für die Anwendung relevant».
+  Gegenprobe: `grep -c "normen" wissen/energie/outputs/2026-08-28_energie-run166.md` = **0**; auch die
+  `links:`-Zeile des neuen Destillats nennt ausschliesslich energie-eigene Artikel.
+  Nach Rule `wissens-bibliothekar` (Cross-KB-Bringschuld, Fassung 23.08.2026) liegt die Pflicht beim
+  **erledigenden Lauf**. Der Wissens-Chef hat die drei `normen`-Stellen heute nachgetragen; die
+  Verfahrensfrage bleibt: die Abschlussregel um einen Schritt «welche andere KB führt dieses Thema
+  nach der Matrix?» erweitern. **Das ist der Punkt, der die Wiederholung verhindert** — die vier
+  Datei-Edits heilen nur diesen einen Fall.
+- [x] **E46-2 (erledigt im selben Lauf) — Zwei Artikel behaupteten den überholten Status von
+  `[[sia-416-2003]]`.** `destillate/gebaeudehuellziffer-ebf-flaechendefinition.md` Z. 228 und
+  `wiki/bezugsgroessen-energienachweis.md` Z. 84 nannten das Ziel wörtlich «`status: established`»
+  und boten es als autoritativen Ersatz für die schwache RHYMO-Quelle an. Seit dem 28.08.2026 trägt es
+  `speculative` (normen Run 64). Nachtrag an beiden Stellen gesetzt; die materielle Aussage
+  (GF = NGF + KF) bleibt unberührt und richtig — Run 64 fand **keinen falschen Wert**, nur Lücken.

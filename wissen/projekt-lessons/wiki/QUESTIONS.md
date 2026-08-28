@@ -178,3 +178,28 @@ Mögliche erste Lessons, sobald Material vorliegt:
 - Wiederkehrende Nachtrags-Streitpunkte je Gewerk (Bezug Skill `unternehmerkontrolle`).
 - Etappierung/Provisorien im laufenden Spitalbetrieb (Bezug Skill `terminplanung`).
 - Wo Grobkostenschätzungen typischerweise daneben lagen (Bezug Skill `kostenkontrolle`).
+
+
+## Wissens-Chef Run 46 (28.08.2026) — Cross-KB-Eingang
+
+- [x] **PL46-1 (erledigt im selben Lauf) — «BKP 274.01» ist kein BKP-Code.** Das CHANGELOG führte den
+  Fall unter «BKP 274.01». Die kanonische Liste `references/bkp-2017/BKP-2017-Liste.md` Z. 533-538
+  kennt unter **273** nur `.0` bis `.3` und **274 «Innere Spezialverglasungen» ohne jede
+  Unterposition**. «274.01» ist eine bürointerne Los-Nummer. Das ist exakt die Fehlerfamilie, welche die
+  importierte Rule `bkp-2017-referenz.md` seit dem 04.08.2026 verbietet (Fall «271.10»): bürointerne
+  Los-Nummern nie mit dem Präfix «BKP» schreiben, sondern als `LOS <Nr.>`. Berichtigt.
+  **Die KB weiss es an anderer Stelle richtig:** der Report selbst schreibt korrekt
+  `LOS_235.21 Zutrittskontrolle Gesamt`.
+- [ ] **PL46-2 — Toter Wikilink `[[koordination]]` im Frontmatter von
+  `outputs/2026-08-28_bestandsstandard-beschlaege-unternehmerdokumentation.md` Z. 10.** Ein Artikel
+  dieses Namens existiert hub-weit nicht (`wissen/koordination/` hat keine `wiki/`-Ebene). **Bewusst
+  nicht selbst entfernt** — das Entfernen eines Zeigers ist ein Löschvorgang und fällt nach Rule
+  `wissens-bibliothekar` Punkt 4 unter Rückfrage. Zur Einordnung: `links:` ist nach
+  `wissen/WISSEN-CLAUDE.md` Z. 42-51 ein Feld für **`wiki/`-Artikel**, in `outputs/` gar nicht
+  gefordert; dieselbe lockere Praxis findet sich in
+  `outputs/2026-08-08_kuechenlueftung-planervorbehalt-und-nutzungseinstufung.md` Z. 10-12, wo `links:`
+  zwei **Rule-Namen** führt. Entscheid der KB: Feld streichen oder Konvention für `outputs/` festlegen.
+- [ ] **PL46-3 — Tote Links in `outputs/` sind strukturell ungeprüft.** Prüfung B des Skills
+  `wissenscheck` (`SKILL.md` Z. 93-95) fordert, dass jeder `[[…]]`-Link auf eine existierende
+  Wiki-Datei zeigt — der letzte Check auditierte laut CHANGELOG aber «alle 14 **Wiki**-Artikel».
+  `outputs/` liegt ausserhalb. Beide heute gefundenen toten Zeiger lagen dort.

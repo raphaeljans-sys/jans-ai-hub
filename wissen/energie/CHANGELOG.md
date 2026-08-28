@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## 2026-08-28 (Wissens-Chef Run 46) — zwei Artikel behaupteten einen Status, der am selben Tag gewechselt hat
+
+`destillate/gebaeudehuellziffer-ebf-flaechendefinition.md` Z. 228 (+7/−0) und
+`wiki/bezugsgroessen-energienachweis.md` Z. 84 (+7/−0) nannten `[[sia-416-2003]]` wörtlich mit
+«`status: established`» und boten es — beide seit Wissens-Chef Run 34 (16.08.2026) — als **autoritativen
+Ersatz** für die schwache RHYMO-Flächenhierarchie (private Immobilienfirma) an. Die KB `normen` hat das
+Ziel am 28.08.2026 (Run 64) auf **`speculative`** herabgestuft.
+
+Nachtrag an beiden Stellen gesetzt. **Die materielle Aussage bleibt unberührt und richtig** — Run 64 fand
+12 Kern- und 18 Nebenlücken, aber **keinen einzigen falschen Wert**; die Hierarchie GF = NGF + KF steht.
+Verändert hat sich die **Zitierfähigkeit**: nach Rule `normen-referenz` Ziff. 1b ist ein
+`speculative`-Destillat eine Warnkarte, keine Zitierquelle, und der Begriffsabgleich gegen RHYMO darf bis
+zur Refuter-Runde (dort N64-2) nicht als vollzogen gelten.
+
+Gefunden über einen deterministischen Vorfilter des Wissens-Chefs, der hub-weit prüft, ob ein Artikel den
+**Status seines Link-Ziels behauptet** und ob der noch stimmt: 258 Rohtreffer, nach Abzug der Journalprosa
+genau **zwei riskante** Fälle (Behauptung `established`, Ziel real `speculative`) — diese beiden.
+
+Als **E46-1** in `wiki/QUESTIONS.md` registriert: die Abschlussregel von Run 166 («grep KB-weit») braucht
+einen Cross-KB-Schritt. Die Korrigenda-Destillation war vorbildlich, aber der Fund erreichte `normen`
+nicht, das den Fassungsstand nach der Matrix führt.
+
 ## 2026-08-28 (Run 166, Scheduled Task) — E-R165-1 beantwortet: Begleitdokument-Lücke bei 5 von 5 geprüften Quellen; HFM 2015 wird ab 2028 abgelöst
 
 **Der Auftrag.** Run 165 hatte die dritte Aktualitätsfrage formuliert — ist die richtige Ausgabe

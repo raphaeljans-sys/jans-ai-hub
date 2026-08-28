@@ -3,6 +3,29 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-28 (Wissens-Chef Run 46) — Art. 45 EnG trägt das Gebäudeprogramm nicht
+
+Zwei Stellen wiesen die Förderung des Gebäudeprogramms **Art. 45 EnG** zu. Am amtlichen Volltext
+gegengelesen (Fedlex, EnG SR 730.0, Konsolidierung 20260101, abgerufen 28.08.2026): **Art. 45 trägt den
+Randtitel «Gebäude» und verpflichtet ausschliesslich die Kantone, Vorschriften zu erlassen** (Abs. 1-3:
+Rahmenbedingungen, Verbrauchsstandards, maximal zulässiger Anteil nicht erneuerbarer Energien,
+Widerstandsheizungen, VHKA). Kein Wort zu Förderbeiträgen. Die Fördermechanik steht in **Art. 50-52 EnG**
+i.V.m. **Art. 34 CO2-Gesetz**.
+
+- `wiki/baureife-und-erschliessung.md` Z. 318 (+9/−1, gewollte Zeilenersetzung): Zuordnung berichtigt,
+  Backlink `[[gebaeudeprogramm-bund-hfm-2015]]` gesetzt. Diese Zeile liegt in der **konsumierten
+  Wiki-Schicht**, nicht bloss im Buch-Layer.
+- `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` Z. 49 (+1/−1, Tabellenzeile):
+  Fassungsstand-Vermerk mit **zwei** Punkten — die Rechtsgrundlagen-Zuordnung und der Umstand, dass
+  **Fenster seit dem HFM 2015 (ab 01.01.2017) nicht mehr förderfähig** sind (dreifach unabhängig in der
+  KB `energie` belegt, ZH und SZ). Kein Löschen, keine Umschreibung: der Buchstand der 6. Auflage 2019
+  kann den Vorgängerstand korrekt wiedergeben, und die Buchseite S. 760-761 wurde nicht eingesehen.
+  Muster und Präzedenz: der ⚠-Vermerk T-09 eine Zeile darüber (23.08.2026).
+
+**Nicht angefasst, weil richtig:** `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md` Z. 21
+nennt Art. 45 EnG korrekt als «Bundes-Energierecht». Ebenso unangetastet der Laufbericht
+`outputs/2026-06-30_buch-run16.md` Z. 51 — Laufberichte werden nicht rückwirkend redigiert.
+
 ## 2026-08-25 — Wissens-Chef Run 43: § 239 PBG zeigt jetzt auf seine eigene Faktenbasis in Bd. 2
 
 `wiki/bauausfuehrung-und-baukontrolle.md`, Abschnitt 6 «Sicherheit der Baustelle (§ 239 PBG)»,

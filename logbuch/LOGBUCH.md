@@ -9425,3 +9425,16 @@ Es wurde nichts gemahnt, nichts gebucht und nichts versendet. Keine separate Mai
 Bericht: `30 JANS AI HUB OUTPUT/mahnwesen/2026/260828_Verzugscheck.md`. Fristen-Register:
 datierter Nachtrag an der bestehenden Zeile «bexio-Zugang tot», kein Zweiteintrag
 (Diff nativ gemessen: 1/1, reine Zeilenersetzung).
+
+## 2026-08-28 23:30 Nachtschicht Mac Mini — Sammelfrage Charge 1 (architekten-synobsis), sechs Namen recherchiert
+
+Prioritaeten 1-4 leer bzw. nicht anwendbar (keine pending Tasks, Synobsis Stufe 1+2 vollstaendig,
+`bauprodukte`/`grobkosten` erledigt/ausgesetzt, `energie` erst rund 30 Minuten zuvor an eigenem
+Takt gelaufen, Rest per Vorgabe ausgeschlossen). Fristen-Register ohne neuen Handlungsbedarf.
+Auf Prioritaet 5 ausgewichen: sechs bislang offene Namen aus der Sammelfrage Charge 1 in
+`wissen/architekten-synobsis/wiki/QUESTIONS.md` per WebSearch geklaert — Brauen_Waelchli,
+Brunhart_Brunner_Kranz, Buehler_Martin und Consoni_Beat belastbar bestaetigt (je ein eindeutiges
+Buero), Burkhardt_Elsa und Dunkel nur wahrscheinlich (Schreibvariante/Vorname-Zuordnung, ohne
+Ordnerinhalt nicht abschliessend). Details mit Quellen an der bestehenden Bulletzeile angehaengt,
+CHANGELOG-Eintrag gesetzt. `git diff --numstat` nativ geprueft: 1/1, keine Loeschung. Budget rund
+1.8 von 5 USD.

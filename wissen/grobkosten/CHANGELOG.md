@@ -1,5 +1,23 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-28 (Wissens-Chef Run 46) — Phantom-BKP-Code und toter Zeiger im Report vom selben Tag
+
+`outputs/2026-08-28_kennwerte-ei30-schiebetueren-kispi.md` (+8/−2):
+
+- **«BKP 274.01» ist kein BKP-Code.** Die kanonische Liste `references/bkp-2017/BKP-2017-Liste.md`
+  Z. 533-538 kennt unter **273** nur `.0` bis `.3` und **274 «Innere Spezialverglasungen» ohne jede
+  Unterposition**. «274.01» ist eine bürointerne Los-Nummer. Das ist exakt die Fehlerfamilie, welche die
+  importierte Rule `bkp-2017-referenz.md` seit dem 04.08.2026 verbietet (Fall «271.10»). Auf
+  `LOS 274.01 (bürointerne Los-Nummer, kein BKP-Code)` berichtigt. **Nicht angefasst:** die
+  Quellenzeile «G-BKP 273.04_05» — das ist die wörtliche Bezeichnung des KBOB-Werkvertrags und als
+  Fremdbezeichnung zulässig.
+- **Toter Zeiger** `links: [[grobkosten-bkp-2]]` — existiert hub-weit nicht; `wiki/` dieser KB enthält
+  nur `INDEX.md`, `kennwerte.md`, `QUESTIONS.md`. Auf `[[kennwerte]]` berichtigt.
+- **Schwester-Report verbunden:** `wissen/projekt-lessons/outputs/2026-08-28_bestandsstandard-beschlaege-unternehmerdokumentation.md`
+  behandelt denselben Vorgang (Jegen AG, KISPI, dieselben Fragen, derselbe Tag) und kannte diesen Report
+  null-mal, wie umgekehrt. Klartext-Verweis in beide Richtungen gesetzt. Die Führungsteilung selbst ist
+  sauber: keine Kennwerte in `projekt-lessons` (`grep -c CHF` = 0), keine Prozess-Lehre hier.
+
 ## 2026-08-28 (Projektfrage 2619 KISPI) — belegte Kennwerte EI30-Schiebetüren
 
 Neuer Report `outputs/2026-08-28_kennwerte-ei30-schiebetueren-kispi.md`. Zwei unabhängig
