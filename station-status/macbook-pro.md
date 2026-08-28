@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 01:39:42
+Stand: 28.08.2026 01:49:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 01:32)
@@ -12,4 +12,4 @@ Stand: 28.08.2026 01:39:42
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 9ab229908 nas-selfcommit: 3 Datei(en) 2026-08-28 01:30
+- 124125c5a normen Run 64 Nachtrag: Verifikationsbefund im Report — expliziter Commit war unvollstaendig, weil der 15-Min-Cron dazwischenfuhr; Ziel-Zustand pruefen statt eigenen Commit
