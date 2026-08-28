@@ -9320,3 +9320,33 @@ keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.
   Quellen in der QUESTIONS.md, CHANGELOG-Eintrag gesetzt. Diff nativ als rein additiv geprüft
   (2/2 Zeilen erweitert, keine Löschung). Keine Ordnerumbenennung, kein Fan-out, kein Versand,
   keine Buchung, keine destruktive Aktion. Budget: rund 1.7 von 5 USD.
+
+## 2026-08-28 08:06 Verzugscheck (bexio 401, zwanzigster blinder Kalendertag)
+
+Regellauf `mahnwesen-verzugscheck` auf dem MacBook Pro. **Kein Verzugsstand messbar.**
+`node connectors/bexio.mjs --verzug --json`, die Gegenprobe am Aussteller
+(`auth.bexio.com/realms/bexio/protocol/openid-connect/userinfo`) und die Direktproben an
+`api.bexio.com/2.0/kb_invoice` sowie `/2.0/company_profile` liefern je **HTTP 401**.
+`~/.bexio.env` unverändert vom 13.06.2026 11:05 (am Zeitstempel nachgemessen), kein neuer
+Token eingetragen. Weg 2 (Mac Mini) erneut nativ per `ssh mini` geprüft: `~/.bexio.env`
+existiert dort weiterhin nicht. Diagnose unverändert seit 13.08.: der Token ist formal gültig
+bis 13.12.2026, die Session dahinter wurde serverseitig beendet — nur ein neuer Token hilft.
+
+Letzter verifizierter Zahlstatus 08.08.2026 08:36, das sind **zwanzig Kalendertage**. Die
+Laufkette ist seit dem Ausfall vom 24.08. geschlossen (25./26./27.08. liegen vor). Keine neue
+Frist im Fünf-Tage-Fenster; die Lage verschärft sich allein durch Zeitablauf: RE-00098/99
+(KISPI, Frist 12.08.) sechzehn Tage überfällig; RE-00101 (Tschopp, CHF 6'000) am zehnten
+Werktag nach Fristablauf, Mahnschritt gesperrt wegen der ungeprüften Tx 3630 über exakt
+CHF 6'000; RE-00100 (Nova, CHF 13'120) acht Tage über die Frist der Zahlungserinnerung,
+formal Stufe 2, gesperrt bis die Fälligkeit in bexio (30.07.) auf den belegten Zustelltermin
+03.08. nachgezogen ist; RE-00087 unverändert in der Duplikatsklärung. Unverifiziert blockiert
+bleiben **CHF 51'400.00 in fünf Positionen**.
+
+Es wurde nichts gemahnt, nichts gebucht und nichts versendet. Keine separate Mail
+(Ein-Mail-Prinzip, Rule 260803; der Befund ist inhaltlich unverändert und steht im Register).
+**Aktion Raphael unverändert:** neuen bexio-Personal-Access-Token ausstellen und in
+`~/.bexio.env` als `BEXIO_API_TOKEN` eintragen, danach Kontrolllauf
+`node /Volumes/daten/jans-ai-hub/scripts/bexio-vorfilter.mjs --voll --trocken`.
+Bericht: `30 JANS AI HUB OUTPUT/mahnwesen/2026/260828_Verzugscheck.md`. Fristen-Register:
+datierter Nachtrag an der bestehenden Zeile «bexio-Zugang tot», kein Zweiteintrag
+(Diff nativ gemessen: 1/1, reine Zeilenersetzung).
