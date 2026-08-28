@@ -6215,10 +6215,23 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
 
 ## Run 64 (MacBook Pro, 28.08.2026) — Abdeckungsrunde auf SIA 416:2003, und die Kalibrierung der Stichprobenstufe
 
-- [ ] **N64-1 — Die 18 Nebenbefunde zu SIA 416:2003 einarbeiten.** Sie stehen vollständig im
-  Report `outputs/2026-08-28_normen-nacht-run64.md`. Grösster Block: die fehlenden
-  Wortdefinitionen des Volumenteils (NGV/NV/VV/FV wurden in diesem Lauf bereits ergänzt, die
-  übrigen Nuancen nicht) sowie die Figuren-Detailbefunde 1-3, 5, 9 des Anhang-Laufs.
+- [ ] **N64-1 — Die 18 Nebenbefunde zu SIA 416:2003 einarbeiten.** ⚠ **Berichtigt 29.08.2026
+  (Run 65): Dieser Punkt ist so, wie er formuliert war, nicht abarbeitbar.** Er behauptete, die
+  Nebenbefunde stünden «vollständig im Report `outputs/2026-08-28_normen-nacht-run64.md`». Das
+  trifft nicht zu: der Report nennt sie **nur als Zahl** («12 Kernlücken, 18 Nebenlücken») und in
+  einer Summentabelle je Abschnitt; **keine einzige ist einzeln aufgeführt**, und eine Anlage in
+  `training/` existiert nicht (geprüft: `ls training/`, `grep -rl` — nur die Stichproben-
+  Kalibrierung stammt aus Run 64). Die 18 Befunde lagen ausschliesslich in den Rückgabetexten der
+  Run-64-Agenten und sind damit **verloren**; sie wären nur durch eine erneute Abdeckungsrunde
+  wiederzugewinnen.
+  **Teilweise eingelöst in Run 65 ohne Zusatzaufwand:** die Gegenrichtungs-Blöcke der sechs
+  Refuter-Agenten haben denselben Stoff nebenbei mit abgedeckt und einen echten Restbefund gehoben
+  (der Oberbegriff **NF**, Ziff. 2.1.1, fehlte im Begriffsteil, während sein Volumen-Pendant NV
+  geführt war — inzwischen ergänzt). Die übrigen dort gemeldeten Punkte führt das Destillat bereits
+  an anderer Stelle (Methodik-Pflicht 7, als unabhängige Bestätigung verbucht, nicht als Befund).
+  **Restaufwand daher gering** — der Punkt bleibt offen, aber als «Nebenbefunde bei nächster
+  Gelegenheit mitnehmen», nicht als Rückstand mit bekanntem Inhalt.
+  **Die allgemeine Lehre steht als N65-1.**
 - [ ] **N64-2 — Refuter-Runde auf den Nachträgen von Run 64.** Die neuen Blöcke im Destillat
   (Ziff. 0.2 dritter Absatz, Ziff. 0.4 sechste Regel, Ziff. 4.1-4.3, Höhenregel aus Figur 8,
   der ganze Figurenanhang) tragen bisher **nur** die Abdeckungsrichtung. Nach Methodik-Pflicht 13
@@ -6240,12 +6253,20 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   aber im Nebenbefund-Block N62-1 liegen. Grundlegende Abschlussformen des Werkvertrags
   (schriftlich, mündlich, durch Handeln) samt empfohlenem Vorgehen bei grösseren Bauarbeiten.
   Kleiner Einzelpunkt, gehört beim Abarbeiten von N62-1 mit erledigt.
-- [ ] **N64-5 — «Dicke Dach» in Figur 8 (S. 53) ist nicht normativ gesichert.** Das Segment ist
-  als eigenes Höhenmass zwischen H DG und First eindeutig ablesbar, und die Konsequenz für das
-  GV (bis Dachaussenhaut) ist damit belegt. Ob das Mass selbst normativ fixiert oder illustrativ
-  ist, und worauf sich «H DG» als Referenzlinie bezieht, geht aus den Figurenseiten nicht hervor.
-  Für die Grobkosten-Praxis genügt der belegte Teil; für einen Streitfall wäre der französische
-  oder italienische Normteil als Kontrolltext beizuziehen.
+- [x] **N64-5 — BEANTWORTET (Run 65, 29.08.2026), Kontrolltext d/f/i gefahren.** Der französische
+  (Ziff. 5, S. 28-29) und der italienische Normteil (Ziff. 5, S. 42-43) sind **wortgleich knapp**
+  wie der deutsche; keine der drei Fassungen nennt eine Höhen-Messregel, den Anhang oder die
+  Figur 8. Weder «Dicke Dach» noch «H DG» stehen in der alphabetischen Begriffsliste (S. 4) oder
+  in der Anhang-Legende (S. 44-45), und «Dicke Dach» ist als **einziges** Segment nicht mit «H»
+  präfigiert, also als Bauteildicke und nicht als Geschosshöhe benannt.
+  **Antwort: die Höhenbeschriftung ist illustrativ, nicht normativ kodifiziert.** Normativ trägt
+  der **eingefärbte Umriss**, und der ist in allen drei Sprachfassungen derselbe. Das entwertet
+  den Run-64-Befund nicht, sondern stellt ihn auf die tragfähigere Grundlage: die praktische Folge
+  (GV bis Dachaussenhaut) bleibt, ihre Begründung wechselt vom Massstrang zum Umriss — was
+  zugleich erklärt, warum Massstrang und Farbfläche am Fusspunkt auseinanderlaufen (siehe N65-2).
+  Teilfrage **offen geblieben**: worauf sich «H DG» bezieht (Fussboden-Oberkante oder Rohdecke),
+  gibt keine der drei Fassungen her — für die Praxis folgenlos, solange nach dem Umriss
+  aufgemessen wird; steht als offener Punkt im Destillat.
 
 
 ## Wissens-Chef Run 46 (28.08.2026) — Cross-KB-Eingang
@@ -6277,3 +6298,73 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   `normen`:** ob ein Statuswechsel an einem Destillat mit bekannter Konsumentenliste künftig eine
   Benachrichtigungspflicht auslöst — heute trägt der Wechsel keine, und die Konsumentenliste lag
   bereits vor.
+
+## Run 65 (MacBook Pro, 29.08.2026) — Refuter-Runde auf SIA 416:2003, N64-2 und N64-5 erledigt
+
+- [ ] **N65-1 — Ein Lauf-Report, der Befunde nur zählt, bewahrt sie nicht. Vorschlag für eine
+  Methodik-Pflicht, Entscheid bei Raphael.** Run 64 meldete «12 Kernlücken, **18 Nebenlücken**»
+  und führte eine Summentabelle je Abschnitt. Die 18 Nebenbefunde sind **nirgends einzeln
+  festgehalten** — nicht im Report, nicht in `training/`, nicht im Destillat. Sie existierten nur
+  in den Rückgabetexten der Agenten und sind mit deren Sitzung verfallen. Der Folgeauftrag N64-1
+  («einarbeiten, sie stehen vollständig im Report») war damit von Anfang an nicht ausführbar, und
+  das fiel erst einen Lauf später auf.
+  **Vorgeschlagene Fassung:** *Ein Befund gilt erst als festgehalten, wenn er einzeln und mit
+  Fundstelle in einer dauerhaften Datei steht — im Destillat, wenn er eingearbeitet wird, sonst in
+  einer `training/`-Anlage. Eine Zahl im Report ist eine Messung, kein Protokoll. Was ein Lauf
+  bewusst auf später verschiebt, verschiebt er nur, wenn er es vorher aufgeschrieben hat.*
+  **Warum das mehr ist als Buchhaltung:** die Kosten fallen doppelt an. Die Arbeit, die Befunde zu
+  finden, ist bereits bezahlt; sie zu verlieren heisst, sie ein zweites Mal bezahlen zu müssen. Und
+  ein offener Punkt mit unbekanntem Inhalt blockiert die Statusentscheidung, ohne dass jemand sagen
+  kann, wie schwer er wiegt. Verwandt mit Methodik-Pflicht 6 (messen statt schätzen) und mit
+  Eintrag 260805 der Rule `auto-verbesserungen` (ein Laufbericht ist kein Meldekanal) — dieselbe
+  Familie, hier nach innen gerichtet. **Nicht selbst als Pflicht gesetzt**; die bisherigen
+  Methodik-Pflichten wurden alle von Raphael freigegeben (zuletzt MP 13 am 17.08.2026).
+
+- [ ] **N65-2 — Methodik-Pflicht 13 erzeugt in ihrer wörtlichen Lesart einen Regress. Auslegung
+  erbeten.** MP 13 sagt: «Ein Destillat wird nicht auf `established` gehoben, solange nicht beide
+  Richtungen auf **allen seinen Teilen** gelaufen sind.» Liest man «Teile» als Textbestandteile des
+  **Destillats**, kann **kein** Destillat je gehoben werden: jeder Lauf, der die zweite Richtung
+  fährt, schreibt dabei neue Absätze, und die tragen dann wieder nur eine Richtung. Genau dieser
+  Fall liegt hier vor — Run 65 hat die Refuter-Richtung vervollständigt und dabei vier neue Blöcke
+  erzeugt.
+  **Die tragfähige Lesart ist «alle Teile der QUELLE»**, nicht des Destillats: beide Richtungen
+  müssen jeden Abschnitt des Originals einmal getroffen haben. Nach dieser Lesart ist der Zustand
+  für SIA 416:2003 seit diesem Lauf erreicht. Der Status wurde hier trotzdem **nicht** gehoben,
+  aber aus drei anderen, benannten Gründen (Q&A auf dem Anhang nie gelaufen, Fundstellen-Richtung
+  nie gelaufen, drei Methoden mit drei Ausbeuten) — nicht wegen des Regresses. Die Frage ist
+  deshalb sauber trennbar und sollte entschieden werden, bevor sie an einem Destillat entscheidet,
+  bei dem es knapp ist.
+
+- [ ] **N65-3 — Q&A-Runde auf dem Figurenanhang SIA 416 S. 44-57.** Die einzige der drei
+  etablierten Prüfrichtungen, die dort nie gelaufen ist; die Q&A-Runde vom 15.07.2026 deckte nur
+  S. 1-15 ab. Zugleich liegen im Anhang inzwischen die praktisch folgenreichsten Aussagen des
+  Destillats (Umfang des GV, AGF/UF-Abgrenzung, Legendencode). Nächster Arbeitsgegenstand an
+  diesem Destillat, kein Fremdbedarf.
+
+- [ ] **N65-4 — Der Grobformel-Rechenweg im Agenten `volumen-rechner` unterschätzt das GV
+  systematisch. Kein Eingriff vorgenommen.** `agents/volumen-rechner.md` Z. 39 rechnet
+  «**Volumen (m3, SIA 416)** ≈ Baufeld-Grundfläche × Geschosse × Geschosshöhe». Nach dem in diesem
+  Lauf am Original belegten Umriss der Figur 8 fehlen darin **die Dachkonstruktion bis zur
+  Aussenhaut** und **die unterste Konstruktion samt normalen Fundamenten** — beide zählen zum GV.
+  Die Formel weicht damit **einseitig nach unten** ab, und zwar bei geneigten Dächern spürbar; sie
+  trägt aber das Etikett «SIA 416», das Normkonformität nahelegt. Umgekehrt enthält sie **nicht**
+  den Fehler in der Gegenrichtung: Dachüberstand und Balkonplatten kommen darin gar nicht vor, was
+  zufällig richtig ist.
+  **Nach Methodik-Pflicht 10 korrekt formuliert:** der Agent hatte eine bewusste Näherung, neu ist
+  die Kenntnis ihrer Richtung — nicht «der Agent rechnete falsch». **Bewusst nicht selbst
+  korrigiert**, weil die Quelle `speculative` ist und aus einem Entwurf keine Änderung an einem
+  Fach-Agenten gebaut werden soll (vorgeschlagene Methodik-Pflicht 11, nicht verbindlich, hier als
+  gute Praxis befolgt). Vorzulegen: ob die Formel um einen Dachterm ergänzt oder ihre Näherung
+  ausdrücklich als «ohne Dach- und Fundamentvolumen, tendenziell zu klein» deklariert wird.
+
+- [ ] **N65-5 — Der Statuswechsel `sia-416-2003` hat die Konsumenten wieder nur teilweise
+  erreicht — diesmal im eigenen Haus.** N46-3 hatte am 28.08.2026 festgehalten, dass der Wechsel
+  `established` → `speculative` die zwölf bekannten Konsumenten nicht erreichte. In Run 65 zeigte
+  sich, dass auch der **eigene** Querschnitts-Artikel `wiki/synthese-sia-vkf-fachskills.md` den
+  Vorbehalt noch nicht trug, obwohl er das Destillat im Frontmatter als Quelle führt und selbst auf
+  `established` steht. Der Vermerk ist in diesem Lauf gesetzt (Abschnitt 3, inkl. der beiden
+  seither dazugekommenen Ergänzungen). **Damit tragen jetzt fünf inline gesetzte ⚠-Vorbehalte in
+  diesem einen Artikel** — vier aus N63-3, einer neu. Das verstärkt N63-3: der Artikel braucht die
+  Durchsicht, nicht weitere Einzelvermerke. Die Frage aus N46-3, ob ein Statuswechsel bei bekannter
+  Konsumentenliste eine Benachrichtigungspflicht auslösen soll, bleibt unverändert offen und
+  gewinnt hier einen zweiten Beleg.

@@ -1,3 +1,47 @@
+## 2026-08-29 (Normen-Nacht Run 65) — Refuter-Runde auf SIA 416:2003; N64-2 und N64-5 erledigt
+
+Die von Run 64 offen gelassene **zweite Prüfrichtung** auf dem Rang-1-Destillat der
+N62-3-Kandidatenliste. Sechs parallele Refuter-Agenten (Vorwort/Ziff. 0 · Ziff. 1-3 · Ziff. 4 inkl.
+Matrix · Ziff. 5-6 · Figuren 1-7 · Figuren 8-12), alle Kernbefunde vom Hauptprozess am Original
+nachgeprüft (eigene Renderings, Präfix `hauptprozess-r65-`, Methodik-Pflicht 5).
+
+**Ergebnis: 51 Behauptungen geprüft, 1 widerlegt, 4 eingeschränkt, kein einziger falscher Zahlenwert.**
+
+- `destillate/sia-416-2003.md` (135 → 161 Zeilen, keine Überschrift entfernt): **Widerlegung inline
+  korrigiert** (Methodik-Pflicht 9) — Ziff. 0.2 stand als unbedingte Pflicht («Teilflächen **immer**
+  mit übergeordneten darstellen»), die Norm formuliert **bedingt und als Soll-Vorschrift**. Neuer
+  Abschnitt «Wie weit das GV reicht» mit **zwei neuen Kernbefunden**: Dachüberstand und auskragende
+  Balkonplatten sind in Figur 8 unkoloriert, zählen also **nicht zum GV**, sondern zum AKV nach
+  Ziff. 6 — im Bild abgelesen und am Normtext gegengeprüft, beide Quellen sagen dasselbe. Dazu die
+  Berichtigung des Run-64-Befundes: **der eingefärbte Umriss, nicht der Höhen-Massstrang, definiert
+  den Umfang** (beide laufen am Fusspunkt auseinander — unterstes H-Segment endet an der UK
+  Bodenplatte, das gespreizte Fundament darunter ist eingefärbt). Legendencode als **nicht
+  durchgehend** präzisiert: aussen existiert **kein «ANNF»**, volumenseitig ist nur KV↔AKV gepaart.
+  Oberbegriff **NF** (Ziff. 2.1.1) im Begriffsteil ergänzt. Prüfstand-Tabelle um die Refuter-Spalte
+  erweitert; **Status bleibt `speculative`**, mit drei benannten Gründen statt einem Gefühl.
+- `wiki/synthese-sia-vkf-fachskills.md`: ⚠-Quellenvorbehalt in Abschnitt 3 gesetzt — der Artikel
+  führt SIA 416:2003 als Quelle und stand seit dem Statuswechsel vom 28.08. ohne Vermerk (N65-5,
+  zweiter Beleg zu N46-3). Die beiden neuen Ergänzungen sind dort benannt.
+- `wiki/QUESTIONS.md`: **N64-5 beantwortet** (Kontrolltext d/f/i: alle drei Fassungen wortgleich
+  knapp, «Dicke Dach»/«H DG» fehlen in Begriffsliste und Anhang-Legende → Höhenbeschriftung ist
+  illustrativ, normativ trägt der Umriss). **N64-1 berichtigt** — der Punkt war nicht abarbeitbar:
+  die 18 Nebenbefunde stehen im Run-64-Report nur als Zahl, nicht einzeln, und eine `training/`-
+  Anlage existiert nicht; sie sind verloren. Neu N65-1 bis N65-5.
+- `destillate/INDEX.md`, `training/norm-inventar.md` nachgeführt.
+
+**Was der Lauf methodisch zeigt.** Auf denselben Seiten, auf denen die Abdeckungsrichtung 12
+Kernlücken hob, fand die Refuter-Richtung **eine** Widerlegung und keinen falschen Wert — und diese
+eine ist genau die von Methodik-Pflicht 13 vorhergesagte Klasse (weggelassene Bedingung, Restregel
+überdehnt). Die beiden Richtungen sind keine Konkurrenten, sie messen verschiedene Fehlerklassen.
+
+**Zwei Punkte für Raphael, nicht selbst entschieden:** N65-1 (ein Report, der Befunde nur zählt,
+bewahrt sie nicht — Vorschlag für eine Methodik-Pflicht) und N65-2 (Methodik-Pflicht 13 erzeugt
+wörtlich gelesen einen Regress; die tragfähige Lesart ist «alle Teile der Quelle», nicht des
+Destillats). Ferner N65-4: der Grobformel-Rechenweg in `agents/volumen-rechner.md` unterschätzt das
+GV systematisch — **bewusst nicht selbst geändert**, weil die Quelle `speculative` ist.
+
+Lauf-Report: `outputs/2026-08-29_normen-nacht-run65.md`
+
 ## 2026-08-28 (Wissens-Chef Run 46) — die Korrigenda SIA 380/1-C1:2019 war in dieser KB nicht angekommen
 
 Cross-KB-Befund, additiv geheilt: **drei Stellen** führten den Fassungsstand der SIA 380/1 ohne die

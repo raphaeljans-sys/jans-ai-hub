@@ -225,6 +225,17 @@ wichtigste Unterschied zwischen den drei Ordnungen.
 
 ## 3. Skills `flaechen-nachweis` / `wettbewerb` / `machbarkeit` — SIA 416:2003
 
+⚠ **Quellenvorbehalt, gesetzt 29.08.2026 (Normen-Nacht Run 65).** Die Quelle dieses Abschnitts,
+`destillate/sia-416-2003.md`, steht seit dem 28.08.2026 auf **`status: speculative`** (Run 64,
+erste Abdeckungsrunde: 12 Kernlücken bei null falschen Werten; Run 65, Refuter-Runde: eine
+Widerlegung). Die Aussagen unten sind am Original geprüft und, soweit hier wiedergegeben, nicht
+beanstandet — der Abschnitt wurde in beiden Läufen gegengelesen. **Zwei Ergänzungen sind seither
+im Destillat dazugekommen und stehen unten noch nicht:** (a) im Aussenbereich kennt die Norm
+**kein «ANNF»** — Balkon, Terrasse und Dachgarten sind alle ANF, eine Haupt-/Nebennutzungs-
+Unterscheidung ist aussen nicht ausweisbar; (b) das **GV endet an der Aussenwandflucht** —
+Dachüberstand und auskragende Balkonplatten zählen nicht dazu, sie sind AKV nach Ziff. 6.
+Vor einem tragenden Zitat aus diesem Abschnitt das Destillat beiziehen.
+
 ### 3.1 Der Geltungsbereich-Riegel (immer zuerst zitieren)
 
 | Thema | Norm + Ausgabe | Ziffer/Artikel | Kernaussage |
