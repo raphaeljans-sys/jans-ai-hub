@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.08.2026 11:04:20
+Stand: 28.08.2026 11:14:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 11:04:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6a5a91db9 wissen/projekt-lessons: Bestandsstandard Beschlaege via Unternehmerdokumentation (Fall 2619 KISPI Jegen)
+- e2397791d wissen/projekt-lessons: Umlaute korrigiert im Report Bestandsstandard Beschlaege
