@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.08.2026 09:11:18
+Stand: 28.08.2026 09:21:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 09:11:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d1456b7e0 hub-chef 28.08.2026: Tagesbriefing gesendet (08:56), 2 Kalendereintraege A2, Tuer-ID-Restpunkt-Entwurf A3, 3 Registernachtraege, WEGE-Nachtrag Mail/Kalender
+- 0d304729e nas-selfcommit: 4 Datei(en) 2026-08-28 09:15
