@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 09:53:16
+Stand: 28.08.2026 10:13:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 09:47)
@@ -12,4 +12,4 @@ Stand: 28.08.2026 09:53:16
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 80291f302 heartbeat: fehlenden Erreichbarkeits-Check gebaut (Tailscale, Rule 260824) + Doku nachgezogen
+- 8ca6ddc9a nas-selfcommit: 2 Datei(en) 2026-08-28 10:00
