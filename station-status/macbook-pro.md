@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 18:27:27
+Stand: 28.08.2026 18:37:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 18:27)
+- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 18:29)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 18:27:27
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 6d45b2a11 nas-selfcommit: 4 Datei(en) 2026-08-28 18:15
+- 4f6e25237 wissen/grobkosten: belegte Kennwerte EI30-Schiebetueren mit Fluchttuere (Berchtold WV KISPI 2020, Jegen Umbau 2026)
