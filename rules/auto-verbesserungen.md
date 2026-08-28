@@ -38,7 +38,9 @@ zuerst.
   wird, ist praktisch kein Befund. Die Prefs zeigten `WantRunning: false` bei
   `LoggedOut: false` — abgeschaltet, nicht abgestürzt; deshalb half keine der korrekt gesetzten
   Optionen («VPN On Demand → Always», «Launch at login» setzen `WantRunning` nicht zurück).
-  Gegenmassnahmen: `scripts/tailscale-waechter.sh`, `heartbeat` Check 15,
+  Gegenmassnahmen: `scripts/tailscale-waechter.sh`, `heartbeat`-Check «Erreichbarkeit»
+  (der 9. Check; als «Check 15» war er hier bis zum 28.08.2026 vorweggenommen, gebaut wurde
+  er erst am 28.08. — die Nummer stammte aus einer Planung, nicht aus dem Script),
   `templates/launchd/ch.jans.tailscale-waechter.plist`. Chronik: `betrieb-chronik.md` 260824c.
 - **Gilt für:** alle Loops, Radare, Watchdogs und Sessions, die Betriebszustände erheben; alle
   Stationen. Präzisiert Eintrag 260803 (Sende-Schwelle) und 260805 (Register statt Laufbericht).

@@ -19,6 +19,43 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260828 — Der fehlende `heartbeat`-Check ist gebaut: «laeuft» und «ist erreichbar» sind jetzt zwei Messungen
+
+Rule `auto-verbesserungen` 260824 und CLAUDE.md fuehrten seit dem 24.08. einen «heartbeat Check 15»
+als bestehende Gegenmassnahme gegen den Vier-Tage-Ausfall vom 20.-24.08.2026. **Den Check gab es
+nicht.** Der Nachtrag vom 25.08. im Fristen-Register hatte das bereits gemessen (`grep -i tailscale
+scripts/heartbeat.sh` = null Treffer, acht Checks, letzter Commit `50f4553a9` vom 13.08. und damit
+elf Tage **vor** dem Ausfall) und eine fertig gepatchte Fassung im Scratchpad hinterlegt — geschrieben
+wurde sie nie, weil der Auto-Mode-Klassifikator den Schreibzugriff blockierte und das Scratchpad
+sessiongebunden ist. Am 28.08. war das Script unveraendert: derselbe Commit vom 13.08.
+
+**Gebaut in diesem Lauf** (`heartbeat-daily`, MacBook Pro, 09:4x), 58 Zeilen hinzugefuegt, 2 geloescht;
+beide Loeschungen sind belegte Zeilenersetzungen (Warnungs-Logik, JSON-Block), kein Datenverlust
+(Rule 260811 gegen ein Backup nachgemessen). Der Check misst **getrennt**, was 260824 getrennt
+verlangt: Daemon laeuft · Peer-Station im Tailnet erreichbar · Waechter installiert. Er setzt
+`WARNINGS`, nicht `CRITICAL_FAIL` — ein fehlender Fernzugang ist ein Befund, aber er darf den
+Gesamtstatus nicht so rot faerben, dass die kritischen Checks untergehen. Ausgabe in beiden Modi
+(Text und `--json`, JSON auf Validitaet geprueft).
+
+**Abweisungspfad in fuenf Szenarien getestet** — eine Schutzmechanik, die nie «nein» sagt, sieht im
+Log aus wie eine, die funktioniert (dieselbe Lehre wie beim Schutzmechanik-Selbsttest daneben):
+Peer online → gruen; **Peer offline, also der reale Ausfall vom 20.-24.08. → rot**; Daemon gestoppt
+→ rot; Peer fehlt ganz → rot; und die Fremdstation `macbook-pro-von-revendo` zaehlt dank `grep -w`
+**nicht** faelschlich als Peer `macbookpro`.
+
+Zwei Lehren, beide schon bekannt und hier erneut belegt:
+1. **Eine dokumentierte Gegenmassnahme ist keine Gegenmassnahme** (Familie 260807). Sie stand in
+   zwei Rules und in CLAUDE.md, vier Tage nach dem Vorfall, und existierte im Code nicht.
+2. **Ein Fund, der nur im Scratchpad liegt, ist verloren.** Die Arbeit vom 25.08. war fertig und
+   getestet; weil sie an einer Berechtigungsgrenze hing und nur als Pfad im Register vermerkt war,
+   musste sie am 28.08. neu gebaut werden. Was ein Klassifikator blockiert, gehoert als fertiger
+   Befehl oder als Patch **in den Repo-Baum**, nicht in ein sessiongebundenes Verzeichnis.
+
+Verweise auf «Check 15» in `auto-verbesserungen.md` und in dieser Datei (Z. 411) im selben Lauf auf
+den tatsaechlichen Namen «Erreichbarkeit» korrigiert; die Nummer stammte aus einer Planung, nicht
+aus dem Script. **Unveraendert offen bleibt Punkt 2:** der launchd-Job `ch.jans.tailscale-waechter`
+ist auf keiner Station geladen — Persistenz-Klasse, Aktion Raphael (Rule `interaktive-eingriffe`).
+
 ## 260826b — Der Tailscale-Waechter war nie installiert, und seine Reboot-Warnung war toter Code
 
 Befund des heartbeat-Laufs vom 26.08.2026 09:40 (MacBook Pro), beim Abarbeiten der Checks 7 bis 16.
@@ -408,7 +445,9 @@ und der LAN lief (0.4 ms). **Frisch und gleichzeitig unerreichbar** — genau di
   unauffälligerer Form ist. Sende-Politik: Selbstheilung still (Log + Stamp), Heilung
   fehlgeschlagen → Mail als P1, Gegenstelle offline → Mail. Mailweg samt Entwurfs-Zählung aus
   `stationen-watchdog.sh` übernommen.
-- `heartbeat` Check 15 — trennt «erreichbar» als eigene Frage von Check 13 («läuft»).
+- `heartbeat`-Check «Erreichbarkeit» — trennt «erreichbar» als eigene Frage von «läuft».
+  ⚠ Hier bis zum 28.08.2026 als «Check 15» geführt, ohne dass er existierte; gebaut und in
+  fünf Szenarien getestet am 28.08.2026 (heartbeat-daily), siehe Eintrag 260828.
 - `templates/launchd/ch.jans.tailscale-waechter.plist` — 300 s, `RunAtLoad`, reiner lokaler
   Statusabruf, keine Claude-Session, kein Kontingentverbrauch, kein Taktgeber.
 - Rule `auto-verbesserungen` 260824 — Erreichbarkeit von aussen ist P1, nicht Hub-Intern.
