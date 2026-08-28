@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 07:29:19
+Stand: 28.08.2026 07:39:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:20)
@@ -12,4 +12,4 @@ Stand: 28.08.2026 07:29:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9808bc0f4 vollgas-fruehwarnung 28.08.2026: Rohmessung + Bewertung, still beendet (kein Meldekriterium)
+- c722bafae nas-selfcommit: 2 Datei(en) 2026-08-28 07:30
