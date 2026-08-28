@@ -1,9 +1,8 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 11:56:39
+Stand: 28.08.2026 12:06:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/ausgussbecken/plangrundlagen/67c545  (letzte Aktivitaet 11:31)
 - Developer/jans/ai/hub//claude/worktrees/kwc/sirius/bs302/kispi/cd9dd1  (letzte Aktivitaet 11:56)
 
 ## Laufende Arbeits-Prozesse
@@ -13,4 +12,4 @@ Stand: 28.08.2026 11:56:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3770a7ed2 nas-selfcommit: 4 Datei(en) 2026-08-28 11:45
+- 2e87f9636 nas-selfcommit: 2 Datei(en) 2026-08-28 12:00
