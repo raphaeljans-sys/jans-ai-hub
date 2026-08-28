@@ -53,6 +53,22 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-29 00:57 — [FREI] **Regellauf ohne Befund: Fenster frei in 7 s, zehn KBs mit Liefer-Delta, alle Loops gesund.** Die Kontingent-Reserve wächst zum sechsten Mal in Folge (-37.4 Punkte). Der P3 vom 28.08. (Wildcard-Allowlist-Regel) steht unverändert und hat sich in dieser Probe erneut selbst gemeldet.
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 28.08. 12:57, dieser 29.08. 00:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke; `lastRunAt` des eigenen Tasks steht auf 28.08. 22:57 UTC und ist dieser Lauf, der zweite Ausfalltyp war also nicht zu prüfen.
+
+**Fensterzustand [FREI].** Probe über die app-gebündelte CLI, weiterhin **2.1.246**: «OK», rc=0, in **7 Sekunden**. Reihe stabil im einstelligen Bereich: 5 s (26.08. 12:57) · 5 s (27.08. 00:57) · 6 s (27.08. 12:57) · 6 s (28.08. 00:57) · 7 s (28.08. 12:57) · 7 s (jetzt). Keine Waisen (`ps` auf `claude -p` leer). Speicher unauffällig: Druckstufe 1 (normal), rund 7.6 GB frei+inaktiv.
+
+**Wochenbudget: 45.91 von 167 Mio teuer, 27.5 % bei 64.9 % verstrichener Woche — Ampel FREI, Vorsprung -37.4 Punkte.** Die Reserve wächst zum sechsten Mal in Folge und diesmal wieder deutlich (-33.4 → -37.4). Stationen: MacBook Pro 35.99 Mio, Mac Mini 9.92 Mio, beide Stationsdateien frisch. Die Woche läuft klar unter Plan; der stehende Entscheid «gleichmässig über die Woche» ist eingehalten, eine Drossel ist nicht angezeigt und keine Lern-Task steht wegen Kontingent auf `enabled=false`.
+
+**Liefer-Delta (git-gemessen seit dem 28.08. 12:57, Basis `861797d1`): zehn KBs geliefert** — energie 16 Dateien, normen 5, koordination 5, baurecht 4, projekt-lessons 3, immobilienbewertung 2, grobkosten 2, architekten-synobsis 2, bauprodukte 1, tools 1. Das ist der breiteste Delta seit dem 26.08. (damals fünf KBs). Substanz der Nacht, an den Commit-Titeln ablesbar: `energie` Run 166 (Begleitdokument-Lücke geschlossen, SIA 380/1-C1:2019 destilliert, Zielwert 60→70 %), `wissens-chef` Run 46 (Art. 45 EnG Fedlex-verifiziert, Phantom-BKP-Code 274.01 berichtigt, Statuswechsel sia-416-2003 an 12 Konsumenten kommuniziert), Synergie-Lauf 21 (SYN-56 bis SYN-58), `tenant-hygiene` (885.18 GB / 83.98 %, Restlaufzeit 52 Tage), Grobkosten-Kennwerte EI30-Schiebetüren. 59 Commits in 14 h. Kein Loop mit Delta Null, kein Rücktakt-Kandidat.
+
+**Feuermechanismen: unverändert korrekt.** MacBook Pro — `ch.jans.vollgas-supervisor` und `ch.jans.vollgas-monitor` weiterhin als `*.disabled-260729` abgelegt und nicht geladen. Mac Mini — `ch.jans.vollgas-supervisor` ebenfalls disabled, `ch.jans.nachtschicht` geladen und mit Status 0 gesund. Registry MacBook: 34 Tasks, keine Abweichung zum Sollstand, kein Loop doppelt gefeuert. Der stehende Entscheid vom 30.07. («nicht wieder beleben») bleibt unangetastet.
+
+**P3 (unverändert, keine Eskalation): Wildcard-Allowlist-Regel in `.claude/settings.local.json`.** Claude Code meldet die Regel bei jedem Lauf erneut selbst, diesmal im Ausgabestrom der Fensterprobe: eine `Bash(sed 's|.*/500 Invest/||' …tool-results/bwjaoq471.txt)`-Erlaubnis trägt ihr `*` **vor** dem Rest des Befehls und genehmigt damit auch eingeschobene Optionen ohne Rückfrage. Sie zeigt auf eine einzelne, vergängliche Tool-Result-Datei einer Session vom Sommer und hat keinen Nutzen mehr. Das Aufräumen ist ein Eingriff in die Berechtigungskonfiguration und damit kein Radar-Geschäft — Vorschlag an den Hub-Chef bzw. an Raphael: Regel ersatzlos streichen. Kein Sendegrund nach Rule `auto-verbesserungen` 260803 (Hub-Internum ohne Aussenwirkung).
+
+**Massnahmen: keine.** Regellauf, 12 Werkzeugaufrufe inline in vier parallelen Blöcken, keine Delegation (Faustregel < 10 Aufrufe → inline; die Grenze war knapp überschritten, der Kontextneuaufbau eines Subagenten hätte sich für vier Messbefehle trotzdem nicht gelohnt). Keine Mail.
+
 ## 2026-08-28 12:57 — [FREI] **Regellauf ohne Befund: Fenster frei in 7 s, fünf KBs mit Liefer-Delta, alle Loops gesund.** Die Kontingent-Reserve wächst zum fünften Mal in Folge (-33.4 Punkte), der Zuwachs flacht aber ab. Neuer P3: eine Wildcard-Allowlist-Regel in `settings.local.json`, von Claude Code selbst gemeldet.
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 28.08. 00:57, dieser 28.08. 12:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke; `lastRunAt` des eigenen Tasks steht auf 28.08. 10:57 UTC und ist dieser Lauf, der zweite Ausfalltyp war also nicht zu prüfen.
