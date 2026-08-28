@@ -53,6 +53,42 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-28 12:57 — [FREI] **Regellauf ohne Befund: Fenster frei in 7 s, fünf KBs mit Liefer-Delta, alle Loops gesund.** Die Kontingent-Reserve wächst zum fünften Mal in Folge (-33.4 Punkte), der Zuwachs flacht aber ab. Neuer P3: eine Wildcard-Allowlist-Regel in `settings.local.json`, von Claude Code selbst gemeldet.
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 28.08. 00:57, dieser 28.08. 12:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke; `lastRunAt` des eigenen Tasks steht auf 28.08. 10:57 UTC und ist dieser Lauf, der zweite Ausfalltyp war also nicht zu prüfen.
+
+**Fensterzustand [FREI].** Probe über die app-gebündelte CLI, weiterhin **2.1.246**: «OK», rc=0, in **7 Sekunden**. Reihe unverändert stabil: 5 s (26.08. 12:57) · 5 s (27.08. 00:57) · 6 s (27.08. 12:57) · 6 s (28.08. 00:57) · 7 s (jetzt). Keine Waisen (`ps` auf `claude -p` leer).
+
+**Speicherdruck von 1 auf 2 gestiegen — beobachten, nicht handeln.** `kern.memorystatus_vm_pressure_level: 2` gegenüber 1 in den letzten Läufen; `vm_stat` zeigt 3'478 freie und 214'838 inaktive Seiten, also rund 3.5 GB tatsächlich verfügbar. Level 2 ist der normale Arbeitszustand einer aktiv genutzten Station und kein Engpass; die Station wird gerade interaktiv benutzt (zwei Commits um 10:59 und 11:11). Erwähnt, damit die Reihe fortgeschrieben wird — steigt sie auf 3 oder fällt der verfügbare Speicher unter 1 GB, ist das ein eigener Befund.
+
+**Die Homebrew-Wedge steht seit sechs vollen Tagen.** `/opt/homebrew/bin/claude` zeigt unverändert auf **2.1.231** (Symlink vom 22.08. 05:15), das Caskroom führt keine neuere Fassung. Die PATH-Probe wurde erneut gar nicht erst versucht. Der Rückfallweg trägt weiterhin ohne einen einzigen Ausfall.
+
+**Feuermechanismen: alle drei Orte stimmen, beide Registries geprüft.** (i) Registry MacBook Pro: jeder aktive Task mit frischem `lastRunAt` — `normen-training-nacht` 01:27, `twin-mail-training` 03:39, `twin-fidelity-review` 05:44, `konversations-log` 06:13, `logbuch-radar` 06:54, `vollgas-fruehwarnung` 07:15, `ag-gruendung-monitor` 07:46, `mahnwesen-verzugscheck` 08:05, `zahlungsabgleich-check` 08:22, `hub-chef-taeglich` 08:39, `heartbeat-daily` 09:40. Keine ausgefallene; `synergie-lauf-taeglich` (nextRunAt 17:09) und `tenant-hygiene-weekly` (20:07) stehen noch aus und sind nicht überfällig. (ii) Registry Mac Mini per `ssh mini`: **acht** Tasks, exakt der dokumentierte Sollstand, unverändert. (iii) launchd: `ch.jans.vollgas-monitor` und `ch.jans.vollgas-supervisor` liegen auf beiden Stationen als `*.disabled-260729` und sind nicht geladen; auf dem Mac Mini ist `ch.jans.nachtschicht` geladen mit **Exit 0**. Der stehende Entscheid vom 30.07. («nicht wieder beleben») ist gewahrt. Kein Loop wird doppelt gefeuert.
+
+**Liefer-Delta über die letzten 13 h, gemessen per `git diff --name-only` gegen die Basis** (nicht per `find -newermt`, Werkzeug-Falle vom 20.08.): `twin` 11 Dateien · `normen` 7 · `projekt-lessons` 2 · `architekten-synobsis` 2 · `spec` 1 — **fünf KBs**. Dazu Register- und Regelpflege (`logbuch/fristen.md`, `logbuch/LOGBUCH.md`, `connectors/WEGE.md`, `rules/auto-verbesserungen.md`, `rules/betrieb-chronik.md`, `rules/jans-dna-facetten.md`) und ein Script-Bau (`scripts/heartbeat.sh`). 62 Commits im Fenster, der Grossteil `nas-selfcommit`.
+
+Die Träger sind acht Läufe: `normen-training-nacht` (01:48, Run 64 mit der ersten Abdeckungsrunde auf SIA 416:2003 — 12 Kern- und 18 Nebenlücken bei null falschen Werten, Status auf `speculative` zurückgestuft), die Mac-Mini-Nachtschicht (02:35, sechs weitere Synobsis-Identitätsfragen), `twin-mail-training` (03:51, Batch 107), `twin-fidelity-review` (05:58, Fidelity 29, erstmals Golds aus Drafts), `konversations-log` (06:18), `logbuch-radar` (07:09, elf Registernachträge), `ag-gruendung-monitor` (07:49), `mahnwesen-verzugscheck` (08:08) und `hub-chef-taeglich` (08:59, Tagesbriefing gesendet). Dazu interaktive Arbeit am Vormittag: der Erreichbarkeits-Check im `heartbeat` (09:46, die am 24.08. als Rule 260824 verlangte Tailscale-Prüfung ist damit gebaut) und ein `projekt-lessons`-Report (10:59/11:11). **Kein Loop auf Delta Null, keine Rücktaktung fällig.**
+
+**Kein `energie`-Delta in diesem Fenster, und das ist korrekt.** Der letzte Eintrag führte `energie` mit 14 Dateien als grössten Posten; er fehlt jetzt vollständig. Grund ist der Messschnitt, nicht ein Ausfall: `energie-training` feuert auf dem Mac Mini gegen 22:37 und liegt damit **vor** der Fensterbasis 00:00. Der Lauf ist im Eintrag von 00:57 bereits verbucht. Vermerkt, weil ein fehlender Spitzenreiter beim nächsten Lesen sonst wie eine Stilllegung aussieht.
+
+**Sparsamkeit:** Regellauf inline gefahren, ohne Subagent, in einem parallelen Messblock — knapp über zwanzig Werkzeugaufrufe, deutlich unter der 60-Turn-Erklärungsschwelle.
+
+### P2 — Die Kontingent-Reserve wächst zum fünften Mal in Folge, der Zuwachs flacht aber ab
+
+`kontingent-budget.sh --json`: Ampel **FREI**, 40.6 von 167 Mio teuren Token = **24.3 %**, bei **57.7 %** verstrichener Woche. Vorsprung **-33.4 Punkte**. Beide Stationsdateien frisch (MacBook Pro 32.49 Mio, Mac Mini 8.14 Mio, 0.0 bzw. 0.4 h alt).
+
+Die Reihe der letzten fünf Messungen: **-16.3 · -21.3 · -24.9 · -29.8 · -33.4**. Der Trend hält, aber die Zuwächse sind **-5.0 · -3.6 · -4.9 · -3.6** und wachsen nicht weiter — die Schere öffnet sich linear, nicht beschleunigt. Bei Fortschreibung endet die Woche bei rund 42 % des kalibrierten Budgets, praktisch identisch mit der Schätzung von 41 % vor zwölf Stunden. Der Befund ist also stabil und nicht dringlicher geworden.
+
+Einordnung unverändert: die Obergrenze von 167 Mio ist am Limit-Treffer vom 01.08.2026 **kalibriert** und kein von Anthropic ausgewiesener Wert. Belastbar ist allein die Richtung. Der stehende Entscheid vom 03.08. («gleichmässig über die Woche») ist eingehalten; er verbietet die Bündelung auf Montag bis Mittwoch, verlangt aber nicht, unter der Linie zu bleiben. Ob die frei bleibende Kapazität auf eine offene Wissenslücke umgelenkt wird, ist **Raphaels Entscheid** — ein Loop hochzutakten wäre die Gegenrichtung des Leerlauf-Waechter-Auftrags und ohne Anlass ein Eingriff in einen Bestand, der sauber liefert. Kein Eingriff in diesem Lauf, keine Mail (kein P1).
+
+### P3 — Claude Code meldet eine zu weit gefasste Allowlist-Regel in `settings.local.json`
+
+Die Fensterprobe gab neben dem «OK» eine Warnung des CLI selbst aus: eine Permission-Regel in `.claude/settings.local.json` erlaubt einen `Bash(sed …)`-Aufruf mit einem **Platzhalter vor dem restlichen Befehl**. Dadurch deckt die Regel auch Optionen ab, die an dieser Stelle eingeschoben werden, und genehmigt sie ohne Rückfrage. Betroffen ist eine einzelne, offensichtlich einmal automatisch erzeugte Zeile mit einem konkreten Transcript-Pfad.
+
+Das ist ein Hub-Internum ohne Aussenwirkung und damit **kein Sendegrund** nach Eintrag 260803, aber es gehört korrigiert: der Platzhalter ist durch den gemeinten Wert zu ersetzen, oder die Zeile ganz zu streichen, da sie einen längst abgelegten Einzelfall betrifft. `settings.local.json` ist stationslokal und nicht versioniert; die Änderung wirkt nur auf dem MacBook Pro. **Kein Eingriff in diesem Lauf** — eine Permission-Datei anzufassen ist ein Eingriff in die Schutzmechanik, und der Regellauf ist nicht der Ort dafür. Als P3 vorgelegt.
+
+---
+
 ## 2026-08-28 00:57 — [FREI] **Regellauf ohne Befund: Fenster frei in 6 s, sieben KBs mit Liefer-Delta, alle Loops gesund.** Neuer P2: die Kontingent-Reserve wächst zum vierten Mal in Folge, der Verbrauch läuft dem Zeitverlauf um 29.8 Punkte hinterher — bei einem Auftrag, der das Ausschöpfen verlangt.
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 27.08. 12:57, dieser 28.08. 00:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke; `lastRunAt` des eigenen Tasks steht auf 27.08. 22:57 UTC und ist dieser Lauf, der zweite Ausfalltyp war also nicht zu prüfen.
