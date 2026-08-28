@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 20:20:35
+Stand: 28.08.2026 20:41:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/turdr/cker/garnitur/id/777691  (letzte Aktivitaet 20:20)
@@ -13,4 +13,4 @@ Stand: 28.08.2026 20:20:35
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 00dad75a9 tenant-hygiene: Report 28.08.2026 (885.18 GB / 83.98 %, +2.16 GB/Tag, Restlaufzeit 52 Tage)
+- 94670a10a nas-selfcommit: 2 Datei(en) 2026-08-28 20:30
