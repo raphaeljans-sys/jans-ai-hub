@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 07:39:36
+Stand: 28.08.2026 07:49:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:20)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:49)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 07:39:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c722bafae nas-selfcommit: 2 Datei(en) 2026-08-28 07:30
+- 2cdbe81b2 ag-gruendung-monitor: 28.08.2026 — Mail-Monitor blind, osascript-Timeout, UBS-Stand verifiziert
