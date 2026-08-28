@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.08.2026 09:42:07
+Stand: 28.08.2026 09:52:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 09:42:07
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1044bb336 nas-selfcommit: 2 Datei(en) 2026-08-28 09:30
+- 80291f302 heartbeat: fehlenden Erreichbarkeits-Check gebaut (Tailscale, Rule 260824) + Doku nachgezogen
