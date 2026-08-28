@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 07:19:02
+Stand: 28.08.2026 07:29:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:18)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 07:19:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b59dcced9 logbuch-radar 28.08.2026: Radar-Briefing + 11 Registernachtraege (Therapiekueche-Freigabe auf 31.08. vorgezogen, Tuernummern-Restpunkt, Abschottungsplanung, SBB-Stillstand, Steinmann-Ferien, Hostpoint-XSS)
+- 9808bc0f4 vollgas-fruehwarnung 28.08.2026: Rohmessung + Bewertung, still beendet (kein Meldekriterium)
