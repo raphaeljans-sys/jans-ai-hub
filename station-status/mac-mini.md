@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.08.2026 06:06:20
+Stand: 28.08.2026 06:16:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 06:06:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7f2dc8e90 twin-fidelity-review 2026-08-28: Fidelity 29, erstmals Golds aus Drafts (vor-Claude), 3 Marker, Riegel 33952/34000
+- 4dbd32792 nas-selfcommit: 4 Datei(en) 2026-08-28 06:15
