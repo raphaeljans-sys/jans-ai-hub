@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 08:10:27
+Stand: 28.08.2026 08:20:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:50)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 08:10:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 412bc8ecf mahnwesen-verzugscheck 28.08.2026: bexio 401, zwanzigster blinder Tag — Register-Nachtrag + Logbuch
+- 1f58a780c nas-selfcommit: 2 Datei(en) 2026-08-28 08:15
