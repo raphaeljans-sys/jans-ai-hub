@@ -4571,3 +4571,67 @@ Fehlerinsel dieses Fensters, dicht und weiterhin der einzige werkzeugfreie Autor
 «mir Dir», «auf er Baustelle», «Generel», «Leichbauwänden», «Brandschutzkalsse»,
 «Empfang-Seitig ein Zusätzlicher RHS-Pfosten», «Herr Nicklas Rothe Nicklas Rothe»,
 «die jeweilige Koordinaten», «mein Vorschlag für die Termine».
+
+## Batch 107 (27.08.2026) — Rot als Korrekturfarbe, «Es gibt» als Listenkopf, und die erste tragfähige Du-Gross-Messung seit Batch 104
+
+Quelle: `rj@` Sent Items 27.08.2026, 9 Golds (08:12 / 08:30 / 09:15 / 13:46 / 13:49 / 14:35 /
+15:55 / 16:49 / 17:15), Gewichtung **authentisch**. Alle tragen den OWA-Fingerabdruck aus
+Batch 105 (`Aptos,Arial,Helvetica` + `color:rgb(0,0,0)` + ein `<div>` je Zeile), sechs davon
+`ms-outlook-mobile-signature`. Fehlerinsel dicht und unabhängig stützend: «Ich glaube das sich»,
+«im exelfile Direkt», «kannst du … direkt Kontaktieren», «Elektrorasse», «Dar ich Sie Bitten»,
+«Koorsinationssitzung», «Einzuladen», «Ersterller», «zur einarbeitung», «Schulbadenauszüge»,
+«Flucht0.302», «Nicklas Tothe» (im selben Verteiler korrekt «Nicklas Rothe»).
+
+### Mikro-Metrik (9 Golds, 512 Wörter)
+
+```
+woerter: 512        du_formen_total: 11     du_gross_quote: 0.727
+gruesse: {Freundliche Grüsse: 4, Danke und Gruss: 1}      satzlaenge_woerter_avg: 20.5
+anreden: {Hoi zäme: 2, Hoi Michi, Geschätzter Herr, Geschätzter Yasarcan,
+          Geschätzter Nicklas, Geschätzte Alle, Geschätzte Frau}
+tausender_apostroph: 0   ellipsen: 0   prozent: keine Fundstelle
+```
+
+### ⭐ Die Du-Gross-Quote misst hier zum ersten Mal seit Batch 104 wieder etwas
+
+Batch 106 hatte die Kennzahl entwertet, weil sie bei **null** Du-Formen still `0.0` ausgab. Dieser
+Batch trägt **11 Du-Formen in vier Mails** — genug für eine belastbare Messung, und sie fällt
+gegen die DNA-Kernregel aus: **8 gross, 3 klein, Quote 0.727.** Die drei Kleinschreibungen sind
+kein Zufallsstreu, sie sitzen alle im **beiläufigen Angebotssatz**:
+
+- «Wie besprochen für **dich** zur Prüfung» · «**kannst du** die netten Herren auch direkt
+  Kontaktieren» (08:30, an den Elektroplaner)
+- «Aber das Problem kann ich für **Euch** nicht lösen was **euch** wichtiger ist» (13:46) —
+  **beide Formen im selben Satz, erst gross, dann klein.**
+
+Grossgeschrieben sind dagegen ausnahmslos die **Bitte-, Zusage- und Dankformeln**: «Ich bitte
+**Dich** die Unterlagen zu prüfen», «informiere ich **Dich**», «darf ich **Dich** Bitten»,
+«Wie von **Dir** gewünscht», «sende ich **Dir**», «bin ich **Dir** dankbar», «werden von **Dir**
+geliefert» (15:55, 4/4 gross).
+
+Damit ist die Linie aus [[beziehungsregister]] («im schnellen operativen Ton bleibt dich/deiner
+klein») **dritter Beleg und zugleich präzisiert**: der Bruch hängt nicht am Kontakt und nicht am
+Tag, sondern an der **Satzfunktion**, und er läuft mitten durch eine einzelne Mail. Für den
+Zwilling ändert das **nichts** — die Setzung «Du immer gross» ist Raphaels Vorgabe, kein Messwert.
+Was sich ändert, ist die Lesart der Kennzahl: eine Quote unter 1.0 ist **kein** Hinweis auf
+Fremdautorschaft. Vorgelegt als [[QUESTIONS]] 260828 #1.
+
+### Rot als Korrekturfarbe — erster Beleg im Korpus
+
+In der Tür-ID-Klärung (08:12) steht die richtige Nummer schwarz, die falsche eine Zeile darunter
+in **Rot** (`rgb(237,92,87)`), Präfix «Falsch:». Bis hierhin war **Fett** das einzige belegte
+Auszeichnungsmittel (Termine, Betreffzeilen). Farbe tritt hinzu, und zwar nicht dekorativ,
+sondern als **Fehlermarkierung im Wertepaar richtig/falsch**. Zwei Paare, gleiches Schema.
+
+### «Es gibt» — der Listenkopf als Fragmentsatz
+
+Vor der A) B) C) D)-Liste an den Küchenbauer (15:55) steht als einzige Einleitung «**Es gibt**» —
+ohne Objekt, ohne Doppelpunkt, ohne Punkt. Der Satz trägt nichts als das Signal «jetzt kommt die
+Aufzählung». Passt zur belegten Neigung, den Rahmen auf das Nötigste zu kürzen, sobald die
+Substanz in der Liste steht.
+
+### Das Statuswort steht am Zeilenende, allein
+
+Im Protokollkörper (16:49) endet fast jede Zeile auf ein einziges nachgestelltes Statuswort mit
+Punkt: «pendent.» · «erledigt.» · «wurde vollzogen.» · «Hat mit Abbrucharbeiten angefangen.» Kein
+«ist noch offen», kein «befindet sich in Bearbeitung». Der Status ist ein Wort, nie ein Satz.
