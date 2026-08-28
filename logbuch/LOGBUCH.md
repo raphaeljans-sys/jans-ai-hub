@@ -3,6 +3,147 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 28.08.2026 (06:55 bis 07:10, Logbuch-Radar)
+
+**Nicht gemailt, Ein-Mail-Prinzip.** Der Chef-Lauf vom 27.08. hat stattgefunden (Briefing 09:22:35
+an rj@ gesendet, in den Gesendeten belegt), und kein Punkt verlangt Handeln vor 08:39. Der Hub-Chef
+übernimmt diesen Abschnitt in das Tagesbriefing.
+
+**Gelesen wurde über Graph** (Apple Mail antwortet den sechsten Tag nicht): rj@ und mail@ vollständig,
+Posteingang und Gesendete im Fenster 27.08. 07:00 bis 28.08. 06:45, Kalender 28.08. bis 04.09.
+Das Konto raphaeljans@outlook.com bleibt ohne Graph-Weg und ist den vierten Tag ungelesen.
+
+### Erledigt seit gestern
+
+**01 Türnummern Jegen: Du hast selbst entschieden, bevor der Chef schrieb.** Antwort an L. Bajrami
+am 27.08. 08:12 (Cc L. Hiltmann): beide Pläne sind korrekt, die überzählige Ziffer 3 ist ein
+Tippfehler, Bajrami passt im Excel an, Hiltmann prüft mit Schweigefrist gegen. Restpunkt siehe
+Position 06.
+
+**02 Pendenzenliste und Protokoll der Koordinationssitzung sind beim Gremium.** Versand 27.08. 16:49
+an 14 Empfänger, mit der Bitte um sofortige Erledigung aller Pendenzen. Die Liste führt 35 Pendenzen
+(28 offen, 7 in Bearbeitung). MD, DOCX und PDF liegen unter
+~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2619_KINDERSPITAL/03_BKP/LOS_291.00 Architektur JANS/04 Berichte Sitzungen/260827 10 Besprechung/
+und wurden am Original geprüft.
+
+**03 Vorab-Lüftungsplan innerhalb von 19 Minuten geliefert.** Anfrage 28.08. 04:25 an J. Ziegel,
+Antwort 04:44 mit dem Stand der Abstimmung vom 26.08. Es ist der Vorabstand für die Abstimmung mit
+Estermann, nicht der finale Lüftungsplan Brandschutz, den die gestrige Pendenzenliste als
+Prioritätspunkt an DUR und ZIE führt. Der bleibt offen.
+
+**04 Vier Kontakte und Grundlagen weitergeleitet:** TeKoSi an L. Merci, Brandabschottungen AGI an
+M. Spörri, Elektroplanungs-Grundlagen an Y. Cetin, Produktangaben Keramikplättli an Spörri und
+Würsch, dazu die Einladung Bajramis zur Fachplanersitzung.
+
+### Überfällig und heute zu entscheiden
+
+**05 Die Therapieküche muss am Montag, 31.08., in Produktion, nicht am 02.09.** N. Rothe am 27.08.
+15:59: wegen des neuen Montagestarts 05.10. braucht er die Freigabe spätestens Montag. Die im
+Register geführte Frist 02.09. ist damit überholt, heute ist der letzte Arbeitstag davor. Drei
+Entscheide hängen an Dir:
+
+**05.1 Kompost.** Auf den Plänen eingezeichnet, im letzten Angebot nicht mehr enthalten. Fällt er
+weg, oder braucht Rothe einen konkreten Produktvorschlag?
+
+**05.2 Gastroabwasch-Armatur vor dem Fenster.** Darf die Stabilisierungsstrebe mit UV-Leim auf die
+Glasscheibe geklebt werden, oder wird über die Fensterhöhe angepasst? Das ist genau der Punkt, den
+Du am 24.08. als besonders zu prüfen bezeichnet hast, und er betrifft zugleich das Fensterelement,
+also ein zweites Gewerk.
+
+**05.3 Kontrolle des Werkstattplans.** Rothe hat die Anschlüsse und Angaben aus dem eigenen
+Inst-Plan übernommen; die fachliche Prüfung durch JANS steht aus.
+
+M. Spörri ist bis Montag abwesend, steht also erst am Tag der Frist wieder zur Verfügung.
+
+**06 Die Türnummern-Korrektur deckt zwei von vier Fällen.** Deine Antwort nennt Umbau-10 und
+Umbau-12; der Abgleich hatte vier Nummern mit derselben überzähligen Ziffer belegt (3013, 3014,
+3015, 3017), dazu die nur in der Matrix geführte 01.0.300.02. Bajrami korrigiert, was in der Mail
+steht, also bleiben 01.2.3014.01 und 01.2.3017.01 falsch. Eine Zeile im laufenden Thread genügt,
+solange Hiltmanns Schweigefrist läuft. Produktionsstart 01.09.
+
+**07 Ziegel verlangt eine vollständige Abschottungsplanung vor der Ausführung.** Zur AGI AG gibt er
+grünes Licht, knüpft daran aber eine Bedingung: alle Abschottungen sind vorab vollständig und mit
+Details zu planen, die vorhandenen zu überprüfen und nötigenfalls instand zu setzen oder zu ersetzen.
+Das ist eine Vorleistung und eine Bestandsaufnahme vor dem Baustart 01.09., beide bisher nicht
+terminiert und keinem Los zugeordnet; die Instandsetzung bestehender Schotts ist zudem eine
+Kostenposition, die im Umbauperimeter nicht geführt wird. Gehört in den Gesamtzeitplan am 31.08.
+
+**08 Thalwil: die SBB liefern seit sechs Wochen nicht.** S. Tschopp schickt heute 03:42 «die
+Dokumente der SBB» und bittet um Rückmeldung. Es sind exakt die zwei Dateien, die Du am 14.07. 12:36
+selbst an T. Wiedmer gesandt hast, mit der Bitte um die Schriftdokumente zur Unterzeichnung. Es gibt
+also keinen neuen Stand, sondern einen Stillstand bei der SBB. Der nächste Schritt liegt dort, ein
+Nachfassen ist überfällig.
+
+**09 Hostpoint meldet gravierende Sicherheitslücken auf dem Studio-Hosting.** Betroffen ist das
+WordPress-Plugin Optimole 4.2.8 auf unupebin.myhostpoint.ch; die zitierte Wordfence-Meldung nennt
+einen unauthentifizierten Stored-XSS. Das ist der Account, über den die Machbarkeits-Studios als
+privater Link an Bauherren gehen. Backup, dann aktualisieren oder das Plugin deaktivieren, falls die
+Studio-Seiten es nicht brauchen.
+
+### In den nächsten 7 Tagen
+
+**10 Heute, Freitag 28.08.** Zwei eigene Zusagen laufen ab: alle Termine der behördlichen Abnahmen
+fixiert (Ziel aus Deiner Mail ans Gremium vom 26.08.) und das bereinigte Terminprogramm an
+Röthlisberger zum Ende der KW35. Ziegels für gestern zugesagte Rückmeldung zum Termin der
+feuerpolizeilichen Abnahme ist nicht eingetroffen und fehlt damit genau bei der ersten Zusage.
+
+**11 Montag 31.08.** trägt inzwischen fünf Dinge: Freigabe Therapieküche (neu, Position 05),
+Beantwortung der offenen Fragen an die Bauherrschaft, finaler Kernbohrungsplan Sanitär als
+Bringschuld M. Erens, Kommunikation des Terminplans an die Bauherrschaft und der Abgleich des
+finalen Gesamtzeitplans um 09:00 mit C. Schäfer, C. Allerkamp und A. Spahic (Teams, 15 Minuten).
+
+**12 Dienstag 01.09.** Meldung Baustart an die Feuerpolizei, Produktionsstart Türen und Anliegen an
+R. Steinmann (Nova Property) müssen raus: er ist vom 03. bis 21.09. in den Ferien, Stellvertretung
+J. Heussi. Die Selbstfrist zur Sache Elektro Stählin liegt auf Mitte September und fällt damit in
+seine Abwesenheit. Im Kalender steht am 01.09. weiterhin ein unbenannter Ganztageseintrag
+«Neues Ereignis».
+
+**13 Mittwoch 02.09.** Planfreigabe Werkplan Therapieküche nach der bisherigen Kette; durch
+Position 05 faktisch auf Montag vorgezogen.
+
+**14 Donnerstag 03.09., 13:00 bis 14:00** Koordinationssitzung Gruner, Jans und KISPI (Teams,
+Serientermin im Zweiwochenrhythmus, Organisatorin M. Valentin).
+
+**15 KW36** Gut zur Ausführung Innere Verglasungen mit Unterschrift Architektur und Bauherrschaft,
+Los 274.01.
+
+### In Beobachtung
+
+**16 bexio** antwortet den zwanzigsten Tag mit HTTP 401; der Zahlstatus von CHF 51'400 in fünf
+Positionen steht unverändert auf dem verifizierten Stand vom 08.08. Ein neuer Token in bexio löst es.
+
+**17 Apple Mail** antwortet den sechsten Tag nicht auf osascript. Folge: das Konto
+raphaeljans@outlook.com ist ungelesen, der Monitor der AG-Gründung bleibt blind, und Mail-Entwürfe
+können nicht als Draft im Postfach abgelegt werden.
+
+**18 AG-Gründung.** Die Kapitaleinzahlung von CHF 50'000 auf das seit 17.08. offene UBS-Konto steht
+weiterhin aus; ohne sie keine Kapitalbescheinigung und keine Beurkundung.
+
+**19 M365-Tenant** bei 83.78 %, Restlaufzeit 49 Tage im Wochenschnitt, 35 im Werktagsschnitt.
+
+**20 Tailscale-Wächter** ist auf keiner der beiden Stationen installiert; alle Tunnel sind derzeit
+oben.
+
+**21 Wettbewerb Steinfabrik Freienbach.** Eröffnungsanlass für die teilnehmenden Teams
+am 22.09., 15 bis 17 Uhr, im Zeughaus Pfäffikon, Anmeldung bis 20.09., Ausstellung bis 03.10.
+
+### Vorschlag Kalendereinträge
+
+**22 Freitag 28.08., heute.** Block für die Freigabe Therapieküche (Kompost, Armatur, Werkstattplan)
+sowie für die zwei fehlenden Türnummern an Bajrami. Beide Fristen fallen auf Montag, an dem bereits
+fünf Punkte liegen.
+
+**23 Dienstag 01.09.** Erinnerung, offene Anliegen an R. Steinmann zu senden, letzter Tag vor seiner
+dreiwöchigen Abwesenheit.
+
+**24 Sonntag 20.09.** Anmeldeschluss Eröffnungsanlass Steinfabrik.
+
+Nicht eingetragen, nur vorgeschlagen.
+
+### Token-Tempo
+
+**25 Vortag 27.08.2026.** MacBook Pro 183.4 Mio. Token (USD 144.70 Kostenäquivalent), Mac Mini
+26.4 Mio. (USD 17.86), Summe 209.8 Mio. Token und USD 162.56.
 
 
 ## Hub-Chef 27.08.2026 (08:39 bis 09:2x) — Tagesbriefing GESENDET, Tür-ID-Abgleich gerechnet (A3), A5 als nicht ausführbar belegt
