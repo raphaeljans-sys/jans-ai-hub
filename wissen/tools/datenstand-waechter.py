@@ -54,6 +54,18 @@ TERMIN_SPRACHE = re.compile(
     re.IGNORECASE,
 )
 
+# Ein verstrichener Stichtag, der im Umfeld ausdruecklich quittiert wurde, ist kein Versaeumnis
+# mehr, sondern Historie. Er wird weiterhin ausgewiesen, aber getrennt und ohne Befundstatus —
+# die Absicht von Regel 3 (Stichtage auch in ABGEHAKTEN Eintraegen sehen) bleibt damit erhalten,
+# waehrend der Prueflauf nicht Lauf um Lauf dieselben erledigten Punkte meldet.
+# Ergaenzt 28.08.2026 (energie Run 166): vier von vier gemeldeten Stichtagen der KB energie
+# waren quittiert, drei davon woertlich mit «kein offener Punkt mehr».
+QUITTUNG_SPRACHE = re.compile(
+    r"(ist|sind) erledigt|kein offener Punkt mehr|nicht mehr offen|"
+    r"[✓✔]\s*\*{0,2}Nachtrag|nachgeholt|erledigt, siehe|jetzt wirklich gepr(ue|ü)ft",
+    re.IGNORECASE,
+)
+
 CHF_ZEILE = re.compile(r"CHF\s?[\d'’.]{3,}|[\d'’.]{3,}\s?(CHF|Fr\.)|Rp\./kWh")
 JAHRESZAHL = re.compile(r"(19|20)\d{2}")
 
@@ -158,7 +170,8 @@ def pruefe_kb(wurzel, kb, heute, melde):
     # Regel 3 — verstrichene selbst gesetzte Termine, auch in abgehakten Eintraegen
     for sammlung in (dest, wiki):
         for d in sammlung.values():
-            for nr, zeile in enumerate(d["text"].splitlines(), 1):
+            zeilen = d["text"].splitlines()
+            for nr, zeile in enumerate(zeilen, 1):
                 for treffer in TERMIN_SPRACHE.finditer(zeile):
                     rohdatum = treffer.group(2)
                     try:
@@ -169,9 +182,15 @@ def pruefe_kb(wurzel, kb, heute, melde):
                             datum = datetime.date(int(j), int(m), int(t))
                     except ValueError:
                         continue
-                    if datum < heute:
-                        melde(d["pfad"], f"Z. {nr}: selbst gesetzter Pruefstichtag {rohdatum} ist "
-                                         f"verstrichen — gehoert nach logbuch/fristen.md")
+                    if datum >= heute:
+                        continue
+                    # Quittungsfenster: dieselbe Zeile plus die sechs folgenden. Ein Nachtrag
+                    # steht in der Praxis unmittelbar unter dem Eintrag, den er schliesst.
+                    umfeld = "\n".join(zeilen[nr - 1:nr + 6])
+                    quittiert = bool(QUITTUNG_SPRACHE.search(umfeld))
+                    melde(d["pfad"], f"Z. {nr}: selbst gesetzter Pruefstichtag {rohdatum} ist "
+                                     f"verstrichen — gehoert nach logbuch/fristen.md",
+                          quittiert)
 
 
 def main():
@@ -191,13 +210,16 @@ def main():
     gesamt = 0
     print(f"Stichtag: {heute}")
     for kb in kbs:
-        treffer = []
-        pruefe_kb(wurzel, kb, heute, lambda pf, t: treffer.append((pf, t)))
+        treffer, quittiert = [], []
+        pruefe_kb(wurzel, kb, heute,
+                  lambda pf, t, q=False: (quittiert if q else treffer).append((pf, t)))
         print(f"\n== {kb}")
         if not treffer:
             print("  keine Befunde.")
         for pfad, text in treffer:
             print(f"  ! {pfad.name:48s} {text}")
+        for pfad, text in quittiert:
+            print(f"  · {pfad.name:48s} {text} [im Umfeld quittiert — kein Befund]")
         gesamt += len(treffer)
 
     print(f"\nTotal: {gesamt} Befund(e).")
