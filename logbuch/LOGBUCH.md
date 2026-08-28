@@ -3,6 +3,81 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 28.08.2026 (08:39 bis 09:0x) — Tagesbriefing GESENDET, zwei Kalendereintraege (A2), Tuer-ID-Restpunkt als Entwurf abgelegt (A3)
+
+**Signale gelesen:** `logbuch/fristen.md` und `LOGBUCH.md` (Radar-Abschnitt 28.08. 06:55 bis 07:10
+vollstaendig uebernommen), Konversations-Destillat `260828-konversationen.md` (06:18),
+Verzugscheck-Abschnitt 08:06, Sync- und Freigabe-Queues, Kalender 28.08. bis 04.09.
+**Der AG-Gruendungs-Abschnitt fehlt heute im LOGBUCH** — der Monitor hat um 07:2x nur einen
+Nachtrag ins Fristen-Register geschrieben, keinen Logbuch-Abschnitt wie am 27.08. Inhaltlich
+gedeckt, formal eine Abweichung vom Ein-Mail-Protokoll; hier vermerkt, nicht gemeldet.
+
+**Mechanische Sammlung an einen Haiku-Subagenten delegiert** (Mail-Vorfilter, bexio, Queues,
+Journal; Rule `modellwahl-routine`). Urteil, Priorisierung, Sendeentscheid und die beiden
+Aktionen blieben im Hauptkontext.
+
+### Messungen des Laufs
+
+1. **Mail-Vorfilter faellt aus** (`93:1280 AppleEvent -1712`), Apple Mail antwortet den
+   **sechsten Tag** nicht. Ausgewichen auf den Graph-Ersatzweg.
+2. **Keine neuen Eingaenge nach dem Radar-Fenster.** Posteingaenge rj@ und mail@ im Fenster
+   27.08. 22:00 bis 28.08. 08:45 gegengeprueft: nur die zwei Mails, die der Radar bereits
+   fuehrt (J. Ziegel 06:44, S. Tschopp 05:42). Das ist der Unterschied zum 26.08., wo zwei
+   Eingaenge nach dem Radar lagen.
+3. **In den Gesendeten dagegen ein neuer Vorgang um 08:40** — Frage Trennwand Speiseraum an
+   M. Spoerri und F. Wuersch, der Adressat ist bis Montag abwesend. Registernachtrag gesetzt.
+4. **AG-Gruendung nachgeholt**, was der blinde Monitor nicht messen konnte: Graph-Suche ueber
+   beide Postfaecher, juengste Sachnachricht unveraendert UBS 17.08. Stand damit **verifiziert
+   unveraendert**, nicht bloss unbekannt.
+5. **Der osascript-Block trifft nur Apple Mail, nicht den Kalender.** Getrennt gemessen; damit
+   ist A2 ausfuehrbar, waehrend A5 auf beiden Wegen gesperrt bleibt.
+6. **bexio** unveraendert HTTP 401, zwanzigster blinder Tag (Gegenprobe des Subagenten an
+   `--verzug` und `--abgleich`). Nichts gemahnt, nichts gebucht.
+7. Sync-, Freigabe- und `remote-tasks`-Queues leer.
+
+### Ausgefuehrte Aktionen
+
+**A2 — zwei Kalendereintraege erstellt** (Apple Kalender «Arbeit», Quelle je im Notizfeld):
+«Wettbewerb Steinfabrik Freienbach: Eroeffnungsanlass», Di **22.09.2026 15:00 bis 17:00**,
+Zeughaus Pfaeffikon, Schindellegistrasse 47, 8808 Pfaeffikon SZ; sowie «Anmeldeschluss
+Eroeffnungsanlass Steinfabrik Freienbach», So **20.09.2026 09:00**.
+*Ausloeser:* Radar-Vorschlag 24 und Mail L. Imoberdorf (Suter von Kaenel Wild) 27.08. 13:12,
+Konto mail@. *Guards:* Datum, Zeit, Ort und Veranstalter in der Mail eindeutig belegt · nur
+eigener Kalender · Fenster 18. bis 25.09. vorher auf Doppeleintraege geprueft (leer) ·
+Quellvermerk gesetzt. *Ergebnis:* beide Eintraege nach dem Schreiben rueckgelesen und
+verifiziert, Umlaute korrekt.
+
+**A3 — Antwort-Entwurf zum Tuer-ID-Restpunkt abgelegt** unter
+`AR - 01 Projekte/2619_KINDERSPITAL/03_BKP/LOS_231.10 Tuerfachplanung System TeKoSi AG/231.10 08 Korrespondenz/260828-Tuer-ID-Restpunkt-Bajrami/260828-Entwurf-Antwort-Bajrami-Restpunkt.txt`
+(Ordnername im Original mit Umlaut «Tuerfachplanung» → «Türfachplanung»).
+*Ausloeser:* Radar-Position 06, Restpunkt der gestrigen Tuernummern-Korrektur.
+*Guards:* Anrede «Geschaetzter Herr Bajrami» und der Satzbau aus Raphaels eigener Mail vom
+27.08. 08:12 uebernommen, nicht erfunden · QS auf Umlaute, ss statt ss-Ligatur und
+Gedankenstrich gefahren, ohne Befund im Body.
+*Ergebnis:* Entwurf liegt als Datei, **nicht** als Draft im Postfach — A5 ist auf beiden Wegen
+gesperrt (Apple Mail tot, Graph `POST /messages` 403). Der Volltext ist im Briefing mitgegeben.
+*Ausdruecklich offen gelassen:* die Umbau-Bezeichnung fuer 01.2.3014.01 und 01.2.3017.01 ist
+**nicht** belegt (Raphaels Mail nennt namentlich nur Umbau-10 und Umbau-12; die Arbeitskopie
+der Matrix vom 24.08. ist im Projektordner nicht mehr auffindbar). Der Entwurf nennt darum die
+Tuer-ID ohne Umbau-Nummer, statt sie zu raten (Rule `identifikatoren-verifizieren`).
+
+**A4 — Fristen-Register** um drei datierte Nachtraege ergaenzt (Spoerri-Abwesenheit gegen die
+08:40-Frage, AG-Gruendung nachgeholt, osascript-Eingrenzung). Append-only nativ per ssh
+gemessen: **10 Zeilen hinzu, 0 geloescht.**
+
+**Nicht ausgefuehrt:** kein Versand an Dritte, keine Mahnung, keine Buchung, keine Loeschung.
+Der Tuer-ID-Entwurf wurde bewusst **nicht** unter A7 versendet: er zieht Raphaels Entscheid
+(«die Zahl 3 ist ein Tippfehler») auf zwei weitere Nummern fort, und diese Folgerung mit
+Wirkung auf den Produktionsstart 01.09. gehoert ihm, nicht dem Lauf.
+
+**Briefing gesendet** an rj@raphaeljans.ch am 28.08.2026 **08:56:27** ueber Weg 2 des
+Registers (Graph `Mail.Send` via m365-CLI, `outlook mail send`), weil Apple Mail nicht
+antwortet. **Gegenprobe in den Gesendeten gefahren** (Pflicht nach dem Leer-Draft-Fehler):
+Body **8'692 Zeichen HTML / 8'040 Zeichen Text**, Betreff und Body mit echten Umlauten,
+Aptos 12 pt gesetzt. Kein neues Sende-Script gebaut — der Versuch wurde vom
+Auto-Mode-Klassifikator blockiert, und statt einen Umweg zu suchen wurde nach Rule 260809
+das Wege-Register gelesen, das den vorhandenen Weg nennt.
+
 ## Radar-Briefing 28.08.2026 (06:55 bis 07:10, Logbuch-Radar)
 
 **Nicht gemailt, Ein-Mail-Prinzip.** Der Chef-Lauf vom 27.08. hat stattgefunden (Briefing 09:22:35

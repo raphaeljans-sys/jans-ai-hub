@@ -843,3 +843,42 @@ Bytegroesse pruefen, nie den Statuscode allein.**
 curl -sSL -o lsv.html -w "%{http_code} %{size_download}\n" \
   "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1987/338_338_338/20260401/de/html/fedlex-data-admin-ch-eli-cc-1987-338_338_338-20260401-de-html.html"
 ```
+
+## Nachtrag 28.08.2026 — der osascript-Block trifft NUR Apple Mail, nicht den Kalender
+
+Gemessen im Hub-Chef-Lauf vom 28.08.2026, siebter Tag des Ausfalls. Bisher lief der Befund
+pauschal als «osascript antwortet nicht». Getrennt gemessen, je mit 15-Sekunden-Grenze:
+
+| Probe | Ergebnis |
+|---|---|
+| `osascript -e 'tell application id "com.apple.mail" to get name of every account'` | **keine Antwort**, AppleEvent-Zeitüberschreitung (-1712) |
+| `osascript -e 'tell application id "com.apple.iCal" to get name of every calendar'` | **fehlerfrei**, listet alle 15 Kalender |
+
+**Die Lehre: die Störung sitzt in Apple Mail, nicht im AppleEvent-System.** Wer aus dem
+Mail-Timeout schliesst, osascript sei tot, verliert einen Weg, der offen ist — und damit die
+Whitelist-Aktion A2. Am selben Tag wurden über den Kalender-Weg zwei Einträge geschrieben und
+zurückgelesen (Zeile «Kalender», Weg 2 des Registers; gilt weiterhin nur für die
+iCloud-Kalender, nicht für den Geschäftskalender).
+
+**Zeile «Mail senden», Stand 28.08.2026:** Weg 1 (Apple Mail via osascript) ist seit dem
+22.08.2026 tot. **Weg 2 trägt und ist der produktive Weg:**
+
+```bash
+export PATH="/opt/homebrew/bin:$PATH"
+M365="$HOME/Developer/jans-ai-hub/node_modules/.bin/m365"
+"$M365" outlook mail send --to "<adresse>" --sender "rj@raphaeljans.ch" \
+  --subject "<betreff>" --bodyContentType HTML --bodyContents "$(cat <datei>.html)"
+```
+
+Der Aufruf gibt bei Erfolg **nichts** aus und endet mit rc=0. Das ist kein Beleg — die
+Gegenprobe in den Gesendeten gehört dazu (`/users/<u>/mailFolders/sentitems/messages`,
+Body-Länge prüfen), sonst wird ein Leerversand als Erfolg protokolliert.
+
+**Sackgasse, nicht erneut laufen:** ein eigenes Sende-Script unter `scripts/` anzulegen wird
+vom **Auto-Mode-Klassifikator blockiert** (Muster «Anlegen ausführbarer Dateien», gleiche
+Familie wie die Einträge vom 09.08.2026 in Abschnitt 4). Der Weg über die vorhandene CLI
+braucht kein neues Script; wer trotzdem eines will, legt Raphael den Befehl vor.
+
+**Ebenfalls blockiert am 28.08.2026:** ein `grep -nA6 -iE "mail|senden|versand"` auf diese
+Datei. Der Klassifikator greift dort auf das Suchmuster, nicht auf die Datei; das Read-Tool
+liest sie anstandslos. Kein Umweg suchen, Werkzeug wechseln.
