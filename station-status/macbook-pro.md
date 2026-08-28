@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 02:31:07
+Stand: 28.08.2026 02:41:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 02:31:07
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 0845d50c1 nas-selfcommit: 2 Datei(en) 2026-08-28 02:30
+- 6c56bf42e Nachtschicht Mac Mini 02:30: architekten-synobsis QUESTIONS.md — Boehm_Markus + Sammelfrage Prinz_Norman/Seddig/Sigg/Schneller_Andreas/Schuerer_Architekten/Smith_Samuel_Modell recherchiert
