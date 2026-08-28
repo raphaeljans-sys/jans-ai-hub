@@ -3415,3 +3415,98 @@ Nachmessen am Original, nicht an einer Ersatzgroesse.
 **Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
 Kontingent-Erschoepfung, einem Briefing-Ausfall, den der Radar nicht selbst meldet, fehlendem
 Radar-Herzschlag oder Aufwand ohne Wissenszuwachs.
+
+## 2026-08-28 07:15 — Rohmessung (Bewertung folgt unten)
+
+**Tagesverbrauch teuer (in+cache_creation+out) in Mio, rekursiv inkl. Subagenten:**
+
+| Tag | MacBook Pro | Mac Mini | kombiniert |
+|---|---|---|---|
+| 28.08. (bis 07:15) | 1.54 | 0.42 | **1.96** |
+| 27.08. | 8.60 | 1.11 | **9.71** |
+| 26.08. | 7.02 | 1.18 | **8.20** |
+| 25.08. | 7.89 | 2.88 | **10.77** |
+| 24.08. | 8.65 | 46.70 | **55.35** |
+| 23.08. | 18.50 | 53.17 | **71.67** |
+
+Total (inkl. billigem cache_read) 27.08.: MacBook 189.52, Mini 26.38. Gegenprobe: die Werte fuer
+den 25. und 26.08. reproduzieren den gestrigen Eintrag exakt (10.77 / 8.20).
+
+**Blockade-Status:** null echte Limit-Fehlerereignisse in 24 h (strukturell, nicht Wort-grep).
+**Briefings:** `logbuch-radar` heute 06:55-07:10 CEST, 224 Zeilen, sauber beendet;
+`hub-chef-taeglich` 27.08. 08:39-09:27; `mahnwesen-verzugscheck` 27.08. 08:05-08:09;
+`zahlungsabgleich-check` 27.08. 08:22-08:26. Die drei Vormittags-Tasks sind um 07:15 nicht faellig.
+**Radar-Herzschlag:** juengste `## `-Ueberschrift RADAR.md 28.08. 00:57, rund 6.3 h alt; zweites
+Signal Session `vollgas-chef-radar` 27.08. 22:57Z, 113 Zeilen, sauber beendet.
+
+### Bewertung — kein Meldekriterium erfuellt, still beendet
+
+**(a) Keine blockierte interaktive Sitzung.** Strukturelle Suche ueber beide Stationen: null
+Fehlerereignisse mit Limit-Bezug in 24 h.
+
+**(b) Verbrauch normal.** Kombiniert teuer 27.08. **9.71 Mio**, 26.08. 8.20, 25.08. 10.77 — die
+Schwellen (35 Mio an einem Tag, zweimal 18 Mio in Folge) sind seit dem 25.08. klar unterschritten.
+Die Spitzen 23.08. 71.67 und 24.08. 55.35 gehoeren zum 50-Agenten-Vollschub und wurden **am
+24.08. 07:50 gemailt** — keine Wiederholungsmail (Punkt 7).
+
+**(c) Wochenkontingent entspannt.** Radar 28.08. 00:57: Ampel FREI, Verbrauch **29.8 Punkte
+hinter dem Zeitverlauf**, Reserve zum vierten Mal in Folge gewachsen. Kein Drossel-Anlass — das
+Problem liegt eher in der Unterauslastung, siehe unten.
+
+**(d) Alle vier operativen Briefings haben geliefert.** `logbuch-radar` heute 06:55-07:10 CEST,
+224 Zeilen · `hub-chef-taeglich` 27.08. 08:39-09:27, **Versand belegt** (achtmal «briefing
+GESENDET» im Transkript) · `mahnwesen-verzugscheck` 27.08. 08:05-08:09 · `zahlungsabgleich-check`
+27.08. 08:22-08:26. Die drei Vormittags-Tasks sind um 07:15 nicht faellig.
+
+**(e) Radar-Herzschlag frisch.** RADAR.md juengste `## `-Ueberschrift 28.08. 00:57 (6.3 h);
+zweites Signal Session `vollgas-chef-radar` 27.08. 22:57Z, 113 Zeilen, sauber beendet.
+
+**(f) Kein Aufwand ohne Ertrag.** Der Destillat-Loop hat in 48 h **nicht gefeuert** — unter den 37
+Sessions beider Stationen ist keine mit dem Opener `wissens-destillat`; (f) ist damit
+definitionsgemaess nicht erfuellt. Die Nachtschicht hat zwar Tokens verbraucht (28.08. 02:35 und
+05:34, je rc=0, zusammen 4.62 USD), aber **mit belegtem Ertrag**: offene Identitaetsfragen aus
+`architekten-synobsis/QUESTIONS.md` recherchiert, dokumentiert und nativ committet (`6c56bf42e`).
+Artikel je Tag ueber `git` gemessen (nie `find -newermt`): 23.08. 77 · 24.08. 85 · 25.08. 21 ·
+26.08. 9 · **27.08. 12 (ohne Twin 6)**. **Stueckkosten teuer je Artikel 27.08.: 0.81 Mio** (ohne
+Twin 1.62). Reihe: 0.93 · 0.65 · 0.51 · 0.91 · **0.81**. Die Vortageswerte reproduzieren exakt.
+Keine Delta-Null-Serie in den zehn juengsten outputs-Reports.
+
+**(g) Korpus-Queue nicht komplett.** 1 und 2 erledigt; 3 (`buero-referenzen`) und 4
+(`archiv-fachwissen`) stehen unveraendert seit dem 23.08. nach Inventar-Phase 0, Spec offen.
+
+### Fuer den Radar (Hub-intern, kein Sendegrund nach Rule 260803)
+
+**1 — Die Nachtschicht weicht seit zwei Naechten planmaessig auf Prioritaet 5 aus.** Beide
+Laeufe (28.08. 02:35 und 05:34) haben den Destillat-Korpus **bewusst nicht gewaehlt**, mit
+zutreffender Begruendung: er braucht Raphaels Entscheid und beruehrt den Bewerbungsdossier-Korpus
+(Rule 260823). Sie arbeiten stattdessen Restfragen der `architekten-synobsis` ab — und drei davon
+blieben «mangels Ordnerinhalt» offen. Das ist das Muster **Material erschoepft**, nicht Defekt:
+`wissen/architektur-fachwissen/wiki/` enthaelt nach fuenf Tagen weiterhin **nur INDEX und
+QUESTIONS, null Sachartikel**. Zusammen mit dem Radar-Befund (29.8 Punkte Unterverbrauch bei
+einem Auftrag, der das Ausschoepfen verlangt) zeigt beides dieselbe Ursache: die Warteschlange
+haengt oben an einem Entscheid, den nur Raphael faellen kann (Spec fuer Korpus 3/4 unter der
+Ausschlussliste der Rule 260823, oder ein anderer Korpus). Der Loop laeuft nicht leer — er laeuft
+am Rand. Gehoert dem Radar vorgelegt, nicht gemailt.
+
+**2 — Zwei der vier Mini-Slots am 27.08. waren Leerlaeufe.** 02:30 und **13:30 je 7 s bei 0.43
+USD**, gegenueber 341 s und 204 s bei den beiden echten Laeufen. Der Mittags-Slot 13:30 hat am
+27.08. also **nichts geliefert** — der gestern im Log vermerkte «zweite Beleg in Folge» bezog sich
+auf den 26.08. (13:39/13:43) und ist damit gerissen. Fuer Raphaels Entscheid ueber den
+Versuchs-Slot zaehlt die Reihe, nicht der beste Tag.
+
+**3 — Der Gate-Log-Befund vom 27.08. steht unveraendert.** `logbuch/speicher/gate-Macmini.log`
+weiterhin **19 Zeilen, letzte Zeile 24.08. 05:30**, nativ per ssh auf dem Mini nachgemessen (nicht
+ueber SMB, Rule 260730b). Seither sind rund vierzehn Slots gefeuert, alle rc=0, ohne eine einzige
+FREIGABE-/ABGEWIESEN-Zeile; `gate-Macbookpro.log` ist frisch. Zweiter Tag in Folge, weiterhin
+harmlos bei entspanntem Kontingent — aber es ist die Messgrundlage der Drossel-Entscheidung.
+
+**4 — Messfalle bestaetigt (Eigenbefund).** Das Muster `scheduled-task name="<task>"` irgendwo in
+der Eingabe trifft die **eigene** Fruehwarnungs-Session, weil deren Messhinweis das Literal
+`scheduled-task name=\"logbuch-radar\"` enthaelt. Ergebnis waren 16 statt 8 Radar-Laeufe in 4
+Tagen. Richtig ist der **erste** Opener-Treffer via Regex `<scheduled-task name="([a-z0-9\-]+)"`
+am Anfang der ersten User-Eingabe. Gleiche Familie wie der Kontrollproben-Hinweis vom 18.08.: dort
+ein falsches Leerergebnis, hier ein falscher Ueberschuss.
+
+**Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
+Kontingent-Erschoepfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag oder Aufwand ohne
+Wissenszuwachs.

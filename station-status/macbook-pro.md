@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.08.2026 07:08:45
+Stand: 28.08.2026 07:19:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:08)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:18)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 07:08:45
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 52200cb3c nas-selfcommit: 2 Datei(en) 2026-08-28 07:00
+- b59dcced9 logbuch-radar 28.08.2026: Radar-Briefing + 11 Registernachtraege (Therapiekueche-Freigabe auf 31.08. vorgezogen, Tuernummern-Restpunkt, Abschottungsplanung, SBB-Stillstand, Steinmann-Ferien, Hostpoint-XSS)

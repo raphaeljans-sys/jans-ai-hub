@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.08.2026 07:07:59
+Stand: 28.08.2026 07:18:16
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 28.08.2026 07:07:59
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 52200cb3c nas-selfcommit: 2 Datei(en) 2026-08-28 07:00
+- b59dcced9 logbuch-radar 28.08.2026: Radar-Briefing + 11 Registernachtraege (Therapiekueche-Freigabe auf 31.08. vorgezogen, Tuernummern-Restpunkt, Abschottungsplanung, SBB-Stillstand, Steinmann-Ferien, Hostpoint-XSS)
