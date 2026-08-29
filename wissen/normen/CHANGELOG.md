@@ -1,3 +1,14 @@
+## 2026-08-29 (Run 76, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — neunter Doppel-Dispatch, weiterhin Nullbefund
+
+Neunter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-76). `git status
+wissen/normen` sauber vor Beginn, `git fetch` zeigte lokal aktuellen Stand, Kandidatenliste
+Abschnitt 7 und `wiki/QUESTIONS.md` enden weiterhin bei N68-1. **Kein neuer Kandidat, keine
+Destillat-Änderung, kein Statuswechsel.** Wird hier nicht erneut ausführlich begründet
+(Run 72-75 haben das bereits getan): dies ist jetzt der neunte identische Dispatch an einem
+Tag mit demselben Nullbefund — das Muster spricht stark dafür, dass der auslösende
+Scheduled Task mehrfach täglich statt einmal feuert. In diesem Lauf direkt an Raphael
+zurückgemeldet statt nur protokolliert.
+
 ## 2026-08-29 (Run 75, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — achter Doppel-Dispatch, weiterhin Nullbefund
 
 Achter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-75). Unabhängig
