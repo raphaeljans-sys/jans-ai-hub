@@ -4,6 +4,36 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 20:45 (Mac Mini, Schub-Lane SYNOBSIS) — Sammelfrage Charge 2 und Charge 3 vollstaendig recherchiert
+
+Fortsetzung desselben Auftrags (Wochenkontingent vor Montags-Reset), Prioritaet 4 nach Abschluss
+der Prioritaeten 1-3 (Fehlextraktionen/Kollisionen/Sonderzeichen, siehe Eintrag darunter, bereits
+in einem frueheren Lauf desselben Abends erledigt und verifiziert). Websuche je Einzelname
+(Belegpflicht, nie geraten), Ergebnisse als NACHTRAG/RECHERCHIERT-Vermerke in `wiki/QUESTIONS.md`
+angehaengt, keine Loeschung bestehenden Inhalts (`git diff --numstat` je Schreibvorgang auf 1 1
+geprueft, entspricht dem etablierten Muster fuer wachsende Sammelfrage-Absaetze in dieser Datei).
+
+**Sammelfrage Charge 2 abgeschlossen (22/22):** die 17 zuvor unrecherchierten Namen einzeln
+belegt — zwoelf bestaetigt (u.a. Federico_Zuccari, Fischer_von_Erlach, Fujimoto, Fuksas,
+Gandy_Joseph, Gimson_Ernest, Graves_Michael, Gray_Eileen, Gregotti_Vittorio, Gut_Schoep,
+Haefliger_Erich, Halliday_James_Theodore_1882_1932 — Jahreszahlen im Slug decken sich exakt),
+ein Grenzfall (Haenel_Erich: Architekturstudium, aber spaeter Kunst-/Waffenhistoriker, kein
+praktizierender Architekt), vier ohne belastbaren Treffer (Fischle, Gigometti, Goldsmith_Felix,
+Gruppo_Ligure).
+
+**Sammelfrage Charge 3 abgeschlossen (34/34):** alle Namen einzeln recherchiert — 23 bestaetigt
+(u.a. Hankar_Paul, Hollein_Hans, Hetzberger_Hermann, Hopkins_Michael, Krier_Leon, Klein_Alexander,
+Kjærholm-Hauses/Poul Kjaerholm, LUCA_SELVA, Jabornegg_Pálffy, Jackson_Clements_Burrows), drei
+plausibel mit Vorbehalt (Hofmann_Ludwig, Horvat_Paolo, La_Pierre_Eric — Namensabweichungen ohne
+Ordnerinhalt nicht letztgueltig zu klaeren), acht ohne belastbaren Treffer (Herrle_Stoll,
+Imhof_Edi, Jaeckel_Fabian, Kampmann, Keles_Oetzguer, Klement_Juergen, Knorr, Lazarini_Fenster —
+durchweg zu generische oder unauffindbare Namen, nur aus dem Ordnerinhalt zu klaeren).
+
+Offen fuer den naechsten Lauf: Sammelfrage Charge 4 (~33 Namen, Zeile 74), Charge 5 (~23 Namen,
+Zeile 78) und Charge 6 (~24 Namen, Zeile 88) sind unveraendert unrecherchiert; ebenso die generische
+Ablagestruktur-als-Projekte-Zaehlung (Parser-Verfeinerung `tools/synobsis_scan.py`, mehrfach in
+QUESTIONS.md vermerkt, technische Aenderung am Scanner nicht Teil dieses Auftrags).
+
 ## 2026-08-29 20:33 (Mac Mini, Schub-Lane SYNOBSIS) — Bestandsqualitaet: Fehlextraktionen, Katalog-Kollisionen und Sonderzeichen-Regel bereinigt
 
 Auftrag Raphael 29.08.2026 (Wochenkontingent vor Montags-Reset): Katalog ist saturiert (853/853),

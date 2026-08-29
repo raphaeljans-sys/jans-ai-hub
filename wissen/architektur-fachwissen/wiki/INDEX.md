@@ -134,5 +134,29 @@ setzt eine Indexierung voraus, die ausserhalb dieser KB beschafft werden muss.
 
 ## Artikelbestand
 
-Noch keine Artikel. Die begründete Reihenfolge der nächsten Destillate steht im Lauf-Report
-`outputs/2026-08-23_korpus-erschliessung.md`; offene Fragen in `wiki/QUESTIONS.md`.
+**Stand 29.08.2026 (Lane FACHWISSEN, erster Destillat-Lauf Korpus `buero-referenzen`):**
+sieben Artikel aus dem P1-Cluster `18_Projektkostenplanung` (Schulanlage Leutschenbach),
+alle `status: emerging`, gemäss `specs/buero-referenzen-spec.md`:
+
+- [[kostenermittlungskreislauf-genauigkeit-je-phase]] — Verfahren und Genauigkeitsband je
+  Projektphase (Ruosch/Brandenberger)
+- [[sia-102-2003-phasenanteile-zwei-rechenwerke]] — SIA-102:2003-Phasenanteile aus zwei
+  unabhängigen Rechenwerken, Praxisregeln 2010
+- [[kostenkennwerte-schulanlage-leutschenbach]] — Kostenkennwerte Schulbau Zürich,
+  Preisstand 2003/04
+- [[honorarberechtigte-bausumme-anrechenbarkeit]] — Anrechenbarkeitslogik je Kostengruppe,
+  mit BKP-Phantomcode-Warnung
+- [[kostenkontrolle-spaltenmodell-oeffentliche-bauherrschaft]] — Neunspalten-Modell
+  Finanzrapport + internes Vergabe-Controlling
+- [[baubeschrieb-als-kostentraeger]] — BKP-gegliederter Baubeschrieb, Grossbau und EFH
+- [[bemusterungsentscheid-kostenueberschreitung-praxisfall]] — anonymisierter Praxisfall
+  Bodenbeläge
+
+**Sektion `18_Projektkostenplanung` (Zeile 02 oben) ist damit zu 14 von 16 P1-Positionen
+destilliert.** Offen: `KV_Zusammenstellung_Leutschenbach.pdf` (KV-Detailformvorbild) und
+die belegte Kostenschätzung Vorprojekt (`55927 KVnov KS SH/KIGA.pdf`) — Fortschritt und
+Begründung in `raw/inventar/buero-referenzen__18_Projektkostenplanung.md` Abschnitt
+«Destillat-Fortschritt». Nächster Lauf: diese zwei Restpositionen, danach gemäss Spec-Plan
+`10_Modellbauen`. Alle Beleg- und Anonymisierungsprüfungen (Unternehmernamen,
+BKP-2017-Abgleich) sind in den Artikeln selbst dokumentiert. Offene Fragen zu diesen
+Artikeln in `wiki/QUESTIONS.md`.

@@ -275,3 +275,37 @@ Bauherrschaft und den ausführungsorientierten für den Käufer.
    gegen BKP 2017 zu prüfen, falls sie je als Merkblatt-Vorlage dienen soll.
 5. **Indexierung:** Sämtliche Kennwerte dieser Sektion haben Preisstand 2003 bis 2005. Ein
    belegter Indexpfad auf heute fehlt in der Sektion vollständig.
+
+## Destillat-Fortschritt
+
+- 2026-08-29 (Lane FACHWISSEN, Destillat-Lauf 1): `Finanzrapport_Leutschenbach.pdf` →
+  `wiki/kostenkontrolle-spaltenmodell-oeffentliche-bauherrschaft.md`
+- 2026-08-29: `Kennzahlen_Leutschenbach.pdf` →
+  `wiki/kostenkennwerte-schulanlage-leutschenbach.md`
+- 2026-08-29: `Anlagekosten_Leutschenbach.pdf` →
+  `wiki/kostenermittlungskreislauf-genauigkeit-je-phase.md`
+- 2026-08-29: `KS SA Leutschenbach Architekt 1.xls` →
+  `wiki/kostenkennwerte-schulanlage-leutschenbach.md`
+- 2026-08-29: `050603 Kostenübersicht INTERN.pdf` →
+  `wiki/kostenkontrolle-spaltenmodell-oeffentliche-bauherrschaft.md`
+- 2026-08-29: `Offerte_Terrazzo_Belaege.pdf` →
+  `wiki/bemusterungsentscheid-kostenueberschreitung-praxisfall.md` (anonymisiert, kein
+  Unternehmername im Artikeltext)
+- 2026-08-29: `050420_H-Bausumme.pdf` + `.xls` →
+  `wiki/honorarberechtigte-bausumme-anrechenbarkeit.md` (mit BKP-Phantomcode-Warnung,
+  Erweiterung von QUESTIONS #3b um den Befund 80–81)
+- 2026-08-29: `Honorarberechnung_SIA_102_2003_Tabelle.xls` + `Arch-Hon-Tab-SIA-2005.xls` →
+  `wiki/sia-102-2003-phasenanteile-zwei-rechenwerke.md` (dabei zusätzlich die vier
+  Fachaussagen aus dem P2-Mailwechsel `100201_Honorarberechnung.pdf` destilliert, gemäss
+  dortiger Auflage nur die vier Fachaussagen)
+- 2026-08-29: `100817_PM_Ruosch_Brandenberger_S148.jpg` →
+  `wiki/kostenermittlungskreislauf-genauigkeit-je-phase.md`
+- 2026-08-29: `091204_Baubeschrieb_Leutschenbach.pdf` + `100218_Baubeschrieb_Waltenschwil.pdf`
+  → `wiki/baubeschrieb-als-kostentraeger.md`
+
+**Offen (P1, nicht in diesem Lauf destilliert):** `KV_Zusammenstellung_Leutschenbach.pdf`
+(Formvorbild für einen KV-Detailausdruck — noch kein eigener Artikel zur KV-Struktur
+selbst) und `55927 KVnov KS SH.pdf` / `55927 KVnov KS KIGA.pdf` (belegte Kostenschätzung
+Vorprojekt mit Angabe der Schätzgrundlage je Kostengruppe — noch kein eigener Artikel zur
+Methodik "Kostenschätzung mit ausgewiesener Grundlage"). Nächster Lauf beginnt hier, bevor
+diese Sektion als abgeschlossen gilt.
