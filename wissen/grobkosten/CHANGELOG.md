@@ -1,5 +1,30 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-30 (Schub-Lane grobkosten, sechster Dispatch, erster Tag danach) — erneut Duplikat erkannt, erneut keine Verdichtung erzwungen
+
+**Befund:** sechster Dispatch dieser Lane mit wortgleichem Auftragstext ("20 raw-Eintraege, erst
+3 Wiki-Artikel", identische Projektliste 2001/2105/2202/2304/2305/2411) — erstmals an einem neuen
+Kalendertag statt mehrfach am selben Tag (29.08. hatte fuenf Wiederholungen). Unabhaengig
+gegengeprueft: `raw/` enthaelt weiterhin genau 18 reale Eintraege (ohne `README.md`/
+`_INGESTED.md`), keine neuer als `zuercher-index-wohnbaupreise-2025-10-update.md` vom 17.08.2026;
+alle 18 stehen unveraendert in der Raw-Material-Status-Tabelle in `wiki/INDEX.md` und im
+Frontmatter `sources:` von `wiki/kennwerte.md`. `git log` zeigt seit dem letzten Eintrag (Commit
+`3f4e58a4a`, 29.08.2026) keinen weiteren Commit in `wissen/grobkosten`. `QUESTIONS.md` traegt
+weiterhin denselben unbeantworteten Blocker vom 23.08.2026.
+
+**Nicht ausgefuehrt:** kein sechster inhaltsgleicher Verdichtungsdurchgang — `raw/`,
+`wiki/kennwerte.md` und die `wiki/INDEX.md`-Tabelle bleiben unangetastet, kein Kennwert erzeugt.
+
+**Einziger reale Block unveraendert:** Frage 1 (BKP-Scope Pre-Check-Tool) und Frage 2
+(Standard-Label "norm, eloquent"), an Raphael gestellt am 23.08.2026, laut `wiki/QUESTIONS.md`
+weiterhin ohne Antwort.
+
+**Hinweis fuer den Dispatcher (jetzt zum sechsten Mal, ueber zwei Kalendertage):** die
+Vorlagenzahl "20 raw / 3 Wiki-Artikel" im Auftragstext ist weiterhin nicht aktualisiert und loest
+denselben Auftrag ueber Tagesgrenzen hinweg wiederholt aus. Empfehlung unveraendert: Lane auf
+Ereignis-Trigger (neues Rohmaterial in `raw/` oder Antwort Raphaels zu Frage 1/2) statt
+Tages-Rotation umstellen.
+
 ## 2026-08-29 (Schub-Lane grobkosten, fuenfter Dispatch selber Tag) — erneut Duplikat erkannt, erneut keine Verdichtung erzwungen
 
 **Befund:** fuenfter Dispatch derselben Lane binnen desselben Tages mit wortgleichem Auftragstext
