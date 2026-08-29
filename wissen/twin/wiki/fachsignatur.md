@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-28
+last_updated: 2026-08-29
 gewichtung: authentisch
-sources: [260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2680,3 +2680,58 @@ Brandlast in EI30-Leichtbauwand · Türmatrix / Türbuch / Installationsbuch / S
 Bemerkenswert die Abkürzung im Protokollkopf: die Fachplaner werden mit **Kürzel + Firma**
 geführt («Würsch Fabian, ELE KISPI» · «Suljanovic Igor, SAN KISPI» · «Spörri Michael, HLK KISPI» ·
 «Raphael Jans, AR JANS»). ELE/SAN/HLK/AR/QS stehen ohne Auflösung; die Runde kennt sie.
+
+## Batch 108 (28.08.2026) — die Angabe und ihr Vorbehalt bekommen denselben Urheber
+
+Quelle: `260829-mailbatch-108.md`, Gewichtung **authentisch**.
+
+### Das Projektdokument spricht, nicht der Architekt
+
+Die Spezifikationsmail (21:50) belegt jede Festlegung aus dem eigenen Projektwerk statt aus
+dem Gedächtnis: «**Das Türbuch verlangt** DMC 20 oder gleichwertige Kontakte aus Messing,
+jeweils als Umschaltkontakt, und deren Einbau möglichst nahe an einem Verschlusspunkt.» ·
+«**Das Türbuch fordert** für elektrifizierte Schlosstechnik ein Anschlusskabel von mindestens
+10 m Länge samt Anschlussschema und Farbcode als Teil des Lieferumfangs.» Dazu der Abgleich
+mit dem Bestand als zweite Stütze: «Im Bestand ist DMC 20 der überwiegend eingesetzte
+Kontakt.»
+
+**Und der Vorbehalt trägt denselben Urheber wie die Angabe:** «Die Masse sind nach dem
+Ausdruck gegenzuprüfen, **das verlangt das Blatt selbst**.» Er warnt nicht aus eigener
+Vorsicht — er gibt weiter, was das Dokument fordert. Das ist die belegte Form seiner
+Quellenpflicht: nicht «ich meine», sondern «das Werk verlangt», und die Grenze der Angabe
+gleich mit.
+
+### Der Herkunftsvermerk in Klammern: Quelle, Datum, Weiterverarbeiter
+
+«(Angaben <Rolle/Name>; 28.08.26; Kontrolle und Einarbeiten in Elektroplanung <Name>)» — drei
+Felder, ein Klammerausdruck, direkt hinter der Festlegung. Wer es gesagt hat, wann, und wer
+es jetzt in seine Planung einarbeiten muss. Dieselbe Beweissicherungs-Signatur wie im
+Protokoll, hier in Kurzform mitten im Fliesstext.
+
+### Fabrikat, Typ, Ausführung, Werkangabe — die Spezifikation ist vollständig oder sie ist keine
+
+«Uhlmann & Zacher CX8172 …, rostfreier Edelstahl, offline und batteriebetrieben»; für die
+schwere Türe der Wandleser «CX8132»; «Türdrücker: GLUTZ Oslo 5064», «Drückerrosetten
+innen/aussen: GLUTZ easyfix® 5620 CN/CG», «Schlüsselrosetten: GLUTZ 5380 C Lochung RZ»;
+Bohrschablone mit «Werkangabe 9010 100 10149, Ausgabe 10.2020». Fabrikat **und** Typnummer
+**und** Ausführung **und** Dokumentstand — nie nur die Marke. Auch die Abweichung wird
+benannt statt stillschweigend übernommen: der Werkplaner nannte GLUTZ 5059, Raphael
+spezifiziert 5064.
+
+### Der Bauablauf als Vorleistungs-Kette mit angehängter Bedingung
+
+04:25: «… dass nur ein kleiner Teil des Leibungsansatzes (Verkleidung des Metallsturzes) mit
+gesamter Unterkonstruktion gebaut wird **sodass** der Innere-Verglasung-Ersteller die rohen
+Leibungsmasse so schnell wie möglich ausmessen kann. Brandabschottungen werden **im Nachgang**
+sauber eingearbeitet.» · 14:03: «Erstellung bauseitig durch <BH> nach Montage Küche**; wenn
+statisch nötig**.» Beide Male dieselbe Denkfigur: Teilvorleistung jetzt, damit der nächste
+Unternehmer arbeiten kann, Rest danach, Bedingung angehängt. Fachlich ist das die
+Terminlogik der Ausführungsplanung; stilistisch ist es der «sodass»-Satz mit nachgestellter
+Einschränkung.
+
+### Die sprechende Tür-ID trägt Raum und Element
+
+«die beiden Räume mit der FM Nummer 2.331 und 2.330 mit den Tür ID-Nr. 01.2.331.01 und
+01.2.330.01» — die Raumnummer steckt in der Tür-ID, die Etappe davor, die laufende Nummer
+dahinter. Zweiter Beleg nach Batch 107; die Kopplung FM-Nummer ↔ Tür-ID wird ausgeschrieben,
+nicht vorausgesetzt.

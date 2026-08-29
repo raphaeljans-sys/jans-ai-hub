@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-08-28
+last_updated: 2026-08-29
 gewichtung: authentisch
-sources: [260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -3679,3 +3679,55 @@ zu zerlegen.
 Die Blindfassung machte daraus zwei Imperative plus eine **erfundene Frist** («bis Ende Woche»)
 — der Listen- und Formalisierungs-Reflex dieser Facette in neuer Gestalt. Als **achte Endform**
 in den Do/Don't-Block aufgenommen.
+
+## Batch 108 (28.08.2026) — die Antwort folgt der Gliederung der Frage
+
+Quelle: `260829-mailbatch-108.md`, Gewichtung **authentisch**.
+
+### Fremde Nummerierung übernehmen, in die eigene Form ziehen — und eine Naht bleibt sichtbar
+
+Der Werkplaner hatte in «1. … 5.» gefragt. Raphael antwortet in **01, 02, 02.1, 02.2**, dann
+steht plötzlich «**3. Beschläge**» — die fremde Form — und danach wieder **04, 05, 06**. Das
+Muster ist trotz der Naht klar: er antwortet **Punkt für Punkt in der Gliederung des
+Fragenden**, damit Frage und Antwort nebeneinander lesbar bleiben, und zieht sie nur formal
+auf sein eigenes zweistelliges Schema (01/02/…, Unterpositionen 02.1/02.2). Die stehen
+gebliebene «3.» ist kein Gegenbeleg, sondern zeigt, woher die Struktur kommt.
+
+Für den Zwilling: bei einer Antwortmail auf eine nummerierte Anfrage **nie neu gliedern**.
+Die Nummern des Fragenden sind seine Wiederfindungspunkte.
+
+### Der Beleg wird beim Namen genannt, nicht angehängt
+
+«**SIEHE DOKUMENT :**» in Versalien, darunter der vollständige Dateiname
+(«2619 KISPI BKP274.1_Innere Verglasung_Positionsliste_Ausführung_Stand260828.pdf»), zweimal
+in derselben Mail. Der Anhang wird nicht als Anhang erwähnt, sondern **als Dokument zitiert** —
+mit Namensstamm und Stand-Datum, so dass die Referenz auch ausserhalb der Mail trägt. Dazu
+die Lesehilfe: «Weiter sehen Sie, wenn Sie den Ausführungsplan genügend heranzoomen, jeweils
+im Grundriss angezeichnet und vermerkt …» — er sagt nicht nur, wo es steht, sondern wie man
+es findet.
+
+### Dieselbe Sache zweimal zustellen: adressiert und gesammelt
+
+10:15 leitet er das Protokoll-Feedback an fünf Beteiligte weiter mit «Bitte ruft mich kurz an
+zu den **Euch betreffenden** Punkten. Ich pflege die Infos in die Ausführungspläne ein und
+überstelle die <Werkplaner>.» Der Sammelversand geht raus, die Zuständigkeit bleibt bei
+jedem Einzelnen, und die Zusammenführung übernimmt er. Dritter Beleg des Musters aus Batch
+107 («jede Pendenz zweimal zugestellt») — hier zusätzlich mit dem ausgesprochenen Weg vom
+Zuruf über den eigenen Plan zum ausführenden Werkplaner.
+
+### Vier Kanäle an einem Tag, nach Substanz getrennt
+
+04:25 Mobil-Kurzbitte an den Fachplaner · 08:40 Weiterleitung mit Prüfauftrag an die
+Bauherren-Technik · 08:52 Drei-Zeilen-Eskalation an die Zahlstelle · 14:03 nummerierte
+Fachantwort mit Skizzenanhang · 21:50 sechsteilige Spezifikation mit dreizehn Anhängen. Die
+Form folgt nicht der Uhrzeit und nicht dem Empfänger, sondern dem **Gewicht der Sache**: je
+verbindlicher, desto nummerierter, belegter und länger — und die kürzeste Mail des Tages ist
+die folgenschwerste.
+
+### Der Rückkanal wird mitgeplant
+
+Fast jede Position der Spezifikationsmail endet mit einer benannten Rückmeldung: «kannst du
+… prüfen und ggf. bestätigen?», «dies bitte berücksichtigen», «Ich bitte Sie, den Einfluss
+auf Rahmen, Verstärkung und Oberteil zu prüfen», «Geht das, wollt Ihr das so?». Keine
+Position bleibt ohne adressierte Erwartung — mit Ausnahme derer, die unter die
+Widerspruchsfrist gestellt werden ([[denken]], Batch 108).

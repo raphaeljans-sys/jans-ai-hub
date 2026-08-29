@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-28
+last_updated: 2026-08-29
 gewichtung: authentisch
-sources: [260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -3404,3 +3404,72 @@ Sofortwirkungs-Lesart der Treffen-Klausel in `rules/anrede-kontakte.md`.
 Kein Eintrag in `rules/anrede-kontakte.md`: Furrer trägt dort noch keine Zeile, und ein
 Draft-Einzelbeleg reicht nach dem Kopf jener Datei nicht für die Tabelle. Zweiten Beleg
 abwarten.
+
+## Batch 108 (28.08.2026) — sechs Adressaten, vier Register, und keines in der Anredezeile
+
+Quelle: `260829-mailbatch-108.md`, Gewichtung **authentisch**.
+
+### Die Anredezeile gehört dem Hauptadressaten; die Mitleser werden inline angesprochen
+
+Die 21:50-Mail (an den Werkplaner Innere Verglasungen, fünf Personen im cc) eröffnet mit
+«**Sehr geehrter Herr <Nachname>**» — kaltes Sie — und verteilt im Fliesstext:
+
+- «**<Vorname>, kannst du** die Angaben bez. Elektronischer Türbeschlag prüfen und ggf.
+  bestätigen?» → Du, Vorname, an den Türfachplaner (in Rot gesetzt, siehe unten)
+- «Ja, **<Vor- und Nachname> Elektroplanung** dies Bitte berücksichtigen.» → direktiv,
+  dritte Person, an den Elektroplaner
+- «Grundsätzliche Fragestellung: (**<vier Vornamen>**).» → Sammel-Zuruf per Vorname
+- «… Wird die als EI30 Bauteil abgenommen? **<Vorname>?**» → Ein-Wort-Adressierung mitten
+  in der Frage
+
+**Das ist der bislang klarste Beleg der Nicht-Nivellier-Linie — und zugleich ihre
+Erklärung.** Raphael staffelt nicht in der Anrede, weil er dort gar nicht staffelt: die
+Anredezeile gehört dem, an den die Mail adressiert ist, alle anderen werden **im Text** und
+**je in ihrem eigenen Register** angesprochen. Damit ist auch der scheinbare Widerspruch zu
+den Sammelanreden vom Typ «Geschätzte Alle» aufgelöst: dort gibt es keinen Hauptadressaten,
+hier schon.
+
+Folge für die Rule `anrede-kontakte.md`: die dort mit ⚠ markierte Nivellier-Zeile bleibt
+strittig; dieser Batch liefert einen **Mechanismus** für die Gegenposition, keinen Entscheid.
+Der Wortlaut der Rule wird nicht angetastet (Claude ändert Rules nicht selbst).
+
+### Rot markiert, was der Leser tun muss (zweiter Beleg, Funktion erweitert)
+
+Der eingestreute Zuruf «<Vorname>, kannst du die Angaben … prüfen und ggf. bestätigen?» steht
+in `rgb(200,38,19)` — **exakt derselbe Farbwert wie der erste Beleg in Batch 107**, dort an
+einer Korrektur. Der gemeinsame Nenner ist nicht «Korrektur», sondern **Handlung**: rot steht,
+wo der Leser etwas tun muss. Damit ist der Marker vom Vorbehalt («nicht übernehmen bis zum
+zweiten Beleg») befreit und in der weiteren Fassung **Handlungsmarker** übernommen.
+
+### Du gross beim Adressaten, klein beim Zuruf — zwei Lesarten, keine Entscheidung
+
+Quote 0.6 (5 Formen). Gross: «Könntest Du», «welcher Du», «Könnt Ihr», «den Euch
+betreffenden», «wollt Ihr». Klein: zweimal «kannst **du**» — beide in derselben Zuruf-Formel
+an einen cc-Mitleser. Batch 107 erklärte den Bruch über die **Satzfunktion** (beiläufiger
+Angebotssatz klein, Bitte/Zusage/Dank gross); dieser Batch legt den **Adressatenstatus**
+nahe (Hauptadressat gross, Inline-Zuruf klein). Beide Lesarten decken die Daten; n=2 in einer
+wiederholten Formel trägt keinen Entscheid. Als Widerspruch stehen lassen, nicht glätten —
+[[QUESTIONS]] 260829 #2.
+
+### Registerwechsel Sie → Du nach dem Treffen, diesmal ohne Verzögerung — mit Gegenbeleg im selben Batch
+
+**Pro Treffen-Klausel:** Der Projektleiter des Küchenbauers war am 24.08. «Geschätzter Herr
+<Nachname>»; am 28.08. um 14:03 ist er Teil von «**Hoi <Vorname> und <Vorname>,**».
+Dazwischen liegt ein gemeinsames Meeting am 27.08. (belegt aus seiner eigenen Mail: «wie
+heute kurz im Meeting erwähnt»). Der Wechsel erfolgt am **ersten Werktag danach**, also ohne
+die Verzögerung, welche die Fassung in `rules/jans-dna-facetten.md` beschreibt
+(«Trajektorie, kein Standbild», Kanalwechsel wirkt verzögert).
+
+Einschränkung, die den Beleg nicht wegräumt, aber begrenzt: es ist eine **Sammelanrede** mit
+einem langjährigen Du-Kontakt an erster Stelle. Ob der Du-Kontakt den anderen mitzieht oder
+das Treffen die Stufe hebt, entscheidet dieser Einzelfall nicht.
+
+**Contra jede Ausweitung auf blosse Nähe:** derselbe Batch zeigt den Werkplaner Innere
+Verglasungen — seit Wochen täglich im Verteiler, am Vorabend hat Raphael eigens das
+Sekretariat gebeten, ihn zur Fachplanersitzung einzuladen — um 21:50 unverändert als
+«Sehr geehrter Herr <Nachname>». **Intensität der Zusammenarbeit hebt die Stufe nicht.**
+Nur das persönliche Zusammentreffen ist bisher als Auslöser belegt.
+
+Kein Eintrag in `rules/anrede-kontakte.md` für den Küchenbauer-Projektleiter: ein einzelner
+Sammelanreden-Beleg reicht nach dem Kopf jener Datei nicht. Zweiten Beleg abwarten,
+[[QUESTIONS]] 260829 #1.

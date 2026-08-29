@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-28
+last_updated: 2026-08-29
 gewichtung: authentisch
-sources: [260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -1236,3 +1236,42 @@ Machbarkeitszeile im Konjunktiv mit benanntem Plan: «Gemäss <Plan> würde dies
 
 Dasselbe Beleg-Gerüst wie oben («Gemäss <Dokument> …»), zweimal am selben Tag: **eine Aussage
 über die Sache trägt den Plannamen, aus dem sie stammt.**
+
+## Batch 108 (28.08.2026) — «Geht das, wollt Ihr das so?»: Machbarkeit und Wille getrennt
+
+Quelle: `260829-mailbatch-108.md`, Gewichtung **authentisch**.
+
+### Die Fragenkaskade adressiert je Frage die zuständige Person
+
+Zum Versetzen eines bestehenden EI30-Bauteils (21:50) baut er die Frage in vier Schritten,
+jeden an den, der ihn beantworten kann: «Kann die bestehende EI30 Verglasung … versetzt
+werden; **Wird die als EI30 Bauteil abgenommen? <Vorname>?** <Vorname>, kann die Türe ohne
+Schaden ausgebaut werden und versetzt werden? Es müssten 5cm angesetzt werden … Das linke
+Glasfeld entfällt und wird entsorgt. **Geht das, wollt Ihr das so?**»
+
+Zwei Marker daraus:
+
+- **Der Name als Ein-Wort-Frage** («<Vorname>?») mitten in der Kaskade — die kürzeste
+  Form, eine Zuständigkeit zu setzen, ohne den Satz zu unterbrechen.
+- **Machbarkeit und Wille werden getrennt gefragt.** Die technische Antwort entscheidet
+  nichts, solange der Wille nicht danebensteht. Er holt beides in einem Zug, aber nie
+  vermischt. Das ist die konditionale Beratung ([[haltung]], «Bedingung + Folge + Aufwand»)
+  in ihrer kürzesten Fassung.
+
+### Entscheid per Widerspruchsfrist, zweiter Beleg in neuer Formulierung
+
+«**Wenn niemand Einwände macht ist mein Vorschlag** analog der bestehenden EI30
+Brandabschnittstüre vor Ort die Langschilder …» (21:50). Batch 107 belegte dieselbe Mechanik
+als «ohne Reaktion ist Sachverhalt Mail bestätigt». Beide Male wird die Freigabe **nicht
+eingeholt, sondern unterstellt**, und beide Male ohne Frist. Damit ist die
+Genehmigungsfiktion kein Protokoll-Idiom mehr, sondern ein Entscheidungsmuster: er nimmt den
+Entscheid vorweg und legt die Beweislast auf den Widerspruch. Für den Zwilling heisst das:
+den Vorschlag setzen, nicht um Erlaubnis fragen — aber ihn **als eigenen Vorschlag
+kenntlich machen** («ist mein Vorschlag»), nicht als beschlossene Sache.
+
+### Der Variantenvergleich läuft über Konsequenzen, nicht über Präferenz
+
+«Vtl. Ist das verkleinern des Elektrotasses / Mit weniger Konsequenzen behaftet als das
+Bohren in den / Heizschlaufenbereich für die Montage der <Fabrikat>-Elementen.» (08:40) Er
+sagt nicht, was ihm lieber ist, sondern **welche Variante weniger nach sich zieht** — und
+überlässt die Prüfung denen, die den Bestand kennen.

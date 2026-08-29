@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-28
+last_updated: 2026-08-29
 gewichtung: authentisch
-sources: [260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -4636,3 +4636,47 @@ Substanz in der Liste steht.
 Im Protokollkörper (16:49) endet fast jede Zeile auf ein einziges nachgestelltes Statuswort mit
 Punkt: «pendent.» · «erledigt.» · «wurde vollzogen.» · «Hat mit Abbrucharbeiten angefangen.» Kein
 «ist noch offen», kein «befindet sich in Bearbeitung». Der Status ist ein Wort, nie ein Satz.
+
+## Batch 108 (28.08.2026) — «Lgr» auch gross, der Mobil-Zeilenbruch, und die kürzeste Mail des Tages
+
+Quelle: `260829-mailbatch-108.md`, Gewichtung **authentisch** (8 Golds, 4 im Volltext).
+Mikro-Metrik über 783 Wörter: Satzlänge 12.8 · Grüsse «Freundliche Grüsse» 4, «Lgr» 2,
+«Danke und Gruss» 1 · Anreden «Hoi <Vorname>» 1, «Guten Morgen <Vorname> und <Vorname>» 1,
+«Sehr geehrter Herr <Nachname>» 1.
+
+### «Lgr» existiert in beiden Schreibungen, und hängt am Kanal
+
+Batch 106 belegte «lgr» klein. Heute zweimal «**Lgr**» gross, ohne Punkt — 04:25 an den
+externen Brandschutz-Fachplaner und 08:40 an die Bauherren-Technik. Zwei verschiedene
+Empfängerkreise, dieselbe Form, und beide Male eine Mobilmail. Die Gruss-Stufe unterscheidet
+also nicht nach Empfänger; die Gross-/Kleinschreibung ist nicht bedeutungstragend.
+
+### Der Mobil-Zeilenbruch mit Grossbuchstabe (Kanal-Fingerabdruck, kein Stilmittel)
+
+Die 08:40-Mail bricht mitten im Satz um und beginnt jede neue Zeile gross: «Könnt Ihr prüfen
+ob und wo die Trennwand beim Speiseraum / **In** Bezug auf Bodenheizungsverlauf und
+Lüftungsplan / **Positioniert** wird. Vtl. **Ist** das verkleinern des Elektrotasses / **Mit**
+weniger Konsequenzen behaftet als das Bohren in den / Heizschlaufenbereich …». Das ist ein
+Geräte-Artefakt, keine Absicht — aber ein verlässliches Erkennungszeichen für die Mobilmail
+und damit für die Register-Einordnung. **Nie nachbauen**, immer erkennen.
+
+Dazu die Diktat-Verhörer desselben Fensters: «Platz zum **Vertrauen**» (Verstauen),
+«**Elektrotasses**» (Elektrotrasse), «heran **zommen**», «**Vergalsung**», «**Galsfeld**»,
+«gesammter», «leibungsansatzes». Fehlerdichte und Tempo gehören zum Gold, nicht zum Makel
+(vgl. Fehlerbild-Heuristik in [[../CLAUDE]]).
+
+### Das Semikolon steht, wo Doppelpunkt oder Komma stünde
+
+Dreimal an einem Tag: «Die Idee wäre**;** dass nur ein kleiner Teil …» · «Erstellung
+Bauseitig durch <BH> nach Montage Küche**;** wenn Statisch nötig.» · «… abgebaut wird
+versetzt werden**;** Wird die als EI30 Bauteil abgenommen?» Es trennt bei ihm nicht zwei
+Hauptsätze, sondern hängt die **Bedingung oder die Anschlussfrage** an. Vierter Beleg
+derselben Eigenheit im Korpus, hier erstmals dreifach im selben Fenster.
+
+### Die härteste Nachricht ist die kürzeste
+
+08:52, an die Kreditorenstelle der Bauherrschaft, Projektleitung im Verteiler, drei Zeilen:
+«Guten Tag / Wir stellen ab dem 01.09.26 die Arbeiten für <Projekt> ein. / Freundliche
+Grüsse». Keine Begründung, kein gehobenes Register, kein Ausrufezeichen. Der Ton bleibt
+flach, während die Sache hart wird — vgl. [[haltung]] und die Behörden-Eskalation vom
+19.08.2026.

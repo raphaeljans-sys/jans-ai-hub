@@ -2202,3 +2202,61 @@ Thread-Rückgriff auf 2414 Thalwil, Albertstrasse 7 / Nova, Wartstrasse 8 oder J
 vier abgeschöpft; offen bleibt die Behördenschiene **AfB / Feuerpolizei**; (4) vor der Lektüre
 zwingend **beide Teile dieser Datei** auswerten (Batch-Tabelle UND die Gold-Verbrauch-Abschnitte
 der Fidelity-Läufe) und die Phrasenprobe fahren; (5) Auto-Block-Reserve messen statt fortschreiben.
+
+---
+
+## Batch 108 (29.08.2026) — Sent Items `rj@`, Fenster 28.08.2026
+
+**Datei:** `260829-mailbatch-108.md` · **Gewichtung:** authentisch (8 Golds) ·
+**eingearbeitet:** ja (alle sechs Facetten + [[QUESTIONS]] 260829 #1–#3)
+
+**Abgedeckt:** `rj@` Sent Items **28.08.2026** vollständig gelistet (`totalResultCount: 10`,
+eine Seite, `order: oldest`). Davon 1 Hub-Briefing per Gratis-Vorfilter übersprungen
+(Selbstadressierung + Loop-Name im Betreff, kein `read_resource` verbraucht), 1 Teams-Einladung
+ohne Prosa. **8 Golds**, davon 4 im Volltext gelesen (04:25 · 08:40 · 14:03 · 21:50), 4
+vollständig aus der Suchvorschau (08:52 · 08:56 · 10:15 · 14:06). Alle Zeiten lokal (MESZ);
+Graph liefert UTC.
+
+**Verbraucht — nicht erneut destillieren:** Vorab-Lüftungsplan an den Brandschutz 04:25 ·
+Fwd Trennwand/Bodenheizung an BH-HLK/ELE 08:40 · Einstellung der Arbeiten an die
+Kreditorenstelle 08:52 · Antwort ans Sekretariat 08:56 · Fwd Protokoll mit Rückruf-Bitte
+10:15 · Fixierung Gastroarmatur + Kompost 14:03 · «SCHNITT 1:20» 14:06 · Spezifikation
+Innere Verglasungen, sechs Positionen 21:50. Mit dem 28.08. ist der KISPI-Ausführungsstrang
+bis Monatsende abgeschöpft.
+
+**Kernbefunde:** (1) ⭐ **Die Anredezeile gehört dem Hauptadressaten, die Mitleser werden
+inline in ihrem eigenen Register angesprochen** — eine Mail, sechs Adressaten, vier Register,
+keines in der Anrede. Erklärt die Nicht-Nivellier-Linie mechanisch. (2) ⭐ **Rot ist ein
+Handlungsmarker**, zweiter Beleg, exakt derselbe Farbwert `rgb(200,38,19)` wie Batch 107, aber
+an einer Direktfrage statt an einer Korrektur ⇒ Vorbehalt aufgehoben, Fassung erweitert.
+(3) Du gross beim Adressaten, klein beim Inline-Zuruf (Quote 0.6) — zweite Lesart neben der
+Satzfunktions-Erklärung aus Batch 107, **nicht entschieden**. (4) **Entscheid per
+Widerspruchsfrist**, zweiter Beleg, neue Formulierung, wieder ohne Frist. (5) Fachauskunft
+wird der Quelle zugeschrieben, **samt Vorbehalt** («das verlangt das Blatt selbst»).
+(6) «Geht das, wollt Ihr das so?» — Machbarkeit und Wille getrennt gefragt. (7) **Die
+härteste Nachricht des Tages ist die kürzeste und geht an die Zahlstelle** — Eskalation über
+Adressat und Sachverhalt, nie über den Ton (zweiter Beleg der Hansen-Linie, hier im
+Geldkanal). (8) «Lgr» auch gross, hängt am Kanal, nicht am Empfänger. (9) Mobil-Zeilenbruch
+mit Grossbuchstabe + Diktat-Verhörer als Kanal-Fingerabdruck. (10) Weitergabe fremder
+Grundlagen immer mit Freigabestand-Stempel. (11) **Die Antwort folgt der Nummerierung der
+Frage.** (12) Bauablauf als Vorleistungs-Kette mit angehängter Bedingung. (13) Registerwechsel
+Sie → Du am ersten Werktag nach dem Treffen — **mit Gegenbeleg im selben Batch**: blosse Nähe
+der Zusammenarbeit hebt nichts.
+
+**Reserve des Auto-Blocks — gemessen:** `build_dna.py` meldet **33'952 B von 34'000, also
+48 B Reserve** (Batch 107 mass 22 B, Batch 106 35 B — der Wert schwankt mit den Do/Don't-Blöcken
+und wird darum jeden Lauf neu gemessen, nie fortgeschrieben). Der Lauf hat die sechs
+Facetten-Artikel um je einen Batch-Abschnitt erweitert und danach kompiliert: **«bereits
+aktuell (keine Aenderung)», `rules/jans-dna-facetten.md` md5-gleich vor und nach dem Lauf.**
+Damit im dritten Lauf in Folge bestätigt: Batch-Abschnitte wirken nie aufs Gehirn, nur
+Do/Don't-Blöcke tun das — und deren nächste Erweiterung bricht am Riegel ab.
+
+**Nächstes Fenster:** (1) sequenziell `rj@` **ab 29.08.2026**, Sent Items, `order: oldest`;
+(2) Gratis-Vorfilter vor dem CSS-Fingerabdruck (hat erneut gespart); (3) bei leerem Fenster
+**kein** Thread-Rückgriff auf 2414 Thalwil, Albertstrasse 7 / Nova, Wartstrasse 8, Jegen/Türen
+oder den KISPI-Ausführungsstrang bis 28.08. — alle abgeschöpft; offen bleiben die
+Behördenschiene **AfB / Feuerpolizei** und der vom Fidelity-Lauf 260828 erschlossene Ordner
+**Drafts** (123 Stück, bis Juli 2025 zurück, von keinem Batch je angefasst); (4) vor der
+Lektüre zwingend **beide Teile dieser Datei** auswerten (Batch-Tabelle UND die
+Gold-Verbrauch-Abschnitte der Fidelity-Läufe); (5) Auto-Block-Reserve messen statt
+fortschreiben.

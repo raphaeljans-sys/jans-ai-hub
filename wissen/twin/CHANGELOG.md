@@ -4,6 +4,20 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-29 — twin-mail-training Batch 108: eine Mail, sechs Adressaten, vier Register
+
+`raw/260829-mailbatch-108.md` neu (Sent Items `rj@`, Fenster **28.08.2026**, 10 Mails gelistet,
+8 Golds, 4 Volltexte). Alle sechs Facetten-Artikel um einen Batch-Abschnitt erweitert,
+`wiki/QUESTIONS.md` um drei Fragen (260829 #1–#3), `raw/_INGESTED.md` nachgeführt.
+Kernbefunde: die **Anredezeile gehoert dem Hauptadressaten**, die cc-Mitleser werden inline je
+in ihrem eigenen Register angesprochen (erklaert die Nicht-Nivellier-Linie mechanisch); **Rot
+als Handlungsmarker** zweiter Beleg, gleicher Farbwert wie Batch 107, Vorbehalt aufgehoben;
+**Entscheid per Widerspruchsfrist** zweiter Beleg, wieder ohne Frist; die **haerteste Nachricht
+des Tages ist die kuerzeste** und geht an die Zahlstelle (Eskalation ueber Adressat, nie ueber
+den Ton); Registerwechsel Sie → Du am ersten Werktag nach dem Treffen, **mit Gegenbeleg im
+selben Batch** (blosse Naehe hebt nichts). Auto-Block gemessen: 33'952 / 34'000 B, 48 B Reserve,
+`rules/jans-dna-facetten.md` md5-gleich vor und nach dem Lauf. Keine Rule geaendert.
+
 ## 2026-08-28 — Fidelity-Review: der Sent-Items-Korpus ist zu Ende, die Drafts fangen an
 
 `outputs/2026-08-28_fidelity.md` neu. **Gesamt-Fidelity 29** (Vorlauf 30), Golds A' 24 / B' 36 /

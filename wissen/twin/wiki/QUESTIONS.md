@@ -4779,3 +4779,48 @@ Die Nachfrage: gilt das auch dort, wo Du **ohnehin** lieferst? Also darfst Du in
 sagen «ich sende Ihnen danach X», wenn X ohnehin fällig ist — oder ist auch das eine Zusage zu
 viel, weil sie einen Termin schafft, den niemand verlangt hat? Der Marker ist bewusst eng
 gefasst (**keine erfundene Gegenleistung**) und würde bei einem Ja unverändert bleiben.
+
+---
+
+## 260829 — offene Fragen aus Batch 108 (Fenster 28.08.2026)
+
+**#1 — Hebt ein persönliches Treffen die Stufe sofort, oder zieht der Du-Kontakt in der
+Sammelanrede den Sie-Kontakt mit?** · *Facette [[beziehungsregister]]*
+
+Belegt: der Projektleiter des Küchenbauers war am 24.08. «Geschätzter Herr <Nachname>»; am
+28.08., am ersten Werktag nach einem gemeinsamen Meeting, steht er in «Hoi <Vorname> und
+<Vorname>,». Das widerspricht der Fassung in `rules/jans-dna-facetten.md`, wonach der
+Kanalwechsel **verzögert** wirkt — dort waren es Tage bis Wochen.
+
+Nur: es ist eine **Sammelanrede**, und an erster Stelle steht ein langjähriger Du-Kontakt. Zwei
+Erklärungen, dieselben Daten. Die Frage an Dich: gilt für Dich «wir haben uns getroffen, also
+sind wir per Du, ab sofort» — oder ist es hier schlicht die Sammelanrede, die auf die wärmere
+Stufe fällt, und der Einzelkontakt bliebe im Sie? Von der Antwort hängt ab, ob der Zwilling
+nach einer Sitzung das Register selbständig hebt.
+
+Bis dahin kein Eintrag in `rules/anrede-kontakte.md` (Einzelbeleg, Sammelanrede).
+
+**#2 — «Du» gross beim Adressaten, «du» klein beim Zuruf: Satzfunktion oder
+Adressatenstatus?** · *Facette [[beziehungsregister]], [[stimme]]*
+
+Batch 107 erklärte die Kleinschreibung über die **Satzfunktion** (beiläufiger Angebotssatz
+klein, Bitte/Zusage/Dank gross). Batch 108 legt den **Adressatenstatus** nahe: alle Formen an
+den Hauptadressaten stehen gross, die beiden kleinen sitzen in einem eingestreuten Zuruf an
+einen cc-Mitleser («<Vorname>, kannst du die Angaben … prüfen und ggf. bestätigen?»).
+
+Beide Lesarten decken die Daten. Die praktische Folge ist verschieden: bei der ersten müsste
+der Zwilling in beiläufigen Sätzen klein schreiben, bei der zweiten in jedem Inline-Zuruf. Weil
+Du die Grossschreibung ausdrücklich als Regel gesetzt hast, schreibt der Zwilling bis auf
+Weiteres **immer gross** — die Frage ist nur, ob das Gold hier eine Absicht zeigt oder eine
+Tippgeschwindigkeit.
+
+**#3 — Die Widerspruchsfrist ohne Frist: gewollt?** · *Facette [[denken]]*
+
+Zweimal in zwei Tagen entscheidest Du per unterstellter Zustimmung: «ohne Reaktion ist
+Sachverhalt Mail bestätigt» (27.08.) und «Wenn niemand Einwände macht ist mein Vorschlag …»
+(28.08.). Beide Male **ohne Datum**. Der Zwilling könnte das Muster übernehmen und eine Frist
+ergänzen («bis Montag 31.08. ohne Gegenmeldung») — das wäre beweissicherer, aber es wäre nicht
+Deine Form.
+
+Soll er die Frist ergänzen, oder ist die Fristlosigkeit hier Absicht (kein Druck, aber auch
+keine Diskussion)?
