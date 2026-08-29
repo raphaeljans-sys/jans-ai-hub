@@ -4,6 +4,26 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Vier Prioritaeten unabhaengig erneut geprueft, keine neue Position gefunden
+
+Neuer Lauf, eigenstaendige Verifikation (nicht nur Textstand aus `QUESTIONS.md` uebernommen):
+`git log -- wissen/architekten-synobsis/` zeigt `4ec67a2b0` als letzten Commit dieser KB,
+Arbeitsbaum sauber (`git status --short` leer fuer diesen Pfad). Alle vier Prioritaeten des
+Auftrags per Grep und Katalog-Stichprobe gegengeprueft: `grep -n "Fehlextraktion"` und
+`grep -n "Textauszug"` in `wiki/QUESTIONS.md` liefern keine unmarkierte (nicht mit BEHOBEN/
+GEPRUEFT versehene) Fundstelle mehr; `catalog/{Christ_Gantenbein,Enzmann_Fischer,
+Miller_Maranta,Gigon_Guyer}.json` tragen alle das Feld `quellordner` mit beiden
+Quellordnern; `catalog/Tadao_Ando.json` traegt den Vitra-Konferenzpavillon-Text,
+`catalog/Spuehler_Martin.json` den Selnau-Geschossgarten-Text, `catalog/Wurster_William.json`
+korrekt leeren Textauszug (textlos, keine Huffington/Newsom-Fehlextraktion mehr). Alle sechs
+Sammelfrage-Chargen (1-6, `grep -n "Sammelfrage Charge"`) tragen den Vermerk "vollstaendig
+... recherchiert". Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert (nichts Neues zu
+markieren) — nur dieser CHANGELOG-Eintrag als Beleg der Pruefung. Fazit unveraendert: **nichts
+mehr offen** in den vier Auftragsprioritaeten; verbleibend nur Freigabesachen (NAS-Ordner-
+Umbenennungen/-Zusammenfuehrungen der vier Kollisionsfaelle, Chamberlin-Slug-Erweiterung u.ae.)
+und der kapazitaetsabhaengige `--reindex`-Lauf fuer die bereits im Code umgesetzte
+Parser-Verfeinerung (Sektion 4).
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Vier Prioritaeten erneut geprueft, keine neue Position gefunden
 
 Auftragslage identisch zu den Vorlaeufen dieses Tages (Prioritaet 1-4: Fehlextraktionen,

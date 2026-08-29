@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 21:52:48
+Stand: 29.08.2026 22:03:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 21:52:48
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4cffd1e80 Baurecht: Baulinien-Querverweis geschlossen (QUESTIONS/CHANGELOG)
+- fdbd109b3 normen Run 73: sechster Doppel-Dispatch N62-3, weiterhin Nullbefund
