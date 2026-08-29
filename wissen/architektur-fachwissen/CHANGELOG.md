@@ -1,5 +1,35 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, erster P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag wieder veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»; tatsächlicher
+Stand: beide Specs seit 29.08.2026, 150+ Wiki-Artikel, P1 über beide Korpora vollständig). Vor
+Arbeitsbeginn geprüft: `ps aux` zeigte keine zweite FACHWISSEN-Instanz (nur eine parallele
+SYNOBSIS-Lane, kein Kollisionsziel), `scutil --get LocalHostName` bestätigte **Macmini** statt
+der im Auftrag genannten Station. Am realen `KORPUS-QUEUE.md`-Stand orientiert: Sektion
+`03_Bauprozesse_I_II` hat laut Vorlauf keinen schnell erschliessbaren P2-Rest mehr, also zur
+nächstgrössten Sektion nach Ertrag mit unbearbeitetem P2 übergegangen: `02_Architekturtheorie`
+(21 P1, P1 bereits vollständig, P2 188 Positionen in drei Gruppen).
+
+Bearbeitet: die P2-Gruppe «31 Syllabi». Zwei vollständige Sammelsyllabi gelesen (Architekturtheorie
+III HS2012 mit acht Begriffen: Stil, Material, Materialwahrheit/Stoffwechsel, Konstruktion/
+Tektonik, Typus, Funktion, Ornament, Ort; Architekturtheorie IV FS2012 mit acht weiteren Begriffen:
+Bedeutung, Zeit/Geschichte, Monumentalität, Sprache/Semiotik, Atmosphären, Identität, Ideologie,
+Ethik) plus drei Einzelsyllabi mit Fallbeispiel (Loos/Haus Müller Prag, Wright/Fallingwater,
+vernakuläres Bauen/Abraham-Rudofsky). Destilliert zu einem Register-Artikel
+`wiki/literaturlandkarte-architekturtheorie-eth-syllabi.md`: je Begriff die
+Anthologie-Pflichtlektüre und drei bis fünf Titel weiterführender Literatur mit Autor/Titel/
+Verlag/Jahr — Register, nicht Volltext (Urheberrechtssperre `02_Theoretiker_Texte` eingehalten).
+
+Geprüft und im Artikel vermerkt: die acht Ath-IV-Themenordner tragen — anders als die
+Ath-III-Reihe — keine eigenen Fragen-Antwort-Kataloge, nur Syllabi; kein nachzuholender P1-Fund
+dort. Rund 25 weitere Einzelsyllabi (Wiederholungen anderer Jahrgänge derselben 16 Begriffe)
+als Duplikate erkannt, nicht einzeln gegengelesen. P2-Gruppe «31 Syllabi» damit erledigt;
+in der Sektion bleiben die rund 190 Vorlesungsmitschriften und die Vorlesungsfolien-Sammel-PDF
+offen (`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschnitt
+«Destillat-Fortschritt» nachgeführt, append-only, `git diff --numstat` 12/0 geprüft).
+`wiki/INDEX.md` und `skills/wissens-destillat/KORPUS-QUEUE.md` nachgeführt.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II`, zweiter P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station

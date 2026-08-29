@@ -173,3 +173,15 @@ Damit sind alle 10 P1-Positionen dieser Sektion destilliert (acht Wiki-Artikel, 
 Sache statt je Datei; zwei Register-Positionen im letzten Artikel zusammengeführt). P2 bleibt
 offen fuer einen spaeteren Lauf (u.a. die rund 190 Vorlesungsmitschriften zu den 23
 Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
+
+- 2026-08-30 (Lane FACHWISSEN, erster P2-Lauf dieser Sektion): P2-Position «31 Syllabi»
+  bearbeitet. Zwei vollstaendige Sammelsyllabi (Architekturtheorie III HS2012, Architekturtheorie
+  IV FS2012, zusammen 16 Begriffe) plus drei Einzelsyllabi mit Fallbeispiel (Loos/Haus Mueller,
+  Wright/Fallingwater, Bauen/Abraham) gelesen und zu
+  `wiki/literaturlandkarte-architekturtheorie-eth-syllabi.md` destilliert (Pflichtlektuere +
+  Weiterfuehrende Literatur je Begriff, Register nicht Volltext, Urheberrechtssperre eingehalten).
+  Rund 25 weitere Einzelsyllabi (Jahrgaenge 2011/2013/2014 derselben 16 Begriffe) als
+  Wiederholungen erkannt und nicht einzeln gegengelesen. Geprueft und im Artikel vermerkt: die
+  acht Ath-IV-Themenordner tragen anders als Ath III **keine** eigenen Fragen-Antwort-Kataloge,
+  nur Syllabi — kein nachzuholender P1-Fund dort. P2-Position «31 Syllabi» damit erledigt. Weiterhin
+  offen: die rund 190 Vorlesungsmitschriften/Zusammenfassungen und die Vorlesungsfolien-Sammel-PDF.

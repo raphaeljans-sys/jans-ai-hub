@@ -4,6 +4,25 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, vierter Folgelauf desselben Tages) — Minimalcheck, keine neue Recherche, Eskalation ausserhalb der Lane noetig
+
+Minimalcheck wie von den drei Vorlaeufen des Tages empfohlen: `git status`/`git log`
+gegengeprueft, Arbeitsbaum unveraendert. Alle vier Auftragspositionen des Dispatch-Prompts
+(Fehlextraktionen, Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 2 ff.) sind
+per `grep` gezielt gegen jeden im Prompt genannten Einzelnamen sowie gegen alle
+`QUESTIONS.md`-Treffer fuer "Fehlextraktion" gegengeprueft — ausnahmslos bereits BEHOBEN,
+GEPRUEFT oder (mangels Alternativquelle im Bestand) korrekt auf textlos gesetzt, siehe
+Zeilen 94/105/136/180/239/265/268/349/351/353. Der Dispatch-Prompt selbst ist unveraendert
+veraltet (behauptet weiterhin "Charge 2 und folgende sind offen"). Kein Katalog-JSON, kein
+`QUESTIONS.md`-Eintrag veraendert — keine erneute Vollrecherche, da nichts Neues vorliegt.
+Dies ist der vierte inhaltsgleiche Lane-Lauf allein am 30.08.2026 und mindestens der elfte
+seit dem 29.08.2026 (siehe die drei vorherigen Eintraege unten). **Empfehlung an Raphael,
+jetzt ausserhalb dieser Lane zu handeln:** den Dispatcher/Scheduler, der diesen Auftrag an
+SYNOBSIS schickt, anhalten oder den Prompt-Text aktualisieren, bis (a) eine NAS-Umbenennung/
+-Zusammenfuehrung freigegeben wird, (b) ein `--reindex` neues Rohmaterial liefert, oder
+(c) die zwei offenen Rueckfragen (Sik_Miroslav, Sutter_Annabarbara) beantwortet sind — ein
+zwoelfter identischer Lauf haette keinen weiteren Erkenntniswert.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Minimalcheck bestaetigt Vorlauf, keine neue Recherche
 
 Minimalcheck (nicht volle Recherche, wie vom Vorlauf empfohlen): `git status --short` und
