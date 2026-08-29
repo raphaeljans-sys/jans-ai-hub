@@ -4,6 +4,27 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, sechster Folgelauf) — sechste unabhaengige Bestaetigung, Empfehlung: Lane pausieren
+
+Eigene, von den fuenf Vorlaeufen unabhaengige Pruefung: `wiki/QUESTIONS.md` gezielt auf
+unmarkierte Fundstellen durchsucht (`grep -in "Fehlextraktion|falschen? Text|Textauszug ist"`
+ohne BEHOBEN/GEPRUEFT: 0 Treffer; `grep -in Kollision` ohne BEHOBEN: nur bereits als
+"keine Kollision" oder "keine neue Kollision" gekennzeichnete Nebenbefunde; `grep -in
+Sonderzeichen` ohne BEHOBEN: nur der unveraenderte Kjærholm-Hauses-Sonderfall, der von der
+Regel bereits als Vorbild referenziert wird). `git status --short .` und `git diff --numstat`
+im KB-Ordner leer, Arbeitsbaum sauber, keine Datei veraendert. Ergebnis identisch zu den
+fuenf Vorlaeufen: alle vier Auftragsprioritaeten (Fehlextraktionen, Katalog-Kollisionen,
+Sonderzeichen-Regel, Sammelfrage Charge 1-6) sind vollstaendig abgearbeitet; verbleibend nur
+echte Freigabesachen (NAS-Ordner-Umbenennungen/-Zusammenfuehrungen der vier Kollisionsfaelle
+und diverser Schreibfehler-Slugs, siehe Sektion 2) sowie der kapazitaetsabhaengige
+`--reindex`-Lauf des bereits gefixten Scanners. **Empfehlung an Raphael (analog zur Praxis bei
+`synobsis-batch-nacht`, Regel 260712b «abgeschlossene Inventare werden ganz beendet statt
+gedrosselt»):** die Schub-Lane SYNOBSIS nicht mehr automatisch redispatchen, bis entweder (a)
+Freigabe fuer die protokollierten NAS-Umbenennungen/-Zusammenfuehrungen erteilt wird, oder (b)
+ein regulaerer `--reindex`-Lauf neues Rohmaterial oder eine neue Kollision liefert. Sechs
+ergebnislose Folgelaeufe am selben Tag ohne neuen Sachstand sprechen fuer denselben
+Endbedingungs-Befund wie beim Batch-Task.
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, fuenfter Folgelauf) — Stichprobenverifikation, keine neue Position gefunden
 
 Unabhaengige Gegenpruefung des vierten Folgelaufs, nicht nur Protokoll gelesen: `wiki/QUESTIONS.md` per

@@ -3,6 +3,28 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-29f (Schub-Lane BAURECHT-THALWIL, sechster Lauf) — letzter Zeiger-Rückstand der Korpus-Queue geschlossen: Gebührenreglement Bauwesen Thalwil war seit Buch-Run 116 gefunden, nur nie im QUESTIONS-Register nachgetragen
+
+Reglemente-Queue und Priorität (d) bleiben vollständig geschlossen (fünf Bestätigungsläufe
+desselben Tages, siehe Einträge unten). Quellordner erneut ausgezählt: unverändert 234 Dateien,
+kein neuer Batch. Statt eines sechsten Nullbefunds auf den bereits erschöpften Prüfgegenständen
+den letzten in `training/PROGRAMM.md` als "offener Restpunkt" geführten Punkt nachgeprüft.
+
+- **Befund: der Restpunkt "Gebührenreglement Bauwesen Thalwil über JS-Suche nicht auffindbar"
+  (Buch-Run 115) ist stale.** Buch-Run 116 (2026-08-24) hatte das Reglement (SR 600.3, Fassung
+  1.1.2026) bereits über `thalwil.ch/gebuehrenthalwil` gefunden und vollständig in
+  [[baubewilligungsverfahren]] eingearbeitet — nur `wiki/QUESTIONS.md` trug den Zeiger nie nach
+  (Ursache: die in `training/PROGRAMM.md` dokumentierte Tracker-Lücke Run 116-139).
+- Korrektur in `wiki/QUESTIONS.md` nachgetragen (append-only, `+12/-0`). Zusätzlich über einen
+  zweiten, unabhängigen Zugriffsweg gegengeprüft (Rechtssammlung-Kategorie 700 "Bauen" direkt
+  durchsucht statt Volltextsuche): SR 600.3 erscheint dort nicht separat gelistet — bestätigt die
+  bereits dokumentierte Zugriffsweg-Falle, ändert nichts am bereits beschafften Volltext.
+- **Kein totes Recht, kein neuer Fachinhalt.** Bestätigungs-/Korrekturvermerk in
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (+20/-0, append-only, `git diff --numstat`
+  geprüft). Report `outputs/2026-08-29f_thalwil-schub-lane.md`.
+- **Damit ist in der gesamten Thalwil-Reglemente-Korpus-Queue (T1-T9), der Priorität (d) und
+  ihren Querverweisen kein Restpunkt mehr offen.**
+
 ## 2026-08-29e (Schub-Lane BAURECHT-THALWIL, fünfter Lauf) — Themen-Tracker der Priorität (d) korrigiert: 5 Themen waren bereits erledigt, nur nie markiert
 
 Nach vier reinen Bestätigungsläufen desselben Tages (Queue geschlossen, Fassungsstand-

@@ -3,7 +3,7 @@ title: "Gebäudeanalyse-Raster: Situation, Volumetrie, Grundriss, Fassade, gesch
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/05_Gebaeudeanalyse/kolloquium.pdf S. 1 (Aufgabenstellung Prüfungskolloquium, Prof. Dr. W. Oechslin/Dr. Christoph Höcker, ETH Zürich)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/05_Gebaeudeanalyse/beispielanalyse_semper.pdf S. 1-5 (Vorbemerkung + Analyse ETH-Hauptgebäude)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/05_Gebaeudeanalyse/Gebäudeanalyse.pdf S. 1-2 (Beispielanalyse Haus Steiger, Zürich 1957-60)", "raw/inventar/archiv-fachwissen__02_Architekturgeschichte.md Abschnitt Triage"]
-links: ["[[entwurfsbegriffe-struktur-huelle-architektur3-eberle]]"]
+links: ["[[entwurfsbegriffe-struktur-huelle-architektur3-eberle]]", "[[siedlungsstrukturanalyse-terrain-gebaeude-jans]]"]
 ---
 
 # Gebäudeanalyse-Raster

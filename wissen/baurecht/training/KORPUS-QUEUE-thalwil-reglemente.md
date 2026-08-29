@@ -1010,6 +1010,26 @@ kein neuer Fachinhalt, keine Wiki-Änderung, kein totes Recht gefunden. **Damit 
 Themen der Priorität (d) und alle Batches T1-T9 sowohl datei- als auch themenseitig
 geschlossen.** Bericht `outputs/2026-08-29e_thalwil-schub-lane.md`.
 
+**Prüflauf 2026-08-29f (Schub-Lane BAURECHT-THALWIL, sechster Lauf desselben Tages):**
+Quellordner erneut ausgezählt: unverändert **234 Dateien**. Statt eines sechsten Nullbefunds auf
+denselben fünf bereits erschöpften Prüfgegenständen den einzigen in `training/PROGRAMM.md`
+(Health-Check-Block, Buch-Run 115) noch als «offener Restpunkt» geführten Punkt aus dem
+Themenfeld nachgeprüft: das Thalwiler «Gebührenreglement Bauwesen», dort als über die JS-Suche
+nicht auffindbar vermerkt. **Befund: bereits stale.** Buch-Run 116 (2026-08-24) hatte das
+Reglement (SR 600.3, Fassung 1.1.2026) längst über einen Alternativweg
+(`thalwil.ch/gebuehrenthalwil`) gefunden und in [[baubewilligungsverfahren]] eingearbeitet —
+nur der Zeiger in `wiki/QUESTIONS.md` war nie nachgeführt worden (gleiche Zeiger-Fehlerfamilie
+wie die Themen-Tracker-Lücke aus Run 08-29e, hier verursacht durch die dokumentierte
+Tracker-Lücke Run 116-139 in `training/PROGRAMM.md`). Korrektur in `wiki/QUESTIONS.md`
+nachgetragen (append-only, `git diff --numstat` zeigt `+12/-0`). Frisch gegengeprüft über einen
+zweiten, unabhängigen Zugriffsweg (Kategorie 700 «Bauen» der Rechtssammlung direkt durchsucht):
+SR 600.3 erscheint dort nicht separat gelistet, was die bereits dokumentierte Zugriffsweg-Falle
+bestätigt, aber am beschafften Volltext nichts ändert. **Kein totes Recht, kein neuer
+Fachinhalt, eine echte Zeiger-Korrektur.** Damit ist auch der letzte aus dieser KORPUS-QUEUE und
+der Priorität (d) stammende offene Punkt bereinigt — es bleibt in der gesamten KB kein
+Restpunkt aus dem Thalwil-Reglemente-Korpus mehr offen, weder datei- noch themen- noch
+querverweisseitig.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

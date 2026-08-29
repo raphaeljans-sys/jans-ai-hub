@@ -3,7 +3,7 @@ title: "Atmosphären-Methode für die Ortsanalyse: Hardware- gegen Software-Erle
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/10_Protomodern/09_Die_athmospherische_Stadt/Die Architektur der Athmosphäre.docx", "raw/inventar/archiv-fachwissen__10_Protomodern.md"]
-links: ["[[genius-loci-ort-raum-nichtorte]]"]
+links: ["[[genius-loci-ort-raum-nichtorte]]", "[[blockrand-aufenthaltsqualitaet-argumentation-verdichtung-jans]]"]
 ---
 
 # Atmosphären-Methode für die Ortsanalyse

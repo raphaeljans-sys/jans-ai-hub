@@ -2909,6 +2909,18 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   bisherige Pauschalwert «1-3 ‰» lag am unteren Rand dieser Bandbreite. Belege:
   `raw/260824_amtlich_zh_thalwil-gebuehrenverordnung.md`,
   `raw/260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md`.
+  **Nachtrag (geprüft 2026-08-29, Schub-Lane BAURECHT-THALWIL, sechster Lauf): der in dieser
+  Zeile noch offen geführte Restpunkt («Gebührenreglement Bauwesen» nicht auffindbar) ist
+  stale.** Buch-Run 116 (2026-08-24, in dieser Datei nie nachgetragen — gleiche Tracker-Lücke
+  wie in `training/PROGRAMM.md` für die Läufe 116-139 dokumentiert) hat das Reglement bereits
+  gefunden und vollständig eingearbeitet: **SR 600.3 Gebührenreglement Bauwesen, Fassung
+  1.1.2026**, Zugriffsweg `thalwil.ch/gebuehrenthalwil` statt der JS-Suche. Beleg direkt in
+  [[baubewilligungsverfahren]] Abschnitt «Gebühren» («Konkretes Beispiel Thalwil») und
+  `raw/260824_amtlich_zh_thalwil-gebuehrenreglement-bauwesen.md`. Frisch am 2026-08-29 über
+  einen unabhängigen zweiten Zugriffsweg (Rechtssammlung-Kategorie 700 «Bauen» direkt
+  durchsucht statt Volltextsuche) gegengeprüft: SR 600.3 wird dort nicht separat gelistet
+  (nur SR 600.1 Gebührenverordnung erscheint), was zur bereits dokumentierten Zugriffsweg-Falle
+  passt, aber am bereits beschafften Volltext nichts ändert. Kein weiterer Restpunkt.
 - ~~**Waldabstand-Ausnahmen 20 m / 10 m**~~ ([[abstaende-und-hoehen]]): **erledigt 2026-06-11**
   per Buchbeleg — § 262 PBG, Regel 30 m, reduzierbar bis 15 m (siehe Archiv unten).
 - ~~**BZO-Richtwert-Tabelle**~~ ([[zonenkonformitaet]]): **stale, geprüft 2026-08-24 (Buch-Run
