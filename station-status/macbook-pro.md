@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 21:42:31
+Stand: 29.08.2026 21:52:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 21:42:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f4e5c4dbd architekten-synobsis: Buzzi_e_Buzzi geprueft (keine Fehlextraktion), Prioritaeten 1-4 erneut vollstaendig verifiziert
+- 4cffd1e80 Baurecht: Baulinien-Querverweis geschlossen (QUESTIONS/CHANGELOG)
