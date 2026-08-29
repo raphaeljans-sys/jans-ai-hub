@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 08:49:33
+Stand: 29.08.2026 09:10:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 08:49:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ea349d57f hub-chef 29.08.2026: Tagesbriefing gesendet, 2 Kalendereintraege (A2), AG-Abgleich nachgeholt
+- 5b4310f1b nas-selfcommit: 2 Datei(en) 2026-08-29 09:00
