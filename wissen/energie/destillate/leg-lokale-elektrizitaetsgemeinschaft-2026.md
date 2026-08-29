@@ -5,7 +5,7 @@ ausgabe: BD LEG – CH 2025 V2, vom VSE-Vorstand verabschiedet 27.06.2025 (Vorga
 gelesen: 2026-07-05 (Web via WebFetch: ekz.ch LEG-Seite + Websuche StromVG/LEG 2026); ergaenzt 2026-07-13 (gwa-energie.ch + upgrid.ch, Rp/kWh-Marktbeispiele); VOLLSTAENDIG VERIFIZIERT 2026-07-13 (Run 52, Primaerquelle BD LEG – CH 2025 V2 lokal per Read-Tool gelesen, S. 1-35)
 datenstand: revidiertes Stromversorgungsgesetz (StromVG), Volksentscheid 09.06.2024, in Kraft **1.1.2026**; Branchenempfehlung BD LEG – CH 2025 V2 verabschiedet 27.06.2025; Anmeldeanspruch fuer LEG erst ab 1.1.2026, fruehestens wirksam per 1.4.2026 (3-Monats-Frist); ⚠ Rp/kWh-Marktbeispiele Stand Juli 2026, nicht amtlich
 status: established
-last_updated: 2026-08-24 (Art. 19h StromVV als amtlicher Direktbeleg fuer 40/20 % nachgetragen; Streichung Anhang 1 der Branchenempfehlung, erster Praxisfall Lupsingen, Negativbefund amtliche Statistik)
+last_updated: 2026-08-29 (Run 167: amtlicher Erlaeuternder Bericht BFE vom 19.02.2025 schliesst die Speicher-Messkonzepte Fall 1-4 amtlich; ElCom-Fachsekretariat widerspricht einer VSE-Vorgabe zu Netzebenen; sechs weitere amtliche ElCom-Klaerungen Kapitel 9 FAQ ES2050)
 ---
 
 # LEG — Lokale Elektrizitaetsgemeinschaft (Solarstrom uebers oeffentliche Quartiernetz teilen)
@@ -187,10 +187,12 @@ amtlich erhobene Durchschnittstarife. Zwei unabhaengige Suchwege, kein Treffer a
 Monitoring-Dokument. Wer eine solche Zahl nennt, nennt eine Schaetzung.
 
 ## Offene Punkte
-- **Neu:** die im BD-LEG-Dokument (Kapitel 8) beschriebenen erlaubten Messkonzepte für Speicher in
-  der LEG sind noch nicht direkt am Primärtext verifiziert, nur über den Batteriemonitor 2026
-  bekannt — nächster Schritt: BD-LEG-PDF (bereits als established gelesen) gezielt auf Kapitel 8
-  erneut prüfen.
+- ~~die im BD-LEG-Dokument (Kapitel 8) beschriebenen erlaubten Messkonzepte für Speicher in der LEG
+  sind noch nicht direkt am Primärtext verifiziert~~ ✓ erledigt (29.08.2026, Run 167) — nicht am
+  BD-LEG-Text selbst, sondern amtlich noch belastbarer: der Erläuternde Bericht des BFE vom
+  19.02.2025 beschreibt die vier Speicher-Fälle (Fall 1-4) inkl. Rückerstattungsformel direkt und
+  ausdrücklich unter Verweis darauf, dass die weitere Detailumsetzung den Branchenrichtlinien (also
+  BD-LEG) obliegt — siehe Nachtrag unten.
 - ~~VSE-Branchenempfehlung LEG (BD-LEG) als Primärquelle noch nicht seitengenau destilliert~~ ✓ erledigt
   (13.07.2026, Run 52) — die amtliche Primärquelle (BD LEG – CH 2025 V2, 35 Seiten) wurde vollständig
   lokal per Read-Tool gelesen; alle Kernaussagen (40 %/20 %-Rabatt, 5 %-Mindestverhältnis, keine
