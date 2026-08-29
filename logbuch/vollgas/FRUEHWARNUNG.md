@@ -3510,3 +3510,85 @@ ein falsches Leerergebnis, hier ein falscher Ueberschuss.
 **Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
 Kontingent-Erschoepfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag oder Aufwand ohne
 Wissenszuwachs.
+
+## 2026-08-29 07:15 CEST — Rohblock (Messung zuerst, Bewertung folgt unten)
+
+**Tagesverbrauch teuer / total (Mio Token), beide Stationen, rekursives Glob inkl. Subagenten:**
+
+MacBook Pro: 23.08. 18.50/458.66 · 24.08. 8.65/214.98 · 25.08. 7.89/178.59 · 26.08. 7.02/159.88 ·
+27.08. 8.60/189.52 · **28.08. 8.88/236.61** · 29.08. (bis 07:15) 1.77/35.70.
+
+Mac Mini (gemessen ueber den Alias `ssh mini`, nativ): 23.08. 53.17/1710.92 · 24.08. 46.70/1611.21 ·
+25.08. 2.88/83.14 · 26.08. 1.18/44.81 · 27.08. 1.11/26.38 · **28.08. 2.20/82.06** ·
+29.08. (bis 07:15) 0.29/6.13.
+
+**Summe beider Stationen 28.08.: 11.08 Mio teuer.** Beide Stationen im Band, MacBook Pro (3-15)
+und Mini unauffaellig. Kriterium (b) nicht erreicht (Schwellen 35 Mio an einem Tag bzw. 18 Mio an
+zwei Folgetagen).
+
+Messzeitpunkt 29.08.2026 07:15 CEST, Fenster 9 Tage nach mtime vorgefiltert, je Zeile nach
+timestamp[:10] gruppiert, Duplikate ueber (message.id, requestId) ausgeschlossen.
+
+**Bewertung — keines der sieben Meldekriterien erreicht, nicht gemailt.**
+
+(a) **Keine echten Limit-Fehlerereignisse** in 24 h, strukturell geprueft ueber 190 Dateien
+(isApiErrorMessage / type=error / apiErrorStatus 429 in Verbindung mit einem Limit-Text).
+Kontrollprobe bestanden: `scheduled-task` kommt in 76 ersten Eingaben vor, das Muster greift.
+(b) 11.08 Mio teuer gesamt am 28.08. — weit unter 35 Mio, kein zweiter Folgetag ueber 18 Mio.
+(c) Kein erschoepftes Wochenkontingent. (d) Alle vier operativen Briefings haben ihr Deliverable
+erreicht: `logbuch-radar` heute 07:08 (Commit f7ca658b6), `hub-chef-taeglich` 28.08. Briefing
+gesendet 08:56:27 (8'040 Zeichen, verifiziert in den Gesendeten), `mahnwesen-verzugscheck` und
+`zahlungsabgleich-check` je sauber mit dokumentiertem Blocker beendet (bexio HTTP 401, zwanzigster
+bzw. vierzehnter blinder Tag — bereits im Register, kein Zweitkanal noetig).
+(e) **Radar-Herzschlag da:** `vollgas-chef-radar` zuletzt 29.08. 00:59:49, Alter 6.3 h.
+(f) Kein Aufwand ohne Wissenszuwachs — jeder verbrauchende Loop weist ein Liefer-Delta aus
+(normen Run 65, energie Run 166, wissens-chef Run 46, twin-mail Batch 108, Nachtschicht 05:30).
+(g) Die Queue meldet nicht «KORPUS-QUEUE KOMPLETT».
+
+**Stueckkosten 28.08.: 1.01 Mio Token je Artikel** (11.08 Mio auf 11 Artikel, git-gezaehlt).
+Ohne die sechs Twin-Facetten, die der Fidelity-Review taeglich anfasst: **2.22 Mio je Artikel**
+(5 Artikel). Reihe der Vortage (git, ohne twin): 25.08. 16 · 26.08. 4 · 27.08. 6 · 28.08. 5.
+
+**1 — Neuer Messbefund: mtime taugt NICHT als Herzschlag-Signal.** Die erste Messung wies neun
+Tasks mit exakt «2.0 h» aus; nachgemessen lagen ihre Dateizeiten auf **05:15:43/44, also innerhalb
+einer Sekunde**. Das ist kein Beleg fuer neun Laeufe, sondern ein Sammel-Anfassen der Dateien.
+Haette ich es uebernommen, waeren vier Briefings und der Radar faelschlich als «heute frueh
+gelaufen» quittiert worden. Richtig ist der **letzte timestamp INNERHALB der Datei**; damit ergibt
+sich das reale Bild (Briefings 22-23 h alt, weil sie erst um 08:00-09:00 feuern und heute noch
+ausstehen). Gleiche Familie wie die Opener-Fallen vom 18.08. (falsches Leerergebnis) und vom
+28.08. (falscher Ueberschuss): **das Werkzeug zuerst verdaechtigen, nicht die Anlage.**
+
+**2 — `inventar.sh --stand` liefert fuer beide aktiven Korpora eine falsche Null.** Abfrage heute:
+`buero-referenzen` und `archiv-fachwissen` je `sektionen=0/0 dateien_inventarisiert=0`. Tatsaechlich
+liegen **43 Inventar-Belege** unter `wissen/architektur-fachwissen/raw/inventar/`. Ursache: das
+Werkzeug liest seinen Stand aus `skills/wissens-destillat/training/<korpus>-sektionen.md`; diese
+Registerdatei existiert fuer `bauprodukte` (43 Zeilen) und `buero-projekte` (27 Zeilen), **fehlt
+aber fuer Korpus 3 und 4**. Das ist genau die Kennzahl (a) FORTSCHRITT, auf die Fruehwarnung und
+Radar ihre Delta-Null-Beurteilung stuetzen — sie ist derzeit blind und meldet Stillstand, wo
+Inventararbeit vorliegt. Gehoert dem Radar vorgelegt.
+
+**3 — Destillat-Front steht den sechsten Tag, Ziel-KB weiterhin bei null Artikeln.**
+`wissen/architektur-fachwissen/wiki/` enthaelt 0 Artikel, juengster Lauf-Report ist unveraendert
+`2026-08-23_korpus-erschliessung.md`. Fuer Korpus 3 und 4 fehlt die **Spec** (Kriterium
+Spec-Gate), und `korpus.conf` traegt fuer beide **nur technische Ausschluesse**
+(@eaDir, thumb, .DS_Store, ~$, #recycle) — die von Rule 260823 verlangte Ausschlussliste
+(Vertraege, Bewerbungen/Portfolios, Personal-, Lohn- und Adressdaten) ist dort **nicht
+hinterlegt**. Solange der Loop pausiert, ist das folgenlos; wuerde er auf der heutigen Konfiguration
+wieder angeworfen, liefe er in genau die Ordner, die den Vorfall vom 23.08. ausgeloest haben.
+Kein Sendegrund, aber der wichtigste Punkt fuer den Radar.
+
+**4 — Die Nachtschicht faellt den dritten Lauf in Folge auf Prioritaet 5 durch.** 28.08. 21:34,
+29.08. 00:32 und 03:32 melden uebereinstimmend «Prioritaeten 1-4 leer bzw. nicht anwendbar» und
+weichen auf Namensrecherche der KB `architekten-synobsis` aus (Sammelfrage Charge 1 jetzt 14/14
+vollstaendig, je Name einzeln belegt). Die Laeufe liefern sauber und guenstig — aber der eigentliche
+Rueckstand ist leer. Zusammen mit Punkt 3 ist das Entscheidungsmaterial fuer Raphael: neuer Korpus
+mit Spec und Ausschlussliste, oder Ruecktaktung der Nachtschicht.
+
+**5 — Gate-Log Mac Mini unveraendert, dritter Tag.** `logbuch/speicher/gate-Macmini.log` weiterhin
+**19 Zeilen, letzte Zeile 24.08. 05:30**, nativ per ssh nachgemessen. Seither rund zwanzig gefeuerte
+Slots ohne eine einzige FREIGABE-/ABGEWIESEN-Zeile, waehrend `gate-Macbookpro.log` frisch bleibt.
+Harmlos bei entspanntem Kontingent, aber es ist die Messgrundlage jeder Drossel-Entscheidung.
+
+**Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
+Kontingent-Erschoepfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag oder Aufwand ohne
+Wissenszuwachs.
