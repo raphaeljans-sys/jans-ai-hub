@@ -1,5 +1,63 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Sechster Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern` (Lane FACHWISSEN, Fortsetzung)
+
+Alle 13 P1-Positionen der Sektion `10_Protomodern` destilliert (nächste Position in der
+Ertrag-Rangfolge nach `02_Architekturtheorie`, siehe `wiki/INDEX.md` «Sektionen nach
+Ertrag»). Die Sektion ist kein Kursarchiv, sondern das private, nie abgeschlossene
+Manifest-/Buchprojekt «Protomodern» von Raphael Jans (April 2013 bis Mai 2014); alle 13
+Primärquellen im Original gelesen (docx via `textutil`, ein PDF via PyMuPDF, da
+`pdftotext` auf dieser Station nicht installiert ist). Elf Wiki-Artikel neu geschrieben
+(zwei sachlich zusammengehörige Dateipaare zu je einem Artikel zusammengefasst), alle
+`status: emerging`:
+
+- [[protomodern-projektrahmen-professurenlandkarte]] — Projektidee/Zeitrahmen (Biennale
+  2012 als Eigensetzung des Projektstarts) und die private Professuren-Landkarte
+  «Modern»/«Proto Modern» (rund 40 ETH-Professuren, Stand 2013/14)
+- [[protofunktional-begriff-abgrenzung-funktionalismus]] — Leitbegriff der Sektion,
+  abgegrenzt vom Funktionalismus des 20. Jahrhunderts
+- [[fuenf-punkte-gegenmanifest-corbusier-jans]] — Gegenmanifest zu Le Corbusiers fünf
+  Punkten, mit historischen Referenzbauten statt modernistischer Vorbilder
+- [[atmosphaeren-methode-ortsanalyse-hardware-software-erlebnis]] — Hardware-/
+  Software-Erlebnis-Trennung, Gleichung «Raumatmosphäre minus Sozialsphäre gleich
+  autonomer Phänotyp»
+- [[backstein-materialargumentation-zwei-ausdrucksarten]] — homogene Wandmasse gegen
+  sprechenden Einzelstein
+- [[fassadenbeschreibung-methode-laon-rossi-analogie]] — Rossi-Analogie plus
+  Fassadenbeschreibungsmuster am Beispiel der Kathedrale von Laon
+- [[kerez-forsterstrasse-einkleidung-gegen-semper-stoffwechseltheorie]] — «Einkleidung
+  statt Bekleidung» als Umkehrung von Sempers Stoffwechseltheorie
+- [[bauen-im-bestand-haltungstext-die-stadt-war-vor-uns-da]] — Gast-Gleichnis als
+  Haltungstext zum Bauen im Bestand
+- [[rohbauaesthetik-fassadenverteidigung-fussballstadion-zuerich-adi-meyer]] — «andere
+  Form von Schatten, nicht andere Form von Form» (Adi Meyer, Vortragsmitschrift 2013)
+- [[entwurfs-phasenmodell-leitidee-iterativ]] — Skizze als Absichtserklärung, Leitidee
+  als Prüfmassstab
+- [[regel-und-ausnahme-stadtentwicklung-schett-jahreskurs]] — Mechanik des
+  Stadtwachstums, «die Ausnahme bestätigt die Regel» (Fremdtext Wolfgang Schett,
+  Jahreskurs-Anmerkungen 2012)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__10_Protomodern.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` zeigt `47 0`).
+`wiki/INDEX.md` nachgeführt (reiner Append, `36 0`).
+
+**Kein Fund aus der Sperrliste.** Laut Kurzbefund der Inventardatei enthält die Sektion
+keine Verträge, Bewerbungen, Personaldossiers, Adress- oder Honorardaten; vorkommende
+Personennamen sind öffentliche Fachpersonen (ETH-Professuren, ein Vortragender, eine
+Seminardiskussion) im Rahmen einer Lehr-/Theoriearbeit. In der Laon-Fassadenbeschreibung
+auftretende Pseudonyme aus dem Seminarumfeld (nicht identifizierbare Personen) wurden
+bewusst nicht in einen Artikel übernommen. Urheberrechtsvorbehalt beachtet: der Fremdtext
+Schett und die Vortragsmitschrift Adi Meyer wurden sinngemäss mit Fundstelle
+wiedergegeben, nur kurze, gekennzeichnete Kernformulierungen direkt zitiert; eigene
+Texte von Raphael Jans durften wörtlich zitiert werden, da kein Drittrecht betroffen ist.
+
+**P2 der Sektion (33 Positionen) bleibt vollständig offen** (u. a. das
+Ornament-Forschungskonvolut Sullivan/Di Stefano/Kamphans, das Rowe/Koetter-«Collage
+City»-Konvolut, das Šik-Interview, elf weitere kurze Eigen-DOCX). **Damit ist Sektion
+`10_Protomodern` für P1 vollständig destilliert.** Nächste Position gemäss
+`wiki/INDEX.md` «Sektionen nach Ertrag»: `02_Architekturgeschichte` (11 P1) oder
+`02_Kunst_Geschichte` (11 P1, sehr dünn im Verhältnis zu 27'649 gesichteten Dateien).
+
 ## 2026-08-29 — Fünfter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie` (Lane FACHWISSEN, Fortsetzung)
 
 Alle 10 P1-Positionen der Sektion `02_Architekturtheorie` destilliert (nächste Position in der

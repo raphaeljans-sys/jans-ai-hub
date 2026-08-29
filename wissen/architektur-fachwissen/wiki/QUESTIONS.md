@@ -425,3 +425,32 @@ Juryberichte/-programme in `04_Wettbewerbe` bleibt offen.** In diesem Lauf wurde
 Cluster nur drei Belegstellen (Betonforum) bzw. ein Jurybericht (Zollstrasse Ost)
 volltextlich gelesen. Lohnt sich für einen Folgelauf, sobald ein konkreter Anlass
 (Sichtbeton-Ausschreibung bzw. Aufbau der KB `wettbewerbs-dna`) ansteht.
+
+## 260829 — Sechster Destillat-Lauf Korpus 4, Sektion `10_Protomodern`
+
+Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion
+`10_Protomodern`, elf Wiki-Artikel aus dem privaten Manifestprojekt «Protomodern» von
+Raphael Jans (2013/14). Details je P1-Position im Abschnitt `## Destillat-Fortschritt`
+von `raw/inventar/archiv-fachwissen__10_Protomodern.md`.
+
+**#45 Herkunft/Status des Fremdtexts Schett unklar.** Der Text
+`Schett_120709_Anmerkungen_zum_Jahreskurs.pdf` liegt im Ordner `04_Texte/00_ugueltig`
+(namentlich «ungültig»). Unklar, ob der Jahreskurs-Text später revidiert oder durch eine
+neuere Fassung ersetzt wurde. In
+[[regel-und-ausnahme-stadtentwicklung-schett-jahreskurs]] als offener Punkt vermerkt; vor
+Zitierung in einem ausgehenden Dokument gegen eine aktuellere Fassung prüfen, falls
+auffindbar.
+
+**#46 Professuren-Landkarte «Modern»/«Proto Modern» ist private, unbelegte Setzung.**
+`10_Professureinteilung/Modern.docx` ordnet rund 40 ETH-Professuren zwei selbst gewählten
+Lagern zu (siehe [[protomodern-projektrahmen-professurenlandkarte]]). Diese Klassifikation
+ist nirgends publiziert oder extern bestätigt und darf nie als anerkannte
+kunsthistorische Autorität zitiert werden, nur als eigene Positionierungshilfe. Ebenfalls
+ungeklärt: der Name «Urspung» in der Liste lässt sich keinem eindeutig bekannten
+ETH-Professor zuordnen (möglicher Verschrieb im Original).
+
+**#47 519-Dateien-Bestand der Sektion enthält weiterhin 46 unlesbare Scans ohne OCR.**
+Fachlich gewichtige Quellen (Kollhoff zur Tektonik, Owen Jones zum Renaissance-Ornament,
+Uhde Band 4 Holzbau, Alberti aus dem Lampugnani-Quellentextband) bleiben ohne OCR
+unzugänglich. Kein Handlungsbedarf für den Abschluss der P1-Schicht, aber ein möglicher
+Kandidat für einen späteren OCR-Auftrag ausserhalb dieses Skills.

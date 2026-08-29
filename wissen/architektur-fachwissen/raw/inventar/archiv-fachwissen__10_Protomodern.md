@@ -126,3 +126,50 @@ der Ordnerbaum als eigene Quelle mitzuführen.
 Quellen ohne Textebene (Kollhoff zur Tektonik, Owen Jones zum Ornament, Uhde zum Holzbau,
 Alberti). Ohne OCR bleiben sie unlesbar. Ob sich der OCR-Aufwand lohnt, ist eine Entscheidung
 für später und keine Voraussetzung für die Verwertung der P1-Schicht.
+
+## Destillat-Fortschritt
+
+**Sechster Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern` — 29.08.2026
+(Lane FACHWISSEN, Fortsetzung).** Alle 13 P1-Positionen destilliert, alle 13 Primärquellen im
+Original gelesen (docx via `textutil`, PDF via PyMuPDF). Elf Wiki-Artikel nach Sache statt
+Datei (zwei Dateipaare sachlich zusammengefasst: Konzept+Professureinteilung,
+Fassadenprogrammtext+Laon-Fassadenbeschreibung), alle `status: emerging`:
+
+- [[protomodern-projektrahmen-professurenlandkarte]] — Projektidee/Zeitrahmen
+  (`Konzept_Protomodern.docx`) + Professuren-Landkarte Modern/Proto Modern (`Modern.docx`)
+- [[protofunktional-begriff-abgrenzung-funktionalismus]] — Leitbegriff der Sektion
+- [[fuenf-punkte-gegenmanifest-corbusier-jans]] — Fünf-Punkte-Gegenmanifest zu Le Corbusier
+- [[atmosphaeren-methode-ortsanalyse-hardware-software-erlebnis]] — Hardware-/Software-Erlebnis,
+  Phänotyp-Gleichung
+- [[backstein-materialargumentation-zwei-ausdrucksarten]] — Ziegelstein: homogene Wandmasse
+  gegen sprechenden Einzelstein
+- [[fassadenbeschreibung-methode-laon-rossi-analogie]] — Rossi-Analogie + Laon-Fassaden-
+  beschreibung als Beschreibungsmuster
+- [[kerez-forsterstrasse-einkleidung-gegen-semper-stoffwechseltheorie]] — Einkleidung statt
+  Bekleidung, Umkehrung Sempers Stoffwechseltheorie
+- [[bauen-im-bestand-haltungstext-die-stadt-war-vor-uns-da]] — Gast-Gleichnis
+- [[rohbauaesthetik-fassadenverteidigung-fussballstadion-zuerich-adi-meyer]] — «andere Form
+  von Schatten, nicht andere Form von Form» (Adi Meyer, Vortragsmitschrift)
+- [[entwurfs-phasenmodell-leitidee-iterativ]] — Skizze als Absichtserklärung
+- [[regel-und-ausnahme-stadtentwicklung-schett-jahreskurs]] — Mechanik des Stadtwachstums,
+  Ausnahme bestätigt die Regel (Wolfgang Schett, Fremdtext, urheberrechtlich geschützt)
+
+**Sperrlisten-Prüfung:** kein Fund. Sektion enthält laut Kurzbefund keine Verträge,
+Bewerbungen, Personaldossiers, Adress- oder Honorardaten; vorkommende Personennamen sind
+öffentliche Fachpersonen (ETH-Professuren, Vortragende, Seminarteilnehmende mit Pseudonym) im
+Rahmen einer Lehr-/Theoriearbeit. Pseudonyme aus der Laon-Mitschrift (z. B. «kleiner
+Schwule», «Tunte, Nazischuhe») bewusst nicht in einen Artikel übernommen.
+
+**Urheberrecht:** Der Fremdtext Schett (`04_Texte/00_ugueltig/Schett_120709_...pdf`) sowie die
+Vortragsmitschrift Adi Meyer wurden sinngemäss mit Fundstelle wiedergegeben, keine grösseren
+Passagen wörtlich übernommen (kurze, gekennzeichnete Kernformulierungen ausgenommen, analog
+zum bereits etablierten Verfahren bei Architektenzitaten in `02_Gestalt_Kulturverstaendnis`).
+Eigene Texte von Raphael Jans wurden teils wörtlich zitiert, da kein Drittrecht betroffen ist.
+
+**P2 (33 Positionen) bleibt vollständig offen** — u. a. das Ornament-Forschungskonvolut
+(Sullivan/Di Stefano/Kamphans), das Rowe/Koetter-«Collage-City»-Konvolut, das Šik-Interview,
+der Caruso-Reader-Auszug, elf weitere kurze Eigen-DOCX sowie die Wikipedia-/
+Wiktionary-Begriffsblätter. **Damit ist Sektion `10_Protomodern` für P1 vollständig
+destilliert.** Nächste Position gemäss `wiki/INDEX.md` «Sektionen nach Ertrag»:
+`02_Architekturgeschichte` (11 P1) oder `02_Kunst_Geschichte` (11 P1, sehr dünn im Verhältnis
+zum Gesamtbestand).

@@ -4,6 +4,21 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, fuenfter Folgelauf) — Stichprobenverifikation, keine neue Position gefunden
+
+Unabhaengige Gegenpruefung des vierten Folgelaufs, nicht nur Protokoll gelesen: `wiki/QUESTIONS.md` per
+gezieltem Grep auf alle vier Prioritaeten (Fehlextraktion/Textauszug, Kollision, Sonderzeichen, Sammelfrage
+Charge 1-6) durchsucht sowie die vier Katalog-Kollisionsdateien (`Christ_Gantenbein`, `Enzmann_Fischer`,
+`Miller_Maranta`, `Gigon_Guyer`) direkt per Python geladen — `quellordner`-Feld traegt in allen vieren beide
+Quellordner, Projektzahlen stimmen mit den protokollierten Werten ueberein. Alle 14 umbenannten Sonderzeichen-
+Katalogdateien (u.a. `Šuchov_Vladimir_...`, `Tusquet_Oscar_Clotet_Lluìs`, `Dürr_Otto`, `Förderer`,
+`Hönger_Giulliani`) im Dateisystem bestaetigt vorhanden. `git status`/`git diff --numstat` im KB-Ordner leer,
+Arbeitsbaum sauber, keine Katalog-JSON in dieser Session veraendert. Ergebnis identisch zu den vier
+Vorlaeufen: alle vier zugewiesenen Prioritaeten sind erledigt, ausser den bereits mehrfach protokollierten,
+echten Freigabesachen (NAS-Ordner-Umbenennungen/-Zusammenfuehrungen) und den rund elf Sammelfrage-Namen
+ohne belastbaren Websuche-Treffer (bleiben korrekt offen). Kein Anlass fuer einen weiteren Folgelauf vor
+einem inhaltlich neuen Ereignis (z.B. dem naechsten regulaeren `--reindex`-Batch).
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, vierter Folgelauf) — Scanner-Root-Cause fuer Kollision und Sonderzeichen behoben, nicht nur Katalogdaten
 
 Eigene Gegenpruefung vor Beginn bestaetigte den protokollierten Stand der drei Vorlaeufe (Fehlextraktionen,

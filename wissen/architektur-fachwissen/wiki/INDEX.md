@@ -544,3 +544,39 @@ Fortschritt in `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschn
 «Destillat-Fortschritt». Kein Sperrlisten-Fund. P2 bleibt vollständig offen (rund 190
 Vorlesungsmitschriften, 31 Syllabi, Vorlesungsfolien-Sammel-PDF). Nächster Lauf gemäss
 Ertrag-Tabelle: `10_Protomodern` (13 P1).
+
+**Sechster Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern` (Zeile 06
+oben) — Lane FACHWISSEN, selber Tag, Fortsetzung.** Sektion vollständig destilliert: alle 13
+P1-Positionen, elf Wiki-Artikel nach Sache statt Datei, alle `status: emerging`. Die Sektion
+ist kein Kursarchiv, sondern das private, nie abgeschlossene Manifestprojekt «Protomodern»
+von Raphael Jans (2013/14):
+
+- [[protomodern-projektrahmen-professurenlandkarte]] — Projektidee, Professuren-Landkarte
+  Modern/Proto Modern
+- [[protofunktional-begriff-abgrenzung-funktionalismus]] — Leitbegriff der Sektion
+- [[fuenf-punkte-gegenmanifest-corbusier-jans]] — Gegenmanifest zu Le Corbusier
+- [[atmosphaeren-methode-ortsanalyse-hardware-software-erlebnis]] — Hardware-/Software-
+  Erlebnis als Ortsanalyseraster
+- [[backstein-materialargumentation-zwei-ausdrucksarten]] — Materialargumentation Backstein
+- [[fassadenbeschreibung-methode-laon-rossi-analogie]] — Fassadenbeschreibungsmethode am
+  Beispiel Laon
+- [[kerez-forsterstrasse-einkleidung-gegen-semper-stoffwechseltheorie]] — Einkleidung statt
+  Bekleidung
+- [[bauen-im-bestand-haltungstext-die-stadt-war-vor-uns-da]] — Gast-Gleichnis Bauen im Bestand
+- [[rohbauaesthetik-fassadenverteidigung-fussballstadion-zuerich-adi-meyer]] — Rohbauästhetik-
+  Verteidigung, Fussballstadion Zürich
+- [[entwurfs-phasenmodell-leitidee-iterativ]] — Entwurfs-Phasenmodell
+- [[regel-und-ausnahme-stadtentwicklung-schett-jahreskurs]] — Mechanik des Stadtwachstums
+  (Fremdtext Schett)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__10_Protomodern.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` zeigt `47 0`). Kein
+Sperrlisten-Fund (Sektion enthält laut Kurzbefund keine Verträge/Bewerbungen/Personaldossiers/
+Adress-/Honorardaten; vorkommende Personennamen sind öffentliche Fachpersonen oder
+Seminarteilnehmende mit Pseudonym, Letztere bewusst nicht in einen Artikel übernommen).
+Urheberrecht beachtet: der Fremdtext Schett und die Vortragsmitschrift Adi Meyer sinngemäss
+mit Fundstelle wiedergegeben, nur kurze gekennzeichnete Kernformulierungen direkt zitiert.
+P2 (33 Positionen) bleibt vollständig offen. **Damit ist Sektion `10_Protomodern` für P1
+vollständig destilliert.** Nächste Position gemäss Ertrag-Tabelle: `02_Architekturgeschichte`
+(11 P1) oder `02_Kunst_Geschichte` (11 P1, sehr dünn im Verhältnis zu 27'649 gesichteten
+Dateien).
