@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 21:11:41
+Stand: 29.08.2026 21:21:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 21:11:41
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 383263122 architekten-synobsis: Sammelfrage Charge 5 (24/24) und Charge 6 (26/26) recherchiert, Kollisions-Querverweise ergaenzt
+- c674862cc normen Run 67: N62-3-Kandidatenliste abgeschlossen — Abdeckungsrichtung vkf-ah-1001-15-wohnbauten (5 Kern-/9 Nebenluecken) und vkf-brl-16-15-flucht-rettungswege (6 Kern-/2 Nebenluecken), 0 falsche Normwerte, 1 Quellenaussage-Korrektur inline; alle 6 Rang-1-4-Kandidaten jetzt mit Pruefstand
