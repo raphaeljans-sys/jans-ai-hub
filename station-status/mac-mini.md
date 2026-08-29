@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 20:59:25
+Stand: 29.08.2026 21:09:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 20:29)
+- /Users/raphaeljans  (letzte Aktivitaet 21:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 20:59:25
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 81c130bbe architekten-synobsis: Fehlextraktionen Charge 4/6 korrigiert, Sammelfrage Charge 4 (36/36) recherchiert
+- 383263122 architekten-synobsis: Sammelfrage Charge 5 (24/24) und Charge 6 (26/26) recherchiert, Kollisions-Querverweise ergaenzt
