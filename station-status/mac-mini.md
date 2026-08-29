@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 07:27:20
+Stand: 29.08.2026 07:37:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 07:27:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5ad519007 vollgas-fruehwarnung 29.08.2026: still beendet, kein Meldekriterium; mtime untauglich als Herzschlag, inventar.sh meldet falsche Null fuer Korpus 3+4
+- 6e217c491 nas-selfcommit: 2 Datei(en) 2026-08-29 07:30
