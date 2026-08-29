@@ -4,6 +4,49 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 23:55 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Parser-Verfeinerung Sektion 4 umgesetzt (Code, nicht Daten)
+
+Position wie in den Vorlaeufen per `git log`/`git status`/`git diff --numstat` uebernommen:
+alle vier im Auftrag genannten Prioritaeten (Fehlextraktionen, Katalog-Kollisionen,
+Sonderzeichen-Regel, Sammelfrage Charge 2 ff.) waren bereits vollstaendig erledigt und
+gepusht (letzter Stand `6cf41b314`, `origin/main == HEAD`). Naechster in den Vorlaeufen
+explizit offen gelassener Punkt war die Parser-Verfeinerung in `tools/synobsis_scan.py`
+(Sektion 4 QUESTIONS.md): nummerierte generische Ablagestruktur (`00_Architekten`,
+`01_Projekte`, `02_Wettbewerb`, ...) wurde bislang als eigenes "Projekt" gezaehlt.
+
+**Umgesetzt:** `scan_architect()` erkennt jetzt direkte Kindordner, deren Name mit ein
+bis zwei Ziffern plus Trenn­zeichen beginnt (`GENERIC_STRUCTURE_RE = r"^\d{1,2}[_ ]"`), zaehlt
+sie nicht mehr selbst als Projekt, sondern sucht eine Ebene tiefer nach echten
+Projektordnern. Vor dem Schreiben read-only verifiziert: Stichprobe der in QUESTIONS.md
+namentlich genannten Ordner (Archigram, Alexander_Christoph, Sik_Miroslav, Gigon_Guyer,
+Christ_Gantenbein — letztere zwei als Regressionstest fuer die bereits geloesten
+Kollisionsfaelle, unveraendert) sowie 40 zufaellig gezogene Architekten-Ordner aus dem
+gesamten Bestand, keine Fehler. Quer durch den Katalog matchen 766 Ordnereintraege in 70
+wiederkehrenden Strukturnamen dieses Muster (`00 Architekt`, `01_Projekte`,
+`02_Wettbewerb`, `Adressen`-Container etc.), also deutlich mehr als die im Auftrag
+geschaetzten "rund zwei Dutzend" — die Schaetzung bezog sich offenbar nur auf Charge 5/6.
+
+**Bewusst NICHT gemacht:** kein `--reindex`-Lauf. Das wuerde alle 853 Katalog-JSONs
+(rund 390'000 Quelldateien ueber SMB) neu schreiben — ein grosser, langwieriger Eingriff,
+der in den Batch-Betrieb (`synobsis_batch.sh`, launchd-Takt) gehoert und nicht in einen
+einzelnen Schub-Lane-Lauf. Der Code-Fix wirkt daher erst auf zukuenftig verarbeitete
+oder neu indexierte Architekten; die 853 bestehenden Katalogdateien tragen die alten
+(zu hohen) `projekt_anzahl`-Werte unveraendert weiter, bis ein regulaerer Reindex laeuft.
+Kein Katalog-JSON in dieser Session veraendert (`git diff --numstat` auf `synobsis_scan.py`
+zeigt `23 3`, auf `QUESTIONS.md` `7 7` — exakt die sieben mit Datum/Lane markierten
+Sammelvermerke, keine unbeabsichtigten Nebenaenderungen).
+
+**Aenderung in `wiki/QUESTIONS.md`:** die sieben ueber Charge 1/6 bis 6/6 verstreuten
+"Parser-Verfeinerung bleibt offen"-Vermerke (Sektion 4) mit `**TEILBEHOBEN**` markiert;
+Details in der ersten (Zeile 328), Kurzverweis in den uebrigen sechs.
+
+**Offen fuer den naechsten Lauf:** (1) den naechsten regulaeren `--reindex`/Batch-Lauf
+abwarten oder anstossen, dann `projekt_anzahl` gegen die alten Werte stichprobenartig
+gegenpruefen; (2) die drei in den Vorlaeufen benannten Restkategorien (Kapazitaets-
+entscheide bekannter Bueros, private JANS-Kontextfragen ohne oeffentliche Quellenlage,
+freigabepflichtige NAS-Umbenennungen/-Zusammenfuehrungen) bleiben Sache fuer Raphael,
+nicht per Datenebene/WebSearch loesbar.
+
 ## 2026-08-29 22:40 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Wagner-Sammelfrage geklaert, alle vier Prioritaeten erneut als erledigt verifiziert
 
 Beim Uebernehmen der Position per `git log`/`git status`/`git diff --numstat` (SSD-Klon und

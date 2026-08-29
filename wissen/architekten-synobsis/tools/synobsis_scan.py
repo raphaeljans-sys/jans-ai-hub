@@ -53,6 +53,11 @@ YEAR_RE = re.compile(r"(1[5-9]\d{2}|20[0-4]\d)")
 REFERENZBILD_MARKERS = {"best", "bestever", "auswahl"}
 MAX_REFERENZBILDER = 20
 
+# Generische Ablagestruktur (00_Architekten, 01_Projekte, 02_Wettbewerb, ...):
+# selbst kein Projekt, siehe QUESTIONS.md Sektion 4. Echte Projektordner tragen
+# "Ort_Projekt_Jahr" und beginnen nie mit einer ein- oder zweistelligen Zahl.
+GENERIC_STRUCTURE_RE = re.compile(r"^\d{1,2}[_ ]")
+
 MAX_PDF_PAGES = 6
 MAX_TEXT_CHARS = 8000   # pro Architekt-Dokument fuer das spaetere Embedding
 
@@ -149,13 +154,28 @@ def scan_architect(adir):
     # Referenzbilder aus kuratierten Ordnern
     referenzbilder = []
 
-    # direkte Kindordner = Projekte (ausser Hilfsordner 00_Architekt)
+    # direkte Kindordner = Projekte (ausser Hilfsordner 00_Architekt und
+    # generischer Ablagestruktur 00_Projekte/01_Wettbewerb/...); bei generischer
+    # Ablagestruktur eine Ebene tiefer nach echten Projektordnern schauen.
     for child in sorted(adir.iterdir()):
         nm = child.name
         if nm in ("@eaDir",) or nm.startswith("."):
             continue
-        if child.is_dir() and nm not in ("00_Architekt",):
-            projects.append(parse_project(nm))
+        if not child.is_dir() or nm == "00_Architekt":
+            continue
+        if GENERIC_STRUCTURE_RE.match(nm):
+            try:
+                sub_children = sorted(child.iterdir())
+            except OSError:
+                sub_children = []
+            for sub in sub_children:
+                snm = sub.name
+                if snm in ("@eaDir",) or snm.startswith("."):
+                    continue
+                if sub.is_dir() and not GENERIC_STRUCTURE_RE.match(snm):
+                    projects.append(parse_project(snm))
+            continue
+        projects.append(parse_project(nm))
 
     # Dateien rekursiv inventarisieren + Text aus PDF/DOCX
     for dirpath, dirnames, filenames in os.walk(adir):
