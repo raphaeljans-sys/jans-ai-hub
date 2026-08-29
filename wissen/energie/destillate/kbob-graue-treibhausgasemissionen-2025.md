@@ -143,6 +143,7 @@ befriedigend↔unbefriedigend, kalibriert an den Richtwerten des Effizienzpfads 
 
 Haustechnik-Bauteile (alle Nutzungen, kg CO₂/m² Bauteilflaeche bzw. Energiebezugsflaeche AE):
 PV-Anlage **13.3**, therm. Solarkollektoren **5.2**, Erdsonden **0.3** (je kg CO₂/m²·a).
+⚠ **Diese drei Haustechnik-Werte sind quellentreu fuer die Minergie/eco-bau-Anleitung V1.3 (31.03.2021), aber NICHT MEHR AKTUELL.** Die Anleitung wurde durch **V2023.3 (26.11.2024)** abgeloest: PV-Anlage **7.1** statt 13.3 (Faktor ~0,53), Solarkollektoren **5.6** statt 5.2; Erdsonden unveraendert. Fuer heutige Aussagen die Werte aus dem Nachtrag vom 2026-08-29 (Run 167) verwenden, siehe unten. Die Gebaeudehuellen-Werte der Tabelle darueber sind von der Aenderung nicht betroffen.
 
 - Andere Nutzungskategorien (Verwaltung, Schule, Verkauf, Restaurant, Museen, **Spital**, Industrie,
   Kleine Schulbauten, Sportbauten) liegen bei Aussenwand/Dach/Bodenplatte teils **hoeher** (z.B. Spital

@@ -190,6 +190,7 @@ bemessen:
 **Dazu drei Fristen und eine Steuerfolge, alle im Destillat bisher nicht geführt:**
 - Das **Fördergesuch muss vor Baubeginn** eingereicht sein, sonst ist es ungültig.
 - Die **Förderzusage ist zwei Jahre gültig**, verlängerbar um sechs Monate.
+  ⚠ **Am 2026-08-29 (Run 167) primärquellen-präzisiert:** Die Zwei-Jahres-Frist ist als **kantonale Praxis** belegt (ZH, SZ, ZG je wörtlich), **nicht** als bundesweite HFM-Vorgabe — andere Gemeinwesen führen abweichende Fristen. Der Zusatz **«verlängerbar um sechs Monate» ist unbelegt** und in keiner der drei geprüften kantonalen Primärquellen auffindbar; dort steht nur eine schriftlich zu begründende Fristverlängerung ohne fixe Dauer. **Gegenüber einer Bauherrschaft nicht als feste Zusatzfrist nennen**, sondern die Frist des konkreten Kantons prüfen. Belege in der Tabelle des Nachtrags unten.
 - Bei M-10/M-11 ist der GEAK-Nachweis nach Umsetzung **bis spätestens drei Jahre nach
   Förderantrag** einzureichen.
 - **Steuerlich:** abziehbar ist nur der selbst getragene Kostenanteil — der geförderte Teil ist
