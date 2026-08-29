@@ -3,6 +3,18 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-29i (Schub-Lane BAURECHT-THALWIL, neunter Lauf) — neunte unabhängige Bestätigung: Queue bleibt geschlossen, kein neuer Batch, kein totes Recht
+
+Quellordner frisch und unabhängig nachgezählt: unverändert 234 Dateien. Bestätigt denselben
+Befund wie die Läufe a-h desselben Tages (Queue T1-T9 vollständig, alle neun Themen der
+Priorität (d) geschlossen, KB-weiter Dead-Law-Sweep 0 Treffer, Live-Abgleich PBG/ABV/VErV/BZO
+Thalwil gegen zhlex ohne Drift). Auf einen erneuten Null-Befund an derselben Stelle wurde
+verzichtet (Empfehlung aus Lauf h); kein Ingest, keine Wiki-Änderung. Queue-Tracker und Report
+`outputs/2026-08-29i_thalwil-schub-lane.md` ergänzt. **Die Thalwil-Reglemente-Korpus-Queue
+bleibt geschlossen — für die nächste Ausschöpfung dieser Schub-Lane wird empfohlen, auf den
+allgemeinen Buch-Loop oder gezielte Fassungsstand-Nachprüfungen ausserhalb dieses Ordners
+umzulenken.**
+
 ## 2026-08-29h (Schub-Lane BAURECHT-THALWIL, achter Lauf) — Fassungsstand von PBG/ABV/VErV/BZO Thalwil live gegen zhlex bestätigt, kein neuer Batch, kein totes Recht
 
 Quellordner erneut unabhängig ausgezählt: unverändert 234 Dateien. Statt einer achten reinen

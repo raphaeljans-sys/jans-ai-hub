@@ -3,7 +3,7 @@ title: "Baubeschrieb als Kostenträger: BKP-gegliederte Struktur für Grossbau u
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/02_Baubeschriebe/091204_Baubeschrieb_Leutschenbach.pdf (20 Seiten)", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/02_Baubeschriebe/100218_Baubeschrieb_Waltenschwil.pdf (7 Seiten, EFH)", "raw/inventar/buero-referenzen__18_Projektkostenplanung.md Abschnitt 8", "references/bkp-2017/BKP-2017-Liste.md"]
-links: []
+links: ["[[baubeschrieb-checkliste-vollstaendigkeit-steckdosenliste-seesicht-meggen]]"]
 ---
 
 # Baubeschrieb als Kostenträger

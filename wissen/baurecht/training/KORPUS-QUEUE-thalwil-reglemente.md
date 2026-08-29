@@ -1091,3 +1091,13 @@ statt einer reinen Texterneuerung.** Report `outputs/2026-08-29h_thalwil-schub-l
    ([[grundlagen-planungs-baurecht]], BGE 139 II 470). Diese Stufe im Wiki mitschreiben.
 5. **Kein Projektgeheimnis in die KB:** Eigentümernamen, Kaufpreise, private Korrespondenz
    bleiben draussen. Parzellennummer und Zone sind öffentlich (OEREB) und dürfen bleiben.
+
+## 2026-08-29i (Schub-Lane BAURECHT-THALWIL, neunter Lauf) — neunte unabhängige Bestätigung: Queue bleibt geschlossen
+
+Quellordner frisch nachgezählt (`find`, nicht Erinnerung an frühere Läufe): unverändert
+**234 Dateien**. Damit bestätigt dieser Lauf denselben Befund wie die Läufe a-h desselben
+Tages (Queue T1-T9 vollständig, alle neun Themen der Priorität (d) geschlossen, KB-weiter
+Dead-Law-Sweep 0 Treffer, Live-Abgleich PBG/ABV/VErV/BZO Thalwil gegen zhlex ohne Drift).
+Kein neuer Batch, kein neuer Fachinhalt, kein totes Recht gefunden — auf einen erneuten
+Null-Befund an derselben Stelle wurde verzichtet (Empfehlung aus Lauf h). Kein Ingest,
+keine Wiki-Änderung. Report `outputs/2026-08-29i_thalwil-schub-lane.md`.

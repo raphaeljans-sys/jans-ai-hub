@@ -1,5 +1,50 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Zehnter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Entwerfen` (Lane FACHWISSEN, Fortsetzung)
+
+Alle sechs P1-Positionen der Sektion `01_Entwerfen` destilliert (Mittelschicht-Sektion,
+Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000-2021, überwiegend Bildmaterial ohne
+Textlayer — der büroverwertbare Kern liegt konzentriert in `22_Grundrisse/Wohngrössen`).
+Fünf Wiki-Artikel nach Sache statt Datei, alle `status: emerging`, Quellentexte per `pypdf`
+(kein `pdftotext`/Homebrew auf dieser Station) mit vollständigem Textlayer extrahiert und
+mit Seitenangabe belegt:
+
+- [[flaechenerfassungsrichtlinie-rfb-stadt-zuerich-bewirtschaftungsplaene]] — Richtlinie für
+  Flächenerfassung und Bewirtschaftungspläne der Stadt Zürich (IMMO/AHB), Version 16.0/2013:
+  verbindliche Liefertermine nach SIA-102-Phasen, Flucht-/Rettungssymbol-Layer, GF/NGF-
+  Systematik nur methodisch referenziert (nicht als eigene Norm-Aussage destilliert)
+- [[bauherren-anforderungsprofil-preisguenstiger-wohnungsbau-stiftung-pwg-2016]] — Leitfaden
+  der Stiftung PWG Zürich: drei Hebel der Preisgünstigkeit (Fläche/Erstellungskosten/
+  Betriebskosten), Grössen-/Belegungstabelle 2.5- bis 5.5-Zimmerwohnungen, Kritik an
+  fliessenden Grossraumgrundrissen mit angehängter Küche
+- [[guenstiger-mietwohnungsbau-flaechenreduktion-hebel-bwo-halter-pensimo-2012]] —
+  BWO/Halter/Pensimo-Studie 2012: kompensatorisches Grundriss-Prinzip, quantifizierte
+  Kosten-/Mietwirkung (Erstellungskosten −17,1 %, Miete pro Einheit rund −37 %), umgekehrte
+  Kalkulationslogik Landwert→notwendige Miete
+- [[wohnungsschluessel-flaechenkennwert-pruefraster-studienauftrag-freilager-albisrieden]] —
+  fasst drei Quelldateien zu einer Sache zusammen (Wohnungsschlüssel-Übersicht,
+  Kennwerte-Verknüpfungsblatt, Studienauftrag Teilgebiet C Freilager Albisrieden 2010, plus
+  Realisierungs-Flächenblatt Mühlethaler 2017): Vierergliederung Anteile-Mix/Ertragsfläche/
+  Verkleinerungsregel/Überschreitungsausweis, Prüfung je Einzelwohnung statt nur im
+  Durchschnitt
+- [[baubeschrieb-checkliste-vollstaendigkeit-steckdosenliste-seesicht-meggen]] —
+  Verkaufsbeschrieb Wohnbau Seesicht Meggen (2015) als Vollständigkeits-Checkliste bis zur
+  raumweisen Steckdosenliste; Rückverlinkung zu [[baubeschrieb-als-kostentraeger]] ergänzt
+  (dort BKP-Kostenträger-Fokus, hier Vollständigkeits-Fokus)
+
+Keine BKP-Codes in den sechs Quellen, daher keine BKP-2017-Prüfung nötig. Kein neuer
+Sperrlisten-Fund über die im Phase-0-Inventar bereits dokumentierten vier
+Personendaten-Fundstellen hinaus (nicht destilliert, bleiben unbearbeitet). Elf
+P2-Positionen bewusst zurückgestellt (Ausbau-Variantenvergleich, Raumtypologie-Vorlesung,
+SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe, zwei Farbe-/Pigment-Glossare,
+Farbenlehre-Website, Ornamentik-Literaturliste, eigene Ideentexte, Class-A-Problem-
+Vokabular, Ikonographie-Raster). Fortschritt in
+`raw/inventar/archiv-fachwissen__01_Entwerfen.md` Abschnitt «Destillat-Fortschritt», reiner
+Append (`git diff --numstat` zeigt `38 0`). `wiki/INDEX.md` Tabellenzeile und Artikelbestand
+nachgeführt. **Sektion `01_Entwerfen` damit für P1 vollständig destilliert.** Nächste
+Position gemäss Ertrag-Tabelle: `01_Landschaftsarchitektur` (4 P1, Datenschutz-Vorbehalt in
+einer anderen Datei derselben Sektion).
+
 ## 2026-08-29 — Neunter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau` (Lane FACHWISSEN, Fortsetzung)
 
 Alle acht P1-Positionen der Sektion `01_Staedtebau` destilliert (Mittelschicht-Sektion,

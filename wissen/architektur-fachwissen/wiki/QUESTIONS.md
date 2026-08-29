@@ -4,6 +4,25 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260829 — Zehnter Destillat-Lauf Korpus 4, Sektion `01_Entwerfen`
+
+Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion
+`01_Entwerfen`, alle 6 P1-Positionen destilliert (fünf Wiki-Artikel).
+
+**#52 Zusammenhang zwischen Mühlethaler-Flächenblatt (2017) und Studienauftrag Teilgebiet C
+(2010) ungeklärt.** Beide Quellen betreffen dasselbe Areal (Freilager Zürich-Albisrieden),
+siehe
+[[wohnungsschluessel-flaechenkennwert-pruefraster-studienauftrag-freilager-albisrieden]].
+Das Flächenblatt von Architekt Rolf Mühlethaler (Dateidatum 28.04.2017) trägt keinen der
+acht Studienauftrags-Decknamen (Birkengrund, Stendhal, Schwager in Bordeaux, Das Eine im
+Andern, Daltons, Billy, Kink, La Javanaise) und keinen erkennbaren Verweis auf den
+Studienauftrag von 2010. Offen: gehört das Flächenblatt zu einer der acht
+Studienauftrags-Eingaben (dann derselben Firma zugeordnet?), zu einer separaten, später
+realisierten Bauetappe desselben Areals, oder zu einem unabhängigen Projekt mit
+zufälliger Namensgleichheit «Freilager-Areal»? Für den Artikel ohne Belang (nur methodisch
+ausgewertet), aber relevant, falls das Areal künftig als eigener JANS-Referenzfall
+(Kennzahlen-Historie) aufgebaut werden soll.
+
 ## 260829 — Achter Destillat-Lauf Korpus 4, Sektion `02_Kunst_Geschichte`
 
 Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion

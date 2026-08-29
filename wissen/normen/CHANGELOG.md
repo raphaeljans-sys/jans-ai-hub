@@ -1,3 +1,17 @@
+## 2026-08-29 (Run 87, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — zwanzigster Doppel-Dispatch, weiterhin Nullbefund
+
+Zwanzigster Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-87). Unabhaengig
+nachgeprueft: kein offener `[ ]`-Kandidat in `training/n62-3-pruefstand-kandidaten.md`, alle
+sechs Destillate aus Abschnitt 4 tragen weiterhin je mindestens einen Pruefstand-Treffer
+(`grep -ic`), `git status wissen/normen` sauber vor Beginn, `wiki/QUESTIONS.md` schliesst
+weiterhin bei N68-1. **Kein neuer Kandidat, keine Destillat-Aenderung, kein Statuswechsel.**
+Nicht erneut ausformuliert (Run 76-86 haben den Scheduling-Befund bereits gemeldet). Dies ist
+der letzte Eintrag dieser Reihe in dieser Lane: ab hier wird ohne neuen Auftragstext oder ein
+neues Ereignis (neuer Kandidat, geaenderte Kandidatenliste, Freigabe der Mittelbau-Stichprobe)
+kein weiterer Nullbefund-Eintrag mehr angelegt, um das CHANGELOG nicht mit identischen
+Meldungen zu fuellen — der Befund selbst (haengender Scheduler) ist seit Run 76 unveraendert
+und braucht keine 21. Bestaetigung.
+
 ## 2026-08-29 (Run 86, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — neunzehnter Doppel-Dispatch, weiterhin Nullbefund
 
 Neunzehnter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-86). Unabhaengig

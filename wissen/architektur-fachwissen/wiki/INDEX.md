@@ -84,7 +84,7 @@ jeweiligen Inventar unter «Triage».
 | 10 | `02_Denkmalpflege` | archiv | 8 / 156 | Der ETH-Studienapparat zur Vorlesung Hassler liefert mit dem SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken», der SVTSM-Trockenmauer-Richtlinie samt Devisierungskapitel, den Kalk- und Pigmentrezepturen von Glaser und der Begriffssystematik Petzet/Mader vier sofort einsetzbare Bausteine für die Bestandsarbeit. | `raw/inventar/archiv-fachwissen__02_Denkmalpflege.md` |
 | 11 | `01_Staedtebau` | archiv | 8 / 51 (von ~8'800 Gesamtbestand, nur 51 einzeln geöffnet) — **P1 vollständig destilliert 29.08.2026, sechs Artikel** | Städtebau-Studienarchiv ETH (Lampugnani/Christiaanse); eigenes Städtebau-Glossar, Ortsanalyse- und Siedlungsstrukturraster, Projektstart-Checkliste, Stadttypen-Systematik, Blockrand-/Aufenthaltsqualitäts-Argumentation aus dem Manifest «Die Athmosphärische Stadt» 2014. P2 (acht Positionen: Lampugnani-Reader/Übungsheft, Manualistik-Grundlagenwerke, Autorendossiers, DTV-Konkordanz u. a.) offen. | `raw/inventar/archiv-fachwissen__01_Staedtebau.md` |
 | 12 | `17_Projektbeschriebe` | buero | 7 / 18 | Die Sektion enthält genau ein Projekt, dafür das vollständige Set der Projektbeschriebe aller Fachplaner der Schulanlage Leutschenbach, verdichtet zum revidierten Gesamtdossier vom 09.12.2009, mit belegten Fassaden-, Minergie-, Tragwerks- und Lüftungswerten. | `raw/inventar/buero-referenzen__17_Projektbeschriebe.md` |
-| 13 | `01_Entwerfen` | archiv | 6 / 1'246 | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
+| 13 | `01_Entwerfen` | archiv | 6 / 1'246 — **P1 vollständig destilliert 29.08.2026, fünf Artikel** | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). P2 (elf Positionen: Ausbau-Variantenvergleich, Raumtypologie-Vorlesung, SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe, Fachglossare Farbe/Pigmente, Farbenlehre-Website, Ornamentik-Literaturliste, eigene Ideentexte, Class-A-Problem-Vokabular, Ikonographie-Raster u. a.) offen. | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
 | 14 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
 | 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Dachbegrünung, Pflanzenlisten und ein Gartenanalyse-Raster (Vogt-Broschüren). Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
 | 16 | `01_Tragwerk` | archiv | 4 / 1'098 | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen und Formfindung. Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
@@ -641,3 +641,43 @@ hinaus. P2 (1'876 Dateien) bleibt vollständig offen. **Damit ist Sektion `02_Ku
 für P1 vollständig bearbeitet — und damit ist auch die Trägerschicht-Zeile 09
 abgeschlossen.** Nächste Position gemäss Ertrag-Tabelle: Mittelschicht, angeführt von
 `01_Staedtebau` (8 P1, `02_Denkmalpflege` mit ebenfalls 8 P1 ist bereits abgeschlossen).
+
+**Zehnter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Entwerfen` (Zeile 13 oben)
+— Lane FACHWISSEN, 29.08.2026, Fortsetzung.** Alle sechs P1-Positionen destilliert, fünf
+Wiki-Artikel nach Sache statt Datei (zwei P1-Quellen zu einer Sache zusammengefasst, siehe
+unten), alle `status: emerging`, Fundstellen mit Seitenzahl direkt aus den PDF-Textlayern
+extrahiert (`pypdf`, Behelf mangels `pdftotext` auf dieser Station):
+
+- [[flaechenerfassungsrichtlinie-rfb-stadt-zuerich-bewirtschaftungsplaene]] — verbindliches
+  Planlieferungs-Handbuch der Stadt Zürich (IMMO/AHB), Version 16.0/2013: Liefertermine
+  nach SIA-102-Phasen, Flucht-/Rettungssymbol-Layer, GF/NGF-Systematik methodisch (nicht
+  normativ) referenziert
+- [[bauherren-anforderungsprofil-preisguenstiger-wohnungsbau-stiftung-pwg-2016]] —
+  Leitfaden Stiftung PWG Zürich: drei Hebel der Preisgünstigkeit, Grössen-/
+  Belegungstabelle 2.5- bis 5.5-Zimmerwohnungen, Kritik an fliessenden Grossraumgrundrissen
+- [[guenstiger-mietwohnungsbau-flaechenreduktion-hebel-bwo-halter-pensimo-2012]] —
+  BWO/Halter/Pensimo-Studie: kompensatorisches Grundriss-Prinzip, quantifizierte
+  Kosten-/Mietwirkung (−17 % Erstellungskosten, −37 % Miete pro Einheit), umgekehrte
+  Kalkulationslogik Landwert→Miete
+- [[wohnungsschluessel-flaechenkennwert-pruefraster-studienauftrag-freilager-albisrieden]]
+  — fasst zwei P1-Quellen zusammen (Wohnungsschlüssel-Übersicht + Kennwerte-
+  Verknüpfungsblatt, Studienauftrag Teilgebiet C 2010, plus Realisierungs-Flächenblatt
+  Mühlethaler 2017): Vierergliederung Anteile-Mix/Ertragsfläche/Verkleinerungsregel/
+  Überschreitungsausweis, Je-Wohnung-Prüfung statt Durchschnitt
+- [[baubeschrieb-checkliste-vollstaendigkeit-steckdosenliste-seesicht-meggen]] —
+  Vollständigkeits-Checkliste bis zur raumweisen Steckdosenliste, Ergänzung zu
+  [[baubeschrieb-als-kostentraeger]] (dort BKP-Kostenträger-Fokus, hier
+  Vollständigkeits-Fokus)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Entwerfen.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Kein neuer Sperrlisten-Fund über die im
+Phase-0-Inventar bereits dokumentierten vier Personendaten-Fundstellen hinaus (nicht
+destilliert). Der Hinweis auf `00_Ideen`/`00_Entwurfshaltungen` als Twin-Harness-Material
+(eigene Texte Raphael Jans, 2013/14) bleibt unbearbeitet liegen — Routing-Frage, kein
+Fachartikel dieser KB. **Damit ist Sektion `01_Entwerfen` für P1 vollständig destilliert.**
+Nächste Position gemäss Ertrag-Tabelle: weiterhin Mittelschicht, jetzt angeführt von den
+verbliebenen unbearbeiteten Zeilen `01_Landschaftsarchitektur` (4 P1, Datenschutz-Vorbehalt
+Klartext-Zugangspasswort in einer anderen Datei derselben Sektion, nicht in den P1-Dateien),
+`01_Tragwerk` (4 P1, Datenschutz-Vorbehalt), `00_Allgemein` (3 P1),
+`02_Architektur_Vermitteln` (3 P1, Datenschutz-Vorbehalt), `02_Bibliothek` (2 P1) und
+`01_Innenarchitektur` (1 P1).
