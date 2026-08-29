@@ -52,6 +52,28 @@ konstruktive Wahrheit, da die tragende Last von einer dahinterliegenden, verlore
 in Bauherrengesprächen über Materialbilder gegen Materialwahrheit brauchbar, weil er zeigt, dass
 die Fragestellung älter ist als die heutige Bauphysik-Diskussion und keine polemische Neuerfindung.
 
+## Rezeptionsgeschichte (Zusatzfund, Sektion `02_Gestalt_Kulturverstaendnis`, 29.08.2026)
+
+Ein Forschungsprojekt-Exposé von Prof. Dr. Ákos Moravánszky («Stoffwechsel», ETH Zürich,
+Fundstelle `02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Stoffwechsel/
+120124_Forschungsprojekt.docx` — fremdverfasstes Projektexposé, kein Eigentext Jans, hier
+ausschliesslich sinngemäss wiedergegeben) ordnet Sempers Stoffwechseltheorie in eine
+längere Ideengeschichte ein: **Vitruv** erklärte die Formen von Säule und Gebälk des
+griechischen Tempels als Übertragung aus dem Holzbau; **Winckelmann** verschob Mitte des
+18. Jahrhunderts die Nachahmungs-Debatte von der Nachahmung der Natur zur Nachahmung
+antiker Kunstwerke selbst; **Quatremère de Quincy** beschrieb 1823 diese Übertragung
+(«imitation») als darstellende, nicht kopierende Tätigkeit. Sempers eigener Beitrag: der
+Stoffwechsel-Begriff (aus der Biologie entlehnt) gibt dem übertragenen Motiv eine
+kulturelle Erinnerungsfähigkeit, die über den blossen Gebrauchswert hinausreicht — genau
+das Gegenteil einer abwertenden Lesart als «Täuschung» oder «Ersatz». Im 20. Jahrhundert
+setzt sich diese Denkfigur laut Exposé u. a. bei Joseph Beuys fort, der biologischen
+Stoffwechsel mit Energie- und Denkkreisläufen verband.
+
+**Verwertung:** ergänzt die Argumentation in [[kerez-forsterstrasse-einkleidung-gegen-semper-stoffwechseltheorie]]
+um die Ideengeschichte vor Semper — nützlich, wenn ein Wettbewerbstext die
+Materialwechsel-Logik nicht nur behaupten, sondern historisch herleiten soll. Bibliografie
+des Exposés unvollständig (Publikationsstand des Projekts nicht im Bestand).
+
 ## Praxisregel
 
 Für die Argumentation einer Vorsatzschale oder hinterlüfteten Fassade lässt sich mit der

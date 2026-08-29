@@ -95,6 +95,32 @@ Die Zitatsammlung enthält darüber hinaus weitere, hier nicht ausgewertete Stim
 (u. a. Kerez, Olgiati, Chipperfield, Kollhoff, Hauser/Alberti, Gombrich) zum selben
 Themenfeld Ökonomie der Idee, Reduktion und Materialisierung als letzter Schritt.
 
+### Drei weitere Stimmen aus derselben Sammlung (Zusatzfund, zweiter Lauf)
+
+- **Colin Rowe / György Kepes zur Transparenz:** aus Rowe, *Transparenz*, Birkhäuser
+  1997, S. 22-23, zitiert Kepes' Definition: Wenn sich zwei Figuren optisch
+  überschneiden und beide den gemeinsamen Teil für sich beanspruchen, entsteht ein
+  räumlicher Widerspruch, der nur aufgelöst wird, indem man den Figuren
+  «Durchsichtigkeit» zuschreibt — Transparenz damit nicht als reine Optik, sondern als
+  **gleichzeitige Wahrnehmung mehrerer räumlicher Lagen**. Nutzbar als Fachbegriff für
+  die Beschreibung überlagerter Raumschichten in Erläuterungsberichten (Fassaden mit
+  vor- und rückspringenden Ebenen, Lichthöfe).
+- **Dudler zu Strassenraum und Streitkultur:** sinngemäss, aus einem öffentlichen
+  Gespräch: eine europäische Stadt entsteht, wenn der öffentliche Platz wieder besetzt
+  wird — Aufenthaltsqualität, Gassen- und Strassenraumbezug, Fensterfronten zur Strasse,
+  eine bewusst gestaltete Platzfolge. Denkmalpflegerisch ergänzt er die Ablesbarkeit von
+  Zeitlichkeiten (Alt/Neu) als zweipolige Haltung: Kontrast/Konfrontation oder
+  nahtloses Weiterbauen — beide Pole legitim, die Wahl ist Teil des Entwurfsauftrags.
+- **Jans, 2013 (eigene Reflexion, keine Fremdquelle):** «Wir waren nicht toll. Wir
+  dürfen uns heute nicht zu wichtig nehmen» — sinngemäss die Mahnung, dass ein Grossteil
+  der laufenden Bauproduktion erst im zeitlichen Abstand beurteilbar ist und dass echte
+  Erhaltenswürdigkeit sich erst durch Bewährung zeigt, nicht durch Zeitgenossenschaft
+  allein. Die Kehrseite ausdrücklich mitgedacht: eine «schrott-protektionistische»
+  Haltung, die jede Bausubstanz pauschal für erhaltenswert erklärt, sei ebenso
+  problematisch wie unreflektierter Abriss. **Frühester im Korpus gefundener Beleg
+  einer eigenen kritischen Substanz-Erhaltungs-Position von Raphael Jans** — Anknüpfungspunkt
+  für die Denkmalpflege-/Bestand-vor-Neubau-Artikel dieser KB.
+
 ## Praxisregel
 
 Oswalds Reihenfolge Raum/Struktur → Fügung → Material ist ein Prüfraster für eigene
@@ -110,9 +136,20 @@ meint — sonst verwässert er zum Gemeinplatz.
 - Die Zahl der Begriffsordner (598 nach eigener Zählung) ist im Phase-0-Inventar auf
   305 korrigiert nachzutragen; dort ist ausserdem der Zitatsammlungs-Stand von
   «2012 und 2013» auf «11.04.2012 und 28.12.2012» zu berichtigen.
-- Von den rund 41 eigenen DOCX-Definitionstexten sind für diesen Lauf vier vollständig
-  gelesen (Warum Begriffe ordnen, Sockel, Ethos, Baukunst/Gestalt); die übrigen sind
-  gemäss Spec als P2 eingestuft und für einen späteren, eigenen Begriffsapparat-Lauf
-  offen — insbesondere fehlt eine Prüfung, wie viele der 598 Ordner überhaupt einen
-  eigenen Definitionstext statt nur Fremdmaterial (Wikipedia-Ausdrucke, Seminarreader-
-  Scans) enthalten.
+- Von den rund 45 eigenen DOCX-Definitionstexten sind nach dem zweiten Lauf (29.08.2026)
+  39 im Volltext gelesen (alle ausser den vier schon vorher erfassten). Destilliert
+  wurden die Positionen mit belegbarem Eigenwert; rund 25 weitere Texte waren zu dünn
+  für eine eigenständige Aussage (Einzelsätze, Wörterbucheinträge, Namenslisten ohne
+  Kontext: u. a. Chinesische Mauer, Nihilismus, Zeitgeist, Sophistizierung, Surrogate,
+  Trabiation, Tragwerke/Hdm) oder ausserhalb des Architekturbezugs (Menschenbild,
+  Dialektik als reine Philosophie-Zusammenfassung ohne Bauwerksbezug, eine
+  tagesaktuelle Politik-Notiz zu einer deutschen Partei) und wurden bewusst nicht
+  destilliert. Eine Position (`École_des_Beaux_Art_Typologie/120208_Ecole_des_Beaux_Art.docx`)
+  enthält ab der zweiten Hälfte eine wörtliche Wikipedia-Übernahme (im Text selbst mit
+  «Wiki» eingeleitet) und wurde deshalb wie die 152 bereits als X triagierten
+  Wikipedia-Ausdrucke behandelt, nicht destilliert. Fünf weitere substantielle Funde
+  sind als eigene Artikel ausgelagert, siehe `wiki/INDEX.md`: Loos' Raumplan, Olgiatis
+  Präsenz-Begriff, Koolhaas' Manhattanismus, sowie ein kleines Glossar (Serliana,
+  Architecture parlante, Stadtbegreifen). Damit ist die Begriffe-DOCX-Position dieser
+  Sektion inhaltlich abgearbeitet; ungelesen bleiben nur die reinen Wikipedia-/
+  Wiktionary-Ausdrucke und Sicherungskopien, die laut Sektions-Triage ohnehin `X` sind.

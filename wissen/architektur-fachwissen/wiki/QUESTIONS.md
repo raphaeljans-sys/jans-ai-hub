@@ -620,3 +620,20 @@ begrenzte P2-Fortsetzung entschieden (zwei Positionen der ertragsstärksten Sekt
 weil die Phase-0-Frage laut `QUESTIONS.md` #1 ausdrücklich Entscheid Raphaels ist.
 Das ist ein pragmatischer Zwischenschritt, kein Ersatz für den Entscheid selbst — der
 steht weiterhin aus.
+
+## 260829 — Achtzehnter Destillat-Lauf (Korpus 4, Sektion `02_Gestalt_Kulturverstaendnis` abgeschlossen)
+
+**#59 Autorschaft von `Stadtbegreifen/Schett/120709_Anmerkungen_zum_Jahreskurs.docx`
+unklar.** Der Ordnername trägt den Zusatz «Schett» (vermutlich Dozent oder Assistent
+eines ETH-Jahreskurses «Entwerfen in komplexen städtischen Kontexten»), der Text selbst
+liest sich wie ein Kursskript, nicht wie eine eigene Prüfungsantwort. Im destillierten
+Artikel [[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]]
+deshalb ausdrücklich als «Autorschaft unklar» und nicht als Eigentext Jans geführt. Vor
+einer Verwendung ausserhalb dieser KB zu klären.
+
+**#60 Entscheidungspunkt #58 bleibt unverändert offen.** Dieser Lauf hat die Sektion
+`02_Gestalt_Kulturverstaendnis` (ertragsstärkste Position der Trägerschicht) für P1 und
+P2 vollständig abgeschlossen, damit ist der pragmatische Zwischenschritt aus #58 an sein
+natürliches Ende gekommen. Der nächste Lauf braucht entweder einen Entscheid Raphaels
+oder wiederholt dieselbe pragmatische Weiterführung an der nächstgrössten Sektion
+(`01_Konstruktion`, 101 P1, P2-Bestand dort noch nicht gesichtet).

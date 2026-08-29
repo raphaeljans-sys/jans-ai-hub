@@ -1,5 +1,50 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Achtzehnter Lauf: Sektion `02_Gestalt_Kulturverstaendnis` P2 abgeschlossen (Lane FACHWISSEN)
+
+Dispatch-Auftrag dieses Laufs beschrieb wiederum fälschlich «kein Destillat, keine Spec,
+2 Wiki-Artikel» für die gesamte KB — sechstes belegtes Beispiel desselben veralteten
+Dispatch-Musters (Memory-Eintrag `project_fachwissen-dispatch-loop`). Tatsächlicher Stand:
+beide Specs bestehen, P1 ist über beide Korpora vollständig destilliert, die KB führt bereits
+über 50 Wiki-Artikel. Lauf hat sich am realen Stand orientiert (`KORPUS-QUEUE.md`,
+`wiki/INDEX.md` siebzehnter Lauf) und die drei dort als offen vermerkten P2-Positionen der
+Sektion `02_Gestalt_Kulturverstaendnis` bearbeitet:
+
+- Alle 45 eigenen Begriffe-DOCX-Texte in `03_Begriffe_der_Architektur` identifiziert, die 39
+  seit den ersten beiden Läufen ungelesenen per `textutil -convert txt` volltextlich
+  extrahiert und gelesen (NAS gemountet, keine Datei verändert oder verschoben).
+- Neun Positionen mit belegbarem Eigenwert destilliert: drei neue Beispiele + drei neue
+  Zitate im bestehenden Artikel [[begriffsapparat-kant-sprachstil-pruefraster-jans]] (Heinrich
+  von Gent/Kunst und Architektur, Alberti/Mischen, Zürcher Milieus; Rowe/Kepes-Transparenz,
+  Dudler, Jans-2013-Eigenreflexion), drei neue eigenständige Artikel
+  [[raumplan-adolf-loos-oekonomische-begruendung]], [[praesenz-begriff-olgiati-lyotard]],
+  [[manhattanismus-koolhaas-monumentalitaet]], und ein gebündeltes Glossar
+  [[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]] (Serliana,
+  Architecture parlante, Stadtbegreifen — Autorschaft dieses dritten Begriffs ungeklärt,
+  `QUESTIONS.md` #59). Ein Zusatzfund (Moravánszky-Forschungsexposé zur Stoffwechsel-
+  Ideengeschichte) als neuer Abschnitt in den bestehenden Artikel
+  `materialwahrheit-stoffwechseltheorie-semper-urtechniken.md` eingefügt.
+- Rund 25 Texte waren zu dünn (Einzelsätze, Wörterbucheinträge, Namenslisten) oder fachfremd
+  (allgemeine Philosophie ohne Bauwerksbezug, eine tagespolitische Notiz) und wurden bewusst
+  nicht destilliert. Ein Text (`École_des_Beaux_Art_Typologie`) als wörtliche
+  Wikipedia-Übernahme identifiziert und wie die bereits als `X` triagierten Ausdrucke
+  behandelt, nicht destilliert.
+- Die beiden übrigen ursprünglich offenen Positionen (Booklet-/Plakatdarstellungs-Beispiele)
+  bestätigt als keine Destillationskandidaten (Triage: «nur Anschauung, nicht Inhalt»).
+- **Datenschutz/Sperrliste:** kein Sperrlisten-relevantes Material gefunden (Verträge,
+  Bewerbungen, Personaldossiers, Adress-/Kontaktsammlungen, Lohn-/Honorardaten,
+  Gesundheits-/Privatunterlagen). Eine Notiz mit tagespolitischem Bezug zu einer deutschen
+  Partei ist keine Personendatenverletzung, wurde aber als fachfremd nicht destilliert.
+- Fortschritt in `raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md`, reiner
+  Append (`git diff --numstat` 45/0 geprüft). `wiki/INDEX.md` und `wiki/QUESTIONS.md`
+  nachgeführt.
+
+**Damit ist die Sektion `02_Gestalt_Kulturverstaendnis` — die ertragsstärkste Position der
+gesamten Trägerschicht — für P1 UND P2 vollständig destilliert.** Der Entscheidungspunkt
+Raphaels (P2 systematisch fortsetzen vs. Phase-0-Nachholung für die 12 offenen Sektionen,
+`QUESTIONS.md` #1/#58) bleibt unverändert offen; dieser Lauf hat ihn nicht präjudiziert,
+sondern lediglich die bereits begonnene Sektion zu Ende gebracht.
+
 ## 2026-08-29 — Siebzehnter Lauf: erster P2-Destillat-Lauf nach P1-Meilenstein (Lane FACHWISSEN)
 
 Dispatch-Auftrag dieses Laufs beschrieb erneut fälschlich «kein Destillat, keine Spec» für

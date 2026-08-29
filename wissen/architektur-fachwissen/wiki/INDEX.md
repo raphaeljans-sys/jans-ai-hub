@@ -824,3 +824,28 @@ undestilliert (reine Anschauung). Fortschritt in
 Plakatdarstellungs-Beispiele bewusst nicht). Nächster Lauf nach P2-Ertrag: Sektion
 `01_Konstruktion` (101 P1/8'791, P2-Bestand dort noch nicht gesichtet) oder Fortsetzung
 in derselben Sektion mit den übrigen P2-Resten — Entscheid beim nächsten Lauf.
+
+**29.08.2026 (Lane FACHWISSEN, achtzehnter Lauf).** Dispatch-Text dieses Laufs beschrieb
+erneut fälschlich «kein Destillat, keine Spec» für die gesamte KB (sechstes Beispiel
+desselben veralteten Dispatch-Musters, siehe Memory-Eintrag Lane FACHWISSEN). Lauf hat
+sich am realen Stand orientiert und die drei laut siebzehntem Lauf noch offenen
+P2-Positionen der Sektion `02_Gestalt_Kulturverstaendnis` abgeschlossen: die restlichen
+39 eigenen Begriffe-DOCX-Texte vollständig gelesen (`textutil`-Extraktion), neun
+destilliert (drei Ergänzungen + drei Zitate im bestehenden
+[[begriffsapparat-kant-sprachstil-pruefraster-jans]], drei neue Artikel
+[[raumplan-adolf-loos-oekonomische-begruendung]],
+[[praesenz-begriff-olgiati-lyotard]], [[manhattanismus-koolhaas-monumentalitaet]], ein
+Glossar [[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]]),
+rund 25 Texte als zu dünn/fachfremd bewusst nicht destilliert (Details im
+Begriffsapparat-Artikel «Offene Punkte»), ein Fund als Wikipedia-Übernahme identifiziert
+und wie die bestehenden X-Ausdrucke behandelt. Zusatzfund aus derselben Quelldatei-Gruppe
+(Moravánszky-Exposé) als Rezeptionsgeschichte-Abschnitt in
+`materialwahrheit-stoffwechseltheorie-semper-urtechniken.md` (Sektion
+`02_Architekturtheorie`) ergänzt. Die beiden übrigen Positionen (Booklet-/
+Plakatdarstellungs-Beispiele) bestätigt als keine Destillationskandidaten. Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md`, reiner Append
+(`git diff --numstat` 45/0 geprüft). **Damit ist Sektion `02_Gestalt_Kulturverstaendnis`
+für P1 und P2 vollständig destilliert.** Nächster Lauf nach P2-Ertrag: Sektion
+`01_Konstruktion` (101 P1/8'791, P2-Bestand dort noch nicht gesichtet) — der
+Entscheidungspunkt Raphaels (P2 systematisch fortsetzen vs. Phase-0-Nachholung für die
+12 offenen Sektionen, `QUESTIONS.md` #1) bleibt weiterhin offen und unverändert.

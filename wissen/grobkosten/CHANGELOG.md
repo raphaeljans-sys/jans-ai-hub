@@ -1,5 +1,13 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-30 (Schub-Lane grobkosten, neunter Dispatch) — unveraendert, knapper Verweis
+
+Neunter wortgleicher Dispatch seit 29.08. 20:32 Uhr. Gegengeprueft (`git log --oneline -- wissen/
+grobkosten/`, `raw/`-Ordnerliste, `training/quellen-inventar.md`): kein neuer Commit auf
+`wissen/grobkosten/` seit dem achten Dispatch (nur dessen eigener CHANGELOG-Eintrag), `raw/`
+unveraendert seit 30.07., keine offene `[ ]`-Zeile im Inventar. Kein weiterer
+Verdichtungsdurchgang. Blocker unveraendert Frage 1/2 in `wiki/QUESTIONS.md` (Raphaels Entscheid).
+
 ## 2026-08-30 (Schub-Lane grobkosten, achter Dispatch selber Tag/Nacht) — unveraendert, knapper Verweis
 
 Achter wortgleicher Dispatch seit 20:32 Uhr (29.08.). Gegengeprueft (`git log --oneline -- wissen/

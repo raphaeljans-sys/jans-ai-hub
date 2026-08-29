@@ -366,3 +366,48 @@ grundsätzlich keine Destillationskandidaten.
 Quellen dieses zweiten Laufs. Bauwelt-Heft und Allreal-Präsentation sind veröffentlichte
 Verlags- respektive Investoren-Dokumente, keine Personendaten Dritter im Sinne der
 Sperrliste.
+
+## Destillat-Fortschritt, dritter Lauf (P2, 29.08.2026, Lane FACHWISSEN)
+
+Fortsetzung der drei laut `KORPUS-QUEUE.md` noch offenen P2-Positionen dieser Sektion.
+Zwei davon (Booklet-Beispiele, Plakatdarstellung-Beispiele) sind gemäss Triage oben
+ausdrücklich «nur Anschauung, nicht Inhalt» und damit keine Destillationskandidaten —
+in diesem Lauf bestätigt, nicht erneut geprüft. Die dritte Position, die restlichen
+eigenen DOCX-Definitionstexte in `03_Begriffe_der_Architektur`, wurde in diesem Lauf
+vollständig bearbeitet:
+
+- Alle 45 eigenen DOCX-Texte (ohne Sicherungskopien) im Ordner identifiziert, die 39 in
+  den vorangegangenen zwei Läufen noch nicht gelesenen Texte per `textutil` volltextlich
+  extrahiert und gelesen.
+- Neun Positionen mit belegbarem Eigenwert destilliert: drei Ergänzungen und drei
+  Zusatzzitate im bestehenden Artikel [[begriffsapparat-kant-sprachstil-pruefraster-jans]]
+  (Kunst und Architektur/Heinrich von Gent, Mischen/Alberti, Zürcher Milieus, plus
+  Rowe/Kepes-Transparenz, Dudler, Jans-2013-Eigenreflexion aus der Zitatsammlung), dazu
+  drei neue Artikel [[raumplan-adolf-loos-oekonomische-begruendung]],
+  [[praesenz-begriff-olgiati-lyotard]], [[manhattanismus-koolhaas-monumentalitaet]] und
+  ein gebündeltes Glossar
+  [[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]]
+  (Serliana, Architecture parlante, Stadtbegreifen). Ein zusätzlicher Rezeptionsgeschichte-
+  Abschnitt (Vitruv/Winckelmann/Quatremère de Quincy/Beuys) wurde in den bestehenden
+  Artikel `materialwahrheit-stoffwechseltheorie-semper-urtechniken.md` (Sektion
+  `02_Architekturtheorie`) eingefügt, gespeist aus einem Moravánszky-Forschungsexposé
+  dieser Sektion.
+- Rund 25 Texte waren zu dünn für eine eigenständige Aussage (Einzelsätze,
+  Wörterbucheinträge ohne Architekturbezug, Namenslisten) oder ausserhalb des
+  fachlichen Rahmens (allgemeine Philosophie ohne Bauwerksbezug, eine tagesaktuelle
+  Politik-Notiz) und wurden bewusst nicht destilliert — Details in den «Offenen
+  Punkten» des Begriffsapparat-Artikels.
+- Ein Fund: `École_des_Beaux_Art_Typologie/120208_Ecole_des_Beaux_Art.docx` enthält ab
+  der zweiten Hälfte eine wörtliche Wikipedia-Übernahme (Text selbst mit «Wiki»
+  eingeleitet) — wie die bereits als `X` triagierten 152 Wikipedia-Ausdrucke behandelt,
+  nicht destilliert.
+- **Datenschutz/Sperrliste:** kein Sperrlisten-relevantes Material in den gelesenen
+  Texten. Eine Notiz (`Es wird nur noch gemanaged und nicht mehr gestaltet.docx`) nennt
+  eine deutsche Partei im Zusammenhang mit einer tagespolitischen Meinungsäusserung —
+  keine Personendaten im Sinne der Sperrliste, aber bewusst nicht destilliert
+  (fachfremd).
+
+**Damit sind alle drei zu Beginn dieses Laufs offenen P2-Positionen dieser Sektion
+abgeschlossen.** Die Sektion `02_Gestalt_Kulturverstaendnis` gilt für P1 UND P2 als
+vollständig destilliert, soweit destillierbares Material vorliegt (die verbleibenden
+~5'400 Dateien sind laut Triage `P3`/`X` und werden gemäss Spec nicht destilliert).
