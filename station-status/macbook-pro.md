@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 07:18:58
+Stand: 29.08.2026 07:29:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:08)
@@ -12,4 +12,4 @@ Stand: 29.08.2026 07:18:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 68e9a4a66 nas-selfcommit: 2 Datei(en) 2026-08-29 07:15
+- 5ad519007 vollgas-fruehwarnung 29.08.2026: still beendet, kein Meldekriterium; mtime untauglich als Herzschlag, inventar.sh meldet falsche Null fuer Korpus 3+4
