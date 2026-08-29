@@ -4,6 +4,22 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, dritter Folgelauf) — Vier Prioritaeten unabhaengig ein drittes Mal geprueft, keine neue Position gefunden
+
+Eigenstaendige Verifikation ohne Vorlauf-Kontext (frische Session): `git log --oneline -- wissen/architekten-synobsis/`
+zeigt `539f7119e` als letzten Commit, Arbeitsbaum sauber (`git status --short` / `git diff --numstat` leer fuer diesen
+Pfad). Grep auf `Fehlextraktion|Kollision|Sonderzeichen` in `wiki/QUESTIONS.md` (alle Fundstellen tragen BEHOBEN/
+GEPRUEFT/TEILBEHOBEN) und auf `Sammelfrage Charge [0-9]` (alle sechs Chargen 1-6 "vollstaendig" recherchiert) bestaetigen
+den protokollierten Stand. Katalog-Stichprobe: `catalog/Christ_Gantenbein.json` traegt `quellordner: ["Christ
+Gantenbein", "Christ_Gantenbein"]`, 11 Projekte; die vier Kollisionsdateien (Christ_Gantenbein, Enzmann_Fischer,
+Miller_Maranta, Gigon_Guyer) sowie die zwei Sonderzeichen-Dateien (Šuchov_Vladimir_..., Tusquet_Oscar_Clotet_Lluìs)
+liegen unter den korrigierten Dateinamen im `catalog/`. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert.
+Fazit unveraendert: **nichts mehr offen** in den vier Auftragsprioritaeten; verbleibend nur Freigabesachen
+(NAS-Ordner-Umbenennungen/-Zusammenfuehrungen der vier Kollisionsfaelle) und der kapazitaetsabhaengige `--reindex`-
+Lauf. Diesem Lauf zufolge sind mindestens drei unabhaengige Pruefungen an diesem Tag zum selben Ergebnis gekommen —
+naechster sinnvoller Schritt fuer die SYNOBSIS-Lane ist ausserhalb dieser vier Prioritaeten zu suchen oder auf
+Raphaels Freigabe der NAS-Zusammenfuehrungen zu warten, statt weitere Bestaetigungslaeufe zu fahren.
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Vier Prioritaeten unabhaengig erneut geprueft, keine neue Position gefunden
 
 Neuer Lauf, eigenstaendige Verifikation (nicht nur Textstand aus `QUESTIONS.md` uebernommen):

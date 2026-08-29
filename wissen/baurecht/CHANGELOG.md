@@ -3,6 +3,29 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-29d (Schub-Lane BAURECHT-THALWIL, vierter Lauf) — KB-weiter Sweep: kein totes Recht ausserhalb der bereits geflaggten Stellen
+
+Reglemente-Queue und Priorität (d) bleiben geschlossen (siehe die drei Einträge vom selben Tag
+unten). Statt eines vierten Nullbefunds auf denselben sieben Artikeln wurde die Prüfung
+verbreitert: `grep -rniI` über die **gesamte** `wiki/`-Ebene (nicht nur die im 08-29c-Lauf
+ausgewählten Umgebungsrecht-Artikel) nach den vier in dieser KB bekannten aufgehobenen Erlassen
+**StrAV**, **HWSchV**, **EG GSchG**, **KGSchV**.
+
+- **Befund: 0 unmarkierte Fundstellen.** Jede einzelne Nennung dieser vier Erlässe in `wiki/`
+  (u.a. in `umgebungsgestaltung-und-einfriedungen.md`, `abstaende-und-hoehen.md`,
+  `baureife-und-erschliessung.md`, `strassenabstand-zufahrten-vorteilsabgabe-sz.md`,
+  `QUESTIONS.md`, `INDEX.md`) trägt bereits einen Aufhebungsvermerk mit Nachfolgenorm
+  (StrAV → VErV, HWSchV → WsG/WsV, EG GSchG → WsG, KGSchV weiterhin in Kraft mit korrigiertem
+  Fassungsstand). Kein ⚠-Markierungsbedarf, keine Wiki-Änderung, kein neuer `raw/`-Bezug.
+- **Einordnung:** die Anlassfall-Lehre vom 31.07.2026 (totes Recht StrAV im Begleitbeschrieb
+  2414 Thalwil) ist damit nicht mehr nur an den sieben vom 08-29c-Lauf ausgewählten
+  Kernartikeln, sondern über den gesamten Baurecht-Wiki-Bestand stichwortbasiert verifiziert.
+- Bestätigungsvermerk in `training/KORPUS-QUEUE-thalwil-reglemente.md` (+14/−0, append-only,
+  `git diff --numstat` geprüft).
+- **Verbleibend offen, nicht selbst schliessbar:** unverändert die beiden externen
+  Fassungsstand-Wachposten T-01/T-02 (revBZO-Genehmigung/-Inkrafttreten Thalwil) und der
+  PBG-Teilrevisions-Wachposten „Baulinien" (RRB 1319/2024, KR-Geschäft 6000).
+
 ## 2026-08-29c (Schub-Lane BAURECHT-THALWIL, dritter Lauf) — Baulinien-Querverweis geschlossen, ein Fehlbefund widerlegt
 
 Reglemente-Queue und Priorität (d) bleiben vollständig geschlossen (siehe die beiden Einträge vom

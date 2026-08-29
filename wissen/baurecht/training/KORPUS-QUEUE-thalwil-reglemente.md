@@ -985,6 +985,20 @@ abgeschlossen, zuletzt bestätigt in Run 132 (24.08.2026, siehe `training/PROGRA
 neuer Batch, keine neuen Dateien, keine Wiki-Änderung in diesem Lauf — reine
 Bestätigungsprüfung, kein Fachinhalt erfunden.
 
+**Prüflauf 2026-08-29d (Schub-Lane BAURECHT-THALWIL, vierter Lauf desselben Tages):** nach den
+drei vorangehenden Läufen desselben Tages (Queue-Bestätigung, Fassungsstand-Wachposten
+T-01/T-02 nachgeprüft, Baulinien-QUESTIONS-Punkt geschlossen) statt eines weiteren Nullbefunds
+einen **KB-weiten** Fassungsstand-Sweep gefahren, breiter als die sieben im 08-29c-Lauf gezielt
+geprüften Artikel: `grep -rniI` über die gesamte `wiki/` nach den vier bekannten aufgehobenen
+Erlassen (**StrAV**, **HWSchV**, **EG GSchG**, **KGSchV**). Befund: **jede einzelne Fundstelle in
+allen Wiki-Dateien trägt bereits einen Aufhebungsvermerk mit Nachfolgenorm** — keine neue
+Altrecht-Lücke, kein ⚠-Markierungsbedarf. Damit ist die Anlassfall-Lehre vom 31.07.2026 (totes
+Recht StrAV im Begleitbeschrieb) jetzt nicht nur an den sieben Umgebungsrecht-Kernartikeln,
+sondern über den gesamten Baurecht-Wiki-Bestand verifiziert. Keine Wiki-Änderung nötig (reines
+Negativergebnis), kein neuer `raw/`-Bezug. Damit bestätigt zum vierten Mal an diesem Tag: **kein
+offener Batch, kein totes Recht** — die Reglemente-Queue 2414 Thalwil bleibt vollständig
+geschlossen.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

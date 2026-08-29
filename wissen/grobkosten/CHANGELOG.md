@@ -1,5 +1,26 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-29 (Schub-Lane grobkosten, dritter Dispatch selber Tag, ~22:09 Uhr) — erneut Duplikat erkannt, erneut keine Verdichtung erzwungen
+
+**Befund:** dritter Dispatch derselben Lane binnen desselben Tages mit wortgleichem Auftragstext
+("20 raw-Eintraege, erst 3 Wiki-Artikel", identische Projektliste) wie die beiden Eintraege
+direkt darunter (Commits `7778d7b0b` 20:32 Uhr und `b1578cb45` 22:00 Uhr). Unabhaengig
+gegengeprueft statt den beiden Vorbefunden vertraut: `git log --oneline -- wissen/grobkosten/`
+zeigt keinen Commit zwischen `b1578cb45` (22:00:37) und diesem Lauf (22:09); die `raw/`-Ordnerliste
+ist unveraendert (juengste Datei weiterhin `zuercher-index-wohnbaupreise-2025-10-update.md` vom
+17.08.); `wiki/INDEX.md` Raw-Material-Status-Tabelle und `wiki/kennwerte.md` Frontmatter
+`sources:` fuehren weiterhin alle 18 realen `raw/`-Dateien vollstaendig auf; `training/
+quellen-inventar.md` Z. 14 bestaetigt weiterhin "keine `[ ]`-Zeile".
+
+**Nicht ausgefuehrt:** kein dritter inhaltsgleicher Verdichtungsdurchgang — `raw/`,
+`wiki/kennwerte.md` und `wiki/INDEX.md`-Tabelle bleiben unangetastet, kein Kennwert erzeugt.
+
+**Hinweis fuer den Dispatcher (wiederholt):** die Vorlagenzahl "20 raw / 3 Wiki-Artikel" ist
+nach zwei vorherigen Korrekturen (Eintraege unten) weiterhin nicht aktualisiert worden und hat
+denselben Auftrag ein drittes Mal ausgeloest — ohne neues Rohmaterial in `raw/` erzeugt jeder
+weitere Dispatch dieser Lane nur denselben Nulldurchgang. Empfehlung unveraendert: Lane auf
+Ereignis-Trigger (neues Rohmaterial in `raw/`) statt Tages-Rotation umstellen.
+
 ## 2026-08-29 (Schub-Lane grobkosten, zweiter Dispatch selber Tag) — Duplikat-Auftrag erkannt, keine erneute Verdichtung erzwungen
 
 **Befund:** dieselbe Lane erhielt am selben Tag ein zweites Mal exakt denselben Auftragstext
