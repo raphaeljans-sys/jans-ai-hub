@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 22:21:49
+Stand: 29.08.2026 22:32:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 22:02)
@@ -12,4 +12,4 @@ Stand: 29.08.2026 22:21:49
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e4f1f4015 architekten-synobsis: Scanner-Root-Cause fuer Kollision (case-insensitive Slugs) und Sonderzeichen (NFD/NFC) behoben, --reindex jetzt gefahrlos
+- e6676c8f1 normen Run 78: elfter Doppel-Dispatch N62-3, weiterhin Nullbefund
