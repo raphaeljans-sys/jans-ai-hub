@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 23:15:04
+Stand: 29.08.2026 23:25:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:13)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:25)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 23:15:04
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1dbca8ba7 nas-selfcommit: 1 Datei(en) 2026-08-29 23:15
+- 100cb9a9c wissens-destillat archiv-fachwissen: 01_Tragwerk P1 vollstaendig destilliert (2 Artikel, Lane FACHWISSEN)
