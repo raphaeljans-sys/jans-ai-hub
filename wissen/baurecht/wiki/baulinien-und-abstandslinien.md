@@ -339,6 +339,11 @@ durch Baulinien gesichert werden kann** (Auffanginstrument zu den Baulinien).
 - **OEREB zuerst:** Baulinien und Gewässerabstandslinien sind grundeigentümerverbindlich und im
   OEREB-Kataster eingetragen — vor jeder Volumen-/Machbarkeitsstudie über die Connectoren
   `geo-zh.mjs` (ZH) bzw. `geo-sz.mjs` (SZ) ziehen, bevor das Baufeld gerechnet wird.
+- **Fallen des Beschaffungswegs selbst:** dieser Artikel führt die materielle Rechtslage
+  (Bauverbot bis zur Linie, §§ 96-101/§ 67/§ 66/§ 220 PBG); wie die Linien technisch bezogen
+  und ausgemessen werden (ZH-OGD-WFS, ±150-m-Fenster, proj-Layer-Namensschema, senkrechte
+  Abstandsmessung, Fallstricke der Live-Geodaten), steht in der KB `planungsgrundlagen`,
+  `wiki/kartenportale-baulinien-abstandslinien-zh.md`.
 - **Unterirdisch ≠ frei:** Auch unterirdische Gebäude (Tiefgarage) dürfen Bau-/Gewässerabstands-
   linien grundsätzlich nicht überschreiten (§§ 99 ff. PBG) — anders als bei der Waldabstandslinie,
   die unterirdische Bauteile freistellt. Bei TG-Planung an der Linie früh prüfen.
