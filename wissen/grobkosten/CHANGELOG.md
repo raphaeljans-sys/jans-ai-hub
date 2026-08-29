@@ -1,5 +1,12 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-30 (Schub-Lane grobkosten, achter Dispatch selber Tag/Nacht) — unveraendert, knapper Verweis
+
+Achter wortgleicher Dispatch seit 20:32 Uhr (29.08.). Gegengeprueft (`git log --oneline -- wissen/
+grobkosten/`, `raw/`-Ordnerliste): kein neuer Commit auf `raw/` seit dem siebten Dispatch, der
+einzige Commit seither ist der eigene CHANGELOG-Eintrag des siebten Dispatches. Kein weiterer
+Verdichtungsdurchgang. Blocker unveraendert Frage 1/2 in `wiki/QUESTIONS.md` (Raphaels Entscheid).
+
 ## 2026-08-29 (Schub-Lane grobkosten, siebter Dispatch selber Tag) — unveraendert, knapper Verweis wie angekuendigt
 
 Siebter wortgleicher Dispatch seit 20:32 Uhr. Gegengeprueft (`raw/`-Ordnerliste, `git log

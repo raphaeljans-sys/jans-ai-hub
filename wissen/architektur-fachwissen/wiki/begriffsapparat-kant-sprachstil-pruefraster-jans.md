@@ -2,7 +2,7 @@
 title: "Begriffsapparat und Denk-/Sprachstil: Kant-Prüfraster, Beispielbegriffe und geprüfte Architektenzitate"
 status: emerging
 last_updated: 2026-08-29
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/00_Ordnerkreator/Warum Begriffe ordnen.docx (Eigentext Raphael Jans)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Sockel_Beim Sockel verhälte es sich wie bei der Schuhauswahl für ein Festanlass.docx (Eigentext)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Ethos/Mit Ethos entsteht eine Haltung und eine konkrete Handlung.docx (Eigentext, Notizform)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Baukunst/120903_Baukunst_und_Gestalt.docx (Eigentext, 03.09.2012)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Saetze_der_Wichtigkeit/120410_Saetze_der_Wichtigkeit.docx (Eigene Zitatsammlung «Sätze der Architekturgeschichte», Stand 11.04.2012 und 28.12.2012 — beide Stände 2012, nicht wie im Phase-0-Inventar vermerkt 2012/2013)", "raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md Abschnitt «Was hier für JANS drinsteckt» Punkt 7"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/00_Ordnerkreator/Warum Begriffe ordnen.docx (Eigentext Raphael Jans)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Sockel_Beim Sockel verhälte es sich wie bei der Schuhauswahl für ein Festanlass.docx (Eigentext)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Ethos/Mit Ethos entsteht eine Haltung und eine konkrete Handlung.docx (Eigentext, Notizform)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Baukunst/120903_Baukunst_und_Gestalt.docx (Eigentext, 03.09.2012)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Saetze_der_Wichtigkeit/120410_Saetze_der_Wichtigkeit.docx (Eigene Zitatsammlung «Sätze der Architekturgeschichte», Stand 11.04.2012 und 28.12.2012 — beide Stände 2012, nicht wie im Phase-0-Inventar vermerkt 2012/2013)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Kunst_und_Architektur/121021_Kunst_und_Architektur.docx (Eigentext, 21.10.2012, Zitat Heinrich von Gent via Binding Günther, Als die Kathedralen in den Himmel wuchsen, Primus, Darmstadt, 2006)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Mischen/Mischen.docx (Eigentext, Referenz Gombrich, Die Geschichte der Kunst)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Zuerich_Milieus_Heimaten/120411_Zuercher_Milieus_Heimaten.docx (Eigentext, 11.04.2012)", "raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md Abschnitt «Was hier für JANS drinsteckt» Punkt 7"]
 links: []
 ---
 
@@ -49,6 +49,33 @@ Gemeinplätzen zu verlieren.
   direkte Entsprechung in anderen Sprachen — gemeint ist, sinngemäss, die untrennbare
   Einheit von Form und Ausdruck in einer Gestalt, die immer auch einen Wesensausdruck
   der Form trägt, nicht nur deren geometrische Erscheinung.
+
+## Drei weitere Beispiele (Zusatzfund, zweiter Lauf 29.08.2026)
+
+- **Kunst und Architektur:** aus der eigenen Notiz (21.10.2012) das Zitat des
+  Scholastikers **Heinrich von Gent** (1276): «Das Werk des Architekten unterscheidet
+  sich von dem Werk des Kunsthandwerkers. Der Architekt nämlich lehrt die Regel der zu
+  machenden (Dinge), die der Kunsthandwerker auf das Werk überträgt nach den ihm
+  überlieferten Regeln, deren Methoden er häufig nicht kennt.» (Quelle im Eigentext
+  angegeben: Binding Günther, *Als die Kathedralen in den Himmel wuchsen. Bauen im
+  Mittelalter*, Primus, Darmstadt, 2006.) Eine früh belegte Abgrenzung zwischen
+  regelgebender Planung und ausführendem Handwerk — dieselbe Trennlinie, die die
+  SIA-102-Leistungsphasen heute honorarrechtlich nachzeichnen.
+- **Mischen (Alt und Neu):** eigener Text zum Palazzo Rucellai (Leon Battista Alberti,
+  Florenz, um 1460) unter Bezug auf Gombrich, *Die Geschichte der Kunst*: Alberti
+  überzog das gotische Bestandsgebäude mit einem Netz flacher, antikisierender
+  Pilaster und Gesimse, ohne die gotische Grundstruktur (Fensterformen) zu verändern —
+  «er übersetzte einen gotischen Entwurf in antiken Formen». Sinngemäss festgehalten:
+  diese Mischung von Alt und Neu sei typisch für ganze Architektengenerationen, die ein
+  neues Formprogramm mit vorhandener Bausubstanz in Einklang bringen mussten.
+  **Verwertung:** direkt übertragbares Argumentationsmuster für Umbau- und
+  Erweiterungsprojekte, die eine neue Formensprache über einen erhaltenen Baukörper
+  legen, ohne dessen Struktur zu negieren.
+- **Zürcher Milieus und Heimaten:** knappe eigene Notiz (11.04.2012) zum städtebaulichen
+  Charakter Zürichs als **fragmentierte, offen-geschlossene Blockrandbebauung**, mit den
+  Beispielen Lochergut und Wagnerplatz als benannte Referenzorte. Nur als Stichwort
+  überliefert, kein ausformulierter Text — als Ausgangspunkt für eine spätere
+  Zürich-Typologie-Vertiefung in `wiki/QUESTIONS.md` vorgemerkt.
 
 ## Zwei geprüfte Architektenzitate als Prüfraster
 
