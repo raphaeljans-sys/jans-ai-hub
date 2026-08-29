@@ -2,6 +2,31 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-29 (Synergie-Lauf 22, Tagestakt)
+
+Delta-Basis 28.08.2026 17:10, Fenster 24,0 h, 108 Commits. **0 neue Bausteine**; von drei
+geaenderten Kern-Bausteinen waren zwei Eigenrauschen des Laufs 21 (`aafae2564`). Echtes Delta:
+`rules/betrieb-chronik.md`, Eintrag **260829** (IPTV-Diagnose).
+
+- **SYN-59 neu** — der als wiederverwendbar bezeichnete `CGEvent`-Helfer lag nur im Scratchpad
+  und ist nachweislich weg (122 Scratchpad-Verzeichnisse, Home, `/tmp`, `mdfind` abgesucht;
+  einziger Treffer fuer «messkopf» ist die Chronikdatei selbst); die belegte Sackgasse
+  «`System Events` wird von Catalyst-Apps nicht angenommen» stand in keinem Register.
+  → Fahigkeitszeile in `connectors/WEGE.md` gesetzt (+1/0), Weg 3 ausdruecklich als «Code nicht
+  mehr vorhanden» markiert; ⚠-Nachtrag in der Chronik (13/0).
+- **SYN-60 neu** — die woertlich als «Praktische Verschaerfung fuer Diagnose-Sitzungen»
+  formulierte Regel lag in der nicht importierten Chronik, obwohl sie interaktive Sitzungen
+  adressiert und ihre Herkunft selbst mit `auto-verbesserungen` 260730b benennt (dort 0 Treffer).
+  → Querverweis an 260730b Punkt 3 angehaengt (12/0), kein neuer Rule-Eintrag, kein neuer Import.
+- **SYN-54 / SYN-55 nachgefuehrt** (Beteiligte bewegt, Normen-Run 65 `b90d8d663`): vierter
+  ⚠-Vorbehalt im Synthese-Artikel, drei Frontmatter-Quellen `speculative`; Pruefstand fuer
+  `sia-416-2003` durchlaufen. Kein neuer Befund, Statusentscheid bleibt bei der KB `normen`.
+- **SYN-43 nicht aufgerollt** — `rules/jans-dna-facetten.md` im Fenster unbewegt, die vierfache
+  Serie reisst. **SYN-01 geprueft, nicht aufgerollt** (offene Kante unbewegt).
+
+Register 1030 → 1100 Zeilen, 58 → 60 Tabellenzeilen; Laufbericht
+`outputs/2026-08-29_synergie-lauf-22.md`.
+
 ## 2026-08-28 (Run 46) — vier von fuenf Befunden waren zwoelf Stunden alt: zwei Naechte guter KB-Arbeit, je eine Kante ueber die eigene Grenze hinaus nicht bedient
 
 **Zuschnitt:** 5 Melder (`model: sonnet`) + 5 Refuter (Hauptmodell) = 10 Agenten, 1'819'895 Token,
@@ -2100,7 +2125,6 @@ Refuter-Stufe ist zu verdanken, dass zwei Dateien nicht falsch geaendert wurden.
 - **[an die Loops, unveraendert]** SIA-500-Korrigenda-Nachzug (~20 Stellen, `normen`) · drei
   grammatisch zerstoerte Saetze im Naeherbaurechts-Destillat (`baurecht`, braucht Buch-Run) ·
   OEREB-Thema 130/KGSchV-Nachfolge (`baurecht`/`planungsgrundlagen`).
-
 
 
 ## 2026-07-28 — Run 19 (Workflow-Fan-out: 5 Lese-Agenten + 10 adversariale Verifikatoren; 7 BESTAETIGT / 3 WIDERLEGT)

@@ -264,6 +264,18 @@ zuerst.
   das Ergebnis im Ziel verifizieren, nicht nur den rc. (3) Jede Behauptung ueber den
   Betriebszustand wird gemessen (`ps`, STOP-Flags, Logzeile), nie aus dem letzten gelesenen
   Registerstand fortgeschrieben.
+  **Verschaerfung fuer Beratungs- und Diagnose-Sitzungen (Querverweis, Beleg
+  `rules/betrieb-chronik.md` 260829):** wurde eine **Empfehlung** ausgesprochen, auf die der
+  Benutzer waehrend der Sitzung handeln konnte, ist der zugehoerige Messwert im Schlussbericht
+  **neu zu erheben, nicht zu zitieren** — ein Messwert ist eine Aussage ueber **seinen**
+  Zeitpunkt, nicht ueber jetzt. Belegt am 29.08.2026: ein um 10:45 korrekt gemessenes 35-W-Netzteil
+  wurde im Schlussbericht als Gegenwart wiederholt, obwohl Raphael in der Zwischenzeit auf 96 W
+  getauscht hatte. Ebenfalls dort belegt und derselben Familie: **ein auffaelliges Muster ist
+  zuerst eine Aussage ueber das Instrument** (ein Sampling-Script misst die Taktabweichung mit und
+  weist sie aus), **Plausibilitaet und Beleg getrennt ausweisen** (eine strukturell richtige
+  Hypothese ist noch keine Ursache), und **wer nur die Quelle anschaut, haelt ein loesbares Problem
+  faelschlich fuer fremdverschuldet** (die Lieferluecken waren real, entscheidend war der zu kleine
+  Puffer auf der eigenen Seite).
 - **Gilt fuer:** alle Sessions und Scheduled Tasks, jeden datierten Eintrag, jeden Edit an
   geteilten NAS-Inhalten. Vorfaelle: Archiv, Snapshot 260730.
 

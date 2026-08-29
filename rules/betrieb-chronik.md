@@ -113,6 +113,19 @@ erzwingt Kanalwechsel, in 2 h Log ohne Ereignis); Router meldet Laendercode NL a
 Schweizer Anschluss. Messdaten und Script:
 Scratchpad `iptv/` (`messkopf.py`, `A2_tailscale_AN.csv`, `B_tailscale_AUS.csv`).
 
+⚠ **Nachtrag 29.08.2026 17:2x (Synergie-Lauf 22, SYN-59): die hier genannten Scratchpad-Artefakte
+existieren nicht mehr.** Gemessen ueber 122 Scratchpad-Verzeichnisse plus Home, `/tmp` und
+`mdfind`: weder der Swift-Helfer noch `messkopf.py` noch die beiden CSV sind auffindbar; der
+einzige verbliebene Treffer fuer «messkopf» im ganzen System ist **diese Datei**. Fuer die
+Messdaten ist das verschmerzbar, der Befund steht oben. Nicht verschmerzbar ist der
+**Swift-Helfer**: er ist ausdruecklich als wiederverwendbar bezeichnet und war damit genau der
+Fall, den Lehre 2 des Eintrags 260828 direkt darunter behandelt. Die belegte **Sackgasse**
+(`System Events` wird von Catalyst-Apps nicht angenommen) und die beiden funktionierenden Wege
+(App-eigener `defaults`-Schluessel, `CGEvent` mit `mouseEventClickState`) sind darum nachtraeglich
+ins Wege-Register `connectors/WEGE.md` eingetragen worden — der Weg ist dort ausdruecklich als
+«Code nicht mehr vorhanden» gekennzeichnet, damit kein zweites Mal eine dokumentierte
+Gegenmassnahme fuer eine vorhandene gehalten wird (Muster SYN-56).
+
 ## 260828 — Der fehlende `heartbeat`-Check ist gebaut: «laeuft» und «ist erreichbar» sind jetzt zwei Messungen
 
 Rule `auto-verbesserungen` 260824 und CLAUDE.md fuehrten seit dem 24.08. einen «heartbeat Check 15»
