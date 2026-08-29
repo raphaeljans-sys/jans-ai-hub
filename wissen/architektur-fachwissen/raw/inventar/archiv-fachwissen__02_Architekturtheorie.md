@@ -143,3 +143,36 @@ Als Stilquelle daher nur mit dieser Einschränkung brauchbar, als Beleg für die
   Syllabus oder an der genannten Fundstelle gegenzulesen, bevor sie in ein Erzeugnis wandert.
 - **Stand 2014.** Die Sektion bildet den Diskussionsstand bis 2014 ab. Sie ist fachlich zeitlos,
   soweit sie klassische Positionen referiert, aber sie kennt keine Debatte nach 2014.
+
+## Destillat-Fortschritt
+
+**30.08.2026, erster Lauf (Lane FACHWISSEN):** zehn der elf P1-Zeilen destilliert, als
+eigenständige Wiki-Artikel:
+
+- [x] `Konstruktion_und_Tektonik/06_Fragen/*` → [[tektonik-kernform-kunstform-bekleidung-boetticher-semper]]
+- [x] `Materialwahrheit_und_Stoffwechsel/06_Fragen/*` → [[materialwahrheit-stoffwechseltheorie-semper-vier-elemente]]
+- [x] `Typus/06_Fragen/Typus_Fragen.docx` → [[typus-modell-prototyp-trennschaerfe]]
+- [x] `Funktion/06_Fragen/Funktion_Fragen.docx` → [[funktionsbegriff-fuenf-lesarten-sullivan-dreiteilung]]
+- [x] `Ornament/06_Fragen/131114_Fragen_Ornament.docx` → [[ornament-decorum-loos-semper-riegl]]
+- [x] `Ort/05_Fragen/131121_Fragen_Ort.docx` → [[ort-genius-loci-norberg-schulz-nicht-orte]]
+- [x] `Stil/06_Fragen/130926_Stil.docx` → [[stil-styling-signatur-brand-abgrenzung]]
+- [x] `Materialitaet/02_Vorlesungsmitschrift/121004_Materialitaet_Fragen.docx` → [[materialitaet-haptisch-optisch-riegl-kunstwollen]]
+- [x] `00_Administration/Begriffe.pdf` → [[begriffskonkordanz-architekturtheorie-koolhaas-loos-rossi-venturi]]
+- [x] `00_Administration/00_Konzept/07_Textanalyse/120821_Textanalyse_Architekturtheorie.docx` → [[textanalyse-raster-19-punkte-fachtext-destillation]]
+
+**Offen bleiben zwei P1-Positionen:**
+
+- [ ] `Konstruktion_und_Tektonik/05_Literatur/Seiten aus Handbuch_Deplazes.pdf` — reiner
+  Bild-Scan ohne Textebene, textutil/pdftotext liefern keinen Text; braucht OCR oder
+  Vision-Lesung in einem künftigen Lauf.
+- [ ] `00_Administration/Theorie_Begriffe_I_Sammelmappe1.pdf` — Read-Tool meldet fehlendes
+  `pdftoppm`/poppler auf dieser Station für die Seitenrasterung; in diesem Lauf nicht
+  installiert (Systemänderung ausserhalb des Auftrags). Braucht künftig entweder poppler
+  oder eine Station mit funktionierendem PDF-Renderer.
+
+Alle destillierten Artikel `status: emerging` (Einzelquelle, eigene Vorlesungsantworten),
+gemäss Spec-Regel zur Zweitbeleg-Unabhängigkeit nicht `established`. Kein Sperrlisten-Fund
+in dieser Sektion (keine Verträge, Adressen, Lohn-/Gesundheitsdaten). Zählung der Sektion
+(1603 gesichtet, P1 21 von 11 Zeilen, P2 188, P3 219, X 1175) bleibt unverändert; die
+Zählung in der Kopfzeile «P1 21» meint Dateien, nicht Triage-Zeilen (siehe `wiki/INDEX.md`
+Anmerkung dazu).

@@ -4,6 +4,23 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260830 — Zwei technisch blockierte P1-Positionen, Sektion 02_Architekturtheorie (Lane FACHWISSEN)
+
+**#61 — Bild-Scan ohne OCR.** `Konstruktion_und_Tektonik/05_Literatur/Seiten aus
+Handbuch_Deplazes.pdf` trägt sechs nebeneinandergestellte Tektonik-Definitionen (Duden,
+dtv, Semper, Wölfflin, Frampton, Borbein, Neumeyer) — laut Inventar eine kompakte,
+sofort verwertbare Zitatsammlung. `textutil` und `pdftotext` liefern beide keinen Text
+(reiner Bild-Scan). Wer beantworten kann: ein Lauf mit OCR-Zugriff oder Vision-Lesung
+der Einzelseiten.
+
+**#62 — Fehlendes poppler auf dieser Station.** `00_Administration/
+Theorie_Begriffe_I_Sammelmappe1.pdf` (15 Seiten laut Inventar, verbindet Semesterplan mit
+ausgearbeiteten Begriffsantworten) liess sich mit dem Read-Tool nicht rendern
+(`pdftoppm is not installed`). Das kleinere `Begriffe.pdf` (2 Seiten) liess sich dagegen
+lesen — offenbar abhängig von PDF-Grösse/-Struktur. Wer beantworten kann: eine Station mit
+installiertem `poppler` (`brew install poppler`), oder ein manueller Export der Seiten als
+Bild.
+
 ## 260829b — Cross-KB-Befunde (Wissens-Chef Run 47)
 
 **#38 → Übergabe an KB `twin`: Eigentext-Stratum 2007–2014 als möglicher GOLD-Bestand.**

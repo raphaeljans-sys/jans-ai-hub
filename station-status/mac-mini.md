@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 01:16:38
+Stand: 30.08.2026 01:26:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 00:46)
+- /Users/raphaeljans  (letzte Aktivitaet 01:00)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 01:16:38
 - keine
 
 ## Hub-Git-Stand (NAS)
-- efe285eb0 wissens-destillat archiv-fachwissen 03_Bauprozesse_I_II: erster P2-Lauf, drei Wiki-Artikel, Cross-KB-Duplikat vermieden
+- 9eadd9541 vollgas-radar 30.08. 01:16: Sync-P1 Fehlbefund korrigiert (68/34, zwei konkurrierende Push-Wege)

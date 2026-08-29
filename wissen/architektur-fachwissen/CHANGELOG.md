@@ -1,5 +1,35 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — Korpus archiv-fachwissen Sektion 02_Architekturtheorie P1 zu 10/11 abgeschlossen (Lane FACHWISSEN)
+
+Nach Abschluss von `01_Konstruktion` (P1+P2) und dem ersten P2-Lauf `03_Bauprozesse_I_II`
+ging dieser Lauf gemäss `KORPUS-QUEUE.md` «Sektionen nach Ertrag» zur nächstgrössten
+unbearbeiteten archiv-fachwissen-Sektion über: `02_Architekturtheorie` (21 P1 von 1603
+Dateien, elf Triage-Zeilen). Zehn Wiki-Artikel neu geschrieben, alle `status: emerging`,
+Quelle durchgehend eigene, ausformulierte ETH-Vorlesungsantworten 2012/2013
+(Architekturtheorie III/IV, Institut gta) mit Primärzitaten gemeinfreier Autoren (Semper,
+Bötticher, Loos, Sullivan, Alberti) und paraphrasiertem Sekundärkommentar (Moravánszky,
+Tönnesmann u. a., urheberrechtlich geschützt, nicht im Wortlaut):
+
+- [[tektonik-kernform-kunstform-bekleidung-boetticher-semper]]
+- [[materialwahrheit-stoffwechseltheorie-semper-vier-elemente]]
+- [[typus-modell-prototyp-trennschaerfe]]
+- [[funktionsbegriff-fuenf-lesarten-sullivan-dreiteilung]]
+- [[ornament-decorum-loos-semper-riegl]]
+- [[ort-genius-loci-norberg-schulz-nicht-orte]]
+- [[stil-styling-signatur-brand-abgrenzung]]
+- [[materialitaet-haptisch-optisch-riegl-kunstwollen]]
+- [[begriffskonkordanz-architekturtheorie-koolhaas-loos-rossi-venturi]]
+- [[textanalyse-raster-19-punkte-fachtext-destillation]]
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschnitt
+«Destillat-Fortschritt» vermerkt (reine Ergänzung, `git diff --numstat` zeigt `33 0`).
+Zwei P1-Positionen bleiben offen, beide aus technischen Gründen, nicht aus Beleglücke:
+`Seiten aus Handbuch_Deplazes.pdf` (Bild-Scan ohne Textebene, textutil/pdftotext liefern
+nichts) und `Theorie_Begriffe_I_Sammelmappe1.pdf` (Read-Tool meldet fehlendes
+`pdftoppm`/poppler auf dieser Station). Kein Sperrlisten-Fund (Verträge, Adressen,
+Lohn-/Gesundheitsdaten) in dieser Sektion. `KORPUS-QUEUE.md` nachgeführt.
+
 ## 2026-08-29 (Wissens-Chef Run 47) — vier Cross-KB-Kanten gesetzt, zwei Fehlbehauptungen «kein Destillat vorhanden» berichtigt
 
 Erste Cross-KB-Pruefung nach dem 112-Artikel-Schub dieses Tages (Erst-Pruefung war Run 41, 24.08.2026).
