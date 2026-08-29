@@ -3731,3 +3731,26 @@ Fast jede Position der Spezifikationsmail endet mit einer benannten Rückmeldung
 auf Rahmen, Verstärkung und Oberteil zu prüfen», «Geht das, wollt Ihr das so?». Keine
 Position bleibt ohne adressierte Erwartung — mit Ausnahme derer, die unter die
 Widerspruchsfrist gestellt werden ([[denken]], Batch 108).
+
+## Achte Endform: gar kein Schluss (belegt Fidelity 260829, authentisch)
+
+Der Katalog der Endformen (260803/260807/260817/260824/260828) zaehlt sieben Gestalten, von der
+Bedingung ueber die Nachmelde-Zusage bis zur zurueckgestellten Grundfrage unter nacktem Label.
+Alle sieben sind **Saetze**. Die achte ist keiner.
+
+08.07.2026 16:09 an Stefan Tschopp: der Body besteht aus dem Nominalsatz «Vorschlag
+Briefkastenlayout Eingangsportal» und hoert danach auf — ohne Gruss, ohne Block, ohne naechsten
+Schritt. Belegdetails und der kontrollierte Vergleich mit der Mail sechs Minuten davor:
+[[stimme]], Abschnitt «Die Nullform des Transmittals».
+
+**Das praezisiert die eigene Do-Zeile «immer einen naechsten Schritt anbieten».** Sie gilt fuer
+Mails, die eine Sache **fuehren**. Sie gilt nicht fuer die Mail, die nur einen Anhang betitelt —
+dort ist das Angebot eines naechsten Schritts nicht Sorgfalt, sondern Fuellmaterial. Die
+Spannung zwischen dieser Do-Zeile und der Transmittal-Regel in [[stimme]] war bis zu diesem
+Lauf ungeloest ([[QUESTIONS]] 260829b #1).
+
+**Zweitbefund: die A)/B)-Form traegt auch referiertes Fremdwissen.** Die Rolladen-Mail vom
+07.07.2026 07:48 fuehrt die Empfehlung des Lieferanten als «A) … B) …». Das stuetzt die
+Korrektur von 260817 («die A) B) C)-Form ist Raphaels LISTENFORM, kein Registersignal») um einen
+weiteren Gegenstandstyp: nicht nur Fragen, Traktanden und Befundpaare, sondern auch die
+**zugeschriebene Fremdempfehlung**. Der Zwilling schrieb an dieser Stelle blind Fliesstext.

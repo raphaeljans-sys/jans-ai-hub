@@ -4680,3 +4680,40 @@ derselben Eigenheit im Korpus, hier erstmals dreifach im selben Fenster.
 Grüsse». Keine Begründung, kein gehobenes Register, kein Ausrufezeichen. Der Ton bleibt
 flach, während die Sache hart wird — vgl. [[haltung]] und die Behörden-Eskalation vom
 19.08.2026.
+
+## Die Nullform des Transmittals: kein Anrede, kein Gruss, kein Block (belegt Fidelity 260829, authentisch)
+
+Bisher galt: «Das reine Transmittal ist ein verbloser Nominalsatz **ohne Leerzeile nach der
+Anrede**» (Z. 93) und der Zwilling halte es minimal mit «Anhang benennen + Passt das so fuer
+Dich? + Lieber Gruss» (Z. 301). Beide Fassungen setzen eine Anrede und einen Gruss voraus.
+**Es gibt eine Stufe darunter.**
+
+08.07.2026 16:09, an Stefan Tschopp (Du-Kontakt), Betreff «Sonnerie und Briefkastenanlage»,
+zwei PNG im Anhang. Der **vollstaendige** Body:
+
+> Vorschlag Briefkastenlayout Eingangsportal
+
+Danach nur noch der mobile Trenner «--». Keine Anrede, kein Gruss, kein Signaturblock, kein
+Verb, kein Punkt.
+
+**Der Beleg ist kontrolliert, und das ist sein Wert:** derselbe Empfaenger bekam **sechs
+Minuten vorher** (16:03, «Projektaenderungsplaene») eine voll ausgebaute Mail mit «Geschaetzter
+Stefan,», Anhangsbenennung, «Naechster Schritt:» plus Aufzaehlung und komplettem
+Freundliche-Gruesse-Block. Zwei Mails, ein Empfaenger, ein Register, sechs Minuten Abstand,
+maximal auseinanderliegende Formen.
+
+**Daraus folgt die Trennlinie:** nicht die Beziehung und nicht der Kanal entscheiden ueber die
+Ausbaustufe, sondern ob die Mail **ausser dem Anhang ueberhaupt etwas zu sagen hat**. Die
+Projektaenderungsplaene verlangen eine Freigabe und einen Verfahrensweg, also traegt die Mail
+Anrede, Struktur und Schluss. Das Briefkastenlayout ist ein Vorschlag zum Anschauen, also traegt
+die Mail nur seinen Namen. Der Nominalsatz **betitelt den Anhang, er begleitet ihn nicht**.
+
+Gegenprobe am Zwilling (Blindfassung 260829 C'): er schrieb «Hoi Stefan», «Anbei das Layout …
+mit der Bitte um Durchsicht», erfand eine Rueckfallebene («dem Schlosser bis Freitag melden»)
+und setzte «Lieber Gruss» plus Block — fuenf Elemente, von denen im Gold **keines** vorkommt.
+
+## Ergaenzung Wachstums-Riegel: diese Regel ist NICHT in den Do/Don't-Block promoviert
+
+Der Auto-Block lag am 29.08.2026 bei 33'952 B von 34'000 B (Reserve 48 B). Die Nullform ist
+darum hier belegt, aber nicht kompiliert — sie wirkt erst nach einem Entscheid Raphaels
+(→ [[QUESTIONS]] 260829b #4).

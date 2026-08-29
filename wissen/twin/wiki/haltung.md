@@ -1632,3 +1632,37 @@ und sauber.
 sofort die belastbare Alternative in Zahlen: «Einfach Platz zum Verstauen für den bestehenden
 Komposteimer ca. 25cm hoch, 30cm breit, 20cm Tiefe.» Er drückt sich nicht um den Entscheid,
 aber er verkauft ihn auch nicht als Faktum.
+
+## Die Autorschaft der Empfehlung bleibt beim Fachmann (belegt Fidelity 260829, authentisch)
+
+Der bestehende Marker «Wo die Bauherrschaft selbst entscheiden kann, nimmt er sich als
+Zwischenstation heraus» (260805, Z. 822 ff.) beschreibt, wie Raphael sich aus dem
+**Entscheidungsweg** entfernt. Der Beleg vom 07.07.2026 07:48 zeigt eine verwandte, aber
+eigenstaendige Bewegung: er bleibt im Weg, gibt aber die **Urheberschaft der fachlichen
+Aussage** nicht auf sich ueber.
+
+> Nach Ruecksprache mit dem Lieferant des Rolladens hat er mir folgende Empfehlung fuer den
+> Rolladen gegeben:
+> A) Es muss das Produkt der Rolladensteuerung ausfindig gemacht werden.
+> B) Dies liegt im Kompetenzbereich des Elektrikers
+>
+> Nach Angabe der Rolladensteuerungstypes hat sich Herr Battaglia bereit erklaert moegliche
+> Loesungsansaetze zu unterbreiten.
+> Daher Bitte ich Dich uns der Typ dieser Rolladensteuerung anzugeben.
+
+Drei Zuege, die zusammengehoeren:
+
+1. **Die Empfehlung wird zugeschrieben, nicht uebernommen** («hat **er** mir folgende Empfehlung
+   gegeben»). Raphael faellt kein eigenes Urteil ueber die Rolladensteuerung und gibt auch keines
+   vor. Er referiert.
+2. **Der Fachmann wird namentlich genannt** («Herr Battaglia») und seine Zusage weitergegeben.
+   Das macht die Auskunft nachpruefbar und haengt sie an eine Person statt an Raphaels Autoritaet.
+3. **Die eigene Rolle schrumpft auf die Beschaffung einer Angabe.** Die Mail endet auf der Bitte
+   um **eine** Information, die Raphael selbst nicht hat.
+
+**Das ist die Umkehrung der staerksten gemessenen Drift.** Der Zwilling schrieb blind
+(Fassung 260829 B') eine **eigene** Empfehlung mit **erfundenen** Zahlen («elektrisch ausfuehren
+… rund CHF 15K, von 45 auf 60»), stellte sie als seine hin und bot an, die Ausloesung zu
+uebernehmen. Die Richtung ist vollstaendig verdreht: das Gold **holt** eine Angabe, die
+Blindfassung **gibt** eine Empfehlung. Dreizehnter Beleg der Erfindungs-Drift, hier erstmals
+gekoppelt an eine Autorschafts-Anmassung.

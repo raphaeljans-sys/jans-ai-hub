@@ -3473,3 +3473,31 @@ Nur das persönliche Zusammentreffen ist bisher als Auslöser belegt.
 Kein Eintrag in `rules/anrede-kontakte.md` für den Küchenbauer-Projektleiter: ein einzelner
 Sammelanreden-Beleg reicht nach dem Kopf jener Datei nicht. Zweiten Beleg abwarten,
 [[QUESTIONS]] 260829 #1.
+
+## «liebe <Vorname>,» kleingeschrieben — auch ausserhalb des waermsten Peer-Du (belegt Fidelity 260829, authentisch)
+
+Die Form war bisher **einmal** verbucht, und zwar als Spitze der Waermeskala: «Marco Schwander
+(Kuechenbau, gastro-online) — waermstes Peer-Du bestaetigt («liebe Marco»)» (Z. 1557).
+
+07.07.2026 07:48, Betreff «Wartstrasse 8», an **Undine Hofer** (Bauherrenvertreterin) mit
+`info@mv-ag.ch` als zweiter To-Adresse. Eroeffnung:
+
+> liebe Undine,
+
+Kleingeschrieben, mit Komma. Das ist **keine** Peer-Du-Spitze, sondern eine ganz gewoehnliche
+operative Mail (Rueckfrage nach einem Geraetetyp).
+
+**Damit ist die Zeile in `rules/anrede-kontakte.md` unvollstaendig.** Sie fuehrt Undine Hofer
+als «Hoi Undine» operativ, «Geschaetzte Undine» bei Gewicht — belegt aus vier Fidelity-Laeufen.
+Eine dritte, waermere und zugleich beilaeufigere Form fehlt dort. Claude aendert den Wortlaut
+einer Rule nicht selbst; vorgelegt als [[QUESTIONS]] 260829b #2.
+
+**Zweitbefund derselben Mail — der zweite To-Empfaenger wird uebergangen.** `info@mv-ag.ch`
+steht im **To**, nicht im Cc, und wird in der Anrede nicht erwaehnt. Das ist der zweite
+unabhaengige Beleg fuer 260824 («Auch ein To-Empfaenger wird uebergangen: das Adressfeld sagt,
+wer die Mail bekommt, nicht wer angeredet wird») und der erste, in dem der Uebergangene eine
+**Firmen-Sammeladresse** ist.
+
+**Gegenprobe am Zwilling (Blindfassung 260829 B'):** er waehlte «Guten Morgen Undine» nach dem
+Vormittags-Default. Der Default ist nicht falsch, aber er ist ein Default — und deckt die
+belegte Form nicht ab.

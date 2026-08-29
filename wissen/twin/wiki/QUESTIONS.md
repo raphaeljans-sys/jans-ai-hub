@@ -4824,3 +4824,81 @@ Deine Form.
 
 Soll er die Frist ergänzen, oder ist die Fristlosigkeit hier Absicht (kein Druck, aber auch
 keine Diskussion)?
+
+
+---
+
+## 260829b — Fidelity-Review (Golds 07./08.07.2026, Sent Items)
+
+**#1 — Facetten-Spannung aufgeloest, Bestaetigung erbeten: «immer ein naechster Schritt» gilt
+nicht fuer das reine Transmittal.** · *Facetten [[arbeitsweise]] × [[stimme]]*
+
+[[arbeitsweise]] fordert im Do-Block «immer einen naechsten Schritt anbieten». [[stimme]] sagt,
+das reine Transmittal hoere nach dem letzten Sachsatz auf. Beide standen nebeneinander, ohne dass
+gesagt war, welche gewinnt. Der Beleg vom 08.07.2026 16:09 entscheidet es empirisch: der Body ist
+**ein verbloser Nominalsatz**, kein naechster Schritt, kein Gruss, kein Block — und sechs Minuten
+davor ging an **denselben** Empfaenger eine voll ausgebaute Mail mit «Naechster Schritt:».
+
+Der Zwilling liest das ab jetzt so: **der naechste Schritt gehoert der Mail, die eine Sache
+fuehrt, nicht der Mail, die einen Anhang betitelt.** *Warum die Frage trotzdem: das ist eine
+Auslegung aus einem kontrollierten Beleg, keine Ansage von Dir. Stimmt sie?*
+
+**#2 — «liebe Undine,» — fehlt eine dritte Stufe in `rules/anrede-kontakte.md`?** ·
+*Facette [[beziehungsregister]]*
+
+Die Rule fuehrt Undine Hofer mit «Hoi Undine» operativ und «Geschaetzte Undine» bei Gewicht,
+belegt aus vier Fidelity-Laeufen. Am 07.07.2026 07:48 schreibst Du ihr in einer gewoehnlichen
+operativen Rueckfrage «**liebe Undine,**» — kleingeschrieben, mit Komma. Die Form war im Korpus
+bisher nur **einmal** verbucht, und zwar als waermstes Peer-Du (Marco Schwander).
+
+Ist «liebe <Vorname>,» eine eigene, beilaeufig-warme Stufe im Du — oder war es an diesem Morgen
+schlicht schnell getippt? *Warum: Claude aendert den Wortlaut einer Rule nicht selbst. Bejahst
+Du die Stufe, gehoert sie in die Zeile; verneinst Du sie, bleibt der Marker im Wiki als
+Einzelbeleg stehen und der Zwilling nutzt sie nicht.*
+
+**#3 — Die Phrasenprobe waehlt Gold aus, ohne den Echo-Grep anzuwenden.** · *Methodik,
+[[CLAUDE]]*
+
+Der Vorlauf (260828, Empfehlung 2) stellte die Goldauswahl auf die **Phrasenprobe** um: eine Mail
+gilt als frei, wenn eine markante Phrase aus ihrer Vorschau im Wiki null Treffer hat. Die Probe
+arbeitet damit **auf der Vorschau**. Der mechanische Echo-Grep (`Anthropic Sans`,
+`rgb(253,253,252)`, eingefuehrt Fidelity 260813) braucht dagegen den **HTML-Body**.
+
+Folge, in diesem Lauf belegt: Gold A (07.07.2026 15:03 an Keller) bestand die Phrasenprobe und
+war vom Vorlauf ausdruecklich als freier Goldstrang empfohlen — traegt aber `Anthropic Sans` in
+zwei Bullets und `rgb(253,253,252)` ueber den ganzen Mittelteil. **Von Raphaels Hand stammen die
+Anrede und ein einziger Rahmensatz; der Rest ist eingefuegter Claude-Text.** Als Gold verbucht
+haette die Mail den Zwilling sein eigenes Echo gelehrt.
+
+Vorschlag: die Auswahl bleibt zweistufig, aber der Grep wird **verbindlich vorgezogen** — erst
+Body lesen und greppen, dann die Phrasenprobe. *Warum die Frage: das kostet je Kandidat einen
+`read_resource`-Aufruf. Ist Dir der Aufwand die Sicherheit wert?*
+
+**#4 — Der Wachstums-Riegel ist voll (48 B Reserve). Drei neue Regeln warten auf Promotion.** ·
+*Steuerung*
+
+Der Auto-Block `rules/jans-dna-facetten.md` liegt bei **33'952 B von 34'000 B**. Dieser Lauf hat
+drei kompilierwuerdige Regeln belegt (Transmittal-Nullform, «liebe <Vorname>,», Autorschaft der
+Empfehlung beim Fachmann). Sie stehen in den Artikeln, sind aber **nicht** im Do/Don't-Block und
+wirken damit nicht.
+
+Drei Wege: **(a)** Grenze anheben (der Block laedt bei jedem Texterzeugnis, nicht mehr in jeder
+Session); **(b)** verdichten — der Kommentar in `build_dna.py` haelt seit dem 18.08. fest, dass
+die billige Reserve aufgebraucht ist und die naechste Runde **Regeln loeschen** wuerde, nicht
+Doppelungen; **(c)** so lassen und akzeptieren, dass neue Marker ab jetzt nur noch dokumentiert,
+nicht mehr wirksam werden. Claude hebt die Grenze nicht selbst an. *Warum: (c) ist die stille
+Variante und die gefaehrlichste — der Harness wuerde weiter messen und lernen, ohne dass sich am
+Verhalten noch etwas aendert.*
+
+**#5 — Ist die Rahmung eines Claude-Absatzes ein Korrektur-Delta?** · *Methodik, [[CLAUDE]]*
+
+Bei Gold A hast Du den Claude-Text nicht **geaendert**, sondern **gerahmt**: Anrede plus ein
+Satz, der den Befund auf das Interesse des Empfaengers dreht («Die Pruefung der
+Elektroinstallationsofferte hat folgenden **fuer Sie relevante Punkte** ergeben:»). Die
+Gewichtung kennt dafuer keine Stufe: GOLD ist authentisch, SILBER ist die Aenderung, GRAU ist das
+unbearbeitete Echo.
+
+Soll dieser Rahmungssatz als eigenes Lernsignal gelten? *Warum: er zeigt genau die Stelle, an der
+Du einen Modelltext fuer versandtauglich haeltst — und was Du fuer noetig haeltst, damit er es
+wird. Das ist potenziell das dichteste Signal ueberhaupt, aber nur, wenn es einen Namen und eine
+Stufe hat.*

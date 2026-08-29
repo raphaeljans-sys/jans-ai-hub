@@ -4,6 +4,24 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-29 — twin-fidelity-review: Nullform des Transmittals, und ein Gold, das keines war
+
+`outputs/2026-08-29_fidelity.md` neu (Gesamt-Fidelity **23**; Golds 07./08.07.2026 aus Sent
+Items, Blindfassungen vor der Goldlektuere fixiert). Vier Facetten-Artikel um je einen belegten
+Abschnitt erweitert: [[stimme]] (Nullform des Transmittals — kein Anrede, kein Gruss, kein Block,
+kontrolliert gegen eine Vollform an denselben Empfaenger sechs Minuten davor), [[haltung]]
+(Autorschaft der Empfehlung bleibt beim Fachmann), [[beziehungsregister]] («liebe <Vorname>,»
+kleingeschrieben ausserhalb des waermsten Peer-Du; zweiter Beleg fuer den uebergangenen
+To-Empfaenger), [[arbeitsweise]] (achte Endform: gar kein Schluss). `wiki/QUESTIONS.md` um fuenf
+Fragen (260829b #1–#5; **b**-Suffix wegen Kollision mit Batch 108 desselben Tages).
+
+⚠ Zwei Warnungen: (1) der vom Vorlauf als Gold empfohlene Strang 07.07.2026 15:03 ist ein
+**Hybrid** — `Anthropic Sans` und `rgb(253,253,252)` im Body, nur Anrede plus ein Rahmensatz von
+Raphaels Hand; die Phrasenprobe des Vorlaufs arbeitet auf der Vorschau und umgeht den seit 260813
+etablierten Echo-Grep. (2) Der Wachstums-Riegel von `rules/jans-dna-facetten.md` ist mit 33'952
+von 34'000 B **voll**; die drei kompilierwuerdigen Regeln dieses Laufs sind belegt, aber **nicht**
+promoviert. `build_dna.py` wurde ausgefuehrt und bestaetigt den unveraenderten Auto-Block.
+
 ## 2026-08-29 — twin-mail-training Batch 108: eine Mail, sechs Adressaten, vier Register
 
 `raw/260829-mailbatch-108.md` neu (Sent Items `rj@`, Fenster **28.08.2026**, 10 Mails gelistet,

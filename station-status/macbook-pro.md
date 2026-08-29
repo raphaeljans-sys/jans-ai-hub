@@ -1,13 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 05:36:10
+Stand: 29.08.2026 05:46:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/activity/display/performance/386804  (letzte Aktivitaet 05:15)
-- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 05:15)
-- Developer/jans/ai/hub//claude/worktrees/kwc/sirius/bs302/kispi/cd9dd1  (letzte Aktivitaet 05:15)
-- Developer/jans/ai/hub//claude/worktrees/turdr/cker/garnitur/id/777691  (letzte Aktivitaet 05:15)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:15)
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -16,4 +12,4 @@ Stand: 29.08.2026 05:36:10
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 73cd4ee89 Nachtschicht 05:30: Sammelfrage Charge 1 architekten-synobsis vollstaendig (14/14)
+- 801658565 nas-selfcommit: 4 Datei(en) 2026-08-29 05:45
