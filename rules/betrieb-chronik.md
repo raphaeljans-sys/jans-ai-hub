@@ -19,6 +19,62 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260829 — IPTV-Stocken: nicht Station, nicht WLAN, nicht Tailscale — der Anbieter. Und der Messkopf war zuerst selbst falsch
+
+**Eingriff (Rule `interaktive-eingriffe.md`, Klasse Systemdienste):** Auf Auftrag Raphaels
+wurde auf **station-01 (MacBook Pro)** Tailscale fuer eine 150-s-Vergleichsmessung mit
+`tailscale down` abgeschaltet und per `trap ... EXIT` garantiert wieder mit `tailscale up`
+gestartet. Kein Logout, keine Deinstallation, keine Aenderung an Persistenz oder Autostart.
+**Zustand danach verifiziert:** BackendState Running, Self online, 4 Peers, `utun4` mit
+100.96.212.110 zurueck, NAS ueber das Tailnet (100.92.246.28) mit 0 % Verlust erreichbar.
+Der `tailscale-waechter` laeuft auf dieser Station nicht (nur Mac Mini), konnte den Test
+also nicht verfaelschen. **Nichts bleibt offen, kein Eintrag in `logbuch/fristen.md` noetig.**
+
+**Sachbefund.** Symptom war stockende Wiedergabe in «IPTV Streamer». Gemessen mit einem
+eigens gebauten Messkopf (Takt 2 s: CPU-Speed-Limit, Akkuzehrung, en0-Bitrate,
+TCP-Retransmits, RSSI/TxRate, Prozess-CPU ueber cputime-Deltas):
+
+- **Station entlastet.** CPU_Speed_Limit durchgehend 100 %, **null** Drosselungen in
+  3 x 150 s. Akku 100 %, Quelle durchgehend AC, keine Zehrung. 32 GB RAM, 89 % frei,
+  kein Swap. Hardware-Decoder aktiv (VTDecoderXPCService), IPTV-Prozess ~8 % CPU.
+- **WLAN entlastet.** RSSI -33 bis -42 dBm, Rauschen -93 dBm, TxRate **konstant
+  1300 Mbit/s** ueber alle Laeufe, **null** TCP-Retransmits systemweit.
+- **Tailscale entlastet.** Kein Exit-Node, Route zu 8.8.8.8 ueber `en0`. Ohne Tailscale
+  wurden es **14** Aussetzer statt **8** — also keine Verbesserung, die Streuung ist die
+  des Anbieters.
+- **Beweisender Gegenversuch:** 60 MB von Cloudflare ueber dasselbe WLAN im selben
+  Zeitfenster mit **674 Mbit/s** (0,71 s). Der Stream stockt bei ~6 Mbit/s.
+- **Befund:** 8 bzw. 14 Lieferluecken (<0,5 Mbit/s) je 150 s bei null Retransmits. Wenn
+  Pakete nicht verloren gehen, sondern schlicht nicht kommen, liegt es am Sender.
+  Ursache serverseitig beim IPTV-Anbieter.
+
+**Zwei Lehren, die ueber diesen Fall hinausgehen:**
+
+1. **Das Messgeraet zuerst pruefen, nicht den Befund.** Der erste Lauf zeigte ein
+   markantes Saegezahn-Muster (Burst 23 Mbit/s, dann Einbruch) und haette bequem als
+   «Anbieter liefert stossweise» durchgehen koennen. Es war ein **Artefakt**: der
+   `system_profiler`-Aufruf fuer die WLAN-Daten dehnte den Takt auf bis zu 5,7 s, waehrend
+   die Bitrate stur durch die *geplanten* 2,0 s geteilt wurde — alle hohen Werte um bis zu
+   2,8x aufgeblasen. Erst die Normierung auf die **tatsaechlich verstrichene** Zeit machte
+   die Zahlen brauchbar. Gleiche Familie wie 260807 (Konfigurationsfeld ungemessen
+   geglaubt) und 260730b (leeres `grep`-Ergebnis als Sachbefund gelesen): **ein auffaelliges
+   Muster ist zuerst eine Aussage ueber das Instrument.** Wer ein Sampling-Skript baut, misst
+   die Taktabweichung mit und weist sie im Befund aus.
+2. **Eine strukturell richtige Hypothese ist noch keine Ursache.** Gefunden wurde ein
+   **35-W-Netzteil an einem MacBookPro15,3**, das ab Werk **87 W** braucht (`Name: 35W USB-C
+   Power Adapter`). Das ist real und gehoert behoben, war aber als Erklaerung fuer das
+   Stocken **nachweislich falsch**: keine einzige Drosselung, keine Akkuzehrung. Die
+   Hypothese war beim ersten Berichten ausdruecklich als «nicht live auf frischer Tat
+   ertappt» gekennzeichnet — genau diese Kennzeichnung machte das spaetere Verwerfen
+   billig. **Plausibilitaet und Beleg getrennt ausweisen, sonst wird aus einem guten
+   Verdacht eine schlechte Tatsache.**
+
+**Offen (kein Hub-Thema, Raphaels Entscheid):** 35-W-Netzteil gegen 87 W tauschen
+(Leistungsreserve, unabhaengig vom Stocken); WLAN-Kanal 124 ist ein DFS-Kanal (Radar
+erzwingt Kanalwechsel, in 2 h Log ohne Ereignis); Router meldet Laendercode NL an einem
+Schweizer Anschluss. Messdaten und Script:
+Scratchpad `iptv/` (`messkopf.py`, `A2_tailscale_AN.csv`, `B_tailscale_AUS.csv`).
+
 ## 260828 — Der fehlende `heartbeat`-Check ist gebaut: «laeuft» und «ist erreichbar» sind jetzt zwei Messungen
 
 Rule `auto-verbesserungen` 260824 und CLAUDE.md fuehrten seit dem 24.08. einen «heartbeat Check 15»
