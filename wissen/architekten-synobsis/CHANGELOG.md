@@ -4,6 +4,25 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Vier Prioritaeten erneut geprueft, keine neue Position gefunden
+
+Auftragslage identisch zu den Vorlaeufen dieses Tages (Prioritaet 1-4: Fehlextraktionen,
+Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 2 ff.). Vor Beginn `git log`
+(NAS-Repo) und `wiki/QUESTIONS.md` gegen die vier Prioritaeten geprueft: alle vier waren
+bereits im letzten Commit (`f4e5c4dbd`) vollstaendig erledigt und markiert. Stichprobe der
+konkreten Namen aus dem Auftragstext direkt am Katalog gegengeprueft (nicht nur am Text in
+QUESTIONS.md): `catalog/{Christ_Gantenbein,Enzmann_Fischer,Miller_Maranta,Gigon_Guyer}.json`
+tragen alle das Feld `quellordner` mit beiden Quellordnern; `catalog/Tadao_Ando.json` und
+`catalog/Spuehler_Martin.json` tragen die korrigierten Textauszuege (Vitra-Konferenzpavillon
+bzw. Selnau-Geschossgarten, nicht mehr Junkspace/Stuttgart-21); die Katalogdateien
+`Šuchov_Vladimir_....json` und `Tusquet_Oscar_Clotet_Lluìs.json` tragen die Sonderzeichen
+statt der fruehereren `_x_`-Zerlegung. Keine Abweichung zum protokollierten Stand gefunden.
+Working Tree sauber (`git status --short` zeigt nur eine unabhaengige, nicht zu dieser KB
+gehoerende Datei `logbuch/kontingent/verbrauch-Macmini.json`). Keine Datei in dieser KB
+veraendert, kein `QUESTIONS.md`-Eintrag noetig (nichts Neues zu markieren). Offen bleiben
+unveraendert nur Freigabesachen (NAS-Ordner-Umbenennungen/-Zusammenfuehrungen) und der
+kapazitaetsabhaengige `--reindex`-Lauf fuer die Parser-Verfeinerung.
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Buzzi_e_Buzzi gepruft, alle vier Prioritaeten erneut bestaetigt vollstaendig
 
 Position wie in den Vorlaeufen per `git log`/`git status`/`git diff --numstat` uebernommen:
