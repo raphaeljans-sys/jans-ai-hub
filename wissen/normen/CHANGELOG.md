@@ -1,3 +1,24 @@
+## 2026-08-29 (Run 71, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — vierter Doppel-Dispatch, weiterhin Nullbefund
+
+Vierter Auftrag Raphael mit identischem Wortlaut («Wochenkontingent vor Montags-Reset,
+nächste offenen Kandidaten aus `n62-3-pruefstand-kandidaten.md` abarbeiten»). Vor Arbeitsbeginn
+unabhängig nachgeprüft, nicht der Liste oder dem CHANGELOG geglaubt: `grep -ic
+"prüfstand\|pruefstand"` gegen alle sechs Destillate aus Abschnitt 4 der Kandidatenliste
+(`sia-416-2003.md`, `vkf-ah-1001-15-wohnbauten.md`, `vkf-brl-16-15-flucht-rettungswege.md`,
+`vkf-allgemein-anerkannte-bauprodukte-2017.md`, `sia-102-2014.md`, `sia-451-1992.md`) — alle
+sechs tragen mindestens einen Treffer. `wiki/QUESTIONS.md` endet unverändert bei N68-1, kein
+offener neuer Eintrag seit Run 68. `git log` zeigt Run 66-70 durchgängig committet, NAS-Mount
+(`/Volumes/daten/jans-ai-hub`) und SSD-Spiegel (`~/Developer/jans-ai-hub`) MD5-identisch bei
+`CHANGELOG.md` — der in Run 70 gefundene Drift ist nicht erneut aufgetreten. **Kein neuer
+Kandidat, keine Destillat-Änderung, kein Statuswechsel in diesem Lauf.**
+
+Offen bleibt unverändert nur die in der Kandidatenliste Abschnitt 6 Punkt 2 skizzierte
+Stichprobenrunde für den Mittelbau der ~300 übrigen `established`-Destillate ohne Prüfstand —
+weiterhin Raphael vorzulegen, nicht selbständig zu starten. Da dies der vierte identische
+Dispatch in Folge ist (Run 68, 69, 70, 71 alle mit demselben Nullbefund), lohnt sich am
+Kontrollpunkt zu prüfen, ob der Auftrag mehrfach ausgelöst wird, statt einmal — das ist ein
+Beobachtungshinweis für Raphael, keine Handlung dieser Lane.
+
 ## 2026-08-29 (Run 70, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — dritter Doppel-Dispatch bestätigt Nullbefund, Prozessfund: Run-69-Eintrag lag auf dem SSD-Spiegel statt auf dem NAS
 
 Dritter Auftrag Raphael mit identischem Wortlaut («Wochenkontingent vor Montags-Reset,
