@@ -1,5 +1,122 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Vierter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Gestalt_Kulturverstaendnis` (Lane FACHWISSEN, selber Tag, Fortsetzung)
+
+P1-Positionen der Sektion `02_Gestalt_Kulturverstaendnis` bearbeitet, jede Primärquelle im
+Original gelesen (nicht nur die Inventar-Zusammenfassung übernommen). Sieben Wiki-Artikel
+neu geschrieben, alle `status: emerging`:
+
+- [[typografie-regelwerk-lernskript-jans-2007]] — Makro-/Mikro-Typografie-Regelsatz aus dem
+  eigenen «Lernskript Jans Typografie 1» (2007), inkl. belegter Plakat-Schriftgrössen
+  (Aufmacher 100 pt, Titel 40-80 pt, nie kleiner 18 pt, max. drei Grössen je Seite), ergänzt
+  um Satzspiegel-Konstruktionsprinzipien (Goldener Schnitt, Rasterteilung) aus einem
+  Drittmaterial-Merkblatt (HTA Luzern, Müller/Dubs 2008, sinngemäss) und den
+  InDesign-Produktionsablauf.
+- [[layout-vorgehensmodell-fragestunde-satzspiegel-produktion]] — der vierstufige Ablauf
+  Fragestunde → Inhalt → Layout/Satzspiegel → Produktion als übertragbares
+  Spec-Erhebungs-Muster; Herkunft beim Gegenlesen als geschichtet erkannt (dieselben fünf
+  Fragestunde-Fragen erscheinen bereits wortgleich in einer HTA-Luzern-Unterlage von 2005,
+  zwei Jahre vor dem Lernskript-Datum) — deshalb sinngemäss statt wörtlich behandelt, siehe
+  `wiki/QUESTIONS.md` #42.
+- [[wettbewerbsjury-kapitelfolge-gestaltungsplan-zollstrasse-ost-sbb]] — Jurybericht
+  Zollstrasse Ost, Wohnen (SBB, zweistufiger Wettbewerb mit Präqualifikation, Oktober 2014,
+  136 S., volltextlich gelesen): kanonische Kapitelfolge sowie der planungsrechtliche Rahmen
+  (privater Gestaltungsplan gemäss § 85 PBG auf Basis eines vorgängigen Studienauftrags).
+  Gegen den bestehenden Artikel
+  [[wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien]] geprüft: andere
+  Bauherrschaft (SBB statt Kanton/Stadt) und anderer Verfahrenstyp (zweistufig statt
+  einstufig) — eigenständiger Befund, kein Duplikat, nur verlinkt.
+- [[wettbewerbsbeschrieb-gliederung-staedtebau-struktur-funktion-material-kuessnacht]] —
+  Gliederungsmuster Städtebau → Freiraum → Gebäude (Struktur/Funktion/Material) anhand von
+  fünf volltextlich gelesenen Küssnacht-Projektbeschrieben (Strandbad Seeburg, 2006).
+- [[betontechnologie-schwinden-sichtbeton-betonkernaktivierung-betonforum]] —
+  Schwind-/Rissbildungsarten, Sichtbeton-Qualitätsfaktoren und Betonkernaktivierung aus drei
+  volltextlich gelesenen Betonforum-Referaten (Leemann/Loser 2007, Leemann/Gartmann 2008,
+  Koschenz 2011); Abgrenzung zu den Modellbeton-Artikeln aus `buero-referenzen/10_Modellbauen`
+  geprüft und bestätigt (anderer Massstab, keine Überschneidung).
+- [[modellfoto-bildregie-perspektive-licht-tiefenschaerfe]] — Entscheidungsfragen
+  (Perspektive, Lichtquellen) aus einem Eigentext, ergänzt um Optikregeln aus einer
+  gespeicherten, anonymen Internet-Forumsdiskussion (als Drittmaterial unbekannter
+  Urheberschaft ausdrücklich gekennzeichnet und nur sinngemäss wiedergegeben).
+- [[begriffsapparat-kant-sprachstil-pruefraster-jans]] — Kant-Prüfraster («ein Begriff muss
+  auch abgrenzen»), drei belegte Eigentext-Beispiele (Sockel, Ethos, Baukunst/Gestalt) und
+  zwei geprüfte Architektenzitate (Märkli, Oswald, beide Novartis-Campus-Kontext,
+  Architekturmuseum Basel) als Prüfraster für Vorprojekte. Eigene Nachzählung korrigiert die
+  im Phase-0-Inventar genannte Zahl der Begriffsordner (305) auf tatsächlich 598 — Korrektur
+  nur im neuen Artikel und in `wiki/QUESTIONS.md` #41 vermerkt, Inventar-Zeilen selbst gemäss
+  Spec nicht rückwirkend geändert.
+
+**Bewusst nicht erneut destilliert:** das Raumprogramm Naturmuseum St.Gallen
+(`02_Architekturdisskurs/04_Wettbewerbe/Natums/b natmus 09-03-03 raumprogramm(2).pdf`) ist
+dieselbe Datei wie die bereits in Korpus `buero-referenzen` destillierte Quelle von
+[[raumprogramm-spaltenlogik-sia416-naturmuseum]] — nur verlinkt, nicht neu geschrieben.
+
+**Nicht destilliert, für Folgeläufe offen:** die Schrift-Systematik (9 PDF), die
+Plangrafik-Referenzbüro-Auswertung, 21 der 22 Juryberichte/-programme sowie rund 62 der 65
+Betonforum-Referate — Details je Position im Abschnitt `## Destillat-Fortschritt` von
+`raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md`.
+
+**Datenschutz/Sperrliste:** kein Sperrlisten-relevantes Material beim Lesen der
+Primärquellen aufgefallen. `wiki/QUESTIONS.md` um Block 260829 (#41–#44) ergänzt,
+`raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md` um den Abschnitt
+`## Destillat-Fortschritt` ergänzt (reine Anfügung, `git diff --numstat` zeigt 0 gelöschte
+Zeilen). `wiki/INDEX.md` und `skills/wissens-destillat/KORPUS-QUEUE.md` in diesem Lauf
+absichtlich nicht angefasst (zentrale Nachführung durch Raphael wegen parallel laufendem
+zweitem Agenten).
+
+## 2026-08-29 — Dritter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Konstruktion` (Lane FACHWISSEN, selber Tag, Fortsetzung)
+
+Alle vier P1-Gruppen der Sektion `01_Konstruktion` bearbeitet, jede Primärquelle im Original
+gelesen (nicht nur die Inventar-Zusammenfassung übernommen). Acht Wiki-Artikel neu
+geschrieben, alle `status: speculative` (Pflicht für diese Sektion, da sämtliche Norm-/
+Kennwertangaben Datumsstände zwischen 1991 und 2010 tragen):
+
+- [[fassadensysteme-typologie-sechs-systeme-hta-luzern]] — sechs Fassadensysteme
+  (Pfosten-Riegel, Warmfassade, Kaltfassade hinterlüftet/mit Druckausgleich, SSG,
+  Element, Zweite-Haut) mit Konstruktionsprinzip und sieben Systemanbietern.
+- [[anforderungskatalog-fenster-fassade-sechs-interessengruppen-gkp]] — sechsteilige
+  Gliederung Architekt/Bauherr/Nutzer/Bauphysik/Sicherheit/Bauablauf (gkp fassadentechnik
+  ag, 22.04.2008) als Kapitelraster für Devis/Nutzerbedarfsaufnahme.
+- [[uw-wert-berechnung-und-bauphysikalische-kennwerte-wandaufbauten]] — EnFK-Merkblatt
+  Fenster (Juni 2009) plus Zeitkonstanten-/Speichermassen-Schichtdaten (Backstein
+  aussengedämmt sowie ein datierter ETH-Bestandsaufbau, Prof. Carmeliet, 02.05.2011).
+- [[funktionale-ausschreibung-verfahrensmethodik]] — Zeitpunkt-Argument (Ausschreibung
+  nach Grundlagenermittlung vs. erst in Ausführungsplanung) für Skill `ausschreibung`.
+- [[ahb-planungsgrundlagen-richtlinie-sieben-oekologische-zielvorgaben]] — sieben
+  ökologische Zielvorgaben des Amts für Hochbauten Stadt Zürich; Datierungskorrektur zum
+  Phase-0-Inventar: Dokument trägt explizit das Datum 12.10.2005, nicht «vor 2002».
+- [[fassaden-feuchteschutz-sia-180-unterkonstruktion-dehnung-toleranz]] — Ziele/Nachweise
+  des Feuchteschutzes nach SIA 180-1999 plus Unterkonstruktion als Lastübertragung mit
+  Dehnungsformel und Toleranzaufnahme.
+- [[beanspruchungsklassifizierung-fenster-aussentueren-ift-fe-05-1]] — Geländekategorien
+  I–IV und die Regel «zusammengesetztes Element = ungünstigste Einzelklassifizierung»
+  (ift-Richtlinie FE-05/1, Mai 2002, **deutsche Richtlinie**, ausdrücklich gekennzeichnet).
+- [[materialwahl-argumentationsraster-vier-referenzbaustoffe]] — vier Referenzbaustoffe
+  (Holz/Stein/Stahl/Glas) mit Einsatzcharakteristik und Referenzbauten.
+- [[lignatur-hohlkasten-holzelemente-dach-deckenkonstruktion]] — Lignatur-Herstellerhandbuch,
+  Anwendungstypen Dach und Installationsführung in der Deckenkonstruktion; unabhängig von
+  der im selben Unterordner abgelegten Diplomarbeit einer Drittperson destilliert, diese
+  selbst weiterhin nicht geöffnet.
+
+**Duplikatsprüfung durchgeführt (Auftrag): `Oblicht.pdf` MD5-identisch in beiden
+Korpus-Wurzeln** (`02_Architektur_Archiv/01_Konstruktion/09_Konstruktion/Oblicht.pdf` und
+`04_Buero/10_Referenzenbibliothek/09_Konstruktion/Oblicht.pdf`, beide
+9fcf428e5afe8335de9b4221754b754b) — Flachdachaufbau-Inhalt daher **nicht** erneut
+destilliert, siehe bereits bestehender Artikel [[flachdachaufbauten-vier-typen-textbausteine]].
+Das Lignatur-Herstellerhandbuch in derselben P1-Gruppe erwies sich wie vom Auftrag vermutet
+als unabhängiger, neuer Inhalt und wurde eigenständig destilliert.
+
+Fortschritt und vollständige Begründung je P1-Position in
+`raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt «Destillat-Fortschritt»,
+reiner Append (`git diff --numstat` zeigt `75 0`). `wiki/QUESTIONS.md` nachgeführt (#37
+Sammelvorbehalt Normstand, #38 ift-Richtlinie deutsche Herkunft, #39 P2-Rückstellung
+Deckenaufbauten/Lüftungsgrundlagen, #40 ungeprüfte Restdateien der beiden grössten
+P1-Gruppen). Kein Fund aus der Sperrliste: `00_Baustoffkonzept/Baustoffadressen` und die
+Diplomarbeits-Dateien in `09_Konstruktion/28_Konstruktionaufbauten` (ausser dem
+unabhängigen Lignatur-Unterordner) weiterhin nicht geöffnet. `wiki/INDEX.md` und
+`skills/wissens-destillat/KORPUS-QUEUE.md` nicht angefasst (zentrale Pflege durch Raphael
+laut Auftrag). P2 der Sektion `01_Konstruktion` bleibt vollständig offen.
+
 ## 2026-08-29 — Zweiter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II` (Lane FACHWISSEN, selber Tag, Fortsetzung)
 
 Vorab Leutschenbach-Duplikatsprüfung gegen `wiki/INDEX.md` durchgeführt (Pflicht laut

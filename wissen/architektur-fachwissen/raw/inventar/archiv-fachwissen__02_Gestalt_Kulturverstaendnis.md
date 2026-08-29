@@ -253,3 +253,78 @@ Sichtbeton-Argumentation und Bildregie — dort aber belegt.
   Vorfabrikations-Ausschreibung ansteht.
 - Der Ordner `ORDOS_100` ist doppelt geführt (`original/` und `bearbeitet/`). Falls
   Speicherplatz je ein Thema wird, ist das der grösste Einzelposten dieser Sektion.
+
+## Destillat-Fortschritt
+
+Erster Destillat-Lauf dieser Sektion, 29.08.2026 (Lane FACHWISSEN, Korpus 4
+`archiv-fachwissen`). Sieben Wiki-Artikel geschrieben, alle Primärquellen im Archiv
+volltextlich gelesen (nicht nur diese Inventar-Zusammenfassung). Je P1-Position:
+
+- `01_Architektur_darstellen/04_Layout/03_Checklisten/Typografie.pdf` + `.indd` +
+  `Typografische Verbesserung der Plakatdarstellung Park.doc` — **destilliert** →
+  [[typografie-regelwerk-lernskript-jans-2007]].
+- `01_Architektur_darstellen/04_Layout/00_Typografie/Typografie.pdf` (40 S., HTA-Luzern-
+  Vorlesung) — **nicht destilliert**: nicht im Auftrag dieses Laufs enthalten, in
+  Artikel [[typografie-regelwerk-lernskript-jans-2007]] als offener Punkt vermerkt
+  (könnte die Herkunft der Zahlenreihe zusätzlich verifizieren).
+- `01_Architektur_darstellen/04_Layout/01_Satzspiegel_Booklet/*` (4 PDF, davon
+  `Mueller/Merkblatt10_Layout_Satzspiegel.pdf` gelesen, `Holze` und `Ittig` nur
+  stichprobenweise) und `02_Produktion_INND/Indesign_Projekte.pdf` — **destilliert** →
+  [[typografie-regelwerk-lernskript-jans-2007]] (Praxisregel-Abschnitt
+  Satzspiegel-Konstruktion) und [[layout-vorgehensmodell-fragestunde-satzspiegel-produktion]].
+- `01_Architektur_darstellen/03_Schrift/**` (9 PDF Schrift-Glossar/-Systematik) —
+  **nicht destilliert**: nicht im Auftrag dieses Laufs enthalten, für einen künftigen
+  Lauf offen.
+- `01_Architektur_darstellen/02_Plan_2D/00_Allgemein/01_Plangrafik/Plangrafik.pdf`,
+  `Annette_Spiro_Bauplaene.pdf`, `perspektivelineargrundrissschraegbild.pdf` —
+  **nicht destilliert**: nicht im Auftrag dieses Laufs enthalten.
+- `02_Architekturdisskurs/04_Wettbewerbe/**` 22 Juryberichte/-programme — **teilweise
+  destilliert**: `Zuerich/150203_Jurybericht_Zollstrasse_Wohnen/
+  150203_Jurybericht_Zollstrasse_Wohnen.pdf` volltextlich gelesen (Verfahren, Preisgericht,
+  Aufgabenstellung, Beurteilungskriterien, Beurteilung geprüft) →
+  [[wettbewerbsjury-kapitelfolge-gestaltungsplan-zollstrasse-ost-sbb]], mit Prüfung
+  gegen den bestehenden Artikel [[wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien]]
+  (andere Bauherrschaft SBB statt Kanton/Stadt, zweistufiges statt einstufiges
+  Verfahren — eigenständiger Befund, kein Duplikat). Die übrigen 21 Juryberichte/
+  -programme (Depot Hard, Europaallee, Hornbach, Schauenberg, Schönauring, Koch-Areal
+  u. a.) sind in diesem Lauf **nicht** gelesen worden, bleiben für einen Folgelauf offen.
+- `02_Architekturdisskurs/04_Wettbewerbe/Natums/b natmus 09-03-03 raumprogramm(2).pdf`
+  — **bereits destilliert**, siehe [[raumprogramm-spaltenlogik-sia416-naturmuseum]]
+  (identische Datei bereits in Korpus `buero-referenzen` verarbeitet, verifiziert vor
+  diesem Lauf, keine Neudestillation).
+- `02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/*Beschrieb*.pdf` (6 Beschriebe
+  in 19 Dateien, davon 5 gelesen: Avalon, BORGO, Kobra, laonda, paravent; «Plage des
+  Alpes» nicht gelesen) — **destilliert** →
+  [[wettbewerbsbeschrieb-gliederung-staedtebau-struktur-funktion-material-kuessnacht]].
+- `02_Architekturdisskurs/01_Betonforum/2007–2012` (65 PDF, drei gelesen: Leemann/Loser
+  Schwinden+Rissbildung 2007, Leemann und Gartmann Sichtbeton-Qualität 2008, Koschenz
+  Betonkernaktivierung 2011) — **teilweise destilliert** →
+  [[betontechnologie-schwinden-sichtbeton-betonkernaktivierung-betonforum]]; die
+  übrigen rund 62 Referate bleiben offen, wie bereits im Abschnitt «Offene Punkte»
+  oben vermerkt.
+- `01_Architektur_darstellen/01_Bild_3D/00_Allgemein/00_Wissenschaft/
+  02_Modellfotografische_RD/**` (~12 Dateien, zwei gelesen: `Tipps_fuer_die_
+  Modellfotografie.doc` und `110115_Zusammenfassung_foren_Objektiv.pdf`) —
+  **teilweise destilliert** → [[modellfoto-bildregie-perspektive-licht-tiefenschaerfe]];
+  Vortrag Käch und Nachbearbeitungsablauf (Ordner 01 und 08) nicht gelesen, als offener
+  Punkt im Artikel vermerkt.
+- `03_Begriffe_der_Architektur/**/*.docx` (rund 41 eigene Texte, in der Triage oben als
+  **P2** eingestuft, nicht P1) — auf ausdrücklichen Auftrag dennoch in diesem Lauf
+  bearbeitet, vier Texte gelesen (Warum Begriffe ordnen, Sockel, Ethos, Baukunst/
+  Gestalt) plus die Zitatsammlung Saetze_der_Wichtigkeit — **destilliert** →
+  [[begriffsapparat-kant-sprachstil-pruefraster-jans]]. Eigene Nachzählung ergibt 598
+  Begriffsordner statt der oben im Kurzbefund/Triage genannten 305 — Korrektur dort
+  bei Gelegenheit nachtragen, in diesem Lauf nicht rückwirkend geändert (kein Eingriff
+  in bestehende Zeilen).
+
+**Nicht destillierte P2/P3-Positionen dieser Sektion** (Dichte-Heft, Stadtwanderung/
+Gestaltungsplan Richti, Booklet-Beispiele, Plakatdarstellung-Beispiele, ETH-
+Seminarreader-Scans, Podiumsdiskussionen/Ausstellungen/Pressespiegel, Skandinavien-
+Reader, Lesezirkel, Soziologie-Skript) bleiben unverändert P2/P3 wie in der Triage oben
+festgehalten, in diesem Lauf nicht bearbeitet.
+
+**Datenschutz/Sperrliste:** beim Lesen der Primärquellen in diesem Lauf ist kein
+Sperrlisten-relevantes Material (Verträge, Bewerbungen, Personaldossiers, Adress-/
+Kontaktsammlungen, Lohn-/Honorardaten, Gesundheits-/Privatunterlagen) aufgefallen. Die
+Küssnacht-Wettbewerbsbeschriebe und der Zollstrasse-Jurybericht sind veröffentlichte
+Verfahrensdokumente Dritter, keine Personendaten im Sinne der Sperrliste.

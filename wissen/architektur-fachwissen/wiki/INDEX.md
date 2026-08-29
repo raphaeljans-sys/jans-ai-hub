@@ -438,8 +438,81 @@ Norm-Originale (SIA 112/102/416/142/500, VKF, VSS) gemäss Abgrenzung nicht dest
 Ein Cross-KB-Fund (Grobkostenmethodik-Fachtext Raphael Jans → `wissen/grobkosten`) und ein
 Entwickler-Testfixture (SIA-451) sind nicht als Wiki-Artikel, sondern in
 `wiki/QUESTIONS.md` #33–#36 vermerkt. **Damit ist Sektion `03_Bauprozesse_I_II` ohne
-weiteren eigenständigen offenen P1-Artikel; P2 bleibt vollständig offen.** Nächster Lauf
-gemäss Spec-Plan: `wiki/INDEX.md` «Sektionen nach Ertrag» für alle 20 archiv-fachwissen-
-Inventardateien neu aufbauen (aktuell nur zwei erfasst), danach die übrigen Sektionen nach
-Ertrag ordnen und abarbeiten — Vorsicht bei `04_Politik`/`05_Kultur_Gesellschaft_Stil`/
-`06_Reisen`/`07_Religion` (Privatunterlagen-Vorbehalt).
+weiteren eigenständigen offenen P1-Artikel; P2 bleibt vollständig offen.**
+
+**Register-Nachführung 29.08.2026 (Lane FACHWISSEN, selber Tag, Fortsetzung):**
+`wiki/INDEX.md` «Sektionen nach Ertrag» für alle 20 archiv-fachwissen-Inventardateien
+neu aufgebaut (siehe oben — zuvor waren nur vier archiv-Sektionen erfasst). Ergebnis:
+die beiden grössten bisher unbekannten Funde, `02_Gestalt_Kulturverstaendnis` (146 P1)
+und `01_Konstruktion` (101 P1), überholen `03_Bauprozesse_I_II` (58) als Träger der
+Rangfolge. Beide wurden im selben Lauf destilliert (Details in den zwei folgenden
+Absätzen).
+
+**Dritter und vierter Destillat-Lauf Korpus `archiv-fachwissen` 29.08.2026 (Lane
+FACHWISSEN, selber Tag, parallel durch zwei Unterläufe bearbeitet):**
+
+*Sektion `01_Konstruktion`* — vier P1-Positionen (101 Dateien) auf neun Wiki-Artikel
+verteilt, alle `status: speculative` (Normstand 1991–2010, vor Verwendung gegen
+aktuelle Norm zu prüfen):
+
+- [[fassadensysteme-typologie-sechs-systeme-hta-luzern]] — sechs Fassadensysteme mit
+  Konstruktionsprinzip und sieben Systemanbietern
+- [[anforderungskatalog-fenster-fassade-sechs-interessengruppen-gkp]] —
+  Anforderungsraster Architekt/Bauherr/Nutzer/Bauphysik/Sicherheit/Bauablauf
+- [[uw-wert-berechnung-und-bauphysikalische-kennwerte-wandaufbauten]] — EnFK-Merkblatt
+  Fenster (Juni 2009) plus Zeitkonstanten-/Speichermassen-Schichtdaten
+- [[funktionale-ausschreibung-verfahrensmethodik]] — Zeitpunkt-Argument und Ablauf für
+  Skill `ausschreibung`
+- [[ahb-planungsgrundlagen-richtlinie-sieben-oekologische-zielvorgaben]] — sieben
+  ökologische Zielvorgaben AHB Stadt Zürich (Datum im Dokument verifiziert: 12.10.2005)
+- [[fassaden-feuchteschutz-sia-180-unterkonstruktion-dehnung-toleranz]] —
+  Feuchteschutz nach SIA 180:1999 plus Unterkonstruktion/Dehnungsformel
+- [[beanspruchungsklassifizierung-fenster-aussentueren-ift-fe-05-1]] —
+  Geländekategorien I–IV, deutsche Richtlinie klar gekennzeichnet
+- [[materialwahl-argumentationsraster-vier-referenzbaustoffe]] — Holz/Stein/Stahl/Glas
+  mit Referenzbauten
+- [[lignatur-hohlkasten-holzelemente-dach-deckenkonstruktion]] — Herstellerhandbuch
+  Hohlkasten-Holzelemente
+
+Der Flachdachaufbau aus `Oblicht.pdf` wurde **nicht** erneut destilliert — MD5-Vergleich
+bestätigt Dateiidentität mit der bereits in `buero-referenzen/09_Konstruktion`
+destillierten Quelle von [[flachdachaufbauten-vier-typen-textbausteine]]. Die
+Detail-CD `01 2D Details` (P2, Rudolf-Müller-Lizenz) bleibt für einen späteren
+P2-Lauf zurückgestellt. Offene Punkte in `wiki/QUESTIONS.md` #37–#40. Fortschritt in
+`raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt «Destillat-Fortschritt».
+
+*Sektion `02_Gestalt_Kulturverstaendnis`* — zehn P1-Positionen (146 Dateien) auf sieben
+Wiki-Artikel verteilt, alle `status: emerging`:
+
+- [[typografie-regelwerk-lernskript-jans-2007]] — Makro-/Mikro-Typografie-Regelsatz,
+  eigenes Lernskript 2007, belegte Plakat-Schriftgrössen
+- [[layout-vorgehensmodell-fragestunde-satzspiegel-produktion]] — vierstufiger
+  Layout-Ablauf; Herkunft beim Gegenlesen als geschichtet erkannt (siehe
+  `wiki/QUESTIONS.md` #42)
+- [[wettbewerbsjury-kapitelfolge-gestaltungsplan-zollstrasse-ost-sbb]] — Jurybericht
+  Zollstrasse Ost (SBB, zweistufig, 2014), § 85 PBG-Gestaltungsplan
+- [[wettbewerbsbeschrieb-gliederung-staedtebau-struktur-funktion-material-kuessnacht]] —
+  Gliederungsmuster Städtebau→Freiraum→Struktur→Funktion→Material
+- [[betontechnologie-schwinden-sichtbeton-betonkernaktivierung-betonforum]] —
+  Schwindarten, Sichtbeton-Qualitätsfaktoren, Betonkernaktivierung
+- [[modellfoto-bildregie-perspektive-licht-tiefenschaerfe]] — Perspektive-/
+  Lichtquellen-Entscheidungsfragen, Optikregeln
+- [[begriffsapparat-kant-sprachstil-pruefraster-jans]] — Kant-Prüfraster, Eigentext-
+  Beispiele, zwei geprüfte Architektenzitate
+
+Das Raumprogramm Naturmuseum St.Gallen wurde **nicht** erneut destilliert — dieselbe
+Datei wie die bereits bestehende Quelle von
+[[raumprogramm-spaltenlogik-sia416-naturmuseum]], nur verlinkt. Offene Punkte in
+`wiki/QUESTIONS.md` #41–#44 (u. a. eine korrigierte Begriffsordner-Zahl 598 statt der
+im Phase-0-Inventar genannten 305). Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md` Abschnitt
+«Destillat-Fortschritt». Sperrlisten-Prüfung beider Sektionen: kein neuer Fund über die
+bereits im Abschnitt «Sperren und Vorbehalte» oben zentral vermerkten Positionen hinaus.
+
+**Damit sind die beiden ertragsstärksten `archiv-fachwissen`-Sektionen destilliert.**
+Nächster Lauf gemäss Ertrag-Tabelle: `03_Bauprozesse_I_II` ist bereits abgeschlossen,
+`02_Architekturtheorie` (21 P1) ist die nächste offene Position in der Trägerschicht,
+danach `10_Protomodern` (13), `02_Architekturgeschichte` (11) und `02_Kunst_Geschichte`
+(11, sehr dünn im Verhältnis zu 27'649 gesichteten Dateien). Vorsicht weiterhin bei
+`04_Politik`/`05_Kultur_Gesellschaft_Stil`/`06_Reisen`/`07_Religion`
+(Privatunterlagen-Vorbehalt, `06_Reisen` mit starkem Befund).

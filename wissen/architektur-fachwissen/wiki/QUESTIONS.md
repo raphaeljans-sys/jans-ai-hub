@@ -349,3 +349,46 @@ Einzelsichtung klären.
 -Abschlussbericht) ist inhaltlich der direkte Vorläufer der Skills `protokoll` und
 `pendenzenliste`. Der Text steckt in eingebetteten MSDraw-Objekten und ist mit heutigen
 Werkzeugen nicht zugänglich. Ein Abgleich wäre aufschlussreich, ist aber nicht dringend.
+
+## 260829 — Dritter Destillat-Lauf Korpus 4, Sektion `02_Gestalt_Kulturverstaendnis`
+
+Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion
+`02_Gestalt_Kulturverstaendnis`, sieben Wiki-Artikel geschrieben (Typografie,
+Vorgehensmodell, zwei Wettbewerbs-Gliederungsartikel, Betontechnologie, Modellfoto-
+Bildregie, Begriffsapparat). Details je P1-Position im Abschnitt
+`## Destillat-Fortschritt` von
+`raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md`.
+
+**#41 Begriffsordner-Zahl im Phase-0-Inventar ist falsch.** Der Kurzbefund und die
+Triage-Tabelle der Sektion nennen «305 Begriffsordner» in
+`03_Begriffe_der_Architektur`. Eigene Auszählung am 29.08.2026
+(`find … -maxdepth 1 -type d`, abzüglich Wurzelordner) ergibt **598**. Der Fehler wurde
+in diesem Lauf nur im neuen Artikel [[begriffsapparat-kant-sprachstil-pruefraster-jans]]
+vermerkt, nicht rückwirkend im Kurzbefund/der Triage-Tabelle korrigiert (keine
+Änderung an bestehenden Zeilen der Inventardatei erlaubt). Bei der nächsten
+Inventarüberarbeitung dieser Sektion nachziehen.
+
+**#42 Herkunft des Layout-Vorgehensmodells ist geschichtet, nicht rein eigen.** Das im
+Phase-0-Inventar als «eigenes Vorgehensmodell» geführte Fünf-/Vierstufen-Schema
+(Fragestunde → Inhalt → Layout/Satzspiegel → Produktion) im «2007 © Lernskript Jans
+Typografie 1» erscheint mit denselben fünf Fragestunde-Fragen bereits wortgleich in
+einer HTA-Luzern-Unterlage von W. Voney/C. Müller vom 25.11.2005 (zwei Jahre vor dem
+Lernskript-Datum). Offen: ob eine noch frühere Quelle existiert (z. B. eine frühere
+Auflage derselben HTA-Luzern-IT-Tools-Reihe) und ob «Lernskript Jans» für diesen Teil
+überhaupt als Eigenmaterial ohne Quellenvorbehalt gelten sollte — in
+[[layout-vorgehensmodell-fragestunde-satzspiegel-produktion]] deshalb vorsorglich
+sinngemäss statt wörtlich behandelt.
+
+**#43 Optikregeln der Modellfotografie stammen aus einem anonymen Internet-Fotoforum.**
+`110115_Zusammenfassung_foren_Objektiv.pdf` ist eine gespeicherte Forumsdiskussion ohne
+erkennbare Autorenschaft (Pseudonyme wie «indigo0711», «incal»). Die physikalisch
+plausible Kernaussage (Tiefenschärfe primär abhängig vom Abbildungsmassstab, nicht von
+der Brennweite) ist fachlich breit anerkannt, aber diese konkrete Quelle selbst ist kein
+belastbarer Beleg. Wer den Skill `volumenstudie` um eine verbindliche Kamera-Faustregel
+erweitern will, sollte das gegen ein fotografisches Fachbuch nachprüfen.
+
+**#44 Rest der 65 Betonforum-Referate (rund 62 ungelesen) und der 21 übrigen
+Juryberichte/-programme in `04_Wettbewerbe` bleibt offen.** In diesem Lauf wurden je
+Cluster nur drei Belegstellen (Betonforum) bzw. ein Jurybericht (Zollstrasse Ost)
+volltextlich gelesen. Lohnt sich für einen Folgelauf, sobald ein konkreter Anlass
+(Sichtbeton-Ausschreibung bzw. Aufbau der KB `wettbewerbs-dna`) ansteht.
