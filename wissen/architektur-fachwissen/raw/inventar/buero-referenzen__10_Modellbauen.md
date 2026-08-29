@@ -222,3 +222,24 @@ recherchieren.
 
 Damit sind alle 12 P1-Positionen dieser Sektion destilliert (6 Fundstellen, vier Artikel nach
 Sache statt Datei). P2 bleibt offen für einen späteren Lauf.
+
+## Ergänzung 2026-08-30 (erster P2-Lauf, Lane FACHWISSEN)
+
+- `10_Betonmodelle/02_Kerez_Recherche/020328 Infos Modell/020419 Tips Nicolas.doc` gelesen und
+  gegen die drei P1-Betondokumente abgeglichen (Auftrag aus Zeile oben): eine unabhängige
+  dritte Bestätigung der «tepafit»-Schalungsauskleidung, zwei nicht anderweitig belegte
+  Angaben (Möbelöl-Trennmittel auf Holzschalung, drittes Mischverhältnis
+  5 Zement : 9 Keraflott : 1 «Keraq» mit Vorbehalt) → als eigener Abschnitt in
+  `wiki/modellbeton-fehlerkatalog-schalung.md` ergänzt (keine neue Datei).
+- `03_Modellbaudokumente/04_Bestellungen/Bestellung_für_Herzog.doc` gelesen. Feldschema
+  destilliert, Personen-/Kontaktdaten des historischen Einzelfalls bewusst nicht übernommen
+  (Sperrliste-Nähe) → `wiki/bestellvorlage-modellbaumaterial-zuschnitt.md`, neu.
+- `03_Modellbaudokumente/02_Modellbauplan/Rhino_Schnittmuster/100316 model corridor.pdf`
+  vollständig gelesen (`pypdf`): reine Bemassungs-/Teilenummern-Grafik ohne Fliesstext (Zahlen
+  1–12 als Teile-Referenzen), kein über die Triage-Zeile hinausgehender Destillationsertrag —
+  bewusst kein Artikel (Delta-Ehrlichkeit).
+- Nicht bearbeitet in diesem Lauf: `03_Modellbaudokumente/01_Werkstoffe/` (Materialien-Fragment,
+  INDD ungeprüft), `02_Modellbauutensilien/Profilitwand_Vorlagen/` (Vektorgeometrie, kein Text),
+  `Schmiede_Modell.pln`/`.vwx` (CAD ungeöffnet), `03_Werkstoffliste/Voll/` S2-Design-Fremdvorlage
+  (Kundendaten, nicht ausgangsfähig), die beiden Betondecke-Fotoserien (Bildbeleg ohne eigenen
+  Text). Rest der 89 P2-Positionen bleibt offen für einen Folgelauf.

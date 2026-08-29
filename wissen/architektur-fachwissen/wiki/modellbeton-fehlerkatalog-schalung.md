@@ -1,8 +1,8 @@
 ---
 title: "Modellbeton: Fehlerkatalog Schalungsvarianten A–G und zwei Werkstattverfahren"
 status: emerging
-last_updated: 2026-08-29
-sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/10_Modellbauen/10_Betonmodelle/02_Kerez_Recherche/020416 versuche beton/020516 Betonierversuche Muster (16.05.2002, MFH Forsterstrasse)", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/10_Modellbauen/10_Betonmodelle/02_Kerez_Recherche/020328 Infos Modell/020422 Betonmodelle.doc", "raw/inventar/buero-referenzen__10_Modellbauen.md Abschnitt „Was hier für JANS drinsteckt“ Nr. 2 und 5"]
+last_updated: 2026-08-30
+sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/10_Modellbauen/10_Betonmodelle/02_Kerez_Recherche/020416 versuche beton/020516 Betonierversuche Muster (16.05.2002, MFH Forsterstrasse)", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/10_Modellbauen/10_Betonmodelle/02_Kerez_Recherche/020328 Infos Modell/020422 Betonmodelle.doc", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/10_Modellbauen/10_Betonmodelle/02_Kerez_Recherche/020328 Infos Modell/020419 Tips Nicolas.doc (E-Mail Nicolas Fröhlich, 19.04.2002)", "raw/inventar/buero-referenzen__10_Modellbauen.md Abschnitt „Was hier für JANS drinsteckt“ Nr. 2 und 5"]
 links: ["[[modellbeton-rezeptur-mischungsverhaeltnisse]]", "[[betonschalung-grundlagen-richner]]"]
 ---
 
@@ -44,9 +44,31 @@ etwa vier Wochen erreicht.
 Betonmuster für Bemusterungstermine mit einem Vorlauf von rund vier Wochen ansetzen
 — erst dann sind Härte und Endfarbe erreicht.
 
-## Offene Punkte
+## Dritte, unabhängige Quelle (P2, mit Vorbehalt): E-Mail Nicolas Fröhlich, 19.04.2002
 
-- `020419 Tips Nicolas.doc` (P2, nicht in diesem Lauf destilliert) enthält weitere
-  Betoniertipps, die der Verfasser selbst als teils unsicher bezeichnet («bin nicht
-  mehr sicher mit den Namen»); vor einer Übernahme gegen diesen Fehlerkatalog
-  abgleichen.
+`020419 Tips Nicolas.doc` ist eine private E-Mail eines Ex-Mitarbeiters (Nicolas
+Fröhlich) an einen Kollegen, geschrieben auf der Durchreise Bangkok–Laos, deutsch mit
+französischen/englischen Einsprengseln. Der Verfasser bezeichnet sein eigenes Wissen
+stellenweise selbst als unsicher («bin nicht mehr sicher mit den Namen») — die Angaben
+sind entsprechend mit Vorbehalt zu lesen, nicht als vierte gesicherte Quelle.
+
+**Bestätigt** (unabhängige dritte Nennung derselben Massnahme wie oben): saugende
+Schicht hinter dem Flugzeugsperrholz gegen Wasseraustritt an den Kanten, dort ebenfalls
+als «tepafit» bezeichnet (fünf Millimeter, beidseitig Karton mit Schaumkern) — deckt
+sich wörtlich mit dem Befund aus `020516 Betonierversuche Muster`.
+
+**Neu, nicht anderweitig belegt:** Die Holzschalung wird vor dem Guss mit Möbelöl
+eingepinselt (Trennmittelfunktion). Dies widerspricht nicht dem Schalöl-Fehlerbild oben
+(dort Sperrholz ohne saugende Schicht, hier zusätzlich mit «tepafit»-Zwischenschicht) und
+könnte eine Ergänzung statt eines Widerspruchs sein — nicht abschliessend zu klären ohne
+Rückfrage. Als drittes, abweichendes Mischverhältnis nennt die Quelle **5 Teile Zement :
+9 Teile Keraflott : 1 Teil «Keraq»** (trocken gemischt, Wasseranteil ca. 1/3 des
+Pulvergewichts) unter Verweis auf «Echenbach» — dieselbe Herkunft, die auch in
+[[modellbeton-rezeptur-mischungsverhaeltnisse]] als Rezept 2 dokumentiert ist, dort aber
+mit anderen Mengenverhältnissen. «Keraq» ist in keiner anderen Quelle der Sektion
+identifiziert (möglicherweise eine weitere Verschreibung wie «Depafit»/«tepafit»
+oben) und wird hier nicht als eigenständiges Produkt übernommen.
+
+Fazit: als drittes Rezept oder als vierte Verfahrensregel nicht eigenständig verwertbar,
+aber als unabhängige Bestätigung der «tepafit»-Schalungsauskleidung und als Hinweis auf
+eine dritte, nicht auflösbare Mischungsangabe dokumentiert.

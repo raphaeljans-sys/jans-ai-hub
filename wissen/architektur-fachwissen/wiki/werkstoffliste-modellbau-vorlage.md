@@ -3,7 +3,7 @@ title: "Werkstoffliste Modellbau: Schema, Konventionen und Massstabs-Stolperstei
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/10_Modellbauen/03_Modellbaudokumente/03_Werkstoffliste/Leer/ (4 XLS + 3 PDF, zuletzt 13.03.2015)", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/10_Modellbauen/03_Modellbaudokumente/03_Werkstoffliste/Voll/00_PDF/Beispiele/Werkstoffliste_100_50.pdf", "raw/inventar/buero-referenzen__10_Modellbauen.md Abschnitt „Was hier für JANS drinsteckt“ Nr. 4"]
-links: ["[[modellbeton-rezeptur-mischungsverhaeltnisse]]"]
+links: ["[[modellbeton-rezeptur-mischungsverhaeltnisse]]", "[[bestellvorlage-modellbaumaterial-zuschnitt]]"]
 ---
 
 # Werkstoffliste Modellbau: Schema und Konventionen

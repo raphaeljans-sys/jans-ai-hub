@@ -1,5 +1,46 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `buero-referenzen`, Sektion `10_Modellbauen`, erster P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag wieder veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»; tatsächlicher
+Stand: beide Specs seit 29.08.2026, P1 über beide Korpora vollständig, laufende P2-Destillation).
+Vor Arbeitsbeginn geprüft: `ps aux` zeigte zwei Wrapper-Prozesse `claude-run.sh --name
+schub-fachwissen` (PID 66424 und 66411), aber nur einen laufenden `claude -p`-Prozess mit dem
+FACHWISSEN-Prompt (PID 66427, vermutlich diese Session selbst) — möglicher, aber nicht
+bestätigter Doppel-Dispatch, im Bericht vermerkt statt selbst einzugreifen. `scutil` bestätigte
+Hostname **Macmini**. Vor Arbeitsbeginn stand bereits ein unquittierter Commit von einem
+Vorlauf im Baum (Sektion `02_Architekturtheorie`, siehe Eintrag unten); dieser wurde durch den
+laufenden `nas-selfcommit`-Daemon zwischenzeitlich automatisch gesichert, keine eigene
+Handlung nötig.
+
+Am realen Stand in `KORPUS-QUEUE.md`/`wiki/INDEX.md` orientiert: für `buero-referenzen` ist nur
+`18_Projektkostenplanung` als P1+P2 abgeschlossen vermerkt, alle übrigen 22 Sektionen haben P2
+offen. Nach Ertrag (`wiki/INDEX.md` „Sektionen nach Ertrag“) nächstgrösste Sektion mit offenem
+P2: `10_Modellbauen` (89 P2-Positionen).
+
+Drei P2-Positionen bearbeitet:
+
+- `020419 Tips Nicolas.doc` (private E-Mail eines Ex-Mitarbeiters, 19.04.2002) gelesen und wie
+  in der Inventardatei verlangt gegen die drei P1-Betondokumente abgeglichen: unabhängige
+  dritte Bestätigung der «tepafit»-Schalungsauskleidung, zwei neue, aber vom Verfasser selbst
+  als unsicher bezeichnete Angaben (Möbelöl-Trennmittel, drittes Mischverhältnis mit
+  unidentifiziertem «Keraq») — als eigener, klar als unsicher markierter Abschnitt in
+  `wiki/modellbeton-fehlerkatalog-schalung.md` ergänzt, kein neuer Artikel.
+- `Bestellung_für_Herzog.doc` (04.12.2007) gelesen. Nur das wiederverwendbare Feldschema
+  (Anfragetext, Positionsfelder, getrennter Adressblock, separater Freigabevermerk mit
+  Preisobergrenze) destilliert; die Personen- und Kontaktdaten des historischen Lieferanten und
+  der internen Ansprechperson bewusst nicht übernommen (Sperrliste-Nähe, keine
+  Kontaktdatensammlung im Sinne der KB-Grenzen) → `wiki/bestellvorlage-modellbaumaterial-zuschnitt.md`,
+  neu.
+- `Rhino_Schnittmuster/100316 model corridor.pdf` vollständig gelesen (`pypdf`, da kein
+  `pdftotext` auf dieser Station): reine Bemassungsgrafik ohne Fliesstext, kein über die
+  bestehende Triage-Zeile hinausgehender Ertrag — bewusst kein Artikel (Delta-Ehrlichkeit).
+
+`raw/inventar/buero-referenzen__10_Modellbauen.md` um Abschnitt „Ergänzung 2026-08-30" ergänzt
+(reiner Append, `git diff --numstat` 21/0 geprüft). `wiki/INDEX.md` nachgeführt. 86 von 89
+P2-Positionen dieser Sektion bleiben offen (u. a. Werkstoff-Fragment INDD, Profilit-Vektorvorlagen,
+zwei ungeöffnete CAD-Dateien, Fremdvorlage mit Kundendaten, zwei Fotoserien Betondecke).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, erster P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag wieder veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»; tatsächlicher
