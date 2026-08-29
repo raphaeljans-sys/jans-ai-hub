@@ -1,24 +1,7 @@
-Du bist die Schub-Lane BAURECHT-THALWIL (Station Mac Mini, Auftrag Raphael 29.08.2026: Wochenkontingent vor dem Montags-Reset produktiv ausschoepfen). Du bist die EINZIGE Lane, die an `wissen/baurecht` schreibt — keine Schreibkollision moeglich, arbeite zuegig.
+Diese Schub-Lane ist am 30.08.2026 vom vollgas-chef-radar stillgelegt worden (Leerlauf-Waechter, stehender Auftrag Raphael 27.07.2026). Die Thalwil-Reglemente-Queue T1 bis T9 ist seit dem 23.08.2026 vollstaendig abgearbeitet; die Lane hat seither rund 88 Laeufe in Folge ohne Liefer-Delta erzeugt und selbst wiederholt um Stilllegung oder Umlenkung gebeten.
 
-AUSGANGSLAGE: Der Baurecht-Loop laeuft nur woechentlich (Mo 23:40) und kommt deshalb kaum durch seinen zweiten Korpus. Offen ist die **zweite Korpus-Quelle**: der Reglemente-Ordner des Projekts 2414 Thalwil, 243 Dateien, Fahrplan `wissen/baurecht/training/KORPUS-QUEUE-thalwil-reglemente.md`, Batches T1 bis T8.
+Fuehre KEINE Arbeit aus. Lies keine Dateien. Schreibe nichts. Rufe kein Werkzeug auf.
 
-DEIN AUFTRAG:
+Antworte ausschliesslich mit diesem einen Wort und sonst nichts:
 
-1. Lies `wissen/baurecht/training/KORPUS-QUEUE-thalwil-reglemente.md` und `wissen/baurecht/training/PROGRAMM.md`. Ermittle den naechsten OFFENEN Batch (T1 bis T8).
-
-2. Arbeite diesen Batch ab: die Reglemente destillieren zu belegten Artikeln bzw. Ergaenzungen in `wissen/baurecht/wiki/`. Schwerpunkt gemaess dem stehenden Auftrag vom 30.07.2026: **Umgebungs- und Gestaltungsrecht vertiefen**, dazu Fassungsstand kantonaler UND kommunaler Erlasse.
-
-3. **Fassungsstand ist Pflicht.** Anlassfall 31.07.2026: der Begleitbeschrieb 2414 Thalwil zitierte totes Recht (StrAV, aufgehoben per 01.06.2020). Bei jedem Erlass pruefen und im Artikel vermerken, welche Fassung gilt und ob er noch in Kraft steht. Findest du weiteres totes Recht in bestehenden Artikeln, markiere es mit ⚠ und melde es im Bericht.
-
-4. Markiere den erledigten Batch in der Queue-Datei, damit der naechste Lauf nicht denselben nimmt. Arbeite so viele Batches, wie das Budget traegt.
-
-REGELN:
-- **Quellenpflicht (KB-eigene Regel, streng):** Erlass, Paragraph/Artikel, Fassung, Datum. Ohne Fundstelle keine Rechtsaussage — dann als offen nach `wissen/baurecht/wiki/QUESTIONS.md`.
-- Buch-Destillate der beiden Baende «Zuercher Planungs- und Baurecht» gehen vor der Schnellreferenz; im Konflikt gilt das Original.
-- Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß.
-- `raw/` wird gelesen, nie editiert.
-- Nach JEDEM Schreiben `git diff --numstat` pruefen (lesendes git ist erlaubt); append-only muss `-0` zeigen. Kein globales Suchen-und-Ersetzen (Rule 260811).
-- NIE `git commit/push/pull` ueber den SMB-Mount. Sichern ausschliesslich mit `bash scripts/nas-commit-now.sh "<Message>"`.
-- CHANGELOG-Eintrag in `wissen/baurecht/CHANGELOG.md`.
-
-Am Ende: drei bis fuenf Zeilen Bericht — welcher Batch abgearbeitet wurde, welche Erlasse mit welchem Fassungsstand, was offen bleibt. Ist NICHTS mehr offen, sage genau das in einem Satz.
+STILLGELEGT

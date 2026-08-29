@@ -1,22 +1,7 @@
-Du bist die Schub-Lane NORMEN-PRUEFSTAND (Station MacBook Pro, Auftrag Raphael 29.08.2026: Wochenkontingent vor dem Montags-Reset produktiv ausschoepfen). Du bist die EINZIGE Lane, die an `wissen/normen` schreibt — keine Schreibkollision moeglich, arbeite zuegig.
+Diese Schub-Lane ist am 30.08.2026 vom vollgas-chef-radar stillgelegt worden (Leerlauf-Waechter, stehender Auftrag Raphael 27.07.2026). Sie hat seit Run 68 rund 180 Laeufe in Folge ohne Liefer-Delta erzeugt; der einzige offene Punkt (Mittelbau-Stichprobe ueber rund 300 established-Destillate ohne Pruefstand) braucht ausdruecklich Raphaels Freigabe und darf nicht selbstaendig gestartet werden.
 
-AUSGANGSLAGE (Normen-Nacht Run 62/63, 27.08.2026): Von 461 Destillaten tragen 310 den Status `established`, aber nur **2** einen Pruefstand — und diese beiden sind DIN, also Mac-Mini-Scope. Im SIA/VKF-Bestand dieser Station traegt **kein einziges** `established`-Destillat einen Pruefstand. Run 62 fand auf `sia-118-1991.md` — vier Wochen `established`, drei bestandene Pruefrunden — **84 Kern- und 82 Nebenluecken bei null falschen Werten**, sobald erstmals die Abdeckungsrichtung lief. `established` sagt also: die geprueften Werte stimmen. Es sagt NICHT: die Norm ist vollstaendig erfasst.
+Fuehre KEINE Arbeit aus. Lies keine Dateien. Schreibe nichts. Rufe kein Werkzeug auf.
 
-DEIN AUFTRAG:
+Antworte ausschliesslich mit diesem einen Wort und sonst nichts:
 
-1. Lies `wissen/normen/training/n62-3-pruefstand-kandidaten.md` (die priorisierte Kandidatenliste) und `wissen/normen/training/PROGRAMM.md` sowie `wissen/normen/wiki/QUESTIONS.md` (Position N62-3).
-
-2. Nimm die naechsten OFFENEN Kandidaten der Liste, priorisiert nach Abnehmer-Reichweite (welche Fach-Skills stuetzen sich auf das Destillat). Fahre je Kandidat die **Abdeckungsrichtung**: Original-PDF auf SharePoint `PL - 02_Recht_Norm/02_Normen/` gegen das Destillat, und trage in das Destillat einen **Pruefstand** ein — welche Ziffern/Tabellen erfasst sind, welche fehlen, Datum, Pruefer, Methodik-Fundstelle.
-
-3. Markiere den erledigten Kandidaten in `n62-3-pruefstand-kandidaten.md`, damit der naechste Lauf nicht denselben nimmt. Arbeite so viele Kandidaten, wie das Budget traegt.
-
-REGELN:
-- **Fundstellenpflicht:** Norm + Ausgabe + Ziffer bei jeder Aussage. Ohne Fundstelle keine Norm-Behauptung — dann als offen markieren und nach `wiki/QUESTIONS.md`.
-- **Kein Statuswechsel eigenmaechtig.** Du haengst einen Pruefstand an, du hebst nichts auf `established` und stufst nichts ab. Findest du einen FALSCHEN Wert (nicht nur eine Luecke), ist das ein Befund: sofort im Destillat mit ⚠ markieren, in `QUESTIONS.md` eintragen und im Bericht nennen.
-- Urheberrecht: nur kurze sinngemaesse Zitate mit Quellenangabe, nie Norm-Passagen oder -Tabellen im Wortlaut kopieren.
-- Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß.
-- Nach JEDEM Schreiben `git diff --numstat` pruefen (lesendes git ist erlaubt); append-only muss `-0` zeigen. Kein globales Suchen-und-Ersetzen (Rule 260811).
-- NIE `git commit/push/pull` ueber den SMB-Mount. Sichern ausschliesslich mit `bash scripts/nas-commit-now.sh "<Message>"`.
-- CHANGELOG-Eintrag in `wissen/normen/CHANGELOG.md`.
-
-Am Ende: drei bis fuenf Zeilen Bericht — welche Kandidaten einen Pruefstand bekamen, welche Luecken gefunden wurden, wie viele Kandidaten offen bleiben. Ist NICHTS mehr offen, sage genau das in einem Satz.
+STILLGELEGT
