@@ -158,3 +158,13 @@ irrefuehrend; faktisch ist es ein Berlin-Ordner mit drei Beilagen.
 - Behoerden-Kontaktdaten und Namen einzelner Sachbearbeiter aus den Seiten von 2006 sind
   bewusst nicht uebernommen.
 - Quellordner nur lesend geoeffnet, nichts geaendert, verschoben oder geloescht.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `00_Allgemein/071128_Nutzung_Orthophoto.pdf` (gemeinsam mit dem P1-Fund
+  derselben Dokumentfamilie aus `buero-referenzen__08_Karten_Plaene_Zuerich.md`) →
+  `wiki/orthofoto-nutzungsbestimmungen-stadt-zuerich-zwei-fassungen.md`
+
+Einzige P1-Position der Sektion destilliert. P2 (Umweltatlas-Themenkatalog,
+Lizenzmodell, Georeferenzierungs-Muster, Luftbildreihen-Methode) bleibt offen für einen
+späteren Lauf.

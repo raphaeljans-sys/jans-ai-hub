@@ -126,3 +126,12 @@ beziehungsweise `baurecht`.
   das entspricht, geht aus keiner Datei hervor.
 - Ob die Nutzungsbestimmungen von 2002 heute noch die geltende Fassung sind, ist offen und
   vor jeder Wiederverwendung eines GeoZ-Bildes zu prüfen.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `_Digitale_Daten_…/Nutzung_Orthofoto.pdf` (gemeinsam mit dem P1-Fund derselben
+  Dokumentfamilie aus `buero-referenzen__08_Karten_Plaene_Weltweit.md`) →
+  `wiki/orthofoto-nutzungsbestimmungen-stadt-zuerich-zwei-fassungen.md`
+
+Einzige P1-Position der Sektion destilliert. P2 (Georeferenz-Muster der fünf
+Orthofoto-Weltdateien) bleibt offen für einen späteren Lauf.

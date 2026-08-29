@@ -153,3 +153,14 @@ den persönlichen Gebrauch und den Unterricht gestattet sind, das Weiterverbreit
 Veröffentlichen dagegen der vorgängigen Zustimmung bedarf. Für die Wissensbasis heisst
 das: **sinngemäss destillieren mit Fundstellenangabe, keine wörtliche Übernahme von
 Textpassagen oder Abbildungen** in Erzeugnisse, die das Büro verlassen.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `Rhino Level 1 v4.pdf` (Kap. 10, 12, 13) →
+  `wiki/rhino-planausgabe-kette-make2d-layout-druck.md`
+- 2026-08-29: `Rhino Level 2 v4.pdf` (Stetigkeit, FlowAlongSrf, «An Approach to Modeling») →
+  `wiki/rhino-freiform-stetigkeit-flowalongsrf.md`
+
+Beide P1-Positionen destilliert, Urheberrechtsvorbehalt eingehalten. P2 dieser Sektion
+(`Rhino 4.0 User's Guide.pdf`, Alias-Liste, drei RhinoScript-Beispiele, sechs
+Level-1-Übungsdateien) bleibt offen für einen späteren Lauf.

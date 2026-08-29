@@ -194,3 +194,16 @@ Berechnungen, **keine** Bauteilkataloge, **keine** SIA- oder VKF-Auszüge, **kei
 Aufbauten für Wand, Boden gegen Erdreich oder Nassbereiche und **keine** Angaben zu
 Bauphysik-Nachweisen. Das Flachdach ist gut belegt, alles andere nicht. Wer eine systematische
 Aufbaukartei sucht, findet sie hier nicht.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `Oblicht.pdf` + `SKMBT_C35310080207410.pdf` + `SKMBT_C35310080207460.pdf`
+  (Flachdachaufbauten-Textbausteine) → `wiki/flachdachaufbauten-vier-typen-textbausteine.md`
+  (zusätzlich sinngemäss das Hersteller-Detailblatt `Datenblatt-1.pdf`, P2, als vierter
+  Aufbautyp herangezogen, da es dieselbe Sache — Flachdach-Schichtaufbauten — ergänzt)
+- 2026-08-29: `28_…/Konstruktionsdetails/S02.pdf` →
+  `wiki/werkplan-textapparat-abkuerzungen-schalungsplan.md`
+
+Alle 4 P1-Positionen destilliert, zwei Artikel nach Sache statt Datei. P2 (Steinwoll-
+Datenblatt, Lignatur-Handbuchauszüge, D17-Dachrandschnitt) bleibt offen für einen
+späteren Lauf.

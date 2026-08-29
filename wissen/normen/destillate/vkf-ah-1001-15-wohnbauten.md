@@ -89,7 +89,7 @@ eingefügt wurden. Alte Zitate laufen sonst ins Leere:
   Personen haben während des gesamten Lebenszyklus der Baute oder Anlage eine
   wirkungsvolle Qualitätssicherung im Brandschutz sicherzustellen; die Massnahmen sind
   regelmässig zu überprüfen und im Bedarfsfall anzupassen; die Qualitätssicherung ist
-  durch Eigen- oder Fremdüberwachung zu gewährleisten (Ziff. 3.1 Abs. 1-3, S. 6).
+  durch Eigen- oder Fremdüberwachung zu gewährleisten (Ziff. 3.1 Abs. 1-3, S. 5).
 - Wohnbauten geringer und mittlerer Höhe ohne besondere Brandrisiken werden der
   Qualitätssicherungsstufe 1 (QSS1) zugeordnet (Ziff. 3.2.1, S. 6).
 - Bei besonderen Brandrisiken kann die Brandschutzbehörde objektspezifisch eine

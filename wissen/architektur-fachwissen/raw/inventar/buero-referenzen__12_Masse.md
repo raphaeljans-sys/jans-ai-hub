@@ -195,3 +195,13 @@ gegenüber Bauherrschaft oder Behörde ist der Wert gegen SIA 500 gegenzuprüfen
    aktuelle Normfundstelle ersetzt.
 5. Der Ordner `Flaechen/` liefert **nichts**. Wer in diesem Korpus Flächenkennwerte sucht,
    muss sie anderswo suchen.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `Nasszellen/Konstr_Hochbau/gesamt/KL_Hochbau_S22_25.pdf` →
+  `wiki/sanitaerapparate-masstabellen-montagehoehen.md`
+- 2026-08-29: `Nasszellen/Konstr_Hochbau/gesamt/KL_Hochbau_S53_56.pdf` →
+  `wiki/nasszellen-achsabstaende-komfortstufen-bedarfszahlen.md`
+
+Beide P1-Positionen destilliert, Sektion vollständig erledigt (P2 ist in dieser Sektion
+leer).
