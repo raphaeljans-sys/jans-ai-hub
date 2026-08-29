@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 20:28:35
+Stand: 29.08.2026 20:38:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 20:27)
@@ -12,4 +12,4 @@ Stand: 29.08.2026 20:28:35
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d5d8ec775 baurecht: Reglemente-Queue Thalwil geprueft, kein offener Batch (Schub-Lane BAURECHT-THALWIL 29.08.2026)
+- 7778d7b0b vollgas-schub: env-Quelle + Harness-Variablen abstreifen; alle fuenf Lanes auf dem Mini

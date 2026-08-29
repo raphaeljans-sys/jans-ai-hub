@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 20:30:33
+Stand: 29.08.2026 20:40:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:24)
@@ -12,4 +12,4 @@ Stand: 29.08.2026 20:30:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 99b23e777 nas-selfcommit: 4 Datei(en) 2026-08-29 20:30
+- 7778d7b0b vollgas-schub: env-Quelle + Harness-Variablen abstreifen; alle fuenf Lanes auf dem Mini
