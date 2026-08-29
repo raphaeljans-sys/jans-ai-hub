@@ -2,6 +2,72 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-29 (Run 167) — E-R166-6 beantwortet: die Begleitdokument-Klasse traegt auch auf den Raengen 6-20, jetzt 11 von 11
+
+**Die Frage war** (E-R166-6): Die Begleitdokument-Pruefung hatte auf den fuenf meistzitierten Quellen
+5/5 getroffen. Traegt die Klasse auch tiefer im Ranking, oder war das ein Spitzeneffekt? **Geprueft
+wurden fuenf weitere Quellen der Raenge 2 bis 14 (Backlink-Ranking ueber wiki/+destillate/+outputs/).
+Ergebnis: bei allen fuenf war etwas zu finden.** Kumuliert 11 von 11. Die Klasse ist damit nicht auf
+die Spitzenquellen beschraenkt. ✓ **E-R166-6 erledigt 29.08.2026.**
+
+**Die praezisere Fassung der Lehre.** Der Ertrag ist nicht ueberall derselbe, und das ist die
+eigentliche Erkenntnis dieses Laufs. Es lassen sich **drei Fundklassen** trennen:
+1. **Veralteter Kennwert im Bestand** (KBOB/Minergie-ECO: PV-Grenzwert 13,3 → 7,1) — die teuerste
+   Klasse, weil die alte Zahl unbemerkt weiterberaten wird.
+2. **Amtliche Ebene widerspricht der Branchenebene** (ElCom vs. VSE-Branchenempfehlung zur LEG) — die
+   beratungsstaerkste Klasse, weil sie eine Absage des Netzbetreibers angreifbar macht.
+3. **Belegter Negativbefund** (SIA 2024-C1:2024 gelesen, keine materielle Abweichung; keine EN-102-Ausgabe
+   nach Jan. 2020) — kein Fund im Sachsinn, aber er beendet eine wiederkehrende Frage dauerhaft.
+**Ein Negativbefund ist erst dann etwas wert, wenn er den Suchweg mitliefert** — sonst wird dieselbe
+Quelle im naechsten Lauf erneut geprueft.
+
+### In diesem Lauf geschlossen
+- [x] **E-R166-3: HFM-2015-Ausschluesse und Fristen einzeln am Original gegengelesen** ✓ 2026-08-29.
+  Sieben von acht bestaetigt, zwei praezisiert. **Der Neubau-Ausschluss gilt nur fuer M-01**, nicht
+  fuers HFM insgesamt (M-16/M-17 foerdern gezielt Neubauten). Die **Zwei-Jahres-Frist ist kantonale
+  Praxis** (ZH/SZ/ZG woertlich belegt), keine Bundesvorgabe. Der Zusatz **«verlaengerbar um sechs
+  Monate» ist unbelegt** und in keiner der drei kantonalen Primaerquellen auffindbar — im Destillat
+  an der Fundstelle selbst mit Vorbehalt versehen, nicht nur in der Nachtrags-Tabelle.
+- [x] **LEG: Speicher-Messkonzepte amtlich geschlossen** ✓ 2026-08-29 ueber den BFE-Erlaeuternden
+  Bericht vom 19.02.2025 (Faelle 1-4, Rueckerstattungsformel), also ueber eine **hoeherrangige** Quelle
+  als das urspruenglich gesuchte BD-LEG Kapitel 8. Der offene Punkt in `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`
+  ist erledigt.
+- [x] **Korrigenda-Zeiger in `[[sia-380-1-2016-aenderungen-gegenueber-2009]]` nachgetragen** ✓ 2026-08-29.
+  Das Destillat fuehrte «Korrigenda C1 … Inhalt weiterhin nicht gelesen», obwohl Run 166 sie am
+  28.08.2026 im Volltext gelesen und als `[[sia-380-1-korrigenda-c1-2019]]` abgelegt hatte. **Das Wissen
+  war da, der Zeiger fehlte** — eine eigene Fehlerklasse neben der Begleitdokument-Luecke.
+- [x] **SIA 2024-C1:2024 im Volltext gelesen** ✓ 2026-08-29, Zeile-fuer-Zeile gegen C2:2025 abgeglichen,
+  Kategorie-8-Tabellen zeichenidentisch. Kein C3. Der Verdacht aus dem Vorlauf traf hier **nicht** zu.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R167-1 (P2): Minergie-ECO-Anleitung V2023.3 vollstaendig destillieren.** Der Lauf hat die
+  geaenderten Haustechnik-Grenzwerte erfasst (PV 13,3 → 7,1; Solarkollektoren 5,2 → 5,6; Erdsonden und
+  Gebaeudehuelle unveraendert). **Die uebrigen Aenderungen zwischen V1.3 (2021) und V2023.3 (26.11.2024)
+  sind nicht systematisch verglichen.** Die Frontmatter-Zeile `ergaenzende_quellen` in
+  `[[kbob-graue-treibhausgasemissionen-2025]]` zeigt weiterhin auf die alte V1.3-URL (bewusst nicht
+  ersetzt, um additiv zu bleiben) — beim naechsten Lauf sauber nachfuehren.
+- [ ] **E-R167-2 (P2, terminiert): KBOB-Einreichefrist 30.10.2026 und Bilanzierungsregeln v9.** Die
+  KBOB/ecobau-Liste 2027 erscheint im Fruehjahr 2027, Einreichefrist fuer Datensaetze ist der
+  **30.10.2026**, die Bilanzierungsregeln v9 sind angekuendigt, aber nicht publiziert. Ab Oktober 2026
+  monatlich pruefen. Zusammen mit E-R166-2 (GFM 2028, Vernehmlassung Herbst 2026) zu fuehren.
+- [ ] **E-R167-3 (P2): Bewehrungsstahl-Schwellenwert in den Skill `ausschreibung` tragen.** Die
+  KBOB-Empfehlung vom 26.02.2026 nennt **600 kg CO₂-eq/t** fuer die treibhausgasarme Beschaffung von
+  Bewehrungsstahl. Das ist einer der wenigen direkt ausschreibbaren THGE-Hebel; er gehoert in die
+  LV-Textbausteine, nicht nur in diese KB. **Cross-Skill-Bringschuld** (Rule `wissens-bibliothekar`).
+- [ ] **E-R167-4 (P3): ElCom-Weisung 5/2025 auf LEG-Bezug pruefen.** Nur per Suchtreffer identifiziert,
+  Inhalt nicht geprueft.
+- [ ] **E-R167-5 (P3): EN-102d-Formularnummer in `[[enfk-fensterblatt]]` nachtragen.** Die EnFK fuehrt
+  das bereits erfasste Fenster-Excel-Tool unter der Formularnummer EN-102d; die Nummer fehlt dort.
+- [ ] **E-R167-6 (P3): Begleitdokument-Pruefung auf die Raenge 15-30 ausdehnen.** 11 von 11 Treffern
+  rechtfertigen die Fortsetzung. **Aber die Ertragsklasse mitmessen** (siehe die drei Klassen oben) —
+  wenn nur noch Negativbefunde und Formalien kommen, ist die Ader erschoepft und der naechste Lauf
+  gehoert einer anderen Methode. Das ist das Abbruchkriterium, das dieser Methode bisher fehlt.
+- [ ] **E-R167-7 (P3): ZH-Gesuchsportal nicht auslesbar.** `portal.dasgebaeudeprogramm.ch/zh` leitet
+  auf `portal.energie-foerderung.ch/zh` (Single-Page-App), Formularfelder je Massnahme sind ohne
+  Login/Headless-Browser nicht einsehbar. Moeglich, dass dort Formulare haengen, die von der
+  oeffentlichen Seite nicht verlinkt sind.
+
 ## 2026-08-28 (Run 166) — E-R165-1 beantwortet: die Begleitdokument-Luecke ist real, 5 von 5
 
 **Die Frage war** (E-R165-1, aus Run 165): Ist die richtige Ausgabe einer Quelle auch
