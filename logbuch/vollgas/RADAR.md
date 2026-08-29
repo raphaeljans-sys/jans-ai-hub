@@ -53,6 +53,27 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-29 19:15 — [LOGIN] **P1-BLOCKER: der headless-OAuth ist auf BEIDEN Stationen tot. Die gesamte `claude -p`-Flotte arbeitet nicht mehr — nur Raphael kann das lösen.** Entdeckt beim Vollgas-Schub (Auftrag Raphael 29.08., Kontingent vor dem Montags-Reset ausschöpfen), der genau daran scheiterte.
+
+**Der Befund, doppelt belegt und stationsübergreifend.** Fünf Schub-Lanes wurden um 18:56 gestartet (zwei MacBook Pro, drei Mac Mini). Alle 23 Läufe endeten mit `rc=1`, `is_error:true`, `cost_usd:0`, ein einziger Turn. Zwei verschiedene Fehlertexte, je Station einer:
+
+- **MacBook Pro:** `Failed to authenticate: OAuth session expired and could not be refreshed`
+- **Mac Mini:** `Not logged in · Please run /login`
+
+Belege im Lauf-Journal `logbuch/laeufe/260829-laeufe.jsonl` (Einträge `schub-fachwissen`, `schub-normen-pruefstand`, `schub-synobsis`, `schub-baurecht-thalwil`, `schub-grobkosten`) und in den Lane-Logs unter `logbuch/vollgas/schub/*.log`. `~/.jans-dispatch.env` auf dem MacBook trägt genau einen Schlüssel `CLAUDE_CODE_OAUTH_TOKEN=`, Datei vom **12.07.2026 18:39** — sieben Wochen alt.
+
+**Das Fenster, in dem es brach, lässt sich eingrenzen: zwischen 12:57 und 18:56 heute.** Die Fensterprobe des 12:57-Regellaufs lief über dieselbe app-gebündelte CLI, mit demselben `~/.jans-dispatch.env`, und antwortete «OK» mit rc=0. Sechs Stunden später scheitert derselbe Aufruf. Der Ausfall ist also **frisch und nicht die Ursache irgendeines früheren Befundes** — die Lern-Loops haben heute Nacht noch normal geliefert (twin 11 Dateien, normen 7, architekten-synobsis 2).
+
+**Tragweite — was jetzt still steht und was nicht.** Betroffen ist alles, was `claude -p` aus einer Shell startet: die **Mac-Mini-Nachtschicht** `ch.jans.nachtschicht` (vier Slots 23:30 / 02:30 / 05:30 / 13:30) und damit der einzige Lern-Taktgeber des Hub, der **Dispatch-Kanal** vom Handy (`dispatch-run.sh`), der `wissens-trigger`, der `synctask-runner` mit Typ `prompt` und jeder Sync-/Remote-Task, der einen Prompt fährt. **Nicht** betroffen ist die App-Task-Flotte: die Scheduled Tasks feuern aus der Claude-App über einen anderen Auth-Pfad und laufen weiter — der `logbuch-radar`, der `hub-chef`, dieser Radar und die getakteten Lern-Tasks bleiben also arbeitsfähig. Ohne Behebung fällt heute Nacht die komplette Nachtschicht aus, ohne dass jemand sie nachholt (stehender Entscheid 30.07.2026: der ausgebaute Endlos-Runner holt nichts nach).
+
+**Behebung — ausschliesslich Raphael, auf beiden Stationen.** Im Terminal `claude setup-token` (Abo-OAuth, **kein** API-Key), den ausgegebenen Token als `CLAUDE_CODE_OAUTH_TOKEN=...` in `~/.jans-dispatch.env` schreiben, auf **beiden** Stationen. Auf dem Mac Mini zusätzlich einmal `security unlock-keychain`, wenn er seit dem letzten Neustart nicht entsperrt wurde — dessen Fehlertext (`Not logged in`) deutet auf genau diesen zweiten Fall hin, er ist nicht identisch mit dem abgelaufenen Token des MacBook.
+
+**Massnahmen in diesem Lauf.** Der Schub ist sauber geparkt: `logbuch/vollgas/STOP-SCHUB` gesetzt, alle fünf Lanes beendet, auf beiden Stationen null `vollgas-schub`-Prozesse gegengemessen. Kosten des Fehlschlags: **null** — jeder Lauf brach vor dem ersten Token ab (`cost_usd:0` in allen 23 Journalzeilen). Der Blindgänger-Schutz des Treibers hat die drei Mini-Lanes nach je drei Fehlversuchen selbst gestoppt, wie vorgesehen; die beiden MacBook-Lanes liefen länger, weil ihre Fehlversuche 30 bis 71 Sekunden dauerten und damit über der 25-Sekunden-Schwelle lagen. **Diese Schwelle greift zu kurz** — ein Lauf mit `is_error:true` und `cost_usd:0` ist unabhängig von seiner Dauer ein Blindgänger. Nachzuziehen, wenn der Schub wieder anläuft.
+
+**Neue Maschinerie, bewusst ohne Persistenz.** `scripts/vollgas-schub.sh` plus fünf Lane-Prompts unter `logbuch/vollgas/schub/`. Der Treiber ist **kein launchd-Job und wird keiner**: gewöhnlicher Hintergrundprozess, harte Frist (Montag 11:00), STOP-Datei, Gate-Abfrage vor jedem Lauf, Journalzeile je Runde. Die beiden `*.disabled-260729`-plists des ausgebauten Endlos-Runners sind **unangetastet**; der stehende Entscheid vom 30.07.2026 bleibt gewahrt. Die fünf Lanes schreiben je in genau eine KB (architektur-fachwissen · normen · architekten-synobsis · baurecht · grobkosten) — keine Schreibkollision möglich.
+
+**P1 (offen, nur Raphael): headless-OAuth erneuern, beide Stationen.** Bis dahin arbeitet der Hub nur mit halber Flotte. Keine Mail versandt, weil der Befund Raphael im laufenden Gespräch direkt vorgelegt wurde.
+
 ## 2026-08-29 12:57 — [FREI] **Regellauf: Fenster frei, alle Loops liefern, Kontingent-Reserve zum siebten Mal in Folge gewachsen (-41.7 Punkte).** Neuer Werkzeug-Befund: Homebrew hat heute 05:15 auf **2.1.236** umgehängt, und auch diese Fassung ist gewedgt — die PATH-Probe bleibt ausser Betrieb.
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 29.08. 00:57, dieser 29.08. 12:57 — Abstand **exakt 12 h 0 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke; `lastRunAt` des eigenen Tasks steht auf 29.08. 10:57 UTC und ist dieser Lauf, der zweite Ausfalltyp war also nicht zu prüfen.

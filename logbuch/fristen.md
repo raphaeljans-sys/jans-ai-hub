@@ -4199,3 +4199,33 @@ eine Abfrage genügt und ist maschinell möglich:
 gerenderte Seitenansicht ist JS-basiert und gibt nichts heraus).
 
 | Beleg: `wissen/energie/destillate/enfk-nachweisformulare-gueltigkeit-2026.md` (zwölf Formular-PDFs am 27.08.2026 einzeln geladen, Fusszeile und PDF-Metadaten je Datei ausgewertet); Laufbericht `wissen/energie/outputs/2026-08-27_energie-run165.md`; offener Punkt E-R165-2 | Projekte/Baueingabe ZH+SZ | mittel | offen, Prüfbeginn Oktober 2026 |
+
+---
+
+## 29.08.2026 — P1: headless-OAuth auf BEIDEN Stationen tot, halbe Flotte steht still
+
+**Befund.** Jeder `claude -p`-Lauf aus einer Shell scheitert seit heute Nachmittag sofort,
+auf beiden Stationen, mit `rc=1`, `is_error:true`, `cost_usd:0`. MacBook Pro:
+«Failed to authenticate: OAuth session expired and could not be refreshed». Mac Mini:
+«Not logged in · Please run /login». 23 Fehlläufe belegt in
+`logbuch/laeufe/260829-laeufe.jsonl` und `logbuch/vollgas/schub/*.log`. Entdeckt beim
+Vollgas-Schub (Auftrag Raphael 29.08.), der genau daran scheiterte. Eingegrenzt auf das
+Fenster **12:57 bis 18:56 heute**: die Fensterprobe des 12:57-Radarlaufs lief über dieselbe
+CLI und dasselbe `~/.jans-dispatch.env` und antwortete «OK», rc=0.
+
+**Was still steht.** Mac-Mini-Nachtschicht `ch.jans.nachtschicht` (Slots 23:30 / 02:30 /
+05:30 / 13:30) und damit der einzige Lern-Taktgeber des Hub · Dispatch-Kanal vom Handy ·
+`wissens-trigger` · `synctask-runner` Typ `prompt` · jeder Remote-/Sync-Task mit Prompt.
+**Nicht betroffen:** die Scheduled Tasks aus der Claude-App (anderer Auth-Pfad) — Radar,
+`logbuch-radar`, `hub-chef` und die getakteten Lern-Tasks laufen weiter. Ohne Behebung
+fällt **heute Nacht die komplette Nachtschicht** aus; nachgeholt wird sie von niemandem
+(stehender Entscheid 30.07.2026, Endlos-Runner ausgebaut).
+
+**Konkret zu tun — nur Raphael, auf beiden Stationen.** Im Terminal `claude setup-token`
+(Abo-OAuth, **kein** API-Key), den Token als `CLAUDE_CODE_OAUTH_TOKEN=...` in
+`~/.jans-dispatch.env` eintragen. Auf dem Mac Mini zusätzlich einmal
+`security unlock-keychain` — dessen Fehlertext deutet auf den Keychain-Fall, nicht auf den
+abgelaufenen Token des MacBook. Danach ist der geparkte Schub sofort wieder startbar:
+`rm /Volumes/daten/jans-ai-hub/logbuch/vollgas/STOP-SCHUB`, dann die fünf Lanes neu starten.
+
+| Beleg: `logbuch/vollgas/RADAR.md` Eintrag 29.08.2026 19:15 [LOGIN]; Lauf-Journal `logbuch/laeufe/260829-laeufe.jsonl` | Hub-Betrieb, beide Stationen | **hoch** | offen, Raphael am 29.08.2026 im Gespräch direkt vorgelegt |
