@@ -774,3 +774,35 @@ gesperrt), nicht die drei P1-Positionen selbst. **Damit ist Sektion `02_Architek
 für P1 vollständig destilliert** (P2, 13 Positionen, bleibt offen). Nächste Position gemäss
 Ertrag-Tabelle: `02_Bibliothek` (2 P1), danach `01_Innenarchitektur` (1 P1) — danach ist die
 gesamte Mittelschicht (Zeilen 10-22) für P1 abgearbeitet.
+
+**29.08.2026 (Lane FACHWISSEN, fünfzehnter Destillat-Lauf, Fortsetzung).** `02_Bibliothek`
+(2 P1) vollständig destilliert, drei Wiki-Artikel:
+
+- [[grundrisskompendium-wohnhochhaeuser-eth-hs14]] — 24 Referenzobjekte Wohnhochhaus-Typologie,
+  drei vertiefte Fälle (Mies, MVRDV, Zölly Zürich)
+- [[zuercher-hochhaus-staedtebau-gespraech-gmuer-meili-peter]] — Gespräch Gmür/Meili/Peter,
+  mit Warnung zur didaktisch fiktiven Baurechtslockerung der Semesteraufgabe
+- [[neufert-architects-data-fundstelle-bibliothek]] — Fundstellen-Verweis, kein
+  Inhalts-Digest (Urheberrecht)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Bibliothek.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Kein neuer Sperrlisten-Fund; `Passwort.docx` bleibt
+ungeöffnet und gesperrt. **Damit ist Sektion `02_Bibliothek` für P1 vollständig destilliert**
+(P2, 320 Positionen, bleibt offen). Nächste und letzte Position der Mittelschicht-Tabelle:
+`01_Innenarchitektur` (1 P1) — danach ist die gesamte Mittelschicht (Zeilen 10-22) für P1
+abgearbeitet.
+
+**29.08.2026 (Lane FACHWISSEN, sechzehnter Destillat-Lauf) — MEILENSTEIN.**
+`01_Innenarchitektur` (1 P1) destilliert:
+[[gastronomieausbau-kostendatenpunkt-vorderer-sternen-zuerich]]. Fortschritt in
+`raw/inventar/archiv-fachwissen__01_Innenarchitektur.md`, reiner Append. **Damit ist P1 über
+sämtliche inventarisierten Sektionen beider Korpora dieser KB (`buero-referenzen` und
+`archiv-fachwissen`) vollständig destilliert.** Alle Zeilen 01-22 dieser Tabelle sind
+abgearbeitet; die verbleibenden Sektionen in «Ohne P1, aber mit destillierbarem Rest» und «Ohne
+Ertrag» unten haben laut Inventar P1=0 und werden nicht destilliert — vier davon
+(`04_Politik`, `05_Kultur_Gesellschaft_Stil`, `06_Reisen`, `07_Religion`) ausdrücklich wegen
+Privatunterlagen-Vorbehalt. Offen bleiben: P2 in praktisch jeder destillierten Sektion (über
+700 Positionen kumuliert), sowie Phase 0 für 9 `buero-referenzen`- und 3
+`archiv-fachwissen`-Sektionen (Liste in `QUESTIONS.md`). Nächster Schritt ist ein Entscheid,
+keine Fortsetzung nach Ertrag: P2-Destillation beginnen oder erst die fehlende
+Phase-0-Inventarisierung nachholen.

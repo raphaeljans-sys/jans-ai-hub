@@ -1,5 +1,51 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Sechzehnter Destillat-Lauf: MEILENSTEIN P1 beider Korpora vollständig (Lane FACHWISSEN, Fortsetzung)
+
+Letzte P1-Position der Sektion `01_Innenarchitektur` (1 P1 von 396 Dateien) gelesen, verifiziert
+und zu einem Wiki-Artikel destilliert, `status: emerging`:
+
+- [[gastronomieausbau-kostendatenpunkt-vorderer-sternen-zuerich]] — Kostendatenpunkt Gebäude
+  CHF 10,1 Mio. / Gastronomieausbau CHF 2,8 Mio., «Vorderer Sternen» Zürich 2013, vollständige
+  Planerkette; kein rechenbarer m²-Kennwert mangels Bezugsfläche
+
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Innenarchitektur.md` Abschnitt
+«Destillat-Fortschritt» (append-only, `git diff --numstat` zeigt `8 0`).
+
+**Damit ist P1 über sämtliche inventarisierten Sektionen BEIDER Korpora (`buero-referenzen` und
+`archiv-fachwissen`) destilliert** — die KB zählt aktuell 125 Wiki-Artikel unter `wiki/`
+(`ls wissen/architektur-fachwissen/wiki/*.md` ohne `INDEX.md`/`QUESTIONS.md`, verifiziert
+29.08.2026). Verbleibende Sektionen ohne P1 (`wiki/INDEX.md` «Ohne P1»/«Ohne Ertrag») werden nicht
+destilliert; vier davon (`04_Politik`, `05_Kultur_Gesellschaft_Stil`, `06_Reisen`,
+`07_Religion`) bewusst wegen Privatunterlagen-Vorbehalt ausgeklammert. Gemäss Queue-Regel bleibt
+der Korpus dennoch nicht «erledigt»: P2 (über 700 Positionen kumuliert) und die Phase-0-Lücke
+für 9 `buero-referenzen`- und 3 `archiv-fachwissen`-Sektionen sind offen. `KORPUS-QUEUE.md`
+nachgeführt mit einem expliziten Entscheidungspunkt für den nächsten Lauf.
+
+## 2026-08-29 — Fünfzehnter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Bibliothek` (Lane FACHWISSEN, Fortsetzung)
+
+Beide P1-Dateien der Sektion `02_Bibliothek` (6'947 Dateien, davon nur 2 P1 — die Sektion ist
+überwiegend Bibliotheksverwaltung, kein Fachwissen) gelesen und zu drei Wiki-Artikeln
+destilliert, alle `status: emerging`:
+
+- [[grundrisskompendium-wohnhochhaeuser-eth-hs14]] — 24 Referenzobjekte Wohnhochhaus-Typologie
+  (ETH HS14, Prof. Märkli/Peter), drei vertiefte Fälle (Lake Shore Drive Mies, Mirador MVRDV,
+  Zölly Zürich) mit Erschliessungs-/Grundrisskennwerten
+- [[zuercher-hochhaus-staedtebau-gespraech-gmuer-meili-peter]] — Gespräch Gmür/Meili/Peter 2014
+  zu Hochhausleitbild, Verhandlungsurbanismus, Baukollegium und Toni-Areal-Fallbeispiel, **mit
+  ausdrücklicher Warnung**, dass die 300-%-Ausnützung/kein-Zweistundenschatten-Vorgabe der
+  Semesteraufgabe eine didaktische Fiktion und keine reale Zürcher Rechtslage ist
+- [[neufert-architects-data-fundstelle-bibliothek]] — reiner Fundstellen-Verweis auf den
+  638-seitigen Neufert-Scan (keine Textebene, Ausgabe nicht bestimmbar), kein
+  Inhalts-Digest wegen Urheberrecht
+
+P1 der Sektion damit vollständig, P2 (320 Positionen: 287 Seminarreise-Reader, INSA-Inventar
+mit SEALS-Lizenzvorbehalt, Bestandslisten-Kanon Professur Schwartz, Bibliothekssystematik,
+Hochparterre-Sanierungsbeilage) bleibt bewusst offen. `raw/inventar/
+archiv-fachwissen__02_Bibliothek.md` um Abschnitt `## Destillat-Fortschritt` ergänzt
+(append-only, `git diff --numstat` zeigt `13 0`). `Passwort.docx` weiterhin ungeöffnet und
+gesperrt, kein neuer Sperrlisten-Fund. `KORPUS-QUEUE.md` nachgeführt.
+
 ## 2026-08-29 — Vierzehnter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architektur_Vermitteln` (Lane FACHWISSEN, Fortsetzung)
 
 Alle drei P1-Dateien der Sektion `02_Architektur_Vermitteln` (Hochschulskripte HTA Luzern,

@@ -196,3 +196,11 @@ liegt in Architekturgeschichte, Möbel- und Objektkunde sowie im belegten Refere
 **Empfohlene Reihenfolge einer späteren Destillation:** zuerst der Auktionskatalog (Textebene
 vorhanden, sofort verwertbar), dann die 44 Lexikonseiten nach OCR und Rechteklärung, dann
 die «Du»-Ausgabe 1984 zu Schweizer historischen Innenräumen. Alles Übrige bleibt Archiv.
+
+## Destillat-Fortschritt
+
+- **29.08.2026 (Lane FACHWISSEN):** die einzige P1-Position destilliert, ein Wiki-Artikel:
+  `wiki/gastronomieausbau-kostendatenpunkt-vorderer-sternen-zuerich.md` (Hochparterre-Artikel
+  vollständig gelesen und gegen das Inventar verifiziert). P1 dieser Sektion damit
+  **vollständig**. P2 (52 Positionen, u. a. Banham-Fachlexikon ohne Textebene,
+  Nordic-Design-Auktionskatalog, Du-Ausgabe 1984) bleibt offen.
