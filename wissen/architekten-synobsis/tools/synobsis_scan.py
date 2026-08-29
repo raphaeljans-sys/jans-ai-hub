@@ -24,7 +24,7 @@ Aufruf:
   python synobsis_scan.py --batch 25 --reindex      # Stand ignorieren, alles neu
   python synobsis_scan.py --status                   # nur Fortschritt zeigen
 """
-import argparse, json, os, re, sys, zipfile, datetime
+import argparse, json, os, re, sys, zipfile, datetime, unicodedata
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -88,13 +88,23 @@ def save_state(st):
     STATE.write_text(json.dumps(st, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def nfc(name):
+    """NAS-Ordnernamen kommen ueber SMB/macOS in NFD (Basiszeichen + kombinierender
+    Akzent, z.B. Š = S + U+030C). \\w matcht keine kombinierenden Zeichen (Kategorie
+    Mn), darum zerlegt slugify() NFD-Namen faelschlich (Šuchov -> S_uchov). NFC
+    fasst Basiszeichen+Akzent wieder zu einem Codepoint zusammen, den \\w kennt.
+    Siehe wiki/QUESTIONS.md Sektion 4 (Sonderzeichen-Regel)."""
+    return unicodedata.normalize("NFC", name)
+
+
 def slugify(name):
-    s = re.sub(r"[^\w\-]+", "_", name, flags=re.UNICODE).strip("_")
+    s = re.sub(r"[^\w\-]+", "_", nfc(name), flags=re.UNICODE).strip("_")
     return s[:120] or "_"
 
 
 def parse_architect_name(folder):
     """Aalto_Alvar -> {nachname: Aalto, vorname: Alvar}; Firmen bleiben as-is."""
+    folder = nfc(folder)
     parts = folder.split("_")
     years = [p for p in parts if YEAR_RE.fullmatch(p)]
     words = [p for p in parts if not YEAR_RE.fullmatch(p)]
@@ -107,6 +117,7 @@ def parse_architect_name(folder):
 
 def parse_project(folder):
     """Ort_Projekt_Jahr -> bestmoegliche Zerlegung; tolerant."""
+    folder = nfc(folder)
     parts = folder.split("_")
     years = [p for p in parts if YEAR_RE.fullmatch(p)]
     rest = [p for p in parts if not YEAR_RE.fullmatch(p)]
@@ -325,6 +336,91 @@ def list_architects():
                    if d.is_dir() and d.name not in SKIP_DIRS and not d.name.startswith(".")])
 
 
+def build_slug_index():
+    """casefold(Katalog-Dateiname ohne .json) -> Path. Auf einem case-insensitiven
+    Dateisystem (macOS APFS) fuehren zwei Quellordner, die sich nur in Gross-/
+    Kleinschreibung oder Leerzeichen-vs-Unterstrich unterscheiden (z.B. "gigon guyer"
+    vs "Gigon_Guyer"), sonst zur selben Katalogdatei -> der zweite Lauf ueberschreibt
+    den ersten stillschweigend. Siehe wiki/QUESTIONS.md Sektion 4 (Kollision)."""
+    meta_files = {"documents.jsonl", "cad-index.json", "aliases.json"}
+    idx = {}
+    for p in CATALOG.glob("*.json"):
+        if p.name in meta_files:
+            continue
+        idx[p.stem.casefold()] = p
+    return idx
+
+
+def merge_records(existing, new_rec, new_folder_name):
+    """Merge zweier Katalog-Datensaetze, die auf denselben (case-insensitiven) Slug
+    fuehren, statt den aelteren stillschweigend zu ueberschreiben. Beide Quellordner
+    bleiben im Feld `quellordner` sichtbar (Schema uebernommen von den manuell
+    korrigierten Faellen Christ_Gantenbein/Enzmann_Fischer/Miller_Maranta/Gigon_Guyer)."""
+    existing_folder = existing.get("architekt", {}).get("ordner", existing["slug"])
+    quellordner = list(existing.get("quellordner") or [existing_folder])
+    if new_folder_name not in quellordner:
+        quellordner.append(new_folder_name)
+
+    # bestehende Projekte nachtraeglich mit ihrem Quellordner taggen, falls das
+    # noch nicht geschehen ist (erster Merge fuer dieses Paar)
+    merged_projects = []
+    for pr in existing.get("projekte", []):
+        pr = dict(pr)
+        pr.setdefault("quellordner", existing_folder)
+        merged_projects.append(pr)
+    for pr in new_rec.get("projekte", []):
+        pr = dict(pr)
+        pr["quellordner"] = new_folder_name
+        merged_projects.append(pr)
+
+    inv = dict(existing.get("inventar", {}))
+    for k, v in new_rec.get("inventar", {}).items():
+        inv[k] = inv.get(k, 0) + v
+
+    dateitypen = dict(existing.get("dateitypen", {}))
+    for k, v in new_rec.get("dateitypen", {}).items():
+        dateitypen[k] = dateitypen.get(k, 0) + v
+    dateitypen = dict(sorted(dateitypen.items(), key=lambda x: -x[1]))
+
+    cad = {typ: list(paths) for typ, paths in existing.get("cad_dateien", {}).items()}
+    for typ, paths in new_rec.get("cad_dateien", {}).items():
+        cad.setdefault(typ, [])
+        cad[typ].extend(paths)
+
+    referenzbilder = list(existing.get("referenzbilder", []))
+    for rb in new_rec.get("referenzbilder", []):
+        if len(referenzbilder) >= MAX_REFERENZBILDER:
+            break
+        referenzbilder.append(rb)
+
+    # Textauszug: bestehenden (ggf. bereits kuratiert/korrigiert) Text nie
+    # verwerfen, neuen nur ergaenzen, wenn Platz bleibt (nichts erfinden/ersetzen).
+    textauszug = existing.get("textauszug", "")
+    if new_rec.get("textauszug"):
+        sep = " | " if textauszug else ""
+        textauszug = (textauszug + sep + new_rec["textauszug"])[:MAX_TEXT_CHARS]
+
+    embed_doc = existing.get("embed_doc", "")
+    if new_rec.get("embed_doc"):
+        sep = " | " if embed_doc else ""
+        embed_doc = embed_doc + sep + new_rec["embed_doc"]
+
+    merged = dict(existing)
+    merged.update({
+        "projekte": merged_projects,
+        "projekt_anzahl": len(merged_projects),
+        "inventar": inv,
+        "dateitypen": dateitypen,
+        "cad_dateien": cad,
+        "referenzbilder": referenzbilder,
+        "textauszug": textauszug,
+        "embed_doc": embed_doc,
+        "quellordner": quellordner,
+        "stand": datetime.datetime.now().isoformat(timespec="seconds"),
+    })
+    return merged
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--batch", type=int, default=25)
@@ -362,7 +458,19 @@ def main():
         return
 
     print(f"Verarbeite {len(batch)} von {len(todo)} offenen (gesamt {len(all_arch)}) ...")
-    with DOCS.open("a", encoding="utf-8") as docf:
+    # Bei --reindex faengt state neu an, aber documents.jsonl wurde bisher IMMER
+    # im Append-Modus geoeffnet -> ein voller Reindex haette jede Zeile verdoppelt
+    # (Vektorindex-Korruption). Reindex startet die Datei daher sauber neu.
+    jsonl_mode = "w" if args.reindex else "a"
+    slug_index = build_slug_index()
+    # ci_key -> in DIESEM Lauf bereits verarbeitete Quellordner. Getrennt von den
+    # Katalogdateien auf der Platte, weil die bei --reindex noch den STAND VOR dem
+    # Reindex zeigen (z.B. einen bereits frueher manuell zusammengefuehrten Fall) -
+    # ohne diese Trennung wuerde der erste Reindex-Treffer eines Kollisionspaars
+    # die alte, vollstaendige Zusammenfuehrung mit nur seinen eigenen (unvollstaendigen)
+    # frischen Daten ueberschreiben.
+    written_this_run = {}
+    with DOCS.open(jsonl_mode, encoding="utf-8") as docf:
         for i, name in enumerate(batch, 1):
             adir = ROOT / name
             try:
@@ -370,7 +478,37 @@ def main():
             except Exception as e:
                 print(f"  ! Fehler bei {name}: {e}", file=sys.stderr)
                 continue
-            (CATALOG / f"{rec['slug']}.json").write_text(
+
+            folder_name = nfc(name)
+            ci_key = rec["slug"].casefold()
+            target_path = slug_index.get(ci_key) or CATALOG / f"{rec['slug']}.json"
+
+            if ci_key in written_this_run:
+                # Kollisionspartner, den DIESER Lauf selbst schon geschrieben hat
+                existing_rec = json.loads(target_path.read_text(encoding="utf-8"))
+                rec = merge_records(existing_rec, rec, folder_name)
+                written_this_run[ci_key].append(folder_name)
+                print(f"  ~ Kollision: {name} zusammengefuehrt mit {existing_rec.get('slug')} "
+                      f"(quellordner: {rec['quellordner']})")
+            elif not args.reindex and target_path.exists():
+                # echte Kollision mit einem in einem FRUEHEREN Lauf bereits
+                # abgeschlossenen Katalogeintrag
+                existing_rec = json.loads(target_path.read_text(encoding="utf-8"))
+                prior_folders = existing_rec.get("quellordner") or [
+                    existing_rec.get("architekt", {}).get("ordner")]
+                if folder_name not in prior_folders:
+                    rec = merge_records(existing_rec, rec, folder_name)
+                    print(f"  ~ Kollision: {name} zusammengefuehrt mit {existing_rec.get('slug')} "
+                          f"(quellordner: {rec['quellordner']})")
+                    prior_folders = rec["quellordner"]
+                written_this_run[ci_key] = list(prior_folders)
+            else:
+                # --reindex: frueheren (moeglicherweise veralteten) Stand dieser
+                # Slug-Datei bewusst verwerfen, dieser Lauf baut sie neu auf
+                written_this_run[ci_key] = [folder_name]
+
+            slug_index[ci_key] = target_path
+            target_path.write_text(
                 json.dumps(rec, ensure_ascii=False, indent=2), encoding="utf-8")
             docf.write(json.dumps(
                 {"slug": rec["slug"], "name": rec["architekt"]["name"],

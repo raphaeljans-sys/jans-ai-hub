@@ -4,6 +4,43 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, vierter Folgelauf) — Scanner-Root-Cause fuer Kollision und Sonderzeichen behoben, nicht nur Katalogdaten
+
+Eigene Gegenpruefung vor Beginn bestaetigte den protokollierten Stand der drei Vorlaeufe (Fehlextraktionen,
+Katalog-Kollisionen und Sammelfrage-Chargen 1-6 vollstaendig in `wiki/QUESTIONS.md` markiert, Arbeitsbaum sauber).
+Anders als die drei vorherigen reinen Bestaetigungslaeufe wurde diesmal die noch offene Kapazitaetsfrage angegangen:
+`tools/synobsis_scan.py` selbst trug die Kollisions- und Sonderzeichen-Bugs noch im Code, sodass ein kuenftiger
+`--reindex`-Lauf die vier manuell zusammengefuehrten Kollisionsfaelle und die 14 manuell umbenannten Sonderzeichen-
+Dateien wieder zerstoert haette. Root Cause fuer die Sonderzeichen-Zerlegung gefunden und per Test belegt: NAS-
+Ordnernamen liegen ueber SMB/macOS in Unicode-NFD vor (Basiszeichen + kombinierender Akzent, z.B. Š = S + U+030C);
+`\w` im bisherigen `slugify()` matcht keine kombinierenden Zeichen (Kategorie Mn) und zerlegt sie zu `_`
+(`slugify(NFD('Šuchov'))` -> `S_uchov`, live an den echten NAS-Ordnern `Šuchov_Vladimir_...` und `...Lluìs`
+nachgewiesen: beide tatsaechlich NFD, waehrend `Utzon_Jørn`/`Mateo_Josep_Lluis` zufaellig NFC sind — das erklaert
+die beobachtete Uneinheitlichkeit). Fix: neue Funktion `nfc()` normalisiert Ordnernamen auf NFC vor `slugify()`,
+`parse_architect_name()` und `parse_project()`. Fuer die Katalog-Kollision (vier bestaetigte Faelle: Christ_Gantenbein,
+Enzmann_Fischer, Miller_Maranta, Gigon_Guyer — per Direktscan aller 853 echten NAS-Ordner gegengeprueft, keine
+weiteren Faelle im Bestand) neue Funktion `merge_records()` plus `build_slug_index()`: der Scanner erkennt jetzt
+casefold-Kollisionen zwischen Katalogdateien und merged Projekte/Inventar/Dateitypen/CAD/Referenzbilder statt den
+aelteren Datensatz stillschweigend zu ueberschreiben; Schema identisch zum manuellen `quellordner`-Feld der vier
+bereits von Hand korrigierten Faelle. Nebenbefund beim Code-Lesen: `documents.jsonl` wurde bei `--reindex` bisher
+immer im Append-Modus geoeffnet und haette bei einem echten vollen Reindex jede der 853 Zeilen verdoppelt
+(Vektorindex-Korruption) — jetzt truncatet nur der erste Aufruf einer Reindex-Sequenz die Datei. Alle drei Fixes
+mit einem synthetischen Sandbox-Test verifiziert (eigenes `/tmp`-Testverzeichnis, Modul-Globals gepatcht, NICHT
+gegen die echten NAS-Daten geschrieben): Kollisionspaar korrekt zusammengefuehrt sowohl ueber vier separate
+inkrementelle Laeufe als auch ueber einen zweiten vollstaendigen `--reindex`-Lauf hinweg (quellordner/Projekt-
+Anzahl/Inventar jeweils korrekt, `documents.jsonl` blieb bei 4 Zeilen statt sich zu verdoppeln), NFD-Ordner ergab
+nach dem Fix den korrekten precomposed-Slug und -Dateinamen. Gegen den echten Bestand nur lesend per `--status`
+geprueft (853/853, Stand unveraendert) — der Scan selbst wurde NICHT real ausgefuehrt, keine Katalog-JSON-Datei
+in dieser Session veraendert. `git diff --numstat` zeigt ausschliesslich `tools/synobsis_scan.py` (142/4, reiner
+Code-Zusatz) sowie zwei Erweiterungen bestehender Eintraege in `wiki/QUESTIONS.md` Sektion 4 (Kollision, Zeile 350;
+Sonderzeichen, Zeile 351) — beide rein anhaengend, keine bestehende Zeile inhaltlich entfernt (Diff-Gegenprobe:
+die als entfernt markierten Zeilen sind vollstaendig als Praefix in den neuen Zeilen enthalten). Damit ist ein
+kuenftiger produktiver `--reindex`-Lauf jetzt gefahrlos moeglich; er bleibt wie zuvor eine Kapazitaets-/Zeitfrage
+fuer den naechsten regulaeren Batch-Lauf (853 Ordner, ~390'000 Dateien ueber SMB), keine Freigabesache, und wurde
+bewusst nicht in dieser Session ausgefuehrt. Offen bleiben nur die echten Freigabesachen (NAS-Ordner-
+Umbenennungen/-Zusammenfuehrungen der vier Kollisionsfaelle, Chamberlin-Slug-Erweiterung u.ae.) sowie die rund
+elf Namen je Sammelfrage-Charge ohne belastbaren Websuche-Treffer (korrekt offen gelassen, nicht erfunden).
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, dritter Folgelauf) — Vier Prioritaeten unabhaengig ein drittes Mal geprueft, keine neue Position gefunden
 
 Eigenstaendige Verifikation ohne Vorlauf-Kontext (frische Session): `git log --oneline -- wissen/architekten-synobsis/`
