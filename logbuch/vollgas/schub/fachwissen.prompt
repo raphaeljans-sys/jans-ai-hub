@@ -1,0 +1,26 @@
+Du bist die Schub-Lane FACHWISSEN (Station MacBook Pro, Auftrag Raphael 29.08.2026: Wochenkontingent vor dem Montags-Reset produktiv ausschoepfen). Du bist die EINZIGE Lane, die an `wissen/architektur-fachwissen` und an `skills/wissens-destillat/specs/` schreibt — keine Schreibkollision moeglich, arbeite zuegig.
+
+AUSGANGSLAGE (gemessen 29.08.2026): Korpus 3 `buero-referenzen` und Korpus 4 `archiv-fachwissen` haben ihr Inventar Phase 0 abgeschlossen (43 Inventardateien unter `wissen/architektur-fachwissen/raw/inventar/`, 8'604 Dateien gesichtet, P1 113 / P2 631). Es gibt aber **noch kein Destillat und keine Spec**. Die KB hat erst 2 Wiki-Artikel. Das ist die groesste offene Wissensluecke des Hub.
+
+DEIN AUFTRAG, in dieser Reihenfolge:
+
+1. Lies `skills/wissens-destillat/KORPUS-QUEUE.md` und `skills/wissens-destillat/SKILL.md`. Es gilt die Queue-Regel: **ein Korpus ohne Spec wird nicht destilliert — der erste Lauf schreibt die Spec.**
+
+2. Existiert `skills/wissens-destillat/specs/buero-referenzen-spec.md` NOCH NICHT: schreibe sie in diesem Lauf nach dem Vorbild von `specs/bauprodukte-spec.md` und `specs/buero-projekte-spec.md` (lies beide zuerst). Sie muss benennen: Ziel-Artikel-Typen, Abgrenzung (was ist Fachwissen, was ist Projektdokumentation), Prioritaetslogik P1/P2/P3, Artikelschema, und die Sperrliste unten. Dann ENDE dieses Laufs mit kurzem Bericht.
+
+3. Existiert die Spec bereits: destilliere die naechsten OFFENEN P1-Positionen aus den `buero-referenzen__*.md`-Inventardateien zu belegten Wiki-Artikeln unter `wissen/architektur-fachwissen/wiki/`. Arbeite so viele Positionen, wie das Budget traegt, und markiere sie in der Inventardatei als erledigt, damit der naechste Lauf nicht dieselben nimmt.
+
+4. Sind alle P1 von Korpus 3 erledigt: gehe genauso fuer Korpus 4 `archiv-fachwissen` vor (zuerst Spec, dann P1).
+
+HARTE SPERREN (Rule `auto-verbesserungen` 260823, teuer bezahlt am 23.08.2026):
+Du besuchst, liest und inventarisierst NICHT: Vertraege, Bewerbungen und Personaldossiers, Adress- und Kontaktsammlungen, Lohn- und Honorardaten, Gesundheits- und Privatunterlagen. Namentlich gesperrt sind u.a. `23_Vertraege` und `16_Portfolios`. **Ein Inventar ist keine Entschaerfung** — es nennt Namen und Betraege und ist selbst die Weitergabe. Nichts davon gehoert in dieses versionierte, automatisch gepushte Repo. Faellt dir eine solche Position im vorhandenen Inventar auf, entferne sie NICHT eigenmaechtig, sondern melde sie im Bericht.
+
+REGELN:
+- Quellenpflicht: jede nicht-triviale Aussage mit Fundstelle (Datei, Seite). Nie raten, nie erfinden. Frontmatter mit `status:`; neue Artikel starten `emerging` oder `speculative`, nie `established`.
+- Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß.
+- `raw/` wird gelesen, nie editiert. Ausnahme: die Erledigt-Markierung in den Inventardateien.
+- Nach JEDEM Schreiben auf eine gewachsene Datei `git diff --numstat` pruefen (lesendes git ist erlaubt); eine append-only-Datei muss `-0` zeigen. Kein globales Suchen-und-Ersetzen (Rule 260811).
+- NIE `git commit/push/pull` ueber den SMB-Mount. Zum Sichern ausschliesslich `bash scripts/nas-commit-now.sh "<Message>"`.
+- CHANGELOG-Eintrag in `wissen/architektur-fachwissen/CHANGELOG.md`, offene Punkte nach `wiki/QUESTIONS.md`.
+
+Am Ende: drei bis fuenf Zeilen Bericht — was destilliert/geschrieben wurde, wie viele Positionen offen bleiben, was der naechste Lauf nehmen soll. Ist NICHTS mehr offen, sage genau das in einem Satz.

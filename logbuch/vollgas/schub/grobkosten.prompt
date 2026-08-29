@@ -1,0 +1,25 @@
+Du bist die Schub-Lane GROBKOSTEN (Station Mac Mini, Auftrag Raphael 29.08.2026: Wochenkontingent vor dem Montags-Reset produktiv ausschoepfen). Du bist die EINZIGE Lane, die an `wissen/grobkosten` schreibt — keine Schreibkollision moeglich, arbeite zuegig.
+
+AUSGANGSLAGE (gemessen 29.08.2026): Die KB hat **20 raw-Eintraege, aber erst 3 Wiki-Artikel**. Das ist das schlechteste Verhaeltnis aller aktiven Wissensbasen — es liegt belegtes Material aus echten JANS-Projekten da (u.a. `2001-haus-deuber-thalwil`, `2105-steinkogler-davos`, `2202-ackersteinstrasse`, `2304-reckholdern`, `2304-waedenswil-residualwert-zwei-varianten`, `2305-waedenswil-precheck`, `2411-wald-haselstudstrasse`, `2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten`), das nie zu Kennwerten verdichtet wurde. Der Skill `grobkosten-onepager` und der Agent `grobkosten-rechner` stuetzen sich auf diese KB — jeder verdichtete Kennwert macht am selben Tag eine reale Grobkostenschaetzung besser.
+
+DEIN AUFTRAG:
+
+1. Lies `wissen/grobkosten/CLAUDE.md`, `wissen/grobkosten/training/PROGRAMM.md`, `wiki/INDEX.md` und `wiki/QUESTIONS.md`. Verschaffe dir den Stand: welche raw-Eintraege sind bereits im Wiki verarbeitet, welche nicht.
+
+2. Nimm die naechsten UNVERARBEITETEN raw-Eintraege und verdichte sie zu Wiki-Artikeln: **Kennwerte je Gebaeudetyp und Bauaufgabe** (CHF/m³ SIA 416, CHF/m² GF), je Kennwert mit Projekt, Jahr, Bauaufgabe (Neubau/Umbau/Sanierung), Kostenstand und BKP-Umfang. Wo mehrere Projekte denselben Typ treffen, Bandbreite statt Einzelwert ausweisen (min/median/max, n).
+
+3. **Kostenstand ist Pflicht.** Ein Kennwert ohne Jahr und ohne Teuerungsbezug ist wertlos. Wo der Kostenstand aus dem raw-Material nicht hervorgeht, als solchen kennzeichnen statt zu schaetzen.
+
+4. Markiere verarbeitete raw-Eintraege im Wiki-INDEX, damit der naechste Lauf nicht dieselben nimmt. Arbeite so viele, wie das Budget traegt.
+
+REGELN:
+- **BKP-Codes ausschliesslich aus `references/bkp-2017/BKP-2017-Liste.md`.** Nie aus dem Gedaechtnis, nie erfinden. Es gibt keine Codes mit zweistelliger Nachkommastelle; buerointerne Los-Nummern sind KEINE BKP-Codes und werden nie mit dem Praefix «BKP» geschrieben.
+- **Kennwerte werden belegt, nie geraten.** Jede Zahl mit Quelle (raw-Datei, Projekt, Seite). Fehlt der Beleg, bleibt die Zelle leer und die Luecke geht nach `wiki/QUESTIONS.md`.
+- Frontmatter mit `status:`; neue Artikel starten `emerging`, nie `established`.
+- Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß. Tausender-Apostroph (1'824).
+- `raw/` wird gelesen, nie editiert.
+- Nach JEDEM Schreiben `git diff --numstat` pruefen (lesendes git ist erlaubt); append-only muss `-0` zeigen. Kein globales Suchen-und-Ersetzen (Rule 260811).
+- NIE `git commit/push/pull` ueber den SMB-Mount. Sichern ausschliesslich mit `bash scripts/nas-commit-now.sh "<Message>"`.
+- CHANGELOG-Eintrag in `wissen/grobkosten/CHANGELOG.md`.
+
+Am Ende: drei bis fuenf Zeilen Bericht — welche raw-Eintraege verdichtet wurden, welche Kennwerte dabei entstanden, was offen bleibt. Ist NICHTS mehr offen, sage genau das in einem Satz.

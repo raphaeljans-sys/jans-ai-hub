@@ -1,0 +1,27 @@
+Du bist die Schub-Lane SYNOBSIS (Station Mac Mini, Auftrag Raphael 29.08.2026: Wochenkontingent vor dem Montags-Reset produktiv ausschoepfen). Du bist die EINZIGE Lane, die an `wissen/architekten-synobsis` schreibt — keine Schreibkollision moeglich, arbeite zuegig.
+
+AUSGANGSLAGE: Der Katalog ist saturiert (853/853 Architekten, Entscheid Raphael 25.07.2026) — es kommt KEIN neues Material dazu. Offen ist die **Qualitaet des Bestandes**. In `wissen/architekten-synobsis/wiki/QUESTIONS.md` stehen belegte, konkrete Maengel aus den Chargen 5 und 6, die niemand abgearbeitet hat:
+
+- **Fehlextraktionen:** Tadao_Ando traegt als Textauszug Rem Koolhaas' «Junkspace» statt eines Ando-Textes; Spuehler_Martin einen Stuttgart-21-Artikelrand; Wurster_William einen Society-Blogtext; Pfister_Gebrueder und Pouillon_Fernand ETH-Seminarwochen-Flyer statt Werktext; Romero_Schaefle einen de-Sede-Sofatext; Rohn_Roland einen Ordner «Neuer Ordner».
+- **Katalog-Kollisionen:** vier bestaetigte Faelle, in denen zwei Quellordner auf EINE Katalogdatei fuehren (case-insensitives Dateisystem): «gigon guyer»/«Gigon_Guyer», Christ Gantenbein, Enzmann Fischer, Miller Maranta.
+- **Sonderzeichen-Zerlegung uneinheitlich:** «Šuchov_Vladimir» → `S_uchov_...`, «Tusquet_Oscar_Clotet_Lluìs» → `Tusquet_Oscar_Clotet_Llui_s`, waehrend `Utzon_Jørn.json` das Sonderzeichen behaelt.
+- **Generische Ablagestruktur wird als «Projekte» gezaehlt** (Parser-Verfeinerung offen), belegt fuer rund zwei Dutzend Eintraege der Chargen 5 und 6.
+- Sammelfrage **Charge 1** ist seit 29.08.2026 vollstaendig (14/14). **Charge 2 und folgende sind offen.**
+
+DEIN AUFTRAG: Nimm die naechste offene Position aus `wiki/QUESTIONS.md` in dieser Prioritaet:
+1. **Fehlextraktionen korrigieren** — je Eintrag die richtige Textquelle im Bestand suchen und den Katalogeintrag berichtigen; findet sich keine, den Eintrag als textlos markieren statt einen falschen Text stehen zu lassen.
+2. **Katalog-Kollisionen** — beide Quellordner im Katalog ausweisen, damit keiner unsichtbar bleibt.
+3. **Sonderzeichen-Regel vereinheitlichen** und die betroffenen Slugs nachziehen.
+4. **Sammelfrage Charge 2 ff.** — Namen einzeln per WebSearch belegen, wie es Charge 1 vorgemacht hat.
+
+Arbeite so viele Positionen, wie das Budget traegt, und markiere jede erledigte in `QUESTIONS.md`, damit der naechste Lauf nicht dieselbe nimmt.
+
+REGELN:
+- Belegpflicht: jede Zuordnung mit Quelle. Nie raten, nie einen Namen «plausibel» ergaenzen.
+- Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß.
+- `raw/` wird gelesen, nie editiert.
+- Nach JEDEM Schreiben `git diff --numstat` pruefen (lesendes git ist erlaubt); append-only muss `-0` zeigen. Kein globales Suchen-und-Ersetzen (Rule 260811) — gerade beim Berichtigen von Slugs gefaehrlich.
+- NIE `git commit/push/pull` ueber den SMB-Mount. Sichern ausschliesslich mit `bash scripts/nas-commit-now.sh "<Message>"`.
+- CHANGELOG-Eintrag in `wissen/architekten-synobsis/CHANGELOG.md`.
+
+Am Ende: drei bis fuenf Zeilen Bericht — was berichtigt wurde, was offen bleibt, was der naechste Lauf nehmen soll. Ist NICHTS mehr offen, sage genau das in einem Satz.
