@@ -3,6 +3,141 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 29.08.2026 (06:55 bis 07:1x, Logbuch-Radar)
+
+**Nicht gemailt, Ein-Mail-Prinzip.** Der Chef-Lauf vom 28.08. hat stattgefunden (Briefing 08:56:27
+an rj@ gesendet, in den Gesendeten belegt), und kein Punkt verlangt Handeln vor 08:39. Heute ist
+Samstag, die Fristen fallen auf Montag. Der Hub-Chef übernimmt diesen Abschnitt in das Tagesbriefing.
+
+**Gelesen wurde über Graph** (Apple Mail antwortet den siebten Tag nicht): rj@ und mail@ vollständig,
+Posteingang und Gesendete im Fenster 28.08. 05:00 bis 29.08. 06:45, dazu der Kalender bis 05.09.
+Das Konto raphaeljans@outlook.com bleibt ohne Graph-Weg und ist den fünften Tag ungelesen. Kein
+Gespräch mit Claude im Fenster, 45 Sessions waren sämtlich Automatikläufe.
+
+### Zu entscheiden
+
+**01 Du hast die Einstellung der Arbeiten am KISPI PPTS angekündigt, und zurückgekommen ist eine
+Zusage.** Deine Mail vom 28.08. 08:52 an die Kreditorenstelle, Cc A. Spahic, besteht aus einem Satz:
+die Arbeiten werden ab dem 01.09. eingestellt. Spahic antwortet drei Minuten später, die Rechnung
+werde demnächst bezahlt. Das ist eine Absicht, kein Zahlungsbeleg, und nachprüfen lässt es sich
+zurzeit nicht: bexio antwortet den einundzwanzigsten Tag mit HTTP 401, der letzte verifizierte
+Zahlstatus stammt vom 08.08. Offen sind CHF 51'400 in fünf Positionen, davon beim KISPI RE-00087
+mit CHF 15'000, RE-00098 mit CHF 13'600 und RE-00099 mit CHF 3'680. Welche Rechnung Spahic meint,
+steht in seinen sieben Worten nicht.
+
+Der Termin, den Du gesetzt hast, ist derselbe, an dem der Baustart bei der Feuerpolizei gemeldet
+werden soll, die Türen in Produktion gehen und der Umbau anläuft. Zwei Fragen gehören heute
+entschieden: ob die Einstellung am Dienstag wirklich vollzogen wird und wer davon weiss. Bisher
+wissen es die Kreditorenstelle und Spahic. C. Schäfer, C. Allerkamp, F. Würsch, M. Spörri und
+sämtliche Planer arbeiten unverändert auf denselben 01.09. hin.
+
+### Überfällig
+
+**02 Das bereinigte Terminprogramm an N. Rothe ist nicht rausgegangen.** Du hattest es am 24.08. für
+das Ende der KW35 zugesagt, also für gestern. Die Gesendeten des ganzen Freitags sind durchgesehen:
+an ihn gingen die zwei Sachantworten zur Therapieküche, kein Terminprogramm. Damit gilt weiterhin
+seine eigene Kette vom 24.08., und die hat er inzwischen selbst verschärft.
+
+**03 Die Therapieküche braucht die Freigabe am Montag, und zwei von drei Punkten sind beantwortet.**
+Zum Kompost hast Du entschieden, dass kein Abwurf nötig ist, sondern Stellfläche für den bestehenden
+Eimer, rund 25 auf 30 auf 20 Zentimeter. Zur Gastroabwasch-Armatur hast Du die UV-Verklebung auf das
+Glas ersetzt durch ein horizontales CNS-Rundrohr von Seitenleibung zu Seitenleibung, bauseits durch
+das KISPI nach der Küchenmontage, sofern statisch nötig; der Schnitt 1:20 ging drei Minuten später
+nach. Offen bleiben die förmliche Freigabe selbst und die fachliche Kontrolle des Werkstattplans,
+die N. Rothe als dritten Punkt gestellt hat. Unbeantwortet sind ausserdem weiterhin die zwölf
+Klärungspunkte T. Inningers vom 08.08. Die Armaturen-Lösung hängt zudem an der inneren Verglasung
+von Jegen und ist dort nicht bestellt.
+
+### Neu seit gestern
+
+**04 L. Merci meldet sieben Korrekturen an der Türmatrix.** Nach Rücksprache mit F. Würsch und
+Abgleich gegen die Brandschutzpläne von J. Ziegel fehlt bei sechs Türen der Türschliesser: Umbau-3,
+Umbau-16, Umbau-23, Umbau-24 und Umbau-31, dazu Umbau-32-01, wo die Matrix einen
+Schliess-Folgeregler führt, obwohl es eine Brandschutz-Schiebetüre mit integrierter Service-Fluchttüre
+ist. Siebter Punkt ist eine Frage: Umbau-14 trägt in der Matrix eine Breakoutfunktion nach System 4.3,
+auf den Brandschutzplänen ist sie wie die bestehenden Türen nach System 4 vermerkt. Seine Begründung
+bei Umbau-16 wiegt am schwersten: die Copy-Point-Türen muss das KISPI nach dem Bauentscheid des
+Projekts ASS ohnehin nachrüsten, und die Feuerpolizei würde das bei der Abnahme monieren. Merci will
+das Türbuch nächste Woche zur Unterschrift weiterleiten und Dir zustellen, sobald L. Hiltmann die
+Anpassungen liefert. Der Produktionsstart der Türen liegt auf dem 01.09.
+
+**05 F. Würsch hat die Siemens-Offerten für Gebäudeautomation und Brandmeldeanlage unterzeichnet.**
+Er meldet Siemens am 28.08. den Umsetzungszeitraum Oktober 2026, detaillierte Termine folgen. Damit
+ist ein Gewerk mehr auf dieselbe Oktober-Schiene gesetzt wie die Küchenmontage.
+
+### Erledigt seit gestern
+
+**06 Der Fragenkatalog von L. Bajrami ist beantwortet, fünf Punkte am selben Abend.** Deine Antwort
+um 21:50 liefert die Positionsliste aller Elemente mit Tür-ID und Kennzeichnung der
+Komponentenintegrationspanels, die Typbezeichnung des elektronischen Beschlags aus dem Bestand mit
+Bohrschablone, die vollständigen GLUTZ-Beschläge, die Bestätigung von DMC 20 mit zehn Metern Kabel
+und für die Tür 01.2.016.01 den Vorschlag Langschild analog der bestehenden EI30-Türe. Drei Punkte
+hast Du dabei an andere weitergegeben: L. Hiltmann soll den elektronischen und den mechanischen
+Beschlag bestätigen, Y. Cetin die Elektrozuleitung in die Elektroplanung aufnehmen, und die
+Grundsatzfrage zur bestehenden EI30-Verglasung liegt bei J. Ziegel, A. Spahic, F. Würsch und Y. Cetin.
+
+**07 L. Bajrami ist zur Koordinationssitzung vom 03.09. eingeladen.** M. Valentin hat den Termin
+gestern weitergeleitet, nachdem Deine Anfrage vom Vorabend bei ihr untergegangen war.
+
+**08 Die Frage zur Trennwand im Speiseraum ist beim richtigen Kreis.** Vorab-Lüftungsplan mit der
+Bitte um Prüfung von Position und Bodenheizungsverlauf an M. Spörri, F. Würsch, A. Spahic und
+J. Ziegel, dazu Dein Hinweis, dass das Verkleinern des Elektrotrassees womöglich die geringeren
+Folgen hat als das Bohren.
+
+### In den nächsten 7 Tagen
+
+**09 Montag 31.08.** trägt sechs Dinge: die Freigabe Therapieküche, die Beantwortung der offenen
+Fragen an die Bauherrschaft, den finalen Kernbohrungsplan Sanitär als Bringschuld von M. Eren, die
+Kommunikation des Terminplans an die Bauherrschaft, das nachzuliefernde Terminprogramm an N. Rothe
+und um 09:00 den Abgleich des finalen Gesamtzeitplans mit C. Schäfer, C. Allerkamp und A. Spahic,
+fünfzehn Minuten über Teams.
+
+**10 Dienstag 01.09.** Meldung Baustart an die Feuerpolizei, Produktionsstart Türen, der
+angekündigte Einstellungstermin aus Position 01 und die Anliegen an R. Steinmann, der vom 03. bis
+21.09. abwesend ist. Im Kalender steht an diesem Tag weiterhin ein unbenannter Ganztageseintrag
+«Neues Ereignis».
+
+**11 Donnerstag 03.09., 13:00 bis 14:00** Koordinationssitzung Gruner, Jans und KISPI über Teams,
+dreizehn Teilnehmer, neu mit L. Bajrami.
+
+**12 KW36** Gut zur Ausführung Innere Verglasungen mit Unterschrift Architektur und Bauherrschaft,
+Los 274.01.
+
+### In Beobachtung
+
+**13 bexio** antwortet den einundzwanzigsten Tag mit HTTP 401. Ein neuer Token löst es.
+
+**14 Apple Mail** antwortet den siebten Tag nicht auf osascript. Folge: das Konto
+raphaeljans@outlook.com bleibt ungelesen und Mail-Entwürfe können nicht als Draft im Postfach
+abgelegt werden.
+
+**15 AG-Gründung.** Die Kapitaleinzahlung von CHF 50'000 auf das seit 17.08. offene UBS-Konto steht
+weiterhin aus.
+
+**16 Die Rückmeldung von J. Ziegel** zum Termin der feuerpolizeilichen Abnahme fehlt seit dem 27.08.
+und ist genau das Stück, das an Deiner Zusage «alle Termine der behördlichen Abnahmen fixiert» fehlt.
+
+**17 Thalwil.** Die SBB liefern seit sechs Wochen nicht; die Sendung von S. Tschopp vom 28.08.
+enthielt exakt die Dateien, die Du am 14.07. selbst an T. Wiedmer geschickt hattest.
+
+**18 Hostpoint** meldet die Sicherheitslücke im WordPress-Plugin Optimole auf dem Studio-Hosting;
+noch nichts unternommen.
+
+### Vorschlag Kalendereinträge
+
+**19 Montag 31.08., früh.** Block für die Freigabe Therapieküche und das Terminprogramm an
+N. Rothe, beide vor dem Zeitplan-Abgleich um 09:00.
+
+**20 Dienstag 01.09.** Erinnerung, die offenen Anliegen an R. Steinmann zu senden, letzter Tag vor
+seiner dreiwöchigen Abwesenheit.
+
+Nicht eingetragen, nur vorgeschlagen.
+
+### Token-Tempo
+
+**21 Vortag 28.08.2026.** MacBook Pro 241.5 Mio. Token (USD 188.03 Kostenäquivalent),
+Mac Mini 82.1 Mio. Token (USD 33.93), Summe 323.6 Mio. Token und USD 221.96.
+
 ## Hub-Chef 28.08.2026 (08:39 bis 09:0x) — Tagesbriefing GESENDET, zwei Kalendereintraege (A2), Tuer-ID-Restpunkt als Entwurf abgelegt (A3)
 
 **Signale gelesen:** `logbuch/fristen.md` und `LOGBUCH.md` (Radar-Abschnitt 28.08. 06:55 bis 07:10
