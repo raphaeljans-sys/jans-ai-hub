@@ -1,3 +1,24 @@
+## 2026-08-29 (Run 73, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — sechster Doppel-Dispatch, weiterhin Nullbefund
+
+Sechster Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-73). Unabhängig
+nachgeprüft statt der Liste geglaubt: `grep -ic "prüfstand\|pruefstand"` gegen alle sechs
+Destillate aus Abschnitt 4 der Kandidatenliste (`sia-416-2003.md`,
+`vkf-ah-1001-15-wohnbauten.md`, `vkf-brl-16-15-flucht-rettungswege.md`,
+`vkf-allgemein-anerkannte-bauprodukte-2017.md`, `sia-102-2014.md`, `sia-451-1992.md`) — alle
+sechs tragen weiterhin mindestens einen Treffer. `wiki/QUESTIONS.md` endet unverändert bei
+N68-1, kein offener neuer Eintrag seit Run 68. NAS-Pfad und SSD-Spiegel bei `CHANGELOG.md`
+MD5-identisch vor Beginn. **Kein neuer Kandidat, keine Destillat-Änderung, kein
+Statuswechsel in diesem Lauf.**
+
+Offen bleibt unverändert nur die in der Kandidatenliste Abschnitt 6 Punkt 2 skizzierte
+Stichprobenrunde für den Mittelbau der ~300 übrigen `established`-Destillate ohne Prüfstand —
+weiterhin Raphael vorzulegen, nicht selbständig zu starten. **Sechs identische Dispatches
+an einem Tag sind kein Sacharbeit-Rückstand mehr, sondern ein Prozess-Signal:** Run 71 hatte
+den Wiederholungspunkt erstmals angemerkt, Run 72 ihn bewusst nicht wiederholt. Diese Lane
+wiederholt ihn ein letztes Mal, konkreter: **es lohnt sich zu prüfen, ob der auslösende
+Scheduled Task/Auftrag mehrfach pro Tag statt einmal feuert**, denn der Auftragswortlaut
+selbst ändert sich zwischen den Läufen nicht.
+
 ## 2026-08-29 (Run 72, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — fünfter Doppel-Dispatch, weiterhin Nullbefund
 
 Fünfter Auftrag Raphael mit identischem Wortlaut («Wochenkontingent vor Montags-Reset,
