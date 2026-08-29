@@ -1,5 +1,31 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-29 (Schub-Lane grobkosten, vierter Dispatch selber Tag, ~22:33 Uhr) — viertes Duplikat, unabhaengig gegengeprueft statt den drei Vorbefunden vertraut
+
+**Befund:** vierter Dispatch derselben Lane binnen desselben Tages, wortgleicher Auftragstext
+("20 raw-Eintraege, erst 3 Wiki-Artikel", identische Projektliste inkl.
+`2304-waedenswil-residualwert-zwei-varianten` und `2305-waedenswil-precheck`, die beide bereits
+als "geschlossen/dokumentiert, nicht promoviert" gefuehrt werden). Nicht blind auf die drei
+Eintraege darunter verlassen, sondern eigenstaendig gegengeprueft: `wiki/INDEX.md`
+Raw-Material-Status-Tabelle und `wiki/kennwerte.md`-Frontmatter `sources:` fuehren weiterhin alle
+18 realen `raw/`-Dateien; `raw/`-Ordnerliste unveraendert (juengste Datei weiterhin
+`zuercher-index-wohnbaupreise-2025-10-update.md`, 17.08.). Zusaetzlich zwei der staerksten
+Einzelfaelle direkt am Rohbeleg gegengeprueft: `raw/8155-niederhasli-seestrasse64.md`
+(1'032 CHF/m³, GV 3'843.8 m³, BKP 1–5 CHF 3'966'406 — Rechnung stimmt) und
+`raw/2304-reckholdern.md` (1'735 CHF/m³, GV 1'986 m³, BKP 1–5 CHF 3'446'500 — Rechnung stimmt).
+Beide decken sich exakt mit `wiki/kennwerte.md`.
+
+**Nicht ausgefuehrt:** kein vierter inhaltsgleicher Verdichtungsdurchgang — `raw/`,
+`wiki/kennwerte.md` und `wiki/INDEX.md`-Tabelle bleiben unangetastet, kein Kennwert erzeugt.
+
+**Hinweis fuer den Dispatcher (wiederholt, jetzt zum dritten Mal protokolliert):** die
+Vorlagenzahl "20 raw / 3 Wiki-Artikel" ist weiterhin nicht aktualisiert und hat denselben
+Auftrag ein viertes Mal ausgeloest. Der einzige inhaltliche Blocker fuer einen echten
+Fortschritt bleibt Frage 1/2 in `wiki/QUESTIONS.md` (BKP-1-9-vs-1-5-Scope, Standard-
+Klassifikation "norm, eloquent") — nur durch Raphaels Entscheid loesbar, nicht durch einen
+weiteren Lane-Dispatch. Empfehlung unveraendert: Lane auf Ereignis-Trigger (neues Rohmaterial
+in `raw/` oder Raphaels Antwort zu Frage 1/2) statt Tages-Rotation umstellen.
+
 ## 2026-08-29 (Schub-Lane grobkosten, dritter Dispatch selber Tag, ~22:09 Uhr) — erneut Duplikat erkannt, erneut keine Verdichtung erzwungen
 
 **Befund:** dritter Dispatch derselben Lane binnen desselben Tages mit wortgleichem Auftragstext

@@ -165,3 +165,48 @@ Die Tonmitschnitte erst dann, wenn eine Transkriptionsstrecke existiert. Alles u
 nicht destilliert; die GarageBand-Rohspuren wären zudem ein Kandidat für eine
 Speicherbereinigung auf dem NAS, das ist aber ein Entscheid Raphaels und nicht Aufgabe dieses
 Inventars.
+
+## Destillat-Fortschritt
+
+**29.08.2026 (Lane FACHWISSEN, siebter Destillat-Lauf Korpus `archiv-fachwissen`).** Alle elf
+P1-Dateien gelesen und destilliert, vier Wiki-Artikel nach Sache statt Datei, alle
+`status: emerging` (ein Artikel `speculative`, siehe unten):
+
+- [[gebaeudeanalyse-raster-situation-volumetrie-grundriss-fassade]] — aus
+  `05_Gebaeudeanalyse/kolloquium.pdf`, `Gebäudeanalyse.pdf` (Haus Steiger) und
+  `beispielanalyse_semper.pdf` (7 Dateien der Gruppe)
+- [[fachglossar-historische-bauteile-kirchenbau-gotik]] — aus
+  `00_Begriffe/Architektur- und Kunstgeschichte_neu1.pdf` S. 1; **`status: speculative`**,
+  da Einzelquelle ohne Fachlektorat. Die zweite Datei der Gruppe,
+  `architekturgeschichte_begriffe_notizen.pdf`, ist ein reiner Scan ohne Textlayer und auf
+  dieser Station (MacBook Pro, kein `pdftotext`/`poppler`/Homebrew) technisch nicht lesbar
+  — bleibt offen, siehe `wiki/QUESTIONS.md`.
+- [[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]] — aus
+  `ArchitekturVVI_Texte.pdf`, nur S. 1-5 (Tessin/Autonomie/Atmosphäre). Der zweite Teil der
+  Datei (S. 6-8, Archigram/Living City) ist eine andere Sache und wurde nicht destilliert.
+- [[objektliste-architekturgeschichte-datierungen-eth]] — aus `07_Objektliste/  .pdf`,
+  inkl. Gegenprobe/Bestätigung des im Kurzbefund genannten Datierungsfehlers in
+  `01_Architektenportrait/32_semper.pdf` (Titel 1687-1753 falsch, korrekt 1803-1879, in
+  der Objektliste verifiziert).
+
+**Technischer Befund dieses Laufs:** Auf der Station MacBook Pro fehlen `pdftotext`
+(poppler) und Homebrew vollständig; Read-Tool-Rendering von Scan-PDFs ohne Textlayer
+scheitert am selben Fehlen von `pdftoppm`. Textlayer-PDFs wurden stattdessen über
+`pypdf` (per `pip install --user`, kein Homebrew nötig) ausgelesen. Reine Scans (0
+Zeichen extrahierbar) bleiben ungelesen. Meldung an `wiki/QUESTIONS.md` und als
+Werkzeug-Lücke vermerkt.
+
+**Sperrlisten-Prüfung:** kein Fund. Kurzbefund bestätigt: keine Verträge, Bewerbungen,
+Personaldossiers, Adress- oder Honorardaten. Vorkommende Namen sind Dozierende und
+öffentliche Architekturhistoriker/Architekten; Namen von Mitstudierenden wurden bereits im
+Kurzbefund nicht genannt und auch hier nicht übernommen.
+
+**P2 (rund 160 Dateien) bleibt vollständig offen** — u. a. das Luzerner Skript Sauter/Marion
+(13 Teile), die vier Epochen-Zusammenfassungen der obersten Ebene, das Tönnesmann-Skript
+HS 2012, die sechs eigenen Epochen-Übersichten von Raphael Jans, die 41
+Architektenportraits (Qualitätsvorbehalt: mindestens ein belegter Datierungsfehler, siehe
+oben) und der Frage-Antwort-Katalog `Fragen.doc`. **Damit ist Sektion
+`02_Architekturgeschichte` für P1 vollständig destilliert.** Nächste Position gemäss
+`wiki/INDEX.md` «Sektionen nach Ertrag»: `02_Kunst_Geschichte` (11 P1, sehr dünn im
+Verhältnis zu 27'649 gesichteten Dateien) — damit sind alle P1-Positionen der
+Trägerschicht-Tabelle abgearbeitet, es bleibt nur noch die Mittelschicht.

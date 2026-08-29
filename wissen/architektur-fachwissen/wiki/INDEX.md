@@ -577,6 +577,36 @@ Seminarteilnehmende mit Pseudonym, Letztere bewusst nicht in einen Artikel über
 Urheberrecht beachtet: der Fremdtext Schett und die Vortragsmitschrift Adi Meyer sinngemäss
 mit Fundstelle wiedergegeben, nur kurze gekennzeichnete Kernformulierungen direkt zitiert.
 P2 (33 Positionen) bleibt vollständig offen. **Damit ist Sektion `10_Protomodern` für P1
-vollständig destilliert.** Nächste Position gemäss Ertrag-Tabelle: `02_Architekturgeschichte`
-(11 P1) oder `02_Kunst_Geschichte` (11 P1, sehr dünn im Verhältnis zu 27'649 gesichteten
-Dateien).
+vollständig destilliert.**
+
+**Siebter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte`
+(Zeile 08 oben) — Lane FACHWISSEN, selber Tag, Fortsetzung.** Sektion vollständig
+destilliert: alle 11 P1-Dateien, vier Wiki-Artikel nach Sache statt Datei:
+
+- [[gebaeudeanalyse-raster-situation-volumetrie-grundriss-fassade]] — `status: emerging`,
+  offizielle ETH-Prüfungsaufgabe + Musteranalyse Semper/ETH-Hauptgebäude + Übungsanalyse
+  Haus Steiger, Vier-plus-eins-Raster Situation/Volumetrie/Grundriss/Fassade/Einordnung
+- [[fachglossar-historische-bauteile-kirchenbau-gotik]] — `status: speculative`
+  (Einzelquelle ohne Fachlektorat), 14 Kirchenbau-/Gotik-Begriffe mit Definition
+- [[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]] —
+  `status: emerging`, Autonomie-These der Tessiner Tendenza und die spätere Verschiebung
+  zum Atmosphäre-Begriff (Šik, Zumthor, H&dM-Naturgeschichte)
+- [[objektliste-architekturgeschichte-datierungen-eth]] — `status: emerging`, geprüfte
+  Architekten-Objektliste (Tönnesmann/Hildebrand), bestätigt den im Phase-0-Inventar
+  vermerkten Datierungsfehler im Semper-Portrait (1687-1753 falsch, korrekt 1803-1879)
+
+**Technische Werkzeuglücke auf Station MacBook Pro festgestellt und umgangen:** weder
+`pdftotext`/`poppler` noch Homebrew sind installiert; Read-Tool-Rendering von
+textlayer-losen Scans scheitert deshalb ebenfalls (`pdftoppm` fehlt). Behelf in diesem Lauf:
+`pip install --user pypdf` (kein Homebrew nötig) für Textlayer-PDFs. Ein 26-seitiger echter
+Scan (`architekturgeschichte_begriffe_notizen.pdf`, 0 extrahierbare Zeichen) bleibt trotzdem
+ungelesen — offen in `wiki/QUESTIONS.md`. Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Architekturgeschichte.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` zeigt `45 0`). Kein
+Sperrlisten-Fund. P2 (rund 160 Dateien) bleibt vollständig offen. **Damit ist Sektion
+`02_Architekturgeschichte` für P1 vollständig destilliert — und damit ist die gesamte
+Trägerschicht-Tabelle (Zeilen 01-09) für P1 abgearbeitet.** Nächste Position gemäss
+Ertrag-Tabelle: `02_Kunst_Geschichte` (11 P1, sehr dünn im Verhältnis zu 27'649 gesichteten
+Dateien) — einzige verbliebene Trägerschicht-Zeile, danach folgt die Mittelschicht
+(P1 einstellig, angeführt von `02_Denkmalpflege`, bereits abgeschlossen, und
+`01_Staedtebau`, 8 P1, offen).

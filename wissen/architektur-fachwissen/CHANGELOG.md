@@ -1,5 +1,36 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Siebter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte` (Lane FACHWISSEN, Fortsetzung)
+
+Alle 11 P1-Dateien der Sektion `02_Architekturgeschichte` destilliert — damit ist die
+gesamte Trägerschicht-Tabelle (`wiki/INDEX.md` «Sektionen nach Ertrag», Zeilen 01-09) für
+P1 abgearbeitet. Vier Wiki-Artikel nach Sache statt Datei:
+
+- [[gebaeudeanalyse-raster-situation-volumetrie-grundriss-fassade]] (`emerging`) — Vier-
+  plus-eins-Analyseraster Situation/Volumetrie/Grundriss/Fassade/geschichtliche Einordnung,
+  aus der offiziellen ETH-Prüfungsaufgabe (Kolloquium), der Musteranalyse zu Sempers
+  ETH-Hauptgebäude und der Übungsanalyse Haus Steiger
+- [[fachglossar-historische-bauteile-kirchenbau-gotik]] (`speculative`, Einzelquelle) — 14
+  Kirchenbau-/Gotik-Begriffe mit Definition
+- [[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]] (`emerging`) —
+  Autonomie-These der Tessiner Tendenza und ihre Verschiebung zum Atmosphäre-Begriff
+  (Šik, Zumthor, H&dM-Naturgeschichte); nur der Tessin-Teil der Quelldatei, der
+  Archigram-Teil (S. 6-8) ist eine andere Sache und bleibt offen
+- [[objektliste-architekturgeschichte-datierungen-eth]] (`emerging`) — geprüfte
+  Architekten-Objektliste (Tönnesmann/Hildebrand), bestätigt den im Phase-0-Inventar
+  vermerkten Datierungsfehler im Semper-Portrait (Titel 1687-1753 falsch, korrekt 1803-1879)
+
+**Technischer Befund:** Auf Station MacBook Pro fehlen `pdftotext`/`poppler` und Homebrew
+vollständig. Textlayer-PDFs wurden über `pip install --user pypdf` ausgelesen (keine
+Systempakete nötig); ein reiner 26-seitiger Scan ohne Textlayer
+(`architekturgeschichte_begriffe_notizen.pdf`) blieb dadurch ungelesen — offen in
+`wiki/QUESTIONS.md` #48. Sperrlisten-Prüfung: kein Fund. P2 (rund 160 Dateien) bleibt
+vollständig offen. Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Architekturgeschichte.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. `KORPUS-QUEUE.md` nachgeführt. Nächste Position:
+`02_Kunst_Geschichte` (11 P1, sehr dünn im Verhältnis zu 27'649 gesichteten Dateien) —
+einzige verbliebene Trägerschicht-Zeile.
+
 ## 2026-08-29 — Sechster Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern` (Lane FACHWISSEN, Fortsetzung)
 
 Alle 13 P1-Positionen der Sektion `10_Protomodern` destilliert (nächste Position in der

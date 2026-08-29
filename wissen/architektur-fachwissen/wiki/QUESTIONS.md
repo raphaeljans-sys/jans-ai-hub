@@ -454,3 +454,32 @@ Fachlich gewichtige Quellen (Kollhoff zur Tektonik, Owen Jones zum Renaissance-O
 Uhde Band 4 Holzbau, Alberti aus dem Lampugnani-Quellentextband) bleiben ohne OCR
 unzugänglich. Kein Handlungsbedarf für den Abschluss der P1-Schicht, aber ein möglicher
 Kandidat für einen späteren OCR-Auftrag ausserhalb dieses Skills.
+
+## 260829 — Siebter Destillat-Lauf Korpus 4, Sektion `02_Architekturgeschichte`
+
+**#48 Werkzeuglücke auf Station MacBook Pro: kein `pdftotext`/`poppler`, kein Homebrew.**
+Weder `pdftotext` noch `poppler` (für Read-Tool-Seitenrendering von Scan-PDFs) sind auf
+dieser Station installiert, und `brew` fehlt ebenfalls (kein einfacher Nachrüstweg). Behelf
+in diesem Lauf: `python3 -m pip install --user pypdf` (nur Python-Bibliothek, kein
+Systempaket) für PDFs mit echtem Textlayer. Für reine Scans ohne Textlayer bleibt kein Weg
+offen. Betrifft potenziell jeden künftigen Lauf auf dieser Station, sobald ein Cluster
+überwiegend aus Scans besteht (wie hier `00_Begriffe/architekturgeschichte_begriffe_notizen.pdf`,
+26 Seiten, 0 extrahierbare Zeichen). Zu prüfen: ob die Mac-Mini-Station Homebrew/poppler
+bereits hat (dort laut `beispielanalyse_semper.pdf`-Notiz früherer Läufe wurde `pdftotext`
+bereits erfolgreich verwendet) — Scans dieser Art dort nachholen, oder Raphael um
+`brew install poppler` auf dem MacBook Pro bitten (reversible, rein lokale
+Werkzeug-Installation, kein Projekteingriff).
+
+**#49 Zweiter Teil von `ArchitekturVVI_Texte.pdf` (S. 6-8, Archigram/«Living City») nicht
+destilliert.** Andere Sache als der destillierte Tessin-/Autonomie-/Atmosphäre-Teil (siehe
+[[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]]): englische
+Pop-Architektur der 1960er Jahre, Situationisten-Begriff der Situation, Reyner Banham. Kein
+unmittelbarer JANS-Praxisbezug erkennbar, deshalb nicht als eigener P1-Artikel gewertet;
+bei einem künftigen Theorie- oder Ausstellungsauftrag als Fundstelle verfügbar.
+
+**#50 39 Architektenportraits in `01_Architektenportrait` nicht systematisch gegen die
+Objektliste geprüft.** Nur der bereits im Phase-0-Inventar aufgefallene Semper-Datierungsfehler
+wurde in [[objektliste-architekturgeschichte-datierungen-eth]] verifiziert. Ob weitere der 39
+Portraits ähnliche Fehler tragen, ist ungeklärt — kein P1, aber ein risikoarmer,
+schnell zu erledigender Folgeauftrag, sollte je ein Portrait wörtlich in ein Dokument
+übernommen werden.
