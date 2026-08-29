@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 01:48:13
+Stand: 29.08.2026 01:58:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 01:48:13
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 069243e48 nas-selfcommit: 4 Datei(en) 2026-08-29 01:45
+- b90d8d663 normen Run 65: Refuter-Runde SIA 416:2003 (51 Behauptungen, 1 widerlegt) + N64-5 via Kontrolltext d/f/i beantwortet
