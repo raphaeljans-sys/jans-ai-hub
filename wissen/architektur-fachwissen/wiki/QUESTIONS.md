@@ -4,6 +4,28 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260829 — Dreizehnter Destillat-Lauf Korpus 4, Sektion `00_Allgemein`
+
+Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion `00_Allgemein`,
+alle 3 P1-Dateien gelesen, zu zwei Wiki-Artikeln destilliert.
+
+**#53 Nummerierungsfehler in `15_Architekturvisualisierung` — Stichprobe, nicht
+flächendeckend geprüft.** `archiv-ordnerschluessel-24-hauptordner-strukturfotos.md` belegt für
+diesen einen Ordner einen Nummer/Inhalt-Widerspruch bei den Unterordnern 07-09 (zwei Ordner
+namens `07_Ornament_Muster`, `08_Polyrhythmik` und `09_Translokation` mit vertauschten/
+doppelten Unterordnern). Nicht geprüft: ob dieselbe Art Fehler in anderen der 24 Hauptordner
+vorkommt. Wer beantworten kann: jeder künftige Destillat-Lauf dieses Korpus, der einen der
+übrigen Hauptordner inventarisiert — bei Auffälligkeit hier nachtragen, nicht die Ordnerzahl
+aus dem Namen allein übernehmen.
+
+**#54 Dispatch-Loop-Muster erstmals für Lane FACHWISSEN belegt.** Der Auftrag dieses Laufs
+beschrieb einen Stand von vor mehreren Läufen (keine Spec, 2 Wiki-Artikel), obwohl
+`KORPUS-QUEUE.md` zu Laufbeginn bereits 118 Artikel und zwölf abgeschlossene Läufe auswies.
+Bereits bekanntes Problem bei den Lanes NORMEN-PRUEFSTAND, BAURECHT-THALWIL, GROBKOSTEN,
+SYNOBSIS (Claude-Memory `project_*-dispatch-loop.md`). Wer beantworten kann: Raphael/wer den
+Dispatcher betreibt — die Ursache liegt ausserhalb dieser KB, vermutlich ein veralteter
+Prompt-Cache oder eine nicht aktualisierte Auftragsvorlage je Lane.
+
 ## 260829 — Elfter Destillat-Lauf Korpus 4, Sektion `01_Landschaftsarchitektur`
 
 Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion

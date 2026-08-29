@@ -1,5 +1,27 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Vierzehnter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architektur_Vermitteln` (Lane FACHWISSEN, Fortsetzung)
+
+Alle drei P1-Dateien der Sektion `02_Architektur_Vermitteln` (Hochschulskripte HTA Luzern,
+Kontextmodul II, SS 06) vollständig gelesen (je 19 Seiten, Textextraktion `pypdf`) und zu drei
+Sach-Artikeln destilliert, alle `status: emerging`:
+
+- [[protokoll-methodik-sechs-protokollarten-sprachregeln]] — sechs Protokollarten mit
+  Beweiskraft, Protokollrahmen (Kopf/Schluss), Sprachregeln (Konjunktiv I/II in indirekter
+  Rede), Bezug zu `protokoll`/`pendenzenliste`
+- [[interne-externe-kommunikation-musterbriefe-mit-funktionsglossen]] — Mängelrüge-Dramaturgie
+  mit Erledigungsvorschlag, Offerten-Pflichtfelder, Beschwerdebrief-Muster, vier E-Mail-Regeln;
+  Bezug zu `unternehmerkontrolle`, `offertenpruefung`, Agent `email`
+- [[sitzungsmoderation-organonmodell-harvard-methode]] — Prozessschema Sachgespräche,
+  Diskussionsleitung mit Drei-Verwarnungen-Regel, Moderationsrolle als Dienstleistung,
+  Harvard-Methode vier Grundsätze inkl. der beiden im Skript benannten Grenzen
+
+P1 der Sektion damit vollständig, P2 (13 Positionen) bleibt bewusst offen. `raw/inventar/
+archiv-fachwissen__02_Architektur_Vermitteln.md` um Abschnitt `## Destillat-Fortschritt`
+ergänzt (append-only, `git diff --numstat` zeigt `11 0`). Kein neuer Sperrlisten-Fund — die im
+Phase-0-Inventar bereits als Personendaten-Risiko markierten studentischen Titelblätter (P3)
+bleiben gesperrt und wurden nicht geöffnet. `KORPUS-QUEUE.md` nachgeführt.
+
 ## 2026-08-29 — Dreizehnter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `00_Allgemein` (Lane FACHWISSEN, Fortsetzung)
 
 **Vorbemerkung zum Dispatch:** Der Auftrag dieses Laufs beschrieb einen veralteten

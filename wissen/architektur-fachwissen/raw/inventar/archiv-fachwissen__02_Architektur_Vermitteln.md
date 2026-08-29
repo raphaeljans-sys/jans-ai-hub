@@ -253,3 +253,14 @@ keine Normen, keine Ausschreibungsunterlagen. Wer diese Sektion nach Fachdaten d
 findet nichts. Ihr Wert liegt vollständig in der **Form der Vermittlung**: wie eine Sitzung
 geführt, ein Beschluss festgehalten, ein Mangel gerügt, ein Angebot gegliedert, eine
 Behauptung belegt und ein Bericht aufgebaut wird.
+
+## Destillat-Fortschritt
+
+- **29.08.2026 (Lane FACHWISSEN):** alle drei P1-Positionen destilliert, drei Wiki-Artikel:
+  `wiki/protokoll-methodik-sechs-protokollarten-sprachregeln.md`,
+  `wiki/interne-externe-kommunikation-musterbriefe-mit-funktionsglossen.md` und
+  `wiki/sitzungsmoderation-organonmodell-harvard-methode.md`. P1 dieser Sektion damit
+  **vollständig**. P2 (13 Positionen, u. a. Präsentationstechniken, Quellenregeln,
+  Dispositionsvorlagen, Fachwörterbuch für Baulaien) bleibt offen. Kein neuer
+  Datenschutz-Fund über den bereits im Phase-0-Inventar dokumentierten Stand hinaus (die
+  betroffenen studentischen Titelblätter bleiben P3/gesperrt).

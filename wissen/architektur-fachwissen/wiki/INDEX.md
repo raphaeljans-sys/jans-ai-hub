@@ -735,3 +735,42 @@ hinaus. **Damit ist Sektion `01_Tragwerk` für P1 vollständig destilliert** (P2
 (3 P1), danach `02_Architektur_Vermitteln` (3 P1, Datenschutz-Vorbehalt), `02_Bibliothek`
 (2 P1), `01_Innenarchitektur` (1 P1) — danach ist die gesamte Mittelschicht (Zeilen 10-22)
 für P1 abgearbeitet.
+
+**29.08.2026 (Lane FACHWISSEN, dreizehnter Destillat-Lauf, Fortsetzung).** `00_Allgemein`
+(3 P1) vollständig destilliert, zwei Wiki-Artikel:
+
+- [[fachsystematik-14-kapitel-gliederungsraster-jans]] — eigenes 14-Kapitel-Gliederungsraster
+  von Raphael Jans (2011), Kapitel 1 (Entwerfen) und 14 (Normen/Gesetze) am weitesten
+  ausgearbeitet, Vorwegnahme von `wissen/architekten-synobsis` unter Kapitel 6.4
+- [[archiv-ordnerschluessel-24-hauptordner-strukturfotos]] — die 24 Hauptordner (00-26,
+  Lücken 05/08/12) als Landkarte für die weitere Inventarisierung dieses Korpus, mit
+  belegtem Nummerierungsfehler-Fund bei den Unterordnern 07-09 von
+  `15_Architekturvisualisierung`
+
+Fortschritt in `raw/inventar/archiv-fachwissen__00_Allgemein.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Kein Sperrlisten-Fund (Sektion bereits im
+Phase-0-Inventar als unbedenklich geprüft). Der Auftrag dieses Laufs beschrieb fälschlich
+einen Stand ohne Spec/Destillat (Dispatch-Loop-Muster, s. `wiki/QUESTIONS.md` #54) — der
+Lauf hat sich stattdessen an dieser Tabelle orientiert. **Damit ist Sektion `00_Allgemein`
+für P1 vollständig destilliert** (P2, eine Position, bleibt offen). Nächste Position gemäss
+Ertrag-Tabelle: `02_Architektur_Vermitteln` (3 P1, Datenschutz-Vorbehalt), danach
+`02_Bibliothek` (2 P1), `01_Innenarchitektur` (1 P1) — danach ist die gesamte Mittelschicht
+(Zeilen 10-22) für P1 abgearbeitet.
+
+**29.08.2026 (Lane FACHWISSEN, vierzehnter Destillat-Lauf, Fortsetzung).**
+`02_Architektur_Vermitteln` (3 P1) vollständig destilliert, drei Wiki-Artikel:
+
+- [[protokoll-methodik-sechs-protokollarten-sprachregeln]] — sechs Protokollarten,
+  Protokollrahmen, Sprachregeln (Konjunktiv I/II)
+- [[interne-externe-kommunikation-musterbriefe-mit-funktionsglossen]] — Mängelrüge-Dramaturgie,
+  Offerten-Pflichtfelder, vier E-Mail-Regeln
+- [[sitzungsmoderation-organonmodell-harvard-methode]] — Prozessschema Sachgespräche,
+  Diskussionsleitung, Harvard-Methode
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Architektur_Vermitteln.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Der im Phase-0-Inventar angekündigte
+Datenschutz-Vorbehalt betrifft nur die P3-Titelblätter studentischer Musterarbeiten (weiterhin
+gesperrt), nicht die drei P1-Positionen selbst. **Damit ist Sektion `02_Architektur_Vermitteln`
+für P1 vollständig destilliert** (P2, 13 Positionen, bleibt offen). Nächste Position gemäss
+Ertrag-Tabelle: `02_Bibliothek` (2 P1), danach `01_Innenarchitektur` (1 P1) — danach ist die
+gesamte Mittelschicht (Zeilen 10-22) für P1 abgearbeitet.
