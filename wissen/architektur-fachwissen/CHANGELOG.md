@@ -1,5 +1,38 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Erster Destillat-Lauf Korpus `buero-referenzen`, Sektion `18_Projektkostenplanung` (Lane FACHWISSEN)
+
+Sieben Wiki-Artikel neu geschrieben, alle `status: emerging`, aus dem P1-Cluster
+Schulanlage Leutschenbach: `kostenermittlungskreislauf-genauigkeit-je-phase.md`,
+`sia-102-2003-phasenanteile-zwei-rechenwerke.md`, `kostenkennwerte-schulanlage-leutschenbach.md`,
+`honorarberechtigte-bausumme-anrechenbarkeit.md`,
+`kostenkontrolle-spaltenmodell-oeffentliche-bauherrschaft.md`, `baubeschrieb-als-kostentraeger.md`,
+`bemusterungsentscheid-kostenueberschreitung-praxisfall.md`. 14 von 16 P1-Positionen der
+Sektion destilliert (Fortschritt in `raw/inventar/buero-referenzen__18_Projektkostenplanung.md`
+Abschnitt «Destillat-Fortschritt», reiner Append). Zwei P1-Positionen bleiben offen
+(KV-Detailformvorbild, belegte Kostenschätzung Vorprojekt) — nächster Lauf beginnt dort.
+
+**Nachtrag selber Tag, Fortsetzung desselben Laufs:** die zwei offenen P1-Positionen
+nachgeliefert — `kv-detailausdruck-gliederungsstufen.md` (KV-Detailausdruck, fünf parallele
+Verdichtungsspalten, Objektteilung Schulhaus/Kindergarten) und
+`kostenschaetzung-vorprojekt-schaetzgrundlage-ausweisen.md` (Praxisregel: Schätzgrundlage
+je Kostengruppe als eigenes Feld ausweisen). Damit sind **alle 16 P1-Positionen der
+Sektion `18_Projektkostenplanung` destilliert, neun Wiki-Artikel insgesamt.** Sektion für
+P1 abgeschlossen; P2-Positionen (6) bleiben für einen späteren Lauf. `wiki/INDEX.md`
+nachgeführt.
+
+Anonymisierungsregel angewendet: `bemusterungsentscheid-kostenueberschreitung-praxisfall.md`
+nennt keine Unternehmerfirma und keine Gegenpartei-Betrag-Zuordnung, nur die
+Überschreitungs- und Aufpreisprozente/-kennwerte. BKP-Codes gegen
+`references/bkp-2017/BKP-2017-Liste.md` geprüft: `honorarberechtigte-bausumme-anrechenbarkeit.md`
+und `baubeschrieb-als-kostentraeger.md` warnen explizit vor den historischen Phantom-Codes
+019/071/80–81 (Erweiterung von `wiki/QUESTIONS.md` #3b um den neuen Befund 80–81, keine
+Übernahme als aktuelle BKP-2017-Referenz). Cross-KB-Abgleich gegen
+`wissen/wettbewerbs-dna/wiki/muster/kennwerte-schulbauten.md` und
+`wissen/grobkosten/wiki/kennwerte.md` durchgeführt: kein Widerspruch, die Leutschenbach-
+Kennwerte ergänzen beide Bestände, ohne sie zu ersetzen. `wiki/INDEX.md` (Artikelbestand,
+Sektion 02) nachgeführt.
+
 ## 2026-08-29 — Spec-Lauf Korpus `buero-referenzen` (Lane FACHWISSEN)
 
 `skills/wissens-destillat/specs/buero-referenzen-spec.md` neu geschrieben (Vorbild

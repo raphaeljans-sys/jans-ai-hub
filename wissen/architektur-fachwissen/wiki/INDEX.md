@@ -151,12 +151,15 @@ alle `status: emerging`, gemäss `specs/buero-referenzen-spec.md`:
 - [[baubeschrieb-als-kostentraeger]] — BKP-gegliederter Baubeschrieb, Grossbau und EFH
 - [[bemusterungsentscheid-kostenueberschreitung-praxisfall]] — anonymisierter Praxisfall
   Bodenbeläge
+- [[kv-detailausdruck-gliederungsstufen]] — KV-Detailausdruck: Gliederungsstufen und
+  Objektaufteilung
+- [[kostenschaetzung-vorprojekt-schaetzgrundlage-ausweisen]] — Kostenschätzung Vorprojekt:
+  Schätzgrundlage je Kostengruppe ausweisen
 
-**Sektion `18_Projektkostenplanung` (Zeile 02 oben) ist damit zu 14 von 16 P1-Positionen
-destilliert.** Offen: `KV_Zusammenstellung_Leutschenbach.pdf` (KV-Detailformvorbild) und
-die belegte Kostenschätzung Vorprojekt (`55927 KVnov KS SH/KIGA.pdf`) — Fortschritt und
-Begründung in `raw/inventar/buero-referenzen__18_Projektkostenplanung.md` Abschnitt
-«Destillat-Fortschritt». Nächster Lauf: diese zwei Restpositionen, danach gemäss Spec-Plan
-`10_Modellbauen`. Alle Beleg- und Anonymisierungsprüfungen (Unternehmernamen,
+**Sektion `18_Projektkostenplanung` (Zeile 02 oben) ist damit vollständig destilliert:
+alle 16 P1-Positionen, neun Wiki-Artikel.** Fortschritt und Begründung je Position in
+`raw/inventar/buero-referenzen__18_Projektkostenplanung.md` Abschnitt
+«Destillat-Fortschritt». Nächster Lauf: gemäss Spec-Plan `10_Modellbauen` (P1-Cluster
+Betonmodellbau-Rezepturen). Alle Beleg- und Anonymisierungsprüfungen (Unternehmernamen,
 BKP-2017-Abgleich) sind in den Artikeln selbst dokumentiert. Offene Fragen zu diesen
 Artikeln in `wiki/QUESTIONS.md`.

@@ -309,3 +309,13 @@ selbst) und `55927 KVnov KS SH.pdf` / `55927 KVnov KS KIGA.pdf` (belegte Kostens
 Vorprojekt mit Angabe der Schätzgrundlage je Kostengruppe — noch kein eigener Artikel zur
 Methodik "Kostenschätzung mit ausgewiesener Grundlage"). Nächster Lauf beginnt hier, bevor
 diese Sektion als abgeschlossen gilt.
+
+- 2026-08-29 (Fortsetzung selber Lauf, beide oben genannten Restpositionen nachgeliefert):
+  `KV_Zusammenstellung_Leutschenbach.pdf` → `wiki/kv-detailausdruck-gliederungsstufen.md`
+- 2026-08-29: `55927 KVnov KS SH.pdf` + `55927 KVnov KS KIGA.pdf` →
+  `wiki/kostenschaetzung-vorprojekt-schaetzgrundlage-ausweisen.md`
+
+**Nachtrag: Alle 16 P1-Positionen dieser Sektion sind damit destilliert (Stand
+29.08.2026).** Neun Wiki-Artikel insgesamt. P2-Positionen (6) bleiben für einen späteren
+Lauf offen, siehe Spec-Priorität P1 vor P2. Der «Offen»-Absatz oben ist damit
+gegenstandslos, bleibt aber stehen (Append-only-Regel dieser Sektion).

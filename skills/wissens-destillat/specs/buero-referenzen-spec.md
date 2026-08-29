@@ -191,9 +191,11 @@ vorhandenen Inventar auf, wird sie nicht eigenmächtig entfernt, sondern im Lauf
 
 ## Plan (nächste Läufe)
 
-- [ ] Erster Destillat-Lauf Phase 2 (Sonnet) auf `18_Projektkostenplanung` (P1-Cluster
+- [x] Erster Destillat-Lauf Phase 2 (Sonnet) auf `18_Projektkostenplanung` (P1-Cluster
       Kostenermittlungskreislauf) — Artikelschema- und Anonymisierungsregel oben zuerst auf
       diesen Cluster anwenden, da höchstes Risiko und höchster Ertrag zugleich.
+      **29.08.2026 vollständig erledigt: alle 16 P1-Positionen, neun Artikel** (siehe
+      CHANGELOG). Nächster Lauf geht direkt zu `10_Modellbauen` über.
 - [ ] Danach `10_Modellbauen`, `17_Projektbeschriebe`, `25_Wettbewerb`, `20_Rendering`
       (Reihenfolge nach `wiki/INDEX.md` «Sektionen nach Ertrag», vor jedem Lauf neu geprüft).
 - [ ] Kurator-Stufe (Opus) je Lauf gemäss SKILL.md Schritt 4, mit Zusatzprüfung Anonymisierung

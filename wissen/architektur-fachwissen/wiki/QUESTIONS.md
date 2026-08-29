@@ -67,6 +67,15 @@ jeder Code einzeln gegen die BKP-2017-Liste zu mappen — sachbezogen nach der b
 Leistung, nicht mechanisch (Rule `bkp-2017-referenz`, Korrektur 04.08.2026). Die Inventardateien
 selbst bleiben unangetastet (`raw/` wird nie editiert).
 
+> **Nachtrag Lane FACHWISSEN, 29.08.2026 (Destillat-Lauf `18_Projektkostenplanung`) — ein
+> dritter Phantom-Code.** Beim Schreiben von `wiki/honorarberechtigte-bausumme-anrechenbarkeit.md`
+> zusätzlich gegen `references/bkp-2017/BKP-2017-Liste.md` geprüft: Dieselbe BGS-Tabelle
+> (20.04.2005) führt auch **«80–81» für Norminventar**. Im BKP 2017 ist die Hauptgruppe 8
+> jedoch bewusst unbesetzt («Reserve», keine Untergruppen). Auch dieser Code ist also kein
+> gültiger BKP-2017-Verweis. Der neue Artikel führt deshalb primär die Kostengruppen-
+> Bezeichnung und das Anrechenbarkeits-Prinzip (100/70/50/0 %), die historischen Codes nur
+> als Beleg-Zitat mit Warnhinweis.
+
 
 **#3 Bibliografische Fundstelle der Genauigkeitstabelle.** Belegt ist die Buchseite 148 mit
 Abb. 8.4 «Kostenermittlungskreislauf» und der Kurzbeleg «PM Ruosch Brandenberger» aus dem
