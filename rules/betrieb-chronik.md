@@ -84,6 +84,30 @@ ist der zugehoerige Messwert im Schlussbericht neu zu erheben — nicht zu zitie
 Sachbefund hat das keinen Einfluss: in allen drei Laeufen wurde **null** Drosselung gemessen,
 das Netzteil war ohnehin nie die Ursache des Stockens.
 
+**Nachtrag 260829, 12:55 — GELOEST, und der Schluss «Ursache beim Anbieter» war zu kurz
+gegriffen.** Die Lieferluecken des Anbieters sind real, aber sie waren nur die halbe Ursache.
+Die andere Haelfte war der **Puffer der App**: «IPTV Streamer» faehrt VLCKit auf Werkseinstellung
+(rund 1 s) und bietet dafuer keinen Schalter. Ein Ein-Sekunden-Puffer gegen Ein- bis
+Zwei-Sekunden-Luecken heisst, dass jede Luecke durchschlaegt. **Wer nur die Quelle anschaut,
+haelt ein loesbares Problem faelschlich fuer fremdverschuldet.**
+
+Loesung, ohne Neuinstallation: das bereits vorhandene **GSE SMART IPTV** (mpv/FFmpeg) hat einen
+Cache, der auf 10 s vorkonfiguriert, aber **abgeschaltet** war. Eingeschaltet ueber
+`NSDEFAULT_USECACHEMAIN = 1` (Einstellungen, Players, Main player). Zusaetzlich nutzt GSE
+`player_api` statt `get.php` und umgeht damit den 504-Timeout des Anbieters.
+Gegenmessung am selben Sender (Sky Bundesliga), 90 s: **0 Aussetzer, Minimum 4,90 Mbit/s,
+Median 7,82, 0 Retransmits** — gegenueber 8 bzw. 14 Aussetzern in 150 s mit Minimum 0,00 Mbit/s
+in der alten App. VLC wurde ergaenzend von 1000/1500 auf 5000 ms gestellt.
+
+**Methodisch drittes Mal dieselbe Lehre an einem Tag:** ein auffaelliges Muster zuerst am
+Instrument pruefen. Die HLS-Messung sah mit 26 stillen von 30 Sekunden nach Totalausfall aus und
+war das genaue Gegenteil (Segmente auf Vorrat); der erste Sky-Test lief unbemerkt auf einen
+Sender in Sendepause und war damit als Belastungstest wertlos, bis er auf Live-Bild wiederholt
+wurde. Ausserdem: die drei GUI-Apps (IPTV Streamer, GSE) nehmen **keine** `System Events`-Klicks
+zum Navigieren an; ein echter Doppelklick braucht `CGEvent` mit `mouseEventClickState` — dafuer
+liegt ein 20-Zeilen-Swift-Helfer im Scratchpad, der bei kuenftiger GUI-Automatisierung auf
+Catalyst-Apps Zeit spart.
+
 **Offen (kein Hub-Thema, Raphaels Entscheid):** WLAN-Kanal 124 ist ein DFS-Kanal (Radar
 erzwingt Kanalwechsel, in 2 h Log ohne Ereignis); Router meldet Laendercode NL an einem
 Schweizer Anschluss. Messdaten und Script:
