@@ -161,3 +161,12 @@ weitergeleitet, nicht hier fündig.
 - Die Bildquellen tragen ihren Inhalt ohne Textebene. Wer sie maschinell weiterverarbeiten will,
   braucht OCR oder eine Bildansicht; `pdftotext` liefert bei der Visualisierungs-PDF eine leere
   Ausgabe, was hier eine Aussage über das Werkzeug ist und nicht über die Quelle.
+
+## Destillat-Fortschritt
+
+- **29.08.2026 (Lane FACHWISSEN):** alle drei P1-Positionen destilliert, zwei Wiki-Artikel:
+  `wiki/fachsystematik-14-kapitel-gliederungsraster-jans.md` (DOCX-Konzept, 14-Kapitel-Systematik)
+  und `wiki/archiv-ordnerschluessel-24-hauptordner-strukturfotos.md` (beide Strukturfotos, inkl.
+  Fund eines Nummerierungsfehlers bei den Unterordnern 07–09 von `15_Architekturvisualisierung`).
+  P1 dieser Sektion damit **vollständig**. P2 (`110220_Idee_Inhaltverzeichnis.pdf`) bleibt offen,
+  nur als Datierungs-/Belegfassung relevant, kein eigener Destillationsbedarf.

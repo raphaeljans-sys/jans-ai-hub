@@ -1,5 +1,34 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Dreizehnter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `00_Allgemein` (Lane FACHWISSEN, Fortsetzung)
+
+**Vorbemerkung zum Dispatch:** Der Auftrag dieses Laufs beschrieb einen veralteten
+Ausgangszustand (angeblich noch keine Spec, nur 2 Wiki-Artikel, 43 Inventardateien ohne
+Destillat) — tatsächlich lagen zu Laufbeginn bereits beide Korpus-Specs, 118 Wiki-Artikel und
+zwölf abgeschlossene Destillat-Läufe vor (`KORPUS-QUEUE.md`). Gleiches Dispatch-Loop-Muster wie
+bei den Lanes NORMEN-PRUEFSTAND, BAURECHT-THALWIL, GROBKOSTEN und SYNOBSIS (Memory
+`project_*-dispatch-loop.md`); hier erstmals für Lane FACHWISSEN dokumentiert. Der Lauf hat
+sich am tatsächlichen `KORPUS-QUEUE.md`-Stand orientiert und dort fortgesetzt, wo der zwölfte
+Lauf endete: Sektion `00_Allgemein`.
+
+Alle drei P1-Positionen der Sektion `00_Allgemein` (Meta-Ebene des gesamten Archivs: Konzeptpapier
+plus Strukturfotos, 2007-2011) gelesen und zu zwei Sach-Artikeln destilliert, beide
+`status: emerging`:
+
+- [[fachsystematik-14-kapitel-gliederungsraster-jans]] — eigenes vierzehnteiliges
+  Gliederungsraster des architektonischen Fachwissens von Raphael Jans (2011), Kapitel 1
+  Entwerfen und Kapitel 14 Normen/Gesetze am weitesten ausgearbeitet; Vorwegnahme von
+  `wissen/architekten-synobsis` unter Kapitel 6.4.
+- [[archiv-ordnerschluessel-24-hauptordner-strukturfotos]] — die 24 Hauptordner (00-26,
+  Lücken bei 05/08/12) als Landkarte für die weitere Inventarisierung dieses Korpus, mit
+  belegtem Fund eines Nummerierungsfehlers bei den Unterordnern 07-09 von
+  `15_Architekturvisualisierung` (Ordnernummer und Inhalt stimmen dort nicht überein).
+
+P1 der Sektion damit vollständig, P2 (eine Datei) bleibt bewusst offen. `raw/inventar/
+archiv-fachwissen__00_Allgemein.md` um Abschnitt `## Destillat-Fortschritt` ergänzt (append-only,
+`git diff --numstat` zeigt `9 0`). Keine Sperrlisten-Funde (Vertrag/Bewerbung/Adress-/Lohndaten) —
+Sektion war bereits im Inventar als unbedenklich geprüft. `KORPUS-QUEUE.md` nachgeführt.
+
 ## 2026-08-29 — Zwölfter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Tragwerk` (Lane FACHWISSEN, Fortsetzung)
 
 Alle vier P1-Dateien der Sektion `01_Tragwerk` (Arbeitsbestand Assistenz bei
