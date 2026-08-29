@@ -209,3 +209,168 @@ Monitoring-Dokument. Wer eine solche Zahl nennt, nennt eine Schaetzung.
 [[pv-ertrag-eigenverbrauch-praxis]] · Batteriespeicher [[batteriespeicher-heimspeicher-pv-ch]] ·
 EVG/Solarsplit-Abgrenzung (Areal mit getrennten Anschlusspunkten) [[evg-eigenverbrauchsgemeinschaft-solarsplit]] ·
 Energierecht → Skill `baurecht`.
+
+## Nachtrag 2026-08-29 (Run 167): Amtliche Begleitdokumente des Bundes — Speicher-Messkonzepte amtlich geklärt, ElCom widerspricht einer VSE-Vorgabe
+
+**Auftrag:** Begleitdokument-Prüfung zur LEG — amtliche Erläuternde Berichte des BFE zur StromVV,
+ElCom-Weisungen/-FAQ, neuere VSE-Fassung, Schliessung des offenen Punkts «Speicher-Messkonzepte
+BD-LEG Kapitel 8». Geprüfte Quellen mit URL/Status siehe Abschnitt «Geprüft» am Ende.
+
+### 01 Der amtliche Erläuternde Bericht des BFE (nicht die VSE-Branchenempfehlung) schliesst den
+offenen Punkt zu den Speicher-Messkonzepten
+
+Quelle: **UVEK/BFE, «Bundesgesetz über eine sichere Stromversorgung mit erneuerbaren Energien:
+Änderung der Stromversorgungsverordnung mit Inkrafttreten am 1. Januar 2026 — Erläuternder
+Bericht», 19. Februar 2025** (https://www.newsd.admin.ch/newsd/message/attachments/91799.pdf,
+per curl/pdftotext vollständig lokal gelesen, 40 Seiten). Dies ist der **amtliche** Bericht des Bundesrats
+zum zweiten Verordnungspaket, das die LEG per 1.1.2026 einführt — eine Stufe höher als die
+VSE-Branchenempfehlung, auf die sich das Destillat bisher zu den Speicher-Messkonzepten stützte
+(dort nur über den Sekundärzitat-Umweg Batteriemonitor 2026).
+
+Der Bericht enthält unter dem Titel **«Spezialfall: Rückerstattung für Speicher in einer lokalen
+Elektrizitätsgemeinschaft (LEG)»** (S. 14-16) vier durchgerechnete Fallbeispiele mit Tabellen (Zeitpunkt
+T1/T2, wörtlich zitiert):
+
+- **Fall 1 — Speicherung von Strom innerhalb einer LEG:** Lädt ein Speicher mit Endverbrauch
+  ausschliesslich mit LEG-eigener Produktion (Beispiel: 5 kWh PV-Strom von Mitglied A um T1), zahlt er
+  beim Laden den reduzierten **LEG-Tarif (T_LEG)**; speist er später (T2) zurück, erhält er die
+  Rückerstattung zum **T_Rückerstattung-LEG**. Formel wörtlich: **«T_Rückerstattung-LEG =
+  T_Rückerstattung × (100 % − %LEG-Rabatt)/100.»**
+- **Fall 2 — Speicherung von Strom ausserhalb einer LEG:** Lädt derselbe Speicher mit reinem
+  Netzstrom (z.B. Nachtladung ohne LEG-Produktion), zahlt er beim Laden den **vollen Netztarif
+  (T_Netz)** — bei der späteren Rückspeisung erhält er **trotzdem** die Rückerstattung zum
+  LEG-Rabatt-Tarif, weil Art. 19g Abs. 4 Bst. a StromVV **jede** Rückspeisung aus einem
+  LEG-Speicher als «selbst erzeugt» gelten lässt, unabhängig von der Ladequelle.
+- **Fall 3 (Mischform):** Reicht die LEG-Produktion nicht für die Ladung, wird beim Laden anteilig
+  T_Netz und T_LEG verrechnet (Rechenbeispiel: 3 kWh × T_Netz + 2 kWh × T_LEG); bei der
+  Rückspeisung wird **stets** der reduzierte LEG-Tarif angewendet, auch für den Anteil, der eigentlich
+  zum vollen Tarif zurückerstattet werden müsste — ausdrücklich als Vereinfachung benannt, mit dem
+  Hinweis, dass ein Laden aus dem Netz aus technischen Gründen (Batteriemanagement,
+  Prognosefehler) nicht immer verhinderbar ist, ein **systematisches** Laden aus dem Netz und
+  Rückspeisen in die LEG aber untersagt bleibt (Art. 19h Abs. 4 StromVV).
+- **Fall 4 — Reiner Speicher (ohne Endverbrauch):** Zahlt gemäss Art. 14a Abs. 1 Bst. b StromVG
+  von vornherein **kein** Netznutzungsentgelt; bezieht ein LEG-Mitglied von ihm Strom, gilt der
+  LEG-Tarif; speist der reine Speicher selbst ins Netz zurück, hat er **keinen** Anspruch auf
+  Rückerstattung (es gibt nichts zurückzuerstatten).
+
+**Bilanz-Bedingung und Sanktion, amtlich (S. 36):** Ein Speicher darf «pro Abrechnungsperiode in
+Summe grundsätzlich nicht mehr Elektrizität in die LEG einspeisen, als aus der LEG bezogen wurde»;
+für den übersteigenden Teil entfällt der Abschlag. Bei **systematischer** Verletzung kann die ElCom
+«gestützt auf Artikel 22 StromVG und auf Antrag des betroffenen Verteilnetzbetreibers» den Speicher
+«unter Strafandrohung» zur Unterlassung auffordern und «gegebenenfalls anschliessend dauerhaft vom
+Anspruch auf den Abschlag … ausschliessen» — eine schärfere, amtlich belegte Formulierung als die
+bisher im Destillat stehende Kurzfassung.
+
+**Wichtig für die Zitierpraxis:** Der Bericht selbst verweist die technische Detailumsetzung ausdrücklich
+an die Branche («Die weitere konkrete Umsetzung wird durch die Branchenrichtlinien geregelt», S. 15) —
+die VSE-Branchenempfehlung BD-LEG bleibt also die **operative** Zusatzquelle, ist aber nicht mehr die
+einzige Quelle für die Grundmechanik; die Fallmatrix oben ist amtlich, nicht nur Branchenpraxis.
+
+Bestätigt und mit exakter Fundstelle unterlegt durch eine **zweite amtliche Quelle**: ElCom-Fachsekretariat,
+FAQ ES2050 (siehe 02), Frage 9.1, zitiert wörtlich denselben Bericht («vgl. Erläuternder Bericht StromVV
+ab 1. Januar 2026, S. 16» und «S. 36») und bestätigt: «Die Nutzung von Speichern innerhalb einer LEG
+ist somit zulässig, soweit Bezug und Absatz innerhalb einer LEG über eine Abrechnungsperiode … aus-
+geglichen ist. Mit Speichern sollen nach dem Willen des Gesetzgebers folglich keine Arbitragegeschäfte
+(günstiger Einkauf ausserhalb LEG und teurer Wiederverkauf innerhalb LEG) getätigt werden dürfen.»
+
+### 02 ElCom-Fachsekretariat widerspricht einer VSE-Vorgabe der Branchenempfehlung (Netzebenen)
+
+Quelle: **ElCom Fachsekretariat, «Fragen und Antworten zur Energiestrategie 2050 (insb. Bundesgesetz
+über eine sichere Stromversorgung mit erneuerbaren Energien … [Mantelerlass/Stromgesetz])», Stand
+4. März 2025 / Update vom 16. Juni 2026**, Kapitel 9 «Lokale Elektrizitätsgemeinschaften (LEG)», S. 41-45
+(https://www.elcom.admin.ch/dam/de/sd-web/weRgj22ICsTE/FAQ%20ES2050%20ab%20Mantelerlass_DE.pdf,
+per curl/pdftotext vollständig lokal gelesen, 51 Seiten). Dies ist das amtliche ElCom-FAQ zur LEG, laufend
+aktualisiert (Updates 25.03./20.05./17.06./30.09./02.12.2025, 16.06.2026) — genau das im Auftrag gesuchte
+Behörden-Dokument.
+
+**Materieller Befund, Frage 9.2 (Update 30.09.2025):** Eine LEG darf die Netzebene 5 mitbenutzen, auch
+wenn NE 5 und NE 7 von **unterschiedlichen** Netzbetreibern betrieben werden — sofern die übrigen
+gesetzlichen Voraussetzungen erfüllt sind. Das Fachsekretariat stellt dazu ausdrücklich fest: «Gemäss
+Ziffer 4.1 (3) c) der Branchenempfehlung ‹Lokale Elektrizitätsgemeinschaften (LEG)› (BD LEG-CH 2025)
+müssen alle für den Stromaustausch innerhalb der LEG verwendeten Netzebenen und Netzanlagen vom
+gleichen Verteilnetzbetreiber betrieben werden. Für diese Anforderung gibt es nach Auffassung des
+Fachsekretariates keine gesetzliche Grundlage. Deshalb erachtet das Fachsekretariat diese Ziffer als
+nicht mit der Stromversorgungsgesetzgebung vereinbar.» Das Fachsekretariat verweist zur Einordnung
+auf seine Praxis-Regel: Branchendokumente des VSE werden von der ElCom nur angewendet, «wenn
+sich die darin enthaltene Lösung als sachgerecht erweist und mit der Stromversorgungsgesetzgebung
+vereinbar ist» (Mitteilung ElCom vom 1.2.2010 zur Rechtsnatur von Richtlinien und Branchendokumenten).
+**Praxisfolge für JANS:** Die VSE-Branchenempfehlung BD-LEG ist ein Richtlinien-Dokument mit
+Vermutungswirkung, aber **keine abschliessende Rechtsquelle** — bei einer Netzebenen-Konstellation
+mit zwei Netzbetreibern (NE5 fremd, NE7 eigen) ist die ElCom-Auffassung amtlich massgeblicher als
+Ziff. 4.1(3)c BD-LEG, und die Gründung darf nicht allein wegen dieser VSE-Ziffer verweigert werden.
+
+### 03 Sechs weitere amtliche Klärungen aus demselben ElCom-FAQ (Kapitel 9), praxisrelevant
+
+- **9.3 (Update 30.09.2025/16.06.2026) Gemeindezugehörigkeit strikt nach Hausanschlusspunkt:**
+  Kreuzt die Anschlussleitung eines Endverbrauchers oder einer Erzeugungsanlage eine Gemeindegrenze,
+  ist die LEG-Teilnahme **vollständig ausgeschlossen** — weder in der Standort- noch in der
+  Netzanschluss-Gemeinde, auch wenn der Gesetzgeber laut Verhandlungsprotokoll (AB 2023 N 1488 und
+  1498) wusste, dass Gemeindegrenzen nicht der Netztopologie folgen.
+- **9.4 (Update 30.09.2025) Kein Messtarif-Rabatt:** Der Abschlag gilt ausschliesslich auf dem
+  Netznutzungstarif (Art. 17d Abs. 3 Satz 2 StromVG), **nicht** auf dem Messtarif — Bauherren dürfen
+  den LEG-Vorteil nicht zusätzlich auf die Messkosten hochrechnen.
+- **9.5 (Update 30.09.2025) Schuldner Messentgelt:** Schuldner sind die einzelnen Endverbraucher; ob
+  dem einzelnen Teilnehmer oder konsolidiert der LEG in Rechnung gestellt wird, ist zwischen VNB und
+  LEG vertraglich frei vereinbar (Art. 17e Abs. 6 StromVG).
+- **9.6 (Update 02.12.2025) Keine Leistungsreduktion bei ZEV-Doppelnutzung:** Für die 5-%-Mindestquote
+  zählt die **volle** Anlagenleistung einer Produktionsanlage, auch wenn ein Teil ihrer Leistung bereits
+  einem ZEV zur Verfügung steht — eine anteilige Anrechnung «lässt sich aus den Bestimmungen … nicht
+  ableiten». Relevant für Bauherren, die eine bestehende ZEV-PV-Anlage zusätzlich in eine LEG einbringen
+  wollen: kein Bonus/Malus wegen der ZEV-Doppelnutzung bei der Mindestquote.
+- **9.7 (Update 16.06.2026) Prosumer kann Rollen auf zwei LEG aufteilen:** Ein Endverbraucher mit
+  eigener Erzeugungsanlage muss nicht zwingend auch als Erzeuger an derselben LEG teilnehmen — er
+  kann als Verbraucher in einer LEG und mit seiner Produktion in einer anderen LEG teilnehmen (Trennung
+  über zwei Messpunktbezeichnungen gemäss VSE Metering Code MC-CH 2025 Ziff. 4.2.4).
+- **9.8 (Update 16.06.2026) Virtuelle Lastgangdaten sind für die LEG gratis:** Der VNB muss der LEG
+  bzw. ihrem Vertreter die von ihm berechneten «virtuellen Lastgangdaten» (Anteil LEG-intern
+  abgesetzter Strom) unentgeltlich zur Verfügung stellen — es handelt sich um ohnehin geschuldete
+  Ermittlungen nach Art. 19g Abs. 4-6 StromVV, keine kostenpflichtige Zusatzleistung nach Art. 8 Abs. 4
+  StromVV.
+
+### 04 Chronologie-Hinweis: die Vernehmlassungsvorlage vom 21.02.2024 nannte noch 30 %/15 %
+
+Beim Absuchen der BFE-Publikationsdatenbank (pubdb.bfe.admin.ch) taucht ein **früherer** Erläuternder
+Bericht auf: UVEK/BFE, Vernehmlassungsvorlage vom **21. Februar 2024**
+(https://pubdb.bfe.admin.ch/de/publication/download/11641, HTTP 200, 42 Seiten, lokal gelesen). Dort
+lauten die Entwurfs-Abschläge noch **30 % (Standard) bzw. 15 % (mit Transformation)**, mit einer vom
+Bundesrat vorbehaltenen Kappung auf maximal 60 %. Diese Zahlen sind durch die definitive Fassung
+(Erläuternder Bericht 19.02.2025, siehe 01/02, und der bereits am 24.08.2026 verifizierte Art. 19h StromVV
+selbst) auf **40 %/20 %** angehoben worden. **Reiner Hinweis, keine Korrektur am Destillat:** die
+40/20-%-Werte im Destillat sind und bleiben korrekt — dieser Absatz dokumentiert nur, dass eine ältere
+Fassung mit abweichenden Zahlen amtlich im Netz auffindbar ist und nicht verwechselt werden darf, falls
+sie in einer künftigen Recherche erneut auftaucht.
+
+### Geprüft (mit URL/Status)
+
+- BFE-Publikationsdatenbank pubdb.bfe.admin.ch, Suchbegriffe «Erläuternder Bericht StromVV lokale
+  Elektrizitätsgemeinschaften», «Änderung der Stromversorgungsverordnung Erläuternder Bericht» → drei
+  Treffer geprüft: Download 11641 (Vernehmlassung 21.02.2024, HTTP 200, LEG-Entwurf mit 30/15 %),
+  Download 11930 (Bericht 20.11.2024 zum Paket 1.1.2025, HTTP 200, **enthält keine LEG-Bestimmungen**
+  — falsches Paket, Negativbefund), sowie über Websuche gefunden und direkt beim UVEK abgerufen:
+  newsd.admin.ch/newsd/message/attachments/91799.pdf (Bericht 19.02.2025 zum Paket 1.1.2026, HTTP
+  200, **die massgebliche Quelle**, siehe 01).
+- ElCom elcom.admin.ch, Suchbegriffe «ElCom Weisung lokale Elektrizitätsgemeinschaft», «ElCom
+  Faktenblatt LEG» → keine eigenständige LEG-Weisung/-Faktenblatt gefunden; stattdessen das laufend
+  aktualisierte FAQ-Dokument «Fragen und Antworten zur Energiestrategie 2050» mit eigenem
+  LEG-Kapitel 9 identifiziert und vollständig gelesen (siehe 02/03). Die von ElCom im Mai 2025
+  angepasste «Weisung 5/2025» (transparente/vergleichbare Rechnungsstellung,
+  elcom.admin.ch/dam/de/sd-web/8Lka4EnFxeem/5-2025-transparente-vergleichbare-rechnungsstellung.pdf)
+  wurde per Suchtreffer identifiziert, aber nicht im Volltext gegen LEG-spezifische Inhalte geprüft —
+  bleibt offen (siehe unten).
+- VSE strom.ch, Suchbegriff «BD LEG V3 2026» → **Fehlanzeige**, keine Version 3 auffindbar; alle
+  Treffer (strom.ch/de/media/15458, swissolar.ch, clients.eseassets.ch) verweisen auf dieselbe «BD LEG
+  – CH 2025 V2», identisch mit dem am 24.08.2026 bereits verifizierten Stand. Kein Änderungsbedarf.
+- BD-LEG-PDF selbst (strom.ch/de/media/15458/download) wurde in diesem Lauf **nicht erneut**
+  heruntergeladen, da der amtliche Erläuternde Bericht (01) den offenen Punkt bereits mit einer
+  amtlich höherrangigen Quelle schliesst; ein Seitenabgleich mit BD-LEG Kapitel 8 selbst bleibt ein
+  optionaler, nicht mehr kritischer Nice-to-have.
+
+### Offen (neu, nach diesem Lauf)
+
+- **Weisung 5/2025 der ElCom** (Rechnungsstellung) wurde nur über die Suchtrefferbeschreibung
+  identifiziert, nicht im Volltext auf LEG-spezifische Rechnungsstellungspflichten geprüft — nächster
+  Schritt: PDF laden und auf LEG-Bezug (Rechnungsstellung des VNB an Teilnehmer/Vertreter) durchsuchen.
+- **BD-LEG Kapitel 8 im Originalwortlaut** ist weiterhin nicht Wort für Wort mit dem amtlichen
+  Erläuternden Bericht abgeglichen (nur die amtliche Quelle wurde in diesem Lauf gelesen) — falls die
+  VSE-Formulierung in Einzelheiten von der amtlichen Fallmatrix abweicht, wäre das ein Fund für einen
+  künftigen Lauf; aktuell besteht dafür kein Hinweis.

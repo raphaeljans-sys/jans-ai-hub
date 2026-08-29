@@ -10,7 +10,7 @@ sources:
   - "wissen/energie/destillate/muken-2025-anhang-1-3-uwert-heizwaermebedarf.md (Run 2026-07-17) — hatte den Transkriptionsfehler in Tabelle 5 sowie den falschen Frontmatter-Jahrgang (2009 statt 2016 als SIA-Basis) bereits identifiziert und dokumentiert; diese Korrektur setzt die dort empfohlene Bereinigung um"
   - "Adversarial-Verify Runde 2 (2026-07-23): Kanton Luzern, Kantonale Energieverordnung (KEnV), Anhang 1-3 (Dokument Nr. 774-A1), Amt fuer Umwelt und Energie Luzern — uwe.lu.ch/-/media/UWE/Dokumente/Themen/Energie/Energiegesetz_EnG/Anhang_KEnV.pdf, per curl+pdftoppm (Tabellen liegen als Bildgrafik vor) gegengeprueft 2026-07-23 — unabhaengige vierte Quelle (kantonale Rechtsnorm statt Vollzugs-/Software-Sekundaerdokument), Tabelle 2/3/4/5 UND Anhang 3 (Q_H,li) zahlengleich"
   - "Ausgabedatum-Korrektur (2026-08-24): Kanton Schaffhausen, Baudepartement Energiefachstelle, Sammel-PDF «Register 2 Gebaeudehuelle» (sh.ch/CMS/get/file/31530027-6467-41e2-9546-311c53380766), enthaelt die vollstaendige Vollzugshilfe EN-102 als eigenstaendiges Kapitel S. 4-21. Zwei voneinander unabhaengige Belege in derselben Datei: (1) die einleitende Registerseite S. 1 listet alle fuenf Dokumente des Registers mit exaktem Ausgabedatum je Titel — EN-102 «Waermeschutz von Gebaeuden» Januar 2020, EN-112 «Kuehlraeume» Dezember 2018, EN-131/132 Juni 2017 — (2) die Fusszeile jeder einzelnen EN-102-Seite (S. 4-21) traegt durchgehend «Ausgabe Januar 2020 (Basis: Norm SIA 380/1, Ausgabe 2016)». Die PDF-Metadaten (Title: Vollzugshilfe EN-102, CreationDate 2020-02-20) stuetzen das Datum zusaetzlich. Tabelle 2 (U-Werte inkl. Storenkasten 0,50/0,50) ist zahlengleich mit dem bisherigen Destillat-Stand — die Werte selbst waren nie falsch, nur das Ausgabedatum im Frontmatter"
-last_updated: "2026-08-24 (zweiter Lauf desselben Tages: Editionsklaerung Dez. 2018 ↔ Jan. 2020 am Volltext-Diff, Revisionsindex gefunden, Zahlengleichheit aller Grenzwert-Tabellen belegt)"
+last_updated: "2026-08-29 (Run 167: EN-100-Querverweis-Vollzugshilfe gefunden — EN-102 existiert offiziell in zwei Normbasis-Versionen SIA 380/1:2009 UND 2016; die 2009-Basis-Version primaerquellen-verifiziert, Herkunft des am 2026-07-17 korrigierten 'Transkriptionsfehlers' geklaert; MuKEn-2025-Vollzugshilfen weiterhin nicht publiziert, Terminhinweis 2027/2028 aus MuKEn-2025-Originaltext ergaenzt). Vorher: 2026-08-24 (zweiter Lauf desselben Tages: Editionsklaerung Dez. 2018 ↔ Jan. 2020 am Volltext-Diff, Revisionsindex gefunden, Zahlengleichheit aller Grenzwert-Tabellen belegt)"
 ---
 
 # EN-102 «Waermeschutz von Gebaeuden» (EnFK, Jan 2020)
@@ -220,3 +220,142 @@ die künftige Ablösung, nicht den heutigen Stand.
 **Familien-Trennung beachten:** Die Nummer EN-102 trägt auch ein **Nachweisformular** (EN-102a/b/c,
 Versionen August 2020 / Oktober 2018 / Juni 2023, gültig bis 31.12.2026). Das ist ein anderes Dokument
 als diese Vollzugshilfe. Erhebung und Tabelle: `[[enfk-nachweisformulare-gueltigkeit-2026]]`.
+
+## Nachtrag 2026-08-29 (Run 167): Begleitdokument-Prüfung — EN-102 existiert offiziell in ZWEI Normbasis-Versionen, Herkunft des früheren "Transkriptionsfehlers" geklärt, MuKEn-2025-Vollzugshilfen weiterhin nicht publiziert
+
+**Auftrag:** gezielt nach bisher unerfassten Begleitdokumenten der EnFK zu EN-102 suchen (neuere
+Ausgabe, MuKEn-2025-Anpassung, Änderungsprotokolle, FAQ, Rechenhilfen, Verweise innerhalb der
+Quelle selbst). Methode: WebSearch + WebFetch auf endk.ch/energiehub-gebaeude.ch, alle gefundenen
+PDFs zusätzlich per `curl` geladen und mit `/opt/homebrew/bin/pdftotext -layout` UND `pdfinfo`
+selbst geprüft (WebFetch-Zusammenfassungen wurden dabei NICHT ungeprüft übernommen, siehe Fund 3).
+
+**Geprüft (URL + Status):**
+- `https://energiehub-gebaeude.ch/fachleute/vollzugshilfen/` — HTTP 200 (WebFetch), zwei Kategorien
+  (EN-1 bis EN-16 MuKEn 2008 / EN-100 bis EN-142 MuKEn 2014), **kein MuKEn-2025-Vollzugshilfen-Satz**
+- `https://energiehub-gebaeude.ch/fachleute/vollzugshilfen/en-100-bis-en-142-muken-2014/` — HTTP 200
+- `https://energiehub-gebaeude.ch/ergaenzende-unterlagen-zu-vollzugshilfen/` — HTTP 200, kein
+  EN-102-Bezug
+- `https://energiehub-gebaeude.ch/fachleute/hilfsmittel/` — HTTP 200, kein EN-102/U-Wert-Excel-Tool
+  ausser dem bereits als Fensterblatt-Anhang bekannten Fenstertool
+- `https://energiehub-gebaeude.ch/faqs/` — HTTP 200, keine FAQ zu EN-102/Wärmeschutz/U-Wert
+- `https://energiehub-gebaeude.ch/energiepolitik-der-kantone/muken-2025/` — HTTP 200, kein Datum/
+  keine Ankündigung zur EN-Vollzugshilfen-Revision
+- `https://energiehub-gebaeude.ch/wp-content/uploads/2023/02/EN-100-d_VernkuepfungenVollzugshilfenSIA_2018Dez.pdf`
+  — HTTP 200, 718'083 B, per curl geladen und volltext-gelesen (pdftotext -layout)
+- `https://energiehub-gebaeude.ch/wp-content/uploads/2023/02/EN-102-d_Waermeschutz_3801_2009_2020Jan.pdf`
+  — HTTP 200, 326'778 B, per curl geladen, volltext-gelesen und mit `pdfinfo` geprüft
+- `https://endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf` (amtliche Fassung, bereits
+  aus Frontmatter `muken-2025-verabschiedet.md` bekannt) — HTTP 200, erneut per curl+pdftotext
+  gelesen, gezielt nach Terminplan-Aussagen zur Normen-Abstimmung durchsucht
+
+**Fund 1 — EN-102 ist offiziell ZWEI parallele Vollzugshilfen, nicht eine mit zwei Ausgaben.**
+Die EnFK-eigene Querverweis-Vollzugshilfe **EN-100 «Verknüpfungen der Vollzugshilfen mit Normen und
+Merkblättern» (Ausgabe Dezember 2018)** listet in ihrer Übersichtstabelle (Kapitel 1, S. 1) wörtlich:
+«EN-102 VH Wärmeschutz von Gebäuden (**zwei Versionen: 1. zu SIA 380/1:2009  2. zu SIA 380/1:2016**)».
+Das bisher in diesem Destillat behandelte Editionspaar Dezember 2018 / Januar 2020 (Abschnitt «Zwei
+Ausgaben — Editionsklärung») betrifft **beide ausschliesslich die 2016er-Normbasis** — die
+2009er-Normbasis ist ein drittes, komplett eigenständiges Dokument, das parallel dazu weiterhin
+aktiv auf der EnDK-Plattform steht (Portal-Struktur bestätigt dies mit exakt diesen zwei Einträgen
+unter EN-102, siehe Prüfliste oben).
+
+**Fund 2 — Primärquellen-Verifikation der SIA-380/1:2009-Basis-Version.** PDF geladen unter
+`energiehub-gebaeude.ch/wp-content/uploads/2023/02/EN-102-d_Waermeschutz_3801_2009_2020Jan.pdf`.
+Titelblatt UND Fusszeile jeder der 18 Seiten tragen wörtlich **«Ausgabe November 2020 (Basis: Norm
+SIA 380/1, Ausgabe 2009)»**; `pdfinfo` bestätigt CreationDate 06.11.2020 07:10 CET, Subject
+"MuKEn 2014", Author "EnFK / AG MuKEn / CG". Kernzahlen dieser Version (Kapitel 6, S. 9,
+Einzelbauteilnachweis Umbau: opak 0,25/0,28, Fenster 1,0/1,3, Türen 1,2/1,5, Tore 1,7/2,0,
+Storenkasten 0,50/0,50 — identisch mit der 2016er-Fassung) und **Kapitel 7.1, S. 10
+(Systemnachweis Heizwärmebedarf Neubau, Klimareferenz «Jahresmitteltemperatur +8,5 °C» statt
++9,4 °C bei der 2016er-Basis)**:
+
+| Geb.-Kategorie | Q_H,li0 (2009-Basis) | ΔQ_H,li (2009-Basis) | p_H,li (2009-Basis) |
+|---|---|---|---|
+| I Wohnen MFH | 14 | 16 | 20 |
+| II Wohnen EFH | 16 | 16 | 25 |
+| III Verwaltung | 16 | 21 | 25 |
+| IV Schule | 18 | 18 | 20 |
+| V Verkauf | 13 | 16 | — |
+| VI Restaurant | 24 | 19 | — |
+| VII Versammlungslokal | 24 | 19 | — |
+| VIII Spital | 20 | 20 | — |
+| IX Industrie | 15 | 18 | — |
+| X Lager | 15 | 18 | — |
+| XI Sportbaute | 19 | 18 | — |
+| XII Hallenbad | 19 | 25 | — |
+
+Diese Zahlen gehören **ausschliesslich zur SIA-380/1:2009-Basis-Vollzugshilfe** und sind für den
+heutigen Kt.-ZH-Vollzug **nicht** die massgebende Tabelle (siehe Frontmatter und
+`datenstand` dieses Destillats: Kt. ZH vollzieht seit 11.04.2017 auf 2016er-Basis). Die Tabelle 5
+im Hauptteil dieses Destillats bleibt **unverändert korrekt** und unverändert massgebend.
+
+**Fund 3 — Herkunft des früheren "Transkriptionsfehlers" jetzt eindeutig geklärt (kein
+Korrekturbedarf an der heutigen Tabelle 5, aber ein präziserer Befund als bisher dokumentiert).**
+Die Werte oben (Q_H,li0 = 14/16/16/18/13/24/24/20/15/15/19/19, ΔQ_H,li =
+16/16/21/18/16/19/19/20/18/18/18/25) sind **zahlengleich** mit der Sequenz, die am 17.07.2026 als
+"Transkriptionsfehler in der Heizwärmebedarf-Tabelle" bezeichnet und korrigiert wurde (Quelle:
+`wissen/energie/destillate/muken-2025-anhang-1-3-uwert-heizwaermebedarf.md`, Abschnitt "Wichtiger
+Befund zum Ausgangspunkt der Aufgabenstellung"). Der Befund war in der Sache richtig (die 2016er-
+Tabelle 5 dieses Destillats musste auf die 2016er-Werte korrigiert werden, das ist weiterhin
+richtig), aber die **Erklärung war unvollständig**: es handelte sich nicht um einen reinen
+Übertragungsfehler aus dem Nichts, sondern **um eine reale, gültige Tabelle aus einem anderen,
+gleichnamigen EnFK-Dokument** (der 2009-Basis-Vollzugshilfe) — vermutlich wurde beim damaligen
+Ersterfassen die falsche der beiden EN-102-Dateien geöffnet. Dieser Nachtrag korrigiert **nicht**
+den Wortlaut der historischen Einträge (Rule 260811, additiv), stellt aber hiermit den
+vollständigeren Sachverhalt fest.
+
+**Cross-KB-Bringschuld:** Das Destillat `[[sia-380-1-2016-aenderungen-gegenueber-2009]]` führt die
+Klimareferenztemperatur-Änderung 8,5 °C → 9,4 °C bisher als "emerging"/Sekundärquelle (vermerkt in
+`muken-2025-anhang-1-3-uwert-heizwaermebedarf.md`, Abschnitt "Offene Punkte"). Mit dem heute
+primärquellen-gelesenen EN-102-Original (2009-Basis, Kapitel 7.1, S. 10, wörtlich «Jahresmittel-
+temperatur +8.5°C») liegt der fehlende Beleg für die 8,5-°C-Seite jetzt vor — Empfehlung an den
+nächsten Lauf der KB `energie` (oder `wissenscheck`): dieses Destillat auf "established" heben und
+`enfk-en-102-waermeschutz-2018.md` (2009-Basis-PDF) als vierte Quelle ergänzen.
+
+**Fund 4 — Dateiname-vs-Inhalt-Diskrepanz, dieselbe Fehlerfamilie wie beim Dez-2018/Jan-2020-Paar.**
+Die URL der 2009-Basis-Version trägt den Namensbestandteil «`_2020Jan`», Titelblatt/Fusszeile und
+`pdfinfo`-CreationDate belegen aber übereinstimmend **November 2020**. Beim Zitieren dieser Version
+ist «Ausgabe November 2020» zu verwenden, nicht der irreführende Dateiname.
+
+**Fund 5 — EN-100 selbst ist ein bisher unerfasstes Begleitdokument und bestätigt bereits
+Dokumentiertes.** Die Vollzugshilfe EN-100 (s.o.) ist die von der EnFK selbst geführte
+Verknüpfungs-/Querverweistabelle zwischen allen EN-Vollzugshilfen, den zugehörigen
+Nachweisformularen und den referenzierten SIA-/EN-Normen — bisher in keiner Datei dieser KB
+verlinkt oder zitiert (Grep-Check über `destillate/` und `wiki/` durchgeführt: nur die Kategorie-
+Bezeichnung «EN-100 bis EN-142» kam bisher vor, nie das Dokument EN-100 selbst). Sie bestätigt
+zwei bereits im Wiki vorhandene Fakten unabhängig: **EN-102c «Checkliste Wärmebrücken»** (bereits
+in `[[enfk-nachweisformulare-gueltigkeit-2026]]` mit Gültigkeit 31.12.2026 erfasst) und **EN-102d
+«Fenster-Tool»** — Letzteres ist identisch mit dem unter `energiehub-gebaeude.ch/wp-content/
+uploads/2025/08/00-Fenstertool_D.xlsx` gefundenen Excel-Tool, das in `[[enfk-fensterblatt]]` bisher
+nur als «Merkblatt Fenster der EnFK» ohne die offizielle Formularnummer EN-102d geführt wird
+(kleine Lücke, kein Korrekturbedarf an Zahlen). EN-100 selbst enthält **keine** Zahlen zu
+U-Werten/Heizwärmebedarf, nur die Zuordnungstabellen.
+
+**Fund 6 — MuKEn-2025-Text nennt einen Zeithorizont für die SIA-Normen-Abstimmung, aber nicht für
+die EN-Vollzugshilfen selbst.** Im MuKEn-2025-Originaltext (S. 10, Kapitel 3 "Terminplan und
+Abstimmung auf Fachnormen", Fussnote 1) steht wörtlich: **«Nachführung dieses Kapitels 2027/2028 zur
+Anpassung an verschiedene geänderte Normen»**, und im Fliesstext: «bei den in den MuKEn
+vorgeschlagenen Verordnungsbestimmungen ist daher zu beachten, dass diese **2027 oder 2028** auf
+die Übereinstimmung mit den SIA-Normen zu überprüfen sind» (Grund: laufende EU-EPBD-Revision, die
+auf die SIA-Normen zurückwirkt). Das ist die einzige im MuKEn-2025-Text selbst genannte Zeitangabe
+zur künftigen Normen-Nachführung — sie bezieht sich auf die **MuKEn-Verordnungstexte gegenüber den
+SIA-Normen**, nicht ausdrücklich auf die separate Erstellung neuer EN-Vollzugshilfen. Als grober
+Anhaltspunkt für die Beratung dennoch brauchbar: **vor 2027 ist mit einer auf MuKEn 2025
+abgestimmten EN-102-Vollzugshilfen-Generation kaum zu rechnen**, eine ausdrückliche EnFK-Ankündigung
+dazu liegt weiterhin nicht vor.
+
+**Fehlanzeigen (mit Beleg, wie gesucht):**
+- **Keine neuere Ausgabe von EN-102 (2016-Basis) nach Januar 2020.** Bereits am 27.08.2026 (Run 165)
+  primärquellenbasiert geprüft; heutiger Re-Check (29.08.2026, zwei Tage später) der Portalseite
+  `energiehub-gebaeude.ch/fachleute/vollzugshilfen/en-100-bis-en-142-muken-2014/` zeigt weiterhin
+  exakt dieselbe Datei `EN-102-d_Waermeschutz_3801_2016_2020Jan-2.pdf` als jüngsten Stand.
+- **Kein MuKEn-2025-Vollzugshilfen-Satz publiziert.** Suchbegriffe: "EnFK Vollzugshilfen EN-102
+  Wärmeschutz MuKEn 2025 Anpassung", "energiehub-gebaeude.ch Vollzugshilfen EN-102 Revision",
+  "EnDK Vollzugshilfen MuKEn 2025 Vernehmlassung EN-Reihe Zeitplan" (WebSearch); Portalstruktur
+  direkt geprüft (s.o.) — nur die zwei bekannten Kategorien MuKEn 2008/2014.
+- **Keine FAQ, kein Änderungsprotokoll/Revisionsindex ausserhalb des in EN-102 selbst enthaltenen
+  Revisionsvermerks** (Sept. 2019, bereits im Abschnitt «Zwei Ausgaben» dokumentiert), **kein
+  spezifisches Excel-/Rechentool für U-Wert oder Heizwärmebedarf** — geprüfte Fundorte s.o.
+  (`/faqs/`, `/fachleute/hilfsmittel/`, `/ergaenzende-unterlagen-zu-vollzugshilfen/`).
+
+Verwandt (ergänzend zur bestehenden Liste): `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`,
+`[[enfk-nachweisformulare-gueltigkeit-2026]]`, `[[enfk-fensterblatt]]`.

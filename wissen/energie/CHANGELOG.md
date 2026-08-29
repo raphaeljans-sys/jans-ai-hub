@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 2026-08-29 (Recherche-Agent Run 167, Begleitdokument-Prüfung EN-102) — EN-102 existiert offiziell in zwei Normbasis-Versionen, Herkunft eines früheren "Transkriptionsfehlers" geklärt
+
+Nachtrag additiv an `destillate/enfk-en-102-waermeschutz-2018.md` angehängt. Kernfund: die EnFK-
+Querverweis-Vollzugshilfe EN-100 («Verknüpfungen der Vollzugshilfen mit Normen und Merkblättern»,
+Dez. 2018, bisher in keiner Datei der KB zitiert) belegt, dass EN-102 offiziell **zwei parallele
+Versionen** führt — eine zu SIA 380/1:2009 (Ausgabe November 2020, primärquellenverifiziert per
+curl+pdftotext+pdfinfo), eine zu SIA 380/1:2016 (bereits im Hauptartikel behandelt). Die
+2009-Basis-Tabelle für den Heizwärmebedarf ist zahlengleich mit der Zahlenfolge, die am 17.07.2026
+fälschlich als reiner "Transkriptionsfehler" bezeichnet wurde — tatsächlich stammte sie aus dem
+anderen, gleichnamigen EnFK-Dokument. Cross-KB-Bringschuld offen: `destillate/sia-380-1-2016-
+aenderungen-gegenueber-2009.md` kann mit dem heute gefundenen Beleg (Klimareferenz 8,5 °C, EN-102
+2009-Basis Kap. 7.1 S. 10) von "emerging" auf "established" gehoben werden. MuKEn-2025-
+Vollzugshilfen weiterhin nicht publiziert (Re-Check, deckungsgleich mit Run 165 vom 27.08.2026);
+MuKEn-2025-Originaltext nennt 2027/2028 als Horizont für die SIA-Normen-Abstimmung (S. 10, Fn. 1) —
+kein EN-102-spezifisches Datum.
+
 ## 2026-08-28 (Wissens-Chef Run 46) — zwei Artikel behaupteten einen Status, der am selben Tag gewechselt hat
 
 `destillate/gebaeudehuellziffer-ebf-flaechendefinition.md` Z. 228 (+7/−0) und
