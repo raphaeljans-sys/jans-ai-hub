@@ -5,7 +5,7 @@ ausgabe: Version 1, 04.04.2025 (Faktenblatt, unveraendert gueltig) + KBOB-Oekobi
 gelesen: Faktenblatt vollst. S. 1-8 (2026-06-26, via WebFetch-PDF; am 2026-08-24 erneut per curl geladen, 822'352 Bytes, Titelzeile «Bern, 04.04.2025» bestaetigt) + KBOB-Datenstand v9.0 am 2026-08-24 direkt auf kbob.admin.ch/de/oekobilanzdaten-im-baubereich gelesen
 datenstand: 2026-08-24 (Faktenblatt 04.04.2025, Version 1 unveraendert; Oekobilanzdaten-Liste **v9.0, 14.07.2026**; Norm SIA 2032:2020; **SIA 390/1:2025 «Klimapfad» seit 01.02.2025 publiziert und in Kraft** — ⚠⚠ die fruehere Angabe «SIA 390/1 in Vernehmlassung» war sachlich falsch, korrigiert 2026-08-24, siehe Abschnitt «Aktualitaetskorrektur»)
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-08-29
 ergaenzende_quellen: (1) Minergie/eco-bau «Berechnung der Grauen Energie und der Treibhausgasemissionen bei Minergie-ECO, Minergie-P-ECO und Minergie-A-ECO-Bauten», Version 1.3 vom 31.03.2021 — https://www.minergie.ch/media/210331_berechnung_graue_energie_2021_v1-3.pdf (Basis: KBOB-Empfehlung 2009/1, Stand 2016); (2) Wüest Partner (Dr. Julia Selberherr), im Auftrag von Lignum/Holzwirtschaft Schweiz/BAFU, «Massiv- vs. Holzbau: Erstellungskosten und ökologische Kennzahlen im Vergleich», Präsentation 25.09.2025 — https://www.minergie.ch/media/3_holzbau-investionskosten-julia-selberherr.pdf (Basis: eigene Erhebung 35 Holzbauten [25 MFH, 10 Bürobauten], Baujahr 2019-2022, je verglichen mit digitalem Zwilling in mineralischer Bauweise gleicher Dimension/Qualität)
 ---
 
