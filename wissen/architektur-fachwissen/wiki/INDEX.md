@@ -849,3 +849,45 @@ für P1 und P2 vollständig destilliert.** Nächster Lauf nach P2-Ertrag: Sektio
 `01_Konstruktion` (101 P1/8'791, P2-Bestand dort noch nicht gesichtet) — der
 Entscheidungspunkt Raphaels (P2 systematisch fortsetzen vs. Phase-0-Nachholung für die
 12 offenen Sektionen, `QUESTIONS.md` #1) bleibt weiterhin offen und unverändert.
+
+## 260830 — Neunzehnter Destillat-Lauf (Korpus 4, Sektion `01_Konstruktion`, zweiter P2-Lauf)
+
+Erster gezielter P2-Lauf der Sektion `01_Konstruktion` (nach dem P1-Vollabschluss der dritten/
+vierten Läufe vom 29.08.2026). Zwei der vier im Inventar gelisteten P2-Positionen bearbeitet,
+gemäss Auftrags-Reihenfolge:
+
+- **`02_Bauelemente/04_Decke_Boden/100601_Deckenstruktur_Resarch_Oswald/ResearchDeckenstruktur.pdf`
+  (Deckenaufbauten-Vergleichsstudie) — destilliert.**
+  [[deckenaufbauten-vergleichsstudie-lichte-raumhoehe-konstruktionsraster]]: lichte Raumhöhe
+  und Konstruktionsraster-Profilmasse von neun realisierten Bauten (R. Schwarz, SANAA, Von
+  Ballmoos Krucker, Mendes da Rocha × 3, Caruso St John, Herzog & de Meuron, Maja Lalić), am
+  Original per PyMuPDF-Rendering visuell verifiziert (reine `pypdf`-Text-Extraktion ordnete die
+  Zahlen nicht eindeutig den Massachsen zu). Zwei h-Werte (Mendes da Rocha, Haus Milan und
+  Kindertagesstätte São Bernardo) im Original ohne Dezimaltrennzeichen beschriftet und deshalb
+  als unsicher gekennzeichnet, nicht stillschweigend geglättet.
+- **`01_Technische_Inst_I_II/` Lüftungsvorlesung — destilliert.** Zwei Artikel:
+  [[lueftungsgrundlagen-co2-kennzahlen-aussenluftwechselraten-eth-leibundgut]] (Aufgaben der
+  Lüftung, CO2-Physiologie, pAR-/fAR-Tabellen) und
+  [[lueftungssystematik-zuluftfuehrung-waermerueckgewinnung-eth-leibundgut]] (Zu-/Abluftführung,
+  Quell-/Verdrängungs-/Mischlüftung, vier WRG-Bauarten mit Rückwärmezahlen). Quelle:
+  `02_Vorlesungsfolien/110916_Webseite/03_Luftung.pdf` (Prof. H.-J. Leibundgut, ETH Zürich,
+  August 2008, 41 Seiten, vollständig gelesen) — die im Inventar behauptete Textebene wurde am
+  Original selbst verifiziert (nicht blind aus der Inventar-Zusammenfassung übernommen), Befund
+  bestätigt sich. **Norm-Diskrepanz entdeckt und nicht stillschweigend geglättet:** die Folie
+  zitiert die fAR-Tabelle «nach SIA 384/1», der heutige Registerstand in `wissen/normen` weist
+  SIA 384/1:2022 jedoch als Heizungsanlagen-Norm aus, die Lüftungsauslegung läuft heute über SIA
+  382/1:2014 — als offener Punkt im Artikel und in `wiki/QUESTIONS.md` vermerkt.
+
+**Nicht destilliert in diesem Lauf, aus Zeit-/Budgetgründen zurückgestellt (P2, für den
+nächsten Lauf dieser Sektion):** `04_Bauphysik_Energie/02_Skripte`, `01_Vorlesungsfolien`,
+`03_Uebungen` (153 Dateien, Bauphysik I–III ETH Zürich) und der systematische Teil von
+`02_Bauelemente/` (209 Dateien, Bauteil-Typologien Decke/Boden, Dach, Öffnung/Fenster, Treppen).
+Beide inhaltlich intakt und laut Inventar für einen P2-Lauf geeignet.
+
+**Sperrliste-Prüfung:** keine neuen Funde, keine der sechs gesperrten Positionen berührt
+(`00_Baustoffkonzept/Baustoffadressen`, `09_Konstruktion/28_Konstruktionaufbauten` ausserhalb
+Lignatur, `01 2D Details`, `01_Baustoff_Materialitaet/` Materialordner, `.band`/`.aif`,
+`06_Construction_Caruso/`). `06_Construction_Caruso/` in diesem Lauf nicht erneut geprüft
+(Inventar-Befund «keine Textebene» aus dem Erst-Sweep übernommen, nicht neu verifiziert).
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` geprüft).

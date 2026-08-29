@@ -346,3 +346,49 @@ siehe `wiki/QUESTIONS.md`.
 **Sperrliste-Prüfung:** keine neuen Funde. `00_Baustoffkonzept/Baustoffadressen` und
 `09_Konstruktion/28_Konstruktionaufbauten` (Diplomarbeit Markus Abegg, ausser dem
 unabhängigen Lignatur-Unterordner) weiterhin nicht geöffnet.
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (Lane FACHWISSEN, erster P2-Lauf dieser Sektion)
+
+Auftrag: die im Abschnitt oben als P2 zurückgestellten Positionen «Deckenaufbauten-
+Vergleichsstudie» und «Lüftungsgrundlagen/CO2-Kennzahlen» destillieren, danach so weit Budget
+trägt weitere P2-Positionen. NAS-Mount während des gesamten Laufs stabil (keine Ausfälle).
+
+- **`02_Bauelemente/04_Decke_Boden/100601_Deckenstruktur_Resarch_Oswald/
+  ResearchDeckenstruktur.pdf` — destilliert.** [[deckenaufbauten-vergleichsstudie-lichte-raumhoehe-konstruktionsraster]].
+  Da `pypdf`-Text-Extraktion die bemassten Zahlen nicht eindeutig den Massachsen zuordnete
+  (nur lose Zahlenfragmente pro Seite), wurden alle neun Seiten zusätzlich mit PyMuPDF (`fitz`)
+  bei 200 dpi als PNG gerendert und visuell gelesen — damit ist die Zuordnung Bauwerk/h-Wert/
+  Profilmass belegt, nicht geraten. Zwei h-Werte (Haus Milan, Kindertagesstätte São Bernardo,
+  beide Mendes da Rocha) sind im Original ohne Dezimaltrennzeichen beschriftet («h=600»,
+  «h=650») und deshalb im Artikel ausdrücklich als unsicher markiert, nicht stillschweigend
+  als 6,00 m/6,50 m behauptet. Ein Beispiel (Caruso St John, New Art Gallery Walsall) hat keinen
+  h-Wert im Blatt; nicht ergänzt.
+- **`01_Technische_Inst_I_II/` — Lüftungs-Foliensatz destilliert, Rest der 120 Dateien nicht
+  einzeln gesichtet.** Verifikation der Inventar-Behauptung «zwei Foliensätze mit Textebene
+  gelesen»: bestätigt am Original — `02_Vorlesungsfolien/110916_Webseite/03_Luftung.pdf`
+  (41 Seiten, 30'192 Zeichen laut `pypdf`) und die inhaltsgleiche 4-pro-Seite-Druckversion
+  `02_Vorlesungsfolien/04 Lüftung 4er.pdf` (17'219 Zeichen) tragen beide echten Text; Autor und
+  Datum (© Prof. H.-J. Leibundgut, Professur für Gebäudetechnik ETH Zürich, August 2008) stehen
+  auf der letzten Folienseite und wurden vorher nicht im Inventar vermerkt. Zwei Artikel:
+  [[lueftungsgrundlagen-co2-kennzahlen-aussenluftwechselraten-eth-leibundgut]] und
+  [[lueftungssystematik-zuluftfuehrung-waermerueckgewinnung-eth-leibundgut]]. Übrige Dateien der
+  Gruppe (Prüfungsvorbereitung, Formelsammlungen, Vorlesungsnotizen zu anderen Themen als
+  Lüftung, Lüftungsschema-Bildersammlung) nicht einzeln geprüft — für einen künftigen P2-Lauf
+  vorgemerkt, falls dort über die beiden destillierten Artikel hinausgehender Neuwert steckt.
+  **Norm-Diskrepanz-Fund:** die fAR-Tabelle der Vorlesung zitiert «nach SIA 384/1»; der
+  Registerstand in `wissen/normen` weist SIA 384/1:2022 als Heizungsanlagen-Norm aus, nicht als
+  Lüftungsnorm (dafür gilt heute SIA 382/1:2014) — als offener Punkt im Artikel und in
+  `wiki/QUESTIONS.md` vermerkt, nicht stillschweigend gleichgesetzt.
+
+**Nicht destilliert in diesem Lauf, aus Zeit-/Budgetgründen zurückgestellt (weiterhin P2):**
+`04_Bauphysik_Energie/02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien, Bauphysik
+I–III ETH Zürich, Auftrags-Position 3) und der systematische Teil von `02_Bauelemente/`
+(209 Dateien, Auftrags-Position 4) — beide nicht begonnen, für den nächsten P2-Lauf dieser
+Sektion vorgesehen.
+
+**Sperrliste-Prüfung:** keine neuen Funde, keine der sechs gesperrten Positionen geöffnet
+(`00_Baustoffkonzept/Baustoffadressen`, `09_Konstruktion/28_Konstruktionaufbauten` ausserhalb
+Lignatur, `01 2D Details`, `01_Baustoff_Materialitaet/` Materialordner, `.band`/`.aif`-Dateien,
+`06_Construction_Caruso/`). `06_Construction_Caruso/` in diesem Lauf nicht erneut technisch
+geprüft — der Erst-Sweep-Befund «keine Textebene, reine Scans» wurde übernommen, nicht neu
+verifiziert; sollte ein künftiger Lauf dort ansetzen wollen, ist eine eigene Prüfung fällig.

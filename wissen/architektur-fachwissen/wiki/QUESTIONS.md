@@ -637,3 +637,36 @@ P2 vollständig abgeschlossen, damit ist der pragmatische Zwischenschritt aus #5
 natürliches Ende gekommen. Der nächste Lauf braucht entweder einen Entscheid Raphaels
 oder wiederholt dieselbe pragmatische Weiterführung an der nächstgrössten Sektion
 (`01_Konstruktion`, 101 P1, P2-Bestand dort noch nicht gesichtet).
+
+## 260830 — Neunzehnter Destillat-Lauf (Korpus 4, Sektion `01_Konstruktion`, zweiter P2-Lauf)
+
+**#61 Norm-Fundstellen-Diskrepanz SIA 384/1 vs. SIA 382/1 für die Lüftungsauslegung, nicht
+geklärt.** Die ETH-Vorlesungsfolie «Lüftung» (Prof. H.-J. Leibundgut, August 2008) zitiert die
+flächenbezogene Aussenluftwechselrate (fAR) ausdrücklich «nach SIA 384/1». Der aktuelle
+Registerstand in `wissen/normen/destillate/sia-384-1-korrigenda-c1.md` weist SIA 384/1:2022
+jedoch als Norm «Heizungsanlagen in Gebäuden — Grundlagen und Anforderungen» aus; die
+Lüftungsauslegung läuft heute laut `wissen/normen/wiki/din-1946-6-sia-382-1-lueftungsauslegung-methodenvergleich.md`
+über SIA 382/1:2014. Möglich, aber nicht recherchiert: eine ältere SIA-384/1-Ausgabe (vor der im
+Normen-Bestand vorhandenen 2022er-Fassung) könnte historisch Lüftungsinhalte geführt haben, die
+seither in eine eigene Norm ausgegliedert wurden — analog zur bereits bekannten Auslagerung von
+Anhang E (Kälteverteilung) in die neue SIA 384/4:2025. Vor jeder Verwendung der pAR-/fAR-Werte
+aus [[lueftungsgrundlagen-co2-kennzahlen-aussenluftwechselraten-eth-leibundgut]] in einem
+verbindlichen JANS-Dokument ist die Norm-Zuordnung zu klären, nicht gegen SIA 384/1 zu zitieren.
+
+**#62 Zwei h-Werte der Deckenaufbauten-Vergleichsstudie ohne Dezimaltrennzeichen, Lesart
+unsicher.** In `ResearchDeckenstruktur.pdf` sind die lichten Raumhöhen der beiden
+Mendes-da-Rocha-Beispiele (Haus Milan São Paulo 1970, Kindertagesstätte São Bernardo 1972) im
+Original als «h=600» bzw. «h=650» beschriftet, ohne Komma oder Punkt — während alle sieben
+übrigen Beispiele im selben Dokument den Dezimaltrenner konsequent setzen. Im Artikel
+[[deckenaufbauten-vergleichsstudie-lichte-raumhoehe-konstruktionsraster]] als 6,00 m / 6,50 m
+mit ausdrücklichem Unsicherheits-Vermerk übernommen (plausibel wegen sichtbarer doppelgeschossiger
+Raumzonen auf den Fotos), aber nicht am Original-Bauwerksplan verifiziert.
+
+**#63 Entscheidungspunkt #58/#60 bleibt strukturell unverändert offen, diesmal auf Sektion
+`01_Konstruktion` angewendet.** Dieser Lauf hat zwei von vier Auftrags-Positionen der Sektion
+`01_Konstruktion` destilliert (Deckenaufbauten-Vergleichsstudie, Lüftungsgrundlagen inkl.
+Lüftungssystematik); die beiden grösseren Positionen (`04_Bauphysik_Energie` Bauphysik I–III,
+153 Dateien; `02_Bauelemente` systematischer Teil, 209 Dateien) sind aus Zeit-/Budgetgründen für
+den nächsten Lauf dieser Sektion offen geblieben. Der grundsätzliche Entscheid Raphaels (P2
+systematisch fortsetzen vs. Phase-0-Nachholung für die verbleibenden 12 offenen Sektionen,
+`QUESTIONS.md` #1) steht weiterhin aus.

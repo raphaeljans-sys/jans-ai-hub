@@ -1,5 +1,43 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — Neunzehnter Lauf: Sektion `01_Konstruktion`, zweiter P2-Lauf (Lane FACHWISSEN)
+
+Erster gezielter P2-Lauf der Sektion `01_Konstruktion` (nach dem P1-Vollabschluss vom
+29.08.2026). NAS-Mount während des gesamten Laufs stabil, keine Ausfälle. Zwei der vier
+Auftrags-Positionen destilliert, drei neue Wiki-Artikel:
+
+- **Deckenaufbauten-Vergleichsstudie**
+  (`02_Bauelemente/04_Decke_Boden/100601_Deckenstruktur_Resarch_Oswald/ResearchDeckenstruktur.pdf`)
+  → [[deckenaufbauten-vergleichsstudie-lichte-raumhoehe-konstruktionsraster]]. Da reine
+  `pypdf`-Text-Extraktion die bemassten Zahlen nicht eindeutig den Massachsen zuordnete, wurden
+  alle neun Seiten zusätzlich mit PyMuPDF bei 200 dpi gerendert und visuell gelesen. Lichte
+  Raumhöhe und Konstruktionsraster-Profilmasse von neun realisierten Bauten (R. Schwarz, SANAA,
+  Von Ballmoos Krucker, Mendes da Rocha × 3, Caruso St John, Herzog & de Meuron, Maja Lalić).
+  Zwei h-Werte im Original ohne Dezimaltrennzeichen beschriftet und deshalb im Artikel
+  ausdrücklich als unsicher markiert, nicht stillschweigend geglättet.
+- **Lüftungsgrundlagen/CO2-Kennzahlen** (`01_Technische_Inst_I_II/02_Vorlesungsfolien/
+  110916_Webseite/03_Luftung.pdf`, ETH-Vorlesung Prof. H.-J. Leibundgut, August 2008) → zwei
+  Artikel: [[lueftungsgrundlagen-co2-kennzahlen-aussenluftwechselraten-eth-leibundgut]] (Aufgaben
+  der Lüftung, CO2-Physiologie, pAR-/fAR-Tabellen) und
+  [[lueftungssystematik-zuluftfuehrung-waermerueckgewinnung-eth-leibundgut]] (Zu-/Abluftführung,
+  Quell-/Verdrängungs-/Mischlüftung, vier WRG-Bauarten mit Rückwärmezahlen). Die im Inventar
+  behauptete Textebene wurde am Original selbst verifiziert (nicht blind übernommen), Befund
+  bestätigt sich (41 Seiten, 30'192 Zeichen laut `pypdf`). **Norm-Diskrepanz entdeckt:** die
+  Folie zitiert die fAR-Tabelle «nach SIA 384/1», der aktuelle Registerstand in `wissen/normen`
+  weist SIA 384/1:2022 jedoch als Heizungsanlagen-Norm aus, die Lüftungsauslegung läuft heute
+  über SIA 382/1:2014 — als offener Punkt im Artikel und in `wiki/QUESTIONS.md` #61 vermerkt,
+  nicht stillschweigend gleichgesetzt.
+- **Nicht destilliert, aus Zeit-/Budgetgründen zurückgestellt:** `04_Bauphysik_Energie/
+  02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien, Bauphysik I–III ETH Zürich)
+  und der systematische Teil von `02_Bauelemente/` (209 Dateien) — beide für den nächsten
+  P2-Lauf dieser Sektion vorgesehen.
+- **Sperrliste-Prüfung:** keine neuen Funde, keine der sechs gesperrten Positionen berührt.
+  `06_Construction_Caruso/` nicht erneut technisch geprüft (Erst-Sweep-Befund «keine
+  Textebene» übernommen, nicht neu verifiziert).
+- Fortschritt in `raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt
+  «Destillat-Fortschritt», reiner Append (`git diff --numstat` 46/0 geprüft). `wiki/INDEX.md`
+  (42/0) und `wiki/QUESTIONS.md` nachgeführt.
+
 ## 2026-08-29 — Achtzehnter Lauf: Sektion `02_Gestalt_Kulturverstaendnis` P2 abgeschlossen (Lane FACHWISSEN)
 
 Dispatch-Auftrag dieses Laufs beschrieb wiederum fälschlich «kein Destillat, keine Spec,
