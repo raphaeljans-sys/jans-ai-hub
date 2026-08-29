@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 01:28:46
+Stand: 30.08.2026 01:39:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:28)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:38)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 01:28:46
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ec2f289cd wissens-destillat archiv-fachwissen 02_Architekturtheorie: 10/11 P1 destilliert (10 Wiki-Artikel, Lane FACHWISSEN)
+- ad77ee216 SYNOBSIS: Minimalcheck-Folgelauf bestaetigt Vorlauf, Dispatch-Empfehlung verstaerkt

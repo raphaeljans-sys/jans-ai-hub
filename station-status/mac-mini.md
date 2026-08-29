@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 01:26:54
+Stand: 30.08.2026 01:37:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 01:00)
+- /Users/raphaeljans  (letzte Aktivitaet 01:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 01:26:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9eadd9541 vollgas-radar 30.08. 01:16: Sync-P1 Fehlbefund korrigiert (68/34, zwei konkurrierende Push-Wege)
+- ad77ee216 SYNOBSIS: Minimalcheck-Folgelauf bestaetigt Vorlauf, Dispatch-Empfehlung verstaerkt
