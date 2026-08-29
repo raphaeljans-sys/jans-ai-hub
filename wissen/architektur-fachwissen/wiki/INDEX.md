@@ -264,11 +264,42 @@ P2 dieser Sektion bleibt vollständig offen. Urheberrechts-/Datenschutzvorbehalt
 eingehalten: keine Wortlaut-Übernahme aus geschütztem Lehrmaterial, keine
 Studierendennamen.
 
-**Damit ist die im Spec-Plan vom 29.08.2026 vorgesehene Sektionsfolge
-(`18_Projektkostenplanung` → `10_Modellbauen` → `17_Projektbeschriebe` →
-`25_Wettbewerb` → `20_Rendering`) vollständig durchlaufen.** Nächster Lauf:
-`wiki/INDEX.md` «Sektionen nach Ertrag» neu gegen `raw/inventar/` abgleichen (die
-P1-einstelligen Sektionen `12_Masse`, `21_Rhino` u.a. sind noch unangetastet,
-ebenso das gesamte P2 aller fünf bisher bearbeiteten Sektionen) — der Korpus
-`buero-referenzen` ist damit noch **nicht** «erledigt» im Sinn von
-`KORPUS-QUEUE.md`. Offene Fragen zu diesen Artikeln in `wiki/QUESTIONS.md`.
+**Sechster bis neunter Destillat-Lauf 29.08.2026 (Lane FACHWISSEN, selber Tag,
+Fortsetzung):** nach der geplanten Sektionsfolge wurde `wiki/INDEX.md`
+«Sektionen nach Ertrag» gegen `raw/inventar/` abgeglichen (dieses Register war
+seit 23.08.2026 veraltet — Phase 0 war seither auf alle 23 Sektionen des Korpus
+gewachsen). Ergebnis: fünf weitere Sektionen trugen noch unbearbeitete
+P1-Positionen, die nicht im ursprünglichen Register standen. Alle fünf wurden in
+diesem Lauf destilliert:
+
+- `12_Masse` (2 P1): [[sanitaerapparate-masstabellen-montagehoehen]],
+  [[nasszellen-achsabstaende-komfortstufen-bedarfszahlen]]
+- `21_Rhino` (2 P1): [[rhino-planausgabe-kette-make2d-layout-druck]],
+  [[rhino-freiform-stetigkeit-flowalongsrf]]
+- `08_Karten_Plaene_Weltweit` + `08_Karten_Plaene_Zuerich` (je 1 P1, dieselbe
+  Dokumentfamilie, ein Artikel für beide):
+  [[orthofoto-nutzungsbestimmungen-stadt-zuerich-zwei-fassungen]]
+- `09_Konstruktion` (4 P1): [[flachdachaufbauten-vier-typen-textbausteine]],
+  [[werkplan-textapparat-abkuerzungen-schalungsplan]]
+- `22_Terminplanung` (3 P1): [[terminplan-phasenkette-oeffentliche-bauherrschaft-leutschenbach]],
+  [[grobterminplan-gewerkefolge-elementbau-leutschenbach]],
+  [[feinterminplan-excel-vorlage-endspurt-baueingabe]]
+- `26_Zeichendateien_Vorlagen` (1 P1):
+  [[sanitaerapparate-vectorworks-montagehoehen-referenzblatt]]
+
+Alle `status: emerging`, Fortschritt je Sektion im jeweiligen
+`raw/inventar/buero-referenzen__*.md` Abschnitt «Destillat-Fortschritt».
+
+**Geprüft: die übrigen Sektionen ohne Fortschritts-Abschnitt tragen alle P1 = 0**
+(`07_Internet_Links`, `10_Konzep_Texte`, `11_Landschaftsarchitektur`,
+`14_Modellfotos`, `15_Oberflaechenbehandlung`, `19_Puplikationen`,
+`27_KV_Deffisierung`, `29_Kostenplanung`, `30_Lichtplanung`, `31_Klimadaten`,
+`32_Checklisten`) — nichts offen dort.
+
+**Damit sind alle P1-Positionen des Korpus `buero-referenzen` über sämtliche 23
+inventarisierten Sektionen destilliert.** P2 bleibt in jeder Sektion offen (kein
+Anspruch auf Vollständigkeit dort). Gemäss `KORPUS-QUEUE.md` gilt der Korpus erst
+bei P1 **und** P2 als «erledigt» — dieser Zustand ist noch nicht erreicht, aber
+der ertragreichere und dringlichere Teil ist es. Nächster Schritt gemäss Auftrag:
+Korpus 4 `archiv-fachwissen` (eigene Spec fällig). Offene Fragen zu diesen
+Artikeln in `wiki/QUESTIONS.md`.

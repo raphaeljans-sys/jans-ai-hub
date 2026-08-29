@@ -4,6 +4,35 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, Folgelauf) — Bo_Bardi_Lina-Fehlextraktion korrigiert, Prioritaeten 1-4 verifiziert vollstaendig
+
+Beim Uebernehmen der Position zunaechst per `git log`/`git diff --numstat` sowie Stichproben
+in `catalog/*.json` (Christ_Gantenbein, Gigon_Guyer, Šuchov_Vladimir_..., Tadao_Ando,
+Wurster_William) verifiziert, dass alle vier im Auftrag genannten Prioritaeten (Fehlextraktionen,
+Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 2 ff.) bereits durch einen frueheren
+Lauf desselben Abends erledigt UND bereits per `auto-sync [Macmini]`-Commit nach GitHub gepusht
+waren (`origin/main` == `HEAD`, keine Doppelarbeit) — inklusive Sammelfrage Charge 2 bis 6
+vollstaendig (nicht nur Charge 2, wie im Auftrag als offen vermerkt).
+
+**Eine weitere, bisher unmarkierte Fehlextraktion in Sektion 4 gefunden und korrigiert:
+Bo_Bardi_Lina** — Textauszug war eine abgespeicherte Google-Suchseite (Navigations-/Werbe-Rand,
+geringer Quellenwert). Im selben Ordner (`00_Architektin/MfGZ.pdf`) liegt der Ausstellungstext
+des Museums fuer Gestaltung Zuerich zur Schau «Das Brasilien der Architektin Lina Bo Bardi»
+(25.11.2000-04.03.2001) — ein sachlich zutreffender Fliesstext zu Werdegang und Hauptwerken
+(Glashaus 1951, MASP 1957-68, SESC-Pompeia 1977), extrahiert per `pypdf` (venv `pdftools`,
+`textutil -convert txt` scheiterte an dieser PDF). Neuer Textauszug (bereinigt um Datums-/
+URL-Kopfzeilen und den Impressum-/Veranstaltungs-Fussteil) in `catalog/Bo_Bardi_Lina.json`
+(`textauszug` + `embed_doc`) sowie in der zugehoerigen Zeile von `catalog/documents.jsonl`
+nachgezogen; `git diff --numstat` je Datei auf `2 2` bzw. `1 1` geprueft (nur das eine Feld
+geaendert, JSON-Validitaet mit `json.load` bestaetigt). Quelle bleibt derselbe Ordner, keine
+externe Recherche noetig.
+
+**Offen fuer den naechsten Lauf:** die vier explizit genannten Prioritaeten sind erledigt; als
+naechste sinnvolle Fortsetzung bieten sich die in Sektion 4 dokumentierte Parser-Verfeinerung
+(generische Ablagestruktur 00-07 wird faelschlich als «Projekte» gezaehlt, rund zwei Dutzend
+Eintraege) oder Sektion 2/3 (Umbenennungen, Zusammenfuehrungen) an — beide sind aber
+Freigabesache (Quellordner-Aenderung bzw. Scanner-Codeaenderung), nicht auf Datenebene loesbar.
+
 ## 2026-08-29 21:10 (Mac Mini, Schub-Lane SYNOBSIS) — Fehlextraktionen Charge 4/6 korrigiert, Sammelfrage Charge 4 vollstaendig recherchiert
 
 Fortsetzung desselben Auftrags (Wochenkontingent vor Montags-Reset). Beim Uebernehmen der

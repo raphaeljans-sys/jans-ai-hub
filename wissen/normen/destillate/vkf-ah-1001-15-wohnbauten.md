@@ -6,9 +6,9 @@ quelle:
 herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "1001-15de in zwei Fassungen — (a) 01.01.2015, genehmigt durch die Technische Kommission VKF am 23.09.2014; (b) 01.01.2017 / Stand 17.05.2018, Änderungen genehmigt durch die Technische Kommission VKF am 29.09.2016, Fehlerkorrektur vom 17.05.2018 zu Ziff. 4.4.1.2"
 datenstand: "Massgebend ist die Fassung 01.01.2017 / Stand 17.05.2018. Die Fassung 01.01.2015 ist überholt und nur noch für die Einordnung von Altzitaten und Altprojekten relevant."
-gelesen: "Fassung 2015: S. 1-27 komplett. Fassung 2017/2018: S. 1-29 komplett. Volltextvergleich beider Fassungen am 27.07.2026 (Textlayer via pdftotext -layout, farbcodierte Tabellen 4.2.2.4 / 4.2.3.2 / 4.3.2 / 4.4.1.2 / 6.3.1 zusätzlich als 300-dpi-Bild geprüft, weil die Zellfarben RF1/RF2/RF3 im Textlayer nicht enthalten sind). KORREKTUR eines früheren Laufs vom 27.07.2026: die dort aus einem nur 4-seitigen Auszug-Dokument abgeleitete Behauptung «0 Abweichungen in Ziff. 3, 5 und 6» ist widerlegt (siehe Abschnitt «Fassungs-Delta», Unterabschnitt «Korrektur»)."
+gelesen: "Fassung 2015: S. 1-27 komplett. Fassung 2017/2018: S. 1-29 komplett. Volltextvergleich beider Fassungen am 27.07.2026 (Textlayer via pdftotext -layout, farbcodierte Tabellen 4.2.2.4 / 4.2.3.2 / 4.3.2 / 4.4.1.2 / 6.3.1 zusätzlich als 300-dpi-Bild geprüft, weil die Zellfarben RF1/RF2/RF3 im Textlayer nicht enthalten sind). KORREKTUR eines früheren Laufs vom 27.07.2026: die dort aus einem nur 4-seitigen Auszug-Dokument abgeleitete Behauptung «0 Abweichungen in Ziff. 3, 5 und 6» ist widerlegt (siehe Abschnitt «Fassungs-Delta», Unterabschnitt «Korrektur»). Abdeckungsrichtung Run N62-3 (29.08.2026): Fassung 2017/2018 S. 1-29 seitenweise als 150-200-dpi-Bild neu gerendert und gegen den Kernziffern-Abschnitt geprüft (Inhaltsverzeichnis/Kapitelstruktur vollständig abgeglichen), dazu Fassung 2015 gezielt für Seiten-/Absatznummern der Kernziffern-Zitate (die Kernziffern folgen laut Fassungshinweis der Fassung-2015-Paginierung) — siehe Abschnitt «Prüfstand»."
 status: "established — Fassungs-Delta 2017/2018 unabhängig verifiziert (Refuter-Lauf 27.07.2026, 0 Befunde, siehe Abschnitt «Unabhängige Verifikation»)"
-last_updated: 2026-07-27
+last_updated: 2026-08-29
 links: [[REGISTER]]
 ---
 
@@ -114,15 +114,17 @@ eingefügt wurden. Alte Zitate laufen sonst ins Leere:
 - **[2017 geändert]** Baustoffe der RF4 nur hohlraumfrei und allseitig K30 gekapselt (Ziff. 4.1 Abs. 3, S. 7).
   — 2017 als Abs. 4 geführt, Ausnahmekatalog vollständig ersetzt.
 - **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** weitere, im
-  Delta unveränderte Absätze von Ziff. 4.1 (2017 S. 7-8): mehrschichtige, feuerwiderstands-
-  fähige Bauteile mit brennbaren Anteilen gelten als Ganzes RF1, sofern sie allseitig
-  mit RF1 gekapselt sind (Kapselung mind. 30 Min. weniger als Feuerwiderstand des
-  Gesamtbauteils, mind. K30-RF1, Zwischenräume hohlraumfrei RF1 gefüllt, Abs. 5); bestehen
-  Aussenwand- oder Dachkonstruktionen nur aus der Aussenwand/dem Dach ohne eigenes
-  Bekleidungssystem, gelten die höheren Anforderungen von Ziff. 4.2/4.3 (Abs. 7); bei
-  bestimmungsgemässem Betrieb mit Temperaturen ≥ 85 °C müssen die Bauprodukte
-  dauerwärmebeständig sein (Abs. 8). Abs. 6 (Fensterrahmen RF3 (cr)) ist bereits im
-  Abschnitt «Fassung 2017 — Delta» oben erfasst.
+  Delta unveränderte Absätze von Ziff. 4.1, alle S. 7 (Fassung-2015-Nummerierung Abs. 4/6/7
+  = Fassung-2017 Abs. 5/7/8, da 2017 mit der neuen Positivliste ein zusätzlicher Abs. 3
+  eingefügt wurde): mehrschichtige, feuerwiderstandsfähige Bauteile mit brennbaren
+  Anteilen gelten als Ganzes RF1, sofern sie allseitig mit RF1 gekapselt sind (Kapselung
+  mind. 30 Min. weniger als Feuerwiderstand des Gesamtbauteils, mind. K30-RF1,
+  Zwischenräume hohlraumfrei RF1 gefüllt); bestehen Aussenwand- oder Dachkonstruktionen
+  nur aus der Aussenwand/dem Dach ohne eigenes Bekleidungssystem, gelten die höheren
+  Anforderungen von Ziff. 4.2/4.3; bei bestimmungsgemässem Betrieb mit Temperaturen
+  ≥ 85 °C müssen die Bauprodukte dauerwärmebeständig sein. Der dazwischenliegende
+  Absatz (2015 Abs. 5 = 2017 Abs. 6, Fensterrahmen RF3 (cr)) ist bereits im Abschnitt
+  «Fassung 2017 — Delta» oben erfasst.
 - Gebäudehülle mittlerer Höhe: Zugänglichkeit für Feuerwehr-Löscheinsatz gewährleisten,
   wenn brennbare Aussenwandbekleidungen/-dämmungen verwendet werden; Brandausbreitung
   an Aussenwand konstruktiv auf max. 2 Geschosse oberhalb Brandgeschoss begrenzen
@@ -227,46 +229,46 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
 - Installationsschächte über mehrere Geschosse: gleicher Feuerwiderstand wie
   nutzungsbezogene Brandabschnittsbildung, mindestens EI 30 (Ziff. 6.4.6.1, S. 17).
 - **Kernlücke, Abdeckungsrichtung Run N62-3 (bisher komplett fehlend):** Durchbrüche und
-  Leitungsführungen durch brandabschnittsbildende Bauteile (Ziff. 6.4.5, S. 18). Aussparungen
-  sind unter Berücksichtigung der Wärmedehnung entweder mit Material aus Baustoffen der
-  RF1 hohlraumfrei zu verschliessen, oder mit VKF-anerkannten Abschottungssystemen
-  (bei brandabschnittsbildenden Wänden/Decken mind. EI 30) (Abs. 3). VKF-anerkannte
-  Abschottungssysteme für Rohrleitungen (z. B. Brandschutzmanschetten) sind bei
-  brandabschnittsbildenden Bauteilen anzuordnen; auf ihren Einbau kann u. a. verzichtet
-  werden bei Rohrleitungen aus RF1, an Ein-/Austrittsstellen feuerwiderstandsfähiger
-  Installationsschächte, innerhalb solcher Schächte, bei einzeln geführten Rohren mit
-  Aussendurchmesser ≤ 50 mm, bei einzeln geführten Rohren ≤ 120 mm in Gebäuden
-  geringer/mittlerer Höhe ohne erhöhte Personengefährdung durch Verrauchung, in
-  hohlraumfrei mit nicht schmelzenden Baustoffen mind. RF2 ausgefüllten Sanitär-
-  Vorwandsystemen, sowie zwischen mit Löschanlagen geschützten Räumen (Abs. 4 lit. a-g).
-  Brennbare Wärmedämmschichten von Installationen sind an der Durchführung mit RF1 zu
-  unterbrechen; bei geprüften/anerkannten Bauteilen gelten die Angaben der
-  VKF-Anerkennung (Abs. 5). Praxisrelevant für die Ausschreibung von Abschottungs-
-  arbeiten Haustechnik.
+  Leitungsführungen durch brandabschnittsbildende Bauteile (Ziff. 6.4.5 Abs. 1-2, S. 16;
+  Abs. 3-5, S. 17). Aussparungen sind unter Berücksichtigung der Wärmedehnung entweder
+  mit Material aus Baustoffen der RF1 hohlraumfrei zu verschliessen, oder mit
+  VKF-anerkannten Abschottungssystemen (bei brandabschnittsbildenden Wänden/Decken
+  mind. EI 30) (Abs. 3). VKF-anerkannte Abschottungssysteme für Rohrleitungen
+  (z. B. Brandschutzmanschetten) sind bei brandabschnittsbildenden Bauteilen anzuordnen;
+  auf ihren Einbau kann u. a. verzichtet werden bei Rohrleitungen aus RF1, an
+  Ein-/Austrittsstellen feuerwiderstandsfähiger Installationsschächte, innerhalb solcher
+  Schächte, bei einzeln geführten Rohren mit Aussendurchmesser ≤ 50 mm, bei einzeln
+  geführten Rohren ≤ 120 mm in Gebäuden geringer/mittlerer Höhe ohne erhöhte
+  Personengefährdung durch Verrauchung, in hohlraumfrei mit nicht schmelzenden
+  Baustoffen mind. RF2 ausgefüllten Sanitär-Vorwandsystemen, sowie zwischen mit
+  Löschanlagen geschützten Räumen (Abs. 4 lit. a-g). Brennbare Wärmedämmschichten von
+  Installationen sind an der Durchführung mit RF1 zu unterbrechen; bei geprüften/
+  anerkannten Bauteilen gelten die Angaben der VKF-Anerkennung (Abs. 5). Praxisrelevant
+  für die Ausschreibung von Abschottungsarbeiten Haustechnik.
 - **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nur Ziff. 6.4.6.1 im Destillat):**
   Revisionsöffnungen von Installationsschächten sind mit Brandschutzabschlüssen EI 30
   abzuschliessen; für Gebäude geringer und mittlerer Höhe genügen Revisionsdeckel RF1
-  bei geschossweise unterteilten oder ausgefüllten Schächten (Ziff. 6.4.6.2, S. 18).
+  bei geschossweise unterteilten oder ausgefüllten Schächten (Ziff. 6.4.6.2, S. 17).
   Horizontale Unterteilung: Aussparungen bei oben geschlossenen Schächten sind je
   Geschoss mit RF1 zu verschliessen; verzichtbar bei zuoberst ständig offener oder von
   sicherem Ort steuerbarer Entrauchungsöffnung (≥ 5 % Schachtquerschnitt), bei
   hohlraumfreier Füllung mit RF1 (bzw. für Gebäude geringer/mittlerer Höhe ohne erhöhte
   Brandschutzanforderungen an die Installationen mind. RF2, Setzung geschossweise
-  mechanisch zu verhindern) oder bei ausschliesslich RF1-Leitungen (Ziff. 6.4.6.3, S. 18-19).
+  mechanisch zu verhindern) oder bei ausschliesslich RF1-Leitungen (Ziff. 6.4.6.3, S. 18).
   Vertikale Unterteilung: Abgasanlagen, Lüftungskanäle mit erhöhten Brandschutz-
   anforderungen u. dgl. sind im Schacht untereinander sowie gegen andere Installationen
   mit 30 Min. Feuerwiderstand aus RF1 (z. B. Brandschutzplatte) abzutrennen
-  (Ziff. 6.4.6.4, S. 19).
+  (Ziff. 6.4.6.4, S. 18).
 - **Nebenlücke, allgemeine/subsidiäre Bestimmungen ohne Zahlenwerte (Run N62-3, bisher
   nicht im Destillat):** Standsicherheit der Tragwerke unter Brandbeanspruchung, kein
   Einsturz durch vorzeitiges Bauteilversagen oder Wärmedehnung, keine unverhältnis-
-  mässigen Schäden in Nachbarabschnitten (Ziff. 6.2, S. 16); erhöhter Feuerwiderstand
+  mässigen Schäden in Nachbarabschnitten (Ziff. 6.2, S. 15); erhöhter Feuerwiderstand
   für Räume/Brandabschnitte mit sehr grosser Brandbelastung oder grossem Brandrisiko
-  gegenüber der Standardlösungs-Tabelle (Ziff. 6.3.3, S. 17); mechanische Festigkeit/
+  gegenüber der Standardlösungs-Tabelle (Ziff. 6.3.3, S. 16); mechanische Festigkeit/
   Standsicherheit nichttragender brandabschnittsbildender Wände gegen horizontale
-  Belastung (Ziff. 6.4.2, S. 17); feuerwiderstandsfähige, rauch- und flammendichte
+  Belastung (Ziff. 6.4.2, S. 16); feuerwiderstandsfähige, rauch- und flammendichte
   Anschlüsse brandabschnittsbildender Bauteile untereinander und an die Gebäudehülle
-  (Ziff. 6.4.3, S. 18).
+  (Ziff. 6.4.3, S. 16).
 - Brandmauern auf Parzellengrenze (Ziff. 6.4.7 Abs. 2, S. 18):
   - REI 180 für Gebäude mittlerer Höhe und Hochhäuser
   - REI 90 für Gebäude geringer Höhe
@@ -275,7 +277,7 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
 ### Fluchtwege (Ziff. 7, S. 18-22)
 
 - **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** Messweise der
-  Fluchtweglänge (Ziff. 7.2, S. 20): die gesamte Fluchtweglänge setzt sich zusammen aus
+  Fluchtweglänge (Ziff. 7.2, S. 19): die gesamte Fluchtweglänge setzt sich zusammen aus
   der Fluchtweglänge in der Nutzungseinheit (Luftlinie, raumtrennende Wände innerhalb
   der Nutzungseinheit sind zu berücksichtigen) und der Fluchtweglänge im Korridor
   (Gehweglinie); Treppen in der Nutzungseinheit werden horizontal nach Gehweglinie
@@ -328,7 +330,7 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
   (Ziff. 7.4.6, S. 21).
 - **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** Innerhalb der
   Nutzungseinheit darf der Fluchtweg über mehrere Räume zu einem horizontalen oder
-  vertikalen Fluchtweg führen (Ziff. 7.4.7, S. 23).
+  vertikalen Fluchtweg führen (Ziff. 7.4.7, S. 22).
 - Rauch- und Wärmeabzugsanlagen (RWA): vertikale Flucht-/Rettungswege sind grundsätzlich
   mit direkt ins Freie führenden RWA auszurüsten (Ziff. 7.5 Abs. 1, S. 22). Zuoberst mit
   direkt ins Freie führenden Abströmöffnungen zu versehen sind sie **in Gebäuden
@@ -344,7 +346,7 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
 - **Kernlücke, Abdeckungsrichtung Run N62-3 (bisher komplett fehlend — Ziffer 9 war im
   bisherigen Destillat nirgends erwähnt, obwohl die Kapitelüberschrift oben «Ziff. 8-10»
   suggeriert, der Bereich sei vollständig abgedeckt):** Zugang für die Feuerwehr
-  (Ziff. 9, S. 24). Bauten und Anlagen müssen für den raschen und zweckmässigen Einsatz
+  (Ziff. 9, S. 22). Bauten und Anlagen müssen für den raschen und zweckmässigen Einsatz
   der Feuerwehr jederzeit zugänglich sein (Abs. 1). An-, Vor- und Verbindungsbauten
   dürfen den Feuerwehreinsatz nicht behindern; Zufahrtsstrassen und Aufstellungsorte für
   Feuerwehrfahrzeuge sind, wo notwendig, festzulegen, zu markieren und ständig
@@ -353,7 +355,7 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
 - Aufzüge über mehrere Brandabschnitte: Schacht mit gleichem Feuerwiderstand,
   mindestens EI 30 (Ziff. 10.1 Abs. 1, 2015 S. 22 / 2017 S. 24).
 - **Kernlücke, Abdeckungsrichtung Run N62-3 (bisher nur Abs. 1 und Abs. 16 im Destillat,
-  Abs. 2-15 komplett fehlend):** Werden mit der Aufzugsanlage keine unterschiedlichen
+  Abs. 2-15 komplett fehlend; Ziff. 10.1 Abs. 1-15 liegt gesamthaft auf S. 22):** Werden mit der Aufzugsanlage keine unterschiedlichen
   Brandabschnitte verbunden, entfallen ausser der Materialisierung die
   brandschutztechnischen Anforderungen an Schacht/Umwandung (z. B. Aufzüge im
   vertikalen Fluchtweg, Panoramaaufzüge in Atrien, Abs. 2). Aufzugsschächte aus
@@ -389,16 +391,16 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
   direkten Zugang vom Freien sind zu versehen: Heizräume im Erdgeschoss oder tiefer für
   wärmetechnische Anlagen von mehr als 1'200 kW Nennwärmeleistung; Heizräume im
   zweiten Untergeschoss oder tiefer für Anlagen von mehr als 600 kW (Ziff. 10.2.1
-  Abs. 2, S. 25). Spricht die Art der Feuerungsaggregate nicht dagegen und ist das
+  Abs. 2, S. 23). Spricht die Art der Feuerungsaggregate nicht dagegen und ist das
   Brandrisiko gering, dürfen Heizräume bei Nennwärmeleistung bis 70 kW auch anderen
-  Zwecken dienen (Ziff. 10.2.1 Abs. 3, S. 25).
+  Zwecken dienen (Ziff. 10.2.1 Abs. 3, S. 23).
 - Lagerung Brennstoffe: Einfamilienhäuser bis max. 5 m³ Holzbrennstoffe/Kohle in
   Räumen beliebiger Bauart; in separaten Heizräumen (EI 60) max. 10 m³ hinter
-  Abschrankung im Abstand 1 m zum Feuerungsaggregat (Ziff. 10.2.2 Abs. 1 lit. b, d, S. 26).
+  Abschrankung im Abstand 1 m zum Feuerungsaggregat (Ziff. 10.2.2 Abs. 1 lit. b, d, S. 24).
 - **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** In
   landwirtschaftlichen Gebäuden dürfen Holzbrennstoffe/Kohle zusammen mit anderen
   brennbaren Stoffen gelagert werden, sofern eine zweckmässige Trennung genügt
-  (Ziff. 10.2.2 Abs. 1 lit. a, S. 26). Zum Anfeuern notwendige, leicht entzündbare Stoffe
+  (Ziff. 10.2.2 Abs. 1 lit. a, S. 24). Zum Anfeuern notwendige, leicht entzündbare Stoffe
   (Holzwolle, Stroh, Papier u. Ä.) dürfen im Heizraum nur in verschlossenen Behältern aus
   RF1 aufbewahrt werden (lit. e). Die Anforderungen für die Lagerung von Holzbrennstoffen
   mit automatischer Austragung richten sich nach Art und Menge des Brennstoffs sowie
@@ -417,12 +419,12 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
   **Luftaufbereitungsapparat**» zugeführt wird (2015: nur «dem Wärmerückgewinnungs-
   aggregat»), also für jede Rückführung in die Lüftungsaufbereitung (Abs. 3).
 
-### Betrieblicher Brandschutz (Ziff. 11, S. 27)
+### Betrieblicher Brandschutz (Ziff. 11, S. 25)
 
 - **Kernlücke, Abdeckungsrichtung Run N62-3 (bisher komplett fehlend):** Eigentümer- und
   Nutzerschaft von Bauten und Anlagen sind dafür verantwortlich, dass Einrichtungen für
   den baulichen, technischen und abwehrenden Brandschutz sowie haustechnische Anlagen
-  bestimmungsgemäss instand gehalten und jederzeit betriebsbereit sind (Ziff. 11).
+  bestimmungsgemäss instand gehalten und jederzeit betriebsbereit sind (Ziff. 11, S. 25).
   Praxisrelevant für Betriebs-/Unterhaltskonzepte und Verwaltungsübergabe.
 
 ### Spezielle Anforderungen (Ziff. 12, S. 25-26)
@@ -446,7 +448,7 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
   geschlossen mit Brandabschnittsfläche > 600 m² (mit Löschanlage 3'600 m²) sind RWA
   (ohne Leistungsnachweis) vorzusehen; bei Parkings über Terrain, nicht allseitig
   geschlossen, mit Brandabschnittsfläche > 2'400 m² (mit Löschanlage 4'800 m²) ebenso
-  (Ziff. 12.2 Abs. 9-10, S. 26-27).
+  (Ziff. 12.2 Abs. 9-10, S. 26).
 
 ## Fassung 01.01.2017 / Stand 17.05.2018 — Delta zur Fassung 01.01.2015
 
@@ -874,3 +876,70 @@ Parking-Brandabschnittsflächen.
   "Löscheinrichtungen", "Wärmetechnische Anlagen", "Lufttechnische Anlagen",
   "Gefährliche Stoffe") — diese sind bei Detailfragen zusätzlich zu konsultieren
   und ggf. separat zu destillieren.
+
+## Prüfstand (Methodik-Pflicht 13 — welche Methode lief auf welchem Teil)
+
+**Ausgangslage:** Für diese Arbeitshilfe lief am 27.07.2026 bereits eine unabhängige
+Verifikations-Runde — aber nur für den **Fassungs-Delta 2015→2017/2018** (23 amtlich
+gelistete Ziffern plus 5 zusätzlich gefundene redaktionelle Abweichungen, siehe Abschnitt
+«Unabhängige Verifikation»). Das ist Refuter-Arbeit im engen Sinn: geprüft wurde, ob die im
+Destillat behaupteten Änderungen stimmen. Eine klassische, vollständige Refuter-Runde über
+den **gesamten** Text der Arbeitshilfe (auch die zwischen den Fassungen unveränderten
+Stellen) ist nie gefahren worden — ebenso wenig eine Abdeckungsrichtung, die prüft, ob der
+gesamte Norminhalt überhaupt im Destillat steht. Beides holt Run N62-3 (29.08.2026) für die
+Abdeckungsrichtung nach; eine vollständige Refuter-Runde über den Gesamttext bleibt offen.
+
+| Teil der Quelle | Refuter-Richtung | Abdeckungsrichtung | Bemerkung |
+|---|---|---|---|
+| Ziff. 1 Rechtsverbindlichkeit (S. 5) | Kein Delta hier; nie Gegenstand einer Delta-Prüfung; volltextliche Refuter-Runde nie gefahren | **Run N62-3**: vollständig erfasst | Kurzer Text, 1:1 im Destillat. |
+| Ziff. 2 Begriffe (S. 5-6) | Delta (2.3/2.4 neu, Umnummerierung) unabhängig verifiziert 27.07.2026; Refuter-Runde über das ganze Kapitel sonst nie gefahren | **Run N62-3**: vollständig erfasst | Konkordanztabelle 2015↔2017 bereits im Destillat. |
+| Ziff. 3 Qualitätssicherung (S. 5-6) | Delta (3.3.2 redaktionell) unabhängig verifiziert 27.07.2026; Rest nie volltextlich gegengelesen | **Run N62-3**: 1 Nebenlücke gefunden und ergänzt | Ziff. 3.1 Allgemeines (QS-Grundpflichten) fehlte komplett. |
+| Ziff. 4.1 Baustoffe allgemein (S. 7-8) | Delta (Abs. 2, 3, 4, 6) unabhängig verifiziert 27.07.2026; übrige Absätze nie geprüft | **Run N62-3**: 1 Nebenlücke ergänzt | Abs. 5/7 (2015-Nr., = 2017 Abs. 5/7/8) fehlten. |
+| Ziff. 4.2 Gebäudehülle (S. 8-10) | Delta (4.2.1.1 nicht gelistet, aber 4.2.2.1/4.2.2.3/4.2.2.4/4.2.3 umfassend) unabhängig verifiziert 27.07.2026 | **Run N62-3**: 1 Kernlücke ergänzt | Ziff. 4.2.1.1 Abs. 3 (Feuerwehrzugänglichkeit Dachflächen) fehlte. |
+| Ziff. 4.3 Gebäudeausbau (S. 10-12) | Delta (4.3.1 Abs. 2, 4.3.2) unabhängig verifiziert 27.07.2026 | **Run N62-3**: vollständig erfasst | Keine weitere Lücke gefunden. |
+| Ziff. 4.4 Gebäudetechnik: Rohrleitungen/Kabel (S. 12-15) | Delta (4.4.1.1, 4.4.1.2, 4.4.2.2, 4.4.2.3) unabhängig verifiziert 27.07.2026 | **Run N62-3**: 1 Nebenlücke ergänzt | Ziff. 4.4.2.1 Abs. 1 und 3 (Kabel-Grundregeln) fehlten, nur Abs. 2 stand im Destillat. |
+| Ziff. 5 Brandschutzabstände (S. 13-14) | Delta (5.1 Abs. 2-3, rein redaktionell) unabhängig verifiziert 27.07.2026 | **Run N62-3**: vollständig erfasst | — |
+| Ziff. 6.1-6.3 Tragwerke, Standardlösung (S. 14-16) | Delta (6.3.1 Abs. 2/Tabelle) unabhängig verifiziert 27.07.2026; 6.1, 6.2, 6.3.2, 6.3.3 nie geprüft | **Run N62-3**: 1 Nebenlücke ergänzt | Ziff. 6.2 Standsicherheit und Ziff. 6.3.3 (erhöhte Anforderungen) fehlten. |
+| Ziff. 6.4 Brandabschnittsbildende Bauteile (S. 16-18) | Kein Delta hier; nie geprüft | **Run N62-3**: 1 Kernlücke + 2 Nebenlücken ergänzt | Ziff. 6.4.5 (Durchbrüche/Abschottungssysteme) fehlte komplett; 6.4.6.2-6.4.6.4 und 6.4.2/6.4.3 teilweise. |
+| Ziff. 7.1-7.3 Fluchtwege Grundsätze/Anzahl/Länge (S. 18-20) | Delta (7.3.2) unabhängig verifiziert 27.07.2026; 7.1, 7.2, 7.3.1, 7.3.3-7.3.5 nie geprüft | **Run N62-3**: 2 Nebenlücken ergänzt | Ziff. 7.2 Messweise und Teile von 7.3.1 fehlten. |
+| Ziff. 7.4-7.5 Fluchtwege Ausführung/RWA (S. 20-22) | Delta (7.4.3 Abs. 3) unabhängig verifiziert 27.07.2026; übrige Absätze nie geprüft | **Run N62-3**: 1 Nebenlücke ergänzt | Ziff. 7.4.7 fehlte. |
+| Ziff. 8 Technischer Brandschutz (S. 22) | Kein Delta; nie geprüft | **Run N62-3**: vollständig erfasst | — |
+| Ziff. 9 Zugang für die Feuerwehr (S. 22) | Kein Delta; nie geprüft — Ziffer war im Destillat vor Run N62-3 nirgends erwähnt | **Run N62-3**: Kernlücke gefunden und ergänzt | Ganze Ziffer (2 Absätze) fehlte, obwohl die alte Kapitelüberschrift «Ziff. 8-10» Vollständigkeit suggerierte. |
+| Ziff. 10.1 Beförderungsanlagen (S. 22) | Delta (Abs. 16, 2017 neu) unabhängig verifiziert 27.07.2026; Abs. 1-15 nie geprüft | **Run N62-3**: Kernlücke gefunden und ergänzt | Abs. 2-15 (Grossteil der Aufzugsschacht-Anforderungen) fehlten, nur Abs. 1 und 16 waren im Destillat. |
+| Ziff. 10.2 Wärmetechnische Anlagen (S. 23-24) | Kein Delta; nie geprüft | **Run N62-3**: 2 Nebenlücken ergänzt | 10.2.1 Abs. 2-3 und 10.2.2 Abs. 1 lit. a/e/f fehlten. |
+| Ziff. 10.3 Lufttechnische Anlagen (S. 24-25) | Delta (10.3.2 Abs. 2, 10.3.3 Abs. 2-3) unabhängig verifiziert 27.07.2026 | **Run N62-3**: vollständig erfasst | — |
+| Ziff. 11 Betrieblicher Brandschutz (S. 25) | Kein Delta; nie geprüft — Ziffer war im Destillat vor Run N62-3 nirgends erwähnt | **Run N62-3**: Kernlücke gefunden und ergänzt | Ganze Ziffer fehlte. |
+| Ziff. 12 Spezielle Anforderungen (S. 25-26) | Kein Delta; nie geprüft | **Run N62-3**: 1 Nebenlücke ergänzt | Ziff. 12.2 Abs. 6-8 (Sicherheitsbeleuchtung/Rettungszeichen Parkings) fehlten. |
+| Ziff. 13 Gültigkeit (S. 26/28) | Delta-Beobachtung («Datum blieb stehen») bereits im Destillat | **Run N62-3**: vollständig erfasst | — |
+| Anhang (S. 27/29) | Delta-Beobachtung («in beiden Fassungen gleich») bereits im Destillat | **Run N62-3**: vollständig erfasst | Einzige Grafik, urheberrechtlich geschützt, nicht reproduziert. |
+
+**Zusammenfassung Run N62-3 (Abdeckungsrichtung, 29.08.2026):**
+
+- **5 Kernlücken** gefunden und ergänzt: Ziff. 9 Zugang für die Feuerwehr (komplett fehlend),
+  Ziff. 11 Betrieblicher Brandschutz (komplett fehlend), Ziff. 6.4.5 Durchbrüche/
+  Leitungsführungen (komplett fehlend), Ziff. 10.1 Abs. 2-15 Beförderungsanlagen
+  (Grossteil der Aufzugsschacht-Anforderungen fehlte), Ziff. 4.2.1.1 Abs. 3 Feuerwehr-
+  zugänglichkeit Dachflächen.
+- **9 Nebenlücken** gefunden und ergänzt: Ziff. 3.1 QS-Grundpflichten, Ziff. 4.1 Abs. 5/7/8
+  (2015-Nr.), Ziff. 4.4.2.1 Abs. 1/3 Kabel, Ziff. 6.2/6.3.3/6.4.2/6.4.3 (allgemeine/
+  subsidiäre Bestimmungen), Ziff. 6.4.6.2-6.4.6.4 Installationsschächte, Ziff. 7.2
+  Messweise, Ziff. 7.3.1 Abs. 1/4, Ziff. 7.4.7, Ziff. 10.2.1 Abs. 2-3, Ziff. 10.2.2
+  Abs. 1 lit. a/e/f, Ziff. 12.2 Abs. 6-8.
+- **0 falsche Werte** in der ursprünglichen Refuter-Prüfung des Fassungs-Deltas gefunden —
+  dieser Befund bleibt bestehen. Bei der Abdeckungsrichtung selbst kamen **5 fehlerhafte
+  Seitenzitate** ans Licht, alle inline korrigiert: Ziff. 3.1 (bisher S. 6, korrekt S. 5),
+  Ziff. 9 (bisher versehentlich als S. 24 statt S. 22 neu zitiert — Fehler dieses Runs
+  selbst, sofort korrigiert), Ziff. 10.2.1 (Ergänzungs-Absätze bisher versehentlich S. 25
+  statt korrekt S. 23 zitiert — ebenfalls Fehler dieses Runs, sofort korrigiert),
+  Ziff. 6.3.3/6.4.2/6.4.3 (bisher versehentlich S. 17/17/18 statt korrekt S. 16/16/16
+  zitiert). Ursache: die Kernziffern-Seitenzahlen dieses Destillats folgen laut
+  Fassungshinweis durchgehend der **Fassung 2015**, nicht der Fassung 2017/2018 — ein
+  Zwischenstand dieses Runs hatte versehentlich gegen die 2017-Paginierung zitiert und
+  wurde vor Abschluss anhand des Inhaltsverzeichnisses und der Volltexte beider Fassungen
+  korrigiert.
+- **Status bleibt unverändert** (`established — Fassungs-Delta 2017/2018 unabhängig
+  verifiziert...`). Diese Abdeckungsrichtung betrifft nur die Vollständigkeit, nicht die
+  Richtigkeit des bereits verifizierten Fassungs-Deltas.
+- **Offen bleibt:** eine vollständige klassische Refuter-Runde über den kompletten
+  Ziffern-Wortlaut (nicht nur die Delta-Stellen) ist nie gefahren worden. Die Tabelle oben
+  weist das je Kapitel einzeln aus.

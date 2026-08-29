@@ -163,3 +163,11 @@ gängige Konverter zuverlässig öffnen** — der Hub-Skill `pdf2dwg` setzt auf 
 bei Vorversionen von R13 nur eingeschränkt trägt. Wer Geometrie aus dieser Sektion
 tatsächlich braucht, plant einen Öffnungsversuch mit Originalsoftware ein statt einer
 Stapelkonversion.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `Massreferenzen/PDF/SanitaerApparate.pdf` →
+  `wiki/sanitaerapparate-vectorworks-montagehoehen-referenzblatt.md`
+
+Einzige P1-Position destilliert. P2 (ArchiCAD-Bürovorlage, Plankopf-Standard,
+Massstabssymbole, H-und-P-Bibliothek u.a.) bleibt offen für einen späteren Lauf.

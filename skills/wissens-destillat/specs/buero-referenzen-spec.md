@@ -212,13 +212,21 @@ vorhandenen Inventar auf, wird sie nicht eigenmächtig entfernt, sondern im Lauf
       Bildlegenden-Arbeitsblätter ohne Fliesstext (begründet nicht destilliert). Siehe
       `raw/inventar/buero-referenzen__20_Rendering.md` Abschnitt
       «Destillat-Fortschritt».
-- [x] **Damit ist die im Spec-Plan vom 29.08.2026 vorgesehene Sektionsfolge
-      vollständig durchlaufen.** Der nächste Lauf gleicht `wiki/INDEX.md` «Sektionen
-      nach Ertrag» neu gegen `raw/inventar/` ab, statt den Korpus vorschnell auf
-      «erledigt» zu setzen — die P1-einstelligen Sektionen (`12_Masse`, `21_Rhino`,
-      u.a.) sind noch unangetastet, ebenso das gesamte P2 aller fünf bisher
-      bearbeiteten Sektionen. Korpus `buero-referenzen` ist daher weiterhin **nicht**
-      «erledigt» im Sinn von `KORPUS-QUEUE.md`.
+- [x] **Die im Spec-Plan vom 29.08.2026 vorgesehene Sektionsfolge vollständig
+      durchlaufen**, danach `wiki/INDEX.md` «Sektionen nach Ertrag» gegen
+      `raw/inventar/` abgeglichen (Register war seit 23.08.2026 veraltet). Fünf
+      weitere Sektionen mit offenen P1-Positionen gefunden und in Läufen 6–9 (selber
+      Tag) destilliert: `12_Masse`, `21_Rhino`,
+      `08_Karten_Plaene_Weltweit`/`08_Karten_Plaene_Zuerich` (gemeinsam, 1 Artikel),
+      `09_Konstruktion`, `22_Terminplanung`, `26_Zeichendateien_Vorlagen` — elf
+      weitere Artikel. Alle übrigen Sektionen einzeln auf P1 = 0 geprüft.
+- [x] **Damit sind alle P1-Positionen des Korpus `buero-referenzen` über sämtliche
+      23 inventarisierten Sektionen destilliert.** P2 bleibt in jeder Sektion offen
+      — der Korpus gilt gemäss `KORPUS-QUEUE.md` (P1 **und** P2) daher weiterhin
+      **nicht** als «erledigt», aber der dringlichere Teil ist vollständig. Nächster
+      Schritt gemäss Auftrag Raphael 29.08.2026: Korpus 4 `archiv-fachwissen`
+      (eigene Spec fällig, gleiches Schema). Ein künftiger P2-Lauf für
+      `buero-referenzen` bleibt offen, ist aber nicht mehr dringlich.
 - [ ] Kurator-Stufe (Opus) je Lauf gemäss SKILL.md Schritt 4, mit Zusatzprüfung Anonymisierung
       für Artikel aus `18_Projektkostenplanung`/`25_Wettbewerb`.
 - [ ] Sobald alle P1-Positionen des Korpus `buero-referenzen` destilliert oder begründet

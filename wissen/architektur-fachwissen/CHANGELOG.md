@@ -1,5 +1,64 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Spec-Stufe Korpus `archiv-fachwissen` (Lane FACHWISSEN, selber Tag, Fortsetzung)
+
+`skills/wissens-destillat/specs/archiv-fachwissen-spec.md` neu geschrieben (Vorbild
+`buero-referenzen-spec.md`), da Korpus `buero-referenzen` (Korpus 3) in diesem Lauf alle
+P1-Positionen fertiggestellt hat und der Auftrag danach zu Korpus 4 übergeht. Kein
+Wiki-Artikel in diesem Schritt, kein Inventar verändert — reine Spec-Stufe gemäss
+Queue-Regel («kein Destillat ohne Spec»). Kernentscheide der Spec: fünf Ziel-Artikel-Typen
+(Denkmalpflege, Kostenermittlungs-/Normmethodik, Entwurfs-/Städtebau-Begriffsapparat,
+Tragwerk/Konstruktion, Referenz/Fundstelle); scharfe Norm-Original-Abgrenzung (Korpus
+enthält vollständige SIA-/VKF-/VSS-PDFs, die nie destilliert, nur methodisch referenziert
+werden); Leutschenbach-Duplikatsprüfung gegen Korpus 3 als Pflichtschritt vor jedem neuen
+Artikel aus `03_Bauprozesse_I_II`; Privatunterlagen-Vorbehalt für vier noch nicht
+inventarisierte bzw. reisejournalartige Sektionen (`04_Politik`, `05_Kultur_Gesellschaft_Stil`,
+`06_Reisen`, `07_Religion`); erster empfohlener Destillat-Lauf `02_Denkmalpflege` (vier
+Fachbausteine, kein Duplikatsrisiko). Bei dieser Gelegenheit auffällig gewordene, veraltete
+Kennzahl in `KORPUS-QUEUE.md` (Stand 23.08.2026 nannte 4 von 23 Sektionen, tatsächlich
+liegen 20 Inventardateien vor) korrigiert und die Zeile entsprechend nachgeführt.
+
+## 2026-08-29 — Sechster bis neunter Destillat-Lauf: alle P1-Positionen des Korpus `buero-referenzen` fertiggestellt (Lane FACHWISSEN, selber Tag, Fortsetzung)
+
+Abgleich von `wiki/INDEX.md` «Sektionen nach Ertrag» gegen `raw/inventar/` (das
+Register war seit 23.08.2026 veraltet, Phase 0 war seither auf alle 23 Sektionen
+des Korpus gewachsen): fünf weitere Sektionen trugen unbearbeitete P1-Positionen.
+Elf Wiki-Artikel neu geschrieben, alle `status: emerging`:
+
+- `12_Masse`: `sanitaerapparate-masstabellen-montagehoehen.md`,
+  `nasszellen-achsabstaende-komfortstufen-bedarfszahlen.md` (Apparate-Masstabellen,
+  Achs-/Wandabstände MD/MI/MK, hindernisfreie Sanitärräume mit SIA-500-Vorbehalt)
+- `21_Rhino`: `rhino-planausgabe-kette-make2d-layout-druck.md`,
+  `rhino-freiform-stetigkeit-flowalongsrf.md` (McNeel Training Manuals, Urheberrecht
+  beachtet: sinngemäss, nie Wortlaut)
+- `08_Karten_Plaene_Weltweit` + `08_Karten_Plaene_Zuerich`:
+  `orthofoto-nutzungsbestimmungen-stadt-zuerich-zwei-fassungen.md` — ein Artikel für
+  dieselbe Dokumentfamilie in zwei Fassungen (2001/2002), die in beiden Sektionen je
+  eine eigene P1-Position war
+- `09_Konstruktion`: `flachdachaufbauten-vier-typen-textbausteine.md`,
+  `werkplan-textapparat-abkuerzungen-schalungsplan.md` (Drittpläne, Herstellerdaten
+  Stand 2007/2008 als Vorbehalt markiert)
+- `22_Terminplanung`: `terminplan-phasenkette-oeffentliche-bauherrschaft-leutschenbach.md`,
+  `grobterminplan-gewerkefolge-elementbau-leutschenbach.md`,
+  `feinterminplan-excel-vorlage-endspurt-baueingabe.md` (Schulanlage Leutschenbach,
+  öffentlich ausgeschrieben, sowie eine büroeigene Excel-Vorlage von Raphael Jans)
+- `26_Zeichendateien_Vorlagen`: `sanitaerapparate-vectorworks-montagehoehen-referenzblatt.md`
+
+Fortschritt je Sektion im jeweiligen `raw/inventar/buero-referenzen__*.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` zeigt durchgehend `-0`,
+teils bereits durch den `nas-selfcommit`-Autocommit der Station bestätigt).
+`wiki/INDEX.md` nachgeführt.
+
+**Geprüft: alle übrigen Sektionen ohne eigenen Fortschritts-Abschnitt tragen P1 = 0**
+(elf Sektionen einzeln per Zählungs-/Summenzeile verifiziert) — nichts offen dort.
+
+**Damit sind alle P1-Positionen des Korpus `buero-referenzen` über sämtliche 23
+inventarisierten Sektionen destilliert.** P2 bleibt in jeder Sektion offen; der
+Korpus gilt daher gemäss `KORPUS-QUEUE.md` (P1 **und** P2) noch nicht als
+«erledigt», aber der dringlichere Teil ist vollständig. `KORPUS-QUEUE.md`
+entsprechend nachgeführt. Nächster Schritt gemäss Auftrag Raphael 29.08.2026:
+Korpus 4 `archiv-fachwissen`.
+
 ## 2026-08-29 — Fünfter Destillat-Lauf Korpus `buero-referenzen`, Sektion `20_Rendering` (Lane FACHWISSEN, selber Tag, mit Nachtrag vollständig erledigt)
 
 Vier Wiki-Artikel neu geschrieben, alle `status: emerging`, aus der ETH-Theoriesektion

@@ -180,3 +180,15 @@ kritischen Weg oder zu Pufferstrategien, kein Bauzeitenmodell fuer Umbau im lauf
 ohne Fachinhalt. Wer die Sektion destilliert, holt Gliederungen und Dauern-Relationen heraus,
 keine Terminplanungs-Lehre. Die Normseite dazu bleibt beim Skill `normen` und der KB
 `wissen/normen` zu belegen.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `Leutschenbach/Terminplan_aktuell_Juni04.pdf` →
+  `wiki/terminplan-phasenkette-oeffentliche-bauherrschaft-leutschenbach.md`
+- 2026-08-29: `Leutschenbach/Grobterminplan.pdf` →
+  `wiki/grobterminplan-gewerkefolge-elementbau-leutschenbach.md`
+- 2026-08-29: `Eberle/XLS/091222.xls` + `Eberle/PDF/091222.pdf` →
+  `wiki/feinterminplan-excel-vorlage-endspurt-baueingabe.md`
+
+Alle 3 P1-Positionen destilliert. P2 (`100318_Grobterminplan.doc`, Einseiter-Vorlage Privatprojekt)
+bleibt offen für einen späteren Lauf.
