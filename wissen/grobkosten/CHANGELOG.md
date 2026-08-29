@@ -1,5 +1,33 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-29 (Schub-Lane grobkosten, vierter Dispatch selber Tag, ~22:20 Uhr) — erneut Duplikat erkannt, erneut keine Verdichtung erzwungen
+
+**Befund:** vierter Dispatch derselben Lane binnen desselben Tages mit wortgleichem Auftragstext
+("20 raw-Eintraege, erst 3 Wiki-Artikel", identische Projektliste). Unabhaengig gegengeprueft:
+`raw/` (NAS-Kopie) enthaelt weiterhin genau 18 reale Eintraege (ohne `README.md`/`_INGESTED.md`),
+alle 18 stehen im Frontmatter `sources:` von `wiki/kennwerte.md`; `training/quellen-inventar.md`
+enthaelt 9 Fundstellen von `[ ]`, deckungsgleich mit dem in den beiden Vorlaeufer-Eintraegen
+bestaetigten Befund "Vergangenheitsprosa abgeschlossener Runs, keine offene Tabellenzeile" (Anzahl
+ungeaendert). `wiki/INDEX.md` fuehrt die Raw-Material-Status-Tabelle unveraendert vollstaendig.
+
+**Nebenbefund (Betrieb, nicht Wissensinhalt):** die NAS-Live-Kopie von `CHANGELOG.md` trug vor
+dieser Ergaenzung nur bis zum "zweiter Dispatch"-Eintrag (22:00 Uhr) — der "dritter Dispatch"-
+Eintrag (~22:09 Uhr) existierte bereits im Git-Log (Commit `da32ffdf5`, `auto-sync [Macmini]`,
+22:10:28 Uhr) und im lokalen SSD-Klon, aber nicht (mehr) im gemeinsamen NAS-Share. Ursache nicht
+abschliessend geklaert (vermutlich Timing zwischen NAS-Selfcommit-Takt und Auto-Sync); der Inhalt
+selbst war identisch und ist mit dieser Ergaenzung wieder auf der NAS-Kopie nachgefuehrt. Kein
+Datenverlust, da Git die vollstaendige Historie haelt — als Hinweis fuer Raphael vermerkt, falls
+sich das Muster wiederholt.
+
+**Nicht ausgefuehrt:** kein vierter inhaltsgleicher Verdichtungsdurchgang — `raw/`,
+`wiki/kennwerte.md` und `wiki/INDEX.md`-Tabelle bleiben unangetastet, kein Kennwert erzeugt.
+
+**Hinweis fuer den Dispatcher (wiederholt, jetzt zum vierten Mal):** die Vorlagenzahl "20 raw /
+3 Wiki-Artikel" ist weiterhin nicht aktualisiert und loest denselben Auftrag wiederholt aus —
+ohne neues Rohmaterial in `raw/` erzeugt jeder weitere Dispatch dieser Lane nur denselben
+Nulldurchgang. Empfehlung unveraendert: Lane auf Ereignis-Trigger (neues Rohmaterial in `raw/`)
+statt Tages-Rotation umstellen.
+
 ## 2026-08-29 (Schub-Lane grobkosten, zweiter Dispatch selber Tag) — Duplikat-Auftrag erkannt, keine erneute Verdichtung erzwungen
 
 **Befund:** dieselbe Lane erhielt am selben Tag ein zweites Mal exakt denselben Auftragstext
