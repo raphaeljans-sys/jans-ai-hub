@@ -718,3 +718,15 @@ Ausgabe genannt, zwei Tippfehler) wurde geprüft und als ohne verifizierbaren Me
 gegenüber `references/bkp-2017/` eingestuft — keine offene Frage, sondern zur
 Nachvollziehbarkeit vermerkt, falls ein künftiger Lauf dieselbe Position erneut aufgreifen
 möchte.
+
+## 260830 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II` (Lane FACHWISSEN)
+
+**#67 Cross-KB-Kandidat: KBOB-Honorarempfehlung 2002 (Gleitpreisklausel) gehört eher zu
+`honorarberechnung-sia102`/`wissen/normen` als zu `architektur-fachwissen`.**
+`05_Vertraege/2_2002_KBBOB Hilfe Arch_verträge.pdf` beschreibt die Honorierungsmechanik mit
+Gleitpreisklausel (Fixanteil 20 %, Lohnanteil 80 %) und der Zweiprozent-Schwelle für
+Teuerungsabrechnungen. Die Tarifwerte von 2002 sind überholt, die Mechanik nicht. Nicht in
+dieser KB destilliert (Abgrenzung `archiv-fachwissen-spec.md`: Honorarmethodik ist kein
+Ziel-Artikeltyp dieser KB); als Fundstelle für einen künftigen Lauf des Skills
+`honorarberechnung-sia102` oder der KB `wissen/normen` vorgemerkt. Wer beantworten kann:
+die zuständige Lane/der zuständige Skill bei Gelegenheit.

@@ -3,7 +3,7 @@ title: "eBKP-H 2012: Musterbeispiel «Haus im Forst» auf drei Genauigkeitsstufe
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/03_Bauprozesse_I_II/03_Kostenplanung/04_eBKP_H/00_Unterlagen/A_Hauptgruppen_Schaetzung_Finanzbedarf_de.pdf (CRB, 30.03.2009, Volltext gelesen)", "/Volumes/daten/02_Architektur_Archiv/03_Bauprozesse_I_II/03_Kostenplanung/04_eBKP_H/00_Unterlagen/B_Elementgruppen_Kostengrobschaetzung_de.pdf (CRB, 30.03.2009, Volltext gelesen)", "/Volumes/daten/02_Architektur_Archiv/03_Bauprozesse_I_II/03_Kostenplanung/04_eBKP_H/00_Unterlagen/C_Element_Kostenschaetzung_de.pdf (CRB, 30.03.2009, Volltext gelesen)", "raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md Abschnitt 5", "references/bkp-2017/BKP-2017-Liste.md"]
-links: ["[[ebkp-h-2012-bezugsgroessen-kuerzel-tabelle]]"]
+links: ["[[ebkp-h-2012-bezugsgroessen-kuerzel-tabelle]]", "[[ebkp-h-2012-gliederungslogik-elementarten-oak-eak-kataloge]]"]
 ---
 
 # eBKP-H 2012: Musterbeispiel «Haus im Forst» auf drei Genauigkeitsstufen

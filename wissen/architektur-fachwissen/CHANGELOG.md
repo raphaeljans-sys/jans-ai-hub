@@ -1,5 +1,58 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II`, erster P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station
+fälschlich als «MacBook Pro» bezeichnet — tatsächlicher Hostname laut `scutil` **Macmini**;
+dreizehntes Beispiel desselben Musters, Memory `project_fachwissen-dispatch-loop`). Lauf hat
+sich am realen Stand in `KORPUS-QUEUE.md` orientiert. `ps aux` vor Arbeitsbeginn geprüft:
+kein FACHWISSEN-Duplikat.
+
+Mit Sektion `01_Konstruktion` abgeschlossen (P1+P2, vorheriger Lauf) rückt gemäss Queue-Regel
+«nächstgrösste Sektion nach Ertrag» `03_Bauprozesse_I_II` nach (P1 bereits im zweiten Lauf
+dieses Korpus abgeschlossen, P2 mit 96 Positionen bislang vollständig offen). Drei neue
+Wiki-Artikel, alle Primärquellen vollständig gelesen (`pypdf` für PDF, `textutil` für die
+drei alten `.doc`-Dateien):
+
+- [[kostenvoranschlag-merkblatt-oeffentliche-bauherrschaft-reserven-verwaltungskosten]] —
+  Kostenvoranschlag-Merkblatt Grün Stadt Zürich (v2013-01): Reserven-Prozentsätze BKP 61/62
+  (5 % Ungenauigkeit + 10 % Unvorhergesehenes), Verwaltungskostenzuschlag 7,5 % (BKP 558),
+  weiter Kostenumfang-Begriff im Verpflichtungskredit (Wettbewerb, Landerwerb, Provisorien,
+  Erstausstattung), MWST-Handhabung ohne separate Position.
+- [[ebkp-h-2012-gliederungslogik-elementarten-oak-eak-kataloge]] — die drei
+  Gliederungsebenen des eBKP-H 2012 (Hauptgruppe/Elementgruppe/Element) und die
+  Elementarten als vierte, nicht genormte Stufe; Verweis auf die CRB-Kataloge OAK
+  (Objektarten, reale Kennwerte für neun dokumentierte Wohnbauten) und EAK (Elementarten),
+  deren Kennwerte selbst wegen CRB-Copyright nicht reproduziert werden. Rückverlinkt mit
+  den beiden bereits bestehenden eBKP-H-Artikeln dieser Sektion (Backlink-Ergänzung im
+  Frontmatter, `git diff --numstat` je 1/1 geprüft, kein Inhalt entfernt).
+- [[eth-checklisten-kontextanalyse-bauelementglossar-abgabeliste]] — drei kurze
+  ETH-Checklisten (Kontext-/Tektonik-Analyseraster «Arch+TT» WS 07/08,
+  Bauelement-Begriffsglossar, Abgabe-Deliverable-Liste für ein Semesterprojekt), `status:
+  speculative` mangels belegter Autorenschaft.
+
+**Wichtigster Befund des Laufs: Doppelarbeit vermieden statt neu produziert.**
+`schaetzungsanleitung_kap5.pdf`, der laut Inventar grösste verbleibende P2-Einzelfund dieser
+Sektion, wurde vollständig gelesen (alle 30 Tabellen, 41 Seiten) — die fachlich wertvollen
+Tabellen (Lebensdauer Baumaterialien, wirtschaftliches Alter, Wertminderungstabelle,
+Neuwert-Richtwerte, BKP-2-Prozentanteile) sind bereits **vollständig und mit
+Berechnungsbeispiel** in `wissen/immobilienbewertung/wiki/realwert-sachwert.md` destilliert
+(dortige Quelle IMMO-03). Kein Doppelartikel geschrieben, Cross-KB-Fund in der Inventardatei
+vermerkt. Ebenfalls bewusst nicht hier destilliert: mehrere Norm-Originale/Sekundärliteratur
+(VKF-Fluchtwegelängen, VSS-Sichtzonen SN 640 273a, SIA-500-Sekundärliteratur — Abgrenzung
+`archiv-fachwissen-spec.md`, gehören zu `wissen/normen`) sowie die KBOB-Honorarempfehlung
+2002 (Gleitpreisklausel-Mechanik) als Cross-KB-Kandidat für `honorarberechnung-sia102`,
+festgehalten in `wiki/QUESTIONS.md` #67.
+
+Fortschritt und vollständige Begründung je Position:
+`raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` Abschnitt «Destillat-Fortschritt —
+Ergänzung 2026-08-30», reiner Append (`git diff --numstat` 73/0 geprüft). Sperrliste-Prüfung:
+keine neuen Funde. **P2 dieser Sektion bleibt zu rund 15–20 Positionen offen**
+(Bauprozess-Systematik nach Menz mit Urheberrechtsvorbehalt, Ausschreibungsbeispiele mit
+noch ausstehender Anonymisierungsprüfung, Baubeschrieb-Musterbeispiel). Der
+Entscheidungspunkt Raphaels (`QUESTIONS.md` #1/#58/#60/#63: P2 systematisch fortsetzen vs.
+Phase-0-Nachholung für die 12 offenen Sektionen) bleibt unverändert offen.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Konstruktion` ABGESCHLOSSEN (P1+P2), vierter P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec», zwölftes Beispiel desselben

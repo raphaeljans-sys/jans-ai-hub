@@ -988,4 +988,45 @@ geprüft). Sperrliste-Prüfung: keine neuen Funde. Nächster Schritt gemäss Que
 nächste Sektion des Korpus `archiv-fachwissen` nach Ertrag (siehe «Sektionen nach Ertrag»
 oben), oder der weiterhin offene Entscheidungspunkt Raphaels (`QUESTIONS.md`
 #1/#58/#60/#63) zwischen weiterer P2-Priorisierung und Phase-0-Nachholung der 12 noch
+offenen Sektionen.
+
+## 260830 — Zweiundzwanzigster Destillat-Lauf (Korpus 4, Sektion `03_Bauprozesse_I_II`, erster P2-Lauf)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station
+fälschlich als «MacBook Pro» bezeichnet — `scutil --get LocalHostName` zeigt **Macmini**,
+dreizehntes Beispiel desselben Musters, Memory `project_fachwissen-dispatch-loop`). Lauf
+orientierte sich am realen Stand (`KORPUS-QUEUE.md`, dieses Register). `ps aux` vor
+Arbeitsbeginn geprüft: kein FACHWISSEN-Duplikat, nur der eigene Prozess.
+
+Mit `01_Konstruktion` (P1+P2 vollständig) folgt gemäss Queue-Regel «nächstgrösste Sektion
+nach Ertrag» die drittgrösste Sektion `03_Bauprozesse_I_II` (58 P1, P1 bereits im zweiten
+Lauf dieses Korpus abgeschlossen; P2 mit 96 Positionen bislang vollständig offen). Drei
+neue Wiki-Artikel:
+
+- [[kostenvoranschlag-merkblatt-oeffentliche-bauherrschaft-reserven-verwaltungskosten]] —
+  GSZ-Kostenvoranschlag-Merkblatt 2013: Reserven-Prozentsätze BKP 61/62,
+  Verwaltungskostenzuschlag 7,5 %, Kostenumfang im Verpflichtungskredit
+- [[ebkp-h-2012-gliederungslogik-elementarten-oak-eak-kataloge]] — eBKP-H-Gliederungslogik
+  (Hauptgruppe/Elementgruppe/Element), Elementarten, Verweis auf CRB-Kataloge OAK/EAK
+  (Kennwerte selbst nicht reproduziert, Copyright); rückverlinkt mit den beiden bereits
+  bestehenden eBKP-H-Artikeln dieser Sektion
+- [[eth-checklisten-kontextanalyse-bauelementglossar-abgabeliste]] — drei ETH-Checklisten
+  (Kontext-/Tektonik-Analyseraster, Bauelement-Glossar, Abgabe-Deliverable-Liste), `status:
+  speculative`
+
+**Wichtiger Cross-KB-Befund:** `schaetzungsanleitung_kap5.pdf` (P2-Hauptkandidat laut
+Inventar) ist bei Volltextprüfung bereits **vollständig** in
+`wissen/immobilienbewertung/wiki/realwert-sachwert.md` destilliert (Tab. 2/3/9/10/11,
+Lebensdauer/wirtschaftliches Alter/Wertminderung mit Berechnungsbeispiel) — kein
+Doppelartikel geschrieben, nur in der Inventardatei vermerkt. Ausserdem mehrere
+Norm-/Urheberrechts-Positionen bewusst nicht hier destilliert (VKF-Fluchtwegelängen,
+VSS-Sichtzonen, SIA-500-Sekundärliteratur — gehören zu `wissen/normen`; KBOB-Honorarempfehlung
+2002 eher zu `honorarberechnung-sia102`, Cross-KB-Hinweis in `QUESTIONS.md`).
+
+**P2 dieser Sektion bleibt zu rund 15–20 Positionen offen** (Bauprozess-Systematik Menz,
+Ausschreibungsbeispiele mit Anonymisierungsprüfung, Baubeschrieb-Musterbeispiel) — Details
+`raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` Abschnitt «Destillat-Fortschritt —
+Ergänzung 2026-08-30», reiner Append (`git diff --numstat` 73/0 geprüft). Der
+Entscheidungspunkt Raphaels (`QUESTIONS.md` #1/#58/#60/#63) bleibt unverändert offen und
+wurde in diesem Lauf bewusst kein weiteres Mal wiederholt.
 uninventarisierten Sektionen.

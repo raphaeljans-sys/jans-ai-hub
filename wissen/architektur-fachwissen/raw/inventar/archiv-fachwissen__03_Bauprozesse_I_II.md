@@ -537,3 +537,76 @@ Cross-KB-Fund (`wissen/grobkosten`) oder technisch nicht sauber destillierbar (n
 Kopfstruktur, Testfixture, unvollständige Quelle). **Kein weiterer eigenständiger
 P1-Artikel für diese Sektion offen.** P2 bleibt vollständig offen (u. a. `schaetzungsanleitung_kap5.pdf`,
 OAK/EAK-Kataloge, KV-Deffisierung-Erläuterungen, Bauprozess-Systematik).
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (P2, erster Lauf dieser Sektion)
+
+Zweiundzwanzigster Destillat-Lauf des Korpus `archiv-fachwissen` (Lane FACHWISSEN), erster
+gezielter P2-Lauf der Sektion `03_Bauprozesse_I_II` (drittgrösste Sektion nach Ertrag,
+nächster Schritt gemäss `KORPUS-QUEUE.md` nach Abschluss von `01_Konstruktion`). Alle
+Aussagen gegen die Primärquelle (PDF/DOC im Archiv), nicht nur gegen diese
+Inventar-Zusammenfassung, verifiziert (30.08.2026).
+
+**Destilliert (drei neue Wiki-Artikel, alle `status: emerging` bzw. `speculative`):**
+
+- [x] `05_KV_Deffisierung/2013_KV_Merkblatt.pdf` (Grün Stadt Zürich, v2013-01) →
+  [[kostenvoranschlag-merkblatt-oeffentliche-bauherrschaft-reserven-verwaltungskosten]],
+  neu. Reserven-Prozentsätze BKP 61/62, Verwaltungskostenzuschlag 7,5 %, MWST-Handhabung,
+  weiter Kostenumfang-Begriff im Verpflichtungskredit.
+- [x] `05_KV_Deffisierung/Elementbasierter Kostenvoranschlag.pdf` (Web-Auszug, sinngemäss)
+  + `08_OAK_Objektkatalog_264.-/OAK_de.pdf` (CRB, Impressum/Inhaltsverzeichnis) →
+  [[ebkp-h-2012-gliederungslogik-elementarten-oak-eak-kataloge]], neu. Drei
+  Gliederungsebenen (Hauptgruppe/Elementgruppe/Element), Elementarten als vierte, nicht
+  genormte Stufe, Verweis auf OAK/EAK-Kataloge (Kennwerte selbst nicht reproduziert,
+  CRB-Copyright). Rückverlinkt mit den beiden bereits bestehenden eBKP-H-Artikeln dieser
+  Sektion (frontmatter `links:` ergänzt, `git diff --numstat` je 1/1 geprüft — reine
+  Backlink-Ergänzung, kein Inhalt entfernt).
+- [x] `06_Checklisten/Checkliste.doc` + `Grundlegende Bauelemente.doc` +
+  `Inhalt_Abschlusspraesentation.doc` (alle undatiert bis WS 07/08, per `textutil`
+  extrahiert) → [[eth-checklisten-kontextanalyse-bauelementglossar-abgabeliste]], neu,
+  `status: speculative` (Autorenschaft nicht abschliessend belegt).
+
+**Cross-KB-Duplikat, hier nicht destilliert:**
+
+- [=] `11_Kostenkennzahlen/schaetzungsanleitung_kap5.pdf` — vollständig geprüft (Tabellen
+  1–11 gelesen). Tab. 2/3/9/10/11 (Neuwert-Richtwerte, BKP-2-Prozentanteile, Lebensdauer
+  Baumaterialien, wirtschaftliches Alter, Wertminderungstabelle) sind bereits belegt
+  destilliert in `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (Quelle IMMO-03
+  Schätzungen, dort vollständig mit Berechnungsbeispiel). Kein Doppelartikel in dieser KB;
+  die übrigen Tabellen (Zürcher/Luzerner Baukostenindex, Lageklassenschlüssel,
+  Rentenbarwert-/Abzinsungsfaktoren, Gastgewerbe-Bewertungskriterien) sind reine
+  Zahlenreihen ohne eigenständigen Fachwissens-Mehrwert über die bereits destillierten
+  Tabellen hinaus.
+
+**Nicht destilliert (Cross-KB/Abgrenzung, gehört zu `wissen/normen`):**
+
+- [=] `01_Normen_PM/VKF 1.1.15_.../VKF_Fluchtwegelängen_16-03d.pdf` +
+  `web_distances_policedufeu_2015_d.pdf` — Norm-/kantonale Vollzugshilfe, Abgrenzung
+  `archiv-fachwissen-spec.md`.
+- [=] `01_Normen_PM/VSS-Norm-SN 640 273a_Sichtzone/` — Norm-Original (VSS).
+- [=] `01_Normen_PM/SIA_500_.../00_sekundaer/` — Sekundärliteratur zu SIA 500, gehört
+  methodisch zu `wissen/normen`.
+- [=] `05_Vertraege/2_2002_KBBOB Hilfe Arch_verträge.pdf` — KBOB-Honorarempfehlung 2002
+  (Gleitpreisklausel), inhaltlich näher an Skill `honorarberechnung-sia102`/`wissen/normen`
+  als an dieser KB; Tarifwerte 2002 ohnehin überholt. Cross-KB-Hinweis `wiki/QUESTIONS.md`.
+
+**Zurückgestellt (P2, geringer Ertrag im Verhältnis zum Aufwand):**
+
+- [-] `00_Administration/01_Skripte/bauprozesse.pdf` (40 S., Zusammenfassung fremder
+  Lehrbücher nach Menz) — Urheberrechtslage einer vollständigen Zusammenfassung eines
+  fremden Lehrbuchs unklar; in diesem Lauf nicht destilliert.
+- [-] `00_Administration/02_Vorlesung/04_doppelR/` (Kapitelweise Kurzdestillate) — 
+  Fremdautor-Zusammenfassung, gleiche Urheberrechtsvorsicht.
+- [-] `03_Kostenplanung/00_Organisation/10_.../11_Tools/` (AVA-Software-Vergleich 2011) —
+  Marktbild veraltet, kein aktueller Mehrwert für eine Ausschreibungs-Anforderungsliste;
+  in diesem Lauf zurückgestellt.
+- [-] `02_Projektbeschriebe/Beschriebe.doc` + `03_Kostenplanung/Baubeschrieb.pdf` — noch
+  nicht gelesen, für einen Folgelauf offen.
+- [-] `01_Phasen_Kostenaufstellungen/03_Ausschreibung/` (Ausschreibungspläne + reale
+  Unternehmerofferte) — Anonymisierungsprüfung (Unternehmername) nötig, in diesem Lauf aus
+  Zeitgründen zurückgestellt.
+
+**P2-Status dieser Sektion nach diesem Lauf: drei neue Fachbausteine destilliert, ein
+grosser Cross-KB-Fund vermieden (Doppelarbeit mit `immobilienbewertung`), mehrere
+Norm-/Urheberrechts-Positionen bewusst nicht hier destilliert. Rund 15–20 P2-Positionen
+bleiben für einen Folgelauf offen** (Bauprozess-Systematik Menz, Ausschreibungsbeispiele,
+KBOB-Gleitpreisklausel als Cross-KB-Kandidat, Baubeschrieb-Musterbeispiel).
