@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 00:27:02
+Stand: 30.08.2026 00:37:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 00:27:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b86fe2e8a wissens-destillat archiv-fachwissen 01_Konstruktion P2: Deckenaufbauten-Vergleichsstudie, Lueftungsgrundlagen/CO2 ETH Leibundgut (drei Artikel)
+- 45234ff73 nas-selfcommit: 3 Datei(en) 2026-08-30 00:30
