@@ -4,6 +4,52 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 20:33 (Mac Mini, Schub-Lane SYNOBSIS) — Bestandsqualitaet: Fehlextraktionen, Katalog-Kollisionen und Sonderzeichen-Regel bereinigt
+
+Auftrag Raphael 29.08.2026 (Wochenkontingent vor Montags-Reset): Katalog ist saturiert (853/853),
+offen ist die Qualitaet des Bestandes gemaess den in `wiki/QUESTIONS.md` belegten Maengeln aus
+Charge 5/6. Vier Prioritaeten abgearbeitet:
+
+**1. Fehlextraktionen (6 Eintraege gepruft, 4 korrigiert, 2 auf textlos gesetzt):** Im Bestand
+nach der richtigen Textquelle gesucht (nie geraten). Korrigiert: **Tadao_Ando** (jetzt Text aus
+KONFERENZPAVILLON_T.Ando.doc statt Koolhaas' «Junkspace»; der Scanner extrahiert .doc technisch
+nicht, Text per `textutil` manuell nachgezogen), **Spuehler_Martin** (Architektur & Technik
+7/2004-Artikel zur Selnau-Ueberbauung statt Stuttgart-21-Artikelrand), **Pouillon_Fernand**
+(Pavillon-de-l'Arsenal-Text statt Sik-Seminarwochen-Flyer), **Romero_Schaefle** (Betonforum-ZH-
+Vortrag 2012 des Bueros Romero & Schaefle statt de-Sede-Sofatext des gleichnamigen
+Moebeldesigners — Namensgleichheit zweier verschiedener Personen bestaetigt). Auf textlos
+(leerer Textauszug statt Falschtext) gesetzt: **Wurster_William** und **Pfister_Gebrueder** —
+in beiden Faellen ist die Fehlextraktion das einzige Dokument im Ordnerbestand, keine Alternative
+vorhanden. **Rohn_Roland** gepruft: Text ist inhaltlich korrekt, keine Korrektur noetig; das in
+QUESTIONS.md vermerkte «Neuer Ordner»-Element ist ein separates Parser-/Ablageartefakt.
+
+**2. Katalog-Kollisionen (4/4 auf Datenebene behoben):** Christ_Gantenbein, Enzmann_Fischer,
+Miller_Maranta und Gigon_Guyer trugen je zwei Quellordner (Leerzeichen-/Unterstrich-Variante),
+von denen der Scanner nur einen im Katalog abgebildet hatte. Beide Quellordner sind jetzt je
+Eintrag im neuen Feld `quellordner` ausgewiesen, Projekte/Inventar/Dateitypen beider Ordner
+zusammengefuehrt. Bei Gigon_Guyer hatte ausnahmsweise der KLEINE Ordner den GROSSEN verdraengt
+(Kirchnermuseum, Prime Tower u.a. waren komplett unsichtbar). Der Scanner-Bug selbst
+(`tools/synobsis_scan.py` erkennt kollidierende Slugs nicht) ist NICHT behoben — ein
+`--reindex`-Lauf wuerde die Kollision wieder erzeugen; Parser-Verfeinerung bleibt offen.
+
+**3. Sonderzeichen-Regel vereinheitlicht:** Regel nach dem bereits korrekten Vorbild
+Utzon_Jørn.json/Kjærholm-Hauses.json festgelegt — Sonderzeichen im Slug beibehalten statt zu
+`_x_`-Platzhaltern zu zerlegen. 14 betroffene Katalogdateien per `git mv` umbenannt (Datei +
+internes `slug`-Feld + zugehoerige Zeile in `catalog/documents.jsonl`, Zeilenreihenfolge fuer
+den bestehenden Vektorindex `vectors.npz` unveraendert gelassen): u.a. Dürr_Otto, Förderer,
+Šuchov_Vladimir_..., Tusquet_Oscar_Clotet_Lluìs, Prouvé_Jean, Jabornegg_Pálffy (vollstaendige
+Liste in `wiki/QUESTIONS.md`, Sektion 4). Scanner selbst nicht angepasst — betrifft nur bereits
+gescannte Bestandsdaten.
+
+**4. Sammelfrage Charge 2ff.:** nicht erreicht, Budget/Zeit ging in Prioritaet 1-3.
+
+Alle QUESTIONS.md-Aenderungen additiv (Text an bestehende Bulletpoints angehaengt, nichts
+geloescht) — `git diff --numstat` je Schreibvorgang geprueft. Katalog-JSON-Korrekturen sind
+echte Datenkorrekturen (kein Append-only, wie vom Auftrag verlangt: "den Katalogeintrag
+berichtigen"), jeweils einzeln per Skript und mit Quellenbeleg im Bestand, kein globales
+Suchen-und-Ersetzen. `raw/`-Quelle (NAS, read-only) nur gelesen, nie editiert. Sicherung ueber
+`scripts/nas-commit-now.sh`.
+
 ## 2026-08-29 13:30 (Mac Mini Nachtschicht/Versuchs-Slot) — Sammelfrage Charge 2 begonnen (fuenf Namen: Ehrenklau, Eicke_Becker, El_Khouli, Eldem, Gartmann_Patrick)
 
 Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks (nur ein leerer
