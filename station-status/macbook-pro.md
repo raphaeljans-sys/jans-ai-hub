@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 22:03:05
+Stand: 29.08.2026 22:13:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 22:03:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fdbd109b3 normen Run 73: sechster Doppel-Dispatch N62-3, weiterhin Nullbefund
+- ce48aa64d Schub-Lane BAURECHT-THALWIL: KB-weiter Fassungsstand-Sweep (Lauf d) sichern

@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 22:01:16
+Stand: 29.08.2026 22:11:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 21:45)
@@ -12,4 +12,4 @@ Stand: 29.08.2026 22:01:16
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b1578cb45 grobkosten: Duplikat-Dispatch selber Tag erkannt und dokumentiert, keine erzwungene Verdichtung
+- ce48aa64d Schub-Lane BAURECHT-THALWIL: KB-weiter Fassungsstand-Sweep (Lauf d) sichern
