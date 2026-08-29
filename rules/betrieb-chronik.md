@@ -99,6 +99,24 @@ Gegenmessung am selben Sender (Sky Bundesliga), 90 s: **0 Aussetzer, Minimum 4,9
 Median 7,82, 0 Retransmits** — gegenueber 8 bzw. 14 Aussetzern in 150 s mit Minimum 0,00 Mbit/s
 in der alten App. VLC wurde ergaenzend von 1000/1500 auf 5000 ms gestellt.
 
+**Nachtrag 260829 abends — der Cache allein war nicht die ganze Loesung.** Um 18:40 trat das
+Stocken erneut auf und wurde diesmal live gemessen: Median **0,04 Mbit/s**, 48 von 70 Sekunden
+unter 1 Mbit/s, Maximum 4,81 — bei weiterhin **null Retransmits**, und `active_cons` fiel von 1
+auf 0. **Der Anbieter hatte die laufende Sitzung fallen gelassen.** Sechs Minuten davor hatte
+dieselbe Verbindung 150 s lang Median 8,20 Mbit/s ohne einen einzigen Aussetzer geliefert, und
+eine unmittelbar danach **frisch** geoeffnete Verbindung bekam sofort ueber 20 Mbit/s. Es fehlt
+dem Anbieter also nicht an Kapazitaet; er raeumt zur Primetime laufende Sitzungen ab.
+
+Zwei Folgerungen. Erstens: **ein Puffer hilft gegen Luecken, nicht gegen einen Abriss** — nach
+einem Verbindungsverlust ist er nach 30 s ebenso leer wie nach 10. Zweitens, und das war der
+wirksame Hebel: **die Aufloesung.** Gemessen am selben Sender liefert UHD/FHD rund 21 Mbit/s,
+HD rund 15 (Startschub eingerechnet, also relativ zu lesen, nicht absolut). Der Umstieg von der
+UHD- auf die HD-Variante brachte 150 s mit **null Sekunden unter 1 Mbit/s**. Auf einem
+2880x1800-Display ist UHD ohnehin verschenkt, es wird heruntergerechnet. Merksatz fuer den
+naechsten Fall: **bei knapper oder schwankender Zuleitung zuerst die Bitrate der Quelle senken,
+dann den Puffer erhoehen** — nicht umgekehrt. Zusaetzlich belegt: `Max connection : 1` und
+`Allowed formats : m3u8 ts` stehen in GSE direkt in der Playlist-Ansicht.
+
 **Methodisch drittes Mal dieselbe Lehre an einem Tag:** ein auffaelliges Muster zuerst am
 Instrument pruefen. Die HLS-Messung sah mit 26 stillen von 30 Sekunden nach Totalausfall aus und
 war das genaue Gegenteil (Segmente auf Vorrat); der erste Sky-Test lief unbemerkt auf einen
