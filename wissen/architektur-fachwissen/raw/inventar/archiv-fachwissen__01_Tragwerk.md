@@ -202,3 +202,21 @@ Alle übrigen beschriebenen Inhalte sind veröffentlichte oder für die Lehre be
 Fachtexte; Projektdaten Dritter (Bauten mit Architekt- und Ingenieurnennung in der
 Werkschau) sind nur methodisch als Referenzregister benannt und nirgends wörtlich
 wiedergegeben.
+
+## Destillat-Fortschritt
+
+**29.08.2026 (Lane FACHWISSEN, zwölfter Destillat-Lauf Korpus `archiv-fachwissen`).** Alle
+vier P1-Dateien gelesen und zu zwei Sach-Artikeln destilliert:
+
+- `…/Tec21/Grubenmann_Kirchen_Tragwerk.pdf` (vollständig) + `…/Dissertation/eth-20590-02.pdf`
+  (nur Einzelseiten S. 140-141, Fig. 94/96-98; die übrigen 189 Seiten nicht gelesen) →
+  destilliert zu `wiki/grubenmann-kirchen-holzdachstuhl-typologie.md`.
+- `…/00_Administration/02_Daten/Antrittsvorlesung/Schwartz_Einführungsvortrag_20081030_DrT.pdf`
+  + `…/10_Projekte/110928_Reader_Seminarwoche/Texte/eleganz.pdf` → gemeinsam destilliert zu
+  `wiki/tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau.md`.
+
+**Damit ist P1 dieser Sektion vollständig destilliert.** P2 (31 Positionen, siehe Triage
+oben) bleibt offen für einen künftigen P2-Lauf; darunter insbesondere die restlichen
+Knotenpunkt-Seiten der Killer-Dissertation (Verbindung Hängesäule-Untergurt-Längsbinder,
+Streckbalken-Auflager) und das Literaturregister Holzbau. Kein neuer Datenschutz- oder
+Sperrlisten-Fund über den bereits dokumentierten Stand hinaus.

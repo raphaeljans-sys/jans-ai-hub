@@ -87,7 +87,7 @@ jeweiligen Inventar unter «Triage».
 | 13 | `01_Entwerfen` | archiv | 6 / 1'246 — **P1 vollständig destilliert 29.08.2026, fünf Artikel** | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). P2 (elf Positionen: Ausbau-Variantenvergleich, Raumtypologie-Vorlesung, SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe, Fachglossare Farbe/Pigmente, Farbenlehre-Website, Ornamentik-Literaturliste, eigene Ideentexte, Class-A-Problem-Vokabular, Ikonographie-Raster u. a.) offen. | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
 | 14 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
 | 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 — **P1 vollständig destilliert 29.08.2026, vier Artikel** | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Naturstein-Materialkunde, Baumpflanzung/Kletterpflanzen und eine Pflanzenliste (Vogt-Broschüren). Dachbegrünung als Cross-KB-Duplikat zu `bauprodukte/dachbegruenung-systeme.md` erkannt, nicht erneut destilliert. Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). P2 (24 Positionen, u. a. Gartenanalyse-Raster, Stadtbaum-Merkblatt Luzern, Vogt-Projektbroschüren) offen. | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
-| 16 | `01_Tragwerk` | archiv | 4 / 1'098 | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen und Formfindung. Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
+| 16 | `01_Tragwerk` | archiv | 4 / 1'098 — **P1 vollständig destilliert 29.08.2026, zwei Artikel** | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen (Grubenmann-Kirchen) und Tragwerksentwurf-Philosophie (Plastizitätstheorie, Eleganz im Brückenbau). Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). P2 (31 Positionen, u. a. Killer-Knotenpunktdetails, Literaturregister Holzbau) offen. | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
 | 17 | `00_Allgemein` | archiv | 3 / 19 | Meta-Ebene des Archivs: Ordnungslogik (24 Hauptordner) und ein eigenes 14-teiliges Fachsystematik-Konzeptpapier von 2011, kein Fachinhalt im engeren Sinn. | `raw/inventar/archiv-fachwissen__00_Allgemein.md` |
 | 18 | `02_Architektur_Vermitteln` | archiv | 3 / 85 | Lehrmaterial zur Vermittlung: Rhetorik, Moderation, Protokoll, Geschäftskorrespondenz, wissenschaftliches Arbeiten — direkt anschlussfähig an mehrere JANS-Skills. Datenschutz-Fund: private Kontaktdaten Dritter auf Studienarbeits-Titelblättern, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__02_Architektur_Vermitteln.md` |
 | 19 | `12_Masse` | buero | 2 / 11 | Acht gescannte Seiten einer Konstruktionslehre Hochbau tragen die Achs- und Wandabstände von Sanitärapparaten in den drei Stufen Minimum, Durchschnitt und Komfort über sieben Nasszellen-Grundrisstypen, dazu Montagehöhen und hindernisfreie WC-Masse; die übrigen neun Dateien sind Dubletten oder unbelegt. | `raw/inventar/buero-referenzen__12_Masse.md` |
@@ -711,6 +711,27 @@ Fortschritt in `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` Ab
 mit Klartext-Zugangspasswort, archivierte Hochschul-E-Mail mit Privatadressen) bereits im
 Phase-0-Inventar korrekt als nicht erfasst dokumentiert, kein neuer Fund. **Damit ist
 Sektion `01_Landschaftsarchitektur` für P1 vollständig destilliert** (P2, 24 Positionen,
-bleibt offen). Nächste Position gemäss Ertrag-Tabelle: `01_Tragwerk` (4 P1,
-Datenschutz-Vorbehalt), danach `00_Allgemein` (3 P1), `02_Architektur_Vermitteln` (3 P1,
-Datenschutz-Vorbehalt), `02_Bibliothek` (2 P1), `01_Innenarchitektur` (1 P1).
+bleibt offen).
+
+**29.08.2026 (Lane FACHWISSEN, zwölfter Destillat-Lauf).** `01_Tragwerk` (4 P1)
+vollständig destilliert, zwei Wiki-Artikel:
+
+- [[grubenmann-kirchen-holzdachstuhl-typologie]] — drei Grubenmann-Dachstuhl-Dispositive
+  mit datierten Referenzbauten Ostschweiz/ZH, Kennwerte Kirche Wädenswil (1764-1767),
+  Killer-Konstruktionsschnitte mit Vollholz-Querschnitten, Bauabrechnung 1767 als
+  historische Kostenkuriosität (54'873 Gulden)
+- [[tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau]] — Schwartz' Argumentation
+  Plastizitätstheorie vs. Elastizitätstheorie-«Schutzwall» (Zitate Menn, Polónyi, Torroja),
+  Dreiklang Transparenz/Stringenz/Leichtigkeit im Brückenbau anhand Menn-Brückenpaar
+  Letziwaldbrücke/Crestawaldbrücke
+
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Tragwerk.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Von der 191-seitigen Killer-Dissertation nur die
+bereits als Einzelseiten vorliegenden S. 140-141 gelesen; die übrigen Seiten (u. a. die
+Knotenpunkt-Details Hängesäule-Untergurt-Längsbinder, Streckbalken-Auflager) bleiben P2.
+Kein neuer Datenschutz-Fund über den bereits im Phase-0-Inventar dokumentierten Stand
+hinaus. **Damit ist Sektion `01_Tragwerk` für P1 vollständig destilliert** (P2,
+31 Positionen, bleibt offen). Nächste Position gemäss Ertrag-Tabelle: `00_Allgemein`
+(3 P1), danach `02_Architektur_Vermitteln` (3 P1, Datenschutz-Vorbehalt), `02_Bibliothek`
+(2 P1), `01_Innenarchitektur` (1 P1) — danach ist die gesamte Mittelschicht (Zeilen 10-22)
+für P1 abgearbeitet.

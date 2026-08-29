@@ -1,5 +1,32 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Zwölfter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Tragwerk` (Lane FACHWISSEN, Fortsetzung)
+
+Alle vier P1-Dateien der Sektion `01_Tragwerk` (Arbeitsbestand Assistenz bei
+Prof. Dr. Joseph Schwartz, ETH Zürich, 2008-2011) gelesen und zu zwei Sach-Artikeln
+destilliert, beide `status: emerging`:
+
+- [[grubenmann-kirchen-holzdachstuhl-typologie]] — drei Holzdachstuhl-Dispositive der
+  Gebrüder Grubenmann (liegend mit Hängesäulen, Firstträger längs, diagonal verschränkte
+  Querbinder) mit datierten Referenzbauten Ostschweiz/ZH 1723-1780, Kennwerte Kirche
+  Wädenswil (18 x 35 m, 6.50 m Hauptbinder), Killer-Konstruktionsschnitte mit
+  Vollholz-Querschnitten, Bauabrechnung 1767 (54'873 Gulden) als historische Kostenkuriosität
+- [[tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau]] — Schwartz' Argumentation
+  Plastizitätstheorie («Zürcher Schule», Thürlimann) gegen den Elastizitätstheorie-
+  «Schutzwall» (Zitate Menn 1996, Polónyi, Torroja 1961), Dreiklang Transparenz/Stringenz/
+  Leichtigkeit im Brückenbau anhand des Menn-Brückenpaars Letziwaldbrücke/Crestawaldbrücke
+
+Von der 191-seitigen Killer-Dissertation (ETH-E-Collection, öffentlich) nur die bereits als
+Einzelseiten vorliegenden S. 140-141 gelesen; die Knotenpunkt-Details (Streckbalken-
+Auflager, Hängesäule-Untergurt-Verbindung) bleiben P2 für einen künftigen Lauf. Kein neuer
+Datenschutz-Fund über den im Phase-0-Inventar dokumentierten Stand (Arbeitszeit-Unterlagen,
+persönlicher Schriftverkehr, Teilnehmerlisten mit Kontaktdaten) hinaus — alle bereits
+korrekt als `X` bzw. Sperrvermerk geführt.
+
+**Damit ist Sektion `01_Tragwerk` für P1 vollständig destilliert** (P2, 31 Positionen,
+bleibt offen). `wiki/INDEX.md` und die Inventardatei nachgeführt. Nächste Position gemäss
+Ertrag-Tabelle: `00_Allgemein` (3 P1).
+
 ## 2026-08-29 — Elfter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Landschaftsarchitektur` (Lane FACHWISSEN, Fortsetzung)
 
 Alle vier P1-Dateien der Sektion `01_Landschaftsarchitektur` (ETH-Studienarchiv
