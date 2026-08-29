@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 17:25:27
+Stand: 29.08.2026 17:35:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 17:22)
@@ -12,4 +12,4 @@ Stand: 29.08.2026 17:25:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cb79f1018 Synergie-Lauf 22 (29.08.): SYN-59 wiederverwendbarer CGEvent-Helfer nur im Scratchpad und nachweislich weg, Sackgasse/Wege ins WEGE-Register nachgetragen; SYN-60 Diagnose-Regel aus Chronik 260829 als Querverweis an auto-verbesserungen 260730b; SYN-54/55 nachgefuehrt (Normen Run 65)
+- 4d85bc830 nas-selfcommit: 2 Datei(en) 2026-08-29 17:30
