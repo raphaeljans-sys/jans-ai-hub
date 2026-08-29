@@ -1,5 +1,40 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Achter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Kunst_Geschichte` (Lane FACHWISSEN, Fortsetzung)
+
+Fünf von sechs P1-Positionen der Sektion `02_Kunst_Geschichte` destilliert (die grösste
+Einzelsektion des Korpus, 27'649 Dateien, aber mit nur 11 P1-Dateien sehr dünnem Ertrag). Vier
+Wiki-Artikel nach Sache statt Datei:
+
+- [[syntaktik-analyse-raster-design-kunst-architektur-sechs-ebenen]] (`speculative`) —
+  sechsstufiges semiotisches Analyseraster (Syntaktik/Syntax/Sigmatik/Ausdrucksqualitäten/
+  Semantik/Pragmatik) nach Kerner/Duroy, Wilkens, Ching, Fischer
+- [[bildanalyse-dreischritt-bestand-komposition-interpretation]] (`emerging`) — Dreischritt
+  Bestand/Komposition/Interpretation plus Ittigs Fünf-Schritt-Kurzform «Über Bilder sprechen»
+- [[betrachtungsweisen-typologie-quellenmethodik-kunstgeschichte]] (`speculative`,
+  Wikipedia-Kompilat) — vier Betrachtungsweisen phänomenologisch/hermeneutisch/
+  strukturalistisch/ikonografisch
+- [[bestand-umbau-argumentationsvorrat-altbau-als-ressource]] (`emerging`) — sieben belegte
+  Literaturfundstellen (Hassler, Sieverts, Herzog & de Meuron u. a.) zur These «Umbau statt
+  Neubau», HTA Luzern 2005
+- [[systemische-bauobjektanalyse-wirkungsmatrix-vernetztes-denken]] (`emerging`) — fünf
+  Analyseschritte Einflussgrössen/Wirkungsmatrix/Aktivitäts-Vernetzungs-Diagramm, HTA Luzern
+  2005
+
+**Eine sechste P1-Position bewusst nicht destilliert:** `140706_Protomoderne_Maler.docx`
+(eigener Entwurfshaltungstext Raphael Jans, 2014) — Inventar stuft ihn als Stimm-Material für
+den Stilkorpus/Twin-Harness ein, nicht als Fachdestillation. Routing-Frage in
+`wiki/QUESTIONS.md` #51 vorgelegt, inklusive Inkonsistenz-Hinweis zu einem strukturell
+ähnlichen, bereits destillierten Text aus `10_Protomodern`.
+
+Damit ist Sektion `02_Kunst_Geschichte` für P1 vollständig bearbeitet und die gesamte
+Trägerschicht-Tabelle (`wiki/INDEX.md`, Zeilen 01-09) abgeschlossen. P2 (1'876 Dateien) bleibt
+offen. Kein Sperrlisten-Fund über die bereits im Inventar-Kurzbefund vermerkten drei
+Personendaten-Fundstellen hinaus. Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` Abschnitt «Destillat-Fortschritt»,
+reiner Append (`git diff --numstat` zeigt `33 0`). Nächste Position gemäss Ertrag-Tabelle:
+Mittelschicht, angeführt von `01_Staedtebau` (8 P1).
+
 ## 2026-08-29 — Siebter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte` (Lane FACHWISSEN, Fortsetzung)
 
 Alle 11 P1-Dateien der Sektion `02_Architekturgeschichte` destilliert — damit ist die

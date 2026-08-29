@@ -203,3 +203,36 @@ Energietraeger und Energieressourcen, Dezember 2005) ist zwanzig Jahre alt und d
 Der Verweisordner `01_Kunstwissenschaft/04_Kunsthistoriker/siehe_Architekturgeschichte` zeigt,
 dass die eigentliche Architekturgeschichte in einer **anderen** Sektion des Archivs liegt. Wer
 Architekturgeschichte sucht, ist hier falsch.
+
+## Destillat-Fortschritt
+
+**29.08.2026 (Lane FACHWISSEN, achter Destillat-Lauf Korpus `archiv-fachwissen`):** Fünf der
+sechs P1-Positionen destilliert, vier Wiki-Artikel nach Sache statt Datei:
+
+- `00_Allgemein/Kunstanalyse/1.1_Syntax_Einführung_Druck_WS07 32.pdf` → erledigt →
+  [[syntaktik-analyse-raster-design-kunst-architektur-sechs-ebenen]] (`speculative`)
+- `01_Kunstwissenschaft/02_Klausuren/anleitung.htm` (+ analyse.htm, beschreibung.htm als
+  Gruppe benannt, nicht einzeln gelesen) und `Der_Aufbau_einer_Klausur.doc` (Fragestellung
+  Ittig) → erledigt → [[bildanalyse-dreischritt-bestand-komposition-interpretation]]
+  (`emerging`)
+- `00_Allgemein/Kunstanalyse/Strukturierungsmethoden/Methode_der_Kunstgeschichte_Typologie.doc`
+  → erledigt → [[betrachtungsweisen-typologie-quellenmethodik-kunstgeschichte]]
+  (`speculative`); zweite Datei der Gruppe (`Methode_Kunstgeschichte_Quellliteratur.pdf`)
+  nicht einzeln gelesen
+- `02_Bildende_Kunst/00_Allgemein/20_Entwurfsinspirationen/140706_Protomoderne_Maler.docx` →
+  **bewusst nicht destilliert.** Wie im Kurzbefund oben vermerkt («Echo-Schutz-sicherer Teil
+  des Stilkorpus, nicht Fachdestillation»), gehört dieser eigene Stimm-Text von Raphael Jans
+  nicht in diese KB. Gemeldet in `wiki/QUESTIONS.md`, damit ein späterer Lauf ihn an die
+  richtige Stelle (Twin-Harness/Stilkorpus) routet, statt ihn stillschweigend verwaist zu
+  lassen.
+- `10_Einzelwissenschaften/Systemik/10_Semestermaterial/Systemik/Materialien Altbau als
+  Ressource.doc` → erledigt → [[bestand-umbau-argumentationsvorrat-altbau-als-ressource]]
+  (`emerging`)
+- `10_Einzelwissenschaften/Systemik/10_Semestermaterial/Systemik/Idee Bauen_Uebung
+  Vernetzung 20051220.pdf` + `Systemik - Vernetztes Denken in komplexen Situationen.pdf` →
+  erledigt → [[systemische-bauobjektanalyse-wirkungsmatrix-vernetztes-denken]] (`emerging`)
+
+**Damit sind alle sechs P1-Positionen dieser Sektion bearbeitet** (fünf destilliert, eine
+begründet ausgeschlossen). P2 (1'876 Dateien) bleibt vollständig offen. Kein Sperrlisten-Fund
+über die bereits im Kurzbefund vermerkten drei Personendaten-Fundstellen hinaus (diese blieben
+unangetastet).

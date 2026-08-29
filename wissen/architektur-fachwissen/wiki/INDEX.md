@@ -75,7 +75,7 @@ jeweiligen Inventar unter «Triage».
 | 06 | `10_Protomodern` | archiv | 13 / 519 | Raphael Jans' nie abgeschlossenes Buch-/Manifestprojekt «Protomodern» (2013/14): dichte Schicht eigener Theorietexte, teils nur als Ordnerstruktur/Fragenregister vorhanden. | `raw/inventar/archiv-fachwissen__10_Protomodern.md` |
 | 07 | `10_Modellbauen` | buero | 12 / 235 | Eine über vier Jahre gewachsene Betonmodell-Rezeptur- und Verfahrenssammlung aus dem Umfeld Christian Kerez (zwölf Mischungsversuche mit Schlussformel, Fehlerkatalog A bis G) plus ein zitierfähiges Betontechnologie-Merkblatt von Heinz Richner, das bis zum Sichtbeton 1:1 trägt. | `raw/inventar/buero-referenzen__10_Modellbauen.md` |
 | 08 | `02_Architekturgeschichte` | archiv | 11 / 3'826 | Kunst-/Architekturgeschichte-Studienarchiv ETH/HTA mit Analyseraster für Gebäudeanalysen, Fachglossar historischer Bauteile und einer geprüften Referenz-Objektliste. | `raw/inventar/archiv-fachwissen__02_Architekturgeschichte.md` |
-| 09 | `02_Kunst_Geschichte` | archiv | 11 / 27'649 | Mit 27'649 Dateien die grösste Einzelsektion des ganzen Korpus (zu 54 % Website-Spiegel); büroverwertbar sind Analyseraster, ein Architekturfotografie-Kanon und Bestandes-/Umbau-Argumentation — sehr dünner Ertrag im Verhältnis zum Volumen. | `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
+| 09 | `02_Kunst_Geschichte` | archiv | 11 / 27'649 — **P1 zu 5/6 destilliert 29.08.2026** | Mit 27'649 Dateien die grösste Einzelsektion des ganzen Korpus (zu 54 % Website-Spiegel); büroverwertbar waren ein Analyseraster (semiotisch), der Bildanalyse-Dreischritt, eine Betrachtungsweisen-Typologie, Bestandes-/Umbau-Argumentation und eine systemische Analysemethode — sehr dünner Ertrag im Verhältnis zum Volumen. Der Architekturfotografie-Kanon (P2) ist nicht Teil dieser fünf; eine sechste P1-Position (eigener Stimm-Text) bewusst nicht in dieser KB destilliert, s. `QUESTIONS.md`. | `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)
 
@@ -610,3 +610,34 @@ Ertrag-Tabelle: `02_Kunst_Geschichte` (11 P1, sehr dünn im Verhältnis zu 27'64
 Dateien) — einzige verbliebene Trägerschicht-Zeile, danach folgt die Mittelschicht
 (P1 einstellig, angeführt von `02_Denkmalpflege`, bereits abgeschlossen, und
 `01_Staedtebau`, 8 P1, offen).
+
+**Achter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Kunst_Geschichte` (Zeile 09
+oben) — Lane FACHWISSEN, selber Tag, Fortsetzung.** Fünf der sechs P1-Positionen destilliert,
+vier Wiki-Artikel nach Sache statt Datei, alle `status: emerging` ausser dem ersten
+(`speculative`, Einzelquelle ohne gesicherte Autorschaft):
+
+- [[syntaktik-analyse-raster-design-kunst-architektur-sechs-ebenen]] — `speculative`,
+  sechsstufiges Analyseraster Syntaktik/Syntax/Sigmatik/Ausdrucksqualitäten/Semantik/
+  Pragmatik nach Kerner/Duroy, Wilkens, Ching, Fischer
+- [[bildanalyse-dreischritt-bestand-komposition-interpretation]] — Dreischritt Bestand/
+  Komposition/Interpretation plus Ittigs Fünf-Schritt-Kurzform «Über Bilder sprechen»
+- [[betrachtungsweisen-typologie-quellenmethodik-kunstgeschichte]] — `speculative`
+  (Wikipedia-Kompilat), vier Betrachtungsweisen phänomenologisch/hermeneutisch/
+  strukturalistisch/ikonografisch
+- [[bestand-umbau-argumentationsvorrat-altbau-als-ressource]] — sieben belegte
+  Literaturfundstellen zur These «Umbau statt Neubau», vier Fallbeispiele ohne Kultstatus
+- [[systemische-bauobjektanalyse-wirkungsmatrix-vernetztes-denken]] — fünf Analyseschritte
+  Einflussgrössen/Wirkungsmatrix/Aktivitäts-Vernetzungs-Diagramm, HTA Luzern 2005
+
+**Eine sechste P1-Position bewusst nicht destilliert:** `140706_Protomoderne_Maler.docx`
+(eigener Entwurfshaltungstext von Raphael Jans, 2014) ist laut Inventar-Kurzbefund
+Stimm-Material für den Stilkorpus/Twin-Harness, keine Fachdestillation — Routing-Frage in
+`wiki/QUESTIONS.md` vorgelegt statt stillschweigend übersprungen oder falsch einsortiert.
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` zeigt `33 0`). Kein
+Sperrlisten-Fund über die bereits im Kurzbefund vermerkten drei Personendaten-Fundstellen
+hinaus. P2 (1'876 Dateien) bleibt vollständig offen. **Damit ist Sektion `02_Kunst_Geschichte`
+für P1 vollständig bearbeitet — und damit ist auch die Trägerschicht-Zeile 09
+abgeschlossen.** Nächste Position gemäss Ertrag-Tabelle: Mittelschicht, angeführt von
+`01_Staedtebau` (8 P1, `02_Denkmalpflege` mit ebenfalls 8 P1 ist bereits abgeschlossen).

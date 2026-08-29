@@ -4,6 +4,28 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260829 — Achter Destillat-Lauf Korpus 4, Sektion `02_Kunst_Geschichte`
+
+Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion
+`02_Kunst_Geschichte`, fünf von sechs P1-Positionen destilliert (vier Wiki-Artikel).
+
+**#51 Routing-Frage: wohin gehört `140706_Protomoderne_Maler.docx` (eigener
+Entwurfshaltungstext Raphael Jans, 06.07.2014)?** Das Inventar (Kurzbefund «Was hier für JANS
+drinsteckt», Punkt 04) stuft den Text selbst als P1 ein, vermerkt aber ausdrücklich: «Es
+gehört in den Echo-Schutz-sicheren Teil des Stilkorpus, nicht in eine Fachdestillation.»
+Dieser Lauf hat den Text deshalb **nicht** in `wiki/` dieser KB destilliert. Gleichzeitig
+liegt in `10_Protomodern` bereits ein strukturell ähnlicher, ebenfalls von Raphael Jans
+selbst verfasster Text
+([[bauen-im-bestand-haltungstext-die-stadt-war-vor-uns-da]]), der in einem früheren Lauf
+sehr wohl in diese KB destilliert wurde — ohne erkennbare Begründung für die
+unterschiedliche Behandlung. Zu klären (Raphael oder ein künftiger Lauf mit Zugriff auf
+Twin/Stilkorpus): (a) gehört Eigentext-Stimm-Material grundsätzlich in `architektur-fachwissen`
+oder ausschliesslich in den Twin-/Stilkorpus, (b) falls Letzteres: ist
+`bauen-im-bestand-haltungstext-die-stadt-war-vor-uns-da` rückwirkend zu verschieben, (c) wo
+genau liegt der Twin-/Stilkorpus-Zielort für `140706_Protomoderne_Maler.docx`. Bis zur Klärung
+bleibt der Text unverarbeitet in `10_Einzelwissenschaften`-Nachbarschaft
+`02_Bildende_Kunst/00_Allgemein/20_Entwurfsinspirationen/` liegen; keine Kopie angefertigt.
+
 ## 260829 — Fünfter Destillat-Lauf Korpus 4, Sektion `02_Architekturtheorie`
 
 Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion
