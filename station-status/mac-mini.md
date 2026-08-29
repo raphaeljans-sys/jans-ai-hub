@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 22:11:32
+Stand: 29.08.2026 22:21:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 21:45)
+- /Users/raphaeljans  (letzte Aktivitaet 22:02)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 22:11:32
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ce48aa64d Schub-Lane BAURECHT-THALWIL: KB-weiter Fassungsstand-Sweep (Lauf d) sichern
+- e4f1f4015 architekten-synobsis: Scanner-Root-Cause fuer Kollision (case-insensitive Slugs) und Sonderzeichen (NFD/NFC) behoben, --reindex jetzt gefahrlos
