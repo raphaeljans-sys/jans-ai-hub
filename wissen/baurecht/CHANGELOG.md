@@ -3,6 +3,20 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-29b (Schub-Lane BAURECHT-THALWIL, zweiter Lauf) — Fassungsstand-Wachposten T-01/T-02 nachgeprüft
+
+Queue-Status erneut bestätigt (weiterhin kein offener Batch, siehe Eintrag unten vom selben Tag).
+Statt den bereits dokumentierten Nullbefund zu wiederholen, den einzigen noch offenen
+Fassungsstand-Punkt der Priorität (d) frisch geprüft: `https://oerebdocs.zh.ch/getDoc?docid=1296`
+(amtliches revBZO-Trägerdokument Thalwil) erneut mit `pdftotext -layout` extrahiert sowie
+`thalwil.ch/bzorevision` abgerufen — Kopfzeile, Art. 33 (Inkrafttreten) und der Web-Auftritt
+unverändert gegenüber Run 117/135/136 (24.08.2026): weiterhin keine Genehmigung der Baudirektion,
+kein Inkrafttreten, keine aktualisierte Vorwirkungs-Synopse. Kein totes Recht neu gefunden.
+Ergänzt (append-only, `git diff --numstat` je `-0`): `wiki/negative-vorwirkung-und-bzo-revision.md`
+(neuer `verifiziert`-Eintrag) und `wiki/QUESTIONS.md` (T-01/T-02, je ein neuer
+Nachgeprüft-Vermerk). Beide Punkte bleiben offen — echte externe Verwaltungsakte, nicht
+selbst schliessbar.
+
 ## 2026-08-29 (Schub-Lane BAURECHT-THALWIL) — Reglemente-Queue geprüft, kein offener Batch
 
 Auftrag Raphael 29.08.2026 (Wochenkontingent vor dem Montags-Reset): nächsten offenen Batch

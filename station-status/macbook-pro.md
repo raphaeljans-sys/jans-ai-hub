@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 21:21:58
+Stand: 29.08.2026 21:32:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 21:21:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c674862cc normen Run 67: N62-3-Kandidatenliste abgeschlossen — Abdeckungsrichtung vkf-ah-1001-15-wohnbauten (5 Kern-/9 Nebenluecken) und vkf-brl-16-15-flucht-rettungswege (6 Kern-/2 Nebenluecken), 0 falsche Normwerte, 1 Quellenaussage-Korrektur inline; alle 6 Rang-1-4-Kandidaten jetzt mit Pruefstand
+- bcd454d4d nas-selfcommit: 1 Datei(en) 2026-08-29 21:30

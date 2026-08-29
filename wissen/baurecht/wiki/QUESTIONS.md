@@ -939,6 +939,13 @@ und mit `pdftotext -layout` extrahiert — Kopfzeile unverändert „Von der Gem
 festgesetzt am 11.12.2019“ / „Von der Baudirektion genehmigt am 29. April 2020“. Stärkerer Beleg
 als eine Verfahrensseite, die schlicht schweigen könnte: die Gemeinde liefert unter derselben
 docid noch immer die alte Fassung aus. Weiterhin zu überwachen.
+⚠ **Nachgeprüft 2026-08-29 (Schub-Lane baurecht-thalwil, kein offener Batch mehr — Queue T1-T9
+vollständig abgearbeitet, reiner Fassungsstand-Wachposten-Lauf), unverändert offen:**
+`https://oerebdocs.zh.ch/getDoc?docid=1296` erneut frisch abgerufen und mit `pdftotext -layout`
+extrahiert (dritte unabhängige PDF-Prüfung nach Run 117/135/136) — Kopfzeile und Art. 33
+(Inkrafttreten) wortgleich mit dem Stand vom 24.08.2026. `thalwil.ch/bzorevision` nennt
+weiterhin nur die Festsetzung vom 14.06.2026, keine Genehmigung/kein Inkrafttreten. Weiterhin
+zu überwachen, kein Ratedatum.
 
 **T-02 · Gibt es eine aktualisierte Vorwirkungs-Synopse nach der Festsetzung?**
 Die ausgewertete Fassung datiert vom **05.09.2025**, also aus der Zeit **vor** der
@@ -949,6 +956,9 @@ Thalwiler Eingabe bei der Gemeinde nachfragen.
 ⚠ **Nachgeprüft 2026-08-24 (Buch-Run 117):** `thalwil.ch/bzorevision` + `/71413` verlinken
 weiterhin nur die Auflagedokumente von 2025 (Synopse 05.09.2025); keine neuere Fassung
 öffentlich auffindbar. Bleibt offen bis zur nächsten Thalwiler Projekteingabe.
+⚠ **Nachgeprüft 2026-08-29 (Schub-Lane baurecht-thalwil):** `thalwil.ch/bzorevision` weiterhin
+nur mit dem Stand «Stimmberechtigte haben am 14. Juni 2026 die Revision festgesetzt», keine
+neuere Synopse verlinkt. Bleibt offen bis zur nächsten Thalwiler Projekteingabe.
 
 **T-03 · Zitat-Flag im Destillat [[12-baureife]]: «RB 1980 Nr. 113» vs. «RB 1998 Nr. 113».**
 Dasselbe Destillat zitiert in Ziff. 12.2.1.1 (S. 709 f.) «RB 1980 Nr. 113» für das
