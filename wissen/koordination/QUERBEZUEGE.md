@@ -174,10 +174,87 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Doppel-Destillate aus `03_Arbeitshilfen`/`04_Merkblaetter`** (Absturzsicherungen Stadt ZH, PAVIDENSA-Estriche, AUVA-Anschlageinrichtungen, SIA 271/273 Balkone) | **normen** fuer die zitierfaehige Norm-Fundstelle | `planungsgrundlagen` (`recht-norm-arbeitshilfen-planungsdetails`) fuer die baupraktische Einordnung — **Doppelbewirtschaftung ist gewollt**, beide lesen dieselbe PDF mit verschiedener Absicht; die Landkarte steht seit 18.08.2026 am Artikelkopf — NEU Run 36 |
 | **Energiegrenzwerte Neubau ZH** (§ 47a BBV I Grenzwerttabelle, § 11 Abs. 1 EnerG Fossilverbot, Fassung seit 01.09.2022) | **energie** (`energ-bbv1-waermebedarf-rechtsgrundlagen-zh`) | `baurecht` fuehrt den PBG-/BBV-Verfahrenskontext und den **Erlasswortlaut** in `raw/`; der **Buch-Layer** (6. Aufl. 2019) gibt hier den abgeloesten 80-%-Stand wieder und traegt seit 18.08.2026 einen Fassungsstand-Vermerk — NEU Run 36 |
 | **Korpus-Inventare der Bueroreferenzen und des Architektur-Archivs** (`buero-referenzen`, `archiv-fachwissen`: was liegt wo, Triage P1-P3, Sperren) | **architektur-fachwissen** (neu 23.08.2026) | fuehrt selbst **keine** Kennwerte, **keine** BKP-Codes und **keine** Norm-Fundstellen: Kosten CHF/m³ → `grobkosten`, Ausbaustandard CHF/m² → `immobilienbewertung`, Wuest-Benchmark → `skills/kostenschaetzung/referenzen`, Schulbau-Kennwerte → `wettbewerbs-dna` (`muster/kennwerte-schulbauten`) + `entwurfs-referenzen`, Norm/Ausgabe → `normen`, BKP-Codes → `references/bkp-2017` (Rule `bkp-2017-referenz`). Die Korpora enthalten die **BKP-Altausgaben 1989/97/2001** und Norm-Staende 2001-2015; beides ist nie Codequelle. **Dauerhaft ausgeschlossen** (Rule `auto-verbesserungen` 260823): Vertraege, Bewerbungen/Personaldossiers, Adressdaten — NEU Run 41 |
+| **AHB-Gebaeudetechnik-Richtlinien Stadt Zuerich (GT RL 1-9) und die «7 Meilenschritte»** — Fassungsstand und geltende Zielwerte | **energie** (neun `ahb-zuerich-gt-rl1..9`-Destillate, Version 2.1/2008, plus `stadt-zuerich-7-meilenschritte-nachhaltiges-bauen` mit dem tabellarischen Zielwert-Vergleich 2006 gegen 2008) | `architektur-fachwissen` fuehrt seit 29.08.2026 die **Vorgaengerfassung V2.0/2005** derselben Richtlinie und verweist dorthin; `planungsgrundlagen` den Ordnerkontext — NEU Run 47 (29.08.2026). **Die Zeile ist noetig, weil die Run-34-Zeile nicht traegt:** jene stellt auf den SharePoint-Ordner `04_Merkblaetter/Projektadmin AHB` ab, dieser Fall kommt aus dem NAS-Archiv `02_Architektur_Archiv`. **Regel daraus:** die AHB-Kante haengt am **Herausgeber und am Dokument**, nicht am Ordnerpfad — und die Mehrfach-Destillations-Messung auf **Dateiebene** (Run 35) findet solche Faelle grundsaetzlich nicht, weil es zwei verschiedene PDF derselben Richtlinie sind |
 | **U-Wert-Rechenwege und Bauteilaufbauten aus Fremd-/KI-Dokumenten** (Pruefung, Methodenfehler, Warnkarten) | **energie** (`destillate/ki-generierte-fachdokumente-referenzablage`, `wiki/u-werte-grenzwerte-ch` §«vier Griffe», FAQ F257) | `planungsgrundlagen` (`energie-uebersicht`) fuehrte den Fall Grassen-Biwak bis Run 41 als **Benchmark** und traegt seit 24.08.2026 den Ueberholt-Vermerk. **Merksatz aus dem Fall:** ein plausibles Ergebnis ist kein Beleg fuer eine richtige Rechnung — drei Methodenfehler hoben sich fast auf — NEU Run 41 |
 
 ## Gepruefte Paare
 
+
+### architektur-fachwissen ↔ normen / energie / grobkosten / twin / wettbewerbs-dna (112-Artikel-Schub) — geprueft 2026-08-29 (Run 47)
+
+Zweite Pruefung der am 23.08.2026 angelegten KB, nach einem Zuwachs von **112 Wiki-Artikeln in 24 h**
+(Erst-Pruefung Run 41). Zuschnitt: 5 Melder (`model: sonnet`) + 15 Refuter (Hauptmodell) = 20 Agenten,
+3'440'405 Token, 298 Werkzeugaufrufe, 8,6 Min, 0 Fehler; dazu ein eigener Hauptkontext-Strang mit
+deterministischem Vorfilter. **3 bestaetigt, 8 teilweise, 4 widerlegt.** Neun Dateien geaendert, alle
+additiv bzw. als gewollte Zeilenersetzung, jede mit `--numstat` gegengemessen — keine Datei hat
+Bestand verloren.
+
+- **Zweimal dieselbe Fehlerklasse «kein Destillat vorhanden», beide Male falsch.**
+  `fassaden-feuchteschutz-sia-180-…` behauptete zweimal, `normen` fuehre kein SIA-180-Destillat —
+  `sia-180-2014.md` liegt dort seit dem **13.07.2026** (`destilliert VOLLSTAENDIG`).
+  `uw-wert-berechnung-…` behauptete dasselbe fuer **vier** Normen zugleich; Ursache belegbar: der
+  destillierende Lauf hat nur `normen/wiki/` (10 Dateien) gesehen, nicht `normen/destillate/` (462).
+  Fehlerfamilie Rule `wege-und-vollmachten` Ziff. 5 — «ein leeres Ergebnis ist zuerst eine Aussage
+  ueber das Werkzeug». **Dritter Fundort derselben Klasse** (nach `energie` Run 6 und der
+  380/4-Registerluecke Run 26); sie ist damit kein Einzelfall, sondern das Standard-Versagen eines
+  Destillat-Laufs, der die fremde KB nur oberflaechlich absucht.
+- **Operativ gefaehrlichster Einzelbefund:** die Praxisregel «fRsi ≥ 0,75 als Faustregel» ist der Stand
+  SIA 180:**1999**. Nach SIA 180:2014 Ziff. 6.2.2.1 gilt der standortabhaengige Grenzwert nach Anhang F,
+  unguenstigster CH-Wert 0,80 bzw. 0,83 — die Faustregel liegt **zu tief** und war unmarkiert. Markiert.
+- **Ueberholte Werte drei Tage nach ihrer Korrektur reproduziert.** `uw-wert-berechnung-…` (29.08.) gibt
+  die Uf-Tabelle 1,8/2,2/2,8 wieder, die `energie/destillate/enfk-fensterblatt.md` (`established`) seit
+  dem **26.08.2026** als ⛔ ueberholt fuehrt (geltend 1,4/1,9/2,5/3,3, nur fuer aeltere Fenster); die
+  Uli-Grenzwerte 1,3/1,6 sind gegen die geltenden 1,0/1,3 zu lax. **Der Melder hatte den falschen
+  Adressaten** (`normen` statt `energie`) und schlug einen Verweis auf ein `speculative`-Destillat vor,
+  in dem die Werte gar nicht stehen — der Refuter hat Adressat und Aktion korrigiert. Fassungs-Kante gesetzt.
+- **BKP «588» existiert nicht** (`kostenkennwerte-schulanlage-leutschenbach`, Z. 64): Gruppe 58 fuehrt
+  580/581/582/583/589, «Umzuege» kennt die Liste nirgends; «BKP 900» ist die Uebergangsposition der
+  Gruppe 90 Moebel. Fehlerfamilie «271.10», **zum dritten Mal in vier Tagen** (Run 46: «BKP 274.01»).
+  Bemerkenswert: die **Schwesterartikel derselben Sektion fuehren einen vollstaendigen BKP-Warnblock** und
+  `BKP-2017-Liste.md` in `sources:` — dieser eine nicht. Dazu ein Bezugsgroessen-Vorbehalt: die m³-Werte
+  rechnen nach **SIA 116**, das seit 2003 durch SIA 416:2003 ersetzt ist, waehrend `grobkosten` auf
+  **GV nach SIA 416** stellt — und der Artikel empfiehlt ausdruecklich, damit die Methodik von
+  `grobkosten-onepager` zu stuetzen.
+- **AHB-Richtlinie GT RL1 in zwei Fassungen, zwei KBs, null Kanten** — siehe die neue Matrixzeile oben.
+  Der **Melder meldete einen Widerspruch (25 % gegen 40 %), der Refuter hat ihn widerlegt**: es ist eine
+  dokumentierte Fassungsfolge, die `energie` bereits tabellarisch fuehrt, und der naechstliegende
+  Zwilling ist `ahb-zuerich-massstaebe-nachhaltiges-bauen` (Mai 2006, dieselben sieben Punkte, ebenfalls
+  25 %), nicht die beiden 2008er-Dokumente. Der afw-Artikel warnte selbst korrekt, die 25 % «duerften
+  ueberholt sein» — **der Nachfolgewert lag die ganze Zeit im Haus**. Eigene Fehlerklasse, die `energie`
+  am selben Tag selbst benannt hat: das Wissen war da, der Zeiger fehlte. Kante beidseitig gesetzt.
+- **twin ↔ architektur-fachwissen, Erst-Beruehrung, bestaetigt:** die neue KB destilliert Quellen, die im
+  Frontmatter als **«Eigentext Raphael Jans»/«Eigenmaterial»** ausgewiesen sind — vor-Claude, aus
+  Raphaels eigener Hand, nach dem Echo-Schutz also **GOLD `authentisch`**. `wissen/twin` hatte auf
+  `02_Architektur_Archiv` und `architektur-fachwissen` je **null** Treffer. Der bisherige Gold-Korpus ist
+  Mail-Prosa; dies waere **Fachprosa und Argumentation** derselben Hand. **Kein Ingest ausgefuehrt** —
+  Frage an Raphael, beidseitig eingetragen (twin `QUESTIONS` 260829c ↔ afw `QUESTIONS` #38).
+- **Widerlegt (4):** ein behaupteter Verlust des Run-41-Vorbehalts im SIA-102-Artikel (er ist intakt und
+  woertlich als Run-41-Uebernahme ausgewiesen — **positiver Nullbefund**, eine Cross-KB-Korrektur hat eine
+  Erweiterung am selben Tag ueberstanden) · ein Widerspruch in `synthese-sia-vkf-fachskills.md` · der
+  Healthcare-Kennwert CHF 204'000/Pflegeplatz (falsche Bezugsgroessen-Gleichsetzung, Kontrast bereits
+  gefuehrt) · die fehlende Kante am Orthofoto-Artikel · sowie der AHB-«Widerspruch» oben.
+  **`planungsgrundlagen` als «abgeloester Router» ist ebenfalls widerlegt** — die Negativ-Evidenz stuetzte
+  sich auf ein Verzeichnis (`planungsgrundlagen/destillate/`), das es nicht gibt; wieder dieselbe
+  Werkzeug-Fehlerklasse, diesmal beim Melder statt beim Destillat-Lauf.
+- **Gemessener Strukturbefund (Entscheid an Raphael):** die KB verweist **25-mal nach aussen** (17×
+  `normen`, 3× `wettbewerbs-dna`, 2× `grobkosten`, 1× `entwurfs-referenzen`), und von sieben geprueften
+  Ziel-KBs verwies vor diesem Lauf **keine einzige** zurueck (Ausnahme: eine Datei in `projekt-lessons`).
+  Bei 116 Artikeln nach sechs Tagen ist das eine gemessene Einbahnstrasse — dasselbe Muster, das Run 34
+  am AHB-Ordner beschrieb, jetzt KB-weit.
+- **Zweiter Entscheid:** die Matrixzeile Run 41 spricht dieser KB «**keine** Kennwerte, **keine**
+  BKP-Codes, **keine** Norm-Fundstellen» zu. Der Bestand fuehrt faktisch CHF/m²-GF- und CHF/m³-Kennwerte,
+  Uf-/Uli-Werte, SIA-102-Phasenanteile und BKP-Codes — ueberwiegend sauber als **datierter historischer
+  Zeitstand** gehedgt, eine Kategorie, welche die Matrixzeile nicht kennt. Zwei Refuter haben das
+  unabhaengig als eigenen, groesseren Befund markiert. Nachschaerfen oder umhaengen ist eine
+  Fuehrungsfrage und wurde **nicht** selbst entschieden.
+- **Betriebsbefund:** waehrend der Pruefung lief ein Destillat-Schreiblauf in derselben KB (mtimes 22:00
+  bis 23:15, Dateien erschienen zwischen zwei greps). Alle Eingriffe daher an **Ankertexten** statt an
+  Zeilennummern, jede Datei einzeln mit `--numstat` gegengemessen (Rule `auto-verbesserungen` 260811).
+  Nebenbefund: der eigene Vorfilter zaehlte zunaechst 51 Nennungen «BKP 201» — ein **Messartefakt**,
+  `BKP [0-9]{3}` trifft das Praefix von «BKP-2017-Liste.md». Real sind es null. Selbst korrigiert, bevor
+  ein Agent darauf angesetzt wurde (Rule `betrieb-chronik` 260829: ein auffaelliges Muster ist zuerst
+  eine Aussage ueber das Instrument).
+- **Status:** sechs Aktionen ausgefuehrt, zwei Entscheide vorgelegt, vier Befunde widerlegt.
 
 ### baurecht ↔ energie (Gebaeudeprogramm: Rechtsgrundlage und Foerderfaehigkeit) — geprueft 2026-08-28 (Run 46)
 

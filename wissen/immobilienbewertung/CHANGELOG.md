@@ -2,6 +2,21 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-29 (Wissens-Chef Run 47) — EBF-Navigationshinweis gesetzt
+
+`wiki/flaechendefinitionen-sia.md` (+1/−1). Der Artikel routete die EBF ausschliesslich auf «SIA 380/1 /
+Skill `planungsgrundlagen`» und nannte die KB `energie` an **keiner** Stelle (`grep -c "energie"` = 0),
+obwohl `energie` seit dem 03.08.2026 das Energiefeld fuehrt und die beiden einzigen dedizierten
+EBF-Artikel des Hub haelt. Zeiger ergaenzt, ausdruecklich als **Navigationshinweis, keine Zitierquelle**
+(Ziel traegt `status: emerging`); die bestehende Normfundstelle SIA 380/1 und die
+`planungsgrundlagen`-Route bleiben stehen — der ZH-Vollzugsstand mit der Hoehenschwelle nach AHB/RFB
+liegt dort und nicht bei `energie`.
+
+**Widerlegt und daher nicht ausgefuehrt:** die Meldung, `planungsgrundlagen` sei ein «abgeloester Router»
+und fuehre nichts zur EBF. Der Skill reicht in einem Hop weiter, und `wiki/recht-norm-ahb-stadt-zuerich-projektstandards`
+fuehrt die EBF definitorisch. Die Negativ-Evidenz stuetzte sich auf ein Verzeichnis
+(`planungsgrundlagen/destillate/`), das es nicht gibt.
+
 ## 2026-08-28 (Wissens-Chef Run 46) — Backlink zur Mutternorm gesetzt, die Vertiefung bewusst nicht übernommen
 
 `wiki/flaechendefinitionen-sia.md` (+16/−1). Der Artikel baut vollständig auf SIA 416:2003 auf, führte im

@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 2026-08-29 (Wissens-Chef Run 47) — Vorgaengerfassung der AHB-Richtlinie GT RL1 im Hub gefunden, Kante beidseitig gesetzt
+
+`destillate/ahb-zuerich-gt-rl1-planungsgrundlagen.md` (+19/−0): neuer Abschnitt «Vorgaengerfassung im Hub».
+Die KB `architektur-fachwissen` hat am 29.08.2026 die **Version 2.0 (12.10.2005)** derselben Richtlinie
+destilliert, die dieses Destillat in **Version 2.1 (Juli 2008)** fuehrt — aus einer **anderen Datei**
+(Archivkopie `02_Architektur_Archiv/…/RL_GT_1_Planungsgrundlagen.pdf` statt SharePoint
+`…/GT_RL1_Planungsgrundlagen_V21.pdf`), weshalb keine der bisherigen Mehrfach-Destillations-Messungen
+auf Dateiebene (Run 35) den Fall sehen konnte. Materielles Delta fuer den Fassungsvergleich notiert:
+erneuerbare Energien 25 % → mind. 40 %, Beleuchtung «SIA 380/4 minus 25 %» → MINERGIE-Zusatzanforderungen,
+Punkt 7 Gebaeudebewirtschaftung → Energiestatistik/Betriebsoptimierung, Punkt 5 eco-devis → MINERGIE-(P-)ECO.
+
+Zusaetzlich hat dieser Lauf zwei Faelle bereinigt, in denen `architektur-fachwissen` **Werte dieser KB
+ueberholt reproduzierte**, ohne es zu wissen: die als ⛔ ueberholt markierte Uf-Tabelle aus
+`destillate/enfk-fensterblatt.md` (1,8/2,2/2,8 statt geltend 1,4/1,9/2,5/3,3) und die Uli-Grenzwerte
+1,3/1,6 gegen die geltenden 1,0/1,3 aus `wiki/u-werte-grenzwerte-ch.md`. Beide Kanten sind dort gesetzt,
+diese KB bleibt unveraendert fuehrend. Details: `wissen/koordination/outputs/2026-08-29_wissens-chef-run47.md`.
+
 ## 2026-08-29 (energie-training Run 167, Synthese) — E-R166-6 beantwortet: Begleitdokument-Klasse traegt auch auf Rang 6-20, kumuliert 11/11; ein halbierter Grenzwert im Bestand gefunden
 
 Hauptlauf-Eintrag ueber den fuenf Agenten-Eintraegen darunter (SIA 2024, HFM-2015/E-R166-3, KBOB,

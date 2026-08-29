@@ -1,5 +1,49 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 (Wissens-Chef Run 47) — vier Cross-KB-Kanten gesetzt, zwei Fehlbehauptungen «kein Destillat vorhanden» berichtigt
+
+Erste Cross-KB-Pruefung nach dem 112-Artikel-Schub dieses Tages (Erst-Pruefung war Run 41, 24.08.2026).
+Alle Eingriffe additiv, an Ankertexten statt an Zeilennummern (in der KB lief waehrend der Pruefung ein
+Schreiblauf), jede Datei mit `git diff --numstat` gegengemessen.
+
+- `wiki/fassaden-feuchteschutz-sia-180-...md` (+3/−3): fuehrte **zweimal** «da dort noch kein
+  SIA-180-Destillat vorliegt». `wissen/normen/destillate/sia-180-2014.md` existiert seit dem 13.07.2026
+  (`status: destilliert VOLLSTAENDIG`). Zeiger gesetzt, Ziffern-Umnummerierung 1999 → 2014 benannt
+  (Kondensat 6.2.1.1-6.2.1.3, Raumluftfeuchte 6.2.1.4). **Operativ wichtigster Punkt:** die Praxisregel
+  «fRsi 0,75 als Faustregel» ist der Stand 1999; nach SIA 180:2014 Ziff. 6.2.2.1 gilt der Standortwert
+  nach Anhang F (unguenstigster CH-Wert 0,80/0,83) — die Faustregel liegt zu tief und ist jetzt markiert.
+- `wiki/uw-wert-berechnung-...md` (+12/−1): dieselbe Fehlbehauptung fuer vier Normen zugleich (Ursache
+  belegt: nur `normen/wiki/` gesehen, nicht `normen/destillate/` mit 462 Dateien — Fehlerfamilie Rule
+  `wege-und-vollmachten` Ziff. 5). Schwerer wiegt die **Fassungs-Kante**: die Uf-Tabelle 1,8/2,2/2,8 ist
+  in der fuehrenden KB `energie` (`destillate/enfk-fensterblatt.md`, `established`) seit dem 26.08.2026
+  ausdruecklich als ⛔ ueberholt markiert (geltend 1,4/1,9/2,5/3,3, nur noch fuer aeltere Fenster); die
+  Uli-Grenzwerte 1,3/1,6 sind fuer den heutigen Einzelbauteilnachweis zu lax (geltend 1,0/1,3). Der
+  Artikel entstand **drei Tage nach** dieser Korrektur.
+- `wiki/kostenkennwerte-schulanlage-leutschenbach.md` (+19/−1): «Umzuege **BKP 588**» — der Code existiert
+  im BKP 2017 nicht (Gruppe 58 fuehrt nur 580/581/582/583/589, «Umzuege» kennt die Liste nirgends);
+  «BKP 900» ist dort die Uebergangsposition der Gruppe 90 Moebel, nicht eine Sammelposition Ausstattung.
+  Fehlerfamilie «271.10» (Rule `bkp-2017-referenz`). Dazu ein **Bezugsgroessen-Vorbehalt**: die Werte
+  «CHF 547-623 je m³» rechnen nach **SIA 116**, das seit 2003 durch SIA 416:2003 ersetzt ist, waehrend
+  `grobkosten` seinen Band auf **GV nach SIA 416** stellt. `BKP-2017-Liste.md` in `sources:` nachgetragen
+  (beide Schwesterartikel fuehrten sie, dieser nicht).
+- `wiki/ahb-planungsgrundlagen-richtlinie-...md` (+15/−1): der Artikel destilliert **Version 2.0/2005**
+  einer Richtlinie, deren **Version 2.1/2008** seit dem 03.08.2026 in `energie` liegt. Kein Widerspruch,
+  sondern eine dokumentierte Fassungsfolge (erneuerbare Energien 25 % → mind. 40 %); die KB `energie`
+  fuehrt den Zielwert-Vergleich bereits tabellarisch. Der eigene Vorbehalt sagte «duerfte ueberholt sein»
+  — der Nachfolgewert lag die ganze Zeit im Haus. Kante beidseitig gesetzt.
+- `wiki/wettbewerbsverfahren-...md` (+7/−1): Zeiger auf `wissen/wettbewerbs-dna` (11 Teilnahme-Dossiers,
+  42 externe Juryberichte) samt Arbeitsteilung Veranstalter-Verfahrensseite ↔ Juryurteile.
+- `wiki/QUESTIONS.md` (+24/−0): Block 260829b mit #38 (Uebergabe an KB `twin`), #39 (Fuehrungsfrage
+  Juryberichte), #40 (Kennwert-Grenze der KB gegen QUERBEZUEGE Z. 176).
+
+**Nullbefund, ausdruecklich positiv:** der Run-41-Vorbehalt im Artikel `sia-102-2003-phasenanteile-...`
+hat die Erweiterung um ein drittes Rechenwerk am selben Tag **unbeschaedigt ueberstanden** und ist
+woertlich als «uebernommen aus Wissens-Chef Run 41» ausgewiesen.
+
+**Gemessener Strukturbefund:** die KB verweist 25-mal nach aussen (17× `normen`, 3× `wettbewerbs-dna`,
+2× `grobkosten`, 1× `entwurfs-referenzen`), und von sieben geprueften Ziel-KBs verwies vor diesem Lauf
+**keine** zurueck (einzige Ausnahme: eine Datei in `projekt-lessons`). Vorgelegt als Entscheid.
+
 ## 2026-08-29 — Zweiter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II` (Lane FACHWISSEN, selber Tag, Fortsetzung)
 
 Vorab Leutschenbach-Duplikatsprüfung gegen `wiki/INDEX.md` durchgeführt (Pflicht laut

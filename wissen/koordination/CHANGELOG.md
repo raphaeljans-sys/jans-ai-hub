@@ -2,6 +2,66 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-29 (Run 47) — der 112-Artikel-Schub gegen den Hub-Bestand: zweimal «kein Destillat vorhanden», beide Male falsch
+
+**Zuschnitt:** 5 Melder (`model: sonnet`) + 15 Refuter (Hauptmodell) = 20 Agenten, 3'440'405 Token,
+298 Werkzeugaufrufe, 8,6 Min, 0 Fehler; dazu ein eigener Hauptkontext-Strang mit deterministischem
+Vorfilter. Delta 210 Commits / 24,5 h. Report: `outputs/2026-08-29_wissens-chef-run47.md`.
+
+**3 bestaetigt, 8 teilweise, 4 widerlegt. 9 Dateien geaendert, 8 rein additiv, 7 gewollte
+Zeilenersetzungen — keine Datei hat Bestand verloren.**
+
+- **`architektur-fachwissen` (+3/−3, +12/−1, +19/−1, +15/−1, +7/−1, +24/−0)** — die sechs Tage alte KB
+  ist um **112 Wiki-Artikel in 24 h** gewachsen. Zwei Artikel behaupteten, `normen` fuehre kein
+  Destillat zu SIA 180 bzw. zu vier Normen zugleich; `sia-180-2014.md` liegt dort seit dem 13.07.2026.
+  **Ursache belegbar:** der Lauf sah nur `normen/wiki/` (10 Dateien), nicht `normen/destillate/` (462) —
+  Rule `wege-und-vollmachten` Ziff. 5, dritter Fundort dieser Klasse. **Operativ am schwersten:** die
+  Faustregel «fRsi ≥ 0,75» ist der Stand 1999; nach SIA 180:2014 Ziff. 6.2.2.1 gilt der Standortwert nach
+  Anhang F (0,80/0,83) — sie liegt **zu tief** und stand unmarkiert in einem Fassadendetail-Artikel.
+- **Ueberholte Werte drei Tage nach ihrer Korrektur reproduziert.** Die Uf-Tabelle 1,8/2,2/2,8 ist in
+  `energie/destillate/enfk-fensterblatt.md` (`established`) seit dem 26.08.2026 ⛔ ueberholt (geltend
+  1,4/1,9/2,5/3,3, nur fuer aeltere Fenster); die Uli-Werte 1,3/1,6 sind gegen die geltenden 1,0/1,3 zu
+  lax. **Die adversariale Stufe trug hier den Ertrag:** der Melder hatte den falschen Adressaten
+  (`normen` statt `energie`) und zeigte auf ein `speculative`-Destillat, in dem die Werte gar nicht
+  stehen — der Refuter korrigierte Adressat, Beleg und Aktion.
+- **BKP «588» existiert nicht** (Gruppe 58: nur 580/581/582/583/589; «Umzuege» kennt die Liste nirgends;
+  «BKP 900» ist die Uebergangsposition der Gruppe 90 Moebel). Fehlerfamilie «271.10», nach «274.01» in
+  Run 46 **der dritte Fall in vier Tagen**. Bemerkenswert die Streuung **innerhalb derselben Sektion**:
+  beide Schwesterartikel fuehren einen vollstaendigen BKP-Warnblock, dieser eine nicht. Dazu ein
+  Bezugsgroessen-Vorbehalt: die m³-Werte rechnen nach **SIA 116** (seit 2003 durch SIA 416:2003 ersetzt),
+  waehrend `grobkosten` auf GV nach SIA 416 stellt — und der Artikel empfiehlt, damit die Methodik von
+  `grobkosten-onepager` zu stuetzen.
+- **`energie` (+19/−0)** — dieselbe AHB-Richtlinie GT RL1 lag in zwei Fassungen in zwei KBs, ohne Kante:
+  V2.0/2005 in `architektur-fachwissen`, V2.1/2008 in `energie`. **Der gemeldete Widerspruch (25 % gegen
+  40 %) ist widerlegt** — es ist eine dokumentierte Fassungsfolge, die `energie` bereits tabellarisch
+  fuehrt. Der Mangel ist trotzdem echt und besonders instruktiv: der afw-Artikel warnte selbst, die 25 %
+  «duerften ueberholt sein» — **der Nachfolgewert lag die ganze Zeit im Haus**. Genau die Fehlerklasse,
+  die `energie` am selben Tag in Run 167 selbst benannt hat. Beide Schutzmechanismen mussten den Fall
+  verfehlen: die Run-34-Zeile stellt auf den SharePoint-Ordner ab (dieser Fall kam aus dem NAS-Archiv),
+  die Run-35-Messung auf Dateiebene (es sind zwei verschiedene PDF). **Neue Matrixzeile**, die auf
+  Herausgeber und Dokument abstellt statt auf den Pfad.
+- **`twin` (+36/−0)** — Erst-Beruehrung mit `architektur-fachwissen`, bestaetigt: die neue KB destilliert
+  Quellen, die als **«Eigentext Raphael Jans»/«Eigenmaterial»** ausgewiesen sind, also vor-Claude und nach
+  dem Echo-Schutz **GOLD `authentisch`**. `wissen/twin` hatte darauf **null** Treffer. Der bisherige
+  Gold-Korpus ist Mail-Prosa; dies waere Fachprosa derselben Hand — eine Gattung, die `fachsignatur` und
+  `haltung` bisher gar nicht haben. **Kein Ingest** (Scope-Entscheid Raphaels), Frage beidseitig gesetzt.
+- **`immobilienbewertung` (+1/−1)** — EBF-Navigationshinweis auf `energie`, ausdruecklich als **keine
+  Zitierquelle** (Ziel `emerging`); SIA 380/1 und die `planungsgrundlagen`-Route bleiben stehen. **Der
+  Melder-Vorschlag war regelwidrig** (haette beide entfernt) und stuetzte seine Negativ-Evidenz auf ein
+  Verzeichnis, das es nicht gibt — dieselbe Werkzeug-Fehlerklasse wie oben, diesmal beim Melder.
+- **Positiver Nullbefund:** der Run-41-Vorbehalt im SIA-102-Artikel hat dessen Erweiterung um ein drittes
+  Rechenwerk am selben Tag **unbeschaedigt ueberstanden** und ist woertlich als Run-41-Uebernahme
+  ausgewiesen. Die Loop-Kette traegt.
+- **Zwei Entscheide vorgelegt, nicht selbst getroffen:** (E1) die Matrixzeile Run 41 verbietet dieser KB
+  Kennwerte/BKP-Codes/Norm-Fundstellen, waehrend der Bestand sie faktisch fuehrt — ueberwiegend sauber
+  als **datierter historischer Zeitstand** gehedgt, eine Kategorie, welche die Zeile nicht kennt.
+  (E2) GOLD-Ingest des Eigentext-Stratums in den Zwilling. Nachrichtlich: die KB verweist **25-mal nach
+  aussen**, von sieben geprueften Ziel-KBs verwies **keine** zurueck; vier Rueckkanten sind jetzt gesetzt.
+- **Betrieb:** waehrend der Pruefung lief ein Schreiblauf in derselben KB — alle Eingriffe an
+  **Ankertexten** statt Zeilennummern, jede Datei mit `--numstat` gegengemessen. Der eigene Vorfilter
+  zaehlte zunaechst 51 «BKP 201»; **Messartefakt** (Praefix von «BKP-2017-Liste.md»), real null, selbst
+  korrigiert, bevor ein Agent darauf angesetzt wurde.
+
 ## 2026-08-29 (Synergie-Lauf 22, Tagestakt)
 
 Delta-Basis 28.08.2026 17:10, Fenster 24,0 h, 108 Commits. **0 neue Bausteine**; von drei

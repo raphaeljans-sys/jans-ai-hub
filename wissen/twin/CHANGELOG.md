@@ -4,6 +4,23 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-29 (Wissens-Chef Run 47) — Uebergabe: unbekannter Eigentext-Stratum 2007–2014 als moegliche GOLD-Quelle
+
+`wiki/QUESTIONS.md` (+36/−0), Block **260829c**. Die KB `architektur-fachwissen` destilliert seit dem
+29.08.2026 aus `/Volumes/daten/02_Architektur_Archiv` Artikel, deren Quellen im Frontmatter ausdruecklich
+als **«Eigentext Raphael Jans»** bzw. **«Eigenmaterial»** ausgewiesen sind — vor-Claude, aus Raphaels
+eigener Hand, und damit nach dem Echo-Schutz die Kategorie **GOLD `authentisch`**. Diese KB kannte den
+Bestand nicht: `02_Architektur_Archiv` und `architektur-fachwissen` hatten in `wissen/twin/` je **null**
+Treffer. Belegte Kandidaten (Begriffsapparat-Eigentexte 2012, Lernskript Typografie 2007,
+Denkmalpflege Haus Jans 2012, dazu `00_Ideen/` und `00_Entwurfshaltungen/` 2013–2014) sind dort einzeln
+genannt.
+
+Der bisherige Gold-Korpus ist **Mail-Prosa**; dieser Stratum ist **Fachprosa und Argumentation** aus
+derselben Hand — eine Gattung, fuer die `fachsignatur` und `haltung` bisher keine Quelle haben.
+**Kein Ingest ausgefuehrt** (Entscheid Raphaels): der Stratum ist 12–19 Jahre alt, das afw-Destillat ist
+nicht der Originalwortlaut und taugt als Stilquelle nicht, und die Gewichtung je Datei muss am Original
+erfolgen. Gegenzeiger in `architektur-fachwissen/wiki/QUESTIONS.md` #38.
+
 ## 2026-08-29 — twin-fidelity-review: Nullform des Transmittals, und ein Gold, das keines war
 
 `outputs/2026-08-29_fidelity.md` neu (Gesamt-Fidelity **23**; Golds 07./08.07.2026 aus Sent

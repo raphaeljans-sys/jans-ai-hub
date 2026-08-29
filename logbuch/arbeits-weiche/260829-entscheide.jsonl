@@ -1,3 +1,4 @@
 {"ts":"2026-08-29T02:30:04+0200","name":"nachtschicht","station_eingabe":"mini","ziel":"mini","modus":"takt","mini_gb":"9.3","mini_druck":"1","macbook_gb":"3.9","macbook_druck":"1","grund":"mini-frei (9.3 GB, Druck 1)"}
 {"ts":"2026-08-29T05:30:07+0200","name":"nachtschicht","station_eingabe":"mini","ziel":"mini","modus":"takt","mini_gb":"9.4","mini_druck":"1","macbook_gb":"5.4","macbook_druck":"1","grund":"mini-frei (9.4 GB, Druck 1)"}
 {"ts":"2026-08-29T13:30:09+0200","name":"nachtschicht","station_eingabe":"mini","ziel":"mini","modus":"takt","mini_gb":"9.2","mini_druck":"1","macbook_gb":"4.8","macbook_druck":"1","grund":"mini-frei (9.2 GB, Druck 1)"}
+{"ts":"2026-08-29T23:30:10+0200","name":"nachtschicht","station_eingabe":"mini","ziel":"macbook","modus":"takt","mini_gb":"9.1","mini_druck":"1","macbook_gb":"4.3","macbook_druck":"1","grund":"mini-ausgelastet (9.1 GB), macbook-bereit (4.3 GB, am Netz, idle/ausserhalb Arbeitszeit)"}
