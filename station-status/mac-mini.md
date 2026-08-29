@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 00:45:48
+Stand: 30.08.2026 00:56:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 00:35)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 00:45:48
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3d1421c27 nas-selfcommit: 1 Datei(en) 2026-08-30 00:45
+- a0ea91ff8 SYNOBSIS: Sammelfrage-Restnamen ebeling/Soriano_Rafael/Speer_Alfred per Ordnerinhalt belegt, Dispatch-Loop im CHANGELOG dokumentiert
