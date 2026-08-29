@@ -1,3 +1,21 @@
+## 2026-08-29 (Run 72, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — fünfter Doppel-Dispatch, weiterhin Nullbefund
+
+Fünfter Auftrag Raphael mit identischem Wortlaut («Wochenkontingent vor Montags-Reset,
+nächste offenen Kandidaten aus `n62-3-pruefstand-kandidaten.md` abarbeiten»). Vor Arbeitsbeginn
+unabhängig nachgeprüft: `grep -ic "prüfstand\|pruefstand"` gegen alle sechs Destillate aus
+Abschnitt 4 der Kandidatenliste (`sia-416-2003.md`, `vkf-ah-1001-15-wohnbauten.md`,
+`vkf-brl-16-15-flucht-rettungswege.md`, `vkf-allgemein-anerkannte-bauprodukte-2017.md`,
+`sia-102-2014.md`, `sia-451-1992.md`) — alle sechs tragen weiterhin mindestens einen Treffer.
+`wiki/QUESTIONS.md` endet unverändert bei N68-1, kein offener neuer Eintrag seit Run 68.
+Arbeitsverzeichnis `wissen/normen/` vor Beginn `git status` sauber. **Kein neuer Kandidat, keine
+Destillat-Änderung, kein Statuswechsel in diesem Lauf.**
+
+Offen bleibt unverändert nur die in der Kandidatenliste Abschnitt 6 Punkt 2 skizzierte
+Stichprobenrunde für den Mittelbau der ~300 übrigen `established`-Destillate ohne Prüfstand —
+weiterhin Raphael vorzulegen, nicht selbständig zu starten. Dies ist nun der fünfte identische
+Dispatch in Folge (Run 68, 69, 70, 71, 72, alle mit demselben Nullbefund) — der
+Wiederholungshinweis aus Run 71 gilt unverändert und wird hier nicht erneut ausgeführt.
+
 ## 2026-08-29 (Run 71, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — vierter Doppel-Dispatch, weiterhin Nullbefund
 
 Vierter Auftrag Raphael mit identischem Wortlaut («Wochenkontingent vor Montags-Reset,

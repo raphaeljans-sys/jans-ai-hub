@@ -4,6 +4,50 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260829 — Dritter Destillat-Lauf Korpus 4, Sektion `01_Konstruktion`
+
+Quelle: Lane FACHWISSEN, dritter Destillat-Lauf Korpus 4 `archiv-fachwissen`, alle vier
+P1-Gruppen der Sektion `01_Konstruktion` destilliert.
+
+**#37 Sammelvorbehalt: sämtliche Norm-/Kennwertangaben dieser Sektion vor Verwendung gegen
+aktuelle Norm-/MuKEn-/EnFK-Fassung prüfen.** Die Sektion trägt durchgehend Norm- und
+Datenstände zwischen 1991 und 2010 (SIA 180:1999, SIA 380/1:2009, SIA 331:2008, EnFK-
+Fensterblatt Juni 2009, ift-Richtlinie FE-05/1 Mai 2002, AHB-Richtlinie 12.10.2005). Alle
+acht in diesem Lauf neu geschriebenen Artikel starten deshalb `status: speculative` und
+tragen in «Offene Punkte» den Verweis auf Rule `normen-referenz`. Wer diese Kennwerte in
+einem Nachweis oder Devis verwendet, muss sie zwingend zuerst gegen die aktuell gültige
+SIA-/EnFK-/MuKEn-Fassung gegenlesen — keiner der acht Artikel ist als Nachweisquelle
+freigegeben, nur als Verständnis-/Argumentationsgrundlage.
+
+**#38 ift-Richtlinie FE-05/1 explizit als deutsche Richtlinie markiert, methodisch aber
+wertvoll.** [[beanspruchungsklassifizierung-fenster-aussentueren-ift-fe-05-1]] destilliert
+die Geländekategorien-Logik I–IV und die «schwächstes Einzelelement bestimmt die
+Gesamtklassifizierung»-Regel als übertragbares Denkraster; Windlastzonen und Prüfdruckwerte
+selbst sind spezifisch deutsch und nicht auf Schweizer Projekte übertragbar. Offen: ob ein
+Schweizer SN-EN-Pendant zu EN 12207/12208/12210 im Hub-Normenbestand verfügbar ist (Skill
+`normen` zu befragen, nicht in diesem Lauf geprüft).
+
+**#39 P2 zurückgestellt: Deckenaufbauten-Vergleichsstudie und Lüftungsgrundlagen/CO2-
+Kennzahlen.** `02_Bauelemente/04_Decke_Boden/100601_Deckenstruktur_Resarch_Oswald/
+ResearchDeckenstruktur.pdf` (Konstruktionshöhen-Vergleich realisierter Bauten, Werte laut
+Kurzbefund nur aus Grafiken ablesbar) und die Lüftungs-Foliensätze in
+`01_Technische_Inst_I_II/` (Aufgaben der Lüftung, Aussenluftwechselrate/CO2-Kennzahlen,
+Healthcare-relevant) wurden in diesem Lauf aus Zeitgründen nicht mehr destilliert, obwohl
+im Phase-0-Inventar als lesbar/brauchbar vermerkt. Kandidaten für den nächsten P2-Lauf
+dieser Sektion.
+
+**#40 `04_Bauphysik_Energie` und `07_Gebäudehülle`: Restdateien der beiden grössten
+P1-Gruppen nicht einzeln destilliert.** In `04_Bauphysik_Energie/04_Standarts_Tabellen_
+Merkblatt_Formel/` blieben Mollier-/hx-Diagramm, Wasserdampfsättigungsdruck, SIA-181-
+Akustiktabelle, SUVA-Absorptionskoeffizienten und die separate Datei
+`Bauphysikalische_Kennwerte_Fensterrahmen.pdf` ungeprüft (inhaltlich vermutlich in den
+geschriebenen Uw-Wert-Artikel bereits eingeflossen oder reine Tabellenreferenz ohne
+destillierbaren Fliesstext). In `07_Gebäudehülle/01_Lernmaterial/` blieben
+`Fassadensysteme_2.pdf`, `Wetterschutz_Klimafassade.pdf` sowie mehrere Gloor-Dateien
+(Fassadenbekleidungen, Rohbausituationen, Binder) ungeprüft. Vor einem P2-Lauf dieser
+Sektion einzeln gegenlesen, ob dort destillierbarer Neuwert steckt, der über die acht
+geschriebenen Artikel hinausgeht.
+
 ## 260829 — Zweiter Destillat-Lauf Korpus 4, Sektion `03_Bauprozesse_I_II`
 
 Quelle: Lane FACHWISSEN, zweiter Destillat-Lauf Korpus 4 `archiv-fachwissen`.

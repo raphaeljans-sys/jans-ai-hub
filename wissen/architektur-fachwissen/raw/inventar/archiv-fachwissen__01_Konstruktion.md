@@ -271,3 +271,78 @@ Bestellhaltung öffentlicher Bauherrschaften. **Jede Norm- und Kennwertangabe au
 Sektion trägt einen Datumsstempel zwischen 1991 und 2010 und ist vor Verwendung gegen die
 geltende Ausgabe zu prüfen** (Rule `normen-referenz`); die Destillate sind entsprechend
 mit `status: speculative` anzulegen, bis die Werte gegengelesen sind.
+
+## Destillat-Fortschritt
+
+Lauf 29.08.2026 (Lane FACHWISSEN), gemäss `specs/archiv-fachwissen-spec.md`: alle vier
+P1-Gruppen dieser Sektion bearbeitet, jede Primärquelle im Original auf dem NAS gelesen
+(nicht nur diese Inventar-Zusammenfassung übernommen).
+
+- **`04_Bauphysik_Energie/04_Standarts_Tabellen_Merkblatt_Formel/` (38 Dateien) — destilliert.**
+  Zwei Artikel: [[uw-wert-berechnung-und-bauphysikalische-kennwerte-wandaufbauten]] (EnFK-
+  Merkblatt Fenster Juni 2009 plus Zeitkonstante/Speichermasse-Schichtdaten). Korrektur zum
+  Inventar-Kurzbefund: `Zeitkonstante_Baumaterialien.pdf` ist eine reine Übungsaufgabe ohne
+  vorgerechnete Lösung, nicht ein vorgerechnetes Beispiel — die Schichtdaten selbst stimmen.
+  `Dicke_Materialstarken_Boden_Wand_Dachaufbauten.pdf` ist datiert und verifiziert: ETH Zürich,
+  Übung Bauphysik 3, Prof. Dr. Jan Carmeliet, 02.05.2011. Übrige Dateien der Gruppe (SIA-181-
+  Akustiktabelle, SUVA-Absorptionskoeffizienten, Mollier-/hx-Diagramm, Wasserdampfsättigungsdruck,
+  Bauphysikalische Kennwerte Fensterrahmen) nicht einzeln in einen eigenen Artikel gefasst,
+  da inhaltlich bereits im Uw-Wert-Artikel oder im Feuchteschutz-Artikel aufgegangen bzw. reine
+  Diagramm-/Tabellenreferenzen ohne destillierbaren Fliesstext.
+- **`07_Gebäudehülle/01_Lernmaterial/` (26 Dateien) — destilliert.** Vier Artikel:
+  [[fassadensysteme-typologie-sechs-systeme-hta-luzern]] (Fassadensysteme_1.pdf, HTA Luzern),
+  [[anforderungskatalog-fenster-fassade-sechs-interessengruppen-gkp]] (Gloor/Anforderung_
+  Fassade_Fenster.pdf, gkp fassadentechnik ag, 22.04.2008),
+  [[fassaden-feuchteschutz-sia-180-unterkonstruktion-dehnung-toleranz]] (Feuchteschutz_
+  Fassadenbau.pdf, HTA Luzern, März 2007, plus Unterkonstruktionen.pdf),
+  [[beanspruchungsklassifizierung-fenster-aussentueren-ift-fe-05-1]] (Einsatzempfehlung
+  Fassaden.pdf, ift-Richtlinie FE-05/1, Mai 2002, deutsche Richtlinie, klar gekennzeichnet).
+  `Fassadensysteme_2.pdf` und `Wetterschutz_Klimafassade.pdf` sowie die übrigen Gloor-Dateien
+  (Binder, Fassadenbekleidungen, Rohbausituationen, Ursprüngliche Ansprüche) nicht einzeln
+  destilliert — Ersteinschätzung beim Gegenlesen: überwiegend Bildmaterial/Projektfotos ohne
+  über die vier geschriebenen Artikel hinausgehenden destillierbaren Neuwert; für einen P2-Lauf
+  vorzumerken, falls dort textlicher Zusatzwert steckt.
+- **`09_Konstruktion/` Wurzel-PDFs + `Lignatur/` (6 Dateien) — teilweise destilliert, teilweise
+  Duplikat.** `Oblicht.pdf` per MD5-Vergleich **identisch** mit
+  `/Volumes/daten/04_Buero/10_Referenzenbibliothek/09_Konstruktion/Oblicht.pdf` (beide
+  9fcf428e5afe8335de9b4221754b754b, 389'746 Bytes, Änderungsdatum 21.05.2009) — Flachdachaufbau-
+  Inhalt bereits destilliert, siehe [[flachdachaufbauten-vier-typen-textbausteine]], hier nicht
+  erneut destilliert. Die beiden übrigen Wurzel-PDFs (`SKMBT_C35310080207410.pdf`,
+  `SKMBT_C35310080207450.pdf`) nicht einzeln geprüft, da namensgleich mit bereits in
+  [[flachdachaufbauten-vier-typen-textbausteine]] verarbeiteten Buero-Referenzenbibliothek-
+  Dateien (`SKMBT_C35310080207410.pdf`, `SKMBT_C35310080207460.pdf`) — auf P2 vorgemerkt für
+  einen eigenständigen MD5-Abgleich, falls sich diese als abweichend erweisen sollten. Das
+  Lignatur-Herstellerhandbuch (`28_Konstruktionaufbauten/Konstruktionsdetails/Lignatur/`,
+  zwei Dateien) eigenständig destilliert: [[lignatur-hohlkasten-holzelemente-dach-deckenkonstruktion]].
+  **Wichtiger Fundort-Hinweis:** dieser Lignatur-Unterordner liegt innerhalb von
+  `28_Konstruktionaufbauten`, das laut Kurzbefund die vollständige Diplomarbeit einer
+  Drittperson (Markus Abegg) enthält — die Lignatur-Dateien selbst sind unabhängiges
+  Herstellermaterial und wurden destilliert, die Diplomarbeits-Dateien (Plakat, Projektbeschrieb,
+  Endabgabe, `Mek_Beschreibung/`) wurden weiterhin nicht geöffnet.
+- **`05_Infrastruktur_Gebaudetechnik/` (31 Dateien) — destilliert.** Zwei Artikel:
+  [[funktionale-ausschreibung-verfahrensmethodik]] (15 Funktionale Ausschreibung.pdf) und
+  [[ahb-planungsgrundlagen-richtlinie-sieben-oekologische-zielvorgaben]] (RL_GT_1_
+  Planungsgrundlagen.pdf, Amt für Hochbauten Stadt Zürich). **Datierungskorrektur zum
+  Kurzbefund:** die AHB-Richtlinie trägt explizit das Dokumentdatum 12.10.2005 (Version 2.0,
+  Redaktion Thomas Kessler) — die im Kurzbefund vermutete Datierung «vor 2002 anhand der
+  Telefonnummern-Schreibweise» ist nicht haltbar, die alte Zürcher Vorwahl «01» war bis zur
+  Vorwahlreform 2005 gültige Schreibweise und daher kein verlässlicher Datierungsindikator.
+  Übrige Dateien der Gruppe (`Bregenz_Pflichtenheft.pdf`, `Pflichtenheft_Landesgeb_2003_Kurz.pdf`,
+  `Lenkungsplan_l-1.doc`) nicht destilliert — Fremdprojekte ausserhalb Schweizer Kontext bzw.
+  ohne erkennbaren Sofortnutzen, für P2 vorgemerkt.
+
+Zusätzlich sinngemäss ergänzt destilliert (nicht Teil der vier P1-Kerngruppen, aber im
+Kurzbefund unter Punkt 11 gelistet und im selben Lauf mitgeprüft):
+`00_Baustoffkonzept/materialkunde.docx` →
+[[materialwahl-argumentationsraster-vier-referenzbaustoffe]].
+
+**Nicht destilliert in diesem Lauf, bewusst zurückgestellt (P2):** Deckenaufbauten-
+Vergleichsstudie (`02_Bauelemente/04_Decke_Boden/100601_Deckenstruktur_Resarch_Oswald/
+ResearchDeckenstruktur.pdf`, Kurzbefund-Punkt 12) und Lüftungsgrundlagen/CO2-Kennzahlen
+(`01_Technische_Inst_I_II/`, Kurzbefund-Punkt 13) — beide inhaltlich intakt und für einen
+späteren P2-Lauf geeignet, in diesem Lauf aus Zeit-/Umfanggründen nicht mehr aufgenommen,
+siehe `wiki/QUESTIONS.md`.
+
+**Sperrliste-Prüfung:** keine neuen Funde. `00_Baustoffkonzept/Baustoffadressen` und
+`09_Konstruktion/28_Konstruktionaufbauten` (Diplomarbeit Markus Abegg, ausser dem
+unabhängigen Lignatur-Unterordner) weiterhin nicht geöffnet.
