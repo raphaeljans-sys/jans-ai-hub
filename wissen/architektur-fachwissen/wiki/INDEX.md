@@ -177,5 +177,57 @@ Wiki-Artikel nach Sache statt Datei, alle `status: emerging`:
 
 Fortschritt und Begründung je Position in
 `raw/inventar/buero-referenzen__10_Modellbauen.md` Abschnitt «Destillat-Fortschritt».
-P2 dieser Sektion bleibt offen. Nächster Lauf: gemäss Spec-Plan `17_Projektbeschriebe`.
-Offene Fragen zu diesen Artikeln in `wiki/QUESTIONS.md`.
+P2 dieser Sektion bleibt offen.
+
+**Dritter Destillat-Lauf 29.08.2026 (Lane FACHWISSEN, selber Tag, Fortsetzung):**
+Sektion `17_Projektbeschriebe` (Zeile 05 oben) vollständig destilliert — alle 7
+P1-Positionen, fünf Wiki-Artikel nach Sache statt Datei, alle `status: emerging`,
+Quelle durchgehend Schulanlage Leutschenbach (abgeschlossenes, öffentlich
+ausgeschriebenes Bauvorhaben, daher Firmen-/Planernennung nach Spec zulässig):
+
+- [[projektbeschrieb-gattungsvorlage-fachdisziplinen]] — Gattungsvorlage
+  Projektbeschrieb, Kapitel je Fachdisziplin, zwei widersprüchliche Beteiligtenlisten
+- [[tragwerksbeschrieb-leutschenbach-kennwerte]] — Pfahlfundation/Stahlbau-Kennwerte,
+  Praxisregel «Preis der einen Steigzone»
+- [[lueftungsvariantenentscheid-praxisfall-leutschenbach]] — Variantenentscheid
+  natürliche/mechanische Lüftung, Kostendelta CHF 300'000, gekippt durch externen
+  Faktor (Anflugschneise)
+- [[fassadenkennwerte-leutschenbach-glasfassade-2004]] — U-/g-Werte Ganzglasfassade,
+  Formmuster Fassadenbeschrieb
+- [[sanitaer-kurzbeschrieb-vorlage-fettabscheider-schwelle]] — Gliederungsmuster
+  Sanitär-Kurzbeschrieb, Fettabscheider-Schwelle 300 Mahlzeiten/Tag,
+  BKP-Altnummerierungs-Sperrvermerk
+
+Fortschritt und Begründung je Position in
+`raw/inventar/buero-referenzen__17_Projektbeschriebe.md` Abschnitt
+«Destillat-Fortschritt». P2 dieser Sektion bleibt offen (u.a. TERRATON-Belag-
+Herstellerbeschrieb).
+
+**Vierter Destillat-Lauf 29.08.2026 (Lane FACHWISSEN, selber Tag, Fortsetzung):**
+Sektion `25_Wettbewerb` (Zeile 06 oben) vollständig destilliert — alle 5
+P1-Positionen (zwei Veranstalterprogramme plus drei Beilagen), sechs Wiki-Artikel
+nach Sache statt Datei, alle `status: emerging`. Anonymisierungs-Zusatzprüfung
+durchgeführt: keine Unternehmer-/Bieter-Betrag-Zuordnung vorhanden (reine
+Veranstalterprogramme, keine eingegangenen Offerten), daher keine Schwärzung nötig:
+
+- [[wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien]] —
+  Programmgrundstruktur, formelle/materielle Vorprüfung, gegenläufige
+  Kriterien-Gewichtung zweier Bauherrschaften
+- [[wettbewerbs-teilnahmebedingungen-ausstand-abgabe-urheberrecht]] —
+  Ausstandsregeln über SIA 142 hinaus, Abgabemodalitäten, Urheberrechts-Differenz,
+  SIA-Kommission-142-Kritikpunkte
+- [[honorarmechanik-wettbewerb-oeffentliche-bauherrschaft]] — Honorarofferte als
+  Zuschlagskriterium, SIA-102-Rechnungsbasis, Ansatz-Sprung Fr. 110 vs. CHF 128
+- [[zeittarif-mechanik-tarifblatt-stgallen-2009]] — Mittelansatz, Kategorien A–G,
+  Anforderungsfaktor a, Rechenprobe
+- [[raumprogramm-spaltenlogik-sia416-naturmuseum]] — Raumprogramm-Formatmuster
+  NF/VF/FF mit acht technischen Anforderungsspalten
+- [[planervertrag-klauseln-oeffentliche-bauherrschaft]] — neun bauherrenseitige
+  Zusatzklauseln mit Honorarwirkung
+
+Fortschritt und Begründung je Position in
+`raw/inventar/buero-referenzen__25_Wettbewerb.md` Abschnitt «Destillat-Fortschritt».
+P2 dieser Sektion bleibt offen. Nächster Lauf: gemäss Spec-Plan `20_Rendering`,
+danach ist Korpus `buero-referenzen` P1 gemäss aktuellem Spec-Plan vollständig und
+ein Statusentscheid («Korpus komplett» oder weitere P1-Sektionen ausserhalb des
+bisherigen Plans) fällig. Offene Fragen zu diesen Artikeln in `wiki/QUESTIONS.md`.

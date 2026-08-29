@@ -1,5 +1,49 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Vierter Destillat-Lauf Korpus `buero-referenzen`, Sektion `25_Wettbewerb` (Lane FACHWISSEN, selber Tag)
+
+Sechs Wiki-Artikel neu geschrieben, alle `status: emerging`, aus dem P1-Cluster zweier
+öffentlicher Wettbewerbs-/Studienauftragsprogramme 2009 (Zeughaus Ebnet Herisau,
+Naturmuseum St.Gallen):
+`wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien.md`,
+`wettbewerbs-teilnahmebedingungen-ausstand-abgabe-urheberrecht.md`,
+`honorarmechanik-wettbewerb-oeffentliche-bauherrschaft.md`,
+`zeittarif-mechanik-tarifblatt-stgallen-2009.md`,
+`raumprogramm-spaltenlogik-sia416-naturmuseum.md`,
+`planervertrag-klauseln-oeffentliche-bauherrschaft.md`. Alle 5 P1-Positionen der
+Sektion destilliert (Fortschritt in `raw/inventar/buero-referenzen__25_Wettbewerb.md`
+Abschnitt «Destillat-Fortschritt», reiner Append). `wiki/INDEX.md` nachgeführt.
+**Anonymisierungs-Zusatzprüfung der Spec durchgeführt** (dieser Cluster war laut Spec
+zusammen mit `18_Projektkostenplanung` als sensibel markiert): kein Fund einer
+Unternehmer-/Bieter-Betrag-Zuordnung, da es sich um Veranstalterprogramme handelt,
+nicht um eingegangene Offerten — keine Schwärzung nötig, im Report festgehalten statt
+stillschweigend übersprungen. Alle Normverweise (SIA 142:1998, SIA 102:2001/2003,
+SIA 112:2003, SIA 416:2003) ausdrücklich als veraltet markiert, nicht als geltendes
+Recht referenziert. Kein Fund aus der Sperrliste; die beiden zweckgebundenen DXF
+(Löschpflicht nach Projektabschluss laut Datenbegleitdokument) wurden nicht
+angefasst. P2 bleibt offen. Nächster Lauf gemäss Spec-Plan: `20_Rendering` — danach
+ist die P1-Liste des aktuellen Spec-Plans für `buero-referenzen` vollständig.
+
+## 2026-08-29 — Dritter Destillat-Lauf Korpus `buero-referenzen`, Sektion `17_Projektbeschriebe` (Lane FACHWISSEN, selber Tag)
+
+Fünf Wiki-Artikel neu geschrieben, alle `status: emerging`, aus dem P1-Cluster
+Schulanlage Leutschenbach: `projektbeschrieb-gattungsvorlage-fachdisziplinen.md`,
+`tragwerksbeschrieb-leutschenbach-kennwerte.md`,
+`lueftungsvariantenentscheid-praxisfall-leutschenbach.md`,
+`fassadenkennwerte-leutschenbach-glasfassade-2004.md`,
+`sanitaer-kurzbeschrieb-vorlage-fettabscheider-schwelle.md`. Alle 7 P1-Positionen der
+Sektion destilliert (Fortschritt in
+`raw/inventar/buero-referenzen__17_Projektbeschriebe.md` Abschnitt
+«Destillat-Fortschritt», reiner Append). `wiki/INDEX.md` nachgeführt. P2 bleibt offen.
+Firmen-/Planernennung (Joseph Schwartz, Waldhauser Haustechnik, Metall-Bau-Technik u.a.)
+zulässig, da abgeschlossenes, öffentlich ausgeschriebenes und publiziertes Bauvorhaben
+(SIA-Dokumentation D 0219) — kein Unternehmer-/Bieter-Betrag-Bezug wie im
+Projektkostenplanungs-Cluster, daher greift die Anonymisierungs-Zusatzregel der Spec
+hier nicht. BKP-Altnummerierung («BKP 250 350» im Sanitärbeschrieb 2003) im Artikel
+`sanitaer-kurzbeschrieb-vorlage-fettabscheider-schwelle.md` ausdrücklich als
+Sperrvermerk markiert, nicht als BKP-2017-Beleg übernommen. Kein Fund aus der
+Sperrliste. Nächster Lauf gemäss Spec-Plan: `25_Wettbewerb`.
+
 ## 2026-08-29 — Zweiter Destillat-Lauf Korpus `buero-referenzen`, Sektion `10_Modellbauen` (Lane FACHWISSEN)
 
 Vier Wiki-Artikel neu geschrieben, alle `status: emerging`, aus dem P1-Cluster

@@ -157,3 +157,22 @@ durch Optimierung der eigenen Arbeit entsteht, sondern durch Optimierung des ges
 Wirkens. Für JANS-Texte, die eine Zusammenarbeitshaltung belegen sollen, ist das eine
 zitierfähige Fremdstimme mit Literaturhinweis (Kerez/Schwartz, SIA-Dokumentation D 0219,
 2007).
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `Leutschenbach/00_Zusammenfassung/091209_Projektbeschrieb_Revidiert.pdf` +
+  `Leutschenbach/01_Architekt/091209_Konstruktions_Materialisierungskonzept_revidiert.pdf` +
+  `Leutschenbach/01_Architekt/PDF/090817_SA_Leutschenbach_Architektenbericht.pdf` →
+  `wiki/projektbeschrieb-gattungsvorlage-fachdisziplinen.md`
+- 2026-08-29: `Leutschenbach/03_Bauingenieur/091004_Schule_Leutschenbach_Tragwerk_Sj.doc` →
+  `wiki/tragwerksbeschrieb-leutschenbach-kennwerte.md`
+- 2026-08-29: `Leutschenbach/04_Haustechnik/Beitrag tec21.pdf` →
+  `wiki/lueftungsvariantenentscheid-praxisfall-leutschenbach.md`
+- 2026-08-29: `Leutschenbach/09_Fassadenplaner/Beschrieb Fassade_040608.doc` →
+  `wiki/fassadenkennwerte-leutschenbach-glasfassade-2004.md`
+- 2026-08-29: `Leutschenbach/07_Sanitaer/Kurzbeschrieb BKP 250 350 Sanitär.pdf` →
+  `wiki/sanitaer-kurzbeschrieb-vorlage-fettabscheider-schwelle.md`
+
+Damit sind alle 7 P1-Positionen dieser Sektion destilliert, fünf Artikel nach Sache statt
+Datei. P2 bleibt offen für einen späteren Lauf (u.a. TERRATON-Belag-Herstellerbeschrieb,
+Bauphysiker-Text, Lichtkonzept).

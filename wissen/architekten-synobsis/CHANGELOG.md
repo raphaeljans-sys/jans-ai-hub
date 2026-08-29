@@ -4,6 +4,46 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 21:10 (Mac Mini, Schub-Lane SYNOBSIS) — Fehlextraktionen Charge 4/6 korrigiert, Sammelfrage Charge 4 vollstaendig recherchiert
+
+Fortsetzung desselben Auftrags (Wochenkontingent vor Montags-Reset). Beim Uebernehmen der
+Position wurde zunaechst verifiziert, dass die Prioritaeten 1-3 aus einem frueheren Lauf
+desselben Abends (Eintrag darunter, 20:45) bereits auf Datenebene erledigt UND bereits per
+`auto-sync [Macmini]`-Commit nach GitHub gepusht waren (`catalog/Christ_Gantenbein.json` /
+`Gigon_Guyer.json` tragen das Feld `quellordner` mit beiden Quellordnern, `git log` zeigt
+`origin/main` auf demselben Stand wie `HEAD`) — keine Doppelarbeit.
+
+**Acht weitere Fehlextraktionen korrigiert (Prioritaet 1, bisher uebersehen in `wiki/QUESTIONS.md`
+Sektion 4):** je Eintrag den Quellordner nach einer besseren Textquelle durchsucht (`raw/` nur
+gelesen), `textauszug`/`embed_doc`/`stand` in `catalog/<slug>.json` korrigiert (`git diff --numstat`
+je Datei auf 4 4 bzw. 3 3 geprueft — nur die drei geaenderten Felder, keine Nebenwirkung).
+**Brandlhuber**: bereinigter Kernabsatz aus derselben Blog-PDF (Antivilla Krampnitzsee) statt
+des vollstaendigen, navigationsverseuchten Rohtexts. **MadeIn**: Projektblatt aus
+`Basel_Museumserweiterung/4cea711ee2d4a.pdf` (Buero «Made in», Genf) statt Antonioni-Wikipedia.
+**Maerkli_Peter**: Hochparterre-Artikel «Revision der Moderne» statt Vectorworks-Wasserzeichen.
+**Mateo_Josep_Lluis**: eigener Buerotext `borneo.doc` (Wohnblock Borneo Island Amsterdam) statt
+InDesign-Druckanweisung. **Mattioni_Luigi**: Zeitschriftenartikel ueber Luigi Mattioni
+(«architetto della ricostruzione») statt eBay-Seite. **Miller_Maranta**: nextroom.at-Artikel
+(Mathias Remmele) zur Villa-Garbald-Erweiterung statt defekt kodiertem PDF-Text. **Jager_Egli_Architekten**
+und **Lengacher_Emenegger** auf textlos gesetzt (`textauszug` leer) statt sachfremden Text stehen
+zu lassen — in beiden Ordnern existiert keine Alternative zum Buero selbst; bei Jager_Egli_Architekten
+Nebenbefund notiert (Projektplakat nennt «dolmus» als Planverfasser, nicht Jager Egli, moeglicher
+Fehlordner-Hinweis, aus dem Ordnerinhalt allein nicht zu klaeren).
+
+**Sammelfrage Charge 4 abgeschlossen (36/36):** alle Namen einzeln recherchiert oder auf
+andernorts im Dokument bereits bestaetigte Eintraege verwiesen — 25 direkt neu bestaetigt
+(u.a. Le_Vau_Louis, Leonidov_Ivan, Lundgaard_Tranberg, Murcutt_Glenn, Owen_Williams, Pei,
+Perraults_Dominique), sieben per Querverweis bestaetigt (Maas_Wini, Mansila, McMorran_Withby,
+Mutheisius_Hermann, Nikisch_Walder, OMA, Pavel_Janack), vier ohne belastbaren Treffer
+(Luebps_Atelier, Meier_Juergen_H, Mitzutome, Perrot — nur aus dem Ordnerinhalt zu klaeren).
+Recherche per zwei parallelen Recherche-Agenten (Websuche, Belegpflicht), Ergebnis von Claude
+gegengeprueft und in `wiki/QUESTIONS.md` als ein zusammenhaengender RECHERCHIERT-Vermerk
+angehaengt (`git diff --numstat` auf 1 1 geprueft).
+
+**Offen fuer den naechsten Lauf:** Sammelfrage Charge 5 (24 Namen, Zeile 78) ist die naechste
+unrecherchierte Position in Prioritaet 4; danach folgt Charge 6 (Zeile 88) — beide noch nicht
+begonnen.
+
 ## 2026-08-29 20:45 (Mac Mini, Schub-Lane SYNOBSIS) — Sammelfrage Charge 2 und Charge 3 vollstaendig recherchiert
 
 Fortsetzung desselben Auftrags (Wochenkontingent vor Montags-Reset), Prioritaet 4 nach Abschluss

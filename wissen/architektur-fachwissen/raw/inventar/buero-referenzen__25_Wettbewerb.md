@@ -339,3 +339,26 @@ gehört bei jeder Teilnahme vorher geprüft.
    noch das Ergebnis des Studienauftrags. Wollte man den Wettbewerbs-Layer von JANS mit **belegten
    Jury-Argumentationen** anreichern, fehlt genau dieses Glied — die Programme sagen, was verlangt
    wurde, nicht, was gewonnen hat.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `zeughaus.pdf` + `Natums/a20natmus2009-03-0320wettbewerbsprogramm.pdf` (Struktur-,
+  Vorprüfungs-/Zuschlagskriterien-Teil) → `wiki/wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien.md`
+- 2026-08-29: `zeughaus.pdf` + `Natums/a20natmus2009-03-0320wettbewerbsprogramm.pdf` (Ausstand-,
+  Abgabe-, Urheberrechts-, Genehmigungsvermerk-Teil) →
+  `wiki/wettbewerbs-teilnahmebedingungen-ausstand-abgabe-urheberrecht.md`
+- 2026-08-29: `zeughaus.pdf` + `Natums/a20natmus2009-03-0320wettbewerbsprogramm.pdf` (Honorar-Teil) →
+  `wiki/honorarmechanik-wettbewerb-oeffentliche-bauherrschaft.md`
+- 2026-08-29: `Natums/e%20…%20tarifblatt%20zu%20arch_und%20ingvertr%E4gen.pdf` →
+  `wiki/zeittarif-mechanik-tarifblatt-stgallen-2009.md`
+- 2026-08-29: `Natums/b natmus 09-03-03 raumprogramm(2).pdf` →
+  `wiki/raumprogramm-spaltenlogik-sia416-naturmuseum.md`
+- 2026-08-29: `Natums/e%20…%20bes.%20bedingungen%20zu%20arch_und%20ingvertr%E4gen.pdf` →
+  `wiki/planervertrag-klauseln-oeffentliche-bauherrschaft.md`
+
+Damit sind alle 5 P1-Positionen dieser Sektion destilliert, sechs Artikel nach Sache statt
+Datei (die beiden P1-Programme speisen mehrere Artikel, da sie mehrere eigenständige
+Sachthemen tragen). P2 bleibt offen für einen späteren Lauf. Anonymisierungs-Zusatzprüfung
+(Rule Spec `buero-referenzen-spec.md`) durchgeführt: diese Sektion enthält keine
+Unternehmer-/Bieter-Betrag-Zuordnung (Veranstalterprogramme, keine eingegangenen Offerten),
+daher keine Schwärzung nötig.

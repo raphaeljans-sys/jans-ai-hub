@@ -273,8 +273,9 @@ curl -sL -H "Authorization: Bearer $TOKEN" \
 | Bibliothek (Site PL) | Drive-ID | Pfad-Beispiel |
 |---|---|---|
 | `02_Recht_Norm` | `b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3SfT25dFWtAPQ7JsQfZ1A7n_` | `/02_Normen/SIA_Norm/SIA_Normen/alle/`, `/02_Normen/SIA_Norm/416_2003_dfi.pdf` |
+| `03 Brandschutz` | `b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3SfJ5dwcpvCsTY_mlEBr1EMe` | `/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf`, `/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-85.pdf` (aufgelöst 29.08.2026, Run 66/67 Schub-Lane NORMEN-PRUEFSTAND) |
 
-Fuer andere Sites (`kispi`, `03 Brandschutz`, …) analog per `--get "/sites/<host>:/sites/<name>"`
+Fuer andere Sites (`kispi`, …) analog per `--get "/sites/<host>:/sites/<name>"`
 auflösen und hier ergänzen, statt bei jedem Lauf neu zu suchen.
 
 ### Weg 3: PnP PowerShell mit geliehenem Token
