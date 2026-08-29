@@ -303,3 +303,33 @@ bei P1 **und** P2 als «erledigt» — dieser Zustand ist noch nicht erreicht, a
 der ertragreichere und dringlichere Teil ist es. Nächster Schritt gemäss Auftrag:
 Korpus 4 `archiv-fachwissen` (eigene Spec fällig). Offene Fragen zu diesen
 Artikeln in `wiki/QUESTIONS.md`.
+
+**Erster Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Denkmalpflege` (Zeile 04
+oben) — Lane FACHWISSEN, selber Tag, Fortsetzung nach Spec-Lauf.** Sektion vollständig
+destilliert: alle 8 P1-Positionen, sieben Wiki-Artikel nach Sache statt Datei, alle
+`status: emerging`, primär gegen die Originalquellen gelesen (nicht nur gegen die
+Inventar-Zusammenfassung):
+
+- [[erhaltungswert-bewertung-sia-merkblatt-2017]] — zwölf Bewertungskriterien +
+  Werte-Matrix, Geltungsstand ungeklärt (nicht in `wissen/normen/` erfasst)
+- [[denkmalpflege-begriffssystematik-charta-von-venedig]] — Begriffskette
+  Instandhaltung bis Rekonstruktion, Charta-von-Venedig-Artikel (sekundäre Quelle,
+  Wortlaut vor Verwendung zu verifizieren)
+- [[trockenmauer-devisierung-svtsm-richtlinie]] — Devisierungslogik, zwei
+  Mauerverband-Typen, fünf Mauerwerksarten
+- [[naturstein-oberflaechenbearbeitung-portmann-merkblatt]] — acht
+  Oberflächenbearbeitungen als Datierungshilfe (BABS, amtlich)
+- [[kalk-oelanstriche-rezepturen-glaser]] — Kalk-/Kalkkasein-, Leimfarb- und
+  Ölanstrich-Rezepturen, Bleiweiss-Datierungshilfe
+- [[denkmalpflegerische-baudokumentation-gliederung-haus-jans]] — siebenteilige
+  Dokumentationsgliederung, eigene Studienarbeit Raphael Jans 2007
+- [[umbau-statt-neubau-kriterienkatalog-hassler]] — Sieben-Kriterien-Katalog,
+  «Vergiftung durch Sanierung», Politik der Werterhaltung
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Denkmalpflege.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` zeigt `-0`). Kein Fund
+aus der Sperrliste (Sektion enthält keine Verträge/Bewerbungen/Adressen/Lohndaten).
+P2 bleibt offen (u.a. Werkstoff-/Steinkonvolut-Scans, zweite Volltext-Zusammenfassung,
+Prüfungsfragen mit den fünf Grundsätzen der Reparatur). Nächster Lauf gemäss Spec-Plan:
+`03_Bauprozesse_I_II`, davor zwingend die Leutschenbach-Duplikatsprüfung gegen die
+Artikelliste oben (Zeile 02, `18_Projektkostenplanung`).

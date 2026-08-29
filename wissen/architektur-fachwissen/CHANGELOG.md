@@ -1,5 +1,37 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Erster Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Denkmalpflege` (Lane FACHWISSEN, selber Tag, Fortsetzung)
+
+Sieben Wiki-Artikel neu geschrieben, alle `status: emerging`, aus dem vollständigen
+P1-Cluster der Sektion (8 Positionen, alle acht Quell-PDF direkt gelesen statt nur über
+die Inventar-Zusammenfassung):
+[[erhaltungswert-bewertung-sia-merkblatt-2017]],
+[[denkmalpflege-begriffssystematik-charta-von-venedig]],
+[[trockenmauer-devisierung-svtsm-richtlinie]],
+[[naturstein-oberflaechenbearbeitung-portmann-merkblatt]],
+[[kalk-oelanstriche-rezepturen-glaser]],
+[[denkmalpflegerische-baudokumentation-gliederung-haus-jans]],
+[[umbau-statt-neubau-kriterienkatalog-hassler]]. Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Denkmalpflege.md` Abschnitt «Destillat-Fortschritt»,
+reiner Append (`git diff --numstat` zeigt `-0`). `wiki/INDEX.md` und `wiki/QUESTIONS.md`
+nachgeführt (Fragen #31 SIA-2017-Geltungsstand, #32 fünf Grundsätze der Reparatur/P2).
+
+Urheberrechts- und Quellenvorbehalte eingehalten: SIA-2017-Kriterien und Charta-von-
+Venedig-Artikel nur sinngemäss mit Fundstelle wiedergegeben, nie im Wortlaut kopiert; die
+Charta-Wiedergabe stammt aus einer studentischen Zusammenfassung (Petzet/Mader) und ist vor
+Verwendung in einem ausgehenden Dokument am amtlichen ICOMOS-Text zu verifizieren. Zwei
+Artikel stützen sich je auf zwei Texte derselben Autorin (Uta Hassler) bzw. auf eine
+Parallelfassung derselben Rezeptur (Glaser/rw-Zusammenfassung) — beide Fälle sind im
+jeweiligen Artikel als **nicht unabhängige** Zweitquelle ausgewiesen. Keine Preisangabe ohne
+Datumsstempel übernommen (undatierte Pigmentpreise in Euro bewusst ausgeschlossen). Kein
+Fund aus der Sperrliste (Verträge/Bewerbungen/Adressen/Lohndaten) — Sektion ist ein reiner
+ETH-Studienapparat plus eine private Studienarbeit von Raphael Jans.
+
+**Damit ist Sektion `02_Denkmalpflege` (alle 8 P1-Positionen) vollständig destilliert.**
+P2 bleibt offen. Nächster Lauf gemäss Spec-Plan: `03_Bauprozesse_I_II` — zwingend zuerst
+die Leutschenbach-Duplikatsprüfung gegen `wiki/INDEX.md` Abschnitt «Artikelbestand»
+(Korpus 3, `18_Projektkostenplanung`, neun bereits bestehende Artikel).
+
 ## 2026-08-29 — Spec-Stufe Korpus `archiv-fachwissen` (Lane FACHWISSEN, selber Tag, Fortsetzung)
 
 `skills/wissens-destillat/specs/archiv-fachwissen-spec.md` neu geschrieben (Vorbild

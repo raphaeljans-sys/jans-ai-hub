@@ -6388,7 +6388,21 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   behaupteten Fallback um einen belegten, wiederholbaren Befehlsweg — gehört in
   `connectors/README.md` oder `training/PROGRAMM.md` nachgetragen (hier nur der Befund, kein
   Dokumentationseingriff in dieser Schub-Lane, da ausserhalb ihres Schreibbereichs).
-- [ ] **N66-3 — Rang-2-Kandidaten `vkf-ah-1001-15-wohnbauten.md` (731 Zeilen) und
-  `vkf-brl-16-15-flucht-rettungswege.md` (500 Zeilen) bleiben ohne Prüfstand.** Beide deutlich
-  grösser als die drei in diesem Lauf bearbeiteten Destillate; nächster Kandidat nach
-  Abnehmer-Reichweite für einen Folgelauf. Methodik-Pflicht 1 beachten (Fassung liegt in PL-03).
+- [x] **N66-3 — ERLEDIGT (Run 67, 29.08.2026, Schub-Lane NORMEN-PRUEFSTAND).** Beide
+  Rang-2-Kandidaten tragen jetzt einen Prüfstand: `vkf-ah-1001-15-wohnbauten.md` (731→923
+  Zeilen, 5 Kern-/9 Nebenlücken, 0 falsche Normwerte) und `vkf-brl-16-15-flucht-rettungswege.md`
+  (500→605 Zeilen, 6 Kern-/2 Nebenlücken, 0 falsche Normwerte, 1 falsche Quellenaussage inline
+  mit ⚠ korrigiert). Details `CHANGELOG.md` 2026-08-29 Run 67. Damit tragen alle sechs
+  Rang-1-4-Kandidaten aus `training/n62-3-pruefstand-kandidaten.md` Abschnitt 4 einen
+  Prüfstand — die dortige Vorrang-Liste ist abgearbeitet (siehe Kandidatenliste Abschnitt 7).
+
+## Run 68 (MacBook Pro, 29.08.2026, Schub-Lane NORMEN-PRUEFSTAND) — Vorrang-Liste geprüft, keine offenen Kandidaten
+
+- [ ] **N68-1 — Alle priorisierten Kandidaten aus `training/n62-3-pruefstand-kandidaten.md`
+  (Rang 1-4) tragen einen Prüfstand; N66-3 war der einzige noch offene Buchungsrückstand
+  (Destillat-Arbeit lag bereits vor, nur die QUESTIONS-Schliessung fehlte) und ist hiermit
+  nachgetragen.** Kein neuer Kandidat gefunden, kein Statuswechsel, keine Destillat-Änderung in
+  diesem Lauf. Offen bleibt weiterhin nur der in der Kandidatenliste Abschnitt 6 Punkt 2
+  skizzierte Vorschlag einer Stichprobenrunde für den Mittelbau der ~300 übrigen
+  `established`-Destillate ohne Prüfstand — **weiterhin Raphael vorzulegen, nicht selbständig
+  zu starten** (Trefferquote einer Stichprobe in dieser Reihe nie gemessen).

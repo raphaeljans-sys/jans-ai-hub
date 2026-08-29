@@ -1,3 +1,18 @@
+## 2026-08-29 (Run 68, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — Prüfung ohne offene Kandidaten, QUESTIONS-Nachtrag
+
+Auftrag Raphael (Wochenkontingent vor Montags-Reset): nächste offenen Kandidaten aus
+`training/n62-3-pruefstand-kandidaten.md` abarbeiten. Befund: **kein einziger Kandidat mehr
+offen.** Run 67 hatte die beiden letzten Rang-2-Kandidaten (`vkf-ah-1001-15-wohnbauten.md`,
+`vkf-brl-16-15-flucht-rettungswege.md`) bereits mit Prüfstand versehen und in CHANGELOG sowie
+Kandidatenliste vermerkt — nur der Eintrag `wiki/QUESTIONS.md` N66-3 war dabei nicht
+geschlossen worden (Buchungsrückstand, keine fehlende Sacharbeit). In diesem Lauf nachgetragen:
+N66-3 auf `[x]` gesetzt mit Verweis auf Run 67, neuer Abschnitt N68-1 hält den Nullbefund fest.
+Keine Destillat-Änderung, kein Statuswechsel in diesem Lauf.
+
+Offen bleibt ausschliesslich die in der Kandidatenliste Abschnitt 6 Punkt 2 skizzierte
+Stichprobenrunde für den Mittelbau der ~300 übrigen `established`-Destillate ohne Prüfstand —
+weiterhin Raphael vorzulegen, nicht selbständig zu starten.
+
 ## 2026-08-29 (Run 67, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — N62-3-Kandidatenliste abgeschlossen: letzte zwei VKF-Kernrichtlinien mit Prüfstand
 
 Fortsetzung von Run 66 (Wochenkontingent vor Montags-Reset): die zwei letzten offenen

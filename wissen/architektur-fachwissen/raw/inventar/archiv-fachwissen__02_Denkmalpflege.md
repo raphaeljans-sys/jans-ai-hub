@@ -281,3 +281,25 @@ ihren Gehalt ab.
 Vor jeder Destillation ist `00_Algemein/00_Inhaltsverzeichnis/Quellenangaben/quellenangaben_hs_10_1.pdf`
 zu lesen, weil es zu jedem Scan die vollständige bibliografische Angabe liefert. Ohne diese
 Datei sind die Dateinamen der Scans nicht sauber auflösbar.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `02_Literatur/SIA/sia2017.pdf` → `wiki/erhaltungswert-bewertung-sia-merkblatt-2017.md`
+- 2026-08-29: `zusammenfassung_denkmaltexte_rw.pdf` (Text 12, Petzet/Mader) →
+  `wiki/denkmalpflege-begriffssystematik-charta-von-venedig.md`
+- 2026-08-29: `02_Literatur/Texte Handapparat PDF/Trockenmauerverband CH Richtlinie_2012_0.pdf` →
+  `wiki/trockenmauer-devisierung-svtsm-richtlinie.md`
+- 2026-08-29: `02_Literatur/Texte für Veranstaltungen/Portmann-Naturstein Oberflaechenbearbeitung.pdf`
+  → `wiki/naturstein-oberflaechenbearbeitung-portmann-merkblatt.md`
+- 2026-08-29: `02_Literatur/Glaser_Wilhelm/Glaser_Wilhelm_eine_auswahl_traditioneller_fassungstechniken.pdf`
+  (+ `zusammenfassung_denkmaltexte_rw.pdf` Text 5 als Parallelfassung) →
+  `wiki/kalk-oelanstriche-rezepturen-glaser.md`
+- 2026-08-29: `01_Arbeiten/Haus_Jans/PDF/120705_Denkmalpflege_Haus_Jans.pdf` →
+  `wiki/denkmalpflegerische-baudokumentation-gliederung-haus-jans.md`
+- 2026-08-29: `02_Literatur/Exkurs_umbau_Zusammenfassung.pdf` + `02_Literatur/Hassler_Uta/hassler_altlast_Zusammenfassung.pdf`
+  → `wiki/umbau-statt-neubau-kriterienkatalog-hassler.md`
+
+Damit sind alle 8 P1-Positionen dieser Sektion destilliert (sieben Wiki-Artikel, ein Artikel je
+Sache statt je Datei). P2 bleibt offen fuer einen spaeteren Lauf (u.a. die zweite
+Zusammenfassung `denkmalpflege_zusammenfassungen_texte13.pdf`, die Werkstoff-/Steinkonvolut-Scans
+und die Pruefungsfragen mit den fuenf Grundsaetzen der Reparatur).
