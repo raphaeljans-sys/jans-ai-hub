@@ -4,6 +4,24 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, siebter Folgelauf) — Bestaetigt: keine offene Position mehr in den vier Prioritaeten
+
+Frische Session, eigener Grep-Durchgang: `wiki/QUESTIONS.md` auf alle vier Auftragsprioritaeten
+durchsucht (Fehlextraktion, Katalog-Kollision, Sonderzeichen-Zerlegung, Sammelfrage Charge 1-6) —
+jede Fundstelle traegt bereits BEHOBEN/GEPRUEFT vom heutigen Datum, alle sechs Sammelfrage-Chargen
+sind vollstaendig einzeln recherchiert. Spotcheck gegen den SSD-Klon: `git status --short` und
+`git diff --numstat` fuer `wissen/architekten-synobsis/` leer (sauberer Arbeitsbaum, in Sync mit
+`origin/main`), die vier Kollisionsdateien (`Christ_Gantenbein.json` mit `quellordner: ["Christ
+Gantenbein", "Christ_Gantenbein"]`, 11 Projekte, sowie Enzmann_Fischer/Miller_Maranta/Gigon_Guyer)
+und die Sonderzeichen-Dateien (`Šuchov_Vladimir_...json`, `Tusquet_Oscar_Clotet_Lluìs.json`) liegen
+korrekt im `catalog/`. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert — reine Verifikation,
+siebte unabhaengige Bestaetigung desselben Ergebnisses. Offen bleiben ausschliesslich Freigabesachen
+(NAS-Ordner-Umbenennungen/-Zusammenfuehrungen der vier Kollisionsfaelle) und der kapazitaetsabhaengige
+produktive `--reindex`-Lauf; beides liegt ausserhalb dieses Auftrags. Empfehlung unveraendert: weitere
+Bestaetigungslaeufe zu denselben vier Prioritaeten bringen keinen Mehrwert mehr — der naechste Auftrag
+fuer die SYNOBSIS-Lane sollte entweder Sektion 1/2 (leere Ordner, Schreibfehler-Slugs, nie Teil dieses
+Auftrags) explizit freigeben oder auf Raphaels Entscheid zu den NAS-Zusammenfuehrungen/zum Reindex warten.
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, sechster Folgelauf) — Bestaetigt: keine offene Position mehr in den vier Prioritaeten
 
 Frische Session, eigener Grep-Durchgang statt Uebernahme des Vorlauf-Protokolls: `wiki/QUESTIONS.md`
