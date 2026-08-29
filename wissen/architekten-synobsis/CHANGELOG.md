@@ -4,6 +4,37 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 22:40 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Wagner-Sammelfrage geklaert, alle vier Prioritaeten erneut als erledigt verifiziert
+
+Beim Uebernehmen der Position per `git log`/`git status`/`git diff --numstat` (SSD-Klon und
+NAS-Repo, beide `origin/main` == `HEAD`) verifiziert, dass die vier im Auftrag genannten
+Prioritaeten (Fehlextraktionen, Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 2 ff.)
+bereits durch fruehere Laeufe desselben Abends vollstaendig erledigt und gepusht waren, inklusive
+Sammelfrage Charge 1 bis 6 (854 Namen). Keine weitere Fehlextraktion in den Katalog-JSONs
+gefunden (Stichproben unveraendert).
+
+**Einziger verbliebener unmarkierter Einzelfall aus Sektion 1 geklaert: Wagner** (Zeile 90) —
+Ordnerinhalt auf dem NAS gesichtet (`/Volumes/daten/05_Architekten_Synobsis/Wagner`, lesend):
+weder Otto noch Martin Wagner, sondern **Buero Wagner** (Fabian A. Wagner mit Andreas Kreft,
+Muenchen/Breitbrunn a. Ammersee) — Beleg ist die Datei `Gamsei+C.+Simon+u.+Sebastian+Schels+13.jpg`
+im Ordner, die exakt auf die Fotografen-Credits (Jann Averweser, C. Simon, Sebastian Schels) der
+Cocktailbar **Gamsei** in Muenchen-Glockenbach (ArchDaily 14.02.2014) passt. Wagner_Otto bleibt
+zu Recht ein eigener, unverwandter Ordner (Otto Wagner, Wien). Nebenbefund: der Unterordner
+«interne» ist entgegen der urspruenglichen Fragestellung leer, die 22 Bilder liegen im
+Wurzelordner; darunter mehrere Bilder zum unpassenden Projekt «BOX 117» (Drewes/Schneider,
+Berlin) — moegliche Fehlablage im Quellordner, nicht bereinigt (Freigabesache). Aenderung nur in
+`wiki/QUESTIONS.md` (ein Satz-Anhang, RECHERCHIERT-Vermerk mit Quellen), `git diff --numstat`
+auf `1 1` geprueft (SSD und NAS identisch editiert, append-only). Keine Katalog-JSON veraendert.
+
+**Offen fuer den naechsten Lauf:** kein weiterer per Datenebene/WebSearch loesbarer Einzelfall
+in Sektion 1 gefunden — die verbleibenden knapp 200 unmarkierten Punkte in `QUESTIONS.md` sind
+entweder (a) Kapazitaets-/Kurationsentscheide fuer bereits klar identifizierte, bekannte
+Architekten («ausbauen oder Stub belassen»), (b) private JANS-Kontext-Fragen ohne oeffentliche
+Quellenlage (Back_Lukas, Caminada_Marco, Heller_Patrick u.ae. — nicht websuchbar) oder (c)
+Umbenennungen/Zusammenfuehrungen in Sektion 2/3, die Freigabe fuer Quellordner-Aenderungen
+brauchen. Naechster sinnvoller Schritt bleibt eine dieser drei Kategorien mit Raphael zu klaeren,
+oder die Parser-Verfeinerung in `tools/synobsis_scan.py` (Sektion 4) als Code- statt Datenaenderung.
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, Folgelauf) — Bo_Bardi_Lina-Fehlextraktion korrigiert, Prioritaeten 1-4 verifiziert vollstaendig
 
 Beim Uebernehmen der Position zunaechst per `git log`/`git diff --numstat` sowie Stichproben
