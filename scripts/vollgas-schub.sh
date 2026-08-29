@@ -23,6 +23,22 @@
 set -uo pipefail
 export LANG="de_CH.UTF-8" LC_ALL="de_CH.UTF-8"
 
+# Harness-Variablen der aufrufenden Claude-Code-Session ABSTREIFEN.
+# Befund 29.08.2026, 20:30: wird eine Lane AUS einer laufenden Claude-Code-Session
+# heraus per nohup abgeloest, erbt sie CLAUDE_CODE_SDK_HAS_HOST_AUTH_REFRESH und
+# CLAUDE_CODE_MESSAGING_SOCKET. Die CLI fragt dann die HOST-Session nach der
+# Token-Erneuerung, statt den eigenen CLAUDE_CODE_OAUTH_TOKEN zu verwenden — der
+# abgeloeste Prozess erreicht den Socket aber nicht mehr und scheitert mit
+# «OAuth session expired and could not be refreshed», obwohl der Token gueltig ist.
+# Genau dieser Fehler kostete am 29.08. zwei Anlaeufe: derselbe Aufruf lief im
+# Vordergrund mit rc=0 und im Hintergrund mit rc=1. Ueber ssh gestartete Lanes
+# waren nie betroffen, weil sie in einer sauberen Umgebung beginnen.
+unset CLAUDE_CODE_SDK_HAS_HOST_AUTH_REFRESH CLAUDE_CODE_SDK_HAS_OAUTH_REFRESH \
+      CLAUDE_CODE_MESSAGING_SOCKET CLAUDE_CODE_MESSAGING_TOKEN \
+      CLAUDE_CODE_HOST_SESSION_ID CLAUDE_CODE_SESSION_ID CLAUDE_CODE_CHILD_SESSION \
+      CLAUDE_CODE_ENTRYPOINT CLAUDE_CODE_EXECPATH CLAUDECODE \
+      CLAUDE_AGENT_SDK_VERSION CLAUDE_PID CLAUDE_EFFORT ANTHROPIC_BASE_URL 2>/dev/null
+
 # Headless-Anmeldung laden. PFLICHT, nicht optional (Befund 29.08.2026, 20:15):
 # auf beiden Buero-Stationen ist die SCHLUESSELBUND-Sitzung abgelaufen, der
 # CLAUDE_CODE_OAUTH_TOKEN in dieser Datei dagegen GUELTIG. Ohne das Einlesen

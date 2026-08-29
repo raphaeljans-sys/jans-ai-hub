@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 20:18:19
+Stand: 29.08.2026 20:28:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 20:10)
+- /Users/raphaeljans  (letzte Aktivitaet 20:27)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 20:18:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 603640b48 tenant-hygiene 29.08.: 885.23 GB (83.99 %), +55 MB (Wochenende ruht), Trim-Fenster offen
+- d5d8ec775 baurecht: Reglemente-Queue Thalwil geprueft, kein offener Batch (Schub-Lane BAURECHT-THALWIL 29.08.2026)
