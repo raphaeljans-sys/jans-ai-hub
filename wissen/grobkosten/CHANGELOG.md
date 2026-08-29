@@ -1,5 +1,14 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-30 (Schub-Lane grobkosten, zwoelfter Dispatch) — unveraendert, knapper Verweis
+
+Zwoelfter wortgleicher Dispatch seit 29.08. 20:32 Uhr. Gegengeprueft (`raw/`-Ordnerliste mit
+`ls -la`, `wiki/kennwerte.md`-Frontmatter `sources:`, `wiki/INDEX.md`-Raw-Material-Status-
+Tabelle, `git log --oneline -- wissen/grobkosten/`): `raw/` unveraendert seit 17.08., alle 18
+realen Dateien weiterhin in `sources:` gefuehrt, kein neuer Commit auf `raw/` seit dem letzten
+Check. Kein weiterer Verdichtungsdurchgang. Blocker unveraendert Frage 1/2 in
+`wiki/QUESTIONS.md` (Raphaels Entscheid).
+
 ## 2026-08-30 (Schub-Lane grobkosten, elfter Dispatch) — unveraendert, knapper Verweis
 
 Elfter wortgleicher Dispatch seit 29.08. 20:32 Uhr. Gegengeprueft (`git log -1 -- raw/`,
