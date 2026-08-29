@@ -4,6 +4,27 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, sechster Folgelauf) — Bestaetigt: keine offene Position mehr in den vier Prioritaeten
+
+Frische Session, eigener Grep-Durchgang statt Uebernahme des Vorlauf-Protokolls: `wiki/QUESTIONS.md`
+auf alle vier Auftragsprioritaeten durchsucht (Fehlextraktion/Textauszug-Fehlgriffe, Katalog-Kollision,
+Sonderzeichen-Zerlegung, Sammelfrage Charge 1-6) — jede Fundstelle traegt bereits BEHOBEN/GEPRUEFT/
+TEILBEHOBEN vom heutigen Datum. Zusaetzliche Gegenprobe mit einem breiteren Suchmuster
+(„Textauszug ist/statt“, „falscher Text“, „sachfremd“) ohne den Filter auf das Wort „Fehlextraktion“
+ergab keine weiteren, bisher uebersehenen Fehlextraktions-Hinweise. `git log`/`git status`/`git diff
+--numstat` fuer diesen KB-Pfad im SSD-Klon sauber. Nebenbefund: der NAS-Pfad (kanonische Quelle) lag
+beim Start dieses Laufs um einen CHANGELOG-Abschnitt hinter dem SSD-Klon zurueck (fehlender Eintrag
+„fuenfter Folgelauf“) — vermutlich hatte ein Vorlauf versehentlich den SSD-Spiegel statt des NAS-Pfads
+editiert; hier auf dem NAS-Pfad nachgetragen, keine inhaltliche Aenderung, nur Sync-Nachzug. Ergebnis
+identisch zu den fuenf Vorlaeufen desselben Tages: alle vier zugewiesenen Prioritaeten sind erschoepft,
+ausser den bekannten Freigabesachen (NAS-Ordner-Umbenennungen/-Zusammenfuehrungen der vier
+Kollisionsfaelle, Chamberlin-Slug-Erweiterung u.ae.) und rund elf bis zwoelf Sammelfrage-Namen je Charge
+ohne belastbaren Websuche-Treffer (bleiben korrekt offen, nicht erfunden). Kein neuer Katalog-Eintrag,
+kein `QUESTIONS.md`-Text veraendert. Empfehlung: naechster sinnvoller Auftrag fuer die SYNOBSIS-Lane
+liegt ausserhalb dieser vier Prioritaeten (z.B. Sektion 1/2 der leeren Ordner und Schreibfehler-Slugs,
+die nie Teil dieses Auftrags waren) oder wartet auf Raphaels Freigabe der NAS-Zusammenfuehrungen
+beziehungsweise den naechsten regulaeren `--reindex`-Batch.
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, vierter Folgelauf) — Scanner-Root-Cause fuer Kollision und Sonderzeichen behoben, nicht nur Katalogdaten
 
 Eigene Gegenpruefung vor Beginn bestaetigte den protokollierten Stand der drei Vorlaeufe (Fehlextraktionen,
