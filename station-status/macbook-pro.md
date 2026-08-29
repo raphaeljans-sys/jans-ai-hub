@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 23:56:11
+Stand: 30.08.2026 00:06:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:41)
@@ -12,4 +12,4 @@ Stand: 29.08.2026 23:56:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 675e95ce3 Lane FACHWISSEN: erster P2-Destillat-Lauf archiv-fachwissen (Sektion 02_Gestalt_Kulturverstaendnis, zwei Artikel: Dichte-Rundfahrt Bauwelt 2012, Gestaltungsplan Richti-Areal Wallisellen)
+- 476172f7d wissens-destillat archiv-fachwissen: Sektion 02_Gestalt_Kulturverstaendnis P1+P2 abgeschlossen (achtzehnter Lauf, Lane FACHWISSEN)
