@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 00:16:45
+Stand: 30.08.2026 00:27:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 00:16:45
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 73131b9a0 grobkosten: sechster Duplikat-Dispatch (erster Tag danach) erkannt und dokumentiert, keine erzwungene Verdichtung
+- b86fe2e8a wissens-destillat archiv-fachwissen 01_Konstruktion P2: Deckenaufbauten-Vergleichsstudie, Lueftungsgrundlagen/CO2 ETH Leibundgut (drei Artikel)
