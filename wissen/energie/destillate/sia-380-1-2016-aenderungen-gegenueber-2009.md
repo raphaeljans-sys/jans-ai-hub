@@ -5,7 +5,7 @@ ausgabe: "SIA 380/1:2016 (ersetzt SIA 380/1:2009); Vollzugshilfe EN-102 Ausgabe 
 gelesen: "Web-Recherche + Volltext dreier Sekundär-/Vollzugsdokumente (PDF via curl+pdftotext), kein SIA-Norm-Volltext selbst gekauft"
 datenstand: "2026-07-13 SIA-Shop/espazium abgerufen; 2026-07-21 EN-102-Vollzugshilfe (energie.tg.ch), ZH-Anforderungsprofil (zh.ch) und ENTECH-Handbuch (hetag.ch) abgerufen; 2026-07-23 Adversarial-Verify Runde 2 an unabhängiger Quelle (Kt. Luzern KEnV Anhang, Nr. 774-A1) gegengeprüft; Korrigenda C1 zu SIA 380/1:2016 vom SIA vorhanden (Inhalt weiterhin nicht gelesen)"
 status: established
-last_updated: 2026-07-23
+last_updated: 2026-08-29 (Run 167: Korrigenda-C1-Zeiger nachgetragen, EN-102-Zwei-Versionen-Befund quer eingetragen; Inhalt der Zahlentabellen unveraendert)
 ---
 
 # SIA 380/1:2016 — was hat sich gegenüber SIA 380/1:2009 geändert?
@@ -133,6 +133,31 @@ weiterhin möglich); die Norm ist aber **strenger** als die 2009er-Fassung, weil
 nachvollzieht. Wichtig zu wissen: Kt. ZH führt den Vollzug seit 1.1.2026 elektronisch über EVEN,
 das auf dem aktuell geltenden SIA-380/1-Stand basiert — ein Angebot/Nachweis, der sich noch auf
 2009er-Grenzwerte beruft, ist veraltet.
+
+## Nachtrag 2026-08-29 (Run 167): Korrigenda C1 ist gelesen, und EN-102 existiert in zwei Normbasis-Versionen
+
+**01 Der Datenstand-Vermerk «Korrigenda C1 … Inhalt weiterhin nicht gelesen» ist überholt.** Die
+Korrigenda **SIA 380/1-C1:2019** (SN 520380/1-C1:2019 de, 5 S., genehmigt 23.10.2018, gültig ab
+01.03.2019) wurde am **28.08.2026 im Volltext gelesen** und als eigenes Destillat abgelegt:
+`[[sia-380-1-korrigenda-c1-2019]]`. Sie ist die **einzige** Korrigenda zu SIA 380/1:2016, eine C2
+existiert nicht. Der materielle Kern für dieses Destillat: Ziff. 2.3.11 ändert den **Zielwert-Faktor
+für Neubauten von 60 % auf 70 %** der Grenzwerte (Q_H,ta = 0,6 · Q_H,li wird zu **0,7 · Q_H,li**),
+dazu der Verweiswechsel von der zurückgezogenen SN EN ISO 13790 auf **SN EN ISO 52016-1** und eine
+neue 10-%-Ausnahme für Dachflächenfenster. Die Grenzwerte Q_H,li selbst sind davon **nicht** betroffen,
+die Zahlentabellen dieses Destillats bleiben gültig. Nachgetragen, weil das Wissen seit dem 28.08.2026
+in der KB lag, der Zeiger von hier aus aber fehlte.
+
+**02 Die Vollzugshilfe EN-102 gibt es in zwei parallelen Normbasis-Versionen.** Am 29.08.2026 belegt
+über die EnFK-Querverweis-Vollzugshilfe **EN-100** (Ausgabe Dezember 2018): Neben der hier zitierten
+Fassung auf Basis **SIA 380/1:2016** (Ausgabe Januar 2020) führt die EnFK eine zweite Fassung auf
+Basis **SIA 380/1:2009** (Ausgabe **November 2020**, PDF-CreationDate 06.11.2020). Die 2009-Basis-Version
+enthält eine eigene Heizwärmebedarf-Tabelle mit der Klimareferenz **+8,5 °C** statt der +9,4 °C der
+2016-Basis. **Praktische Folge:** Wer Grenzwerte aus «der EN-102» zitiert, muss die Normbasis mitnennen,
+sonst sind zwei zahlenverschiedene Tabellen unter demselben Formularnamen im Umlauf. Das erklärt
+rückwirkend auch den am 17.07.2026 als «Transkriptionsfehler» korrigierten Zahlenlauf: Die Zahlen waren
+nicht erfunden, sie stammten real aus der anderen EnFK-Fassung. Die damalige Korrektur der aktuellen
+Tabelle 5 (2016-Basis) bleibt richtig, nur ihre Begründung war unvollständig. Details:
+`[[enfk-en-102-waermeschutz-2018]]`.
 
 ## Offene Punkte
 - **Gelöst 2026-07-21:** die konkreten Zahlenwerte für Q_H,li0/Q_H,li je Gebäudekategorie
