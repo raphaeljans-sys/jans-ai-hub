@@ -1,5 +1,54 @@
 # CHANGELOG
 
+## 2026-08-29 (energie-training Run 167, Synthese) — E-R166-6 beantwortet: Begleitdokument-Klasse traegt auch auf Rang 6-20, kumuliert 11/11; ein halbierter Grenzwert im Bestand gefunden
+
+Hauptlauf-Eintrag ueber den fuenf Agenten-Eintraegen darunter (SIA 2024, HFM-2015/E-R166-3, KBOB,
+EN-102, LEG). Zielmenge deterministisch gebildet (Backlink-Ranking, Raenge 2-14, die fuenf in Run 166
+geprueften Quellen ausgeschlossen), sechs parallele Rechercheure mit Negativbeleg-Pflicht.
+
+**Ergebnis:** 5/5 weitere Quellen mit Fund, kumuliert **11 von 11**. Die Klasse ist nicht auf die
+Spitzenquellen beschraenkt. **Neu erkannt: der Ertrag zerfaellt in drei sehr ungleiche Klassen** —
+veralteter Kennwert im Bestand (teuerste), amtliche Ebene widerspricht Branchenebene
+(beratungsstaerkste), belegter Negativbefund (beendet eine wiederkehrende Frage). Daraus das
+Abbruchkriterium fuer die Fortsetzung auf Rang 15-30 (E-R167-6): Ertragsklasse mitmessen.
+
+**Im Hauptmodell entschieden und selbst geschrieben (nicht delegiert):**
+- **Vorbehalt an der Fundstelle** in `destillate/kbob-graue-treibhausgasemissionen-2025.md` (Z. 145):
+  Der Minergie-ECO-PV-Grenzwert **13,3 kg CO₂/m²·a ist quellentreu fuer V1.3 (2021), aber ueberholt** —
+  V2023.3 (26.11.2024) nennt **7,1** (Solarkollektoren 5,2 → 5,6; Erdsonden und Gebaeudehuelle
+  unveraendert). Nicht ueberschrieben, Muster aus Run 166. Ausbreitungs-grep: genau eine Fundstelle KB-weit.
+- **Vorbehalt an der Fundstelle** in `destillate/gebaeudeprogramm-bund-hfm-2015.md` (Z. 192): Die
+  Zwei-Jahres-Frist ist **kantonale Praxis**, keine Bundesvorgabe; **«verlaengerbar um sechs Monate»
+  ist unbelegt**. Stand bisher nur in der Nachtrags-Tabelle 40 Zeilen weiter unten.
+- **Querverweis-Luecke geschlossen** in `destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md`:
+  fuehrte «Korrigenda C1 … Inhalt weiterhin nicht gelesen», obwohl Run 166 sie am 28.08. im Volltext
+  gelesen hatte. **Eigene Fehlerklasse: das Wissen war da, der Zeiger fehlte.** Dazu der heutige
+  EN-102-Zwei-Versionen-Befund quer eingetragen.
+- **Statushebung geprueft und VERWORFEN:** Ein Agent schlug vor, dasselbe Destillat von `emerging` auf
+  `established` zu heben. Es trug bereits `established` — die Annahme war falsch, keine Aenderung.
+- **SIA-2040-Verdacht geprueft und entwarnt:** Der Bonusfund «SIA 2040:2017 per 31.01.2025 archiviert»
+  ist in dieser KB bereits erfasst (u.a. `BAUHERREN-FAQ` Z. 635, zwei Destillate); die verbleibenden
+  Nennungen sind methodisch-historisch korrekt, kein Handlungsbedarf. Hier vermerkt, damit der Befund
+  im naechsten Lauf nicht erneut als Fund auftaucht.
+
+**Block 2 — drei FAQ geschaerft** (Pflicht zwei): **F33** (ElCom widerspricht der VSE-Branchenempfehlung
+zu den Netzebenen, amtliche Speicher-Messkonzepte, sechs ElCom-Klaerungen), **F9** (halbierter
+PV-Grenzwert, KBOB-Fahrplan 2027, Bewehrungsstahl **600 kg CO₂-eq/t**, Nutzungsphase nach Ziff. 9.1
+ausgeschlossen), **F7** (Fristenlage, Neubau-Ausschluss gilt nur M-01, Vollmacht-Vorlage,
+70-kW-Schwelle als Finanzierungstopf-Grenze).
+
+**Register:** `wiki/QUESTIONS.md` (E-R166-3 und E-R166-6 geschlossen, sieben neue Punkte E-R167-1..7),
+`outputs/2026-08-29_energie-run167.md`, `logbuch/fristen.md` (KBOB-Termin 30.10.2026 als **Nachtrag am
+bestehenden GFM-2028-Vorgang**, kein zweiter Vorgang; mit der ehrlichen Einordnung, dass die
+Einreichefrist Hersteller betrifft und nicht JANS).
+
+**Betrieb:** `git diff --numstat` nach jedem Schreibvorgang (Rule 260811) — durchgehend additiv, einzige
+Loeschungen sind fortgeschriebene `last_updated`-Zeilen. Kein globales Suchen-und-Ersetzen; Vorbehalte
+ueber eindeutige Anker mit Trefferzahl-Assertion gesetzt. Ein von einem Agenten gemeldeter Merge-Konflikt
+in drei fremden CHANGELOGs nachgemessen: kein `MERGE_HEAD`, keine Konfliktmarker, transient —
+**kein Eingriff** (Rule `interaktive-eingriffe`, unbeaufsichtigter Lauf).
+
+
 ## 2026-08-29 (Recherche-Agent Run 167, Begleitdokument-Prüfung SIA 2024-Korrigenda) — C1:2024 im Volltext gelesen, keine materielle Abweichung, kein C3
 
 Nachtrag additiv an `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` angehängt
