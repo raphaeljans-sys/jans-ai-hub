@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 23:54:24
+Stand: 30.08.2026 00:04:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 23:32)
+- /Users/raphaeljans  (letzte Aktivitaet 23:49)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 23:54:24
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c6c27aa21 nas-selfcommit: 3 Datei(en) 2026-08-29 23:45
+- 5bca0fe02 grobkosten: achter Duplikat-Dispatch selber Tag/Nacht dokumentiert, keine erzwungene Verdichtung
