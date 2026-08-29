@@ -1,5 +1,19 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Spec-Lauf Korpus `buero-referenzen` (Lane FACHWISSEN)
+
+`skills/wissens-destillat/specs/buero-referenzen-spec.md` neu geschrieben (Vorbild
+`bauprodukte-spec.md`/`buero-projekte-spec.md`), da Phase 0 fuer diesen Korpus abgeschlossen war,
+aber noch keine Spec bestand (Queue-Regel: kein Destillat ohne Spec). Kein Wiki-Artikel in diesem
+Lauf, kein Inventar veraendert — reine Spec-Stufe, Lauf endet danach gemaess SKILL.md Schritt 2.
+Kernentscheide der Spec: fuenf Ziel-Artikel-Typen (Kennwert/Kostenermittlung,
+Konstruktionsdetail, Verfahren/Rezeptur, Wettbewerbsmechanik, Honorar/Prozess); Anonymisierungs-
+Zusatzregel fuer `18_Projektkostenplanung`/`25_Wettbewerb` (nie Unternehmer-Namen oder
+Gegenpartei-Betrag im Artikeltext); Erledigt-Markierung als Append-Abschnitt
+`## Destillat-Fortschritt` am Dateiende der Inventardateien (keine In-Place-Aenderung der
+Triage-Tabelle, damit `git diff --numstat` `-0` zeigt); Sperrliste `23_Vertraege`/`16_Portfolios`/
+`01_Adressen` aus `CLAUDE.md` referenziert, nicht dupliziert. `KORPUS-QUEUE.md` nachgefuehrt.
+
 ## 2026-08-24 — Wissens-Chef Run 41 (Cross-KB, Erst-Pruefung dieser KB)
 
 Erste Cross-KB-Pruefung, einen Tag nach dem Anlegen. Drei additive Nachtraege in
