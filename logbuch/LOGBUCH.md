@@ -9641,3 +9641,18 @@ DOGMA (Bruessel 2002, Aureli/Tattara). Damit Charge 1 vollstaendig (14/14) reche
 freier Slot kann auf Charge 2 wechseln. Details mit Quellen in
 `wissen/architekten-synobsis/wiki/QUESTIONS.md` angehaengt, CHANGELOG-Eintrag gesetzt.
 `git diff --numstat` nativ geprueft: 1/1 (QUESTIONS.md), keine Loeschung. Budget rund 1.0 von 5 USD.
+
+## 2026-08-29 13:30 Nachtschicht/Versuchs-Slot Mac Mini — Sammelfrage Charge 2 (architekten-synobsis) begonnen, fuenf Namen recherchiert
+
+Prioritaeten 1-4 leer bzw. nicht anwendbar (keine pending remote-/sync-Tasks, Synobsis Stufe 1+2
+vollstaendig 853/853, `bauprodukte`/`grobkosten` erledigt/ausgesetzt, `energie` noch nicht wieder
+faellig, Rest per Vorgabe ausgeschlossen). Fristen-Register ohne neuen Handlungsbedarf.
+Sammelfrage Charge 1 ist seit dem 05:30-Slot vollstaendig (14/14), darum Wechsel auf **Charge 2**
+(Zeile 54 in `wissen/architekten-synobsis/wiki/QUESTIONS.md`, 22 Namen). Fuenf per WebSearch
+einzeln belegt: Ehrenklau_Katharina (Atelier Ehrenklau Hemmerling, Zuerich), Eicke_Becker
+(Schreibvariante Eike Becker, Berlin), El_Khouli (Sebastian El Khouli, BGP Zuerich), Eldem (Sedad
+Hakki Eldem, tuerkischer Architekt 1908-1988), Gartmann_Patrick (Chur, Ferrari Gartmann, Mitarbeit
+Schweizer Pavillon mit Zumthor). Nebenbefund: Gerkan (ebenfalls in Charge 2) war bereits an
+anderer Stelle geklaert (Zeile 244). 17 der 22 Charge-2-Namen bleiben offen. Details mit Quellen
+in `wiki/QUESTIONS.md` angehaengt, CHANGELOG-Eintrag gesetzt. `git diff --numstat` nativ geprueft:
+1/1 (QUESTIONS.md), keine Loeschung. Budget rund 1.3 von 5 USD.

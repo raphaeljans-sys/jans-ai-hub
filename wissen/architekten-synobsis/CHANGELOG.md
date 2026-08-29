@@ -4,6 +4,28 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 13:30 (Mac Mini Nachtschicht/Versuchs-Slot) — Sammelfrage Charge 2 begonnen (fuenf Namen: Ehrenklau, Eicke_Becker, El_Khouli, Eldem, Gartmann_Patrick)
+
+Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks (nur ein leerer
+`scripts`-Unterordner unter `sync-tasks/mac-mini/`); Synobsis Stufe 1+2 vollstaendig (853/853);
+`bauprodukte`/`grobkosten` formal erledigt/ausgesetzt; `energie` zuletzt Run 166 27.08. 22:58,
+noch nicht wieder faellig; `baurecht`/`normen`/`planungsgrundlagen`/`wettbewerbs-dna` per Vorgabe
+ausgeschlossen (eigener Taktgeber). Fristen-Register ohne neuen Handlungsbedarf.
+
+Auf Prioritaet 5 ausgewichen: Sammelfrage Charge 1 (Zeile 32) ist seit dem 05:30-Slot vollstaendig
+(14/14), darum Wechsel auf **Charge 2** (Zeile 54, 22 Namen: Ehrenklau_Katharina bis
+Halliday_James_Theodore_1882_1932). Fuenf Namen per WebSearch einzeln mit Quelle belegt:
+**Ehrenklau_Katharina** (Atelier Ehrenklau Hemmerling, Zuerich, seit 2018), **Eicke_Becker**
+(Schreibvariante Eike Becker, Berlin, seit 1999 mit Helge Schmidt), **El_Khouli** (Sebastian El
+Khouli, BGP Zuerich, Nachhaltigkeit/Umbau), **Eldem** (Sedad Hakki Eldem, tuerkischer Architekt
+1908-1988, Nationale Moderne), **Gartmann_Patrick** (Patrick Gartmann, Chur, Conzett Bronzini
+Gartmann/Ferrari Gartmann, Mitarbeit Schweizer Pavillon mit Zumthor). Nebenbefund: **Gerkan**
+(ebenfalls in Charge 2) ist bereits an anderer Stelle geklaert (Zeile 244, Meinhard von Gerkan).
+Details mit Quellenangabe in `wiki/QUESTIONS.md` an der Charge-2-Zeile angehaengt. 17 der 22
+Namen bleiben offen fuer den naechsten Slot. `git diff --numstat` nativ geprueft: 1 Zeile
+geaendert / 1 Zeile (additiv erweitert), keine Loeschung von Bestand. Kein Fan-out, kein Versand,
+keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund 1.1 von 5 USD.
+
 ## 2026-08-29 05:30 (Mac Mini Nachtschicht) — Sammelfrage Charge 1 vollstaendig abgeschlossen (letzte vier Namen: Cebra, Da Vinci, Dietrich Untertrifaller, Dogma)
 
 Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
