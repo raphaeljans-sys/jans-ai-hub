@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 21:30:15
+Stand: 29.08.2026 21:40:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 21:18)
@@ -12,4 +12,4 @@ Stand: 29.08.2026 21:30:15
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bcd454d4d nas-selfcommit: 1 Datei(en) 2026-08-29 21:30
+- ded0e1740 wissens-destillat archiv-fachwissen: 03_Bauprozesse_I_II P1 destilliert (SIA-102 drittes Rechenwerk, eBKP-H Haus im Forst, Terminplan-Kennwerte, Referenzfall Oberdiessbach), Queue/Index/CHANGELOG/QUESTIONS nachgefuehrt

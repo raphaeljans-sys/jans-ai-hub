@@ -4,6 +4,25 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Buzzi_e_Buzzi gepruft, alle vier Prioritaeten erneut bestaetigt vollstaendig
+
+Position wie in den Vorlaeufen per `git log`/`git status`/`git diff --numstat` uebernommen:
+alle vier Prioritaeten aus dem Auftrag (Fehlextraktionen, Katalog-Kollisionen,
+Sonderzeichen-Regel, Sammelfrage Charge 2 ff.) waren bereits vollstaendig erledigt (Stand
+`5849190d3`, Arbeitsbaum sauber). Einzige noch unmarkierte Position in Sektion 2 mit
+Textauszug-Verdacht: **Buzzi_e_Buzzi** (Zeile 34 QUESTIONS.md, "Vorlesungs-/Analysenotiz,
+kein Buero-Dossier"). Gepruft: Ordner enthaelt nur ein Dokument
+(`101102_Vortrag_ETH_BuzzietBuzzi.docx`, Mitschrift eines ETH-Vortrags von Buzzi e Buzzi
+02.11.2010), per `textutil -convert txt` gegen den Katalog-Textauszug verglichen — wortgleich,
+keine Kuerzung, kein Fremdthema. Ergebnis: keine Fehlextraktion, sondern eine (mutmasslich
+von Raphael selbst signierte) persoenliche Vorlesungsmitschrift, korrekt dem richtigen
+Architekten zugeordnet, nur qualitativ duenn. QUESTIONS.md-Eintrag entsprechend ergaenzt
+(append-only, `git diff --numstat` vor Commit auf reine Zeilen-Ergaenzung geprueft), kein
+Katalog-JSON veraendert. Damit keine offene Fehlextraktion, Kollision oder Sonderzeichen-
+Frage mehr in Sektion 1-4 unmarkiert; offen bleiben ausschliesslich Freigabesachen (NAS-
+Ordner-Umbenennungen/-Zusammenfuehrungen) und der `--reindex`-Lauf fuer die Parser-
+Verfeinerung (Kapazitaetsfrage, siehe Eintrag unten).
+
 ## 2026-08-29 23:55 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Parser-Verfeinerung Sektion 4 umgesetzt (Code, nicht Daten)
 
 Position wie in den Vorlaeufen per `git log`/`git status`/`git diff --numstat` uebernommen:
