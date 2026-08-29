@@ -1,3 +1,35 @@
+## 2026-08-29 (Run 82, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — fuenfzehnter Doppel-Dispatch, weiterhin Nullbefund
+
+Fuenfzehnter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-82). Nachgeprueft:
+kein offener `[ ]`-Kandidat in `training/n62-3-pruefstand-kandidaten.md`, `wiki/QUESTIONS.md`
+schliesst weiterhin mit N68-1 ab, alle sechs Destillate aus Kandidatenliste Abschnitt 4 tragen
+unveraendert einen Pruefstand. **Kein neuer Kandidat, keine Destillat-Aenderung, kein
+Statuswechsel.** Nicht erneut ausformuliert (Run 76-81 haben den Scheduling-Befund bereits
+gemeldet). Diese Lane haengt jetzt 15 identische Dispatches am selben Tag ab, ohne dass eine
+Korrektur an der Quelle sichtbar wurde — der Bericht an Raphael ausserhalb dieser Datei bleibt
+das wirksamere Signal als ein weiterer CHANGELOG-Eintrag.
+
+## 2026-08-29 (Run 81, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — vierzehnter Doppel-Dispatch, weiterhin Nullbefund
+
+Vierzehnter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-81). Nachgeprueft wie in
+Run 68-80: alle sechs Destillate aus Kandidatenliste Abschnitt 4 tragen einen Pruefstand
+(Nachtrag zur eigenen Pruefung: `vkf-brl-16-15-flucht-rettungswege.md` fuehrt den Abschnitt
+ASCII als „Pruefstand", nicht „Prüfstand" — Ersttreffer 0 war ein Suchfehler dieses Runs, kein
+KB-Befund), kein offener `[ ]`-Kandidat, `wiki/QUESTIONS.md` N68-1 unveraendert. **Kein neuer
+Kandidat, keine Destillat-Aenderung, kein Statuswechsel.** Empfehlung an Raphael: die
+Dispatch-Quelle pruefen, die diesen Auftrag seit Run 68 wortgleich wiederholt — 14 Läufe ohne
+neuen Befund sind ein Indiz fuer eine haengende Automatik, nicht fuer fehlenden Bedarf.
+
+## 2026-08-29 (Run 80, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — dreizehnter Doppel-Dispatch, weiterhin Nullbefund
+
+Dreizehnter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-80). Unabhaengig
+nachgeprueft: `git status wissen/normen` sauber vor Beginn, alle sechs Destillate aus
+Kandidatenliste Abschnitt 4 tragen weiterhin mindestens einen Pruefstand-Treffer
+(`grep -ic "prüfstand\|pruefstand"`), kein offener `[ ]`-Punkt in
+`training/n62-3-pruefstand-kandidaten.md`, `wiki/QUESTIONS.md` schliesst den Auftrag weiterhin
+mit N68-1 ab. **Kein neuer Kandidat, keine Destillat-Aenderung, kein Statuswechsel.** Nicht
+erneut ausformuliert (Run 73-79 haben den Scheduling-Befund bereits gemeldet und begruendet).
+
 ## 2026-08-29 (Run 79, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — zwoelfter Doppel-Dispatch, weiterhin Nullbefund
 
 Zwoelfter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-79). Unabhaengig
