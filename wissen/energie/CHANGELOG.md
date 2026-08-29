@@ -44,9 +44,17 @@ Einreichefrist Hersteller betrifft und nicht JANS).
 
 **Betrieb:** `git diff --numstat` nach jedem Schreibvorgang (Rule 260811) — durchgehend additiv, einzige
 Loeschungen sind fortgeschriebene `last_updated`-Zeilen. Kein globales Suchen-und-Ersetzen; Vorbehalte
-ueber eindeutige Anker mit Trefferzahl-Assertion gesetzt. Ein von einem Agenten gemeldeter Merge-Konflikt
-in drei fremden CHANGELOGs nachgemessen: kein `MERGE_HEAD`, keine Konfliktmarker, transient —
-**kein Eingriff** (Rule `interaktive-eingriffe`, unbeaufsichtigter Lauf).
+ueber eindeutige Anker mit Trefferzahl-Assertion gesetzt. **⚠ P1-Befund am Laufende, eigene Fehleinschaetzung korrigiert:** Ein von
+einem Agenten gemeldeter Merge-Konflikt in drei fremden CHANGELOGs wurde von mir zuerst ueber den
+SMB-Mount nachgemessen und als transient **entwarnt — falsch**; das war eine Aussage ueber den lokalen
+Blick, nicht ueber die Synology (Fehlerklasse Rule 260730b). **Nativ per ssh gemessen:** Die Sync-Kette
+NAS → GitHub → zweite Station steht seit dem 29.08.2026, 22:05; Divergenz **31 lokal / 13 remote**,
+**48 gescheiterte Abgleichversuche**. Die Konflikte sitzen strukturell in CHANGELOG-Dateien, weil
+mehrere Loops im selben Fenster jeweils **oben** einfuegen. Alle Arbeit ist auf der Synology committet
+und sicher (`c98c6654c`), nur die Weitergabe steht. **Kein Eingriff** — die Aufloesung hiesse, ueber
+fremde, unbestaetigte Arbeit anderer Laeufe zu urteilen (Rule 260811 Punkt 3), in einem
+unbeaufsichtigten Lauf (Rule `interaktive-eingriffe`). Als P1 in `logbuch/fristen.md` eingetragen
+(Rule 260805), mit fertigem Befehl.
 
 
 ## 2026-08-29 (Recherche-Agent Run 167, Begleitdokument-Prüfung SIA 2024-Korrigenda) — C1:2024 im Volltext gelesen, keine materielle Abweichung, kein C3
