@@ -192,3 +192,25 @@ bleibt liegen; er trägt Entwurf und Wettbewerb, nicht die Ausführung.
 Zwei Erschliessungslücken sind benannt und nicht behoben: die Bepflanzungsunterlage zum
 Irchelpark und rund 60 Buchseiten-Scans haben keinen Textlayer und wären nur über OCR
 zu heben.
+
+## Destillat-Fortschritt
+
+**29.08.2026 (Lane FACHWISSEN, elfter Destillat-Lauf Korpus `archiv-fachwissen`).** Alle
+vier P1-Dateien gelesen und destilliert bzw. geprüft:
+
+- `07_Pflanzen_Produkte_Mobelierung_Belaege/VOGT Bodenbeläge_120919.pdf` → destilliert zu
+  `wiki/aussenbelaege-regelaufbauten-vogt-2012.md`.
+- `07_Pflanzen_Produkte_Mobelierung_Belaege/Unterlagen Kolloquium.pdf` → in drei Sachen
+  aufgeteilt: Naturstein-Materialkunde destilliert zu
+  `wiki/naturstein-materialkunde-bollinger-sandstein.md` (S. 2); Baumpflanzung/Pflanzdichte/
+  Kletterpflanzen destilliert zu
+  `wiki/baumpflanzung-pflanzgrube-kletterpflanzen-typologie.md` (S. 13-16, ZH-Grenzabstände
+  bewusst nicht wiederholt, siehe dort); Dachbegrünung (S. 3-8) **nicht** destilliert —
+  Cross-KB-Duplikat zu `wissen/bauprodukte/wiki/dachbegruenung-systeme.md`, Zusatzfund als
+  Routing-Hinweis in `wiki/QUESTIONS.md` #52 vermerkt.
+- `07_Pflanzen_Produkte_Mobelierung_Belaege/pflanzen (1).pdf` + `pflanzen Layout (2).pdf` →
+  gemeinsam destilliert zu `wiki/immergruene-sicht-heckenpflanzen-artenliste.md`.
+
+**Damit ist P1 dieser Sektion vollständig destilliert.** P2 (24 Positionen, siehe Triage
+oben) bleibt offen für einen künftigen P2-Lauf. Kein neuer Datenschutz- oder Sperrlisten-Fund
+über den bereits im Kurzbefund/Datenschutz-Befund dokumentierten Stand hinaus.

@@ -4,6 +4,37 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260829 — Elfter Destillat-Lauf Korpus 4, Sektion `01_Landschaftsarchitektur`
+
+Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion
+`01_Landschaftsarchitektur`, alle 4 P1-Dateien gelesen, drei zu vier Wiki-Artikeln
+destilliert.
+
+**#52 Cross-KB-Ergänzung für `wissen/bauprodukte/wiki/dachbegruenung-systeme.md`
+vorgeschlagen, nicht selbst ausgeführt.** Die Vogt-Broschüre «Integrierte Disziplin
+Referenzen» (Stand 30.10.2012, S. 3-8, in dieser Sektion als P1 eingestuft) nennt einen
+Pflegeaufwand-Kennwert, der im bestehenden `bauprodukte`-Artikel fehlt: Extensivbegrünung
+1-2 Kontrollgänge pro Jahr, Intensivbegrünung ausdrücklich «sehr pflegeintensiv». Dieser
+Lauf destilliert keinen eigenen Dachbegrünungs-Artikel (Cross-KB-Duplikat, siehe
+CHANGELOG 2026-08-29) und schreibt aus Lane-Scope-Gründen auch nicht selbst in
+`wissen/bauprodukte`. Wer beantworten kann: die nächste Lane/der nächste Lauf mit
+Schreibrecht auf `wissen/bauprodukte` prüft, ob der Pflegeaufwand-Kennwert dort mit
+Quellenverweis auf diese Sektion ergänzt werden soll.
+
+**#53 SNV-Normen aus `aussenbelaege-regelaufbauten-vogt-2012.md` nicht gegen
+`wissen/normen/` geprüft.** Die Quelle (Bodenbeläge-Broschüre, S. 6) verweist für
+Asphalt-Oberflächenbehandlung auf SNV 640 410a / 640 415a und für Makadambauweisen auf
+SNV 40 417. Keine dieser drei SNV-Nummern ist in `wissen/normen/` erfasst (Stichprobe
+dieses Laufs). Wer beantworten kann: Skill `normen` bei Bedarf für ein konkretes Devis
+gezielt nachziehen; kein genereller Recherche-Auftrag dieses Laufs.
+
+**#54 Abbautiefe/Blockgrösse Bollinger Sandstein im Textlayer nicht wiedergefunden.**
+Der Kurzbefund der Phase-0-Inventardatei nennt für den Bollinger-Sandstein-Abbau «bis 60 m
+Tiefe» und «Blockgrössen bis 25 t», die im hier ausgewerteten `pypdf`-Textlayer-Auszug von
+S. 2 der Kolloquiums-Broschüre nicht mehr auffindbar waren (vermutlich auf einer
+Bildseite/in einer Grafik statt im Fliesstext). Wer beantworten kann: bei Bedarf am
+Original-PDF (S. 2-3) mit Seitenrendering statt Textextraktion nachprüfen.
+
 ## 260829 — Zehnter Destillat-Lauf Korpus 4, Sektion `01_Entwerfen`
 
 Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion

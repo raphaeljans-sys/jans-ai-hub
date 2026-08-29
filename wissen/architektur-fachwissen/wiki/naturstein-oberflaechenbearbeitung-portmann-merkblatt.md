@@ -3,7 +3,7 @@ title: "Naturstein und Oberflächenbearbeitung: Datierungshilfe nach BABS-Merkbl
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Denkmalpflege/02_Literatur/Texte für Veranstaltungen/Portmann-Naturstein Oberflaechenbearbeitung.pdf, S. 1-4"]
-links: ["[[trockenmauer-devisierung-svtsm-richtlinie]]"]
+links: ["[[trockenmauer-devisierung-svtsm-richtlinie]]", "[[naturstein-materialkunde-bollinger-sandstein]]"]
 ---
 
 # Naturstein und Oberflächenbearbeitung — Merkblatt Portmann (BABS, Stand 2003)

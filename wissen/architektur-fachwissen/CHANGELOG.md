@@ -1,5 +1,49 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Elfter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Landschaftsarchitektur` (Lane FACHWISSEN, Fortsetzung)
+
+Alle vier P1-Dateien der Sektion `01_Landschaftsarchitektur` (ETH-Studienarchiv
+Landschaftsarchitektur I+II, Vogt-Broschüren 2012) gelesen (`pypdf`, kein
+`pdftotext`/Homebrew auf dieser Station) und mit Seitenangabe belegt. Drei der vier
+P1-Dateien zu vier Wiki-Artikeln destilliert, alle `status: emerging`:
+
+- [[aussenbelaege-regelaufbauten-vogt-2012]] — Regelaufbauten Kiesweg (Gefälle 2,5-3 %,
+  Ebenheit 1,5 cm/4 m), Asphalt (SNV-Verweise), Rasen/Saatgut (RSM Deutschland vs.
+  Herstellermischung UFA/OH Schweiz), Wiese, Schotterrasen (FLL-Belastungsklasse 4),
+  Rasenpflaster/Natursteinpflästerung
+- [[naturstein-materialkunde-bollinger-sandstein]] — Bollinger Sandstein: Mineralbestand
+  (30-50 % Quarz, 25-35 % Feldspat), Vorkommen oberer Zürichsee, Schachtabbau in
+  Naturschutzgebieten
+- [[baumpflanzung-pflanzgrube-kletterpflanzen-typologie]] — Pflanzgrube grosskroniger
+  Strassenbaum (6 m²/1,5 m), Pflanzdichte als Gestaltungsfrage, Kletterpflanzen-Typologie
+  (Selbstklimmer/Rankpflanzen)
+- [[immergruene-sicht-heckenpflanzen-artenliste]] — 13 immergrüne Sicht-/Heckenarten,
+  1,5-7 m Endhöhe, Neobiota-Warnhinweis Kirschlorbeer
+
+**Zwei Positionen bewusst nicht als eigener Artikel destilliert:**
+- **Dachbegrünung** (`Unterlagen Kolloquium.pdf` S. 3-8) ist ein **Cross-KB-Duplikat** zu
+  `wissen/bauprodukte/wiki/dachbegruenung-systeme.md` (dort bereits SIA-312:2013-verifiziert,
+  BKP 224/288 zugeordnet). Diese Lane schreibt ausschliesslich in
+  `wissen/architektur-fachwissen` und `skills/wissens-destillat/specs/` (Auftrag Raphael
+  29.08.2026) und ändert deshalb `bauprodukte` nicht selbst. Ein genuiner Zusatzfakt der
+  Quelle (Pflegeaufwand Extensivbegrünung: 1-2 Kontrollgänge/Jahr; Intensivbegrünung
+  ausdrücklich «sehr pflegeintensiv») fehlt im bestehenden Artikel und ist als
+  Cross-KB-Routing-Hinweis in `wiki/QUESTIONS.md` vermerkt.
+- Die im Quelldokument (`Unterlagen Kolloquium.pdf` S. 14) genannten **ZH-Grenzabstände für
+  Hecken/Bäume** werden nicht wiederholt: `wissen/baurecht/wiki/umgebungsgestaltung-und-
+  einfriedungen.md` führt dieselbe Sache bereits amtlich verifiziert (§§ 169/170/177/178
+  EG ZGB) und ist die massgebliche Referenz, nicht diese undatierte Broschüren-Zusammenfassung.
+
+Backlink ergänzt in [[naturstein-oberflaechenbearbeitung-portmann-merkblatt]] (dieselbe
+Materialgattung, andere Sache: dort Bearbeitungstechnik-Datierung, hier
+Gesteins-/Vorkommenskunde). `wiki/INDEX.md` Zeile 15 und Abschnitt «Artikelbestand»
+nachgeführt. Datenschutz-Befund der Sektion (Lieferantenliste mit Klartext-Zugangspasswort,
+archivierte Hochschul-E-Mail mit Privatadressen) bereits im Phase-0-Inventar korrekt
+dokumentiert, kein neuer Fund, nichts davon erfasst. **Sektion `01_Landschaftsarchitektur`
+damit für P1 vollständig destilliert**, P2 (24 Positionen) bleibt offen. Fortschritt in
+`raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` Abschnitt
+«Destillat-Fortschritt» (reiner Append).
+
 ## 2026-08-29 — Zehnter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Entwerfen` (Lane FACHWISSEN, Fortsetzung)
 
 Alle sechs P1-Positionen der Sektion `01_Entwerfen` destilliert (Mittelschicht-Sektion,

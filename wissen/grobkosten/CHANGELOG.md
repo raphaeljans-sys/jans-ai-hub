@@ -1,5 +1,28 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-29 (Schub-Lane grobkosten, sechster Dispatch selber Tag) — unveraendert, knapper Verweis wie angekuendigt
+
+Sechster wortgleicher Dispatch seit 20:32 Uhr. Gegengeprueft (raw/-Ordnerliste, `git log --
+oneline -- wissen/grobkosten/raw/`, `wiki/QUESTIONS.md` Frage 1/2): nichts veraendert seit dem
+Eintrag zum fuenften Dispatch direkt darunter. Kein neuer Verdichtungsdurchgang, wie dort
+angekuendigt. Raphael sollte die VOLLGAS-Lane-Taktung fuer diese Lane pruefen.
+
+## 2026-08-29 (Schub-Lane grobkosten, fuenfter Dispatch selber Tag, ~23:12 Uhr) — unveraendert, letzter ausfuehrlicher Eintrag dieser Reihe
+
+**Befund:** fuenfter wortgleicher Dispatch seit 20:32 Uhr (20:32/22:00/22:09/22:33/23:12).
+Gegengeprueft: kein Commit auf `wissen/grobkosten/raw/` seit dem letzten Check, `raw/` lokal
+und NAS dateigleich, `git status` sauber. Nichts hat sich seit dem vierten Eintrag (unten)
+veraendert. Nicht ausgefuehrt: kein fuenfter inhaltsgleicher Verdichtungsdurchgang.
+
+**Ab hier keine weiteren ausfuehrlichen Nullbefund-Eintraege mehr** (analog zur Entscheidung
+der Lane NORMEN-PRUEFSTAND, `wissen/normen/CHANGELOG.md` Run 87): der Befund ist seit dem
+zweiten Dispatch unveraendert, der Blocker bleibt Frage 1/2 in `wiki/QUESTIONS.md`
+(Raphaels Entscheid), nicht ein weiterer Lane-Lauf. Ein sechster Dispatch mit identischem
+Auftragstext soll knapp auf diesen Eintrag verweisen statt erneut zu recherchieren. Das ist
+jetzt der zweite Wissens-Bereich (nach `normen`) mit demselben Symptom binnen desselben Tages
+— spricht fuer einen Dispatcher-/Scheduler-Fehler statt eines KB-spezifischen Problems;
+Raphael sollte die VOLLGAS-Lane-Taktung pruefen.
+
 ## 2026-08-29 (Schub-Lane grobkosten, vierter Dispatch selber Tag, ~22:33 Uhr) — viertes Duplikat, unabhaengig gegengeprueft statt den drei Vorbefunden vertraut
 
 **Befund:** vierter Dispatch derselben Lane binnen desselben Tages, wortgleicher Auftragstext

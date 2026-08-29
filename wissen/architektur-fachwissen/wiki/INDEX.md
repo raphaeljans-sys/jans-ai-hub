@@ -86,7 +86,7 @@ jeweiligen Inventar unter «Triage».
 | 12 | `17_Projektbeschriebe` | buero | 7 / 18 | Die Sektion enthält genau ein Projekt, dafür das vollständige Set der Projektbeschriebe aller Fachplaner der Schulanlage Leutschenbach, verdichtet zum revidierten Gesamtdossier vom 09.12.2009, mit belegten Fassaden-, Minergie-, Tragwerks- und Lüftungswerten. | `raw/inventar/buero-referenzen__17_Projektbeschriebe.md` |
 | 13 | `01_Entwerfen` | archiv | 6 / 1'246 — **P1 vollständig destilliert 29.08.2026, fünf Artikel** | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). P2 (elf Positionen: Ausbau-Variantenvergleich, Raumtypologie-Vorlesung, SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe, Fachglossare Farbe/Pigmente, Farbenlehre-Website, Ornamentik-Literaturliste, eigene Ideentexte, Class-A-Problem-Vokabular, Ikonographie-Raster u. a.) offen. | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
 | 14 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
-| 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Dachbegrünung, Pflanzenlisten und ein Gartenanalyse-Raster (Vogt-Broschüren). Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
+| 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 — **P1 vollständig destilliert 29.08.2026, vier Artikel** | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Naturstein-Materialkunde, Baumpflanzung/Kletterpflanzen und eine Pflanzenliste (Vogt-Broschüren). Dachbegrünung als Cross-KB-Duplikat zu `bauprodukte/dachbegruenung-systeme.md` erkannt, nicht erneut destilliert. Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). P2 (24 Positionen, u. a. Gartenanalyse-Raster, Stadtbaum-Merkblatt Luzern, Vogt-Projektbroschüren) offen. | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
 | 16 | `01_Tragwerk` | archiv | 4 / 1'098 | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen und Formfindung. Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
 | 17 | `00_Allgemein` | archiv | 3 / 19 | Meta-Ebene des Archivs: Ordnungslogik (24 Hauptordner) und ein eigenes 14-teiliges Fachsystematik-Konzeptpapier von 2011, kein Fachinhalt im engeren Sinn. | `raw/inventar/archiv-fachwissen__00_Allgemein.md` |
 | 18 | `02_Architektur_Vermitteln` | archiv | 3 / 85 | Lehrmaterial zur Vermittlung: Rhetorik, Moderation, Protokoll, Geschäftskorrespondenz, wissenschaftliches Arbeiten — direkt anschlussfähig an mehrere JANS-Skills. Datenschutz-Fund: private Kontaktdaten Dritter auf Studienarbeits-Titelblättern, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__02_Architektur_Vermitteln.md` |
@@ -681,3 +681,36 @@ Klartext-Zugangspasswort in einer anderen Datei derselben Sektion, nicht in den 
 `01_Tragwerk` (4 P1, Datenschutz-Vorbehalt), `00_Allgemein` (3 P1),
 `02_Architektur_Vermitteln` (3 P1, Datenschutz-Vorbehalt), `02_Bibliothek` (2 P1) und
 `01_Innenarchitektur` (1 P1).
+
+**Elfter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Landschaftsarchitektur`
+(Zeile 15 oben) — Lane FACHWISSEN, 29.08.2026, Fortsetzung.** Alle vier P1-Dateien
+gelesen (`pypdf`, Seitenzahlen extrahiert), drei davon zu vier Wiki-Artikeln destilliert;
+die vierte (Dachbegrünung, `Unterlagen Kolloquium.pdf` S. 3-8) als **Cross-KB-Duplikat**
+zu `wissen/bauprodukte/wiki/dachbegruenung-systeme.md` erkannt und **nicht** erneut
+destilliert (dieser Artikel liegt ausserhalb der Schreib-Lane dieses Laufs; ein
+Zusatzfund — Pflegeaufwand-Kennwert 1-2 Kontrollgänge/Jahr bei Extensivbegrünung — ist als
+Routing-Hinweis in `wiki/QUESTIONS.md` vermerkt, nicht selbst eingepflegt):
+
+- [[aussenbelaege-regelaufbauten-vogt-2012]] — Regelaufbauten Kiesweg/Asphalt/Rasen/Wiese/
+  Schotterrasen/Rasenpflaster, Vogt-Broschüre 2012, inkl. Schweiz-Deutschland-Unterschied
+  bei Saatgutmischungen (RSM vs. Herstellermischung UFA/OH)
+- [[naturstein-materialkunde-bollinger-sandstein]] — Bollinger Sandstein: Mineralbestand,
+  Vorkommen oberer Zürichsee, Schachtabbau in Naturschutzgebieten; ergänzt (nicht dupliziert)
+  [[naturstein-oberflaechenbearbeitung-portmann-merkblatt]] (dort Bearbeitungstechnik-
+  Datierung, hier Gesteins-/Vorkommenskunde eines konkreten Steins)
+- [[baumpflanzung-pflanzgrube-kletterpflanzen-typologie]] — Pflanzgrubendimensionierung
+  (6 m²/1,5 m grosskroniger Strassenbaum), Pflanzdichte als Gestaltungsfrage,
+  Kletterpflanzen-Typologie (Selbstklimmer/Rankpflanzen); ZH-Grenzabstände bewusst **nicht**
+  wiederholt, Verweis auf die dort massgebliche [[umgebungsgestaltung-und-einfriedungen]]
+  in `wissen/baurecht`
+- [[immergruene-sicht-heckenpflanzen-artenliste]] — 13 immergrüne Sicht-/Heckenarten,
+  1,5-7 m Endhöhe, mit Neobiota-Warnhinweis zu *Prunus laurocerasus* (Kirschlorbeer)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Datenschutz-Befund der Sektion (Lieferantenliste
+mit Klartext-Zugangspasswort, archivierte Hochschul-E-Mail mit Privatadressen) bereits im
+Phase-0-Inventar korrekt als nicht erfasst dokumentiert, kein neuer Fund. **Damit ist
+Sektion `01_Landschaftsarchitektur` für P1 vollständig destilliert** (P2, 24 Positionen,
+bleibt offen). Nächste Position gemäss Ertrag-Tabelle: `01_Tragwerk` (4 P1,
+Datenschutz-Vorbehalt), danach `00_Allgemein` (3 P1), `02_Architektur_Vermitteln` (3 P1,
+Datenschutz-Vorbehalt), `02_Bibliothek` (2 P1), `01_Innenarchitektur` (1 P1).
