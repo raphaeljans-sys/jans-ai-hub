@@ -5,7 +5,7 @@ ausgabe: Version 01.01.2026
 gelesen: S. 1-38 VOLLSTAENDIG (alle Foerdersaetze inkl. Minergie-ECO + Solarthermie, 2026-06-26; PDF hat 38 statt der frueher notierten 37 Seiten, korrigiert 2026-07-20)
 datenstand: 2026-07-21 (Programm Version 01.01.2026 unveraendert; alle 20 geprueften Foerdersaetze am amtlichen PDF ZUM ZWEITEN MAL unabhaengig nachverifiziert, Run 83, frischer Download 21.07.2026 22:33 Uhr, SHA-256 ad95248d…); Anschlussfinanzierung KRNr 6064 (Rahmenkredit 2026-2029) am 17.08.2026 vom Kantonsrat bewilligt, primaerquellenverifiziert 2026-08-24 (CDWS-Geschaeftsdatenbank, Sekundaerbestaetigung cash.ch/baublatt.ch)
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-08-29
 ---
 
 # Destillat — Foerderprogramm Energie Kanton Zuerich 2026
@@ -269,3 +269,73 @@ stimmen, nicht dass die Quelle vollständig erfasst ist (Rule `normen-referenz` 
 Beitragshöhen dieses Destillats sind unverändert und zweifach primärquellenverifiziert.
 
 Volltext und Bauherren-Transfer: `[[foerderprogramm-zh-2026-aenderungsprotokoll]]`.
+
+---
+
+## Nachtrag 2026-08-29 (Run 167): Begleitdokument-Prüfung — Vollmacht-Vorlage neu erfasst, sonst Fehlanzeige
+
+Gezielte Suche nach weiteren, bisher unerfassten amtlichen Begleitdokumenten des AWEL/Kanton ZH
+zum Förderprogramm 2026 (Merkblätter, Wegleitungen je Massnahme, FAQ, Formulare, Impulsprogramm-
+Unterlagen). Vorgehen: Rohes HTML von `zh.ch/de/umwelt-tiere/energie/energiefoerderung.html` per
+`curl` geladen und alle `href`-Links mit den Mustern `pdf|foerder|impuls|merkblatt|wegleitung|
+richtlinie` extrahiert (29.08.2026); ergänzend `WebSearch`/`WebFetch` auf `portal.dasgebaeudeprogramm.ch/zh`,
+`dasgebaeudeprogramm.ch` (FAQ) und gezielte Suchbegriffe zum Impulsprogramm (>70 kW, IP-Nummern).
+
+**Geprüfte Begleitdokumente:**
+
+| Dokument | URL | Status | Ergebnis |
+|---|---|---|---|
+| Änderungsprotokoll Förderprogramm 2026 | `.../energieberatung-und-energiefoerderung/Anpassungen_Förderbroschüre_2026.pdf` | bereits erfasst (Run 165) | nicht erneut gemeldet, siehe Abschnitt oben |
+| **Vorlage Vollmacht Gesuchabwicklung** | `.../energieberatung-und-energiefoerderung/Vollmacht_Gesuchabwicklung_KtZH.pdf` | HTTP 200, geladen + `pdftotext` gelesen | **neuer Fund, siehe unten** |
+| Grafik Fördermittel pro Förderprogramm | `.../energieberatung-und-energiefoerderung/Grafik_Fördermittel.pdf` | HTTP 200, geladen + `pdftotext` gelesen | bereits als «Grafik datiert von April 2025» erwähnt (Abschnitt oben); Inhalt jetzt erstmals ausgelesen, siehe unten |
+| Ratgeber für Facility Management und Verwaltungen | `.../energieberatung-und-energiefoerderung/ratgeber_fuer_facility_management.pdf` | HTTP 200, geladen + gelesen | themenfremd (LED-Beleuchtungsersatz, Herausgeber Savenergy Consulting GmbH/EnergieSchweiz, Stand Jan. 2024) — **keine** Förderbedingung dieses Programms, nicht weiter verwendet |
+| Ratgeber für Haushalte | `.../energieberatung-und-energiefoerderung/ratgeber_fuer_haushalte.pdf` | HTTP 200, geladen + gelesen | dito, themenfremd (LED) |
+| Förderprogramm Biogas (`ktzh_foerderung_biogas.pdf`) | verlinkt auf derselben Seite | nur Link identifiziert, nicht geladen | anderes Förderprogramm (Landwirtschaft/Biogas), ausserhalb des Gebäude-Förderprogramms — Fehlanzeige *relevant*, da themenfremd |
+| Gesuchsportal `portal.dasgebaeudeprogramm.ch/zh` | 301-Redirect auf `portal.energie-foerderung.ch/zh` | erreichbar, aber JavaScript-Single-Page-App | **Fehlanzeige technisch:** `WebFetch` liefert nur die Überschrift «Förderprogramm: Webportal», kein Seiteninhalt extrahierbar ohne Headless-Browser. Formular-/Massnahmen-Feinheiten im Portal selbst bleiben ungeprüft |
+| FAQ `dasgebaeudeprogramm.ch/de/meta/haufige-fragen/` | erreichbar | gelesen | **national/kantonsübergreifend, nicht ZH-spezifisch** — Seite verweist selbst auf «den Kanton auswählen» für angepasste Bedingungen; keine ZH-spezifische Abweichung genannt |
+| Separates ZH-Dokument zum Impulsprogramm (IP-Nummern, Grossanlagen >70 kW) | Suchbegriffe: `"Impulsprogramm" zh.ch AWEL Wegleitung Merkblatt IP-0`, `Kanton Zürich Impulsprogramm über 70 kW Grossanlagen AWEL`, `site:zh.ch Impulsprogramm klimafreundliche Gebäude Grossanlagen` | **Fehlanzeige** | kein separates ZH-Dokument mit IP-Nummerierung gefunden (anders als Kt. SZ, dort existiert `Vollzugshilfe Förderprogramm Energie 2026 SZ, Massnahme IP-19`, bereits in `elektroheizungs-ersatzpflicht-zh-sz.md` erfasst). Direkte Prüfung des frisch geladenen Haupt-PDF (`pdftotext -layout`, Zeilen 447-449/578-580/712-714) zeigt: die Leistungsstaffel läuft nahtlos über 70 kWth und 100 kWth hinweg in **derselben** kantonalen Broschüre weiter (z.B. „Ausnahme: Bei Anlagen mit einer Nennleistung von über 100 kWth wird kein Wärmepumpen-Gütesiegel mehr [verlangt]“) — ZH bildet das Impulsprogramm-Segment >70 kW offenbar **im selben Formular/Fördersatz-Schema** ab statt in einem separaten IP-nummerierten Dokument wie SZ |
+
+**Materieller Fund — Vollmacht für die Gesuchabwicklung (Formalie mit Praxisrelevanz):**
+Der Kanton stellt eine einseitige Formularvorlage **«Vollmacht für die Gesuchabwicklung für
+Beiträge im Rahmen der Förderprogramme Energie und Ladeinfrastruktur»** bereit (Titel/Subject
+aus PDF-Metadaten, `pdfinfo`: CreationDate 24.07.2025, Herausgeber AWEL, Kontakt
+`energiefoerderung@bd.zh.ch`, 0800 93 93 93). Wortlaut (`pdftotext`, Volltext ausgelesen):
+«Hiermit erteile ich als vollmachtgebende Person der obenstehend genannten bevollmächtigten
+Person eine Vollmacht gegenüber dem Kanton Zürich für alle Prozesse betreffend den Vollzug des
+Förderbeitragsgesuches. […] jegliche Förderentscheide [werden] an die genannte Mailadresse im
+Gesuch digital gesendet […]. Diese Vollmacht bleibt gültig bis zum schriftlichen Widerruf resp.
+bis zum Abschluss der Förderung bzw. bei Ablehnung bis zum Erlass einer Verfügung.»
+**Einordnung: (b) Formalie, keine Änderung der Förderbedingungen** — aber praxisrelevant für die
+Bauherren-Beratung: JANS oder eine andere bevollmächtigte Person kann das Gesuch mit dieser
+Vollmacht im Namen der Bauherrschaft abwickeln; der Förderentscheid geht dann digital an die im
+Gesuch hinterlegte Mailadresse, nicht zwingend an die Bauherrschaft direkt — bei Delegation ist
+darauf zu achten, wessen Adresse eingetragen wird.
+
+**Materieller Fund — Inhalt der Grafik «Fördermittel pro Förderprogramm» (Kontext, keine
+Beitragsänderung):** Die bereits im Abschnitt oben erwähnte, unverändert seit April 2025 laufende
+Grafik (`pdfinfo`: CreationDate 03.04.2025, Autor Levi Fuchs) zeigt die Finanzierungsstruktur:
+Herkunft der Fördermittel **Bund 34 %, CO₂-Abgabe 39 %, Kanton 27 %**; verteilt auf zwei Töpfe
+**«Gebäudeprogramm» (41 Mio.)** und **«Impulsprogramm» (21 Mio.)** — zusammen 62 Mio., nahe an der
+im Destillat bereits genannten 2025er-Zahl von 61 Mio. CHF. Die Grafik zeigt zudem die
+Massnahmenkategorien explizit nach Leistungsgrösse getrennt dargestellt: «Heizungsersatz ≤ 70 kW»
+und «Thermische Solaranlage ≤ 70 kW» dem Gebäudeprogramm zugeordnet, «Heizungsersatz > 70 kW» und
+«Thermische Solaranlage > 70 kW» dem Impulsprogramm — bestätigt also, dass die kWth-Grenze 70 kW
+eine **Finanzierungstopf**-Grenze ist (Bundesmittel vs. Kantonsmittel), nicht eine Grenze der
+Antragsberechtigung oder eine separate Verfahrens-/Formularschwelle für die Bauherrschaft (siehe
+Fehlanzeige-Zeile oben zum fehlenden separaten IP-Dokument).
+
+**Was geschrieben wurde:** dieser Abschnitt, angehängt an
+`/Volumes/daten/jans-ai-hub/wissen/energie/destillate/foerderprogramm-energie-zh-2026.md`
+(zuvor 271 Zeilen, danach siehe Zeilenzahl der Datei), plus Frontmatter-Zeile `last_updated`
+auf 2026-08-29 nachgeführt. Keine bestehende Zeile verändert oder gelöscht (Rule
+`auto-verbesserungen` 260811).
+
+**Was offen bleibt:**
+- Gesuchsportal-Feinheiten (Formularfelder je Massnahme, Upload-Anforderungen) technisch nicht
+  einsehbar ohne Headless-Browser/Login — bei Bedarf mit `mcp__Claude_Browser__*` nachprüfen.
+- Kein Beleg, ob es zusätzlich zur hier gefundenen Vollmacht-Vorlage weitere, nicht von der
+  Hauptseite verlinkte Formulare gibt (z.B. projektspezifische Nachweisformulare, die erst im
+  Portal nach Massnahmenwahl erscheinen) — Suche war auf die öffentlich verlinkten Dokumente der
+  Seite `energiefoerderung.html` und die bekannten Portale beschränkt.
+- «Förderprogramm Biogas» als eigenes Programm nicht inhaltlich geprüft (ausserhalb Scope
+  Gebäudeenergie).
