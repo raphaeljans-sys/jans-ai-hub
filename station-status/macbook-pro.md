@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 23:35:37
+Stand: 29.08.2026 23:45:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:35)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:41)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 23:35:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3f4e58a4a grobkosten: fuenfter Duplikat-Dispatch selber Tag erkannt und dokumentiert, keine erzwungene Verdichtung
+- c6c27aa21 nas-selfcommit: 3 Datei(en) 2026-08-29 23:45
