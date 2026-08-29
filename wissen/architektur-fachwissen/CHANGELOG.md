@@ -1,5 +1,46 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Fünfter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie` (Lane FACHWISSEN, Fortsetzung)
+
+Alle 10 P1-Positionen der Sektion `02_Architekturtheorie` destilliert (nächste Position in der
+Ertrag-Rangfolge nach `01_Konstruktion` und `02_Gestalt_Kulturverstaendnis`, siehe `wiki/INDEX.md`
+«Sektionen nach Ertrag»). Primärquellen durchgehend im Original gelesen (docx via `textutil`,
+PDF via PyMuPDF, da `pdftotext` auf dieser Station nicht installiert ist). Acht Wiki-Artikel neu
+geschrieben, alle `status: emerging`, Quelle die eigenen, ausformulierten Fragen-Antworten aus der
+Vorlesungsreihe Architekturtheorie III/IV (ETH Zürich, Institut gta, Á. Moravánszky / S. Hildebrand,
+2011–2014):
+
+- [[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]] — Kernform/Kunstform (Bötticher),
+  Bekleidungstheorie (Semper), Bekleidungsgesetz (Loos), Framptons Tektonik-Begriff gegen die
+  Postmoderne, plus die Deplazes-Begriffskonkordanz mit acht Tektonik-Definitionen
+- [[materialwahrheit-stoffwechseltheorie-semper-urtechniken]] — Materialwahrheit gegen
+  Stoffwechseltheorie, Sempers vier Elemente/vier Urtechniken, Ehrlichkeits-Einwand am Beispiel
+  Therme Vals
+- [[typus-modell-prototyp-trennschaerfe-architekturtheorie]] — Trennschärfe Typus/Modell/Prototyp,
+  typologische Methode nach Durand und Muratori/Caniggia, Herzog & de Meurons Themenfelder
+- [[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]] — fünf Lesarten des
+  Funktionsbegriffs, eigene Deutung von Sullivans Fassadendreiteilung als städtebauliches statt
+  funktionales Argument
+- [[ornament-decorum-angemessenheit-loos-semper-riegl]] — Decorum als Angemessenheitsbegriff,
+  Positionen Semper/Riegl/Loos zum Ornament
+- [[stilbegriff-geschichte-styling-signatur-brand]] — fünf historische Stilbegriffe
+  (Winckelmann/Semper/Riegl/Hübsch/Viollet-le-Duc), Vierteilung Stil/Styling/Signatur/Brand
+- [[genius-loci-ort-raum-nichtorte]] — Ort gegen Raum (Lynch), Genius Loci (Norberg-Schulz),
+  phänomenologische Methode (Heidegger), Nicht-Orte (Augé)
+- [[materialitaet-haptisch-optisch-riegl-bandmann]] — haptisches/optisches Raumverständnis
+  (Riegl), Materialität als Bedürfnis-Hemmungswiderstand (Bandmann), Material als Bedeutungsträger
+- [[textanalyseraster-19-punkte-architekturtheorie]] — eigenes 19-Punkte-Analyseraster für
+  Fachtexte, übertragbar auf Normtexte/Gutachten/Wettbewerbsprogramme
+- [[begriffskonkordanz-theoretiker-literaturregister-architekturtheorie]] — Begriffs-Konkordanz
+  (Position je Theoretiker), Literaturlandkarte der zehn Vorlesungen; `Sammelmappe1.pdf` als
+  Kompilat ohne Eigenwert erkannt und nicht separat destilliert
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschnitt
+«Destillat-Fortschritt» (reiner Append, `git diff --numstat` zeigt `-0`). Keine Sperrlisten-Funde
+(Sektion enthält keine Verträge/Bewerbungen/Adressen/Lohndaten). P2 bleibt vollständig offen (u. a.
+rund 190 Vorlesungsmitschriften zu den 23 Einzelvorlesungen, 31 Syllabi, Vorlesungsfolien-Sammel-PDF).
+Nächste Position gemäss Ertrag-Rangfolge: `10_Protomodern` (13 P1).
+
 ## 2026-08-29 — Vierter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Gestalt_Kulturverstaendnis` (Lane FACHWISSEN, selber Tag, Fortsetzung)
 
 P1-Positionen der Sektion `02_Gestalt_Kulturverstaendnis` bearbeitet, jede Primärquelle im

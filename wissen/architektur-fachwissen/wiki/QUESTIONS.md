@@ -4,6 +4,39 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260829 — Fünfter Destillat-Lauf Korpus 4, Sektion `02_Architekturtheorie`
+
+Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion
+`02_Architekturtheorie`, alle 10 P1-Positionen destilliert (acht Wiki-Artikel).
+
+**#45 Bibliografische Fundstellen der Kursanthologie sind durchgehend unvollständig.** Sämtliche
+Literaturverweise dieser Sektion zitieren nur «Anthologie S. x-y», nie Titel, Herausgeber, Verlag
+oder Erscheinungsjahr der Kursanthologie selbst (Architekturtheorie III/IV, ETH gta,
+Moravánszky/Hildebrand). Für ein belastbares Zitat in einem ausgehenden Erzeugnis ist die
+Primärquelle (z. B. Sempers «Der Stil», Loos' «Ornament und Verbrechen» im Original) nachzuschlagen,
+nicht die Anthologie-Seitenzahl allein zu übernehmen.
+
+**#46 `Theorie_Begriffe_I_Sammelmappe1.pdf` nur stichprobenartig auf Eigenwert geprüft.** Die
+15-seitige Datei erwies sich in den geprüften Abschnitten (Anfang, Mitte) als Kompilat aus
+Semesterplan und den bereits einzeln destillierten Fragen-Antworten. Eine vollständige
+Seite-für-Seite-Prüfung auf darüber hinausgehenden Eigenwert (z. B. in den nicht gesichteten
+Abschnitten zu Ort, Ornament, Funktion, Typus) steht aus — Kandidat für einen P2-Lauf dieser
+Sektion.
+
+**#47 Riegls «Kunstwollen»-Begriff nur in Abgrenzung zu Semper referiert, keine eigenständige
+Riegl-Quelle im Bestand.** Sowohl [[ornament-decorum-angemessenheit-loos-semper-riegl]] als auch
+[[materialitaet-haptisch-optisch-riegl-bandmann]] und
+[[stilbegriff-geschichte-styling-signatur-brand]] zitieren Riegl nur sekundär über die
+Vorlesungsmitschriften. Eine Primärquelle («Stilfragen», «Die spätrömische Kunstindustrie») liegt
+in diesem Korpus nicht vor.
+
+**#48 P2 von `02_Architekturtheorie` vollständig offen.** Rund 190 eigene
+Vorlesungsmitschriften/Zusammenfassungen zu den 23 Einzelvorlesungen (u. a. Koolhaas, Eisenman,
+Venturi, Kahn, Rossi, Loos, Wright, Zumthor, Shinohara, Lefebvre, Schmarsow, Bachelard, Schwarz,
+Archigram, Abraham, Gropius, Nádas), 31 Syllabi und die Vorlesungsfolien-Sammel-PDF sind roher im
+Ton (teils Stichwortprotokoll), aber literaturbelegt — Kandidaten für einen späteren P2-Lauf, sofern
+Ertragslage und Auftrag das vorsehen.
+
 ## 260829 — Dritter Destillat-Lauf Korpus 4, Sektion `01_Konstruktion`
 
 Quelle: Lane FACHWISSEN, dritter Destillat-Lauf Korpus 4 `archiv-fachwissen`, alle vier

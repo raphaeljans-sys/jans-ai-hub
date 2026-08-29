@@ -516,3 +516,31 @@ danach `10_Protomodern` (13), `02_Architekturgeschichte` (11) und `02_Kunst_Gesc
 (11, sehr dünn im Verhältnis zu 27'649 gesichteten Dateien). Vorsicht weiterhin bei
 `04_Politik`/`05_Kultur_Gesellschaft_Stil`/`06_Reisen`/`07_Religion`
 (Privatunterlagen-Vorbehalt, `06_Reisen` mit starkem Befund).
+
+**Fünfter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie` (Zeile 04
+oben) — Lane FACHWISSEN, selber Tag, Fortsetzung.** Sektion vollständig destilliert: alle 10
+P1-Positionen, acht Wiki-Artikel nach Sache statt Datei, alle `status: emerging`, Quelle die
+eigenen Fragen-Antworten aus Architekturtheorie III/IV (ETH gta, Moravánszky/Hildebrand,
+2011–2014), primär gegen die Originalquellen gelesen (docx via `textutil`, PDF via PyMuPDF):
+
+- [[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]] — Kernform/Kunstform,
+  Bekleidungstheorie, Bekleidungsgesetz, Framptons Tektonik-Begriff, Deplazes-Begriffskonkordanz
+- [[materialwahrheit-stoffwechseltheorie-semper-urtechniken]] — vier Elemente/Urtechniken Sempers,
+  Ehrlichkeits-Einwand Therme Vals
+- [[typus-modell-prototyp-trennschaerfe-architekturtheorie]] — Trennschärfe Typus/Modell/Prototyp
+- [[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]] — fünf Funktionsbegriffs-Lesarten,
+  Fassadendreiteilung als städtebauliches Argument
+- [[ornament-decorum-angemessenheit-loos-semper-riegl]] — Decorum als Angemessenheitsbegriff
+- [[stilbegriff-geschichte-styling-signatur-brand]] — Stilbegriff-Geschichte,
+  Stil/Styling/Signatur/Brand
+- [[genius-loci-ort-raum-nichtorte]] — Genius Loci, Nicht-Orte
+- [[materialitaet-haptisch-optisch-riegl-bandmann]] — haptisch/optisch, Bandmanns
+  Hemmungswiderstand
+- [[textanalyseraster-19-punkte-architekturtheorie]] — eigenes Methodenraster
+- [[begriffskonkordanz-theoretiker-literaturregister-architekturtheorie]] — Begriffs-Konkordanz +
+  Literaturlandkarte, Sammelmappe1.pdf als Kompilat ohne Eigenwert erkannt
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschnitt
+«Destillat-Fortschritt». Kein Sperrlisten-Fund. P2 bleibt vollständig offen (rund 190
+Vorlesungsmitschriften, 31 Syllabi, Vorlesungsfolien-Sammel-PDF). Nächster Lauf gemäss
+Ertrag-Tabelle: `10_Protomodern` (13 P1).

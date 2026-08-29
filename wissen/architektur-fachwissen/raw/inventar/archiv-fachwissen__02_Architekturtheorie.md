@@ -143,3 +143,33 @@ Als Stilquelle daher nur mit dieser Einschränkung brauchbar, als Beleg für die
   Syllabus oder an der genannten Fundstelle gegenzulesen, bevor sie in ein Erzeugnis wandert.
 - **Stand 2014.** Die Sektion bildet den Diskussionsstand bis 2014 ab. Sie ist fachlich zeitlos,
   soweit sie klassische Positionen referiert, aber sie kennt keine Debatte nach 2014.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `Konstruktion_und_Tektonik/06_Fragen/Fragen_Konstruktion_und_Tektonik.docx` +
+  `Konstruktion_und_Tektonik/05_Literatur/Seiten aus Handbuch_Deplazes.pdf` →
+  `wiki/tektonik-bekleidungstheorie-boetticher-semper-loos-frampton.md`
+- 2026-08-29: `Materialwahrheit_und_Stoffwechsel/06_Fragen/Materialwahrheit_und_Stoffwechsel_Fragen.docx`
+  + `02_Vorlesungsmittschrift/121011_Materialwahrheit_Stoffwechsel.docx` →
+  `wiki/materialwahrheit-stoffwechseltheorie-semper-urtechniken.md`
+- 2026-08-29: `Typus/06_Fragen/Typus_Fragen.docx` + `02_Vorlesungsmitschrift/130216_Typus.docx` →
+  `wiki/typus-modell-prototyp-trennschaerfe-architekturtheorie.md`
+- 2026-08-29: `Funktion/06_Fragen/Funktion_Fragen.docx` →
+  `wiki/funktionsbegriff-fassadendreiteilung-sullivan-haering-semper.md`
+- 2026-08-29: `Ornament/06_Fragen/131114_Fragen_Ornament.docx` →
+  `wiki/ornament-decorum-angemessenheit-loos-semper-riegl.md`
+- 2026-08-29: `Stil/06_Fragen/130926_Stil.docx` → `wiki/stilbegriff-geschichte-styling-signatur-brand.md`
+- 2026-08-29: `Ort/05_Fragen/131121_Fragen_Ort.docx` → `wiki/genius-loci-ort-raum-nichtorte.md`
+- 2026-08-29: `Materialitaet/05_Fragen/131003_ARCHITEKTURTHEORIE III.docx` →
+  `wiki/materialitaet-haptisch-optisch-riegl-bandmann.md`
+- 2026-08-29: `00_Administration/00_Konzept/07_Textanalyse/120821_Textanalyse_Architekturtheorie.docx`
+  (+ PDF) → `wiki/textanalyseraster-19-punkte-architekturtheorie.md`
+- 2026-08-29: `00_Administration/Begriffe.pdf` + `00_Administration/Theorie_Begriffe_I_Sammelmappe1.pdf`
+  (Kompilat, kein Neuwert) + `Architekturtheorie/05_Fragen/131129_Fragen.docx` +
+  `00_Administration/131129_Wochenthemen.docx` →
+  `wiki/begriffskonkordanz-theoretiker-literaturregister-architekturtheorie.md`
+
+Damit sind alle 10 P1-Positionen dieser Sektion destilliert (acht Wiki-Artikel, ein Artikel je
+Sache statt je Datei; zwei Register-Positionen im letzten Artikel zusammengeführt). P2 bleibt
+offen fuer einen spaeteren Lauf (u.a. die rund 190 Vorlesungsmitschriften zu den 23
+Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
