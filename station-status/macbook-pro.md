@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 05:25:54
+Stand: 29.08.2026 05:36:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/activity/display/performance/386804  (letzte Aktivitaet 05:15)
@@ -16,4 +16,4 @@ Stand: 29.08.2026 05:25:54
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 30eca7e54 nas-selfcommit: 4 Datei(en) 2026-08-29 05:15
+- 73cd4ee89 Nachtschicht 05:30: Sammelfrage Charge 1 architekten-synobsis vollstaendig (14/14)

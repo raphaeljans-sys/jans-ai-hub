@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 05:24:01
+Stand: 29.08.2026 05:44:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:32)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 05:24:01
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 30eca7e54 nas-selfcommit: 4 Datei(en) 2026-08-29 05:15
+- 73cd4ee89 Nachtschicht 05:30: Sammelfrage Charge 1 architekten-synobsis vollstaendig (14/14)
