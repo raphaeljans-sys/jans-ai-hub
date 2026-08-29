@@ -5,7 +5,7 @@ ausgabe: "HFM 2015 (beschlossen EnDK 21.08.2015, revidierte Fassung September 20
 gelesen: "2026-06-28 (Webseiten dasgebaeudeprogramm.ch: gefoerderte Massnahmen + FAQ; HFM-2015-Struktur via Web, NICHT primaerquellenverifiziert). Nachtrag 24.08.2026 (A-BLIND): HFM-2015-Schlussbericht Kap. 1 (S. 1-10) + Tabelle 1 (S. 7, Massnahmenliste) im Volltext direkt aus dem PDF gelesen; Medienmitteilung 26.08.2025 vollstaendig gelesen (3 S.); Webseite grundlagen-und-finanzierung/ per WebFetch geprueft. NICHT gelesen: HFM-2015 Kap. 2-6 + Anhang (S. 11-136, Fördersatz-Herleitung je Massnahme)."
 datenstand: "2026-08-24 (Kernzahlen jetzt primaerquellenbelegt: 607 Mio. CHF fuer 2026 wortgleich aus der Medienmitteilung 26.08.2025 bestaetigt, 18-Module-Tabelle M-01 bis M-18 wortgleich aus dem HFM-2015-Original bestaetigt). Programmbudget/Jahreszahlen aendern jaehrlich, CHF-Saetze bleiben KANTONAL — vor einer verbindlichen Aussage fuer ein spaeteres Jahr als 2026 den dann aktuellen Jahresbericht pruefen."
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-08-29
 ---
 
 # Das Gebaeudeprogramm (Bund) & HFM 2015 — die Foerder-Mechanik
@@ -207,3 +207,57 @@ wörtlichen Zitaten und Seitenangaben, sind aber — anders als der GFM-2028-Abs
 Auskunft zu **prüfen**, aber vor einer verbindlichen Zusage an eine Bauherrschaft ist die
 betreffende Stelle am Original nachzuschlagen. Statushebung dieses Abschnitts auf `established`
 erst nach dieser Gegenprüfung (offene Frage E-R166-3).
+
+---
+
+## Nachtrag 2026-08-29 (Run 167): Primärquellen-Gegenlesung der acht Ausschlüsse/Fristen (E-R166-3)
+
+Jede der acht im Nachtrag vom 28.08.2026 geflaggten Aussagen wurde einzeln am amtlichen
+Original nachgeschlagen (HFM-2015-Schlussbericht vollständig als PDF geladen und per
+`pdftotext -layout` durchsucht; EnV und CO2-Verordnung über das Fedlex-Filestore-Muster,
+Route `fedlex.data.admin.ch`, Stand-Konsolidierung 1.1.2026; nationale FAQ und je ein
+kantonales Förderdokument ZH/SZ/ZG als Kontrollstichprobe für die nicht-HFM-Fristen).
+
+| Aussage | Urteil | Beleg |
+|---|---|---|
+| 1. Fensterersatz ist nicht förderfähig | **BESTÄTIGT** | HFM 2015, Schlussbericht S. 10 (endk.ch/wp-content/uploads/2025/07/Harmonisiertes-Foerdermodell-2015-D.pdf), wörtlich: «Der reine Fensterersatz sowie die Wärmedämmung von Estrichboden und Kellerdecke sind nicht mehr Teil des HFM.» Bundesweite HFM-Regel, kantonal umgesetzt bestätigt am Beispiel ZH: Förderprogramm 2026 des Kt. Zürich (zh.ch/content/dam/zhweb/.../ktzh_foerderprogramm_2026.pdf), wörtlich: «Fenster, Türen, Kellerdecken und Estrichböden sind hingegen nicht förderberechtigt.» |
+| 2. Neubau, Anbau und Aufstockung sind ausgeschlossen | **PRÄZISIERT** | Gilt nur für M-01 (Einzelmassnahme Wärmedämmung an Bestandsbauten), nicht für das HFM insgesamt. HFM 2015 S. 17, M-01, wörtlich: «Förderberechtigt sind nur bereits im Ausgangszustand beheizte Gebäudeteile. Neue Auf- und Anbauten sowie Aufstockungen sind nicht förderberechtigt.» Gegenprobe HFM 2015 S. 10: «Bei den Neubauten fokussiert das HFM 2015 ausschliesslich auf hocheffiziente Neubauten, die sich stark von üblichen Neubauten abheben (Minergie-P(-A), Minergie-P(-A)-Eco, GEAK A)» — die Module M-16/M-17 fördern also gezielt Neubauten. Die im Aufgabenkatalog verwendete pauschale Kurzform («Neubau … ausgeschlossen» ohne M-01-Zusatz) wäre für sich genommen falsch; das Destillat selbst führt den M-01-Zusatz bereits korrekt. |
+| 3. Bauten des Bundes und der Kantone sind nach Art. 57 EnV ausgeschlossen | **BESTÄTIGT** | Energieverordnung (EnV, SR 730.01), Stand 1.1.2026 (fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/763/20260101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2017-763-20260101-de-pdf-a-3.pdf), Art. 57 Abs. 2 lit. a, wörtlich: «Globalbeiträge dürfen nicht eingesetzt werden für: a. öffentliche Bauten und Anlagen des Bundes und der Kantone». Bundesweit gültig (EnV ist Bundesrecht, Bedingung für den Erhalt der Globalbeiträge durch jeden Kanton). Wortgleich auch in der offiziellen FAQ von dasgebaeudeprogramm.ch (dasgebaeudeprogramm.ch/de/meta/haufige-fragen/): «Sind Gebäude von Bund und Kantonen förderberechtigt? Nein. Gemäss Art. 57 EnV sind Anlagen und Bauten von Bund und Kantonen nicht förderberechtigt.» Zusatzbefund (Ergänzung zur bestehenden KB-Aussage, nicht Teil der acht Prüfpunkte): dieselbe FAQ bestätigt auch die im Nachtrag 166 erwähnte Gemeinde-Ausnahme wörtlich: «Sind Gemeindebauten auch förderberechtigt? Ja, Gemeindeliegenschaften sind grundsätzlich förderberechtigt. Wenn aber per Energiegesetz des Kantons festgeschrieben steht, dass bei Sanierungen/Neubauten von Gemeindeliegenschaften der Minergie(-P)-Standard erreicht werden muss, darf der Kanton die Förderung aussetzen, da es sich um eine gesetzliche Verpflichtung handelt.» |
+| 4. Standorte mit CO2-Abgabebefreiung sind ausgeschlossen | **BESTÄTIGT im Kern, PRÄZISIERT im Wortlaut der Rechtsgrundlage** | FAQ dasgebaeudeprogramm.ch, wörtlich: «Unternehmensstandorte, die von der CO2-Abgabe befreit sind, sind nicht förderberechtigt.» Dazu die Reihenfolge-Falle wörtlich bestätigt: «Falls Sie für einen Standort ein neues Gesuch um eine Verminderungsverpflichtung einreichen wollen, darf für diesen Standort beim Abschluss der neuen Verminderungsverpflichtung kein Fördergesuch offen sein.» Die aktuell konsolidierte CO2-Verordnung (SR 641.711, Stand 1.1.2026, fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/856/20260101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2012-856-20260101-de-pdf-a-3.pdf) regelt dies in **Art. 104 Abs. 2 lit. a** («Globalbeitragsberechtigung», nicht Art. 104 Abs. 2 ohne Buchstabe), wörtlich: «Er [der Bund] gewährt keine Globalbeiträge insbesondere für Massnahmen: a. die in Anlagen umgesetzt werden, deren Betreiber eine Verminderungsverpflichtung nach dem CO2-Gesetz eingegangen ist oder der am EHS teilnimmt.» Die Verordnung selbst spricht nicht wörtlich von «CO2-Abgabebefreiung», sondern nennt den Rechtsmechanismus (Verminderungsverpflichtung nach Art. 31 CO2-Gesetz bzw. EHS-Teilnahme); dieser Mechanismus IST in der Sache die Befreiung von der CO2-Abgabe. |
+| 5. Das Gesuch muss vor Baubeginn gestellt werden | **BESTÄTIGT, bundesweit** | Art. 57 Abs. 1 EnV, wörtlich: «Im Rahmen der Förderung kantonaler Programme zur Förderung der Energie- und Abwärmenutzung (Art. 50 EnG) dürfen bauliche Massnahmen nur über Globalbeiträge gefördert werden, wenn die entsprechenden Fördergesuche vor Baubeginn eingereicht werden.» Bestätigt zusätzlich am Beispiel Kt. Schwyz, FAQ des Amts für Umwelt und Energie (Stand 28.08.2025, sz.ch/public/upload/assets/75011/FAQ_Haeufig_gestellte_Fragen…pdf): «Das für die Förderung verbindliche Harmonisierte Fördermodell der Kantone (HFM 2015) verlangt, dass Fördergesuche vor Baubeginn eingereicht werden müssen (ausser bei GEAK Plus Beratungsberichten).» Die genannte Ausnahme (GEAK-Plus-Beratungsberichte) war im Destillat bisher nicht erfasst. |
+| 6. Die Förderzusage ist 2 Jahre gültig | **PRÄZISIERT** | Als kantonale Praxis mehrfach belegt, aber **nicht** als bundesweite HFM-Vorgabe auffindbar (weder im HFM-2015-Schlussbericht noch in der nationalen FAQ genannt). Kt. Zürich, Förderprogramm 2026 (zh.ch, s.o.), wiederholt wörtlich: «Ab Datum der Zusicherung haben Sie zwei Jahre Zeit, die Massnahme umzusetzen und den Abschluss über die Gesuchplattform einzureichen.» Kt. Schwyz FAQ: «Wie lange ist eine Förderzusage gültig? In der Regel zwei Jahre ab Datum der Zusage.» Kt. Zug, Förderbedingungen 2026 (zg.ch/dam/jcr:de631126-335b-431a-9153-7013803a29bc/…KtZG_Förderbedingungen_1.1.pdf): «Die Abrechnungsunterlagen müssen spätestens 2 Jahre nach Erhalt einer Förderzusage bei [der Amtsstelle eingereicht werden]. […] Fristverlängerung ist schriftlich zu beantragen und zu begründen.» Der Zusatz «verlängerbar um sechs Monate» aus dem Destillat konnte in keiner der drei geprüften kantonalen Primärquellen (ZH/SZ/ZG) bestätigt werden — dort steht durchweg nur eine schriftlich zu begründende Fristverlängerung ohne fixe Zusatzdauer. **NICHT VERIFIZIERBAR** für den 6-Monats-Teil: Volltextsuche («sechs Monate», «6 Monate», «verläng») in `hfm2015.txt`, `zh-foerderprogramm-2026.txt`, `sz-faq.txt`, `zg-foerderbedingungen.txt` ohne Treffer; WebSearch-Trefferlage nennt zusätzlich abweichende Fristen anderer Gemeinwesen (z. B. Stadt Thun 3 Jahre statt 2), was zeigt, dass die Dauer selbst nicht bundesweit einheitlich ist. |
+| 7. GEAK-Nachweis binnen 3 Jahre | **BESTÄTIGT**, konkret M-10/M-11 | HFM 2015 S. 25 f. HFM 2015 S. 25 (M-10, Verbesserung GEAK-Klasse), wörtlich: «Auszahlung erfolgt auf Nachweis GEAK nach Umsetzung (bis spätestens drei Jahre nach Förderantrag einzureichen).» HFM 2015 S. 26 (M-11, Reduktion Heizwärme-/Heizenergiebedarf), wörtlich: «Auszahlung erfolgt auf Nachweis Heizwärme- und Heizenergiebedarfsberechnung nach Umsetzung (bis spätestens drei Jahre nach Förderantrag einzureichen).» Die Frist gilt für die etappierte Sanierung (Kap. 3 HFM), nicht für alle 18 Module. |
+| 8. Steuerabzug nur auf dem selbst getragenen Anteil | **BESTÄTIGT für Bund und Kt. Zürich, PRÄZISIERT für übrige Kantone** | FAQ dasgebaeudeprogramm.ch, direkte Bundessteuer, wörtlich: «Sie können jedoch nur denjenigen Teil der Kosten abziehen, den Sie selbst getragen haben. Nicht abziehen können Sie den Teil, der durch Das Gebäudeprogramm gefördert wurde.» Zur kantonalen Steuer sagt dieselbe Quelle ausdrücklich: «Die Abzugsfähigkeit ist nicht in allen Kantonen gleich geregelt. In den meisten Kantonen gelten dieselben Regeln wie bei der direkten Bundessteuer» — also gerade **keine** Bundesgarantie für alle 26 Kantone. Für Kt. Zürich konkret bestätigt: Steuerbuch des Kt. Zürich, Merkblatt Nr. 30.4 (zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-30-4.html), wörtlich: «Massnahmen zur rationellen Energieverwendung und zur Nutzung erneuerbarer Energien sind nur abzugsfähig, soweit sie nicht subventioniert werden.» Für Kt. Schwyz in diesem Lauf nicht einzeln nachgeschlagen (offene Anschlussfrage). |
+
+**Korrekturbedarf gegenüber dem Nachtrag vom 28.08.2026:** Aussage 2 braucht in jeder
+Verwendung ausserhalb dieses Destillats den M-01-Zusatz (das Destillat selbst hatte ihn
+bereits, der externe Prüfauftrag in Kurzform nicht). Aussage 4 sollte bei wörtlicher
+Zitierung der Rechtsgrundlage nicht als «CO2-Abgabebefreiung» nach Art. 104 Abs. 2
+CO2-Verordnung stehen, sondern unter Nennung von **Art. 104 Abs. 2 lit. a** und des
+tatsächlichen Verordnungswortlauts (Verminderungsverpflichtung/EHS-Teilnahme). Aussage 6
+ist im Kern richtig (2 Jahre, kantonal breit belegt für ZH/SZ/ZG), der Zusatz
+«verlängerbar um sechs Monate» ist bis zu einem Beleg zu streichen oder als unbestätigt zu
+kennzeichnen, sobald diese Aussage in einer Bauherren-Auskunft verwendet wird.
+
+**Offen:** Aussage 8 für Kt. Schwyz noch nicht am kantonalen Steuerbuch/Merkblatt
+nachgeschlagen; Herkunft der «sechs Monate» aus Aussage 6 nicht geklärt (evtl. Verwechslung
+mit einer anderen kantonalen Frist oder einer älteren Programmfassung) — bei Bedarf einer
+verbindlichen Aussage zur Verlängerungsdauer direkt beim Standortkanton nachfragen.
+
+Quellen dieses Nachtrags (alle 2026-08-29 direkt abgerufen und im Volltext gelesen):
+HFM-2015-Schlussbericht (endk.ch/wp-content/uploads/2025/07/Harmonisiertes-Foerdermodell-2015-D.pdf);
+EnV SR 730.01 Stand 1.1.2026 (fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/763/20260101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2017-763-20260101-de-pdf-a-3.pdf);
+CO2-Verordnung SR 641.711 Stand 1.1.2026 (fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/856/20260101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2012-856-20260101-de-pdf-a-3.pdf);
+FAQ dasgebaeudeprogramm.ch (dasgebaeudeprogramm.ch/de/meta/haufige-fragen/);
+Förderprogramm 2026 Kt. Zürich (zh.ch/content/dam/zhweb/bilder-dokumente/themen/umwelt-tiere/energie/energieberatung-und-energiefoerderung/ktzh_foerderprogramm_2026.pdf);
+Steuerbuch Kt. Zürich Merkblatt 30.4 (zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-30-4.html);
+FAQ Amt für Umwelt und Energie Kt. Schwyz, Stand 28.08.2025 (sz.ch/public/upload/assets/75011/FAQ_Haeufig_gestellte_Fragen_zu_den_Themen_Foerderprogramm_und_Energie-Gesetz.pdf);
+Förderbedingungen 2026 Kt. Zug (zg.ch/dam/jcr:de631126-335b-431a-9153-7013803a29bc/20260101_Förderprogramm%20Energie%202026_KtZG_Förderbedingungen_1.1.pdf).
+
+Damit ist E-R166-3 bearbeitet. Der Abschnitt «Nachtrag 28.08.2026 (Run 166) — vier belegte
+Ausschlüsse, die hier fehlten» bleibt unverändert stehen (Rule 260811, kein globales
+Ersetzen); seine Angaben gelten nun durch diesen Nachtrag als primärquellenverifiziert mit
+den oben genannten Präzisierungen. Eine Statushebung des gesamten Destillats auf
+`established` kann auf dieser Grundlage geprüft werden, sofern auch die offenen Punkte
+(Aussage 8 Kt. Schwyz, Herkunft der Sechs-Monats-Frist) als bewusst akzeptierte Lücken
+gelten oder nachgezogen werden.

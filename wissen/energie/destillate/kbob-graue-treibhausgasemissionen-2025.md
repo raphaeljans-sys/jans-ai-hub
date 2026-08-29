@@ -193,3 +193,197 @@ Tabellenwerte im Original, nur als Groessenordnung zu lesen:**
 - Konkrete **Sanieren-vs-Neubau-Amortisationsschwelle** der grauen Energie: siehe separat belegten
   Negativbefund in `[[graue-energie-sanieren-vs-neubau-amortisation]]` (D20, 2026-07-13) — keine
   belegte CH-Jahreszahl auffindbar.
+
+## Nachtrag 2026-08-29 (Run 167): Begleitdokumente-Pruefung KBOB-Oekobilanzdaten (Aenderungsprotokoll, Bilanzierungsregeln, naechste Ueberarbeitung, Minergie-ECO-Update)
+
+Auftrag: gezielte Suche nach den Begleitdokumenten rund um die KBOB-Oekobilanzdaten (Changelog,
+Bilanzierungsregeln, Merkblaetter/FAQ, neuere Versionen), Anlass war der Befund, dass bei den
+meistzitierten Quellen der KB regelmaessig Wissen in Begleitdokumenten sitzt statt im Hauptdokument.
+
+### 1) Geprueft (mit URL, Status, Methode)
+- https://www.kbob.admin.ch/de/oekobilanzdaten-im-baubereich — WebFetch 200, listet alle Downloads.
+- Ökobilanzdaten-Liste v9.0 (XLSX): https://www.kbob.admin.ch/dam/de/sd-web/GUOl1trUNEVH/Ökobilanzdaten_im_Baubereich_V9.0.xlsx
+  — curl 200, 605'134 Bytes, per `openpyxl` (venv, da `pip install` global durch PEP 668 blockiert war)
+  ausgelesen, Tabellenblatt «Anpassungen Mises à jour» vollstaendig extrahiert.
+- Bilanzierungsregeln v8.1 (PDF): https://www.kbob.admin.ch/dam/de/sd-web/2F8oM9Rvsj83/20260305%20Plattform_OeDB_Bilanzierungsregeln_Baustoffe_v8.1.pdf
+  — curl 200, 805'834 Bytes, 33 Seiten, per `pdftotext -layout` vollstaendig gelesen.
+  Titelzeile bestaetigt: «Bern und Zürich, 5. März 2026», Redaktion Rolf Frischknecht (Ed.).
+- Faktenblatt Graue THGE (PDF): https://www.kbob.admin.ch/dam/de/sd-web/EVJE4OxZ16O1/20250404_FB_Graue_Treibhausgasemissionen_DE.pdf
+  — `curl -sI` 200, Header `last-modified: Tue, 22 Apr 2025` — keine neuere Version als V1/04.04.2025.
+- KBOB-News-Seite «Aktualisierung und Weiterentwicklung KBOB/ecobau Liste der Ökobilanzdaten»:
+  https://www.kbob.admin.ch/de/aktualisierung-und-weiterentwicklung-kbobecobau-liste-der-oekobilanzdaten
+  — curl 200, Volltext per Regex aus dem HTML extrahiert (zwei datierte News-Eintraege 17.03.2026 und
+  01.07.2026, Seite selbst veroeffentlicht 30.03.2026).
+- Neue KBOB-Empfehlung «Nachhaltige Beschaffung von THGE-relevanten Baumaterialien»:
+  https://www.kbob.admin.ch/dam/de/sd-web/MZJ3JOojWwzp/[…]Beschaffung%20von%20THGE%20Baumaterialien_Bsp%20Bewehrungsstahl_DE.pdf
+  — curl 200, 3'426'085 Bytes, Titelblatt «Bern, 26.02.2026», per `pdftotext -layout` gelesen.
+- Minergie-ECO-Anleitung, neue Fassung: https://www.minergie.ch/media/241126_zus_eco_berechnung_graue_energie-thge_v2023-3_de.pdf
+  — curl 200, 676'017 Bytes, 18 Seiten, per `pdftotext -layout` gelesen; Deckblatt «26. November 2024,
+  Version 2023.3».
+- Minergie-ECO-Anleitung, alte Fassung (bereits in `ergaenzende_quellen` referenziert, zum Abgleich
+  erneut geladen): https://www.minergie.ch/media/210331_berechnung_graue_energie_2021_v1-3.pdf — curl
+  200, per `pdftotext -layout` gelesen.
+- Gesucht, aber KEIN dediziertes FAQ/Merkblatt fuer Planende gefunden (Negativbefund, Punkt 7 unten):
+  https://www.ecobau.ch/de/instrumente/oekobilanzen/hintergrundinformationen (WebFetch 200, kein FAQ)
+  und https://www.ecobau.ch/de/instrumente/oekobilanzen/fuer-planende (WebFetch 200, kein FAQ) sowie
+  https://www.ecobau.ch/de/themen/graue-energie (WebFetch 200, nur Verweise auf SIA 2032/390-1,
+  Minergie-ECO, EnergieSchweiz-Ratgeber, keine eigene FAQ).
+
+### 2) Materielle Funde
+
+**a) Aenderungsprotokoll existiert NICHT als eigenes Dokument, sondern als Tabellenblatt in der
+XLSX selbst** («Anpassungen Mises à jour», Blatt 2 von 7). Wesentliche Aenderungen v8.02 → v9.0
+(vollstaendige Liste, ID-Spalte wo vorhanden):
+- Namen der Liste vereinheitlicht (KBOB/ecobau-Liste 2022); Format der Baumaterial-ID-Nummern
+  harmonisiert.
+- 01.002.21-32: Namensgebung harmonisiert. 01.002.33-35: neue herstellerspezifische Betondatensaetze.
+- 07.002.02: neuer herstellerspezifischer Eintrag Holz/Holzwerkstoff.
+- 10.005.02: neue UUID (alte war doppelt vergeben).
+- **14.008: Flaechengewicht korrigiert auf 1.05 kg/m² (bisher fehlerhaft 0.679 kg/m²)** — echte
+  Kennwert-Korrektur, betrifft aber keine in dieser KB zitierte Position.
+Aenderungen v8.0 → v8.02: nur Link-/Textkorrekturen (Umweltrechner-Link angepasst).
+Aenderungen v7.1 → v8.0 (Auszug, materiell): Rohdichte/Flaechenmasse fuer mehrere Positionen
+ergaenzt (OneClickLCA-Kompatibilitaet); neue Beton-Datensaetze 01.002.19-32 (Eberhard, Jura
+Materials, REWAG); **Korrektur Stahlblech verzinkt (Position 06.011): Verzinkungsmenge um 50 %
+reduziert**, dokumentiert im Hintergrundbericht Ziff. 3.9.2; Korrektur falscher Entsorgungsprozess-
+Bezeichnung bei Brettsperrholz (07.020.01, Oekobilanz selbst korrekt) und bei Konstruktionsvollholz
+(07.023, Oekobilanz wurde korrigiert); neue PU-Daemmstoff-Datensaetze (puren, 10.006.02/03).
+→ **Wirkung auf diese KB: gering.** Keine der in diesem Destillat zitierten Positionen (die KB
+zitiert ohnehin keine KBOB-Rohwerte direkt, siehe Abschnitt 2026-08-25 oben) ist betroffen. Die
+Stahlblech- und Holz-Korrekturen sind aber als generelle Praxis-Warnung relevant: Bewehrungs-/
+Metallbau- und Holzwerte aus Vor-2026-Berechnungen koennen von alten, seither korrigierten
+KBOB-Datensaetzen stammen.
+
+**b) Bilanzierungsregeln v8.1 (05.03.2026) — Inhalt geprueft, Fehlanzeige fuer Nutzungsdauern.**
+Das Dokument ist die Methodik-Vorschrift fuer Hersteller/LCA-Fachpersonen, die neue Datensaetze
+FUER die KBOB/ecobau-Liste erstellen — nicht eine Anwendungsanleitung fuer Projektbilanzen.
+- **Systemumfang (Ziff. 9.1):** «Die Indikatorergebnisse sollen fuer Herstellung und Entsorgung
+  getrennt ausgewiesen werden. Die Nutzungsphase soll NICHT Bestandteil der Ergebnisse sein, da
+  diese in der Regel vom Einsatz im Gebaeude abhaengt.» Die Datensaetze selbst liefern also nur
+  Modul A + C; das Modul B4 (Ersatz waehrend der Gebaeudenutzung) wird erst auf Projektebene
+  (SIA 2032/2040, Minergie-ECO) mit einer Nutzungsdauer-Annahme verrechnet.
+- **Entsorgung (Ziff. 9.4/9.6):** heutige Entsorgungssituation massgebend; produktspezifische
+  Modellierung von Deponierung/KVA, ausser bestehende ecoinvent-Entsorgungsdatensaetze sind
+  hinreichend repraesentativ. Fuer Rueckbaumaterialien sind die materialspezifischen Entsorgungswege
+  gemaess Klingler & Savi (2020) massgebend. Allokation KVA: 100 % der Aufwendungen den zu
+  entsorgenden Abfaellen (gesetzlicher Auftrag).
+- **Reuse-Bauteile (Ziff. 8.10):** verlassen den Gebaeudeperimeter ohne Umweltbelastung; nur
+  Transport/Aufbereitung/Ertuechtigung sowie die kuenftige Entsorgung nach Erreichen der
+  Bauteillebensdauer werden angerechnet.
+- **FEHLANZEIGE, woertlich geprueft:** keine Angaben zu Referenz-Nutzungsdauern von Bauteilen
+  (Suchbegriffe «Nutzungsdauer», «Referenznutzungsdauer», «RSL», «Lebensdauer», «Bezugsgroesse»,
+  «Modul B4», «Ersatz» im Volltext gegengeprueft — nur ein Treffer «Bauteillebensdauer» ohne
+  Zahlenwert, Ziff. 8.10). Bauteil-Nutzungsdauern/Amortisationsfristen sind NICHT Gegenstand dieses
+  Dokuments und muessen anderswo (SIA 2032/2040, projektspezifische Software) bezogen werden.
+- Aenderungshistorie des Dokuments selbst (Kapitel «Aenderungen», v8.1 gegenueber v7.1/v6.1/v5.0):
+  u. a. neues Glossar, Organisationsreglement-Bezug, Modul-D-Ausweis-Pflicht neu in Ziff. 8.23,
+  Umweltindikatoren gemaess «NewCPR» inkl. IPCC-2021-GWP und biogenem CO2 neu in Kapitel 10,
+  Zirkularitaetsindikatoren (Ziff. 10.2), Streichung des Anhangs «EPD-kompatible Datensaetze».
+
+**c) Naechste Ueberarbeitung — praezisiert und mit Meilensteinen belegt** (loest die bisherige
+KB-Notiz «Anfang 2027 angekuendigt» ab, ohne sie zu widerlegen — der Zeitpunkt hat sich zwischen
+zwei KBOB-eigenen Ankuendigungen verschoben):
+  - **17.03.2026 (aeltere Ankuendigung, Seite «Aktualisierung und Weiterentwicklung…»):** Einreicheschluss
+    fuer die KBOB/ecobau-Liste:2026 war der 14.08.2026; Publikation «Ende 2026 / Anfang 2027» vorgesehen.
+  - **01.07.2026 (neuere Ankuendigung, dieselbe Seite, gleicher Titel «KBOB/ecobau-Liste:2027»
+    ersetzt «…:2026»):**
+    - Juni 2026: Publikation der Oekoinventar-Datenbank BAFU:2026 (Grundlage der neuen Datensaetze).
+    - Mitte August 2026: ergaenzende Arbeitsunterlagen zu neuen Sachbilanzindikatoren und zur
+      **Lebenszyklusphase D («Vorteile und Lasten ausserhalb der Systemgrenzen»)** fuer Hersteller.
+    - **30.10.2026: Einreichefrist** neuer/aktualisierter herstellerspezifischer Datensaetze fuer die
+      KBOB/ecobau-Liste:2027, anzuwenden mit der Oekoinventar-Datenbank BAFU:2026 UND den
+      «aktualisierten Bilanzierungsregeln Version 9» — **diese Version 9 der Bilanzierungsregeln ist
+      zum Redaktionsschluss (29.08.2026) noch NICHT auf der Downloadseite verfuegbar** (dort liegt
+      weiterhin nur v8.1 vom 05.03.2026); Version 9 ist als kommendes Dokument angekuendigt, nicht
+      als bereits publiziert zu zitieren.
+    - **31.08.2026: letzte Einreichung nach altem Standard** (Hintergrunddaten UVEK:2022) fuer die
+      laufende KBOB/ecobau-Liste:2022 (funktional die aktuell gueltige v9.0).
+    - **Fruehjahr 2027: Publikation der KBOB/ecobau-Liste:2027.**
+  - Inhaltliche Stossrichtung der Ueberarbeitung: Annaeherung an EU-Bauprodukteverordnung
+    (CPR 2024, Anhang II) und an EPDs gemaess SN EN 15804+A2:2019 (ohne vollstaendige Harmonisierung,
+    da laenderspezifische EPD-Systeme bestehen bleiben); zusaetzliche Umwelt-/Sachbilanzindikatoren;
+    neu ausgewiesenes Modul D.
+
+**d) Neue KBOB-Empfehlung «Nachhaltige Beschaffung von THGE-relevanten Baumaterialien —
+beispielhafte Anwendung am Bewehrungsstahl»** (Bern, 26.02.2026; Last-Modified-Header 11.03.2026;
+bisher nicht in der KB erfasst). Relevant fuer die 7. Reduktionsmassnahme («THG-Intensitaet
+reduzieren») und fuer den Skill `ausschreibung`:
+- Rechtsgrundlage: Beschaffung ueber technische Spezifikationen (Art. 30 Abs. 4 BoeB, verbindliche
+  Mindestanforderung) oder Zuschlagskriterien (Art. 29 BoeB, Honorierung weitergehender Leistung).
+- Bewehrungsstahl wird explizit als **Beispiel**, nicht als abschliessende Vorgabe gefuehrt; die
+  Empfehlung warnt ausdruecklich vor isolierter Betrachtung einzelner Baustoffe.
+- **Konkretes Zahlenbeispiel einer Zuschlagsbewertung** (Beispielrechnung, keine verbindliche
+  Amtsvorgabe): Angebote bis Bestwert + 50 kg CO2-eq/t erhalten die maximale Punktzahl; Angebote
+  **> 600 kg CO2-eq/t erfuellen die Mindestanforderung nicht** (Ausschluss); dazwischen lineare
+  Bewertung. Nachweis via EPD, max. 5 Jahre alt, durch Drittpartei verifiziert.
+- Empfehlung, eine zentrale Beschaffung (Rahmenvertrag) zu pruefen — laut Dokument v. a. bei hohem
+  Bauvolumen sinnvoll, fuer kleinere Bauherren «in der Regel weniger praktikabel».
+
+**e) Minergie-ECO-Anleitung aktualisiert: v1.3 (31.03.2021) → v2023.3 (26.11.2024)** — die
+`ergaenzende_quellen`-Zeile im Frontmatter zitiert noch die alte v1.3. Materieller Abgleich beider
+Fassungen (beide vollstaendig per `pdftotext` gelesen):
+- **Gebaeudehuelle-Basisgrenzwerte (kg CO₂/m²·a) sind zwischen v1.3 und v2023.3 UNVERAENDERT** —
+  Aussenwand/Dach/Bodenplatte/Fenster/Innenbauteile je Nutzungskategorie stimmen zeilenweise exakt
+  ueberein (z. B. Wohnen MFH weiterhin 0.78/1.57 · 1.18/1.93 · 1.43/2.35 · 3.00/4.34 · 0.39/0.78).
+  Die in dieser KB oben zitierte Tabelle («Wohnen MFH») bleibt damit **bestaetigt aktuell**.
+- **Haustechnik-Basisgrenzwerte haben sich veraendert**, weil v2023.3 nicht mehr auf die
+  «KBOB-Liste 2016» stuetzt, sondern auf **«KBOB-Oekobilanzdaten 2022, Version 3»** (Fussnoten 1-3
+  im Original, Seite 14):
+  - **PV-Anlage: neu 7.1 kg CO₂/m²·a (bzgl. Bauteilflaeche) statt bisher 13.3 kg CO₂/m²·a** —
+    Basis jetzt Datensatz 34.024 «Solarstromanlage», Annahme 200 Wp/m² Modulleistung (v1.3 nannte
+    keine explizite Wp/m²-Annahme in der geprueften Fussnote). **Dies ist eine materielle
+    Korrektur mit Faktor ~0.53** und betrifft direkt die in dieser KB oben (Abschnitt
+    «Haustechnik-Bauteile») stehende Zeile «PV-Anlage 13.3» — dieser Wert ist mit dem
+    aktuellen Stand der Minergie-ECO-Anleitung **nicht mehr deckungsgleich** und sollte bei
+    PV-bezogenen Minergie-ECO-Nachweisen nicht mehr verwendet werden, ohne die Aktualitaet der
+    verwendeten Software/Vorgabe zu pruefen.
+  - **Thermische Solarkollektoren: neu 5.6 kg CO₂/m²·a statt bisher 5.2 kg CO₂/m²·a** (Basis
+    Datensatz 31.009 «Flachkollektor fuer Warmwasser MFH», KBOB-Oekobilanzdaten 2022 V3).
+  - **Erdsonden: unveraendert 0.3 kg CO₂/m²·a** (Basis Datensatz 31.016, KBOB-Oekobilanzdaten
+    2022 V3; Annahmen Entnahmeleistung 36 W/m, Waermeleistungsbedarf 20 W/m² EBF, JAZ 4 —
+    identisch fuer alle Minergie-Standards).
+  - Faktor **1.2 fuer Minergie-P/-A auf die Aussenbauteil-Basisgrenzwerte** ist unveraendert in
+    v2023.3 explizit bestaetigt (Seite 14) — die in dieser KB bisher als «sinngemaess uebertragen,
+    nicht selbst nachgerechnet» markierte Uebernahme ist damit fuer die kWh-Grenzwerte am
+    Original **direkt bestaetigt** (nicht mehr nur sinngemaess).
+  - Nomenklatur-Aenderung ohne Zahlenwirkung: Nutzungskategorie «Kleine Wohnbauten» (v1.3) heisst
+    in v2023.3 «Wohnen EFH» (gleiche Werte).
+  - Rahmendaten unveraendert bestaetigt: Gebaeude-Nutzungsdauer 60 Jahre, Amortisationsdauer der
+    Bauteile gemaess SIA-Merkblatt 2032, Bilanzperimeter = gesamtes Gebaeude (beheizt + unbeheizt).
+
+### 3) Aktuellster belegter Versionsstand (Stand 29.08.2026)
+- KBOB-Oekobilanzdaten im Baubereich: **v9.0, 14.07.2026** — unveraendert, keine neuere Version
+  gefunden (naechste: KBOB/ecobau-Liste:2027, Fruehjahr 2027, siehe oben).
+- Bilanzierungsregeln fuer die Oekobilanzierung von Baustoffen/Bauprodukten: **v8.1, 05.03.2026**
+  — unveraendert; **v9 der Bilanzierungsregeln ist angekuendigt, aber noch nicht publiziert.**
+- Faktenblatt «Graue Treibhausgasemissionen bei der Erstellung von Gebaeuden»: **V1, 04.04.2025**
+  — unveraendert (Last-Modified-Header 22.04.2025 bestaetigt keine neuere Fassung).
+- Minergie-ECO-Anleitung «Berechnung der Grauen Energie und der Treibhausgasemissionen beim
+  Zusatz ECO»: **V2023.3, 26.11.2024** (loest die bisher in `ergaenzende_quellen` referenzierte
+  V1.3/2021 ab).
+- Neu: KBOB-Empfehlung «Nachhaltige Beschaffung von THGE-relevanten Baumaterialien», **Bern,
+  26.02.2026**.
+
+### 4) Was geschrieben wurde
+Dieser Nachtrag (additiv, nichts Bestehendes veraendert oder geloescht); `last_updated:` im
+Frontmatter auf 2026-08-29 nachgefuehrt. Die urspruengliche Tabelle im Abschnitt
+«Haustechnik-Bauteile» (PV-Anlage 13.3 / Solarkollektoren 5.2 / Erdsonden 0.3) wurde **nicht**
+ueberschrieben — sie bleibt als Beleg der Quelle v1.3/2021 stehen; die Korrektur/Aktualisierung
+steht hier im Nachtrag (Punkt 2e) und muss bei Verwendung dieser Werte mitgelesen werden.
+
+### 5) Offen
+- Die `ergaenzende_quellen`-Zeile im Frontmatter zeigt weiterhin auf die alte Minergie-v1.3-URL;
+  eine Aktualisierung der Frontmatter-Zeile selbst (Ersetzen der URL/Version) steht noch aus,
+  da Rule 260811 (kein globales Ersetzen in gewachsenen Dateien) fuer diese Session additive statt
+  ersetzende Aenderungen vorschreibt — ein gezielter, spaeter Einzel-Edit dieser einen Zeile waere
+  zulaessig, wurde hier aber bewusst nicht vorgenommen, um den Auftragsrahmen (additiv) nicht zu
+  verlassen.
+- Bilanzierungsregeln Version 9 (angekuendigt fuer die KBOB/ecobau-Liste:2027-Einreichung) bei
+  Publikation nachverfolgen und materielle Aenderungen gegenueber v8.1 pruefen.
+- Die neue KBOB-Beschaffungsempfehlung (Bewehrungsstahl) ist bisher nur hier vermerkt, nicht in
+  den Skill `ausschreibung` oder eine eigene Wiki-Notiz eingearbeitet — Bring-Schuld, falls ein
+  naechster Lauf THGE-Ausschreibungsklauseln behandelt.
+- Kein FAQ/Merkblatt fuer Planende zur direkten Anwendung der KBOB-Liste gefunden trotz
+  systematischer Suche (drei ecobau-Unterseiten, siehe Abschnitt 1); die einzigen belegten
+  Anwendungshilfen bleiben die akkreditierten Umweltrechner (rechner.pawis.ch, calc.ecobau.ch) und
+  die Minergie-ECO-Anleitung.

@@ -5,7 +5,7 @@ ausgabe: SIA 2024:2021 inkl. Korrigenda C1:2024 **und C2:2025** (aktuell gültig
 gelesen: 2026-07-14, PDFs vollständig via pdftotext ausgewertet (Grundlagenbericht 43 S., Statusbericht ~40 relevante Seiten, BFE-Merkblatt 6 S.); **Korrigenda C2:2025 vollständig gelesen 24.08.2026 (curl+PyPDF2, deutsche UND französische Fassung geladen, deutsche zitiert)**
 datenstand: Grundlagenbericht datiert 20.10.2024; Statusbericht Copyright 2019 (Vernehmlassungsstand SIA 2024:2019, teilweise durch die verabschiedete Fassung SIA 2024:2021 überholt, siehe unten Tabelle-20-Abgleich); BFE-Merkblatt undatiert im Extrakt, bezieht sich auf SIA 382/1:2014; **Korrigenda C2:2025 gültig ab 01.06.2025 — jüngster Datenstand dieses Artikels für die Tabellen 4-9/11/14-17/20**
 status: emerging (die Korrigenda C2:2025 liefert jetzt primärquellenbelegte, freie Energie-/Leistungsbedarfswerte für 8.01-8.03 und die Gebäudekategorie-VIII-Summe — die eigentlichen vollständigen Raumdatenblätter mit allen Eingabeparametern (Personendichte, Betriebszeiten je Raumnutzung, Anhang A/B/C im Detail) liegen weiterhin NICHT im Volltext vor, da das Merkblatt SIA 2024:2021 selbst kostenpflichtig im SIA-Shop bleibt; keine Sekundärquelle konnte das widerlegen)
-last_updated: 2026-08-24
+last_updated: 2026-08-29
 merge_historie: "2026-07-26 — Merge des Zwillings-Destillats `sia-2024-nutzungsdaten-gesundheitsbau` (140 Zeilen, Run 69) in diesen Artikel auf Freigabe Raphael. Uebernommen: Flaechenanteile-Tabelle (Statusbericht Tab. 5), Vergleich geltend SIA-380/1-Tab.-27 vs. Harmonisierungsvorschlag SIA-2024:2019 inkl. EnFK-Grenzwerte, Luftmengen-Zeitreihe 2015 vs. 2021-Entwurf, drei offene Punkte, Backlinks. Quelldatei geloescht, alle Backlinks umgebogen."
 ---
 
@@ -473,3 +473,84 @@ Unterteilung hier löst dessen Gebäudekategorie-Einstufungsfrage, energie Run 1
 randbedingungen (interne Lasten, Betriebszeiten) je Raumtyp entscheiden, ob ein Raum TABS-tauglich
 ist (stabile Bettenstation) oder nicht (lastvariabler OP-/Eingriffsraum); Verknüpfung ist eine
 Ableitung des TABS-Destillats, hier noch nicht eigenständig verifiziert (F138).
+
+## Nachtrag 2026-08-29 (Run 167): Korrigenda C1:2024 im Volltext
+
+**Anlass:** Ein Vorlauf zur Begleitdokument-Prüfung hatte gemessen, dass Korrigenda regelmässig
+nur über eine Drittquelle referiert werden, statt gelesen worden zu sein (Fallbeispiel: SIA
+380/1-C1:2019 änderte einen Zielwert-Faktor von 60 % auf 70 %, unbemerkt solange nur ein
+Sekundärzitat vorlag). Dieser Artikel führte im Frontmatter «inkl. Korrigenda C1:2024 und
+C2:2025», hatte aber nur **C2:2025** selbst im Volltext gelesen (24.08.2026); **C1:2024 wurde
+bislang nur mitgeführt**, ohne eigenen Lesebeleg dieser KB. Das ist genau das geprüfte Muster.
+
+**C1:2024 jetzt vollständig im Volltext gelesen, direkt vom Herausgeber, kostenlos.** Deutsche
+Fassung SNR 592024:2021-C1:2024 de, 27 Seiten, Preisgruppe 0, geladen 29.08.2026 über
+`shop.sia.ch/28cf7414-4297-416f-81d9-1931ab48a247/D/DownloadAnhang` (curl, `Content-Type:
+application/pdf`, `Content-Disposition: attachment;filename=2024-C1_2024_d.pdf`, 4.58 MB, kein
+Login/Bezahlvorgang), ausgewertet mit `pdftotext -layout`. Titelblatt bestätigt: von der
+SIA-Kommission für Gebäudetechnik- und Energienormen am **14.05.2024 genehmigt**, **gültig ab
+1.6.2024**, bereitgestellt unter www.sia.ch/korrigenda > SIA 2024.
+
+**Zentraler Befund — keine materielle Abweichung zu den oben zitierten C2:2025-Werten:**
+Zeile-für-Zeile-Abgleich der für Gesundheitsbau relevanten Werte zwischen C1:2024 und C2:2025
+(Tabellen 4-9, Anhang F Tabelle 20) zeigt **Zeichenidentität**, nicht nur Ähnlichkeit:
+
+- Tabelle 4 (Energiebedarf Standard, kWh/m²): 8.01 Bettenzimmer 10.5/0/8.2/13.7/10.8/67.7 ·
+  8.02 Stationszimmer 31.5/0/55.7/73.0/1.2/0.0 · 8.03 Behandlungsraum 32.7/33/28.0/24.4/9.0/0.0
+  — identisch mit den oben (Abschnitt «Energie- und Leistungsbedarf … nach SIA 2024-C2:2025»)
+  bereits dokumentierten C2-Werten.
+- Tabelle 5 (Zielwerte) und Tabelle 6 (Bestand): ebenso zeichenidentisch (z.B. 8.03 Zielwerte
+  21.8/11/10.7/16.8/4.8/0.0; 8.01 Bestand 14.0/0/10.5/0.3/89.0/67.7).
+- Tabelle 7-9 (Leistungsbedarf, W/m²): ebenso zeichenidentisch (z.B. 8.02 Standard
+  10/0/9.7/64.6/16.4).
+- Anhang F, Tabelle 20 (Kategorie VIII Spital gesamt, undifferenziert VIII.1/VIII.2, wie im
+  Abschnitt oben «echter Anhang-F-Wert» bereits vermerkt): Standardwerte-Elektrizität Geräte
+  8.5, Beleuchtung 9.9, Lüftung 5.1, Klimakälte 10.5, Prozessanlagen 2.6, Allg. Gebäudetechnik
+  8.2, Heizwärme 10.4, Warmwasser 21.8 kWh/m²EBF·a — identisch mit den bereits zitierten
+  C2:2025-Werten (dort war nur ein Teil der Standard-Zeile explizit ausgeschrieben; Zielwerte
+  und Bestand ebenfalls zeilenidentisch zwischen C1 und C2 verifiziert).
+
+Damit ist bestätigt: die in diesem Artikel für Bauherren-Aussagen verwendeten Kategorie-8-/
+Kategorie-VIII-Kennwerte gelten bereits **seit 1.6.2024** (C1) unverändert bis heute, nicht erst
+seit der C2-Lektüre vom 24.08.2026. Deckt sich mit dem unabhängig erhobenen Befund der KB
+`normen` ([[sia-2024-korrigenda-c1-c2]], `status: established`, 23.08.2026), der denselben
+Zeilenvergleich bereits gefahren hatte — dieser Lauf verifiziert ihn nun eigenständig aus
+dieser KB heraus, mit eigenem Download und eigener `pdftotext`-Auswertung, statt ihn nur zu
+zitieren.
+
+**Kein C3 oder neuere Ausgabe von SIA 2024.** Die offizielle Produktseite von SIA 2024:2021
+selbst (`shop.sia.ch/normenwerk/architekt/2024_2021_d/D/Product`) listet unter «Anhänge»
+genau drei Einträge: Inhaltsverzeichnis, Korrigenda C1, Korrigenda C2 — keinen dritten. Die
+GUIDs stimmen exakt mit den bereits bekannten Downloads überein (C1
+`28cf7414-4297-416f-81d9-1931ab48a247`, C2 `bf2a2d6f-443c-47e0-b73a-5c7a5060ed31`). Ergänzend
+geprüft: die URL-Muster `shop.sia.ch/normenwerk/architekt/sia%202024-c3/d/D/Product` und
+`-c4` liefern zwar HTTP 200, aber keine Produktidentität (keine SNR-Referenznummer, kein
+Download-Link, generische Leerseite) — anders als bei C1/C2, wo Titel, SNR und Download-GUID
+übereinstimmend vorhanden sind. Stand 29.08.2026: **C1 und C2 sind die einzigen existierenden
+Korrigenda zu SIA 2024:2021.**
+
+**Weitere, nicht gesundheitsbau-spezifische Änderungen in C1:2024** (der Vollständigkeit halber
+geprüft, berühren keine in diesem Artikel zitierte Zahl): Ziff. 0.2.1.1 aktualisiert die
+Normverweise (SIA 380:2022, SIA 387/4:2023 u.a. — bereits oben in der Ausgabenhistorie
+vermerkt); Ziff. 0.2.4 relativiert den Bezug zu SN EN ISO 52120-1 (Gebäudeautomation); Ziff.
+1.1.2.14 (Feuchteproduktion Personen), 1.1.4.6/1.1.4.10/1.1.4.11 (Leuchten-Lichtausbeute:
+Grenzwert 90 lm/W bzw. 130 lm/W für Raumnutzungen 9.1/9.2/10.1/12.9, Zielwert 130 bzw. 160
+lm/W), 1.1.5.6 (Temperatur-Änderungsgrad Wärmerückgewinnung: Standard 0.73, Zielwert 0.78,
+Bestand 0.50) und 1.1.6.1-1.1.6.3 (externe/interne Wärmeeintragsleistung, Formeln) sind
+generische Definitionen für alle Raumnutzungen, nicht gesundheitsbau-spezifisch; Ziff. 1.2
+korrigiert nur eine Einheit (Beurteilungspegel Haustechnik-Geräusche neu «dB»); Anhang A
+(Tabelle 11) ändert einzig den Aussenluft-Volumenstrom von Raumnutzung 12.08 (Garderobe/
+Dusche), nicht 8.01-8.03; Anhang E (Tabelle 18) nennt 8.01 Bettenzimmer weiterhin mit der
+Bezugseinheit «1 Bett pro Person» (unverändert). Keine dieser Änderungen widerspricht einer in
+diesem Artikel getroffenen Aussage.
+
+**Fazit für den Verdacht aus dem Vorlauf:** Der befürchtete Fall (eine nur sekundär bekannte
+Korrigenda ändert einen Zahlenwert materiell) tritt hier **nicht** ein. Die Prüfung schliesst
+damit die Lücke «C1:2024 nur mitgeführt, nie gelesen» mit einem Nullbefund an Widersprüchen,
+nicht mit einem gefundenen Fehler — beide Ausgänge sind das Ergebnis derselben Sorgfaltspflicht.
+
+Quelle dieses Nachtrags: SIA 2024-C1:2024, deutsche Fassung, SNR 592024:2021-C1:2024 de, 27 S.,
+gültig ab 1.6.2024, geladen und vollständig gelesen 29.08.2026 über
+`shop.sia.ch/28cf7414-4297-416f-81d9-1931ab48a247/D/DownloadAnhang` (curl, `pdftotext -layout`);
+Bestätigung fehlender C3/neuerer Ausgabe über die offizielle Produktseite
+`shop.sia.ch/normenwerk/architekt/2024_2021_d/D/Product` (Anhänge-Liste, 29.08.2026).

@@ -1,5 +1,82 @@
 # CHANGELOG
 
+## 2026-08-29 (Recherche-Agent Run 167, Begleitdokument-Prüfung SIA 2024-Korrigenda) — C1:2024 im Volltext gelesen, keine materielle Abweichung, kein C3
+
+Nachtrag additiv an `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` angehängt
+(+82/-1 Zeilen, `last_updated` auf 2026-08-29 nachgeführt). Verdacht war: die Korrigenda
+SIA 2024-C1:2024 wurde im Frontmatter nur mitgeführt, nie im Volltext gelesen (Muster aus dem
+Vorlauf: Korrigenda nur über Drittquelle bekannt, Fallbeispiel SIA 380/1-C1:2019 mit
+unbemerkter 60→70-%-Faktoränderung). C1:2024 jetzt vollständig gelesen (27 S., SNR
+592024:2021-C1:2024 de, gültig ab 1.6.2024, kostenlos über
+`shop.sia.ch/28cf7414-4297-416f-81d9-1931ab48a247/D/DownloadAnhang`). Kernbefund: die
+Kategorie-8-/Kategorie-VIII-Tabellen (4-9, Anhang F Tab. 20) sind zwischen C1:2024 und dem
+bereits gelesenen C2:2025 zeichenidentisch — deckt sich mit dem unabhängig erhobenen Befund
+der KB `normen` ([[sia-2024-korrigenda-c1-c2]]), jetzt zusätzlich von dieser KB aus eigener
+Lektüre bestätigt. Kein C3 oder neuere Ausgabe: die offizielle Produktseite von SIA 2024:2021
+listet nur genau zwei Korrigenda (C1, C2); URL-Sondierung auf `-c3`/`-c4` liefert keine
+Produktidentität. Übrige C1-Änderungen (Feuchteproduktion, Leuchten-Lichtausbeute,
+Wärmerückgewinnungsgrad, Wärmeeintragsleistung-Formeln, eine Einheiten-Korrektur, Anhang-A-Zeile
+12.08) sind generisch für alle Raumnutzungen, nicht gesundheitsbau-spezifisch, und widersprechen
+keiner Aussage dieses Artikels. Nullbefund an Widersprüchen, nicht Fehlanzeige mangels Suche.
+
+**Bonusfund ausserhalb des Artikel-Scopes (zur Weiterverfolgung vorgemerkt, nicht in diesem
+Lauf geschrieben):** Beim Abklappern der SIA-Korrigenda-Sammelseite für die übrigen in dieser
+KB geführten Normen (180, 181, 382/1, 2032, 2040, 390/1, 386) zeigte sich, dass **SIA 2040:2017
+(Effizienzpfad Energie) per 31.01.2025 archiviert und durch SIA 390/1:2025 «Klimapfad —
+Treibhausgasbilanz über den Lebenszyklus von Gebäuden» ersetzt** ist (bestätigt über die
+offizielle Produktseite, Vorgänger-/Nachfolger-Verknüpfung geprüft). Falls ein energie-Destillat
+noch SIA 2040 als aktuell zitiert, ist das ein eigener Prüfpunkt — hier nicht durchgeführt, da
+ausserhalb des beauftragten Artikel-Scopes. Korrigenda-Bestand der übrigen geprüften Normen:
+SIA 180:2014 hat C1 (gültig 1.3.2015) und C2 (gültig 1.10.2020); SIA 181:2020, SIA 382/1:2025,
+SIA 2032:2020, SIA 390/1:2025 und SIA 386.111:2022 (aktuelle Ausgabe für Gebäudeautomation)
+haben je keine Korrigenda (nur Inhaltsverzeichnis/FAQ als Anhang); SIA 2040:2017 selbst hatte
+eine C1, die mit der Norm zusammen archiviert wurde.
+
+## 2026-08-29 (Recherche-Agent Run 167, Primärquellen-Gegenlesung E-R166-3) — sieben von acht Ausschlüssen/Fristen bestätigt, zwei präzisiert, ein Detail nicht verifizierbar
+
+Nachtrag additiv an `destillate/gebaeudeprogramm-bund-hfm-2015.md` angehängt (offener Punkt
+E-R166-3 aus dem Nachtrag vom 28.08.2026, `last_updated` auf 2026-08-29 nachgeführt). Die acht
+dort geflaggten Aussagen wurden einzeln am amtlichen Original geprüft: HFM-2015-Schlussbericht
+(Volltext), EnV (SR 730.01, Art. 57, Stand 1.1.2026) und CO2-Verordnung (SR 641.711, Art. 104
+Abs. 2 lit. a, Stand 1.1.2026) über das Fedlex-Filestore-Muster, dazu die nationale FAQ von
+dasgebaeudeprogramm.ch sowie je ein kantonales Förderdokument ZH/SZ/ZG als Stichprobe für die
+nicht-HFM-Fristen.
+
+Ergebnis: Fensterersatz-Ausschluss, Art.-57-EnV-Ausschluss (Bund/Kantone), CO2-Abgabebefreiungs-
+Ausschluss, Gesuch-vor-Baubeginn-Pflicht und die 3-Jahres-GEAK-Nachweisfrist (M-10/M-11) sind
+wörtlich bestätigt. Zwei Aussagen brauchen eine Präzisierung: der Neubau/Anbau/Aufstockungs-
+Ausschluss gilt nur für M-01, nicht fürs ganze HFM (M-16/M-17 fördern gezielt hocheffiziente
+Neubauten); der Steuerabzug-Ausschluss ist für Bund und Kt. Zürich wörtlich belegt, für die
+übrigen Kantone laut derselben FAQ ausdrücklich nicht garantiert einheitlich. Die «zwei Jahre
+Gültigkeit» der Förderzusage ist als kantonale Praxis (ZH/SZ/ZG) breit belegt, aber nicht als
+bundesweite HFM-Vorgabe auffindbar; der Zusatz «verlängerbar um sechs Monate» konnte in keiner
+der drei geprüften Kantonsquellen bestätigt werden und bleibt offen (NICHT VERIFIZIERBAR).
+
+## 2026-08-29 (Recherche-Agent Run 167, Begleitdokument-Prüfung KBOB-Oekobilanzdaten) — Aenderungsprotokoll/Bilanzierungsregeln gelesen, Minergie-ECO-Anleitung veraltet zitiert, naechste Ueberarbeitung praezisiert
+
+Nachtrag additiv an `destillate/kbob-graue-treibhausgasemissionen-2025.md` angehaengt (+194/-0
+Zeilen, `last_updated` auf 2026-08-29 nachgefuehrt). Kernfunde: (1) das Aenderungsprotokoll der
+KBOB-Oekobilanzdaten existiert nicht als eigenes Dokument, sondern als Tabellenblatt «Anpassungen
+Mises à jour» in der XLSX v9.0 selbst (per openpyxl ausgelesen) — materiellste Aenderung v7.1→v8.0
+war eine 50-%-Korrektur der Verzinkungsmenge bei Stahlblech verzinkt (Pos. 06.011); (2) die
+Bilanzierungsregeln v8.1 (05.03.2026, vollstaendig gelesen) regeln explizit NUR Herstellung+
+Entsorgung fuer die Datensatz-Erstellung, die Nutzungsphase/Bauteil-Nutzungsdauern sind bewusst
+ausgeschlossen (Ziff. 9.1) — Fehlanzeige dokumentiert, keine Nutzungsdauer-Werte in diesem Dokument
+zu finden; (3) **materieller Korrekturbedarf**: die KB zitiert im Abschnitt «Haustechnik-Bauteile»
+noch PV-Anlage 13.3 kg CO2/m²·a aus der alten Minergie-ECO-Anleitung v1.3/2021 — die seit
+26.11.2024 gueltige Fassung v2023.3 nennt dafuer neu 7.1 kg CO2/m²·a (Faktor ~0.53, Basis jetzt
+KBOB-Oekobilanzdaten 2022 V3 statt KBOB-Liste 2016); Solarkollektoren 5.2→5.6, Erdsonden
+unveraendert 0.3; die Gebaeudehuelle-Werte (Aussenwand/Dach/Bodenplatte/Fenster/Innenbauteile)
+sind hingegen zeilenweise identisch geblieben; (4) naechste KBOB-Ueberarbeitung praezisiert:
+KBOB/ecobau-Liste:2027 mit Publikation Fruehjahr 2027 (Einreichefrist 30.10.2026, neue
+Bilanzierungsregeln v9 angekuendigt, noch nicht publiziert), loest die aeltere Ankuendigung
+«Ende 2026/Anfang 2027» ab; (5) neue KBOB-Empfehlung «Nachhaltige Beschaffung von
+THGE-relevanten Baumaterialien» (26.02.2026, Beispiel Bewehrungsstahl, Ausschlusskriterium
+600 kg CO2-eq/t) bisher nicht in der KB, als Fund vermerkt, Einarbeitung in Skill
+`ausschreibung` offen. Kein FAQ/Merkblatt fuer Planende gefunden trotz Suche auf drei
+ecobau.ch-Unterseiten (Negativbefund dokumentiert). Faktenblatt selbst unveraendert (V1,
+04.04.2025, Last-Modified-Header bestaetigt).
+
 ## 2026-08-29 (Recherche-Agent Run 167, Begleitdokument-Prüfung EN-102) — EN-102 existiert offiziell in zwei Normbasis-Versionen, Herkunft eines früheren "Transkriptionsfehlers" geklärt
 
 Nachtrag additiv an `destillate/enfk-en-102-waermeschutz-2018.md` angehängt. Kernfund: die EnFK-
