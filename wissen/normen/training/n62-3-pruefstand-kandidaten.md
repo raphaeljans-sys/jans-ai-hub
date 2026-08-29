@@ -62,9 +62,13 @@ Spalte «Warum» korrigiert das von Hand.
 
 ### Rang 1 — `sia-416-2003.md` · Reichweite 12 · 74 Zeilen · **schärfster Kandidat**
 
+✅ **ERLEDIGT (Run 64/65, 28./29.08.2026, ausserhalb dieses Auftrags).** Trägt inzwischen einen
+vollständigen Prüfstand (Abdeckungsrichtung Run 64, Refuter-Runde Run 65); Status bewusst
+`speculative` belassen. Siehe Destillat, Abschnitt «Prüfstand».
+
 | | |
 |---|---|
-| Status | `established`, kein Prüfstand |
+| Status (bei Listenerstellung 27.08.) | `established`, kein Prüfstand |
 | Konsumenten | grobkosten-onepager · immobilienbewertung · kostenkontrolle · kostenschaetzung · machbarkeit · normen · wettbewerb · flaechen-nachweis · grobkosten-rechner · realwert-rechner · volumen-rechner · `rules/normen-referenz` |
 | Warum zuoberst | Höchste entscheidungstragende Reichweite im ganzen SIA-Bestand — **12 Konsumenten, davon 4 Agenten, die Flächen und Volumen rechnen**. Jede Machbarkeitsstudie, jede Grobkostenschätzung und jeder Flächennachweis zieht hier. |
 | Verschärfend | Das Schwester-Destillat `sia-416-1-2007.md` trägt nach Run 54 **994 Zeilen und einen Prüfstand**; die **Mutternorm** hat **74 Zeilen und keinen**. Das Missverhältnis ist ein eigener Verdachtsgrund: die Aufmerksamkeit ging an die Teilnorm, die Grundnorm blieb auf dem Erstdestillat stehen. |
@@ -90,15 +94,22 @@ Konsumenten. Das ändert den Rang nicht, aber die Zahl gehört nicht ungeprüft 
 
 ### Rang 3 — `sia-102-2014.md` · Reichweite 6 (geteilt mit :2020) · 100 Zeilen
 
-Die Vorgängerausgabe bleibt für **Altverträge** massgeblich, die sie vereinbart haben — genau die
-Konstellation, in der SIA 118:1991 in Run 62 wirksam blieb. Das Destillat trägt eine
-korrigierte Baukategorien-Tabelle, aber keinen Prüfstand.
+✅ **ERLEDIGT (Run 66, 29.08.2026, Schub-Lane NORMEN-PRUEFSTAND).** Abdeckungsrichtung gefahren:
+Baukategorien-Tabelle (Ziff. 7.6.5) vollständig nachgetragen (8 fehlende Sparten, 300-dpi-Rendering
+spaltengenau abgelesen), 2 fehlende Aufzählungspunkte in Ziff. 7.5.15 ergänzt, Ziff. 0 4-analoger
+Kernbefund: Leistungsbereiche Kosten/Termine/Administration fehlen in allen Art.-4-Teilphasen
+(an 4.41 gegen Original bestätigt, identisch zu N63-1 bei SIA 102:2020). **0 falsche Werte**,
+nur Lücken. Prüfstand-Tabelle im Destillat, Status unverändert `established` (kein
+Statuswechsel durch diesen Auftrag). Rest-Teilphasen 4.11-4.63 bleiben offen (siehe Destillat,
+Offene Punkte) — Kandidat für einen Folgelauf, kein neuer N62-3-Kandidat mehr.
 
 ### Rang 4 — `sia-451-1992.md` · Reichweite 1 · 55 Zeilen
 
-Nach der bereinigten Metrik **deutlich tiefer als die Rohzählung nahelegte**. Ein Konsument
-(`ausschreibung`), aber inhaltlich das Datenaustauschformat hinter dem `crbx_parser.py` — ein
-Fehler dort wäre mechanisch sofort sichtbar, nicht schleichend. Geringe Dringlichkeit.
+✅ **ERLEDIGT (Run 66, 29.08.2026, Schub-Lane NORMEN-PRUEFSTAND).** Abdeckungsrichtung über alle
+12 Seiten gefahren (eigenes Rendering, 150dpi): Ziff. 0 4 «Weitere Entwicklungen» fehlte ganz,
+13 von 24 G-Record-Feldern sowie mehrere Header-/Schlussrecord-Felder waren nie dokumentiert —
+alle nachgetragen. **0 falsche Werte.** Refuter-Richtung ist auf dieser Quelle weiterhin nie
+gelaufen (im Destillat als offen vermerkt). Status unverändert `established`.
 
 ### Nicht in dieser Liste
 
