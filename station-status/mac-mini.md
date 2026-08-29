@@ -1,9 +1,8 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 23:33:46
+Stand: 29.08.2026 23:44:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:05)
 - /Users/raphaeljans  (letzte Aktivitaet 23:32)
 
 ## Laufende Arbeits-Prozesse
@@ -13,4 +12,4 @@ Stand: 29.08.2026 23:33:46
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3f4e58a4a grobkosten: fuenfter Duplikat-Dispatch selber Tag erkannt und dokumentiert, keine erzwungene Verdichtung
+- 9df7e7273 wissens-destillat archiv-fachwissen: P1-Meilenstein beide Korpora vollstaendig, Dispatch-Loop-Befund Lane FACHWISSEN
