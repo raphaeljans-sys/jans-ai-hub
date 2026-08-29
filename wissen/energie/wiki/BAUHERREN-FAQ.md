@@ -452,6 +452,41 @@ Plenarversammlung Mendrisio TI, **28.08.2026**, am selben Tag im Volltext gelese
 → `[[gebaeudeprogramm-bund-hfm-2015]]`. Als Termin im Fristen-Register geführt. Status
 **established** für die Tatsache der Ablösung und den Vernehmlassungstermin; alles Weitere offen.
 
+**Nachgeführt 29.08.2026 (Run 167) — vier Präzisierungen aus der Primärquellen-Gegenlesung:**
+
+**01 Verlassen Sie sich nicht auf eine feste Verlängerung der Förderzusage.** Die Zwei-Jahres-Frist
+ab Zusicherung ist für die Kantone ZH, SZ und ZG je wörtlich belegt, sie ist aber **kantonale Praxis
+und keine bundesweite Vorgabe**; andere Gemeinwesen führen abweichende Fristen. Die verbreitete
+Angabe, die Zusage sei «um sechs Monate verlängerbar», liess sich in **keiner** der drei geprüften
+kantonalen Primärquellen belegen. Dort steht durchgehend nur eine schriftlich zu begründende
+Fristverlängerung ohne fixe Dauer. Planen Sie deshalb mit den zwei Jahren und stellen Sie ein
+Verlängerungsgesuch rechtzeitig und begründet.
+
+**02 Der Ausschluss von Neubauten gilt enger, als er meist zitiert wird.** «Neubau, Anbau und
+Aufstockung ausgeschlossen» trifft auf die **Massnahme M-01** zu, nicht auf das Fördermodell als
+Ganzes. Die Massnahmen **M-16 und M-17 fördern gezielt Neubauten**. Ein Neubauprojekt ist also nicht
+pauschal aus der Förderung heraus.
+
+**03 Wir können das Gesuch für Sie abwickeln, aber die Mailadresse entscheidet.** Der Kanton stellt
+eine **Vollmacht-Vorlage** («Vollmacht Gesuchabwicklung») bereit, mit der die Bauherrschaft die
+Gesuchabwicklung an das Architekturbüro delegiert. Wichtig in der Praxis: Die Förderentscheide gehen
+**digital an die im Gesuch hinterlegte Mailadresse**. Wer dort steht, bekommt die Verfügung und
+sieht die Fristen zuerst.
+
+**04 Die 70-kW-Grenze ist keine Hürde für Sie.** Die Schwelle trennt die Finanzierungstöpfe von Bund
+und Kanton (Gebäudeprogramm rund 41 Mio., Impulsprogramm rund 21 Mio.; Mittelherkunft Bund 34 %,
+CO₂-Abgabe 39 %, Kanton 27 %). Für die Bauherrschaft läuft die Förderstaffel über 70 und 100 kW
+**nahtlos weiter**, und der Kanton Zürich bildet das Impulsprogramm im **selben Formular** ab. Anders
+als im Kanton Schwyz, der dafür ein eigenes Dokument mit eigener IP-Nummerierung führt, brauchen Sie
+in ZH also kein zweites Verfahren.
+
+**Quelle:** HFM 2015 (EnDK) S. 10 und S. 25 f.; Art. 57 Abs. 1 und Abs. 2 lit. a Energieverordnung
+(EnV, SR 730.01); Art. 104 Abs. 2 lit. a CO₂-Verordnung; Förderprogramm Energie Kanton Zürich 2026
+(AWEL, Version 01.01.2026) samt Vollmacht-Vorlage und Grafik Fördermittel; FAQ Kt. Schwyz und
+Förderbedingungen Kt. Zug 2026 → `[[gebaeudeprogramm-bund-hfm-2015]]`,
+`[[foerderprogramm-energie-zh-2026]]`. **Datenstand 29.08.2026.** Die Ablösung des HFM 2015 durch das
+GFM 2028 bleibt unberührt, siehe den Abschnitt darüber.
+
 ## F13 — «Wie gross muss meine Heizung sein?»
 
 **Kurz:** Als grobe Faustregel braucht ein **Neubau ~25–40 Watt je m²** beheizte Fläche, ein
@@ -614,6 +649,41 @@ SIA-2032-Vorprojektwerten (noch nicht beziffert in der KB — nicht schätzen). 
 didaktisch, kein allg. Faktor.
 
 ---
+
+**Nachgeführt 29.08.2026 (Run 167) — der PV-Grenzwert bei Minergie-ECO hat sich halbiert:**
+
+**01 Wer mit den alten Zahlen rechnet, verwirft PV-Fläche ohne Grund.** Die gemeinsame
+Minergie/eco-bau-Anleitung zur Berechnung der grauen Energie wurde von **V1.3 (31.03.2021) auf
+V2023.3 (26.11.2024)** aktualisiert. Der Basisgrenzwert für die **PV-Anlage** sank dabei von
+**13,3 auf 7,1 kg CO₂/m²·a** (Faktor rund 0,53), thermische Solarkollektoren stiegen leicht von
+5,2 auf **5,6**. Erdsonden und sämtliche Grenzwerte der Gebäudehülle blieben unverändert. Für die
+Bauherrschaft heisst das: Eine PV-Anlage belastet die ECO-Bilanz heute nur noch etwa halb so stark
+wie nach der alten Anleitung. Wer eine Zertifizierung anstrebt, sollte prüfen, mit welcher Fassung
+sein Nachweis gerechnet wurde.
+
+**02 Die nächste Datengrundlage hat bereits einen Fahrplan, und eine Frist betrifft Sie 2026.** Die
+KBOB/ecobau-Liste erscheint als **Ausgabe 2027** im **Frühjahr 2027**; die **Einreichefrist für neue
+Datensätze ist der 30.10.2026**. Ebenfalls angekündigt, aber noch nicht publiziert, sind die
+**Bilanzierungsregeln v9**. Der aktuell belegte Stand bleibt bis dahin: Ökobilanzdaten **v9.0**
+(14.07.2026), Bilanzierungsregeln **v8.1** (05.03.2026), KBOB-Faktenblatt **V1** (04.04.2025,
+unverändert).
+
+**03 Für die Ausschreibung gibt es neu einen konkreten Schwellenwert.** Die KBOB hat am 26.02.2026
+eine Empfehlung zur treibhausgasarmen Beschaffung von **Bewehrungsstahl** publiziert, mit dem
+Schwellenwert **600 kg CO₂-eq je Tonne**. Das ist eine der wenigen Stellen, an denen sich graue
+Emissionen ohne Gestaltungsverzicht direkt in einer Ausschreibung festschreiben lassen.
+
+**Eine methodische Einschränkung, die im Alltag oft übersehen wird:** Die Bilanzierungsregeln
+erfassen ausdrücklich nur **Herstellung und Entsorgung**. Die Nutzungsphase und die
+Bauteil-Nutzungsdauern sind nach Ziff. 9.1 explizit **ausgeschlossen**. Wer eine Amortisationsrechnung
+über die Lebensdauer aufstellt, holt diese Werte also aus SIA 2032, nicht aus den KBOB-Regeln.
+
+**Quelle:** Minergie/eco-bau, «Berechnung der Grauen Energie und der Treibhausgasemissionen»,
+V2023.3 vom 26.11.2024 (abgelöste Fassung V1.3 vom 31.03.2021); KBOB-Ökobilanzdaten im Baubereich
+v9.0, Tabellenblatt «Anpassungen / Mises à jour»; KBOB, Bilanzierungsregeln v8.1, 05.03.2026, Ziff. 9.1;
+KBOB-Empfehlung Beschaffung Bewehrungsstahl, 26.02.2026 → `[[kbob-graue-treibhausgasemissionen-2025]]`.
+**Datenstand 29.08.2026**, alle Dokumente frei zugänglich und im Original gelesen. Der kostenpflichtige
+KBOB-Volldatensatz wurde nicht verwendet.
 
 ## F8 — «Was heisst Netto-Null / klimaneutral konkret für meinen Neubau heute?»
 
@@ -1596,6 +1666,37 @@ viele LEG bisher gegründet wurden oder zu welchen Tarifen. Wer Ihnen eine Lande
 eine Schätzung. Für Ihr Projekt zählt ohnehin nur, was Ihr eigener Netzbetreiber sagt.
 
 ---
+
+**Nachgeführt 29.08.2026 (Run 167) — die amtliche Ebene widerspricht der Branchenempfehlung:**
+
+**01 Wenn Ihr Netzbetreiber die LEG mit «verschiedene Netzebenen» ablehnt, ist das nicht das letzte
+Wort.** Die VSE-Branchenempfehlung verlangt in Ziff. 4.1(3)c, dass alle beteiligten Netzebenen vom
+**gleichen** Verteilnetzbetreiber betrieben werden. Das Fachsekretariat der **ElCom** hält dazu
+ausdrücklich fest, diese Vorgabe habe **«keine gesetzliche Grundlage»** und sei **«nicht mit der
+Stromversorgungsgesetzgebung vereinbar»**. Für die Bauherrschaft heisst das: Die Branchenempfehlung
+ist ein Branchendokument, keine Rechtsnorm. Eine Absage, die sich allein auf diese Ziffer stützt,
+lohnt sich nachzufragen, mit der ElCom-Fundstelle in der Hand.
+
+**02 Die Speicher-Frage ist jetzt amtlich geklärt, nicht mehr nur über Sekundärquellen.** Der
+Erläuternde Bericht des BFE zur Verordnungsrevision per 1.1.2026 rechnet vier Speicher-Konstellationen
+durch (Fälle 1 bis 4) und nennt die Formel, nach der sich die Rückerstattung des Netznutzungsentgelts
+bei LEG-Beteiligung reduziert: T_Rückerstattung-LEG = T_Rückerstattung × (100 % − LEG-Rabatt in %) / 100.
+Der bisher offene Punkt in dieser Antwort ist damit auf der höchsten verfügbaren Belegstufe geschlossen.
+Derselbe Bericht formuliert die Sanktionen schärfer als die Branchenempfehlung: Meldepflichtverletzungen
+stehen **unter Strafandrohung**, und Teilnehmer können **dauerhaft ausgeschlossen** werden.
+
+**03 Sechs praktische Klärungen der ElCom, die in der Planung Zeit sparen.** Die Gemeindezugehörigkeit
+richtet sich strikt nach dem **Hausanschlusspunkt**, nicht nach der Postadresse. Auf das **Messentgelt
+gibt es keinen Rabatt** (der Rabatt betrifft nur das Netznutzungsentgelt). Wer bereits in einem ZEV ist,
+muss dort **keine Leistung reduzieren**, um zusätzlich an einer LEG teilzunehmen. Ein Prosumer darf
+seine Rollen auf **zwei verschiedene LEG** aufteilen. **Virtuelle Lastgangdaten sind kostenlos** zu
+liefern, was die Abrechnung ohne Zusatzzähler ermöglicht.
+
+**Quelle:** BFE, Erläuternder Bericht zur Revision der Energie- und Stromversorgungsverordnungen
+per 1.1.2026, 19.02.2025, S. 14-16 und S. 36 (newsd.admin.ch/newsd/message/attachments/91799.pdf);
+ElCom-Fachsekretariat, «FAQ Energiestrategie 2050 ab Mantelerlass», Kapitel 9 (LEG), Stand 04.03.2025
+mit Update 16.06.2026, Ziff. 9.2 bis 9.9 → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`.
+**Datenstand 29.08.2026.** Eine neuere VSE-Branchenempfehlung als V2 existiert nicht (gesucht, Fehlanzeige).
 
 ## F34 — «Kann ich ökologisch dämmen, ohne im Winter schlechter dazustehen — und hilft das gegen Sommerhitze?»
 
