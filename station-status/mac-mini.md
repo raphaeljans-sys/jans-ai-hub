@@ -1,10 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 23:13:13
+Stand: 29.08.2026 23:23:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:51)
-- /Users/raphaeljans  (letzte Aktivitaet 22:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:05)
+- /Users/raphaeljans  (letzte Aktivitaet 23:21)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 29.08.2026 23:13:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 095cc68b2 grobkosten: fuenfter Duplikat-Dispatch selber Tag, letzter ausfuehrlicher Eintrag dieser Reihe
+- 1dbca8ba7 nas-selfcommit: 1 Datei(en) 2026-08-29 23:15
