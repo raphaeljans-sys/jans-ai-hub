@@ -80,9 +80,9 @@ tragen `established` und erhebliches Gewicht:
 
 | Destillat | Zeilen | Warum |
 |---|---|---|
-| `vkf-ah-1001-15-wohnbauten.md` | 731 | Grösstes `established`-Destillat des Bestands ohne Prüfstand |
-| `vkf-brl-16-15-flucht-rettungswege.md` | 500 | Fluchtwege — der Stoff mit dem höchsten Personenschutz-Gewicht; Skill `brandschutz` zieht direkt |
-| `vkf-allgemein-anerkannte-bauprodukte-2017.md` | 289 | Trägt die Produktzulassungs-Logik |
+| `vkf-ah-1001-15-wohnbauten.md` | 731 | Grösstes `established`-Destillat des Bestands ohne Prüfstand — **noch offen** |
+| `vkf-brl-16-15-flucht-rettungswege.md` | 500 | Fluchtwege — der Stoff mit dem höchsten Personenschutz-Gewicht; Skill `brandschutz` zieht direkt — **noch offen** |
+| `vkf-allgemein-anerkannte-bauprodukte-2017.md` | 289 | Trägt die Produktzulassungs-Logik — ✅ **ERLEDIGT (Run 66, 29.08.2026).** Abdeckungsrichtung über alle 12 Seiten gefahren (eigenes Rendering, MD5 erneut geprüft), **0 neue Befunde** — beide Prüfrichtungen jetzt vollständig auf der gesamten Quelle gelaufen, beide 0 Befunde. Erstes Destillat dieser Station mit diesem Doppelstatus. Prüfstand-Tabelle im Destillat. |
 
 ⚠ **Vor jeder Arbeit an VKF gilt Methodik-Pflicht 1**: die geltende Fassung liegt in **PL-03**,
 nicht in PL-02. Ein Abdeckungslauf gegen die 2015er-Fassung misst den falschen Text.

@@ -159,7 +159,23 @@ alle `status: emerging`, gemäss `specs/buero-referenzen-spec.md`:
 **Sektion `18_Projektkostenplanung` (Zeile 02 oben) ist damit vollständig destilliert:
 alle 16 P1-Positionen, neun Wiki-Artikel.** Fortschritt und Begründung je Position in
 `raw/inventar/buero-referenzen__18_Projektkostenplanung.md` Abschnitt
-«Destillat-Fortschritt». Nächster Lauf: gemäss Spec-Plan `10_Modellbauen` (P1-Cluster
-Betonmodellbau-Rezepturen). Alle Beleg- und Anonymisierungsprüfungen (Unternehmernamen,
-BKP-2017-Abgleich) sind in den Artikeln selbst dokumentiert. Offene Fragen zu diesen
-Artikeln in `wiki/QUESTIONS.md`.
+«Destillat-Fortschritt». Alle Beleg- und Anonymisierungsprüfungen (Unternehmernamen,
+BKP-2017-Abgleich) sind in den Artikeln selbst dokumentiert.
+
+**Zweiter Destillat-Lauf 29.08.2026 (Lane FACHWISSEN): Sektion `10_Modellbauen` (Zeile 03
+oben) vollständig destilliert — alle 12 P1-Positionen (6 Fundstellen-Gruppen), vier
+Wiki-Artikel nach Sache statt Datei, alle `status: emerging`:
+
+- [[modellbeton-rezeptur-mischungsverhaeltnisse]] — zwei unabhängige Mischungsrezepte
+  Keraflott-Modellbeton (Volumenteile und Gewichte)
+- [[modellbeton-fehlerkatalog-schalung]] — sieben Schalungsvarianten A–G gegen ihr
+  Fehlerbild, plus Vibrier- und Trocknungsverfahren
+- [[betonschalung-grundlagen-richner]] — Betontechnologie-Merkblatt Heinz Richner
+  (D-BAUG ETH 2011), übertragbar auf Sichtbeton 1:1
+- [[werkstoffliste-modellbau-vorlage]] — Zuschnittlisten-Schema, Konventionen,
+  Massstabs-Stolperstein (Materialdicke skaliert nicht mit)
+
+Fortschritt und Begründung je Position in
+`raw/inventar/buero-referenzen__10_Modellbauen.md` Abschnitt «Destillat-Fortschritt».
+P2 dieser Sektion bleibt offen. Nächster Lauf: gemäss Spec-Plan `17_Projektbeschriebe`.
+Offene Fragen zu diesen Artikeln in `wiki/QUESTIONS.md`.

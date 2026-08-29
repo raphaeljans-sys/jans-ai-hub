@@ -1,5 +1,20 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Zweiter Destillat-Lauf Korpus `buero-referenzen`, Sektion `10_Modellbauen` (Lane FACHWISSEN)
+
+Vier Wiki-Artikel neu geschrieben, alle `status: emerging`, aus dem P1-Cluster
+Betonmodellbau-Rezepturen (Umfeld Christian Kerez) plus Werkstoffliste:
+`modellbeton-rezeptur-mischungsverhaeltnisse.md`, `modellbeton-fehlerkatalog-schalung.md`,
+`betonschalung-grundlagen-richner.md`, `werkstoffliste-modellbau-vorlage.md`. Alle 12
+P1-Positionen der Sektion (6 Fundstellen-Gruppen) destilliert, ein Artikel je Sache statt
+je Datei (Fortschritt in `raw/inventar/buero-referenzen__10_Modellbauen.md` Abschnitt
+«Destillat-Fortschritt», reiner Append, `git diff --numstat` zeigt `-0`). `wiki/INDEX.md`
+Abschnitt «Artikelbestand» nachgeführt. P2 der Sektion bleibt offen. Kein Fund aus der
+Sperrliste (Sektion enthält keine Verträge/Bewerbungen/Adressen/Lohndaten); die
+personenbezogene Kartonliste 2007 war bereits in Phase 0 korrekt als `X` triagiert und
+wurde nicht in ein Erzeugnis übernommen. Nächster Lauf gemäss Spec-Plan:
+`17_Projektbeschriebe`.
+
 ## 2026-08-29 — Erster Destillat-Lauf Korpus `buero-referenzen`, Sektion `18_Projektkostenplanung` (Lane FACHWISSEN)
 
 Sieben Wiki-Artikel neu geschrieben, alle `status: emerging`, aus dem P1-Cluster

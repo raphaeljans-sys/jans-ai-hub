@@ -206,3 +206,19 @@ Architektur-Modelle, Löwengraben 15, 6004 Luzern, Stand 2006). Eine Submittente
 Anbieterbasis für Modellbau ist das nicht; wer für einen Wettbewerb einen Modellbauer
 sucht, findet hier einen einzigen, zwanzig Jahre alten Anhaltspunkt und muss neu
 recherchieren.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `10_Betonmodelle/02_Kerez_Recherche/060101_Betonmodelle LB_BB/Betonproben.doc` +
+  `10_Betonmodelle/02_Kerez_Recherche/020328 Infos Modell/020422 Betonmodelle.doc` (Rezeptteil) →
+  `wiki/modellbeton-rezeptur-mischungsverhaeltnisse.md`
+- 2026-08-29: `10_Betonmodelle/02_Kerez_Recherche/020416 versuche beton/020516 Betonierversuche Muster` +
+  `020422 Betonmodelle.doc` (Werkstattverfahren-Teil) → `wiki/modellbeton-fehlerkatalog-schalung.md`
+- 2026-08-29: `10_Betonmodelle/00_Modellschalung/Betonschalung.pdf` (Heinz Richner) →
+  `wiki/betonschalung-grundlagen-richner.md`
+- 2026-08-29: `03_Modellbaudokumente/03_Werkstoffliste/Leer/` +
+  `03_Modellbaudokumente/03_Werkstoffliste/Voll/00_PDF/Beispiele/Werkstoffliste_100_50.pdf` →
+  `wiki/werkstoffliste-modellbau-vorlage.md`
+
+Damit sind alle 12 P1-Positionen dieser Sektion destilliert (6 Fundstellen, vier Artikel nach
+Sache statt Datei). P2 bleibt offen für einen späteren Lauf.

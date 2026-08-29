@@ -1,3 +1,52 @@
+## 2026-08-29 (Run 66, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — N62-3-Kandidatenliste: drei Destillate erstmals mit Prüfstand
+
+Auftrag Raphael (Wochenkontingent vor Montags-Reset): nächste offene Kandidaten aus
+`training/n62-3-pruefstand-kandidaten.md` abarbeiten, Abdeckungsrichtung fahren, Prüfstand
+eintragen. Reihenfolge nach Abnehmer-Reichweite; Rang 1 (`sia-416-2003.md`) war durch Run 64/65
+bereits erledigt und wurde nur in der Liste nachgetragen. Zugriff auf die Originale via M365-CLI
+(`m365 spo file get`, Site `PL`), da der OneDrive-Mount die bekannte TCC-Blockade zeigte
+(PROGRAMM.md-Fallback erstmals über die m365-CLI statt Graph-Connector realisiert, sollte
+dokumentiert werden).
+
+- **`sia-102-2014.md`** (Rang 3, Reichweite 6): Abdeckungsrichtung auf Ziff. 7.6.5
+  Baukategorien-Tabelle (S. 45-48, alle 8 fehlenden Sparten am 300-dpi-Rendering spaltengenau
+  nachgetragen, **0 falsche Werte** in den bereits vorhandenen 4 Sparten), auf Ziff. 7.5.15
+  (2 fehlende Aufzählungspunkte ergänzt) und stichprobenweise auf die übrigen Artikel. **Neuer
+  Kernbefund:** Jede Teilphasen-Tabelle in Art. 4 gliedert sich in Auftragsgegenstand/Organisation/
+  Kosten-Finanzierung/Termine/Administration; das Destillat führte durchgehend nur den
+  Auftragsgegenstand. An Ziff. 4.41 direkt am Original bestätigt — identisches Muster wie N63-1 bei
+  der Schwesterausgabe SIA 102:2020. Prüfstand-Tabelle ergänzt, Status **unverändert**
+  `established` (kein Statuswechsel durch diesen Auftrag).
+- **`sia-451-1992.md`** (Rang 4, Reichweite 1): Abdeckungsrichtung über alle 12 Seiten (bisher nie
+  gefahren). Ziff. 0 4 «Weitere Entwicklungen» fehlte als ganze Ziffer; von den 24 Feldern des
+  G-Records waren 13 nie dokumentiert (Feld 3-12, 14, 17, 18), dazu mehrere Header-/
+  Schlussrecord-Felder. **0 falsche Werte.** Alle Lücken nachgetragen, Prüfstand-Tabelle neu,
+  Status unverändert `established`. Refuter-Richtung ist auf dieser Quelle weiterhin nie gelaufen
+  (im Destillat als offen vermerkt).
+- **`vkf-allgemein-anerkannte-bauprodukte-2017.md`** (Rang 2, kleinstes der drei VKF-Kandidaten):
+  Abdeckungsrichtung über alle 12 Seiten gefahren (eigenes Rendering aus PL-03, MD5 erneut
+  geprüft — Treffer). **0 neue Befunde.** Damit haben bei diesem Destillat inzwischen **beide**
+  Prüfrichtungen auf der gesamten Quelle 0 Befunde ergeben — der erste solche Fall dieser Station
+  (bisher hat die Abdeckungsrichtung bei jedem geprüften Destillat Lücken gefunden, 3 von 3 vor
+  diesem Lauf). Hypothese, nicht geprüft: die Quelle ist kurz (12 Seiten) und fast ausschliesslich
+  tabellarisch, bietet also wenig Raum für weggelassenen Fliesstext.
+- `training/n62-3-pruefstand-kandidaten.md`: alle vier bearbeiteten Kandidaten (Rang 1, 3, 4, und
+  das kleinste Rang-2-Destillat) als erledigt markiert; zwei VKF-Destillate (`vkf-ah-1001-15-
+  wohnbauten.md` 731 Zeilen, `vkf-brl-16-15-flucht-rettungswege.md` 500 Zeilen) bleiben offen für
+  den nächsten Lauf.
+
+**Was der Lauf methodisch zeigt.** Drei von vier bearbeiteten Kandidaten fanden echte
+Vollständigkeits-Lücken (0 falsche Werte in allen dreien) — die Trefferquote der nachgeholten
+Abdeckungsrichtung liegt jetzt bei 5 von 6 geprüften Fällen (416/1 Run 54, 118 Run 62, 102:2020
+Run 63, 102:2014 und 451:1992 dieser Lauf), mit dem VKF-Bauprodukte-Destillat als erster
+Ausnahme. Eigener Zwischenbefund beim Bearbeiten: eine erste, ungeprüfte Transkription der
+Baukategorien-Sparten bei SIA 102:2014 enthielt mehrere Kategorien-Verwechslungen zwischen
+benachbarten Sparten (z.B. Zeughäuser/Werkhöfe der Militär-/Verkehrssparte fälschlich der
+Industrie-Sparte zugeordnet) — erst eine zweite, spaltengenaue Ablese-Runde am gerenderten Bild
+(Kopfzeile I-VII direkt neben den Datenzeilen gecroppt) hat das korrigiert. Für Tabellen mit
+mehr als drei, vier Spalten ist ein Sichteindruck ohne direkten Spaltenabgleich nicht
+verlässlich — bereits mit Methodik-Pflicht 8 vereinbar, hier als konkreter Beleg nachgetragen.
+
 ## 2026-08-29 (Normen-Nacht Run 65) — Refuter-Runde auf SIA 416:2003; N64-2 und N64-5 erledigt
 
 Die von Run 64 offen gelassene **zweite Prüfrichtung** auf dem Rang-1-Destillat der

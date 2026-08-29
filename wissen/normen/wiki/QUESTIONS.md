@@ -6368,3 +6368,27 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   Durchsicht, nicht weitere Einzelvermerke. Die Frage aus N46-3, ob ein Statuswechsel bei bekannter
   Konsumentenliste eine Benachrichtigungspflicht auslösen soll, bleibt unverändert offen und
   gewinnt hier einen zweiten Beleg.
+
+## Run 66 (MacBook Pro, 29.08.2026, Schub-Lane NORMEN-PRUEFSTAND) — drei N62-3-Kandidaten mit Prüfstand
+
+- [ ] **N66-1 — Art. 4.11-4.63 von SIA 102:2014 fehlen die Leistungsbereiche Kosten/Finanzierung,
+  Termine, Administration — an 4.41 gegen das Original bestätigt, übrige Teilphasen nicht einzeln
+  geprüft.** Identisches Muster wie N63-1 bei SIA 102:2020 (dieselbe Tabellenvorlage in beiden
+  Ausgaben). Nächster Lauf: die übrigen Teilphasen 4.11/4.21/4.22/4.31/4.32/4.51/4.52/4.53/4.6
+  einzeln nachtragen, kein Fremdbedarf.
+- [x] **N66-2 — Zugriffsweg für Original-PDFs bei blockiertem OneDrive-Mount geklärt und
+  erweitert.** Der bekannte TCC-Blockade-Fallback aus PROGRAMM.md («Download via M365-Connector»)
+  war bisher nicht konkret vorgeführt. Funktionierender Weg in diesem Lauf: `m365 spo site list`
+  → Site `PL` identifizieren, `m365 spo list list --webUrl .../sites/PL` liefert die
+  `RootFolder.ServerRelativeUrl` je Bibliothek (Achtung: interne Ordnernamen weichen von den
+  angezeigten Titeln ab, z.B. trägt die Bibliothek "02_Recht_Norm" intern den Pfad
+  `/PL  Immobilienpreise`), dann `m365 spo file get --webUrl ... --url <serverRelativeUrl>
+  --asFile --path <lokal>`. MD5 der so geladenen Datei deckte sich in allen drei Fällen exakt mit
+  der in den Destillaten dokumentierten Prüfsumme. Ergänzt den in Run-Reports bisher nur
+  behaupteten Fallback um einen belegten, wiederholbaren Befehlsweg — gehört in
+  `connectors/README.md` oder `training/PROGRAMM.md` nachgetragen (hier nur der Befund, kein
+  Dokumentationseingriff in dieser Schub-Lane, da ausserhalb ihres Schreibbereichs).
+- [ ] **N66-3 — Rang-2-Kandidaten `vkf-ah-1001-15-wohnbauten.md` (731 Zeilen) und
+  `vkf-brl-16-15-flucht-rettungswege.md` (500 Zeilen) bleiben ohne Prüfstand.** Beide deutlich
+  grösser als die drei in diesem Lauf bearbeiteten Destillate; nächster Kandidat nach
+  Abnehmer-Reichweite für einen Folgelauf. Methodik-Pflicht 1 beachten (Fassung liegt in PL-03).
