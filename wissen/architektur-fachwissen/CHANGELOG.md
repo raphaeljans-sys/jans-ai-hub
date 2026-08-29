@@ -1,5 +1,65 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `buero-referenzen`, Sektion `18_Projektkostenplanung` abgeschlossen (Lane FACHWISSEN, Station MacBook Pro)
+
+Dispatch-Auftrag dieses Laufs beschrieb erneut fälschlich «kein Destillat, keine Spec,
+2 Wiki-Artikel» für die gesamte KB — siebtes belegtes Beispiel desselben veralteten
+Dispatch-Musters (Memory `project_fachwissen-dispatch-loop`). Tatsächlicher Stand vor
+Laufbeginn: beide Specs bestehen, P1 ist über beide Korpora vollständig destilliert, die KB
+führte bereits 139 Wiki-Artikel. **Zusätzlicher Befund:** zeitgleich lief auf Station
+Macmini ein weiterer Lauf derselben Lane am Korpus `archiv-fachwissen` (Sektion
+`01_Konstruktion`, Commit `647db11ab`, 00:32 Uhr) — um keine Kollision auf demselben Korpus
+zu riskieren, hat dieser Lauf stattdessen den **anderen** Korpus (`buero-referenzen`, P2)
+bearbeitet. Die Annahme im Dispatch-Text «Du bist die EINZIGE Lane, die hier schreibt» ist
+damit widerlegt: mindestens zwei Stationen können gleichzeitig unter Lane FACHWISSEN
+laufen. Empfehlung an Raphael: Dispatch-Koordination zwischen Stationen prüfen, bevor die
+Lane erneut parallel ausgelöst wird.
+
+Bearbeitet: die fünf verbliebenen P2-Positionen der Sektion `18_Projektkostenplanung`
+(Korpus `buero-referenzen`), damit ist diese Sektion für P1 **und** P2 abgeschlossen:
+
+- **Personaleinsatzplanung/Honorarkalkulation EFH Allgaier**
+  (`03_Buero_Projektkostenplanung/Allgaier/`, Büro Christian Kerez, Stand 24.05.2005) →
+  [[personaleinsatzplanung-rollen-projektphase-honorarkalkulation-efh-allgaier]]. XLS mit
+  `xlrd` gelesen (kein `pandas`/`libreoffice` auf dieser Station; `pip install --user xlrd`
+  nachinstalliert). Rollen-Prozentsatz-Matrix (Büroinhaber/Projektleiter/Praktikant) über
+  die Projektphasen, hochgerechnet auf Personenmonate (Total 23.318), plus eine
+  Honorar-Faustformel Lohnansatz × Unkostenfaktor (CHF 5'000 × 2.0 = CHF 10'000/Monat).
+  **Vierte unabhängige Bestätigung der SIA-102:2003-Phasenanteile** (9/21/2.5/18/16/29/4.5 %)
+  gefunden und in `wiki/sia-102-2003-phasenanteile-zwei-rechenwerke.md` nachgetragen (Titel
+  und Rechenwerk-Tabelle aktualisiert, «drei» → «vier» Rechenwerke). Die Datei selbst ist
+  intern widersprüchlich (vier nicht zueinander passende Honorarzahlen, `#DIV/0!`-Zellen) —
+  im neuen Artikel ausdrücklich als Struktur-Vorbild geführt, nicht als verlässlicher
+  Kennwert.
+- **Baunebenkosten/Anlagewert/Anlagekosten** (`01_Baukostenplan/Fachbegriffe/
+  100122_Fachbegriffe_Baunebenkosten.pdf`) → kurzer Glossar-Artikel
+  [[baunebenkosten-anlagewert-anlagekosten-definitionen]], `status: speculative` (Quelle im
+  Originaldokument nicht genannt). Cross-Check gegen
+  [[honorarberechtigte-bausumme-anrechenbarkeit]] (BKP 5/7 = 0 % honorarberechtigt) bestätigt
+  sich gegenseitig, kein Widerspruch.
+- **Nachtragskredit-Mechanik öffentlicher Baukostenabrechnungen**
+  (`06_Phasen_Kostenaufstellungen/00_Uebersicht_Zusammenfassungen/hw_GRPR_20_2007.pdf`,
+  Gemeinderatsprotokoll Balzers FL, 19.12.2007) →
+  [[oeffentliche-kreditabrechnung-nachtragskredit-mechanik-balzers-fl]]. Nur die
+  Kredit-/Nachtragskredit-Mechanik destilliert (drei durchgerechnete Beispiele:
+  zwei Überschreitungen, eine Unterschreitung); die im selben Protokoll enthaltenen
+  Personendaten Dritter (Einbürgerung, Ehrennadel-Verleihung mit Privatadressen) sind kein
+  Kostenplanungs-Inhalt und wurden **nicht** destilliert, auch nicht ins Inventar erneut
+  aufgenommen. Ausdrücklich als Fürstentum-Liechtenstein-Recht gekennzeichnet, nicht als
+  Schweizer Submissionsrecht.
+- **`04_Honorarberechnung/Thalhofer/100201_Honorarberechnung.pdf`** — Registerabgleich ergab:
+  bereits am 29.08.2026 im SIA-102-Artikel destilliert, keine neue Arbeit nötig, nur zur
+  Klarstellung im Inventar vermerkt.
+- **`01_Baukostenplan/BKP/PDF/100223_Zusammenf_BKP_A6.pdf`** — bewusst nicht destilliert.
+  Einseitige BKP-Kurzübersicht ohne Ausgabevermerk, mit zwei Tippfehlern, laut Inventar
+  selbst «nur Formvorbild, nie Codequelle»; kein über `references/bkp-2017/` hinausgehender
+  Mehrwert.
+
+Fortschritt in `raw/inventar/buero-referenzen__18_Projektkostenplanung.md` Abschnitt
+«Destillat-Fortschritt (P2, ...)», reiner Append (`git diff --numstat` 33/0 geprüft).
+`wiki/INDEX.md` und `wiki/QUESTIONS.md` nachgeführt, `skills/wissens-destillat/KORPUS-QUEUE.md`
+ebenso.
+
 ## 2026-08-30 — Neunzehnter Lauf: Sektion `01_Konstruktion`, zweiter P2-Lauf (Lane FACHWISSEN)
 
 Erster gezielter P2-Lauf der Sektion `01_Konstruktion` (nach dem P1-Vollabschluss vom

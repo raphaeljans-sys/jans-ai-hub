@@ -891,3 +891,29 @@ Lignatur, `01 2D Details`, `01_Baustoff_Materialitaet/` Materialordner, `.band`/
 (Inventar-Befund «keine Textebene» aus dem Erst-Sweep übernommen, nicht neu verifiziert).
 Fortschritt in `raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt
 «Destillat-Fortschritt», reiner Append (`git diff --numstat` geprüft).
+
+## 2026-08-30 — P2-Lauf Korpus `buero-referenzen`, Sektion `18_Projektkostenplanung` (Lane FACHWISSEN, Station MacBook Pro)
+
+**Sektion `18_Projektkostenplanung` (Zeile 05 der Trägerschicht-Tabelle) ist jetzt auch für
+P2 abgeschlossen** — vier der fünf P2-Positionen destilliert, eine begründet
+übersprungen (siehe `raw/inventar/buero-referenzen__18_Projektkostenplanung.md` Abschnitt
+«Destillat-Fortschritt (P2, ...)» und `QUESTIONS.md` #65). Drei neue Wiki-Artikel:
+
+- [[personaleinsatzplanung-rollen-projektphase-honorarkalkulation-efh-allgaier]] —
+  Rollen-Prozentsatz-Matrix über Projektphasen mit Personenmonat-Hochrechnung, plus
+  Honorar-Faustformel Lohnansatz × Unkostenfaktor; vierte unabhängige Bestätigung der
+  SIA-102:2003-Phasenanteile (nachgetragen in
+  [[sia-102-2003-phasenanteile-zwei-rechenwerke]]).
+- [[baunebenkosten-anlagewert-anlagekosten-definitionen]] — kurze Begriffsdefinitionen,
+  `status: speculative` (Quelle unbelegt).
+- [[oeffentliche-kreditabrechnung-nachtragskredit-mechanik-balzers-fl]] —
+  Kreditgenehmigungs-/Nachtragskredit-Mechanik, Fremdrecht (FL) ausdrücklich gekennzeichnet,
+  Personendaten Dritter aus demselben Protokoll bewusst nicht destilliert.
+
+**Hinweis zur Lauf-Koordination:** Dieser Lauf hat bewusst den Korpus `buero-referenzen`
+statt `archiv-fachwissen` bearbeitet, weil zeitgleich ein zweiter Lauf auf Station Macmini
+am Korpus `archiv-fachwissen` (Sektion `01_Konstruktion`) aktiv war (siehe CHANGELOG
+2026-08-30 und `QUESTIONS.md` #64). Damit ist der Korpus `buero-referenzen` jetzt insgesamt
+weiter fortgeschritten als zuvor angenommen — Register unten in den Kennzahlen und der
+Fussnote noch nicht neu gezählt, da die übrigen 22 Sektionen dieses Korpus bislang keinen
+systematischen P2-Durchgang hatten.

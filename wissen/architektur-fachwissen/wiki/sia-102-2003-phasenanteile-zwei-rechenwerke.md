@@ -1,12 +1,12 @@
 ---
-title: "SIA 102 (Ausgabe 2003): Phasenanteile aus drei unabhängigen Rechenwerken, plus Praxis-Faustregeln 2010"
+title: "SIA 102 (Ausgabe 2003): Phasenanteile aus vier unabhängigen Rechenwerken, plus Praxis-Faustregeln 2010"
 status: emerging
-last_updated: 2026-08-29
-sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/04_Honorarberechnung/Bischoff/Honorarberechnung_SIA_102_2003_Tabelle.xls (Rechenwerk A, Tarif 2003)", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/04_Honorarberechnung/Thalhofer/100201_Honorarberechnung/Arch-Hon-Tab-SIA-2005.xls (Rechenwerk B, Tarif 2005)", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/04_Honorarberechnung/Thalhofer/100201_Honorarberechnung.pdf (Mailwechsel Raphael Jans, Januar 2010, nur die vier fachlichen Faustregeln destilliert)", "raw/inventar/buero-referenzen__18_Projektkostenplanung.md Abschnitt 4", "wissen/normen/destillate/sia-102-2014.md Ziff. 7.7 (Bestätigung 2014)", "/Volumes/daten/02_Architektur_Archiv/03_Bauprozesse_I_II/03_Kostenplanung/03_Honorarberechnung/Eberle_Kerez/100126_HB_SIA_102_Eberle.pdf (Rechenwerk C, Objekt Eberle/Büro Christian Kerez, erstellt vom Kantonalen Hochbauamt, 26.01.2010, Volltext gelesen)", "raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md Abschnitt 1"]
-links: ["[[honorarberechtigte-bausumme-anrechenbarkeit]]"]
+last_updated: 2026-08-30
+sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/04_Honorarberechnung/Bischoff/Honorarberechnung_SIA_102_2003_Tabelle.xls (Rechenwerk A, Tarif 2003)", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/04_Honorarberechnung/Thalhofer/100201_Honorarberechnung/Arch-Hon-Tab-SIA-2005.xls (Rechenwerk B, Tarif 2005)", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/04_Honorarberechnung/Thalhofer/100201_Honorarberechnung.pdf (Mailwechsel Raphael Jans, Januar 2010, nur die vier fachlichen Faustregeln destilliert)", "raw/inventar/buero-referenzen__18_Projektkostenplanung.md Abschnitt 4", "wissen/normen/destillate/sia-102-2014.md Ziff. 7.7 (Bestätigung 2014)", "/Volumes/daten/02_Architektur_Archiv/03_Bauprozesse_I_II/03_Kostenplanung/03_Honorarberechnung/Eberle_Kerez/100126_HB_SIA_102_Eberle.pdf (Rechenwerk C, Objekt Eberle/Büro Christian Kerez, erstellt vom Kantonalen Hochbauamt, 26.01.2010, Volltext gelesen)", "raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md Abschnitt 1", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/03_Buero_Projektkostenplanung/Allgaier/XLS/Allgaier.xls (Rechenwerk D, Sheet \"Terminplan Projektorganisation\", Büro Christian Kerez, Projekt Allgaier, Stand 24.05.2005)"]
+links: ["[[honorarberechtigte-bausumme-anrechenbarkeit]]", "[[personaleinsatzplanung-rollen-projektphase-honorarkalkulation-efh-allgaier]]"]
 ---
 
-# SIA 102 (Ausgabe 2003): Phasenanteile aus drei unabhängigen Rechenwerken
+# SIA 102 (Ausgabe 2003): Phasenanteile aus vier unabhängigen Rechenwerken
 
 ## Kontext
 
@@ -16,8 +16,13 @@ Honorartabellen zur Schulanlage Leutschenbach, erstellt von zwei verschiedenen B
 unterschiedlichen Tarifständen (2003 bzw. 2005). In der Nachbarsektion
 `03_Bauprozesse_I_II` (Korpus `archiv-fachwissen`) liegt ein drittes, unabhängiges
 Rechenwerk zu einem anderen Objekt (Eberle, Büro Christian Kerez), erstellt vom
-Kantonalen Hochbauamt als Bauherrenvertretung am 26.01.2010. Alle drei führen
-unabhängig voneinander exakt dieselbe Phasengliederung und dieselben Prozentanteile.
+Kantonalen Hochbauamt als Bauherrenvertretung am 26.01.2010. Ein viertes, wiederum
+unabhängiges Rechenwerk (Terminplanungsdatei zum Zweifamilienhaus Allgaier, Büro
+Christian Kerez, Stand 24.05.2005, siehe
+[[personaleinsatzplanung-rollen-projektphase-honorarkalkulation-efh-allgaier]]) führt
+dieselbe Honorarkalkulation als Nebenprodukt einer Personaleinsatzplanung. Alle vier
+führen unabhängig voneinander exakt dieselbe Phasengliederung und dieselben
+Prozentanteile.
 
 ## Kernaussage: Phasenanteile (SIA 102:2003, Basis Phasen 3+4+5 = 100 %)
 
@@ -31,8 +36,10 @@ unabhängig voneinander exakt dieselbe Phasengliederung und dieselben Prozentant
 | Ausführung | Gestalterische Leitung 6 % + Bauleitung und Kostenkontrolle 23 % | **29 %** |
 | Inbetriebnahme und Abschluss | Inbetriebnahme 1 % + Dokumentation 1 % + Garantiearbeiten 1.5 % + Schlussabrechnung 1 % | **4.5 %** |
 
-Diese sieben Anteile sind **stabil über alle drei unabhängigen Rechenwerke** — der einzige
-Unterschied liegt in den tarifgebundenen Koeffizienten:
+Diese sieben Anteile sind **stabil über alle vier unabhängigen Rechenwerke** (Bischoff,
+Thalhofer, Eberle, Allgaier) — der einzige Unterschied liegt in den tarifgebundenen
+Koeffizienten der ersten drei; das vierte Rechenwerk (Allgaier) führt nur die
+Phasenanteile, keine eigenen Z1/Z2-Koeffizienten:
 
 | Rechenwerk | Tarif | Z1 | Z2 | Schwierigkeitsgrad n | Stundenansatz | Sonstiges |
 |---|---|---|---|---|---|---|

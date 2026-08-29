@@ -670,3 +670,27 @@ Lüftungssystematik); die beiden grösseren Positionen (`04_Bauphysik_Energie` B
 den nächsten Lauf dieser Sektion offen geblieben. Der grundsätzliche Entscheid Raphaels (P2
 systematisch fortsetzen vs. Phase-0-Nachholung für die verbleibenden 12 offenen Sektionen,
 `QUESTIONS.md` #1) steht weiterhin aus.
+
+## 260830 — P2-Lauf Korpus `buero-referenzen`, Sektion `18_Projektkostenplanung` (Lane FACHWISSEN, Station MacBook Pro)
+
+**#64 Zwei Stationen liefen gleichzeitig unter Lane FACHWISSEN — Dispatch-Koordination
+zwischen Stationen fehlt.** Beim Start dieses Laufs war (Commit `647db11ab`, 00:32 Uhr)
+bereits ein Lauf auf Station Macmini am selben Korpus `archiv-fachwissen`,
+Sektion `01_Konstruktion` mitten im Gange (Wiki-Artikel geschrieben, Buchführung
+CHANGELOG/QUESTIONS/Inventar noch ausstehend). Der Dispatch-Text dieses Laufs ging aber
+davon aus, «Du bist die EINZIGE Lane, die hier schreibt — keine Schreibkollision
+möglich». Um eine Kollision zu vermeiden, hat dieser Lauf ausschliesslich den anderen
+Korpus (`buero-referenzen`) bearbeitet. Das ist ein Zufallsergebnis, keine verlässliche
+Lösung — wären beide Stationen zufällig auf denselben Korpus/dieselbe Sektion angesetzt
+worden, hätte ein echtes Kollisionsrisiko (gleichzeitiges Beschreiben derselben
+Inventardatei, doppelte Wiki-Artikel) bestanden. Wer beantworten kann: Raphael — sollte die
+Dispatch-Logik so angepasst werden, dass Lane FACHWISSEN nie auf zwei Stationen gleichzeitig
+ausgelöst wird, oder braucht es eine Vorab-Prüfung («welcher Korpus/welche Sektion ist gerade
+in Bearbeitung») als festen ersten Schritt jedes Laufs?
+
+**#65 Fünfte P2-Position der Sektion `18_Projektkostenplanung` bewusst nicht destilliert.**
+`01_Baukostenplan/BKP/PDF/100223_Zusammenf_BKP_A6.pdf` (BKP-Kurzübersicht A6, keine
+Ausgabe genannt, zwei Tippfehler) wurde geprüft und als ohne verifizierbaren Mehrwert
+gegenüber `references/bkp-2017/` eingestuft — keine offene Frage, sondern zur
+Nachvollziehbarkeit vermerkt, falls ein künftiger Lauf dieselbe Position erneut aufgreifen
+möchte.

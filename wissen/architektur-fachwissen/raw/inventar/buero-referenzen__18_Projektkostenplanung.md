@@ -319,3 +319,36 @@ diese Sektion als abgeschlossen gilt.
 29.08.2026).** Neun Wiki-Artikel insgesamt. P2-Positionen (6) bleiben für einen späteren
 Lauf offen, siehe Spec-Priorität P1 vor P2. Der «Offen»-Absatz oben ist damit
 gegenstandslos, bleibt aber stehen (Append-only-Regel dieser Sektion).
+
+## Destillat-Fortschritt (P2, Lane FACHWISSEN, 2026-08-30)
+
+- `03_Buero_Projektkostenplanung/Allgaier/XLS/Allgaier.xls` + `PDF/100326_Allgaier.pdf` →
+  `wiki/personaleinsatzplanung-rollen-projektphase-honorarkalkulation-efh-allgaier.md`.
+  Zusätzlich als vierte unabhängige Bestätigung der SIA-102:2003-Phasenanteile in
+  `wiki/sia-102-2003-phasenanteile-zwei-rechenwerke.md` nachgetragen (dort Titel und
+  Rechenwerk-Tabelle aktualisiert). Rechenteil der Datei intern widersprüchlich
+  (Gesamthonorar/Aufwandziel/Personenmonat-Hochrechnung/Randnotiz passen nicht zueinander,
+  `#DIV/0!`-Zellen) — im Artikel ausdrücklich als Struktur-Vorbild, nicht als verlässlicher
+  Kennwert geführt.
+- `01_Baukostenplan/Fachbegriffe/100122_Fachbegriffe_Baunebenkosten.pdf` →
+  `wiki/baunebenkosten-anlagewert-anlagekosten-definitionen.md` (`status: speculative`,
+  Quelle im Original nicht genannt).
+- `06_Phasen_Kostenaufstellungen/00_Uebersicht_Zusammenfassungen/hw_GRPR_20_2007.pdf` →
+  `wiki/oeffentliche-kreditabrechnung-nachtragskredit-mechanik-balzers-fl.md`. Nur die
+  Kreditgenehmigungs-/Nachtragskredit-Mechanik destilliert (Traktanden 20/2 und 20/4);
+  die im selben Protokoll enthaltenen Personendaten Dritter (Einbürgerungsgesuch,
+  Ehrennadel-Verleihung mit Privatadressen) sind kein Kostenplanungs-Inhalt und wurden
+  **nicht** destilliert. Fürstentum Liechtenstein, nicht Schweizer Recht — im Artikel
+  ausdrücklich gekennzeichnet.
+- `04_Honorarberechnung/Thalhofer/100201_Honorarberechnung.pdf` — bereits am 29.08.2026 im
+  Zuge des SIA-102-Artikels destilliert (die vier Fachaussagen), diese P2-Zeile war zum
+  Zeitpunkt dieses Laufs bereits erledigt und wird hier nur zur Klarstellung erwähnt, kein
+  neuer Artikel.
+- `01_Baukostenplan/BKP/PDF/100223_Zusammenf_BKP_A6.pdf` — **bewusst nicht destilliert.**
+  Einseitige BKP-Kurzübersicht ohne Ausgabevermerk, mit zwei Tippfehlern, laut eigenem
+  Inventar-Eintrag «nur als Formvorbild, nie als Codequelle» geeignet. Kein über
+  `references/bkp-2017/` hinausgehender, verifizierbarer Mehrwert — kein Artikel.
+
+**Damit sind alle fünf P2-Positionen dieser Sektion bearbeitet (vier destilliert, eine
+begründet übersprungen); die Sektion `18_Projektkostenplanung` ist für P1 und P2
+abgeschlossen.**
