@@ -1,3 +1,31 @@
+## 2026-08-29 (Run 86, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — neunzehnter Doppel-Dispatch, weiterhin Nullbefund
+
+Neunzehnter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-86). Unabhaengig
+nachgeprueft (eigene Lektuere, nicht nur Run-85-Eintrag uebernommen): kein offener `[ ]`-
+Kandidat in `training/n62-3-pruefstand-kandidaten.md`, Abschnitt 7 der Liste bestaetigt
+selbst «Vorrang-Liste dieses Auftrags jetzt abgearbeitet», `wiki/QUESTIONS.md` schliesst
+weiterhin mit N68-1 ab. **Kein neuer Kandidat, keine Destillat-Aenderung, kein
+Statuswechsel.** `launchctl list` zeigt `ch.jans.nachtschicht` und `ch.jans.wissens-trigger`
+weiterhin aktiv — die in Run 76-85 wiederholt gemeldete Scheduling-Ursache fuer den
+taeglich wortgleichen Dispatch besteht unveraendert fort und ist ausserhalb des
+Schreibbereichs dieser Lane; Empfehlung bleibt, einen der beiden Jobs zu deaktivieren oder
+auf einen einmaligen Trigger nach Abschluss der Vorrang-Liste umzustellen. Einziger
+weiterhin offene Punkt bleibt die in Kandidatenliste Abschnitt 6 Punkt 2 skizzierte
+Stichprobenrunde fuer den Mittelbau der rund 300 uebrigen `established`-Destillate ohne
+Pruefstand — **weiterhin Raphael vorzulegen, nicht selbstaendig zu starten**.
+
+## 2026-08-29 (Run 85, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — achtzehnter Doppel-Dispatch, weiterhin Nullbefund
+
+Achtzehnter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-85). Unabhaengig
+nachgeprueft: `git status wissen/normen` sauber, kein offener `[ ]`-Kandidat in
+`training/n62-3-pruefstand-kandidaten.md`, `wiki/QUESTIONS.md` schliesst weiterhin mit
+N68-1 ab, alle sechs Destillate aus Kandidatenliste Abschnitt 4 tragen unveraendert
+mindestens einen Pruefstand-Treffer. **Kein neuer Kandidat, keine Destillat-Aenderung,
+kein Statuswechsel.** Zusaetzlich geprueft: `launchctl list` zeigt zwei aktive
+Jobs (`ch.jans.nachtschicht`, `ch.jans.wissens-trigger`), die als Quelle des taeglich
+wiederholten, wortgleichen Dispatches infrage kommen — ausserhalb des Schreibbereichs
+dieser Lane, daher nur hier vermerkt und Raphael direkt gemeldet.
+
 ## 2026-08-29 (Run 84, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — siebzehnter Doppel-Dispatch, weiterhin Nullbefund
 
 Siebzehnter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-84). Unabhaengig

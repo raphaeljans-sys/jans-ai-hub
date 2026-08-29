@@ -1040,6 +1040,27 @@ ist über die reguläre Auto-Sync-Kette committet (Commit `dae4fb9c1`, per `git 
 **Kein neuer Batch, kein totes Recht, keine Wiki-Änderung.** Damit bestätigt sich Lauf f: die
 Korpus-Queue T1-T9 und die Priorität (d) bleiben vollständig geschlossen.
 
+**Prüflauf 2026-08-29h (Schub-Lane BAURECHT-THALWIL, achter Lauf, unabhängige Instanz):**
+Quellordner erneut eigenständig ausgezählt: unverändert 234 Dateien. Statt einer weiteren
+Text-Bestätigung diesmal eine **echte Live-Quelle** gezogen, um dem Auftragskern
+(Fassungsstand-Pflicht) neuen Beweiswert hinzuzufügen, den die sieben vorangehenden Läufe
+desselben Tages noch nicht geliefert hatten: die vier tragenden Erlasse von
+[[umgebungsgestaltung-und-einfriedungen]] — PBG, ABV, VErV, BZO Thalwil — frisch über
+`skills/baurecht/connectors/recht-ch.mjs` von zhlex bezogen und byte-genau gegen die
+bestehenden `raw/`-Volltexte gegengeprüft (nicht nur die KB-Notizen darüber gelesen).
+**Befund:** VErV weiterhin Nachtrag 127, ABV weiterhin Nachtrag 127, BZO Thalwil unverändert
+seit 07.06.2026 — alle drei byte-identisch bis auf das Abrufdatum. PBG zeigt zwar Nachtrag 134
+(statt 133), das ist aber kein Neufund: bereits am 24.08.2026 (Buch-Run 122) erfasst
+(`raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md`) und betrifft § 221 PBG
+(Zwischennutzungen) sowie die IVHB-Anpassungsfrist — keine der beiden Änderungen berührt die in
+diesem Artikel geführten §§ 238/238a/240/241/257/309 PBG. **Kein neuer Fassungsdrift, kein
+totes Recht.** Die vier live gezogenen Volltexte waren reine Duplikate (nur Abrufdatum
+abweichend) und wurden nach dem Abgleich wieder gelöscht, kein Ingest nötig. Ergänzt:
+verifiziert-Eintrag in [[umgebungsgestaltung-und-einfriedungen]] (append-only,
+`git diff --numstat` zeigt `+1/-0`). **Damit ist die Reglemente-Queue 2414 Thalwil zum achten
+Mal an diesem Tag bestätigt vollständig geschlossen — diesmal mit einer frischen Live-Quelle
+statt einer reinen Texterneuerung.** Report `outputs/2026-08-29h_thalwil-schub-lane.md`.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

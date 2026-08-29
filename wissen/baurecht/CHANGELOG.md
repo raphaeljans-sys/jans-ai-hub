@@ -3,6 +3,24 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-29h (Schub-Lane BAURECHT-THALWIL, achter Lauf) — Fassungsstand von PBG/ABV/VErV/BZO Thalwil live gegen zhlex bestätigt, kein neuer Batch, kein totes Recht
+
+Quellordner erneut unabhängig ausgezählt: unverändert 234 Dateien. Statt einer achten reinen
+Text-Bestätigung die vier tragenden Erlasse von [[umgebungsgestaltung-und-einfriedungen]] —
+PBG, ABV, VErV, BZO Thalwil — frisch über `skills/baurecht/connectors/recht-ch.mjs` von zhlex
+gezogen und byte-genau gegen die bestehenden `raw/`-Volltexte verglichen. Befund: VErV/ABV/BZO
+Thalwil unverändert (VErV Nachtrag 127 seit Buch-Run 83, ABV Nachtrag 127, BZO Thalwil
+unverändert seit 07.06.2026). PBG zeigt Nachtrag 134 — kein Neufund, bereits am 24.08.2026
+(Buch-Run 122) erfasst und ausgewertet (`raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md`,
+§ 221 PBG Zwischennutzungen + neue IVHB-Anpassungsfrist 29.02.2028); beide Änderungen betreffen
+nicht die in diesem Artikel geführten Paragraphen. Kein neuer Fassungsdrift, kein totes Recht.
+Die vier live gezogenen Volltexte waren reine Duplikate (nur Abrufdatum abweichend) und wurden
+nach dem Abgleich gelöscht, kein Ingest nötig. Neuer `verifiziert`-Eintrag in
+[[umgebungsgestaltung-und-einfriedungen]] (append-only, `+1/-0`). Queue-Tracker und Report
+`outputs/2026-08-29h_thalwil-schub-lane.md` ergänzt. **Damit ist die Reglemente-Queue 2414
+Thalwil zum achten Mal an diesem Tag bestätigt geschlossen — erstmals mit einer frisch
+gezogenen Live-Quelle statt einer reinen Texterneuerung.**
+
 ## 2026-08-29g (Schub-Lane BAURECHT-THALWIL, siebter Lauf) — unabhängige Bestätigung: Korpus-Queue bleibt geschlossen, kein neuer Batch, kein totes Recht gefunden
 
 Quellordner frisch und unabhängig ausgezählt (`find`, nicht Erinnerung an frühere Läufe):
