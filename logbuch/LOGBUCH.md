@@ -3,6 +3,47 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 29.08.2026 (08:39 bis 08:5x, Tagesbriefing gesendet)
+
+**Gesendet um 08:46:57** an rj@raphaeljans.ch über den Graph-Weg (Apple Mail antwortet den achten
+Tag nicht, `-1712` erneut gemessen; `m365 outlook mail send`, rc=0). **Gegenprobe in den
+Gesendeten:** Betreff und Body am Original nachgelesen, Body 6'458 Zeichen HTML, kein Leerversand.
+Struktur wie vorgesehen (Erledigt · Entwürfe · Fällig-Droht 7 Tage · Service-Chancen · Beobachten);
+QS durch die Agenten `rechtschreibung` (zwei Grossschreibungen nach Doppelpunkt) und `layout`
+(acht Datumsangaben auf TT.MM.JJJJ ergänzt, eine Uhrzeit vereinheitlicht, ein Monospace-Span
+entfernt) vor dem Versand gelaufen.
+
+**Eigener Fehler, hier festgehalten:** der **Betreff** trägt «traegt» und «faellt» statt echter
+Umlaute — die ASCII-Ersatzschreibung wurde beim Zusammenbauen der Shell-Zeile aus Vorsicht gesetzt
+und verstösst gegen Rule `umlaute-konvention`. Der Body ist durchgehend korrekt. Nicht durch eine
+zweite Mail geheilt (Ein-Mail-Prinzip, der Fehler beeinflusst Raphaels Handeln nicht); beim
+nächsten Lauf gehört der Betreff wie der Body über eine Datei bzw. sauber gequotet an die CLI.
+
+**Ausgeführte Whitelist-Aktion (A2), zwei Kalendereinträge.** Auslöser: Radar-Briefing 29.08.,
+Punkte 19 und 20 («nicht eingetragen, nur vorgeschlagen»). Guards geprüft: eigener Kalender
+(«Arbeit»), Quelle und Datum im Notizfeld, keine Änderung oder Absage fremder Termine, umkehrbar.
+Ergebnis nachgelesen: Montag 31.08.2026 07:30 «Freigabe Therapiekueche N. Rothe + Terminprogramm
+nachliefern» (Alarm −30 Min), Dienstag 01.09.2026 08:00 «Anliegen an R. Steinmann senden (letzter
+Tag vor Ferien)» (Alarm −15 Min). Der Eintrag im Outlook-Kalender wurde bewusst unterlassen: der
+verfügbare MCP-Kalender-Connector schreibt in einen Google-Kalender, nicht in den Arbeitskalender,
+und ein Eintrag am falschen Ort ist schlechter als keiner.
+
+**Nachgeholt: der AG-Gründungs-Abgleich.** Der `ag-gruendung-monitor` hat für heute keinen
+Abschnitt geschrieben (jüngster: 27.08.). Über Graph beide Postfächer nach UBS, Notariat,
+Handelsregister, Kapitaleinzahlung durchsucht sowie gezielt nach Absender `ubs.com`: jüngste
+Sachnachricht bleibt das Kapitaleinzahlungskonto vom 17.08.2026, Stand verifiziert unverändert.
+Registerzeile als datierter Nachtrag gesetzt, kein Zweiteintrag.
+
+**Signale, die in das Briefing eingingen.** Radar-Briefing 29.08. (06:55, im Logbuch, nicht
+gemailt) vollständig gelesen und weitergetragen; Konversations-Destillat 29.08. (45 Sessions, kein
+Gespräch im Fenster); Fristen-Register; Kalender bis 05.09.; Postfächer im Fenster 06:45 bis 08:45
+(null Sachnachrichten, zwei Werbemails im Konto mail@); Sync- und Remote-Task-Queues leer,
+Freigabe-Queue leer; bexio erneut selbst gemessen (`--verzug`, HTTP 401, zweiundzwanzigster Tag,
+keine Mahnaktion, kein Guard erfüllt).
+
+**Nicht ausgeführt:** kein Versand an Dritte, keine Buchung, keine Mahnung, keine Löschung, keine
+Freigabe eines zurückgehaltenen Sync-Tasks. Mail-Entwürfe (A5) bleiben auf beiden Wegen gesperrt.
+
 ## Radar-Briefing 29.08.2026 (06:55 bis 07:1x, Logbuch-Radar)
 
 **Nicht gemailt, Ein-Mail-Prinzip.** Der Chef-Lauf vom 28.08. hat stattgefunden (Briefing 08:56:27
