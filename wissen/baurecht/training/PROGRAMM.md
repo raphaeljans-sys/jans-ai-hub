@@ -242,6 +242,41 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
    ist die RRB-Erlassfassung, nicht die konsolidierte LS-Fassung; vor einem Zitat in einem
    ausgehenden Dokument gegen zhlex konsolidiert prüfen.
 
+### Nachtrag 29.08.2026 (Schub-Lane BAURECHT-THALWIL, fünfter Lauf) — Tracker-Korrektur: Themen 1/2/3/6/8 waren bereits erledigt, nur nie markiert
+
+Nach vier reinen Bestätigungsläufen desselben Tages (Queue geschlossen, Fassungsstand-
+Wachposten geprüft, Baulinien-Punkt geschlossen, KB-weiter Dead-Law-Sweep null Treffer, siehe
+`training/KORPUS-QUEUE-thalwil-reglemente.md` und `CHANGELOG.md`) wurde geprüft, ob die
+**Themen-Liste selbst** noch offene Punkte enthält — unabhängig von den Datei-Batches T1-T9.
+Befund: **Themen 1, 2, 3, 6 und 8 sind inhaltlich bereits vollständig im Wiki abgedeckt**, tragen
+aber (anders als Themen 4/5/7/9) keinen ERLEDIGT-Vermerk. Ohne diese Prüfung hätte ein künftiger
+Lauf hier fälschlich echte Lücken vermutet und doppelt gearbeitet.
+
+- **Thema 1 (Vorgarten-/Wegabstandsbereich):** Art. 50 lit. b revBZO («höchstens hälftige
+  Versiegelung des Strassenabstands- und Baulinienbereichs») ist in
+  [[umgebungsgestaltung-und-einfriedungen]] Abschnitt «Die kommunale Ebene» seit Batch T2
+  (Run 73, 13.08.2026) erfasst, inkl. Vorwirkungsstatus (Art. 50 revBZO fast vollständig grau
+  markiert, siehe [[negative-vorwirkung-und-bzo-revision]]).
+- **Thema 2 (Grünflächenziffer):** § 257 PBG samt Anrechnungspraxis («nicht versiegelte,
+  auch keine Rasengittersteine») steht in [[nutzungsziffern]] Z. 139-230; die kommunale
+  Konkretisierung (Art. 50 lit. a revBZO, Art. 31 revBZO Grünflächenziffer-Tabelle je Zone)
+  in [[umgebungsgestaltung-und-einfriedungen]] und [[negative-vorwirkung-und-bzo-revision]]
+  Ziff. Vorwirkungs-Analyse.
+- **Thema 3 (Pflichtbäume):** Art. 50 lit. c/d revBZO (Baumschutzschwelle 100 cm
+  Stammumfang, Pflicht 1 Baum je 500 m² anrechenbare Grundfläche) vollständig in
+  [[umgebungsgestaltung-und-einfriedungen]] wiedergegeben.
+- **Thema 6 (Einordnung § 238 Abs. 1 PBG, Rechtsprechungs-Register):** bereits am
+  23.08.2026 (Buch-Run 88) aufgebaut — 15 Praxisfundstellen in
+  [[umgebungsgestaltung-und-einfriedungen]] Ziff. 4a.
+- **Thema 8 (Näherbaurecht, praktische Seite):** Art. 738 ZGB, SBB-Bahnbereich und
+  Grundbuch-Aktualisierung bei Projektänderung stehen in [[abstaende-und-hoehen]] Abschnitt
+  «Näherbaurecht» (Batch T6, Run 77, 23.08.2026).
+
+**Damit sind alle neun Themen der Priorität (d) inhaltlich geschlossen.** Diese Zeile ist eine
+reine Bookkeeping-Korrektur (keine Wiki-Änderung, kein neuer Fachinhalt) — die einzelnen
+Themen-Absätze oben bleiben unverändert stehen (append-only), damit die Historie nachvollziehbar
+bleibt. Bericht: `outputs/2026-08-29e_thalwil-schub-lane.md`.
+
 ### Gemessene Lücken aus der Eingabe vom 03.08.2026 (Beleg, dass die Vertiefung nötig ist)
 
 - **revBZO Thalwil ist nicht in der KB.** `raw/260607_amtlich_zh_bzo-thalwil.md` ist die

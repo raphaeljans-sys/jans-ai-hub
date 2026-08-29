@@ -999,6 +999,17 @@ Negativergebnis), kein neuer `raw/`-Bezug. Damit bestätigt zum vierten Mal an d
 offener Batch, kein totes Recht** — die Reglemente-Queue 2414 Thalwil bleibt vollständig
 geschlossen.
 
+**Prüflauf 2026-08-29e (Schub-Lane BAURECHT-THALWIL, fünfter Lauf desselben Tages):** statt
+eines fünften Nullbefunds auf denselben Prüfgegenständen die Themen-Liste der Priorität (d)
+selbst gesichtet (`training/PROGRAMM.md`, Abschnitt «Die neun Themen»). Befund: die Themen 1
+(Vorgarten), 2 (Grünflächenziffer), 3 (Pflichtbäume), 6 (Rechtsprechungs-Register § 238 Abs. 1
+PBG) und 8 (Näherbaurecht praktische Seite) sind **inhaltlich bereits vollständig im Wiki
+abgedeckt** — Beleg im Einzelnen in `training/PROGRAMM.md`, Nachtrag 29.08.2026 — trugen aber
+anders als Themen 4/5/7/9 nie einen ERLEDIGT-Vermerk im Tracker. Reine Bookkeeping-Korrektur,
+kein neuer Fachinhalt, keine Wiki-Änderung, kein totes Recht gefunden. **Damit sind alle neun
+Themen der Priorität (d) und alle Batches T1-T9 sowohl datei- als auch themenseitig
+geschlossen.** Bericht `outputs/2026-08-29e_thalwil-schub-lane.md`.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

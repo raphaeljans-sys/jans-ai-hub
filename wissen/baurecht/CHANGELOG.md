@@ -3,6 +3,27 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-29e (Schub-Lane BAURECHT-THALWIL, fünfter Lauf) — Themen-Tracker der Priorität (d) korrigiert: 5 Themen waren bereits erledigt, nur nie markiert
+
+Nach vier reinen Bestätigungsläufen desselben Tages (Queue geschlossen, Fassungsstand-
+Wachposten geprüft, Baulinien-Punkt geschlossen, KB-weiter Dead-Law-Sweep 0 Treffer) wurde
+statt eines fünften Nullbefunds die **Themen-Liste selbst** in `training/PROGRAMM.md`
+(«Die neun Themen» der Priorität (d)) gesichtet — unabhängig von den bereits geschlossenen
+Datei-Batches T1-T9.
+
+- **Befund: Themen 1 (Vorgarten/Art. 50 lit. b revBZO), 2 (Grünflächenziffer/§ 257 PBG +
+  Anrechnungspraxis), 3 (Pflichtbäume/Art. 50 lit. c/d revBZO), 6 (Rechtsprechungs-Register
+  § 238 Abs. 1 PBG) und 8 (Näherbaurecht: Art. 738 ZGB, SBB, Grundbuch) sind bereits
+  vollständig im Wiki abgedeckt** — in [[umgebungsgestaltung-und-einfriedungen]],
+  [[nutzungsziffern]], [[negative-vorwirkung-und-bzo-revision]] und [[abstaende-und-hoehen]] —,
+  trugen im Tracker aber (anders als Themen 4/5/7/9) nie einen ERLEDIGT-Vermerk. Ohne diese
+  Prüfung hätte ein künftiger Lauf hier fälschlich echte Lücken vermutet.
+- **Kein neuer Fachinhalt, keine Wiki-Änderung, kein totes Recht gefunden.** Reine
+  Bookkeeping-Korrektur, append-only in `training/PROGRAMM.md` (+35/−0) und
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (+11/−0).
+- **Damit sind alle neun Themen der Priorität (d) UND alle Batches T1-T9 sowohl datei- als auch
+  themenseitig geschlossen.** Report `outputs/2026-08-29e_thalwil-schub-lane.md`.
+
 ## 2026-08-29d (Schub-Lane BAURECHT-THALWIL, vierter Lauf) — KB-weiter Sweep: kein totes Recht ausserhalb der bereits geflaggten Stellen
 
 Reglemente-Queue und Priorität (d) bleiben geschlossen (siehe die drei Einträge vom selben Tag
