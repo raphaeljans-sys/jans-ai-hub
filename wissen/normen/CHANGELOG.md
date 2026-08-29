@@ -1,3 +1,32 @@
+## 2026-08-29 (Run 70, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — dritter Doppel-Dispatch bestätigt Nullbefund, Prozessfund: Run-69-Eintrag lag auf dem SSD-Spiegel statt auf dem NAS
+
+Dritter Auftrag Raphael mit identischem Wortlaut («Wochenkontingent vor Montags-Reset,
+nächste offenen Kandidaten aus `n62-3-pruefstand-kandidaten.md` abarbeiten»). Vor Arbeitsbeginn
+eigenständig geprüft, nicht nur der Liste geglaubt: alle sechs Kandidaten aus Abschnitt 4 der
+Kandidatenliste (`sia-416-2003.md`, die drei VKF-Kernrichtlinien, `sia-102-2014.md`,
+`sia-451-1992.md`) tragen einen Prüfstand-Abschnitt im Destillat, per `grep` auf dem
+NAS-Original verifiziert. `wiki/QUESTIONS.md` endet bei N68-1, kein offener neuer Eintrag seit
+Run 68. **Kein neuer Kandidat, keine Destillat-Änderung, kein Statuswechsel in diesem Lauf.**
+
+Prozessfund (kein Normbefund, gehört nicht in `QUESTIONS.md`): Der CHANGELOG-Eintrag von
+«Run 69» (identischer Befund wie hier) war beim Start dieses Laufs nur als unversionierte
+Änderung auf dem SSD-Lese-Spiegel (`~/Developer/jans-ai-hub`) vorhanden, nicht auf dem
+kanonischen NAS-Pfad (`/Volumes/daten/jans-ai-hub`, Rule `sync-kanonische-quelle`) — der
+native Committer auf der Synology konnte ihn folglich nie sehen, entsprechend committete
+`nas-commit-now.sh` in Run 69 nur die Kontingent-Datei, nicht den CHANGELOG-Eintrag. Der
+verwaiste SSD-Stand wurde in diesem Lauf verworfen (`git checkout --`), der Befund von Run 69
+ist mit diesem Eintrag inhaltlich nachgetragen. Kein Handlungsbedarf an dieser Lane, aber
+festgehalten für den Fall, dass eine künftige Lane denselben Fehlweg nimmt.
+
+Zusätzlich beiläufig bemerkt (kein Eingriff, ausserhalb des Auftrags «anhängen, nicht
+korrigieren»): `vkf-brl-16-15-flucht-rettungswege.md` überschreibt seinen Prüfstand-Abschnitt
+mit `## Pruefstand` (ASCII) statt `## Prüfstand` (echter Umlaut) — inhaltlich vorhanden,
+nur die Schreibweise weicht von den übrigen fünf Kandidaten ab.
+
+Offen bleibt unverändert nur die in der Kandidatenliste Abschnitt 6 Punkt 2 skizzierte
+Stichprobenrunde für den Mittelbau der ~300 übrigen `established`-Destillate ohne Prüfstand —
+weiterhin Raphael vorzulegen, nicht selbständig zu starten.
+
 ## 2026-08-29 (Run 68, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — Prüfung ohne offene Kandidaten, QUESTIONS-Nachtrag
 
 Auftrag Raphael (Wochenkontingent vor Montags-Reset): nächste offenen Kandidaten aus
