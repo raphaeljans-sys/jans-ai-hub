@@ -4,6 +4,27 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, Folgelauf) — vier Charge-2-Restnamen sichten, keine Bestaetigung
+
+Minimalcheck vor Vollrecherche (Memory-Hinweis dieser Lane und CHANGELOG-Empfehlung des
+Vorlaufs vom selben Tag): alle vier Auftragspositionen des Dispatch-Prompts (Fehlextraktionen,
+Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 2 bis 6) waren bereits vor diesem
+Lauf vollstaendig BEHOBEN/RECHERCHIERT — der Dispatch-Prompt selbst ist veraltet (behauptet
+"Charge 2 und folgende sind offen", tatsaechlich sind alle sechs Chargen laut QUESTIONS.md
+Zeile 88 "vollstaendig einzeln recherchiert"). Statt einer weiteren reinen Bestaetigung wurde
+der vom Vorlauf empfohlene naechste Schritt ausgefuehrt: fuer die vier verbliebenen Charge-2-
+Merkposten ohne belastbaren Websuche-Treffer (Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure)
+Ordnerinhalt gesichtet und die gefundenen Leads (Uster_Infostand.jpg, East Barnet Baptist
+Church) gezielt websuchend weiterverfolgt. Ergebnis: keine Bestaetigung moeglich — Fischle ohne
+jeden Lead, Gigometti nur ein lautaehnlicher, unbelegter Kandidat (Bruno Giacometti), Goldsmith_
+Felix trotz Kirchen-RIBApix-Motiv ohne genannten Architekten, Gruppo_Ligure unveraendert. Details
+in QUESTIONS.md Zeile 54 (NACHTRAG 30.08.2026). Naechster Lauf: diese vier Namen nicht erneut
+mit denselben Mitteln (Ordnerinhalt/Websuche) pruefen — bereits ausgeschoepft. Falls weiter-
+gearbeitet werden soll: Sektion-1-Fragen (Sik_Miroslav-Einordnung, Sutter_Annabarbara, Boesch_
+Ivo-aehnliche Grenzfaelle) oder allgemein QUESTIONS.md nach unmarkierten Fundstellen durchsuchen,
+bevor die vier Kernprioritaeten des Dispatch-Prompts erneut aufgenommen werden (Loop-Gefahr,
+siehe Memory project_synobsis-dispatch-loop).
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS) — Dispatch-Loop bestaetigt, drei neue Ordnerinhalt-Klaerungen
 
 Minimalcheck vor Vollrecherche (Memory-Hinweis dieser Lane): alle vier Auftragspositionen
