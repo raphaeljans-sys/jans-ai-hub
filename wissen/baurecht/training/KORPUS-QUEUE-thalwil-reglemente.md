@@ -977,6 +977,14 @@ Art.-24c-Diskrepanz und Kap. 22/23 mit Screenshot-Zugriff auflösen, sonst unver
 Datenbank-bedingt unverifizierbaren Alt-Fallzitate, der Baulinien-Wachposten und
 [[geschosse-und-kniestock]].
 
+**Prüflauf 2026-08-29 (Schub-Lane BAURECHT-THALWIL, Wochenkontingent vor Montags-Reset):**
+Queue-Status vor Arbeitsbeginn geprüft, kein offener Batch gefunden. Quellordner frisch
+ausgezählt (`find … -type f ! -name .DS_Store`): weiterhin **234 Dateien** — unverändert seit
+dem T9-Abgleich (Run 87). Die Queue selbst erklärt T1-T9 und Priorität (d) mehrfach als
+abgeschlossen, zuletzt bestätigt in Run 132 (24.08.2026, siehe `training/PROGRAMM.md`). Kein
+neuer Batch, keine neuen Dateien, keine Wiki-Änderung in diesem Lauf — reine
+Bestätigungsprüfung, kein Fachinhalt erfunden.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

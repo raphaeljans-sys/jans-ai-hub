@@ -3,6 +3,16 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-29 (Schub-Lane BAURECHT-THALWIL) — Reglemente-Queue geprüft, kein offener Batch
+
+Auftrag Raphael 29.08.2026 (Wochenkontingent vor dem Montags-Reset): nächsten offenen Batch
+(T1-T8) der `training/KORPUS-QUEUE-thalwil-reglemente.md` ermitteln und abarbeiten. Befund:
+kein offener Batch. Quellordner frisch ausgezählt — weiterhin 234 Dateien, unverändert seit
+dem T9-Abgleich (Run 87, 23.08.2026). Die Queue erklärt T1-T9 UND Priorität (d)
+(Umgebungs-/Gestaltungsrecht) selbst mehrfach als abgeschlossen, zuletzt bestätigt in Run 132
+(24.08.2026). Kein Fachinhalt geändert, kein neuer `raw/`-Bezug, keine Wiki-Änderung — reiner
+Bestätigungsvermerk in `training/KORPUS-QUEUE-thalwil-reglemente.md` (+8/−0).
+
 ## 2026-08-28 (Wissens-Chef Run 46) — Art. 45 EnG trägt das Gebäudeprogramm nicht
 
 Zwei Stellen wiesen die Förderung des Gebäudeprogramms **Art. 45 EnG** zu. Am amtlichen Volltext
