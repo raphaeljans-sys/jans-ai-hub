@@ -4,6 +4,25 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260829 — Sechzehnter Destillat-Lauf Korpus 4: Entscheidungspunkt nach P1-Meilenstein
+
+Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion
+`01_Innenarchitektur`, letzte offene P1-Position beider Korpora destilliert.
+
+**#55 Wie weiter, nachdem P1 über beide Korpora vollständig ist?** Zwei mögliche nächste
+Schritte, keine Ertrags-Reihenfolge mehr vorgegeben: (a) P2-Destillation beginnen (über 700
+Positionen kumuliert, Reihenfolge müsste neu nach Ertrag/Nutzen sortiert werden, da P2 laut
+`CLAUDE.md` nur „nützlich, später” ist, nicht priorisiert); (b) zuerst die fehlende
+Phase-0-Inventarisierung der 9 offenen `buero-referenzen`- und 3 offenen
+`archiv-fachwissen`-Sektionen nachholen (Liste unten). Wer beantworten kann: Raphael
+(Priorität) oder der nächste Lauf nach eigenem Ermessen, mit Begründung im Report.
+
+**#56 Vier Sektionen bleiben bewusst uninventarisiert für Fachwissen: `04_Politik`,
+`05_Kultur_Gesellschaft_Stil`, `06_Reisen`, `07_Religion`.** Alle vier haben P1=0 und sind laut
+Spec-Vorbehalt näher an Privatunterlagen als an Fachwissen (`06_Reisen` mit starkem
+Pass-/ESTA-/Buchungsdaten-Befund). Sie werden nicht destilliert, ausser Raphael entscheidet
+ausdrücklich anders für eine einzelne, klar fachliche Teilposition.
+
 ## 260829 — Dreizehnter Destillat-Lauf Korpus 4, Sektion `00_Allgemein`
 
 Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion `00_Allgemein`,
