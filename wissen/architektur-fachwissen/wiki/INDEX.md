@@ -917,3 +917,43 @@ am Korpus `archiv-fachwissen` (Sektion `01_Konstruktion`) aktiv war (siehe CHANG
 weiter fortgeschritten als zuvor angenommen — Register unten in den Kennzahlen und der
 Fussnote noch nicht neu gezählt, da die übrigen 22 Sektionen dieses Korpus bislang keinen
 systematischen P2-Durchgang hatten.
+
+## 260830 — Zwanzigster Destillat-Lauf (Korpus 4, Sektion `01_Konstruktion`, dritter P2-Lauf)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», elftes Beispiel
+desselben Musters, siehe Memory-Eintrag Lane FACHWISSEN); Lauf orientierte sich am realen
+Stand (`KORPUS-QUEUE.md`, dieses Register). Vor Arbeitsbeginn `ps aux` auf Parallel-Instanzen
+geprüft: kein Duplikat dieser Lane (der einzige `claude -p`-FACHWISSEN-Prozess war der Lauf
+selbst), lediglich NORMEN-PRUEFSTAND und BAURECHT-THALWIL liefen parallel auf unabhängigen KBs.
+
+Von den zwei laut neunzehntem Lauf offenen P2-Positionen bearbeitet: `02_Bauelemente/`
+systematischer Teil (209 Dateien). Alle 17 Unterordner auf Nicht-Bild-Dateien durchsucht;
+Ergebnis überwiegend Fotos/CAD/Bildscans ohne Textebene. Zwei Artikel destilliert:
+
+- [[phaenomen-eingang-typologie-schwellenraum-eth-schwartz]] — fünfteilige
+  Schwellen-Typologie (lineare Schwelle → Schwellenraum → Antizipation → Verzögerung →
+  Übergänglichkeit) und Massstabskette Stadt-/Quartiers-/Gebäude-Eingang, aus derselben
+  ETH-Lehrveranstaltung («Tragwerksentwurf», Prof. Schwartz) wie
+  [[tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau]], aber eigenständige
+  Vorlesungseinheit ohne Duplikatsrisiko.
+- [[pilzdecken-fruehgeschichte-schweiz-maillart-giesshuebel]] — Einzelfund aus einem
+  urheberrechtlich geschützten Essay-Heft (René Furer, ISBN 978-3-9523262-6-8): zwei
+  Datierungspunkte für frühen Zürcher Stahlbetonbau (Maillart Stauffacherbrücke 1899,
+  erste Pilzdecke Lagerhaus Giesshübel 1910), nur dieser eine Fakt sinngemäss übernommen,
+  der Rest des Essays bewusst nicht destilliert (kein klar abgrenzbarer Fachbaustein).
+
+Bewusst nicht destilliert: eine eigene Studienarbeit Raphael Jans (HTA 2007), eine private
+E-Mail-Korrespondenz Raphael Jans mit einem Studienkollegen (2009, kein Sperrlisten-Fund im
+engeren Sinn, aber private Korrespondenz), ein deutsches Dachdecker-Fachmagazin (68 Seiten,
+überwiegend Hersteller-Marketing), eine Literaturlisten-Scanseite, drei isolierte
+Sheddach-Einzelfolien ohne vollständigen Foliensatz, diverse reine Bildscans. Details je
+Position in `raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt
+«Destillat-Fortschritt — Ergänzung 2026-08-30», reiner Append (`git diff --numstat` 54/0
+geprüft).
+
+**Weiterhin offen (P2, für den nächsten Lauf dieser Sektion):** `04_Bauphysik_Energie/
+02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien, Bauphysik I–III ETH Zürich)
+— in diesem Lauf aus Zeit-/Budgetgründen nicht begonnen. Danach ist Sektion `01_Konstruktion`
+für P1 und P2 vollständig. Der Entscheidungspunkt Raphaels (P2 systematisch für die übrigen
+Sektionen vs. Phase-0-Nachholung, `QUESTIONS.md` #1/#58/#60/#63) bleibt unverändert offen und
+wurde in diesem Lauf bewusst kein weiteres Mal wiederholt.

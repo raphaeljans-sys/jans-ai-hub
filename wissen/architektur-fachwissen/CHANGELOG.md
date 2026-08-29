@@ -1,5 +1,26 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Konstruktion`, dritter P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec», elftes Beispiel desselben
+Musters, Memory `project_fachwissen-dispatch-loop`); Lauf orientierte sich an
+`KORPUS-QUEUE.md`/`wiki/INDEX.md`. Vor Arbeitsbeginn `ps aux` gegen Parallel-Instanzen
+geprüft: kein FACHWISSEN-Duplikat, nur unabhängige Lanes NORMEN-PRUEFSTAND/BAURECHT-THALWIL
+liefen gleichzeitig.
+
+`02_Bauelemente/` systematischer Teil (209 Dateien, Sektion `01_Konstruktion`) vollständig
+gesichtet. Zwei Wiki-Artikel: [[phaenomen-eingang-typologie-schwellenraum-eth-schwartz]]
+(Schwellen-Typologie, ETH-Vorlesung Tragwerksentwurf, Prof. Schwartz) und
+[[pilzdecken-fruehgeschichte-schweiz-maillart-giesshuebel]] (Einzelfakt aus urheberrechtlich
+geschütztem Essay-Heft, sinngemäss, kein Wortlaut). Bewusst nicht destilliert: eigene
+Studienarbeit Raphael Jans (HTA 2007), private E-Mail-Korrespondenz 2009 (kein
+Sperrlisten-Fund im engeren Sinn, aber private Korrespondenz — nicht übernommen), ein
+deutsches Dachdecker-Fachmagazin (Hersteller-Marketing), diverse Bildscans ohne Textebene.
+Details `raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt
+«Destillat-Fortschritt — Ergänzung 2026-08-30», reiner Append. Weiterhin offen:
+`04_Bauphysik_Energie` (153 Dateien, Bauphysik I–III ETH) — letzte offene P2-Position dieser
+Sektion. Register `wiki/INDEX.md` nachgeführt.
+
 ## 2026-08-30 — P2-Lauf Korpus `buero-referenzen`, Sektion `18_Projektkostenplanung` abgeschlossen (Lane FACHWISSEN, Station MacBook Pro)
 
 Dispatch-Auftrag dieses Laufs beschrieb erneut fälschlich «kein Destillat, keine Spec,

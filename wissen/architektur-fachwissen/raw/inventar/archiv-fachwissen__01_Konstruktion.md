@@ -392,3 +392,57 @@ Lignatur, `01 2D Details`, `01_Baustoff_Materialitaet/` Materialordner, `.band`/
 `06_Construction_Caruso/`). `06_Construction_Caruso/` in diesem Lauf nicht erneut technisch
 geprüft — der Erst-Sweep-Befund «keine Textebene, reine Scans» wurde übernommen, nicht neu
 verifiziert; sollte ein künftiger Lauf dort ansetzen wollen, ist eine eigene Prüfung fällig.
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (Lane FACHWISSEN, dritter P2-Lauf dieser Sektion)
+
+Auftrag: die beiden im zwanzigsten Lauf zurückgestellten P2-Positionen weiterbearbeiten.
+Bearbeitet: `02_Bauelemente/` systematischer Teil (209 Dateien). `04_Bauphysik_Energie/
+02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien, Bauphysik I–III ETH) in diesem
+Lauf nicht begonnen — bleibt offen für den nächsten Lauf.
+
+- **`02_Bauelemente/` systematischer Teil — vollständig gesichtet, Ertrag gering.** Alle
+  Unterordner (`00_Theorie` bis `16_Rolltreppe`) auf Nicht-Bild-Dateien durchsucht (`find`
+  ohne jpg/jpeg/png/tif/gif/bmp). Ergebnis: von 209 Dateien sind die allermeisten Fotos, CAD-
+  Dateien (`.dxf`/`.pln`/`.bpn`) oder reine Bildscans ohne Textebene (per `pypdf`
+  seitenweise geprüft, nicht nur Stichprobe). Textlesbare Funde:
+  - `03_Oeffnung_Fenster/02_Fensteröffnung/Die_Oeffnung.pdf` — eigene Studienarbeit
+    Raphael Jans (HTA Bachelor, Sommersemester 2007, «Rafael Jans» als Autor im Dokument),
+    Skizzenpläne zu einer Öffnung in der Theaterhalle Künstlerkolonie Erstfeld. **Nicht
+    destilliert** — Studienarbeiten auch von Raphael Jans selbst sind laut
+    `specs/archiv-fachwissen-spec.md` kein eigenständiger Artikelstoff.
+  - `09_Eingaenge/Vorlesung_Phänomen Eingang.pdf` (Prof. Schwartz, «Tragwerksentwurf», ETH,
+    39 Seiten) — **destilliert**:
+    [[phaenomen-eingang-typologie-schwellenraum-eth-schwartz]].
+  - `09_Eingaenge/renefurer_heft_7.pdf` (René Furer, «Zwei Eingänge», Heft 7, ISBN
+    978-3-9523262-6-8, 2008) — als Ganzes ein essayistischer Architekturvergleich ohne
+    eigenständig destillierbare Fachmethodik; **ein Einzelfund destilliert**
+    (Pilzdecken-Frühgeschichte Maillart): [[pilzdecken-fruehgeschichte-schweiz-maillart-giesshuebel]].
+  - `04_Decke_Boden/AW_ Bodenaufbau.pdf` — private E-Mail-Korrespondenz Raphael Jans mit
+    einem Studienkollegen (2009, private Adressen beider Absender im Klartext). **Nicht
+    destilliert und nicht zitiert** — private Korrespondenz, kein Fachartikel-Stoff. Kein
+    Sperrlisten-Fund im engeren Sinn (keine Vertrags-/Lohn-/Gesundheitsdaten), aber bewusst
+    nicht in die KB übernommen.
+  - `04_Decke_Boden/rapitzdecken/R7U56D~3.PDF` — reine Literaturlisten-Seite einer
+    deutschen Fachdatenbank (baufachinformation.de), kein Artikeltext selbst. Nicht
+    destillierbar.
+  - `05_Dach/00_Konstruktion/emag_gedruckt_A4.pdf` (68 Seiten, deutsches Dachdecker-
+    Fachmagazin, Ausgabe 3.2010) — geprüft (Inhaltsverzeichnis plus Stichproben
+    Gründach-/Brandschutz-Artikel S. 16-19). Überwiegend Hersteller-Marketing (Zinco,
+    Rhepanol, Braas) und deutscher Marktkontext; laut Spec kein Hersteller-Marketing
+    destillieren. **Nicht destilliert.**
+  - `05_Dach/Sheddachtypologie/` (drei PDFs, u. a. Herrera-y-Obes-Lagerhalle von Eladio
+    Dieste) — jeweils nur eine einzelne exportierte Vorlesungsfolie mit Bildlegende,
+    nicht der volle Foliensatz. Zu dünn für einen eigenständigen Artikel. **Nicht
+    destilliert.**
+  - `02_Wand/Brunelleschi...pdf`, `10_Tuer/Tuer.pdf`, `03_Oeffnung_Fenster/Fenster.pdf` —
+    reine Bildscans ohne Textebene (0 Zeichen laut `pypdf`).
+  - `09_Eingaenge/DETAIL/` (23 JPG-Scans, Zeitschrift *Detail*, Rubriken u. a.
+    «Stadteingänge», «Das Werktor», «Servicecenter München») — keine Textebene, nur mit
+    Vision/OCR erschliessbar; für einen künftigen Lauf vorgemerkt.
+  - `06_Treppen/` in diesem Lauf nicht erneut bearbeitet — bereits im vorherigen Lauf
+    (`VL 08 _ 20100506_treppen.pdf`) vollständig destilliert, siehe
+    [[treppen-tragwerkstypologie-eth-vorlesung-tragstruktur-kohlhammer-rinke]].
+
+**Sperrliste-Prüfung:** keine neuen Funde in den sechs bekannten gesperrten Positionen.
+Zusätzlich vermerkt (kein Sperrlisten-Fund, aber Vorsichtsmassnahme): private
+E-Mail-Korrespondenz in `04_Decke_Boden/AW_ Bodenaufbau.pdf` nicht destilliert, siehe oben.

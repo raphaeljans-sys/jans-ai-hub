@@ -4,6 +4,29 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS) — Dispatch-Loop bestaetigt, drei neue Ordnerinhalt-Klaerungen
+
+Minimalcheck vor Vollrecherche (Memory-Hinweis dieser Lane): alle vier Auftragspositionen
+(Fehlextraktionen Tadao_Ando/Spuehler_Martin/Wurster_William/Pfister_Gebrueder/Pouillon_Fernand/
+Romero_Schaefle/Rohn_Roland, die vier Katalog-Kollisionen, die Sonderzeichen-Regel, Sammelfrage
+Charge 2 bis 6) waren bereits am 29.08.2026 in fruehen Nachtschicht-Laeufen BEHOBEN/RECHERCHIERT
+und seither siebenfach unabhaengig gegengeprueft, ohne Aenderung. Statt eine achte reine
+Bestaetigung zu protokollieren, wurde echte neue Arbeit geleistet: fuer die als "nur aus dem
+Ordnerinhalt zu klaeren, nicht websuchbar" offen gebliebenen Sammelfrage-Restnamen (Charge 6,
+QUESTIONS.md Zeile 88) wurden die tatsaechlichen NAS-Ordnerinhalte gesichtet (`find`, Dateinamen)
+statt nur erneut Websuche. Ergebnis: drei zusaetzlich belegt — **ebeling** = Siegfried Ebeling
+(Bauhaus-Theoretiker, "Der Raum als Membran" 1926, Unterordnername identisch), **Soriano_Rafael**
+= Raphael Soriano (Architekt, Bilddatei "SorianoLaiken1.jpg" verweist auf das Laiken Beach House
+Malibu 1947), **Speer_Alfred** = Albert Speer (30 Bilddateien nennen ihn explizit im Dateinamen,
+vorheriges Verdikt "kein Architekt dieses Namens" war durch fehlende Ordnersichtung falsch).
+Ein Lead ohne Bestaetigung (Gruppo_Ligure/Abitazione Tipica 1933), drei weiterhin ohne Treffer
+trotz Sichtung (Zanini, Gigometti, Goldsmith_Felix). Details und Quellen in QUESTIONS.md Zeile 88.
+Naechster Lauf: keine der vier Auftragspositionen erneut aufnehmen (siehe Memory-Eintrag
+project_synobsis-dispatch-loop); falls weitergearbeitet werden soll, die uebrigen "nur aus
+Ordnerinhalt zu klaerenden" Merkposten in Charge 2 (Fischle, Gigometti, Goldsmith_Felix,
+Gruppo_Ligure) und die brachliegenden Fragen aus Sektion 1 (Sik_Miroslav, Sutter_Annabarbara,
+Balisat) pruefen — alles Freigabesachen (NAS-Umbenennungen) bleiben fuer Raphael offen.
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, siebter Folgelauf) — siebte unabhaengige Bestaetigung, keine neue Position
 
 Eigene, unabhaengige Gegenpruefung vor Beginn (nicht nur das Protokoll gelesen): `grep -in`
