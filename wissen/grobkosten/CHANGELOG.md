@@ -1,5 +1,28 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-29 (Schub-Lane grobkosten, Auftrag Raphael) — Saettigung verifiziert statt erzwungener Verdichtung; Raw-Material-Status-Tabelle in INDEX.md
+
+**Auftrag:** die naechsten unverarbeiteten raw-Eintraege zu Wiki-Artikeln verdichten (Ausgangslage
+lautete "20 raw-Eintraege, erst 3 Wiki-Artikel"). **Befund nach Pruefung:** dieses
+Zahlenverhaeltnis zaehlt Dateien, nicht Inhalt — `wiki/kennwerte.md` ist bereits EIN
+konsolidierter, 1165-zeiliger Artikel ("Quelle der Wahrheit" gemaess `CLAUDE.md`), der alle 18
+realen Roh-Belege einzeln mit Projekt, Kostenstand, GV/BKP-Umfang und Quellenpfad traegt (Beleg:
+jede Datei im Frontmatter `sources:`). Alle Roh-Belege sind bereits eingearbeitet oder mit
+Begruendung verworfen — bestaetigt durch 18 Trainingslaeufe, mehrere Vertiefungssitzungen bis
+23.08.2026 und einen weiteren Report vom 28.08.2026 (gestern). Kein einziger unverarbeiteter
+Roh-Beleg gefunden.
+
+**Nicht ausgefuehrt:** neue Wiki-Artikel oder neue Kennwerte erzwingen — das haette entweder
+bereits verdichtete Werte dupliziert oder gegen "Kennwerte nie raten" verstossen, da kein neues
+Rohmaterial vorliegt. Der einzige verbleibende Block (MFH-Median n≥2) haengt an zwei rein durch
+Raphael entscheidbaren Fragen (BKP-Scope Tab. 2, Standard-Klassifikation), am 23.08.2026 bereits
+direkt gestellt, Antwort steht aus — nicht autonom loesbar (Rule "Kein Leerlauf-Zwang").
+
+**Stattdessen:** `wiki/INDEX.md` um eine kompakte Status-Tabelle ergaenzt (alle 18 Roh-Belege ↔
+Verdichtungsstatus ↔ Fundstelle in `kennwerte.md`), damit der naechste Lauf den Saettigungsstand
+in einer Tabelle statt in verstreuter Run-Log-Prosa sieht. Keine Kennwerte geaendert, keine Datei
+in `raw/` angefasst (append-only, `git diff --numstat` zeigt `35 0 wissen/grobkosten/wiki/INDEX.md`).
+
 ## 2026-08-28 (Wissens-Chef Run 46) — Phantom-BKP-Code und toter Zeiger im Report vom selben Tag
 
 `outputs/2026-08-28_kennwerte-ei30-schiebetueren-kispi.md` (+8/−2):

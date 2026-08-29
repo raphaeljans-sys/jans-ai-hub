@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 20:20:17
+Stand: 29.08.2026 20:30:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:17)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 20:20:17
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 603640b48 tenant-hygiene 29.08.: 885.23 GB (83.99 %), +55 MB (Wochenende ruht), Trim-Fenster offen
+- 99b23e777 nas-selfcommit: 4 Datei(en) 2026-08-29 20:30

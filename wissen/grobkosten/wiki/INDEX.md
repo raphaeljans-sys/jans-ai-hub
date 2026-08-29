@@ -92,4 +92,39 @@ Nebenbefund: der BKP-2-Anteil bestätigt sich unabhängig (89.4 % gegen 90.6 % a
 Frage 1 (BKP-Scope Tab. 2) bleibt davon unberührt offen. Details
 `../outputs/2026-08-23_grobkosten-vertiefung-ziw-bkp-struktur.md`.
 
+## Raw-Material-Status (Verdichtungsstand, nachgeführt 29.08.2026)
+
+Prüfung 29.08.2026 (Schub-Lane grobkosten, Auftrag Raphael): alle 18 realen Roh-Belege in
+`raw/` (ohne `README.md`, `_INGESTED.md`) sind bereits in `wiki/kennwerte.md` verdichtet oder
+mit Begründung verworfen — Beleg: jede Datei steht im Frontmatter `sources:` von
+`kennwerte.md`, jede mit Kostenstand und Projektbezug in den Run-Abschnitten (Run 1–18,
+Vertiefungsläufe bis 23.08.2026). Kein unverarbeiteter Eintrag gefunden.
+
+| Raw-Datei | Status | Kennwert / Fundstelle in `kennwerte.md` |
+|---|---|---|
+| `2414-thalwil.md` | eingearbeitet | 1'600 / 800 CHF/m³ Teilvolumen, Einzelfall n=1, Preisstand 03/2025 (Abschnitt "Erste reale Datenpunkte") |
+| `2518-grubenackerstrasse.md` | eingearbeitet, unverifiziert | 950–1'050 CHF/m³, Einzelfall n=1, GV nicht SIA-416-geprüft, Preisstand 04/2023 |
+| `2515-wartstrasse.md` | geprüft, nicht verwertbar | kein GV im Dokument |
+| `2202-ackersteinstrasse.md` | geschlossen, nicht verwertbar | 4 widersprüchliche Kostenstände, Ursache geklärt (Mandat endete vor Ausführung 09/2023) |
+| `2304-reckholdern.md` | eingearbeitet | 1'735 CHF/m³ (GV 1'986 m³, BKP 1–5, Preisstand 12/2023), Einzelfall n=1 — Vorlagen-Kontamination in Parallel-Dokument nachgewiesen und in `QUESTIONS.md` dokumentiert |
+| `kennwerte-jans-referenzdokument.md` | eingearbeitet | 4'485 CHF/m² GF (BKP 1–5), Parallelsektion, nicht in m³-Tabelle konvertiert |
+| `8155-niederhasli-seestrasse64.md` | eingearbeitet | 1'032 CHF/m³ (GV 3'843.8 m³, BKP 1–5 einzeln), Preisstand 07/2025, stärkster Beleg |
+| `2001-haus-deuber-thalwil.md` | eingearbeitet | 1'086 CHF/m³ (GV 2'725 m³, eBKP-H), Preisstand 10/2020 |
+| `2411-wald-haselstudstrasse.md` | dokumentiert, nicht promoviert | Kostentotal als "BKP 1-9" bezeichnet, BKP9-Vorbehalt ungeklärt |
+| `2412-ebmatingen-grossacher.md` | dokumentiert, nicht promoviert | kein GV im Dokument |
+| `2305-waedenswil-precheck.md` | dokumentiert, nicht promoviert | vertieft Frage 1 (BKP-1-9-vs-1-5-Doppeldeutigkeit im Tool), kein eigener Kennwert |
+| `2620-albertstrasse.md` | eingearbeitet | 2'500 CHF/m³ Umbau-Einzelfall n=1, Preisstand 07.03.2026 |
+| `zuercher-index-wohnbaukosten-1939-2025.md` | eingearbeitet | Baupreisindex-Faktorentabelle (Abschnitt "Baupreisindex ZH") |
+| `zuercher-index-wohnbaupreise-2025-10-update.md` | eingearbeitet | Indexstände 01.10.2025 / 01.04.2026 nachgetragen |
+| `2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md` | eingearbeitet | Holzbau-Zuschlag ≈0 % bis +13 %, mit BFS-Reihe fortgeschrieben (Abschnitt "Zuschläge") |
+| `2105-steinkogler-davos.md` | dokumentiert, nicht promoviert | Eingriffstiefen-Bandbreiten (S/M/L/XL) statt GV × Kennwert, kein m³-Bezug |
+| `schaetzungsanleitung-kap5-neuwert-richtwerte-bauklassen.md` | eingearbeitet | historischer Cross-Check Tab. 2/Tab. 3 (Abschnitt "Run 12") — Ursprung von Frage 1 |
+| `2304-waedenswil-residualwert-zwei-varianten.md` | geschlossen, nicht verwertbar | Kostensumme nur als "BKP 1-9"-Total ausgewiesen, kein GV/BKP-1-5-Tripel |
+
+**Einziger verbleibender Block:** eine MFH-Median-Bildung (n≥2) hängt an zwei rein durch
+Raphael entscheidbaren Fragen (BKP-Scope Tab. 2, Standard-Klassifikation "norm, eloquent") —
+siehe `QUESTIONS.md`, Eintrag 23.08.2026 "vier strukturelle Fragen direkt an Raphael gestellt".
+Ohne neues Rohmaterial oder diese Entscheide gibt es keinen weiteren Verdichtungsschritt; ein
+erzwungener neuer Wiki-Artikel ohne neue Belege wäre gegen die Regel "Kennwerte nie raten".
+
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).
