@@ -1,5 +1,16 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## ✅ GEKLÄRT 2026-08-29 (Schub-Lane BAURECHT-THALWIL) — Baulinien: direkter Zeiger gesetzt statt indirekter Pfad
+
+**Entscheid zur offenen Frage aus Run 45 (unten):** direkter Verweis gewählt. `wiki/baulinien-und-abstandslinien.md`,
+Abschnitt 5 „Anwendungs-Transfer JANS", trägt jetzt einen eigenen Punkt „Fallen des Beschaffungswegs
+selbst", der explizit auf `planungsgrundlagen/wiki/kartenportale-baulinien-abstandslinien-zh.md`
+verweist (ZH-OGD-WFS, ±150-m-Fenster, proj-Layer-Namensschema, senkrechte Abstandsmessung). Begründung:
+der indirekte Pfad über `wiki/abstaende-und-hoehen.md` Z. 272 zwingt den Leser über einen Umweg-Artikel;
+da die Führungsmatrix diesen Artikel bereits als führend für die materielle Würdigung ausweist, gehört
+der Zeiger auf die Beschaffungsseite direkt hierher. Reine Ergänzung (append), kein bestehender Text
+verändert.
+
 ## OFFEN 2026-08-27 (Wissens-Chef Run 45) — Baulinien: braucht der Rechtsartikel einen direkten Zeiger auf den Geodatum-Artikel?
 
 `wiki/baulinien-und-abstandslinien.md` ist laut Fuehrungsmatrix fuehrend fuer die **materielle**

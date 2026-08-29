@@ -3,6 +3,34 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-29c (Schub-Lane BAURECHT-THALWIL, dritter Lauf) — Baulinien-Querverweis geschlossen, ein Fehlbefund widerlegt
+
+Reglemente-Queue und Priorität (d) bleiben vollständig geschlossen (siehe die beiden Einträge vom
+selben Tag unten); statt eines dritten Nullbefunds wurden gezielt die verbleibenden echten
+QUESTIONS-Restposten im Themenfeld Umgebungs-/Gestaltungsrecht gesichtet.
+
+- **`wiki/QUESTIONS.md` (offener Punkt Run 45, 27.08.2026) entschieden:** `wiki/baulinien-und-
+  abstandslinien.md` erhält in Abschnitt 5 einen direkten Zeiger auf
+  `planungsgrundlagen/wiki/kartenportale-baulinien-abstandslinien-zh.md` (Beschaffungsseite), statt
+  den Leser nur über den indirekten Pfad `abstaende-und-hoehen.md` zu führen. Neue GEKLÄRT-Sektion
+  oben in `QUESTIONS.md` angefügt, der ursprüngliche Eintrag bleibt unverändert stehen (append-only,
+  `git diff --numstat` zeigt für `QUESTIONS.md` `+11/-0`). Die Ergänzung in
+  `wiki/baulinien-und-abstandslinien.md` selbst wurde durch den laufenden Auto-Sync bereits vor
+  diesem Commit gesichert (Commit `f4e2fead2`, ebenfalls reine Ergänzung, kein bestehender Text
+  verändert).
+- **Geprüft und verworfen:** ein Vorbefund behauptete, `wiki/nutzungsziffern.md` trage im Feld
+  `verifiziert:` noch den Stand 2026-07-25 (Buch-Run 55), obwohl Nachtrag-134-Re-Verifikationen
+  (Run 94/122/130) bereits erfolgt seien. Am Frontmatter selbst geprüft: die Datei führt bereits
+  drei `verifiziert`-Einträge bis 2026-08-24 — kein Bookkeeping-Rückstand, keine Änderung nötig.
+- **Kein totes Recht gefunden:** die geprüften Umgebungsrecht-Artikel
+  (`umgebungsgestaltung-und-einfriedungen`, `abstaende-und-hoehen`, `baulinien-und-abstandslinien`,
+  `nutzungsziffern`, `zonenkonformitaet`, `gebaeudearten-und-abstandssystem`,
+  `strassenabstand-zufahrten-vorteilsabgabe-sz`) tragen bei jedem aufgehobenen Erlass bereits einen
+  Aufhebungsvermerk mit Nachfolgenorm. Kein ⚠-Markierungsbedarf.
+- **Verbleibend offen, nicht selbst schliessbar:** der PBG-Teilrevisions-Wachposten „Baulinien"
+  (RRB 1319/2024, KR-Geschäft 6000, noch nicht in Kraft) — echter externer Beobachtungsposten,
+  bereits als solcher geführt.
+
 ## 2026-08-29b (Schub-Lane BAURECHT-THALWIL, zweiter Lauf) — Fassungsstand-Wachposten T-01/T-02 nachgeprüft
 
 Queue-Status erneut bestätigt (weiterhin kein offener Batch, siehe Eintrag unten vom selben Tag).

@@ -1,9 +1,9 @@
 ---
 title: "INDEX architektur-fachwissen"
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-08-29
 sources:
-  - "raw/inventar/ (16 Sektionsinventare, 23.08.2026)"
+  - "raw/inventar/ (43 Sektionsinventare: 23 buero-referenzen, 20 archiv-fachwissen, Stand 29.08.2026)"
   - "wissen/architektur-fachwissen/CLAUDE.md (Korpus-Zuschnitt)"
   - "skills/wissens-destillat/KORPUS-QUEUE.md (Korpus 3 und 4)"
 links:
@@ -17,65 +17,106 @@ Büros** (`buero-referenzen`, `/Volumes/daten/04_Buero/10_Referenzenbibliothek`)
 **Architektur-Archiv** (`archiv-fachwissen`, `/Volumes/daten/02_Architektur_Archiv`). Beide
 standen in `skills/wissens-destillat/KORPUS-QUEUE.md` seit dem 28.07.2026 auf «wartet».
 
-**Stand 23.08.2026: Phase 0 (Inventar) abgeschlossen für 16 Sektionen.** Es gibt noch keinen
-Wiki-Artikel; dieser Index ist vorerst das Register der Inventardateien. Die Belegbasis liegt
-vollständig unter `raw/inventar/`, je Sektion eine Datei.
+**Stand 29.08.2026: Phase 0 (Inventar) abgeschlossen für 23 von 32 `buero-referenzen`-Sektionen
+und 20 von 23 `archiv-fachwissen`-Sektionen.** Für `buero-referenzen` sind mittlerweile alle
+P1-Positionen destilliert (P2 offen), für `archiv-fachwissen` läuft die Destillation seit
+29.08.2026 (Sperren s. u.). Die Belegbasis liegt vollständig unter `raw/inventar/`, je Sektion
+eine Datei.
 
 ## Kennzahlen
 
 | Korpus | Sektionen inventarisiert | Dateien gesichtet | P1 | P2 | P3 | X |
 |---|---|---|---|---|---|---|
-| `buero-referenzen` | 12 | 581 | 44 | 124 | 234 | 179 |
-| `archiv-fachwissen` | 4 | 8'023 | 69 | 507 | 4'194 | 3'253 |
-| **Total** | **16** | **8'604** | **113** | **631** | **4'428** | **3'432** |
+| `buero-referenzen` | 23 (Zeile veraltet, s. Fussnote) | 581 | 44 | 124 | 234 | 179 |
+| `archiv-fachwissen` | 20 | ≈59'545 | ≈400 | ≈4'884 | ≈15'965 | ≈30'035 |
+| **Total** | **43** | **≈60'126** | **≈444** | **≈5'008** | **≈16'199** | **≈30'214** |
 
 Triage-Stufen nach `CLAUDE.md`: `P1` unmittelbar büroverwertbar, `P2` nützlich und später
 destillierbar, `P3` Archivwert, `X` verwerfen (veraltet, privat, Dublette).
 
+**Fussnote zur `buero-referenzen`-Zeile:** Die Sektionenzahl ist auf den in `KORPUS-QUEUE.md`
+belegten Stand 23 korrigiert (29.08.2026), die Spalten Dateien/P1/P2/P3/X stammen aber
+unverändert noch vom 23.08.2026-Teilstand der ursprünglich 12 registrierten Sektionen — für die
+elf seither hinzugekommenen Sektionen (u. a. `20_Rendering`, `22_Terminplanung`,
+`26_Zeichendateien_Vorlagen`) fehlt die zusammenfassende Kennzahl. Nachtrag in
+`wiki/QUESTIONS.md`.
+
+**Fussnote zur `archiv-fachwissen`-Zeile:** Werte mit ≈ sind Summen aus Sektionen, deren
+Inventar teils Datei- und teils Positionszahlen ausweist (z. B. zählt `01_Entwerfen` 47
+Triage-Positionen für 1'246 Dateien); die Summenspalte «Dateien gesichtet» und die
+P1–X-Spalten sind deshalb nicht in jeder Zeile deckungsgleich. Herkunft je Sektion: Tabelle
+«Sektionen nach Ertrag» unten.
+
 **Abdeckung:** Die beiden Korpora umfassen laut `CLAUDE.md` 32 beziehungsweise 23 Sektionen,
-zusammen 55. Inventarisiert sind davon 16. Der Bestand dieses Index ist also ein Ausschnitt,
-kein Vollbild; welche Sektionen fehlen, ist in `QUESTIONS.md` (260823 #1) festgehalten.
+zusammen 55. Inventarisiert sind davon 43 (23 + 20). Drei archiv-fachwissen-Sektionen und neun
+buero-referenzen-Sektionen sind noch offen; welche, ist in `QUESTIONS.md` (260823 #1, dort
+nachzuführen) festgehalten.
 
 ## Sektionen nach Ertrag
 
 Geordnet nach der Zahl der P1-Positionen, also nach unmittelbar büroverwertbarer Substanz.
-Die Zahl in Klammern ist P1 von gesichteten Dateien.
+Die Zahl in Klammern ist P1 von gesichteten Dateien. **Nachgeführt 29.08.2026 (Lane
+FACHWISSEN):** alle 20 vorhandenen `archiv-fachwissen`-Inventardateien neu erfasst (zuvor
+waren nur vier archiv-Sektionen registriert). `P1` zählt hier durchgehend **Dateien**, nicht
+Triage-Zeilen — bei mehreren archiv-Sektionen (z. B. `02_Gestalt_Kulturverstaendnis`,
+`01_Konstruktion`) fasst eine einzelne Triage-Zeile eine ganze Dateigruppe zusammen; die
+tatsächliche Zahl der Destillations-*Positionen* ist entsprechend kleiner und steht im
+jeweiligen Inventar unter «Triage».
 
 ### Trägerschicht (P1 zweistellig)
 
 | # | Sektion | Korpus | P1 / gesichtet | Was drinsteckt | Inventar |
 |---|---|---|---|---|---|
-| 01 | `03_Bauprozesse_I_II` | archiv | 58 / 524 | Das ETH-Studien- und Arbeitsarchiv zu «Bauprozesse I & II» trägt vollständige Originalnormen (SIA 112:2001, 102:2003, 416:2003, 142:2009, 500:2009, VKF 2015, VSS 640 291a), die geschlossene Kostenplanungskette am Objekt Leutschenbach, das eBKP-H 2012 samt CRB-Musterbeispiel und den eigenen Grobkosten-Fachtext von Raphael Jans. | `raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` |
-| 02 | `18_Projektkostenplanung` | buero | 16 / 28 | Ein einziger Grossbau (Schulanlage Leutschenbach) liegt hier über alle Kostenermittlungsstufen von der Kostenschätzung 2003 bis zum Finanzrapport 2006 vor, dazu die Genauigkeitsbänder je Projektphase, die Anrechenbarkeitssätze der honorarberechtigten Bausumme und zwei SIA-102-Rechenwerke. | `raw/inventar/buero-referenzen__18_Projektkostenplanung.md` |
-| 03 | `10_Modellbauen` | buero | 12 / 235 | Eine über vier Jahre gewachsene Betonmodell-Rezeptur- und Verfahrenssammlung aus dem Umfeld Christian Kerez (zwölf Mischungsversuche mit Schlussformel, Fehlerkatalog A bis G) plus ein zitierfähiges Betontechnologie-Merkblatt von Heinz Richner, das bis zum Sichtbeton 1:1 trägt. | `raw/inventar/buero-referenzen__10_Modellbauen.md` |
+| 01 | `02_Gestalt_Kulturverstaendnis` | archiv | 146 / 5'664 | Raphael Jans' persönliche Denk- und Darstellungswerkstatt (2007–2015): ein eigenes datiertes Typografie-Regelwerk, ein Wettbewerbs-Referenzkorpus mit 22 Juryberichten und 19 Projektbeschrieben, ein Betonforum-Fachaussagenkonvolut zu Schwinden/Rissbildung/Sichtbetonqualität, Modellfoto-Methodik und ein 305 Begriffsordner grosser Begriffsapparat. Nur 10 Triage-Positionen für die 146 Dateien; **P1 rund, keine Einzelfile-Zählung** laut Inventar. | `raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md` |
+| 02 | `01_Konstruktion` | archiv | 101 / 8'791 | Konstruktions- und Bauphysik-Studienarchiv HTA/ETH (2002–2014): Fassadensysteme-Typologie, Uw-Wert-Berechnungsgrundlagen, AHB-Planungsrichtlinie der Stadt Zürich, funktionale Ausschreibung als Fachtext — nur 4 Triage-Positionen für die 101 Dateien. Jede Kennzahl trägt Normstand 1991–2010, Destillate zwingend `status: speculative`. | `raw/inventar/archiv-fachwissen__01_Konstruktion.md` |
+| 03 | `03_Bauprozesse_I_II` | archiv | 58 / 524 | Das ETH-Studien- und Arbeitsarchiv zu «Bauprozesse I & II» trägt vollständige Originalnormen (SIA 112:2001, 102:2003, 416:2003, 142:2009, 500:2009, VKF 2015, VSS 640 291a), die geschlossene Kostenplanungskette am Objekt Leutschenbach, das eBKP-H 2012 samt CRB-Musterbeispiel und den eigenen Grobkosten-Fachtext von Raphael Jans. | `raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` |
+| 04 | `02_Architekturtheorie` | archiv | 21 / 1'603 | Vorlesungsreihe Architekturtheorie ETH (Moravánszky/Hildebrand) mit rund 20 eigenen, durchformulierten Frage-Antwort-Katalogen zu Stil, Tektonik, Typus und Ornament. | `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` |
+| 05 | `18_Projektkostenplanung` | buero | 16 / 28 | Ein einziger Grossbau (Schulanlage Leutschenbach) liegt hier über alle Kostenermittlungsstufen von der Kostenschätzung 2003 bis zum Finanzrapport 2006 vor, dazu die Genauigkeitsbänder je Projektphase, die Anrechenbarkeitssätze der honorarberechtigten Bausumme und zwei SIA-102-Rechenwerke. | `raw/inventar/buero-referenzen__18_Projektkostenplanung.md` |
+| 06 | `10_Protomodern` | archiv | 13 / 519 | Raphael Jans' nie abgeschlossenes Buch-/Manifestprojekt «Protomodern» (2013/14): dichte Schicht eigener Theorietexte, teils nur als Ordnerstruktur/Fragenregister vorhanden. | `raw/inventar/archiv-fachwissen__10_Protomodern.md` |
+| 07 | `10_Modellbauen` | buero | 12 / 235 | Eine über vier Jahre gewachsene Betonmodell-Rezeptur- und Verfahrenssammlung aus dem Umfeld Christian Kerez (zwölf Mischungsversuche mit Schlussformel, Fehlerkatalog A bis G) plus ein zitierfähiges Betontechnologie-Merkblatt von Heinz Richner, das bis zum Sichtbeton 1:1 trägt. | `raw/inventar/buero-referenzen__10_Modellbauen.md` |
+| 08 | `02_Architekturgeschichte` | archiv | 11 / 3'826 | Kunst-/Architekturgeschichte-Studienarchiv ETH/HTA mit Analyseraster für Gebäudeanalysen, Fachglossar historischer Bauteile und einer geprüften Referenz-Objektliste. | `raw/inventar/archiv-fachwissen__02_Architekturgeschichte.md` |
+| 09 | `02_Kunst_Geschichte` | archiv | 11 / 27'649 | Mit 27'649 Dateien die grösste Einzelsektion des ganzen Korpus (zu 54 % Website-Spiegel); büroverwertbar sind Analyseraster, ein Architekturfotografie-Kanon und Bestandes-/Umbau-Argumentation — sehr dünner Ertrag im Verhältnis zum Volumen. | `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)
 
 | # | Sektion | Korpus | P1 / gesichtet | Was drinsteckt | Inventar |
 |---|---|---|---|---|---|
-| 04 | `02_Denkmalpflege` | archiv | 8 / 156 | Der ETH-Studienapparat zur Vorlesung Hassler liefert mit dem SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken», der SVTSM-Trockenmauer-Richtlinie samt Devisierungskapitel, den Kalk- und Pigmentrezepturen von Glaser und der Begriffssystematik Petzet/Mader vier sofort einsetzbare Bausteine für die Bestandsarbeit. | `raw/inventar/archiv-fachwissen__02_Denkmalpflege.md` |
-| 05 | `17_Projektbeschriebe` | buero | 7 / 18 | Die Sektion enthält genau ein Projekt, dafür das vollständige Set der Projektbeschriebe aller Fachplaner der Schulanlage Leutschenbach, verdichtet zum revidierten Gesamtdossier vom 09.12.2009, mit belegten Fassaden-, Minergie-, Tragwerks- und Lüftungswerten. | `raw/inventar/buero-referenzen__17_Projektbeschriebe.md` |
-| 06 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
-| 07 | `12_Masse` | buero | 2 / 11 | Acht gescannte Seiten einer Konstruktionslehre Hochbau tragen die Achs- und Wandabstände von Sanitärapparaten in den drei Stufen Minimum, Durchschnitt und Komfort über sieben Nasszellen-Grundrisstypen, dazu Montagehöhen und hindernisfreie WC-Masse; die übrigen neun Dateien sind Dubletten oder unbelegt. | `raw/inventar/buero-referenzen__12_Masse.md` |
-| 08 | `21_Rhino` | buero | 2 / 180 | Ein geschlossenes McNeel-Lernpaket zu Rhinoceros 4.0 ohne jeden Architekturbezug, dessen schmaler büroverwertbarer Kern die Planausgabe-Kette (Make2D, Page Layout, Massstab, Print Width) und die Exportregeln samt Meshing-Toleranzfalle sind. | `raw/inventar/buero-referenzen__21_Rhino.md` |
-| 09 | `02_Bibliothek` | archiv | 2 / 6'947 | Mit 6'947 Dateien die grösste, aber dünnste Sektion: sie verwaltet eine Bibliothek statt sie zu sein, und trägt drei Nester (Grundrisskompendium Wohnhochhaus ETH HS14, Neufert-Scan, INSA-Inventar Zürich 1850 bis 1920) sowie 287 kuratierte Seminarreise-Reader. | `raw/inventar/archiv-fachwissen__02_Bibliothek.md` |
-| 10 | `01_Innenarchitektur` | archiv | 1 / 396 | Eine Studien- und Interessensammlung ohne LV-, BKP-, Norm- oder Konstruktionsmaterial, deren Substanz in drei Konvoluten liegt (44 Seiten «Encyclopedia of Interior Design», Auktionskatalog «Important Nordic Design» mit voller Textebene, quellenannotiertes Bildarchiv von 136 Innenraumaufnahmen). | `raw/inventar/archiv-fachwissen__01_Innenarchitektur.md` |
+| 10 | `02_Denkmalpflege` | archiv | 8 / 156 | Der ETH-Studienapparat zur Vorlesung Hassler liefert mit dem SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken», der SVTSM-Trockenmauer-Richtlinie samt Devisierungskapitel, den Kalk- und Pigmentrezepturen von Glaser und der Begriffssystematik Petzet/Mader vier sofort einsetzbare Bausteine für die Bestandsarbeit. | `raw/inventar/archiv-fachwissen__02_Denkmalpflege.md` |
+| 11 | `01_Staedtebau` | archiv | 8 / 51 (von ~8'800 Gesamtbestand, nur 51 einzeln geöffnet) | Städtebau-Studienarchiv ETH (Lampugnani/Christiaanse); eigenes Städtebau-Glossar, Analyseraster, ein städtebauliches Manifest von 2014. | `raw/inventar/archiv-fachwissen__01_Staedtebau.md` |
+| 12 | `17_Projektbeschriebe` | buero | 7 / 18 | Die Sektion enthält genau ein Projekt, dafür das vollständige Set der Projektbeschriebe aller Fachplaner der Schulanlage Leutschenbach, verdichtet zum revidierten Gesamtdossier vom 09.12.2009, mit belegten Fassaden-, Minergie-, Tragwerks- und Lüftungswerten. | `raw/inventar/buero-referenzen__17_Projektbeschriebe.md` |
+| 13 | `01_Entwerfen` | archiv | 6 / 1'246 | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
+| 14 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
+| 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Dachbegrünung, Pflanzenlisten und ein Gartenanalyse-Raster (Vogt-Broschüren). Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
+| 16 | `01_Tragwerk` | archiv | 4 / 1'098 | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen und Formfindung. Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
+| 17 | `00_Allgemein` | archiv | 3 / 19 | Meta-Ebene des Archivs: Ordnungslogik (24 Hauptordner) und ein eigenes 14-teiliges Fachsystematik-Konzeptpapier von 2011, kein Fachinhalt im engeren Sinn. | `raw/inventar/archiv-fachwissen__00_Allgemein.md` |
+| 18 | `02_Architektur_Vermitteln` | archiv | 3 / 85 | Lehrmaterial zur Vermittlung: Rhetorik, Moderation, Protokoll, Geschäftskorrespondenz, wissenschaftliches Arbeiten — direkt anschlussfähig an mehrere JANS-Skills. Datenschutz-Fund: private Kontaktdaten Dritter auf Studienarbeits-Titelblättern, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__02_Architektur_Vermitteln.md` |
+| 19 | `12_Masse` | buero | 2 / 11 | Acht gescannte Seiten einer Konstruktionslehre Hochbau tragen die Achs- und Wandabstände von Sanitärapparaten in den drei Stufen Minimum, Durchschnitt und Komfort über sieben Nasszellen-Grundrisstypen, dazu Montagehöhen und hindernisfreie WC-Masse; die übrigen neun Dateien sind Dubletten oder unbelegt. | `raw/inventar/buero-referenzen__12_Masse.md` |
+| 20 | `21_Rhino` | buero | 2 / 180 | Ein geschlossenes McNeel-Lernpaket zu Rhinoceros 4.0 ohne jeden Architekturbezug, dessen schmaler büroverwertbarer Kern die Planausgabe-Kette (Make2D, Page Layout, Massstab, Print Width) und die Exportregeln samt Meshing-Toleranzfalle sind. | `raw/inventar/buero-referenzen__21_Rhino.md` |
+| 21 | `02_Bibliothek` | archiv | 2 / 6'947 | Mit 6'947 Dateien die grösste, aber dünnste Sektion: sie verwaltet eine Bibliothek statt sie zu sein, und trägt drei Nester (Grundrisskompendium Wohnhochhaus ETH HS14, Neufert-Scan, INSA-Inventar Zürich 1850 bis 1920) sowie 287 kuratierte Seminarreise-Reader. | `raw/inventar/archiv-fachwissen__02_Bibliothek.md` |
+| 22 | `01_Innenarchitektur` | archiv | 1 / 396 | Eine Studien- und Interessensammlung ohne LV-, BKP-, Norm- oder Konstruktionsmaterial, deren Substanz in drei Konvoluten liegt (44 Seiten «Encyclopedia of Interior Design», Auktionskatalog «Important Nordic Design» mit voller Textebene, quellenannotiertes Bildarchiv von 136 Innenraumaufnahmen). | `raw/inventar/archiv-fachwissen__01_Innenarchitektur.md` |
 
 ### Ohne P1, aber mit destillierbarem Rest
 
 | # | Sektion | Korpus | P1 / gesichtet | Was drinsteckt | Inventar |
 |---|---|---|---|---|---|
-| 11 | `15_Oberflaechenbehandlung` | buero | 0 / 1 | Eine einzige, fachlich dichte Aktennotiz einer Betontechnologin von 2007 trennt die Nachfixierung trockener Sichtbetonflächen mit Kaliwasserglas von der oliophoben und hydrophoben Imprägnierung spritzwasserexponierter Flächen und ist nur wegen Preisstand 2007 und fehlendem Preisanhang P2 statt P1. | `raw/inventar/buero-referenzen__15_Oberflaechenbehandlung.md` |
-| 12 | `19_Puplikationen` | buero | 0 / 4 | Ein abgeschlossenes Altbestands-Nest ohne JANS-Eigenbezug, dessen Layout-Andruck sechs Schweizer Einfamilienhäuser 2005 bis 2007 mit Flächen, Terminen und vollständigen Planerteams belegt, während die drei El-Croquis-Scans mangels Titel und Textebene nicht zitierfähig sind. | `raw/inventar/buero-referenzen__19_Puplikationen.md` |
-| 13 | `11_Landschaftsarchitektur` | buero | 0 / 1 | Die Sektion besteht aus einem einzigen Fremd-Projektblatt von Vogt Landschaftsarchitekten zum Bahnhofplatz Landquart, verwertbar allein wegen des belegten Beschriebs des roten Terraton-Belags mit Ziegelbruch und des sauberen Projektdatenblatt-Layouts. | `raw/inventar/buero-referenzen__11_Landschaftsarchitektur.md` |
-| 14 | `31_Klimadaten` | buero | 0 / 2 | Zwei Einzelgrafiken ohne ein einziges Textdokument, von denen nur das Sonnenpfad-Diagramm Zürich mit den zeitinvarianten Kulminationshöhen (rund 66 Grad, 43 Grad, 20 Grad) brauchbar ist, und dies ohne Quellenangabe und damit nicht als Beleg. | `raw/inventar/buero-referenzen__31_Klimadaten.md` |
+| 23 | `15_Oberflaechenbehandlung` | buero | 0 / 1 | Eine einzige, fachlich dichte Aktennotiz einer Betontechnologin von 2007 trennt die Nachfixierung trockener Sichtbetonflächen mit Kaliwasserglas von der oliophoben und hydrophoben Imprägnierung spritzwasserexponierter Flächen und ist nur wegen Preisstand 2007 und fehlendem Preisanhang P2 statt P1. | `raw/inventar/buero-referenzen__15_Oberflaechenbehandlung.md` |
+| 24 | `19_Puplikationen` | buero | 0 / 4 | Ein abgeschlossenes Altbestands-Nest ohne JANS-Eigenbezug, dessen Layout-Andruck sechs Schweizer Einfamilienhäuser 2005 bis 2007 mit Flächen, Terminen und vollständigen Planerteams belegt, während die drei El-Croquis-Scans mangels Titel und Textebene nicht zitierfähig sind. | `raw/inventar/buero-referenzen__19_Puplikationen.md` |
+| 25 | `11_Landschaftsarchitektur` (buero) | buero | 0 / 1 | Die Sektion besteht aus einem einzigen Fremd-Projektblatt von Vogt Landschaftsarchitekten zum Bahnhofplatz Landquart, verwertbar allein wegen des belegten Beschriebs des roten Terraton-Belags mit Ziegelbruch und des sauberen Projektdatenblatt-Layouts. **Achtung Namenskollision:** nicht zu verwechseln mit `01_Landschaftsarchitektur` (archiv, Zeile 15), anderer Korpus. | `raw/inventar/buero-referenzen__11_Landschaftsarchitektur.md` |
+| 26 | `31_Klimadaten` | buero | 0 / 2 | Zwei Einzelgrafiken ohne ein einziges Textdokument, von denen nur das Sonnenpfad-Diagramm Zürich mit den zeitinvarianten Kulminationshöhen (rund 66 Grad, 43 Grad, 20 Grad) brauchbar ist, und dies ohne Quellenangabe und damit nicht als Beleg. | `raw/inventar/buero-referenzen__31_Klimadaten.md` |
+| 27 | `06_Reisen` | archiv | 0 / 132 (P2 9, P3 24, X 99) | Arbeitsordner zweier privater Studienreisen 2013 (USA, Toskana) plus Veneto-Planung; methodisch verwertbar ist höchstens die Reise-/Exkursionsplanung (Factsheet, Stundenraster). **Starker Privatunterlagen-Befund** (Pass-/ESTA-/Buchungsdaten, s. u.) — vor jeder Destillation die Kurator-Prüfung nach Spec Punkt 8 durchführen; im Zweifel auch die P2-Reste nicht destillieren. | `raw/inventar/archiv-fachwissen__06_Reisen.md` |
 
 ### Ohne Ertrag
 
 | # | Sektion | Korpus | P1 / gesichtet | Befund | Inventar |
 |---|---|---|---|---|---|
-| 15 | `16_Portfolios` | buero | 0 / 83 | Keine Fachbibliothek, sondern eine Ablage eingegangener Bewerbungsmappen 2007 bis 2010 mit Personendaten Dritter; der einzige Fachfund ist die falsch benannte Datei `Oligati_Valerio_CB770.pdf`, ein Casabella-Ausschnitt zu Valerio Olgiati. | `raw/inventar/buero-referenzen__16_Portfolios.md` |
-| 16 | `14_Modellfotos` | buero | 0 / 1 | Faktisch leer: eine einzige TIFF-Innenraumperspektive ohne Text, Masse und Kennwerte, aus der sich nichts destillieren lässt und deren Projektzuordnung ungeklärt ist. | `raw/inventar/buero-referenzen__14_Modellfotos.md` |
+| 28 | `16_Portfolios` | buero | 0 / 83 | Keine Fachbibliothek, sondern eine Ablage eingegangener Bewerbungsmappen 2007 bis 2010 mit Personendaten Dritter; der einzige Fachfund ist die falsch benannte Datei `Oligati_Valerio_CB770.pdf`, ein Casabella-Ausschnitt zu Valerio Olgiati. | `raw/inventar/buero-referenzen__16_Portfolios.md` |
+| 29 | `14_Modellfotos` | buero | 0 / 1 | Faktisch leer: eine einzige TIFF-Innenraumperspektive ohne Text, Masse und Kennwerte, aus der sich nichts destillieren lässt und deren Projektzuordnung ungeklärt ist. | `raw/inventar/buero-referenzen__14_Modellfotos.md` |
+| 30 | `04_Politik` | archiv | 0 / 4 | Reine Restablage 2012/13: ein Wikipedia-Ausdruck zu Pariser Grands Projets, zwei private Meinungsnotizen (eine davon religions-/gesellschaftspolitisch), ein Pressebild. Kein Drittpersonen-Bezug, aber die Datei selbst sperrt den Inhalt als privat. | `raw/inventar/archiv-fachwissen__04_Politik.md` |
+| 31 | `05_Kultur_Gesellschaft_Stil` | archiv | 0 / 7 | Kleinste Sektion, kein Architekturbezug: private Lese-/Seh-Ablage (Religionsphilosophie-Zeitschrift 1952, TV-Sendungshinweis, Screenshots). | `raw/inventar/archiv-fachwissen__05_Kultur_Gesellschaft_Stil.md` |
+| 32 | `07_Religion` | archiv | 0 / 2 | Genau zwei Dateien, eine private Bonhoeffer-Zitatsammlung ohne jeden Architekturbezug; laut Datenschutz-Vermerk deutet die Herauslösung eines Trauer-Abschnitts auf einen privaten Anlass hin. Kein Destillationskandidat. | `raw/inventar/archiv-fachwissen__07_Religion.md` |
+
+**Noch nicht in dieser Tabelle:** die 9 offenen `buero-referenzen`-Sektionen (Phase 0 fehlt) und
+die 3 offenen `archiv-fachwissen`-Sektionen (Phase 0 fehlt) — Auflistung in `QUESTIONS.md`.
 
 ## Querbefunde über die Sektionsgrenzen
 
@@ -131,6 +172,46 @@ setzt eine Indexierung voraus, die ausserhalb dieser KB beschafft werden muss.
 - **Zweckbindung:** Die beiden DXF im Wettbewerbspaket St.Gallen unterliegen laut
   Datenbegleitdokument einer Löschpflicht nach Projektabschluss und dürfen weder verwendet
   noch weitergegeben werden.
+
+**Nachtrag 29.08.2026 (Lane FACHWISSEN, Sichtung der 17 zuvor unregistrierten
+archiv-fachwissen-Inventardateien) — weitere Personendaten-/Zugangsdaten-Funde, alle bereits
+von der jeweiligen Inventardatei selbst korrekt als `X` eingestuft bzw. bewusst nicht geöffnet,
+hier zusätzlich zentral vermerkt (Meldepflicht statt Eigenmächtigkeit, Rule
+`auto-verbesserungen` 260823):**
+
+- **`01_Konstruktion/00_Baustoffkonzept/Baustoffadressen`** — Lieferanten-Adresssammlung,
+  bewusst nicht geöffnet und nicht inventarisiert.
+- **`01_Landschaftsarchitektur/00_Administration/`** — Bezugsquellen-/Lieferantenliste mit
+  Firmenadressen, Ansprechpartnern, Direktwahl-/Mobilnummern, Kundennummern **und einem
+  Zugangspasswort im Klartext**; zusätzlich eine archivierte E-Mail mit privaten
+  Hochschul-Absender-/Empfängeradressen. Nicht erfasst. Dasselbe Muster wie bereits bei
+  `02_Bibliothek/03_Zeitschriften/Hochparterre/Passwort.docx` — ein zweiter Klartext-Zugangsdaten-
+  Fund in diesem Korpus.
+- **`01_Entwerfen`** — vier Fundstellen mit Personen-/Firmendaten Dritter (Prüfungs-
+  Einschreibelisten, eine Betriebs-Referenzliste mit Bauherrennamen und Ortsangaben
+  2006/2007, ein Wohngrössen-Blatt mit Bauherren-/Kontaktdaten), keine gelesen/ausgewertet.
+- **`01_Staedtebau/20_Die_Athmosphaerische_Stadt/FactShets_Staedte.docx`** — Gruppeneinteilung
+  mit Namen und Hochschul-Mailadressen von Mitstudierenden, als `X` eingestuft.
+- **`01_Tragwerk`** — mehrere Funde: Arbeitszeit-/Stundenzettel (8 Dateien), persönlicher
+  Schriftverkehr mit zwei namentlich benannten Personen (6 Dateien), Einsatz-/Teilnehmerlisten
+  mit Mailadressen/Telefonnummern (5 Dateien), eine Porträtaufnahme, sowie eine Teilnehmerliste
+  auf Seite 4 eines Readers.
+- **`02_Architektur_Vermitteln`** — Titelblätter mehrerer studentischer Beispielarbeiten und
+  eine Dispositionsvorlage mit privaten Wohnadressen, Telefonnummern und Mailadressen Dritter.
+- **`02_Kunst_Geschichte`** — eine Teilnehmerliste und zwei Gruppeneinteilungs-Dokumente eines
+  Hochschulmoduls (Namenslisten Studierender), sowie ein Reader-Deckblatt mit Privatadressen
+  und Hochschul-Mailadressen dreier Verfasser.
+- **`06_Reisen`** — erheblicher Umfang privater Reisedokumente: Ausweis-/Einreisedaten (ESTA),
+  Bordkarten, Flug-/Hotel-/Mietwagenbuchungen mit Personendaten und Beträgen, ein privater
+  Mailausdruck, eine private Wunschliste. Ganze Sektion unter verschärftem
+  Privatunterlagen-Vorbehalt (s. Tabelle oben, Zeile 27).
+- **Grenzfälle ohne Drittpersonen-Bezug, aber als privat gesperrt:** `04_Politik` (zwei private,
+  teils polemische Meinungsnotizen) und `07_Religion` (Trauer-Abschnitt, privater Anlass
+  erkennbar).
+
+Keiner dieser Funde wurde eigenmächtig aus dem Inventar entfernt; alle sind bereits in der
+jeweiligen Sektionsdatei als `X`/nicht geöffnet dokumentiert. Diese Zusammenfassung dient nur
+der zentralen Sichtbarkeit für künftige Läufe und für Raphael.
 
 ## Artikelbestand
 
