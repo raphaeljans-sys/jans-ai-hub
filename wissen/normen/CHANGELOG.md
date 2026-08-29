@@ -1,3 +1,49 @@
+## 2026-08-29 (Run 67, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — N62-3-Kandidatenliste abgeschlossen: letzte zwei VKF-Kernrichtlinien mit Prüfstand
+
+Fortsetzung von Run 66 (Wochenkontingent vor Montags-Reset): die zwei letzten offenen
+Kandidaten aus `training/n62-3-pruefstand-kandidaten.md` — beide Rang 2 (VKF-Kernrichtlinien)
+— abgearbeitet. Zugriff auf die massgebenden PL-03-Fassungen via Graph-Connector
+(`connectors/m365-graph.mjs`, Drive-ID `03 Brandschutz` neu aufgelöst und in
+`connectors/WEGE.md` nachgetragen), PDFs nach `/tmp` geladen und dort per `pdftoppm`/`pdftotext`
+ausgewertet. Beide Abdeckungsrichtungen liefen als parallele Hintergrund-Agenten je an einer
+eigenen Zieldatei (keine Schreibkollision).
+
+- **`vkf-ah-1001-15-wohnbauten.md`** (Rang 2, grösstes `established`-Destillat des Bestands ohne
+  Prüfstand, 731→923 Zeilen): Abdeckungsrichtung über alle 29 Seiten der massgebenden Fassung
+  01.01.2017/Stand 17.05.2018. **5 Kernlücken** (Ziff. 9 Zugang für die Feuerwehr und Ziff. 11
+  Betrieblicher Brandschutz fehlten als ganze Ziffern; Ziff. 6.4.5 Durchbrüche/Abschottungs­
+  systeme; Ziff. 10.1 Abs. 2-15, der Grossteil der Aufzugsschacht-Anforderungen; Ziff. 4.2.1.1
+  Abs. 3 Feuerwehrzugänglichkeit Dachflächen) und **9 Nebenlücken** nachgetragen, alle mit
+  Fundstelle. **0 falsche Normwerte.** Der Agent fand und korrigierte zusätzlich **5 eigene
+  Seitenzitat-Fehler** aus einem Zwischenschritt seiner eigenen Bearbeitung (nicht Bestandsfehler)
+  noch vor Abschluss selbst. Prüfstand-Tabelle neu, Status unverändert `established`.
+- **`vkf-brl-16-15-flucht-rettungswege.md`** (Rang 2, höchstes Personenschutz-Gewicht, Skill
+  `brandschutz` zieht direkt, 500→605 Zeilen): Abdeckungsrichtung mit Schwerpunkt Anhang S. 26-35
+  (laut Frontmatter bisher nie im Detail gelesen) plus vollständiges Gegenlesen S. 1-13.
+  **6 Kernlücken** (Ziff. 2.5.5 Abs. 4/5 — Torarten-Liste unvollständig, automatische Schiebe-/
+  Drehtüren fehlten ganz; Ziff. 4 Weitere Bestimmungen fehlte als Ziffer; Definition
+  Beherbergungsbetriebe [a] plus Geschoss-/Flächenschwelle; Anrechenbarkeit abgeschlossener
+  Parkingzugänge; Feuerwehraufzug-Schleuse 2.4×2.4 m) und **2 Nebenlücken** nachgetragen.
+  **0 falsche Normwerte**, aber **1 falsche Aussage über die Quelle selbst** gefunden: die
+  Begriffe-Zeile behauptete, die Definition von Beherbergungsbetriebe [a] stehe nicht im PDF —
+  sie steht dort (S. 12 und S. 31). Mit ⚠ inline korrigiert (Methodik-Pflicht 9). Prüfstand-
+  Tabelle neu, Status unverändert `established-mit-vorbehalt`.
+- `training/n62-3-pruefstand-kandidaten.md`: beide Kandidaten als erledigt markiert; neuer
+  Abschnitt 7 hält fest, dass damit **alle sechs** in Abschnitt 4 benannten Kandidaten (Rang 1-4)
+  einen Prüfstand tragen — die «volle Abdeckungsrunde» aus Abschnitt 6 Punkt 1 ist erfüllt.
+  Offen bleibt die dort unter Punkt 2 skizzierte Stichprobenrunde für den Mittelbau der übrigen
+  ~300 `established`-Destillate ohne Prüfstand — weiterhin Raphael vorzulegen, nicht
+  selbständig zu starten.
+
+**Was der Lauf methodisch zeigt.** Bei beiden Destillaten bestätigt sich das aus Run 62/64-66
+bekannte Muster: die Abdeckungsrichtung findet regelmässig echten, aber nicht falschen fehlenden
+Inhalt (weggelassener eigenständiger Inhalt, refuter-blind nach Methodik-Pflicht 13), während
+Ziffern, die bereits Gegenstand eines Fassungs-Delta-Vergleichs waren, praktisch lückenlos sind.
+Neu in diesem Lauf: bei `vkf-ah-1001-15-wohnbauten.md` lagen die Lücken auffällig in Kapiteln, die
+nie Teil eines Fassungs-Deltas waren (Ziff. 6.4, 9, 11) — ein Hinweis, dass Delta-fokussierte
+Destillier-Läufe systematisch die zwischen den Fassungen unveränderten Kapitel unterversorgen,
+weil dort nie ein Änderungs-Trigger bestand, sie zu lesen.
+
 ## 2026-08-29 (Run 66, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — N62-3-Kandidatenliste: drei Destillate erstmals mit Prüfstand
 
 Auftrag Raphael (Wochenkontingent vor Montags-Reset): nächste offene Kandidaten aus

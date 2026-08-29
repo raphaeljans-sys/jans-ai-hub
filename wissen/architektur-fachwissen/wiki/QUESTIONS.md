@@ -4,6 +4,39 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260829 — Destillat-Marathon Korpus 3 abgeschlossen (P1), Korpus 4 Spec geschrieben
+
+Quelle: neun Destillat-Läufe 29.08.2026, Lane FACHWISSEN. Alle P1-Positionen des Korpus
+`buero-referenzen` über sämtliche 23 inventarisierten Sektionen destilliert (46 Wiki-Artikel
+seit dem 29.08.2026, davon 37 in diesem Lauf); Spec für Korpus 4 `archiv-fachwissen`
+geschrieben.
+
+**#27 P2 von `buero-referenzen` ist komplett offen.** Über alle 23 Sektionen bleibt der
+gesamte P2-Bestand unbearbeitet (u. a. Christiaanse-Themenblätter, KCAP-Projektblätter,
+Oberflächenbehandlung-Aktennotiz, TERRATON-Herstellerbeschrieb, Lichtkonzept-Brief). Ein
+künftiger P2-Lauf ist nicht dringlich, aber nötig, bevor der Korpus im Sinn von
+`KORPUS-QUEUE.md` als «erledigt» gelten kann. Wer entscheidet, ob P2 vor oder nach Korpus 4
+folgt: Raphael oder der Loop-Betrieb nach Ertragslage.
+
+**#28 Phase 0 von `archiv-fachwissen` ist lückenhaft — drei der ursprünglich 23 geplanten
+Sektionen fehlen ganz.** `KORPUS-QUEUE.md` nannte am 23.08.2026 «4 von 23», tatsächlich
+liegen am 29.08.2026 bereits 20 Inventardateien vor; unklar bleibt, welche drei Sektionen
+noch nie inventarisiert wurden und ob 23 überhaupt die endgültige Sektionszahl des Archivs
+ist. Zu klären vor dem letzten Destillat-Lauf dieses Korpus.
+
+**#29 Vier Sektionen von `archiv-fachwissen` (`04_Politik`, `05_Kultur_Gesellschaft_Stil`,
+`06_Reisen`, `07_Religion`) sind ungeklärter Natur.** Die Spec `archiv-fachwissen-spec.md`
+markiert sie vorsorglich mit einem Privatunterlagen-Vorbehalt (reisejournalartiger
+Charakter denkbar), ohne sie im Detail geprüft zu haben — noch nicht einmal alle sind
+inventarisiert. Erste inhaltliche Prüfung steht aus.
+
+**#30 Christian Kerez erscheint in einer weiteren Sektion.** `03_Bauprozesse_I_II`
+(Korpus 4) enthält ein Kostenplanungs-Dossier zum selben Objekt Leutschenbach wie
+`18_Projektkostenplanung` (Korpus 3, bereits mit neun Artikeln destilliert). Die
+Korpus-4-Spec verlangt eine Duplikatsprüfung gegen `wiki/INDEX.md` vor jedem neuen
+Leutschenbach-Artikel; ob darüber hinaus weitere Christian-Kerez-Objekte in noch nicht
+inventarisierten Sektionen beider Korpora auftauchen, ist offen.
+
 ## 260823 — Inventar Phase 0, 16 Sektionen (Korpora buero-referenzen und archiv-fachwissen)
 
 Quelle aller Punkte: die 16 Inventardateien unter `raw/inventar/`, Lauf vom 23.08.2026.

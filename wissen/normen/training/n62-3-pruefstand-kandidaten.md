@@ -80,8 +80,8 @@ tragen `established` und erhebliches Gewicht:
 
 | Destillat | Zeilen | Warum |
 |---|---|---|
-| `vkf-ah-1001-15-wohnbauten.md` | 731 | Grösstes `established`-Destillat des Bestands ohne Prüfstand — **noch offen** |
-| `vkf-brl-16-15-flucht-rettungswege.md` | 500 | Fluchtwege — der Stoff mit dem höchsten Personenschutz-Gewicht; Skill `brandschutz` zieht direkt — **noch offen** |
+| `vkf-ah-1001-15-wohnbauten.md` | 731 (→ 923) | Grösstes `established`-Destillat des Bestands ohne Prüfstand — ✅ **ERLEDIGT (Run 67, 29.08.2026, Schub-Lane NORMEN-PRUEFSTAND).** Abdeckungsrichtung über alle 29 Seiten der massgebenden Fassung 2017/2018 (PL-03) gefahren: 5 Kernlücken (Ziff. 9 Zugang Feuerwehr, Ziff. 11 Betrieblicher Brandschutz, Ziff. 6.4.5 Durchbrüche/Abschottung, Ziff. 10.1 Abs. 2-15 Aufzugsschacht, Ziff. 4.2.1.1 Abs. 3) und 9 Nebenlücken ergänzt, dazu 5 eigene Seitenzitat-Fehler dieses Runs selbst gefunden und inline korrigiert. **0 falsche Normwerte.** Status unverändert `established`. Prüfstand-Tabelle im Destillat. |
+| `vkf-brl-16-15-flucht-rettungswege.md` | 500 (→ 605) | Fluchtwege — der Stoff mit dem höchsten Personenschutz-Gewicht; Skill `brandschutz` zieht direkt — ✅ **ERLEDIGT (Run 67, 29.08.2026, Schub-Lane NORMEN-PRUEFSTAND).** Abdeckungsrichtung gefahren, Schwerpunkt Anhang S. 26-35 (bisher nie gelesen) plus Gegenlesen S. 1-13: 6 Kernlücken (Ziff. 2.5.5 Abs. 4/5 Torarten, Ziff. 4 Weitere Bestimmungen, Beherbergungsbetriebe-[a]-Definition + Geschossschwelle, Parking-Anrechenbarkeit, Feuerwehraufzug-Schleuse 2.4×2.4 m) und 2 Nebenlücken ergänzt. **0 falsche Normwerte**, aber 1 falsche Quellenaussage (Beherbergung [a] angeblich «nicht im PDF») mit ⚠ inline korrigiert. Status unverändert `established-mit-vorbehalt`. Prüfstand-Tabelle im Destillat. |
 | `vkf-allgemein-anerkannte-bauprodukte-2017.md` | 289 | Trägt die Produktzulassungs-Logik — ✅ **ERLEDIGT (Run 66, 29.08.2026).** Abdeckungsrichtung über alle 12 Seiten gefahren (eigenes Rendering, MD5 erneut geprüft), **0 neue Befunde** — beide Prüfrichtungen jetzt vollständig auf der gesamten Quelle gelaufen, beide 0 Befunde. Erstes Destillat dieser Station mit diesem Doppelstatus. Prüfstand-Tabelle im Destillat. |
 
 ⚠ **Vor jeder Arbeit an VKF gilt Methodik-Pflicht 1**: die geltende Fassung liegt in **PL-03**,
@@ -157,3 +157,21 @@ Destillat zu messen, dessen Vollrunde bereits vorliegt — `sia-118-1991` oder `
 denn dort ist die Wahrheit bekannt und die Stichprobe damit kalibrierbar.
 
 **Vorzulegen, nicht selbst umzustellen.**
+
+## 7. Stand 29.08.2026 (Run 66/67, Schub-Lane NORMEN-PRUEFSTAND) — Rang 1-4 vollständig abgearbeitet
+
+Alle sechs in Abschnitt 4 benannten Kandidaten (Rang 1 `sia-416-2003.md`, die drei
+Rang-2-VKF-Kernrichtlinien, Rang 3 `sia-102-2014.md`, Rang 4 `sia-451-1992.md`) tragen jetzt
+einen Prüfstand; die dort unter Punkt 1 in Abschnitt 6 vorgesehene «volle Abdeckungsrunde» für
+die vier höchstpriorisierten Destillate (Rang 1 + VKF-Kernrichtlinien) ist erfüllt, inklusive
+der zwei zusätzlichen Kandidaten Rang 3/4. **Keiner der sechs zeigte einen falschen Normwert**;
+gefunden wurden ausschliesslich Vollständigkeits-Lücken (weggelassener, aber nicht falscher
+Inhalt) sowie zweimal falsche Selbstaussagen über die Quelle bzw. eigene Seitenzitat-Fehler,
+beide inline korrigiert. Die Trefferquote der Abdeckungsrichtung bleibt damit bei 8 von 8
+geprüften Destillaten dieser Reihe (416/1, 118, 102:2020, 102:2014, 451, VKF-Bauprodukte
+[Ausnahme: 0 Befunde], AH 1001-15, BRL 16-15).
+
+**Womit ist die Vorrang-Liste dieses Auftrags jetzt abgearbeitet.** Offen bleibt Punkt 2 aus
+Abschnitt 6 (Stichprobenrunde für den Mittelbau der 308 `established`-ohne-Prüfstand-Destillate)
+— das ist weiterhin **Raphael vorzulegen, nicht selbständig zu starten**, da die Trefferquote
+einer Stichprobe in dieser Reihe noch nie gemessen wurde (siehe Abschnitt 6, letzter Absatz).
