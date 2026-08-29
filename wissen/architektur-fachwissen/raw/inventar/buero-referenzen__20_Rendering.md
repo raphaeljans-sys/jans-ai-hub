@@ -169,3 +169,37 @@ Zuerst die neun Handouts und «Strategisches Entwerfen» in einen Wiki-Artikel
 «Entwurfsbegriffe und staedtebauliche Strategie» ueberfuehren, danach die Turbinenplatz-
 Methodik als eigenen Artikel «Standort- und Platzanalyse: Vorgehen». Die Buchscans
 bleiben liegen, die Pages-Doppel und die Lexikonabschriften werden nicht aufgenommen.
+
+## Destillat-Fortschritt
+
+- 2026-08-29: `Architektur III&IV/Architektur III/Handouts/08hs_vl3_struktur2.pdf` +
+  `08hs_vl6_huelle.pdf` (2 von 9 Handouts) → `wiki/entwurfsbegriffe-struktur-huelle-architektur3-eberle.md`
+- 2026-08-29: `Zusammenfassung EWE strategie/text/Artikel_se.pdf` +
+  `061027_HGKZ_NDS_UrbanIdentityandDesign_Reader.pdf` →
+  `wiki/strategisches-entwerfen-systematik-etappenprojekte.md`
+- 2026-08-29: `TURBINENPLATZ_Stadtanalyse_A_G_M.pdf` → `wiki/standortanalyse-methodik-turbinenplatz.md`
+- 2026-08-29: `101201_Erleuterungsbericht_def.pdf` →
+  `wiki/erlaeuterungsbericht-gattungsvorlage-vier-kapitel-diplom2010.md`
+
+Alle 5 P1-Positionen mit einem Artikel bedacht; vier Artikel nach Sache statt Datei.
+**Nachtrag selber Tag:** die restlichen sieben Architektur-III-Handouts einzeln gelesen
+(direkt im Archiv, nicht nur über die Inventar-Zusammenfassung):
+
+- `08hs_vl1_aussenraum.pdf` → `wiki/lebensdauer-hierarchie-nachhaltigkeit-architektur3.md`
+  (Lebensdauer-Hierarchie Ort/Primärstruktur/Hülle/Funktion/Oberfläche, Dichte-Begriff)
+- `08hs_vl5_charaktertypus2.pdf` → `wiki/typus-und-charakter-begriffsapparat-architektur3.md`
+  (Typus als Abstraktion, Charakter-Materialisierungs-Vokabular)
+- `08hs_vl7_programm1.pdf` → `wiki/programmflexibilitaet-nachhaltigkeit-raumprogramm-architektur3.md`
+  (Funktionsbegriff-Kritik, drei Flexibilitätsstrategien, «Raumprogramm keine
+  Nachhaltigkeitsstrategie»)
+- `08hs_vl2_struktur1.pdf`, `08hs_vl4_charaktertypus1.pdf`, `08hs_vl8_programm2.pdf`,
+  `08hs_vl9_innenraum_oberfl.pdf` → **kein extrahierbarer Fliesstext.** Diese vier Handouts
+  sind Vorlesungs-Arbeitsblätter mit Bildlegenden, Architekten-/Werknamen und Jahreszahlen,
+  aber durchgehend leeren Notizlinien statt ausformulierter Definition (im Unterschied zu
+  vl1, vl3, vl5, vl6, vl7, die zusammenhängenden Fliesstext tragen). Nicht destillierbar,
+  kein weiterer Lauf nötig.
+
+**Damit sind alle neun Handouts geprüft und alle 5 P1-Positionen dieser Sektion
+vollständig destilliert (7 Wiki-Artikel total).** P2 dieser Sektion bleibt vollständig
+offen. Urheberrechts- und Datenschutzvorbehalte der Sektion (Buchscans, Studierendennamen,
+Fremdrechnung) wurden eingehalten: keine Wortlaut-Übernahme, keine Namensnennung.

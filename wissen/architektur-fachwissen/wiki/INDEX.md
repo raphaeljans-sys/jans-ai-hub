@@ -227,7 +227,48 @@ Veranstalterprogramme, keine eingegangenen Offerten), daher keine Schwärzung n�
 
 Fortschritt und Begründung je Position in
 `raw/inventar/buero-referenzen__25_Wettbewerb.md` Abschnitt «Destillat-Fortschritt».
-P2 dieser Sektion bleibt offen. Nächster Lauf: gemäss Spec-Plan `20_Rendering`,
-danach ist Korpus `buero-referenzen` P1 gemäss aktuellem Spec-Plan vollständig und
-ein Statusentscheid («Korpus komplett» oder weitere P1-Sektionen ausserhalb des
-bisherigen Plans) fällig. Offene Fragen zu diesen Artikeln in `wiki/QUESTIONS.md`.
+P2 dieser Sektion bleibt offen.
+
+**Fünfter Destillat-Lauf 29.08.2026 (Lane FACHWISSEN, selber Tag, Fortsetzung):**
+Sektion `20_Rendering` (Zeile 03 «Trägerschicht» oben — trotz Namens keine
+Rendering-, sondern eine ETH-Theoriesektion) — **vollständig destilliert**, sieben
+Wiki-Artikel, alle `status: emerging`:
+
+- [[entwurfsbegriffe-struktur-huelle-architektur3-eberle]] — Struktur- und
+  Hülle-Begriffe (Architektur III, Professur Eberle)
+- [[strategisches-entwerfen-systematik-etappenprojekte]] — Strategie-Systematik,
+  fixe/flexible Parameter, Hypothese/Prognose/Szenario
+- [[standortanalyse-methodik-turbinenplatz]] — Stadtanalyse-Methodik in drei Ebenen,
+  Fragebogen-Vorgehen
+- [[erlaeuterungsbericht-gattungsvorlage-vier-kapitel-diplom2010]] —
+  Erläuterungsbericht-Gattungsvorlage, anonymisiert (Diplomarbeit ETH HS 2010)
+- [[lebensdauer-hierarchie-nachhaltigkeit-architektur3]] — fünfstufige
+  Lebensdauer-Hierarchie Ort/Primärstruktur/Hülle/Funktion/Oberfläche als
+  Nachhaltigkeits-Entscheidungsinstrument
+- [[typus-und-charakter-begriffsapparat-architektur3]] — Typus als Abstraktion,
+  Materialisierungs-Vokabular (Farbigkeit/Fugenbild/Oberfläche/Öffnungsanteil/
+  Plastizität) als Charakterträger
+- [[programmflexibilitaet-nachhaltigkeit-raumprogramm-architektur3]] —
+  Funktionsbegriff-Kritik, drei Flexibilitätsstrategien, «Raumprogramm keine
+  Nachhaltigkeitsstrategie»
+
+Von den neun Architektur-III-Handouts wurden alle neun einzeln direkt im Archiv
+gelesen (nicht nur über die Inventar-Zusammenfassung): sechs tragen
+ausformulierten Fliesstext und sind destilliert (vl1, vl3, vl5, vl6 bereits im
+ersten Teillauf, vl7 in diesem Nachtrag — macht mit den zwei bereits destillierten
+insgesamt fünf Artikel aus Architektur-III-Handouts), drei (vl2, vl4, vl8, vl9 —
+vier Dateien) sind reine Bildlegenden-Arbeitsblätter ohne extrahierbaren Fliesstext
+und bewusst nicht destilliert (im Inventar-Nachtrag begründet). Fortschritt in
+`raw/inventar/buero-referenzen__20_Rendering.md` Abschnitt «Destillat-Fortschritt».
+P2 dieser Sektion bleibt vollständig offen. Urheberrechts-/Datenschutzvorbehalte
+eingehalten: keine Wortlaut-Übernahme aus geschütztem Lehrmaterial, keine
+Studierendennamen.
+
+**Damit ist die im Spec-Plan vom 29.08.2026 vorgesehene Sektionsfolge
+(`18_Projektkostenplanung` → `10_Modellbauen` → `17_Projektbeschriebe` →
+`25_Wettbewerb` → `20_Rendering`) vollständig durchlaufen.** Nächster Lauf:
+`wiki/INDEX.md` «Sektionen nach Ertrag» neu gegen `raw/inventar/` abgleichen (die
+P1-einstelligen Sektionen `12_Masse`, `21_Rhino` u.a. sind noch unangetastet,
+ebenso das gesamte P2 aller fünf bisher bearbeiteten Sektionen) — der Korpus
+`buero-referenzen` ist damit noch **nicht** «erledigt» im Sinn von
+`KORPUS-QUEUE.md`. Offene Fragen zu diesen Artikeln in `wiki/QUESTIONS.md`.

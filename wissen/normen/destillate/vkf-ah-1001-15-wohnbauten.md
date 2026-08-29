@@ -85,6 +85,11 @@ eingefügt wurden. Alte Zitate laufen sonst ins Leere:
 
 ### Qualitätssicherung im Brandschutz (Ziff. 3, S. 5-6)
 
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** Alle betroffenen
+  Personen haben während des gesamten Lebenszyklus der Baute oder Anlage eine
+  wirkungsvolle Qualitätssicherung im Brandschutz sicherzustellen; die Massnahmen sind
+  regelmässig zu überprüfen und im Bedarfsfall anzupassen; die Qualitätssicherung ist
+  durch Eigen- oder Fremdüberwachung zu gewährleisten (Ziff. 3.1 Abs. 1-3, S. 6).
 - Wohnbauten geringer und mittlerer Höhe ohne besondere Brandrisiken werden der
   Qualitätssicherungsstufe 1 (QSS1) zugeordnet (Ziff. 3.2.1, S. 6).
 - Bei besonderen Brandrisiken kann die Brandschutzbehörde objektspezifisch eine
@@ -108,10 +113,26 @@ eingefügt wurden. Alte Zitate laufen sonst ins Leere:
   0.5 / 3 / 5 mm unverändert. Details im Delta-Abschnitt.
 - **[2017 geändert]** Baustoffe der RF4 nur hohlraumfrei und allseitig K30 gekapselt (Ziff. 4.1 Abs. 3, S. 7).
   — 2017 als Abs. 4 geführt, Ausnahmekatalog vollständig ersetzt.
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** weitere, im
+  Delta unveränderte Absätze von Ziff. 4.1 (2017 S. 7-8): mehrschichtige, feuerwiderstands-
+  fähige Bauteile mit brennbaren Anteilen gelten als Ganzes RF1, sofern sie allseitig
+  mit RF1 gekapselt sind (Kapselung mind. 30 Min. weniger als Feuerwiderstand des
+  Gesamtbauteils, mind. K30-RF1, Zwischenräume hohlraumfrei RF1 gefüllt, Abs. 5); bestehen
+  Aussenwand- oder Dachkonstruktionen nur aus der Aussenwand/dem Dach ohne eigenes
+  Bekleidungssystem, gelten die höheren Anforderungen von Ziff. 4.2/4.3 (Abs. 7); bei
+  bestimmungsgemässem Betrieb mit Temperaturen ≥ 85 °C müssen die Bauprodukte
+  dauerwärmebeständig sein (Abs. 8). Abs. 6 (Fensterrahmen RF3 (cr)) ist bereits im
+  Abschnitt «Fassung 2017 — Delta» oben erfasst.
 - Gebäudehülle mittlerer Höhe: Zugänglichkeit für Feuerwehr-Löscheinsatz gewährleisten,
   wenn brennbare Aussenwandbekleidungen/-dämmungen verwendet werden; Brandausbreitung
   an Aussenwand konstruktiv auf max. 2 Geschosse oberhalb Brandgeschoss begrenzen
-  (Ziff. 4.2.1.1, S. 8).
+  (Ziff. 4.2.1.1 Abs. 1-2, S. 8).
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** Ist die oberste
+  Schicht der Bedachung brennbar, muss die Zugänglichkeit für die Feuerwehr auf die
+  Dachflächen von aussen (z. B. Hubrettungsfahrzeug) gewährleistet sein, oder es ist ein
+  Treppenaufgang auf die Dachfläche erforderlich; als solcher gilt auch eine
+  Dachausstiegsluke mit Scherentreppe (keine Leiter), Mindestausstiegsöffnung
+  0.7 x 1.2 m (Ziff. 4.2.1.1 Abs. 3, S. 8).
 - Wärmedämm-Verbundsysteme (WDVS) an Gebäuden mittlerer Höhe mit brennbaren Dämmstoffen:
   VKF-anerkannte Konstruktion oder umlaufender Brandriegel RF1 (Schmelztemperatur
   ≥ 1'000 °C) mit Mindesthöhe 0.2 m je Geschoss (Ziff. 4.2.2.2, S. 8).
@@ -132,6 +153,11 @@ eingefügt wurden. Alte Zitate laufen sonst ins Leere:
   «Rohrdämmungen» geändert).
 - Kabel in horizontalen Fluchtwegen: Brandlast max. 200 MJ/Laufmeter Fluchtweg
   (Ziff. 4.4.2.1 Abs. 2, S. 13).
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** In vertikalen
+  Fluchtwegen sind nur Kabel zulässig, die der Versorgung oder Kommunikation der dort
+  installierten Geräte/Installationen dienen (Ziff. 4.4.2.1 Abs. 1, S. 13). Kabel mit
+  kritischem Verhalten (cr) dürfen weder in horizontalen noch in vertikalen Fluchtwegen
+  eingesetzt werden (Ziff. 4.4.2.1 Abs. 3, S. 13).
 
 ### Brandschutzabstände (Ziff. 5, 2015 S. 13-14 / 2017 S. 15)
 
@@ -200,6 +226,47 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
   (Ziff. 6.4.4, S. 16).
 - Installationsschächte über mehrere Geschosse: gleicher Feuerwiderstand wie
   nutzungsbezogene Brandabschnittsbildung, mindestens EI 30 (Ziff. 6.4.6.1, S. 17).
+- **Kernlücke, Abdeckungsrichtung Run N62-3 (bisher komplett fehlend):** Durchbrüche und
+  Leitungsführungen durch brandabschnittsbildende Bauteile (Ziff. 6.4.5, S. 18). Aussparungen
+  sind unter Berücksichtigung der Wärmedehnung entweder mit Material aus Baustoffen der
+  RF1 hohlraumfrei zu verschliessen, oder mit VKF-anerkannten Abschottungssystemen
+  (bei brandabschnittsbildenden Wänden/Decken mind. EI 30) (Abs. 3). VKF-anerkannte
+  Abschottungssysteme für Rohrleitungen (z. B. Brandschutzmanschetten) sind bei
+  brandabschnittsbildenden Bauteilen anzuordnen; auf ihren Einbau kann u. a. verzichtet
+  werden bei Rohrleitungen aus RF1, an Ein-/Austrittsstellen feuerwiderstandsfähiger
+  Installationsschächte, innerhalb solcher Schächte, bei einzeln geführten Rohren mit
+  Aussendurchmesser ≤ 50 mm, bei einzeln geführten Rohren ≤ 120 mm in Gebäuden
+  geringer/mittlerer Höhe ohne erhöhte Personengefährdung durch Verrauchung, in
+  hohlraumfrei mit nicht schmelzenden Baustoffen mind. RF2 ausgefüllten Sanitär-
+  Vorwandsystemen, sowie zwischen mit Löschanlagen geschützten Räumen (Abs. 4 lit. a-g).
+  Brennbare Wärmedämmschichten von Installationen sind an der Durchführung mit RF1 zu
+  unterbrechen; bei geprüften/anerkannten Bauteilen gelten die Angaben der
+  VKF-Anerkennung (Abs. 5). Praxisrelevant für die Ausschreibung von Abschottungs-
+  arbeiten Haustechnik.
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nur Ziff. 6.4.6.1 im Destillat):**
+  Revisionsöffnungen von Installationsschächten sind mit Brandschutzabschlüssen EI 30
+  abzuschliessen; für Gebäude geringer und mittlerer Höhe genügen Revisionsdeckel RF1
+  bei geschossweise unterteilten oder ausgefüllten Schächten (Ziff. 6.4.6.2, S. 18).
+  Horizontale Unterteilung: Aussparungen bei oben geschlossenen Schächten sind je
+  Geschoss mit RF1 zu verschliessen; verzichtbar bei zuoberst ständig offener oder von
+  sicherem Ort steuerbarer Entrauchungsöffnung (≥ 5 % Schachtquerschnitt), bei
+  hohlraumfreier Füllung mit RF1 (bzw. für Gebäude geringer/mittlerer Höhe ohne erhöhte
+  Brandschutzanforderungen an die Installationen mind. RF2, Setzung geschossweise
+  mechanisch zu verhindern) oder bei ausschliesslich RF1-Leitungen (Ziff. 6.4.6.3, S. 18-19).
+  Vertikale Unterteilung: Abgasanlagen, Lüftungskanäle mit erhöhten Brandschutz-
+  anforderungen u. dgl. sind im Schacht untereinander sowie gegen andere Installationen
+  mit 30 Min. Feuerwiderstand aus RF1 (z. B. Brandschutzplatte) abzutrennen
+  (Ziff. 6.4.6.4, S. 19).
+- **Nebenlücke, allgemeine/subsidiäre Bestimmungen ohne Zahlenwerte (Run N62-3, bisher
+  nicht im Destillat):** Standsicherheit der Tragwerke unter Brandbeanspruchung, kein
+  Einsturz durch vorzeitiges Bauteilversagen oder Wärmedehnung, keine unverhältnis-
+  mässigen Schäden in Nachbarabschnitten (Ziff. 6.2, S. 16); erhöhter Feuerwiderstand
+  für Räume/Brandabschnitte mit sehr grosser Brandbelastung oder grossem Brandrisiko
+  gegenüber der Standardlösungs-Tabelle (Ziff. 6.3.3, S. 17); mechanische Festigkeit/
+  Standsicherheit nichttragender brandabschnittsbildender Wände gegen horizontale
+  Belastung (Ziff. 6.4.2, S. 17); feuerwiderstandsfähige, rauch- und flammendichte
+  Anschlüsse brandabschnittsbildender Bauteile untereinander und an die Gebäudehülle
+  (Ziff. 6.4.3, S. 18).
 - Brandmauern auf Parzellengrenze (Ziff. 6.4.7 Abs. 2, S. 18):
   - REI 180 für Gebäude mittlerer Höhe und Hochhäuser
   - REI 90 für Gebäude geringer Höhe
@@ -207,8 +274,21 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
 
 ### Fluchtwege (Ziff. 7, S. 18-22)
 
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** Messweise der
+  Fluchtweglänge (Ziff. 7.2, S. 20): die gesamte Fluchtweglänge setzt sich zusammen aus
+  der Fluchtweglänge in der Nutzungseinheit (Luftlinie, raumtrennende Wände innerhalb
+  der Nutzungseinheit sind zu berücksichtigen) und der Fluchtweglänge im Korridor
+  (Gehweglinie); Treppen in der Nutzungseinheit werden horizontal nach Gehweglinie
+  gemessen; die Strecke innerhalb vertikaler Fluchtwege (z. B. Treppenanlage) bis an
+  einen sicheren Ort im Freien wird nicht mitgezählt; Fluchtwegbreiten werden zwischen
+  Umfassungswänden oder Geländern gemessen.
 - Vertikale Fluchtwege müssen unabhängig voneinander an einen sicheren Ort im
-  Freien führen (Ziff. 7.3.1, S. 19).
+  Freien führen (Ziff. 7.3.1 Abs. 3, S. 19).
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** Die Zahl der
+  vertikalen Fluchtwege und Ausgänge richtet sich nach Geschossfläche, Fluchtweglänge
+  und Personenbelegung (Ziff. 7.3.1 Abs. 1, S. 19); für horizontale Verbindungen zwischen
+  vertikalen Fluchtwegen gelten die Anforderungen der vertikalen Fluchtwege, sofern sie
+  nicht durch Brandschutzabschlüsse abgetrennt sind (Ziff. 7.3.1 Abs. 4, S. 19).
 - **[2017 geändert]** Mindestens 2 vertikale Fluchtwege bei Geschossfläche > 900 m²
   (Ziff. 7.3.2, 2015 S. 19 / 2017 S. 21). Die 900-m²-Schwelle ist unverändert, die
   Bezugsgrösse und die Rechtsfolge aber neu: 2015 galt die Regel gebäudebezogen
@@ -246,6 +326,9 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
   müssen NICHT in Fluchtrichtung öffnen; Hauseingangstüren müssen nicht in
   Fluchtrichtung öffnen, sofern sie nicht mehr als 10 Wohneinheiten erschliessen
   (Ziff. 7.4.6, S. 21).
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** Innerhalb der
+  Nutzungseinheit darf der Fluchtweg über mehrere Räume zu einem horizontalen oder
+  vertikalen Fluchtweg führen (Ziff. 7.4.7, S. 23).
 - Rauch- und Wärmeabzugsanlagen (RWA): vertikale Flucht-/Rettungswege sind grundsätzlich
   mit direkt ins Freie führenden RWA auszurüsten (Ziff. 7.5 Abs. 1, S. 22). Zuoberst mit
   direkt ins Freie führenden Abströmöffnungen zu versehen sind sie **in Gebäuden
@@ -258,8 +341,41 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
 ### Technischer Brandschutz, Zugang Feuerwehr, Gebäudetechnik (Ziff. 8-10, S. 22-25)
 
 - Löscheinrichtungen: auf Verlangen der Brandschutzbehörde (Ziff. 8.1, S. 22).
+- **Kernlücke, Abdeckungsrichtung Run N62-3 (bisher komplett fehlend — Ziffer 9 war im
+  bisherigen Destillat nirgends erwähnt, obwohl die Kapitelüberschrift oben «Ziff. 8-10»
+  suggeriert, der Bereich sei vollständig abgedeckt):** Zugang für die Feuerwehr
+  (Ziff. 9, S. 24). Bauten und Anlagen müssen für den raschen und zweckmässigen Einsatz
+  der Feuerwehr jederzeit zugänglich sein (Abs. 1). An-, Vor- und Verbindungsbauten
+  dürfen den Feuerwehreinsatz nicht behindern; Zufahrtsstrassen und Aufstellungsorte für
+  Feuerwehrfahrzeuge sind, wo notwendig, festzulegen, zu markieren und ständig
+  freizuhalten (Abs. 2). Praxisrelevant für Erschliessung/Zufahrt bereits in der
+  Situations-/Volumenplanung (machbarkeit, planungsgrundlagen).
 - Aufzüge über mehrere Brandabschnitte: Schacht mit gleichem Feuerwiderstand,
   mindestens EI 30 (Ziff. 10.1 Abs. 1, 2015 S. 22 / 2017 S. 24).
+- **Kernlücke, Abdeckungsrichtung Run N62-3 (bisher nur Abs. 1 und Abs. 16 im Destillat,
+  Abs. 2-15 komplett fehlend):** Werden mit der Aufzugsanlage keine unterschiedlichen
+  Brandabschnitte verbunden, entfallen ausser der Materialisierung die
+  brandschutztechnischen Anforderungen an Schacht/Umwandung (z. B. Aufzüge im
+  vertikalen Fluchtweg, Panoramaaufzüge in Atrien, Abs. 2). Aufzugsschächte aus
+  brennbaren Bauprodukten sind schachtseitig mit RF1 zu bekleiden, im Schacht dürfen
+  keine Fremdinstallationen angebracht werden, Innenbekleidungen RF1 (Abs. 3-4).
+  Triebwerksräume dürfen keinen anderen Zwecken dienen; Triebwerks- und Rollenräume
+  sind mit gleichem Feuerwiderstand wie das Tragwerk, mindestens aber EI 30 aus RF1 zu
+  erstellen; liegen sie über dem Dach, RF1 bzw. raumseitig EI 30/RF1 bekleidet; liegen
+  sie unmittelbar unter dem Dach, sind die Wände bis an die Dachhaut hochzuführen und
+  die Dachunterseite RF1 zu bekleiden (Abs. 5-8). Anlagetechnisch erforderliche
+  Entlüftungsleitungen durch Fremdräume sind mit EI 30 zu bekleiden (Abs. 9).
+  Aufzugsschachttüren müssen aus RF1 bestehen; münden sie unmittelbar in die
+  Nutzungseinheit, ist Feuerwiderstand E 30 (bei grosser Brandbelastung
+  > 1'000 MJ/m² E 60) einzuhalten (Abs. 10-11). Triebwerks-, Rollenraum- und
+  Revisionstüren, die nicht ins Freie führen, müssen EI 30 entsprechen; Schachtfronten
+  den gleichen Feuerwiderstand wie die zugehörigen Aufzugsschachttüren aufweisen
+  (Abs. 12-13). Die tragende Kabinenstruktur muss aus RF1 bestehen, für Bodenbeläge,
+  Wand- und Deckenbekleidungen ist RF2 zulässig (Abs. 14). Führen Aufzugsanlagen in
+  Untergeschosse, dürfen die Schachttüren nur in Schleusen, horizontale/vertikale
+  Fluchtwege oder feuerwiderstandsfähige Vorplätze münden (Abs. 15) — dies ist die
+  Grundregel, zu der die nachfolgende, 2017 neu eingefügte Erleichterung in Abs. 16 die
+  Ausnahme für ein einziges Untergeschoss bildet.
 - **[2017 neu]** Führt die Aufzugsanlage **nur in ein einziges Untergeschoss**, dürfen
   die Aufzugsschachttüren direkt in eine Nutzungseinheit (Betriebs-, Lagerräume usw.)
   münden; sie brauchen dann keine Schleuse und keinen feuerwiderstandsfähigen Vorplatz,
@@ -268,10 +384,26 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
   bei Abs. 15, wonach Schachttüren in Untergeschossen **ausnahmslos** nur in Schleusen,
   Fluchtwege oder feuerwiderstandsfähige Vorplätze münden durften.
 - Heizräume: Nennwärmeleistung bis 70 kW mindestens EI 30, über 70 kW mindestens
-  EI 60; Türen EI 30, bei > 70 kW in Fluchtrichtung öffnend (Ziff. 10.2.1, S. 23).
+  EI 60; Türen EI 30, bei > 70 kW in Fluchtrichtung öffnend (Ziff. 10.2.1 Abs. 1, S. 23).
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** Mit einem
+  direkten Zugang vom Freien sind zu versehen: Heizräume im Erdgeschoss oder tiefer für
+  wärmetechnische Anlagen von mehr als 1'200 kW Nennwärmeleistung; Heizräume im
+  zweiten Untergeschoss oder tiefer für Anlagen von mehr als 600 kW (Ziff. 10.2.1
+  Abs. 2, S. 25). Spricht die Art der Feuerungsaggregate nicht dagegen und ist das
+  Brandrisiko gering, dürfen Heizräume bei Nennwärmeleistung bis 70 kW auch anderen
+  Zwecken dienen (Ziff. 10.2.1 Abs. 3, S. 25).
 - Lagerung Brennstoffe: Einfamilienhäuser bis max. 5 m³ Holzbrennstoffe/Kohle in
   Räumen beliebiger Bauart; in separaten Heizräumen (EI 60) max. 10 m³ hinter
-  Abschrankung im Abstand 1 m zum Feuerungsaggregat (Ziff. 10.2.2, S. 24).
+  Abschrankung im Abstand 1 m zum Feuerungsaggregat (Ziff. 10.2.2 Abs. 1 lit. b, d, S. 26).
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** In
+  landwirtschaftlichen Gebäuden dürfen Holzbrennstoffe/Kohle zusammen mit anderen
+  brennbaren Stoffen gelagert werden, sofern eine zweckmässige Trennung genügt
+  (Ziff. 10.2.2 Abs. 1 lit. a, S. 26). Zum Anfeuern notwendige, leicht entzündbare Stoffe
+  (Holzwolle, Stroh, Papier u. Ä.) dürfen im Heizraum nur in verschlossenen Behältern aus
+  RF1 aufbewahrt werden (lit. e). Die Anforderungen für die Lagerung von Holzbrennstoffen
+  mit automatischer Austragung richten sich nach Art und Menge des Brennstoffs sowie
+  nach Beschickung und Austragung, siehe die einschlägigen Brandschutzerläuterungen
+  (lit. f).
 - Heizöl: in separaten Heizräumen (EI 60) bis 4'000 l in Kleintanks bzw. 8'000 l in
   Stahltanks; in separaten Tankräumen (EI 60) max. 250'000 l (Ziff. 10.2.2, S. 24).
 - **[2017 geändert]** Lüftungsleitungen: grundsätzlich RF1, RF3 zulässig innerhalb Brandabschnitt
@@ -285,6 +417,14 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
   **Luftaufbereitungsapparat**» zugeführt wird (2015: nur «dem Wärmerückgewinnungs-
   aggregat»), also für jede Rückführung in die Lüftungsaufbereitung (Abs. 3).
 
+### Betrieblicher Brandschutz (Ziff. 11, S. 27)
+
+- **Kernlücke, Abdeckungsrichtung Run N62-3 (bisher komplett fehlend):** Eigentümer- und
+  Nutzerschaft von Bauten und Anlagen sind dafür verantwortlich, dass Einrichtungen für
+  den baulichen, technischen und abwehrenden Brandschutz sowie haustechnische Anlagen
+  bestimmungsgemäss instand gehalten und jederzeit betriebsbereit sind (Ziff. 11).
+  Praxisrelevant für Betriebs-/Unterhaltskonzepte und Verwaltungsübergabe.
+
 ### Spezielle Anforderungen (Ziff. 12, S. 25-26)
 
 - Räume für Motorfahrzeuge bis 600 m²: als Brandabschnitte zu erstellen; bei
@@ -297,11 +437,16 @@ geringer/mittlerer Höhe» (Ziff. 2.2) angeglichen.
   Geschoss max. 9'600 m² (Ziff. 12.2 Abs. 3, S. 25).
 - Schleusen bei Brandabschnittsfläche > 1'200 m²: Feuerwiderstand mind. EI 30,
   Türen E 30 selbstschliessend (Ziff. 12.2 Abs. 4-5, S. 25-26).
+- **Ergänzung Abdeckungsrichtung (Run N62-3, bisher nicht im Destillat):** Ausgänge und
+  Fluchtwege von Parkings sind mit sicherheitsbeleuchteten Rettungszeichen zu
+  kennzeichnen (Ziff. 12.2 Abs. 6, S. 26); in den Fluchtwegen ist eine Sicherheits-
+  beleuchtung zu installieren (Abs. 7), ebenso in den Fluchtwegen im Raum (z. B. im
+  Bereich von Fahrgassen, Abs. 8).
 - Rauch- und Wärmeabzugsanlagen Parkings: bei Parkings unter Terrain oder allseitig
   geschlossen mit Brandabschnittsfläche > 600 m² (mit Löschanlage 3'600 m²) sind RWA
   (ohne Leistungsnachweis) vorzusehen; bei Parkings über Terrain, nicht allseitig
   geschlossen, mit Brandabschnittsfläche > 2'400 m² (mit Löschanlage 4'800 m²) ebenso
-  (Ziff. 12.2 Abs. 9-10, S. 26).
+  (Ziff. 12.2 Abs. 9-10, S. 26-27).
 
 ## Fassung 01.01.2017 / Stand 17.05.2018 — Delta zur Fassung 01.01.2015
 

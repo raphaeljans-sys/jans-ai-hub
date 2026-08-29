@@ -40,9 +40,33 @@ Recherche per zwei parallelen Recherche-Agenten (Websuche, Belegpflicht), Ergebn
 gegengeprueft und in `wiki/QUESTIONS.md` als ein zusammenhaengender RECHERCHIERT-Vermerk
 angehaengt (`git diff --numstat` auf 1 1 geprueft).
 
-**Offen fuer den naechsten Lauf:** Sammelfrage Charge 5 (24 Namen, Zeile 78) ist die naechste
-unrecherchierte Position in Prioritaet 4; danach folgt Charge 6 (Zeile 88) — beide noch nicht
-begonnen.
+**Nachtrag desselben Laufs, 21:20:** **Sammelfrage Charge 5 abgeschlossen (24/24)** — als erste
+Charge vollstaendig mit Treffer fuer jeden Namen (u.a. Rietveld_Gery, Sartoris_Alberto,
+Schattner_Karl_Joseph, Schlup Max/Kongresshaus Biel, Schader_Kt_Freudenberg/Jacques Schader
+bestaetigt; zwei mit Vorbehalt wegen generischem Ordnernamen: Rasmussen, Schmidt_Werner).
+Recherche wieder per zwei parallelen Agenten, in `wiki/QUESTIONS.md` angehaengt
+(`git diff --numstat` auf 2 2 geprueft).
+
+**Nachtrag desselben Laufs, 21:35:** **Sammelfrage Charge 6 abgeschlossen (26/26)** — damit sind
+Charge 1 bis 6 vollstaendig einzeln recherchiert, Prioritaet 4 aus dem Auftrag ist erschoepft.
+19 bestaetigt (u.a. Vitruv als antiker Theoretiker statt zeitgenoessischem Architekt geklaert,
+architectuul als Website statt Architekt entlarvt, mlzd und wang_shu bestaetigt), sechs ohne
+belastbaren Treffer (Soriano_Rafael zweideutig zwischen zwei Namenstraegern, Speer_Alfred,
+Stone_Edward_Albert_1880_1963, Zanini, ebeling, maya — alle sechs nur aus dem Ordnerinhalt zu
+klaeren). Recherche wieder per zwei parallelen Agenten (`git diff --numstat` auf 1 1 geprueft).
+
+**Damit Prioritaet 4 (Sammelfragen Charge 1-6) vollstaendig erledigt.** Offene Restarbeit in
+`wiki/QUESTIONS.md` betrifft nur noch: (a) Freigabesachen (NAS-Ordner-Umbenennungen/-
+Zusammenfuehrungen fuer die vier Katalog-Kollisionen und die zahlreichen Schreibfehler-Slugs
+aus Sektion 2), (b) die Scanner-Parser-Verfeinerung (kollidierende Slugs bei Leerzeichen/
+Unterstrich-Varianten, generische Ablagestruktur als Projekt gezaehlt) — beides ausserhalb der
+Reichweite dieser Lane ohne Codeaenderung an `tools/synobsis_scan.py` beziehungsweise ohne
+Raphaels Freigabe, (c) vereinzelte offene Einzelfragen aus Sektion 1 (leere Ordner ohne
+Websuch-Treffer, z.B. AASZ, Cheung_Simon, DECARVALHO_BOTELHO, E_Architekten, Koyama) — dort
+wurde bereits mehrfach dokumentiert, dass nur eine Sichtung des Ordnerinhalts selbst
+weiterhilft, nicht Websuche. Fuer den naechsten Lauf: entweder gezielt einzelne dieser
+Ordnerinhalt-Faelle sichten (wenn Zugriff/Zeit reicht) oder mit Raphael die Freigabesachen
+klaeren.
 
 ## 2026-08-29 20:45 (Mac Mini, Schub-Lane SYNOBSIS) — Sammelfrage Charge 2 und Charge 3 vollstaendig recherchiert
 

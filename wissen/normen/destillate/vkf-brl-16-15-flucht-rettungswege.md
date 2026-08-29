@@ -4,10 +4,10 @@ quelle_vorgaenger: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlin
 herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2017 (Ausgabe 2015, Aenderungen IOTH 17.09.2015 und 22.09.2016 eingearbeitet)"
 ersetzt: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2015 (Original-Ausgabe vor den IOTH-Revisionen 2015/2016) — Delta siehe Abschnitt 'Vorgaenger-Ausgabe' unten"
-gelesen: "S. 1-13 (Ziff. 1-5 vollstaendig); Anhang S. 14-25 gelesen (Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, 2.4.5, 2.5.1, 2.5.2, 2.5.5, 3.2.1/3.3.1/3.4.1, 3.3, 3.4.3, 3.5.2, 3.5.3); Kennwerte aus Anhang S. 17 (Treppen), S. 19 (Tuerverschluesse), S. 24 (Personenbelegung) am Original verifiziert und eingearbeitet (17.07.2026). Restlicher Anhang S. 26-35 noch nicht im Detail gelesen. Vorgaenger-Ausgabe 01.01.2015 (Datei 'Flucht & Rettungswege.pdf', 34 S.) vollstaendig gegen die Fassung 01.01.2017 abgeglichen (pdftotext-Volltextvergleich). Unabhaengige Gegenpruefung (Refuter, 17.07.2026): Personenbelegungs-Kennwerte (S. 24), Treppen-Steigungsformeln/Podeste (S. 17), Tuerverschluss-Zuordnung EN 179/EN 1125/EN 13637 (S. 19), Datierung/Ausgabe (S. 1, 2, 13) sowie die Messweise-Zuordnung Treppenbreite (S. 15) und der Anhang-Vorbehalt (S. 14) am Original nachgeprueft — keine Abweichung gefunden. NACHTRAG 25.07.2026: Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf, 35 S.) vollstaendig per pdftotext extrahiert und Seite fuer Seite (Volltextvergleich) gegen die Fassung 01.01.2017 (Datei 16-15_rev2016_flucht_und_rettungswege.pdf, identisch mit der oben destillierten Quelle) abgeglichen; gezielt gegengelesen S. 1-2 (Titelblatt/Copyright/Aenderungsliste), S. 6 (Hauptziffern 2.4.3/2.4.4 im Kontext der Volltextextraktion), S. 12 (Hauptziffer 3.7), S. 14-16 (Anhang zu Ziff. 2.4.2-2.4.4), S. 24 (Anhang zu Ziff. 3.5.2, Personenbelegung), S. 32-34 (Anhang zu Ziff. 3.7/3.9/3.10). Siehe Abschnitt 'Fassung 01.12.2022 — Delta zur Fassung 01.01.2017' unten. NACHTRAG 25.07.2026 (Run 23): Diagnose zur Bildunterschrift Ziff. 2.4.3/2.4.4 korrigiert — per `pdftotext -layout` S. 15 beider Fassungen (nicht S. 16), keine Vertauschung zwischen den Ueberschriften, reine Umbenennung unter Ziff. 2.4.4."
+gelesen: "S. 1-13 (Ziff. 1-5 vollstaendig); Anhang S. 14-25 gelesen (Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, 2.4.5, 2.5.1, 2.5.2, 2.5.5, 3.2.1/3.3.1/3.4.1, 3.3, 3.4.3, 3.5.2, 3.5.3); Kennwerte aus Anhang S. 17 (Treppen), S. 19 (Tuerverschluesse), S. 24 (Personenbelegung) am Original verifiziert und eingearbeitet (17.07.2026). Vorgaenger-Ausgabe 01.01.2015 (Datei 'Flucht & Rettungswege.pdf', 34 S.) vollstaendig gegen die Fassung 01.01.2017 abgeglichen (pdftotext-Volltextvergleich). Unabhaengige Gegenpruefung (Refuter, 17.07.2026): Personenbelegungs-Kennwerte (S. 24), Treppen-Steigungsformeln/Podeste (S. 17), Tuerverschluss-Zuordnung EN 179/EN 1125/EN 13637 (S. 19), Datierung/Ausgabe (S. 1, 2, 13) sowie die Messweise-Zuordnung Treppenbreite (S. 15) und der Anhang-Vorbehalt (S. 14) am Original nachgeprueft — keine Abweichung gefunden. NACHTRAG 25.07.2026: Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf, 35 S.) vollstaendig per pdftotext extrahiert und Seite fuer Seite (Volltextvergleich) gegen die Fassung 01.01.2017 (Datei 16-15_rev2016_flucht_und_rettungswege.pdf, identisch mit der oben destillierten Quelle) abgeglichen; gezielt gegengelesen S. 1-2 (Titelblatt/Copyright/Aenderungsliste), S. 6 (Hauptziffern 2.4.3/2.4.4 im Kontext der Volltextextraktion), S. 12 (Hauptziffer 3.7), S. 14-16 (Anhang zu Ziff. 2.4.2-2.4.4), S. 24 (Anhang zu Ziff. 3.5.2, Personenbelegung), S. 32-34 (Anhang zu Ziff. 3.7/3.9/3.10). Siehe Abschnitt 'Fassung 01.12.2022 — Delta zur Fassung 01.01.2017' unten. NACHTRAG 25.07.2026 (Run 23): Diagnose zur Bildunterschrift Ziff. 2.4.3/2.4.4 korrigiert — per `pdftotext -layout` S. 15 beider Fassungen (nicht S. 16), keine Vertauschung zwischen den Ueberschriften, reine Umbenennung unter Ziff. 2.4.4. NACHTRAG 29.08.2026 (N62-3, Abdeckungsrichtung): Anhang S. 26-35 jetzt vollstaendig gelesen (gerendert `pdftoppm -r 150-200` + `pdftotext -layout`, Tabellen/Zeichnungen am Bild geprueft) — vormals als 'noch nicht im Detail gelesen' offen. Zudem Hauptteil S. 1-13 vollstaendig gegen das Destillat gegengelesen (nicht nur Behauptungen verifiziert, sondern auf Vollstaendigkeit geprueft). Ergebnis: 6 Kernluecken (Ziff. 2.5.5 Abs. 4/5, Ziff. 4 Weitere Bestimmungen, Beherbergungsbetriebe-[a]-Definition + Geschossschwelle S. 31/32, Parking-Anrechenbarkeit S. 33, Feuerwehraufzug-Schleuse 2.4x2.4m S. 34) und 2 Nebenluecken (ArGV-4-Tuerbreiten S. 22, Atrien-Fachpublikations-Verweis S. 34/35) gefunden und nachgetragen, 0 falsche Werte. Details siehe Abschnitt 'Pruefstand' am Dateiende."
 datenstand: "Ausgabe 2015 (in Kraft 01.01.2015); destilliert ab Dokumentfassung 01.01.2017 mit den IOTH-Aenderungen 17.09.2015 und 22.09.2016. Im Bestand liegt zusaetzlich die Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf) mit drei weiteren Aenderungsstufen — Beschluss ABSV 22.03.2017 (Anhang zu Ziff. 2.4.3/2.4.4), Beschluss TKB 09.06.2021 (Ziff. 3.5.2 Personenbelegung Verkauf, ERSETZT) und Fehlerkorrektur 01.12.2022 (Anhang zu Ziff. 3.7). Alle drei sind jetzt am Original geprueft und destilliert (Personenbelegung Verkauf: Wissens-Chef Run 8, 18.07.2026; ABSV und Fehlerkorrektur: 25.07.2026, siehe Abschnitt 'Fassung 01.12.2022 — Delta zur Fassung 01.01.2017'). Ergebnis: in allen drei Faellen ist NUR der erlaeuternde Anhang (Zeichnungs-Legenden/Bildunterschriften) geaendert bzw. praezisiert worden, nicht der normative Haupttext der Ziffern 2.4.3/2.4.4 bzw. 3.7 (Ziff. 3.5.2 Personenbelegung ist die Ausnahme: dort wurde die Verkaufs-Tabelle im Anhang selbst materiell ersetzt)."
 status: established-mit-vorbehalt
-last_updated: 2026-07-29
+last_updated: 2026-08-29
 links: [[REGISTER]], [[QUESTIONS]]
 ---
 
@@ -57,7 +57,7 @@ Ziff. 1 (S. 5): Regelt Flucht- und Rettungswege (zusammen "Fluchtwege" genannt) 
 - **Ziff. 2.5.2** — Aussentreppen-Definition (Grundrissflaeche <50% von Aussenwaenden umschlossen ODER Fassadenanteil >=50% staendig offen); Brandschutzanforderung Aussenwaende EI 30 (Verglasung/Tueren E 30) oder RF1-Bekleidung, reduzierbar ab Abstand >=1.2 m (S. 7, Fassung IOTH 22.09.2016)
 - **Ziff. 2.5.3** — Horizontale Fluchtwege ueber 50 m sind durch Brandschutzabschluesse zu unterteilen; Einbauschraenke nur mit RF1-Oberflaechen (S. 8)
 - **Ziff. 2.5.4** — Laubengaenge: mind. zur Haelfte staendig offen (RF1), Feuerwiderstands-Anforderung je nach Anschluss an vertikalen Fluchtweg gestaffelt (0/30 Min.) (S. 8)
-- **Ziff. 2.5.5** — Tueren: grundsaetzlich in Fluchtrichtung oeffnend (Ausnahme Raeume max. 20 Personen), jederzeit ohne Hilfsmittel oeffenbar, von aussen fuer Einsatzkraefte oeffenbar; Sonderformen (Kipp-/Roll-/Schiebetore, Drehtueren) nur ergaenzend zu normal oeffnenden Tueren (S. 8). Zu den Schliess-Systemen abschliessbarer Fluchtwegtueren siehe Anhang zu Ziff. 2.5.5 (S. 19), Abschnitt «Anhang-Kennwerte» unten
+- **Ziff. 2.5.5** — Tueren: grundsaetzlich in Fluchtrichtung oeffnend (Ausnahme Raeume max. 20 Personen), jederzeit ohne Hilfsmittel oeffenbar, von aussen fuer Einsatzkraefte oeffenbar; Sonderformen **Kipp-, Hub-, Roll-, Schnelllauf- und Schiebetore sowie Drehtueren** nur zulaessig, wenn zweckmaessig angeordnete, in Fluchtrichtung oeffnende Tueren zusaetzlich vorhanden sind (Abs. 4, S. 8). **NACHGETRAGEN (Abdeckungsrichtung, Run Kernziffern-Check):** Abs. 4 im Original nennt fuenf Torarten (Kipp-, Hub-, Roll-, Schnelllauf-, Schiebetore) — das Destillat fuehrte bisher nur drei (Kipp-/Roll-/Schiebetore); Hub- und Schnelllauftore ergaenzt. **Abs. 5 (bisher ganz fehlend):** Automatische Schiebe- und Drehtueren sind in Fluchtwegen zulaessig, soweit sie die Flucht jederzeit gewaehrleisten und fuer den Einsatz in Fluchtwegen geeignet sind; bei Schnelllauftoren genuegt es, wenn sie in Fluchtrichtung ohne Hilfsmittel von Hand rasch und sicher geoeffnet werden koennen (S. 8). Zu den Schliess-Systemen abschliessbarer Fluchtwegtueren siehe Anhang zu Ziff. 2.5.5 (S. 19), Abschnitt «Anhang-Kennwerte» unten; zur Sonderkonstruktion automatischer Schiebetueren mit Doppelfunktion Fluchttuer/Brandschutzabschluss siehe Anhang S. 21 (ebenfalls unten)
 
 ### Nutzungsspezifische Anforderungen (Ziff. 3)
 - **Ziff. 3.1** — Gebaeude geringer Abmessungen: max. Fluchtweglaenge 35 m, Fluchtweg darf ueber mehrere Raeume der Nutzungseinheit fuehren; Treppenbreite fuer Wohnen/Buero/Schule/Gewerbe/Landwirtschaft reduzierbar auf 0.9 m geradlaeufig bzw. 1.2 m gewendelt (innere Auftrittsbreite min. 0.1 m) (S. 8-9). **NACHGETRAGEN 28.07.2026 (Wissens-Chef Run 19) — die Tatbestandsvoraussetzung fehlte und aendert die Anwendung:** Abs. 2 gilt nur fuer Treppen, **«welche mehrere Nutzungseinheiten erschliessen»**. **Abs. 3** (bisher ganz fehlend): fuer **Treppen innerhalb der Nutzungseinheit** gelten die **nutzungsbezogenen** Anforderungen nach Ziff. 3.2 ff. Ohne diese beiden Punkte liest sich der Bullet so, als gaelte die 1.2-m-Erleichterung generell fuer jede Treppe in Gebaeuden geringer Abmessungen.
@@ -70,6 +70,7 @@ Ziff. 1 (S. 5): Regelt Flucht- und Rettungswege (zusammen "Fluchtwege" genannt) 
 - **Ziff. 3.8 (Landwirtschaft)** — Staelle >200 m2 Grundflaeche: min. 2 zweckmaessige Ausgaenge fuer Nutztier-Evakuierung, in Fluchtrichtung oeffnend; keine Treppen-/Tueren-Anforderungen innerhalb Nutzungseinheit (S. 13)
 - **Ziff. 3.9 (Hochhaeuser)** — Geschosse ueber Terrain mit Sicherheitstreppenhaeusern (Rauchschutz-Druckanlage) zu erschliessen; Dachflaechen davon zugaenglich; Schleuse vor innenliegendem Sicherheitstreppenhaus min. 1.2 x 2.4 m, selbstschliessende Tueren; keine Schleuse noetig bei staendig offenen Vorplaetzen/Gaengen (S. 13)
 - **Ziff. 3.10 (Atrien/Innenhoefe)** — Fluchtwege darueber zulaessig, sofern Rauch-/Waermeabzugsanlagen mit Nachweis die sichere Begehbarkeit gewaehrleisten (S. 13)
+- **Ziff. 4 (Weitere Bestimmungen)** — **NACHGETRAGEN (Abdeckungsrichtung):** ergaenzende Erlasse, Publikationen und «Stand der Technik»-Papiere sind im periodisch aktualisierten Verzeichnis der TKB-VKF aufgefuehrt (VKF, Postfach, 3001 Bern, bzw. Internetfundstelle gemaess Titelblatt); im bisherigen Destillat fehlte diese Ziffer vollstaendig (S. 13). Kein eigener Kennwert, aber ein Verweis-Mechanismus, den man bei Detailfragen kennen sollte
 
 ## Anhang-Kennwerte (verifiziert am Original 17.07.2026)
 
@@ -182,6 +183,72 @@ schliesst.
 - **Anhang zu Ziff. 3.3 (S. 21)** — Hinweis: In dem ArGV 4 unterstellten Betrieben (ArG Art. 5, 7, 8)
   kann die ArG-Vollzugsbehoerde gestuetzt auf Art. 8 Abs. 7 ueber die Brandschutzvorschriften 2015
   hinausgehende Anforderungen stellen (mehr Fluchtwege oder kuerzere Fluchtweglaengen).
+- **Anhang zu Ziff. 3.3.3 (S. 22, NACHGETRAGEN Abdeckungsrichtung)** — konkretisiert den Verweis
+  aus Ziff. 3.3.3 Abs. 1 auf ArGV 4 Art. 10 Abs. 2 mit den dortigen Zahlenwerten: einfluegelige
+  Tueren mind. 0.90 m lichte Breite; bei zweifluegeligen Tueren, die nur in eine Richtung oeffnen,
+  mind. ein Fluegel mit 0.90 m; bei zweifluegeligen Pendeltueren jeder Fluegel mind. 0.65 m. Diese
+  Werte gelten fuer ArGV-4-unterstellte Betriebe zusaetzlich zur/anstelle der allgemeinen 0.8-m-
+  Reduktionserleichterung aus Ziff. 3.3.3 Abs. 2 (nur fuer NICHT ArGV-4-unterstellte Betriebe).
+  Bisher im Destillat nur als «Tueren gemaess ArGV 4 wo anwendbar» erwaehnt, ohne die konkreten
+  ArGV-4-Masse — hier ergaenzt (sinngemaess wiedergegeben, ArGV-4-Wortlaut ist Bundesrecht,
+  keine VKF-Eigenschoepfung).
+
+### Anhang S. 26-35 — bisher ungelesener Rest (NEU, Abdeckungsrichtung, 29.08.2026)
+
+Vollstaendig gerendert (`pdftoppm -r 150/200`) und per `pdftotext -layout` gegengelesen. Ergebnis:
+die Kernaussagen sind ganz ueberwiegend bereits im Hauptteil/Anhang oben abgedeckt; echte
+inhaltliche Ergaenzungen sind unten aufgefuehrt. Reine Rechenbeispiele ohne neuen Kennwert:
+
+- **Anhang zu Ziff. 3.5.3 (S. 25-26, Raumausgaenge)** — zwei durchgerechnete Beispiele
+  (Raeume mit >100 Personen im gleichen bzw. in verschiedenen Geschossen; Schiebewand-Trennung).
+  Illustrieren nur die bereits destillierten Formeln aus Ziff. 2.4.7 (0.6 m je 100 Personen
+  ebenerdig, 0.6 m je 60 Personen ueber Treppen) und die Massgeblichkeit des am staerksten
+  belegten Geschosses (Ziff. 2.4.5 Abs. 1) — kein neuer Kennwert.
+- **Anhang zu Ziff. 3.5.4 (S. 27, Verkehrswege Verkaufsgeschaefte)** — Tabellenform derselben
+  Werte, die bereits im Destillat unter Ziff. 3.5.4 und im Abschnitt «Zentrale Tabellen» stehen
+  (Verkehrsweg 1.2 m, Hauptverkehrsweg 1.8 m, Fluchtstrasse 3.6 m) — keine Ergaenzung noetig.
+- **Anhang zu Ziff. 3.5.5 (S. 28-30, Bestuhlung)** — zwei durchgerechnete Bestuhlungsbeispiele
+  (Konzert-/Bankettbestuhlung, mit Skizzen der Reihenabstaende ≥1.2-1.4 m und Ausgangsbreiten-
+  Berechnung nach Ziff. 2.4.7). Bestaetigt die bestehenden Kennwerte 0.45 m Sitzreihenabstand
+  und 1.2 m Verkehrsweg (Ziff. 3.5.5 Abs. 2), keine neuen Zahlen.
+
+Echte Ergaenzungen (bisher nicht im Destillat):
+
+- **Anhang zu Ziff. 3.6.1 Beherbergungsbetriebe [a] — Definition (S. 31).** Der Abschnitt
+  «Begriffe» unten vermerkte bisher, die Definition der Kategorien [a]/[b]/[c] sei «nicht in
+  diesem PDF enthalten, vermutlich in VKF-Nutzungsdefinitionen (nicht gelesen)» — das war falsch,
+  bzw. genauer: **[a] ist sehr wohl in diesem PDF definiert**, nur eben im ungelesenen Anhangteil.
+  Wortlaut (sinngemaess): Beherbergungsbetriebe [a] sind Bauten und Anlagen, in denen dauernd
+  oder voruebergehend **kranke, pflegebeduerftige oder auf fremde Hilfe angewiesene Personen**
+  untergebracht sind (deckungsgleich mit dem Hauptziffertext Ziff. 3.6.1 Abs. 1, S. 12, der
+  dieselbe Formulierung verwendet). [b] und [c] bleiben in diesem PDF weiterhin undefiniert.
+- **Anhang zu Ziff. 3.6.1 — konkrete Geschoss-/Flaechenschwelle fuer das Aufenthaltskonzept
+  (S. 31-32).** Zwei Zeichnungen konkretisieren Ziff. 3.6.1 Abs. 1/3 (S. 12, dort nur allgemein
+  «in Bettengeschossen»): bei **nicht mehr als 2 Geschossen UND max. 900 m2 Geschossflaeche**
+  genuegt die Bildung von **zwei Brandabschnitten** fuer die horizontale Evakuierung; bei
+  **3 oder mehr Geschossen ODER mehr als 900 m2 Geschossflaeche** ist **mehr als ein vertikaler
+  Fluchtweg** noetig, mit je einem Brandabschnitt pro vertikalem Fluchtweg — das deckt sich mit
+  der 900-m2-Schwelle aus Ziff. 2.4.2 Abs. 1 und Ziff. 2.4.2 Abs. 3 (S. 6), war aber als konkrete
+  Geschoss-/Flaechenangabe fuer Ziff. 3.6.1 im Kernziffern-Abschnitt bisher nicht ausformuliert.
+- **Anhang zu Ziff. 3.7 Parking — Anrechenbarkeit abgeschlossener Parkingzugaenge (S. 33).**
+  Zusatz zum Hauptziffertext (Ziff. 3.7, S. 12, bereits im Destillat wiedergegeben): «Werden
+  Zugaenge von Parkings zu vertikalen Fluchtwegen abgeschlossen (z. B. Wohnbauten), sind sie als
+  Fluchtwege nicht anrechenbar.» Praxisrelevant bei Wohnbauten mit abgeschlossenem
+  Einstellhallenzugang — bisher nicht im Destillat.
+- **Anhang zu Ziff. 3.9 Hochhaeuser — Feuerwehraufzug-Schleuse (S. 34, NEU).** Zusaetzlich zur
+  bereits destillierten Schleusen-Mindestabmessung 1.2 m x 2.4 m (Ziff. 3.9.1 Abs. 4, S. 13) gilt
+  im Anhang: **sofern ein Feuerwehraufzug erstellt wird, muss die Schleuse oder der Vorplatz vor
+  dem Aufzug so gross sein, dass der Einsatz von Rettungsgeraeten (Tragbahre o. dgl.) moeglich
+  ist — Mindestabmessung 2.4 m x 2.4 m.** Bisher nirgends im Destillat erwaehnt; relevant fuer
+  jedes Hochhausprojekt mit Feuerwehraufzug (haeufig bei Healthcare-/Pflegeprojekten mit
+  Bettentransport-Anforderung, vgl. `healthcare-wirtschaftlichkeit`).
+- **Anhang zu Ziff. 3.10 Atrien (S. 34-35).** Verweis auf eine separate VKF-Fachpublikation:
+  «Bauten mit Atrien und Innenhoefen» (VKF-Brandschutzerlaeuterung, nicht Teil dieses PDFs) —
+  fuer die Detailanforderungen an Rauch-/Waermeabzugsanlagen bei Atrien massgeblich und bisher
+  im Destillat nicht als eigene Fundstelle vermerkt.
+- **S. 35 (Legende):** reine Zeichnungssymbol-/Abkuerzungslegende plus Urheberrechtsvermerk
+  («Die Zeichnungen im Anhang sind urheberrechtlich geschuetzt...») — kein inhaltlicher
+  Kennwert, keine Ergaenzung noetig.
 
 ## Zentrale Tabellen / Kennwerte (sinngemäss, nicht kopiert)
 Fluchtweglaengen: Grundmass 35 m (Nutzungseinheit UND Gesamtlaenge bei nur einem Fluchtweg/Ausgang), erhoehbar auf 50 m Gesamtlaenge bei zwei unabhaengigen Fluchtwegen bzw. bei ueberhohen Raeumen mit mehreren Fluchtrichtungen (Ziff. 2.4.3/2.4.4). Verschaerfung bei Kindertagesstaetten (20 m) und Verkaufsgeschaeften mit nur einem Fluchtweg in die Fluchtstrasse (20 m).
@@ -197,7 +264,7 @@ Verkaufsgeschaefte haben ein eigenes, breiteres Verkehrswegesystem (Verkehrsweg 
 - **Aussentreppe** — Treppenanlage mit Grundrissflaeche <50% von Aussenwaenden umschlossen ODER Fassadenanteil >=50% staendig gegen das Freie offen (Ziff. 2.5.2)
 - **Laubengang** — mind. zur Haelfte staendig gegen das Freie offener Erschliessungsgang aus RF1-Baustoffen (Ziff. 2.5.4)
 - **Sicherheitstreppenhaus** — vertikaler Fluchtweg mit besonderem Schutz gegen Rauch/Feuer (Rauchschutz-Druckanlage) fuer Hochhaeuser (Ziff. 3.9.1)
-- **Beherbergungsbetriebe [a]/[b]/[c]** — Kategorien mit unterschiedlichen Anforderungen; [a] betrifft u.a. kranke/pflegebeduerftige Personen (Ziff. 3.6.1) — genaue Kategorien-Definition nicht in diesem PDF, vermutlich in VKF-Nutzungsdefinitionen (nicht gelesen)
+- **Beherbergungsbetriebe [a]/[b]/[c]** — Kategorien mit unterschiedlichen Anforderungen. ⚠ **KORRIGIERT (Abdeckungsrichtung, 29.08.2026):** die bisherige Aussage «genaue Kategorien-Definition nicht in diesem PDF» war falsch fuer [a] — Definition [a] steht sowohl im Hauptziffertext Ziff. 3.6.1 Abs. 1 (S. 12) als auch, gleichlautend, im Anhang zu Ziff. 3.6.1 (S. 31): Bauten/Anlagen, in denen dauernd oder voruebergehend **kranke, pflegebeduerftige oder auf fremde Hilfe angewiesene Personen** untergebracht sind. **[b] und [c] bleiben undefiniert** in diesem PDF — dafuer weiterhin vermutlich VKF-Nutzungsdefinitionen zu konsultieren (nicht gelesen)
 
 ## JANS-Praxis-Transfer
 - **brandschutz-Skill**: zentrale Faktenbasis fuer Fluchtweg-Ertuechtigungsfragen (Fluchtweglaengen, Tuerbreiten, Aussentreppen-Anforderungen EI30/RF1)
@@ -493,8 +560,46 @@ dokumentiert damit eine bereits von Raphael durchgefuehrte Gegenpruefung einer K
 Original; die beiden Auszuege sind der Beleg, der Screenshot nicht.
 
 ## Offene Punkte
-- Anhang S. 14-25 ist eingearbeitet (siehe Abschnitt «Anhang-Kennwerte»); der restliche Anhang
-  (S. 26-35, u. a. Erlaeuterungen/Zeichnungen zu Ziff. 3.5.3, 3.5.4, 3.5.5, 3.6.1, 3.9, 3.10) ist
-  noch nicht im Detail gelesen — bei Bedarf gezielt nachziehen
-- Definition der Beherbergungsbetriebe-Kategorien [a]/[b]/[c] nicht in diesem PDF enthalten, vermutlich in separater VKF-Begriffsnorm oder Nutzungsartenrichtlinie — bei Bedarf ergaenzen
+- Anhang S. 14-35 ist jetzt vollstaendig eingearbeitet (siehe Abschnitte «Anhang-Kennwerte» und
+  «Anhang S. 26-35 — bisher ungelesener Rest», 29.08.2026 — Abdeckungsrichtung Run, siehe
+  «Pruefstand» unten)
+- Definition der Beherbergungsbetriebe-Kategorie **[a]** ist in diesem PDF enthalten (S. 12 und
+  S. 31, siehe Abschnitt «Begriffe»); **[b] und [c] bleiben undefiniert** in diesem PDF — dafuer
+  vermutlich separate VKF-Begriffsnorm oder Nutzungsartenrichtlinie konsultieren, bei Bedarf ergaenzen
 - Kein Bezug zu allfaelligen kantonalen Ergaenzungen (Kt. ZH/SZ) geprueft — falls JANS-Projekte spezifische kantonale Praxis brauchen, gesondert abklaeren (Skill behoerden-vorabklaerung)
+- Refuter-Richtung (unabhaengige Gegenpruefung der destillierten Behauptungen) ist bisher nur fuer
+  einen Teil der Kernkennwerte gelaufen (Personenbelegung, Treppen, Tuerverschluesse, Datierung —
+  17.07.2026); fuer die in diesem Run neu ergaenzten Punkte (Ziff. 2.5.5 Abs. 4/5, Ziff. 4, Anhang
+  Beherbergung/Parking/Hochhaeuser/ArGV4) steht eine unabhaengige Refuter-Runde noch aus
+
+## Pruefstand (Methodik-Pflicht 13 — welche Methode lief auf welchem Teil)
+
+*(Nachtrag 29.08.2026, N62-3: Abdeckungsrichtung — prueft, ob der GESAMTE Norminhalt im Destillat
+steht, nicht nur ob das Destillierte stimmt. Quelle: `/tmp/vkf-16-15-2022.pdf`, 35 S., MD5
+`507d99ecb5f38cad1b06e054b1185c55`, Fassung 01.01.2017/Stand 01.12.2022 — dieselbe Datei wie
+`BSPUB-1394520214-85.pdf` oben. Methode: Seiten-Inventur, jede Seite gerendert (`pdftoppm -r 150-200`)
+und per `pdftotext -layout` gegengelesen, Tabellen/Zeichnungen am Bild verifiziert, nicht nur am
+Text.)*
+
+| Teil der Quelle | Refuter-Richtung | Abdeckungsrichtung | Bemerkung |
+|---|---|---|---|
+| Titelblatt/Copyright/Datierung (S. 1-2) | Unabhaengige Gegenpruefung 17.07.2026 (Datierung S. 1/2/13) | **Run 29.08.2026** | Kein neuer Befund |
+| Ziff. 1-2 (S. 5-8, Allgemeine Anforderungen) | Fassungs-Delta 2015→2017→2022 mehrfach am Original geprueft (17./25.07.2026); klassische Refuter-Runde (unabhaengige Agenten widerlegen Behauptungen) nie separat gefahren | **Run 29.08.2026** | Luecke gefunden: Ziff. 2.5.5 Abs. 4 (2 von 5 Torarten fehlten) und Abs. 5 (automatische Schiebe-/Drehtueren) komplett gefehlt — ergaenzt |
+| Ziff. 3.1-3.9 (S. 8-13, nutzungsspezifisch) | s.o. (Fassungs-Delta geprueft, kein separater Refuter) | **Run 29.08.2026** | Keine Luecke ausser Querverweisen in den Anhang-Ergaenzungen unten |
+| Ziff. 3.10 + Ziff. 4 + Ziff. 5 (S. 13) | Ziff. 5 (Inkrafttreten) unabhaengig gegengeprueft 17.07.2026; Ziff. 4 nie geprueft | **Run 29.08.2026** | Kernluecke: Ziff. 4 «Weitere Bestimmungen» fehlte im Destillat vollstaendig — ergaenzt |
+| Anhang S. 14-21 (Messweise, 2.4.2-2.5.5, Tuerverschluesse) | Unabhaengige Gegenpruefung 17.07.2026 (Personenbelegung, Treppen, Tuerverschluesse) | Bereits in fruehreren Runs (17.07.2026) | Neu in diesem Run nur S. 22 nachgezogen (ArGV 4 Tuerbreiten) |
+| Anhang S. 22-25 (3.3.3, 3.3.4, 3.4.3, 3.5.2, 3.5.3-Beginn) | Fassungs-Delta S. 24 (Personenbelegung Verkauf) am Original geprueft (18./25.07.2026); Rest nie separat als Refuter geprueft | **Run 29.08.2026** | Nebenluecke: ArGV-4-Tuerbreiten (0.90 m/0.65 m) bisher nicht im Destillat — ergaenzt |
+| **Anhang S. 26-35 (bisher „nicht im Detail gelesen“)** | Nie geprueft (Fassungs-Delta deckte nur die Aenderungsstufen S. 24/33 ab, nicht den unveraenderten Rest) | **Run 29.08.2026 — ERSTMALS** | 4 Kernluecken (Beherbergung [a]-Definition + Geschossschwelle, Parking-Anrechenbarkeit, Feuerwehraufzug-Schleuse 2.4x2.4m, Atrien-Verweis), 3 Nebenbefunde (Rechenbeispiele bestaetigen nur bestehende Kennwerte), 0 falsche Werte |
+
+**Zusammenfassung:** In diesem Run (Abdeckungsrichtung, ganze Quelle S. 1-35 gegen das Destillat
+geprueft, Schwerpunkt S. 26-35) wurden **6 echte Kernluecken** gefunden (Ziff. 2.5.5 Abs. 4/5,
+Ziff. 4, Beherbergungsbetriebe-[a]-Definition + Geschossschwelle, Parking-Anrechenbarkeit,
+Feuerwehraufzug-Schleuse) und **2 Nebenluecken** (ArGV-4-Tuerbreiten, Atrien-Fachpublikations-
+Verweis) — alle mit Fundstelle nachgetragen. **0 falsche Werte** im bestehenden Destillat-Text
+gefunden; **1 falsche Aussage ueber die Quelle selbst** (nicht ueber einen Normwert): die
+Begriffe-Zeile zu Beherbergungsbetriebe [a]/[b]/[c] behauptete, die Definition [a] sei «nicht in
+diesem PDF enthalten» — das war falsch und wurde mit ⚠ korrigiert (siehe Abschnitt «Begriffe»).
+**Status bleibt unveraendert: `established-mit-vorbehalt`.** Eine unabhaengige Refuter-Runde im
+klassischen Sinn (separate Agenten widerlegen jede Einzelbehauptung) ist fuer die Hauptziffern
+1-3 weiterhin nie eigens gefahren worden — die bisherige Absicherung laeuft ueber die mehrfachen
+Fassungs-Delta-Vergleiche, was fuer Textstabilitaet, aber nicht fuer Vollstaendigkeit einsteht.

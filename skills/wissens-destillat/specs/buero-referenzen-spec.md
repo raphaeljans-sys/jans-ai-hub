@@ -204,14 +204,21 @@ vorhandenen Inventar auf, wird sie nicht eigenmächtig entfernt, sondern im Lauf
       CHANGELOG).
 - [x] `25_Wettbewerb` (P1-Cluster zwei Veranstalterprogramme 2009, Anonymisierungs-
       Zusatzprüfung durchgeführt, kein Fund). **29.08.2026 vollständig erledigt: alle
-      5 P1-Positionen, sechs Artikel** (siehe CHANGELOG). Nächster Lauf geht zu
-      `20_Rendering` über.
-- [ ] Danach `20_Rendering` (Reihenfolge nach `wiki/INDEX.md` «Sektionen nach Ertrag»,
-      vor jedem Lauf neu geprüft). **Nach `20_Rendering` ist die P1-Liste des
-      ursprünglichen Spec-Plans (28.07./29.08.2026) vollständig** — der nächste Lauf
-      prüft dann `wiki/INDEX.md` «Sektionen nach Ertrag» neu (P1-einstellige
-      Sektionen `12_Masse`, `21_Rhino` etc. sind zu diesem Zeitpunkt noch offen) statt
-      den Korpus vorschnell auf „erledigt" zu setzen.
+      5 P1-Positionen, sechs Artikel** (siehe CHANGELOG).
+- [x] `20_Rendering` — **29.08.2026 vollständig erledigt** (in zwei Teilen desselben
+      Laufs): sieben Artikel aus allen 5 P1-Positionen. Von den neun
+      Architektur-III-Handouts tragen sechs ausformulierten Fliesstext (destilliert,
+      fünf eigene Artikel plus Anteil an einem sechsten), drei sind reine
+      Bildlegenden-Arbeitsblätter ohne Fliesstext (begründet nicht destilliert). Siehe
+      `raw/inventar/buero-referenzen__20_Rendering.md` Abschnitt
+      «Destillat-Fortschritt».
+- [x] **Damit ist die im Spec-Plan vom 29.08.2026 vorgesehene Sektionsfolge
+      vollständig durchlaufen.** Der nächste Lauf gleicht `wiki/INDEX.md` «Sektionen
+      nach Ertrag» neu gegen `raw/inventar/` ab, statt den Korpus vorschnell auf
+      «erledigt» zu setzen — die P1-einstelligen Sektionen (`12_Masse`, `21_Rhino`,
+      u.a.) sind noch unangetastet, ebenso das gesamte P2 aller fünf bisher
+      bearbeiteten Sektionen. Korpus `buero-referenzen` ist daher weiterhin **nicht**
+      «erledigt» im Sinn von `KORPUS-QUEUE.md`.
 - [ ] Kurator-Stufe (Opus) je Lauf gemäss SKILL.md Schritt 4, mit Zusatzprüfung Anonymisierung
       für Artikel aus `18_Projektkostenplanung`/`25_Wettbewerb`.
 - [ ] Sobald alle P1-Positionen des Korpus `buero-referenzen` destilliert oder begründet

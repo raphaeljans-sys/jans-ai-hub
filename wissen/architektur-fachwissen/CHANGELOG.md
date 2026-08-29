@@ -1,5 +1,49 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Fünfter Destillat-Lauf Korpus `buero-referenzen`, Sektion `20_Rendering` (Lane FACHWISSEN, selber Tag, mit Nachtrag vollständig erledigt)
+
+Vier Wiki-Artikel neu geschrieben, alle `status: emerging`, aus der ETH-Theoriesektion
+(Ordnername irreführend — überwiegend Vorlesungs-/Reader-Material, keine
+Rendering-Bibliothek): `entwurfsbegriffe-struktur-huelle-architektur3-eberle.md`,
+`strategisches-entwerfen-systematik-etappenprojekte.md`,
+`standortanalyse-methodik-turbinenplatz.md`,
+`erlaeuterungsbericht-gattungsvorlage-vier-kapitel-diplom2010.md`. Fortschritt in
+`raw/inventar/buero-referenzen__20_Rendering.md` Abschnitt «Destillat-Fortschritt»,
+reiner Append. `wiki/INDEX.md` nachgeführt.
+
+**Delta-Ehrlichkeit (Zwischenstand dieses Teillaufs, siehe Nachtrag unten für den
+Abschluss):** zunächst waren von den neun Architektur-III-Handouts (eine einzelne
+P1-Triagezeile) erst zwei Themen (Struktur, Hülle) ausdestilliert; dieser
+Zwischenstand wurde bewusst nicht kosmetisch als «erledigt» verbucht. Der
+Nachtrag desselben Laufs (unten) schliesst die Sektion vollständig ab.
+Urheberrechtsvorbehalt beachtet: universitäres
+Lehrmaterial nur sinngemäss mit Fundstelle wiedergegeben, nie im Wortlaut. Bei der
+Diplomarbeits-Quelle (Erläuterungsbericht HS 2010) ausschliesslich die Gattungsstruktur
+destilliert, keine Autoren-/Studierendennamen übernommen (Spec-Abgrenzung
+«Studien-/Diplomarbeiten Dritter sind kein eigenständiger Artikelstoff» eingehalten:
+nur das konkrete, verifizierbare Formdetail destilliert, die Arbeit selbst nicht
+nacherzählt). Datenschutz-Befund der Inventardatei (Fremdrechnung eines
+Render-Dienstleisters, bereits als `X` geführt) nicht angefasst.
+
+**Nachtrag selber Tag, Fortsetzung desselben Laufs:** die restlichen sieben
+Architektur-III-Handouts einzeln direkt im Archiv gelesen (nicht nur über die
+Inventar-Zusammenfassung). Drei tragen ausformulierten Fliesstext und wurden
+destilliert: `lebensdauer-hierarchie-nachhaltigkeit-architektur3.md` (vl1,
+fünfstufige Lebensdauer-Hierarchie als Nachhaltigkeits-Entscheidungsinstrument),
+`typus-und-charakter-begriffsapparat-architektur3.md` (vl5,
+Materialisierungs-Vokabular als Charakterträger),
+`programmflexibilitaet-nachhaltigkeit-raumprogramm-architektur3.md` (vl7,
+Funktionsbegriff-Kritik und drei Flexibilitätsstrategien). Vier Handouts (vl2, vl4,
+vl8, vl9) erwiesen sich als reine Bildlegenden-Arbeitsblätter ohne extrahierbaren
+Fliesstext und wurden bewusst nicht destilliert — im Inventar-Nachtrag begründet,
+kein weiterer Prüfbedarf. `wiki/INDEX.md` entsprechend korrigiert.
+
+**Damit ist Sektion `20_Rendering` jetzt vollständig destilliert** (7 statt 4
+Artikel) und die im Spec-Plan vorgesehene Sektionsfolge vollständig durchlaufen.
+Nächster Lauf: `wiki/INDEX.md` neu gegen das Inventar abgleichen — der Korpus
+`buero-referenzen` ist noch nicht «erledigt» (P1-einstellige Sektionen und
+sämtliches P2 der fünf bearbeiteten Sektionen bleiben offen).
+
 ## 2026-08-29 — Vierter Destillat-Lauf Korpus `buero-referenzen`, Sektion `25_Wettbewerb` (Lane FACHWISSEN, selber Tag)
 
 Sechs Wiki-Artikel neu geschrieben, alle `status: emerging`, aus dem P1-Cluster zweier
