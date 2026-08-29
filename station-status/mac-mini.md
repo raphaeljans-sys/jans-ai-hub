@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 23:02:56
+Stand: 29.08.2026 23:13:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 22:51)
@@ -13,4 +13,4 @@ Stand: 29.08.2026 23:02:56
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c98c6654c energie Run 167: E-R166-6 beantwortet — Begleitdokument-Klasse traegt auch auf Rang 6-20 (kumuliert 11/11); Minergie-ECO-PV-Grenzwert 13.3 -> 7.1 als veralteter Bestandswert gefunden und mit Vorbehalt versehen; ElCom widerspricht VSE-Branchenempfehlung zur LEG; E-R166-3 acht HFM-Aussagen primaerverifiziert (Neubau-Ausschluss nur M-01, 2-Jahres-Frist kantonal, 6-Monats-Zusatz unbelegt); Korrigenda-Zeiger-Luecke geschlossen; F33/F9/F7 geschaerft
+- 095cc68b2 grobkosten: fuenfter Duplikat-Dispatch selber Tag, letzter ausfuehrlicher Eintrag dieser Reihe
