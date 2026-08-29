@@ -4,6 +4,24 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Minimalcheck bestaetigt Vorlauf, keine neue Recherche
+
+Minimalcheck (nicht volle Recherche, wie vom Vorlauf empfohlen): `git status --short` und
+`git diff --numstat` fuer diese KB leer, Arbeitsbaum unveraendert seit dem Lauf von heute
+frueh (Zeile unten). Dieser Dispatch-Auftrag ist inhaltlich identisch zu mindestens neun
+Vorlaeufen seit dem 29.08.2026 und behauptet weiterhin "Charge 2 und folgende sind offen" —
+das ist laut `wiki/QUESTIONS.md` Zeile 54 unveraendert falsch, alle sechs Chargen sind seit
+dem 29.08. vollstaendig einzeln recherchiert. Die vier einzigen verbliebenen Merkposten ohne
+Beleg (Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure) wurden im Vorlauf von heute frueh
+bereits per Ordnerinhalt UND Websuche ausgeschoepft; keine neuen Mittel verfuegbar, also keine
+erneute Bearbeitung. Sik_Miroslav und Sutter_Annabarbara (Sektion 1) sind Rueckfragen an
+Raphael, keine recherchierbaren Positionen. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag
+veraendert. **Empfehlung unveraendert und verstaerkt (jetzt zehnter Lauf ohne echten neuen
+Sachstand):** die Lane SYNOBSIS nicht mehr automatisch redispatchen, bis entweder (a) Freigabe
+fuer die protokollierten NAS-Umbenennungen/-Zusammenfuehrungen erteilt wird, (b) ein regulaerer
+`--reindex`-Lauf neues Rohmaterial liefert, oder (c) Raphael die beiden Rueckfragen (Sik_Miroslav,
+Sutter_Annabarbara) beantwortet.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, Folgelauf) — vier Charge-2-Restnamen sichten, keine Bestaetigung
 
 Minimalcheck vor Vollrecherche (Memory-Hinweis dieser Lane und CHANGELOG-Empfehlung des

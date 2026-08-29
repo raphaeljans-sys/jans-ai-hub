@@ -610,3 +610,51 @@ grosser Cross-KB-Fund vermieden (Doppelarbeit mit `immobilienbewertung`), mehrer
 Norm-/Urheberrechts-Positionen bewusst nicht hier destilliert. Rund 15–20 P2-Positionen
 bleiben für einen Folgelauf offen** (Bauprozess-Systematik Menz, Ausschreibungsbeispiele,
 KBOB-Gleitpreisklausel als Cross-KB-Kandidat, Baubeschrieb-Musterbeispiel).
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (P2, zweiter Lauf dieser Sektion)
+
+Dreiundzwanzigster Destillat-Lauf des Korpus `archiv-fachwissen` (Lane FACHWISSEN),
+Fortsetzung der Sektion `03_Bauprozesse_I_II`. Dispatch-Text erneut veraltet (behauptete
+«kein Destillat, keine Spec, 2 Wiki-Artikel» sowie fälschlich Station «MacBook Pro» statt
+des per `scutil` bestätigten Hostnamens Macmini) — vierzehntes Beispiel des dokumentierten
+Dispatch-Bugs, Memory `project_fachwissen-dispatch-loop`. Am realen Stand
+(`KORPUS-QUEUE.md`) weitergearbeitet, keine Spec neu geschrieben. Vor Beginn `ps aux` auf
+Doppel-Instanzen geprüft: keine zweite FACHWISSEN-Instanz aktiv.
+
+**Destilliert (zwei der beiden noch ungelesenen Positionen aus dem vorigen Lauf):**
+
+- [x] `02_Projektbeschriebe/Beschriebe.doc` (Dateidatum 27.06.2007, unvollständiges
+  Fragment, kein Autor) → vollständig gelesen (`textutil`), SIA-416/SIA-116-Volumenvergleich
+  mit Kostenkennwert destilliert →
+  [[sia416-sia116-volumenvergleich-kostenkennwert-uebungsbeispiel]], neu,
+  `status: speculative` (Herkunft/Autorenschaft nicht belegt).
+- [x] `03_Kostenplanung/Baubeschrieb.pdf` (13 Seiten, Verkaufsbeschrieb Gäbrisstrasse
+  Rorschach, 4.12.2011) → Seiten 1-11 vollständig gelesen (`pypdf`), Seite 13 «Adressen»
+  bewusst **nicht** gelesen (Sperrliste-Nähe, reine Kontaktliste). Technischer Teil
+  (BKP-gegliederte Leistungsbeschreibung, Holzbau-Konstruktionsangaben,
+  Budget-Richtpreise) als drittes Beispiel in [[baubeschrieb-als-kostentraeger]] ergänzt
+  (dritte unabhängige Bestätigung der BKP-Phantom-Code-Warnung: 051 als Sammelcode
+  verwendet, 213 mit abweichender Bedeutung, 466 existiert im BKP 2017 gar nicht). Der
+  Klauselteil (Mängelhaftung, Käuferänderungen, Plan-Hierarchie) als eigener Artikel
+  destilliert → [[verkaufsbeschrieb-stweg-standardklauseln-kaeuferaenderungen-gaebrisstrasse]],
+  neu, `status: emerging`.
+
+**Verbleibende P2-Positionen dieser Sektion (unverändert gegenüber vorigem Lauf, aus
+Zeitgründen in diesem Lauf nicht bearbeitet):**
+
+- [-] `00_Administration/01_Skripte/bauprozesse.pdf` (40 S., Zusammenfassung fremder
+  Lehrbücher nach Menz) — Urheberrechtslage weiterhin ungeklärt.
+- [-] `00_Administration/02_Vorlesung/04_doppelR/` — dieselbe Urheberrechtsvorsicht.
+- [-] `03_Kostenplanung/00_Organisation/10_.../11_Tools/` (AVA-Software-Vergleich 2011) —
+  Marktbild veraltet, weiterhin zurückgestellt.
+- [-] `01_Phasen_Kostenaufstellungen/03_Ausschreibung/` (Ausschreibungspläne + reale
+  Unternehmerofferte) — Anonymisierungsprüfung weiterhin offen.
+
+**P2-Status dieser Sektion nach diesem Lauf: zwei weitere Fachbausteine destilliert (drei
+neue Wiki-Artikel/-Erweiterungen), damit alle zu Beginn dieses Laufs als „ungelesen"
+markierten Positionen abgearbeitet. Vier P2-Positionen bleiben offen** — zwei davon mit
+ungeklärter Urheberrechtslage (Menz-Zusammenfassungen), eine mit Anonymisierungsbedarf, eine
+mit fehlendem Aktualitätswert. Für die Sektion ist damit kein unblockierter,
+schnell erschliessbarer P2-Rest mehr vorhanden; ein Folgelauf müsste entweder die
+Urheberrechtsfrage klären, die Anonymisierung vornehmen, oder gemäss Queue-Regel zur
+nächstgrössten Sektion nach Ertrag übergehen.

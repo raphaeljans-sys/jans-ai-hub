@@ -1,5 +1,45 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II`, zweiter P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station
+fälschlich «MacBook Pro» — tatsächlicher Hostname laut `scutil` **Macmini**; vierzehntes
+Beispiel desselben Musters, Memory `project_fachwissen-dispatch-loop`). Vor Arbeitsbeginn
+`ps aux` geprüft: keine zweite FACHWISSEN-Instanz aktiv. Am realen Stand in
+`KORPUS-QUEUE.md`/CHANGELOG orientiert, keine Spec neu geschrieben (beide Specs bestehen
+seit 29.08.2026).
+
+Fortsetzung der Sektion `03_Bauprozesse_I_II`: die beiden im vorigen Lauf als „noch nicht
+gelesen" markierten P2-Positionen vollständig gelesen und destilliert.
+
+- `02_Projektbeschriebe/Beschriebe.doc` (Dateidatum 27.06.2007, unvollständiges Fragment,
+  kein Autor) → [[sia416-sia116-volumenvergleich-kostenkennwert-uebungsbeispiel]], neu,
+  `status: speculative`. SIA-416- vs. SIA-116-Volumenberechnung am selben Gebäude (750 m³
+  vs. 1'070 m³, ~43 % Differenz durch den SIA-116-Aussengeschossflächen-Zuschlag), aber nur
+  ~3,6 % Differenz im daraus abgeleiteten Kostenkennwert (CHF 309'750.- vs. CHF 321'000.-).
+- `03_Kostenplanung/Baubeschrieb.pdf` (13 Seiten, Verkaufsbeschrieb 10 Eigentumswohnungen
+  Gäbrisstrasse, Rorschach, 4.12.2011) → Seiten 1-11 gelesen, Seite 13 «Adressen» bewusst
+  ausgelassen (Sperrliste-Nähe). Zwei Ergebnisse:
+  - Technischer Teil (Holzbau-Konstruktion, Budget-Richtpreise pro Wohnungstyp,
+    BKP-gegliederte Leistungsbeschreibung) als drittes Beispiel in
+    [[baubeschrieb-als-kostentraeger]] ergänzt. **Dritte unabhängige Bestätigung** der
+    BKP-Phantom-Code-Warnung (nach Leutschenbach «071»): 051 als Sammelcode statt
+    Detailposition verwendet, 213 mit abweichender Bedeutung (Balkongeländer statt
+    Stahltragwerk), 466 existiert in der BKP-2017-Hauptgruppe 46 gar nicht.
+  - Klauselteil (Prospekt-Haftungsausschluss, Rangfolge Beschrieb vor Plan,
+    Mängelhaftungs-Toleranzen 0,5 mm/Garantiefristen 2-5-1 Jahre, Käuferänderungsregelung
+    mit 2/3-Rückvergütung bei Verzicht) als eigener Artikel →
+    [[verkaufsbeschrieb-stweg-standardklauseln-kaeuferaenderungen-gaebrisstrasse]], neu,
+    `status: emerging`.
+
+Inventardatei `raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` um Abschnitt
+«Destillat-Fortschritt — Ergänzung 2026-08-30 (P2, zweiter Lauf)» ergänzt (reiner Append,
+`git diff --numstat` 48/0 geprüft). Damit sind alle zu Laufbeginn unblockierten P2-Positionen
+dieser Sektion abgearbeitet; vier verbleiben offen (zwei mit ungeklärter Urheberrechtslage,
+eine mit Anonymisierungsbedarf, eine ohne Aktualitätswert) — Details Inventardatei. Der
+Entscheidungspunkt Raphaels (`QUESTIONS.md` #1/#58/#60/#63, P2 systematisch vs.
+Phase-0-Nachholung) bleibt unverändert offen und wurde in diesem Lauf nicht wiederholt.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II`, erster P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station
