@@ -69,8 +69,22 @@ TCP-Retransmits, RSSI/TxRate, Prozess-CPU ueber cputime-Deltas):
    billig. **Plausibilitaet und Beleg getrennt ausweisen, sonst wird aus einem guten
    Verdacht eine schlechte Tatsache.**
 
-**Offen (kein Hub-Thema, Raphaels Entscheid):** 35-W-Netzteil gegen 87 W tauschen
-(Leistungsreserve, unabhaengig vom Stocken); WLAN-Kanal 124 ist ein DFS-Kanal (Radar
+**Nachtrag 260829, 11:20 — das Netzteil ist erledigt, und der Nachtrag ist selbst eine
+Lehre.** Raphael hatte waehrend der Sitzung getauscht; zwei unabhaengige Quellen
+(`system_profiler`, `ioreg AppleSmartBattery`) zeigen jetzt **96W USB-C Power Adapter,
+94 W gemessen, Seriennummer C4H515700PKPM0WBL, ID 0x7002** — ein anderes Geraet als die
+35-W-Einheit von 10:45 (Seriennummer C4H546200KX1CGGAV, ID 0x701b). Die 35-W-Messung war
+zum Zeitpunkt ihrer Erhebung korrekt. **Falsch war, sie im Schlussbericht als Gegenwart zu
+wiederholen, ohne sie neu zu erheben** — obwohl dazwischen ueber eine halbe Stunde und
+mehrere Eingriffe lagen und Raphael die Empfehlung genau in dieser Zeit umgesetzt hatte.
+Das ist Rule `auto-verbesserungen` 260730b, Punkt 3, in Reinform: ein Messwert ist eine
+Aussage ueber **seinen** Zeitpunkt, nicht ueber jetzt. **Praktische Verschaerfung fuer
+Diagnose-Sitzungen: wird eine Empfehlung ausgesprochen, auf die der Benutzer handeln kann,
+ist der zugehoerige Messwert im Schlussbericht neu zu erheben — nicht zu zitieren.** Auf den
+Sachbefund hat das keinen Einfluss: in allen drei Laeufen wurde **null** Drosselung gemessen,
+das Netzteil war ohnehin nie die Ursache des Stockens.
+
+**Offen (kein Hub-Thema, Raphaels Entscheid):** WLAN-Kanal 124 ist ein DFS-Kanal (Radar
 erzwingt Kanalwechsel, in 2 h Log ohne Ereignis); Router meldet Laendercode NL an einem
 Schweizer Anschluss. Messdaten und Script:
 Scratchpad `iptv/` (`messkopf.py`, `A2_tailscale_AN.csv`, `B_tailscale_AUS.csv`).
