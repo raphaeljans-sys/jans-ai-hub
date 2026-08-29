@@ -9438,3 +9438,17 @@ Buero), Burkhardt_Elsa und Dunkel nur wahrscheinlich (Schreibvariante/Vorname-Zu
 Ordnerinhalt nicht abschliessend). Details mit Quellen an der bestehenden Bulletzeile angehaengt,
 CHANGELOG-Eintrag gesetzt. `git diff --numstat` nativ geprueft: 1/1, keine Loeschung. Budget rund
 1.8 von 5 USD.
+
+## 2026-08-29 02:30 Nachtschicht Mac Mini — Sammelfrage Charge 1 (architekten-synobsis), vier weitere Namen recherchiert
+
+Prioritaeten 1-4 leer bzw. nicht anwendbar (keine pending Tasks, Synobsis Stufe 1+2 vollstaendig,
+`bauprodukte`/`grobkosten` erledigt/ausgesetzt, `energie` rund 4 Stunden zuvor an eigenem Takt
+gelaufen, Rest per Vorgabe ausgeschlossen). Fristen-Register ohne neuen Handlungsbedarf.
+Auf Prioritaet 5 ausgewichen: vier der acht vom 23:30-Lauf pauschal als "offensichtlich bekannt"
+eingestuften Sammelfrage-Namen einzeln per WebSearch belegt — Carmassi_Massimo (Massimo Carmassi,
+italienischer Architekt, Restaurierung Pisa), Chochol (Josef Chochol, tschechischer
+Kubismus-Architekt), Cohen_Preston_Scott (Preston Scott Cohen, Harvard GSD) und Dieste_Elado
+(Eladio Dieste, uruguayischer Bauingenieur, bewehrtes Ziegelmauerwerk). Damit zehn von vierzehn
+Namen der Charge 1 belastbar/wahrscheinlich identifiziert. Details mit Quellen in
+`wissen/architekten-synobsis/wiki/QUESTIONS.md` angehaengt, CHANGELOG-Eintrag gesetzt.
+`git diff --numstat` nativ geprueft: 1/1 (QUESTIONS.md), keine Loeschung. Budget rund 0.9 von 5 USD.

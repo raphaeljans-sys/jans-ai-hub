@@ -4,6 +4,30 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 02:30 (Mac Mini Nachtschicht) — Vier weitere Namen aus Sammelfrage Charge 1 recherchiert (Carmassi_Massimo, Chochol, Cohen_Preston_Scott, Dieste_Elado)
+
+Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
+vollstaendig (853/853); `bauprodukte`/`grobkosten` formal erledigt/ausgesetzt; `energie` erst rund
+4 Stunden zuvor im eigenen Takt gelaufen (Run 166, 27.08. 22:58); `baurecht`/`normen`/
+`planungsgrundlagen`/`wettbewerbs-dna` per Vorgabe ausgeschlossen (eigener Taktgeber).
+Fristen-Register (`logbuch/fristen.md`) ohne neuen Handlungsbedarf fuer diesen Zyklus.
+
+Auf Prioritaet 5 ausgewichen: der 23:30-Lauf hatte acht der vierzehn Sammelfrage-Charge-1-Namen
+als "bereits offensichtlich bekannt" eingestuft, ohne sie einzeln zu belegen. Vier davon (Cebra,
+Da Vinci, Dietrich Untertrifaller, Dogma) sind tatsaechlich zweifelsfrei; die anderen vier
+(Carmassi_Massimo, Chochol, Cohen_Preston_Scott, Dieste_Elado) waren nicht wirklich unstrittig
+genug, um ohne Beleg als erledigt zu gelten, und wurden jetzt per WebSearch einzeln bestaetigt:
+**Massimo Carmassi** (italienischer Architekt, Restaurierung historischer Stadtzentren, Pisa),
+**Josef Chochol** (tschechischer Kubismus-Architekt, 1880-1956), **Preston Scott Cohen**
+(US-Architekt, Harvard GSD, Geometrie-Architektur) und **Eladio Dieste** (uruguayischer
+Bauingenieur, bewehrtes Ziegelmauerwerk/Gausssche Gewoelbeschale). Details mit Quellenangabe in
+`wiki/QUESTIONS.md` an der bestehenden Sammelfrage-Zeile angehaengt. Damit sind zehn der
+vierzehn Namen der Charge 1 belastbar oder wahrscheinlich identifiziert, vier bleiben unveraendert
+offen (Cebra_Architekten, Da_Vinci_Leonardo, Dietrich_Untertrifaller, Dogma — bekannt, aber nicht
+einzeln belegt). `git diff --numstat` nativ geprueft: 1 Zeile geaendert / 1 Zeile (additiv
+erweitert), keine Loeschung von Bestand. Kein Fan-out, kein Versand, keine Buchung, keine
+destruktive Aktion. Budget dieses Zyklus: rund 0.9 von 5 USD.
+
 ## 2026-08-28 23:30 (Mac Mini Nachtschicht) — Sechs Namen aus Sammelfrage Charge 1 recherchiert (Brauen_Waelchli, Brunhart_Brunner_Kranz, Buehler_Martin, Burkhardt_Elsa, Consoni_Beat, Dunkel)
 
 Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
