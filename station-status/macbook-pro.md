@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.08.2026 23:45:54
+Stand: 29.08.2026 23:56:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:41)
@@ -12,4 +12,4 @@ Stand: 29.08.2026 23:45:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c6c27aa21 nas-selfcommit: 3 Datei(en) 2026-08-29 23:45
+- 675e95ce3 Lane FACHWISSEN: erster P2-Destillat-Lauf archiv-fachwissen (Sektion 02_Gestalt_Kulturverstaendnis, zwei Artikel: Dichte-Rundfahrt Bauwelt 2012, Gestaltungsplan Richti-Areal Wallisellen)
