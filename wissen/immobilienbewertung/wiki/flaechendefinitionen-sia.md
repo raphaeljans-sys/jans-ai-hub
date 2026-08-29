@@ -62,7 +62,7 @@ Begriffe. Nicht SIA-416-Begriffe sind insbesondere:
 - **Volumen zur Berechnung der Baumassenziffer**, **Energiebezugsflaeche (EBF)**.
 
 Diese sind **baurechtlich/energetisch** (Zone/BZO/PBG → Skill `baurecht`/`machbarkeit`; EBF →
-SIA 380/1 / Skill `planungsgrundlagen`). Die SIA-416-**GF** ist demgegenueber rein **geometrisch**
+SIA 380/1 / Skill `planungsgrundlagen`). Die EBF-Bezugsgroessen selbst fuehrt seit 03.08.2026 die KB `energie` (`wiki/bezugsgroessen-energienachweis`, `status: emerging` — Navigationshinweis, **keine Zitierquelle**); der ZH-Vollzugsstand mit der Hoehenschwelle nach AHB/RFB liegt weiterhin bei `planungsgrundlagen` (ergaenzt 29.08.2026, Wissens-Chef Run 47). Die SIA-416-**GF** ist demgegenueber rein **geometrisch**
 (allseitig umschlossene, ueberdeckte Grundrissflaeche inkl. Konstruktion). Umgangssprachlich
 wird die GF oft «Bruttogeschossflaeche» genannt — die Norm sagt **GF**; die anrechenbare aGF
 ist davon der baurechtlich gezaehlte Teil (nicht jedes UG/DG zaehlt).

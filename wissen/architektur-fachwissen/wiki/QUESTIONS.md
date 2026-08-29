@@ -4,6 +4,30 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260829b — Cross-KB-Befunde (Wissens-Chef Run 47)
+
+**#38 → Übergabe an KB `twin`: Eigentext-Stratum 2007–2014 als möglicher GOLD-Bestand.**
+Mehrere Artikel dieses Laufs stützen sich auf Quellen, die im Frontmatter ausdrücklich als
+«Eigentext Raphael Jans» bzw. «Eigenmaterial» ausgewiesen sind (`begriffsapparat-kant-sprachstil-pruefraster-jans`,
+`typografie-regelwerk-lernskript-jans-2007`, `denkmalpflegerische-baudokumentation-gliederung-haus-jans`;
+weitere in `raw/inventar/*.md` unter `00_Ideen/` und `00_Entwurfshaltungen/`). Das ist vor-Claude-Material
+aus Raphaels eigener Hand und damit nach dem Echo-Schutz der KB `twin` die Kategorie GOLD `authentisch`.
+`wissen/twin` kannte diesen Bestand nicht (null Treffer auf `02_Architektur_Archiv`, gemessen 29.08.2026).
+Frage dort eingestellt: `wissen/twin/wiki/QUESTIONS.md`, Block 260829c. **Diese KB entscheidet das nicht** —
+sie liefert nur den Zeiger; als Stilquelle taugt ohnehin nur das Original, nie das Destillat.
+
+**#39 Führungsfrage Wettbewerb: wer führt Juryberichte?** `wettbewerbsjury-kapitelfolge-gestaltungsplan-zollstrasse-ost-sbb.md`
+destilliert einen Jurybericht, während `wissen/wettbewerbs-dna/wiki/extern/` die 42 externen Juryberichte
+führt (Zollstrasse dort mit 0 Treffern). Die Arbeitsteilung — diese KB die **Veranstalter-Verfahrensseite**,
+`wettbewerbs-dna` die **Juryurteile und Teilnahme-Dossiers** — ist plausibel, aber nirgends festgelegt.
+Entscheid gehört den beiden KBs bzw. Raphael, nicht einem Aufsichtslauf.
+
+**#40 Kennwert-Grenze der KB.** `wissen/koordination/QUERBEZUEGE.md` Z. 176 (Run 41) spricht dieser KB
+ausdrücklich zu, «selbst **keine** Kennwerte, **keine** BKP-Codes und **keine** Norm-Fundstellen» zu führen.
+Der Bestand vom 29.08.2026 führt faktisch CHF/m²-GF- und CHF/m³-Kennwerte, Uf-/Uli-Werte, SIA-102-Phasenanteile
+und BKP-Codes. Die Artikel sind überwiegend sauber als **datierter historischer Zeitstand** gehedgt — die
+Matrixzeile kennt diese Kategorie aber nicht. Vorgelegt als offener Entscheid im Laufbericht Run 47.
+
 ## 260829 — Dritter Destillat-Lauf Korpus 4, Sektion `01_Konstruktion`
 
 Quelle: Lane FACHWISSEN, dritter Destillat-Lauf Korpus 4 `archiv-fachwissen`, alle vier

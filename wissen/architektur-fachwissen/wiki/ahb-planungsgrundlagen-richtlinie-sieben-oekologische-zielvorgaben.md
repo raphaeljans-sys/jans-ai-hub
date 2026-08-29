@@ -3,7 +3,7 @@ title: "AHB-Planungsgrundlagen-Richtlinie: sieben ökologische Zielvorgaben eine
 status: speculative
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Konstruktion/05_Infrastruktur_Gebaudetechnik/08_Pflichtenhefte/RL_GT_1_Planungsgrundlagen.pdf (Amt für Hochbauten der Stadt Zürich, Richtlinie GT Planungsgrundlagen, Version 2.0, Dokumentdatum 12.10.2005, Redaktion Thomas Kessler, Fachstelle Energie und Gebäudetechnik, 4 Seiten, gelesen vollständig)", "raw/inventar/archiv-fachwissen__01_Konstruktion.md"]
-links: ["[[funktionale-ausschreibung-verfahrensmethodik]]"]
+links: ["[[funktionale-ausschreibung-verfahrensmethodik]]", "wissen/energie/destillate/ahb-zuerich-gt-rl1-planungsgrundlagen.md", "wissen/energie/destillate/stadt-zuerich-7-meilenschritte-nachhaltiges-bauen.md", "wissen/energie/destillate/ahb-zuerich-massstaebe-nachhaltiges-bauen.md"]
 ---
 
 # AHB-Planungsgrundlagen-Richtlinie: sieben ökologische Zielvorgaben
@@ -37,5 +37,19 @@ Für Arbeiten mit öffentlichen Bauherrschaften in Zürich (und sinngemäss verg
 ## Offene Punkte
 
 - **Stand 2005, nicht «vor 2002» wie im Phase-0-Inventar vermutet** — die heute (2026) gültigen AHB-Vorgaben sind zwingend aktuell zu beziehen, da MINERGIE-Standard-Anforderungen, SIA-380/4-Bezug und die 25-%-Vorgabe erneuerbarer Energien seither mehrfach durch MuKEn- und kantonale Energiegesetz-Revisionen überholt sein dürften.
+  **✓ Teilweise geschlossen 29.08.2026 (Wissens-Chef Run 47) — der Nachfolgestand liegt im Hub:**
+  die Vermutung «dürfte überholt sein» ist für Punkt 4 belegt entschieden. Die KB `energie` führt
+  denselben Vorgabenapparat in drei Destillaten: `destillate/ahb-zuerich-massstaebe-nachhaltiges-bauen.md`
+  (Mai 2006, inhaltlich die deckungsgleiche Fassung dieser sieben Punkte, ebenfalls 25 %),
+  `destillate/stadt-zuerich-7-meilenschritte-nachhaltiges-bauen.md` (StRB 1094 vom 17.09.2008, mit
+  tabellarischem Zielwert-Vergleich 2006 gegen 2008) und `destillate/ahb-zuerich-gt-rl1-planungsgrundlagen.md`
+  (**Version 2.1, Juli 2008 — die Nachfolgeversion genau dieser Richtlinie**, destilliert am 03.08.2026).
+  Sachstand: der Anteil erneuerbarer Energie am Wärmebedarf von Neubauten wurde zwischen 2006 und 2008
+  von **25 % auf mindestens 40 %** angehoben (bei bestehenden Bauten 50 % des Wärmebedarfs für die
+  Wassererwärmung). **Kein Widerspruch, sondern eine dokumentierte Fassungsfolge** — die Richtlinie
+  zitiert die Meilenschritte, sie setzt sie nicht. Ebenfalls dort belegt: der SIA-380/4-Bezug ist
+  überholt (SIA 380/4:2006 abgelöst, geltend SIA 387/4:2023) und SIA 180:1999 ist durch SIA 180:2014
+  ersetzt; die in der Richtlinie zitierte Ziff. 3.3.1.2 ist damit keine gültige Fundstelle mehr.
+  Für heutige Vorgaben gilt unverändert: aktuell beim AHB beziehen.
 - Norm-Bezug SIA 380/4 (Beleuchtung) und SIA 180 (sommerlicher Wärmeschutz, Lüftungskonzept) ist hier nur methodisch referenziert, nicht gegen `wissen/normen/` verifiziert.
 - BKP-235-Bezug stimmt mit der aktuellen `BKP-2017-Liste.md` überein, wurde aber nur stichprobenartig verglichen, nicht vollständig gegen alle in der Richtlinie erwähnten BKP-Positionen geprüft.

@@ -4902,3 +4902,39 @@ Soll dieser Rahmungssatz als eigenes Lernsignal gelten? *Warum: er zeigt genau d
 Du einen Modelltext fuer versandtauglich haeltst — und was Du fuer noetig haeltst, damit er es
 wird. Das ist potenziell das dichteste Signal ueberhaupt, aber nur, wenn es einen Namen und eine
 Stufe hat.*
+
+## 260829c — Uebergabe aus KB `architektur-fachwissen` (Wissens-Chef Run 47)
+
+**#1 Gehoert der Eigentext-Stratum 2007–2014 aus `/Volumes/daten/02_Architektur_Archiv` als
+GOLD-Quelle in den Twin?** Die am 23.08.2026 angelegte KB `architektur-fachwissen` destilliert
+seit dem 29.08.2026 aus diesem Archiv Artikel, deren Quellen im Frontmatter ausdruecklich als
+**«Eigentext Raphael Jans»** bzw. **«Eigenmaterial»** ausgewiesen sind — also vor-Claude, aus
+Raphaels eigener Hand, und damit nach dem Echo-Schutz (`wissen/twin/CLAUDE.md`) genau die
+Kategorie **GOLD `authentisch`**. Die KB `twin` kennt diesen Bestand bisher nicht: `02_Architektur_Archiv`
+und `architektur-fachwissen` haben in `wissen/twin/` je **null** Treffer (gemessen 29.08.2026).
+
+Belegte Kandidaten (aus den Frontmatter-`sources:` der afw-Artikel):
+- `03_Begriffe_der_Architektur/00_Ordnerkreator/Warum Begriffe ordnen.docx` (Eigentext),
+  `Sockel_…docx` (Eigentext), `Ethos/…docx` (Eigentext, Notizform),
+  `Baukunst/120903_Baukunst_und_Gestalt.docx` (Eigentext, 03.09.2012)
+  → destilliert in `architektur-fachwissen/wiki/begriffsapparat-kant-sprachstil-pruefraster-jans.md`
+- `02_Gestalt_Kulturverstaendnis/01_Architektur_darstellen/04_Layout/03_Checklisten/Typografie.pdf`
+  (Fusszeile «2007 © Lernskript Jans Typografie 1», Eigenmaterial)
+  → `architektur-fachwissen/wiki/typografie-regelwerk-lernskript-jans-2007.md`
+- `02_Denkmalpflege/01_Arbeiten/Haus_Jans/PDF/120705_Denkmalpflege_Haus_Jans.pdf`
+  → `architektur-fachwissen/wiki/denkmalpflegerische-baudokumentation-gliederung-haus-jans.md`
+- weitere als «Eigentext»/«selbst verfasst» markierte Dateien in
+  `architektur-fachwissen/raw/inventar/*.md` (`00_Ideen/`, `00_Entwurfshaltungen/` 2013–2014)
+
+*Warum das zaehlt:* der bisherige Gold-Korpus des Twin ist **Mail-Prosa** (Sent Items). Dieser
+Stratum ist **Fachprosa und Argumentation** aus derselben Hand — das Register `fachsignatur`
+und `haltung` haben dafuer bisher keine Quelle dieser Gattung.
+
+*Vorbehalt, der mitgehen muss:* (1) Es ist **destillierter** Text, nicht der Originalwortlaut —
+als Stilquelle taugt nur das Original, nicht der afw-Artikel. (2) Der Stratum ist 12–19 Jahre alt;
+ob Stimme von 2007 heute noch Gold ist oder nur historischer Stand, ist eine Frage an Raphael,
+nicht eine Ableitung. (3) Nicht jede Datei in diesen Ordnern ist Eigentext — die Gewichtung je
+Datei muss am Original erfolgen.
+
+Uebergeben vom Wissens-Chef Run 47, 29.08.2026. Gegenzeiger steht in
+`wissen/architektur-fachwissen/wiki/QUESTIONS.md`, Block 260829b.

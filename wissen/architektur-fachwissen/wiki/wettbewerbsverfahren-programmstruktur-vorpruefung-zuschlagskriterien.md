@@ -3,7 +3,7 @@ title: "Wettbewerbs-/Studienauftragsprogramm: Grundstruktur, Vorprüfungs- vs. Z
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/25_Wettbewerb/zeughaus.pdf (Hochbauamt Kanton Appenzell Ausserrhoden, Präqualifikation und Studienauftrag «Umnutzung Zeughaus Ebnet, Herisau», 2009)", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/25_Wettbewerb/Natums/a20natmus2009-03-0320wettbewerbsprogramm.pdf (Hochbauamt Stadt St.Gallen, offener Projektwettbewerb «Neubau Naturmuseum» nach SIA 142:1998, 2009)", "raw/inventar/buero-referenzen__25_Wettbewerb.md Abschnitte 1, 2, 7"]
-links: ["[[wettbewerbs-teilnahmebedingungen-ausstand-abgabe-urheberrecht]]", "[[honorarmechanik-wettbewerb-oeffentliche-bauherrschaft]]", "[[raumprogramm-spaltenlogik-sia416-naturmuseum]]"]
+links: ["[[wettbewerbs-teilnahmebedingungen-ausstand-abgabe-urheberrecht]]", "[[honorarmechanik-wettbewerb-oeffentliche-bauherrschaft]]", "[[raumprogramm-spaltenlogik-sia416-naturmuseum]]", "wissen/wettbewerbs-dna/wiki/INDEX.md"]
 ---
 
 # Wettbewerbs-/Studienauftragsprogramm: Grundstruktur
@@ -78,4 +78,10 @@ Geometrieregel und als Kostenmechanismus setzen. Relevant für `machbarkeit` und
 
 - Kein Juryergebnis zu beiden Verfahren im Bestand (siehe `wiki/QUESTIONS.md`
   #24) — die Programme belegen, was verlangt wurde, nicht, was gewonnen hat.
+  **Zeiger gesetzt 29.08.2026 (Wissens-Chef Run 47):** die empirische Gegenseite — was gewonnen
+  hat — führt die KB `wissen/wettbewerbs-dna`: 11 Teilnahme-Dossiers mit Pflichtsektion
+  «Programm-Soll», 42 externe Juryberichte in `wiki/extern/`, dazu `wiki/muster/kennwerte-schulbauten.md`
+  zu den Vorprüfungs-Toleranzen. Arbeitsteilung: **dieser Artikel führt die Veranstalter-Verfahrensseite
+  (Programmstruktur, Vorprüfung, Zuschlagskriterien), `wettbewerbs-dna` die Juryurteile** — jene KB führt
+  keine Veranstalter-Verfahrensvorlagen, dieser Artikel keine Juryurteile.
 - Ungeklärt, ob JANS an einem der beiden Verfahren teilnahm.

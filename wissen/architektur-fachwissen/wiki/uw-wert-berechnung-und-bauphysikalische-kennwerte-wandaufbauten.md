@@ -26,6 +26,17 @@ wobei Uf der Rahmen-U-Wert (Fläche Af), Ug der Glas-U-Wert (Fläche Ag), Ψg de
 
 **Rechenwerte für Rahmen (Uf) ohne überwachte Produktangabe** (nach SIA D 0176): Holz/Holz-Metall 1,8 W/m²K, Kunststoff 2,2 W/m²K, wärmegedämmte Verbundprofile 2,8 W/m²K.
 
+> ⚠ **Fassungs-Kante, gesetzt 29.08.2026 (Wissens-Chef Run 47).** Beide Werteblöcke oben (Uli und Uf)
+> geben den Stand der **EnFK-Ausgabe 2009** wieder. Führend für dieses Merkblatt ist die KB `energie`:
+> `wissen/energie/destillate/enfk-fensterblatt.md` (`status: established`, geltende Ausgabe 2021 am
+> Original nachgetragen 26.08.2026). Dort ist genau die Uf-Tabelle oben seit dem 26.08.2026 als
+> **⛔ überholt** markiert; die Ausgabe 2021 führt **Holz/Holz-Metall 1,4 · Kunststoff 1,9 ·
+> wärmegedämmte Verbundprofile 2,5 · Metallprofile 3,3 W/m²K**, und zwar ausdrücklich nur noch
+> **für ältere Fenster** (Tabelle 6). Die Uli-Grenzwerte oben (1,3 / 1,6) sind für den heutigen
+> Einzelbauteilnachweis zu lax: `wissen/energie/wiki/u-werte-grenzwerte-ch.md` führt für Fenster und
+> Fenstertüren **1,0** gegen Aussenklima und **1,3** gegen unbeheizte Räume. **Keinen dieser Werte
+> aus diesem Artikel übernehmen** — die Fassung 2021 in der KB `energie` gegenlesen.
+
 **Glasrandverbund (Ψg), Rechenwerte** (nach EN ISO 10077-1:2006, Anhang E): mit thermisch verbessertem Abstandhalter (Edelstahl/Kunststoff) und Holz-/PVC-Rahmen 0,05–0,06 W/mK je nach Verglasungstyp; mit Aluminium-Abstandhalter deutlich höher (0,06–0,08 W/mK bei Holzrahmen).
 
 **MINERGIE®-Modul Fenster:** Uw ≤ 1,0 W/m²K.
@@ -55,4 +66,4 @@ Die Backstein-aussengedämmt-Werte und der Zürcher Bestandsaufbau sind als Rech
 
 - Beide Bauphysik-Kennwertdateien sind Übungsaufgaben (eine davon datiert 02.05.2011, ETH Zürich), keine vorgerechneten Lösungen oder Normwerte; sie liefern verwertbare Schichtdaten, aber keine berechnete Zeitkonstante τ selbst — das Inventar hatte hier «rechnet vor» formuliert, das Quelldokument stellt tatsächlich nur die Aufgabenstellung samt Tabellenwerten dar.
 - Das EnFK-Merkblatt datiert Juni 2009 und bezieht sich auf SIA 380/1:2009, SIA 331:2008, SIA 180:1999, SIA 382/1:2007, SIA 416/1:2007. **Alle U-Wert-Grenzwerte, Rechenwerte für Uf/Ψg und Nachweisverfahren sind vor Verwendung gegen die aktuell gültige EnFK-/MuKEn-Fassung und die jeweils aktuelle SIA-Norm-Ausgabe zu prüfen** (Rule `normen-referenz`) — das Merkblatt selbst weist darauf hin, dass es ältere Bundes-Planungswerkzeuge (Ausgaben 1995/2002) ablöst, ist also selbst Teil einer Kette periodisch revidierter Grundlagen.
-- Norm-Ziffern (SIA 380/1, SIA 331, SIA 180, SIA 416/1) sind hier nur methodisch referenziert, nicht gegen `wissen/normen/` verifiziert — dort liegt bislang kein Destillat zu diesen Normen vor (Stand dieser Prüfung: nur `en-520-gipsplattentypen.md` vorhanden).
+- Norm-Ziffern (SIA 380/1, SIA 331, SIA 180, SIA 416/1) sind hier nur methodisch referenziert, nicht gegen `wissen/normen/` verifiziert — ⚠ **berichtigt 29.08.2026 (Wissens-Chef Run 47):** der Satz «dort liegt bislang kein Destillat vor» traf nicht zu. `wissen/normen/destillate/` führt zu allen vier Normen Destillate (`sia-380-1-2016.md`, `sia-331-1988.md`, `sia-180-2014.md`, `sia-416-1-2007.md`); die Prüfung hatte offenbar nur `wissen/normen/wiki/` gesehen, wo `en-520-gipsplattentypen.md` liegt (Fehlerfamilie Rule `wege-und-vollmachten` Ziff. 5: ein leeres Suchergebnis ist zuerst eine Aussage über das Werkzeug). Der Abgleich bleibt trotzdem offen: drei der vier Destillate betreffen **andere Ausgaben** als dieses Merkblatt (2016 statt 2009, 2014 statt 1999, 1988 statt 2008), und `sia-380-1-2016.md` ist `speculative` und eine 6-von-60-Seiten-Vorschau, in der die Uli-Grenzwerte gerade **nicht** stehen; `sia-416-1-2007.md` ist `speculative` und die Norm seit 31.03.2015 zurückgezogen. Ein Abgleich gegen diese Destillate ersetzt die Prüfung am Original nicht (Rule `normen-referenz` Ziff. 1b).

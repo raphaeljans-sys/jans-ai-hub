@@ -2,7 +2,7 @@
 title: "Kostenkennwerte Schulbau Zürich: Schulanlage Leutschenbach (Preisstand 2003/04) und Vergleich fünf Zürcher Schulanlagen"
 status: emerging
 last_updated: 2026-08-29
-sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/10_Kostenkennzahlen/Kennzahlen_Leutschenbach.pdf", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/06_Phasen_Kostenaufstellungen/01_Kostenschaetzung/KS SA Leutschenbach Architekt 1.xls (Ausstattungskennwerte BKP 900, Preisstand August 2003)", "raw/inventar/buero-referenzen__18_Projektkostenplanung.md Abschnitt 2"]
+sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/10_Kostenkennzahlen/Kennzahlen_Leutschenbach.pdf", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/18_Projektkostenplanung/06_Phasen_Kostenaufstellungen/01_Kostenschaetzung/KS SA Leutschenbach Architekt 1.xls (Ausstattungskennwerte BKP 900, Preisstand August 2003)", "raw/inventar/buero-referenzen__18_Projektkostenplanung.md Abschnitt 2", "references/bkp-2017/BKP-2017-Liste.md"]
 links: ["[[kostenermittlungskreislauf-genauigkeit-je-phase]]", "wissen/wettbewerbs-dna/wiki/muster/kennwerte-schulbauten.md", "wissen/grobkosten/wiki/kennwerte.md"]
 ---
 
@@ -63,6 +63,24 @@ Methodik des Skills `grobkosten-onepager`.
 
 Gesamttotal Ausstattung CHF 1'368'500 exkl. MWST, dazu Umzüge BKP 588 geschätzt
 CHF 60'000.
+
+> **⚠ BKP-Warnung (gesetzt 29.08.2026, Wissens-Chef Run 47).** Der Code «588» für Umzüge existiert im
+> heute geltenden **BKP 2017 nicht**, gegen `references/bkp-2017/BKP-2017-Liste.md` geprüft: die Gruppe
+> **58 Rückstellungen und Reserven** führt ausschliesslich 580, 581, 582, 583 und 589, und eine Position
+> «Umzüge» kennt die Liste an keiner Stelle. Auch «BKP 900» oben ist im BKP 2017 die **Übergangsposition**
+> der Gruppe 90 Möbel, nicht eine Sammelposition «Ausstattung» (das ist die Hauptgruppe 9). Beide Codes
+> stammen aus einer BKP-Altausgabe (die Sektion trägt Preisstand 2003/04; die Korpora enthalten die
+> Ausgaben 1989/97/2001) oder sind Bürokonvention der Quelle. Vor jeder Übernahme **sachbezogen am Beleg**
+> neu zuordnen, nie mechanisch per Codenummer — Rule `bkp-2017-referenz`, Fehlerfamilie «271.10».
+
+> **⚠ Bezugsgrössen-Vorbehalt zum m³-Kennwert (gesetzt 29.08.2026, Wissens-Chef Run 47).** Die Werte
+> «CHF 547 bis 623 je m³» oben sind nach **SIA 116** gerechnet. SIA 116:1952 ist **zurückgezogen** und
+> wurde 2003 durch SIA 416:2003 ersetzt (`wissen/normen/wiki/REGISTER.md`, Abschnitt B, sowie
+> `wissen/normen/destillate/sia-416-2003.md` Feld `ersetzt`). Die KB `grobkosten` rechnet ihren Band
+> ausdrücklich auf **Gebäudevolumen GV nach SIA 416** (`wissen/grobkosten/wiki/kennwerte.md`). Die beiden
+> Volumenbegriffe sind nicht deckungsgleich; die Praxisregel oben («in der Frühphase über das Volumen
+> rechnen») bleibt methodisch gültig, aber **ein SIA-116-Wert darf nicht ohne Umrechnung in den
+> SIA-416-Band von `grobkosten` gestellt werden**.
 
 ## Abgrenzung zu bestehenden Kennwert-Beständen dieser Hub
 

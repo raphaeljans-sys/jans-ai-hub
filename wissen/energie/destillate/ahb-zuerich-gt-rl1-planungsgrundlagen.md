@@ -213,6 +213,25 @@ selbst als Bauherrin auf. Für private JANS-Projekte (Healthcare, Wohnbau) gilt:
   Sammelbegriff ohne konkrete Fundstelle — für kantonale Energievorschriften ZH ist die
   KB-Route `energie` (Skill `energie`) die massgebliche, aktuell gehaltene Quelle.
 
+## Vorgängerfassung im Hub (Nachtrag 29.08.2026, Wissens-Chef Run 47)
+
+Die **Vorgängerversion 2.0 dieser Richtlinie (Dokumentdatum 12.10.2005, Redaktion Thomas Kessler)**
+liegt seit dem 29.08.2026 als Artikel in der KB `architektur-fachwissen`:
+`wiki/ahb-planungsgrundlagen-richtlinie-sieben-oekologische-zielvorgaben.md`, destilliert aus der
+Archivkopie `/Volumes/daten/02_Architektur_Archiv/01_Konstruktion/05_Infrastruktur_Gebaudetechnik/08_Pflichtenhefte/RL_GT_1_Planungsgrundlagen.pdf`
+(nicht aus dem SharePoint-Ordner, aus dem dieses Destillat stammt — deshalb hat keine der bisherigen
+Mehrfach-Destillations-Messungen auf Dateiebene den Fall gesehen).
+
+Materieller Unterschied V2.0/2005 → V2.1/2008, für den Fassungsvergleich brauchbar: erneuerbare
+Energien **25 % → mindestens 40 %** des Wärmebedarfs von Neubauten (plus neu 50 % für die
+Wassererwärmung im Bestand); Beleuchtung **«SIA 380/4 minus 25 %» → MINERGIE-Zusatzanforderungen**;
+Punkt 7 **«Gebäudebewirtschaftung nach ökologischen Gesichtspunkten» → Energiestatistik plus
+Betriebsoptimierung**; Punkt 5 **HBD-Dokumentation «Bauen + Ökologie»/eco-devis → MINERGIE-(P-)ECO-Label**.
+Der Zielwert-Vergleich 2006/2008 steht ausführlich in `stadt-zuerich-7-meilenschritte-nachhaltiges-bauen.md`.
+
+Die Kante ist beidseitig gesetzt; der Vorgängerartikel trägt `status: speculative` und ist keine
+Vorgabenquelle für heute.
+
 ## Überschneidung mit dem Bestand
 
 Teilweise, aber kein echtes Duplikat: Die Erwähnung von **SIA 382/1:2007** (thermisch

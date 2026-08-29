@@ -1,5 +1,32 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-29 (Schub-Lane grobkosten, fuenfter Dispatch selber Tag) — erneut Duplikat erkannt, erneut keine Verdichtung erzwungen
+
+**Befund:** fuenfter Dispatch derselben Lane binnen desselben Tages mit wortgleichem Auftragstext
+("20 raw-Eintraege, erst 3 Wiki-Artikel", identische Projektliste 2001/2105/2202/2304/2305/2411).
+Unabhaengig gegengeprueft (nicht auf die Vorlaeufer-Eintraege verlassen): `raw/` enthaelt weiterhin
+genau 18 reale Eintraege (ohne `README.md`/`_INGESTED.md`), keine neuer als
+`zuercher-index-wohnbaupreise-2025-10-update.md` vom 17.08.2026; alle 18 stehen im Frontmatter
+`sources:` von `wiki/kennwerte.md` und in der Raw-Material-Status-Tabelle in `wiki/INDEX.md` mit
+Status "eingearbeitet" bzw. "dokumentiert, nicht promoviert" samt Begruendung. `git log` zeigt fuer
+`wissen/grobkosten` bereits vier fruehere Duplikat-Erkennungen desselben Tages (22:00 / 22:09 /
+22:20 Uhr, Commits `b1578cb45`/`1aad7d3ac` u.a.).
+
+**Nicht ausgefuehrt:** kein fuenfter inhaltsgleicher Verdichtungsdurchgang — `raw/`,
+`wiki/kennwerte.md` und `wiki/INDEX.md`-Tabelle bleiben unangetastet, kein Kennwert erzeugt
+(Rule "Kennwerte nie raten" / "Kein Leerlauf-Zwang" verbietet beides: weder erfinden noch
+wiederholt denselben Nullbefund als neue Arbeit ausgeben).
+
+**Einziger reale Block unveraendert:** Frage 1 (BKP-Scope Pre-Check-Tool) und Frage 2
+(Standard-Label "norm, eloquent"), an Raphael gestellt am 23.08.2026, laut `wiki/QUESTIONS.md`
+weiterhin ohne Antwort. Ohne diese Entscheide oder neues Rohmaterial in `raw/` bleibt jede weitere
+MFH-Median-Bildung blockiert.
+
+**Hinweis fuer den Dispatcher (jetzt zum fuenften Mal):** die Vorlagenzahl "20 raw / 3 Wiki-
+Artikel" im Auftragstext ist weiterhin nicht aktualisiert und loest denselben Auftrag wiederholt
+aus. Empfehlung unveraendert: Lane auf Ereignis-Trigger (neues Rohmaterial in `raw/` oder Antwort
+Raphaels zu Frage 1/2) statt Tages-Rotation umstellen.
+
 ## 2026-08-29 (Schub-Lane grobkosten, vierter Dispatch selber Tag, ~22:20 Uhr) — erneut Duplikat erkannt, erneut keine Verdichtung erzwungen
 
 **Befund:** vierter Dispatch derselben Lane binnen desselben Tages mit wortgleichem Auftragstext
