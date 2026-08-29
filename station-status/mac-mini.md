@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 12:56:13
+Stand: 29.08.2026 13:06:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 12:56:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 406845dc2 nas-selfcommit: 4 Datei(en) 2026-08-29 12:45
+- 1db45ae26 vollgas-radar 29.08. 12:57: Fenster frei, alle Loops liefern, Reserve -41.7; Homebrew-Wedge nun auch in 2.1.236
