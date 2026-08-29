@@ -4272,3 +4272,34 @@ Bloecke behalten, nichts verwerfen**.
 (Rule `interaktive-eingriffe`, Rule `auto-verbesserungen` 260811 Punkt 3). Der fertige Befehl steht
 im Eintrag von Run 167 daruber und gilt unveraendert.
 | Eigene Messung 29.08.2026 23:4x im NAS-Repo (`git rev-list --left-right --count`, `git log github/main..HEAD`), zwei fehlgeschlagene `nas-commit-now.sh`-Laeufe | Hub-Infrastruktur / alle KBs und Stationen | **hoch (P1)** | offen — Nachtrag zum bestehenden Vorgang, kein neuer |
+
+**NACHTRAG 30.08.2026, 01:11 (vollgas-chef-radar) — beide P1 des 29.08. sind ERLEDIGT: der headless-OAuth lebt wieder, und die Sync-Kette NAS → GitHub laeuft.**
+Kein neuer Vorgang, sondern der Abschluss der zwei darueberstehenden.
+
+**Zum P1 «headless-OAuth tot auf beiden Stationen» (29.08. 19:15): erledigt.** Belegt nicht ueber
+eine eigene Probe, sondern ueber die staerkere Messung: die Schub-Laeufe auf dem Mac Mini enden von
+00:47 bis 01:11 durchgehend mit `rc=0`, `is_error:false` und **Kosten groesser null** — genau das,
+was am 29.08. abends in 23 Laeufen mit `cost_usd:0` fehlschlug (Lauf-Journal
+`logbuch/laeufe/260830-laeufe.jsonl`). Raphael hat den Token erneuert und den Schub neu gestartet;
+die Datei `logbuch/vollgas/STOP-SCHUB` ist entfernt. Die Nachtschicht `ch.jans.nachtschicht` ist auf
+dem Mac Mini geladen und arbeitsfaehig.
+
+**Zum P1 «Sync-Kette NAS → GitHub steht seit 22:05» (29.08. 22:05 / 23:4x): erledigt, ohne Eingriff.**
+Gemessen am 30.08. 01:0x ueber den SSD-Klon nach `git fetch`: **19 `auto-sync`/`nas-selfcommit`-Commits
+in den letzten zwei Stunden** auf `origin/main`, GitHub-HEAD `a5fa20a2f` vom **30.08. 01:03:03** — drei
+Minuten alt zum Messzeitpunkt. Die Divergenz von 42/19 ist abgebaut, die sieben CHANGELOG-Konflikte
+haben sich mit den nachfolgenden Laeufen aufgeloest. Der im Eintrag von Run 167 hinterlegte
+Aufloesungsbefehl wurde **nicht** ausgefuehrt und wird nicht mehr gebraucht.
+**Eine Messfalle dazu, damit sie kein zweites Mal als Divergenz gelesen wird:** der ueber den
+SMB-Mount gelesene NAS-HEAD hinkt dem GitHub-Stand systematisch hinterher (hier `bf086bc68` von
+01:00:01 gegen GitHub 01:03:03). Ein NAS-Commit, der im SSD-Klon noch nicht auftaucht, ist zuerst
+Push-Latenz und erst danach ein Divergenz-Verdacht — gemessen wird die Divergenz nativ auf der
+Synology oder ueber `origin/main` im SSD-Klon nach `fetch`, nie ueber den SMB-Mount.
+
+**Offen bleibt aus diesem Vorgang nichts.** Was NEU offen ist, steht als P2 im RADAR-Eintrag vom
+30.08. 01:11 und traegt keine Frist: der Schub-Treiber `scripts/vollgas-schub.sh` braucht eine
+Abbruchbedingung «Material erschoepft» (er hat in zwei Tagen 418 Laeufe und rund 233 USD gefahren,
+davon der groesste Teil in vier Lanes ohne Liefer-Delta), und zwei Entscheide Raphaels blockieren
+je eine Lane (die zwei `grobkosten`-Fragen seit 23.08., die Freigabe der `normen`-Mittelbau-Stichprobe).
+
+| Eigene Messung 30.08.2026 01:0x (Lauf-Journal 260830, `git fetch` + `git log origin/main`, launchd beide Stationen) | Hub-Infrastruktur / alle Stationen | — | **erledigt** — beide P1 des 29.08. geschlossen |

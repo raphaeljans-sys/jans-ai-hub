@@ -86,7 +86,7 @@ Ich habe **nicht** umgelenkt, obwohl die Lanes das vorschlagen. Geprüft, wohin:
 
 Der Treiber liest `logbuch/vollgas/schub/<lane>.prompt` **bei jeder Runde neu** und beendet eine Lane nach drei Läufen unter 25 Sekunden mit weniger als 80 Zeichen Ergebnis. Das ist sein eigener, vorgesehener Selbstschutz. Ich habe die drei Prompt-Dateien durch einen Kurzauftrag ersetzt, der nur noch das Wort `STILLGELEGT` zurückgibt — kein Prozesseingriff, keine STOP-Datei (die hätte auch die beiden produktiven Lanes gekappt und damit Raphaels Ausschöpfungs-Auftrag zuwidergehandelt).
 
-Wirkung, nachgemessen: `normen-pruefstand` **SCHUB ENDE nach 185 Runden** (01:10:38), `grobkosten` **SCHUB ENDE nach 52 Runden** (01:10:49), `baurecht-thalwil` bei Blindgänger 2/3 und beendet sich in der nächsten Runde. Die Läufe fielen dabei von 20 bis 60 Sekunden auf **2 Sekunden**.
+Wirkung, vollständig nachgemessen: `normen-pruefstand` **SCHUB ENDE nach 185 Runden** (01:10:38), `grobkosten` **SCHUB ENDE nach 52 Runden** (01:10:49), `baurecht-thalwil` **SCHUB ENDE nach 96 Runden** (01:11:29). Alle drei über den eigenen Blindgänger-Zähler, keine mit Gewalt. Die Läufe fielen dabei von 20 bis 60 Sekunden auf **2 Sekunden**.
 
 **Weiter laufen `fachwissen` und `synobsis`** — beide liefern noch Substanz (115 bzw. 63 geänderte Dateien), und `synobsis` benennt konkrete Restarbeit (Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure, Sik_Miroslav, Sutter_Annabarbara, Balisat).
 
