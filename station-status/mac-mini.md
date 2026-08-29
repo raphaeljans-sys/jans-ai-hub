@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 19:16:38
+Stand: 29.08.2026 19:26:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 19:11)
@@ -12,4 +12,4 @@ Stand: 29.08.2026 19:16:38
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 387039ac6 nas-selfcommit: 6 Datei(en) 2026-08-29 19:15
+- 6ed6c1474 vollgas-schub: Startknopf mit Login-Vorpruefung (schub-start.sh)
