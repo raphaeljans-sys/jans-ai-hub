@@ -431,3 +431,109 @@ Rasters nicht besetzt, ist eine Lücke.
    Standardformat in die KB `wissen/grobkosten`? Es führt GF, HNF, GV und RI konsequent gegen
    BKP 2 und BKP 1-9 und wäre damit strenger als das heute dort verwendete Raster. Entscheid
    Raphael.
+
+## Destillat-Fortschritt
+
+**Lauf 29.08.2026 (Lane FACHWISSEN, Korpus `archiv-fachwissen`, zweiter Destillat-Lauf nach
+`02_Denkmalpflege`).** Vorab durchgeführt: Leutschenbach-Duplikatsprüfung gegen
+`wiki/INDEX.md` Abschnitt «Artikelbestand» (Korpus 3, Sektionen `18_Projektkostenplanung`,
+`17_Projektbeschriebe`, `22_Terminplanung`) — mehrere P1-Positionen dieser Sektion sind
+identische Dateien oder dasselbe Objekt (Schulanlage Leutschenbach) und dort bereits
+destilliert; sie werden hier nicht erneut destilliert, nur mit Fundstelle verknüpft.
+
+Alle Aussagen in den vier neuen/erweiterten Artikeln wurden **gegen die Primärquelle (PDF im
+Archiv), nicht nur gegen diese Inventar-Zusammenfassung** verifiziert (Volltext gelesen
+29.08.2026).
+
+**Destilliert (vier neue/erweiterte Wiki-Artikel, alle `status: emerging`):**
+
+- [x] `Seiten aus 102_d_Aufwandberechtigte_Bausumme.pdf` (Formelkette, nur methodisch
+  referenziert) + `100126_HB_SIA_102_Eberle.pdf` (Rechenwerk Eberle) →
+  [[sia-102-2003-phasenanteile-zwei-rechenwerke]] erweitert um drittes unabhängiges
+  Rechenwerk (Objekt Eberle/Büro Christian Kerez, Kantonales Hochbauamt 26.01.2010),
+  vollständiger Teilphasen-Stunden-/Honorarapparat. Art.-7.5-Negativliste selbst
+  bewusst **nicht** reproduziert (SIA-Urheberrecht, Abgrenzung dieser KB) — Hinweis in
+  `wiki/QUESTIONS.md` an einen künftigen `wissen/normen`-Lauf.
+- [x] `A_Hauptgruppen_Schaetzung_Finanzbedarf_de.pdf` + `B_Elementgruppen_...` +
+  `C_Element_...` + `C_reduzierter_Kostenplan_de.pdf` + `00_Plaene_Haus_im_Forst_de.pdf`
+  (eBKP-H-2012-Musterbeispiel «Haus im Forst») →
+  [[ebkp-h-2012-musterbeispiel-haus-im-forst-drei-genauigkeitsstufen]], neu.
+- [x] `00_Bezugstabelle_Groessen_eBKP_H_de.pdf` →
+  [[ebkp-h-2012-bezugsgroessen-kuerzel-tabelle]], neu (vollständige Kürzelliste, primär
+  gelesen).
+- [x] `Ablauf- und Terminplanung im Wohnungsbau.pdf` (Tabelle 8) +
+  `04_Terminplanung/Eberle/PDF/100318_Grobterminplan.pdf` →
+  [[terminplan-dauern-kennwerte-wohnungsbau-tabelle8-plus-benchmark-eberle]], neu.
+- [x] `ausschreibung odb/ausschreibungsunterlagen.pdf` (Umbau Spital Oberdiessbach) →
+  [[akutspital-pflegezentrum-umnutzung-referenzfall-oberdiessbach-2009]], neu.
+  Personennamen des Preisgerichts/der Experten bewusst nicht destilliert (Sperrliste).
+
+**Bereits in Korpus 3 (`buero-referenzen`) destilliert — hier nicht erneut, nur verlinkt:**
+
+- [=] `01_Normen_PM/.../112_d.pdf` (SIA 112:2001) — Norm-Original, gehört zu
+  `wissen/normen`, nicht in dieser KB destillierbar (Abgrenzung `archiv-fachwissen-spec.md`).
+- [=] `01_Normen_PM/SIA_102_Ausgabe_2003_Honorare/` (102_d.pdf, 102_d_2003.pdf) —
+  Norm-Original, dito.
+- [=] `Leutschenbach_BGS/050420_H-Bausumme.pdf` + `.xls` — identische Datei bereits
+  destilliert als [[honorarberechtigte-bausumme-anrechenbarkeit]] (Korpus 3,
+  `18_Projektkostenplanung`).
+- [=] `01_Normen_PM/SIA_416_.../416d.pdf` — Norm-Original.
+- [=] `01_Normen_PM/SIA_142_.../142_D.PDF` — Norm-Original.
+- [=] `01_Normen_PM/SIA_500_.../SIA_500_...pdf` + Auslegungen — Norm-Original.
+- [=] `01_Normen_PM/VKF 1.1.15_.../1-15_web.pdf` + `15-15_web.pdf` — Norm-Original.
+- [=] `01_Normen_PM/VSS-Norm-SN 640 291a_.../` — Norm-Original (VSS); methodische
+  Parkierungsgeometrie nicht separat destilliert in diesem Lauf, siehe
+  `wiki/QUESTIONS.md`.
+- [=] `Anlagekosten_Leutschenbach.pdf` — dasselbe Objekt bereits destilliert
+  (Korpus 3, u. a. [[kostenschaetzung-vorprojekt-schaetzgrundlage-ausweisen]]).
+- [=] `KV_Zusammenstellung_Leutschenbach.pdf` — bereits destilliert als
+  [[kv-detailausdruck-gliederungsstufen]] (Korpus 3).
+- [=] `Finanzrapport_Leutschenbach.pdf` — bereits destilliert als
+  [[kostenkontrolle-spaltenmodell-oeffentliche-bauherrschaft]] (Korpus 3).
+- [=] `Leutschenbach_Kennzahlen_Leutschenbach.pdf` — bereits destilliert als
+  [[kostenkennwerte-schulanlage-leutschenbach]] (Korpus 3).
+- [=] `04_Terminplanung/Leutschenbach/Grobterminplan.pdf` + `Terminplan_aktuell_Juni04.pdf`
+  — dasselbe Objekt bereits destilliert als
+  [[grobterminplan-gewerkefolge-elementbau-leutschenbach]] und
+  [[terminplan-phasenkette-oeffentliche-bauherrschaft-leutschenbach]] (Korpus 3).
+- [=] `100218_Baubeschrieb_Waltenschwil.pdf` — identische Datei bereits destilliert als
+  [[baubeschrieb-als-kostentraeger]] (Korpus 3).
+- [=] `02_Projektbeschriebe/Leutschenbach/` (14 Dateien) — Objekt bereits vollständig
+  destilliert in Korpus 3, Sektion `17_Projektbeschriebe` (5 Artikel).
+
+**Cross-KB, nicht in dieser KB destilliert (Ziel wäre ein anderer KB, ausserhalb dieser
+Lane):**
+
+- [~] `Grobkostenberechnung_SIA116_SIA416.docx` + `Jans_Grobkostenberechnung_...pdf`
+  (eigener Fachtext Raphael Jans zur Grobkostenmethodik, Kompaktheits-Erkenntnis,
+  Divisor-70-Regel) — inhaltlich klar **`wissen/grobkosten`**-Stoff, nicht
+  `architektur-fachwissen`. Nicht hier destilliert, Cross-KB-Hinweis in
+  `wiki/QUESTIONS.md` für die zuständige Lane.
+
+**Nicht destillierbar / kein Artikel gerechtfertigt:**
+
+- [-] `03_Kostenplanung/00_Organisation/11_Tools/8_1 Vorlage_Nachweis_Kennzahlen.xls` —
+  laut Kurzbefund nur die Kopfstruktur belegt (LibreOffice-Konversion exportiert nur
+  erstes Tabellenblatt), kein extrahierbarer Fachinhalt für einen eigenständigen
+  Artikel. Bleibt P1 offen für einen künftigen Lauf mit Excel-Vollzugriff.
+- [-] `KS SA Leutschenbach Architekt 1.xls` (Kostenschätzung Mobiliar BKP 900,
+  Leutschenbach) — Objekt Leutschenbach, Kostenkennwert-Charakter bereits über
+  [[kostenkennwerte-schulanlage-leutschenbach]] (Korpus 3) abgedeckt; eigenständiger
+  Mehrwert einer BKP-900-Zusatzdestillation nicht ausreichend für einen eigenen
+  Artikel in diesem Lauf.
+- [-] `sia451.01s.txt` + `npk_texte.msia.txt` (SIA-451-Testfixture Malerarbeiten) —
+  kein Fachwissen im Sinne eines Wiki-Artikels, sondern ein Entwickler-Testdatensatz
+  für den geplanten SIA-451-Parser. Fundstelle in `wiki/QUESTIONS.md` vermerkt statt
+  als Artikel destilliert.
+- [-] `1026_de_2015.pdf` (CRB 1026, Verbindungen eBKP-H↔NPK) — vorliegende Datei ist nur
+  der 9-seitige Vorspann, die eigentlichen Mappingtabellen fehlen; kein
+  destillierbarer Inhalt vorhanden (Beschaffungslücke, bereits im Kurzbefund oben
+  Abschnitt 11 dokumentiert).
+
+**P1-Status dieser Sektion nach diesem Lauf: die vier genuin neuen Fachbausteine sind
+destilliert. Verbleibende offene P1-Positionen sind entweder Norm-Originale (gehören zu
+`wissen/normen`, nie hier), bereits über Korpus 3 abgedeckte Leutschenbach-Duplikate, ein
+Cross-KB-Fund (`wissen/grobkosten`) oder technisch nicht sauber destillierbar (nur
+Kopfstruktur, Testfixture, unvollständige Quelle). **Kein weiterer eigenständiger
+P1-Artikel für diese Sektion offen.** P2 bleibt vollständig offen (u. a. `schaetzungsanleitung_kap5.pdf`,
+OAK/EAK-Kataloge, KV-Deffisierung-Erläuterungen, Bauprozess-Systematik).

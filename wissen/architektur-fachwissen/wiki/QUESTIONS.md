@@ -4,6 +4,43 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260829 — Zweiter Destillat-Lauf Korpus 4, Sektion `03_Bauprozesse_I_II`
+
+Quelle: Lane FACHWISSEN, zweiter Destillat-Lauf Korpus 4 `archiv-fachwissen`.
+
+**#33 Cross-KB-Fund: Grobkostenmethodik-Fachtext Raphael Jans gehört nach
+`wissen/grobkosten`, nicht in diese KB.** `03_Bauprozesse_I_II/03_Kostenplanung/
+11_Kostenkennzahlen/SIA416/01_Konzept/Grobkostenberechnung_SIA116_SIA416.docx` (plus
+PDF-Fassung `Jans_Grobkostenberechnung_Gebaeudeanlagen.pdf`) ist ein eigener, zitierfähiger
+Fachtext mit belegten Kennwertbandbreiten (500–1'500 CHF/m³ Wohnbau), der Divisor-70-Regel
+BKP 2 → BKP 1-9 und der Erkenntnis «Kompaktheit schlägt Bauweise» an zwei
+Referenzobjekten (Bertoni Lugano, Hirschi Adligenswil, beide 2004). Gehört fachlich in die
+KB `wissen/grobkosten`, nicht in `architektur-fachwissen` — dort in einem eigenen Lauf zu
+destillieren. Preisstände 1985–2004, nicht ohne Indexierung verwendbar.
+
+**#34 SIA-451-Testfixture liegt bereit, aber ungenutzt.**
+`03_Bauprozesse_I_II/03_Kostenplanung/01_Phasen_Kostenaufstellungen/03_Ausschreibung/
+ausschreibung maler/sia451.01s.txt` ist ein echtes, unverschlüsseltes SIA-451-Flatfile
+(Version 451-92, Messerli BAUAD 2008, Malerarbeiten-LV NPK 675) — eine reale Testdatei mit
+bekannter Satzstruktur für den geplanten SIA-451-Parser. Die danebenliegende
+`npk_texte.msia.txt` ist bzip2-komprimiert und vermutlich auspackbar (NPK-Volltexte
+desselben Projekts). Kein Wiki-Artikel, sondern ein Hinweis für die Entwicklung des
+Parsers — Dateien vor weiterer Aufräumung der Sektion sichern.
+
+**#35 Chance für `wissen/normen`: SIA-102:2003 Art. 7.3–7.5 liegt volltextlich im Archiv
+vor.** `03_Bauprozesse_I_II/03_Kostenplanung/03_Honorarberechnung/SIA102/Seiten aus
+102_d_Aufwandberechtigte_Bausumme.pdf` (© 2003 SIA Zürich) trägt Art. 7.3–7.5 im
+Wortlaut (Formelkette Tp = Tm×i, H = Tp×s×h; vollständige Positiv-/Negativliste der
+aufwandbestimmenden Baukosten). `wissen/normen/destillate/sia-102-2003.md` ist mit Stand
+29.08.2026 noch `status: speculative` ohne Volltext-Destillat. Diese Archiv-Datei wäre eine
+gute Quelle für einen künftigen `normen`-Lauf — nicht in `architektur-fachwissen`
+destilliert (Abgrenzung Norm-Original, siehe `specs/archiv-fachwissen-spec.md`).
+
+**#36 VSS SN 640 291a (Parkierungsgeometrie) nicht ausgewertet.** Norm-Original, laut Spec
+nicht in dieser KB zu destillieren; ob eine methodische Parkplatz-/Garageneinfahrt-Geometrie
+bereits in `wissen/normen` oder anderswo im Hub steht, ist offen und für
+Machbarkeits-/Volumenstudien laufend relevant.
+
 ## 260829 — Erster Destillat-Lauf Korpus 4, Sektion `02_Denkmalpflege`
 
 Quelle: siebter Destillat-Lauf des Tages, Lane FACHWISSEN, erster Lauf für Korpus 4

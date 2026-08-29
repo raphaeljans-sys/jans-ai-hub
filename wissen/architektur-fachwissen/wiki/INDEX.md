@@ -333,3 +333,32 @@ P2 bleibt offen (u.a. Werkstoff-/Steinkonvolut-Scans, zweite Volltext-Zusammenfa
 Prüfungsfragen mit den fünf Grundsätzen der Reparatur). Nächster Lauf gemäss Spec-Plan:
 `03_Bauprozesse_I_II`, davor zwingend die Leutschenbach-Duplikatsprüfung gegen die
 Artikelliste oben (Zeile 02, `18_Projektkostenplanung`).
+
+**Zweiter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II` (Zeile
+01 oben, grösster P1-Einzelfund) — Lane FACHWISSEN, selber Tag, Fortsetzung.**
+Leutschenbach-Duplikatsprüfung vorab durchgeführt (mehrere P1-Positionen sind identische
+Dateien oder dasselbe Objekt wie bereits in Korpus 3 destillierte Artikel — nicht erneut
+destilliert, siehe `raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` Abschnitt
+«Destillat-Fortschritt» für die vollständige Zuordnung). Vier echte Neuzugänge destilliert,
+alle Primärquellen volltextlich gelesen:
+
+- [[sia-102-2003-phasenanteile-zwei-rechenwerke]] — bestehender Artikel erweitert um ein
+  drittes unabhängiges Rechenwerk (Objekt Eberle, Büro Christian Kerez, Kantonales
+  Hochbauamt 26.01.2010), vollständiger Teilphasen-Stunden-/Honorarapparat
+- [[ebkp-h-2012-musterbeispiel-haus-im-forst-drei-genauigkeitsstufen]] — CRB-
+  Musterbeispiel auf drei Genauigkeitsstufen (eBKP-H 2012)
+- [[ebkp-h-2012-bezugsgroessen-kuerzel-tabelle]] — vollständige Bezugsgrössen-Kürzelliste
+- [[terminplan-dauern-kennwerte-wohnungsbau-tabelle8-plus-benchmark-eberle]] —
+  Dauern-Kennwerttabelle Wohnungsbau plus realer EFH-Grobterminplan-Benchmark
+- [[akutspital-pflegezentrum-umnutzung-referenzfall-oberdiessbach-2009]] — Referenzfall
+  Umnutzung Akutspital→Pflegezentrum, Zweierzimmer-Problem, Kostenrahmen, Verfahren
+
+Norm-Originale (SIA 112/102/416/142/500, VKF, VSS) gemäss Abgrenzung nicht destilliert.
+Ein Cross-KB-Fund (Grobkostenmethodik-Fachtext Raphael Jans → `wissen/grobkosten`) und ein
+Entwickler-Testfixture (SIA-451) sind nicht als Wiki-Artikel, sondern in
+`wiki/QUESTIONS.md` #33–#36 vermerkt. **Damit ist Sektion `03_Bauprozesse_I_II` ohne
+weiteren eigenständigen offenen P1-Artikel; P2 bleibt vollständig offen.** Nächster Lauf
+gemäss Spec-Plan: `wiki/INDEX.md` «Sektionen nach Ertrag» für alle 20 archiv-fachwissen-
+Inventardateien neu aufbauen (aktuell nur zwei erfasst), danach die übrigen Sektionen nach
+Ertrag ordnen und abarbeiten — Vorsicht bei `04_Politik`/`05_Kultur_Gesellschaft_Stil`/
+`06_Reisen`/`07_Religion` (Privatunterlagen-Vorbehalt).

@@ -1,5 +1,48 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Zweiter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II` (Lane FACHWISSEN, selber Tag, Fortsetzung)
+
+Vorab Leutschenbach-Duplikatsprüfung gegen `wiki/INDEX.md` durchgeführt (Pflicht laut
+`specs/archiv-fachwissen-spec.md`): mehrere P1-Positionen dieser Sektion sind identische
+Dateien oder dasselbe Objekt (Schulanlage Leutschenbach) wie bereits in Korpus 3
+destillierte Artikel und wurden nicht erneut destilliert, nur verlinkt.
+
+Vier echte Neuzugänge destilliert, alle Primärquellen im Archiv volltextlich gelesen
+(nicht nur die Inventar-Zusammenfassung):
+
+- [[sia-102-2003-phasenanteile-zwei-rechenwerke]] **erweitert** um ein drittes,
+  unabhängiges Rechenwerk (Objekt Eberle, Büro Christian Kerez, Honorarberechnung durch
+  das Kantonale Hochbauamt vom 26.01.2010) mit vollständigem Teilphasen-Stunden- und
+  Honorarapparat (Total CHF 483'600 exkl. MWST). Art.-7.5-Negativliste der Norm selbst
+  bewusst nicht reproduziert (SIA-Urheberrecht).
+- [[ebkp-h-2012-musterbeispiel-haus-im-forst-drei-genauigkeitsstufen]] — neu: CRB-
+  Musterbeispiel auf drei Genauigkeitsstufen (A/B/C, CHF 1'200'200 / 1'194'800 /
+  1'190'700), alle drei Primär-PDF volltextlich verifiziert.
+- [[ebkp-h-2012-bezugsgroessen-kuerzel-tabelle]] — neu: vollständige eBKP-H-
+  Bezugsgrössen-Kürzelliste (rund 70 Einträge), primär gelesen.
+- [[terminplan-dauern-kennwerte-wohnungsbau-tabelle8-plus-benchmark-eberle]] — neu:
+  Dauern-Kennwerttabelle Wohnungsbau (Institut für Baubetriebslehre Universität
+  Stuttgart) plus realer EFH-Grobterminplan (Büro Christian Kerez, Projekt Eberle,
+  19.03.2010) als Praxis-Gegenprobe.
+- [[akutspital-pflegezentrum-umnutzung-referenzfall-oberdiessbach-2009]] — neu: belegter
+  Referenzfall Umnutzung Akutspital→Pflegezentrum (Zweierzimmer-Problem, Kostenrahmen
+  rund CHF 19 Mio/93 Pflegeplätze, Verfahrensmechanik ÖBG/ÖBV). Personennamen des
+  Preisgerichts und der Experten bewusst nicht destilliert (Sperrliste).
+
+Fortschritt und vollständige Begründung je P1-Position (destilliert / bereits in Korpus 3
+vorhanden / Cross-KB-Fund / nicht destillierbar) in
+`raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` Abschnitt «Destillat-Fortschritt»,
+reiner Append (`git diff --numstat` zeigt `106 0`). `wiki/INDEX.md` und `wiki/QUESTIONS.md`
+nachgeführt (Fragen #33 Cross-KB-Fund Grobkostenmethodik → `wissen/grobkosten`, #34
+SIA-451-Testfixture, #35 Chance für `wissen/normen` SIA-102:2003-Volltext, #36 VSS-
+Parkierungsgeometrie offen). Kein Fund aus der Sperrliste (Verträge/Bewerbungen/Adressen/
+Lohndaten) in den destillierten Positionen; die im Kurzbefund bereits dokumentierte private
+E-Mail-Korrespondenz (`SIA102/Thalhofer/100201_Honorarberechnung.pdf`) wurde nicht erneut
+angerührt. Norm-Originale (SIA 112/102/416/142/500, VKF, VSS) wurden gemäss Abgrenzung
+nicht destilliert, nur als Norm-Original vermerkt. **Sektion `03_Bauprozesse_I_II` (Zeile
+01, grösster P1-Einzelfund) damit ohne weiteren offenen eigenständigen P1-Artikel — P2
+bleibt vollständig offen.**
+
 ## 2026-08-29 — Erster Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Denkmalpflege` (Lane FACHWISSEN, selber Tag, Fortsetzung)
 
 Sieben Wiki-Artikel neu geschrieben, alle `status: emerging`, aus dem vollständigen
