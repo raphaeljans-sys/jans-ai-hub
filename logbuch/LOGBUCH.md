@@ -9452,3 +9452,16 @@ Kubismus-Architekt), Cohen_Preston_Scott (Preston Scott Cohen, Harvard GSD) und 
 Namen der Charge 1 belastbar/wahrscheinlich identifiziert. Details mit Quellen in
 `wissen/architekten-synobsis/wiki/QUESTIONS.md` angehaengt, CHANGELOG-Eintrag gesetzt.
 `git diff --numstat` nativ geprueft: 1/1 (QUESTIONS.md), keine Loeschung. Budget rund 0.9 von 5 USD.
+
+## 2026-08-29 05:30 Nachtschicht Mac Mini — Sammelfrage Charge 1 (architekten-synobsis) vollstaendig abgeschlossen
+
+Prioritaeten 1-4 leer bzw. nicht anwendbar (keine pending Tasks, Synobsis Stufe 1+2 vollstaendig
+853/853, `bauprodukte`/`grobkosten` erledigt/ausgesetzt, `energie` noch nicht wieder faellig,
+Rest per Vorgabe ausgeschlossen). Fristen-Register ohne neuen Handlungsbedarf.
+Auf Prioritaet 5 ausgewichen: die letzten vier Restnamen der Sammelfrage Charge 1
+(Cebra_Architekten, Da_Vinci_Leonardo, Dietrich_Untertrifaller, Dogma) per WebSearch einzeln
+belegt — CEBRA (Aarhus 2001), Leonardo da Vinci, Dietrich Untertrifaller (Bregenz 1994),
+DOGMA (Bruessel 2002, Aureli/Tattara). Damit Charge 1 vollstaendig (14/14) recherchiert; naechster
+freier Slot kann auf Charge 2 wechseln. Details mit Quellen in
+`wissen/architekten-synobsis/wiki/QUESTIONS.md` angehaengt, CHANGELOG-Eintrag gesetzt.
+`git diff --numstat` nativ geprueft: 1/1 (QUESTIONS.md), keine Loeschung. Budget rund 1.0 von 5 USD.

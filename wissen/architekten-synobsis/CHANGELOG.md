@@ -4,6 +4,27 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 05:30 (Mac Mini Nachtschicht) — Sammelfrage Charge 1 vollstaendig abgeschlossen (letzte vier Namen: Cebra, Da Vinci, Dietrich Untertrifaller, Dogma)
+
+Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
+vollstaendig (853/853, `vectors.npz` unveraendert seit 24.08.); `bauprodukte`/`grobkosten` formal
+erledigt/ausgesetzt; `energie` zuletzt Run 166 27.08. 22:58, noch nicht wieder faellig;
+`baurecht`/`normen`/`planungsgrundlagen`/`wettbewerbs-dna` per Vorgabe ausgeschlossen (eigener
+Taktgeber). Fristen-Register ohne neuen Handlungsbedarf fuer diesen Zyklus.
+
+Auf Prioritaet 5 ausgewichen, dritter Lauf in Folge an derselben Sammelfrage. Die vier zuvor
+pauschal als "offensichtlich, Einzelrecherche nicht noetig" eingestuften Restnamen wurden jetzt
+per WebSearch einzeln mit Quelle belegt: **CEBRA** (Aarhus, gegruendet 2001, Frost/Primdahl/
+Nielsen), **Leonardo da Vinci** (keine Quellenpruefung noetig), **Dietrich Untertrifaller**
+(Bregenz, gegruendet 1994 nach Wettbewerbssieg Festspielhaus Bregenz, Vorarlberger Schule),
+**DOGMA** (Bruessel, gegruendet 2002, Pier Vittorio Aureli/Martino Tattara). Details mit
+Quellenangabe in `wiki/QUESTIONS.md` an der bestehenden Sammelfrage-Zeile angehaengt. Damit ist
+**Sammelfrage Charge 1 vollstaendig (14/14 Namen einzeln recherchiert)** — naechster freier Slot
+kann auf Charge 2 (`Ehrenklau_Katharina` ff., Zeile 54) wechseln. `git diff --numstat` nativ
+geprueft: 1 Zeile geaendert / 1 Zeile (additiv erweitert), keine Loeschung von Bestand. Kein
+Fan-out, kein Versand, keine Buchung, keine destruktive Aktion. Budget dieses Zyklus: rund 1.0
+von 5 USD.
+
 ## 2026-08-29 02:30 (Mac Mini Nachtschicht) — Vier weitere Namen aus Sammelfrage Charge 1 recherchiert (Carmassi_Massimo, Chochol, Cohen_Preston_Scott, Dieste_Elado)
 
 Prioritaeten 1-4 leer bzw. nicht anwendbar: keine pending remote-/sync-Tasks; Synobsis Stufe 1+2
