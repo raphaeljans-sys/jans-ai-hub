@@ -446,3 +446,39 @@ Lauf nicht begonnen — bleibt offen für den nächsten Lauf.
 **Sperrliste-Prüfung:** keine neuen Funde in den sechs bekannten gesperrten Positionen.
 Zusätzlich vermerkt (kein Sperrlisten-Fund, aber Vorsichtsmassnahme): private
 E-Mail-Korrespondenz in `04_Decke_Boden/AW_ Bodenaufbau.pdf` nicht destilliert, siehe oben.
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (Lane FACHWISSEN, vierter P2-Lauf dieser Sektion)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec», zwölftes Beispiel desselben
+Musters, Memory `project_fachwissen-dispatch-loop`); vor Arbeitsbeginn `ps aux` gegen
+Parallel-Instanzen geprüft (kein FACHWISSEN-Duplikat) und `KORPUS-QUEUE.md`/`CHANGELOG.md`
+gelesen — Lauf orientierte sich am realen Stand, nicht am Dispatch-Text.
+
+Bearbeitet: letzte offene P2-Position dieser Sektion, `04_Bauphysik_Energie/02_Skripte`,
+`01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien, Bauphysik I–III ETH Zürich). Damit ist die
+Sektion `01_Konstruktion` jetzt für **P1 UND P2 vollständig abgeschlossen**.
+
+- Kernfund: das deutschsprachige Manz-Skript «Bauphysik III, FS 2009» (`00_Uebersicht/
+  deutsch Manz/`, identisch dupliziert unter `03_Energie/03_ETHZ/`, per MD5 verifiziert)
+  enthält die Kapitel 3–7 plus Anhang; Kapitel 1–2 waren bereits in früheren Läufen
+  destilliert ([[aussenklima-grundlagen-solarstrahlung-erdreichtemperatur-eth-bauphysik-iii-manz]],
+  [[thermische-behaglichkeit-pmv-ppd-modell-fanger-eth-bauphysik-iii-manz]]). Alle sieben
+  Kapitel per `pypdf` vollständig textextrahiert und gelesen (Kap. 3: 32'728 Zeichen, Kap. 4:
+  35'543, Kap. 5: 38'206, Kap. 6: 22'575, Kap. 7: 49'913, Anhang: 9'481 Zeichen zzgl.
+  Klimadaten-Tabellen als reine Bildscans ohne Textebene).
+- Drei Wiki-Artikel aus Kapitel 3, 5 und 6 destilliert (Details CHANGELOG 2026-08-30):
+  [[instationaerer-waermedurchgang-eindringtiefe-zeitkonstante-eth-bauphysik-iii-manz]],
+  [[luftdichtheitsphysik-winddruck-thermischer-auftrieb-blower-door-eth-bauphysik-iii-manz]],
+  [[instationaeres-raumverhalten-zeitkonstante-gewinn-verlust-verhaeltnis-eth-bauphysik-iii-manz]].
+- **Kapitel 4 (Transparente Bauteile: g-Wert/Uw-Herleitung, Sonnenschutz-Klassifizierung) und
+  Kapitel 7 (Energie und Nachhaltigkeit: SIA-380/1-Heizwärmebedarf, Heizgradtage, graue
+  Energie, Minergie, Niedrigenergie-Strategien) bewusst NICHT destilliert** — Registerprüfung
+  gegen `wissen/energie/wiki/` ergab, dass die dortigen Artikel (`fenster-uw-g-wert-
+  zielkonflikt.md`, `sommerlicher-waermeschutz.md`, `graue-energie.md`, `minergie-
+  standards.md`, `u-werte-grenzwerte-ch.md`, `daemmstoffe-lambda.md`) dieselben Themen mit
+  aktuellem Normstand (SIA 380/1:2016, SIA 180:2014, Minergie-Reglement 2026.1, KBOB
+  v9.0/2026) bereits `established` führen; das 2009er-Manz-Skript hätte hier nur veraltete
+  Grenzwerte dupliziert. Anhang-Tabellen 3–5 (SN EN 12524-Baustoffkennwerte λ/ρ/c/μ) aus
+  demselben Grund nicht destilliert — Duplikat zu `wissen/energie/wiki/daemmstoffe-lambda.md`.
+  Details und Routing-Hinweis in `wiki/QUESTIONS.md` #66.
+- Sperrliste-Prüfung: keine neuen Funde, keine der sechs gesperrten Positionen betroffen.

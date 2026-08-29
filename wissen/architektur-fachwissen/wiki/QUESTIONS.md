@@ -4,6 +4,30 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260830 — Vierter P2-Lauf Sektion `01_Konstruktion` (Korpus 4): Routing-Hinweis Bauphysik III/energie-KB
+
+Quelle: Lane FACHWISSEN, letzte offene P2-Position der Sektion `01_Konstruktion`
+(`04_Bauphysik_Energie/02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen`, ETH-Skript
+«Bauphysik III», Dr. H. Manz, FS 2009).
+
+**#66 Kapitel 4 (Transparente Bauteile) und Kapitel 7 (Energie und Nachhaltigkeit) des
+Manz-Skripts sowie die Anhang-Baustofftabellen (SN EN 12524) wurden bewusst NICHT
+destilliert — Duplikatsprüfung nötig, falls ein künftiger Lauf hier ansetzen will.** Die
+Registerprüfung ergab, dass `wissen/energie/wiki/` dieselben Themen bereits mit aktuellem,
+`established`-Status geführten Inhalten abdeckt: g-Wert/Uw-Zielkonflikt
+(`fenster-uw-g-wert-zielkonflikt.md`), sommerlicher Wärmeschutz/SIA-180-Nachweis
+(`sommerlicher-waermeschutz.md`), graue Energie/KBOB (`graue-energie.md`),
+Minergie-Reglement 2026.1 (`minergie-standards.md`), U-Wert-/Heizwärmebedarf-Grenzwerte
+(`u-werte-grenzwerte-ch.md`), Dämmstoff-λ-Werte (`daemmstoffe-lambda.md`). Das 2009er-Skript
+zitiert SIA 380/1:2009, SIA 180:1999 und ein Minergie-Reglement von vor 2010 — sämtlich durch
+neuere Ausgaben abgelöst; eine Destillation hätte veraltete Zahlen neben die aktuellen der
+`energie`-KB gestellt, ohne physikalischen Mehrwert (anders als bei den destillierten
+Kapiteln 3/5/6, deren Zeitkonstanten-/Druck-/Simulationsphysik in `wissen/energie` nicht
+vorkommt). **Offen für einen künftigen Lauf/Raphael:** falls die reine Herleitungsphysik von
+Kapitel 4 (Fresnel/Bouguer-Lambert-Optik, thermische Verglasungsphysik) trotz Normen-Dopplung
+als eigenständiger Lehrbuch-Artikel gewünscht ist (z. B. für eine interne Schulung), wäre das
+ein separater redaktioneller Entscheid, kein automatischer Destillat-Fall.
+
 ## 260829 — Sechzehnter Destillat-Lauf Korpus 4: Entscheidungspunkt nach P1-Meilenstein
 
 Quelle: Lane FACHWISSEN, Destillat-Lauf Korpus 4 `archiv-fachwissen`, Sektion

@@ -957,3 +957,35 @@ geprüft).
 für P1 und P2 vollständig. Der Entscheidungspunkt Raphaels (P2 systematisch für die übrigen
 Sektionen vs. Phase-0-Nachholung, `QUESTIONS.md` #1/#58/#60/#63) bleibt unverändert offen und
 wurde in diesem Lauf bewusst kein weiteres Mal wiederholt.
+
+## 260830 — Einundzwanzigster Destillat-Lauf (Korpus 4, Sektion `01_Konstruktion`, vierter P2-Lauf, ABSCHLUSS)
+
+Dispatch-Text erneut veraltet (zwölftes Beispiel, Memory `project_fachwissen-dispatch-loop`);
+Lauf orientierte sich am realen Stand. `ps aux` vor Arbeitsbeginn geprüft: kein
+FACHWISSEN-Duplikat.
+
+Die letzte laut zwanzigstem Lauf offene P2-Position bearbeitet: `04_Bauphysik_Energie/
+02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien). Kernquelle: Skript
+«Bauphysik III, FS 2009» (Dr. H. Manz, ETH Zürich), Kapitel 3–7 plus Anhang vollständig per
+`pypdf` gelesen (Kapitel 1–2 bereits in früheren Läufen destilliert). Drei Wiki-Artikel:
+[[instationaerer-waermedurchgang-eindringtiefe-zeitkonstante-eth-bauphysik-iii-manz]] (Kap. 3:
+Eindringtiefe, dynamische Wärmekapazität, Zeitkonstante τ=d²/a, Aussen- vs. Innendämmung),
+[[luftdichtheitsphysik-winddruck-thermischer-auftrieb-blower-door-eth-bauphysik-iii-manz]]
+(Kap. 5: Winddruck-Cp, Kamineffekt, Blower-Door n50/va,4), und
+[[instationaeres-raumverhalten-zeitkonstante-gewinn-verlust-verhaeltnis-eth-bauphysik-iii-manz]]
+(Kap. 6: Zeitkonstante τ=C/H, Gewinn/Verlust-Verhältnis γ=G/H, Gebäudesimulationsbeispiel).
+
+Kapitel 4 (Transparente Bauteile) und Kapitel 7 (Energie und Nachhaltigkeit) sowie die
+Anhang-Baustofftabellen bewusst nicht destilliert: Registerprüfung ergab vollständige
+inhaltliche Abdeckung durch die aktuellere, `established`-geführte KB `wissen/energie`
+(g-Wert/Uw, sommerlicher Wärmeschutz, graue Energie, Minergie, U-Werte, Dämmstoff-λ) —
+Routing-Hinweis `wiki/QUESTIONS.md` #66, Details CHANGELOG 2026-08-30.
+
+**Damit ist Sektion `01_Konstruktion` (Korpus `archiv-fachwissen`) für P1 UND P2 vollständig
+abgeschlossen.** Fortschritt in `raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt
+«Destillat-Fortschritt — Ergänzung 2026-08-30», reiner Append (`git diff --numstat` 36/0
+geprüft). Sperrliste-Prüfung: keine neuen Funde. Nächster Schritt gemäss Queue-Regel: die
+nächste Sektion des Korpus `archiv-fachwissen` nach Ertrag (siehe «Sektionen nach Ertrag»
+oben), oder der weiterhin offene Entscheidungspunkt Raphaels (`QUESTIONS.md`
+#1/#58/#60/#63) zwischen weiterer P2-Priorisierung und Phase-0-Nachholung der 12 noch
+uninventarisierten Sektionen.

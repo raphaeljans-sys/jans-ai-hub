@@ -1,5 +1,53 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Konstruktion` ABGESCHLOSSEN (P1+P2), vierter P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec», zwölftes Beispiel desselben
+Musters, Memory `project_fachwissen-dispatch-loop`). Vor Arbeitsbeginn `ps aux` gegen
+Parallel-Instanzen der Lane geprüft: kein FACHWISSEN-Duplikat, unabhängige Lanes
+NORMEN-PRUEFSTAND und BAURECHT-THALWIL liefen gleichzeitig auf derselben Station. Lauf hat
+sich am realen Stand in `KORPUS-QUEUE.md`/`CHANGELOG.md` orientiert, nicht am Dispatch-Text.
+
+Bearbeitet: die letzte offene P2-Position der Sektion `01_Konstruktion` —
+`04_Bauphysik_Energie/02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien,
+Bauphysik I–III ETH Zürich). Kernquelle: das deutsche Skript «Bauphysik III, FS 2009»
+(Dr. H. Manz), Kapitel 3–7 plus Anhang, identisch dupliziert an zwei Stellen im Ordner
+(MD5-verifiziert), vollständig per `pypdf` extrahiert und gelesen. Kapitel 1–2 dieses Skripts
+waren bereits in früheren Läufen destilliert.
+
+Drei neue Wiki-Artikel:
+
+- [[instationaerer-waermedurchgang-eindringtiefe-zeitkonstante-eth-bauphysik-iii-manz]]
+  (Kapitel 3): Temperaturleitfähigkeit, Wärmeeindringkoeffizient, Eindringtiefe σ, dynamische
+  Wärmekapazität/speicherwirksame Schichtdicke, Zeitkonstante τ = d²/a einer Materialschicht,
+  Amplitudendämpfung/Phasenverschiebung. Belegte Kernzahl: aussengedämmte Massivwände dämpfen
+  eine Aussentemperaturschwankung rund 30× stärker als innengedämmte bei identischem U-Wert
+  (ν_H 103 vs. 3,6, Fig. 3.13).
+- [[luftdichtheitsphysik-winddruck-thermischer-auftrieb-blower-door-eth-bauphysik-iii-manz]]
+  (Kapitel 5): Winddruck-Cp-Beiwerte, thermisch induzierter Auftrieb/Kamineffekt
+  (neutrale Zone), Spaltströmungsansatz V̇=D·Δp^m, Blower-Door-Methode (n50, SIA-180-Kennwert
+  va,4), Radon-Grundlagen, Querbezug passive Nachtlüftung. Ergänzt die bereits destillierten
+  Leibundgut-Artikel (Systematik/CO₂-Kennzahlen) um die Druck-/Strömungsphysik, die dort und
+  in `wissen/energie/wiki/komfortlueftung.md` nicht behandelt wird.
+- [[instationaeres-raumverhalten-zeitkonstante-gewinn-verlust-verhaeltnis-eth-bauphysik-iii-manz]]
+  (Kapitel 6): Leistungsbilanz eines Raumes, Zeitkonstante τ = C/H, Gewinn/Verlust-Verhältnis
+  γ = G/H, Leerlauftemperatur-Modell, Gebäudesimulationsbeispiel Büroraum Sommer (Zürich,
+  Sonnenschutz + Nachtlüftung kombiniert hält die operative Raumtemperatur den ganzen Sommer
+  unter 26,5 °C, Fig. 6.13).
+
+**Kapitel 4 (Transparente Bauteile) und Kapitel 7 (Energie und Nachhaltigkeit) sowie die
+Anhang-Baustofftabellen (SN EN 12524) bewusst NICHT destilliert:** Registerprüfung gegen
+`wissen/energie/wiki/` ergab, dass diese Themen dort bereits mit aktuellem Normstand
+(SIA 380/1:2016, SIA 180:2014, Minergie 2026.1, KBOB v9.0/2026) `established` geführt werden
+(`fenster-uw-g-wert-zielkonflikt.md`, `sommerlicher-waermeschutz.md`, `graue-energie.md`,
+`minergie-standards.md`, `u-werte-grenzwerte-ch.md`, `daemmstoffe-lambda.md`) — das 2009er-
+Skript hätte hier nur veraltete Grenzwerte dupliziert. Routing-Hinweis `wiki/QUESTIONS.md` #66.
+
+**Damit ist die Sektion `01_Konstruktion` des Korpus `archiv-fachwissen` für P1 UND P2
+vollständig abgeschlossen.** Fortschritt in
+`raw/inventar/archiv-fachwissen__01_Konstruktion.md`, reiner Append (`git diff --numstat`
+36/0 geprüft). Sperrliste-Prüfung: keine neuen Funde.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Konstruktion`, dritter P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec», elftes Beispiel desselben
