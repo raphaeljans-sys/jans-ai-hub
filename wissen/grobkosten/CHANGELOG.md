@@ -1,5 +1,27 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-29 (Schub-Lane grobkosten, zweiter Dispatch selber Tag) — Duplikat-Auftrag erkannt, keine erneute Verdichtung erzwungen
+
+**Befund:** dieselbe Lane erhielt am selben Tag ein zweites Mal exakt denselben Auftragstext
+("20 raw-Eintraege, erst 3 Wiki-Artikel", dieselbe Projektliste) wie im Eintrag direkt darunter
+(Commit `7778d7b0b`, 20:32 Uhr). Unabhaengig neu geprueft statt dem vorherigen Befund blind
+vertraut: alle 18 realen `raw/`-Dateien stehen im Frontmatter `sources:` von `wiki/kennwerte.md`
+UND in der Status-Tabelle `wiki/INDEX.md`; `training/quellen-inventar.md` Z. 14 bestaetigt
+explizit "keine `[ ]`-Zeile" (die neun weiteren Fundstellen von "[ ]" im Dokument sind
+Vergangenheitsprosa abgeschlossener Runs, keine offene Tabellenzeile); kein Commit zwischen dem
+vorherigen Befund und diesem Lauf hat `raw/` veraendert; lokale `raw/`-Ordnerliste ist
+dateigleich mit der NAS-Kopie.
+
+**Nicht ausgefuehrt:** ein zweiter, inhaltsgleicher Verdichtungs-/Statustabellen-Durchgang — das
+haette die bereits bestehende Tabelle in `wiki/INDEX.md` dupliziert, ohne neuen Beleg. Kein
+Kennwert erzeugt, keine Datei in `raw/` oder `wiki/kennwerte.md` angefasst.
+
+**Hinweis fuer den Dispatcher:** die Ausgangslage-Zahl "20 raw / 3 Wiki" in der Auftragsvorlage
+ist stand 29.08.2026 veraltet (zaehlt Dateien statt Inhalt und ignoriert die bereits erfolgte
+Verdichtung) — sollte vor dem naechsten Einplanen dieser Lane aktualisiert oder die Lane auf
+Ereignis-Trigger (neues Rohmaterial) statt Tages-Rotation umgestellt werden, analog der
+Empfehlung in `wiki/INDEX.md` Run 12.
+
 ## 2026-08-29 (Schub-Lane grobkosten, Auftrag Raphael) — Saettigung verifiziert statt erzwungener Verdichtung; Raw-Material-Status-Tabelle in INDEX.md
 
 **Auftrag:** die naechsten unverarbeiteten raw-Eintraege zu Wiki-Artikeln verdichten (Ausgangslage
