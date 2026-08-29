@@ -59,7 +59,9 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 **P1 vom 29.08. 19:15 ist erledigt: der headless-OAuth lebt wieder, auf beiden Stationen.** Belegt nicht durch eine eigene Probe, sondern durch die stärkere Messung: die Schub-Läufe auf dem Mac Mini enden von 00:47 bis 01:11 durchgehend mit `rc=0`, `is_error:false` und **Kosten grösser null** — genau das, was gestern Abend in 23 Läufen mit `cost_usd:0` fehlschlug. Raphael hat den Token erneuert und den Schub neu gestartet; die `STOP-SCHUB`-Datei ist entfernt. Keine Mail, weil er den Blocker selbst gelöst hat und die Meldung ihm nichts sagen würde, was er nicht schon weiss.
 
-**Zweiter gelöster P1, ohne Zutun: die Sync-Kette NAS → GitHub läuft wieder.** Der Wissens-Chef hatte am 29.08. 23:4x eine wachsende Divergenz von 42/19 gemeldet und ins Fristen-Register eingetragen. Jetzt gemessen: **19 `auto-sync`/`nas-selfcommit`-Commits in den letzten zwei Stunden** auf `origin/main`, GitHub-HEAD `a5fa20a2f` vom 30.08. **01:03:03** — also drei Minuten alt. Die Divergenz ist abgebaut. Was bleibt, ist die gewöhnliche Kurzzeit-Latenz zwischen dem Selfcommit auf der Synology und dem Push; der über SMB gelesene NAS-HEAD hinkt dem GitHub-Stand systematisch hinterher und ist kein Divergenz-Beleg.
+**Der zweite P1 dagegen ist NICHT gelöst — und ich habe ihn in diesem Lauf zuerst fälschlich geschlossen.** Aus «GitHub bekommt weiterhin Commits» (19 in zwei Stunden, HEAD `a5fa20a2f` von 01:03:03) hatte ich geschlossen, die Sync-Kette laufe wieder. Der Messwert stimmte, der Schluss nicht: diese Commits stammen vom **`git-auto-sync` des Mac Mini**, einem zweiten, unabhängigen Push-Weg (Message `auto-sync [Macmini]`) — nicht vom blockierten Selfcommit der Synology. **Ein frischer Remote-HEAD beweist nicht, dass der gestörte Mechanismus wieder läuft**, nur dass irgendeiner läuft. Aufgefallen ist es erst, als `nas-commit-now.sh` dieses Laufs an denselben CHANGELOG-Konflikten scheiterte wie gestern.
+
+Nativ aus dem Selfcommit-Log der Synology gemessen (mit `awk`, die Datei ist nicht UTF-8): **68 lokal / 34 remote bei Versuch 91**, gegen 42/19 gestern 23:4x und 31/13 um 23:03. In 90 Minuten kamen 26 lokale und 15 Remote-Commits dazu — die Divergenz wächst **auf beiden Seiten**, und das benennt die Ursache schärfer als bisher: **zwei konkurrierende Schreibwege auf denselben Branch.** Solange beide parallel pushen, kann kein Rebase aufholen; das ist kein Konflikt-Zufall mehr, sondern strukturell. Nicht aufgelöst, aus demselben Grund wie bei Run 167 und Run 47 (unbeaufsichtigtes Urteil über fremde, unbestätigte Arbeit). Korrektur und der neue Ursachenbefund stehen im Fristen-Register.
 
 ### Der Befund: vier von fünf Schub-Lanes verbrennen Kontingent ohne Ertrag
 
@@ -114,7 +116,7 @@ Der Auto-Mode-Klassifikator hat zwei Wege blockiert, und beide Blockaden waren i
 
 ### Prioritäten
 
-**P1 — keine.** Beide P1 des Vortages (headless-OAuth, Sync-Kette) sind erledigt.
+**P1 — die Sync-Kette NAS → GitHub bleibt offen und waechst** (68/34 bei Versuch 91, Ursache neu als «zwei konkurrierende Push-Wege» benannt; Register 30.08. 01:16). Der andere P1 des Vortages, der headless-OAuth, ist erledigt.
 
 **P2 — der Schub-Treiber braucht eine Abbruchbedingung «Material erschöpft», bevor er das nächste Mal läuft.** Er kennt heute nur Frist, STOP-Datei und den Blindgänger-Zähler; letzterer greift erst, wenn eine Lane *kurz* antwortet — eine Lane, die ihren Nullbefund ausführlich begründet, läuft unbegrenzt weiter. Genau das ist hier 418 Mal passiert. Naheliegend: erkennt der Treiber im Ergebnis eine Wendung wie «nichts mehr offen» oder «keine offene Position» dreimal in Folge, beendet er die Lane wie beim Blindgänger. Das ist ein kleiner Eingriff in `scripts/vollgas-schub.sh` und gehört gemacht, bevor der nächste Schub startet — nicht mitten in den laufenden Treiber hinein.
 

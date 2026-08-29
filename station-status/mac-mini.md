@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 01:06:21
+Stand: 30.08.2026 01:16:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 00:46)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 01:06:21
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bf086bc68 nas-selfcommit: 3 Datei(en) 2026-08-30 01:00
+- efe285eb0 wissens-destillat archiv-fachwissen 03_Bauprozesse_I_II: erster P2-Lauf, drei Wiki-Artikel, Cross-KB-Duplikat vermieden
