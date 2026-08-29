@@ -328,3 +328,41 @@ Sperrlisten-relevantes Material (Verträge, Bewerbungen, Personaldossiers, Adres
 Kontaktsammlungen, Lohn-/Honorardaten, Gesundheits-/Privatunterlagen) aufgefallen. Die
 Küssnacht-Wettbewerbsbeschriebe und der Zollstrasse-Jurybericht sind veröffentlichte
 Verfahrensdokumente Dritter, keine Personendaten im Sinne der Sperrliste.
+
+## Destillat-Fortschritt, zweiter Lauf (P2, 29.08.2026, Lane FACHWISSEN)
+
+Auftragslage dieses Laufs beruhte auf einem veralteten Dispatch-Text («noch kein
+Destillat, keine Spec» für den gesamten Korpus `architektur-fachwissen`); tatsächlicher
+Stand vor diesem Lauf: beide Specs bestehen, P1 ist über `buero-referenzen` UND
+`archiv-fachwissen` bereits vollständig destilliert, offen ist nur P2. Dieser Lauf hat
+sich am realen Stand orientiert (Queue-Regel, `wiki/INDEX.md`) und zwei der fünf
+P2-Positionen dieser Sektion bearbeitet, ausgehend von dieser Sektion als Ertrags-
+stärkster Position der gesamten Trägerschicht:
+
+- `03_Begriffe_der_Architektur/Dichte/bw_2012_36_*.pdf` (18 PDF, Bauwelt 36/2012) —
+  **destilliert** → [[dichte-typologien-vergleich-muenchen-bauwelt-2012]]. Nur der
+  Rundfahrt-Teil (S. 28-33, vier von sieben Stationen zweifelsfrei zuordenbar) wurde
+  übernommen; das übrige Themenheft (Interview Stadtbaurätin Merk, SoBoN, Podiumsdis-
+  kussion) ist Stadtentwicklungs-Journalistik ohne direkt übertragbare Kennzahl und
+  bewusst nicht destilliert.
+- `02_Architekturdisskurs/11_Stadtwanderung/**` (14 PDF, Wallisellen_Richtiareal +
+  Zuerich_City_West) — **teilweise destilliert**: die Allreal-Präsentation
+  `05_richti-praesentation-gestaltungsplan.pdf` volltextlich gelesen und destilliert →
+  [[gestaltungsplan-verfahren-kennzahlen-richti-areal-wallisellen-allreal-2009]]. Der
+  69-seitige Situationsplan `02_richti-gestaltungsplan-anhang.pdf` und
+  `03_richti-gestaltungsplan-plan.pdf` liessen sich mangels zuverlässiger
+  Baufeld-Zuordnung in der Text-Extraktion nicht destillieren (offener Punkt im
+  Artikel und in `wiki/QUESTIONS.md`). Der Ordner `Zuerich_City_West` enthält in den
+  vorliegenden PDF nur Verweise auf interaktive Online-Karten der Stadt Zürich, keine
+  eigenständigen Zahlenwerte — nicht destillierbar.
+
+**Nicht bearbeitet in diesem Lauf** (bleiben P2 wie in der Triage): die eigenen
+DOCX-Texte `03_Begriffe_der_Architektur` (bereits im ersten Lauf teilweise als
+Sonderfall behandelt, siehe oben), Booklet-Beispiele, Plakatdarstellung-Beispiele —
+Letztere zwei sind laut Triage ausdrücklich «nur Anschauung, nicht Inhalt» und damit
+grundsätzlich keine Destillationskandidaten.
+
+**Datenschutz/Sperrliste:** kein Sperrlisten-relevantes Material in den gelesenen
+Quellen dieses zweiten Laufs. Bauwelt-Heft und Allreal-Präsentation sind veröffentlichte
+Verlags- respektive Investoren-Dokumente, keine Personendaten Dritter im Sinne der
+Sperrliste.

@@ -596,3 +596,27 @@ wurde in [[objektliste-architekturgeschichte-datierungen-eth]] verifiziert. Ob w
 Portraits ähnliche Fehler tragen, ist ungeklärt — kein P1, aber ein risikoarmer,
 schnell zu erledigender Folgeauftrag, sollte je ein Portrait wörtlich in ein Dokument
 übernommen werden.
+
+## 260829 — Siebzehnter Destillat-Lauf, erster P2-Lauf (Korpus 4, Sektion `02_Gestalt_Kulturverstaendnis`)
+
+**#57 Plan-lastige PDF (Situationspläne, Bildlegenden neben Fotos) lassen sich per
+Text-Extraktion nicht zuverlässig Kennzahlen zuordnen.** Sowohl bei der Bauwelt-
+Dichte-Rundfahrt (`bw_2012_36_0028-0033.pdf`, drei von sieben Stationen ohne
+eindeutige Namens-Zahlen-Zuordnung) als auch beim 69-seitigen Richti-Gestaltungsplan-
+Situationsplan (`Wallisellen_Richtiareal/02_richti-gestaltungsplan-anhang.pdf`, Flächen-
+und Massangaben ohne Baufeld-Zuordnung im extrahierten Text) reisst `pypdf` Bildlegenden
+und zugehörige Zahlenblöcke aus ihrem räumlichen Kontext. Betrifft grundsätzlich jede
+Sektion mit Plan- oder Grafik-lastigen PDF, nicht nur diese beiden Fälle. Ohne
+`pdftotext -layout` oder eine visuelle Prüfung (vgl. bereits #48, Werkzeuglücke
+MacBook Pro) bleiben solche Werte unbelegt und werden konsequent nicht übernommen,
+statt geraten zu werden — siehe die Auslassungen in
+[[dichte-typologien-vergleich-muenchen-bauwelt-2012]] und
+[[gestaltungsplan-verfahren-kennzahlen-richti-areal-wallisellen-allreal-2009]].
+
+**#58 Entscheidungspunkt seit dem sechzehnten Lauf weiterhin offen: P2 systematisch
+fortsetzen oder erst die fehlende Phase-0-Inventarisierung (9 `buero-referenzen`- und 3
+`archiv-fachwissen`-Sektionen) nachholen?** Dieser Lauf hat sich für eine erste,
+begrenzte P2-Fortsetzung entschieden (zwei Positionen der ertragsstärksten Sektion),
+weil die Phase-0-Frage laut `QUESTIONS.md` #1 ausdrücklich Entscheid Raphaels ist.
+Das ist ein pragmatischer Zwischenschritt, kein Ersatz für den Entscheid selbst — der
+steht weiterhin aus.

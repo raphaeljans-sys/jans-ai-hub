@@ -806,3 +806,21 @@ Privatunterlagen-Vorbehalt. Offen bleiben: P2 in praktisch jeder destillierten S
 `archiv-fachwissen`-Sektionen (Liste in `QUESTIONS.md`). Nächster Schritt ist ein Entscheid,
 keine Fortsetzung nach Ertrag: P2-Destillation beginnen oder erst die fehlende
 Phase-0-Inventarisierung nachholen.
+
+**29.08.2026 (Lane FACHWISSEN, siebzehnter Lauf — erster P2-Lauf).** Dispatch-Text dieses
+Laufs beschrieb erneut fälschlich «kein Destillat, keine Spec» für die gesamte KB (fünftes
+Beispiel desselben veralteten Dispatch-Musters, siehe Memory-Eintrag). Da die
+Phase-0-Nachholung ein Entscheid Raphaels ist (`QUESTIONS.md` #1), hat dieser Lauf
+stattdessen mit der P2-Destillation begonnen, an der ertragsstärksten Sektion
+`02_Gestalt_Kulturverstaendnis` (Zeile 01): zwei der fünf P2-Positionen bearbeitet —
+Bauwelt-36/2012-Dichteheft → [[dichte-typologien-vergleich-muenchen-bauwelt-2012]],
+Allreal-Gestaltungsplan-Präsentation Richti-Areal Wallisellen (aus der Position
+`Stadtwanderung`) → [[gestaltungsplan-verfahren-kennzahlen-richti-areal-wallisellen-allreal-2009]].
+Zwei Positionen (Booklet-/Plakatdarstellungs-Beispiele) bleiben laut Triage bewusst
+undestilliert (reine Anschauung). Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md`, reiner Append
+(`git diff --numstat` 38/0 geprüft). P2 dieser Sektion bleibt zu drei Positionen offen
+(Begriffs-DOCX teilweise erledigt im ersten Lauf, Stadtwanderung teilweise, Booklet-/
+Plakatdarstellungs-Beispiele bewusst nicht). Nächster Lauf nach P2-Ertrag: Sektion
+`01_Konstruktion` (101 P1/8'791, P2-Bestand dort noch nicht gesichtet) oder Fortsetzung
+in derselben Sektion mit den übrigen P2-Resten — Entscheid beim nächsten Lauf.

@@ -1,5 +1,48 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Siebzehnter Lauf: erster P2-Destillat-Lauf nach P1-Meilenstein (Lane FACHWISSEN)
+
+Dispatch-Auftrag dieses Laufs beschrieb erneut fälschlich «kein Destillat, keine Spec» für
+die gesamte KB — tatsächlicher Stand: beide Specs bestehen, P1 ist seit dem sechzehnten
+Lauf über beide Korpora vollständig destilliert, offen sind nur P2 (über 700 Positionen)
+und die Phase-0-Nachholung für 12 Sektionen (Entscheid Raphael, `QUESTIONS.md` #1). Fünftes
+belegtes Beispiel desselben veralteten Dispatch-Musters (Memory-Eintrag
+`project_fachwissen-dispatch-loop`).
+
+Da die Phase-0-Frage explizit Entscheid Raphaels ist, hat dieser Lauf stattdessen mit der
+P2-Destillation begonnen: Sektion `02_Gestalt_Kulturverstaendnis` (ertragsstärkste Sektion
+der gesamten KB), zwei von fünf P2-Positionen bearbeitet:
+
+- Bauwelt-36/2012-Themenheft «Muss München dichter werden?» (18 PDF unter
+  `03_Begriffe_der_Architektur/Dichte/`) → [[dichte-typologien-vergleich-muenchen-bauwelt-2012]]:
+  vier von sieben Stationen der «Dichte-Rundfahrt der Bauwelt» mit belegten Kennzahlen
+  (Geschossflächenzahl, Wohnungsanzahl, Geschossfläche je Station: Borstei, Studentenwohnheim
+  Olympisches Dorf, Hofstatt, Welfenhöfe). Drei Stationen (Pasing Arcaden, Ackermannbogen,
+  Neuperlach) liessen sich per Text-Extraktion nicht eindeutig ihren Kennzahlen zuordnen und
+  wurden bewusst nicht übernommen (offener Punkt `QUESTIONS.md` #57). München ist
+  Deutschland-Kontext, `status: speculative`, ausdrücklich kein CH-Ausnützungsbeleg.
+- Allreal-Investorenpräsentation «Gestaltungsplan für das Richti-Areal in Wallisellen»
+  (26.05.2009, aus der Position `02_Architekturdisskurs/11_Stadtwanderung/`) →
+  [[gestaltungsplan-verfahren-kennzahlen-richti-areal-wallisellen-allreal-2009]]: sechsstufiger
+  Verfahrensablauf (Testplanung mit vier Büros und Fach-/Sachjury → Richtprojekt →
+  Projektstudien je Baufeld mit fünf weiteren Büros → Gestaltungsplan mit UVB →
+  Gemeindeversammlung 23.06.2009 → etappierte Realisation), belegte Flächenbilanz
+  (43 % bebaut / 30 % Grün / 27 % Erschliessung) und Nutzungsverteilung
+  (Wohnen 35 % / Dienstleistung 55 % / Gewerbe 10 %) sowie Kennzahlen je Baufeld. Dritter
+  belegter Gestaltungsplan-Fall dieser KB neben Zollstrasse Ost (SBB) und Naturmuseum
+  St. Gallen, erstmals mit privatem statt öffentlichem Verfahrensträger. Der 69-seitige
+  Situationsplan derselben Position und der Ordner `Zuerich_City_West` lieferten keine
+  zuverlässig zuordenbaren bzw. keine eigenständigen Zahlenwerte — nicht destilliert.
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md` als reiner
+Append-Abschnitt (`git diff --numstat` 38/0 geprüft, kein Eingriff in bestehende Zeilen).
+`wiki/INDEX.md` und `wiki/QUESTIONS.md` (#57, #58) nachgeführt. Kein Sperrlisten-Fund in den
+gelesenen Quellen (veröffentlichtes Verlagsheft, Investoren-Präsentation, keine
+Personendaten Dritter). P2 dieser Sektion bleibt zu drei Positionen offen; die übrigen
+Sektionen der KB sind auf P2 noch nicht gesichtet — Entscheid für den nächsten Lauf bleibt,
+wie im sechzehnten Lauf festgehalten, offen (P2 systematisch fortsetzen oder Phase-0-
+Nachholung).
+
 ## 2026-08-29 — Sechzehnter Destillat-Lauf: MEILENSTEIN P1 beider Korpora vollständig (Lane FACHWISSEN, Fortsetzung)
 
 Letzte P1-Position der Sektion `01_Innenarchitektur` (1 P1 von 396 Dateien) gelesen, verifiziert
