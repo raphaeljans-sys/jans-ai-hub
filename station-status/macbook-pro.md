@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 00:47:36
+Stand: 30.08.2026 00:57:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 00:47:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3d1421c27 nas-selfcommit: 1 Datei(en) 2026-08-30 00:45
+- a55d904c8 wissens-destillat archiv-fachwissen: 01_Konstruktion/02_Bauelemente P2 (Phaenomen Eingang, Pilzdecken-Fund Maillart)
