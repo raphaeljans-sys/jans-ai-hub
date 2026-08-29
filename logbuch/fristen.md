@@ -4303,3 +4303,51 @@ davon der groesste Teil in vier Lanes ohne Liefer-Delta), und zwei Entscheide Ra
 je eine Lane (die zwei `grobkosten`-Fragen seit 23.08., die Freigabe der `normen`-Mittelbau-Stichprobe).
 
 | Eigene Messung 30.08.2026 01:0x (Lauf-Journal 260830, `git fetch` + `git log origin/main`, launchd beide Stationen) | Hub-Infrastruktur / alle Stationen | — | **erledigt** — beide P1 des 29.08. geschlossen |
+
+**KORREKTUR 30.08.2026, 01:16 (vollgas-chef-radar, eigener Fehlbefund) — der Sync-P1 ist NICHT erledigt. Er waechst, und der Nachtrag 15 Minuten weiter oben hat ihn faelschlich geschlossen.**
+
+**Was falsch war.** Ich habe oben aus «GitHub bekommt weiterhin Commits» geschlossen, die Sync-Kette
+laufe wieder. Das war ein Fehlschluss aus einem echten Messwert: die 19 frischen Commits auf
+`origin/main` stammen **nicht** vom Selfcommit der Synology, sondern vom **`git-auto-sync` des
+Mac Mini** — einem zweiten, unabhaengigen Push-Weg (erkennbar an der Commit-Message
+`auto-sync [Macmini]`). Der blockierte Weg und der funktionierende Weg fuehren beide nach GitHub,
+und ich habe den einen fuer den anderen genommen. **Ein frischer Remote-HEAD beweist nicht, dass
+der gestoerte Mechanismus wieder laeuft** — er beweist nur, dass irgendein Mechanismus laeuft.
+Gleiche Familie wie Rule `auto-verbesserungen` 260807: erst messen, was ein Wert wirklich misst.
+
+**Der tatsaechliche Stand, nativ aus dem Selfcommit-Log der Synology
+(`sync-tasks/log/selfcommit-202608.log`, mit `awk` gelesen, nicht mit `grep` — die Datei ist nicht UTF-8):**
+
+| Zeitpunkt | Divergenz lokal / remote | Versuch |
+|---|---|---|
+| 29.08. 23:03 (energie Run 167) | 31 / 13 | — |
+| 29.08. 23:4x (Wissens-Chef Run 47) | 42 / 19 | — |
+| **30.08. 01:15 (dieser Lauf)** | **68 / 34** | **91** |
+
+In rund 90 Minuten sind **26 weitere lokale und 15 weitere Remote-Commits** dazugekommen. Die
+Divergenz waechst also nicht nur, sie waechst **auf beiden Seiten** — und das benennt die Ursache
+schaerfer als bisher: **zwei konkurrierende Schreibwege auf denselben Branch.** Der Mac Mini pusht
+per `git-auto-sync` Commits nach GitHub, welche die Synology nie erhaelt; die Synology committet
+nativ weiter, was GitHub nie erhaelt. Jeder Lauf der Lern-Loops treibt beide Seiten auseinander.
+Solange beide Wege parallel schreiben, kann kein Rebase je aufholen — das ist kein
+Konflikt-Zufall mehr, sondern strukturell.
+
+**Eigene Gegenprobe:** `nas-commit-now.sh` dieses Laufs (01:14) ist auf der Synology **sauber
+committet** (`c9acc9fc7`, RADAR-Eintrag und Fristen-Nachtrag enthalten), der **Push scheiterte** an
+denselben fuenf bis sieben CHANGELOG-Konflikten wie gestern (`architektur-fachwissen/wiki/QUESTIONS.md`,
+CHANGELOG von `baurecht`, `grobkosten`, `normen`, `KORPUS-QUEUE-thalwil-reglemente.md`). Deckungsgleich
+mit Run 167 und Run 47: **die Arbeit ist sicher, die Weitergabe nicht.**
+
+**Nicht aufgeloest, aus demselben Grund wie bei Run 167 und Run 47:** die Aufloesung hiesse, in einem
+**unbeaufsichtigten** Lauf ueber fremde, unbestaetigte Arbeit anderer Laeufe zu urteilen
+(Rule `interaktive-eingriffe`, Rule `auto-verbesserungen` 260811 Punkt 3). Beim Aufloesen gilt
+unveraendert: **beide Bloecke behalten, nichts verwerfen** — es kollidiert die Schreibweise
+«neueste zuoberst», nicht der Inhalt.
+
+**Was dieser Lauf ergaenzt:** die reine Konfliktaufloesung genuegt nicht. Solange beide Push-Wege
+parallel auf `main` schreiben, entsteht die Divergenz sofort neu. Zur Entscheidung gehoert deshalb,
+**welcher der beiden Wege kuenftig allein pusht** — der native Selfcommit der Synology (Rule
+`sync-kanonische-quelle`: das NAS ist die kanonische Quelle) oder der `git-auto-sync` des Mac Mini.
+Das ist Raphaels Entscheid, nicht meiner.
+
+| Eigene Messung 30.08.2026 01:15 (Selfcommit-Log der Synology, `git fetch` + `merge-base` im SSD-Klon, fehlgeschlagener `nas-commit-now.sh`) | Hub-Infrastruktur / alle KBs und Stationen | **hoch (P1)** | **offen und wachsend** — 68/34 bei Versuch 91; korrigiert den faelschlich als erledigt gefuehrten Nachtrag von 01:11 |
