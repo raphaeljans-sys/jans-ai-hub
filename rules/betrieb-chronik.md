@@ -19,6 +19,26 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260830 — `git diff --numstat` gegen HEAD misst bei langen Laeufen nur den Schwanz
+
+**Befund (Normen-Nacht Run 66, 30.08.2026).** Die Bestandsmessung nach Rule 260811 lief zuerst
+gegen HEAD und meldete fuer eine geaenderte Datei `-7` geloeschte Zeilen; gegen den Commit-Stand
+bei Laufbeginn waren es `-12`. Die Datei war in Ordnung, die Messung nicht: **der native
+`nas-selfcommit`-Cron committet alle 15 Minuten und verschiebt HEAD mitten im Lauf.** Wer bei
+einem laengeren Lauf gegen HEAD misst, sieht nur die Aenderungen seit dem letzten Cron-Commit.
+
+**Regel daraus (keine neue Pflicht, die richtige Anwendung der bestehenden):** Zu Beginn eines
+Laufs, der geteilte Dateien anfasst, den Commit-Stand festhalten —
+`ssh <nas> "cd /volume2/daten/jans-ai-hub && git log -1 --format=%h"` — und am Schluss
+`git diff --numstat <startcommit> -- <pfad>` rechnen, nicht `git diff --numstat`. Weiterhin
+gilt: nie `git` ueber den SMB-Mount, die Messung laeuft nativ per ssh (Rule 260726).
+
+**Warum das eintragenswert ist:** Der Messfehler zeigt in die **beruhigende** Richtung. Er
+liefert ein kleineres Loeschungsvolumen, im Grenzfall ein sauberes `-0`, und bestaetigt damit
+genau die Annahme, die Rule 260811 pruefen soll. Gleiche Familie wie Eintrag 260807: die Zahl
+war da, sie mass nur etwas anderes als angenommen.
+
+
 ## 260829b — Luefter-Thermik station-01: die Vega 20 treibt das interne Display; GUI-Automation war der falsche Hebel
 
 **Eingriff (Rule `interaktive-eingriffe.md`, Klassen Systemdienste und Persistenz).** Auf

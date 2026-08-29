@@ -12,6 +12,77 @@ keine Destillat-Änderung, kein Statuswechsel.** Neunte identische Auslösung an
 das Scheduling-Signal aus Run 71-75 bleibt unverändert bestehen und wird hier ein letztes
 Mal vermerkt, nicht weiter ausformuliert.
 
+## 2026-08-30 — Normen-Nacht Run 66: Q&A-Runde auf dem Figurenanhang SIA 416 (N65-3), Fundstellen-Richtung erstmals gefahren (N63-2, Pilot)
+
+**Vertiefungsstufe (c).** Das Inventar trägt in PL-02/PL-03 weiterhin 0 offene `[ ]`-Grunddestillate
+im SIA/VKF-Scope; gearbeitet wurde an dem von Run 65 als N65-3 ausgewiesenen Rückstand: die
+**Q&A-Richtung auf dem Figurenanhang S. 44-57** von `destillate/sia-416-2003.md` — die einzige
+der drei etablierten Prüfrichtungen, die auf dem praktisch folgenreichsten Teil nie gelaufen war.
+
+**Anlage:** vier Agenten (sonnet) ohne Destillat, nur mit Prüfungsfragen und je einem
+Seitenabschnitt, je eigenes Render-Präfix (Methodik-Pflicht 5). Jede Abweichung zum Destillat hat
+der Hauptprozess **selbst am Original** entschieden (eigene 300/600-dpi-Renderings, Präfix
+`hauptprozess-r66-`).
+
+**Ergebnis: 1 Kernbefund, 3 nie geführte Darstellungsregeln, 2 Präzisierungen, 1 geschlossener
+offener Punkt, 1 widerlegte Agentenbehauptung. Kein falscher Zahlenwert** — was auf einem
+zahlenfreien Quellenteil allerdings kein Qualitätssignal ist und im Report so ausgewiesen wird.
+
+- **Kernbefund, rechnerisch statt visuell gewonnen:** die Darstellungskonvention der **Figur 12**
+  war graphisch falsch beschrieben. Das Destillat sagte «Vollton = Schnitt, Schraffur = Ansicht»;
+  gemessen sind **beide** AKV-Signaturen schraffiert und trennen sich am **Grund** (gefüllt, 0 %
+  Weiss, gegen weiss, 79 %). Ein «Vollton braun ohne Schraffur» ist in der Gesamtlegende die
+  Signatur von **KV (5.2), einer Innen-Kategorie** — die alte Formulierung verwies also auf die
+  falsche Kategorie. Zweitens führt die Gesamtlegende S. 45 AKV **nur geschnitten**; die
+  Ansichts-Signatur existiert allein in Figur 12 und ist auf S. 44/45 nirgends erklärt.
+  Kontrollmessung am selben Blatt: Innen-Kategorien 100 % gefüllt, Aussen-Kategorien gefüllt
+  **mit Schraffur darüber** — der Legendencode des Destillats ist damit bestätigt und präzisiert.
+- **Drei nie geführte Darstellungsregeln:** Tür-/Fensternischen sind in Figur 3 in der Wandfarbe
+  mit **gestricheltem Umriss** gezeichnet und zählen zur KF (in Figur 4 weiss, also nicht NGF) —
+  **beim Aufmass werden Türöffnungen nicht abgezogen**; das **⊠-Schachtsymbol** ist über den
+  Vergleich Fig. 3 gegen Fig. 4 entschlüsselt (unkoloriert = nicht KF, blau = FF) und macht die
+  Ausnahme «sofern nicht der NGF zugeordnet» sichtbar; die **freistehende Stütze** erscheint als
+  isoliertes KFT-Feld.
+- **Zwei Präzisierungen:** die Zuordnung tragend/nichttragend wechselt **innerhalb eines
+  durchlaufenden Wandzugs** (feiner als das bisher geführte «wandscheibenscharf»); in Figur 6 ist
+  die Bodenplatte durchgehend eingefärbt und wechselt die Kategorie **an der Fassadenflucht** —
+  damit ist die massgebende **Aufmasskante für Balkon- und Terrassenflächen** benannt.
+- **Offener Punkt geschlossen:** Figur 7 ist Beispiel für Beispiel ausgedeutet. Zeile 4 ist ein
+  bewusstes **Vergleichspaar** derselben Gebäudeform mit und ohne Terrainanschluss; die
+  **gestrichelte Diagonale** verbindet in beiden Vorkommen zwei UF-Segmente auf verschiedenen
+  Niveaus, stellt den gedachten Geländeverlauf dar und ist **keine** Projektionsregel. Alle
+  übrigen Einzelbeispiele **bestätigen** die schon geführten drei Kriterien — nach Methodik-Pflicht 7
+  als Bestätigung und nicht als Befund protokolliert; eine erste, gegenteilige Notiz dazu wurde im
+  Lauf selbst zurückgezogen.
+- **Widerlegt:** ein Agent meldete, mit Pixelmessung belegt, der Massstrang der Figur 8 reiche
+  tiefer als die Farbfläche — das hätte den Run-65-Befund umgekehrt. Gegenmessung des
+  Hauptprozesses am eigenen 600-dpi-Rendering: unterster **Tick** y=3594, tiefste **Farbe** y=3647,
+  Ende der blossen **Achslinie** y=3711. Die Farbe reicht **2.24 mm auf dem Blatt tiefer** als die
+  letzte Segmentgrenze; der Agent hatte das Ende der Achslinie für das Ende des Massstrangs
+  gehalten. Run-65-Befund unabhängig reproduziert. **Lehre: eine Pixelmessung ist nur so gut wie
+  die Definition der gemessenen Kante.**
+- **Fundstellen-Richtung (N63-2) erstmals gefahren**, als Pilot auf einem Destillat: 109
+  Fundstellen geprüft, **104 korrekt, 1 falsch** (S. 1-17 statt S. 1-16, inline korrigiert), 4 nicht
+  prüfbar, **null falsche Ziffern, null nicht auffindbare Fundstellen**. Für den übrigen Bestand
+  bleibt N63-2 offen.
+- **Seiten-Inventur des Anhangs** erstellt (14 von 14 Seiten einzeln aufgenommen, Seitenversatz
+  durchgehend null) — Abdeckungsbeleg nach Methodik-Pflicht 6.
+
+**Methodischer Ertrag (in `wiki/QUESTIONS.md` als N66-2):** der Kernbefund lag im toten Winkel
+**aller drei** bisher gefahrenen Prüfrichtungen und wurde auch von der vierten erst sichtbar,
+nachdem der Hauptprozess **gemessen statt geschaut** hat. Die vier Richtungen haben je eine
+benennbare Blindstelle; die Tabelle dazu steht in QUESTIONS. Ein möglicher Schluss (Aussagen über
+Signaturen sind zu messen, analog Methodik-Pflicht 8 für Tabellen) wird **bewusst nicht vorgelegt**
+— ein einzelner Fall ist nach der eigenen Regel dieses Loops zu wenig für eine Pflicht.
+
+**N65-1 faktisch eingelöst:** alle Befunde stehen **einzeln und mit Fundstelle** in der Anlage
+`training/n66-qa-anhang-anlage.md` — Run 65 hatte festgestellt, dass die 18 Nebenbefunde aus
+Run 64 verloren sind, weil sie nur als Zahl im Report standen.
+
+**Status `sia-416-2003.md` bleibt `speculative`** (offen: N66-1, zwei ungeprüfte Deutungen in
+Figur 11). Report `outputs/2026-08-30_normen-nacht-run66.md`.
+
+
 ## 2026-08-29 (Run 75, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — achter Doppel-Dispatch, weiterhin Nullbefund, plus Sync-Nachtrag
 
 Achter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-75). Vor Arbeitsbeginn

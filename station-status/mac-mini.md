@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 01:37:11
+Stand: 30.08.2026 01:47:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 01:37)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 01:37:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ad77ee216 SYNOBSIS: Minimalcheck-Folgelauf bestaetigt Vorlauf, Dispatch-Empfehlung verstaerkt
+- 47437937f wissens-destillat buero-referenzen: 10_Modellbauen erster P2-Lauf, drei Positionen, ein neuer Artikel

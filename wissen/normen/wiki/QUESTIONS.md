@@ -1,5 +1,60 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 66 (30.08.2026) — N65-3 geschlossen, N63-2 erstmals gefahren, zwei neue Punkte
+
+**N65-3 GESCHLOSSEN.** Die Q&A-Richtung ist auf dem Figurenanhang S. 44-57 von
+`destillate/sia-416-2003.md` gelaufen (vier blinde Agenten, je ein Abschnitt, ohne Destillat;
+jede Abweichung vom Hauptprozess am Original entschieden). Damit sind auf diesem Destillat
+erstmals **alle vier** Prüfrichtungen auf allen Teilen gelaufen. Befunde einzeln:
+`training/n66-qa-anhang-anlage.md`.
+
+**N63-2 erstmals gefahren — aber nur als Pilot auf EINEM Destillat.** 109 Fundstellen geprüft,
+104 korrekt, 1 falsch (S. 1-17 statt S. 1-16, inline korrigiert), 4 nicht prüfbar, null falsche
+Ziffern. Für den übrigen Bestand bleibt N63-2 offen. **Was der Pilot über die Methode gelernt
+hat, steht als N66-2 unten** — es ist der wichtigere Teil des Ergebnisses.
+
+### N66-1 — Figur 11 (S. 56): zwei gemeldete Deutungen sind ungeprüft geblieben
+Ein Agent meldete in Figur 11 einen schmalen blauen Streifen in der Deckenzone (Deutung
+«Installationszone = FV») und einen orangen Keil unter der Dachschräge (Deutung «Raumhöhe zu
+gering für HNV»). Beide Stellen sind **unbeschriftet**, und der Hauptprozess hat sie **nicht**
+selbst nachgelesen. Bewusst **nicht** ins Destillat übernommen. Wäre die erste Deutung richtig,
+hiesse das, dass eine Installationszone innerhalb des Deckenaufbaus als **Funktionsvolumen**
+zählt — eine Aussage mit Folgen für jede NGV-Rechnung. Nächster Arbeitsgegenstand an diesem
+Destillat.
+
+### N66-2 — die vierte Prüfrichtung hat eine eigene Blindstelle, und der Kernbefund lag im toten Winkel aller drei anderen
+Der Kernbefund dieses Laufs (die graphisch falsche Beschreibung der Figur-12-Konvention) war
+für **alle drei** bisher gefahrenen Richtungen unsichtbar, und zwar strukturell:
+
+| Richtung | findet | ist blind für |
+|---|---|---|
+| Refuter | falsche und überdehnte Aussagen | weggelassenen eigenständigen Inhalt (MP 13) |
+| Abdeckung | Lücken | falsche Zeiger, falsche Beschreibung des Vorhandenen |
+| Fundstellen | falsche Zeiger | alles Inhaltliche am Ziel |
+| Q&A | falsch beschriebenen Inhalt am richtigen Zeiger | was keine Frage abdeckt |
+
+Der Fundstellen-Agent hat die Figur-12-Zeile ausdrücklich als KORREKT verdiktet — zu Recht, denn
+die Legende **ist** so beschriftet; falsch war die graphische Beschreibung daneben. **Und auch die
+Q&A-Richtung hätte den Befund allein nicht gehoben:** der Agent, der die Seite gelesen hat,
+beschrieb den Swatch wie das Destillat als «Vollton». Sichtbar wurde er erst, als der
+Hauptprozess den Weissanteil der Swatches **gemessen** hat.
+**Daraus die Frage an Raphael — und sie ist enger als sie klingt:** soll für Aussagen über
+**Signaturen** (Farbe, Schraffur, Linienart) verbindlich gelten, dass sie **gemessen** und nicht
+nur betrachtet werden, so wie Methodik-Pflicht 8 das für Tabellen schon verlangt? Der Beleg ist
+dieser eine Fall, an drei Swatch-Paaren gemessen. **Ein Fall ist nach der eigenen Regel dieses
+Loops zu wenig für eine Pflicht** (so wurde MP 13 in Run 52 zurückgestellt und erst in Run 53/54
+gemessen). Der Punkt steht deshalb als Beobachtung, **nicht als Vorlage** — er wird erst
+vorgelegt, wenn ein zweiter unabhängiger Fall dazukommt.
+
+### Unverändert weitergeführt, nicht erneut vorgelegt
+N63-2 für den übrigen Bestand · N63-3 · die Reihenfolge der 308 Kandidaten der N62-3-Liste ·
+das Statusvokabular · die Beschaffungs-Bring-Schulden (SIA-Shop 380/1:2016, 385/1:2011,
+266/1:2015, 181:2020, 491, 118:2013 · VSS-Kundendienst SN 641 400, SN 640 052 · SNV
+SN EN 12193:2019) · N65-1, N65-2 und N65-4 liegen seit Run 65 bei Raphael. **N65-1 ist mit
+diesem Lauf faktisch eingelöst** (jeder Befund einzeln in `training/n66-qa-anhang-anlage.md`),
+unabhängig davon, ob er als Methodik-Pflicht freigegeben wird.
+
+
 ## Cross-KB-Übergabe von `wissen/energie` (24.08.2026) — 7 nie gesichtete SIA-Vertragsrecht-docx in PL-02 ✅ GESCHLOSSEN 24.08.2026 05:2x Uhr — alle 7 Dateien einzeln geöffnet, kein Destillationsbedarf
 
 **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung, achter Lauf):** alle 7 Dateien einzeln über den
