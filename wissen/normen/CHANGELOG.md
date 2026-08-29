@@ -1,3 +1,38 @@
+## 2026-08-29 (Run 75, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — achter Doppel-Dispatch, weiterhin Nullbefund, plus Sync-Nachtrag
+
+Achter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-75). Vor Arbeitsbeginn
+unabhängig nachgeprüft statt der Liste geglaubt: `grep -ic "prüfstand\|pruefstand"` gegen alle
+sechs Destillate aus Abschnitt 4 der Kandidatenliste (`sia-416-2003.md`,
+`vkf-ah-1001-15-wohnbauten.md`, `vkf-brl-16-15-flucht-rettungswege.md`,
+`vkf-allgemein-anerkannte-bauprodukte-2017.md`, `sia-102-2014.md`, `sia-451-1992.md`) — alle
+sechs tragen weiterhin mindestens einen Treffer. `wiki/QUESTIONS.md` endet unverändert bei
+N68-1, kein offener neuer Eintrag seit Run 68. **Kein neuer Kandidat, keine
+Destillat-Änderung, kein Statuswechsel in diesem Lauf.**
+
+**Sync-Nachtrag entdeckt und behoben:** Der Run-74-Eintrag (siebter Dispatch) war nur in der
+SSD-Arbeitskopie geschrieben worden, nie auf dem NAS als kanonischer Quelle (Verstoss gegen
+Rule `sync-kanonische-quelle`) — `diff` zwischen `/Volumes/daten/.../CHANGELOG.md` und der
+SSD-Kopie zeigte den fehlenden Abschnitt. Hier direkt auf dem NAS nachgetragen, danach per
+`nas-commit-now.sh` committet, damit SSD-Klon und NAS wieder deckungsgleich sind.
+
+Offen bleibt unverändert nur die in der Kandidatenliste Abschnitt 6 Punkt 2 skizzierte
+Stichprobenrunde für den Mittelbau der ~300 übrigen `established`-Destillate ohne Prüfstand —
+weiterhin **Raphael vorzulegen, nicht selbständig zu starten**. Achtfache identische
+Dispatches am selben Tag bestätigen den in Run 71-74 wiederholt genannten Verdacht: der
+auslösende Scheduled Task/Auftrag feuert mutmasslich mehrfach täglich mit identischem
+Wortlaut statt einmal — das ist ein Scheduling-Befund, keine Sacharbeit mehr, und sollte
+geprüft werden, bevor eine neunte Lane denselben Nullbefund ein weiteres Mal produziert.
+
+## 2026-08-29 (Run 74, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — siebter Doppel-Dispatch, weiterhin Nullbefund
+
+Siebter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-74). Gegengeprüft statt
+geglaubt: `grep -ic "prüfstand\|pruefstand"` gegen alle sechs Destillate aus Abschnitt 4 der
+Kandidatenliste — unverändert je mindestens ein Treffer. `wiki/QUESTIONS.md` endet weiterhin
+bei N68-1, `git status wissen/normen` sauber vor Beginn. **Kein neuer Kandidat, keine
+Destillat-Änderung, kein Statuswechsel.** Wird hier nicht mehr ausführlich wiederholt (Run 73
+hat den Prozess-Hinweis bereits ausformuliert): der auslösende Auftrag feuert erkennbar mehrfach
+täglich mit identischem Wortlaut, das ist ein Scheduling-Befund, keine Sacharbeit mehr.
+
 ## 2026-08-29 (Run 73, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — sechster Doppel-Dispatch, weiterhin Nullbefund
 
 Sechster Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-73). Unabhängig
