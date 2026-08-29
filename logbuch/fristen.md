@@ -4247,3 +4247,28 @@ abgelaufenen Token des MacBook. Danach ist der geparkte Schub sofort wieder star
 `rm /Volumes/daten/jans-ai-hub/logbuch/vollgas/STOP-SCHUB`, dann die fünf Lanes neu starten.
 
 | Beleg: `logbuch/vollgas/RADAR.md` Eintrag 29.08.2026 19:15 [LOGIN]; Lauf-Journal `logbuch/laeufe/260829-laeufe.jsonl` | Hub-Betrieb, beide Stationen | **hoch** | offen, Raphael am 29.08.2026 im Gespräch direkt vorgelegt |
+
+**NACHTRAG 29.08.2026, 23:4x (Wissens-Chef Run 47) — zum P1 «Sync-Kette NAS → GitHub steht seit 22:05»: die Divergenz waechst messbar, und sie blockiert inzwischen einen zweiten Lauf.**
+Kein neuer Vorgang, nur eine spaetere Messung derselben Stoerung. Um **23:03** meldete
+`energie-training` Run 167 **31 Commits voraus / 13 nicht integriert**; um **23:4x** sind es
+**42 / 19** (gemessen `git rev-list --left-right --count github/main...HEAD` im NAS-Repo).
+In rund 40 Minuten sind also **11 weitere ungesicherte Commits** dazugekommen — die aufzuloesende
+Divergenz waechst ungefaehr im Takt der laufenden Lern-Loops weiter.
+**Neu belegt:** die Stoerung trifft nicht nur den Selfcommit-Cron. Dieser Lauf hat
+`scripts/nas-commit-now.sh` zweimal angestossen; beide Male ist der **Commit auf der Synology
+sauber durchgelaufen** (Run 47 liegt als `f5d2a459f` im NAS-HEAD, Arbeitsbaum danach sauber,
+keine Konfliktmarker, kein `MERGE_HEAD`, kein `index.lock`), und beide Male ist **allein der
+Abgleich mit GitHub** gescheitert. Die Arbeit ist also sicher, die Weitergabe nicht — deckungsgleich
+mit dem Befund von Run 167.
+**Praezisierung der Ursache:** die Konfliktdateien sind inzwischen **sieben**, und alle sind vom
+selben Bautyp «neueste zuoberst»: die CHANGELOG von `architekten-synobsis`, `architektur-fachwissen`,
+`baurecht`, `grobkosten` und `normen`, dazu `wissen/baurecht/training/KORPUS-QUEUE-thalwil-reglemente.md`
+und `wissen/architektur-fachwissen/wiki/QUESTIONS.md`. Das stuetzt die strukturelle Lesart von Run 167:
+es kollidiert die **Schreibweise** (alle Loops fuegen am selben Dateikopf ein), nicht der Inhalt —
+es sind Append-Eintraege verschiedener Laeufe, keine Widersprueche. Beim Aufloesen darum **beide
+Bloecke behalten, nichts verwerfen**.
+**Nicht ausgefuehrt, aus demselben Grund wie bei Run 167:** die Aufloesung hiesse, in einem
+**unbeaufsichtigten** Lauf ueber fremde, unbestaetigte Arbeit anderer Laeufe zu urteilen
+(Rule `interaktive-eingriffe`, Rule `auto-verbesserungen` 260811 Punkt 3). Der fertige Befehl steht
+im Eintrag von Run 167 daruber und gilt unveraendert.
+| Eigene Messung 29.08.2026 23:4x im NAS-Repo (`git rev-list --left-right --count`, `git log github/main..HEAD`), zwei fehlgeschlagene `nas-commit-now.sh`-Laeufe | Hub-Infrastruktur / alle KBs und Stationen | **hoch (P1)** | offen — Nachtrag zum bestehenden Vorgang, kein neuer |

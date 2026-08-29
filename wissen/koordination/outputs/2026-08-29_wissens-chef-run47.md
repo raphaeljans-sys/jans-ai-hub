@@ -180,3 +180,14 @@ Vier Rueckkanten sind mit diesem Lauf gesetzt.
   ist zuerst eine Aussage ueber das Instrument.*
 - Der 15-Minuten-Selfcommit hat Teile dieser Aenderungen in die Commits fremder Laeufe eingebucht
   (`2a9f37399`, `3f4e58a4a`). Inhalt vollstaendig verifiziert; nur die Commit-Zuordnung ist unscharf.
+- **Der Push nach GitHub ist blockiert** — nicht durch diesen Lauf verursacht. Die Sync-Kette
+  NAS → GitHub steht seit dem 29.08.2026 22:05; `energie-training` Run 167 hat den P1 um 23:0x
+  korrekt registriert. Eigene Messung um 23:4x: **42 Commits nur auf dem NAS, 19 nur auf GitHub**
+  (Run 167 mass um 23:03 noch 31/13 — die Divergenz waechst im Takt der laufenden Loops). Der
+  **Commit auf der Synology laeuft sauber durch** (Run 47 = `f5d2a459f`, NAS-Arbeitsbaum danach
+  sauber, keine Konfliktmarker); allein der Abgleich mit GitHub scheitert. Die sieben Konfliktdateien
+  sind alle vom Bautyp «neueste zuoberst» — es kollidiert die Schreibweise, nicht der Inhalt.
+  **Nicht selbst aufgeloest:** das hiesse, in einem unbeaufsichtigten Lauf ueber fremde,
+  unbestaetigte Arbeit anderer Laeufe zu urteilen (Rule `interaktive-eingriffe`, Rule
+  `auto-verbesserungen` 260811 Punkt 3). Datierter Nachtrag am bestehenden Vorgang in
+  `logbuch/fristen.md` gesetzt, kein neuer Vorgang eroeffnet.
