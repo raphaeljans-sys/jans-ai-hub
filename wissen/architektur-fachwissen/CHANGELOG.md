@@ -1,5 +1,48 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, zweiter P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station
+fälschlich «MacBook Pro» — tatsächlicher Hostname laut `scutil` **Macmini**; sechzehntes
+Beispiel desselben Musters, Memory `project_fachwissen-dispatch-loop`). Vor Arbeitsbeginn
+`ps aux` geprüft: zwei `claude -p`-Prozesse aktiv, aber der zweite gehört zu Lane SYNOBSIS
+(unterschiedlicher Prompt-Text), keine echte FACHWISSEN-Doppelinstanz. Am realen Stand in
+`KORPUS-QUEUE.md`/CHANGELOG orientiert, keine Spec neu geschrieben (beide Specs bestehen seit
+29.08.2026).
+
+Fortsetzung der Sektion `02_Architekturtheorie` (P1 vollständig, P2-Gruppe «31 Syllabi» aus dem
+Vorlauf erledigt). Vor Weiterarbeit an den rund 190 Vorlesungsmitschriften eine Stichprobe der
+23 Vorlesungsordner auf versteckte Fragen-Unterordner geprüft (Analogieschluss aus der Machart
+der acht P1-Begriffskataloge) — zwei Treffer, die die Erstinventarisierung 23.08.2026 fälschlich
+in die pauschale P2-Gruppe einsortiert hatte:
+
+- `VL7_Rossi_Aldo/05_Fragen/120112_VL_7_Aldo_Rossi_Fragen.docx` — vollständiger 19-Punkte-
+  Fragenkatalog zu Rossis «Architektur für die Museen». Destilliert zu
+  `wiki/rossi-theorie-der-permanenz-primaere-sekundaere-stadtelemente.md`: Theorie der Permanenz
+  (primäre/sekundäre Stadtelemente), Beleg am Beispiel Lucca (Blockgrundriss = ehemaliges
+  Amphitheater), Rossis Typus-Begriff im Vergleich zu Muratori/Caniggia («Finden statt Erfinden»
+  gegen traditionalistische Kontinuität, Fallbeispiel Bologna-Restaurierung 1970er), Rossi gegen
+  Venturi (Grundriss/Typus gegen Fassade/Zeichen), Bezug zu Emil Kaufmanns Begriff der
+  «autonomen Architektur».
+- `VL1_Was_ist_Architekturtheorie/02_Mitschrift/Fragen/120715_Fragen_Architekturtheorie.docx` —
+  destilliert zu `wiki/architekturtheorie-grundbegriff-theorie-vs-geschichte-eth-vl1.md`: Theorie
+  gegen Geschichte (Annahme gegen Tatsache), Warum ein Architekt Theorie braucht, der «Hang zur
+  Anthologie», Caruso-St-John-Methode (Referenzprojekt-Grammatik statt Zitat) als Kohärenz-Regel
+  für Erläuterungsberichte.
+
+Zusätzlich vier der eigentlichen Vorlesungsmitschriften (Loos/Haus Müller Prag, Wright/Fallingwater,
+Kahn/Exeter Library, Rossi/Modena — dieselben vier Fallbeispiele, die die Syllabi bereits als
+Literaturregister führen) zu einem Kernfakten-Register verdichtet:
+`wiki/vier-kanonische-fallbeispiele-architekturtheorie-register.md`, bewusst `status: speculative`
+wegen roher, tippfehlerreicher Mitschrift-Qualität (Rule dieser KB).
+
+`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` um Abschnitt «Destillat-Fortschritt»
+ergänzt (reiner Append, `git diff --numstat` 20/0 geprüft). `wiki/INDEX.md` und
+`skills/wissens-destillat/KORPUS-QUEUE.md` nachgeführt. Neue Frage `wiki/QUESTIONS.md` #68: nur
+2 von 23 Vorlesungsordnern auf weitere versteckte Fragen-Unterordner geprüft, restliche 21 noch
+offen. In der Sektion bleiben rund 180 weitere Vorlesungsmitschriften/Zusammenfassungen sowie die
+Vorlesungsfolien-Sammel-PDF (`Praes-Ath*.pdf`) offen.
+
 ## 2026-08-30 — P2-Lauf Korpus `buero-referenzen`, Sektion `10_Modellbauen`, erster P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag wieder veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»; tatsächlicher

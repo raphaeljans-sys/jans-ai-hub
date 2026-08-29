@@ -185,3 +185,23 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   acht Ath-IV-Themenordner tragen anders als Ath III **keine** eigenen Fragen-Antwort-Kataloge,
   nur Syllabi — kein nachzuholender P1-Fund dort. P2-Position «31 Syllabi» damit erledigt. Weiterhin
   offen: die rund 190 Vorlesungsmitschriften/Zusammenfassungen und die Vorlesungsfolien-Sammel-PDF.
+
+- 2026-08-30 (Lane FACHWISSEN, zweiter P2-Lauf dieser Sektion): **Inventar-Korrektur-Fund.**
+  Stichprobenpruefung der 23 Vorlesungsordner auf versteckte Fragen-Unterordner (analog den
+  acht «06_Fragen»-Begriffsordnern, die P1 sind) ergab zwei Treffer, die die urspruengliche
+  Triage vom 23.08.2026 in die pauschale P2-Gruppe «23 Vorlesungsmitschriften» einsortiert
+  hatte, obwohl die Machart identisch mit den P1-Begriffskatalogen ist:
+  `111111_VL7_Rossi_Aldo/05_Fragen/120112_VL_7_Aldo_Rossi_Fragen.docx` und
+  `110923_VL1_Was_ist_Architekturtheorie/02_Mitschrift/Fragen/120715_Fragen_Architekturtheorie.docx`.
+  Beide gelesen und destilliert: `wiki/rossi-theorie-der-permanenz-primaere-sekundaere-stadtelemente.md`
+  (Theorie der Permanenz, primaere/sekundaere Stadtelemente, Rossi vs. Muratori/Caniggia vs.
+  Venturi) und `wiki/architekturtheorie-grundbegriff-theorie-vs-geschichte-eth-vl1.md` (Theorie
+  vs. Geschichte, Caruso-St-John-Methode). Zusaetzlich vier der eigentlichen Vorlesungsmitschriften
+  (Loos/Haus Mueller, Wright/Fallingwater, Kahn/Exeter Library, Rossi/Modena — dieselben vier
+  Fallbeispiele, die die Syllabi bereits als Register fuehren) zu einem Fallbeispiel-Kernfakten-
+  Register verdichtet: `wiki/vier-kanonische-fallbeispiele-architekturtheorie-register.md`,
+  bewusst `status: speculative` wegen roher Mitschrift-Qualitaet.
+  **Offen fuer den naechsten Lauf:** eine systematische Pruefung der uebrigen 19 Vorlesungsordner
+  auf weitere versteckte Fragen-Unterordner (nur zwei von 23 bisher stichprobenartig geprueft);
+  danach die restlichen rund 180 Vorlesungsmitschriften/Zusammenfassungen zu den uebrigen 19
+  Vorlesungen sowie die Vorlesungsfolien-Sammel-PDF (`Praes-Ath*.pdf`).

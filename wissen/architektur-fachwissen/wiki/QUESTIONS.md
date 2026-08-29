@@ -4,6 +4,21 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260830 — Zweiter P2-Lauf Sektion `02_Architekturtheorie` (Korpus 4): Inventar-Lücke Fragen-Unterordner
+
+Quelle: Lane FACHWISSEN. Stichprobe fand zwei versteckte, P1-würdige Fragen-Antwort-Kataloge in
+Vorlesungsordnern (`VL7_Rossi_Aldo/05_Fragen`, `VL1_Was_ist_Architekturtheorie/.../Fragen`), die
+die Erstinventarisierung 23.08.2026 in die P2-Sammelgruppe «23 Vorlesungsmitschriften» einsortiert
+hatte, statt sie als eigene P1-Gruppe zu erkennen (Details
+`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md`, Abschnitt «Destillat-Fortschritt»
+30.08.2026).
+
+**#68 Nur 2 von 23 Vorlesungsordnern wurden auf weitere versteckte Fragen-Unterordner geprüft.**
+Ein künftiger Lauf sollte die übrigen 21 Ordner (`VL2`–`VL6`, `VL8`–`VL11`, plus die zehn
+Vorlesungen des Frühjahrssemesters `120215`–`120518`) systematisch auf `*Fragen*`-Unterordner
+durchsuchen, bevor die grosse P2-Gruppe «23 Vorlesungsmitschriften» pauschal als reine
+Mitschriften-Destillation behandelt wird — es könnten weitere P1-Qualität-Funde darin stecken.
+
 ## 260830 — Vierter P2-Lauf Sektion `01_Konstruktion` (Korpus 4): Routing-Hinweis Bauphysik III/energie-KB
 
 Quelle: Lane FACHWISSEN, letzte offene P2-Position der Sektion `01_Konstruktion`
