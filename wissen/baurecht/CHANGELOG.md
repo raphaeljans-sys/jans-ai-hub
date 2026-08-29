@@ -3,6 +3,19 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-29g (Schub-Lane BAURECHT-THALWIL, siebter Lauf) — unabhängige Bestätigung: Korpus-Queue bleibt geschlossen, kein neuer Batch, kein totes Recht gefunden
+
+Quellordner frisch und unabhängig ausgezählt (`find`, nicht Erinnerung an frühere Läufe):
+unverändert **234 Dateien** — deckt sich mit Lauf f. Stichprobe gegen den Schwerpunkt des
+stehenden Auftrags vom 30.07.2026 (Umgebungs- und Gestaltungsrecht, Fassungsstand-Pflicht):
+[[umgebungsgestaltung-und-einfriedungen]] geprüft — Fassungsstand-Führung vorbildlich (⚠ bei
+der aufgehobenen StrAV bereits gesetzt, VErV-Nachträge per 01.12.2024 dokumentiert), kein
+totes Recht gefunden. Bestätigung des Laufs f: dessen Nachtrag in `wiki/QUESTIONS.md`
+(SR 600.3, Fassung 1.1.2026) ist über die reguläre Auto-Sync-Kette committet und gepusht
+(Commit `dae4fb9c1`, verifiziert per `git log`/`grep`). **Kein neuer Batch, keine
+Wiki-Änderung ausser diesem Eintrag; die gesamte Thalwil-Reglemente-Korpus-Queue (T1-T9)
+bleibt vollständig geschlossen.**
+
 ## 2026-08-29f (Schub-Lane BAURECHT-THALWIL, sechster Lauf) — letzter Zeiger-Rückstand der Korpus-Queue geschlossen: Gebührenreglement Bauwesen Thalwil war seit Buch-Run 116 gefunden, nur nie im QUESTIONS-Register nachgetragen
 
 Reglemente-Queue und Priorität (d) bleiben vollständig geschlossen (fünf Bestätigungsläufe

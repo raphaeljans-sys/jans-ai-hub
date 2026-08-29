@@ -1,3 +1,14 @@
+## 2026-08-29 (Run 84, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — siebzehnter Doppel-Dispatch, weiterhin Nullbefund
+
+Siebzehnter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-84). Unabhaengig
+nachgeprueft: kein offener `[ ]`-Kandidat in `training/n62-3-pruefstand-kandidaten.md`,
+`wiki/QUESTIONS.md` schliesst weiterhin mit N68-1 ab, `git status` fuer `wissen/normen`
+sauber. **Kein neuer Kandidat, keine Destillat-Aenderung, kein Statuswechsel.** Nicht
+erneut ausformuliert (Run 76-83 haben den Scheduling-Befund bereits gemeldet und
+empfohlen). Diese Antwort meldet den Scheduling-Befund direkt an Raphael statt nur im
+CHANGELOG, da 17 identische Dispatches am selben Tag ohne neuen Auftrag ein starkes Indiz
+fuer eine haengende Automatik sind.
+
 ## 2026-08-29 (Run 83, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — sechzehnter Doppel-Dispatch, weiterhin Nullbefund
 
 Sechzehnter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-83). Unabhaengig

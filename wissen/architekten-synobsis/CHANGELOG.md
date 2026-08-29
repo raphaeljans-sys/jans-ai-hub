@@ -4,6 +4,24 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, siebter Folgelauf) — siebte unabhaengige Bestaetigung, keine neue Position
+
+Eigene, unabhaengige Gegenpruefung vor Beginn (nicht nur das Protokoll gelesen): `grep -in`
+auf `wiki/QUESTIONS.md` fuer Fehlextraktion/"falschen Text"/"Textauszug ist" ohne
+BEHOBEN/GEPRUEFT (0 Treffer), fuer "Kollision" ohne BEHOBEN (nur die beiden bereits als
+"keine neue Kollision" gekennzeichneten Charge-3/5-Nebenbefunde), fuer "Sonderzeichen" ohne
+BEHOBEN (nur der unveraenderte Kjærholm-Hauses-Referenzfall) und fuer "Sammelfrage" ohne
+"RECHERCHIERT"/"vollstaendig" (0 Treffer). Zusaetzlich die vier Kollisionsdateien direkt per
+Python geladen: `Christ_Gantenbein.json`, `Enzmann_Fischer.json`, `Miller_Maranta.json`,
+`Gigon_Guyer.json` tragen alle im Feld `quellordner` beide Quellordner. `git status --short .`
+und `git diff --numstat .` im KB-Ordner leer, keine Datei veraendert. Ergebnis identisch zu
+den sechs Vorlaeufen desselben Tages: alle vier Auftragsprioritaeten abgearbeitet, offen bleiben
+ausschliesslich die protokollierten Freigabesachen (NAS-Umbenennungen/-Zusammenfuehrungen der
+vier Kollisionsfaelle, Chamberlin-Slug-Erweiterung u.ae.) und die rund elf Sammelfrage-Namen je
+Charge ohne belastbaren Websuche-Treffer. Empfehlung unveraendert: Lane nicht redispatchen, bis
+(a) Freigabe fuer die NAS-Aenderungen erteilt wird oder (b) ein `--reindex`-Lauf neues Material
+oder eine neue Kollision liefert.
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, sechster Folgelauf) — sechste unabhaengige Bestaetigung, Empfehlung: Lane pausieren
 
 Eigene, von den fuenf Vorlaeufen unabhaengige Pruefung: `wiki/QUESTIONS.md` gezielt auf

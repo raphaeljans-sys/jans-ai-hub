@@ -214,3 +214,30 @@ Dazu die Stichprobenquote von rund einem Drittel textloser PDF im Gesamtbestand 
 hundert TIFF-Buchscans. **Empfehlung:** die 104-seitige eigene Zusammenfassung zuerst OCRen,
 weil sie eigenes Wissen trägt und urheberrechtlich unbedenklich ist; die Fremdscans nur
 gezielt und einzeln, wenn eine konkrete Fundstelle gebraucht wird.
+
+## Destillat-Fortschritt
+
+**29.08.2026 (Lane FACHWISSEN, Destillat-Lauf Korpus 4, Fortsetzung nach Trägerschicht-Abschluss):**
+Alle acht P1-Positionen destilliert, sechs Wiki-Artikel (eine Position, der WBP-Berlin-Text,
+als Anwendungsbeispiel in den Plananalyse-Artikel integriert statt als eigener Artikel; zwei
+Positionen, Blockrand und Aufenthaltsqualität, thematisch zu einem Artikel zusammengefasst):
+
+- `10_Glosar/PDF/110808_1930_Woerterbuch_Staedtebau.pdf` → [[staedtebau-begriffe-einflussgroessen-bausteine-stadtstruktur-jans]]
+- `00_Allgemein/Stadtanalyse/Handout-Plananalyse.pdf` + `130214_Text_WBP_Berlin.docx` → [[ortsanalyse-raster-plananalyse-platzanalyse-lampugnani]]
+- `00_Allgemein/Stadtanalyse/06_Siedlungsstrukturanalyse/01_Methodeanalyse/Analyse_Siedlungsstruktur.doc` → [[siedlungsstrukturanalyse-terrain-gebaeude-jans]]
+- `00_Allgemein/00_Staedtemanual/00_Checkliste/110105_Checkliste.pdf` → [[projektstart-checkliste-kontext-programm-tektonik]]
+- `02_Elemente_des_Staedtebaus/00_Konzept/PDF/Die_A4.pdf` → [[stadttypen-strassennetz-systematik-jans]]
+- `20_Die_Athmosphaerische_Stadt/Blockrandthematik/Text_Jans/140105_Was_ist_der_Blockrand.docx` + `20_Die_Athmosphaerische_Stadt/140112_2_Aufenthaltsqualität als Menschenrecht.docx` → [[blockrand-aufenthaltsqualitaet-argumentation-verdichtung-jans]]
+
+Alle sechs Artikel `status: emerging`, ausser dem reinen Stichwort-Typologieblatt
+(`stadttypen-strassennetz-systematik-jans`, `status: speculative`, da Quelle selbst ohne
+Fliesstext/Beleg). Bei der Extraktion bestätigt: Textebene bei allen acht Quelldateien
+vorhanden (PDF via `pypdf`, DOCX/DOC via `textutil`), keine OCR nötig. Die im Kurzbefund
+genannte Datenschutz-Sperre (`FactShets_Staedte.docx`, Gruppeneinteilung mit Namen/Mailadressen,
+Stufe X) wurde nicht angerührt. Der WBP-Berlin-Text ist eine Gruppenarbeit (Jans + ein
+Mitstudierender); dessen Name erscheint gemäss Sperrliste nirgends im destillierten Artikel.
+
+**Damit ist P1 dieser Sektion vollständig destilliert.** P2 (acht Positionen: Jans-Reader und
+Übungsheft zur Vorlesung Lampugnani, die fünf Grundlagenwerke der Manualistik, 33
+Autorendossiers, der Platz-Materialbestand, die DTV-Konkordanz, das Manifest selbst, die
+Geschichte-Zusammenfassungen) bleibt offen für einen späteren Lauf.

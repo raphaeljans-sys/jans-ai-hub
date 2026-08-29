@@ -1,5 +1,39 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-29 — Neunter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau` (Lane FACHWISSEN, Fortsetzung)
+
+Alle acht P1-Positionen der Sektion `01_Staedtebau` destilliert (Mittelschicht-Sektion,
+Städtebau-Studienarchiv ETH Lampugnani/Christiaanse, 2007-2020). Sechs Wiki-Artikel nach
+Sache statt Datei — eine Position (WBP-Berlin-Platzanalyse) als Anwendungsbeispiel in einen
+bestehenden Artikelentwurf integriert, zwei Positionen (Blockrand, Aufenthaltsqualität)
+thematisch zusammengeführt:
+
+- [[ortsanalyse-raster-plananalyse-platzanalyse-lampugnani]] (`emerging`) — Plananalyse in
+  sieben, Platzanalyse in acht Schritten (Professur Geschichte des Städtebaus, Stand 2009),
+  plus Anwendungsbeispiel Walter-Benjamin-Platz Berlin
+- [[siedlungsstrukturanalyse-terrain-gebaeude-jans]] (`emerging`) — eigene Methode: Terrain
+  in sechs Punkten, vier Situierungsmuster, acht Muster der Beziehung Gebäude/Umgebung
+- [[projektstart-checkliste-kontext-programm-tektonik]] (`emerging`) — einseitige Checkliste
+  Arch+TT WS 07/08, Schlussfrage «Was leistet das Gebäude für die Stadt?»
+- [[staedtebau-begriffe-einflussgroessen-bausteine-stadtstruktur-jans]] (`emerging`) —
+  Einflussgrössen-Katalog und die Unterscheidung interne/externe Wirkung des Bauvolumens, aus
+  dem eigenen «Wörterbuch des Städtebaus» 2011
+- [[stadttypen-strassennetz-systematik-jans]] (`speculative`, reines Stichwortblatt ohne
+  Fliesstext) — 15 Stadttypen, Strassennetz-Grundmuster
+- [[blockrand-aufenthaltsqualitaet-argumentation-verdichtung-jans]] (`emerging`) — zwei eigene
+  Haltungstexte (Januar 2014) aus dem Manifest «Die Athmosphärische Stadt»: Blockrand als
+  Gemeinschaftsform, «Rechenschaftsbericht der Verzichtsleistungen des Status quo» als
+  Verdichtungsargument
+
+Rückverlinkung ergänzt in fünf bestehenden Artikeln (`atmosphaeren-methode-...`,
+`standortanalyse-methodik-turbinenplatz`, `gebaeudeanalyse-raster-...`,
+`entwurfsbegriffe-struktur-huelle-...`, `bauen-im-bestand-haltungstext-...`). Datenschutz-Sperre
+der Sektion (`FactShets_Staedte.docx`, Gruppeneinteilung mit Namen/Mailadressen) nicht
+angerührt; der Name des Mitstudierenden aus der WBP-Berlin-Gruppenarbeit erscheint im Artikel
+nirgends. Damit ist Sektion `01_Staedtebau` für P1 vollständig bearbeitet, P2 (acht Positionen)
+bleibt offen. `wiki/INDEX.md` Zeile 11 und `raw/inventar/archiv-fachwissen__01_Staedtebau.md`
+Abschnitt «Destillat-Fortschritt» nachgeführt.
+
 ## 2026-08-29 — Achter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Kunst_Geschichte` (Lane FACHWISSEN, Fortsetzung)
 
 Fünf von sechs P1-Positionen der Sektion `02_Kunst_Geschichte` destilliert (die grösste

@@ -3,7 +3,7 @@ title: "Haltungstext zum Bauen im Bestand: «Die Stadt war vor uns da»"
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/10_Protomodern/01_Focabular/Alles_ist_Staedtebau/00_Konzept/130501_Ales_ist_Staedtebau.docx", "raw/inventar/archiv-fachwissen__10_Protomodern.md"]
-links: []
+links: ["[[blockrand-aufenthaltsqualitaet-argumentation-verdichtung-jans]]"]
 ---
 
 # Haltungstext «Die Stadt war vor uns da»

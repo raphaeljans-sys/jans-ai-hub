@@ -1030,6 +1030,16 @@ der Priorität (d) stammende offene Punkt bereinigt — es bleibt in der gesamte
 Restpunkt aus dem Thalwil-Reglemente-Korpus mehr offen, weder datei- noch themen- noch
 querverweisseitig.
 
+**Prüflauf 2026-08-29g (Schub-Lane BAURECHT-THALWIL, siebter Lauf, unabhängige Instanz):**
+Quellordner eigenständig via `find` ausgezählt (nicht aus dem Text von Lauf f übernommen):
+**234 Dateien**, deckungsgleich mit Lauf f. Stichprobe [[umgebungsgestaltung-und-einfriedungen]]
+gegen den Auftrags-Schwerpunkt (Fassungsstand kantonaler/kommunaler Erlasse, Umgebungs- und
+Gestaltungsrecht) gelesen: Fassungsstand-Führung sauber, ⚠-Markierung der aufgehobenen StrAV
+bereits vorhanden, keine weiteren Alterungsfunde. Der Nachtrag aus Lauf f in `wiki/QUESTIONS.md`
+ist über die reguläre Auto-Sync-Kette committet (Commit `dae4fb9c1`, per `git log` verifiziert).
+**Kein neuer Batch, kein totes Recht, keine Wiki-Änderung.** Damit bestätigt sich Lauf f: die
+Korpus-Queue T1-T9 und die Priorität (d) bleiben vollständig geschlossen.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme
