@@ -4,7 +4,9 @@ beschreibung: Erschliessungs-Fahrplan fuer den Baurechts-/Reglemente-Ordner des 
 angelegt: 2026-08-03 (Auftrag Raphael, nach der Begleitbeschrieb-Eingabe Bohlweg 3 vom selben Tag)
 quelle_pfad: "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2414 THALWIL/06 Reglemente"
 station: Mac Mini (OneDrive-Mount); vom MacBook via `ssh mini` lesbar
-umfang: 243 Dateien (ohne .DS_Store), 13 Top-Ordner
+umfang: 234 Dateien (ohne .DS_Store), 11 Top-Ordner (korrigiert 2026-08-29j, live nachgezaehlt; die
+  Angabe 243/13 bei Anlage 03.08.2026 war stale — seither bereits neunfach unabhaengig als 234
+  bestaetigt, siehe Laeufe a-i, nur die Kopfzeile selbst war nie nachgefuehrt)
 ---
 
 # Korpus-Queue — Reglemente-Ordner 2414 Thalwil / Bohlweg 3
@@ -1015,3 +1017,27 @@ Bestätigungsprüfung, kein Fachinhalt erfunden.
    ([[grundlagen-planungs-baurecht]], BGE 139 II 470). Diese Stufe im Wiki mitschreiben.
 5. **Kein Projektgeheimnis in die KB:** Eigentümernamen, Kaufpreise, private Korrespondenz
    bleiben draussen. Parzellennummer und Zone sind öffentlich (OEREB) und dürfen bleiben.
+
+## 2026-08-29j (Schub-Lane BAURECHT-THALWIL) — Kopfzeilen-Korrektur 243/13 → 234/11, sonst kein neuer Batch
+
+Queue T1-T9 weiterhin vollständig **erledigt** (kein offener Batch), wie in den Läufen a-i
+desselben Tages neunfach unabhängig bestätigt. Statt einer zehnten reinen Nullbefund-Wiederholung
+(explizit nicht empfohlen von Lauf h) diesen Lauf auf einen bislang unadressierten, konkreten
+Befund verwendet: die **Kopfzeile dieser Datei** (`umfang:`) nannte seit Anlage am 03.08.2026
+unverändert **243 Dateien, 13 Top-Ordner** — obwohl acht der neun Bestätigungsläufe desselben Tages
+bereits **234 Dateien** ausgezählt hatten, ohne dass dies je gegen die Kopfzeile selbst geprüft
+wurde. Live-Nachzählung im OneDrive-Quellordner (`find`, Mac-Mini-Station, direkter Zugriff)
+bestätigt **234 Dateien / 11 Top-Ordner**. Ursache der Differenz nicht mehr rekonstruierbar (keine
+Versionshistorie des Quellordners geprüft) — wahrscheinlich Umlagerung/Bereinigung im
+Projektordner zwischen Anlage und Erstsichtung. Kopfzeile oben korrigiert. Kein totes Recht,
+kein neuer Fachinhalt, keine Wiki-Änderung nötig.
+
+Zudem geprüft und ohne Befund: die verwaiste, nur lokal auf der SSD unkommittierte Notiz aus
+einem vorangegangenen, nicht regelkonform beendeten Lauf (Bearbeitung ausserhalb des NAS-Mounts,
+Regel `sync-kanonische-quelle`) wurde inzwischen vom Mac-Mini-eigenen Auto-Sync automatisch
+miteingebucht (Commit `4272900a3`, bereits auf GitHub) — kein Handlungsbedarf, aber als Hinweis:
+diese Schub-Lane muss ausschliesslich über den NAS-Mount schreiben, nicht über den SSD-Klon.
+
+**Für den nächsten Lauf dieser Schub-Lane:** wie von Lauf h empfohlen, nicht erneut rein
+bestätigen — stattdessen entweder auf den allgemeinen Buch-Loop umlenken oder eine gezielte,
+bisher unbearbeitete Fassungsstand-Frage ausserhalb dieses Ordners bearbeiten.

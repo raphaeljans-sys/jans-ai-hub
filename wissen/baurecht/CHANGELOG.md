@@ -3,6 +3,24 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-29j (Schub-Lane BAURECHT-THALWIL) — Kopfzeilen-Korrektur in der Korpus-Queue (243/13 → 234/11), kein neuer Batch
+
+Reglemente-Queue T1-T9 weiterhin vollständig **erledigt** — neunfach unabhängig bestätigt an
+diesem Tag (Läufe a-i). Statt einer zehnten Nullbefund-Wiederholung (von Lauf h explizit nicht
+empfohlen) einen bisher unadressierten Befund behoben: die Kopfzeile `umfang:` in
+`training/KORPUS-QUEUE-thalwil-reglemente.md` nannte seit Anlage (03.08.2026) unverändert
+**243 Dateien/13 Top-Ordner**, obwohl acht Läufe desselben Tages bereits **234 Dateien**
+ausgezählt hatten — nur die Kopfzeile selbst wurde nie gegengeprüft. Live im OneDrive-Quellordner
+nachgezählt: **234 Dateien, 11 Top-Ordner** bestätigt, Kopfzeile korrigiert. Ursache der
+ursprünglichen Differenz nicht mehr rekonstruierbar (keine Ordner-Versionshistorie geprüft).
+Ausserdem festgestellt und ohne weiteren Handlungsbedarf: eine verwaiste, ausserhalb des
+NAS-Mounts erzeugte Notiz aus einem vorangegangenen Lauf wurde inzwischen vom Mac-Mini-eigenen
+Auto-Sync automatisch nachträglich eingebucht (Commit `4272900a3`) — Hinweis für künftige Läufe
+dieser Schub-Lane, ausschliesslich über den NAS-Mount zu schreiben (Regel `sync-kanonische-quelle`).
+Kein totes Recht, kein neuer Fachinhalt, keine Wiki-Änderung. **Empfehlung unverändert (Lauf h):**
+nächste Ausschöpfung dieser Schub-Lane auf den allgemeinen Buch-Loop oder eine gezielte,
+andernorts noch offene Fassungsstand-Frage umlenken, nicht ein elfter Bestätigungslauf.
+
 ## 2026-08-29c (Schub-Lane BAURECHT-THALWIL, dritter Lauf) — Baulinien-Querverweis geschlossen, ein Fehlbefund widerlegt
 
 Reglemente-Queue und Priorität (d) bleiben vollständig geschlossen (siehe die beiden Einträge vom
