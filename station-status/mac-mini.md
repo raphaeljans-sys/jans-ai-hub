@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 22:42:22
+Stand: 29.08.2026 22:52:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:42)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:51)
 - /Users/raphaeljans  (letzte Aktivitaet 22:33)
 
 ## Laufende Arbeits-Prozesse
@@ -13,4 +13,4 @@ Stand: 29.08.2026 22:42:22
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 0ca0d9f24 normen Run 82: fuenfzehnter Doppel-Dispatch N62-3, weiterhin Nullbefund
+- 350ed1959 normen Run 84: siebzehnter Doppel-Dispatch N62-3, weiterhin Nullbefund
