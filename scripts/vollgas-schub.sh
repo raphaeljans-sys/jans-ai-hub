@@ -23,6 +23,16 @@
 set -uo pipefail
 export LANG="de_CH.UTF-8" LC_ALL="de_CH.UTF-8"
 
+# Headless-Anmeldung laden. PFLICHT, nicht optional (Befund 29.08.2026, 20:15):
+# auf beiden Buero-Stationen ist die SCHLUESSELBUND-Sitzung abgelaufen, der
+# CLAUDE_CODE_OAUTH_TOKEN in dieser Datei dagegen GUELTIG. Ohne das Einlesen
+# scheitert jeder Lauf mit «OAuth session expired and could not be refreshed»,
+# mit dem Einlesen antwortet dieselbe CLI mit rc=0. claude-run.sh liest die
+# Datei NICHT selbst (anders als dispatch-run.sh) — es muss hier geschehen.
+if [ -f "$HOME/.jans-dispatch.env" ]; then
+    set -a; . "$HOME/.jans-dispatch.env"; set +a
+fi
+
 LANE="${1:?lane fehlt}"
 DEADLINE_TXT="${2:?deadline fehlt (YYYY-MM-DD HH:MM)}"
 

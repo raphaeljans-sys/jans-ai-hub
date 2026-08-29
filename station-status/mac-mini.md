@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 29.08.2026 20:08:02
+Stand: 29.08.2026 20:18:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- /Users/raphaeljans  (letzte Aktivitaet 20:10)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 29.08.2026 20:08:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cb36283c4 nas-selfcommit: 2 Datei(en) 2026-08-29 20:00
+- 603640b48 tenant-hygiene 29.08.: 885.23 GB (83.99 %), +55 MB (Wochenende ruht), Trim-Fenster offen

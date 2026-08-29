@@ -31,6 +31,14 @@ MINI_BIN="/opt/homebrew/bin/claude"
 [ -x "$MBP_BIN" ] || { echo "schub-start: app-gebuendelte CLI nicht gefunden ($MBP_BIN)"; exit 2; }
 
 echo "== Login-Vorpruefung =="
+# Die Anmeldung kommt aus ~/.jans-dispatch.env, NICHT aus dem Schluesselbund.
+# Befund 29.08.2026: die Schluesselbund-Sitzung ist auf beiden Buero-Stationen
+# abgelaufen, der Token in der Datei ist gueltig. Ohne Einlesen scheitert die
+# Probe mit «OAuth session expired», mit Einlesen antwortet sie rc=0.
+if [ -f "$HOME/.jans-dispatch.env" ]; then
+    set -a; . "$HOME/.jans-dispatch.env"; set +a
+fi
+
 LOGIN_OUT=$("$MBP_BIN" -p "Antworte nur mit: OK" --model haiku < /dev/null 2>&1)
 case "$LOGIN_OUT" in
     *OK*) echo "   MacBook Pro: Login gueltig." ;;
@@ -38,7 +46,7 @@ case "$LOGIN_OUT" in
           echo "   Zuerst 'claude setup-token' und den Token nach ~/.jans-dispatch.env."
           exit 1 ;;
 esac
-MINI_OUT=$(ssh -o ConnectTimeout=10 mini "$MINI_BIN -p 'Antworte nur mit: OK' --model haiku < /dev/null" 2>&1)
+MINI_OUT=$(ssh -o ConnectTimeout=10 mini "set -a; . ~/.jans-dispatch.env; set +a; $MINI_BIN -p 'Antworte nur mit: OK' --model haiku < /dev/null" 2>&1)
 case "$MINI_OUT" in
     *OK*) echo "   Mac Mini:    Login gueltig." ;;
     *)    echo "   Mac Mini:    LOGIN DEFEKT — $MINI_OUT"
