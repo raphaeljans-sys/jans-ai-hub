@@ -298,3 +298,46 @@ oben) bleibt offen für einen künftigen P2-Lauf. Kein neuer Datenschutz- oder S
   (Leatherbarrow, Ästhetikdebatte, zeitgenössische Parks) als eigenständig nachholbare
   Teilpositionen. Nächster Lauf: Renaissance-Skript + Zusammenfassung, sonst gemäss Queue-Regel
   zur nächstgrössten Sektion mit offenem P2 übergehen.
+
+- **31.08.2026 (Lane FACHWISSEN, vierter P2-Lauf dieser Sektion):** Stand vor Beginn selbst
+  ermittelt: uncommittete Arbeit eines vorherigen, offenbar abgebrochenen Laufs vorgefunden
+  (CHANGELOG-Eintrag, diese Inventardatei, `wiki/QUESTIONS.md` sowie zwei neue Wiki-Dateien zum
+  Topografie-Prüfungsskript bereits geschrieben, aber weder in `wiki/INDEX.md` nachgetragen noch
+  gesichert) — nachgeholt: INDEX-Eintrag ergänzt, `bash scripts/nas-commit-now.sh` ausgeführt.
+  Der native NAS-Commit schlägt dabei reproduzierbar mit Merge-Konflikten in fremden Lane-Dateien
+  fehl (`wissen/normen/CHANGELOG.md`, `skills/wissens-destillat/KORPUS-QUEUE.md`,
+  `wissen/architekten-synobsis/CHANGELOG.md`, `wissen/baurecht/CHANGELOG.md`,
+  `wissen/grobkosten/CHANGELOG.md` u. a.) — deckungsgleich mit dem bereits bekannten, am
+  29.08.2026 eskalierten NAS-Git-Merge-Konflikt; nicht selbst aufgelöst (fremde Lanes, hohes
+  Risiko), der lokale `git`-Stand dieser Sektion ist davon unberührt. Danach die nächste offene
+  P2-Position bearbeitet: `01_Gartentypen/Renaissance/01_Pruefung_Skript/01_Skript_Renaissance_FS12.pdf`
+  (14 Seiten, Dr. Anette Freytag/Dunja Richter, ETH Zürich, FS 2012) vollständig gelesen. Die
+  Begleitdatei `renaissanceskript.pdf` im selben Ordner erwies sich als Vorgängerfassung
+  desselben Skripts (SS 2007, gleiche Autorin, gleicher Kerninhalt) — nicht eigenständig
+  destilliert, nur als Vorläuferversion vermerkt. `Zusammenfassung_Skript_Renaissance.docx`
+  (+ Sicherungskopie) geprüft: reine, fehlerhafte Studierenden-Paraphrase ohne neue Fakten, kein
+  eigenständiger Fund. Duplikatscheck gegen Wiki-Bestand (`grep -rli` auf Renaissance/Villa/
+  Girot/Bonfadio/Taegio/terza natura): keine Dublette, die vorhandenen
+  `renaissance-*`-Artikel behandeln die architekturgeschichtliche Seite (Vitruv/Alberti,
+  Idealstadt), nicht die Gartenkunst. Zwei Artikel destilliert:
+  [[terza-natura-cicero-bonfadio-taegio-renaissancegarten-begriffstrias]] (Cicero
+  altera/prima/terza natura, Bonfadio/Taegio-Begriffsprägung, Mimesis-Spannung
+  natürlich/künstlich) und
+  [[renaissance-gartengestaltung-kompartimente-zonierung-giardino-segreto]] (Vier-
+  Kompartiment-Schema kleiner Gärten, Zonierungsvokabular giardino segreto/delle semplici/bosco,
+  Rockox-Garten Antwerpen als rekonstruierbares Beispiel). Nicht destilliert bleiben aus
+  derselben Quelle: die kartografiegeschichtliche Einleitung (Ptolemäus, Mercator,
+  Zentralperspektive — eher Kunst-/Wissenschaftsgeschichte als Büropraxis), die italienische
+  Villenkultur und Plinius-Rezeption, der Botanische Garten Padua, die kulturgeschichtliche
+  Dimension (Utopie, Wunderkammer, Bomarzo) sowie die Literaturliste mit rund 15 weiteren
+  Referenzgärten — als offene Punkte vermerkt, Kandidaten für Folgeartikel aus derselben Quelle.
+  `git diff --numstat` auf diese Inventardatei nach dem Schreibschritt geprüft: reiner Append,
+  die zwei neuen Wiki-Dateien sind Neuanlagen. Kein Datenschutz-/Sperrlisten-Fund.
+  **Verbleibende offene P2-Positionen (rund 16 der ursprünglich 24 Zeilen):** Irchelpark-
+  Bepflanzung (OCR-Blocker), `120919_Irchelpark.pdf` Lehrunterlage, Vorlesungsnotiz
+  Entwerfen-und-Bauen-mit-Pflanzen, Gartenmöblierung-Renaissance-Destillat,
+  Ökologische-Gärten-Vorlesungsnotiz, Kolloquium-Auszug (Teildublette), dazu die oben
+  vermerkten, noch nicht destillierten Themenblöcke aus Topografie- und Renaissance-Quelle.
+  Nächster Lauf: Gartenmöblierung-Renaissance-Destillat (eigenes Destillat, kleinster
+  verbleibender Umfang), sonst gemäss Queue-Regel zur nächstgrössten Sektion mit offenem P2
+  übergehen.

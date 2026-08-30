@@ -3094,3 +3094,50 @@ laut eigenem Inventar bereits abgeschlossen bzw. dauerhaft blockiert, obwohl die
 nicht überall ausweist. Nächster echter Kandidat: die rund 100 offenen
 P2-Vorlesungsmitschriften in `02_Architekturtheorie`, sonst laut Queue-Regel eine der laut
 `QUESTIONS.md` 260823 #1 noch nicht inventarisierten `archiv-fachwissen`-Sektionen.
+
+## 260830 — Topografie-Prüfungsskript, Sektion `01_Landschaftsarchitektur` (dritter P2-Lauf dieser Sektion, Lane FACHWISSEN)
+
+Stand vor Beginn selbst ermittelt statt den Fortsetzungshinweis des 130. Laufs (oben,
+«`02_Architekturtheorie`») blind zu übernehmen: laut eigener Inventardatei dieser Sektion
+(Zeile 632-636) ist `02_Architekturtheorie` bereits seit dem 23. P2-Lauf desselben Tages
+vollständig für P1 und P2 abgeschlossen — Korrektur nur in `wiki/QUESTIONS.md` vermerkt, nicht
+selbst am fremden Abschnitt editiert. Stattdessen `00_Pruefungsskript_Topografie/
+00_Skript_Topografie_FS12.pdf` (18 Seiten, Albert Kirchengast, ETH Zürich, FS 2012) plus
+begleitende Studierenden-Zusammenfassung gelesen (Zusammenfassung reine Paraphrase, kein
+eigenständiger Fund). Zwei neue Artikel:
+[[corboz-territorium-palimpsest-produkt-projekt-prozess-trias]] (Corboz' Territorium-Trias
+Produkt/Projekt/Prozess, Palimpsest-Metapher, Belegbeispiele Bahn-2000-Langenthal und NEAT
+Sigirino, Girot-Organismus-Ergänzung) und
+[[cramer-kienast-vogt-rasenpyramiden-schweizer-landschafts-land-art]] (Ernst Cramers «Garten
+des Poeten» 1959 und Kienast Vogt Partners «Berggarten» Graz 2000 als Schweizer
+Land-Art-Tradition abstrahierter Geländeformen). Details CHANGELOG 30.08.2026 (dritter
+P2-Lauf). `git diff --numstat` auf die Inventardatei zeigt reinen Append, die zwei Wiki-Dateien
+sind Neuanlagen. Kein Datenschutz-/Sperrlisten-Fund. Sicherung via
+`bash scripts/nas-commit-now.sh`.
+
+**Nächster Lauf:** rund 17 der ursprünglich 24 P2-Positionen in `01_Landschaftsarchitektur`
+bleiben offen (Renaissance-Skript + Zusammenfassung als nächstgrösste Position, dazu
+Irchelpark-Bepflanzung/-Lehrunterlage, Ökologische-Gärten-Notiz, Kolloquium-Teildublette und
+die aus der Topografie-Quelle noch nicht destillierten Nebenstränge Leatherbarrow,
+Ästhetikdebatte, zeitgenössische Parkbeispiele).
+
+## 260831 — Renaissance-Prüfungsskript, Sektion `01_Landschaftsarchitektur` (vierter P2-Lauf dieser Sektion, Lane FACHWISSEN)
+
+Vorgefunden: der dritte P2-Lauf (oben) hatte Inhalt geschrieben, aber weder hier nachgetragen
+noch gesichert — nachgeholt. `bash scripts/nas-commit-now.sh` scheitert dabei reproduzierbar an
+Merge-Konflikten in fremden Lane-CHANGELOGs (normen, synobsis, baurecht, grobkosten,
+`KORPUS-QUEUE.md`) — derselbe, bereits am 29.08.2026 eskalierte NAS-Git-Merge-Konflikt, nicht
+selbst aufgelöst (fremde Lanes). `01_Gartentypen/Renaissance/01_Pruefung_Skript/
+01_Skript_Renaissance_FS12.pdf` (14 Seiten, Freytag/Richter, ETH Zürich, FS 2012) gelesen;
+`renaissanceskript.pdf` als Vorgängerfassung SS 2007 identifiziert, nicht separat destilliert;
+Zusammenfassungs-Docx als reine Paraphrase geprüft. Zwei neue Artikel:
+[[terza-natura-cicero-bonfadio-taegio-renaissancegarten-begriffstrias]] (Ciceros
+prima/altera/terza natura, Bonfadio/Taegio 1541/1559, Mimesis-Spannung) und
+[[renaissance-gartengestaltung-kompartimente-zonierung-giardino-segreto]] (Vier-Kompartiment-
+Schema, giardino segreto/delle semplici, bosco, Rockox-Garten Antwerpen). Details CHANGELOG
+31.08.2026 (vierter P2-Lauf). `git diff --numstat` auf die Inventardatei zeigt reinen Append, die
+zwei Wiki-Dateien sind Neuanlagen. Kein Datenschutz-/Sperrlisten-Fund.
+
+**Nächster Lauf:** rund 16 der ursprünglich 24 P2-Positionen bleiben offen. Nächstgrösste
+Position: Gartenmöblierung-Renaissance-Destillat, sonst gemäss Queue-Regel zur nächstgrössten
+Sektion mit offenem P2 übergehen.
