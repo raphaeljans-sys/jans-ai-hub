@@ -4,6 +4,20 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260830 — Dritter P2-Lauf Sektion `01_Tragwerk` (Korpus 4): fehlendes `pdftoppm`
+
+**#72 PDF-Seitenrendering nicht verfügbar.** Der Lese-Weg für einzelne Seitenbereiche
+grosser PDF (z. B. `pages: "5-15"`) setzt `pdftoppm` aus dem Paket `poppler` voraus; auf
+dieser Station (Macmini) nicht installiert (`brew install poppler` würde es nachrüsten).
+Ohne Seitenbereich lässt sich eine 52-MB/109-Seiten-Datei
+(`.../110928_Reader_Seminarwoche/PDF/111002_Reader_alle_Seiten.pdf`) nicht in einem
+Werkzeugaufruf lesen. Betroffen: das Modell-Belastungstest-Blatt (Ähnlichkeitsgesetz, Bezug
+Galileo «Discorsi» 1636) und 13 im Reader zitierte Quelltexte (Lévi-Strauss, Sennett,
+Pallasmaa u. a.), alle als P2/P3 in `raw/inventar/archiv-fachwissen__01_Tragwerk.md`
+gelistet. Vierte Formatlücke dieser Art nach InDesign (#69), verschlüsselter Foliensammlung
+(#69) und GarageBand (#70). Wer beantworten kann: Raphael (`poppler` auf der Station
+installieren) oder eine Station, auf der es bereits vorhanden ist.
+
 ## 260830 — Zweiter P2-Lauf Sektion `02_Architekturtheorie` (Korpus 4): Inventar-Lücke Fragen-Unterordner
 
 Quelle: Lane FACHWISSEN. Stichprobe fand zwei versteckte, P1-würdige Fragen-Antwort-Kataloge in

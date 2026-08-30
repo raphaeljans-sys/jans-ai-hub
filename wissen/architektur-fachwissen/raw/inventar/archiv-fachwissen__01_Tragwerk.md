@@ -274,3 +274,42 @@ PLN-Dateien (P3, nicht P2), sowie die 4 Bildscans ohne Textlayer (ArchPlus, Arch
 Menn, Starke Strukturen — OCR nötig, siehe Empfehlung oben). Kein neuer Datenschutz- oder
 Sperrlisten-Fund; Sperrvermerk Seite 4 des Readers `111002_Reader_alle_Seiten.pdf` erneut
 beachtet (Reader nicht angefasst).
+
+## Destillat-Fortschritt
+
+**30.08.2026 (Lane FACHWISSEN, dritter P2-Lauf dieser Sektion).** Drei P2-Positionen
+gelesen, zwei destilliert:
+
+- `.../Dissertation/eth-20590-01_abstract.pdf` — Dateiname irreführend: enthält nicht den
+  Abstract, sondern das Schlusskapitel «D. Schluss» der Dissertation (S. 186-190) samt dem
+  vollständigen Werkverzeichnis der Grubenmann-Brücken (ausgeführte Brücken und
+  Brückenprojekte, je mit Jahr und ausführendem Bruder). Vollständig gelesen und zu einem
+  neuen Artikel destilliert: `wiki/grubenmann-brueder-werkverzeichnis-bruecken-schaffhausen.md`
+  (Arbeitsteilung der drei Brüder, Werkverzeichnis-Tabelle, Ende der Dynastie, biografische
+  Kurznotizen).
+- `.../02_Bruecke/Grundlageplaene/Seiten aus Mechel_Drey merkwürdigsten Brücken in der
+  Schweiz_1803.pdf` (vollständig, eine Tafel) → in denselben neuen Artikel eingearbeitet:
+  zeitgenössische Bilddokumentation (Plan/Schnitt/Aufriss) der Schaffhauser Rheinbrücke,
+  Zerstörung 1799 im Krieg dokumentiert, Datierungsdifferenz zwischen französischer und
+  deutscher Bildunterschrift derselben Tafel als offener Punkt vermerkt.
+- `.../Tec21/Einzelseite/Empore_aus_Grubenmann_Kirchen_Tragwerk.pdf` gelesen, aber **nicht**
+  gesondert destilliert: reine Bildunterschriften-Seite (Fig. 11-15) zu bereits im
+  bestehenden Artikel `wiki/grubenmann-kirchen-holzdachstuhl-typologie.md` beschriebenen
+  Knotenpunkten (Hängesäule-Untergurt-Längsbinder, Auflager Querbinder); liefert nur einen
+  zusätzlichen Quellenverweis (SBZ 23/1959, S. 361 zur Emporenkonstruktion) ohne neuen
+  Sachinhalt, deshalb kein Duplikat-Zusatz.
+
+Versuch, den 109-seitigen Reader `111002_Reader_alle_Seiten.pdf` selektiv zu lesen (Seiten
+1-3 und 5-15, unter Auslassung der gesperrten Teilnehmerliste auf Seite 4), scheiterte an
+einer Werkzeuglücke: die Stationswerkzeuge rendern PDF-Seitenbereiche nur über `pdftoppm`
+(Paket `poppler`), das auf dieser Station nicht installiert ist; ohne Seitenbereich ist die
+52-MB-Datei zu gross für einen Einzelaufruf. Neue Formatlücke, siehe `QUESTIONS.md`. Die
+Fundstelle «Modell-Belastungstest» (Ähnlichkeitsgesetz, Bezug Galileo «Discorsi» 1636, vier
+JPG in `Weiteres Material/Skalierung_Modelle/`) bleibt deshalb ungelesen und offen.
+
+22 P2-Positionen dieser Sektion bleiben offen (die drei Kraftfluss-Darstellungsvarianten,
+die 4 textlosen Bildscans, der 109-seitige Reader mit seinen 13 zitierten Quelltexten, das
+Modell-Belastungstest-Blatt, `Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf` sowie die
+Skalierungsmodell-Bilder). Kein neuer Datenschutz-Fund; die CSV/XLSX-Teilnehmerliste in
+`Weiteres Material/` wurde erneut nicht geöffnet (Sperrliste), Sperrvermerk Seite 4 des
+Readers erneut beachtet.

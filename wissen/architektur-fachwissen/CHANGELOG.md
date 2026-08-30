@@ -1,5 +1,48 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Tragwerk`, dritter P2-Lauf (Lane FACHWISSEN, 49. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet (behauptet «noch kein Destillat und keine Spec ... KB hat erst
+2 Wiki-Artikel», Station im Dispatch fälschlich «MacBook Pro»). Vor Arbeitsbeginn `scutil`
+(bestätigt Macmini), `ps aux` (keine Doppel-Instanz, nur der eigene `claude`-Prozess) und
+`KORPUS-QUEUE.md`/`CHANGELOG.md` geprüft — am realen Stand weitergearbeitet statt an der
+veralteten Auftragsbeschreibung.
+
+Drei P2-Positionen der Sektion `01_Tragwerk` gelesen, zwei destilliert:
+
+- `.../Dissertation/eth-20590-01_abstract.pdf` — Dateiname im Archiv irreführend: enthält
+  nicht den Abstract, sondern das Schlusskapitel «D. Schluss» der Killer-Dissertation
+  (S. 186-190) samt vollständigem Werkverzeichnis der Grubenmann-Brücken. Vollständig
+  gelesen und destilliert zu einem neuen Artikel:
+  `wiki/grubenmann-brueder-werkverzeichnis-bruecken-schaffhausen.md` (Arbeitsteilung der drei
+  Brüder Jakob/Johannes/Hans Ulrich, Werkverzeichnis-Tabelle ausgeführter Brücken und
+  Brückenprojekte mit Jahr und Bearbeiter, Ende der Werkstatt-Dynastie nach 1783,
+  biografische Kurznotizen inkl. dem Bericht des Reisenden W. Coxe).
+- `.../02_Bruecke/Grundlageplaene/Seiten aus Mechel_Drey merkwürdigsten Brücken in der
+  Schweiz_1803.pdf` (eine Tafel, vollständig) → in denselben neuen Artikel eingearbeitet:
+  zeitgenössische Bilddokumentation (Plan/Schnitt/Aufriss) der Schaffhauser Rheinbrücke,
+  dokumentierte Zerstörung 1799 im Krieg, dazu die belegte Einordnung aus der
+  Killer-Dissertation, warum nach 1799 aus militärischen Gründen auf mehrfeldrige Brücken
+  mit kleineren Öffnungen umgestellt wurde.
+- `.../Tec21/Einzelseite/Empore_aus_Grubenmann_Kirchen_Tragwerk.pdf` gelesen, aber bewusst
+  **nicht** gesondert destilliert: reine Bildunterschriften-Seite zu bereits im bestehenden
+  Artikel [[grubenmann-kirchen-holzdachstuhl-typologie]] beschriebenen Knotenpunkten, liefert
+  nur einen zusätzlichen Quellenverweis (SBZ 23/1959) ohne neuen Sachinhalt.
+
+**Neue Werkzeuglücke:** Der Versuch, den 109-seitigen Reader `111002_Reader_alle_Seiten.pdf`
+(52 MB) seitenweise zu lesen (Seiten 1-3 und 5-15, unter Auslassung der gesperrten
+Teilnehmerliste auf Seite 4), scheiterte, weil das PDF-Seitenrendering der Stationswerkzeuge
+`pdftoppm` (Paket `poppler`) voraussetzt, das auf dieser Station nicht installiert ist; ohne
+Seitenbereich ist die Datei für einen Einzelaufruf zu gross. Details `QUESTIONS.md` #72.
+Damit bleiben das Modell-Belastungstest-Blatt (Ähnlichkeitsgesetz, Bezug Galileo
+«Discorsi» 1636) und die 13 im Reader zitierten Quelltexte weiterhin ungelesen.
+
+22 P2-Positionen dieser Sektion bleiben offen (drei Kraftfluss-Darstellungsvarianten, vier
+textlose Bildscans, der 109-seitige Reader, das Modell-Belastungstest-Blatt,
+`Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf`, die Skalierungsmodell-Bilder). Kein neuer
+Datenschutz-Fund; die CSV/XLSX-Teilnehmerliste wurde erneut nicht geöffnet, Sperrvermerk
+Seite 4 des Readers erneut beachtet.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Tragwerk`, zweiter P2-Lauf (Lane FACHWISSEN, 48. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text wie in den letzten gut 20 Läufen veraltet (behauptet «noch kein Destillat und
