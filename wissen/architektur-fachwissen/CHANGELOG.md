@@ -1,5 +1,34 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, siebter P2-Lauf (Position 3 teilweise, Lane FACHWISSEN, 58. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
+
+Textlayer-Probe per `pypdf` über alle fünf Grundlagenwerke der Manualistik
+(`06_Theorie_des_Staedtbaus/00_Literatur/0.0 GRUNDLAGENWERKE_Manualistik/`): nur
+`Sitte.pdf` liefert echten Text (93 S., 115'781 Zeichen extrahiert), `Stuebben.pdf` und
+`Krier.pdf` 0 Zeichen auf den ersten 10 Seiten, `Curdes.pdf` 0 Zeichen, `Nolli.pdf` nur
+105 Zeichen (vereinzelte Planbeschriftungen) — vier der fünf Werke bleiben reine Bildscans,
+ohne OCR nicht auswertbar. `Sitte.pdf` vollständig extrahiert und gelesen. **Neuer Befund:**
+der Scan selbst ist unvollständig — das Inhaltsverzeichnis (S. 2) weist zwölf Kapitel plus
+Schluss bis Seite 175 aus, der Scan endet aber nach Kapitel VII (S. 87) mit Städte-Register
+und Druckvermerk, gefolgt von leeren Seiten und einem Getty-Center-Library-Stempel. Die
+praktischen Kapitel VIII-XII und der Schluss (S. 88-175, u. a. Sittes eigenes Reformprogramm
+und sein ausgeführtes Beispiel einer Stadtregulierung) fehlen vollständig im digitalisierten
+Bestand — reale Bestandslücke, analog zur Block-17-Lücke im Übungsheft (sechster Lauf), keine
+Fehlextraktion. Aus den vorhandenen Kapiteln I-VII destilliert → neuer Artikel
+[[camillo-sitte-staedtebau-kuenstlerische-grundsaetze-platzgestaltung]] (die vier
+Grundregeln alter Platzgestaltung: Freihalten der Mitte, Geschlossenheit der Plätze,
+Grösse/Form im Verhältnis zum Hauptgebäude, Unregelmässigkeit als Qualität; dazu Platzgruppen
+und der Übergang zur barocken Theaterperspektive). Gegen bestehende Wiki-Artikel geprüft,
+kein Duplikat. `git diff --numstat` auf die Inventardatei zeigt reinen Append (35 0), vom
+15-Min-Cron binnen Minuten selbstständig committet (`75ef53d0f`, working tree danach sauber).
+
+**Von Position 3 bleiben Stübben, Krier, Curdes und Nolli offen** (dauerhaft blockiert ohne
+OCR-Werkzeug). Von den acht P2-Positionen dieser Sektion sind jetzt 1, 2, 3 (teilweise,
+Sitte-Anteil), 8, 13 und 14 erledigt; Positionen 4-7 (33 Autorendossiers,
+Platz-Materialbestand) bleiben vollständig offen. Nächster Lauf: Read-Tool direkt auf die
+vier Bildscans probieren, sonst Position 4 (33 Autorendossiers) beginnen. `wiki/INDEX.md`
+nachgeführt. Keine der harten Sperren berührt.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, sechster P2-Lauf (Position 2 Teil 2/Abschluss, Lane FACHWISSEN, 57. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
 
 Fortsetzung des fünften Laufs: die drei zuvor ungelesenen Themenblöcke 15-17 des

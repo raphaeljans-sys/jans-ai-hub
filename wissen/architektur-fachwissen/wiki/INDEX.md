@@ -1384,3 +1384,23 @@ Quelllücke geschlossen). Von den acht P2-Positionen der Sektion sind jetzt 1, 2
 Platz-Materialbestand) bleiben offen. **Nächster Lauf:** Position 3 (Grundlagenwerke der
 Städtebau-Manualistik: Sitte mit Textebene, Stübben/Krier/Curdes/Nolli als Scans — Fremdwerke,
 nur methodisch mit Fundstelle zitierbar). Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 3 teilweise (Lane FACHWISSEN,
+58. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Textlayer-Probe per `pypdf` über alle fünf Grundlagenwerke der Manualistik: nur
+`Sitte.pdf` liefert echten Text (93 S., 115'781 Zeichen), `Stuebben.pdf`/`Krier.pdf`/
+`Curdes.pdf` 0 Zeichen, `Nolli.pdf` nur 105 Zeichen — vier der fünf Werke bleiben reine
+Bildscans. `Sitte.pdf` vollständig gelesen, neuer Artikel
+[[camillo-sitte-staedtebau-kuenstlerische-grundsaetze-platzgestaltung]] (vier Grundregeln
+alter Platzgestaltung: Freihalten der Mitte, Geschlossenheit der Plätze, Grösse/Form im
+Verhältnis zum Hauptgebäude, Unregelmässigkeit als Qualität; Platzgruppen und Übergang zur
+barocken Theaterperspektive). **Neuer Befund:** der Scan selbst ist unvollständig — laut
+Inhaltsverzeichnis 12 Kapitel plus Schluss bis Seite 175, tatsächlich endet der Scan nach
+Kapitel VII (S. 87) mit Städte-Register und Druckvermerk; die praktischen Kapitel VIII-XII
+(Sittes eigenes Reformprogramm) fehlen vollständig im digitalisierten Bestand — reale
+Bestandslücke, keine Fehlextraktion. Von den acht P2-Positionen der Sektion sind jetzt 1, 2,
+8, 13, 14 erledigt sowie 3 teilweise (Sitte-Anteil); Positionen 4-7 (33 Autorendossiers,
+Platz-Materialbestand) bleiben offen, Position 3 bleibt für die vier Bildscans offen.
+**Nächster Lauf:** Read-Tool direkt auf Stübben/Krier/Curdes/Nolli probieren, sonst Position
+4 (33 Autorendossiers) beginnen. Keine der harten Sperren berührt.
