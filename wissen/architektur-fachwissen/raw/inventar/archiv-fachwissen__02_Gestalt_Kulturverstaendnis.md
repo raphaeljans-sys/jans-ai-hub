@@ -450,3 +450,32 @@ Datenschutz/Sperrliste: kein Fund in den drei gelesenen Quellen (HTA-Lehrmateria
 `bash scripts/nas-commit-now.sh`. **Nächster Lauf:** eine der oben gelisteten
 verbleibenden P1-Positionen, empfohlen nach Umfang die HTA-Luzern-Typografievorlesung
 (40 S., kleinste geschlossene Einheit) oder die Schrift-Systematik (9 PDF).
+
+## Destillat-Fortschritt, fünfter Lauf (P1, 31.08.2026, Lane FACHWISSEN)
+
+`01_Architektur_darstellen/04_Layout/00_Typografie/Typografie.pdf` (40 S., FHZ/HTA
+Luzern Abteilung Architektur, W. Voney/C. Müller, «Typografie — was sie soll und nicht
+soll», 11.11.2005) vollständig im Volltext gelesen — **destilliert**, als Ergänzung in
+den bestehenden Artikel [[typografie-regelwerk-lernskript-jans-2007]] eingearbeitet
+(neuer Abschnitt «Herkunft bestätigt», kein neuer Artikel: die Vorlesung ist die
+Primärquelle des bereits destillierten Lernskripts, keine eigenständige Position).
+Bestätigt wortgleich die Herkunft der Plakat-Schriftgrössenreihe, liefert zusätzlich
+Begriffsherkunft (Typo/grafie), die Autorenzuordnung Makro-/Mikro-Typografie an Hans
+Peter Willberg, die Antiqua-vs.-Grotesk-Definition mit Univers/Frutiger 1956 und zwei
+Literaturangaben (Turtschi 1996, Kunz 1998).
+
+**Weiterhin offene P1-Positionen dieser Sektion** (unverändert, nicht in diesem Lauf
+bearbeitet):
+- `01_Architektur_darstellen/03_Schrift/**` (9 PDF Schrift-Glossar/-Systematik).
+- `02_Architekturdisskurs/04_Wettbewerbe/**` — 21 der 22 Juryberichte/-programme.
+- `02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/*Beschrieb*.pdf` — «Plage des
+  Alpes» (1 von 6 Beschrieben ungelesen).
+- `02_Architekturdisskurs/01_Betonforum/2007–2012` — 62 der 65 Referate.
+- `01_Architektur_darstellen/01_Bild_3D/.../02_Modellfotografische_RD/**` — Vortrag
+  Käch und Nachbearbeitungsablauf (Ordner 01 und 08).
+
+`git diff --numstat` nach dem Schreiben dieser Inventardatei geprüft: reiner Append.
+Datenschutz/Sperrliste: kein Fund (HTA-Lehrmaterial, keine Personendaten). Sicherung via
+`bash scripts/nas-commit-now.sh`. **Nächster Lauf:** eine der oben gelisteten
+verbleibenden P1-Positionen, empfohlen die Schrift-Systematik (9 PDF) als nächstkleinere
+geschlossene Einheit.
