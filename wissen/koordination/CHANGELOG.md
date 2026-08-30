@@ -2,6 +2,51 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-30 (Run 48) — die Aufsicht mass ihren eigenen Fussabdruck vom Vortag als Hauskonvention
+
+**Zuschnitt:** 6 Melder (`model: sonnet`) + 6 adversariale Refuter (Hauptmodell) + eigener
+Hauptkontext-Strang = 12 Agenten, 2'149'167 Token, 204 Werkzeugaufrufe, 6,8 Min, **0 Fehler**.
+Delta 24 h: `architektur-fachwissen` **+45 Wiki-Artikel** (Bestand 99), `energie` 24, `normen` 13,
+`twin` 11, `baurecht` 6. Bericht: `outputs/2026-08-30_wissens-chef-run48.md`.
+
+**0 bestaetigt · 4 teilweise · 2 widerlegt · 2 Nullbefunde. Kein Melder-Befund ueberstand die
+adversariale Stufe unveraendert** — in vier Faellen war der Sachverhalt echt und Adressat, Beleg,
+Schwere oder Aktion falsch.
+
+- **Der Lauf fand einen Fehler von Run 47.** Drei `architektur-fachwissen`-Artikel tragen seit
+  gestern einen nackten KB-Pfad im `links:`-Frontmatter, gesetzt von Run 47. Das Schema
+  (`WISSEN-CLAUDE.md` Z. 50/60-61) laesst dort nur `[[artikel-name]]` derselben KB zu, und Pruefung B
+  des Skills `wissenscheck` validiert genau das — beim naechsten Check dieser KB **drei tote
+  Backlinks, erzeugt von der Aufsicht selbst**. Ein Melder dieses Laufs las dieselben drei Dateien
+  als «hausuebliche Konvention» und wollte sie auf vier weitere ausweiten; nachgemessen sind es
+  hub-weit **rund 7 von 272** Artikeln (energie 0/40, normen 0/10, baurecht 0/30). **Regel als
+  Matrixzeile gesetzt: ein Aufsichtslauf darf seinen eigenen Eingriff vom Vortag nicht als
+  Konvention messen.** Kein Eingriff — Schema-Entscheid liegt bei Raphael (QUESTIONS #64).
+- **`energie` (+4/+1/±0/±0)** — Run 168 zog den Symbolwechsel **qE50 → qa50** in F63 nach und liess
+  **F115** samt drei Index-/Schwesterzeilen stehen. Nicht nur ein Symbol: die Messnorm wechselt von
+  SN EN ISO 9972 auf **SIA 180.206 «Verfahren 3»**, und das eigene `established`-Destillat verlangt
+  die neue Bezeichnung ausdruecklich fuer **Ausschreibungstexte und Pruefberichte** — dort liegt die
+  Aussenwirkung. 5 Stellen in 4 Dateien ankergenau korrigiert, Zahlenwerte unveraendert, historischer
+  Journal-Block unangetastet. Der Melder zaehlte 5 Vorkommen (es sind 3) und uebersah zwei Dateien;
+  eine dritte fand erst der Hauptkontext.
+- **`planungsgrundlagen` (+11)** — die am 16.08. (Run 34) diagnostizierte GT-RL1-Kante war 14 Tage
+  spaeter **in beide Richtungen leer** (je 0 Treffer nachgemessen). Additiver Rollen-Block in §12.1,
+  der alle drei KBs mit Rolle und Fassung benennt. Der gemeldete Widerspruch selbst war widerlegt:
+  `established` ist ein Artikel-Status, keine Fassungsaussage.
+- **Zwei Nullbefunde mit Aussage** — alle drei Run-47-Befunde (SIA 102, SIA 180/fRsi, BKP 588/900)
+  am Original als geheilt nachgemessen, Uf/Uli im neuen `uw-wert`-Artikel sind die geltenden Werte.
+  **Der 24-h-Zuwachs ist derselbe Schub, den Run 47 schon geprueft hat.** Empfehlung fuer Run 49:
+  auf frisch destillierte **Sektionen** zielen statt auf das mtime-Delta.
+- **Nicht getan:** die afw-Lane **nicht** angehalten (ein Melder schlug es vor — Rule
+  `rollen-taxonomie` Ziff. 3, die Drosselentscheidung bleibt bei Raphael); kein `links:`-Eintrag
+  ergaenzt; kein afw-Artikeltext geaendert; keine Loeschung, kein Ueberschreiben (Matrix Z. 53).
+
+Drei neue Matrixzeilen (Architekturtheorie-Ebene afw ↔ entwurfs-referenzen · Bildbestand
+architekten-synobsis, «ein Katalogeintrag ist keine Deckung» · Kanten-Register QUERBEZUEGE statt
+`links:`), fuenf Abschnitte in «Gepruefte Paare», Z. 58 am Original berichtigt (§12/§13 → §12-§14).
+**Drei offene Entscheide** im Bericht prominent markiert, darunter der twin-Wachstums-Riegel
+(33'952 von 34'000 B, **vierter Lauf ohne Verhaltenswirkung**).
+
 ## 2026-08-30 (Synergie-Lauf 23) — die Gegenmassnahme gegen 600 Leerlaeufe misst ihren Ertrag mit dem Befehl, den die eigene Chronik als haengend gemessen hat
 
 Tagestakt, Delta-Basis 29.08.2026 17:10, Fenster 24,0 h, 359 Commits. Uhr-Check bestanden

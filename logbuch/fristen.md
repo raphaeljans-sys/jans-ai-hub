@@ -3049,6 +3049,20 @@ Punkt, der bei der Abwägung leicht untergeht: die Datei ist **kein @-Import** m
 nicht entschieden** — die Optionen (verdichten, Grenze massvoll anheben, Aufteilung nach
 Gattung) liegen bei Raphael. Status: **offen, Entscheid Raphael (fällig seit 05.08.2026).**
 
+Nachtrag 30.08.2026 (Wissens-Chef Run 48, am Bestand nachgemessen): **Der Entscheid ist seit 25
+Tagen fällig, und der Riegel ist erneut voll — die Zahlen oben sind überholt.** `MAX_AUTO_BYTES`
+wurde zwischenzeitlich auf **34'000** angehoben; der Auto-Block steht laut `build_dna.py`-Messung
+im Fidelity-Lauf vom 30.08. bei **33'952 B, Reserve 48 B**. Entscheidend ist nicht die Zahl,
+sondern die Wirkung: die vier neuen Formmarker jenes Laufs sind belegt und in den Facetten-Artikeln
+nachgetragen, aber **nicht** in die Do/Don't-Blöcke promoviert, und der Auto-Block ist byte-identisch
+zum Vorlauf (diff geprüft). Das ist der **vierte Lauf in Folge ohne Verhaltenswirkung**
+(`wissen/twin/CHANGELOG.md`, Eintrag 30.08.2026; `wissen/twin/wiki/QUESTIONS.md` 260829b #4).
+**Der Zwilling lernt und misst weiter, aber seit vier Läufen erreicht nichts davon die Regel, die
+das Verhalten steuert** — dieselbe Klasse wie Rule `auto-verbesserungen` 260830 (ein Lauf, der läuft
+und nichts liefert), nur auf der Liefer- statt der Abbruchseite. Optionen unverändert (verdichten,
+Grenze anheben, nach Gattung aufteilen); neu hinzu: das Lernen drosseln, solange nichts landet.
+Status: **weiterhin offen, Entscheid Raphael.**
+
 Eintrag 06.08.2026 (Session Protokoll 8. Besprechung KISPI, 15:20 — **drei neue Fristen aus
 der heutigen Fachplaner-Besprechung**): An der 8. Besprechung Fachplanung Umbau PPTS KISPI
 (2619, Teilnehmer Spörri/Duran/Cetin/Eren/Jans) wurden drei Termine vereinbart, Quelle
