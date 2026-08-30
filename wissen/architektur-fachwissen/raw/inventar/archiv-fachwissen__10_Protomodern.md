@@ -250,3 +250,30 @@ Wiktionary-Begriffsblätter plus Sgraffito-Sammlung. Nächster Lauf: die elf kur
 Eigen-DOCX (Religiöses/Politisches in der Architektur, Kulturaustausch, Der heterogene
 Ort, Panofsky-Liste, Protorenaissance, Tabubruch, Klassiker für die Protomoderne,
 Lampugnani-Grundsätze u. a., siehe Zeile 73 oben).
+
+**Fünfter P2-Lauf 30.08.2026 (Lane FACHWISSEN).** Die Zeile 73 («Elf weitere eigene
+Kurz-DOCX») abschliessend geprüft: im Dateisystem finden sich acht eigenständige Kurztexte
+(Religiöses/Politisches, Kulturaustausch, Tabubruch, Klassiker, Lampugnani-Grundsatz,
+Panofsky-Kunsthistoriker-Liste, Protorenaissance-Quellenverweis, Der heterogene Ort) sowie
+zwei weitere Dateien gleichen Titels, die sich bei Volltextvergleich (`diff`) als inhaltlich
+identische Zweitablagen bereits P1-destillierter Quellen erweisen: `05_Begriffe/
+Protofunktional/00_Text/Protofunktional.docx` (Duplikat von `130426_Protofunktional.docx`,
+bereits [[protofunktional-begriff-abgrenzung-funktionalismus]]) und
+`Die_Architektur_der_Athmosphaere.docx` im Wurzelverzeichnis (identisch mit der bereits
+destillierten Fassung in `09_Die_athmospherische_Stadt/`, nur um zwei Kopfzeilen
+«Dachlandschaft: berner altstadt» ergänzt — kein neuer Fakt). Die acht eigenständigen
+Kurztexte vollständig gelesen (`textutil`) und zu einem Sammelartikel verdichtet →
+**erledigt** → [[protomodern-kurzfragmente-religion-politik-klassiker-lampugnani-panofsky]]
+(`status: speculative`, reine Fragment-Sammlung ohne durchgehende Argumentation). Gegen
+Wiki-Bestand geprüft (`grep -rli "lampugnani\|heterogen\|hetrogen\|panofsky\|pevsner"`):
+kein inhaltlicher Duplikat-Fund, verlinkt mit
+[[protomodern-projektrahmen-professurenlandkarte]],
+[[sik-dialogischer-staedtebau-ensemble-schweizer-pavillon-biennale-2012]],
+[[von-moos-lampugnani-kritik-schmierfinken-2011]] und
+[[lampugnani-historisches-stadtzentrum-kulturgut-lehrstueck-dichte]]. Sperrlisten-Prüfung:
+kein Fund (eigene Kurznotizen und Quellenverweise, keine Personendaten). Damit sind **27
+der 33 P2-Positionen** dieser Sektion offen: die Wikipedia-/Wiktionary-Begriffsblätter
+(Anthropomorphismus, Capriccio, Pasticcio, Epitome, Form follows function, Shaker-Religion,
+Protogeometric Art) plus die Sgraffito-Sammlung `cntmng*.pdf`. Nächster Lauf: die sieben
+Begriffsblätter gegen eine belastbare Quelle prüfen (laut Kurzbefund «Nachschlagestand von
+2012/2013»), danach die Sgraffito-Sammlung.

@@ -4607,3 +4607,50 @@ heterogene Ort, Panofsky-Liste, Protorenaissance, Tabubruch, Klassiker für die
 Protomoderne, Lampugnani-Grundsätze u. a.) sowie die Wikipedia-/Wiktionary-Begriffsblätter
 plus Sgraffito-Sammlung. `git diff --numstat` auf die Inventardatei zeigte `36 0`
 (reiner Append). **Nächster Lauf:** die elf kurzen Eigen-DOCX dieser Sektion.
+
+## 2026-08-30 — Fünfter P2-Lauf Sektion `10_Protomodern` (Lane FACHWISSEN)
+
+Vorlauf-Buchführung (65. Lauf, Ruhl/Rossi/Sedlmayr/Quaroni) stand unkommittiert im
+Arbeitsverzeichnis (`skills/wissens-destillat/KORPUS-QUEUE.md`,
+`wissen/architektur-fachwissen/CHANGELOG.md`, `1 1` bzw. `34 0`), lokal aber sauber ohne
+`MERGE_HEAD` — zuerst per `nas-commit-now.sh` gesichert; wie in den Vorläufen erneut
+Merge-Konflikte auf dem NAS in sechs fremden KBs (Working Tree lokal sauber, dem
+15-Min-Cron überlassen). `scutil` bestätigte Hostname Macmini, `ps -ef` zeigte nur den
+eigenen `claude -p`-Prozess, keine Doppel-Instanz.
+
+**Hauptarbeit:** die «elf weiteren kurzen Eigen-DOCX» aus Zeile 73 des Inventars per
+`find` im NAS-Ordner lokalisiert. Von den zehn nicht bereits P1/P2-destillierten
+DOCX-Kandidaten erwiesen sich zwei bei Volltextvergleich (`textutil` + `diff`) als
+inhaltsgleiche Zweitablagen bereits destillierter Quellen — `05_Begriffe/Protofunktional/
+00_Text/Protofunktional.docx` (Duplikat von `130426_Protofunktional.docx`, bereits
+[[protofunktional-begriff-abgrenzung-funktionalismus]]) und
+`Die_Architektur_der_Athmosphaere.docx` im Wurzelverzeichnis (identisch mit der bereits
+destillierten Fassung aus `09_Die_athmospherische_Stadt/`, nur um zwei Kopfzeilen
+ergänzt) — beide korrekt nicht erneut destilliert. Die verbleibenden acht eigenständigen
+Kurztexte (je ein bis drei Sätze oder Stichwortlisten) vollständig gelesen und zu einem
+Sammelartikel verdichtet →
+[[protomodern-kurzfragmente-religion-politik-klassiker-lampugnani-panofsky]]
+(`status: speculative`). Kernaussagen: der Kernsatz «Architektur kann die Probleme einer
+Gesellschaft nicht lösen, sie kann sie nur abbilden» (Religion/Politik als
+gesellschaftliche Bedingung der Architektur); der zitierfähige ETH-Merksatz Lampugnanis
+«Bevor du dein Haus entwirfst, entwirfst du seine Umgebung!» (datiert 130501); die
+Panofsky-Kunsthistoriker-Reihe als Lesekanon der Sektion (Wölfflin, Panofsky, Wittkower,
+Rowe, Eisenman, Koolhaas, Kollhoff); der reine Pevsner-Quellenverweis zur
+Protorenaissance (Pevsner, «Europäische Architektur», Prestel, S. 84); die
+Ortscharakter-Reihe «der heterogene Ort, der dialogische Ort, das figurative Haus,
+anonym (Šik), die monotone Einheitsgestalt, institutionell (Caruso)»; dazu kurze,
+unausgeführte Fragmente zu Kulturaustausch (Venedig/Athen/Rom), Tabubruch im Witz und
+den Klassikern Raffael/Michelangelo/Leonardo. Gegen Wiki-Bestand geprüft
+(`grep -rli "lampugnani\|heterogen\|hetrogen\|panofsky\|pevsner"`): kein inhaltlicher
+Duplikat-Fund, verlinkt mit [[protomodern-projektrahmen-professurenlandkarte]],
+[[sik-dialogischer-staedtebau-ensemble-schweizer-pavillon-biennale-2012]],
+[[von-moos-lampugnani-kritik-schmierfinken-2011]] und
+[[lampugnani-historisches-stadtzentrum-kulturgut-lehrstueck-dichte]]. Sperrlisten-Prüfung:
+kein Fund (eigene Kurznotizen und Quellenverweise, keine Personendaten).
+
+Damit sind **27 der 33 P2-Positionen** der Sektion `10_Protomodern` offen: die
+Wikipedia-/Wiktionary-Begriffsblätter (Anthropomorphismus, Capriccio, Pasticcio, Epitome,
+Form follows function, Shaker-Religion, Protogeometric Art) plus die
+Sgraffito-Sammlung `cntmng*.pdf`. `git diff --numstat` auf die Inventardatei zeigte
+`27 0` (reiner Append). **Nächster Lauf:** die sieben Begriffsblätter gegen eine
+belastbare Quelle prüfen, danach die Sgraffito-Sammlung.
