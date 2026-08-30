@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 16:54:27
+Stand: 30.08.2026 17:04:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 16:54:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4dee23bf8 Fachwissen: Sauter-Kapitel 10 Klassische Moderne/Neues Bauen destilliert (archiv-fachwissen, 79. Lauf)
+- 37b8c2f8e Wissens-Destillat archiv-fachwissen: Sauter-Kapitel 11 Moderne-Postmoderne destilliert (Sauter-Reihe abgeschlossen)
