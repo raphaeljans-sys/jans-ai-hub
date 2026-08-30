@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.08.2026 00:57:56
+Stand: 31.08.2026 01:08:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 31.08.2026 00:57:56
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f38e60cec Lane FACHWISSEN: BERTA-Jurybericht Depot Hard destilliert, 137. Lauf
+- 36e461014 vollgas-radar 31.08. 00:57: Fenster FREI, Kontingent 85% bei 93.5% Woche, fachwissen-Lane laeuft bis Fristende; mtime-Messfalle durch 479 Rebase-Versuche dokumentiert
