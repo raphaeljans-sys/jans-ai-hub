@@ -205,3 +205,12 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   auf weitere versteckte Fragen-Unterordner (nur zwei von 23 bisher stichprobenartig geprueft);
   danach die restlichen rund 180 Vorlesungsmitschriften/Zusammenfassungen zu den uebrigen 19
   Vorlesungen sowie die Vorlesungsfolien-Sammel-PDF (`Praes-Ath*.pdf`).
+
+- 2026-08-30 (Lane FACHWISSEN, Folgelauf): vollstaendiger `find -iname "*frage*"`-Scan der
+  gesamten Sektion durchgefuehrt (statt Stichprobe). Ergebnis: keine weiteren versteckten P1-
+  Funde ausser den bereits bekannten neun Begriffskatalog-Ordnern (oben) und den zwei bereits
+  destillierten Vorlesungsordnern VL1/VL7. Zusatztreffer
+  `00_Administration/04_Pruefung/01_Fragekatalog` ist ein leerer Ordner (0 Dateien). `#68` in
+  `wiki/QUESTIONS.md` damit beantwortet. Naechster Lauf: direkt inhaltliche Sichtung der rund
+  190 Vorlesungsmitschriften/Zusammenfassungen sowie der Vorlesungsfolien-Sammel-PDF, keine
+  weitere Struktur-Vorpruefung noetig.

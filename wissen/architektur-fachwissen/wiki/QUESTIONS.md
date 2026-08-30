@@ -13,11 +13,18 @@ hatte, statt sie als eigene P1-Gruppe zu erkennen (Details
 `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md`, Abschnitt «Destillat-Fortschritt»
 30.08.2026).
 
-**#68 Nur 2 von 23 Vorlesungsordnern wurden auf weitere versteckte Fragen-Unterordner geprüft.**
-Ein künftiger Lauf sollte die übrigen 21 Ordner (`VL2`–`VL6`, `VL8`–`VL11`, plus die zehn
-Vorlesungen des Frühjahrssemesters `120215`–`120518`) systematisch auf `*Fragen*`-Unterordner
-durchsuchen, bevor die grosse P2-Gruppe «23 Vorlesungsmitschriften» pauschal als reine
-Mitschriften-Destillation behandelt wird — es könnten weitere P1-Qualität-Funde darin stecken.
+**#68 Nur 2 von 23 Vorlesungsordnern wurden auf weitere versteckte Fragen-Unterordner geprüft
+— BEANTWORTET 30.08.2026 (Lane FACHWISSEN, Folgelauf).** Vollstaendiger
+`find … -iname "*frage*"` ueber die gesamte Sektion `02_Architekturtheorie` durchgefuehrt statt
+Stichprobe: Treffer sind ausschliesslich die neun bereits im fuenften Destillat-Lauf (29.08.2026)
+abgearbeiteten Begriffskatalog-Ordner (`Materialitaet`, `Materialwahrheit_und_Stoffwechsel`,
+`Ornament`, `Ort`, `Stil`, `Typus`, `Architekturtheorie`, `Funktion`,
+`Konstruktion_und_Tektonik`) sowie die zwei im vorigen Lauf bereits gefundenen und destillierten
+Vorlesungsordner (`VL7_Rossi_Aldo`, `VL1_Was_ist_Architekturtheorie`). Der zusaetzliche Treffer
+`00_Administration/04_Pruefung/01_Fragekatalog` ist ein leerer Ordner (geprueft, 0 Dateien). Kein
+weiterer versteckter P1-Fund unter den restlichen 21 Vorlesungsordnern. Damit ist die P2-Gruppe
+«23 Vorlesungsmitschriften» (rund 190 Dateien) tatsaechlich reine Mitschriften-Destillation ohne
+uebersehene Sonderfaelle — naechster Lauf kann direkt mit der inhaltlichen Sichtung beginnen.
 
 ## 260830 — Vierter P2-Lauf Sektion `01_Konstruktion` (Korpus 4): Routing-Hinweis Bauphysik III/energie-KB
 

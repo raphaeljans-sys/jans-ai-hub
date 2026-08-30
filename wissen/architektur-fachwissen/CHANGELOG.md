@@ -1,5 +1,30 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — Folgelauf: Buchfuehrung nachgetragen, `#68` beantwortet (Lane FACHWISSEN)
+
+Dispatch-Auftrag erneut massiv veraltet (behauptete «kein Destillat und keine Spec, KB hat
+erst 2 Wiki-Artikel» — tatsaechlich bestehen beide Specs seit 29.08.2026, P1 ist in beiden
+Korpora komplett destilliert, ueber 25 Laeufe und dutzende Wiki-Artikel liegen bereits vor).
+Dieselbe Fehlbeschreibung wie in `project_fachwissen-dispatch-loop` (Memory) dokumentiert.
+Spec-Neuschreibung und P1-Wiederholung deshalb **nicht** ausgefuehrt.
+
+Stattdessen: der Arbeitsstand zeigte fuenf unkommittierte, aber inhaltlich fertige Dateien
+aus dem unmittelbar vorangegangenen Lauf («zweiter P2-Lauf Sektion `02_Architekturtheorie`»,
+Eintrag direkt unten) — die drei zugehoerigen Wiki-Artikel waren bereits committet
+(`44a4efd03`), die Buchfuehrung (CHANGELOG/QUESTIONS/INDEX/KORPUS-QUEUE/Inventar) aber noch
+nicht. `bash scripts/nas-commit-now.sh` traf zweimal denselben Merge-Konflikt in fremden
+KB-CHANGELOGs (`normen`, `baurecht`, `grobkosten`, `architekten-synobsis` — bereits bekannt aus
+Memory `project_nas-git-merge-konflikt-dispatch-loop-260829`), lokal wurde aber sauber und ohne
+Konfliktmarker committet und nach `origin/main` durchgestellt (`47c694500`).
+
+Danach `wiki/QUESTIONS.md` **#68** beantwortet: vollstaendiger `find`-Scan der Sektion
+`02_Architekturtheorie` auf `*Fragen*`-Unterordner statt der bisherigen Stichprobe. Ergebnis:
+keine weiteren versteckten P1-Funde ausser den bereits bekannten neun Begriffskatalog-Ordnern
+und den zwei bereits destillierten Vorlesungsordnern (VL1, VL7); ein zusaetzlicher Treffer
+(`00_Administration/04_Pruefung/01_Fragekatalog`) ist ein leerer Ordner. Kein neuer
+Wiki-Artikel in diesem Lauf. Naechster Lauf kann direkt mit der inhaltlichen Sichtung der
+rund 190 Vorlesungsmitschriften beginnen, ohne weitere Struktur-Vorpruefung.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, zweiter P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station
