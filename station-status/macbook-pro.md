@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 07:39:00
+Stand: 30.08.2026 07:49:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:23)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 07:39:00
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 51061ce5f Lane FACHWISSEN: kapitel01_dk Unterkapitel 4/5 destilliert, Datei abgeschlossen
+- 19eda4514 auto-sync: FACHWISSEN Zwischenstand vor neuem Lauf
