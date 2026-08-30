@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 12:47:36
+Stand: 30.08.2026 12:57:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 12:47:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f13f5b242 nas-selfcommit: 2 Datei(en) 2026-08-30 12:45
+- 12d0f6793 wissen/architektur-fachwissen: Plutarch/Romulus destilliert (50. P2-Lauf 01_Staedtebau, Lane FACHWISSEN)
