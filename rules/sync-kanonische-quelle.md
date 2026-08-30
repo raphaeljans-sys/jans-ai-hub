@@ -30,6 +30,17 @@ Frueher existierten drei divergente Kopien; der Auto-Sync sicherte die falsche. 
   25.07.2026 mehrfach). Der EINZIGE erlaubte NAS-Committer ist der **native** `nas-selfcommit.sh`
   (laeuft auf der Synology, ext4, alle 15 Min) — auf Zuruf via `nas-commit-now.sh` (ssh).
   Datei-Edits (Write/Edit) ueber SMB sind erlaubt; nur `git` gehoert nativ auf die Synology.
+
+  ⚠ **Das gilt nur fuer SCHREIBENDE git-Befehle — lesende haengen ueber SMB ebenfalls.**
+  Gemessen 29.07.2026: ein reines `git status --porcelain` gegen den Mount lief in den
+  2-Minuten-Timeout, waehrend im Hintergrund ein `claude -p`-Lauf und der 15-Min-Committer
+  aktiv waren; lesende Befehle treffen dieselbe `.git/index.lock` und dieselbe SMB-Latenz
+  (`rules/betrieb-chronik.md` 260729, **nicht importiert**). Wer den Zustand des NAS-Repos
+  braucht, fragt nativ per `ssh` — oder gar nicht und loest einfach `nas-commit-now.sh` aus.
+  Der Querverweis steht hier, weil der Satz darueber isoliert gelesen den Umkehrschluss
+  «lesendes git ueber SMB ist erlaubt» traegt und dieser Schluss bereits in einen Baustein
+  gewandert ist (Synergie-Register SYN-61, 30.08.2026). Haengt ein Befehl doch einmal,
+  NICHT wiederholen — jeder Versuch bindet einen weiteren uninterruptiblen Prozess.
   (Die fruehere pathspec-Commit-Mitigation aus Rule 260724 ist damit ueberholt.)
 - `git push --force` gegen GitHub `main`.
 

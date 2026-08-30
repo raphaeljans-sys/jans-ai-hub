@@ -4507,6 +4507,17 @@ Raphaels Entscheid.
 
 **NACHTRAG 30.08.2026, 07:45 (bexio-Session Macmini):** Divergenz weiter gewachsen — `nas-commit-now.sh` scheitert mit Merge-Konflikten in `wissen/grobkosten/CHANGELOG.md` und `wissen/normen/CHANGELOG.md`; Selfcommit-Log meldet **191 lokal / 105 remote, Versuch 238** (07:45:37). Kein Eingriff vorgenommen (gleiches Urteil wie oben); neue Edits dieser Session (fristen.md, firmengruendung-ch) liegen sicher im NAS-Arbeitsbaum und werden vom Committer erfasst, sobald der Konflikt aufgeloest ist.
 
+**NACHTRAG 30.08.2026, 17:1x (Synergie-Lauf 23, ueber den Mount gelesen, nicht nativ):** Der
+Vorgang laeuft unveraendert und waechst weiter — Selfcommit-Log meldet **Versuch 363, Divergenz
+293 lokal / 186 remote** (letzte Zeile 17:0x, `sync-tasks/log/selfcommit-202608.log`). Reihe des
+Tages zum Vergleich: 191/105 bei Versuch 238 (07:45), 293/186 bei Versuch 363 (17:0x) — rund 100
+lokale Commits und 125 gescheiterte Versuche in gut neun Stunden. Die zuletzt genannte Konflikt-
+datei ist `1eed7118c … Normen CHANGELOG`, das Muster also unveraendert das beschriebene (mehrere
+Lern-Loops fuegen oben in dieselben CHANGELOG-Dateien ein). **Kein Eingriff**, gleiches Urteil wie
+in den drei Nachtraegen darueber. Praktische Folge fuer heutige Laeufe: Edits im NAS-Arbeitsbaum
+sind sicher, erreichen GitHub und die zweite Station aber erst nach der Aufloesung — das betrifft
+auch die Erzeugnisse dieses Synergie-Laufs.
+
 ---
 
 ## 30.08.2026 — Gespräch MacBook Pro 29.08.2026 (Konversations-Destillat `logbuch/konversationen/260830-konversationen.md`)

@@ -2,6 +2,38 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-30 (Synergie-Lauf 23) — die Gegenmassnahme gegen 600 Leerlaeufe misst ihren Ertrag mit dem Befehl, den die eigene Chronik als haengend gemessen hat
+
+Tagestakt, Delta-Basis 29.08.2026 17:10, Fenster 24,0 h, 359 Commits. Uhr-Check bestanden
+(Abweichung unter drei Minuten). Strukturelles Delta: 0 neue Bausteine, 2 neue Korpus-Specs
+unter `skills/wissens-destillat/specs/`, 2 geaenderte Rules — Frueh-Ausstieg greift nicht.
+
+Geprueft wurde die Verdrahtung von **Rule 260830** (Treiber brechen nach Liefer-Delta ab).
+**Positiv festgehalten: die Umsetzung ist real** — Delta-Abbruch und Selbstauskunft-Erkennung
+stehen in `scripts/vollgas-schub.sh`, `fachwissen.prompt` ist mustergueltig auf
+Zustands-Selbstermittlung umgestellt, drei Prompts stillgelegt mit gesicherten Originalen.
+Kein SYN-56-Muster.
+
+Drei neue Eintraege eine Ebene tiefer. **SYN-61:** das Script misst mit `git status --porcelain`
+ueber den SMB-Mount und beruft sich auf Rule 260726 — `betrieb-chronik.md` 260729 widerlegt genau
+diesen Satz gemessen (2-Minuten-Timeout bei laufendem `claude -p` und Committer, also dem
+Szenario dieser Lane). Kern ist eine Grundkontext-Luecke: die Einschraenkung auf **schreibende**
+Befehle steht nur in der nicht importierten Chronik. **⚠-Querverweis in
+`rules/sync-kanonische-quelle.md` gesetzt (+11/−0), kein Eingriff ins Script.** **SYN-62:** die
+Ertragsmessung ist global statt lane-lokal — bei 8 bis 24 Commits pro Stunde rettet jede Lane
+jede andere vor dem Abbruch; gedaempft durch die lane-lokale Selbstauskunft-Erkennung, latent
+statt akut. Nur gemeldet. **SYN-63:** `synobsis.prompt` ist der einzige der fuenf Lane-Prompts,
+den die Korrektur nicht erreicht hat — behauptet weiter einen Stand, waehrend die Lane seit
+Runde ~318 «nichts mehr zu bearbeiten» meldet, und verlangt keinen festen Abbruchsatz. Nur
+gemeldet.
+
+Nebenbefund und im Fristen-Register nachgetragen: NAS und SSD-Klon zaehlen 359 gegen 251 Commits
+— Symptom der als P1 gefuehrten **Sync-Divergenz**, aktueller Stand Versuch 363, 293 lokal / 186
+remote (Rule 260805, ein Laufbericht ist kein Meldekanal).
+
+Alle Eingriffe rein additiv, null Loeschungen, jeder Anker auf Trefferzahl 1 assertiert.
+Bericht: `outputs/2026-08-30_synergie-lauf-23.md`.
+
 ## 2026-08-29 (Run 47) — der 112-Artikel-Schub gegen den Hub-Bestand: zweimal «kein Destillat vorhanden», beide Male falsch
 
 **Zuschnitt:** 5 Melder (`model: sonnet`) + 15 Refuter (Hauptmodell) = 20 Agenten, 3'440'405 Token,
