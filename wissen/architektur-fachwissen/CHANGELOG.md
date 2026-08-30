@@ -1,5 +1,57 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `buero-referenzen`, Sektion `02_Architektur_Vermitteln` vollständig abgeschlossen (Lane FACHWISSEN, 51. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text weiterhin identisch veraltet (behauptet «kein Destillat, keine Spec, 2
+Wiki-Artikel», Station fälschlich «MacBook Pro»). Vor Arbeitsbeginn `scutil` (Macmini
+bestätigt), `ps aux` (ein einziger `claude -p`-Prozess für diese Lane) und
+`KORPUS-QUEUE.md` geprüft: beide Korpus-Specs bestehen seit 29.08.2026, P1 ist in beiden
+Korpora vollständig, P2 lief zuletzt in `archiv-fachwissen/01_Tragwerk` und
+`buero-referenzen/10_Modellbauen`. Statt einer dieser laufenden, ertragsschwachen
+P2-Sektionen wurde nach Queue-Empfehlung zur kleineren, noch unberührten Sektion
+`archiv-fachwissen/02_Architektur_Vermitteln` gewechselt (P1 bereits am 29.08.2026
+abgeschlossen, P2 mit 13 Positionen seither unangetastet).
+
+Alle 13 P2-Positionen dieser Sektion destilliert, sieben neue Wiki-Artikel:
+
+- `wiki/rhetorik-praesentationstechnik-redeaufbau-formeln-visualisierung.md` — Redeformen,
+  Aufbauvarianten (Fünf-Punkte-, Problemlösungs-, Pro-Contra-Formel), Redemanuskript-Varianten,
+  Körpersprache-Tabellen, Visualisierungsregeln (HTA-Skript Rhetorik/Präsentationstechnik) plus
+  Referatsgliederung für Referenzobjekt-Beschriebe (Merkblatt Referate, Hochschule Luzern 2008)
+- `wiki/medienmitteilung-aufbau-umgekehrte-pyramide.md` — sechsteiliger Aufbau, Prinzip der
+  umgekehrten Pyramide
+- `wiki/wissenschaftliches-arbeiten-aufbau-zitierregeln-arbeitsphasen.md` — konsolidiert fünf
+  Quellen (zwei ETH-Skripte inhaltlich fast identisch, Leitfaden Imhof mit zwei
+  Zitierstandards Architektur/Geisteswissenschaft, HTA-Kontextmodul-I-Skript mit
+  Erkenntniskreislauf und Harvard-Kurzbeleg, separates Einleitungs-Merkblatt mit den fünf
+  Pflichtelementen und der 10-Prozent-Faustregel)
+- `wiki/entwurfsmethodik-herzog-de-meuron-programm-vor-form-dialogischer-prozess.md` —
+  Studienarbeit auf Basis eines Herzog-Radiointerviews: Programm vor Form, Einschränkungen als
+  Qualitätsquelle, dialogischer Prozess mit der Bauherrschaft
+- `wiki/dispositionsvorlagen-studienarbeit-skelett-revisionsdaten.md` — zwei reale
+  Dispositionsbeispiele mit Kapitelabsicht im Klartext und Revisionsdaten als eingebaute
+  Versionskontrolle
+- `wiki/fachwoerterbuch-baulaien-baukommissionen-rzu-1995.md` — RZU-Glossar mit PBG-Verweisen
+  (Rechtsstand 1995, vor Verwendung gegen geltendes PBG zu prüfen)
+- `wiki/projektbeschrieb-eigene-schreibhand-bikerhotel-erstfeld.md` — eigener Studienentwurf,
+  Reihenfolge Idee/Nutzung/Innenraum/Aussenraum/Material/Statik, durchgehaltene Kernmetapher
+
+**Zwei Nebenbefunde:** (1) Die beiden `.doc`-Dateien der Sektion (`vorgabe disposition.doc`,
+`Vortrag.doc`) liessen sich entgegen früherer Formatlücken-Erwartung vollständig lesen via
+`textutil -convert txt -stdout <datei>` (macOS-Bordmittel, kein Word/LibreOffice nötig) —
+neue Faustregel für künftige `.doc`-Funde in dieser und anderen Sektionen. (2) Das
+Fachwörterbuch `fwb.pdf` war im Phase-0-Inventar fälschlich als «nur 4 Seiten (Fragment A
+bis B)» beschrieben; tatsächlich deckt es auf 4 Seiten den vollständigen Alphabet-Bereich A
+bis Z ab — Verwechslung Seitenzahl/Buchstabenumfang, im neuen Artikel korrigiert.
+
+**Damit ist Sektion `02_Architektur_Vermitteln` (P1 und P2) vollständig destilliert.**
+Nächster Lauf: `archiv-fachwissen/01_Tragwerk` (18 P2-Positionen offen, dünner Ertrag) oder
+`buero-referenzen/10_Modellbauen` (86 P2-Positionen offen) fortsetzen, oder eine weitere
+kleine unberührte Sektion nach Queue-Empfehlung wählen (`02_Architektur_Vermitteln` war die
+letzte dieser Art in `archiv-fachwissen`; als nächstes käme eine Sektion aus
+`buero-referenzen` mit vollständigem P1 und unberührtem P2 in Frage, `wiki/INDEX.md`
+konsultieren).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Tragwerk`, vierter P2-Lauf (Lane FACHWISSEN, 50. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut identisch veraltet («noch kein Destillat und keine Spec ... 2
