@@ -3,7 +3,7 @@ title: "Renaissance-Epochencharakteristik: Stilmerkmale Früh-/Hoch-/Spätrenais
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/Renaissance-Zusammenfassung.pdf (51 S., studentische Zusammenfassung nach Vorlesung Tönnesmann; in diesem Lauf gelesen und destilliert: S. 1-3, Abschnitte «Ablauf», «Ideen», «Erneuerung der Künste», «Architekturtheorie», «Architektonische Charakteristiken»; die anschliessende, sehr umfangreiche Einzelbau-Dokumentation Brunelleschi/Michelozzo/Alberti/Rossellino S. 4ff bleibt offen, siehe unten)"]
-links: ["[[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]]", "[[objektliste-architekturgeschichte-datierungen-eth]]", "[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]"]
+links: ["[[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]]", "[[objektliste-architekturgeschichte-datierungen-eth]]", "[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]", "[[fragen-doc-alberti-vignola-fassade-saeule-manierismus-beginn]]"]
 ---
 
 # Renaissance-Epochencharakteristik: Stilmerkmale und Architekturtheorie
@@ -90,6 +90,12 @@ die Bürotätigkeit unterhalb der Nutzungsschwelle liegt (z. B. exakte Gesims- u
 Pilasterfolgen einzelner Fassadenachsen). Bleibt für einen Folgelauf offen, falls ein
 konkreter Vergleichsfall (z. B. Palazzo-Typologie für einen Erläuterungsbericht) das
 rechtfertigt.
+
+**Ergänzung 30.08.2026:** die städtebauliche Begründung für Albertis abweichende
+Proportionierung von Fassade und Langhaus bei Sant'Andrea in Mantua (enge Einbettung ins
+Stadtgefüge) sowie eine Theorie-Praxis-Unterscheidung Alberti/Vignola-Serlio und eine
+Säulensymbolik-Belegkette über drei Epochen sind jetzt in
+[[fragen-doc-alberti-vignola-fassade-saeule-manierismus-beginn]] destilliert.
 
 ## Datenschutz/Sperrliste
 

@@ -1,5 +1,45 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf, `Fragen.doc` (84. Lauf, Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, diese Datei, Inventardatei —
+vollständig gelesen, nicht nur `tail`; `scutil` bestätigte Macmini, `ps -eo pid,ppid,command`
+zeigte nur die eigene laufende `claude -p`-Instanz, keine Doppel-Instanz). Ein unkommittierter
+Rest des 83. Laufs lag noch vor und wurde zuerst per `nas-commit-now.sh` gesichert; die
+Fernseite lief in den bekannten NAS-Merge-Konflikt über mehrere fremde KB-CHANGELOGs (Memory
+`project_nas-git-merge-konflikt-dispatch-loop-260829`), lokal blieb der Stand sauber (kein
+`MERGE_HEAD`), dem 15-Min-Cron überlassen.
+
+Position `00_Allgemein/03_Fragen/Fragen.doc` bearbeitet (`.doc`, per `textutil -convert txt`
+gelesen, kein Textlayer-PDF nötig). Von rund 60 Prüfungsfragen sind nur acht beantwortet, der
+Rest bleibt leer und wurde nicht destilliert (nichts erfunden). Die acht Antworten ergaben
+vier Fakten, destilliert zu
+[[fragen-doc-alberti-vignola-fassade-saeule-manierismus-beginn]]: Theorie-Praxis-Unterscheidung
+Alberti («De re aedificatoria») vs. Vignola/Serlio, Verselbständigung der Kirchenfassade seit
+dem Mittelalter mit städtebaulich begründetem Beleg bei Alberti (Sant'Andrea Mantua,
+Differenzproportionierung Fassade/Langhaus), Säulensymbolik über drei Epochen (Brunelleschi
+statisch, Palladianismus proportional-ideal, nach der Französischen Revolution Hoheitssymbol),
+zwei Bauten am Beginn des Manierismus (Biblioteca Laurenziana Florenz/Michelangelo 1524, Il
+Gesù Rom/Giulio Romano 1568 — Widerspruch zur della-Porta-Zuschreibung in
+[[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]] dokumentiert, nicht
+aufgelöst).
+
+Duplikatscheck zuerst ausgeführt gegen
+[[renaissance-epochencharakteristik-stilmerkmale-architekturtheorie-vitruv-alberti]]: kein
+Artikel-Duplikat (Sant'Andrea Mantua dort bisher nur unbegründete offene Position), dort per
+Ergänzung und beidseitiger Rückverlinkung erweitert statt dupliziert. Die private Schlussbitte
+der Quelldatei an einen mit Vornamen genannten Kommilitonen wurde bewusst nicht übernommen
+(kein Fachinhalt, keine Fremddaten Dritter). Sperrlisten-Prüfung: kein Fund.
+
+`git diff --numstat` auf die Inventardatei zeigte einen reinen Append (`48 0`). **Damit ist
+die Position `Fragen.doc` erledigt.** Offen bleiben in dieser Sektion: 16 Architektenportraits
+(zehn davon Duplikate andernorts), drei Nicht-Portrait-Positionen desselben Ordners, Kartenset,
+Sammelmappe, Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51) und `Moderne.pdf`
+(Duplikatsprüfung gegen Semper-Artikel nötig). **Nächster Lauf:** `Moderne.pdf`
+(Duplikatscheck zuerst) oder die fünf nicht-dubletten Architektenportrait-Kandidaten
+(Alberti, Bramante, Raffael, Michelangelo, Brunelleschi — die Renaissance-Kernfiguren,
+Duplikatscheck trotzdem zwingend).
+
 ## 2026-08-30 — P2-Lauf, dritter Lauf Architektenportraits-Ordner (83. Lauf, Lane FACHWISSEN)
 
 Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, diese Datei, Inventardatei —

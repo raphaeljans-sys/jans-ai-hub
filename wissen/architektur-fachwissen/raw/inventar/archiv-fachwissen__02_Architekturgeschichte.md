@@ -835,3 +835,51 @@ lohnt sich eher ein Blick auf `Fragen.doc`, den Rest von `Renaissance-Zusammenfa
 und `Moderne.pdf`, oder eine gezielte Prüfung, ob Alberti/Bramante/Raffael/Michelangelo/
 Brunelleschi (Renaissance-Kernfiguren) trotz Nennung im Sauter-Kanon-Artikel noch
 eigenständigen Portrait-Mehrwert bieten (Kurzbiografie fehlt dort, nur Bauten gelistet).
+
+## 260830 — Lauf `Fragen.doc` (84. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen, nicht nur `tail`; `scutil` bestätigte Macmini,
+`ps -eo pid,ppid,command` zeigte nur die eigene laufende `claude -p`-Instanz PID 16771,
+keine Doppel-Instanz). Ein unkommittierter Rest des 83. Laufs lag noch vor (sauberer
+Append) und wurde zuerst per `nas-commit-now.sh` gesichert; die Sicherung selbst scheiterte
+am bekannten NAS-Merge-Konflikt in mehreren fremden KB-CHANGELOGs (siehe Memory
+`project_nas-git-merge-konflikt-dispatch-loop-260829`), lokal blieb der Stand aber sauber
+(kein `MERGE_HEAD`, keine Konfliktmarker) — dem 15-Min-Cron überlassen.
+
+Position `00_Allgemein/03_Fragen/Fragen.doc` (Zeile 88 oben) bearbeitet: Datei ist ein
+`.doc` (kein Textlayer-PDF), mit `textutil -convert txt -stdout` gelesen. Von rund 60
+gestellten Prüfungsfragen sind nur die ersten acht beantwortet, der Rest ist leer (reine
+Prüfungsfragen ohne Fakteninhalt) — nicht destilliert, nichts erfunden. Die acht
+beantworteten Fragen ergaben vier verwertbare Fakten, konsolidiert in
+[[fragen-doc-alberti-vignola-fassade-saeule-manierismus-beginn]]: Theorie-Praxis-
+Unterscheidung Alberti («De re aedificatoria», 10 Bücher) vs. Vignola/Serlio (Rezeptbücher),
+Verselbständigung der Kirchenfassade seit dem Mittelalter mit konkretem Beleg bei Alberti
+(Sant'Andrea Mantua, städtebaulich begründete Differenzproportionierung Fassade/Langhaus),
+Säulensymbolik-Belegkette über drei Epochen (Brunelleschi statisch → Palladianismus
+proportional-ideal → nach der Französischen Revolution Hoheitssymbol), zwei Bauten am
+Beginn des Manierismus (Biblioteca Laurenziana Florenz/Michelangelo 1524, Il Gesù
+Rom/Giulio Romano 1568 — Widerspruch zur della-Porta-Zuschreibung in
+[[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]] dokumentiert,
+nicht aufgelöst). Duplikatscheck gegen
+[[renaissance-epochencharakteristik-stilmerkmale-architekturtheorie-vitruv-alberti]] zuerst
+ausgeführt: kein Artikel-Duplikat (jener Artikel nennt Sant'Andrea Mantua nur als offene
+Position ohne Begründung), dort per Ergänzung und beidseitiger Rückverlinkung ergänzt statt
+dupliziert.
+
+Die private Schlussbitte der Datei an einen mit Vornamen genannten Kommilitonen wurde
+bewusst **nicht** übernommen (kein Fachinhalt, keine Fremddaten Dritter im neuen Artikel).
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekannte
+Architekten. `git diff --numstat` zeigt für diese Inventardatei nach diesem Lauf einen
+reinen Append.
+
+**Damit ist die Position `Fragen.doc` erledigt.** Von den P2-Positionen dieser Sektion
+bleiben offen: 16 Architektenportraits (elf davon laut wiederholtem Duplikatscheck des
+83. Laufs bereits andernorts in dieser KB behandelt — Schinkel, Semper, Garnier, Ruskin,
+Morris, Webb, Wright, Sullivan, Vignola, Palladio, Ledoux —, fünf echte Kandidaten Alberti,
+Bramante, Raffael, Michelangelo, Brunelleschi), drei Nicht-Portrait-Positionen desselben
+Ordners, Kartenset und Sammelmappe, Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51,
+Einzelbau-Dokumentation, laut Vorlauf grossteils bereits abgedeckt) und `Moderne.pdf`
+(Duplikatsprüfung gegen Semper-Artikel vor Bearbeitung nötig). **Nächster Lauf:** entweder
+`Moderne.pdf` (Duplikatscheck zuerst) oder die fünf Renaissance-Kernfiguren-Portraits
+(Duplikatscheck trotz Sauter-Kanon-Nennung dennoch zwingend).
