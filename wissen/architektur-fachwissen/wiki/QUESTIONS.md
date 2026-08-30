@@ -4,6 +4,28 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260830 — Zeile 68, `schichtholz.htm` als Ergänzung statt Einzelartikel (127. Lauf Lane FACHWISSEN)
+
+Quelle: Lane FACHWISSEN, Sektion `02_Kunst_Geschichte`, Zeile 68 (733-Dateien-P2-Position).
+
+**#77 Zwei bestehende Artikel liefern jetzt einen unspezifischen Cross-Link, ohne selbst
+ergänzt zu werden.** Beim Erweitern von
+[[organische-schichtholz-moderne-aalto-eames-jacobsen]] um die Materialgenealogie aus
+`schichtholz.htm` (Thonet, Kriegsdurchbruch, Domus-Rezeption) ergaben sich zwei konkrete
+Ergänzungsmöglichkeiten für bereits bestehende Artikel, die in diesem Lauf bewusst nicht
+selbst vorgenommen wurden, um deren Primärquellen-Fundament nicht mit einer Sekundärquelle
+zu vermischen, ohne das explizit zu prüfen: (a)
+[[carlo-mollino-turiner-barock-organische-schichtholzmoebel]] könnte um den
+Domus/Eames-Rezeptionsweg (Mollinos Schichtholzarbeiten Mitte der 1940er, laut `schichtholz.htm`
+von den in «Domus» gezeigten Eames-Arbeiten beeinflusst) ergänzt werden; (b)
+[[ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain]] könnte um
+das Sitzmaterial von «Antilope»/«Springbock» (laut `schichtholz.htm` geformtes Schichtholz,
+im bestehenden Artikel nicht spezifiziert) ergänzt werden. Beide Male ist die Aussage nur in
+der anonymen `schichtholz.htm`-Quelle belegt, nicht zusätzlich im jeweiligen Personen-
+Quelltext (`mollino.htm`, `race.htm`) gegengeprüft. Wer beantworten kann: ein künftiger Lauf,
+der `mollino.htm`/`race.htm` erneut liest und gegenprüft, ob die dortigen Quelltexte diese
+Details bestätigen, bevor er sie in die beiden bestehenden Artikel einträgt.
+
 ## 260830 — Vierzigster P2-Lauf, Quellentextband-Zählung driftet (Korpus 4 Sektion `01_Staedtebau`)
 
 **#74 Die fortlaufende Zählung "X von 54 destilliert" der `Quellentextband-1.pdf`-Anthologie ist

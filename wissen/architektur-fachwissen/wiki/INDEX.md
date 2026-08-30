@@ -2894,3 +2894,55 @@ den 12 verbliebenen Positionen (`mailand.htm`, `schichtholz.htm`, `behrens.htm`,
 `bugholz.htm`, `day.htm`) — bei `schichtholz.htm`/`behrens.htm` weiterhin vorab prüfen, ob
 Ergänzung bestehender Artikel treffender ist als eigener, sonst laut Queue-Regel nächste
 Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (127. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen). Working Tree bei
+Laufbeginn nicht sauber (126. Lauf fertig, aber unkommittiert) — während der Prüfung griff
+der 15-Minuten-Cron und committete den Vorlauf selbst (`f16de7a3d`), kein eigener
+`nas-commit-now.sh`-Aufruf nötig. Vorab Gegenprobe, ob die beiden als P1 markierten
+Sektionen `03_Bauprozesse_I_II` (28 Tabellenzeilen) und `10_Protomodern` (13 Zeilen) wirklich
+offen sind: beide sind es nicht — die inline-`P1`-Markierung der Rohtabelle wird in dieser
+KB nie editiert (Rule: `raw/` nur mit Erledigt-Ausnahme), der tatsächliche Stand steht in den
+angehängten `## Destillat-Fortschritt`-Abschnitten der jeweiligen Inventardatei bzw. im
+CHANGELOG; beide Sektionen sind dort für P1 und den grössten Teil von P2 als abgeschlossen
+dokumentiert. Damit bestätigt: `02_Kunst_Geschichte` Zeile 68 bleibt der korrekte
+Arbeitspunkt.
+
+Die drei kleinsten der 12 laut 126. Lauf verbliebenen Positionen gelesen: `mailand.htm`,
+`schichtholz.htm`, `behrens.htm`. Duplikatscheck vorab (`grep -rli` gegen `wiki/*.md` ohne
+`INDEX.md`/`QUESTIONS.md`):
+
+- `mailand.htm` (Institutionsgeschichte der Mailänder Triennale 1923–1968) — keine
+  Dublette, nur Streifung in
+  [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]] (Pontis
+  Organisatorenrolle, keine durchgehende Chronologie der Ausstellung selbst). Neuer Artikel
+  [[mailaender-triennale-institutionsgeschichte-1923-1968]].
+- `behrens.htm` (Personenbiografie Peter Behrens) — Behrens taucht bereits als Nebenfigur in
+  sieben bestehenden Artikeln auf (Turbinenhalle, Lehrverhältnis Gropius/Mies/Corbusier),
+  aber ohne eigene Design-Biografie; kein Duplikat, sondern Lücke. Neuer Artikel
+  [[peter-behrens-aeg-industriedesign-werkbund-architektenschule]] mit Rückverlinkung auf
+  alle sieben bestehenden Erwähnungen.
+- `schichtholz.htm` (thematischer Artikel zur Materialtechnik, kein Personenartikel) — wie
+  vom 126. Lauf vermutet, eine Ergänzung statt eigener Artikel: erweitert
+  [[organische-schichtholz-moderne-aalto-eames-jacobsen]] um die technische
+  Materialgenealogie (Thonet Mitte 19. Jh., Kriegsdurchbruch synthetische Harze/
+  Luftfahrtindustrie 1942, Eames/Saarinen-Beinschienen für die US Navy, parallele
+  britische Entwicklung Ernest Race/Robin Day, italienische Domus-Rezeption
+  Mollino/di Carli/Mango/Arflex/Cassina/Gavina, Rietvelds «Birza»-Versuch 1927,
+  Ablösung durch Kunststoff ab den 1950ern) und ergänzt Rückverweise in
+  [[carlo-mollino-turiner-barock-organische-schichtholzmoebel]] (Domus/Eames-Rezeptionsweg
+  dort als offener Punkt vermerkt statt nachträglich eingefügt, um den bestehenden Artikel
+  nicht zu verändern) und
+  [[ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain]]
+  (Sitzmaterial Antilope/Springbock: geformtes Schichtholz, dort bislang nicht spezifiziert).
+
+Damit sind 119 von 128 Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert, 9
+inhaltstragende Positionen bleiben offen. `git diff --numstat` auf die Inventardatei zeigte
+keine Änderung (Sammelzeile unverändert, wie beim 126. Lauf), auf die beiden neuen
+Wiki-Dateien reine Neuanlage, auf den erweiterten Schichtholz-Artikel reiner Zusatz (kein
+Bulletpunkt/Absatz entfernt). Details CHANGELOG 30.08.2026. **Zeile 68 bleibt offen,
+nächster Schritt:** Fortsetzung nach Dateigrösse unter den 9 verbliebenen Positionen
+(`wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`,
+`deskey.htm`, `bugholz.htm`, `day.htm`), sonst laut Queue-Regel nächste Sektion mit offenem
+P1/P2.

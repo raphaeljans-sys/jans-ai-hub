@@ -1,5 +1,68 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (127. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen mehr). Hostname `Macmini`
+via `scutil` bestätigt, genau ein `claude -p`-Prozess mit diesem Dispatch-Text (PID 55017),
+kein Doppel-Dispatch. Working Tree bei Laufbeginn nicht sauber (126. Lauf fertig, aber
+unkommittiert); während der Prüfung griff der 15-Minuten-Cron und committete den Vorlauf
+selbst (`f16de7a3d`), kein eigener `nas-commit-now.sh`-Aufruf nötig.
+
+Vor Arbeitsbeginn geprüft, ob die inline als `P1` markierten Sektionen `03_Bauprozesse_I_II`
+(28 Tabellenzeilen) und `10_Protomodern` (13 Tabellenzeilen) tatsächlich offen sind — auf den
+ersten Blick ein Hinweis auf 41 übersehene P1-Positionen. Gegenprobe gegen die jeweils
+angehängten `## Destillat-Fortschritt`-Abschnitte der Inventardateien (nicht nur die
+Rohtabelle, die bei dieser KB nie editiert wird) zeigt: beide Sektionen sind für P1
+vollständig und für P2 überwiegend abgeschlossen (siehe CHANGELOG-Einträge 29./30.08.2026
+weiter unten). Kein tatsächlicher Rückstand, nur eine nie aktualisierte Rohtabellen-Spalte.
+`02_Kunst_Geschichte` Zeile 68 bleibt damit der korrekte Arbeitspunkt.
+
+Die drei kleinsten der laut 126. Lauf verbliebenen 12 Positionen gelesen: `mailand.htm`
+(14162 Bytes), `schichtholz.htm` (14653 Bytes), `behrens.htm` (14730 Bytes). Duplikatscheck
+vorab (`grep -il` gegen `wiki/*.md`):
+
+- **`mailand.htm`** — Institutionsgeschichte der Mailänder Triennale (Gründung als Biennale
+  Monza 1923, Umzug nach Mailand/Palazzo dell'Arte 1933, faschistische Jahrgänge 1936/1940,
+  Wiederbelebung 1947, Höhepunkt «La forma dell'utile» 1951, Castiglioni-Kongresssaal 1957,
+  Abkehr vom «System der Stars» 1964, Ende durch Studentenproteste 1968). Bislang nur über
+  Pontis Organisatorenrolle in
+  [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]] gestreift, keine
+  durchgehende Chronologie vorhanden — kein Duplikat. Neuer Artikel
+  [[mailaender-triennale-institutionsgeschichte-1923-1968]], `status: speculative`,
+  verlinkt mit den bestehenden Personenartikeln zu den genannten Preisträgern (Ponti,
+  Zanuso, Castiglioni-Brüder, Nizzoli, Colombo, Wirkkala).
+- **`behrens.htm`** — vollständige Design-Biografie Peter Behrens (Frühwerk Münchner
+  Sezession/Jugendstil, Künstlerkolonie Mathildenhöhe Darmstadt 1900, AEG-Industriedesign
+  ab 1907 unter Walter Rathenau, Deutscher Werkbund 1907, Lehrverhältnis
+  Gropius/Mies/Corbusier ab 1910). Behrens war bereits Nebenfigur in sieben Artikeln dieser
+  KB, aber ohne eigene Design-Biografie — kein Duplikat, sondern eine Lücke. Neuer Artikel
+  [[peter-behrens-aeg-industriedesign-werkbund-architektenschule]], `status: speculative`,
+  mit Rückverlinkung auf alle sieben bestehenden Erwähnungen.
+- **`schichtholz.htm`** — kein Personenartikel, sondern ein thematischer Artikel zur
+  Materialtechnik «geformtes Schichtholz», bereits vom 126. Lauf als Ergänzungskandidat
+  vermerkt. Bestätigt: erweitert
+  [[organische-schichtholz-moderne-aalto-eames-jacobsen]] um eine neue Sektion
+  «Materialgeschichte» (Thonet Mitte 19. Jh., Aaltos 1933er Patent, Kriegsdurchbruch
+  synthetische Harze/elektrische Biegemaschinen in der Luftfahrtindustrie, Eames/Saarinen
+  1942 Beinschienen für die US Navy und Profile für Schulungsflugzeuge/Militärgleiter,
+  Evans-Manufacturing-Serienfertigung ab 1946, parallele britische Entwicklung Ernest
+  Race/Robin Day, italienische Rezeption über «Domus» bei Mollino/di Carli/Mango/Arflex/
+  Cassina/Gavina, Rietvelds «Birza»-Einzelschalen-Versuch 1927, Ablösung durch Kunststoff ab
+  den 1950er/60er-Jahren). `git diff --numstat` zeigt reinen Zusatz (kein bestehender
+  Bulletpunkt/Absatz entfernt). Zwei Ergänzungsmöglichkeiten für
+  [[carlo-mollino-turiner-barock-organische-schichtholzmoebel]] und
+  [[ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain]] bewusst
+  nicht selbst vorgenommen (Beleg nur in der anonymen Sekundärquelle, nicht gegen die
+  jeweiligen Personen-Quelltexte gegengeprüft) — Frage #77 in `wiki/QUESTIONS.md`.
+
+Damit sind 119 von 128 Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert, 9
+inhaltstragende Positionen bleiben offen. `git diff --numstat` auf die Inventardatei zeigte
+keine Änderung (Sammelzeile unverändert, wie bei den Vorläufen). **Zeile 68 bleibt offen,
+nächster Schritt:** Fortsetzung nach Dateigrösse unter den 9 verbliebenen Positionen
+(`wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`,
+`deskey.htm`, `bugholz.htm`, `day.htm`), sonst laut Queue-Regel nächste Sektion mit offenem
+P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (122. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (`KORPUS-QUEUE.md`, `skills/wissens-destillat/specs/`, `wiki/INDEX.md`,
