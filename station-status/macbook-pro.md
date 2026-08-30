@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 15:11:36
+Stand: 30.08.2026 15:21:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 15:11:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b5f79cacc Lane FACHWISSEN 67. Lauf: Sektion 10_Protomodern P1+P2 abgeschlossen, Begriffsapparat-Artikel
+- 46fbfbbab nas-selfcommit: 4 Datei(en) 2026-08-30 15:15
