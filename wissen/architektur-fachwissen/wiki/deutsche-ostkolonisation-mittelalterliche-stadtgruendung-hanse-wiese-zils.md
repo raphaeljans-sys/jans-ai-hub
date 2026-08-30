@@ -3,7 +3,7 @@ title: "Wiese/Zils «Deutsche Kulturgeographie»: Ostkolonisation, mittelalterli
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/kapitel01_dk_vorindustrielle_120dpi.pdf (Bernd Wiese, Norbert Zils, unter Mitarbeit Gabriele Knoll: «Deutsche Kulturgeographie — Werden, Wandel und Bewahrung deutscher Kulturlandschaften», Busse Seewald, Herford 1987, Kapitel I.3 «Landausbau, Kolonisationsbewegung und der Aufstieg der Städte im hohen und späten Mittelalter», S. 33–68 des Originalwerks; CC-BY-NC-ND-lizenziert)"]
-links: ["[[berlin-stadterweiterung-schinkel-lenne-hobrecht]]", "[[stadtgruendung-stadterweiterung-stadtumbau-begriffstrias]]"]
+links: ["[[berlin-stadterweiterung-schinkel-lenne-hobrecht]]", "[[stadtgruendung-stadterweiterung-stadtumbau-begriffstrias]]", "[[roemische-grundlagen-voelkerwanderung-fraenkische-expansion-wiese-zils]]", "[[wiese-zils-wuestungsperiode-bergstaedte-absolutismus-residenzstaedte]]"]
 ---
 
 # Wiese/Zils: Ostkolonisation, mittelalterliche Stadtgründung und Hanse (10.–15. Jh.)

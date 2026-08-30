@@ -3,7 +3,7 @@ title: "Wiese/Zils «Deutsche Kulturgeographie»: Römische Grundlagen und Völk
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/kapitel01_dk_vorindustrielle_120dpi.pdf (Bernd Wiese, Norbert Zils, unter Mitarbeit Gabriele Knoll: «Deutsche Kulturgeographie — Werden, Wandel und Bewahrung deutscher Kulturlandschaften», Busse Seewald, Herford 1987, Kapitel I.1 «Römerzeitliche Grundlagen der Kulturlandschaften in den Rheinlanden und in Süddeutschland», S. 17–23, und Kapitel I.2 «Völkerwanderung, fränkische Expansion und die Gestaltung des zentralen Mitteleuropa im frühen Mittelalter (4. bis 10. Jahrhundert)», S. 24–32 des Originalwerks; CC-BY-NC-ND-lizenziert)"]
-links: ["[[deutsche-ostkolonisation-mittelalterliche-stadtgruendung-hanse-wiese-zils]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]", "[[berlin-stadterweiterung-schinkel-lenne-hobrecht]]"]
+links: ["[[deutsche-ostkolonisation-mittelalterliche-stadtgruendung-hanse-wiese-zils]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]", "[[berlin-stadterweiterung-schinkel-lenne-hobrecht]]", "[[wiese-zils-wuestungsperiode-bergstaedte-absolutismus-residenzstaedte]]"]
 ---
 
 # Wiese/Zils: Römische Grundlagen und fränkische Expansion (1. Jh. v. Chr. – 10. Jh.)

@@ -1,5 +1,26 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zwanzigster P2-Lauf (`kapitel01_dk_vorindustrielle_120dpi.pdf` Unterkapitel 4/5 destilliert, Datei damit vollständig abgeschlossen, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 70. Beispiel Memory `project_fachwissen-dispatch-loop`, Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
+
+Unkommittierte Buchführung des Vorlaufs (Inventardatei, CHANGELOG, INDEX, KORPUS-QUEUE,
+neuer Artikel zu Unterkapitel 1/2) per `nas-commit-now.sh` gesichert, traf den bekannten
+Merge-Konflikt (sieben fremde/eigene Dateien), `MERGE_HEAD`/Konfliktmarker-Check sauber, dem
+15-Min-Cron überlassen. `/tmp/kapitel01_dk.txt` aus dem Vorlauf noch vorhanden, kein erneuter
+`pypdf`-Durchlauf nötig. Unterkapitel 4 (S. 68-84: spätmittelalterliche Wüstungsperiode
+1350-1470, Gutsherrschaft östlich der Elbe-Saale-Linie, Oberharzer/erzgebirgische
+Bergstädte, die Fugger als Bank-/Produktionskonzern, Dreissigjähriger Krieg als Zäsur für
+Reichs-/Hansestädte) und Unterkapitel 5 (S. 85-98: Absolutismus, Merkantilismus,
+Hugenotten-/Peuplierungspolitik, Zweite Deutsche Ostsiedlung nach Ungarn/Neurussland,
+Manufakturen, Residenzstädte, Aufstieg Brandenburg-Preussens bis zu den
+Stein-Hardenberg-Reformen) vollständig gelesen und zu einem neuen Artikel destilliert →
+[[wiese-zils-wuestungsperiode-bergstaedte-absolutismus-residenzstaedte]]. Gegen Wiki-Bestand
+geprüft, kein Duplikat; alle drei Wiese/Zils-Artikel (Unterkapitel 1/2, 3, 4/5) gegenseitig
+verlinkt. **`kapitel01_dk_vorindustrielle_120dpi.pdf` damit vollständig destilliert** (fünf
+Unterkapitel, drei Wiki-Artikel). `git diff --numstat` auf die Inventardatei zeigt reinen
+Append. Von den 33 Autorendossiers der Position 4 bleiben acht offen, dazu der
+Lampugnani-Quellentextband (358 S. Scan, struktureller Grenzfall). Nächster Lauf:
+Lampugnani-Quellentextband in Teilabschnitten, sonst nächstes Autorendossier.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, neunzehnter P2-Lauf (`kapitel01_dk_vorindustrielle_120dpi.pdf` Unterkapitel 1/2 destilliert, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 69. Beispiel Memory `project_fachwissen-dispatch-loop`, Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz, parallel dazu unabhängige Lane SYNOBSIS)
 
 Unkommittierte Sonne-Buchführung des Vorlaufs (`KORPUS-QUEUE.md`/CHANGELOG/INDEX) per

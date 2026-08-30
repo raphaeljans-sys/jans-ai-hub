@@ -1112,3 +1112,45 @@ bleiben ebenfalls offen (in diesem Lauf nicht bearbeitet). **Nächster Lauf:** U
 und 5 aus `/tmp/kapitel01_dk.txt` (bereits extrahiert, falls die Datei noch existiert, sonst
 erneut per `pypdf`) destillieren, danach Lampugnani-Quellentextband oder nächstes
 unbearbeitetes Autorendossier.
+
+## Zwanzigster P2-Lauf, `kapitel01_dk...` Unterkapitel 4/5 destilliert — Datei damit
+vollständig abgeschlossen (30.08.2026, Lane FACHWISSEN, Station laut `scutil` Macmini
+bestätigt — Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2
+Wiki-Artikel»/«MacBook Pro», 70. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Vor Arbeitsbeginn `ps aux` (nur die eigene Instanz, PID 51332, kein `MERGE_HEAD`) und
+`KORPUS-QUEUE.md`/CHANGELOG gegengeprüft: Stand identisch zum 19. Lauf dokumentierten Ende.
+Unkommittierte Buchführung des Vorlaufs (diese Inventardatei, CHANGELOG.md, INDEX.md,
+KORPUS-QUEUE.md, der neue Artikel zu Unterkapitel 1/2) per `nas-commit-now.sh` gesichert —
+traf den bekannten Merge-Konflikt (sieben Dateien: normen-/architekten-synobsis-/baurecht-/
+grobkosten-CHANGELOGs, `KORPUS-QUEUE.md`, eine fremde Inventardatei
+`02_Architekturtheorie`, `wiki/QUESTIONS.md`); `MERGE_HEAD`-Check und Konfliktmarker-Grep auf
+die eigenen vier Dateien liefen sauber, dem 15-Min-Cron überlassen (Rule 4 unverändert).
+
+`/tmp/kapitel01_dk.txt` (bereits aus dem Vorlauf extrahiert) existierte noch, kein erneuter
+`pypdf`-Durchlauf nötig. Unterkapitel 4 (Originalseiten 68-84: spätmittelalterliche
+Wüstungsperiode 1350-1470 mit Pest-Bevölkerungseinbruch und Wüstungsraten-Kartierung,
+Gutsherrschaft nördlich/östlich der Elbe-Saale-Linie, die sieben Oberharzer Bergstädte und
+das sächsisch-böhmische Erzgebirge als Bergstadt-Typ, die Fugger als Übergang von
+Handelsgesellschaft zu Bank-/Produktionskonzern, der Dreissigjährige Krieg als Zäsur für
+Reichs-/Hansestädte) und Unterkapitel 5 (Originalseiten 85-98: Absolutismus als Vorform des
+modernen Staates, Merkantilismus, Hugenotten-/Salzburger-/Pfälzer-Peuplierungspolitik,
+Neulandgewinnung/Fehnkultur/Zweite Deutsche Ostsiedlung nach Ungarn und Neurussland,
+Manufakturen, Residenzstädte am Versailles-Vorbild, Aufstieg Brandenburg-Preussens über das
+Kantonalsystem bis zu den Stein-Hardenberg-Reformen) vollständig gelesen und zu einem
+gemeinsamen neuen Artikel destilliert →
+[[wiese-zils-wuestungsperiode-bergstaedte-absolutismus-residenzstaedte]]. Gegen bestehenden
+Wiki-Bestand geprüft (`grep -ril` über `wiki/*.md` nach Wüstung/Bergstadt/Fugger/
+Residenzstädte/Merkantilismus/Hugenotten/Brandenburg-Preußen/Absolutismus): keine
+Überschneidung, nur der neue Artikel selbst und die beiden vorangehenden Wiese/Zils-Artikel
+trafen. Alle drei Wiese/Zils-Artikel gegenseitig verlinkt (`links:`-Frontmatter ergänzt).
+
+**Damit ist `kapitel01_dk_vorindustrielle_120dpi.pdf` vollständig destilliert** (alle fünf
+Unterkapitel, drei Wiki-Artikel: Ostkolonisation/Hanse, römische Grundlagen/Völkerwanderung,
+Wüstungsperiode/Bergstädte/Absolutismus). `git diff --numstat` auf diese Inventardatei zeigt
+reinen Append. Von den 33 Autorendossiers der Position 4 bleiben weiterhin acht unangetastet,
+dazu der Lampugnani-Quellentextband (358 S. Scan, struktureller Grenzfall dieser Lane, siehe
+64. Beispiel Memory) als einzige noch offene Nicht-Autorendossier-Position dieser Sektion.
+**Nächster Lauf:** Lampugnani-Quellentextband in Teilabschnitten versuchen (analog zur
+Ganzdatei-Strategie bei anderen Bildscan-PDF unter 20 MB, aber mit sehr hoher Seitenzahl —
+siehe Rule 10 Memory), sonst nächstes unbearbeitetes Autorendossier nach Ordnernummer.
