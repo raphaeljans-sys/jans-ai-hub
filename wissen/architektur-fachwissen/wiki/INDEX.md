@@ -2395,3 +2395,16 @@ eigener Artikel gerechtfertigt. Zwei kurze Appia-Bildvorlagen (`Seiten aus
 TRADITIONALISMUS_UM_1910-27/28.pdf`) sind reine Scans ohne Text. Zeile 69 gilt damit als
 abgeschlossen. **Nächster Lauf:** Zeile 75 Stilepochen-/Hagia-Sophia-Chronologie, sonst
 laut Queue-Regel nächste Sektion mit offenem P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (107. Lauf Lane FACHWISSEN)
+
+Drei weitere Personenartikel des Design-Ordners `08_Design` gelesen (`russell.htm`, `rams.htm`,
+`svenska.htm`), zu zwei neuen Wiki-Artikeln destilliert:
+[[nationale-designverbaende-gordon-russell-dia-svenska-slojdforeningen]] (Gordon Russell/DIA und
+Svenska Slöjdföreningen als gleicher Institutionstyp, Berührungspunkt Stockholmer Ausstellung
+1930) und [[dieter-rams-braun-vitsoe-deutscher-neofunktionalismus-ulm]] (Braun/Vitsœ,
+Neofunktionalismus über HfG Ulm und Mies van der Rohe). Details CHANGELOG 30.08.2026. Damit 22
+von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 79 Personenartikel bleiben offen.
+**Nächster Lauf:** Zeile 68 fortsetzen (Kandidaten nach Dateigrösse: `paris_1925.htm`,
+`zanuso.htm`, `wirkkala.htm`, `saarinen.htm`, `franck.htm`, `starck.htm`), sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2.

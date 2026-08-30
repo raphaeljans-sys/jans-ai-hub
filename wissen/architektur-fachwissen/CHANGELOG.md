@@ -6267,3 +6267,42 @@ Gray, Magistretti, Ponti, Jacobsen, Sottsass). Kein Datenschutz-/Sperrlisten-Fun
 Dateigrösse: `gray.htm`, `magistretti.htm`, `ponti.htm`, `jacobsen.htm`, `josef_frank.htm`,
 `eames.htm`, `alvar_aalto.htm`), Duplikatscheck gegen den neuen Stahlrohrmöbel-Artikel und die
 Sektion `01_Innenarchitektur` vor jeder weiteren Destillation zwingend.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (107. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`/`wiki/INDEX.md`/`CHANGELOG.md` gegen `raw/inventar/`
+geprüft, keine Zahl aus dem Dispatch-Text übernommen). Working Tree bei Laufbeginn nicht sauber:
+der 106. Lauf (`sottsass.htm`/`ruhlmann.htm`/`kaare_klint.htm`, zwei neue Wiki-Artikel plus
+KORPUS-QUEUE/CHANGELOG/INDEX) war bereits erledigt, aber `nas-commit-now.sh` an einem
+NAS-seitigen Merge-Konflikt gescheitert (bekanntes Muster, Memory
+`project_nas-git-merge-konflikt-dispatch-loop-260829`). Erneuter Versuch vor Arbeitsbeginn:
+wieder Merge-Konflikt in fremden Lane-Dateien (`wissen/normen`, `wissen/baurecht`,
+`wissen/grobkosten`, `skills/wissens-destillat/KORPUS-QUEUE.md` u. a.), vom Skript sauber
+zurückgerollt (kein `MERGE_HEAD`, keine Konfliktmarker im Baum, `HEAD` weiterhin identisch mit
+`origin/main`); die 106.-Lauf-Edits bleiben unstaged für den 15-Min-Cron, wie vom Skript
+vorgesehen. Nur ein `claude -p`-Prozess mit diesem Dispatch-Text laufend, kein Doppel-Dispatch.
+
+Drei weitere Personenartikel der Sektion `08_Design` gelesen: `russell.htm` (Gordon Russell,
+britische Design and Industries Association, Council of Industrial Design 1944–1959),
+`rams.htm` (Dieter Rams, Braun/Vitsœ, deutscher Neofunktionalismus über die HfG Ulm) und
+`svenska.htm` (Svenska Slöjdföreningen, gegründet 1845, Home Exhibition 1917, Stockholmer
+Ausstellung 1930). Duplikatscheck vorab (`grep -rli` gegen bestehende Wiki-Artikel): keine
+Dublette. Zwei neue Wiki-Artikel:
+[[nationale-designverbaende-gordon-russell-dia-svenska-slojdforeningen]] (Russell und die
+Svenska Slöjdföreningen als gleicher Institutionstyp — Verbandsstruktur statt Einzelperson/
+Atelier —, mit dokumentiertem Berührungspunkt an der Stockholmer Ausstellung 1930 sowie Bezug
+zu [[josef-frank-wien-schwedische-moderne-svenskt-tenn]]) und
+[[dieter-rams-braun-vitsoe-deutscher-neofunktionalismus-ulm]] (Rams als Fortsetzung des
+Bauhaus-Purismus über Ulm/Aicher/Gugelot und den direkten Mies-van-der-Rohe-Bezug, Bezug zu
+[[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]).
+
+Damit 22 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 79 Personenartikel bleiben
+offen. `git diff --numstat` zeigte für die Inventardatei vor diesem Lauf bereits `41 0`
+(Vor-Lauf, unverändert von diesem Lauf berührt); dieser Lauf selbst ändert die Inventardatei
+nicht (keine neue Erledigt-Markierung nötig, Zeile 68 bleibt als Ganzes offen bis alle
+Personenartikel gesichtet sind). **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach
+Dateigrösse unter den noch ungelesenen Positionen (`paris_1925.htm`, `zanuso.htm`,
+`wirkkala.htm`, `saarinen.htm`, `franck.htm`, `starck.htm`); `mies.htm` und `breuer.htm` sind
+bereits im Artikel [[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]
+verarbeitet. Sonst laut Queue-Regel nächste Sektion mit offenem P1/P2. Vor dem nächsten Lauf
+erneut `nas-commit-now.sh` versuchen.
