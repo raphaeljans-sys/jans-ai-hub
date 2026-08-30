@@ -1745,3 +1745,48 @@ Gegen Wiki-Bestand geprüft (`grep -rli` über `wiki/*.md`): keine Duplikate.
 begründet ohne Artikel abgeschlossen, 27 vollständig offen**. **Nächster
 Lauf:** aus der 54-Positionen-Liste im 30.-Lauf-Abschnitt weiterwählen,
 kurze bürorelevante Einzelauszüge zuerst.
+
+## Dreiunddreissigster P2-Lauf, Enea Silvio Piccolomini destilliert
+(30.08.2026, Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn selbst aus `KORPUS-QUEUE.md`, `wiki/INDEX.md`,
+CHANGELOG und dieser Inventardatei ermittelt (Dispatch-Text trägt bewusst
+keine Zahlen). Deckungsgleich mit dem 32. Lauf dokumentierten Ende (27/54
+destilliert). Working tree bei Laufbeginn sauber.
+
+Nächste Position aus der 54-Positionen-Liste des 30. Laufs gewählt: **Enea
+Silvio Piccolomini** (S. 233/240/241, drei Sub-Exzerpte derselben Position).
+Per vollem Pfad `/opt/homebrew/bin/pdftoppm` gerendert (Offset PDF-Seite =
+gedruckte Seite + 4, erneut bestätigt über Fusszeilen: S. 233 = PDF 237,
+S. 240 = PDF 244):
+
+- **Deutschland** (Buch II, Kap. 1/2/7, S. 233-234) vollständig gelesen:
+  politische Apologie gegen die Curia-These der deutschen Verarmung,
+  Stadtpracht (Beispiel Köln) als Wohlstandsbeweis, Kontrastfolie antikes
+  Germanien nach Caesar.
+- **Wien-Brief** (Brief 9, an einen Freund in Basel, April 1438, S. 240-241)
+  vollständig gelesen: quantifizierte Stadtbeschreibung — Befestigung,
+  Haustypologie («Stuben»-Heizraum), Rechtssonderstatus Adel/Klerus,
+  Strassenpflaster, Verwaltungsstruktur (18 Stadtväter, Stadtrichter,
+  Bürgermeister, einziges Fiskalamt Weinsteuer), quantifizierte
+  Versorgungslogistik (Einwohnerzahl über Kommunikanten, Weinlese-Logistik).
+- **Tivoli/Commentarii rerum memorabilium** (Buch V, S. 241-242) gelesen:
+  antiquarische Ruinenbeschreibung (Porta obscura, Hadriansvilla), kein
+  Verfahrens- oder Kennwertbezug, nur der Vollständigkeit halber im Artikel
+  vermerkt, nicht eigenständig destilliert (Delta-Ehrlichkeit).
+
+→ ein neuer Artikel
+[[enea-silvio-piccolomini-wien-1438-deutschland-tivoli-stadtbeschreibungen]],
+verlinkt mit [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]],
+[[siena-baupflege-dokumente-campo-fensterordnung-ballatoi-ufficio-bellezza]]
+und [[bern-handfeste-1218-satzungenbuch-1405-baulinien-nachbarrecht]].
+
+Gegen Wiki-Bestand geprüft (`grep -rli` nach «piccolomini»/«Enea Silvio»/
+«Pius II» über `wiki/*.md`): keine Treffer, keine Duplikate. `git diff
+--numstat` auf diese Inventardatei zeigt reinen Append. Von den 54 benannten
+Positionen der Anthologie sind jetzt **28 destilliert oder begründet ohne
+Artikel abgeschlossen, 26 vollständig offen**. **Nächster Lauf:** aus der
+54-Positionen-Liste im 30.-Lauf-Abschnitt weiterwählen — Campano (243) oder
+Pero Tafur (245) als nächste kurze Positionen vor dem bereits destillierten
+Francesco di Giorgio Martini (251), sonst Serlio (267) oder Pacioli (255)
+als bürorelevante Renaissance-Traktat-Kandidaten.

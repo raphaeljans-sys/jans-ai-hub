@@ -1,5 +1,41 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, dreiunddreissigster P2-Lauf (Enea Silvio Piccolomini destilliert, Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn selbst aus `KORPUS-QUEUE.md`, `wiki/INDEX.md`,
+CHANGELOG und der Inventardatei ermittelt (Dispatch-Text trägt bewusst
+keine Zahlen) — deckungsgleich mit dem 32. Lauf.
+
+Nächste Position aus der 54-Positionen-Liste (30. Lauf) gewählt: **Enea
+Silvio Piccolomini** (S. 233-242, drei Sub-Exzerpte). Per
+`/opt/homebrew/bin/pdftoppm` gerendert (Offset PDF-Seite = gedruckte Seite
++ 4, erneut bestätigt):
+
+- **Deutschland** (Buch II, S. 233-234): Apologie gegen die Curia-These der
+  deutschen Verarmung, Stadtpracht (Köln) als Wohlstandsbeweis.
+- **Wien-Brief** (S. 240-241, April 1438): quantifizierte
+  Stadtbeschreibung — Befestigung, Haustypologie («Stuben»), Rechtsstatus
+  Adel/Klerus, Strassenpflaster, schlanke Verwaltungsstruktur (18
+  Stadtväter, Stadtrichter, Bürgermeister, einziges Fiskalamt
+  Weinsteuer), quantifizierte Versorgungslogistik.
+- **Tivoli/Commentarii rerum memorabilium** (S. 241-242) gelesen, aber nur
+  fundstellenhalber vermerkt — reine Ruinenbeschreibung ohne Verfahrens-
+  oder Kennwertbezug (Delta-Ehrlichkeit).
+
+→ neuer Artikel
+[[enea-silvio-piccolomini-wien-1438-deutschland-tivoli-stadtbeschreibungen]],
+verlinkt mit [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]],
+[[siena-baupflege-dokumente-campo-fensterordnung-ballatoi-ufficio-bellezza]]
+und [[bern-handfeste-1218-satzungenbuch-1405-baulinien-nachbarrecht]].
+
+Gegen Wiki-Bestand geprüft (`grep -rli` nach «piccolomini»/«Enea Silvio»/
+«Pius II»): keine Duplikate. `git diff --numstat` auf die Inventardatei
+zeigt reinen Append (45/0). Von den 54 benannten Positionen der Anthologie
+sind jetzt **28 destilliert oder begründet ohne Artikel abgeschlossen, 26
+vollständig offen**. **Nächster Lauf:** Campano (243) oder Pero Tafur (245)
+als nächste kurze Positionen, sonst Serlio (267) oder Pacioli (255) als
+bürorelevante Renaissance-Traktat-Kandidaten.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zweiunddreissigster P2-Lauf (Vita Nicolai V und Hippokrates destilliert, Koran-Auszüge ohne Artikel, Lane FACHWISSEN)
 
 Dispatch-Text trägt weiterhin bewusst keine Zahlen — Stand vor Arbeitsbeginn
