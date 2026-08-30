@@ -1,5 +1,57 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (119. Lauf Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn selbst ermittelt statt aus dem Dispatch-Text übernommen (dieser
+nennt seit der reparierten Fassung bewusst keine Zahlen mehr). `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und `git log` gegen den tatsächlichen Zustand geprüft: Working Tree bei
+Laufbeginn sauber (Vorlauf 118 bereits als `auto-sync [Macmini]`-Commit `b3122fa48`
+vorhanden). Nächster laut INDEX/CHANGELOG angekündigter Schritt war die Fortsetzung von
+Zeile 68 mit `morrison.htm`, `noyes.htm`, `gugelot.htm` — alle drei existieren im
+NAS-Ordner `/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/
+08_Design/` und wurden gelesen.
+
+Duplikatscheck vorab (`grep -rli` gegen alle drei Namen über `wiki/*.md`): Jasper Morrison
+und Eliot Noyes ohne Treffer. Hans Gugelot bereits als Nebenfigur in
+`wiki/hochschule-fuer-gestaltung-ulm-scholl-aicher-bill-gugelot-maldonado.md` (Leitung
+Produktdesign-Abteilung) und im Rams-Artikel (SK4-Koautor) erwähnt, aber ohne eigene
+Biografie/Werkregister — kein Duplikat, sondern eigenständige Ergänzung mit neuen Fakten
+(Herkunft/Ausbildung ETH Zürich, Büro Max Bill, Braun-Werkregister, Kodak Carousel S,
+Systemgedanke).
+
+Drei neue Artikel:
+
+- [[jasper-morrison-britischer-minimalismus-cappellini-vitra-magis]] — britischer
+  Möbeldesigner (geb. 1959), Ausbildung Kingston/Royal College of Art, Durchbruch mit dem
+  Stuhl «Laundry Box» (1985), Werkregister für Cappellini («Universal System»), Vitra und
+  Magis (Flaschenträger 1994).
+- [[eliot-noyes-ibm-corporate-design-moma-kurator]] — amerikanischer Industriedesigner/
+  Architekt (1910–1977), MoMA-Kurator für Industriedesign, ab 1956 Design Director bei IBM
+  («Executive»/«Selectric»-Schreibmaschinen), später Berater für Westinghouse/Mobil/PanAm
+  und Präsident des MIT. Rückverlinkung zu
+  [[saarinen-eames-knoll-womb-chair-tulip-chair-moebeldesign]] (gemeinsamer MoMA-Wettbewerb
+  1940/41) und [[sason-dreyfuss-beratendes-industriedesign-streamlining-ergonomie]] (gleiche
+  Generation beratender Industriedesigner).
+- [[hans-gugelot-hfg-ulm-braun-systemdesign-carousel]] — deutsch-niederländischer
+  Produktdesigner (1920–1965), Ausbildung ETH Zürich, Büro Max Bill, ab 1954 Leiter
+  Produktdesign HfG Ulm, Werkregister für Braun (SK4, Sixtant-Rasierer, Büromöbelsystem
+  M 125) sowie Kodak «Carousel S» und Hamburger-U-Bahn-Design; Systemgedanke als
+  durchgängiges Werkprinzip. Rückverlinkung zum bestehenden HfG-Ulm-Artikel und zum
+  Rams-Artikel.
+
+Alle drei Quelldateien sind windows-1252-kodierte HTML-Dateien mit mojibake-Umlauten
+(`�` statt ä/ö/ü/ß im Read-Tool-Output); Umlaute wurden aus dem Kontext heraus korrekt
+rekonstruiert (reine Kodierungskorrektur, keine inhaltliche Ergänzung). Kein
+Datenschutz-/Sperrlisten-Fund. Damit sind 61 von 128 `.htm`-Dateien der Zeile 68 gelesen
+(davon weiterhin 32 als frameset-/banner-bedingt dauerhaft ertraglos identifiziert), rund
+67 Positionen bleiben offen. `git diff --numstat` auf die Inventardatei
+(`archiv-fachwissen__02_Kunst_Geschichte.md`) zeigte `0 0` — Fortschritt ausschliesslich in
+`wiki/INDEX.md`/diesem CHANGELOG/`KORPUS-QUEUE.md` nachgeführt (Praxis seit dem 106. Lauf).
+`git diff --numstat` auf die drei neuen Wiki-Dateien und dieses CHANGELOG bestätigt reine
+Neuanlage/reinen Append. Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68 bleibt
+offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den verbleibenden ungelesenen
+inhaltstragenden Positionen, sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (118. Lauf Lane FACHWISSEN)
 
 Stand vor Arbeitsbeginn selbst ermittelt statt aus dem Dispatch-Text übernommen (dieser

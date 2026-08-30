@@ -2617,3 +2617,23 @@ offen. `git diff --numstat` auf die Inventardatei zeigte `0 0`. Details CHANGELO
 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse
 (`morrison.htm`, `noyes.htm`, `gugelot.htm`), sonst laut Queue-Regel nächste Sektion mit
 offenem P1/P2.
+
+**119. Lauf (30.08.2026, Lane FACHWISSEN): Zeile 68 fortgesetzt.** Stand selbst ermittelt
+(Dispatch-Text nennt bewusst keine Zahlen). Die drei im 118. Lauf angekündigten Dateien
+gelesen: `morrison.htm`, `noyes.htm`, `gugelot.htm`. Duplikatscheck vorab (Grep gegen
+`wiki/*.md`): Morrison und Noyes ohne Treffer, Gugelot bereits als Nebenfigur im
+bestehenden HfG-Ulm-Artikel erwähnt, aber ohne eigene Biografie — kein Duplikat, sondern
+Ergänzung. Drei neue Artikel:
+[[jasper-morrison-britischer-minimalismus-cappellini-vitra-magis]] (Ausbildung Kingston/
+Royal College of Art, «Laundry Box»-Stuhl 1985, Cappellini/Vitra/Magis-Werkstücke),
+[[eliot-noyes-ibm-corporate-design-moma-kurator]] (MoMA-Kurator, IBM Design Director ab
+1956, «Executive»/«Selectric»-Schreibmaschinen, Rückverlinkung zu Saarinen/Eames- und
+Dreyfuss-Artikeln) und
+[[hans-gugelot-hfg-ulm-braun-systemdesign-carousel]] (ETH-Zürich-Ausbildung, Braun SK4/
+Sixtant, Kodak Carousel S, Systemgedanke; Rückverlinkung zum bestehenden HfG-Ulm-Artikel und
+zum Rams-Artikel). Damit 61 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 67
+Positionen bleiben offen. `git diff --numstat` auf die Inventardatei zeigte `0 0` (Praxis
+seit dem 106. Lauf: Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE, Sammelzeile bleibt
+unverändert). **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse
+unter den verbleibenden ungelesenen inhaltstragenden Positionen, sonst laut Queue-Regel
+nächste Sektion mit offenem P1/P2.
