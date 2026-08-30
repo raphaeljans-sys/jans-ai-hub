@@ -3,7 +3,7 @@ title: "Referenz-Objektliste Architekturgeschichte (ETH Bachelor-Prüfung Tönne
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/07_Objektliste/  .pdf S. 1-2 («Prof. Dr. A. Tönnesmann /Dr. habil. S. Hildebrand · Bachelor-Prüfung · Namen, Objekte»)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/01_Architektenportrait/32_semper.pdf (Titel-Datierungsfehler, per Inventar dokumentiert)"]
-links: []
+links: ["[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]]"]
 ---
 
 # Referenz-Objektliste Architekturgeschichte

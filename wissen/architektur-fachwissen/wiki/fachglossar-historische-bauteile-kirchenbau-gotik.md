@@ -3,7 +3,7 @@ title: "Fachglossar historische Bauteile: Kirchenbau und Gotik (ETH-Architekturg
 status: speculative
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/00_Begriffe/Architektur- und Kunstgeschichte_neu1.pdf S. 1 (Abschnitt «Begriffe»)"]
-links: []
+links: ["[[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]]"]
 ---
 
 # Fachglossar historische Bauteile: Kirchenbau und Gotik

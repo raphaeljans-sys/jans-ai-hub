@@ -4765,3 +4765,41 @@ Form follows function, Shaker-Religion, Protogeometric Art) plus die
 Sgraffito-Sammlung `cntmng*.pdf`. `git diff --numstat` auf die Inventardatei zeigte
 `27 0` (reiner Append). **Nächster Lauf:** die sieben Begriffsblätter gegen eine
 belastbare Quelle prüfen, danach die Sgraffito-Sammlung.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte`, zweiter P2-Lauf: Luzerner Skript Sauter/Marion (Lane FACHWISSEN, 69. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text nennt bewusst keinen Fortschritt):
+`KORPUS-QUEUE.md`, `wiki/INDEX.md` und die Inventardatei `02_Architekturgeschichte`
+gelesen. `scutil` bestätigte Hostname Macmini, `ps -o pid,ppid,command` zeigte nur die
+eigene Prozesskette, keine Doppel-Instanz. Empfohlener nächster Schritt aus dem 68. Lauf:
+das Luzerner Skript Sauter/Marion (`00_Allgemein/04_Kunsthistoriker/Sauter_Marion/`, 13
+PDF, geschlossener Vorlesungszyklus hta Luzern 2005/06, Dr.-Ing. Marion Sauter).
+
+**Hauptarbeit:** zwei der 13 Dateien vollständig gelesen (PyMuPDF) und destilliert:
+
+- `00 EINLEITUNG GLOSSAR.pdf` (6 S.): Bautenverzeichnis (90 Positionen Renaissance bis
+  Postmoderne, fortlaufend nummeriert nach Vorlesungskapitel) →
+  [[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]]; Glossar
+  (rund 50 Begriffe, Schwerpunkt Säulenordnung/Gewölbe/Fassade) →
+  [[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]]. Gegen
+  Wiki-Bestand geprüft: neun Glossarbegriffe (Apsis, Architrav, Basis, Chor, Kapitell,
+  Krypta, Obergaden, Portikus, Vierung) überschneiden sich mit dem bestehenden
+  [[fachglossar-historische-bauteile-kirchenbau-gotik]] — dort verlinkt, nicht dupliziert;
+  Rückverlinkung im bestehenden Artikel ergänzt. Das Bautenverzeichnis ergänzt statt
+  dupliziert die bestehende [[objektliste-architekturgeschichte-datierungen-eth]]
+  (architektenzentriert, ETH/Tönnesmann) um eine bautenzentrierte Zweitquelle (hta
+  Luzern/Sauter) — beidseitig verlinkt. Literaturverzeichnis derselben Datei bewusst nicht
+  destilliert (reine Lesetipp-Liste, kein Handlungswert).
+- `13 ARCHITEKTURSPAZIERGANG LUZERN.pdf` (2 S.): 14 Luzerner Lokalbeispiele als
+  Regionalanhang in den Bautenverzeichnis-Artikel integriert, nicht als eigener Artikel
+  (zu kurz für Eigenständigkeit). Eine private E-Mail-Adresse der Dozentin im Dokument
+  (Arbeitsanweisung an Studierende) bewusst nicht übernommen — kein fachlicher Inhalt,
+  kein Sperrlisten-Fund (Einzeladresse in einem Lehrmittel, keine Adress-/Kontaktsammlung).
+
+**11 der 13 Dateien bleiben offen** (Kapitel 01-11, je ein Epochenkapitel, 1.1-4.7 MB).
+Duplikatscheck gegen bestehende Corbusier/Mies/Bauhaus/Loos-Artikel für diesen Lauf noch
+nicht durchgeführt — Pflicht-Vorprüfung für den nächsten Lauf. Details Inventardatei
+30.08.2026. Sperrlisten-Prüfung: kein Fund ausser der genannten, bewusst nicht
+übernommenen Einzel-E-Mail. `git diff --numstat` auf die Inventardatei zeigte `43 0`
+(reiner Append). **Nächster Lauf:** Kapitel `01 RENAISSANCE MANIERISMUS (ITALIEN)` lesen,
+davor Duplikatscheck gegen Wiki-Bestand.

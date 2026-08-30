@@ -271,3 +271,46 @@ historische, öffentlich bekannte Architekten, Bauherren und Dozierende.
 Lauf:** entweder das Luzerner Skript Sauter/Marion (13 Teile, geschlossener
 Vorlesungszyklus, laut Empfehlung oben mit hohem Ertrag), oder Rest von `Moderne.pdf`
 nach vorheriger Duplikatsprüfung gegen die bestehenden Semper-Artikel.
+
+## Destillat-Fortschritt, zweiter P2-Lauf (30.08.2026, Lane FACHWISSEN, 69. Lauf)
+
+Vor Laufbeginn Stand selbst ermittelt (kein Fortschritt im Dispatch-Text vorgegeben):
+`KORPUS-QUEUE.md` (69. Lauf lief auf Macmini, `ps -o pid,ppid,command` zeigte nur die
+eigene Prozesskette 4841→4842, keine Doppel-Instanz), `wiki/INDEX.md`, `CHANGELOG.md` und
+diese Inventardatei vollständig gelesen. Empfohlener nächster Schritt aus dem 68. Lauf war
+das Luzerner Skript Sauter/Marion — dieses bearbeitet.
+
+Von den 13 PDF des Ordners `Sauter_Marion/` zwei vollständig gelesen und destilliert:
+- `00 EINLEITUNG GLOSSAR.pdf` (6 S., via PyMuPDF vollständig extrahiert): Bautenverzeichnis
+  (90 Positionen, Renaissance bis Postmoderne, nach Vorlesungskapitel gegliedert) und
+  Glossar (rund 50 Begriffe) destilliert → zwei neue Artikel
+  [[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] und
+  [[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]]. Neun
+  Glossarbegriffe (Apsis, Architrav, Basis, Chor, Kapitell, Krypta, Obergaden, Portikus,
+  Vierung) überschneiden sich inhaltlich mit dem bestehenden
+  [[fachglossar-historische-bauteile-kirchenbau-gotik]] — dort verlinkt, nicht erneut
+  ausformuliert (Duplikatsvermeidung). Das Literaturverzeichnis derselben Datei bewusst
+  nicht in einen eigenen Artikel überführt: reine Lesetipp-Liste ohne unmittelbaren
+  Handlungswert für die Büropraxis.
+- `13 ARCHITEKTURSPAZIERGANG LUZERN.pdf` (2 S.) — vollständig gelesen, die 14 Luzerner
+  Lokalbeispiele als Regionalanhang in
+  [[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] integriert
+  (nicht als eigener Artikel, da zu kurz für Eigenständigkeit). Eine im Dokument enthaltene
+  private E-Mail-Adresse der Dozentin (Arbeitsanweisung an die Studierenden) **nicht**
+  übernommen — kein Bestandteil des fachlichen Inhalts, kein Sperrlisten-Fund (Einzeladresse
+  in einem Lehrmittel, keine Adress-/Kontaktsammlung im Sinne der Sperre).
+
+**11 der 13 Dateien bleiben offen:** die Kapitel `01`-`11` (Renaissance/Manierismus bis
+Moderne-Postmoderne, je eigenes Vorlesungskapitel, 1.1-4.7 MB). Cross-Check gegen
+Wiki-Bestand (`grep -rli` auf Semper/Corbusier/Mies/Bauhaus/Loos/Palladio u. a.) für diesen
+Lauf nicht durchgeführt — **Pflicht-Check für den nächsten Lauf**, bevor die Epochenkapitel
+gelesen werden, da mehrere davon (Le Corbusier, Mies, Bauhaus, Loos) bereits Gegenstand
+eigener Artikel in `01_Konstruktion`/`02_Architekturtheorie`/`10_Protomodern` sind.
+
+**Sperrlisten-Prüfung:** kein Fund in beiden gelesenen Dateien (historische, öffentlich
+bekannte Architekten und Bauwerke; die eine gefundene Dozierenden-E-Mail wie oben
+begründet nicht übernommen).
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append
+(nur Zeilen hinzugefügt). **Nächster Lauf:** Kapitel `01 RENAISSANCE MANIERISMUS (ITALIEN)`
+lesen, davor Duplikatscheck gegen Wiki-Bestand.
