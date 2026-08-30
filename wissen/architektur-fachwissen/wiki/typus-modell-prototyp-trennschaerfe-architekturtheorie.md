@@ -65,6 +65,13 @@ kein Mass ableiten.
 ## Offene Punkte
 
 - Die Unterscheidung zwischen den Positionen Muratori/Caniggia einerseits und Aymonino/Rossi
-  andererseits (Frage 6 im Quellenkatalog) ist im Bestand unbeantwortet geblieben.
+  andererseits (Frage 6 im Quellenkatalog) ist im Bestand weiterhin nicht abschliessend
+  beantwortet. [[saverio-muratori-caniggia-stadtmorphologie-glossar-typ-standard-mutation]]
+  ordnet Aymonino/Rossi lediglich als Teil derselben, weiter gefassten «morphologischen
+  Schule» der 1970er ein, ohne die Differenz selbst auszuarbeiten;
+  [[saverio-muratori-typologische-methode-biografie-rezeption-bologna-kritik]] liefert dazu
+  immerhin die Fallstudie Mestre-San Giuliano 1959, in der Muratoris Ansatz explizit gegen
+  einen funktionalistischen (Piccinato/Samonà) und einen monumentalen (Quaroni) Gegenentwurf
+  positioniert wird.
 - Ungers' Kritik am «deterministischen Denken des 19. Jh.» (nach Jormakka) ist nur mit Sekundärzitat
   belegt; die Primärquelle (Ungers-Text) liegt nicht im Bestand.

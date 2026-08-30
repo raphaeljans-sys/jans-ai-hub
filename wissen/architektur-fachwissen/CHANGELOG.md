@@ -1,5 +1,31 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, dreizehnter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, PID 39085, Prozessbaum 39078→39084→39085 als verschachtelte Wrapper derselben Instanz erkannt, keine Doppel-Instanz; paralleler Prozess ist unabhängige Lane SYNOBSIS)
+
+Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/CHANGELOG geprüft: entsprach exakt dem Ende
+des zwölften Laufs. Jefferson und Muratori (beide vom Vorlauf als nächste Kandidaten
+empfohlen) abgeschlossen, drei neue Wiki-Artikel:
+[[thomas-jefferson-checkerboard-plan-staedtekritik-agrarideal-widerspruch]] (Dissertation
+Felix Aeppli, Uni Zürich 1975, vollständig gelesen — Jeffersons eigene Stadtplanentwürfe für
+die Federal City 1790/91, Checkerboard-Plan gegen Gelbfieber mit den gebauten Beispielen
+Jeffersonville/Jackson, Gesundheits-/Moralkritik, Wandel Agrarideal→Manufaktur, biografischer
+Widerspruch zum eigenen Stadtleben; gegen den bestehenden Artikel
+[[us-rastersystem-jefferson-land-ordinance-commissioners-plan]] geprüft, keine
+Überschneidung), [[saverio-muratori-typologische-methode-biografie-rezeption-bologna-kritik]]
+(arch+ Heft 85, Giorgio Conti — Biografie, Wettbewerb Mestre-San Giuliano 1959, Tafuris
+Kritik, kritische Relativierung der Bologna-Sanierung Cervellati 1973) sowie
+[[saverio-muratori-caniggia-stadtmorphologie-glossar-typ-standard-mutation]] (arch+ Heft 85,
+Sylvain Malfroy — Typ-vs-Standard, Massstabsebenen, strukturelle Permanenzen,
+Kapillarmutationen; ergänzt den offenen Punkt im bestehenden Artikel
+[[typus-modell-prototyp-trennschaerfe-architekturtheorie]] zur Abgrenzung Muratori/Caniggia
+von Aymonino/Rossi). Eine Dublette (`085_040-042_arch_Plus_Artikel.pdf`) und ein
+abgebrochenes Textfragment (`120113_Saverio_Muratori.docx`, identischer Wortlaut wie der
+vollständige Conti-Artikel) ohne eigenen Ertrag geprüft. Von den 33 Autorendossiers der
+Position 4 sind jetzt 20 mit Ertrag bearbeitet, 13 bleiben offen (Giedion, Hilberseimer,
+Lampugnani, Rossi, Sievers, Sonne, plus drei leer/ohne Ertrag und zwei ohne Ertrag geprüft
+aus Vorläufen). Details Inventardatei
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`, Abschnitt `## Destillat-Fortschritt`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zwölfter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, PID 37162, Prozessbaum 37152→37155→37161→37162 als verschachtelte Wrapper derselben Instanz erkannt, keine Doppel-Instanz)
 
 Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/CHANGELOG geprüft: entsprach exakt dem Ende

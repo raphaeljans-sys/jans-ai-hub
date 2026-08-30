@@ -781,3 +781,61 @@ destilliert wird), Sievers (`Thomas Sieverts - Zwischenstadt.pdf` 6,5 MB, plus
 1,8-4,2 MB) zuerst, Rossi mit vorherigem Duplikat-Check, Sonne/Lampugnani/Sievers zuletzt
 (grösste Dateien, teils über 20-MB-Grenze). Danach `kapitel01_dk...` Unterkapitel 1/2/4/5
 als eigene, von den Autorendossiers unabhängige Restaufgabe dieser Sektion vermerken.
+
+**30.08.2026 (Lane FACHWISSEN, dreizehnter P2-Lauf, Position 4 fortgesetzt — Jefferson und
+Muratori abgeschlossen):** vor Arbeitsbeginn wie üblich `scutil` (Macmini bestätigt),
+`ps aux`/Prozesskette (39078→39084→39085, verschachtelte Wrapper derselben Instanz, keine
+Doppel-Instanz; ein zweiter unabhängiger Prozess ist Lane SYNOBSIS, andere KB) und
+`KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft — Dispatch-Text weiterhin identisch veraltet
+(«kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich «MacBook Pro»), realer
+Stand entsprach exakt dem Ende des zwölften Laufs oben.
+
+- `JEFFERSON/F.AEPPLI_JEFFERSON.pdf` (Felix Aeppli, «Thomas Jefferson: The Urban Critic of
+  the City», Dissertation Uni Zürich 1975, 140 S., vollständig gelesen) → neuer Artikel
+  [[thomas-jefferson-checkerboard-plan-staedtekritik-agrarideal-widerspruch]] (Jeffersons
+  eigene Stadtplanentwürfe für die Federal City 1790/91, sein Checkerboard-Plan gegen
+  Gelbfieber-Epidemien mit den gebauten Beispielen Jeffersonville IN und Jackson MS,
+  Gesundheits-/Moralkritik an der Stadt, der Wandel Agrarideal→Manufaktur über Embargo/
+  Krieg 1812, sowie der biografische Widerspruch zwischen Agrarideal und Jeffersons eigenem,
+  durchgehend städtisch geprägtem Leben). Gegen den bestehenden Artikel
+  [[us-rastersystem-jefferson-land-ordinance-commissioners-plan]] geprüft: keine
+  Überschneidung (dort nur Land Ordinance/Grid 1785 und Commissioner's Plan New York 1811
+  aus einer TU-Dresden-Vorlesungsmitschrift, hier Jeffersons eigene frühere Planentwürfe und
+  der Checkerboard-Plan aus einer eigenständigen Dissertation).
+- `Muratori_Saverio/085_040-042.pdf` (Giorgio Conti, «Saverio Muratori: Typologische
+  Methode, Krise der Architektur, Kulturkrise», arch+ Heft 85, Übersetzung Hoffmann-Axthelm)
+  → neuer Artikel
+  [[saverio-muratori-typologische-methode-biografie-rezeption-bologna-kritik]] (Biografie,
+  Wettbewerb Mestre-San Giuliano 1959 mit drei Planungspositionen, Tafuris Kritik, kritische
+  Relativierung der Bologna-Sanierung Cervellati 1973, Abgrenzung zur Postmoderne). Die
+  namensgleiche Datei `085_040-042_arch_Plus_Artikel.pdf` im selben Ordner ist eine exakte
+  Dublette (identischer Textinhalt), nicht separat ausgewertet.
+- `Muratori_Saverio_085_066-073.pdf` («Kleines Glossar zu Muratoris Stadtmorphologie»,
+  zusammengestellt von Sylvain Malfroy, Lehrstuhl für Geschichte des Städtebaus ETH Zürich,
+  arch+ Heft 85) → neuer Artikel
+  [[saverio-muratori-caniggia-stadtmorphologie-glossar-typ-standard-mutation]] (vier
+  Massstabsebenen/vier Momente, Typ-vs-Standard-Unterscheidung, Typ a priori/a posteriori,
+  Modul und typologischer Prozess, strukturelle Permanenzen, Kapillarmutationen vs.
+  konzentrierte Planung). Belegt auch die im Bestand offene Frage nach der Abgrenzung
+  Muratori/Caniggia von Aymonino/Rossi teilweise (Einordnung als gemeinsame «morphologische
+  Schule» der 1970er) — im bestehenden Artikel
+  [[typus-modell-prototyp-trennschaerfe-architekturtheorie]] als Ergänzung zum dortigen
+  offenen Punkt nachgetragen.
+- `120113_Saverio_Muratori.docx` im selben Ordner geprüft: reines, auf vier Absätze
+  abgebrochenes Textfragment desselben Conti-Artikels (identischer Wortlaut wie
+  `085_040-042.pdf`, dort aber vollständig) — kein eigener Fund, keine gesonderte
+  Destillation nötig (Delta-Ehrlichkeit).
+
+Gegen bestehenden Wiki-Bestand geprüft (`grep -ril` über `wiki/*.md`): keine Duplikate.
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Von den 33
+Autorendossiers der Position 4 sind damit 20 mit Ertrag bearbeitet** (18 aus den Vorläufen
+plus Jefferson und Muratori); weiterhin drei leer/ohne Ertrag (Leveillé, Siedler,
+Sutcliffe) und zwei ohne Ertrag geprüft (Mumford, Gracq). **13 Autorendossiers bleiben
+offen**: Giedion, Hilberseimer, Lampugnani (grosse PDF 10,8 MB `Quellentextband-1.pdf`
+noch ungeprüft), Rossi (gegen bestehende Rossi-Artikel aus Korpus
+`archiv-fachwissen__02_Architekturtheorie` prüfen, bevor destilliert wird), Sievers
+(`Thomas Sieverts - Zwischenstadt.pdf` 6,5 MB, plus `Bosshard_Zwischenstadt.pdf`), Sonne
+(mehrteiliges Dossier, eine Datei 85 MB, über 20-MB-Grenze). **Nächster Lauf:** Rossi mit
+vorherigem Duplikat-Check zuerst, dann Sievers, Giedion/Hilberseimer/Lampugnani/Sonne
+zuletzt (grössere/teils blockierte Dateien). Danach `kapitel01_dk...` Unterkapitel 1/2/4/5
+als eigene, von den Autorendossiers unabhängige Restaufgabe dieser Sektion angehen.
