@@ -275,3 +275,28 @@ P2-Positionen dieser Sektion nach Ertrag (Kandidaten laut Triage-Tabelle: Zeile 
 vermerkt; Zeile 69 Bühnenbildner-Zweig; Zeile 75 Stilepochen-Zusammenfassung/Hagia-Sophia-
 Chronologie) oder, falls Ertrag dort erschöpft, laut Queue-Regel Prüfung der nächsten
 Sektion mit offenem P2.
+
+- Zeile 70 `01_Kunstwissenschaft/03_Vorlesungen/` (73 Dateien) → **teilweise erledigt.** Drei
+  Vorlesungsreihen im Ordner: Ittig (`Bildsprachen`), Kiss Horvath (`Konzeption: Denk/Werk`),
+  Ursprung (`kunstkarten.pdf`). Kiss Horvath und Ursprung gelesen und destilliert zu
+  [[kiss-horvath-koerper-kontext-skulptur-plastik-sockel-ready-made-ursprung-kunstkarten]]
+  (Skulptur/Plastik-Unterscheidung nach Balkenhol, Sockel-Begriff, Ready-made nach
+  Duchamp/Stauffer, Ursprungs Architektur-Kunst-Referenzkartenliste); zusätzlich Merzbau-
+  Vertiefung (drei Bauten, «Prinzip Merz») aus Kiss Horvaths Ordnung-Chaos-Vorlesung in
+  [[kunst-architektur-autonomie-gesamtkunstwerk-anarchitektur-bilbao-effekt]] ergänzt. Ittigs
+  sechs Themenordner (`Bildsprachen`, PP-Folien plus VN-Dateien) geprüft: die VN-Dateien
+  (`.doc`) sind unkorrigierte, stark fehlerhafte Studierenden-Live-Mitschriften (Tippfehler,
+  Satzfragmente, teils widersprüchliche Datierungen) ohne Quellenbelege für die einzelnen
+  Aussagen — als Zitierquelle zu unzuverlässig, **bewusst nicht destilliert**. Die PP-Folien
+  selbst sind reine Bildunterschriften-Sammlungen (Werk/Jahr/Zitat der abgebildeten
+  Kunstwerke) ohne verbindenden Fliesstext. Einzige potenziell architekturrelevante Notiz aus
+  `06_Gerhard_Richter`-Kontext (Peter Märkli, Bürogebäude Novartis Campus WSJ-157 2006,
+  Kunst-am-Bau-Vorschlag Harald Szeemann/Jenny Holzer) bleibt wegen der unsicheren
+  Quellenlage unbelegt und offen, siehe `wiki/QUESTIONS.md`. Ittigs Ordner damit als **P3
+  bezüglich Direktzitierbarkeit eingestuft, nicht weiter zu bearbeiten**; die Sektion insgesamt
+  bleibt bei Zeile 70 nicht vollständig «erledigt» (Kiss/Ursprung ja, Ittig nein — aber
+  Ittig ist die bewusste Entscheidung, nicht ein offener Rest).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 69
+Bühnenbildner-Zweig (83 Dateien) oder Zeile 75 Stilepochen-Zusammenfassung/Hagia-Sophia-
+Chronologie, sonst laut Queue-Regel Prüfung der nächsten Sektion mit offenem P2.

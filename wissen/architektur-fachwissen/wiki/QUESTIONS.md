@@ -876,3 +876,20 @@ nur über die Titel genannt, aber nicht inhaltlich ausgewertet sind. Ein künfti
 könnte daraus einen Rezeptions-Abschnitt (Akzeptanzspanne, Kritikpunkte) ergänzen. Ebenfalls
 offen: der Ordner `Programm/` (Exkursionslogistik St. Gallen) — nach Durchsicht vermutlich
 ohne Fachwissen (Anfahrt, Adressen), aber nicht geprüft.
+
+## 260830 — Peter Märkli/Novartis Campus/Szeemann/Jenny Holzer unbelegt, Sektion `02_Kunst_Geschichte` (95. Lauf Lane FACHWISSEN)
+
+**#76 Kunst-am-Bau-Notiz zu Peter Märkli unbelegt.** In der Studierenden-Mitschrift
+`VN_Absolute_2.doc` (Ittig-Vorlesungsreihe «Bildsprachen», Ordner
+`01_Kunstwissenschaft/03_Vorlesungen/Ittig_Josef/01_Absolute_reine_Kunst_1920er/`) findet
+sich ein Satz, der als Zitat Peter Märklis ausgewiesen ist: «Bürogebäude und
+Besucherzentrum WSJ-157, 2006. Harald Szeemann war für das künstlerische Konzept auf dem
+Novartis Campus verantwortlich. Er hat mir Jenny Holzer vorgeschlagen. Ich habe sofort
+zugesagt.» Die Mitschrift ist durchgehend fehlerhaft (Tippfehler, Fragmente,
+Kontextsprünge ohne Datum/Fundstellenangabe je Einzelsatz), weshalb dieser Absatz **nicht**
+in einen Wiki-Artikel übernommen wurde. Falls zutreffend, wäre es ein belegbares
+Kunst-am-Bau-Fallbeispiel (Architekt Märkli, Kuration Szeemann, Künstlerin Jenny Holzer,
+Novartis Campus Basel, Bürogebäude/Besucherzentrum WSJ-157, 2006) analog zur bereits
+destillierten Stadtlounge St. Gallen. Wer verifizieren kann: gegen eine zweite, sauber
+zitierbare Quelle prüfen (Novartis-Campus-Dokumentation, Märkli-Werkverzeichnis oder
+Szeemann-Nachlass), bevor ein Artikel dazu entsteht.

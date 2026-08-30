@@ -5801,3 +5801,46 @@ Wiki-Artikel, `wiki/INDEX.md` ergänzt. **Nächster Lauf:** weitere P2-Positione
 Sektion nach Ertrag (Kandidaten: Zeile 70 Vorlesungsreihen Ittig/Kiss/Ursprung, Zeile 69
 Bühnenbildner-Zweig, Zeile 75 Stilepochen-/Hagia-Sophia-Chronologie), sonst laut Queue-Regel
 nächste Sektion mit offenem P2 wählen.
+
+## 260830 — Zeile 70 (teilweise), Sektion `02_Kunst_Geschichte` (95. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, Inventardatei); die vier
+Bestandsdateien (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, `wiki/QUESTIONS.md`)
+waren beim Start bereits unkommittiert vom 94. Lauf vorhanden — die Wiki-Artikel jenes Laufs
+waren schon committet (Top-Commit `196a7039f`), nur die Buchführungsdateien standen noch aus;
+kein Doppel-Dispatch, sondern der übliche Zeitversatz bis zum 15-Min-Cron.
+
+Zeile 70 `01_Kunstwissenschaft/03_Vorlesungen/` umfasst drei Vorlesungsreihen (HSLU,
+Herbstsemester 2007): Ittig («Bildsprachen»), Kiss Horvath («Konzeption: Denk/Werk»),
+Ursprung (`kunstkarten.pdf`). Kiss Horvath und Ursprung gelesen und zu
+[[kiss-horvath-koerper-kontext-skulptur-plastik-sockel-ready-made-ursprung-kunstkarten]]
+destilliert:
+
+- Skulptur/Plastik-Unterscheidung nach Stephan Balkenhol (subtraktiv/konkav gegen
+  additiv/konvex, mit Zitatbeleg).
+- Sockel-Begriff als Kategoriewechsel Objekt-im-Raum/Raumverschränkung (Boccioni mit Sockel
+  gegen Giacomettis «Gehender Mann» ohne Sockel).
+- Ready-made-Definition nach Duchamp/Serge Stauffer (mit Quellenbeleg Stauffer-Werkausgabe).
+- Ursprungs Kunstkarten-Referenzliste: 15 Architekturpositionen (u. a. Paxton Crystal Palace,
+  Piano&Rogers Pompidou, Zumthor Sumvitg/Chur, Gehry Bilbao, Herzog&de Meuron Eberswalde/
+  Ricola/Peking, OMA CCTV) neben zeitgenössischer Kunst (Matta-Clark, Eliasson, Smithson,
+  Beuys u. a.) — als reine Werkliste ohne die vom Kurs vorausgesetzte Paarungslogik, die die
+  Quelle nicht explizit macht.
+
+Zusätzlich Merzbau-Vertiefung (drei Bauten Hannover/Norwegen/England, «Prinzip Merz» in drei
+Sätzen) aus Kiss Horvaths Ordnung-Chaos-Vorlesung in den bestehenden Artikel
+[[kunst-architektur-autonomie-gesamtkunstwerk-anarchitektur-bilbao-effekt]] ergänzt (dort
+bisher nur Kurzerwähnung 1923-1937 ohne Konstruktionsdetail).
+
+Ittigs sechs Themenordner («Bildsprachen») geprüft und **bewusst nicht destilliert**: die
+VN-Dateien (`.doc`) sind unkorrigierte Studierenden-Live-Mitschriften mit Tippfehlern,
+Satzfragmenten und unklaren/widersprüchlichen Aussagen ohne Einzelbeleg — zu unzuverlässig für
+Zitate. Die PP-Folien sind reine Bildunterschriften-Sammlungen ohne verbindenden Fliesstext.
+Eine potenziell verwertbare Notiz (Peter Märkli, Novartis-Campus-Bürogebäude WSJ-157 2006,
+Kunst-am-Bau-Vorschlag Szeemann/Jenny Holzer) bleibt mangels verlässlicher Quelle unbelegt,
+als offener Punkt in `wiki/QUESTIONS.md` vermerkt statt stillschweigend übernommen.
+
+`git diff --numstat` auf die Inventardatei zeigte reinen Append (`25 0`). Zwei Wiki-Artikel
+(einer neu, einer ergänzt), `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile 69
+Bühnenbildner-Zweig (83 Dateien) oder Zeile 75 Stilepochen-/Hagia-Sophia-Chronologie, sonst
+laut Queue-Regel nächste Sektion mit offenem P2 wählen.

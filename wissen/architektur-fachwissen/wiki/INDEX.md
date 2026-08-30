@@ -2330,3 +2330,19 @@ Details CHANGELOG 30.08.2026. Neun Zeitungsberichte zur Stadtlounge und der
 Exkursions-Programmordner bleiben unausgewertet (`QUESTIONS.md`). **Nächster Lauf:** weitere
 P2-Positionen dieser Sektion (Kandidaten: Vorlesungsreihen Ittig/Kiss/Ursprung,
 Bühnenbildner-Zweig, Stilepochen-/Hagia-Sophia-Chronologie).
+
+## 260830 — Zeile 70 (teilweise), Sektion `02_Kunst_Geschichte` (95. Lauf Lane FACHWISSEN)
+
+Kiss Horvath («Konzeption: Denk/Werk») und Ursprung (`kunstkarten.pdf`) aus der
+Vorlesungsreihen-Sammlung gelesen und zu
+[[kiss-horvath-koerper-kontext-skulptur-plastik-sockel-ready-made-ursprung-kunstkarten]]
+destilliert: Skulptur/Plastik-Unterscheidung nach Balkenhol, Sockel-Begriff, Ready-made nach
+Duchamp/Stauffer, Ursprungs Architektur-Kunst-Referenzkartenliste (15 Bauten, u. a.
+Zumthor/Gehry/Herzog&de Meuron/OMA, neben zeitgenössischer Kunst). Zusätzlich
+Merzbau-Vertiefung (drei Bauten, «Prinzip Merz») aus derselben Vorlesungsreihe in
+[[kunst-architektur-autonomie-gesamtkunstwerk-anarchitektur-bilbao-effekt]] ergänzt. Ittigs
+«Bildsprachen»-Ordner bewusst nicht destilliert (Studierenden-Live-Mitschriften zu
+unzuverlässig für Zitate, Folien reine Bildunterschriften); eine potenziell verwertbare
+Notiz zu Peter Märkli/Novartis Campus/Szeemann/Jenny Holzer bleibt unbelegt offen
+(`QUESTIONS.md`). Details CHANGELOG 30.08.2026. **Nächster Lauf:** Zeile 69
+Bühnenbildner-Zweig oder Zeile 75 Stilepochen-/Hagia-Sophia-Chronologie.

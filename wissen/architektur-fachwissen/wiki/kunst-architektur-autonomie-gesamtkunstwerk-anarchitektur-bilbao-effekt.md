@@ -2,8 +2,8 @@
 title: "Kunst versus Architektur — Loos' Trennungsthese, Gesamtkunstwerk, Anarchitekturen, Bilbao-Effekt (Architekturtheorie II, ETH gta)"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120420_Kunst_Loos/00_Sylabus/15_SYL-Ath2-2012-6Kunst.pdf", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120420_Kunst_Loos/01_Vorlesungsmitschriften/PDF/120420_Kunst.pdf (Live-Mitschrift, stark fehlerhafte Transkription)"]
-links: ["[[loos-ornament-und-verbrechen-argumentationsgang-kleidungs-analogie]]", "[[loos-werkregister-michaelerplatz-chicago-tribune-cafe-museum-american-bar-haus-mueller-baugeschichte]]", "[[zumthor-authentizitaet-atmosphaere-raumkonzeption-vergleich-loos-wright]]", "[[technik-maschine-archigram-diagramm-vs-plan-architekturtheorie]]"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120420_Kunst_Loos/00_Sylabus/15_SYL-Ath2-2012-6Kunst.pdf", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120420_Kunst_Loos/01_Vorlesungsmitschriften/PDF/120420_Kunst.pdf (Live-Mitschrift, stark fehlerhafte Transkription)", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/01_Kunstwissenschaft/03_Vorlesungen/Kiss_Monika/Ordnung_Chaos/071126_ordnung-chaos.pdf (Merzbau-Vertiefung)"]
+links: ["[[loos-ornament-und-verbrechen-argumentationsgang-kleidungs-analogie]]", "[[loos-werkregister-michaelerplatz-chicago-tribune-cafe-museum-american-bar-haus-mueller-baugeschichte]]", "[[zumthor-authentizitaet-atmosphaere-raumkonzeption-vergleich-loos-wright]]", "[[technik-maschine-archigram-diagramm-vs-plan-architekturtheorie]]", "[[kiss-horvath-koerper-kontext-skulptur-plastik-sockel-ready-made-ursprung-kunstkarten]]"]
 ---
 
 # Kunst versus Architektur — Loos' Trennungsthese, Gesamtkunstwerk, Anarchitekturen, Bilbao-Effekt
@@ -55,6 +55,20 @@ Wiedervereinigung der Künste (Gropius/Taut/Behne, in der Kursanthologie S. 408f
 Als Gegenbeispiel der Gegenwart nennt der Syllabus die Residence Gehry, Santa Monica (Frank
 Gehry, 1989-1992) — Umbau des eigenen Wohnhauses in ein Werk, das explizit an der Grenze zur
 bildenden Kunst positioniert ist.
+
+### Merzbau-Vertiefung: drei Bauten, «Prinzip Merz»
+
+Ergänzung nach `Ordnung_Chaos/071126_ordnung-chaos.pdf` (Vorlesung «Konzeption: Denk/Werk»,
+Monika Kiss Horvath, 26.11.2007, Sektion `02_Kunst_Geschichte`): der Merzbau bestand aus drei
+Bauten, nicht einem. **Erster Merzbau** Hannover 1923-1937 (1943 im Krieg zerstört) — das
+eigene Atelier, acht Räume plus Balkon «vermerzt». **Zweiter Merzbau** Norwegen 1937 (1951
+verbrannt). **Dritter Merzbau** England 1947, unvollendet (Schwitters stirbt 1948). Das
+«Prinzip Merz» in drei Sätzen: jeder Gegenstand ist für die künstlerische Arbeit verwendbar;
+die Materialien werden zu einem harmonischen Gesamtbild vereint; Kunst muss autonom sein. Der
+Merzbau wird als virtueller wie realer Raum verstanden — Raum als Kunstwerk (beeinflusst von
+El Lissitzkys Proun-Room), Raumplastik in dauernder Veränderung, ein im Kopf des Betrachters
+entstehender virtueller Raum. Vertiefungsartikel zur selben Vorlesungsreihe:
+[[kiss-horvath-koerper-kontext-skulptur-plastik-sockel-ready-made-ursprung-kunstkarten]].
 
 ## Die Residence Gehry als Fallbeispiel: Kunstwelt statt Architekturdiskurs
 
