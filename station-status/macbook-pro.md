@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 06:57:52
+Stand: 30.08.2026 07:08:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:05)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 06:57:52
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5088ca175 P2-Lauf archiv-fachwissen 01_Staedtebau: Sievers-Dossier destilliert
+- 4b8b1606a logbuch-radar 30.08.2026: Radar-Briefing + fuenf Registernachtraege (P1 Sync 173/94, bexio-Abo 08.10., drei neue KISPI-Termine, SharePoint-Zugriff Bajrami, Leerlauf-Schleife erledigt)

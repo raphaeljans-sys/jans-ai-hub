@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 06:59:01
+Stand: 30.08.2026 07:09:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 06:34)
+- /Users/raphaeljans  (letzte Aktivitaet 07:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 06:59:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5088ca175 P2-Lauf archiv-fachwissen 01_Staedtebau: Sievers-Dossier destilliert
+- 4b8b1606a logbuch-radar 30.08.2026: Radar-Briefing + fuenf Registernachtraege (P1 Sync 173/94, bexio-Abo 08.10., drei neue KISPI-Termine, SharePoint-Zugriff Bajrami, Leerlauf-Schleife erledigt)
