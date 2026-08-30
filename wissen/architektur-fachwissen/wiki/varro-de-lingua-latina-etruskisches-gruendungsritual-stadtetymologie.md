@@ -3,7 +3,7 @@ title: "Varro, De lingua latina: Etruskisches Gründungsritual und die lateinisc
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 73-74 (Varro, «De lingua latina» / Über die lateinische Sprache, Buch V, §141, 143, 145, ca. 43 v. Chr., hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, vollständig gelesen)"]
-links: ["[[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]]", "[[polybios-roemisches-militaerlager-castrum-rasterordnung]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]"]
+links: ["[[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]]", "[[polybios-roemisches-militaerlager-castrum-rasterordnung]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]", "[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]]"]
 ---
 
 # Varro, De lingua latina: Etruskisches Gründungsritual und die lateinische Etymologie von Stadt, Mauer und Strasse (Buch V)
@@ -102,3 +102,9 @@ erfassten Fortgang (ab S. 81) noch beschreibt, ist ungeprüft.
   der neuzeitlichen Städtebautheorie geprüft.
 - Auszug bricht nach §145 ab; ob der Quellenband weitere Varro-Passagen ausserhalb dieser
   zwei Seiten enthält, ist nicht geprüft (S. 75 beginnt bereits der nächste Autor, Cicero).
+
+**Nachtrag (30.08.2026):** Eine narrative Parallelfassung desselben Rituals, ergänzt um die
+bei Varro fehlende Mundus-Grube (Herkunftserde-Vermengung) und die Begründung der
+Tor-Ausnahme von der Mauerheiligkeit, findet sich bei
+[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]] (Plutarch, Romulus,
+Kap. 11).

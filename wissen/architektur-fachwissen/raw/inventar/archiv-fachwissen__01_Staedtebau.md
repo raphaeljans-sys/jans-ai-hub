@@ -2496,3 +2496,33 @@ d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achille
 (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 11
 Positionen. **Nächster Lauf:** Plutarch/Romulus (125) als nächster im Seitenverlauf
 liegender Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## Fünfzigster P2-Lauf, Plutarch/Romulus destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt: der 49. Lauf (Seneca, Plinius d. Ä.) war beim
+Ermitteln bereits durch `nas-selfcommit` committet (working tree sauber vorgefunden,
+`git log` zeigte Commit `04a15a26a`), keine eigene Sicherung dafür nötig.
+
+- **Plutarch, Romulus, Kap. 3/9-11** (S. 125-129, Kap. 5/7/8 im Auszug als Ellipse
+  ausgelassen; S. 130 im Quellenband leer) → neuer Artikel
+  [[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]]: Cermalus/
+  Ruminalis-Ortsnamen der Aussetzungssage, Standortstreit Romulus (Palatin)/Remus
+  (Aventin/Remonium) entschieden durch Augurien-Wettstreit, Asyl-Tempel als
+  Bevölkerungswachstumsinstrument, ausführliches etruskisches Gründungsritual (Mundus-Grube
+  mit Herkunftserde, Pflugfurche mit Stier/Kuh, Pomerium, Tor-Ausnahme von der
+  Mauerheiligkeit).
+- Gegen Wiki-Bestand geprüft: `varro-de-lingua-latina-etruskisches-gruendungsritual-
+  stadtetymologie` behandelt dasselbe Ritual nur sprachetymologisch (fossa/murus/orbis→
+  urbs/pomerium), ohne Mundus-Grube und ohne Tor-Ausnahme-Begründung — kein inhaltliches
+  Duplikat, sondern komplementäre Quelle (narrativ statt etymologisch), im neuen Artikel
+  entsprechend abgegrenzt und gegenseitig verlinkt.
+- `pdftoppm` erneut nicht im PATH des Read-Tools, Workaround über
+  `/opt/homebrew/bin/pdftoppm -png -f <PDF-Seite> -l <PDF-Seite> -r 150` nach `/tmp/`
+  gerendert (PDF-Seite = gedruckte Seite + 4, an S. 130/PDF-134 als Leerseite bestätigt).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste
+bleibt nach Plutarch offen: Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal
+(145), Sueton (149), Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus
+(159), Francesco Colonna/Hypnerotomachia (247) — 10 Positionen. **Nächster Lauf:** Tacitus
+(131-133) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der
+Reihe nach.

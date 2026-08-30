@@ -1,5 +1,25 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, fünfzigster P2-Lauf (Plutarch/Romulus destilliert, Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn selbst ermittelt: der 49. Lauf (Seneca, Plinius d. Ä.) war beim
+Ermitteln bereits durch `nas-selfcommit` committet (`git status` sauber, `git log` zeigte
+Commit `04a15a26a`) — keine eigene Sicherung dafür nötig, direkt mit dem nächsten offenen
+Kandidaten weitergearbeitet.
+
+**Plutarch, Romulus, Kap. 3/9-11** (S. 125-129) → neuer Artikel
+[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]]: Standortstreit
+Romulus (Palatin)/Remus (Aventin) entschieden durch Augurien-Wettstreit, Asyl-Tempel als
+Bevölkerungswachstumsinstrument, ausführliches etruskisches Gründungsritual (Mundus-Grube
+mit Herkunftserde, Pflugfurche, Pomerium, Tor-Ausnahme von der Mauerheiligkeit) — narrative
+Parallelfassung zum sprachetymologischen Bericht bei
+[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]], dieser Artikel
+entsprechend mit Rückverweis ergänzt.
+
+Aus der Namensliste (`wiki/QUESTIONS.md` #74) bleiben nach diesem Lauf 10 Positionen offen:
+Tacitus, Plinius d. J., Strabo, Juvenal, Sueton, Pausanias, Achilleus Tatius, Ausonius,
+Salvianus, Francesco Colonna/Hypnerotomachia. Nächster Lauf: Tacitus (S. 131-133).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, neunundvierzigster P2-Lauf (Seneca und Plinius d. Ä. destilliert, Lane FACHWISSEN)
 
 Stand vor Arbeitsbeginn selbst ermittelt: `git status`/`git log` zeigten den 48. Lauf
