@@ -5768,3 +5768,36 @@ geklärt.** Von den ursprünglich 39 Einzelportraits des Ordners
 Artikel vorhanden). **Der Architektenportrait-Ordner gilt damit als abgearbeitet.**
 **Nächster Lauf:** laut Lauf-Historie nächste P2-Kandidatensektion `02_Kunst_Geschichte`
 prüfen (siehe `KORPUS-QUEUE.md`).
+
+## 260830 — Zwei P2-Positionen, Sektion `02_Kunst_Geschichte` (94. Lauf Lane FACHWISSEN, erster P2-Lauf dieser Sektion)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, Inventardatei), `scutil`
+bestätigt Macmini, `ps -eo pid,ppid,command` zeigte genau eine laufende Instanz dieser Lane,
+Working Tree vor Beginn sauber. Die P1-Positionen dieser Sektion waren bereits im 8. Lauf
+des Korpus (29.08.2026) vollständig destilliert; dies ist der erste P2-Lauf.
+
+Zwei Positionen der Triage-Tabelle bearbeitet:
+
+- **Architekturfotografie** (Zeile 67): Vorlesungsunterlage `Geschichte_Architekturfotografie.pdf`
+  (HSLU, J. Ittig, WS 2007, 10 S.) via PyMuPDF gelesen und zu
+  [[architekturfotografie-referenzkanon-alinari-atget-becher-shulman-basilico-sugimoto]]
+  destilliert: chronologischer 32-Positionen-Kanon von Fratelli Alinari (1852) bis Hiroshi
+  Sugimoto (2000), als Referenzraster für die Beauftragung eigener Projektfotografie. Der
+  begleitende Fotografenverzeichnis-Zweig (rund 40 Ordner) stichprobenweise geprüft: reiner
+  Bildfundus ohne Begleittext, eine gefundene Textdatei ist ein Bild-PDF ohne OCR (0 Zeichen
+  bei Extraktion) — als nicht destillierbar geschlossen, kein weiterer Lauf nötig.
+- **Pipilotti Rist / Stadtlounge St. Gallen** (Zeile 71): vier PDF aus dem Unterordner
+  `Stadtlounge/` gelesen (Projektbeschrieb, Milestones-Chronologie, Belagstest,
+  Kurzbeschrieb) und zu
+  [[stadtlounge-st-gallen-pipilotti-rist-carlos-martinez-kunst-am-bau-studienauftrag-belagstest]]
+  destilliert: Kunst-am-Bau-Studienauftrag (sechs Teams, 18-köpfige Jury, Dezember 2002 bis
+  Oktober 2005), Entwurfskonzept «Lounge als städtisches Wohnzimmer» mit Loungezonen,
+  Materialisierung als durchgefärbter Gummigranulat-Teppich, dokumentierter Belagstest am
+  19.11.2004 mit dem städtischen Tiefbauamt. Neun Zeitungsberichte und der
+  Exkursions-Programmordner bleiben unausgewertet, offener Punkt in `wiki/QUESTIONS.md`.
+
+`git diff --numstat` auf die Inventardatei zeigte reinen Append (`39 0`). Zwei neue
+Wiki-Artikel, `wiki/INDEX.md` ergänzt. **Nächster Lauf:** weitere P2-Positionen dieser
+Sektion nach Ertrag (Kandidaten: Zeile 70 Vorlesungsreihen Ittig/Kiss/Ursprung, Zeile 69
+Bühnenbildner-Zweig, Zeile 75 Stilepochen-/Hagia-Sophia-Chronologie), sonst laut Queue-Regel
+nächste Sektion mit offenem P2 wählen.

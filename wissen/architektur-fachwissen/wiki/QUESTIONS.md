@@ -864,3 +864,15 @@ keine gilt hier als vorrangig richtig; dokumentiert in
 [[gottfried-semper-biografie-lebensstationen-hamburg-dresdner-barrikaden-zuerich-wien]]. Wer
 beantworten kann: Abgleich gegen eine Semper-Fachbiografie (z. B. Fröhlich, «Gottfried
 Semper») oder Raphael, falls eine solche im Bestand vorhanden ist.
+
+## 260830 — Stadtlounge St. Gallen, Sektion `02_Kunst_Geschichte` (94. Lauf Lane FACHWISSEN)
+
+**#75 Neun Zeitungsberichte zur Stadtlounge St. Gallen unausgewertet.** Im Ordner
+`06_Kuenstlerverzeichnis/Pipilotti_Rist/Zeitungsberichte/` liegen neun Artikel zur
+öffentlichen Rezeption («Ikone oder Schandfleck», «Pipilotti Rist lädt ins öffentliche
+Wohnzimmer» u. a.), die in
+[[stadtlounge-st-gallen-pipilotti-rist-carlos-martinez-kunst-am-bau-studienauftrag-belagstest]]
+nur über die Titel genannt, aber nicht inhaltlich ausgewertet sind. Ein künftiger P2-Lauf
+könnte daraus einen Rezeptions-Abschnitt (Akzeptanzspanne, Kritikpunkte) ergänzen. Ebenfalls
+offen: der Ordner `Programm/` (Exkursionslogistik St. Gallen) — nach Durchsicht vermutlich
+ohne Fachwissen (Anfahrt, Adressen), aber nicht geprüft.
