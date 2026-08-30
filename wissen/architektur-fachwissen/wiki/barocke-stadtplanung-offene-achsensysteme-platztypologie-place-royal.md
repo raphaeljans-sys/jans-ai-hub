@@ -3,7 +3,7 @@ title: "Barocke Stadtplanung: Offene Achsensysteme und Platztypologie (Place Roy
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/01_Jans_Reader/PDF/00_Alles/110806_Alles.pdf S. 24-26, 38-40 (eigener Reader «Geschichte des Städtebaus», Module 5 und 8)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md Abschnitt Triage, Position 1"]
-links: ["[[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]]", "[[ortsanalyse-raster-plananalyse-platzanalyse-lampugnani]]"]
+links: ["[[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]]", "[[ortsanalyse-raster-plananalyse-platzanalyse-lampugnani]]", "[[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]"]
 ---
 
 # Barocke Stadtplanung: Offene Achsensysteme und Platztypologie (Place Royal)

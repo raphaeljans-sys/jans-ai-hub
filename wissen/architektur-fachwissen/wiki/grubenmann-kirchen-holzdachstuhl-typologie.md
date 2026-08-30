@@ -3,7 +3,7 @@ title: "Grubenmann-Kirchen: Drei Holzdachstuhl-Dispositive und die Kirche Wäden
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Tragwerk/04_Bauingenieure/Grubmann Gebrüder/02_Kirche_Waedenswil/01_Grundlagen/Tec21/Grubenmann_Kirchen_Tragwerk.pdf — Reto Gadola, «Tragwerk und Raumform in Grubenmanns Kirchen», TEC21 42-43/2009, S. 18-25", "/Volumes/daten/02_Architektur_Archiv/01_Tragwerk/04_Bauingenieure/Grubmann Gebrüder/02_Kirche_Waedenswil/01_Grundlagen/Dissertation/eth-20590-02.pdf — Josef Killer, «Die Werke der Baumeister Grubenmann», Zürich 1942 (ETH-Dissertation, öffentlich über e-collection.ethbib.ethz.ch/view/eth:20590), Einzelseiten S. 140-141 (Fig. 94, 96-98) und S. 141-146 (Fig. 95, 99-102) aus dem Ordner Schwartz_Joseph/…/Dissertation/Einzelseiten/S138_144", "raw/inventar/archiv-fachwissen__01_Tragwerk.md"]
-links: []
+links: ["[[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]"]
 ---
 
 # Grubenmann-Kirchen: Drei Holzdachstuhl-Dispositive und die Kirche Wädenswil

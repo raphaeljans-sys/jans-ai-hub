@@ -354,3 +354,42 @@ Architekten, Bauherren und Bauwerke.
 `git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
 **Nächster Lauf:** Kapitel `02 BAROCK ROKOKO (SAKRALBAUTEN)` lesen, davor Duplikatscheck
 gegen Wiki-Bestand (insbesondere gegen etwaige bestehende Barock-Artikel).
+
+## Destillat-Fortschritt, vierter P2-Lauf (30.08.2026, Lane FACHWISSEN, 71. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`,
+diese Inventardatei), `ps -o pid,ppid,command` auf die eigene Prozesskette zeigte keine
+Doppel-Instanz, `scutil --get ComputerName` bestätigt Macmini. Empfohlener nächster Schritt
+aus dem 70. Lauf: Kapitel `02 BAROCK ROKOKO (SAKRALBAUTEN).pdf`, davor Duplikatscheck.
+
+**Duplikatscheck (Pflicht-Vorprüfung):** `grep -rli` auf „barock/rokoko/sakral" gegen
+`wiki/*.md` — Treffer in
+[[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]] (dieselbe Epoche,
+aber Stadtebene/Achsensysteme statt Sakralbau-Typologie) und
+[[grubenmann-kirchen-holzdachstuhl-typologie]] (Schweizer Barockkirchen derselben Zeit,
+aber Holzdachstuhl-Tragwerk statt Raumform/Fassade). Kein inhaltliches Duplikat — beide
+Artikel um eine Rückverlinkung ergänzt (`git diff --numstat` zeigte dort je `1 1`, reine
+Link-Ergänzung in der bestehenden `links:`-Zeile).
+
+**Hauptarbeit:** Kapitel `02 BAROCK ROKOKO (SAKRALBAUTEN).pdf` vollständig gelesen
+(PyMuPDF, 11 S.) und destilliert zu
+[[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]:
+Neun-Bauten-Kanon (Il Gesù Rom, St. Michael München, Jesuitenkirche Solothurn, Stiftskirche
+St. Gallen, San Carlo alle quattro fontane Rom, Benediktinerkirche Neresheim, Stiftskirche
+Einsiedeln, St. Johann Nepomuk München, Wieskirche Steingaden) mit Ort/Architekt/Jahr/
+typologischer Kernaussage je Bau, plus drei Fachbegriffe, die im bestehenden Glossar
+[[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]] noch fehlten
+(Fresko, Baldachin, Eckbastion/Eckrisalit) — die dort bereits geführten Begriffe (Joch,
+Kolossalordnung, Vierung, konkav/konvex) bewusst nicht erneut ausformuliert.
+
+**9 der 13 Dateien bleiben offen:** Kapitel `03`-`11` (Revolutionsarchitektur bis
+Moderne-Postmoderne). Fortsetzung des Duplikatschecks weiterhin nötig, sobald Kapitel mit
+bereits bestehenden Fachartikeln thematisch kollidieren (Le Corbusier/Mies/Bauhaus/Loos,
+Kapitel 08/09/11).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `03 REVOLUTIONSARCHITEKTUR` lesen, davor Duplikatscheck gegen
+Wiki-Bestand.

@@ -4836,3 +4836,39 @@ Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekann
 Architekten/Bauwerke. `git diff --numstat` auf die Inventardatei zeigte `40 0` (reiner
 Append). **Nächster Lauf:** Kapitel `02 BAROCK ROKOKO (SAKRALBAUTEN)` lesen, davor
 Duplikatscheck gegen Wiki-Bestand.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte`, vierter P2-Lauf: Sauter-Kapitel 02 Barock/Rokoko Sakralbauten (Lane FACHWISSEN, 71. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`,
+Inventardatei), `ps -o pid,ppid,command` zeigte keine Doppel-Instanz dieser Lane
+(`scutil` bestätigt Macmini). Empfohlener nächster Schritt aus dem 70. Lauf: Kapitel
+`02 BAROCK ROKOKO (SAKRALBAUTEN).pdf`, davor Duplikatscheck.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -rli` gegen `wiki/*.md` auf Barock/Rokoko/
+Sakralbau. Treffer in
+[[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]] (dieselbe Epoche,
+aber Stadtebene) und [[grubenmann-kirchen-holzdachstuhl-typologie]] (Schweizer
+Barockkirchen derselben Zeit, aber Tragwerk-Fokus statt Raumtypologie). Kein inhaltliches
+Duplikat — beide Artikel um eine Rückverlinkung ergänzt (`git diff --numstat` zeigte dort
+je `1 1`, reine Link-Ergänzung in der bestehenden `links:`-Zeile).
+
+**Hauptarbeit:** Kapitel `02 BAROCK ROKOKO (SAKRALBAUTEN).pdf` (11 S.) vollständig gelesen
+(PyMuPDF) und destilliert zu
+[[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]:
+Neun-Bauten-Kanon mit Ort/Architekt/Jahr/typologischer Kernaussage (Il Gesù Rom, St.
+Michael München, Jesuitenkirche Solothurn, Stiftskirche St. Gallen, San Carlo alle quattro
+fontane Rom, Benediktinerkirche Neresheim, Stiftskirche Einsiedeln, St. Johann Nepomuk
+München, Wieskirche Steingaden) sowie drei im bestehenden Glossar
+[[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]] noch fehlende
+Fachbegriffe (Fresko, Baldachin, Eckbastion/Eckrisalit) — bereits geführte Begriffe (Joch,
+Kolossalordnung, Vierung, konkav/konvex) bewusst nicht dupliziert. Inhaltlicher Schwerpunkt
+der Quelle: Entstehung und Verbreitung der Wandpfeilerkirche (München St. Michael als
+Ursprungsbau, Solothurn/St. Gallen als Schweizer Weiterentwicklung über Vorarlberger
+Baumeister), anschlussfähig an [[grubenmann-kirchen-holzdachstuhl-typologie]] (gleiche
+Bauzeit/Region, Tragwerksperspektive).
+
+**9 der 13 Sauter-Dateien bleiben offen** (Kapitel 03-11, Revolutionsarchitektur bis
+Moderne-Postmoderne). Sperrlisten-Prüfung: kein Fund, ausschliesslich historische,
+öffentlich bekannte Architekten/Bauwerke. `git diff --numstat` auf die Inventardatei
+zeigte `39 0` (reiner Append). **Nächster Lauf:** Kapitel `03 REVOLUTIONSARCHITEKTUR`
+lesen, davor Duplikatscheck gegen Wiki-Bestand.
