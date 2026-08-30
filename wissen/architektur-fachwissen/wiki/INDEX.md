@@ -1790,3 +1790,20 @@ Serlio ([[serlio-buehnenbau-scena-comica-tragica-satirica-1545]]). Von den
 54 benannten Positionen der Anthologie sind jetzt 31 destilliert oder
 begründet ohne Artikel abgeschlossen, 23 vollständig offen. Details je Lauf
 in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 36. P2-Lauf):** vor Laufbeginn systematisch
+geprüft, ob in irgendeiner Sektion beider Korpora noch offene P1-Positionen
+bestehen (alle 43 Inventardateien gegen ihren Destillat-Fortschritt
+geprüft) — **P1 ist über `buero-referenzen` UND `archiv-fachwissen`
+vollständig abgeschlossen**, kein offener Rest gefunden; nur P2 bleibt
+offen. Aventinus, Bayerische Chronik (S. 271-274) gelesen, aber ohne
+Artikel geschlossen (religiös-moralisierende Verfallsklage, ein einzelner
+Absatz zu bescheidenem Kirchenbau ohne Verfahren/Kennwert, zu dünn für
+einen eigenständigen Artikel). Castiglione/Raffael-Brief an Leo X. (1519,
+S. 275-279) destilliert →
+[[castiglione-raffael-brief-leo-x-1519-stilkritik-spolien]] (Spolien-/
+Kalkbrennerei-Kritik am antiken Rom, Raffaels Vermessungsmethode,
+stilkritische Dreiperioden-Klassifikation, Konstantinsbogen-Beispiel).
+Von den 54 benannten Positionen der Anthologie sind jetzt 32 destilliert
+oder begründet ohne Artikel abgeschlossen, 22 vollständig offen. Details
+in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.

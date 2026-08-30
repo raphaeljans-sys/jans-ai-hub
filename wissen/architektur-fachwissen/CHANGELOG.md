@@ -3435,3 +3435,32 @@ oder Norm-Fundstellen). Bericht: `wissen/koordination/outputs/2026-08-24_wissens
   offen.
 - Nächster Lauf: Aventinus (271) oder Castiglione/Raffael-Brief an Leo X. (275) als nächste
   kurze Positionen, sonst Vasari il Giovane/Città ideale (299) als bürorelevanter Kandidat.
+
+## 2026-08-30 — 36. P2-Lauf Sektion `01_Staedtebau`: P1-Gesamtstand verifiziert, Castiglione/
+Raffael-Brief destilliert, Aventinus ohne Artikel (Lane FACHWISSEN)
+- Vor Laufbeginn systematisch geprüft, ob in irgendeiner der 43 Inventardateien beider Korpora
+  (`buero-referenzen`, `archiv-fachwissen`) noch offene P1-Positionen bestehen (Fortschritt-
+  Abschnitte gezählt, Stichproben der grössten P1-Sektionen sowie der sechs bisher unbearbeiteten
+  `buero-referenzen`-Klein-Sektionen ohne Fortschritt-Abschnitt gelesen). **Ergebnis: P1 ist über
+  beide Korpora vollständig abgeschlossen**, kein offener Rest gefunden. Da die Queue nach Korpus 4
+  keinen weiteren Korpus vorsieht, setzt dieser und setzen künftige Läufe die P2-Bearbeitung fort
+  (Präzedenz seit dem zweiten P2-Lauf `02_Gestalt_Kulturverstaendnis`, 29.08.2026).
+- Johannes Aventinus, Bayerische Chronik (S. 271-274) vollständig gelesen — überwiegend
+  religiös-moralisierende Verfallsklage und Eroberungserzählung ohne städtebaulichen Gehalt; der
+  einzige fachlich anschlussfähige Absatz (Bescheidenheit des frühen Kirchenbaus) bleibt ohne
+  Verfahren/Kennwert zu dünn für einen eigenständigen Artikel. **Bewusst ohne Artikel geschlossen**
+  (Delta-Ehrlichkeit, analog Al-Ghazali/Koran-Auszüge).
+- Neuer Wiki-Artikel aus `Quellentextband-1.pdf` (S. 275-279, Baldassare Castiglione/Raffaello
+  Santi, Brief an Papst Leo X., 1519):
+  `castiglione-raffael-brief-leo-x-1519-stilkritik-spolien.md` — Spolien-/Kalkbrennerei-Kritik am
+  antiken Rom mit benannten Einzelverlusten, Raffaels Vermessungs-/Vergleichsrekonstruktions-
+  methode im päpstlichen Auftrag, stilkritische Dreiperioden-Klassifikation antiker/gotischer/
+  moderner Bauten, Konstantinsbogen-Beispiel für Architektur als letzte verfallende Kunst,
+  Spolien-Zerkleinerung am Beispiel Torre delle Milizie.
+- `raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+  Append, `git diff --numstat` geprüft: 65/0 bzw. reiner Zuwachs am Dateiende). Von den 54
+  benannten Positionen der Quellentextband-Anthologie sind jetzt 32 destilliert oder begründet
+  ohne Artikel abgeschlossen, 22 bleiben offen.
+- Nächster Lauf: Münster/Cosmographei (281), Specklin (289) oder Olivier de Serres (293) als
+  nächste kurze Positionen, sonst Vasari il Giovane/Città ideale (299) oder Leonardo da Vinci
+  (257, bisher nie geprüft).
