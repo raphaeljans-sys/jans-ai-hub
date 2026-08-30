@@ -313,3 +313,18 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   `01_Sylabus` und `03_Folie` bewusst nicht ausgewertet (Konvention wie VL2-VL7). Damit ist
   `111118_VL8_Loos_Adolf` vollständig bearbeitet. Offen: 16 der 23 Vorlesungsordner (rund
   180 der 190 Dateien). Nächster Lauf: `111125_VL9_Wright_Frank_Lloyd`.
+
+- 2026-08-30 (Lane FACHWISSEN, neunter P2-Lauf, VL9 Wright): beide Vorlesungsmitschriften
+  gelesen (`02_Vorlesungsmittschriften/111125_Architekturtheorie_I.docx`, rohe Live-Mitschrift,
+  und `03_Zusammenfassung/120124_Wright.docx`, eigene Prüfungszusammenfassung im
+  Frage-Antwort-Format). Werk-/Baufakten zu Fallingwater waren bereits über
+  `wiki/vier-kanonische-fallbeispiele-architekturtheorie-register.md` abgedeckt; der
+  theoretische Argumentationsgang (Sullivan-Herleitung «form follows function», «Zerstörung
+  der Kiste»/fliessender Raum, systematische Abgrenzung zum International Style, Broadacre
+  City als städtebauliches Pendant) fehlte und wurde zu einem neuen Artikel destilliert:
+  `wiki/wright-organische-architektur-zerstoerung-der-kiste-broadacre-city.md`
+  (`status: speculative`, Live-Mitschrift stellenweise fehlerhaft transkribiert, z. B.
+  Scharoun-Werk als «Loeb Haus Schminke» notiert). `01_Sylabus` und `04_Folie` bewusst nicht
+  ausgewertet (Konvention wie VL2-VL8). Damit ist `111125_VL9_Wright_Frank_Lloyd` vollständig
+  bearbeitet. Offen: 15 der 23 Vorlesungsordner (rund 179 der 190 Dateien). Nächster Lauf:
+  `111202_VL10_Zumthor`.

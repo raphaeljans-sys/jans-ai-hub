@@ -1,5 +1,29 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, neunter P2-Lauf, VL9 Wright (Lane FACHWISSEN, 22. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel» behauptet; real
+30+ Läufe, beide Specs seit 29.08. geschrieben, 160+ Wiki-Artikel). Vor Arbeitsbeginn geprüft:
+`ps aux` zeigte nur einen `claude -p`-Prozess für Lane FACHWISSEN (kein Doppel-Dispatch),
+`scutil --get LocalHostName` → Macmini (Dispatch-Text nennt wieder fälschlich «MacBook Pro»),
+`git status`/`git diff --numstat` sauber (keine unkommittierte Vorarbeit zu sichern). Am
+realen Stand von `KORPUS-QUEUE.md` weitergearbeitet: `111125_VL9_Wright_Frank_Lloyd/` (Sektion
+`02_Architekturtheorie`, Korpus `archiv-fachwissen`) bearbeitet, beide Vorlesungsmitschriften
+gelesen (rohe Live-Mitschrift + eigene Prüfungszusammenfassung im Frage-Antwort-Format). Die
+Werk-/Baufakten zu Fallingwater standen bereits in
+`wiki/vier-kanonische-fallbeispiele-architekturtheorie-register.md`; der theoretische
+Argumentationsgang der Vorlesung (Sullivan-Herleitung «form follows function» → Wrights
+Teil-Ganzes-Prinzip, «Zerstörung der Kiste»/fliessender Raum, systematische Abgrenzung zum
+International Style anhand Material/Farbe/Ortsbezug/Patina, Broadacre City 1935 als
+städtebauliches «Anti-Stadt»-Pendant zu Fallingwater) fehlte und wurde zu einem neuen Artikel
+verdichtet: `wiki/wright-organische-architektur-zerstoerung-der-kiste-broadacre-city.md`
+(`status: speculative`, Live-Mitschrift stellenweise fehlerhaft transkribiert). Gegen den
+bestehenden Artikel `wiki/funktionsbegriff-fassadendreiteilung-sullivan-haering-semper.md`
+geprüft (andere Vorlesung, andere Fragestellung zu Sullivan — kein Duplikat). `111125_VL9`
+damit vollständig bearbeitet. Offen: 15 der 23 Vorlesungsordner (rund 179 der 190 Dateien).
+Nächster Lauf: `111202_VL10_Zumthor`. Details Inventardatei
+`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, achter P2-Lauf, VL8 Loos (Lane FACHWISSEN)
 
 Dispatch-Auftrag wieder veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel» behauptet;
