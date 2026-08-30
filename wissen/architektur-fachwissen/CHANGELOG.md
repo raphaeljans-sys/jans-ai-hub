@@ -1,5 +1,40 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (104. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und `CHANGELOG.md` gelesen. Working tree bei Laufbeginn zunächst mit fünf
+uncommitteten Dateien aus dem 103. Lauf (git status), binnen Minuten vom 15-Min-Cron
+selbständig committet (`auto-sync [Macmini]`, working tree danach sauber) — kein
+Doppel-Dispatch: `ps aux` zeigt nur einen `claude -p`-Prozess mit diesem Dispatch-Text (PID
+30798). Zusätzlich gegengeprüft, ob P1 über beide Korpora tatsächlich vollständig ist (Befund
+des 36. `01_Staedtebau`-P2-Laufs, `raw/inventar/archiv-fachwissen__01_Staedtebau.md` Zeile
+1896-1901) — bestätigt, kein offener P1-Rest. Zeile 68 (`08_Design`, 733 Dateien) bleibt damit
+der einzige real offene P2-Posten dieser Sektion.
+
+Vom 103. Lauf empfohlene Kandidaten `hoffmann.htm` und `gropius.htm` gelesen, dazu
+`wiener_werkstätte.htm` als institutionelles Gegenstück zu Hoffmann. Duplikatscheck
+(`grep -rli` gegen Gropius/Hoffmann/Le Corbusier/Mackintosh/Wiener Werkstätte über
+`wiki/*.md`) vorab: keine echte Dublette. Ein neuer Artikel:
+[[wiener-werkstaette-hoffmann-bauhaus-gropius-designreform-industrie]] — Wiener Werkstätte
+(1903, Hoffmann/Moser, aus der Wiener Sezession, Vorbild Ashbee/Ruskin/Morris, endet im
+handwerklichen Luxusprodukt: Sanatorium Purkersdorf 1904, Palais Stoclet 1905-1911,
+«Sitzmaschine» Modell 6 70, Auflösung 1932) gegen Bauhaus (Gropius-Phase 1919-1928, aus
+derselben Arts-and-Crafts-Wurzel, aber konsequent auf Industriekooperation/Serienfertigung
+ausgerichtet; Gropius' eigene Bauhaus-Deckenlampe 1926 in der Quelle explizit als von Rietveld
+beeinflusst vermerkt — Anknüpfung an
+[[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]).
+
+Damit 14 von 128 Fliesstext-Dateien der Zeile 68 gelesen. **Zeile 68 bleibt offen** — rund 87
+weitere Personenartikel (u. a. Charles Rennie Mackintosh, Le Corbusier als Möbeldesigner,
+Ettore Sottsass, Otto Wagner) sowie ein `bilder`-Unterordner und `~$`/`.tmp`-Sicherungsdateien
+ungelesen. Kein Datenschutz-/Sperrlisten-Fund. `git diff --numstat` auf die Inventardatei zeigt
+reinen Append (unverändert, keine neue Erledigt-Markierung nötig — Zeile 68 ist eine
+Sammelposition ohne Einzeldatei-Abhaken). `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile
+68 fortsetzen, Kandidaten nach Dateigrösse (Mackintosh, Le Corbusier, Sottsass), vor
+Destillation erneut Duplikatscheck gegen die fünf neuen Artikel dieser Sektion und die
+Encyclopedia-of-Interior-Design-Quelle in `01_Innenarchitektur`.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (103. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,

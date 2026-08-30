@@ -87,7 +87,13 @@ Magistretti/Ponti (Cassina/Domus/Triennale). Damit elf von 128 Fliesstext-Dateie
 90 weitere Personenartikel (u. a. Hoffmann, Mackintosh, Le Corbusier als Möbeldesigner) sowie
 ein `bilder`-Unterordner und diverse `~$`/`.tmp`-Sicherungsdateien ohne Fachwert bleiben offen;
 Zeile 68 bleibt offen. Eine sechste P1-Position (eigener Stimm-Text) bewusst nicht in dieser KB
-destilliert, s. `QUESTIONS.md`. | `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
+destilliert, s. `QUESTIONS.md`. **104. Lauf (30.08.2026):** `hoffmann.htm`, `wiener_werkstätte.htm`
+und `gropius.htm` gelesen, zu einem neuen Vergleichsartikel Wiener Werkstätte gegen Bauhaus
+destilliert (Reformwurzel Arts and Crafts identisch, Ausgang gegensätzlich: Werkstätte bleibt
+handwerkliches Luxusprodukt, Bauhaus zielt auf Serienfertigung). Damit 14 von 128
+Fliesstext-Dateien gelesen, rund 87 weitere Personenartikel (u. a. Mackintosh, Le Corbusier als
+Möbeldesigner, Sottsass) bleiben offen; Zeile 68 bleibt offen. |
+`raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)
 
