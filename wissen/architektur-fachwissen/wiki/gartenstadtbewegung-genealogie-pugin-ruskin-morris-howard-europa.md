@@ -88,7 +88,9 @@ Gropius. Heute (Stand Mitschrift) rund 25'000 Einwohner.
 
 Die Mitschrift listet fünf europäische Gartenstadt-Varianten:
 
-1. **Hellerau bei Dresden** — stark gefasste Strassenräume.
+1. **Hellerau bei Dresden** — stark gefasste Strassenräume. Belegte Details (Architekt
+   Richard Riemerschmid, 1913-1917, Gründung durch Karl Schmidt 1909) siehe
+   [[sauter-heimatstil-reformarchitektur-gartenstadtbewegung-vier-bauten-kanon]].
 2. **Rotterdam-Vreewijk** — Planung Berlare/Magnus Mollier, Stadterweiterung.
 3. **Sowjetunion** — Konzentration mehrerer Gartenstädte, u. a. Ostankino bei Moskau.
 4. **Zürich-Schwamendingen** (Albert Steiner, 1948) — laut Mitschrift **keine** echte

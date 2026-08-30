@@ -471,3 +471,32 @@ Architekten, Bauherren und Bauwerke.
 gegen Wiki-Bestand (Gartenstadtbewegung ist in dieser KB bereits als eigener Artikel
 [[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] geführt — hohe
 Duplikatswahrscheinlichkeit, zuerst dort gegenlesen).
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `05 HEIMATSTIL GARTENSTADTBEWEGUNG` (74. Lauf, Lane FACHWISSEN)
+
+**Duplikatscheck zuerst ausgeführt:** bestehenden Artikel
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] gegengelesen. Kein
+Artikel-Duplikat — jener Artikel ist eine rohe Mitschrift zur ideengeschichtlichen Genealogie
+(Pugin→Howard), dieses Kapitel liefert einen sauberen Vier-Bauten-Kanon mit Architekt/Jahr/
+Kernmerkmal. Einzige Überschneidung Hellerau, dort per Rückverlinkung ergänzt
+(`git diff --numstat` `3 1`, reine Ergänzung, kein globales Ersetzen).
+
+**Hauptarbeit:** Kapitel `05 HEIMATSTIL GARTENSTADTBEWEGUNG.pdf` (5 S.) vollständig gelesen und
+destilliert zu
+[[sauter-heimatstil-reformarchitektur-gartenstadtbewegung-vier-bauten-kanon]]: Vier-Bauten-Kanon
+1904-1917 (Villa Heimeli Luzern/Sepp Kaiser, Schoorenkolonie St. Gallen/Paul Robert Gerber,
+Gartenstadt Hellerau Dresden/Richard Riemerschmid, Gartenstadt Staaken Berlin/Paul
+Schmidthenner), zwei Kurzbiografien (Riemerschmid, Schmidthenner), gesellschaftspolitischer
+Rahmen (Landesausstellungen 1896/1914, Schweizer Heimatschutzbewegung 1905). Kein neuer
+Glossarbegriff.
+
+**7 der 13 Sauter-Dateien bleiben offen:** Kapitel `06`-`11` (Jugendstil bis
+Moderne-Postmoderne). Fortsetzung des Duplikatschecks weiterhin nötig, sobald Kapitel mit
+bereits bestehenden Fachartikeln thematisch kollidieren (Le Corbusier/Mies/Bauhaus/Loos,
+Kapitel 08/09/11).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `06 JUGENDSTIL` lesen, davor Duplikatscheck gegen Wiki-Bestand.

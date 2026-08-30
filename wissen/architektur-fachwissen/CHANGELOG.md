@@ -1,5 +1,31 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `05 HEIMATSTIL GARTENSTADTBEWEGUNG` (74. Lauf, Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, Inventardatei), Dispatch-Text
+weiterhin veraltet. Vorangegangene unkommittierte Buchführung des 73. Laufs (Sauter-Kapitel
+04 Klassizismus/Historismus/Eklektizismus) zuerst per `nas-commit-now.sh` gesichert (erneuter
+NAS-Merge-Konflikt in mehreren fremden KBs, Working Tree lokal sauber, dem 15-Min-Cron
+überlassen).
+
+**Duplikatscheck zuerst ausgeführt:** bestehenden Artikel
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] gegengelesen — hohe
+Kollisionsvermutung laut Vorlauf-Notiz, aber kein Artikel-Duplikat: jener Artikel ist eine
+rohe Vorlesungsmitschrift zur ideengeschichtlichen Genealogie Pugin→Howard, dieses Sauter-
+Kapitel liefert einen sauberen Vier-Bauten-Kanon mit Architekt/Jahr/Kernmerkmal aus
+geordneter Sekundärquelle. Einzige Überschneidung Hellerau, dort per Rückverlinkung ergänzt
+(`git diff --numstat` `3 1`).
+
+Kapitel `05 HEIMATSTIL GARTENSTADTBEWEGUNG.pdf` (5 S.) vollständig gelesen und destilliert zu
+[[sauter-heimatstil-reformarchitektur-gartenstadtbewegung-vier-bauten-kanon]]: Vier-Bauten-
+Kanon 1904-1917 (Villa Heimeli Luzern/Sepp Kaiser, Schoorenkolonie St. Gallen/Paul Robert
+Gerber, Gartenstadt Hellerau Dresden/Richard Riemerschmid, Gartenstadt Staaken Berlin/Paul
+Schmidthenner), zwei Kurzbiografien, gesellschaftspolitischer Rahmen (Landesausstellungen
+1896/1914, Schweizer Heimatschutzbewegung 1905). Kein neuer Glossarbegriff. 7 der 13
+Sauter-Dateien bleiben offen (Kapitel 06-11). Sperrlisten-Prüfung: kein Fund. Details
+`raw/inventar/archiv-fachwissen__02_Architekturgeschichte.md`. Nächster Lauf: Kapitel
+`06 JUGENDSTIL`, davor Duplikatscheck.
+
 ## 2026-08-30 — Erster P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte` (68. Lauf, Lane FACHWISSEN)
 
 Dispatch-Prompt nennt bewusst keine Zahlen mehr (Lehre aus über 70 Läufen mit
