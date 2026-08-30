@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 03:21:53
+Stand: 30.08.2026 03:32:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 03:21:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d42f3054c architektur-fachwissen: Technik/Archigram-Artikel 120401_Technik_Archigram
+- e93f1e5c1 FACHWISSEN: archiv-fachwissen P2, 02_Architekturtheorie, 120427_Bauen_Abraham destilliert
