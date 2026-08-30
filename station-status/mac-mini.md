@@ -1,10 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 13:41:58
+Stand: 30.08.2026 13:52:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:41)
-- /Users/raphaeljans  (letzte Aktivitaet 13:34)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:45)
+- /Users/raphaeljans  (letzte Aktivitaet 13:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 30.08.2026 13:41:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6f873d7a6 Fachwissen: Sueton Kaiserbiographien Augustus Kap. 28-30/37 (Lampugnani S.149-150) destilliert
+- 6f1f2e1de Fachwissen: Achilleus Tatius (Alexandria-Kolonnadenraster) destilliert, 57. P2-Lauf 01_Staedtebau
