@@ -4,6 +4,22 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, zwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche `git status --short`/`git diff --numstat` (sauber, keine unerledigten
+Aenderungen) und `wiki/QUESTIONS.md` gezielt gegen alle vier Auftragspositionen geprueft
+(Fehlextraktionen Zeilen 349/353, vier Katalog-Kollisionen Zeilen 105/136/180/268/336/342/350,
+Sonderzeichen-Regel Zeile 265/351, Sammelfrage Charge 1-6 inkl. Zeile 32). Alle vier weiterhin
+BEHOBEN bzw. vollstaendig recherchiert seit dem ersten Lauf am 29.08.2026, keine neue Position
+gefunden. Die zwei verbleibenden Rueckfragen (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile
+319: wer diese Personen im JANS-Buerokontext sind) bleiben nicht websuchbar, reine Freigabe-/
+Auskunftssache; die NAS-Ordner-Zusammenfuehrungen der vier Kollisionsfaelle bleiben ebenfalls
+Freigabesache. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert, kein Commit ausgeloest
+(NAS-Auto-Sync erfasst diesen Eintrag von selbst). Zwanzigster Redispatch desselben Auftrags an
+einem Tag. Empfehlung an Raphael unveraendert und dringlich: Lane SYNOBSIS pausieren, bis neues
+Quellmaterial vorliegt oder die zwei Rueckfragen beantwortet sind — jeder weitere Redispatch mit
+identischem Auftragstext bindet Budget ohne Ertrag.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, neunzehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
 
 Vor jeder Recherche gegen `git status --short`, `git diff --numstat` und `wiki/QUESTIONS.md`
