@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 14:40:45
+Stand: 30.08.2026 14:51:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 14:40:45
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 69e630d37 Lane FACHWISSEN: 62. Lauf Protomodern-Ornament (Di Stefano, Sullivan 1892) destilliert
+- 3a6ca5ec5 nas-selfcommit: 3 Datei(en) 2026-08-30 14:45
