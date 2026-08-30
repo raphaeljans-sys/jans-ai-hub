@@ -3,7 +3,7 @@ title: "Manuel da Maia: fünf Wiederaufbau-Modi nach dem Erdbeben von Lissabon 1
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 327-334 (Manuel da Maia, «Dissertação», Manuskripte vom 4.12.1755, 16.2.1756 und 31.3.1756, hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, vollständig gelesen)"]
-links: []
+links: ["[[kalabrien-wiederaufbau-erdbeben-1783-vergleich-lissabon]]"]
 ---
 
 # Manuel da Maia: fünf Wiederaufbau-Modi nach dem Erdbeben von Lissabon 1755
