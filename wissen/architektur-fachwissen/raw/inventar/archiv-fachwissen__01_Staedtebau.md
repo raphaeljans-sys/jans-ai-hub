@@ -2816,3 +2816,52 @@ Append. Aus der Namensliste bleibt nach Salvianus nur noch offen: Francesco
 Colonna/Hypnerotomachia (247) — 1 Position. **Nächster Lauf:** Francesco
 Colonna/Hypnerotomachia (247), danach ist die 54-Positionen-Liste dieses Quellentextbands
 vollständig abgearbeitet — zur nächsten P2-Sektion gemäss Inventar-Prioritäten vorrücken.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, 60. P2-Lauf (Francesco Colonna/Hypnerotomachia destilliert, ABSCHLUSS der 54-Positionen-Liste, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen):
+Working Tree sauber, letzter Commit unmittelbar vor Laufbeginn (`auto-sync [Macmini]`) —
+`KORPUS-QUEUE.md`, dieses CHANGELOG und die Inventardatei übereinstimmend auf 59 Läufe, 1
+offene Namenslisten-Position, letzter Kandidat Francesco Colonna/Hypnerotomachia (247).
+
+Francesco Colonna, «Hypnerotomachia Poliphili» (Venedig 1499), Auszug «Poliphil erzählt
+seinen Traum, er begegnet Bauten und kultivierter Landschaft», S. 247-250, per
+`pdftoppm -f 251 -l 254 -r 150` gerendert (PDF-Seite = gedruckte Seite + 4, bestätigt: PDF-
+Seite 251 = gedruckte Seite 247 = Kapitelüberschrift «Francesco Colonna»), vollständig
+gelesen — vier Textseiten. Text liegt nur im italienisch-lateinischen macaronischen
+Original vor, keine deutsche Übersetzung in dieser Anthologie (nur eine zweizeilige
+deutsche Inhaltsangabe). Inhalt: monumentales Tor, ein von Kolonnaden gesäumter
+tetragonaler Platz (30 Passi Seitenlänge, dorisch-pulvinierte Kapitelle, Deutungsunsicherheit
+Hippodrom/Xystos/Peristyl), eine kolossale geflügelte Pferdestatue (Hufe-Boden 5 Fuss,
+Hufe-Brust 9 Fuss) sowie ein kreisrunder Venustempel mit konkreter Proportionsgeometrie
+(Kreis-im-Quadrat-Teilung in fünf plus einen Mittelteil, zehn Bögen auf Säulen, korinthische
+Porphyrsäule neun Durchmesser hoch) und einer monolithisch gegossenen Bronzekuppel
+(Ornamentrelief Weinranken/Vögel/Eidechsen, farbige Glaseinlagen). Der Auszug endet mit einer
+sachlich-technischen Vier-Punkte-Begründung gegen wandintegrierte Dachentwässerung
+(Absturzgefahr, Fundamentschaden durch Feuchte, Mauerwerksfäulnis, Wurzelschäden durch
+Pflanzenbewuchs in feuchten Fugen). Destilliert →
+[[francesco-colonna-hypnerotomachia-poliphili-rundtempel-proportionsgeometrie-drainage]],
+`status: speculative` (allegorisch-fiktionale Traumdichtung ohne empirischen Anspruch, keine
+ausführbare Bauanleitung).
+
+Gegen Wiki-Bestand geprüft (`grep -rli` colonna/hypnerotomachia/poliphil über `wiki/*.md`):
+kein inhaltlicher Duplikat-Fund. Verlinkt mit
+[[francesco-di-giorgio-martini-stadtkoerper-proportionslehre-anthropometrie]] (Proportions-
+lehre derselben Anthologie, rund 20 Buchseiten weiter),
+[[pacioli-divina-proportione-koerperproportion-simulacro-architektur]] (dritte, geometrische
+statt körperbezogene Proportionsspielart) und
+[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]]
+(Kolossalstatuen-Tradition, Dinocrates-Anekdote als antikes Vorbild). Alle drei bestehenden
+Artikel per Nachtrag rückverlinkt.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Damit ist die
+54-Positionen-Liste des Quellentextbands (`06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/
+Quellentextband-1.pdf`) vollständig abgearbeitet** — 53 Positionen destilliert oder
+begründet ohne Artikel abgeschlossen, 1 Position (Vita Nicolai V, S. 201, laut 30. Lauf
+angelesen, aber bewusst nicht destilliert: päpstliche Baupatronage-Rechtfertigung, kein
+unmittelbarer Zusammenhang mit den destillierten Nachbarpositionen Bern/Siena) bleibt als
+eigenständiger Restpunkt für einen Folgelauf offen, falls thematisch passend. **Nächster
+Lauf:** entweder Vita Nicolai V (S. 201) als letzter Rest dieser Quelle klären, oder gemäss
+Queue-Regel zur nächstgrössten Sektion mit offenem P2 nach `wiki/INDEX.md`
+„Sektionen nach Ertrag" übergehen (Quellentextband-Auswertung dieser Sektion ist damit kein
+Grund mehr für eine Sonderpriorisierung).
