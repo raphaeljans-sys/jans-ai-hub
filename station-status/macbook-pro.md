@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.08.2026 01:08:13
+Stand: 31.08.2026 01:28:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:28)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 31.08.2026 01:08:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 36e461014 vollgas-radar 31.08. 00:57: Fenster FREI, Kontingent 85% bei 93.5% Woche, fachwissen-Lane laeuft bis Fristende; mtime-Messfalle durch 479 Rebase-Versuche dokumentiert
+- aaf414f81 nas-selfcommit: 4 Datei(en) 2026-08-31 01:15
