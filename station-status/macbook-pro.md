@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 06:27:01
+Stand: 30.08.2026 06:37:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:02)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 06:27:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 131126418 SYNOBSIS: 22. Minimalcheck 30.08.2026, weiterhin nichts offen
+- 2a60cb2f9 SYNOBSIS: 24. Minimalcheck-Redispatch, weiterhin nichts offen

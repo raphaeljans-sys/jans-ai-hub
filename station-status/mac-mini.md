@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 06:27:58
+Stand: 30.08.2026 06:38:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 06:03)
+- /Users/raphaeljans  (letzte Aktivitaet 06:34)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 06:27:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 131126418 SYNOBSIS: 22. Minimalcheck 30.08.2026, weiterhin nichts offen
+- 2a60cb2f9 SYNOBSIS: 24. Minimalcheck-Redispatch, weiterhin nichts offen
