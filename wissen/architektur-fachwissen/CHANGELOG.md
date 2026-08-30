@@ -1,5 +1,37 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, fünfter P2-Lauf (Position 2 Teil 1, Lane FACHWISSEN, 56. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
+
+Vor Arbeitsbeginn wie üblich `scutil`/`ps aux`/`KORPUS-QUEUE.md`/dieses CHANGELOG
+gegengeprüft: beide Specs bestehen, 210 Wiki-Artikel, P1 beider Korpora vollständig,
+Sektion `01_Staedtebau` P2 zuletzt mit Position 1 abgeschlossen (vierter P2-Lauf).
+
+Position 2 (ILIAS-Übungsheft «Geschichte des Städtebaus», 61 S., 214 kB Text) zu rund 82 %
+gelesen (Themenblöcke 1-14 von 17; `textutil` scheiterte an der PDF, `python3`/`pypdf`
+extrahierte erfolgreich). Grösstenteils reine Lernkontrolle, die bereits destillierte
+Vorlesungsinhalte wiederholt (Delta-Ehrlichkeit) — u. a. ist die Berlage/Amsterdamer-Schule-
+Baublock-Definition wortidentisch bereits im Bestand. Drei neue Artikel mit echtem
+Mehrwert destilliert:
+
+- [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]:
+  Streifenstadt, Hippodamisches System, Cardo/Decumanus, Centuriatio, Castrum, Insulae,
+  Forum/Agora.
+- [[plantypen-glossar-katasterplan-schwarzplan-strassenplan-enteignungsplan]]:
+  Katasterplan, Schwarzplan, Strassenplan, Quartierplan, Strassenquerschnitt,
+  Gestaltungsplan, Enteignungsplan (beide mit Schweizer Rechtsbezug), Nolliplan.
+- [[stadtgruendung-stadterweiterung-stadtumbau-begriffstrias]]: präzise Dreiteilung mit
+  wörtlichem Zitat ARL, Handwörterbuch der Raumordnung, 2005.
+
+Zusätzlich Ergänzung im bestehenden Artikel `berlin-stadterweiterung-schinkel-lenne-hobrecht`:
+Hobrecht-Fluchtlinienplan-Kennzahlen 1862 (Mietskaserne-Kritikpunkte, Tempelhofer/
+Schöneberger Feldmark 1861/1870/1891) — füllt eine dort selbst vermerkte Lücke.
+
+`git diff --numstat` auf die Inventardatei und auf `wiki/INDEX.md` zeigte in beiden Fällen
+reinen Append. Drei Themenblöcke bleiben ungelesen (15 Stadtmodernisierung Berlin, 16
+Städtisches Grün, 17 Städtisches Wohnen Frankfurt). Nächster Lauf: diese drei Restblöcke
+abschliessen, dann Position 2 schliessen und mit Position 3 (fünf Grundlagenwerke
+Manualistik) fortfahren. Keine der harten Sperren berührt.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, vierter P2-Lauf (Position 1, Lane FACHWISSEN, 55. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
 
 Vor Arbeitsbeginn `scutil`/`ps aux`/`KORPUS-QUEUE.md`/dieses CHANGELOG gegengeprüft statt

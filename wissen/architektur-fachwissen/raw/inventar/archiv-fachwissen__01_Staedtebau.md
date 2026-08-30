@@ -361,3 +361,43 @@ jetzt 1, 8, 13 und 14 erledigt; Positionen 2–7 (Übungsheft, fünf Grundlagenw
 Manualistik, 33 Autorendossiers, Platz-Materialbestand) bleiben offen. Details CHANGELOG/
 `wiki/INDEX.md` 30.08.2026. Nächster Lauf: Position 2 (Übungsheft, 61 S., Kompetenz-/
 Methodenraster über 17 Themenblöcke).
+
+**30.08.2026 (Lane FACHWISSEN, fünfter P2-Lauf, Position 2, Fortsetzung):** Position 2
+(`00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/02_Uebungsheft/PDF/110805_Alles.pdf`,
+61 S., ILIAS-Übungsheft mit Multiple-Choice-Fragen zu 17 Themenblöcken) zu rund 82 %
+gelesen (Themenblöcke 1-14 von 17, Textutil scheiterte an der PDF — via `python3`/`pypdf`
+extrahiert, 214'561 Zeichen, deckt sich mit dem im Kurzbefund angegebenen Textumfang).
+**Delta-Ehrlichkeit bestätigt:** der grösste Teil der Übung ist reine Lernkontrolle
+(Multiple-Choice zu historischen Stadtplänen Rom/Paris/Berlin/Wien/Barcelona), die bereits
+an anderer Stelle destillierte Inhalte wiederholt (Sixtus V./Versailles in
+[[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]], Haussmann in
+[[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]], Berlage/Amsterdamer
+Schule/Baublock-Definition **wortidentisch** in
+[[berlage-impressionistische-baukunst-amsterdamer-schule-block-zu-siedlung]], Howard/Owen/
+Fourier in [[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] und
+`engels-wohnungsfrage-owen-fourier-company-towns`, City Beautiful/Burnham/L'Enfant in
+`monumentale-stadtachsen-haussmann-paris-city-beautiful-washington`) — dort **kein neuer
+Artikel**. Vier Fundstellen mit echtem Mehrwert identifiziert und destilliert:
+
+- S. 8-15 (Modul 1, Antike Stadtgründungstypen: Streifenstadt, Hippodamisches System,
+  Cardo/Decumanus, Centuriatio, Castrum, Insulae, Forum/Agora) → neuer Artikel
+  [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]].
+- S. 20-21, 30-31, 48-51 (Module 3 und 7, Plantypen-Definitionen: Katasterplan, Schwarzplan,
+  Strassenplan, Quartierplan, Strassenquerschnitt, Gestaltungsplan, Enteignungsplan,
+  Nolliplan-Sonderfall) → neuer Artikel
+  [[plantypen-glossar-katasterplan-schwarzplan-strassenplan-enteignungsplan]].
+- S. 62-67 (Module 8-9, Begriffstrias Stadtgründung/Stadterweiterung/Stadtumbau mit
+  ARL-2005-Zitat) → neuer Artikel
+  [[stadtgruendung-stadterweiterung-stadtumbau-begriffstrias]].
+- S. 60-64 (Modul 8, Hobrecht-Fluchtlinienplan 1862, Mietskaserne-Kritikpunkte,
+  Tempelhofer/Schöneberger Feldmark 1861/1870/1891) als Ergänzung in den bestehenden
+  Artikel [[berlin-stadterweiterung-schinkel-lenne-hobrecht]] eingefügt (füllt dort die
+  selbst vermerkte Lücke «keine Kennzahlen des Hobrecht-Plans»).
+
+Alle drei neuen Artikel `status: emerging`, da die Definitionen selbst unstrittig und klar
+formuliert sind (anders als die stichwortartigen Live-Mitschriften früherer Läufe). Drei
+Themenblöcke bleiben ungelesen (15 Stadtmodernisierung Berlin, 16 Städtisches Grün, 17
+Städtisches Wohnen Frankfurt) — rund 750 von 4178 Zeilen des extrahierten Texts (Zeilen
+3421-4178 in `/tmp/uebungsheft_extracted.txt`, dort nicht mehr vorhanden, Originaldatei auf
+NAS bleibt Fundstelle). **Nächster Lauf:** diese drei Blöcke abschliessen, dann Position 2
+endgültig schliessen und mit Position 3 (fünf Grundlagenwerke Manualistik) fortfahren.

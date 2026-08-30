@@ -1309,3 +1309,41 @@ Nächster Lauf: Position 2 (Übungsheft, 61 S., 214 kB Text, Kompetenz-/Methoden
 17 Themenblöcke) oder eine der übrigen vier Positionen.
 
 Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 2, Teil 1 (Lane FACHWISSEN, 56. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Wie üblich vor Arbeitsbeginn `scutil` (Macmini bestätigt), `ps aux` (keine Doppel-Instanz)
+und `KORPUS-QUEUE.md`/`CHANGELOG.md`/diese Datei gegengeprüft: Dispatch-Text erneut
+identisch veraltet («kein Destillat, keine Spec», Station fälschlich «MacBook Pro»), realer
+Stand entsprach dem Ende des vierten P2-Laufs (Position 1 abgeschlossen).
+
+Position 2 (`.../02_Uebungsheft/PDF/110805_Alles.pdf`, 61 S. ILIAS-Übungsheft) zu rund 82 %
+gelesen (Themenblöcke 1-14 von 17). Textextraktion: `textutil` scheiterte an dieser PDF
+(gab Rohbytes statt Text zurück), `python3`/`pypdf` extrahierte erfolgreich 214'561 Zeichen
+— deckt sich mit dem im Kurzbefund vermerkten Textumfang. **Delta-Ehrlichkeit:** der
+Grossteil der Übung ist Multiple-Choice-Lernkontrolle zu historischen Stadtplänen, die
+bereits destillierte Inhalte wiederholt (u. a. Sixtus V./Versailles, Haussmann, Berlage/
+Amsterdamer Schule inklusive der Baublock-Definition **wortidentisch** zum bestehenden
+Artikel, Howard/Owen/Fourier, City-Beautiful/L'Enfant) — dort kein neuer Artikel. Drei neue
+Artikel destilliert:
+
+- [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]
+  (`status: emerging`): Streifenstadt, Hippodamisches System, Cardo/Decumanus, Centuriatio,
+  Castrum, Insulae, Forum/Agora — Definitionen aus Modul 1.
+- [[plantypen-glossar-katasterplan-schwarzplan-strassenplan-enteignungsplan]]
+  (`status: emerging`): Katasterplan, Schwarzplan, Strassenplan, Quartierplan,
+  Strassenquerschnitt, Gestaltungsplan (Schweizer Bezug), Enteignungsplan (Schweizer
+  Raumplanungsgesetz-Bezug), Nolliplan-Sonderfall.
+- [[stadtgruendung-stadterweiterung-stadtumbau-begriffstrias]] (`status: emerging`):
+  präzise Dreiteilung mit wörtlichem ARL-2005-Zitat zu Stadtumbau.
+
+Zusätzlich Ergänzung im bestehenden Artikel
+[[berlin-stadterweiterung-schinkel-lenne-hobrecht]]: Hobrecht-Fluchtlinienplan-Kennzahlen
+1862 (Mietskaserne-Kritikpunkte, Tempelhofer/Schöneberger Feldmark 1861/1870/1891) — füllt
+die dort selbst vermerkte Lücke.
+
+**Drei Themenblöcke bleiben ungelesen** (15 Stadtmodernisierung Berlin, 16 Städtisches
+Grün, 17 Städtisches Wohnen Frankfurt). Details/Fundstellen in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` Abschnitt Destillat-Fortschritt.
+**Nächster Lauf:** die drei Restblöcke abschliessen, dann Position 2 schliessen und mit
+Position 3 (fünf Grundlagenwerke Manualistik) fortfahren. Keine der harten Sperren berührt.
