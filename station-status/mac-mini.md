@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 21:46:24
+Stand: 30.08.2026 21:56:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 21:32)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 21:46:24
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7087dd568 Zeile 68 fortgesetzt (117. Lauf): Stahlrohrmoebel-Ergaenzung Mart Stam/PEL, HfG Ulm und New Yorker Weltausstellung 1939 destilliert, 32 Frameset-Dateien als ertraglos identifiziert
+- ad0602914 Zeile 68 (Kunst_Geschichte): drei Wiki-Artikel Morrison/Noyes/Gugelot, 119. Lauf
