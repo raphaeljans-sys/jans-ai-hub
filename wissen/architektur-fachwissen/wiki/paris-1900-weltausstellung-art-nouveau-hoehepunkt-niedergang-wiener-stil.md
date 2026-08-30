@@ -67,6 +67,19 @@ belgisch-organisch, wienerisch-geometrisch) im selben Raum begegneten, kurz bevo
 geometrische Richtung durchsetzte. Nützlich als Datierungs-Ankerpunkt bei
 architekturgeschichtlichen Einordnungen in Erläuterungsberichten zu Jugendstil-Bestand.
 
+## Ergänzung (122. Lauf, 30.08.2026): `design_im_20.htm`
+
+Weitere Datei desselben Offline-Spiegels mit praktisch identischer Kernerzählung
+(Ruskin/Morris/Ashbee/Voysey → Guimard/Gallé/Gaillard/Van-de-Velde/Horta/Gaudí/Behrens/
+Mackintosh/Wagner/Hoffmann → Turin 1902) — daher kein eigener Artikel, nur die drei
+zusätzlichen, dort nicht enthaltenen Fakten ergänzt: Émile Gallés Vase von 1895
+(Kristallglas, mehrfach überfangen, graviert, Musée d'Orsay Paris) als Beispiel der
+Gebrauchskunst neben der Architektur; die Zeitschriften **«The Studio»** und **«Pan»** als
+Verbreitungskanäle des Art nouveau über nationale Grenzen hinweg; sowie die Quellenanmerkung,
+dass die damalige Zukunftsvision des Gesamtkunstwerks laut Text «weitgehend von Männern
+geprägt» war, während Dekoration/Kunsthandwerk als Felder galten, in denen die
+«Maschinenästhetik» noch nicht dominierte.
+
 ## Offene Punkte
 
 - Quelle ohne Impressum/Autor, keine Verifikation gegen Primärliteratur in diesem Lauf.
