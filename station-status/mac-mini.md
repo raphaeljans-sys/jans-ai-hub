@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 20:23:50
+Stand: 30.08.2026 20:34:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 20:08)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 20:23:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bbeee0eb3 Lane FACHWISSEN 104. Lauf: Wiener Werkstaette/Bauhaus-Vergleichsartikel (archiv-fachwissen Zeile 68)
+- fb031b35f auto-sync [Macmini]: sottsass/ruhlmann Wiki-Artikel, KORPUS-QUEUE/CHANGELOG/INDEX (106. Lauf Lane FACHWISSEN)
