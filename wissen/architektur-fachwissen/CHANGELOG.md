@@ -1,5 +1,51 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Tragwerk`, erster P2-Lauf (Lane FACHWISSEN, 47. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet (behauptet «noch kein Destillat und keine Spec», real: beide
+Korpus-Specs stehen seit 29.08.2026, P1 in beiden Korpora vollständig, mehrere P2-Läufe
+abgeschlossen) — am realen `KORPUS-QUEUE.md`/`CHANGELOG.md`-Stand weitergearbeitet statt am
+Dispatch-Text. Vor Arbeitsbeginn `ps aux` geprüft: zwei `claude-run.sh`-Wrapper-Prozesse für
+dieselbe Lane (PID 1452/1459), per Elternschaftskette (`1452 → 1459 → 1460`, dieser Lauf) als
+verschachtelte Wrapper derselben Instanz identifiziert — keine echte Doppel-Instanz, anders
+als ein früherer, nicht bestätigter Verdacht (PID 66424/66411, Elfter Lauf Korpus 3).
+
+Sektion `01_Tragwerk` (Korpus `archiv-fachwissen`, nächstgrösste Sektion mit offenem P2 gemäss
+Queue-Empfehlung des Vorlaufs) bearbeitet: zwei P2-Quellen vollständig gelesen, zwei neue
+Wiki-Artikel:
+
+- `wiki/formfindung-experimenteller-tragwerksentwurf-frei-otto-stuttgart21.md` — Methode des
+  experimentellen Tragwerksentwurfs nach Frei Otto (Selbstbildungsprozess, vier
+  Experiment-Schwerpunkte: Formerfassung, Kraftermittlung, Form-Kraft-Masse-Zusammenhang,
+  Entwurfsmodelle), Fallbeispiel Stuttgarter Bahnhof/Stuttgart 21 (Seifenhaut-
+  Minimalflächen, Umkehr Hängemodell zu Druckschale, Formfindungsprogramm «Tensyl»).
+  Quelle: eigenes ETH-Vorlesungsskript Prof. Schwartz (2011), Status `emerging` mangels
+  unabhängiger Zweitbelegung der darin zitierten Frei-Otto-/Arch+-Sekundärquellen.
+- `wiki/literaturregister-holzbau-1876-1993.md` — rund 100 Titel Holzbau-Fachliteratur
+  1876-1995 nach Epochen geordnet (Grundlagenwerke, EMPA-Prüfberichte, Ingenieurholzbau/
+  Bemessung, Schweizer Holzbrücken, Normen-/Regelwerk-Einführung, LIGNUM-Fachserien), mit
+  Anschluss an den bereits bestehenden Artikel
+  `wiki/grubenmann-kirchen-holzdachstuhl-typologie.md` (Titel Dubas/Gehri 1983).
+
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Tragwerk.md` als zweiter Abschnitt
+`## Destillat-Fortschritt` angehängt (`git diff --numstat` 22/0 geprüft, reiner Append) —
+vor Arbeitsbeginn beide vorhandenen Fortschritts-Abschnitte gelesen (nicht nur `tail`), Lehre
+aus dem Vierundzwanzigsten Destillat-Lauf befolgt. Kein neuer Datenschutz- oder
+Sperrlisten-Fund; Sperrvermerk Seite 4 des Readers `111002_Reader_alle_Seiten.pdf`
+weiterhin nicht angetastet. `wiki/INDEX.md` (Tabellenzeile Sektion 16 und Artikelbestand-Log)
+nachgeführt.
+
+**29 P2-Positionen dieser Sektion bleiben offen**, darunter vorrangig: die restlichen
+Knotenpunkt-Einzelseiten der Killer-Dissertation (S. 138-144, sieben PDF, Verbindung
+Hängesäule-Untergurt-Längsbinder, Streckbalken-Auflager), das Werkschau-Register der
+Abschlussvorlesung (135 Folien, rund 20 Bauten mit Architekt/Ingenieur-Nennung), die drei
+Kraftfluss-Darstellungsvarianten desselben Brückenlängsschnitts, das Randbedingungs-Muster
+der Seminarwochen-Aufgabenstellung «Bridging the Gap» und der Counterpoise-Erläuterungstext.
+`02_Architektur_Vermitteln` und `01_Landschaftsarchitektur` (je rund 12 P2-Positionen in der
+Ertrag-Tabelle, aber noch unbearbeitet) bleiben Alternativen für den nächsten Lauf, falls
+dieser nicht in `01_Tragwerk` weiterfährt. Korpus `buero-referenzen` unverändert: P2 seit dem
+Elften Lauf weiterhin offen in `10_Modellbauen` (86 Positionen) und den übrigen 22 Sektionen.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II`, vierter P2-Lauf (Lane FACHWISSEN, 46. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet, am realen `KORPUS-QUEUE.md`-Stand weitergearbeitet.

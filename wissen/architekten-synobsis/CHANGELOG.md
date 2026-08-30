@@ -4,6 +4,22 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 04:10 (Mac Mini, Schub-Lane SYNOBSIS, zwoelfter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git log`, `git status` und `wiki/QUESTIONS.md` geprueft
+(Memory-Hinweis: chronischer Dispatch-Loop). Stichprobe am Katalog direkt (nicht nur am
+Text) bestaetigt unveraendert: `catalog/{Christ_Gantenbein,Enzmann_Fischer,Miller_Maranta,
+Gigon_Guyer}.json` tragen beide Quellordner, `catalog/Tadao_Ando.json` und
+`catalog/Spuehler_Martin.json` die korrigierten Textauszuege, Sonderzeichen-Slugs
+unveraendert korrekt. `QUESTIONS.md` Zeile 54/55/88/334: dieselben vier Restnamen
+(Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure) weiterhin ohne Beleg trotz zweier
+unabhaengiger Recherche- plus Ordnerinhalt-Sichtungs-Passagen am 29./30.08. — echter
+Materialmangel, keine offene Arbeit. `git status --short` fuer diese KB leer, `git diff
+--numstat wissen/architekten-synobsis/` leer. Keine Datei veraendert ausser diesem Eintrag.
+Dies ist der zwoelfte Redispatch desselben Auftrags an einem einzigen Tag. Empfehlung an
+Raphael unveraendert: Lane SYNOBSIS pausieren, bis ein inhaltlich neuer Auftrag vorliegt
+oder neues Quellmaterial im NAS-Ordner eintrifft.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, elfter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
 
 Vor jeder Recherche gegen `wiki/QUESTIONS.md` und die letzten CHANGELOG-Eintraege geprueft
