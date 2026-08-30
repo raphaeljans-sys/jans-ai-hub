@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 10:56:47
+Stand: 30.08.2026 11:07:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 10:55)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 10:56:47
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 05b65112e wissen/architektur-fachwissen: Münster (Bern-Gründungssage) und Specklin (Vestungsbau-Standortkriterien) destilliert, 37. P2-Lauf Sektion 01_Staedtebau
+- 456997efb nas-selfcommit: 3 Datei(en) 2026-08-30 11:00

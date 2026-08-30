@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 10:54:26
+Stand: 30.08.2026 11:04:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 10:54:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 05b65112e wissen/architektur-fachwissen: Münster (Bern-Gründungssage) und Specklin (Vestungsbau-Standortkriterien) destilliert, 37. P2-Lauf Sektion 01_Staedtebau
+- 456997efb nas-selfcommit: 3 Datei(en) 2026-08-30 11:00
