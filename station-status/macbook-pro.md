@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 19:49:21
+Stand: 30.08.2026 19:59:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 19:49:21
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1a5d1cc47 Lane FACHWISSEN: Zeile 72 Flandern-Studienreise-Reader destilliert (100. Lauf)
+- 591f96485 Lane FACHWISSEN: Zeile 68 08_Design begonnen (Stahlrohrmoebel-Genealogie Rietveld/Breuer/Mies-Reich)
