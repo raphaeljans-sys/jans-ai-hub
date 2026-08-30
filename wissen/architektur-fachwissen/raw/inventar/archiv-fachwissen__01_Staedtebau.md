@@ -1069,3 +1069,46 @@ Lampugnani-Quellentextband (358 S. Scan) und `kapitel01_dk...` Unterkapitel 1/2/
 acht der 33 Autorendossiers unangetastet. **Nächster Lauf:** Lampugnani-Quellentextband
 (erste 20-30 Seiten als Vollzugriff versuchen, analog zur soeben bestätigten
 Ganzdatei-Strategie), sonst nächstes unbearbeitetes Autorendossier nach Ordnernummer.
+
+## Neunzehnter P2-Lauf, `kapitel01_dk...` Unterkapitel 1/2 destilliert (30.08.2026, Lane
+FACHWISSEN, Station laut `scutil` Macmini bestätigt — Dispatch-Text erneut identisch
+veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 69. Beispiel Memory
+`project_fachwissen-dispatch-loop`)
+
+Vor Arbeitsbeginn wie üblich `ps -o pid,ppid,command` (nur die eigene Instanz, parallel dazu
+eine unabhängige Lane SYNOBSIS, keine Kollision), `scutil` (Macmini bestätigt) und
+`KORPUS-QUEUE.md`/CHANGELOG gegengeprüft: Stand identisch zum 18. Lauf dokumentierten Ende.
+Unkommittierte Sonne-Buchführung des Vorlaufs (KORPUS-QUEUE.md, CHANGELOG.md, INDEX.md) per
+`nas-commit-now.sh` gesichert, diesmal ohne Merge-Konflikt sauber durchgelaufen.
+
+`kapitel01_dk_vorindustrielle_120dpi.pdf` (19,1 MB) direkt per Read-Tool versucht: scheiterte
+mit `[media removed: request limit]` (hoher Bildanteil trotz Grösse unter 20 MB, analog dem
+57. Beispiel-Befund bei grossen Einzelmodul-PDF). Per `pypdf` extrahiert (76 Scan-Seiten,
+122'714 Zeichen Text) und in `/tmp/kapitel01_dk.txt` gelesen. **Wichtiger Fund vor dem
+Schreiben:** Unterkapitel 3 (Originalseiten 33-68, Ostkolonisation/Hanse) erwies sich als
+bereits destilliert — der bestehende Artikel
+[[deutsche-ostkolonisation-mittelalterliche-stadtgruendung-hanse-wiese-zils]] stammt
+nachweislich aus genau dieser Datei (Quellenangabe identisch). Die frühere Einschätzung
+dieser und mehrerer Vorläufe, `kapitel01_dk...` sei «vollständig unangetastet», war damit zu
+pauschal — nur die Unterkapitel 1/2/4/5 waren tatsächlich offen, wie die eigene
+Fortschrittsnotiz des 18. Laufs («Unterkapitel 1/2/4/5») bereits richtig einschränkte.
+
+Unterkapitel 1 (Originalseiten 17-23, römerzeitliche Grundlagen Rheinlande/Süddeutschland)
+und Unterkapitel 2 (Originalseiten 24-32, Völkerwanderung/fränkische Expansion 4.-10. Jh.)
+vollständig gelesen und zu einem neuen Artikel destilliert →
+[[roemische-grundlagen-voelkerwanderung-fraenkische-expansion-wiese-zils]] (Limes-System mit
+Kennzahlen, Fernhandelsachsen, Latifundien-Vorstufe der mittelalterlichen Grundherrschaft,
+Reichsteilungen 843/870/880, Villikationsverfassung, Enturbanisierung mit dem Kontinuität-vs-
+Bruch-Kontrast Köln/Trier/Regensburg gegen Xanten/Bonn). Gegen bestehenden Wiki-Bestand
+geprüft (`grep -ril` über `wiki/*.md`): kein Duplikat, ergänzt und verlinkt den bestehenden
+Ostkolonisations-Artikel als chronologische Vorstufe.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Von den ursprünglich fünf
+Unterkapiteln von `kapitel01_dk...` sind jetzt 1, 2 und 3 destilliert; Unterkapitel 4
+(spätmittelalterliche Wüstungsperiode, Gutsherrschaft, Bergstädte, Fugger, 30-jähriger
+Krieg, S. 68-84) und 5 (Absolutismus, Residenzstädte, S. 85-97) bleiben offen.** Der
+Lampugnani-Quellentextband (358 S. Scan) sowie die acht unangetasteten Autorendossiers
+bleiben ebenfalls offen (in diesem Lauf nicht bearbeitet). **Nächster Lauf:** Unterkapitel 4
+und 5 aus `/tmp/kapitel01_dk.txt` (bereits extrahiert, falls die Datei noch existiert, sonst
+erneut per `pypdf`) destillieren, danach Lampugnani-Quellentextband oder nächstes
+unbearbeitetes Autorendossier.

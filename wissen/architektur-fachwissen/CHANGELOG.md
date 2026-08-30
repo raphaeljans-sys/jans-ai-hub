@@ -1,5 +1,28 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, neunzehnter P2-Lauf (`kapitel01_dk_vorindustrielle_120dpi.pdf` Unterkapitel 1/2 destilliert, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 69. Beispiel Memory `project_fachwissen-dispatch-loop`, Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz, parallel dazu unabhängige Lane SYNOBSIS)
+
+Unkommittierte Sonne-Buchführung des Vorlaufs (`KORPUS-QUEUE.md`/CHANGELOG/INDEX) per
+`nas-commit-now.sh` gesichert, diesmal ohne Merge-Konflikt. `kapitel01_dk_vorindustrielle_
+120dpi.pdf` (19,1 MB) scheiterte direkt per Read-Tool an `[media removed: request limit]`
+(hoher Bildanteil trotz Grösse unter 20 MB); per `pypdf` extrahiert (76 Scan-Seiten,
+122'714 Zeichen). **Vor dem Schreiben festgestellt:** Unterkapitel 3 derselben Datei
+(Originalseiten 33-68, Ostkolonisation/Hanse) war bereits als
+[[deutsche-ostkolonisation-mittelalterliche-stadtgruendung-hanse-wiese-zils]] destilliert —
+die Vorlauf-Einschätzung «Datei vollständig unangetastet» war zu pauschal, nur die
+Unterkapitel 1/2/4/5 waren tatsächlich offen. Unterkapitel 1 (römerzeitliche Grundlagen,
+S. 17-23) und 2 (Völkerwanderung/fränkische Expansion, S. 24-32) vollständig gelesen und zu
+einem neuen Artikel destilliert →
+[[roemische-grundlagen-voelkerwanderung-fraenkische-expansion-wiese-zils]] (Limes-System,
+Fernhandelsachsen, Latifundien-Vorstufe der mittelalterlichen Grundherrschaft,
+Reichsteilungen 843/870/880, Villikationsverfassung, Kontinuität-vs-Bruch-Kontrast
+Köln/Trier/Regensburg gegen Xanten/Bonn). Gegen Wiki-Bestand geprüft, kein Duplikat, verlinkt
+als chronologische Vorstufe zum Ostkolonisations-Artikel. `git diff --numstat` auf die
+Inventardatei zeigt reinen Append (43 0). Von den fünf Unterkapiteln der Datei sind jetzt 1,
+2, 3 destilliert; 4 (Wüstungsperiode/Gutsherrschaft/Bergstädte/Fugger/30-jähriger Krieg) und
+5 (Absolutismus/Residenzstädte) bleiben offen, ebenso der Lampugnani-Quellentextband und acht
+unangetastete Autorendossiers. Nächster Lauf: Unterkapitel 4/5 dieser Datei.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, achtzehnter P2-Lauf (Position 4 abgeschlossen, `blockreform_sonnedf.pdf` vollständig gelesen, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 68. Beispiel Memory `project_fachwissen-dispatch-loop`, Station laut `scutil` Macmini bestätigt, Prozesskette 48039→48040→48082 als verschachtelte Wrapper derselben Instanz erkannt, keine Doppel-Instanz)
 
 Vor Arbeitsbeginn `KORPUS-QUEUE.md`/CHANGELOG gegengeprüft: Stand identisch zum
