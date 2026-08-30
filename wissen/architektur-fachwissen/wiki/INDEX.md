@@ -2545,3 +2545,51 @@ zeigte `0 0` (Sammelzeile bleibt unverändert, Fortschritt nur in INDEX/CHANGELO
 Details CHANGELOG 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach
 Dateigrösse unter den restlichen ungelesenen Positionen, sonst laut Queue-Regel nächste
 Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (117. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`/`CHANGELOG.md`/`raw/inventar/` geprüft, keine Zahl
+aus dem Dispatch-Text übernommen), `scutil` bestätigte Macmini, genau ein `claude -p`-Prozess
+(PID 40890) mit diesem Auftrag, kein Doppel-Dispatch. Working Tree bei Laufbeginn sauber
+(Top-Commit `d44de8e2c`). Vor der Dateiauswahl den kompletten Ordnerinhalt nach Grösse
+sortiert und gegen alle bisher gelesenen Positionen abgeglichen (statt nur die im 116. Lauf
+genannten drei Kandidaten zu übernehmen) — dabei aufgefallen: 32 der 128 `.htm`-Dateien sind
+reine FrontPage-Frameset-/Banner-Seiten ohne Fliesstext (Stichprobe an vier Grössenklassen
+geprüft: `index.htm`/`90.htm`/`mo1.htm`/`hfg-index.htm` liefern nur «Diese Seite verwendet
+Frames», `ital-b.htm` nur das Wort «bild», `hfg-li.htm`/`mo1li.htm`/`jug2.htm` reine
+Namenslisten als Navigationsframe, `50-60b.htm` eine bereits im Nelson-Artikel abgedeckte
+Bildunterschrift) — diese 32 Dateien enthalten laut Stichprobe keinen destillierbaren Fakt und
+werden nicht einzeln aufgeführt.
+
+Drei kleinste ungelesene **inhaltstragende** Positionen gelesen: `stahlrohrmöbel.htm` (6778
+Bytes), `hfg.htm` (6918 Bytes), `new_york.htm` (7894 Bytes). Duplikatscheck vorab: Thema
+Stahlrohrmöbel bereits als eigener Artikel vorhanden
+([[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]), HfG Ulm bisher
+nur Nebenerwähnung im Rams-Artikel, New York 1939 bisher nur Ford-Pavillon-Erwähnung im
+Teague-Artikel — echte Ergänzungen, keine reinen Dubletten.
+
+Ein bestehender Artikel ergänzt und zwei neue Artikel:
+
+- **Ergänzung** [[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]
+  um einen Abschnitt zu Mart Stams freitragendem Stahlstuhl (Modell S33, 1926/27, schliesst
+  die dort offen vermerkte Lücke), der britischen Firma PEL, Gilbert Rhode/Wolfgang Hoffmann
+  in den USA, der Habitat-Wiederauflage der 1960er/70er und Eileen Grays Materialkombination
+  Stahlrohr/Kiefernholz; Rückverlinkung zum Terragni-Artikel ergänzt.
+- [[hochschule-fuer-gestaltung-ulm-scholl-aicher-bill-gugelot-maldonado]] (Bauhaus-
+  Nachfolgeinstitution: Inge Scholl/Otl Aicher/Max Bill/Hans Gugelot/Tomas Maldonado,
+  Verwissenschaftlichung des Designprozesses, Schliessung 1968, Praxisprojekte Lufthansa/
+  Hamburger U-Bahn/Rosenthal; Rückverlinkung im Rams-Artikel-Themenkreis).
+- [[new-york-weltausstellung-1939-trylon-perisphere-futurama-teague-loewy-dreyfuss]] (Trylon/
+  Perisphere von Harrison & Fouilhoux, Bel Geddes' «Futurama», Dreyfuss' «Democracity»/AT&T,
+  Loewys Raketenschiffmodell, «Swedish Modern»-Prägung im schwedischen Pavillon; bündelt
+  Teague- und Dreyfuss-Artikel um das gemeinsame Ausstellungsereignis, Bel Geddes und Loewy
+  als offene Personenartikel vermerkt).
+
+Damit 55 von 128 Fliesstext-Dateien der Zeile 68 gelesen (davon 32 als frameset-/banner-bedingt
+ertraglos identifiziert), rund 73 Positionen bleiben offen. `git diff --numstat` auf die
+Inventardatei zeigte `0 0` (Sammelzeile bleibt unverändert, Fortschritt nur in
+INDEX/CHANGELOG/KORPUS-QUEUE, Praxis seit dem 106. Lauf). Details CHANGELOG 30.08.2026.
+**Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den
+verbleibenden ungelesenen inhaltstragenden Positionen (u. a. `paris_1900.htm`, `jug3.htm`,
+`elsie_de_wolfe.htm`, `morrison.htm`, `noyes.htm`), die 32 identifizierten Frameset-Dateien
+nicht mehr einzeln prüfen, sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.

@@ -2,8 +2,8 @@
 title: "Stahlrohrmöbel-Genealogie: Rietveld, Bauhaus/Breuer, Mies van der Rohe/Lilly Reich"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/rietveld.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/breuer.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/bauhaus.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/mies.htm"]
-links: ["organische-schichtholz-moderne-aalto-eames-jacobsen"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/rietveld.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/breuer.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/bauhaus.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/mies.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/stahlrohrmöbel.htm"]
+links: ["organische-schichtholz-moderne-aalto-eames-jacobsen", "terragni-italienischer-rationalismus-casa-del-fascio-moebel"]
 ---
 
 # Stahlrohrmöbel-Genealogie: Rietveld, Bauhaus/Breuer, Mies van der Rohe/Lilly Reich
@@ -105,6 +105,36 @@ Ende von Mies' Stahlrohr-Entwurfstätigkeit; 1930–1932 Direktor des Bauhaus an
 Sitz Berlin, ab 1938 Chicago. Die 1920er-Stühle (insbesondere Barcelona) werden bis heute von
 Knoll Associates hergestellt.
 
+## Nachtrag (30.08.2026): Mart Stam, PEL und die Verbreitung nach 1930
+
+Ergänzung aus der bislang nicht ausgewerteten Datei `stahlrohrmöbel.htm` derselben Quelle
+(schliesst die im Abschnitt «Offene Punkte» genannte Lücke zu Mart Stam).
+
+**Mart Stam** (Niederlande) entwickelte laut Quelle als erster die Idee eines freitragenden
+Stahlstuhls ganz ohne Schweissverbindungen: sein **Modell Nr. S33** (1926) sowie ein 1927 aus
+Gasrohren und Verbindungsstücken gefertigter Stuhl nutzten die natürliche Flexibilität des
+Materials, statt wie bei Breuer mehrere Stahlrohrstücke zu verschweissen. Breuers eigener
+freitragender Stahlrohrstuhl entstand demnach ein Jahr nach Stam, Mies van der Rohes
+stilisiertere Version 1927 im selben Zeitraum. Alle drei freitragenden Entwürfe wurden 1927 an
+der von Mies initiierten **Weissenhofsiedlung**-Ausstellung Stuttgart gezeigt (Werke u. a. von
+Breuer, Mies und Le Corbusier), darunter die Einrichtung von Haus Nr. 16, die für
+Massenprodukte im häuslichen Bereich werben sollte.
+
+**Internationale Verbreitung:** Die britische Firma **PEL** (Practical Equipment Limited)
+spezialisierte sich in den 1920ern auf Stahlrohrmöbel für öffentliche Orte (Kinos,
+Stadthallen) — Beispiel Stuhl «Modell SP98» (Stahl/schwarzes Leder, PEL-Katalog 1937). In den
+USA entwarfen **Gilbert Rhode** und **Wolfgang Hoffmann** zahlreiche Stahlrohrmodelle für
+öffentliche und private Räume. Für die breite Masse wurde dieser Stuhltyp laut Quelle erst
+nach dem Zweiten Weltkrieg produziert; Höhepunkt in den 1960er/70er-Jahren, als das
+britische Kaufhaus **Habitat** eigene Versionen der modernen Klassiker sowie neue
+Sitzgruppen («OMK», «Plush Kicker») herstellte und so die frühen Entwürfe einer neuen
+Klientel zuführte. Ende der 1920er war vernickeltes/verchromtes Stahlrohr — kombiniert mit
+schwarzem Stoff oder Leder — laut Quelle zum Synonym für Modernität geworden, verwendet von
+Le Corbusier in Frankreich bis Terragni in Italien (vgl.
+[[terragni-italienischer-rationalismus-casa-del-fascio-moebel]]). Eileen Gray milderte den
+kalten Charakter des Metalls bewusst ab, etwa in einem Tisch mit verchromten Metallbeinen
+(1935) in Kombination mit naturbelassenem Kiefernholz.
+
 ## Praxisregel
 
 Für Interieur-/Ausbaureferenzen in Wettbewerbs- oder Ausstellungsprojekten: die drei Linien
@@ -124,6 +154,6 @@ relevant.
 - Aalto und Eames inzwischen destilliert, siehe
   [[organische-schichtholz-moderne-aalto-eames-jacobsen]]. Weitere Designer-Kurzbiografien im
   selben Ordner (u. a. Josef Hoffmann, Charles Rennie Mackintosh, Le Corbusier als Möbeldesigner)
-  bleiben ungelesen — Kandidaten für einen Folgeartikel.
-- Mart Stams Stahlrohr-Priorität (laut `mies.htm` zeitlich vor Mies/Reich) nicht eigenständig
-  destilliert, da keine eigene Datei zu Stam im gesichteten Bestand.
+  sind zwischenzeitlich in eigenen Artikeln destilliert (siehe `wiki/INDEX.md`).
+- Mart Stams Stahlrohr-Priorität ist seit 30.08.2026 im Abschnitt «Nachtrag» oben belegt
+  (Quelle `stahlrohrmöbel.htm`, keine eigene Stam-Datei im Bestand gefunden).

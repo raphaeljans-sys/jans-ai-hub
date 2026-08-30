@@ -6700,3 +6700,75 @@ zeigte `0 0` — die Sammelzeile 68 bleibt unverändert, Fortschritt wird aussch
 Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68 bleibt offen, nächster Schritt:**
 Fortsetzung nach Dateigrösse unter den restlichen ungelesenen Positionen des Design-Ordners,
 sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (117. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`/`wiki/INDEX.md`/`raw/inventar/` geprüft, keine Zahl
+aus dem Dispatch-Text übernommen). `scutil` bestätigte Hostname Macmini, `ps -eo
+pid,ppid,command` zeigte genau einen laufenden `claude -p`-Prozess mit diesem Auftrag (PID
+40890) — kein Doppel-Dispatch. Working Tree bei Laufbeginn sauber (Top-Commit `d44de8e2c`).
+
+Vor der Dateiauswahl den gesamten NAS-Ordnerinhalt (`find -iname "*.htm*" -printf`) nach
+Grösse sortiert und programmatisch gegen die Liste aller in den bisherigen 52 Läufen zu
+Zeile 68 bereits gelesenen Dateinamen abgeglichen, statt nur die drei vom 116. Lauf genannten
+Kandidaten unbesehen zu übernehmen. Dabei aufgefallen: von den 128 `.htm`-Dateien sind 32 reine
+Microsoft-FrontPage-Frameset- bzw. Navigations-/Banner-Seiten ohne Fliesstext. Stichprobe über
+alle Grössenklassen dieser 32 Dateien geprüft (Tag-Strip via Python, nicht nur Sichtprüfung):
+`index.htm`/`90.htm`/`mo1.htm`/`hfg-index.htm`/`usa.htm`/`50-60.htm` liefern ausschliesslich
+den Frameset-Standardtext «Diese Seite verwendet Frames. Frames werden von Ihrem Browser aber
+nicht unterstützt.», `ital-b.htm` nur das Wort «bild» (Bildplatzhalter-Frame), `hfg-li.htm`/
+`mo1li.htm`/`jug2.htm` sind reine Namenslisten als Navigationsframe ohne Fliesstext, `50-60b.htm`
+enthält nur eine kurze Bildunterschrift (Nelson-Marshmallow-Sofa), deren Inhalt bereits im
+bestehenden Artikel [[george-nelson-herman-miller-storagewall-marshmallow-sofa]] steht. Diese
+32 Dateien werden damit als «kein Ertrag» geschlossen und nicht mehr einzeln als offene
+Positionen gezählt.
+
+Drei kleinste ungelesene **inhaltstragende** Positionen gelesen: `stahlrohrmöbel.htm` (6778
+Bytes, Volltext per Python-Tag-Strip extrahiert, da der Dateiname vom bereits destillierten
+Artikelthema abweicht und deshalb bislang übersprungen worden war), `hfg.htm` (6918 Bytes),
+`new_york.htm` (7894 Bytes). Duplikatscheck vorab gegen `wiki/*.md`: Stahlrohrmöbel als Thema
+bereits ausführlich behandelt in
+[[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]] (echte inhaltliche
+Überschneidung, aber die Datei selbst war nie gelesen worden — nur die vier Personenartikel
+Rietveld/Breuer/Bauhaus/Mies dieses Themenclusters), Hochschule für Gestaltung Ulm bislang nur
+als Nebenerwähnung im bestehenden Dieter-Rams-Artikel, New Yorker Weltausstellung 1939 bislang
+nur als Ford-Pavillon-Erwähnung im Teague-Artikel. Keine reinen Dubletten, aber Entscheid:
+Stahlrohrmöbel-Inhalt als Ergänzung des bestehenden Artikels statt als eigener Artikel.
+
+**Ergänzung** [[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]: neuer
+Abschnitt «Nachtrag» mit Mart Stams freitragendem Stahlstuhl (Modell S33, 1926, freitragender
+Gasrohr-Stuhl 1927 — löst die im Artikel selbst vermerkte offene Frage zu Stams Priorität
+gegenüber Breuer/Mies), der britischen Firma PEL (Practical Equipment Limited, Stuhl «SP98»,
+Katalog 1937), Gilbert Rhode und Wolfgang Hoffmann als US-Stahlrohrdesigner, der Habitat-
+Wiederauflage der 1960er/70er («OMK», «Plush Kicker») sowie Eileen Grays Materialkombination
+Stahlrohr/Kiefernholz (Tisch 1935); Rückverlinkung zum Terragni-Artikel ergänzt.
+
+Zwei neue Wiki-Artikel:
+[[hochschule-fuer-gestaltung-ulm-scholl-aicher-bill-gugelot-maldonado]] (Bauhaus-
+Nachfolgeinstitution: Gründung durch Inge Scholl als Tribut an die hingerichteten Geschwister
+Scholl, Otl Aicher/Max Bill/Hans Gugelot in Leitungsfunktionen, Verwissenschaftlichung des
+Designprozesses unter Tomas Maldonado als Bruch mit dem künstlerischen Bauhaus-Modell,
+Schliessung 1968, Praxisprojekte Lufthansa-Corporate-Identity/Hamburger-U-Bahn/Rosenthal-
+Porzellan/Bushaltestelle Hannover; Rückverlinkung im bestehenden Dieter-Rams-Artikel-
+Themenkreis) und
+[[new-york-weltausstellung-1939-trylon-perisphere-futurama-teague-loewy-dreyfuss]] (Trylon/
+Perisphere von Harrison & Fouilhoux, Norman Bel Geddes' «Futurama»-Stand im
+General-Motors-Gebäude, Henry Dreyfuss' «Democracity»/AT&T-Gebäude, Raymond Loewys
+Raketenschiffmodell/Stromlinienlokomotive, «Swedish Modern»-Begriffsprägung im schwedischen
+Pavillon von Elias Svedborg/Astrid Sampe; bündelt die bestehenden Teague- und
+Sason/Dreyfuss-Artikel um das gemeinsame Ausstellungsereignis, Bel Geddes und Loewy als
+eigenständige, noch offene Personenartikel vermerkt — für Loewy existiert bereits eine eigene
+ungelesene Datei `loewy.htm`, für Bel Geddes keine).
+
+Damit sind 55 von 128 `.htm`-Dateien der Zeile 68 gelesen, davon 32 als frameset-/
+banner-bedingt dauerhaft ertraglos identifiziert (nicht mehr Teil der offenen Positionen). Es
+bleiben rund 73 tatsächlich noch zu prüfende Positionen (128 − 55). Kein Datenschutz-/
+Sperrlisten-Fund. `git diff --numstat` auf die Inventardatei
+(`archiv-fachwissen__02_Kunst_Geschichte.md`) zeigte `0 0` — die Sammelzeile 68 bleibt
+unverändert, Fortschritt wird ausschliesslich in `wiki/INDEX.md`/diesem CHANGELOG/
+`KORPUS-QUEUE.md` nachgeführt (Praxis seit dem 106. Lauf). Sicherung via `bash
+scripts/nas-commit-now.sh`. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach
+Dateigrösse unter den verbleibenden ungelesenen inhaltstragenden Positionen (u. a.
+`paris_1900.htm`, `jug3.htm`, `elsie_de_wolfe.htm`, `morrison.htm`, `noyes.htm`,
+`gugelot.htm`), die 32 identifizierten Frameset-Dateien nicht erneut prüfen, sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2.
