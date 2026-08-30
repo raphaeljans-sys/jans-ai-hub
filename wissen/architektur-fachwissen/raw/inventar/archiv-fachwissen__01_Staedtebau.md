@@ -241,3 +241,39 @@ Mitstudierender); dessen Name erscheint gemäss Sperrliste nirgends im destillie
 Übungsheft zur Vorlesung Lampugnani, die fünf Grundlagenwerke der Manualistik, 33
 Autorendossiers, der Platz-Materialbestand, die DTV-Konkordanz, das Manifest selbst, die
 Geschichte-Zusammenfassungen) bleibt offen für einen späteren Lauf.
+
+**30.08.2026 (Lane FACHWISSEN, erster P2-Lauf dieser Sektion):** Aus Position 8
+(Geschichte-Zusammenfassungen, `01_Geschichte/`) sieben der rund zwölf Dateien gelesen und
+zu fünf Wiki-Artikeln destilliert:
+
+- `1890_1910_Gartenstadt/00_Vorlesungsmittschrift/110303_Gartenstadt.docx` (rohe
+  Live-Mitschrift) → [[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]]
+- `1917_1910_Stadtutopien_Ecole_des_Beaux_Art_Garnier/Test_Uebung/01_Text_Uebung_Test/110411_Stadtutopien_und_Stadtideale.docx`
+  → [[utopische-stadtentwuerfe-typologie-garnier-cite-industrielle]]
+- `1877_1900_Stadtmodernisierung/01_Einfuerung/110421_Zusammenfassung.docx` →
+  [[wettbewerb-gross-berlin-1908-hochhausstadt-debatte-wohnblock-reform]]
+- `1900_Stadtarchitektur/00_Text/110404_Zusammenfassung_Stadtebau.docx` →
+  [[berlage-impressionistische-baukunst-amsterdamer-schule-block-zu-siedlung]]
+- `1922_1930_Die gruene Stadtmitte/01_Einleitung/110320_Einleitung_Gruene_Stadtmitte.docx`
+  und `1852_1872_Stadtumbau_Paris_Haussmann/02_19_JH_Paris/Textbearbeitung/Zusammenfassung.doc`
+  (thematisch verwandt, ein Artikel) →
+  [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]]
+
+Eine achte Datei (`1900_STaeDTISCHES_GRueN/110507_Stadtgruen/01_Einfuehrung/Städtisches
+Grün.docx`) gelesen, aber **kein Artikel**: reiner Lernziel-Text, nennt nur zwei
+Quellentitel (Bruno Taut, *Die Stadtkrone*, 1919; Leberecht Migge, *Jedermann
+Selbstversorger*, 1918) ohne eigene inhaltliche Zusammenfassung (Delta-Ehrlichkeit). Alle
+fünf neuen Artikel `status: speculative` (Live-Mitschriften bzw. eigene, teils
+unbestätigte Prüfungsantworten ohne Seitenangaben zu Originalquellen). Gegen bestehende
+Wiki-Artikel geprüft, keine Duplikate (Sektion `02_Architekturtheorie` behandelt
+Architekturtheorie, nicht Städtebaugeschichte; keine Überschneidung bei Berlage/Howard/
+Haussmann/Garnier).
+
+**Von Position 8 bleiben rund fünf Dateien offen**: die beiden fast identischen
+`Alternative(n) zur Grossstadt.docx`-Exemplare (Ordner `1777_1900_Alternative_zur_
+Grossstadt`, noch nicht gelesen), zwei Kopien von `VL Architektur der USA.doc` (Ordner
+`Die gruene Stadtmitte`, anderes Thema als «grüne Stadtmitte» selbst) und `Lead.doc`
+(Ordner Haussmann, Inhalt ungeprüft). **Positionen 1–7 dieser Sektion (Jans-Reader,
+Übungsheft, fünf Grundlagenwerke Manualistik, 33 Autorendossiers, Platz-Materialbestand,
+DTV-Konkordanz, Manifest) bleiben vollständig offen.** Nächster Lauf: Position 8 abschliessen
+(fünf Restdateien) oder mit Position 1 (Jans-Reader, eigenes Ordnungsgerüst) beginnen.

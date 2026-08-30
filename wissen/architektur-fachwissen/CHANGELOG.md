@@ -1,5 +1,66 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, erster P2-Lauf (Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet, «MacBook Pro» falsch, Station laut `scutil` Macmini bestätigt)
+
+Dispatch-Text wie in allen Vorläufen dieser Lane behauptete «noch kein Destillat und keine
+Spec ... 2 Wiki-Artikel», Station fälschlich «MacBook Pro». Vor Arbeitsbeginn `scutil`
+(Macmini bestätigt), `ps aux` (nur der eigene `claude -p`-Prozess, keine Doppel-Instanz) und
+`KORPUS-QUEUE.md`/`wiki/INDEX.md` gegengeprüft: beide Korpus-Specs bestehen seit
+29.08.2026, P1 ist in beiden Korpora vollständig, `buero-referenzen/10_Modellbauen` P2 gilt
+als abgearbeitet (52. Beispiel), `archiv-fachwissen/02_Architektur_Vermitteln` P1+P2
+vollständig (51. Beispiel). Statt eines weiteren dünnen P2-Laufs in `01_Tragwerk` (18
+Positionen offen, drei davon dauerhaft blockiert) gewählt: die kleine, seit dem
+29.08.2026 nur für P1 bearbeitete Sektion `01_Staedtebau` (8 P2-Positionen, keine davon
+angetastet).
+
+Aus Position 8 (Geschichte-Zusammenfassungen, Ordner `01_Geschichte/`, rund zwölf
+DOCX/DOC-Dateien) sieben Dateien via `textutil -convert txt -stdout` gelesen und gegen
+bestehende Wiki-Artikel geprüft (keine Duplikate — `02_Architekturtheorie` behandelt
+Architekturtheorie, nicht Städtebaugeschichte). Fünf neue Artikel destilliert:
+
+- [[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] — aus der rohen
+  Live-Mitschrift `110303_Gartenstadt.docx`: Genealogie Pugin/Contrasts 1836 → Ruskin/
+  Präraffaeliten → William Morris/Red House/News from Nowhere → Ebenezer Howard/Garden
+  Cities of Tomorrow → Letchworth (Parker & Unwin 1903) → europäische Rezeption (Hellerau,
+  Rotterdam-Vreewijk, Moskau-Ostankino, Zürich-Schwamendingen 1948 als beginnende
+  Zersiedelung statt echte Gartenstadt, Ciudad Lineal Soria).
+- [[utopische-stadtentwuerfe-typologie-garnier-cite-industrielle]] — aus
+  `110411_Stadtutopien_und_Stadtideale.docx`: Fünf-Typen-Tabelle utopischer
+  Stadtentwürfe (Vauban, Fourier, Ledoux, Howard, Garnier) und Tony Garniers Cité
+  Industrielle (1901-04, 35'000 Einwohner, realisierte Fragmente in Lyon inkl. Quartier
+  des Etats-Unis 1929).
+- [[wettbewerb-gross-berlin-1908-hochhausstadt-debatte-wohnblock-reform]] — aus
+  `110421_Zusammenfassung.docx`: Wettbewerb Gross-Berlin 1908, Mächler-Plan 1919 im
+  Vergleich zu Nashs Regent Street 1814 (1939 von Albert Speer teilweise übernommen),
+  vierstufige Wohnblock-Reformtypologie (Meyers Hof → Messel → Jansen → Superblock),
+  Hochhausstadt-Debatte (Sant'Elia, El Lissitzky, Le Corbusier, Hilberseimer).
+- [[berlage-impressionistische-baukunst-amsterdamer-schule-block-zu-siedlung]] — aus
+  `110404_Zusammenfassung_Stadtebau.docx`: Berlages «impressionistische Baukunst» (1893),
+  Erweiterungsplan Amsterdam Süd 1900/1904 vs. 1914, Amsterdamer Schule (de Klerk),
+  Rotterdam vom Block zur Siedlung (Oud-Mathenesse), Baublock-Definition.
+- [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]] — zwei dünnere
+  Quellen (`110320_Einleitung_Gruene_Stadtmitte.docx` und Haussmann-`Zusammenfassung.doc`)
+  zu einem Artikel zusammengeführt: Haussmanns Pariser Umbau 1853-69 (politische/
+  wirtschaftliche Motivation, Zeitleiste 1789-1869) und die City-Beautiful-Bewegung
+  (Hegemann/Peets 1922, L'Enfant-Plan Washington D.C. 1791 mit Versailles-Vorbild,
+  Bellamys *Looking Backward*).
+
+Eine achte Datei (`Städtisches Grün.docx`) gelesen, aber **kein Artikel** — reiner
+Lernziel-Text ohne eigene inhaltliche Zusammenfassung, nur zwei Quellentitel genannt
+(Delta-Ehrlichkeit). Alle fünf Artikel `status: speculative` (Live-Mitschriften bzw.
+eigene, teils unbestätigte Prüfungsantworten ohne Seitenangaben). Zwei Antworten in den
+Quellen sind explizit als unbestätigte Selbsteinschätzung markiert und entsprechend
+gekennzeichnet übernommen; eine Jahreszahl (Ledoux Salines de Chaux 1847) widerspricht der
+etablierten Datierung und wurde als Diskrepanz vermerkt statt stillschweigend korrigiert.
+
+`git diff --numstat` auf die Inventardatei zeigte `36 0` (reiner Append). Von Position 8
+bleiben rund fünf Dateien offen (zwei `Alternative(n) zur Grossstadt.docx`-Duplikate, zwei
+`VL Architektur der USA.doc`-Duplikate, ein `Lead.doc`); **Positionen 1-7 dieser Sektion
+(Lampugnani-Reader, Übungsheft, fünf Manualistik-Grundlagenwerke, 33 Autorendossiers,
+Platz-Materialbestand, DTV-Konkordanz, Manifest) bleiben vollständig unangetastet.**
+`wiki/INDEX.md` und `KORPUS-QUEUE.md` nachgeführt. Nächster Lauf: Position 8 abschliessen
+oder mit einer der sieben restlichen Positionen dieser Sektion beginnen.
+
 ## 2026-08-30 — P2-Lauf Korpus `buero-referenzen`, Sektion `10_Modellbauen`, dritter P2-Lauf (Lane FACHWISSEN, 52. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text weiterhin identisch veraltet (behauptet «kein Destillat, keine Spec, 2
