@@ -2637,3 +2637,27 @@ seit dem 106. Lauf: Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE, Sammelzeile
 unverändert). **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse
 unter den verbleibenden ungelesenen inhaltstragenden Positionen, sonst laut Queue-Regel
 nächste Sektion mit offenem P1/P2.
+
+**120. Lauf (30.08.2026, Lane FACHWISSEN): Zeile 68 fortgesetzt.** Stand selbst ermittelt
+(P1-Vollständigkeit über alle 20 archiv-Inventardateien via `Destillat-Fortschritt`-Abschnitten
+gegengeprüft, aktive Arbeit bleibt P2 dieser Zeile). Verbleibende Kandidatenliste
+programmatisch neu ermittelt: alle `.htm`-Dateien im Ordner gegen alle in `wiki/*.md`
+referenzierten Quelldateinamen abgeglichen (`comm` statt Handzählung), drei kleinste
+inhaltstragende Treffer gelesen: `jiricna.htm`, `wright.htm`, `rodtschenko.htm`.
+Duplikatscheck vorab: Jiřičná und Rodtschenko ohne Treffer, Wright bereits mit einem
+theorielastigen Artikel aus der Architekturtheorie-Vorlesung vorhanden (Fallingwater/
+Broadacre City), aber ohne Möbeldesign-Aspekt — kein Duplikat, sondern Ergänzung. Zwei neue
+Artikel: [[eva-jiricna-britischer-high-tech-stil-innenausbau-formica-colorcore]] (britischer
+High-Tech-Stil im Ladenausbau der 1980er, Joseph-Ettedgui-Serie, Formica/Colorcore) und
+[[alexander-rodtschenko-russischer-konstruktivismus-arbeiterclub-produktivismus]] (russischer
+Konstruktivismus: Arbeiterclub-Möbel Paris 1925, Fotomontage, Bühnenbild; Rückverlinkung zum
+bestehenden El-Lissitzky-Artikel), dazu **Ergänzung**
+[[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]] um einen neuen
+Abschnitt Möbel-/Ausstattungsdesign (Fass-Stuhl, Larkin-Building-Metallmöbel, Hotel-Imperial-
+Ausstattung, Cassina-Reeditionen der 1980er). Damit 64 von 128 Fliesstext-Dateien der Zeile
+68 gelesen, rund 64 Positionen bleiben offen. `git diff --numstat` auf die Inventardatei
+zeigte `0 0` (Sammelzeile unverändert, Praxis seit dem 106. Lauf). Details CHANGELOG
+30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter
+den verbleibenden ungelesenen inhaltstragenden Positionen (nächstkleinste laut Grössenliste
+dieses Laufs: `nurmesniemi.htm`, `henry_van_de velde.htm`, `earl.htm`, `bellini.htm`), sonst
+laut Queue-Regel nächste Sektion mit offenem P1/P2.

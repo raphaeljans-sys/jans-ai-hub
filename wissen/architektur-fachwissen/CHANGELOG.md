@@ -6870,3 +6870,48 @@ Dateigrösse unter den verbleibenden ungelesenen inhaltstragenden Positionen (u.
 `paris_1900.htm`, `jug3.htm`, `elsie_de_wolfe.htm`, `morrison.htm`, `noyes.htm`,
 `gugelot.htm`), die 32 identifizierten Frameset-Dateien nicht erneut prüfen, sonst laut
 Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (120. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt statt aus dem Dispatch-Text übernommen (dieser nennt bewusst keine
+Zahlen). Nachtrag: Runs 118–119 hatten ihre Fortschrittsnotiz nur in `wiki/INDEX.md` und
+`KORPUS-QUEUE.md` geführt, nicht hier — für diesen Lauf hier nachgetragen.
+
+Verbleibende Kandidaten diesmal programmatisch statt aus der Lauf-Historie ermittelt: alle
+`.htm`-Dateien im Ordner `08_Design/` per `find` gelistet, gegen alle in `wiki/*.md`
+referenzierten Quelldateinamen (`grep -roh` über die Frontmatter-Quellenzeilen) abgeglichen.
+Von den verbleibenden, noch nicht referenzierten Dateien nach Dateigrösse sortiert die drei
+kleinsten inhaltstragenden gelesen: `jiricna.htm` (8'864 Bytes), `wright.htm` (8'964 Bytes),
+`rodtschenko.htm` (9'292 Bytes).
+
+Duplikatscheck vorab: Eva Jiřičná und Alexander Rodtschenko ohne Treffer in der KB. Frank
+Lloyd Wright hat bereits einen Artikel
+([[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]], aus einer
+Architekturtheorie-Vorlesung, Fokus Fallingwater/Broadacre City/International-Style-
+Abgrenzung) — die Design-Enzyklopädie-Quelle behandelt dagegen sein Möbel- und
+Ausstattungsdesign, ein dort nicht enthaltener Aspekt: als **Ergänzung**, nicht als eigener
+Artikel, behandelt.
+
+Zwei neue Wiki-Artikel:
+[[eva-jiricna-britischer-high-tech-stil-innenausbau-formica-colorcore]] (Ausbildung Prag,
+Emigration 1968, Ladenausbau-Serie für Joseph Ettedgui 1980–1988 mit Jan Kaplický, Vokabular
+Stahl/Glas/Spanndrähte, Formica-Colorcore-Auftrag) und
+[[alexander-rodtschenko-russischer-konstruktivismus-arbeiterclub-produktivismus]] (russischer
+Konstruktivismus, Lehrtätigkeit Inchuk/Wchutemas, Arbeiterclub-Möbel an der Pariser
+Exposition 1925, Fotomontage-Plakate, Bühnenbild für Majakowskis «Die Wanze»;
+Rückverlinkung zum bestehenden El-Lissitzky-Artikel als Werkbreite-Ergänzung).
+
+**Ergänzung** [[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]]: neuer
+Abschnitt «Möbel- und Ausstattungsdesign» (Fass-Stuhl für Darwin-D.-Martin-Haus 1904/05,
+Metallmöbel Larkin Building 1904, Ausstattungsprogramm Hotel Imperial Tokio 1915–1922,
+Cassina-Reeditionen der 1980er-Jahre), neue Quelle in Frontmatter ergänzt.
+
+Damit sind 64 von 128 `.htm`-Dateien der Zeile 68 gelesen (davon weiterhin 32 als
+frameset-/banner-bedingt ertraglos identifiziert, nicht Teil der offenen Positionen); rund 64
+Positionen bleiben zu prüfen. `git diff --numstat` auf die Inventardatei
+(`archiv-fachwissen__02_Kunst_Geschichte.md`) zeigte `0 0` — Sammelzeile 68 unverändert,
+Fortschritt nur in `wiki/INDEX.md`/diesem CHANGELOG/`KORPUS-QUEUE.md` (Praxis seit dem 106.
+Lauf). Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68 bleibt offen, nächster
+Schritt:** Fortsetzung nach Dateigrösse (`nurmesniemi.htm`, `henry_van_de velde.htm`,
+`earl.htm`, `bellini.htm`, `race.htm`, `mollino.htm`), sonst laut Queue-Regel nächste Sektion
+mit offenem P1/P2.

@@ -2,7 +2,7 @@
 title: "Frank Lloyd Wright — Organische Architektur, «Zerstörung der Kiste» und Abgrenzung zum International Style (Architekturtheorie I, ETH gta, VL9)"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111125_VL9_Wright_Frank_Lloyd/02_Vorlesungsmittschriften/111125_Architekturtheorie_I.docx", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111125_VL9_Wright_Frank_Lloyd/03_Zusammenfassung/120124_Wright.docx"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111125_VL9_Wright_Frank_Lloyd/02_Vorlesungsmittschriften/111125_Architekturtheorie_I.docx", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111125_VL9_Wright_Frank_Lloyd/03_Zusammenfassung/120124_Wright.docx", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/wright.htm"]
 links: ["[[vier-kanonische-fallbeispiele-architekturtheorie-register]]", "[[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]]"]
 ---
 
@@ -97,6 +97,31 @@ gegenüber — kein kompakter, dichter Körper, sondern ein weit ausschweifendes
 Raumkontinuum, dasselbe kompositorische Prinzip wie im Haus selbst, nur auf städtebaulicher
 Ebene. Die Zusammenfassung deutet den Zusammenhang so: Wright überwindet mit beiden Projekten
 denselben Gegensatz zwischen Stadt und Land bzw. Architektur und Natur.
+
+## Ergänzung: Möbel- und Ausstattungsdesign (separate Quelle, Design-Enzyklopädie-Website)
+
+Aus `wright.htm`, demselben Offline-Spiegel wie mehrere andere Personenartikel dieser
+Sektion (kein Impressum/Autor, daher nur ergänzend und nicht die Grundlage dieses Artikels
+verändernd). Wright verstand Innenraum, Einrichtung und Accessoires als integralen Teil der
+Architektur — dieselbe Denkfigur wie oben («Zerstörung der Kiste»), hier auf das
+Mobiliar angewendet.
+
+- **Frühe Möbel:** einfache, oft kastenartige Holzkonstruktionen mit einem einzelnen,
+  grossformatig hervorgehobenen Element (meist die Rückenlehne). Beispiel: der «Fass-Stuhl»
+  für das Haus von Darwin D. Martin, Buffalo (1904/1905).
+- **Larkin Building, Buffalo (1904):** Metalltische und -stühle aus lackiertem Stahl, mit
+  Leder gepolstert, drehbar und auf Rollen, Rückenlehne geometrisch perforiert — laut Quelle
+  eines der ersten Metallmöbel-Ensembles, das nicht Holzmöbel imitierte, und
+  stilprägend für das spätere Büromöbeldesign.
+- **Hotel Imperial, Tokio (1915–1922):** umfassendes Ausstattungsprogramm (Porzellan,
+  Sessel «Imperial Tokyo», Textilien); nach Wrights Tod übernahm die japanische Firma
+  Noritake die Porzellanproduktion. Sowohl der «Fass-Stuhl» als auch der «Imperial
+  Tokyo»-Sessel wurden in den 1980er-Jahren von der italienischen Firma Cassina
+  wiederaufgelegt (Reedition, analog zu Le-Corbusier-/Perriand-Möbeln bei Cassina, siehe
+  [[le-corbusier-perriand-jeanneret-moebelserie-grand-confort-b306-thonet-cassina]]).
+- Laut Quelle wirkte Wrights Möbelentwurf über De-Stijl-Designer wie Gerrit Rietveld auf das
+  europäische Design zurück (unbelegte Zuschreibung dieser Sekundärquelle, keine
+  Primärverifikation in diesem Lauf).
 
 ## Praxisrelevanz
 
