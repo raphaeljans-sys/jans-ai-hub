@@ -236,3 +236,42 @@ sechs P1-Positionen destilliert, vier Wiki-Artikel nach Sache statt Datei:
 begründet ausgeschlossen). P2 (1'876 Dateien) bleibt vollständig offen. Kein Sperrlisten-Fund
 über die bereits im Kurzbefund vermerkten drei Personendaten-Fundstellen hinaus (diese blieben
 unangetastet).
+
+**30.08.2026 (Lane FACHWISSEN, erster P2-Lauf dieser Sektion, Korpus `archiv-fachwissen`):**
+Stand selbst ermittelt (`KORPUS-QUEUE.md` verweist nach dem 93. Lauf auf diese Sektion als
+nächsten P2-Kandidaten), `scutil` bestätigt Macmini, `ps -eo pid,ppid,command` zeigte genau
+eine laufende Instanz dieser Lane (PID 25192), Working Tree vor Beginn sauber. Zwei
+Zeilen-71-/67-Positionen aus der Triage-Tabelle bearbeitet:
+
+- Zeile 67 `02_Bildende_Kunst/02_Fotografie/01_Architekturfotografie/` (876 Dateien) →
+  **teilweise erledigt.** Die Vorlesungsunterlage `Geschichte_Architekturfotografie.pdf`
+  (10 S., HSLU, J. Ittig, WS 2007) via PyMuPDF gelesen (kein `pdftotext` auf dieser Station)
+  und zu [[architekturfotografie-referenzkanon-alinari-atget-becher-shulman-basilico-sugimoto]]
+  destilliert (32-Positionen-Kanon Alinari 1852 bis Sugimoto 2000). Der begleitende Zweig
+  `02_Fotographenverzeichnis` (rund 40 Fotografenordner) stichprobenweise geprüft
+  (Baan, Basilico, Gursky, Ghirri, Struth): durchweg reine Bilddateien ohne Begleittext; die
+  einzige gefundene Textdatei (Ghirri, Buch «Paesaggio italiano», 123 S.) ist ein Bild-PDF
+  ohne OCR, liefert 0 Zeichen. Dieser Zweig gilt damit als **nicht destillierbar, ohne
+  weiteren Lauf zu benötigen**. Die Vorlesungs-PPT `Architektur.ppt`/`Architektur.pdf`
+  desselben Ordners nicht zusätzlich geöffnet (gleicher Foliensatz wie die PDF, Duplikatrisiko
+  hoch, kein Mehrwert erwartet).
+- Zeile 71 `06_Kuenstlerverzeichnis/Pipilotti_Rist/` (23 Dateien) → **erledigt.** Vier der
+  acht PDF im Unterordner `Stadtlounge/` gelesen (`Projektbeschrieb.pdf` 5 S.,
+  `Umsetzung.pdf` 2 S. mit Milestones-Chronologie Dezember 2002 bis Oktober 2005,
+  `Umsetzung - Testphase für Beläge.pdf` 1 S., `Die Stadtlounge.pdf` 3 S.) → destilliert zu
+  [[stadtlounge-st-gallen-pipilotti-rist-carlos-martinez-kunst-am-bau-studienauftrag-belagstest]]
+  (Studienauftrags-Verfahren mit sechs Teams/18-köpfiger Jury, Entwurfskonzept Loungezonen,
+  Materialisierung Gummigranulat-Teppich, Belagstest 19.11.2004 mit Tiefbauamt). Die vier
+  übrigen Kurz-PDF (Bauphase Porsche, Einbringung Belag, Konstruktion Möbel, Produktion
+  Lampen, je unter 900 Zeichen) sind reine Bildunterschriften ohne zusätzlichen Fliesstext,
+  ihr Inhalt bereits in `Umsetzung.pdf` als Milestone-Liste erfasst — nicht separat
+  ausgewertet. Die neun Zeitungsberichte im Nachbarordner `Zeitungsberichte/` und der
+  Ordner `Programm/` (Exkursionslogistik) bleiben unausgewertet, als offener Punkt in
+  `wiki/QUESTIONS.md` vermerkt.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** weitere
+P2-Positionen dieser Sektion nach Ertrag (Kandidaten laut Triage-Tabelle: Zeile 70
+`01_Kunstwissenschaft/03_Vorlesungen/`, als «konsistent aufgebaut, gut destillierbar»
+vermerkt; Zeile 69 Bühnenbildner-Zweig; Zeile 75 Stilepochen-Zusammenfassung/Hagia-Sophia-
+Chronologie) oder, falls Ertrag dort erschöpft, laut Queue-Regel Prüfung der nächsten
+Sektion mit offenem P2.
