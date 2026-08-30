@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 05:46:43
+Stand: 30.08.2026 05:56:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 05:35)
@@ -13,4 +13,4 @@ Stand: 30.08.2026 05:46:43
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bfb13329c nas-selfcommit: 2 Datei(en) 2026-08-30 05:45
+- 3d62eb851 Destillat Sitte/Stuebben/Curdes, Sektion 01_Staedtebau Position 3

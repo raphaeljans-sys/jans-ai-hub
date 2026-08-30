@@ -3832,3 +3832,53 @@ den Bestand mit dem geringsten Echo-Risiko.
 3. **Antwortentwürfe tragen den Zitat-Stack** und darin Zusatzgold, das in `Sent Items`
    abgeschöpft schien: ein einziger Entwurf lieferte hier zwei vollständige Raphael-Mails an
    denselben Bauherrn, zwei Tage auseinander, mit Registerwechsel dazwischen.
+
+## Der Kopf-Block über der Anrede + die kumulative A)/B)-Liste (belegt Fidelity 260830, authentisch)
+
+Zwei Formmarker aus zwei Golds vom November 2025, beide im Zwilling verfehlt.
+
+**1. Der Gegenstand steht ÜBER der Anrede, unbeschriftet.** Gold A (06.11.2025 07:53, an den
+Architektenkollegen Andreas Geser, vollständig):
+
+> Neubau Alters-und Pflegeheim St. Theodul, Fiesch
+> https://konkurado.ch/de/neubau-alters-und-pflegeheim-st-theodul-fiesch
+>
+> Guten Morgen Andreas
+> hättest Du Interesse diesen Wettbewerb zu machen?
+> Lieber Gruss
+> Raphael
+
+Titel und Link bilden einen **Kopf-Block ohne Label über der Anrede**; im Text wird der
+Gegenstand nie wieder eingeführt. Das ist die **Gegenbewegung** zum bereits belegten
+Breadcrumb-Marker («Ablage-Verweise Zeile für Zeile, Link erst darunter unter ‹Hier der Link:›»).
+Beide existieren nebeneinander: der Breadcrumb führt zu einer **Ablage**, der Kopf-Block betitelt
+den **Anlass**. Verwandt mit der Transmittal-Nullform (260829), nur mit Anrede darunter.
+
+**2. Eine A)/B)-Liste unter einer Bitte ist KUMULATIV, nicht alternativ.** Gold C (24.11.2025
+14:02, an den 3D-Freelancer): «Darf ich Dich bitten mir die Materialbibliothek auf Dropbox **wie
+folgt** abzuspeichern:» → A) … → B) … → «… **daher die zweifache Abspeicherung**». Der Zwilling
+schrieb «Es gibt zwei Wege:» und machte daraus ein Wahlangebot — **eine Umkehrung des Sprechakts**,
+bei der der Empfänger die Hälfte geliefert hätte.
+
+Die Trennlinie: das Wiki führt «–» + «oder» als Marker der geschlossenen Alternativfrage
+([[fachsignatur]], Behörden-Auslegungsfrage). **Fehlt das «oder», sind die Glieder Positionen
+einer Anforderung.**
+
+**3. Die Glieder sind asymmetrisch, und das bleibt so.** In Gold C trägt A) einen vollen Absatz
+plus vier Bullets, B) besteht aus einem einzigen Wort («*.assetdb-Datei.»). Der Zwilling baute
+beide gleich aus — vierzehnter Beleg der Vereinheitlichungs-Drift (260824), erster an einer
+**Anweisungs**-Kette.
+
+**4. Der Betreff trägt die Listenform selbst.** Gold C heisst «A) Materialbibliothek mittels
+Projekt sammeln ; B) Asset Browser > Exportieren > Als Datenbank exportieren» — A)/B)-Struktur,
+Menüpfad-Syntax und Spatium vor dem Semikolon stehen in der Betreffzeile. Der Betreff ist dort
+schon das Deliverable.
+
+→ Der Zwilling setzt bei einer Anlass-Mail Titel und Link als Kopfzeilen über die Anrede, liest
+eine A)/B)-Liste unter einer Bitte als kumulativ (solange kein «oder» dabeisteht), lässt das
+kurze Glied kurz und trägt die Struktur bei Bedarf in den Betreff.
+
+**Ergänzung zur Spannung 260829b #1 (nächster Schritt):** Gold A endet auf der Frage, Gold C auf
+«Danke vielmals für Deine Hilfe» — beide **ohne** nächsten Schritt, beide **keine** Transmittals.
+Die am Transmittal gewonnene Auslegung trägt damit breiter: **der nächste Schritt gehört der Mail,
+die eine Sache FÜHRT, nicht der, die eine Frage STELLT oder eine Anforderung ABSETZT.**

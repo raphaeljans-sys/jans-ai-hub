@@ -4,6 +4,65 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-30 — twin-fidelity-review: Fidelity 28, vier neue Formmarker, Riegel 4. Lauf ohne Wirkung
+
+**Report:** `outputs/2026-08-30_fidelity.md`. **Golds** (alle vor-Claude, Sent Items November
+2025, Echo-Grep vor der Wertung gelaufen): A 06.11. an den Architektenkollegen (plain text,
+strukturell echo-frei), B 11.11. an eine branchenferne Bekannte mit zwei Cc, C 24.11. an den
+3D-Freelancer (**HYBRID** — nur Teil 1 ueber dem Signaturblock gewertet).
+
+**Gesamt-Fidelity 28** (nach 23 am 29.08.). Beziehungsregister 50 · Haltung 28 · Stimme 27 ·
+Fachsignatur 25 · Arbeitsweise 25 · Denken 17. Messvorbehalt: grosser Vorschau-Leak, im Report
+und in `scratchpad/twin-blind-260830.md` protokolliert; Geleaktes nicht gutgeschrieben.
+
+**Vier neue Formmarker, alle in den Artikeln nachgetragen:**
+1. **Der Kopf-Block ueber der Anrede** (Gold A): Titel + Link unbeschriftet als Kopfzeilen, der
+   Gegenstand wird im Text nie wieder eingefuehrt; dazu Anrede **ohne Komma** und Folgesatz
+   **klein**, ohne Leerzeile. Gegenbewegung zum belegten Breadcrumb-Marker. → [[arbeitsweise]],
+   [[stimme]].
+2. **Eine A)/B)-Liste unter einer Bitte ist KUMULATIV, nicht alternativ** (Gold C) — fehlt das
+   «oder», sind die Glieder Positionen einer Anforderung. Der Zwilling machte daraus ein
+   Wahlangebot und **kehrte den Sprechakt um**; dazu asymmetrische Glieder (A) vier Bullets,
+   B) ein Wort) und die Listenform in der **Betreffzeile**. → [[arbeitsweise]], [[denken]].
+3. **Dank und Kurzgruss verschmelzen, der Gruss wird klein geschrieben** (Gold B): «Danke fuer
+   deine Angaben und lieber Gruss», Dank **vorweggenommen**, darunter voller FG-Block. →
+   [[stimme]].
+4. **Der Cc hob die Anrede nicht** (Gold B): zwei Mitleser, davon der Bauherr, und «Liebe Esther»
+   bleibt die waermste Stufe. Stuetzt die Einschraenkung 260822. → [[beziehungsregister]].
+
+**Zwei Korrekturen an eigenen Annahmen:**
+- ⚠ **«Du immer gross» ist eine Normierung, kein Abbild.** Gold B zeigt in EINEM Absatz «Dich»
+  neben «dir» und «du». Die Regel bleibt in Kraft (Raphaels Vorgabe; Claude aendert keinen
+  Rule-Wortlaut), ist aber als Norm gekennzeichnet — sonst misst die Fidelity die Vorgabe gegen
+  den Korpus. → [[stimme]], [[QUESTIONS]] 260830b #1.
+- **Der Hybrid ist ein Verfahren, kein Versehen.** Zweiter Beleg an zwei aufeinanderfolgenden
+  Tagen (24./25.11.2025, gleicher Empfaenger): Raphael haengt das Rohmaterial unter die fertige
+  Mail. Harter Tell «einschlie**ss**en» als «einschlie**ß**en». Echo-Schutz-Konsequenz: alles
+  unterhalb des **ersten** Signaturblocks ist grundsaetzlich `claude-aera`. → [[fachsignatur]].
+
+**Erfindungs-Drift:** 14. Beleg ([[denken]], Gold A — neu ist der Gattungstyp: die blosse
+Interessensanfrage unter Peers, also die Gattung mit dem geringsten Substanzbedarf; je weniger
+die Aufgabe verlangt, desto groesser der Ueberschuss) und 15. Beleg ([[fachsignatur]], Gold B —
+vier erfundene Attribute, wo das Gold eines sucht und den Rest beschreibt).
+
+**QUESTIONS:** Block `260830b` mit sechs Fragen angehaengt (Du-Gross · Cc-Hebung · Kopf-Block ·
+mechanischer Hybrid-Schnitt · verschmolzener Dank-Gruss · Gattungswechsel der Goldquelle).
+
+**⚠ Wachstums-Riegel unveraendert voll:** `rules/jans-dna-facetten.md` bei **33'952 B von
+34'000 B** (48 B Reserve, per `build_dna.py` nachgemessen). Die vier neuen Regeln sind
+**nicht** in die Do/Don't-Bloecke promoviert; der Auto-Block ist byte-identisch zum Vorlauf
+(diff geprueft). **Vierter Lauf in Folge ohne Verhaltenswirkung** — [[QUESTIONS]] 260829b #4
+liegt zum Entscheid vor.
+
+**Nebenbefund fuer den Betrieb:** vier gepruefte Fenster (Sept.–Nov. 2025, ~80 Sent Items),
+**ueber 90 % bereits destilliert**. Der 2025er Sent-Items-Bestand ist als Goldquelle weitgehend
+ausgeschoepft; die naechsten Laeufe brauchen eine andere Gattung ([[QUESTIONS]] 260829c #1) oder
+`Drafts` Seite 2–5. → [[QUESTIONS]] 260830b #6.
+
+**Alle Schreibvorgaenge append-only, Zeilenstand vorher/nachher geprueft** (Rule 260811):
+stimme 4815→4847 · denken 1324→1346 · haltung 1716→1740 · beziehungsregister 3568→3592 ·
+fachsignatur 2799→2835 · arbeitsweise 3834→3884 · QUESTIONS 5009→5100. Keine Loeschungen.
+
 ## 2026-08-30 — twin-mail-training Batch 109: historischer `Drafts`-Bestand als Gold-Quelle gehoben
 
 **Quelle:** `raw/260830-mailbatch-109.md`. (A) Sent Items `rj@` 29.–30.08.2026 vollständig

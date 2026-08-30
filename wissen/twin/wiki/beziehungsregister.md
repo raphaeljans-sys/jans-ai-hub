@@ -3566,3 +3566,27 @@ auch keine die Regel.
 
 Der Komma-Nachtrag bei «Hoi Labinot,» ist eine Präzisierung zur Kontaktliste, die dort
 «Hoi Labi»/«Guten Morgen Labinot» führt: die Vollform mit Komma ist ebenfalls belegt.
+
+## Zwei Cc, und die Anrede bleibt auf der wärmsten Stufe (belegt Fidelity 260830, authentisch)
+
+Gold B (11.11.2025 10:43) geht an **Esther Haecki allein im To**; der Bauherr Stefan Tschopp und
+Gertrud Angerer stehen im **Cc**. Die Anrede lautet «**Liebe Esther**» — die wärmste Stufe des
+warm-sozialen Registers, ohne jede Formalisierung.
+
+Der Marker seit 260805/260806 lautet «der mitlesende Dritte formalisiert die Anrede — im Du kippt
+die Wärmestufe». **Hier kippt sie nicht**, obwohl zwei Mitleser dabei sind und einer davon der
+Bauherr des Vorgangs ist. Das stützt die Einschränkung von 260822 («der Auslöser ist notwendig,
+nicht hinreichend») und verlangt, den Cc-Marker als **Möglichkeit** und nicht als Regel zu lesen.
+Der Do/Don't-Block bleibt vorerst unverändert (Wachstums-Riegel, [[QUESTIONS]] 260829b #4);
+vorgelegt als [[QUESTIONS]] 260830b #2.
+
+**Bestätigt wurde im selben Gold die Gegenregel:** «gestapelt wird, wer HANDELN muss» (260818,
+260824). Nur Esther wird angeredet, die beiden Cc werden übergangen — der Zwilling hat das
+korrekt getroffen, und zwar ohne Kenntnis der Rollen (die Trefferliste des Connectors zeigte alle
+drei Adressen undifferenziert als «recipients»).
+
+**Namensform:** Raphael schreibt den 3D-Freelancer im Opener «**Hoi York**» — eingedeutscht, ohne
+c —, während die Adresse `yorckvondietze@` lautet und die formellere Anrede «Hallo **Yorck**,»
+trägt (Gold C 24.11.2025 gegen den Beleg 25.11.2025 12:37). Zweiter Beleg des «Hallo↔Hoi»-Wechsels
+bei diesem Kontakt, hier zusätzlich mit **Schreibvariante des Namens** gekoppelt. Der Zwilling
+schrieb «Hoi Yorck» und verfehlte die Form.

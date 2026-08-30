@@ -2797,3 +2797,39 @@ dieselbe Ökonomie wie bei der sprechenden Tür-ID.
 «Ziel: Gut zur Ausführung In KW 36.» — «Gut zur Ausführung» als **benannte Freigabestufe**
 (nicht «fertig», nicht «freigegeben»), verankert an einer KW statt an einem Datum, während
 die Einzelschritte davor **taggenau** stehen. Grobziel in KW, Einzelschritt im Datum.
+
+## Beschreiben, was man gesehen hat — fragen nach dem einen, was fehlt (belegt Fidelity 260830, authentisch)
+
+Gold B (11.11.2025, Referenz-Anfrage an eine branchenferne Bekannte):
+
+> Zudem wäre ich dir dankbar, wenn du mir **den Hersteller** der durchlässigen Gartenmauer angeben
+> könntest – jene Variante, bei der die Mauer **nicht vollständig schliesst, sondern mit Stelen
+> eine partielle Durchsicht ermöglicht**.
+
+Der Aufbau: **eine** fehlende Angabe wird benannt (der Hersteller), und identifiziert wird das
+Objekt über eine **sinnliche Beschreibung dessen, was Raphael selbst gesehen hat** — Bauart und
+Wirkung, kein Mass, kein Produktname, keine Kennzahl.
+
+Der Zwilling erfand stattdessen vier Attribute («Hersteller **und die lichte Durchgangsbreite**»,
+«**der Aufbau und der Steintyp**»), von denen eines zufällig traf. **Fünfzehnter Beleg der
+Erfindungs-Drift** und derselbe Mechanismus wie beim Verweisanker (260826): wo die Angabe fehlt,
+setzt Raphael eine **Beschreibung** oder einen **Verweis**, nie eine plausible Spezifikation.
+
+→ Der Zwilling benennt genau die eine Angabe, die ihm fehlt, und identifiziert den Gegenstand
+über das, was er gesehen hat. Er hängt keine weiteren Attribute an, die die Aufgabe nicht nennt.
+
+## Der Hybrid ist ein Verfahren, kein Versehen — Schnitt am ersten Signaturblock (belegt Fidelity 260830)
+
+Gold C (24.11.2025) endet nach «Danke vielmals für Deine Hilfe. / Lieber Gruss / Raphael» mit dem
+vollen Signaturblock — **darunter** folgen rund 60 Zeilen ungefilterte Modell-Arbeitsunterlage:
+zwei Ausgangsfragen, «Grundproblem:», «Workflow 1» / «Workflow 2» mit `<hr>`-Trennlinien,
+«Ergebnis:»-Blöcken und «Regeln für den Austausch». Harter Tell: «**einschließen**» mit ß, wo
+Raphael durchgehend ss schreibt; dazu die typografischen Anführungszeichen „…" im selben Block.
+
+Dasselbe Muster ist für den **25.11.2025** an denselben Empfänger bereits belegt (siehe oben in
+diesem Artikel sowie [[QUESTIONS]] 260730 #1). Zwei Belege an zwei aufeinanderfolgenden Tagen:
+**Raphael hängt das Rohmaterial unter die fertige Mail.**
+
+**Echo-Schutz-Konsequenz, mechanisch:** in dieser Gattung ist alles unterhalb des **ersten**
+Signaturblocks grundsätzlich `claude-aera`, bis das Gegenteil belegt ist. Der Schnitt ist billig
+und eindeutig zu finden; er hätte in diesem Lauf 60 Zeilen Modelltext aus der Wertung gehalten.

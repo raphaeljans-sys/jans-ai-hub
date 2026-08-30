@@ -5007,3 +5007,94 @@ ziehe «Geschätzte/r». Der Beleg **präzisiert die Richtung**: das Gewicht heb
 **formeller**, nicht wärmer — und der Geldbezug ist der Auslöser, nicht die Nähe.
 
 **Frage:** Trifft das zu, oder ist es hier Zufall der Tagesform?
+
+## 260830b — Fidelity-Review (Golds 06./11./24.11.2025, Sent Items, vor-Claude)
+
+**#1 — «Du immer gross» ist eine Vorgabe, kein Abbild. Soll der Zwilling sie trotzdem halten?** ·
+*Facette [[stimme]] × Methodik*
+
+Die Kernregel steht ohne Einschränkung in `rules/jans-dna.md`, in der User-CLAUDE.md und im
+Do-Block von [[stimme]]. Der Beleg vom 11.11.2025 zeigt in **einem Absatz** aus Deiner eigenen
+Hand beides nebeneinander: «Ich hoffe, es geht **dir** gut. … bitte ich **Dich**, … Zudem waere
+ich **dir** dankbar, wenn **du** mir … angeben koenntest». Am 24.11.2025 haeltst Du es dagegen
+durchgehend gross.
+
+Die praktische Folge ist eine Messfolge, nicht eine Stilfrage: solange die Regel als Abbild
+gefuehrt wird, verbucht ein Fidelity-Lauf die Grossschreibung als Treffer — und misst dort **die
+Vorgabe gegen den Korpus** statt den Zwilling gegen Dich.
+
+Drei Lesarten: **(a)** die Regel ist Deine gewollte Norm, der Korpus ist schlicht schneller
+getippt → sie bleibt, wird aber im Artikel als **Norm** gekennzeichnet und in der Fidelity nicht
+mehr gewertet. **(b)** Die Kleinschreibung gehoert zum warmen, schnellen Du und ist ein eigener
+Marker → sie gehoert ins Register. **(c)** Egal, halt es immer gross. *Warum die Frage: Claude
+aendert den Wortlaut einer Rule nicht selbst, und (a) und (b) fuehren zu entgegengesetztem
+Verhalten des Zwillings.*
+
+**#2 — Hebt ein bloss mitlesender Cc die Anrede, oder kann er es nur?** ·
+*Facette [[beziehungsregister]]*
+
+Der Marker seit 260805/260806 sagt: der mitlesende Dritte formalisiert die Anrede, im Du kippt
+die Waermestufe. Am 11.11.2025 schreibst Du «**Liebe Esther**» — waermste Stufe — obwohl Stefan
+Tschopp (der Bauherr) und Gertrud Angerer im Cc stehen. 260822 hatte den Ausloeser bereits als
+«notwendig, nicht hinreichend» eingeschraenkt; dies ist der erste Beleg, in dem sogar der
+**Bauherr** mitliest und die Stufe trotzdem haelt.
+
+Ist die Regel: **der Cc hebt nur, wenn er selbst adressiert werden koennte** (also im Vorgang
+handelt), waehrend der reine Informations-Cc nichts bewegt? *Warum: der Zwilling formalisiert
+derzeit reflexhaft, sobald ein zweiter Name im Kopf steht — das kostet in warmen Beziehungen
+genau die Waerme, die sie ausmacht.*
+
+**#3 — Der Kopf-Block ueber der Anrede: bewusste Form oder Nebenprodukt des Kopierens?** ·
+*Facetten [[arbeitsweise]] × [[stimme]]*
+
+Am 06.11.2025 stehen Titel und Link **ueber** der Anrede, unbeschriftet, und der Gegenstand wird
+im Text nie wieder eingefuehrt: «Neubau Alters-und Pflegeheim St. Theodul, Fiesch / <link> /
+Guten Morgen Andreas / haettest Du Interesse diesen Wettbewerb zu machen?»
+
+Das Wiki kennt bisher nur die Gegenbewegung (Breadcrumb, Link **darunter** unter «Hier der
+Link:»). Ist der Kopf-Block eine eigene Form fuer die **Anlass-Mail** — der Gegenstand rahmt von
+oben, damit der Text kurz bleiben kann? Oder ist es schlicht, was beim Kopieren aus dem Browser
+oben landet? *Warum: im ersten Fall darf der Zwilling die Form aktiv verwenden und spart damit
+den ganzen Einleitungsabsatz, den er sonst erfindet; im zweiten darf er sie nie erzeugen.*
+
+**#4 — Darf der Harness bei Deinen Mails alles unterhalb des ersten Signaturblocks wegschneiden?** ·
+*Methodik, [[CLAUDE]]*
+
+Zwei Belege an zwei aufeinanderfolgenden Tagen (24. und 25.11.2025, beide an den 3D-Freelancer):
+Deine Mail endet mit Gruss und vollem Block, **darunter** haengt die ungefilterte
+Modell-Arbeitsunterlage — bei der 24.11.-Mail rund 60 Zeilen mit «Workflow 1/2», Trennlinien und
+dem harten Tell «einschlie**ss**en» als «einschlie**ß**en».
+
+Vorschlag: der Fidelity-Review und das Mail-Training schneiden kuenftig **mechanisch am ersten
+Signaturblock** und werten nur, was darueber steht. Der Schnitt ist eindeutig und kostet nichts.
+*Warum die Frage trotzdem: es gibt Mails, in denen unter dem Block noch etwas von Dir steht (der
+Nachklapp-Eingabetermin, 260826). Ein blinder Schnitt wuerde den mit wegwerfen. Soll die Regel
+also lauten «alles unter dem Block ist verdaechtig und wird einzeln geprueft» statt «wird
+verworfen»?*
+
+**#5 — «Danke fuer deine Angaben und lieber Gruss» — eigene Stufe oder Tippfluss?** ·
+*Facette [[stimme]]*
+
+Am 11.11.2025 schliesst Du mit **einer** Zeile: Dank mit Objekt plus Kurzgruss, kein Komma,
+«lieber» klein, darunter Name und voller FG-Block. Der Dank ist dabei **vorweggenommen** — er
+gilt Angaben, die noch gar nicht geliefert sind.
+
+Das Wiki kennt «Danke und Gruss» als terse Dank-plus-Gruss-Formel. Ist die Variante **mit Objekt**
+(«Danke fuer deine Angaben und …») eine eigene, waermere Stufe fuer die Bitte an eine
+nicht-fachliche Person — oder dieselbe Formel, nur ausgeschrieben? *Warum: der Zwilling greift
+in dieser Lage derzeit zu «Beste Gruesse» und laesst den Block weg; beides war hier falsch.*
+
+**#6 — Die Goldquelle Sent Items 2025 ist ausgeschoepft. Welche Gattung als naechste?** ·
+*Steuerung*
+
+Dieser Lauf hat vier Fenster (Sept./Okt./Anfang und Ende Nov. 2025, zusammen rund 80 Sent Items)
+geprueft; **ueber 90 % waren bereits destilliert**, uebrig blieben genau die drei gemessenen
+Mails. Das `twin-mail-training` hat den Bestand weitgehend gehoben — das ist ein Erfolg, aber es
+heisst, dass ein weiteres Datumsfenster kaum noch traegt.
+
+Zwei Wege liegen bereit: **(a)** die Fachprosa 2007–2014 aus `02_Architektur_Archiv`, die
+[[QUESTIONS]] 260829c #1 als Gold-Kandidat uebergeben hat (andere Gattung, andere Facetten —
+[[fachsignatur]] und [[haltung]] haben dafuer bisher keine Quelle); **(b)** `Drafts` Seite 2–5,
+die Batch 109 als historischen Gold-Bestand 2024/2025 identifiziert hat. *Warum die Frage an
+Dich: (a) haengt an Deinem Entscheid aus 260829c #1 (ist Stimme von 2007 heute noch Gold?), und
+ohne diesen Entscheid bleibt nur (b).*

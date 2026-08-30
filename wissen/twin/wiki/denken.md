@@ -1322,3 +1322,25 @@ stehen.
 «kleinere Arbeiten ja, grosse nein» statt «teilweise»; «ca. 10-20J» statt «beschränkt»;
 «gleich oder dicker 4mm» statt «ausreichend stark». Auch die Unsicherheit trägt eine Zahl
 oder ein «evtl.» — nie ein weiches Adjektiv.
+
+## Die Frage steht nackt — kein Vorlauf, keine Einordnung, keine Zusage (belegt Fidelity 260830, authentisch)
+
+Gold A (06.11.2025, an den Architektenkollegen) besteht nach dem Kopf-Block aus **einem Satz**:
+«hättest Du Interesse diesen Wettbewerb zu machen?» Kein Vorlauf, keine Einordnung des Objekts,
+keine Aufwandsschätzung, keine Zusage, kein nächster Schritt.
+
+Die Blindfassung setzte drei ausgebaute Absätze: eine Charakterisierung des Verfahrens («offener
+Wettbewerb, Programm und Termine auf Konkurado»), eine gemeinsame Kompetenzbehauptung («das liegt
+genau in unserem Feld»), eine zweite Frage nach Kapazität und eine Zusage («sehe ich mir das
+Programm bis Ende Woche durch und melde mich mit einer Einschätzung»). **Nichts davon stand in
+der Aufgabe.**
+
+Das ist der **vierzehnte Beleg** derselben Bewegung: der Zwilling füllt, wo Raphael fragt. Neu ist
+der Gattungstyp — bisher war die Drift an Beratungs-, Prüf- und Lieferaufgaben gemessen, hier trifft
+sie die **blosse Interessensanfrage unter Peers**, also die Gattung mit dem geringsten
+Substanzbedarf überhaupt. **Je weniger die Aufgabe verlangt, desto grösser wird der Überschuss.**
+
+Zweiter Denk-Befund aus demselben Lauf (Gold C, in [[arbeitsweise]] ausgeführt): der Zwilling las
+eine kumulative A)/B)-Anforderung als Wahlangebot und **kehrte damit den Sprechakt um**. Das ist
+keine Stilabweichung, sondern ein Lesefehler an der Aufgabe — und er entstand aus demselben Reflex,
+dem Empfänger etwas anzubieten, statt ihn um etwas zu bitten.

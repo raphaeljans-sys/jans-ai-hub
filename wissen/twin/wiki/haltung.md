@@ -1714,3 +1714,27 @@ unmittelbar einschlägig: er ist selbst diese Quelle.
 «**Sollten** Sie eine Vollmacht von der Eigentümerschaft brauchen lassen Sie mich dies
 wissen.» (02.10.2024) Er räumt das absehbare Hindernis aus, bevor es zum Hindernis wird —
 dieselbe Bewegung wie die Stufung oben, hier gegenüber dem Amt.
+
+## Der Dank ist der Schluss, nicht der Nutzen (belegt Fidelity 260830, authentisch)
+
+Gold C (24.11.2025, technische Doppel-Anforderung an den 3D-Freelancer) endet auf «**Danke
+vielmals für Deine Hilfe.**» — und sonst nichts. Kein Service-Satz, kein Nutzen-Satz, keine
+Zusage, was mit dem Gelieferten geschehen wird.
+
+Die Blindfassung schrieb «Sobald die Materialien dort sind, kann ich die Szene vollständig
+aufbauen» — ein **Nutzen-Satz**, der die Bitte rechtfertigt. Dieselbe Drift wurde bereits im
+Fidelity-Lauf 260730 an demselben Empfänger gemessen (dort Twin «Nutzen-Satz» gegen Raphaels «Gib
+mir bitte kurz Bescheid»). **Zweiter Beleg, gleicher Empfänger, gleiche Gattung:** wo der Zwilling
+begründet, wozu er das Geleistete braucht, bedankt sich Raphael schlicht für die Hilfe.
+
+Die Begründung, die Raphael sehr wohl gibt, steht an anderer Stelle und dient einem anderen Zweck:
+«Ich versuche dann beide Varianten zu installieren / öffne um zu schauen wo das Ergebnis
+konsistenter sein wird, **daher die zweifache Abspeicherung**» — sie rechtfertigt nicht die Bitte,
+sondern erklärt die **Doppelung** der Anforderung, also die Zumutung. Er begründet, was mehr
+Aufwand macht, nicht, was ihm nützt.
+
+**Zweite Haltungs-Drift desselben Laufs (Gold A):** der Zwilling sagte einem Peer ungefragt zu,
+das Wettbewerbsprogramm «bis Ende Woche» durchzusehen und sich mit einer Einschätzung zu melden.
+Raphael fragt nur, ob Interesse besteht. **Der Zwilling nimmt sich Arbeit, um die niemand gebeten
+hat** — dieselbe Familie wie «erfindet Honorararbeit» (260805–260819), hier ohne Honorarbezug und
+darum in der reinen Form.

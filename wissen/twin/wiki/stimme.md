@@ -4813,3 +4813,35 @@ Herkunft des Textes.
 **Wie beim Guillemet-Signal (korrigiert 03.08.2026) gilt ab jetzt: Schrift-Abweichung zählt
 nur in Kombination mit einem zweiten Signal.** Allein genommen hätte sie hier sechs Marker
 vernichtet.
+
+## Anrede ohne Komma, Satz klein weiter · Dank und Gruss verschmolzen (belegt Fidelity 260830, authentisch)
+
+**1. Die Anrede trägt kein Komma, der Folgesatz beginnt klein, ohne Leerzeile.** Gold A
+(06.11.2025, an den Architektenkollegen): «**Guten Morgen Andreas** / **h**ättest Du Interesse
+diesen Wettbewerb zu machen?» Die Anrede gehört syntaktisch zum Satz. Das Wiki kannte diese
+Bauform bisher nur für den **verblosen Nominalsatz** des Transmittals; hier trägt sie einen
+**Fragesatz**. Gold C bestätigt das fehlende Komma («Hoi York»), während derselbe Empfänger am
+Folgetag «Hoi York**,**» mit Komma bekommt — **es schwankt, und die kommalose Form ist die
+knappere.**
+
+**2. Dank und Kurzgruss verschmelzen zu einer Zeile, der Gruss wird kleingeschrieben.** Gold B
+(11.11.2025, warm-sozial): «**Danke für deine Angaben und lieber Gruss**» — eine Zeile, kein
+Komma, «lieber» klein, darunter «Raphael» und der volle FG-Block. Verwandt mit dem belegten
+«Danke und Gruss», aber **mit Objekt** und in Kleinschreibung. Und der Dank ist
+**vorweggenommen**: er gilt Angaben, die noch nicht geliefert sind. Der Zwilling setzte «Beste
+Grüsse» und liess den Block weg.
+
+**3. Der Gedankenstrich lebt in der Mail — die Eingrenzung des Verbots ist belegt richtig.**
+Gold B: «… angeben könntest **–** jene Variante, bei der die Mauer nicht vollständig schliesst,
+sondern mit Stelen eine partielle Durchsicht ermöglicht.» Der Don't-Block verbietet ihn
+ausdrücklich nur in **Dokumenten und Folien** (ebenso `dokument-layout-standard.md`). Hier ein
+positiver Beleg, dass die Mail ihn trägt — nicht ein Verstoss.
+
+**4. ⚠ Das Du wird NICHT durchgehend grossgeschrieben.** Gold B, ein Absatz: «Ich hoffe, es geht
+**dir** gut. … bitte ich **Dich**, … Zudem wäre ich **dir** dankbar, wenn **du** mir … angeben
+könntest». Gross und klein stehen im selben Absatz nebeneinander; Gold C hält es im selben
+Fenster durchgehend gross. **Die Regel «Du immer gross» ist eine Normierung, kein Abbild des
+Korpus.** Sie bleibt in Kraft (Raphaels erklärte Vorgabe in `rules/jans-dna.md` und der
+User-CLAUDE.md; Claude ändert den Wortlaut einer Rule nicht selbst) — aber ein Fidelity-Lauf, der
+die Grossschreibung als Treffer verbucht, misst dort die **Vorgabe gegen den Korpus** statt den
+Zwilling gegen Raphael. Vorgelegt als [[QUESTIONS]] 260830b #1.
