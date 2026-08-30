@@ -4072,3 +4072,46 @@ nach Plinius d. J. offen: Strabo (141), Juvenal (145), Sueton (149), Pausanias (
 Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia
 (247) — 8 Positionen. **Nächster Lauf:** Strabo (141) als nächster im Seitenverlauf
 liegender Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, 53. P2-Lauf (Strabo destilliert, Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn aus Inventardatei, `KORPUS-QUEUE.md` und diesem CHANGELOG
+gemeinsam ermittelt (übereinstimmend, working tree sauber, letzter Commit bereits
+gepusht) — keine eigene Sicherung nötig, direkt mit dem empfohlenen Kandidaten
+weitergearbeitet.
+
+**Strabo, Erdbeschreibung, Buch V, 7-8 «Stadtbeschreibung Rom»** (S. 141-143) → neuer
+Artikel
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]]:
+die ringweise Servianische Stadterweiterung (Agger-Bau, 1,110 km Erdwall, drei
+Ausbaustufen Kapitol/Palatin/Quirinal → Caelius/Aventin → Esquilin/Viminal), Strabos
+Werteaussage «Männer statt Mauern» als römisches Sicherheitsprinzip, der Baustoffkreislauf
+über Fluss-Logistik (Anio/Nar/Teneas) inkl. der expliziten Beschreibung von
+Abbruch-und-Neubau-nach-Belieben als strukturellem Stadtbetriebszustand, Augustus'
+Bauhöhenlimite (70 Fuss / 21,581 m an öffentlichen Strassen) und organisierte
+Löschtruppe — beide datiert **vor** dem Brand Roms 64 n. Chr. —, der explizite
+Griechen-Römer-Vergleich Schönheit/Festigkeit/Hafen/Land gegen
+Strassenpflasterung/Wasserleitungen/Kanalisation, sowie Marsfeld-Ensemble und
+Mausoleum-Augustus als Bautypus-Beschreibung.
+
+Gegen Wiki-Bestand geprüft (`grep -rli` servian/aggerbau/erdwall/mausoleum/marsfeld/
+augustus über `wiki/*.md`): keine inhaltlichen Duplikate, nur themenfremde
+Zufallstreffer (Barock-Platztypologie, Sitte, Eitelberger, Wiese/Zils, Rossi — dort nur
+beiläufige oder andere Erwähnungen ohne Bezug zu dieser Stelle). Verlinkt mit
+[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (dort per Nachtrag
+rückverlinkt: Augustus' Höhenlimite/Löschtruppe bestanden bereits vor Neros
+Wiederaufbau-Bauordnung, die erweitert ein bestehendes Instrumentarium statt es neu zu
+erfinden), [[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]
+(Gegenbild: reguläre ringweise Stadterweiterung gegen Livius' regellosen
+Nachkriegs-Wiederaufbau derselben Stadt),
+[[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]] (Agrippas
+Wasserbauten, hier nur zeitgenössisch gewürdigt, dort technisch im Detail) und
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]
+(dritter Wachstumsmodus: organisch-inkrementell, aber regulär, neben geplanter
+Neugründung und Livius' regellosem Wiederaufbau).
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (`34 0`). Aus der
+Namensliste bleibt nach Strabo offen: Juvenal (145), Sueton (149), Pausanias (151),
+Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247) — 7 Positionen. **Nächster Lauf:** Juvenal (145) als
+nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.

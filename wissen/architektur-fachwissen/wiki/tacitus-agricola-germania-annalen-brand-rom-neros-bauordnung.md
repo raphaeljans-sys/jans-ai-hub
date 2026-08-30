@@ -3,7 +3,7 @@ title: "Tacitus: Agricola, Germania und der Brand Roms mit Neros Bauordnung (Ann
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 131-136 (Tacitus, «Agricola» Kap. 13/18/21, «Germania» Kap. 16, «Annalen» Buch XV, 37-43, hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, vollständig gelesen)"]
-links: ["[[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]", "[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]]", "[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]]"]
+links: ["[[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]", "[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]]", "[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]]", "[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]]"]
 ---
 
 # Tacitus: Agricola, Germania und der Brand Roms mit Neros Bauordnung
@@ -126,3 +126,11 @@ Gegen Wiki-Bestand geprüft (`grep -rli` nero/agricola/germania/brandmauer über
 `wiki/*.md`): keine inhaltlichen Treffer ausserhalb dreier themenfremder Zufallstreffer
 (Castiglione, Palladio, Muratori/Caniggia — dort nur beiläufige Nero-Erwähnungen ohne
 Bezug zu dieser Stelle), kein Duplikat.
+
+**Nachtrag (30.08.2026):** Laut
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]]
+bestand bereits unter Augustus (gestorben 14 n. Chr.), also deutlich vor dem hier
+beschriebenen Nero-Brand, eine Bauhöhenlimite an öffentlichen Strassen (70 Fuss /
+21,581 m) sowie eine organisierte Löschtruppe aus Freigelassenen. Neros Bauordnung
+erweitert damit ein bereits bestehendes Regelungsinstrumentarium, statt es neu zu
+erfinden.

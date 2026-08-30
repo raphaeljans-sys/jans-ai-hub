@@ -2611,3 +2611,37 @@ bleibt nach Plinius d. J. offen: Strabo (141), Juvenal (145), Sueton (149), Paus
 (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
 Colonna/Hypnerotomachia (247) — 8 Positionen. **Nächster Lauf:** Strabo (141) als nächster
 im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 53. P2-Lauf 30.08.2026 (Lane FACHWISSEN): Strabo destilliert
+
+Stand vor Laufbeginn aus Inventardatei, `KORPUS-QUEUE.md` und CHANGELOG gemeinsam
+ermittelt (übereinstimmend: 52 Läufe, 8 offene Namenslisten-Positionen, nächster Kandidat
+Strabo S. 141), working tree zu Laufbeginn sauber (letzter Commit bereits gepusht).
+
+Strabo/Erdbeschreibung, Buch V, 7-8 («Stadtbeschreibung Rom», S. 141-143) per
+`/opt/homebrew/bin/pdftoppm -f 145 -l 150 -r 150` gerendert (PDF-Seite = gedruckte Seite +
+4, am Bereichsende gegenverifiziert: PDF-Seite 148 = gedruckte Seite 144 = leere
+Trennseite, PDF-Seite 149 = gedruckte Seite 145 = Beginn „Juvenal" bestätigt
+Positionsende), alle drei Textseiten vollständig gelesen. Destilliert →
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]]:
+ringweise Servianische Stadterweiterung (Agger-Bau, 1,110 km Erdwall), Werteaussage
+„Männer statt Mauern", Baustoffkreislauf inkl. laufender Abriss-/Neubau-Erneuerung als
+Strukturprinzip, Augustus' Bauhöhenlimite 70 Fuss (21,581 m) und Löschtruppe — datiert
+**vor** Neros Bauordnung nach dem Brand 64 n. Chr. —, Griechen-Römer-Prioritätenvergleich
+Schönheit/Hafen/Land gegen Strassenbau/Wasserleitungen/Kanalisation, Marsfeld-Ensemble
+und Mausoleum-Augustus-Beschreibung. Gegen Wiki-Bestand geprüft (`grep -rli`
+servian/aggerbau/mausoleum/marsfeld/augustus über `wiki/*.md`): keine inhaltlichen
+Duplikate, nur themenfremde Zufallstreffer. Verlinkt mit
+[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (dort per Nachtrag
+rückverlinkt: Augustus-Höhenlimite datiert vor Neros Bauordnung),
+[[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]] (Gegenbild:
+regellose vs. regulär-ringweise Stadterweiterung derselben Stadt),
+[[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]] (Agrippa-Erwähnung) und
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]] (dritter
+Wachstumsmodus neben geplanter Neugründung und regellosem Wiederaufbau).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste
+bleibt nach Strabo offen: Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius
+(155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) —
+7 Positionen. **Nächster Lauf:** Juvenal (145) als nächster im Seitenverlauf liegender
+Kandidat, sonst der Rest der Liste der Reihe nach.
