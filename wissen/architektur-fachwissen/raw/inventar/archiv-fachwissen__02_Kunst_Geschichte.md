@@ -300,3 +300,20 @@ Sektion mit offenem P2.
 `git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 69
 Bühnenbildner-Zweig (83 Dateien) oder Zeile 75 Stilepochen-Zusammenfassung/Hagia-Sophia-
 Chronologie, sonst laut Queue-Regel Prüfung der nächsten Sektion mit offenem P2.
+
+- Zeile 69 `02_Bildende_Kunst/07_Buehnenbildner/` (83 Dateien) → **erledigt.** Rund 80 der 83
+  Dateien sind Fotos/Diathek-Scans ohne Fliesstext (Appia, Bibiena-Familie, Bramante, Callot,
+  Popova, Robert Wilson, Schinkel/Hasenpflug u. a., reiner Bildfundus). Einzige Textquelle mit
+  zusammenhängendem Inhalt: die spanischsprachige Webseite der Universidad de Navarra zur
+  Galli-Bibiena-Dynastie (6 Seiten, vollständig gelesen), destilliert zu
+  [[bibiena-familie-barocke-buehnenarchitektur-scena-per-angolo-bayreuth-mantova]]. Das
+  ETH-gta-Ausstellungs-PDF `00_Die_Stadt_als_Buehne/Die Stadt - Die Stadt als Bühne.pdf`
+  gelesen: ein einzelner Absatz ohne weitere Fakten, bereits in der Tabellenzeile
+  wiedergegeben, kein eigener Artikel gerechtfertigt. Zwei Bildvorlagen `Seiten aus
+  TRADITIONALISMUS_UM_1910-27.pdf`/`-28.pdf` (Appia) sind reine Scans ohne Text, geprüft und
+  ohne Ertrag geschlossen. Die `.indd`-Dateien (Appia) sind InDesign-Binärdateien, nicht
+  auswertbar.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 75
+Stilepochen-Zusammenfassung/Hagia-Sophia-Chronologie, sonst laut Queue-Regel Prüfung der
+nächsten Sektion mit offenem P2.

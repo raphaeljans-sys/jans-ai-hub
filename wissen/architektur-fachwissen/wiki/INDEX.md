@@ -2346,3 +2346,19 @@ unzuverlässig für Zitate, Folien reine Bildunterschriften); eine potenziell ve
 Notiz zu Peter Märkli/Novartis Campus/Szeemann/Jenny Holzer bleibt unbelegt offen
 (`QUESTIONS.md`). Details CHANGELOG 30.08.2026. **Nächster Lauf:** Zeile 69
 Bühnenbildner-Zweig oder Zeile 75 Stilepochen-/Hagia-Sophia-Chronologie.
+
+## 260830 — Zeile 69, Sektion `02_Kunst_Geschichte` (96. Lauf Lane FACHWISSEN)
+
+Bühnenbildner-Zweig (83 Dateien, fast ausschliesslich Bild-/Diathek-Scans ohne Fliesstext)
+geprüft: einzige Textquelle mit zusammenhängendem Inhalt ist eine spanischsprachige
+Webseite der Universidad de Navarra zur Galli-Bibiena-Dynastie, gelesen und zu
+[[bibiena-familie-barocke-buehnenarchitektur-scena-per-angolo-bayreuth-mantova]] destilliert:
+Ferdinandos Scena-per-angolo-Diagonalperspektive und Bauglieder-«Palette», Giuseppes
+Bayreuther Opernhaus (1748, einziger vollständig erhaltener Bibiena-Theaterbau), Antonios
+drei weitere erhaltene Theater (Bologna 1763, Mantova 1769 mit Mozart-Konzert 1770, Pavia
+1773). Das ETH-gta-Ausstellungs-PDF «Die Stadt als Bühne» geprüft: ein einzelner
+Absatz ohne weitere Fakten, bereits vollständig in der Inventarzeile wiedergegeben, kein
+eigener Artikel gerechtfertigt. Zwei kurze Appia-Bildvorlagen (`Seiten aus
+TRADITIONALISMUS_UM_1910-27/28.pdf`) sind reine Scans ohne Text. Zeile 69 gilt damit als
+abgeschlossen. **Nächster Lauf:** Zeile 75 Stilepochen-/Hagia-Sophia-Chronologie, sonst
+laut Queue-Regel nächste Sektion mit offenem P2.

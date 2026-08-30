@@ -5844,3 +5844,43 @@ als offener Punkt in `wiki/QUESTIONS.md` vermerkt statt stillschweigend übernom
 (einer neu, einer ergänzt), `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile 69
 Bühnenbildner-Zweig (83 Dateien) oder Zeile 75 Stilepochen-/Hagia-Sophia-Chronologie, sonst
 laut Queue-Regel nächste Sektion mit offenem P2 wählen.
+
+## 260830 — Zeile 69, Sektion `02_Kunst_Geschichte` (96. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt: der 95. Lauf hatte seine Arbeit fertig, aber beim Start dieses Laufs
+noch unkommittiert im Working Tree (`git status` zeigte fünf geänderte + eine neue Datei);
+während der Bestandsaufnahme hat der reguläre 15-Min-Cron (`nas-commit-now.sh`) diesen Stand
+selbständig committet (`56b250398`) — kein Doppel-Dispatch, nur Zeitversatz, working tree
+danach sauber.
+
+Zeile 69 `02_Bildende_Kunst/07_Buehnenbildner/` (83 Dateien) geprüft: rund 80 der 83 Dateien
+sind Fotos/Diathek-Scans ohne Fliesstext (Appia, Bibiena-Familie, Bramante, Callot, Popova,
+Robert Wilson, Schinkel/Hasenpflug u. a.). Einzige Textquelle mit zusammenhängendem Inhalt ist
+eine spanischsprachige Webseite der Universidad de Navarra zur Galli-Bibiena-Dynastie (6
+Seiten, vollständig gelesen), destilliert zu neuem Artikel
+[[bibiena-familie-barocke-buehnenarchitektur-scena-per-angolo-bayreuth-mantova]]:
+
+- Ferdinando Galli da Bibiena (1657-1743): Scena-per-angolo-Diagonalperspektive statt
+  Einzelfluchtpunkt, systematisches Bauglieder-Repertoire («Palette»), zwei publizierte
+  Traktate (1711, 1725).
+- Giuseppe Galli Bibiena (1696-1756): Markgräfliches Opernhaus Bayreuth 1748 — der einzige
+  vollständig erhaltene Bibiena-Theaterbau und einer der wenigen erhaltenen barocken
+  Theaterbauten Europas überhaupt.
+- Antonio Galli Bibiena (1700-1774): drei weitere erhaltene Theater — Teatro Comunale Bologna
+  (1763), Teatro Bibiena Mantova (1769, Mozart-Konzert 16.1.1770 im Alter von 14 Jahren),
+  Teatro Fraschini Pavia (1773).
+- Francesco, Alessandro und Giovanni Carlo Galli Bibiena kurz mit ihren (teils zerstörten)
+  Bauten erwähnt (Wien, Nancy, Verona, Lissabon — Opera do Tejo, Erdbeben 1755).
+
+Das ETH-gta-Ausstellungs-PDF `00_Die_Stadt_als_Buehne/Die Stadt - Die Stadt als Bühne.pdf`
+gelesen: ein einzelner Absatz («Die Stadt als Projektionsfläche... seit dem 15. Jahrhundert»)
+ohne weitere Fakten, bereits vollständig in der bestehenden Inventarzeile wiedergegeben — kein
+eigener Artikel gerechtfertigt (Delta-Ehrlichkeit). Zwei Bildvorlagen `Seiten aus
+TRADITIONALISMUS_UM_1910-27.pdf`/`-28.pdf` (Appia) geprüft: reine Scans ohne Text, ohne
+Ertrag geschlossen. Die `.indd`-Dateien (Appia) sind InDesign-Binärdateien, nicht auswertbar.
+**Zeile 69 gilt damit als abgeschlossen.**
+
+Keine der harten Sperren (Verträge/Bewerbungen/Adressen/Lohn/Privat) berührt. `git diff
+--numstat` auf die Inventardatei zeigt reinen Append. Ein Wiki-Artikel neu, `wiki/INDEX.md`
+nachgeführt. **Nächster Lauf:** Zeile 75 Stilepochen-Zusammenfassung/Hagia-Sophia-Chronologie,
+sonst laut Queue-Regel nächste Sektion mit offenem P2 wählen.
