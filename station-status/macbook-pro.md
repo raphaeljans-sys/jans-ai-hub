@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 19:08:12
+Stand: 30.08.2026 19:18:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 19:08:12
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7d6b2c8b7 FACHWISSEN 93. Lauf: Vignola/Palladio gegengeprueft, drei neue Artikel, Architektenportrait-Ordner abgearbeitet
+- 8fdcef9e7 wissen/architektur-fachwissen: Zeile 70 Sektion 02_Kunst_Geschichte (Kiss/Ursprung destilliert, Merzbau-Vertiefung), KORPUS-QUEUE 95. Lauf
