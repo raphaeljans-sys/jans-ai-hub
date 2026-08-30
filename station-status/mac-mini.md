@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 14:33:27
+Stand: 30.08.2026 14:43:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 14:32)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 14:33:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- dd5585a11 nas-selfcommit: 1 Datei(en) 2026-08-30 14:30
+- 567085a39 Lane FACHWISSEN: 63. Lauf Protomodern P2 (Rowe/Koetter Collage City) destilliert
