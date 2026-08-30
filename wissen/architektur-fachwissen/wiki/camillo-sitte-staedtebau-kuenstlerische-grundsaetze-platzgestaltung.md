@@ -3,7 +3,7 @@ title: "Camillo Sitte: Der Städtebau nach seinen künstlerischen Grundsätzen (
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/00_Literatur/0.0 GRUNDLAGENWERKE_Manualistik/Sitte.pdf, Camillo Sitte, «Der Städtebau nach seinen künstlerischen Grundsätzen», 3. Auflage, Wien 1901, S. 1-87 (Kapitel I-VII plus Städte-Register)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md Abschnitt Triage, Position 3"]
-links: ["[[staedtebau-begriffe-einflussgroessen-bausteine-stadtstruktur-jans]]", "[[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]]", "[[ortsanalyse-raster-plananalyse-platzanalyse-lampugnani]]"]
+links: ["[[staedtebau-begriffe-einflussgroessen-bausteine-stadtstruktur-jans]]", "[[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]]", "[[ortsanalyse-raster-plananalyse-platzanalyse-lampugnani]]", "[[siena-baupflege-dokumente-campo-fensterordnung-ballatoi-ufficio-bellezza]]"]
 ---
 
 # Camillo Sitte: Der Städtebau nach seinen künstlerischen Grundsätzen

@@ -1548,3 +1548,117 @@ Sichtung: weitere Einzelauszüge zwischen den bereits erledigten Blöcken,
 Ordnernummer/Dateiliste dieser Sektion vorher gegen `wiki/INDEX.md`
 prüfen, nicht gegen diese oft ein Lauf alte Zusammenfassung in
 `KORPUS-QUEUE.md`).
+
+## Dreissigster P2-Lauf, vollständiges Inhaltsverzeichnis des Quellentextbands
+gefunden — Bern und Siena destilliert (30.08.2026, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn working tree geprüft: eine unkommittierte, vollständige
+Vorlaufarbeit des 29. Laufs (Francesco di Giorgio Martini) lag bereits im
+Repo, aber nicht gesichert — nachträglich per `nas-commit-now.sh`
+committet (Merge-Konflikte in fremden Lane-CHANGELOGs traten auf, wurden
+vom Skript/15-Min-Cron aber selbständig aufgelöst, Commit `eda55cc35`
+verifiziert, working tree danach sauber). `KORPUS-QUEUE.md` erneut einen
+Lauf veraltet befunden (Praxis der letzten Läufe bestätigt).
+
+**Wesentlicher Befund dieses Laufs:** Die wiederholt geschätzte Zahl
+«ca. 50 Auszüge, rund 28 offen» war nie gegen ein tatsächliches
+Inhaltsverzeichnis geprüft worden. Da der `pages`-Parameter des Read-Tools
+weiterhin mit `pdftoppm is not installed` fehlschlägt, obwohl `poppler`
+und `tesseract` laut 29. Lauf per Homebrew installiert sind: Ursache
+gefunden — die Bash-Session dieser Lane hat kein `/opt/homebrew/bin` im
+`PATH` (nur `/usr/bin:/bin:/usr/sbin:/sbin`), `brew` selbst ist unter
+`/opt/homebrew/bin/brew` vorhanden. Workaround: `pdftoppm`/`tesseract`
+über den vollen Pfad `/opt/homebrew/bin/...` aufrufen, kein PATH-Export
+nötig. Damit liess sich das Inhaltsverzeichnis des Quellentextbands
+gezielt rendern (`pdftoppm -f 5 -l 12 -r 150 -png ... ~/fdgm-test/toc`)
+und per Read-Tool lesen (S. 7-8 der TOC-Seiten selbst, PDF-Seiten 7 und 8).
+
+**Das Inhaltsverzeichnis (S. 7-8, PDF-Seiten 11-12) nennt exakt 54 benannte
+Positionen** von Homer (S. 9) bis Max Weber (S. 341), Quellennachweise ab
+S. 347. Vollständige Liste mit gedruckten Seitenzahlen: Vorwort (7),
+Homer/Ilias (9), Herodot/Historien (13), Thukydides (27),
+Hippokrates/Luft-Wässer-Gegenden (35), Aristophanes/Die Vögel (41),
+Xenophon/Cyropädie (43), Platon/Die Gesetze (45) + Kritias (54),
+Aristoteles/Politik (63, **destilliert**), Polybios (69), Varro (73),
+Cicero/Vom Staatswesen (75), Vitruv (83, **destilliert**, Buch I + VIII,6),
+Livius (95), Lex Iulia Municipalis (101), Seneca (105), Plinius d. Ä.
+(113), Frontinus (119, **destilliert**), Plutarch/Romulus (125),
+Tacitus/Agricola+Germania+Annalen (131-133), Plinius d. J./Briefe (137),
+Strabo/Erdbeschreibung (141), Juvenal/Satiren (145), Sueton (149),
+Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159),
+Digesta (163, **destilliert**), Koran-Auszüge (169, bisher nie geprüft),
+Al-Farabi (173, **destilliert**), Ibn Abdun (175, **destilliert**), Ibn
+Dschubair (177, **destilliert**), Al-Ghazali (181, **geprüft, kein
+Artikel**), Ibn Chaldun x2 (183/187, **destilliert**), Regensburg-Quellen
+(191), Vita Meinwerci (193), Bern/Handfeste (195, **jetzt destilliert**),
+Bern/Satzungenbuch (197, **jetzt destilliert**), Siena/Baupflege-Dokumente
+(199, **jetzt destilliert**), Vita Nicolai V (201), Filarete (203,
+**destilliert**), Alberti (213, **destilliert**, nur Teilabschnitte),
+Enea Silvio Piccolomini (233/240/241), Campano (243), Pero Tafur (245),
+Francesco Colonna/Hypnerotomachia (247), Francesco di Giorgio Martini
+(251, **destilliert**), Pacioli (255), Leonardo da Vinci (257), Dürer/Vom
+Festungsbau (259, **destilliert** als «Idealstadtbeschreibung» —
+Festungsbautraktat enthält die Idealstadtbeschreibung als Teilabschnitt),
+Serlio (267), Aventinus (271), Castiglione/Raffael-Brief an Leo X. (275),
+Münster/Cosmographei (281), Palladio (283, **destilliert**, nur Buch III
+Teilabschnitte), Specklin (289), Olivier de Serres (293), Vasari il
+Giovane/Città ideale (299), Campanella (303, **destilliert**), Descartes
+(307, **destilliert**), Vauban (309, **destilliert**), Ludwig XIV. (313,
+**destilliert**), Dézallier d'Argenville (317, **destilliert**), Manuel da
+Maia (327, **destilliert**), Kalabrien-Quellen (335, **destilliert**), Max
+Weber (341, **destilliert**).
+
+Damit sind von 54 benannten Positionen **22 destilliert oder begründet
+ohne Artikel abgeschlossen** (darunter mehrere nur in Teilabschnitten:
+Alberti, Palladio), **32 vollständig offen** — deutlich mehr als die
+zuletzt geschätzten «rund 28», weil rund 20 Positionen (u. a. der gesamte
+antike Block Homer bis Cicero, der römische Kaiserzeit-Block Plutarch bis
+Salvianus, der Koran-Auszug, die mittelalterlichen Rechtsquellen
+Regensburg/Vita Meinwerci/Vita Nicolai V, mehrere Renaissance-Autoren
+zwischen Piccolomini und Vasari) in keinem der 29 vorangegangenen Läufe
+auch nur als Kandidat genannt wurden. **Diese Liste ersetzt ab sofort die
+Schätzung «ca. 50/rund X offen» — künftige Läufe zählen gegen die 54
+benannten Positionen oben, nicht gegen die alte Schätzung.**
+
+In diesem Lauf destilliert (Offset PDF = gedruckte Seite + 4 bestätigt,
+Bern-Handfeste-Seite 195 = PDF-Seite 199 exakt geprüft):
+
+- Bern, Handfeste (1218, S. 195-196) und Satzungenbuch (1405,
+  Baulinienvorschriften §78/87/88, S. 196-198) → neuer Artikel
+  [[bern-handfeste-1218-satzungenbuch-1405-baulinien-nachbarrecht]]
+  (Parzellennorm mit Zinskopplung, Marktrecht auf öffentlichem Strassenraum,
+  Infrastrukturunterhaltspflicht mit Haftung, Bebauungspflicht als
+  Bürgerrechtsbedingung; nach dem Stadtbrand: Baulinie mit Höhen-/
+  Dachneigungslimite, jährliche Bauaufsicht mit Bussenkatalog,
+  nachbarrechtliche Überhöhungs-Busse mit Rückbaupflicht).
+- Siena, Dokumente zur kommunalen Baupflege 13.-15. Jh. (S. 199-200,
+  Dokument Nr. 1 v. 1297/1309-10, Nr. 2 gleiche Fundstelle, Nr. 10 frühes
+  15. Jh.) → neuer Artikel
+  [[siena-baupflege-dokumente-campo-fensterordnung-ballatoi-ufficio-bellezza]]
+  (verbindliche Fensterordnung mit Vollzugshaftung des Podestà,
+  Ballatoi-Verbot mit Rückbaupflicht, und als bisher unbelegtes
+  Anreizinstrument: das «Ufficio dell'Ornato» kompensiert freiwilligen,
+  kostspieligen Fassadenrückbau mit einem öffentlichen Amt statt mit Geld).
+  Rückverlinkt im bestehenden
+  [[camillo-sitte-staedtebau-kuenstlerische-grundsaetze-platzgestaltung]]
+  (dortige Siena-Erwähnung betraf nur die Strassenplan-Unregelmässigkeit,
+  kein inhaltlicher Widerspruch, nur Ergänzung um die Platzrand-Fassaden-
+  regulierung).
+- Vita Nicolai V (S. 201) angelesen, aber **nicht** in diesem Lauf
+  destilliert (thematisch eigenständig: päpstliche Baupatronage-
+  Rechtfertigung «Stadt als Bibel der Armen», kein unmittelbarer
+  Zusammenhang mit Bern/Siena) — offene Position für einen Folgelauf.
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach Bern/Handfeste/Satzungenbuch/
+Siena/Campo/Ballatoio/Colonnelli über `wiki/*.md`): keine Duplikate.
+Zusätzlich im bestehenden Sitte-Artikel den `links`-Frontmatter um den
+neuen Siena-Artikel ergänzt (einzeilige Änderung, kein inhaltlicher
+Eingriff). `git diff --numstat` auf diese Inventardatei zeigt reinen
+Append. **Nächster Lauf:** aus der oben stehenden 54-Positionen-Liste
+wählen — bürorelevante Kandidaten zuerst: Lex Iulia Municipalis (101,
+römisches Kommunalrecht, direkt vergleichbar mit Digesta 43), Koran-
+Auszüge (169, bisher nie geprüft, auf Bürorelevanz sichten), Regensburg-
+Quellen (191) und Vita Meinwerci (193, beide mittelalterliche Bau-/
+Stadtrechtsquellen, thematisch an Bern/Siena anschliessend), sonst Vita
+Nicolai V (201) fertigstellen oder Hippokrates (35, Standortkriterien,
+Parallele zu Vitruv) als kurzer antiker Kandidat.

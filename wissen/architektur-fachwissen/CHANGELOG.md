@@ -1,5 +1,55 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, dreissigster P2-Lauf (vollständiges Inhaltsverzeichnis des Quellentextbands gefunden, Bern und Siena destilliert, Lane FACHWISSEN)
+
+Bei Laufbeginn eine unkommittierte, inhaltlich vollständige Vorarbeit des
+29. Laufs (Francesco di Giorgio Martini) im Repo vorgefunden — nachträglich
+per `nas-commit-now.sh` gesichert (Commit `eda55cc35`, working tree danach
+sauber trotz Merge-Konflikten in fremden Lane-CHANGELOGs, die das Skript/
+der 15-Min-Cron selbständig auflöste).
+
+Wesentlicher Befund: Die seit dem 21. Lauf mitgeführte Schätzung «ca. 50
+Quellentextband-Auszüge, zuletzt rund 28 offen» wurde nie gegen ein
+tatsächliches Inhaltsverzeichnis geprüft. Ursache für das wiederholt
+gemeldete Scheitern des `pages`-Parameters (`pdftoppm is not installed`)
+gefunden: Die Bash-Session dieser Lane führt kein `/opt/homebrew/bin` im
+`PATH`, `poppler`/`tesseract` sind dort aber vorhanden — Aufruf über den
+vollen Pfad behebt das Problem ohne Neuinstallation. Damit liess sich das
+Inhaltsverzeichnis der Anthologie (S. 7-8) gezielt rendern und lesen: **54
+benannte Positionen von Homer bis Max Weber**, davon nach diesem Lauf 22
+destilliert oder begründet ohne Artikel abgeschlossen, **32 vollständig
+offen** — deutlich mehr als zuletzt angenommen, weil rund 20 Positionen
+(kompletter antiker Block Homer-Cicero, römischer Kaiserzeit-Block
+Plutarch-Salvianus, Koran-Auszug, mehrere mittelalterliche und
+Renaissance-Quellen) in keinem der 29 vorangegangenen Läufe je als
+Kandidat genannt wurden. Vollständige Liste mit Seitenzahlen und Status in
+der Inventardatei, `wiki/INDEX.md` aktualisiert — diese Liste ersetzt ab
+sofort die alte Schätzung.
+
+In diesem Lauf destilliert:
+
+- Bern, Handfeste (1218) und Satzungenbuch (1405, Baulinienvorschriften) →
+  neuer Artikel
+  [[bern-handfeste-1218-satzungenbuch-1405-baulinien-nachbarrecht]]
+  (Parzellennorm mit Zinskopplung, Marktrecht im öffentlichen Strassenraum,
+  Baulinie mit Höhen-/Dachneigungslimite nach Stadtbrand, jährliche
+  Bauaufsicht mit Bussenkatalog, nachbarrechtliche Überhöhungs-Busse mit
+  Rückbaupflicht).
+- Siena, Dokumente zur kommunalen Baupflege 13.-15. Jh. → neuer Artikel
+  [[siena-baupflege-dokumente-campo-fensterordnung-ballatoi-ufficio-bellezza]]
+  (verbindliche Fensterordnung am Campo mit Vollzugshaftung des Podestà,
+  Ballatoi-Verbot mit Rückbaupflicht, und als neuer Fund ein
+  Anreizinstrument: das «Ufficio dell'Ornato» kompensiert freiwilligen
+  Fassadenrückbau mit einem öffentlichen Amt statt mit Geld) — rückverlinkt
+  im bestehenden
+  [[camillo-sitte-staedtebau-kuenstlerische-grundsaetze-platzgestaltung]].
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (114/0).
+**Nächster Lauf:** aus der neuen 54-Positionen-Liste bürorelevant wählen —
+Lex Iulia Municipalis (S. 101), Koran-Auszüge (S. 169, nie geprüft),
+Regensburg-Quellen (S. 191) und Vita Meinwerci (S. 193) als nächste
+Kandidaten, sonst Vita Nicolai V (S. 201, bereits angelesen) fertigstellen.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, neunundzwanzigster P2-Lauf (Francesco di Giorgio Martini destilliert, Seitenzahl-Offset im Quellentextband aufgeklärt, Lane FACHWISSEN)
 
 Vor Arbeitsbeginn `KORPUS-QUEUE.md`/`wiki/INDEX.md`/Inventardatei
