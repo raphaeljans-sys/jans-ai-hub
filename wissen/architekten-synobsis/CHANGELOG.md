@@ -4,6 +4,35 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Charge 4: drei der vier Restnamen ueber Ordnerinhalt-Sichtung geklaert
+
+Minimalcheck bestaetigte erneut: alle vier Kern-Prioritaeten des Dispatch-Texts
+(Fehlextraktionen, vier Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage
+Charge 1-6 insgesamt) waren bereits seit 29.08.2026 vollstaendig abgeschlossen.
+Statt eines weiteren Nulltreffers wurden die vier seit 29.08.2026 in Charge 4 ohne
+Websuche-Treffer verbliebenen Sammelfrage-Namen per Ordnerinhalt-Sichtung (`find` +
+`Read` auf die Bilder/PDFs im NAS-Quellordner) weiterverfolgt, analog dem bereits an
+Charge 2/3/6 erprobten Muster. Drei geklaert: **Perrot** (Alain-Charles Perrot,
+franzoesischer Monuments-historiques-Chefarchitekt, Grand-Palais-Restaurierung
+1997-2006, per drei Innenaufnahmen «picGrandPalais» im Ordner belegt),
+**Meier_Juergen_H** (Jürgen Mayer H., J. MAYER H. Berlin, per Foto der Dupli.Casa
+Ludwigsburg mit Dateikuerzel «jmh» im Ordner belegt, Slug schreibt «Meier» statt
+«Mayer»), **Luebps_Atelier** (Atelier Lüps, Schondorf am Ammersee, per Foto des
+eigenen, mit dem Deutschen Ziegelpreis 2011 ausgezeichneten Ateliergebaeudes im
+Ordner belegt, Dateiname nennt bereits «ziegelpreis»). Ein Name bleibt trotz
+Ordnerinhalt-Sichtung ohne Namensbeleg: **Mitzutome** (einziges Bild ein japanischer
+Wohnraum ohne jede Namens- oder Projektangabe). Alle Ergaenzungen als NACHTRAG an
+die bestehende Charge-4-Sammelfrage-Zeile in `wiki/QUESTIONS.md` angehaengt
+(`git diff --numstat` zeigt nur die eine bereits mehrfach editierte Zeile, kein
+Zeilenverlust). Fuer den naechsten Lauf: Mitzutome bleibt offen (nur aus
+zusaetzlichem Quellordner-Material zu klaeren), Chargen 4/5/6 haben ihre
+unbestaetigten Sammelfrage-Namen damit inzwischen alle per Ordnerinhalt-Sichtung
+durchlaufen (Charge 5 hatte ohnehin keine offenen Faelle) — verbleibend als
+legitime naechste Position waeren nur noch Chargen 1/2 (deren unbestaetigte Namen
+bislang nur websuchend, nicht per Ordnerinhalt-Sichtung geprueft wurden). Die vier
+Kern-Prioritaeten bleiben unveraendert vollstaendig erledigt; Katalog-Kollisionen
+und Umbenennungen bleiben Freigabesache an Raphael.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, sechsundzwanzigster Folgelauf desselben Tages) — Charge 3: vier weitere Namen ueber Ordnerinhalt-Sichtung geklaert
 
 Minimalcheck bestaetigte erneut: alle vier im Dispatch-Text genannten Prioritaeten
