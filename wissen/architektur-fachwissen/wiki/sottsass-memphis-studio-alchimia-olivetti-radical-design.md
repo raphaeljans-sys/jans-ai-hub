@@ -3,7 +3,7 @@ title: "Ettore Sottsass: Olivetti, Studio Alchimia, Memphis-Gruppe, Radical Desi
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/sottsass.htm"]
-links: ["italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "javier-mariscal-spanisches-postfranco-design-memphis-barcelona", "gaetano-pesce-radikales-design-polyurethan-serienunikate"]
+links: ["italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "javier-mariscal-spanisches-postfranco-design-memphis-barcelona", "gaetano-pesce-radikales-design-polyurethan-serienunikate", "postmoderne-design-jencks-memphis-alchimia-international"]
 ---
 
 # Ettore Sottsass: Olivetti, Studio Alchimia, Memphis-Gruppe, Radical Design
@@ -79,6 +79,10 @@ italienischen Nachkriegslinie in
 Ponti bleiben formal zurückhaltender industrieller Serienentwicklung verpflichtet, Sottsass
 setzt Design bewusst als Kulturkritik/Statussymbol-Bruch ein — für Bauherrengespräche zu
 «mutigen» Möbelakzenten der brauchbarere Kanon-Referenzpunkt als Ponti/Magistretti.
+
+Einordnung von Studio Alchimia und Memphis in die grössere internationale
+Postmoderne-Bewegung (Jencks-Begriff, Parallelen in Finnland/Spanien/Japan):
+[[postmoderne-design-jencks-memphis-alchimia-international]].
 
 ## Offene Punkte
 

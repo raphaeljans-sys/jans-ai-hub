@@ -2,7 +2,7 @@
 title: "Zwei Design-Reformwege: Wiener Werkstätte (Hoffmann/Moser) und Bauhaus (Gropius)"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/hoffmann.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/wiener_werkstätte.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/gropius.htm"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/hoffmann.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/wiener_werkstätte.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/gropius.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/0tto_wagner.htm"]
 links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "organische-schichtholz-moderne-aalto-eames-jacobsen"]
 ---
 
@@ -83,9 +83,33 @@ strukturell der Vorläufer der Stahlrohr-/Funktionalismus-Linie
 Bauherrenkommunikation zu «zeitloser» Möbelauswahl: Werkstätte-Objekte als Manufaktur-/
 Sammlerstücke einordnen, Bauhaus-Linie als Ursprung der bis heute seriell gefertigten Klassiker.
 
+## Otto Wagner (1841–1918): Lehrer Hoffmanns und eigenständiger Designer
+
+Nachtrag (`0tto_wagner.htm`, gleiche Quelle). Ausbildung Technische Hochschule Wien
+(1857–1860, ein Jahr Berliner Bauakademie) und Wiener Akademie der Bildenden Künste
+(1861–1863, ab 1894 dort Professor und Leiter der Architekturabteilung). Frühwerk
+historistisch (rund vierzig Mietshäuser/Villen, darunter das eigene Haus Rennweg 3, 1889).
+Wandel um 1900: kurzzeitiges Mitglied der Wiener Sezession (1899), Möbel für die eigene
+Postsparkasse Wien (1904–1906) aus dunkel lackiertem Buchenholz mit Aluminiumverstärkung
+und gelochten Sitzflächen — Funktionsbetonung statt Ornament. 1896 Schrift «Moderne
+Architektur», die ihm den Titel «Vater der Wiener Moderne» einträgt: Forderung, Architektur
+und Gestaltung den Anforderungen des modernen Lebens (Zweckorientierung, Konstruktionsart,
+neue Materialien) anzupassen.
+
+**Bezug zur Wiener Werkstätte:** Wagners Atelier war 1896 die gemeinsame Ausbildungsstätte
+von **Josef Hoffmann und Joseph Maria Olbrich**, beide später Gründungsmitglieder der
+Wiener Sezession (1897) und damit indirekt Wegbereiter der Werkstätte (1903). Wagner selbst
+war nie Mitglied der Werkstätte, aber deren stilistischer Ausgangspunkt (Ablehnung des
+Historismus, geometrische Formensprache, Aufhebung der Hierarchie zwischen Kunst und
+Kunsthandwerk) ist laut Quelle direkt aus Wagners Lehre und seiner Schrift von 1896
+abzuleiten.
+
 ## Offene Punkte
 
 - Quelle ist ein unautorisierter Website-Spiegel ohne Impressum/Autor, keine Verifikation gegen
   Primärliteratur (MAK Wien, Bauhaus-Archiv Berlin) in diesem Lauf.
-- Otto Wagner als Lehrer sowohl Hoffmanns als auch stilistischer Bezugspunkt weiterer Personen
-  in diesem Ordner (`0tto_wagner.htm`) noch nicht separat destilliert.
+- Otto Wagners Grossstadt-/Diagrammwerk (Grossstadt-Entwurf 1911, Friedenskirche 1917) ist
+  separat in der Architekturtheorie-Sektion dieser KB behandelt
+  ([[vision-visualitaet-ii-transparenz-townscape-otto-wagner-diagramm-nadas]]) — die beiden
+  Artikel decken unterschiedliche Werkphasen ab (Designer/Möbel hier, Theorie/Städtebau dort)
+  und wurden bewusst nicht zusammengeführt.

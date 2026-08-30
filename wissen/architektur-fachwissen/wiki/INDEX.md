@@ -130,9 +130,25 @@ Alessi-Reeditionen) und `pesce.htm.htm` (Gaetano Pesce, radikales Design, Serie 
 Polyurethan-Material-Experimente). Drei neue Artikel, dazu Rückverlinkung im
 Sottsass-Artikel ergänzt (Mariscal/Pesce als Memphis-/Anti-Design-Zeitgenossen). Damit 37
 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 64 Personenartikel bleiben offen.
-**Nächster Lauf:** Zeile 68 fortsetzen nach Dateigrösse unter den verbleibenden ungelesenen
-Positionen (u. a. `nizzoli.htm`, `colombo.htm`, `0tto_wagner.htm`, `nelson.htm`,
-`teague.htm`, `postmoderne.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2. |
+**113. Lauf (30.08.2026):** sechs vom 112. Lauf empfohlene Kandidaten gelesen —
+`nizzoli.htm`/`colombo.htm` (italienisches Industriedesign zweiter Generation: Nizzoli/
+Olivetti-Büromaschinen Lexicon 80/Lettera 22, Colombo/Wohnen-als-System Total Furnishing
+Unit 1971, gemeinsamer neuer Artikel), `0tto_wagner.htm` (als Ergänzung im bestehenden
+Wiener-Werkstätte-Artikel eingearbeitet statt neuem Artikel — Wagner als Lehrer Hoffmanns/
+Olbrichs und eigenständiger Möbel-Designer der Postsparkasse Wien, Duplikatabgrenzung zum
+theorielastigen Otto-Wagner-Artikel der Architekturtheorie-Sektion dokumentiert),
+`nelson.htm` (George Nelson, Herman-Miller-Design-Direktor, Storagewall, löst den bisher
+offenen Nelson-Verweis im Aalto/Eames/Jacobsen-Artikel auf), `teague.htm` (Walter Dorwin
+Teague, Begründer des amerikanischen Industriedesign-Beraterberufs, löst den Verweis im
+Douglas-Scott-Artikel auf) und `postmoderne.htm` (Überblicksartikel zur internationalen
+Design-Postmoderne: Jencks-Begriff, Studio Alchimia/Memphis, Kukkapuro/Weil/De Lucchi/
+japanische Postmoderne, Rückverlinkung im Sottsass-Artikel ergänzt). Fünf neue Artikel, ein
+bestehender Artikel ergänzt. Duplikatscheck vorab (`grep -rli` gegen alle sechs Namen über
+`wiki/*.md`): keine Dubletten, nur der bereits bekannte Otto-Wagner-Theorieartikel als
+Nachbarthema. Damit 43 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 60
+Personenartikel bleiben offen. **Nächster Lauf:** Zeile 68 fortsetzen nach Dateigrösse
+unter den verbleibenden ungelesenen Positionen, sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2. |
 `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)
