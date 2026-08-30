@@ -499,3 +499,21 @@ Sperrlisten-Fund. `git diff --numstat` auf diese Inventardatei zeigt reinen Appe
 Wiki-Artikel neu, `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile 68 fortsetzen — nächste
 Kandidaten nach Dateigrösse, u. a. Hoffmann/Mackintosh, vor Destillation erneut Duplikatscheck
 gegen die vier neuen Artikel und `01_Innenarchitektur`.
+
+## 260830 — Zeile 68 abgeschlossen, Sektion `02_Kunst_Geschichte` (130. Lauf Lane FACHWISSEN)
+
+Die vier letzten Positionen der Zeile 68 (`dunand.htm`, `deskey.htm`, `bugholz.htm`,
+`day.htm`) gelesen und zu vier neuen Wiki-Artikeln destilliert: Jean Dunand (Pariser
+Art-déco-Lackkunst, Ozeandampfer «Atlantique»/«Normandie»), Donald Deskey (amerikanisches
+Streamline Moderne, Radio City Music Hall), die technikgeschichtliche Bugholz-/
+Schichtholz-Genealogie (Thonet-Patent 1841 bis Wegners «DA Stuhl» 1948) sowie Robin und
+Lucienne Day (britisches Nachkriegsdesign, Hille/Festival of Britain/Polypropylen-Stuhl
+1963). Details CHANGELOG 30.08.2026 (130. Lauf).
+
+**Damit sind alle 128 inhaltstragenden Dateien der Zeile 68 gelesen. Zeile 68 gilt als
+abgeschlossen — die gesamte Sektion `02_Kunst_Geschichte` (P1 und P2) ist damit vollständig
+abgearbeitet** (die übrigen P2-Zeilen 67, 69–76 waren bereits seit dem 101. Lauf erledigt,
+siehe oben). Diese Sammelzeile (Zeile 68 in der Triage-Tabelle oben) bleibt bewusst
+unverändert, um den Append-only-Charakter dieser Datei zu wahren; der Abschluss ist hier und
+in `wiki/INDEX.md`/`CHANGELOG.md`/`KORPUS-QUEUE.md` vermerkt. **Nächster Lauf:** neue
+Sektion gemäss Queue-Regel, siehe CHANGELOG-Empfehlung 130. Lauf.

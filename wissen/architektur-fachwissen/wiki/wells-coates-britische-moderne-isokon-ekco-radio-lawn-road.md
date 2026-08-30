@@ -3,7 +3,7 @@ title: "Wells Coates: britische Moderne, Isokon, Ekco-Radio, Lawn Road"
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/coates.htm"]
-links: ["kenneth-grange-britisches-produktdesign-kodak-kenwood-british-rail", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939"]
+links: ["kenneth-grange-britisches-produktdesign-kodak-kenwood-british-rail", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939", "bugholz-technikgeschichte-thonet-biegeholz-schichtholz-genealogie"]
 ---
 
 # Wells Coates: britische Moderne, Isokon, Ekco-Radio, Lawn Road

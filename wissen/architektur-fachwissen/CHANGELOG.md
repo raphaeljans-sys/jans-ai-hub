@@ -1,5 +1,62 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 abgeschlossen, Sektion `02_Kunst_Geschichte` (130. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und `CHANGELOG.md` geprüft, danach `git status`/`git log` (Working Tree
+sauber, keine Doppel-Dispatch-Prozesse ausser der eigenen Instanz). Die vier laut 129. Lauf
+letzten verbliebenen Positionen gelesen, nach Dateigrösse: `dunand.htm` (15'560 Bytes),
+`deskey.htm` (21'271 Bytes), `bugholz.htm` (21'276 Bytes), `day.htm` (24'395 Bytes).
+Duplikatscheck vorab (`grep -rli` gegen `wiki/*.md` ohne `INDEX.md`/`QUESTIONS.md`): keine
+Dubletten, vier neue Artikel:
+
+- [[jean-dunand-franzoesischer-art-deco-lackkunst-ozeandampfer-normandie]] (Genfer
+  Bildhauerlehre, Wende zur Lackkunst 1909, gemeinsamer Lehrmeister Sugawara mit Eileen Gray
+  ab 1912, geometrischer Art déco ab 1919, Rauchzimmer Paris 1925, Ozeandampfer-Grossaufträge
+  «Atlantique» 1931/«Normandie» 1935, Niedergang durch Billignachahmungen)
+- [[donald-deskey-amerikanisches-art-deco-streamline-moderne-radio-city]] (Pariser Prägung
+  1923-1925, Firma Deskey-Vollmer mit Kork/Aluminium/Linoleum/Bakelit, Rockefeller-Wohnung
+  1930, Durchbruch Radio City Music Hall 1932/33, «Streamlined Moderne» als amerikanischer
+  Nationalstil)
+- [[bugholz-technikgeschichte-thonet-biegeholz-schichtholz-genealogie]] (Thonets
+  Dampfbiege-Patent 1841 als Wurzeltechnik, Übernahme durch Hoffmann/Wagner/Loos und Le
+  Corbusiers Thonet-Pavillon 1925, Aaltos Paimio-Stuhl als erster freitragender
+  Schichtholzstuhl, Isokon-Gründung 1931 mit Breuer-Produkten, Wegners «DA Stuhl» 1948 als
+  Endpunkt — verbindender Technikartikel zu fünf bestehenden Personenartikeln dieser KB)
+- [[robin-lucienne-day-britisches-nachkriegsdesign-hille-festival-of-britain-polypropylen]]
+  (MoMA-Wettbewerb 1949, Robin Day als Hille-Design-Director ab 1950, Festival of Britain
+  1951, Polypropylen-Stuhl 1963 als britischer Massenfertigungs-Meilenstein; Lucienne Days
+  Textillinie Heals/Rosenthal 1948-1974 mit Miró-Einfluss, «Calyx» 1951, späteres
+  Seidenmosaik-Werk)
+
+Sieben Rückverlinkungen in bestehenden Artikeln ergänzt (reine Frontmatter-`links`-Ergänzung,
+je `1 1` im `git diff --numstat`): [[eileen-gray-lackarbeiten-tubular-steel-e1027]],
+[[ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain]],
+[[organische-schichtholz-moderne-aalto-eames-jacobsen]],
+[[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]],
+[[le-corbusier-perriand-jeanneret-moebelserie-grand-confort-b306-thonet-cassina]],
+[[wells-coates-britische-moderne-isokon-ekco-radio-lawn-road]],
+[[hans-wegner-daenische-moderne-the-chair-china-stuhl]].
+
+**Damit sind alle 128 inhaltstragenden Dateien der Zeile 68 gelesen — Zeile 68 gilt als
+abgeschlossen.** Da alle übrigen P2-Zeilen dieser Sektion (67, 69–76) bereits in früheren
+Läufen abgeschlossen wurden (101. Lauf, siehe INDEX-Eintrag), **ist die gesamte Sektion
+`02_Kunst_Geschichte` (P1 und P2) damit vollständig abgearbeitet.** Offen bleiben nur P3/X
+(nicht zu destillieren) und der bereits in `QUESTIONS.md` vermerkte Sonderfall
+(140706_Protomoderne_Maler.docx, gehört ins Twin-Harness/Stilkorpus statt in diese KB). Kein
+Datenschutz-/Sperrlisten-Fund. `git diff --numstat` auf die Inventardatei zeigt reinen Append
+(Abschlussvermerk am Dateiende, Sammelzeile Zeile 68 unverändert), auf die vier neuen
+Wiki-Dateien reine Neuanlage. Sicherung via `bash scripts/nas-commit-now.sh`.
+
+**Nächster Lauf:** laut `wiki/INDEX.md` («Sektionen nach Ertrag») sind mehrere dort noch ohne
+Abschlussvermerk gelistete Top-Sektionen (`02_Gestalt_Kulturverstaendnis`, `01_Konstruktion`,
+`03_Bauprozesse_I_II`) bei Nachprüfung bereits vollständig bzw. dauerhaft blockiert — die
+Tabelle ist an mehreren Stellen veraltet. Vor der nächsten Vollrecherche zuerst die
+verbleibenden rund 100 offenen P2-Vorlesungsmitschriften in `02_Architekturtheorie` prüfen
+(laut eigenem Inventar noch nicht als abgeschlossen markiert), sonst laut Queue-Regel eine der
+drei laut `wiki/INDEX.md` noch nicht inventarisierten `archiv-fachwissen`-Sektionen (Namen in
+`QUESTIONS.md` 260823 #1) neu erschliessen.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (128. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen). `git status`/`git log`

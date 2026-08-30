@@ -3,7 +3,7 @@ title: "Le Corbusier / Charlotte Perriand / Pierre Jeanneret: Möbelserie 1927�
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/le_corbusier.htm"]
-links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "sauter-le-corbusier-mies-van-der-rohe-elf-bauten-kanon"]
+links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "sauter-le-corbusier-mies-van-der-rohe-elf-bauten-kanon", "bugholz-technikgeschichte-thonet-biegeholz-schichtholz-genealogie"]
 ---
 
 # Le Corbusier / Charlotte Perriand / Pierre Jeanneret: Möbelserie 1927–1929

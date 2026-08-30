@@ -3,7 +3,7 @@ title: "Hans Wegner: Dänische Moderne, «The Chair», China-Stuhl"
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/wegner.htm"]
-links: ["ruhlmann-art-deco-vs-kaare-klint-skandinavischer-funktionalismus", "organische-schichtholz-moderne-aalto-eames-jacobsen", "mailaender-triennale-institutionsgeschichte-1923-1968", "verner-panton-kunststoffmoebel-stapelstuhl-fritz-hansen-vitra"]
+links: ["ruhlmann-art-deco-vs-kaare-klint-skandinavischer-funktionalismus", "organische-schichtholz-moderne-aalto-eames-jacobsen", "mailaender-triennale-institutionsgeschichte-1923-1968", "verner-panton-kunststoffmoebel-stapelstuhl-fritz-hansen-vitra", "bugholz-technikgeschichte-thonet-biegeholz-schichtholz-genealogie"]
 ---
 
 # Hans Wegner: Dänische Moderne, «The Chair», China-Stuhl

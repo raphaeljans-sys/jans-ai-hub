@@ -162,9 +162,16 @@ bestehenden Postmoderne-Artikel ergänzt (Verweis auf das Schwesterkapitel `post
 Duplikatscheck vorab (`grep -rli` gegen alle drei Namen über `wiki/*.md`): keine Dubletten.
 Damit 49 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 79 Personenartikel bleiben
 offen. `git diff --numstat` auf die Inventardatei zeigt `0 0` (Sammelzeile unverändert,
-Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE). **Nächster Lauf:** Zeile 68 fortsetzen
-nach Dateigrösse (`graves.htm`, `kuramata.htm`, `hector_guimard.htm`, `elsie_de_wolfe.htm`,
-`morrison.htm`, `noyes.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2. |
+Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE). **130. Lauf (30.08.2026): Zeile 68
+abgeschlossen.** Die vier letzten Positionen (`dunand.htm`, `deskey.htm`, `bugholz.htm`,
+`day.htm`) gelesen, vier neue Artikel (Jean Dunand, Donald Deskey, Bugholz-/
+Schichtholz-Technikgeschichte Thonet–Isokon–Wegner, Robin/Lucienne Day). **Damit sind alle
+128 inhaltstragenden Dateien der Zeile 68 gelesen — die gesamte Sektion `02_Kunst_Geschichte`
+(P1 und P2) ist damit vollständig abgearbeitet.** Details CHANGELOG 30.08.2026. **Nächster
+Lauf:** neue Sektion gemäss Queue-Regel — Kandidaten laut Nachprüfung 130. Lauf: die rund 100
+offenen P2-Vorlesungsmitschriften in `02_Architekturtheorie` (Zeile 04 dieser Tabelle) oder
+eine der laut `QUESTIONS.md` 260823 #1 noch nicht inventarisierten `archiv-fachwissen`-
+Sektionen. |
 `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)
@@ -3059,3 +3066,31 @@ P2-Positionen bleiben in `01_Landschaftsarchitektur` offen (Topografie-/Renaissa
 Prüfungsskripte, Ökologische-Gärten-Notiz, Irchelpark-Lehrunterlage, OCR-blockierte
 Irchelpark-Bepflanzung, Kolloquium-Teildublette). Nächster Lauf: Topografie-Prüfungsskript
 (Anschluss an Skill `massgebendes-terrain`).
+
+## 260830 — Zeile 68 abgeschlossen, Sektion `02_Kunst_Geschichte` (130. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt: `KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md` und die
+Inventardatei geprüft; `git status`/`git log` vor Beginn sauber, keine Doppel-Dispatch-Prozesse
+ausser der eigenen Instanz. Die vier laut 129. Lauf letzten Positionen der Zeile 68 gelesen,
+nach Dateigrösse: `dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`. Duplikatscheck vorab:
+keine Dubletten. Vier neue Artikel:
+[[jean-dunand-franzoesischer-art-deco-lackkunst-ozeandampfer-normandie]],
+[[donald-deskey-amerikanisches-art-deco-streamline-moderne-radio-city]],
+[[bugholz-technikgeschichte-thonet-biegeholz-schichtholz-genealogie]],
+[[robin-lucienne-day-britisches-nachkriegsdesign-hille-festival-of-britain-polypropylen]].
+Details CHANGELOG 30.08.2026 (130. Lauf), inklusive sieben Rückverlinkungen in bestehenden
+Artikeln.
+
+**Damit sind alle 128 inhaltstragenden Dateien der Zeile 68 gelesen. Die gesamte Sektion
+`02_Kunst_Geschichte` (P1 und P2) ist damit vollständig abgearbeitet** — die übrigen
+P2-Zeilen (67, 69–76) waren bereits seit dem 101. Lauf erledigt. `git diff --numstat` auf die
+Inventardatei zeigt reinen Append (Sammelzeile Zeile 68 unverändert), auf die vier neuen
+Wiki-Dateien reine Neuanlage, auf die sieben ergänzten Artikel je `1 1`. Kein
+Datenschutz-/Sperrlisten-Fund. Sicherung via `bash scripts/nas-commit-now.sh`.
+
+**Nächster Lauf:** Kennzahlen-Tabelle oben («Sektionen nach Ertrag») ist an mehreren Stellen
+veraltet — `02_Gestalt_Kulturverstaendnis`, `01_Konstruktion` und `03_Bauprozesse_I_II` sind
+laut eigenem Inventar bereits abgeschlossen bzw. dauerhaft blockiert, obwohl die Tabelle das
+nicht überall ausweist. Nächster echter Kandidat: die rund 100 offenen
+P2-Vorlesungsmitschriften in `02_Architekturtheorie`, sonst laut Queue-Regel eine der laut
+`QUESTIONS.md` 260823 #1 noch nicht inventarisierten `archiv-fachwissen`-Sektionen.
