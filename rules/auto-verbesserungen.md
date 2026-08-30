@@ -14,6 +14,34 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260830 — Treiber brechen nach gemessenem Ertrag ab; ein Prompt schreibt nie einen Fortschrittsstand fest
+- **Regel:** (1) Jede Schleife, die einen Lauf wiederholt anstoesst (Treiber, Runner, Lane, Loop),
+  braucht eine **Abbruchbedingung aus gemessenem Liefer-Delta** — geaenderte Dateien, neuer
+  Commit-Kopf, CHANGELOG-Zeile. Eine Absturz-Wache («war der Lauf schnell und leer?») genuegt
+  NICHT: ein Lauf, der lange nachdenkt, Geld kostet und korrekt zum Ergebnis «hier ist nichts
+  mehr offen» kommt, ist technisch ein Erfolg und fachlich ein Leerlauf. (2) Zusaetzlich muss der
+  Treiber die **Selbstauskunft des Laufs hoeren**: der Prompt verlangt einen Abbruchsatz, also
+  wird auf ihn geprueft. (3) Ein **Prompt oder Auftragstext, der wiederholt zugestellt wird, darf
+  keinen Fortschrittsstand behaupten** («noch kein Destillat», «Spec fehlt», «113 Positionen
+  offen»). Er nennt die Quellen, aus denen der Lauf den Stand SELBST ermittelt. Eine Momentaufnahme
+  im Prompt wird beim zweiten Zustellen zur Falschaussage und beim siebzigsten zur Dauerluege.
+- **Warum, mit Beleg:** In der Nacht auf den 30.08.2026 liefen fuenf Schub-Lanes auf dem Mac Mini.
+  **Jeder einzelne Lauf war technisch fehlerfrei** (rc=0, 5 bis 29 Turns, 0.20 bis 1.36 USD) und
+  fachlich richtig — die Laeufe stellten korrekt fest, dass ihre Queue abgearbeitet war, und baten
+  wiederholt um Pausierung. Der Treiber hoerte nicht hin: er wertete «lange gedacht, viel Text
+  zurueck» als Erfolg und startete die naechste Runde. Ergebnis: synobsis 344 Runden fuer 2
+  geaenderte Dateien, normen 185, baurecht-thalwil 96, grobkosten 52 — zusammen ueber 600
+  ertraglose Laeufe. Der Leerlauf-Waechter des `vollgas-chef-radar` hat drei davon in der Nacht
+  gestoppt; er musste eine Luecke auffangen, die es nicht haette geben duerfen. Parallel behauptete
+  der Lane-Prompt `fachwissen` ueber 70 Laeufe lang «kein Destillat, keine Spec», waehrend beide
+  Specs geschrieben und das Wiki von 2 auf 94 Artikel gewachsen war — diese Lane lieferte trotzdem,
+  weil sie den Widerspruch selbst bemerkte und meldete. **Der Hub hatte die halbe Regel bereits:**
+  `rollen-taxonomie` Punkt 4, «Nie Laeufe zaehlen, immer Ertrag». Sie stand bisher nur fuer die
+  Rollen-Bilanz. Sie gilt ab jetzt auch fuer die Abbruchlogik jedes Treibers.
+- **Gilt fuer:** alle Treiber, Runner, Lanes und Loops auf allen Stationen; alle wiederholt
+  zugestellten Prompts und Dispatch-Auftraege. Umsetzung: `scripts/vollgas-schub.sh`
+  (Delta-Abbruch + Selbstauskunft), Lane-Prompts unter `logbuch/vollgas/schub/`.
+
 ## 260824 — Erreichbarkeit von aussen ist P1, nicht Hub-Intern; «läuft» ist nicht «erreichbar»
 - **Regel:** Fällt ein **Zugangsweg von aussen** aus (Tailscale/VPN, `ssh mini`, Dispatch-Kanal,
   remote-tasks, externer NAS-Mount, Subnet-Route ins Büro-LAN), ist das ein **operativer Befund

@@ -4,6 +4,30 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, achter Folgelauf) — Doppelordner Tadao_Ando/Aando_Tadao dokumentiert, weiterhin keine offene Position in den vier Prioritaeten
+
+Eigener Grep-Durchgang bestaetigte vorab den Stand des siebten Folgelaufs (29.08.2026): alle vier
+Auftragsprioritaeten (Fehlextraktion, Katalog-Kollision, Sonderzeichen-Zerlegung, Sammelfrage Charge 1-6)
+tragen bereits BEHOBEN/GEPRUEFT/TEILBEHOBEN, `git status`/`git diff --numstat` fuer diesen KB-Pfad war
+sauber. Eine Position aus `wiki/QUESTIONS.md` war jedoch in keinem der sieben Vorlaeufe abgehakt: Zeile 239,
+Doppelordner **Tadao_Ando / Aando_Tadao**. Pruefung ergab: anders als die vier bereits geloesten
+Kollisionsfaelle (Christ_Gantenbein, Enzmann_Fischer, Miller_Maranta, Gigon_Guyer, alle case-insensitive
+Dateisystem-Kollisionen auf EINE Katalogdatei) existieren hier zwei vollstaendig eigenstaendige, intakte
+Katalogdateien (Aando_Tadao.json: 2 Bilder, kein Text; Tadao_Ando.json: 29 Dateien inkl. Konferenzpavillon-
+Textauszug) zu zwei verschieden benannten NAS-Quellordnern derselben Person — kein Datenverlust durch
+stillschweigendes Ueberschreiben, daher kein direkter Merge nach demselben Muster moeglich, ohne eine der
+beiden intakten Dateien zu loeschen. Als nicht-destruktive Zwischenloesung in beiden Dateien nur additiv
+ein Feld `duplikat_hinweis` ergaenzt, das gegenseitig auf die andere Datei verweist (`git diff --numstat`:
+je +1/-0 fuer beide JSON-Dateien, `wiki/QUESTIONS.md` +1/-1 rein anhaengend, alter Text vollstaendig als
+Praefix erhalten). Das eigentliche Zusammenfuehren auf den laut Quelle korrekten Slug Ando_Tadao bleibt wie
+bei den vier anderen Faellen eine NAS-Ordner-Freigabesache, hier zusaetzlich verschaerft durch die Frage,
+welche der zwei intakten Dateien beim Merge weichen muesste — das entscheidet Raphael, nicht die Lane.
+Empfehlung unveraendert wie in den Vorlaeufen: die vier zugewiesenen Prioritaeten sind erschoepft (ausser
+Freigabesachen); ein neunter reiner Bestaetigungslauf zu denselben vier Prioritaeten ohne neue Fundstelle
+bringt keinen Mehrwert mehr. Naechster sinnvoller Auftrag fuer die SYNOBSIS-Lane liegt ausserhalb dieser
+vier Prioritaeten (Sektion 1/2 der leeren Ordner/Schreibfehler-Slugs explizit freigeben, oder Raphaels
+Entscheid zu den NAS-Zusammenfuehrungen/zum produktiven `--reindex`-Lauf abwarten).
+
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, siebter Folgelauf) — Bestaetigt: keine offene Position mehr in den vier Prioritaeten
 
 Frische Session, eigener Grep-Durchgang: `wiki/QUESTIONS.md` auf alle vier Auftragsprioritaeten
