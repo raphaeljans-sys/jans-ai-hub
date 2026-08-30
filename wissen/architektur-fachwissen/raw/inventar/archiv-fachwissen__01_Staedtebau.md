@@ -401,3 +401,46 @@ Städtisches Wohnen Frankfurt) — rund 750 von 4178 Zeilen des extrahierten Tex
 3421-4178 in `/tmp/uebungsheft_extracted.txt`, dort nicht mehr vorhanden, Originaldatei auf
 NAS bleibt Fundstelle). **Nächster Lauf:** diese drei Blöcke abschliessen, dann Position 2
 endgültig schliessen und mit Position 3 (fünf Grundlagenwerke Manualistik) fortfahren.
+
+**30.08.2026 (Lane FACHWISSEN, sechster P2-Lauf, Position 2 — Abschluss der drei
+Restblöcke 15-17):** vor Arbeitsbeginn wie üblich `scutil` (Macmini bestätigt), `ps aux`
+(nur der eigene Prozess) und `KORPUS-QUEUE.md` gegengeprüft — Dispatch-Text erneut
+identisch veraltet («kein Destillat, keine Spec», Station fälschlich «MacBook Pro»),
+realer Stand entsprach dem oben dokumentierten Ende des fünften Laufs. Statt der
+kombinierten `110805_Alles.pdf` (Read-Tool lieferte bei den zwei grossen Einzel-PDF
+`15_Stadtmodernisierung.pdf`/`16_Staedtisches_gruen.pdf` nur `[media removed: request
+limit]`, vermutlich Bildanteil) die Einzelmodul-PDF per `pypdf` zu Text extrahiert:
+
+- **Block 15 (Stadtmodernisierung/Wettbewerb Gross-Berlin, S. 107-116):** inhaltlich
+  praktisch deckungsgleich mit dem bereits destillierten
+  [[wettbewerb-gross-berlin-1908-hochhausstadt-debatte-wohnblock-reform]] (dieselben vier
+  Wohnblock-Reformbeispiele Meyers Hof/Messel/Jansen/Superblock, dieselben vier
+  Hochhausstadt-Theoretiker Sant'Elia/El Lissitzky/Le Corbusier/Hilberseimer) — **kein
+  neuer Artikel** (Delta-Ehrlichkeit). Einzige Ergänzung mit Mehrwert: eine
+  Fünf-Kategorien-Klassifikation der Rahmenbedingungen des Wettbewerbs
+  (planungspolitisch/wirtschaftlich/demografisch/sozial/politisch) als neuer Abschnitt in
+  den bestehenden Artikel eingefügt, inkl. Quellenergänzung.
+- **Block 16 (Städtisches Grün, S. 115-121):** echter Neufund, gegen den Wiki-Bestand
+  geprüft (kein bestehender Artikel zu Taut/Migge/Stadtkrone/Volkspark/Hufeisensiedlung) →
+  neuer Artikel
+  [[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]] (Tauts Stadtkrone-Konzept mit
+  Hufeisensiedlung Berlin-Britz als gebautes Beispiel; Migges Kleingarten-/
+  Volkspark-Theorie mit Volkspark Rehberge als gebautes Beispiel). Damit ist die im
+  vierten P2-Lauf dieser Sektion offen gelassene Lücke («keine eigene inhaltliche
+  Zusammenfassung» derselben Quelldatei) geschlossen.
+- **Block 17 (Städtisches Wohnen Frankfurt):** **fehlt als Datei vollständig** — weder ein
+  eigener Unterordner `17_...` im Verzeichnis `02_Uebungsheft/PDF/` noch enthalten in der
+  kombinierten `110805_Alles.pdf` (endet nachweislich nach Modul 16, Seite 121/122, letzter
+  Textabschnitt Volkspark Rehberge). Laut Inhaltsverzeichnis
+  (`00_Inhalt/110716_Uebungsheft.pdf`) sollte dieser Block «Trabantensiedlungen versus
+  Superblöcke: Das Neue Frankfurt und das Rote Wien» behandeln. Kein Lese- oder
+  Werkzeugfehler, sondern eine reale Lücke im digitalisierten Bestand — im neuen Artikel
+  als offener Punkt vermerkt, keine Erfindung von Inhalt.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Position 2 gilt damit
+als abgeschlossen** (alle 17 Themenblöcke geprüft; Block 17 bleibt eine dokumentierte
+Quelllücke, kein offener Arbeitsschritt). Von den acht P2-Positionen dieser Sektion sind
+jetzt 1, 2, 8, 13 und 14 erledigt; Positionen 3-7 (fünf Grundlagenwerke Manualistik, 33
+Autorendossiers, Platz-Materialbestand) bleiben offen. **Nächster Lauf:** Position 3
+(Grundlagenwerke der Städtebau-Manualistik: Sitte 93 S. mit Textebene, Stübben, Krier,
+Curdes, Nolli als Scans — Fremdwerke, nur methodisch mit Fundstelle zitierbar).

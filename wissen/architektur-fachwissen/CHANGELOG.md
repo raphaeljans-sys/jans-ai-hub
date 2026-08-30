@@ -1,5 +1,27 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, sechster P2-Lauf (Position 2 Teil 2/Abschluss, Lane FACHWISSEN, 57. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
+
+Fortsetzung des fünften Laufs: die drei zuvor ungelesenen Themenblöcke 15-17 des
+ETH-Übungshefts geprüft. Block 15 (Stadtmodernisierung/Wettbewerb Gross-Berlin) erwies sich
+als praktisch deckungsgleich mit dem bereits bestehenden Artikel
+[[wettbewerb-gross-berlin-1908-hochhausstadt-debatte-wohnblock-reform]] — kein neuer Artikel,
+nur eine Fünf-Kategorien-Klassifikation der Wettbewerbs-Rahmenbedingungen
+(planungspolitisch/wirtschaftlich/demografisch/sozial/politisch) dort ergänzt. Block 16
+(Städtisches Grün) war ein echter Neufund: neuer Artikel
+[[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]] zu Bruno Tauts Stadtkrone-Konzept
+(mit der Hufeisensiedlung Berlin-Britz als gebautem Beispiel) und Leberecht Migges
+Kleingarten-/Volkspark-Theorie (mit dem Volkspark Rehberge als gebautem Beispiel) — schliesst
+eine im vierten Lauf offen gelassene Lücke derselben Quelldatei. Block 17 (Städtisches
+Wohnen Frankfurt) **fehlt als Datei vollständig** im digitalisierten Bestand (weder eigener
+Unterordner noch in der kombinierten `110805_Alles.pdf` enthalten, die nachweislich nach
+Modul 16 endet) — als offener Punkt im neuen Artikel vermerkt, keine Erfindung von Inhalt.
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (43 0). **Position 2 gilt
+damit als abgeschlossen.** Von den acht P2-Positionen der Sektion sind jetzt 1, 2, 8, 13 und
+14 erledigt; Positionen 3-7 (fünf Grundlagenwerke Manualistik, 33 Autorendossiers,
+Platz-Materialbestand) bleiben offen. Nächster Lauf: Position 3 (Grundlagenwerke der
+Städtebau-Manualistik). `wiki/INDEX.md` nachgeführt.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, fünfter P2-Lauf (Position 2 Teil 1, Lane FACHWISSEN, 56. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
 
 Vor Arbeitsbeginn wie üblich `scutil`/`ps aux`/`KORPUS-QUEUE.md`/dieses CHANGELOG

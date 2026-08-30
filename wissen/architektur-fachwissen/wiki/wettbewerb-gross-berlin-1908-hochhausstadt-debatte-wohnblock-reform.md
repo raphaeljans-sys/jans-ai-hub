@@ -2,7 +2,7 @@
 title: "Wettbewerb Gross-Berlin (1908/1910): Wohnblock-Reformtypologie und Hochhausstadt-Debatte"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1877_1900_Stadtmodernisierung/01_Einfuerung/110421_Zusammenfassung.docx (eigenes Übungs-/Testdokument «15. Modul Geschichte des Städtebaus im Netz», Vorlesungsreihe Lampugnani/Christiaanse, Modul Stadtmodernisierung)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1877_1900_Stadtmodernisierung/01_Einfuerung/110421_Zusammenfassung.docx (eigenes Übungs-/Testdokument «15. Modul Geschichte des Städtebaus im Netz», Vorlesungsreihe Lampugnani/Christiaanse, Modul Stadtmodernisierung)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/02_Uebungsheft/PDF/15_Stadtmodernisierung/15_Stadtmodernisierung.pdf (ETH-Übungsheft Modul 15, S. 107-116, Rahmenbedingungen-Ergänzung)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md"]
 links: ["[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]]", "[[stadttypen-strassennetz-systematik-jans]]", "[[blockrand-aufenthaltsqualitaet-argumentation-verdichtung-jans]]"]
 ---
 
@@ -27,6 +27,22 @@ Mitte des 19. Jahrhunderts gebauten Eisenbahnlinien und acht Kopfbahnhöfe. **Ni
 Zielvorgabe waren Satellitenstädte im Umland oder ein Grüngürtel um die Stadt — anders als
 bei Howards Gartenstadt-Modell, siehe
 [[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]].
+
+## Rahmenbedingungen des Wettbewerbs (Ergänzung)
+
+Das ETH-Übungsheft zum selben Modul (`02_Uebungsheft/PDF/15_Stadtmodernisierung/
+15_Stadtmodernisierung.pdf`) ordnet den 1908 ausgelobten Wettbewerb fünf Kategorien von
+Rahmenbedingungen zu: **planungspolitisch** (das Fehlen eines gesamtstädtischen
+Regulierungsplans, wachsende Wohnungsnot/Armut), **wirtschaftlich** (Reparationszahlungen
+Frankreichs nach 1870/71 stärken das Deutsche Reich als Industrienation),
+**demografisch** (sinkende Geburtensterberate, steigende Lebenserwartung durch medizinischen
+Fortschritt, Landflucht durch Industrialisierung), **sozial** (der 1862 in Kraft getretene
+Hobrecht-Plan als reiner Fluchtlinienplan begünstigt Boden-/Immobilienspekulation und den Ruf
+Berlins als Mietskasernenstadt — Details in [[berlin-stadterweiterung-schinkel-lenne-hobrecht]])
+und **politisch** (Bedürfnis nach einer baulich repräsentativen Hauptstadt nach dem Sieg im
+deutsch-französischen Krieg 1870/71). Dieselbe Vorlesungsquelle (Modul 15) wie oben, hier aus
+dem Übungsheft statt der eigenen Zusammenfassung — inhaltlich deckungsgleich, keine
+widersprüchliche Zweitmeinung.
 
 ## Mächler-Plan und der Weg zu Albert Speer
 

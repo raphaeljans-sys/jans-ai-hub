@@ -82,7 +82,7 @@ jeweiligen Inventar unter «Triage».
 | # | Sektion | Korpus | P1 / gesichtet | Was drinsteckt | Inventar |
 |---|---|---|---|---|---|
 | 10 | `02_Denkmalpflege` | archiv | 8 / 156 | Der ETH-Studienapparat zur Vorlesung Hassler liefert mit dem SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken», der SVTSM-Trockenmauer-Richtlinie samt Devisierungskapitel, den Kalk- und Pigmentrezepturen von Glaser und der Begriffssystematik Petzet/Mader vier sofort einsetzbare Bausteine für die Bestandsarbeit. | `raw/inventar/archiv-fachwissen__02_Denkmalpflege.md` |
-| 11 | `01_Staedtebau` | archiv | 8 / 51 (von ~8'800 Gesamtbestand, nur 51 einzeln geöffnet) — **P1 vollständig destilliert 29.08.2026; P2-Positionen 1, 8, 13, 14 destilliert (30.08.2026, drei Läufe)** | Städtebau-Studienarchiv ETH (Lampugnani/Christiaanse); eigenes Städtebau-Glossar, Ortsanalyse- und Siedlungsstrukturraster, Projektstart-Checkliste, Stadttypen-Systematik, Blockrand-/Aufenthaltsqualitäts-Argumentation aus dem Manifest «Die Athmosphärische Stadt» 2014. P2: Gartenstadtbewegung, utopische Stadtentwurfs-Typologie/Garnier, Wettbewerb Gross-Berlin, Berlage/Amsterdamer Schule, monumentale Stadtachsen Haussmann/City Beautiful (Position 8); DTV-Atlas-Konkordanz (Position 14); Manifest-Ergänzung (Position 13); barocke Stadtplanung/Platztypologie, Berlin Schinkel-Lenné-Hobrecht, Determinanten-Ergänzung (Position 1, Jans-Reader). Rest-P2 offen: Positionen 2–7 (Übungsheft Lampugnani, fünf Grundlagenwerke Manualistik, 33 Autorendossiers, Platz-Materialbestand) vollständig unangetastet. | `raw/inventar/archiv-fachwissen__01_Staedtebau.md` |
+| 11 | `01_Staedtebau` | archiv | 8 / 51 (von ~8'800 Gesamtbestand, nur 51 einzeln geöffnet) — **P1 vollständig destilliert 29.08.2026; P2-Positionen 1, 2, 8, 13, 14 destilliert (30.08.2026, sechs Läufe)** | Städtebau-Studienarchiv ETH (Lampugnani/Christiaanse); eigenes Städtebau-Glossar, Ortsanalyse- und Siedlungsstrukturraster, Projektstart-Checkliste, Stadttypen-Systematik, Blockrand-/Aufenthaltsqualitäts-Argumentation aus dem Manifest «Die Athmosphärische Stadt» 2014. P2: Gartenstadtbewegung, utopische Stadtentwurfs-Typologie/Garnier, Wettbewerb Gross-Berlin, Berlage/Amsterdamer Schule, monumentale Stadtachsen Haussmann/City Beautiful (Position 8); DTV-Atlas-Konkordanz (Position 14); Manifest-Ergänzung (Position 13); barocke Stadtplanung/Platztypologie, Berlin Schinkel-Lenné-Hobrecht, Determinanten-Ergänzung (Position 1, Jans-Reader); Antike Stadtgründungstypen, Plantypen-Glossar, Begriffstrias Stadtgründung/-erweiterung/-umbau, Bruno-Taut-Stadtkrone/Migge-Volkspark (Position 2, Übungsheft, **abgeschlossen** — Block 17 «Städtisches Wohnen Frankfurt» fehlt als Datei im Bestand). Rest-P2 offen: Positionen 3–7 (fünf Grundlagenwerke Manualistik, 33 Autorendossiers, Platz-Materialbestand) vollständig unangetastet. | `raw/inventar/archiv-fachwissen__01_Staedtebau.md` |
 | 12 | `17_Projektbeschriebe` | buero | 7 / 18 | Die Sektion enthält genau ein Projekt, dafür das vollständige Set der Projektbeschriebe aller Fachplaner der Schulanlage Leutschenbach, verdichtet zum revidierten Gesamtdossier vom 09.12.2009, mit belegten Fassaden-, Minergie-, Tragwerks- und Lüftungswerten. | `raw/inventar/buero-referenzen__17_Projektbeschriebe.md` |
 | 13 | `01_Entwerfen` | archiv | 6 / 1'246 — **P1 vollständig destilliert 29.08.2026, fünf Artikel** | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). P2 (elf Positionen: Ausbau-Variantenvergleich, Raumtypologie-Vorlesung, SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe, Fachglossare Farbe/Pigmente, Farbenlehre-Website, Ornamentik-Literaturliste, eigene Ideentexte, Class-A-Problem-Vokabular, Ikonographie-Raster u. a.) offen. | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
 | 14 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
@@ -1347,3 +1347,40 @@ Grün, 17 Städtisches Wohnen Frankfurt). Details/Fundstellen in
 `raw/inventar/archiv-fachwissen__01_Staedtebau.md` Abschnitt Destillat-Fortschritt.
 **Nächster Lauf:** die drei Restblöcke abschliessen, dann Position 2 schliessen und mit
 Position 3 (fünf Grundlagenwerke Manualistik) fortfahren. Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 2, Teil 2/Abschluss (Lane FACHWISSEN, 57. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Wie üblich vor Arbeitsbeginn `scutil` (Macmini bestätigt), `ps aux` (nur der eigene Prozess)
+und `KORPUS-QUEUE.md`/`CHANGELOG.md`/diese Datei gegengeprüft: Dispatch-Text erneut
+identisch veraltet («kein Destillat, keine Spec», Station fälschlich «MacBook Pro»), realer
+Stand entsprach dem Ende des fünften Laufs.
+
+Die drei Restblöcke (15-17) geprüft. Das Read-Tool lieferte bei den beiden grossen
+Einzelmodul-PDF (`15_Stadtmodernisierung.pdf`, 11.6 MB, `16_Staedtisches_gruen.pdf`,
+12.9 MB) nur `[media removed: request limit]` — via `python3`/`pypdf` sauber als Text
+extrahiert (13'925 bzw. 16'849 Zeichen).
+
+- **Block 15** erwies sich als praktisch deckungsgleich mit dem bereits destillierten
+  [[wettbewerb-gross-berlin-1908-hochhausstadt-debatte-wohnblock-reform]] (dieselben vier
+  Wohnblock-Reformbeispiele, dieselben vier Hochhausstadt-Theoretiker) — kein neuer
+  Artikel, nur eine Fünf-Kategorien-Klassifikation der Wettbewerbs-Rahmenbedingungen
+  (planungspolitisch/wirtschaftlich/demografisch/sozial/politisch) dort ergänzt.
+- **Block 16** war ein echter Neufund (gegen den Wiki-Bestand geprüft, keine Überschneidung):
+  neuer Artikel [[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]] — Bruno Tauts
+  Stadtkrone-Konzept (konzentrische Stadt, Kristallhaus, Hufeisensiedlung Berlin-Britz als
+  gebautes Beispiel) und Leberecht Migges Kleingarten-/Volkspark-Theorie (Volkspark
+  Rehberge als gebautes Beispiel). Schliesst die im vierten Lauf offen gelassene Lücke
+  derselben Quelldatei (damals nur Werktitel ohne Zusammenfassung notiert).
+- **Block 17** (Städtisches Wohnen Frankfurt) **fehlt als Datei vollständig** — weder
+  eigener Unterordner noch in der kombinierten `110805_Alles.pdf` enthalten (diese endet
+  nachweislich nach Modul 16). Laut Inhaltsverzeichnis sollte er «Das Neue Frankfurt und
+  das Rote Wien» behandeln. Reale Bestandslücke, kein Werkzeug- oder Lesefehler; im neuen
+  Artikel als offener Punkt vermerkt.
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (43 0). **Position 2 gilt
+damit als abgeschlossen** (alle 17 Themenblöcke geprüft, Block 17 als dokumentierte
+Quelllücke geschlossen). Von den acht P2-Positionen der Sektion sind jetzt 1, 2, 8, 13 und
+14 erledigt; Positionen 3-7 (fünf Grundlagenwerke Manualistik, 33 Autorendossiers,
+Platz-Materialbestand) bleiben offen. **Nächster Lauf:** Position 3 (Grundlagenwerke der
+Städtebau-Manualistik: Sitte mit Textebene, Stübben/Krier/Curdes/Nolli als Scans — Fremdwerke,
+nur methodisch mit Fundstelle zitierbar). Keine der harten Sperren berührt.
