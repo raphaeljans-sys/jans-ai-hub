@@ -214,3 +214,16 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   `wiki/QUESTIONS.md` damit beantwortet. Naechster Lauf: direkt inhaltliche Sichtung der rund
   190 Vorlesungsmitschriften/Zusammenfassungen sowie der Vorlesungsfolien-Sammel-PDF, keine
   weitere Struktur-Vorpruefung noetig.
+
+- 2026-08-30 (Lane FACHWISSEN, dritter P2-Lauf, erster inhaltlicher Sichtungslauf der 190
+  Vorlesungsmitschriften): `110930_VL2_Koolhaas_Rem_SMLXL/.../120727_SMLXL_Rem_Koolhaas_1.docx`
+  und `111007_VL3_Rem_Koolhaas_SMLXL_Folgen/.../120727_Rem_Koolhaas_SMLXL_2.docx` gelesen und
+  destilliert zu zwei Artikeln:
+  `wiki/delirious-new-york-retroaktives-manifest-culture-of-congestion-pk-methode.md`
+  (retroaktives Manifest, Culture of Congestion, Dalís paranoisch-kritische Methode, Exodus
+  1972) und `wiki/koolhaas-bigness-zwoelf-thesen-generic-city-junkspace.md` (zwölf
+  Bigness-Thesen, Generic City, Junkspace). Bestehender Artikel
+  `wiki/manhattanismus-koolhaas-monumentalitaet.md` (anderer Quellordner, Lincoln-Center-Bezug)
+  gegengelesen, kein Duplikat, gegenseitig verlinkt. Beide neuen Artikel `status: speculative`
+  (rohe Mitschrift-Qualität, Zitate nicht am Original «S,M,L,XL»/«Delirious New York»
+  gegengelesen). Offen: 21 der 23 Vorlesungsordner (188 der 190 Dateien) noch nicht gesichtet.

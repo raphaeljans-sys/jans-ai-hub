@@ -4,7 +4,34 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
-## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, vierter Folgelauf desselben Tages) — Minimalcheck, keine neue Recherche, Eskalation ausserhalb der Lane noetig
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, sechster Folgelauf desselben Tages) — Minimalcheck bestaetigt: nichts Neues, keine Recherche ausgefuehrt
+
+Minimalcheck wie von Memory und den fuenf Vorlaeufen empfohlen: `git status --short` zeigte
+zu Laufbeginn nur den unfertigen CHANGELOG-Eintrag des fuenften Folgelaufs selbst (noch nicht
+gesichert), sonst nichts. `git log` gegen `wissen/architekten-synobsis` zeigt seither nur
+NAS-Auto-Sync-Commits ohne inhaltliche Aenderung an dieser KB. Alle vier Auftragspositionen
+(Fehlextraktionen, Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 2 ff.) sind
+per `grep` gegen jeden im Dispatch-Prompt genannten Einzelnamen erneut gegengeprueft —
+ausnahmslos weiterhin BEHOBEN/RECHERCHIERT/GEPRUEFT wie in den fuenf Vorlaeufen dokumentiert.
+Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert. Dies ist mindestens der
+dreizehnte inhaltsgleiche Lauf seit dem 29.08.2026. **Eskalation unveraendert:** ohne
+(a) NAS-Umbenennungs-/Zusammenfuehrungs-Freigabe, (b) einen `--reindex`-Lauf mit neuem
+Rohmaterial oder (c) Antworten auf die zwei offenen Rueckfragen (Sik_Miroslav,
+Sutter_Annabarbara) bringt kein weiterer Lauf dieser Lane zusaetzlichen Erkenntniswert —
+Dispatcher/Scheduler bitte ausserhalb der Lane pruefen, nicht erneut dispatchen.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, fuenfter Folgelauf desselben Tages) — Minimalcheck bestaetigt: nichts Neues, keine Recherche ausgefuehrt
+
+Minimalcheck wie von Memory und den vier Vorlaeufen empfohlen: `git status --short` fuer
+diesen Ordner leer, `git log -3` zeigt nur NAS-Auto-Sync-Commits ohne inhaltliche Aenderung
+seit dem letzten Lauf. Alle vier Auftragspositionen des Dispatch-Prompts sind unveraendert
+BEHOBEN/RECHERCHIERT (Zeilen 94/105/136/180/239/265/268/349/351/353 wie in den Vorlaeufen
+zitiert), der Prompt-Text selbst ist weiterhin veraltet ("Charge 2 und folgende sind offen").
+Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert. Dies ist mindestens der zwoelfte
+inhaltsgleiche Lauf seit dem 29.08.2026. **Eskalation unveraendert:** ohne (a) NAS-Umbenennungs-
+/Zusammenfuehrungs-Freigabe, (b) einen `--reindex`-Lauf mit neuem Rohmaterial oder (c) Antworten
+auf die zwei offenen Rueckfragen (Sik_Miroslav, Sutter_Annabarbara) bringt kein weiterer Lauf
+dieser Lane zusaetzlichen Erkenntniswert — Dispatcher/Scheduler bitte ausserhalb der Lane pruefen.
 
 Minimalcheck wie von den drei Vorlaeufen des Tages empfohlen: `git status`/`git log`
 gegengeprueft, Arbeitsbaum unveraendert. Alle vier Auftragspositionen des Dispatch-Prompts

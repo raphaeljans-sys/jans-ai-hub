@@ -3,7 +3,7 @@ title: "Manhattanismus nach Koolhaas â€” Nutzungsstapelung und das MonumentalitÃ
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Manhattenismus/Kollhaas Manhattenismus.docx (Eigener Reflexionstext, Bezug Rem Koolhaas, Delirious New York)"]
-links: []
+links: ["[[delirious-new-york-retroaktives-manifest-culture-of-congestion-pk-methode]]", "[[koolhaas-bigness-zwoelf-thesen-generic-city-junkspace]]"]
 ---
 
 # Manhattanismus nach Koolhaas

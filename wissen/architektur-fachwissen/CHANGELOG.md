@@ -1,5 +1,39 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, dritter P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag wieder veraltet (behauptete «kein Destillat, keine Spec, 2 Wiki-Artikel»,
+tatsaechlich beide Specs seit 29.08.2026, P1 in beiden Korpora komplett, 27 Laeufe, 150+
+Wiki-Artikel) — Spec-Neuschreibung und P1-Wiederholung nicht ausgefuehrt, stattdessen am
+realen `KORPUS-QUEUE.md`-Stand weitergearbeitet. Vor Arbeitsbeginn `ps aux`/`scutil` geprueft:
+kein zweiter FACHWISSEN-Prozess, aber Lane SYNOBSIS lief parallel (eigene KB, keine
+Ueberschneidung). Ausserdem lag im Working Tree bereits unkommittierte Buchfuehrung eines
+frueheren Laufabschnitts desselben langlaufenden Prozesses vor (Antwort auf `#68`); diese
+zuerst per `nas-commit-now.sh` gesichert (lokaler Commit/Push `f79b169fb` gelang trotz
+erneutem NAS-Merge-Konflikt in fremden KB-Dateien — Details
+[[project_nas-git-merge-konflikt-dispatch-loop-260829]]).
+
+Danach erster inhaltlicher Sichtungslauf der laut `#68`-Antwort verbleibenden rund 190
+Vorlesungsmitschriften: zwei Koolhaas-Vorlesungen (VL2 «S,M,L,XL», VL3 «S,M,L,XL und die
+Folgen») vollstaendig gelesen und destilliert.
+
+- `wiki/delirious-new-york-retroaktives-manifest-culture-of-congestion-pk-methode.md` —
+  retroaktives Manifest, Culture of Congestion, Dalís paranoisch-kritische Methode, Exodus
+  (1972), Manhattan-Rasterplan als Dichte-Erzeuger.
+- `wiki/koolhaas-bigness-zwoelf-thesen-generic-city-junkspace.md` — die zwoelf Bigness-Thesen
+  aus «S,M,L,XL» (1995) vollstaendig wiedergegeben, Generic City (eigenschaftslose Stadt),
+  Junkspace.
+
+Bestehender Artikel `wiki/manhattanismus-koolhaas-monumentalitaet.md` (anderer Quellordner,
+`02_Gestalt_Kulturverstaendnis`, Lincoln-Center-Fallbeispiel) gegengepruft: kein inhaltliches
+Duplikat, alle drei Artikel gegenseitig verlinkt. Beide neuen Artikel `status: speculative`
+(rohe, teils fehlerhafte Mitschrift-Transkription; Zitate nicht am Originaltext «S,M,L,XL» /
+«Delirious New York» gegengelesen, in den Artikeln als offener Punkt vermerkt).
+
+`wiki/INDEX.md` Zeile 04 und `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md`
+Abschnitt «Destillat-Fortschritt» nachgefuehrt. Offen bleiben 21 der 23 Vorlesungsordner (188
+der 190 Dateien) sowie die Vorlesungsfolien-Sammel-PDF (`Praes-Ath*.pdf`).
+
 ## 2026-08-30 — Folgelauf: Buchfuehrung nachgetragen, `#68` beantwortet (Lane FACHWISSEN)
 
 Dispatch-Auftrag erneut massiv veraltet (behauptete «kein Destillat und keine Spec, KB hat
