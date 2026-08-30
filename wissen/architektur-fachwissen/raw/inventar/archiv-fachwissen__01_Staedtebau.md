@@ -444,3 +444,38 @@ jetzt 1, 2, 8, 13 und 14 erledigt; Positionen 3-7 (fünf Grundlagenwerke Manuali
 Autorendossiers, Platz-Materialbestand) bleiben offen. **Nächster Lauf:** Position 3
 (Grundlagenwerke der Städtebau-Manualistik: Sitte 93 S. mit Textebene, Stübben, Krier,
 Curdes, Nolli als Scans — Fremdwerke, nur methodisch mit Fundstelle zitierbar).
+
+**30.08.2026 (Lane FACHWISSEN, siebter P2-Lauf, Position 3 — teilweise, Sitte
+abgeschlossen):** Dispatch-Text weiterhin identisch veraltet (behauptet «kein Destillat,
+keine Spec», Station fälschlich «MacBook Pro»); vor Arbeitsbeginn wie üblich `scutil`
+(Macmini bestätigt), `ps aux` (nur der eigene Prozess) und `KORPUS-QUEUE.md` gegengeprüft
+— Stand entsprach exakt dem oben dokumentierten Ende des sechsten Laufs. Textlayer-Probe
+per `pypdf` über alle fünf Grundlagenwerke: nur `Sitte.pdf` liefert echten Text (93 S.,
+115'781 Zeichen); `Stuebben.pdf` und `Krier.pdf` 0 Zeichen auf den ersten 10 Seiten,
+`Curdes.pdf` 0 Zeichen, `Nolli.pdf` nur 105 Zeichen (vereinzelte Planbeschriftungen) — alle
+vier bleiben reine Bildscans, ohne OCR nicht auswertbar.
+
+`Sitte.pdf` vollständig extrahiert und gelesen. **Neuer Befund:** der Scan ist selbst
+unvollständig — das Inhaltsverzeichnis (S. 2) weist zwölf Kapitel plus Schluss bis Seite 175
+aus, der Scan endet aber nach Kapitel VII (S. 87) mit Städte-Register und Druckvermerk,
+gefolgt von leeren Seiten und einem Getty-Center-Library-Stempel. Die praktischen Kapitel
+VIII-XII und der Schluss (S. 88-175, u.a. "Moderne Systeme", "Verbessertes modernes
+System", Sittes eigenes Beispiel einer Stadtregulierung) fehlen vollständig im
+digitalisierten Bestand — analog zur Block-17-Lücke im Übungsheft (siehe fünfter/sechster
+Lauf oben). Aus den vorhandenen Kapiteln I-VII destilliert → neuer Artikel
+[[camillo-sitte-staedtebau-kuenstlerische-grundsaetze-platzgestaltung]] (die vier
+Grundregeln alter Platzgestaltung: Freihalten der Mitte, Geschlossenheit der Plätze,
+Grösse/Form im Verhältnis zum Hauptgebäude, Unregelmässigkeit als Qualität; dazu
+Platzgruppen und der Übergang zur barocken Theaterperspektive). Gegen bestehende
+Wiki-Artikel geprüft, kein Duplikat (der Barock-Artikel aus dem vierten Lauf behandelt
+Achsensysteme/Platztypologie anhand anderer Städte, keine Sitte-Auswertung).
+
+**Von Position 3 bleiben Stübben, Krier, Curdes und Nolli offen** (dauerhaft blockiert ohne
+OCR-Werkzeug, Kandidat für einen künftigen OCR-Lauf oder Read-Tool-Direktversuch analog dem
+50. Beispiel Memory `project_fachwissen-dispatch-loop`, sofern Einzeldateigrösse das
+zulässt). `git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von den acht
+P2-Positionen dieser Sektion sind jetzt 1, 2, 3 (teilweise, Sitte-Anteil), 8, 13 und 14
+erledigt; Positionen 4-7 (33 Autorendossiers, Platz-Materialbestand) bleiben vollständig
+offen, Position 3 bleibt für die vier Bildscans offen. **Nächster Lauf:** Read-Tool direkt
+auf Stübben/Krier/Curdes/Nolli probieren (Dateigrössen 5-52 MB, ggf. nur einzelne Seiten
+ohne Seitenbereichs-Parameter versuchen), sonst Position 4 (33 Autorendossiers) beginnen.
