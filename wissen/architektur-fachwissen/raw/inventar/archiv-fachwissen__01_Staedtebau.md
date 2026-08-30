@@ -974,3 +974,54 @@ prüfen, welche Teildateien unter 20 MB liegen und einzeln lesbar sind; danach e
 auf wenige Seitenbereiche begrenzter Versuch am Lampugnani-Quellentextband (z. B. erste
 20-30 Seiten als Vollzugriff ohne `pages`-Parameter, falls die Gesamtantwort das
 Kontextfenster nicht sprengt) oder als eigene, spätere Teilaufgabe zurückstellen.
+
+## Siebzehnter P2-Lauf, Position 4 fortgesetzt (30.08.2026, Lane FACHWISSEN, Station laut
+`scutil` Macmini bestätigt — Dispatch-Text erneut identisch veraltet «kein Destillat, keine
+Spec, 2 Wiki-Artikel»/«MacBook Pro», 65. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Vor Arbeitsbeginn wie üblich `scutil`/`ps -o pid,ppid,comm` (Kette 45847→45850→45856,
+verschachtelte Wrapper derselben Instanz, keine Doppel-Instanz) und
+`KORPUS-QUEUE.md`/CHANGELOG gegengeprüft: Stand identisch zum 64. Beispiel dokumentierten
+Ende. Sonne-Dossier (`Sonne_Wolfgang/`, sechs Dateien plus Bildordner) vollständig gesichtet:
+
+- `00_Historiker/(...).pdf` (111 KB, CV/Publikationsliste TU Dortmund) — nur zur Einordnung
+  gelesen, kein eigener Artikel.
+- `Kultur_der_Urbanitaet_Die_dichte_Stadt_im_20_Jh/index.asp.pdf` (610 KB, vollständiger
+  Fliesstext, Sonne, "Kultur der Urbanität. Die dichte Stadt im 20. Jahrhundert", Historisches
+  Forum Bd. 8, 2006) → neuer Artikel
+  [[sonne-kultur-der-urbanitaet-dichte-stadt-kontinuitaetsthese]] (Kontinuitätsthese der
+  dichten Stadt gegen zwei "Bruchmythen" der Avantgarde-Historiografie, fünf
+  Epochenkapitel mit rund 30 internationalen Fallbeispielen). Die zweite Datei
+  `Sonne_Wolfgang_Die_Dichte_20Jh.pdf` (680 KB, H-Soz-Kult-Druckversion) als Duplikat
+  desselben Artikels erkannt (Seitenkopf/erste Zeilen abgeglichen), nicht erneut gelesen.
+- `Sonne_Aesthtische/Sonne_Aesthetische_Nachhaltigkeit_in_der_Stadt.pdf` (349 KB,
+  vollständig gelesen, W&U Interdisziplinär 12/2009) → neuer Artikel
+  [[sonne-aesthetische-nachhaltigkeit-angemessenheit-neun-punkte]] (Ästhetische-
+  Nachhaltigkeit-Argumentation plus das darin abgedruckte Neun-Punkte-Manifest
+  "Angemessenheit" Sonne/Stalder 2002). Die sieben Einzelseiten-Kopien unter `00_einzel/`
+  sind Fragmente derselben Datei (Seite-für-Seite-Split), kein eigener Fund; die Bilder
+  unter `00_Bilder/` (Le Havre/Turin) sind Bildbelege ohne Fliesstext, bereits im neuen
+  Artikel als Bildzitate (Perret Le Havre, Piacentini Via Roma) benannt.
+- `Dwelling_in_the_metropolis_(...)/Wohnen in der Metropole.docx` und
+  `Sicherungskopie von Wohnen in der Metropole.docx` (beide via `textutil` gelesen): reine
+  Titel-/Link-Stubs (29 Wörter, kein Fliesstext) — kein Ertrag (Delta-Ehrlichkeit).
+  `blockreform_sonnedf.pdf` (13,7 MB, derselbe Ordner, der englische Vollartikel "Dwelling
+  in the Metropolis", Progress in Planning Bd. 72, 2009, S. 53-149, 96 S. Originalstudie)
+  bleibt **ungelesen** — deutlich ergiebigere Primärquelle zum selben Thema als der
+  bereits destillierte Kultur-der-Urbanität-Abschnitt, für einen künftigen Lauf vorgemerkt.
+- `eth-24111-02.pdf` (85 MB, Sonnes ETH-Dissertation) bleibt wegen der 20-MB-Grenze
+  dauerhaft blockiert.
+
+Zwei neue Wiki-Artikel, gegen bestehenden Wiki-Bestand geprüft (kein Duplikat zu
+[[deutsches-institut-stadtbaukunst-konferenz-traditionalisten-modernisten-2012]], dort nur
+als Debattenteilnehmer zitiert, hier erstmals die eigene Theorie destilliert). `git diff
+--numstat` auf diese Inventardatei zeigt reinen Append. **Sonne-Dossier damit
+abgeschlossen** (ein grosser Vollartikel `blockreform_sonnedf.pdf` bewusst zurückgestellt,
+kein "kein Ertrag"). **Von den 33 Autorendossiers der Position 4 sind jetzt 25 mit Ertrag
+bearbeitet**; offen bleiben der Lampugnani-Quellentextband (358 S. Scan) und
+`kapitel01_dk...` Unterkapitel 1/2/4/5, dazu die drei/zwei bereits als ohne Ertrag
+geprüften Dossiers (Leveillé, Siedler, Sutcliffe, Mumford, Gracq) bleiben endgültig
+geschlossen. **Nächster Lauf:** `blockreform_sonnedf.pdf` gezielt in Teilabschnitten lesen
+(96 S., unter der 20-MB-Grenze, aber zu lang für einen Volldurchlauf — analog zur
+Lampugnani-Quellentextband-Strategie), danach Lampugnani-Quellentextband und
+`kapitel01_dk...`-Restkapitel.

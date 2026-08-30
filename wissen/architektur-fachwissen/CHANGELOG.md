@@ -1,5 +1,32 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, siebzehnter P2-Lauf (Position 4 fortgesetzt, Sonne-Dossier abgeschlossen, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, Prozesskette 45847→45850→45856 als verschachtelte Wrapper derselben Instanz erkannt, keine Doppel-Instanz)
+
+Vor Arbeitsbeginn `KORPUS-QUEUE.md`/CHANGELOG gegengeprüft: Stand identisch zum
+sechzehnten Lauf dokumentierten Ende. Sonne-Dossier (`Sonne_Wolfgang/`) vollständig
+gesichtet: zwei neue Wiki-Artikel aus den beiden Fliesstext-Quellen —
+[[sonne-kultur-der-urbanitaet-dichte-stadt-kontinuitaetsthese]] (Sonne, "Kultur der
+Urbanität. Die dichte Stadt im 20. Jahrhundert", 2006 — Kontinuitätsthese der dichten
+Stadt gegen die zwei "Bruchmythen" der Avantgarde-Historiografie, fünf Epochenkapitel
+1890-2000 mit rund 30 internationalen Fallbeispielen von Berlin-Blockreform bis
+Barcelona-Bohigas) und
+[[sonne-aesthetische-nachhaltigkeit-angemessenheit-neun-punkte]] (Sonne, "Ästhetische
+Nachhaltigkeit in der Stadt", 2009, plus das darin abgedruckte Neun-Punkte-Manifest
+Sonne/Stalder "Angemessenheit" von 2002 — direkte theoretische Fundierung für den
+bestehenden Artikel `blockrand-aufenthaltsqualitaet-argumentation-verdichtung-jans`).
+Übrige Dateien des Dossiers ohne Ertrag: zwei Duplikate (H-Soz-Kult-Druckversion desselben
+Kultur-der-Urbanität-Artikels; sieben Einzelseiten-Split-Kopien der Ästhetische-
+Nachhaltigkeit-Datei), zwei Titel-Stub-DOCX ohne Fliesstext, ein CV/Publikationsliste-PDF
+nur zur Einordnung. Bewusst zurückgestellt: `blockreform_sonnedf.pdf` (13,7 MB, englischer
+Vollartikel "Dwelling in the Metropolis", Progress in Planning 2009, 96 S. — deutlich
+ergiebiger als der bereits destillierte Kapitelabschnitt, aber zu lang für einen
+Volldurchlauf); `eth-24111-02.pdf` (85 MB Dissertation) bleibt an der 20-MB-Grenze
+dauerhaft blockiert. `git diff --numstat` auf die Inventardatei zeigt reinen Append
+(51 0). **Sonne-Dossier abgeschlossen.** Von den 33 Autorendossiers der Position 4 sind
+jetzt 25 mit Ertrag bearbeitet; offen bleiben der Lampugnani-Quellentextband (358 S.
+Scan) und `kapitel01_dk...` Unterkapitel 1/2/4/5. Details Inventardatei
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`, Abschnitt `## Destillat-Fortschritt`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, sechzehnter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz, Git sauber vor Arbeitsbeginn)
 
 Drei der vier verbliebenen kleineren Autorendossiers abgeschlossen:
