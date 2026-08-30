@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 18:47:38
+Stand: 30.08.2026 18:57:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 18:47:38
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cd320e9a5 nas-selfcommit: 2 Datei(en) 2026-08-30 18:45
+- b5ada3250 FACHWISSEN 92. Lauf: Architektenportraits Garnier/Schinkel/Semper/Ruskin-Morris-Webb/Wright/Sullivan gegengeprueft
