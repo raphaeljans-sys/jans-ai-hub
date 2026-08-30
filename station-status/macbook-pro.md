@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 20:20:12
+Stand: 30.08.2026 20:30:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:13)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 20:20:12
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bbeee0eb3 Lane FACHWISSEN 104. Lauf: Wiener Werkstaette/Bauhaus-Vergleichsartikel (archiv-fachwissen Zeile 68)
+- 8cc48a1c7 105. Lauf Lane FACHWISSEN: Mackintosh + Le Corbusier Moebelserie (Zeile 68)
