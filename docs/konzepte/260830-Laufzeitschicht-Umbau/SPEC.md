@@ -24,6 +24,7 @@ seine eigenen Annahmen ueber diese drei Dinge mitbringt.
 | B3 | Anmeldung an zwei Orten (Schluesselbund-Sitzung + env-Token) mit undokumentierter Vorrangordnung | Am 29.08. dreimal die falsche Ursache geschlossen, weil die Probe anders lief als der Laeufer |
 | B4 | Ein aus einer laufenden Claude-Code-Session **abgeloester** Lauf scheitert mit «OAuth session expired»; derselbe Aufruf aus einer SSH-Shell laeuft mit rc=0. **Ursache offen** | 29.08. 20:22–20:29, MacBook Pro; Gegenprobe Mac Mini per ssh gleichzeitig rc=0 |
 | B5 | Treiber ohne Ertragsmessung: ueber 600 technisch fehlerfreie, fachlich ertraglose Laeufe in einer Nacht | synobsis 344 Runden / 2 Dateien, normen 185, baurecht 96, grobkosten 52; Rule `auto-verbesserungen` 260830 |
+| **B6** | **Kein kanonischer Arbeitsbaum fuer automatische Laeufe.** `dispatch-run.sh` Z. 33 pinnt `REPO="${DISPATCH_REPO:-$HOME/Developer/jans-ai-hub}"` — jede `prompt`-Pendenz arbeitet also im **SSD-Klon der Station**, waehrend Rule `sync-kanonische-quelle` Z. 7 und 26 ausdruecklich verlangen: geteilte Inhalte NUR auf dem NAS-Pfad, NIE im SSD-top-level. Der Hub verletzt seine eigene Grundregel systematisch, nicht versehentlich | Divergenz NAS ↔ GitHub seit 29.08. 22:04: 203 Commits voraus, 115 hinterher, gemeinsamer Vorfahre `01204714a`. Inhaltlich 317 Dateien / +25'813 / −7'173. In `wissen/architektur-fachwissen/wiki` traegt die NAS-Seite 94 Artikel, die GitHub-Seite 255, gemeinsam nur 72 — und darunter Beinah-Dubletten desselben Inhalts unter verschiedenen Slugs (z.B. `atmosphaerenmethode-hardware-software-erlebnis-phaenotyp.md` gegen `atmosphaeren-methode-ortsanalyse-hardware-software-erlebnis.md`) |
 
 **Nicht befundet:** NAS und SSH. Beide haben waehrend der gesamten Stoerung ausnahmslos
 funktioniert — jede SSH-Verbindung beim ersten Versuch, der NAS-Mount durchgehend lesbar.
@@ -57,6 +58,17 @@ Er leistet, in dieser Reihenfolge:
 5. **Ausfuehren und journalisieren** wie bisher.
 6. **Ertrag messen** (geaenderte Dateien / neuer Commit-Kopf) und im Rueckgabewert ausweisen,
    damit jeder Treiber eine Abbruchbedingung hat, ohne sie selbst zu erfinden.
+7. **In genau EINEM Arbeitsbaum laufen** (Befund B6). Welcher das ist, entscheidet Raphael —
+   entweder der NAS-Pfad, wie es Rule `sync-kanonische-quelle` heute verlangt, oder der SSD-Klon
+   mit anschliessendem Push, was die Rule aendern wuerde. **Beides ist vertretbar, das Nebeneinander
+   nicht.** `lauf.sh` setzt das Arbeitsverzeichnis selbst und laesst es nicht vom Aufrufer erben.
+
+### Vorbedingung fuer Phase 0
+
+**Die Divergenz aus B6 muss vor Phase 0 aufgeloest sein.** Solange zwei Arbeitsbaeume
+nebeneinander beschrieben werden, erzeugt jeder weitere unbeaufsichtigte Lauf zusaetzlichen
+Spalt. Die Aufloesung ist ein Eingriff in die Git-Historie und braucht Raphaels Freigabe;
+sie gehoert nicht in einen unbeaufsichtigten Lauf.
 
 Danach werden die bestehenden Aufrufer nacheinander darauf umgestellt; die alten Wrapper bleiben
 als duenne Weiterleitungen bestehen, bis alle Aufrufer umgezogen sind.

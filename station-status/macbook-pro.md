@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 08:30:26
+Stand: 30.08.2026 08:40:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:24)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 08:30:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a39f09e07 nas-selfcommit: 2 Datei(en) 2026-08-30 08:30
+- c1d3f127c Spec Laufzeitschicht-Umbau + Sync-Pendenz Phasen 0-2 fuer den Mac Mini
