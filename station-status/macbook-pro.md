@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 03:11:36
+Stand: 30.08.2026 03:21:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 03:11:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 717bcf09e FACHWISSEN: Bachelard-Artikel + Queue/Changelog/Index (Vorlauf sichern)
+- d42f3054c architektur-fachwissen: Technik/Archigram-Artikel 120401_Technik_Archigram
