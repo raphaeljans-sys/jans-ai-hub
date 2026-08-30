@@ -3,6 +3,82 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+
+## Hub-Chef 30.08.2026 (08:39 bis 09:0x, Tagesbriefing gesendet)
+
+**Gesendet um 09:01:08** an rj@raphaeljans.ch über den Graph-Weg (`m365 outlook mail send`, rc=0);
+Apple Mail antwortet den neunten Tag nicht, `-1712` heute erneut gemessen. **Gegenprobe in den
+Gesendeten:** Betreff und Body am Original nachgelesen, Body 8'568 Zeichen HTML, kein Leerversand,
+**null** ASCII-Ersatzschreibungen im Body. Der Betreff trägt diesmal keine ae/oe/ue-Reste — er
+enthält schlicht kein Umlautwort; der Fehler des Vortags (Betreff über eine Shell-Zeile
+zusammengebaut) ist nicht wieder aufgetreten, Betreff und Body liefen beide über Dateien.
+Struktur wie vorgesehen (Erledigt · Fällig-Droht 7 Tage · Sync-Blocker · Schub-Kosten · Externe
+warten · Beobachten · Service-Chancen); QS durch die Agenten `rechtschreibung` (rund 90
+Umlaut-Stellen, Tausender-Apostroph, eine Grammatikkorrektur) und `layout` (alle Datumsangaben auf
+TT.MM.JJJJ, drei zusammengeschriebene Positionen in Block 05 aufgetrennt, geschützte Leerzeichen
+bei Beträgen und Zählern, Fusszeilen-Grauwert entfernt) vor dem Versand gelaufen.
+
+**Ausgeführte Whitelist-Aktionen.**
+
+**(A2) Zwei Kalendereinträge.** Auslöser: Radar-Briefing 30.08.2026, Punkte 22 und 23 («nicht
+eingetragen, nur vorgeschlagen»). Guards geprüft: eigener Kalender «Arbeit», Quelle und Datum im
+Notizfeld, keine Änderung oder Absage fremder Termine, umkehrbar; vorher geprüft, dass beide noch
+nicht existieren. Ergebnis nachgelesen: **Montag 31.08.2026 08:45** «SharePoint-Zugriff L. Bajrami
+verlängern (läuft 07.09. ab)» — mit der heute gemessenen Ursache und dem Klickweg im Notizfeld;
+**Montag 05.10.2026 09:00** «bexio-Abo-Entscheid vor automatischer Verlängerung 08.10.» mit dem
+Hinweis, den API-Token im selben Gang zu erneuern.
+
+**(A4) Zwei Nachträge im Fristen-Register.** Sync-P1 auf den Stand 08:45 gebracht (205/116,
+Versuch 254) samt dem Spec-Befund B6 als struktureller Ursache; SharePoint-Zugriffszeile um die
+Tenant-Richtlinie und den namentlich benannten Ordner ergänzt. Reiner Append, 4'534 → 4'546 Zeilen,
+Sicherungskopie im Scratchpad.
+
+**Eigene Messungen dieses Laufs (nicht aus dem Radar übernommen).**
+
+1. **Der Gastzugriffs-Ablauf hat eine Tenant-Ursache, nicht eine Einzelfreigabe.** `m365 spo
+   tenant settings list` zeigt `ExternalUserExpirationRequired = true` und
+   `ExternalUserExpireInDays = 60`. Jeder externe Projektbeteiligte verliert den Zugriff 60 Tage
+   nach der Einladung — derselbe Mechanismus wie beim KISPI-Vorfall vom 08./09.08.2026 mit sieben
+   Beteiligten. Über Graph weiter eingegrenzt: Bajramis Zugriff hängt an der Freigabe des Ordners
+   `2 Umbauprojekt Neu PPTS BKP/LOS_291.00 Architektur JANS/02 Plangrundlagen Ausführung`
+   (Item `75cfc0c9-…`, Berechtigung `bf394d6a-…`, Rolle `write`, geteilt mit rj@, Bajrami und
+   S. Sonderegger); die Berechtigung selbst trägt **kein** Ablaufdatum. Es ist genau der Ordner,
+   den er ab 03.09. für die Werkpläne braucht. **Nicht selbst verlängert**, obwohl A6 es deckte:
+   für die Verlängerung nach `ExternalUserExpireInDays` gibt es keinen Weg über die
+   zertifikatsangemeldete CLI, und die Tenant-Einstellung stattdessen hochzusetzen wäre eine
+   Änderung an einer Sicherheitseinstellung — von A6 ausdrücklich nicht gedeckt. Klickweg im
+   Kalendereintrag hinterlegt.
+2. **Schub-Kosten heute selbst ausgezählt** über `logbuch/laeufe/260830-laeufe.jsonl`: bis 08:45
+   537 Läufe, USD 274.13. Davon FACHWISSEN 64 Läufe / USD 155.84 (einzige liefernde Lane),
+   SYNOBSIS 312 Läufe / USD 89.32 ohne Ertrag, normen-pruefstand 80 / USD 9.23, grobkosten 27 /
+   USD 6.86, baurecht-thalwil 52 / USD 6.40. Die Radar-Zahl von 06:56 («USD 22.49 für drei Lanes»)
+   ist damit nicht falsch, aber überholt: SYNOBSIS lief nach der Stilllegung noch bis 08:22 aus.
+   Prozessprüfung auf dem Mini: nur noch **eine** Lane aktiv (PID 55122, fachwissen).
+3. **Der Delta-Abbruch aus Rule `auto-verbesserungen` 260830 ist im Treiber angekommen** —
+   `scripts/vollgas-schub.sh` Z. 110 ff. bricht nach drei Runden ohne gemessenes Liefer-Delta ab
+   und hört zusätzlich auf die Selbstauskunft des Laufs. FACHWISSEN meldete in Runde 83 um 08:44
+   erstmals «Es gibt nichts mehr zu bearbeiten»; die Lane wird sich damit voraussichtlich vor der
+   Frist Montag 11:00 selbst beenden.
+4. **Sync-Divergenz am nativen Synology-Log gemessen** statt über den Mount: 08:30 → 202/114,
+   08:34 → 203/115, 08:42 → 204/116, 08:45 → 205/116, Versuch 254.
+5. **AG-Gründungs-Abgleich nachgeholt**, da der `ag-gruendung-monitor` zum zweiten Tag in Folge
+   keinen Abschnitt geschrieben hat (jüngster: 27.08.). Graph-Suche über beide Postfächer nach
+   UBS, Notariat, Handelsregister, Kapitaleinzahlung und Mathies: jüngste Sachnachricht bleibt das
+   Kapitaleinzahlungskonto vom 17.08.2026, Stand verifiziert unverändert, dreizehnter Tag.
+
+**Signale, die in das Briefing eingingen.** Radar-Briefing 30.08.2026 (06:55, im Logbuch, nicht
+gemailt) vollständig gelesen und weitergetragen; Nachtschicht-Abschnitt Mac Mini 05:2x;
+Konversations-Destillat 30.08.2026 (91 Sessions MacBook, 693 Mini, ein echtes Gespräch im Fenster);
+Fristen-Register; Kalender bis 07.09.; beide Postfächer über Graph im Fenster ab 06:45 —
+**null Eingänge**, mit Kontrollprobe ohne Zeitfilter gegengeprüft, damit das leere Ergebnis nicht
+als Werkzeugaussage durchgeht; Sync- und Remote-Task-Queues leer, Freigabe-Queue beidseitig leer;
+die Pendenz «Laufzeitschicht-Umbau Phasen 0-2» an den Mac Mini wurde um 08:41 von der erstellenden
+Session selbst wieder angehalten; bexio erneut selbst gemessen (`--verzug` und `--abgleich`, beide
+HTTP 401, dreiundzwanzigster Tag, keine Mahnaktion, kein Guard erfüllt).
+
+**Nicht ausgeführt:** kein Versand an Dritte, keine Buchung, keine Mahnung, keine Löschung, keine
+Freigabe eines zurückgehaltenen Sync-Tasks, kein Eingriff in die Sync-Divergenz. Mail-Entwürfe (A5)
+bleiben über Apple Mail gesperrt.
 ## Radar-Briefing 30.08.2026 (06:55 bis 07:15, Logbuch-Radar)
 
 **Nicht gemailt, Ein-Mail-Prinzip.** Der Chef-Lauf vom 29.08. hat stattgefunden (Briefing 08:46:57

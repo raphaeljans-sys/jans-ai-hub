@@ -226,6 +226,63 @@ Belegte Beispiele, alle am 09.08.2026 gelaufen:
   --accept 'application/json;odata=nometadata'
 ```
 
+### Gastzugriff auf eine Site verlängern — Wege und Sackgassen (gemessen 30.08.2026)
+
+Anlass: SharePoint meldet am 30.08.2026 «Bajrami Livdin verliert am 07.09.2026 den Zugriff auf
+JANS - 2619-KISPI». Derselbe Mechanismus hat am 08./09.08.2026 sieben Beteiligte auf einmal
+getroffen. Er ist **wiederkehrend**, nicht ein Einzelfall — und der Schreibweg fehlt bis heute.
+
+**Die Ursache ist eine Tenant-Richtlinie, keine Einzelfreigabe:**
+
+```bash
+"$M365" spo tenant settings list --output json   # ExternalUserExpirationRequired = true
+                                                 # ExternalUserExpireInDays      = 60
+```
+
+Jeder externe Gast verliert den Zugriff automatisch 60 Tage nach der Einladung. Bajramis
+Gastkonto in Entra trägt `createdDateTime` 30.06.2026 und `externalUserState: Accepted`, aber
+**kein** Ablauffeld — die Frist wird von SharePoint geführt, nicht vom Verzeichnis.
+
+**Welchen Ordner ein Gast über welche Freigabe sieht** (der schnellste Weg, wenn nur der Name
+bekannt ist): die `SharingLinks.<itemGuid>.<typ>.<permGuid>`-Gruppen der Site durchsuchen, die
+Item-GUID aus dem Gruppennamen nehmen und das Item auflösen.
+
+```bash
+"$M365" spo group list --webUrl "$SITE" --output json          # SharingLinks.* sichten
+"$M365" spo group member list --webUrl "$SITE" --groupId <n>   # je Gruppe nach der Person greppen
+# Item aus der GUID im Gruppennamen aufloesen:
+"$M365" request --url "https://graph.microsoft.com/v1.0/drives/<driveId>/items/<itemGuid>?\$select=id,name,webUrl"
+# Berechtigungen samt expirationDateTime:
+"$M365" request --url "https://graph.microsoft.com/v1.0/drives/<driveId>/items/<itemId>/permissions"
+```
+
+**Sackgassen, alle am 30.08.2026 selbst gelaufen — nicht wiederholen:**
+
+1. **`spo externaluser` kann nur `list`.** Kein `set`, kein `add`, kein Verlängern. Die CLI
+   (v11.5.0) bietet für diesen Vorgang **keinen Schreibbefehl**.
+2. **⚠ Korrektur an diesem Register:** Der Weg-1-Block oben nennt das Feld `Expiration` aus
+   `_api/web/siteusers?$filter=IsShareByEmailGuestUser eq true` als «das belastbare Feld». **Das
+   trifft nicht zu.** Bei allen **25** externen Gästen der KISPI-Site steht `Expiration` leer,
+   auch bei Bajrami, dessen Ablauf die Systemmail für den 07.09.2026 ankündigt. Wer sich auf
+   dieses Feld verlässt, misst «kein Ablauf» und übersieht jeden anstehenden. Der Ablauf sitzt
+   nicht am Site-User.
+3. **Die Berechtigung selbst trägt kein `expirationDateTime`.** Auf dem betroffenen Ordner
+   (`.../LOS_291.00 Architektur JANS/02 Plangrundlagen Ausführung`) ist bei **keiner** der sechs
+   Berechtigungen ein Ablaufdatum gesetzt. Der Ablauf kommt allein aus der Tenant-Richtlinie.
+
+**Was bleibt:** der Link «Zugriff verwalten» in der SharePoint-Erinnerungsmail, oder eine
+interaktive PnP-Sitzung (`Connect-PnPOnline -Interactive`, vgl. den Versions-Trim-Fall). Beides
+braucht eine angemeldete Person; über das Zertifikat geht es nicht.
+
+**Nicht der Ausweg:** `ExternalUserExpireInDays` hochsetzen oder `ExternalUserExpirationRequired`
+abschalten. Das ist eine Änderung an einer Sicherheitseinstellung des Tenants und von Whitelist A6
+ausdrücklich **nicht** gedeckt — A6 erlaubt das Verlängern einer Berechtigung, nicht das
+Aufweichen der Richtlinie dahinter.
+
+**Offen (lohnender als jede Einzelverlängerung):** ein Weg, der die Ablaufdaten aller Gäste einer
+Site **vorausschauend** liest, damit die Verlängerung nicht neun Tage vorher per Systemmail
+auffällt. Das Feld `Expiration` leistet das nach Punkt 2 nicht.
+
 ### Weg 2: Eigener Graph-Connector
 
 `connectors/m365-graph.mjs`, holt den Token selbst aus dem Zertifikat. Unabhängig von
