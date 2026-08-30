@@ -1071,3 +1071,55 @@ Duplikatscheck gegen [[palladio-strassen-bruecken-plaetze-vier-buecher-1570]] un
 Sauter-Barock/Rokoko-Sakralbauten-Artikel wegen Il Gesù), danach S. 34-51 (Barock/Ledoux, mit
 Duplikatscheck gegen die bestehenden Sauter- und Revolutionsarchitektur-Artikel), danach die
 drei Nicht-Portrait-Positionen des Architektenportrait-Ordners.
+
+## 260830 — Lauf `Renaissance-Zusammenfassung.pdf` S. 26-33, Manierismus (89. Lauf Lane
+FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen; `git status`/`git log` sauber, Top-Commit `c2a5f8953`,
+`scutil` bestätigte Macmini, `ps -eo pid,ppid,command | grep "claude -p"` zeigte genau eine
+laufende Instanz PID 19979, keine Doppel-Instanz). PDF-Text wie in den Vorläufen über
+PyMuPDF extrahiert.
+
+S. 26-33 (8 Seiten) vollständig gelesen und wie vom Vorlauf vorgemerkt bearbeitet:
+Duplikatscheck zuerst ausgeführt gegen
+[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]
+(Kanon-Zeilen zu Palazzo del Tè und Villa Rotonda),
+[[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]
+(Kanon-Zeile Il Gesù),
+[[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]]
+(Giulio-Romano-Kurzbiografie) und
+[[palladio-strassen-bruecken-plaetze-vier-buecher-1570]] (Palladios Städtebautheorie, andere
+Ebene). Ergebnis: kein echtes Duplikat, da diese Quelle durchgehend grössere konstruktive
+Tiefe liefert (Grundrissprobleme und -lösungen, Fassadendetails) als die bestehenden
+Kanon-Zeilen bzw. Kurzbiografie; vier neue Artikel:
+
+- [[toennesmann-giulio-romano-palazzo-del-te-manierismus-regelverstoss]] (Palazzo del Tè,
+  Vertiefung der Kanon-Zeile: Bauaufgabe Palast-Villa-Mischform, gezielte Regelverstösse als
+  Manierismus-Programm)
+- [[toennesmann-vasari-uffizien-florenz-verwaltungsbautypus]] (Vasari/Uffizien, vollständig
+  neuer Architekt und Bau, Prototyp des europäischen Verwaltungsbaus)
+- [[toennesmann-vignola-il-gesu-rom-finanzierung-innenausbau-fassadenvertiefung]] (Il Gesù,
+  Vertiefung der Kanon-Zeile: nur die dort fehlenden Punkte Vignola-Biografie,
+  Finanzierungskontext Alessandro Farnese, historischer Wandel des Innenausbaus,
+  Fassadendetail)
+- [[toennesmann-palladio-fuenf-bauten-vertiefung-basilica-chiericati-rotonda-redentore-foscari]]
+  (Basilica Vicenza, Palazzo Chiericati, Villa Rotonda als Vertiefung der Kanon-Zeile, Il
+  Redentore, Villa Foscari/Malcontenta — fünf Bauten gebündelt, da derselbe Architekt und
+  durchgehende Quellen-Erzählung über seine Laufbahn)
+
+Eine quelleneigene Datierungsungereimtheit dokumentiert statt übernommen: Il Redentore wird
+mit Senatsbeschluss «4. September 1676» datiert, obwohl dieselbe Quelle Palladios
+Verpflichtung «1577» nennt und die Bauzeit mit 1576-1592 überschreibt — im Artikel als
+Zahlendreher (statt 1576) benannt.
+
+Sperrlisten-Prüfung: kein Fund. Ausschliesslich historische, öffentlich bekannte Architekten,
+Bauherren und Päpste des 16. Jahrhunderts. `git diff --numstat` auf diese Inventardatei zeigt
+einen reinen Append.
+
+**Damit ist `Renaissance-Zusammenfassung.pdf` bis S. 33 (Frührenaissance bis Manierismus)
+vollständig destilliert.** **Nächster Lauf:** S. 34-51 (Barock/Aufklärung: Borromini,
+Bernini, Fischer von Erlach, Hildebrandt, Soufflot, Boullée, Ledoux/Saline de Chaux —
+Duplikatscheck gegen die bestehenden Sauter-Barock-/Rokoko- und
+Revolutionsarchitektur-Artikel zwingend, da hohes Überschneidungsrisiko), danach die drei
+Nicht-Portrait-Positionen des Architektenportrait-Ordners.
