@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 17:28:53
+Stand: 30.08.2026 17:39:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 17:07)
+- /Users/raphaeljans  (letzte Aktivitaet 17:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 17:28:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bf24000fc auto-sync [Macmini]: 84. Lauf FACHWISSEN, Fragen.doc destilliert
+- 517926b22 Fachwissen: 85. Lauf archiv-fachwissen 02_Architekturgeschichte, fuenf Renaissance-Kernfiguren-Portraits
