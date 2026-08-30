@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 02:18:17
+Stand: 30.08.2026 02:28:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 02:14)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 02:18:17
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 724928b2f FACHWISSEN: VL5 Venturi destilliert (archiv-fachwissen 02_Architekturtheorie, fuenfter P2-Lauf)
+- ba0454b86 Lane FACHWISSEN: VL7 Rossi Analoge Architektur destilliert
