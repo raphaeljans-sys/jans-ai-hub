@@ -1,5 +1,62 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern`, erster P2-Lauf (Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`
+Zeile 4 nannte als nächsten Schritt „nächstgrösste Sektion mit offenem P2" mit den
+Kandidaten `10_Protomodern` (13 P1-Dateien, P2 mit 33 Positionen laut Inventar
+vollständig ungesichtet) oder `03_Bauprozesse_I_II`. `10_Protomodern` gewählt, weil dort
+kein einziger P2-Lauf existierte (sauberer Einstieg) und die Inventardatei die 33
+P2-Positionen bereits klar in sieben Tabellenzeilen gruppiert vorlag.
+
+Zwei der sieben P2-Zeilen im Ornament-Forschungskonvolut (`01_Focabular/
+Das_Architektonische_Ornament/`) im Original gelesen: PyMuPDF für die drei PDF (kein
+`pdftotext` auf dieser Station), `textutil` für die Kamphans-DOCX.
+
+**`2.3 Di Stefano.pdf`** (Elisabetta di Stefano, «Form follows Function? Misunderstanding
+and Value of a Sullivan's Concept», Wolkenkuckucksheim/Cloud-Cuckoo-Land 32, 2012, 7
+Seiten) → neuer Artikel
+[[form-follows-function-genealogie-sokrates-vitruv-alberti-greenough-sullivan]]: die
+Formel «Form follows Function» rückverfolgt über Sokrates (Angemessenheit/*prépon*),
+Vitruv (Tempelordnungen nach Götter-Charakter), Alberti (Gebäude als Organismus),
+Horatio Greenough (*adaptation of forms to functions*, direkter Vorläufer) und die
+amerikanischen Transzendentalisten (Emerson, Thoreau) bis zu Sullivans eigenem
+Gesetzsatz 1896 und dem Autorschaftsstreit mit Dankmar Adler/John Wellborn Root; dazu die
+ironische Umkehrung im 20. Jahrhundert (Venturi «Less is a bore», Peter Blake «Form
+follows Fiasko», Mendini «Family follows Fiction»). Gegen den bestehenden
+[[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]] geprüft — anderer
+Fokus (Formel-Genealogie statt Fassaden-Dreiteilungsargument), verlinkt statt dupliziert.
+
+**`Sullivan-Ornament in Architecture.pdf`** (1892, Original) + **`Dissertationsvorhaben
+Stefan Kamphans.docx`** + **`V_20100520-Ornament-Handout.pdf`** (Dr. habil. Sonja
+Hildebrand, ETH-Vorlesung «Von der Aufklärung zur Moderne», Professur Tönnesmann,
+20.05.2010) → neuer Artikel
+[[sullivan-ornament-emotionale-ausdruckstheorie-1892-herzog-de-meuron-rueckkehr]]:
+Sullivans eigene Begründung, warum Ornament notwendiger emotionaler Ausdruck und nicht
+Zusatz zur reinen Form ist («*yet must both spring from the same source of feeling*»),
+das Kamphans-Dissertationsexposé zur Ornament-Verdrängung durch Loos/die Moderne und zur
+Ornament-Rückkehr seit rund den 1990er-Jahren am Beispiel Herzog & de Meuron (Allianz
+Arena, Elbphilharmonie), sowie eine belegte Ornament-Bau-Zeitleiste von Richardson über
+Sullivan/Moser bis Herzog & de Meuron aus dem ETH-Handout. Gegen
+[[ornament-decorum-angemessenheit-loos-semper-riegl]] und
+[[loos-ornament-und-verbrechen-argumentationsgang-kleidungs-analogie]] geprüft — kein
+Duplikat, verlinkt.
+
+Beide Artikel `status: emerging`. Sperrlisten-Prüfung: kein Fund (Fachaufsatz,
+historisches Originalzitat 1892, fremdes Dissertationsexposé — urheberrechtlich
+sinngemäss mit Fundstelle wiedergegeben, keine grossflächigen Wortübernahmen ausser
+kurzer gekennzeichneter Kernzitate).
+
+Fortschritt in `raw/inventar/archiv-fachwissen__10_Protomodern.md` Abschnitt
+«Destillat-Fortschritt» ergänzt, `git diff --numstat` zeigt reinen Append (`25 0`).
+`wiki/INDEX.md` Zeile 06 und Laufprotokoll aktualisiert.
+
+**31 der 33 P2-Positionen dieser Sektion bleiben offen:** das Rowe/Koetter-«Collage-City»-
+Konvolut (5 PDF), das Šik-Interview, der Caruso-Reader-Auszug, elf weitere kurze
+Eigen-DOCX sowie die Wikipedia-/Wiktionary-Begriffsblätter plus Sgraffito-Sammlung.
+**Nächster Lauf:** Rowe/Koetter «Collage City»
+(`04_Texte/00_ugueltig/Rowe_Colin_Collage_City/`, 5 PDF mit Textebene laut Inventar).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, 55. P2-Lauf (Sueton destilliert, Lane FACHWISSEN)
 
 Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt seit der Korrektur 30.08.2026

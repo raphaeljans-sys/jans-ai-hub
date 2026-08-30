@@ -173,3 +173,28 @@ Wiktionary-Begriffsblätter. **Damit ist Sektion `10_Protomodern` für P1 vollst
 destilliert.** Nächste Position gemäss `wiki/INDEX.md` «Sektionen nach Ertrag»:
 `02_Architekturgeschichte` (11 P1) oder `02_Kunst_Geschichte` (11 P1, sehr dünn im Verhältnis
 zum Gesamtbestand).
+
+**Erster P2-Lauf 30.08.2026 (Lane FACHWISSEN).** Zwei der sieben P2-Zeilen des
+Ornament-Forschungskonvoluts (Zeile «Di Stefano» und Zeile
+«Sullivan-Ornament+Kamphans+Handout») vollständig im Original gelesen (PyMuPDF für die drei
+PDF, `textutil` für die Kamphans-DOCX) und destilliert:
+
+- `2.3 Di Stefano.pdf` (Elisabetta di Stefano, Wolkenkuckucksheim 32/2012) → **erledigt** →
+  [[form-follows-function-genealogie-sokrates-vitruv-alberti-greenough-sullivan]]
+- `Sullivan-Ornament in Architecture.pdf` (1892) + `Dissertationsvorhaben Stefan
+  Kamphans.docx` + `V_20100520-Ornament-Handout.pdf` (Hildebrand, ETH-Vorlesung) →
+  **erledigt** →
+  [[sullivan-ornament-emotionale-ausdruckstheorie-1892-herzog-de-meuron-rueckkehr]]
+
+Beide Artikel `status: emerging`, gegen die bestehenden Ornament-Artikel
+([[ornament-decorum-angemessenheit-loos-semper-riegl]],
+[[loos-ornament-und-verbrechen-argumentationsgang-kleidungs-analogie]],
+[[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]]) geprüft — kein Duplikat,
+verlinkt. Sperrlisten-Prüfung: kein Fund (Fachaufsatz, historisches Originalzitat,
+Dissertationsexposé einer fremden Autorenschaft, urheberrechtlich sinngemäss mit
+Fundstelle wiedergegeben statt grossflächig zitiert).
+
+**31 der 33 P2-Positionen bleiben offen**: das Rowe/Koetter-«Collage-City»-Konvolut, das
+Šik-Interview, der Caruso-Reader-Auszug, elf weitere kurze Eigen-DOCX sowie die
+Wikipedia-/Wiktionary-Begriffsblätter plus Sgraffito-Sammlung. Nächster Lauf: Rowe/Koetter
+«Collage City» (5 PDF, `04_Texte/00_ugueltig/Rowe_Colin_Collage_City/`).
