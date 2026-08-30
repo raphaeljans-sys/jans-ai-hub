@@ -214,3 +214,37 @@ vier P1-Dateien gelesen und destilliert bzw. geprüft:
 **Damit ist P1 dieser Sektion vollständig destilliert.** P2 (24 Positionen, siehe Triage
 oben) bleibt offen für einen künftigen P2-Lauf. Kein neuer Datenschutz- oder Sperrlisten-Fund
 über den bereits im Kurzbefund/Datenschutz-Befund dokumentierten Stand hinaus.
+
+- **30.08.2026 (Lane FACHWISSEN, erster P2-Lauf dieser Sektion):** drei P2-Positionen
+  bearbeitet:
+  - `07_Pflanzen_Produkte_Mobelierung_Belaege/00_Produkte/Stadtbaum_Luzern/100411_stadtbaeume08_Luzern.pdf`
+    (Faltbogen, touristischer Baumporträt-Teil nicht destilliert) → Regel-/Praxisteil
+    destilliert zu `wiki/baumschutz-bewilligungsschwelle-stammumfang-stadt-luzern-2008.md`.
+  - `05_Literatur/Bäume.pdf` (52-seitige Artbestimmungsbroschüre, artenweise Porträts
+    bewusst nicht reproduziert — generisches Bestimmungswissen ohne JANS-Bürobezug) →
+    nur die beiden übertragbaren Bausteine (Baumaufbau-Terminologie, Artenverteilung
+    Schweizer Wälder nach LFI 1996) destilliert zu
+    `wiki/gehoelz-kurzwissen-baumaufbau-artenverteilung-schweizer-waelder.md`.
+  - `02_Landschaftsarchitekten/Vogt_Guenter/*` — **Triage-Korrektur:** von den vier in der
+    Triage-Zeile genannten Dateien ist nur die Kategorie zutreffend für drei: Novartis
+    Campus Park Basel, Bahnhofplatz Landquart, Gartenanlage Helvetia Patria St. Gallen
+    (echte Vogt-Referenzblätter). Die vierte, `Buonas_Roche_Tagungszentrum/
+    Roche_Tagungszentrum_d.pdf`, ist bei Volltextprüfung kein Vogt-Referenzblatt, sondern
+    ein Pittsburgh-Corning-Pressedienst zum Dämmstoff FOAMGLAS® am Gebäude Roche Forum
+    Buonas (Architektur Scheitlin Syfrig) — Hersteller-Marketing, nicht destilliert (Spec-
+    Abgrenzung «kein Hersteller-Marketing»). Die drei echten Referenzblätter destilliert zu
+    `wiki/vogt-referenzblatt-format-herkunft-material-identitaet.md` (Formatvorbild
+    Auftraggeber/Zeitraum/Leistungsphasen/Fläche/Herleitungstext, Muster
+    Herkunft-Material-Identität am Beispiel Landquart).
+
+  Kein neuer Datenschutz- oder Sperrlisten-Fund. `git diff --numstat` auf diese
+  Inventardatei nach dem Schreibschritt geprüft: reiner Append. **Verbleibende offene
+  P2-Positionen (rund 20 der ursprünglich 24 Zeilen, drei Positionen oben bearbeitet, eine
+  als Hersteller-Marketing verworfen):** Stadtbaum-Merkblatt-Nachbarn wie Irchelpark-
+  Bepflanzung (OCR-Blocker, kein Textlayer), `120919_Irchelpark.pdf` Lehrunterlage,
+  Vorlesungsnotiz Entwerfen-und-Bauen-mit-Pflanzen, Gartenanalyse-Raster (Methodik),
+  Gartenmöblierung-Renaissance-Destillat, Topografie-Prüfungsskript, Renaissance-Skript,
+  Ökologische-Gärten-Vorlesungsnotiz, Kolloquium-Auszug (Teildublette). Nächster Lauf:
+  Gartenanalyse-Raster (`00_Administration/07_Gartenanalyse/120814_Gartenanalyse.docx`)
+  als nächster Kandidat — methodischer Artikel, direkt auf Machbarkeitsstudien und
+  Bestandesaufnahmen übertragbar, kein Blocker bekannt.
