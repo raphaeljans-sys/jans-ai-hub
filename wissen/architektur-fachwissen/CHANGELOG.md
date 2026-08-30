@@ -4115,3 +4115,41 @@ Namensliste bleibt nach Strabo offen: Juvenal (145), Sueton (149), Pausanias (15
 Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
 Colonna/Hypnerotomachia (247) — 7 Positionen. **Nächster Lauf:** Juvenal (145) als
 nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, 54. P2-Lauf (Juvenal destilliert, Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn aus Inventardatei, `KORPUS-QUEUE.md` und diesem CHANGELOG
+gemeinsam ermittelt (übereinstimmend, working tree sauber, 53. Lauf/Strabo bereits vom
+15-Min-Cron committet und gepusht) — keine eigene Sicherung nötig, direkt mit dem
+empfohlenen Kandidaten weitergearbeitet. INDEX.md fehlte dabei der 53. Lauf (Strabo) noch
+als eigener Eintrag; wird im selben Lauf nachgetragen.
+
+**Juvenal, Satiren, Dritte Satire, V. 180-275** (S. 145-148, per
+`/opt/homebrew/bin/pdftoppm -f 149 -l 153 -r 150`, PDF-Seite = gedruckte Seite + 4,
+Bereichsende gegenverifiziert: PDF-Seite 153 = gedruckte Seite 149 = Beginn „Sueton"
+bestätigt Positionsende) → neuer Artikel
+[[juvenal-satiren-dritte-satire-mietshaeuser-baufaelligkeit-brandgefahr-rom]]:
+Baufälligkeit römischer Mietshäuser durch unterlassene Instandsetzung (Rissverklebung
+statt Sanierung) im Kontrast zu einsturzfreien Kleinstädten, Brandausbreitung im dichten
+Baubestand samt Anreizkonflikt durch grosszügige soziale Nachbrand-Wiedergutmachung bei
+vermögenden Eigentümern (Fallbeispiel Persicus, Brandstiftungsverdacht), Wohnkosten Rom
+gegen Kleinstadt (Sora/Fabrateria/Frusino), nächtlicher Verkehrslärm und
+Schlafentzug samt klassenspezifischem Sänften-Kontrast, Transportgefahr durch
+Baumaterial (Marmorblöcke, Bauholz) im Strassenraum, sowie nächtliche Gefahr durch aus
+Fenstern fallende Gegenstände bei ungesicherter Gebäudehöhe.
+
+Gegen Wiki-Bestand geprüft (`grep -rli` mietshaus/insula/brandgefahr/feuersbrunst/
+sänfte/hauseinsturz/mietwohnung/juvenal über `wiki/*.md`): keine inhaltlichen Duplikate,
+nur themenfremde Zufallstreffer (moderne Wohnungsbau-Artikel). Verlinkt mit
+[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (dort per Nachtrag
+rückverlinkt: Bewohnerperspektive auf laufende kleinere Stadtbrände als Ergänzung zur
+staatlichen Bauordnung nach dem Grossbrand) und
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]]
+(Gegenbild: obrigkeitliche Regulierungsperspektive gegen satirische
+Bewohnerperspektive auf dieselbe Stadt).
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append. Aus der Namensliste
+bleibt nach Juvenal offen: Sueton (149), Pausanias (151), Achilleus Tatius (155),
+Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) —
+6 Positionen. **Nächster Lauf:** Sueton (149) als nächster im Seitenverlauf liegender
+Kandidat, sonst der Rest der Liste der Reihe nach.

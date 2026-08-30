@@ -2051,3 +2051,27 @@ Positionen offen: Strabo (141), Juvenal (145), Sueton (149), Pausanias
 (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
 Colonna/Hypnerotomachia (247). Nächster Lauf: Strabo (141). Details in
 `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 53. P2-Lauf, hier nachgetragen im 54. Lauf — dieser
+Eintrag fehlte ursprünglich):** Strabo, Erdbeschreibung, Buch V, 7-8 (S. 141-143:
+ringweise Servianische Stadterweiterung mit Agger-Bau, Werteaussage «Männer statt
+Mauern», Baustoffkreislauf mit Abbruch-und-Neubau als Strukturprinzip, Augustus'
+Bauhöhenlimite 70 Fuss/21,581 m und Löschtruppe vor Neros Bauordnung,
+Griechen-Römer-Prioritätenvergleich, Marsfeld-Ensemble, Mausoleum-Augustus) destilliert
+→ [[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]].
+Details CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN, 54. P2-Lauf):** Juvenal, Satiren, Dritte Satire, V.
+180-275 (S. 145-148: Baufälligkeit römischer Mietshäuser durch unterlassene
+Instandsetzung, Brandausbreitung im dichten Baubestand mit Anreizkonflikt durch
+soziale Nachbrand-Wiedergutmachung, Wohnkostenvergleich Rom gegen Kleinstadt,
+nächtlicher Verkehrslärm/Schlafentzug mit klassenspezifischem Sänften-Kontrast,
+Transportgefahr durch Marmor/Bauholz im Strassenraum, nächtliche Gefahr durch aus
+Fenstern fallende Gegenstände) destilliert →
+[[juvenal-satiren-dritte-satire-mietshaeuser-baufaelligkeit-brandgefahr-rom]], verlinkt
+mit [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (dort per Nachtrag
+rückverlinkt) und
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]].
+Nach Juvenal bleiben 6 Positionen offen: Sueton (149), Pausanias (151), Achilleus
+Tatius (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247).
+Nächster Lauf: Sueton (149). Details CHANGELOG 30.08.2026.

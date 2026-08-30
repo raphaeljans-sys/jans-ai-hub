@@ -2645,3 +2645,33 @@ bleibt nach Strabo offen: Juvenal (145), Sueton (149), Pausanias (151), Achilleu
 (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) —
 7 Positionen. **Nächster Lauf:** Juvenal (145) als nächster im Seitenverlauf liegender
 Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 54. P2-Lauf 30.08.2026 (Lane FACHWISSEN): Juvenal destilliert
+
+Stand vor Laufbeginn aus Inventardatei, `KORPUS-QUEUE.md` und CHANGELOG gemeinsam
+ermittelt (übereinstimmend: 53 Läufe, 7 offene Namenslisten-Positionen, nächster Kandidat
+Juvenal S. 145), working tree zu Laufbeginn sauber (letzter Commit bereits gepusht).
+
+Juvenal/Satiren, Dritte Satire, V. 180-275 (S. 145-148) per
+`/opt/homebrew/bin/pdftoppm -f 149 -l 153 -r 150` gerendert (PDF-Seite = gedruckte Seite +
+4, am Bereichsende gegenverifiziert: PDF-Seite 153 = gedruckte Seite 149 = Beginn
+„Sueton" bestätigt Positionsende), alle vier Textseiten vollständig gelesen. Destilliert
+→ [[juvenal-satiren-dritte-satire-mietshaeuser-baufaelligkeit-brandgefahr-rom]]:
+Baufälligkeit römischer Mietshäuser durch unterlassene Instandsetzung im Kontrast zu
+einsturzfreien Kleinstädten, Brandausbreitung im dichten Baubestand samt
+Anreizkonflikt durch soziale Nachbrand-Wiedergutmachung (Fallbeispiel Persicus,
+Brandstiftungsverdacht), Wohnkostenvergleich Rom gegen Kleinstadt, nächtlicher
+Verkehrslärm/Schlafentzug mit klassenspezifischem Sänften-Kontrast, Transportgefahr
+durch Marmor/Bauholz im Strassenraum, nächtliche Gefahr durch aus Fenstern fallende
+Gegenstände. Gegen Wiki-Bestand geprüft (`grep -rli`
+mietshaus/insula/brandgefahr/feuersbrunst/sänfte/hauseinsturz/juvenal über `wiki/*.md`):
+keine inhaltlichen Duplikate. Verlinkt mit
+[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (dort per Nachtrag
+rückverlinkt) und
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]].
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste
+bleibt nach Juvenal offen: Sueton (149), Pausanias (151), Achilleus Tatius (155),
+Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) —
+6 Positionen. **Nächster Lauf:** Sueton (149) als nächster im Seitenverlauf liegender
+Kandidat, sonst der Rest der Liste der Reihe nach.

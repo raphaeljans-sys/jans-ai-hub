@@ -134,3 +134,9 @@ beschriebenen Nero-Brand, eine Bauhöhenlimite an öffentlichen Strassen (70 Fus
 21,581 m) sowie eine organisierte Löschtruppe aus Freigelassenen. Neros Bauordnung
 erweitert damit ein bereits bestehendes Regelungsinstrumentarium, statt es neu zu
 erfinden.
+
+**Zweiter Nachtrag (30.08.2026):** [[juvenal-satiren-dritte-satire-mietshaeuser-baufaelligkeit-brandgefahr-rom]]
+ergänzt die hier beschriebene staatliche Bauordnung nach dem Grossbrand um die
+Bewohnerperspektive auf laufende, kleinere Stadtbrände: unterlassene Instandsetzung
+baufälliger Mietshäuser als Brand- und Einsturzursache sowie einen Anreizkonflikt durch
+grosszügige soziale Nachbrand-Wiedergutmachung bei vermögenden Eigentümern.
