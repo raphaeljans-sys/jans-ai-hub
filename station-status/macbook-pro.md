@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 18:06:29
+Stand: 30.08.2026 18:16:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 18:06:29
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9443db4a2 88. Lauf FACHWISSEN: Renaissance-Zusammenfassung.pdf S. 5-25 destilliert
+- 6906a0a5c nas-selfcommit: 1 Datei(en) 2026-08-30 18:15
