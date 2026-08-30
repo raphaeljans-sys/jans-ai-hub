@@ -1714,3 +1714,34 @@ Abschnitt oben weiterwählen — Koran-Auszüge (169, bisher nie geprüft, auf
 Bürorelevanz sichten) und Vita Nicolai V (201, bereits angelesen) zuerst,
 sonst Hippokrates (35, Standortkriterien, Parallele zu Vitruv) als kurzer
 antiker Kandidat.
+
+## Zweiunddreissigster P2-Lauf, Koran-Auszüge geprüft, Vita Nicolai V und
+Hippokrates destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn selbst aus `KORPUS-QUEUE.md`, `wiki/INDEX.md`,
+CHANGELOG und dieser Inventardatei ermittelt (Dispatch-Text trägt bewusst
+keine Zahlen mehr). Working tree sauber, kein `MERGE_HEAD`, `ps aux` zeigt
+nur die eigene Prozessinstanz.
+
+Alle drei vom 31. Lauf empfohlenen Kandidaten aus `Quellentextband-1.pdf`
+per `/opt/homebrew/bin/pdftoppm` gerendert und gelesen (Offset PDF-Seite =
+gedruckte Seite + 4, erneut bestätigt über Fusszeilen):
+
+- **Koran, Sammlung Paradiesgarten-Verse** (S. 169-171, Suren 3/4/18/37/
+  47/56/88) vollständig gelesen: reine Jenseits-/Paradiesbeschreibung ohne
+  städtebaulichen oder architektonischen Bezug über die Gartenmetapher
+  hinaus — **kein Artikel**, analog zum Al-Ghazali-Befund des 27. Laufs.
+- **Vita Nicolai V** (S. 201, ein Absatz, Folgeseite 202 im Quellenband
+  leer) vollständig gelesen → neuer Artikel
+  [[vita-nicolai-v-stadt-als-bibel-der-armen-monumentalbau-legitimation]].
+- **Hippokrates, «Von der Luft, den Wässern und den Gegenden»** (S. 35-39,
+  Erstes/Zweites Hauptstück, §§ I-VI, IX, XV-XVI, XXII-XXVI) vollständig
+  gelesen → neuer Artikel
+  [[hippokrates-von-der-luft-waessern-gegenden-staedtestandort-windrichtung]].
+
+Gegen Wiki-Bestand geprüft (`grep -rli` über `wiki/*.md`): keine Duplikate.
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von den
+54 benannten Positionen der Anthologie sind jetzt **27 destilliert oder
+begründet ohne Artikel abgeschlossen, 27 vollständig offen**. **Nächster
+Lauf:** aus der 54-Positionen-Liste im 30.-Lauf-Abschnitt weiterwählen,
+kurze bürorelevante Einzelauszüge zuerst.

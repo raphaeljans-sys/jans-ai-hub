@@ -1,5 +1,48 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zweiunddreissigster P2-Lauf (Vita Nicolai V und Hippokrates destilliert, Koran-Auszüge ohne Artikel, Lane FACHWISSEN)
+
+Dispatch-Text trägt weiterhin bewusst keine Zahlen — Stand vor Arbeitsbeginn
+selbst aus `KORPUS-QUEUE.md`, diesem CHANGELOG, `wiki/INDEX.md` und der
+Inventardatei ermittelt (deckungsgleich mit dem 31. Lauf). Working tree bei
+Laufbeginn sauber, kein `MERGE_HEAD`, `ps aux` zeigt nur die eigene
+Prozessinstanz.
+
+Alle drei vom 31. Lauf empfohlenen Kandidaten aus der 54-Positionen-Liste
+des `Quellentextband-1.pdf` per vollem Pfad `/opt/homebrew/bin/pdftoppm`
+gerendert und gelesen (Offset PDF-Seite = gedruckte Seite + 4, erneut
+bestätigt):
+
+- **Koran, Paradiesgarten-Verse** (S. 169-171, Suren 3/4/18/37/47/56/88)
+  vollständig gelesen: reine religiöse Jenseits-/Paradiesbeschreibung
+  (Gärten, Bäche, Polster) ohne städtebaulichen oder architektonischen
+  Bezug über die Gartenmetapher hinaus — **kein Artikel**, analog zum
+  Al-Ghazali-Befund des 27. Laufs (Delta-Ehrlichkeit).
+- **Vita Nicolai V** (S. 201, ein Absatz, Folgeseite 202 im Quellenband
+  leer) → neuer Artikel
+  [[vita-nicolai-v-stadt-als-bibel-der-armen-monumentalbau-legitimation]]
+  (monumentale Architektur als Legitimations- und
+  Massenkommunikationsmittel der Kirche gegenüber einer schriftunkundigen
+  Mehrheit, „Stadt als Bibel der Armen", zeitgenössische Biografie Papst
+  Nikolaus' V.), verlinkt mit der bestehenden
+  Renaissance-Idealstadt-Sektion.
+- **Hippokrates, «Von der Luft, den Wässern und den Gegenden»** (S. 35-39,
+  Erstes/Zweites Hauptstück, ca. 400 v. Chr.) → neuer Artikel
+  [[hippokrates-von-der-luft-waessern-gegenden-staedtestandort-windrichtung]]
+  (medizinisches Vier-Kriterien-Prüfraster für Stadtstandorte — Winde,
+  Wasser, Boden, Lebensart —, Wind-Wasser-Konstitutions-Kausalkette,
+  Ost- vs. Westlage-Gesundheitsrangfolge), strukturelle Vorstufe zu
+  Vitruvs rund 350 Jahre jüngerer Standortregel, verlinkt mit
+  [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]].
+
+Gegen Wiki-Bestand geprüft (`grep -rli` nach «hippokrat»/«nicolai»/
+«manetti» über `wiki/*.md`): keine Treffer, keine Duplikate. `git diff
+--numstat` auf die Inventardatei zeigt reinen Append. Von den 54 benannten
+Positionen der Anthologie sind jetzt **27 destilliert oder begründet ohne
+Artikel abgeschlossen, 27 vollständig offen**. **Nächster Lauf:** aus der
+54-Positionen-Liste im 30.-Lauf-Abschnitt der Inventardatei weiterwählen,
+kurze bürorelevante Einzelauszüge zuerst.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, einunddreissigster P2-Lauf (Lex Iulia Municipalis, Regensburg und Vita Meinwerci destilliert, Lane FACHWISSEN)
 
 Dispatch-Text trug diesmal bewusst keine Zahlen/Fortschrittsangaben mehr
