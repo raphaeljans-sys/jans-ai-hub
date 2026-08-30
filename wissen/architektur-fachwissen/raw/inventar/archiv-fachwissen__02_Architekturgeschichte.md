@@ -1123,3 +1123,25 @@ Bernini, Fischer von Erlach, Hildebrandt, Soufflot, Boullée, Ledoux/Saline de C
 Duplikatscheck gegen die bestehenden Sauter-Barock-/Rokoko- und
 Revolutionsarchitektur-Artikel zwingend, da hohes Überschneidungsrisiko), danach die drei
 Nicht-Portrait-Positionen des Architektenportrait-Ordners.
+
+## Destillat-Fortschritt, 90. Lauf Lane FACHWISSEN (30.08.2026)
+
+`Renaissance-Zusammenfassung.pdf` S. 34-51 (letzter Rest, Barock/Aufklärung) gelesen und
+destilliert. Duplikatscheck zuerst gegen beide Architektenportrait-Sammlungsartikel und die
+zwei einschlägigen Sauter-Kapitel (Barock/Rokoko-Sakralbauten, Revolutionsarchitektur):
+kein echtes Duplikat, diese Quelle liefert durchgehend tiefere Grundriss-/Konstruktions-/
+Entwurfsgeschichtsanalyse. Fünf neue Wiki-Artikel (Borromini S.Ivo/S.Carlo, Bernini
+Baldachin/Cornaro-Kapelle/Petersplatz-Entwurfsgeschichte/Scala Regia, Bernini-Louvre/
+Perrault-Ostfassade/Versailles-Baugeschichte, Fischer-von-Erlach-Schönbrunn/Hofbibliothek/
+Hildebrandt-Belvedere, Soufflot Ste-Geneviève), dazu eine Ergänzung des bestehenden
+Ledoux/Boullée-Artikels (Zollhäuser Paris neu, Chaux-Konstruktionsdetail vertieft). Details
+CHANGELOG/`wiki/INDEX.md` 30.08.2026. Zwei Quellenwidersprüche offen dokumentiert (Sant'-Ivo-
+Geometrie, Chaux-Auftraggeber Ludwig XIV. vs. XVI.), keiner eigenmächtig aufgelöst.
+Sperrlisten-Prüfung: kein Fund.
+
+**Damit ist `Renaissance-Zusammenfassung.pdf` (51 Seiten) vollständig destilliert.**
+**Nächster Lauf:** `Moderne.pdf` gilt bereits als vollständig ausgewertet (87. Lauf); als
+Nächstes die drei Nicht-Portrait-Positionen des Architektenportrait-Ordners (`9_rom_st`,
+`16_schloss_versailles` — jetzt mit Duplikatrisiko gegen diesen Lauf zu prüfen —,
+`26_paris_um_1800`), `Fragen.doc`-Rest, danach die rund 20 verbleibenden offenen
+Einzelportraits.

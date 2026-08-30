@@ -5570,8 +5570,63 @@ Bauherren und Päpste des 16. Jahrhunderts. `git diff --numstat` auf die Inventa
 einen reinen Append (`52 0`).
 
 **Damit ist `Renaissance-Zusammenfassung.pdf` bis S. 33 (Frührenaissance bis Manierismus)
-vollständig destilliert.** **Nächster Lauf:** S. 34-51 (Barock/Aufklärung: Borromini,
-Bernini, Fischer von Erlach, Hildebrandt, Soufflot, Boullée, Ledoux/Saline de Chaux —
-Duplikatscheck gegen die bestehenden Sauter-Barock/Rokoko- und
-Revolutionsarchitektur-Artikel zwingend, hohes Überschneidungsrisiko), danach die drei
-Nicht-Portrait-Positionen des Architektenportrait-Ordners.
+vollständig destilliert.**
+
+## 260830 — 90. Lauf Lane FACHWISSEN, Sektion `02_Architekturgeschichte`
+
+`Renaissance-Zusammenfassung.pdf` S. 34-51 (letzter Rest der Datei, Barock/Aufklärung)
+gelesen. Duplikatscheck zuerst gegen
+[[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]]
+(Bernini, Borromini, Perrault, Hildebrandt, Soufflot bereits mit Kurzbiografie),
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]]
+(Fischer von Erlach bereits mit Kurzbiografie),
+[[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]
+(San Carlo bereits Kanon-Zeile) und
+[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]
+(Ledoux/Boullée bereits ausführlich): kein echtes Duplikat, diese Quelle liefert
+durchgehend deutlich tiefere Grundriss-, Kuppel-, Fassaden- und Entwurfsgeschichtsanalyse.
+Fünf neue Artikel:
+
+- [[toennesmann-borromini-s-ivo-s-carlo-quattro-fontane-konstruktionsvertiefung]] (S. 34-36:
+  Barock-Epochenrahmen, Sant'Ivo alla Sapienza und San Carlo alle Quattro Fontane, je mit
+  vollständiger Grundriss-/Kuppel-/Fassadenanalyse)
+- [[toennesmann-bernini-baldachin-cornaro-kapelle-petersplatz-entwurfsgeschichte-scala-regia]]
+  (S. 37-40: St.-Peter-Baldachin, Cornaro-Kapelle mit medienübergreifender Lichtregie,
+  Petersplatz mit vollständiger dreistufiger Entwurfsgeschichte inkl. Ablehnungsgründen,
+  Scala Regia)
+- [[toennesmann-bernini-louvre-entwuerfe-perrault-ostfassade-versailles-baugeschichte]]
+  (S. 41-44: Berninis drei Louvre-Entwurfsfassungen mit Scheitern am
+  Repräsentationsverständnis Colberts, Perraults ausgeführte Ostfassade, Versailles-Baugeschichte
+  über Le Vau/Hardouin-Mansart/Le Nôtre/Le Brun — vollständig neu in dieser KB)
+- [[toennesmann-fischer-von-erlach-schoenbrunn-hofbibliothek-hildebrandt-belvedere-vertiefung]]
+  (S. 45-47: Schönbrunn-Entwurfsgeschichte mit abgelehntem Versailles-übertreffendem
+  Grossentwurf, Hofbibliothek Wien — vollständig neu —, Belvedere-Gartendetail)
+- [[toennesmann-soufflot-ste-genevieve-pantheon-antike-gotik-synthese-vertiefung]] (S. 48:
+  Soufflots Entwurfsabsicht als Synthese antiker und gotischer Konstruktionslogik, konkrete
+  konstruktive Mittel, spätere Umwandlung Kirche zu Pantheon)
+
+Zusätzlich Ergänzung des bestehenden
+[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]] um
+einen neuen Abschnitt (S. 49-51): Newton-Kenotaph-Detail, die bislang unbehandelten
+Pariser Zollhäuser (neu), Saline-von-Chaux-Konstruktionsdetail (Portalbau, Direktorenhaus,
+Salzsteuergebäude, Werkstätten).
+
+**Zwei Quellenwidersprüche dokumentiert, keiner eigenmächtig aufgelöst:**
+1. Sant'-Ivo-Grundriss: diese Quelle beschreibt «zwei überlagerte gleichseitige Dreiecke»,
+   die bestehende Portrait-Sammlung dagegen ausdrücklich «ein einzelnes Dreieck, nicht wie
+   oft dargestellt zwei überlagerte/Hexagramm» — exakt gegensätzliche Aussagen zweier
+   unlektorierter Vorlesungsskripte, keine Drittquelle zur Klärung vorliegend.
+2. Saline von Chaux, Auftraggeber: diese Quelle nennt «Ludwig XIV.», die Sauter-Quelle
+   (oben im selben Artikel) nennt korrekt Ludwig XVI. (1775-1778) — als Widerspruch stehen
+   gelassen.
+
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekannte Architekten,
+Päpste, Könige und Minister des 16.-18. Jahrhunderts. `git diff --numstat` nach jedem
+Schreiben geprüft, Inventardatei-Ergänzung reiner Append.
+
+**Damit ist `Renaissance-Zusammenfassung.pdf` (51 Seiten) vollständig destilliert.**
+**Nächster Lauf:** `Moderne.pdf` gilt bereits als vollständig ausgewertet (87. Lauf); als
+Nächstes die drei Nicht-Portrait-Positionen des Architektenportrait-Ordners (`9_rom_st`,
+`16_schloss_versailles` — jetzt mit Duplikatrisiko gegen diesen Lauf zu prüfen —,
+`26_paris_um_1800`), `Fragen.doc`-Rest, danach die rund 20 verbleibenden offenen
+Einzelportraits nach demselben Duplikatscheck-Kriterium.
