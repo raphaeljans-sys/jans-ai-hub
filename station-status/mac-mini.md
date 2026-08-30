@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 17:49:31
+Stand: 30.08.2026 17:59:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 17:19)
+- /Users/raphaeljans  (letzte Aktivitaet 17:42)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 17:49:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5525b29d1 Fachwissen: Moderne.pdf vollständig ausgewertet, Semper-Polytechnikum Zürich (87. Lauf)
+- f14826f4d nas-selfcommit: 1 Datei(en) 2026-08-30 18:00
