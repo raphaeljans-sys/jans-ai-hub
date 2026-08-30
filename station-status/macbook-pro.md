@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.08.2026 00:47:39
+Stand: 31.08.2026 00:57:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 31.08.2026 00:47:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e1832b0ec nas-selfcommit: 2 Datei(en) 2026-08-31 00:45
+- f38e60cec Lane FACHWISSEN: BERTA-Jurybericht Depot Hard destilliert, 137. Lauf
