@@ -3,7 +3,7 @@ title: "Tektonik-Begriff und Bekleidungstheorie (Bötticher, Semper, Loos, Framp
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/Konstruktion_und_Tektonik/06_Fragen/Fragen_Konstruktion_und_Tektonik.docx", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/Konstruktion_und_Tektonik/05_Literatur/Seiten aus Handbuch_Deplazes.pdf (ETH Zürich, Architektur + Konstruktion I/II, Prof. Andrea Deplazes, Begriffskonkordanz Tektonik)", "raw/inventar/archiv-fachwissen__02_Architekturtheorie.md Abschnitt «Was hier für JANS drinsteckt» Punkt 1"]
-links: ["[[materialwahrheit-stoffwechseltheorie-semper-urtechniken]]", "[[ornament-decorum-angemessenheit-loos-semper-riegl]]", "[[entwurfsbegriffe-struktur-huelle-architektur3-eberle]]"]
+links: ["[[materialwahrheit-stoffwechseltheorie-semper-urtechniken]]", "[[ornament-decorum-angemessenheit-loos-semper-riegl]]", "[[entwurfsbegriffe-struktur-huelle-architektur3-eberle]]", "[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]"]
 ---
 
 # Tektonik-Begriff und Bekleidungstheorie

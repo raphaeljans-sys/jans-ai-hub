@@ -4907,3 +4907,41 @@ historische, öffentlich bekannte Architekten/Bauwerke. `git diff --numstat` auf
 Inventardatei zeigte `41 0` (reiner Append). **Nächster Lauf:** Kapitel
 `04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS` lesen, davor Duplikatscheck gegen
 Wiki-Bestand.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte`, sechster P2-Lauf: Sauter-Kapitel 04 Klassizismus/Historismus/Eklektizismus (Lane FACHWISSEN, 73. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`,
+Inventardatei) — der Dispatch-Text nennt bewusst keine Zahlen. Empfohlener nächster Schritt
+aus dem 72. Lauf: Kapitel `04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS.pdf`, davor
+Duplikatscheck.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -il` gegen `wiki/*.md` auf Pilaster/Risalit/
+Quadriga (neue Fachbegriffe des Kapitels) sowie Sichtprüfung des bestehenden Sauter-
+Glossars. Kein Artikel-Duplikat zu diesem Epochenthema gefunden; Pilaster/Risalit bereits
+in [[fachglossar-historische-bauteile-kirchenbau-gotik]] bzw. anderen Sauter-Kapiteln
+geführt, Quadriga neu, aber als Einzelerwähnung ohne Definitionskontext zu dünn für einen
+eigenen Glossareintrag.
+
+**Hauptarbeit:** Kapitel `04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS.pdf` (15 S.) vollständig
+gelesen (PyMuPDF) und destilliert zu
+[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]:
+Dreizehn-Bauten-Kanon 1803-1898 über drei Epochenbegriffe (Klassizismus: Weinbrenner-
+Stadtplanung Karlsruhe, drei Schinkel-Bauten Berlin; Historismus/Neogotik: Schinkels
+nicht realisierter Nationaldenkmal-Entwurf, Kölner Dom mit drei internationalen
+Vergleichsfällen plus einem Schweizer Beispiel Zürich bereits 18. Jh., Friedrichswerdersche
+Kirche, Ferstel-Votivkirche Wien; Historismus/Neorenaissance-Neobarock: Garnier-Opéra
+Paris, Semper-Hoftheater Dresden; Eklektizismus: Schinkel-Schloss Babelsberg als fiktiv
+gewachsene Burg, Trocadéro Paris und Zürich) mit fünf Kurzbiografien (Schinkel mit fünf
+der 13 Bauten mit Abstand am stärksten vertreten; bei Semper Cross-Referenz zu den
+bestehenden theoriegeschichtlichen Artikeln
+[[materialwahrheit-stoffwechseltheorie-semper-urtechniken]] und
+[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]], beide um Rückverlinkung
+ergänzt) sowie einer Denkmalpflege-Genese-Nebenlinie. Kein neuer Glossarbegriff nötig.
+
+**8 der 13 Sauter-Dateien bleiben offen** (Kapitel 05-11, Heimatstil/Gartenstadtbewegung
+bis Moderne-Postmoderne). Sperrlisten-Prüfung: kein Fund, ausschliesslich historische,
+öffentlich bekannte Architekten/Bauwerke. `git diff --numstat` auf die Inventardatei
+zeigte `37 0` (reiner Append). **Nächster Lauf:** Kapitel
+`05 HEIMATSTIL GARTENSTADTBEWEGUNG` lesen — Duplikatsrisiko vermerkt, da diese KB bereits
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] führt, davor
+Duplikatscheck.

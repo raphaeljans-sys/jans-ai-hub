@@ -434,3 +434,40 @@ Architekten, Bauherren und Bauwerke.
 `git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
 **Nächster Lauf:** Kapitel `04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS` lesen, davor
 Duplikatscheck gegen Wiki-Bestand.
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS` (73. Lauf, Lane FACHWISSEN)
+
+**Duplikatscheck zuerst ausgeführt:** `grep -il` gegen `wiki/*.md` auf Pilaster/Risalit/
+Quadriga sowie Sichtprüfung des bestehenden Sauter-Glossars. Kein neuer Artikel-Duplikat;
+Risalit/Pilaster bereits im Glossar bzw. in anderen Sauter-Kapiteln geführt, Quadriga neu,
+aber zu dünn für einen eigenen Eintrag (Einzelerwähnung ohne Definitionskontext).
+
+**Hauptarbeit:** Kapitel `04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS.pdf` (15 S.) vollständig
+gelesen (PyMuPDF) und destilliert zu
+[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]:
+Dreizehn-Bauten-Kanon 1803-1898 (Klassizismus: Weinbrenner/Karlsruhe, drei Schinkel-Bauten
+Berlin; Historismus/Neogotik: Schinkel-Nationaldenkmal-Entwurf, Kölner Dom mit
+Vergleichsfällen Strassburg/Konstanz/Zürich, Friedrichswerdersche Kirche, Ferstel-Votivkirche
+Wien; Historismus/Neorenaissance-Neobarock: Garnier-Opéra Paris, Semper-Hoftheater Dresden;
+Eklektizismus: Schinkel-Schloss Babelsberg, Trocadéro Paris und Zürich), fünf Kurzbiografien
+(Weinbrenner, Schinkel — mit Abstand am stärksten vertreten, Ferstel, Garnier, Semper — bei
+Semper Cross-Referenz zu den bereits bestehenden theoriegeschichtlichen Artikeln
+[[materialwahrheit-stoffwechseltheorie-semper-urtechniken]] und
+[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]], beide um Rückverlinkung
+ergänzt, `git diff --numstat` dort je `1 1`), sowie eine Denkmalpflege-Genese-Nebenlinie
+(vier zeitgenössische Antworten auf dieselbe Zweiturmfassaden-Frage, darunter ein Schweizer
+Beispiel Zürich bereits im 18. Jahrhundert). Kein neuer Glossarbegriff (s. o.).
+
+**8 der 13 Sauter-Dateien bleiben offen:** Kapitel `05`-`11` (Heimatstil/Gartenstadtbewegung
+bis Moderne-Postmoderne). Fortsetzung des Duplikatschecks weiterhin nötig, sobald Kapitel mit
+bereits bestehenden Fachartikeln thematisch kollidieren (Le Corbusier/Mies/Bauhaus/Loos,
+Kapitel 08/09/11).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `05 HEIMATSTIL GARTENSTADTBEWEGUNG` lesen, davor Duplikatscheck
+gegen Wiki-Bestand (Gartenstadtbewegung ist in dieser KB bereits als eigener Artikel
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] geführt — hohe
+Duplikatswahrscheinlichkeit, zuerst dort gegenlesen).
