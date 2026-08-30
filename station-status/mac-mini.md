@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 21:56:41
+Stand: 30.08.2026 22:06:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 21:32)
+- /Users/raphaeljans  (letzte Aktivitaet 22:06)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 21:56:41
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ad0602914 Zeile 68 (Kunst_Geschichte): drei Wiki-Artikel Morrison/Noyes/Gugelot, 119. Lauf
+- 8904b0de8 nas-selfcommit: 2 Datei(en) 2026-08-30 22:00

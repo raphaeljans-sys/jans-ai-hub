@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 21:52:47
+Stand: 30.08.2026 22:13:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 21:52:47
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 730a45785 Wissens-Destillat: Zeile 68 (08_Design) fortgesetzt, zwei neue Artikel (Paris 1900/Jugendstil, Elsie de Wolfe), P1-Vollstaendigkeitscheck beider Korpora bestaetigt
+- 8904b0de8 nas-selfcommit: 2 Datei(en) 2026-08-30 22:00
