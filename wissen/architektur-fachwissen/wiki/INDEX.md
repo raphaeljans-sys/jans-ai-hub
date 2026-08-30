@@ -99,10 +99,15 @@ Hoffmann/Wiener Sezession 1900) und Le Corbusier/Perriand/Jeanneret-Möbelserie 
 Confort, B306, Drehstuhl, Produktion Thonet-Mundus, Cassina-Revival ab 1965; Sterbejahr-Diskrepanz
 1968 vs. 1965 gegen Sauter-Kanon dokumentiert). Damit 16 von 128 Fliesstext-Dateien gelesen, rund
 85 weitere Personenartikel (u. a. Sottsass, Rams, Zanuso, Wirkkala, Saarinen) bleiben offen; Zeile
-68 bleibt weiterhin offen. **Nächster Lauf:** Zeile 68 fortsetzen, nächste Kandidaten nach
-Dateigrösse (`sottsass.htm` 21 KB, `ruhlmann.htm` 21 KB, `kaare_klint.htm` 19 KB, `svenska.htm`
-18 KB, `rams.htm` 18 KB, `mies.htm`/`breuer.htm` bereits destilliert prüfen), sonst laut
-Queue-Regel nächste Sektion mit offenem P1/P2. |
+68 bleibt weiterhin offen. **106. Lauf (30.08.2026):** `sottsass.htm`, `ruhlmann.htm` und
+`kaare_klint.htm` gelesen, zu zwei neuen Artikeln destilliert: Sottsass (Olivetti-Industriedesign,
+Studio Alchimia, Memphis-Gruppe, Radical Design) sowie eine Gegenüberstellung Ruhlmann
+(Art déco, Luxuslinie) gegen Kaare Klint (skandinavischer Funktionalismus aus Körpermass-Analyse,
+Wurzel der späteren dänischen Designergeneration Wegner/Juhl). Damit 19 von 128 Fliesstext-Dateien
+gelesen, rund 82 weitere Personenartikel (u. a. Rams, Zanuso, Wirkkala, Saarinen, Russell,
+Svenska/Schweden-Sammelartikel) bleiben offen; Zeile 68 bleibt weiterhin offen. **Nächster Lauf:**
+Zeile 68 fortsetzen, nächste Kandidaten nach Dateigrösse (`svenska.htm` 18 KB, `rams.htm` 18 KB,
+`russell.htm`, `paris_1925.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2. |
 `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)

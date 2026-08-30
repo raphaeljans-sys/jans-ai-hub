@@ -1,5 +1,56 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (106. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und dieses CHANGELOG gelesen. Working Tree bei Laufbeginn NICHT sauber: der
+105. Lauf hatte zwei Artikel (Mackintosh, Le Corbusier-Möbelserie) und die Buchführung
+(CHANGELOG/INDEX/KORPUS-QUEUE) fertiggestellt, aber `scripts/nas-commit-now.sh` war zuvor an
+einem Merge-Konflikt auf der NAS-Seite gescheitert (Konflikte in den CHANGELOGs/KORPUS-QUEUE
+anderer Lanes: `normen`, `architekten-synobsis`, `baurecht`, `grobkosten`, sowie in dieser
+KB drei Inventardateien und ein Artikel `protofunktional-...`). Genau ein `claude -p`-Prozess
+dieser Lane aktiv, kein Doppel-Dispatch. Erneuter Versuch `nas-commit-now.sh` vor Beginn dieses
+Laufs: derselbe Merge-Konflikt, Skript bricht kontrolliert ab und überlässt das Nachziehen dem
+15-Minuten-Cron (dokumentiertes, wiederkehrendes Muster, siehe Memory
+`project_nas-git-merge-konflikt-dispatch-loop-260829`) — lokal blieb der Working Tree dabei
+unbeschädigt (kein Merge-Abbruch-Rest, `git status` zeigt nur die eigenen unstaged Änderungen).
+Diese Lane bearbeitet ausschliesslich `wissen/architektur-fachwissen` und
+`skills/wissens-destillat/specs/`, die kollidierenden Dateien gehören anderen Lanes — bewusst
+nicht selbst gemerget, um keine fremden Inhalte zu beschädigen.
+
+Zeile 68 fortgesetzt: `sottsass.htm`, `ruhlmann.htm`, `kaare_klint.htm` gelesen (vom 105. Lauf
+empfohlene Kandidaten nach Dateigrösse). Duplikatscheck (`grep -rli` gegen
+Sottsass/Ruhlmann/Klint über `wiki/*.md`) vorab: alle drei bislang nur als Nebenerwähnung
+(Sottsass in [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]], Ruhlmann in
+[[eileen-gray-lackarbeiten-tubular-steel-e1027]], Klint ebenfalls im
+Nachkriegsdesign-Artikel) — kein eigener Artikel, kein Duplikat.
+
+Zwei neue Artikel:
+
+- [[sottsass-memphis-studio-alchimia-olivetti-radical-design]] — Olivetti-Industriedesign
+  (Elea 9003, Praxis/Tekne, Valentine-Schreibmaschine), USA-/Indien-Reisen als Bruch mit dem
+  Rationalismus, Studio Alchimia (mit Mendini/Branzi), Memphis-Gruppe ab 1981 (Casablanca/
+  Carlton-Sideboards), Spätwerk (Murano-Glas, Wall House Colorado). Abgrenzung zur
+  zurückhaltenderen Nachkriegslinie Magistretti/Ponti als Praxisregel ergänzt.
+- [[ruhlmann-art-deco-vs-kaare-klint-skandinavischer-funktionalismus]] — bewusste
+  Gegenüberstellung zweier Positionen derselben Dekade: Ruhlmanns Luxus-Art-déco (Hôtel du
+  Collectionneur 1925, Empire-Stil-Synthese, gescheitert am Modewechsel binnen eines
+  Jahrzehnts) gegen Klints körpermass-basierten Funktionalismus (Safari-Stuhl 1933, Wurzel der
+  späteren dänischen Designergeneration Wegner/Juhl/Mogensen/Wanscher). Vergleichstabelle plus
+  Praxisregel für Bauherrenkommunikation (Statement-Möbel mit Modeverfallsrisiko vs.
+  zeitloses Typenmöbel).
+
+Damit 19 von 128 Fliesstext-Dateien der Zeile 68 gelesen. **Zeile 68 bleibt offen** — rund 82
+weitere Personenartikel (u. a. Dieter Rams, Marco Zanuso, Tapio Wirkkala, Eero Saarinen,
+Gordon Russell, ein Schweden-Sammeltext `svenska.htm`) sowie ein `bilder`-Unterordner und
+`~$`/`.tmp`-Sicherungsdateien ungelesen. Kein Datenschutz-/Sperrlisten-Fund. `git diff
+--numstat` auf die Inventardatei zeigt reinen Append (unverändert, Zeile 68 bleibt
+Sammelposition ohne Einzeldatei-Abhaken). `wiki/INDEX.md` nachgeführt. **Nächster Lauf:**
+zuerst `bash scripts/nas-commit-now.sh` erneut versuchen (evtl. haben andere Lanes ihre
+Konflikte inzwischen selbst aufgelöst), dann Zeile 68 fortsetzen nach Dateigrösse
+(`svenska.htm` 18 KB, `rams.htm` 18 KB, `russell.htm`, `paris_1925.htm`), Duplikatscheck
+gegen die neun neuen Artikel dieser Sektion zwingend.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (105. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen, wie in dessen eigener
