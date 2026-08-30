@@ -4369,3 +4369,28 @@ parallel auf `main` schreiben, entsteht die Divergenz sofort neu. Zur Entscheidu
 Das ist Raphaels Entscheid, nicht meiner.
 
 | Eigene Messung 30.08.2026 01:15 (Selfcommit-Log der Synology, `git fetch` + `merge-base` im SSD-Klon, fehlgeschlagener `nas-commit-now.sh`) | Hub-Infrastruktur / alle KBs und Stationen | **hoch (P1)** | **offen und wachsend** — 68/34 bei Versuch 91; korrigiert den faelschlich als erledigt gefuehrten Nachtrag von 01:11 |
+
+**Nachtrag 30.08.2026 03:5x (twin-mail-training Batch 109, eigene Messung nativ per ssh im
+NAS-Repo `git status -sb`): die Divergenz waechst beschleunigt — `main...github/main`
+**[ahead 125, behind 61]**.** Verlauf desselben Vorgangs: 42/19 (29.08. 23:4x) → 68/34
+(30.08. 01:15) → **125/61 (30.08. 03:5x)**. Das ist eine **Verdopplung beider Zahlen in rund
+2,5 Stunden**; der aelteste unpushed Commit datiert vom **29.08.2026 22:05**, der juengste
+GitHub-Commit ist ein `auto-sync [Macmini]` von **30.08. 03:50** — beide Wege schreiben also
+weiterhin gleichzeitig und ungebremst.
+
+*Wie er sich diesmal zeigte:* `nas-commit-now.sh` gab **rc=1** mit einer Liste von
+Merge-Konflikten zurueck (`normen`, `architekten-synobsis`, `architektur-fachwissen`,
+`baurecht`, `grobkosten` CHANGELOGs, zwei KORPUS-QUEUEs). **Der rc war irrefuehrend:** die
+Nachpruefung nativ auf der Synology zeigte HEAD = `742b317c0` mit der Commit-Message dieses
+Laufs, **kein `MERGE_HEAD`, null Konfliktdateien, `wissen/twin/` sauber**. Der Commit lief
+also durch; gescheitert ist allein der Abgleich mit GitHub. **Merke fuer kuenftige Laeufe:
+bei rc=1 aus `nas-commit-now.sh` den HEAD nativ nachpruefen, bevor der Commit als
+fehlgeschlagen gemeldet oder wiederholt wird** — sonst entstehen Doppelcommits fuer eine
+Arbeit, die bereits gesichert ist.
+
+*Stand der Arbeit dieses Laufs:* im NAS-Repo committet und damit auf der kanonischen Quelle
+gesichert (Rule `sync-kanonische-quelle`); nur das GitHub-Backup dieser Linie fehlt.
+**Nicht aufgeloest, aus dem unveraenderten Grund:** unbeaufsichtigter Lauf, fremde
+unbestaetigte Arbeit anderer Laeufe (Rule `interaktive-eingriffe`, Rule
+`auto-verbesserungen` 260811 Punkt 3). Der offene Entscheid bleibt, **welcher der beiden
+Wege kuenftig allein pusht**.
