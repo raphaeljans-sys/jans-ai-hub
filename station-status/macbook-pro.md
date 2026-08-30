@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 09:42:27
+Stand: 30.08.2026 09:52:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 09:42:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7d2223483 FACHWISSEN: Bern/Siena Quellentextband destilliert, Inhaltsverzeichnis 54 Positionen gefunden
+- e7d80e91b FACHWISSEN: Lex Iulia Municipalis, Regensburg/Vita Meinwerci destilliert
