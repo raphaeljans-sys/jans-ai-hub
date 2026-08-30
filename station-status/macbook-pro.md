@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 16:03:02
+Stand: 30.08.2026 16:13:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 16:03:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2cf86eb3b Lane FACHWISSEN: Sauter-Kapitel 04 Klassizismus/Historismus/Eklektizismus destilliert
+- 7b9b41a0a Wissens-Destillat archiv-fachwissen: Sauter-Kapitel 06 Jugendstil/Secession (75. Lauf)
