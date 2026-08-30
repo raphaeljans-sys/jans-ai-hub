@@ -4,6 +4,52 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260830b — Cross-KB-Befunde (Wissens-Chef Run 48)
+
+**#64 — Schema-Entscheid: darf ein KB-Pfad ins `links:`-Feld?** Drei Artikel dieser KB tragen
+im `links:`-Frontmatter einen nackten KB-Pfad statt eines `[[wikilinks]]`:
+`ahb-planungsgrundlagen-richtlinie-sieben-oekologische-zielvorgaben.md`,
+`kostenkennwerte-schulanlage-leutschenbach.md`,
+`wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien.md`.
+Alle drei stammen aus den Eingriffen von **Wissens-Chef Run 47 (29.08.2026)**. Das Schema in
+`wissen/WISSEN-CLAUDE.md` Z. 50/60-61 definiert `links:` dagegen ausschliesslich als
+`[[artikel-name]]` auf einen **anderen Wiki-Artikel derselben KB**, und Prüfung B des Skills
+`wissenscheck` validiert genau das. **Folge, wenn nichts entschieden wird:** der nächste
+Wissenscheck dieser KB meldet diese drei Einträge als tote Backlinks — Falschbefunde, die ein
+Aufsichtslauf selbst erzeugt hat. Hub-weit ist die Form die Ausnahme: rund 7 von 272 Artikeln,
+in `energie` 0/40, `normen` 0/10, `baurecht` 0/30.
+*Variante 1:* `links:` bleibt reine `[[wikilink]]`-Zone, die drei Einträge werden zurückgeführt,
+der Cross-KB-Zeiger bleibt in Prosa plus `koordination/QUERBEZUEGE.md`.
+*Variante 2:* der KB-Pfad wird zweite offizielle Eintragsart — dann ist **zuerst** Prüfung B in
+`skills/wissenscheck/SKILL.md` anzupassen, sonst erzeugt jede weitere Ergänzung Falschbefunde.
+Bis zum Entscheid: nichts anfassen. Wer beantworten kann: Raphael (hub-weite Schema-Frage), oder
+ein Lauf, der `WISSEN-CLAUDE.md` und `wissenscheck` gemeinsam nachzieht.
+
+**#65 — Zwei namentlich belegte Doppelbewirtschaftungen mit `entwurfs-referenzen`.** Präzisiert
+den bereits offenen Punkt #2 (260823), der bisher nur allgemein «wo landen Entwurfsbestände»
+fragt. Konkret kollidieren: (a) `wiki/laon-fassadenbeschreibung-analysemethode-vertikale-prinzipien.md`
+mit dem in `wissen/entwurfs-referenzen/wiki/entwurfsprinzipien/INDEX.md` als «geplant» geführten
+`fassaden-rhythmus.md`; (b) `wiki/stil-styling-signatur-brand-abgrenzung.md` mit Abschnitt 3
+(«Kritik an Stil-Imitation») von `wissen/entwurfs-referenzen/wiki/entwurfsprinzipien/trennung-kunst-funktion-judd.md`.
+Doppelbewirtschaftung kann zulässig sein, wenn beide Seiten dieselbe Quelle mit **verschiedener
+Absicht** lesen — Präzedenz ist die Matrixzeile zum AHB-Korpus («Doppelbewirtschaftung ist
+gewollt», `QUERBEZUEGE.md` Z. 58). Zu entscheiden ist also die Absicht, nicht der Ort. Die
+Ebenen-Trennung selbst (afw führt Theorie und Begriffsschärfe, `entwurfs-referenzen` die
+kennwert- und bauaufgabengebundene Entwurfsregel) ist in `QUERBEZUEGE.md` als Matrixzeile
+gesetzt; offen bleibt nur diese zwei Einzelfälle. Wer beantworten kann: Raphael.
+
+**#66 — Bildbestand zu den Tessiner Bauten ist nur zur Hälfte gedeckt.**
+`wiki/tessiner-tendenza-analoge-architektur-ambiente-atmosphaere-genealogie.md` nennt neun in
+`wissen/architekten-synobsis` katalogisierte Architekten. Nachgemessen im Katalog: echtes
+Material liegt nur für **Maerkli** (Giornico, La Congiunta), **Zumthor** (Vals, Wachendorf),
+**Herzog_de_Meuron** (Tavole, Laufen Ricola) und **Rossi** (Bellinzona Castelgrande 1974) vor.
+Für **Botta** (kein Stabio/Rotonda/Riva San Vitale), **Galfetti** (kein Bagno Bellinzona),
+**Reichlin** (zwei Dateien, nur eine archinform-URL) und **Sik** (fast nur Professurordner)
+ist der Eintrag zu den im Artikel genannten Bauten leer; **Fabio Reinhart** hat gar keinen
+Katalogeintrag. Ein pauschaler Sammelverweis wäre darum eine Zusage ohne Deckung. Offen: ob der
+gedeckte Sammelhinweis (vier Architekten) gesetzt werden soll, bevor #2/#65 entschieden ist.
+Wer beantworten kann: Raphael, zusammen mit #65.
+
 ## 260830 — Eine technisch blockierte P1-Position, Sektion 02_Architekturgeschichte (Lane FACHWISSEN)
 
 **#63 — Begriffe-Scan ohne auswertbaren Text.**
