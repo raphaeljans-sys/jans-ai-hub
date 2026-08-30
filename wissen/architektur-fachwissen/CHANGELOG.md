@@ -1,5 +1,59 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Tragwerk`, zweiter P2-Lauf (Lane FACHWISSEN, 48. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text wie in den letzten gut 20 Läufen veraltet (behauptet «noch kein Destillat und
+keine Spec», Station im Dispatch fälschlich «MacBook Pro» statt des per `scutil
+--get ComputerName` bestätigten «Macmini») — Auftrag am realen Stand aus `KORPUS-QUEUE.md`
+und dieser Datei ausgerichtet. `ps aux` zeigte nur den eigenen `claude`-Prozess, keine
+Doppel-Instanz.
+
+Vier der fünf im Vorlauf namentlich offenen P2-Positionen in Sektion `01_Tragwerk`
+bearbeitet:
+
+- Killer-Dissertation, Knotenpunkt-Einzelseiten S. 138-144 (7 PDF, Fig. 95/99-102)
+  vollständig gelesen und als zwei neue Abschnitte («Knotenpunkt-Details des
+  Hauptdachstuhls», «Baufinanzierung durch Platzverkauf») in den bestehenden Artikel
+  `wiki/grubenmann-kirchen-holzdachstuhl-typologie.md` eingefügt — kein neuer Artikel,
+  gleiche Quelle/gleiches Gebäude wie der P1-Artikel; dessen «Offen»-Punkt zu den
+  Knotenpunkten damit aufgelöst. Massangaben: Hauptbinder-Stabpolygon 35.5 m Spannweite/
+  6.50 m Höhe, Querbinder 21.5 m, Hängesäulen 20/20 cm, Streckbalken 30/30 cm mit
+  verzahnter Holzlasche gestossen, Auflagerung über tiefer gesetztes Schwellenholz plus
+  zwei Streben. Nebenbefund: Kirchenfinanzierung über die Versteigerung einzelner
+  Sitzplätze («Kirchenörter»), Erlös 62'993 Gulden gegen Baukosten von 54'873 Gulden.
+- Werkschau-Register der Abschlussvorlesung (`TWE IV_Vorlesung_20110513_Abschluss.pptx`,
+  135 Folien, Bildunterschriften per Zip/XML-Extraktion ausgewertet, keine Bilder
+  reproduziert) → neuer Artikel
+  `wiki/werkregister-tragwerksentwurf-schwartz-architekten-1992-2011.md`: 15 Bauten/
+  Wettbewerbe 1992-2011 mit Architekt, Ingenieur und Jahr; auffällige wiederkehrende Achse
+  Kerez/Schwartz, verlinkt zu den bestehenden Leutschenbach-Kostenartikeln.
+- `Counterpoise.doc` (vollständig) → neuer Artikel
+  `wiki/counterpoise-tischtragwerk-erlaeuterungstext-massstabstransfer.md`: Erläuterungstext-
+  Muster «Tragwerk als Ausdrucksmittel» mit explizitem Massstabstransfer Hochbau zu
+  Möbeldesign, als Gliederungsvorlage für JANS-Erläuterungsberichte.
+- `Bridging the Gap.pdf` + `Aufgabe2.docx` (beide vollständig) → neuer Artikel
+  `wiki/aufgabenstellung-randbedingungen-muster-bridging-the-gap.md`: Sechsteilige
+  Aufgabenstellungs-Gliederung (Rahmendaten, disziplinäre Einordnung, Situationsanalyse-
+  Pflicht, Entwurfsspielraum plus optionale Methode, konkrete Nachweispflicht, harte
+  Randbedingungen als eigener disjunkter Block).
+
+Cross-KB- und Cross-Artikel-Duplikatprüfung (Grep auf «Counterpoise», «Bridging the Gap»,
+«Kongresshaus Davos», «Leutschenbach», «MFH Forsterstrasse», «Ponte Polmengo» über alle
+KBs) ergab keine Duplikate; die Leutschenbach-Nennung im neuen Werkregister verlinkt auf die
+bestehenden Kostenartikel statt sie zu wiederholen. `git diff --numstat` auf die
+Inventardatei: 32/0 (reiner Append, wie gefordert). Kein neuer Datenschutz- oder
+Sperrlisten-Fund; Sperrvermerk Seite 4 des Readers `111002_Reader_alle_Seiten.pdf`
+weiterhin nicht angetastet (Reader in diesem Lauf nicht angefasst).
+
+25 P2-Positionen dieser Sektion bleiben offen: die drei Kraftfluss-Darstellungsvarianten
+desselben Brückenlängsschnitts (reine Bilddiagramme ohne Text — methodisch bereits in der
+Inventardatei beschrieben, ein eigener Artikel wäre dünn), die restlichen Planserien/
+PLN-Dateien (P3, nicht P2) sowie vier Bildscans ohne Textlayer (ArchPlus, Archithese, Menn,
+Starke Strukturen — OCR nötig, `connectors/WEGE.md` prüfen). Nächster Lauf: entweder diese
+Restfunde klären oder gemäss Queue-Regel «nächstgrösste Sektion nach Ertrag» zu
+`02_Architektur_Vermitteln` oder `01_Landschaftsarchitektur` (je rund 12 P2-Positionen)
+wechseln.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Tragwerk`, erster P2-Lauf (Lane FACHWISSEN, 47. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet (behauptet «noch kein Destillat und keine Spec», real: beide

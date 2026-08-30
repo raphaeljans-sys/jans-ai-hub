@@ -2,7 +2,7 @@
 title: "Grubenmann-Kirchen: Drei Holzdachstuhl-Dispositive und die Kirche Wädenswil"
 status: emerging
 last_updated: 2026-08-29
-sources: ["/Volumes/daten/02_Architektur_Archiv/01_Tragwerk/04_Bauingenieure/Grubmann Gebrüder/02_Kirche_Waedenswil/01_Grundlagen/Tec21/Grubenmann_Kirchen_Tragwerk.pdf — Reto Gadola, «Tragwerk und Raumform in Grubenmanns Kirchen», TEC21 42-43/2009, S. 18-25", "/Volumes/daten/02_Architektur_Archiv/01_Tragwerk/04_Bauingenieure/Grubmann Gebrüder/02_Kirche_Waedenswil/01_Grundlagen/Dissertation/eth-20590-02.pdf — Josef Killer, «Die Werke der Baumeister Grubenmann», Zürich 1942 (ETH-Dissertation, öffentlich über e-collection.ethbib.ethz.ch/view/eth:20590), Einzelseiten S. 140-141 (Fig. 94, 96-98)", "raw/inventar/archiv-fachwissen__01_Tragwerk.md"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/01_Tragwerk/04_Bauingenieure/Grubmann Gebrüder/02_Kirche_Waedenswil/01_Grundlagen/Tec21/Grubenmann_Kirchen_Tragwerk.pdf — Reto Gadola, «Tragwerk und Raumform in Grubenmanns Kirchen», TEC21 42-43/2009, S. 18-25", "/Volumes/daten/02_Architektur_Archiv/01_Tragwerk/04_Bauingenieure/Grubmann Gebrüder/02_Kirche_Waedenswil/01_Grundlagen/Dissertation/eth-20590-02.pdf — Josef Killer, «Die Werke der Baumeister Grubenmann», Zürich 1942 (ETH-Dissertation, öffentlich über e-collection.ethbib.ethz.ch/view/eth:20590), Einzelseiten S. 140-141 (Fig. 94, 96-98) und S. 141-146 (Fig. 95, 99-102) aus dem Ordner Schwartz_Joseph/…/Dissertation/Einzelseiten/S138_144", "raw/inventar/archiv-fachwissen__01_Tragwerk.md"]
 links: []
 ---
 
@@ -72,20 +72,59 @@ Flaschenzug usw.). Der Betrag ist eine historische Kuriosität ohne heutige
 Kostenrelevanz, illustriert aber, dass die reine Zimmermannsarbeit nur rund drei Viertel
 der Gesamtsumme ausmachte.
 
+## Knotenpunkt-Details des Hauptdachstuhls (Killer, Fig. 99-102)
+
+Die auf die Kostenabrechnung folgenden Seiten der Dissertation (Fig. 95, 99-102) liefern die
+Knotenpunkt-Tiefe, die für eine Bestandsaufnahme über die Typologie hinaus nötig ist:
+
+**Massangaben Hauptbinder.** Der Hauptbinder (35.5 m Spannweite) ist ein siebenseitiges
+Stabpolygon von 6.50 m Höhe; die einzelnen Polygonstäbe bestehen aus je zwei Hölzern von
+18/19 cm Querschnitt. Die Hängesäulen sind profiliert, haben einen Querschnitt von je
+20/20 cm und sind nach unten gespreizt, damit sie den Streckbalken von 30/30 cm fassen
+können; dieser ist in der Mitte gestossen, die Zugkräfte werden durch eine verzahnte
+Holzlasche übertragen (Fig. 99, Binderfuss-Detail).
+
+**Kreuzungspunkt Haupt- und Querbinder.** Der Querbinder besteht aus einem vierseitigen
+Stabpolygon von 21.50 m Spannweite, in denselben Holzdimensionen wie der Hauptbinder. Da die
+Einsenkung am Kreuzungspunkt für beide Binder gleich sein muss, nimmt der Querbinder mit
+seiner rund halb so grossen Spannweite die grössere Last auf (Fig. 100/101, Schnittpunkt
+und Verbindung der Streckbalken).
+
+**Zwischenbinder und Deckenaufhängung.** Die Zwischenbinder, parallel zum Querbinder
+angeordnet, werden durch Streben und Spannriegel gebildet; damit die Spannweite der
+aufgehängten Deckenbalken nicht zu gross wird, sind diese durch vertikale Hölzer an den
+Bindern aufgehängt (Fig. 102, Längsbinder mit Hängesäule).
+
+**Auflagerung des Streckbalkens.** Um bei der grossen zu übertragenden Last eine möglichst
+grosse Auflagerfläche zu erhalten, ist das Schwellenholz tiefer gesetzt und der
+Streckbalken durch zwei Streben auf dieses abgestützt — genau die Lösung, die Killer als
+«besonders liebevoll» durchgeführte Detailausbildung hervorhebt.
+
+Killers eigene Einordnung: «Die Kirche von Wädenswil besitzt wohl eine der kühnsten
+Dachstuhlkonstruktionen der Schweiz.» Historische Notiz: Im 19. Jahrhundert wurde die
+ursprünglich einfache Dachdeckung durch ein Doppeldach ersetzt, was die Lasten erhöhte; die
+dafür nötige Verstärkung sei laut Killer «in wenig verständnisvoller Weise» erfolgt — ein
+dokumentierter Fall von statisch unbedachter Nachrüstung an einem historischen Holztragwerk.
+
+## Baufinanzierung durch Platzverkauf (Fig. 95)
+
+Nebenbefund zur Kostenabrechnung: Die Kirche wurde unter anderem durch den Verkauf
+einzelner Sitzplätze («Kirchenörter») finanziert, die öffentlich versteigert wurden und
+namentlich beschildert an ihre Käufer gingen (Schilder laut Killer noch an einigen Bänken
+erhalten). Der Erlös betrug 62'993 Gulden — 8'120 Gulden mehr als die Baukosten von 54'873
+Gulden. Das äussere Gebäude selbst bildet im Grundriss ein Rechteck von 38 m Länge und 20 m
+Breite (Aussenmass, zu unterscheiden vom stützenfreien Innenraum von 18 x 35 m nach TEC21).
+
 ## Was hier für JANS drinsteckt
 
 Wer im Bestand auf einen liegenden Dachstuhl oder ein Sprengwerk des 18. Jahrhunderts in
 der Ostschweiz oder im Kanton Zürich trifft, kann ihn anhand dieser drei Dispositive und
 der genannten Referenzbauten mit Baujahr in wenigen Minuten typologisch einordnen, statt
-zu vermuten. Killers Dissertation (191 Seiten, öffentlich zugänglich über die
-ETH-E-Collection) liefert bei Bedarf die vollständige bautechnische Tiefe bis auf
-Knotenpunkte und Einzelquerschnitte; dieser Artikel bildet nur den über TEC21
-zitierfähig verdichteten Kern ab.
+zu vermuten, und findet mit den obigen Knotenpunkt-Massen auch die konstruktive Tiefe für
+eine Bestandsaufnahme oder denkmalpflegerische Beurteilung im Detail.
 
 ## Offen
 
-Die von Killer im Detail behandelten Knotenpunkte (Verbindung Hängesäule-Untergurt-
-Längsbinder, Auflager des Streckbalkens) sind in der Dissertation auf weiteren, hier
-nicht gelesenen Seiten dokumentiert (191 Seiten gesamt, nur S. 140-141 sowie die
-TEC21-Abbildungen ausgewertet). Eine vertiefte Destillation der Knotendetails wäre ein
-eigener P2-Auftrag.
+Die 191-seitige Dissertation ist weiterhin nur in den ausgewerteten Ausschnitten gelesen
+(S. 140-146 zur Kirche Wädenswil); die übrigen Kapitel zu anderen Grubenmann-Bauten sowie
+den Brücken bleiben ungelesen und wären ein eigener, separater P2-Auftrag.

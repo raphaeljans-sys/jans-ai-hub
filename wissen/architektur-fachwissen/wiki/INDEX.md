@@ -87,7 +87,7 @@ jeweiligen Inventar unter «Triage».
 | 13 | `01_Entwerfen` | archiv | 6 / 1'246 — **P1 vollständig destilliert 29.08.2026, fünf Artikel** | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). P2 (elf Positionen: Ausbau-Variantenvergleich, Raumtypologie-Vorlesung, SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe, Fachglossare Farbe/Pigmente, Farbenlehre-Website, Ornamentik-Literaturliste, eigene Ideentexte, Class-A-Problem-Vokabular, Ikonographie-Raster u. a.) offen. | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
 | 14 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
 | 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 — **P1 vollständig destilliert 29.08.2026, vier Artikel** | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Naturstein-Materialkunde, Baumpflanzung/Kletterpflanzen und eine Pflanzenliste (Vogt-Broschüren). Dachbegrünung als Cross-KB-Duplikat zu `bauprodukte/dachbegruenung-systeme.md` erkannt, nicht erneut destilliert. Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). P2 (24 Positionen, u. a. Gartenanalyse-Raster, Stadtbaum-Merkblatt Luzern, Vogt-Projektbroschüren) offen. | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
-| 16 | `01_Tragwerk` | archiv | 4 / 1'098 P1, 2/31 P2 — **P1 vollständig destilliert 29.08.2026 (zwei Artikel), P2 im ersten Lauf 30.08.2026 (zwei weitere Artikel)** | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen (Grubenmann-Kirchen), Tragwerksentwurf-Philosophie (Plastizitätstheorie, Eleganz im Brückenbau), Formfindungsmethode nach Frei Otto (Fallbeispiel Stuttgart 21) und einem Literaturregister Holzbau. Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). P2 (29 Positionen, u. a. Killer-Knotenpunktdetails, Werkschau-Register) offen. | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
+| 16 | `01_Tragwerk` | archiv | 4 / 1'098 P1, 6/31 P2 — **P1 vollständig destilliert 29.08.2026 (zwei Artikel), P2 in zwei Läufen 30.08.2026 (sechs weitere Artikel/Ergänzungen)** | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen (Grubenmann-Kirchen, inkl. Knotenpunkt-Details), Tragwerksentwurf-Philosophie (Plastizitätstheorie, Eleganz im Brückenbau), Formfindungsmethode nach Frei Otto (Fallbeispiel Stuttgart 21), einem Literaturregister Holzbau, einem Werkregister Schwartz'scher Bauten 1992-2011, einem Erläuterungstext-Muster (Counterpoise) und einer Aufgabenstellungs-Gliederung mit Randbedingungen (Bridging the Gap). Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). P2 (25 Positionen, u. a. drei Kraftfluss-Darstellungsvarianten, textlose Bildscans) offen. | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
 | 17 | `00_Allgemein` | archiv | 3 / 19 | Meta-Ebene des Archivs: Ordnungslogik (24 Hauptordner) und ein eigenes 14-teiliges Fachsystematik-Konzeptpapier von 2011, kein Fachinhalt im engeren Sinn. | `raw/inventar/archiv-fachwissen__00_Allgemein.md` |
 | 18 | `02_Architektur_Vermitteln` | archiv | 3 / 85 | Lehrmaterial zur Vermittlung: Rhetorik, Moderation, Protokoll, Geschäftskorrespondenz, wissenschaftliches Arbeiten — direkt anschlussfähig an mehrere JANS-Skills. Datenschutz-Fund: private Kontaktdaten Dritter auf Studienarbeits-Titelblättern, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__02_Architektur_Vermitteln.md` |
 | 19 | `12_Masse` | buero | 2 / 11 | Acht gescannte Seiten einer Konstruktionslehre Hochbau tragen die Achs- und Wandabstände von Sanitärapparaten in den drei Stufen Minimum, Durchschnitt und Komfort über sieben Nasszellen-Grundrisstypen, dazu Montagehöhen und hindernisfreie WC-Masse; die übrigen neun Dateien sind Dubletten oder unbelegt. | `raw/inventar/buero-referenzen__12_Masse.md` |
@@ -1098,3 +1098,50 @@ Abschlussvorlesung, drei Kraftfluss-Darstellungsvarianten, Randbedingungs-Muster
 «Bridging the Gap», Counterpoise-Erläuterungstext). Nächster Lauf: entweder weiter in
 `01_Tragwerk` oder gemäss Queue-Regel zu `02_Architektur_Vermitteln`/
 `01_Landschaftsarchitektur` wechseln.
+
+## 260830 — Sechsundzwanzigster Destillat-Lauf (Korpus 4, Sektion `01_Tragwerk`, zweiter P2-Lauf)
+
+Dispatch-Text wie in den letzten gut 20 Läufen veraltet (behauptet «noch kein Destillat und
+keine Spec», reale Station laut `scutil --get ComputerName` Macmini statt der im Dispatch
+genannten «MacBook Pro») — Auftrag stattdessen am realen Stand aus `KORPUS-QUEUE.md` und
+dieser Datei ausgerichtet, siehe Memory `project_fachwissen-dispatch-loop` (48. Beispiel).
+`ps aux` zeigte nur den eigenen `claude`-Prozess, keine Doppel-Instanz.
+
+Vier der fünf im Vorlauf namentlich offenen P2-Positionen in `01_Tragwerk` bearbeitet:
+
+- Killer-Dissertation-Knotenpunkte (Einzelseiten S. 138-144, Fig. 95/99-102) vollständig
+  gelesen und als neue Abschnitte «Knotenpunkt-Details des Hauptdachstuhls» und
+  «Baufinanzierung durch Platzverkauf» in
+  [[grubenmann-kirchen-holzdachstuhl-typologie]] eingefügt (kein neuer Artikel, gleiche
+  Quelle/gleiches Gebäude wie der bestehende P1-Artikel; damit ist dessen «Offen»-Punkt zu
+  den Knotenpunkten aufgelöst).
+- Werkschau-Register der Abschlussvorlesung (`TWE IV_Vorlesung_20110513_Abschluss.pptx`,
+  135 Folien, nur Bildunterschriften ausgewertet) → neuer Artikel
+  [[werkregister-tragwerksentwurf-schwartz-architekten-1992-2011]] (15 Bauten/Wettbewerbe
+  1992-2011 mit Architekt/Ingenieur/Jahr; auffällige wiederkehrende Achse Kerez/Schwartz,
+  cross-referenziert zu [[tragwerksbeschrieb-leutschenbach-kennwerte]] und
+  [[kahn-monumentalitaet-form-evokes-function-post-miesismus]]).
+- Counterpoise-Erläuterungstext (`Counterpoise.doc`, vollständig) → neuer Artikel
+  [[counterpoise-tischtragwerk-erlaeuterungstext-massstabstransfer]] (Argumentationsmuster
+  Tragwerk als Ausdrucksmittel, Massstabstransfer Hochbau zu Möbeldesign).
+- Randbedingungs-Muster «Bridging the Gap» (`Bridging the Gap.pdf` + `Aufgabe2.docx`,
+  beide vollständig) → neuer Artikel
+  [[aufgabenstellung-randbedingungen-muster-bridging-the-gap]] (Sechsteilung einer
+  Aufgabenstellung, harte Randbedingungen als disjunkter Einzelsatz-Block).
+
+Gegen bestehende Wiki-Artikel geprüft: keine Duplikate (Grep auf «Counterpoise», «Bridging
+the Gap», «Kongresshaus Davos», «Leutschenbach», «MFH Forsterstrasse», «Ponte Polmengo» über
+alle KBs, nur die bereits bekannten Leutschenbach-Kostenartikel als Cross-Referenz
+verlinkt, nicht dupliziert). `git diff --numstat` auf die Inventardatei zeigt 32/0 (reiner
+Append). Kein neuer Datenschutz- oder Sperrlisten-Fund; Sperrvermerk Seite 4 des Readers
+`111002_Reader_alle_Seiten.pdf` weiterhin nicht angetastet (Reader in diesem Lauf nicht
+angefasst).
+
+25 P2-Positionen bleiben offen: die drei Kraftfluss-Darstellungsvarianten desselben
+Brückenlängsschnitts (reine Bilddiagramme ohne Text — ein eigener Artikel dazu wäre dünn,
+methodisch bereits in der Inventardatei unter «Was hier für JANS drinsteckt» Punkt 6
+beschrieben), die restlichen Planserien/PLN-Dateien (P3, nicht P2) sowie vier Bildscans ohne
+Textlayer (ArchPlus, Archithese, Menn, Starke Strukturen — OCR nötig). Nächster Lauf: entweder
+die Kraftfluss-Bilder/Bildscans klären (OCR-Weg prüfen, `connectors/WEGE.md`), oder gemäss
+Queue-Regel «nächstgrösste Sektion nach Ertrag» zu `02_Architektur_Vermitteln` oder
+`01_Landschaftsarchitektur` (je rund 12 P2-Positionen) wechseln.

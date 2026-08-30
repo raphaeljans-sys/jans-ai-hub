@@ -242,3 +242,35 @@ Randbedingungs-Muster der Seminarwochen-Aufgabenstellung («Bridging the Gap») 
 Counterpoise-Erläuterungstext. Kein neuer Datenschutz- oder Sperrlisten-Fund; der
 Sperrvermerk auf Seite 4 des Readers `111002_Reader_alle_Seiten.pdf` wurde erneut beachtet
 (Reader in diesem Lauf nicht angefasst).
+
+## Destillat-Fortschritt
+
+**30.08.2026 (Lane FACHWISSEN, zweiter P2-Lauf dieser Sektion).** Vier P2-Positionen
+gelesen und destilliert:
+
+- Killer-Dissertation, Einzelseiten S. 138-144 (7 PDF, Ordner
+  `.../Dissertation/Einzelseiten/S138_144/` plus `Einzelseiten/eth-20590-02 139.pdf`) —
+  vollständig gelesen (Fig. 95, 99-102; Fig. 94/96-98 waren bereits über die Volltext-Fassung
+  für P1 gelesen). Knotenpunkt-Massangaben (Hauptbinder-Stabpolygon 35.5 m/6.50 m,
+  Querbinder 21.5 m, Hängesäulen-/Streckbalken-Verbindung, Auflagerung Schwellenholz) und der
+  Finanzierungs-Nebenbefund (Verkauf der «Kirchenörter», 62'993 Gulden Erlös) als neue
+  Abschnitte in das bestehende `wiki/grubenmann-kirchen-holzdachstuhl-typologie.md`
+  eingefügt, kein neuer Artikel (gleiches Gebäude, gleiche Quelle).
+- `.../03_Vorlesungen/110513_Abschlussvorlesung/TWE IV_Vorlesung_20110513_Abschluss.pptx`
+  (Bildunterschriften aller 135 Folien ausgewertet, nicht die Bilder selbst) → destilliert zu
+  `wiki/werkregister-tragwerksentwurf-schwartz-architekten-1992-2011.md` (15 Bauten/
+  Wettbewerbe 1992-2011 mit Architekt/Ingenieur/Jahr).
+- `.../00_Administration/02_Daten/Counterpoise.doc` (vollständig) → destilliert zu
+  `wiki/counterpoise-tischtragwerk-erlaeuterungstext-massstabstransfer.md`
+  (Erläuterungstext-Muster Tragwerk als Ausdrucksmittel).
+- `.../Weiteres Material/Bridging the Gap.pdf` + `Aufgabe2.docx` (beide vollständig) →
+  destilliert zu `wiki/aufgabenstellung-randbedingungen-muster-bridging-the-gap.md`
+  (Aufgabenstellungs-Gliederung mit Randbedingungen als eigenem Block).
+
+25 P2-Positionen dieser Sektion bleiben offen: die drei Kraftfluss-Darstellungsvarianten
+desselben Brückenlängsschnitts (reine Bilddiagramme ohne Text, methodisch bereits im
+Kurzbefund oben beschrieben, ein eigenständiger Artikel dazu wäre dünn), die Planserien und
+PLN-Dateien (P3, nicht P2), sowie die 4 Bildscans ohne Textlayer (ArchPlus, Archithese,
+Menn, Starke Strukturen — OCR nötig, siehe Empfehlung oben). Kein neuer Datenschutz- oder
+Sperrlisten-Fund; Sperrvermerk Seite 4 des Readers `111002_Reader_alle_Seiten.pdf` erneut
+beachtet (Reader nicht angefasst).
