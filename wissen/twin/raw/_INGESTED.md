@@ -2260,3 +2260,91 @@ Behördenschiene **AfB / Feuerpolizei** und der vom Fidelity-Lauf 260828 erschlo
 Lektüre zwingend **beide Teile dieser Datei** auswerten (Batch-Tabelle UND die
 Gold-Verbrauch-Abschnitte der Fidelity-Läufe); (5) Auto-Block-Reserve messen statt
 fortschreiben.
+
+---
+
+## Batch 109 (30.08.2026) — Sent Items `rj@` 29.08.2026 + historischer `Drafts`-Bestand 2024/2025
+
+**Datei:** `260830-mailbatch-109.md` · **Gewichtung:** authentisch (9 Golds) ·
+**eingearbeitet:** ja (alle sechs Facetten + [[QUESTIONS]] 260830 #1–#3)
+
+### ⚠ Berichtigung der Batch-108-Zeile in dieser Datei
+
+Der Batch-108-Abschnitt nennt unter «Nächstes Fenster» den Ordner **Drafts** als «von keinem
+Batch je angefasst». **Das trifft nicht zu**, und die Batch-Tabelle derselben Datei widerlegt
+es: die Batches **96, 97, 98, 101, 102 und 103** haben ihn genutzt; Batch 96 hat ihn
+vollständig vermessen (damals 103 Einträge, «Bestand zurück bis 04.07.2025»). Berichtigt am
+30.08.2026. Gefangen hat den Fehler die eigene Vorgabe, **beide Teile dieser Datei** vor der
+Lektüre auszuwerten — der Fehler stand im Kopf, die Widerlegung in der Tabelle.
+
+**Der eigentliche Sachverhalt ist feiner und wertvoller:** alle sechs früheren Zugriffe
+nutzten `Drafts` als **Delta-Werkzeug** (Paare aus Claude-Entwurf und versendeter Fassung,
+jeweils im aktuellen 2026er Fenster). Der **historische Bestand 2024/2025** — Entwürfe ohne
+Sent-Partner, vollständig vor dem Claude-Stichtag — wurde nie als eigenständige Gold-Quelle
+gehoben. Eine Quelle lag sechsmal in der Hand und blieb ungenutzt, weil sie unter einer
+anderen Funktion geführt wurde.
+
+**Abgedeckt:** (A) `rj@` Sent Items **29.–30.08.2026** vollständig (`totalResultCount: 3`,
+`order: oldest`): 1 Hub-Briefing per Gratis-Vorfilter übersprungen, 1 Teams-Einladung ohne
+Prosa, **1 Gold** im Volltext. (B) `Drafts` Seite 1 von 5 (**25 von 123**, `order: oldest`,
+04.07.–24.10.2025): **5 Golds im Volltext**, davon zwei mit Zitat-Stack, der **2 weitere
+authentische Mails** (28.06. und 30.06.2025) enthielt. **Gesamt 9 Golds, davon 8 aus dem
+vor-Claude-Fenster.** Zeiten lokal; Graph liefert UTC.
+
+**Verbraucht — nicht erneut destillieren:** Terminbitte Lichtmasse an den Werkplaner Türen
+29.08.2026 17:55 · Offertanfrage HLKSS an den Gebäudetechnik-Planer 29.07.2025 (Entwurf,
+abgebrochen) · TDD-Angebot mit 6-Punkte-Zustandseinschätzung an den Bauherrn 28.06.2025 ·
+Quittung der Absage an denselben 30.06.2025 · Dropbox-Family-Member an den 3D-Freelancer
+18.08.2025 · Moodboard/Rhino an denselben 20.08.2025 · Terrassen-PDF an den Bauherr-Partner
+07.07.2025 · Zwei-Wort-Quittung an die Gemeinde-Fachperson 30.07.2025 · Planversand an
+dieselbe 02.10.2024.
+
+**Kernbefunde:** (1) ⭐ **Der historische Drafts-Bestand ist eine ungehobene Gold-Quelle**
+(siehe Berichtigung oben). (2) ⭐ **Die Kanal-Regel aus Batch 96 («Apple Mail = Hub-Draft =
+`claude-aera`») gilt NUR für die Claude-Ära** — der Hub schreibt `osascript`-Drafts erst seit
+2026; vor 2026 ist Apple Mail Raphaels Mac-Client. Vier der fünf Entwürfe wären sonst zu
+Unrecht gesperrt worden. **Bei Material vor 2026 entscheidet das Fehlerbild, nicht der
+Client.** (3) ⭐ **«Times New Roman» ist ein belegter Falsch-Positiv der AI-Paste-Detektion**
+— Apple Mail rendert `p.p1` in Times bei plain-text-begonnenem Entwurf; das Signal misst die
+Editor-Weiche, nicht den Autor. Wie beim Guillemet-Signal gilt es nur noch **in Kombination**.
+(4) ⭐ **Binnengrossschreibung über 14 Monate stabil und über alle Wortarten** («Bitten»,
+«Machen», «In», «Korrekten») — Kanal-Fingerabdruck der mobilen Eingabe, Echtheitsindiz, nicht
+nachzuahmen. (5) ⭐ **Du gross im Anliegen, klein im nachgeschobenen Nebensatz** — dritte
+Lesart, zwei Belege mit beiden Formen im selben Satz, Quote 0.875, **nicht entschieden**.
+(6) ⭐ **«Frage:» als Gattungswort vor dem Anliegen**, Familie mit «Ziel:» und A)/B).
+(7) ⭐ **Die Antwort steht zuerst, die Begründung nach dem Komma** — sechs nummerierte
+Positionen einer Zustandseinschätzung, Ziffer ohne Punkt. (8) ⭐ **«wir» für das Angebot,
+«ich» für das Urteil** — löst den scheinbaren Konflikt mit «kein vereinnahmendes wir».
+(9) ⭐ **Stufung als Kostenschutz, mit dokumentierter Bestätigung durch die Gegenseite** —
+Raphaels Vorschlag nahm die Absage des Bauherrn zwei Tage später wörtlich vorweg.
+(10) **Der Dank für die Berücksichtigung steht nach der Absage**, die Absage selbst bleibt
+unkommentiert. (11) ⭐ **KI-Auskunft als Hörensagen** («chatcpt sagt es sei…», Konjunktiv,
+Quelle genannt) — früher Beleg der Belegdisziplin gegenüber Werkzeugen. (12) **Registerwechsel
+«Lieber» → «Geschätzter» beim selben Kontakt in zwei Tagen**: das Anlassgewicht hebt die Stufe
+**formeller, nicht wärmer**; Auslöser ist der Geldbezug. (13) **Die Schlussformel ist
+registerinvariant**, nur das Pronomen wechselt (Du/Sie, 22 Monate Abstand, wortgleich).
+(14) **Der Gruss variiert frei im Register, nicht nach Empfänger** — «Gruss Raphael» und
+«Bester Gruss» an dieselbe Person, 48 h Abstand. (15) **«Ich lade Sie ein.»** — fachlich
+delegieren, organisatorisch selbst zugreifen. (16) **Die Handlungskette wird gelegt, nicht
+begründet** (Vorleistung → Bitte → Folgeleistung → Ziel → Klärung, kein Wort der
+Rechtfertigung). (17) **Dritter Beleg der Nicht-Nivellier-Linie**: fünf Empfänger, ein
+Angesprochener.
+
+**Reserve des Auto-Blocks — gemessen:** `build_dna.py` meldet **33'952 B von 34'000, also
+48 B Reserve** — identisch zu Batch 108. Der Lauf hat die sechs Facetten um je einen
+Batch-Abschnitt erweitert und danach kompiliert: **«bereits aktuell (keine Aenderung)»,
+`rules/jans-dna-facetten.md` md5-gleich vor und nach dem Lauf** (`ca3b827b…`). Vierter Lauf
+in Folge bestätigt: Batch-Abschnitte wirken nie aufs Gehirn, nur Do/Don't-Blöcke tun das —
+und deren nächste Erweiterung bricht am Riegel ab.
+
+**Nächstes Fenster:** (1) **`Drafts` Seite 2 von 5** (`order: oldest`, ab Eintrag 26,
+`offset: 25`) — 98 Einträge ungelistet, der ergiebigste bekannte Bestand; Gewichtung bis zum
+Entscheid Raphaels als `authentisch (Entwurf, nicht versendet)` führen ([[QUESTIONS]] 260830
+#2). (2) Danach bzw. parallel `rj@` Sent Items **ab 30.08.2026**. (3) **Gratis-Vorfilter vor
+jedem `read_resource`**: `summary` = «--» oder beginnt mit «Freundliche Grüsse» → leere Hülle,
+überspringen (sparte hier 8 von 25 Aufrufen); ebenso Selbstadressierung + Loop-Name im Betreff.
+(4) **Die Kanal-Regel von Batch 96 nicht auf Vor-2026-Material anwenden** (Kernbefund 2) und
+das Times-Signal nur in Kombination werten (Kernbefund 3). (5) Vor der Lektüre zwingend
+**beide Teile dieser Datei** auswerten — genau das hat diesen Lauf vor einem falschen
+Kernbefund bewahrt. (6) Auto-Block-Reserve messen statt fortschreiben. (7) Weiterhin offen und
+von keinem Batch angefasst: die Behördenschiene **AfB / Feuerpolizei**.

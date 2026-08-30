@@ -4,6 +4,58 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-30 — twin-mail-training Batch 109: historischer `Drafts`-Bestand als Gold-Quelle gehoben
+
+**Quelle:** `raw/260830-mailbatch-109.md`. (A) Sent Items `rj@` 29.–30.08.2026 vollständig
+(`totalResultCount: 3`) → **1 Gold**. (B) `Drafts` Seite 1 von 5 (25 von 123, `order: oldest`,
+04.07.–24.10.2025) → **5 Golds**, davon zwei mit Zitat-Stack, der **2 weitere authentische
+Mails** (28./30.06.2025) enthielt. **Gesamt 9 Golds, 8 davon vor dem Claude-Stichtag.**
+
+**Berichtigung an `raw/_INGESTED.md`:** der Batch-108-Abschnitt führte `Drafts` als «von keinem
+Batch je angefasst» — die Batch-Tabelle derselben Datei nennt sechs frühere Zugriffe (96, 97,
+98, 101, 102, 103). Berichtigt. Der wahre Sachverhalt: alle sechs nutzten den Ordner als
+**Delta-Werkzeug** für 2026er Paare; der **historische Bestand 2024/2025** wurde nie als
+Gold-Quelle gehoben. Diese Berichtigung ist dem Prüfschritt «beide Teile der Datei auswerten»
+zu verdanken.
+
+**Zwei Detektions-Regeln präzisiert (Echo-Schutz):**
+1. Die Kanal-Regel aus Batch 96 («Apple Mail = Hub-`osascript`-Draft = `claude-aera`») gilt
+   **nur für die Claude-Ära** — der Hub schreibt solche Drafts erst seit 2026. Bei Material
+   vor 2026 entscheidet das **Fehlerbild**, nicht der Client. Vier von fünf Entwürfen wären
+   sonst zu Unrecht gesperrt worden.
+2. «Times New Roman im Fliesstext» ist ein **belegter Falsch-Positiv** der AI-Paste-Detektion
+   (Apple Mail rendert `p.p1` in Times bei plain-text-begonnenem Entwurf). Wie das
+   Guillemet-Signal ab jetzt nur noch **in Kombination** mit einem zweiten Signal zu werten.
+
+**Facetten geschärft (alle sechs, append-only, `--numstat` bzw. Zeilendifferenz geprüft):**
+[[stimme]] +94 (Binnengrossschreibung über 14 Monate und alle Wortarten · Du gross im Anliegen /
+klein im Nachsatz, dritte Lesart, Quote 0.875 · «Frage:» als Gattungswort · «Bester Gruss» als
+vierte Du-Variante, Gruss nicht empfängergebunden · Zwei-Wort-Quittung · Subjektauslassung ·
+Times-Korrektur) · [[denken]] +47 (Handlungskette gelegt statt begründet · Antwort zuerst,
+Begründung nach dem Komma · Ausschluss und Alternative in einem Atemzug · Abstufung beziffert
+statt qualifiziert) · [[haltung]] +48 (Stufung als Kostenschutz **mit dokumentierter Bestätigung
+der Gegenseite** · Dank für die Berücksichtigung nach der Absage · KI-Auskunft als Hörensagen ·
+Vollmacht angeboten bevor verlangt) · [[beziehungsregister]] +65 («Lieber» → «Geschätzter» beim
+selben Kontakt in zwei Tagen: Anlassgewicht hebt **formeller, nicht wärmer** · dritter Beleg der
+Nicht-Nivellier-Linie · registerinvariante Schlussformel · drei Kontakt-Nachträge) ·
+[[fachsignatur]] +62 (nummerierte Zustandseinschätzung als dichtestes Fachstück des Korpus ·
+**«wir» für das Angebot, «ich» für das Urteil** · Gewerk statt Firma · Grobziel in KW,
+Einzelschritt im Datum) · [[arbeitsweise]] +78 («Ich lade Sie ein.» — fachlich delegieren,
+organisatorisch selbst zugreifen · Gattungswort vor dem Inhalt · Methoden-Nachtrag Drafts).
+
+**Offene Fragen:** [[QUESTIONS]] 260830 #1 (welche der drei Lesarten der Du-Grossschreibung
+gilt — oder wandert sie schlicht mit der Betonung?), #2 (sind die restlichen 98 Drafts als
+Gold freigegeben, obwohl sie **nicht versendet** wurden?), #3 (hebt der Geldbezug die
+Anrede-Stufe formeller?).
+
+**Auto-Block:** 33'952 B von 34'000 (48 B Reserve, unverändert gegenüber Batch 108).
+`build_dna.py` meldet «bereits aktuell»; `rules/jans-dna-facetten.md` md5-gleich vor und nach
+dem Lauf (`ca3b827b…`). Vierter Lauf in Folge: Batch-Abschnitte wirken nicht aufs Gehirn.
+
+**Nächstes Fenster:** `Drafts` Seite 2 (`offset: 25`, `order: oldest`), danach Sent Items ab
+30.08.2026. Gratis-Vorfilter für leere Hüllen («--» / «Freundliche Grüsse» als ganzes `summary`)
+sparte hier 8 von 25 `read_resource`-Aufrufen.
+
 ## 2026-08-29 (Wissens-Chef Run 47) — Uebergabe: unbekannter Eigentext-Stratum 2007–2014 als moegliche GOLD-Quelle
 
 `wiki/QUESTIONS.md` (+36/−0), Block **260829c**. Die KB `architektur-fachwissen` destilliert seit dem
