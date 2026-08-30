@@ -77,7 +77,16 @@ geführt) verschärfen statt lösen.
 
 ## Offene Punkte
 
-- Exakter CashCtrl-PRO-Preis 2026 und Saldosteuersatz-Methode (Live-Seite prüfen).
+- ~~Exakter CashCtrl-PRO-Preis 2026 und Saldosteuersatz-Methode~~ **VERIFIZIERT 30.08.2026
+  an der Live-Seite (cashctrl.com/de/info/plans, Browser-Rendering):** PRO kostet
+  **CHF 350.—/Jahr inkl. MWST**, enthalten 3 Benutzer/Mitarbeiter, 2 Organisationen, 1 GB;
+  Zusatz: Benutzer CHF 80/Jahr, Organisation CHF 40/Jahr, Mitarbeiter CHF 40/Jahr,
+  Speicher CHF 15/10 GB/Jahr. **Prepaid ohne automatische Vertragsverlängerung** (6 Mt./
+  1 J./2 J.). **API-Zugriff braucht einen Benutzerplatz pro Organisation** (mit 3 Plätzen:
+  Raphael + 2 API-Plätze geht knapp auf). Saldosteuersatz wird unterstützt (eigener
+  Steuersatz-Typ, Steuer vom Bruttobetrag; Abrechnung vereinbart oder vereinnahmt) —
+  Quellen: help.cashctrl.com TaxRate/TaxRateEdit/AccountingMethodConfig,
+  forum.cashctrl.com/d/130 (Tutorial Saldosteuersätze).
 - Wortlaut der offiziellen bexio-Migrationskommunikation (Helpcenter nur im Browser lesbar).
 - Konkrete 401-Ursache (im eingeloggten Konto unter developer.bexio.com sichtbar).
 - Treuhänder-Frage für den AG-Jahresabschluss: falls ein Treuhänder mandatiert wird,
