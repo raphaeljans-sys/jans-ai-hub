@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 16:13:19
+Stand: 30.08.2026 16:23:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 16:13:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7b9b41a0a Wissens-Destillat archiv-fachwissen: Sauter-Kapitel 06 Jugendstil/Secession (75. Lauf)
+- 223fa3a50 wissens-destillat: Sauter-Kapitel 07 Expressionismus/Kubismus destilliert (02_Architekturgeschichte, 76. Lauf)

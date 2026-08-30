@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 16:16:27
+Stand: 30.08.2026 16:26:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 16:12)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 16:16:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f4521d2de nas-selfcommit: 3 Datei(en) 2026-08-30 16:15
+- 223fa3a50 wissens-destillat: Sauter-Kapitel 07 Expressionismus/Kubismus destilliert (02_Architekturgeschichte, 76. Lauf)
