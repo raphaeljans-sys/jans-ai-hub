@@ -4717,3 +4717,97 @@ und setzte «Lieber Gruss» plus Block — fuenf Elemente, von denen im Gold **k
 Der Auto-Block lag am 29.08.2026 bei 33'952 B von 34'000 B (Reserve 48 B). Die Nullform ist
 darum hier belegt, aber nicht kompiliert — sie wirkt erst nach einem Entscheid Raphaels
 (→ [[QUESTIONS]] 260829b #4).
+
+## Batch 109 (30.08.2026) — Drafts-Erstzugriff 2024/2025 + Sent 29.08.2026
+
+Quelle: [[260830-mailbatch-109]], 9 Golds, Gewichtung `authentisch`. Erster Zugriff auf den
+Ordner `Drafts` (123 Einträge, ältester 04.07.2025) — durchgehend vor dem Claude-Stichtag.
+
+### ⭐ Die Binnengrossschreibung hält 14 Monate und trifft jede Wortart
+
+«Darf ich Sie **B**itten» · «Erstellen Sie **B**itte danach» · «Am besten **M**achen wir» ·
+«Gut zur Ausführung **I**n KW 36» (29.08.2026) — und 14 Monate früher, anderes Gerät:
+«das PDF mit der **K**orrekten Terrassen» (07.07.2025).
+
+Adverb, Vollverb, Präposition, Adjektiv. Die Streuung über die Wortarten und die Stabilität
+über die Zeit machen aus dem bisher als Tagesartefakt notierten Muster einen **Kanal-Finger-
+abdruck der mobilen Eingabe**.
+
+**Für den Zwilling: NICHT nachahmen** — es ist ein Artefakt, kein Stilmittel. Aber beim
+**Gewichten** ist es ein starkes Echtheitsindiz: ein Text mit dieser Streuung ist selbst
+getippt.
+
+### ⭐ Du gross im Anliegen, klein im nachgeschobenen Nebensatz — dritte Lesart
+
+Zwei Belege, beide mit **beiden Formen im selben Satz**:
+
+- «Ich habe **D**ich als Family-Member hinzugefügt, **d**u solltest jetzt unbegrenzter
+  Speicherplatz haben.» (18.08.2025)
+- «Kannst **D**u mir eine Offerte machen … müsste ich von **D**ir wissen ob **d**u ein
+  Vorschlag hättest…» (29.07.2025)
+
+Gross steht das Du im **Hauptsatz-Anliegen**, klein im **nachgeschobenen Neben- oder
+Folgesatz**, der Konsequenz oder Rückfrage trägt. Das ist die dritte Lesart neben
+Satzfunktion (Batch 107) und Adressat-vs-Inline-Zuruf (Batch 108) — und die erste, die
+beide Belege dieses Batches ohne Rest erklärt. Die drei schliessen einander nicht aus:
+möglich ist, dass die Grossschreibung mit der **Betonung** wandert.
+**Nicht entschieden** → [[QUESTIONS]] 260830 #1. Gemessene Quote im Batch: **0.875**.
+
+### ⭐ «Frage:» — das Gattungswort vor dem Anliegen
+
+«Hoi Labinot,\n**Frage:** Kannst Du mir eine Offerte machen für…» (29.07.2025) Das Anliegen
+wird etikettiert, bevor es gestellt wird: Ein-Wort-Gattung, Doppelpunkt, direkt nach der
+Anrede, ohne Einleitungssatz. Familie mit «Ziel:» (siehe unten) und der A)/B)-Listenform —
+Raphael stellt dem Inhalt regelmässig ein Wort voran, das den **Sprechakt benennt**.
+
+### Der Zielsatz steht allein
+
+«**Ziel: Gut zur Ausführung In KW 36.**» — eigener Absatz zwischen Handlungskette und
+Terminvereinbarung. Weder Begründung noch Bitte: er sagt, worauf die Kette hinausläuft.
+
+### «Bester Gruss» — vierte Du-Gruss-Variante, und der Gruss hängt nicht am Empfänger
+
+Belegt sind nun «Freundliche Grüsse», «Lieber Gruss», «Gruss Raphael», «**Bester Gruss**»
+und «Lgr». Entscheidend: «Gruss Raphael» (18.08.2025) und «Bester Gruss» (20.08.2025) gehen
+**an denselben Empfänger, 48 Stunden auseinander**. Der Gruss variiert also **frei innerhalb
+des Registers**, nicht nach Person. Für den Zwilling: die Wahl ist innerhalb der Du-Formen
+nicht determiniert — jede ist richtig, keine ist die Regel.
+
+### Die Zwei-Wort-Quittung, mit Ausrufezeichen
+
+Vollständiger Text einer Behörden-Mail: «Sehr geehrte Frau <Nachname>\n**Besten Dank!**\n
+Freundliche Grüsse» (30.07.2025). Die Empfangsbestätigung braucht keinen Satz. Zwei
+Feinheiten: das im Korpus seltene **Ausrufezeichen**, und das **fehlende Komma** nach der
+Anrede — die Mail vom Vorjahr an dieselbe Person trug es noch.
+
+### Subjektauslassung, gehäuft und nur im Du
+
+«**Habe** das Moodboard noch aktuallisiert:» · «**Versuche** Dir heute noch … hochzuladen.» ·
+«**Möchte** es mal testweise ausprobieren…» — dreimal im selben kurzen Text (20.08.2025).
+Der Marker war vereinzelt belegt; hier tritt er gehäuft und ausschliesslich im vertrauten
+Du-Register auf.
+
+### Der Bindestrich als Spar-Konnektor
+
+«Bitte Desktopapp für Dropbox installieren **-** workflow bei Videocall sitzungen wird
+besser.» Anweisung, Strich, Grund. Das berührt die Dokument-Regel «kein Gedankenstrich als
+Stilmittel» nicht — dies ist Kanal-Ökonomie in der Zwei-Zeilen-Mail, nicht Rhetorik.
+
+### Anglizismen und Komposita bleiben klein und ungefügt — nur im Du
+
+«**w**orkflow», «**V**ideocall **s**itzungen», «**p**lugins», «**a**rchitekten». In keiner
+Sie-Mail des Batches. Kanal-Rauheit, für den Zwilling nicht nachzuahmen, aber als
+Registermarker zu kennen.
+
+### ⚠ Korrektur an der Echo-Detektion: «Times New Roman» allein verurteilt nichts
+
+Die KB-`CLAUDE.md` führt abweichende Schrift im Fliesstext als AI-Paste-Signal. Der
+Yorck-Entwurf vom 18.08.2025 rendert seinen **gesamten** Text in
+`font-family:"Times New Roman",serif` — und ist zweifelsfrei handgetippt (Du-Schwankung im
+selben Satz, kleiner Anglizismus, auseinandergerissenes Kompositum). Die Ursache ist die
+**Editor-Weiche von Apple Mail** (`p.p1` bei plain-text-begonnenem Entwurf), nicht die
+Herkunft des Textes.
+
+**Wie beim Guillemet-Signal (korrigiert 03.08.2026) gilt ab jetzt: Schrift-Abweichung zählt
+nur in Kombination mit einem zweiten Signal.** Allein genommen hätte sie hier sechs Marker
+vernichtet.

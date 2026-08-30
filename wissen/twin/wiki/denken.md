@@ -1275,3 +1275,50 @@ kenntlich machen** («ist mein Vorschlag»), nicht als beschlossene Sache.
 Bohren in den / Heizschlaufenbereich für die Montage der <Fabrikat>-Elementen.» (08:40) Er
 sagt nicht, was ihm lieber ist, sondern **welche Variante weniger nach sich zieht** — und
 überlässt die Prüfung denen, die den Bestand kennen.
+
+## Batch 109 (30.08.2026) — Drafts-Erstzugriff 2024/2025 + Sent 29.08.2026
+
+Quelle: [[260830-mailbatch-109]], 9 Golds, Gewichtung `authentisch`.
+
+### ⭐ Die Handlungskette wird gelegt, nicht begründet
+
+Fünf Absätze, jeder ein Glied (29.08.2026, an den Werkplaner):
+
+1. **Vorleistung Dritter mit Datum** — «Am kommenden Mittwoch ist der LBW-Ersteller fertig
+   mit den Unterzügen.»
+2. **Bitte an den Adressaten mit Datum** — «Darf ich Sie Bitten am Donnerstag den 03.09.26
+   die restlichen Lichtmasse vor Ort aufzunehmen.»
+3. **Folgeleistung desselben Adressaten** — «Erstellen Sie Bitte danach die Werkpläne zur
+   Freigabe.»
+4. **Ziel** — «Ziel: Gut zur Ausführung In KW 36.»
+5. **Klärungstermin für den Rest** — «Am besten Machen wir am Montag … ein Teamscall für
+   offene Frage der finalen Spezifikationen.»
+
+Kein Wort der Rechtfertigung. Der Adressat sieht, **woran seine Aufgabe hängt und was von
+ihr abhängt** — die Begründung liegt in der Reihenfolge selbst. Das ist die knappste bisher
+belegte Form der bereits notierten Vorleistungs-Kette.
+
+### ⭐ Die Antwort steht zuerst, die Begründung folgt nach dem Komma
+
+Sechs Positionen einer Gebäudezustandseinschätzung (28.06.2025), Format
+**`<Ziffer> <Stichwort>: <Antwort>, <Begründung>`**:
+
+- «1 Hochhaus: **Nein**, Gebäude mittlerer Höhe, Gebäudekategorie 3/4, erhöhter Brandschutz»
+- «3 Restnutzungsdauer Steigzone: **ca. 10-20J**»
+- «4 Nachrüstungen Brandschutz: **kleinere Arbeiten ja, grosse nein** (…)»
+
+Nie umgekehrt. Wer fragt, bekommt zuerst das Ja/Nein oder den Wert; die Herleitung ist
+Beigabe, nicht Vorbau. Für den Zwilling die schärfste Vorgabe gegen den eigenen Hang,
+erst zu erklären und dann zu antworten.
+
+### Ausschluss und Alternative in einem Atemzug
+
+«Erdwärme: **Nein, nicht möglich**, Fernwärme/Biogas **evtl.**» — was nicht geht, wird
+verneint und **sofort durch das Mögliche ersetzt**. Eine Verneinung bleibt nie allein
+stehen.
+
+### Die Abstufung wird beziffert, nicht qualifiziert
+
+«kleinere Arbeiten ja, grosse nein» statt «teilweise»; «ca. 10-20J» statt «beschränkt»;
+«gleich oder dicker 4mm» statt «ausreichend stark». Auch die Unsicherheit trägt eine Zahl
+oder ein «evtl.» — nie ein weiches Adjektiv.
