@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 09:54:23
+Stand: 30.08.2026 10:04:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 09:29)
+- /Users/raphaeljans  (letzte Aktivitaet 10:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 09:54:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e7d80e91b FACHWISSEN: Lex Iulia Municipalis, Regensburg/Vita Meinwerci destilliert
+- eb22ff2d6 nas-selfcommit: 3 Datei(en) 2026-08-30 10:00

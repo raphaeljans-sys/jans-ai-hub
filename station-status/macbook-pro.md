@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 09:52:44
+Stand: 30.08.2026 10:03:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 09:52:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e7d80e91b FACHWISSEN: Lex Iulia Municipalis, Regensburg/Vita Meinwerci destilliert
+- eb22ff2d6 nas-selfcommit: 3 Datei(en) 2026-08-30 10:00
