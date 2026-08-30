@@ -614,3 +614,24 @@ Verfahrensdokument, Architekt in öffentlicher Wettbewerbsfunktion). `git diff -
 nach dem Schreiben geprüft: reiner Append. Sicherung via `bash scripts/nas-commit-now.sh`.
 **Nächster Lauf:** einen der drei übrigen Depot-Hard-Berichte lesen (Gegenprobe auf die
 Sandwich-Struktur), sonst gemäss `KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.
+
+## Destillat-Fortschritt, zehnter Lauf (P1, 31.08.2026, Lane FACHWISSEN)
+
+Zweite der vier Depot-Hard-Positionen gelesen: `02_Architekturdisskurs/04_Wettbewerbe/
+Zuerich/150115_Neubau_Depot_Hard/LA_TERRAZZA-Jurybericht.pdf` (Projekt Nr. 3 «la
+terrazza», von Ballmoos Krucker Architekten, 2. Rang/2. Preis, S. 44–45). **Kein neuer
+Artikel** — als Gegenprobe in den bestehenden
+[[wettbewerbsjury-projektkritik-sandwich-struktur-kerez-depot-hard]] eingearbeitet: die
+Drei-Teile-Struktur bestätigt sich an einem zweiten, unabhängigen Verfasser derselben
+Verfahrensreihe, damit gilt sie als Konvention der Herausgeberschaft, nicht als
+Büro-Idiosynkrasie. Neuer, wiederverwendbarer Mängeltyp aus diesem Bericht: konkrete
+Brandschutz-Bewilligungsfähigkeit an der Anleiterbarkeit durch die Feuerwehr (offene
+Treppenhäuser ohne Schleuse bei mehrgeschossigem Wohnbau).
+
+**Damit sind 2 der 4 Depot-Hard-Berichte gelesen**, 2 bleiben offen (BERTA, ZEPPELIN,
+dieselbe Quelle). Von den rund 20 zuvor offenen Juryberichten/-programmen dieser Sektion
+bleiben rund 18. Datenschutz/Sperrliste: kein Fund (veröffentlichtes Verfahrensdokument,
+Architekt in öffentlicher Wettbewerbsfunktion). `git diff --numstat` nach dem Schreiben
+geprüft: reiner Append. Sicherung via `bash scripts/nas-commit-now.sh`. **Nächster Lauf:**
+einen der zwei übrigen Depot-Hard-Berichte lesen (BERTA oder ZEPPELIN), sonst gemäss
+`KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.

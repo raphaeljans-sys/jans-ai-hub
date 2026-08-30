@@ -7739,3 +7739,32 @@ auf die Inventardatei zeigt `22 0`, reiner Append. Sicherung via
 `bash scripts/nas-commit-now.sh`. Nächster Lauf: empfohlen einen der drei übrigen
 Depot-Hard-Berichte lesen (Gegenprobe auf die Sandwich-Struktur), sonst gemäss
 `KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.
+
+## 31.08.2026 — Sektion 02_Gestalt_Kulturverstaendnis, zehnter Lauf, zweite Depot-Hard-Position (Lane FACHWISSEN)
+
+Zweite der vier Depot-Hard-Jurybericht-Positionen gelesen: `02_Architekturdisskurs/
+04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/LA_TERRAZZA-Jurybericht.pdf`
+(Projektwettbewerb Neubau Depot Hard, Projekt Nr. 3 «la terrazza», von Ballmoos Krucker
+Architekten, 2. Rang/2. Preis, S. 44–45).
+
+**Kein neuer Artikel** — als Gegenprobe in den bestehenden
+[[wettbewerbsjury-projektkritik-sandwich-struktur-kerez-depot-hard]] eingearbeitet. Die
+Drei-Teile-Kritikstruktur (Würdigung der Grundidee → Mängelkatalog nach Fachthemen →
+Fazit-Synthese mit Korrigierbarkeits-Einordnung) bestätigt sich an einem zweiten,
+unabhängigen Büro derselben Verfahrensreihe — damit gilt sie als Konvention der
+Herausgeberschaft, nicht als Idiosynkrasie eines einzelnen Verfassers (offene Frage aus
+dem neunten Lauf beantwortet). Neuer, wiederverwendbarer Mängeltyp gegenüber dem
+Kerez-Beitrag: eine konkrete Brandschutz-Bewilligungsfähigkeitsfrage an der
+Anleiterbarkeit durch die Feuerwehr (offene Treppenhäuser zur Limmat ohne Schleuse sind
+bei diesem mehrgeschossigen Wohnbau feuerpolizeilich unzulässig) — ergänzt die
+Mängeltyp-Checkliste im Artikel.
+
+**Damit sind 2 der 4 Depot-Hard-Berichte gelesen**, 2 bleiben offen (BERTA, ZEPPELIN,
+dieselbe Quelle). Von den rund 20 zuvor offenen Juryberichten/-programmen dieser Sektion
+bleiben rund 18. Weiterhin offen: 62 der 65 Betonforum-Referate, Teile der
+Modellfoto-Methodik. Datenschutz/Sperrliste: kein Fund (veröffentlichtes
+Verfahrensdokument, Architekt in öffentlicher Wettbewerbsfunktion). `git diff --numstat`
+auf die Inventardatei zeigt `21 0`, reiner Append. Sicherung via
+`bash scripts/nas-commit-now.sh`. Nächster Lauf: empfohlen einen der zwei übrigen
+Depot-Hard-Berichte lesen (BERTA oder ZEPPELIN), sonst gemäss `KORPUS-QUEUE.md` die
+nächste Sektion mit offenem P1.

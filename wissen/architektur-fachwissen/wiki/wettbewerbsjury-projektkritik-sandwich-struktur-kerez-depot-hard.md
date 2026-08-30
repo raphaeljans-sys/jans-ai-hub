@@ -2,7 +2,7 @@
 title: "Wettbewerbsjury-Projektkritik: Sandwich-Struktur am Beispiel Kerez, Depot Hard"
 status: emerging
 last_updated: 2026-08-31
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/MY_HOME_IS_MY_CASTLE-Jurybericht.pdf (Jurybericht Projektwettbewerb Neubau Depot Hard – Tramdepot und Wohnsiedlung, Zürich-West, Projekt Nr. 10 «MY HOME IS MY CASTLE», Christian Kerez Zürich AG, S. 156–167, veröffentlichtes Verfahrensdokument)"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/MY_HOME_IS_MY_CASTLE-Jurybericht.pdf (Jurybericht Projektwettbewerb Neubau Depot Hard – Tramdepot und Wohnsiedlung, Zürich-West, Projekt Nr. 10 «MY HOME IS MY CASTLE», Christian Kerez Zürich AG, S. 156–167, veröffentlichtes Verfahrensdokument)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/LA_TERRAZZA-Jurybericht.pdf (dieselbe Verfahrensreihe, Projekt Nr. 3 «la terrazza», von Ballmoos Krucker Architekten, 2. Rang/2. Preis, S. 44–45, veröffentlichtes Verfahrensdokument)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/BERTA-Jurybericht.pdf (dieselbe Verfahrensreihe, Projekt Nr. 8 «BERTA», Morger + Dettli Architekten AG, 1. Rang/1. Preis, S. 30–31, veröffentlichtes Verfahrensdokument)"]
 links: ["[[wettbewerbsjury-kapitelfolge-gestaltungsplan-zollstrasse-ost-sbb]]", "[[wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien]]"]
 ---
 
@@ -39,6 +39,55 @@ Textstruktur **innerhalb der Beurteilung eines einzelnen Projekts**.
    „korrigierbar" bewertet, was den Beitrag von einem grundsätzlich verworfenen
    unterscheidet, ohne dass der gelesene Auszug seine Rangfolge im Verfahren nennt.
 
+## Gegenprobe: «la terrazza» (Projekt Nr. 3, 2. Rang/2. Preis)
+
+Derselbe Dreiteiler bestätigt sich an einem zweiten, unabhängig verfassten Projekttext
+derselben Verfahrensreihe (anderes Büro: von Ballmoos Krucker Architekten): 1) Würdigung
+der städtebaulichen Grundidee (Flussbezug, Höhenstaffelung, Hofraum) ungeteilt positiv,
+2) Mängelkatalog nach Fachthemen — hofseitige Vorgärten schnüren den Aussenraum ein,
+vierspännig erschlossene Hofwohnungen mit einseitiger Ausrichtung, knapp belichtete
+Koch-/Esssituationen in den tiefen Baukörpern, ein bewilligungsrechtlich unzulässiges
+Erschliessungsdetail (offene Treppenhäuser zur Limmat: „Der Brandschutz verlangt ein
+geschlossenes Sicherheitstreppenhaus mit Schleuse, da die Feuerwehr nicht anleitern
+kann"), Innenfassaden qualitativ hinter den Aussenfassaden zurückbleibend —, 3)
+Fazit-Synthese, die Stärke (städtebauliche Idee, Ensemblewirkung zum denkmalgeschützten
+Kopfbau) und ungenütztes Potenzial (Hofraum) benennt und die Zielerstellungskosten sowie
+die ökologische Nachhaltigkeit ausdrücklich einordnet („im korrigierbaren Bereich").
+Die Struktur ist damit nicht büro- oder verfassertypisch, sondern eine Konvention dieser
+Verfahrensreihe/Herausgeberschaft. Neuer, wiederverwendbarer Mängeltyp gegenüber dem
+Kerez-Beitrag: **Erschliessungs-Brandschutz konkret an der Anleiterbarkeit durch die
+Feuerwehr** (offenes Treppenhaus ohne Schleuse ist bei mehrgeschossigen Wohnbauten ohne
+zweiten Rettungsweg über Fassade bewilligungsrechtlich unzulässig) — ergänzt die
+Checkliste in der Praxisregel unten.
+
+## Gegenprobe: «BERTA» (Projekt Nr. 8, 1. Rang/1. Preis)
+
+Der Siegerbeitrag (Morger + Dettli Architekten AG) traegt dieselbe Grundfigur, aber in
+gestauchter, milderer Auspraegung: 1) Wuerdigung der staedtebaulichen Idee (zwei versetzte,
+gleich hohe Hochhaeuser als Torsituation, Clusterbildung mit den Bestandstuermen,
+Ensemblebildung mit dem denkmalgeschuetzten Bestand) breit und ungeteilt positiv, ueber
+mehrere Absaetze inklusive Wohnungstypologie und Materialisierung entfaltet. 2)
+Mängelkatalog spuerbar kuerzer und in der Wortwahl abgeschwaecht («dennoch muessen
+naturgemaess einige Punkte noch optimiert werden» statt einer expliziten
+Bewilligungsfaehigkeits-Verneinung): Laermschutz einzelner Wohnungen im Turm West bis ins
+12. Obergeschoss, Gebrauchswert der Grundrisse (Erschliessung, Kueche/Essbereich) noch zu
+pruefen, Position der Fluchttreppenhaeuser im Hofbereich „noch nicht ideal" (wahrscheinlich
+zusaetzliches Treppenhaus noetig), ein erdgeschossig wenig kontrollierter Restraum bei der
+Einfahrtsrampe. 3) Keine explizite Korrigierbarkeits-Einordnung im Fazit — an ihre Stelle
+tritt eine laengere Wuerdigung von Effizienz (217 Standardwohnungen, „zu den effizientesten
+und kompaktesten Vorschlaegen"), oekologischer Nachhaltigkeit und der kontrovers
+diskutierten, aber positiv gedeuteten Typologiefrage (zweigeschossiges Wohnen als
+familiengerechtes Modell), bevor der Text mit uneingeschraenktem Lob schliesst.
+**Wiederverwendbarer Befund:** die Drei-Teile-Struktur (Wuerdigung → Maengel → Synthese)
+bleibt ueber alle drei gelesenen Raenge (1., 2., unbekannt/Kerez) stabil, aber Laenge und
+Schaerfe des Maengelteils sowie das Vorhandensein einer expliziten
+Korrigierbarkeits-Formel scheinen mit dem Rang zu korrelieren: der Siegerbeitrag erhaelt
+den kuerzesten, am mildesten formulierten Maengelteil und keine explizite
+Schweregrad-Einordnung, weil die Platzierung selbst diese Einordnung bereits vornimmt.
+Diese Korrelation ist mit drei Faellen aus einer einzigen Verfahrensreihe ein erster Beleg,
+keine gesicherte Regel — echte Gegenprobe waere ein Vergleich ueber mehrere
+Verfahrensreihen/Herausgeberschaften.
+
 ## Praxisregel
 
 Für den Agenten `bericht-autor`: eine kritische, aber konstruktive Projektwürdigung
@@ -46,16 +95,17 @@ benennt zuerst die tragende Idee ungeteilt positiv, bündelt die Kritik anschlie
 Fachthemen statt nach Verfahrenskriterien, und schliesst mit einer Einordnung des
 Schweregrads (korrigierbar vs. grundsätzlich). Für `programm-pruefer`: die hier belegten
 Mängeltypen (Bestandsschutz-Anschluss, Tragwerkskomplexität, Erschliessungs-/Brandschutz-
-Bewilligungsfähigkeit, Wohnungsgrundriss-Flächeneffizienz, Betriebsenergie-Zielwert) sind
-eine geprüfte Checkliste wiederkehrender Kritikkategorien bei Wohnungsbau-Wettbewerben
-öffentlicher/halböffentlicher Bauherrschaften.
+Bewilligungsfähigkeit — inkl. Anleiterbarkeit durch die Feuerwehr bei offenen
+Treppenhäusern —, Wohnungsgrundriss-Flächeneffizienz, einseitig orientierte
+Hofwohnungen, Betriebsenergie-Zielwert) sind eine geprüfte Checkliste wiederkehrender
+Kritikkategorien bei Wohnungsbau-Wettbewerben öffentlicher/halböffentlicher
+Bauherrschaften.
 
 ## Offene Punkte
 
-- Nur ein Projekttext aus einem 22-teiligen Juryberichte-Korpus dieser Sektion gelesen;
-  ob die Sandwich-Struktur branchen- oder nur büro-/verfassertypisch ist (hier: gleiche
-  Herausgeberschaft wie der bereits destillierte Zollstrasse-Ost-Bericht?), lässt sich erst
-  nach weiteren Beispielen beurteilen. Die drei übrigen Depot-Hard-Beiträge (BERTA,
-  LA_TERRAZZA, ZEPPELIN, selbe Quelle) sind die nächstliegende Gegenprobe.
-- Rangfolge/Platzierung des Beitrags im Verfahren ist aus dem gelesenen Auszug (S. 156–167)
-  nicht ersichtlich (keine Rangliste im ausgewerteten Seitenbereich); nicht erfinden.
+- Zwei von vier Depot-Hard-Beiträgen gelesen (Kerez, la terrazza); die Sandwich-Struktur
+  gilt damit für die Verfahrensreihe, nicht nur für einen Verfasser. BERTA und ZEPPELIN
+  (selbe Quelle) sind die nächstliegende weitere Gegenprobe.
+- Rangfolge des Kerez-Beitrags im Verfahren ist aus dem gelesenen Auszug (S. 156–167)
+  nicht ersichtlich (keine Rangliste im ausgewerteten Seitenbereich); nicht erfinden. Für
+  «la terrazza» ist der Rang dagegen explizit belegt (2. Rang/2. Preis, S. 44).
