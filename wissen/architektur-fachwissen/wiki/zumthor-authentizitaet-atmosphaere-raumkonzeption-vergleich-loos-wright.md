@@ -2,8 +2,8 @@
 title: "Peter Zumthor — Authentizität, Atmosphäre-Begriff und Raumkonzeptions-Vergleich Loos/Wright/Zumthor (Architekturtheorie I, ETH gta, VL10)"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111202_VL10_Zumthor/02_Vorlesungsmitschriften/111202_Zunthor_Architekturtheorie_I.docx", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111202_VL10_Zumthor/02_Vorlesungsmitschriften/03_Zusammenfassung/120208_Zumthor.docx"]
-links: ["[[zumthor-kritischer-regionalismus-haus-truog-frampton-ricoeur]]", "[[raumplan-adolf-loos-oekonomische-begruendung]]", "[[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]]", "[[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]]"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111202_VL10_Zumthor/02_Vorlesungsmitschriften/111202_Zunthor_Architekturtheorie_I.docx", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111202_VL10_Zumthor/02_Vorlesungsmitschriften/03_Zusammenfassung/120208_Zumthor.docx", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120518_Abschlussvorlesung/01_Vorlesungsmittschrift/120518_Abschlussvorlesung_AT120518.docx (Abschlussvorlesung/Prüfungs-Zusammenfassung, 18.05.2012, Ergänzung Böhme/Blur Building)"]
+links: ["[[zumthor-kritischer-regionalismus-haus-truog-frampton-ricoeur]]", "[[raumplan-adolf-loos-oekonomische-begruendung]]", "[[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]]", "[[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]]", "[[perspektive-axonometrie-visualitaet-symbolische-form-panofsky-eisenman]]"]
 ---
 
 # Peter Zumthor — Authentizität, Atmosphäre-Begriff und Raumkonzeptions-Vergleich Loos/Wright/Zumthor
@@ -75,6 +75,33 @@ Laut Zusammenfassung (mit Bezug auf Gernot Böhme und Christian Norbert Schulz):
   für Zumthor alles: die Dinge, die Menschen, die Luft, Geräusche, Ton, Farben, materielle
   Präsenz, Texturen, Formen») — dieser Artikel liefert die ausführlichere Primärquellen-Fassung
   aus der Vorlesung selbst.
+
+## Ergänzung: Böhme, formloser Raum und das Blur Building (aus der Abschlussvorlesung)
+
+Zusatzquelle mit deutlich eingeschränkter Belegqualität: die Live-Mitschrift der
+Abschlussvorlesung (18. Vorlesung, Prüfungsrückblick, kein Syllabus/keine Zusammenfassung im
+Ordner vorhanden) ist durchgehend fehlerhaft transkribiert (u. a. «Kollhass», «Gerhard Bähme»
+für Gernot Böhme, «Sylabi»). Der folgende Punkt ist trotzdem eigenständig und ergänzt den oben
+referierten Böhme-Bezug um ein konkretes Grenzfall-Beispiel, nicht nur eine Wiederholung:
+
+- **Blur Building** (Diller & Scofidio, Expo.02 Yverdon-les-Bains, 2002): laut Mitschrift ein
+  Fallbeispiel dafür, dass «die Architektur eben nicht die Architektur» sei, «sondern die
+  Wassertropfen, wo eine Wolke generiert» wird — das Gebäude erzeugt keine sichtbare Form,
+  sondern eine künstliche Wolke aus Wasserdampf («The Building of Nothing»). Zentrale Frage laut
+  Quelle: nicht das sichtbare Objekt steht im Vordergrund, sondern eine «Zone der Unsicherheit»
+  zwischen Architektur und Kunst — Grenzen der disziplinären Einordnung werden bewusst
+  aufgehoben.
+- **Böhmes «formloser Raum»**: die Wolke wird als ständig sich verändernde, nie fixierbare Form
+  beschrieben — daher laut Quelle der Rückbezug auf Brunelleschis Spiegelexperiment (siehe
+  [[perspektive-axonometrie-visualitaet-symbolische-form-panofsky-eisenman]]): dessen Apparat
+  («Strahlenkäfig») konnte gerade das Formlose nicht einfangen. Böhme wird mit der Metapher
+  zitiert, die Wolke sei «ein blauer Krug», der nur «in der Zeit der Wahrnehmung» existiert; Ort
+  und Zeit/Orientierung gelten dabei laut Quelle als «verloren».
+- Einordnung: eine Erweiterung der bereits oben referierten Böhme-Position (Atmosphäre als nicht
+  klassisch-visuell messbare, an die Umwelt gebundene Kategorie) um den Extremfall eines Gebäudes
+  ohne feste Gestalt — nützlich als Gegenpol zu Zumthors materialgebundenem Atmosphäre-Begriff im
+  selben Artikel: dort entsteht Atmosphäre trotz wandelnder Lichtstimmung aus einer stofflichen
+  Präsenz, beim Blur Building aus deren vollständiger Auflösung.
 
 ## Raumkonzeptions-Vergleich Loos/Wright/Zumthor (Prüfungsfrage 04)
 

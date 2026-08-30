@@ -4,6 +4,24 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, zehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `wiki/QUESTIONS.md` und die letzten CHANGELOG-Eintraege geprueft
+(Memory-Hinweis: chronischer Dispatch-Loop). Ergebnis unveraendert gegenueber dem neunten
+Folgelauf (03:25 Uhr): **Fehlextraktionen** (Tadao_Ando, Spuehler_Martin, Wurster_William,
+Pfister_Gebrueder, Pouillon_Fernand, Romero_Schaefle, Rohn_Roland) BEHOBEN bzw. gepruft und
+bewusst textlos belassen wo keine Alternativquelle existiert; **Katalog-Kollisionen**
+(Christ_Gantenbein, Enzmann_Fischer, Miller_Maranta, Gigon_Guyer) BEHOBEN inkl. Scanner-Fix
+(`build_slug_index()`/`merge_records()`); **Sonderzeichen-Regel** vereinheitlicht (NFC-Fix in
+`slugify()`) und alle 14 betroffenen Slugs nachgezogen; **Sammelfrage Charge 1-6**
+vollstaendig einzeln recherchiert, verbleibende vier Namen (Fischle, Gigometti,
+Goldsmith_Felix, Gruppo_Ligure) mit Ordnerinhalt gesichtet und ohne Beleg — bleiben laut
+Vermerk in `QUESTIONS.md` offen, bis neues Material im Quellordner liegt. Kein neuer Fund,
+keine Aenderung an `QUESTIONS.md` in diesem Lauf. Dies ist der zehnte Redispatch desselben
+Auftrags an einem einzigen Tag; die Ursache liegt im Dispatch-Mechanismus, nicht in der KB.
+Empfehlung an Raphael: Lane SYNOBSIS pausieren, bis ein neuer, inhaltlich anderer Auftrag
+vorliegt. `git diff --numstat` fuer `wiki/QUESTIONS.md`: `-0`. Gesichert via `nas-commit-now.sh`.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, neunter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
 
 Vor jeder Recherche gegen `wiki/QUESTIONS.md` geprueft (Memory-Hinweis: chronischer

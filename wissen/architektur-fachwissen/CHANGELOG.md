@@ -1,5 +1,40 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, einundzwanzigster P2-Lauf, `120511_Vision_Visualitaet_II_Nadas` (Lane FACHWISSEN, 44. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich
+«MacBook Pro», real Macmini laut `scutil`). Vor Arbeitsbeginn geprüft: `ps aux` zeigte einen
+`claude -p`-Prozess für Lane FACHWISSEN (dieser Lauf) und einen unabhängigen für Lane SYNOBSIS —
+keine Doppel-Instanz. Unkommittierte `120504_Vision_Visualitaet_I_Gropius`-Buchführung des
+Vorlaufs zuerst per `nas-commit-now.sh` gesichert (erneuter NAS-Merge-Konflikt in sechs fremden
+KBs — normen, architekten-synobsis, baurecht, grobkosten plus die eigene KB —, lokaler Working
+Tree ohne `MERGE_HEAD` und ohne Konfliktmarker, dem 15-Min-Cron überlassen).
+
+`120511_Vision_Visualitaet_II_Nadas` (9. Vorlesung Architekturtheorie II, 11.05.2012)
+bearbeitet: **keine Live-Mitschrift vorhanden** — der Ordner `03_Vorlesungsmitschrift` ist leer,
+einzige Textquelle ist der zweiseitige Syllabus (`01_Sylabus/Seiten aus
+SYL-Ath2-2012-1bis9.pdf`, `pypdf`). Ein Artikel destilliert:
+`wiki/vision-visualitaet-ii-transparenz-townscape-otto-wagner-diagramm-nadas.md` (`status:
+speculative`): Transparenz/Opazität-Kritik des Okularzentrismus nach Rowe/Slutzky (dasselbe Werk
+wie in der Vorvorlesung zur Axonometrie-Frage), Moholy-Nagy, Kepes, Philip Johnsons Glass House;
+Otto Wagners Phantasie-Training und die vier Grossstadt-Kriterien Demokratie/Ökonomie/
+Utilität/Hygiene mit Werkliste (Entwurf unbegrenzte Grossstadt 1911, Friedenskirche 1917,
+Mietshaus Neustiftgasse 40); die britische Townscape-Bewegung (Pevsner, Cullen, de Wolfe,
+*Architectural Review*) als Traditionslinie «Sitte bis Koolhaas»; Black Mountain College und
+Buckminster Fullers Dymaxion-Projekte/Fuller Projection.
+
+Gegen bestehende Wiki-Artikel geprüft (`grep` auf Wagner/Cullen/Pevsner/Townscape/Transparenz/
+MVRDV/Fuller): der Syllabus-Punkt «Diagramm als Form-Generator» (MVRDV, *Metacity Datatown*,
+1999) ist eine reine Literaturwiederholung zu
+`wiki/technik-maschine-archigram-diagramm-vs-plan-architekturtheorie.md`, wo dieselbe Quelle
+bereits ausführlich im Rahmen der Diagramm-vs-Plan-Debatte figuriert — nicht erneut destilliert.
+Kein weiterer inhaltlicher Überschneidungsfund. Vorlesungsfolien (rund 100 Einzelseiten) und
+Tonmitschnitt nicht ausgewertet. Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschnitt «Destillat-Fortschritt»,
+reiner Append (`git diff --numstat` zeigt `-0`). Offen: 3 der 23 Vorlesungsordner. `wiki/INDEX.md`
+und `skills/wissens-destillat/KORPUS-QUEUE.md` nachgeführt. Nächster Lauf:
+`120518_Abschlussvorlesung`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, zwanzigster P2-Lauf, `120504_Vision_Visualitaet_I_Gropius` (Lane FACHWISSEN, 43. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich

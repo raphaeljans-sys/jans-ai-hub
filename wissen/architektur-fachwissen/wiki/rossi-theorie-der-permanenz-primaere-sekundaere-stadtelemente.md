@@ -2,7 +2,7 @@
 title: "Rossi — Theorie der Permanenz: primäre und sekundäre Stadtelemente, Typus im Vergleich zu Muratori/Caniggia und Venturi"
 status: emerging
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111111_VL7_Rossi_Aldo/05_Fragen/120112_VL_7_Aldo_Rossi_Fragen.docx (eigener, ausformulierter Fragen-Antwort-Katalog, datiert 12.01.2012, Bezug Vorlesung 7 vom 11.11.2011, Referenzprofessur Á. Moravánszky/S. Hildebrand, ETH Zürich gta, Textwissen A. Rossi «Architektur für die Museen», Anthologie S. 446-451)"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111111_VL7_Rossi_Aldo/05_Fragen/120112_VL_7_Aldo_Rossi_Fragen.docx (eigener, ausformulierter Fragen-Antwort-Katalog, datiert 12.01.2012, Bezug Vorlesung 7 vom 11.11.2011, Referenzprofessur Á. Moravánszky/S. Hildebrand, ETH Zürich gta, Textwissen A. Rossi «Architektur für die Museen», Anthologie S. 446-451)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120518_Abschlussvorlesung/01_Vorlesungsmittschrift/120518_Abschlussvorlesung_AT120518.docx (Abschlussvorlesung/Prüfungsrückblick, 18.05.2012, Ergänzung Stalinallee-vs-Modena)"]
 links: ["[[typus-modell-prototyp-trennschaerfe-architekturtheorie]]", "[[fassadenbeschreibung-methode-laon-rossi-analogie]]"]
 ---
 
@@ -93,6 +93,35 @@ Piranesis Stichen römischer Monumentalbauten) vertrat: visionäre Bauten, oft f
 bautechnisch nicht realisierbar, mit dem Leitbegriff der «Immensité» (Unermesslichkeit). Rossi
 knüpft mit seinem Diktum «die Architektur muss auf sich selbst zurückgeführt werden» bewusst an
 diese Tradition an.
+
+## Ergänzung: Übungsbeispiel Stalinallee versus Friedhof San Cataldo/Modena
+
+Zusatzquelle mit eingeschränkter Belegqualität: die Live-Mitschrift der Abschlussvorlesung
+(Prüfungsrückblick, kein Syllabus im Ordner) ist durchgehend fehlerhaft transkribiert. Sie
+überliefert eine dort ausdrücklich als Muster-Prüfungsfrage bezeichnete Aufgabe, die Rossis
+Theorie an einem zweiten Übungsbeispiel neben Lucca durchspielt und damit die oben dokumentierte
+Theorie der Permanenz konkretisiert, nicht wiederholt:
+
+- **Prüfungsfrage laut Quelle**: «Aldo Rossi hat die Bauten des sozialistischen Realismus
+  bewundert, wie zum Beispiel die Stalinallee in Ost-Berlin — erklären Sie diese Faszination mit
+  drei Begriffen aus Rossis Auffassung der Architektur in ‹Architektur für die Museen›» sowie als
+  Gegenfrage: «Was unterscheidet Rossis Architektur von der des sozialistischen Realismus?
+  Kontrastieren Sie die Stalinallee mit dem Friedhof von Modena.»
+- **Vorgeschlagene Antwortbegriffe laut Quelle**: Bedeutung des Monuments, die Textur der Stadt,
+  der Begriff der Erinnerung — also dieselben drei primären Kategorien (Monument, Stadtgefüge,
+  kollektives Gedächtnis), die der oben referierte Fragenkatalog bereits als Rossis primäre
+  Elemente benennt, hier aber an der Stalinallee als konkretem, gebautem Beispiel angewendet.
+- **Kontrast Stalinallee/San Cataldo laut Quelle**: Typus, Lesbarkeit und Einzelbau als
+  gemeinsame Kategorien, aber gegensätzlich eingesetzt — die Stalinallee als **Achse** mit
+  «Blocks mit klassizistischen Ornamenten» steht für **Reduktion ins Gegenteil** in Modena; die
+  Quelle spitzt dies mit der Formel **«Stadt als Ort des Festes» (Stalinallee) gegen «Ort der
+  Trauer» (Modena)** zu.
+- Einordnung: San Cataldo ist im Fragenkatalog oben bereits als «autonome Architektur» nach Emil
+  Kaufmann eingeordnet — die Stalinallee-Gegenüberstellung ergänzt das um die andere Pol-Position
+  (affirmativ-repräsentative Monumentalität eines politischen Regimes statt visionär-autonomer
+  Klassizismus) und schärft damit die Lesart, dass Rossis eigenes Werk trotz thematischer Nähe zum
+  sozialistischen Realismus (Monumentalität, Typus) bewusst die entgegengesetzte, reduktive
+  Haltung einnimmt.
 
 ## Praxisrelevanz
 

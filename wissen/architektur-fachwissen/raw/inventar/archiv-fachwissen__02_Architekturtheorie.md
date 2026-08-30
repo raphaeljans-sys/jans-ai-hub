@@ -552,3 +552,26 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   nicht ausgewertet. Damit ist `120504_Vision_Visualitaet_I_Gropius` für die gesichteten
   Textquellen abgeschlossen. Offen: 4 der 23 Vorlesungsordner (rund 130 der 190 Dateien).
   Nächster Lauf: nächste noch nicht gesichtete Vorlesung nach Ordnernummer.
+
+- **30.08.2026 (21. P2-Lauf, Lane FACHWISSEN, Station laut `scutil` Macmini, Dispatch-Text
+  erneut veraltet/fälschlich «MacBook Pro», 44. Beispiel Memory
+  `project_fachwissen-dispatch-loop`):** Vor Arbeitsbeginn `ps aux` geprüft (ein `claude
+  -p`-Prozess für Lane FACHWISSEN, ein unabhängiger für Lane SYNOBSIS — keine Doppel-Instanz).
+  Unkommittierte `120504_Vision_Visualitaet_I_Gropius`-Buchführung des Vorlaufs zuerst per
+  `nas-commit-now.sh` gesichert (erneuter NAS-Merge-Konflikt in sechs fremden KBs, lokaler
+  Working Tree ohne `MERGE_HEAD`/Konfliktmarker, dem 15-Min-Cron überlassen). `120511_Vision_
+  Visualitaet_II_Nadas` bearbeitet (9. Vorlesung Architekturtheorie II, 11.05.2012): **keine
+  Live-Mitschrift vorhanden** (Ordner `03_Vorlesungsmitschrift` leer), einzige Quelle der
+  zweiseitige Syllabus (`pypdf`). Ein Artikel destilliert: `wiki/vision-visualitaet-ii-
+  transparenz-townscape-otto-wagner-diagramm-nadas.md` (`status: speculative`,
+  Transparenz/Opazität-Kritik des Okularzentrismus nach Rowe/Slutzky, Otto Wagners
+  Phantasie-Training und Grossstadt-Ästhetik mit Werkliste, Townscape-Bewegung
+  Pevsner/Cullen/de Wolfe, Black Mountain College/Buckminster Fuller Dymaxion). Der
+  Diagramm-als-Form-Generator-Punkt (MVRDV Metacity Datatown) als reine Literaturwiederholung
+  zu `wiki/technik-maschine-archigram-diagramm-vs-plan-architekturtheorie.md` erkannt und nicht
+  erneut destilliert (Cross-Duplikat-Prüfung gegen bestehende Wiki-Artikel: `grep` auf
+  Wagner/Cullen/Pevsner/Townscape/Transparenz/MVRDV/Fuller ergab keinen inhaltlichen Treffer
+  ausser der bekannten Diagramm-Passage). Vorlesungsfolien (rund 100 Einzelseiten) und
+  Tonmitschnitt nicht ausgewertet. Damit ist `120511_Vision_Visualitaet_II_Nadas` für die
+  gesichteten Textquellen abgeschlossen. Offen: 3 der 23 Vorlesungsordner. Nächster Lauf:
+  `120518_Abschlussvorlesung`.
