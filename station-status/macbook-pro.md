@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 02:51:02
+Stand: 30.08.2026 03:01:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 02:51:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 18a8360a0 wissens-destillat: VL11 Resume archiv-fachwissen 02_Architekturtheorie, Zumthor-MVRDV-Pavillonvergleich
+- 522b0d35b wissen/architektur-fachwissen: VL120224 Lefebvre destilliert (P2, Sektion 02_Architekturtheorie)

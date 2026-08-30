@@ -1,10 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 02:49:08
+Stand: 30.08.2026 02:59:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 02:41)
-- /Users/raphaeljans  (letzte Aktivitaet 02:24)
+- /Users/raphaeljans  (letzte Aktivitaet 02:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 30.08.2026 02:49:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 18a8360a0 wissens-destillat: VL11 Resume archiv-fachwissen 02_Architekturtheorie, Zumthor-MVRDV-Pavillonvergleich
+- 522b0d35b wissen/architektur-fachwissen: VL120224 Lefebvre destilliert (P2, Sektion 02_Architekturtheorie)
