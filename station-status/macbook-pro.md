@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 10:23:35
+Stand: 30.08.2026 10:44:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 10:23:35
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d5d8dcab7 wissen/architektur-fachwissen: Campano/Pienza destilliert, 34. P2-Lauf 01_Staedtebau
+- cd4a9137a nas-selfcommit: 3 Datei(en) 2026-08-30 10:30
