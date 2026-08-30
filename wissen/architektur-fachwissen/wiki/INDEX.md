@@ -2408,3 +2408,22 @@ von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 79 Personenartikel bleiben
 **Nächster Lauf:** Zeile 68 fortsetzen (Kandidaten nach Dateigrösse: `paris_1925.htm`,
 `zanuso.htm`, `wirkkala.htm`, `saarinen.htm`, `franck.htm`, `starck.htm`), sonst laut
 Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (108. Lauf Lane FACHWISSEN)
+
+Drei weitere Personenartikel des Design-Ordners `08_Design` gelesen (`saarinen.htm`,
+`franck.htm`, `starck.htm`), zu drei neuen Wiki-Artikeln destilliert:
+[[saarinen-eames-knoll-womb-chair-tulip-chair-moebeldesign]] (Eero Saarinens Möbelseite für
+Knoll — Womb Chair, Tulip Chair —, direkte Fortsetzung der Eames-Zusammenarbeit ab Cranbrook,
+Cross-Link zu [[organische-schichtholz-moderne-aalto-eames-jacobsen]]),
+[[kaj-franck-finnisches-nachkriegsdesign-kilta-arabia-iittala-nuutajaervi]] (Kaj Franck als
+Gegenstück zu Aalto im Feld Gebrauchskeramik/-glas — Service «Kilta» für Arabia, Abgrenzung zur
+expressiveren Wirkkala/Sarpaneva-Linie auf denselben Mailänder Triennalen) und
+[[philippe-starck-superdesigner-cafe-costes-alessi-via]] (Starck als «Superdesigner»-Phänomen
+der 1980er/90er, VIA-Staatsförderung unter Mitterrand, Café Costes, Alessi-Zusammenarbeit).
+Damit 25 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 76 Personenartikel bleiben
+offen. `git diff --numstat` auf die Inventardatei zeigte `0 0` (Inventarzeile 68 bleibt als
+Sammelzeile für den ganzen Ordner unverändert, Fortschritt wird ausschliesslich hier und im
+CHANGELOG geführt). Details CHANGELOG 30.08.2026. **Nächster Lauf:** Zeile 68 fortsetzen
+(Kandidaten nach Dateigrösse: `zanuso.htm`, `wirkkala.htm`, `paris_1925.htm`), sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2.

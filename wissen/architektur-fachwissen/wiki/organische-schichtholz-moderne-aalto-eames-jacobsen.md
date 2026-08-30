@@ -3,7 +3,7 @@ title: "Organische Schichtholz-Moderne: Aalto, Eames, Jacobsen"
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/alvar_aalto.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/eames.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/jacobsen.htm"]
-links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich"]
+links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "saarinen-eames-knoll-womb-chair-tulip-chair-moebeldesign"]
 ---
 
 # Organische Schichtholz-Moderne: Aalto, Eames, Jacobsen
@@ -153,3 +153,6 @@ Jacobsen/Fritz Hansen: dänische Möbelindustrie mit Ganzheitsanspruch bei Hochb
   Ponti) separat destilliert, siehe [[eileen-gray-lackarbeiten-tubular-steel-e1027]],
   [[josef-frank-wien-schwedische-moderne-svenskt-tenn]] und
   [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]].
+- Eero Saarinens Möbelseite (Womb Chair, Tulip Chair für Knoll) ist als direkte Fortsetzung der
+  Cranbrook-Zusammenarbeit mit Eames separat destilliert, siehe
+  [[saarinen-eames-knoll-womb-chair-tulip-chair-moebeldesign]].

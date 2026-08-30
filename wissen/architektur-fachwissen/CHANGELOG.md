@@ -1,5 +1,53 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (108. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und dieses CHANGELOG gegen `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md`
+geprüft. `scutil --get ComputerName` bestätigte Macmini, `ps -eo pid,ppid,command` zeigte genau
+einen laufenden `claude -p`-Prozess mit diesem Dispatch-Text (kein Doppel-Dispatch). Working Tree
+bei Laufbeginn sauber (Top-Commit `bd7172821`, 107. Lauf bereits selbständig vom 15-Min-Cron
+committet).
+
+Die vom 107. Lauf empfohlenen Kandidaten `saarinen.htm`, `franck.htm` und `starck.htm` gelesen
+(die drei kleinsten der sechs vorgeschlagenen Dateien). Duplikatscheck vorab (`grep -rli` gegen
+Starck/Franck/Saarinen/Zanuso/Wirkkala über alle `wiki/*.md`): keine dedizierten Artikel, nur ein
+Streuverweis auf Marco Zanuso (Kunststoff-Stuhl) im Artikel
+[[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]] — kein Widerspruch, da
+`zanuso.htm` selbst in diesem Lauf nicht gelesen wurde.
+
+Drei neue Wiki-Artikel:
+- [[saarinen-eames-knoll-womb-chair-tulip-chair-moebeldesign]]: Eero Saarinens Möbelseite für
+  Knoll (Grasshopper 1946, Womb Chair 1946–1948, Bürostuhl-Serie für General Motors Technical
+  Center, Tulip Chair 1955–1957) als direkte Fortsetzung der gemeinsamen Cranbrook-Ausbildung
+  und des Navy-Kriegsauftrags mit Charles Eames, Cross-Link zu
+  [[organische-schichtholz-moderne-aalto-eames-jacobsen]] (dortiger Artikel um Rückverweis
+  ergänzt).
+- [[kaj-franck-finnisches-nachkriegsdesign-kilta-arabia-iittala-nuutajaervi]]: Kaj Franck
+  (1911–1989) als Gegenstück zu Aalto im Feld Gebrauchskeramik/-glas — Karriere bei Arabia
+  (Künstlerischer Direktor ab 1950), Iittala (ab 1946) und Nuutajärvi (ab 1950), Service
+  «Kilta» (1948–1974) als demokratisiertes Alltagsservice gegen die expressiv-skulpturale
+  Wirkkala/Sarpaneva-Linie auf denselben Mailänder Triennalen 1951/1954, Doppelkaraffen-Serie
+  «Kremlin Bells» und Objektserie «Plattfisch» für Nuutajärvi.
+- [[philippe-starck-superdesigner-cafe-costes-alessi-via]]: Starck als «Superdesigner»-
+  Marketingphänomen der 1980er/90er in der von der Quelle explizit genannten Tradition von
+  Norman Bell Geddes/Raymond Loewy, staatliche VIA-Förderung unter Präsident Mitterrand
+  (Élysée-Innenausstattung 1983), Durchbruch mit Café Costes (1984), Hotelinnenausstattungen
+  (Royalton/Paramount/Delano/Peninsula), Produktdesign-Zusammenarbeit mit Alessi (Juicy Salif
+  1990, Hot Bertaa 1990/91) in der von Starck selbst benannten Tradition Achille Castiglionis.
+
+Alle drei Quelldateien sind Teil desselben nicht mehr identifizierbaren, deutschsprachigen
+Design-Enzyklopädie-Website-Spiegels (kein Impressum/Autor) wie die bisherigen `08_Design`-
+Artikel, daher wie diese `status: speculative`. Kein Datenschutz-/Sperrlisten-Fund.
+
+Damit 25 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 76 Personenartikel bleiben
+offen. `git diff --numstat` auf die Inventardatei zeigte `0 0` — diese Zeile bleibt eine
+Sammelzeile für den ganzen 733-Datei-Ordner und wird nicht pro Person editiert, Fortschritt wird
+ausschliesslich in `wiki/INDEX.md`/diesem CHANGELOG geführt (etabliertes Muster seit dem
+99./100. Lauf). **Nächster Lauf:** Zeile 68 fortsetzen (Kandidaten nach Dateigrösse:
+`zanuso.htm`, `wirkkala.htm`, `paris_1925.htm`), sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (106. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
