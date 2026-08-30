@@ -243,3 +243,31 @@ Sache statt Datei). P2 bleibt offen für einen späteren Lauf.
   `Schmiede_Modell.pln`/`.vwx` (CAD ungeöffnet), `03_Werkstoffliste/Voll/` S2-Design-Fremdvorlage
   (Kundendaten, nicht ausgangsfähig), die beiden Betondecke-Fotoserien (Bildbeleg ohne eigenen
   Text). Rest der 89 P2-Positionen bleibt offen für einen Folgelauf.
+
+## Ergänzung 2026-08-30 (zweiter P2-Lauf, Lane FACHWISSEN)
+
+Die beiden vom Vorlauf offen gelassenen, mit dem Read-Tool tatsächlich prüfbaren Positionen
+geöffnet (kein Word/InDesign/Illustrator nötig):
+
+- `03_Modellbaudokumente/01_Werkstoffe/PDF/Materialien.pdf` vollständig gelesen: eine einzige
+  Seite, exakt der bereits in `wiki/werkstoffliste-modellbau-vorlage.md` bzw. Inventar-Abschnitt
+  „Was die Sektion NICHT hergibt" zitierte Preisvergleich (master wood 8 mm, Herzog-Elmiger
+  18.50 CHF/m² gegen Coop Bau+Hobby 32.00 CHF/m²), Rest der Seite leer. Kein neuer Fakt — das
+  „Fragment" ist bereits vollständig destilliert, das INDD trägt nachweislich nichts zusätzlich
+  Erschliessbares (PDF-Export ist die vollständige Textebene). `stand_herzog_elmiger.gif`
+  gelesen: ein reiner Anfahrtsplan (A2-Ausfahrt), kein Fachinhalt. Position damit **abschliessend
+  geprüft, kein Artikel** (Delta-Ehrlichkeit).
+- `02_Modellbauutensilien/Profilitwand_Vorlagen/060215_Profilit_M10.pdf` stellvertretend für die
+  Gruppe (12 PDF, 4 AI) mit dem Read-Tool geöffnet: reine Vektorgrafik, grüne Streifen ohne jede
+  Bemassung, Beschriftung oder Massstabsangabe auf der Seite selbst. Bestätigt die Inventar-
+  Einschätzung „kein extrahierbarer Text" — auch visuell kein Fakt gewinnbar. Position
+  **abschliessend geprüft, kein Artikel**.
+
+**Damit sind von den verbleibenden P2-Positionen dieser Sektion nur noch dauerhaft blockierte
+übrig:** `Schmiede_Modell.pln`/`.vwx` (kein ArchiCAD/Vectorworks-Werkzeug auf dieser Station),
+`03_Werkstoffliste/Voll/` S2-Design-Fremdvorlage (Kundendaten Dritter, Provenienz bereits
+anonymisiert in `wiki/werkstoffliste-modellbau-vorlage.md` vermerkt, Inhalt bleibt gesperrt),
+zwei Betondecke-Fotoserien (54 Bilder, reines Bildmaterial ohne Fliesstext, als Beleg zu
+`wiki/modellbeton-fehlerkatalog-schalung.md` bereits im Fliesstext erwähnt). **P2 dieser Sektion
+gilt damit als abgearbeitet**, bis eines der Werkzeuge (ArchiCAD/Vectorworks-Viewer) verfügbar
+wird — kein weiterer Folgelauf nötig, ausser bei neuem Werkzeug.
