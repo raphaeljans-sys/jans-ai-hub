@@ -635,3 +635,24 @@ Architekt in öffentlicher Wettbewerbsfunktion). `git diff --numstat` nach dem S
 geprüft: reiner Append. Sicherung via `bash scripts/nas-commit-now.sh`. **Nächster Lauf:**
 einen der zwei übrigen Depot-Hard-Berichte lesen (BERTA oder ZEPPELIN), sonst gemäss
 `KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.
+
+## Destillat-Fortschritt, elfter Lauf (P1, 31.08.2026, Lane FACHWISSEN)
+
+Dritte der vier Depot-Hard-Positionen gelesen: `02_Architekturdisskurs/04_Wettbewerbe/
+Zuerich/150115_Neubau_Depot_Hard/BERTA-Jurybericht.pdf` (Projekt Nr. 8 «BERTA», Morger +
+Dettli Architekten AG, 1. Rang/1. Preis, S. 30–31). **Kein neuer Artikel** — als dritte
+Gegenprobe in den bestehenden
+[[wettbewerbsjury-projektkritik-sandwich-struktur-kerez-depot-hard]] eingearbeitet: die
+Drei-Teile-Struktur bleibt auch beim Siegerbeitrag erkennbar, aber der Mängelteil ist
+spürbar kürzer und milder formuliert, und das Fazit verzichtet auf eine explizite
+Korrigierbarkeits-Einordnung — neuer, vorläufiger Befund einer moeglichen Korrelation
+Rang↔Mängelteil-Schärfe (siehe Artikel, ausdrücklich als noch unbestätigte Beobachtung
+markiert, nicht als Regel).
+
+**Damit sind 3 der 4 Depot-Hard-Berichte gelesen**, 1 bleibt offen (ZEPPELIN, dieselbe
+Quelle). Von den rund 20 zuvor offenen Juryberichten/-programmen dieser Sektion bleiben
+rund 17. Datenschutz/Sperrliste: kein Fund (veröffentlichtes Verfahrensdokument, Architekt
+in öffentlicher Wettbewerbsfunktion). `git diff --numstat` nach dem Schreiben geprüft:
+reiner Append. Sicherung via `bash scripts/nas-commit-now.sh`. **Nächster Lauf:**
+ZEPPELIN-Jurybericht lesen (letzte Depot-Hard-Position), sonst gemäss `KORPUS-QUEUE.md`
+die nächste Sektion mit offenem P1.

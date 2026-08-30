@@ -103,9 +103,13 @@ Bauherrschaften.
 
 ## Offene Punkte
 
-- Zwei von vier Depot-Hard-Beiträgen gelesen (Kerez, la terrazza); die Sandwich-Struktur
-  gilt damit für die Verfahrensreihe, nicht nur für einen Verfasser. BERTA und ZEPPELIN
-  (selbe Quelle) sind die nächstliegende weitere Gegenprobe.
+- Drei von vier Depot-Hard-Beiträgen gelesen (Kerez, la terrazza, BERTA); ZEPPELIN
+  (selbe Quelle) ist die letzte, noch fehlende Gegenprobe dieser Verfahrensreihe.
 - Rangfolge des Kerez-Beitrags im Verfahren ist aus dem gelesenen Auszug (S. 156–167)
   nicht ersichtlich (keine Rangliste im ausgewerteten Seitenbereich); nicht erfinden. Für
-  «la terrazza» ist der Rang dagegen explizit belegt (2. Rang/2. Preis, S. 44).
+  «la terrazza» (2. Rang/2. Preis, S. 44) und «BERTA» (1. Rang/1. Preis, S. 30) ist der
+  Rang dagegen explizit belegt.
+- Die im BERTA-Abschnitt vermutete Korrelation Rang↔Maengelteil-Schaerfe stuetzt sich nur
+  auf diese eine Verfahrensreihe; ob ZEPPELIN (Rang unbekannt) dazu passt, ist die
+  naechstliegende Probe, eine belastbare Aussage braucht aber mehrere unabhaengige
+  Verfahren.

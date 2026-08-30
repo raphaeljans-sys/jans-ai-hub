@@ -7768,3 +7768,30 @@ auf die Inventardatei zeigt `21 0`, reiner Append. Sicherung via
 `bash scripts/nas-commit-now.sh`. Nächster Lauf: empfohlen einen der zwei übrigen
 Depot-Hard-Berichte lesen (BERTA oder ZEPPELIN), sonst gemäss `KORPUS-QUEUE.md` die
 nächste Sektion mit offenem P1.
+
+## 31.08.2026 — Sektion 02_Gestalt_Kulturverstaendnis, elfter Lauf, dritte Depot-Hard-Position (Lane FACHWISSEN)
+
+Dritte der vier Depot-Hard-Jurybericht-Positionen gelesen: `02_Architekturdisskurs/
+04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/BERTA-Jurybericht.pdf` (Projekt Nr. 8
+«BERTA», Morger + Dettli Architekten AG, 1. Rang/1. Preis, S. 30–31).
+
+**Kein neuer Artikel** — als dritte Gegenprobe in den bestehenden
+[[wettbewerbsjury-projektkritik-sandwich-struktur-kerez-depot-hard]] eingearbeitet. Die
+Drei-Teile-Struktur (Würdigung → Mängelkatalog → Fazit-Synthese) bleibt auch beim
+Siegerbeitrag erkennbar, aber deutlich gestaucht: der Mängelteil ist kürzer und milder
+formuliert (keine explizite Bewilligungsfähigkeits-Verneinung, sondern „einige Punkte
+noch zu optimieren"), und das Fazit verzichtet auf eine explizite
+Korrigierbarkeits-Einordnung — an ihre Stelle tritt eine ausführliche Würdigung von
+Effizienz, ökologischer Nachhaltigkeit und der Typologiefrage. Neuer, vorläufiger Befund:
+eine mögliche Korrelation zwischen Rang und Schärfe/Länge des Mängelteils, im Artikel
+ausdrücklich als unbestätigte Beobachtung aus nur einer Verfahrensreihe markiert, nicht
+als Regel.
+
+**Damit sind 3 der 4 Depot-Hard-Berichte gelesen**, 1 bleibt offen (ZEPPELIN, dieselbe
+Quelle). Von den rund 20 zuvor offenen Juryberichten/-programmen dieser Sektion bleiben
+rund 17. Weiterhin offen: 62 der 65 Betonforum-Referate, Teile der Modellfoto-Methodik.
+Datenschutz/Sperrliste: kein Fund (veröffentlichtes Verfahrensdokument, Architekt in
+öffentlicher Wettbewerbsfunktion). `git diff --numstat` auf die Inventardatei zeigt
+`22 0`, reiner Append. Sicherung via `bash scripts/nas-commit-now.sh`. Nächster Lauf:
+empfohlen den letzten Depot-Hard-Bericht (ZEPPELIN) lesen, sonst gemäss
+`KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.
