@@ -523,3 +523,52 @@ für Krier und Nolli offen (beide über 20 MB, dauerhaft blockiert ohne Komprimi
 Seitenextraktion ausserhalb dieser KB). `git diff --numstat` auf diese Inventardatei (beide
 Teilläufe zusammen) zeigt reinen Append. **Nächster Lauf:** Position 4 (33 Autorendossiers)
 beginnen, da Position 3 mit vertretbarem Aufwand nicht weiter voranzubringen ist.
+
+**30.08.2026 (Lane FACHWISSEN, neunter P2-Lauf, Position 4 begonnen — drei von 33
+Autorendossiers):** vor Arbeitsbeginn wie üblich `scutil` (Macmini bestätigt, Dispatch-Text
+weiterhin identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro»),
+`ps aux` (nur der eigene Prozess, keine Doppel-Instanz) und `KORPUS-QUEUE.md`/`CHANGELOG.md`
+gegengeprüft — Stand entsprach exakt dem Ende des achten Laufs oben. Ordnerliste von
+`06_Theorie_des_Staedtbaus/` gegen bestehende Wiki-Artikel geprüft (insbesondere gegen die
+Rossi-Artikel aus Korpus `archiv-fachwissen__02_Architekturtheorie`, keine Überschneidung
+gefunden — dortige Rossi-Dossiers wurden in dieser Sektion nicht bearbeitet). Drei Dossiers
+gelesen und destilliert, alle drei eigenständige studentische Textanalysen/Zusammenfassungen
+aus dem HSLU-Modul «Gebautes Umfeld» (Sommersemester 2007, nicht die ETH-Vorlesungsreihe
+Lampugnani):
+
+- `Jacobs_Jane/UBAU_Ue1_Textanalyse_...pdf` (Kap. 5+6 «Tod und Leben grosser amerikanischer
+  Städte») → neuer Artikel
+  [[jane-jacobs-parks-nachbarschaft-selbstverwaltung-drei-ebenen]] (Park-Erfolg abhängig von
+  Nutzungsmischung der Umgebung, Vier-Parks-Beispiel Philadelphia; drei Selbstverwaltungsebenen
+  Gesamtstadt/Strassennachbarschaft/Bezirk ~100'000 EW).
+- `Lynch_Kevin/Kevin Lynch_ Das Bild der Stadt.pdf` (Zusammenfassung «The Image of the City»)
+  → neuer Artikel
+  [[kevin-lynch-bild-der-stadt-fuenf-elemente-visueller-plan]] (fünf Wahrnehmungselemente
+  Wege/Grenzlinien/Bereiche/Brennpunkte/Merkzeichen, zehn Formeigenschaften, Konzept des
+  visuellen Plans). Die vier Bilddateien und die grosse `Lynch_Kevin_Praesentation.pdf`
+  (10,8 MB, Bildmaterial) im selben Ordner nicht ausgewertet — reine Bildbelege ohne
+  zusätzlichen Fliesstext, kein Mehrwert erwartet.
+- `Corboz_Andre/Stadt der Planer-Stadt der Architekten.pdf` (Textanalyse zu Corboz'
+  ETH-Vorlesungsbeitrag 1987/88) und ergänzend `120813_André_Corboz.pdf` (Ausstellungstext
+  Museum für Gestaltung Zürich 2012, zu «Looking for a City in America») → neuer Artikel
+  [[corboz-stadt-planer-architekten-metropole-schweiz-nordamerikanische-stadt]]
+  (Flächenschneider-vs-Raumzüchter-Unterscheidung Planer/Architekt, Metropole-Schweiz-These,
+  nordamerikanische Stadt als Territorialsystem, New York als Ausnahme nicht Regelfall).
+
+Alle drei Artikel `status: emerging` (Sekundärquellen: studentische Zusammenfassungen der
+Primärwerke, keine eigene Lektüre der Originale, keine seitengenauen Fundstellen in der
+Quelle). Anonymisierung wie beim WBP-Berlin-Fund angewendet: die Namen der jeweiligen
+HSLU-Studierenden (Verfasser der Textanalysen) erscheinen in keinem der drei Artikel, nur
+Werk/Autor/Quelldatei.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Von den 33
+Autorendossiers der Position 4 sind damit drei bearbeitet** (Jacobs, Lynch, Corboz); 30
+bleiben offen, u. a. Behne, Bellamy, Christiansen, Engels (Restdossier, vgl. bereits
+destillierten Fund im Übungsheft-Lauf), Giedion, Gracq, Hegemann, Hilberseimer, Hill,
+Howard, Jefferson, Kohlhaas, Lampugnani, Migge, Leveillé, Mumford, Muratori, Pawley, Rossi
+(gegen bestehende Rossi-Artikel aus Korpus `archiv-fachwissen__02_Architekturtheorie` prüfen,
+bevor destilliert wird), Siedler, Sievers, Sonne, Stuart, Sutcliffe, Taut, Tessenow, Von
+Moos, Waldheim, sowie eine unzugeordnete `kapitel01_dk_vorindustrielle_120dpi.pdf`.
+**Nächster Lauf:** Position 4 fortsetzen, geeignete nächste Kandidaten mit eigenem
+Textmaterial vorab per `ls`/Dateigrösse sichten (nicht jedes Dossier hat wie bei
+Jacobs/Lynch/Corboz einen fertigen Fliesstext).

@@ -1,5 +1,58 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, neunter P2-Lauf (Position 4 begonnen, Lane FACHWISSEN, 60. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
+
+Dispatch-Text unverändert seit dem 29.08.2026 identisch, obwohl beide Korpus-Specs seit
+demselben Tag bestehen und diese Sektion allein bereits neun P2-Läufe hinter sich hat. Vor
+Arbeitsbeginn wie üblich `scutil`/`ps aux`/`KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft:
+Stand entsprach exakt dem Ende des achten Laufs oben (Positionen 1, 2, 8, 13, 14 vollständig,
+3 zu zwei Fünfteln, 4-7 offen).
+
+Position 4 (33 Autorendossiers unter `06_Theorie_des_Staedtbaus/`) begonnen. Ordnerliste gegen
+bestehende Wiki-Artikel geprüft, insbesondere gegen die bereits umfangreich destillierte
+Rossi-Rezeption aus Korpus `archiv-fachwissen__02_Architekturtheorie` — keine Überschneidung,
+das dortige Rossi-Dossier dieser Sektion wurde in diesem Lauf nicht angerührt. Drei Dossiers
+mit eigenem Fliesstext identifiziert und destilliert (alle drei studentische Textanalysen aus
+dem HSLU-Modul «Gebautes Umfeld», Sommersemester 2007 — andere Provenienz als die ETH-
+Vorlesungsreihe Lampugnani der Positionen 1/2/8):
+
+- Jane Jacobs, «Tod und Leben grosser amerikanischer Städte» (Kap. 5+6) → neuer Artikel
+  [[jane-jacobs-parks-nachbarschaft-selbstverwaltung-drei-ebenen]]: Park-Erfolg hängt von der
+  Nutzungsmischung der angrenzenden Bebauung ab (Vier-Parks-Beispiel Philadelphia, Rittenhouse/
+  Franklin/Washington Square und eine Verkehrsinsel mit gegensätzlichem Schicksal trotz
+  identischer Ausgangsanlage); drei Selbstverwaltungsebenen der Nachbarschaft — Gesamtstadt,
+  Strassennachbarschaft, Bezirk (~100'000 EW) — mit der pointierten These, dass sowohl eine zu
+  kleinteilige als auch eine zu grosse Organisationsebene scheitert.
+- Kevin Lynch, «Das Bild der Stadt» → neuer Artikel
+  [[kevin-lynch-bild-der-stadt-fuenf-elemente-visueller-plan]]: fünf Wahrnehmungselemente
+  (Wege/Grenzlinien/Bereiche/Brennpunkte/Merkzeichen) mit je eigenen Gestaltungsregeln, zehn
+  allgemeine Formeigenschaften für den Entwurf, Konzept des «visuellen Plans» als
+  Steuerungsinstrument. Die vier Bilddateien und die 10,8-MB-Präsentation im selben Ordner
+  bewusst nicht ausgewertet (reine Bildbelege ohne zusätzlichen Fliesstext).
+- André Corboz, Vorlesungsbeitrag «Stadt der Planer — Stadt der Architekten» (ETH 1987/88) und
+  ergänzend der Ausstellungstext «Looking for a City in America» (2012) → neuer Artikel
+  [[corboz-stadt-planer-architekten-metropole-schweiz-nordamerikanische-stadt]]: die
+  Flächenschneider-(Planer)-vs-Raumzüchter-(Architekten)-Unterscheidung, die These, eine
+  Metropole entstehe erst durch ihr Konzept (gegen Meili/Rousseau zur «Metropole Schweiz»),
+  sowie Corboz' Gegenposition zur europäischen Verurteilung der nordamerikanischen Stadt als
+  chaotisch (New York als Ausnahme, nicht Regelfall des amerikanischen Städtebaus).
+
+Alle drei Artikel `status: emerging` (Sekundärquellen ohne seitengenaue Fundstellen zu den
+Primärwerken). Anonymisierungsregel wie beim WBP-Berlin-Fund angewendet: die Namen der
+HSLU-Studierenden, die die drei Textanalysen verfasst haben, erscheinen in keinem Artikel.
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (`49 0`).
+
+Von den 33 Autorendossiers der Position 4 sind damit drei bearbeitet, 30 bleiben offen (u. a.
+Behne, Bellamy, Christiansen, Engels, Giedion, Gracq, Hegemann, Hilberseimer, Hill, Howard,
+Jefferson, Kohlhaas, Lampugnani, Migge, Leveillé, Mumford, Muratori, Pawley, Rossi — gegen
+bestehende Rossi-Artikel aus `02_Architekturtheorie` prüfen —, Siedler, Sievers, Sonne, Stuart,
+Sutcliffe, Taut, Tessenow, Von Moos, Waldheim). Von den acht P2-Positionen der Sektion sind
+jetzt 1, 2, 8, 13, 14 vollständig, 3 zu zwei Fünfteln (Krier/Nolli dauerhaft blockiert), 4
+begonnen; 5-7 (Platz-Materialbestand) vollständig offen. `wiki/INDEX.md` (Sektionszeile)
+nachgeführt. Keine der harten Sperren berührt. **Nächster Lauf:** Position 4 fortsetzen, dabei
+vorab per `ls`/Dateigrösse prüfen, welche der 30 Restdossiers überhaupt eigenen Fliesstext
+statt reiner Bilddateien enthalten.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, achter P2-Lauf (Position 3 fortgesetzt, Lane FACHWISSEN)
 
 Direkt im Anschluss an den siebten Lauf: Read-Tool-Direktversuch auf die vier nach der
