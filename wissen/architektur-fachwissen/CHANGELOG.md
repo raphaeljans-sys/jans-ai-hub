@@ -1,5 +1,51 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (118. Lauf Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn selbst ermittelt statt aus dem Dispatch-Text übernommen (dieser
+nennt bewusst keine Zahlen mehr, seit eine frühere Fassung über 70 Läufe lang fälschlich
+«kein Destillat, keine Spec» behauptete). Vollständigkeitscheck durchgeführt: Grep über
+alle Inventardateien beider Korpora (`buero-referenzen`, `archiv-fachwissen`) auf P1-Zeilen
+ohne inline-Erledigt-Markierung ergab zunächst mehrere Treffer in den Sektionen
+`18_Projektkostenplanung`, `09_Konstruktion`, `17_Projektbeschriebe`, `20_Rendering`,
+`21_Rhino`, `22_Terminplanung`, `25_Wettbewerb` sowie in mehreren `archiv-fachwissen`-
+Sektionen. Beim Gegencheck stellte sich heraus, dass diese Sektionen den Destillations-
+Status nicht in der Triage-Tabelle, sondern in einem separaten Abschnitt
+`## Destillat-Fortschritt` festhalten (teils mit «P1» ohne Bold-Markup) — in jedem
+geprüften Fall bestätigte der Abschnitt die bereits dokumentierte Vollständigkeit («Alle
+n P1-Positionen destilliert»). Kein echter offener P1-Rest gefunden; die Queue-Aussage
+«alle P1-Positionen über sämtliche Sektionen destilliert» für beide Korpora bleibt damit
+bestätigt. Aktive Arbeit somit weiterhin auf P2 von `archiv-fachwissen`, Zeile 68
+(`02_Bildende_Kunst/08_Design/`, 733 Dateien).
+
+Drei kleinste ungelesene Positionen von Zeile 68 gelesen: `paris_1900.htm`, `jug3.htm`,
+`elsie_de_wolfe.htm`. Duplikatscheck vorab (`grep -rli` gegen alle drei Namen über
+`wiki/*.md`): keine Dubletten. Zwei neue Artikel:
+
+- [[paris-1900-weltausstellung-art-nouveau-hoehepunkt-niedergang-wiener-stil]] — bündelt
+  `paris_1900.htm` (Pariser Weltausstellung 1900, Pavillon Bing, Guimard/Majorelle/Gallé,
+  Château d'Eau) und `jug3.htm` (Bewegungsüberblick Jugendstil: Ruskin/Morris-Wurzeln,
+  Verschiebung von organischer zu geometrischer Formensprache, Turin 1902 als Wendepunkt),
+  da beide dieselbe Kernaussage tragen. Rückverlinkung zu den bestehenden Artikeln
+  [[hector-guimard-art-nouveau-paris-metro-castel-beranger]],
+  [[wiener-werkstaette-hoffmann-bauhaus-gropius-designreform-industrie]] und
+  [[mackintosh-glasgow-school-of-art-the-four-gesamtkunstwerk-wiener-sezession]] ergänzt.
+- [[elsie-de-wolfe-amerikanische-innenarchitektin-the-house-in-good-taste]] — frühe
+  professionelle Innenausstattung als eigenständiges Berufsbild getrennt von der
+  Architektur, Schlüsselauftrag Colony Club/Trellis Room (Architekt Stanford White),
+  Buch «The House in Good Taste» 1913, Einfluss auf Sister Parish/Syrie Maugham/Sybil
+  Colefax.
+
+Damit sind 58 von 128 `.htm`-Dateien der Zeile 68 gelesen (davon weiterhin 32 als
+frameset-/banner-bedingt dauerhaft ertraglos identifiziert), rund 70 Positionen bleiben
+offen. Kein Datenschutz-/Sperrlisten-Fund. `git diff --numstat` auf die Inventardatei
+(`archiv-fachwissen__02_Kunst_Geschichte.md`) zeigte `0 0` — Fortschritt ausschliesslich in
+`wiki/INDEX.md`/diesem CHANGELOG/`KORPUS-QUEUE.md` nachgeführt (Praxis seit dem 106. Lauf).
+`git diff --numstat` auf die beiden neuen Wiki-Dateien und dieses CHANGELOG bestätigt reine
+Neuanlage/reinen Append. Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68 bleibt
+offen, nächster Schritt:** Fortsetzung nach Dateigrösse (`morrison.htm`, `noyes.htm`,
+`gugelot.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (115. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,

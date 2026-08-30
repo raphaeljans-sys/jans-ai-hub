@@ -2593,3 +2593,27 @@ INDEX/CHANGELOG/KORPUS-QUEUE, Praxis seit dem 106. Lauf). Details CHANGELOG 30.0
 verbleibenden ungelesenen inhaltstragenden Positionen (u. a. `paris_1900.htm`, `jug3.htm`,
 `elsie_de_wolfe.htm`, `morrison.htm`, `noyes.htm`), die 32 identifizierten Frameset-Dateien
 nicht mehr einzeln prüfen, sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
+**118. Lauf (30.08.2026, Lane FACHWISSEN): Zeile 68 fortgesetzt.** Stand vor Arbeitsbeginn
+selbst ermittelt statt aus dem Dispatch-Text übernommen: Grep über alle Inventardateien
+beider Korpora auf offene, nicht als «Gelesen»/«destilliert» markierte P1-Zeilen ergab
+zunächst Fehlalarme, weil mehrere Sektionen (u. a. `18_Projektkostenplanung`,
+`09_Konstruktion`, `17_Projektbeschriebe`, `20_Rendering`, `21_Rhino`, `22_Terminplanung`,
+`25_Wettbewerb` sowie mehrere `archiv-fachwissen`-Sektionen) den Status **nicht** in der
+Triage-Tabelle selbst, sondern in einem separaten Abschnitt `## Destillat-Fortschritt`
+festhalten und dort «P1» teils ohne Bold-Markup schreiben — beim Gegencheck aller
+betroffenen Abschnitte bestätigte sich in jedem Fall die bereits dokumentierte
+Vollständigkeit (keine echten offenen P1-Reste gefunden). Drei kleinste ungelesene
+Positionen von Zeile 68 gelesen: `paris_1900.htm`, `jug3.htm`, `elsie_de_wolfe.htm`.
+Duplikatscheck vorab (keine Dublette). Zwei neue Artikel:
+[[paris-1900-weltausstellung-art-nouveau-hoehepunkt-niedergang-wiener-stil]] (bündelt
+`paris_1900.htm` und `jug3.htm`, da beide dieselbe Kernaussage — Aufstieg und Niedergang
+des Art nouveau um 1900 zugunsten des Wiener geometrischen Stils — tragen; Rückverlinkung
+zu Guimard-, Wiener-Werkstätte- und Mackintosh-Artikeln) und
+[[elsie-de-wolfe-amerikanische-innenarchitektin-the-house-in-good-taste]] (frühe
+professionelle Innenausstattung als eigenständiges Berufsbild, «The House in Good Taste»
+1913). Damit 58 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 70 Positionen bleiben
+offen. `git diff --numstat` auf die Inventardatei zeigte `0 0`. Details CHANGELOG
+30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse
+(`morrison.htm`, `noyes.htm`, `gugelot.htm`), sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2.
