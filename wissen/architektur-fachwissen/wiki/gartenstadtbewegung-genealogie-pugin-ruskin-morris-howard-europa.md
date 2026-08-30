@@ -99,6 +99,24 @@ Die Mitschrift listet fünf europäische Gartenstadt-Varianten:
    sämtliche Infrastruktur (Bahn, Entwässerung, Elektrizität). Grundstücke unabhängig vom
    Wohlstand der Bewohner mit Gartenpflicht.
 
+## Ergänzung: Howards Drei-Magnete-Schema im Originalwortlaut
+
+Primärquelle nachträglich verfügbar (Auszug aus *To-morrow, A Peaceful Path to Real
+Reform*, London 1898, in englischer Originalsprache): Howard entwickelt die
+Stadt-Land-Alternative als Bild dreier Magnete. Die **Stadt** zieht mit hohen Löhnen,
+Arbeitsmöglichkeiten und Aufstiegschancen an, wird aber durch hohe Mieten, lange
+Arbeitszeiten, Arbeitswege und «isolation of crowds» (Vereinzelung trotz Menschenmasse)
+konterkariert; nächtliche Beleuchtung ist attraktiv, doch Sonnenlicht und saubere Luft
+gehen verloren («fine public buildings... rapidly become covered with soot»). Das **Land**
+bietet Schönheit, Reichtum, Landschaft, aber mangelnde Geselligkeit und mangelndes
+Kapital; niedrige Pachtzinsen sind Folge niedriger Löhne, nicht Ausdruck von Wohlstand.
+Howards Pointe: statt der üblichen Zwei-Alternativen-Logik (Stadt oder Land) postuliert er
+eine dritte, kombinierte Kraft — «Town-Country» — welche die Vorteile beider Magnete
+vereint, ohne deren Nachteile zu übernehmen. Jede Stadt wird bildlich als Magnet, jeder
+Mensch als Nadel gedacht; eine dauerhafte Umverteilung der Bevölkerung gelingt laut Howard
+nur durch die Konstruktion eines noch stärkeren Magneten als die bestehenden Städte.
+(Quelle: `Howarde_Ebnezer/Howard.pdf`, Auszug S. 1-2 der Originalausgabe.)
+
 ## Praxisrelevanz
 
 Die Kette Pugin → Ruskin → Morris → Howard → Letchworth liefert eine belegte

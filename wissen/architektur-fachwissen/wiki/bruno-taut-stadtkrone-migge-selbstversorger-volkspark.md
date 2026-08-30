@@ -100,6 +100,41 @@ Jahrhunderts markiert der Volkspark einen Bruch:
 Siedlungen; die städtische Freifläche wird damit selbst zu einem die Stadtentwicklung
 beeinflussenden Element, nicht zu einem in sich geschlossenen Solitär.
 
+## Ergänzung: Tauts Stadtkrone im Originalwortlaut — Masszahlen
+
+Primärquelle nachträglich verfügbar (Auszug aus Bruno Taut, *Die Stadtkrone*, Jena 1919,
+S. 62-70, mit Beiträgen von Paul Scheerbart, Erich Baron, Adolf Behne): Taut selbst nennt
+konkrete Masszahlen, die im Übungsheft-Auszug fehlten. Die Gesamtstadt umfasst einen Kreis
+von rund 7 km Durchmesser; die Stadtkrone selbst ist ein rechteckiges Areal von 800 x 500
+Metern. Gesamtfläche der Stadt: 38,5 km², davon rund 20 km² Wohnareal — bei
+gartenstadtartiger Bebauung Raum für 300'000 Einwohner (150 Einwohner/ha), im
+Erweiterungsfall bis 500'000. Die Distanz von der Peripherie zur Stadtmitte beträgt rund
+3 km (eine halbe Stunde Fussweg). Wohnstrassen sind bewusst schmal gehalten (5 bis 8 Meter),
+um «nicht unnötige Mittel zu verschleudern»; Verkehrsstrassen sind für Strassenbahnen und
+regen Wagenverkehr ausgelegt. Die Geschäfts- und Verwaltungsbauten dürfen die niedrigen
+Wohnhäuser höchstens um ein Geschoss überragen, «damit mächtig und unerreichbar die
+Stadtkrone über allem throne» — Taut selbst begründet damit ausdrücklich das im
+Übungsheft-Auszug nur implizit enthaltene Sichtbarkeitsprinzip. Das Kristallhaus wird von
+Taut als «ganz vom Zweck losgelöst, als reine Architektur über dem Ganzen» beschrieben —
+ein einsamer Wanderer im Kristallhaus erlebt beim Aufstieg zur oberen Plattform das «reine
+Glück der Baukunst». (Quelle: `Taut_Bruno/Bruno Taut.pdf`.)
+
+## Ergänzung: Migges Gartengrössen-Bemessung im Originalwortlaut
+
+Primärquelle nachträglich verfügbar (Auszug aus Leberecht Migge, «Der Selbstversorger», in:
+*Jedermann Selbstversorger*, Jena 1918, Kap. II, S. 8-10): Migge nennt konkrete
+Flächenmasse, die im Übungsheft-Auszug fehlten. Norm: **80-100 m² Gartenfläche pro Person**
+(frühere Fachdiskussion schwankte zwischen 150 und 800 m², je nach Bodenqualität — Migge
+hält diese Unterscheidung für nachrangig, da sich jeder Boden «zur Höchstleistung bringen»
+lasse). Für eine fünfköpfige Familie ergibt das rund 400 m², für zehn Personen hält Migge
+mehr als die doppelte Fläche (1'400 m²) für richtig, da der Nutzeffekt pro Fläche bei
+grösseren Gärten nachlässt. Migges ethische Zuspitzung: die Gartengrösse soll sich nicht
+nach Besitz oder Neigung richten, sondern nach der Kopfzahl der Familie — grosse
+(kinderreiche) Familien erhalten mehr Land, kinderlose ggf. gar keines; Migge begründet dies
+staatserhaltend («stützt den Willen zu Kindern») und sieht darin eine Lösung des Problems
+der Kinderarbeit («künftig lieber Kohlpflänzchen setzt, statt Zeitung trägt»). (Quelle:
+`Leberecht_Migge/Leberecht Migge.pdf`.)
+
 ## Praxisrelevanz
 
 Zwei belegte Argumentationslinien für Grünraum- und Freiraumkonzepte bei Verdichtung:
