@@ -1,5 +1,61 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (113. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und `CHANGELOG.md` gegen den tatsächlichen Zustand geprüft, keine der vom
+Prompt behaupteten Zahlen übernommen (der Prompt nennt inzwischen überhaupt keine Zahlen
+mehr — Korrektur nach der Fehlerkette dieser Lane, s. Memory
+`project_fachwissen-dispatch-loop`). `git status --short` zeigte zu Laufbeginn zwei
+unkommittierte Dateien (`KORPUS-QUEUE.md`, `CHANGELOG.md`, Reste des 112. Laufs); binnen
+weniger Minuten hat der lokale 15-Min-Cron sie selbständig committet+gepusht
+(`9d6b5c949`), working tree danach lokal sauber — kein Datenverlust, kein eigenes Zutun
+nötig.
+
+Vom 112. Lauf empfohlene sechs Kandidaten von Zeile 68 (`02_Bildende_Kunst/08_Design/`)
+gelesen: `nizzoli.htm`, `colombo.htm`, `0tto_wagner.htm`, `nelson.htm`, `teague.htm`,
+`postmoderne.htm`. Duplikatscheck vorab (`grep -rli` gegen alle sechs Namen über
+`wiki/*.md`): keine Dubletten. Einzige Ausnahme Otto Wagner: dort existiert bereits
+[[vision-visualitaet-ii-transparenz-townscape-otto-wagner-diagramm-nadas]] aus der
+Architekturtheorie-Sektion (Grossstadt-Entwurf 1911, Diagramm-Charakter) — inhaltlich
+disjunkt von den hier gefundenen Fakten (Postsparkasse-Möbel, Wiener-Sezession-Gründung,
+Lehrer Hoffmanns/Olbrichs, Schrift «Moderne Architektur» 1896), deshalb keine
+Zusammenführung, sondern Ergänzung als neuer Abschnitt im bestehenden
+Wiener-Werkstätte-Artikel (dort war der Otto-Wagner-Verweis bereits als offener Punkt seit
+dem 103. Lauf vermerkt).
+
+Fünf neue Wiki-Artikel:
+- [[marcello-nizzoli-joe-colombo-olivetti-kartell-systemdesign]]: Nizzoli (Olivetti-
+  Büromaschinen «Lexicon 80»/«Lettera 22», Necchi-Nähmaschinen «Mirella») und Colombo
+  (Systemdenken im Wohnbereich, «Mini-Küche» 1963, «Total Furnishing Unit» 1971, erster
+  einteiliger Kunststoffstuhl «Universale» 1965 für Kartell) als zwei Antworten auf dasselbe
+  Verhältnis Einzelobjekt/Gesamtsystem, ergänzt die bestehende italienische
+  Nachkriegsdesign-Linie ([[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]],
+  [[marco-zanuso-italienisches-nachkriegsdesign-sapper-brionvega-kartell]]).
+- [[george-nelson-herman-miller-storagewall-marshmallow-sofa]]: Nelson als Vermittler
+  («Architectural Forum»-Publizistik, Storagewall-Konzept 1945) und Herman-Miller-
+  Design-Direktor, der 1946 die Produktion von Charles Eames' Entwürfen durchsetzte — löst
+  den bislang offenen Nelson-Verweis in
+  [[organische-schichtholz-moderne-aalto-eames-jacobsen]] auf.
+- [[walter-dorwin-teague-amerikanisches-industriedesign-kodak-streamlining]]: Teague als
+  Mitbegründer des amerikanischen Industriedesign-Beraterberufs (Kodak «Box Brownie»,
+  Ford-Pavillon Weltausstellung 1939, Boeing 707/747) — löst den bislang offenen
+  Teague-Verweis in [[douglas-scott-britisches-nachkriegsdesign-routemaster]] auf.
+- [[postmoderne-design-jencks-memphis-alchimia-international]]: Überblick über die
+  internationale Design-Postmoderne (Jencks-Begriff 1980, Studio Alchimia/Memphis Mailand,
+  Kukkapuro Finnland, Weil Grossbritannien, De Lucchi/Girmi, japanische Kommerz-Postmoderne
+  Sharp/Sony/Dyson-Prototyp) — ordnet den bereits über Einzelartikel abgedeckten
+  Personenkreis ([[sottsass-memphis-studio-alchimia-olivetti-radical-design]],
+  [[javier-mariscal-spanisches-postfranco-design-memphis-barcelona]]) in die grössere
+  Bewegung ein, Rückverlinkung im Sottsass-Artikel ergänzt.
+
+Damit sind 43 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 60 Personenartikel
+bleiben offen. Kein Datenschutz-/Sperrlisten-Fund. `git diff --numstat` auf die
+Inventardatei zeigte `0 0` (Sammelzeile bleibt unverändert, Fortschritt nur in
+INDEX/CHANGELOG/KORPUS-QUEUE, wie bei den vorangegangenen Läufen dieser Zeile). **Zeile 68
+bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den verbleibenden
+ungelesenen Positionen, sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (112. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
