@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 19:52:59
+Stand: 30.08.2026 20:03:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 19:40)
+- /Users/raphaeljans  (letzte Aktivitaet 20:02)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 19:52:59
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1a5d1cc47 Lane FACHWISSEN: Zeile 72 Flandern-Studienreise-Reader destilliert (100. Lauf)
+- 387c43df1 nas-selfcommit: 2 Datei(en) 2026-08-30 20:00
