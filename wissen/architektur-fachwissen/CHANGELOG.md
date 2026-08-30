@@ -1,5 +1,51 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (115. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und `CHANGELOG.md` gegen den tatsächlichen Zustand geprüft. Hostname via
+`scutil --get ComputerName` bestätigt Macmini. Nur ein `claude -p`-Prozess mit diesem
+Dispatch-Text (PID 40049), kein Doppel-Dispatch. Working Tree bei Laufbeginn nicht sauber
+(114.-Lauf-Reste unstaged, dem 15-Min-Cron überlassen wie üblich). Der im 114. Lauf
+genannte NAS-Pfad `/Volumes/daten/02_Architektur_Archiv/02_Bildende_Kunst/08_Design/` war
+falsch abgekürzt — korrekt liegt der Ordner unter
+`/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/`
+(128 Dateien bestätigt, Fund per `find`).
+
+Drei kleinste ungelesene Positionen nach Dateigrösse gelesen: `post.htm`, `sipek.htm`,
+`grange.htm`. Duplikatscheck vorab (`grep -rli` über `wiki/*.md`): `post.htm` ist **kein**
+Personenportrait, sondern das zweite Unterkapitel desselben Quellenkapitels wie das bereits
+destillierte `postmoderne.htm` («Die 90er Jahre — Postmoderne») — der Einstiegsabschnitt
+überschneidet sich mit dem bestehenden Artikel, der Rest (Kommerzialisierung des
+Designerbegriffs, Alessi, Design Museum London, High-Tech-Stil, Ende der Blase Anfang der
+1990er, Globalisierung) ist neu. Sipek und Grange ohne Dublette.
+
+Drei neue Wiki-Artikel:
+- [[designerkultur-80er-90er-alessi-design-museum-high-tech-globalisierung]]: sozioökonomischer
+  Rahmen der 1980er/90er-Designerkultur — Kommerzialisierung des Labels «Designer», Alessi als
+  Fallbeispiel, Design Museum London (Mitte 1980er), High-Tech-Stil neben Post-Memphis, Ende
+  der Designerkultur-Blase Anfang der 1990er, Globalisierung des Designs. Rückverlinkung im
+  bestehenden Postmoderne-Artikel ergänzt (Schwesterkapitel-Verweis).
+- [[borek-sipek-dekoratives-design-neunziger-vitra-driade]]: Bořek Šípek, dekoratives Design
+  der 1990er mit Barock-/Rokoko-Bezug statt Memphis-Pop-Referenz — Schreibtisch «Sedlak»
+  (Vitra 1992), Glasarbeiten Nový Bor/Murano, Rattan-Stuhl «Helena» (Driade), Stuhl «Ernst und
+  Geduld» (Néotu). Prag-Hamburg-Stuttgart-Delft-Amsterdam-Werdegang als Figur des «neuen
+  Europas» nach der Ostöffnung.
+- [[kenneth-grange-britisches-produktdesign-kodak-kenwood-british-rail]]: britische
+  Produktdesign-Profession über Kodak-Boxkamera «44a», Kenwood «Chef», Wilkinson-Sword-
+  Rasierer, British-Rail-125-Zug. Vergleichsfall zu den bestehenden Artikeln
+  [[walter-dorwin-teague-amerikanisches-industriedesign-kodak-streamlining-ergonomie]] (USA)
+  und [[douglas-scott-britisches-nachkriegsdesign-routemaster]] (GB).
+
+Damit 49 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 79 Personenartikel bleiben
+offen. `git diff --numstat` auf die Inventardatei zeigt `0 0` (Sammelzeile unverändert,
+Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE — wie in den Vorläufen, weil Zeile 68 als
+Ganzes erst nach vollständiger Sichtung markiert wird). **Nächster Lauf:** Zeile 68
+fortsetzen nach Dateigrösse unter den verbleibenden ungelesenen Positionen (`graves.htm`,
+`kuramata.htm`, `hector_guimard.htm`, `elsie_de_wolfe.htm`, `morrison.htm`, `noyes.htm`,
+`gugelot.htm`, `jiricna.htm`, `sony.htm`, `lucchi.htm`), sonst laut Queue-Regel nächste
+Sektion mit offenem P1/P2. Vor dem nächsten Lauf `nas-commit-now.sh` wie üblich versuchen.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (114. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
@@ -6611,3 +6657,46 @@ Dateigrösse unter den noch ungelesenen Positionen (`paris_1925.htm`, `zanuso.ht
 bereits im Artikel [[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]
 verarbeitet. Sonst laut Queue-Regel nächste Sektion mit offenem P1/P2. Vor dem nächsten Lauf
 erneut `nas-commit-now.sh` versuchen.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (116. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt: `KORPUS-QUEUE.md`/`wiki/INDEX.md`/`CHANGELOG.md` gegen
+`raw/inventar/` geprüft, keine Zahl aus dem Dispatch-Text übernommen (der bewusst keine
+mehr nennt). `scutil` bestätigte Hostname Macmini, `ps -eo pid,ppid,command` zeigte genau
+einen laufenden `claude -p`-Prozess mit diesem Auftrag (PID 40481) — kein Doppel-Dispatch.
+Git-Status vor Laufbeginn: nur die unkommittierten Buchführungszeilen des 115. Laufs
+(`KORPUS-QUEUE.md`, `CHANGELOG.md`), keine widersprüchliche Vorarbeit.
+
+Drei kleinste ungelesene Positionen des Design-Ordners `08_Design` gelesen: `graves.htm`
+(8258 Bytes), `kuramata.htm` (8288 Bytes), `hector_guimard.htm` (8454 Bytes). Duplikatscheck
+vorab (`grep -lir` gegen alle drei Namen über `wiki/*.md`): Michael Graves bislang nur als
+New-York-Five-Mitglied in
+[[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]] und als
+Memphis-Mitausstellender in
+[[sottsass-memphis-studio-alchimia-olivetti-radical-design]] erwähnt; Shiro Kuramata
+ebenfalls nur als Memphis-Mitausstellender in Letzterem; Hector Guimard ohne jeden Treffer.
+Keine echten Duplikate.
+
+Drei neue Wiki-Artikel:
+[[michael-graves-postmoderne-alessi-swid-powell-new-york-five]] (Laufbahn vom New-York-Five-
+Architekten zum postmodernen Produktdesigner: Alessi-Kessel «Bollitore» mit pfeifendem
+Vogelaufsatz über 500'000-mal verkauft, Alessi-Projekt «Tee- und Kaffee-Piazza» 1983 mit
+Venturi/Rossi/Jencks, Swid-Powell-Keramik «Corinth»/«Big Dripper»; Rückverlinkung in den
+bestehenden Eisenman/New-York-Five- und Sottsass/Memphis-Artikeln ergänzt),
+[[shiro-kuramata-japanisches-design-memphis-cappellini]] (japanischer Minimalismus mit
+subversivem Zug, Kommodenserie «Wavy» (1970) seit Cappellini in Produktion, Memphis-Beiträge
+«Imperial» (1981) und Beton-Glas-Tisch «Kyoto» (1983), Stuhlserie mit popkulturellen Titeln
+«Miss Blanche»/«How High the Moon»; Rückverlinkung im Sottsass/Memphis-Artikel ergänzt) und
+[[hector-guimard-art-nouveau-paris-metro-castel-beranger]] (Pariser Art nouveau als
+komplett neues Thema dieser KB: Castel Béranger 1894-1897 als Ensemblier-Gesamtkomposition,
+Métro-Stationseingänge ab 1903 mit Knospen-Lampen, Einordnung neben Gaudí/Horta als eine der
+drei nationalen Spitzenfiguren des Stils; kein Vergleichsartikel zu Gaudí/Horta in dieser KB
+vorhanden, für künftige Läufe vorgemerkt).
+
+Damit 52 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 76 Personenartikel bleiben
+offen. `git diff --numstat` auf die Inventardatei (`archiv-fachwissen__02_Kunst_Geschichte.md`)
+zeigte `0 0` — die Sammelzeile 68 bleibt unverändert, Fortschritt wird ausschliesslich in
+`wiki/INDEX.md`/diesem CHANGELOG/`KORPUS-QUEUE.md` nachgeführt (Praxis seit dem 106. Lauf).
+Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68 bleibt offen, nächster Schritt:**
+Fortsetzung nach Dateigrösse unter den restlichen ungelesenen Positionen des Design-Ordners,
+sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.

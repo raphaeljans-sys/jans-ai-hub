@@ -2521,3 +2521,27 @@ Klint, Rückverlinkung im bestehenden Teague- und Ruhlmann/Kaare-Klint-Artikel e
 CHANGELOG 30.08.2026. **Nächster Lauf:** Zeile 68 fortsetzen (Kandidaten nach Dateigrösse:
 `post.htm`, `sipek.htm`, `grange.htm`, `graves.htm`, `paris_1900.htm`, `kuramata.htm`), sonst
 laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (116. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`/`CHANGELOG.md`/`raw/inventar/` geprüft, keine Zahl
+aus dem Dispatch-Text übernommen), `scutil` bestätigte Macmini, genau ein `claude -p`-Prozess
+(PID 40481), kein Doppel-Dispatch. Drei kleinste ungelesene Positionen des Design-Ordners
+`08_Design` gelesen: `graves.htm`, `kuramata.htm`, `hector_guimard.htm`. Duplikatscheck vorab
+(`grep -lir` gegen alle drei Namen): Graves und Kuramata bislang nur Streuverweise
+(New-York-Five- bzw. Memphis-Mitausstellung), Guimard ohne jeden Treffer — keine Dubletten.
+Drei neue Artikel:
+[[michael-graves-postmoderne-alessi-swid-powell-new-york-five]] (New-York-Five-Architekt zu
+postmodernem Produktdesigner, Alessi-Kessel «Bollitore», Swid-Powell-Keramik, Rückverlinkung
+im bestehenden Eisenman/New-York-Five- und Sottsass/Memphis-Artikel ergänzt),
+[[shiro-kuramata-japanisches-design-memphis-cappellini]] (japanischer Minimalismus, Kommoden-
+serie «Wavy»/Cappellini, Memphis-Beiträge «Imperial»/«Kyoto», Rückverlinkung im Sottsass/
+Memphis-Artikel ergänzt) und
+[[hector-guimard-art-nouveau-paris-metro-castel-beranger]] (Pariser Art nouveau, Métro-
+Eingänge, Castel Béranger, Ensemblier-Prinzip — komplett neues Thema in dieser KB, kein
+Vergleichsartikel zu Gaudí/Horta vorhanden). Damit 52 von 128 Fliesstext-Dateien der Zeile 68
+gelesen, rund 76 Personenartikel bleiben offen. `git diff --numstat` auf die Inventardatei
+zeigte `0 0` (Sammelzeile bleibt unverändert, Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE).
+Details CHANGELOG 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach
+Dateigrösse unter den restlichen ungelesenen Positionen, sonst laut Queue-Regel nächste
+Sektion mit offenem P1/P2.

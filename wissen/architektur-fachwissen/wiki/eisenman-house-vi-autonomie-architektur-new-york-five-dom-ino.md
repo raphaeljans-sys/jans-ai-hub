@@ -55,7 +55,9 @@ dokumentierten 11-Punkte-Schema derselben Vorlesungsreihe.
 ## New York Five und Gegenposition The Greys
 
 - **The Whites / New York Five**: Peter Eisenman (Bezug Terragni), John Hejduk (Bezug Van
-  Doesburg), Michael Graves (Bezug Le Corbusiers puristische Periode), Charles Gwathmey,
+  Doesburg), Michael Graves (Bezug Le Corbusiers puristische Periode, spätere Wende zum
+  postmodernen Produktdesign: eigener Artikel
+  [[michael-graves-postmoderne-alessi-swid-powell-new-york-five]]), Charles Gwathmey,
   Richard Meier.
 - **Antagonisten «The Greys»**: Robert Venturi, Postmoderne allgemein.
 - Vorbilder: Le Corbusiers Maison Dom-ino, Manfredo Tafuri, Colin Rowe, Rudolf Wittkowers

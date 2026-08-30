@@ -3,7 +3,7 @@ title: "Ettore Sottsass: Olivetti, Studio Alchimia, Memphis-Gruppe, Radical Desi
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/sottsass.htm"]
-links: ["italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "javier-mariscal-spanisches-postfranco-design-memphis-barcelona", "gaetano-pesce-radikales-design-polyurethan-serienunikate", "postmoderne-design-jencks-memphis-alchimia-international", "antonio-citterio-italienisches-moebeldesign-bb-italia-kartell-vitra"]
+links: ["italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "javier-mariscal-spanisches-postfranco-design-memphis-barcelona", "gaetano-pesce-radikales-design-polyurethan-serienunikate", "postmoderne-design-jencks-memphis-alchimia-international", "antonio-citterio-italienisches-moebeldesign-bb-italia-kartell-vitra", "michael-graves-postmoderne-alessi-swid-powell-new-york-five", "shiro-kuramata-japanisches-design-memphis-cappellini"]
 ---
 
 # Ettore Sottsass: Olivetti, Studio Alchimia, Memphis-Gruppe, Radical Design
@@ -59,8 +59,11 @@ Schlüsselstücke: Sideboard **«Casablanca»** (1981, Abet-Print-Laminat mit vo
 entwickeltem «Bakterien-Muster», gilt laut Quelle als Symbol des postmodernen Designs),
 Sideboard **«Carlton»** (Raumteiler-Funktion). Internationale Mitausstellende: Javier
 Mariscal (eigener Artikel [[javier-mariscal-spanisches-postfranco-design-memphis-barcelona]],
-Einladung Sottsass' nach dessen Barcelona-Besuch 1981), Shiro Kuramata, Hans Hollein, Arata
-Isozaki, Michael Graves. Verwandter, aber eigenständiger italienischer Anti-Design-Zweig:
+Einladung Sottsass' nach dessen Barcelona-Besuch 1981), Shiro Kuramata (eigener Artikel
+[[shiro-kuramata-japanisches-design-memphis-cappellini]]), Hans Hollein, Arata Isozaki,
+Michael Graves (eigener Artikel
+[[michael-graves-postmoderne-alessi-swid-powell-new-york-five]]). Verwandter, aber
+eigenständiger italienischer Anti-Design-Zweig:
 [[gaetano-pesce-radikales-design-polyurethan-serienunikate]] (Material-/Fertigungs-Experiment
 statt Memphis-Dekor).
 
