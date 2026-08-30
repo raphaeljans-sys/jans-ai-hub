@@ -4,6 +4,17 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260830 — Eine technisch blockierte P1-Position, Sektion 02_Architekturgeschichte (Lane FACHWISSEN)
+
+**#63 — Begriffe-Scan ohne auswertbaren Text.**
+`00_Allgemein/00_Begriffe/architekturgeschichte_begriffe_notizen.pdf` (16 MB, 26 Seiten)
+liefert per `pypdf` nur 614 Zeichen über alle Seiten, das Read-Tool bricht mit „request
+limit" ab (vermutlich stark bildlastige Einzelseiten). Inhaltlich vermutlich identisch mit
+der bereits destillierten Begriffsliste in `Architektur- und Kunstgeschichte_neu1.pdf`
+(gleiche 16 Begriffe, gleiche Reihenfolge) — nicht mit letzter Sicherheit verifizierbar, da
+der Scan selbst nicht lesbar ist. Wer beantworten kann: ein Lauf mit OCR-Zugriff oder
+Vision-Lesung der Einzelseiten, um einen inhaltlichen Abgleich zu bestätigen.
+
 ## 260830 — Zwei technisch blockierte P1-Positionen, Sektion 02_Architekturtheorie (Lane FACHWISSEN)
 
 **#61 — Bild-Scan ohne OCR.** `Konstruktion_und_Tektonik/05_Literatur/Seiten aus
