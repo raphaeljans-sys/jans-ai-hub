@@ -4,6 +4,33 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, sechsundzwanzigster Folgelauf desselben Tages) — Charge 3: vier weitere Namen ueber Ordnerinhalt-Sichtung geklaert
+
+Minimalcheck bestaetigte erneut: alle vier im Dispatch-Text genannten Prioritaeten
+(Fehlextraktionen Tadao_Ando/Spuehler_Martin/Wurster_William/Pfister_Gebrueder/
+Pouillon_Fernand/Romero_Schaefle/Rohn_Roland, die vier Katalog-Kollisionen, die
+Sonderzeichen-Regel, Sammelfrage Charge 2) waren bereits am 29.08.2026 vollstaendig
+abgeschlossen — reiner Wiederholungs-Dispatch. Statt eines 26. Nulltreffers wurden
+stattdessen die elf seit 29.08.2026 in Charge 3 unbestaetigten Sammelfrage-Namen per
+Ordnerinhalt-Sichtung (nicht nur Websuche) weiterverfolgt, analog dem bereits an
+Charge 2 und 6 erprobten Muster. Vier geklaert: **Herrle_Stoll** (OIKOS Peter Herrle
+und Werner Stoll, Berlin, per DETAIL-Artikel 2001/1 im Ordner selbst belegt),
+**Kampmann** (Hack Kampmann, 1856-1920, Buchseiten-Scan im Ordner nennt Name und
+Lebensdaten exakt), **Hofmann_Ludwig** (KORRIGIERT: nicht der zuvor vermutete
+Herborn-Kirchenbaumeister, sondern Ludwig Hoffmann, 1852-1932, Stadtbaurat Berlin —
+Ordner enthaelt Material zu Ludwig-Hoffmann-Quartier Berlin-Buch, -Krankenhaus,
+-Bruecke), **Klement_Juergen** (praezisiert: keine Einzelperson, sondern
+Firmenname-Verkuerzung von Juergensen Klement Architekten Zuerich, gegruendet 2013
+von Steffen Juergensen und Thomas Klement). Sieben bleiben trotz Ordnerinhalt-Sichtung
+ohne Namensbeleg (Imhof_Edi, Jaeckel_Fabian, Horvat_Paolo, Keles_Oetzguer,
+La_Pierre_Eric, Lazarini_Fenster, Knorr — Letzterer wegen 88-MB-PDF ueber dem
+Read-Limit inhaltlich nicht gesichtet). Alle Ergaenzungen als NACHTRAG an die
+bestehende Sammelfrage-Zeile in `wiki/QUESTIONS.md` angehaengt (`git diff --numstat`
+zeigt nur die eine bereits mehrfach editierte Zeile, kein Zeilenverlust). Fuer den
+naechsten Lauf: sieben ungeklaerte Charge-3-Namen bleiben offen, ebenso Sik_Miroslav/
+Sutter_Annabarbara (Rueckfragen an Raphael) und Chargen 4/5 (noch keine
+Ordnerinhalt-Sichtung der dort unbestaetigten Sammelfrage-Namen versucht).
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, fuenfundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
 
 `git status --short`/`git diff --numstat` leer (Arbeitsbaum sauber), Zeilen 313
