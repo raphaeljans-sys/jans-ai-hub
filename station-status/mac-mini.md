@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.08.2026 00:41:35
+Stand: 31.08.2026 00:51:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 00:23)
@@ -12,4 +12,4 @@ Stand: 31.08.2026 00:41:35
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 87202f3f6 Lane FACHWISSEN: Depot-Hard-Jurybericht Kerez destilliert (Sandwich-Kritikstruktur)
+- fbf2c61e4 wissen/architektur-fachwissen: zehnter Lauf 02_Gestalt_Kulturverstaendnis, LA_TERRAZZA-Jurybericht Depot Hard
