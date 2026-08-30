@@ -1,5 +1,44 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zweiundzwanzigster P2-Lauf (vier Auszüge aus `Quellentextband-1.pdf` destilliert: Vitruv, Frontinus, Filarete/Alberti/Dürer, Kalabrien-Wiederaufbau, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 72. Beispiel Memory `project_fachwissen-dispatch-loop`, Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
+
+Vor Arbeitsbeginn KORPUS-QUEUE.md/CHANGELOG gegengeprüft, Stand identisch zum 21. Lauf
+dokumentierten Ende; unkommittierte Buchführung des Vorlaufs bereits sauber
+(15-Min-Cron hatte sie zuvor selbständig übernommen). Die vier vom Vorlauf empfohlenen
+Prioritäten aus `Quellentextband-1.pdf` vollständig bearbeitet:
+
+- Vitruv, Buch I (Vorrede, 4, 6, 7): Standortwahl über die Vier-Elemente-Lehre,
+  Sumpfgebiets-Fallbeispiele (Altinum/Ravenna/Aquileja vs. Pomptinische Sümpfe,
+  Alt-Salpia-Umsiedlung durch M. Hostilius für einen Sesterz pro Parzelle),
+  Windrosen-gestütztes Strassenraster (Turm der Winde des Andronikos von Kyrrhos) und
+  Götter-Standortlogik → neuer Artikel
+  [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]].
+- Vitruv Buch VIII,6 (Drei-Kammer-Wasserschloss, Prioritätenhierarchie öffentlich vor
+  gewerblich vor privat) und Frontinus, «Wasser für Rom» (neun Aquädukte,
+  Höhenrangfolge, vollständige antike Mengenbilanz 560'720 m³/Tag,
+  Kalibersystem quinaria/centenaria, Senatsbeschluss 11 v. Chr. gegen illegales
+  Aufbohren) → neuer Artikel
+  [[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]].
+- Dreiervergleich Filarete («Sforzinda», Sternstadt-Achteck), Alberti (Buch I,3+9 und
+  IV,2+3: Klimalogik, Eckendebatte am Beispiel Perugia, etruskische
+  Gründungsliturgie) und Dürer («Idealstadtbeschreibung» 1527: windgerecht
+  abgeschrägte Quadratstadt, konzentrische Zonierung) → neuer Artikel
+  [[renaissance-idealstadt-typologie-filarete-alberti-duerer]].
+- Kalabrien-Wiederaufbauquellen nach dem Erdbeben 1783 (königliche Bauvorschriften
+  Reggio mit Höhenlimit und Kuppel-/Campanile-Verbot, Serraos Gründungsrede für die
+  Neustadt Filadelfia, Grimaldis Bagnara-Konflikt, Palestinos Chronik der
+  dreijährigen Bauverzögerung) als Vergleichsfall zu Manuel da Maia/Lissabon 1755 →
+  neuer Artikel [[kalabrien-wiederaufbau-erdbeben-1783-vergleich-lissabon]], im
+  bestehenden Da-Maia-Artikel zurückverlinkt.
+
+Gegen Wiki-Bestand geprüft (`grep -ril` über `wiki/*.md`), keine Duplikate. `git diff
+--numstat` auf die Inventardatei zeigt reinen Append (`41 0`). Von den 33
+Autorendossiers der Position 4 bleiben weiterhin acht unangetastet; im Quellentextband
+bleiben rund 40 Einzelauszüge offen, darunter Vauban selbst noch nicht eigenständig
+destilliert. **Nächster Lauf:** Vauban («Abhandlung von der Vertheidigung der
+Festungen») als eigenständiger Festungsbau-Artikel, danach Palladio oder nächstes
+unbearbeitetes Autorendossier.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, einundzwanzigster P2-Lauf (`Quellentextband-1.pdf` als vollständig lesbar erwiesen, zwei neue Wiki-Artikel, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 71. Beispiel Memory `project_fachwissen-dispatch-loop`, Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
 
 Werkzeug-Befund, korrigiert Rule 10: Read-Tool ohne `pages`-Parameter liest

@@ -1204,3 +1204,44 @@ Bürorelevanz: Vitruv/Frontinus (antike Stadthygiene/Wasserversorgung), Filarete
 Dürer (Renaissance-Idealstadt-Typologie, Vergleichsartikel möglich), Vauban (Festungsbau)
 und die Kalabrien-Wiederaufbauquellen (Vergleichsfall zu Manuel da Maia). Sonst nächstes
 unbearbeitetes Autorendossier nach Ordnernummer.
+
+**30.08.2026 (Lane FACHWISSEN, zweiundzwanzigster P2-Lauf, vier weitere Auszüge aus
+`Quellentextband-1.pdf`):** die vier in der 21.-Lauf-Empfehlung genannten Prioritäten
+vollständig bearbeitet:
+
+- Vitruv, Buch I (Vorrede, 4, 6, 7): Standortwahl/Vier-Elemente-Begründung,
+  Sumpfgebiets-Fallbeispiele (Altinum/Ravenna/Aquileja vs. Pomptinische Sümpfe,
+  Alt-Salpia-Umsiedlung durch M. Hostilius), Windrosen-Strassenraster (Turm der Winde
+  des Andronikos von Kyrrhos), Götter-Standortlogik (Jupiter/Juno/Minerva oben,
+  Merkur am Markt, Mars/Venus/Vulcanus/Ceres ausserhalb) → neuer Artikel
+  [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]].
+- Vitruv Buch VIII,6 (Wasserverteiltechnik, Drei-Kammer-Wasserschloss) und Frontinus,
+  «Wasser für Rom» (neun Aquädukte, Höhenrangfolge, vollständige Mengenbilanz
+  560'720 m³/Tag, Kalibersystem quinaria/centenaria, Senatsbeschluss 11 v. Chr. gegen
+  illegales Aufbohren) → neuer Artikel
+  [[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]].
+- Filarete («Sforzinda», Sternstadt-Achteck, 16 Radialstrassen, Ein-Exemplar-pro-
+  Bauwerksgattung-Prinzip), Alberti (Buch I,3+9 und IV,2+3: Standort-/Klimalogik,
+  Eckendebatte am Beispiel Perugia, etruskische Gründungsliturgie) und Dürer
+  («Idealstadtbeschreibung» 1527: Quadratstadt mit windgerecht abgeschrägten Ecken,
+  konzentrische Zonierung um das Königsschloss) im Dreiervergleich → neuer Artikel
+  [[renaissance-idealstadt-typologie-filarete-alberti-duerer]] (Vergleichstabelle
+  Grundfigur/Leitmotiv/Windbezug/Zonierung).
+- Kalabrien-Wiederaufbauquellen (Erdbeben 1783: königliche Bauvorschriften Reggio mit
+  Höhenlimit und Kuppel-/Campanile-Verbot, Serraos Gründungsrede für die Neustadt
+  Filadelfia im griechischen Kreuz, Grimaldis Bagnara-Konflikt zwischen Duchessa und
+  Staat, Palestinos Chronik der dreijährigen Bauverzögerung in Reggio) als
+  Vergleichsfall zu Manuel da Maia/Lissabon 1755 destilliert → neuer Artikel
+  [[kalabrien-wiederaufbau-erdbeben-1783-vergleich-lissabon]], im bestehenden
+  Da-Maia-Artikel zurückverlinkt.
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach Vitruv/Frontinus/Filarete/Alberti/Dürer/
+Kalabrien/Erdbeben über `wiki/*.md`): keine Treffer ausser den neuen Artikeln selbst,
+kein Duplikat. `git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von
+den 33 Autorendossiers der Position 4 bleiben weiterhin acht unangetastet. Im
+Quellentextband bleiben weiterhin rund 40 Einzelauszüge offen (u. a. Vauban selbst noch
+nicht destilliert — nur im Vergleichskontext erwähnt, Palladio, Descartes, Campanella,
+Ludwig XIV., Dézallier d'Argenville, Max Weber bereits im 21. Lauf erledigt). **Nächster
+Lauf:** Vauban («Abhandlung von der Vertheidigung der Festungen») als eigenständiger
+Festungsbau-Artikel, danach Palladio (Strassen-/Brücken-/Platztheorie) oder nächstes
+unbearbeitetes Autorendossier.

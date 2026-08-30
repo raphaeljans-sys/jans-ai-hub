@@ -1529,3 +1529,43 @@ Sonne (grösstenteils über 20-MB-Grenze) und der Lampugnani-Quellentextband (35
 ohne Textebene, Seitenbereichs-Lesung am fehlenden `poppler` gescheitert, Vollzugriff für
 einen einzelnen Lauf zu umfangreich) bleiben offen**, dazu `kapitel01_dk...` Unterkapitel
 1/2/4/5 als eigene Restaufgabe. Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 4 abgeschlossen, `Quellentextband-1.pdf` als vollständig lesbar erwiesen (Lane FACHWISSEN, 21. und 22. P2-Lauf)
+
+Nach Abschluss der 33 Autorendossiers (Sonne/Kultur der Urbanität als letztes Dossier,
+siehe [[sonne-kultur-der-urbanitaet-dichte-stadt-kontinuitaetsthese]]) und den fünf
+Unterkapiteln von `kapitel01_dk_vorindustrielle_120dpi.pdf` (siehe
+[[deutsche-ostkolonisation-mittelalterliche-stadtgruendung-hanse-wiese-zils]] und die
+beiden weiteren Wiese/Zils-Artikel) blieb als letzte grosse Einzelquelle der Sektion
+`Quellentextband-1.pdf` (10,3 MB, 358 Seiten Bildscan) offen. Entgegen früherer
+Einschätzung («zu lang für einen Volldurchlauf») liest das Read-Tool die Datei ohne
+`pages`-Parameter vollständig in einem Aufruf. Sie erwies sich als Band I einer
+vierbändigen ETH-Quellenanthologie «Texte zur Geschichte des Städtebaus»
+(Lampugnani-Professur 1996) mit ca. 50 Primärtext-Auszügen von Homer bis Max Weber.
+
+21. Lauf: Max Webers Marktansiedlungs-Definition
+([[max-weber-stadtbegriff-marktansiedlung-fuerstenstadt-konsumentenstadt-produzentenstadt]])
+und Manuel da Maias Fünf-Modi-Variantenvergleich für den Lissabon-Wiederaufbau 1755
+([[manuel-da-maia-lissabon-wiederaufbau-fuenf-modi-1755]]).
+
+22. Lauf, vier weitere Auszüge:
+
+- [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]] — Buch I:
+  Standortwahl/Vier-Elemente-Lehre, Sumpfgebiets-Fallbeispiele, Windrosen-Strassenraster,
+  Götter-Standortlogik.
+- [[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]] — Vitruv Buch VIII,6
+  plus Frontinus «Wasser für Rom»: neun Aquädukte, Mengenbilanz, Kalibersystem,
+  Senatsbeschluss 11 v. Chr.
+- [[renaissance-idealstadt-typologie-filarete-alberti-duerer]] — Dreiervergleich
+  Filarete/Sforzinda, Alberti (Standort-/Formregeln, Perugia-Beispiel), Dürer
+  (Quadratstadt-Idealstadtbeschreibung 1527), mit Vergleichstabelle.
+- [[kalabrien-wiederaufbau-erdbeben-1783-vergleich-lissabon]] — Bauvorschriften Reggio,
+  Neugründung Filadelfia, Bagnara-Konflikt, Palestinos Vollzugschronik; Vergleichsfall zu
+  Manuel da Maia, dort zurückverlinkt.
+
+**Von den ca. 50 Quellentextband-Auszügen sind jetzt sechs destilliert, rund 40 bleiben
+offen** (u. a. Vauban im Original noch nicht eigenständig behandelt, nur im
+Renaissance-Vergleichsartikel referenziert; Palladio, Descartes, Campanella, Ludwig XIV.,
+Dézallier d'Argenville ungelesen). Die 33 Autorendossiers der Position 4 gelten mit Sonne
+als abgeschlossen. **Nächster Lauf:** Vauban («Abhandlung von der Vertheidigung der
+Festungen») eigenständig, danach Palladio. Keine der harten Sperren berührt.
