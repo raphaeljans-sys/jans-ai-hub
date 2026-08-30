@@ -3,6 +3,15 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-30 — Output: bexio vs. Alternativen fuer Einzelfirma + AG
+- Neuer Report `outputs/2026-08-30_bexio-vs-alternativen-buchhaltung.md` (Auftrag Raphael):
+  bexio-Paketumstellung 01.03.2026 (Starter → Advanced CHF 42/Mt. am Verlaengerungsdatum
+  08.10.2026), Kostenvergleich fuer zwei Rechtseinheiten (bexio 2 Abos ~CHF 924/Jahr vs.
+  CashCtrl PRO ~CHF 350/Jahr mit 2 Organisationen), Einschaetzung Eigenbau (Buchhaltungskern
+  nicht selbst bauen), Empfehlung + offene Punkte (Saldosteuersatz, Treuhaender-Praeferenz).
+  Frist-Eintrag im Register `logbuch/fristen.md` (Entscheid bis 08.09.2026). Kein neuer
+  Wiki-Artikel — Software-Wahl ist Betriebsentscheid, kein Gruendungsrecht.
+
 ## 2026-08-26 (Mac-Mini-Nachtschicht, Prioritaet 6) — Wissens-Health-Check (Phase 1)
 - A1 · B2 (Orphans, 0 tote Links) · C0 · D0 · E0 · F0 · G1. Zwei echte Befunde, beide
   dokumentarisch/strukturell, keine Sachaussage betroffen: (1) `QUESTIONS.md` fuehrt den
