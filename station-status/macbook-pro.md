@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 22:54:30
+Stand: 30.08.2026 23:04:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 22:54:30
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6788aa17d Wissens-Destillat 125. Lauf: Zeile 68 (08_Design) fortgesetzt - bellini, 50-60ein, mo1ein
+- 1e33173a3 energie Run 169: Fristen-Register — Messpunkt 364/245 zur P1-Sync-Divergenz (Konflikte ausnahmslos in append-at-top-CHANGELOGs, stuetzt Spec-Befund B6)
