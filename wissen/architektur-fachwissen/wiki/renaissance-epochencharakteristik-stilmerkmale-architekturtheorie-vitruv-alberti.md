@@ -3,7 +3,7 @@ title: "Renaissance-Epochencharakteristik: Stilmerkmale Früh-/Hoch-/Spätrenais
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/Renaissance-Zusammenfassung.pdf (51 S., studentische Zusammenfassung nach Vorlesung Tönnesmann; in diesem Lauf gelesen und destilliert: S. 1-3, Abschnitte «Ablauf», «Ideen», «Erneuerung der Künste», «Architekturtheorie», «Architektonische Charakteristiken»; die anschliessende, sehr umfangreiche Einzelbau-Dokumentation Brunelleschi/Michelozzo/Alberti/Rossellino S. 4ff bleibt offen, siehe unten)"]
-links: ["[[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]]", "[[objektliste-architekturgeschichte-datierungen-eth]]"]
+links: ["[[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]]", "[[objektliste-architekturgeschichte-datierungen-eth]]", "[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]"]
 ---
 
 # Renaissance-Epochencharakteristik: Stilmerkmale und Architekturtheorie

@@ -3,7 +3,7 @@ title: "Tönnesmann-Vorlesung Renaissance/Barock: Machtgeschichtliche Herleitung
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/Kunst-und-Architekturgeschichte-I-12-HS-Renaissance-und-Barock-A.-Tönnesmann.pdf (43 S., ETH-Vorlesungsmitschrift Andreas Tönnesmann, HS 2012, Termine 21.09.-07.12.2012, vollständig gelesen; enthält ab S. 15 einen Gastvorlesungs-Teil von Paul Naredi-Rainer, 02.11.2012)"]
-links: ["[[objektliste-architekturgeschichte-datierungen-eth]]", "[[fachglossar-historische-bauteile-kirchenbau-gotik]]", "[[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]]"]
+links: ["[[objektliste-architekturgeschichte-datierungen-eth]]", "[[fachglossar-historische-bauteile-kirchenbau-gotik]]", "[[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]]", "[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]"]
 ---
 
 # Tönnesmann-Vorlesung Renaissance/Barock: Machtgeschichte und Proportion
