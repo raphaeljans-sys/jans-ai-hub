@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 13:08:10
+Stand: 30.08.2026 13:18:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:01)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 13:08:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d97ba32df Fachwissen: Tacitus destilliert (51. P2-Lauf 01_Staedtebau), CHANGELOG/INDEX-Nachtragslücke 49./50. Lauf geschlossen, Queue-Zelle Korpus 4 entbloatet
+- 52b217c0f nas-selfcommit: 2 Datei(en) 2026-08-30 13:15
