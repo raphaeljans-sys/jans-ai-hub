@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 11:45:52
+Stand: 30.08.2026 11:56:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 11:45:52
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cd86e60fe nas-selfcommit: 2 Datei(en) 2026-08-30 11:45
+- ad5f2ef6b wissen/architektur-fachwissen: 42. P2-Lauf Sektion 01_Staedtebau, Cicero Vom Staatswesen destilliert, CHANGELOG/INDEX-Lücken Läufe 40-41 nachgetragen
