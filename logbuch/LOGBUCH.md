@@ -47,6 +47,8 @@ VOLLGAS-Endlos-Runner und sind fuer die aktuelle Last ohne Bedeutung. Die Last k
 `ch.jans.wissens-trigger` und `ch.jans.nachtschicht` (beide in `launchctl list`) sowie aus den
 Schub-Lanes. Die STOP-Flags taugen weiterhin nicht als Beleg fuer Stillstand.
 
+**Sicherung.** `nas-commit-now.sh` hat den Commit nativ auf der Synology gesetzt (`c11a9c1da`, 18:10:37, eigene Gegenprobe lesend per ssh); der anschliessende Abgleich lief in den bekannten Merge-Konflikt fremder KB-Dateien der Schub-Lanes. Der Arbeitsbaum dort ist danach **sauber**: kein `MERGE_HEAD`, keine `index.lock`, null unmerged Dateien — das Script setzt vollstaendig zurueck, wie am 30.08. 06:5x dokumentiert. Meine drei Dateien tragen keine Konfliktmarker. **Gemessener Nebenbefund zur laufenden P1-Sync-Zeile:** die Divergenz steht um 18:1x bei **306 voraus / 195 zurueck** (08:45 waren es 205/116) und waechst weiter. Nicht selbst aufgeloest — unbeaufsichtigter Lauf, fremde unbestaetigte Arbeit mehrerer Lanes (Rule `interaktive-eingriffe`).
+
 **Nicht beruehrt durch diesen Lauf:** der Grundverbrauch-Entscheid aus dem 03.08.-Check und die
 Auto-Top-Up-Zeile vom 13.08. bleiben ohne Erledigungszeile.
 
