@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 02:20:11
+Stand: 30.08.2026 02:30:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:57)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 02:20:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 724928b2f FACHWISSEN: VL5 Venturi destilliert (archiv-fachwissen 02_Architekturtheorie, fuenfter P2-Lauf)
+- ee760d47f nas-selfcommit: 2 Datei(en) 2026-08-30 02:30
