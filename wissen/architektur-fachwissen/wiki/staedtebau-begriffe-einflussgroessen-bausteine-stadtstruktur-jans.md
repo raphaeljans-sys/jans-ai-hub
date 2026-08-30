@@ -2,7 +2,7 @@
 title: "Städtebau-Begriffe: Einflussgrössen und Bausteine der Stadtstruktur (eigenes Wörterbuch des Städtebaus, Raphael Jans 2011)"
 status: emerging
 last_updated: 2026-08-29
-sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/10_Glosar/PDF/110808_1930_Woerterbuch_Staedtebau.pdf S. 1-2 (Einträge «Aspekte, Prinzipien, Einflussgrössen des Städtebaus», «Baukörper», «Bausteine der Stadtstruktur»)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md Abschnitt Triage, Position 1"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/10_Glosar/PDF/110808_1930_Woerterbuch_Staedtebau.pdf S. 1-2 (Einträge «Aspekte, Prinzipien, Einflussgrössen des Städtebaus», «Baukörper», «Bausteine der Stadtstruktur»)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/01_Jans_Reader/PDF/00_Alles/110806_Alles.pdf S. 8-9 (eigener Reader «Geschichte des Städtebaus», Modul 1, Live-Mitschrift)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md Abschnitt Triage, Position 1"]
 links: ["[[erlaeuterungsbericht-gattungsvorlage-vier-kapitel-diplom2010]]", "[[stadttypen-strassennetz-systematik-jans]]"]
 ---
 

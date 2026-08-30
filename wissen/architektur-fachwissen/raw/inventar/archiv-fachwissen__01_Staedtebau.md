@@ -335,3 +335,29 @@ P2-Positionen dieser Sektion sind damit Positionen 8, 13 und 14 abgeschlossen; P
 Platz-Materialbestand) bleiben offen.** Nächster Lauf: Position 1 (Jans-Reader, 47 Seiten,
 eigenes Ordnungsgerüst der Vorlesungsreihe) ist der sinnvollste nächste Schritt, da er laut
 Kurzbefund die spätere Wiki-Struktur «Geschichte des Städtebaus» vorgibt.
+
+**30.08.2026 (Lane FACHWISSEN, vierter P2-Lauf, Position 1):** Position 1
+(`00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/01_Jans_Reader/PDF/00_Alles/
+110806_Alles.pdf`, 47 S.) vollständig gelesen. Grossteil der Live-Mitschrift wiederholt
+bereits andernorts destillierte Themen (Antike, Mittelalter/Renaissance-Überblick, England
+Landschaftspark, vor-Haussmannsches Paris) — dort **kein Artikel** (Delta-Ehrlichkeit).
+Vier Fundstellen mit Mehrwert destilliert:
+
+- S. 8–9 (weitere Beispiele zu den städtebaulichen Determinanten: Venedig, Siena/Bath,
+  Vitruv-Hygiene, London-Baurecht, Barcelona-Cerdà) als Ergänzung in
+  [[staedtebau-begriffe-einflussgroessen-bausteine-stadtstruktur-jans]].
+- S. 24–26, 38–40 (Barock: offene Achsensysteme Rom/Versailles/St. Petersburg,
+  Platztypologie, Place-Royal-Typus) → neuer Artikel
+  [[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]].
+- S. 42–43 (Haussmanns drei Réseau-Phasen mit Einzelprojekten) als Ergänzung in
+  [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]].
+- S. 46 (Berlin: Schinkel-Einzelmonument → Lenné-Scheitern → Hobrecht-Grossblock) → neuer
+  Artikel [[berlin-stadterweiterung-schinkel-lenne-hobrecht]].
+- S. 7 (parallele Stadttypen-Liste) als Cross-Check-Verweis in
+  [[stadttypen-strassennetz-systematik-jans]] vermerkt, kein eigener Artikel.
+
+**Position 1 gilt damit als abgeschlossen.** Von den acht P2-Positionen dieser Sektion sind
+jetzt 1, 8, 13 und 14 erledigt; Positionen 2–7 (Übungsheft, fünf Grundlagenwerke
+Manualistik, 33 Autorendossiers, Platz-Materialbestand) bleiben offen. Details CHANGELOG/
+`wiki/INDEX.md` 30.08.2026. Nächster Lauf: Position 2 (Übungsheft, 61 S., Kompetenz-/
+Methodenraster über 17 Themenblöcke).

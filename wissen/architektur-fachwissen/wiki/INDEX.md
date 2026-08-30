@@ -82,7 +82,7 @@ jeweiligen Inventar unter «Triage».
 | # | Sektion | Korpus | P1 / gesichtet | Was drinsteckt | Inventar |
 |---|---|---|---|---|---|
 | 10 | `02_Denkmalpflege` | archiv | 8 / 156 | Der ETH-Studienapparat zur Vorlesung Hassler liefert mit dem SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken», der SVTSM-Trockenmauer-Richtlinie samt Devisierungskapitel, den Kalk- und Pigmentrezepturen von Glaser und der Begriffssystematik Petzet/Mader vier sofort einsetzbare Bausteine für die Bestandsarbeit. | `raw/inventar/archiv-fachwissen__02_Denkmalpflege.md` |
-| 11 | `01_Staedtebau` | archiv | 8 / 51 (von ~8'800 Gesamtbestand, nur 51 einzeln geöffnet) — **P1 vollständig destilliert 29.08.2026, sechs Artikel; erster P2-Lauf 30.08.2026, fünf weitere Artikel** | Städtebau-Studienarchiv ETH (Lampugnani/Christiaanse); eigenes Städtebau-Glossar, Ortsanalyse- und Siedlungsstrukturraster, Projektstart-Checkliste, Stadttypen-Systematik, Blockrand-/Aufenthaltsqualitäts-Argumentation aus dem Manifest «Die Athmosphärische Stadt» 2014. P2 (Position 8, Geschichte-Zusammenfassungen): Gartenstadtbewegung Pugin-Ruskin-Morris-Howard, utopische Stadtentwurfs-Typologie/Garnier Cité Industrielle, Wettbewerb Gross-Berlin/Hochhausstadt-Debatte, Berlage/Amsterdamer Schule/Block-zu-Siedlung, monumentale Stadtachsen Haussmann/City Beautiful. Rest-P2 offen: 5 Dateien aus Position 8, Positionen 1–7 (Lampugnani-Reader/Übungsheft, Manualistik-Grundlagenwerke, 33 Autorendossiers, Platz-Materialbestand, DTV-Konkordanz, Manifest) vollständig unangetastet. | `raw/inventar/archiv-fachwissen__01_Staedtebau.md` |
+| 11 | `01_Staedtebau` | archiv | 8 / 51 (von ~8'800 Gesamtbestand, nur 51 einzeln geöffnet) — **P1 vollständig destilliert 29.08.2026; P2-Positionen 1, 8, 13, 14 destilliert (30.08.2026, drei Läufe)** | Städtebau-Studienarchiv ETH (Lampugnani/Christiaanse); eigenes Städtebau-Glossar, Ortsanalyse- und Siedlungsstrukturraster, Projektstart-Checkliste, Stadttypen-Systematik, Blockrand-/Aufenthaltsqualitäts-Argumentation aus dem Manifest «Die Athmosphärische Stadt» 2014. P2: Gartenstadtbewegung, utopische Stadtentwurfs-Typologie/Garnier, Wettbewerb Gross-Berlin, Berlage/Amsterdamer Schule, monumentale Stadtachsen Haussmann/City Beautiful (Position 8); DTV-Atlas-Konkordanz (Position 14); Manifest-Ergänzung (Position 13); barocke Stadtplanung/Platztypologie, Berlin Schinkel-Lenné-Hobrecht, Determinanten-Ergänzung (Position 1, Jans-Reader). Rest-P2 offen: Positionen 2–7 (Übungsheft Lampugnani, fünf Grundlagenwerke Manualistik, 33 Autorendossiers, Platz-Materialbestand) vollständig unangetastet. | `raw/inventar/archiv-fachwissen__01_Staedtebau.md` |
 | 12 | `17_Projektbeschriebe` | buero | 7 / 18 | Die Sektion enthält genau ein Projekt, dafür das vollständige Set der Projektbeschriebe aller Fachplaner der Schulanlage Leutschenbach, verdichtet zum revidierten Gesamtdossier vom 09.12.2009, mit belegten Fassaden-, Minergie-, Tragwerks- und Lüftungswerten. | `raw/inventar/buero-referenzen__17_Projektbeschriebe.md` |
 | 13 | `01_Entwerfen` | archiv | 6 / 1'246 — **P1 vollständig destilliert 29.08.2026, fünf Artikel** | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). P2 (elf Positionen: Ausbau-Variantenvergleich, Raumtypologie-Vorlesung, SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe, Fachglossare Farbe/Pigmente, Farbenlehre-Website, Ornamentik-Literaturliste, eigene Ideentexte, Class-A-Problem-Vokabular, Ikonographie-Raster u. a.) offen. | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
 | 14 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
@@ -1261,3 +1261,51 @@ Kurzbefund die spätere Wiki-Struktur «Geschichte des Städtebaus» vor).
 Keine der harten Sperren berührt (Verträge, Bewerbungen, Personaldossiers, Adress-/
 Kontaktdaten, Lohn-/Honorardaten, Privatunterlagen); die bekannte Datenschutz-Sperre
 (`FactShets_Staedte.docx`, Stufe X) wurde nicht angerührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 1 (Lane FACHWISSEN, 55. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Vor Arbeitsbeginn wie üblich `scutil` (Macmini bestätigt), `ps aux` (keine Doppel-Instanz,
+nur der eigene Prozess) und `KORPUS-QUEUE.md`/diese Datei gegengeprüft: der Dispatch-Text
+war erneut identisch veraltet («kein Destillat, keine Spec», Station fälschlich «MacBook
+Pro»), der reale Stand entsprach dem oben dokumentierten Ende des dritten P2-Laufs.
+
+Position 1 (`00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/01_Jans_Reader/PDF/00_Alles/
+110806_Alles.pdf`, 47 S., eigener Reader zur Vorlesungsreihe) vollständig gelesen. Die
+Quelle ist grösstenteils eine stichwortartige Live-Mitschrift, die bereits an anderer
+Stelle destillierte Themen wiederholt (Antike Athen/Rom, Mittelalter/Renaissance-Überblick,
+England Landschaftspark/Squares, vor-Haussmannsches Paris-Embellissement) — dort kein
+neuer Artikel (Delta-Ehrlichkeit). Vier Fundstellen mit echtem Mehrwert identifiziert und
+gegen bestehende Artikel geprüft, um Duplikate zu vermeiden:
+
+- S. 8–9 (Determinanten der Stadtform: Venedig/Topographie, Siena+Bath/Material,
+  Vitruv-Hygiene, London-Baurecht, Barcelona-Cerdà als weiche Determinante) als Ergänzung
+  in den bestehenden Artikel
+  [[staedtebau-begriffe-einflussgroessen-bausteine-stadtstruktur-jans]] eingefügt (dieselbe
+  Kategorienlogik wie im Glossar, dort aber mit anderen Beispielen belegt — kein Duplikat).
+- S. 24–26 und 38–40 (Systemwechsel Renaissance→Barock, Rom/Sixtus V., Versailles,
+  St. Petersburg, Platztypologie dreiseitig/ausstrahlend/allseitig-geschlossen,
+  Place-Royal-Typus Place Dauphine/Place des Vosges) → neuer Artikel
+  [[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]],
+  `status: speculative`.
+- S. 42–43 (Haussmanns drei Bauphasen: Premier/Second/Troisième réseau 1853–1869 mit
+  benannten Einzelprojekten) als Ergänzung in den bestehenden Artikel
+  [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]] eingefügt statt
+  Duplikat (der bestehende Artikel deckte Motivation/Zeitleiste ab, nicht die konkreten
+  Bauphasen).
+- S. 46 (dreistufige Berlin-Strategie Schinkel/Individualmonument → Lenné/gescheiterter
+  Gesamtplan → Hobrecht/privatwirtschaftlicher Grossblock, nur ein kurzer Einleitungsabsatz,
+  die Quelle bricht danach ab) → neuer Artikel
+  [[berlin-stadterweiterung-schinkel-lenne-hobrecht]], `status: speculative`.
+- S. 7 (parallele Zwölfer-Stadttypen-Liste, praktisch deckungsgleich mit dem bereits
+  destillierten Typologieblatt «Die A4») als reiner Cross-Check-Verweis in
+  [[stadttypen-strassennetz-systematik-jans]] vermerkt, kein neuer Artikel.
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append. **Position 1 gilt damit als
+abgeschlossen** (die übrigen, bereits andernorts abgedeckten Kapitel des Readers wurden
+geprüft, aber bewusst nicht erneut destilliert). Von den acht P2-Positionen dieser Sektion
+sind jetzt 1, 8, 13 und 14 abgeschlossen; **Positionen 2–7 (Übungsheft Lampugnani, fünf
+Grundlagenwerke Manualistik, 33 Autorendossiers, Platz-Materialbestand) bleiben offen.**
+Nächster Lauf: Position 2 (Übungsheft, 61 S., 214 kB Text, Kompetenz-/Methodenraster über
+17 Themenblöcke) oder eine der übrigen vier Positionen.
+
+Keine der harten Sperren berührt.

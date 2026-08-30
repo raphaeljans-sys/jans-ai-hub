@@ -40,6 +40,19 @@ suburbanen Raum und hilft, einen Bauplatz in einem Satz einzuordnen statt ihn nu
 beschreiben — anschlussfähig an das Einflussgrössen-Vokabular in
 [[staedtebau-begriffe-einflussgroessen-bausteine-stadtstruktur-jans]].
 
+## Cross-Check gegen Parallelquelle
+
+Der Jans-Reader zur Vorlesungsreihe (`.../01_Jans_Reader/PDF/00_Alles/110806_Alles.pdf`
+S. 7) führt eine praktisch deckungsgleiche Zwölfer-Liste (Tempelstadt, Burgstadt,
+Festungsstadt, Marktstadt, Residenzstadt, Industriestadt, Gartenstadt, Siedlung,
+Maschinenstadt, Strassenstadt, Zwischenstadt, Containerstadt) mit denselben oder sehr
+ähnlichen Beispielen (Troja, Bern, Karlsruhe, Zürich Neubühl, Las Vegas, Thomas Sieverts).
+Einzige inhaltliche Abweichung: als Containerstadt-Beispiel nennt der Jans-Reader **Odessa**
+(«grösster Marktplatz Europas», Strassen entstehen aus der Marktorganisation), «Die A4»
+dagegen **Favelas** — beide Belege bleiben ohne Seitenangabe zu einer externen Quelle, kein
+Widerspruch, sondern zwei Illustrationen desselben Typs aus derselben Vorlesungsreihe. Kein
+eigener Artikel dazu (Delta-Ehrlichkeit: keine neue Sachaussage), nur dieser Verweis.
+
 ## Offene Punkte
 
 - Das Dokument enthält weitere Abschnitte (Strassentypen, Platztypologie, Park- und

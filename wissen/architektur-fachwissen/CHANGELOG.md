@@ -1,5 +1,46 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, vierter P2-Lauf (Position 1, Lane FACHWISSEN, 55. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
+
+Vor Arbeitsbeginn `scutil`/`ps aux`/`KORPUS-QUEUE.md`/dieses CHANGELOG gegengeprüft statt
+dem veralteten Dispatch-Text zu folgen: beide Korpus-Specs bestehen, P1 beider Korpora
+vollständig, Sektion `01_Staedtebau` P2 bereits mit Positionen 8, 13, 14 abgeschlossen
+(dritter P2-Lauf desselben Tages, unmittelbar davor).
+
+Position 1 (Jans-Reader zur Vorlesungsreihe «Geschichte des Städtebaus», 47 S.) vollständig
+gelesen. Grossteil der Live-Mitschrift wiederholt bereits andernorts destillierte Themen
+(Antike, Mittelalter/Renaissance-Überblick, England Landschaftspark, vor-Haussmannsches
+Paris) — dort kein Artikel (Delta-Ehrlichkeit). Vier Fundstellen mit Mehrwert destilliert,
+je gegen bestehende Artikel auf Duplikate geprüft:
+
+- Determinanten der Stadtform (Venedig, Siena/Bath, Vitruv-Hygiene, London-Baurecht,
+  Barcelona-Cerdà) als Ergänzung in
+  [[staedtebau-begriffe-einflussgroessen-bausteine-stadtstruktur-jans]] statt Duplikat zum
+  bestehenden Glossar-Artikel.
+- Barocke Stadtplanung (offene Achsensysteme Rom/Versailles/St. Petersburg, Platztypologie
+  dreiseitig/ausstrahlend/allseitig-geschlossen, Place-Royal-Typus Place Dauphine/Place des
+  Vosges) → neuer Artikel
+  `wiki/barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal.md`,
+  `status: speculative`.
+- Haussmanns drei Réseau-Phasen (Premier/Second/Troisième, 1853–1869, mit benannten
+  Einzelprojekten) als Ergänzung in
+  `wiki/monumentale-stadtachsen-haussmann-paris-city-beautiful-washington.md` statt
+  Duplikat (bestehender Artikel deckte Motivation/Zeitleiste, nicht die Bauphasen).
+- Berlin-Strategiewechsel Schinkel (Einzelmonument) → Lenné (gescheiterter Gesamtplan) →
+  Hobrecht (privatwirtschaftlicher Grossblock) → neuer Artikel
+  `wiki/berlin-stadterweiterung-schinkel-lenne-hobrecht.md`, `status: speculative` (Quelle
+  bricht nach kurzem Einleitungsabsatz ab).
+- Parallele Stadttypen-Liste (S. 7) als Cross-Check-Verweis in
+  `wiki/stadttypen-strassennetz-systematik-jans.md` vermerkt, kein eigener Artikel (keine
+  neue Sachaussage).
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (`26 0`). **Position 1 gilt
+damit als abgeschlossen.** Von den acht P2-Positionen dieser Sektion sind jetzt 1, 8, 13
+und 14 erledigt; **Positionen 2–7 (Übungsheft Lampugnani, fünf Grundlagenwerke
+Manualistik, 33 Autorendossiers, Platz-Materialbestand) bleiben offen.** Nächster Lauf:
+Position 2 (Übungsheft, 61 S., Kompetenz-/Methodenraster über 17 Themenblöcke). Keine der
+harten Sperren berührt. Details `wiki/INDEX.md` 30.08.2026.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zweiter und dritter P2-Lauf (Lane FACHWISSEN, 54. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt)
 
 Vor Arbeitsbeginn wie in allen Vorläufen dieser Lane geprüft: `scutil` bestätigt Macmini
