@@ -6058,3 +6058,36 @@ Rückverlinkung ergänzt, `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeil
 (733 Dateien, Duplikatscheck vor dem Schreiben wegen des grossen Umfangs zwingend), sonst laut
 Queue-Regel nächste Sektion mit offenem P1/P2 (Kandidaten: `02_Gestalt_Kulturverstaendnis` 146
 P1, `03_Bauprozesse_I_II` P2-Rest).
+
+## 260830 — Zeile 68 (Teilbearbeitung), Sektion `02_Kunst_Geschichte` (Lane FACHWISSEN, 102. Lauf)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md` und
+`wiki/INDEX.md` geprüft, die beiden vom 101. Lauf genannten Alternativkandidaten
+`02_Gestalt_Kulturverstaendnis` und `03_Bauprozesse_I_II` in ihren eigenen Inventardateien
+gegengeprüft und als bereits abgeschlossen bzw. dauerhaft blockiert bestätigt (die
+«Sektionen nach Ertrag»-Tabelle in `wiki/INDEX.md` war an dieser Stelle veraltet) — Zeile 68
+war damit der einzige real offene Posten. Drei laufende `claude -p`-Prozesse mit identischem
+Dispatch-Text geprüft (PID 29659/29665/29666, alle 7:54 Uhr): Prozesskette einer einzigen
+Lane-Instanz, keine Doppel-Instanz.
+
+Zeile 68 `02_Bildende_Kunst/08_Design/` (733 Dateien, Offline-Spiegel einer nicht mehr
+identifizierbaren Design-Enzyklopädie-Website, kein Impressum/Autor): Duplikatscheck zuerst
+(`grep -rli` gegen Otto Wagner/Behrens/Aalto/Breuer/Castiglioni/Bugatti/Citterio/Bauhaus über
+alle `wiki/*.md`-Verzeichnisse) — keine Dublette, nur Streuverweise in bestehenden
+Architekturtheorie-Kanon-Listen. Vier der 128 Fliesstext-Dateien vollständig gelesen
+(`rietveld.htm`, `breuer.htm`, `bauhaus.htm`, `mies.htm`) und zu einem neuen Artikel destilliert:
+[[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]] — Rietvelds
+Rot-Blau-Stuhl 1917/18 und De-Stijl-Konstruktionsprinzip, Bauhaus-Möbelwerkstatt als
+institutioneller Rahmen, Breuers Weg vom Holz zum Stahlrohr 1925-1930 (Wassily/B3, B32/Cesca,
+B26, Schweizer Station Kaufhaus Wohnbedarf/Embru-Liegestuhl 1933), Mies van der Rohe/Lilly
+Reich ab 1927 (MR20/MR10, Brno, Barcelona/MR90, Tugendhat/MR70). Quelle ausdrücklich als
+Sekundärquelle ohne akademische Beleghaltigkeit gekennzeichnet, `status: speculative`.
+
+**Zeile 68 bleibt mit diesem Teilbeleg offen** — rund 100 weitere Personenartikel ungelesen
+(u. a. Alvar Aalto, Josef Hoffmann, Charles Eames, Charles Rennie Mackintosh, Josef Frank,
+Gray, Magistretti, Ponti, Jacobsen, Sottsass). Kein Datenschutz-/Sperrlisten-Fund. `git diff
+--numstat` auf die Inventardatei zeigt reinen Append (41 0). Ein Wiki-Artikel neu,
+`wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile 68 fortsetzen (Kandidaten nach
+Dateigrösse: `gray.htm`, `magistretti.htm`, `ponti.htm`, `jacobsen.htm`, `josef_frank.htm`,
+`eames.htm`, `alvar_aalto.htm`), Duplikatscheck gegen den neuen Stahlrohrmöbel-Artikel und die
+Sektion `01_Innenarchitektur` vor jeder weiteren Destillation zwingend.

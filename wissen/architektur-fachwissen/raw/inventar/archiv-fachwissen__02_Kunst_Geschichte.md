@@ -427,3 +427,44 @@ Sektion mit offenem P2.
 `02_Bildende_Kunst/08_Design/` (733 Dateien, Designgeschichte-Website-Spiegel), sonst laut
 Queue-Regel Prüfung der nächsten Sektion mit offenem P1/P2 (Kandidaten laut `wiki/INDEX.md`:
 `02_Gestalt_Kulturverstaendnis` 146 P1, `03_Bauprozesse_I_II` P2-Rest).
+
+## 260830 — Zeile 68 (Teilbearbeitung), Sektion `02_Kunst_Geschichte` (Lane FACHWISSEN, 102. Lauf)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md` und diese
+Inventardatei geprüft, die beiden zuvor als Alternativkandidaten genannten Sektionen
+`02_Gestalt_Kulturverstaendnis` (P1 UND P2 laut eigenem Inventar bereits 29.08.2026 vollständig
+abgeschlossen) und `03_Bauprozesse_I_II` (verbleibender P2-Rest laut eigenem Inventar dauerhaft
+blockiert: Urheberrechtsfrage, veraltete Software, Anonymisierungsprüfung) geprüft und als
+tatsächlich nicht offen bestätigt — die «Sektionen nach Ertrag»-Tabelle in `wiki/INDEX.md` war an
+dieser Stelle veraltet. Damit war Zeile 68 der einzige real offene Posten. Vor Arbeitsbeginn drei
+laufende `claude -p`-Prozesse mit identischem Dispatch-Text geprüft (PID 29659/29665/29666, alle
+7:54 Uhr gestartet) — das ist die Prozesskette dieser einen Lane-Instanz selbst, keine
+Doppel-Instanz.
+
+Zeile 68 `02_Bildende_Kunst/08_Design/` (733 Dateien, Offline-Spiegel einer nicht mehr
+identifizierbaren Design-Enzyklopädie-Website, kein Impressum/Autor in den Dateien): Duplikatscheck
+zuerst (`grep -rli` gegen die Namen Otto Wagner/Peter Behrens/Alvar Aalto/Marcel Breuer/
+Castiglioni/Carlo Bugatti/Antonio Citterio/Bauhaus in allen vorhandenen `wiki/*.md`-Verzeichnissen)
+— keine echte Dublette, nur Streuverweise auf Aalto/Behrens/Bauhaus in bestehenden
+Architekturtheorie-Kanon-Listen, kein eigener Möbel-/Designartikel. Vier der 128 `.htm`-Dateien
+mit Fliesstext vollständig gelesen (`rietveld.htm`, `breuer.htm`, `bauhaus.htm`, `mies.htm`,
+alle >16 KB, deutschsprachige Fliesstext-Biografien) und zu einem zusammenhängenden neuen Artikel
+destilliert:
+[[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]
+(Rietvelds Rot-Blau-Stuhl 1917/18 und De-Stijl-Konstruktionsprinzip; Bauhaus-Möbelwerkstatt als
+institutioneller Rahmen; Breuers Weg vom Holz zum Stahlrohr 1925-1930 mit Modellbezeichnungen
+Wassily/B3, B32/Cesca, B26, Schweizer Station Kaufhaus Wohnbedarf/Embru-Liegestuhl 1933; Mies van
+der Rohe/Lilly Reich-Zusammenarbeit ab 1927 mit Modellen MR20/MR10, Brno, Barcelona/MR90,
+Tugendhat/MR70). Quelle ausdrücklich als Sekundärquelle ohne akademische Beleghaltigkeit
+gekennzeichnet, Artikel `status: speculative`.
+
+**Zeile 68 bleibt mit diesem Teilbeleg offen** — nur 4 von 128 Fliesstext-Dateien gelesen (rund
+100 weitere Personenartikel, u. a. Alvar Aalto, Josef Hoffmann, Charles Eames, Charles Rennie
+Mackintosh, Josef Frank, Gray, Magistretti, Ponti, Jacobsen, Sottsass; dazu ein `bilder`-
+Unterordner und diverse `~$`/`.tmp`-Sicherungsdateien ohne Fachwert). Kein Datenschutz-/
+Sperrlisten-Fund. `git diff --numstat` auf diese Inventardatei zeigt reinen Append. Ein
+Wiki-Artikel neu, `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile 68 fortsetzen — nächste
+Kandidaten nach Dateigrösse (Substanz-Indikator) u. a. `gray.htm`, `magistretti.htm`, `ponti.htm`,
+`jacobsen.htm`, `josef_frank.htm`, `eames.htm`, `alvar_aalto.htm` (vor Destillation Duplikatscheck
+gegen den neuen Stahlrohrmöbel-Artikel und `01_Innenarchitektur`-Sektion, da dort bereits eine
+Encyclopedia of Interior Design liegt).
