@@ -1,5 +1,41 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, zehnter P2-Lauf, VL10 Zumthor (Lane FACHWISSEN, 23. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel» behauptet, real
+zu diesem Zeitpunkt: beide Specs seit 29.08.2026 geschrieben, 166 Wiki-Artikel, 22 Läufe) und
+nannte die Station explizit als «MacBook Pro» — `scutil --get LocalHostName` zeigt während
+dieses Laufs **Macmini**. Vor Arbeitsbeginn `ps aux` geprüft: kein zweiter FACHWISSEN-Prozess
+(ein unabhängiger, paralleler Nachtschicht-Prozess auf derselben Maschine ohne Bezug zu dieser
+KB), `git status`/`git log` zeigten einen sauberen Working Tree ohne unkommittierten Rest. Am
+realen `KORPUS-QUEUE.md`-Stand weitergearbeitet: nächster fälliger Schritt war laut Vorlauf
+`111202_VL10_Zumthor` in Sektion `02_Architekturtheorie`.
+
+Beide Quellen dieser Vorlesung gelesen (rohe Live-Mitschrift
+`111202_Zunthor_Architekturtheorie_I.docx` sowie die eigene, mit Literaturangaben versehene
+Prüfungszusammenfassung `120208_Zumthor.docx`). Vor der Destillation geprüft, ob Zumthor in
+dieser KB bereits abgedeckt ist: ein bestehender Artikel
+(`wiki/tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus.md`) erwähnt
+Zumthors Atmosphäre-Begriff nur als Fussnote einer anderen Sekundärquelle — kein Duplikat, die
+Primärquelle dieser Vorlesung liefert deutlich mehr Substanz. Zwei neue Wiki-Artikel:
+
+- [[zumthor-kritischer-regionalismus-haus-truog-frampton-ricoeur]] — `status: emerging`,
+  Genealogie Kritischer Regionalismus (Tzonis/Lefaivre → Frampton → Ricoeur-Bezug), Fallbeispiel
+  Haus Dr. Truog «Gugalun» (Material/Konstruktion/Topografie), umfangreiche, unverifizierte
+  Architektenliste des kritischen Regionalismus laut Vorlesungsnotiz
+- [[zumthor-authentizitaet-atmosphaere-raumkonzeption-vergleich-loos-wright]] — `status:
+  speculative` (enthält einen explizit als «Eigene Meinung» markierten kritischen
+  Studierenden-Abschnitt zur Therme Vals, bewusst als dokumentierte Quellenposition
+  gekennzeichnet statt geglättet), Materialitäts-/Authentizitätsbegriff, Atmosphäre-Definition
+  nach Böhme/Norbert Schulz, Raumkonzeptions-Vergleich Loos/Wright/Zumthor mit der
+  Merkformel «negiert/kreiert/interpretiert» aus der Prüfungsfrage 04
+
+`01_Sylabus` und `03_Folie` bewusst nicht ausgewertet (Konvention wie VL2-VL9). Inventardatei
+`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` um einen Append-Eintrag ergänzt
+(`git diff --numstat` 18/0, rein additiv). Damit ist `111202_VL10_Zumthor` vollständig
+bearbeitet. Offen: 14 der 23 Vorlesungsordner (rund 176 der 190 Dateien). Nächster Lauf: VL11
+nach Ordnernummer (noch nicht identifiziert).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, neunter P2-Lauf, VL9 Wright (Lane FACHWISSEN, 22. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel» behauptet; real

@@ -328,3 +328,21 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   ausgewertet (Konvention wie VL2-VL8). Damit ist `111125_VL9_Wright_Frank_Lloyd` vollständig
   bearbeitet. Offen: 15 der 23 Vorlesungsordner (rund 179 der 190 Dateien). Nächster Lauf:
   `111202_VL10_Zumthor`.
+
+- 2026-08-30 (Lane FACHWISSEN, zehnter P2-Lauf, VL10 Zumthor): beide Quellen gelesen
+  (`02_Vorlesungsmitschriften/111202_Zunthor_Architekturtheorie_I.docx`, rohe Live-Mitschrift,
+  und `03_Zusammenfassung/120208_Zumthor.docx`, eigene Prüfungszusammenfassung im
+  Frage-Antwort-Format mit eigenem Literatur-/Referenzenblock). Bestehender KB-Bezug
+  (`wiki/tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus.md`) deckt
+  Zumthors Atmosphäre-Begriff nur als Fussnote einer Sekundärquelle ab — die Primärquelle
+  dieser Vorlesung war eigenständig und wurde zu zwei Artikeln destilliert:
+  `wiki/zumthor-kritischer-regionalismus-haus-truog-frampton-ricoeur.md` (`status: emerging`,
+  Kritischer-Regionalismus-Genealogie Tzonis/Lefaivre/Frampton/Ricoeur, Fallbeispiel Haus Dr.
+  Truog) und
+  `wiki/zumthor-authentizitaet-atmosphaere-raumkonzeption-vergleich-loos-wright.md` (`status:
+  speculative`, Materialitäts-/Authentizitätsbegriff inkl. dokumentierter kritischer
+  Studierenden-Eigenmeinung zur Therme Vals, Atmosphäre-Begriff, Raumkonzeptions-Vergleich
+  Loos/Wright/Zumthor «negiert/kreiert/interpretiert»). `01_Sylabus` und `03_Folie` bewusst
+  nicht ausgewertet (Konvention wie VL2-VL9). Damit ist `111202_VL10_Zumthor` vollständig
+  bearbeitet. Offen: 14 der 23 Vorlesungsordner (rund 176 der 190 Dateien). Nächster Lauf:
+  VL11 (nächster Ordner nach Nummerierung, `111209` o.ä. — noch nicht geprüft).
