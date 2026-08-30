@@ -413,3 +413,24 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   Eigenwert nicht ausgewertet, Folien-PDF und Tonmitschnitt nicht ausgewertet. Damit ist
   `120302_Raum_Schmarsow` für die gesichteten Textquellen abgeschlossen. Offen: 10 der 23
   Vorlesungsordner (rund 165 der 190 Dateien). Nächster Lauf: `120309_Das_Erste_Haus_Bachelard`.
+
+- **30.08.2026 (15. P2-Lauf, 39. Beispiel Memory `project_fachwissen-dispatch-loop`, Station
+  laut `scutil` tatsächlich Macmini, Dispatch erneut fälschlich «MacBook Pro»):**
+  `120309_Das_Erste_Haus_Bachelard` bearbeitet (3. Vorlesung Architekturtheorie II, 09.03.2012).
+  Zusammenfassung, Syllabus und rohe Live-Mitschrift (`textutil`-Extraktion für die docx,
+  `pypdf` für die Syllabus-PDF) gelesen. Vorlauf-Buchführung (Schmarsow/Foucault) zuerst per
+  `nas-commit-now.sh` gesichert (erneuter NAS-Merge-Konflikt in sechs fremden KBs, Working Tree
+  lokal sauber geblieben, keine Konfliktmarker, dem 15-Min-Cron überlassen); vor Arbeitsbeginn
+  `ps aux` geprüft — ein `claude -p`-Prozess für Lane FACHWISSEN (dieser Lauf selbst) und ein
+  unabhängiger für Lane SYNOBSIS, keine Doppel-Instanz. Ein Artikel destilliert:
+  `wiki/bachelard-poetik-des-raumes-phaenomenologie-des-hauses.md` (`status: speculative`,
+  Bachelards phänomenologischer Hauszugang — Haus als Seelen-Analyse-Instrument, Poetik des
+  Raumes — mit den drei Mitschrift-Themenlinien Existenzminimum/Diogenes-CIAM, unheimliches
+  Haus/Vidler/Olgiati «Das gelbe Haus», mobiles Haus/Zittel/Wodiczko/Do-Ho-Suh). Die im Syllabus
+  enthaltene Urhütten-Debatte (Vitruv/Laugier/Semper) bewusst NICHT erneut destilliert — bereits
+  vollständig in `wiki/materialwahrheit-stoffwechseltheorie-semper-urtechniken.md` abgedeckt, nur
+  als Abgrenzung/Cross-Link verwendet, kein Duplikat. Prüfungsfrage «Bachelard vs. Vidler» im
+  Bestand unbeantwortet, als offener Punkt im neuen Artikel vermerkt (kein Zweittext im Ordner).
+  Damit ist `120309_Das_Erste_Haus_Bachelard` für die gesichteten Textquellen abgeschlossen.
+  Offen: 9 der 23 Vorlesungsordner (rund 162 der 190 Dateien). Nächster Lauf: nächste noch nicht
+  gesichtete Vorlesung nach Ordnernummer (`120316_Natur_Schwarz`).

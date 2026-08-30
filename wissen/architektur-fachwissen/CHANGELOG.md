@@ -1,5 +1,37 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, fünfzehnter P2-Lauf, `120309_Das_Erste_Haus_Bachelard` (Lane FACHWISSEN, 39. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»), Station
+fälschlich «MacBook Pro» (real Macmini laut `scutil`). Vor Arbeitsbeginn geprüft: `ps aux`
+zeigte genau einen `claude -p`-Prozess für Lane FACHWISSEN (dieser Lauf selbst) und einen
+unabhängigen für Lane SYNOBSIS (`architekten-synobsis`) — keine Doppel-Instanz. `git status`
+zeigte unkommittierte Schmarsow/Foucault-Buchführung des Vorlaufs — zuerst per
+`nas-commit-now.sh` gesichert (erneuter NAS-Merge-Konflikt in sechs fremden KBs, kein
+`MERGE_HEAD`, keine Konfliktmarker im lokalen Working Tree; der 15-Min-Cron hat den Commit
+zwischenzeitlich selbständig nachgeholt, `9d3eece61`).
+
+Danach `120309_Das_Erste_Haus_Bachelard` (3. Vorlesung Architekturtheorie II, 09.03.2012)
+bearbeitet: Zusammenfassung (`120816_Bachelard_Das_Erste_Haus_Zusammenfassung.docx`), Syllabus
+(`12_SYL-Ath2-2012-3Urhaus.pdf`) und rohe Live-Mitschrift (`100309_Das_Erste_Haus.docx`)
+gelesen. Ein Artikel destilliert:
+
+- `wiki/bachelard-poetik-des-raumes-phaenomenologie-des-hauses.md` (`status: speculative`) —
+  Bachelards phänomenologischer Hauszugang («Unsere Seele ist eine Wohnung») gegen die
+  rationale Architekturanalyse, mit den drei Mitschrift-Themenlinien Existenzminimum
+  (Diogenes/CIAM/Kiesler/Corbusier), unheimliches Haus (Vidler/Bergman/Gregor Schneider/Olgiati
+  «Das gelbe Haus») und mobiles Haus (Zittel/Wodiczko/Do Ho Suh).
+
+Die im Syllabus enthaltene Urhütten-Debatte (Vitruv/Laugier/Semper) bewusst NICHT erneut
+destilliert — bereits vollständig in
+`wiki/materialwahrheit-stoffwechseltheorie-semper-urtechniken.md` abgedeckt, im neuen Artikel
+nur als Abgrenzung verlinkt, kein Duplikat. Die Prüfungsfrage «Bachelard vs. Vidler» bleibt im
+Bestand unbeantwortet (offener Punkt im Artikel).
+
+`wiki/INDEX.md` Zeile 04 und `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md`
+nachgeführt. Offen: 9 der 23 Vorlesungsordner (rund 162 der 190 Dateien). Nächster Lauf:
+`120316_Natur_Schwarz`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, vierzehnter P2-Lauf, `120302_Raum_Schmarsow` (Lane FACHWISSEN, 27. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»), Station
