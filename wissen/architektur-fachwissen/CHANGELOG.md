@@ -5412,3 +5412,45 @@ reinen Append (`39 0`).
 S. 1-9 vorhandene Fassaden-/Grundrissdetailtiefe, oder der unbearbeitete Rest von
 `Renaissance-Zusammenfassung.pdf` (S. 4-51, umfangreiche Einzelbau-Dokumentation
 Brunelleschi/Michelozzo/Alberti/Rossellino).
+
+## 2026-08-30 — `Moderne.pdf` S. 4+6-7, Sempers Polytechnikum Zürich (87. Lauf, Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, diese Datei, Inventardatei
+vollständig gelesen). `git status`/`git log` sauber, Top-Commit `73173542b`, `scutil`
+bestätigte Macmini, `ps -eo pid,ppid,command` zeigte nur eine laufende `claude -p`-Instanz.
+`pdftoppm`/`pdftotext` (poppler) sind auf dieser Station nicht installiert — PDF-Text stattdessen
+über das lokal bereits vorhandene Python-Paket PyMuPDF (`import fitz`) extrahiert.
+
+Duplikatscheck (`grep -rn`) zeigte: Sempers Zürcher Polytechnikum (heute ETH-Hauptgebäude) war
+in dieser KB bisher nirgends als Bau behandelt (nur eine beiläufige Datumsangabe in
+[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]), ebenso
+Friedrich von Gärtners Bayerische Staatsbibliothek München. Klenzes Glyptothek/Alte Pinakothek
+(gleicher Seitenbereich) sind dagegen bereits ausführlich in
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]]
+geführt — unbearbeitet gelassen.
+
+Neuer Artikel
+[[semper-polytechnikum-zuerich-eth-hauptgebaeude-struktur-oberflaeche-gaertner-staatsbibliothek-muenchen]]:
+Gärtners Bayerische Staatsbibliothek München als Rundbogenstil-Vergleichsbau, Hauptteil zu
+Sempers Polytechnikum Zürich — Gründungskontext der ETH 1854 (Bundesstaatsgründung,
+kantonale Konkurrenz, Basel als einzige damalige Schweizer Universität), Wettbewerbssieg
+Sempers, Struktur-gegen-Oberfläche-Theorie als Anwendung von Sempers eigener Bekleidungstheorie
+auf den eigenen Bau (Cross-Referenz zu
+[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]] und
+[[materialwahrheit-stoffwechseltheorie-semper-urtechniken]]), ungewöhnliche Platzierung der
+Aula in der Dachzone statt im klassischen Renaissance-Schema, Museum mit antiken Abgüssen im
+Mittelgang als erzwungene Raumfolge, Genealogie-Strang Klenze/München → Semper/Dresden →
+Semper/Zürich über die Frührenaissance-Palastfassade. Ein quelleneigener Datierungswiderspruch
+(Bauzeit «1858-68» vs. an anderer Stelle genannte Zürcher Wirkungszeit Sempers «1858-1864»)
+unkorrigiert dokumentiert. Rückverlinkung in die drei bestehenden Semper-Artikel sowie das
+`richardson-chicago-school...`-Dokument ergänzt.
+
+**Damit gilt `Moderne.pdf` als vollständig ausgewertet.** Sperrlisten-Prüfung: kein Fund,
+ausschliesslich historische, öffentlich bekannte Architekten und ihre publizierten Bauten des
+19. Jahrhunderts. `git diff --numstat` auf die Inventardatei zeigte einen reinen Append
+(`41 0`).
+
+**Nächster Lauf:** unbearbeiteter Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51,
+umfangreiche Einzelbau-Dokumentation Brunelleschi/Michelozzo/Alberti/Rossellino, Duplikatscheck
+gegen die bestehenden Renaissance-Artikel zuerst), danach die drei Nicht-Portrait-Positionen
+des Architektenportrait-Ordners.

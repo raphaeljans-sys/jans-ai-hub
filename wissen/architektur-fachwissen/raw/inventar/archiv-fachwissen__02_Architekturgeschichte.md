@@ -960,3 +960,44 @@ Prüfung: kein Fund. `git diff --numstat` auf diese Inventardatei zeigt einen re
 Zürich, nirgends sonst in dieser KB behandelt) oder der unbearbeitete Rest von
 `Renaissance-Zusammenfassung.pdf` (S. 4-51, umfangreiche Einzelbau-Dokumentation
 Brunelleschi/Michelozzo/Alberti/Rossellino).
+
+## 260830 — Lauf `Moderne.pdf` S. 4+6-7, Semper-Polytechnikum Zürich (87. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen; `git status`/`git log` sauber, Top-Commit `73173542b`,
+`scutil` bestätigte Macmini, `ps -eo pid,ppid,command` nur ein laufender `claude -p`-Prozess).
+`pdftoppm`/`pdftotext` sind auf dieser Station nicht installiert; PDF-Text stattdessen über
+`python3 -c "import fitz..."` (PyMuPDF, lokal bereits vorhanden) extrahiert.
+
+Duplikatscheck zuerst ausgeführt (`grep -rn` gegen alle Namen S. 1-9): Sempers Zürcher
+Polytechnikum (heute ETH-Hauptgebäude) war in dieser KB bisher **nirgends als Bau behandelt**
+(nur beiläufige biografische Datumsnennung in
+[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]),
+ebenso Friedrich von Gärtners Bayerische Staatsbibliothek München (andere Gärtner-Treffer in
+dieser KB betreffen durchgehend den Gärtner-Beruf). Klenzes Glyptothek/Alte Pinakothek dagegen
+bereits ausführlich in
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]]
+geführt — unbearbeitet gelassen.
+
+Neuer Artikel
+[[semper-polytechnikum-zuerich-eth-hauptgebaeude-struktur-oberflaeche-gaertner-staatsbibliothek-muenchen]]:
+Gärtners Bayerische Staatsbibliothek München (Rundbogenstil-Palastfassade) als Vergleichsbau,
+Hauptteil zu Sempers Polytechnikum Zürich (Gründungskontext ETH 1854/Bundesstaatsgründung,
+Wettbewerb, Struktur-gegen-Oberfläche-Theorie am eigenen Bau als Anwendung von Sempers
+Bekleidungstheorie, ungewöhnliche Platzierung der Aula in der Dachzone, Museum mit antiken
+Abgüssen im Mittelgang, Genealogie-Strang Klenze/München → Semper/Dresden → Semper/Zürich).
+Ein Datierungswiderspruch der Quelle selbst (Polytechnikum «1858-68» vs. an anderer Stelle
+Sempers Zürcher Wirkungszeit «1858-1864») unkorrigiert dokumentiert. Rückverlinkung in die drei
+bestehenden Semper-Artikel ergänzt (`links:`-Frontmatter). Sperrlisten-Prüfung: kein Fund,
+ausschliesslich historische, öffentlich bekannte Architekten und ihre publizierten Bauten des
+19. Jahrhunderts.
+
+**Damit gilt `Moderne.pdf` als vollständig ausgewertet** (jede Seite entweder destilliert oder
+mit begründetem Duplikat-/Schwellenwert-Verweis dokumentiert — S. 1-3+5+7-9 Duplikate
+bestehender Kanon-Zeilen, S. 16-Rest unter Destillationsschwelle). `git diff --numstat` auf
+diese Inventardatei zeigt einen reinen Append.
+
+**Nächster Lauf:** unbearbeiteter Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51,
+umfangreiche Einzelbau-Dokumentation Brunelleschi/Michelozzo/Alberti/Rossellino, Duplikatscheck
+gegen die bestehenden Renaissance-Artikel zuerst), danach die drei Nicht-Portrait-Positionen
+des Architektenportrait-Ordners.
