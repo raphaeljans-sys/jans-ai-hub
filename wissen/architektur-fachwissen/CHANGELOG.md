@@ -1,5 +1,52 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `buero-referenzen`, Sektion `10_Modellbauen`, dritter P2-Lauf (Lane FACHWISSEN, 52. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text weiterhin identisch veraltet (behauptet «kein Destillat, keine Spec, 2
+Wiki-Artikel», Station fälschlich «MacBook Pro»). Vor Arbeitsbeginn wie üblich `scutil`
+(Macmini bestätigt), `ps -o pid,ppid,command` für die eigene Prozesskette (11832 → 11838 →
+11839, keine Doppel-Instanz) und `KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft: beide
+Korpus-Specs bestehen seit 29.08.2026, P1 ist in beiden Korpora vollständig, der Vorlauf
+(51. Beispiel) hatte `archiv-fachwissen/02_Architektur_Vermitteln` vollständig
+abgeschlossen und als nächste Optionen `01_Tragwerk` (18 P2 offen, dünner Ertrag),
+`10_Modellbauen` (86 P2 offen) oder eine weitere kleine unberührte Sektion genannt.
+
+Gewählt: `buero-referenzen/10_Modellbauen` fortsetzen. Der Elfte Lauf hatte zwei Positionen
+offen gelassen, die grundsätzlich mit dem Read-Tool prüfbar wären (kein Word/InDesign/
+Illustrator nötig):
+
+- `03_Modellbaudokumente/01_Werkstoffe/PDF/Materialien.pdf` vollständig gelesen: eine
+  einzige Seite, exakt der bereits im bestehenden Artikel und im Inventar-Abschnitt „Was die
+  Sektion NICHT hergibt" zitierte Preisvergleich (master wood 8 mm, Herzog-Elmiger 18.50
+  CHF/m² gegen Coop Bau+Hobby 32.00 CHF/m²), Rest der Seite leer. Kein neuer Fakt — das
+  seit 23.08.2026 als „Fragment, INDD könnte mehr enthalten" geführte Offene ist damit
+  geklärt: der PDF-Export trägt die vollständige Textebene, es gibt nichts Zusätzliches zu
+  bergen. `stand_herzog_elmiger.gif` (reiner Anfahrtsplan, kein Fachinhalt) ebenfalls
+  gegengelesen.
+- `02_Modellbauutensilien/Profilitwand_Vorlagen/060215_Profilit_M10.pdf` stellvertretend für
+  die Zwölf-PDF/Vier-AI-Gruppe geöffnet: reine Vektorgrafik ohne jede Bemassung, Beschriftung
+  oder Massstabsangabe auf der Seite — bestätigt die Inventar-Einschätzung „kein
+  extrahierbarer Text", auch visuell kein Fakt gewinnbar.
+
+Beide Positionen **abschliessend als „kein Artikel" geschlossen** (Delta-Ehrlichkeit statt
+erzwungenem Artikel ohne Substanz). Damit bestehen von den verbleibenden P2-Positionen
+dieser Sektion nur noch dauerhaft blockierte: die beiden CAD-Dateien
+`Schmiede_Modell.pln`/`.vwx` (kein ArchiCAD- oder Vectorworks-Werkzeug auf dieser Station),
+die S2-Design-Fremdvorlage (Kundendaten Dritter — Provenienz bereits anonymisiert in
+`wiki/werkstoffliste-modellbau-vorlage.md` vermerkt, der Inhalt selbst bleibt gesperrt) und
+zwei Betondecke-Fotoserien (54 Bilder, reines Bildmaterial ohne Fliesstext, im bestehenden
+Artikel `wiki/modellbeton-fehlerkatalog-schalung.md` bereits als Beleg erwähnt).
+
+**P2 der Sektion `10_Modellbauen` gilt damit als abgearbeitet, bis ein CAD-Viewer verfügbar
+wird** — kein weiterer Folgelauf für diese Sektion nötig, ausser bei neuem Werkzeug.
+`git diff --numstat` auf die Inventardatei zeigte `28 0` (reiner Append); der 15-Min-Cron
+hatte den Commit binnen Minuten bereits selbständig ausgeführt (`auto-sync [Macmini]`,
+`git log` zeigt ihn bereits als eigenen Commit, Working Tree danach sauber).
+
+`KORPUS-QUEUE.md` nachgeführt. Nächster Lauf: eine weitere Sektion mit vollständigem P1 und
+unangetastetem P2 aus `wiki/INDEX.md` wählen (die meisten `buero-referenzen`-Sektionen haben
+P2 noch unberührt), oder `archiv-fachwissen/01_Tragwerk` (18 P2 offen, dünner Ertrag).
+
 ## 2026-08-30 — P2-Lauf Korpus `buero-referenzen`, Sektion `02_Architektur_Vermitteln` vollständig abgeschlossen (Lane FACHWISSEN, 51. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text weiterhin identisch veraltet (behauptet «kein Destillat, keine Spec, 2
