@@ -2,8 +2,8 @@
 title: "Monumentale Stadtachsen: Haussmanns Paris und die City-Beautiful-Planung Washington D.C."
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1852_1872_Stadtumbau_Paris_Haussmann/02_19_JH_Paris/Textbearbeitung/Zusammenfassung.doc (eigene Zusammenfassung, Vorlesungsreihe Geschichte des Städtebaus, Modul Stadtumbau Paris/Haussmann)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/01_Einleitung/110320_Einleitung_Gruene_Stadtmitte.docx (eigenes Übungs-/Testdokument «12. Modul Geschichte des Städtebaus im Netz», Modul Die grüne Stadtmitte)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md"]
-links: ["[[wettbewerb-gross-berlin-1908-hochhausstadt-debatte-wohnblock-reform]]"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1852_1872_Stadtumbau_Paris_Haussmann/02_19_JH_Paris/Textbearbeitung/Zusammenfassung.doc (eigene Zusammenfassung, Vorlesungsreihe Geschichte des Städtebaus, Modul Stadtumbau Paris/Haussmann)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/01_Einleitung/110320_Einleitung_Gruene_Stadtmitte.docx (eigenes Übungs-/Testdokument «12. Modul Geschichte des Städtebaus im Netz», Modul Die grüne Stadtmitte)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/02_Uebung/2/VL Architektur der USA.doc (Vorlesungsskript Prof. Lippert, TU Dresden, Sommer 2007, Vorlesung 5 «Die aufblühende Nation: City Beautiful und École des Beaux-Arts»)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md"]
+links: ["[[wettbewerb-gross-berlin-1908-hochhausstadt-debatte-wohnblock-reform]]", "[[us-rastersystem-jefferson-land-ordinance-commissioners-plan]]"]
 ---
 
 # Monumentale Stadtachsen: Haussmanns Paris und die City-Beautiful-Planung Washington D.C.
@@ -69,6 +69,25 @@ Gebäude als Blickpunkte (points de vue) an den Enden geschlossener Strassenachs
 Quellmaterial erwähnte Überlagerungsanimation vergleicht L'Enfants Idee von 1791 mit einem
 Parzellenplan von 1815 und dem Stadtplan von 1917 im Bereich Capitol Square — die
 Einzelaussagen dieser Überlagerung sind im Textexport nicht erhalten.
+
+## Ursprung der City-Beautiful-Bewegung: Chicago 1893 und die Senate Park Commission
+
+Laut einem zweiten, unabhängigen Vorlesungsskript (TU Dresden, Prof. Lippert) beginnt die
+City-Beautiful-Bewegung nicht mit Washington, sondern mit der **World Columbian Exhibition**
+(Weltausstellung) 1893 in Chicago: Masterplan Daniel H. Burnham und Frederick L. Olmsted,
+Kernstück die «White City» mit Bauten von Burnham, Charles B. Atwood, Louis Sullivan,
+George B. Post und McKim, Mead & White (erhalten: Palace of Fine Arts, heute Field Museum
+of Natural History, Atwood). Der Vorstoss, den amerikanischen Grossbürgertum-Geschmack an
+der Pariser École des Beaux-Arts (klassisch inspirierter Historismus, üppige Dekoration)
+auszurichten, geht laut Quelle auf den kulturellen Wiederaufbau nach dem Sezessionskrieg
+(1861–1865) und die enge Anlehnung an Frankreich unter Napoleon III. zurück.
+
+Die **Senate Park Commission** (Washington D.C.) wird erst **1902** eingerichtet, unter
+anderem unter Burnham, als Masterplan zur städtebaulichen Vollendung der Stadt in
+Fortschreibung von L'Enfants Plan (1791) — die wesentlichen Planungen werden laut Quelle
+erst bis **1943** realisiert. Zwischen L'Enfants Entwurf und dem Ausbau der Hauptstadt liegt
+damit ein Jahrhundert Stillstand («schleppender Ausbau bis 1900», offizielle Einweihung der
+Hauptstadt bereits 1800).
 
 ## Bellamys Zukunftsroman als städtebauliches Zeitdokument
 

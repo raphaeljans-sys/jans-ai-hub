@@ -1211,3 +1211,53 @@ eigenständiger Artikel zu dünn), der 109-seitige Reader (`QUESTIONS.md` #72), 
 `Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf` (P3). Nächster Lauf: `poppler`-Installation
 abwarten/anfragen, oder gemäss Queue-Regel zu `02_Architektur_Vermitteln`/
 `01_Landschaftsarchitektur` wechseln (je rund 12 P2-Positionen).
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), zweiter und dritter P2-Lauf (Lane FACHWISSEN, 54. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Fortsetzung des ersten P2-Laufs dieser Sektion vom selben Tag. Vor Arbeitsbeginn wie üblich
+Prozesskette geprüft (keine Doppel-Instanz), `KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft
+statt dem strukturell veralteten Dispatch-Text zu folgen.
+
+**Zweiter P2-Lauf, Abschluss Position 8** (fünf zuvor offene Restdateien der
+Geschichte-Zusammenfassungen):
+
+- `Alternativen zur Grossstadt.docx` (ILIAS-Übungsdokument mit Erläuterungen: Engels' «Zur
+  Wohnungsfrage», Owen/Fourier-Siedlungsmodelle, Company Towns Saltaire/Akroydon/Bournville/
+  Port Sunlight) → neuer Artikel [[engels-wohnungsfrage-owen-fourier-company-towns]],
+  `status: speculative`.
+- `VL Architektur der USA.doc` (TU Dresden, Prof. Lippert, Sommer 2007, elfteilige
+  Vorlesungsreihe, nur Vorlesung 2 gelesen: Jefferson-Raster/Land Ordinance 1785/Northwest
+  Ordinance 1787/Commissioner's Plan New York 1811) → neuer Artikel
+  [[us-rastersystem-jefferson-land-ordinance-commissioners-plan]], `status: speculative`.
+  Vorlesung 5 (Ursprung City-Beautiful-Bewegung: Weltausstellung Chicago 1893,
+  Senate-Park-Commission-Zeitleiste 1902–1943) als Ergänzung in den bestehenden Artikel
+  [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]] eingefügt statt
+  Duplikat. Die übrigen rund neun Vorlesungen dieser Datei (Klassizismus, Neogotik, Chicago
+  School, Wright, Mies, Las Vegas) bleiben ungelesen, Fundstelle für einen künftigen Lauf
+  im Inventar vermerkt.
+- `Alternative zur Grossstadt.docx`, `Test/test.docx`, `Lead.doc`: kein Artikel (reine
+  Aufgabenstellung bzw. Duplikate zu bereits destillierten Artikeln).
+
+**Position 8 gilt damit als abgeschlossen.**
+
+**Dritter P2-Lauf, Positionen 13 und 14:**
+
+- Position 14 (DTV-Atlas-Konkordanz, 25 Kapitel mit Seitenzahlen) → neuer Artikel
+  [[dtv-atlas-baukunst-konkordanz-staedtebau-kapitel]], `status: emerging` (reine
+  Wegweiser-Tabelle, keine Textübernahme aus dem Atlas selbst).
+- Position 13 (das Manifest «Die Athmosphärische Stadt» selbst) gelesen: zu roh für einen
+  eigenen Artikel (Delta-Ehrlichkeit), zwei Fundpunkte als Ergänzung in den bestehenden
+  Artikel [[blockrand-aufenthaltsqualitaet-argumentation-verdichtung-jans]] eingefügt
+  (Attribution der Kernformulierung an Schmid Schärer Architekten statt rein eigener
+  Prägung; Maler-Stichwortliste als Bildreferenz-Fundus).
+
+`git diff --numstat` auf die Inventardatei zeigt über beide Teilläufe reinen Append
+(`58 0`). **Von den acht P2-Positionen dieser Sektion sind jetzt 8, 13 und 14
+abgeschlossen; Positionen 1–7 (Jans-Reader, Übungsheft, fünf Grundlagenwerke Manualistik,
+33 Autorendossiers, Platz-Materialbestand) bleiben vollständig offen.** Nächster Lauf:
+Position 1 (Jans-Reader, eigenes Ordnungsgerüst der Vorlesungsreihe Lampugnani, gibt laut
+Kurzbefund die spätere Wiki-Struktur «Geschichte des Städtebaus» vor).
+
+Keine der harten Sperren berührt (Verträge, Bewerbungen, Personaldossiers, Adress-/
+Kontaktdaten, Lohn-/Honorardaten, Privatunterlagen); die bekannte Datenschutz-Sperre
+(`FactShets_Staedte.docx`, Stufe X) wurde nicht angerührt.

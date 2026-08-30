@@ -277,3 +277,61 @@ Grossstadt`, noch nicht gelesen), zwei Kopien von `VL Architektur der USA.doc` (
 Übungsheft, fünf Grundlagenwerke Manualistik, 33 Autorendossiers, Platz-Materialbestand,
 DTV-Konkordanz, Manifest) bleiben vollständig offen.** Nächster Lauf: Position 8 abschliessen
 (fünf Restdateien) oder mit Position 1 (Jans-Reader, eigenes Ordnungsgerüst) beginnen.
+
+**30.08.2026 (Lane FACHWISSEN, zweiter P2-Lauf, Abschluss Position 8):** die fünf zuvor
+offenen Restdateien geprüft:
+
+- `Alternative zur Grossstadt.docx` (77 Wörter) — reine ILIAS-Aufgabenstellung ohne
+  Sachinhalt, **kein Artikel**.
+- `Alternativen zur Grossstadt.docx` (1'520 Wörter, mit Antwort-Erläuterungen) — Engels'
+  «Zur Wohnungsfrage», Owen/Fourier-Siedlungsmodelle, Company Towns (Saltaire, Akroydon,
+  Bournville, Port Sunlight) → neuer Artikel
+  [[engels-wohnungsfrage-owen-fourier-company-towns]].
+- `Test/test.docx` (ILIAS-Quiz zu Howards *To-morrow*) — Inhalt bereits vollständig in
+  [[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] abgedeckt,
+  **kein Artikel** (Duplikat).
+- `VL Architektur der USA.doc` (TU Dresden, Prof. Lippert, Sommer 2007, rund 5'000 Wörter,
+  elfteilige Vorlesungsreihe) — nur Vorlesung 2 (Raumordnung/Stadtplanung: Jefferson-Raster,
+  Land Ordinance 1785, Northwest Ordinance 1787, Commissioner's Plan New York 1811) gelesen
+  und destilliert → neuer Artikel
+  [[us-rastersystem-jefferson-land-ordinance-commissioners-plan]]. Vorlesung 5 (City
+  Beautiful/Beaux-Arts, Chicago-Weltausstellung 1893, Senate-Park-Commission-Zeitleiste
+  1902–1943) als Ergänzung in den bestehenden Artikel
+  [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]] eingefügt (kein
+  Duplikat, ergänzt dort L'Enfant/Washington um den tatsächlichen Bewegungsursprung
+  Chicago). **Die übrigen rund neun Vorlesungen dieser Datei (Klassizismus, Neogotik,
+  Chicago School, Wright, Mies, Las Vegas) bleiben ungelesen** — Fundstelle bekannt,
+  Kandidat für einen künftigen Lauf, evtuell eigene P2-Position wert.
+- `Lead.doc` (53 Wörter, Haussmann-Ordner) — Kurz-Intro, Inhalt bereits im bestehenden
+  Haussmann-Artikel abgedeckt, **kein Artikel** (Duplikat).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Position 8 gilt damit
+als abgeschlossen** (die noch ungelesenen rund neun Vorlesungen von `VL Architektur der
+USA.doc` werden nicht als eigene Position nachgeführt, sondern hier vermerkt, da die Datei
+selbst schon der Position zugeordnet war). **Positionen 1–7 dieser Sektion bleiben
+vollständig offen.** Nächster Lauf: Position 1 (Jans-Reader) oder eine der übrigen sechs
+P2-Positionen, alternativ die Restvorlesungen von `VL Architektur der USA.doc`.
+
+**30.08.2026 (Lane FACHWISSEN, dritter P2-Lauf, Positionen 13 und 14):**
+
+- Position 14 (`06_Theorie_des_Staedtbaus/00_Literatur/DTV_Atlas/00_Word/
+  110730_Staedtebau_nach_DTV.docx`, DTV-Konkordanz) vollständig destilliert → neuer Artikel
+  [[dtv-atlas-baukunst-konkordanz-staedtebau-kapitel]] (25 Kapitel mit Seitenzahlen,
+  reine Wegweiser-Tabelle, keine Textübernahme aus dem Atlas selbst). **Position 14
+  abgeschlossen.**
+- Position 13 (`20_Die_Athmosphaerische_Stadt/140129_Die_athmosphaerische_Stadt.docx`,
+  das Manifest selbst) gelesen: roh, mit Todo-Notizen, rund 300 Wörter, **kein eigener
+  Artikel** (Delta-Ehrlichkeit) — aber zwei Fundpunkte als Ergänzung in den bestehenden
+  Artikel [[blockrand-aufenthaltsqualitaet-argumentation-verdichtung-jans]] eingefügt:
+  Attribution der Kernformulierung «athmosphärische Stadt» an das Büro Schmid Schärer
+  Architekten (nicht rein eigene Prägung), und eine Maler-Stichwortliste
+  (Schinkel/Turner/Palladio/Hodler/de Chirico/Canaletto/Caspar David Friedrich/Raffael)
+  als Bildreferenz-Fundus. **Position 13 abgeschlossen** (kein eigenständiger Artikel
+  nötig, Inhalt liegt jetzt in der Ergänzung).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Von den acht
+P2-Positionen dieser Sektion sind damit Positionen 8, 13 und 14 abgeschlossen; Positionen
+1–7 (Jans-Reader, Übungsheft, fünf Grundlagenwerke Manualistik, 33 Autorendossiers,
+Platz-Materialbestand) bleiben offen.** Nächster Lauf: Position 1 (Jans-Reader, 47 Seiten,
+eigenes Ordnungsgerüst der Vorlesungsreihe) ist der sinnvollste nächste Schritt, da er laut
+Kurzbefund die spätere Wiki-Struktur «Geschichte des Städtebaus» vorgibt.

@@ -2,7 +2,7 @@
 title: "Blockrand und Aufenthaltsqualität: Argumentationsgrundlage für Verdichtung (eigene Haltungstexte, Raphael Jans, Januar 2014)"
 status: emerging
 last_updated: 2026-08-29
-sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/20_Die_Athmosphaerische_Stadt/Blockrandthematik/Text_Jans/140105_Was_ist_der_Blockrand.docx (05.01.2014)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/20_Die_Athmosphaerische_Stadt/140112_2_Aufenthaltsqualität als Menschenrecht.docx (12.01.2014)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md Abschnitt Triage, Positionen 7 und 8"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/20_Die_Athmosphaerische_Stadt/Blockrandthematik/Text_Jans/140105_Was_ist_der_Blockrand.docx (05.01.2014)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/20_Die_Athmosphaerische_Stadt/140112_2_Aufenthaltsqualität als Menschenrecht.docx (12.01.2014)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/20_Die_Athmosphaerische_Stadt/140129_Die_athmosphaerische_Stadt.docx (29.01.2014, Ideenskizze/Todo-Notiz)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md Abschnitt Triage, Positionen 7, 8 und 13"]
 links: ["[[atmosphaeren-methode-ortsanalyse-hardware-software-erlebnis]]", "[[bauen-im-bestand-haltungstext-die-stadt-war-vor-uns-da]]"]
 ---
 
@@ -50,6 +50,25 @@ Ruhe, eigener Umschwung) verteidigt werden muss — als Gegenerzählung: nicht d
 ist der Verzicht, sondern der heutige autodominierte Zustand verursacht bereits einen
 laufenden, nur unbenannten Verzicht. Der Ton ist explizit ein Haltungsargument, kein
 technischer Fachbeitrag, und gehört ebenso in die Twin-Wissensbasis wie in diese Fach-KB.
+
+## Ergänzung: das Manifest selbst («Die Athmosphärische Stadt», 140129)
+
+Das übergeordnete Manifest (`20_Die_Athmosphaerische_Stadt/140129_Die_athmosphaerische_
+Stadt.docx`, 29.01.2014, rund 300 Wörter) ist eine rohe, mit Todo-Notizen durchsetzte
+Ideenskizze, keine ausformulierte Argumentation wie die beiden obigen Texte — daraus **kein
+eigener Artikel** (Delta-Ehrlichkeit), aber zwei Fundpunkte von Belang:
+
+- Der Kerntext, der die «athmosphärische Stadt» vom Malerischen, Pittoresken, Poetischen,
+  Erhabenen herleitet, wird im Dokument selbst **explizit dem Büro Schmid Schärer
+  Architekten zugeschrieben** («dazu liefern Schmid Schärer Architekten eine bestechende
+  Möglichkeit») — die Formulierung ist also nicht ausschliesslich eigene Prägung, sondern
+  eine übernommene Fremdformulierung, die als Ausgangspunkt diente.
+  Bei Zitatverwendung des Begriffs «athmosphärische Stadt» ist diese Herkunft mitzuführen.
+- Als Bildreferenzen für die geplante «Texturbibliothek» nennt die Notiz die Maler Schinkel,
+  Turner, Palladio (als Maler/Zeichner gemeint), Hodler, Giorgio de Chirico, Canaletto,
+  Caspar David Friedrich und Raffael — eine reine Stichwortliste ohne Ausführung, als
+  Steinbruch für eine spätere Atmosphären-Bildsprache brauchbar, aber kein eigenständiger
+  Sachinhalt.
 
 ## Offene Punkte
 

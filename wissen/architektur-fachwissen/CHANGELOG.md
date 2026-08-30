@@ -1,5 +1,57 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zweiter und dritter P2-Lauf (Lane FACHWISSEN, 54. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt)
+
+Vor Arbeitsbeginn wie in allen Vorläufen dieser Lane geprüft: `scutil` bestätigt Macmini
+(nicht «MacBook Pro» laut Dispatch), `ps -o pid,ppid,command` zeigt eine einzige
+Prozesskette (15432→15435→15441→15442, verschachtelte Wrapper derselben Instanz, keine
+Doppel-Instanz; ein separater `vollgas-schub.sh`-Prozess PPID 1 ist ein für 2026-08-31 11:00
+vorgemerkter künftiger Lauf, keine Kollision), `KORPUS-QUEUE.md`/`CHANGELOG.md` bestätigen
+den realen Stand (beide Korpus-Specs bestehen, P1 vollständig, erster P2-Lauf dieser Sektion
+bereits am 30.08.2026 erfolgt, Position 8 dort zu sieben Neunteln abgeschlossen).
+
+Fortsetzung des ersten P2-Laufs dieser Sektion, zwei Teillaufe:
+
+**Zweiter P2-Lauf — Abschluss Position 8** (die fünf zuvor offen gelassenen Restdateien der
+Geschichte-Zusammenfassungen):
+- `Alternative zur Grossstadt.docx` und `Test/test.docx`: kein Artikel (reine
+  Aufgabenstellung bzw. Duplikat zum bestehenden Gartenstadt-Artikel).
+- `Alternativen zur Grossstadt.docx` (Engels' «Zur Wohnungsfrage», Owen/Fourier,
+  Company Towns Saltaire/Akroydon/Bournville/Port Sunlight) → neuer Artikel
+  [[engels-wohnungsfrage-owen-fourier-company-towns]].
+- `VL Architektur der USA.doc` (TU Dresden, Prof. Lippert, Sommer 2007, elfteilige
+  Vorlesungsreihe, nur Vorlesung 2 gelesen: Jefferson-Raster, Land Ordinance 1785,
+  Northwest Ordinance 1787, Commissioner's Plan New York 1811) → neuer Artikel
+  [[us-rastersystem-jefferson-land-ordinance-commissioners-plan]]; Vorlesung 5 (Ursprung
+  City-Beautiful-Bewegung Chicago 1893, Senate-Park-Commission-Zeitleiste 1902–1943) als
+  Ergänzung in [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]]
+  eingefügt. Übrige rund neun Vorlesungen dieser Datei bleiben ungelesen, Fundstelle für
+  einen künftigen Lauf vermerkt.
+- `Lead.doc`: kein Artikel (Duplikat, Inhalt bereits im bestehenden Haussmann-Artikel).
+
+**Position 8 gilt damit als abgeschlossen.**
+
+**Dritter P2-Lauf — Positionen 13 und 14:**
+- Position 14 (DTV-Atlas-Konkordanz) vollständig destilliert → neuer Artikel
+  [[dtv-atlas-baukunst-konkordanz-staedtebau-kapitel]] (25 Kapitel mit Seitenzahlen, reine
+  Wegweiser-Tabelle ohne Textübernahme).
+- Position 13 (das Manifest «Die Athmosphärische Stadt» selbst, 140129) gelesen: zu roh
+  für einen eigenen Artikel, aber zwei Fundpunkte als Ergänzung in den bestehenden Artikel
+  [[blockrand-aufenthaltsqualitaet-argumentation-verdichtung-jans]] eingefügt (Attribution
+  der Kernformulierung an Schmid Schärer Architekten, Maler-Stichwortliste als
+  Bildreferenz).
+
+Beide Positionen gelten als abgeschlossen. `git diff --numstat` auf die Inventardatei
+(`raw/inventar/archiv-fachwissen__01_Staedtebau.md`) zeigt über beide Teilläufe reinen
+Append (58 0). **Von den acht P2-Positionen dieser Sektion sind jetzt Positionen 8, 13 und
+14 abgeschlossen; Positionen 1–7 (Jans-Reader, Übungsheft, fünf Grundlagenwerke
+Manualistik, 33 Autorendossiers, Platz-Materialbestand) bleiben offen.** Nächster Lauf:
+Position 1 (Jans-Reader, eigenes Ordnungsgerüst der Vorlesungsreihe Lampugnani).
+
+Keine der harten Sperren (Verträge, Bewerbungen, Personaldossiers, Adress-/Kontaktdaten,
+Lohn-/Honorardaten, Privatunterlagen) berührt; die bereits bekannte Datenschutz-Sperre
+(`FactShets_Staedte.docx`, Stufe X) wurde nicht angerührt.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, erster P2-Lauf (Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet, «MacBook Pro» falsch, Station laut `scutil` Macmini bestätigt)
 
 Dispatch-Text wie in allen Vorläufen dieser Lane behauptete «noch kein Destillat und keine
