@@ -131,6 +131,21 @@ am 30.08. korrigiert bzw. stillgelegt (`.orig-260830` gesichert), `synobsis.prom
 nicht (mtime 29.08. 18:52). **Bereits registriert als SYN-63 durch Synergie-Lauf 23 vom selben Tag** —
 hier nur als unabhaengige Bestaetigung vermerkt, keine Zweitmeldung (Rule 260803).
 
+## Betriebsbefund am Schluss des Laufs (nativ gemessen)
+
+Der Commit dieses Laufs landete auf der Synology (`763bccbc7`, Arbeitsbaum sauber, kein offener
+Merge), **erreichte GitHub aber nicht**: `nas-commit-now.sh` meldete rc=1 mit **neun** Merge-
+Konflikten. Nativ per ssh nachgemessen: **372 Commits lokal voraus, 251 zurueck**. Tagesreihe
+191/105 (07:45) → 293/186 (17:0x) → 372/251 (23:3x). **Alle Arbeit ist gesichert, nur die Weitergabe
+steht.** Neu und entscheidungsrelevant: die Konflikte liegen inzwischen **nicht mehr nur in
+CHANGELOG-Dateien**, sondern in `architektur-fachwissen/raw/inventar/` (drei Dateien), in
+`wiki/QUESTIONS.md`, in `baurecht/training/KORPUS-QUEUE-…` und als `add/add`-Konflikt auf einem
+Wiki-Artikel — also **inhaltliche Konflikte in Wissensbestaenden**, die beim Zusammenfuehren gelesen
+werden muessen. Ein blosser Rebase reicht nicht mehr, und die afw-Lane schreibt derzeit rund
+45 Artikel pro Tag in genau diese Pfade.
+**Kein Eingriff** (Git-Interna, unbeaufsichtigter Lauf). Als datierter Nachtrag an den bestehenden
+P1-Vorgang in `logbuch/fristen.md` geschrieben, nicht als Zweitmeldung (Rules 260803, 260805).
+
 ## Gemessene Eingriffe (alle Deltas positiv oder null, null Loeschungen)
 
 | Datei | Delta |

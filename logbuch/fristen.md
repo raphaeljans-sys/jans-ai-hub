@@ -4551,6 +4551,27 @@ in den drei Nachtraegen darueber. Praktische Folge fuer heutige Laeufe: Edits im
 sind sicher, erreichen GitHub und die zweite Station aber erst nach der Aufloesung — das betrifft
 auch die Erzeugnisse dieses Synergie-Laufs.
 
+**NACHTRAG 30.08.2026, 23:3x (Wissens-Chef Run 48, NATIV per ssh gemessen, nicht ueber den Mount):**
+Der Vorgang laeuft unveraendert und ist weiter gewachsen: **372 Commits lokal voraus, 251 zurueck**
+gegen `github/main`. Tagesreihe damit: 191/105 (07:45) → 293/186 (17:0x) → **372/251 (23:3x)**.
+Zwei Praezisierungen gegenueber den Nachtraegen darueber, beide neu gemessen:
+1. **Der Commit selbst geht durch, nur die Weitergabe nicht.** `nas-commit-now.sh` meldete rc=1 mit
+   **neun** Merge-Konflikten, doch der Arbeitsbaum ist danach **sauber** (kein `MERGE_HEAD`, null
+   ungemergte Pfade) und HEAD ist der neue Commit `763bccbc7`. Der rc=1 stammt aus der Push-/
+   Rebase-Stufe, nicht aus dem Commit. **Alle Arbeit ist gesichert; es fehlt ausschliesslich die
+   Weitergabe an GitHub und die zweite Station** — das bestaetigt die Lagebeurteilung von 06:0x.
+2. **Die Aufloesung wird nicht mehr durch einen blossen Rebase zu haben sein.** Die neun Konflikte
+   liegen nicht nur in CHANGELOG-Dateien, sondern auch in `wissen/architektur-fachwissen/raw/inventar/`
+   (drei Inventardateien), `wiki/QUESTIONS.md`, einem `add/add`-Konflikt auf
+   `wiki/protofunktional-begriff-abgrenzung-funktionalismus.md` und
+   `wissen/baurecht/training/KORPUS-QUEUE-thalwil-reglemente.md`. Das ist mehr als das bisher
+   beschriebene «mehrere Loops fuegen oben in dieselben CHANGELOG-Dateien ein»: es sind
+   **inhaltliche Konflikte in Wissensbestaenden**, die beim Zusammenfuehren gelesen werden muessen.
+   Je laenger der Vorgang laeuft, desto teurer wird er — die afw-Lane liefert derzeit rund 45 Artikel
+   pro Tag in genau diese Pfade.
+**Kein Eingriff**, gleiches Urteil wie in den vier Nachtraegen darueber (Git-Interna in einem
+unbeaufsichtigten Lauf, Rules `interaktive-eingriffe` und `auto-verbesserungen` 260811 Ziff. 3).
+
 ---
 
 ## 30.08.2026 — Gespräch MacBook Pro 29.08.2026 (Konversations-Destillat `logbuch/konversationen/260830-konversationen.md`)
