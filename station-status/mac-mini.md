@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 18:30:38
+Stand: 30.08.2026 18:40:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 18:12)
@@ -13,4 +13,4 @@ Stand: 30.08.2026 18:30:38
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 35c39a9f4 nas-selfcommit: 2 Datei(en) 2026-08-30 18:30
+- 14e084d88 Lane FACHWISSEN 91. Lauf: drei Nicht-Portrait-Positionen Architektenportrait-Ordner destilliert
