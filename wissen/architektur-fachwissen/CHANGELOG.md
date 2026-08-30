@@ -7423,3 +7423,35 @@ selben Lauf mit Fortschritt versehen, keine Doppeldestillation.
 geprüft: reiner Append. Kein Datenschutz- oder Sperrlisten-Fund. Rund 19 der ursprünglich
 24 P2-Positionen in `01_Landschaftsarchitektur` bleiben offen. Nächster Lauf:
 Topografie-Prüfungsskript (Anschluss an Skill `massgebendes-terrain`).
+
+## 260830 — Sektion `02_Kunst_Geschichte`, Zeile 68 (`08_Design`), 129. Lauf (Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`/`wiki/INDEX.md`/CHANGELOG geprüft, keine Zahlen aus
+dem Dispatch-Text übernommen). Vor Beginn unkommittierte Arbeit aus dem vorherigen Lauf
+(`01_Landschaftsarchitektur` P2) vorgefunden — via `nas-commit-now.sh` gesichert (Skript
+meldete den bekannten Merge-Konflikt in fremden Lane-CHANGELOGs, hat aber den vorherigen
+Stand nicht verloren; der 15-Minuten-Cron hat zwischenzeitlich erfolgreich committet, Top-Commit
+`eefc19ae4` bei Laufbeginn). `ps aux` zeigte nur einen `claude -p`-Prozess (PID 58775) mit
+diesem Dispatch-Text, kein Doppel-Dispatch.
+
+Zwei der sechs vom 128. Lauf empfohlenen kleinsten verbleibenden Positionen gelesen:
+`sapper.htm`, `castiglioni.htm`. Duplikatscheck vorab: beide bislang nur als Nebenerwähnung
+in [[marco-zanuso-italienisches-nachkriegsdesign-sapper-brionvega-kartell]] beziehungsweise
+[[mailaender-triennale-institutionsgeschichte-1923-1968]] vorhanden, kein eigener Artikel.
+Zwei neue Artikel:
+[[richard-sapper-deutsch-italienisches-industriedesign-alessi-ibm-tizio]] (Tizio-Leuchte 1972,
+Alessi-Partnerschaft ab 1977 mit Cafetière 9090/Bollitore/Besteck, IBM-Beratung ab 1981,
+Sapperstuhl für Knoll) und
+[[castiglioni-brueder-italienisches-nachkriegsdesign-arco-mezzadro-readymade]] (Studio Livio/
+Pier Giacomo/Achille ab 1938, Ready-made-Prinzip bei Mezzadro/Sella/Toio, Arco-Leuchte 1962,
+Achilles Alleinwerk nach Pier Giacomos Tod 1968). Rückverlinkung im bestehenden
+Zanuso-Artikel ergänzt (`git diff --numstat` zeigt `1 1`, reine Link-Ergänzung in der
+Frontmatter-Zeile, kein Inhaltsverlust).
+
+Damit 124 von 128 Dateien der Zeile 68 gelesen, 4 Positionen bleiben offen: `dunand.htm`,
+`deskey.htm`, `bugholz.htm`, `day.htm`. `git diff --numstat` auf die Inventardatei zeigte
+keine Änderung (Sammelzeile bleibt unverändert, Fortschritt nur in INDEX/CHANGELOG/
+KORPUS-QUEUE). Auf die zwei neuen Wiki-Dateien reine Neuanlage. Sicherung via
+`bash scripts/nas-commit-now.sh`. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung
+nach Dateigrösse unter den 4 verbliebenen Positionen (`dunand.htm` als kleinste zuerst),
+sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.

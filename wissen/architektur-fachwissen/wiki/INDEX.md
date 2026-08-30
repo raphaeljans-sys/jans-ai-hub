@@ -2993,6 +2993,38 @@ Dateigrösse unter den 6 verbliebenen Positionen (`sapper.htm`, `castiglioni.htm
 `dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`), sonst laut Queue-Regel nächste
 Sektion mit offenem P1/P2.
 
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (129. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt; `git status`/`git log` vor Beginn geprüft. Unkommittierte Vorarbeit
+aus dem vorherigen Lauf (`01_Landschaftsarchitektur` P2, siehe folgender Abschnitt) via
+`nas-commit-now.sh` gesichert — Skript meldete den bekannten Merge-Konflikt in fremden
+Lane-CHANGELOGs, der 15-Minuten-Cron hat den Stand danach committet (Top-Commit `eefc19ae4`
+bei Laufbeginn). `ps aux` zeigte genau einen `claude -p`-Prozess mit diesem Dispatch-Text
+(PID 58775), kein Doppel-Dispatch.
+
+Zwei der sechs vom 128. Lauf empfohlenen kleinsten verbleibenden Positionen gelesen:
+`sapper.htm`, `castiglioni.htm`. Duplikatscheck vorab (`grep -rli` gegen `wiki/*.md`): beide
+bislang nur als Nebenerwähnung in
+[[marco-zanuso-italienisches-nachkriegsdesign-sapper-brionvega-kartell]] beziehungsweise
+[[mailaender-triennale-institutionsgeschichte-1923-1968]] vorhanden, kein eigener Artikel.
+Zwei neue Artikel:
+[[richard-sapper-deutsch-italienisches-industriedesign-alessi-ibm-tizio]] (Tizio-Leuchte
+1972, Alessi-Partnerschaft ab 1977 mit Cafetière 9090/Bollitore/Besteck, IBM-Beratung ab
+1981, Sapperstuhl für Knoll) und
+[[castiglioni-brueder-italienisches-nachkriegsdesign-arco-mezzadro-readymade]] (Studio
+Livio/Pier Giacomo/Achille ab 1938, Ready-made-Prinzip bei Mezzadro/Sella/Toio,
+Arco-Leuchte 1962, Achilles Alleinwerk nach Pier Giacomos Tod 1968), dazu Rückverlinkung im
+bestehenden Zanuso-Artikel ergänzt.
+
+Damit sind 124 von 128 Dateien der Zeile 68 gelesen, 4 inhaltstragende Positionen bleiben
+offen: `dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`. `git diff --numstat` auf die
+Inventardatei zeigte keine Änderung (Sammelzeile unverändert), auf die zwei neuen
+Wiki-Dateien reine Neuanlage, auf den ergänzten Zanuso-Artikel `1 1` (reine
+Link-Ergänzung in der Frontmatter-Zeile, kein Inhaltsverlust). Details CHANGELOG
+30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter
+den 4 verbliebenen Positionen (`dunand.htm` als kleinste zuerst), sonst laut Queue-Regel
+nächste Sektion mit offenem P1/P2.
+
 ## 260830 — Sektion `01_Landschaftsarchitektur` (Korpus 4), erster und zweiter P2-Lauf (Lane FACHWISSEN)
 
 Vier P2-Positionen destilliert (von 24 in der Triage, drei Bausteine zusammengefasst plus
