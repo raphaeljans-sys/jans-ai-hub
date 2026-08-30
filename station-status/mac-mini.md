@@ -1,10 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 18:40:55
+Stand: 30.08.2026 18:51:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:12)
-- /Users/raphaeljans  (letzte Aktivitaet 18:12)
+- /Users/raphaeljans  (letzte Aktivitaet 18:38)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +12,4 @@ Stand: 30.08.2026 18:40:55
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 14e084d88 Lane FACHWISSEN 91. Lauf: drei Nicht-Portrait-Positionen Architektenportrait-Ordner destilliert
+- 939130b9d Architektenportraits 92. Lauf: Charles Garnier, Schinkel-Institutionsgeschichte, Semper-Biografie (Sektion 02_Architekturgeschichte)
