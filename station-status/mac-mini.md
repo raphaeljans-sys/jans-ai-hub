@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 04:32:10
+Stand: 30.08.2026 04:42:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 04:07)
+- /Users/raphaeljans  (letzte Aktivitaet 04:38)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 04:32:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 48752b2a2 nas-selfcommit: 1 Datei(en) 2026-08-30 04:30
+- 7f172db2d SYNOBSIS: sichere liegen gebliebenen Minimalcheck-Eintrag (16. Folgelauf)
