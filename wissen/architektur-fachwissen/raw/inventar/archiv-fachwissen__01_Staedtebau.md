@@ -2340,3 +2340,49 @@ Sueton (149), Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus
 Francesco Colonna/Hypnerotomachia (247) — 16 Positionen. **Nächster Lauf:** Polybios (69, über
 Militärlager, S. 69 bereits als Kopfzeile gesichtet) als nächster im Seitenverlauf liegender
 Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## Sechsundvierzigster P2-Lauf, Polybios/Militärlager destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen):
+`git status` zeigte zu Laufbeginn nur einen unversionierten `CHANGELOG.md`-Rest des 45. Laufs
+(Wiki-Artikel, INDEX und diese Inventardatei waren aus dem 45. Lauf bereits committet, siehe
+`git log` auf den Kritias-Artikel), also nachgetragen und per `nas-commit-now.sh` gesichert —
+der native Selfcommit meldete dabei Merge-Konflikte in mehreren fremden Lane-Dateien
+(u. a. `normen/CHANGELOG.md`, `KORPUS-QUEUE.md`, `synobsis/CHANGELOG.md`,
+`architektur-fachwissen/raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` und
+`__10_Protomodern.md`, `wiki/QUESTIONS.md`, `wiki/protofunktional-...md` als Add/Add), lokal
+aber kein `MERGE_HEAD` — der 15-Min-Cron fängt das laut Skript-Meldung auf, nicht diese Lane
+selbst zu lösen (kollisionsfrei laut Schreibregel, betrifft andere Sektionen/KBs).
+
+Die vom 45. Lauf empfohlene erste Priorität (Polybios, S. 69) bearbeitet, per
+`/opt/homebrew/bin/pdftoppm` gerendert (PDF-Seite = gedruckte Seite + 4, S. 69-72 vollständig
+gelesen, S. 73-Kopfzeile "Varro" gegengeprüft als Sektionsende):
+
+- **Polybios, Historien, Buch VI, 26-31** («über Militärlager», S. 69-72, keine weitere
+  Datierung im Quellenband ausser Autorenlebensdaten ca. 200-120 v. Chr.) → neuer Artikel
+  [[polybios-roemisches-militaerlager-castrum-rasterordnung]]: Feldherrnzelt als
+  Nullpunkt-Setzung (100-Fuss-Quadrat, 4 Plethren), Massmodul-Wiederholungslogik
+  (100/50-Fuss-Schritte, Zeltform Viereck, Fünferstrasse via quintana), sozialräumliche
+  Rangzonierung (Extraordinarier nah am Feldherrnzelt, Hilfsvölker an der Peripherie),
+  Zentrumszone Markt/Prätorium/Quästorium, 200-Fuss-Sicherheitsabstand zum Wall mit
+  ausdrücklicher Dreifachbegründung (Ausmarsch, Beutelager, Fernwaffen-Reichweite). Quelltext
+  selbst zieht die Lager/Stadt-Analogie explizit («gemahnt es an die Anlage einer Stadt»).
+  Verlinkt mit
+  [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]] (Castrum-Typus
+  aus Sekundärquelle, hier erstmals die primäre Massregel dazu),
+  [[vauban-festungsbau-bastionstheorie-graenzfestung-1704]],
+  [[roemische-grundlagen-voelkerwanderung-fraenkische-expansion-wiese-zils]] und
+  [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]]. Keine expliziten
+  Vorverweise in Bestandsartikeln auf Polybios gefunden (`grep -n -i polybios` über die drei
+  Ziel-Artikel), daher keine Rückverlinkung nötig.
+- Gegen Wiki-Bestand geprüft (`grep -rli` polybios/militärlager/castrum/legion über
+  `wiki/*.md`): nur der bereits bekannte Castrum-Artikel (Sekundärquelle, kein inhaltlicher
+  Überschneidungspunkt zur Primärquelle), kein Duplikat.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste bleibt
+nach Polybios offen: Varro (73), Livius (95), Seneca (105), Plinius d. Ä. (113),
+Plutarch/Romulus (125), Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal (145),
+Sueton (149), Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159),
+Francesco Colonna/Hypnerotomachia (247) — 15 Positionen. **Nächster Lauf:** Varro (73, «De
+lingua latina», S. 73 bereits als Kopfzeile gesichtet, unmittelbar im Anschluss) als nächster
+im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.

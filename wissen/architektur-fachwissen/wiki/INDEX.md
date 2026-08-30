@@ -1935,3 +1935,17 @@ Aristoteles/Politik. Nach Kritias bleiben 16 Positionen offen. Nächster
 Lauf: Polybios (69, über Militärlager), sonst der Rest der Liste der
 Reihe nach. Details in
 `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 46. P2-Lauf):** Polybios, Historien Buch
+VI, 26-31 (S. 69-72, römisches Militärlager als Massmodul-Rasterordnung:
+Feldherrnzelt als Nullpunkt-Setzung, 100/50-Fuss-Wiederholungslogik,
+sozialräumliche Rangzonierung, Zentrumszone Markt/Prätorium/Quästorium,
+200-Fuss-Sicherheitsabstand zum Wall mit expliziter
+Fernwaffen-Reichweiten-Begründung) destilliert →
+[[polybios-roemisches-militaerlager-castrum-rasterordnung]]. Gegen
+Wiki-Bestand geprüft: nur der bereits bekannte Castrum-Artikel aus
+Sekundärquelle, kein Duplikat. Verlinkt mit Castrum-Typus-Artikel,
+Vauban, Wiese/Zils römische Grundlagen und Aristoteles/Politik. Nach
+Polybios bleiben 15 Positionen offen. Nächster Lauf: Varro (73, De
+lingua latina), sonst der Rest der Liste der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.

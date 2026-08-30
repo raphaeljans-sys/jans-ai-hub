@@ -3743,3 +3743,88 @@ Plutarch/Romulus (125), Tacitus (131-133), Plinius d. J. (137), Strabo (141), Ju
 Sueton (149), Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159),
 Francesco Colonna/Hypnerotomachia (247) — 17 Positionen. **Nächster Lauf:** Kritias (54,
 Atlantis-Beschreibung, unmittelbar im Anschluss), sonst der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — 45. P2-Lauf Sektion `01_Staedtebau`: Kritias/Atlantis destilliert (Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, diese Datei,
+Inventardatei), deckungsgleich mit dem 44.-Lauf-Ende, bereits vom Auto-Sync committet. Nur ein
+laufender Prozess, kein `MERGE_HEAD`.
+
+Die vom 44. Lauf empfohlene erste Priorität aus `Quellentextband-1.pdf` bearbeitet, per
+`/opt/homebrew/bin/pdftoppm` gerendert (PDF-Seite = gedruckte Seite + 4, S. 54-61 vollständig
+gelesen; S. 63-68 zusätzlich gegengeprüft, S. 62 Leerseite):
+
+- Neuer Wiki-Artikel aus `Quellentextband-1.pdf` (S. 54-61, Kritias, Platon-Dialog «Kritias»,
+  Stephanus-Abschnitt 113-118, keine Datierung im Quellenband vermerkt):
+  [[kritias-atlantis-konzentrische-ringstadt-kanalsystem-bewaesserung]] — konzentrische
+  Ringstadt-Gründungsfigur (2 Erdringe, 3 Wasserringe um Kleitos Hügel), Zufahrtskanal
+  (3 Plethren breit, 100 Fuss tief, 50 Stadien lang) mit unterirdisch überbrückten
+  Wall-Durchstichen für Dreiruderer, gestufte Materialverkleidung der Wallringe
+  (Bronze/Zinn/Goldkupfererz von aussen nach innen), Doppeltempel- und Palastanlage mit
+  warmer/kalter Thermalquelle und funktionalem Wasserkreislauf zum Poseidon-Hain, Hippodrom
+  und vertrauensgestaffelter Wachunterbringung, Hafenvorstadt-Ringmauer, sowie rechteckiges
+  Bewässerungs- und Erschliessungsraster der Ebene (10'000-Stadien-Umfassungsgraben,
+  100-Stadien-Kanalraster, zwei Ernten pro Jahr durch Winterregen plus Sommerbewässerung),
+  `status: emerging`. S. 63-68 (Aristoteles, Politik, Buch II,8 und VII) gegengeprüft: bereits
+  vollständig als [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]]
+  destilliert (Quellenangabe dort deckungsgleich S. 63-68) — keine neue Position, Aristoteles
+  stand nie auf der offenen Namensliste. Verlinkt mit
+  [[campanella-citta-del-sole-konzentrische-ringstadt-verteidigung-lehrinstrument]],
+  [[aristophanes-die-voegel-meton-luftstadt-satire-radial-stadtplan]],
+  [[platon-die-gesetze-idealstadt-zwoelfteilung-mauerdebatte-arbeitsteilung]] (löst dessen
+  Vorverweis ein) und
+  [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]].
+- Gegen Wiki-Bestand geprüft (`grep -rli` kritias/atlantis): nur der bereits bekannte
+  Vorverweis im Platon-Artikel sowie INDEX/QUESTIONS-Journaleinträge, kein Duplikat.
+
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+Append, `git diff --numstat` geprüft). Aus der Namensliste bleibt nach Kritias offen: Polybios
+(69), Varro (73), Livius (95), Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125),
+Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias
+(151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247) — 16 Positionen. **Nächster Lauf:** Polybios (69, über
+Militärlager, S. 69 bereits als Kopfzeile gesichtet) als nächster im Seitenverlauf liegender
+Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — 46. P2-Lauf Sektion `01_Staedtebau`: Polybios/Militärlager destilliert (Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt: `git status` zeigte nur einen unversionierten Rest
+dieser CHANGELOG-Datei aus dem 45. Lauf (Wiki-Artikel/INDEX/Inventar dort bereits committet);
+nachgetragen und per `nas-commit-now.sh` gesichert. Der native Selfcommit meldete dabei
+Merge-Konflikte in mehreren fremden Lane-Dateien (u. a. `wissen/normen/CHANGELOG.md`,
+`skills/wissens-destillat/KORPUS-QUEUE.md`, `wissen/architekten-synobsis/CHANGELOG.md`,
+zwei weitere `archiv-fachwissen`-Inventardateien, `wiki/QUESTIONS.md`,
+`wiki/protofunktional-...md` als Add/Add) — lokal kein `MERGE_HEAD`, der 15-Min-Cron fängt
+das laut Skript-Meldung auf. Betrifft andere Sektionen/KBs, nicht diese Lane; nicht behoben,
+nur zur Kenntnis genommen (kollisionsfrei laut Schreibregel dieser KB).
+
+Die vom 45. Lauf empfohlene erste Priorität (Polybios, S. 69) bearbeitet, per
+`/opt/homebrew/bin/pdftoppm` gerendert (PDF-Seite = gedruckte Seite + 4, S. 69-72 vollständig
+gelesen, S. 73-Kopfzeile «Varro» als Sektionsende gegengeprüft):
+
+- **Polybios, Historien, Buch VI, 26-31** («über Militärlager», S. 69-72) → neuer Artikel
+  [[polybios-roemisches-militaerlager-castrum-rasterordnung]]: Feldherrnzelt als
+  Nullpunkt-Setzung (100-Fuss-Quadrat, 4 Plethren), Massmodul-Wiederholungslogik
+  (100/50-Fuss-Schritte, Fünferstrasse via quintana), sozialräumliche Rangzonierung
+  (Extraordinarier nah am Zentrum, Hilfsvölker an der Peripherie), Zentrumszone
+  Markt/Prätorium/Quästorium, 200-Fuss-Sicherheitsabstand zum Wall mit expliziter
+  Dreifachbegründung (Ausmarsch, Beutelager, Fernwaffen-Reichweite); Quelltext selbst zieht
+  die Lager/Stadt-Analogie explizit. Verlinkt mit
+  [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]] (dort bisher nur
+  Sekundärquelle, hier erstmals die primäre Massregel),
+  [[vauban-festungsbau-bastionstheorie-graenzfestung-1704]],
+  [[roemische-grundlagen-voelkerwanderung-fraenkische-expansion-wiese-zils]] und
+  [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]]. Keine expliziten
+  Vorverweise in Bestandsartikeln gefunden, daher keine Rückverlinkung nötig.
+- Gegen Wiki-Bestand geprüft (`grep -rli` polybios/militärlager/castrum/legion): nur der
+  bekannte Castrum-Artikel aus Sekundärquelle, kein inhaltlicher Überschneidungspunkt, kein
+  Duplikat.
+
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+Append, `git diff --numstat` geprüft). Aus der Namensliste bleibt nach Polybios offen: Varro
+(73), Livius (95), Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125), Tacitus
+(131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151),
+Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia
+(247) — 15 Positionen. **Nächster Lauf:** Varro (73, De lingua latina, S. 73 bereits als
+Kopfzeile gesichtet) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest der
+Liste der Reihe nach.
