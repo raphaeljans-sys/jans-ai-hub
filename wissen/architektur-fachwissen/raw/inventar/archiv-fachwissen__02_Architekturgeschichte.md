@@ -210,3 +210,64 @@ oben) und der Frage-Antwort-Katalog `Fragen.doc`. **Damit ist Sektion
 `wiki/INDEX.md` «Sektionen nach Ertrag»: `02_Kunst_Geschichte` (11 P1, sehr dünn im
 Verhältnis zu 27'649 gesichteten Dateien) — damit sind alle P1-Positionen der
 Trägerschicht-Tabelle abgearbeitet, es bleibt nur noch die Mittelschicht.
+
+## Destillat-Fortschritt, erster P2-Lauf (30.08.2026, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn `KORPUS-QUEUE.md`, `wiki/INDEX.md` «Sektionen nach Ertrag» und diese
+Inventardatei vollständig gelesen (nicht nur `tail`) — Lehre aus dem Fehlgriff im
+24. Lauf von `03_Bauprozesse_I_II`. Dispatch-Text nennt bewusst keinen Stand mehr; realer
+Stand: beide Specs bestehen, P1 des gesamten Korpus `archiv-fachwissen` ist durchgehend
+destilliert, `02_Architekturgeschichte` ist laut Queue-Zelle (67. Lauf) einer von zwei
+verbleibenden Kandidaten mit vollständig offenem, unblockiertem P2 (der andere,
+`02_Kunst_Geschichte`, ist laut eigenem Vermerk «sehr dünner Ertrag»). Von der oben
+empfohlenen Reihenfolge («zuerst Luzerner Skript, dann die vier
+Epochen-Zusammenfassungen») wurde mit den vier Zusammenfassungen begonnen, weil sie den
+Epochenrahmen liefern:
+
+- `Kunst-und-Architekturgeschichte-I-12-HS-Renaissance-und-Barock-A.-Tönnesmann.pdf`
+  (43 S., via `pypdf` vollständig extrahiert und gelesen, kein `pdftotext`/Homebrew auf
+  dieser Station nötig) — **destilliert** →
+  [[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]]
+  (machtgeschichtliche Herleitung von Bauaufgaben Florenz/Urbino, drei wiederkehrende
+  Entwurfsprinzipien, Zahl-Mass-Proportion-Systematik aus dem Gastvorlesungsteil
+  Naredi-Rainer). Gegen Wiki-Bestand geprüft (`grep` auf Brunelleschi/Alberti/
+  Palladio/Bramante/Serliana/Kolossalordnung u. a.): keine inhaltliche Dopplung, nur
+  Namensnähe zu bereits bestehenden Artikeln aus anderen Sektionen (kein Duplikat).
+- `MITTELALTER-ZSMFSG.pdf` (17 S.) — **destilliert** →
+  [[mittelalter-epochenraster-romanik-gotik-stilmerkmale-datierung]] (Epochenraster
+  Vor-/Früh-/Hoch-/Spätromanik/Gotik als Datierungshilfe, vier neue Glossarbegriffe
+  Atrium/Spolien/Villard de Honnecourt/St. Galler Klosterplan, drei Referenzbauten mit
+  Argumentationswert). Die im Quelltext bereits vorhandenen Begriffe Krypta/Apsis/
+  Chor/Triforium etc. **nicht** erneut destilliert — bereits in
+  [[fachglossar-historische-bauteile-kirchenbau-gotik]] geführt, dort verlinkt statt
+  dupliziert.
+- `Renaissance-Zusammenfassung.pdf` (51 S., Tönnesmann) — **teilweise destilliert**: nur
+  S. 1-3 (Abschnitte Ablauf/Ideen/Erneuerung der Künste/Architekturtheorie/
+  Architektonische Charakteristiken) gelesen und destilliert →
+  [[renaissance-epochencharakteristik-stilmerkmale-architekturtheorie-vitruv-alberti]]
+  (Stilmerkmal-Raster Früh-/Hoch-/Spätrenaissance/Manierismus, Architekturtheorie-
+  Genealogie Vitruv-Wiederentdeckung 1416/Alberti/Serlio/Vignola/Palladio). Die
+  anschliessende, sehr umfangreiche Einzelbau-Dokumentation (S. 4-51: Brunelleschi,
+  Michelozzo, Alberti, Rossellino im Detail bis auf Fassadenachsen-Ebene) **nicht**
+  gelesen — bleibt offen, im Artikel selbst vermerkt.
+- `Moderne.pdf` (16 S., «Aufklärung bis Moderne») — **nicht destilliert**: Sichtprüfung
+  der ersten rund 500 Zeilen (Empire-Stil, Schinkel, Klenze, Semper-Bauten inkl. ETH-
+  Polytechnikum Zürich) zeigte hohe thematische Nähe zu bereits bestehenden
+  Semper-Artikeln dieser KB ([[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]],
+  [[materialwahrheit-stoffwechseltheorie-semper-urtechniken]]) und stellenweise sehr
+  rohe, teils nur stichwortartige Mitschrift-Qualität (Zeilen ca. 380-413) — Rest bleibt
+  ungelesen, Duplikatsprüfung gegen die genannten Artikel vor einem Folgelauf nötig.
+
+**Nicht bearbeitet in diesem Lauf:** Luzerner Skript Sauter/Marion (13 PDF), 41
+Architektenportraits, Frage-Antwort-Katalog `Fragen.doc`, übrige Autorenordner
+`04_Kunsthistoriker` (889 Dateien), Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51)
+und `Moderne.pdf`.
+
+**Datenschutz/Sperrliste:** kein Fund in den drei gelesenen Quellen. Ausschliesslich
+historische, öffentlich bekannte Architekten, Bauherren und Dozierende.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append
+(nur Zeilen hinzugefügt, keine bestehende Zeile verändert oder gelöscht). **Nächster
+Lauf:** entweder das Luzerner Skript Sauter/Marion (13 Teile, geschlossener
+Vorlesungszyklus, laut Empfehlung oben mit hohem Ertrag), oder Rest von `Moderne.pdf`
+nach vorheriger Duplikatsprüfung gegen die bestehenden Semper-Artikel.

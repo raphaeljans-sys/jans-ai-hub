@@ -1,5 +1,66 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — Erster P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte` (68. Lauf, Lane FACHWISSEN)
+
+Dispatch-Prompt nennt bewusst keine Zahlen mehr (Lehre aus über 70 Läufen mit
+veraltetem Festwert-Prompt, siehe Memory `project_fachwissen-dispatch-loop`). Stand
+selbst ermittelt: `KORPUS-QUEUE.md` (Zeile Korpus 4, 67. Lauf) nennt als Kandidaten für
+den nächsten Schritt `02_Architekturgeschichte` (11 P1, P2 «ungesichtet») und
+`02_Kunst_Geschichte` (11 P1, P2 «sehr dünner Ertrag laut eigenem Vermerk»); Gegenprobe
+gegen die jeweilige Inventardatei bestätigte für `02_Gestalt_Kulturverstaendnis` (dritter
+Queue-Kandidat) und `03_Bauprozesse_I_II`, dass beide bereits abgeschlossen bzw. auf vier
+dauerhaft blockierte Positionen reduziert sind — die Queue-Zelle war an diesen zwei
+Stellen veraltet. `02_Architekturgeschichte` gewählt: einzige echte, unblockierte
+P2-Position mit erwartbar besserem Ertrag als die als «sehr dünn» markierte
+Alternative.
+
+Der eigenen Empfehlung im Inventar folgend («zuerst Luzerner Skript, dann die vier
+Epochen-Zusammenfassungen der obersten Ebene») mit den vier Zusammenfassungen begonnen
+(Luzerner Skript Sauter/Marion, 13 Teile, bleibt für einen Folgelauf offen):
+
+- **Tönnesmann-Vorlesungsskript** (43 S., Renaissance/Barock HS 2012, per `pypdf`
+  gelesen — kein `pdftotext`/Homebrew auf dieser Station nötig, Textlayer vorhanden) →
+  [[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]]. Zwei
+  eigenständige Stränge destilliert: die machtgeschichtliche Herleitung von Bauaufgaben
+  (Florenz-Beispiel Dom/Or-San-Michele/Palazzo-Vecchio-Konkurrenz, Urbino-Beispiel
+  Federico da Montefeltro) sowie die Zahl-Mass-Proportion-Systematik aus dem
+  Gastvorlesungsteil von Paul Naredi-Rainer (perfekte Zahlen Abtei Cluny, Grundmass
+  Aachener Pfalzkapelle, musikalische Proportionen Alberti an Tempio Malatestiano und
+  Palazzo Rucellai). Dazu drei wiederkehrende Entwurfsprinzipien gebündelt: «Ehrlichkeit
+  der Fassade», Säulenordnung als Bedeutungsträger, Kirchenbau-Wandel Zentralbau→
+  Längsbau nach dem Konzil von Trient. Gegen Wiki-Bestand geprüft (`grep` auf
+  Brunelleschi/Alberti/Palladio/Bramante/Serliana u. a.): keine inhaltliche Dopplung.
+- **MITTELALTER-ZSMFSG.pdf** (17 S.) →
+  [[mittelalter-epochenraster-romanik-gotik-stilmerkmale-datierung]]. Epochenraster
+  Vor-/Früh-/Hoch-/Spätromanik und Gotik als Datierungshilfe für Bestandsbauteile, vier
+  neue Glossarbegriffe (Atrium, Spolien, Villard de Honnecourt, St. Galler Klosterplan)
+  ergänzend zum bestehenden [[fachglossar-historische-bauteile-kirchenbau-gotik]] (dort
+  bereits geführte Begriffe Krypta/Apsis/Chor/Triforium bewusst nicht wiederholt), drei
+  Referenzbauten mit Argumentationswert (Aachener Dom als zweiter Spolien-Beleg,
+  St-Denis als Gotik-Gründungsbau, Kölner Dom als Beleg für plantreue Fertigstellung
+  nach Jahrhunderte-Unterbruch).
+- **Renaissance-Zusammenfassung.pdf** (51 S.) — nur S. 1-3 destilliert →
+  [[renaissance-epochencharakteristik-stilmerkmale-architekturtheorie-vitruv-alberti]]
+  (Stilmerkmal-Raster Früh-/Hoch-/Spätrenaissance/Manierismus, Architekturtheorie-
+  Genealogie Vitruv-Wiederentdeckung 1416 bis Palladio). Die anschliessende, sehr
+  umfangreiche Einzelbau-Dokumentation (S. 4-51, Brunelleschi/Michelozzo/Alberti/
+  Rossellino bis auf Fassadenachsen-Detailebene) bewusst **nicht** gelesen — im Artikel
+  als offener Punkt vermerkt, da inhaltlich grösstenteils bereits durch die bestehenden
+  vier Artikel dieser Sektion abgedeckt oder unterhalb der Verwertungsschwelle.
+- **Moderne.pdf** (16 S.) — **nicht destilliert**: Sichtprüfung (Empire-Stil bis Semper/
+  ETH-Polytechnikum Zürich) zeigte hohe thematische Nähe zu den bereits bestehenden
+  Semper-Artikeln [[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]] und
+  [[materialwahrheit-stoffwechseltheorie-semper-urtechniken]] sowie stellenweise sehr
+  rohe, teils nur stichwortartige Mitschrift-Qualität — vor Bearbeitung im Folgelauf
+  erst Duplikatsprüfung gegen diese zwei Artikel.
+
+`git diff --numstat` auf die Inventardatei zeigte `61 0` (reiner Append). **Damit bleibt
+P2 dieser Sektion überwiegend offen:** Luzerner Skript (13 Teile), 41
+Architektenportraits, `Fragen.doc`, Rest von `Renaissance-Zusammenfassung.pdf` und
+`Moderne.pdf`, übrige Autorenordner `04_Kunsthistoriker` (889 Dateien). **Nächster
+Lauf:** Luzerner Skript Sauter/Marion — laut Inventar der «sauberste, weil
+systematischste» Sekundärtext des ganzen Bestandes.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern` abgeschlossen (67. Lauf, Lane FACHWISSEN)
 
 Vor Arbeitsbeginn Stand selbst ermittelt statt aus dem Dispatch-Prompt übernommen (der
