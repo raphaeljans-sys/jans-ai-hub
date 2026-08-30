@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 18:51:11
+Stand: 30.08.2026 19:01:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 18:38)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 18:51:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 939130b9d Architektenportraits 92. Lauf: Charles Garnier, Schinkel-Institutionsgeschichte, Semper-Biografie (Sektion 02_Architekturgeschichte)
+- 94ecf31c8 nas-selfcommit: 1 Datei(en) 2026-08-30 19:00
