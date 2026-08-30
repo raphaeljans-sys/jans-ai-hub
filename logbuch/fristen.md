@@ -4468,3 +4468,41 @@ Raphaels Entscheid.
 **NACHTRAG 30.08.2026, 06:0x (twin-fidelity-review) — ⚠ P1 unverändert offen, und die Divergenz wächst schnell.** Nativ per ssh gemessen (nicht über SMB): **158 Commits lokal voraus / 85 vom Remote nicht integriert**, **199 gescheiterte Abgleichversuche**. Zum Vergleich die beiden Vormessungen desselben Vorgangs: 3/1 um 22:07, 31/13 um 23:03, jetzt 158/85 um 06:00 — in acht Stunden das Fünffache. Erste Fehlermeldung `2026-08-29T21:51:06`, seither ununterbrochen. Der Befund und seine Ursachenanalyse (CHANGELOG-Kollisionen mehrerer Lern-Loops, die alle oben einfügen) stehen bereits in den beiden Einträgen vom 29.08. und sind unverändert richtig; neu ist nur die Grösse.
 **Eigener Beitrag zum Muster, offengelegt:** Dieser Lauf hat selbst in `wissen/twin/CHANGELOG.md` **oben** eingefügt — also genau das Schreibmuster, das die Kollisionen erzeugt. Der Commit ist auf der Synology gelandet und verifiziert (`295614019`, Arbeitsbaum sauber); GitHub erreicht er nicht. **Alle Arbeit ist sicher, nur die Weitergabe steht.**
 **Nicht ausgeführt, bewusst:** Auflösen hiesse, über fremde, unbestätigte Arbeit anderer Läufe zu urteilen, als Eingriff in Git-Interna in einem unbeaufsichtigten Lauf (Rules `auto-verbesserungen` 260811 Punkt 3, `interaktive-eingriffe`). Vorgehen unverändert wie in den Einträgen vom 29.08.: Sicherungszweig setzen, dann **Merge** (nicht Rebase), Konflikte in den CHANGELOG-Dateien von Hand zusammenführen. | Hub-Infrastruktur (Git-Sync), nativ gemessen 30.08.2026 06:0x | hoch | offen — Aktion Raphael |
+
+---
+
+## 30.08.2026 — Gespräch MacBook Pro 29.08.2026 (Konversations-Destillat `logbuch/konversationen/260830-konversationen.md`)
+
+**NEU — Der langlebige OAuth-Token ist erneut im Chatverlauf gelandet. Wiederholungsfall zum 24.08.2026.**
+Bei der Reparatur des headless-Logins am 29.08. gegen 20:0x hat Raphael den mit `claude setup-token`
+auf dem Mac Mini erzeugten Token `sk-ant-oat01-…` in den Chat kopiert. Anders als der kurz zuvor
+ebenfalls eingefügte PKCE-Autorisierungscode (nicht einlösbar ohne den `code_verifier`, der den
+Speicher des Mini nie verlassen hat, und durch das Einfügen im SSH-Fenster verbraucht) ist dieser
+Token **ein Jahr gültig** und gibt vollen Zugriff auf das Claude-Konto — wer ihn hat, kann ihn
+benutzen. Claude hat ihn nicht verwendet und nirgends eingetragen; der Wert steht nur im
+Sitzungs-Transkript, ist aber als offengelegt zu behandeln.
+**AKTION Raphael:** Token in den Claude-Kontoeinstellungen widerrufen, danach `claude setup-token`
+für einen frischen. Der genaue Menüpunkt für den Widerruf ist nicht belegt und wird hier bewusst
+nicht geraten. **Entlastend:** für den Betrieb wird der Token nicht mehr gebraucht — am Ende des
+Abends antworteten alle drei Stationen wieder (Mini rc=0, Büro-MacBook OK, Revendo OK).
+**⚠ Wiederholung:** derselbe Vorgang steht bereits für den 24.08.2026 in diesem Register
+(Revendo-Station, Destillat `260824-konversationen.md`) — dort mit der AKTION «`claude setup-token`
+erneut ausführen», die **bis heute nicht quittiert** ist. Es sind damit zwei potenziell gültige,
+offengelegte Jahres-Token im Umlauf.
+
+| Beleg: Gespräch MacBook Pro 29.08.2026 ca. 20:0x, Destillat `logbuch/konversationen/260830-konversationen.md` Block 02; Vorgängerpunkt 24.08.2026 in diesem Register | Zugangsdaten / alle Stationen | **hoch** | offen — Aktion Raphael, keine Frist im engeren Sinn, Aufwand ein Befehl |
+
+**NEU — Die Dispatch-Schleife feuert wortgleiche Aufträge an bereits stillgelegte Lanes.**
+Im Vollgas-Fenster 29./30.08. haben die fünf Schub-Lanes auf dem Mac Mini **677 Läufe** gefahren,
+davon rund **515 ohne inhaltliches Delta** (SYNOBSIS 281, NORMEN-PRUEFSTAND 182, GROBKOSTEN 52).
+Drei Lanes haben sich selbst stillgelegt und insgesamt zwölf STILLGELEGT-Quittungen abgesetzt,
+bekamen aber weiterhin denselben wortgleichen Auftrag zugestellt — gezählt bis zum «88. wortgleichen
+Dispatch». Die Lanes benennen als vermutliche Quelle `ch.jans.nachtschicht` beziehungsweise
+`ch.jans.wissens-trigger` und bitten wiederholt darum, den Scheduler zu prüfen, statt weiter
+Kontingent zu verbrennen. Im Vollgas-Auftrag war der Verbrauch gewollt; **nach dem Ende des Schubs
+am Montag 11:00 wird jeder Redispatch an eine stillgelegte Lane reiner Verlust.**
+**AKTION:** Scheduler prüfen und die Stilllegungs-Quittungen der Lanes zurückwirken lassen, bevor
+der Schub endet. Ertrag des Schubs konzentriert sich auf die Lane FACHWISSEN (66 Läufe, zwei
+Korpus-Sektionen komplett destilliert, dreizehn neue Wiki-Artikel).
+
+| Beleg: Konversations-Digest Mac Mini 29./30.08.2026, Destillat `logbuch/konversationen/260830-konversationen.md` Blöcke 04 und 05 | Hub-Betrieb / Mac Mini | mittel | offen — vor Montag 31.08.2026 11:00 prüfen |
