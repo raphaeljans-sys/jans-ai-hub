@@ -2654,3 +2654,27 @@ nur den Fliesstext.
 **Nächster Zuschnitt:** E-R166-3 (HFM-Ausschlüsse am Original gegenlesen — die härtesten Befunde
 des Laufs, bewusst ungehoben gelassen), danach E-R166-6 (Begleitdokument-Prüfung Ränge 6-20).
 A-BLIND Ränge 61-80 bleiben dahinter.
+
+## Run 169 (30.08.2026) — die Begleitdokument-Methode bekommt ihr Abbruchkriterium
+
+Fortsetzung der in Run 165/166/167 entwickelten Begleitdokument-Pruefung, jetzt auf den Raengen
+15-30 des Backlink-Rankings. **5 von 5 geprueften Quellen lieferten etwas** (kumuliert 16 von 16),
+aber die Ertragsverteilung hat gekippt: einmal Klasse 2 (amtliche Ebene widerspricht der
+Branchenebene), dreimal Klasse 3 (belegter Negativbefund), einmal Klasse 4 (Formalie).
+
+**Die Lehre, die den Zuschnitt kuenftiger Laeufe aendert:** Der Backlink-Rang ist der falsche
+Selektor. Er misst, **wie oft die KB eine Quelle zitiert** — nicht, **wie wahrscheinlich sich an ihr
+etwas geaendert hat**. Beides faellt nur zufaellig zusammen. Die tragende Trennlinie ist die
+**Alterungsgeschwindigkeit der Quellenklasse**:
+
+- **Ergiebig:** Branchenhandbuecher, Foerderprogramme, kantonale Vollzugspraxis, alles mit
+  Rechtsbezug. Dort entstehen laufend neue amtliche Gegenpositionen — der einzige Klasse-2-Fund
+  dieses Laufs stammt genau daher (ElCom gegen VSE-Handbuch).
+- **Erschoepft:** Normen, Bauteilekataloge, technische Vollzugshilfen, Verbandsbroschueren. Vier von
+  vier Pruefungen dieser Klasse ergaben Negativbefunde oder Formalien.
+
+**Naechster Zuschnitt:** E-R169-1 (zweites Verordnungspaket des Mantelerlasses per 01.01.2026 am
+Verordnungstext — Messtarife pro Messpunkt, Referenz-Marktpreis; einziger P1-Punkt), danach E-R169-2
+(BD LEG-CH 2025 lesen) und E-R169-3 (AHB-Merkblatt 384). Die Begleitdokument-Pruefung laeuft
+kuenftig **nach Quellenklasse, nicht nach Rang** — und damit vorrangig ueber die Foerder-, Vollzugs-
+und Branchendokumente der KB.

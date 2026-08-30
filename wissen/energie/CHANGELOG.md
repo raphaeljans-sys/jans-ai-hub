@@ -1,5 +1,58 @@
 # CHANGELOG
 
+## 2026-08-30 (Run 169) — ElCom widerspricht dem VSE-Handbuch an drei Stellen; E-R167-4/-5/-6 geschlossen
+
+**Klasse-2-Fund, der beratungsstaerkste seit mehreren Laeufen.** Das Fachsekretariat der ElCom
+erklaert drei Bestimmungen der VSE-Branchenebene fuer **ohne gesetzliche Grundlage**: HER-CH 2025
+**Ziff. 3.2 (7)** (alle Anlagen beim gleichen Verteilnetzbetreiber, Frage 2.13), HER-CH 2025
+**Ziff. 4.3 (2)** (Rueckliefervergütung gegenueber dem Zusammenschluss statt gegenueber den einzelnen
+Produzenten, Frage 2.22) und BD LEG-CH 2025 **Ziff. 4.1 (3) c)** (alle Netzebenen beim gleichen VNB,
+Frage 9.2). Quelle: ElCom-FAQ zur Energiestrategie 2050, Stand Update vom **16.06.2026**, PDF geladen
+und alle drei Stellen **woertlich im Hauptmodell** gegengelesen. Genau diese drei Ziffern sind die
+Begruendungen, mit denen ein Netzbetreiber einen ZEV oder eine LEG in der Praxis abweist.
+
+**Geschrieben:** neuer Abschnitt in `destillate/zev-eigenverbrauch-mfh-her-2025.md` (Tabelle der drei
+Beanstandungen, Vorbehalt «Auffassung des Fachsekretariats, keine Verfuegung») plus Datenstand-
+Abschnitt zum **zweiten Verordnungspaket per 01.01.2026** (Messtarife pro Messpunkt Art. 17a StromVG,
+Rueckliefervergütung nach BFE-Referenz-Marktpreis, LEG-Ausfuehrungsbestimmungen — benannt, nicht
+ausdestilliert). Neue FAQ **F260** und **F261**. Themenartikel `wiki/pv-eigenverbrauch-zev.md` um den
+Abschnitt «das Handbuch des VSE ist kein Gesetz» gewachsen.
+
+**E-R167-4 geschlossen:** ElCom-Weisung **5/2025** «Transparente und vergleichbare Rechnungsstellung»
+(06.05.2025) hat einen LEG-Bezug, aber einen engen — Fussnote (1) verlangt, den LEG-Netznutzungs-
+abschlag (Art. 17e Abs. 3 StromVG i.V.m. Art. 19h StromVV, je Version ab 1.1.2026) unter Position A
+transparent auszuweisen; Systemdienstleistungen bleiben ohne Abschlag. Nachgetragen in
+`destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md`.
+
+**E-R167-5 geschlossen, mit korrigierter Praemisse:** **EN-102d gehoert dem Fenster-TOOL, nicht dem
+Merkblatt.** Vollzugshilfe EN-100 (Dez. 2018), Tabelle 3 «Zuordnung der Hilfsformulare», fuehrt
+woertlich «EN-102d · EN-102 · Fenster-Tool»; das Merkblatt Fenster traegt gar keine EN-Nummer, und das
+«-d» in Dateinamen wie `EN-102-d_Waermeschutz_…` ist das Sprachkuerzel deutsch. Nachgetragen in
+`destillate/enfk-fensterblatt.md`. **Ein Pruefagent hatte die Nummer als frei erfunden gemeldet, ohne
+EN-100 geoeffnet zu haben** — die Gegenpruefung am Original verwarf den Befund und rettete eine
+korrekte Fundstelle (Rule `auto-verbesserungen` 260729b, zweite Belegstelle in dieser KB).
+
+**E-R167-6 beantwortet — das fehlende Abbruchkriterium der Methode:** 5 von 5 geprueften Quellen
+lieferten etwas, aber die Verteilung hat sich verschoben (1× Klasse 2, 3× Klasse 3, 1× Klasse 4).
+Die Trennlinie laeuft **nicht entlang des Backlink-Rangs, sondern entlang der Alterungsgeschwindigkeit
+der Quelle**: ergiebig bleiben schnell alternde Branchen- und Vollzugsdokumente, erschoepft sind
+stabile Fachgrundlagen (Normen, Bauteilekataloge, Verbandsbroschueren). Kuenftige Laeufe fahren die
+Methode nach Quellenklasse, nicht nach Rang.
+
+**Vier kompakte Quellen-Nachtraege** (append-only, je per `git diff --numstat` geprueft):
+`erdwaermesonden-bewilligung-zh-sz` (AWEL-Planungshilfe, Infobrief Mai 2023, Waermenutzungsatlas ZH,
+Waermenutzungskarte SZ; vier Aktualitaets-Negativbefunde inkl. BAFU-Vollzugshilfe unveraendert 2009),
+`cerclebruit-vollzugshilfe-waermepumpen-laermschutz` (Schwester-Vollzugshilfe 6.20 HLKK,
+**Bundesgerichtsurteil 1C_83/2024 vom 21.03.2025**: kein Anspruch der Nachbarn auf den fuer sie
+immissionsaermsten Standort, E. 3.3.4), `ahb-zuerich-gt-rl8-beleuchtung` (neues Merkblatt M-384
+Hallenbaeder Okt. 2024; SIA 387/4:2023 als geltende Ausgabe bestaetigt; tote URL-Pfadvariante
+dokumentiert), `minergie-besser-planen-bauen` (Broschuere unveraendert — das PDF-Erstelldatum 02/2025
+ist ein Re-Export, **kein neuer Inhaltsstand**; kein Aenderungsprotokoll 2026.1; Kandidatenliste
+unerschlossener Begleitdokumente).
+
+**Neu offen:** E-R169-1 (P1, zweites Verordnungspaket 01.01.2026 destillieren) bis E-R169-6.
+Report: `outputs/2026-08-30_energie-run169.md`.
+
 ## 2026-08-30 (Run 168, Mac-Mini-Nachtschicht) — RiLuMi auf Version 2026.1 nachgefuehrt, E-R165-3 geschlossen
 
 `destillate/rilumi-minergie-luftdichtheit-n50.md`: Ausgabe von RiLuMi 2022.1 (Run 55, 13.07.2026)
