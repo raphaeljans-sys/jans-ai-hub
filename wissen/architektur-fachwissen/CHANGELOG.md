@@ -3487,3 +3487,29 @@ Raffael-Brief destilliert, Aventinus ohne Artikel (Lane FACHWISSEN)
 - Nächster Lauf: Olivier de Serres (293, Théâtre d'Agriculture — Fachlichkeitsprüfung
   städtebaulich vs. rein gartenbaulich noch offen), sonst Vasari il Giovane/Città ideale (299)
   oder Leonardo da Vinci (257, bisher nie geprüft).
+
+## 2026-08-30 — 38. P2-Lauf Sektion `01_Staedtebau`: Olivier de Serres ohne Artikel geschlossen,
+Vasari il Giovane destilliert (Lane FACHWISSEN)
+- Vor Laufbeginn Stand selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen mehr):
+  `KORPUS-QUEUE.md`, `wiki/INDEX.md` und Inventardatei gegengeprüft, deckungsgleich mit dem
+  37.-Lauf-Ende; working tree sauber, kein `MERGE_HEAD`, genau ein laufender `claude -p`-Prozess.
+- Olivier de Serres, Théâtre d'Agriculture (S. 293-297, Buch VI «Des Jardinages») vollständig
+  gelesen — reine Zier-/Nutzgarten-Anleitung (Bordürenpflanzen, Parterre-Farbkiesmuster,
+  Blickachsen-Perspektive), kein städtebaulicher Gehalt. **Bewusst ohne Artikel geschlossen**
+  (Delta-Ehrlichkeit, analog Aventinus).
+- Neuer Wiki-Artikel aus `Quellentextband-1.pdf` (S. 299-302, Giorgio Vasari il Giovane, La Città
+  ideale, 1598):
+  `vasari-il-giovane-citta-ideale-1598-gebaeudetypologie-marktzonierung.md` — Standortwahl Ebene
+  statt Hügel wegen fester Regelbarkeit, Fluss nahe aber nicht durch die Stadt gegen
+  Überschwemmung, Strassenraster-Debatte gerade vs. krumm mit Siena-Verkettung als Kompromiss,
+  fünfeckige Zitadelle als erster von 65 Bauplänen, Markt-Warenzonierung nach Loggien-Seite,
+  vierstufige Palast-Geschosshierarchie, Bibliotheks-Begründung über Zugang unabhängig vom
+  Vermögen. Verlinkt mit `renaissance-idealstadt-typologie-filarete-alberti-duerer`,
+  `specklin-architectura-vestungen-standortkriterien-topographia-1589` und
+  `ibn-abdun-sevilla-baupolizei-hisba-marktordnung-1100`.
+- `raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+  Append, `git diff --numstat` geprüft). Von den 54 benannten Positionen der Quellentextband-
+  Anthologie sind jetzt 36 destilliert oder begründet ohne Artikel abgeschlossen, 18 bleiben
+  offen.
+- Nächster Lauf: Leonardo da Vinci (S. 257, bisher nie geprüft) oder der gesamte noch ungeprüfte
+  antike Block Homer bis Cicero (S. 9-81).
