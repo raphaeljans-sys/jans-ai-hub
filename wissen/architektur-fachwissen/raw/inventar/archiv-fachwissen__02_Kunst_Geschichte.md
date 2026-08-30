@@ -468,3 +468,34 @@ Kandidaten nach Dateigrösse (Substanz-Indikator) u. a. `gray.htm`, `magistretti
 `jacobsen.htm`, `josef_frank.htm`, `eames.htm`, `alvar_aalto.htm` (vor Destillation Duplikatscheck
 gegen den neuen Stahlrohrmöbel-Artikel und `01_Innenarchitektur`-Sektion, da dort bereits eine
 Encyclopedia of Interior Design liegt).
+
+## 260830 — Zeile 68 (Fortsetzung), Sektion `02_Kunst_Geschichte` (Lane FACHWISSEN, 103. Lauf)
+
+Duplikatscheck vor Beginn: `grep -rli` gegen alle sieben Namen (Aalto/Eames/Jacobsen/Gray/Frank/
+Magistretti/Ponti) in allen `wiki/*.md` — nur Streuverweise auf Aalto in bestehenden
+Architekturtheorie-Kanon-Listen (`sauter-klassische-moderne-...`), kein eigener Möbel-/
+Designartikel zu einem der sieben Namen. Alle sieben genannten Kandidatendateien (`alvar_aalto.htm`,
+`eames.htm`, `gray.htm`, `jacobsen.htm`, `josef_frank.htm`, `magistretti.htm`, `ponti.htm`)
+vollständig gelesen und zu vier neuen Wiki-Artikeln destilliert:
+
+- [[organische-schichtholz-moderne-aalto-eames-jacobsen]] (Aalto Paimio-Stuhl/Artek 1935/Savoy-Vase;
+  Eames Cranbrook/Organic-Design-Wettbewerb/Molded-Plywood/Eames House; Jacobsen Ameisenstuhl/
+  Schwan/Ei/St.-Catherine's-College — durchgehende, in der Quelle selbst belegte Materialgenealogie
+  Schichtholz/Glasfaser 1929-1958, inkl. explizitem Eames-Einfluss auf den «Ameisenstuhl»)
+- [[eileen-gray-lackarbeiten-tubular-steel-e1027]] (Lackarbeiten bei Sugawara, Galerie Jean Desert,
+  Übergang Ornament zu Funktionalismus mit Rietveld-Bezug, E.1027 mit Jean Badovici)
+- [[josef-frank-wien-schwedische-moderne-svenskt-tenn]] (Wiener Sozialwohnungsbau, Weissenhof-
+  Beitrag 1927, Emigration 1934, Svenskt Tenn mit Estrid Ericson, Golden-Gate-Expo 1939)
+- [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]] (Ponti: Domus-Gründer,
+  Pirelli-Turm, Superleggera, Compasso d'Oro; Magistretti: Carimate-Stuhl, Cassina-Beziehung ab
+  1960, frühe Kunststoffmöbel Demetrio/Selene, Leuchten Eclisse/Atollo)
+
+Der bestehende Stahlrohrmöbel-Artikel um Rückverlinkung ergänzt (Aalto/Eames sind dort als
+künftiger Folgeartikel vermerkt gewesen, jetzt aufgelöst). Damit sind elf von 128
+Fliesstext-Dateien der Zeile 68 gelesen. **Zeile 68 bleibt weiterhin offen** — rund 90 Personen-
+artikel ungelesen (u. a. Josef Hoffmann, Charles Rennie Mackintosh, Le Corbusier als Möbeldesigner,
+Sottsass), dazu der `bilder`-Unterordner und `~$`/`.tmp`-Dateien ohne Fachwert. Kein Datenschutz-/
+Sperrlisten-Fund. `git diff --numstat` auf diese Inventardatei zeigt reinen Append. Vier
+Wiki-Artikel neu, `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile 68 fortsetzen — nächste
+Kandidaten nach Dateigrösse, u. a. Hoffmann/Mackintosh, vor Destillation erneut Duplikatscheck
+gegen die vier neuen Artikel und `01_Innenarchitektur`.

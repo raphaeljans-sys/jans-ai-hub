@@ -3,7 +3,7 @@ title: "Stahlrohrmöbel-Genealogie: Rietveld, Bauhaus/Breuer, Mies van der Rohe/
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/rietveld.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/breuer.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/bauhaus.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/mies.htm"]
-links: []
+links: ["organische-schichtholz-moderne-aalto-eames-jacobsen"]
 ---
 
 # Stahlrohrmöbel-Genealogie: Rietveld, Bauhaus/Breuer, Mies van der Rohe/Lilly Reich
@@ -121,8 +121,9 @@ relevant.
 
 - Quelle ist ein unautorisierter Website-Spiegel ohne Impressum/Autor — keine Verifikation gegen
   Primärliteratur (z. B. Bauhaus-Archiv Berlin, Knoll-Werksarchiv) in diesem Lauf.
-- Weitere Designer-Kurzbiografien im selben Ordner (u. a. Alvar Aalto, Josef Hoffmann, Charles
-  Eames, Charles Rennie Mackintosh, Le Corbusier als Möbeldesigner) ungelesen — Kandidaten für
-  einen Folgeartikel oder eine Ergänzung dieses Artikels.
+- Aalto und Eames inzwischen destilliert, siehe
+  [[organische-schichtholz-moderne-aalto-eames-jacobsen]]. Weitere Designer-Kurzbiografien im
+  selben Ordner (u. a. Josef Hoffmann, Charles Rennie Mackintosh, Le Corbusier als Möbeldesigner)
+  bleiben ungelesen — Kandidaten für einen Folgeartikel.
 - Mart Stams Stahlrohr-Priorität (laut `mies.htm` zeitlich vor Mies/Reich) nicht eigenständig
   destilliert, da keine eigene Datei zu Stam im gesichteten Bestand.

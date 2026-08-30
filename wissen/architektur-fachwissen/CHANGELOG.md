@@ -1,5 +1,48 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (103. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` gelesen —
+einziger real offener Posten war Zeile 68 (`08_Design`, 733 Dateien, Offline-Spiegel einer
+Design-Enzyklopädie-Website), vom 102. Lauf mit vier von 128 Fliesstext-Dateien begonnen.
+
+Duplikatscheck (`grep -rli` gegen alle sieben Namen in `wiki/*.md`) vor Beginn: keine echte
+Dublette, nur Streuverweise auf Aalto in bestehenden Architekturtheorie-Kanon-Listen. Sieben
+weitere Personenartikel vollständig gelesen: `alvar_aalto.htm`, `eames.htm`, `gray.htm`,
+`jacobsen.htm`, `josef_frank.htm`, `magistretti.htm`, `ponti.htm`. Vier neue Wiki-Artikel:
+
+- [[organische-schichtholz-moderne-aalto-eames-jacobsen]] — Aalto (Paimio-Stuhl 1929, Artek
+  1935, Savoy-Vase), Eames (Cranbrook, MoMA-Wettbewerb «Organic Design in Home Furnishings»
+  1940, Molded-Plywood/Glasfaser, Eames House 1949), Jacobsen (Ameisenstuhl 1951-52, Schwan/Ei
+  1958, St.-Catherine's-College Oxford). Die Quelle belegt selbst eine Materialgenealogie:
+  Aaltos Schichtholz als Gegenposition zum deutschen/niederländischen Stahlrohr, Eames'
+  Nachkriegstechnik direkt darauf aufbauend, Jacobsens «Ameisenstuhl» explizit als von Eames/
+  Herman Miller beeinflusst beschrieben, mit eigener skandinavischer Note.
+- [[eileen-gray-lackarbeiten-tubular-steel-e1027]] — von handwerklicher Lacktechnik (Ausbildung
+  bei Seizo Sugawara) über die Galerie Jean Desert (1922-1930) zu Stahlrohr/Funktionalismus
+  (Rietveld-Einfluss an einem 1923er Ausziehtisch explizit vermerkt) bis zur eigenen Architektur
+  (Haus E.1027 mit Jean Badovici, 1926-1929).
+- [[josef-frank-wien-schwedische-moderne-svenskt-tenn]] — Wiener Sozialwohnungsbau, Weissenhof-
+  Beitrag 1927 (von Mies eingeladen, bewusst komfortorientierte Gegenposition), Emigration 1934,
+  Svenskt Tenn mit Estrid Ericson, Golden-Gate-Expo 1939 als Ursprung des Begriffs «Swedish
+  Modern» in den USA.
+- [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]] — Ponti (Domus-Gründer 1928,
+  Pirelli-Turm 1955-58, Superleggera-Stuhl, Compasso d'Oro/Triennale-Organisator) und Magistretti
+  (RIMA 1946, Carimate-Stuhl/Cassina-Beziehung ab 1960, frühe Kunststoffmöbel Demetrio/Selene,
+  Leuchten Eclisse/Atollo) über die gemeinsame Institutionenlandschaft Triennale/Domus/Cassina
+  verbunden.
+
+Der bestehende Stahlrohrmöbel-Artikel (Rietveld/Breuer/Bauhaus/Mies-Reich) um Rückverlinkung
+ergänzt, da er Aalto/Eames zuvor als offenen Folgeartikel-Kandidaten notiert hatte. Damit elf von
+128 Fliesstext-Dateien der Zeile 68 gelesen. **Zeile 68 bleibt offen** — rund 90 weitere
+Personenartikel (u. a. Josef Hoffmann, Charles Rennie Mackintosh, Le Corbusier als Möbeldesigner,
+Sottsass) sowie ein `bilder`-Unterordner und `~$`/`.tmp`-Sicherungsdateien ungelesen. Kein
+Datenschutz-/Sperrlisten-Fund. `git diff --numstat` auf die Inventardatei zeigt reinen Append
+(`31 0`). `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile 68 fortsetzen, Kandidaten nach
+Dateigrösse (u. a. Hoffmann, Mackintosh), vor Destillation erneut Duplikatscheck gegen die vier
+neuen Artikel und die Encyclopedia-of-Interior-Design-Quelle in `01_Innenarchitektur`.
+
 ## 260830 — Zeile 74 Rest, Sektion `02_Kunst_Geschichte` (99. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
