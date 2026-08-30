@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 15:42:28
+Stand: 30.08.2026 15:52:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 15:42:28
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 99b895b89 Fachwissen: Sauter-Kapitel 01 Renaissance/Manierismus destilliert (Neun-Bauten-Kanon), Queue/Index/Changelog aktualisiert
+- a6ffd7332 Fachwissen: Sauter Revolutionsarchitektur (Kapitel 03), Buchfuehrung Vorlauf

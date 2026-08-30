@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 15:45:31
+Stand: 30.08.2026 15:55:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 15:29)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 15:45:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6e7d705c4 nas-selfcommit: 2 Datei(en) 2026-08-30 15:45
+- a6ffd7332 Fachwissen: Sauter Revolutionsarchitektur (Kapitel 03), Buchfuehrung Vorlauf
