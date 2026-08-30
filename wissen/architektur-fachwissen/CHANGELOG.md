@@ -7795,3 +7795,26 @@ Datenschutz/Sperrliste: kein Fund (veröffentlichtes Verfahrensdokument, Archite
 `22 0`, reiner Append. Sicherung via `bash scripts/nas-commit-now.sh`. Nächster Lauf:
 empfohlen den letzten Depot-Hard-Bericht (ZEPPELIN) lesen, sonst gemäss
 `KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.
+
+## 31.08.2026 — Sektion 02_Gestalt_Kulturverstaendnis, zwölfter Lauf, vierte und letzte Depot-Hard-Position (Lane FACHWISSEN)
+
+Vierte Depot-Hard-Jurybericht-Position gelesen: `02_Architekturdisskurs/04_Wettbewerbe/
+Zuerich/150115_Neubau_Depot_Hard/ZEPPELIN-Jurybericht.pdf` (Projekt Nr. 9 «Zeppelin»,
+Kaschka Knapkiewicz + Axel Fickert AG, 6. Rang/6. Preis, S. 100–101).
+
+**Kein neuer Artikel** — als vierte Gegenprobe in den bestehenden
+[[wettbewerbsjury-projektkritik-sandwich-struktur-kerez-depot-hard]] eingearbeitet. Zwei
+Befunde: Erstens ist die Rang↔Korrigierbarkeits-Formel-Schärfe-Korrelation nun über drei
+bekannte Ränge (1., 2., 6.) einer einzigen Verfahrensreihe monoton bestätigt — der
+niedrigste Rang trägt die schärfste Formel («nur schwer korrigierbar»). Zweitens weicht die
+Würdigung dieses Beitrags erstmals vom reinen «erst Lob, dann Kritik»-Muster ab: bereits im
+Würdigungsteil stehen vereinzelte Vorbehalte. Neuer Mängeltyp für die Praxisregel-Checkliste:
+Fluchtwegdistanz/Behindertengerechtigkeit bei einzelnen Zugängen einer Gebäudezeile.
+
+**Damit sind alle vier Depot-Hard-Berichte gelesen.** Von den rund 21 ursprünglich offenen
+Juryberichten/-programmen dieser Sektion bleiben rund 16. Datenschutz/Sperrliste: kein Fund
+(veröffentlichtes Verfahrensdokument, Architekt in öffentlicher Wettbewerbsfunktion).
+`git diff --numstat` auf die Inventardatei zeigt reinen Append. Sicherung via
+`bash scripts/nas-commit-now.sh`. Nächster Lauf: einen der übrigen rund 16
+Juryberichte/-programme dieser Sektion lesen, sonst gemäss `KORPUS-QUEUE.md` die nächste
+Sektion mit offenem P1.

@@ -2,7 +2,7 @@
 title: "Wettbewerbsjury-Projektkritik: Sandwich-Struktur am Beispiel Kerez, Depot Hard"
 status: emerging
 last_updated: 2026-08-31
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/MY_HOME_IS_MY_CASTLE-Jurybericht.pdf (Jurybericht Projektwettbewerb Neubau Depot Hard – Tramdepot und Wohnsiedlung, Zürich-West, Projekt Nr. 10 «MY HOME IS MY CASTLE», Christian Kerez Zürich AG, S. 156–167, veröffentlichtes Verfahrensdokument)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/LA_TERRAZZA-Jurybericht.pdf (dieselbe Verfahrensreihe, Projekt Nr. 3 «la terrazza», von Ballmoos Krucker Architekten, 2. Rang/2. Preis, S. 44–45, veröffentlichtes Verfahrensdokument)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/BERTA-Jurybericht.pdf (dieselbe Verfahrensreihe, Projekt Nr. 8 «BERTA», Morger + Dettli Architekten AG, 1. Rang/1. Preis, S. 30–31, veröffentlichtes Verfahrensdokument)"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/MY_HOME_IS_MY_CASTLE-Jurybericht.pdf (Jurybericht Projektwettbewerb Neubau Depot Hard – Tramdepot und Wohnsiedlung, Zürich-West, Projekt Nr. 10 «MY HOME IS MY CASTLE», Christian Kerez Zürich AG, S. 156–167, veröffentlichtes Verfahrensdokument)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/LA_TERRAZZA-Jurybericht.pdf (dieselbe Verfahrensreihe, Projekt Nr. 3 «la terrazza», von Ballmoos Krucker Architekten, 2. Rang/2. Preis, S. 44–45, veröffentlichtes Verfahrensdokument)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/BERTA-Jurybericht.pdf (dieselbe Verfahrensreihe, Projekt Nr. 8 «BERTA», Morger + Dettli Architekten AG, 1. Rang/1. Preis, S. 30–31, veröffentlichtes Verfahrensdokument)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/ZEPPELIN-Jurybericht.pdf (dieselbe Verfahrensreihe, Projekt Nr. 9 «Zeppelin», Kaschka Knapkiewicz + Axel Fickert AG, 6. Rang/6. Preis, S. 100–101, veröffentlichtes Verfahrensdokument)"]
 links: ["[[wettbewerbsjury-kapitelfolge-gestaltungsplan-zollstrasse-ost-sbb]]", "[[wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien]]"]
 ---
 
@@ -88,6 +88,33 @@ Diese Korrelation ist mit drei Faellen aus einer einzigen Verfahrensreihe ein er
 keine gesicherte Regel — echte Gegenprobe waere ein Vergleich ueber mehrere
 Verfahrensreihen/Herausgeberschaften.
 
+## Gegenprobe: «Zeppelin» (Projekt Nr. 9, 6. Rang/6. Preis)
+
+Der am schlechtesten platzierte der vier gelesenen Beiträge (Kaschka Knapkiewicz + Axel
+Fickert AG) zeigt dieselbe Grundfigur, aber mit zwei Abweichungen von den drei besser
+platzierten Fällen. Erstens ist die Würdigung nicht mehr rein: schon im ersten Teil
+stehen vereinzelte Vorbehalte zwischen den Lobpassagen («Zweifel an der etwas
+romantisierenden Bilderwelt» des Hofs; «Leider sind bei der südlichen Zeile bei einigen
+Zugängen die Fluchtwegdistanz und die geforderte Behindertengerechtigkeit nicht
+gewährleistet»), bevor der eigentliche Mängelteil (Treppenhaus-Situierung/feuerpolizeiliche
+Auflagen, in der Jury kontrovers diskutierte Aussenfassade ohne Kontextbezug, verpasste
+städtebauliche Verortung des Tramdepots entlang der Hardturmstrasse) folgt. Zweitens ist
+die Schweregrad-Formel im Fazit die schärfste aller vier gelesenen Fälle: die ökologischen
+Nachhaltigkeitswerte werden «klar nicht erreicht und sind nur schwer korrigierbar» — nicht
+mehr «korrigierbar» (Kerez, la terrazza) oder implizit über Lob aufgehoben (BERTA), sondern
+explizit als kaum korrigierbar eingeordnet.
+
+**Bestätigung der Rang-Korrelation:** über die drei Fälle mit bekanntem Rang steigt die
+Schärfe der Korrigierbarkeits-Formel mit fallendem Rang monoton — 1. Rang (BERTA): keine
+explizite Formel, Mängel durch Lob überlagert; 2. Rang (la terrazza): «im korrigierbaren
+Bereich»; 6. Rang (Zeppelin): «nur schwer korrigierbar». Damit ist die im BERTA-Abschnitt
+vorläufig markierte Beobachtung innerhalb dieser einen Verfahrensreihe deutlich gestützt,
+bleibt aber weiterhin auf eine einzige Verfahrensreihe/Herausgeberschaft begrenzt — keine
+gesicherte Regel ohne Vergleich über mehrere Verfahren. Neuer Mängeltyp für die Checkliste:
+**Fluchtwegdistanz und Behindertengerechtigkeit bei einzelnen Zugängen einer Gebäudezeile**
+(unterscheidet sich von der bereits belegten Anleiterbarkeits-Problematik offener
+Treppenhäuser).
+
 ## Praxisregel
 
 Für den Agenten `bericht-autor`: eine kritische, aber konstruktive Projektwürdigung
@@ -97,19 +124,21 @@ Schweregrads (korrigierbar vs. grundsätzlich). Für `programm-pruefer`: die hie
 Mängeltypen (Bestandsschutz-Anschluss, Tragwerkskomplexität, Erschliessungs-/Brandschutz-
 Bewilligungsfähigkeit — inkl. Anleiterbarkeit durch die Feuerwehr bei offenen
 Treppenhäusern —, Wohnungsgrundriss-Flächeneffizienz, einseitig orientierte
-Hofwohnungen, Betriebsenergie-Zielwert) sind eine geprüfte Checkliste wiederkehrender
-Kritikkategorien bei Wohnungsbau-Wettbewerben öffentlicher/halböffentlicher
-Bauherrschaften.
+Hofwohnungen, Fluchtwegdistanz/Behindertengerechtigkeit bei einzelnen Zugängen,
+Betriebsenergie-Zielwert) sind eine geprüfte Checkliste wiederkehrender Kritikkategorien
+bei Wohnungsbau-Wettbewerben öffentlicher/halböffentlicher Bauherrschaften.
 
 ## Offene Punkte
 
-- Drei von vier Depot-Hard-Beiträgen gelesen (Kerez, la terrazza, BERTA); ZEPPELIN
-  (selbe Quelle) ist die letzte, noch fehlende Gegenprobe dieser Verfahrensreihe.
+- Alle vier Depot-Hard-Beiträge dieser Verfahrensreihe sind gelesen (Kerez, la terrazza,
+  BERTA, Zeppelin). Die Rang-Korrelation der Korrigierbarkeits-Formel ist damit innerhalb
+  dieser einen Verfahrensreihe an drei von vier Rängen (1., 2., 6.) belegt.
 - Rangfolge des Kerez-Beitrags im Verfahren ist aus dem gelesenen Auszug (S. 156–167)
   nicht ersichtlich (keine Rangliste im ausgewerteten Seitenbereich); nicht erfinden. Für
-  «la terrazza» (2. Rang/2. Preis, S. 44) und «BERTA» (1. Rang/1. Preis, S. 30) ist der
-  Rang dagegen explizit belegt.
-- Die im BERTA-Abschnitt vermutete Korrelation Rang↔Maengelteil-Schaerfe stuetzt sich nur
-  auf diese eine Verfahrensreihe; ob ZEPPELIN (Rang unbekannt) dazu passt, ist die
-  naechstliegende Probe, eine belastbare Aussage braucht aber mehrere unabhaengige
-  Verfahren.
+  «la terrazza» (2. Rang/2. Preis, S. 44), «BERTA» (1. Rang/1. Preis, S. 30) und
+  «Zeppelin» (6. Rang/6. Preis, S. 100) ist der Rang dagegen explizit belegt.
+- Die Rang↔Mängelteil-Schärfe-Korrelation stützt sich weiterhin nur auf diese eine
+  Verfahrensreihe/Herausgeberschaft. Eine belastbare, verfahrensübergreifende Aussage
+  braucht eine Gegenprobe an mindestens einer weiteren, unabhängigen Verfahrensreihe
+  dieser Sektion (z. B. Zollstrasse Ost, Europaallee B/G/H, Hornbach, Schauenberg,
+  Schönauring, Koch-Areal).

@@ -656,3 +656,22 @@ in öffentlicher Wettbewerbsfunktion). `git diff --numstat` nach dem Schreiben g
 reiner Append. Sicherung via `bash scripts/nas-commit-now.sh`. **Nächster Lauf:**
 ZEPPELIN-Jurybericht lesen (letzte Depot-Hard-Position), sonst gemäss `KORPUS-QUEUE.md`
 die nächste Sektion mit offenem P1.
+
+## Destillat-Fortschritt, zwölfter Lauf (P1, 31.08.2026, Lane FACHWISSEN)
+
+Vierte und letzte Depot-Hard-Position gelesen: `02_Architekturdisskurs/04_Wettbewerbe/
+Zuerich/150115_Neubau_Depot_Hard/ZEPPELIN-Jurybericht.pdf` (Projekt Nr. 9 «Zeppelin»,
+Kaschka Knapkiewicz + Axel Fickert AG, 6. Rang/6. Preis, S. 100–101). **Kein neuer
+Artikel** — als vierte Gegenprobe in den bestehenden
+[[wettbewerbsjury-projektkritik-sandwich-struktur-kerez-depot-hard]] eingearbeitet: die
+Rang↔Korrigierbarkeits-Formel-Schärfe-Korrelation bestätigt sich (6. Rang: «nur schwer
+korrigierbar», die schärfste Formel aller vier gelesenen Fälle), neuer Mängeltyp
+Fluchtwegdistanz/Behindertengerechtigkeit bei einzelnen Zugängen ergänzt die Checkliste.
+
+**Damit sind alle vier Depot-Hard-Berichte gelesen.** Von den rund 21 ursprünglich offenen
+Juryberichten/-programmen dieser Sektion bleiben rund 16. Datenschutz/Sperrliste: kein
+Fund (veröffentlichtes Verfahrensdokument, Architekt in öffentlicher Wettbewerbsfunktion).
+`git diff --numstat` nach dem Schreiben geprüft: reiner Append. Sicherung via
+`bash scripts/nas-commit-now.sh`. **Nächster Lauf:** einen der übrigen rund 16
+Juryberichte/-programme dieser Sektion lesen, sonst gemäss `KORPUS-QUEUE.md` die nächste
+Sektion mit offenem P1.
