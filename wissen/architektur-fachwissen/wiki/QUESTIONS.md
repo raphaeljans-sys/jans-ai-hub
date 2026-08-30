@@ -851,3 +851,16 @@ Honorargrundprozentsatz-Kurve (subventionierte Bauten) sind jetzt in
 [[kbob-2002-gleitpreisklausel-teuerungsabrechnung-honorargrundprozentsatz]] destilliert; die
 Zeittarif-Kategorien-A-G-Mechanik des Dokuments wurde bewusst **nicht** erneut destilliert
 (Duplikat zur 2009er-Fassung in [[zeittarif-mechanik-tarifblatt-stgallen-2009]]).
+
+## 260830 — Architektenportraits, Sektion `02_Architekturgeschichte` (92. Lauf Lane FACHWISSEN)
+
+**#72 Gottfried Sempers Studienort: München oder Göttingen/Paris?**
+[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]] nennt
+für Sempers Ausbildung «Studium in München»; die Portraitdatei `32_semper.pdf` nennt
+durchgehend und konsistent Göttingen (Mathematik/Geschichte ab 1823) und danach die private
+Architekturschule Franz Christian Gaus in Paris (ab 1825) — München wird dort an keiner
+Stelle erwähnt. Beide Quellen sind Vorlesungs-/Kompilationsmaterial ohne Fussnotenapparat,
+keine gilt hier als vorrangig richtig; dokumentiert in
+[[gottfried-semper-biografie-lebensstationen-hamburg-dresdner-barrikaden-zuerich-wien]]. Wer
+beantworten kann: Abgleich gegen eine Semper-Fachbiografie (z. B. Fröhlich, «Gottfried
+Semper») oder Raphael, falls eine solche im Bestand vorhanden ist.

@@ -5673,3 +5673,60 @@ Append (`51 0`).
 **Nächster Lauf:** `Fragen.doc`-Rest gegenprüfen (laut 84. Lauf bereits vollständig
 erledigt — vermutlich nur redaktionell in der Queue-Zelle hängen geblieben), danach die
 rund 20 verbleibenden offenen Einzelportraits nach demselben Duplikatscheck-Kriterium.
+
+## 260830 — Architektenportraits, Sektion `02_Architekturgeschichte` (92. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, diese Sektions-Inventardatei
+vollständig gelesen, `git status`/`git log` vor Beginn sauber, Top-Commit `e1d040fc8`). Der
+mitgelieferte Dispatch-Text nannte 13 Kandidatennamen; fünf davon (Raffael, Michelangelo,
+Alberti, Bramante, Brunelleschi) erwiesen sich als bereits im 85. Lauf destilliert — Dispatch
+war insofern veraltet.
+
+Von den restlichen acht Namen (alle acht in den Läufen 83/85 per Namens-Grep pauschal als
+«bereits behandelt» abgehakt, aber nie tatsächlich gelesen) wurden alle acht Portraitdateien
+in diesem Lauf vollständig gelesen und neu geprüft:
+
+- **Charles Garnier** (`34_garnier.pdf`): Namensverwechslung aufgedeckt — die bestehende
+  KB-Abdeckung unter «Garnier» betrifft den Sohn Tony Garnier (Cité Industrielle), nicht den
+  Vater Charles Garnier (Pariser Oper, Style Napoléon III). Neuer Artikel
+  [[charles-garnier-pariser-oper-style-napoleon-iii-abgrenzung-sohn-tony-garnier]].
+- **Karl Friedrich Schinkel** (`27_schinkel.pdf`, 6 S.): trotz bestehender Kanon-Zeile
+  substanzieller Mehrwert (Bauakademie-Institutionsgeschichte, Altes-Museum-Konstruktion,
+  Lustgarten-Palimpsest-Essay Buddensieg, Klenze-Schinkel-Verhältnis). Neuer Artikel
+  [[schinkel-bauakademie-institutionsgeschichte-altes-museum-konstruktion-lustgarten-palimpsest]].
+- **Gottfried Semper** (`32_semper.pdf`, 2 S.): trotz zahlreicher Theorie-Artikel fehlte ein
+  Biografie-Artikel. Lebensstationen Hamburg → Göttingen/Paris → Dresden → 1849
+  Barrikadenkämpfe mit Wagner → Londoner Exil/Kristallpalast → Zürich ETH → Wien
+  Ringstrasse → Tod Rom 1879. Bestätigt den bekannten Datierungsfehler im Dateititel
+  (1687-1753, korrekt Neumanns Daten). Neuer Quellenwiderspruch dokumentiert (Studienort
+  München vs. Göttingen/Paris, `wiki/QUESTIONS.md` #72). Neuer Artikel
+  [[gottfried-semper-biografie-lebensstationen-hamburg-dresdner-barrikaden-zuerich-wien]].
+- **Ruskin/Morris/Webb** (`36_ruskin.pdf`, `37_morris.pdf`, `38_webb.pdf`): konkrete
+  Kriterienlisten (Seven Lamps/Stones of Venice), Webbs Werkregister, Morris' Firmen-/
+  Vereinsgeschichte — ergänzen, nicht duplizieren, die bestehende, auf einer fehlerhaften
+  Live-Mitschrift beruhende Genealogie. Als neuer Abschnitt «Vertiefung (92. Lauf)» in
+  [[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] eingearbeitet (Status
+  des Basisartikels bleibt `speculative`).
+- **Wright** (`39_wright.pdf`) und **Sullivan** (`42_sullivan.pdf`): vollständig gelesen,
+  bestätigtes echtes Duplikat ohne neuen Fakt — Home and Studio/Robie House
+  (Wright) sowie Auditorium/Wainwright Building (Sullivan) bereits vollständig in
+  [[richardson-chicago-school-wright-vom-rundbogenstil-zur-stahlskelettbauweise-organischen-architektur]]
+  destilliert, das «form ever follows function»-Zitat bereits in
+  [[form-follows-function-genealogie-sokrates-vitruv-alberti-greenough-sullivan]] belegt.
+  Bewusst **nicht** erneut destilliert (Delta-Ehrlichkeit).
+
+Fehlerhafte Einstufung «bei 34-42 bereits substanziell behandelt» im 83. Lauf in
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]]
+korrigiert, mit Lehre für Folgeläufe: Namens-Grep allein erkennt keine Vater/Sohn-
+Verwechslungen, die Datei muss zumindest kurz gelesen werden. Sperrlisten-Prüfung: kein
+Fund, ausschliesslich historische, öffentlich bekannte Personen. `git diff --numstat` auf
+die Sektions-Inventardatei zeigt einen reinen Append (`74 0`).
+
+**Damit sind alle 13 vom Dispatch-Text genannten Kandidaten geklärt.** Von den ursprünglich
+38 Portraitdateien bleiben elf offen: drei Nicht-Portrait-Positionen (bereits im 91. Lauf
+abgearbeitet), Vignola/Palladio (laut 83. Lauf bereits behandelt, aber noch nicht mit
+demselben «tatsächlich lesen»-Standard gegengeprüft wie in diesem Lauf), Ledoux (bewusst
+zurückgestellt). **Nächster Lauf:** `Fragen.doc`-Rest gegenprüfen (laut 84. Lauf bereits
+erledigt), danach Vignola/Palladio nach dem in diesem Lauf etablierten Standard
+gegenprüfen; ist der Architektenportrait-Ordner abgeschlossen, laut Lauf-Historie als
+nächste P2-Kandidatensektion `02_Kunst_Geschichte` prüfen.
