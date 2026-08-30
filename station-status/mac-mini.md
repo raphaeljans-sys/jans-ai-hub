@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 08:32:05
+Stand: 30.08.2026 08:42:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 08:30)
+- /Users/raphaeljans  (letzte Aktivitaet 08:42)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 08:32:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a39f09e07 nas-selfcommit: 2 Datei(en) 2026-08-30 08:30
+- cb6bc576a Spec: Befund B6 kein kanonischer Arbeitsbaum; Pendenz angehalten bis Divergenz geloest
