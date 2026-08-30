@@ -1404,3 +1404,28 @@ Bestandslücke, keine Fehlextraktion. Von den acht P2-Positionen der Sektion sin
 Platz-Materialbestand) bleiben offen, Position 3 bleibt für die vier Bildscans offen.
 **Nächster Lauf:** Read-Tool direkt auf Stübben/Krier/Curdes/Nolli probieren, sonst Position
 4 (33 Autorendossiers) beginnen. Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 3 fortgesetzt (Lane FACHWISSEN,
+achter P2-Lauf dieser Sektion, direkt im Anschluss)
+
+Read-Tool trotz negativer `pypdf`-Probe auf Stübben/Krier/Curdes/Nolli probiert:
+`Stuebben.pdf` (5,2 MB) und `Curdes.pdf` (11,2 MB) vollständig lesbar, `Krier.pdf` (21,6 MB)
+scheitert an einer harten 20-MB-Obergrenze des Tools, `Nolli.pdf` (51,6 MB) danach nicht
+mehr getestet. **Neuer Befund:** die Read-Tool-Fähigkeit ist nicht auf Dateien unter rund
+2,5 MB beschränkt (wie im 50. Beispiel vermutet), sondern funktioniert bis mindestens
+11,2 MB — die reale Grenze ist ein hartes 20-MB-Dateigrössenlimit. Aus `Stuebben.pdf`
+(Josef Stübben, «Der Städtebau», Handbuch der Architektur 1907, Abschnitt 2 Kap. 6-7)
+neuer Artikel [[stuebben-staedtebau-platzarten-systematik-oeffentliche-plaetze]]
+(Vier-Typen-Systematik Verkehrs-/Nutz-/Garten-/Architekturplätze, Maertens'sche
+Sehwinkel-Theorie zur Platzdimensionierung als quantifizierte Ergänzung zu Sitte,
+Grössenvergleichstabelle, Platzgruppen, Nivellement). Aus `Curdes.pdf` (Gerhard Curdes,
+«Stadtstruktur und Stadtgestaltung», Kapitel 15 «Plätze», moderner Lehrbuchtext) neuer
+Artikel [[curdes-plaetze-funktionstypologie-entwurfsanforderungen-krier-formtypologie]]
+(Epochentypologie der Platzrolle, Acht-Punkte-Anforderungskatalog, funktionsabhängige
+Proportionsregeln, klimatische Cafés-Platzierungsregel, Rob Kriers Formtypologie 1975 in
+Sekundärdarstellung, da `Krier.pdf` selbst wegen Dateigrösse nicht zugänglich ist). Von den
+acht P2-Positionen der Sektion sind jetzt 1, 2, 8, 13, 14 vollständig sowie 3 zu zwei
+Fünfteln (Sitte, Stübben, Curdes) erledigt; Position 3 bleibt nur für Krier/Nolli offen
+(beide über 20 MB, dauerhaft blockiert). Positionen 4-7 bleiben vollständig offen.
+**Nächster Lauf:** Position 4 (33 Autorendossiers) beginnen. Keine der harten Sperren
+berührt.

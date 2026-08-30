@@ -4,6 +4,21 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, neunzehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git status --short`, `git diff --numstat` und `wiki/QUESTIONS.md`
+geprueft: Arbeitsbaum fuer diese KB sauber, `git log -3` zeigt seither nur NAS-Auto-Sync-
+Commits ohne inhaltliche Aenderung an dieser KB. Alle vier Auftragspositionen (Fehlextrak-
+tionen, vier Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 1-6) unveraendert
+BEHOBEN bzw. vollstaendig recherchiert seit dem ersten Lauf am 29.08.2026. Die verbleibenden
+zwei Punkte (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319) sind Rueckfragen zu
+JANS-internem Wissen (wer diese Personen im Buero-Kontext sind), nicht per Websuche loesbar
+— reine Freigabesache. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert. Neunzehnter
+Redispatch desselben Auftrags an einem Tag. Empfehlung an Raphael unveraendert und verstaerkt:
+Lane SYNOBSIS pausieren, bis neuer Auftrag/Quellmaterial vorliegt oder die zwei Rueckfragen
+beantwortet sind — jeder weitere Redispatch mit identischem Auftragstext bindet Budget ohne
+Ertrag.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, achtzehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
 
 Vor jeder Recherche gegen `git status --short`, `git diff --numstat` und `wiki/QUESTIONS.md`

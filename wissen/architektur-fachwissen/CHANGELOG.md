@@ -1,5 +1,46 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, achter P2-Lauf (Position 3 fortgesetzt, Lane FACHWISSEN)
+
+Direkt im Anschluss an den siebten Lauf: Read-Tool-Direktversuch auf die vier nach der
+`pypdf`-Probe als reine Bildscans eingestuften Grundlagenwerke (Stübben, Krier, Curdes,
+Nolli), analog dem 50. Beispiel Memory `project_fachwissen-dispatch-loop` (Read-Tool hat
+eine eigene, von System-`poppler` unabhängige PDF-Rendering-Pipeline). **Ergebnis:**
+`Stuebben.pdf` (5,2 MB) und `Curdes.pdf` (11,2 MB) liessen sich vollständig lesen,
+`Krier.pdf` (21,6 MB) scheiterte an einer harten 20-MB-Obergrenze des Tools
+("PDF file exceeds maximum allowed size"), `Nolli.pdf` (51,6 MB) wurde danach nicht mehr
+getestet (vermutlich derselbe Fehler). **Neuer, übertragbarer Befund:** die
+Read-Tool-Fähigkeit ist nicht wie im 50. Beispiel vermutet auf Dateien unter rund 2,5 MB
+beschränkt, sondern funktioniert nachweislich bis mindestens 11,2 MB; die tatsächliche
+Grenze ist ein hartes 20-MB-Limit der Gesamtdateigrösse.
+
+Aus `Stuebben.pdf` (Abschnitt 2, Kapitel 6-7, S. 147-225) destilliert → neuer Artikel
+[[stuebben-staedtebau-platzarten-systematik-oeffentliche-plaetze]]: Vier-Typen-Systematik
+öffentlicher Plätze (Verkehrs-/Nutz-/Garten-/Architekturplätze, letztere in fünf
+Untertypen), die Maertens'sche Sehwinkel-Theorie (Augenaufschlagwinkel 45°/27°/18° bei
+1×/2×/3× Gebäudehöhe Abstand) als quantifizierte Ergänzung zu Sittes empirischer
+Platzgrössen-Regel, eine Grössenvergleichstabelle bekannter Stadtplätze, Platzgruppen und
+Nivellement-Regeln. Stübben zitiert Sitte mehrfach explizit als Quelle und Diskussionspartner.
+
+Aus `Curdes.pdf` (vollständiges Kapitel 15 «Plätze», S. 129-143, moderner Lehrbuchtext)
+destilliert → neuer Artikel
+[[curdes-plaetze-funktionstypologie-entwurfsanforderungen-krier-formtypologie]]:
+Epochentypologie der Platzrolle (Mittelalter/Absolutismus/19. Jh./Auflösung im 20. Jh.),
+ein Acht-Punkte-Anforderungskatalog für zentrale Plätze, funktionsabhängige
+Proportionsregeln (1:1-1,5 intim / 1:3-4 mittel / 1:5-8 Grossveranstaltung), eine
+klimatisch begründete Cafés-an-Nord-/Ostseite-Regel, sowie Rob Kriers Formtypologie 1975
+in Sekundärdarstellung (Original `Krier.pdf` wegen Dateigrösse nicht direkt zugänglich).
+Curdes reproduziert selbst sechs Sitte-Abbildungen und positioniert sich explizit
+zwischen Sitte und Krier.
+
+`git diff --numstat` auf die Inventardatei (beide Teilläufe des Tages zusammen) zeigt
+reinen Append (`44 0`). Von den acht P2-Positionen dieser Sektion sind jetzt 1, 2, 8, 13,
+14 vollständig sowie 3 zu zwei Fünfteln (Sitte, Stübben, Curdes) erledigt; Position 3
+bleibt nur noch für Krier und Nolli offen (beide über 20 MB, dauerhaft blockiert ohne
+Komprimierung ausserhalb dieser KB). Positionen 4-7 (33 Autorendossiers,
+Platz-Materialbestand) bleiben vollständig offen. `wiki/INDEX.md` nachgeführt. Nächster
+Lauf: Position 4 (33 Autorendossiers) beginnen. Keine der harten Sperren berührt.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, siebter P2-Lauf (Position 3 teilweise, Lane FACHWISSEN, 58. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
 
 Textlayer-Probe per `pypdf` über alle fünf Grundlagenwerke der Manualistik

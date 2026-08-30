@@ -479,3 +479,47 @@ erledigt; Positionen 4-7 (33 Autorendossiers, Platz-Materialbestand) bleiben vol
 offen, Position 3 bleibt für die vier Bildscans offen. **Nächster Lauf:** Read-Tool direkt
 auf Stübben/Krier/Curdes/Nolli probieren (Dateigrössen 5-52 MB, ggf. nur einzelne Seiten
 ohne Seitenbereichs-Parameter versuchen), sonst Position 4 (33 Autorendossiers) beginnen.
+
+**30.08.2026 (Lane FACHWISSEN, achter P2-Lauf, Position 3 fortgesetzt — Read-Tool-Direktversuch
+auf die vier verbleibenden Bildscans):** direkt im Anschluss an den siebten Lauf ausprobiert,
+ob das Read-Tool trotz negativer `pypdf`-Textlayer-Probe (0 Zeichen) diese Scans dennoch
+lesen kann (eigene Rendering-Pipeline, analog 50. Beispiel Memory
+`project_fachwissen-dispatch-loop`). **Bestätigt für zwei der vier Dateien:**
+- `Stuebben.pdf` (5,2 MB) vollständig gelesen — Josef Stübben, «Der Städtebau» (Handbuch
+  der Architektur IV.9, 2. Aufl. 1907), Abschnitt 2 Kapitel 6-7 (S. 147-225) destilliert →
+  neuer Artikel
+  [[stuebben-staedtebau-platzarten-systematik-oeffentliche-plaetze]] (Vier-Typen-Systematik
+  Verkehrs-/Nutz-/Garten-/Architekturplätze mit fünf Architekturplatz-Untertypen,
+  Maertens'sche Sehwinkel-Theorie zur Platzdimensionierung, Grössenvergleichstabelle,
+  Platzgruppen, Nivellement). Zitiert Sitte explizit mehrfach als Quelle.
+- `Curdes.pdf` (11,2 MB) vollständig gelesen — Gerhard Curdes, «Stadtstruktur und
+  Stadtgestaltung» (2. Aufl., Kohlhammer), vollständiges Kapitel 15 «Plätze» (S. 129-143,
+  moderner Lehrbuchtext) destilliert → neuer Artikel
+  [[curdes-plaetze-funktionstypologie-entwurfsanforderungen-krier-formtypologie]]
+  (Epochentypologie Mittelalter/Absolutismus/19. Jh./Auflösung, Acht-Punkte-
+  Anforderungskatalog, Proportionsregeln 1:1-1,5/1:3-4/1:5-8 nach Funktion, sowie Rob
+  Kriers Formtypologie 1975 in Sekundärdarstellung mit reproduzierten Diagrammen — das
+  Original `Krier.pdf` bleibt wegen Dateigrösse ungelesen). Curdes reproduziert selbst
+  sechs Sitte-Abbildungen (1983er Reprint) und positioniert sich explizit gegenüber Sitte
+  und Krier ("Sitte war vor hundert Jahren weiter, weil er die formalen Qualitäten
+  mittelalterlicher Platzräume komplexer als Krier behandelte", S. 139).
+- **Nicht lesbar:** `Krier.pdf` (21,6 MB) — überschreitet die Read-Tool-Obergrenze von
+  20 MB, Fehlermeldung "PDF file exceeds maximum allowed size". `Nolli.pdf` (51,6 MB) in
+  diesem Lauf nicht mehr getestet (ebenfalls über der Grenze, vermutlich derselbe Fehler).
+
+**Neuer, übertragbarer Befund für diese und andere Lanes:** die im 50. Beispiel dokumentierte
+Read-Tool-Fähigkeit (eigene PDF-Rendering-Pipeline unabhängig von System-`poppler`) ist
+**nicht auf kleine Dateien unter 2,5 MB beschränkt**, wie dort vermutet — funktioniert hier
+nachweislich bis mindestens 11,2 MB. Die tatsächliche Grenze ist ein hartes **20-MB-Limit**
+der Gesamtdateigrösse (nicht Seitenzahl oder Bildanteil), unabhängig vom
+Seitenbereichs-Parameter. Vor jeder Einstufung einer bildbasierten PDF als „blockiert ohne
+OCR" lohnt sich also ein direkter Read-Tool-Versuch bis 20 MB Dateigrösse, bevor die Position
+zurückgestellt wird.
+
+Von den acht P2-Positionen dieser Sektion sind jetzt 1, 2, 8, 13, 14 vollständig sowie 3 zu
+zwei Fünfteln (Sitte, Stübben, Curdes von fünf Quellwerken) erledigt; Positionen 4-7 (33
+Autorendossiers, Platz-Materialbestand) bleiben vollständig offen. Position 3 bleibt nur noch
+für Krier und Nolli offen (beide über 20 MB, dauerhaft blockiert ohne Komprimierung oder
+Seitenextraktion ausserhalb dieser KB). `git diff --numstat` auf diese Inventardatei (beide
+Teilläufe zusammen) zeigt reinen Append. **Nächster Lauf:** Position 4 (33 Autorendossiers)
+beginnen, da Position 3 mit vertretbarem Aufwand nicht weiter voranzubringen ist.
