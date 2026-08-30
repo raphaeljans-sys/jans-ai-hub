@@ -383,3 +383,16 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   Ordner nicht. Damit ist `120215_Shinohara_Kazuo` vollständig bearbeitet. Offen: 12 der 23
   Vorlesungsordner (rund 173 der 190 Dateien). Nächster Lauf: `120224_Raum_oeffnen_Lefebvre`
   (erste nicht mehr `VL`-nummerierte Sektion nach Shinohara).
+- **30.08.2026 (13. P2-Lauf, dreiundzwanzigstes Beispiel Memory
+  `project_fachwissen-dispatch-loop`):** `120224_Raum_oeffnen_Lefebvre` bearbeitet (1.
+  Vorlesung Architekturtheorie II, 24.02.2012). Zusammenfassung, Syllabus und rohe
+  Live-Mitschrift gelesen, gegen bestehende Wiki-Artikel geprüft (kein Duplikat, nur
+  begriffliche Nachbarschaft zu `koolhaas-bigness-zwoelf-thesen-generic-city-junkspace`).
+  Ein Artikel destilliert:
+  `wiki/lefebvre-raumtrias-produktion-des-sozialen-raums-budapest-platzvergleich.md`
+  (`status: speculative`, Lefebvres Raumtrias percu/concu/vécu plus Budapest-Vier-Plätze-
+  Analysemethode, davon nur der erste Platz — Oktogon/Sitte — inhaltlich belegt, die drei
+  übrigen nur als Syllabus-Stichwort). Folien-PDF ist passwortgeschützt, nicht ausgewertet;
+  Tonmitschnitt nicht ausgewertet. Damit ist `120224_Raum_oeffnen_Lefebvre` für die
+  gesichteten Textquellen abgeschlossen. Offen: 11 der 23 Vorlesungsordner (rund 168 der 190
+  Dateien). Nächster Lauf: nächste noch nicht gesichtete Vorlesung nach Ordnernummer.

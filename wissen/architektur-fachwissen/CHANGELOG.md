@@ -1,5 +1,37 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, dreizehnter P2-Lauf, `120224_Raum_oeffnen_Lefebvre` (Lane FACHWISSEN, 26. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»), Station
+fälschlich «MacBook Pro» (real Macmini laut `scutil`). Vor Arbeitsbeginn `ps aux` geprüft:
+keine zweite FACHWISSEN-Instanz (nur unabhängige Lane SYNOBSIS parallel, PID 84369, anderer
+KB), zwei `vollgas-schub.sh fachwissen`-Wrapper sichtbar (PID 55122/84253), aber nur ein
+laufender `claude -p`-Prozess — kein bestätigter Doppel-Dispatch. `git status` zeigte
+unkommittierte, inhaltlich fertige Buchführung aus dem unmittelbar vorangegangenen Lauf
+(Shinohara-Artikel plus Registerpflege) — zuerst per `nas-commit-now.sh` gesichert (bekannter
+NAS-Merge-Konflikt in fünf fremden KBs, Working Tree lokal sauber geblieben, dem 15-Min-Cron
+überlassen).
+
+Danach `120224_Raum_oeffnen_Lefebvre` (Sektion `02_Architekturtheorie`, 1. Vorlesung
+Architekturtheorie II, 24.02.2012) bearbeitet: Zusammenfassung (`120730_Raum_oeffnen.docx`),
+Syllabus (`10_SYL_Ath2_2012_1Einfg.pdf`) und rohe Live-Mitschrift
+(`120223_Einfuerung_Architekturtheorie.docx`) gelesen. Ein Artikel destilliert:
+`wiki/lefebvre-raumtrias-produktion-des-sozialen-raums-budapest-platzvergleich.md`
+(`status: speculative`) — Lefebvres Raumtrias (wahrgenommener/konzipierter/gelebter Raum)
+plus die im Syllabus angelegte Vier-Budapester-Plätze-Analysemethode (je ein Platz einer
+raumtheoretischen Position zugeordnet: Oktogon/Sitte, Károly-Kós-Platz/Foucault,
+Köztársaság-Platz/Moholy-Nagy-Molnár, Nyugati-Platz/Augé). Nur der erste Platz ist durch die
+Live-Mitschrift inhaltlich belegt, die drei übrigen bleiben Syllabus-Stichwort ohne
+Destillat. Gegen bestehende Wiki-Artikel geprüft: kein Duplikat, nur begriffliche
+Nachbarschaft zum «Junk-Space»-Stichwort in
+`wiki/koolhaas-bigness-zwoelf-thesen-generic-city-junkspace.md` (dort bereits eigenständig
+destilliert, hier nur verlinkt). Folien-PDF (`Praes-Ath2-2012-1Einfg.pdf`) ist
+passwortgeschützt und wurde nicht ausgewertet; Tonmitschnitt (`.m4a`) nicht ausgewertet.
+
+`wiki/INDEX.md` und `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` nachgeführt.
+Offen: 11 der 23 Vorlesungsordner (rund 168 der 190 Dateien) in dieser Sektion. Nächster
+Lauf: nächste noch nicht gesichtete Vorlesung nach Ordnernummer.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, zwölfter P2-Lauf, `120215_Shinohara_Kazuo` (Lane FACHWISSEN, 25. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel» behauptet,
