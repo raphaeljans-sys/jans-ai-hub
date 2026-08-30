@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 21:42:30
+Stand: 30.08.2026 21:52:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 21:42:30
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bc36e4c58 Lane FACHWISSEN 116. Lauf: drei Design-Portraits (Graves, Kuramata, Guimard)
+- 730a45785 Wissens-Destillat: Zeile 68 (08_Design) fortgesetzt, zwei neue Artikel (Paris 1900/Jugendstil, Elsie de Wolfe), P1-Vollstaendigkeitscheck beider Korpora bestaetigt
