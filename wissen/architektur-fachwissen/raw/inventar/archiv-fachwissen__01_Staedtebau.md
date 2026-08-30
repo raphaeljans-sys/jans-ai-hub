@@ -2572,3 +2572,42 @@ Colonna/Hypnerotomachia (247) — 9 Positionen. **Nächster Lauf:** Plinius d. J
 Erdbeben-Bericht laut Positionsliste bereits als Cross-Ref bei Seneca/Erdbeben-Pompeji
 denkbar) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der
 Reihe nach.
+
+## Zweiundfünfzigster P2-Lauf, Plinius d. J. destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt: Vorlauf hatte einen fertigen, aber unkommitteten
+Tacitus-Lauf hinterlassen (neuer Wiki-Artikel, Inventar-/INDEX-/CHANGELOG-Nachträge, reiner
+Append laut `git diff --numstat`) — zuerst per `bash scripts/nas-commit-now.sh` gesichert
+(erneuter NAS-Merge-Konflikt in sechs fremden KBs beim Push, lokaler Commit gelang,
+`96232b648`, dem 15-Min-Cron zur Push-Aufloesung ueberlassen).
+
+Danach die vom 51. Lauf empfohlene Priorität (Plinius d. J., S. 137 der Namensliste)
+bearbeitet, per `/opt/homebrew/bin/pdftoppm -r 150` gerendert (PDF-Seite = gedruckte Seite +
+4, bestätigt anhand des Tacitus-Endes auf PDF-Seite 137/gedruckt 133; S. 137-139 vollständig
+gelesen, S. 140 leere Trennseite vor „Strabo" bestätigt Positionsende):
+
+- **Plinius d. J., Briefe Buch VI, 20 (Brief an Cornelius Tacitus)** (S. 137-139) → neuer
+  Artikel
+  [[plinius-der-juengere-erdbeben-misenum-vesuvausbruch-79-nchr]]: Augenzeugenbericht des
+  17-jährigen Plinius aus Misenum während des Vesuvausbruchs 79 n. Chr. (Tod des Oheims
+  Plinius d. Ä., dessen Sterbebericht selbst nicht in diesem Auszug enthalten ist).
+  Vorbeben mehrere Tage zuvor als ortsüblich unterschätzt; Eskalationsstufen der Evakuierung
+  (Innenhof → beengter Platz trotz Gebäudeabstand → vollständiges Verlassen der Stadt),
+  ausgelöst durch sichtbaren Gebäudeschaden in der Nachbarschaft; auf freiem Feld
+  wandernde, mit Steinen nicht zu fixierende Wagen als Beleg der Bodenbewegungsstärke;
+  Meeresrückzug; Eruptionswolke; künstliche Vollverdunkelung trotz Tageszeit;
+  wiederholtes Abschütteln der Asche gegen Erdrückungsgefahr; abschliessende
+  Ascheschneelast-Analogie («hoch mit Asche, wie mit Schnee, bedeckt») ohne Kennwert.
+- Gegen Wiki-Bestand geprüft (`grep -rli` vesuv/pompeji/erdbeben/misenum über `wiki/*.md`):
+  Treffer [[seneca-erdbeben-pompeji-62-nchr-naturwissenschaftliche-untersuchungen]] (selbe
+  Region, Erdbeben 62 n. Chr., andere Quelle/Perspektive, kein Duplikat) und der bestehende
+  Plinius-der-Ältere-Artikel (anderer Werkausschnitt, Tod des Oheims dort nicht
+  Gegenstand). Verlinkt mit beiden sowie mit
+  [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (Abgrenzung: dort
+  Bauordnungstext, hier reine Verhaltens-/Erlebnisquelle ohne Normcharakter).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste
+bleibt nach Plinius d. J. offen: Strabo (141), Juvenal (145), Sueton (149), Pausanias
+(151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247) — 8 Positionen. **Nächster Lauf:** Strabo (141) als nächster
+im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.

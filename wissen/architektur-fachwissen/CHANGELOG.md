@@ -4029,3 +4029,46 @@ nach Tacitus offen: Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (14
 Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
 Colonna/Hypnerotomachia (247) — 9 Positionen. **Nächster Lauf:** Plinius d. J. (137) als
 nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — 52. P2-Lauf Sektion `01_Staedtebau`: Plinius d. J. destilliert (Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt: der 51. Lauf (Tacitus) hatte einen fertigen, aber
+unkommitteten Stand hinterlassen (neuer Wiki-Artikel, Inventar-/INDEX-/CHANGELOG-Nachträge,
+`git diff --numstat` zeigte reinen Append über alle vier Dateien). Zuerst per
+`bash scripts/nas-commit-now.sh "Fachwissen: Tacitus Agricola/Germania/Annalen (Lampugnani
+S.131-136) destilliert"` gesichert — erneuter NAS-Merge-Konflikt beim Push in sechs fremden
+KBs (`wissen/normen`, `wissen/architekten-synobsis`, `wissen/baurecht`, `wissen/grobkosten`,
+zwei weitere Inventar-/CHANGELOG-Dateien dieser KB), lokaler Commit gelang dennoch
+(`96232b648`), Push-Auflösung dem 15-Min-Cron überlassen (working tree danach lokal sauber).
+
+Danach die vom 51. Lauf empfohlene Priorität (Plinius d. J., Namensliste S. 137) bearbeitet,
+per `/opt/homebrew/bin/pdftoppm -r 150` gerendert (PDF-Seite = gedruckte Seite + 4, Offset
+am Tacitus-Ende gegenverifiziert: PDF-Seite 137 = gedruckte Seite 133; S. 137-139
+vollständig gelesen, S. 140 als leere Trennseite vor „Strabo" bestätigt Positionsende):
+
+- **Plinius d. J., Briefe Buch VI, 20 (Brief an Cornelius Tacitus)** (S. 137-139) → neuer
+  Artikel [[plinius-der-juengere-erdbeben-misenum-vesuvausbruch-79-nchr]]:
+  Augenzeugenbericht des 17-jährigen Plinius aus Misenum während des Vesuvausbruchs 79
+  n. Chr. (Tod des Oheims Plinius d. Ä., dessen eigener Sterbebericht nicht in diesem
+  Auszug enthalten ist, nur die Fortsetzung an Tacitus). Vorbeben mehrere Tage zuvor als
+  ortsüblich unterschätzt; Eskalationsstufen der Evakuierung (Innenhof mit Gebäudeabstand
+  → beengter freier Platz → vollständiges Verlassen der Stadt), ausgelöst durch sichtbaren
+  Gebäudeschaden in der Nachbarschaft; auf freiem Feld selbst mit untergelegten Steinen
+  wandernde Wagen als Beleg der Bodenbewegungsstärke; Meeresrückzug mit gestrandeten
+  Meerestieren; Eruptionswolke mit blitzähnlichen Flammenstrahlen; künstliche
+  Vollverdunkelung trotz Tageszeit; wiederholtes Abschütteln der Asche gegen
+  Erdrückungsgefahr; abschliessende Ascheschneelast-Analogie («hoch mit Asche, wie mit
+  Schnee, bedeckt») ohne Kennwert.
+- Gegen Wiki-Bestand geprüft (`grep -rli` vesuv/pompeji/erdbeben/misenum über `wiki/*.md`):
+  Treffer [[seneca-erdbeben-pompeji-62-nchr-naturwissenschaftliche-untersuchungen]] (selbe
+  Region, Erdbeben 62 n. Chr., andere Quelle/Perspektive, kein Duplikat) und der bestehende
+  Plinius-der-Ältere-Artikel (anderer Werkausschnitt, Tod des Oheims dort nicht Gegenstand).
+  Verlinkt mit beiden sowie mit
+  [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (Abgrenzung: dort
+  Bauordnungstext, hier reine Verhaltens-/Erlebnisquelle ohne Normcharakter).
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append. Aus der Namensliste bleibt
+nach Plinius d. J. offen: Strabo (141), Juvenal (145), Sueton (149), Pausanias (151),
+Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia
+(247) — 8 Positionen. **Nächster Lauf:** Strabo (141) als nächster im Seitenverlauf
+liegender Kandidat, sonst der Rest der Liste der Reihe nach.

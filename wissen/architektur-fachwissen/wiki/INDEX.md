@@ -2032,3 +2032,22 @@ Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius
 (247). Nächster Lauf: Plinius d. J. (137) als nächster im Seitenverlauf
 liegender Kandidat, sonst der Rest der Liste der Reihe nach. Details in
 `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 52. P2-Lauf):** Zuerst den unkommittierten
+51. Lauf (Tacitus) per `nas-commit-now.sh` gesichert (`96232b648`, erneuter
+NAS-Merge-Konflikt in sechs fremden KBs beim Push, dem 15-Min-Cron
+überlassen). Danach Plinius d. J., Briefe Buch VI, 20 (S. 137-139:
+Augenzeugenbericht aus Misenum zum Vesuvausbruch 79 n. Chr. — Vorbeben,
+Eskalationsstufen der Evakuierung Innenhof→Platz→Stadtverlassen ausgelöst
+durch sichtbaren Nachbarschaftsschaden, bodenbewegungsbedingt wandernde
+Wagen, Meeresrückzug, Eruptionswolke, künstliche Vollverdunkelung,
+Ascheschneelast-Analogie) destilliert →
+[[plinius-der-juengere-erdbeben-misenum-vesuvausbruch-79-nchr]], ergänzt
+[[seneca-erdbeben-pompeji-62-nchr-naturwissenschaftliche-untersuchungen]]
+(selbe Region, Erdbeben 62 n. Chr., andere Perspektive) und abgegrenzt von
+[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]
+(Bauordnungstext vs. reine Erlebnisquelle). Nach Plinius d. J. bleiben 8
+Positionen offen: Strabo (141), Juvenal (145), Sueton (149), Pausanias
+(151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247). Nächster Lauf: Strabo (141). Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
