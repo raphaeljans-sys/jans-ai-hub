@@ -3,7 +3,7 @@ title: "Rossi — Analoge Architektur, Typus-Kontinuität und die ETH-Lehrzeit 1
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111111_VL7_Rossi_Aldo/02_Vorlesungsmitschrift/111111_Die_Analoge_Architektur.docx (eigene, rohe Live-Mitschrift, Vorlesung 7 Architekturtheorie I, 11.11.2011, Á. Moravánszky, ETH Zürich gta, Textbezug A. Rossi «Architektur für die Museen», Anthologie S. 446-451)"]
-links: ["[[rossi-theorie-der-permanenz-primaere-sekundaere-stadtelemente]]", "[[vier-kanonische-fallbeispiele-architekturtheorie-register]]", "[[typus-modell-prototyp-trennschaerfe-architekturtheorie]]", "[[manhattanismus-koolhaas-monumentalitaet]]"]
+links: ["[[rossi-theorie-der-permanenz-primaere-sekundaere-stadtelemente]]", "[[vier-kanonische-fallbeispiele-architekturtheorie-register]]", "[[typus-modell-prototyp-trennschaerfe-architekturtheorie]]", "[[manhattanismus-koolhaas-monumentalitaet]]", "[[ruhl-rossi-sedlmayr-quaroni-stadt-ready-made-homo-poeticus]]"]
 ---
 
 # Rossi — Analoge Architektur, Typus-Kontinuität und die ETH-Lehrzeit 1973–1975

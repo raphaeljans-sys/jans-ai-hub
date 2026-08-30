@@ -4545,3 +4545,31 @@ der Inventardatei (31/0); der Wiki-Artikel wurde inhaltlich ergänzt (kein Appen
 in `archiv-fachwissen` übergehen (`wiki/INDEX.md` konsultieren, Kandidat `10_Protomodern`
 13 P1-Dateien oder `03_Bauprozesse_I_II` mit den historisch rund 15-20 offenen
 P2-Positionen).
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern`, dritter P2-Lauf (Šik-Interview destilliert, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen):
+`KORPUS-QUEUE.md` zeigte für `10_Protomodern` einen unkommitteten Arbeitsstand des
+vorherigen Laufs (Rowe/Koetter «Collage City», zweiter P2-Lauf) mit klarer
+Anschlussmarke — zuerst per `nas-commit-now.sh` gesichert (sauberer Commit+Push, kein
+Merge-Konflikt diesmal). `ps aux` zeigte nur den eigenen Prozess, keine Doppel-Instanz.
+
+**Hauptarbeit:** `09_Die_athmospherische_Stadt/Eine Stadt ist mehr als eine Galerie.pdf`
+(ETH-Life-Interview mit Miroslav Šik, 10.05.2012, 3 Seiten) vollständig gelesen
+(PyMuPDF) und destilliert →
+[[sik-dialogischer-staedtebau-ensemble-schweizer-pavillon-biennale-2012]]
+(`status: emerging`). Kernaussagen: Begriff «dialogischer Städtebau», Ensemble-These
+gegen Objektarchitektur («Eine Stadt ist mehr als eine Galerie»), Ausstellungskonzept
+Schweizer Pavillon Biennale 2012 (mit Miller & Maranta, Knapkiewicz & Fickert),
+biografische Eckdaten. Gegen Wiki-Bestand geprüft (`grep -rli "šik\|sik\b\|ensemble"`):
+kein inhaltlicher Duplikat-Fund, verlinkt mit
+[[protomodern-projektrahmen-professurenlandkarte]] (dort bereits als «Proto Modern»-Name
+gelistet) und [[regel-und-ausnahme-stadtentwicklung-schett-jahreskurs]]. Sperrlisten-
+Prüfung: kein Fund (publiziertes Interview, öffentliche Fachperson, keine
+Personendaten).
+
+Damit sind **29 der 33 P2-Positionen** der Sektion `10_Protomodern` offen: der
+Caruso-Reader-Auszug, elf weitere kurze Eigen-DOCX sowie die Wikipedia-/
+Wiktionary-Begriffsblätter plus Sgraffito-Sammlung. `git diff --numstat` auf die
+Inventardatei zeigt reinen Append. **Nächster Lauf:** Caruso-Reader-Auszug (`Seiten aus
+13_FS_Alles_ist_Umbau_caruso2013FSreaderstudio.pdf`).

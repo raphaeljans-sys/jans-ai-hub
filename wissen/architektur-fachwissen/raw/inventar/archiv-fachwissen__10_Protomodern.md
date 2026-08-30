@@ -214,3 +214,39 @@ Quelle ist der Originaltext). Gegen bestehende Artikel geprüft — kein Duplika
 elf weitere kurze Eigen-DOCX sowie die Wikipedia-/Wiktionary-Begriffsblätter plus
 Sgraffito-Sammlung. Nächster Lauf: Šik-Interview `09_Die_athmospherische_Stadt/Eine Stadt ist
 mehr als eine Galerie.pdf` (ETH-Life, kurz, schnell erschliessbar).
+
+**Dritter P2-Lauf 30.08.2026 (Lane FACHWISSEN).** `09_Die_athmospherische_Stadt/Eine Stadt
+ist mehr als eine Galerie.pdf` (ETH-Life-Interview mit Miroslav Šik, 10.05.2012, 3 Seiten)
+vollständig gelesen (PyMuPDF) und destilliert → **erledigt** →
+[[sik-dialogischer-staedtebau-ensemble-schweizer-pavillon-biennale-2012]] (`status:
+emerging`). Kernaussagen: Begriff «dialogischer Städtebau», Ensemble-These gegen
+Objektarchitektur («Eine Stadt ist mehr als eine Galerie»), Ausstellungskonzept Schweizer
+Pavillon Biennale 2012 mit Miller & Maranta und Knapkiewicz & Fickert, biografische
+Eckdaten. Gegen Wiki-Bestand geprüft (`grep -rli "šik\|sik\b\|ensemble"`): kein
+inhaltlicher Duplikat-Fund, verlinkt mit
+[[protomodern-projektrahmen-professurenlandkarte]] (dort bereits als «Proto Modern»-Name
+gelistet) und [[regel-und-ausnahme-stadtentwicklung-schett-jahreskurs]]. Sperrlisten-
+Prüfung: kein Fund (publiziertes Interview, öffentliche Fachperson, keine
+Personendaten). Damit sind **29 der 33 P2-Positionen** dieser Sektion offen: der
+Caruso-Reader-Auszug, elf weitere kurze Eigen-DOCX sowie die Wikipedia-/
+Wiktionary-Begriffsblätter plus Sgraffito-Sammlung. Nächster Lauf: Caruso-Reader-Auszug
+(`Seiten aus 13_FS_Alles_ist_Umbau_caruso2013FSreaderstudio.pdf`).
+
+**Vierter P2-Lauf 30.08.2026 (Lane FACHWISSEN).**
+`Seiten aus 13_FS_Alles_ist_Umbau_caruso2013FSreaderstudio.pdf` (Aufsatz Carsten Ruhl,
+Semester-Reader «Alles ist Umbau», Caruso-Studio FS 2013, S. 166-167) vollständig gelesen
+(PyMuPDF) und destilliert → **erledigt** →
+[[ruhl-rossi-sedlmayr-quaroni-stadt-ready-made-homo-poeticus]] (`status: emerging`).
+Kernaussagen: Sedlmayrs Verfallsdiagnose gegen Rossis Gegenlesart, Stadt als «ready made»,
+Quaronis Architekt als «homo poeticus», disegno-Begriff, Bezug zu Rossis «L'architettura
+della città» (1966). Fragment (bricht bei Fussnote 46 ab), keine Gesamtargumentation.
+Gegen Wiki-Bestand geprüft (`grep -rli "quaroni\|sedlmayr\|homo poeticus\|ready made\|ruhl"`):
+kein Duplikat-Fund, verlinkt mit
+[[rossi-analoge-architektur-typus-piranesi-eth-lehrzeit]] und
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]]. Sperrlisten-Prüfung: kein
+Fund (publizierter akademischer Aufsatz, keine Personendaten). Damit sind **28 der 33
+P2-Positionen** dieser Sektion offen: elf weitere kurze Eigen-DOCX sowie die Wikipedia-/
+Wiktionary-Begriffsblätter plus Sgraffito-Sammlung. Nächster Lauf: die elf kurzen
+Eigen-DOCX (Religiöses/Politisches in der Architektur, Kulturaustausch, Der heterogene
+Ort, Panofsky-Liste, Protorenaissance, Tabubruch, Klassiker für die Protomoderne,
+Lampugnani-Grundsätze u. a., siehe Zeile 73 oben).
