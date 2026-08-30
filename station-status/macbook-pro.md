@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 19:28:46
+Stand: 30.08.2026 19:39:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 19:28:46
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e2530b9bb Wissens-Destillat archiv-fachwissen: Bibiena-Familie (02_Kunst_Geschichte)
+- 9ac4ae484 Fachwissen: Zeile 73+74 Sektion 02_Kunst_Geschichte destilliert (Ursprung Kunst der Gegenwart, Land Art Site/Non-Site/Erhabenes/Tilted Arc, Denkmal-Diskurs Leipzig)
