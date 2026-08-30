@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 12:16:44
+Stand: 30.08.2026 12:27:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 12:16:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3d11c97ec nas-selfcommit: 2 Datei(en) 2026-08-30 12:15
+- edeae524a Fachwissen: CHANGELOG-Eintrag 45. P2-Lauf (Kritias/Atlantis) nachtragen
