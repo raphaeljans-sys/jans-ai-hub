@@ -1,5 +1,28 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, neunundvierzigster P2-Lauf (Seneca und Plinius d. Ä. destilliert, Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn selbst ermittelt: `git status`/`git log` zeigten den 48. Lauf
+(Livius) als letzten committeten Stand, working tree sauber, kein `MERGE_HEAD`.
+
+**Seneca, Naturales quaestiones, Buch VI, 1** (S. 112) → neuer Artikel
+[[seneca-erdbeben-pompeji-62-nchr-naturwissenschaftliche-untersuchungen]]: datierter
+Augenzeugenbericht des Erdbebens vom 5. Februar 62 n. Chr. mit regionalem Schadensmuster
+über Pompeji, Herculaneum, Nuceria und Neapel.
+
+**Plinius der Ältere, Naturalis historia, Buch V, 11 und Buch XXXVI, 24** (S. 113-116) →
+neuer Artikel
+[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]]:
+Alexandria-Gründungsplan durch Dinocrates, Roms Circus Maximus/Cloaca Maxima/Privatpalast-
+Verfall/Fassadenregel für Ehrenhäuser. Löst den offen gelassenen Cross-Check in
+[[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]] zu den dortigen
+«Abzugsgräben» ein (dieselbe Cloaca Maxima), dieser Artikel entsprechend ergänzt.
+
+Aus der Namensliste (`wiki/QUESTIONS.md` #74) bleiben nach diesem Lauf 11 Positionen offen:
+Plutarch/Romulus, Tacitus, Plinius d. J., Strabo, Juvenal, Sueton, Pausanias, Achilleus
+Tatius, Ausonius, Salvianus, Francesco Colonna/Hypnerotomachia. Nächster Lauf: Plutarch/
+Romulus (S. 125).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, einundvierzigster P2-Lauf (Thukydides destilliert, Lane FACHWISSEN)
 
 Stand vor Arbeitsbeginn selbst ermittelt: `KORPUS-QUEUE.md`, Specs-Ordner, `wiki/INDEX.md`,

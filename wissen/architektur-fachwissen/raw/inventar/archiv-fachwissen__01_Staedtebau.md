@@ -2457,3 +2457,42 @@ Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149
 Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
 Colonna/Hypnerotomachia (247) — 13 Positionen. **Nächster Lauf:** Seneca (105) als
 nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## Neunundvierzigster P2-Lauf, Seneca (Erdbeben Pompeji) und Plinius d. Ä. (Alexandria/Rom) destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen): `git
+status` und `git log` zeigten den 48. Lauf (Livius) als letzten committeten Stand, working
+tree sauber, `ps aux` zeigte nur den eigenen `claude -p`-Prozess, kein `MERGE_HEAD`.
+
+`pdftoppm` erneut nicht im PATH des Read-Tools (Befund #72 bestätigt), Workaround über
+`/opt/homebrew/bin/pdftoppm -png -f <PDF-Seite> -l <PDF-Seite> -r 150` nach `/tmp/` gerendert
+und die PNGs per Read gelesen (PDF-Seite = gedruckte Seite + 4).
+
+- **Seneca, Naturales quaestiones, Buch VI, 1** (S. 112, «Erdbeben in Pompeji», Buch IV
+  A/V zu Nil und Winden auf S. 105-111 gegengeprüft und als ohne Siedlungsbezug verworfen)
+  → neuer Artikel
+  [[seneca-erdbeben-pompeji-62-nchr-naturwissenschaftliche-untersuchungen]]: datierter
+  Augenzeugenbericht des Erdbebens vom 5. Februar 62 n. Chr. mit regionalem Schadensmuster
+  über Pompeji, Herculaneum, Nuceria und Neapel (je unterschiedlicher Schadensgrad,
+  explizite Trennung privater/öffentlicher Bausubstanz bei Neapel).
+- **Plinius der Ältere, Naturalis historia, Buch V, 11 (Alexandria) und Buch XXXVI, 24
+  (Wunderwerke Roms)** (S. 113-116, Fraktursatz) → neuer Artikel
+  [[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]]:
+  Alexandria-Gründungsplan durch den namentlich genannten Architekten Dinocrates
+  (chlamysförmiger Grundriss, Flächenreservierung 1/5 für die Königsburg), dazu Roms
+  Circus Maximus, die Cloaca Maxima (Agrippa-Ausbau, Baubeginn unter Tarquinius Priscus,
+  ~700 Jahre Bestand), Privatpalast-Verfall als Statuswarnung sowie eine dokumentierte
+  antike Fassadenregel (Türöffnungsrichtung zur Gasse) für staatlich zugeteilte
+  Ehrenhäuser. Löst den in
+  [[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]] offen gelassenen
+  Cross-Check zu den dortigen «Abzugsgräben» ein (dieselbe Cloaca Maxima).
+- Gegen Wiki-Bestand geprüft (`grep -rli` dinocrates/kloake/cloaca/circus maximus/agrippa
+  sowie pompei/erdbeben/herculaneum über `wiki/*.md`): keine inhaltlichen Duplikate, nur der
+  bereits bekannte offene Cross-Check-Hinweis bei Livius (jetzt eingelöst, s. o.).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste bleibt
+nach Seneca und Plinius d. Ä. offen: Plutarch/Romulus (125), Tacitus (131-133), Plinius
+d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius
+(155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 11
+Positionen. **Nächster Lauf:** Plutarch/Romulus (125) als nächster im Seitenverlauf
+liegender Kandidat, sonst der Rest der Liste der Reihe nach.

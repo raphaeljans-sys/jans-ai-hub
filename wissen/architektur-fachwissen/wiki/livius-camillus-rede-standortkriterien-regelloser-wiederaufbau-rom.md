@@ -3,7 +3,7 @@ title: "Livius: Camillus' Standortrede und der regellose Wiederaufbau Roms (Ab u
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 95-99 (Livius, «Ab urbe condita», Buch V, Kapitel 42-55, hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, vollständig gelesen)"]
-links: ["[[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]]", "[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]]", "[[polybios-roemisches-militaerlager-castrum-rasterordnung]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]"]
+links: ["[[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]]", "[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]]", "[[polybios-roemisches-militaerlager-castrum-rasterordnung]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]", "[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]]"]
 ---
 
 # Livius: Camillus' Standortrede und der regellose Wiederaufbau Roms (Ab urbe condita, Buch V, 42-55)
@@ -84,7 +84,7 @@ destillierten geplanten Stadttypen
 ergänzt Camillus' Vier-Kriterien-Liste (Gesundheit, Fluss, Meerdistanz, Zentrallage)
 die bei [[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]] knapper
 gehaltene Romulus-Begründung um eine ausführlichere, later gefasste Parallelquelle zur
-selben Stadt. Nicht weiter verifiziert: ob die bei Livius genannten «Abzugsgräben»
-(cloacae) mit den in anderen Quellen dieser KB behandelten römischen
-Infrastruktursystemen identisch sind — hier nur als Faktum aus dem Text übernommen, ohne
-Cross-Check gegen eine eigenständige Kanalisationsquelle.
+selben Stadt. **Nachtrag (30.08.2026):** Der Cross-Check ist eingelöst — laut
+[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]] handelt es
+sich bei den «Abzugsgräben» um dasselbe, unter Tarquinius Priscus begonnene und von Agrippa
+ausgebaute Kloakensystem (Cloaca Maxima), nur zu einem viel späteren Zeitpunkt beschrieben.
