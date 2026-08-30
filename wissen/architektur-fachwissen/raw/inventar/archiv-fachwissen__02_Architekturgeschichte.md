@@ -807,3 +807,31 @@ demselben Duplikatscheck-Kriterium (Kandidaten mit vermutlich geringem Duplikats
 Neumann, Ledoux, Klenze, Fischer von Erlach — vor Bearbeitung dennoch grep-Check, da einige
 Namen bereits in Sauter-Kanon-Artikeln knapp auftauchen), danach wie gehabt `Fragen.doc`,
 Rest von `Renaissance-Zusammenfassung.pdf` und `Moderne.pdf`.
+
+## 260830 — dritter Lauf `01_Architektenportrait` (83. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig, nicht nur `tail`); Dispatch-Text nennt bewusst keine Zahlen mehr.
+Von den vier im Vorlauf empfohlenen Kandidaten (Neumann, Ledoux, Klenze, Fischer von Erlach)
+per `grep -lir` gegengeprüft: **Ledoux zurückgestellt** (bereits eigener Artikel
+[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]),
+die übrigen drei gelesen und destilliert: Johann Bernhard Fischer von Erlach, Balthasar
+Neumann, Leo von Klenze → konsolidiert in
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]].
+**Quellenkritischer Neufund:** `20_neumann.pdf` bestätigt Neumanns Lebensdaten
+konsistent mit 1687-1753 — exakt die Zahl, die `32_semper.pdf` fälschlich im Titel für
+Gottfried Semper führt (bereits im ersten Lauf als Datierungsfehler notiert); die
+Verwechslung stammt vermutlich aus einer Vertauschung mit Neumann. `28_klenze.pdf` selbst
+trägt einen Tippfehler («... bis 1913 tätig», gemeint 1813), im neuen Artikel vermerkt.
+**16 Einzelportraits bleiben offen** (Alberti, Bramante, Raffael, Michelangelo, Vignola,
+Palladio, Ledoux, Schinkel, Semper, Garnier, Ruskin, Morris, Webb, Wright, Sullivan,
+Brunelleschi mit Duplikatsrisiko), dazu drei Nicht-Portrait-Positionen (`9_rom_st`,
+`16_schloss_versailles`, `26_paris_um_1800`) sowie Kartenset und Sammelmappe — Liste im
+neuen Artikel. Sperrlisten-Prüfung: kein Fund. `git diff --numstat` zeigt für diese
+Inventardatei einen reinen Append. **Nächster Lauf:** von den verbliebenen 16 sind laut
+wiederholtem Duplikatscheck zehn (Schinkel, Semper, Garnier, Ruskin, Morris, Webb, Wright,
+Sullivan, Vignola, Palladio) bereits andernorts in dieser KB substanziell behandelt —
+lohnt sich eher ein Blick auf `Fragen.doc`, den Rest von `Renaissance-Zusammenfassung.pdf`
+und `Moderne.pdf`, oder eine gezielte Prüfung, ob Alberti/Bramante/Raffael/Michelangelo/
+Brunelleschi (Renaissance-Kernfiguren) trotz Nennung im Sauter-Kanon-Artikel noch
+eigenständigen Portrait-Mehrwert bieten (Kurzbiografie fehlt dort, nur Bauten gelistet).

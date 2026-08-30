@@ -1,5 +1,28 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf, dritter Lauf Architektenportraits-Ordner (83. Lauf, Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, diese Datei, Inventardatei —
+vollständig gelesen, nicht nur `tail`); Dispatch-Text nennt bewusst keine Zahlen. Von den vier
+im 82. Lauf empfohlenen Kandidaten (Neumann, Ledoux, Klenze, Fischer von Erlach) Ledoux nach
+Duplikatscheck zurückgestellt (bereits eigener Artikel
+[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]), die
+übrigen drei gelesen und destilliert: Johann Bernhard Fischer von Erlach (1656-1723,
+Wiener Barock, Schloss Schönbrunn, Salzburger Kirchen, Theoriewerk «Entwurf einer
+Historischen Architektur»), Balthasar Neumann (1687-1753, Würzburger Residenz mit Treppenhaus
+und Kaisersaal), Leo von Klenze (1784-1864, Münchner Klassizismus, Glyptothek, Alte
+Pinakothek) → konsolidiert zu
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]].
+Quellenkritischer Neufund: Neumanns Lebensdaten 1687-1753 sind exakt die Zahl, die
+`32_semper.pdf` fälschlich im Titel für Gottfried Semper führt (Datierungsfehler seit erstem
+Lauf bekannt) — die Verwechslung stammt vermutlich aus einer Vertauschung mit Neumann selbst.
+Zusätzlich ein Tippfehler in `28_klenze.pdf` («... bis 1913 tätig», gemeint 1813) im neuen
+Artikel vermerkt. Inventardatei um Erledigt-Vermerk ergänzt, `git diff --numstat` zeigte einen
+reinen Append. **16 Einzelportraits bleiben offen**, davon laut Duplikatscheck zehn bereits
+andernorts in dieser KB substanziell behandelt (Schinkel, Semper, Garnier, Ruskin, Morris,
+Webb, Wright, Sullivan, Vignola, Palladio); näheres im neuen Artikel und in der
+Inventardatei. Sperrlisten-Prüfung: kein Fund. Sicherung über `nas-commit-now.sh`.
+
 ## 2026-08-30 — P2-Lauf, zweiter Lauf Architektenportraits-Ordner (82. Lauf, Lane FACHWISSEN)
 
 Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`, Inventardatei —
