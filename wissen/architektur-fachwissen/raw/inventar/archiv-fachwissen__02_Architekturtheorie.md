@@ -346,3 +346,21 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   nicht ausgewertet (Konvention wie VL2-VL9). Damit ist `111202_VL10_Zumthor` vollständig
   bearbeitet. Offen: 14 der 23 Vorlesungsordner (rund 176 der 190 Dateien). Nächster Lauf:
   VL11 (nächster Ordner nach Nummerierung, `111209` o.ä. — noch nicht geprüft).
+
+- 2026-08-30 (Lane FACHWISSEN, elfter P2-Lauf, VL11 Resume): einzige Quelle
+  (`02_Mitschrift/111209_Resume_AT.docx`) gelesen — eine mündliche Rückschau vor der Prüfung,
+  die die Inhalte von VL2-VL10 stichwortartig wiederholt, plus Prüfungsformat-Hinweise (nicht
+  KB-relevant, Studienlogistik statt Fachwissen). Rohe Mitschrift mit sehr vielen
+  Verschreibungen (schlechteste Quellenqualität der Sektion bisher). Fast der gesamte Inhalt
+  bereits über die Einzelartikel der jeweiligen Vorlesungen abgedeckt; ein eigenständiger,
+  vorher nicht belegter Fall gefunden — der mündliche Vergleich Zumthor-Pavillon vs.
+  MVRDV-Pavillon, Expo 2000 Hannover (Materialität als Stimmung vs. als Collage) — destilliert
+  zu `wiki/zumthor-mvrdv-pavillon-vergleich-expo-2000-hannover.md` (`status: speculative`,
+  einzige Quelle mündliche Studimitschrift). Ein zweites Fragment (Jencks, «Language of
+  Post-Modern Architecture», «evolution of tree», sozialer Eklektizismus) bewusst NICHT
+  destilliert — im Transkript zu stark verstümmelt («Bänderschlage der Generationen, die
+  Generation wird abgelehnt» unverständlich) für eine beleghaltige Aussage. `01_Sylabus`
+  existiert in diesem Ordner nicht (nur ein Unterordner `02_Mitschrift`). Damit ist
+  `111209_VL11_Resume` vollständig bearbeitet. Offen: 13 der 23 Vorlesungsordner (rund 175
+  der 190 Dateien). Nächster Lauf: `120215_Shinohara_Kazuo` (erste Vorlesung des
+  Frühjahrssemesters 2012, danach nicht mehr `VL`-nummeriert, siehe Ordnerliste).

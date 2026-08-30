@@ -1,5 +1,37 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, elfter P2-Lauf, VL11 Resume (Lane FACHWISSEN, 24. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel» behauptet, real
+zu diesem Zeitpunkt: beide Specs seit 29.08.2026 geschrieben, 168 Wiki-Artikel, 33 Läufe) und
+nannte die Station explizit als «MacBook Pro» — `scutil --get LocalHostName` zeigt während
+dieses Laufs **Macmini**. Vor Arbeitsbeginn `ps aux` geprüft: nur ein `claude -p`-Prozess mit
+diesem Auftragstext (keine Doppel-Instanz), `git status`/`git log` zeigten einen sauberen
+Working Tree ohne unkommittierten Rest. Am realen `KORPUS-QUEUE.md`-Stand weitergearbeitet:
+nächster fälliger Schritt war laut Vorlauf `111209_VL11_Resume` in Sektion
+`02_Architekturtheorie`.
+
+Einzige Quelle gelesen (`02_Mitschrift/111209_Resume_AT.docx`, kein `01_Sylabus`-Unterordner in
+diesem Vorlesungsordner) — eine mündliche Rückschau vor der Prüfung, die VL2-VL10 stichwortartig
+wiederholt, plus Prüfungsformat-Hinweise (Studienlogistik, nicht KB-relevant, bewusst nicht
+destilliert). Schlechteste Quellenqualität der Sektion bisher (sehr viele Verschreibungen). Fast
+der gesamte Inhalt bereits über die Einzelartikel der jeweiligen Vorlesungen abgedeckt (Loos,
+Wright, Kahn, Rossi, Eisenman, Venturi, Koolhaas, Zumthor). Ein eigenständiger, vorher nicht
+belegter Fall gefunden und destilliert:
+
+- [[zumthor-mvrdv-pavillon-vergleich-expo-2000-hannover]] — `status: speculative`, mündlicher
+  Vergleich Zumthor-Pavillon vs. MVRDV-Pavillon (Expo 2000 Hannover): Materialität als Stimmung
+  (Zumthor) gegen Materialität als Collage (MVRDV), Erlebnisqualität mystisch gegen
+  Sensationsarchitektur — dritter, eigenständiger Zumthor-Fall neben Haus Truog und Therme Vals
+
+Ein zweites Fragment (Jencks «Language of Post-Modern Architecture», «evolution of tree»,
+sozialer Eklektizismus) bewusst NICHT destilliert — im Transkript zu stark verstümmelt für eine
+beleghaltige Aussage. Inventardatei
+`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` um einen Append-Eintrag ergänzt
+(`git diff --numstat` 18/0, rein additiv). Damit ist `111209_VL11_Resume` vollständig
+bearbeitet. Offen: 13 der 23 Vorlesungsordner (rund 175 der 190 Dateien) — davon nicht mehr
+`VL`-nummeriert ab hier. Nächster Lauf: `120215_Shinohara_Kazuo`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, zehnter P2-Lauf, VL10 Zumthor (Lane FACHWISSEN, 23. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel» behauptet, real
