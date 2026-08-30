@@ -1,5 +1,37 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (112. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md`, `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` gegen den
+tatsächlichen Zustand geprüft — keine der vom Prompt behaupteten Zahlen übernommen.
+`scutil --get ComputerName` bestätigte Macmini, `ps -eo pid,ppid,command` zeigte genau einen
+laufenden `claude -p`-Prozess (PID 37168) mit diesem Dispatch-Text — kein Doppel-Dispatch.
+Working Tree bei Laufbeginn sauber (Top-Commit `d5f5056e4`).
+
+Vom 111. Lauf empfohlene drei kleinste ungelesene Positionen von Zeile 68 gelesen:
+`mariscal.htm`, `brandt.htm`, `pesce.htm.htm`. Duplikatscheck vorab gegen `wiki/INDEX.md`
+(keine Dublette). Drei neue Artikel:
+[[javier-mariscal-spanisches-postfranco-design-memphis-barcelona]] (spanisches
+Post-Franco-Design, Ursprung im Grafik-/Cartoon-Fach, Einladung durch Sottsass zur ersten
+Memphis-Ausstellung 1981, Maskottchen «Cobi» Olympiade Barcelona 1992),
+[[marianne-brandt-bauhaus-metallwerkstatt-serienproduktion-alessi]] (Bauhaus-Metallwerkstatt
+unter Moholy-Nagy, eine der wenigen Bauhaus-Studentinnen ausserhalb der Textilwerkstatt,
+dokumentierter Zielkonflikt Unikat/Handarbeit versus Serientauglichkeit, Alessi-Reeditionen
+ab 1985) und [[gaetano-pesce-radikales-design-polyurethan-serienunikate]] (italienisches
+Anti-Design, Serie «Up» 1969 für C&B Italia mit politischem Subtext, Polyurethan-Guss und
+Vakuumverpackung als Teil des Designkonzepts, MoMA-Ausstellung 1972). Rückverlinkung im
+bestehenden [[sottsass-memphis-studio-alchimia-olivetti-radical-design]]-Artikel ergänzt
+(Mariscal als Memphis-Mitausstellender, Pesce als verwandter, aber eigenständiger
+Anti-Design-Zweig). Damit 37 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 64
+Personenartikel bleiben offen. `git diff --numstat` auf die Inventardatei zeigte `0 0`
+(Sammelzeile bleibt unverändert, Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE).
+
+**Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den
+verbleibenden ungelesenen Positionen (u. a. `nizzoli.htm`, `colombo.htm`, `0tto_wagner.htm`,
+`nelson.htm`, `teague.htm`, `postmoderne.htm`), sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (111. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
