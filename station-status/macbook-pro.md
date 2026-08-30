@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 04:44:09
+Stand: 30.08.2026 04:54:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 04:44:09
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7f172db2d SYNOBSIS: sichere liegen gebliebenen Minimalcheck-Eintrag (16. Folgelauf)
+- 327a6a238 Lane FACHWISSEN: buero-referenzen/10_Modellbauen P2 abgearbeitet (dritter P2-Lauf, 52. Beispiel Dispatch-Loop)

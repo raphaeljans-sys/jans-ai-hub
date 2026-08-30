@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 04:42:27
+Stand: 30.08.2026 04:52:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 04:38)
+- /Users/raphaeljans  (letzte Aktivitaet 04:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 04:42:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7f172db2d SYNOBSIS: sichere liegen gebliebenen Minimalcheck-Eintrag (16. Folgelauf)
+- 327a6a238 Lane FACHWISSEN: buero-referenzen/10_Modellbauen P2 abgearbeitet (dritter P2-Lauf, 52. Beispiel Dispatch-Loop)
