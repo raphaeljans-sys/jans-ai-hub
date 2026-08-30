@@ -3683,3 +3683,14 @@ Kriterium (c).
 **Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
 Kontingent-Erschoepfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag oder Aufwand ohne
 Wissenszuwachs.
+
+**Nachtrag 07:30 — transienter Merge-Konflikt beim Commit dieses Eintrags, kein Eingriff noetig.**
+`nas-commit-now.sh` meldete rc=1 mit Konflikten in `wissen/grobkosten/CHANGELOG.md` und
+`wissen/normen/CHANGELOG.md`. Nachgemessen (nur lesend, nativ per ssh): **das NAS-Repo ist sauber**
+— Commit `734ed767c` liegt dort, kein `MERGE_HEAD`, kein `index.lock`, keine Konfliktdatei; der
+Konflikt entstand im zweiten Script-Teil beim `pull --rebase --autostash` des SSD-Klons und hat sich
+selbst aufgeloest (SSD-Klon ebenfalls sauber, HEAD `b15ca9538`). Ursache ist die bekannte
+Schreibkollision der gleichzeitig laufenden Schub-Lanes auf denselben CHANGELOG-Dateien.
+**Loser Faden, bewusst nicht angefasst:** im SSD-Klon liegt ein `stash@{0}: autostash`. Ein
+`stash drop` waere ein Eingriff in Git-Interna und gehoert nach Rule `interaktive-eingriffe` nicht in
+einen unbeaufsichtigten Lauf — hier nur vermerkt, damit die naechste interaktive Session ihn findet.
