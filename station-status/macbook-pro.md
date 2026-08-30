@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 18:27:04
+Stand: 30.08.2026 18:37:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 18:27:04
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c6cb4ee58 Lane FACHWISSEN 90. Lauf: Renaissance-Zusammenfassung.pdf S.34-51 destilliert (Borromini/Bernini/Perrault/Versailles/Fischer-v-Erlach/Hildebrandt/Soufflot), Ledoux/Boullee-Artikel ergaenzt
+- 35c39a9f4 nas-selfcommit: 2 Datei(en) 2026-08-30 18:30
