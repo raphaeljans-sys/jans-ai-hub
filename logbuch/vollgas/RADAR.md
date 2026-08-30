@@ -53,6 +53,55 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-30 20:40 — [FREI] **Die Stilllegung von gestern Nacht wirkt: vier der fünf Lanes stehen still, die eine verbliebene liefert 255 Dateien. Zwei eigene Messfehler unterwegs korrigiert — ein gewedgtes Homebrew-Binary, das wie eine Kontingentsperre aussah, und ein Zeitsprung, den ich fast als defekte Synology-Uhr protokolliert hätte.**
+
+**Selbstkontrolle: bestanden, aber der Lauf selbst ist auffällig.** Der Vorgängereintrag steht auf 01:11, dieser Lauf feuerte um **12:57** — Abstand **11 h 46** bei 12-h-Takt und 15 h Toleranz. Kein verpasster Lauf, der zweite Ausfalltyp war nicht zu prüfen. **Aber der Lauf lief 7 h 43 min Wanduhrzeit** (12:57 bis 20:40). Damit waren meine Eingangsmesswerte beim Schreiben veraltet; Budget, Liefer-Delta und Lane-Stand sind **doppelt erhoben** und unten steht jeweils der zweite Wert (Rule `auto-verbesserungen` 260730b: ein Messwert ist eine Aussage über seinen Zeitpunkt). Ein Radar-Lauf dieser Länge kann in den Folgelauf hineinragen — das gehört beobachtet.
+
+**Fenster FREI — aber nur über den Rückfallweg messbar. ⚠ Die Homebrew-CLI ist wieder gewedgt.** Der Symlink zeigt seit 29.08. 05:15 auf **2.1.236**; die Probe `-p ... < /dev/null` lief in den 180-s-Watchdog (**rc=137**). Die app-gebündelte **2.1.247** antwortete im selben Lauf mit «OK», **rc=0, in 7 Sekunden**. Das Kontingent war also frei, der Fehler lag allein am Binary — **dieselbe Wedge wie 2.1.224 (15./16.08.) und 2.1.231 (22.08.), dritte Wiederholung mit neuer Versionsnummer.** Die im Auftrag verankerte Regel hat hier zum dritten Mal einen Fehlalarm verhindert: ein rc=137 der PATH-Probe ist zuerst Verdacht auf ein gewedgtes Binary, nicht auf ein leeres Fenster. Bis Homebrew nachliefert gilt wieder der Rückfallweg über die app-gebündelte CLI. Der Mac Mini ist **nicht** betroffen — dort zeigt `/opt/homebrew/bin/claude` auf die npm-Installation (`claude.exe`), und die Lanes laufen durch.
+
+**Kontingent: WARNUNG, kein Drossel-Anlass.** Zweitmessung 20:40: **131.80 von 167 Mio teuer (78.9 %)** bei **90.9 % verstrichener Woche**, Vorsprung **−12.0 Punkte**. Der Verbrauch läuft dem Zeitverlauf also weiterhin **hinterher**, nicht voraus. Erstmessung 12:57 zum Vergleich: 120.94 Mio (72.4 %) bei 86.3 %, −13.9 Punkte. In 7,7 h rund 10.9 Mio dazu, praktisch alles aus der einen laufenden Lane. Mac Mini 81.09 Mio, MacBook Pro 50.71 Mio. Die Drossel nach Schritt 2c wird **nicht** gezogen: die Ampel steht auf WARNUNG, nicht DROSSEL, und ein Kontingent, das dem Zeitverlauf 12 Punkte hinterherhinkt, ist bei einer Frist am Montag 11:00 kein Sparfall, sondern der Auftrag.
+
+### Die Stilllegung von 01:11 hat gehalten — und die Abbruchmechanik hat sich selbst bewiesen
+
+| Lane | Läufe heute | USD | letzter Lauf | Zustand |
+|---|---|---|---|---|
+| fachwissen | 163 | **319.42** | 20:32 | **läuft, liefert** |
+| synobsis | 312 | 89.32 | **08:22** | selbst beendet |
+| normen-pruefstand | 80 | 9.23 | **01:10** | stillgelegt, hält |
+| baurecht-thalwil | 52 | 6.40 | **01:11** | stillgelegt, hält |
+| grobkosten | 27 | 6.86 | **01:10** | stillgelegt, hält |
+| **Tag gesamt** | **637** | **442.13** | | |
+
+**Die drei am 01:11 stillgelegten Lanes haben seither keinen einzigen Lauf mehr erzeugt** — seit über 19 Stunden. Die `STILLGELEGT`-Prompts stehen, der Treiber erkennt das Wort (`vollgas-schub.sh` Zeile 139/140) und beendet die Lane, ohne ein Modell zu bemühen. Massnahme wirksam.
+
+**Der wichtigste Einzelbefund dieses Laufs: `synobsis` hat sich um 08:22 SELBST beendet.** Runde 347 endete mit dem Satz «Es gibt nichts mehr zu bearbeiten» — genau dem Abbruchsatz, den Rule `auto-verbesserungen` **260830** verlangt. Der Treiber hörte hin und beendete die Lane. **Das ist der erste Wirksamkeitsnachweis dieser Rule im Feld**, und er stammt aus derselben Nacht, in der sie geschrieben wurde. `vollgas-schub.sh` trägt beide Hälften nachweislich: Delta-Abbruch nach drei ertraglosen Runden (Zeile 132/146) **und** das Hören auf die Selbstauskunft (Zeile 139/140). Die Lane lief von 01:11 bis 08:22 dennoch rund 200 Läufe ertraglos weiter — der Mechanismus greift also, aber spät. Das ist eine Justierfrage, kein Versagen.
+
+**`fachwissen` verdient jeden Franken.** Liefer-Delta seit 01:11, über git gemessen (nicht über `find -newermt` mit relativer Angabe, siehe Werkzeug-Falle im Auftrag): **255 geänderte Dateien in `architektur-fachwissen`**, davon **45 Wiki-Artikel seit 01:11 angefasst**; die KB steht jetzt bei **99 Artikeln**. In den 7,7 h dieses Laufs allein 59 Wiki-Dateien. Die Lane arbeitet die Autorenliste des Städtebau-Korpus seitenweise ab (Varro, Livius, Plutarch, Polybios, zuletzt Mackintosh/Le Corbusier/Sottsass). Bei rund 1.96 USD je Lauf ist das der teuerste Posten des Tages und zugleich der einzige mit echtem Ertrag — genau die Umschichtung, die gestern Nacht beabsichtigt war.
+
+### Ausgeführte Massnahme: toter Hänger abgeräumt
+
+Auf dem MacBook Pro lief ein Nachtschicht-Aushilfslauf (PID 13831) seit **29.08. 23:30 — 13 h 33 min bei 0:00.00 CPU-Zeit**, Status `SN`, das zugehörige dispatch-Protokoll endete bei der leeren Überschrift «# Ergebnis». Der Lauf war im Login-Blocker-Fenster von gestern Abend gestartet und nie angelaufen; zwei spätere Zyklen (02:30, 05:30) liefen darüber hinweg. Prozessgruppe 13808 abgeräumt (`kill -9 -13808`), Gegenprobe zeigt keinen `claude -p` mehr auf dem MacBook. Umkehrbar: der nächste Zyklus startet ohnehin neu. Genau der Waisen-Fall, der laut Auftrag Gate-Plätze belegt.
+
+### P1 — NAS-Divergenz: unverändert offen, unverändert nicht von mir zu lösen
+
+Selfcommit-Log nativ gelesen (`awk`, die Datei ist nicht UTF-8): **335 lokal / 218 remote bei Versuch 411**. Der Vorgang ist im Fristen-Register bereits **aktuell und vollständig** geführt — der `tenant-hygiene`-Lauf hat um 20:11 mit 330/216 bei Versuch 404 nachgetragen, samt Tagesreihe 158/85 (06:00) → 205/116 (08:45) → 293/186 (17:0x) → 330/216 (20:11). Mein Wert liegt 29 Minuten und sieben Versuche darüber und fügt nichts hinzu. **Deshalb kein weiterer Nachtrag** — ein fünfter Eintrag derselben Reihe am selben Tag macht das Register unlesbar, nicht schärfer. Der stolpernde Commit bleibt `1eed7118c`. Nicht selbst aufgelöst, aus dem unveränderten Grund: unbeaufsichtigter Lauf, fremde unbestätigte Arbeit mehrerer Loops in denselben append-only-Dateien. Die Arbeit geht dabei **nicht** verloren — der `git-auto-sync` des Mac Mini pusht weiter, HEAD steht auf 20:35.
+
+### P2 — Der Fehlschluss, den ich unterwegs fast protokolliert hätte
+
+Der Selfcommit-Log zeigte «20:30», das Fristen-Register «20:11», meine Eingangsmessung «12:57». Ich war dabei, eine um 7,5 h vorlaufende Synology-Uhr zu diagnostizieren — also **eine bestehende, korrekte Datierung als falsch zu erklären**. Die Gegenprobe entschied es in einem Aufruf: MacBook, Mac Mini und Synology zeigen **übereinstimmend 20:40:13 CEST**. Es war schlicht verstrichene Zeit im eigenen Lauf. Das ist wörtlich der Fall aus Rule `auto-verbesserungen` **260730b (1b)**, dort für Tage beschrieben, hier in Stunden — und die Rule hat den Schaden verhindert, den sie am 07.08. teuer gelernt hat. Kein Handlungsbedarf, aber es gehört festgehalten: **drei Uhren gegenmessen kostet einen Aufruf, ein Umdatieren kostet einen Tag.**
+
+### P2 — Der Auftragstext dieses Radars braucht eine Aktualisierung (nicht von mir vorgenommen)
+
+Der Abschnitt zur Fensterprobe steht auf dem Stand vom 18.08. («die Probe läuft wieder über `claude` im PATH») mit der 22.08.-Warnung darunter. Nach dem dritten Wedge-Vorfall in Folge ist die Lage klar genug für eine dauerhafte Fassung: **die PATH-Probe zuerst gar nicht versuchen, sondern direkt über die app-gebündelte CLI messen, und den PATH nur noch als Nebenmessung führen.** Das spart je Lauf 180 Sekunden und einen irreführenden rc=137. Ich habe die Task-Definition **nicht** selbst editiert — eine laufende Scheduled-Task-Datei im unbeaufsichtigten Lauf zu ändern, ist mehr Risiko als der Nutzen rechtfertigt. Entscheid Raphael.
+
+### P3 — Beobachtung ohne Handlungsbedarf
+
+Die `fachwissen`-Lane meldete in Runde 115, «eine weitere Instanz schreibt offenbar zeitgleich an anderen Sektionen von `architektur-fachwissen`». Die beiden `vollgas-schub.sh`-Prozesse auf dem Mini sind Treiber und Kind (PPID-Kette geprüft), also **kein** Doppelstart. Woher der zweite Schreiber kommt, ist offen; der abgeräumte MacBook-Hänger scheidet aus (0 CPU-Zeit). Da die Lane trotzdem sauber liefert und ihr Arbeitsbaum konfliktfrei ist, kein Eingriff — nur notiert, falls es wiederkehrt.
+
+**Keine Mail.** Kein neuer P1, kein gelöster P1, kein erschöpftes Wochenkontingent. Die Divergenz ist derselbe Befund wie gestern und steht im Register; eine Wiederholungsmail dafür ist ausdrücklich ausgeschlossen.
+
+---
+
 ## 2026-08-30 01:11 — [FREI] **Der P1-Login-Blocker ist gelöst, die Flotte arbeitet wieder — und genau dabei wurde der teuerste Leerlauf sichtbar, den dieser Radar je gemessen hat: 418 Schub-Läufe in zwei Tagen, rund 233 USD, davon der weitaus grösste Teil in vier Lanes, die in jedem einzelnen Lauf «nichts mehr offen» melden.** Drei Lanes stillgelegt, die beiden liefernden laufen weiter.
 
 **Selbstkontrolle: bestanden.** Letzter regulärer Eintrag 29.08. 12:57, dieser 30.08. 01:11 — dazwischen der Sonder-Eintrag 29.08. 19:15 (P1-Login). Abstand zum Vorgänger-Regellauf **12 h 14 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h). Keine Lücke, der zweite Ausfalltyp war nicht zu prüfen.

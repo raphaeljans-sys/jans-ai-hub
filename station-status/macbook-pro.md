@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 20:30:29
+Stand: 30.08.2026 20:40:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:13)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 20:30:29
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8cc48a1c7 105. Lauf Lane FACHWISSEN: Mackintosh + Le Corbusier Moebelserie (Zeile 68)
+- f986a8237 auto-sync [Macmini]: Gordon-Russell/Svenska-Slojdforeningen + Dieter-Rams Wiki-Artikel, KORPUS-QUEUE/CHANGELOG/INDEX (107. Lauf Lane FACHWISSEN)
