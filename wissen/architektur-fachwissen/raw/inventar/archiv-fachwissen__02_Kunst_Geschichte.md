@@ -338,6 +338,17 @@ nächsten Sektion mit offenem P2.
   Positionen, kein Fliesstext) und inhaltlich allgemeinbekannt für einen eigenen Artikel.
   **Zeile 75 gilt damit als abgeschlossen.**
 
+**99. Lauf (30.08.2026):** die zwei vom 98. Lauf offen gelassenen Dateien
+`Praesentation.pdf` und `Tania_Meisser.pdf` (Zeile 74, `03_Darstellende_Kunst/05_Landart/`)
+gelesen — beide nahezu identische Fassungen derselben HSLU-Semesterarbeit (Tanja Meisser,
+2008). Destilliert zu
+[[landart-fulton-goldsworthy-prigann-oekologische-aesthetik-walking-art]] (Hamish Fulton
+«Walking Art», Andy Goldsworthy ephemere Materialkunst, Hermann Priganns vier Kategorien
+ökologischer Ästhetik inkl. Reclamation Art für Bergwerks-/Abfallhalden-Renaturierung).
+Barthes-Strukturalismus- und Diaconu-Taktilitäts-Abschnitte sowie der eigene
+Fotografie-Praxisteil der Autorin bewusst nicht destilliert (Theorie ohne Baubezug bzw.
+Studierendenwerk ohne Faktengehalt). **Damit gilt Zeile 74 als vollständig abgearbeitet.**
+
 `git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 68
 `02_Bildende_Kunst/08_Design/` (733 Dateien, Designgeschichte-Website-Spiegel) oder Zeile 72-74
 (Flandern-Reader/Kunst-der-Gegenwart-Zusammenfassung/Landart-Smithson), sonst laut Queue-Regel

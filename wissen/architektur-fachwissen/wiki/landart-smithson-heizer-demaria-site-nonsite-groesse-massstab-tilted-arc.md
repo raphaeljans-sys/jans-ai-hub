@@ -3,7 +3,7 @@ title: "Land Art: Site/Non-Site (Smithson), Grösse gegen Massstab (Heizer), das
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/03_Darstellende_Kunst/05_Landart/landart_zusammenfassung.pdf (Studierenden-Vorlesungsmitschrift, zehn datierte Sitzungen 25.02.2011 bis 13.05.2011, 10 S., vollstaendig gelesen)"]
-links: ["[[stadtlounge-st-gallen-pipilotti-rist-carlos-martinez-kunst-am-bau-studienauftrag-belagstest]]", "[[ursprung-kunst-der-gegenwart-globalisierungsthese-museumsarchitektur-empire]]", "[[denkmal-diskurs-freiheits-einheitsdenkmal-leipzig-generationelle-erinnerungszeit]]"]
+links: ["[[stadtlounge-st-gallen-pipilotti-rist-carlos-martinez-kunst-am-bau-studienauftrag-belagstest]]", "[[ursprung-kunst-der-gegenwart-globalisierungsthese-museumsarchitektur-empire]]", "[[denkmal-diskurs-freiheits-einheitsdenkmal-leipzig-generationelle-erinnerungszeit]]", "[[landart-fulton-goldsworthy-prigann-oekologische-aesthetik-walking-art]]"]
 ---
 
 # Land Art: Site/Non-Site, Grösse gegen Massstab, das Erhabene, Site-Specificity

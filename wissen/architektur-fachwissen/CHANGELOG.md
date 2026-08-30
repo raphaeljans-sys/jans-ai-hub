@@ -1,5 +1,38 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 74 Rest, Sektion `02_Kunst_Geschichte` (99. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` gelesen. `scutil` bestätigte
+Macmini, `ps -eo pid,ppid,command` zeigte genau eine laufende Instanz dieser Lane
+(PID 28067), Working Tree vor Beginn bis auf eine unkommittierte Queue-Textzeile des
+98. Laufs sauber (Top-Commit `eb9dc9272`).
+
+Die zwei vom 98. Lauf offen gelassenen Dateien `Praesentation.pdf` und `Tania_Meisser.pdf`
+(Zeile 74, `03_Darstellende_Kunst/05_Landart/`) via Read-Tool vollständig gelesen (NAS
+gemountet, `pdftotext` auf dieser Station nicht verfügbar). Beide sind nahezu identische
+Fassungen derselben HSLU-Semesterarbeit «Land Art — Natur, Ort, Mensch» von Tanja Meisser
+(Architektur, August 2008); `Praesentation.pdf` ist eine kürzere Vorabfassung ohne
+Quellenverzeichnis, `Tania_Meisser.pdf` die vollständige 28-seitige Arbeit. Destilliert zu
+[[landart-fulton-goldsworthy-prigann-oekologische-aesthetik-walking-art]]: Hamish Fultons
+«Walking Art» (spurloses Wandern als Werk, Beleg NZZ 27.07.2004 Katja Blomberg, 47-Tage-Wanderung
+1973 Schottland-Cornwall als Initialwerk), Andy Goldsworthys ephemere Materialkunst (Zerfall als
+Werkprinzip, Zitat zum Raumbegriff, Film «Rivers and Tides»), Hermann Priganns vier Kategorien
+ökologischer Ästhetik aus dem Sammelband «Ökologische Ästhetik» (Verlag für Architektur 2004,
+ISBN 3-7643-2423-6) — davon «Reclamation Art»/Ecoventions als Renaturierung von Bergwerken und
+Abfallhalden mit direktem Bezug zu Altlasten-/Brachflächen-Rückbau. Roland-Barthes-
+Strukturalismus- und Mădălina-Diaconu-Taktilitätsabschnitte sowie der eigene
+Fotografie-Praxisteil der Autorin (elf «Schritte» durch Schweizer Landschaften) bewusst nicht
+destilliert: reine Kunst-/Literaturtheorie ohne Baubezug bzw. Studierenden-Eigenwerk ohne
+Faktengehalt. Rückverlinkung im bestehenden Artikel
+[[landart-smithson-heizer-demaria-site-nonsite-groesse-massstab-tilted-arc]] ergänzt.
+
+**Damit ist Zeile 74 (`03_Darstellende_Kunst/05_Landart/`, 3 Dateien) vollständig
+abgearbeitet.** `git diff --numstat` auf die Inventardatei zeigte reinen Append.
+
+**Nächster Lauf:** Zeile 68 `08_Design` (733 Dateien, Designgeschichte-Website-Spiegel) oder
+Zeile 72 (Flandern-Reader-Rest), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
 ## 260830 — Zeile 73/74, Sektion `02_Kunst_Geschichte` (98. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
