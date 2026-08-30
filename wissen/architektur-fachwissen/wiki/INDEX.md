@@ -1901,3 +1901,19 @@ Aristophanes und Xenophon bearbeitet; 17 Positionen bleiben offen.
 Nächster Lauf: Platon, Die Gesetze (45) als nächster im Seitenverlauf
 liegender Kandidat, sonst der Rest der Liste der Reihe nach. Details in
 `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 44. P2-Lauf):** Platon, Die Gesetze (S.
+45-53, Standortkriterien gegen Küstennähe/Bodenreichtum, radial-religiöse
+Zwölfteilung von Stadt und Land um ein zentrales Heiligtum mit 5040
+Losen, spartanische Anti-Mauer-Position mit Alternative «Wohnbauten als
+durchgehender Mauerring», gesetzlich erzwungenes Ein-Handwerk-Prinzip mit
+Zwölf-Ortschaften-Raster, befristetes Metökenrecht, kontrolliertes
+Reiserecht ab 40 Jahren) destilliert →
+[[platon-die-gesetze-idealstadt-zwoelfteilung-mauerdebatte-arbeitsteilung]].
+Gegen Wiki-Bestand geprüft (`grep -rli` platon/kleinias): keine
+bestehenden Treffer, kein Duplikat. Verlinkt mit sieben Bestandsartikeln
+(Hippokrates, Vitruv, Vauban, Thukydides, Aristophanes, Xenophon,
+Aristoteles/Politik). Nach Platon bleiben 17 Positionen offen. Nächster
+Lauf: Kritias (54, Atlantis-Beschreibung, unmittelbar im Anschluss),
+sonst der Rest der Liste der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.

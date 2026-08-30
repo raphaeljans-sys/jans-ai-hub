@@ -2251,3 +2251,44 @@ Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247). **Näc
 Platon, Die Gesetze (45) als nächster im Seitenverlauf liegende und bürorelevante Kandidat
 (Staatstheorie mit Stadtbezug, direkt im Anschluss an den bereits bearbeiteten Antike-Block),
 sonst der Rest der Liste der Reihe nach.
+
+## Vierundvierzigster P2-Lauf, Platon destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen):
+`KORPUS-QUEUE.md` (Zeile 4 dort nur bis 32. Lauf nachgeführt, veraltet), `wiki/INDEX.md` und
+diese Inventardatei sind der aktuellere, deckungsgleiche Stand bis einschliesslich 43. Lauf
+(Aristophanes/Xenophon). `git status` zeigte zu Laufbeginn drei unversionierte Änderungen aus
+dem 43. Lauf (CHANGELOG.md, INDEX.md, diese Inventardatei) — Inhalt gegen den dort dokumentierten
+Stand geprüft, deckungsgleich, alle vier zugehörigen Wiki-Artikel (Thukydides, Cicero,
+Aristophanes, Xenophon) bereits als Dateien vorhanden. `ps aux` zeigte genau einen laufenden
+`claude -p`-Prozess (diesen selbst), kein `MERGE_HEAD`.
+
+Die vom 43. Lauf empfohlene erste Priorität (Platon, Die Gesetze, S. 45) bearbeitet, per
+`/opt/homebrew/bin/pdftoppm` gerendert (Pfad
+`06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf`, PDF-Seite = gedruckte
+Seite + 4, S. 45-53 vollständig gelesen, Abbruch vor der Kritias-Überschrift auf S. 54):
+
+- **Platon, Die Gesetze** (Buch IV Abschn. 1, Buch V Abschn. 14+16, Buch VI Abschn. 20, Buch
+  VIII Abschn. 12, Buch XII Abschn. 5, ca. 348-347 v. Chr.) → neuer Artikel
+  [[platon-die-gesetze-idealstadt-zwoelfteilung-mauerdebatte-arbeitsteilung]]: Standortkriterien
+  gegen Küstennähe und Bodenreichtum (moralisch begründet, nicht klimatisch), radial-religiöse
+  Zwölfteilung von Stadt und Land um ein zentrales Heiligtum (5040 Lose, Doppelwohnsitz-Pflicht),
+  spartanische Anti-Mauer-Position mit Alternative «Wohnbauten als durchgehender Mauerring»,
+  gesetzlich erzwungenes Ein-Handwerk-Prinzip mit Zwölf-Ortschaften-Raster, befristetes
+  Metökenrecht, kontrolliertes Reiserecht ab 40 Jahren. Fünf separate, im Quellenband durch
+  Auslassungspunkte getrennte Fragmente aus verschiedenen Büchern zu einem Artikel
+  zusammengefasst, da durchgehend dieselbe Gründungsstadt Magnesia betreffend.
+- Gegen Wiki-Bestand geprüft (`grep -rli` platon/kleinias über `wiki/*.md`): keine bestehenden
+  Artikel-Treffer (nur INDEX/QUESTIONS-Journaleinträge und ein beiläufiger Pacioli-Verweis ohne
+  inhaltliche Überschneidung), kein Duplikat. Verlinkt mit sieben Bestandsartikeln (Hippokrates,
+  Vitruv, Vauban, Thukydides, Aristophanes, Xenophon, Aristoteles/Politik) über inhaltliche
+  Kontraste/Parallelen in Standortlogik, Mauerdebatte und Arbeitsteilung.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste des
+40./41./42. Laufs bleibt nach Platon offen: Kritias (54), Polybios (69), Varro (73), Livius
+(95), Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125), Tacitus (131-133), Plinius
+d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius
+(155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 17
+Positionen. **Nächster Lauf:** Kritias (54, Atlantis-Beschreibung, unmittelbar im Anschluss an
+die gelesenen Platon-Seiten) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest
+der Liste der Reihe nach.

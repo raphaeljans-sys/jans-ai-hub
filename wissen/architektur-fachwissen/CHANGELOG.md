@@ -3704,3 +3704,42 @@ Tacitus, Plinius d. J., Strabo, Juvenal, Sueton, Pausanias, Achilleus Tatius, Au
 Salvianus, Francesco Colonna/Hypnerotomachia). **Nächster Lauf:** Platon, Die Gesetze (45) als
 nächster im Seitenverlauf liegende und bürorelevante Kandidat, sonst der Rest der Liste der
 Reihe nach.
+
+## 2026-08-30 — 44. P2-Lauf Sektion `01_Staedtebau`: Platon destilliert (Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, diese Datei,
+Inventardatei), deckungsgleich mit dem 43.-Lauf-Ende; die vier zugehörigen Wiki-Artikel
+(Thukydides, Cicero, Aristophanes, Xenophon) bereits als Dateien vorhanden. Nur ein laufender
+Prozess, kein `MERGE_HEAD`.
+
+Die vom 43. Lauf empfohlene erste Priorität aus `Quellentextband-1.pdf` bearbeitet, per
+`/opt/homebrew/bin/pdftoppm` gerendert (PDF-Seite = gedruckte Seite + 4, S. 45-53 vollständig
+gelesen):
+
+- Neuer Wiki-Artikel aus `Quellentextband-1.pdf` (S. 45-53, Platon, Die Gesetze, Buch IV
+  Abschn. 1, Buch V Abschn. 14+16, Buch VI Abschn. 20, Buch VIII Abschn. 12, Buch XII Abschn. 5):
+  [[platon-die-gesetze-idealstadt-zwoelfteilung-mauerdebatte-arbeitsteilung]] — Standortkriterien
+  gegen Küstennähe und Bodenreichtum (moralisch statt klimatisch begründet), radial-religiöse
+  Zwölfteilung von Stadt und Land um ein zentrales Heiligtum (5040 Lose, Doppelwohnsitz-Pflicht),
+  spartanische Anti-Mauer-Position mit Alternative «Wohnbauten als durchgehender Mauerring»,
+  gesetzlich erzwungenes Ein-Handwerk-Prinzip mit Zwölf-Ortschaften-Raster, befristetes
+  Metökenrecht, kontrolliertes Reiserecht ab 40 Jahren, `status: emerging`. Fünf separate
+  Fragmente aus verschiedenen Büchern zu einem Artikel zusammengefasst (durchgehend dieselbe
+  Gründungsstadt Magnesia). Verlinkt mit
+  [[hippokrates-von-der-luft-waessern-gegenden-staedtestandort-windrichtung]],
+  [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]],
+  [[vauban-festungsbau-bastionstheorie-graenzfestung-1704]],
+  [[thukydides-peloponnesischer-krieg-athen-mauerbau-peiraieus-synoikismos]],
+  [[aristophanes-die-voegel-meton-luftstadt-satire-radial-stadtplan]],
+  [[xenophon-cyropaedie-arbeitsteilung-stadtgroesse-spezialisierung]] und
+  [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]].
+- Gegen Wiki-Bestand geprüft (`grep -rli` platon/kleinias): keine bestehenden Artikel-Treffer,
+  kein Duplikat.
+
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+Append, `git diff --numstat` geprüft). Aus der Namensliste bleibt nach Platon offen: Kritias
+(54), Polybios (69), Varro (73), Livius (95), Seneca (105), Plinius d. Ä. (113),
+Plutarch/Romulus (125), Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal (145),
+Sueton (149), Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159),
+Francesco Colonna/Hypnerotomachia (247) — 17 Positionen. **Nächster Lauf:** Kritias (54,
+Atlantis-Beschreibung, unmittelbar im Anschluss), sonst der Rest der Liste der Reihe nach.
