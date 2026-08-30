@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 14:09:53
+Stand: 30.08.2026 14:20:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 14:09:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7e290a388 wissen/architektur-fachwissen: Salvianus (S.159, Von der Regierung Gottes) destilliert, 59. P2-Lauf Sektion 01_Staedtebau
+- d8e2a2e88 nas-selfcommit: 2 Datei(en) 2026-08-30 14:15

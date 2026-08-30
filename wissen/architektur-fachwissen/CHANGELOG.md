@@ -1,5 +1,51 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — Korpus archiv-fachwissen Sektion 02_Architekturgeschichte P1 vollständig destilliert (Lane FACHWISSEN)
+
+Vorab Memory-Korrektur: die projektinterne Gedächtnisdatei dieser Lane
+(`project_fachwissen-dispatch-loop.md`) behauptete zuletzt, P1 sei bereits über den
+gesamten Korpus `archiv-fachwissen` einschliesslich `02_Architekturgeschichte`/
+`02_Kunst_Geschichte` vollständig abgeschlossen («nichts mehr zu bearbeiten» unter
+P1-only-Mandat). Gegen die reale Inventardatei geprüft: `archiv-fachwissen__
+02_Architekturgeschichte.md` und `archiv-fachwissen__02_Kunst_Geschichte.md` trugen vor
+diesem Lauf **keine** `## Destillat-Fortschritt`-Sektion, `git log`/dieser CHANGELOG-Kopf
+endeten bei `10_Protomodern`, und `KORPUS-QUEUE.md` empfahl exakt diese beiden Sektionen
+als nächsten Schritt. Die Memory-Behauptung war falsch — derselbe Fehlertyp wie die
+bereits einmal korrigierten Einträge 60-65 (fiktive `01_Staedtebau`-Fortsetzung). Dieser
+Lauf hat auf Basis der realen Dateien gearbeitet statt auf Basis der Memory-Behauptung.
+
+Nach `KORPUS-QUEUE.md`-Empfehlung («nächstgrösste noch unbearbeitete Sektion») zu
+`02_Architekturgeschichte` übergegangen (11 P1 von 3826 Dateien, vier Triage-Gruppen).
+Alle vier P1-Positionen destilliert, fünf neue Wiki-Artikel (eine Quelle enthielt zwei
+unabhängige Themen):
+
+- [[gebaeudeanalyse-raster-bestandes-kontextanalyse]] — ETH-Prüfungsvorgabe plus
+  vollständige Musteranalyse Haus Steiger (Häfeli Moser Steiger, 1957-60): Kette
+  Lage/Erschliessung/Grundform/Achsen/Raumfolge/Fassade/Einordnung.
+- [[fachglossar-historische-bauteile-krypta-strebewerk-triforium]] — 16 Bauteilbegriffe
+  (Krypta bis Dienste, Säulenordnungen), aus einer 586-MB-Datei per `pypdf` extrahiert
+  (Read-Tool-Limit 20 MB umgangen, siehe Werkzeug-Befund unten).
+- [[tessiner-tendenza-analoge-architektur-ambiente-atmosphaere-genealogie]] — Genealogie
+  Tessiner Tendenza (Botta/Snozzi/Galfetti/Reichlin/Reinhart) über Rossi (tipo) zu
+  ambiente/Atmosphäre (Sik/Reinhart/Zumthor) zu Naturgeschichte (H&dM, Olgiati, Märkli).
+- [[archigram-living-city-situation-informelle-stadt]] — zweiter, im Inventartext nicht
+  erwähnter Themenblock derselben Quelldatei: Archigram/Living City 1963, Situationsbegriff,
+  Pop-Architektur.
+- [[objektliste-architekturgeschichte-brunelleschi-wright-toennesmann]] — geprüfte
+  ETH-Referenzliste (Tönnesmann/Hildebrand), Brunelleschi bis Frank Lloyd Wright,
+  bestätigt einen bereits dokumentierten Semper-Datierungsfehler in den
+  Architektenportraits derselben Sektion.
+
+Sperrlisten-Prüfung: kein Fund (Verträge, Adressen, Lohn-/Gesundheitsdaten). Fortschritt
+in `raw/inventar/archiv-fachwissen__02_Architekturgeschichte.md` Abschnitt
+«Destillat-Fortschritt» vermerkt (reine Ergänzung, `git diff --numstat` zeigt `31 0`).
+**Sektion `02_Architekturgeschichte` P1 vollständig abgeschlossen**, P2 (rund 160 Dateien,
+u. a. Sauter-Skript hta Luzern, sechs eigene Epochen-Übersichten) bleibt offen.
+Werkzeug-Befund: das 20-MB-Limit des Read-Tools für PDF gilt nur für das Tool selbst —
+reine Textextraktion mit `pypdf` in Python funktioniert unabhängig von der Dateigrösse
+(hier erfolgreich bei 586 MB). `KORPUS-QUEUE.md` nachgeführt: nächster Schritt gemäss
+Queue ist `02_Kunst_Geschichte` (ebenfalls 11 P1, noch unbearbeitet).
+
 ## 2026-08-30 — Korpus archiv-fachwissen Sektion 10_Protomodern P1 vollständig destilliert (Lane FACHWISSEN)
 
 Vorab Memory-Korrektur (siehe Betriebsnotiz unten): der Dispatch-Text behauptete erneut den

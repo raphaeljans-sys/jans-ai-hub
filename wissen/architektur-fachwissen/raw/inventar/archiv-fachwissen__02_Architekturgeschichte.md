@@ -165,3 +165,34 @@ Die Tonmitschnitte erst dann, wenn eine Transkriptionsstrecke existiert. Alles u
 nicht destilliert; die GarageBand-Rohspuren wären zudem ein Kandidat für eine
 Speicherbereinigung auf dem NAS, das ist aber ein Entscheid Raphaels und nicht Aufgabe dieses
 Inventars.
+
+## Destillat-Fortschritt
+
+**30.08.2026 (Lane FACHWISSEN):** Alle vier P1-Positionen destilliert, fünf Wiki-Artikel
+(eine Quelle ergab zwei thematisch getrennte Artikel):
+
+- `00_Allgemein/05_Gebaeudeanalyse/` → [[gebaeudeanalyse-raster-bestandes-kontextanalyse]]
+  (Kette Lage/Erschliessung/Grundform/Achsen/Fassade/Einordnung am Beispiel Haus Steiger,
+  plus ETH-Aufgabenstellung). Die vier Beispielanalysen Semper/Perret/Terragni/van't Hoff
+  liegen nur als reine Bildtafeln ohne Analysetext vor (`pypdf` unter 700 Zeichen je
+  Datei) — als Bildreferenz, nicht als Fliesstext auswertbar.
+- `00_Allgemein/00_Begriffe/` → [[fachglossar-historische-bauteile-krypta-strebewerk-triforium]]
+  (16 Begriffe, aus `Architektur- und Kunstgeschichte_neu1.pdf` trotz 586 MB Dateigrösse
+  per `pypdf` vollständig extrahierbar, umgeht die 20-MB-Grenze des Read-Tools). Das
+  zweite Dokument derselben Position (`architekturgeschichte_begriffe_notizen.pdf`, Scan)
+  liess sich technisch nicht auswerten (`pypdf` nur 614 Zeichen, Read-Tool bricht mit
+  „request limit" ab) — Begriffsliste und Reihenfolge decken sich aber exakt mit der
+  ausgewerteten Quelle, mutmasslich dieselben Notizen doppelt abgelegt.
+- `ArchitekturVVI_Texte.pdf` → zwei Artikel, da die Datei zwei unabhängige Themen
+  enthält: [[tessiner-tendenza-analoge-architektur-ambiente-atmosphaere-genealogie]]
+  (Schweizer Architekturdebatte, wie im Inventar beschrieben) und
+  [[archigram-living-city-situation-informelle-stadt]] (Archigram/Living City,
+  eigenständiger zweiter Themenblock derselben Datei, im Inventartext nicht erwähnt).
+- `00_Allgemein/07_Objektliste/` → [[objektliste-architekturgeschichte-brunelleschi-wright-toennesmann]]
+  (ETH-Prüfungsliste Tönnesmann/Hildebrand, Brunelleschi bis Frank Lloyd Wright,
+  bestätigt den in den Architektenportraits dokumentierten Semper-Datierungsfehler).
+
+**Alle P1-Positionen dieser Sektion vollständig destilliert.** Werkzeug-Befund: das
+20-MB-Limit des Read-Tools lässt sich für reine Textextraktion (kein Seitenlayout nötig)
+mit `pypdf` in Python umgehen, auch bei sehr grossen Dateien (hier 586 MB) — das Limit
+gilt nur für das Read-Tool selbst, nicht für den Inhalt.

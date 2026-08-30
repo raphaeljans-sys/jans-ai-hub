@@ -1,10 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 14:12:53
+Stand: 30.08.2026 14:23:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:45)
-- /Users/raphaeljans  (letzte Aktivitaet 13:59)
+- /Users/raphaeljans  (letzte Aktivitaet 14:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +12,4 @@ Stand: 30.08.2026 14:12:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c0be8b14d Sicherung 60. P2-Lauf Colonna/Hypnerotomachia
+- d8e2a2e88 nas-selfcommit: 2 Datei(en) 2026-08-30 14:15
