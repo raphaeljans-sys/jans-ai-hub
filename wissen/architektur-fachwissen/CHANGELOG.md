@@ -5028,3 +5028,42 @@ zuerst Duplikatscheck. Sperrlisten-Prüfung: kein Fund, ausschliesslich historis
 öffentlich bekannte Architekten/Bauwerke. `git diff --numstat` auf die Inventardatei zeigte
 einen reinen Append. **Nächster Lauf:** Kapitel `07 EXPRESSIONISMUS KUBISMUS` lesen, davor
 Duplikatscheck.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte`, neunter P2-Lauf: Sauter-Kapitel 07 Expressionismus/Kubismus (Lane FACHWISSEN, 76. Lauf)
+
+Dispatch-Text nennt seit der überarbeiteten Fassung bewusst keine Zahlen mehr (Lehre aus
+über 70 vorangegangenen Fehlbehauptungen, Memory `project_fachwissen-dispatch-loop`). Stand
+selbst ermittelt: `KORPUS-QUEUE.md`, `wiki/INDEX.md` und die `## Destillat-Fortschritt`-
+Abschnitte mehrerer Nachbar-Inventardateien geprüft — alle Sektionen mit höherem P1-Ertrag
+(`02_Gestalt_Kulturverstaendnis` 146, `01_Konstruktion` 101, `03_Bauprozesse_I_II` 58,
+`02_Architekturtheorie` 21, `10_Protomodern` 13) sind laut ihrem jeweils letzten Eintrag für
+P1 und P2 abgeschlossen oder ohne unblockierten Rest. `02_Architekturgeschichte` (P1 11)
+bleibt damit der ertragsstärkste offene Posten, der laufende Sauter-Kapitel-Durchgang wird
+fortgesetzt.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -lni` gegen `wiki/*.md` nach Expressionismus/
+Kubismus-Stichworten ergab Treffer in
+[[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]] (Tauts städtebauliches Spätwerk,
+keine Überschneidung mit diesem frühen Werkkanon) und im eigenen
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] (dieselben zehn
+Bauten bereits als knappe Kanon-Zeilen 45-54 ohne Beschreibungstext/Biografien geführt — wie
+schon bei Kapitel 05/06 kein Artikel-Duplikat).
+
+**Hauptarbeit:** Kapitel `07 EXPRESSIONISMUS KUBISMUS.pdf` (5 S.) vollständig gelesen und
+destilliert zu
+[[sauter-expressionismus-kubismus-prag-breslau-zehn-bauten-kanon]]: Zehn-Bauten-Kanon
+1911-1927 (Prag/Haus zur Schwarzen Mutter Gottes/Gočár, Prag/Mietshaus Neklanova-Strasse/
+Chochol, Breslau/Jahrhunderthalle/Berg, Köln/Glashaus Werkbundausstellung/Taut, Alpine-
+Architektur-Manifest/Taut, Weimar/Denkmal Märzgefallene/Gropius, Dornach/2. Goetheanum/
+Steiner, Hamburg/Chilehaus/Höger, Potsdam/Einsteinturm/Mendelsohn, Frielingsdorf/St.
+Apollinaris/Böhm) mit acht Kurzbiografien, gesellschaftspolitischem Rahmen (Umbruchphase 1.
+Weltkrieg, Arbeitsrat für Kunst 1918, «Gläserne Kette»-Manifestkultur mangels realer
+Aufträge) und einem Glossarbegriff («monolithisch», Einsteinturm-Beispiel).
+
+**5 der 13 Sauter-Dateien bleiben offen** (Kapitel 08-11, Bauhaus/De Stijl bis
+Moderne-Postmoderne). Hohe Duplikatswahrscheinlichkeit bei Kapitel 08/09 (Bauhaus, Le
+Corbusier, Mies van der Rohe — in dieser KB bereits andernorts behandelt), dort Duplikatscheck
+zwingend vor dem Schreiben. Sperrlisten-Prüfung: kein Fund, ausschliesslich historische,
+öffentlich bekannte Architekten/Bauwerke. `git diff --numstat` auf die Inventardatei zeigte
+einen reinen Append (44 Zeilen). **Nächster Lauf:** Kapitel `08 BAUHAUS DE STIJL` lesen, davor
+Duplikatscheck.
