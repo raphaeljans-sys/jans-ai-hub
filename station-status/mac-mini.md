@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 16:06:05
+Stand: 30.08.2026 16:16:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 16:05)
+- /Users/raphaeljans  (letzte Aktivitaet 16:12)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 16:06:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5ca574105 Lane FACHWISSEN: Sauter-Kapitel 05 Heimatstil/Gartenstadtbewegung destilliert
+- f4521d2de nas-selfcommit: 3 Datei(en) 2026-08-30 16:15
