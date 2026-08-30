@@ -7591,3 +7591,57 @@ Sperrliste: kein Fund (HTA-Lehrmaterial, keine Personendaten). Sicherung via
 Schrift-Systematik (9 PDF), 21 der 22 Juryberichte/-programme, ein Küssnacht-Beschrieb,
 62 der 65 Betonforum-Referate, Teile der Modellfoto-Methodik. Nächster Lauf: empfohlen
 die Schrift-Systematik (9 PDF) als nächstkleinere geschlossene Einheit.
+
+## 31.08.2026 — Sektion 02_Gestalt_Kulturverstaendnis, sechster Lauf, P1-Abschluss (Lane FACHWISSEN)
+
+Stand vor Beginn selbst ermittelt (`KORPUS-QUEUE.md`, Inventardatei, `git status`/
+`git log`), keine Zahl aus dem Dispatch-Text übernommen. Vorgefunden: ein uncommittetes
+`KORPUS-QUEUE.md` (132. Lauf, Vorgänger-Sicherung am bekannten NAS-Merge-Konflikt
+gescheitert) — hier mitgeführt statt verworfen.
+
+Position `01_Architektur_darstellen/03_Schrift/**` (9 PDF) vollständig gelesen und
+**abgeschlossen**. Vier neue Wiki-Artikel:
+
+- [[typografie-glossar-hta-luzern-fachbegriffe-satz-schrift-drucktechnik]] — aus
+  `00_Glosar/Glossar_Zusammenstellung.pdf` (18 S., Modulklasse «Kommunikation und
+  Kultur» WS 2007), rund 200 Fachbegriffe A-Z zu Satzausrichtung, Masssystemen
+  (Cicero, Punkt, Geviert, Kegel), Schriftklassen und Drucktechnik.
+- [[schriftklassifikation-maximilian-vox-formprinzip-serifen-schriftgruppen]] — aus
+  `01_Vorlesung/Schriftklassifikation.pdf` (19 S., Dozent J. Ittig), volle
+  Vox-Formprinzip-Matrix (sechs Hauptgruppen mit Unterpunkten, benannte Schriftbeispiele
+  mit Designer/Jahr), ergänzt um die kürzere Studentenarbeit
+  `03_Schriftklassifikation/Schriftklassifikation_07_11_11_A4.pdf` (Back/Jans/Neyerlin)
+  und die alternative 9-Gruppen-Klassifikation nach Beinert aus
+  `02_Schriftlesearten/071019_Vorlesungsnotizen_Ittig.pdf`.
+- [[schriftgeschichte-typografen-genealogie-duerer-gutenberg-garamond-bodoni-frutiger]] —
+  aus `01_Vorlesung/Schriftgestaltung.pdf` (19 S., WS 2006), Dürers geometrische
+  Buchstabenkonstruktion (1525), Gutenberg-Bibel, Schriftgestalter-Chronologie
+  (Garamond 1480-1561, Bodoni 1740-1813, Walbaum 1768-1837, Renner 1878-1956, Gill
+  1882-1940, Spiekermann, Aicher 1922-1991, Frutiger-Kurzbiografie).
+- [[wortbild-visuelle-poesie-schrift-als-kunst-dada-konstruktivismus-konzeptkunst]] —
+  kombiniert `01_Vorlesung/Wortbilder.pdf`, den Konstruktivismus/Dada/Futurismus-Teil
+  aus `Schriftgestaltung.pdf` (El Lissitzky, Malevich, Schwitters, Marinetti, van
+  Doesburg, Piet Zwart), die konkrete-Poesie-Übung aus
+  `071019_Vorlesungsnotizen_Ittig.pdf` (Timm Ulrichs «ordnung–unordnung») und den
+  US-Konzeptkunst-Teil aus `Schriftklassifikation.pdf` (Magritte, Zaugg, Holzer, Weiner,
+  Fulton, Nauman, Droog Design).
+
+Drei der neun Dateien ohne eigenständigen Artikel (Delta-Ehrlichkeit): `01_Vorlesung/
+Typografie.pdf` (30.11.2005, dieselben Dozenten W. Voney/C. Müller) ist ein
+**wortgleiches Duplikat** der bereits im fünften Lauf destillierten Vorlesung «Typografie
+— was sie soll und nicht soll» (identische Plakat-Schriftgrössenreihe, identische
+Univers/Frutiger-1956-Erwähnung) — kein neuer Fakt. `05_Schriftbilder/
+Schriftbilder_U1b_Back_Jans_Neyerlin.pdf` ist eine reine Vektorgrafik-Übung ohne
+Fliesstext. `04_Beispielschriften/Schriftenbeispiele.pdf` enthält eigene Font-Notizen
+Raphael Jans' («Fonts Raphael Jans») und Finder-Screenshots einer Font-Bibliothek, kein
+Lehrinhalt.
+
+`git diff --numstat` auf die Inventardatei zeigt `49 0`, reiner Append. Datenschutz/
+Sperrliste: kein Fund (HTA-Lehrmaterial und öffentlich dokumentierte Kunstpositionen,
+keine Personendaten Dritter). Sicherung via `bash scripts/nas-commit-now.sh`.
+
+**Damit sind alle P1-Positionen der Sektion `02_Gestalt_Kulturverstaendnis` bearbeitet**
+bis auf: 21 der 22 Juryberichte/-programme, ein Küssnacht-Beschrieb («Plage des Alpes»),
+62 der 65 Betonforum-Referate, Teile der Modellfoto-Methodik. Nächster Lauf: eine dieser
+Positionen (empfohlen die Juryberichte als grösster verbleibender Block), sonst laut
+`KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.

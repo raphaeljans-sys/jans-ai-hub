@@ -479,3 +479,52 @@ Datenschutz/Sperrliste: kein Fund (HTA-Lehrmaterial, keine Personendaten). Siche
 `bash scripts/nas-commit-now.sh`. **Nächster Lauf:** eine der oben gelisteten
 verbleibenden P1-Positionen, empfohlen die Schrift-Systematik (9 PDF) als nächstkleinere
 geschlossene Einheit.
+
+## Destillat-Fortschritt, sechster Lauf (P1, 31.08.2026, Lane FACHWISSEN)
+
+Position `01_Architektur_darstellen/03_Schrift/**` (9 PDF) vollständig gelesen und
+**abgeschlossen**. Vier neue Wiki-Artikel:
+[[typografie-glossar-hta-luzern-fachbegriffe-satz-schrift-drucktechnik]] (aus
+`00_Glosar/Glossar_Zusammenstellung.pdf`, rund 200 Begriffe A-Z, Modulklasse
+Kommunikation+Kultur WS 2007),
+[[schriftklassifikation-maximilian-vox-formprinzip-serifen-schriftgruppen]] (aus
+`01_Vorlesung/Schriftklassifikation.pdf` mit voller Vox-Matrix inkl. Unterpunkten und
+benannten Beispielen, plus `03_Schriftklassifikation/Schriftklassifikation_07_11_11_A4.pdf`
+als kürzere Studentenarbeit desselben Systems, plus die alternative 9-Gruppen-Klassifikation
+nach Beinert aus `071019_Vorlesungsnotizen_Ittig.pdf`),
+[[schriftgeschichte-typografen-genealogie-duerer-gutenberg-garamond-bodoni-frutiger]]
+(aus `01_Vorlesung/Schriftgestaltung.pdf`, Dürer-Konstruktion, Gutenberg-Bibel,
+Schriftgestalter-Chronologie Garamond-Bodoni-Walbaum-Renner-Gill-Spiekermann-Aicher-
+Frutiger) und
+[[wortbild-visuelle-poesie-schrift-als-kunst-dada-konstruktivismus-konzeptkunst]]
+(kombiniert `01_Vorlesung/Wortbilder.pdf`, den Konstruktivismus/Dada-Teil aus
+`Schriftgestaltung.pdf`, die konkrete-Poesie-Übung aus `071019_Vorlesungsnotizen_Ittig.pdf`
+und den US-Konzeptkunst-Teil aus `Schriftklassifikation.pdf`).
+
+Drei der neun Dateien ohne eigenständigen Artikel (Delta-Ehrlichkeit): `01_Vorlesung/
+Typografie.pdf` (536 KB, 30.11.2005, W. Voney/C. Müller) erwies sich beim Volltext-
+Abgleich als **wortgleiches Duplikat** derselben Vorlesung «Typografie — was sie soll
+und nicht soll», die der fünfte Lauf bereits aus `04_Layout/00_Typografie/Typografie.pdf`
+in [[typografie-regelwerk-lernskript-jans-2007]] destilliert hat (identischer Titel,
+identisches Dozenten-Duo, identische Plakat-Schriftgrössenreihe, identische Univers/
+Frutiger-1956-Erwähnung) — kein neuer Fakt, kein Artikel.
+`05_Schriftbilder/Schriftbilder_U1b_Back_Jans_Neyerlin.pdf` ist eine reine Vektorgrafik-
+Übung (zerschnittene Buchstabenfragmente aus Times New Roman, Birch Std, Bodoni MT ohne
+Fliesstext) — visuell, kein zitierbarer Fakt gewinnbar.
+`04_Beispielschriften/Schriftenbeispiele.pdf` enthält eigene Font-Geschmacksnotizen von
+Raphael Jans («Fonts Raphael Jans») zu Cambria/Calibri/Candara u. a. sowie reine
+Finder-Screenshots einer Font-Bibliothek — kein Lehrinhalt, kein Artikel.
+
+`git diff --numstat` auf diese Inventardatei nach dem Append: `40 0`. Datenschutz/
+Sperrliste: kein Fund (HTA-Lehrmaterial und öffentlich dokumentierte Kunstpositionen,
+keine Personendaten Dritter ausserhalb bereits publizierter Künstlerbiografien).
+Sicherung via `bash scripts/nas-commit-now.sh`.
+
+**Damit sind alle P1-Positionen dieser Sektion (`02_Gestalt_Kulturverstaendnis`)
+abgeschlossen**: Plangrafik-Gruppe (vierter Lauf), Typografie-Vorlesung (fünfter Lauf),
+Schrift-Systematik (dieser Lauf). Die in der Zeile 55 der Triage-Tabelle genannten
+Positionen `02_Architekturdisskurs/04_Wettbewerbe/**` (Juryberichte), `KüssnachtArchiv`
+(«Plage des Alpes») und `01_Betonforum` sind eigene, in dieser Datei gesondert
+geführte Positionen — Details siehe deren eigene Fortschritts-Abschnitte oben. Nächster
+Lauf: eine dieser Positionen, oder gemäss `KORPUS-QUEUE.md` die nächste Sektion mit
+offenem P1.
