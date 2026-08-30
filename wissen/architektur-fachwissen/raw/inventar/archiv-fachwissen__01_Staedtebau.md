@@ -2067,3 +2067,63 @@ der Quellentextband-Anthologie sind jetzt 37 destilliert oder begründet ohne Ar
 (S. 9-81, mehrere Autoren, keiner davon bisher gegen diese Anthologie geprüft) — nach Ertrag
 voraussichtlich ergiebiger als weitere Einzelpositionen im bereits stark bearbeiteten Bereich
 S. 200-345.
+
+## Vierzigster P2-Lauf, Homer geprüft ohne Artikel, Herodot destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen):
+`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md` und diese Inventardatei gegengeprüft. Dabei
+Diskrepanz bemerkt: `CHANGELOG.md` zeigt als jüngsten Eintrag noch den 34. Lauf (Campano), obwohl
+diese Inventardatei und die Wiki-Ordnerliste bereits den 35.-39. Lauf tragen (Pacioli, Serlio,
+Aventinus/Castiglione, Münster/Specklin, Olivier de Serres/Vasari, Leonardo da Vinci) — die
+CHANGELOG-Einträge dieser fünf Läufe sind vermutlich im dokumentierten NAS-Merge-Konflikt
+(mehrere Lane-CHANGELOGs gleichzeitig) verlorengegangen, während diese Inventardatei (append-only,
+je Sektion nur von dieser Lane beschrieben) und die Wiki-Dateien selbst unversehrt blieben. Kein
+eigener Handlungsbedarf zur Wiederherstellung (append-only, nicht rückwirkend korrigierbar), aber
+als Befund hier vermerkt. `git status`/`ps aux`: sauberer Working Tree, kein `MERGE_HEAD`, ein
+laufender Prozess.
+
+Erste Priorität aus dem 39.-Lauf-Hinweis (antiker Block Homer bis Cicero, S. 9-81) begonnen, per
+`/opt/homebrew/bin/pdftoppm` gerendert (Offset PDF-Seite = gedruckte Seite + 4, erneut bestätigt:
+Homer S. 9 = PDF-Seite 13, Herodot S. 13 = PDF-Seite 17):
+
+- **Homer, Ilias** (S. 9-12, Schiffskatalog 2. Gesang sowie Zeus/Hera-Dialog 4. Gesang, vollständig
+  gelesen): reine Städte-Epitheta ("mit prangenden Strassen", "wohlbefestigt", "weitgebaut") im
+  epischen Versmass, ohne Verfahren, Kennwert oder Regel — strukturell identisch mit den bereits
+  ohne Artikel geschlossenen Fällen Aventinus/Olivier de Serres/Al-Ghazali. **Bewusst ohne Artikel
+  geschlossen** (Delta-Ehrlichkeit).
+- **Herodot, Historien** (S. 13-24, Buch I 1-153/177-186, Buch II 97-179, Buch III 60, vollständig
+  gelesen) → neuer Artikel
+  [[herodot-historien-babylon-memphis-eupalinos-tunnel-samos]]: Babylon (Stadtquadrat 120
+  Stadien/Seite, Doppelmauer mit Kennwerten, Zweiteilung durch den Euphrat, Nitokris'
+  Flussumleitung/Rückhaltesee/Brücke als kombinierte Verteidigungs-/Hochwasserschutzanlage),
+  Ägypten (Memphis-Gründung durch Min mit Flussverlegung und dauerhafter Dammunterhaltspflicht,
+  Sesostris-Kanalnetz und Landvermessung mit Herodots eigener These zum Ursprung der Geometrie aus
+  der Nachvermessungspraxis, Bubastis-Heiligtum mit Prozessionsstrasse-Kennwerten,
+  Städteaufschüttung als Strafarbeit unter Sabakos), Samos (Eupalinos-Tunnel mit
+  Doppelvortrieb-Kennwerten, Hafenmole, Heratempel). Gegen Wiki-Bestand geprüft (`grep -rli` nach
+  «Babylon»/«Nitokris»/«Eupalinos»/«Sesostris»/«Bubastis»): drei Treffer
+  ([[bern-handfeste-1218-satzungenbuch-1405-baulinien-nachbarrecht]],
+  [[francesco-di-giorgio-martini-stadtkoerper-proportionslehre-anthropometrie]],
+  [[renaissance-idealstadt-typologie-filarete-alberti-duerer]]), alle nur beiläufige
+  Babylon-Erwähnung ohne inhaltlichen Überschneidungspunkt — kein Duplikat. Auffällig:
+  Filaretes Babylon-Angabe (365 Stadien, im Renaissance-Idealstadt-Artikel) weicht von Herodots
+  480 Stadien ab; nicht aufgelöst, da beide Quellen für sich stehen (Sekundärüberlieferung vs.
+  Primärtext), Notiz statt Korrektur.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von den 54 benannten Positionen
+sind damit **39 destilliert oder begründet ohne Artikel abgeschlossen** (37 aus dem 39.-Lauf-Stand
+plus Homer und Herodot). Die verbleibende offene Restmenge ist **nicht mehr zuverlässig auf «17
+minus 2» rückführbar**: eine Stichprobe der Master-Liste im 30.-Lauf-Abschnitt gegen alle bisherigen
+Lauf-Einträge zeigt mindestens 20 im Text nur einmalig (im Master-Listeneintrag selbst) genannte,
+seither in keinem Lauf aufgegriffene Positionen — mehr als die zuletzt geführte Zählung "17 offen"
+zulässt. Liste der konkret noch unbearbeiteten Positionen (Seitenzahlen aus dem 30.-Lauf-Abschnitt):
+Thukydides (27), Aristophanes/Die Vögel (41), Xenophon/Cyropädie (43), Platon/Die Gesetze (45),
+Kritias (54), Polybios (69), Varro (73), Cicero/Vom Staatswesen (75), Livius (95), Seneca (105),
+Plinius d. Ä. (113), Plutarch/Romulus (125), Tacitus (131-133), Plinius d. J. (137), Strabo (141),
+Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus
+(159), Francesco Colonna/Hypnerotomachia (247, bislang in keinem Lauf auch nur erwähnt). Diese Liste
+ersetzt die laufende Zählung ab sofort — künftige Läufe sollten Positionen von dieser Liste
+abhaken statt eine einzelne Zahl fortzuschreiben (Fehlerquelle über 39 Läufe hinweg). Nachtrag in
+`wiki/QUESTIONS.md`. **Nächster Lauf:** Thukydides (27) oder Cicero/Vom Staatswesen (75) als
+bürorelevante Kandidaten (Verfassungs-/Staatstheorie mit Stadtbezug), sonst der Rest der obigen
+Liste der Reihe nach.

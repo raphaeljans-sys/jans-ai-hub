@@ -4,6 +4,23 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260830 — Vierzigster P2-Lauf, Quellentextband-Zählung driftet (Korpus 4 Sektion `01_Staedtebau`)
+
+**#74 Die fortlaufende Zählung "X von 54 destilliert" der `Quellentextband-1.pdf`-Anthologie ist
+über 39 Läufe hinweg von der tatsächlichen Positionsliste abgedriftet.** Der 39.-Lauf-Stand
+behauptete "17 offen"; ein Abgleich der Master-Liste (30.-Lauf-Abschnitt in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`) gegen alle seither destillierten Positionen
+ergab mindestens 21 tatsächlich noch offene, im Master-Listentext einzeln benannte Positionen
+(Thukydides, Aristophanes, Xenophon, Platon/Die Gesetze, Kritias, Polybios, Varro, Cicero, Livius,
+Seneca, Plinius d. Ä., Plutarch/Romulus, Tacitus, Plinius d. J., Strabo, Juvenal, Sueton,
+Pausanias, Achilleus Tatius, Ausonius, Salvianus, Francesco Colonna/Hypnerotomachia) — Francesco
+Colonna/Hypnerotomachia (S. 247) wurde in keinem der 40 Läufe auch nur erwähnt. Vermutliche
+Ursache: mehrdeutige Zählweise bei mehrteiligen Positionen (z. B. Bern/Handfeste+Satzungenbuch als
+ein oder zwei Positionen, Ibn Chaldun x2). Der 40. Lauf hat die fortlaufende Einzelzahl deshalb
+durch die konkrete Namensliste ersetzt (im 40.-Lauf-Abschnitt der Inventardatei). Wer beantworten
+kann: kein externes Wissen nötig, nur Disziplin künftiger Läufe, gegen die Namensliste statt gegen
+eine Zahl zu arbeiten.
+
 ## 260830 — Dreiundzwanzigster P2-Lauf, `Quellentextband-1.pdf` (Vauban/Palladio, Korpus 4 Sektion `01_Staedtebau`)
 
 **#73 Palladios Proportionsregel Loggien-Gebäudehöhe nicht gegen Alberti-Originalstelle
