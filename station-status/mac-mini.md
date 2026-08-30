@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 13:11:08
+Stand: 30.08.2026 13:21:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 13:07)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 13:11:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 21c67bf8f Fachwissen: Tacitus Agricola/Germania/Annalen (Lampugnani S.131-136) destilliert
+- 52b217c0f nas-selfcommit: 2 Datei(en) 2026-08-30 13:15
