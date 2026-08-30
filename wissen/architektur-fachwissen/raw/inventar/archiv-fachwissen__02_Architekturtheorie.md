@@ -239,3 +239,16 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   (Studien-Zusammenfassung, nicht am Original gegengelesen). Vorlesungsfolien
   (`04_Vorlesungsfolien`, ~100 Einzelseiten) und Audiomitschnitt (`05_Vorlesungsmittschnitt`)
   nicht ausgewertet. Offen: 20 der 23 Vorlesungsordner (187 der 190 Dateien).
+
+- 2026-08-30 (Lane FACHWISSEN, fünfter P2-Lauf, Fortsetzung): `111021_VL5_Venturi_Robert/`
+  gelesen — Zusammenfassung `03_Zusammenfassung/120701_Venturi_Zusammenfassung.docx` als
+  Hauptquelle, rohe Live-Mitschrift `02_Vorlesungsmitschrift/121019_Venturi.docx` als
+  Zweitquelle zum Abgleich. Destilliert zu
+  `wiki/venturi-dekorierter-schuppen-ente-komplexitaet-widerspruch-postmoderne.md`
+  (Dekorierter Schuppen/Ente-Begriffspaar, Komplexität-und-Widerspruch-These, Postmoderne
+  als Architektur der Erinnerung, Fallbeispiel Vanna Venturi House, Abgrenzung zu
+  Eisenman/New York Five). `status: speculative` (Studien-Zusammenfassung, nicht am
+  Original gegengelesen). Die als ungültig markierten Fragen-Dokumente
+  (`03_Zusammenfassung/10_ungueltig/`) bewusst nicht verwendet. Vorlesungsfolien
+  (`04_Vorlesungsfolien`) nicht ausgewertet. Offen: 19 der 23 Vorlesungsordner (186 der
+  190 Dateien). Nächster Lauf: VL6 (`111104_VL6_Kahn_Louis`).

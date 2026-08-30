@@ -1,5 +1,37 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, fünfter P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag erneut veraltet (behauptete «kein Destillat, keine Spec, 2 Wiki-Artikel»,
+tatsächlich beide Specs geschrieben, 150+ Wiki-Artikel, 28+ Läufe, Station laut `scutil`
+Macmini statt der im Dispatch behaupteten «MacBook Pro») — nicht ausgeführt, stattdessen am
+realen `KORPUS-QUEUE.md`-Stand weitergearbeitet. Vor Arbeitsbeginn `ps aux` geprüft: kein
+zweiter FACHWISSEN-Prozess (nur eine parallele, andere Lane SYNOBSIS, kein Kollisionsrisiko).
+Working Tree enthielt bereits unkommittierte, inhaltlich fertige Buchführung des unmittelbar
+vorangegangenen Laufabschnitts (VL4 Eisenman) — zuerst per `nas-commit-now.sh` gesichert;
+Versuch traf erneut den bekannten NAS-Merge-Konflikt (sechs fremde KBs gleichzeitig
+betroffen: normen, synobsis, baurecht, grobkosten), lokaler Working Tree blieb sauber (kein
+MERGE_HEAD, keine Konfliktmarker), dem 15-Min-Cron überlassen — Details
+[[project_nas-git-merge-konflikt-dispatch-loop-260829]].
+
+Danach nächste offene Position der rund 190 Vorlesungsmitschriften bearbeitet:
+`111021_VL5_Venturi_Robert/` gelesen (Zusammenfassung als Hauptquelle, Live-Mitschrift zum
+Abgleich), destilliert zu
+`wiki/venturi-dekorierter-schuppen-ente-komplexitaet-widerspruch-postmoderne.md` —
+Dekorierter-Schuppen/Ente-Begriffspaar, «Mehr ist nicht weniger» als Umkehr von Mies'
+«less is more», Postmoderne als Architektur der Erinnerung, Fallbeispiel Vanna Venturi
+House («Haus für meine Mutter»), explizite Abgrenzung zu Eisenmans syntaktischem
+Sprachverständnis (verlinkt zu
+[[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]] und
+[[koolhaas-bigness-zwoelf-thesen-generic-city-junkspace]]). `status: speculative`
+(Studien-Zusammenfassung, nicht am Original gegengelesen). Die als ungültig markierten
+Fragen-Dokumente unter `03_Zusammenfassung/10_ungueltig/` bewusst nicht verwendet;
+Vorlesungsfolien nicht ausgewertet. `wiki/INDEX.md` Zeile 04 und
+`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschnitt «Destillat-Fortschritt»
+nachgeführt. Offen bleiben 19 der 23 Vorlesungsordner (186 der 190 Dateien) sowie die
+Vorlesungsfolien-Sammel-PDF. Nächster Lauf nach Reihenfolge: VL6
+(`111104_VL6_Kahn_Louis`).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, vierter P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag erneut veraltet (behauptete «kein Destillat, keine Spec, 2 Wiki-Artikel»,
