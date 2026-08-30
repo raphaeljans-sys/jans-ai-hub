@@ -2127,3 +2127,44 @@ abhaken statt eine einzelne Zahl fortzuschreiben (Fehlerquelle über 39 Läufe h
 `wiki/QUESTIONS.md`. **Nächster Lauf:** Thukydides (27) oder Cicero/Vom Staatswesen (75) als
 bürorelevante Kandidaten (Verfassungs-/Staatstheorie mit Stadtbezug), sonst der Rest der obigen
 Liste der Reihe nach.
+
+## Einundvierzigster P2-Lauf, Thukydides destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen):
+`KORPUS-QUEUE.md`, Specs-Ordner, `wiki/INDEX.md`, `CHANGELOG.md` und diese Inventardatei
+gegengeprüft. Dabei zwei unversionierte Änderungen (`CHANGELOG.md`, `wiki/INDEX.md`) aus dem
+40. Lauf vorgefunden — Inhalt gegen den bereits committeten 40.-Lauf-Abschnitt dieser
+Inventardatei geprüft, deckungsgleich, kein Datenverlust. Vor eigener Arbeit über
+`nas-commit-now.sh` gesichert (erste Merge-Versuche liefen erneut in den dokumentierten
+Cross-Lane-CHANGELOG-Konflikt, Skript löste automatisch auf, Commit erfolgreich).
+
+**Thukydides, Geschichte des Peloponnesischen Krieges** (S. 27-34, Buch I,2/5/7/10/88-89/93,
+Buch II,13-15, per `/opt/homebrew/bin/pdftoppm` gerendert, PDF-Seite = gedruckte Seite + 4,
+vollständig gelesen) → neuer Artikel
+[[thukydides-peloponnesischer-krieg-athen-mauerbau-peiraieus-synoikismos]]: Landflucht-/
+Küstenbesiedlungstheorie (I,2/5/7), Sparta-ohne-Prunkbauten-vs-Athens-äusserer-Anblick (I,10,
+Stadtform-als-Machtsignal-Kontrast), eiliger Mauerbau nach den Perserkriegen mit
+Themistokles' Peiraieus-Ausbau als Seemacht-Entscheidung (I,88-93, inkl. Baukennwerten:
+Blockwagen-Antransport, mörtellose Fugen mit Eisen-/Bleiklammern, nur halbe geplante Höhe
+ausgeführt), Mauerlängen-Kennwerttabelle der "Langen Mauern" 431 v. Chr. (II,13-15:
+phalerische Mauer 35 Stadien, Stadt-Ringmauer 43 Stadien, lange Mauer Peiraieus 40 Stadien,
+Peiraieus+Munychia-Mauer 60 Stadien, dazu Streitkräfte-Sollbestand), Perikles'
+Landflucht-Kriegsstrategie in die ummauerte Stadt (II,14), Theseus-Synoikismos als
+Verwaltungsreform statt Neugründung (II,15, samt Topographie der voreinigten Kernstadt um die
+Burg, Enneakrunos-Quelle). Gegen Wiki-Bestand geprüft (`grep -rli` Thukydides/Themistokles/
+Peiraieus/Synoikismos/Synoikia): zwei beiläufige Piräus-Treffer
+([[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]],
+[[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]], nur Hippodamos-Kontext,
+kein inhaltlicher Überschneidungspunkt) — kein Duplikat.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von den 54 benannten
+Positionen der Anthologie sind damit **40 destilliert oder begründet ohne Artikel
+abgeschlossen** (39 aus dem 40.-Lauf-Stand plus Thukydides). Aus der Namensliste des
+40. Laufs bleibt offen: Aristophanes/Die Vögel (41), Xenophon/Cyropädie (43), Platon/Die
+Gesetze (45), Kritias (54), Polybios (69), Varro (73), Cicero/Vom Staatswesen (75), Livius
+(95), Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125), Tacitus (131-133), Plinius
+d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius
+(155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247). **Nächster
+Lauf:** Cicero/Vom Staatswesen (75) als nächster bürorelevanter Kandidat (Verfassungstheorie
+mit Stadtbezug, direkt im Anschluss an Thukydides im selben ungeprüften Antike-Block), sonst
+der Rest der Liste der Reihe nach.

@@ -1,5 +1,27 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, einundvierzigster P2-Lauf (Thukydides destilliert, Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn selbst ermittelt: `KORPUS-QUEUE.md`, Specs-Ordner, `wiki/INDEX.md`,
+`CHANGELOG.md` und Inventardatei gegengeprüft. Zwei unversionierte Änderungen aus dem
+40. Lauf (`CHANGELOG.md`, `wiki/INDEX.md`) vorgefunden, gegen den bereits committeten
+40.-Lauf-Abschnitt der Inventardatei geprüft (deckungsgleich) und vor eigener Arbeit per
+`nas-commit-now.sh` gesichert.
+
+**Thukydides, Geschichte des Peloponnesischen Krieges** (S. 27-34, `Quellentextband-1.pdf`)
+→ neuer Artikel
+[[thukydides-peloponnesischer-krieg-athen-mauerbau-peiraieus-synoikismos]]:
+Landflucht-/Küstenbesiedlungstheorie, Sparta-vs-Athen-Stadtform-als-Machtsignal-Kontrast,
+Themistokles' eiliger Mauerbau und Peiraieus-Ausbau nach den Perserkriegen mit
+Baukennwerten, Mauerlängen-Kennwerttabelle der "Langen Mauern" 431 v. Chr., Perikles'
+Landflucht-Kriegsstrategie, Theseus-Synoikismos als Verwaltungsreform statt Neugründung.
+Gegen Wiki-Bestand geprüft, keine Duplikate.
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (41/0). Von den 54 benannten
+Positionen der `Quellentextband-1.pdf`-Anthologie sind damit 40 destilliert oder begründet
+ohne Artikel abgeschlossen, 21 offen (Liste im 41.-Lauf-Abschnitt der Inventardatei).
+**Nächster Lauf:** Cicero/Vom Staatswesen (S. 75), sonst der Rest der Namensliste.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, vierzigster P2-Lauf (Herodot destilliert, Homer ohne Artikel, CHANGELOG-Lücke der Läufe 35-39 dokumentiert, Lane FACHWISSEN)
 
 Stand vor Arbeitsbeginn selbst aus `KORPUS-QUEUE.md`, `wiki/INDEX.md`, CHANGELOG und der
