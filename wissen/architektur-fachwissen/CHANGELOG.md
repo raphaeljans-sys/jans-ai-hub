@@ -5372,3 +5372,43 @@ Append (`38 0`).
 dieser KB zuerst, laut Sichtprüfung des 68. Laufs teils sehr rohe Mitschrift-Qualität) oder
 der unbearbeitete Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51, umfangreiche
 Einzelbau-Dokumentation Brunelleschi/Michelozzo/Alberti/Rossellino).
+
+## 2026-08-30 — `Moderne.pdf` teilweise destilliert, Richardson/Chicago School/Wright (86. Lauf, Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, Inventardatei
+vollständig gelesen). Der unkommittierte Rest des 85. Laufs lag noch im Working Tree
+(`git diff --numstat` bestätigte reinen Append); `nas-commit-now.sh` ausgelöst, lief in den
+bekannten NAS-Merge-Konflikt auf der Synology-Seite (sechs fremde Lane-Dateien), lokal blieb
+der Working Tree unverändert — der lokale Auto-Sync-Cron committete den 85. Lauf während
+dieses Laufs selbständig (`46cfba68e`).
+
+`Moderne.pdf` (16 S., Tönnesmann-Zusammenfassung «Aufklärung bis Moderne») vollständig
+gelesen. Duplikatscheck (`grep -lir`) gegen alle vorkommenden Namen/Bauten zuerst ausgeführt:
+S. 1-9 (Empire-Stil Paris, Schinkel/Klenze/Gärtner München-Berlin, englische Neugotik,
+Semper-Dresden/Zürich, Garnier, Morris/Webb) überschneiden sich mit bestehenden Kanon-Zeilen
+in [[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]] und
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] — bewusst nicht
+bearbeitet (Vertiefung wäre eigener Folgeauftrag, v. a. Semper-Polytechnikum Zürich, das
+sonst nirgends in dieser KB behandelt ist). S. 10-16 (Richardson, Chicagoer
+Wolkenkratzer-Reihe, Wright bis Falling Water) erwiesen sich dagegen als kein Duplikat und
+wurden destilliert →
+[[richardson-chicago-school-wright-vom-rundbogenstil-zur-stahlskelettbauweise-organischen-architektur]]:
+Richardson (Trinity Church Boston, Marshall Field's Wholesale Store, Glessner House
+Chicago), Chicagoer Skelettbau-Reihe (First Leiter Building/Jenney, Monadnock/Reliance
+Building/Burnham), Sullivan (Auditorium Building, Wainwright Building, Charnley House),
+Wright vom Prairie House zur organischen Architektur (Home and Studio Oak Park, Robie House,
+Unity Temple, Larkin Building, Falling Water). Die letzten Zeilen (Domino-Häuser/Villa
+Stein, Le Corbusier) blieben als blosse Stichwortlisten unter der Destillationsschwelle
+unbearbeitet; Villa Savoye bereits ausführlicher in
+[[sauter-le-corbusier-mies-van-der-rohe-elf-bauten-kanon]] geführt.
+
+**`Moderne.pdf` gilt damit als teilweise destilliert** (S. 1-9 aus Duplikatsgründen bewusst
+ausgelassen, S. 10-16 destilliert bis auf die Corbusier-Stichwortzeilen). Sperrlisten-Prüfung:
+kein Fund, ausschliesslich historische, öffentlich bekannte Architekten und ihre publizierten
+Bauten des 19./20. Jahrhunderts. `git diff --numstat` auf die Inventardatei zeigte einen
+reinen Append (`39 0`).
+
+**Nächster Lauf:** Vertiefung der Schinkel/Klenze/Semper-Kanon-Zeilen um die in `Moderne.pdf`
+S. 1-9 vorhandene Fassaden-/Grundrissdetailtiefe, oder der unbearbeitete Rest von
+`Renaissance-Zusammenfassung.pdf` (S. 4-51, umfangreiche Einzelbau-Dokumentation
+Brunelleschi/Michelozzo/Alberti/Rossellino).
