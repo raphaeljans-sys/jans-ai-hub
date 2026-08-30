@@ -2,7 +2,7 @@
 title: "Monumentale Stadtachsen: Haussmanns Paris und die City-Beautiful-Planung Washington D.C."
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1852_1872_Stadtumbau_Paris_Haussmann/02_19_JH_Paris/Textbearbeitung/Zusammenfassung.doc (eigene Zusammenfassung, Vorlesungsreihe Geschichte des Städtebaus, Modul Stadtumbau Paris/Haussmann)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/01_Einleitung/110320_Einleitung_Gruene_Stadtmitte.docx (eigenes Übungs-/Testdokument «12. Modul Geschichte des Städtebaus im Netz», Modul Die grüne Stadtmitte)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/02_Uebung/2/VL Architektur der USA.doc (Vorlesungsskript Prof. Lippert, TU Dresden, Sommer 2007, Vorlesung 5 «Die aufblühende Nation: City Beautiful und École des Beaux-Arts»)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/01_Jans_Reader/PDF/00_Alles/110806_Alles.pdf S. 42-43 (eigener Reader «Geschichte des Städtebaus», Modul 9 Haussmann)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1852_1872_Stadtumbau_Paris_Haussmann/02_19_JH_Paris/Textbearbeitung/Zusammenfassung.doc (eigene Zusammenfassung, Vorlesungsreihe Geschichte des Städtebaus, Modul Stadtumbau Paris/Haussmann)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/01_Einleitung/110320_Einleitung_Gruene_Stadtmitte.docx (eigenes Übungs-/Testdokument «12. Modul Geschichte des Städtebaus im Netz», Modul Die grüne Stadtmitte)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/02_Uebung/2/VL Architektur der USA.doc (Vorlesungsskript Prof. Lippert, TU Dresden, Sommer 2007, Vorlesung 5 «Die aufblühende Nation: City Beautiful und École des Beaux-Arts»)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/01_Jans_Reader/PDF/00_Alles/110806_Alles.pdf S. 42-43 (eigener Reader «Geschichte des Städtebaus», Modul 9 Haussmann)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Hegemann_Werner/Hegemann_Capitol Square_1922.pdf, Werner Hegemann/Elbert Peets, «The American Vitruvius», 1922, Kapitel VII, S. 288 (Primärtext-Auszug)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Hegemann_Werner/Werner Hegemann – Wikipedia.pdf (Biografie)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Bellamy_Edward/Bellamy_Edward_1888.pdf, Edward Bellamy, «Ein Rückblick aus dem Jahr 2000», dt. Clara Zetkin 1914, S. 38-75 (Primärtext-Auszug)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md"]
 links: ["[[wettbewerb-gross-berlin-1908-hochhausstadt-debatte-wohnblock-reform]]", "[[us-rastersystem-jefferson-land-ordinance-commissioners-plan]]"]
 ---
 
@@ -103,6 +103,26 @@ Quellmaterial erwähnte Überlagerungsanimation vergleicht L'Enfants Idee von 17
 Parzellenplan von 1815 und dem Stadtplan von 1917 im Bereich Capitol Square — die
 Einzelaussagen dieser Überlagerung sind im Textexport nicht erhalten.
 
+**Ergänzung aus dem Primärtext** (Hegemann/Peets, «The American Vitruvius», 1922, Kapitel
+VII, S. 288, direkt gelesen statt nur sekundär referiert): der Capitol-Platz sei zu breit für
+architektonische Wirkung — mit dem Doppelten der Fläche von Piazza San Pietro, Place de la
+Concorde oder dem Tuilerien-Hof könne selbst bei «reciprocity of sight» keine
+Zusammengehörigkeit der Randbauten entstehen, «nur genug, um einen hübschen gerenderten Plan
+zu ergeben». L'Enfants eigener Entwurf sah westlich des Kapitols eine Kaskade in ein
+Reservoir vor, das über den «Grand Canal» entwässert wird, mit einem Geschäftsviertel und
+arkadengesäumten Gehwegen östlich davon — in der Ausführung ging diese Ost-West-Orientierung
+verloren, das Kapitol steht heute in einem topografisch unmotivierten Rund. Die später
+gebauten House- und Senate-Bürogebäude seien architektonisch exzellent, städtebaulich aber
+misslungen: zu weit auseinander, durch dichtes Blattwerk sommers kaum sichtbar, auf
+konvexem statt ebenem Grund — Probleme, die laut Hegemann/Peets bei Ausführung von
+L'Enfants ursprünglich kleinerem Platz vermeidbar gewesen wären. Zu den Autoren: Werner
+Hegemann (1881-1936) und der Landschaftsarchitekt Elbert Peets gründeten 1916 gemeinsam ein
+auf Vorstadtsiedlungen spezialisiertes Büro; «The American Vitruvius» (1922, rund 1200
+Abbildungen) entstand aus einer Sammlung vorbildlicher amerikanischer Stadtplanungs-
+beispiele bei schlechter Auftragslage und wurde erst 1923 zur Standardreferenz jeder
+Fachbibliothek (Quelle: deutschsprachiger Wikipedia-Biografieartikel «Werner Hegemann»,
+gelesen 30.08.2026, dort ausführlich mit Werkverzeichnis belegt).
+
 ## Ursprung der City-Beautiful-Bewegung: Chicago 1893 und die Senate Park Commission
 
 Laut einem zweiten, unabhängigen Vorlesungsskript (TU Dresden, Prof. Lippert) beginnt die
@@ -137,6 +157,20 @@ Weltanschauung wird in der Quelle als **Kommunismus** bezeichnet (grobe, nicht w
 differenzierte Zuordnung — Bellamys eigenes Konzept wird in der Sekundärliteratur meist
 präziser als früher amerikanischer Nationalist-/Staatssozialismus eingeordnet, hier nicht
 geprüft).
+
+**Ergänzung aus dem Primärtext** (direkt gelesen, deutsche Übersetzung Clara Zetkin 1914):
+der Protagonist beschreibt das Boston des Jahres 2000 von einem Dach aus als Stadt breiter,
+baumbeschatteter Strassen mit einzeln in umzäunten Gärten stehenden statt lückenlos
+gereihten Häusern, mit bepflanzten, öffentlichen Plätzen samt Statuen und Springbrunnen
+(S. 38). Sein Gastgeber Doktor Leete erklärt den baulichen Wandel wirtschaftlich, nicht
+ästhetisch: die Städte seiner Zeit (also 1887) hätten trotz vorhandenem Geschmack die Mittel
+für «glänzende Städte» nicht aufbringen können, weil der «übergrosse Individualismus»
+privaten Luxus über gemeinsamen Wohlstand gestellt habe; im Jahr 2000 werde der
+gesellschaftliche Überschuss dagegen «am liebsten für die Verschönerung der Stadt
+verwendet, weil an ihr alle in gleichem Masse ihre Freude haben» (S. 41) — die
+Stadtgestalt selbst wird hier explizit als Indikator der zugrundeliegenden
+Wirtschaftsordnung gelesen (Konzentration allen Reichtums in einem einzigen, das Volk
+vertretenden Betrieb, S. 51-52), nicht als unabhängige gestalterische Leistung.
 
 ## Praxisrelevanz
 

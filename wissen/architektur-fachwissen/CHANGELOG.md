@@ -1,5 +1,30 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zehnter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«Station MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
+
+Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/eigenes CHANGELOG geprüft: entsprach exakt
+dem Ende des neunten Laufs (Position 4, drei von 33 Autorendossiers). Acht weitere Dossiers
+gelesen (alle mit Textebene per `pypdf` extrahierbar, keine OCR nötig), drei Ordner
+(Leveille_Alain, Siedler_Wolf_Jobst, Sutcliffe_Anthony) als leer identifiziert. Sechs neue
+Wiki-Artikel: [[hill-octavia-1875-freiraum-fuer-arme-vier-raumtypen-london]],
+[[hirschfeld-1769-bern-arkaden-lauben-reisebeschreibung]],
+[[stuart-james-1771-londoner-platzkritik-rus-in-urbe]],
+[[von-moos-lampugnani-kritik-schmierfinken-2011]],
+[[pawley-aufloesung-der-stadt-digitaler-urbanismus-1996]],
+[[eitelberger-1858-staedtebau-historiographie-hippodamos-rom-wien]]. Zwei Dossiers
+(Bellamy, Hegemann Capitol Square + Wikipedia-Biografie) sowie ein weiteres (Koolhaas/
+Kohlhaas Generic-City-Sekundärtext) erwiesen sich bei Cross-Check (`grep -ril` über
+`wiki/*.md`) als bereits in bestehenden Artikeln behandelt — Delta-Ehrlichkeit: kein neuer
+Artikel, stattdessen Primärzitate/Statistik-Ergänzungen in
+[[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]] bzw.
+[[koolhaas-bigness-zwoelf-thesen-generic-city-junkspace]] eingefügt. Anonymisierungsregel
+für HSLU-Textanalysen weiterhin angewendet (Verfassernamen nicht im Artikeltext).
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (`77 0`). Von den 33
+Autorendossiers der Position 4 sind jetzt elf destilliert, drei Ordner leer, 19 bleiben
+offen (Migge/Taut/Rossi vor Destillation gegen bestehende Wiki-Artikel prüfen). Details:
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` Abschnitt Destillat-Fortschritt,
+`wiki/INDEX.md`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, neunter P2-Lauf (Position 4 begonnen, Lane FACHWISSEN, 60. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
 
 Dispatch-Text unverändert seit dem 29.08.2026 identisch, obwohl beide Korpus-Specs seit

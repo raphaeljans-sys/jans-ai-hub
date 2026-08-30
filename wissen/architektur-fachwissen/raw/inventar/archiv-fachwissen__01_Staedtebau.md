@@ -572,3 +572,80 @@ Moos, Waldheim, sowie eine unzugeordnete `kapitel01_dk_vorindustrielle_120dpi.pd
 **Nächster Lauf:** Position 4 fortsetzen, geeignete nächste Kandidaten mit eigenem
 Textmaterial vorab per `ls`/Dateigrösse sichten (nicht jedes Dossier hat wie bei
 Jacobs/Lynch/Corboz einen fertigen Fliesstext).
+
+**30.08.2026 (Lane FACHWISSEN, zehnter P2-Lauf, Position 4 fortgesetzt — acht weitere der
+33 Autorendossiers):** vor Arbeitsbeginn wie üblich `scutil` (Macmini bestätigt, Dispatch-Text
+weiterhin identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«Station MacBook
+Pro»), `ps aux` (nur der eigene Prozess, keine Doppel-Instanz) und `KORPUS-QUEUE.md`/
+`CHANGELOG.md` gegengeprüft — Stand entsprach exakt dem Ende des neunten Laufs oben.
+Ordnerliste der verbleibenden 30 Dossiers nach Dateigrösse/-anzahl gesichtet: drei Ordner
+(Leveille_Alain, Siedler_Wolf_Jobst, Sutcliffe_Anthony) sind **leer**, keine Datei
+vorhanden — dauerhaft ohne Ertrag, nicht Werkzeugfehler. Acht Dossiers mit kleinen,
+textführenden PDF per `pypdf` extrahiert und gelesen (alle Primärquellenauszüge ausser
+Kohlhaas/Hegemann-Wikipedia, die Sekundärtexte sind):
+
+- `Bellamy_Edward/Bellamy_Edward_1888.pdf` (Edward Bellamy, «Looking Backward», dt.
+  Auszug S. 38-75) — **kein eigener Artikel**, da der bestehende Artikel
+  [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]] Bellamy bereits aus
+  Sekundärquelle behandelt; stattdessen als Primärzitat-Ergänzung dort eingefügt
+  (Delta-Ehrlichkeit).
+- `Hill_Octavia/Hill_Octavia_kurz.pdf` (Octavia Hill, «Space for the People», 1875) → neuer
+  Artikel [[hill-octavia-1875-freiraum-fuer-arme-vier-raumtypen-london]] (vier
+  Freiraumtypen: Sitzplätze, Spielplätze, Spazierwege, Tagesausflugsziele).
+- `Hirschfel_Christian_CL/Christian C.L. Hirschfeld_kurz.pdf` (Hirschfeld, «Briefe über die
+  Schweiz», 1769, Bern-Kapitel) → neuer Artikel
+  [[hirschfeld-1769-bern-arkaden-lauben-reisebeschreibung]] (Lauben-Systematik, Stadtbach als
+  Mehrfachinfrastruktur).
+- `Stuart_James/Stuart_James_kurz.pdf` (James Stuart, «Critical Observations on the
+  Buildings and Improvements of London», 1771) → neuer Artikel
+  [[stuart-james-1771-londoner-platzkritik-rus-in-urbe]] (Kritik am «Rus in Urbe»,
+  Gegenposition zu Sitte rund 120 Jahre früher).
+- `Von_Moos_Stanislav/111203_Schmierfinken der Architektur - NZZ.ch, 03.12.2011.pdf`
+  (Stanislaus von Moos gegen Lampugnani) → neuer Artikel
+  [[von-moos-lampugnani-kritik-schmierfinken-2011]] (dokumentierte Fachdebatte zur
+  «kritischen Stadtrekonstruktion»).
+- `Pawley_Martin/Neyerlin_AufloesungDerStadt.pdf` (Sekundärtext zu Martin Pawley, «Die
+  Auflösung der Stadt», 1996) → neuer Artikel
+  [[pawley-aufloesung-der-stadt-digitaler-urbanismus-1996]] (Stealth-Architektur,
+  Ersatzstadt).
+- `Kohlhas_Rem/Die Stadt ohne Eigenschaften_Lukas.pdf` (Sekundärtext zu Koolhaas, «The
+  Generic City») — **kein eigener Artikel**, Thema bereits vollständig im bestehenden
+  Artikel [[koolhaas-bigness-zwoelf-thesen-generic-city-junkspace]] (Korpus
+  `archiv-fachwissen__02_Architekturtheorie`) abgedeckt; als statistische/thematische
+  Ergänzung (Bevölkerungswachstum 2,5→15 Mio., Flughafen-Identität, Klima, Hotel-Typologie)
+  dort eingefügt.
+- `Hegemann_Werner/Hegemann_Capitol Square_1922.pdf` (Primärzitat aus Hegemann/Peets, «The
+  American Vitruvius», Kap. VII) und `Hegemann_Werner/Werner Hegemann – Wikipedia.pdf`
+  (Biografie) — **kein eigener Artikel**, Thema (Capitol Square, City Beautiful) bereits im
+  bestehenden Artikel [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]]
+  sekundär behandelt; Primärzitat und Autoren-Biografie dort als Ergänzung eingefügt.
+
+Eine weitere Datei geprüft und verworfen: `Eitelberger_Rudolf/Eitelberger_Rudolph_kurz2.pdf`
+(Rudolph Eitelberger, «Ueber Städteanlagen und Stadtbauten», Wiener Vortrag 1858) →
+tatsächlich doch ein neuer Artikel
+[[eitelberger-1858-staedtebau-historiographie-hippodamos-rom-wien]] (Hippodamos als erster
+Städtebauer, Rom-Wien-Analogie, Vier-Naturen-Systematik der Stadt) — die zweite,
+namensgleiche Datei im selben Ordner (`Rudolph Eitelberger_kurz2(2).pdf`) ist eine exakte
+Dublette (identische Dateigrösse), nicht separat gelesen.
+
+Anonymisierung wie in früheren Läufen angewendet: die Namen der HSLU-Studierenden (Kohlhaas-
+und Pawley-Textanalysen) erscheinen in keinem Artikeltext, nur als Teil des Original-
+Dateinamens in der Quellenangabe. Cross-Check gegen bestehende Wiki-Artikel vor jeder
+Destillation durchgeführt (`grep -ril` über `wiki/*.md`): Bellamy, Hegemann/City Beautiful
+und Koolhaas/Generic City erwiesen sich als bereits (teils sekundär) behandelt und wurden
+entsprechend als Ergänzung statt Duplikat eingearbeitet.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Von den 33
+Autorendossiers der Position 4 sind damit elf bearbeitet** (Jacobs, Lynch, Corboz, Bellamy,
+Hill, Hirschfeld, Stuart, Von Moos, Pawley, Kohlhaas, Hegemann) sowie drei als leer/ohne
+Ertrag identifiziert (Leveillé, Siedler, Sutcliffe) und Eitelberger als weitere, zuvor nicht
+gezählte Position ergänzt destilliert; **19 Dossiers bleiben offen**: Behne, Christiansen,
+Darmstaedter_Gespraeche, Engels (Restdossier, vgl. bereits destillierten Fund im
+Übungsheft-Lauf), Giedion, Gracq, Hilberseimer, Howard, Jefferson, Lampugnani, Migge
+(gegen bestehenden Artikel [[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]]
+prüfen, bevor destilliert wird), Mumford, Muratori, Rossi (gegen bestehende Rossi-Artikel
+aus Korpus `archiv-fachwissen__02_Architekturtheorie` prüfen), Sievers, Sonne, Taut (gegen
+denselben Migge/Taut-Artikel prüfen), Tessenow, Von Moos-Restdatei keine mehr, Waldenheim,
+sowie die unzugeordnete `kapitel01_dk_vorindustrielle_120dpi.pdf`. **Nächster Lauf:**
+Position 4 fortsetzen, dabei Migge/Taut/Rossi zuerst gegen bestehende Artikel prüfen (siehe
+oben), bevor destilliert wird.

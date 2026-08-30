@@ -2,7 +2,7 @@
 title: "Koolhaas — Bigness (zwölf Thesen), Generic City und Junkspace"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111007_VL3_Rem_Koolhaas_SMLXL_Folgen/02_Vorlesungsmitschrift/03_Zusammenfassung/120727_Rem_Koolhaas_SMLXL_2.docx (eigene Vorlesungs-Zusammenfassung, datiert 27.07.2012, Bezug Vorlesung 3 vom 07.10.2011, Referenzprofessur Á. Moravánszky/S. Hildebrand, ETH Zürich gta, Textbezug R. Koolhaas «S,M,L,XL», 1995, Kapitel «Bigness» und «The Generic City»)"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/111007_VL3_Rem_Koolhaas_SMLXL_Folgen/02_Vorlesungsmitschrift/03_Zusammenfassung/120727_Rem_Koolhaas_SMLXL_2.docx (eigene Vorlesungs-Zusammenfassung, datiert 27.07.2012, Bezug Vorlesung 3 vom 07.10.2011, Referenzprofessur Á. Moravánszky/S. Hildebrand, ETH Zürich gta, Textbezug R. Koolhaas «S,M,L,XL», 1995, Kapitel «Bigness» und «The Generic City»)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Kohlhas_Rem/Die Stadt ohne Eigenschaften_Lukas.pdf (studentische Textanalyse HSLU-Modul «Gebautes Umfeld» SS07, zu Koolhaas «The Generic City»)"]
 links: ["[[delirious-new-york-retroaktives-manifest-culture-of-congestion-pk-methode]]", "[[manhattanismus-koolhaas-monumentalitaet]]"]
 ---
 
@@ -86,6 +86,21 @@ Kernthesen laut Zusammenfassung:
 Als Vergleichsstädte nennt die Mitschrift London (laut Text «ohne eigene Identität, als
 Ausnahme gelesen») und Zürich («umgekehrte Archäologie: Modernität als Schicht unter dem
 Stadtzentrum»).
+
+**Ergänzung aus einer unabhängigen Sekundärquelle** (studentische Textanalyse, HSLU-Modul
+«Gebautes Umfeld» SS07, zu Koolhaas' Originaltext «The Generic City» in «S,M,L,XL»): die
+eigenschaftslose Stadt sei in den frühen 1970ern im Schnitt 2,5 Mio. Einwohner gross
+gewesen, inzwischen (Textstand SS07) auf durchschnittlich 15 Mio. angewachsen — eine
+unumkehrbare Land-Stadt-Wanderung, die selbst so expansiv sei, dass die Stadt ihrerseits
+aufs Land hinauswachse. Weitere, in der Vorlesungsmitschrift nicht enthaltene Merkmale laut
+dieser Quelle: der Flughafen als eigentliches Identitätsmerkmal (Fotowandbilder,
+Vegetation, Trachten als «erste und letzte Konfrontation mit der örtlichen Identität»,
+manche Flughäfen kaum noch an eine bestimmte Stadt gebunden); die eigenschaftslose Stadt
+bevorzugt tendenziell wärmere Klimazonen («besseres Klima = schönere Menschen»); jede Stadt
+bewahrt einen «Lippenbekenntnis-Stadtteil» mit restaurierten Einzelbauten als Feigenblatt-
+Geschichte; Bürohäuser (Kommen-und-Gehen) werden durch Hotels als typischsten Gebäudetyp
+abgelöst. Ergänzt die Mitschrift-Fassung um konkrete Zahlen und Beispielkategorien, ohne ihr
+zu widersprechen.
 
 ## Junkspace
 
