@@ -32,6 +32,15 @@ Eigene Messung nativ per ssh (nicht über den SMB-Mount): Divergenz jetzt **78 C
 **Was sich für die Aktion ändert:** Der fertige Befehl oben bleibt gültig. Ergänzend zu bedenken, weil es die Auflösung mit jeder Stunde teurer macht: solange beide Seiten weiterlaufen, wächst die Konfliktmenge. Eine Überlegung für den Einzelentscheid ist deshalb, die schreibenden Loops **für die Dauer der Auflösung** ruhen zu lassen — das ist ausdrücklich **kein** Vorschlag, den Claude selbst umsetzt (Drosseln bleibt Raphaels Entscheid, Lehre 25.07.2026), sondern ein Hinweis für den Moment, in dem der Konflikt von Hand angefasst wird.
 | Eigene Messung 30.08.2026 01:5x per ssh (`git status -sb`, `git merge-base`, `git log`), Merge-Ausgabe des Laufs | Hub-Infrastruktur / alle KBs und Stationen | **hoch (P1)** | offen — unverändert Einzelentscheid Raphael, Konfliktmenge gewachsen |
 
+**NACHTRAG 30.08.2026, Nachtschicht Mac Mini — P1 weiter gewachsen: 93 voraus / 46 zurück.** Eigene
+Messung nativ per ssh (`git status -sb`): **93 Commits nur auf dem NAS, 46 nur auf GitHub**, gegenüber
+78/39 rund vier Stunden zuvor (Run 66) und 31/13 acht Stunden zuvor (Run 167) — die Divergenz wächst
+weiter an, kein Abgleich hat seither stattgefunden. Kein Merge/Rebase-Versuch in dieser Session
+unternommen (unverändert Rule `interaktive-eingriffe`/`auto-verbesserungen` 260811 Punkt 3: fremde,
+unbestätigte Arbeit, Einzelentscheid bei den Konfliktdateien bleibt bei Raphael). Der fertige Befehl
+im Eintrag oben (Zeile 22) bleibt gültig und unverändert der schnellste Einstieg.
+| Eigene Messung 30.08.2026 per ssh (`git status -sb`) | Hub-Infrastruktur / alle KBs und Stationen | **hoch (P1)** | offen — unverändert Einzelentscheid Raphael, Konfliktmenge weiter gewachsen |
+
 
 **NEU 28.08.2026, 22:5x (energie-training Run 166) — Das Gebäudeprogramm wird abgelöst: GFM 2028, Vernehmlassung Herbst 2026.** Die EnDK hat **heute**, 28.08.2026, an ihrer Plenarversammlung in Mendrisio das **Gemeinsame Fördermodell Bund-Kantone 2028 (GFM 2028)** bekanntgegeben. Es löst ab 2028 das seit 2017 geltende **HFM 2015** ab, durch Fusion von Gebäude- und Impulsprogramm; die gesetzliche Grundlage kam über das **Entlastungspaket 2027** des Bundesparlaments. Wörtlich aus der Mitteilung: das Modell «fokussiert stärker auf jene Massnahmen, die eine besonders hohe Wirkung für die Energie- und Klimaziele erzielen», die «Fördervoraussetzungen werden weiterentwickelt, um … **Mitnahmeeffekte zu reduzieren**» — also eher engere Bedingungen, nicht nur andere Beträge.
 **Warum das hier steht und nicht nur im Laufbericht:** Das HFM 2015 ist die **meistzitierte Förderquelle** der KB `energie` und die Grundlage jeder Förderauskunft an eine JANS-Bauherrschaft. Bis Ende 2027 bleibt alles gültig — aber jede Aussage mit Wirkung **ab 2028** steht ab sofort unter Vorbehalt. **Termin:** «Das neue Fördermodell wird **im Herbst 2026** durch den Bund im Rahmen der **Revision der Energieverordnung** in die Vernehmlassung geschickt.» Dann werden die konkreten Fördervoraussetzungen erstmals lesbar; bis dahin gibt es ausser Fusion und Stossrichtung keine belegten Details.
