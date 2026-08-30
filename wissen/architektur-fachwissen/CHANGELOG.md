@@ -1,5 +1,35 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, siebter P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag erneut veraltet (behauptete «kein Destillat, keine Spec, 2 Wiki-Artikel»,
+tatsächlich beide Specs geschrieben, 160+ Wiki-Artikel, 29+ Läufe, Station laut `scutil`
+Macmini statt der im Dispatch behaupteten «MacBook Pro») — nicht ausgeführt. `ps -o
+pid,ppid,command` zeigte nur eine FACHWISSEN-Instanz (kein Doppel-Dispatch). Working Tree
+enthielt beim Start die inhaltlich fertige, aber unkommittierte Buchführung des VL6-Kahn-Laufs
+(Wiki-Artikel bereits separat committet). Zuerst per `nas-commit-now.sh` gesichert; Versuch
+traf erneut den bekannten NAS-Merge-Konflikt (sechs fremde KBs gleichzeitig betroffen: normen,
+synobsis, architekten-synobsis, baurecht, grobkosten), lokaler Working Tree blieb sauber (kein
+`MERGE_HEAD`, keine Konfliktmarker) — der 15-Min-Cron committete die gesicherte Arbeit kurz
+danach selbständig (Commit `52fba42cd`), bevor dieser Lauf fortsetzte.
+
+Danach `111111_VL7_Rossi_Aldo/` geprüft (laut Buchführung des Vorlaufs der nächste offene
+Vorlesungsordner). Fragen-Katalog und Fallbeispiel Cimitero San Cataldo waren wie erwartet
+bereits destilliert; `02_Vorlesungsmitschrift/111111_Die_Analoge_Architektur.docx` (rohe
+Live-Mitschrift) enthielt aber eigenständigen Stoff: den Begriff der Analogen Architektur/
+Analogie-Prozess (Blaues Heft, Wissenschaftliche Selbstbiografie, Bezug Miroslav Sik), ein
+zweites Typus-Beispiel (Diokletianspalast Split, zusätzlich zum bereits destillierten
+Lucca-Beispiel), malerische Bezüge (Hopper, de Chirico, Piranesi «Campo Marzio») und
+institutionsgeschichtlichen Kontext zu Rossis ETH-Lehrzeit 1973-1975 (Hoesli, GTA-Gründung,
+Prägung von Meili/Märkli, Fortführung zu Kerez/Oligiati als Neo-Rationalismus-Synthese mit
+Cross-Referenz zum bestehenden Kahn-Artikel). Destilliert zu
+`wiki/rossi-analoge-architektur-typus-piranesi-eth-lehrzeit.md`, `status: speculative` wegen
+ungewöhnlich fehlerhafter Quelle (Tippfehler, lautschriftliche Verschreibungen). `01_Sylabus`
+(bereits über die Literaturlandkarte abgedeckt), Vorlesungsfolien und Tonmitschnitt bewusst
+nicht ausgewertet. Damit ist `111111_VL7_Rossi_Aldo` vollständig bearbeitet. Offen: 17 der 23
+Vorlesungsordner (rund 183 der 190 Dateien). Nächster Lauf: nächste noch nicht gesichtete
+Vorlesung nach Ordnernummer (`111118_VL8` o. ä.).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, sechster P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag erneut veraltet (behauptete «kein Destillat, keine Spec, 2 Wiki-Artikel»,

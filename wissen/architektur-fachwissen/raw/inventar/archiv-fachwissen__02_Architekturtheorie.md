@@ -270,3 +270,23 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   Achtung: das Rossi-Fallbeispiel (Cimitero San Cataldo) ist bereits im Fallbeispiel-
   Register destilliert, dort auf andere, noch offene Inhalte prüfen (Theorie der
   Permanenz ist ebenfalls bereits als eigener Artikel vorhanden, siehe INDEX).
+
+- 2026-08-30 (Lane FACHWISSEN, siebter P2-Lauf, Fortsetzung): `111111_VL7_Rossi_Aldo/`
+  geprüft. Wie erwartet waren der Fragen-Katalog (bereits als P1 destilliert, siehe oben
+  30.08. zweiter P2-Lauf) und das Fallbeispiel Cimitero San Cataldo (bereits im
+  Fallbeispiel-Register) abgedeckt. `02_Vorlesungsmitschrift/111111_Die_Analoge_Architektur.docx`
+  (rohe Live-Mitschrift) enthielt aber eigenständigen, noch nicht destillierten Stoff:
+  Begriff der Analogen Architektur/Analogie-Prozess (Blaues Heft, Wissenschaftliche
+  Selbstbiografie, Bezug Miroslav Sik), ein zweites Typus-Beispiel (Diokletianspalast
+  Split), malerische Bezüge (Hopper, de Chirico, Piranesi Campo Marzio) und
+  institutionsgeschichtlicher Kontext zu Rossis ETH-Lehrzeit 1973-1975 (Hoesli, GTA-Gründung,
+  Fortführung zu Kerez/Oligiati als Neo-Rationalismus-Synthese, Cross-Referenz zum
+  Kahn-Artikel). Destilliert zu
+  `wiki/rossi-analoge-architektur-typus-piranesi-eth-lehrzeit.md`, `status: speculative`
+  (Quelle ungewöhnlich fehlerhaft: Tippfehler, lautschriftliche Verschreibungen — Namen und
+  Zitate vor Aussenwirkung gegenprüfen). `01_Sylabus` (bereits über die Literaturlandkarte
+  abgedeckt), `03_Folie` und `04_Tonmittschnitt` bewusst nicht ausgewertet (Folien/Audio,
+  Konvention wie bei VL2-VL6). Damit ist `111111_VL7_Rossi_Aldo` **vollständig** bearbeitet
+  (keine offenen Dateien mehr in diesem Vorlesungsordner ausser Folien/Audio). Offen: 17 der
+  23 Vorlesungsordner (rund 183 der 190 Dateien). Nächster Lauf: `111118_VL8` bzw. nächste
+  noch nicht gesichtete Vorlesung nach Ordnernummer.
