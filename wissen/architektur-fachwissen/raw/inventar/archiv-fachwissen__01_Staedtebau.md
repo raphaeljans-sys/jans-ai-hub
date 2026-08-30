@@ -2168,3 +2168,43 @@ d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achille
 Lauf:** Cicero/Vom Staatswesen (75) als nächster bürorelevanter Kandidat (Verfassungstheorie
 mit Stadtbezug, direkt im Anschluss an Thukydides im selben ungeprüften Antike-Block), sonst
 der Rest der Liste der Reihe nach.
+
+## Zweiundvierzigster P2-Lauf, Cicero destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen):
+`KORPUS-QUEUE.md` (Zeile 4 dort veraltet, nur bis 32. Lauf nachgeführt — CHANGELOG.md und
+diese Inventardatei sind der aktuellere Stand, deckungsgleich mit dem 41.-Lauf-Ende, das
+Formulierungen aus dem 39.-/40.-Lauf-Abschnitt der `KORPUS-QUEUE.md`-Zeile widerspiegeln),
+`wiki/INDEX.md` (Tabellenzeile trug bereits Nachträge bis Lauf 41, der ausführliche
+Lauf-Journal-Abschnitt am Dateiende aber nur bis Lauf 39 — fehlende Lauf-40/41-Absätze
+nachgetragen, kein Datenverlust, nur unvollständige Fortschreibung des Journals).
+`git status`/`ps aux`: sauberer Working Tree, kein `MERGE_HEAD`, ein laufender Prozess.
+
+Erste Priorität aus dem 41.-Lauf-Hinweis (Cicero, Vom Staatswesen, S. 75) bearbeitet, per
+`/opt/homebrew/bin/pdftoppm` gerendert (Pfad
+`06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf`, PDF-Seite = gedruckte
+Seite + 4, S. 75-81 vollständig gelesen):
+
+- **Cicero, Vom Staatswesen** (De re publica, Buch I,26 und Buch II,1-6, ca. 54-51 v. Chr.)
+  → neuer Artikel
+  [[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]]: Stadtdefinition über das
+  Sicherheitsbedürfnis (befestigter Platz, mit Heiligtümern/öffentlichen Plätzen eine Stadt)
+  und drei Staatsformen nach Sitz der Beschlusskompetenz (Königtum/Optimatenherrschaft/
+  Volksstaat, keine grundsätzlich überlegen); Roms Verfassung als Werk vieler Generationen
+  statt eines einzelnen Gesetzgebers (Kontrastfolie Minos/Lykurg/Theseus-Drakon-Solon-
+  Kleisthenes/Demetrios von Phaleron); Romulus' ausführlich begründete Binnenlage-
+  Entscheidung am Tiber statt an der Küste (verdeckte Gefahr See- vs. sichtbare
+  Landbedrohung, Sittenverfall/Instabilität der Seestädte mit Karthago/Korinth als Belegen,
+  hybride Lösung Fluss-Binnenlage kombiniert Handelsvorteil mit reduziertem Risiko).
+  Auszug bricht auf S. 81 mitten im Argument zur natürlichen Verteidigungslage ab.
+- Gegen Wiki-Bestand geprüft (`grep -rli` nach «cicero»/«romulus» über `wiki/*.md`): keine
+  bestehenden Treffer, kein Duplikat.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von der Namensliste des
+40./41. Laufs sind damit Thukydides und Cicero bearbeitet; weiterhin offen: Aristophanes/Die
+Vögel (41), Xenophon/Cyropädie (43), Platon/Die Gesetze (45), Kritias (54), Polybios (69),
+Varro (73), Livius (95), Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125), Tacitus
+(131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151),
+Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia
+(247). **Nächster Lauf:** Aristophanes/Die Vögel (41) oder Xenophon/Cyropädie (43) als
+nächste im Seitenverlauf liegende Kandidaten, sonst der Rest der Liste der Reihe nach.

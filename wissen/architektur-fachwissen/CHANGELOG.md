@@ -3604,3 +3604,68 @@ Vasari il Giovane destilliert (Lane FACHWISSEN)
   S. 200-345, aber vor Arbeitsbeginn gegen den tatsächlichen Wiki-Bestand zu verifizieren (mehrere
   Autoren dieses Blocks, z. B. Aristoteles/Hippokrates/Palladio, sind an anderer Stelle der
   Anthologie bereits destilliert).
+
+## 2026-08-30 — 40. P2-Lauf Sektion `01_Staedtebau`: Homer ohne Artikel, Herodot destilliert (Lane FACHWISSEN)
+
+Nachtrag zur Vollständigkeit: dieser Lauf war bereits in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`
+und `wiki/INDEX.md` dokumentiert, fehlte hier jedoch (mutmasslich derselbe Cross-Lane-CHANGELOG-Merge-
+Konflikt, der auch die Läufe 35-39 zeitweise betraf, siehe deren Fundnotiz oben). Homer, Ilias (S. 9-12,
+Schiffskatalog/Zeus-Hera-Dialog) geprüft, **ohne Artikel geschlossen** (reine Städte-Epitheta ohne
+Verfahren/Kennwert). Herodot, Historien (S. 13-24, Buch I/II/III) destilliert →
+[[herodot-historien-babylon-memphis-eupalinos-tunnel-samos]] (Babylon-Doppelmauer mit Kennwerten,
+Nitokris' Flussumleitung, Memphis-Gründung durch Min, Sesostris-Kanalnetz, Eupalinos-Tunnel Samos).
+Dabei Zähl-Drift der laufenden "X von 54"-Zählung entdeckt (39.-Lauf-Stand "17 offen" nicht mehr mit der
+tatsächlichen Positionsliste vereinbar) und durch konkrete Namensliste ersetzt — Details `wiki/QUESTIONS.md`
+#74 und 40.-Lauf-Abschnitt der Inventardatei. **Nächster Lauf:** Thukydides (27) oder Cicero (75).
+
+## 2026-08-30 — 41. P2-Lauf Sektion `01_Staedtebau`: Thukydides destilliert (Lane FACHWISSEN)
+
+Nachtrag zur Vollständigkeit (gleicher Grund wie oben). Thukydides, Geschichte des Peloponnesischen
+Krieges (S. 27-34) destilliert →
+[[thukydides-peloponnesischer-krieg-athen-mauerbau-peiraieus-synoikismos]] (Landflucht-/
+Küstenbesiedlungstheorie, Themistokles' eiliger Mauerbau/Peiraieus-Ausbau mit Baukennwerten,
+Mauerlängen-Kennwerttabelle der «Langen Mauern» 431 v. Chr., Theseus-Synoikismos als
+Verwaltungsreform statt Neugründung). Vor eigener Arbeit unversionierte CHANGELOG/INDEX-Änderungen
+aus dem 40. Lauf via `nas-commit-now.sh` gesichert. **Nächster Lauf:** Cicero/Vom Staatswesen (75).
+
+## 2026-08-30 — 42. P2-Lauf Sektion `01_Staedtebau`: Cicero destilliert (Lane FACHWISSEN)
+
+Vor Laufbeginn Stand selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen): `KORPUS-QUEUE.md`
+(Zeile 4 nur bis 32. Lauf nachgeführt, damit veralteter als CHANGELOG/Inventardatei/INDEX-Tabellenzeile),
+`wiki/INDEX.md`, diese Datei und die Inventardatei gegengeprüft. Dabei zwei Lücken gefunden und behoben:
+diese Datei fehlten die CHANGELOG-Einträge der Läufe 40-41 (oben nachgetragen), `wiki/INDEX.md` fehlten
+im ausführlichen Lauf-Journal-Abschnitt (Dateiende) die Absätze zu Lauf 40/41, obwohl die
+Tabellenzeile der Sektion sie bereits als Nachtrag trug (ebenfalls nachgetragen). Kein Datenverlust,
+nur unvollständige Fortschreibung. `git status`/`ps aux`: sauberer Working Tree, kein `MERGE_HEAD`,
+ein laufender Prozess.
+
+Erste Priorität aus dem 41.-Lauf-Hinweis bearbeitet, per `/opt/homebrew/bin/pdftoppm` gerendert (Pfad
+`06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf`, PDF-Seite = gedruckte Seite + 4,
+S. 75-81 vollständig gelesen):
+
+- Neuer Wiki-Artikel aus `Quellentextband-1.pdf` (S. 75-81, Cicero, Vom Staatswesen/De re publica,
+  Buch I,26 und Buch II,1-6, ca. 54-51 v. Chr.):
+  [[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]] — Stadtdefinition über das
+  Sicherheitsbedürfnis und drei Staatsformen nach Sitz der Beschlusskompetenz (Königtum/
+  Optimatenherrschaft/Volksstaat, keine grundsätzlich überlegen); Roms Verfassung als Werk vieler
+  Generationen statt eines einzelnen Gesetzgebers (Kontrastfolie Minos/Lykurg/Theseus-Drakon-Solon-
+  Kleisthenes/Demetrios von Phaleron); Romulus' ausführlich begründete Entscheidung für eine
+  Binnenlage am Tiber statt an der Küste (verdeckte Seegefahr vs. sichtbare Landbedrohung,
+  Sittenverfall/Instabilität der Seestädte mit Karthago/Korinth als Belegen, hybride Fluss-Binnenlage
+  als Kombination von Handelsvorteil und reduziertem Risiko). Auszug bricht auf S. 81 mitten im
+  Argument zur natürlichen Verteidigungslage ab, `status: emerging`. Verlinkt mit
+  [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]],
+  [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]],
+  [[hippokrates-von-der-luft-waessern-gegenden-staedtestandort-windrichtung]],
+  [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]] und
+  [[herodot-historien-babylon-memphis-eupalinos-tunnel-samos]].
+- Gegen Wiki-Bestand geprüft (`grep -rli` nach «cicero»/«romulus» über `wiki/*.md`): keine
+  bestehenden Treffer, kein Duplikat.
+
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner Append,
+`git diff --numstat` geprüft). Von der Namensliste des 40./41. Laufs sind damit Thukydides und Cicero
+bearbeitet; 19 Positionen bleiben offen (Aristophanes, Xenophon, Platon/Die Gesetze, Kritias,
+Polybios, Varro, Livius, Seneca, Plinius d. Ä., Plutarch/Romulus, Tacitus, Plinius d. J., Strabo,
+Juvenal, Sueton, Pausanias, Achilleus Tatius, Ausonius, Salvianus, Francesco Colonna/Hypnerotomachia).
+**Nächster Lauf:** Aristophanes/Die Vögel (41) oder Xenophon/Cyropädie (43) als nächste im
+Seitenverlauf liegende Kandidaten, sonst der Rest der Liste der Reihe nach.
