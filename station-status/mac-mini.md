@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 10:15:12
+Stand: 30.08.2026 10:25:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 10:12)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 10:15:12
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 15e7abee9 nas-selfcommit: 1 Datei(en) 2026-08-30 10:15
+- d5d8dcab7 wissen/architektur-fachwissen: Campano/Pienza destilliert, 34. P2-Lauf 01_Staedtebau

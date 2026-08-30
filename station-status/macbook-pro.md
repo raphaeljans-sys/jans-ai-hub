@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 10:13:18
+Stand: 30.08.2026 10:23:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 10:13:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ffdeaf616 Fachwissen: 33. P2-Lauf Staedtebau, Enea Silvio Piccolomini destilliert, INDEX nachgefuehrt
+- d5d8dcab7 wissen/architektur-fachwissen: Campano/Pienza destilliert, 34. P2-Lauf 01_Staedtebau
