@@ -7645,3 +7645,65 @@ bis auf: 21 der 22 Juryberichte/-programme, ein Küssnacht-Beschrieb («Plage de
 62 der 65 Betonforum-Referate, Teile der Modellfoto-Methodik. Nächster Lauf: eine dieser
 Positionen (empfohlen die Juryberichte als grösster verbleibender Block), sonst laut
 `KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.
+
+## 31.08.2026 — Sektion 02_Gestalt_Kulturverstaendnis, siebter Lauf, Küssnacht-Position abgeschlossen (Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, Inventardatei), kein Zahlenwert aus dem
+Dispatch-Text übernommen.
+
+Letzter der sechs Küssnacht-Wettbewerbsbeschriebe gelesen:
+`02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/Plage+des+Alpes1+Beschrieb.pdf`
+(einseitiges Plandokument, Strandbad Seeburg Küssnacht, Projektcode STRA 06190,
+Dateidatum 28.11.2006). **Destilliert** als Ergänzung in den bestehenden Artikel
+[[wettbewerbsbeschrieb-gliederung-staedtebau-struktur-funktion-material-kuessnacht]]
+eingearbeitet (neue Variante im Abschnitt «Varianten», Kontext- und Quellenangaben
+aktualisiert, offener Punkt zum sechsten Beschrieb geschlossen). Der Beitrag bestätigt
+das Grundmuster Landschaft → Anlage/Funktion → Konstruktion/Material auch für den
+letzten Beschrieb dieses Wettbewerbs; Konstruktion/Material steht wie bei den fünf
+bereits gelesenen Beiträgen am Ende, nie am Anfang.
+
+**Damit ist die Küssnacht-Position (6 von 6 Beschrieben) vollständig abgeschlossen.**
+Weiterhin offene P1-Positionen dieser Sektion: 21 der 22 Juryberichte/-programme, 62 der
+65 Betonforum-Referate, Teile der Modellfoto-Methodik. Datenschutz/Sperrliste: kein Fund
+(veröffentlichter Wettbewerbsbeitrag Dritter). `git diff --numstat` auf die Inventardatei
+zeigt `25 0`, reiner Append. Sicherung via `bash scripts/nas-commit-now.sh`. Nächster
+Lauf: empfohlen die Juryberichte als grösster verbleibender Block.
+
+## 31.08.2026 — Sektion 02_Gestalt_Kulturverstaendnis, achter Lauf, erste Jurybericht-Position (Lane FACHWISSEN)
+
+Aus dem Juryberichte-Block eine Position vollständig gelesen:
+`02_Architekturdisskurs/04_Wettbewerbe/Zuerich/110722_Wettbewerbsprogrammauszug_BSZ_
+Schoenauring/110722_Wettbewerbsprogrammauszug_BSZ_Schoenauring.pdf` (Stadt Zürich, Amt
+für Hochbauten, Projektwettbewerb Wohnsiedlung Schönauring, Programmauszug 22.07.2011,
+21 Seiten).
+
+**Destilliert** in zwei bestehende Artikel eingearbeitet (kein neuer Artikel, beide
+Themen dort bereits belegt):
+
+- [[honorarmechanik-wettbewerb-oeffentliche-bauherrschaft]] — dritter Fall neben
+  Zeughaus Herisau und Naturmuseum St.Gallen (beide 2009): SIA-102/105-Doppelformel für
+  Architektur und Landschaftsarchitektur separat, Koeffizienten Z1 = 0,062/Z2 = 10,58
+  (SIA-Werte 2011), Stundenansatz CHF 130.–, gestaffelte Fachdisziplin-Abzüge (30 %
+  Fachingenieure, 50 % Landschaftsarchitektur), TU/GU-Leistungsanteil Architekturteam
+  55–65 %. Ansatzreihe damit belegt: Fr. 110.– (AR 2009) → CHF 128.– (SG 2009) →
+  CHF 130.– (ZH 2011).
+- [[wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien]] — dritter
+  Beleg für dieselbe Zuschlagskriterien-Familie (Städtebau/Architektur/Aussenraum,
+  Funktionalität, Wirtschaftlichkeit, ökologische Nachhaltigkeit) mit derselben
+  «Reihenfolge ist keine Wertung»-Klausel wie beim Naturmuseum-Fall.
+
+Preisgericht- und Terminangaben (10 Teams selektiv, Preissumme CHF 200'000, vierstufige
+Beurteilungskriterien) sind Verfahrensroutine ohne eigenständigen Erkenntniswert über
+die beiden Artikel hinaus — bewusst nicht separat destilliert.
+
+**Damit ist 1 der 21 verbleibenden Juryberichte/-programme dieser Sektion gelesen**, 20
+bleiben offen (Depot Hard 4 Berichte, Europaallee Baufelder B/G/H, Hornbach, Schauenberg
+8 Ränge, Koch-Areal, Escherwyssplatz/Schützenareal 6 Ränge u. a., Feindokumentation noch
+nicht sektionsscharf). Ausserdem weiterhin offen: 62 der 65 Betonforum-Referate, Teile
+der Modellfoto-Methodik. Datenschutz/Sperrliste: kein Fund (veröffentlichtes
+Verfahrensdokument einer öffentlichen Bauherrschaft, Preisgerichtsmitglieder in
+öffentlicher Amtsfunktion). `git diff --numstat` auf die Inventardatei zeigt `64 0`
+kumuliert seit dem letzten Commit, reiner Append. Sicherung via
+`bash scripts/nas-commit-now.sh`. Nächster Lauf: empfohlen
+`MY_HOME_IS_MY_CASTLE-Jurybericht.pdf` (Depot Hard, kleinste der vier Depot-Hard-
+Dateien), sonst gemäss `KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.

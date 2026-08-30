@@ -1,7 +1,7 @@
 ---
 title: "Wettbewerbs-/Studienauftragsprogramm: Grundstruktur, Vorprüfungs- vs. Zuschlagskriterien (zwei öffentliche Verfahren 2009)"
 status: emerging
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/25_Wettbewerb/zeughaus.pdf (Hochbauamt Kanton Appenzell Ausserrhoden, Präqualifikation und Studienauftrag «Umnutzung Zeughaus Ebnet, Herisau», 2009)", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/25_Wettbewerb/Natums/a20natmus2009-03-0320wettbewerbsprogramm.pdf (Hochbauamt Stadt St.Gallen, offener Projektwettbewerb «Neubau Naturmuseum» nach SIA 142:1998, 2009)", "raw/inventar/buero-referenzen__25_Wettbewerb.md Abschnitte 1, 2, 7"]
 links: ["[[wettbewerbs-teilnahmebedingungen-ausstand-abgabe-urheberrecht]]", "[[honorarmechanik-wettbewerb-oeffentliche-bauherrschaft]]", "[[raumprogramm-spaltenlogik-sia416-naturmuseum]]"]
 ---
@@ -61,6 +61,14 @@ Stelle.
 gegenläufige Aussagen zur Gewichtung. Ein Wettbewerbsprogramm ist deshalb immer
 einzeln zu lesen — die Reihenfolge der Kriterien nie aus Erfahrung oder einem
 anderen Programm ergänzen.
+
+Ein drittes Programm (Stadt Zürich AHB, Wohnsiedlung Schönauring, 22.07.2011,
+Quelle in [[honorarmechanik-wettbewerb-oeffentliche-bauherrschaft]]) verwendet
+dieselbe vier-Themen-Familie wie das Naturmuseum (Städtebau/Architektur/
+Aussenraum, Funktionalität, Wirtschaftlichkeit, ökologische Nachhaltigkeit,
+ohne «Organisation» als eigenes Kriterium) und hält ebenfalls ausdrücklich
+fest, dass die Reihenfolge keine Wertung enthält — ein zweiter Beleg für die
+«keine Gewichtung»-Formel neben dem Naturmuseum-Fall.
 
 ## Aufgabenteil kann harte Regeln statt reiner Beschreibung enthalten
 

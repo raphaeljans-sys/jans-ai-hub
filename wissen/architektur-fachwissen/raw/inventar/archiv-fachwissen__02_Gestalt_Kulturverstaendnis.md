@@ -528,3 +528,67 @@ Positionen `02_Architekturdisskurs/04_Wettbewerbe/**` (Juryberichte), `Küssnach
 geführte Positionen — Details siehe deren eigene Fortschritts-Abschnitte oben. Nächster
 Lauf: eine dieser Positionen, oder gemäss `KORPUS-QUEUE.md` die nächste Sektion mit
 offenem P1.
+
+## Destillat-Fortschritt, siebter Lauf (P1, 31.08.2026, Lane FACHWISSEN)
+
+Position `02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/Plage+des+Alpes1+
+Beschrieb.pdf` (letzter der 6 Küssnacht-Beschriebe, einseitiges Plandokument, Dateidatum
+28.11.2006) vollständig gelesen und **abgeschlossen** — als Ergänzung in den bestehenden
+Artikel [[wettbewerbsbeschrieb-gliederung-staedtebau-struktur-funktion-material-kuessnacht]]
+eingearbeitet (neue Variante «Plage des Alpes» in den Abschnitt «Varianten», Kontext-Absatz
+und Quellenliste aktualisiert, offener Punkt zum sechsten Beschrieb geschlossen). Der Beitrag
+bestätigt das Grundmuster Landschaft → Anlage/Funktion → Konstruktion/Material auch für den
+sechsten und letzten Beschrieb dieses Wettbewerbs.
+
+**Damit ist die Küssnacht-Position (`KüssnachtArchiv/*Beschrieb*.pdf`, 6 von 6 Beschrieben)
+vollständig abgeschlossen.** Weiterhin offene P1-Positionen dieser Sektion (unverändert):
+- `02_Architekturdisskurs/04_Wettbewerbe/**` — 21 der 22 Juryberichte/-programme.
+- `02_Architekturdisskurs/01_Betonforum/2007–2012` — 62 der 65 Referate.
+- `01_Architektur_darstellen/01_Bild_3D/.../02_Modellfotografische_RD/**` — Vortrag
+  Käch und Nachbearbeitungsablauf (Ordner 01 und 08).
+
+Datenschutz/Sperrliste: kein Fund (veröffentlichter Wettbewerbsbeitrag Dritter, keine
+Personendaten). `git diff --numstat` nach dem Schreiben geprüft: reiner Append auf dieser
+Inventardatei. Sicherung via `bash scripts/nas-commit-now.sh`. **Nächster Lauf:** eine der
+drei oben gelisteten verbleibenden P1-Positionen, empfohlen nach Umfang die Juryberichte
+als grösster Block (21 Positionen), sonst gemäss `KORPUS-QUEUE.md` die nächste Sektion mit
+offenem P1.
+
+## Destillat-Fortschritt, achter Lauf (P1, 31.08.2026, Lane FACHWISSEN)
+
+Aus dem Juryberichte-Block eine Position vollständig gelesen: `02_Architekturdisskurs/
+04_Wettbewerbe/Zuerich/110722_Wettbewerbsprogrammauszug_BSZ_Schoenauring/
+110722_Wettbewerbsprogrammauszug_BSZ_Schoenauring.pdf` (Stadt Zürich, Amt für
+Hochbauten, Projektwettbewerb Wohnsiedlung Schönauring, Programmauszug 22.07.2011,
+21 Seiten). **Destilliert** in zwei bestehende Artikel eingearbeitet (kein neuer Artikel,
+da beide Themen dort bereits mit anderen Fällen belegt sind):
+[[honorarmechanik-wettbewerb-oeffentliche-bauherrschaft]] (dritter Fall: SIA-102/105-
+Doppelformel Architektur+Landschaftsarchitektur, Koeffizienten Z1/Z2, gestaffelte
+Fachdisziplin-Abzüge 30 %/50 %, TU/GU-Leistungsanteil 55–65 %, Stundenansatz CHF 130.–)
+und [[wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien]] (dritter
+Beleg für die «Reihenfolge ist keine Wertung»-Formel bei den Zuschlagskriterien).
+
+Preisgericht, Termine und Verfahrensdetails (10 Teams selektiv, Preissumme CHF 200'000,
+Beurteilungskriterien Städtebau/Funktionalität/Wirtschaftlichkeit/Nachhaltigkeit) sind
+Verfahrensroutine ohne eigenständigen Erkenntniswert über die beiden oben genannten
+Artikel hinaus — bewusst nicht separat destilliert (Delta-Ehrlichkeit).
+
+**Damit ist 1 der 21 verbleibenden Juryberichte/-programme dieser Position gelesen.**
+Weiterhin offene P1-Positionen dieser Sektion:
+- `02_Architekturdisskurs/04_Wettbewerbe/**` — 20 der 22 Juryberichte/-programme
+  (Depot Hard 4 Berichte, Europaallee Baufelder B/G/H, Hornbach, Schauenberg 8 Ränge,
+  Koch-Areal, Escherwyssplatz/Schützenareal 6 Ränge, u. a. — noch nicht sektionsscharf
+  auf genau 20 Dokumente abgeglichen, da die Ordnerstruktur mehr Einzeldateien als
+  Wettbewerbe enthält).
+- `02_Architekturdisskurs/01_Betonforum/2007–2012` — 62 der 65 Referate.
+- `01_Architektur_darstellen/01_Bild_3D/.../02_Modellfotografische_RD/**` — Vortrag
+  Käch und Nachbearbeitungsablauf (Ordner 01 und 08).
+
+Datenschutz/Sperrliste: kein Fund (veröffentlichtes Verfahrensdokument einer
+öffentlichen Bauherrschaft, Namen der Preisgerichtsmitglieder sind Amtsträger/
+Fachpreisrichter in öffentlicher Funktion, keine Sperrlisten-Kategorie). `git diff
+--numstat` nach dem Schreiben geprüft: reiner Append auf dieser Inventardatei.
+Sicherung via `bash scripts/nas-commit-now.sh`. **Nächster Lauf:** eine weitere
+Position aus dem Juryberichte-Block (empfohlen `MY_HOME_IS_MY_CASTLE-Jurybericht.pdf`,
+Depot Hard, als kleinste der vier Depot-Hard-Dateien), sonst gemäss `KORPUS-QUEUE.md`
+die nächste Sektion mit offenem P1.

@@ -1,8 +1,8 @@
 ---
 title: "Wettbewerbsbeschrieb-Gliederung: Städtebau – Freiraum – Gebäude (Strandbad Seeburg Küssnacht, 2006)"
 status: emerging
-last_updated: 2026-08-29
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/laonda+Beschrieb.pdf (Projektcode STRA 06190, Projektwettbewerb Strandbad Seeburg Küssnacht, Dateidatum 28.11.2006)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/BORGO+Beschrieb.pdf", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/Kobra+Beschrieb.pdf", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/Avalon+Beschrieb.pdf", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/paravent+Beschrieb.pdf", "raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md Abschnitt «Was hier für JANS drinsteckt» Punkt 3"]
+last_updated: 2026-08-31
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/laonda+Beschrieb.pdf (Projektcode STRA 06190, Projektwettbewerb Strandbad Seeburg Küssnacht, Dateidatum 28.11.2006)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/BORGO+Beschrieb.pdf", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/Kobra+Beschrieb.pdf", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/Avalon+Beschrieb.pdf", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/paravent+Beschrieb.pdf", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/Plage+des+Alpes1+Beschrieb.pdf (einseitiges Plandokument, Dateidatum 28.11.2006)", "raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md Abschnitt «Was hier für JANS drinsteckt» Punkt 3"]
 links: ["[[wettbewerbsjury-kapitelfolge-gestaltungsplan-zollstrasse-ost-sbb]]", "[[wettbewerbsverfahren-programmstruktur-vorpruefung-zuschlagskriterien]]"]
 ---
 
@@ -10,12 +10,12 @@ links: ["[[wettbewerbsjury-kapitelfolge-gestaltungsplan-zollstrasse-ost-sbb]]", 
 
 ## Kontext
 
-Fünf von sechs im Archiv vorhandenen Erläuterungsberichten («Beschrieb») konkurrierender
+Alle sechs im Archiv vorhandenen Erläuterungsberichte («Beschrieb») konkurrierender
 Beiträge zum Projektwettbewerb Strandbad Seeburg Küssnacht (Kanton Schwyz, Projektcode
 STRA 06190, Dateidatum November 2006) im Volltext gelesen: «Avalon», «BORGO», «Kobra»,
-«laonda», «paravent» (ein sechster Beitrag, «Plage des Alpes», nicht gelesen). Die
-Beschriebe sind veröffentlichte Wettbewerbsbeiträge Dritter — hier ausschliesslich als
-**Gliederungsmuster**, nicht als Inhalt, ausgewertet, sinngemäss wiedergegeben.
+«laonda», «paravent», «Plage des Alpes». Die Beschriebe sind veröffentlichte
+Wettbewerbsbeiträge Dritter — hier ausschliesslich als **Gliederungsmuster**, nicht als
+Inhalt, ausgewertet, sinngemäss wiedergegeben.
 
 ## Gemeinsames Grundmuster
 
@@ -53,8 +53,16 @@ separates Kapitel «Landschaft» mit Freibad, Uferlinie und Vegetationskonzept.
 - **Avalon** ist als einziger Beitrag primär konzeptionell gegliedert (Grundkonzept,
   Kontext, Volumetrie, Vegetation, Erschliessung, Zusatznutzung), Material erscheint
   erst im letzten Abschnitt.
+- **Plage des Alpes** ist als einziger Beitrag ein einseitiges Plandokument (Situation,
+  Perspektiven, Schnitt) mit knappem Begleittext statt eigenständigem Erläuterungsbericht.
+  Der Text folgt trotzdem demselben Muster in drei Kapiteln: «Landschaft» (Seeuferlage,
+  Sichtachsen zu Rigi/Pilatus/Vierwaldstättersee, Stimmungsbild), «Strandbad» (Anlage
+  quer zum Ufer, Wiese als Zentrum, Garderoben/Restaurant/Lounge/Schwimmbecken als
+  Funktionen im Fliesstext ohne eigene Zwischentitel) und «Materialisierung und
+  Konstruktion» als eigenes Schlusskapitel (Stahl-Tragskelett, Holzausfachung, Betonplatte
+  als Baugrund).
 
-Der gemeinsame Nenner über alle fünf Beiträge: **Konstruktion/Material steht immer am
+Der gemeinsame Nenner über alle sechs Beiträge: **Konstruktion/Material steht immer am
 Ende**, nie am Anfang des Gebäudeteils.
 
 ## Praxisregel
@@ -69,8 +77,8 @@ tatsächlich das primäre Ordnungsprinzip des Entwurfs ist.
 
 ## Offene Punkte
 
-- Der sechste Beschrieb («Plage des Alpes») wurde in diesem Lauf nicht gelesen; er
-  könnte das Bild zusätzlich differenzieren oder bestätigen.
+- Alle sechs im Archiv vorhandenen Beschriebe sind jetzt gelesen; das Gliederungsmuster
+  gilt damit als vollständig an diesem Korpus geprüft.
 - Die Bauherrschaft und das genaue Verfahrensjahr des Wettbewerbs Strandbad Seeburg
   Küssnacht sind aus den gelesenen Beschrieben selbst nicht ersichtlich (nur
   Projektcode STRA 06190 und Dateidatum November 2006); ein Programm- oder
