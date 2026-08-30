@@ -3421,3 +3421,17 @@ oder Norm-Fundstellen). Bericht: `wissen/koordination/outputs/2026-08-24_wissens
   sind jetzt 17 destilliert, rund 29 bleiben offen.
 - Nächster Lauf: Francesco di Giorgio Martini (anthropometrische Stadtproportionen, S. 251-254)
   oder weitere kurze Quellentextband-Einzelauszüge nach Bürorelevanz.
+
+## 2026-08-30 — 35. P2-Lauf Sektion `01_Staedtebau`: Pacioli und Serlio destilliert (Lane FACHWISSEN)
+- Zwei neue Wiki-Artikel aus `Quellentextband-1.pdf` (Lampugnani-Anthologie, beide nur im
+  italienischen Original ohne Übersetzung in dieser Anthologie):
+  `pacioli-divina-proportione-koerperproportion-simulacro-architektur.md` (S. 255-256,
+  Kopf-als-Zitadelle-Analogie, Kreis-/Quadrat-Konstruktion aus dem Körper) und
+  `serlio-buehnenbau-scena-comica-tragica-satirica-1545.md` (S. 267-270, genre-codierte
+  Bautypologie der Bühnenkulisse nach Vitruv).
+- `raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+  Append, `git diff --numstat` geprüft). Von den 54 benannten Positionen der Quellentextband-
+  Anthologie sind jetzt 31 destilliert oder begründet ohne Artikel abgeschlossen, 23 bleiben
+  offen.
+- Nächster Lauf: Aventinus (271) oder Castiglione/Raffael-Brief an Leo X. (275) als nächste
+  kurze Positionen, sonst Vasari il Giovane/Città ideale (299) als bürorelevanter Kandidat.

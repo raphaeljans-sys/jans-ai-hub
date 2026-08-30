@@ -1834,3 +1834,53 @@ oder begründet ohne Artikel abgeschlossen, 25 vollständig offen.**
 **Nächster Lauf:** Serlio (267) oder Pacioli (255) als bürorelevante
 Renaissance-Traktat-Kandidaten, sonst nächste kurze Position aus der
 54-Positionen-Liste nach Bürorelevanz.
+
+## Fünfunddreissigster P2-Lauf, Pacioli und Serlio destilliert (30.08.2026,
+Lane FACHWISSEN)
+
+Vor Arbeitsbeginn Stand selbst ermittelt (Dispatch-Text trägt bewusst keine
+Zahlen): `KORPUS-QUEUE.md`, `wiki/INDEX.md`, CHANGELOG und diese
+Inventardatei gegengeprüft, deckungsgleich mit dem 34.-Lauf-Ende. Working
+tree bei Laufbeginn zeigte einen unkommittierten Nachtrag des 34. Laufs
+(Campano/Pienza-Artikel, CHANGELOG, Inventar, INDEX); zwischen zwei
+Prüfschritten dieses Laufs vom 15-Min-Cron selbständig committet (Commit
+`6778aef63`), working tree danach sauber, kein Eingriff nötig.
+
+Beide vom 34. Lauf empfohlenen Kandidaten aus `Quellentextband-1.pdf` per
+`/opt/homebrew/bin/pdftoppm` gerendert (PDF-Seite = gedruckte Seite + 4,
+erneut bestätigt: Pacioli S. 255 = PDF-Seite 259, Serlio S. 267 = PDF-Seite
+271):
+
+- **Luca Pacioli, «De Divina Proportione»** (Teil II, Kap. 1, S. 255-256,
+  vollständig gelesen, nur italienisches Original ohne Übersetzung in
+  dieser Anthologie) → neuer Artikel
+  [[pacioli-divina-proportione-koerperproportion-simulacro-architektur]]
+  (Kopf-als-Zitadelle-Analogie nach Platons Timaios, Kreis- und
+  Quadrat-Konstruktion aus dem menschlichen Körper, explizite Vitruv-
+  Berufung). Verlinkt mit
+  [[francesco-di-giorgio-martini-stadtkoerper-proportionslehre-anthropometrie]]
+  (unabhängige Parallelquelle derselben Kopf-Zitadelle-Analogie).
+- **Sebastiano Serlio, «Tutte l'Opere d'Architettura»**, Buch II (S.
+  267-270, «Della Scena Comica»/«Della Scena Tragica»/«Della Scena
+  Satirica», vollständig gelesen, nur italienisches Original) → neuer
+  Artikel
+  [[serlio-buehnenbau-scena-comica-tragica-satirica-1545]] (genre-codierte
+  Bautypologie der Bühnenkulisse: bürgerlich/komisch,
+  fürstlich/tragisch, ländlich/satirisch, samt Konstruktionstechnik der
+  perspektivischen Seitenkulissen und indirekten Kunstlichtführung).
+
+Gegen Wiki-Bestand geprüft (`grep -rli` nach «Pacioli»/«Divina
+Proportione»/«Serlio»/«Scena Comica» über `wiki/*.md`): keine Duplikate,
+einzige Treffer die neuen Artikel selbst und die Empfehlungszeile im
+34.-Lauf-Abschnitt oben. `git diff --numstat` auf diese Inventardatei zeigt
+reinen Append.
+
+**Von den 54 benannten Positionen der Anthologie sind jetzt 31 destilliert
+oder begründet ohne Artikel abgeschlossen, 23 vollständig offen.**
+**Nächster Lauf:** aus der 54-Positionen-Liste im 30.-Lauf-Abschnitt
+weiterwählen — Aventinus (271) oder Castiglione/Raffael-Brief an Leo X.
+(275) als nächste kurze Positionen vor Münster/Cosmographei (281), Specklin
+(289) oder Olivier de Serres (293), sonst Vasari il Giovane/Città ideale
+(299) als bürorelevanter Idealstadt-Kandidat vor Kritias (54)/Platon/Die
+Gesetze (45), Xenophon (43) oder dem gesamten noch ungeprüften antiken
+Block Homer bis Cicero (S. 9-81).

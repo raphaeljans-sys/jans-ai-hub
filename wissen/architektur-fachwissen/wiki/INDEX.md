@@ -1781,3 +1781,12 @@ oder begründet ohne Artikel abgeschlossen, 26 vollständig offen.**
 **Nächster Lauf:** Campano (243) oder Pero Tafur (245) als nächste kurze
 Positionen, sonst Serlio (267) oder Pacioli (255) als bürorelevante
 Renaissance-Traktat-Kandidaten.
+
+**30.08.2026 (Lane FACHWISSEN, 34. und 35. P2-Lauf):** Campano/Pienza
+destilliert ([[campano-pienza-pius-ii-architekt-kostenueberschreitung-1462]],
+Pero Tafur ohne Ertrag), danach Pacioli
+([[pacioli-divina-proportione-koerperproportion-simulacro-architektur]]) und
+Serlio ([[serlio-buehnenbau-scena-comica-tragica-satirica-1545]]). Von den
+54 benannten Positionen der Anthologie sind jetzt 31 destilliert oder
+begründet ohne Artikel abgeschlossen, 23 vollständig offen. Details je Lauf
+in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
