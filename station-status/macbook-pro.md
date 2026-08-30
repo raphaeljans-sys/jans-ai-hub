@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 01:59:37
+Stand: 30.08.2026 02:09:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 01:57)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 01:59:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 333c26c86 wissens-destillat archiv-fachwissen: Lauf 25 Buchfuehrung nachgetragen (Sektion 02_Architekturtheorie, zweiter P2-Lauf)
+- 6b5996f45 Lane FACHWISSEN: VL2/VL3 Koolhaas destilliert, Buchfuehrung gesichert
