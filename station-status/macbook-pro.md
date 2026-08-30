@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 08:20:08
+Stand: 30.08.2026 08:30:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:19)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 08:20:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- eddc60874 wissens-destillat archiv-fachwissen 10_Protomodern: P1 vollstaendig destilliert (13 Wiki-Artikel, Lane FACHWISSEN); Memory-Korrektur: 6 erfundene Eintraege in project_fachwissen-dispatch-loop.md entfernt
+- a39f09e07 nas-selfcommit: 2 Datei(en) 2026-08-30 08:30

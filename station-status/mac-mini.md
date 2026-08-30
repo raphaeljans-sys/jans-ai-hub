@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 08:21:46
+Stand: 30.08.2026 08:32:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 08:01)
+- /Users/raphaeljans  (letzte Aktivitaet 08:30)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 08:21:46
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 64accb80e Rule 260830: Treiber brechen nach Liefer-Delta ab, Prompts schreiben keinen Fortschrittsstand fest
+- a39f09e07 nas-selfcommit: 2 Datei(en) 2026-08-30 08:30
