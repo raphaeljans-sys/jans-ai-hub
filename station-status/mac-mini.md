@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 21:15:33
+Stand: 30.08.2026 21:25:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 20:51)
+- /Users/raphaeljans  (letzte Aktivitaet 20:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 21:15:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fd7a46d7b nas-selfcommit: 2 Datei(en) 2026-08-30 21:15
+- 9a0725571 wissen/architektur-fachwissen: Zeile 68 Sektion 02_Kunst_Geschichte, 113. Lauf (Nizzoli/Colombo/Nelson/Teague/Postmoderne/Otto-Wagner-Ergaenzung)
