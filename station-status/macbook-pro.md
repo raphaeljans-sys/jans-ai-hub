@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 19:59:38
+Stand: 30.08.2026 20:09:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:09)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 19:59:38
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 591f96485 Lane FACHWISSEN: Zeile 68 08_Design begonnen (Stahlrohrmoebel-Genealogie Rietveld/Breuer/Mies-Reich)
+- f46940552 Destillat: 7 Personenartikel Zeile 68 (02_Kunst_Geschichte/08_Design) — Aalto/Eames/Jacobsen, Eileen Gray, Josef Frank, Magistretti/Ponti
