@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 11:27:37
+Stand: 30.08.2026 11:38:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 11:27)
+- /Users/raphaeljans  (letzte Aktivitaet 11:33)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 11:27:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 915be36d8 Lane FACHWISSEN: 38./39. P2-Lauf Sektion 01_Staedtebau — Vasari il Giovane und Leonardo da Vinci destilliert
+- 0f33b5802 Nachtrag CHANGELOG/INDEX zum 40. P2-Lauf archiv-fachwissen/01_Staedtebau (Homer/Herodot, Lane FACHWISSEN)
