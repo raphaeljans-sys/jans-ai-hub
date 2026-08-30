@@ -342,3 +342,30 @@ nächsten Sektion mit offenem P2.
 `02_Bildende_Kunst/08_Design/` (733 Dateien, Designgeschichte-Website-Spiegel) oder Zeile 72-74
 (Flandern-Reader/Kunst-der-Gegenwart-Zusammenfassung/Landart-Smithson), sonst laut Queue-Regel
 Prüfung der nächsten Sektion mit offenem P2.
+
+- Zeile 73 `00_Allgemein/KUNST-DER-GEGENWART-Philip-Ursprung.pdf` → **erledigt.**
+  Vollständig gelesen (15 S., Studierenden-Mitschrift). Destilliert zu
+  [[ursprung-kunst-der-gegenwart-globalisierungsthese-museumsarchitektur-empire]]
+  (Globalisierungsthese, Museumsarchitektur-Genealogie Documenta 5/Beaubourg/Weisse-Zelle-
+  Loft/Tate-Modern-Turbinenhalle, Abschnitt «Architektur des Empire» mit Eisenman/Koolhaas/
+  Herzog & de Meuron/Zumthor, Erhabenes als wiederkehrende Kategorie). Feminismus-, AIDS- und
+  Neo-Expressionismus-Kapitel der Mitschrift bewusst nicht destilliert, ohne Architekturbezug.
+- Zeile 74 `03_Darstellende_Kunst/05_Landart/` (3 Dateien) → **teilweise erledigt.**
+  `landart_zusammenfassung.pdf` vollständig gelesen (10 S., zehn datierte Vorlesungssitzungen
+  25.02.-13.05.2011, weit mehr Stoff als die ursprüngliche Kurzzusammenfassung in dieser
+  Tabellenzeile erfasste) und zu zwei Artikeln destilliert:
+  [[landart-smithson-heizer-demaria-site-nonsite-groesse-massstab-tilted-arc]] (Site/Non-Site
+  nach Smithson, Grösse-gegen-Massstab nach Heizer, das Erhabene nach De Maria, Tilted-Arc-
+  Site-Specificity-Konflikt nach Serra) und, als eigenständiger Exkurs derselben Datei ohne
+  Land-Art-Bezug,
+  [[denkmal-diskurs-freiheits-einheitsdenkmal-leipzig-generationelle-erinnerungszeit]]
+  (Vortrag Dieter Daniels, Denkmal-Wettbewerb Leipzig, generationelle Zeitdistanz-These,
+  Holocaust-Mahnmal-Konflikt Kohl/Serra). Body-Art- und Prozesskunst-Positionen ohne
+  Architekturbezug (Oppenheim, Ukeles, Denes u. a.) bewusst nicht destilliert. Die beiden
+  übrigen Dateien (`Praesentation.pdf`, `Tania_Meisser.pdf`, ca. 9-5 MB) nicht geöffnet —
+  offener Rest fuer einen Folgelauf, siehe `wiki/QUESTIONS.md`.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** die zwei
+noch ungeöffneten Dateien von Zeile 74 (`Praesentation.pdf`, `Tania_Meisser.pdf`) oder Zeile 68
+`02_Bildende_Kunst/08_Design/` (733 Dateien) oder Zeile 72 (Flandern-Reader), sonst laut
+Queue-Regel Prüfung der nächsten Sektion mit offenem P2.

@@ -1,5 +1,50 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 73/74, Sektion `02_Kunst_Geschichte` (98. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md`, Inventardatei vollständig gelesen. `scutil` bestätigte Macmini, `ps -eo
+pid,ppid,command` zeigte genau eine laufende Instanz dieser Lane (PID 27548), Working Tree
+vor Beginn sauber (Top-Commit `ba303ee48`, 97. Lauf bereits committet).
+
+Zeile 73 `00_Allgemein/KUNST-DER-GEGENWART-Philip-Ursprung.pdf` (15 S., ETH-Vorlesungs-
+Mitschrift Ursprung) vollständig gelesen und destilliert zu
+[[ursprung-kunst-der-gegenwart-globalisierungsthese-museumsarchitektur-empire]]:
+Globalisierungsthese der Gegenwartskunst, Museumsarchitektur-Genealogie (Documenta 5 1972 als
+Kuratoren-Wendepunkt, Centre Pompidou 1977 als «Kulturfabrik», «Weisse Zelle und leeres
+Loft» bis zur Tate-Modern-Turbinenhalle), Abschnitt «Architektur des Empire» mit vier
+kanonischen Bauten (Eisenman Greater Columbus Convention Center, Koolhaas CCTV Peking,
+Herzog & de Meuron Bird's Nest, Zumthor Therme Vals), das Erhabene als wiederkehrende
+Kategorie (Hirst, Gursky, Eliasson). Feminismus-/AIDS-/Neo-Expressionismus-Kapitel bewusst
+nicht destilliert (kein Architekturbezug).
+
+Zeile 74 `03_Darstellende_Kunst/05_Landart/` (3 Dateien): `landart_zusammenfassung.pdf`
+vollständig gelesen — mit 10 Seiten und zehn datierten Vorlesungssitzungen (25.02. bis
+13.05.2011) deutlich umfangreicher als die bisherige Kurzzusammenfassung in der Inventarzeile
+erfasste. Zu zwei Artikeln destilliert:
+[[landart-smithson-heizer-demaria-site-nonsite-groesse-massstab-tilted-arc]] (Site/Non-Site
+nach Robert Smithson inkl. dessen «Cultural Prisons»-Kuratorenkritik und einer kurzzeitigen
+Beratertätigkeit für eine Architekten-Ingenieur-Firma bei einer Flughafenplanung, die
+Unterscheidung Grösse-gegen-Massstab nach Michael Heizer, das Erhabene nach Walter De Maria
+mit Herleitung über Burke/Friedrich/Turner, und der Tilted-Arc-Site-Specificity-Konflikt
+Richard Serras als Präzedenzfall für Kunst-am-Bau-Kontroversen im öffentlichen Raum,
+gegengelinkt mit dem bereits bestehenden Stadtlounge-St.-Gallen-Artikel) sowie, als
+eigenständiger Exkurs derselben Datei ohne Land-Art-Bezug,
+[[denkmal-diskurs-freiheits-einheitsdenkmal-leipzig-generationelle-erinnerungszeit]] (Vortrag
+Dieter Daniels: Denkmal-Wettbewerb Leipzig mit 530 erfolglosen Berliner Einreichungen, die
+These der generationellen Zeitdistanz des Gedenkens anhand dreier Fallbeispiele
+Völkerschlachtdenkmal/Holocaust-Mahnmal/Freiheits-Einheitsdenkmal, der dokumentierte Konflikt
+Kohl/Serra beim Holocaust-Mahnmal-Entwurf Eisenman/Serra, Erinnerungstheorie nach Jan und
+Aleida Assmann). Body-Art- und Prozesskunst-Positionen ohne Architekturbezug (Oppenheim,
+Ukeles, Denes, Turrell, Long, Haacke u. a.) bewusst nicht destilliert. Die zwei übrigen
+Dateien des Ordners (`Praesentation.pdf`, `Tania_Meisser.pdf`) nicht geöffnet, offener Rest
+für einen Folgelauf.
+
+`git diff --numstat` auf die Inventardatei zeigte reinen Append (`27 0`). Details
+`raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md`. **Nächster Lauf:** die zwei
+ungeöffneten Dateien von Zeile 74 oder Zeile 68 `02_Bildende_Kunst/08_Design/` (733 Dateien)
+oder Zeile 72 (Flandern-Reader), sonst laut Queue-Regel nächste Sektion mit offenem P2.
+
 ## 260830 — Zeile 75, Sektion `02_Kunst_Geschichte` (97. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
