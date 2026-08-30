@@ -4,6 +4,25 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, noch ein Folgelauf) — Gruppo_Ligure praezisiert (weiterhin ohne Namensbeleg), Dispatch-Loop erneut bestaetigt
+
+Vier-Prioritaeten-Auftrag erneut ohne offene Punkte angetroffen: Fehlextraktionen,
+Katalog-Kollisionen und Sonderzeichen-Regel sind seit 29.08.2026 vollstaendig behoben
+(siehe QUESTIONS.md Sektion 3/4), Sammelfrage Charge 1 bis 6 sind alle einzeln
+recherchiert, die meisten Restnamen zusaetzlich per Ordnerinhalt-Sichtung geprueft.
+Einzige inhaltliche Ergaenzung: **Gruppo_Ligure** (Zeile 54) — gezielte Websuche zum
+bereits vermerkten Lead «Abitazione_Tipica_1933» ergab den vollstaendigen, namentlich
+belegten Architektenkreis der «Casa a struttura in acciaio» (V. Triennale di Milano
+1933, genuesische Rationalisten: Morozzo della Rocca, Crosa di Vergagni, Daneri,
+Fineschi, Haupt, Nicoli, Vietti, Zappa) — keine Quelle nennt das Kollektiv jedoch
+woertlich «Gruppo Ligure», Belegpflicht bleibt unerfuellt, Eintrag bleibt offen.
+Damit ist dies der siebte bis achte Nachtlauf in Folge auf denselben Auftrag ohne
+neuen Materialzugang (Katalog gesaettigt); die verbleibenden ~15 unbestaetigten
+Einzelnamen (Zanini, Gigometti, Goldsmith_Felix, Mitzutome, Fischle, Imhof_Edi,
+Jaeckel_Fabian, Horvat_Paolo, Keles_Oetzguer, La_Pierre_Eric u.a.) wurden bereits
+mehrfach sowohl websuchend als auch per Ordnerinhalt-Sichtung erfolglos geprueft —
+erneute Versuche mit denselben Mitteln sind keine sinnvolle Kapazitaetsnutzung mehr.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Charge 1: Burkhardt_Elsa per Ordnerinhalt bestaetigt, Dunkel bleibt offen
 
 Minimalcheck bestaetigte erneut den Nullstand der vier Kern-Prioritaeten (Arbeitsbaum
