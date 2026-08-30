@@ -2242,3 +2242,34 @@ drei Artikel vertiefen bestehende Kanon-Zeilen, einer (Vasari/Uffizien) ist voll
 Details CHANGELOG 30.08.2026. **Damit ist `Renaissance-Zusammenfassung.pdf` bis S. 33
 vollständig destilliert.** S. 34-51 (Barock/Aufklärung) bleibt offen, Duplikatcheck gegen
 Sauter-Barock/Rokoko und Revolutionsarchitektur zwingend.
+
+**30.08.2026 (Lane FACHWISSEN), Sektion `02_Architekturgeschichte`, 90. Lauf:**
+`Renaissance-Zusammenfassung.pdf` S. 34-51 (Barock/Aufklärung, letzter Rest der Datei)
+destilliert zu fünf neuen Artikeln
+([[toennesmann-borromini-s-ivo-s-carlo-quattro-fontane-konstruktionsvertiefung]],
+[[toennesmann-bernini-baldachin-cornaro-kapelle-petersplatz-entwurfsgeschichte-scala-regia]],
+[[toennesmann-bernini-louvre-entwuerfe-perrault-ostfassade-versailles-baugeschichte]],
+[[toennesmann-fischer-von-erlach-schoenbrunn-hofbibliothek-hildebrandt-belvedere-vertiefung]],
+[[toennesmann-soufflot-ste-genevieve-pantheon-antike-gotik-synthese-vertiefung]]) sowie einer
+Ergänzung des bestehenden
+[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]
+(Zollhäuser Paris neu, Saline-von-Chaux-Konstruktionsdetail vertieft). Duplikatscheck vorab
+gegen die Architektenportrait-Sammlungen ([[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]],
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]])
+und den Sauter-Kanon ([[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]):
+Borromini, Bernini, Perrault, Hildebrandt und Soufflot haben dort bereits Kurzbiografien,
+diese Quelle liefert durchgehend deutlich tiefere Grundriss-/Konstruktions-/
+Entwurfsgeschichts-Analyse — kein echtes Duplikat, fünf Vertiefungen; Versailles-Baugeschichte
+(Le Vau/Hardouin-Mansart/Le Nôtre/Le Brun) und die Hofbibliothek Wien sind vollständig neu in
+dieser KB. **Echter Quellenwiderspruch dokumentiert:** die Grundrissgeometrie von Sant'Ivo
+alla Sapienza wird von dieser Quelle («zwei überlagerte Dreiecke») und der bestehenden
+Portrait-Sammlung («ein einzelnes Dreieck, nicht wie oft dargestellt zwei überlagerte») exakt
+gegensätzlich beschrieben — beide Fassungen offen dokumentiert, keine als richtig markiert
+(keine Drittquelle verfügbar). Ebenso ein Datierungswiderspruch zum Chaux-Auftraggeber
+(Ludwig XIV. vs. korrekt Ludwig XVI. laut Sauter-Quelle) dokumentiert. `git diff --numstat`
+nach jedem Schreiben geprüft, Inventardatei-Ergänzung reiner Append. **Damit ist
+`Renaissance-Zusammenfassung.pdf` (51 S.) vollständig destilliert.** Nächster Schritt:
+`Moderne.pdf` gilt bereits als vollständig ausgewertet (87. Lauf), als Nächstes die drei
+Nicht-Portrait-Positionen des Architektenportrait-Ordners (`9_rom_st`, `16_schloss_versailles`
+— jetzt mit Duplikatrisiko gegen diesen Lauf zu prüfen —, `26_paris_um_1800`) sowie
+`Fragen.doc`-Rest und die verbleibenden rund 20 offenen Einzelportraits.

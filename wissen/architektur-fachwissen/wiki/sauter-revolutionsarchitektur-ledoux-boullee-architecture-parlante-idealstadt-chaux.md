@@ -2,7 +2,7 @@
 title: "Revolutionsarchitektur 1770-1800: Ledoux, Boullée, Architecture parlante (Sauter/hta Luzern)"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/04_Kunsthistoriker/Sauter_Marion/03 REVOLUTIONSARCHITEKTUR.pdf (5 S., vollständig gelesen)"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/04_Kunsthistoriker/Sauter_Marion/03 REVOLUTIONSARCHITEKTUR.pdf (5 S., vollständig gelesen)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/Renaissance-Zusammenfassung.pdf (Tönnesmann-Vorlesungsskript, S. 49-51 von 51, vollständig gelesen, 30.08.2026 ergänzt)"]
 links: ["[[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]", "[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]]", "[[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]]", "[[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]]", "[[utopische-stadtentwuerfe-typologie-garnier-cite-industrielle]]"]
 ---
 
@@ -90,6 +90,56 @@ in [[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]]
 diese Quelle liefert dazu zwei zusätzliche, dort noch nicht genannte Ledoux-Beispiele (Haus
 des Flurwächters, Atelier der Kreisherstellung, Haus der Holzfäller) sowie mit dem
 Newton-Kenotaph ein eigenständiges Boullée-Beispiel des Prinzips.
+
+## Ergänzung aus zweiter Quelle (Tönnesmann-Vorlesungsskript, S. 49-51)
+
+`/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/Renaissance-Zusammenfassung.pdf`,
+S. 49-51 von 51, vollständig gelesen. Duplikatscheck: Newton-Kenotaph und Saline von Chaux
+sind oben bereits geführt, diese Quelle liefert dazu zusätzliche Konstruktionsdetails; die
+Pariser Zollhäuser sind in dieser KB bislang nicht behandelt — neu.
+
+**Newton-Kenotaph, Ergänzung:** Kugel von 150 m Durchmesser auf doppeltem ringförmigem, von
+Zypressen bekröntem Sockel; die Kugel sollte von Löchern durchbrochen sein, sodass im
+Inneren tagsüber der Sternenhimmel erlebbar wurde (Bezug zur Bedeutung des Lichts in
+Newtons Forschung); nachts simulierte ein Kronleuchter das Tageslicht. Der Zugang erfolgte
+über einen finsteren Tunnel, der den Kontrasteffekt beim Eintritt verstärkte; eine kleine
+Plattform im Sphärenzentrum sollte den Besuchern ein Gefühl von Isolation, Verlorenheit und
+der schieren Endlosigkeit des Raums vermitteln. Boullées Buch «L'architecture. Essai sur
+l'art» (1778-1788, sämtliche Entwürfe dieser Periode) wurde erst 1953 veröffentlicht und
+plädierte für einen emotional engagierten Neoklassizismus.
+
+**Zollhäuser, Paris (1784-1789) — neu:** die Zollmauer («Mauer der Generalsteuerpächter»)
+wurde auf Forderung des Finanzpachtamts errichtet, eine durchgehende Mauer, die nur an
+einzelnen Stellen Schranken für die Einfuhr besass; diese Schranken baute Ledoux. 1789 wurde
+der Bau eingestellt, 60 von 65 geplanten Zollhäusern waren fertiggestellt, davon sind heute
+nur noch 4 erhalten. Die Mauer gilt laut Quelle als eine der originellsten Schöpfungen der
+französischen Architektur des 18. Jahrhunderts.
+
+**Saline von Chaux, Ergänzung zur Konstruktion:** im Auftrag Ludwig XIV. (bei dieser
+Quelle so genannt; die oben geführte Sauter-Quelle datiert den Auftrag korrekt unter
+Ludwig XVI., vgl. Tabelle oben — Datierungswiderspruch zwischen den beiden KB-Quellen
+unaufgelöst dokumentiert, nicht stillschweigend geglättet). Ledoux wurde 1771
+Bevollmächtigter für die Salzbergwerke der Region, erkannte auf einer Inspektionsreise die
+komplizierte Holzversorgung (die umliegenden Wälder waren bereits gerodet) und schlug den
+Neubau einer Saline 17 km entfernt am Waldrand vor. Bau: halbkreisförmiger Hof (Durchmesser
+225 m), zehn einzelne, den Hof umstellende Pavillons, gesamte Anlage ummauert, ein
+Portalgebäude als einziger Zugang. Im Norden begrenzen Fabrikations- und
+Verwaltungsgebäude den Hof und flankieren das Haus des Direktors im Mittelpunkt der
+Anlage — eine Fabrikstadt, in ihre Bestandteile zerlegt und in klarer geometrischer Form
+angeordnet. Der Portalbau (einziger Zugang, Arbeiter durften die Anlage nicht verlassen)
+beherbergt Wachposten, Richterraum, Gefängnis und Frischwasserreservoir; aussen ein
+vorgelagerter Portikus mit sechs fusslosen dorischen Säulen und schwerem Architrav, dahinter
+eine als imitierte Steingrotte gestaltete Durchfahrt; der zweigeschossige Mitteltrakt trägt
+ein Pyramidendach, die Seitenflügel ein Walmdach. Das Haus des Direktors liegt im
+geometrischen Zentrum der Anlage (Weg führt direkt darauf zu), kubischer Baukörper mit
+Pyramidendach, Laterne und vorgelagertem Portikus mit schmalen Rustikasäulen; ein
+Okulusfenster im Tympanon symbolisiert das «Auge des Direktors». Die Salzsteuergebäude
+liegen westlich und östlich davon am Schnittpunkt von Geraden und Halbkreis
+(Verwaltungsräume, Wohnungen der Vorarbeiter/Baumeister, Eingangsfassaden zum
+Anlagenzentrum orientiert, teilweise rustiziertes Mauerwerk); die Salzwerkstätten links und
+rechts des Direktorenhauses sind einfache, rechteckige Bauten mit hohen Walmdächern,
+kleinen Gauben und durch Giebelportiken (ohne Säulen) markierten Eingängen. Zwei der vier
+Rundbauten dienen als Werkstätten, zwei als Wohnungen.
 
 ## Einordnung für die Bürotätigkeit
 
