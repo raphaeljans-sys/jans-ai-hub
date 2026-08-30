@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 11:15:01
+Stand: 30.08.2026 11:25:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 11:15:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 83e295f5a nas-selfcommit: 2 Datei(en) 2026-08-30 11:15
+- 915be36d8 Lane FACHWISSEN: 38./39. P2-Lauf Sektion 01_Staedtebau — Vasari il Giovane und Leonardo da Vinci destilliert
