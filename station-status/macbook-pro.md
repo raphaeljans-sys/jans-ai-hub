@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 15:01:19
+Stand: 30.08.2026 15:11:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 15:01:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fc8a401b6 Lane FACHWISSEN: 66. Lauf archiv-fachwissen 10_Protomodern (Sammelartikel Kurzfragmente)
+- b5f79cacc Lane FACHWISSEN 67. Lauf: Sektion 10_Protomodern P1+P2 abgeschlossen, Begriffsapparat-Artikel
