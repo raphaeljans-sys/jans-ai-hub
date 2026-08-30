@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 22:58:25
+Stand: 30.08.2026 23:08:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 22:45)
@@ -13,4 +13,4 @@ Stand: 30.08.2026 22:58:25
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 66a2c3baa wissen/architektur-fachwissen: Zeile 68 (126. Lauf) — Ernest Race, Carlo Mollino, Pop-/Anti-Design 1960er destilliert, 32 weitere Frameset-Dateien identifiziert
+- a93a608de Lane FACHWISSEN 127. Lauf: Zeile 68 (02_Kunst_Geschichte) fortgesetzt, drei Positionen bearbeitet
