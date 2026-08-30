@@ -105,9 +105,21 @@ Studio Alchimia, Memphis-Gruppe, Radical Design) sowie eine Gegenüberstellung R
 (Art déco, Luxuslinie) gegen Kaare Klint (skandinavischer Funktionalismus aus Körpermass-Analyse,
 Wurzel der späteren dänischen Designergeneration Wegner/Juhl). Damit 19 von 128 Fliesstext-Dateien
 gelesen, rund 82 weitere Personenartikel (u. a. Rams, Zanuso, Wirkkala, Saarinen, Russell,
-Svenska/Schweden-Sammelartikel) bleiben offen; Zeile 68 bleibt weiterhin offen. **Nächster Lauf:**
-Zeile 68 fortsetzen, nächste Kandidaten nach Dateigrösse (`svenska.htm` 18 KB, `rams.htm` 18 KB,
-`russell.htm`, `paris_1925.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2. |
+Svenska/Schweden-Sammelartikel) bleiben offen; Zeile 68 bleibt weiterhin offen. **107.-109. Lauf
+(30.08.2026):** `svenska.htm`/`rams.htm`/`russell.htm`, `saarinen.htm`/`franck.htm`/`starck.htm`,
+`zanuso.htm`/`wirkkala.htm`/`paris_1925.htm` gelesen — sechs neue Artikel (nationale
+Designverbände Russell/DIA/Svenska Slöjdföreningen, Dieter Rams/Braun/Ulm, Saarinen/Eames/Knoll,
+Kaj Franck/Arabia, Philippe Starck, Marco Zanuso/Sapper/Brionvega, Tapio Wirkkala/Iittala, Paris
+1925 Art déco). Details KORPUS-QUEUE.md/CHANGELOG. **110. Lauf (30.08.2026):** drei kleinste
+verbliebene Dateien nach Grösse gelesen — `el_lissitzky.htm` (Proun-Konzept, russischer
+Konstruktivismus, einziger Möbelentwurf Leipziger Stuhl 1930), `terragni.htm` (italienischer
+Rationalismus, Möbel für Casa del Fascio/Sant'Elia-Schule, Kontrast zu Breuer/Mies im selben
+Material Stahlrohr) und `panton.htm` (Verner Panton, Stapelstuhl 1960 als erster einteiliger
+Spritzguss-Kunststoffstuhl, Fritz Hansen/Vitra/Herman Miller). Drei neue Artikel. Damit 31 von
+128 Fliesstext-Dateien der Zeile 68 gelesen, rund 70 Personenartikel bleiben offen. **Nächster
+Lauf:** Zeile 68 fortsetzen nach Dateigrösse unter den verbleibenden ungelesenen Positionen
+(u. a. `nizzoli.htm`, `colombo.htm`, `0tto_wagner.htm`, `nelson.htm`), sonst laut Queue-Regel
+nächste Sektion mit offenem P1/P2. |
 `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)

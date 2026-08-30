@@ -1,5 +1,60 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (110. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` (dort seit dem 106. Lauf nicht mehr fortgeschrieben — Nachtrag 107.-110. Lauf
+in diesem Zug ergänzt) und `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` geprüft.
+`scutil --get ComputerName` bestätigte Macmini, `ps -eo pid,ppid,command` zeigte genau einen
+laufenden `claude -p`-Prozess (PID 35912) mit diesem Dispatch-Text — kein Doppel-Dispatch.
+Working Tree bei Laufbeginn nicht ganz sauber: eine unkommittierte Queue-Buchführungszeile des
+109. Laufs lag vor (dessen eigentliche Wiki-/CHANGELOG-/INDEX-Änderungen waren bereits im
+Commit `bce7135f9`); `bash scripts/nas-commit-now.sh` erneut versucht, erneut am bekannten
+NAS-seitigen Merge-Konflikt in fremden Lane-Dateien gescheitert (Memory
+`project_nas-git-merge-konflikt-dispatch-loop-260829`), sauber zurückgerollt (kein
+`MERGE_HEAD`, `HEAD` weiterhin identisch mit `origin/main`), dem 15-Min-Cron überlassen.
+
+Auffällig dabei: der Merge-Versuch zeigte einen **add/add-Konflikt** bei
+`wissen/architektur-fachwissen/wiki/protofunktional-begriff-abgrenzung-funktionalismus.md` —
+eine Datei, die weder lokal noch in `origin/main` (per `git fetch` verifiziert, `HEAD` = `origin/main`,
+kein Vorsprung) existiert. Der Konflikt entsteht demnach ausschliesslich im NAS-seitigen
+Arbeitsbaum von `nas-selfcommit.sh` (Synology, natives Git, kein SMB) zwischen dessen eigenem
+unkommittierten Stand und dessen `git pull` — nicht zwischen zwei Lanes dieser Station. Kein
+Hinweis auf eine zweite, gleichzeitig an dieser KB schreibende Lane; nicht selbst eingegriffen,
+nur hier vermerkt, da neu gegenüber den bisherigen Merge-Konflikt-Fällen.
+
+Drei kleinste bislang ungelesene Positionen von Zeile 68 nach Dateigrösse gelesen:
+`el_lissitzky.htm` (7,2 KB), `terragni.htm` (7,4 KB), `panton.htm` (7,4 KB). Duplikatscheck
+vorab (`grep -rli` gegen Lissitzky/Terragni/Panton über alle `wiki/*.md`): Lissitzky und
+Terragni bislang nur Streuverweise in Architekturkanon-Artikeln (Sauter-Kanon,
+Eisenman/Panofsky-Artikel), Panton ohne jeden Treffer — keine Dublette. Drei neue Artikel:
+
+- [[el-lissitzky-proun-suprematismus-konstruktivismus-leipziger-stuhl]]: Proun-Konzept als
+  Verbindung Malerei/Architektur, Kontakte zu De Stijl/Bauhaus (van Doesburg, Mies van der
+  Rohe), einziger bekannter Möbelentwurf «Leipziger Stuhl» (1930, Schichtholz) als Beleg für
+  die Rückwirkung des Bauhaus-Funktionalismus auf eine primär grafisch/politisch arbeitende
+  Figur der russischen Avantgarde.
+- [[terragni-italienischer-rationalismus-casa-del-fascio-moebel]]: Möbel für die eigenen Bauten
+  (Casa del Fascio, Sant'Elia-Schule) als Fortsetzung der architektonischen Prinzipien im
+  Innenraum, Stahlrohrstühle «Larina»/«Benita» als bewusster Kontrast zu Breuer/Mies im
+  selben Material — Verweis auf
+  [[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]].
+- [[verner-panton-kunststoffmoebel-stapelstuhl-fritz-hansen-vitra]]: Stapelstuhl (1960) als
+  erster einteiliger Spritzguss-Kunststoffstuhl mit freitragender Sitzfläche (Fritz Hansen bis
+  1968, danach Herman Miller/Vitra), Leuchten «Panthella»/«Hängender Lüster», Panton als
+  Gegenbeispiel zur skandinavischen Handwerkstradition.
+
+Damit 31 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 70 Personenartikel bleiben
+offen. `git diff --numstat` auf die Inventardatei zeigte `0 0` (Sammelzeile bleibt
+unverändert, Zeile 68 bleibt als Ganzes offen bis alle Personenartikel gesichtet sind).
+`wiki/INDEX.md` zusätzlich um die bislang fehlenden Einträge der Läufe 107.-109. ergänzt
+(dort seit dem 106. Lauf stehen geblieben).
+
+**Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den
+verbleibenden ungelesenen Positionen (u. a. `nizzoli.htm`, `colombo.htm`, `0tto_wagner.htm`,
+`nelson.htm`, `mollino.htm`, `behrens.htm`, `wegner.htm`, `castiglioni.htm`), sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (109. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
