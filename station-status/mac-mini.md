@@ -1,9 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 22:27:34
+Stand: 30.08.2026 22:37:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 22:07)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:37)
+- /Users/raphaeljans  (letzte Aktivitaet 22:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +13,4 @@ Stand: 30.08.2026 22:27:34
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cf69fad19 Lauf 122: Design-Personenartikel Zeile 68 (Kunststoff, Design-Krise 1960er)
+- 13f70e9dc nas-selfcommit: 2 Datei(en) 2026-08-30 22:30
