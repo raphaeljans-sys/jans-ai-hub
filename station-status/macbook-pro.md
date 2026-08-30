@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 17:15:02
+Stand: 30.08.2026 17:25:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 17:15:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c99c51e43 nas-selfcommit: 1 Datei(en) 2026-08-30 17:15
+- a1a05a8a2 auto-sync [Macmini]: Lauf 83 nachtraeglich gesichert
