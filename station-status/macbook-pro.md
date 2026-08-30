@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 10:03:01
+Stand: 30.08.2026 10:13:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 10:03:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- eb22ff2d6 nas-selfcommit: 3 Datei(en) 2026-08-30 10:00
+- ffdeaf616 Fachwissen: 33. P2-Lauf Staedtebau, Enea Silvio Piccolomini destilliert, INDEX nachgefuehrt
