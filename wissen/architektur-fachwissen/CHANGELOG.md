@@ -4803,3 +4803,36 @@ nicht durchgeführt — Pflicht-Vorprüfung für den nächsten Lauf. Details Inv
 übernommenen Einzel-E-Mail. `git diff --numstat` auf die Inventardatei zeigte `43 0`
 (reiner Append). **Nächster Lauf:** Kapitel `01 RENAISSANCE MANIERISMUS (ITALIEN)` lesen,
 davor Duplikatscheck gegen Wiki-Bestand.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte`, dritter P2-Lauf: Sauter-Kapitel 01 Renaissance/Manierismus (Lane FACHWISSEN, 70. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`,
+Inventardatei), `ps -eo pid,ppid,command` zeigte nur einen laufenden `claude -p`-Prozess
+dieser Lane. Empfohlener nächster Schritt aus dem 69. Lauf: Kapitel
+`01 RENAISSANCE MANIERISMUS (ITALIEN).pdf`, davor Duplikatscheck.
+
+**Duplikatscheck zuerst ausgeführt** (Pflicht-Vorgabe des 69. Laufs): `grep -rli` gegen
+`wiki/*.md` auf Renaissance/Manierismus sowie die im Kapitel genannten Architekten. Treffer
+in [[renaissance-epochencharakteristik-stilmerkmale-architekturtheorie-vitruv-alberti]]
+(Stilmerkmal-Raster derselben Epoche, verzichtet aber ausdrücklich auf Bau-für-Bau-
+Dokumentation) und [[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]]
+(vier der neun Bauten am Rand erwähnt, dort unter Proportions-/Machtgeschichte-Blickwinkel).
+Kein inhaltliches Duplikat — beide Artikel um eine Rückverlinkung ergänzt (`git diff
+--numstat` zeigte dort je `1 1`, reine Link-Ergänzung in der bestehenden `links:`-Zeile,
+kein sonstiger Texteingriff).
+
+**Hauptarbeit:** Kapitel `01 RENAISSANCE MANIERISMUS (ITALIEN).pdf` (10 S.) vollständig
+gelesen (PyMuPDF) und destilliert zu
+[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]:
+Neun-Bauten-Kanon mit Ort/Architekt/Jahr/typologischer Kernaussage (Findelhaus, S. Spirito,
+Tempietto San Pietro in Montorio, Santa Maria della Consolazione Todi, Palazzo Rucellai,
+Palazzo Strozzi, Palazzo del Tè, Villa Rotonda, Biblioteca Laurenziana) sowie zwei im
+bestehenden Glossar [[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]]
+noch fehlende Fachbegriffe (Konche, Vestibül) — bereits geführte Begriffe (Vierung, Joch,
+Basilika, Kolossalordnung, Tambour, Laterne, Volute) bewusst nicht dupliziert.
+
+**10 der 13 Sauter-Dateien bleiben offen** (Kapitel 02-11, Barock bis Moderne-Postmoderne).
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekannte
+Architekten/Bauwerke. `git diff --numstat` auf die Inventardatei zeigte `40 0` (reiner
+Append). **Nächster Lauf:** Kapitel `02 BAROCK ROKOKO (SAKRALBAUTEN)` lesen, davor
+Duplikatscheck gegen Wiki-Bestand.
