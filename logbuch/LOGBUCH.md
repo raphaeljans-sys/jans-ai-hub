@@ -3,6 +3,19 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht Mac Mini 30.08.2026 (05:2x bis 05:3x)
+
+Prioritaeten 1+2 leer (keine pending remote-/sync-tasks; SYNOBSIS-Embeddings seit sieben
+Bestaetigungslaeufen erschoepft, wartet auf Raphaels Freigabe der NAS-Ordner-Zusammenfuehrungen).
+Priorität 3 (Fristen-Radar) ergab einen wachsenden P1: die seit 29.08. 22:05 bekannte Sync-
+Divergenz NAS↔GitHub ist auf **150 ahead / 79 behind** gewachsen (Versuch 191). Eigene native
+Messung per ssh auf der Synology grenzt die Ursache erstmals auf einen einzelnen Stau-Commit ein
+(`1eed7118c`, CHANGELOG-Anhängung in `wissen/normen/`), der seit 7+ Stunden jeden nachfolgenden
+Push blockiert. Details, Log-Belege und die eingegrenzte Fix-Empfehlung (ein Konflikt aufloesen,
+Rest sollte durchrebasen) in `logbuch/fristen.md`, Nachtrag 05:32. Nicht selbst aufgeloest —
+unbeaufsichtigter Lauf, laufende Fremdarbeit (Rule `interaktive-eingriffe`). Kein Versand, keine
+weiteren Eingriffe.
+
 ## Hub-Chef 29.08.2026 (08:39 bis 08:5x, Tagesbriefing gesendet)
 
 **Gesendet um 08:46:57** an rj@raphaeljans.ch über den Graph-Weg (Apple Mail antwortet den achten

@@ -4394,3 +4394,44 @@ gesichert (Rule `sync-kanonische-quelle`); nur das GitHub-Backup dieser Linie fe
 unbestaetigte Arbeit anderer Laeufe (Rule `interaktive-eingriffe`, Rule
 `auto-verbesserungen` 260811 Punkt 3). Der offene Entscheid bleibt, **welcher der beiden
 Wege kuenftig allein pusht**.
+
+**Nachtrag 30.08.2026 05:32 (Nachtschicht Mac Mini, eigene native Messung per ssh auf die
+Synology): Divergenz wächst weiter — jetzt [ahead 150, behind 79], Versuch 191 — UND der Block
+lässt sich auf EINEN einzigen Stau-Commit eingrenzen.**
+
+Verlauf desselben Vorgangs: 42/19 (23:4x) → 68/34 (01:15) → 125/61 (03:5x) → **150/79 (05:32)**.
+Nativ auf der Synology gelesen (`sync-tasks/log/selfcommit-202608.log` mit `awk`, nicht `grep` —
+die Datei ist nicht UTF-8): **seit 29.08. 22:06:13 versucht jeder einzelne `nas-selfcommit`-Lauf
+denselben Commit zu rebasen und scheitert an derselben Stelle** — `1eed7118c` («Normen CHANGELOG:
+Run 74+75, achter Doppel-Dispatch N62-3, Sync-Nachtrag SSD/NAS, weiterhin Nullbefund»,
+`wissen/normen/CHANGELOG.md`, reine Anhängung, 35 Zeilen, keine Löschung). Dieser Commit ist der
+**älteste** in der lokalen Ahead-Kette und blockiert seit über 7 Stunden **jeden** nachfolgenden
+Push — nicht nur seinen eigenen Inhalt. Log-Auszug 05:17 bis 05:30 (drei aufeinanderfolgende
+Versuche 187/188/189/190/191, alle identisch gescheitert):
+`error: could not apply 1eed7118c... Normen CHANGELOG` → Rebase abgebrochen → Merge versucht →
+ebenfalls Konflikt → `abgleich fehlgeschlagen (rebase und merge, Konflikte brauchen ein Urteil)`.
+Ein Versuch (05:30:07) scheiterte zusätzlich am Autostash selbst («Applying autostash resulted in
+conflicts», HEAD liess sich nicht loslösen) — Nebenbefund, kein neuer Fehlertyp.
+
+**Praktische Folge, deutlicher als in den Voreinträgen:** die **gesamten 150 lokalen Commits**
+der letzten gut 7 Stunden (u.a. der komplette heutige Fachwissen-Destillat-Lauf
+`archiv-fachwissen`/`buero-referenzen`, mehrere SYNOBSIS-Minimalchecks) liegen **ausschliesslich**
+auf der Synology und **nicht** auf GitHub — das Backup dieser Linie fehlt vollständig, seit der
+erste Stau-Commit entstand. Der Inhalt selbst ist nicht gefährdet (Rule `sync-kanonische-quelle`:
+NAS ist kanonisch), aber die Backup-Funktion von GitHub ist für diesen Zeitraum wirkungslos.
+
+**Weiterhin nicht aufgelöst, aus demselben Grund wie in den Voreinträgen 01:15/03:5x:** ein Fix
+hiesse, unbeaufsichtigt über den Konflikt in `wissen/normen/CHANGELOG.md` zu urteilen (Rule
+`interaktive-eingriffe`, Rule `auto-verbesserungen` 260811 Punkt 3) — und genau jetzt laufen
+mehrere Fachwissen-/SYNOBSIS-Loops aktiv weiter gegen denselben Pfad (letzter Commit 05:31, eine
+Minute vor dieser Messung). Anders als in den Voreinträgen ist der Fix aber jetzt **eng
+eingegrenzt**: es braucht nur EINE saubere Auflösung des CHANGELOG-Konflikts in `1eed7118c`
+gegenüber dem entsprechenden `github/main`-Stand von `wissen/normen/CHANGELOG.md` (beide
+Anhängungen behalten, nichts verwerfen — reiner Zeilenkonflikt, kein Inhaltswiderspruch), danach
+sollte der Rebase der restlichen 149 Commits ohne weitere Konflikte durchlaufen, da diese laut
+Log alle NACH diesem Punkt entstanden sind. Das bleibt Raphaels Entscheid/Freigabe, nicht
+Ausführung eines unbeaufsichtigten Laufs; hier nur die Eingrenzung, damit die Auflösung beim
+nächsten interaktiven Zugriff in einem Schritt statt in einer erneuten Fehlersuche erledigt
+werden kann.
+
+| Eigene Messung 30.08.2026 05:32 (Nachtschicht Mac Mini, native ssh-Messung auf der Synology, `awk` auf `selfcommit-202608.log`, `git show --stat 1eed7118c`) | Hub-Infrastruktur / alle Stationen | **hoch (P1), unverändert, jetzt auf Einzelcommit eingegrenzt** | **offen und wachsend** — 150/79 bei Versuch 191; Stau-Ursache seit 22:06:13 identisch |
