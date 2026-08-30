@@ -7707,3 +7707,35 @@ kumuliert seit dem letzten Commit, reiner Append. Sicherung via
 `bash scripts/nas-commit-now.sh`. Nächster Lauf: empfohlen
 `MY_HOME_IS_MY_CASTLE-Jurybericht.pdf` (Depot Hard, kleinste der vier Depot-Hard-
 Dateien), sonst gemäss `KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.
+
+## 31.08.2026 — Sektion 02_Gestalt_Kulturverstaendnis, neunter Lauf, erste Depot-Hard-Position (Lane FACHWISSEN)
+
+Erste der vier Depot-Hard-Jurybericht-Positionen gelesen: `02_Architekturdisskurs/
+04_Wettbewerbe/Zuerich/150115_Neubau_Depot_Hard/MY_HOME_IS_MY_CASTLE-Jurybericht.pdf`
+(Projektwettbewerb Neubau Depot Hard — Tramdepot und Wohnsiedlung, Zürich-West, Projekt
+Nr. 10, Christian Kerez Zürich AG, S. 156–167, 7 Seiten).
+
+**Destilliert** als neuer Artikel
+[[wettbewerbsjury-projektkritik-sandwich-struktur-kerez-depot-hard]]: die
+Einzelprojektbeurteilung folgt einer Drei-Teile-Struktur, die sich vom bereits
+destillierten Gesamtbericht-Kapitelaufbau
+([[wettbewerbsjury-kapitelfolge-gestaltungsplan-zollstrasse-ost-sbb]]) unterscheidet —
+1) Würdigung der städtebaulich-architektonischen Grundidee ungeteilt positiv, 2)
+Mängelkatalog nach Fachthemen (hier: Bestandsschutz-Anschluss an den denkmalgeschützten
+Fisslerbau, Tragwerkskomplexität, feuerpolizeiliche Bewilligungsfähigkeit der
+Erschliessung, Wohnungsgrundriss-Flächeneffizienz gegenüber Programmvorgaben,
+Betriebsenergie-Zielwert), 3) Fazit-Synthese, die Stärke und Schwäche als
+zusammenhängend formuliert und den Schweregrad ausdrücklich als „korrigierbar"
+einordnet. Kein Duplikat: die beiden bestehenden Wettbewerbs-Artikel behandeln
+Honorarmechanik bzw. Verfahrensstruktur, nicht die Kritiksprache einzelner
+Projekttexte.
+
+**Damit ist 1 der 4 Depot-Hard-Berichte gelesen**, 3 bleiben offen (BERTA, LA_TERRAZZA,
+ZEPPELIN, dieselbe Quelle). Von den rund 20 zuvor offenen Juryberichten/-programmen
+dieser Sektion bleiben rund 19. Weiterhin offen: 62 der 65 Betonforum-Referate, Teile
+der Modellfoto-Methodik. Datenschutz/Sperrliste: kein Fund (veröffentlichtes
+Verfahrensdokument, Architekt in öffentlicher Wettbewerbsfunktion). `git diff --numstat`
+auf die Inventardatei zeigt `22 0`, reiner Append. Sicherung via
+`bash scripts/nas-commit-now.sh`. Nächster Lauf: empfohlen einen der drei übrigen
+Depot-Hard-Berichte lesen (Gegenprobe auf die Sandwich-Struktur), sonst gemäss
+`KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.

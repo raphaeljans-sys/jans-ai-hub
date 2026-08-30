@@ -592,3 +592,25 @@ Sicherung via `bash scripts/nas-commit-now.sh`. **Nächster Lauf:** eine weitere
 Position aus dem Juryberichte-Block (empfohlen `MY_HOME_IS_MY_CASTLE-Jurybericht.pdf`,
 Depot Hard, als kleinste der vier Depot-Hard-Dateien), sonst gemäss `KORPUS-QUEUE.md`
 die nächste Sektion mit offenem P1.
+
+## Destillat-Fortschritt, neunter Lauf (P1, 31.08.2026, Lane FACHWISSEN)
+
+Erste der vier Depot-Hard-Positionen gelesen: `02_Architekturdisskurs/04_Wettbewerbe/
+Zuerich/150115_Neubau_Depot_Hard/MY_HOME_IS_MY_CASTLE-Jurybericht.pdf` (Projekt Nr. 10,
+Christian Kerez Zürich AG, S. 156–167). **Destilliert** als neuer Artikel
+[[wettbewerbsjury-projektkritik-sandwich-struktur-kerez-depot-hard]] (Drei-Teile-Kritik-
+struktur einzelner Projektbeurteilungen: Würdigung der Grundidee → Mängelkatalog nach
+Fachthemen → Fazit-Synthese mit Korrigierbarkeits-Einordnung; belegte Mängeltypen
+Bestandsschutz-Anschluss, Tragwerkskomplexität, Erschliessungs-/Brandschutz-
+Bewilligungsfähigkeit, Wohnungsgrundriss-Flächeneffizienz, Betriebsenergie). Neues Thema
+gegenüber den bisherigen zwei Wettbewerbs-Artikeln, die Honorarmechanik bzw.
+Verfahrensstruktur des Gesamtberichts behandeln, nicht die Kritiksprache einzelner
+Projekttexte — kein Duplikat.
+
+**Damit ist 1 der 4 Depot-Hard-Berichte gelesen**, 3 bleiben offen (BERTA, LA_TERRAZZA,
+ZEPPELIN, dieselbe Quelle). Von den rund 20 zuvor offenen Juryberichten/-programmen
+dieser Sektion bleiben rund 19. Datenschutz/Sperrliste: kein Fund (veröffentlichtes
+Verfahrensdokument, Architekt in öffentlicher Wettbewerbsfunktion). `git diff --numstat`
+nach dem Schreiben geprüft: reiner Append. Sicherung via `bash scripts/nas-commit-now.sh`.
+**Nächster Lauf:** einen der drei übrigen Depot-Hard-Berichte lesen (Gegenprobe auf die
+Sandwich-Struktur), sonst gemäss `KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.
