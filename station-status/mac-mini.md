@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 09:13:13
+Stand: 30.08.2026 09:23:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 08:44)
+- /Users/raphaeljans  (letzte Aktivitaet 09:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 09:13:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 75813980b Hub-Chef 30.08.: Briefing gesendet, Register + Logbuch nachgefuehrt, WEGE um Gastzugriff-Verlaengerung (Sackgassen, Expiration-Feld-Korrektur) ergaenzt
+- 025171d31 nas-selfcommit: 4 Datei(en) 2026-08-30 09:15
