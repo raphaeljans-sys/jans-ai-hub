@@ -364,3 +364,22 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   `111209_VL11_Resume` vollständig bearbeitet. Offen: 13 der 23 Vorlesungsordner (rund 175
   der 190 Dateien). Nächster Lauf: `120215_Shinohara_Kazuo` (erste Vorlesung des
   Frühjahrssemesters 2012, danach nicht mehr `VL`-nummeriert, siehe Ordnerliste).
+
+- 2026-08-30 (Lane FACHWISSEN, zwölfter P2-Lauf, `120215_Shinohara_Kazuo`): Ordner enthält
+  drei Fassungen desselben Frage-Antwort-Katalogs (`02_Mitschrift/120215_Shinohara_Kazuo.docx`
+  als vollständigste Fassung plus zwei Zwischenstände als PDF vom 16./18.02.2012 in einem
+  `PDF`-Unterordner — geprüft, ob dort versteckte zusätzliche Inhalte liegen wie beim
+  16.-Beispiel-Befund in anderen Ordnern: nein, beide PDFs sind reine, teils unvollständigere
+  Vorstufen derselben Mitschrift, keine eigenständigen Funde). Eigenständiges Thema (Shinohara
+  war zuvor nur als Stichwort in `wiki/architekturtheorie-grundbegriff-theorie-vs-geschichte-
+  eth-vl1.md` erwähnt, kein eigener Artikel) — zwei Artikel destilliert:
+  `wiki/shinohara-symbolischer-raum-vier-schaffensphasen.md` (`status: speculative`, vier
+  Schaffensphasen/emblematische Bauten, Vergleich mit Loos/Wright/Zumthor aus derselben
+  Mitschrift) und `wiki/shinohara-rezeption-schweizer-architektur-oligiati-kerez-deplazes.md`
+  (`status: speculative`, Schweizer Rezeption Oligiati/Kerez/Deplazes) — gegen den
+  bestehenden Kerez-Artikel `wiki/kerez-forsterstrasse-einkleidung-gegen-semper-
+  stoffwechseltheorie.md` geprüft, kein Duplikat (dort Sempers Stoffwechseltheorie, hier
+  Shinohara-Bezug, unabhängige Referenzachse). `01_Sylabus`/`03_Folie` existieren in diesem
+  Ordner nicht. Damit ist `120215_Shinohara_Kazuo` vollständig bearbeitet. Offen: 12 der 23
+  Vorlesungsordner (rund 173 der 190 Dateien). Nächster Lauf: `120224_Raum_oeffnen_Lefebvre`
+  (erste nicht mehr `VL`-nummerierte Sektion nach Shinohara).

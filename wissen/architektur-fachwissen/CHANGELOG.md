@@ -1,5 +1,46 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, zwölfter P2-Lauf, `120215_Shinohara_Kazuo` (Lane FACHWISSEN, 25. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel» behauptet,
+real zu diesem Zeitpunkt: beide Specs seit 29.08.2026 geschrieben, 170 Wiki-Artikel, 34
+Läufe) und nannte die Station explizit als «MacBook Pro» — `scutil --get LocalHostName`
+zeigt während dieses Laufs **Macmini**. Vor Arbeitsbeginn `ps aux` geprüft: neben diesem
+Prozess lief nur eine unabhängige, wortverschiedene Lane SYNOBSIS (kein Kollisionsrisiko,
+keine zweite FACHWISSEN-Instanz), Prozessabstammung (`ps -o pid,ppid`) zeigte den aktuellen
+`claude -p`-Prozess als Kind von `vollgas-schub.sh fachwissen`, das bereits seit Stunden
+läuft. Working Tree enthielt beim Start unkommittierte, inhaltlich fertige Buchführung des
+unmittelbar vorangegangenen VL11-Resume-Laufs (KORPUS-QUEUE.md, CHANGELOG, Inventar, INDEX,
+ein Wiki-Artikel) — erst per `nas-commit-now.sh` gesichert (Merge-Konflikt trat auf, `git
+status`/`grep` direkt danach bestätigten sauberen lokalen Working Tree ohne `MERGE_HEAD`
+oder Konfliktmarker, dem 15-Min-Cron überlassen; der Cron hat den Commit `bb1f38216`
+inzwischen erfolgreich gesetzt). Erst danach neue Arbeit begonnen: nächster fälliger
+Schritt laut Inventardatei war `120215_Shinohara_Kazuo`, die erste Vorlesung des
+Frühjahrssemesters 2012 (danach nicht mehr `VL`-nummeriert).
+
+Ordner enthält drei Fassungen desselben Frage-Antwort-Katalogs (eine vollständigste
+`.docx`-Fassung plus zwei ältere PDF-Zwischenstände in einem `PDF`-Unterordner) — Stichprobe
+auf versteckte Zusatzinhalte analog dem 16. Beispiel dieser Memory ergab: beide PDFs sind
+reine, teils unvollständigere Vorstufen derselben Mitschrift, kein eigenständiger Fund.
+Shinohara Kazuo war in dieser KB bisher nur als Stichwort erwähnt
+(`wiki/architekturtheorie-grundbegriff-theorie-vs-geschichte-eth-vl1.md`), kein eigener
+Artikel. Zwei Artikel destilliert:
+
+- [[shinohara-symbolischer-raum-vier-schaffensphasen]] — `status: speculative`, vier
+  emblematische Schaffensphasen (House in White 1966, Uncompleted House 1970, Wohnhaus
+  Uehara 1976, Century Hall TIT 1987), Prinzip des symbolischen/dekontextualisierten Raums,
+  Abgrenzung zu Sik/Kollhoff, Vergleich mit Loos/Wright/Zumthor aus derselben Mitschrift
+- [[shinohara-rezeption-schweizer-architektur-oligiati-kerez-deplazes]] — `status:
+  speculative`, Schweizer Rezeption laut Vorlesung (Oligiati: symbolischer Formalismus,
+  Hörsaal Lanquart/Gelbes Haus Flims; Kerez: archaischer Minimalismus im Gegensatz zu HdM;
+  Deplazes: Shinohara als einer der wichtigsten Architekten) — gegen den bestehenden
+  `wiki/kerez-forsterstrasse-einkleidung-gegen-semper-stoffwechseltheorie.md` geprüft, kein
+  Duplikat (unabhängige Referenzachse: dort Semper, hier Shinohara)
+
+`01_Sylabus`/`03_Folie` existieren in diesem Ordner nicht. Damit ist
+`120215_Shinohara_Kazuo` vollständig bearbeitet. Offen: 12 der 23 Vorlesungsordner (rund
+173 der 190 Dateien). Nächster Lauf: `120224_Raum_oeffnen_Lefebvre`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, elfter P2-Lauf, VL11 Resume (Lane FACHWISSEN, 24. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel» behauptet, real
