@@ -1270,3 +1270,49 @@ danach Vignola/Palladio nach demselben «tatsächlich lesen statt nur grepen»-S
 gegenprüfen, den dieser Lauf etabliert hat. Sobald der Architektenportrait-Ordner
 abgeschlossen ist, laut Lauf-Historie als nächste P2-Kandidatensektion
 `02_Kunst_Geschichte` prüfen (siehe `KORPUS-QUEUE.md`).
+
+## 260830 — Vignola/Palladio gegengeprüft (93. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, diese Inventardatei vollständig
+gelesen; `git status` zeigte den unkommittierten Rest des 92. Laufs, zuerst per
+`nas-commit-now.sh` lokal gesichert — bekannter NAS-Merge-Konflikt in sechs fremden KBs,
+Working Tree danach lokal sauber). `11_jacopo_barozzi_da_vignola.pdf` (4 S.) und
+`12_andrea_palladio.pdf` (7 S.) vollständig gelesen (nicht nur gegrept), wie vom 92. Lauf als
+Standard etabliert. Beide waren entgegen der Einschätzung des 83. Laufs («bereits
+substanziell behandelt») nur mit den fünf bzw. den Kanon-Bauten dupliziert — jede Datei
+enthält erhebliches neues Material:
+
+- Vignola: Villa Giulia (1551), zwei Ovalkirchen (Sant'Andrea in Via Flaminia,
+  Sant'Anna dei Palafrenieri), Nachfolge Michelangelos als Petersdom-Baumeister (1564,
+  Lücke in [[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]]
+  vermerkt, dort nicht ergänzt), vertiefter Il-Gesù-Grundriss, Bedeutung der «Regola delle
+  cinque ordini» (1562). Neuer Artikel
+  [[vignola-villa-giulia-ovalkirchen-caprarola-petersdom-nachfolge-regola-cinque-ordini]].
+  Zusätzlich enthielt dieselbe PDF einen Essay-Anhang (Hanno-Walter Kruft) zur
+  Dogmatisierung der Architekturtheorie im 16. Jahrhundert anhand Serlios sieben Büchern
+  (Publikationsgeschichte, Säulenordnung-Bauaufgaben-Zuordnung) — Duplikatscheck gegen
+  [[serlio-buehnenbau-scena-comica-tragica-satirica-1545]] negativ (andere Ebene), neuer
+  Artikel [[kruft-serlio-dogmatisierung-architekturtheorie-sieben-buecher-saeulenkanon]].
+- Palladio: Namensgebung/Trissino-Kreis, Humanistenkreis Trissino/Cornaro/Barbaro,
+  Palazzo Thiene (bislang ohne Artikel, Giulio-Romano-Kollaboration belegt durch
+  Inigo-Jones-Zitat 1614), zwei gescheiterte Wettbewerbe (Rialto-Brücke 1554 gegen Antonio
+  da Ponte, Dogenpalast-Neubau nach 1577 verworfen), San Pietro di Castello (1559, erster
+  Sakralbauauftrag), Tempietto Barbaro (letzter Sakralbau, mit Palladio-Zitat zur
+  Zentralbau-Symbolik), strukturierte Zusammenfassung der vier Quattro-Libri-Bücher,
+  Rezeptionsgeschichte Palladianismus, Ausblick Durand. Duplikatscheck gegen
+  [[toennesmann-palladio-fuenf-bauten-vertiefung-basilica-chiericati-rotonda-redentore-foscari]]
+  zuerst ausgeführt: die dort bereits in Konstruktionstiefe behandelten fünf Bauten (Basilica,
+  Chiericati, Rotonda, Redentore, Foscari) wurden hier bewusst **nicht** erneut destilliert.
+  Neuer Artikel
+  [[palladio-humanistenkreis-palazzo-thiene-rialto-dogenpalast-tempietto-quattro-libri-rezeption]].
+
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekannte Personen.
+`git diff --numstat` nach dem Schreibschritt auf diese Inventardatei geprüft: reiner Append.
+
+**Damit sind die beiden vom 92. Lauf benannten letzten unsicheren Kandidaten
+(`11_jacopo_barozzi_da_vignola`, `12_andrea_palladio`) geklärt.** Von den ursprünglich 39
+Einzelportraits bleibt nur noch `23_ledoux` bewusst zurückgestellt (eigener Artikel
+vorhanden, kein Mehrwert erwartet) sowie das Kartenset/die Sammelmappe (keine Portraits,
+P3-Charakter). **Der Architektenportrait-Ordner gilt damit als abgearbeitet.** Nächster
+Lauf: laut Lauf-Historie nächste P2-Kandidatensektion `02_Kunst_Geschichte` prüfen (siehe
+`KORPUS-QUEUE.md`).
