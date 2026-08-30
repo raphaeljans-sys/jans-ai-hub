@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 15:55:48
+Stand: 30.08.2026 16:06:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 15:29)
+- /Users/raphaeljans  (letzte Aktivitaet 16:05)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 15:55:48
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a6ffd7332 Fachwissen: Sauter Revolutionsarchitektur (Kapitel 03), Buchfuehrung Vorlauf
+- 5ca574105 Lane FACHWISSEN: Sauter-Kapitel 05 Heimatstil/Gartenstadtbewegung destilliert
