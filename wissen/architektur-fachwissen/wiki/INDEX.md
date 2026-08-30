@@ -2661,3 +2661,32 @@ zeigte `0 0` (Sammelzeile unverändert, Praxis seit dem 106. Lauf). Details CHAN
 den verbleibenden ungelesenen inhaltstragenden Positionen (nächstkleinste laut Grössenliste
 dieses Laufs: `nurmesniemi.htm`, `henry_van_de velde.htm`, `earl.htm`, `bellini.htm`), sonst
 laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
+**121. Lauf (30.08.2026, Lane FACHWISSEN, Hostname Macmini via `scutil`): Zeile 68
+fortgesetzt.** Stand selbst ermittelt, Working Tree bei Laufbeginn sauber. Ein zweiter
+`claude -p`-Prozess mit demselben Lane-Namen, aber einem sichtbar älteren Fassungstext des
+Dispatchs lief parallel (kennt die seit dem 106. Lauf gültige Fortschrittspraxis nicht) —
+kein identischer Doppel-Dispatch, kein eigenmächtiges Eingreifen, siehe CHANGELOG. Bei der
+programmatischen Kandidatenermittlung zwei Encoding-Fallstricke behoben (Umlaute in der
+`grep`-Zeichenklasse fehlten; macOS/APFS speichert Umlaut-Dateinamen NFD-zerlegt gegenüber
+NFC in den Markdown-Referenzen — erst nach Unicode-Normalisierung stimmte der Abgleich).
+Sechs Grenzfälle um 8'500–9'400 Bytes (`mo2ein.htm`, `sony.htm`, `wright-r..htm`,
+`cassina.htm`, `lucchi.htm`, `frogdesign.htm`) per Tag-Strip-Vorschau geprüft, um sie nicht
+fälschlich für Frameset zu halten — alle sechs inhaltstragend. Drei kleinste gelesen:
+`mo2ein.htm`, `sony.htm`, `wright-r..htm`. Duplikatscheck vorab (keine Dublette; Sony/De
+Lucchi nur Randerwähnungen ohne eigene Behandlung, Wright ist eine andere Person als der
+bereits destillierte Frank Lloyd Wright). Drei neue Artikel:
+[[progressiver-modernismus-maschinenmetapher-de-stijl-bauhaus-streamlining]] (Epochenessay,
+verankert acht bestehende Artikel dieser KB in einer gemeinsamen Erzählung),
+[[sony-produktdesign-morita-ibuka-transistorradio-walkman-minimalismus]] (Firmengeschichte,
+US-Styling-Kopie zu japanisch-deutschem Minimalismus) und
+[[russel-wright-amerikanisches-haushaltsdesign-american-modern-geschirr]] (US-Haushaltsdesign
+1904–1967, explizite Namensklärung gegen Frank Lloyd Wright). Damit 67 von 128
+Fliesstext-Dateien der Zeile 68 gelesen, rund 61 Positionen bleiben offen. `git diff
+--numstat` auf die Inventardatei zeigte `0 0`. Details CHANGELOG 30.08.2026. **Zeile 68
+bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den bereits als
+inhaltstragend verifizierten Positionen (`cassina.htm`, `lucchi.htm`, `frogdesign.htm`,
+`nurmesniemi.htm`, `henry_van_de velde.htm`, `earl.htm`, `bellini.htm`); bei `cassina.htm`
+und `lucchi.htm` vorab prüfen, ob Ergänzung bestehender Artikel (Magistretti/Ponti bzw.
+Sottsass/Postmoderne) treffender ist als ein eigener Artikel, sonst laut Queue-Regel nächste
+Sektion mit offenem P1/P2.

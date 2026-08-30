@@ -6915,3 +6915,67 @@ Lauf). Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68 bleibt offen, 
 Schritt:** Fortsetzung nach Dateigrösse (`nurmesniemi.htm`, `henry_van_de velde.htm`,
 `earl.htm`, `bellini.htm`, `race.htm`, `mollino.htm`), sonst laut Queue-Regel nächste Sektion
 mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (121. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt statt aus dem Dispatch-Text übernommen (Hostname Macmini via
+`scutil`; ein zweiter `claude -p`-Prozess mit einem **anderen, älteren Fassungstext**
+desselben FACHWISSEN-Dispatchs lief parallel — kein identischer Doppel-Dispatch, siehe
+Auffälligkeit unten). Working Tree bei Laufbeginn sauber (Top-Commit `b4a570624`).
+
+Kandidatenermittlung diesmal per Python statt reiner `grep -roh`: `find` listete alle 128
+`.htm`-Dateien in `08_Design/` nach Grösse, dagegen alle in `wiki/*.md` referenzierten
+Quelldateinamen abgeglichen. Dabei zwei Encoding-Fallstricke aufgedeckt und korrigiert: (1)
+die ursprüngliche `grep`-Zeichklasse liess Umlaute aus, wodurch bereits gelesene Dateien wie
+`stahlrohrmöbel.htm`/`wiener_werkstätte.htm` fälschlich als „ungelesen" erschienen; (2)
+macOS/APFS speichert Dateinamen mit Umlauten NFD-zerlegt, während die Markdown-Referenzen
+NFC-komponiert sind — erst nach Unicode-Normalisierung (`unicodedata.normalize('NFC', …)`)
+stimmte der Abgleich. Von den echten unreferenzierten Dateien wurden sechs Grenzfälle
+(`mo2ein.htm`, `sony.htm`, `wright-r..htm`, `cassina.htm`, `lucchi.htm`, `frogdesign.htm`,
+alle 8'500–9'400 Bytes) per Tag-Strip-Vorschau inhaltlich geprüft, um sie nicht fälschlich
+für Frameset/Banner zu halten — alle sechs erwiesen sich als inhaltstragend. Drei kleinste
+gelesen: `mo2ein.htm`, `sony.htm`, `wright-r..htm`.
+
+Duplikatscheck vorab (`grep -rli` gegen Themen/Namen über `wiki/*.md`): «Progressiver
+Modernismus» (Bewegungsthema) ohne Treffer; Sony/Akio Morita nur als Randerwähnung im
+Postmoderne-Artikel, keine eigenständige Behandlung; Russel Wright ohne Treffer (Cassina
+ebenfalls geprüft, aber diesmal nicht gelesen — siehe nächster Schritt).
+
+Drei neue Wiki-Artikel:
+[[progressiver-modernismus-maschinenmetapher-de-stijl-bauhaus-streamlining]] (Epochenessay
+Maschinenmetapher, De Stijl/Sowjetunion/Bauhaus/Frankreich vs. amerikanisches
+Industriedesign-Streamlining, verankert acht bestehende Personen-/Ereignisartikel dieser KB
+in einer gemeinsamen Erzählung — Ausnahme: erster reiner Bewegungsartikel dieser Sektion
+statt Personenbiografie),
+[[sony-produktdesign-morita-ibuka-transistorradio-walkman-minimalismus]] (Firmengründung
+1946, US-Styling-Kopie der 1950er, Wende zu japanisch-deutschem Minimalismus ab den 1960ern,
+Walkman 1979) und
+[[russel-wright-amerikanisches-haushaltsdesign-american-modern-geschirr]] (US-Haushaltsdesign
+1904–1967, Geschirrserie «American Modern», explizite Namensklärung gegen den bereits
+bestehenden Frank-Lloyd-Wright-Artikel, da beide Personen im selben Ordner unter ähnlichem
+Dateinamen liegen).
+
+**Auffälligkeit — kein Materialfund, aber Prozessnotiz:** Beim `ps`-Check zu Laufbeginn lief
+ein zweiter `claude -p`-Prozess mit demselben Lane-Namen FACHWISSEN, aber einem sichtbar
+älteren Dispatch-Text (referenziert `raw/inventar/*.md`-Erledigt-Markierungen statt der seit
+dem 106. Lauf gültigen Praxis, den Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE zu führen,
+und kennt die aktuelle Zeile-68-Fortsetzung nicht). Da beide Prozesse an unterschiedlichen
+Dateien schreiben würden (dieser Lauf: drei neue, disjunkte Wiki-Dateien; der andere Prozess
+hätte vermutlich zuerst denselben Feststellungs-Loop wie in den Läufen 104.–120. durchlaufen),
+kein eigenmächtiges Eingreifen — nur hier vermerkt, siehe Bericht.
+
+Damit sind 67 von 128 `.htm`-Dateien der Zeile 68 gelesen (davon weiterhin 32 als
+frameset-/banner-bedingt ertraglos identifiziert, nicht Teil der offenen Positionen); rund 61
+Positionen bleiben zu prüfen. `git diff --numstat` zeigte für die Inventardatei
+(`archiv-fachwissen__02_Kunst_Geschichte.md`) `0 0` (unangetastet) und für die drei neuen
+Wiki-Dateien reine Neuanlage. Keine gesperrten Inhalte (Verträge/Adressen/Personaldossiers)
+angetroffen. Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68 bleibt offen,
+nächster Schritt:** Fortsetzung nach Dateigrösse unter den verbleibenden, bereits als
+inhaltstragend verifizierten Positionen (`cassina.htm`, `lucchi.htm`, `frogdesign.htm`,
+`nurmesniemi.htm`, `henry_van_de velde.htm`, `earl.htm`, `bellini.htm`), sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2. Bei `cassina.htm`: vor dem Lesen prüfen, ob
+der Inhalt (Firmengeschichte, Cesare Cassina 1909–1979) über die bereits im
+Magistretti/Ponti-Artikel dokumentierte Randerwähnung hinausgeht — falls ja, eigenständiger
+Referenzartikel, sonst Ergänzung dort. Bei `lucchi.htm`: Michele De Lucchi hat bereits zwei
+Streuverweise (Postmoderne-, Sottsass-Artikel) — prüfen, ob eigener Artikel oder Ergänzung
+sinnvoller ist.
