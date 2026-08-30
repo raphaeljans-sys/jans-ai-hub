@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 03:30:23
+Stand: 30.08.2026 03:40:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 03:02)
+- /Users/raphaeljans  (letzte Aktivitaet 03:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 03:30:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bf96d39c4 nas-selfcommit: 1 Datei(en) 2026-08-30 03:30
+- 43d62a1a0 FACHWISSEN: 120504_Vision_Visualitaet_I_Gropius destilliert (P2 archiv-fachwissen 02_Architekturtheorie)
