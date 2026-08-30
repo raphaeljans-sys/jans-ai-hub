@@ -7555,3 +7555,39 @@ Typografievorlesung (40 S.), Schrift-Systematik (9 PDF), 21 der 22 Juryberichte/
 Teile der Modellfoto-Methodik (Vortrag Käch, Nachbearbeitungsablauf). Nächster Lauf:
 eine dieser Positionen, empfohlen die HTA-Luzern-Typografievorlesung oder die
 Schrift-Systematik als nächstkleinere geschlossene Einheiten.
+
+## 31.08.2026 — Sektion 02_Gestalt_Kulturverstaendnis, fünfter Lauf, P1 (Lane FACHWISSEN)
+
+Stand vor Beginn selbst ermittelt (`KORPUS-QUEUE.md`, Inventardatei, `git status`/
+`git log`), keine Zahl aus dem Dispatch-Text übernommen. Vorgefunden: ein uncommittetes
+`KORPUS-QUEUE.md` vom vierten Lauf (Plangrafik-Destillat) — der native NAS-Commit war an
+diesem bekannten Konflikt-File gescheitert (Rule-Beleg 29.08.2026), lokaler Stand
+korrekt, hier mitgeführt statt verworfen.
+
+Die letzte laut viertem Lauf verbliebene kleine Position gelesen:
+`01_Architektur_darstellen/04_Layout/00_Typografie/Typografie.pdf` (40 S., FHZ/HTA
+Luzern Abteilung Architektur, Dozenten W. Voney und C. Müller, «Typografie — was sie
+soll und nicht soll», 11.11.2005) vollständig im Volltext. Kein neuer Artikel: die
+Vorlesung ist die Primärquelle des bereits 29.08.2026 destillierten Lernskripts
+[[typografie-regelwerk-lernskript-jans-2007]], daher als neuer Abschnitt «Herkunft
+bestätigt» dort eingearbeitet statt dupliziert. Der Abgleich bestätigt die
+Plakat-Schriftgrössenreihe (100 pt / 40–80 pt / 24–40 pt / nie unter 18 pt, max. drei
+Grössen) **wortgleich**, nicht nur sinngemäss — Folie 19 der Vorlesung und das
+Lernskript stimmen Zeichen für Zeichen überein. Zusätzlich neu belegt: die
+Begriffsherkunft Typo (griech. *tipos*, Schlag/Abdruck/Figur/Typ) und grafie (*gráfin*,
+malen/schreiben/ritzen); die Zuordnung der im Artikel bereits verwendeten
+Makro-/Mikro-Typografie-Unterscheidung zu Hans Peter Willberg; die Definition Antiqua
+vs. Grotesk (serifenbehaftet vs. serifenlos, erste Grotesk 1816 William Caslon IV,
+Durchbruch ab 1832/Bauhaus/Tschichold/Renners Futura) mit der Univers-Schrift 1956 von
+Adrian Frutiger als Beispiel; zwei Literaturangaben der Vorlesung (Turtschi 1996, Kunz
+1998). Damit ist der bisherige „Offene Punkt" des Artikels geschlossen, der zweite
+(Bezugsformat der Schriftgrössen) bleibt offen.
+
+`git diff --numstat` auf die Inventardatei zeigt `29 0`, reiner Append. Der Wiki-Artikel
+wurde editiert (nicht neu angelegt), da er Claudes Domäne ist — `47 7`, die 7 Löschzeilen
+sind der ersetzte, nun erledigte erste Punkt unter „Offene Punkte". Datenschutz/
+Sperrliste: kein Fund (HTA-Lehrmaterial, keine Personendaten). Sicherung via
+`bash scripts/nas-commit-now.sh`. **Weiterhin offene P1-Positionen dieser Sektion:**
+Schrift-Systematik (9 PDF), 21 der 22 Juryberichte/-programme, ein Küssnacht-Beschrieb,
+62 der 65 Betonforum-Referate, Teile der Modellfoto-Methodik. Nächster Lauf: empfohlen
+die Schrift-Systematik (9 PDF) als nächstkleinere geschlossene Einheit.
