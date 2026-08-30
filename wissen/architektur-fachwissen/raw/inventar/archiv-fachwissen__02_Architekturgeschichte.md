@@ -1001,3 +1001,73 @@ diese Inventardatei zeigt einen reinen Append.
 umfangreiche Einzelbau-Dokumentation Brunelleschi/Michelozzo/Alberti/Rossellino, Duplikatscheck
 gegen die bestehenden Renaissance-Artikel zuerst), danach die drei Nicht-Portrait-Positionen
 des Architektenportrait-Ordners.
+
+## 260830 — Lauf `Renaissance-Zusammenfassung.pdf` S. 5-25, Frührenaissance/Hochrenaissance
+bis St. Peter (88. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen; `git status` zeigte unkommittierten Rest des 87. Laufs,
+`nas-commit-now.sh` lief in den bekannten NAS-Merge-Konflikt in sechs fremden KBs — Working
+Tree lokal sauber, 15-Min-Cron übernimmt). `scutil` bestätigte Macmini, `ps -eo
+pid,ppid,command | grep "claude -p"` zeigte genau eine laufende Instanz (PID 19172, keine
+Doppel-Instanz). PDF-Text wie im 87. Lauf über PyMuPDF extrahiert (`pdftotext`/`pdftoppm`
+fehlen auf dieser Station).
+
+`Renaissance-Zusammenfassung.pdf` hat 51 Seiten und reicht entgegen der bisherigen
+Inventarbezeichnung nicht nur bis zur Renaissance: S. 4-33 behandeln Frührenaissance bis
+Manierismus (Brunelleschi bis Palladio/Villa Foscari), S. 34-51 wechseln unvermittelt zu
+Barock und Aufklärungsarchitektur (Borromini, Bernini, Fischer von Erlach, Hildebrandt,
+Soufflot, Boullée, Ledoux/Saline de Chaux) — Themen mit hohem Duplikatrisiko gegen die bereits
+destillierten Sauter-Barock- und Revolutionsarchitektur-Kapitel. Dieser Lauf bearbeitet daher
+bewusst nur S. 5-25 (Frührenaissance/Hochrenaissance bis zum Baugeschichte-Abschnitt St.
+Peter); S. 26-33 (Manierismus: Giulio Romano, Vasari, Vignola, Palladio) und S. 34-51 bleiben
+offen für Folgeläufe mit eigenem Duplikatscheck.
+
+Duplikatscheck zuerst ausgeführt (`grep -lZi` gegen Brunelleschi/Michelozzo/Palladio/Alberti/
+Bramante über `wiki/*.md`): die Renaissance-Kernfiguren sind bereits in
+[[architektenportraits-sammlung-renaissance-kernfiguren-fuenf-kurzbiografien-alberti-bramante-raffael-michelangelo-brunelleschi]]
+(Kurzbiografien + knappe Bauanalyse) und
+[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]
+(Kanon-Tabelle) geführt — Vergleich der Einzelabschnitte zeigte, dass diese Quelle dieselben
+Bauten in deutlich grösserer konstruktiver/formaler Tiefe behandelt (kein Duplikat, sondern
+Vertiefung), plus mehrere in der KB bisher komplett fehlende Bauten/Architekten (Domkuppel
+Florenz, Michelozzo/Palazzo Medici, Rossellino/Pienza, Laurana/Palazzo Ducale Urbino,
+St.-Peter-Baugeschichte).
+
+Vier neue Artikel:
+- [[toennesmann-brunelleschi-konstruktionsvertiefung-domkuppel-ospedale-sakristei-basiliken]]
+  (S. 5-9: Domkuppel-Konstruktion mit Fischgrätenverband — neu in der KB —, vertiefte
+  Grundriss-/Wandaufriss-Details zu Ospedale Innocenti, Alte Sakristei, San Lorenzo, Santo
+  Spirito)
+- [[toennesmann-michelozzo-palazzo-medici-riccardi-prototyp-renaissancepalast]] (S. 10-11:
+  vollständig neuer Architekt/Bau, Prototyp des Florentiner Renaissancepalasts)
+- [[toennesmann-alberti-rossellino-laurana-palazzo-rucellai-pienza-urbino]] (S. 12-17:
+  vertiefte Fassadenanalyse Palazzo Rucellai, neue Architekten Rossellino/Pienza und
+  Laurana/Palazzo Ducale Urbino)
+- [[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]] (S. 23-25:
+  Baugeschichte über sechs Architektengenerationen Bramante–Maderno, in der KB bisher ohne
+  eigenständigen Gesamtartikel)
+
+S. 18-22 (Tempietto/Bramante, Palazzo dell'Aquila/Raffael, Neue Sakristei + Biblioteca
+Laurenziana + Kapitol/Michelangelo) bewusst nicht erneut destilliert: alle drei Bauten sind
+in [[architektenportraits-sammlung-renaissance-kernfiguren-fuenf-kurzbiografien-alberti-bramante-raffael-michelangelo-brunelleschi]]
+bereits mit vergleichbarer Detailtiefe geführt — echtes Duplikat, kein Mehrwert durch
+Zweitdestillat.
+
+Eine quelleneigene Ungereimtheit dokumentiert, nicht stillschweigend übernommen: Der
+Kuppeldurchmesser von St. Peter wird mit «119 m» angegeben, was mit dem allgemein bekannten
+lichten Durchmesser (rund 42 m) nicht vereinbar ist — im Artikel als unaufgelöster
+Quellenfehler vermerkt. Ein offensichtlicher Zahlendreher bei der Vollendung der Florentiner
+Domkuppel («1936» statt «1436», im Widerspruch zur eigenen Kopfzeile) wurde dagegen nicht als
+Fakt übernommen, sondern als Zahlendreher benannt.
+
+Sperrlisten-Prüfung: kein Fund. Ausschliesslich historische, öffentlich bekannte Architekten,
+Bauherren und Päpste des 14.-17. Jahrhunderts. `git diff --numstat` auf diese Inventardatei
+zeigt einen reinen Append.
+
+**Nächster Lauf:** S. 26-33 von `Renaissance-Zusammenfassung.pdf` (Manierismus: Palazzo del
+Tè/Giulio Romano, Uffizien/Vasari, Il-Gesù-Fassade/Vignola, vier Palladio-Bauten — vorher
+Duplikatscheck gegen [[palladio-strassen-bruecken-plaetze-vier-buecher-1570]] und die
+Sauter-Barock/Rokoko-Sakralbauten-Artikel wegen Il Gesù), danach S. 34-51 (Barock/Ledoux, mit
+Duplikatscheck gegen die bestehenden Sauter- und Revolutionsarchitektur-Artikel), danach die
+drei Nicht-Portrait-Positionen des Architektenportrait-Ordners.
