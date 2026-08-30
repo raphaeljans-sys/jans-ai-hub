@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 20:44:36
+Stand: 30.08.2026 20:54:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 20:18)
+- /Users/raphaeljans  (letzte Aktivitaet 20:51)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 20:44:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d7b62a83f vollgas-radar: Stilllegung wirkt (4 Lanes still), fachwissen liefert 255 Dateien, Homebrew-CLI 2.1.236 gewedgt, Haenger abgeraeumt
+- 24c1cf6be Queue-Buchführung 109. Lauf FACHWISSEN nachgetragen
