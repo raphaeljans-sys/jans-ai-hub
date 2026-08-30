@@ -1,5 +1,52 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (105. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen, wie in dessen eigener
+Begründung gefordert): `KORPUS-QUEUE.md`, `wiki/INDEX.md` und dieses CHANGELOG gelesen. Working
+tree bei Laufbeginn sauber (`git status`, `git log -5` zeigt reine `auto-sync [Macmini]`-Commits),
+genau ein `claude -p`-Prozess mit diesem Dispatch-Text laufend — kein Doppel-Dispatch. Zeile 68
+(`08_Design`, 733 Dateien) bleibt der einzige real offene P2-Posten dieser Sektion.
+
+Vom 104. Lauf empfohlene Kandidaten `mackintosh.htm` und `le_corbusier.htm` gelesen (Le Corbusier
+gezielt als Möbeldesigner-Datei, nicht die Architektur-Kapitel). Duplikatscheck (`grep -rli`
+gegen Hoffmann/Mackintosh über `wiki/*.md`) vorab: Mackintosh bislang nur als Kanon-Zeile in
+[[sauter-jugendstil-arts-and-crafts-secession-sieben-bauten-kanon]] und als Nebenerwähnung in
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] geführt, kein eigener
+Artikel — kein Duplikat. Für Le Corbusier Duplikatscheck gegen
+[[sauter-le-corbusier-mies-van-der-rohe-elf-bauten-kanon]] (reiner Architektur-Bautenkanon, nennt
+bei Marseille nur beiläufig Jean Prouvés Möbelmitarbeit — andere Person/Projekt) und gegen
+[[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]] (führt Le Corbusier
+nur als offenen Folgeartikel-Kandidaten, kein bestehender Text): kein Duplikat.
+
+Zwei neue Artikel:
+
+- [[mackintosh-glasgow-school-of-art-the-four-gesamtkunstwerk-wiener-sezession]] — The Four
+  (Mackintosh/Margaret Macdonald/Frances Macdonald/Herbert McNair), Gesamtkunstwerk-Prinzip
+  gegen reine Materialtreue, Schlüsselwerke Mains Street 120/Windyhill/Hill House/Miss Cranston's
+  Tea Rooms/Glasgow School of Art (zwei Bauphasen 1897-99 und 1907-09)/Wärndorfer-Musikraum
+  Wien/Rose-Boudoir Turin 1902. Direkter Kontaktpunkt zu
+  [[wiener-werkstaette-hoffmann-bauhaus-gropius-designreform-industrie]]: Mackintosh 1900 auf
+  Einladung Josef Hoffmanns auf der 8. Wiener-Sezession-Ausstellung vertreten.
+- [[le-corbusier-perriand-jeanneret-moebelserie-grand-confort-b306-thonet-cassina]] —
+  Möbelserie 1927-1929 mit Charlotte Perriand und Pierre Jeanneret (Grand-Confort-Sessel,
+  Drehstuhl, B306-Chaiselongue, Stuhl 301/LC1), Ablehnung durch Peugeot, Produktion durch
+  Thonet-Mundus in limitierter Stückzahl, Cassina-Revival ab 1965. Sterbejahr-Diskrepanz dieser
+  Quelle (1968) gegen den Sauter-Kanon (1965, korrektes Datum) dokumentiert, nicht stillschweigend
+  übernommen. Autorenschaftsklärung als Praxisregel: Cassina-«LC»-Serie ist Dreier-Autorenschaft
+  Le Corbusier/Perriand/Jeanneret, nicht allein Le Corbusier.
+
+Damit 16 von 128 Fliesstext-Dateien der Zeile 68 gelesen. **Zeile 68 bleibt offen** — rund 85
+weitere Personenartikel (u. a. Ettore Sottsass, Ruhlmann, Kaare Klint, Dieter Rams, Zanuso,
+Wirkkala, Saarinen) sowie ein `bilder`-Unterordner und `~$`/`.tmp`-Sicherungsdateien ungelesen.
+Kein Datenschutz-/Sperrlisten-Fund. `git diff --numstat` auf die Inventardatei zeigt reinen
+Append (unverändert, Zeile 68 bleibt Sammelposition ohne Einzeldatei-Abhaken). `wiki/INDEX.md`
+nachgeführt. **Nächster Lauf:** Zeile 68 fortsetzen, Kandidaten nach Dateigrösse (`sottsass.htm`
+21 KB, `ruhlmann.htm` 21 KB, `kaare_klint.htm` 19 KB, `svenska.htm`/`russell.htm`/`rams.htm`/
+`paris_1925.htm` je ~18 KB), Duplikatscheck gegen die sieben neuen Artikel dieser Sektion und die
+Encyclopedia-of-Interior-Design-Quelle in `01_Innenarchitektur` vor jeder weiteren Destillation
+zwingend.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (104. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,

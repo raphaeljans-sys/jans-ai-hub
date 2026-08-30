@@ -92,7 +92,17 @@ und `gropius.htm` gelesen, zu einem neuen Vergleichsartikel Wiener Werkstätte g
 destilliert (Reformwurzel Arts and Crafts identisch, Ausgang gegensätzlich: Werkstätte bleibt
 handwerkliches Luxusprodukt, Bauhaus zielt auf Serienfertigung). Damit 14 von 128
 Fliesstext-Dateien gelesen, rund 87 weitere Personenartikel (u. a. Mackintosh, Le Corbusier als
-Möbeldesigner, Sottsass) bleiben offen; Zeile 68 bleibt offen. |
+Möbeldesigner, Sottsass) bleiben offen; Zeile 68 bleibt offen. **105. Lauf (30.08.2026):**
+`mackintosh.htm` und `le_corbusier.htm` gelesen, zu zwei neuen Artikeln destilliert: Mackintosh
+(The Four, Glasgow School of Art in zwei Bauphasen, Gesamtkunstwerk-Prinzip, Kontaktpunkt zu
+Hoffmann/Wiener Sezession 1900) und Le Corbusier/Perriand/Jeanneret-Möbelserie 1927-1929 (Grand
+Confort, B306, Drehstuhl, Produktion Thonet-Mundus, Cassina-Revival ab 1965; Sterbejahr-Diskrepanz
+1968 vs. 1965 gegen Sauter-Kanon dokumentiert). Damit 16 von 128 Fliesstext-Dateien gelesen, rund
+85 weitere Personenartikel (u. a. Sottsass, Rams, Zanuso, Wirkkala, Saarinen) bleiben offen; Zeile
+68 bleibt weiterhin offen. **Nächster Lauf:** Zeile 68 fortsetzen, nächste Kandidaten nach
+Dateigrösse (`sottsass.htm` 21 KB, `ruhlmann.htm` 21 KB, `kaare_klint.htm` 19 KB, `svenska.htm`
+18 KB, `rams.htm` 18 KB, `mies.htm`/`breuer.htm` bereits destilliert prüfen), sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2. |
 `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)
