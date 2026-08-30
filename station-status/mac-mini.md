@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 05:36:08
+Stand: 30.08.2026 05:46:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 05:35)
@@ -13,4 +13,4 @@ Stand: 30.08.2026 05:36:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4abc55317 Nachtschicht: Korrektur Fristen-Nachtrag, Konflikt betrifft 8 Dateien nicht 1, kein Datenverlust bestaetigt
+- bfb13329c nas-selfcommit: 2 Datei(en) 2026-08-30 05:45
