@@ -927,3 +927,13 @@ Novartis Campus Basel, Bürogebäude/Besucherzentrum WSJ-157, 2006) analog zur b
 destillierten Stadtlounge St. Gallen. Wer verifizieren kann: gegen eine zweite, sauber
 zitierbare Quelle prüfen (Novartis-Campus-Dokumentation, Märkli-Werkverzeichnis oder
 Szeemann-Nachlass), bevor ein Artikel dazu entsteht.
+
+## 260830 — Sektion `01_Landschaftsarchitektur`, Baumschutz-Merkblatt Luzern (Lane FACHWISSEN)
+
+**#79 Zürcher Baumschutz-Bewilligungsschwelle unbelegt.** Der destillierte Artikel
+[[baumschutz-bewilligungsschwelle-stammumfang-stadt-luzern-2008]] trägt nur die Luzerner
+Regel (80 cm Stammumfang, Stand 2008). JANS ist überwiegend in Zürich tätig; eine Zürcher
+Quelle zur dortigen Fällbewilligungsschwelle (voraussichtlich Baumschutzverordnung der
+Stadt Zürich bzw. kantonales Naturschutzrecht) liegt in diesem Korpus nicht vor. Wer eine
+solche Quelle findet oder kennt: als Ergänzungsartikel oder Aktualisierung nachtragen,
+bevor die Luzerner Zahl versehentlich als Zürcher Praxis zitiert wird.

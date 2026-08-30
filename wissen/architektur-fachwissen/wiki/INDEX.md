@@ -176,7 +176,7 @@ nach Dateigrösse (`graves.htm`, `kuramata.htm`, `hector_guimard.htm`, `elsie_de
 | 12 | `17_Projektbeschriebe` | buero | 7 / 18 | Die Sektion enthält genau ein Projekt, dafür das vollständige Set der Projektbeschriebe aller Fachplaner der Schulanlage Leutschenbach, verdichtet zum revidierten Gesamtdossier vom 09.12.2009, mit belegten Fassaden-, Minergie-, Tragwerks- und Lüftungswerten. | `raw/inventar/buero-referenzen__17_Projektbeschriebe.md` |
 | 13 | `01_Entwerfen` | archiv | 6 / 1'246 — **P1 vollständig destilliert 29.08.2026, fünf Artikel** | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). P2 (elf Positionen: Ausbau-Variantenvergleich, Raumtypologie-Vorlesung, SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe, Fachglossare Farbe/Pigmente, Farbenlehre-Website, Ornamentik-Literaturliste, eigene Ideentexte, Class-A-Problem-Vokabular, Ikonographie-Raster u. a.) offen. | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
 | 14 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
-| 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 — **P1 vollständig destilliert 29.08.2026, vier Artikel** | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Naturstein-Materialkunde, Baumpflanzung/Kletterpflanzen und eine Pflanzenliste (Vogt-Broschüren). Dachbegrünung als Cross-KB-Duplikat zu `bauprodukte/dachbegruenung-systeme.md` erkannt, nicht erneut destilliert. Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). P2 (24 Positionen, u. a. Gartenanalyse-Raster, Stadtbaum-Merkblatt Luzern, Vogt-Projektbroschüren) offen. | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
+| 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 — **P1 vollständig destilliert 29.08.2026, vier Artikel; P2 seit 30.08.2026 (zwei Läufe), vier weitere Artikel** | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Naturstein-Materialkunde, Baumpflanzung/Kletterpflanzen und eine Pflanzenliste (Vogt-Broschüren, alle P1). P2 destilliert: Baumschutz-Bewilligungsschwelle Stadt Luzern 2008, Gehölz-Kurzwissen (Baumaufbau/Artenverteilung LFI 1996), Vogt-Referenzblatt-Format (drei echte Projektblätter; die vierte in der Triage genannte Datei war bei Prüfung Hersteller-Marketing FOAMGLAS®, nicht destilliert), Gartenanalyse-Raster (fünf Kategorien, methodisch). Dachbegrünung als Cross-KB-Duplikat zu `bauprodukte/dachbegruenung-systeme.md` erkannt, nicht erneut destilliert. Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). P2 rund 19 der ursprünglich 24 Positionen offen (Topografie-/Renaissance-Prüfungsskripte, Ökologische-Gärten-Notiz, Irchelpark-Lehrunterlage, OCR-Blocker Irchelpark-Bepflanzung). | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
 | 16 | `01_Tragwerk` | archiv | 4 / 1'098 P1, 13/31 P2 — **P1 vollständig destilliert 29.08.2026 (zwei Artikel), P2 in vier Läufen 30.08.2026 (zwölf weitere Artikel/Ergänzungen)** | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen (Grubenmann-Kirchen, inkl. Knotenpunkt-Details), Werkverzeichnis der Grubenmann-Brücken (Schaffhauser Rheinbrücke), Tragwerksentwurf-Philosophie (Plastizitätstheorie, Eleganz im Brückenbau), Formfindungsmethode nach Frei Otto (Fallbeispiel Stuttgart 21), einem Literaturregister Holzbau, einem Werkregister Schwartz'scher Bauten 1992-2011, einem Erläuterungstext-Muster (Counterpoise), einer Aufgabenstellungs-Gliederung mit Randbedingungen (Bridging the Gap), einer Formfindungstaxonomie digitaler Holzkonstruktion (Eierschneider/Falt/Kassetten/Flecht), einem Werkregister Bieler-Holzbrücken, einem Werkregister Christian Menn (Stabbogen-vs-Hohlkasten) und dem Ähnlichkeitsgesetz Struktur-Modell (Galileo-Bezug). Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). P2 (18 Positionen offen, u. a. drei Kraftfluss-Darstellungsvarianten und ein 109-seitiger Reader ohne lesbaren Seitenbereich — fehlendes `poppler`). | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
 | 17 | `00_Allgemein` | archiv | 3 / 19 | Meta-Ebene des Archivs: Ordnungslogik (24 Hauptordner) und ein eigenes 14-teiliges Fachsystematik-Konzeptpapier von 2011, kein Fachinhalt im engeren Sinn. | `raw/inventar/archiv-fachwissen__00_Allgemein.md` |
 | 18 | `02_Architektur_Vermitteln` | archiv | 16 / 85 | Lehrmaterial zur Vermittlung: Rhetorik, Moderation, Protokoll, Geschäftskorrespondenz, wissenschaftliches Arbeiten — direkt anschlussfähig an mehrere JANS-Skills. **P1 und P2 vollständig destilliert 30.08.2026** (7 Artikel für 13 P2-Positionen, 3 für P1). Datenschutz-Fund: private Kontaktdaten Dritter auf Studienarbeits-Titelblättern, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__02_Architektur_Vermitteln.md` |
@@ -191,7 +191,7 @@ nach Dateigrösse (`graves.htm`, `kuramata.htm`, `hector_guimard.htm`, `elsie_de
 |---|---|---|---|---|---|
 | 23 | `15_Oberflaechenbehandlung` | buero | 0 / 1 | Eine einzige, fachlich dichte Aktennotiz einer Betontechnologin von 2007 trennt die Nachfixierung trockener Sichtbetonflächen mit Kaliwasserglas von der oliophoben und hydrophoben Imprägnierung spritzwasserexponierter Flächen und ist nur wegen Preisstand 2007 und fehlendem Preisanhang P2 statt P1. | `raw/inventar/buero-referenzen__15_Oberflaechenbehandlung.md` |
 | 24 | `19_Puplikationen` | buero | 0 / 4 | Ein abgeschlossenes Altbestands-Nest ohne JANS-Eigenbezug, dessen Layout-Andruck sechs Schweizer Einfamilienhäuser 2005 bis 2007 mit Flächen, Terminen und vollständigen Planerteams belegt, während die drei El-Croquis-Scans mangels Titel und Textebene nicht zitierfähig sind. | `raw/inventar/buero-referenzen__19_Puplikationen.md` |
-| 25 | `11_Landschaftsarchitektur` (buero) | buero | 0 / 1 | Die Sektion besteht aus einem einzigen Fremd-Projektblatt von Vogt Landschaftsarchitekten zum Bahnhofplatz Landquart, verwertbar allein wegen des belegten Beschriebs des roten Terraton-Belags mit Ziegelbruch und des sauberen Projektdatenblatt-Layouts. **Achtung Namenskollision:** nicht zu verwechseln mit `01_Landschaftsarchitektur` (archiv, Zeile 15), anderer Korpus. | `raw/inventar/buero-referenzen__11_Landschaftsarchitektur.md` |
+| 25 | `11_Landschaftsarchitektur` (buero) | buero | 0 / 1 — **vollständig destilliert 30.08.2026** | Die Sektion besteht aus einem einzigen Fremd-Projektblatt von Vogt Landschaftsarchitekten zum Bahnhofplatz Landquart, destilliert zusammen mit zwei weiteren Vogt-Projektblättern aus der Schwestersektion zu `wiki/vogt-referenzblatt-format-herkunft-material-identitaet.md`. **Achtung Namenskollision:** nicht zu verwechseln mit `01_Landschaftsarchitektur` (archiv, Zeile 15), anderer Korpus — dieselbe Datei lag in beiden Korpora vor, in einem Lauf gemeinsam abgearbeitet. | `raw/inventar/buero-referenzen__11_Landschaftsarchitektur.md` |
 | 26 | `31_Klimadaten` | buero | 0 / 2 | Zwei Einzelgrafiken ohne ein einziges Textdokument, von denen nur das Sonnenpfad-Diagramm Zürich mit den zeitinvarianten Kulminationshöhen (rund 66 Grad, 43 Grad, 20 Grad) brauchbar ist, und dies ohne Quellenangabe und damit nicht als Beleg. | `raw/inventar/buero-referenzen__31_Klimadaten.md` |
 | 27 | `06_Reisen` | archiv | 0 / 132 (P2 9, P3 24, X 99) | Arbeitsordner zweier privater Studienreisen 2013 (USA, Toskana) plus Veneto-Planung; methodisch verwertbar ist höchstens die Reise-/Exkursionsplanung (Factsheet, Stundenraster). **Starker Privatunterlagen-Befund** (Pass-/ESTA-/Buchungsdaten, s. u.) — vor jeder Destillation die Kurator-Prüfung nach Spec Punkt 8 durchführen; im Zweifel auch die P2-Reste nicht destillieren. | `raw/inventar/archiv-fachwissen__06_Reisen.md` |
 
@@ -2992,3 +2992,38 @@ CHANGELOG 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung 
 Dateigrösse unter den 6 verbliebenen Positionen (`sapper.htm`, `castiglioni.htm`,
 `dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`), sonst laut Queue-Regel nächste
 Sektion mit offenem P1/P2.
+
+## 260830 — Sektion `01_Landschaftsarchitektur` (Korpus 4), erster und zweiter P2-Lauf (Lane FACHWISSEN)
+
+Vier P2-Positionen destilliert (von 24 in der Triage, drei Bausteine zusammengefasst plus
+Gartenanalyse-Raster separat):
+
+- `07_Pflanzen_Produkte_Mobelierung_Belaege/00_Produkte/Stadtbaum_Luzern/100411_stadtbaeume08_Luzern.pdf`
+  → [[baumschutz-bewilligungsschwelle-stammumfang-stadt-luzern-2008]] (Bewilligungsschwelle
+  80 cm Stammumfang, 6-cm-Astregel, 6 m² Flächenbedarf je Strassenbaum; touristischer
+  Baumporträt-Teil bewusst nicht destilliert).
+- `05_Literatur/Bäume.pdf` (52 Seiten, generische Artbestimmungsbroschüre) →
+  [[gehoelz-kurzwissen-baumaufbau-artenverteilung-schweizer-waelder]] (nur Baumaufbau-
+  Terminologie und Artenverteilung Schweizer Wälder nach LFI 1996 destilliert, die rund 20
+  Einzelartenporträts bewusst nicht reproduziert — Wikipedia-artiges Bestimmungswissen ohne
+  JANS-Bürobezug).
+- `02_Landschaftsarchitekten/Vogt_Guenter/*` — drei echte Vogt-Referenzblätter (Novartis
+  Campus Park Basel, Bahnhofplatz Landquart, Helvetia Patria St. Gallen) →
+  [[vogt-referenzblatt-format-herkunft-material-identitaet]]. **Triage-Korrektur:** die
+  vierte in der Zeile genannte Datei (`Buonas_Roche_Tagungszentrum/Roche_Tagungszentrum_d.pdf`)
+  erwies sich bei Volltextprüfung als Pittsburgh-Corning-Pressedienst zum Dämmstoff
+  FOAMGLAS® (Hersteller-Marketing), nicht als Vogt-Referenzblatt — nicht destilliert, Spec-
+  Abgrenzung greift. Der Bahnhofplatz-Landquart-Fund deckt sich mit der bereits inventarisierten
+  Datei `raw/inventar/buero-referenzen__11_Landschaftsarchitektur.md` (Namenskollision Zeile 25
+  oben) — beide Inventardateien im selben Lauf mit Fortschritt versehen, keine
+  Doppeldestillation.
+- `00_Administration/07_Gartenanalyse/120814_Gartenanalyse.docx` + zwei PDF-Fassungen →
+  [[gartenanalyse-raster-fuenf-kategorien-bestandesaufnahme]] (fünf Analysekategorien,
+  übertragbar auf Ankaufsbesichtigung, Machbarkeitsstudie und Bestandesaufnahme vor Umbau).
+
+`git diff --numstat` auf beide betroffenen Inventardateien nach jedem Schreibschritt geprüft:
+reiner Append. Kein Datenschutz- oder Sperrlisten-Fund. Rund 19 der ursprünglich 24
+P2-Positionen bleiben in `01_Landschaftsarchitektur` offen (Topografie-/Renaissance-
+Prüfungsskripte, Ökologische-Gärten-Notiz, Irchelpark-Lehrunterlage, OCR-blockierte
+Irchelpark-Bepflanzung, Kolloquium-Teildublette). Nächster Lauf: Topografie-Prüfungsskript
+(Anschluss an Skill `massgebendes-terrain`).

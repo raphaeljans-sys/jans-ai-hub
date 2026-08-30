@@ -124,3 +124,14 @@ Die Sektion rechtfertigt keinen eigenen Destillat-Lauf. Sinnvoll ist, die eine
 Datei bei der Verarbeitung einer inhaltlich verwandten Sektion mitzunehmen,
 naheliegend zusammen mit `15_Oberflaechenbehandlung` (Belagsthema) oder
 `17_Projektbeschriebe` (Blattaufbau). Der Ordner selbst bleibt unangetastet.
+
+## Destillat-Fortschritt
+
+- **30.08.2026 (Lane FACHWISSEN):** die einzige P2-Position dieser Sektion (`2653.Bhf+Landquart.pdf`)
+  im selben Lauf destilliert wie die identische Datei in der Schwestersektion
+  `archiv-fachwissen__01_Landschaftsarchitektur.md` (Namenskollision dort dokumentiert) —
+  gemeinsam mit zwei weiteren Vogt-Projektblättern (Novartis Campus Park Basel, Helvetia
+  Patria St. Gallen) zu `wiki/vogt-referenzblatt-format-herkunft-material-identitaet.md`
+  destilliert (Formatvorbild Auftraggeber/Zeitraum/Leistungsphasen/Fläche/Herleitungstext,
+  Muster Herkunft-Material-Identität). Damit ist diese Sektion **vollständig abgearbeitet**
+  (0 P1, 1 P2, beide Stufen erledigt).

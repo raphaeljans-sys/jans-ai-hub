@@ -248,3 +248,17 @@ oben) bleibt offen für einen künftigen P2-Lauf. Kein neuer Datenschutz- oder S
   Gartenanalyse-Raster (`00_Administration/07_Gartenanalyse/120814_Gartenanalyse.docx`)
   als nächster Kandidat — methodischer Artikel, direkt auf Machbarkeitsstudien und
   Bestandesaufnahmen übertragbar, kein Blocker bekannt.
+
+- **30.08.2026 (Lane FACHWISSEN, zweiter P2-Lauf dieser Sektion, direkt im selben Durchgang):**
+  `00_Administration/07_Gartenanalyse/120814_Gartenanalyse.docx` + beide PDF-Fassungen
+  (14.08. und 15.08.2012, inhaltlich identisch, zweite verfeinert) gelesen und destilliert zu
+  `wiki/gartenanalyse-raster-fuenf-kategorien-bestandesaufnahme.md` (`status: speculative`,
+  eigene Studiennotiz ohne unabhängige Zweitquelle). Kein neuer Datenschutz-Fund. `git diff
+  --numstat` geprüft: reiner Append. **Verbleibende offene P2-Positionen (rund 19 der
+  ursprünglich 24 Zeilen):** Irchelpark-Bepflanzung (OCR-Blocker), `120919_Irchelpark.pdf`
+  Lehrunterlage, Vorlesungsnotiz Entwerfen-und-Bauen-mit-Pflanzen (Stadtbaum-Konstruktives),
+  Gartenmöblierung-Renaissance-Destillat, Topografie-Prüfungsskript + Zusammenfassung,
+  Renaissance-Skript + Zusammenfassung, Ökologische-Gärten-Vorlesungsnotiz,
+  Kolloquium-Auszug (Teildublette). Nächster Lauf: Topografie-Prüfungsskript
+  (`06_Themenfelder_Vorlesungen/Topografie/00_Pruefungsskript_Topografie/`) — Anschluss an
+  Skill `massgebendes-terrain`, kein Blocker bekannt.

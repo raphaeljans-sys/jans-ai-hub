@@ -7397,3 +7397,29 @@ Positionen (`mailand.htm` als kleinste zuerst; bei `schichtholz.htm`/`behrens.ht
 vorab prüfen, ob Ergänzung bestehender Artikel treffender ist als eigener), sonst laut
 Queue-Regel nächste Sektion mit offenem P1/P2. Die 62 bestätigten Frameset-/Banner-Dateien
 dieser Sektion nicht erneut prüfen.
+
+## 260830 — Sektion `01_Landschaftsarchitektur` (Korpus 4), erster und zweiter P2-Lauf (Lane FACHWISSEN)
+
+Vier P2-Positionen destilliert: Baumschutz-Bewilligungsschwelle Stadt Luzern 2008
+([[baumschutz-bewilligungsschwelle-stammumfang-stadt-luzern-2008]]), Gehölz-Kurzwissen aus
+einer 52-seitigen Artbestimmungsbroschüre — nur Baumaufbau-Terminologie und
+Artenverteilung Schweizer Wälder (LFI 1996) destilliert, keine Einzelartenporträts
+([[gehoelz-kurzwissen-baumaufbau-artenverteilung-schweizer-waelder]]), Vogt-Referenzblatt-
+Format aus drei echten Projektblättern
+([[vogt-referenzblatt-format-herkunft-material-identitaet]]) sowie das eigene
+Gartenanalyse-Raster in fünf Kategorien
+([[gartenanalyse-raster-fuenf-kategorien-bestandesaufnahme]]).
+
+**Triage-Korrektur:** eine der vier ursprünglich als «Vogt-Referenzblätter» triagierten
+Dateien (`Buonas_Roche_Tagungszentrum/Roche_Tagungszentrum_d.pdf`) ist bei Volltextprüfung
+kein Vogt-Dokument, sondern ein Pittsburgh-Corning-Pressedienst zum Dämmstoff FOAMGLAS®
+am Gebäude Roche Forum Buonas — Hersteller-Marketing, nicht destilliert. Ausserdem eine
+Namenskollision aufgelöst: dieselbe Landquart-Datei lag sowohl in
+`archiv-fachwissen__01_Landschaftsarchitektur.md` als auch in
+`buero-referenzen__11_Landschaftsarchitektur.md` vor; beide Inventardateien wurden im
+selben Lauf mit Fortschritt versehen, keine Doppeldestillation.
+
+`git diff --numstat` auf beide betroffenen Inventardateien nach jedem Schreibschritt
+geprüft: reiner Append. Kein Datenschutz- oder Sperrlisten-Fund. Rund 19 der ursprünglich
+24 P2-Positionen in `01_Landschaftsarchitektur` bleiben offen. Nächster Lauf:
+Topografie-Prüfungsskript (Anschluss an Skill `massgebendes-terrain`).
