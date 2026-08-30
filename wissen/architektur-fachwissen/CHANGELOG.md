@@ -1,5 +1,45 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II`, vierter P2-Lauf (Lane FACHWISSEN, 46. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet, am realen `KORPUS-QUEUE.md`-Stand weitergearbeitet.
+Eigener Prozessfehler in diesem Lauf: vor Arbeitsbeginn nur `tail` der Inventardatei
+`archiv-fachwissen__03_Bauprozesse_I_II.md` geprüft, nicht deren vollständigen
+`## Destillat-Fortschritt`-Verlauf — dadurch zwei Positionen begonnen, die im ersten P2-Lauf
+dieser Sektion (30.08.2026) bereits bearbeitet waren. Noch im selben Lauf korrigiert:
+
+- `06_Checklisten/*.doc` (Zeile 108): bereits destilliert
+  (`[[eth-checklisten-kontextanalyse-bauelementglossar-abgabeliste]]`). Eigener
+  Duplikat-Artikel-Entwurf gelöscht, bevor er gesichert wurde.
+- `11_Kostenkennzahlen/schaetzungsanleitung_kap5.pdf` (Zeile 95): war als «kein Mehrwert»
+  eingestuft, die Kapitalisierungssatz-Zuschlagssystematik daraus ist zu Recht bereits in
+  `wissen/immobilienbewertung/wiki/ertragswert-dcf.md` destilliert (Cross-KB, korrekt). Die
+  bisher übersehene **Lageklassenschlüssel-Methode** (Tab. 6-8, Landwertanteil am Neuwert
+  über gewichtete Lagekriterien) ist eigenständig und dort nicht enthalten → neuer Artikel
+  [[schaetzungsanleitung-lageklassenschluessel-landwertanteil]], `status: speculative`.
+- `05_Vertraege/2_2002_KBBOB Hilfe Arch_verträge.pdf` (Zeile 104): war als reiner
+  Cross-KB-Kandidat eingestuft (`wiki/QUESTIONS.md` #67, «Honorarmethodik ist kein
+  Ziel-Artikeltyp dieser KB») — diese Einschätzung war zu eng, die Schwester-Sektion führt
+  bereits zwei Honorarmechanik-Artikel aus Korpus 3. Gleitpreisklausel-Formel
+  (t1 = (0,2+0,8×J1/J0)−1, Fixanteil/Lohnanteil-Split) und Honorargrundprozentsatz-Kurve
+  (subventionierte Bauten, SIA 102/103 vs. 108) destilliert → neuer Artikel
+  [[kbob-2002-gleitpreisklausel-teuerungsabrechnung-honorargrundprozentsatz]],
+  `status: emerging`. Die Zeittarif-Kategorien-Mechanik desselben Dokuments bewusst NICHT
+  erneut destilliert (Duplikat zu [[zeittarif-mechanik-tarifblatt-stgallen-2009]]).
+  `wiki/QUESTIONS.md` #67 mit Auflösungsnotiz ergänzt.
+
+Fortschritt in `raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` Abschnitt
+«Destillat-Fortschritt — Ergänzung 2026-08-30 (P2, vierter Lauf dieser Sektion)», reiner
+Append (`git diff --numstat` zeigt `-0`). **Lehre für Folgeläufe, im Append festgehalten:**
+vor Bearbeitung einer Sektion IMMER alle bisherigen `## Destillat-Fortschritt`-Abschnitte der
+Inventardatei lesen, nicht nur den letzten per `tail`. Verbleibende offene P2-Positionen
+dieser Sektion unverändert (Menz-Bauprozesse-Urheberrechtsfrage, veralteter
+AVA-Software-Vergleich, Ausschreibungsplan-Anonymisierungsprüfung) — kein schnell
+erschliessbarer Rest mehr, nächster Lauf sollte zur nächstgrössten Sektion mit offenem P2
+übergehen (`01_Tragwerk`, `02_Architektur_Vermitteln` oder `01_Landschaftsarchitektur`, je
+12 P2-Zeilen, bisher unbearbeitet). `wiki/INDEX.md` und `skills/wissens-destillat/
+KORPUS-QUEUE.md` nachgeführt.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, zweiundzwanzigster P2-Lauf, `120518_Abschlussvorlesung` (Lane FACHWISSEN, 45. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich

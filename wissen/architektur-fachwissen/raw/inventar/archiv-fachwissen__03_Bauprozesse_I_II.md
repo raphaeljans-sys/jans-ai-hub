@@ -658,3 +658,54 @@ mit fehlendem Aktualitätswert. Für die Sektion ist damit kein unblockierter,
 schnell erschliessbarer P2-Rest mehr vorhanden; ein Folgelauf müsste entweder die
 Urheberrechtsfrage klären, die Anonymisierung vornehmen, oder gemäss Queue-Regel zur
 nächstgrössten Sektion nach Ertrag übergehen.
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (P2, vierter Lauf dieser Sektion)
+
+Vierundzwanzigster Destillat-Lauf des Korpus `archiv-fachwissen` (Lane FACHWISSEN).
+Dispatch-Text erneut veraltet (identisches Muster, Memory `project_fachwissen-dispatch-loop`,
+45. Beispiel), am realen `KORPUS-QUEUE.md`-Stand weitergearbeitet. **Wichtiger Hinweis für
+Folgeläufe:** dieser Lauf begann fälschlich, ohne zuerst den kompletten
+`## Destillat-Fortschritt`-Verlauf dieser Datei zu lesen (nur `tail` geprüft, nicht die
+beiden bereits bestehenden Abschnitte weiter oben) — dadurch wurden zwei Positionen erneut
+bearbeitet, die im ersten Lauf (siehe oben) bereits verarbeitet waren. Fehler in diesem Lauf
+selbst korrigiert (Duplikat-Artikel gelöscht, Kapitalisierungssatz-Abschnitt aus einem
+zweiten Artikel entfernt), aber als Lehre für den nächsten Lauf hier festgehalten: **vor
+Bearbeitung IMMER alle `## Destillat-Fortschritt`-Abschnitte einer Inventardatei lesen, nicht
+nur den letzten.**
+
+**Bearbeitet:**
+
+- [x] `06_Checklisten/*.doc` (Zeile 108) — **Fehlgriff.** War bereits im ersten P2-Lauf dieser
+  Sektion destilliert (`[[eth-checklisten-kontextanalyse-bauelementglossar-abgabeliste]]`).
+  Eigener Duplikat-Artikel `entwurfscheckliste-kontext-tektonik-bauteilglossar-abgabeset-eth.md`
+  in diesem Lauf wieder gelöscht, bevor er committet wurde. Kein Schaden entstanden.
+- [x] `11_Kostenkennzahlen/schaetzungsanleitung_kap5.pdf` (Zeile 95) — **Korrektur einer
+  Voreinschätzung.** Der erste P2-Lauf hatte die Lageklassenschlüssel-/Landwertanteil-Tabellen
+  (Tab. 6-8) als «reine Zahlenreihen ohne eigenständigen Fachwissens-Mehrwert» eingestuft und
+  nicht destilliert. Bei genauerer Prüfung ist die Lageklassenschlüssel-**Methode** (vier
+  gewichtete Lagekriterien → Mittelwert → nichtlineare Landwertanteil-Kurve) eine
+  eigenständige, wiederverwendbare Bewertungslogik, in `wissen/immobilienbewertung` nicht
+  vorhanden → [[schaetzungsanleitung-lageklassenschluessel-landwertanteil]], neu,
+  `status: speculative`. Die Kapitalisierungssatz-Zuschlagssystematik derselben Quelle
+  (Tab. 21/23) bleibt zu Recht unangetastet — die ist bereits vollständig in
+  `wissen/immobilienbewertung/wiki/ertragswert-dcf.md` destilliert (dort korrekt erkannt).
+- [x] `05_Vertraege/2_2002_KBBOB Hilfe Arch_verträge.pdf` (Zeile 104) — **Korrektur einer
+  Voreinschätzung.** Der erste P2-Lauf hatte das Dokument als reinen Cross-KB-Kandidaten
+  eingestuft und nicht destilliert (`wiki/QUESTIONS.md` #67). Da diese KB bereits zwei
+  Honorarmechanik-Artikel aus Korpus 3 führt, ist Honorarmethodik entgegen der damaligen
+  Einschätzung ein etablierter Artikeltyp hier. Gleitpreisklausel-Formel und
+  Honorargrundprozentsatz-Kurve destilliert →
+  [[kbob-2002-gleitpreisklausel-teuerungsabrechnung-honorargrundprozentsatz]], neu,
+  `status: emerging`. Die Zeittarif-Kategorien-Mechanik desselben Dokuments bewusst NICHT
+  erneut destilliert (Duplikat zu [[zeittarif-mechanik-tarifblatt-stgallen-2009]]).
+  `wiki/QUESTIONS.md` #67 mit Auflösungsnotiz ergänzt.
+
+**P2-Status dieser Sektion nach diesem Lauf: zwei weitere Fachbausteine destilliert (zwei
+neue Wiki-Artikel), zwei frühere Voreinschätzungen korrigiert. Verbleibende offene
+P2-Positionen unverändert gegenüber dem zweiten Lauf** (Menz-Bauprozesse-Zusammenfassung
+Urheberrechtsfrage, AVA-Software-Vergleich veraltet, Ausschreibungspläne/Unternehmerofferte
+Anonymisierungsprüfung). Kein unblockierter, schnell erschliessbarer P2-Rest mehr vorhanden;
+nächster Lauf sollte gemäss Queue-Regel zur nächstgrössten Sektion mit offenem P2 in
+`archiv-fachwissen` übergehen (Kandidaten nach Zeilenzahl: `01_Tragwerk`,
+`02_Architektur_Vermitteln`, `01_Landschaftsarchitektur`, je 12 P2-Zeilen, keine bisher
+bearbeitet).

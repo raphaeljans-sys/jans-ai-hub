@@ -783,3 +783,17 @@ Erstinventarisierung 23.08.2026 durchgehend verwendete Zahl 23. Nicht eigenmäch
 Ordner, oder eine der Themen-Begriffsordner wurde ursprünglich mitgezählt). Wer beantworten
 kann: Raphael oder ein Abgleich mit dem Original-Sichtungsprotokoll vom 23.08.2026, falls
 vorhanden.
+
+## 260830 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `03_Bauprozesse_I_II`, vierter Lauf (Lane FACHWISSEN)
+
+**#67 Auflösung: KBOB-Honorarempfehlung 2002 doch in dieser KB destilliert.** Die
+Einschätzung «Honorarmethodik ist kein Ziel-Artikeltyp dieser KB» im vorigen Eintrag war zu
+eng: die Schwester-Sektion `18_Projektkostenplanung`/`25_Wettbewerb` (Korpus 3
+`buero-referenzen`, dieselbe KB) enthält bereits zwei Honorarmechanik-Artikel
+([[honorarmechanik-wettbewerb-oeffentliche-bauherrschaft]],
+[[zeittarif-mechanik-tarifblatt-stgallen-2009]]) — Honorarmethodik ist also sehr wohl
+vertretener Artikeltyp. Die Gleitpreisklausel-Formel und die
+Honorargrundprozentsatz-Kurve (subventionierte Bauten) sind jetzt in
+[[kbob-2002-gleitpreisklausel-teuerungsabrechnung-honorargrundprozentsatz]] destilliert; die
+Zeittarif-Kategorien-A-G-Mechanik des Dokuments wurde bewusst **nicht** erneut destilliert
+(Duplikat zur 2009er-Fassung in [[zeittarif-mechanik-tarifblatt-stgallen-2009]]).

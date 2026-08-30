@@ -1030,3 +1030,39 @@ Ergänzung 2026-08-30», reiner Append (`git diff --numstat` 73/0 geprüft). Der
 Entscheidungspunkt Raphaels (`QUESTIONS.md` #1/#58/#60/#63) bleibt unverändert offen und
 wurde in diesem Lauf bewusst kein weiteres Mal wiederholt.
 uninventarisierten Sektionen.
+
+## 260830 — Vierundzwanzigster Destillat-Lauf (Korpus 4, Sektion `03_Bauprozesse_I_II`, vierter P2-Lauf)
+
+Dispatch-Text erneut veraltet (46. Beispiel, Memory `project_fachwissen-dispatch-loop`), am
+realen Stand weitergearbeitet. **Prozessfehler in diesem Lauf:** vor Arbeitsbeginn nur den
+letzten `## Destillat-Fortschritt`-Abschnitt der Inventardatei geprüft (`tail`), nicht die
+beiden vorherigen — dadurch zwei Positionen erneut begonnen, die im ersten P2-Lauf dieser
+Sektion bereits verarbeitet waren (`06_Checklisten/*.doc`, bereits als
+[[eth-checklisten-kontextanalyse-bauelementglossar-abgabeliste]] destilliert). Noch im
+selben Lauf korrigiert: eigener Duplikat-Artikel-Entwurf gelöscht, bevor er gesichert wurde.
+
+Zwei frühere Voreinschätzungen bei genauerer Prüfung korrigiert, zwei neue Artikel:
+
+- [[schaetzungsanleitung-lageklassenschluessel-landwertanteil]] — die
+  Lageklassenschlüssel-Methode (Tab. 6-8 derselben `schaetzungsanleitung_kap5.pdf`, die im
+  ersten P2-Lauf als «kein Mehrwert» eingestuft worden war) ist eine eigenständige,
+  wiederverwendbare Bewertungslogik (vier gewichtete Lagekriterien → Landwertanteil-Kurve),
+  die in `wissen/immobilienbewertung` fehlt. Die zugehörige
+  Kapitalisierungssatz-Zuschlagssystematik derselben Quelle bleibt zu Recht unangetastet
+  (bereits in `wissen/immobilienbewertung/wiki/ertragswert-dcf.md` destilliert).
+- [[kbob-2002-gleitpreisklausel-teuerungsabrechnung-honorargrundprozentsatz]] — die
+  KBOB-2002-Honorarempfehlung war als reiner Cross-KB-Kandidat zurückgestellt worden
+  (`QUESTIONS.md` #67), obwohl diese KB bereits zwei Honorarmechanik-Artikel aus Korpus 3
+  führt. Gleitpreisklausel-Formel und Honorargrundprozentsatz-Kurve (subventionierte Bauten)
+  jetzt destilliert, Zeittarif-Kategorien-Teil bewusst nicht erneut (Duplikat zu
+  [[zeittarif-mechanik-tarifblatt-stgallen-2009]]). `QUESTIONS.md` #67 mit Auflösungsnotiz
+  ergänzt.
+
+Fortschritt in `raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` Abschnitt
+«Destillat-Fortschritt — Ergänzung 2026-08-30 (P2, vierter Lauf dieser Sektion)», reiner
+Append (`git diff --numstat` 51/0 geprüft). **Lehre, im Append festgehalten:** vor
+Bearbeitung einer Sektion IMMER alle bisherigen `## Destillat-Fortschritt`-Abschnitte lesen,
+nicht nur den letzten. Kein schnell erschliessbarer P2-Rest mehr in dieser Sektion; nächster
+Lauf sollte gemäss Queue-Regel zur nächstgrössten Sektion mit offenem P2 übergehen
+(`01_Tragwerk`, `02_Architektur_Vermitteln` oder `01_Landschaftsarchitektur`, je 12
+P2-Zeilen, bisher unbearbeitet).

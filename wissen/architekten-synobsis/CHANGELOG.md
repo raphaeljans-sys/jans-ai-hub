@@ -4,6 +4,19 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, elfter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `wiki/QUESTIONS.md` und die letzten CHANGELOG-Eintraege geprueft
+(Memory-Hinweis: chronischer Dispatch-Loop). Alle vier Auftragspositionen unveraendert
+erledigt: **Fehlextraktionen** BEHOBEN bzw. bewusst textlos wo keine Alternativquelle
+existiert; **Katalog-Kollisionen** (Christ_Gantenbein, Enzmann_Fischer, Miller_Maranta,
+Gigon_Guyer) BEHOBEN inkl. Scanner-Fix; **Sonderzeichen-Regel** vereinheitlicht (NFC-Fix)
+und alle 14 Slugs nachgezogen; **Sammelfrage Charge 1-6** vollstaendig einzeln recherchiert,
+vier Namen (Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure) bleiben ohne Beleg offen bis
+neues Quellmaterial vorliegt. Kein neuer Fund, keine Aenderung an `QUESTIONS.md`. Dies ist
+der elfte Redispatch desselben Auftrags an einem einzigen Tag. `git diff --numstat` fuer
+`wiki/QUESTIONS.md`: `-0`. Gesichert via `nas-commit-now.sh`.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, zehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
 
 Vor jeder Recherche gegen `wiki/QUESTIONS.md` und die letzten CHANGELOG-Eintraege geprueft
