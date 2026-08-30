@@ -498,3 +498,30 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   Einzelseiten) und Tonmitschnitt nicht ausgewertet. Damit ist `120420_Kunst_Loos` für die
   gesichteten Textquellen abgeschlossen. Offen: 6 der 23 Vorlesungsordner. Nächster Lauf:
   nächste noch nicht gesichtete Vorlesung nach Ordnernummer (`120427_Bauen_Abraham`).
+
+- **30.08.2026 (19. P2-Lauf, Lane FACHWISSEN, Station laut `scutil` tatsächlich Macmini,
+  Dispatch-Text erneut veraltet/fälschlich «MacBook Pro», 42. Beispiel Memory
+  `project_fachwissen-dispatch-loop`):** Vor Arbeitsbeginn `ps aux` (ein `claude -p`-Prozess für
+  Lane FACHWISSEN, ein unabhängiger für Lane SYNOBSIS, keine Doppel-Instanz) und `git status`
+  (sauberer Working Tree, nichts zu sichern) geprüft. `120427_Bauen_Abraham` bearbeitet (7.
+  Vorlesung Architekturtheorie II, 27.04.2012). Syllabus (`pypdf`), die bereits als PDF
+  vorliegende Live-Mitschrift (`02_Mitschrift/00_PDF/120427_Baune_Venakulaere_Architektur.pdf`,
+  24 Seiten, stellenweise fehlerhafte Transkription) sowie eine separate, deutlich klarere
+  Studierenden-Zusammenfassung (`00_PDF/120816_Zusammenfassung_Bauen.pdf`, 4 Seiten,
+  beantwortet nur die ersten drei von fünf Syllabus-Fragen) gelesen. Fehlplatzierte Dateien im
+  `10_Ungueltig`-Unterordner (`120401_Technik.pdf`, `120420_Kunst.pdf`) korrekt als bereits
+  verarbeitete Vorvorlesungen erkannt, nicht erneut ausgewertet. Gegen bestehende Wiki-Artikel
+  geprüft (Rudofsky, vernakulär, Pattern Language, Kroll, Hertzberger, Strukturalismus kamen
+  bisher nur als Literaturhinweis in `literaturlandkarte-architekturtheorie-eth-syllabi.md`
+  vor, kein inhaltlicher Artikel) — kein Duplikat. Ein Artikel destilliert:
+  `wiki/vernakulaere-architektur-anonymes-bauen-strukturalismus-pattern-language.md` (`status:
+  speculative`, Begriffsklärung Volksarchitektur/anonymes Bauen/vernakuläre Architektur,
+  gegensätzliche Vorkriegs-/Nachkriegsmotive, Strukturalismus und Partizipation bei Kroll/
+  Hertzberger/van Eyck, Rudofsky und anonyme Architektur bei Eldem/Konstantinidis/Gellner/
+  Pikionis, Christopher Alexander vom Baumdiagramm zur Pattern Language, Kernzitate aus
+  Abrahams «Elementare Architektur»). Vorlesungsfolien (rund 190 Einzelseiten, Bildmaterial ohne
+  Fliesstext), Tonaufnahme (Logic-Projektdatei) und die abweichende Syllabus-Fassung 2013 nicht
+  ausgewertet; zwei der fünf Fragenkatalog-Fragen bleiben in der Quelle selbst unbeantwortet.
+  Damit ist `120427_Bauen_Abraham` für die gesichteten Textquellen abgeschlossen. Offen: 5 der
+  23 Vorlesungsordner (rund 140 der 190 Dateien). Nächster Lauf: nächste noch nicht gesichtete
+  Vorlesung nach Ordnernummer (`120504_Vision_Visualitaet_I_Gropius`).

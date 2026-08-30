@@ -1,5 +1,40 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, neunzehnter P2-Lauf, `120427_Bauen_Abraham` (Lane FACHWISSEN, 42. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich
+«MacBook Pro», real Macmini laut `scutil`). Vor Arbeitsbeginn geprüft: `ps aux` zeigte genau
+einen `claude -p`-Prozess für Lane FACHWISSEN (dieser Lauf selbst) und einen unabhängigen für
+Lane SYNOBSIS — keine Doppel-Instanz. `git status` zeigte einen sauberen Working Tree, nichts
+aus einem Vorlauf zu sichern. `KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft statt dem
+veralteten Dispatch-Text zu folgen (beide Korpus-Specs bestehen bereits, P1 ist für beide
+Korpora vollständig, P2 läuft sektionsweise durch `02_Architekturtheorie`).
+
+`120427_Bauen_Abraham` (7. Vorlesung Architekturtheorie II, 27.04.2012) bearbeitet: Syllabus
+(`16_SYL-Ath2-2012-7Bauen.pdf`, `pypdf`), die bereits als PDF vorliegende Live-Mitschrift
+(`02_Mitschrift/00_PDF/120427_Baune_Venakulaere_Architektur.pdf`, 24 Seiten, stellenweise
+fehlerhafte Transkription) sowie eine separate, deutlich klarere Studierenden-Zusammenfassung
+(`00_PDF/120816_Zusammenfassung_Bauen.pdf`, 4 Seiten) gelesen. Die Zusammenfassung beantwortet
+nur die ersten drei der fünf Syllabus-Fragen systematisch; die restlichen zwei bleiben in der
+Quelle selbst offen. Fehlplatzierte Dateien im `10_Ungueltig`-Unterordner (`120401_Technik.pdf`,
+`120420_Kunst.pdf`) als bereits verarbeitete Vorvorlesungen erkannt, nicht erneut ausgewertet.
+Gegen bestehende Wiki-Artikel geprüft (Rudofsky, vernakuläre Architektur, Pattern Language,
+Kroll, Hertzberger, Strukturalismus kamen bisher nur als Literaturhinweis in
+`literaturlandkarte-architekturtheorie-eth-syllabi.md` vor, kein inhaltlicher Artikel) — kein
+Duplikat. Ein Artikel destilliert:
+`wiki/vernakulaere-architektur-anonymes-bauen-strukturalismus-pattern-language.md` (`status:
+speculative`, Begriffsklärung Volksarchitektur/anonymes Bauen/vernakuläre Architektur,
+gegensätzliche Vorkriegs-/Nachkriegsmotive für das Interesse an Folklore, Strukturalismus und
+Partizipation bei Kroll/Hertzberger/van Eyck mit der primär-/sekundär-Struktur-Unterscheidung,
+Rudofsky und anonyme Architektur bei Eldem/Konstantinidis/Gellner/Pikionis, Christopher
+Alexander vom Baumdiagramm zur Pattern Language inkl. dessen Selbstkritik, Kernzitate aus
+Abrahams «Elementare Architektur»). Vorlesungsfolien (rund 190 Einzelseiten, reines
+Bildmaterial), Tonaufnahme (Logic-Projektdatei) und die abweichende Syllabus-Fassung 2013 nicht
+ausgewertet. Damit ist `120427_Bauen_Abraham` für die gesichteten Textquellen abgeschlossen.
+Offen: 5 der 23 Vorlesungsordner (rund 140 der 190 Dateien). Nächster Lauf: nächste noch nicht
+gesichtete Vorlesung nach Ordnernummer (`120504_Vision_Visualitaet_I_Gropius`).
+`KORPUS-QUEUE.md`/`INDEX.md` nachgeführt; `nas-commit-now.sh` sichert diesen Lauf im Anschluss.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, achtzehnter P2-Lauf, `120420_Kunst_Loos` (Lane FACHWISSEN)
 
 Vor Arbeitsbeginn `scutil --get ComputerName` (Macmini, Dispatch-Text nennt weiterhin fälschlich
