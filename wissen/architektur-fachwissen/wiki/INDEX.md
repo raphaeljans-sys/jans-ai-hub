@@ -2850,3 +2850,47 @@ Fortsetzung nach Dateigrösse unter den 16 verbliebenen Positionen (`race.htm` a
 zuerst; bei `schichtholz.htm`/`behrens.htm` weiterhin vorab prüfen, ob Ergänzung
 bestehender Artikel treffender ist als eigener), sonst laut Queue-Regel nächste Sektion mit
 offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (126. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen), Hostname Macmini via
+`scutil`, genau ein `claude -p`-Prozess mit diesem Dispatch-Text (PID 54058), kein
+Doppel-Dispatch, Working Tree bei Laufbeginn sauber. Korrektur zur 16er-Liste des 125. Laufs:
+`maugham.htm` war darin fälschlich als offen geführt, ist aber bereits über
+[[konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939]] destilliert — real
+bleiben 15 inhaltstragende Positionen. Kandidatenermittlung diesmal vollständig
+programmatisch (Python, NFC-Normalisierung, Referenzabgleich gegen alle `wiki/*.md` ausser
+`INDEX.md`/`QUESTIONS.md`, danach Tag-Strip-Vorschau der übrigen 30 kleinsten Dateien): alle
+30 bestätigten sich als reine Frameset-/Navigations-/Bildunterschrift-Seiten ohne Fliesstext
+(`<frameset>`-Marker bzw. Textlänge unter 260 Zeichen nach Tag-Entfernung) und wurden damit
+zur bereits bekannten Gruppe der 32 ertraglosen Dateien aus Lauf 117 hinzugerechnet — 15
+inhaltstragende Positionen bestätigt. Die drei kleinsten davon gelesen: `race.htm`,
+`krise.htm`, `mollino.htm`. Duplikatscheck vorab (`grep -rli` gegen die jeweiligen Namen über
+`wiki/*.md` ohne `INDEX.md`/`QUESTIONS.md`): keine Dublette zu Ernest Race oder Carlo
+Mollino; `krise.htm` überschneidet sich mit der bereits destillierten theoretischen Erzählung
+in [[design-krise-der-moderne-1960er-pop-aesthetik-harley-earl-archigram]] (aus
+`aktion_und_reaktion.htm`), liefert aber die dort als offener Punkt vermerkten konkreten
+Träger (Peter Murdoch, Archigram) plus zusätzliches, dort nicht behandeltes Material (Mary
+Quant, Biba, italienisches Anti-Design) — daher kein Duplikat, sondern komplementärer
+Artikel mit Rückverweis im Gegenartikel. Drei neue Artikel:
+[[ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain]] (BA-Stuhl
+aus Rüstungsaluminium, Antilope/Springbock für das Festival of Britain 1951,
+«Contemporary Style»), [[carlo-mollino-turiner-barock-organische-schichtholzmoebel]]
+(Turiner Gegenlinie zur seriellen Mailänder Nachkriegsmoderne, organische
+Schichtholz-Einzelstücke, «Stromlinienförmiger Surrealismus») und
+[[pop-design-anti-design-1960er-mary-quant-archigram-superstudio-archizoom]] (Mary
+Quant/Biba, Spotty-Stuhl, Archigram, italienische Kollektive Superstudio/Archizoom/Gruppo
+Strum/Gruppo 9999, Blow Chair/Sacco/Up-Sessel, Internationalisierung über Ingo Maurer/Eero
+Aarnio/Robert Venturi), dazu Rückverweis im bestehenden Krisen-Artikel ergänzt. Damit sind
+116 von 128 Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert (62
+Frameset-/Banner-Dateien, davon 30 neu in diesem Lauf identifiziert, plus 54 inhaltstragende
+Dateien über alle Läufe), 12 inhaltstragende Positionen bleiben offen. `git diff --numstat`
+auf die Inventardatei zeigte keine Änderung
+(Sammelzeile unverändert), auf die drei neuen Wiki-Dateien reine Neuanlage, auf den
+Gegenartikel `4 3` (Ersetzung eines Bulletpunkts, kein Inhaltsverlust). Details CHANGELOG
+30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter
+den 12 verbliebenen Positionen (`mailand.htm`, `schichtholz.htm`, `behrens.htm`, `wegner.htm`,
+`mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`, `deskey.htm`,
+`bugholz.htm`, `day.htm`) — bei `schichtholz.htm`/`behrens.htm` weiterhin vorab prüfen, ob
+Ergänzung bestehender Artikel treffender ist als eigener, sonst laut Queue-Regel nächste
+Sektion mit offenem P1/P2.

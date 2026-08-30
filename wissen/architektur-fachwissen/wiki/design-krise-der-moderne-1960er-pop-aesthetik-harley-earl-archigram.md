@@ -76,6 +76,7 @@ Lifestyle-Objekt).
 
 - Quelle ist ein unautorisierter Website-Spiegel ohne Impressum/Autor, keine Verifikation
   gegen Primärliteratur in diesem Lauf.
-- Peter Murdoch und Archigram sind in dieser KB noch nicht mit eigenem Artikel vertreten —
-  möglicher Kandidat für einen künftigen Lauf, falls im selben Ordner eine eigene Quelldatei
-  existiert.
+- Peter Murdoch und Archigram sind jetzt mit den konkreten Werkbeispielen (Spotty-Stuhl,
+  Archigram-Zeichnungen) in
+  [[pop-design-anti-design-1960er-mary-quant-archigram-superstudio-archizoom]] behandelt,
+  destilliert aus derselben Quelldatei `krise.htm`.

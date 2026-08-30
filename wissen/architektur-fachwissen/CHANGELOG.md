@@ -7213,3 +7213,66 @@ bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den 16 ve
 Positionen (`race.htm` als kleinste zuerst; bei `schichtholz.htm`/`behrens.htm` weiterhin
 vorab prüfen, ob Ergänzung bestehender Artikel treffender ist als eigener), sonst laut
 Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (126. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt statt aus dem Dispatch-Text übernommen, Hostname Macmini via
+`scutil`, genau ein `claude -p`-Prozess (PID 54058), kein Doppel-Dispatch, Working Tree bei
+Laufbeginn sauber (Top-Commit `beaf90e91`).
+
+**Korrektur der 16er-Liste des 125. Laufs:** `maugham.htm` war darin fälschlich als offen
+geführt — die Datei ist bereits über
+[[konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939]] destilliert.
+Tatsächlich 15 inhaltstragende Positionen offen gewesen.
+
+**Kandidatenermittlung** diesmal vollständig programmatisch (Python, NFC-Normalisierung
+gegen macOS/APFS-NFD-Dateinamen, Referenzabgleich über alle `wiki/*.md` ausser
+`INDEX.md`/`QUESTIONS.md`, Ergebnis nach Dateigrösse sortiert): 45 der 128 `.htm`-Dateien
+erschienen zunächst unreferenziert. Tag-Strip-Vorschau (Python, `<frameset>`-Marker plus
+Textlänge nach Tag-Entfernung) der 30 kleinsten (416–2682 Bytes) bestätigte für alle 30
+entweder ein `<frameset>`-Grundgerüst oder reinen Bildunterschrift-/Navigationstext ohne
+Fliesstext (33–252 Zeichen) — dieselbe Kategorie wie die 32 in Lauf 117 identifizierten
+Frameset-Dateien, damit insgesamt 62 ertraglose Dateien dieser Sektion bestätigt. Die
+verbleibenden 15 (12042–24395 Bytes) sind die tatsächlich inhaltstragenden Restpositionen.
+
+**Drei kleinste gelesen:** `race.htm`, `krise.htm`, `mollino.htm`. Duplikatscheck vorab
+(`grep -rli` gegen die Namen über `wiki/*.md` ohne `INDEX.md`/`QUESTIONS.md`): keine
+Dublette zu Ernest Race oder Carlo Mollino. `krise.htm` überschneidet sich thematisch mit
+der bereits destillierten Erzählung in
+[[design-krise-der-moderne-1960er-pop-aesthetik-harley-earl-archigram]] (aus
+`aktion_und_reaktion.htm`) — dieser Artikel behandelt den theoretischen Bruch mit der
+Moderne und nannte Peter Murdoch/Archigram explizit als offenen Punkt ohne eigenen Artikel.
+`krise.htm` liefert genau diese Werkbeispiele plus zusätzliches, dort nicht behandeltes
+Material (Mary Quant, Biba, italienisches Anti-Design/Superstudio/Archizoom) — kein
+Duplikat, sondern komplementärer Artikel mit Rückverweis im Gegenartikel.
+
+**Drei neue Artikel:**
+[[ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain]]
+(Rüstungsaluminium-Recycling zum BA-Stuhl 1946, Antilope/Springbock für das Festival of
+Britain 1951, «Contemporary Style», Rückverlinkung zu Ron Arad als spätere,
+anders motivierte Recycling-Design-Linie),
+[[carlo-mollino-turiner-barock-organische-schichtholzmoebel]] (Turiner Gegenlinie zur
+seriellen Mailänder Nachkriegsmoderne, organische Schichtholz-Einzelstücke für Miller-Haus/
+Società Reale Mutua/Singer/Underwood, «Stromlinienförmiger Surrealismus») und
+[[pop-design-anti-design-1960er-mary-quant-archigram-superstudio-archizoom]] (Mary
+Quant/Biba/Granny Takes a Trip, Spotty-Stuhl von Peter Murdoch, Archigram-Zeichnungen,
+italienische Kollektive Superstudio/Archizoom/Gruppo Strum/Gruppo 9999 als «Anti-Design»,
+produzierte Objekte Blow Chair/Sacco/Up-Sessel/I Sassi/Mies-Sessel, Internationalisierung
+über Ingo Maurer/Eero Aarnio/Robert Venturi). Rückverweis im bestehenden Krisen-Artikel
+ergänzt (Bulletpunkt ersetzt, `git diff --numstat` zeigt `4 3`, kein Inhaltsverlust — die
+Löschzeile ist der für die Verlinkung umformulierte alte Bullet).
+
+Damit sind 116 von 128 Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert (62
+Frameset-/Banner-Dateien, davon 30 neu in diesem Lauf, plus 54 inhaltstragende Dateien über
+alle Läufe). 12 inhaltstragende Positionen bleiben offen: `mailand.htm`, `schichtholz.htm`,
+`behrens.htm`, `wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`,
+`dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`.
+
+`git diff --numstat` auf die Inventardatei zeigte keine Änderung (Sammelzeile bleibt
+unverändert, Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE). Auf die drei neuen
+Wiki-Dateien reine Neuanlage. Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68
+bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den 12 verbliebenen
+Positionen (`mailand.htm` als kleinste zuerst; bei `schichtholz.htm`/`behrens.htm` weiterhin
+vorab prüfen, ob Ergänzung bestehender Artikel treffender ist als eigener), sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2. Die 62 bestätigten Frameset-/Banner-Dateien
+dieser Sektion nicht erneut prüfen.
