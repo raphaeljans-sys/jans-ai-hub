@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.08.2026 00:06:30
+Stand: 31.08.2026 00:16:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 31.08.2026 00:06:30
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e3843183b Lane FACHWISSEN: Renaissance-Prüfungsskript destilliert (Terza Natura, Gartengestaltung), INDEX/CHANGELOG nachgetragen
+- a35ed43c3 wissen/architektur-fachwissen: HTA-Luzern-Typografievorlesung destilliert (Sektion 02_Gestalt_Kulturverstaendnis, fuenfter Lauf)
