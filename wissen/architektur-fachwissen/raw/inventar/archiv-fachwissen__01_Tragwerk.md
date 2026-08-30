@@ -220,3 +220,25 @@ oben) bleibt offen für einen künftigen P2-Lauf; darunter insbesondere die rest
 Knotenpunkt-Seiten der Killer-Dissertation (Verbindung Hängesäule-Untergurt-Längsbinder,
 Streckbalken-Auflager) und das Literaturregister Holzbau. Kein neuer Datenschutz- oder
 Sperrlisten-Fund über den bereits dokumentierten Stand hinaus.
+
+## Destillat-Fortschritt
+
+**30.08.2026 (Lane FACHWISSEN, erster P2-Lauf dieser Sektion).** Zwei P2-Positionen
+gelesen und destilliert:
+
+- `…/03_Vorlesungen/110316_Experimenteller_Tragwerksentwurf/110327_Experimenteller_Tragwerksentwurf.pdf`
+  (vollständig, 3 Seiten) → destilliert zu
+  `wiki/formfindung-experimenteller-tragwerksentwurf-frei-otto-stuttgart21.md` (Methode
+  Selbstbildungsprozess nach Frei Otto, Fallbeispiel Stuttgarter Bahnhof/Stuttgart 21).
+- `…/00_Administration/02_Daten/holzbau.pdf` (vollständig, 7 Seiten; `.xls` nicht separat
+  gelesen, gleicher Inhalt in Tabellenform) → destilliert zu
+  `wiki/literaturregister-holzbau-1876-1993.md`.
+
+29 P2-Positionen dieser Sektion bleiben offen, darunter weiterhin vorrangig die restlichen
+Knotenpunkt-Einzelseiten der Killer-Dissertation (S. 138-144, sieben PDF), das
+Werkschau-Register der Abschlussvorlesung (`TWE IV_Vorlesung_20110513_Abschluss.pptx`,
+135 Folien), die drei Kraftfluss-Darstellungsvarianten desselben Brückenlängsschnitts, das
+Randbedingungs-Muster der Seminarwochen-Aufgabenstellung («Bridging the Gap») und der
+Counterpoise-Erläuterungstext. Kein neuer Datenschutz- oder Sperrlisten-Fund; der
+Sperrvermerk auf Seite 4 des Readers `111002_Reader_alle_Seiten.pdf` wurde erneut beachtet
+(Reader in diesem Lauf nicht angefasst).
