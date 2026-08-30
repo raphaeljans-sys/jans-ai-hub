@@ -5,7 +5,7 @@ ausgabe: "Veroeffentlichung 2018, Ueberarbeitung September 2023 (web-Ausgabe min
 gelesen: "2026-06-06 (S. 1-16, Ausgabe ~2017); 2026-06-09 (S. 1-16, Ueberarbeitung 2023)"
 datenstand: "Minergie-Standard Ueberarbeitung 09/2023 (Basis MuKEn 2014, mit neuem Kriterium THGE Erstellung). ⚠ **Zwei Angaben der Tabelle unten sind seit dem Produktreglement 2026.1 überholt (A-BLIND-Prüfung 2026-08-25, Run 163, am Original nachgemessen): (1) der Heizwärmebedarf bemisst sich neu als Prozentsatz der MuKEn-2025-Grenzwerte Q_H,li, nicht mehr MuKEn 2014 — die Prozentsätze 90/70/90 und die resultierenden Zahlenwerte bleiben unverändert, es wechselt die zitierte Rechtsgrundlage; (2) der THGE-Grenzwert ist neu je Gebäudekategorie gestaffelt (11,5 bis 18,5), für Wohnen MFH 11,5 statt pauschal 11 kg CO₂-eq/(m²EBF·a).** Massgeblich für zitierfähige Zahlen ist `[[minergie-produktreglement-2026-1-muken-vergleich]]`. Minergie-Reglement/Kennzahlen werden periodisch revidiert — konkrete Limiten vor Zitieren auf minergie.ch verifizieren."
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-08-30 (Run 169, Begleitdokument-Prüfung; zuvor 2026-08-24)
 quelle_pfad: "PL - 04 Energie/wissen.minergie.ch/minergiewissen_planer_d_2023_web_1-231002-143235.pdf"
 ---
 
@@ -176,6 +176,40 @@ vom älteren Planungsheft-Datenstand oben.
 
 ## Offene Punkte / zu pruefen
 - THGE-Bilanzierung (welche Bauteile, welche Datenbank/KBOB) als eigene Quelle vertiefen (→ FAQ F9 graue Energie).
+
+**Nachtrag 30.08.2026 (Run 169, Begleitdokument-Prüfung).**
+
+- Negativbefund, am Original verifiziert: es gibt keine neuere Ausgabe der Broschüre als die
+  Überarbeitung September 2023. Die aktuelle Publikationsseite führt sie unter der neuen URL
+  https://www.minergie.ch/media/publikation-minergie-besser-planen-besser-bauen.pdf (abgerufen
+  30.08.2026, 28 Seiten, via pdftotext gelesen). Das PDF-Erstelldatum 10.02.2025 ist ein
+  Re-Export beim Website-Relaunch, keine inhaltliche Überarbeitung: das Impressum sagt weiterhin
+  wörtlich «Veröffentlichung 2018, Überarbeitung September 2023», und die Kernzahlen sind
+  identisch (Minergie-Kennzahl 51/46/29 kWh/m2, THGE 11 kg/m2·a, Heizwärmebedarf 90/70/90 %
+  MuKEn 2014, Luftdichtheit 1,2/1,6). Ein neues PDF-Erstelldatum ist kein neuer Inhaltsstand,
+  das ist der übertragbare Teil dieses Befunds.
+- Ebenfalls Negativbefund mit Suchweg: kein eigenständiges Änderungsprotokoll «Produktreglement
+  2026.1 gegenüber 2025.1» gefunden. Geprüft wurde die vollständige Arbeitsdokumente-Liste auf
+  https://www.minergie.ch/de/zertifizieren/minergie/ sowie die URL-Muster
+  `minergie-uebersicht-neuerungen-2026.pdf`, `uebersicht-neuerungen-2026.pdf`,
+  `aenderungstabelle-2025-zu-2026.pdf` (alle HTTP 404). Bemerkenswert, weil Minergie für frühere
+  Versionswechsel sehr wohl eigene Übersichten publiziert hat («Minergie-Änderungstabelle 2017
+  zu 2019», «Übersicht Neuerungen 2017-2023»). Einziger Änderungsnachweis für 2026.1 bleibt die
+  blaue Einfärbung im Reglementstext selbst.
+- Als Kandidatenliste vermerkt, bisher unerschlossene Begleitdokumente je mit URL: Minergie-Wissen
+  «Sommerlicher Wärmeschutz» (2019, Überarb. August 2023,
+  minergie.ch/media/publikation-minergie-sommerlicher-waermeschutz.pdf) und «Messen. Steuern.
+  Optimieren.» (2021, Überarb. Mai 2025, jüngste Revision der Reihe,
+  minergie.ch/media/publikation-minergie-messen-steuern-optimieren.pdf); dazu die
+  2026er-Begleitdokumente zum Produktreglement: Anwendungshilfe zu den
+  Minergie-Gebäudestandards Version 2026.2 (Online-Version, Versionsstand weicht vom Reglement
+  2026.1 ab), Anwendungshilfe Sommerlicher Wärmeschutz 2026.1, «Berechnungsmethodik Grenzwerte
+  THGE in der Erstellung 2026.1» (minergie.ch/media/berechnungsmethodik-thge-in-erstellung-minergie-2026-1_1.pdf)
+  und «Zusatzanforderungen Industrie, Version 2026.1»
+  (minergie.ch/media/minergie-zusatzanforderungen-industrie-v2026-1.pdf). Ferner: es gibt kein
+  eigenständiges Gebührenreglement und kein eigenes Reglement für die Zertifizierungsstellen,
+  beides ist im Nutzungsreglement Marke Minergie, Version 2023.1, geregelt (Gebühren Kap. 5,
+  Zertifizierungsstellen Anhang B).
 
 Verwandt: `[[enfk-en-102-waermeschutz-2018]]`, `[[enfk-en-02-waermeschutz-2013]]`,
 `[[enfk-en-104-eigenstromerzeugung]]`, `[[sia-380-1-heizwaermebedarf-berechnung]]`,

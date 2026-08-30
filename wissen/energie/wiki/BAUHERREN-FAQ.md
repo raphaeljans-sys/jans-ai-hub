@@ -9219,3 +9219,29 @@ endk.ch/de/fachleute-1/vollzugshilfen); zwölf Formular-PDFs am 27.08.2026 einze
 Fusszeile und PDF-Metadaten ausgewertet. Destillat mit vollständiger Tabelle:
 `[[enfk-nachweisformulare-gueltigkeit-2026]]`, dazu `[[enfk-en-102-waermeschutz-2018]]`.
 ⚠ **Datenstand 2026-08-27.** Die Gültigkeitsfrage 2027 ist offen und vor einer Terminzusage neu zu prüfen.
+
+---
+
+## F260 — «Unser Netzbetreiber lehnt den ZEV ab, weil die Anschlussleitung einem anderen Netzbetreiber gehört. Muss ich das hinnehmen?»
+
+**Kurz:** Nein, jedenfalls nicht ohne Weiteres. Diese Absage stützt sich auf eine Ziffer des VSE-Branchenhandbuchs, die das **Fachsekretariat der ElCom ausdrücklich für gesetzeswidrig hält**. Verlangen Sie die Absage schriftlich mit Begründung und halten Sie die ElCom-Fundstelle dagegen. Sind die gesetzlichen ZEV-Voraussetzungen erfüllt, **muss** der Netzbetreiber den Zusammenschluss umsetzen.
+
+**Fachlich:** Das «Handbuch Eigenverbrauchsregelung» (HER-CH 2025) des VSE verlangt in Ziffer 3.2 (7), dass sämtliche für den Eigenverbrauch genutzten Anlagen vom gleichen Verteilnetzbetreiber betrieben werden. Das Fachsekretariat der ElCom hält fest, für diese Anforderung gebe es keine gesetzliche Grundlage, und erachtet die Ziffer als nicht mit der Energiegesetzgebung vereinbar. Massgebend sind allein die gesetzlichen Voraussetzungen: Ort der Produktion (Art. 14 EnV), erhebliche Produktionsleistung (Art. 17 Abs. 1 EnG i.V.m. Art. 15 Abs. 1 EnV) und gemeinsamer Eigenverbrauch (Art. 17 Abs. 1 und 2 EnG). Dieselbe Anforderung steht parallel im LEG-Branchendokument (BD LEG-CH 2025, Ziff. 4.1 (3) c) und wird von der ElCom gleich beurteilt: eine LEG ist auch dann umzusetzen, wenn die mitbenutzte Netzebene 5 nicht demselben Betreiber gehört wie die Netzebene 7, an der die Teilnehmer hängen.
+
+**Der Massstab dahinter, der über diesen Einzelfall hinaus trägt:** Branchendokumente des VSE sind **kein Recht**. Die ElCom wendet sie an, wenn die darin enthaltene Lösung sachgerecht **und** mit der Gesetzgebung vereinbar ist. Wo ein Netzbetreiber eine Anforderung nennt, die nur im Branchendokument steht und in keinem Gesetzesartikel, lohnt sich die Rückfrage nach der gesetzlichen Grundlage immer.
+
+**Bauherren-Transfer:** Betrifft in der Praxis vor allem Areale mit mehreren Baukörpern und getrennten Hausanschlüssen sowie Fälle an einer Netzgebietsgrenze. Rechnen Sie den ZEV-Vorteil nicht vorschnell ab, wenn die erste mündliche Auskunft des Werks negativ ausfällt: die schriftliche Absage ist der Punkt, an dem sich die Sache prüfen lässt. **Vorbehalt:** Die FAQ ist die Auffassung des Fachsekretariats, keine Verfügung der Kommission und kein Gerichtsentscheid — sie bindet den Netzbetreiber nicht unmittelbar, sagt aber, wie die Aufsichtsbehörde einen Streitfall beurteilen würde.
+
+**Quelle:** ElCom-Fachsekretariat, «Fragen und Antworten zur Energiestrategie 2050 (insb. Mantelerlass/Stromgesetz)», Erstfassung 04.03.2025, Stand Update vom **16.06.2026**, Fragen 2.13 und 9.2 — PDF am 30.08.2026 geladen und die Stellen wörtlich gegengelesen. Destillat: `[[zev-eigenverbrauch-mfh-her-2025]]`, Abschnitt «Die amtliche Ebene widerspricht dem HER an drei Stellen»; LEG-Bezug `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`. Aufgenommen 30.08.2026 (Run 169).
+
+---
+
+## F261 — «Wem gehört die Einspeisevergütung im ZEV — dem Zusammenschluss oder der einzelnen PV-Anlage?»
+
+**Kurz:** Gesetzlich schuldet der Netzbetreiber die Vergütung **den einzelnen Produzenten**, nicht dem Zusammenschluss. Dass sie dem ZEV als Ganzes ausgewiesen wird, ist gängige Branchenpraxis, aber **kein Automatismus**: wollen Sie es so, gehört es ausdrücklich vereinbart. Das ist der Satz, der bei mehreren Eigentümern über Jahre Streit erspart.
+
+**Fachlich:** Das HER-CH 2025 sieht in Ziffer 4.3 (2) vor, die Abnahme- und Vergütungspflicht des Verteilnetzbetreibers gelte gegenüber dem Zusammenschluss, und die Rückliefervergütung werde dem Zusammenschluss ausgewiesen. Die ElCom widerspricht: Nach Art. 18 Abs. 1 EnG werden die Endverbraucher eines (v)ZEV zwar **hinsichtlich des Bezugs** wie ein einziger Endverbraucher behandelt, für **Produktion und Einspeisung** gilt diese Zusammenfassung jedoch nicht. Schon der Wortlaut von Art. 15 Abs. 1 EnV stellt auf «die Anlage oder die Anlagen» ab; massgebend für die Zuordnung ist die Anlagendefinition nach Anhang 1.2 Ziff. 1 EnFV. Eine Vergütung an den (v)ZEV ist damit nicht ausgeschlossen — sie muss aber **explizit vereinbart** werden.
+
+**Bauherren-Transfer:** Zwei Konstellationen, in denen das direkt Geld bewegt. **Erstens Stockwerkeigentum:** Gehört die Anlage der Gemeinschaft, ist die Zuordnung unproblematisch; gehört sie einzelnen Eigentümern oder stehen mehrere Anlagen auf demselben Grundstück, muss der Verteilschlüssel in die ZEV-Vereinbarung, sonst fehlt bei der ersten Abrechnung die Grundlage. **Zweitens Handänderung und Eigentümerwechsel:** Weil die Vergütung gesetzlich an der Anlage hängt, folgt sie der Anlage, nicht der Vertretung des ZEV. Regeln Sie im ZEV-Vertrag ausdrücklich, an wen der Netzbetreiber auszahlt und wie intern verteilt wird. Ab 01.01.2026 kommt hinzu, dass sich die Höhe der Rückliefervergütung nach dem vom BFE publizierten **Referenz-Marktpreis** samt Minimalvergütungen richtet, nicht mehr nach der bisherigen Regelung.
+
+**Quelle:** ElCom-Fachsekretariat, «Fragen und Antworten zur Energiestrategie 2050», Stand Update vom **16.06.2026**, Frage 2.22 (Rechtsbasis Art. 18 Abs. 1 EnG, Art. 15 Abs. 1 EnV, Anhang 1.2 Ziff. 1 EnFV); zum Referenz-Marktpreis ab 2026 dieselbe Quelle mit Art. 15 EnG in der Version vom 01.01.2026 (AS 2024 679) i.V.m. Art. 12 EnV (AS 2025 138) und Art. 15 EnFV. PDF am 30.08.2026 geladen und wörtlich gegengelesen. Destillat: `[[zev-eigenverbrauch-mfh-her-2025]]`. Aufgenommen 30.08.2026 (Run 169). ⚠ **Nicht geprüft** wurde, ob der VSE das HER inzwischen angepasst hat — bei einer verbindlichen Auskunft die aktuelle HER-Ausgabe beiziehen.

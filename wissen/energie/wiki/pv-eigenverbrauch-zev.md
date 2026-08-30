@@ -1,7 +1,7 @@
 ---
 title: PV-Eigenverbrauch — Solarstrom selbst nutzen (WP-Lastmanagement) & vermarkten (ZEV/vZEV/LEG)
 status: established
-last_updated: 2026-07-05
+last_updated: 2026-08-30
 datenstand: "2023 (ältester zitierter Quellenstand: EnergieSchweiz/Zogg-Planungsgrundlagen «Wärmepumpen, Photovoltaik und Elektromobilität», Version 2.0, 02.07.2023, Basis Forschungsprojekt OPTEG 2016-2021 — trägt Hebel 1 «technisch: WP-Lastmanagement»; die stromrechtlichen Hebel 2/3 ZEV/vZEV/LEG stützen sich auf jüngere Quellen ab 2024/2025 und altern laut Artikeltext selbst schnell, verändern den ältesten Stand aber nicht)"
 sources: [destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]], [[heizleistung-und-waermeerzeuger]], [[elektromobilitaet-ladeinfrastruktur]], [[batteriespeicher]]
@@ -50,6 +50,37 @@ trägt. Zwei Hebel heben ihn — ein **technischer** (den Strom im eigenen Gebä
   keine Überwälzung über den Nettomietzins. Berechnung mit dem EnergieSchweiz-Excel (2024-03-11).
   → [[zev-mieter-strompreis-eigenverbrauch]] (EnergieSchweiz-Leitfaden/lokalerstrom.ch, primaerquellen-
   verifiziert EnV Art. 16b Abs. 2/3, in Kraft seit 1.1.2025).
+
+### ⚠ Wenn der Netzbetreiber abwinkt: das Handbuch des VSE ist kein Gesetz (Stand 30.08.2026)
+
+Ein ZEV scheitert in der Praxis selten am Gesetz und öfter an einer Anforderung, die **nur im
+Branchenhandbuch** des VSE steht. Das **Fachsekretariat der ElCom** hat zwei solche Stellen des
+«Handbuchs Eigenverbrauchsregelung» (HER-CH 2025) ausdrücklich als **ohne gesetzliche Grundlage**
+und **nicht mit der Energiegesetzgebung vereinbar** bezeichnet:
+
+- **Ziff. 3.2 (7) — «alle Anlagen beim gleichen Verteilnetzbetreiber».** Solche Zusatzvoraussetzungen
+  sind weder im EnG noch in der EnV vorgesehen. Sind die gesetzlichen Voraussetzungen erfüllt (Ort der
+  Produktion Art. 14 EnV, erhebliche Produktionsleistung Art. 17 Abs. 1 EnG i.V.m. Art. 15 Abs. 1 EnV,
+  gemeinsamer Eigenverbrauch Art. 17 Abs. 1 und 2 EnG), **muss** der Netzbetreiber den ZEV umsetzen.
+  → F260
+- **Ziff. 4.3 (2) — «Rückliefervergütung gehört dem Zusammenschluss».** Gesetzlich besteht die
+  Abnahme- und Vergütungspflicht gegenüber den **einzelnen Produzenten**; die Zusammenfassung nach
+  Art. 18 Abs. 1 EnG gilt nur für den Bezug, nicht für die Einspeisung. Eine Vergütung an den (v)ZEV
+  ist möglich, **muss aber ausdrücklich vereinbart werden**. → F261
+
+Dieselbe Fehlerklasse trifft die LEG-Ebene: Ziff. 4.1 (3) c) der Branchenempfehlung BD LEG-CH 2025
+verlangt, alle beteiligten Netzebenen müssten vom gleichen Verteilnetzbetreiber stammen — auch dafür
+sieht die ElCom keine gesetzliche Grundlage.
+
+**Der übertragbare Satz:** Branchendokumente des VSE werden von der ElCom angewendet, wenn ihre Lösung
+sachgerecht **und** mit der Gesetzgebung vereinbar ist. Nennt ein Netzbetreiber eine Anforderung, die
+in keinem Gesetzesartikel steht, lohnt sich die Rückfrage nach der Rechtsgrundlage immer. **Vorbehalt:**
+Es handelt sich um die Auffassung des Fachsekretariats, nicht um eine Verfügung der Kommission und
+nicht um einen Gerichtsentscheid.
+
+Quelle: ElCom-FAQ zur Energiestrategie 2050, Stand Update vom 16.06.2026, Fragen 2.13, 2.22 und 9.2
+(am 30.08.2026 im Volltext gegengelesen) → [[zev-eigenverbrauch-mfh-her-2025]],
+[[leg-lokale-elektrizitaetsgemeinschaft-2026]].
 
 ## Hebel 3 — organisatorisch über die Liegenschaft hinaus: die LEG (ab 1.1.2026)
 - Die **Lokale Elektrizitätsgemeinschaft (LEG)** ist das **dritte** neue Instrument (StromVG, Volksentscheid

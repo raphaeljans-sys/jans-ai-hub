@@ -5,7 +5,7 @@ ausgabe: "Version 2.1, Juli 2008 (freigegeben durch die Geschäftsleitung AHB am
 gelesen: "Seiten 1-4 (vollständiges Dokument), 2026-08-03"
 datenstand: "2008 ⚠⚠ Alterskorpus mit einem belegten Totverweis (Aktualitaetspruefung Run 122, 03.08.2026): **SIA 380/4:2006 ist archiviert (gueltig bis 31.07.2019)** und wurde aufgeteilt — fuer Beleuchtung gilt heute **SIA 387/4:2023 (gueltig ab 01.08.2023)**, daneben SIA 2056:2019. Damit hat die im Dokument beschriebene **MINERGIE-Skala «drei Viertel zwischen Grenzwert und Zielwert SIA 380/4» keine gueltige Bezugsgroesse mehr und ist nicht mehr rechenbar**. Das Nachweistool www.energycodes.ch ist nicht mehr erreichbar; im Kt. Zuerich laeuft der Nachweis Beleuchtung seit 01.01.2026 ueber Formular EN-111 auf der Plattform EVEN. Ebenfalls ueberholt: die Lampentechnik (Long-Life-Leuchtstoffroehren T8/T5, «Halogen vermeiden») ist vor-LED. Gueltig bleibt die Steuerungslogik nach Raumtyp. Weitere Normverweise (EN 12464-1, NIN 2005, SN EN 1838, SN EN 50171) koennen in neuerer Ausgabe vorliegen"
 status: emerging
-last_updated: "2026-08-24 (Nachfolge-Dokumentensystem gefunden und primärquellenbelegt: [[ahb-richtlinie-gebaeudetechnik-229-2025]] + [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]])"
+last_updated: "2026-08-30 (Run 169, Begleitdokument-Prüfung; zuvor 2026-08-24 Nachfolge-Dokumentensystem gefunden und primärquellenbelegt: [[ahb-richtlinie-gebaeudetechnik-229-2025]] + [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]])"
 ---
 
 # Destillat — Richtlinie GT Beleuchtung, Stadt Zürich AHB (V2.1, 2008)
@@ -124,5 +124,30 @@ primärquellenverifiziert.
   oben und `[[ahb-richtlinie-gebaeudetechnik-229-2025]]`, Fund-Anlass). Ob speziell die alte
   9-teilige RL1-RL9-Nummerierung formell aufgehoben wurde, bleibt offen (dort dokumentiert).
 - Keine Aussage zu Tageslichtnutzung im engeren Sinn (z. B. Tageslichtquotient, Fensterflächenanteil) — das Dokument behandelt nur die *Steuerung* nach Tageslichtsensoren, nicht die bauliche Tageslichtplanung selbst.
+
+**Nachtrag 30.08.2026 (Run 169, Begleitdokument-Prüfung).**
+
+- Neu und bisher in der KB nicht erfasst: Merkblatt «Beleuchtung Hallenbäder und
+  Schulschwimmanlagen», M-System-Nr. 384, Stadt Zürich AHB, Fachstelle Energie- und
+  Gebäudetechnik, Oktober 2024:
+  https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/projekte-und-ausschreibungen/dokumente/hochbauvorhaben/vorgaben/energie-gebaeudetechnik/merkblatt-hallenbaeder-schulschwimmanlagen.pdf
+  (PDF vollständig gelesen, abgerufen 30.08.2026). Es nennt eigene Kennwerte nach EN 12464-1 und
+  EN 12193: 300 Lux Schwimmhallenbeleuchtung, 120 lm/m3 Unterwasserbeleuchtung, 1'100 lm/m3
+  Wettkampf, und empfiehlt Relux als Simulationsprogramm. Als eigener Destillat-Kandidat
+  vermerkt, hier nicht ausdestilliert.
+- Aktualitätsprüfung bestätigt: SIA 387/4:2023 ist die geltende Ausgabe, «gültig ab 01.08.2023»,
+  keine neuere Ausgabe und kein Korrigendum
+  (https://shop.sia.ch/normenwerk/architekt/387-4_2023_d/D/Product, abgerufen 30.08.2026). Die
+  Vorgängerausgabe SIA 387/4:2017 ist archiviert, das Korrigendum C1/2020 bezieht sich auf die
+  2017er-Fassung und ist ebenfalls archiviert. Die bereits im Destillat getroffene Aussage zum
+  SIA-380/4-Totverweis ist damit unabhängig bestätigt.
+- Wichtiger Suchweg-Negativbefund für künftige Läufe: die Pfadvariante
+  `stadt-zuerich.ch/content/dam/stzh/hbd/Deutsch/Hochbau/...` erscheint noch in
+  Suchmaschinen-Snapshots, ist aber tot (HTTP 404, per curl geprüft am 30.08.2026). Die gültigen
+  Adressen liegen unter
+  `content/dam/web/de/planen-bauen/projekte-und-ausschreibungen/dokumente/hochbauvorhaben/vorgaben/energie-gebaeudetechnik/`.
+  Künftig nur noch dieses Muster prüfen.
+- Weiterhin offen, unverändert: eine ausdrückliche, am Original gelesene Ausserkraftsetzung der
+  alten Richtlinienfamilie GT_RL1 bis GT_RL9 wurde bei diesem Lauf erneut nicht gefunden.
 
 **Backlinks:** [[ahb-richtlinie-gebaeudetechnik-229-2025]] · [[ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025]] · [[ahb-zuerich-uebersichtstabelle-beleuchtung-en12464]] · [[gebaeudetechnik-pflichtenheft]] · [[energienachweis-zh]] · [[pv-solar-technologien]]

@@ -5,7 +5,7 @@ ausgabe: 08.2009 (Bestellnummer 805.107.d), Grundlage Norm SIA 380/1:2009 «Ther
 gelesen: 1-16 (alle Seiten); Ausgabe 2021 zusaetzlich vollstaendig gelesen 2026-08-26 (Run 164)
 datenstand: 2009 ⚠ Datenstand 17 Jahre alt (heute 2026); Grundlage ist die Norm SIA 380/1:2009, die seither revidiert wurde (aktuelle Fassung 2016) — sämtliche Grenzwerte, Uw/Ug/Uf/Ψg-Rechenwerte und Verschattungsregeln vor Verwendung im Energienachweis gegen den aktuellen kantonalen Stand (EN-ZH/EVEN, geltende SIA-380/1-Ausgabe) prüfen. Das Merkblatt selbst weist aus, dass es ältere BFE-Planungswerkzeuge (Bauteilekatalog Neubauten/Sanierungen 2002, k-/g-Werte-Merkblatt 1995) ablöst.
 status: established (Ausgabe 2009 als historisch; geltende Ausgabe 2021 am Original nachgetragen)
-last_updated: 2026-08-26
+last_updated: 2026-08-30
 links: [[fenster-verglasung-uw-g-wert]], [[waermebrueckenkatalog-bfe-fensteranschluss]]
 ---
 
@@ -358,3 +358,25 @@ gelesen und bestätigt.
 Damit ist der Befund von Run 164 aus einer **zweiten, unabhängigen Fundstelle** bestätigt (dort über
 den 301-Redirect, hier über die Medienbibliothek derselben Plattform) und **E-R164-1 erledigt**.
 Sweep-Kontext: `[[enfk-nachweisformulare-gueltigkeit-2026]]`.
+
+## E-R167-5 GESCHLOSSEN am 2026-08-30 (Run 169) — die Nummer EN-102d gehört dem Excel-Tool, nicht dem Merkblatt
+
+**Der offene Punkt lautete:** «Die EnFK führt das bereits erfasste Fenster-Excel-Tool unter der Formularnummer EN-102d; die Nummer fehlt in `[[enfk-fensterblatt]]`.» Die Nachprüfung bestätigt die Nummer, korrigiert aber ihre **Zuordnung** — und genau darin lag die Unschärfe.
+
+**Am Original belegt.** Vollzugshilfe **EN-100 «Verbindungen der Vollzugshilfen zu Normen und Merkblättern»**, Konferenz Kantonaler Energiefachstellen, Ausgabe Dezember 2018, **Tabelle 3 «Zuordnung der Hilfsformulare»** (S. 3), führt unter der Spaltenüberschrift «Hilfsformular / zu EN-Nr. / Name des Hilfsmittels zur Berechnung» die Zeile:
+
+> EN-102d · EN-102 · Fenster-Tool
+
+Quelle: `https://energiehub-gebaeude.ch/wp-content/uploads/2023/02/EN-100-d_VernkuepfungenVollzugshilfenSIA_2018Dez.pdf` (PDF am 30.08.2026 geladen, HTTP 200, 718'083 Byte, Volltext via `pdftotext -layout` gelesen; die Tabellenzeile im Hauptmodell selbst gegengelesen, nicht aus einem Agentenbefund übernommen).
+
+**Die präzise Zuordnung, dreiteilig:**
+
+**01 EN-102d ist das Fenster-TOOL, nicht das Merkblatt.** Die Nummer bezeichnet in EN-100 Tabelle 3 ein **Hilfsformular zur Berechnung** — also die Excel-Rechenhilfe (`Fenstertool_D.xlsx` auf der EnDK-Plattform), nicht das 16-seitige PDF-Merkblatt «Das Fenster im Energienachweis», das dieses Destillat destilliert.
+
+**02 Das Merkblatt Fenster selbst trägt keine EN-Nummer.** EN-100 führt es in einer anderen Spalte, nämlich derjenigen der referenzierten **Normen und Merkblätter**, gleichrangig neben SIA-Normen und SIA-Bauteildaten. Die Vollzugshilfe EN-102 zitiert es entsprechend als externes Dokument.
+
+**03 Das «-d» in Dateinamen wie `EN-102-d_Waermeschutz_3801_2016_2020Jan-2.pdf` ist etwas anderes** — dort ist es das **Sprachkürzel «deutsch»**, nicht die Formularvariante d. Beide Schreibweisen existieren nebeneinander und sind leicht zu verwechseln: die echten Formularvarianten der Vollzugshilfe EN-102 sind **a, b und c** (EN-102a/b/c), das Hilfsformular **EN-102d** ist die Fenster-Rechenhilfe, und `EN-102-d_...` im Dateinamen meint die deutsche Fassung der Vollzugshilfe.
+
+**Für die KB heisst das:** Wer eine Fundstelle «EN-102d» liest, muss aus dem Kontext entscheiden, ob das Hilfsformular oder eine deutschsprachige Datei gemeint ist. Das ist die zweite Verwechslungsstelle in derselben Dokumentfamilie neben der bereits dokumentierten Verwechslung Vollzugshilfe EN-102 ↔ Nachweisformular EN-102a/b/c (→ `[[enfk-en-102-waermeschutz-2018]]`, `[[enfk-nachweisformulare-gueltigkeit-2026]]`).
+
+**Methodischer Nachtrag, weil er sich wiederholen wird.** Ein Prüfagent hatte in diesem Lauf die Nummer EN-102d als frei erfunden gemeldet — er hatte EnDK-Medienbibliothek und EN-102-Volltext geprüft, aber **nicht EN-100**, also nicht die Quelle, aus der die Behauptung stammte. Die Beanstandung wurde vor jedem Datei-Eingriff am Original gegengeprüft und fiel dabei in sich zusammen. Das ist genau die Fehlerklasse aus Rule `auto-verbesserungen` 260729b: ein Agentenbefund ist ein Verdacht, kein Vollzug. **Wer eine Quellenangabe widerlegen will, muss die genannte Quelle öffnen, nicht eine andere.**

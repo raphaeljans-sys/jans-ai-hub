@@ -374,3 +374,19 @@ sie in einer künftigen Recherche erneut auftaucht.
   Erläuternden Bericht abgeglichen (nur die amtliche Quelle wurde in diesem Lauf gelesen) — falls die
   VSE-Formulierung in Einzelheiten von der amtlichen Fallmatrix abweicht, wäre das ein Fund für einen
   künftigen Lauf; aktuell besteht dafür kein Hinweis.
+
+## Nachtrag 2026-08-30 (Run 169): E-R167-4 geschlossen — ElCom-Weisung 5/2025 hat einen LEG-Bezug, aber einen engen
+
+**Der offene Punkt lautete:** «ElCom-Weisung 5/2025 auf LEG-Bezug prüfen — nur per Suchtreffer identifiziert, Inhalt nicht geprüft.» Der Inhalt ist jetzt am Original gelesen.
+
+**Die Weisung.** «Weisung 5/2025 der ElCom — Transparente und vergleichbare Rechnungsstellung», Fachsekretariat, **6. Mai 2025**, ersetzt die Weisung 1/2014. Sie regelt, wie ein Netzbetreiber die Stromrechnung an Endverbraucher aufschlüsseln muss, und gibt dafür ein Positionsraster A bis I vor. Quelle: `https://www.elcom.admin.ch/dam/de/sd-web/8Lka4EnFxeem/5-2025-transparente-vergleichbare-rechnungsstellung.pdf` (PDF am 30.08.2026 geladen, HTTP 200, 212'704 Byte, Volltext gelesen).
+
+**Der LEG-Bezug, wörtlich in den «Erläuterungen zur Tabelle», Fussnote (1):** Der Abschlag auf dem Netznutzungstarif, den LEG-Teilnehmer für den Bezug selbst erzeugter Elektrizität nach **Art. 17e Abs. 3 StromVG** (Version gültig ab 1.1.2026) i.V.m. **Art. 19h StromVV** (Version gültig ab 1.1.2026) geltend machen können, **ist unter der Position A «Netznutzung» transparent auszuweisen**. Und weiter: die **Kosten für Systemdienstleistungen sind ohne Abschlag** in Rechnung zu stellen (Art. 19h Abs. 5 Bst. a StromVV).
+
+**Zusatzfund in derselben Weisung**, Fussnote zu Position I «Bezeichnung des Messpunktes»: Ist der Rechnungsempfänger ein **virtueller ZEV**, so ist die Bezeichnung des virtuellen Messpunktes anzugeben (→ `[[zev-eigenverbrauch-mfh-her-2025]]`).
+
+**Wie weit der Bezug trägt — und wie weit nicht.** Die Weisung regelt die **Rechnungstransparenz** des LEG-Rabatts, nicht dessen **materielle Berechnung**; die liegt in Art. 19h StromVV. Zur bekannten Divergenz zwischen ElCom und VSE-Branchenempfehlung (Ziff. 4.1 (3) c) BD LEG-CH 2025, siehe Abschnitt 02 des Nachtrags vom 29.08.2026) sagt die Weisung **nichts** — sie bestätigt sie nicht und widerlegt sie nicht.
+
+**Praktischer Nutzen für die Beratung:** Ab dem Tarifjahr 2026 muss der LEG-Rabatt auf der Rechnung **sichtbar** sein. Erscheint er dort nicht, ist das ein prüfbarer Mangel der Rechnungsstellung und nicht bloss eine Frage der internen Abrechnung. Der Hinweis, dass die Systemdienstleistungen vom Rabatt ausgenommen bleiben, gehört zugleich in jede Wirtschaftlichkeitsrechnung — der Abschlag greift nicht auf den ganzen Netzbetrag.
+
+**Belegter Negativbefund mit Suchweg, damit die Suche nicht wiederholt wird:** Von den ElCom-Weisungen 2025/2026 trägt **nur die 5/2025** einen LEG- oder Eigenverbrauchsbezug. Geprüft wurde das Weisungsverzeichnis auf `elcom.admin.ch/de/weisungen` (Weisungen 1/2025 bis 10/2025 sowie 1/2026); zusätzlich durchsucht wurden die «Wegleitung zur Kostenrechnung (KoRe) für die Tarife 2026» (eine einzige vZEV-Erwähnung bei den Messpunktkosten, kein LEG-Abschnitt) und die «Wegleitung zur Tarifdeklaration für Tarife 2026» (kein Treffer auf «Elektrizitätsgemeinschaft» oder «LEG»). Eine eigenständige ElCom-Weisung zur **Berechnungsmethodik** des LEG-Netznutzungsrabatts existiert nach diesem Stand nicht — plausibel, weil die LEG-Erstregistrierung erst ab 01.01.2026 möglich ist. ⚠ Die Einordnung der Weisung **4/2025** («Grundversorgung Energie: erweiterte Eigenproduktion im Konzern», 01.04.2025) als nicht LEG-/ZEV-bezogen stützt sich nur auf Titel und Suchtreffer-Zusammenfassungen: der Volltext war wegen wiederholtem HTTP 502 der Quell-URL nicht lesbar. Falls dieser Punkt je entscheidungsrelevant wird, ist er nachzuholen.

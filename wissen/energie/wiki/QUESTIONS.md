@@ -2,6 +2,92 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-30 (Run 169) — E-R167-6 fortgesetzt und beantwortet: die Ader traegt noch, aber nur noch in einer Quellenklasse
+
+**Die Frage war** (E-R167-6): Die Begleitdokument-Pruefung auf die Raenge 15-30 ausdehnen — **und dabei
+die Ertragsklasse mitmessen**, weil der Methode bisher das Abbruchkriterium fehlte. Geprueft wurden
+fuenf weitere Quellen. **Ergebnis: 5 von 5 lieferten etwas, aber die Verteilung hat sich verschoben.**
+
+| Quelle | Ertragsklasse | Kern |
+|---|---|---|
+| `[[zev-eigenverbrauch-mfh-her-2025]]` | **(2) amtlich widerspricht Branche** | drei ElCom-Beanstandungen gegen HER/BD LEG, bisher nicht erfasst |
+| `[[erdwaermesonden-bewilligung-zh-sz]]` | (3) Negativbefund | vier Aktualitaetsfragen alle negativ, vier neue Begleitquellen |
+| `[[minergie-besser-planen-bauen]]` | (3) Negativbefund | Broschuere unveraendert, kein Aenderungsprotokoll 2026.1 |
+| `[[ahb-zuerich-gt-rl8-beleuchtung]]` | (3) Negativbefund | SIA 387/4:2023 bestaetigt, ein neues Merkblatt gefunden |
+| `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]` | (4) Formalie | Kernstand unveraendert, zwei gute Querverweise |
+
+**Die Antwort auf das Abbruchkriterium, und das ist der eigentliche Ertrag dieses Laufs.** Die Ader
+ist nicht erschoepft, aber sie ist **nicht mehr gleichmaessig ergiebig** — und die Trennlinie laeuft
+nicht entlang des Backlink-Rangs, sondern entlang der **Quellenklasse**:
+
+- **Ergiebig bleibt die Klasse «schnell alternde Branchen- und Vollzugsdokumente»**: Branchen-
+  handbuecher (VSE), Foerderprogramme, kantonale Vollzugspraxis, alles mit Rechtsbezug. Dort
+  entstehen laufend neue amtliche Gegenpositionen — der einzige Klasse-2-Fund dieses Laufs stammt
+  genau daher.
+- **Erschoepft ist die Klasse «stabile Fachgrundlagen»**: Normen, Bauteilekataloge, technische
+  Vollzugshilfen, Verbandsbroschueren. Vier von vier Pruefungen dieser Klasse ergaben Negativbefunde
+  oder Formalien. Diese Quellen aendern sich im Jahrestakt oder gar nicht.
+
+**Empfehlung fuer kuenftige Laeufe:** Die Begleitdokument-Pruefung **nicht mehr nach Backlink-Rang**
+fahren, sondern **nach Alterungsgeschwindigkeit der Quelle**. Der Rang misst, wie oft die KB eine
+Quelle zitiert — nicht, wie wahrscheinlich sich etwas geaendert hat. Beides faellt nur zufaellig
+zusammen. ✓ **E-R167-6 damit beantwortet.**
+
+### In diesem Lauf geschlossen (beide am Original im Hauptmodell gegengelesen)
+- [x] **E-R167-4: ElCom-Weisung 5/2025 hat einen LEG-Bezug, aber einen engen** ✓ 2026-08-30. «Weisung
+  5/2025 — Transparente und vergleichbare Rechnungsstellung», 06.05.2025, ersetzt Weisung 1/2014.
+  Fussnote (1) der Erlaeuterungen: der LEG-Netznutzungsabschlag nach Art. 17e Abs. 3 StromVG i.V.m.
+  Art. 19h StromVV (je Version ab 1.1.2026) ist unter Position A «Netznutzung» **transparent
+  auszuweisen**; die Systemdienstleistungen bleiben **ohne Abschlag**. Zusatzfund: beim virtuellen ZEV
+  ist die Bezeichnung des virtuellen Messpunkts anzugeben. Die Weisung regelt die **Rechnungs-
+  transparenz**, nicht die Berechnungsmethodik, und sagt zur bekannten ElCom/VSE-Divergenz nichts.
+  Nachgetragen in `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`.
+- [x] **E-R167-5: die Praemisse der Frage war falsch — EN-102d gehoert dem Tool, nicht dem Merkblatt**
+  ✓ 2026-08-30. Vollzugshilfe **EN-100**, Ausgabe Dezember 2018, **Tabelle 3 «Zuordnung der
+  Hilfsformulare»** fuehrt woertlich «EN-102d · EN-102 · Fenster-Tool». Die Nummer bezeichnet also die
+  **Excel-Rechenhilfe**, nicht das 16-seitige PDF-Merkblatt, das `[[enfk-fensterblatt]]` destilliert —
+  dieses traegt gar keine EN-Nummer und steht in EN-100 in der Spalte der referenzierten Normen und
+  Merkblaetter. Drittens: das «-d» in Dateinamen wie `EN-102-d_Waermeschutz_…pdf` ist das **Sprach-
+  kuerzel deutsch**, nicht die Variante d. Nachgetragen in `[[enfk-fensterblatt]]`.
+
+### Eine methodische Lehre, die teuer haette werden koennen
+Ein Pruefagent meldete in diesem Lauf, die Formularnummer **EN-102d existiere nicht** und die Zuordnung
+in der KB sei falsch. Er hatte EnDK-Medienbibliothek und EN-102-Volltext geprueft — **aber nicht EN-100,
+also nicht die Quelle, aus der die Behauptung ueberhaupt stammte.** Die Beanstandung wurde vor dem
+Datei-Eingriff am Original gegengeprueft und fiel dabei in sich zusammen; die KB-Angabe war richtig,
+nur unpraezise zugeordnet. Haette der Lauf den Agentenbefund uebernommen, waere eine korrekte, belegte
+Fundstelle geloescht worden. **Wer eine Quellenangabe widerlegen will, muss die genannte Quelle oeffnen,
+nicht eine andere** (Rule `auto-verbesserungen` 260729b, hier zum zweiten Mal in dieser KB belegt).
+
+### Neu offen nach diesem Lauf
+- [ ] **E-R169-1 (P1): Das zweite Verordnungspaket des Mantelerlasses per 01.01.2026 destillieren.**
+  Der groesste Einzelbefund dieses Laufs, der NICHT abgearbeitet wurde. Betroffen: **Messtarife neu pro
+  Messpunkt** (Art. 17a StromVG, Version 1.1.2026, AS 2024 679 — bis 2025 lief die Abgeltung indirekt
+  ueber das Netznutzungsentgelt; das aendert die Kostenseite jeder ZEV-Messkonfiguration) und die
+  **Rueckliefervergütung nach BFE-Referenz-Marktpreis** samt Minimalverguetungen (Art. 15 EnG Version
+  1.1.2026 i.V.m. Art. 12 EnV, AS 2025 138, Art. 15 EnFV). In `[[zev-eigenverbrauch-mfh-her-2025]]` nur
+  **benannt**, nicht ausdestilliert — gehoert an den Verordnungstext, nicht in einen Nachtrag.
+- [ ] **E-R169-2 (P2): BD LEG-CH 2025 selbst lesen.** Die Branchenempfehlung «Lokale Elektrizitaets-
+  gemeinschaften» ist jetzt namentlich belegt (ueber die ElCom-FAQ Frage 9.2), aber in dieser KB nach
+  wie vor **nicht gelesen**. Der seit Monaten offene Punkt «BD-LEG noch offen» ist damit praeziser, aber
+  nicht erledigt.
+- [ ] **E-R169-3 (P2): AHB-Merkblatt «Beleuchtung Hallenbaeder und Schulschwimmanlagen», M-System-Nr.
+  384, Oktober 2024** destillieren — bisher in der KB nicht erfasst, mit eigenen Kennwerten nach
+  EN 12464-1 und EN 12193. Fundstelle im Nachtrag von `[[ahb-zuerich-gt-rl8-beleuchtung]]`.
+- [ ] **E-R169-4 (P3): zwei unerschlossene Minergie-Wissen-Broschueren** — «Sommerlicher Waermeschutz»
+  (2019, Ueberarb. Aug. 2023) und «Messen. Steuern. Optimieren.» (2021, **Ueberarb. Mai 2025**, juengste
+  Revision der Reihe). Dazu die 2026er-Begleitdokumente zum Produktreglement, darunter die
+  **Anwendungshilfe Version 2026.2** — deren Versionsstand weicht vom Reglement 2026.1 ab, was fuer sich
+  schon eine Pruefung wert ist. Liste im Nachtrag von `[[minergie-besser-planen-bauen]]`.
+- [ ] **E-R169-5 (P3): ElCom-Weisung 4/2025 Volltext nachholen.** «Grundversorgung Energie: erweiterte
+  Eigenproduktion im Konzern», 01.04.2025. Als nicht LEG-/ZEV-bezogen eingestuft, aber **nur nach Titel
+  und Suchtreffern** — die Quell-URL lieferte wiederholt HTTP 502. Vor einer verbindlichen Aussage
+  nachholen.
+- [ ] **E-R169-6 (P3): hat der VSE das HER inzwischen angepasst?** Trotz zweier ElCom-Beanstandungen
+  (zuletzt bestaetigt im Update vom 16.06.2026) wurde keine VSE-Reaktion, kein Erratum und keine
+  HER-CH-2026-Ausgabe gefunden. Geprueft: strom.ch-Downloadcenter und gezielte Suche. **Nicht geprueft:
+  der strom.ch-Mitgliederbereich hinter Login** — dort koennte eine nachgefuehrte Fassung liegen.
+
 ## 2026-08-30 (Run 168, Mac-Mini-Nachtschicht) — RiLuMi-Ausgabe nachgefuehrt, E-R165-3 geschlossen
 
 **Zwei Kandidaten eines eigenen Backlink-Rankings geprueft** (nicht die offizielle
