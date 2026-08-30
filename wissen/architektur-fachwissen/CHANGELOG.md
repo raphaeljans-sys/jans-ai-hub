@@ -1,5 +1,55 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern` abgeschlossen (67. Lauf, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn Stand selbst ermittelt statt aus dem Dispatch-Prompt übernommen (der
+nennt bewusst keine Zahlen mehr): `KORPUS-QUEUE.md` zeigte einen unkommittierten Vorlauf
+(66. Lauf, Sammelartikel Kurzfragmente), lokal sauber, Hostname per `scutil` als Macmini
+bestätigt. `nas-commit-now.sh` zur Sicherung ausgelöst — erneuter, bekannter NAS-Merge-
+Konflikt in sechs fremden KBs (`normen`, `architekten-synobsis`, `baurecht`, `grobkosten`,
+`KORPUS-QUEUE.md`, diese KB selbst), lokal ohne `MERGE_HEAD`, dem 15-Min-Cron überlassen statt
+selbst aufgelöst (fremde KBs ausserhalb des Schreibbereichs dieser Lane).
+
+Danach die letzte offene P2-Position der Sektion bearbeitet: die sieben Wikipedia-/
+Wiktionary-Begriffsblätter (Anthropomorphismus, Capriccio, Pasticcio, Epitome, Form follows
+function, Shaker-Religion, Protogeometric Art) sowie die Sgraffito-Sammlung `cntmng*.pdf`
+vollständig gelesen. Ergebnis differenziert statt pauschal destilliert:
+
+- **Capriccio** (Wikipedia, 2013): kunsttheoretischer Regelverstoss-Begriff, im Quelltext
+  selbst mit Piranesis *Carceri* verknüpft — Anschluss an den bereits bestehenden Artikel
+  [[rossi-analoge-architektur-typus-piranesi-eth-lehrzeit]] (Rückverlinkung ergänzt).
+- **Shaker-Religion** (Wikipedia, 2012): einziges der sieben Blätter mit dokumentiertem
+  Architektur-Bezug im Quelltext selbst (Möbelstil, Parallele zu Arts-and-Crafts, Einfluss
+  auf die Moderne in Architektur und Design).
+- **Sgraffito-Sammlung `cntmng*.pdf`**: kein Wikipedia-Ausdruck, sondern ein digitalisierter
+  Zeitschriftenaufsatz (Hermann Weilenmann, «Ein Museum», in: *Das Werk* 7 (1920), Heft 2,
+  S. 29-34, e-periodica/SEALS, DOI 10.5169/seals-81585) über ein Heimatmuseum in Klosters,
+  bebildert u. a. mit dem Sgraffitohaus Andeer (Haus Pedrun, frühes 16. Jh.) — zitierfähige
+  Frühquelle zur These «Ornament ist integraler Bestandteil des Gebrauchsgegenstands», Parallele
+  zu Sullivan 1892.
+- **Anthropomorphismus, Pasticcio, Epitome, Protogeometric Art**: geprüft, kein Artikel —
+  generische bzw. themenfremde Wikipedia-Inhalte ohne Architektur-Bezug im Quelltext;
+  Protogeometric Art war vom Klassifikator selbst bereits im Ordner `00_Ungueltig` abgelegt.
+- **Form follows function** (Wikipedia, 2013): inhaltlich schwächere Dopplung des bereits
+  bestehenden Artikels [[form-follows-function-genealogie-sokrates-vitruv-alberti-greenough-sullivan]]
+  (Di Stefano 2012); einzige Ergänzung (Bauhaus-Rezeption, Adolf Loos' Glasfassaden-Einwand)
+  dort als Randnotiz vermerkt, kein eigener Artikel.
+
+Zu einem Sammelartikel verdichtet:
+[[begriffsapparat-protomodern-capriccio-piranesi-shaker-sgraffito-weilenmann]]
+(`status: speculative`, überwiegend tertiäre Quellen). Inventarposition (Zeile 74,
+`raw/inventar/archiv-fachwissen__10_Protomodern.md`) als gelesen/destilliert markiert
+(`git diff --numstat` auf die Inventardatei: reiner Append, keine Löschung).
+
+**Damit sind für die Sektion `10_Protomodern` sämtliche P1- und P2-Tabellenzeilen des
+Inventars als gelesen markiert** — P1 war bereits seit dem 61. Lauf vollständig, P2 ist es
+mit diesem Lauf ebenfalls (sieben P2-Zeilen, alle mit «Gelesen»/«destilliert» versehen).
+Rest-Substanz der Sektion liegt nur noch in P3 (unlesbare Scans ohne OCR) und X
+(Bilddateien/Sicherungskopien), beide gemäss KB-Regel nicht zu destillieren. Nächster
+Schritt für den Korpus `archiv-fachwissen`: nächstgrosse Sektion mit offenem P1/P2 wählen
+(Kandidaten laut `wiki/INDEX.md` «Sektionen nach Ertrag»: `02_Gestalt_Kulturverstaendnis`,
+`01_Konstruktion`, `03_Bauprozesse_I_II`, `02_Architekturgeschichte`, `02_Kunst_Geschichte`).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern`, zweiter P2-Lauf (Lane FACHWISSEN)
 
 Vor Arbeitsbeginn unkommittierte Vorlauf-Änderungen (erster P2-Lauf, Di Stefano/Sullivan)
