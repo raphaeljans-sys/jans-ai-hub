@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 gewichtung: authentisch
-sources: [260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2735,3 +2735,65 @@ Einschränkung.
 01.2.330.01» — die Raumnummer steckt in der Tür-ID, die Etappe davor, die laufende Nummer
 dahinter. Zweiter Beleg nach Batch 107; die Kopplung FM-Nummer ↔ Tür-ID wird ausgeschrieben,
 nicht vorausgesetzt.
+
+## Batch 109 (30.08.2026) — Drafts-Erstzugriff 2024/2025 + Sent 29.08.2026
+
+Quelle: [[260830-mailbatch-109]], 9 Golds, Gewichtung `authentisch`.
+
+### ⭐ Die Zustandseinschätzung als nummerierte Frage-Antwort-Kette — dichtestes Fachstück des Korpus
+
+Ankaufsprüfung eines Wohnhochbaus (28.06.2025). Nach der Ankündigung «Grundsätzlich kann ich
+hier ganz prägnant und stichwortartig ein grobe Gebäudezustandseinschätzung machen:» folgen
+**sechs Positionen, Ziffer ohne Punkt**:
+
+- «1 Hochhaus: Nein, **Gebäude mittlerer Höhe, Gebäudekategorie 3/4, erhöhter Brandschutz**»
+- «2 Konsequenz Fassadensanierung: **Kernsanierung bis auf Tragstruktur**, neuer Schichtaufbau
+  inkl. Fenster **nach Brandschutznorm**»
+- «3 Restnutzungsdauer Steigzone: **ca. 10-20J**»
+- «4 Nachrüstungen Brandschutz: kleinere Arbeiten ja, grosse nein (**Entrauchungsanlage/
+  Feuerwehrlift/Brandmeldeanlage**)»
+- «5 Fassadenmaterialisierung: **Steinwolle** als Wärmedämmung, **Putzschale aus mineralischem
+  Putz, gleich oder dicker 4mm**»
+- «6 Primärenergien: Luft und Sonne; z.B **Luft-Luft-Wärmepumpe zusammen mit PV-Anlage auf
+  Dach**. Erdwärme: Nein, nicht möglich, **Fernwärme/Biogas evtl.**»
+
+Vier Merkmale des Fingerabdrucks:
+
+1. **Die Gebäudekategorie trägt die Brandschutzfolge.** «Nein, Gebäude mittlerer Höhe,
+   Gebäudekategorie 3/4, erhöhter Brandschutz» — die Verneinung («kein Hochhaus») wird sofort
+   in die **regulatorische Einordnung** und deren **Konsequenz** übersetzt. Recht wird nicht
+   zitiert, sondern in Folgen übersetzt.
+2. **Das Bauteil trägt seinen Schichtaufbau.** «Kernsanierung bis auf Tragstruktur neuer
+   Schichtaufbau inkl. Fenster nach Brandschutznorm» — Tiefe des Eingriffs, Schichtfolge und
+   Normbezug in einer Zeile.
+3. **Die Materialisierung trägt ihr Mass.** «Putzschale aus mineralischem Putz, gleich oder
+   dicker 4mm» — keine Materialangabe ohne Dimension.
+4. **Die Energieträgerprüfung läuft als Ausschlussverfahren mit Restmenge.** Luft und Sonne
+   ja, Erdwärme nein mit Begründung, Fernwärme/Biogas als offene Restmenge («evtl.»).
+
+Für den Zwilling: dies ist das Format, wenn eine Bauherrschaft nach dem Zustand fragt —
+**nummerierte Stichwortpositionen mit vorangestellter Antwort**, nicht Fliesstext und nicht
+ein Bericht.
+
+### ⭐ «wir» für das Angebot, «ich» für das Urteil
+
+Im selben Text: «**Wir** als Team haben uns an die Arbeit gemacht» · «**Wir** denken es macht
+Sinn …» · «**Wir** würden uns sehr freuen» — aber «Grundsätzlich kann **ich** hier … eine
+grobe Gebäudezustandseinschätzung machen».
+
+Das Angebot ist Sache des Teams, die **fachliche Einschätzung ist seine eigene**. Damit ist
+auch geklärt, warum dieses «wir» nicht gegen die belegte Regel «kein vereinnahmendes wir bei
+unverbindlicher Einschätzung» verstösst: **das «wir» steht am Angebot, das «ich» am Urteil.**
+Für den Zwilling eine harte Zuordnungsregel, keine Stilfrage.
+
+### Die Vorleistungs-Kette benennt das ausführende Gewerk, nicht die Firma
+
+«Am kommenden Mittwoch ist **der LBW-Ersteller** fertig mit den Unterzügen.» (29.08.2026)
+Der Vorleistende wird über seine **Leistung** identifiziert, nicht über den Firmennamen —
+dieselbe Ökonomie wie bei der sprechenden Tür-ID.
+
+### Der Terminanker ist die Kalenderwoche, das Ziel die Freigabestufe
+
+«Ziel: Gut zur Ausführung In KW 36.» — «Gut zur Ausführung» als **benannte Freigabestufe**
+(nicht «fertig», nicht «freigegeben»), verankert an einer KW statt an einem Datum, während
+die Einzelschritte davor **taggenau** stehen. Grobziel in KW, Einzelschritt im Datum.
