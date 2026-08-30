@@ -1,20 +1,47 @@
 ---
-quelle: «Richtlinie Luftdichtheit bei Minergie-Bauten (RiLuMi)», Version 2022.1, 21.12.2021 (minergie.ch/media/211221_rilumi_v2022.1_de.pdf)
+quelle: «Richtlinie Luftdichtheit bei Minergie-Bauten (RiLuMi)», Version 2026.1, Ausgabe/gültig ab 01.01.2026 (minergie.ch/media/rilumi-v2026-1.pdf); Vorversion 2022.1, 21.12.2021 (minergie.ch/media/211221_rilumi_v2022.1_de.pdf) als Basis der Erstfassung dieses Destillats
 herausgeber: Verein Minergie / Thermografie- und Blower-Door Verband Schweiz (theCH), unterstützt durch EnergieSchweiz
-ausgabe: PDF, 51 Seiten (vollständig via curl-Download + pdftotext gelesen, Run 55)
-gelesen: 2026-07-13 (vollständig: Kap. 1-8 inkl. Anhang; vorher nur S. 1-8/Kap. 1-3 per PDF-Bildextraktion)
-datenstand: Version 2022.1, Messnorm SN EN ISO 9972 seit 09/2015 gültig (löst EN 13829 ab, vom SIA zurückgezogen); übergeordnete Norm SIA 180 Ausgabe 07/2014
+ausgabe: PDF, 51 Seiten (2022.1 vollständig via curl-Download + pdftotext gelesen, Run 55); Version 2026.1 Kap. 1-3 (S. 1-13, Einleitung + Anforderung Minergie + Messunsicherheit) via WebFetch+Read/PDF gegengelesen, Rest (Kap. 4-8, Anhang) nicht erneut vollständig gegengelesen — Änderungen laut eigenem Kap. 1.3 «Wichtigste Änderungen 2026» betreffen dort nur Messzonenauswahl-Klarstellung, Lifttüren, Tür-/Torelemente (siehe unten)
+gelesen: 2026-07-13 (Version 2022.1, vollständig: Kap. 1-8 inkl. Anhang; vorher nur S. 1-8/Kap. 1-3 per PDF-Bildextraktion); 2026-08-30 (Version 2026.1, Kap. 1-3 vollständig gegengelesen — Nachtrag im Rahmen der Begleitdokument-Prüfung QUESTIONS.md E-R165-1)
+datenstand: Version 2026.1 (Ausgabe/gültig ab 01.01.2026) — Messnorm-Basis seit RiLuMi 2024.1 ist SIA 180.206 (nationaler Anhang zu SN EN ISO 9972:2015, 2. Auflage), «Verfahren 3» statt vormals «in Anlehnung an Verfahren 2»; übergeordnete Norm SIA 180 Ausgabe 07/2014
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-30
 ---
 
-# RiLuMi — Luftdichtheits-Grenzwerte Minergie/-P/-A (n50/qE50)
+# RiLuMi — Luftdichtheits-Grenzwerte Minergie/-P/-A (n50/qa50)
 
 **Das Wichtigste in 1 Satz:** Minergie verlangt für Neubauten eine Luftdurchlässigkeit
-qE50 ≤ 1,2 m³/(h·m²) (Minergie-P/-A ≤ 0,8), bei Erneuerungen einheitlich ≤ 1,6, gemessen
-per Blower-Door-Test nach SN EN ISO 9972 mit max. ±15 % Gesamtmessunsicherheit — und ein
-Luftdichtheitskonzept ist beim Minergie-Basisstandard mit dem Zertifizierungsantrag
-**zwingend** einzureichen, nicht erst bei der Messung selbst.
+qa50 ≤ 1,2 m³/(h·m²) (Minergie-P/-A ≤ 0,8), bei Erneuerungen einheitlich ≤ 1,6 — Zahlenwerte
+seit der Ausgabe 2022.1 unverändert, aber das Symbol heisst seit RiLuMi 2024.1/2026.1 **qa50**
+(vormals qE50) und die Messung erfolgt seit derselben Ausgabe nach **SIA 180.206 «Verfahren 3»**
+statt vormals «in Anlehnung an Verfahren 2» — gemessen per Blower-Door-Test mit max. ±15 %
+Gesamtmessunsicherheit. Ein Luftdichtheitskonzept ist beim Minergie-Basisstandard mit dem
+Zertifizierungsantrag **zwingend** einzureichen, nicht erst bei der Messung selbst.
+
+## ⚠ Nachtrag 2026-08-30 (Run Nachtschicht, QUESTIONS.md E-R165-1): Ausgabe auf 2026.1 aktualisiert
+Begleitdokument-Prüfung des meistzitierten Destillate-Bestands ergab: dieses Destillat trug seit
+Run 55 (13.07.2026) die Ausgabe **2022.1**; aktuell gültig ist **Version 2026.1** (Ausgabe/gültig
+ab 01.01.2026, gefunden via minergie.ch/media/rilumi-v2026-1.pdf). Geprüft, was sich zwischen den
+Ausgaben materiell geändert hat:
+- **Zahlenwerte unverändert:** Tabelle 6 (Grenzwerte 1,2/0,8/1,6, Eissporthallen 1,0) ist in der
+  Ausgabe 2026.1 identisch zur bisher destillierten Fassung — **keine Korrektur der Kennwerte
+  nötig**, nur der Beleg war veraltet.
+- **Symbol geändert:** qE50 (RiLuMi 2018/2022.1) → **qa50** (RiLuMi ab 2024.1), harmonisiert mit
+  SIA 180.206. Dieses Destillat verwendete durchgehend qE50; unten korrigiert. Der bereits
+  vorhandene SIA-180-Abschnitt (Kap. «Norm SIA 180:2014 selbst») nutzte schon vorher korrekt
+  «qa50» — das Destillat war intern uneinheitlich, das ist jetzt behoben.
+- **Messverfahren geändert:** RiLuMi 2018/2022.1 mass «in Anlehnung an Verfahren 2» nach
+  SN EN ISO 9972; seit RiLuMi 2024.1 gilt **Verfahren 3 nach SIA 180.206** (nationaler Anhang,
+  2. Auflage der Norm) — eine Verfahrensänderung, keine reine Umbenennung.
+  **Bauherren-Relevanz gering** (Sache des Messenden), aber bei Ausschreibungstexten/
+  Prüfberichten ist die neue Normbezeichnung SIA 180.206 statt SN EN ISO 9972 zu verwenden.
+- **Inhaltlich neu in 2026.1** (laut eigenem Kap. 1.3, nicht im Detail nachrecherchiert):
+  Klarstellung Messzonenauswahl bei Zweckbauten/kleinen Wohnbauten, Pflicht zur Einreichung
+  des Messkonzepts bei Zweckbauten für die provisorische Zertifizierung, Klarstellung bei
+  Lifttüren in eine Messzone, aktualisierter Umgang mit zertifizierten Tür-/Torelementen.
+- **Nicht als eigener Fund zu werten:** die Verfahrens-/Symbolik-Änderung war bereits vor
+  2024.1 im Gang (RiLuMi-Editionsverlauf Tabelle 1 der Quelle); dieses Destillat hatte lediglich
+  die Ausgabe 2022.1 (letzte Fassung vor der Umstellung) nie auf die Folgeausgaben nachgeführt.
 
 ## Warum Luftdichtheit wichtig ist (RiLuMi, Kap. 1.2, wörtlich die vier Gründe)
 - Gewährleistung von Bauschadenfreiheit
@@ -25,25 +52,27 @@ Luftdichtheitskonzept ist beim Minergie-Basisstandard mit dem Zertifizierungsant
 ## Normen-Hierarchie
 - **SIA 180** (Ausgabe 07/2014) = übergeordnete Schweizer Norm, schreibt grundsätzlich die
   Erstellung eines Luftdichtheitskonzepts vor.
-- **SN EN ISO 9972** (seit 09/2015, weltweit gültig) = aktuelle Messnorm, hat **EN 13829**
-  (11/2000, «vom SIA zurückgezogen») abgelöst. Seit RiLuMi 2018 wird «in Anlehnung an
-  Verfahren 2» nach ISO 9972 gemessen statt «Verfahren B» nach EN 13829.
-- Kenngrösse ist **qE50** [m³/(h·m²)] (Luftdurchlässigkeit bei 50 Pa Bezugsdruckdifferenz,
+- **SN EN ISO 9972** (seit 09/2015, weltweit gültig) = Messnorm-Basis, hat **EN 13829**
+  (11/2000, «vom SIA zurückgezogen») abgelöst. Editionsverlauf der Messmethode: RiLuMi 2007
+  «Verfahren B» nach EN 13829 → RiLuMi 2018/2022.1 «in Anlehnung an Verfahren 2» nach
+  ISO 9972 → **seit RiLuMi 2024.1/2026.1 «Verfahren 3» nach SIA 180.206** (nationaler Anhang
+  zu SN EN ISO 9972:2015, 2. Auflage) — die aktuell geltende Fassung.
+- Kenngrösse ist **qa50** [m³/(h·m²)] (Luftdurchlässigkeit bei 50 Pa Bezugsdruckdifferenz,
   bezogen auf die Hüllfläche AE) — nicht mehr n50 [h⁻¹] (Luftwechselrate, Volumenbezug) wie
   in älteren Quellen/Deutschland üblich. Beide Grössen sind über das Innenvolumen umrechenbar,
-  aber **die RiLuMi-Grenzwerttabelle ist in qE50 ausgedrückt**, nicht in n50 — beim Vergleich
+  aber **die RiLuMi-Grenzwerttabelle ist in qa50 ausgedrückt**, nicht in n50 — beim Vergleich
   mit deutschen n50-Faustwerten (Passivhaus 0,6 h⁻¹) ist Vorsicht geboten (andere Bezugsgrösse).
 
-## Einzuhaltende Grenzwerte qE50 [m³/(h·m²)] (Tabelle 6, RiLuMi 2022.1)
+## Einzuhaltende Grenzwerte qa50 [m³/(h·m²)] (Tabelle 6, RiLuMi 2026.1 — Zahlenwerte identisch seit 2022.1)
 | | Minergie | Minergie-P | Minergie-A |
 |---|---|---|---|
 | Anforderung Neubau | ≤ 1,2 * | ≤ 0,8 | ≤ 0,8 |
 | Anforderung Erneuerung | ≤ 1,6 | ≤ 1,6 | ≤ 1,6 |
 
-\* Eissporthallen: qE50 ≤ 1,0 m³/(h·m²) (eigene Sonderregel).
+\* Eissporthallen: qa50 ≤ 1,0 m³/(h·m²) (eigene Sonderregel).
 
 Beurteilungsregel: Massgebend ist der auf 1 Dezimalstelle gerundete Messwert (Mittelwert aus
-Unter- und Überdruck). Beispiel aus der Quelle: ein Messwert qE50 = 0,84 m³/(h·m²) wird zu
+Unter- und Überdruck). Beispiel aus der Quelle: ein Messwert qa50 = 0,84 m³/(h·m²) wird zu
 0,8 gerundet → Grenzwert Minergie-P erfüllt.
 
 ## Konzept-/Mess-/Nachweispflicht je Standard (Tabelle 5)
@@ -123,7 +152,7 @@ nicht automatisch von einer Luftdichtheits-Sorgfaltspflicht.
 - Bei **Erweiterungen/Umnutzungen**: sind Alt- und Neubauteil klar getrennt, gilt für jeden Teil
   sein eigener Grenzwert (Neubau 0,8/1,2, Bestand 1,6); sind sie offen verbunden, wird ein
   flächengewichteter **objektspezifischer Grenzwert (osGW)** errechnet:
-  osGW·qE50 = (A_E,Altbau × 1,6 + A_E,Neubau × 0,8 oder 1,2) / (A_E,Altbau + A_E,Neubau).
+  osGW·qa50 = (A_E,Altbau × 1,6 + A_E,Neubau × 0,8 oder 1,2) / (A_E,Altbau + A_E,Neubau).
   Bei Umnutzung mit Raumtemperaturänderung >5 K gilt der Neubau-Grenzwert, bei ≤5 K oder ohne
   Temperaturänderung der Erneuerungs-Grenzwert 1,6.
 - **Vorgezogene Messung** (vor Fertigstellung der Bekleidung/Ausbauarbeiten): wird als

@@ -2772,13 +2772,15 @@ Status emerging (Faustregel-Charakter, Grundlage SIA 2023 formell zurückgezogen
 **Kurz:** Bei **Minergie-P/-A ja, zwingend** (inkl. Leckageortung), bei einfachem **Minergie
 nein** — dort ist nur ein **Luftdichtheitskonzept** mit dem Zertifizierungsantrag Pflicht, die
 Messung selbst ist freiwillig (aber empfehlenswert, um verdeckte Leckagen vor der Verkleidung
-zu finden). Der Grenzwert (Kennzahl qE50, nicht n50) liegt bei Minergie-Neubau ≤ 1,2 m³/(h·m²),
-bei Minergie-P/-A ≤ 0,8; bei einer **Erneuerung** ist die Anforderung einheitlich lockerer:
-≤ 1,6.
+zu finden). Der Grenzwert (Kennzahl qa50, nicht n50 — Symbol seit RiLuMi 2024.1, vormals qE50)
+liegt bei Minergie-Neubau ≤ 1,2 m³/(h·m²), bei Minergie-P/-A ≤ 0,8; bei einer **Erneuerung**
+ist die Anforderung einheitlich lockerer: ≤ 1,6. Die Zahlenwerte selbst sind seit Jahren
+unverändert.
 
-**Fachlich:** Gemessen wird nach der internationalen Norm SN EN ISO 9972 (löst seit 2015 die
-ältere EN 13829 ab), mit max. ±15 % Gesamtmessunsicherheit und max. 5 Pa natürlicher
-Druckdifferenz während der Messung. Die Kenngrösse qE50 bezieht sich auf die **Hüllfläche**
+**Fachlich:** Gemessen wird seit RiLuMi 2024.1/2026.1 nach **SIA 180.206 «Verfahren 3»**
+(nationaler Anhang zur internationalen Norm SN EN ISO 9972, die 2015 die ältere EN 13829
+abgelöst hat), mit max. ±15 % Gesamtmessunsicherheit und max. 5 Pa natürlicher
+Druckdifferenz während der Messung. Die Kenngrösse qa50 bezieht sich auf die **Hüllfläche**
 (m²), nicht wie das deutsche n50 auf das Innenvolumen — ein direkter Vergleich mit deutschen
 Passivhaus-Faustwerten (n50 ≤ 0,6 h⁻¹) ist deshalb nicht ohne Umrechnung möglich. Wichtig für
 die Bauplanung: die Messung sollte **vor Fertigstellung der Bekleidung** («vorgezogene
@@ -2797,7 +2799,8 @@ belastbare CHF-Grössenordnung bleibt eine direkte Anbieteranfrage nötig (Run 5
 ergebnisoffen).
 
 **Quelle:** Minergie/theCH «Richtlinie Luftdichtheit bei Minergie-Bauten (RiLuMi)», Version
-2022.1, vollständig gelesen (Run 55, curl+pdftotext, alle 8 Kapitel + Anhang) →
+2026.1 (Ausgabe/gültig ab 01.01.2026; Ersterfassung Version 2022.1 vollständig gelesen Run 55,
+curl+pdftotext, alle 8 Kapitel + Anhang; Ausgaben-Nachtrag 30.08.2026, Kap. 1-3 gegengelesen) →
 `[[rilumi-minergie-luftdichtheit-n50]]`. Status established (amtliche Primärquelle vollständig).
 
 ## F64 — «Muss ich mein Haus an die Fernwärme anschliessen, wenn die Gemeinde einen Wärmeverbund baut?»

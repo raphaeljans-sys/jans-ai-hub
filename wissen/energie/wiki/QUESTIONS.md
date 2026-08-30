@@ -2,6 +2,36 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-30 (Run 168, Mac-Mini-Nachtschicht) — RiLuMi-Ausgabe nachgefuehrt, E-R165-3 geschlossen
+
+**Zwei Kandidaten eines eigenen Backlink-Rankings geprueft** (nicht die offizielle
+Top-14-Liste aus Run 167, die bereits vollstaendig ist — siehe E-R167-6 fuer die Fortsetzung
+Raenge 15-30):
+
+- [x] **E-R165-3 geschlossen (bereits erledigt, nur der Zeiger fehlte).** Das
+  Aenderungsprotokoll/die FAQ des Kantons Schwyz («Haeufig gestellte Fragen zu den Themen
+  Foerderprogramm und Energie-Gesetz», Stand 28.08.2025, sz.ch Asset 75011) ist in
+  `[[foerderprogramm-energie-sz-2026]]` selbst (Abschnitt Verifikation+Befristung,
+  Rahmenkredit) UND in `[[gebaeudeprogramm-bund-hfm-2015]]` bereits verwendet. Gleiche
+  Fehlerklasse wie in Run 167 benannt («das Wissen war da, der Zeiger fehlte»).
+- [x] **RiLuMi-Destillat auf Version 2026.1 nachgefuehrt** ✓ 2026-08-30.
+  `[[rilumi-minergie-luftdichtheit-n50]]` trug seit Run 55 (13.07.2026) die Ausgabe 2022.1.
+  Aktuell: Version 2026.1 (Ausgabe/gueltig ab 01.01.2026). **Zahlenwerte unveraendert**
+  (1,2/0,8/1,6, Eissporthallen 1,0), aber **Symbol qE50 → qa50** (seit RiLuMi 2024.1,
+  harmonisiert mit SIA 180.206) und **Messverfahren «Verfahren 2» → «Verfahren 3» nach
+  SIA 180.206** (nationaler Anhang, 2. Auflage). Destillat war zuvor intern uneinheitlich
+  (SIA-180-Abschnitt nutzte bereits qa50). Korrigiert im Destillat UND in
+  `wiki/BAUHERREN-FAQ.md` F63 (Kurzantwort + Fachabschnitt + Quellenzeile), historische
+  FAQ-Journal-Eintraege bewusst unveraendert gelassen (Rule `auto-verbesserungen` 260811).
+  Details/Beleg: `outputs/2026-08-30_energie-run168.md`.
+
+### Prozessnotiz fuer kuenftige Laeufe
+Dieser Lauf begann mit einer Fehleinschaetzung: eine per Volltextsuche gefundene mittlere
+Stelle in dieser Datei (der Run-165-Absatz «Fuer den naechsten Lauf: E-R165-1 zuerst») wurde
+zunaechst als aktueller Stand behandelt, obwohl Run 166/167 (neuer, daher weiter oben in der
+Datei) denselben Punkt laengst weitergefuehrt hatten. **QUESTIONS.md fuehrt neueste Eintraege
+oben — beim Laufeinstieg immer den Dateikopf lesen, nicht nur grep-Treffer.**
+
 ## 2026-08-29 (Run 167) — E-R166-6 beantwortet: die Begleitdokument-Klasse traegt auch auf den Raengen 6-20, jetzt 11 von 11
 
 **Die Frage war** (E-R166-6): Die Begleitdokument-Pruefung hatte auf den fuenf meistzitierten Quellen
@@ -7562,7 +7592,8 @@ CHF 100'000, Minergie-ECO-Sperre nach Einzelmassnahmen. Destillat
   Ob die Kantone erneut verlängern oder die MuKEn-2025-Generation einführen, ist offen und ohne
   angekündigten Termin. Ab **Oktober 2026** monatlich an der EnDK-Plattform prüfen (REST-API-Abfrage
   genügt); für Projekte mit Baueingabe Anfang 2027 ist die Frage beratungsrelevant.
-- [ ] **E-R165-3 (P3): Änderungsprotokoll für den Kanton Schwyz nicht geprüft.**
+- [x] **E-R165-3 (P3): Änderungsprotokoll für den Kanton Schwyz nicht geprüft.** ✓ 2026-08-30
+  (Run 168) geschlossen — bereits erledigt, siehe Eintrag oben vom 2026-08-30.
   Ob das AfU SZ ein entsprechendes Begleitdokument zum Förderprogramm 2026 publiziert, wurde nicht
   untersucht → `[[foerderprogramm-energie-sz-2026]]`. Gleiche Frage für die Folgejahre in ZH: ob das
   AWEL das Protokoll **jährlich** publiziert, ist nicht belegt (nur die Ausgabe 2026 aufgefunden).

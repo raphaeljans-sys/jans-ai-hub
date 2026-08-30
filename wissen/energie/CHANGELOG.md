@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2026-08-30 (Run 168, Mac-Mini-Nachtschicht) — RiLuMi auf Version 2026.1 nachgefuehrt, E-R165-3 geschlossen
+
+`destillate/rilumi-minergie-luftdichtheit-n50.md`: Ausgabe von RiLuMi 2022.1 (Run 55, 13.07.2026)
+auf **Version 2026.1** aktualisiert. Zahlenwerte (Grenzwerte 1,2/0,8/1,6) unveraendert; **Symbol
+qE50 → qa50** (seit RiLuMi 2024.1, harmonisiert mit SIA 180.206) und **Messverfahren «Verfahren 2»
+→ «Verfahren 3» nach SIA 180.206** durchgaengig korrigiert (Destillat war zuvor intern
+uneinheitlich — der SIA-180-Vergleichsabschnitt nutzte bereits qa50). `wiki/BAUHERREN-FAQ.md` F63
+(Kurzantwort, Fachabschnitt, Quellenzeile) nachgezogen; historische FAQ-Journal-Eintraege
+unveraendert (Rule `auto-verbesserungen` 260811). `wiki/QUESTIONS.md`: E-R165-3 (SZ-Aenderungs-
+protokoll) als bereits erledigt geschlossen (FAQ AfU SZ war schon in zwei anderen Destillaten in
+Verwendung, nur nicht als geschlossen vermerkt). Beleg: `outputs/2026-08-30_energie-run168.md`.
+
 ## 2026-08-29 (Wissens-Chef Run 47) — Vorgaengerfassung der AHB-Richtlinie GT RL1 im Hub gefunden, Kante beidseitig gesetzt
 
 `destillate/ahb-zuerich-gt-rl1-planungsgrundlagen.md` (+19/−0): neuer Abschnitt «Vorgaengerfassung im Hub».
