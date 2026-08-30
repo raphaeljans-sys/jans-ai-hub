@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 12:37:18
+Stand: 30.08.2026 12:47:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 12:37:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d8ef61c2a Wissens-Destillat archiv-fachwissen 01_Staedtebau: Varro De lingua latina destilliert (47. P2-Lauf)
+- f13f5b242 nas-selfcommit: 2 Datei(en) 2026-08-30 12:45
