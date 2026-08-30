@@ -1949,3 +1949,45 @@ oder Olivier de Serres (293) als nächste kurze Positionen, sonst Vasari il
 Giovane/Città ideale (299) als bürorelevanter Idealstadt-Kandidat, oder
 Leonardo da Vinci (257, bisher nie geprüft) vor dem gesamten noch
 ungeprüften antiken Block Homer bis Cicero (S. 9-81).
+
+## Siebenunddreissigster P2-Lauf, Münster und Specklin destilliert, Palladio
+(283) als bereits erledigt bestätigt (30.08.2026, Lane FACHWISSEN)
+
+Vor Laufbeginn `KORPUS-QUEUE.md`, `wiki/INDEX.md` und `CHANGELOG.md` gegen diese Inventardatei
+geprüft: deckungsgleich mit dem 36.-Lauf-Ende, working tree bei Laufbeginn zeigte lediglich eine
+zwischenzeitlich vom NAS-Autocommit nachgezogene, bereits fremdcommittete Fassung von
+`CHANGELOG.md`/`wiki/INDEX.md` (kein eigener Handlungsbedarf, per `git log` verifiziert). Die
+beiden vom 36. Lauf empfohlenen Kandidaten aus `Quellentextband-1.pdf` gerendert (PDF-Seite =
+gedruckte Seite + 4, erneut bestätigt) und gelesen; dabei fiel auf, dass zwischen Münster (S. 282)
+und Specklin (S. 289) auf S. 283-288 bereits ein Palladio-Auszug (Buch III, Brücken/Plätze) liegt —
+Gegenprüfung gegen den 23. Lauf bestätigt: **bereits destilliert**
+([[palladio-strassen-bruecken-plaetze-vier-buecher-1570]]), keine Lücke, kein Doppelfund.
+
+- **Sebastian Münster, Cosmographei** (1550, S. 281-282, «Von der Statt Bern wie die vffgangen
+  ist», vollständig gelesen) → neuer Artikel
+  [[muenster-cosmographei-bern-gruendungssage-flussschlaufe-stadtform-1550]] (Bärenjagd-
+  Gründungssage, Flussschlaufen-Halbinsel als geometrische Determinante der drei Berner
+  Längsgassen, Erbfolgestreit der Zähringer, Freiheitsverleihung Kaiser Friedrichs — deckt sich im
+  Datum mit der bereits vorhandenen Handfeste 1218, liefert dazu die erzählerische Vorgeschichte).
+  Verlinkt mit [[bern-handfeste-1218-satzungenbuch-1405-baulinien-nachbarrecht]].
+- **Daniel Specklin, Architectura von Vestungen** (1589, S. 289-292, Erster Theyl, Kapitel 1,
+  vollständig gelesen) → neuer Artikel
+  [[specklin-architectura-vestungen-standortkriterien-topographia-1589]] (vierfache
+  Standortprüfung Boden/Klima/Wasser/Kriegssicherheit vor jeder Stadt-/Festungsgründung,
+  Nord-/Ost-Ausrichtungsempfehlung gegen «böse Lüfte» aus dem Mittelmeerraum, Begriff der
+  «Topographia» als verbindliches Bestandsaufmass vor jeder Erweiterung, Sternfestungs-Tafel).
+  Auffällige strukturelle Nähe zur rund 1900 Jahre älteren aristotelischen Vierteilung, verlinkt
+  mit [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]].
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach «münster»/«bern» und «specklin»/«vestung» über
+`wiki/*.md`): keine inhaltlichen Duplikate; bestehende Bern-Treffer (Handfeste, Hirschfeld 1769)
+behandeln andere Zeiträume/Aspekte, bestehende Festungsbau-Treffer (Vauban, Renaissance-Idealstadt)
+behandeln spätere bzw. andere Autoren. `git diff --numstat` zeigt für diese Inventardatei reinen
+Append (nur neue Zeilen).
+
+**Von den 54 benannten Positionen der Quellentextband-Anthologie sind jetzt 34 destilliert oder
+begründet ohne Artikel abgeschlossen, 20 bleiben offen.** **Nächster Lauf:** Olivier de Serres
+(293, Théâtre d'Agriculture — Inhalt bislang nur bis S. 294 gesichtet, wirkt eher
+gartenbaulich-horticultural als städtebaulich, Fachlichkeitsprüfung im nächsten Lauf vor
+Destillationsentscheid), sonst Vasari il Giovane/Città ideale (299) oder Leonardo da Vinci (257,
+bisher nie geprüft) vor dem gesamten noch ungeprüften antiken Block Homer bis Cicero (S. 9-81).

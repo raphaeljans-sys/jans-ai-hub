@@ -1807,3 +1807,17 @@ stilkritische Dreiperioden-Klassifikation, Konstantinsbogen-Beispiel).
 Von den 54 benannten Positionen der Anthologie sind jetzt 32 destilliert
 oder begründet ohne Artikel abgeschlossen, 22 vollständig offen. Details
 in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 37. P2-Lauf):** Münster/Cosmographei (S.
+281-282, Berner Gründungssage, Flussschlaufe als Determinante der drei
+Längsgassen) destilliert →
+[[muenster-cosmographei-bern-gruendungssage-flussschlaufe-stadtform-1550]].
+Specklin, Architectura von Vestungen (S. 289-292, vierfache
+Standortprüfung Boden/Klima/Wasser/Kriegssicherheit, Begriff der
+«Topographia» als Bestandsaufmass vor Erweiterung) destilliert →
+[[specklin-architectura-vestungen-standortkriterien-topographia-1589]].
+Dazwischen liegender Palladio-Auszug (S. 283-288) als bereits im 23. Lauf
+destilliert bestätigt ([[palladio-strassen-bruecken-plaetze-vier-buecher-1570]]),
+kein Doppelfund. Von den 54 benannten Positionen der Anthologie sind jetzt
+34 destilliert oder begründet ohne Artikel abgeschlossen, 20 vollständig
+offen. Details in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.

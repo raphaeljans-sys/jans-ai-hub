@@ -3464,3 +3464,26 @@ Raffael-Brief destilliert, Aventinus ohne Artikel (Lane FACHWISSEN)
 - Nächster Lauf: Münster/Cosmographei (281), Specklin (289) oder Olivier de Serres (293) als
   nächste kurze Positionen, sonst Vasari il Giovane/Città ideale (299) oder Leonardo da Vinci
   (257, bisher nie geprüft).
+
+## 2026-08-30 — 37. P2-Lauf Sektion `01_Staedtebau`: Münster und Specklin destilliert, Palladio
+(283) als bereits erledigt bestätigt (Lane FACHWISSEN)
+- Vor Laufbeginn Stand gegen `KORPUS-QUEUE.md`, `wiki/INDEX.md` und `git log` geprüft: deckungsgleich
+  mit dem 36.-Lauf-Ende (die zwischenzeitlich unkommittierte CHANGELOG-/INDEX-Fassung des 36. Laufs
+  war beim Start bereits vom NAS-Autocommit nachgezogen, kein eigener Handlungsbedarf).
+- Neuer Wiki-Artikel aus `Quellentextband-1.pdf` (S. 281-282, Sebastian Münster, Cosmographei,
+  1550): `muenster-cosmographei-bern-gruendungssage-flussschlaufe-stadtform-1550.md` —
+  Bärenjagd-Gründungssage, Flussschlaufen-Halbinsel als geometrische Determinante der drei Berner
+  Längsgassen, Erbfolgestreit der Zähringer.
+- Neuer Wiki-Artikel aus `Quellentextband-1.pdf` (S. 289-292, Daniel Specklin, Architectura von
+  Vestungen, 1589): `specklin-architectura-vestungen-standortkriterien-topographia-1589.md` —
+  vierfache Standortprüfung Boden/Klima/Wasser/Kriegssicherheit vor Stadt-/Festungsgründung,
+  Nord-/Ost-Ausrichtungsempfehlung gegen «böse Lüfte», Begriff der «Topographia» als
+  Bestandsaufmass vor jeder Erweiterung, strukturelle Nähe zur aristotelischen Vierteilung.
+- Dazwischenliegender Palladio-Auszug (S. 283-288) gegen den 23. Lauf geprüft: bereits destilliert
+  ([[palladio-strassen-bruecken-plaetze-vier-buecher-1570]]), keine Lücke.
+- `raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+  Append, `git diff --numstat` geprüft). Von den 54 benannten Positionen der Quellentextband-
+  Anthologie sind jetzt 34 destilliert oder begründet ohne Artikel abgeschlossen, 20 bleiben offen.
+- Nächster Lauf: Olivier de Serres (293, Théâtre d'Agriculture — Fachlichkeitsprüfung
+  städtebaulich vs. rein gartenbaulich noch offen), sonst Vasari il Giovane/Città ideale (299)
+  oder Leonardo da Vinci (257, bisher nie geprüft).
