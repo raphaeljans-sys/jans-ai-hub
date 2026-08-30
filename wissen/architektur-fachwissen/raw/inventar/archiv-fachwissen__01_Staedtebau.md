@@ -2421,3 +2421,39 @@ Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149
 Colonna/Hypnerotomachia (247) — 14 Positionen. **Nächster Lauf:** Livius (95, ab urbe condita,
 Romulus-Gründungssage) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest der
 Liste der Reihe nach.
+
+## Achtundvierzigster P2-Lauf, Livius destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen,
+behauptete erneut «kein Destillat, keine Spec»): `git log` auf diese Datei sowie
+CHANGELOG/`wiki/INDEX.md` zeigten den 47. Lauf (Varro) als letzten committeten Stand,
+`git status` zeigte die vier unversionierten Änderungen des 47. Laufs (CHANGELOG.md,
+diese Inventardatei, `wiki/INDEX.md`, neuer Varro-Artikel) noch ungecommittet, inhaltlich
+deckungsgleich mit dem im 47.-Lauf-Abschnitt dokumentierten Stand — kein Datenverlust.
+`scutil` bestätigt Station Macmini, `ps -o pid,ppid,command` zeigt nur den eigenen
+Prozess (85960→85814-Kette), kein `MERGE_HEAD`.
+
+Die vom 47. Lauf empfohlene erste Priorität (Livius, S. 95) bearbeitet, per
+`/opt/homebrew/bin/pdftoppm` gerendert (PDF-Seite = gedruckte Seite + 4, S. 95-99
+vollständig gelesen):
+
+- **Livius, Ab urbe condita, Buch V, Kapitel 42-55** (S. 95-99) → neuer Artikel
+  [[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]: Zerstörung Roms
+  durch die Gallier 390 v. Chr., die Senatsdebatte Wiederaufbau-vs-Umsiedlung nach Veji,
+  Camillus' Standortrede mit vier expliziten Lagekriterien (Gesundheit der Hügel,
+  Doppelnutzen des Flusses für Binnen- und Seezufuhr, Sicherheitsabstand zum Meer,
+  Zentrallage in Italien) sowie die Schilderung des tatsächlichen Wiederaufbaus ohne
+  Strassenplan unter reiner Fristauflage («man fing an regellos an der Stadt zu bauen»),
+  mit Livius' eigener Gegenüberstellung «in Besitz genommen» versus «vertheilt» als
+  früher Beleg für organische gegenüber geplanter Stadtentstehung. Verlinkt mit
+  [[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]] (zweite, ausführlichere
+  Standortbegründung derselben Stadt), Varro und Polybios-Castrum.
+- Gegen Wiki-Bestand geprüft (`grep -rli` livius/camillus/veji/veii über `wiki/*.md`):
+  kein Treffer ausser dem neuen Artikel selbst, kein Duplikat.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste
+bleibt nach Livius offen: Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125),
+Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149),
+Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247) — 13 Positionen. **Nächster Lauf:** Seneca (105) als
+nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.

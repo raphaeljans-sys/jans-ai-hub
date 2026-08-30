@@ -3872,3 +3872,37 @@ d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achille
 (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) —
 14 Positionen. **Nächster Lauf:** Livius (95, ab urbe condita, Romulus-Gründungssage) als
 nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — 48. P2-Lauf Sektion `01_Staedtebau`: Livius destilliert (Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen): `git log`,
+CHANGELOG-Kopf und `wiki/INDEX.md` zeigten den 47. Lauf (Varro) als letzten committeten
+Stand, `scutil` bestätigt Macmini, kein `MERGE_HEAD`, kein Doppelprozess.
+
+Die vom 47. Lauf empfohlene Priorität (Livius, S. 95) bearbeitet, per
+`/opt/homebrew/bin/pdftoppm` gerendert (PDF-Seite = gedruckte Seite + 4, S. 95-99
+vollständig gelesen):
+
+- **Livius, Ab urbe condita, Buch V, Kapitel 42-55** (S. 95-99) → neuer Artikel
+  [[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]: die Zerstörung
+  Roms durch die Gallier 390 v. Chr., die Senatsdebatte Wiederaufbau-vs-Umsiedlung nach
+  Veji, Camillus' Standortrede mit vier expliziten Lagekriterien (gesunde Hügel,
+  Doppelnutzen des Flusses für Binnen- und Seezufuhr, Sicherheitsabstand zum Meer,
+  Zentrallage in Italien) sowie die Schilderung des tatsächlichen Wiederaufbaus ohne
+  Strassenplan unter reiner Fristauflage («man fing an regellos an der Stadt zu bauen» —
+  Baumaterial frei, Bürgschaft nur auf Fertigstellungstermin, keine Parzellenprüfung),
+  mit Livius' eigener Gegenüberstellung «in Besitz genommen» versus «vertheilt» als frühem
+  Beleg für organische gegenüber geplanter Stadtentstehung sowie der Folgefeststellung,
+  dass alte staatliche Abzugsgräben seither unter Privathäusern liegen. Verlinkt mit
+  [[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]] (zweite, ausführlichere
+  Standortbegründung derselben Stadt), Varro und Polybios-Castrum.
+- Gegen Wiki-Bestand geprüft (`grep -rli` livius/camillus/veji/veii über `wiki/*.md`): kein
+  Treffer ausser dem neuen Artikel, kein Duplikat.
+
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+Append, `git diff --numstat` geprüft: 36 0 auf der Inventardatei). Aus der Namensliste
+bleibt nach Livius offen: Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125),
+Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149),
+Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247) — 13 Positionen. **Nächster Lauf:** Seneca (105) als
+nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.

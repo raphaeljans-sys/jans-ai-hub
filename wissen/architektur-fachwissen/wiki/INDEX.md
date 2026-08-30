@@ -1964,3 +1964,25 @@ und dem Stadtgründungstypen-Artikel. Nach Varro bleiben 14 Positionen
 offen. Nächster Lauf: Livius (95, ab urbe condita, Romulus-Gründungssage),
 sonst der Rest der Liste der Reihe nach. Details in
 `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 48. P2-Lauf):** Livius, Ab urbe condita
+Buch V, 42-55 (S. 95-99: Zerstörung Roms durch die Gallier 390 v. Chr.,
+Camillus' Standortrede gegen die Umsiedlung nach Veji mit vier expliziten
+Lagekriterien — Gesundheit der Hügel, Fluss für Binnen- und Seezufuhr,
+Sicherheitsabstand zum Meer, Zentrallage in Italien —, sowie die
+Schilderung des tatsächlichen Wiederaufbaus ohne Strassenplan unter
+Fristauflage, mit der expliziten Livius-Gegenüberstellung «in Besitz
+genommen» versus «vertheilt») destilliert →
+[[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]].
+Gegen Wiki-Bestand geprüft (`grep -rli` livius/camillus/veji/veii): kein
+Treffer ausser dem neuen Artikel selbst, kein Duplikat. Verlinkt mit
+Cicero/Vom Staatswesen (zweite, ausführlichere Standortbegründung
+derselben Stadt), Varro, Polybios-Castrum und dem
+Stadtgründungstypen-Artikel. Nach Livius bleiben 13 Positionen offen:
+Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125), Tacitus
+(131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149),
+Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159),
+Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Seneca (105) als
+nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste
+der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
