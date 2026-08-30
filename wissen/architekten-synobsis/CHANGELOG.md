@@ -4,6 +4,38 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Charge 1: Burkhardt_Elsa per Ordnerinhalt bestaetigt, Dunkel bleibt offen
+
+Minimalcheck bestaetigte erneut den Nullstand der vier Kern-Prioritaeten (Arbeitsbaum
+sauber, letzter Commit bereits vom Vorlauf, alle vier Punkte laut `wiki/QUESTIONS.md`
+seit 29.08.2026 abgeschlossen) — reiner Wiederholungs-Dispatch. Der vorherige
+Charge-4-NACHTRAG hatte vermerkt, dass von den Sammelfrage-Chargen nur 1 und 2 ihre
+unbestaetigten Namen noch nicht per Ordnerinhalt-Sichtung (nur websuchend) geprueft
+hatten; Charge 2 war zwischenzeitlich am 30.08. bereits per NACHTRAG nachgezogen worden,
+Charge 1 noch nicht. Charge 1 hat von 14 Sammelfrage-Namen nur zwei, die nie ueber
+"wahrscheinlich" hinauskamen (Burkhardt_Elsa, Dunkel) — beide jetzt per NAS-Ordnerinhalt
+gesichtet. **Burkhardt_Elsa bestaetigt:** der Ordner enthaelt genau ein Dokument,
+`Burkhardt_Elsa_Ernst_Badeanstalt_Unterer_Letten.pdf` (Artikel "Der BSA und die Frauen",
+werk, bauen+wohnen 9/2008), dessen Bildunterschrift wortwoertlich "Badeanstalt Unterer
+Letten von Elsa Burckhardt-Blum und Ernst F. Burckhardt, urspruenglich erbaut 1955" nennt
+— Person und Werk direkt aus der Quelle im Ordner selbst belegt, kein Websuche-Vorbehalt
+mehr noetig. **Dunkel bleibt unveraendert offen:** das einzige Ordnerbild (`DSC_3587.JPG`)
+ist eine unbeschriftete Perspektive einer zeitgenoessischen Holzfassaden-Wohnueberbauung
+ohne jede Namens- oder Projektangabe, stilistisch auch nicht zu William Dunkels
+dokumentiertem Werk der 1930er (Neues Bauen) passend — eher ein Indiz gegen als fuer die
+bisherige Vermutung. Damit haben jetzt alle vierzehn Charge-1-Namen sowohl Websuche als
+auch Ordnerinhalt-Sichtung durchlaufen; einzig Dunkel bleibt ohne Beleg, nur aus
+zusaetzlichem Quellordner-Material zu klaeren. NACHTRAG an die bestehende
+Charge-1-Sammelfrage-Zeile in `wiki/QUESTIONS.md` angehaengt (`git diff --numstat`:
+1/1, reine Ergaenzung innerhalb der Zeile, kein Zeilenverlust). Fuer den naechsten Lauf:
+mit Charge 1 und 2 vollstaendig durchlaufen (Websuche + Ordnerinhalt) bleiben als
+Sammelfrage-Rest nur noch die seit Laengerem unveraendert offenen Einzelnamen aus
+Charge 3/4 (Imhof_Edi, Jaeckel_Fabian, Horvat_Paolo, Keles_Oetzguer, La_Pierre_Eric,
+Lazarini_Fenster als Vorbehalts-Kandidat, Mitzutome) — diese wurden bereits mehrfach mit
+denselben Mitteln (Websuche + Ordnerinhalt) erfolglos geprueft; ohne zusaetzliches
+Quellenmaterial im Ordner ist von ihnen kein weiterer Ertrag mehr zu erwarten. Die vier
+Kern-Prioritaeten des Dispatch-Texts bleiben vollstaendig erledigt.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Charge 3: Knorr bestaetigt, zwei weitere Leads praezisiert
 
 Minimalcheck bestaetigte erneut den Nullstand der vier Kern-Prioritaeten (Arbeitsbaum
