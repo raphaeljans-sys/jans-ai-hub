@@ -1,10 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 22:37:51
+Stand: 30.08.2026 22:48:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:37)
-- /Users/raphaeljans  (letzte Aktivitaet 22:37)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:45)
+- /Users/raphaeljans  (letzte Aktivitaet 22:39)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 30.08.2026 22:37:51
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 13f70e9dc nas-selfcommit: 2 Datei(en) 2026-08-30 22:30
+- 6788aa17d Wissens-Destillat 125. Lauf: Zeile 68 (08_Design) fortgesetzt - bellini, 50-60ein, mo1ein

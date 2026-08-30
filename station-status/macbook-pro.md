@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 22:44:13
+Stand: 30.08.2026 22:54:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 22:44:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c34fcbbed Wissens-Destillat archiv-fachwissen: drei Personenartikel (Nurmesniemi, van de Velde, Earl), Zeile 68 fortgesetzt (124. Lauf)
+- 6788aa17d Wissens-Destillat 125. Lauf: Zeile 68 (08_Design) fortgesetzt - bellini, 50-60ein, mo1ein

@@ -5,7 +5,7 @@ ausgabe: HER-CH 2025, verabschiedet durch VSE-Geschäftsleitung 10.02.2025
 gelesen: 2026-07-04 (S. 1-12: Ziel, Definitionen, Ausgangslage/Entwicklung ZEV↔vZEV); 2026-08-24 (S. 13-39 vollständig nachgelesen, A-BLIND-Verifikation: Erheblichkeitsschwelle, Rechte/Pflichten, Kostentragung, Anschluss-Beispiele A1-A3, Checkliste)
 datenstand: Rechtsbasis EnG (30.09.2016) + revidierte EnV, beide Stand 01.01.2025 (Stromgesetz/«Mantelerlass»); ⚠ schnell alternd (LEG-Einführung)
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-08-30
 ---
 
 # ZEV / vZEV — Solarstrom im Mehrfamilienhaus vermarkten (VSE HER-CH 2025)
@@ -118,8 +118,74 @@ bleiben die «hinter dem Anschluss»-Modelle. Ebenso **nicht** im HER: der **PV-
 - **Grenzen:** rein rechtlich/tariflich → Skill `baurecht`; die technische Eigenverbrauchs**optimierung**
   (WP/Lastmanagement, die den Eigenverbrauch physisch hebt) → [[wp-pv-eigenverbrauch-lastmanagement]].
 
+## ⚠ Die amtliche Ebene widerspricht dem HER an drei Stellen (Nachtrag 30.08.2026, Run 169)
+
+**Der Punkt, der in der Beratung zählt:** Das HER ist ein **Branchendokument des VSE, kein Gesetz.**
+Das **Fachsekretariat der ElCom** erklärt drei Bestimmungen der Branchenebene ausdrücklich fuer
+**nicht mit der Gesetzgebung vereinbar**. Wer eine Absage des Netzbetreibers erhält, die sich auf
+eine dieser Ziffern stützt, hat damit ein belastbares Gegenargument in der Hand.
+
+Den Massstab nennt die ElCom selbst: Branchendokumente des VSE werden von ihr angewendet, wenn sich
+die darin enthaltene Lösung als sachgerecht erweist **und** mit der Stromversorgungs- und
+Energiegesetzgebung vereinbar ist (Verweis auf die ElCom-Mitteilung vom 01.02.2010 zur Rechtsnatur
+von Richtlinien und Branchendokumenten). Der Vorbehalt ist also keine Einzelfallkritik, sondern die
+Regel, nach der die Aufsichtsbehörde mit dem HER umgeht.
+
+| Bestimmung | Was die Branchenebene fordert | Was die ElCom dazu sagt |
+|---|---|---|
+| **HER-CH 2025 Ziff. 3.2 (7)** | sämtliche fuer den Eigenverbrauch genutzten Anlagen müssen vom **gleichen Verteilnetzbetreiber** betrieben werden | «Fuer diese Anforderung gibt es nach Auffassung des Fachsekretariates keine gesetzliche Grundlage.» Zusatzvoraussetzungen dieser Art sind weder im EnG noch in der EnV vorgesehen; sind die ZEV-Voraussetzungen erfüllt, **muss** der Netzbetreiber den ZEV umsetzen (Frage 2.13, eingefügt mit Update 30.09.2025) |
+| **HER-CH 2025 Ziff. 4.3 (2)** | die Abnahme- und Vergütungspflicht des VNB gilt **gegenüber dem Zusammenschluss**, die Rückliefervergütung wird dem Zusammenschluss ausgewiesen | Die Pflicht besteht gesetzlich **gegenüber den einzelnen Produzenten**. Die Zusammenfassung nach Art. 18 Abs. 1 EnG gilt nur fuer den **Bezug**, nicht fuer Produktion/Einspeisung; massgebend ist die Anlagendefinition nach Anhang 1.2 Ziff. 1 EnFV. Eine Vergütung an den (v)ZEV ist nicht ausgeschlossen, **müsste aber explizit vereinbart werden** (Frage 2.22) |
+| **BD LEG-CH 2025 Ziff. 4.1 (3) c)** | alle fuer den Stromaustausch verwendeten **Netzebenen und Netzanlagen** müssen vom gleichen VNB betrieben werden | Keine gesetzliche Grundlage; Netzbetreiber müssen die LEG auch dann umsetzen, wenn die mitbenutzte **NE 5** nicht vom selben Betreiber stammt wie die **NE 7**, an der die Teilnehmer hängen (Frage 9.2) |
+
+**Warum das dritte Feld hierher gehört, obwohl die LEG nicht Gegenstand des HER ist:** Es ist
+dieselbe Fehlerklasse in derselben Branchen-Dokumentfamilie — die Forderung «alles beim gleichen
+Netzbetreiber» taucht im HER und im BD LEG parallel auf und wird von der ElCom beide Male gleich
+beurteilt. Wer den einen Fall kennt, erkennt den anderen.
+
+**Praktische Folge fuer ein Areal mit mehreren Hausanschlüssen:** Eine Absage mit der Begründung,
+Anschlussleitung und lokale Infrastruktur gehörten verschiedenen Netzbetreibern, trägt nach
+Auffassung der Aufsichtsbehörde nicht. Der Weg ist, die Absage schriftlich mit Begründung zu
+verlangen und die ElCom-Fundstelle zu nennen. **Vorbehalt:** Die FAQ ist die Auffassung des
+**Fachsekretariats**, nicht eine Verfuegung der Kommission und kein Gerichtsentscheid — sie bindet
+den Netzbetreiber nicht unmittelbar, aber sie sagt, wie die Aufsichtsbehörde einen Streitfall
+beurteilen würde.
+
+**Quelle (alle drei):** ElCom-Fachsekretariat, «Fragen und Antworten zur Energiestrategie 2050
+(insb. Bundesgesetz über eine sichere Stromversorgung mit erneuerbaren Energien vom 29.09.2023,
+Mantelerlass/Stromgesetz)», Erstfassung 04.03.2025, **Stand Update vom 16. Juni 2026** —
+`https://www.elcom.admin.ch/dam/de/sd-web/weRgj22ICsTE/053-00004_20260616_AN_FAQ%20ES2050%20ab%20Mantelerlass_DE.pdf`
+(PDF am 30.08.2026 geladen, Volltext extrahiert, die drei Stellen wörtlich im Hauptmodell
+gegengelesen — nicht aus einer Sekundärquelle übernommen).
+
+## ⚠ Datenstand: der Rechtsstand 01.01.2025 dieses Destillats ist überholt (Nachtrag 30.08.2026)
+
+Das Frontmatter fuehrt den Rechtsstand **01.01.2025** und den Vermerk «schnell alternd». Dieser
+Vermerk hat sich bestätigt: Das **zweite Paket** der Mantelerlass-Bestimmungen ist per
+**01.01.2026** in Kraft getreten. Aus derselben ElCom-Quelle belegt und fuer dieses Destillat
+relevant:
+
+- **Messtarife neu pro Messpunkt** — Art. 17a StromVG (Version vom 01.01.2026, AS 2024 679) tritt
+  per 01.01.2026 in Kraft; die Netzbetreiber erheben neu Messtarife, die kostenorientiert
+  ausgestaltet sein müssen und die anrechenbaren Messkosten nicht übersteigen dürfen. Bis 2025
+  lief die Abgeltung indirekt über das Netznutzungsentgelt. **Das ändert die Kostenseite jeder
+  ZEV-/vZEV-Messkonfiguration** und ist in diesem Destillat noch nicht abgebildet.
+- **Rückliefervergütung** — ab 01.01.2026 gilt der vom BFE publizierte **Referenz-Marktpreis**,
+  ergaenzt um Minimalverguetungen (Art. 15 EnG Version 01.01.2026 i.V.m. Art. 12 EnV, AS 2025 138,
+  und Art. 15 EnFV).
+- **LEG-Ausfuehrungsbestimmungen** — Art. 17d/17e StromVG und Art. 19e bis 19h StromVV, je Version
+  vom 01.01.2026. Die LEG ist damit nicht mehr nur angekündigt, sondern vollzugsreif
+  (→ [[leg-lokale-elektrizitaetsgemeinschaft-2026]]).
+
+**Diese drei Punkte sind hier bewusst nur benannt, nicht ausdestilliert** — sie gehören in einen
+eigenen Lauf am Verordnungstext, nicht in einen Nachtrag an einem HER-Destillat.
+
 ## Offene Punkte
 - **LEG** (Modell, Netzentgelt-Rabatt, Voraussetzungen) — eigenes Branchendokument BD-LEG, noch offen.
+  - **Praezisierung 30.08.2026:** Das Branchendokument existiert und heisst **«BD LEG-CH 2025»**
+    (Branchenempfehlung «Lokale Elektrizitaetsgemeinschaften»); seine Ziffer 4.1 (3) c) wird von
+    der ElCom als gesetzeswidrig beurteilt (siehe Tabelle oben). Belegt ueber die ElCom-FAQ,
+    Frage 9.2 — das Dokument selbst ist noch **nicht** in dieser KB gelesen. Der offene Punkt
+    bleibt damit offen, ist aber jetzt benannt statt vermutet.
 - ✓ **Rp/kWh-Preisregel gegenueber Mietern ist NICHT (mehr) offen** — separat destilliert und beziffert in
   `[[zev-mieter-strompreis-eigenverbrauch]]` (80-%-Pauschale bzw. Gestehungskosten-Modell); dieser Punkt war
   hier bis 24.08.2026 faelschlich noch als offen gefuehrt.

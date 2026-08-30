@@ -5,7 +5,7 @@ ausgabe: PDF, 22 Seiten, vollständig via curl-Download + pdftotext -layout gele
 gelesen: 2026-07-13 (Run 56, vollständig S. 1-22 inkl. Anhang 4 Fallbeispiel)
 datenstand: 1. November 2024 (Version der Vollzugshilfe; Schallleistungspegel-Basis LWA2°C gilt seit diesem Datum). Planungswerttabelle Anhang 6 LSV ergaenzt 2026-07-14 via ortsplanung.ch (Sekundaerquelle, Fedlex-Primaertext JS-gerendert und per WebFetch/curl nicht extrahierbar) + unabhaengige WebSearch-Synthese, beide Quellen zahlengenau deckungsgleich
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-08-30 (Run 169, Begleitdokument-Prüfung; zuvor 2026-07-14)
 ---
 
 # Wärmepumpen-Lärmschutz — Grenzwerte, Berechnung, Fallbeispiel (Cercle Bruit Vollzugshilfe 6.21)
@@ -155,5 +155,37 @@ keine Rechercheluecke — analog zu `kantonsrat.zh.ch` in `[[zh-energiegesetz-re
 - Offen: eine **systematische Rechtsprechungsabfrage** (search.bger.ch, Volltext) zu
   Wärmepumpen-Lärm 2025/2026 wurde nicht durchgeführt — die Websuche fand keine einschlägige
   Praxisänderung, das ist aber ein schwacher Negativbefund, kein Nachweis. → E-R163-2
+
+**Nachtrag 30.08.2026 (Run 169, Begleitdokument-Prüfung).** Kernstand bestätigt, dazu zwei
+wertvolle Querverweise neu, alle Quellen abgerufen am 30.08.2026:
+
+- Vollzugshilfe 6.21 bleibt in der deutschen Fassung auf dem Stand 01.11.2024, kein Erratum,
+  keine Version 2 (https://www.cerclebruit.ch/?inc=enforcement&e=6%2F621.html). Die
+  französische und die italienische Fassung tragen das Datum 01.02.2025; das ist dieselbe
+  Version in späterer Übersetzung, keine neue Ausgabe.
+- Neuer Querverweis: die übergeordnete Schwester-Vollzugshilfe 6.20 «Lärmrechtliche Beurteilung
+  von Heizungs-, Lüftungs-, Klima- und Kälteanlagen» (HLKK):
+  https://www.cerclebruit.ch/enforcement/6/CB_Vollzugshilfe_620_HLKK-Anlagen_DE.pdf. Vollzugshilfe
+  6.21 ist deren Spezialisierung für Wärmepumpen.
+- Neuer Querverweis: Bundesgerichtsurteil 1C_83/2024 vom 21.03.2025, Volltext gelesen
+  (http://relevancy.bger.ch/php/aza/http/index.php?highlight_docid=aza://21-03-2025-1C_83-2024&lang=de&type=show_document).
+  Es bestätigt die Methode: das BAFU wurde angehört und bestätigte die Plausibilität einer nach
+  Vollzugshilfe 6.21 geführten Berechnung samt Richtwirkungskorrektur einspringende Ecke (9 dB).
+  Materiell wichtigste Präzisierung für die Beratung: Nachbarn haben keinen Anspruch darauf, dass
+  die Wärmepumpe am für sie immissionsärmsten Ort steht (E. 3.3.4); das Vorsorgeprinzip zielt auf
+  die Emissionsbegrenzung an der Quelle, nicht auf die Immissionsminimierung bei einem bestimmten
+  Nachbarn. Das Urteil bestätigt Art. 7 Abs. 3 LSV (1 % der Investitionskosten bzw. mindestens
+  3 dB) und stützt sich auf die Leitentscheidung 1C_569/2022 vom 20.02.2024.
+- Terminologie-Präzisierung: die FWS-Quelle heisst amtlich «Schalldaten-Verzeichnis»
+  (https://www.fws.ch/schalldaten-verzeichnis/), nicht «Schallleistungspegel-Liste» oder
+  «Gütesiegel-Verzeichnis»; die Werte sind Herstellerangaben ohne unabhängige FWS-Prüfung. Das
+  Lärmschutznachweis-Webtool unter https://www.fws.ch/laermschutznachweis/ ist aktiv und
+  kostenlos.
+- Negativbefund mit Suchweg: keine BAFU-Vollzugshilfe speziell zu Wärmepumpen-Lärm gefunden; die
+  BAFU-Vollzugshilfe «Ermittlung und Beurteilung von Industrie- und Gewerbelärm» (Stand 2024,
+  publiziert 06.02.2025) verweist für Wärmepumpen ausdrücklich auf Cercle Bruit 6.21. Die
+  amtliche Ebene bestätigt damit die Branchenebene, kein Widerspruch. LSV Anhang 6 unverändert:
+  die konsolidierte Fassung vom 01.04.2026 bleibt die aktuellste (Fedlex-Filestore-Snapshots
+  20260701 und 20260801 liefern keine PDF).
 
 **Backlinks:** [[waermepumpe-systemvergleich]] · [[heizleistung-und-waermeerzeuger]]

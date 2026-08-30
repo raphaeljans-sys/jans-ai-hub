@@ -5,7 +5,7 @@ ausgabe: Web-Recherche, amtliche Kantons-/Stadt-Webseiten
 gelesen: 2026-07-14 (Run 66)
 datenstand: 2026-07-14 (Web-Recherche, keine explizit datierten Formulare ausser Gesuchsformular AWEL 400-003 Stand 06.2024)
 status: established (Kernstruktur; die ZH-Bewilligungs- und Gebührenrechtsgrundlage wurde vom Wissens-Chef in Run 20 auf geltendes Recht umgestellt: § 44 Abs. 1 lit. a Ziff. 3 und lit. f WsG, § 92 WsV, Gebühr über § 209 WsV mit Verweis auf die GebV UR. Die in Run 67 verifizierten § 35/§ 69 KGSchV (LS 711.11) sind per 01.01.2022 aufgehoben und nur noch historisch, bis 31.12.2021, einschlägig; Details im Korrekturkasten). Fassungsstand GebV UR (LS 710.2, Nachtrag 075) und Gebührenordnung für die Verwaltungsbehörden 30.06.1966 (LS 682, Nachtrag 099) am 23.08.2026 gegen die amtliche zh.ch-Erlassseite verifiziert, beide aktuell (schliesst E-R20-2/E-R20-3). GSchG Art. 19–22 / GSchV Art. 29/32 am 24.08.2026 direkt am Fedlex-Primärtext verifiziert (kein Abweichungsfund, A-BLIND-Fall 2). Weiterhin offen: SZ-Kostenpunkt und exakte Verfahrensfrist als verbindliche Norm (kantonales Recht SZ, nicht Bundesrecht)
-last_updated: 2026-08-24 (GSchG/GSchV-Wortlaut am Fedlex-Primärtext verifiziert, A-BLIND; zuvor 2026-08-23 E-R20-2/E-R20-3, 2026-07-29 Wissens-Chef Run 20, Fachstand Run 67)
+last_updated: 2026-08-30 (Run 169, Begleitdokument-Prüfung; zuvor 2026-08-24 GSchG/GSchV-Wortlaut am Fedlex-Primärtext verifiziert, A-BLIND; 2026-08-23 E-R20-2/E-R20-3, 2026-07-29 Wissens-Chef Run 20, Fachstand Run 67)
 ---
 
 # Erdwärmesonden — Bewilligungsverfahren Kt. Zürich und Kt. Schwyz
@@ -180,6 +180,41 @@ eine Zahl gegenüber dem Bauherrn kommuniziert wird.
   (CHF 200–1'000, «mehrere Wochen») bewusst nicht übernommen.
 - SZ: genaue kantonale Rechtsgrundlage (Pendant zur ZH-BVV) nicht identifiziert — sz.ch verweist nur
   auf die Bundesvollzugshilfe «Wärmenutzung aus Boden und Untergrund».
+
+**Nachtrag 30.08.2026 (Run 169, Begleitdokument-Prüfung).** Vier bisher nicht zitierte amtliche
+Begleitquellen sowie vier bestätigte Negativbefunde, alle abgerufen am 30.08.2026:
+
+- AWEL «Planungshilfe Energienutzung aus Untergrund und Grundwasser» (20 Seiten):
+  https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/energienutzung-aus-untergrund-und-wasser/mehr-zum-thema/planungshilfe_waermenutzung.pdf.
+  Auf einer AWEL-Seite als «AWEL 2010» ausgewiesen; übernimmt funktional die Rolle einer
+  Wegleitung, trägt diesen Begriff selbst aber nicht.
+- AWEL-Infobrief «Änderungen Bewilligungspraxis bei Erdwärmesondenbohrungen ab Mai 2023»:
+  https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/energienutzung-aus-untergrund-und-wasser/Infobrief%20%C3%84nderungen%20Mai23.pdf.
+- Wärmenutzungsatlas Kanton Zürich, interaktives Kartentool mit Zulässigkeitsklassen und
+  Tiefenbeschränkungen (Zonen B bis F, Zone A läuft über den OEREB): https://maps.zh.ch/?topic=AwelGSWaermewwwZH.
+- Kanton Schwyz, «Wärmenutzungskarte» des Amts für Umwelt und Energie:
+  https://www.sz.ch/verwaltung/umweltdepartement/amt-fuer-umwelt-und-energie/geodaten/waermenutzungkarte.html/8756-8758-8802-9447-9453-10768-10814
+  (Kartentools https://map.geo.sz.ch/s/sz_webgis_7PXdNK und
+  https://map.geo.sz.ch/s/sz_webgis_ZxOybe). Schliesst die oben offen geführte SZ-Lücke nur
+  teilweise: die Karte ist ein Vollzugswerkzeug, keine Rechtsgrundlage.
+- Randbefund, ausserhalb des Themas dieses Destillats: für erdoberflächennahe Erdwärme
+  (Erdregister, Wärmekörbe, Energiepfähle) führt das AWEL ein eigenes Gesuchsformular, Stand
+  6_2022, ohne 400er-Nummer, ausdrücklich nicht für Erdsonden:
+  https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/energienutzung-aus-untergrund-und-wasser/oberflaechennahe-erdwaerme/gesuchsformular_oberflaechennahe_erdwaerme.pdf.
+
+Negativbefunde mit Suchweg, damit ein künftiger Lauf die Suche nicht wiederholt:
+
+- AWEL-Gesuchsformular 400-003 bleibt Stand 06.2024 (PDF-Fusszeile «400-003-gesuch_ews / AWEL /
+  06. 2024», PDF-ModDate 27.06.2024), keine neuere Fassung gefunden; zh.ch verlinkt nur diese.
+  Geprüft: zh.ch-Seite «Erdwärmesonden», WebSearch nach 400er-Formularen.
+- Keine eigenständigen nummerierten AWEL-400er-Formulare für Bohranzeige, Abnahme,
+  Ausserbetriebnahme/Rückbau oder Wärmeentzugsleistung gefunden; diese Vorgänge laufen als
+  Beilage zum Gesuch bzw. über die kommunale WTA-Meldung.
+- BAFU-Vollzugshilfe «Wärmenutzung aus Boden und Untergrund» bleibt die Ausgabe vom 10.07.2009
+  (UV-0910-D), keine Neuauflage gefunden, doppelt belegt über die BAFU-Publikationsseite und über
+  das AWEL-Formular 400-003 selbst, das 2024 noch die Ausgabe 2009 als geltende Referenz zitiert.
+- ZH-Rechtsgrundlagen WsG (LS 724.1) und WsV (LS 724.11) unverändert: zhlex führt für beide
+  weiterhin Nachtrag 133, in Kraft seit 01.06.2026, also derselbe Stand wie im Destillat oben.
 
 ## Quellen
 
