@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 09:01:17
+Stand: 30.08.2026 09:11:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 09:00)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 09:01:17
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 731e0f491 nas-selfcommit: 1 Datei(en) 2026-08-30 09:00
+- 75813980b Hub-Chef 30.08.: Briefing gesendet, Register + Logbuch nachgefuehrt, WEGE um Gastzugriff-Verlaengerung (Sackgassen, Expiration-Feld-Korrektur) ergaenzt
