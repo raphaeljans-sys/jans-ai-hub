@@ -122,10 +122,17 @@ Spritzguss-Kunststoffstuhl, Fritz Hansen/Vitra/Herman Miller). Drei neue Artikel
 Arad, Ready-made-Möbel aus Altmaterial, One-Off, Übergang zur Serienfertigung bei Vitra/
 Moroso) gelesen, drei neue Artikel, dazu Rückverlinkung im bestehenden Terragni-Artikel
 ergänzt (italienische Möbeldesign-Zeitachse Bugatti→Terragni→Sottsass). Damit 34 von 128
-Fliesstext-Dateien der Zeile 68 gelesen, rund 67 Personenartikel bleiben offen. **Nächster
-Lauf:** Zeile 68 fortsetzen nach Dateigrösse unter den verbleibenden ungelesenen Positionen
-(u. a. `mariscal.htm`, `brandt.htm`, `pesce.htm.htm`, `nizzoli.htm`, `colombo.htm`,
-`0tto_wagner.htm`, `nelson.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2. |
+Fliesstext-Dateien der Zeile 68 gelesen, rund 67 Personenartikel bleiben offen. **112. Lauf
+(30.08.2026):** drei kleinste verbliebene Dateien gelesen — `mariscal.htm` (Javier Mariscal,
+spanisches Post-Franco-Design, Memphis-Anschluss 1981, Maskottchen Barcelona 1992),
+`brandt.htm` (Marianne Brandt, Bauhaus-Metallwerkstatt, Serienproduktions-Prinzip,
+Alessi-Reeditionen) und `pesce.htm.htm` (Gaetano Pesce, radikales Design, Serie «Up» 1969,
+Polyurethan-Material-Experimente). Drei neue Artikel, dazu Rückverlinkung im
+Sottsass-Artikel ergänzt (Mariscal/Pesce als Memphis-/Anti-Design-Zeitgenossen). Damit 37
+von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 64 Personenartikel bleiben offen.
+**Nächster Lauf:** Zeile 68 fortsetzen nach Dateigrösse unter den verbleibenden ungelesenen
+Positionen (u. a. `nizzoli.htm`, `colombo.htm`, `0tto_wagner.htm`, `nelson.htm`,
+`teague.htm`, `postmoderne.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2. |
 `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)

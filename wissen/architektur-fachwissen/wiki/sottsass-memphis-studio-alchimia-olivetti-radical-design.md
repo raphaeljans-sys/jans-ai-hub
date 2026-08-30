@@ -3,7 +3,7 @@ title: "Ettore Sottsass: Olivetti, Studio Alchimia, Memphis-Gruppe, Radical Desi
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/sottsass.htm"]
-links: ["italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich"]
+links: ["italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "javier-mariscal-spanisches-postfranco-design-memphis-barcelona", "gaetano-pesce-radikales-design-polyurethan-serienunikate"]
 ---
 
 # Ettore Sottsass: Olivetti, Studio Alchimia, Memphis-Gruppe, Radical Design
@@ -58,7 +58,11 @@ Formen, Rückgriff auf antike Architektur und Fünfziger-Jahre-Kitsch gleicherma
 Schlüsselstücke: Sideboard **«Casablanca»** (1981, Abet-Print-Laminat mit von Sottsass
 entwickeltem «Bakterien-Muster», gilt laut Quelle als Symbol des postmodernen Designs),
 Sideboard **«Carlton»** (Raumteiler-Funktion). Internationale Mitausstellende: Javier
-Mariscal, Shiro Kuramata, Hans Hollein, Arata Isozaki, Michael Graves.
+Mariscal (eigener Artikel [[javier-mariscal-spanisches-postfranco-design-memphis-barcelona]],
+Einladung Sottsass' nach dessen Barcelona-Besuch 1981), Shiro Kuramata, Hans Hollein, Arata
+Isozaki, Michael Graves. Verwandter, aber eigenständiger italienischer Anti-Design-Zweig:
+[[gaetano-pesce-radikales-design-polyurethan-serienunikate]] (Material-/Fertigungs-Experiment
+statt Memphis-Dekor).
 
 ## Spätwerk
 
