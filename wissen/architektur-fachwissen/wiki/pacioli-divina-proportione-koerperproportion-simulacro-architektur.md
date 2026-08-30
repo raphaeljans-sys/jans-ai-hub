@@ -3,7 +3,7 @@ title: "Luca Pacioli, De Divina Proportione (1509): Körperproportion als Simula
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 255-256 (Luca Pacioli, «De Divina Proportione», Teil II, Kapitel 1: «Della mesura e proporzioni del corpo umano: della testa e altri suoi membri, simulacro de l'architettura», italienisches Original ohne beigegebene deutsche Übersetzung in dieser Anthologie, gescannte Buchseiten ohne Textebene, per Bildrendering (`pdftoppm`) direkt gelesen), hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, vollständig gelesen"]
-links: ["[[francesco-di-giorgio-martini-stadtkoerper-proportionslehre-anthropometrie]]", "[[renaissance-idealstadt-typologie-filarete-alberti-duerer]]", "[[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]]"]
+links: ["[[francesco-di-giorgio-martini-stadtkoerper-proportionslehre-anthropometrie]]", "[[renaissance-idealstadt-typologie-filarete-alberti-duerer]]", "[[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]]", "[[francesco-colonna-hypnerotomachia-poliphili-rundtempel-proportionsgeometrie-drainage]]"]
 ---
 
 # Luca Pacioli: De Divina Proportione — Körperproportion als Simulacrum der Architektur
@@ -82,4 +82,9 @@ di Giorgio Martinis Stadtkörper-Proportionsmethode berufen. Pacioli liefert
 die explizite Stadt-Zitadelle-Kopf-Analogie in einer eigenständigen, von
 Francesco di Giorgio Martini unabhängigen Quelle — dieselbe Grundfigur
 (Kopf = Zitadelle einer belagerten Stadt) taucht bei beiden Autoren auf,
-ohne dass der eine Text den anderen zitiert.
+ohne dass der eine Text den anderen zitiert. Wenige Buchseiten vor Paciolis
+Körperproportion liegt in derselben Anthologie eine dritte, geometrische
+Spielart derselben Proportionssuche: die Kreis-im-Quadrat-Konstruktion des
+Rundtempels bei Colonna (vgl.
+[[francesco-colonna-hypnerotomachia-poliphili-rundtempel-proportionsgeometrie-drainage]]),
+dort nicht am Körper, sondern rein zirkelgeometrisch hergeleitet.

@@ -3,7 +3,7 @@ title: "Francesco di Giorgio Martini, Trattato di architettura civile e militare
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 251-254 (Francesco di Giorgio Martini, Trattato di architettura civile e militare, italienisches Original ohne beigegebene deutsche Übersetzung in dieser Anthologie, gescannte Buchseiten, per OCR gelesen, vollständig gelesen)"]
-links: ["[[al-farabi-musterstaat-gesellschaftshierarchie-koerper-metapher]]", "[[renaissance-idealstadt-typologie-filarete-alberti-duerer]]", "[[palladio-strassen-bruecken-plaetze-vier-buecher-1570]]", "[[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]]"]
+links: ["[[al-farabi-musterstaat-gesellschaftshierarchie-koerper-metapher]]", "[[renaissance-idealstadt-typologie-filarete-alberti-duerer]]", "[[palladio-strassen-bruecken-plaetze-vier-buecher-1570]]", "[[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]]", "[[francesco-colonna-hypnerotomachia-poliphili-rundtempel-proportionsgeometrie-drainage]]"]
 ---
 
 # Francesco di Giorgio Martini: Stadt-Körper-Proportionslehre
@@ -142,4 +142,7 @@ als **Konstruktionsmethode** (nicht nur Bild) — anschlussfähig an
 Diskussionen über organische versus geometrische Stadtformen und an die
 Dinocrates-Rezeption bei Vitruv. Ergänzt den Al-Farabi-Artikel um die rund
 500 Jahre spätere, italienisch-renaissancehafte Ausformulierung derselben
-Grundanalogie.
+Grundanalogie. Verwandtes Proportionsdenken, aber am Einzelbauwerk statt an
+der Stadt: die Kreis-im-Quadrat-Teilung des Rundtempels bei Colonna (vgl.
+[[francesco-colonna-hypnerotomachia-poliphili-rundtempel-proportionsgeometrie-drainage]]),
+derselben Anthologie rund 20 Buchseiten weiter entnommen.
