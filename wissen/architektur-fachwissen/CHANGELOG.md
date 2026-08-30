@@ -1,5 +1,33 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf, erster Lauf Architektenportraits-Ordner (81. Lauf, Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `git log`/`git status`, Inventardatei). Der 80. Lauf
+(Sauter-Kapitel 11 Moderne-Postmoderne) war beim Start dieses Laufs bereits abgeschlossen,
+aber noch unkommittiert im Working Tree; der 15-Min-Cron hat ihn während der Stand-Ermittlung
+dieses Laufs selbständig committet (`e1ff9ccf2`), kein Eingriff nötig. `ps -eo pid,ppid,command`
+bestätigte nur einen laufenden `claude -p`-Prozess (kein Doppel-Dispatch), `scutil` bestätigte
+Macmini.
+
+Sektion `02_Architekturgeschichte`, Ordner `00_Allgemein/01_Architektenportrait/alles/`
+(41 Dateien, 39 Einzelportraits Brunelleschi bis Sullivan im einheitlichen Format Leben/Werk,
+eigenständige Sammlung ausserhalb des Sauter/hta-Luzern-Skripts). Vor der Auswahl
+Duplikatscheck (`grep -lir <Name> wiki/*.md`) für alle 39 Namen ausgeführt: die grossen Namen
+(Brunelleschi, Alberti, Bramante, Palladio, Wright, Semper, Schinkel, Ledoux, Vignola, Neumann,
+Fischer von Erlach, Ruskin, Morris, Sullivan, Garnier) sind bereits mehrfach in dieser KB
+behandelt und zurückgestellt; neun Portraits mit null oder kaum Vorkommen gelesen und
+destilliert: Michelozzo di Bartolomeo, Luciano Laurana, Bernardo Rossellino, Gian Lorenzo
+Bernini, Francesco Borromini, Claude Perrault, Johann Lucas von Hildebrandt, Jacques-Germain
+Soufflot, Giulio Romano → konsolidiert zu einem Artikel
+[[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]]
+mit Leben/Werk je Person und Quellenangabe (Datei + Seite). Bei `21_soufflot.pdf` ein
+Quellenwiderspruch unkorrigiert dokumentiert (Titelzeile 1713-1780, Fliesstext «starb 1781»).
+Alle geprüften Lebensdaten sonst korrekt (keine weitere Abweichung wie beim bekannten
+Semper-Datierungsfehler gefunden). Inventardatei um Erledigt-Vermerk ergänzt, `git diff
+--numstat` zeigte für alle vier geänderten Dateien reinen Append bzw. minimale Zellen-Updates
+in `KORPUS-QUEUE.md`/`INDEX.md`. **30 der 39 Einzelportraits bleiben offen**, Liste im neuen
+Artikel und in der Inventardatei. Sicherung über `nas-commit-now.sh`.
+
 ## 2026-08-30 — P2-Lauf, Sauter-Kapitel `05 HEIMATSTIL GARTENSTADTBEWEGUNG` (74. Lauf, Lane FACHWISSEN)
 
 Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, Inventardatei), Dispatch-Text

@@ -764,3 +764,18 @@ Architekten und Bauwerke.
 Zeile 207/244 oben — mindestens ein belegter Datierungsfehler bereits bekannt), danach
 `Fragen.doc`, Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51) und `Moderne.pdf`
 (Duplikatsprüfung gegen bestehende Semper-Artikel nötig vor Bearbeitung).
+
+## 260830 — erster Lauf `01_Architektenportrait` (81. Lauf Lane FACHWISSEN)
+
+Von den 41 Dateien (39 Einzelportraits + `architekten_kaertli.pdf` + `Sammelmappe2.pdf`) neun
+Einzelportraits gelesen und destilliert (Auswahl nach Neuheitswert, Duplikatscheck gegen
+bestehende Wiki-Artikel zuerst): Michelozzo di Bartolomeo, Luciano Laurana, Bernardo
+Rossellino, Gian Lorenzo Bernini, Francesco Borromini, Claude Perrault, Johann Lucas von
+Hildebrandt, Jacques-Germain Soufflot, Giulio Romano → konsolidiert in
+[[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]].
+Bei `21_soufflot.pdf` Quellenwiderspruch unkorrigiert dokumentiert (Titel 1713-1780,
+Fliesstext «starb 1781»). **30 Einzelportraits bleiben offen**, Liste im neuen Artikel unter
+«Offene Portraits dieser Sammlung». `git diff --numstat` zeigt für diese Inventardatei einen
+reinen Append. **Nächster Lauf:** weitere Einzelportraits nach demselben
+Duplikatscheck-Kriterium, danach wie gehabt `Fragen.doc`, Rest von
+`Renaissance-Zusammenfassung.pdf` und `Moderne.pdf`.
