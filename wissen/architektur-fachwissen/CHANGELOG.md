@@ -1,5 +1,33 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern`, zweiter P2-Lauf (Lane FACHWISSEN)
+
+Vor Arbeitsbeginn unkommittierte Vorlauf-Änderungen (erster P2-Lauf, Di Stefano/Sullivan)
+vorgefunden und per `nas-commit-now.sh` zu sichern versucht — erneuter bekannter
+NAS-Merge-Konflikt in sechs fremden KBs (`normen`, `architekten-synobsis`, `baurecht`,
+`grobkosten`, `KORPUS-QUEUE.md` sowie in dieser KB selbst), Working Tree lokal unverändert
+(kein `MERGE_HEAD`), dem 15-Min-Cron überlassen. `ps aux`/`scutil` vorab geprüft: nur ein
+laufender `claude -p`-Prozess für diese Lane, Hostname Macmini, keine Doppel-Instanz.
+
+Danach das laut Vorlauf nächste Element bearbeitet: das Rowe/Koetter-«Collage-City»-Konvolut
+(`04_Texte/00_ugueltig/Rowe_Colin_Collage_City/`, 5 PDF) vollständig gelesen (PyMuPDF, kein
+Originaltext im Bestand, nur vier eigenständige studentische Lesenotizen — zwei der fünf
+Dateien sind ein MD5-Duplikat). Zu einem Artikel verdichtet:
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]] (`status: speculative`).
+Kerninhalte: Figur-Grund-Umkehrung (Unité d'Habitation als Negativ der Uffizien, Parma gegen
+St-Dié, Haussmann-Paris gegen Amsterdam-Süd), Bricolage/Fuchs-Igel nach Isaiah Berlin
+(Le Corbusier als Fuchs, der glaubt Igel zu sein), «Stadt als Museum» (München unter
+Ludwig I./Klenze als Formenvielfalt-Beispiel), Collage-als-Methode über Picasso (Stierkopf,
+Stuhlgeflecht) und zwei konkurrierende Zeitbegriffe. Gegen den Wiki-Bestand geprüft — kein
+Duplikat, verlinkt mit [[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]]
+(Rowe als Vermittler der Wittkower-Methodik an Eisenman) und
+[[rossi-analoge-architektur-typus-piranesi-eth-lehrzeit]] (komplementäre
+Stadtelement-Theorie). Sperrlisten-Prüfung: kein Fund. Details/Erledigt-Markierung
+`raw/inventar/archiv-fachwissen__10_Protomodern.md`.
+
+Damit sind 30 der 33 P2-Positionen dieser Sektion offen. Nächster Lauf: Šik-Interview
+(`09_Die_athmospherische_Stadt/Eine Stadt ist mehr als eine Galerie.pdf`, ETH-Life, kurz).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern`, erster P2-Lauf (Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`

@@ -198,3 +198,19 @@ Fundstelle wiedergegeben statt grossflächig zitiert).
 Šik-Interview, der Caruso-Reader-Auszug, elf weitere kurze Eigen-DOCX sowie die
 Wikipedia-/Wiktionary-Begriffsblätter plus Sgraffito-Sammlung. Nächster Lauf: Rowe/Koetter
 «Collage City» (5 PDF, `04_Texte/00_ugueltig/Rowe_Colin_Collage_City/`).
+
+**Zweiter P2-Lauf 30.08.2026 (Lane FACHWISSEN).** Das Rowe/Koetter-«Collage-City»-Konvolut
+vollständig gelesen (PyMuPDF, alle 5 PDF): `collage-ref.pdf` und
+`collage-ref_zusammenfassung.pdf` sind ein MD5-Duplikat (identischer Text, Zusammenfassung
+Georg Fast 2004), verbleiben also 4 inhaltlich eigenständige Lesenotizen zum selben Buch
+(Fast 2004, «Alex» undatiert, M. Henggeler 2007 nur Kapitel 2, unbekannte Verfasserschaft mit
+allen vier Kapiteln). Zu einem Artikel verdichtet → **erledigt** →
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]] (`status: speculative`, keine
+Quelle ist der Originaltext). Gegen bestehende Artikel geprüft — kein Duplikat, verlinkt mit
+[[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]] und
+[[rossi-analoge-architektur-typus-piranesi-eth-lehrzeit]]. Sperrlisten-Prüfung: kein Fund
+(publizierter Fachtext plus studentische Sekundärlesungen, keine Personendaten). Damit sind
+**30 der 33 P2-Positionen** dieser Sektion offen: das Šik-Interview, der Caruso-Reader-Auszug,
+elf weitere kurze Eigen-DOCX sowie die Wikipedia-/Wiktionary-Begriffsblätter plus
+Sgraffito-Sammlung. Nächster Lauf: Šik-Interview `09_Die_athmospherische_Stadt/Eine Stadt ist
+mehr als eine Galerie.pdf` (ETH-Life, kurz, schnell erschliessbar).
