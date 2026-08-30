@@ -3592,3 +3592,26 @@ Harmlos bei entspanntem Kontingent, aber es ist die Messgrundlage jeder Drossel-
 **Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
 Kontingent-Erschoepfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag oder Aufwand ohne
 Wissenszuwachs.
+
+## 2026-08-30 07:15 CEST — Rohblock (Messung zuerst, Bewertung folgt unten)
+
+**Tagesverbrauch teuer / total (Mio Token), beide Stationen, rekursives Glob inkl. Subagenten:**
+
+MacBook Pro: 23.08. 18.50/458.66 · 24.08. 8.65/214.98 · 25.08. 7.89/178.59 · 26.08. 7.02/159.88 ·
+27.08. 8.60/189.52 · 28.08. 8.88/236.61 · **29.08. 9.52/222.30** · 30.08. (bis 07:15) 1.71/45.65.
+
+Mac Mini (gemessen ueber den Alias `ssh mini`, nativ): 23.08. 53.17/1710.92 · 24.08. 46.70/1611.21 ·
+25.08. 2.88/83.14 · 26.08. 1.18/44.81 · 27.08. 1.11/26.38 · 28.08. 2.20/82.06 ·
+**29.08. 29.84/679.38** · 30.08. (bis 07:15) **18.38/348.17**.
+
+**Summe beider Stationen 29.08.: 39.37 Mio teuer — Kriterium (b) gerissen** (Schwelle ~35 Mio an
+einem Tag). Der Mini springt nach fuenf ruhigen Tagen (1.1-2.9 Mio) auf 29.84 Mio und liegt heute
+um 07:15 bereits bei 18.38 Mio. Typisierung und Bewertung folgen unten.
+
+**Blockade-Status: keine Limit-Fehlerereignisse** auf beiden Stationen, strukturell geprueft
+(isApiErrorMessage / type=error / apiErrorStatus 429 in Verbindung mit Limit-Text) ueber 570
+Dateien MacBook Pro und 1'680 Dateien Mac Mini im 9-Tage-Fenster.
+
+Messzeitpunkt 30.08.2026 07:15 CEST, Fenster 9 Tage nach mtime vorgefiltert, je Zeile nach
+timestamp[:10] gegen ein explizites 8-Tage-Fenster gefiltert, Duplikate ueber
+(message.id, requestId) ausgeschlossen.
