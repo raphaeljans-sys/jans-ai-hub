@@ -1,5 +1,29 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, vierundzwanzigster P2-Lauf (Descartes und Ludwig XIV. aus `Quellentextband-1.pdf` destilliert, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn geprüft, ob in diesem oder einem der 22 anderen inventarisierten
+`architektur-fachwissen`-Sektionen noch offene P1-Positionen bestehen: keine gefunden
+(alle P1 abgeschlossen oder aus dokumentiertem Grund blockiert, s. Inventar
+`03_Bauprozesse_I_II`). Die beiden vom 23. Lauf empfohlenen kurzen Auszüge aus
+`Quellentextband-1.pdf` destilliert:
+
+- Descartes, «Abhandlung über die Methode des richtigen Vernunftgebrauchs» (1637,
+  zweites Kapitel, S. 307-308): Ein-Baumeister-Argument gegen gewachsene
+  Stadtstruktur (Analogie Gebäude/Gesetzgebung, Beispiel Sparta) → neuer Artikel
+  [[descartes-methode-architektonische-einheitsplanung-organisches-wachstum]].
+- Ludwig XIV., «Manière de montrer les Jardins de Versailles» (1689, S. 313-316):
+  eigenhändiges Regieskript für die Gartenbesichtigung Versailles in 25 nummerierten
+  Schritten (Bewegung + exakter Betrachtungspunkt/Blickziel) → neuer Artikel
+  [[ludwig-xiv-versailles-gartenfuehrung-choreographierte-besichtigungsroute]],
+  verlinkt mit dem bestehenden Achsensystem-Artikel
+  [[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]].
+
+Gegen Wiki-Bestand geprüft (`grep -ril`), keine Duplikate. `git diff --numstat` zeigt
+reinen Append auf Inventardatei, `wiki/INDEX.md`. Von den ca. 50
+Quellentextband-Auszügen sind jetzt zehn destilliert, rund 36 bleiben offen. Nächster
+Lauf: Campanella («La Città del Sole») oder Dézallier d'Argenville (Gartentheorie).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, dreiundzwanzigster P2-Lauf (Vauban und Palladio aus `Quellentextband-1.pdf` destilliert, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
 
 Vor Arbeitsbeginn KORPUS-QUEUE.md/wiki/INDEX.md gegengeprüft, Stand identisch zum 22.

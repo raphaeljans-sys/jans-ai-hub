@@ -1275,3 +1275,40 @@ Autorendossiers der Position 4 bleiben weiterhin acht unangetastet. **Nächster 
 Descartes (Methodenlehre) oder Ludwig XIV. (Versailles-Gartenführung) — beide kurz und
 eigenständig im Quellentextband —, danach Campanella/Dézallier d'Argenville, sonst
 nächstes unbearbeitetes Autorendossier.
+
+## Vierundzwanzigster P2-Lauf, Descartes und Ludwig XIV. destilliert (30.08.2026, Lane
+FACHWISSEN)
+
+Vor Arbeitsbeginn KORPUS-QUEUE.md/wiki/INDEX.md gegengeprüft: Stand identisch zum 23.
+Lauf dokumentierten Ende, keine unkommittierte Vorlaufarbeit. Zusätzlich geprüft, ob
+alle P1-Positionen dieser und der übrigen 19 `archiv-fachwissen`-Sektionen sowie beider
+`buero-referenzen`-Sektionen wirklich abgeschlossen sind (Stichprobe der
+Destillat-Fortschritt-Abschnitte aller 20 archiv-Inventare): Bestätigt, P1 überall
+abgeschlossen oder aus dokumentiertem Grund blockiert (`03_Bauprozesse_I_II`: reine
+Normoriginale/Duplikate/Excel-Fragment). Die beiden vom 23. Lauf empfohlenen kurzen,
+eigenständigen Auszüge vollständig destilliert:
+
+- Descartes, «Abhandlung über die Methode des richtigen Vernunftgebrauchs» (1637,
+  zweites Kapitel, S. 307-308): Ein-Baumeister-Argument gegen gewachsene
+  Stadtstruktur (Gebäude eines einzigen Baumeisters schöner als solche mehrerer
+  Bearbeiter, alte Burgflecken-Städte unsymmetrisch im Vergleich zum Ingenieursplan
+  auf der Ebene, Übertragung auf Gesetzgebung am Beispiel Sparta) → neuer Artikel
+  [[descartes-methode-architektonische-einheitsplanung-organisches-wachstum]].
+- Ludwig XIV., «Manière de montrer les Jardins de Versailles» (1689, vollständig,
+  S. 313-316): eigenhändiges Regieskript für die Gartenbesichtigung in 25
+  nummerierten Schritten, jeder mit Bewegungsanweisung und exaktem
+  Betrachtungspunkt/Blickziel → neuer Artikel
+  [[ludwig-xiv-versailles-gartenfuehrung-choreographierte-besichtigungsroute]],
+  verlinkt mit dem bestehenden Achsensystem-Artikel
+  [[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]].
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach Descartes/Ludwig/Versailles über
+`wiki/*.md`): keine Duplikate, nur eine bestehende beiläufige Versailles-Nennung im
+Achsensystem-Artikel (anderer Fokus: gebaute Struktur statt Besichtigungsdramaturgie).
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von den ca. 50
+Quellentextband-Auszügen sind jetzt zehn destilliert, rund 36 bleiben offen
+(Campanella, Dézallier d'Argenville nächste kurze Kandidaten, dazu zahlreiche kürzere
+antike/mittelalterliche Einzelauszüge). Von den 33 Autorendossiers der Position 4
+bleiben weiterhin acht unangetastet — kein neuer Fund in diesem Lauf. **Nächster Lauf:**
+Campanella («La Città del Sole», utopische Stadtgesellschaft) oder Dézallier
+d'Argenville (Gartentheorie), sonst nächstes unbearbeitetes Autorendossier.
