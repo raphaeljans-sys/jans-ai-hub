@@ -852,6 +852,17 @@ Anlagebeschriebe, Kostenvoranschlag).
   dreistellig**; unter BKP 235 «Apparate Schwachstrom» sind EDV-/Telefon-/Brandmelde-/
   Uhrenanlagen **separat** aufzuführen — direkt Rule `bkp-2017-referenz` relevant für LV-Texte.
 
+> **Dieselbe Richtlinie liegt in zwei weiteren KBs — Rollen nach Ebene** (Nachtrag Wissens-Chef
+> Run 48, 30.08.2026; Rollen gesetzt in `wissen/koordination/QUERBEZUEGE.md` Z. 58 und Z. 177):
+> **Fassungsstand und geltende Zielwerte** führt `wissen/energie/destillate/ahb-zuerich-gt-rl1-planungsgrundlagen.md`
+> (V2.1/2008, sechs Seiten vollständig, mit Aktualitätsprüfung gegen SIA 180:2014 und SIA 382/1:2025).
+> **Dieser Artikel** führt Ordnerkontext, Vertragsbindung an den AHB-Honorarvertrag und die
+> Einordnung im Standardsystem. Die **Vorgängerfassung V2.0/2005** derselben Richtlinie liegt seit
+> 29.08.2026 in `wissen/architektur-fachwissen/wiki/ahb-planungsgrundlagen-richtlinie-sieben-oekologische-zielvorgaben.md`
+> (`status: speculative`, Herkunft NAS-Archiv statt SharePoint) und ist **keine Vorgabenquelle** —
+> der Zielwert stieg von 25 % auf mindestens 40 %. Für heutige Vorgaben gilt: aktuell beim AHB beziehen.
+> Die Kante war seit dem 16.08.2026 (Run 34) als Bringschuld registriert und in beide Richtungen leer.
+
 ### 12.2 GT_RL2 Energieversorgung — Systemwahl
 
 Grundsatz Masterplan Energie Stadt Zürich: Bedarf zuerst senken (Nutzenergie/Wirkungsgrade),

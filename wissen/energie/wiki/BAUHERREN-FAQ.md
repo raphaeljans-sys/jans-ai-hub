@@ -4826,21 +4826,25 @@ amtlicher Erlasstext).
 ## F115 — Was kostet ein Blower-Door-Test, und wann ist er Pflicht?
 
 Ein Blower-Door-Test misst mit einem Ventilator in der Haustür die Luftdichtheit der Gebäudehülle.
-Massgebende Kenngrösse ist in der Schweiz die Luftdurchlässigkeit qE50 [m³/(h·m²)], bezogen auf die
-Hüllfläche, gemessen nach SN EN ISO 9972. Für ein EFH rechnen Sie mit einem Testpreis **ab rund
+Massgebende Kenngrösse ist in der Schweiz die Luftdurchlässigkeit qa50 (vormals qE50, Symbol seit
+RiLuMi 2024.1) [m³/(h·m²)], bezogen auf die Hüllfläche, gemessen nach SIA 180.206 «Verfahren 3»
+(nationaler Anhang zu SN EN ISO 9972); bei Ausschreibungstexten und Prüfberichten ist die neue
+Bezeichnung SIA 180.206 zu verwenden. Für ein EFH rechnen Sie mit einem Testpreis **ab rund
 CHF 1'000** (hausinfo.ch, 2020 — einzige gefundene CH-Zahl); bei einem MFH mit mehreren Wohnungen
 entsprechend mehr, da Schweizer Anbieter praktisch immer individuell offerieren — eine allgemeingültige
 Preistabelle gibt es am Markt nicht. **Pflicht** ist die Messung bei Minergie-P und Minergie-A
-(inkl. Leckageortung); der Grenzwert liegt dort bei qE50 ≤ 0,8, beim Minergie-Basisstandard bei ≤ 1,2,
+(inkl. Leckageortung); der Grenzwert liegt dort bei qa50 ≤ 0,8, beim Minergie-Basisstandard bei ≤ 1,2,
 bei Erneuerungen einheitlich bei ≤ 1,6. Beim Minergie-Basisstandard ist die Messung fakultativ, dafür
 ist das Luftdichtheitskonzept mit dem Zertifizierungsantrag zwingend einzureichen. Der oft zitierte
 Wert n50 ≤ 0,6 h⁻¹ ist der deutsche Passivhaus-Faustwert mit anderer Bezugsgrösse (Innenvolumen statt
 Hüllfläche) und gilt hier nicht. Auch ohne Label gelten Anforderungen: SIA 180:2014 setzt für den
-Neubau qE50 ≤ 2,4 (natürliche Lüftung) beziehungsweise ≤ 1,6 (mechanische Lüftung), beim Umbau 3,6/2,4.
+Neubau qa50,li ≤ 2,4 (natürliche Lüftung) beziehungsweise ≤ 1,6 (mechanische Lüftung), beim Umbau 3,6/2,4.
 Empfehlung: Test vor dem Schliessen der Beplankung/Innenverkleidung durchführen, damit Leckstellen noch
 günstig nachgebessert werden können. → `[[rilumi-minergie-luftdichtheit-n50]]`; `[[blower-door-test-kosten-ch]]`
 bleibt Quelle nur für den Preis (⚠ dort trägt die n50-Tabelle einen Bezugsgrössen-Vorbehalt).
-Datenstand 2026-08-24 (Audit-Korrektur A-P2 02.1).
+Datenstand 2026-08-24 (Audit-Korrektur A-P2 02.1); Symbol und Messnorm nachgezogen 2026-08-30
+(Wissens-Chef Run 48 — Run 168 hatte nur F63 nachgeführt, F115 blieb auf qE50/SN EN ISO 9972).
+Zahlenwerte unverändert.
 
 ## F116 — Ist die Solarpflicht für Dächer über 300 m² im Kanton Zürich schon beschlossen?
 

@@ -24,8 +24,9 @@ weil Schweizer Fachfirmen praktisch ausnahmslos individuell nach Gebäudegrösse
 ## n50-Grenzwerte (doppelt belegt, Creoven + Innoplan übereinstimmend)
 ⚠ **Bezugsgrössen-Vorbehalt (Audit-Korrektur A-P2 02.1, 24.08.2026):** n50 bezieht sich auf das
 Innenvolumen und ist der in Deutschland (Passivhaus-Institut) übliche Kennwert. Die in der Schweiz
-massgebende Grösse ist **qE50 [m³/(h·m²)]**, bezogen auf die Hüllfläche, nach SN EN ISO 9972 — siehe
-`[[rilumi-minergie-luftdichtheit-n50]]` für die established-Primärquelle mit den qE50-Grenzwerten
+massgebende Grösse ist **qa50 [m³/(h·m²)]** (vormals qE50, Symbol seit RiLuMi 2024.1), bezogen auf die
+Hüllfläche, nach SIA 180.206 «Verfahren 3» (nationaler Anhang zu SN EN ISO 9972) — siehe
+`[[rilumi-minergie-luftdichtheit-n50]]` für die established-Primärquelle mit den qa50-Grenzwerten
 (Minergie-P/A ≤ 0,8, Minergie-Basis ≤ 1,2, Erneuerung ≤ 1,6; SIA 180:2014 ohne Label ≤ 2,4/1,6 Neubau,
 3,6/2,4 Umbau). Die Tabelle unten (n50) stammt aus einer emerging-Web-Recherche mehrerer
 Firmenwebsites ohne durchgängiges Publikationsdatum und ist NICHT die für Werkvertrag/Messauftrag zu

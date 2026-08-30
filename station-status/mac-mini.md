@@ -1,10 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 23:08:47
+Stand: 30.08.2026 23:19:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:45)
-- /Users/raphaeljans  (letzte Aktivitaet 22:39)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:49)
+- /Users/raphaeljans  (letzte Aktivitaet 23:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 30.08.2026 23:08:47
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a93a608de Lane FACHWISSEN 127. Lauf: Zeile 68 (02_Kunst_Geschichte) fortgesetzt, drei Positionen bearbeitet
+- 6365371d5 Lane FACHWISSEN 128. Lauf: Wegner/Mathsson/Coates destilliert, Zeile 68 122/128
