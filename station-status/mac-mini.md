@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 14:43:44
+Stand: 30.08.2026 14:54:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 14:32)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 14:43:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 567085a39 Lane FACHWISSEN: 63. Lauf Protomodern P2 (Rowe/Koetter Collage City) destilliert
+- baa2ed664 wissens-destillat: archiv-fachwissen 10_Protomodern 65. Lauf Ruhl/Rossi/Sedlmayr/Quaroni
