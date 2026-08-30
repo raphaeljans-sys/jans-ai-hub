@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 12:57:53
+Stand: 30.08.2026 13:08:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 12:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:01)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 12:57:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 12d0f6793 wissen/architektur-fachwissen: Plutarch/Romulus destilliert (50. P2-Lauf 01_Staedtebau, Lane FACHWISSEN)
+- d97ba32df Fachwissen: Tacitus destilliert (51. P2-Lauf 01_Staedtebau), CHANGELOG/INDEX-Nachtragslücke 49./50. Lauf geschlossen, Queue-Zelle Korpus 4 entbloatet
