@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 13:39:02
+Stand: 30.08.2026 13:49:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 13:39:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6f873d7a6 Fachwissen: Sueton Kaiserbiographien Augustus Kap. 28-30/37 (Lampugnani S.149-150) destilliert
+- 78ec3f894 nas-selfcommit: 3 Datei(en) 2026-08-30 13:45
