@@ -262,3 +262,39 @@ oben) bleibt offen für einen künftigen P2-Lauf. Kein neuer Datenschutz- oder S
   Kolloquium-Auszug (Teildublette). Nächster Lauf: Topografie-Prüfungsskript
   (`06_Themenfelder_Vorlesungen/Topografie/00_Pruefungsskript_Topografie/`) — Anschluss an
   Skill `massgebendes-terrain`, kein Blocker bekannt.
+
+- **30.08.2026 (Lane FACHWISSEN, dritter P2-Lauf dieser Sektion):** Stand vor Beginn selbst
+  ermittelt (`git status`/`git log` sauber, keine Doppel-Instanz laut `ps aux`). Vor Zugriff auf
+  `KORPUS-QUEUE.md`/`wiki/INDEX.md` verifiziert statt deren Fortsetzungshinweis blind übernommen:
+  die dortige Notiz «Sektion 02_Architekturtheorie hat noch ~100 offene P2-Vorlesungsmitschriften»
+  war veraltet — die Sektion `02_Architekturtheorie` ist laut eigener Inventardatei (Zeile 632-636)
+  bereits seit dem 23. P2-Lauf desselben Tages vollständig für P1 und P2 abgeschlossen; hier daher
+  nicht editiert (fremde Sektion), sondern nur zur Kenntnis genommen. `00_Pruefungsskript_Topografie/
+  00_Skript_Topografie_FS12.pdf` (18 Seiten, Albert Kirchengast, ETH Zürich, Prüfungsskript
+  Landschaftsarchitektur II, FS 2012) vollständig gelesen (`pypdf`), dazu die begleitende
+  Studierenden-Zusammenfassung `120213_Zusammenfassung_Topografie.docx` (`textutil`, reine
+  Paraphrase ohne neue Fakten, nicht eigenständig destilliert; die dortige Sicherungskopie ist
+  identisch, ebenfalls kein eigenständiger Fund). Gegen Wiki-Bestand geprüft (`grep -rli` auf
+  Corboz/Topografie/Girot/Leatherbarrow/Jackson/Cramer/Kienast — kein Duplikat, nur der
+  themenfremde `corboz-stadt-planer-architekten-metropole-schweiz-nordamerikanische-stadt.md`
+  existierte bereits). Zwei Artikel destilliert:
+  [[corboz-territorium-palimpsest-produkt-projekt-prozess-trias]] (`status: speculative`,
+  Corboz' Territorium-Trias Produkt/Projekt/Prozess und die Palimpsest-Metapher, Belegbeispiele
+  Bahn-2000-Langenthal und NEAT Sigirino, Girot-Organismus-Ergänzung) und
+  [[cramer-kienast-vogt-rasenpyramiden-schweizer-landschafts-land-art]] (`status: speculative`,
+  Ernst Cramers «Garten des Poeten» 1959 und Kienast Vogt Partners «Berggarten» Graz 2000 als
+  Schweizer Land-Art-Tradition abstrahierter Geländeformen). Nicht destilliert bleiben aus
+  derselben Quelle: Leatherbarrows Gegenposition zur Topografie, die Ästhetikdebatte
+  (Hogarth «Line of Beauty», Church vs. Kiley, WPA-Parkways/Seifert-Reichsautobahnen) sowie die
+  zeitgenössischen Parkbeispiele (Botanischer Garten Bordeaux, Parc de Clot Barcelona, Freeway
+  Park/Olympic Sculpture Park Seattle) — als offene Punkte in beiden neuen Artikeln vermerkt.
+  `git diff --numstat` auf diese Inventardatei nach dem Schreibschritt geprüft: reiner Append.
+  Damit ist die Position «Topografie-Prüfungsskript + Zusammenfassung» abgeschlossen.
+  **Verbleibende offene P2-Positionen (rund 17 der ursprünglich 24 Zeilen):** Irchelpark-
+  Bepflanzung (OCR-Blocker), `120919_Irchelpark.pdf` Lehrunterlage, Vorlesungsnotiz
+  Entwerfen-und-Bauen-mit-Pflanzen, Gartenmöblierung-Renaissance-Destillat, Renaissance-Skript +
+  Zusammenfassung, Ökologische-Gärten-Vorlesungsnotiz, Kolloquium-Auszug (Teildublette), dazu neu
+  als Fund vermerkt: die vier oben nicht destillierten Themenblöcke derselben Topografie-Quelle
+  (Leatherbarrow, Ästhetikdebatte, zeitgenössische Parks) als eigenständig nachholbare
+  Teilpositionen. Nächster Lauf: Renaissance-Skript + Zusammenfassung, sonst gemäss Queue-Regel
+  zur nächstgrössten Sektion mit offenem P2 übergehen.

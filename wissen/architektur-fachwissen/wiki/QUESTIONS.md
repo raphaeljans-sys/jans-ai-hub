@@ -937,3 +937,18 @@ Quelle zur dortigen Fällbewilligungsschwelle (voraussichtlich Baumschutzverordn
 Stadt Zürich bzw. kantonales Naturschutzrecht) liegt in diesem Korpus nicht vor. Wer eine
 solche Quelle findet oder kennt: als Ergänzungsartikel oder Aktualisierung nachtragen,
 bevor die Luzerner Zahl versehentlich als Zürcher Praxis zitiert wird.
+
+## 30.08.2026 — `KORPUS-QUEUE.md`, Fortsetzungshinweis Sektion `02_Architekturtheorie` (Lane FACHWISSEN)
+
+**#80 Fortsetzungshinweis in `skills/wissens-destillat/KORPUS-QUEUE.md` (130. Lauf) veraltet.**
+Der Text nennt als nächsten Kandidaten «rund 100 offene P2-Vorlesungsmitschriften in
+`02_Architekturtheorie`». Laut der Sektions-eigenen Inventardatei
+(`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md`, Zeile 632-636) ist diese Sektion
+für P1 und P2 bereits seit dem 23. P2-Lauf desselben Tages vollständig abgearbeitet (bis auf
+19 dauerhaft passwortgeschützte Foliensätze und die Tonmitschnitte). Nicht selbst in
+`KORPUS-QUEUE.md` korrigiert (das Feld ist eine einzige, über 80 Zeilen lange Verlaufs-Zelle;
+ein Edit dort birgt ein hohes Risiko, die Tabellenstruktur zu beschädigen, und der aktuelle
+Lauf hat ausschliesslich an der eigenen Sektion `01_Landschaftsarchitektur` gearbeitet). Wer
+`KORPUS-QUEUE.md` das nächste Mal ohnehin bearbeitet: den Hinweis auf `02_Architekturtheorie`
+durch einen echten offenen Kandidaten ersetzen (z. B. `10_Protomodern`, 27 von 33
+P2-Positionen offen, oder `01_Landschaftsarchitektur`, rund 17 von 24 P2-Zeilen offen).
