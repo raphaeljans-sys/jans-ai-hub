@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 06:48:40
+Stand: 30.08.2026 06:59:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 06:34)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 06:48:40
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5aa3f5595 nas-selfcommit: 2 Datei(en) 2026-08-30 06:45
+- 5088ca175 P2-Lauf archiv-fachwissen 01_Staedtebau: Sievers-Dossier destilliert
