@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 20:09:55
+Stand: 30.08.2026 20:20:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:09)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:13)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 20:09:55
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f46940552 Destillat: 7 Personenartikel Zeile 68 (02_Kunst_Geschichte/08_Design) — Aalto/Eames/Jacobsen, Eileen Gray, Josef Frank, Magistretti/Ponti
+- bbeee0eb3 Lane FACHWISSEN 104. Lauf: Wiener Werkstaette/Bauhaus-Vergleichsartikel (archiv-fachwissen Zeile 68)
