@@ -139,9 +139,34 @@ vor Bearbeitung erneut prüfen), `3_leon_battista_alberti`, `6_donato_bramante`,
 `12_andrea_palladio`, `23_ledoux` (bewusst zurückgestellt, substanzieller Artikel bereits
 vorhanden), `26_paris_um_1800` (thematisch, kein Portrait), `27_schinkel`, `32_semper`
 (unveränderter Qualitätsvorbehalt, siehe oben), `34_garnier`, `36_ruskin`, `37_morris`,
-`38_webb`, `39_wright`, `42_sullivan` — bei den zuletzt genannten sechs (34-42) ist laut
-wiederholtem Duplikatscheck bereits substanzielle Kurzbiografie/Theoriedarstellung andernorts
-in dieser KB vorhanden. Dazu Kartenset `architekten_kaertli.pdf` und `Sammelmappe2.pdf`.
+`38_webb`, `39_wright`, `42_sullivan`. Dazu Kartenset `architekten_kaertli.pdf` und
+`Sammelmappe2.pdf`.
+
+**Korrektur (92. Lauf):** Die vorstehende pauschale Einstufung «bei 34-42 bereits
+substanziell behandelt» war für `34_garnier` **falsch** — die bestehende KB-Abdeckung unter
+dem Namen Garnier betrifft ausschliesslich **Tony Garnier** (Sohn, Cité Industrielle, siehe
+[[utopische-stadtentwuerfe-typologie-garnier-cite-industrielle]]), nicht **Charles Garnier**
+(Vater, Pariser Oper). Der Namens-Grep allein hatte diese Personenverwechslung nicht
+erkannt. Charles Garnier ist jetzt eigenständig destilliert in
+[[charles-garnier-pariser-oper-style-napoleon-iii-abgrenzung-sohn-tony-garnier]]. Ebenso
+erwiesen sich `27_schinkel` und `32_semper` bei tatsächlicher Lektüre als ergiebig (Schinkel:
+Bauakademie-Institutionsgeschichte/Altes-Museum-Konstruktion/Lustgarten-Palimpsest jenseits
+der Kanon-Zeile, siehe
+[[schinkel-bauakademie-institutionsgeschichte-altes-museum-konstruktion-lustgarten-palimpsest]];
+Semper: bislang fehlender Biografie-Artikel neben den vorhandenen Theorie-Artikeln, siehe
+[[gottfried-semper-biografie-lebensstationen-hamburg-dresdner-barrikaden-zuerich-wien]]).
+`36_ruskin`/`37_morris`/`38_webb` brachten Detailwissen (Kriterienlisten, Werkregister,
+Firmengeschichte), das als Ergänzung in
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] eingearbeitet wurde.
+Bestätigt als **echtes Duplikat ohne Mehrwert** blieben `39_wright` (Home and Studio, Robie
+House bereits vollständig in
+[[richardson-chicago-school-wright-vom-rundbogenstil-zur-stahlskelettbauweise-organischen-architektur]])
+und `42_sullivan` (Auditorium/Wainwright Building dort ebenso bereits destilliert, das
+1896er-Essay-Zitat bereits in
+[[form-follows-function-genealogie-sokrates-vitruv-alberti-greenough-sullivan]] belegt) —
+für diese beiden lohnt sich kein eigenes Portrait. Lehre: Namens-Grep allein reicht bei
+gleichnamigen Verwandten (Vater/Sohn) nicht aus, die Datei muss zumindest kurz angelesen
+werden, bevor «bereits behandelt» gilt.
 
 **Datenschutz/Sperrliste:** kein Fund. Ausschliesslich historische, öffentlich bekannte
 Architekten des 17.-19. Jahrhunderts.

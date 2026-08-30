@@ -2,7 +2,7 @@
 title: "Gartenstadtbewegung: Genealogie von Pugin/Ruskin über Morris zu Howard und die europäische Rezeption"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1890_1910_Gartenstadt/00_Vorlesungsmittschrift/110303_Gartenstadt.docx (rohe, orthografisch stark fehlerhafte Live-Mitschrift zur Vorlesungsreihe Geschichte des Städtebaus, Lampugnani/Christiaanse, Modul Gartenstadt, 03.03.2011)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1890_1910_Gartenstadt/00_Vorlesungsmittschrift/110303_Gartenstadt.docx (rohe, orthografisch stark fehlerhafte Live-Mitschrift zur Vorlesungsreihe Geschichte des Städtebaus, Lampugnani/Christiaanse, Modul Gartenstadt, 03.03.2011)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md", "/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/01_Architektenportrait/alles/36_ruskin.pdf (1 S., 92. Lauf, vollständig gelesen)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/01_Architektenportrait/alles/37_morris.pdf (3 S., 92. Lauf, vollständig gelesen)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/01_Architektenportrait/alles/38_webb.pdf (1 S., 92. Lauf, vollständig gelesen)"]
 links: ["[[stadttypen-strassennetz-systematik-jans]]", "[[ortsanalyse-raster-plananalyse-platzanalyse-lampugnani]]"]
 ---
 
@@ -127,6 +127,56 @@ Blockrand-Alternative historisch herleiten wollen; insbesondere der Befund, dass
 Zürich-Schwamendingen (1948) in der eigenen Quelle explizit **nicht** als Erfüllung, sondern
 als Beginn der Zersiedelung eingeordnet wird, ist für lokale Referenzbeispiele
 gegenzuprüfen, bevor Schwamendingen unkritisch als Gartenstadt-Vorbild zitiert wird.
+
+## Vertiefung (92. Lauf): Ruskins Sieben-Lampen-Kriterien, Webbs Werkregister, Morris' Firmengeschichte
+
+Der Architektenportrait-Ordner (`01_Architektenportrait/alles/`) enthält für Ruskin, Morris
+und Webb je eine eigene, strukturierte Kurzbiografie-Datei — eine deutlich belastbarere
+Quellenart als die rohe Live-Mitschrift, auf der der obige Artikelkern beruht (deshalb bleibt
+der Gesamtstatus `speculative`, diese Ergänzung stützt sich aber auf eine eigene, separat
+zitierte Quelle je Person). Duplikatscheck vorab: die Mitschrift oben nennt Ruskins Werke nur
+mit Titel, ohne die konkreten Kriterienlisten; Webb wird oben nur als Erbauer des Red House
+erwähnt, ohne Werkregister; Morris' Firmengeschichte fehlt oben vollständig. Kein echtes
+Duplikat, reine Ergänzung.
+
+**John Ruskin (1819-1900):** *The Seven Lamps of Architecture* (1849) benennt sieben
+Grundlagenkriterien der Architektur: Opfer, Wahrheit, Macht, Schönheit, Leben, Erinnerung,
+Gehorsam. *The Stones of Venice* (dreibändig, London 1851) charakterisiert die Gotik anhand
+sechs Eigenschaften: Roheit, Veränderlichkeit/Abwechslung, Naturalismus, Sinn für das
+Groteske, Starrheit, Überfülle; das Werk enthält zugleich präzise Text- und Foliobeschreibungen
+venezianischer Architektur und Malerei (v. a. Tintoretto), die laut Quelle bis heute für
+baugeschichtliche Analysen von Interesse sind. Ruskin akzeptierte das Denkmal in seiner
+überlieferten Gesamtheit einschliesslich der Patina und forderte Konservierung statt
+Rekonstruktion — die Quelle nennt ihn explizit prägend für Theorie und Praxis der
+Denkmalpflege. Ab 1870 erster «Slade Professor of Fine Art» an der Universität Oxford.
+
+**Philip Webb (1831-1915):** kennengelernt von Morris 1856 im Oxforder Büro des Neugotikers
+George Edmund Street; Entwurf des Red House (1859/60, Bexleyheath) als gemeinsames Werk mit
+Morris und dessen präraffaelitischem Umfeld (Edward und Georgiana Burne-Jones, Dante Gabriel
+Rossetti und Elizabeth Siddal). Webbs architektonisches Werk umfasst neun grosse Landhäuser,
+von denen nur drei gut erhalten sind — darunter Standen (1891, West Sussex, im Besitz des
+National Trust). Mitbegründer der «Society for the Protection of Ancient Buildings» und
+politisch für die Ziele der Sozialisten engagiert. Beeinflusste Architekten wie William
+Lethaby, Edward Prior, Baillie Scott, Charles Voysey, Edwin Lutyens und Charles Rennie
+Mackintosh. Hermann Muthesius nennt das Red House in «Das Englische Haus» «das erste
+individuelle Haus der neuen, künstlerischen Kultur, das erste Haus, das innen und aussen als
+Ganzes gedacht und ausgeführt war» — eine Einordnung, die Muthesius' eigenes Programm
+(Werkbund-Mitbegründer 1907, Einheit von Kunstgewerbe und Baukunst) direkt vorwegnimmt.
+
+**William Morris (1834-1896):** gründet 1861 die Firma Morris, Marshall, Faulkner & Co.
+(gemeinsam mit Rossetti, Burne-Jones, Madox Brown, Webb), später unter dem Namen Morris and
+Company — deren Entwürfe werden laut Quelle bis heute unter Lizenz von den Londoner Firmen
+Sanderson and Sons und Liberty vertrieben. 1877 Gründung der «Society for the Protection of
+Ancient Buildings» (mittelbarer Vorläufer des National Trust). Politisch einer der ersten
+britischen Sozialisten: 1883 Beitritt zur Social Democratic Federation (gemeinsam mit Tochter
+May, Eleanor Marx und Engels), 1884 Gründung der Socialist League. Sommerhaus Kelmscott Manor
+bei Lechlade; Fluchtpunkt nach Island, dessen Sagen später Grundlage seiner Romane und
+Dichtungen wurden. Sein Märchenroman *The Wood Beyond the World* beeinflusste C. S. Lewis'
+Narnia-Bücher, sein Frühwerk (*The House of the Wolfings*, *The Roots of the Mountains*)
+J. R. R. Tolkien. Gestorben 1896, begraben bei Kelmscott, Oxfordshire.
+
+**Sperrlisten-Prüfung (Ergänzung 92. Lauf):** kein Fund, ausschliesslich historische,
+öffentlich bekannte Personen des 19. Jahrhunderts.
 
 ## Offene Punkte
 
