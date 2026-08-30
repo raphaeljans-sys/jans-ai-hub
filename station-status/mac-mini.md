@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 14:54:01
+Stand: 30.08.2026 15:04:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 14:32)
+- /Users/raphaeljans  (letzte Aktivitaet 14:38)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 14:54:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- baa2ed664 wissens-destillat: archiv-fachwissen 10_Protomodern 65. Lauf Ruhl/Rossi/Sedlmayr/Quaroni
+- fc8a401b6 Lane FACHWISSEN: 66. Lauf archiv-fachwissen 10_Protomodern (Sammelartikel Kurzfragmente)
