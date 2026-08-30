@@ -3,7 +3,7 @@ title: "Plutarch: Romulus' Stadtgründung Roms – Ortsstreit, Asyl und das etru
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 125-129 (Plutarch, «Romulus», Drittes/Viertes/Sechstes/Neuntes/Zehntes/Elftes Kapitel, mit Ellipsen im Auszug, hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, S. 125-129 vollständig gelesen, Fraktursatz; S. 130 im Quellenband leer, Folgeautor Tacitus setzt erst S. 131 ein)"]
-links: ["[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]]", "[[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]", "[[polybios-roemisches-militaerlager-castrum-rasterordnung]]"]
+links: ["[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]]", "[[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]", "[[polybios-roemisches-militaerlager-castrum-rasterordnung]]", "[[pausanias-reisen-griechenland-messene-gruendung-elis-marktarchitektur-panopeus-polis-minimalkriterium]]"]
 ---
 
 # Plutarch: Romulus' Stadtgründung Roms – Ortsstreit, Asyl und das etruskische Mundus-Ritual (Romulus)
@@ -119,3 +119,11 @@ angenommenen Gründung (753 v. Chr.) verfasste literarische Quelle handelt, nich
 zeitgenössische Aufzeichnung. Nicht aufgelöst: der Kreis/Viereck-Widerspruch zwischen
 Mundus-Kreis und «quadratischem Rom» (s. o.); ob Plutarchs übrige, im Auszug fehlende
 Kapitel (5, 7, 8) städtebaulich relevante Zusatzinformation enthalten, ist ungeprüft.
+
+**Nachtrag (30.08.2026):**
+[[pausanias-reisen-griechenland-messene-gruendung-elis-marktarchitektur-panopeus-polis-minimalkriterium]]
+liefert mit der Gründung Messenes ein griechisches Gegenstück desselben Grundmusters
+(Standortlegitimation durch die Götter vor Baubeginn, Rückruf lokaler Heroen statt
+Herkunftserde-Vermengung) — dort mit dem Zusatz einer expliziten Bau-Reihenfolge
+(Wege/Häuser/Heiligtümer vor Mauerabschluss), die bei Plutarch nicht ausdrücklich
+beschrieben wird.

@@ -3,7 +3,7 @@ title: "Varro, De lingua latina: Etruskisches Gründungsritual und die lateinisc
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 73-74 (Varro, «De lingua latina» / Über die lateinische Sprache, Buch V, §141, 143, 145, ca. 43 v. Chr., hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, vollständig gelesen)"]
-links: ["[[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]]", "[[polybios-roemisches-militaerlager-castrum-rasterordnung]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]", "[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]]"]
+links: ["[[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]]", "[[polybios-roemisches-militaerlager-castrum-rasterordnung]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]", "[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]]", "[[pausanias-reisen-griechenland-messene-gruendung-elis-marktarchitektur-panopeus-polis-minimalkriterium]]"]
 ---
 
 # Varro, De lingua latina: Etruskisches Gründungsritual und die lateinische Etymologie von Stadt, Mauer und Strasse (Buch V)
@@ -108,3 +108,11 @@ bei Varro fehlende Mundus-Grube (Herkunftserde-Vermengung) und die Begründung d
 Tor-Ausnahme von der Mauerheiligkeit, findet sich bei
 [[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]] (Plutarch, Romulus,
 Kap. 11).
+
+**Nachtrag (30.08.2026):** Ein griechisches Gegenstück zum etruskisch-römischen
+Furchenritual liefert
+[[pausanias-reisen-griechenland-messene-gruendung-elis-marktarchitektur-panopeus-polis-minimalkriterium]]
+(Gründung Messenes durch Epameinondas): dort ersetzt die Orakelprüfung des Standorts und
+der Rückruf lokaler Heroen als «Mitbewohner» das etruskische Pflug-/Mundus-Ritual,
+zusätzlich mit einer expliziten Baureihenfolge (Wege/Häuser/Heiligtümer vor
+Mauerabschluss), die bei Varro nicht beschrieben wird.

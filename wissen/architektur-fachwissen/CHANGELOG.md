@@ -4200,3 +4200,70 @@ bleibt nach Juvenal offen: Sueton (149), Pausanias (151), Achilleus Tatius (155)
 Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) —
 6 Positionen. **Nächster Lauf:** Sueton (149) als nächster im Seitenverlauf liegender
 Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, 55. P2-Lauf (Sueton destilliert, hier nachgetragen im 56. Lauf — dieser Eintrag fehlte ursprünglich, Lane FACHWISSEN)
+
+Sueton, Kaiserbiographien, Der göttliche Augustus, Kapitel 28-30 und 37 (S. 149-150) →
+neuer Artikel
+[[sueton-augustus-kaiserbiographien-forum-mars-ultor-vigiles-regionen]]: Marmor-Anspruch
+(«Lehmziegelstadt» zu «marmorne»), drei Staatstempel mit Vor-/Baugeschichte
+(Forum/Mars-Ultor als drittes Forum gegen Gerichtsüberlastung, Apollotempel/Palatin mit
+angegliederter Bibliothek, Jupiter Tonans nach Blitzrettung), Drei-Wege-Finanzierungsmodell
+(Staatsbauten/Familiennamen/private Stiftungen führender Bürger), Regionen-/
+Bezirksverwaltung, nächtliche Feuerwehr als Augustus' eigene Erfindung, Tiberbett-Verbreiterung
+gegen Bauschutt/Gebäudevorsprünge, Strassenfinanzierung aus Triumphatoren-Beuteerlös,
+bezifferte Kapitolinischer-Jupiter-Schenkung (16'000 Pfund Gold, 50 Mio. Sesterzen), sowie
+Kapitel-37-Ämterliste. Verlinkt mit
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]]
+(dort per Nachtrag rückverlinkt), [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]
+und [[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]]. `git diff --numstat`
+auf die Inventardatei zeigt reinen Append. Nach Sueton bleiben 5 Positionen offen:
+Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247). Nächster Lauf: Pausanias (151). Details Inventardatei
+30.08.2026.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, 56. P2-Lauf (Pausanias destilliert, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen mehr):
+`KORPUS-QUEUE.md`, dieses CHANGELOG (fehlte der 55. Lauf/Sueton als eigener Eintrag, im
+selben Lauf nachgetragen) und die Inventardatei übereinstimmend auf 55 Läufe, 5 offene
+Namenslisten-Positionen, nächster Kandidat Pausanias S. 151, working tree zu Laufbeginn
+sauber.
+
+Pausanias, Reisen in Griechenland, Buch IV,27 («Stadtgründung von Messenias und Elis»),
+Buch VI,23-24 (Elis) und Buch X,4 (Panopeus), S. 151-154, per
+`/opt/homebrew/bin/pdftoppm -png -f 155 -l 158 -r 150` gerendert (PDF-Seite = gedruckte
+Seite + 4), alle vier Textseiten vollständig gelesen. Destilliert → neuer Artikel
+[[pausanias-reisen-griechenland-messene-gruendung-elis-marktarchitektur-panopeus-polis-minimalkriterium]]:
+
+- **Messene (Buch IV,27):** Epameinondas lässt den Standort vor Baubeginn durch Seher auf
+  göttliche Zustimmung prüfen, danach systematischer Bauablauf (Steine/Fachleute für
+  Wege/Häuser/Heiligtümer/Mauern), mehrteiliges Opferritual verschiedener beteiligter
+  Völker je eigener Gottheit, Rückruf lokaler Heroen (u. a. Messene selbst) als
+  «Mitbewohner», Namensgebung nach der zurückgerufenen Heroine.
+- **Elis (Buch VI,23-24):** funktional verschränkte Kette Gymnasion – «Strasse des
+  Schweigens» (Namensanekdote Oxylos-Kundschafter) – Hellanodikeon (Amtsgebäude über dem
+  Grab des Achilleus) – Markt; Markt «nach älterer Art» (nicht ionisch) mit
+  Doppelnutzung als Hippodrom/Pferdetraining, dorische Dreiteilungshalle mit
+  behelfsmässigen Zeusaltären, zweite «korkyraiische» Halle aus dem Zehnten einer
+  Kriegsbeute finanziert, doppelte Bauweise mit Mauer statt Säulen auf der Innenseite.
+- **Panopeus (Buch X,4):** Ort ohne Amtsgebäude/Gymnasion/Theater/Markt/fliessendes
+  Wasser, dennoch als Polis anerkannt wegen eigener Landesgrenzen und Vertretung in der
+  phokischen Bundesversammlung — Grenzhoheit/politische Vertretung statt
+  Bauinfrastruktur als Stadtkriterium; Pausanias' eigene Mauerring-Schätzung «nach
+  Augenschein» (ca. 7 Stadien); zwei Homer-Zitate als Kontinuitätsbeleg.
+
+Gegen Wiki-Bestand geprüft (`grep -rli` pausanias/hellanodik/panopeus/messene über
+`wiki/*.md`): keine inhaltlichen Duplikate, nur der neue Artikel selbst. Verlinkt mit
+[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]] und
+[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]] (beide dort per
+Nachtrag rückverlinkt: griechisches Gegenstück zum etruskisch-römischen Gründungsritual,
+mit expliziter Baureihenfolge als Ergänzung) sowie
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]
+(Kriegsbeute als Baufinanzierungsquelle, Parallelbeleg zum Castrum-Kontext).
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (38/0). Aus der
+Namensliste bleibt nach Pausanias offen: Achilleus Tatius (155), Ausonius (157),
+Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 4 Positionen. **Nächster
+Lauf:** Achilleus Tatius (155) als nächster im Seitenverlauf liegender Kandidat, sonst
+der Rest der Liste der Reihe nach.

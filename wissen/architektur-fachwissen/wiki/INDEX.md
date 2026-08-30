@@ -2090,3 +2090,21 @@ und [[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]]. Nach Sue
 5 Positionen offen: Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus
 (159), Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Pausanias (151). Details
 CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN, 56. P2-Lauf):** Pausanias, Reisen in Griechenland, Buch
+IV,27 (Stadtgründung Messenes: Orakelprüfung des Standorts, Bauablauf
+Wege/Häuser/Heiligtümer vor Mauerabschluss, Opferritual mehrerer Völker, Rückruf lokaler
+Heroen als «Mitbewohner»), Buch VI,23-24 (Elis: Gymnasion/«Strasse des
+Schweigens»/Hellanodikeon/Markt als verschränkte Kette, Markt «nach älterer Art» mit
+Doppelnutzung als Hippodrom, dorische Dreiteilungshalle, «korkyraiische» Halle aus
+Kriegsbeute-Zehnten finanziert) und Buch X,4 (Panopeus: Polis-Status ohne jede
+Bauinfrastruktur, Grenzhoheit/Bundesvertretung als Kriterium, eigene
+Mauerring-Schätzung, Homer-Kontinuitätsbeleg) destilliert →
+[[pausanias-reisen-griechenland-messene-gruendung-elis-marktarchitektur-panopeus-polis-minimalkriterium]],
+verlinkt mit [[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]] und
+[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]] (beide dort per
+Nachtrag rückverlinkt) sowie
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]. Nach
+Pausanias bleiben 4 Positionen offen: Achilleus Tatius (155), Ausonius (157), Salvianus
+(159), Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Achilleus Tatius (155).
+Details CHANGELOG 30.08.2026.

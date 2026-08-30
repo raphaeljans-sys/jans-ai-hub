@@ -2718,3 +2718,41 @@ bleibt nach Sueton offen: Pausanias (151), Achilleus Tatius (155), Ausonius (157
 Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 5 Positionen. **Nächster
 Lauf:** Pausanias (151) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest
 der Liste der Reihe nach.
+
+## 56. P2-Lauf 30.08.2026 (Lane FACHWISSEN): Pausanias destilliert
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen mehr):
+`KORPUS-QUEUE.md`, `CHANGELOG.md` und diese Inventardatei übereinstimmend auf 55 Läufe,
+5 offene Namenslisten-Positionen, nächster Kandidat Pausanias S. 151, working tree zu
+Laufbeginn sauber.
+
+Pausanias, Reisen in Griechenland, Buch IV,27; VI,23-24; X,4 (S. 151-154) per
+`/opt/homebrew/bin/pdftoppm -png -f 155 -l 158 -r 150` gerendert (PDF-Seite = gedruckte
+Seite + 4, am Bereichsende gegenverifiziert: PDF-Seite 159 = gedruckte Seite 155 =
+Beginn «Achilleus Tatius» erwartet), alle vier Textseiten (151-154) vollständig gelesen.
+Destilliert → neuer Artikel
+[[pausanias-reisen-griechenland-messene-gruendung-elis-marktarchitektur-panopeus-polis-minimalkriterium]]:
+Stadtgründung Messenes durch Epameinondas (Orakelprüfung des Standorts vor Baubeginn,
+systematischer Bauablauf Wege/Häuser/Heiligtümer vor Mauerabschluss, Opferritual mehrerer
+beteiligter Völker, Rückruf lokaler Heroen als «Mitbewohner»), Markt-/Gymnasionanlage von
+Elis («Strasse des Schweigens» mit Kundschafter-Anekdote, Hellanodikeon als Amtsgebäude,
+Markt «nach älterer Art» mit Doppelnutzung als Pferdetrainingsfläche («Hippodrom»),
+dorische Dreiteilungshalle, zweite «korkyraiische» Halle aus Kriegsbeute-Zehnten
+finanziert), sowie Panopeus als Beispiel für Polis-Status ohne jede zivile Infrastruktur
+(Grenzhoheit und Bundesvertretung statt Bauten als Stadtkriterium, Pausanias' eigene
+Mauerring-Schätzung «nach Augenschein», zwei Homer-Zitate als Kontinuitätsbeleg).
+
+Gegen Wiki-Bestand geprüft (`grep -rli` pausanias/hellanodik/panopeus/messene über
+`wiki/*.md`): keine inhaltlichen Duplikate. Verlinkt mit
+[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]] und
+[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]] (beide dort per
+Nachtrag rückverlinkt: griechisches Gegenstück zum etruskisch-römischen
+Gründungsritual) sowie
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]
+(Kriegsbeute als Baufinanzierungsquelle, Parallelbeleg).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste
+bleibt nach Pausanias offen: Achilleus Tatius (155), Ausonius (157), Salvianus (159),
+Francesco Colonna/Hypnerotomachia (247) — 4 Positionen. **Nächster Lauf:** Achilleus
+Tatius (155) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste
+der Reihe nach.
