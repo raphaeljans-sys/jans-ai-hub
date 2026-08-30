@@ -4493,6 +4493,8 @@ Raphaels Entscheid.
 **Eigener Beitrag zum Muster, offengelegt:** Dieser Lauf hat selbst in `wissen/twin/CHANGELOG.md` **oben** eingefügt — also genau das Schreibmuster, das die Kollisionen erzeugt. Der Commit ist auf der Synology gelandet und verifiziert (`295614019`, Arbeitsbaum sauber); GitHub erreicht er nicht. **Alle Arbeit ist sicher, nur die Weitergabe steht.**
 **Nicht ausgeführt, bewusst:** Auflösen hiesse, über fremde, unbestätigte Arbeit anderer Läufe zu urteilen, als Eingriff in Git-Interna in einem unbeaufsichtigten Lauf (Rules `auto-verbesserungen` 260811 Punkt 3, `interaktive-eingriffe`). Vorgehen unverändert wie in den Einträgen vom 29.08.: Sicherungszweig setzen, dann **Merge** (nicht Rebase), Konflikte in den CHANGELOG-Dateien von Hand zusammenführen. | Hub-Infrastruktur (Git-Sync), nativ gemessen 30.08.2026 06:0x | hoch | offen — Aktion Raphael |
 
+**NACHTRAG 30.08.2026, 07:45 (bexio-Session Macmini):** Divergenz weiter gewachsen — `nas-commit-now.sh` scheitert mit Merge-Konflikten in `wissen/grobkosten/CHANGELOG.md` und `wissen/normen/CHANGELOG.md`; Selfcommit-Log meldet **191 lokal / 105 remote, Versuch 238** (07:45:37). Kein Eingriff vorgenommen (gleiches Urteil wie oben); neue Edits dieser Session (fristen.md, firmengruendung-ch) liegen sicher im NAS-Arbeitsbaum und werden vom Committer erfasst, sobald der Konflikt aufgeloest ist.
+
 ---
 
 ## 30.08.2026 — Gespräch MacBook Pro 29.08.2026 (Konversations-Destillat `logbuch/konversationen/260830-konversationen.md`)
