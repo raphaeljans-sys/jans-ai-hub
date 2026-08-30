@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 16:44:10
+Stand: 30.08.2026 16:54:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 16:44:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 68a4566d9 P2-Lauf Sauter Kapitel 09 Le Corbusier/Mies van der Rohe (78. Lauf, Lane FACHWISSEN)
+- 4dee23bf8 Fachwissen: Sauter-Kapitel 10 Klassische Moderne/Neues Bauen destilliert (archiv-fachwissen, 79. Lauf)

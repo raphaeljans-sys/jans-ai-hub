@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 16:47:32
+Stand: 30.08.2026 16:57:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 16:29)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 16:47:32
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5c70ca9f8 nas-selfcommit: 3 Datei(en) 2026-08-30 16:45
+- 4dee23bf8 Fachwissen: Sauter-Kapitel 10 Klassische Moderne/Neues Bauen destilliert (archiv-fachwissen, 79. Lauf)
