@@ -3,7 +3,7 @@ title: "«Form follows Function» — Genealogie der Formel von Sokrates bis Men
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/10_Protomodern/01_Focabular/Das_Architektonische_Ornament/2.3   Di Stefano.pdf (Elisabetta di Stefano, «Form follows Function? Misunderstanding and Value of a Sullivan's Concept», Wolkenkuckucksheim/Cloud-Cuckoo-Land 32, 2012, S. 38-43)"]
-links: ["[[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]]", "[[ornament-decorum-angemessenheit-loos-semper-riegl]]"]
+links: ["[[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]]", "[[ornament-decorum-angemessenheit-loos-semper-riegl]]", "[[begriffsapparat-protomodern-capriccio-piranesi-shaker-sgraffito-weilenmann]]"]
 ---
 
 # «Form follows Function» — Genealogie der Formel von Sokrates bis Mendini
