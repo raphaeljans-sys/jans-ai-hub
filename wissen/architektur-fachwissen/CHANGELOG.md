@@ -1,5 +1,29 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, fünfundzwanzigster P2-Lauf (Campanella und Dézallier d'Argenville aus `Quellentextband-1.pdf` destilliert, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn KORPUS-QUEUE.md/CHANGELOG/git log gegengeprüft, Stand identisch
+zum 24. Lauf dokumentierten Ende. Die beiden vom Vorlauf empfohlenen Kandidaten
+aus `Quellentextband-1.pdf` destilliert:
+
+- Campanella, «La Città del Sole» (1602, S. 303-306): konzentrische Sieben-Ring-
+  Stadt mit gestaffelter, torversetzter Verteidigungstiefe (Gegenmodell zum
+  Sternfestungsschema) und enzyklopädischem Wandmalprogramm je Ring als
+  begehbares Curriculum → neuer Artikel
+  [[campanella-citta-del-sole-konzentrische-ringstadt-verteidigung-lehrinstrument]].
+- Dézallier d'Argenville, «La théorie et la pratique du jardinage» (1709,
+  S. 317-326): fünf Standortkriterien nach Vitruv und vier Grundmaximen der
+  Gartendisposition (Natur vor Kunst, keine Überladung, gestaffelte statt
+  totale Ansicht, grösser wirken als tatsächlich), plus Regeln zu
+  Bestandsschutz und Grössen-/Budgetverhältnis Garten↔Gebäude → neuer Artikel
+  [[dezallier-dargenville-gartentheorie-vier-maximen-standortkriterien]].
+
+Gegen Wiki-Bestand geprüft, keine Duplikate. `git diff --numstat` zeigt reinen
+Append auf Inventardatei. Von den ca. 50 Quellentextband-Auszügen sind jetzt
+zwölf destilliert, rund 34 bleiben offen. Nächster Lauf: Aristoteles «Politik»
+(Hippodamus/Stadtlage, S. 63-68) oder Digesta Buch 43,7-11 (römisches
+öffentliches Wege-/Baurecht, S. 163-167).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, vierundzwanzigster P2-Lauf (Descartes und Ludwig XIV. aus `Quellentextband-1.pdf` destilliert, Lane FACHWISSEN)
 
 Vor Arbeitsbeginn geprüft, ob in diesem oder einem der 22 anderen inventarisierten

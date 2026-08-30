@@ -1312,3 +1312,46 @@ antike/mittelalterliche Einzelauszüge). Von den 33 Autorendossiers der Position
 bleiben weiterhin acht unangetastet — kein neuer Fund in diesem Lauf. **Nächster Lauf:**
 Campanella («La Città del Sole», utopische Stadtgesellschaft) oder Dézallier
 d'Argenville (Gartentheorie), sonst nächstes unbearbeitetes Autorendossier.
+
+## Fünfundzwanzigster P2-Lauf, Campanella und Dézallier d'Argenville destilliert
+(30.08.2026, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn Stand gegen `KORPUS-QUEUE.md`, `CHANGELOG.md` und
+`git log -- wissen/architektur-fachwissen/` gegengeprüft (Stationsangabe im
+Dispatch-Text weiterhin fälschlich «MacBook Pro», `scutil` bestätigt Macmini;
+`ps`/`ppid`-Kette bestätigt keine echte Doppel-Instanz, nur verschachtelte
+`claude-run.sh`-Wrapper derselben Instanz). Die beiden vom 24. Lauf empfohlenen
+Kandidaten aus `Quellentextband-1.pdf` vollständig gelesen und destilliert:
+
+- Campanella, «La Città del Sole» (1602, S. 303-306, vollständiger Dialog):
+  konzentrische Sieben-Ring-Stadt auf einem Hügel mit gestaffelter,
+  torversetzter Verteidigungstiefe (kein Sternfestungsschema) und
+  enzyklopädischem Wandmalprogramm je Ring (Geometrie, Weltkarte, Mineralien,
+  Gewässer, Botanik, Fischfauna, Vogelwelt, Landtiere, Handwerkskünste) als
+  begehbares Curriculum → neuer Artikel
+  [[campanella-citta-del-sole-konzentrische-ringstadt-verteidigung-lehrinstrument]].
+- Dézallier d'Argenville, «La théorie et la pratique du jardinage» (1709,
+  S. 317-326, Kapitel 1-3 und 5): erstes Traktat, das Ziergarten methodisch
+  vom Nutzgarten trennt; fünf Standortkriterien nach Vitruv, vier Grundmaximen
+  der Gartendisposition (Kunst weicht der Natur, nicht überladen, nicht alles
+  auf einmal zeigen, grösser erscheinen lassen als tatsächlich), Regeln zu
+  Bestandsschutz bei Altanlagen und Grössen-/Budgetverhältnis Garten↔Gebäude
+  → neuer Artikel
+  [[dezallier-dargenville-gartentheorie-vier-maximen-standortkriterien]],
+  verlinkt mit dem bestehenden
+  [[ludwig-xiv-versailles-gartenfuehrung-choreographierte-besichtigungsroute]]
+  (dieselbe Epoche, dasselbe Problem der gestaffelten Wahrnehmung, hier als
+  abstrakte Maxime, dort als konkrete Schrittfolge).
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach Campanella/Dézallier/Città del
+Sole über `wiki/*.md`): keine Duplikate, beide Themen bisher unbehandelt.
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von den ca.
+50 Quellentextband-Auszügen sind jetzt zwölf destilliert, rund 34 bleiben
+offen. Von den 33 Autorendossiers der Position 4 bleiben weiterhin acht
+unangetastet — kein neuer Fund in diesem Lauf. **Nächster Lauf:** aus
+`Quellentextband-1.pdf` als nächste kurze, eigenständige Kandidaten Aristoteles
+«Politik» (Buch II,8 Hippodamus-Stadtplan; Buch VII,5-6/10-11 optimale
+Stadtlage, S. 63-68) oder Digesta Buch 43,7-11 (römisches öffentliches
+Wege-/Baurecht, S. 163-167, direkt bürorelevant als antikes Vorbild
+heutigen öffentlichen Baurechts), sonst nächstes unbearbeitetes
+Autorendossier.
