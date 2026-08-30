@@ -3,7 +3,7 @@ title: "Architekturbegriffe-Glossar: Serliana, Architecture parlante, Stadt als 
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Serliana/Texte/111114_Serliana.docx", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Une_Architecture_Parlante/Une architecture parlante.docx", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/03_Begriffe_der_Architektur/Stadtbegreifen/Schett/120709_Anmerkungen_zum_Jahreskurs.docx (Autorschaft unklar — vermutlich ETH-Jahreskurs-Skript, nicht zweifelsfrei Eigentext Jans)"]
-links: ["[[praesenz-begriff-olgiati-lyotard]]"]
+links: ["[[praesenz-begriff-olgiati-lyotard]]", "[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]"]
 ---
 
 # Architekturbegriffe-Glossar: Serliana, Architecture parlante, Stadtbegreifen

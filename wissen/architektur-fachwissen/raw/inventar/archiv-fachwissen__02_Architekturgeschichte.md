@@ -393,3 +393,44 @@ Architekten, Bauherren und Bauwerke.
 `git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
 **Nächster Lauf:** Kapitel `03 REVOLUTIONSARCHITEKTUR` lesen, davor Duplikatscheck gegen
 Wiki-Bestand.
+
+## Destillat-Fortschritt, fünfter P2-Lauf (30.08.2026, Lane FACHWISSEN, 72. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`,
+diese Inventardatei) — der Dispatch-Text nennt bewusst keine Zahlen. Empfohlener nächster
+Schritt aus dem 71. Lauf: Kapitel `03 REVOLUTIONSARCHITEKTUR`, davor Duplikatscheck.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -rli` gegen `wiki/*.md` auf
+Revolutionsarchitektur/Boullée/Ledoux. Treffer in
+[[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]] (führt
+«Architecture parlante» bereits mit denselben zwei Architekten, aber anderen
+Entwurfsbeispielen) und [[utopische-stadtentwuerfe-typologie-garnier-cite-industrielle]]
+(nennt Ledoux' Salines de Chaux als einen von mehreren Utopie-Stadtentwürfen, dort mit
+fehlerhafter Datierung 1847). Kein inhaltliches Duplikat — beide Artikel um eine
+Rückverlinkung ergänzt (`git diff --numstat` zeigte dort je `1 1`, reine Link-Ergänzung in
+der bestehenden `links:`-Zeile).
+
+**Hauptarbeit:** Kapitel `03 REVOLUTIONSARCHITEKTUR.pdf` (5 S.) vollständig gelesen
+(PyMuPDF) und destilliert zu
+[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]:
+vier Bauten/Projekte 1770-1800 (Salinenstadt Arc-et-Senans, Idealstadt-Chaux-Entwürfe,
+beide Ledoux; Newton-Kenotaph Boullée; Kaserne/Frauengefängnis Würzburg, Speeth) mit
+Ort/Architekt/Jahr/Kernmerkmal, drei Kurzbiografien, sowie eine in der Quelle selbst
+widersprüchliche Datierung des Würzburger Baus (S. 1: 1809-1810, S. 5: ab 1811) unkorrigiert
+dokumentiert. Kein neuer Glossarbegriff nötig: Portikus bereits in
+[[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]], Architecture
+parlante bereits in [[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]]
+geführt; dort lediglich zwei zusätzliche, bislang nicht genannte Ledoux-Beispiele sowie das
+Boullée-Beispiel im neuen Artikel vermerkt.
+
+**8 der 13 Dateien bleiben offen:** Kapitel `04`-`11` (Klassizismus/Historismus/Eklektizismus
+bis Moderne-Postmoderne). Fortsetzung des Duplikatschecks weiterhin nötig, sobald Kapitel
+mit bereits bestehenden Fachartikeln thematisch kollidieren (Le Corbusier/Mies/Bauhaus/Loos,
+Kapitel 08/09/11).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS` lesen, davor
+Duplikatscheck gegen Wiki-Bestand.

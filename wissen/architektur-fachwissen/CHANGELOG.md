@@ -4872,3 +4872,38 @@ Moderne-Postmoderne). Sperrlisten-Prüfung: kein Fund, ausschliesslich historisc
 öffentlich bekannte Architekten/Bauwerke. `git diff --numstat` auf die Inventardatei
 zeigte `39 0` (reiner Append). **Nächster Lauf:** Kapitel `03 REVOLUTIONSARCHITEKTUR`
 lesen, davor Duplikatscheck gegen Wiki-Bestand.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte`, fünfter P2-Lauf: Sauter-Kapitel 03 Revolutionsarchitektur (Lane FACHWISSEN, 72. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`,
+Inventardatei) — der Dispatch-Text nennt bewusst keine Zahlen mehr. Empfohlener nächster
+Schritt aus dem 71. Lauf: Kapitel `03 REVOLUTIONSARCHITEKTUR.pdf`, davor Duplikatscheck.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -rli` gegen `wiki/*.md` auf
+Revolutionsarchitektur/Boullée/Ledoux. Treffer in
+[[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]] (führt
+«Architecture parlante» bereits mit denselben zwei Architekten, aber anderen
+Entwurfsbeispielen) und [[utopische-stadtentwuerfe-typologie-garnier-cite-industrielle]]
+(nennt Ledoux' Salines de Chaux als einen von mehreren Utopie-Stadtentwürfen, dort mit
+fehlerhafter Datierung 1847). Kein inhaltliches Duplikat — beide Artikel um eine
+Rückverlinkung ergänzt (`git diff --numstat` zeigte dort je `1 1`, reine Link-Ergänzung in
+der bestehenden `links:`-Zeile).
+
+**Hauptarbeit:** Kapitel `03 REVOLUTIONSARCHITEKTUR.pdf` (5 S.) vollständig gelesen
+(PyMuPDF) und destilliert zu
+[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]:
+vier Bauten/Projekte 1770-1800 (Salinenstadt Arc-et-Senans, Idealstadt-Chaux-Entwürfe —
+beide Ledoux; Newton-Kenotaph Boullée; Kaserne/ehem. Frauengefängnis Würzburg, Speeth) mit
+Ort/Architekt/Jahr/Kernmerkmal, drei Kurzbiografien und einer in der Quelle selbst
+widersprüchlichen Datierung des Würzburger Baus (S. 1: 1809-1810, S. 5: ab 1811),
+unkorrigiert dokumentiert. Kein neuer Glossarbegriff nötig: Portikus bereits im
+Sauter-Glossar, Architecture parlante bereits im eigenständigen Begriffs-Glossarartikel
+geführt — dort lediglich zwei zusätzliche Ledoux-Beispiele sowie das Boullée-Beispiel im
+neuen Artikel ergänzt.
+
+**8 der 13 Sauter-Dateien bleiben offen** (Kapitel 04-11, Klassizismus/Historismus/
+Eklektizismus bis Moderne-Postmoderne). Sperrlisten-Prüfung: kein Fund, ausschliesslich
+historische, öffentlich bekannte Architekten/Bauwerke. `git diff --numstat` auf die
+Inventardatei zeigte `41 0` (reiner Append). **Nächster Lauf:** Kapitel
+`04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS` lesen, davor Duplikatscheck gegen
+Wiki-Bestand.

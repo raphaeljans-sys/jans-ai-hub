@@ -3,7 +3,7 @@ title: "Utopische Stadtentwürfe: fünf Leitideen-Typen und Tony Garniers Cité 
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1917_1910_Stadtutopien_Ecole_des_Beaux_Art_Garnier/Test_Uebung/01_Text_Uebung_Test/110411_Stadtutopien_und_Stadtideale.docx (eigenes Übungs-/Testdokument zur Vorlesungsreihe Geschichte des Städtebaus, Lampugnani/Christiaanse, Modul Stadtutopien/Garnier)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md"]
-links: ["[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]]"]
+links: ["[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]]", "[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]"]
 ---
 
 # Utopische Stadtentwürfe: fünf Leitideen-Typen und Tony Garniers Cité Industrielle
