@@ -2946,3 +2946,49 @@ nächster Schritt:** Fortsetzung nach Dateigrösse unter den 9 verbliebenen Posi
 (`wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`,
 `deskey.htm`, `bugholz.htm`, `day.htm`), sonst laut Queue-Regel nächste Sektion mit offenem
 P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (128. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen); `git status`/`git log`
+vor Beginn geprüft, Working Tree sauber (Top-Commit `317ba2180`). Hostname Macmini via
+`scutil` bestätigt, genau ein `claude -p`-Prozess mit diesem Dispatch-Text (PID 56559),
+kein Doppel-Dispatch.
+
+Die drei kleinsten der 9 laut 127. Lauf verbliebenen Positionen gelesen: `wegner.htm`,
+`mathsson.htm`, `coates.htm`. Duplikatscheck vorab (`grep -rli` gegen `wiki/*.md` ohne
+`INDEX.md`/`QUESTIONS.md`):
+
+- `wegner.htm` (Personenbiografie Hans Wegner) — bislang nur Streuverweise in
+  [[ruhlmann-art-deco-vs-kaare-klint-skandinavischer-funktionalismus]] (Nachfolgegeneration
+  Klints), [[mailaender-triennale-institutionsgeschichte-1923-1968]] (Preisträger elfte
+  Triennale) und [[verner-panton-kunststoffmoebel-stapelstuhl-fritz-hansen-vitra]]
+  (Gegenbeispiel Handwerkslinie); kein eigener Artikel. Neuer Artikel
+  [[hans-wegner-daenische-moderne-the-chair-china-stuhl]] (China-Stuhl 1944, «The Chair»
+  1949, Lehrjahre bei Arne Jacobsen 1938–1943, Rückverlinkung auf die drei bestehenden
+  Streuverweis-Artikel).
+- `mathsson.htm` (Personenbiografie Bruno Mathsson) — bislang nur Namensnennung in
+  [[konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939]] und
+  [[verner-panton-kunststoffmoebel-stapelstuhl-fritz-hansen-vitra]]; kein eigener Artikel.
+  Neuer Artikel [[bruno-mathsson-schwedische-moderne-eva-stuhl-superellipse]] (Eva-Stuhl
+  1934, «schwedisch modern», Superellipse 1964 mit Piet Hein, Bezug zu Klints
+  Stuhl-Neudefinition).
+- `coates.htm` (Personenbiografie Wells Coates) — bislang nur Namensnennung in
+  [[kenneth-grange-britisches-produktdesign-kodak-kenwood-british-rail]]; kein eigener
+  Artikel. Neuer Artikel
+  [[wells-coates-britische-moderne-isokon-ekco-radio-lawn-road]] (Isokon-Gründung 1932 mit
+  Jack Pritchard, Lawn-Road-Flats mit Breuers Isokon-Liegestuhl, PEL-Stahlrohrserie 1935,
+  Ekco-Bakelitradios AD65/Princess Handbag, BBC Broadcasting House 1931/32), dazu
+  Rückverlinkung im bestehenden Stahlrohr-Artikel
+  [[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]] ergänzt
+  (Isokon/PEL-Verbindung zu Breuer). Ein unvollständiger Namenseintrag im Quelltext
+  («... und insbesondere ...», Satz bricht ab) ausgelassen statt geraten, Frage #78 in
+  `wiki/QUESTIONS.md`.
+
+Damit sind 122 von 128 Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert, 6
+inhaltstragende Positionen bleiben offen. `git diff --numstat` auf die Inventardatei zeigte
+keine Änderung (Sammelzeile unverändert), auf die drei neuen Wiki-Dateien reine Neuanlage,
+auf den ergänzten Stahlrohr-Artikel `3 0` (reiner Anhang, kein Inhaltsverlust). Details
+CHANGELOG 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach
+Dateigrösse unter den 6 verbliebenen Positionen (`sapper.htm`, `castiglioni.htm`,
+`dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`), sonst laut Queue-Regel nächste
+Sektion mit offenem P1/P2.

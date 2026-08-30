@@ -1,5 +1,63 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (128. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen). `git status`/`git log`
+vor Beginn geprüft, Working Tree sauber (Top-Commit `317ba2180`). Hostname `Macmini` via
+`scutil` bestätigt, genau ein `claude -p`-Prozess mit diesem Dispatch-Text (PID 56559), kein
+Doppel-Dispatch.
+
+Die drei kleinsten der laut 127. Lauf verbliebenen 9 Positionen gelesen: `wegner.htm`
+(14866 Bytes), `mathsson.htm` (15090 Bytes), `coates.htm` (15285 Bytes). Duplikatscheck
+vorab (`grep -rli` gegen `wiki/*.md` ohne `INDEX.md`/`QUESTIONS.md`):
+
+- **`wegner.htm`** — vollständige Design-Biografie Hans Wegner (Tischlerlehre Jütland ab
+  1931, Architekturstudium Kopenhagen, fünf Jahre Assistenz bei Arne Jacobsen 1938–1943,
+  eigenes Büro Gentofte ab 1943, China-Stuhl 1944, «Pfau»-Stuhl 1947, «The Chair» 1949,
+  rund 500 Stühle über die Karriere, Lunning-Preis 1951). Bislang nur Streuverweise in
+  [[ruhlmann-art-deco-vs-kaare-klint-skandinavischer-funktionalismus]] (Nachfolgegeneration
+  Kaare Klints), [[mailaender-triennale-institutionsgeschichte-1923-1968]] (Preisträger
+  elfte Triennale 1957) und
+  [[verner-panton-kunststoffmoebel-stapelstuhl-fritz-hansen-vitra]] (Gegenbeispiel
+  Handwerkslinie) — kein Duplikat. Neuer Artikel
+  [[hans-wegner-daenische-moderne-the-chair-china-stuhl]], `status: speculative`, mit
+  Rückverlinkung auf alle drei bestehenden Erwähnungen. Datierungswiderspruch zur
+  Triennale-Auszeichnung 1957 (Silbermedaille laut `wegner.htm` vs. Grosser Preis laut
+  `mailand.htm`) unaufgelöst dokumentiert, da beide Quellen aus demselben unverifizierten
+  Website-Spiegel stammen.
+- **`mathsson.htm`** — vollständige Design-Biografie Bruno Mathsson (Möbelschreinerlehre
+  beim eigenen Vater Värnamo 1923–1931, Eva-Stuhl 1934, internationale Ausstellungen
+  Paris/San Francisco/New York 1937–1939, Architekturschwerpunkt 1945–1958,
+  Superellipse-Tisch 1964 mit Piet Hein). Bislang nur Namensnennung in
+  [[konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939]] und
+  [[verner-panton-kunststoffmoebel-stapelstuhl-fritz-hansen-vitra]] — kein Duplikat. Neuer
+  Artikel [[bruno-mathsson-schwedische-moderne-eva-stuhl-superellipse]],
+  `status: speculative`, mit Bezug auf Kaare Klints parallele Stuhl-Neudefinition.
+- **`coates.htm`** — vollständige Design-/Architektur-Biografie Wells Coates (Kindheit
+  Tokio, Cresta-Silks-Innenarchitektur 1928/29, BBC Broadcasting House 1931/32 mit McGrath/
+  Chermayeff, Lawn-Road-Flats Hampstead 1932–1934 mit Breuers Isokon-Liegestuhl, Isokon-
+  Gründung 1932 mit Jack Pritchard, PEL-Stahlrohrserie 1935 für Embassy Court, Ekco-
+  Bakelitradios AD65 1934/Princess Handbag 1948, Telekinema Festival of Britain 1951,
+  Royal Designer for Industry 1944). Bislang nur Namensnennung in
+  [[kenneth-grange-britisches-produktdesign-kodak-kenwood-british-rail]] — kein Duplikat.
+  Neuer Artikel [[wells-coates-britische-moderne-isokon-ekco-radio-lawn-road]],
+  `status: speculative`, mit Rückverlinkung im bestehenden Stahlrohr-Artikel
+  [[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]] (Isokon/PEL-
+  Verbindung zu Breuer, `git diff --numstat` zeigt `3 0`, reiner Anhang). Ein im Quelltext
+  nach «... und insbesondere ...» abbrechender Name wurde ausgelassen statt geraten, Frage
+  #78 in `wiki/QUESTIONS.md`.
+
+Damit sind 122 von 128 Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert, 6
+inhaltstragende Positionen bleiben offen: `sapper.htm`, `castiglioni.htm`, `dunand.htm`,
+`deskey.htm`, `bugholz.htm`, `day.htm`.
+
+`git diff --numstat` auf die Inventardatei zeigte keine Änderung (Sammelzeile bleibt
+unverändert, Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE). Auf die drei neuen
+Wiki-Dateien reine Neuanlage. Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68
+bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den 6 verbliebenen
+Positionen (`sapper.htm` als kleinste zuerst), sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (127. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen mehr). Hostname `Macmini`

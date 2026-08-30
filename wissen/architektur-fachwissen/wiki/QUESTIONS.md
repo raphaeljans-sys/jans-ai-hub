@@ -4,6 +4,18 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260830 — Zeile 68, `coates.htm` unvollständige Namensaufzählung (128. Lauf Lane FACHWISSEN)
+
+**#78 Ein Name in der Aufzählung britischer Modernisten in `coates.htm` fehlt.** Der Satz
+«Einige wenige progressive Architekten und Designer ..., darunter Raymond McGrath, F. R. S.
+Yorke, Berthold Lubetkin, Maxwell Fry, Serge Chermayeff und insbesondere ...» bricht in der
+Quelldatei nach «insbesondere» ab, bevor der eigentlich betonte Name folgt (vermutlich Wells
+Coates selbst, da der Artikel unmittelbar danach mit dessen Biografie fortfährt, aber nicht
+sicher). Im neuen Artikel
+[[wells-coates-britische-moderne-isokon-ekco-radio-lawn-road]] ausgelassen statt geraten. Wer
+beantworten kann: Abgleich gegen die ungekürzte Quelldatei (falls eine bessere Kopie ohne
+Satzabbruch existiert) oder eine unabhängige Quelle zur britischen Moderne der 1930er.
+
 ## 260830 — Zeile 68, `schichtholz.htm` als Ergänzung statt Einzelartikel (127. Lauf Lane FACHWISSEN)
 
 Quelle: Lane FACHWISSEN, Sektion `02_Kunst_Geschichte`, Zeile 68 (733-Dateien-P2-Position).
