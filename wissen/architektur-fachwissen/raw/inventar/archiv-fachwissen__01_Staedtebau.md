@@ -1025,3 +1025,47 @@ geschlossen. **Nächster Lauf:** `blockreform_sonnedf.pdf` gezielt in Teilabschn
 (96 S., unter der 20-MB-Grenze, aber zu lang für einen Volldurchlauf — analog zur
 Lampugnani-Quellentextband-Strategie), danach Lampugnani-Quellentextband und
 `kapitel01_dk...`-Restkapitel.
+
+## Achtzehnter P2-Lauf, Position 4 abgeschlossen: Sonne-Dossier vollständig (30.08.2026,
+Lane FACHWISSEN, Station laut `scutil` Macmini bestätigt — Dispatch-Text erneut identisch
+veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 68. Beispiel Memory
+`project_fachwissen-dispatch-loop`)
+
+Vor Arbeitsbeginn wie üblich `ps -o pid,ppid,command` (Kette 48039→48040→48082,
+verschachtelte Wrapper derselben Instanz, keine Doppel-Instanz), `scutil` (Macmini
+bestätigt) und `KORPUS-QUEUE.md`/CHANGELOG gegengeprüft: Stand identisch zum 67. Beispiel
+dokumentierten Ende. Unkommittierte Sonne-Kultur-Buchführung des Vorlaufs zuerst per
+`nas-commit-now.sh` gesichert — Versuch scheiterte am bekannten NAS-Merge-Konflikt
+(Konfliktdateien u. a. `wissen/normen/CHANGELOG.md`, `wissen/architekten-synobsis/CHANGELOG.md`,
+`wissen/baurecht/CHANGELOG.md`, `wissen/grobkosten/CHANGELOG.md`, `skills/wissens-destillat/KORPUS-QUEUE.md`),
+Script hat den Merge sauber abgebrochen (kein Konfliktmarker im Arbeitsverzeichnis
+verblieben, `git status` zeigte danach nur die vier eigenen Dateien), dem 15-Min-Cron
+überlassen.
+
+Entgegen der Erwartung des Vorlaufs (Teilabschnitte wegen fehlendem `pdftoppm`) liess sich
+`blockreform_sonnedf.pdf` (13,7 MB, 96 S., Wolfgang Sonne, "Dwelling in the metropolis:
+Reformed urban blocks 1890-1940 as a model for the sustainable compact city", Progress in
+Planning 72, 2009, S. 53-149) **vollständig in einem Zug lesen** — bestätigt den 59.
+Beispiel-Befund, dass die Werkzeuggrenze nicht bei absoluter Dateigrösse, sondern beim
+`pages`-Parameter liegt. Vollständig gelesen, ein neuer Artikel
+[[sonne-dwelling-in-the-metropolis-reformierter-wohnblock-zehn-thesen-praxis]]: sechs
+Grundtypen des reformierten Wohnblocks (mit Grundrisszeichnungen S. 143-144), die
+Fallstudien-Systematik über neun Länder, Sonnes zehn explizite Entwurfsthesen für die
+nachhaltige kompakte Stadt (S. 147-148, direkt bürorelevant) und der Vorschlag
+"Urbanität" als neues historiografisches Paradigma. Gegen bestehenden Wiki-Bestand
+geprüft (`grep -ril sonne wiki/*.md`): kein Duplikat zu
+[[sonne-kultur-der-urbanitaet-dichte-stadt-kontinuitaetsthese]] (dort nur eine Kurzfassung
+derselben These, hier die volle empirische Fallbasis und die zehn Praxisthesen zum
+ersten Mal destilliert) oder zu
+[[sonne-aesthetische-nachhaltigkeit-angemessenheit-neun-punkte]] (anderes Thema). `git
+diff --numstat` auf diese Inventardatei zeigt reinen Append.
+
+**Sonne-Dossier damit vollständig abgeschlossen** (alle sechs Dateien plus Bildordner
+gesichtet, nur die 85-MB-Dissertation `eth-24111-02.pdf` bleibt an der 20-MB-Grenze
+dauerhaft blockiert). **Von den 33 Autorendossiers der Position 4 weiterhin 25 mit Ertrag
+bearbeitet** (Zählung unverändert, da Sonne bereits im 67. Lauf mitgezählt wurde — dieser
+Lauf vervollständigt nur die dritte Datei desselben Dossiers). Offen bleiben weiterhin der
+Lampugnani-Quellentextband (358 S. Scan) und `kapitel01_dk...` Unterkapitel 1/2/4/5, dazu
+acht der 33 Autorendossiers unangetastet. **Nächster Lauf:** Lampugnani-Quellentextband
+(erste 20-30 Seiten als Vollzugriff versuchen, analog zur soeben bestätigten
+Ganzdatei-Strategie), sonst nächstes unbearbeitetes Autorendossier nach Ordnernummer.
