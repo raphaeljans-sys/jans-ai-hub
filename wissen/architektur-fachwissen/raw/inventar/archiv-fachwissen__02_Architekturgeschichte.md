@@ -670,3 +670,47 @@ Architekten und Bauwerke.
 `git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
 **Nächster Lauf:** Kapitel `10 KLASSISCHE MODERNE NEUES BAUEN.pdf` lesen, davor Duplikatscheck.
 lesen, davor Duplikatscheck gegen Wiki-Bestand (hoher Duplikatsverdacht).
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `10 KLASSISCHE MODERNE NEUES BAUEN` (79. Lauf, Lane FACHWISSEN)
+
+**Stand selbst ermittelt** (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md` und
+diese Inventardatei (Zeile 671) bestätigten den 78. Lauf (Kapitel 09 Le Corbusier/Mies) als
+abgeschlossen und committet (Top-Commit `c685b1250`), `git status`/`git log` bestätigten
+sauberen Working Tree, `scutil` bestätigte Hostname Macmini. Dateiname vor Ort geprüft: `10
+KLASSISCHE MODERNE NEUES BAUEN.pdf` (18 S., im Ordner `Sauter_Marion/`).
+
+**Duplikatscheck zuerst ausgeführt:** `grep -lni` gegen alle vierzehn Architektennamen des
+Kapitels (Behrens, Gropius, Loos, Scharoun, Wright, Neutra, Aalto, Terragni, Artaria, Schmidt,
+Braillard, Moser, Fahrenkamp, Indermühle, Meili) über `wiki/*.md`. Erwartete Treffer in
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] (Kanon-Zeilen ohne
+Beschreibungstext) und [[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]]
+(Wright-Kollisionsrisiko aus dem 78. Lauf) bestätigt — Letzterer behandelt Broadacre City/
+theoretische Position, nicht Fallingwater, kein Artikel-Duplikat, beide Artikel gegenseitig
+verlinkt. Das ebenfalls vom Vorlauf vermerkte Eisenman-Kollisionsrisiko bestätigte sich nicht
+(kein Treffer). Keine weiteren Funde.
+
+**Hauptarbeit:** Kapitel `10 KLASSISCHE MODERNE NEUES BAUEN.pdf` vollständig gelesen und
+destilliert zu
+[[sauter-klassische-moderne-neues-bauen-behrens-loos-wright-aalto-vierzehn-bauten-kanon]]:
+Vierzehn-Bauten-Kanon 1908-1936 (Behrens/AEG-Turbinenwerke Berlin, Gropius+Meyer/Fagus-Werke
+Alfeld, Loos/Haus Steiner Wien, Scharoun/Haus Schminke Löbau, Wright/Fallingwater Mill Run,
+Neutra/Health House Los Angeles, Aalto/Tuberkulosesanatorium Paimio, Terragni/Casa del fascio
+Como, Artaria+Schmidt/Haus zum Neuen Singer Basel, Braillard/Les Tilleuls Genf, Moser/
+Antoniuskirche Basel, Fahrenkamp/Hotel Monte Verità Ascona, Indermühle/Schulhaus Stapfenacker
+Bern-Bümpliz, Meili/Infanterie-Kaserne Allmend Luzern), dreizehn Kurzbiografien (Gropius per
+Rückverlinkung auf die bereits bestehende Biografie in
+[[sauter-expressionismus-kubismus-prag-breslau-zehn-bauten-kanon]] statt Doppelführung; Hannes
+Meyer ohne eigene Kurzbiografie in dieser Quelle, bewusst nicht erfunden), ein kurzer Exkurs
+Konstruktivismus in der bildenden Kunst (Malewitsch/Lissitzky/Moholy-Nagy/Tatlin/Rodtschenko,
+ohne eigenen Glossareintrag, rein kunsthistorischer Randbefund).
+
+**Alle 11 der bisher gesichteten 13 Sauter-Dateien sind damit destilliert, 1 bleibt offen:**
+Kapitel `11 MODERNE - POSTMODERNE` (Dateiname laut Ordnerliste bereits bekannt). Duplikatscheck
+davor zwingend.
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte Architekten
+und Bauwerke; Terragni/Casa del fascio als politisch belasteter Bau bleibt rein
+architekturhistorisch referenziert, keine Wertung übernommen.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `11 MODERNE - POSTMODERNE.pdf` lesen, davor Duplikatscheck.

@@ -5138,3 +5138,35 @@ Schreiben zwingend (Kollisionsrisiko mit
 [[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]]). Sperrlisten-Prüfung:
 kein Fund. `git diff --numstat` auf die Inventardatei zeigte einen reinen Append (43 Zeilen).
 **Nächster Lauf:** Kapitel `10 KLASSISCHE MODERNE NEUES BAUEN.pdf` lesen, davor Duplikatscheck.
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `10 KLASSISCHE MODERNE NEUES BAUEN` (79. Lauf, Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, Inventardatei, `git log`/`git status`): 78. Lauf
+(Kapitel 09 Le Corbusier/Mies) bereits abgeschlossen und committet (`c685b1250`), Working Tree
+sauber, kein Vorlauf-Rest. Dateiname vor Ort geprüft: `10 KLASSISCHE MODERNE NEUES BAUEN.pdf`
+(18 S.).
+
+**Duplikatscheck zuerst ausgeführt:** gegen alle vierzehn Architektennamen des Kapitels.
+Erwartete Treffer in [[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]]
+(knappe Kanon-Zeilen ohne Beschreibungstext) und
+[[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]] (Wright-Kollisionsrisiko
+aus dem Vorlauf) bestätigt — Letzterer behandelt Broadacre City/Theorie, nicht Fallingwater,
+kein Duplikat, beide Artikel gegenseitig verlinkt. Das ebenfalls vom Vorlauf vermerkte
+Eisenman-Kollisionsrisiko bestätigte sich nicht (kein Treffer). Keine weiteren Funde.
+
+**Hauptarbeit:** Kapitel (18 S.) vollständig gelesen und destilliert zu
+[[sauter-klassische-moderne-neues-bauen-behrens-loos-wright-aalto-vierzehn-bauten-kanon]]:
+Vierzehn-Bauten-Kanon 1908-1936 (Behrens/AEG-Turbinenwerke, Gropius+Meyer/Fagus-Werke, Loos/
+Haus Steiner, Scharoun/Haus Schminke, Wright/Fallingwater, Neutra/Health House, Aalto/
+Tuberkulosesanatorium Paimio, Terragni/Casa del fascio, Artaria+Schmidt/Haus zum Neuen Singer,
+Braillard/Les Tilleuls, Moser/Antoniuskirche Basel, Fahrenkamp/Hotel Monte Verità, Indermühle/
+Schulhaus Stapfenacker, Meili/Infanterie-Kaserne Allmend), dreizehn Kurzbiografien (Gropius per
+Rückverlinkung auf [[sauter-expressionismus-kubismus-prag-breslau-zehn-bauten-kanon]] statt
+Doppelführung, Hannes Meyer ohne eigene Bio in dieser Quelle — bewusst als Lücke belassen), Exkurs
+Konstruktivismus in der bildenden Kunst (ohne eigenen Glossareintrag, reiner Randbefund).
+
+**Alle 11 der bisher gesichteten 13 Sauter-Dateien destilliert, 1 bleibt offen:** Kapitel `11
+MODERNE - POSTMODERNE`. Duplikatscheck davor zwingend. Sperrlisten-Prüfung: kein Fund,
+Terragni/Casa del fascio als politisch belasteter Bau bleibt rein architekturhistorisch
+referenziert. `git diff --numstat` auf die Inventardatei zeigte einen reinen Append.
+**Nächster Lauf:** Kapitel `11 MODERNE - POSTMODERNE.pdf` lesen, davor Duplikatscheck.
