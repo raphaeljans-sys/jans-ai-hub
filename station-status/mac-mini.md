@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 23:29:30
+Stand: 30.08.2026 23:39:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:04)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:35)
 - /Users/raphaeljans  (letzte Aktivitaet 23:26)
 
 ## Laufende Arbeits-Prozesse
@@ -13,4 +13,4 @@ Stand: 30.08.2026 23:29:30
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f572d1989 Lane FACHWISSEN: Landschaftsarchitektur P2 (Baumschutz Luzern, Gehölz-Kurzwissen, Vogt-Referenzblatt, Gartenanalyse-Raster)
+- 778e5dd78 wissens-chef Run 48: Fristen-Nachtraege (twin-Wachstums-Riegel 4. Lauf ohne Wirkung, Sync-Divergenz nativ 372/251 mit inhaltlichen Konflikten) + Betriebsbefund im Laufbericht

@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 23:25:22
+Stand: 30.08.2026 23:35:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:21)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 23:25:22
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6365371d5 Lane FACHWISSEN 128. Lauf: Wegner/Mathsson/Coates destilliert, Zeile 68 122/128
+- 778e5dd78 wissens-chef Run 48: Fristen-Nachtraege (twin-Wachstums-Riegel 4. Lauf ohne Wirkung, Sync-Divergenz nativ 372/251 mit inhaltlichen Konflikten) + Betriebsbefund im Laufbericht

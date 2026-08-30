@@ -9989,3 +9989,23 @@ fehlen dort, obwohl in `kennwerte.md` verarbeitet), `2105-steinkogler-davos.md` 
 `wissen/grobkosten/outputs/2026-08-30_health-check.md`, CHANGELOG-Eintrag gesetzt, Diff nativ
 geprueft (nur Insertion, keine Loeschung). Kein Versand/Publikation/Buchung. Budget rund 4.2 von
 5 USD, Zyklus beendet.
+
+## 2026-08-30 23:4x Nachtschicht Mac Mini — Zyklus ohne Aufgabe geschlossen (Doppelarbeit-Guard)
+
+Vor Aufgabenwahl geprueft, was heute Nacht bereits gelaufen ist: der 13:30-Versuchs-Slot hat
+Prioritaeten 1-4 abgedeckt (energie RiLuMi-Nachfuehrung, "Run 168, Nachtschicht"), ein weiterer
+Nachtschicht-Zyklus hat Prioritaet 6 (wissenscheck grobkosten, aeltestes Audit-Datum) bereits mit
+Report erledigt (Budget ~4.2/5, letzter LOGBUCH-Eintrag vor diesem). Parallel dazu laufen aktuell
+mehrere unabhaengige Mechanismen live auf denselben Zielen: `wissens-chef` Run 48 (23:31,
+energie+planungsgrundlagen), `twin-fidelity-review`/QUESTIONS-Schreiblauf (23:33, twin), Lane
+FACHWISSEN (23:27-23:30, architektur-fachwissen), Schub-Lane THALWIL (baurecht). Jeder verbleibende
+freie Trainingsplatz ist damit entweder foermlich erledigt/ausgesetzt (bauprodukte seit 15.08.,
+grobkosten seit 13.08.) oder in den letzten Minuten von einem anderen Lauf angefasst worden
+(energie, twin, baurecht, architektur-fachwissen, koordination). Zusaetzlich ist das seit 29.08.
+offene P1 "NAS-GitHub-Sync blockiert" laut jüngster nativer Messung (Wissens-Chef Run 48, 23:31)
+auf 372 lokale Commits voraus / 251 zurueck angewachsen, mit echten Inhaltskonflikten in
+Wiki-Dateien (nicht mehr nur CHANGELOG-Kopfkollisionen) — jeder zusaetzliche unbeteiligte Schreib-
+zugriff auf ein wiki/CHANGELOG in genau diesen KBs vergroessert die Konfliktflaeche, die spaeter
+von Hand zusammengefuehrt werden muss. Sinnvoller als eine erzwungene siebte Baustelle in derselben
+Nacht: Zyklus sauber ohne Aenderung an Wissensdateien beenden. Kein neuer Sachbefund, keine Aktion,
+kein Versand. Budget rund 1.3 von 5 USD, Zyklus beendet.
