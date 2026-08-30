@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 09:32:09
+Stand: 30.08.2026 09:42:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:04)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 09:32:09
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 662b670ea P2-Lauf 29 abgeschlossen: Francesco di Giorgio Martini destilliert, Seitenoffset im Quellentextband dokumentiert
+- 7d2223483 FACHWISSEN: Bern/Siena Quellentextband destilliert, Inhaltsverzeichnis 54 Positionen gefunden
