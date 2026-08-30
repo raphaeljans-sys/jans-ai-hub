@@ -1,5 +1,50 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, siebenundzwanzigster P2-Lauf (Al-Farabi und Ibn Abdun destilliert, bislang unbemerkter islamischer Textblock im Quellentextband gefunden, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn Stand gegen `KORPUS-QUEUE.md`, `git log` gegengeprüft, working
+tree sauber. Stichprobenprüfung der seit dem 18. Lauf wiederholten, nie
+namentlich belegten Behauptung «acht Autorendossiers bleiben unangetastet»:
+sieben stichprobenartig geprüfte Dossiers (Stuart, Pawley, Waldenheim,
+Tessenow, Eitelberger, Bellamy, Hegemann/Koolhaas/Engels) erwiesen sich als
+bereits erledigt — die Zahl acht ist nicht mehr belastbar, aber auch nicht
+abschliessend widerlegt (keine vollständige Einzelprüfung). Empfehlung für
+künftige Läufe im Inventar vermerkt: Ordnerliste gegen Wiki-Bestand
+abgleichen statt Zahl fortzuschreiben.
+
+Wichtigerer Fund: `grep -i` nach sechs islamischen Autorennamen (Al-Farabi,
+Ibn Abdun, Ibn Dschubair, Al-Ghazali, Ibn Chaldun zweimal, S. 173-190 des
+Quellentextbands) über alle 26 bisherigen Läufe dieser Inventardatei ergab
+null Treffer — der gesamte Block wurde nie als Kandidat genannt, vermutlich
+weil die Inhaltsübersicht des 21. Laufs ihn nicht auflistete. Auch Francesco
+di Giorgio Martinis anthropometrische Stadt-Körper-Proportionslehre (S.
+251-254) ist noch offen.
+
+In diesem Lauf destilliert:
+
+- Al-Farabi, «Der Musterstaat» (870-950 n. Chr., S. 173-174): zweistufige
+  Gesellschaftshierarchie (vollkommene Gesellschaft dreistufig bis zur Stadt,
+  unvollkommene Gesellschaften Dorf/Quartier/Haus), Musterstadt als ethisches
+  statt bauliches Kriterium, Stadt-Körper-Organhierarchie-Metapher → neuer
+  Artikel [[al-farabi-musterstaat-gesellschaftshierarchie-koerper-metapher]].
+- Ibn Abdun, «Traktat über das städtische Leben» (Sevilla, frühes 12. Jh., S.
+  175-176): Hisba-Baupolizeiverordnung mit Mindest-Mauerstärke, normierten
+  Baustoff-Musterexemplaren, Herstellungsort-Vorschrift für Ziegel,
+  Strassenreinigungspflicht, festen Standplätzen für Brennholz-/Kalkhändler,
+  fest besoldetem Moschee-Maurermeister und der bürorelevanten
+  Eigentumsrecht-durch-Dauernutzung-Problematik am Moscheevorplatz (Parallele
+  zur römischen Digesta 500 Jahre früher) → neuer Artikel
+  [[ibn-abdun-sevilla-baupolizei-hisba-marktordnung-1100]], zurückverlinkt im
+  bestehenden Digesta-Artikel.
+
+Gegen Wiki-Bestand geprüft, keine Duplikate. `git diff --numstat` auf die
+Inventardatei zeigt reinen Append (`68 0`). Von den ca. 50
+Quellentextband-Auszügen sind jetzt 16 destilliert, rund 30 bleiben offen —
+darunter der gesamte restliche islamische Block (vier Positionen) und
+Francesco di Giorgio Martini. **Nächster Lauf:** Ibn Dschubair
+(Damaskus-Reisebeschreibung, S. 177-180) oder Ibn Chaldun
+(Stadtplanung/Bauhandwerk, S. 183-190), danach Francesco di Giorgio Martini.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, sechsundzwanzigster P2-Lauf (Aristoteles und Digesta aus `Quellentextband-1.pdf` destilliert, Lane FACHWISSEN)
 
 Vor Arbeitsbeginn KORPUS-QUEUE.md/CHANGELOG/wiki/INDEX.md/git log gegengeprüft,

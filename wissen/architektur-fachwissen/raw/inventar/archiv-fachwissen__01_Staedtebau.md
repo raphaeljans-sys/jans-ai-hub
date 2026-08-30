@@ -1394,3 +1394,71 @@ Von den 33 Autorendossiers der Position 4 bleiben weiterhin acht unangetastet �
 kein neuer Fund in diesem Lauf. **Nächster Lauf:** nächstes kurzes,
 eigenständiges Autorendossier oder weitere Quellentextband-Einzelauszüge nach
 Bürorelevanz auswählen.
+
+## Siebenundzwanzigster P2-Lauf, Al-Farabi und Ibn Abdun destilliert — bislang
+unbemerkter islamischer Textblock im Quellentextband gefunden (30.08.2026,
+Lane FACHWISSEN)
+
+Vor Arbeitsbeginn `scutil` (Macmini bestätigt), `ps -o pid,ppid,command` (keine
+Doppel-Instanz), `KORPUS-QUEUE.md`/`CHANGELOG.md`/`git log` gegengeprüft: Stand
+identisch zum 26. Lauf dokumentierten Ende, working tree sauber.
+
+**Befund vor der eigentlichen Destillation:** Stichprobenprüfung der wiederholten
+Behauptung «acht Autorendossiers bleiben unangetastet» (seit dem 18. Lauf in
+praktisch jedem Fortschrittssatz wiederholt, ohne die acht je namentlich zu
+nennen). Gegenprüfung von sieben Dossiers mit auffällig wenigen
+Namenstreffern im CHANGELOG (Stuart, Pawley, Waldenheim, Tessenow,
+Eitelberger, Bellamy, Hegemann/Koolhaas/Engels) ergab: **alle sieben sind
+bereits destilliert oder mit Ertragslosigkeit begründet abgeschlossen**, nur
+mit weniger Changelog-Text pro Position als die grossen Einzelläufe. Die Zahl
+«acht» konnte damit nicht anhand konkreter Namen bestätigt werden — sie ist
+vermutlich seit mehreren Läufen stillschweigend fortgeschrieben worden, ohne
+neu geprüft zu werden. Kein abschliessender Beweis, dass wirklich alle 33
+Dossiers erledigt sind (keine vollständige Einzelprüfung durchgeführt), aber
+der bisherige Zähler ist nicht mehr belastbar. **Empfehlung an künftige
+Läufe:** vor jeder Wiederholung der «acht bleiben offen»-Formel die Liste der
+33 Ordnernamen (`ls` auf `06_Theorie_des_Staedtbaus/`) gegen tatsächlich
+vorhandene Wiki-Artikel/Changelog-Einträge abgleichen, statt die Zahl
+fortzuschreiben.
+
+**Eigentlicher Fund:** Der Quellentextband enthält S. 173-190 einen
+zusammenhängenden Block von sechs islamischen Quellentexten (Al-Farabi, Ibn
+Abdun, Ibn Dschubair, Al-Ghazali, Ibn Chaldun zweimal), der in **keinem** der
+26 vorangegangenen P2-Läufe erwähnt oder auch nur als Kandidat genannt wurde
+(`grep -i` nach allen sechs Autorennamen über diese Inventardatei: null
+Treffer vor diesem Lauf) — vermutlich weil die Inhaltsangabe des 21. Laufs
+(«u. a. Vitruv, Frontinus, Filarete, Alberti, Dürer, Palladio, Descartes,
+Vauban, Ludwig XIV., Dézallier d'Argenville, Manuel da Maia, Kalabrien, Max
+Weber») den Block überging. Auch die im selben Auszug erwähnte
+anthropometrische Stadt-Körper-Proportionslehre bei Francesco di Giorgio
+Martini (S. 251-254) ist noch nicht destilliert.
+
+In diesem Lauf destilliert:
+
+- Al-Farabi, «Der Musterstaat» (870-950 n. Chr., S. 173-174): zweistufige
+  Gesellschaftshierarchie (vollkommene Gesellschaft in drei Stufen bis zur
+  Stadt, unvollkommene Gesellschaften Dorf/Quartier/Haus), Musterstadt als
+  ethisches statt bauliches Kriterium, Stadt-Körper-Organhierarchie-Metapher
+  → neuer Artikel
+  [[al-farabi-musterstaat-gesellschaftshierarchie-koerper-metapher]].
+- Ibn Abdun, «Traktat über das städtische Leben» (Sevilla, frühes 12. Jh., S.
+  175-176): konkrete Hisba-Baupolizeiverordnung mit Mindest-Mauerstärke,
+  normierten Baustoff-Musterexemplaren, Herstellungsort-Vorschrift für Ziegel,
+  Strassenreinigungspflicht, festen Standplätzen für Brennholz-/Kalkhändler,
+  fest besoldetem Moschee-Maurermeister, und der direkt bürorelevanten
+  Eigentumsrecht-durch-Dauernutzung-Problematik am Moscheevorplatz (Parallele
+  zur römischen Digesta 500 Jahre früher) → neuer Artikel
+  [[ibn-abdun-sevilla-baupolizei-hisba-marktordnung-1100]], zurückverlinkt im
+  bestehenden Digesta-Artikel.
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach Farabi/Musterstaat/Abdun/Sevilla
+über `wiki/*.md`): keine Duplikate, beide Themen bisher unbehandelt. `git diff
+--numstat` auf diese Inventardatei zeigt reinen Append. **Von den ca. 50
+Quellentextband-Auszügen sind jetzt 16 destilliert, rund 30 bleiben offen —
+darunter der gesamte restliche islamische Block (vier Positionen: Ibn
+Dschubair/Damaskus, Al-Ghazali, Ibn Chaldun zweimal) und Francesco di Giorgio
+Martini.** **Nächster Lauf:** Ibn Dschubair (Damaskus-Reisebeschreibung, S.
+177-180, kurz und bürorelevant als früher Stadtbeschreibungstext) oder Ibn
+Chaldun (Stadtplanung/Bauhandwerk-Kapitel, S. 183-190, direkt bürorelevant),
+danach Francesco di Giorgio Martini (anthropometrische Stadtproportionen, S.
+251-254, ergänzt den neuen Al-Farabi-Artikel).
