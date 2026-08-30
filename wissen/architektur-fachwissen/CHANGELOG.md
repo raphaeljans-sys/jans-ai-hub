@@ -1,5 +1,23 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, fünfzehnter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, Prozessbaum 42877→42880→42886, keine Doppel-Instanz)
+
+Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/CHANGELOG geprüft: entsprach exakt dem Ende
+des vierzehnten Laufs, dessen Buchführung (Inventardatei, CHANGELOG, Rossi-Artikel) noch
+uncommittet lokal vorlag und zuerst per `nas-commit-now.sh` gesichert wurde. Sievers-Dossier
+(`Siewerts_Thomas/`, zwei Dateien) vollständig gesichtet: `Bosshard_Zwischenstadt.pdf`
+(dreiseitige HSLU-Zusammenfassung des gesamten Buches, echte Textebene) und die 6,2-MB-Datei
+`Thomas Sieverts - Zwischenstadt.pdf` (Bildscan ohne Textebene laut `pypdf`, aber vom
+Read-Tool trotzdem vollständig gelesen — vollständiger Originalwortlaut von Buchkapitel 4
+«Die Zwischenstadt als Gestaltungsfeld», S. 102-137). Neuer Artikel
+[[sieverts-zwischenstadt-drei-voraussetzungen-aesthetik-anaesthetik-iba-emscher-park]]
+(Begriff Zwischenstadt und drei Voraussetzungen, Ästhetik/Anästhetik nach Wolfgang Welsch,
+Sieverts' eigene Fachliteraturauswahl, IBA Emscher Park als Anwendungsbeispiel). Gegen den
+bestehenden Kevin-Lynch-Artikel geprüft, keine Duplikation. Von den 33 Autorendossiers der
+Position 4 sind damit 22 mit Ertrag bearbeitet, 11 bleiben offen (Giedion, Hilberseimer,
+Lampugnani, Sonne, plus fünf ohne Ertrag aus Vorläufen). Details Inventardatei
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`, Abschnitt `## Destillat-Fortschritt`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, vierzehnter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, PID 41686, keine Doppel-Instanz)
 
 Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/CHANGELOG geprüft: entsprach exakt dem Ende

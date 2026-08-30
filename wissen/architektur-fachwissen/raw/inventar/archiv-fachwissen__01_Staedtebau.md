@@ -883,3 +883,39 @@ Hilberseimer, Lampugnani (10,8 MB `Quellentextband-1.pdf` noch ungeprüft), Siev
 zuerst (kleinere Restdateien), dann Giedion/Hilberseimer/Lampugnani/Sonne (grössere,
 teils über 20-MB-Grenze blockierte Dateien). Danach `kapitel01_dk...` Unterkapitel 1/2/4/5
 als eigene, von den Autorendossiers unabhängige Restaufgabe dieser Sektion angehen.
+
+**30.08.2026 (Lane FACHWISSEN, fünfzehnter P2-Lauf, Position 4 fortgesetzt — Sievers
+abgeschlossen):** vor Arbeitsbeginn wie üblich `scutil` (Macmini bestätigt, Dispatch-Text
+weiterhin identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro»),
+`ps aux` (Prozessbaum 42877→42880→42886, keine echte Doppel-Instanz, parallel dazu die
+unabhängige Lane SYNOBSIS) und `KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft — Stand
+identisch zum Ende des vierzehnten Laufs, dessen Buchführung (Inventardatei, CHANGELOG,
+Rossi-Artikel) allerdings noch uncommittet lokal vorlag und zuerst per `nas-commit-now.sh`
+gesichert wurde. `Siewerts_Thomas/` (zwei Dateien) vollständig gesichtet:
+
+- `Bosshard_Zwischenstadt.pdf` (echte Textebene, 3 S., HSLU-Modul «Gebautes Umfeld» SS07) —
+  vollständige Zusammenfassung von Vorwort und allen vier Buchkapiteln.
+- `Thomas Sieverts - Zwischenstadt.pdf` (6,2 MB, reiner Bildscan ohne Textebene laut
+  `pypdf`-Probe) — Read-Tool direkt auf die volle Datei probiert statt vorschnell als
+  „OCR nötig" zu verwerfen (Rule 9/10 dieser Lane): funktionierte klaglos trotz fehlender
+  Textebene, lieferte den vollständigen Originalwortlaut von Buchkapitel 4 «Die
+  Zwischenstadt als Gestaltungsfeld» (S. 102-137, 19 Scan-Seiten).
+- Neuer Artikel
+  [[sieverts-zwischenstadt-drei-voraussetzungen-aesthetik-anaesthetik-iba-emscher-park]]
+  (Begriff Zwischenstadt und seine drei Voraussetzungen, Ästhetik/Anästhetik nach Wolfgang
+  Welsch mit Originalzitat, Sieverts' eigene Literaturauswahl/Fachbeiträge-Kapitel, IBA
+  Emscher Park als Anwendungsbeispiel mit vier konkreten Bauten). Gegen den bestehenden
+  Kevin-Lynch-Artikel geprüft (`grep -ril "kevin lynch" wiki/*.md`): Lynchs Fünf-Elemente-
+  Modell wird im neuen Artikel nur verlinkt, nicht wiederholt, da Sieverts ihn zwar als
+  wichtigsten Bezugsautor nennt, selbst aber keine über den bestehenden Artikel
+  hinausgehenden Lynch-Inhalte liefert.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Von den 33
+Autorendossiers der Position 4 sind damit 22 mit Ertrag bearbeitet**; weiterhin drei
+leer/ohne Ertrag (Leveillé, Siedler, Sutcliffe) und zwei ohne Ertrag geprüft (Mumford,
+Gracq). **11 Autorendossiers bleiben offen**: Giedion, Hilberseimer, Lampugnani (10,8 MB
+`Quellentextband-1.pdf` noch ungeprüft), Sonne (mehrteiliges Dossier, eine Datei 85 MB,
+über 20-MB-Grenze). **Nächster Lauf:** Giedion/Hilberseimer/Lampugnani zuerst (Read-Tool
+direkt probieren, auch wenn `pypdf` keine Textebene zeigt, siehe Sievers-Befund), Sonne
+zuletzt (grösstenteils über 20-MB-Grenze blockiert). Danach `kapitel01_dk...` Unterkapitel
+1/2/4/5 als eigene, von den Autorendossiers unabhängige Restaufgabe dieser Sektion angehen.
