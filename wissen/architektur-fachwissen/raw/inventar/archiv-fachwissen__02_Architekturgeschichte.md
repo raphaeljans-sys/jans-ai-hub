@@ -1145,3 +1145,54 @@ Nächstes die drei Nicht-Portrait-Positionen des Architektenportrait-Ordners (`9
 `16_schloss_versailles` — jetzt mit Duplikatrisiko gegen diesen Lauf zu prüfen —,
 `26_paris_um_1800`), `Fragen.doc`-Rest, danach die rund 20 verbleibenden offenen
 Einzelportraits.
+
+## Destillat-Fortschritt, 91. Lauf Lane FACHWISSEN (30.08.2026)
+
+Stand selbst ermittelt, ohne den mitgelieferten Dispatch-Text zu übernehmen (der nennt
+bewusst keine Zahlen): `KORPUS-QUEUE.md`, `wiki/INDEX.md` Zeile `02_Architekturgeschichte`
+und diese Inventardatei gegengeprüft, `git status`/`git log` vor Beginn sauber (Top-Commit
+`fca118764`), `scutil` bestätigt Macmini, `ps -eo pid,ppid,command` zeigt keine
+Doppel-Instanz dieser Lane. Vorab geprüft: die 36.-P2-Lauf-Auditzeile in `wiki/INDEX.md`
+(«P1 ist über `buero-referenzen` UND `archiv-fachwissen` vollständig abgeschlossen») steht
+weiterhin unwidersprochen — P1 bleibt für beide Ziel-Korpora dieser KB erledigt, offen ist
+ausschliesslich P2. Die drei vom 90. Lauf benannten Nicht-Portrait-Positionen des
+Architektenportrait-Ordners bearbeitet:
+
+- **`9_rom_st.pdf`** (St. Peter, Rom, 2 Seiten): Duplikatscheck zuerst gegen
+  [[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]] und
+  [[toennesmann-bernini-baldachin-cornaro-kapelle-petersplatz-entwurfsgeschichte-scala-regia]]
+  — Baldachin, Cornaro-Kapelle und Petersplatz-Entwurfsgeschichte sind dort bereits vertieft
+  vorhanden, deshalb hier nicht wiederholt. Echter Zusatzwert (Kolonnaden-Statuenzahl,
+  Maderno-Fassadenmasse, Gesamtmasse, künstlerische Ausstattung inkl. Papstgräbern,
+  Bauabschluss 1626) als neuer Abschnitt «Fünfter Architekt: Bernini» in
+  [[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]] ergänzt. Ein
+  Quellenwiderspruch dokumentiert, nicht aufgelöst: Gesamtlänge 211 m (diese Quelle) gegen
+  186,3 m (Renaissance-Zusammenfassung.pdf, selbe Vorlesungsreihe).
+- **`16_schloss_versailles.pdf`** (5 Seiten, zwei Texte): erster Text (Versailles-
+  Baugeschichte) grösstenteils Duplikat von
+  [[toennesmann-bernini-louvre-entwuerfe-perrault-ostfassade-versailles-baugeschichte]] —
+  nur die Vorgeschichte 1623-1661 (Richelieu-Pavillon, Le Roy, Ludwig-XIII.-Erwerb) sowie
+  Innenausstattung/Sonnenkönig-Symbolik und Nutzungsrealität (unbeheizbar, keine Toiletten)
+  waren neu und wurden als Abschnitt «Versailles vor 1661» in jenen Artikel ergänzt. Zweiter
+  Text (Barbara Borngässer, «Architektur des Barock in Frankreich», S. 2-5) ist durchgehend
+  neuer Stoff — Heinrich IV./Place Royale-Typus (Rückverlinkung statt Wiederholung, da
+  [[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]] die Typologie
+  bereits führt), Salomon de Brosse, François Mansart (Schloss Blois/Maisons), Le Vau
+  (Vaux-le-Vicomte/Hôtel Lambert), Eglise de la Sorbonne, Querelle des anciens et des
+  modernes (Blondel/Porte-Saint-Denis gegen Perrault/Pariser Observatorium), Hardouin-Mansart
+  (Invalidendom) — neuer Artikel
+  [[borngaesser-franzoesischer-barock-heinrich-iv-bis-hardouin-mansart-invalidendom]].
+- **`26_paris_um_1800.pdf`** (2 Seiten, Wikipedia-Kompilat): vollständig neuer Stoff, kein
+  Duplikat gefunden (Percier/Fontaine/Empire-Stil, Arc de Triomphe du Carrousel und de
+  l'Étoile, Hittorff, Place de la Concorde) — neuer Artikel
+  [[paris-empire-architektur-percier-fontaine-arc-de-triomphe-hittorff-place-concorde]].
+
+**Damit sind alle drei vom 90. Lauf benannten Nicht-Portrait-Positionen des
+Architektenportrait-Ordners abgearbeitet** (zwei Artikelergänzungen, zwei neue Artikel).
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische Architekten/Monarchen/Päpste.
+`git diff --numstat` nach jedem Schreibschritt geprüft: reiner Append auf dieser
+Inventardatei, Artikeländerungen betreffen ausschliesslich `wiki/`. **Nächster Lauf:**
+`Fragen.doc`-Rest (laut 84. Lauf bereits vollständig erledigt — vor erneuter Bearbeitung
+zuerst gegenprüfen, ob dieser Punkt in der Queue-Zelle nur redaktionell hängen geblieben
+ist), danach die rund 20 verbleibenden offenen Einzelportraits des Architektenportrait-
+Ordners (Duplikatscheck-Kriterium wie in den Läufen 81-83).

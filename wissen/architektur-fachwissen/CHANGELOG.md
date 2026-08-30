@@ -5630,3 +5630,46 @@ Nächstes die drei Nicht-Portrait-Positionen des Architektenportrait-Ordners (`9
 `16_schloss_versailles` — jetzt mit Duplikatrisiko gegen diesen Lauf zu prüfen —,
 `26_paris_um_1800`), `Fragen.doc`-Rest, danach die rund 20 verbleibenden offenen
 Einzelportraits nach demselben Duplikatscheck-Kriterium.
+
+## 260830 — die drei Nicht-Portrait-Positionen des Architektenportrait-Ordners (91. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen), `git log`/`git status`
+sauber vor Beginn (Top-Commit `fca118764`), `scutil` bestätigt Macmini, keine
+Doppel-Instanz. Vorab gegengeprüft: die 36.-P2-Lauf-Auditzeile in `wiki/INDEX.md` («P1 ist
+über `buero-referenzen` UND `archiv-fachwissen` vollständig abgeschlossen») ist weiterhin
+gültig — P1 bleibt für beide Ziel-Korpora dieser KB erledigt, offen ist ausschliesslich P2.
+Die drei vom 90. Lauf benannten Positionen bearbeitet:
+
+- `9_rom_st.pdf` (St. Peter, Rom): Duplikatscheck gegen die beiden bestehenden St.-Peter-/
+  Bernini-Artikel — Baldachin, Cornaro-Kapelle, Petersplatz-Entwurfsgeschichte dort bereits
+  vertieft, hier nicht wiederholt. Neuer Abschnitt «Fünfter Architekt: Bernini» in
+  [[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]] ergänzt:
+  Kolonnaden-Statuenzahl (140), Maderno-Fassadenmasse (45 x 115 m), Gesamtmasse
+  (211 m/15'160 m²/60'000 Gläubige), künstlerische Ausstattung (Pietà, Petrus-Statue Arnolfo
+  di Cambio, vier Papstgräber), Bauabschluss 1626. Quellenwiderspruch dokumentiert: 211 m
+  Gesamtlänge hier gegen 186,3 m in der bereits destillierten Renaissance-Zusammenfassung.pdf
+  (dieselbe Vorlesungsreihe Tönnesmann).
+- `16_schloss_versailles.pdf` (5 Seiten, zwei Texte): erster Text grösstenteils Duplikat von
+  [[toennesmann-bernini-louvre-entwuerfe-perrault-ostfassade-versailles-baugeschichte]] —
+  nur Vorgeschichte 1623-1661 (Richelieu-Pavillon, Le Roy, Ludwig-XIII.-Erwerb) und
+  Innenausstattung/Sonnenkönig-Symbolik/Nutzungsrealität waren neu, als Abschnitt
+  «Versailles vor 1661» in jenen Artikel ergänzt. Zweiter Text (Borngässer, «Architektur des
+  Barock in Frankreich») vollständig neuer Stoff: Heinrich IV./Place-Royale-Typus
+  (Rückverlinkung statt Wiederholung), Salomon de Brosse, François Mansart (Schloss
+  Blois/Maisons), Le Vau (Vaux-le-Vicomte/Hôtel Lambert), Eglise de la Sorbonne, Querelle des
+  anciens et des modernes (Blondel/Porte-Saint-Denis gegen Perrault/Pariser Observatorium),
+  Hardouin-Mansart (Invalidendom) — neuer Artikel
+  [[borngaesser-franzoesischer-barock-heinrich-iv-bis-hardouin-mansart-invalidendom]].
+- `26_paris_um_1800.pdf` (Wikipedia-Kompilat): vollständig neuer Stoff, kein Duplikat
+  gefunden — Percier/Fontaine/Empire-Stil, Arc de Triomphe du Carrousel und de l'Étoile,
+  Hittorff, Place de la Concorde — neuer Artikel
+  [[paris-empire-architektur-percier-fontaine-arc-de-triomphe-hittorff-place-concorde]].
+
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische Architekten/Monarchen/Päpste.
+`git diff --numstat` nach jedem Schreibschritt geprüft, Inventardatei-Ergänzung reiner
+Append (`51 0`).
+
+**Damit sind alle drei vom 90. Lauf benannten Nicht-Portrait-Positionen abgearbeitet.**
+**Nächster Lauf:** `Fragen.doc`-Rest gegenprüfen (laut 84. Lauf bereits vollständig
+erledigt — vermutlich nur redaktionell in der Queue-Zelle hängen geblieben), danach die
+rund 20 verbleibenden offenen Einzelportraits nach demselben Duplikatscheck-Kriterium.

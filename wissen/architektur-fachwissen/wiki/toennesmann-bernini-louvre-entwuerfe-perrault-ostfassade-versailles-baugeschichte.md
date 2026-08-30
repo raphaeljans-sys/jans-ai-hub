@@ -2,7 +2,7 @@
 title: "Pariser Absolutismus-Architektur: Berninis Louvre-Entwürfe, Perraults Ostfassade, Schloss Versailles (Le Vau, Hardouin-Mansart, Le Nôtre, Le Brun)"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/Renaissance-Zusammenfassung.pdf (Tönnesmann-Vorlesungsskript, S. 41-44 von 51, vollständig gelesen)"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/Renaissance-Zusammenfassung.pdf (Tönnesmann-Vorlesungsskript, S. 41-44 von 51, vollständig gelesen)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/01_Architektenportrait/alles/16_schloss_versailles.pdf (S. 1-2 von 5, vollständig gelesen)"]
 links: ["[[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]]", "[[toennesmann-bernini-baldachin-cornaro-kapelle-petersplatz-entwurfsgeschichte-scala-regia]]", "[[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]]", "[[ludwig-xiv-versailles-gartenfuehrung-choreographierte-besichtigungsroute]]"]
 ---
 
@@ -66,6 +66,28 @@ verleiht ihr aber klassische Strenge — zurückhaltend gegliedertes Sockelgesch
 eine langgestreckte Säulenhalle mit triumphbogenartig betonten Ecken, eine hervortretende
 Tempelfront akzentuiert die Mittelachse und bereichert den Schlossbau um ein sakrales Motiv;
 lange Reihung korinthischer Doppelsäulen, durchlaufende Firstlinie über die gesamte Breite.
+
+## Versailles vor 1661: vom Jagdpavillon zum Schloss Ludwigs XIII.
+
+Zusatzquelle `16_schloss_versailles.pdf` (S. 1-2, Duplikatscheck: dort ohne Bauträgerfolge
+und Achsensystem, ergänzt hier nur die Vorgeschichte vor Le Vaus Ummantelung). Erster Bau an
+der Stelle: ein kleiner Pavillon ab 1623 für Kardinal Richelieu, zwei Reitstunden von Paris
+entfernt in sumpfigem Gelände. 1631-1634 durch Philibert Le Roy zu einem dreiflügeligen
+Jagdsitz erweitert (Ziegelstein mit Sandsteinelementen, von einem Graben umgeben, früher
+französischer Barockstil), 1632 von Ludwig XIII. erworben — Reste dieses Jagdschlosses bilden
+bis heute den Marmorhof, den kleinsten der drei Ehrenhöfe zur Stadtseite. Auslöser für den
+grossen Ausbau war laut Quelle der Neid Ludwigs XIV. auf Fouquets Vaux-le-Vicomte (s. u.);
+entgegen dem Rat seiner Architekten weigerte sich der König, das alte Jagdschloss
+aufzugeben — es wurde in mehreren Bauphasen in den Neubau integriert statt ersetzt.
+
+**Innenausstattung und Nutzungsrealität:** die Dekoration (Stuck, Deckengemälde,
+griechische Mythologie) ist durchgehend auf die politischen/wirtschaftlichen Erfolge
+Ludwigs XIV. abgestimmt; der König wird wiederholt mit Apollo gleichgesetzt (Sonnen-/
+Lichtgott), ohne ihn direkt mit dem christlichen Gott gleichzusetzen — Ursprung des
+Beinamens Sonnenkönig. Trotz der Prachtentfaltung war Versailles unkomfortabel: die in
+Enfiladen gereihten, zugigen, hohen Räume liessen sich schlecht heizen (im Winter 1709
+platzten Likörflaschen durch Kälte), es gab weder fliessendes Wasser noch fest installierte
+Toiletten.
 
 ## Schloss Versailles (begonnen 1668)
 
