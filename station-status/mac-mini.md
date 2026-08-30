@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 21:25:50
+Stand: 30.08.2026 21:36:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 20:59)
+- /Users/raphaeljans  (letzte Aktivitaet 21:32)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 21:25:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9a0725571 wissen/architektur-fachwissen: Zeile 68 Sektion 02_Kunst_Geschichte, 113. Lauf (Nizzoli/Colombo/Nelson/Teague/Postmoderne/Otto-Wagner-Ergaenzung)
+- bc36e4c58 Lane FACHWISSEN 116. Lauf: drei Design-Portraits (Graves, Kuramata, Guimard)

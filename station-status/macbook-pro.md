@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 21:32:13
+Stand: 30.08.2026 21:42:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 21:32:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9c1977d12 nas-selfcommit: 1 Datei(en) 2026-08-30 21:30
+- bc36e4c58 Lane FACHWISSEN 116. Lauf: drei Design-Portraits (Graves, Kuramata, Guimard)
