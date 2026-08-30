@@ -765,3 +765,21 @@ Folien-PDFs in den übrigen 8 offenen Vorlesungsordnern auftreten, bleibt diesel
 bestehen, bis ein Werkzeug beschafft wird (InDesign-Export bzw. PDF-Passwort von Raphael).
 Wer beantworten kann: Raphael (Zugriff auf Originaldateien/Passwort) oder eine Station mit
 Adobe-InDesign-Lizenz.
+
+## 260830 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, `120518_Abschlussvorlesung` (Lane FACHWISSEN)
+
+**#70 GarageBand-Tonmitschnitt nicht extrahierbar.** `120518_Abschlussvorlesung/
+02_Tonmittschnitt/120518_Moravanski_Zusammenfassung_AT.band` liegt als GarageBand-Projektpaket
+vor (Ordnerstruktur mit `.aif`-Audiodateien), kein Transkriptionswerkzeug auf der Station.
+Dritte Formatlücke dieser Art nach der InDesign-Mitschrift und der verschlüsselten
+Foliensammlung (#69). Wer beantworten kann: Raphael (Transkriptionsdienst/Spracherkennung
+beauftragen) oder eine Station mit geeignetem Werkzeug.
+
+**#71 Zähldifferenz «23 Vorlesungsordner».** Nach Abschluss aller in der aktuellen NAS-Liste
+sichtbaren Vorlesungsordner in `02_Architekturtheorie` zählt diese Lane 22
+(`110923_VL1_Was_ist_Architekturtheorie` bis `120518_Abschlussvorlesung`), nicht die seit der
+Erstinventarisierung 23.08.2026 durchgehend verwendete Zahl 23. Nicht eigenmächtig korrigiert
+(könnte ein Zählfehler der Erstinventarisierung sein, oder ein seither umbenannter/verschobener
+Ordner, oder eine der Themen-Begriffsordner wurde ursprünglich mitgezählt). Wer beantworten
+kann: Raphael oder ein Abgleich mit dem Original-Sichtungsprotokoll vom 23.08.2026, falls
+vorhanden.

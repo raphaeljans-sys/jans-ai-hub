@@ -575,3 +575,40 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   Tonmitschnitt nicht ausgewertet. Damit ist `120511_Vision_Visualitaet_II_Nadas` für die
   gesichteten Textquellen abgeschlossen. Offen: 3 der 23 Vorlesungsordner. Nächster Lauf:
   `120518_Abschlussvorlesung`.
+
+- **30.08.2026 (22. P2-Lauf, Lane FACHWISSEN, Station laut `scutil` Macmini, Dispatch-Text
+  erneut veraltet/fälschlich «MacBook Pro», 45. Beispiel Memory
+  `project_fachwissen-dispatch-loop`):** Vor Arbeitsbeginn `ps aux`/`scutil` geprüft (ein
+  `claude -p`-Prozess für Lane FACHWISSEN, keine Doppel-Instanz). Unkommittierte
+  `120511_Vision_Visualitaet_II_Nadas`-Buchführung des Vorlaufs zuerst per `nas-commit-now.sh`
+  versucht: erneuter NAS-Merge-Konflikt in sechs fremden KBs (normen, architekten-synobsis,
+  baurecht, grobkosten plus die eigene KB), lokaler Working Tree ohne `MERGE_HEAD`/Konfliktmarker,
+  dem 15-Min-Cron überlassen. `120518_Abschlussvorlesung` bearbeitet (Prüfungsrückblick/
+  Zusammenfassungsvorlesung, 18.05.2012): einzige Quelle die Live-Mitschrift
+  (`120518_Abschlussvorlesung_AT120518.docx`, `textutil`), qualitativ die schwächste der Sektion
+  (durchgehend entstellte Eigennamen, z. B. «Kollhass», «Gerhard Bähme» für Gernot Böhme). Kein
+  Syllabus im Ordner. Tonmitschnitt liegt nur als GarageBand-Projektpaket
+  (`120518_Moravanski_Zusammenfassung_AT.band`) vor, mit den Stationswerkzeugen nicht als Text
+  extrahierbar (dritte Formatlücke dieser Art, siehe `wiki/QUESTIONS.md` #69). Inhaltlich fasst
+  die Vorlesung fast ausschliesslich bereits destillierten Stoff zusammen (Otto Wagner,
+  Townscape, Fuller, Lefebvre, Bachelard, Olmsted, Loos) und enthält Prüfungslogistik (Format:
+  sechs Fragenkomplexe, 90 Minuten, Wörterbücher erlaubt — nicht destilliert, keine
+  bueroverwertbare Fachaussage). Zwei eigenständige Funde ergänzen bestehende Artikel statt neue
+  zu erzeugen (Cross-Duplikat-Prüfung gegen Böhme/Rossi-Artikel, kein neuer Artikel nötig):
+  Böhmes «formloser Raum» am Beispiel Blur Building (Diller & Scofidio, Expo.02 2002) ergänzt in
+  `wiki/zumthor-authentizitaet-atmosphaere-raumkonzeption-vergleich-loos-wright.md`; die
+  Übungsfrage Stalinallee-vs-Friedhof-Modena (sozialistischer Realismus, Typus/Lesbarkeit,
+  «Stadt als Ort des Festes» vs. «Ort der Trauer») ergänzt in
+  `wiki/rossi-theorie-der-permanenz-primaere-sekundaere-stadtelemente.md`. Damit ist
+  `120518_Abschlussvorlesung` für die gesichtete Textquelle abgeschlossen. **Damit sind
+  sämtliche 22 in der aktuellen NAS-Ordnerliste vorhandenen nummerierten Vorlesungsordner
+  (`110923_VL1` bis `120518_Abschlussvorlesung`) mindestens einmal gesichtet und destilliert.**
+  Die in dieser Datei durchgehend verwendete Zählung «23 Vorlesungsordner» ist gegen die reale
+  Ordnerliste nicht restlos nachvollziehbar (Delta-Ehrlichkeit: 22 gezählt, nicht 23) — Ursache
+  nicht mit Sicherheit feststellbar (möglicher Zählfehler der Erstinventarisierung 23.08.2026
+  oder ein inzwischen umbenannter/verschobener Ordner), nicht eigenmächtig korrigiert, sondern
+  neu in `wiki/QUESTIONS.md` vermerkt. Offen bleibt in dieser Sektion damit nur noch die
+  Vorlesungsfolien-Sammel-PDF sowie die durchgehend nicht ausgewerteten Tonmitschnitte/
+  Foliensätze der Einzelvorlesungen — kein Vorlesungsordner mehr ungesichtet. Nächster Lauf:
+  Vorlesungsfolien-Sammel-PDF prüfen, oder gemäss Queue-Regel zur nächstgrössten Sektion mit
+  offenem P2 in `archiv-fachwissen` übergehen (`wiki/INDEX.md` konsultieren).

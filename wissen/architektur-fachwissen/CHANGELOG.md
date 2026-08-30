@@ -1,5 +1,43 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, zweiundzwanzigster P2-Lauf, `120518_Abschlussvorlesung` (Lane FACHWISSEN, 45. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich
+«MacBook Pro», real Macmini laut `scutil`) — am realen Stand (`KORPUS-QUEUE.md`) weitergearbeitet,
+nicht am Dispatch-Text. Vor Arbeitsbeginn geprüft: `ps aux` zeigte nur einen `claude -p`-Prozess
+für Lane FACHWISSEN, keine Doppel-Instanz. Unkommittierte `120511_Vision_Visualitaet_II_Nadas`-
+Buchführung des Vorlaufs per `nas-commit-now.sh` zu sichern versucht: erneuter NAS-Merge-Konflikt
+in sechs fremden KBs (normen, architekten-synobsis, baurecht, grobkosten plus die eigene KB),
+lokaler Working Tree ohne `MERGE_HEAD` und ohne Konfliktmarker, dem 15-Min-Cron überlassen.
+
+`120518_Abschlussvorlesung` (Prüfungsrückblick-/Zusammenfassungsvorlesung, 18.05.2012)
+bearbeitet: einzige Quelle die Live-Mitschrift, kein Syllabus im Ordner, Qualität die
+schwächste der Sektion (durchgehend entstellte Eigennamen). Der Tonmitschnitt liegt nur als
+GarageBand-Projektpaket vor und ist mit den Stationswerkzeugen nicht als Text extrahierbar
+(neue Formatlücke `wiki/QUESTIONS.md` #70). Die Vorlesung fasst inhaltlich fast ausschliesslich
+bereits destillierten Stoff zusammen (Otto Wagner, Townscape, Fuller, Lefebvre, Bachelard,
+Olmsted, Loos) und enthält Prüfungslogistik (Fragenformat, Dauer) ohne Büro-Fachwert — bewusst
+nicht destilliert. Zwei eigenständige Funde ergänzen bestehende Artikel (Cross-Duplikat-Prüfung
+ergab keinen neuen Artikel nötig):
+
+- Böhmes «formloser Raum» am Beispiel Blur Building (Diller & Scofidio, Expo.02 Yverdon 2002,
+  Bezug zu Brunelleschis Spiegelexperiment) ergänzt in
+  `wiki/zumthor-authentizitaet-atmosphaere-raumkonzeption-vergleich-loos-wright.md`.
+- Die Übungsfrage Stalinallee-vs-Friedhof-Modena (sozialistischer Realismus, Typus/Lesbarkeit,
+  «Stadt als Ort des Festes» vs. «Ort der Trauer») ergänzt in
+  `wiki/rossi-theorie-der-permanenz-primaere-sekundaere-stadtelemente.md`.
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` zeigt `-0`). **Damit sind
+sämtliche 22 in der aktuellen NAS-Ordnerliste vorhandenen nummerierten Vorlesungsordner
+gesichtet und destilliert** — die historisch verwendete Zählung «23 Vorlesungsordner» ist
+gegen die reale Ordnerliste nicht restlos nachvollziehbar, neu als `wiki/QUESTIONS.md` #71
+vermerkt statt eigenmächtig korrigiert. Offen bleibt in dieser Sektion nur noch die
+Vorlesungsfolien-Sammel-PDF sowie die generell nicht ausgewerteten Foliensätze/Tonmitschnitte
+der Einzelvorlesungen. `wiki/INDEX.md` und `skills/wissens-destillat/KORPUS-QUEUE.md`
+nachgeführt. Nächster Lauf: Vorlesungsfolien-Sammel-PDF prüfen, oder gemäss Queue-Regel zur
+nächstgrössten Sektion mit offenem P2 in `archiv-fachwissen` übergehen.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, einundzwanzigster P2-Lauf, `120511_Vision_Visualitaet_II_Nadas` (Lane FACHWISSEN, 44. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich
