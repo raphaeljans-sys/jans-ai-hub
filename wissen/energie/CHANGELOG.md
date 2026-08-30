@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## 2026-08-30 (Wissens-Chef Run 48) — der Symbolwechsel qE50 → qa50 blieb in F115 und drei Index-/Schwesterzeilen stehen
+
+Run 168 fuehrte am selben Tag die RiLuMi auf Ausgabe **2026.1** nach und zog den Symbolwechsel in
+`wiki/BAUHERREN-FAQ.md` **F63** nach. **F115 («Was kostet ein Blower-Door-Test…») blieb auf qE50**,
+ebenso `wiki/INDEX.md` Z. 84, `destillate/blower-door-test-kosten-ch.md` Z. 27-28 und
+`destillate/INDEX.md` Z. 158 (dort zusaetzlich noch der abgeloeste Ausgabestand 2022.1).
+
+Quelle ist das eigene `established`-Destillat `destillate/rilumi-minergie-luftdichtheit-n50.md`
+(Z. 16, 29-37): Symbol **qa50** seit RiLuMi 2024.1, Messung nach **SIA 180.206 «Verfahren 3»** statt
+«in Anlehnung an Verfahren 2» nach SN EN ISO 9972 — eine **Verfahrensaenderung**, keine blosse
+Umbenennung. Das Destillat haelt selbst fest, dass bei Ausschreibungstexten und Pruefberichten die
+neue Bezeichnung zu verwenden ist; genau dort lag die Aussenwirkung, denn F115 nannte weiterhin
+SN EN ISO 9972 als Messnorm.
+
+**Korrigiert, 5 Stellen in 4 Dateien, ankergenau (kein globales Ersetzen, Rule 260811), null
+Loeschungen:** BAUHERREN-FAQ F115 +4 Z. · `wiki/INDEX.md` ±0 · `blower-door-test-kosten-ch.md` +1 Z. ·
+`destillate/INDEX.md` ±0. **Zahlenwerte unveraendert** (1,2/0,8/1,6 bzw. 2,4/1,6 · 3,6/2,4) — Tabelle 6
+ist in 2026.1 identisch. **Nicht angefasst:** BAUHERREN-FAQ Z. 3621 (historischer Journal-Block
+Run 54) und die Audit-Eintraege in `wiki/QUESTIONS.md`.
+
+Muster fuer kuenftige Fassungsnachfuehrungen: die prominente Antwort wird nachgezogen, die
+**Index- und Schwesterzeilen werden vergessen** — dieselbe Klasse wie die Uf-Propagation aus Run 44.
+Register: `koordination/QUERBEZUEGE.md`, Abschnitt «energie intern (F115 Blower-Door…)».
+
 ## 2026-08-30 (Run 169) — ElCom widerspricht dem VSE-Handbuch an drei Stellen; E-R167-4/-5/-6 geschlossen
 
 **Klasse-2-Fund, der beratungsstaerkste seit mehreren Laeufen.** Das Fachsekretariat der ElCom

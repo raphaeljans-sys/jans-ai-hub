@@ -1,10 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 23:19:13
+Stand: 30.08.2026 23:29:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:49)
-- /Users/raphaeljans  (letzte Aktivitaet 23:19)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:04)
+- /Users/raphaeljans  (letzte Aktivitaet 23:26)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 30.08.2026 23:19:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6365371d5 Lane FACHWISSEN 128. Lauf: Wegner/Mathsson/Coates destilliert, Zeile 68 122/128
+- f572d1989 Lane FACHWISSEN: Landschaftsarchitektur P2 (Baumschutz Luzern, Gehölz-Kurzwissen, Vogt-Referenzblatt, Gartenanalyse-Raster)

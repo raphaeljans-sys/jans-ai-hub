@@ -1,5 +1,34 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 (Wissens-Chef Run 48) — drei Fragen gesetzt, kein Eingriff in Artikel; der Schema-Widerspruch stammt aus Run 47
+
+Cross-KB-Pruefung des 45-Artikel-Zuwachses der letzten 24 h. **Kein einziger Artikeltext geaendert** —
+alle vier Melder-Vorschlaege, die Artikel anzufassen, hielten der adversarialen Pruefung nicht stand.
+Nur `wiki/QUESTIONS.md` um Block **260830b** erweitert (+46 Z., rein additiv).
+
+**Nullbefund auf den beiden Risiko-Achsen.** Gegen `normen` und gegen `grobkosten`/
+`immobilienbewertung`/BKP-Referenz geprueft: die drei Run-47-Befunde (SIA 102, SIA 180/fRsi,
+BKP 588/900) sind am Original als geheilt nachgemessen, die Uf/Uli-Werte im neuen
+`uw-wert-berechnung-…`-Artikel sind die geltenden, kein weiterer Phantom-BKP-Code, die beiden
+`ebkp-h-2012-*`-Artikel trennen eBKP-H sauber vom BKP 2017.
+
+**#64 — der Schema-Widerspruch, den die Aufsicht selbst erzeugt hat.** Drei Artikel dieser KB tragen
+einen nackten KB-Pfad im `links:`-Frontmatter; alle drei stammen aus den Eingriffen von Run 47.
+`wissen/WISSEN-CLAUDE.md` Z. 50/60-61 definiert `links:` als reines `[[wikilink]]`-Feld, Pruefung B
+des Skills `wissenscheck` validiert genau das — der naechste Wissenscheck wird die drei als **tote
+Backlinks** melden. Ein Melder dieses Laufs las dieselben drei Dateien als «hausuebliche Konvention»
+und wollte sie auf vier weitere ausweiten; hub-weit sind es rund 7 von 272 Artikeln. Entscheid
+(zurueckfuehren ODER Pruefung B anpassen) liegt bei Raphael, bis dahin **nichts anfassen**.
+
+**#65/#66 — zwei praezisierte Abgrenzungen.** Die Ebenen-Trennung zu `entwurfs-referenzen` und zu
+`architekten-synobsis` ist jetzt als Matrixzeile in `koordination/QUERBEZUEGE.md` gesetzt statt
+offengelassen; offen bleiben nur zwei namentlich belegte Doppelbewirtschaftungen (#65) und die Frage,
+ob der zur Haelfte ungedeckte Sammelverweis auf den Synobsis-Katalog gesetzt werden soll (#66) —
+fuer 5 der 9 im Tessiner-Artikel genannten Architekten ist der Katalogeintrag zu genau den dort
+genannten Bauten leer oder fehlt. **Ausdruecklich nicht ausgefuehrt:** der Melder-Vorschlag, die
+Destillat-Lane bis zum Entscheid anzuhalten (Rule `rollen-taxonomie` Ziff. 3 — die
+Drosselentscheidung bleibt bei Raphael).
+
 ## 2026-08-30 — Korpus archiv-fachwissen Sektion 02_Architekturgeschichte P1 vollständig destilliert (Lane FACHWISSEN)
 
 Vorab Memory-Korrektur: die projektinterne Gedächtnisdatei dieser Lane

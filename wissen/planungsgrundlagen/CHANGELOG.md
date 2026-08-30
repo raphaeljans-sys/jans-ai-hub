@@ -2,6 +2,24 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-30 (Wissens-Chef Run 48) — die seit Run 34 offene GT-RL1-Kante ist gesetzt
+
+`wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §12.1 um einen additiven Rollen-Block
+erweitert (+11 Z., kein bestehender Text geaendert). Anlass: dieselbe AHB-Richtlinie GT_RL1 liegt seit
+dem 29.08.2026 in **drei** KBs, und zwischen den neun `energie`-Destillaten `ahb-zuerich-gt-rl1..9`
+und §12-§14 dieses Artikels bestanden **null Kanten in beide Richtungen** (nachgemessen: je 0 Treffer).
+Genau das hatte `koordination/QUERBEZUEGE.md` Z. 58 am 16.08.2026 (Run 34) diagnostiziert.
+
+Der Block benennt die Rollen nach Ebene: **Fassungsstand und geltende Zielwerte** fuehrt
+`energie` (V2.1/2008, sechs Seiten vollstaendig); **dieser Artikel** fuehrt Ordnerkontext,
+Vertragsbindung an den AHB-Honorarvertrag und Einordnung; die **Vorgaengerfassung V2.0/2005** in
+`architektur-fachwissen` ist `speculative` und **keine Vorgabenquelle** (Zielwert stieg von 25 % auf
+mind. 40 %). Die uebrigen acht GT-RL bleiben im seit Run 34 gefuehrten Cluster und wurden bewusst
+**nicht** einzeln angefasst.
+
+Berichtigt am Original: Z. 58 der Matrix nannte «§12/§13 desselben pg-Artikels» — RL7/RL8 liegen
+inzwischen in §14 «Elektroanlagen, Beleuchtung».
+
 ## 2026-08-27 — Wissens-Chef Run 45: ein abgelaufenes Formulardatum und die fehlende Rückkante zum Baurecht
 
 - **[inhalt]** **`wiki/energie-energienachweis-zh-formulare.md` (+11/−0, rein additiv):** Die

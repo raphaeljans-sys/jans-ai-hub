@@ -182,6 +182,114 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### energie intern (F115 Blower-Door: Symbol qE50 → qa50, Messnorm SN EN ISO 9972 → SIA 180.206) — geprueft 2026-08-30 (Run 48), BESTAETIGT und KORRIGIERT
+
+`energie` Run 168 fuehrte am 30.08.2026 die RiLuMi auf Ausgabe **2026.1** nach und zog den
+Symbolwechsel in `wiki/BAUHERREN-FAQ.md` **F63** nach — **F115 blieb stehen**, ebenso zwei
+Index-Zeilen und das Kosten-Destillat. Quelle ist das eigene `established`-Destillat
+`destillate/rilumi-minergie-luftdichtheit-n50.md` (Z. 16, 29-37): Symbol **qa50** seit RiLuMi
+2024.1, Messung nach **SIA 180.206 «Verfahren 3»** statt «in Anlehnung an Verfahren 2» nach
+SN EN ISO 9972 — eine **Verfahrensaenderung, keine blosse Umbenennung**; das Destillat haelt
+ausdruecklich fest, dass bei Ausschreibungstexten und Pruefberichten die neue Bezeichnung zu
+verwenden ist. Genau dort liegt die Aussenwirkung: der Skill `energie` speist Bauherren-Antworten,
+und eine Messnorm wandert in einen Messauftrag oder Werkvertrag.
+
+**Korrigiert (5 Stellen in 4 Dateien, alle ankergenau, null Loeschungen):** `wiki/BAUHERREN-FAQ.md`
+F115 (3× qE50, Messnorm, Datenstandzeile; +4 Z.) · `wiki/INDEX.md` Z. 84 (Symbol + Messnorm) ·
+`destillate/blower-door-test-kosten-ch.md` Z. 27-28 (+1 Z.) · `destillate/INDEX.md` Z. 158
+(Symbol **und** der dort noch stehende Ausgabestand 2022.1). **Zahlenwerte unveraendert**
+(1,2/0,8/1,6 bzw. 2,4/1,6 · 3,6/2,4) — Tabelle 6 ist in 2026.1 identisch.
+**Nicht angefasst:** `wiki/BAUHERREN-FAQ.md` Z. 3621 (historischer FAQ-Journal-Block Run 54) und
+die Audit-Eintraege in `wiki/QUESTIONS.md` — Zeitstaende bleiben stehen (Rule 260811).
+
+**Zwei Messkorrekturen an der eigenen Meldung:** der Melder behauptete «fuenf Vorkommen, Z. 4830
+und Z. 4834 zweimal» — es sind **drei** (Z. 4829, 4834, 4839); wer nach der Melderangabe blind
+ersetzt, sucht zwei Treffer, die es nicht gibt. Und er uebersah **zwei** Live-Dateien, die der
+Refuter fand, sowie eine dritte (`wiki/INDEX.md`), die erst der Hauptkontext mass. **Muster:**
+eine Fassungsnachfuehrung wird an der prominenten Antwort gemacht und an den Index-/Schwesterzeilen
+vergessen — dieselbe Klasse wie die Run-44-Uf-Propagation.
+
+### architektur-fachwissen ↔ normen · ↔ grobkosten/immobilienbewertung/BKP — geprueft 2026-08-30 (Run 48), NULLBEFUND
+
+Beide Achsen gezielt gegen den 45-Artikel-Zuwachs der letzten 24 h geprueft, **kein neuer Befund**.
+Die drei Run-47-Befunde sind am Original als geheilt nachgemessen:
+- **SIA 102** — `wiki/sia-102-2003-phasenanteile-zwei-rechenwerke.md` stimmt zeilengenau mit
+  `normen/destillate/sia-102-2014.md` Ziff. 7.7 (Z. 67-74); der Artikel behauptet keine unbelegte
+  Kontinuitaet rueckwaerts, und `skills/honorarberechnung-sia102` kennzeichnet seine abweichende
+  Tabelle ausdruecklich als «buerointerne JANS-Konvention, nicht die Norm». **Keine Geldfolge.**
+- **SIA 180 / fRsi** — der Run-47-Befund (Faustregel 0,75 ist Stand 1999) ist im Artikel als
+  ⚠-Berichtigung gesetzt und trifft die Nuance korrekt: 0,75 gilt in SIA 180:2014 weiterhin fuer
+  den vereinfachten Nachweis nach Ziff. 6.2.1.4, der Anhang-F-Standortwert (0,80/0,83) fuer die
+  Waermebruecken-Pruefung nach Ziff. 6.2.2.1 — zwei Rechengroessen, kein Pauschalvergleich.
+- **BKP/eBKP-H** — der Warnblock zu «BKP 588»/«BKP 900» steht; die beiden neuen
+  `ebkp-h-2012-*`-Artikel trennen eBKP-H sauber vom BKP 2017. Alle BKP-Codes der 45 neuen Artikel
+  gegen `references/bkp-2017/BKP-2017-Liste.md` geprueft: kein weiterer Phantom-Code.
+- **Uf/Uli** — `wiki/uw-wert-berechnung-und-bauphysikalische-kennwerte-wandaufbauten.md` traegt die
+  geltenden Werte im Warnblock (Uf 1,4/1,9/2,5/3,3 · Uli 1,0/1,3), wortgleich mit
+  `energie/destillate/enfk-fensterblatt.md` Tab. 6. **Der Fehler ist nicht reproduziert.**
+
+Ein Nullbefund mit Aussage: **der 24-h-Zuwachs ist derselbe Schub, den Run 47 bereits geprueft hat**
+(`last_updated` ueberwiegend 2026-08-29). Die Lane liefert schneller, als die Aufsicht neue
+Fehlerklassen findet — der naechste Lauf sollte auf **frisch destillierte Sektionen** zielen, nicht
+auf das Datei-mtime-Delta.
+
+### `links:`-Feld vs. QUERBEZUEGE als Kanten-Register — geprueft 2026-08-30 (Run 48), MELDER WIDERLEGT, aber Folgeschaden real
+
+Ein Melder wollte vier afw-Artikel um Cross-KB-Pfade im `links:`-Frontmatter ergaenzen und berief
+sich auf eine «hausuebliche Konvention». **Widerlegt:** die Konvention existiert nicht — hub-weit
+rund 7 von 272 Artikeln, in `energie` 0/40, `normen` 0/10, `baurecht` 0/30, `bauprodukte` 0/19.
+Die drei afw-Belege des Melders stammen saemtlich aus den Eingriffen von **Wissens-Chef Run 47 vom
+Vortag**. Der Melder hat also den Fussabdruck des eigenen Aufsichtslaufs zur Norm erhoben und wollte
+ihn ausweiten — **Zirkelschluss**.
+
+**Der Folgeschaden ist trotzdem echt und liegt bei Run 47:** `wissen/WISSEN-CLAUDE.md` Z. 50/60-61
+definiert `links:` ausschliesslich als `[[artikel-name]]` innerhalb derselben KB, und Pruefung B des
+Skills `wissenscheck` validiert genau das. Die drei Run-47-Eintraege werden beim naechsten
+Wissenscheck dieser KB als **tote Backlinks** gemeldet — Falschbefunde, die ein Aufsichtslauf selbst
+erzeugt hat. **Kein Eingriff durch Run 48**: die Aufloesung ist ein Schema-Entscheid (zurueckfuehren
+ODER Pruefung B anpassen), nicht Registerpflege, und liegt bei Raphael —
+`architektur-fachwissen/wiki/QUESTIONS.md` #64 (260830b). Neue Matrixzeile gesetzt.
+
+### architektur-fachwissen ↔ entwurfs-referenzen ↔ architekten-synobsis — geprueft 2026-08-30 (Run 48), TEILWEISE
+
+Melder meldete «drei Artikel greifen in fremdes Terrain» und schlug vor, die afw-Lane bis zum
+Entscheid anzuhalten. **Beides korrigiert:** es sind nicht drei, sondern rund ein Dutzend
+Begriffsartikel aus `02_Architekturtheorie` — und ein **Stopp waere unzulaessig** (Rule
+`rollen-taxonomie` Ziff. 3: gemessen und berichtet, nie automatisch durchgesetzt; die
+Drosselentscheidung bleibt bei Raphael). Ein Aufsichtslauf drosselt keine Lieferlane.
+Die Ebenen-Trennung ist **als Matrixzeile gesetzt** statt offengelassen; die zwei einzigen
+namentlich belegten Kollisionen (`laon-fassadenbeschreibung-…` gegen das geplante
+`fassaden-rhythmus.md`; `stil-styling-signatur-brand-abgrenzung` gegen Abschnitt 3 des
+Judd-Artikels) stehen als QUESTIONS #65. Der dritte gemeldete Artikel
+(`gebaeudeanalyse-raster-…`) beruehrt gar keine ER-Domaene — er ist ein Bestandes-Analyseraster.
+**Zum Tessiner-Artikel:** ein Katalogeintrag ist keine Deckung — fuer 5 von 9 genannten Architekten
+ist der Eintrag zu genau den im Text genannten Bauten leer oder fehlt (Reinhart hat gar keinen).
+QUESTIONS #66, Matrixzeile gesetzt.
+
+### AHB GT_RL1 in drei KBs (afw ↔ energie ↔ planungsgrundlagen) — geprueft 2026-08-30 (Run 48), TEILWEISE, Kante GESETZT
+
+Der Melder wollte die V2.0/2005-Fassung in afw als «veraltet» gegen ein «established
+planungsgrundlagen» stellen. **Fuehrungsrichtung widerlegt:** `established` ist ein Artikel-Status,
+keine Fassungsaussage; inhaltlich fuehrend fuer den Fassungsstand ist `energie`
+(`destillate/ahb-zuerich-gt-rl1-planungsgrundlagen.md`, V2.1/2008, sechs Seiten), und afw zeigt
+bereits dorthin. Der afw-Artikel ist `speculative` und fuehrt in Z. 40-53 selbst aus der
+2005er-Fassung heraus (Zielwert 25 % → mind. 40 %). **Keine Aussenwirkung.**
+
+**Real und 14 Tage alt war etwas anderes:** zwischen den neun `energie`-Destillaten
+`ahb-zuerich-gt-rl1..9` und `planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`
+§12-§14 bestanden **null Kanten in beide Richtungen** — nachgemessen mit 0 Treffern in beiden
+Richtungen. Genau das hatte Zeile 58 am 16.08.2026 (Run 34) diagnostiziert und mit der Regel
+versehen, die Kante beidseitig zu setzen. **Gesetzt:** additiver Rollen-Block am Ende von §12.1 des
+pg-Artikels (+11 Z.), der alle drei KBs mit Rolle und Fassung benennt. Die uebrigen acht GT-RL
+bleiben im seit Run 34 gefuehrten Cluster (clusterweise, ein Cluster je Lauf) — bewusst **nicht**
+einzeln angefasst, sonst wird die dortige Fortschrittsmessung unbrauchbar.
+Der Melder-Vorschlag, den afw-`links:`-Eintrag zu ergaenzen, wurde **nicht** ausgefuehrt: er haette
+genau den Schema-Widerspruch vergroessert, den derselbe Lauf eine Zeile darueber aufgedeckt hat.
+
+**Nebenbefund, am Original verifiziert:** Zeile 58 nannte «§12/§13 desselben pg-Artikels»; RL7/RL8
+liegen inzwischen in §14. Berichtigt.
+
+
 
 ### architektur-fachwissen ↔ normen / energie / grobkosten / twin / wettbewerbs-dna (112-Artikel-Schub) — geprueft 2026-08-29 (Run 47)
 
