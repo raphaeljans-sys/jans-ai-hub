@@ -1642,6 +1642,31 @@ zwei Positionen destilliert (Al-Farabi, Ibn Abdun):
   besoldeter Moschee-Maurermeister), Eigentumsrecht-durch-Dauernutzung am
   Moscheevorplatz (Parallele zur Digesta, dort zurückverlinkt).
 
+28. Lauf, drei weitere Positionen des islamischen Textblocks destilliert
+(Ibn Dschubair, Ibn Chaldun zweimal):
+
+- [[ibn-dschubair-damaskus-wasserinfrastruktur-stiftungswesen-1184]] —
+  Reisebeschreibung Damaskus (ca. 1184): Brandrisiko dichter
+  Lehm-/Holzbauweise, Wasserinfrastruktur (Bäche durch jede Strasse, vier
+  Reservoirs an der Grossen Moschee), Waqf-Stiftungswesen für Hospitäler
+  (15 Dinar Tageszuwendung, Patientenregister) und Medresen.
+- [[ibn-chaldun-standortkriterien-verfallslogik-staedtischer-kultur]] —
+  Muqaddima-Auszug: Städte als Folgeerscheinung der Königsherrschaft,
+  ökonomisch-zyklische Verfallslogik städtischer Kultur (Prachtentfaltung →
+  Warensteuer → Verarmung), sechs Standortkriterien für Stadtgründung
+  (Sicherheit, Luft, Wasser, Weiden, Felder, Wald), Negativbeispiel
+  Kairouan/Kufa/Basra.
+- [[ibn-chaldun-bauhandwerk-tabija-geometrie-nachbarrecht]] — Bautypen nach
+  Klimazone, systematische Nachbarrecht-Konflikte (Licht, gemeinsame Mauer,
+  Wegerecht, Wasserabfluss), Tabija-Stampflehmbau-Technik im Detail,
+  Geometrie als Voraussetzung des Baumeisters.
+
+**Von den ca. 50 Quellentextband-Auszügen sind jetzt 17 destilliert, rund 29
+bleiben offen — der gesamte islamische Block (sechs Positionen) ist damit
+vollständig destilliert.** Nächster Lauf: Francesco di Giorgio Martini
+(anthropometrische Stadtproportionen, S. 251-254) oder weitere kurze
+Quellentextband-Einzelauszüge nach Bürorelevanz.
+
 **Von den ca. 50 Quellentextband-Auszügen sind jetzt 16 destilliert, rund 30
 bleiben offen — darunter der gesamte restliche islamische Block (Ibn
 Dschubair/Damaskus, Al-Ghazali, Ibn Chaldun zweimal) und Francesco di Giorgio
