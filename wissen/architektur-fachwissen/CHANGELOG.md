@@ -1,5 +1,33 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 75, Sektion `02_Kunst_Geschichte` (97. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`skills/wissens-destillat/specs/`, `wiki/INDEX.md`, `raw/inventar/`. Ein unkommittierter Rest
+des 96. Laufs lag beim Start vor (Bibiena-Artikel, Inventar-Append, CHANGELOG, INDEX) und
+wurde per `nas-commit-now.sh` gesichert; die Fernseite lief dabei erneut in den bekannten
+NAS-Merge-Konflikt (Memory `project_nas-git-merge-konflikt-dispatch-loop-260829`), der lokale
+Commit gelang trotzdem (working tree danach sauber, `ba2e05d9f`).
+
+Zeile 75 `00_Allgemein/Stilepochen/` (8 Dateien) und `532 Hagia Sophia ....docx` geprüft, wie
+vom 96. Lauf als nächster Schritt benannt. Vier `.doc`-Dateien via `textutil` gelesen: reine
+Gliederungen/Namenslisten (Kapitelstruktur, Künstlernamen, alphabetischer
+Stilrichtungs-Index) ohne Fliesstext. Die beiden PDF im Unterordner `pdf/` sind Scans
+desselben, von Raphael Jans 2008 als HSLU-Lernmittel erstellten chronologischen
+Künstlerverzeichnisses (rund 150 Namen mit Lebensdaten) — eigene Urheberschaft, aber reine
+Datentabelle ohne Entwurfs-/Bürobezug, ausserhalb der drei büroverwertbaren Linien dieser
+Sektion. `Kunstgeschichte.indd` nicht auswertbar (InDesign-Binärdatei). Die Hagia-Sophia-Docx
+per XML-Extraktion aus dem Zip geprüft (Tabellenstruktur bei `textutil`-Konvertierung nicht
+verloren, nur drei Zeilen vorhanden): 532 Hagia Sophia, 784 Mezquita Cordoba, 832 San Marco
+Venedig, je mit Bauherrschaft/Konfession/Vorbildverweis — zu dünn (drei Positionen) und
+inhaltlich allgemeinbekannt für einen eigenen Artikel. **Kein neuer Wiki-Artikel, Zeile 75
+gilt als abgeschlossen (Delta-Ehrlichkeit).**
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (`25 0`). Details
+`raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md`. **Nächster Lauf:** Zeile 68
+`02_Bildende_Kunst/08_Design/` (733 Dateien) oder Zeile 72-74 (Flandern-Reader/Kunst-der-
+Gegenwart/Landart-Smithson), sonst laut Queue-Regel nächste Sektion mit offenem P2.
+
 ## 2026-08-30 — P2-Lauf, `Fragen.doc` (84. Lauf, Lane FACHWISSEN)
 
 Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, diese Datei, Inventardatei —

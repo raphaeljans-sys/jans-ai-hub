@@ -317,3 +317,28 @@ Chronologie, sonst laut Queue-Regel Prüfung der nächsten Sektion mit offenem P
 `git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 75
 Stilepochen-Zusammenfassung/Hagia-Sophia-Chronologie, sonst laut Queue-Regel Prüfung der
 nächsten Sektion mit offenem P2.
+
+- Zeile 75 `00_Allgemein/Stilepochen/` (8 Dateien) und `532 Hagia Sophia ....docx` →
+  **geprüft, kein Artikel (Delta-Ehrlichkeit).** Alle vier `.doc`-Dateien
+  (`Kunst_nach_1945.doc`, `Künstler.doc`, `Stilrichtung_in_der_Malerei_alphabetisch.doc`,
+  `Kunstgeschichte_Zusammenfassung.doc`) sind reine Gliederungen/Namenslisten ohne
+  Fliesstext (Kapitelstruktur, Künstlernamen, alphabetischer Stilrichtungs-Index) — kein
+  Argument, keine Analyse, nichts Nicht-Triviales über die bereits vorhandene
+  Tabellenzeilen-Beschreibung hinaus. Die beiden PDF im Unterordner `Kunstgeschichte/pdf/`
+  sind Scans desselben Dokuments: ein von Raphael Jans 2008 als HSLU-Lernmittel erstelltes
+  chronologisches Künstlerverzeichnis (Antike bis Gegenwart, rund 150 Namen mit Geburts-/
+  Sterbedaten und Orten je Epoche/Stilrichtung) — eigene Urheberschaft, aber reine
+  Datums-/Namenstabelle ohne Entwurfs- oder Bürobezug, fällt ausserhalb der drei
+  büroverwertbaren Linien dieser Sektion (Kurzbefund oben). `Kunstgeschichte.indd` ist eine
+  InDesign-Binärdatei, nicht auswertbar. `532 Hagia Sophia ....docx` per XML-Extraktion aus
+  dem Docx-Zip geprüft (Tabellenstruktur ging bei `textutil`-Konvertierung nicht verloren):
+  die Tabelle hat nur drei Zeilen (532 Hagia Sophia Konstantinopel/Byzanz/Orthodox/Original,
+  784 Mezquita Cordoba/Umayyaden-Emirat/Islam, 832 San Marco Venedig/Republik Venedig/
+  Katholisch, beide Folgebauten mit Verweis „byzantinische Architektur") — zu dünn (drei
+  Positionen, kein Fliesstext) und inhaltlich allgemeinbekannt für einen eigenen Artikel.
+  **Zeile 75 gilt damit als abgeschlossen.**
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 68
+`02_Bildende_Kunst/08_Design/` (733 Dateien, Designgeschichte-Website-Spiegel) oder Zeile 72-74
+(Flandern-Reader/Kunst-der-Gegenwart-Zusammenfassung/Landart-Smithson), sonst laut Queue-Regel
+Prüfung der nächsten Sektion mit offenem P2.
