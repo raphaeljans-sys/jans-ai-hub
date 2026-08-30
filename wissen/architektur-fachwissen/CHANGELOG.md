@@ -1,5 +1,36 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, achtzehnter P2-Lauf (Position 4 abgeschlossen, `blockreform_sonnedf.pdf` vollständig gelesen, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 68. Beispiel Memory `project_fachwissen-dispatch-loop`, Station laut `scutil` Macmini bestätigt, Prozesskette 48039→48040→48082 als verschachtelte Wrapper derselben Instanz erkannt, keine Doppel-Instanz)
+
+Vor Arbeitsbeginn `KORPUS-QUEUE.md`/CHANGELOG gegengeprüft: Stand identisch zum
+siebzehnten Lauf dokumentierten Ende. Unkommittierte Sonne-Kultur-Buchführung des
+Vorlaufs zuerst per `nas-commit-now.sh` gesichert — Versuch scheiterte am bekannten
+NAS-Merge-Konflikt in sechs fremden KBs, Script hat sauber abgebrochen (kein
+Konfliktmarker im Arbeitsverzeichnis verblieben), dem 15-Min-Cron überlassen. Entgegen der
+Erwartung liess sich `blockreform_sonnedf.pdf` (13,7 MB, 96 S., Wolfgang Sonne, "Dwelling
+in the metropolis: Reformed urban blocks 1890-1940 as a model for the sustainable compact
+city", Progress in Planning 72, 2009, S. 53-149) **vollständig in einem Zug lesen** —
+bestätigt erneut, dass die Werkzeuggrenze beim `pages`-Parameter liegt, nicht bei der
+absoluten Dateigrösse. Ein neuer Artikel
+[[sonne-dwelling-in-the-metropolis-reformierter-wohnblock-zehn-thesen-praxis]]: sechs
+Grundtypen des reformierten Wohnblocks mit Grundrisssystematik, die Fallstudien über neun
+Länder (Deutschland, Österreich/Osteuropa, Niederlande, Skandinavien, Frankreich,
+Italien/Spanien, Grossbritannien, USA, Russland), Sonnes zehn explizite Entwurfsthesen für
+die nachhaltige kompakte Stadt (direkt bürorelevant, z. B. der «Zaun-Test» für falsche
+Bautypologie und die 150-200-m-Regel für Blocklängen) sowie der Vorschlag «Urbanität» als
+neues historiografisches Paradigma anstelle von Innovation/Stil. Gegen bestehenden
+Wiki-Bestand geprüft: kein Duplikat zu
+[[sonne-kultur-der-urbanitaet-dichte-stadt-kontinuitaetsthese]] (dort nur die Kurzthese,
+hier erstmals die volle empirische Fallbasis und die zehn Praxisthesen). `git diff
+--numstat` auf die Inventardatei zeigt reinen Append (44 0). **Sonne-Dossier damit
+vollständig abgeschlossen** (nur die 85-MB-Dissertation bleibt dauerhaft blockiert). Von
+den 33 Autorendossiers der Position 4 weiterhin 25 mit Ertrag bearbeitet (Zählung
+unverändert, da Sonne bereits im Vorlauf mitgezählt wurde). Offen bleiben der
+Lampugnani-Quellentextband und `kapitel01_dk...` Unterkapitel 1/2/4/5, dazu acht der 33
+Autorendossiers unangetastet. Details `raw/inventar/archiv-fachwissen__01_Staedtebau.md`
+Abschnitt Destillat-Fortschritt. Nächster Lauf: Lampugnani-Quellentextband (erste
+20-30 Seiten Vollzugriff versuchen) oder nächstes unbearbeitetes Autorendossier.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, siebzehnter P2-Lauf (Position 4 fortgesetzt, Sonne-Dossier abgeschlossen, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, Prozesskette 45847→45850→45856 als verschachtelte Wrapper derselben Instanz erkannt, keine Doppel-Instanz)
 
 Vor Arbeitsbeginn `KORPUS-QUEUE.md`/CHANGELOG gegengeprüft: Stand identisch zum
