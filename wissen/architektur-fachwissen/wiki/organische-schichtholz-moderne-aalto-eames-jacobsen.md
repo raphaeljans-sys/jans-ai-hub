@@ -2,8 +2,8 @@
 title: "Organische Schichtholz-Moderne: Aalto, Eames, Jacobsen"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/alvar_aalto.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/eames.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/jacobsen.htm"]
-links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "saarinen-eames-knoll-womb-chair-tulip-chair-moebeldesign"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/alvar_aalto.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/eames.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/jacobsen.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/schichtholz.htm"]
+links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "saarinen-eames-knoll-womb-chair-tulip-chair-moebeldesign", "carlo-mollino-turiner-barock-organische-schichtholzmoebel", "ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain"]
 ---
 
 # Organische Schichtholz-Moderne: Aalto, Eames, Jacobsen
@@ -132,6 +132,55 @@ Möbel, Leuchten, Stoffe und Bestecke als Einheit (Begriff «architektonische Ac
 Alvar Aalto zitiert). Weitere Serienarbeiten: Besteck aus rostfreiem Stahl (1957, ursprünglich für
 A. Michelsen, heute Georg Jensen) — 1969 von Stanley Kubrick in «2001: Odyssee im Weltraum»
 verwendet; Cylinda-Serie aus rostfreiem Stahl (1966, für Stelton).
+
+## Materialgeschichte: von Thonet über den Kriegsdurchbruch zum Kunststoff
+
+Ergänzung aus einer vierten Quelldatei (`schichtholz.htm`, thematischer statt
+personenbezogener Artikel derselben Website), die die technische Materialgenealogie hinter
+den drei oben behandelten Werkbiografien nachliefert:
+
+**Vorgeschichte:** Bereits Mitte des 19. Jahrhunderts gelang dem österreichischen
+Möbelhersteller Thonet das Biegen von laminiertem Holz. In den 1920er/30er-Jahren
+entwarfen Alvar Aalto und Marcel Breuer Stühle aus gebogenem Schichtholz — Aaltos
+1933 patentierte Technik zur dreidimensionalen Biegung (siehe oben) blieb aber auf Dampf
+und Handarbeit angewiesen.
+
+**Kriegsdurchbruch:** Der entscheidende technische Sprung gelang laut Quelle während des
+Zweiten Weltkriegs bei Experimenten der Luftfahrtindustrie: neue synthetische Harze zum
+Verbinden der Holzschichten (stabiler als bisherige Leime) kombiniert mit elektrisch
+betriebenen Biegemaschinen (statt Dampf/Handarbeit) machten Schichtholz leichter, günstiger
+und in organisch-skulpturalen Formen verarbeitbar. Charles Eames und Eero Saarinen nutzten
+diese Fortschritte 1942 zunächst für konturierte **Beinschienen für verwundete Soldaten**
+(US Navy), danach für Profile von Schulungsflugzeugen und Militärgleitern — die technische
+Vorstufe zur ab 1946 bei der Moulded Plywood Division von Evans Manufacturing
+mass-gefertigten Eames-Möbelkollektion (siehe oben).
+
+**Parallele britische Entwicklung:** Der Durchbruch fiel zeitlich mit vergleichbaren
+Entwicklungen in Grossbritannien zusammen. **Ernest Race** wandte Techniken, die er während
+des Kriegs in der britischen Luftfahrtindustrie kennengelernt hatte, auf seine Stühle
+«Antilope» und «Springbock» an (geformte Schichtholzsitze auf Stahlrohrbeinen) — Ergänzung
+zum bestehenden Artikel
+[[ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain]], der das
+Sitzmaterial dieser beiden Stühle bislang nicht spezifiziert. **Robin Day** entwarf mit dem
+«Hillestak»-Stuhl (1950, für Hille) eine einteilige Schichtholzschale aus Sitz und Lehne auf
+Stahlrohrgestell — einfach stapel- und tragbar, verbreitete sich rasch in britischen
+öffentlichen Räumen.
+
+**Italienische Rezeption über «Domus»:** Eames' Arbeiten wurden Mitte der 1940er-Jahre in
+der Zeitschrift «Domus» gezeigt und beeinflussten dort die Firmen Arflex, Cassina und Gavina
+sowie die Designer Carlo di Carli und Roberto Mango (Schichtholzsitze/-lehnen, oft auf
+Stahlbeinen) sowie **Carlo Mollino**, der intensiv mit gebogenem, geformtem Schichtholz
+experimentierte (siehe
+[[carlo-mollino-turiner-barock-organische-schichtholzmoebel]], dort bislang ohne den
+Domus/Eames-Rezeptionsweg dokumentiert — Ergänzung für einen künftigen Lauf an dieser
+Inventarposition vermerkt).
+
+**Frühe Einzelversuche und Ablösung durch Kunststoff:** Gerrit Rietveld versuchte 1927 beim
+Lehnstuhl «Birza» erstmals, einen Stuhl aus einer einzigen geformten Schichtholzplatte
+herzustellen — ein Ansatz, den erst Jacobsens «Ameisenstuhl» (1952, siehe oben)
+serienreif umsetzte. In den 1950er/60er-Jahren verdrängte die aufkommende Umformbarkeit von
+Glasfaser und anderen Kunststoffen (vgl. Jacobsens «Schwan»/«Ei», siehe oben) das
+Schichtholz zunehmend als Leitmaterial der Sitzmöbel-Avantgarde.
 
 ## Praxisregel
 
