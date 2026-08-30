@@ -157,3 +157,6 @@ relevant.
   sind zwischenzeitlich in eigenen Artikeln destilliert (siehe `wiki/INDEX.md`).
 - Mart Stams Stahlrohr-Priorität ist seit 30.08.2026 im Abschnitt «Nachtrag» oben belegt
   (Quelle `stahlrohrmöbel.htm`, keine eigene Stam-Datei im Bestand gefunden).
+- Coates' Isokon-Zusammenarbeit mit Breuer (Lawn Road Flats) und seine eigene, 1935 mit PEL
+  gefertigte Stahlrohrserie sind seit 30.08.2026 in
+  [[wells-coates-britische-moderne-isokon-ekco-radio-lawn-road]] destilliert.
