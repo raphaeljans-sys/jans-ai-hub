@@ -2032,3 +2032,38 @@ Gegen Wiki-Bestand geprüft (`grep -ril` nach «vasari» und «idealstadt»/«ci
 begründet ohne Artikel abgeschlossen, 18 bleiben offen.** **Nächster Lauf:** Leonardo da Vinci
 (S. 257, bisher nie geprüft) oder der gesamte noch ungeprüfte antike Block Homer bis Cicero
 (S. 9-81).
+
+## Neununddreissigster P2-Lauf, Leonardo da Vinci destilliert (30.08.2026, Lane FACHWISSEN)
+
+Vor Laufbeginn Stand selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md`, `CHANGELOG.md` und diese Inventardatei gegengeprüft, deckungsgleich mit dem
+38.-Lauf-Ende; zusätzlich diesmal vorab systematisch verifiziert, dass P1 über beide Korpora
+(`buero-referenzen`, `archiv-fachwissen`) weiterhin vollständig abgeschlossen ist (Stichprobe der
+bereits als P1-vollständig markierten Sektionen sowie der vier privatunterlagen-verdächtigen
+Sektionen `04_Politik`/`05_Kultur_Gesellschaft_Stil`/`06_Reisen`/`07_Religion`, dort je P1 = 0) —
+kein offener P1-Rest gefunden, P2-Fortsetzung dieser Sektion damit gemäss Queue-Regel weiterhin die
+richtige Wahl. `git status`/`ps aux` zeigten sauberen Working Tree, kein `MERGE_HEAD`, genau einen
+laufenden `claude -p`-Prozess.
+
+Die vom 38. Lauf empfohlene erste Priorität aus `Quellentextband-1.pdf` bearbeitet: Leonardo da
+Vinci, Ausgewählte Texte (S. 257), zwei Manuskript-Notizen vollständig gelesen (Codex Atlanticus
+65 v.-b, 1493, und Manuskript B 16 r./Tafel XVII plus 15 v., 1490):
+
+- Neuer Wiki-Artikel
+  [[leonardo-da-vinci-mailand-verstaedterungspolitik-zweistufiges-strassensystem]]:
+  Verstädterungspolitik 1493 (gelenkte Entzerrung überfüllter Viertel durch Anreiz-Hausbau der
+  Standesoberen, Zielgrösse 5'000 Häuser/30'000 Wohnungen aus zehn Städten, Finanzierung über die
+  Gemeinde Lodi gegen einen jährlichen Herzogspreis) und zweistufiges Strassensystem 1490 (obere
+  Strassen nur für Fussverkehr der Herren, untere Strassen für Warenverkehr, unterirdische Ebene für
+  Latrinen/Ställe, Verbindung alle 300 Braccia über Wendeltreppen) — beide Notizen unter einer Sache
+  (Leonardos Mailänder Städtebau-Praxis) zusammengefasst, `status: emerging`.
+- Gegen Wiki-Bestand geprüft (`grep -ril` nach «leonardo» über `wiki/*.md`): kein bestehender
+  Leonardo-da-Vinci-Artikel, einzige Vorerwähnung im Pacioli-Artikel (Proportionslehre, anderes
+  Thema, kein Duplikat).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von den 54 benannten Positionen
+der Quellentextband-Anthologie sind jetzt 37 destilliert oder begründet ohne Artikel abgeschlossen,
+17 bleiben offen. **Nächster Lauf:** der gesamte noch ungeprüfte antike Block Homer bis Cicero
+(S. 9-81, mehrere Autoren, keiner davon bisher gegen diese Anthologie geprüft) — nach Ertrag
+voraussichtlich ergiebiger als weitere Einzelpositionen im bereits stark bearbeiteten Bereich
+S. 200-345.

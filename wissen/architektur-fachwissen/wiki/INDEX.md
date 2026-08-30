@@ -1838,3 +1838,18 @@ sind jetzt 36 destilliert oder begründet ohne Artikel abgeschlossen, 18
 vollständig offen. Nächster Lauf: Leonardo da Vinci (S. 257, bisher nie
 geprüft) oder der noch ungeprüfte antike Block Homer bis Cicero (S. 9-81).
 Details in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 39. P2-Lauf):** vor Laufbeginn erneut
+geprüft, dass P1 über beide Korpora vollständig abgeschlossen bleibt
+(Stichprobe unverändert). Leonardo da Vinci, Ausgewählte Texte (S. 257,
+zwei Manuskript-Notizen 1490/1493) vollständig gelesen und destilliert →
+[[leonardo-da-vinci-mailand-verstaedterungspolitik-zweistufiges-strassensystem]]
+(Verstädterungspolitik durch Anreiz-Hausbau der Standesoberen, Zielgrösse
+5'000 Häuser/30'000 Wohnungen, Finanzierung über Gemeinde Lodi gegen
+Herzogspreis; zweistufiges Strassensystem mit getrennten Ebenen für
+Fussverkehr der Herren, Warenverkehr und unterirdische Entsorgung, Verbindung
+alle 300 Braccia über Wendeltreppen). Von den 54 benannten Positionen der
+Anthologie sind jetzt 37 destilliert oder begründet ohne Artikel
+abgeschlossen, 17 vollständig offen. Nächster Lauf: der noch ungeprüfte
+antike Block Homer bis Cicero (S. 9-81). Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.

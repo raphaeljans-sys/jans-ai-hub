@@ -3513,3 +3513,36 @@ Vasari il Giovane destilliert (Lane FACHWISSEN)
   offen.
 - Nächster Lauf: Leonardo da Vinci (S. 257, bisher nie geprüft) oder der gesamte noch ungeprüfte
   antike Block Homer bis Cicero (S. 9-81).
+
+## 2026-08-30 — 39. P2-Lauf Sektion `01_Staedtebau`: Leonardo da Vinci destilliert (Lane FACHWISSEN)
+- Vor Laufbeginn Stand selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+  `wiki/INDEX.md`, diese Datei und Inventardatei gegengeprüft, deckungsgleich mit dem 38.-Lauf-Ende.
+  Zusätzlich erneut verifiziert, dass P1 über beide Korpora (`buero-referenzen`, `archiv-fachwissen`)
+  vollständig abgeschlossen bleibt (Stichprobe unverändert, inkl. der vier P1=0-Sektionen
+  `04_Politik`/`05_Kultur_Gesellschaft_Stil`/`06_Reisen`/`07_Religion`) — P2-Fortsetzung dieser
+  Sektion damit weiterhin die richtige Wahl gemäss Queue-Regel. Working tree sauber, kein
+  `MERGE_HEAD`, genau ein laufender `claude -p`-Prozess.
+- Neuer Wiki-Artikel aus `Quellentextband-1.pdf` (S. 257, Leonardo da Vinci, Ausgewählte Texte,
+  zwei Manuskript-Notizen 1490 und 1493, beide vollständig gelesen):
+  `leonardo-da-vinci-mailand-verstaedterungspolitik-zweistufiges-strassensystem.md` —
+  Verstädterungspolitik 1493 (Entzerrung überfüllter Viertel durch Anreiz-Hausbau der Standesoberen,
+  Zielgrösse 5'000 Häuser/30'000 Wohnungen aus zehn Städten, Finanzierung über die Gemeinde Lodi
+  gegen einen jährlichen Herzogspreis, Bindung ans Grundeigentum) und zweistufiges Strassensystem
+  1490 (obere Strasse nur für Fussverkehr der Herren, untere Strasse für Warenverkehr, unterirdische
+  Ebene für Latrinen/Ställe, Verbindung alle 300 Braccia über Wendeltreppen). Beide Notizen unter
+  einer Sache (Leonardos Mailänder Städtebau-Praxis) zusammengefasst, `status: emerging`. Verlinkt
+  mit `renaissance-idealstadt-typologie-filarete-alberti-duerer`,
+  `lex-iulia-municipalis-strassenunterhalt-edilenrecht-kostenumlage` und
+  `palladio-strassen-bruecken-plaetze-vier-buecher-1570`.
+- Gegen Wiki-Bestand geprüft (`grep -ril` nach «leonardo» über `wiki/*.md`): kein bestehender
+  Leonardo-da-Vinci-Artikel, einzige Vorerwähnung im Pacioli-Artikel (anderes Thema,
+  Proportionslehre, kein Duplikat).
+- `raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+  Append, `git diff --numstat` geprüft). Von den 54 benannten Positionen der Quellentextband-
+  Anthologie sind jetzt 37 destilliert oder begründet ohne Artikel abgeschlossen, 17 bleiben
+  offen.
+- Nächster Lauf: der gesamte noch ungeprüfte antike Block Homer bis Cicero (S. 9-81) — nach Ertrag
+  voraussichtlich ergiebiger als weitere Einzelpositionen im bereits stark bearbeiteten Bereich
+  S. 200-345, aber vor Arbeitsbeginn gegen den tatsächlichen Wiki-Bestand zu verifizieren (mehrere
+  Autoren dieses Blocks, z. B. Aristoteles/Hippokrates/Palladio, sind an anderer Stelle der
+  Anthologie bereits destilliert).
