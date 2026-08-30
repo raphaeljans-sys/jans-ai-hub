@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 19:42:43
+Stand: 30.08.2026 19:52:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 19:40)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 19:42:43
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9ac4ae484 Fachwissen: Zeile 73+74 Sektion 02_Kunst_Geschichte destilliert (Ursprung Kunst der Gegenwart, Land Art Site/Non-Site/Erhabenes/Tilted Arc, Denkmal-Diskurs Leipzig)
+- 1a5d1cc47 Lane FACHWISSEN: Zeile 72 Flandern-Studienreise-Reader destilliert (100. Lauf)
