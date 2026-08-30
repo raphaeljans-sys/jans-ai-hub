@@ -716,3 +716,68 @@ geöffnet). **Nächster Lauf:** kleine/mittlere Restdateien zuerst (Behne 71-149
 Waldenheim 3 MB, `kapitel01_dk...` 19,1 MB), dann Jefferson (5,3 MB)/Muratori
 (mehrere PDF 1,8-4,2 MB)/Rossi (Duplikat-Check gegen `02_Architekturtheorie` zuerst),
 Sonne/Lampugnani/Sievers zuletzt (grösste Dateien, teils über 20-MB-Grenze).
+
+**30.08.2026 (Lane FACHWISSEN, zwölfter P2-Lauf, Position 4 fortgesetzt — drei weitere
+Dossiers, alle drei kleinen/mittleren Restdateien des elften Laufs abgeschlossen):** vor
+Arbeitsbeginn wie üblich `scutil` (Macmini bestätigt), `ps -o pid,ppid,comm` auf den
+eigenen Prozessbaum (`37152 → 37155 → 37161 → 37162`, verschachtelte
+`claude-run.sh`-Wrapper derselben Instanz, keine Doppel-Instanz — der parallel laufende
+Prozess 36982 ist die unabhängige Lane SYNOBSIS, andere KB, keine Kollision) und
+`KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft. Dispatch-Text weiterhin identisch veraltet
+(«kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich «MacBook Pro» — 61.
+Beispiel Memory `project_fachwissen-dispatch-loop` beschreibt exakt diesen Lauf-Übergang).
+Realer Stand entsprach exakt dem Ende des elften Laufs oben.
+
+- `Behne_Adolf/` (drei Dateien: `behne1.ashx.pdf` 70 KB, `behne2.ashx.pdf` 145 KB,
+  `Titelblatt_Behne_Adolf_Der_moderne_Zweckbau.pdf` 53 KB — zwei **unabhängige**
+  studentische Zusammenfassungen von Adolf Behnes «Der moderne Zweckbau» (1923),
+  Neuausgabe mit Nachwort Ulrich Conrads) → neuer Artikel
+  [[adolf-behne-moderner-zweckbau-fassade-haus-geformter-raum-gestaltete-wirklichkeit]]
+  (Dreistufenmodell Fassade→Haus→geformter Raum→gestaltete Wirklichkeit,
+  Funktionalist-vs.-Utilitarist- und Rationalist-vs.-Romantiker-Achsen, Zitate
+  Wagner/Berlage/Wright/Behrens/van de Velde/Le Corbusier/Loos/Mies/Schwitters). Vierte
+  Datei desselben Ordners (`pl_adolf_behne.pdf`, 150 S., 4,5 MB, vollständiger Buchscan)
+  ist reiner Bildscan ohne Textebene (`pypdf` 0 Zeichen) — nicht ausgewertet, Kandidat für
+  einen künftigen OCR-Lauf.
+- `Waldenheim/LANDSCAPE_URB_READER.pdf` (3 MB, 41-seitiger Auszug aus «The Landscape
+  Urbanism Reader», Hg. Charles Waldheim, Princeton Architectural Press 2006, Bildscan mit
+  OCR-Textlayer, streckenweise verrauscht aber an Zitatstellen sauber lesbar) → neuer
+  Artikel
+  [[landscape-urbanism-reader-waldheim-shane-shannon-berger-drosscape]] (vier Essays:
+  Waldheim «Landscape as Urbanism», Shane Fordismus-Dreiphasenmodell, Shannon europäische
+  Critical-Regionalism-Vorgeschichte, Berger «Drosscape»/Deindustrialisierung — erster Fund
+  dieser Sektion zur zeitgenössischen Landscape-Urbanism-Bewegung). Ordnername
+  «Waldenheim» ist Schreibvariante des Autors Charles **Waldheim**, im Artikel korrigiert
+  vermerkt.
+- `kapitel01_dk_vorindustrielle_120dpi.pdf` (19,1 MB, 76 S., Textebene vorhanden) —
+  identifiziert als Kapitel I aus Bernd Wiese/Norbert Zils, «Deutsche Kulturgeographie»
+  (Busse Seewald 1987, CC-BY-NC-ND). Nur Unterkapitel 3 (Landausbau/Ostkolonisation/
+  mittelalterliche Stadtgründung/Hanse, Originalseiten 33–68) gelesen und destilliert →
+  neuer Artikel
+  [[deutsche-ostkolonisation-mittelalterliche-stadtgruendung-hanse-wiese-zils]]
+  (Dreifelderwirtschaft-Bevölkerungswachstum, vier Zielregionen der Ostkolonisation,
+  ius teutonicum/Lokatoren/Hufenmasse, Deutscher Ritterorden mit belegter Kennzahl
+  90+ Städte/1'400 Dörfer 1280–1410, Stadtbegriff-Definition Mittelalter, Hellweg/Hohe
+  Strasse als Stadtachsen, Hanse-Städtegruppen, Schirmfassade Lübeck). **Unterkapitel 1
+  (römerzeitliche Grundlagen), 2 (Völkerwanderung/fränkische Expansion), 4
+  (spätmittelalterliche Wüstungsperiode/Gutsherrschaft/Bergstädte/Fugger/30-jähriger
+  Krieg) und 5 (Absolutismus/Residenzstädte) bleiben ungelesen**, Fundstelle bekannt.
+
+Gegen bestehenden Wiki-Bestand geprüft (`grep -ril` über `wiki/*.md`): keine Duplikate zu
+Behne, Landscape Urbanism oder Ostkolonisation/Hanse gefunden. `git diff --numstat` auf
+diese Inventardatei zeigt reinen Append. **Von den 33 Autorendossiers der Position 4 sind
+damit 18 mit Ertrag bearbeitet** (15 aus den Vorläufen plus Behne); weiterhin drei
+leer/ohne Ertrag (Leveillé, Siedler, Sutcliffe) und zwei ohne Ertrag geprüft (Mumford,
+Gracq); die unzugeordnete `kapitel01_dk...`-Datei ist jetzt teilweise (Unterkapitel 3)
+ausgewertet, gehört aber inhaltlich nicht zu den Autorendossiers im engeren Sinn.
+**15 Autorendossiers bleiben offen**: Christiansen bereits erledigt (Vorlauf,
+Namenskorrektur: im Ordner „Christiansen_Kees" statt „Christiaanse"), Darmstaedter-Datei
+`img001.jpg` bereits mitgeprüft, Giedion, Hilberseimer, Jefferson, Lampugnani (grosse PDF
+10,8 MB `Quellentextband-1.pdf` noch ungeprüft), Muratori, Rossi (gegen bestehende
+Rossi-Artikel aus Korpus `archiv-fachwissen__02_Architekturtheorie` prüfen, bevor
+destilliert wird), Sievers (`Thomas Sieverts - Zwischenstadt.pdf` 6,5 MB, plus
+`Bosshard_Zwischenstadt.pdf`), Sonne (mehrteiliges Dossier, eine Datei 85 MB, über
+20-MB-Grenze). **Nächster Lauf:** Jefferson (5,3 MB) oder Muratori (mehrere PDF
+1,8-4,2 MB) zuerst, Rossi mit vorherigem Duplikat-Check, Sonne/Lampugnani/Sievers zuletzt
+(grösste Dateien, teils über 20-MB-Grenze). Danach `kapitel01_dk...` Unterkapitel 1/2/4/5
+als eigene, von den Autorendossiers unabhängige Restaufgabe dieser Sektion vermerken.

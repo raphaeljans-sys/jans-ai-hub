@@ -1,5 +1,27 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zwölfter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, PID 37162, Prozessbaum 37152→37155→37161→37162 als verschachtelte Wrapper derselben Instanz erkannt, keine Doppel-Instanz)
+
+Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/CHANGELOG geprüft: entsprach exakt dem Ende
+des elften Laufs. Drei kleine/mittlere Restdateien der Position 4 abgeschlossen, drei neue
+Wiki-Artikel:
+[[adolf-behne-moderner-zweckbau-fassade-haus-geformter-raum-gestaltete-wirklichkeit]]
+(zwei unabhängige studentische Zusammenfassungen von Adolf Behnes «Der moderne Zweckbau»
+1923, Dreistufenmodell Fassade/Haus/geformter Raum/gestaltete Wirklichkeit, vierte Datei
+desselben Ordners bleibt reiner Bildscan ohne Textebene, nicht ausgewertet),
+[[landscape-urbanism-reader-waldheim-shane-shannon-berger-drosscape]] (41-seitiger Auszug
+aus «The Landscape Urbanism Reader», Hg. Charles Waldheim 2006 — vier Essays Waldheim/
+Shane/Shannon/Berger, erster Fund dieser Sektion zur zeitgenössischen
+Landscape-Urbanism-Bewegung) sowie
+[[deutsche-ostkolonisation-mittelalterliche-stadtgruendung-hanse-wiese-zils]] (Kapitel aus
+Wiese/Zils «Deutsche Kulturgeographie» 1987, Unterkapitel 3: Ostkolonisation,
+mittelalterliche Stadtgründung, Hanse — Unterkapitel 1/2/4/5 desselben Buchkapitels bleiben
+ungelesen). Von den 33 Autorendossiers der Position 4 sind jetzt 18 mit Ertrag bearbeitet,
+15 bleiben offen (Giedion, Hilberseimer, Jefferson, Lampugnani, Muratori, Rossi, Sievers,
+Sonne, plus drei leer/ohne Ertrag und zwei ohne Ertrag geprüft aus Vorläufen). Details
+Inventardatei `raw/inventar/archiv-fachwissen__01_Staedtebau.md`, Abschnitt
+`## Destillat-Fortschritt`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, elfter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, 61. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz, PID 31881)
 
 Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/CHANGELOG geprüft: entsprach exakt dem Ende

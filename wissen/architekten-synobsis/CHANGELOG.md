@@ -4,6 +4,38 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, vierundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche `git status --short`/`git diff --numstat` (Arbeitsbaum sauber bis auf
+den noch nicht gesicherten CHANGELOG-Eintrag des 23. Folgelaufs, append-only) sowie
+`wiki/QUESTIONS.md` an den namentlich betroffenen Zeilen erneut gegengelesen:
+Fehlextraktionen (331/332/339/344/349/353), alle vier Katalog-Kollisionen
+(105/136/180/268/336/342/350), Sonderzeichen-Regel (351) und Sammelfrage Charge 1-6
+unveraendert BEHOBEN bzw. vollstaendig recherchiert seit dem ersten Lauf am 29.08.2026.
+Einzige inhaltlich noch offene Reste sind die per Websuche UND Ordnerinhalt-Sichtung
+bereits ausgeschoepften Charge-2/6-Merkposten (Fischle, Gigometti, Goldsmith_Felix,
+Gruppo_Ligure, Zanini) — fuer diese fehlt zusaetzliches Material im Quellordner, keine
+erneute Recherche mit denselben Mitteln bringt Fortschritt. Keine neue Position gefunden,
+keine Katalog-JSON- oder `QUESTIONS.md`-Aenderung. Dies ist der 24. Redispatch desselben
+(laut mehreren Vorlaeufen bereits als veraltet erkannten) Auftragstexts an einem Tag.
+Unveraendert dringliche Empfehlung an Raphael: Lane SYNOBSIS pausieren oder Dispatch-Text
+aktualisieren, bis neuer Auftrag, neues Quellmaterial oder eine Antwort auf die zwei
+offenen Rueckfragen (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319) vorliegt.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, dreiundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche `git status --short`/`git diff --numstat` (Arbeitsbaum sauber, `-0/-0`)
+sowie `wiki/QUESTIONS.md` an den namentlich betroffenen Zeilen erneut gegengelesen:
+Fehlextraktionen (331/332/339/344/349/353), alle vier Katalog-Kollisionen
+(105/136/180/268/336/342/350), Sonderzeichen-Regel (351) und Sammelfrage Charge 1-6
+unveraendert BEHOBEN bzw. vollstaendig recherchiert seit dem ersten Lauf am 29.08.2026 —
+keine neue Position gefunden, keine Katalog-JSON- oder `QUESTIONS.md`-Aenderung. Dies ist
+der 23. Redispatch desselben (laut mehreren Vorlaeufen bereits als veraltet erkannten)
+Auftragstexts an einem Tag. Unveraendert dringliche Empfehlung an Raphael: Lane SYNOBSIS
+pausieren oder Dispatch-Text aktualisieren, bis neuer Auftrag, neues Quellmaterial oder
+eine Antwort auf die zwei offenen Rueckfragen (Sik_Miroslav Zeile 313, Sutter_Annabarbara
+Zeile 319) vorliegt.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, zweiundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
 
 Vor jeder Recherche `git status --short`/`git diff --numstat` (Arbeitsbaum sauber bis auf den
