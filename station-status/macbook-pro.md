@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 22:33:56
+Stand: 30.08.2026 22:44:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 22:33:56
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 13f70e9dc nas-selfcommit: 2 Datei(en) 2026-08-30 22:30
+- c34fcbbed Wissens-Destillat archiv-fachwissen: drei Personenartikel (Nurmesniemi, van de Velde, Earl), Zeile 68 fortgesetzt (124. Lauf)
