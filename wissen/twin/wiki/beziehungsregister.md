@@ -3502,7 +3502,7 @@ wer die Mail bekommt, nicht wer angeredet wird») und der erste, in dem der Uebe
 Vormittags-Default. Der Default ist nicht falsch, aber er ist ein Default — und deckt die
 belegte Form nicht ab.
 
-## Batch 109 (30.08.2026) — Drafts-Erstzugriff 2024/2025 + Sent 29.08.2026
+## Batch 109 (30.08.2026) — historischer Drafts-Bestand 2024/2025 + Sent 29.08.2026
 
 Quelle: [[260830-mailbatch-109]], 9 Golds, Gewichtung `authentisch`.
 

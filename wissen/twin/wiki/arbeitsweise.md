@@ -3755,7 +3755,7 @@ Korrektur von 260817 («die A) B) C)-Form ist Raphaels LISTENFORM, kein Register
 weiteren Gegenstandstyp: nicht nur Fragen, Traktanden und Befundpaare, sondern auch die
 **zugeschriebene Fremdempfehlung**. Der Zwilling schrieb an dieser Stelle blind Fliesstext.
 
-## Batch 109 (30.08.2026) — Drafts-Erstzugriff 2024/2025 + Sent 29.08.2026
+## Batch 109 (30.08.2026) — historischer Drafts-Bestand 2024/2025 + Sent 29.08.2026
 
 Quelle: [[260830-mailbatch-109]], 9 Golds, Gewichtung `authentisch`.
 
@@ -3794,20 +3794,41 @@ bewerkstelligen. Bei Kauf des Objektes könnten dann offen Fragen … vertieft b
 werden.» (28.06.2025) Der Arbeitsumfang wird an die **Entscheidungslage** des Auftraggebers
 gekoppelt, nicht an den fachlichen Idealfall. Haltungsseite in [[haltung]].
 
-### ⭐ Methoden-Nachtrag für die kommenden Läufe: der Ordner `Drafts`
+### ⭐ Methoden-Nachtrag: der historische Bestand von `Drafts` ist eine ungehobene Quelle
 
-Dieser Lauf hat den seit dem Fidelity-Lauf 260828 offenen Ordner **erstmals angefasst**:
-123 Einträge, ältester 04.07.2025, **vollständig vor dem Claude-Stichtag** und damit ohne
-Echo-Risiko. Drei Eigenheiten für die Auswertung:
+**Berichtigung zuerst.** Der Kopf von [[_INGESTED]] führte `Drafts` als «von keinem Batch je
+angefasst». Das ist falsch — die Batch-Tabelle derselben Datei nennt **sechs** frühere Zugriffe
+(Batches 96, 97, 98, 101, 102, 103). Berichtigt am 30.08.2026; gefangen hat den Fehler die
+Vorgabe, **beide Teile** der Datei auszuwerten, bevor gelesen wird.
+
+**Der eigentliche Befund ist feiner.** Alle sechs früheren Zugriffe nutzten den Ordner als
+**Delta-Werkzeug**: Paare aus Claude-Entwurf und versendeter Fassung, immer im aktuellen
+2026er Fenster. Der **historische Bestand 2024/2025** — Entwürfe ohne Sent-Partner, vollständig
+vor dem Claude-Stichtag — wurde nie als eigenständige Gold-Quelle gehoben, obwohl Batch 96
+seine Tiefe ausdrücklich vermass («Bestand zurück bis 04.07.2025»). **Eine Quelle lag sechsmal
+in der Hand und blieb ungenutzt, weil sie unter einer anderen Funktion geführt wurde.**
+8 der 9 Golds dieses Batches stammen daraus; 98 Einträge sind noch nicht gelistet.
+
+### ⚠ Die Kanal-Regel aus Batch 96 gilt nur für die Claude-Ära
+
+Batch 96 stellte fest: «Apple Mail = Hub-`osascript`-Draft, Exchange = Raphaels unfertige
+Hand» — ein Apple-Mail-Entwurf wäre demnach `claude-aera` und als Stilquelle gesperrt. Vier
+der fünf hier gelesenen Entwürfe sind Apple-Mail-Entwürfe und wären so verworfen worden.
+
+Sie sind trotzdem Gold: der Hub schreibt seine `osascript`-Drafts **erst seit 2026**; davor ist
+Apple Mail schlicht Raphaels Mac-Client. Die Texte belegen es unabhängig vom Kanal (Du-Schwankung
+im selben Satz, kleingeschriebene Anglizismen, dichte Tippfehler).
+
+**Präzisierung: die Kanal-Trennung ist auf die Claude-Ära beschränkt. Bei Material vor 2026
+entscheidet das Fehlerbild, nicht der Client.** Ohne diese Einschränkung sperrt die Regel genau
+den Bestand mit dem geringsten Echo-Risiko.
+
+### Drei Eigenheiten des Entwurfsordners für die Auswertung
 
 1. **Viele Entwürfe sind leere Hüllen** (8 von 25 auf Seite 1): nur Signatur oder «--».
-   **Gratis-Vorfilter:** `summary` beginnt mit «Freundliche Grüsse» oder ist «--» →
-   überspringen, kein `read_resource` verbrauchen.
-2. **Entwürfe brechen mitten im Satz ab** — genau deshalb liegen sie dort. Der Abbruch ist
-   ein Artefakt, kein Stilmarker; die Marker davor bleiben gültig.
+   **Gratis-Vorfilter:** `summary` beginnt mit «Freundliche Grüsse» oder ist «--» → überspringen.
+2. **Entwürfe brechen mitten im Satz ab** — genau deshalb liegen sie dort. Der Abbruch ist ein
+   Artefakt, kein Stilmarker; die Marker davor bleiben gültig.
 3. **Antwortentwürfe tragen den Zitat-Stack** und darin Zusatzgold, das in `Sent Items`
-   abgeschöpft schien: ein einziger Entwurf lieferte hier zwei vollständige Raphael-Mails
-   an denselben Bauherrn, zwei Tage auseinander, mit Registerwechsel dazwischen.
-
-**98 Einträge sind noch nicht gelistet.** Sequenziell nach `order: oldest` abarbeiten, wie
-`Sent Items` es erhielt.
+   abgeschöpft schien: ein einziger Entwurf lieferte hier zwei vollständige Raphael-Mails an
+   denselben Bauherrn, zwei Tage auseinander, mit Registerwechsel dazwischen.

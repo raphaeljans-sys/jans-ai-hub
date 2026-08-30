@@ -4718,10 +4718,12 @@ Der Auto-Block lag am 29.08.2026 bei 33'952 B von 34'000 B (Reserve 48 B). Die N
 darum hier belegt, aber nicht kompiliert — sie wirkt erst nach einem Entscheid Raphaels
 (→ [[QUESTIONS]] 260829b #4).
 
-## Batch 109 (30.08.2026) — Drafts-Erstzugriff 2024/2025 + Sent 29.08.2026
+## Batch 109 (30.08.2026) — historischer Drafts-Bestand 2024/2025 + Sent 29.08.2026
 
-Quelle: [[260830-mailbatch-109]], 9 Golds, Gewichtung `authentisch`. Erster Zugriff auf den
-Ordner `Drafts` (123 Einträge, ältester 04.07.2025) — durchgehend vor dem Claude-Stichtag.
+Quelle: [[260830-mailbatch-109]], 9 Golds, Gewichtung `authentisch`. Erstmals als Gold-Quelle gehoben:
+der **historische Bestand** des Ordners `Drafts` (123 Einträge, ältester 04.07.2025) — vollständig
+vor dem Claude-Stichtag. Der Ordner selbst ist seit Batch 96 bekannt, wurde dort aber nur als
+Delta-Werkzeug für 2026er Paare genutzt (siehe [[arbeitsweise]]).
 
 ### ⭐ Die Binnengrossschreibung hält 14 Monate und trifft jede Wortart
 

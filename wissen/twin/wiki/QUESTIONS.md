@@ -4938,3 +4938,72 @@ Datei muss am Original erfolgen.
 
 Uebergeben vom Wissens-Chef Run 47, 29.08.2026. Gegenzeiger steht in
 `wissen/architektur-fachwissen/wiki/QUESTIONS.md`, Block 260829b.
+
+---
+
+## 260830 — Batch 109 (Drafts-Erstzugriff)
+
+### #1 Du-Grossschreibung: drei Lesarten, ein Effekt — welche gilt?
+
+Der Batch liefert zwei Belege, die **beide Formen im selben Satz** tragen:
+
+- «Ich habe **D**ich als Family-Member hinzugefügt, **d**u solltest jetzt unbegrenzter
+  Speicherplatz haben.» (18.08.2025, 3D-Freelancer)
+- «Kannst **D**u mir eine Offerte machen … müsste ich von **D**ir wissen ob **d**u ein
+  Vorschlag hättest…» (29.07.2025, Gebäudetechnik-Planer)
+
+Damit stehen **drei** Lesarten nebeneinander, die alle je zwei bis drei Belege haben:
+
+| Lesart | Herkunft | Sagt |
+|---|---|---|
+| A Satzfunktion | Batch 107 | gross als Objekt/Possessiv, klein als Subjekt |
+| B Adressat vs. Inline-Zuruf | Batch 108 | gross beim Hauptadressaten, klein beim Mitleser-Zuruf |
+| C Anliegen vs. Nachsatz | Batch 109 | gross im Hauptsatz-Anliegen, klein im nachgeschobenen Neben-/Folgesatz |
+
+Lesart C erklärt beide Belege dieses Batches ohne Rest; A und B tun das nicht (in beiden
+Fällen ist das kleine «du» **Subjekt** — was A stützt —, steht aber auch im Nachsatz).
+A und C sind hier **nicht unterscheidbar**, weil das Subjekt in beiden Belegen zufällig im
+Nachsatz steht.
+
+**Frage an Raphael:** Ist das überhaupt eine Regel — oder wandert die Grossschreibung
+schlicht mit der **Betonung** und alle drei Beschreibungen fassen denselben Effekt von
+verschiedenen Seiten? Falls es eine Regel ist: gilt A, B oder C?
+
+*Warum es zählt:* Die DNA gibt «Du/Dich/Dir/Deine immer gross» vor. Gemessen sind über die
+letzten Batches konstant **0.85–0.90**, nie 1.0. Der Zwilling schreibt heute ausnahmslos
+gross und ist damit **regelkonform, aber messbar zu sauber**. Ohne Entscheid bleibt offen,
+ob das ein Fehler ist oder die gewollte Glättung eines Tippartefakts.
+
+### #2 Ist der HISTORISCHE Bestand von `Drafts` als Gold-Quelle freigegeben?
+
+Der Ordner ist nicht neu — die Batches 96, 97, 98, 101, 102 und 103 haben ihn genutzt, aber
+ausschliesslich als **Delta-Werkzeug** (Paare aus Claude-Entwurf und versendeter Fassung, im
+jeweils aktuellen 2026er Fenster). Der **historische Bestand 2024/2025** — Entwürfe ohne
+Sent-Partner, vollständig vor dem Claude-Stichtag — wurde nie als eigenständige Gold-Quelle
+gehoben. Dieser Lauf hat es erstmals getan: 8 der 9 Golds stammen daraus, 98 Einträge sind
+noch nicht gelistet.
+
+**Frage:** Sollen die restlichen 98 sequenziell als Gold ausgewertet werden?
+
+*Was dafür spricht:* `Sent Items` ist im August 2026 abgeschöpft — dieser Lauf fand dort an
+zwei Tagen **ein** Gold. Der Entwurfsbestand lieferte am selben Tag **acht**, alle vor 2026
+und damit ohne Echo-Risiko.
+
+*Was zu bedenken ist:* Ein Entwurf ist ein Text, den Raphael **nicht abgeschickt hat**. Bei
+den hier gelesenen ist der Grund erkennbar harmlos (Satzabbruch mitten im Wort, Anhang
+nachgereicht, Antwort anders gelöst) — aber es ist denkbar, dass ein Entwurf gerade deshalb
+liegen blieb, weil der **Ton** nicht stimmte. Dann wäre er Anti-Gold, nicht Gold.
+
+*Vorschlag bis zum Entscheid:* weiter auswerten, aber jeden Draft-Marker mit der Gewichtung
+`authentisch (Entwurf, nicht versendet)` führen, damit er im Zweifel isolierbar bleibt.
+
+### #3 «Lieber» beim Angebot, «Geschätzter» bei der Schliessung — stimmt die Richtung?
+
+Derselbe Bauherr, zwei Tage Abstand: «Lieber Christoph,» in der werbenden Offerte (28.06.2025),
+«Geschätzter Christoph,» in der Quittung der Absage mit Rechnungsadresse (30.06.2025).
+
+Die Anlassgewicht-Klausel in `rules/anrede-kontakte.md` sagt bislang, ein gewichtiger Anlass
+ziehe «Geschätzte/r». Der Beleg **präzisiert die Richtung**: das Gewicht hebt die Stufe
+**formeller**, nicht wärmer — und der Geldbezug ist der Auslöser, nicht die Nähe.
+
+**Frage:** Trifft das zu, oder ist es hier Zufall der Tagesform?

@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 03:40:40
+Stand: 30.08.2026 03:50:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 03:37)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 03:40:40
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 43d62a1a0 FACHWISSEN: 120504_Vision_Visualitaet_I_Gropius destilliert (P2 archiv-fachwissen 02_Architekturtheorie)
+- e0cbf6101 auto-sync [Macmini]: 120518_Abschlussvorlesung, Sektion 02_Architekturtheorie vollstaendig
