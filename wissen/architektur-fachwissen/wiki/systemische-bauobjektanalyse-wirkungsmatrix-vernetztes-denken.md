@@ -3,7 +3,7 @@ title: "Systemische Bauobjektanalyse: Einflussgrössen, Wirkungsmatrix, Aktivit�
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/10_Einzelwissenschaften/Systemik/10_Semestermaterial/Systemik/Idee Bauen_Uebung Vernetzung 20051220.pdf S. 1-2 (Aufgabenstellung Übung Systemik, HTA Luzern, 20.12.2005)", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/10_Einzelwissenschaften/Systemik/10_Semestermaterial/Systemik/Systemik - Vernetztes Denken in komplexen Situationen.pdf S. 1, 5, 21 (Vorlesung Prof. Urs Rieder, Dezember 2005)", "raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md Abschnitt Triage"]
-links: ["[[bestand-umbau-argumentationsvorrat-altbau-als-ressource]]"]
+links: ["[[bestand-umbau-argumentationsvorrat-altbau-als-ressource]]", "[[luhmann-systemtheorie-beobachtung-autopoiesis-organisation-interventionsstufen-hafen]]"]
 ---
 
 # Systemische Bauobjektanalyse: Wirkungsmatrix und Vernetztes Denken

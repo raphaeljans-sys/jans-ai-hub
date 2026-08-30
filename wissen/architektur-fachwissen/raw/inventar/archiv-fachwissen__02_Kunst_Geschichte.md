@@ -396,3 +396,34 @@ Queue-Regel Prüfung der nächsten Sektion mit offenem P2.
 noch ungeöffneten Dateien von Zeile 74 (`Praesentation.pdf`, `Tania_Meisser.pdf`) oder Zeile 68
 `02_Bildende_Kunst/08_Design/` (733 Dateien), sonst laut Queue-Regel Prüfung der nächsten
 Sektion mit offenem P2.
+
+- Zeile 76 `10_Einzelwissenschaften/Systemik/` übriger Bestand (rund 16 Dateien) →
+  **erledigt.** Stand selbst ermittelt (`KORPUS-QUEUE.md`, `git log`: Zeile 74 laut Commits
+  `148f9d9b4`/`3ad64614e` bereits vollständig destilliert, entgegen dem stehen gebliebenen
+  Hinweis im vorigen Absatz — Redaktionsrest, kein offener Auftrag). Von den 16 Dateien
+  ausserhalb der bereits als P1 erfassten drei (Modulführer 405, Begleittext Systemtheorie,
+  Energieträger-PDF) gelesen: `ISA_Modulführer_405_Systemisch.pdf` (13 S., Begriffsglossar
+  Systemtheorie/Innovationsprozesse) und `Begleittext Einführung Systemtheorie.pdf` (Auszug
+  S. 7-36 aus Hafen 2007, «Grundlagen der systemischen Prävention»). Beide destilliert zu
+  [[luhmann-systemtheorie-beobachtung-autopoiesis-organisation-interventionsstufen-hafen]]
+  (Beobachtung 1./2. Ordnung, Autopoiesis, operative Geschlossenheit, funktionale
+  Differenzierung, die drei Organisations-Entscheidungsprämissen, die sechs Stufen vom
+  Interventionsversuch zur verfestigten Verhaltensänderung). Rückverlinkung im bestehenden
+  Artikel [[systemische-bauobjektanalyse-wirkungsmatrix-vernetztes-denken]] ergänzt. Nicht
+  gelesen: `A Relational Scaffolding Model of Hybrid Communication.pdf`, `Getting to Know the
+  Customer.pdf`, `Involving Key Stakeholders into Regional Innovation Processes.pdf` (reine
+  Management-/Innovationsforschungs-Fachartikel ohne Architekturbezug, im Modulführer bereits
+  als Literaturverzeichnis erfasst, kein Systemtheorie-Neuwert), `Peer Fuchs «Nachhaltige
+  Entwicklung – theoretisch»` und die beiden Vorlesungs-PDF (`Einführung 26.03.2008`,
+  `Einführung Systemtheorie Martin Hafen 2.&9.4.08`) — hohes Duplikatsrisiko zum bereits
+  gelesenen Begleittext derselben Dozenten und Lehrveranstaltung, Ertrag oberhalb der
+  Destillationsschwelle nicht zu erwarten. Teilnehmerliste und Gruppeneinteilung bleiben
+  gemäss Sperrliste Zeile 88 nicht inventarisiert. `Fragen.doc` unter `02_Uebung/` nicht
+  geöffnet (Praxisrecherche-Interviewleitfaden ohne erwartbaren Fachwert, siehe Modulführer
+  S. 4-5). **Zeile 76 gilt damit als abgeschlossen — P2 der Sektion `02_Kunst_Geschichte` ist
+  nun bis auf Zeile 68 (`08_Design`, 733 Dateien) vollständig abgearbeitet.**
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 68
+`02_Bildende_Kunst/08_Design/` (733 Dateien, Designgeschichte-Website-Spiegel), sonst laut
+Queue-Regel Prüfung der nächsten Sektion mit offenem P1/P2 (Kandidaten laut `wiki/INDEX.md`:
+`02_Gestalt_Kulturverstaendnis` 146 P1, `03_Bauprozesse_I_II` P2-Rest).

@@ -6017,3 +6017,44 @@ des Ordners sind Bilddateien ohne eigenen Fliesstext, nicht einzeln geöffnet.
 --numstat` auf die Inventardatei zeigt reinen Append (16 0). Ein Wiki-Artikel neu, `wiki/INDEX.md`
 nachgeführt. **Nächster Lauf:** Zeile 68 `08_Design` (733 Dateien) oder Zeile 76, sonst laut
 Queue-Regel nächste Sektion mit offenem P1/P2 wählen.
+
+## 260830 — Zeile 76 Systemik übriger Bestand, Sektion `02_Kunst_Geschichte` (Lane FACHWISSEN, 101. Lauf)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md` und die
+Inventardatei geprüft, Zeile 68 (`08_Design`, 733 Dateien) und Zeile 76 als einzige offenen
+P2-Positionen dieser Sektion bestätigt (Zeile 74 trotz eines stehen gebliebenen
+Redaktionshinweises im letzten Absatz der Inventardatei laut Commits `148f9d9b4`/`3ad64614e`
+bereits vollständig abgeschlossen). NAS unter `/Volumes/daten` erreichbar, keine der harten
+Sperren (Verträge/Bewerbungen/Adressen/Lohndaten) berührt.
+
+Zeile 76 `10_Einzelwissenschaften/Systemik/` übriger Bestand (rund 16 Dateien, P2): von den
+Positionen ausserhalb der bereits als P1 erfassten drei Dateien gelesen:
+`ISA_Modulführer_405_Systemisch.pdf` (13 S., HSLU, Sommersemester 2008, Modul «Systemisch
+denken – innovativ handeln») und `Begleittext Einführung Systemtheorie.pdf` (Auszug S. 7-36
+aus Martin Hafen, «Grundlagen der systemischen Prävention», Carl-Auer 2007). Beide destilliert
+zu neuem Artikel
+[[luhmann-systemtheorie-beobachtung-autopoiesis-organisation-interventionsstufen-hafen]]:
+Beobachtung 1./2. Ordnung, Autopoiesis, operative Geschlossenheit, strukturelle Kopplung,
+funktionale Differenzierung der Gesellschaft, die drei Organisations-Entscheidungsprämissen
+(Entscheidungsprogramme/Kommunikationswege/Personaleinsatz) und die sechs Stufen vom
+Interventionsversuch zur verfestigten Verhaltensänderung (Aufmerksamkeit → Verstehen →
+Akzeptieren → Einstellungsänderung → Verhaltensänderung → Verfestigung). Praxisregel für
+Bauherren-/Gremienkommunikation und als Diagnoseraster bei ins Leere laufenden Vorschlägen
+ergänzt. Rückverlinkung im bestehenden Artikel
+[[systemische-bauobjektanalyse-wirkungsmatrix-vernetztes-denken]] ergänzt.
+
+Bewusst nicht gelesen: drei Management-/Innovationsforschungs-Fachartikel ohne
+Architekturbezug (Meissner/Tuckermann, Wolf et al., bereits im Modulführer-Literatur-
+verzeichnis erfasst), Peter Fuchs' Nachhaltigkeits-Text und zwei Vorlesungs-PDF derselben
+Dozenten (hohes Duplikatsrisiko zum gelesenen Begleittext, Ertrag unterhalb Schwelle
+erwartet), sowie `Fragen.doc` (Interviewleitfaden ohne erwartbaren Fachwert). Teilnehmerliste
+und Gruppeneinteilung bleiben gemäss Zeile 88 der Inventartabelle gesperrt (Personendaten
+Dritter).
+
+**Zeile 76 gilt damit als abgeschlossen — P2 der Sektion `02_Kunst_Geschichte` ist bis auf
+Zeile 68 (`08_Design`, 733 Dateien) vollständig abgearbeitet.** `git diff --numstat` auf die
+Inventardatei zeigt reinen Append (31 0). Ein Wiki-Artikel neu, ein bestehender per
+Rückverlinkung ergänzt, `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile 68 `08_Design`
+(733 Dateien, Duplikatscheck vor dem Schreiben wegen des grossen Umfangs zwingend), sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2 (Kandidaten: `02_Gestalt_Kulturverstaendnis` 146
+P1, `03_Bauprozesse_I_II` P2-Rest).
