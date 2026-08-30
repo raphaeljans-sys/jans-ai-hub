@@ -1991,3 +1991,44 @@ begründet ohne Artikel abgeschlossen, 20 bleiben offen.** **Nächster Lauf:** O
 gartenbaulich-horticultural als städtebaulich, Fachlichkeitsprüfung im nächsten Lauf vor
 Destillationsentscheid), sonst Vasari il Giovane/Città ideale (299) oder Leonardo da Vinci (257,
 bisher nie geprüft) vor dem gesamten noch ungeprüften antiken Block Homer bis Cicero (S. 9-81).
+
+## Achtunddreissigster P2-Lauf, Olivier de Serres ohne Artikel geschlossen, Vasari il Giovane
+destilliert (30.08.2026, Lane FACHWISSEN)
+
+Vor Laufbeginn Stand selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen): `KORPUS-QUEUE.md`
+(dort nur bis 37. Lauf nachgeführt), `wiki/INDEX.md` und diese Inventardatei gegengeprüft, beide
+deckungsgleich mit dem 37.-Lauf-Ende; `git status`/`scutil`/`ps` zeigten sauberen Working Tree, kein
+`MERGE_HEAD`, genau einen laufenden `claude -p`-Prozess (kein Doppel-Dispatch).
+
+Beide vom 37. Lauf empfohlenen Kandidaten aus `Quellentextband-1.pdf` per
+`/opt/homebrew/bin/pdftoppm` gerendert und gelesen (Offset PDF-Seite = gedruckte Seite + 4):
+
+- **Olivier de Serres, Le Théâtre d'Agriculture et Mesnage des Champs** (S. 293-297, Sechstes Buch
+  «Des Jardinages», vollständig gelesen): Bordürenpflanzen-Auswahl (Myrte, Lavendel, Rosmarin,
+  Buchsbaum u. a.), Anordnung der Beetkräuter nach Art/Farbe/Abstand, Parterre-Farbkies (rote/gelbe/
+  weisse Erde, zerkleinerter Schiefer für Schwarz) zur bildhaften Wirkung des Broderie-Parterres,
+  Blickachsen-Perspektive (Beete aus der Nähe enger, aus der Ferne weiter anordnen, Betrachtung von
+  erhöhten Terrassen/Gebäuden). Durchgängig reine Zier-/Nutzgarten-Anleitung ohne jeden Bezug zu
+  Stadt-/Siedlungsplanung, -struktur oder -recht. **Bewusst ohne Artikel geschlossen**
+  (Delta-Ehrlichkeit, analog Aventinus 36. Lauf, Al-Ghazali/Koran-Auszüge) — die im 37. Lauf
+  vermutete gartenbauliche statt städtebauliche Natur des Textes bestätigt sich vollständig.
+- **Giorgio Vasari il Giovane, La Città ideale** (1598, S. 299-302, vollständig gelesen, Auszug
+  endet mit «(.....)» auf S. 302, direkt anschliessend S. 303 Campanella/Città del Sole) → neuer
+  Artikel [[vasari-il-giovane-citta-ideale-1598-gebaeudetypologie-marktzonierung]] (Standortwahl
+  Ebene statt Hügel wegen fester Regelbarkeit, Fluss nahe aber nicht durch die Stadt gegen
+  Überschwemmung, Strassenraster-Debatte gerade vs. krumm mit Siena-Verkettung als
+  Verteidigungskompromiss, fünfeckige Zitadelle als erster von 65 Bauplänen, Markt-Warenzonierung
+  Fleisch/Fisch/Gemüse/Obst nach Loggien-Seite, vierstufige Palast-Geschosshierarchie nach Rang,
+  Bibliotheks-Begründung über Zugang unabhängig vom Vermögen). Verlinkt mit
+  [[renaissance-idealstadt-typologie-filarete-alberti-duerer]],
+  [[specklin-architectura-vestungen-standortkriterien-topographia-1589]] und
+  [[ibn-abdun-sevilla-baupolizei-hisba-marktordnung-1100]] (Marktordnung-Vergleich).
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach «vasari» und «idealstadt»/«città ideale» über
+`wiki/*.md`): kein bestehender Vasari-il-Giovane-Artikel, keine inhaltlichen Duplikate. `git diff
+--numstat` auf diese Inventardatei zeigt reinen Append.
+
+**Von den 54 benannten Positionen der Quellentextband-Anthologie sind jetzt 36 destilliert oder
+begründet ohne Artikel abgeschlossen, 18 bleiben offen.** **Nächster Lauf:** Leonardo da Vinci
+(S. 257, bisher nie geprüft) oder der gesamte noch ungeprüfte antike Block Homer bis Cicero
+(S. 9-81).

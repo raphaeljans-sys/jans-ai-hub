@@ -1821,3 +1821,20 @@ destilliert bestätigt ([[palladio-strassen-bruecken-plaetze-vier-buecher-1570]]
 kein Doppelfund. Von den 54 benannten Positionen der Anthologie sind jetzt
 34 destilliert oder begründet ohne Artikel abgeschlossen, 20 vollständig
 offen. Details in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 38. P2-Lauf):** Olivier de Serres, Théâtre
+d'Agriculture (S. 293-297, Buch VI «Des Jardinages») vollständig geprüft und
+**ohne Artikel geschlossen** — reine Zier-/Nutzgarten-Anleitung
+(Bordürenpflanzen, Parterre-Farbkiesmuster, Blickachsen-Perspektive), kein
+städtebaulicher Gehalt (Delta-Ehrlichkeit, analog Aventinus/Al-Ghazali).
+Giorgio Vasari il Giovane, La Città ideale (1598, S. 299-302) destilliert →
+[[vasari-il-giovane-citta-ideale-1598-gebaeudetypologie-marktzonierung]]
+(Standortwahl Ebene statt Hügel wegen fester Regelbarkeit, Fluss nahe aber
+nicht durch die Stadt, Strassenraster-Debatte gerade vs. krumm mit
+Siena-Verkettung als Kompromiss, fünfeckige Zitadelle als erster Bauplan,
+65-teiliges Typenverzeichnis mit Markt-Warenzonierung, Palast-Geschosshierarchie
+und Bibliotheks-Begründung). Von den 54 benannten Positionen der Anthologie
+sind jetzt 36 destilliert oder begründet ohne Artikel abgeschlossen, 18
+vollständig offen. Nächster Lauf: Leonardo da Vinci (S. 257, bisher nie
+geprüft) oder der noch ungeprüfte antike Block Homer bis Cicero (S. 9-81).
+Details in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
