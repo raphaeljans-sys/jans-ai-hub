@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 05:25:18
+Stand: 30.08.2026 05:35:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 05:25:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a96ae3c31 SYNOBSIS: Minimalcheck 18. Folgelauf 30.08.2026, weiterhin nichts offen
+- 4abc55317 Nachtschicht: Korrektur Fristen-Nachtrag, Konflikt betrifft 8 Dateien nicht 1, kein Datenverlust bestaetigt

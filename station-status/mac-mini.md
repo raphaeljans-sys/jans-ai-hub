@@ -1,9 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 05:25:31
+Stand: 30.08.2026 05:36:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 05:25)
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:35)
+- /Users/raphaeljans  (letzte Aktivitaet 05:27)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +13,4 @@ Stand: 30.08.2026 05:25:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a96ae3c31 SYNOBSIS: Minimalcheck 18. Folgelauf 30.08.2026, weiterhin nichts offen
+- 4abc55317 Nachtschicht: Korrektur Fristen-Nachtrag, Konflikt betrifft 8 Dateien nicht 1, kein Datenverlust bestaetigt
