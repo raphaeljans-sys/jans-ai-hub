@@ -1,5 +1,41 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, vierzigster P2-Lauf (Herodot destilliert, Homer ohne Artikel, CHANGELOG-Lücke der Läufe 35-39 dokumentiert, Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn selbst aus `KORPUS-QUEUE.md`, `wiki/INDEX.md`, CHANGELOG und der
+Inventardatei ermittelt (Dispatch-Text trägt bewusst keine Zahlen). Dabei auffällig: dieser
+CHANGELOG zeigte als jüngsten Eintrag noch den 34. Lauf (Campano), obwohl Inventardatei und
+Wiki-Ordner bereits fünf weitere Läufe (35.-39., Pacioli/Serlio/Aventinus/Castiglione/
+Münster/Specklin/Olivier de Serres/Vasari/Leonardo da Vinci) tragen — die CHANGELOG-Einträge
+dieser fünf Läufe sind vermutlich im dokumentierten NAS-Merge-Konflikt (mehrere Lane-CHANGELOGs
+gleichzeitig) verlorengegangen; die Wiki-Dateien und die append-only Inventardatei selbst sind
+davon nicht betroffen. Vollständiger Bestand also intakt, nur dieses CHANGELOG lückenhaft.
+
+Erste Priorität aus dem 39.-Lauf-Hinweis (antiker Block Homer bis Cicero, `Quellentextband-1.pdf`
+S. 9-81) begonnen:
+
+- **Homer, Ilias** (S. 9-12, Schiffskatalog und Zeus/Hera-Dialog) gelesen, aber ohne Artikel
+  geschlossen — reine Städte-Epitheta im Versmass, kein Verfahren/Kennwert (Delta-Ehrlichkeit,
+  analog Aventinus/Olivier de Serres).
+- **Herodot, Historien** (S. 13-24, Babylon, ägyptisches Kanalnetz/Landvermessung, Eupalinos-
+  Tunnel auf Samos) → neuer Artikel
+  [[herodot-historien-babylon-memphis-eupalinos-tunnel-samos]]: Babylons quadratischer
+  Stadtgrundriss mit Doppelmauer-Kennwerten, Königin Nitokris' Flussumleitung/Rückhaltesee/Brücke
+  als kombinierte Verteidigungs-/Hochwasserschutzanlage, Memphis-Gründung durch Flussverlegung,
+  Sesostris-Kanalnetz mit Herodots eigener Ursprungsthese der Geometrie aus der
+  Landvermessungspraxis, Eupalinos' Doppelvortrieb-Wassertunnel auf Samos.
+
+Gegen Wiki-Bestand geprüft (`grep -rli` Babylon/Nitokris/Eupalinos/Sesostris/Bubastis): drei
+beiläufige Treffer, keine inhaltlichen Duplikate. `git diff --numstat` auf die Inventardatei zeigt
+reinen Append (60/0).
+
+**Zählungskorrektur:** die bisherige fortlaufende Einzelzahl "X von 54 destilliert" ist über die
+Läufe abgedriftet (mindestens 21 statt der zuletzt geführten 17 offenen Positionen, u. a. Francesco
+Colonna/Hypnerotomachia nie erwähnt). Ab diesem Lauf gilt die konkrete Namensliste im
+40.-Lauf-Abschnitt der Inventardatei als Referenz, `wiki/QUESTIONS.md` #74 dokumentiert den Befund.
+**Nächster Lauf:** Thukydides (27) oder Cicero/Vom Staatswesen (75), sonst der Rest der
+Namensliste.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, vierunddreissigster P2-Lauf (Campano/Pienza destilliert, Pero Tafur ohne Artikel, Lane FACHWISSEN)
 
 Stand vor Arbeitsbeginn selbst aus `KORPUS-QUEUE.md`, `wiki/INDEX.md`, CHANGELOG und der
