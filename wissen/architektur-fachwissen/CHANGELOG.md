@@ -1,5 +1,36 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, sechzehnter P2-Lauf, `120316_Natur_Schwarz` (Lane FACHWISSEN, 40. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»), Station
+fälschlich «MacBook Pro» (real Macmini laut `scutil`). Vor Arbeitsbeginn geprüft: `ps aux`
+zeigte genau einen `claude -p`-Prozess für Lane FACHWISSEN (dieser Lauf selbst) und einen
+unabhängigen für Lane SYNOBSIS (`architekten-synobsis`) — keine Doppel-Instanz. `git status`
+zeigte unkommittierte Bachelard-Buchführung des Vorlaufs (ein Wiki-Artikel plus
+Queue/Changelog/Index-Nachträge) — zuerst per `nas-commit-now.sh` gesichert (erneuter
+NAS-Merge-Konflikt in sechs fremden KBs, kein `MERGE_HEAD`, keine Konfliktmarker im lokalen
+Working Tree; dem 15-Min-Cron überlassen).
+
+Danach `120316_Natur_Schwarz` (4. Vorlesung Architekturtheorie II, 16.03.2012) bearbeitet:
+Syllabus (`13_SYL-Ath2-2012-4Natur.pdf`, `pypdf`) und die als «Zusammenfassung» abgelegte Datei
+(`120316_Natur.docx`, `textutil`) gelesen — Letztere erwies sich als reiner Duplikat-
+Fragenkatalog des Syllabus, kein Zusatzinhalt. Die Live-Mitschrift liegt als InDesign-Datei
+(`.indd`) vor und war mit den auf dieser Station verfügbaren Werkzeugen nicht extrahierbar
+(neuer Formatfall, ungelesen geblieben). Die Vorlesungsfolien-PDF 2012 ist echt
+passwortgeschützt (leere Authentifizierung schlägt bei `pypdf` und `PyMuPDF` fehl); ersatzweise
+der thematisch deckungsgleiche Bildunterschriften-Auszug der Foliensammlung 2011 verwendet
+(`Seiten aus Seiten aus Praes-Ath2-2011-4bis6.pdf`, unverschlüsselt).
+
+Ein Artikel destilliert: `wiki/natur-erhabene-malerische-olmsted-organische-architektur.md`
+(`status: speculative`) — Transformation der Natur als kulturelles Konstrukt (amerikanische
+Westexpansion), die ästhetische Trias Erhabenes/Schönes/Malerisches nach Kant/Burke,
+Frederick Law Olmsteds Parksysteme New York/Boston als städtebauliches Naturkonstrukt,
+organische Architektur (Viollet-le-Duc, Gaudí, Rudolf Schwarz, Ábalos & Herreros) und der
+Land-Art-Bezug (Smithson, Noguchi, High Line/Diller+Scofidio). Gegen bestehende Wiki-Artikel
+geprüft, kein Duplikat. `wiki/INDEX.md` (Zeile `02_Architekturtheorie`) nachgeführt: P2-Rest
+162 → 158 der 190 Vorlesungsmitschriften. `KORPUS-QUEUE.md` nachgeführt. Nächster Lauf nach
+Ordnernummer: `120401_Technik_Archigram`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, fünfzehnter P2-Lauf, `120309_Das_Erste_Haus_Bachelard` (Lane FACHWISSEN, 39. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»), Station

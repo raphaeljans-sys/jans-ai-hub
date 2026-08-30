@@ -434,3 +434,29 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   Damit ist `120309_Das_Erste_Haus_Bachelard` für die gesichteten Textquellen abgeschlossen.
   Offen: 9 der 23 Vorlesungsordner (rund 162 der 190 Dateien). Nächster Lauf: nächste noch nicht
   gesichtete Vorlesung nach Ordnernummer (`120316_Natur_Schwarz`).
+
+- **30.08.2026 (16. P2-Lauf, 40. Beispiel Memory `project_fachwissen-dispatch-loop`, Station
+  laut `scutil` tatsächlich Macmini, Dispatch erneut fälschlich «MacBook Pro»):**
+  `120316_Natur_Schwarz` bearbeitet (4. Vorlesung Architekturtheorie II, 16.03.2012). Vorlauf-
+  Buchführung (Bachelard-Artikel + Queue/Changelog/Index) zuerst per `nas-commit-now.sh`
+  gesichert — erneuter NAS-Merge-Konflikt in sechs fremden KBs (normen/synobsis/baurecht/
+  grobkosten plus die eigene KB), lokaler Working Tree sauber geblieben (kein `MERGE_HEAD`,
+  keine Konfliktmarker), dem 15-Min-Cron überlassen. Vor Arbeitsbeginn `ps aux` geprüft — ein
+  `claude -p`-Prozess für Lane FACHWISSEN (dieser Lauf selbst) und ein unabhängiger für Lane
+  SYNOBSIS, keine Doppel-Instanz. Syllabus (`pypdf`) und die als «Zusammenfassung» abgelegte
+  Datei (`textutil`, entpuppte sich als reiner Duplikat-Fragenkatalog des Syllabus) gelesen.
+  Die eigentliche Live-Mitschrift liegt als `.indd` (InDesign) vor — auf dieser Station kein
+  Werkzeug zur Textextraktion vorhanden, ungelesen geblieben (neuer Formatfall, ergänzt die
+  bekannte PDF/Scan-Lücke `wiki/QUESTIONS.md` #48). Die Vorlesungsfolien-PDF 2012 ist echt
+  passwortgeschützt (leere Authentifizierung schlägt fehl, kein blosses Owner-Passwort) und
+  blieb ebenfalls ungelesen; ersatzweise der thematisch identische Bildunterschriften-Auszug
+  der Foliensammlung 2011 (`Seiten aus Seiten aus Praes-Ath2-2011-4bis6.pdf`, keine
+  Verschlüsselung) verwendet. Ein Artikel destilliert:
+  `wiki/natur-erhabene-malerische-olmsted-organische-architektur.md` (`status: speculative`,
+  Transformation der Natur als Argument, Erhabenes/Schönes/Malerisches nach Kant/Burke,
+  Olmsted-Parksysteme New York/Boston, organische Architektur Viollet-le-Duc/Gaudí/Rudolf
+  Schwarz/Ábalos & Herreros, Land-Art-Bezug Smithson/Noguchi/High-Line). Gegen bestehende
+  Wiki-Artikel geprüft, kein Duplikat (Olmsted/Erhabenes/Gaudí/Land-Art-Themenfeld bisher nicht
+  abgedeckt). Damit ist `120316_Natur_Schwarz` für die gesichteten/zugänglichen Textquellen
+  abgeschlossen. Offen: 8 der 23 Vorlesungsordner (rund 158 der 190 Dateien). Nächster Lauf:
+  nächste noch nicht gesichtete Vorlesung nach Ordnernummer (`120401_Technik_Archigram`).

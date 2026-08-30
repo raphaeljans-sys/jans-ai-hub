@@ -752,3 +752,16 @@ dieser KB destilliert (Abgrenzung `archiv-fachwissen-spec.md`: Honorarmethodik i
 Ziel-Artikeltyp dieser KB); als Fundstelle für einen künftigen Lauf des Skills
 `honorarberechnung-sia102` oder der KB `wissen/normen` vorgemerkt. Wer beantworten kann:
 die zuständige Lane/der zuständige Skill bei Gelegenheit.
+
+## 260830 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, `120316_Natur_Schwarz` (Lane FACHWISSEN)
+
+**#69 Zwei neue Formatlücken bei den Vorlesungsordnern: InDesign-Mitschrift und echt
+verschlüsselte Foliensammlung.** `120316_Natur_Schwarz/01_Vorlesungsmitschrift/
+120316_Natur_Architekturtheorie.indd` (InDesign-Binärformat) und `04_Vorlesungsfolien/
+Praes-Ath2-2012-4Natur.pdf` (echte Passwortverschlüsselung, leere Authentifizierung schlägt
+bei `pypdf` und `PyMuPDF` fehl) blieben ungelesen. Ergänzt die bereits unter #48 bekannte
+Lücke (ein 26-seitiger reiner Scan). Sollten weitere `.indd`-Mitschriften oder verschlüsselte
+Folien-PDFs in den übrigen 8 offenen Vorlesungsordnern auftreten, bleibt dieselbe Lücke
+bestehen, bis ein Werkzeug beschafft wird (InDesign-Export bzw. PDF-Passwort von Raphael).
+Wer beantworten kann: Raphael (Zugriff auf Originaldateien/Passwort) oder eine Station mit
+Adobe-InDesign-Lizenz.
