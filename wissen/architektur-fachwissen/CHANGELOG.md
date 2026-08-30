@@ -4302,3 +4302,40 @@ auf dieselbe hippodamische Rasterlogik, hier als Seherlebnis statt Vermessungssc
 bleibt nach Achilleus Tatius offen: Ausonius (157), Salvianus (159), Francesco
 Colonna/Hypnerotomachia (247) — 3 Positionen. **Nächster Lauf:** Ausonius (157) als
 nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, 58. P2-Lauf (Ausonius destilliert, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen mehr):
+`KORPUS-QUEUE.md`, dieses CHANGELOG und die Inventardatei übereinstimmend auf 57 Läufe,
+3 offene Namenslisten-Positionen, nächster Kandidat Ausonius S. 157. In der Inventardatei
+lag zusätzlich eine bereits fertige, aber noch uncommittete Aktualisierung der
+`KORPUS-QUEUE.md`-Zelle vom Vorlauf (57. Lauf) im Working Tree — unverändert übernommen,
+nicht überschrieben.
+
+Ausonius, «Opuscula», Buch XI, Narbonne (ca. 385-390 n. Chr.), S. 157, per
+`/opt/homebrew/bin/pdftoppm -png -f 161 -l 163 -r 150` gerendert (PDF-Seite = gedruckte
+Seite + 4, am Bereichsende gegenverifiziert: PDF-Seite 163 = gedruckte Seite 159 = Beginn
+«Salvianus» bestätigt), vollständig gelesen — nur eine Textseite, S. 158 im Quellenwerk
+leer. Lobgedicht auf Narbo/Narbonne: Provinz-Namensgeber Gallia Narbonensis mit
+Grenzbeschreibung (Allobroger/Grajische Alpen, Pyrenäen/Iberer, Rhone/Genfersee,
+Cevennen/Aquitanien, Tectosager/Belcer), erste Stadt Galliens mit römischen
+Hoheitszeichen unter italischem Prokonsul, Tempel aus Parischem Marmor über drei Bauherren
+(Tarquin als Erst-, Catulus als Zweit-, Caesar als Letztbauherr mit vergoldeter
+Dachdeckung), Fernhandelsnetz über Fluss- und Seewege aus östlichem Meer, Spanien, Libyen
+und Sizilien. Destilliert →
+[[ausonius-narbo-lobgedicht-provinzstadt-tempel-dreiphasenbau]], `status: speculative`
+(panegyrische Dichtung, keine amtliche oder technische Quelle; Ortszuordnung des Tempels
+im Auszug nicht eindeutig — Catulus/Caesar sind historisch mit dem Kapitolinischen Tempel
+in Rom verknüpft, nicht mit Narbonne).
+
+Gegen Wiki-Bestand geprüft (`grep -rli` narbo/gallia/proconsul über `wiki/*.md`): kein
+inhaltlicher Duplikat-Fund. Verlinkt mit
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]] (dort per
+Nachtrag rückverlinkt: Rang einer Provinzstadt über Verwaltungsstatus statt Rastergeometrie,
+Ergänzung statt Widerspruch zu Castrum/Cardo-Decumanus).
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (19/0). Aus der
+Namensliste bleibt nach Ausonius offen: Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247) — 2 Positionen. **Nächster Lauf:** Salvianus (159) als
+nächster im Seitenverlauf liegender Kandidat, sonst Francesco Colonna/Hypnerotomachia
+(247).

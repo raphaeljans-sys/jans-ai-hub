@@ -2120,3 +2120,15 @@ Nachtrag rückverlinkt) und
 Achilleus Tatius bleiben 3 Positionen offen: Ausonius (157), Salvianus (159), Francesco
 Colonna/Hypnerotomachia (247). Nächster Lauf: Ausonius (157).
 Details CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN, 58. P2-Lauf):** Ausonius, «Opuscula», Buch XI, Narbonne
+(Lobgedicht auf Narbo/Narbonne: Provinz-Namensgeber Gallia Narbonensis mit
+Grenzbeschreibung, erste Stadt Galliens mit römischen Hoheitszeichen, Tempel aus
+Parischem Marmor über drei Bauherren Tarquin/Catulus/Caesar, Fernhandelsnetz über Fluss-
+und Seewege), S. 157 vollständig gelesen (S. 158 leer), destilliert →
+[[ausonius-narbo-lobgedicht-provinzstadt-tempel-dreiphasenbau]] (`status: speculative`,
+panegyrische Dichtung, Ortszuordnung des Tempels unklar), verlinkt mit
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]] (dort per
+Nachtrag rückverlinkt). Nach Ausonius bleiben 2 Positionen offen: Salvianus (159),
+Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Salvianus (159).
+Details CHANGELOG 30.08.2026.

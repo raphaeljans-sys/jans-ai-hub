@@ -2777,3 +2777,22 @@ Inventardatei zeigt reinen Append. Aus der Namensliste bleibt nach Achilleus Tat
 offen: Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 3
 Positionen. **Nächster Lauf:** Ausonius (157) als nächster im Seitenverlauf liegender
 Kandidat, sonst der Rest der Liste der Reihe nach.
+
+**30.08.2026, 58. P2-Lauf (Lane FACHWISSEN):** Ausonius (157, **jetzt destilliert**),
+«Opuscula», Buch XI, Narbonne, S. 157, per `pdftoppm -f 161 -l 163 -r 150` gerendert
+(PDF-Seite = gedruckte Seite + 4, Bereichsende gegenverifiziert: PDF-Seite 163 = gedruckte
+Seite 159 = Beginn «Salvianus» erwartet), vollständig gelesen — nur eine Textseite, S. 158
+im Quellenwerk leer. Lobgedicht auf Narbo/Narbonne: Provinz-Namensgeber Gallia
+Narbonensis mit Grenzbeschreibung (Alpen/Pyrenäen/Rhone/Cevennes), erste Stadt Galliens
+mit römischen Hoheitszeichen unter italischem Prokonsul, Tempel aus Parischem Marmor über
+drei Bauherren (Tarquin/Catulus/Caesar mit vergoldeter Dachdeckung), Fernhandelsnetz über
+Fluss- und Seewege (östliches Meer, Spanien, Libyen, Sizilien). Destilliert →
+[[ausonius-narbo-lobgedicht-provinzstadt-tempel-dreiphasenbau]] (`status: speculative`,
+panegyrische Dichtung, Ortszuordnung des Tempels im Auszug unklar), verlinkt mit
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]] (dort per
+Nachtrag rückverlinkt). Gegen Wiki-Bestand geprüft (`grep -rli` narbo/gallia/proconsul
+über `wiki/*.md`): kein inhaltlicher Duplikat-Fund. `git diff --numstat` auf diese
+Inventardatei zeigt reinen Append. Aus der Namensliste bleibt nach Ausonius offen:
+Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 2 Positionen. **Nächster
+Lauf:** Salvianus (159) als nächster im Seitenverlauf liegender Kandidat, sonst Francesco
+Colonna/Hypnerotomachia (247).

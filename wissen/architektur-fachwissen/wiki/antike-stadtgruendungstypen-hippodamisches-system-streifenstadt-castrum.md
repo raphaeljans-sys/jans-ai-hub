@@ -3,7 +3,7 @@ title: "Antike Stadtgründungstypen: Hippodamisches System, Streifenstadt, Centu
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/02_Uebungsheft/PDF/110805_Alles.pdf S. 8-15 (eigenes Übungsheft «Geschichte des Städtebaus», Modul 1 Antike Stadtgründungen, ETH Zürich, Professur Lampugnani, 2011)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md Abschnitt Triage, Position 2"]
-links: ["[[stadtgruendung-stadterweiterung-stadtumbau-begriffstrias]]", "[[stadttypen-strassennetz-systematik-jans]]"]
+links: ["[[stadtgruendung-stadterweiterung-stadtumbau-begriffstrias]]", "[[stadttypen-strassennetz-systematik-jans]]", "[[ausonius-narbo-lobgedicht-provinzstadt-tempel-dreiphasenbau]]"]
 ---
 
 # Antike Stadtgründungstypen: Hippodamisches System, Streifenstadt, Centuriatio, Castrum
@@ -91,3 +91,10 @@ in mehreren Schweizer Städten noch im Stadtgrundriss ablesbar) statt pauschal v
   wurde nicht destilliert, nur die Definitionen aus den Feedback-Texten.
 - Die Datierung «476 v. Chr.» für Piräus und «560 v. Chr.» für Herakleia Pontike folgt der
   Quelle ohne externe Verifikation.
+
+**Nachtrag 30.08.2026:** [[ausonius-narbo-lobgedicht-provinzstadt-tempel-dreiphasenbau]]
+(spätantikes Lobgedicht, ca. 385-390 n. Chr.) ergänzt eine literarische Aussenperspektive:
+Narbo/Narbonne als Provinzhauptort begründet seinen Rang über Verwaltungsstatus
+(Provinz-Namensgeber, erster Träger römischer Hoheitszeichen in Gallien) statt über eine
+Rastergeometrie — kein Widerspruch zu Castrum/Cardo-Decumanus, sondern ein Beleg dafür,
+dass antike Stadtrhetorik Rang auch unabhängig vom Stadtgrundriss begründen konnte.
