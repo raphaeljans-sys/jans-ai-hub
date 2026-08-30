@@ -1462,3 +1462,42 @@ Martini.** **Nächster Lauf:** Ibn Dschubair (Damaskus-Reisebeschreibung, S.
 Chaldun (Stadtplanung/Bauhandwerk-Kapitel, S. 183-190, direkt bürorelevant),
 danach Francesco di Giorgio Martini (anthropometrische Stadtproportionen, S.
 251-254, ergänzt den neuen Al-Farabi-Artikel).
+
+## Achtundzwanzigster P2-Lauf, restlicher islamischer Textblock abgeschlossen
+(30.08.2026, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn `KORPUS-QUEUE.md`/`wiki/INDEX.md`/`CHANGELOG.md`
+gegengeprüft: Stand identisch zum 27. Lauf dokumentierten Ende. Die drei vom
+27. Lauf empfohlenen Positionen gelesen und destilliert, die vierte
+(Al-Ghazali) mitgelesen und auf Ertrag geprüft:
+
+- Ibn Dschubair, Damaskus (S. 177-180, Reisebeschreibung ca. 1184): neuer
+  Artikel
+  [[ibn-dschubair-damaskus-wasserinfrastruktur-stiftungswesen-1184]]
+  (Brandrisiko dichter Lehm-/Holzbauweise, Wasserinfrastruktur, Waqf-
+  Stiftungswesen für Hospitäler/Medresen/Waisenschule mit
+  Betriebskennzahlen).
+- Ibn Chaldun, Einführung in die Welt der Geschichte (S. 183-186,
+  Muqaddima-Auszug): neuer Artikel
+  [[ibn-chaldun-standortkriterien-verfallslogik-staedtischer-kultur]]
+  (Städte als Folgeerscheinung der Königsherrschaft, ökonomisch-zyklische
+  Verfallslogik, sechs Standortkriterien für Stadtgründung).
+- Ibn Chaldun, Abhandlung über die Künste (S. 187-190, direkte Fortsetzung
+  derselben Muqaddima-Passage): neuer Artikel
+  [[ibn-chaldun-bauhandwerk-tabija-geometrie-nachbarrecht]] (Bautypen nach
+  Klimazone, Nachbarrecht-Konflikte, Tabija-Stampflehmbau-Technik im
+  Detail, Geometrie als Baumeister-Voraussetzung).
+- Al-Ghazali, Das Elixier der Glückseligkeit (S. 181-182): gelesen, **kein
+  Artikel** — reiner mystisch-theologischer Text über das Wesen Gottes ohne
+  jeden städtebaulichen oder architektonischen Bezug (Delta-Ehrlichkeit,
+  bewusst nicht erzwungen destilliert).
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach Dschubair/Chaldun/Damaskus/
+Tabija über `wiki/*.md`): keine Duplikate. `git diff --numstat` auf diese
+Inventardatei zeigt reinen Append. **Der gesamte islamische Textblock
+(S. 173-190, sechs Positionen) ist damit vollständig gesichtet, fünf davon
+destilliert, Al-Ghazali begründet ohne Artikel.** Von den ca. 50
+Quellentextband-Auszügen sind jetzt 17 destilliert, rund 29 bleiben offen.
+**Nächster Lauf:** Francesco di Giorgio Martini (anthropometrische
+Stadtproportionen, S. 251-254) oder weitere kurze Quellentextband-
+Einzelauszüge nach Bürorelevanz auswählen.

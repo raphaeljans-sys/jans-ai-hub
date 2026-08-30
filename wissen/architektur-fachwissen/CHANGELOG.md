@@ -3165,3 +3165,19 @@ oder Norm-Fundstellen). Bericht: `wissen/koordination/outputs/2026-08-24_wissens
 - Noch **kein** Wiki-Artikel geschrieben, keine Datei auf dem NAS bewegt, kein BKP-Code
   bestimmt, keine Norm-Ausgabe auf Gültigkeit geprüft. Die Quellordner wurden ausschliesslich
   lesend angefasst.
+
+## 2026-08-30 — 28. P2-Lauf Sektion `01_Staedtebau`: islamischer Textblock abgeschlossen (Lane FACHWISSEN)
+- Drei neue Wiki-Artikel aus `Quellentextband-1.pdf` (S. 177-190):
+  `ibn-dschubair-damaskus-wasserinfrastruktur-stiftungswesen-1184.md`,
+  `ibn-chaldun-standortkriterien-verfallslogik-staedtischer-kultur.md`,
+  `ibn-chaldun-bauhandwerk-tabija-geometrie-nachbarrecht.md`.
+- Al-Ghazali (S. 181-182) gelesen, aber ohne Artikel — reiner theologischer Text ohne
+  städtebaulichen Bezug (Delta-Ehrlichkeit).
+- Damit ist der im 27. Lauf gefundene islamische Textblock (S. 173-190, sechs Positionen:
+  Al-Farabi, Ibn Abdun, Ibn Dschubair, Al-Ghazali, Ibn Chaldun zweimal) vollständig gesichtet,
+  fünf Positionen destilliert.
+- `raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+  Append, `git diff --numstat` geprüft). Von den ca. 50 Quellentextband-Auszügen dieser Sektion
+  sind jetzt 17 destilliert, rund 29 bleiben offen.
+- Nächster Lauf: Francesco di Giorgio Martini (anthropometrische Stadtproportionen, S. 251-254)
+  oder weitere kurze Quellentextband-Einzelauszüge nach Bürorelevanz.

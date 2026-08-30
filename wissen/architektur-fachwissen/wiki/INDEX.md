@@ -1661,11 +1661,14 @@ zwei Positionen destilliert (Al-Farabi, Ibn Abdun):
   Wegerecht, Wasserabfluss), Tabija-Stampflehmbau-Technik im Detail,
   Geometrie als Voraussetzung des Baumeisters.
 
+Al-Ghazali (S. 181-182) mitgelesen, aber ohne eigenen Artikel — reiner
+theologischer Text ohne städtebaulichen Bezug (Delta-Ehrlichkeit).
+
 **Von den ca. 50 Quellentextband-Auszügen sind jetzt 17 destilliert, rund 29
 bleiben offen — der gesamte islamische Block (sechs Positionen) ist damit
-vollständig destilliert.** Nächster Lauf: Francesco di Giorgio Martini
-(anthropometrische Stadtproportionen, S. 251-254) oder weitere kurze
-Quellentextband-Einzelauszüge nach Bürorelevanz.
+vollständig gesichtet, fünf davon destilliert.** Nächster Lauf: Francesco di
+Giorgio Martini (anthropometrische Stadtproportionen, S. 251-254) oder
+weitere kurze Quellentextband-Einzelauszüge nach Bürorelevanz.
 
 **Von den ca. 50 Quellentextband-Auszügen sind jetzt 16 destilliert, rund 30
 bleiben offen — darunter der gesamte restliche islamische Block (Ibn
