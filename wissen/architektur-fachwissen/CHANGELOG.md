@@ -1,5 +1,25 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, einundzwanzigster P2-Lauf (`Quellentextband-1.pdf` als vollständig lesbar erwiesen, zwei neue Wiki-Artikel, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 71. Beispiel Memory `project_fachwissen-dispatch-loop`, Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
+
+Werkzeug-Befund, korrigiert Rule 10: Read-Tool ohne `pages`-Parameter liest
+`Quellentextband-1.pdf` (10,3 MB, 358 Seiten Bildscan, kein `pdftoppm` nötig) vollständig
+in einem Aufruf — die 20-MB-Grenze gilt unabhängig von der Seitenzahl. Die Datei erwies
+sich als Band I einer vierbändigen ETH-Quellenanthologie «Texte zur Geschichte des
+Städtebaus» (Lampugnani-Professur 1996) mit ca. 50 Primärtext-Auszügen (Homer bis Max
+Weber 1921) — die ergiebigste noch offene Einzelquelle dieser Sektion. Zwei Auszüge
+destilliert: Max Webers Marktansiedlungs-Definition (Fürsten-/Konsumenten-/Rentner-/
+Produzentenstadt) →
+[[max-weber-stadtbegriff-marktansiedlung-fuerstenstadt-konsumentenstadt-produzentenstadt]]
+und Manuel da Maias Fünf-Modi-Variantenvergleich für den Lissabon-Wiederaufbau nach dem
+Erdbeben 1755 → [[manuel-da-maia-lissabon-wiederaufbau-fuenf-modi-1755]]. Gegen
+Wiki-Bestand geprüft, kein Duplikat. `git diff --numstat` auf die Inventardatei zeigt
+reinen Append (`50 0`). Von den 33 Autorendossiers der Position 4 bleiben weiterhin acht
+unangetastet; im Quellentextband bleiben ca. 48 Einzelauszüge offen (Vitruv, Frontinus,
+Filarete, Alberti, Dürer, Palladio, Vauban, Kalabrien-Wiederaufbau u. a.). **Nächster
+Lauf:** weitere Auszüge aus `Quellentextband-1.pdf` nach Bürorelevanz destillieren, sonst
+nächstes unbearbeitetes Autorendossier.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zwanzigster P2-Lauf (`kapitel01_dk_vorindustrielle_120dpi.pdf` Unterkapitel 4/5 destilliert, Datei damit vollständig abgeschlossen, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 70. Beispiel Memory `project_fachwissen-dispatch-loop`, Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
 
 Unkommittierte Buchführung des Vorlaufs (Inventardatei, CHANGELOG, INDEX, KORPUS-QUEUE,

@@ -1154,3 +1154,53 @@ dazu der Lampugnani-Quellentextband (358 S. Scan, struktureller Grenzfall dieser
 **Nächster Lauf:** Lampugnani-Quellentextband in Teilabschnitten versuchen (analog zur
 Ganzdatei-Strategie bei anderen Bildscan-PDF unter 20 MB, aber mit sehr hoher Seitenzahl —
 siehe Rule 10 Memory), sonst nächstes unbearbeitetes Autorendossier nach Ordnernummer.
+
+## Einundzwanzigster P2-Lauf, `Quellentextband-1.pdf` vollständig destillierbar erwiesen —
+zwei neue Wiki-Artikel (30.08.2026, Lane FACHWISSEN, Station laut `scutil` Macmini
+bestätigt, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2
+Wiki-Artikel»/«MacBook Pro»)
+
+Vor Arbeitsbeginn `ps -o pid,ppid,command` (Kette 52135→52141→52142, keine
+Doppel-Instanz) und `KORPUS-QUEUE.md`/CHANGELOG gegengeprüft: Stand identisch zum
+20. Lauf dokumentierten Ende.
+
+**Wichtiger Werkzeug-Befund, korrigiert Rule 10:** Das Read-Tool ohne den `pages`-Parameter
+liest `Quellentextband-1.pdf` (10,3 MB, 358 Seiten Bildscan) vollständig und fehlerfrei in
+einem einzigen Aufruf — die frühere Annahme «zu lang für einen Volldurchlauf, nur in
+Teilabschnitten» war falsch. Der `pages`-Parameter selbst schlägt weiterhin fehl
+(`pdftoppm is not installed`), aber ohne diesen Parameter gilt die 20-MB-Grenze
+unabhängig von der Seitenzahl. Für künftige Läufe: bei jedem Bildscan-PDF unter 20 MB
+zuerst den Volldurchlauf ohne `pages`-Parameter versuchen, unabhängig von der Seitenzahl.
+
+**Der Fund selbst ist bedeutender als erwartet:** `Quellentextband-1.pdf` ist keine
+Lampugnani-eigene Schrift, sondern Band I («Von der Antike zum Barock: Die alte Stadt»)
+einer vierbändigen, von Lampugnanis ETH-Professur herausgegebenen Quellenanthologie
+«Texte zur Geschichte des Städtebaus» (1996), mit ca. 50 eigenständigen, meist ins
+Deutsche übersetzten Primärtext-Auszügen von Homer bis Max Weber (1921) — u. a. Vitruv,
+Frontinus (römische Wasserversorgung), Filarete (Idealstadt Sforzinda), Leon Battista
+Alberti, Albrecht Dürer (Idealstadt-Festungsbau), Andrea Palladio, Descartes,
+Vauban, Ludwig XIV. (Versailles-Gärten), Dézallier d'Argenville, Manuel da Maia
+(Lissabon-Wiederaufbau 1755), Kalabrien-Wiederaufbauquellen (1783/84) und Max Webers
+soziologische Stadtdefinition. Die Bände II-IV (Moderne, 19./20. Jh.) liegen laut
+Vorwort ebenfalls vor, sind aber in diesem Ordner nicht als eigene Datei vorhanden —
+kein weiterer Suchbedarf in dieser Sektion, ausserhalb dieser Sektion nicht geprüft.
+
+In diesem Lauf zwei besonders eigenständige, unmittelbar bürorelevante Auszüge
+destilliert: Max Webers Marktansiedlungs-Definition (S. 341-344) →
+[[max-weber-stadtbegriff-marktansiedlung-fuerstenstadt-konsumentenstadt-produzentenstadt]]
+und Manuel da Maias systematischer Fünf-Modi-Variantenvergleich für den
+Lissabon-Wiederaufbau nach dem Erdbeben 1755 (S. 327-334) →
+[[manuel-da-maia-lissabon-wiederaufbau-fuenf-modi-1755]]. Gegen bestehenden Wiki-Bestand
+geprüft (`grep -ril` über `wiki/*.md` nach den Autorennamen): kein Duplikat, beide Themen
+bisher unbehandelt.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Von den 33
+Autorendossiers der Position 4 bleiben weiterhin acht unangetastet.** Der
+Lampugnani-Quellentextband ist jetzt als vollständig lesbar erwiesen, aber mit
+weiterhin ca. 48 unbehandelten Einzelauszügen die ergiebigste noch offene Quelle dieser
+Sektion — eher ein eigenes Mehrfach-Lauf-Projekt als eine einzelne Position. **Nächster
+Lauf:** weitere Auszüge aus `Quellentextband-1.pdf` destillieren, Priorität nach
+Bürorelevanz: Vitruv/Frontinus (antike Stadthygiene/Wasserversorgung), Filarete/Alberti/
+Dürer (Renaissance-Idealstadt-Typologie, Vergleichsartikel möglich), Vauban (Festungsbau)
+und die Kalabrien-Wiederaufbauquellen (Vergleichsfall zu Manuel da Maia). Sonst nächstes
+unbearbeitetes Autorendossier nach Ordnernummer.
