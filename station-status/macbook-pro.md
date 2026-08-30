@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 21:01:21
+Stand: 30.08.2026 21:11:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:43)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 21:01:21
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b4d2e18d6 Lauf 110 Fachwissen: el-lissitzky, terragni, panton, Zeile 68 fortgesetzt
+- e2aace25f Wissens-Destillat: Zeile 68 archiv-fachwissen, 112. Lauf (Mariscal/Brandt/Pesce)
