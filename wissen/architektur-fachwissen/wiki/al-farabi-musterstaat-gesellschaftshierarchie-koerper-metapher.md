@@ -3,7 +3,7 @@ title: "Al-Farabi, Der Musterstaat (870-950 n. Chr.): Gesellschaftshierarchie un
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 173-174 (Al-Farabi, Der Musterstaat, Auszug nach Mohamad Nizar Ismail, Grundzüge des islamischen Städtebaus, Diss. Stuttgart 1981, S. 96-99, hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, vollständig gelesen)"]
-links: ["[[ibn-abdun-sevilla-baupolizei-hisba-marktordnung-1100]]"]
+links: ["[[ibn-abdun-sevilla-baupolizei-hisba-marktordnung-1100]]", "[[francesco-di-giorgio-martini-stadtkoerper-proportionslehre-anthropometrie]]"]
 ---
 
 # Al-Farabi, Der Musterstaat: Gesellschaftshierarchie und Stadt-Körper-Metapher
@@ -70,10 +70,10 @@ ist also gestaltbar, der Körper nicht.
 Kein unmittelbar anwendbarer Kennwert oder Verfahren, aber als
 staatsphilosophischer Referenzpunkt bemerkenswert: derselbe Quellenband (S.
 251-254) enthält bei Francesco di Giorgio Martini eine anthropometrische
-Stadt-Körper-Proportionslehre («Rocca de' essare principale menbro del corpo
-de la città siccome el capo è principale menbro d'esso»), die noch nicht
-destilliert ist (offene Position dieser Sektion). Al-Farabis Fassung liefert
-die philosophische Vorstufe dieser Analogie rund 500 Jahre vor ihrer
-architektonisch-proportionalen Ausformulierung in der italienischen Renaissance
-— ein Kontinuitätsstrang, der erst sichtbar wird, wenn beide Texte im Wiki
-verlinkt sind.
+Stadt-Körper-Proportionslehre («la rocca de' essare principale menbro del
+corpo de la città siccome el capo è principale menbro di tutto el corpo»,
+jetzt destilliert in
+[[francesco-di-giorgio-martini-stadtkoerper-proportionslehre-anthropometrie]]).
+Al-Farabis Fassung liefert die philosophische Vorstufe dieser Analogie rund
+500 Jahre vor ihrer architektonisch-proportionalen Ausformulierung in der
+italienischen Renaissance.

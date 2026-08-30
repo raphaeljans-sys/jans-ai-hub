@@ -1,5 +1,36 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, neunundzwanzigster P2-Lauf (Francesco di Giorgio Martini destilliert, Seitenzahl-Offset im Quellentextband aufgeklärt, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn `KORPUS-QUEUE.md`/`wiki/INDEX.md`/Inventardatei
+gegengeprüft: Stand identisch zum 28. Lauf (islamischer Block vollständig
+abgeschlossen), `KORPUS-QUEUE.md` selbst einen Lauf veraltet.
+
+Neuer Artikel
+[[francesco-di-giorgio-martini-stadtkoerper-proportionslehre-anthropometrie]]:
+Zitadelle als Kopf-Analogie des Stadtkörpers, Dinocrates-Anekdote,
+Konstruktionsvorschrift über Körperproportionen (Kreis um den Nabel bzw.
+Quadrat), Organ-Funktions-Analogie für Platzverteilung, praktische Regeln
+für Hügel-, Ebenen- und Flussstädte — verlinkt mit
+[[al-farabi-musterstaat-gesellschaftshierarchie-koerper-metapher]] (dortige
+veraltete Notiz «noch nicht destilliert» korrigiert).
+
+Betriebsbefund: Die in der Inventardatei zitierten Seitenzahlen dieses
+Quellenbands sind **gedruckte Buchseiten**, nicht der PDF-Seitenindex —
+Offset PDF-Seite = gedruckte Seite + 4, verifiziert über eine sichtbare
+Fusszeile («172») unmittelbar vor dem mit «S. 173» einsetzenden
+Al-Farabi-Text auf PDF-Seite 177. In der Inventardatei für Folgeläufe
+vermerkt. Ausserdem musste diese Ausführungsumgebung `poppler` und
+`tesseract`/`tesseract-lang` (Sprachpaket `deu`) erst auf den PATH
+nachrüsten (waren als Homebrew-Formeln bereits installiert) und einen
+`/tmp`-Zugriffsfehler von `tesseract` umgehen (Ablage unter `~/fdgm-test/`
+statt `/tmp/`) — beides Umgebungsdetails dieser Session, kein struktureller
+Befund.
+
+Von den ca. 50 Quellentextband-Auszügen sind jetzt 18 destilliert, rund 28
+bleiben offen. `git diff --numstat` auf die Inventardatei zeigt reinen
+Append (47/0).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, siebenundzwanzigster P2-Lauf (Al-Farabi und Ibn Abdun destilliert, bislang unbemerkter islamischer Textblock im Quellentextband gefunden, Lane FACHWISSEN)
 
 Vor Arbeitsbeginn Stand gegen `KORPUS-QUEUE.md`, `git log` gegengeprüft, working

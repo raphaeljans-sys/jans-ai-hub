@@ -1501,3 +1501,50 @@ Quellentextband-Auszügen sind jetzt 17 destilliert, rund 29 bleiben offen.
 **Nächster Lauf:** Francesco di Giorgio Martini (anthropometrische
 Stadtproportionen, S. 251-254) oder weitere kurze Quellentextband-
 Einzelauszüge nach Bürorelevanz auswählen.
+
+## Neunundzwanzigster P2-Lauf, Francesco di Giorgio Martini destilliert
+(30.08.2026, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn `KORPUS-QUEUE.md`/Inventar/`CHANGELOG.md` gegengeprüft:
+Stand identisch zum 28. Lauf dokumentierten Ende (dortiger Text in
+`KORPUS-QUEUE.md` bereits einen Lauf veraltet). Diese Ausführungsumgebung
+hatte weder `pdftoppm`/`pdftotext` noch OCR im PATH; `poppler`,
+`tesseract` und `tesseract-lang` (Sprachpaket `deu`) waren als
+Homebrew-Formeln bereits installiert, aber nicht auf dem PATH dieser
+Session — nachgerüstet, kein Neuinstall von Grund auf. Zusätzlich: der
+`/tmp`-Pfad liess sich von `tesseract` nicht öffnen (Leptonica
+`fopenReadStream`-Fehler trotz gültiger Datei), Workaround war die
+Ablage der gerenderten Seiten unter `~/fdgm-test/` statt `/tmp/`.
+
+Wichtiger Befund vor dem eigentlichen Destillat: **die in dieser Datei
+mehrfach zitierte Seitenzahl «S. 251-254» ist die gedruckte Buchseite,
+nicht der PDF-Seitenindex** — Offset **PDF-Seite = gedruckte Seite + 4**
+(verifiziert über Fusszeile «172» auf PDF-Seite 176, unmittelbar vor dem
+mit «S. 173» einsetzenden Al-Farabi-Text auf PDF-Seite 177). Für künftige
+Läufe an diesem Quellenband: Seitenangaben in dieser Datei sind gedruckte
+Seiten, `pdftoppm -f <S+4> -l <S+4>` liefert die passende PDF-Seite.
+
+Francesco di Giorgio Martini, «Trattato di architettura civile e militare»
+(gedr. S. 251-254 = PDF-Seiten 255-258, italienisches Original ohne
+deutsche Übersetzung in dieser Anthologie, per OCR gelesen): Zitadelle als
+«Hauptglied» des Stadtkörpers analog zum Kopf, Dinocrates-Anekdote als
+Beleg, konkrete Konstruktionsvorschrift (Körper flach auf den Boden,
+Kreis um den Nabel, quadratische Alternativform), Organ-Funktions-Analogie
+für Platzverteilung, dazu praktische Regeln für Hügel-, Ebenen- und
+Flussstädte → neuer Artikel
+[[francesco-di-giorgio-martini-stadtkoerper-proportionslehre-anthropometrie]],
+verlinkt mit dem Al-Farabi-Artikel (dessen veraltete Notiz «noch nicht
+destilliert» dort korrigiert).
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach Dinocrates/Denocrate/
+Giorgio Martini/Proportionslehre über `wiki/*.md`): keine Duplikate.
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von den
+ca. 50 Quellentextband-Auszügen sind jetzt 18 destilliert, rund 28 bleiben
+offen (Descartes/Campanella/Ludwig XIV./Dézallier d'Argenville bereits
+erledigt lt. Buchführung oben — Zähler bezieht sich auf die verbleibenden,
+noch nie gesichteten Kurzauszüge). **Nächster Lauf:** nächsten kurzen,
+bürorelevanten Quellentextband-Auszug wählen (Kandidaten laut bisheriger
+Sichtung: weitere Einzelauszüge zwischen den bereits erledigten Blöcken,
+Ordnernummer/Dateiliste dieser Sektion vorher gegen `wiki/INDEX.md`
+prüfen, nicht gegen diese oft ein Lauf alte Zusammenfassung in
+`KORPUS-QUEUE.md`).
