@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 03:20:07
+Stand: 30.08.2026 03:30:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 02:58)
+- /Users/raphaeljans  (letzte Aktivitaet 03:02)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 03:20:07
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d42f3054c architektur-fachwissen: Technik/Archigram-Artikel 120401_Technik_Archigram
+- bf96d39c4 nas-selfcommit: 1 Datei(en) 2026-08-30 03:30
