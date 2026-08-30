@@ -4435,3 +4435,32 @@ nächsten interaktiven Zugriff in einem Schritt statt in einer erneuten Fehlersu
 werden kann.
 
 | Eigene Messung 30.08.2026 05:32 (Nachtschicht Mac Mini, native ssh-Messung auf der Synology, `awk` auf `selfcommit-202608.log`, `git show --stat 1eed7118c`) | Hub-Infrastruktur / alle Stationen | **hoch (P1), unverändert, jetzt auf Einzelcommit eingegrenzt** | **offen und wachsend** — 150/79 bei Versuch 191; Stau-Ursache seit 22:06:13 identisch |
+
+**Korrektur 30.08.2026 05:36 (Nachtschicht Mac Mini, eigener Nachtrag zum Eintrag 05:32) — die
+Eingrenzung auf EINEN Stau-Commit war zu eng; der Konflikt betrifft mindestens acht Dateien.**
+
+Um die eigene Fristen-Notiz auf der Synology zu sichern, wurde `nas-commit-now.sh` ausgeführt
+(reguläre, dafür vorgesehene Nutzung, kein Eingriff in fremden Inhalt). Der dabei ausgelöste
+Merge-Versuch zeigte ein breiteres Bild als der Log-Auszug allein: **acht Dateien** kollidierten
+gleichzeitig — `skills/wissens-destillat/KORPUS-QUEUE.md`,
+`wissen/architekten-synobsis/CHANGELOG.md`, `wissen/architektur-fachwissen/CHANGELOG.md`,
+`wissen/architektur-fachwissen/raw/inventar/archiv-fachwissen__02_Architekturtheorie.md`,
+`wissen/architektur-fachwissen/wiki/QUESTIONS.md`, `wissen/baurecht/CHANGELOG.md`,
+`wissen/baurecht/training/KORPUS-QUEUE-thalwil-reglemente.md`, `wissen/normen/CHANGELOG.md`.
+Alles append-only-Register-/CHANGELOG-Dateien mehrerer aktiver KBs, nicht ein isolierter
+Einzelfall — die vorherige Eingrenzung auf `1eed7118c` war der jeweils ERSTE Stolperstein in der
+Rebase-Kette, nicht der einzige. Die Fix-Empfehlung «ein Konflikt auflösen, Rest rebaset durch»
+aus dem 05:32-Eintrag ist damit zu optimistisch und wird hiermit korrigiert: es braucht eine
+Auflösung über mehrere KBs hinweg (Prinzip bleibt: beide Anhängungen je Datei behalten, Rule
+`auto-verbesserungen` 260811).
+
+**Eigene Kontrolle, kein Datenverlust:** `git status` zeigte während des laufenden Merges drei
+Dateien als `D` (geloescht) — `logbuch/arbeits-weiche/260830-entscheide.jsonl` und zwei
+`*.prompt.orig-260830`-Dateien. Direkt nachgeprüft: **alle drei liegen unverändert auf der
+Synology**, die `D`-Anzeige war der Zwischenstand des unterbrochenen Rebase-Index, keine reale
+Löschung. Der dabei entstandene `.git/rebase-merge`-Rest hat sich **selbständig aufgelöst**
+(vermutlich durch einen parallel laufenden Loop/Cron, der denselben Abgleich-Pfad erneut
+durchlief) — beim erneuten Prüfen 2 Minuten später war kein Rebase-/Merge-Marker mehr vorhanden,
+Repo im normalen "ahead/behind"-Zustand. **Divergenz nach diesem Vorgang: 152 lokal / 80 remote**
+(der eigene Logbuch-Commit zählt mit). Keine weiteren Eingriffe von hier aus; die Auflösung bleibt
+Raphaels Entscheid.
