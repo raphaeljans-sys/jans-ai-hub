@@ -5107,3 +5107,34 @@ zwingend vor dem Schreiben. Sperrlisten-Prüfung: kein Fund, ausschliesslich his
 öffentlich bekannte Architekten/Lehrende/Bauwerke. `git diff --numstat` auf die Inventardatei
 zeigte einen reinen Append (45 Zeilen). **Nächster Lauf:** Kapitel `09` (Le Corbusier/Mies van
 der Rohe, exakter Dateiname vor Ort zu prüfen) lesen, davor Duplikatscheck.
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `09 LE CORBUSIER LUDWIG MIES VAN DER ROHE` (78. Lauf, Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`): 77. Lauf (Kapitel 08 Bauhaus/De
+Stijl) bereits abgeschlossen und committet, kein unkommittierter Vorlauf-Rest. Dateiname vor
+Ort geprüft: `09 LE CORBUSIER LUDWIG MIES VAN DER ROHE.pdf`.
+
+**Duplikatscheck zuerst ausgeführt:** Treffer in
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] (Villa Savoye,
+Haus Tugendhat, Barcelona-Pavillon, Haus Farnsworth bereits als knappe Kanon-Zeilen ohne
+Beschreibungstext — kein Duplikat, analog Kapitel 05-08), in
+[[fuenf-punkte-gegenmanifest-corbusier-jans]] (Raphaels eigene Gegenposition, anderer Fokus)
+und in [[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]] (beiläufiger Nebensatz).
+Kein eigenständiger Beschreibungs-Kanon vorhanden.
+
+**Hauptarbeit:** Kapitel (13 S.) vollständig gelesen und destilliert zu
+[[sauter-le-corbusier-mies-van-der-rohe-elf-bauten-kanon]]: Elf-Bauten-Kanon 1921-1967 (zwei
+Weissenhofsiedlung-Bauten/Corbusier, Villa Savoye/Corbusier, Unité d'habitation
+Marseille/Corbusier, Notre-Dame-du-Haut Ronchamp/Corbusier, Haus aus Backstein-Entwurf/Mies,
+Haus Tugendhat Brno/Mies, Deutscher Pavillon Barcelona/Mies, Haus Farnsworth Plano/Mies, Lake
+Shore Drive Apartments Chicago/Mies, Seagram Building New York/Mies — Letzteres nur in der
+Bautenübersicht genannt, ohne Fliesstext-Kernmerkmal, als Lücke ausgewiesen statt erfunden),
+zwei ausführliche Kurzbiografien mit vollständiger Bautenübersicht laut Quelle.
+
+**Alle 13 Sauter-Dateien bis Kapitel 09 destilliert, 3 bleiben offen:** Kapitel `10 KLASSISCHE
+MODERNE NEUES BAUEN` und `11 MODERNE - POSTMODERNE`. Duplikatscheck bei Kapitel 10 vor dem
+Schreiben zwingend (Kollisionsrisiko mit
+[[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]] und
+[[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]]). Sperrlisten-Prüfung:
+kein Fund. `git diff --numstat` auf die Inventardatei zeigte einen reinen Append (43 Zeilen).
+**Nächster Lauf:** Kapitel `10 KLASSISCHE MODERNE NEUES BAUEN.pdf` lesen, davor Duplikatscheck.

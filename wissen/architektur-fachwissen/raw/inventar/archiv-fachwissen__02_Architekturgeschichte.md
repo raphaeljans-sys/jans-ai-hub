@@ -626,4 +626,47 @@ Architekten, Lehrende und Bauwerke.
 
 `git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
 **Nächster Lauf:** Kapitel `09 LE CORBUSIER MIES VAN DER ROHE` (Dateiname vor Ort prüfen)
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `09 LE CORBUSIER LUDWIG MIES VAN DER ROHE` (78. Lauf, Lane FACHWISSEN)
+
+**Stand selbst ermittelt** (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md` und
+`CHANGELOG.md` bestätigten den 77. Lauf (Kapitel 08 Bauhaus/De Stijl) als abgeschlossen und
+committet (Top-Commit `9076e6feb`), nächster Schritt laut beiden Quellen Kapitel 09. Kein
+unkommittierter Vorlauf-Rest vorgefunden. Dateiname vor Ort geprüft: `09 LE CORBUSIER LUDWIG
+MIES VAN DER ROHE.pdf`.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -lni` gegen `wiki/*.md` nach Le Corbusier/Mies/
+Villa Savoye/Farnsworth/Barcelona/Seagram-Stichworten ergab Treffer in
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] (Villa Savoye,
+Haus Tugendhat, Barcelona-Pavillon, Haus Farnsworth bereits als knappe Kanon-Zeilen 62/66-68
+ohne Beschreibungstext — wie bei Kapitel 05-08 kein Artikel-Duplikat), in
+[[fuenf-punkte-gegenmanifest-corbusier-jans]] (Raphaels eigene kritische Gegenposition zu den
+Fünf Punkten, anderer Fokus, kein Duplikat) und in
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]] (beiläufiger Nebensatz zur
+«machine à habiter», anderer Kontext). Kein eigenständiger Beschreibungs-Kanon zu diesen elf
+Bauten vorhanden.
+
+**Hauptarbeit:** Kapitel `09 LE CORBUSIER LUDWIG MIES VAN DER ROHE.pdf` (13 S.) vollständig
+gelesen und destilliert zu
+[[sauter-le-corbusier-mies-van-der-rohe-elf-bauten-kanon]]: Elf-Bauten-Kanon 1921-1967 (zwei
+Weissenhofsiedlung-Bauten Stuttgart/Corbusier, Villa Savoye Poissy/Corbusier, Unité
+d'habitation Marseille/Corbusier, Notre-Dame-du-Haut Ronchamp/Corbusier, Entwurf Haus aus
+Backstein/Mies, Haus Tugendhat Brno/Mies, Deutscher Pavillon Barcelona/Mies, Haus Farnsworth
+Plano/Mies, Lake Shore Drive Apartments Chicago/Mies, Seagram Building New York/Mies — Letzteres
+nur in der Bautenübersicht genannt, ohne Fliesstext-Beschreibung, daher ohne Kernmerkmal-Zitat
+geführt), zwei ausführliche Kurzbiografien (Le Corbusier, Mies van der Rohe, je mit
+vollständiger Bautenübersicht laut Quelle als Zusatzangabe).
+
+**Alle 13 Sauter-Dateien bis Kapitel 09 sind damit destilliert, 3 bleiben offen:** Kapitel
+`10 KLASSISCHE MODERNE NEUES BAUEN` und `11 MODERNE - POSTMODERNE` (Dateinamen laut Ordnerliste
+bereits bekannt, kein weiterer Suchbedarf). Duplikatscheck bei Kapitel 10 vor dem Schreiben
+zwingend — Kollisionsrisiko mit
+[[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]] und
+[[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]].
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `10 KLASSISCHE MODERNE NEUES BAUEN.pdf` lesen, davor Duplikatscheck.
 lesen, davor Duplikatscheck gegen Wiki-Bestand (hoher Duplikatsverdacht).
