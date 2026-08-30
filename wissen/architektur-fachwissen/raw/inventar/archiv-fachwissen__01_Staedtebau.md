@@ -2675,3 +2675,46 @@ bleibt nach Juvenal offen: Sueton (149), Pausanias (151), Achilleus Tatius (155)
 Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) —
 6 Positionen. **Nächster Lauf:** Sueton (149) als nächster im Seitenverlauf liegender
 Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 55. P2-Lauf 30.08.2026 (Lane FACHWISSEN): Sueton destilliert
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen mehr,
+Rule seit Korrektur 30.08.2026): `KORPUS-QUEUE.md`, Inventardatei und CHANGELOG
+übereinstimmend auf 54 Läufe, 6 offene Namenslisten-Positionen, nächster Kandidat Sueton
+S. 149, working tree zu Laufbeginn sauber.
+
+Sueton, Kaiserbiographien, Der göttliche Augustus, Kapitel 28-30 und 37 (S. 149-150) per
+`/opt/homebrew/bin/pdftoppm -png -f 153 -l 157 -r 150` gerendert (PDF-Seite = gedruckte
+Seite + 4, am Bereichsende gegenverifiziert: PDF-Seite 155 = gedruckte Seite 151 = Beginn
+„Pausanias" bestätigt Positionsende), beide Textseiten (149-150) vollständig gelesen.
+Destilliert → [[sueton-augustus-kaiserbiographien-forum-mars-ultor-vigiles-regionen]]:
+Marmor-Anspruch («Lehmziegelstadt» zu «marmorne»), drei Staatstempel mit Vor-/Baugeschichte
+(Forum/Mars-Ultor-Tempel als drittes Forum gegen Gerichtsüberlastung mit gesonderter
+Staatsverbrechen-/Richterlosung, Apollotempel auf dem Palatin mit angebauter
+lateinisch/griechischer Bibliothek nach Blitzeinschlag-Weisung der Haruspices,
+Jupiter-Tonans-Tempel nach Blitzschlag im Kantabrerfeldzug), Bauten unter fremdem Namen
+gegen von Dritten nach eigenem Vermögen gestiftete Bauten (Marcius Philippus, Lucius
+Cornificius, Asinius Pollio, Munatius Plancus, Cornelius Balbus, Statilius Taurus, Marcus
+Agrippa) als drittes Finanzierungsmodell, Regionen-/Bezirksverwaltung (Los- und
+Wahlämter), nächtliche Feuerwehr ausdrücklich als Augustus' eigene Erfindung, Tiberbett-
+Verbreiterung/-Säuberung gegen Bauschutt und Gebäudevorsprünge, Strassenfinanzierung
+(Via Flaminia persönlich, übrige Strassen aus Triumphatoren-Beuteerlös), bezifferte
+Tempelrestaurierungs-Schenkung (16'000 Pfund Gold, 50 Mio. Sesterzen Edelsteine/Perlen für
+den Kapitolinischen Jupiter), sowie Kapitel-37-Ämterliste (Bauten/Wege/Wasserleitungen/
+Tiberbett/Getreideverteilung/Stadtpräfektur/zwei Triumvirate).
+
+Gegen Wiki-Bestand geprüft (`grep -rli` sueton/augustus/marstempel/apollotempel/
+feuerwehr/vigiles über `wiki/*.md`): kein inhaltlicher Duplikat. Verlinkt mit
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]]
+(dort per Nachtrag rückverlinkt: Sueton datiert dieselbe Feuerwehr-Massnahme ausführlicher
+als eigene Erfindung und ordnet sie in ein grösseres Verwaltungsprogramm ein),
+[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (Abgrenzung: dort Neros
+punktuelle Nachbrand-Bauordnung, hier Augustus' stehende Ämterstruktur) und
+[[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]] (Marcus Agrippa als
+gemeinsame Person).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste
+bleibt nach Sueton offen: Pausanias (151), Achilleus Tatius (155), Ausonius (157),
+Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 5 Positionen. **Nächster
+Lauf:** Pausanias (151) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest
+der Liste der Reihe nach.

@@ -1,5 +1,52 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, 55. P2-Lauf (Sueton destilliert, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt seit der Korrektur 30.08.2026
+bewusst keine Zahlen mehr): `KORPUS-QUEUE.md`, Inventardatei und dieses CHANGELOG
+übereinstimmend auf 54 Läufe, working tree sauber, letzter Commit (54./Juvenal) bereits
+gepusht — keine eigene Sicherung nötig, direkt mit dem empfohlenen Kandidaten (Sueton,
+S. 149) weitergearbeitet.
+
+**Sueton, Kaiserbiographien, Der göttliche Augustus, Kapitel 28-30 und 37** (S. 149-150,
+per `/opt/homebrew/bin/pdftoppm -png -f 153 -l 157 -r 150`, PDF-Seite = gedruckte Seite +
+4, Bereichsende gegenverifiziert: PDF-Seite 155 = gedruckte Seite 151 = Beginn „Pausanias"
+bestätigt Positionsende) → neuer Artikel
+[[sueton-augustus-kaiserbiographien-forum-mars-ultor-vigiles-regionen]]: Augustus' eigener
+Marmor-Anspruch («Lehmziegelstadt» zu «marmorne»), drei Staatstempel mit Vor-/Baugeschichte
+(Forum mit Mars-Ultor-Tempel als drittes Forum gegen Gerichtsüberlastung, mit gesonderter
+Staatsverbrechen-/Richterlosung dort; Apollotempel auf dem Palatin mit angebauter
+lateinisch-griechischer Bibliothek nach Blitzeinschlag-Weisung der Haruspices;
+Jupiter-Tonans-Tempel nach Blitzschlag im Kantabrerfeldzug), ein explizites
+Drei-Wege-Finanzierungsmodell öffentlicher Bauten (Staatsbauten im eigenen Namen,
+Repräsentationsbauten unter Familiennamen, private Stiftungsbauten führender Bürger nach
+eigenem Vermögen — Marcius Philippus, Lucius Cornificius, Asinius Pollio, Munatius Plancus,
+Cornelius Balbus, Statilius Taurus, Marcus Agrippa), die Regionen-/Bezirksverwaltung
+(Los- und Wahlämter), die nächtliche Feuerwehr ausdrücklich als Augustus' eigene Erfindung,
+Tiberbett-Verbreiterung/-Säuberung gegen Bauschutt und Gebäudevorsprünge,
+Strassenfinanzierung (Via Flaminia persönlich, übrige Strassen aus
+Triumphatoren-Beuteerlös), eine bezifferte Tempelrestaurierungs-Schenkung (16'000 Pfund
+Gold, 50 Mio. Sesterzen Edelsteine/Perlen für den Kapitolinischen Jupiter) sowie die
+Kapitel-37-Ämterliste (Bauten/Wege/Wasserleitungen/Tiberbett/Getreideverteilung/
+Stadtpräfektur/zwei Triumvirate).
+
+Gegen Wiki-Bestand geprüft (`grep -rli`
+sueton/augustus/marstempel/apollotempel/feuerwehr/vigiles über `wiki/*.md`): kein
+inhaltlicher Duplikat. Verlinkt mit
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]] (dort
+per Nachtrag rückverlinkt: Sueton datiert dieselbe Feuerwehr-Massnahme ausführlicher als
+Augustus' eigene Erfindung und ordnet sie in ein grösseres Verwaltungsprogramm ein),
+[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (Abgrenzung: dort Neros
+punktuelle Nachbrand-Bauordnung, hier Augustus' stehende Ämterstruktur) und
+[[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]] (Marcus Agrippa als
+gemeinsame Person).
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (`43 0`). Aus der
+Namensliste bleibt nach Sueton offen: Pausanias (151), Achilleus Tatius (155), Ausonius
+(157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 5 Positionen.
+**Nächster Lauf:** Pausanias (151) als nächster im Seitenverlauf liegender Kandidat, sonst
+der Rest der Liste der Reihe nach.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, fünfzigster P2-Lauf (Plutarch/Romulus destilliert, Lane FACHWISSEN)
 
 Stand vor Arbeitsbeginn selbst ermittelt: der 49. Lauf (Seneca, Plinius d. Ä.) war beim

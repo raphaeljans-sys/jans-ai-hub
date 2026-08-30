@@ -3,7 +3,7 @@ title: "Strabo: Erdbeschreibung, Stadtbeschreibung Rom (Buch V, 7-8, entstanden 
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 141-143 (Strabo, «Erdbeschreibung», Buch V, 7-8, «Stadtbeschreibung Rom»), hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, vollständig gelesen"]
-links: ["[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]", "[[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]", "[[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]"]
+links: ["[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]", "[[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]", "[[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]", "[[sueton-augustus-kaiserbiographien-forum-mars-ultor-vigiles-regionen]]"]
 ---
 
 # Strabo: Erdbeschreibung, Stadtbeschreibung Rom (Buch V, 7-8)
@@ -145,3 +145,9 @@ knappe Formel für Infrastruktur- gegen Repräsentationspriorität; drittens die
 dieser KB destillierte Formulierung des Prinzips laufender baulicher Erneuerung durch
 Abbruch und privaten Wiederaufbau als struktureller (nicht ausnahmsweiser)
 Stadtbetriebszustand.
+
+**Nachtrag (30.08.2026):**
+[[sueton-augustus-kaiserbiographien-forum-mars-ultor-vigiles-regionen]] datiert dieselbe
+Feuerwehr-Massnahme ausführlicher als Augustus' eigene Erfindung («ersann er») und ordnet
+sie in ein grösseres Verwaltungsprogramm (Regionen-/Bezirksgliederung, Tiberbett-Unterhalt,
+Kapitel-37-Ämterliste) ein, das bei Strabo nicht erscheint.
