@@ -396,3 +396,20 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   Tonmitschnitt nicht ausgewertet. Damit ist `120224_Raum_oeffnen_Lefebvre` für die
   gesichteten Textquellen abgeschlossen. Offen: 11 der 23 Vorlesungsordner (rund 168 der 190
   Dateien). Nächster Lauf: nächste noch nicht gesichtete Vorlesung nach Ordnernummer.
+
+- **30.08.2026 (14. P2-Lauf, siebenundzwanzigstes Beispiel Memory
+  `project_fachwissen-dispatch-loop`):** `120302_Raum_Schmarsow` bearbeitet (2. Vorlesung
+  Architekturtheorie II, 02.03.2012). Zusammenfassung, Syllabus und rohe Live-Mitschrift
+  gelesen. Zwei Artikel destilliert:
+  `wiki/schmarsow-raumtheorie-raumsystem-tiefenachse-gegen-semper-woelfflin.md`
+  (Kernthese Raumsystem statt Form, Tiefenachse-Erfahrung, Abgrenzung Wölfflin/
+  Hildebrand/Semper, Fragen-Antwort-Katalog des Syllabus) und
+  `wiki/foucault-heterotopie-andersartige-orte-typologie.md` (Definition, Typologie,
+  Beispielkatalog aus der Live-Mitschrift — löst den in
+  `wiki/genius-loci-ort-raum-nichtorte.md` offen vermerkten Foucault-Punkt für diese eine
+  Quelle auf, dortiger Offene-Punkte-Abschnitt entsprechend nachgeführt). Gegen bestehende
+  Wiki-Artikel geprüft, kein Duplikat (nur Nachbarschaft zu Tektonik/Bekleidungstheorie und
+  Lefebvre-Raumtrias, dort verlinkt). 05_Sekundaerliteratur (Wikipedia-Auszug Perec) ohne
+  Eigenwert nicht ausgewertet, Folien-PDF und Tonmitschnitt nicht ausgewertet. Damit ist
+  `120302_Raum_Schmarsow` für die gesichteten Textquellen abgeschlossen. Offen: 10 der 23
+  Vorlesungsordner (rund 165 der 190 Dateien). Nächster Lauf: `120309_Das_Erste_Haus_Bachelard`.

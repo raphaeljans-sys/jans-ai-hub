@@ -1,5 +1,43 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, vierzehnter P2-Lauf, `120302_Raum_Schmarsow` (Lane FACHWISSEN, 27. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»), Station
+fälschlich «MacBook Pro» (real Macmini laut `scutil`). Vor Arbeitsbeginn geprüft: `ps aux`
+zeigte eine zweite `claude -p`-Instanz (PID 85183), aber deren volle Kommandozeile bestätigte
+Lane SYNOBSIS (eigene KB `architekten-synobsis`) — keine FACHWISSEN-Dopplung. `git status`
+zeigte unkommittierte, laut `KORPUS-QUEUE.md`/CHANGELOG bereits als 26. Lauf dokumentierte
+Lefebvre-Buchführung aus dem unmittelbar vorangegangenen Lauf derselben Prozessinstanz —
+zuerst per `nas-commit-now.sh` gesichert (bekannter NAS-Merge-Konflikt in sechs fremden KBs,
+kein `MERGE_HEAD`, keine Konfliktmarker im lokalen Working Tree, dem 15-Min-Cron überlassen).
+
+Danach `120302_Raum_Schmarsow` (Sektion `02_Architekturtheorie`, 2. Vorlesung
+Architekturtheorie II, 02.03.2012) bearbeitet: Zusammenfassung
+(`120730_Raum_Schmarsow_Zusammenfassung.docx`), Syllabus (`11_SYL-Ath2-2012-2Raum.pdf`) und
+rohe Live-Mitschrift (`Realisierte Utopie.docx`) gelesen. Zwei Artikel destilliert:
+
+- `wiki/schmarsow-raumtheorie-raumsystem-tiefenachse-gegen-semper-woelfflin.md`
+  (`status: speculative`) — Kernthese «Wesen der Architektur ist Raumsystem, nicht Form»
+  mit Originalzitaten, Tiefenachse-Erfahrung statt Bildebene, explizite Abgrenzung zu
+  Wölfflin/Hildebrand/Semper, durchformulierter Fragen-Antwort-Katalog des Syllabus.
+- `wiki/foucault-heterotopie-andersartige-orte-typologie.md` (`status: speculative`) —
+  Definition, zwei Unterarten (Krisen-/Abweichungsheterotopien, Isolationsräume) und
+  Beispielkatalog aus der Live-Mitschrift. Löst den in `wiki/genius-loci-ort-raum-nichtorte.md`
+  offen vermerkten Foucault-Punkt für diese eine Quelle auf; dortiger Offene-Punkte-Abschnitt
+  entsprechend nachgeführt (verlinkt statt weiterhin offen).
+
+Gegen bestehende Wiki-Artikel geprüft: kein Duplikat, nur Nachbarschaft zu
+`wiki/tektonik-bekleidungstheorie-boetticher-semper-loos-frampton.md` (Semper-Gegenposition)
+und `wiki/lefebvre-raumtrias-produktion-des-sozialen-raums-budapest-platzvergleich.md`
+(Károly-Kós-Platz/Foucault-Stichwort dort), beide verlinkt statt erneut destilliert.
+`05_Sekundaerliteratur` (Wikipedia-Auszug Georges Perec) ohne Eigenwert nicht ausgewertet;
+Folien-PDF (diesmal passwortfrei vorliegend) und Tonmitschnitt nicht ausgewertet (kein
+erwarteter Mehrwert über die bereits erfasste Zusammenfassung hinaus).
+
+`wiki/INDEX.md` und `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` nachgeführt.
+Offen: 10 der 23 Vorlesungsordner (rund 165 der 190 Dateien) in dieser Sektion. Nächster
+Lauf: `120309_Das_Erste_Haus_Bachelard`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, dreizehnter P2-Lauf, `120224_Raum_oeffnen_Lefebvre` (Lane FACHWISSEN, 26. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»), Station

@@ -60,7 +60,8 @@ Vorwurf der Beliebigkeit verteidigt werden muss.
 
 ## Offene Punkte
 
-- Foucaults Begriff der «Heterotopie» wird im Quellenmaterial nur als offene Frage genannt, nicht
-  beantwortet.
+- Foucaults Begriff der «Heterotopie» ist inzwischen in einer anderen Quelle derselben KB
+  destilliert, siehe [[foucault-heterotopie-andersartige-orte-typologie]] (Definition,
+  Typologie, Beispielkatalog — Live-Mitschrift, nicht am Originaltext gegengelesen).
 - Die Body-Memory-Theorie (Charles Moore, «Architektur für den einprägsamen Ort») wird nur
   stichwortartig erwähnt; keine eigene Antwort im Bestand.
