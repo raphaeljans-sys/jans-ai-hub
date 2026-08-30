@@ -7520,3 +7520,38 @@ Topografie-Prüfungsskript destilliert: `06_Themenfelder_Vorlesungen/Topografie/
 ## 31.08.2026 — Sektion 01_Landschaftsarchitektur, vierter P2-Lauf (Lane FACHWISSEN)
 
 Vorgefunden: der dritte P2-Lauf (Eintrag oben) hatte seine Arbeit geschrieben, aber weder in `wiki/INDEX.md` nachgetragen noch gesichert — hier nachgeholt (INDEX-Eintrag ergänzt, `bash scripts/nas-commit-now.sh` ausgeführt). Der native NAS-Commit scheitert dabei reproduzierbar an Merge-Konflikten in fremden Lane-Dateien (`wissen/normen/CHANGELOG.md`, `skills/wissens-destillat/KORPUS-QUEUE.md`, `wissen/architekten-synobsis/CHANGELOG.md`, `wissen/baurecht/CHANGELOG.md`, `wissen/grobkosten/CHANGELOG.md` u. a.) — derselbe, bereits am 29.08.2026 eskalierte NAS-Git-Merge-Konflikt; nicht selbst aufgelöst (fremde Lanes, hohes Risiko einer Fremdbeschädigung), lokaler Stand dieser Sektion davon unberührt. Danach `01_Gartentypen/Renaissance/01_Pruefung_Skript/01_Skript_Renaissance_FS12.pdf` (14 Seiten, Dr. Anette Freytag/Dunja Richter, ETH Zürich, FS 2012) vollständig gelesen; `renaissanceskript.pdf` im selben Ordner als Vorgängerfassung (SS 2007, gleiche Autorin) identifiziert, nicht eigenständig destilliert; die begleitende Zusammenfassung `Zusammenfassung_Skript_Renaissance.docx` als reine, fehlerhafte Paraphrase ohne neue Fakten geprüft. Zwei neue Artikel: [[terza-natura-cicero-bonfadio-taegio-renaissancegarten-begriffstrias]] (Ciceros altera/prima/terza natura, Bonfadio/Taegio-Begriffsprägung 1541/1559, Mimesis-Spannung natürlich/künstlich) und [[renaissance-gartengestaltung-kompartimente-zonierung-giardino-segreto]] (Vier-Kompartiment-Schema, Zonierungsvokabular giardino segreto/delle semplici/bosco, Rockox-Garten Antwerpen). `git diff --numstat` auf die Inventardatei zeigt `43 0`, reiner Append; die zwei neuen Wiki-Dateien sind Neuanlagen. Kein Datenschutz-/Sperrlisten-Fund. Details Inventardatei `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md`. Sicherung via `bash scripts/nas-commit-now.sh` (Ergebnis s. o. — NAS-seitiger Merge-Konflikt, lokaler Stand aktuell trotzdem sauber). Verbleibende offene P2-Positionen dieser Sektion: rund 16 der ursprünglich 24 Zeilen. Nächster Lauf: Gartenmöblierung-Renaissance-Destillat (eigenes Destillat, kleinster verbleibender Umfang).
+
+## 31.08.2026 — Sektion 02_Gestalt_Kulturverstaendnis, vierter Lauf, P1-Nachtrag (Lane FACHWISSEN)
+
+Stand vor Beginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, Inventardateien,
+`git log`/`git status`), keine Zahl aus dem Dispatch-Text übernommen. Dabei einen
+Widerspruch in der eigenen Inventardatei `raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md`
+gefunden: die Abschlussformel des dritten Laufs («P1 UND P2 vollständig destilliert»)
+widersprach der eigenen, detaillierten Fortschrittsliste desselben Dokuments, die
+mehrere P1-Positionen ausdrücklich als «nicht destilliert» führt. Widerspruch dort mit
+Zeitstempel korrigiert (Append, keine Streichung), nicht stillschweigend übernommen.
+
+Die erste dieser noch offenen P1-Positionen bearbeitet: die Plangrafik-Dreiergruppe
+`01_Plangrafik/Plangrafik.pdf` (31 S., HTA Luzern, Kommunikation + Kultur, Dozent
+J. Ittig, WS 2006), `01_Plangrafik/Annette_Spiro_Bauplaene.pdf` (2 S., ETH-Webausdruck
+12.10.2012) und `perspektivelineargrundrissschraegbild.pdf` (12 S., anonyme
+Konstruktionslehre) vollständig im Volltext gelesen. Ein neuer Artikel:
+[[plangrafik-referenzkorpus-hta-luzern-bauplan-definition-schraegbild-konstruktion]] —
+fasst das siebenteilige Plangrafik-Referenzkorpus (Siza, OMA/AMO, Chipperfield,
+Olgiati, Holl, BVG-St.-Gallen-Wettbewerb, Zumthor) als Stilbibliothek statt als
+geschriebenes System (Korrektur der ursprünglichen Inventar-Vermutung «Systematik»),
+die Bauplan-Definition nach Annette Spiro («Baupläne sind Liebesbriefe», Referat ETH
+2006) sowie die Konstruktionsregeln des Grundriss-Schrägbilds (Militärperspektive:
+unverzerrter Grundriss, Tiefenlinien-Winkel 30°/60°, Schattenkonstruktion über
+Lichteinfallswinkel parallel zur Bildebene und Fusspunkt-Methode je Körperpunkt).
+
+`git diff --numstat` auf die Inventardatei zeigt `39 0`, reiner Append. Datenschutz/
+Sperrliste: kein Fund (HTA-Lehrmaterial, öffentlicher ETH-Webausdruck, anonymes
+Fremdmaterial ohne Personenbezug). Sicherung via `bash scripts/nas-commit-now.sh`.
+
+**Weiterhin offene P1-Positionen dieser Sektion** (Details Inventardatei): HTA-Luzern-
+Typografievorlesung (40 S.), Schrift-Systematik (9 PDF), 21 der 22 Juryberichte/
+-programme, ein Küssnacht-Beschrieb («Plage des Alpes»), 62 der 65 Betonforum-Referate,
+Teile der Modellfoto-Methodik (Vortrag Käch, Nachbearbeitungsablauf). Nächster Lauf:
+eine dieser Positionen, empfohlen die HTA-Luzern-Typografievorlesung oder die
+Schrift-Systematik als nächstkleinere geschlossene Einheiten.

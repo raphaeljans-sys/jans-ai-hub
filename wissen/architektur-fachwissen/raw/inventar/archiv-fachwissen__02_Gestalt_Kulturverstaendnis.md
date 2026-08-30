@@ -411,3 +411,42 @@ vollständig bearbeitet:
 abgeschlossen.** Die Sektion `02_Gestalt_Kulturverstaendnis` gilt für P1 UND P2 als
 vollständig destilliert, soweit destillierbares Material vorliegt (die verbleibenden
 ~5'400 Dateien sind laut Triage `P3`/`X` und werden gemäss Spec nicht destilliert).
+
+**Korrektur 31.08.2026 (Lane FACHWISSEN):** die vorstehende Abschlussformel war
+unvollständig. Im ersten Destillat-Lauf (29.08.2026) waren mehrere P1-Positionen
+ausdrücklich als **„nicht destilliert" bzw. „teilweise destilliert"** protokolliert
+(HTA-Luzern-Typografievorlesung, Schrift-Systematik 9 PDF, Plangrafik-Gruppe, 21 der 22
+Juryberichte, ein Küssnacht-Beschrieb, 62 der 65 Betonforum-Referate, Teile der
+Modellfoto-Methodik) — diese blieben trotz der Abschlussformel offen. Vor diesem Lauf
+selbst festgestellt, nicht aus dem Dispatch-Text übernommen (Rule `auto-verbesserungen`
+260830, Lehre aus dem `FACHWISSEN`-Dispatch-Loop: Momentaufnahmen nicht ungeprüft
+fortschreiben).
+
+## Destillat-Fortschritt, vierter Lauf (P1-Nachtrag, 31.08.2026, Lane FACHWISSEN)
+
+Die Plangrafik-Dreiergruppe der ersten P1-Zeile vollständig im Volltext gelesen:
+`01_Architektur_darstellen/02_Plan_2D/00_Allgemein/01_Plangrafik/Plangrafik.pdf`
+(31 S., HTA Luzern WS 2006), `.../01_Plangrafik/Annette_Spiro_Bauplaene.pdf` (2 S.,
+ETH-Webausdruck) und `.../02_Plan_2D/00_Allgemein/perspektivelineargrundrissschraegbild.pdf`
+(12 S., anonyme Konstruktionslehre) — **destilliert** →
+[[plangrafik-referenzkorpus-hta-luzern-bauplan-definition-schraegbild-konstruktion]].
+
+**Weiterhin offene P1-Positionen dieser Sektion** (unverändert gegenüber dem ersten
+Lauf, nicht in diesem Lauf bearbeitet):
+- `01_Architektur_darstellen/04_Layout/00_Typografie/Typografie.pdf` (40 S.,
+  HTA-Luzern-Vorlesung, Herkunftsbeleg des Lernskripts).
+- `01_Architektur_darstellen/03_Schrift/**` (9 PDF Schrift-Glossar/-Systematik).
+- `02_Architekturdisskurs/04_Wettbewerbe/**` — 21 der 22 Juryberichte/-programme
+  (Depot Hard, Europaallee, Hornbach, Schauenberg, Schönauring, Koch-Areal u. a.).
+- `02_Architekturdisskurs/04_Wettbewerbe/KüssnachtArchiv/*Beschrieb*.pdf` — «Plage des
+  Alpes» (1 von 6 Beschrieben ungelesen).
+- `02_Architekturdisskurs/01_Betonforum/2007–2012` — 62 der 65 Referate.
+- `01_Architektur_darstellen/01_Bild_3D/.../02_Modellfotografische_RD/**` — Vortrag
+  Käch und Nachbearbeitungsablauf (Ordner 01 und 08).
+
+`git diff --numstat` nach dem Schreiben dieser Inventardatei geprüft: reiner Append.
+Datenschutz/Sperrliste: kein Fund in den drei gelesenen Quellen (HTA-Lehrmaterial,
+öffentlicher ETH-Webausdruck, anonymes Fremdmaterial ohne Personenbezug). Sicherung via
+`bash scripts/nas-commit-now.sh`. **Nächster Lauf:** eine der oben gelisteten
+verbleibenden P1-Positionen, empfohlen nach Umfang die HTA-Luzern-Typografievorlesung
+(40 S., kleinste geschlossene Einheit) oder die Schrift-Systematik (9 PDF).
