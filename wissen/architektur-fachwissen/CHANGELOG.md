@@ -1,5 +1,32 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, vierter P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag erneut veraltet (behauptete «kein Destillat, keine Spec, 2 Wiki-Artikel»,
+tatsaechlich beide Specs laengst geschrieben, 150+ Wiki-Artikel, 27+ Laeufe) — nicht
+ausgefuehrt, stattdessen am realen `KORPUS-QUEUE.md`-Stand weitergearbeitet. Vor Arbeitsbeginn
+`ps aux`/`scutil` geprueft: kein zweiter FACHWISSEN-Prozess, Hostname Macmini (nicht «MacBook
+Pro» wie im Dispatch behauptet). Im Working Tree lag bereits unkommittierte, inhaltlich fertige
+Buchfuehrung eines vorangegangenen Laufabschnitts desselben langlaufenden Prozesses (VL2/VL3
+Koolhaas) vor; `nas-commit-now.sh` traf beim Sichern zunaechst den bekannten NAS-Merge-Konflikt
+(sechs fremde KBs gleichzeitig betroffen: normen, synobsis, baurecht, grobkosten), der 15-Min-
+Cron loeste den Merge kurz danach automatisch auf und pushte alles (Commit `85ff81211`) —
+Details [[project_nas-git-merge-konflikt-dispatch-loop-260829]].
+
+Danach naechste offene Position der rund 190 Vorlesungsmitschriften bearbeitet:
+`111014_VL4_Peter_Eisenman/` gelesen (Zusammenfassung als Hauptquelle, Live-Mitschrift zum
+Abgleich), destilliert zu
+`wiki/eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino.md` — Autonomie der
+Architektur, Maison Dom-ino als selbstreferentielles Zeichen, New York Five/The Greys,
+Wittkower-Methodik, House II-VI, Radikalitaets-Merkmalsliste, verlinkt zu den beiden
+Koolhaas-Artikeln und zu `typus-modell-prototyp-trennschaerfe-architekturtheorie`. `status:
+speculative` (Studien-Zusammenfassung, nicht am Original gegengelesen). Vorlesungsfolien und
+Audiomitschnitt dieser VL nicht ausgewertet. `wiki/INDEX.md` Zeile 04 und
+`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschnitt «Destillat-Fortschritt»
+nachgefuehrt. Offen bleiben 20 der 23 Vorlesungsordner (187 der 190 Dateien) sowie die
+Vorlesungsfolien-Sammel-PDF (`Praes-Ath*.pdf`). Naechster Lauf nach Reihenfolge: VL5
+(`111021_VL5_Venturi_Robert`).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, dritter P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag wieder veraltet (behauptete «kein Destillat, keine Spec, 2 Wiki-Artikel»,

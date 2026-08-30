@@ -227,3 +227,15 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   gegengelesen, kein Duplikat, gegenseitig verlinkt. Beide neuen Artikel `status: speculative`
   (rohe Mitschrift-Qualität, Zitate nicht am Original «S,M,L,XL»/«Delirious New York»
   gegengelesen). Offen: 21 der 23 Vorlesungsordner (188 der 190 Dateien) noch nicht gesichtet.
+
+- 2026-08-30 (Lane FACHWISSEN, vierter P2-Lauf, Fortsetzung): `111014_VL4_Peter_Eisenman/`
+  gelesen — Zusammenfassung `03_Zusammenfassung/120729_Peter_Eisenmann.docx` (sorgfältig
+  ausgearbeitet, Textbezug Eisenmans Essay «Aspekte der Moderne») als Hauptquelle, rohe
+  Live-Mitschrift `02_Vorlesungsmittschrift/111014_Peter_Eisenmann.docx` als Zweitquelle zum
+  Abgleich. Destilliert zu
+  `wiki/eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino.md` (Autonomie der
+  Architektur, Maison Dom-ino als selbstreferentielles Zeichen, New York Five/The Greys,
+  Wittkower-Methodik, House II-VI, Radikalitäts-Merkmalsliste). `status: speculative`
+  (Studien-Zusammenfassung, nicht am Original gegengelesen). Vorlesungsfolien
+  (`04_Vorlesungsfolien`, ~100 Einzelseiten) und Audiomitschnitt (`05_Vorlesungsmittschnitt`)
+  nicht ausgewertet. Offen: 20 der 23 Vorlesungsordner (187 der 190 Dateien).
