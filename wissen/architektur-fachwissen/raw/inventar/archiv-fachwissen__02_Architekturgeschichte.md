@@ -714,3 +714,53 @@ architekturhistorisch referenziert, keine Wertung übernommen.
 
 `git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
 **Nächster Lauf:** Kapitel `11 MODERNE - POSTMODERNE.pdf` lesen, davor Duplikatscheck.
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `11 MODERNE - POSTMODERNE` (80. Lauf, Lane FACHWISSEN, ABSCHLUSS der Sauter-Reihe)
+
+**Stand selbst ermittelt** (Dispatch-Text nennt bewusst keine Zahlen): `scutil` bestätigte
+Hostname Macmini, `git status`/`git log` bestätigten sauberen Working Tree und den 79. Lauf
+(Kapitel 10 Klassische Moderne/Neues Bauen) als abgeschlossen und committet (Top-Commit
+`7c287c001`), `ps -o pid,ppid,command`/`ps aux` zeigten nur die eigene Prozesskette, keine
+Doppel-Instanz. `KORPUS-QUEUE.md` und diese Inventardatei bestätigten Kapitel 11 als letzte
+offene Sauter-Datei.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -lni` gegen `wiki/*.md` nach allen Bau-/
+Architektennamen des Kapitels (Tscharnergut, Le Lignon, Megabridge, Rob Krier, Ritterstrasse,
+Tessiner Schule, Casa Tonini, Reichlin, Reinhart, Teatro del Mondo, Casa Rotonda, Mario Botta,
+Postmoderne, Aldo Rossi). Treffer in
+[[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]] (Casa
+Rotonda/Casa Tonini bereits als knappe Beispielsätze aus anderer Quelle geführt, keine
+Ort/Jahr/Kernmerkmal-Vollangabe — kein Duplikat, hier ergänzende Vollbehandlung, gegenseitig
+verlinkt), in
+[[curdes-plaetze-funktionstypologie-entwurfsanforderungen-krier-formtypologie]] (behandelt
+Kriers Theoriewerk «Stadtraum in Theorie und Praxis», nicht die IBA-Baupraxis — kein
+Duplikat) und in
+[[venturi-dekorierter-schuppen-ente-komplexitaet-widerspruch-postmoderne]] (Rossis
+Manifestjahr 1966 nur beiläufig genannt — kein Duplikat). Rossis Teatro del Mondo (1979-1980)
+kommt in keinem bestehenden Rossi-Artikel vor. Keine weiteren Funde.
+
+**Hauptarbeit:** Kapitel `11 MODERNE - POSTMODERNE.pdf` (12 S.) vollständig gelesen und
+destilliert zu
+[[sauter-moderne-postmoderne-nachkriegssiedlungen-krier-tessiner-schule-rossi-botta-sieben-bauten-kanon]]:
+Sieben-Bauten-Kanon 1958-1982 (Bern/Tscharnergut Lienhard & Strasser, Genf/Le Lignon Addor,
+Entwurf Megabridge/Abraham, Berlin/IBA Ritterstrasse-Rauchstrasse/Rob Krier, Toricella-Lugano/
+Casa Tonini Reichlin+Reinhart, Venedig-Biennale/Teatro del Mondo Aldo Rossi, Stabio/Casa
+Rotonda Mario Botta), fünf Kurzbiografien. Zusätzlich sieben «Ausblick Moderne»-Positionen
+(Saarinen/TWA Terminal, Frei Otto+Gutbrod/Deutscher Pavillon Montreal, Eiermann/Olivetti
+Frankfurt, Piano+Rogers/Centre Pompidou, Ando/Row House Osaka, Coop Himmelblau/Dachaufbau
+Wien, Calatrava/Bahnhof Stadelhofen Zürich) ohne Fliesstext in der Quelle — wie beim Seagram
+Building in Kapitel 09 bewusst als reine Werklisten-Position ohne Kernmerkmal-Zitat geführt,
+nicht erfunden. Ein Schreibfehler der Quelle («Caltrava» statt «Calatrava») korrigiert im
+Artikel vermerkt, nicht stillschweigend übernommen.
+
+**Damit sind alle 13 Dateien des Luzerner Skripts Sauter/Marion destilliert — die Sauter-Reihe
+dieser Sektion ist abgeschlossen.**
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** 41 Architektenportraits (eigener Unterordner, Qualitätsvorbehalt laut
+Zeile 207/244 oben — mindestens ein belegter Datierungsfehler bereits bekannt), danach
+`Fragen.doc`, Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51) und `Moderne.pdf`
+(Duplikatsprüfung gegen bestehende Semper-Artikel nötig vor Bearbeitung).

@@ -5170,3 +5170,33 @@ MODERNE - POSTMODERNE`. Duplikatscheck davor zwingend. Sperrlisten-Prüfung: kei
 Terragni/Casa del fascio als politisch belasteter Bau bleibt rein architekturhistorisch
 referenziert. `git diff --numstat` auf die Inventardatei zeigte einen reinen Append.
 **Nächster Lauf:** Kapitel `11 MODERNE - POSTMODERNE.pdf` lesen, davor Duplikatscheck.
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `11 MODERNE - POSTMODERNE` (80. Lauf, Lane FACHWISSEN, ABSCHLUSS der Sauter-Reihe)
+
+Stand selbst ermittelt (`scutil` Macmini, `git status`/`git log` sauber, Top-Commit
+`7c287c001`, keine Doppel-Instanz per `ps aux`). Duplikatscheck zuerst ausgeführt gegen alle
+Bau-/Architektennamen des Kapitels: Treffer in
+[[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]] (Casa Rotonda/Casa
+Tonini dort nur als knappe Beispielsätze ohne Vollangabe — kein Duplikat, ergänzende
+Vollbehandlung hier), in
+[[curdes-plaetze-funktionstypologie-entwurfsanforderungen-krier-formtypologie]] (behandelt
+Kriers Theoriewerk, nicht die IBA-Baupraxis — kein Duplikat) und in
+[[venturi-dekorierter-schuppen-ente-komplexitaet-widerspruch-postmoderne]] (Rossis
+Manifestjahr nur beiläufig — kein Duplikat). Keine weiteren Funde.
+
+**Hauptarbeit:** Kapitel (12 S.) vollständig gelesen und destilliert zu
+[[sauter-moderne-postmoderne-nachkriegssiedlungen-krier-tessiner-schule-rossi-botta-sieben-bauten-kanon]]:
+Sieben-Bauten-Kanon 1958-1982 (Bern/Tscharnergut, Genf/Le Lignon, Entwurf Megabridge/Abraham,
+Berlin/IBA Ritterstrasse-Rauchstrasse/Rob Krier, Toricella-Lugano/Casa Tonini
+Reichlin+Reinhart, Venedig-Biennale/Teatro del Mondo Aldo Rossi, Stabio/Casa Rotonda Mario
+Botta), fünf Kurzbiografien, plus sieben «Ausblick Moderne»-Werklistenpositionen ohne
+Fliesstext (Saarinen, Frei Otto+Gutbrod, Eiermann, Piano+Rogers, Ando, Coop Himmelblau,
+Calatrava — Quellenschreibfehler «Caltrava» korrigiert vermerkt) analog zur
+Seagram-Werklistenposition in Kapitel 09.
+
+**Damit sind alle 13 Dateien des Luzerner Skripts Sauter/Marion destilliert — die Sauter-Reihe
+ist abgeschlossen.** Sperrlisten-Prüfung: kein Fund. `git diff --numstat` auf die
+Inventardatei zeigte einen reinen Append (`50 0`). **Nächster Lauf dieser Sektion:** 41
+Architektenportraits (Qualitätsvorbehalt: mindestens ein belegter Datierungsfehler bekannt),
+danach `Fragen.doc`, Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51) und `Moderne.pdf`
+(Duplikatsprüfung gegen Semper-Artikel nötig).
