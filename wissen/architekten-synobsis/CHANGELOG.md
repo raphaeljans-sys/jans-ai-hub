@@ -4,6 +4,19 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, neunter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `wiki/QUESTIONS.md` geprueft (Memory-Hinweis: chronischer
+Dispatch-Loop, alle vier Auftragspositionen seit Lauf 1 erledigt). Ergebnis unveraendert:
+**Fehlextraktionen** BEHOBEN/gepruft, **Katalog-Kollisionen** (Christ_Gantenbein,
+Enzmann_Fischer, Miller_Maranta, Gigon_Guyer) BEHOBEN plus Scanner-Fix, **Sonderzeichen-
+Regel** vereinheitlicht plus Scanner-Fix, **Sammelfrage Charge 1-6** vollstaendig
+recherchiert. Kein neuer Fund, keine Aenderung an `QUESTIONS.md` in diesem Lauf noetig.
+Dies ist der neunte Redispatch desselben Auftrags an einem einzigen Tag — die Ursache
+liegt nicht mehr in der KB, sondern im Dispatch-Mechanismus selbst; weitere Laeufe ohne
+neuen Auftrag von Raphael sollten unterbleiben. `git diff --numstat`: nur dieser
+CHANGELOG-Eintrag, `-0` an `wiki/QUESTIONS.md`. Gesichert via `nas-commit-now.sh`.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, achter Folgelauf desselben Tages) — Minimalcheck bestaetigt Vorlauf, ein Nebenbefund geklaert (Jager_Egli_Architekten/dolmus)
 
 Minimalcheck vor Redispatch (Memory-Hinweis: chronischer Dispatch-Loop seit 29.08.2026, alle

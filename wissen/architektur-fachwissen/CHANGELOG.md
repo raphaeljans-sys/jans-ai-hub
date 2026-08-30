@@ -1,5 +1,32 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, achtzehnter P2-Lauf, `120420_Kunst_Loos` (Lane FACHWISSEN)
+
+Vor Arbeitsbeginn `scutil --get ComputerName` (Macmini, Dispatch-Text nennt weiterhin fälschlich
+«MacBook Pro» — strukturelles, seit 29.08.2026 bekanntes Dispatch-Vorlagen-Problem, siehe Memory
+`project_fachwissen-dispatch-loop`), `ps aux` (ein `claude -p`-Prozess fuer FACHWISSEN, ein
+unabhängiger für Lane SYNOBSIS, keine Doppel-Instanz) und `KORPUS-QUEUE.md`/`CHANGELOG.md`
+gegengeprüft statt dem veralteten Dispatch-Text zu folgen (beide Korpus-Specs bestehen bereits,
+P1 ist für beide Korpora vollständig, P2 läuft sektionsweise durch `02_Architekturtheorie`).
+
+`120420_Kunst_Loos` (6. Vorlesung Architekturtheorie II, 20.04.2012) bearbeitet: Syllabus
+(`pypdf`) und PDF-Fassung der Live-Mitschrift (`01_Vorlesungsmitschriften/PDF/120420_Kunst.pdf`,
+22 Seiten, schwache Transkriptionsqualität) gelesen. Im selben PDF-Ordner lag eine fehlplatzierte
+Datei `120401_Technik.pdf` — Mitschrift der Vorvorlesung, bereits in `120401_Technik_Archigram`
+verarbeitet, hier nicht erneut ausgewertet. Trotz Ordnername ist Adolf Loos nur Eröffnungsimpuls,
+nicht Hauptthema der Vorlesung; gegen die drei bestehenden Loos-Artikel geprüft (Ornament,
+Werkregister, Raumplan) — kein Duplikat, eigenständiges Thema Kunst-Architektur-Verhältnis. Ein
+Artikel destilliert:
+`wiki/kunst-architektur-autonomie-gesamtkunstwerk-anarchitektur-bilbao-effekt.md` (`status:
+speculative`, Loos' Trennungsthese, Gesamtkunstwerk-Idee Wagner/Schwitters/Gropius-Taut-Behne,
+Fallbeispiel Residence Gehry Santa Monica, Anarchitekturen Matta-Clark/SITE-Gruppe/Cabrita Reis,
+Criticality-vs-Projectivity mit Dan Graham/Herzog & de Meuron/Bilbao-Effekt). `.indd`-Fassung
+(bekannte Formatlücke `QUESTIONS.md` #69), Folienset (92 Einzelseiten) und Tonmitschnitt nicht
+ausgewertet. Damit ist `120420_Kunst_Loos` für die gesichteten Textquellen abgeschlossen. Offen:
+6 der 23 Vorlesungsordner (rund 145 der 190 Dateien). Nächster Lauf: nächste noch nicht
+gesichtete Vorlesung nach Ordnernummer (`120427_Bauen_Abraham`). `KORPUS-QUEUE.md`/`INDEX.md`
+nachgeführt; `nas-commit-now.sh` sichert diesen Lauf im Anschluss.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, siebzehnter P2-Lauf, `120401_Technik_Archigram` (Lane FACHWISSEN, 41. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich

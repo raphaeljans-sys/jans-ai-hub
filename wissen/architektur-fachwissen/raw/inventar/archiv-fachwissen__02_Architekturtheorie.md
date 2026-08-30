@@ -479,3 +479,22 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   abgedeckt). Damit ist `120316_Natur_Schwarz` für die gesichteten/zugänglichen Textquellen
   abgeschlossen. Offen: 8 der 23 Vorlesungsordner (rund 158 der 190 Dateien). Nächster Lauf:
   nächste noch nicht gesichtete Vorlesung nach Ordnernummer (`120401_Technik_Archigram`).
+
+- **30.08.2026 (18. P2-Lauf, Lane FACHWISSEN, Station laut `scutil` tatsächlich Macmini):**
+  `120420_Kunst_Loos` bearbeitet (6. Vorlesung Architekturtheorie II, 20.04.2012). Syllabus
+  (`pypdf`) und die PDF-Fassung der Live-Mitschrift (`01_Vorlesungsmitschriften/PDF/
+  120420_Kunst.pdf`, 22 Seiten, schwache Transkriptionsqualität) gelesen. Im selben PDF-Ordner
+  lag zusätzlich eine fehlplatzierte Datei `120401_Technik.pdf` — das ist die bereits in
+  `120401_Technik_Archigram` verarbeitete Mitschrift der Vorvorlesung, hier nicht erneut
+  ausgewertet. Trotz Ordnername ist Adolf Loos nur Eröffnungsimpuls, nicht Hauptthema — Vorsicht
+  vor Verwechslung mit `111118_VL8_Loos_Adolf` bestätigt sich: kein Duplikat mit den
+  bestehenden Loos-Artikeln (Ornament, Werkregister, Raumplan), da eigenständiges Thema
+  Kunst-Architektur-Verhältnis. Ein Artikel destilliert:
+  `wiki/kunst-architektur-autonomie-gesamtkunstwerk-anarchitektur-bilbao-effekt.md` (`status:
+  speculative`, Loos' Trennungsthese Kunst/Architektur, Gesamtkunstwerk-Idee Wagner/Schwitters/
+  Gropius-Taut-Behne, Fallbeispiel Residence Gehry Santa Monica, Anarchitekturen Matta-Clark/
+  SITE-Gruppe/Cabrita Reis, Criticality-vs-Projectivity mit Dan Graham/Herzog & de Meuron/
+  Bilbao-Effekt). `.indd`-Fassung (bekannte Formatlücke `wiki/QUESTIONS.md` #69), Folienset (92
+  Einzelseiten) und Tonmitschnitt nicht ausgewertet. Damit ist `120420_Kunst_Loos` für die
+  gesichteten Textquellen abgeschlossen. Offen: 6 der 23 Vorlesungsordner. Nächster Lauf:
+  nächste noch nicht gesichtete Vorlesung nach Ordnernummer (`120427_Bauen_Abraham`).
