@@ -3,6 +3,53 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Abo-Auslastung 30.08.2026 (18:0x) — SCHWARZ, Messausfall; der Zugang ist aber NICHT tot
+
+**Ampel SCHWARZ.** `connectors/claude-usage.mjs` liefert keinen Prozentwert: HTTP 400
+`invalid_grant` / «Refresh token expired» beim Token-Refresh, danach 401 am Usage-Endpunkt.
+Damit ist kein Wochenwert, kein Tempo-Faktor und keine Extra-Usage-Aussage moeglich.
+Nur EINE Messung gefahren (Rule des Checks, 429-Vorfall 20.07.2026). Ausfall-Zaehler
+**0 auf 1** — erster Ausfall, damit Journal plus Pendenz, **keine** Mail-Eskalation
+(die greift erst ab dem zweiten Ausfall in Folge).
+
+**Der Lauf hat stattgefunden.** Abstand zum 23.08. genau sieben Tage, kein uebersprungener
+Takt. Gleichstand NAS gegen Stationskopie per `diff` geprueft: keine Abweichung.
+Gemessenes Konto **raphaeljans** (privates Max 20x). Team-Seat 1 und 2: weiterhin nicht
+eingerichtet und nicht separat messbar.
+
+**Wichtigster Befund — die naheliegende Lesart ist falsch.** Ein `invalid_grant` sieht nach
+entwertetem Zugang aus. Gegenmessung: auf dieser Station laufen **17 `claude`-Prozesse**, die
+Schub-Lane `fachwissen` steht bei **Runde 163** (18:03 gestartet), und die letzten zwanzig
+abgeschlossenen Runden tragen **ausnahmslos rc=0**. Der Account arbeitet also normal. Blind ist
+allein der Connector: er haelt eine Refresh-Token-Kopie, die von den vielen parallel laufenden
+`claude`-Prozessen durch Rotation ueberholt wurde. Der Keychain-Eintrag traegt `mdat`
+**24.08.2026 15:48 UTC**, also seit sechs Tagen unveraendert — passend zum Rotationsrennen.
+Die im Task hinterlegte Behebung (`/login`) stellt den Connector wieder her, beseitigt aber
+die Ursache nicht: solange Dutzende Laeufe parallel rotieren, ist der naechste Ausfall
+strukturell zu erwarten.
+
+**Die Blindheit ist eng begrenzt.** `grep` ueber `scripts/` und `templates/scheduled-tasks/`
+zeigt: **nur dieser Check** benutzt `claude-usage.mjs`. Die Kontingent-Fruehwarnung misst
+Token-Millionen aus den eigenen Lauf-Logs und ist von diesem Ausfall **nicht** betroffen —
+sie hat heute 07:15 rund 18.38 Mio auf dem Mini gemeldet und rund 50 Mio fuer den Tag
+hochgerechnet. Der Meldekanal fuer eine kippende Wochenlast steht also weiter.
+
+**Warum der Zeitpunkt trotzdem unguenstig ist.** Das Wochenfenster laeuft nach dem zuletzt
+gemessenen Stand am **31.08. gegen 12:00** ab (Wert vom 23.08., heute nicht nachmessbar), und
+seit dem 29.08. laeuft der ausdrueckliche Auftrag, das Kontingent vor dem Reset auszuschoepfen.
+Genau in dieser Lage keine Prozentsicht zu haben, ist die Konstellation vom 26.07.2026 —
+damals starb der Check am erschoepften Limit selbst. Heute ist es umgekehrt gelagert (Zugang
+gesund, Messweg blind), der blinde Fleck ist aber derselbe.
+
+**Betriebszustand gemessen, nicht fortgeschrieben:** STOP-Flags `STOP-Macmini` und
+`STOP-Macbookpro` liegen unveraendert seit 29.07. 02:51 — sie stoppen den ausgebauten
+VOLLGAS-Endlos-Runner und sind fuer die aktuelle Last ohne Bedeutung. Die Last kommt aus
+`ch.jans.wissens-trigger` und `ch.jans.nachtschicht` (beide in `launchctl list`) sowie aus den
+Schub-Lanes. Die STOP-Flags taugen weiterhin nicht als Beleg fuer Stillstand.
+
+**Nicht beruehrt durch diesen Lauf:** der Grundverbrauch-Entscheid aus dem 03.08.-Check und die
+Auto-Top-Up-Zeile vom 13.08. bleiben ohne Erledigungszeile.
+
 ## Nachtschicht Mac Mini 30.08.2026 (13:3x-14:0x, Einzelagent, Prioritaet 4)
 
 **Aufgabe gewaehlt nach Ausschlussliste:** Sync-Task-Queue und Freigabe-Queue leer; Pendenz

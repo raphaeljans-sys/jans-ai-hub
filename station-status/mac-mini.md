@@ -1,9 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 17:59:48
+Stand: 30.08.2026 18:10:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 17:42)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:10)
+- /Users/raphaeljans  (letzte Aktivitaet 18:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +13,4 @@ Stand: 30.08.2026 17:59:48
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f14826f4d nas-selfcommit: 1 Datei(en) 2026-08-30 18:00
+- 9443db4a2 88. Lauf FACHWISSEN: Renaissance-Zusammenfassung.pdf S. 5-25 destilliert
