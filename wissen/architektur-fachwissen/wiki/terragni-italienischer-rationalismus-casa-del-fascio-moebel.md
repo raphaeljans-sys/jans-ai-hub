@@ -3,7 +3,7 @@ title: "Giuseppe Terragni: italienischer Rationalismus, Casa del Fascio und die 
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/terragni.htm"]
-links: ["[[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]"]
+links: ["[[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]", "[[carlo-bugatti-italienisches-art-nouveau-exotische-moebel]]"]
 ---
 
 # Giuseppe Terragni: italienischer Rationalismus, Casa del Fascio und die eigene Möbellinie

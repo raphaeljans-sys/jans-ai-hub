@@ -1,5 +1,41 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (111. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md`, `CHANGELOG.md` gegen `raw/inventar/` geprüft. `scutil --get ComputerName`
+bestätigte Macmini, `ps -eo pid,ppid,command` zeigte genau einen laufenden `claude -p`-Prozess
+(PID 36522) mit diesem Dispatch-Text — kein Doppel-Dispatch. Working Tree bei Laufbeginn nicht
+sauber: die drei Wiki-Artikel des 110. Laufs (el_lissitzky/terragni/panton) sowie die
+zugehörigen Queue-/INDEX-/CHANGELOG-Änderungen lagen unkommittiert vor.
+`bash scripts/nas-commit-now.sh` ausgeführt — das NAS-seitige `nas-selfcommit.sh` scheiterte
+erneut an Merge-Konflikten (u. a. add/add-Konflikt bei
+`wiki/protofunktional-begriff-abgrenzung-funktionalismus.md`, vermutlich von einer anderen
+Lane/Station parallel angelegt; bekanntes Muster, Memory
+`project_nas-git-merge-konflikt-dispatch-loop-260829`), aber der lokale 15-Min-Cron auf dieser
+Station hat die 110.-Lauf-Änderungen binnen der Laufzeit selbständig committet+gepusht
+(`d5f5056e4`) — kein Datenverlust, working tree danach lokal sauber.
+
+Drei weitere kleinste ungelesene Positionen von Zeile 68 gelesen: `carlo_bugatti.htm`,
+`scott.htm`, `arad.htm`. Duplikatscheck vorab (keine Dublette, keiner der drei Namen bislang
+in `wiki/INDEX.md`). Drei neue Artikel:
+[[carlo-bugatti-italienisches-art-nouveau-exotische-moebel]] (italienischer Art nouveau,
+exotische Materialien Pergament/Leder, Turin 1902 «Schneckenraum», eröffnet italienische
+Möbeldesign-Zeitachse in dieser KB), [[douglas-scott-britisches-nachkriegsdesign-routemaster]]
+(britisches Gegenstück zu Loewy/Teague, Routemaster-Bus, unauffälliger funktionsorientierter
+Stil als Kontrast zu späteren Superdesignern) und
+[[ron-arad-postindustrielles-recycling-design-one-off]] (Ready-made-Möbel aus Altmaterial,
+One-Off, Übergang vom Werkstatt-Look zur Serienfertigung bei Vitra/Moroso, dritte Spielart
+neben Sottsass/Memphis und Starck). Rückverlinkung im bestehenden
+[[terragni-italienischer-rationalismus-casa-del-fascio-moebel]]-Artikel ergänzt (Bugatti↔
+Terragni). Damit 34 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 67 Personenartikel
+bleiben offen. `git diff --numstat` auf die Inventardatei zeigte `0 0` (Sammelzeile bleibt
+unverändert, Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE).
+
+**Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse
+(`mariscal.htm`, `brandt.htm`, `pesce.htm.htm`, `nizzoli.htm`, `colombo.htm`,
+`0tto_wagner.htm`, `nelson.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (110. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,

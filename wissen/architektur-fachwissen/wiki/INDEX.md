@@ -116,10 +116,16 @@ Konstruktivismus, einziger Möbelentwurf Leipziger Stuhl 1930), `terragni.htm` (
 Rationalismus, Möbel für Casa del Fascio/Sant'Elia-Schule, Kontrast zu Breuer/Mies im selben
 Material Stahlrohr) und `panton.htm` (Verner Panton, Stapelstuhl 1960 als erster einteiliger
 Spritzguss-Kunststoffstuhl, Fritz Hansen/Vitra/Herman Miller). Drei neue Artikel. Damit 31 von
-128 Fliesstext-Dateien der Zeile 68 gelesen, rund 70 Personenartikel bleiben offen. **Nächster
+128 Fliesstext-Dateien der Zeile 68 gelesen. **111. Lauf (30.08.2026):** `carlo_bugatti.htm`
+(italienischer Art nouveau, exotische Materialien/Kreisformen, Turin 1902), `scott.htm`
+(Douglas Scott, britisches Nachkriegs-Industriedesign, Routemaster-Bus) und `arad.htm` (Ron
+Arad, Ready-made-Möbel aus Altmaterial, One-Off, Übergang zur Serienfertigung bei Vitra/
+Moroso) gelesen, drei neue Artikel, dazu Rückverlinkung im bestehenden Terragni-Artikel
+ergänzt (italienische Möbeldesign-Zeitachse Bugatti→Terragni→Sottsass). Damit 34 von 128
+Fliesstext-Dateien der Zeile 68 gelesen, rund 67 Personenartikel bleiben offen. **Nächster
 Lauf:** Zeile 68 fortsetzen nach Dateigrösse unter den verbleibenden ungelesenen Positionen
-(u. a. `nizzoli.htm`, `colombo.htm`, `0tto_wagner.htm`, `nelson.htm`), sonst laut Queue-Regel
-nächste Sektion mit offenem P1/P2. |
+(u. a. `mariscal.htm`, `brandt.htm`, `pesce.htm.htm`, `nizzoli.htm`, `colombo.htm`,
+`0tto_wagner.htm`, `nelson.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2. |
 `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)
