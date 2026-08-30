@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 08:11:30
+Stand: 30.08.2026 08:21:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 08:01)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 08:11:30
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5cb1f6d9f Schub-Lane SYNOBSIS: Charge 1 vollstaendig per Ordnerinhalt geprueft
+- 64accb80e Rule 260830: Treiber brechen nach Liefer-Delta ab, Prompts schreiben keinen Fortschrittsstand fest
