@@ -1,5 +1,40 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf, zweiter Lauf Architektenportraits-Ordner (82. Lauf, Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`, Inventardatei —
+vollständig gelesen, nicht nur `tail`); Dispatch-Text nennt bewusst keine Zahlen mehr. `scutil`
+bestätigte Macmini, `ps -eo pid,ppid,command` zeigte nur die eigene laufende
+`claude -p`-Instanz (PID 15629, keine Doppel-Instanz), `git status` sauber, Top-Commit
+`7badcedd4` (81. Lauf) bereits committet — kein unkommittierter Vorlauf-Rest.
+
+Von den 30 nach dem 81. Lauf offenen Einzelportraits des Ordners
+`00_Allgemein/01_Architektenportrait/alles/` acht gelesen und destilliert. Duplikatscheck
+(`grep -lir <Name> wiki/*.md`) zuerst für die acht Kandidatennamen ausgeführt: Garnier,
+Ruskin, Morris und Sullivan wurden trotz fehlendem eigenem Portrait zurückgestellt, weil sie
+bereits in mehreren thematischen Artikeln dieser KB behandelt sind (Utopische
+Stadtentwürfe, Gartenstadtbewegung, Sauter-Jugendstil-Kanon, diverse
+Architekturtheorie-Artikel) — ein Portrait dort primär Dopplung statt Neuwert. Acht
+Portraits mit nur beiläufigen bzw. keinen Vorkommen destilliert: Friedrich Wilhelm von
+Erdmannsdorff, Friedrich David Gilly, Henri Labrouste, Joseph Paxton, Victor Baltard,
+Gustave Eiffel, William Le Baron Jenney (inkl. Kurzerwähnung Louis-Auguste Boileau und
+Kontext Chicagoer Schule), Daniel Burnham → konsolidiert zu
+[[architektenportraits-sammlung-klassizismus-eisenarchitektur-acht-kurzbiografien-erdmannsdorff-eiffel-jenney-burnham]]
+mit Leben/Werk je Person und Quellenangabe (Datei + Seite). Ein unbelegter
+Sekundärartikel («Wettlauf in der Vertikale») in `40_jenney.pdf` bewusst nicht als Quelle
+übernommen (populärwissenschaftliche Kompilation ohne Fachlektorat-Ausweis, im Artikel
+vermerkt). Erdmannsdorff/Gilly/Schinkel-Lehrlinie per Rückverlinkung mit
+[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]
+verknüpft, Burnhams Stadtplanung mit
+[[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]].
+
+Inventardatei um Erledigt-Vermerk ergänzt, `git diff --numstat` zeigte für die Inventardatei
+einen reinen Append (`28 0`). **22 der 39 Einzelportraits bleiben offen**, dazu vier
+Nicht-Portrait-Positionen desselben Ordners (`9_rom_st`, `16_schloss_versailles`,
+`26_paris_um_1800`, `1_filippo_brunelleschi` mit noch zu prüfendem Duplikatsrisiko) sowie
+Kartenset/Sammelmappe — Liste im neuen Artikel und in der Inventardatei. Sperrlisten-Prüfung:
+kein Fund. Sicherung über `nas-commit-now.sh`.
+
 ## 2026-08-30 — P2-Lauf, erster Lauf Architektenportraits-Ordner (81. Lauf, Lane FACHWISSEN)
 
 Stand selbst ermittelt (`KORPUS-QUEUE.md`, `git log`/`git status`, Inventardatei). Der 80. Lauf
