@@ -2690,3 +2690,46 @@ inhaltstragend verifizierten Positionen (`cassina.htm`, `lucchi.htm`, `frogdesig
 und `lucchi.htm` vorab prüfen, ob Ergänzung bestehender Artikel (Magistretti/Ponti bzw.
 Sottsass/Postmoderne) treffender ist als ein eigener Artikel, sonst laut Queue-Regel nächste
 Sektion mit offenem P1/P2.
+
+**122. Lauf (30.08.2026, Lane FACHWISSEN, Hostname Macmini via `scutil`, PID 47271, ein
+`claude -p`-Prozess, kein Doppel-Dispatch): Zeile 68 fortgesetzt, Kandidatenermittlung
+korrigiert.** Stand selbst ermittelt. Beim Reproduzieren der Python-Kandidatenermittlung des
+121. Laufs fiel ein dritter Fehler auf: das Suchmuster erfasste auch `INDEX.md`/
+`QUESTIONS.md` selbst, wo `nächster Schritt`-Prosa künftige Dateinamen nennt, bevor sie
+gelesen sind — das liess `cassina.htm`/`lucchi.htm`/`frogdesign.htm`/`nurmesniemi.htm`/
+`henry_van_de velde.htm`/`earl.htm`/`bellini.htm` fälschlich als „bereits referenziert"
+erscheinen. Nach Ausschluss dieser beiden Dateien aus dem Abgleich: 57 von 128 Dateien
+tatsächlich unreferenziert, davon 27 durch Tag-Strip-Vorschau als Frameset-/Index-/
+Banner-Seiten ohne Fliesstext bestätigt (`ital-b.htm`, `90.htm`, `mo1.htm`, `hfg-index.htm`,
+`index.htm`, `hfg-li.htm`, `50-60b.htm`, `jug2.htm`, `mo1li.htm` und 18 bereits in früheren
+Läufen identifizierte). Drei kleinste inhaltstragende Dateien ausserhalb dieser 27 gelesen:
+`design_im_20.htm`, `kunststoff.htm`, `aktion_und_reaktion.htm`. Duplikatscheck vorab:
+`design_im_20.htm` erwies sich als praktisch deckungsgleich mit dem bereits über `jug3.htm`
+destillierten Artikel [[paris-1900-weltausstellung-art-nouveau-hoehepunkt-niedergang-wiener-stil]]
+(identische Erzählung Ruskin/Morris → Guimard/Van-de-Velde/Horta/Gaudí/Behrens/Mackintosh/
+Wagner/Hoffmann → Turin 1902) — **kein neuer Artikel**, stattdessen die drei zusätzlichen
+Fakten (Gallé-Vase 1895, Zeitschriften «The Studio»/«Pan», Geschlechteranmerkung) dort als
+Ergänzung nachgetragen (Delta-Ehrlichkeit). `kunststoff.htm` und `aktion_und_reaktion.htm`
+ohne Dublette (nur Randerwähnungen in bestehenden Artikeln). Zwei neue Artikel:
+[[kunststoff-im-design-bakelit-spritzguss-polypropylen-oekokritik]] (Materialgeschichte
+Bakelit 1907 → Zanuso/Panton/Day/Colombo-Spritzguss-Kette → Ölkrise/Starck-Recycling-Design,
+verankert vier bestehende Einzelwerk-Artikel) und
+[[design-krise-der-moderne-1960er-pop-aesthetik-harley-earl-archigram]] (Funktionalismus-
+Krise mit Harley Earl/GM-Styling als amerikanischem Vorlauf und Peter Murdoch/Archigram/
+Sottsass als Trägern des Bruchs — schliesst die zeitliche Lücke vor der bereits bestehenden
+[[postmoderne-design-jencks-memphis-alchimia-international]]). Damit 60 von 128 Dateien
+gelesen/korrekt als ertraglos identifiziert (27 Frameset + 33 vorherige inhaltstragende
+Läufe + 3 dieser Lauf), 57 minus 3 = 54 Positionen bleiben tatsächlich offen (`cassina.htm`
+bis `day.htm`, siehe CHANGELOG-Liste). `git diff --numstat` zeigte für die Inventardatei
+keine Änderung, für die modifizierte Paris-1900-Datei `13 0` (reiner Anhang), für die zwei
+neuen Wiki-Dateien reine Neuanlage. Details CHANGELOG 30.08.2026. **Zeile 68 bleibt offen,
+nächster Schritt:** Fortsetzung nach Dateigrösse unter den 25 verbliebenen inhaltstragenden
+Positionen (`cassina.htm`, `lucchi.htm`, `frogdesign.htm`, `nurmesniemi.htm`,
+`henry_van_de velde.htm`, `earl.htm`, `bellini.htm`, `50-60ein.htm`, `mo1ein.htm`, `race.htm`,
+`krise.htm`, `mollino.htm`, `maugham.htm`, `mailand.htm`, `schichtholz.htm`, `behrens.htm`,
+`wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`,
+`deskey.htm`, `bugholz.htm`, `day.htm`) — bei `schichtholz.htm` und `behrens.htm` vorab
+prüfen, ob Ergänzung der bestehenden Artikel [[organische-schichtholz-moderne-aalto-eames-jacobsen]]
+bzw. [[sauter-klassische-moderne-neues-bauen-behrens-loos-wright-aalto-vierzehn-bauten-kanon]]
+treffender ist als ein eigener Artikel, sonst laut Queue-Regel nächste Sektion mit offenem
+P1/P2.

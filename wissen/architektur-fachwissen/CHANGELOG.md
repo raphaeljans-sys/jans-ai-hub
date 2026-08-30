@@ -1,5 +1,75 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (122. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `skills/wissens-destillat/specs/`, `wiki/INDEX.md`,
+`CHANGELOG.md`, `raw/inventar/*.md` gegen Rohzustand geprüft, keine Zahl aus dem Dispatch-Text
+übernommen — dieser nennt bewusst keine mehr). Hostname `Macmini` via `scutil` bestätigt, ein
+`claude -p`-Prozess mit diesem Dispatch (PID 47271), kein Doppel-Dispatch. Working Tree bei
+Laufbeginn sauber (Top-Commit `d0556be1f`).
+
+**Fehler in der Kandidatenermittlung des 121. Laufs gefunden und korrigiert:** dessen
+Python-Abgleich (referenzierte `.htm`-Dateinamen aus `wiki/*.md` gegen den Ordnerinhalt) schloss
+`INDEX.md` und `QUESTIONS.md` nicht aus — dort nennt die «nächster Schritt»-Prosa künftige
+Kandidaten-Dateinamen, bevor sie gelesen wurden, wodurch `cassina.htm`, `lucchi.htm`,
+`frogdesign.htm`, `nurmesniemi.htm`, `henry_van_de velde.htm`, `earl.htm` und `bellini.htm`
+fälschlich als „bereits referenziert" erschienen wären, hätte man die Liste unverändert
+übernommen. Nach Ausschluss von `INDEX.md`/`QUESTIONS.md` aus dem Abgleich: 71 von 128 Dateien
+tatsächlich in bestehenden Artikeln zitiert, 57 unreferenziert. Von diesen 57 wurden 27 als
+reine Frameset-/Index-/Banner-Seiten ohne Fliesstext per Tag-Strip-Vorschau bestätigt
+(`ital-b.htm` 4 Byte Text, `90.htm`/`mo1.htm`/`hfg-index.htm`/`index.htm` "Diese Seite
+verwendet Frames", `hfg-li.htm`/`50-60b.htm`/`jug2.htm`/`mo1li.htm` reine Namenslisten, plus 18
+bereits in früheren Läufen (115.–121.) identifizierte Frameset-Dateien unter 3 KB) — diese
+27 zählen nicht zu den offenen Positionen.
+
+Drei kleinste der verbleibenden 30 inhaltstragenden Dateien gelesen: `design_im_20.htm`
+(9'820 Byte), `kunststoff.htm` (10'116 Byte), `aktion_und_reaktion.htm` (10'259 Byte).
+
+Duplikatscheck vorab (`grep -rli` gegen Themen/Namen über `wiki/*.md`, `INDEX.md`/
+`QUESTIONS.md` diesmal bewusst ausgeschlossen): `design_im_20.htm` erwies sich beim Lesen als
+praktisch deckungsgleiche Zweitquelle zum bereits über `jug3.htm` destillierten Artikel
+[[paris-1900-weltausstellung-art-nouveau-hoehepunkt-niedergang-wiener-stil]] — identische
+Kernerzählung (Ruskin/Morris/Ashbee/Voysey-Reform → Art-nouveau-Bandbreite Guimard/Gallé/
+Gaillard/Van de Velde/Horta/Gaudí/Behrens/Mackintosh/Wagner/Hoffmann → geometrischer
+Wiener Stil ab Turin 1902). **Kein eigener Artikel** (Delta-Ehrlichkeit); stattdessen wurde
+der bestehende Artikel um die drei tatsächlich neuen Fakten ergänzt: Émile Gallés Vase von
+1895 (Musée d'Orsay) als Beleg der Gebrauchskunst neben der Architektur, die Zeitschriften
+«The Studio» und «Pan» als grenzüberschreitende Verbreitungskanäle, sowie die Quellenanmerkung
+zur männlich geprägten Zukunftsvision des Gesamtkunstwerks. `kunststoff.htm` und
+`aktion_und_reaktion.htm` ohne Dublette (nur Randerwähnungen in bestehenden
+Einzelwerk-Artikeln, keine eigenständige Behandlung als Material- bzw. Bewegungsthema).
+
+Zwei neue Wiki-Artikel:
+[[kunststoff-im-design-bakelit-spritzguss-polypropylen-oekokritik]] (Materialgeschichte:
+Bakelit 1907/Baekeland → Nachkriegs-Spritzguss-Kette Eames/Saarinen → Zanuso → Panton → Robin
+Day → Joe Colombo → Ölkrise/Ökokritik 1970er → Starcks recycelbares Polypropylen-Design 1990er
+→ Tupperware/Daniel Weils «Radio in der Tasche»; verankert vier bestehende Einzelwerk-Artikel
+in einer Materialgeschichte statt einzelner Werknotizen) und
+[[design-krise-der-moderne-1960er-pop-aesthetik-harley-earl-archigram]] (Funktionalismus-
+Krise Mitte der 1960er: italienisches/skandinavisches/französisches Wohlstandsdesign →
+jugendliche Pop-Ästhetik untergräbt Rationalitäts-/Universalitäts-Anspruch, Träger laut Quelle
+Peter Murdoch/Archigram/Sottsass; amerikanischer Vorlauf über Harley Earl/GM-Automobilstyling
+der 1930er/40er als strukturell ähnlicher Bruch Ideal-vs-Konsumentenwunsch; schliesst die
+zeitliche Lücke vor der bereits bestehenden
+[[postmoderne-design-jencks-memphis-alchimia-international]]).
+
+`git diff --numstat` zeigte für die Inventardatei `archiv-fachwissen__02_Kunst_Geschichte.md`
+keine Änderung (Sammelzeile 68 bleibt wie seit dem 106. Lauf unangetastet, Fortschritt nur in
+INDEX/CHANGELOG/KORPUS-QUEUE), für die ergänzte Paris-1900-Datei `13 0` (reiner Anhang), für
+die zwei neuen Wiki-Dateien reine Neuanlage. Keine gesperrten Inhalte (Verträge, Bewerbungen,
+Adress-/Lohndaten) angetroffen. Sicherung via `bash scripts/nas-commit-now.sh`.
+
+Damit sind von den 30 tatsächlich inhaltstragenden, noch nicht destillierten Dateien der
+Zeile 68 drei bearbeitet (zwei neue Artikel, eine als Dublette identifiziert und stattdessen
+per Ergänzung geschlossen); 27 bleiben offen: `cassina.htm`, `lucchi.htm`, `frogdesign.htm`,
+`nurmesniemi.htm`, `henry_van_de velde.htm`, `earl.htm`, `bellini.htm`, `50-60ein.htm`,
+`mo1ein.htm`, `race.htm`, `krise.htm`, `mollino.htm`, `maugham.htm`, `mailand.htm`,
+`schichtholz.htm`, `behrens.htm`, `wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`,
+`castiglioni.htm`, `dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`. **Nächster Schritt:**
+Fortsetzung nach Dateigrösse; bei `schichtholz.htm` und `behrens.htm` vorab prüfen, ob
+Ergänzung eines bestehenden Artikels treffender ist als ein eigener (siehe INDEX-Eintrag),
+sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (119. Lauf Lane FACHWISSEN)
 
 Stand vor Arbeitsbeginn selbst ermittelt statt aus dem Dispatch-Text übernommen (dieser
