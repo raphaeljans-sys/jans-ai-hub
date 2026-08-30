@@ -3669,3 +3669,38 @@ Polybios, Varro, Livius, Seneca, Plinius d. Ä., Plutarch/Romulus, Tacitus, Plin
 Juvenal, Sueton, Pausanias, Achilleus Tatius, Ausonius, Salvianus, Francesco Colonna/Hypnerotomachia).
 **Nächster Lauf:** Aristophanes/Die Vögel (41) oder Xenophon/Cyropädie (43) als nächste im
 Seitenverlauf liegende Kandidaten, sonst der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — 43. P2-Lauf Sektion `01_Staedtebau`: Aristophanes und Xenophon destilliert (Lane FACHWISSEN)
+
+Beide vom 42. Lauf empfohlenen Kandidaten bearbeitet, per `/opt/homebrew/bin/pdftoppm` gerendert
+(Pfad `06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf`, PDF-Seite = gedruckte
+Seite + 4, S. 41-44 vollständig gelesen, S. 44 leer):
+
+- Neuer Wiki-Artikel aus `Quellentextband-1.pdf` (S. 41-42, Aristophanes, Die Vögel, Vers
+  172-199 und Vers 986-1004):
+  [[aristophanes-die-voegel-meton-luftstadt-satire-radial-stadtplan]] — Luftstadt-Gründung als
+  Kontrollinstrument über die Opferrauch-Transitroute zwischen Menschen und Göttern; Meton-Szene
+  mit radial-konzentrischem Stadtplan (Kreis zu Viereck, Markt im Zentrum, Strassen als Strahlen
+  «nach allen Winden») als Komödien-Witzfigur, Auszug bricht mitten im Satz ab, `status:
+  emerging`. Verlinkt mit
+  [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]],
+  [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]] und
+  [[campanella-citta-del-sole-konzentrische-ringstadt-verteidigung-lehrinstrument]].
+- Neuer Wiki-Artikel aus `Quellentextband-1.pdf` (S. 43, Xenophon, Cyropädie, Buch VIII,2,5,
+  isoliertes Fragment):
+  [[xenophon-cyropaedie-arbeitsteilung-stadtgroesse-spezialisierung]] — Arbeitsteilung des
+  Handwerks als Funktion der Stadtgrösse: kleine Stadt zwingt zu Generalisten
+  (Mehrfachqualifikation aus Not), grosse Stadt ermöglicht und erzwingt Spezialisierung bis auf
+  Teilschritte eines Gewerks (z. B. nur Schuh-Zuschnitt vs. nur Zusammensetzen), `status:
+  emerging`, ohne Verlinkung (kein inhaltlich überschneidender Bestandsartikel gefunden).
+- Gegen Wiki-Bestand geprüft (`grep -rli` Aristophanes/Meton/Xenophon/Cyropädie/Arbeitsteilung):
+  keine inhaltlich überschneidenden Treffer, kein Duplikat.
+
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+Append, `git diff --numstat` geprüft). Von der Namensliste des 40./41./42. Laufs sind damit
+Thukydides, Cicero, Aristophanes und Xenophon bearbeitet; 17 Positionen bleiben offen
+(Platon/Die Gesetze, Kritias, Polybios, Varro, Livius, Seneca, Plinius d. Ä., Plutarch/Romulus,
+Tacitus, Plinius d. J., Strabo, Juvenal, Sueton, Pausanias, Achilleus Tatius, Ausonius,
+Salvianus, Francesco Colonna/Hypnerotomachia). **Nächster Lauf:** Platon, Die Gesetze (45) als
+nächster im Seitenverlauf liegende und bürorelevante Kandidat, sonst der Rest der Liste der
+Reihe nach.

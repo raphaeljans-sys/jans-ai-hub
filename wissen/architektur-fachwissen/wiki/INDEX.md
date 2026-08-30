@@ -1885,3 +1885,19 @@ Xenophon/Cyropädie (43) oder Platon/Die Gesetze (45) als nächste
 Kandidaten aus der Namensliste (Details/Reihenfolge:
 `wiki/QUESTIONS.md` #74, 41.-Lauf-Abschnitt der Inventardatei). Details in
 `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 43. P2-Lauf):** Aristophanes, Die Vögel (S.
+41-42, Luftstadt-Gründung als Kontrollinstrument über die
+Opferrauch-Transitroute, Meton-Szene mit radial-konzentrischem Stadtplan
+als Komödien-Witzfigur) destilliert →
+[[aristophanes-die-voegel-meton-luftstadt-satire-radial-stadtplan]].
+Xenophon, Cyropädie (Buch VIII,2,5, S. 43, Arbeitsteilung des Handwerks
+als Funktion der Stadtgrösse) destilliert →
+[[xenophon-cyropaedie-arbeitsteilung-stadtgroesse-spezialisierung]]. Gegen
+Wiki-Bestand geprüft (`grep -rli` Aristophanes/Meton/Xenophon/Cyropädie):
+keine inhaltlich überschneidenden Treffer, kein Duplikat. Von der
+Namensliste des 40./41./42. Laufs sind damit Thukydides, Cicero,
+Aristophanes und Xenophon bearbeitet; 17 Positionen bleiben offen.
+Nächster Lauf: Platon, Die Gesetze (45) als nächster im Seitenverlauf
+liegender Kandidat, sonst der Rest der Liste der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.

@@ -2208,3 +2208,46 @@ Varro (73), Livius (95), Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (1
 Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia
 (247). **Nächster Lauf:** Aristophanes/Die Vögel (41) oder Xenophon/Cyropädie (43) als
 nächste im Seitenverlauf liegende Kandidaten, sonst der Rest der Liste der Reihe nach.
+
+## Dreiundvierzigster P2-Lauf, Aristophanes und Xenophon destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen):
+`KORPUS-QUEUE.md` (Zeile 4 dort weiterhin nur bis 32. Lauf nachgeführt, CHANGELOG.md und diese
+Inventardatei sind der aktuellere, deckungsgleiche Stand bis einschliesslich 42. Lauf),
+`wiki/INDEX.md` und `wiki/QUESTIONS.md` gegengeprüft. `git status` zeigte zu Laufbeginn drei
+unversionierte Änderungen (CHANGELOG.md, INDEX.md, diese Inventardatei aus dem 42. Lauf) — Inhalt
+gegen den bereits im 42.-Lauf-Abschnitt dokumentierten Stand geprüft, deckungsgleich; beim
+zweiten Check bereits vom 15-Min-Cron committet (`auto-sync`), kein Datenverlust. `ps aux` zeigte
+genau einen laufenden `claude -p`-Prozess, kein `MERGE_HEAD`.
+
+Beide vom 42. Lauf empfohlenen Kandidaten bearbeitet, per `/opt/homebrew/bin/pdftoppm` gerendert
+(Pfad `06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf`, PDF-Seite = gedruckte
+Seite + 4, S. 41-44 vollständig gelesen, S. 44 leer):
+
+- **Aristophanes, Die Vögel** (S. 41-42, Vers 172-199 und Vers 986-1004, vollständig gelesen)
+  → neuer Artikel
+  [[aristophanes-die-voegel-meton-luftstadt-satire-radial-stadtplan]]: Luftstadt-Gründung als
+  Kontrollinstrument über die Opferrauch-Transitroute zwischen Menschen und Göttern (Vers
+  172-199), Meton-Szene mit radial-konzentrischem Stadtplan (Kreis zu Viereck, Markt im
+  Zentrum, Strassen als Strahlen) als Komödien-Witzfigur (Vers 986-1004, Auszug bricht mitten
+  im Satz ab). Gegen Wiki-Bestand geprüft (`grep -rli` Aristophanes/Meton): keine bestehenden
+  Artikel-Treffer (nur INDEX/QUESTIONS-Journaleinträge), kein Duplikat.
+- **Xenophon, Cyropädie** (Buch VIII,2,5, S. 43, isoliertes Fragment, vollständig gelesen)
+  → neuer Artikel
+  [[xenophon-cyropaedie-arbeitsteilung-stadtgroesse-spezialisierung]]: Arbeitsteilung des
+  Handwerks als Funktion der Stadtgrösse (kleine Stadt zwingt zu Generalisten, grosse Stadt
+  ermöglicht Spezialisierung bis auf Teilschritte eines Gewerks, z. B. nur Schuh-Zuschnitt vs.
+  nur Zusammensetzen). Gegen Wiki-Bestand geprüft (`grep -rli`
+  Xenophon/Cyropädie/Arbeitsteilung): zwei beiläufige Arbeitsteilung-Treffer
+  (Grubenmann-Brücken-Werkverzeichnis, Sieverts-Zwischenstadt), keiner davon inhaltlich
+  überschneidend — kein Duplikat.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste des
+40./41./42. Laufs sind damit Thukydides, Cicero, Aristophanes und Xenophon bearbeitet;
+weiterhin offen: Platon/Die Gesetze (45), Kritias (54), Polybios (69), Varro (73), Livius (95),
+Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125), Tacitus (131-133), Plinius d. J.
+(137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius (155),
+Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247). **Nächster Lauf:**
+Platon, Die Gesetze (45) als nächster im Seitenverlauf liegende und bürorelevante Kandidat
+(Staatstheorie mit Stadtbezug, direkt im Anschluss an den bereits bearbeiteten Antike-Block),
+sonst der Rest der Liste der Reihe nach.
