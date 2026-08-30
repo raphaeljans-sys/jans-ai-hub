@@ -5990,3 +5990,30 @@ Keine der harten Sperren (Verträge/Bewerbungen/Adressen/Lohn/Privat) berührt. 
 --numstat` auf die Inventardatei zeigt reinen Append. Ein Wiki-Artikel neu, `wiki/INDEX.md`
 nachgeführt. **Nächster Lauf:** Zeile 75 Stilepochen-Zusammenfassung/Hagia-Sophia-Chronologie,
 sonst laut Queue-Regel nächste Sektion mit offenem P2 wählen.
+
+## 260830 — Zeile 72 Flandern-Studienreise-Reader, Sektion `02_Kunst_Geschichte` (Lane FACHWISSEN, Fortsetzung nach 97.-99. Lauf)
+
+Stand selbst ermittelt (KORPUS-QUEUE.md nennt bewusst keine Zahlen): 99. Lauf laut Queue-Zeile
+bereits abgeschlossen und die zugehörigen Wiki-Artikel/Inventar-Einträge committet
+(`148f9d9b4`), nur die Buchführungszeile in `KORPUS-QUEUE.md` selbst stand noch aus. Genau ein
+`claude -p`-Prozess dieser Lane aktiv, kein Doppel-Dispatch festgestellt.
+
+Zeile 72 `02_Bildende_Kunst/10_Regionskunst/Flandern/` (57 Dateien, P2): Duplikatscheck zuerst
+(`grep -li` gegen alle sieben Architektennamen sowie „Conzett"/„Fussgängerbrücke" in
+`wiki/*.md`) — kein Treffer. `L`Architecture Moderne Belgique - Überarbeitet.pdf` (12 S.,
+Studienreise-Reader HTA Luzern SS07) vollständig gelesen und destilliert zu
+[[flandern-studienreise-2007-sieben-bauten-kanon-robbrecht-daem-van-duysen-beel-conzett-toyo-ito]]
+(Sieben-Bauten-Kanon Groot Vleeshuis/Coussée & Goris, Umbau Compagnie/Wim Goes,
+Concertgebouw/Robbrecht & Daem, Pavillon 2002/Toyo Ito, Fussgängerbrücke Coupure/Jürg Conzett,
+Bürohaus Concordia/Vincent van Duysen, Roger Raveel Museum/Stéphane Beel; institutioneller
+Hintergrund Hoger Architectuurinstituut St. Lukas Gent, sechs der sieben Bauten im Kontext
+Brügge Kulturhauptstadt 2002). Deckblatt mit Namen/Adressen/E-Mail der drei studentischen
+Verfasser bewusst nicht übernommen (Datenschutz). Die «Persönlicher Eindruck»-Passagen der
+Studierenden wurden nicht übernommen (Werturteile ohne Beleghaltigkeit), mit Ausnahme der
+sachlichen Kritik am fehlenden Sonnenschutz beim Bürohaus Concordia. Die übrigen 56 Dateien
+des Ordners sind Bilddateien ohne eigenen Fliesstext, nicht einzeln geöffnet.
+
+**Zeile 72 gilt damit als abgeschlossen.** Keine der harten Sperren berührt. `git diff
+--numstat` auf die Inventardatei zeigt reinen Append (16 0). Ein Wiki-Artikel neu, `wiki/INDEX.md`
+nachgeführt. **Nächster Lauf:** Zeile 68 `08_Design` (733 Dateien) oder Zeile 76, sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2 wählen.
