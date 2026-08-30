@@ -4,6 +4,17 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, siebter Folgelauf desselben Tages) — Minimalcheck bestaetigt: nichts Neues, keine Recherche ausgefuehrt
+
+Minimalcheck (Arbeitsbaum sauber, `git diff --numstat` leer, kein inhaltlicher Commit seit
+dem sechsten Folgelauf). Alle vier Auftragspositionen weiterhin BEHOBEN/RECHERCHIERT, nur
+die zwei Rueckfragen an Raphael (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319) sind
+offen und nicht recherchierbar. Mindestens der fuenfzehnte inhaltsgleiche Lauf seit dem
+29.08.2026. Keine neue Handlung ausgefuehrt, keine erneute Recherche. **Eskalation
+unveraendert:** Dispatcher/Scheduler bitte anhalten oder Prompt aktualisieren, bis (a) eine
+NAS-Umbenennungs-/Zusammenfuehrungs-Freigabe erteilt wird, (b) ein `--reindex` mit neuem
+Rohmaterial laeuft, oder (c) die zwei Rueckfragen beantwortet sind.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, sechster Folgelauf desselben Tages) — Minimalcheck bestaetigt: nichts Neues, keine Recherche ausgefuehrt
 
 Minimalcheck wie von Memory und den fuenf Vorlaeufen empfohlen: `git status --short` zeigte

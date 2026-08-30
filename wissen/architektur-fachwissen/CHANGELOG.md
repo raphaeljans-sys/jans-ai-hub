@@ -1,5 +1,42 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, sechster P2-Lauf (Lane FACHWISSEN)
+
+Dispatch-Auftrag erneut veraltet (behauptete «kein Destillat, keine Spec, 2 Wiki-Artikel»,
+tatsächlich beide Specs geschrieben, 150+ Wiki-Artikel, 28+ Läufe, Station laut `scutil`
+Macmini statt der im Dispatch behaupteten «MacBook Pro») — nicht ausgeführt. `ps -o
+pid,ppid,command` zeigte: der aktuelle Prozess ist Kind desselben `claude -p`-Prozesses wie
+der unmittelbar vorangegangene Lauf (Selbst-Redispatch nach Kontext-Kompaktierung, kein
+echtes Doppel-Dispatch) — Working Tree enthielt bereits die inhaltlich fertige, aber
+unkommittierte Buchführung des Venturi-Laufs (VL5). Zuerst per `nas-commit-now.sh`
+gesichert; Versuch traf erneut den bekannten NAS-Merge-Konflikt (sechs fremde KBs
+gleichzeitig betroffen: normen, synobsis, baurecht, grobkosten), lokaler Working Tree blieb
+sauber (kein `MERGE_HEAD`, keine Konfliktmarker), dem 15-Min-Cron überlassen — Details
+[[project_nas-git-merge-konflikt-dispatch-loop-260829]].
+
+Danach nächste offene Position der rund 190 Vorlesungsmitschriften bearbeitet:
+`111104_VL6_Kahn_Louis/` — das in dieser Vorlesung behandelte Fallbeispiel Exeter Library
+war bereits über `wiki/vier-kanonische-fallbeispiele-architekturtheorie-register.md`
+destilliert, daher zweite, eigenständige Position derselben Vorlesung bearbeitet:
+`02_Vorlesungsmittschrift/120201_Kahn.docx` (eigene, durchformulierte Frage-Antwort-Analyse
+zu Kahns Essay «Monumentalität») als Hauptquelle, rohe Live-Mitschrift als Zweitquelle zum
+Abgleich. Destilliert zu
+`wiki/kahn-monumentalitaet-form-evokes-function-post-miesismus.md` — ornamentale
+Tragstruktur/ornamentaler Raum als explizite Kritik an Mies' Doppel-T-Stahltektonik,
+New-Monumentality-Diskurs der 1940er (Zucker-Symposium 1944, Giedions «The Need for a New
+Monumentality»), Kahns Magna-Charta-Zitat zur Monumentalität, «Form evokes Function» als
+bewusste Umkehr von Sullivans «Form follows Function», Kahns Selbstverortung als
+«Post-Miesismus» gegenüber Venturi/Eisenman, Materialhaltung «Was will der Backstein sein?»
+im Kontrast zu Aalto, sowie ein Cross-Referenz-Fund (Christian Kerez/Schulhaus
+Leutschenbach als Gegenbeispiel offengelegter Konstruktionstektonik, bereits über die
+Kostenermittlungsseite in `buero-referenzen__18_Projektkostenplanung` dokumentiert).
+`status: speculative`. Nicht ausgewertet: Vorlesungsfolien (`04_Vorlesungsfolie`) und ein
+drittes PDF (`00_PDF/120821_Kahn.pdf`) ohne erkennbares docx-Original — Inhalt ungeprüft,
+möglicherweise Doppelung. Offen bleiben 18 der 23 Vorlesungsordner (185 der 190 Dateien).
+Nächster Lauf: VL7 (`111111_VL7_Rossi_Aldo`) — Achtung, das dortige Fallbeispiel (Cimitero
+San Cataldo) und Rossis Theorie der Permanenz sind bereits als eigene Artikel vorhanden,
+zuerst auf verbleibende, noch nicht destillierte Inhalte prüfen.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, fünfter P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag erneut veraltet (behauptete «kein Destillat, keine Spec, 2 Wiki-Artikel»,

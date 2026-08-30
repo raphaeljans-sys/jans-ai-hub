@@ -252,3 +252,21 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   (`03_Zusammenfassung/10_ungueltig/`) bewusst nicht verwendet. Vorlesungsfolien
   (`04_Vorlesungsfolien`) nicht ausgewertet. Offen: 19 der 23 Vorlesungsordner (186 der
   190 Dateien). Nächster Lauf: VL6 (`111104_VL6_Kahn_Louis`).
+
+- 2026-08-30 (Lane FACHWISSEN, sechster P2-Lauf, Fortsetzung): `111104_VL6_Kahn_Louis/`
+  zweite Position bearbeitet (das Fallbeispiel Exeter Library aus derselben Vorlesung war
+  bereits über `wiki/vier-kanonische-fallbeispiele-architekturtheorie-register.md`
+  destilliert). `02_Vorlesungsmittschrift/120201_Kahn.docx` (eigene, durchformulierte
+  Frage-Antwort-Analyse, Textbezug Kahns Essay «Monumentalität») als Hauptquelle,
+  `111104_Louis_Kahn_Architekturtheorie I.docx` als Zweitquelle zum Abgleich. Destilliert zu
+  `wiki/kahn-monumentalitaet-form-evokes-function-post-miesismus.md` (ornamentale
+  Tragstruktur als Kritik an Mies' Doppel-T-Tektonik, New-Monumentality-Diskurs
+  Zucker/Giedion 1944, «Form evokes Function» als Umkehr von Sullivan, Post-Miesismus,
+  Materialhaltung «Was will der Backstein sein?»). `status: speculative` (Studien-
+  Zusammenfassung, nicht am Original gegengelesen). Nicht ausgewertet: Vorlesungsfolien
+  (`04_Vorlesungsfolie`) und `00_PDF/120821_Kahn.pdf` (kein erkennbares docx-Original,
+  Inhalt ungeprüft — evtl. Doppelung von `120201_Kahn.docx`). Offen: 18 der 23
+  Vorlesungsordner (185 der 190 Dateien). Nächster Lauf: VL7 (`111111_VL7_Rossi_Aldo`) —
+  Achtung: das Rossi-Fallbeispiel (Cimitero San Cataldo) ist bereits im Fallbeispiel-
+  Register destilliert, dort auf andere, noch offene Inhalte prüfen (Theorie der
+  Permanenz ist ebenfalls bereits als eigener Artikel vorhanden, siehe INDEX).
