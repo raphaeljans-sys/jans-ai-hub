@@ -612,3 +612,34 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   Foliensätze der Einzelvorlesungen — kein Vorlesungsordner mehr ungesichtet. Nächster Lauf:
   Vorlesungsfolien-Sammel-PDF prüfen, oder gemäss Queue-Regel zur nächstgrössten Sektion mit
   offenem P2 in `archiv-fachwissen` übergehen (`wiki/INDEX.md` konsultieren).
+
+- **30.08.2026 (23. P2-Lauf, Lane FACHWISSEN):** Vorlesungsfolien-Sammel-PDF geprüft
+  (`Praes-Ath*.pdf`, 20 kombinierte Foliensätze über die Sektion verteilt, plus 265
+  bereits als `X` klassifizierte Einzelseiten-Exporte). Befund: **19 der 20 Sammel-PDF
+  sind passwortgeschützt** (`pdftotext`/`pdfinfo`: „Incorrect password"), auf dieser
+  Station kein Passwort hinterlegt — dauerhafter Blocker analog zu den bereits
+  dokumentierten CAD-/Krier-Nolli-Sperren. Einzige zugängliche Datei:
+  `120302_Raum_Schmarsow/04_Vorlesungsfolien/Praes-Ath2-2012-2Raum_Passwortfrei.pdf`
+  (71 Seiten, textschichthaltig). Deren Bildlegenden (11 Referenzbauten/-werke mit
+  Urheber und Jahr, u. a. Boullée/Kenotaph Newton, Piranesi/Carceri, Steven Holl/Kiasma
+  Helsinki) als Nachtrag in den bestehenden Artikel
+  [[schmarsow-raumtheorie-raumsystem-tiefenachse-gegen-semper-woelfflin]] eingefügt (der
+  Artikel hatte diese Folie zuvor explizit als „kein Fliesstextgewinn erwartet"
+  ausgeschlossen — Befund war falsch, die Folie trägt sehr wohl eine Textebene). Damit
+  ist die Vorlesungsfolien-Sammel-PDF-Position **abschliessend bearbeitet** (19 von 20
+  Dateien dauerhaft blockiert, 1 von 20 destilliert). Offen bleiben in dieser Sektion nur
+  noch die Tonmitschnitte (Audioformat, ausserhalb des Destillationsverfahrens, siehe
+  `wiki/QUESTIONS.md` #69). **Damit gilt Sektion `02_Architekturtheorie` für P1 und P2
+  als abgearbeitet** bis ein Passwort für die 19 gesperrten Foliensätze vorliegt oder eine
+  Audio-Transkriptionsmethode zur Verfügung steht. Nächster Lauf: gemäss Queue-Regel zur
+  nächstgrössten Sektion mit offenem P2 in `archiv-fachwissen` übergehen (`wiki/INDEX.md`
+  konsultieren, Kandidat `10_Protomodern` oder `03_Bauprozesse_I_II`).
+
+  **Korrektur zum Nachbarkorpus `01_Staedtebau` (nicht diese Sektion, aber im selben Lauf
+  entdeckt):** der 60. P2-Lauf jener Sektion behauptete, Vita Nicolai V (S. 201) bleibe als
+  einzige der 54 Namenslisten-Positionen offen. Das ist falsch — der Artikel
+  `wiki/vita-nicolai-v-stadt-als-bibel-der-armen-monumentalbau-legitimation.md` existiert
+  bereits seit dem 32. Lauf (30.08.2026). Die 54-Positionen-Liste war damit schon vor dem
+  60. Lauf vollständig abgeschlossen (54/54, nicht 53/54). Korrektur hier vermerkt statt in
+  der fremden Inventardatei editiert (Kollisionsvermeidung); massgeblich für künftige Läufe
+  ist diese Korrektur, nicht die fehlerhafte Behauptung im 60.-Lauf-Abschnitt jener Datei.

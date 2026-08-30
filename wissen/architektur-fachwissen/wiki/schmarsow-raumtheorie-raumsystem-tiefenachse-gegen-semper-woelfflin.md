@@ -2,7 +2,7 @@
 title: "Schmarsow — Raumtheorie: Raumsystem statt Form, Tiefenachse gegen Semper/Wölfflin/Hildebrand"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120302_Raum_Schmarsow/03_Zusammenfassung/120730_Raum_Schmarsow_Zusammenfassung.docx (eigene Vorlesungs-Zusammenfassung, datiert 30.07.2012, Bezug 2. Vorlesung Architekturtheorie II vom 02.03.2012, «Raum»)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120302_Raum_Schmarsow/00_Silabus/11_SYL-Ath2-2012-2Raum.pdf (Vorlesungssyllabus, gleiche Vorlesung, Referenzprofessur Á. Moravánszky, ETH Zürich gta)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120302_Raum_Schmarsow/01_Vorlesungsmitschrift/Realisierte Utopie.docx (rohe Live-Mitschrift derselben Vorlesung, orthografisch stark fehlerhaft, ergänzend)"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120302_Raum_Schmarsow/03_Zusammenfassung/120730_Raum_Schmarsow_Zusammenfassung.docx (eigene Vorlesungs-Zusammenfassung, datiert 30.07.2012, Bezug 2. Vorlesung Architekturtheorie II vom 02.03.2012, «Raum»)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120302_Raum_Schmarsow/00_Silabus/11_SYL-Ath2-2012-2Raum.pdf (Vorlesungssyllabus, gleiche Vorlesung, Referenzprofessur Á. Moravánszky, ETH Zürich gta)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120302_Raum_Schmarsow/01_Vorlesungsmitschrift/Realisierte Utopie.docx (rohe Live-Mitschrift derselben Vorlesung, orthografisch stark fehlerhaft, ergänzend)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/120302_Raum_Schmarsow/04_Vorlesungsfolien/Praes-Ath2-2012-2Raum_Passwortfrei.pdf (Vorlesungsfolie, 71 Seiten, per pdftotext gelesen, Nachtrag 30.08.2026)"]
 links: ["[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]]", "[[genius-loci-ort-raum-nichtorte]]", "[[lefebvre-raumtrias-produktion-des-sozialen-raums-budapest-platzvergleich]]", "[[foucault-heterotopie-andersartige-orte-typologie]]"]
 ---
 
@@ -136,15 +136,42 @@ Lefebvres Raumtrias, [[lefebvre-raumtrias-produktion-des-sozialen-raums-budapest
 (dort «konzipierter Raum» als planerische Repräsentationsebene — bei Schmarsow strenger auf
 die körperlich-räumliche Erfahrung selbst bezogen).
 
+## Nachtrag: Referenzbauten aus der Vorlesungsfolie
+
+Die Vorlesungsfolie `04_Vorlesungsfolien/Praes-Ath2-2012-2Raum_Passwortfrei.pdf` (71
+Seiten, textschichthaltig, per `pdftotext` gelesen) trägt über die bereits oben erfasste
+Zusammenfassung hinaus eine Reihe von Bildlegenden mit Bau/Werk, Urheber und Jahr, ohne
+erläuternden Fliesstext (reine Bildunterschriften, keine Interpretation belegt):
+
+- Piero della Francesca, «Geisselung Christi», um 1450 (Gemälde, keine Architektur —
+  vermutlich als Raumkonstruktions-/Perspektivbeispiel gezeigt).
+- S. Lorenzo, Rom, Deckenfresko Andrea Pozzo, 1694.
+- Giovanni Battista Piranesi, «Carceri», 1745-1750.
+- Etienne-Louis Boullée, Kenotaph für Newton, 1784 (dreifach als Folie gezeigt, im Kontext
+  des oben zitierten Descartes-Wirbeltheorie-Zitats).
+- Delphi (ohne weitere Werk-/Datumsangabe auf der Folie).
+- Josef Chochol, Mietshaus Neklanova-Strasse Prag, 1913-1914 (bereits oben über die
+  Live-Mitschrift erfasst, hier als Bildbeleg bestätigt).
+- Frank Lloyd Wright, Unity Temple Chicago, 1905-1908 (Jahresangabe der Folie weicht von
+  der oben aus der Live-Mitschrift übernommenen Angabe 1904-06 leicht ab — beide
+  unaufgelöst stehen gelassen, keine Quelle bevorzugt).
+- Hans Grimm, «Volk ohne Raum», 1926 (Romantitel als Schlagwort-Folie, kein Bildbeleg).
+- Wekerle-Siedlung, Budapest (ohne Jahr/Architekt auf der Folie).
+- Kiasma, Helsinki, Steven Holl, 1998 (dreifach als Folie gezeigt).
+- Hasegawa Tōhaku, «Kiefernwald», 16. Jh. (japanische Tuschmalerei, vermutlich als
+  Gegenbeispiel fernöstlicher Raumauffassung gezeigt, kein erläuternder Text vorhanden).
+
+`status`-Einstufung dieses Nachtrags bleibt `speculative`: reine Bildlegenden ohne
+Begründungstext, Bezug zur jeweiligen Argumentationsstelle der Vorlesung nicht mehr
+rekonstruierbar.
+
 ## Offene Punkte
 
 - Nur der Kernvortragsteil zu Schmarsow selbst ist durch Zusammenfassung und
   Live-Mitschrift belegt; die im Syllabus genannten Positionen Simmel, Hall, Soja
   («sozialer Raum», Block 5) sind nur als Literaturangabe gesichert, nicht inhaltlich
   destilliert.
-- Die 04_Vorlesungsfolien-PDF (`Praes-Ath2-2012-2Raum_Passwortfrei.pdf`, passwortfrei
-  vorliegend) wurde für diesen Artikel nicht ausgewertet (Bildmaterial, kein
-  Fliesstextgewinn erwartet über die bereits erfasste Zusammenfassung hinaus).
+- Die 04_Vorlesungsfolien-PDF ist jetzt ausgewertet (siehe Nachtrag oben, 30.08.2026).
 - Der Tonmitschnitt (`02_Tonmittschnitt/120302_Raum.m4a`) wurde nicht ausgewertet
   (Audioformat, ausserhalb des Destillationsverfahrens).
 - `05_Sekundaerliteratur` (u. a. ein Wikipedia-Auszug zu Georges Perec) nicht ausgewertet —

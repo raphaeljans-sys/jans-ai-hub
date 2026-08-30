@@ -4424,3 +4424,39 @@ angelesen, aber bewusst nicht destilliert) bleibt als eigenständiger Restpunkt 
 **Nächster Lauf:** entweder Vita Nicolai V (S. 201) klären, oder gemäss Queue-Regel zur
 nächstgrössten Sektion mit offenem P2 nach `wiki/INDEX.md` „Sektionen nach Ertrag"
 übergehen.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, 23. P2-Lauf (Vorlesungsfolien-Sammel-PDF geprüft, Korrektur Vita Nicolai V, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen):
+`KORPUS-QUEUE.md` und CHANGELOG zeigten für `01_Staedtebau` einen 60. Lauf mit
+uncommittetem Arbeitsstand (CHANGELOG/Inventardatei modifiziert, kein `MERGE_HEAD`) —
+zuerst per `nas-commit-now.sh` zu sichern versucht: erneuter bekannter NAS-Merge-Konflikt
+in sechs fremden KBs (normen, architekten-synobsis, baurecht, grobkosten,
+skills/wissens-destillat/KORPUS-QUEUE.md plus die eigene KB), Working Tree danach ohne
+Konfliktmarker, dem 15-Min-Cron überlassen.
+
+**Korrektur-Fund:** der 60. Lauf jener Sektion behauptete, Vita Nicolai V (S. 201) sei die
+letzte offene der 54 Namenslisten-Positionen. Das ist falsch — der Artikel
+[[vita-nicolai-v-stadt-als-bibel-der-armen-monumentalbau-legitimation]] existiert bereits
+seit dem 32. Lauf. Die 54-Positionen-Liste war schon vor dem 60. Lauf vollständig
+abgeschlossen. Korrektur in der Inventardatei `02_Architekturtheorie` vermerkt (statt die
+fremde `01_Staedtebau`-Inventardatei zu editieren, Kollisionsvermeidung).
+
+**Hauptarbeit:** die für `02_Architekturtheorie` laut 22. Lauf letzte offene Position
+(Vorlesungsfolien-Sammel-PDF, `Praes-Ath*.pdf`) geprüft. Von 20 kombinierten Foliensätzen
+sind 19 passwortgeschützt (kein Passwort auf dieser Station hinterlegt, dauerhafter
+Blocker). Die einzige zugängliche Datei (`Praes-Ath2-2012-2Raum_Passwortfrei.pdf`, VL2
+Schmarsow, 71 Seiten) trägt entgegen der bisherigen Einschätzung im bestehenden Artikel
+(„kein Fliesstextgewinn erwartet") eine lesbare Textebene mit elf Bildlegenden
+(Referenzbauten/-werke mit Urheber und Jahr). Als Nachtrag in
+[[schmarsow-raumtheorie-raumsystem-tiefenachse-gegen-semper-woelfflin]] eingefügt.
+
+**Damit gilt Sektion `02_Architekturtheorie` für P1 und P2 als abgearbeitet** (bis auf die
+19 gesperrten Foliensätze und die Tonmitschnitte, beides dauerhaft blockiert). Details
+CHANGELOG-Eintrag in der Inventardatei `archiv-fachwissen__02_Architekturtheorie.md`,
+23. P2-Lauf. `git diff --numstat` auf beide bearbeiteten Dateien zeigt reinen Append bei
+der Inventardatei (31/0); der Wiki-Artikel wurde inhaltlich ergänzt (kein Append-Zwang für
+`wiki/`). **Nächster Lauf:** gemäss Queue-Regel zur nächstgrössten Sektion mit offenem P2
+in `archiv-fachwissen` übergehen (`wiki/INDEX.md` konsultieren, Kandidat `10_Protomodern`
+13 P1-Dateien oder `03_Bauprozesse_I_II` mit den historisch rund 15-20 offenen
+P2-Positionen).
