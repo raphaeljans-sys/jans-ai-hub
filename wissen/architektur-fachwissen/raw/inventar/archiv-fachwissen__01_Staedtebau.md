@@ -1884,3 +1884,68 @@ weiterwählen — Aventinus (271) oder Castiglione/Raffael-Brief an Leo X.
 (299) als bürorelevanter Idealstadt-Kandidat vor Kritias (54)/Platon/Die
 Gesetze (45), Xenophon (43) oder dem gesamten noch ungeprüften antiken
 Block Homer bis Cicero (S. 9-81).
+
+## Sechsunddreissigster P2-Lauf, Aventinus geprüft ohne Artikel, Castiglione/
+Raffael-Brief an Leo X. destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine
+Zahlen mehr): `KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md` und diese
+Inventardatei gegengeprüft — deckungsgleich mit dem 35.-Lauf-Ende. Working
+tree bei Laufbeginn sauber. Zusätzlich systematisch geprüft, ob in
+irgendeiner Sektion beider Korpora (`buero-referenzen`, `archiv-fachwissen`)
+noch offene P1-Positionen bestehen (`grep` über alle 43 Inventardateien nach
+Destillat-Fortschritt-Abschnitten, Stichproben der grössten P1-Sektionen
+`02_Gestalt_Kulturverstaendnis`, `01_Konstruktion`, `03_Bauprozesse_I_II`,
+`02_Kunst_Geschichte`, sowie der sechs bisher unbearbeiteten
+`buero-referenzen`-Klein-Sektionen ohne Fortschritt-Abschnitt): **P1 ist
+über beide Korpora vollständig abgeschlossen, kein offener P1-Rest
+gefunden.** Damit bleibt für diesen Korpus nur P2 offen; dieser Lauf
+setzt die P2-Bearbeitung von `01_Staedtebau` fort (grösste einzelne
+P2-Sektion, laut 35.-Lauf-Empfehlung).
+
+Aus der 54-Positionen-Liste des 30. Laufs die zwei empfohlenen Kandidaten
+per `/opt/homebrew/bin/pdftoppm` gerendert und gelesen (Offset PDF-Seite =
+gedruckte Seite + 4, erneut bestätigt):
+
+- **Johannes Aventinus, Bayerische Chronik** (S. 271-274, «Das andere
+  Buch»/Buch III: Untergang des alten römischen Reiches, Wie die Baiern
+  Regensburg gewannen, Von den Gebräuchen der alten teutschen Christen) —
+  vollständig gelesen. Inhalt ist überwiegend religiös-moralisierende
+  Verfallsklage (Fall Roms als Gottesstrafe, Kirchenkritik) und eine
+  Eroberungserzählung (Baiern gegen Römer um Regensburg), beides ohne
+  städtebaulichen oder konstruktiven Gehalt. Einzige fachlich anschlussfähige
+  Stelle: ein Absatz zur Bescheidenheit des frühen Kirchenbaus («gar
+  schlichte Gebäude, die nicht viel kosteten... liessen sich genügen an gar
+  kleinen, engen, finsteren Kirchen und Häusern») mit dem Sprichwort «Die
+  Alten haben finstere Kirchen und lichte Herzen gehabt; jetzo haben wir
+  schöne, grosse, lichte, gemalte Kirchen, aber finstere Herzen» — ein
+  einzelner Absatz ohne Verfahren, Kennwert oder Regel, strukturell
+  vergleichbar mit den bereits ohne Artikel geschlossenen Fällen Al-Ghazali
+  (27. Lauf) und Koran-Auszüge (32. Lauf). **Bewusst ohne Artikel
+  geschlossen** (Delta-Ehrlichkeit) — für ein eigenständiges Städtebau-
+  oder Bauforschungs-Fachthema zu dünn.
+- **Baldassare Castiglione/Raffaello Santi, Brief an Papst Leo X.** (1519,
+  S. 275-279, «die Wiederentdeckung des antiken Roms») → neuer Artikel
+  [[castiglione-raffael-brief-leo-x-1519-stilkritik-spolien]] (Klage über
+  Spolien-/Kalkbrennerei-Zerstörung des antiken Rom mit benannten
+  Einzelverlusten, Raffaels Vermessungs-/Rekonstruktionsmethode im
+  päpstlichen Auftrag, stilkritische Dreiperioden-Klassifikation antiker/
+  gotischer/moderner Bauten anhand von Ausführungsqualität statt Urkunden,
+  Konstantinsbogen-Beispiel als Beleg für Architektur als letzte
+  verfallende Kunst, vollständiger Bauweisenbruch nach dem Fall Roms mit
+  Torre-delle-Milizie-Beispiel für Spolien-Zerkleinerung).
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach «castiglione»/«raffael»/
+«aventinus» über `wiki/*.md`): keine Duplikate; der einzige bestehende
+Treffer (`lampugnani-historisches-stadtzentrum...md`, Fund vor diesem
+Lauf) betrifft ein anderes Thema (moderner Lampugnani-Text), kein
+inhaltlicher Bezug zum Castiglione/Raffael-Brief. `git diff --numstat`
+auf diese Inventardatei zeigt reinen Append.
+
+**Von den 54 benannten Positionen der Quellentextband-Anthologie sind
+jetzt 32 destilliert oder begründet ohne Artikel abgeschlossen, 22 bleiben
+offen.** **Nächster Lauf:** Münster/Cosmographei (281), Specklin (289)
+oder Olivier de Serres (293) als nächste kurze Positionen, sonst Vasari il
+Giovane/Città ideale (299) als bürorelevanter Idealstadt-Kandidat, oder
+Leonardo da Vinci (257, bisher nie geprüft) vor dem gesamten noch
+ungeprüften antiken Block Homer bis Cicero (S. 9-81).
