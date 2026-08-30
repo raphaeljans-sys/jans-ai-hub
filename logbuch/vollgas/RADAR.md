@@ -53,6 +53,54 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-31 00:57 — [FREI] **Letzter Radar-Lauf vor dem Wochen-Reset: das Kontingent liegt bei 85 % und laeuft dem Zeitverlauf immer noch 8.5 Punkte hinterher, die einzige verbliebene Lane arbeitet. Kein Eingriff — 10 Stunden vor Fristende waere Stilllegen genau der falsche Zug.** Ein eigener Messfehler unterwegs gefunden und aufgeloest: `find -newermt` zeigte 48 frische Wiki-Dateien, git zeigt eine.
+
+**Selbstkontrolle: bestanden — aber die Regel misst am falschen Punkt.** Der Vorgaengereintrag traegt **20:40**, dieser Lauf feuerte um **00:57**: Abstand nach Eintragsdatum nur **4 h 17**, was bei 15 h Toleranz formal durchgeht, aber nichts beweist. Der richtige Vergleich ist Feuerzeitpunkt gegen Feuerzeitpunkt: der Vorlauf feuerte **12:57** und schrieb seinen Eintrag erst nach 7 h 43 Laufzeit. Von 12:57 auf 00:57 sind es **exakt 12 h 0 min** bei 12-h-Takt. **Die Selbstkontrolle vergleicht heute das Eintragsdatum, also das ENDE des Vorlaufs, mit dem START des aktuellen** — bei einem langen Lauf verkuerzt das den gemessenen Abstand kuenstlich und wuerde einen echten Ausfall verdecken, sobald ein Lauf lange genug dauert. `lastRunAt` gegenzuhalten ist der belastbare Weg; der zweite Ausfalltyp war nicht zu pruefen.
+
+**Fenster FREI, gemessen in 5 Sekunden — die PATH-Probe gar nicht erst versucht.** Der Symlink `/opt/homebrew/bin/claude` zeigt unveraendert seit 29.08. 05:15 auf die gewedgte **2.1.236**; Homebrew hat in zwei Tagen nichts nachgeliefert. Die app-gebuendelte **2.1.247** antwortete mit «OK», **rc=0, 5 s**. Der im Auftrag als P2 vorgeschlagene Umbau (PATH-Probe ueberspringen, direkt ueber die App-CLI messen) hat in diesem Lauf **180 Sekunden und einen irrefuehrenden rc=137 gespart** — vierter Wedge-Vorfall in Folge, die Empfehlung vom 30.08. bleibt also stehen. Entscheid Raphael, ich editiere die laufende Task-Datei nicht selbst.
+
+**Kontingent: WARNUNG, und der Rueckstand schmilzt.** `kontingent-budget.sh`: **141.9 von 167 Mio teuer (85.0 %)** bei **93.5 %** verstrichener Woche, Vorsprung **−8.5 Punkte**, beide Stationsdateien frisch (Mac Mini 88.72 Mio, MacBook Pro 53.18 Mio). Die Reihe der letzten drei Messungen: −13.9 (12:57) → −12.0 (20:40) → **−8.5** (jetzt). Der Verbrauch holt auf, liegt aber weiterhin **hinter** dem Zeitverlauf. **Die Drossel nach Schritt 2c wird nicht gezogen** — die Ampel steht auf WARNUNG, nicht DROSSEL, und rund 25 Mio «teuer» verfallen heute um 12:00 ungenutzt, wenn sie niemand einsetzt. Das ist woertlich Raphaels Auftrag, nicht ein Sparfall.
+
+### Lane-Stand: vier stehen still, eine arbeitet — die Stilllegung von vorgestern haelt weiter
+
+| Lane | Laeufe 30.+31.08. | USD | letzter Lauf | Zustand |
+|---|---|---|---|---|
+| fachwissen | 203 | **383.66** | **01:00:01** | laeuft, Frist 11:00 |
+| synobsis | 312 | 89.32 | 30.08. 08:22 | selbst beendet |
+| normen-pruefstand | 80 | 9.23 | 30.08. 01:10 | stillgelegt, haelt |
+| baurecht-thalwil | 52 | 6.40 | 30.08. 01:11 | stillgelegt, haelt |
+| grobkosten | 27 | 6.86 | 30.08. 01:10 | stillgelegt, haelt |
+| dispatch-versuch1 | 4 | 12.31 | 30.08. 23:35 | — |
+| **Summe** | **678** | **507.78** | | |
+
+Seit Mitternacht: **8 Laeufe, 16.44 USD**, alle `rc=0`, alle in der Lane `fachwissen`. Auf dem Mac Mini laeuft genau **ein** `vollgas-schub`-Prozess (PID 55122, Frist `2026-08-31 11:00`). Die drei am 30.08. 01:11 stillgelegten Lanes haben seit **48 Stunden** keinen Lauf mehr erzeugt.
+
+**Feuermechanismen, alle drei Orte geprueft:** MacBook Pro — kein vollgas-/nachtschicht-Job geladen, beide `*.disabled-260729`-plists unangetastet, **keine** `claude -p`-Waise. Mac Mini — `ch.jans.nachtschicht` geladen wie vorgesehen, `ch.jans.vollgas-supervisor.plist.disabled-260729` unberuehrt. **Der stehende Entscheid vom 30.07.2026 ist gewahrt: kein Endlos-Runner laeuft, keiner wurde gestartet.**
+
+### Liefer-Delta: der Ertrag der `fachwissen`-Lane hat sich verschoben, nicht aufgehoert
+
+Nativ auf der Synology gemessen (`/volume2/daten/jans-ai-hub`, nicht ueber SMB), Basis der Commit von 20:40 gegen HEAD `d88b5ba24` von 00:59:26: **52 Commits**, geaenderte Dateien nach KB **energie 16 · koordination 3 · planungsgrundlagen 2 · architektur-fachwissen 2**. In `architektur-fachwissen/wiki/` genau **1 M, kein A** — die Artikelzahl steht bei Basis **99** und bei HEAD **99**.
+
+Gegen gestern gehalten: 19 Stunden mit 45 neuen Artikeln, jetzt 4 Stunden mit null. **Das ist trotzdem kein Leerlauf.** Die Lauf-Ergebnisse zeigen, woran die Lane arbeitet: sie raeumt die Restpositionen der Sektion `02_Gestalt_Kulturverstaendnis` ab (21 von 22 Juryberichten, zuletzt der ZEPPELIN-Bericht Depot Hard, «Verfahrensreihe abgeschlossen, 137. Lauf») und schreibt append-only in Inventardatei, CHANGELOG, INDEX und `KORPUS-QUEUE.md` statt in neue Artikel. Jeder Lauf weist seinen Append mit `git diff --numstat` selbst nach — genau die Messdisziplin aus Rule `auto-verbesserungen` 260811. Rund 17 Positionen der Sektion bleiben offen, dazu 62 von 65 Betonforum-Referaten. **Delta groesser null, Grenzertrag sinkend, Frist laeuft in 10 Stunden ohnehin ab: kein Ruecktakt, kein Eingriff.** Ein Ruecktakt haette hier nur Kontingent verfallen lassen, das der Auftrag ausdruecklich ausschoepfen will.
+
+**Eine falsch-negative Selbstauskunft am Rand, ohne Folgen.** Der Lauf um **23:50:31** endete nach 143 s mit exakt 33 Zeichen: «Es gibt nichts mehr zu bearbeiten» — dem Abbruchsatz aus Rule `auto-verbesserungen` **260830**. Die sechs folgenden Laeufe lieferten wieder je 1300 bis 1900 Zeichen mit belegter Arbeit. Der Treiber hat richtig gehandelt, weil er **drei** solche Laeufe in Folge verlangt und nicht einen; ein einzelner Ausreisser haette die produktivste Lane des Tages gekappt. Der Fall belegt die Schwellenwahl, statt sie in Frage zu stellen.
+
+### Der Messfehler dieses Laufs, damit ihn niemand erbt
+
+Meine erste Delta-Messung im NAS-Arbeitsbaum lautete: **48 Wiki-Dateien seit 20:40 geaendert**. Die git-Messung sagt: **eine**. Beide Zahlen sind richtig gemessen, nur misst die erste nicht, was sie zu messen scheint. Die **479 gescheiterten Rebase- und Merge-Versuche** des Selfcommit (alle 15 Minuten, seit 29.08. 21:51) checken bei jedem Anlauf Dateien aus und setzen dabei deren `mtime` neu — **ohne den Inhalt zu aendern**. Eine mtime-basierte Messung zaehlt in einem Repo mit gestoertem Abgleich also die Reparaturversuche mit und meldet Ertrag, wo keiner ist. Dieselbe Familie wie die `-newermt`-Falle mit relativen Zeitangaben (20.08.) und die `grep`-Falle am nicht-UTF-8-Selfcommit-Log: **ein Messergebnis ist zuerst eine Aussage ueber das Instrument.** Der Auftrag verlangt die git-Messung bereits; dieser Lauf zeigt einen zweiten, unabhaengigen Grund dafuer. Ein Nebenbefund gleicher Art: `find -newerBt` liefert ueber den SMB-Mount fuer alle 48 Dateien dasselbe Ergebnis wie `-newermt` — die Geburtszeit ist dort nicht verwertbar und darf nicht als «neu angelegt» gelesen werden.
+
+### P1 — NAS-Divergenz: unveraendert offen, unveraendert nicht von mir zu loesen, und sie waechst
+
+Nativ aus dem Selfcommit-Log gelesen (`awk`, die Datei ist nicht UTF-8): **387 lokal / 266 remote bei Versuch 479** (01:00:06). Die Tagesreihe: 158/85 (30.08. 06:00) → 293/186 (17:0x) → 330/216 (20:11) → 335/218 (20:40) → **387/266** jetzt. Der stolpernde Commit ist weiterhin `1eed7118c`; neu ist, dass die Lane-Laeufe seit 00:23 Konflikte in **fuenf** KB-CHANGELOGs gleichzeitig melden (`normen`, `architekten-synobsis`, `baurecht`, `grobkosten`, `architektur-fachwissen`) statt in zweien. **Nicht selbst aufgeloest**, aus dem unveraenderten Grund: unbeaufsichtigter Lauf, fremde unbestaetigte Arbeit mehrerer Loops in denselben append-only-Dateien (Rule `auto-verbesserungen` 260811). Die Arbeit geht nicht verloren — der `git-auto-sync` des Mac Mini pusht weiter, der SSD-Klon hat in 13 Stunden 124 Commits gezogen. **Nachtrag ins Fristen-Register gesetzt** (erster Wert des neuen Kalendertages, die letzte Registerzahl stammt von gestern 20:11).
+
+### P2 — Speicher auf dem MacBook Pro ist knapp geworden
+
+`vm_stat`: frei + inaktiv + purgeable **0.94 GB**, `kern.memorystatus_vm_pressure_level: 1` (normal). Gegen die 4.5 GB vom 30.08. 01:11 ein deutlicher Rueckgang bei unveraendert normalem Druck. Keine `claude -p`-Waise, kein Schub-Prozess lokal — die Station arbeitet gerade nicht, der Speicher ist also nicht von der Flotte belegt. Kein Handlungsbedarf bei Druckstufe 1, aber beobachten: faellt der Wert weiter, waehrend der Druck steigt, ist das der Vorlauf zu einem Swap-Problem im naechsten Nachtfenster.
+
+**Keine Mail.** Kein neuer P1, kein geloester P1, kein erschoepftes Wochenkontingent. Die Divergenz ist derselbe Befund wie an den beiden Vortagen und steht im Register; eine Wiederholungsmail dafuer ist ausdruecklich ausgeschlossen.
+
+---
+
 ## 2026-08-30 20:40 — [FREI] **Die Stilllegung von gestern Nacht wirkt: vier der fünf Lanes stehen still, die eine verbliebene liefert 255 Dateien. Zwei eigene Messfehler unterwegs korrigiert — ein gewedgtes Homebrew-Binary, das wie eine Kontingentsperre aussah, und ein Zeitsprung, den ich fast als defekte Synology-Uhr protokolliert hätte.**
 
 **Selbstkontrolle: bestanden, aber der Lauf selbst ist auffällig.** Der Vorgängereintrag steht auf 01:11, dieser Lauf feuerte um **12:57** — Abstand **11 h 46** bei 12-h-Takt und 15 h Toleranz. Kein verpasster Lauf, der zweite Ausfalltyp war nicht zu prüfen. **Aber der Lauf lief 7 h 43 min Wanduhrzeit** (12:57 bis 20:40). Damit waren meine Eingangsmesswerte beim Schreiben veraltet; Budget, Liefer-Delta und Lane-Stand sind **doppelt erhoben** und unten steht jeweils der zweite Wert (Rule `auto-verbesserungen` 260730b: ein Messwert ist eine Aussage über seinen Zeitpunkt). Ein Radar-Lauf dieser Länge kann in den Folgelauf hineinragen — das gehört beobachtet.

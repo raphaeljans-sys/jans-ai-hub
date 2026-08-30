@@ -4572,6 +4572,22 @@ Zwei Praezisierungen gegenueber den Nachtraegen darueber, beide neu gemessen:
 **Kein Eingriff**, gleiches Urteil wie in den vier Nachtraegen darueber (Git-Interna in einem
 unbeaufsichtigten Lauf, Rules `interaktive-eingriffe` und `auto-verbesserungen` 260811 Ziff. 3).
 
+**NACHTRAG 31.08.2026, 01:00 (vollgas-chef-radar, nativ aus `sync-tasks/log/selfcommit-202608.log`
+mit `awk`) — 387 lokal / 266 remote bei Versuch 479; neu ist eine MESSFOLGE, nicht die Zahl.**
+Die Reihe setzt sich fort: 372/251 (23:3x) → **387/266 (01:00:06)**. Der Zuwachs allein rechtfertigt
+diesen Nachtrag nicht — er steht hier wegen einer Nebenwirkung, die jeden Loop trifft, der seinen
+Liefer-Ertrag misst: **die inzwischen 479 gescheiterten Rebase- und Merge-Versuche checken bei jedem
+Anlauf Dateien aus und setzen deren `mtime` neu, ohne den Inhalt zu aendern.** Eine mtime-basierte
+Delta-Messung im NAS-Arbeitsbaum meldet dadurch Ertrag, wo keiner ist. Konkret gemessen in diesem
+Lauf: `find wissen/architektur-fachwissen/wiki -newermt "2026-08-30 20:40"` liefert **48 Dateien**,
+die git-Messung gegen denselben Zeitpunkt **eine** (1 M, 0 A, Artikelzahl unveraendert 99). Wer
+Liefer-Delta erhebt, misst bis zur Aufloesung ausschliesslich ueber `git diff --name-status`, nie
+ueber Dateizeitstempel. `find -newerBt` ist ueber den SMB-Mount ebenfalls unbrauchbar (liefert
+dasselbe Ergebnis wie `-newermt`, taugt also nicht als «neu angelegt»-Nachweis).
+Zweiter Befund: die Konflikte betreffen laut den Lane-Laeufen seit 00:23 **fuenf** KBs gleichzeitig
+(`normen`, `architekten-synobsis`, `baurecht`, `grobkosten`, `architektur-fachwissen`) statt zwei.
+**Kein Eingriff**, gleiches Urteil wie in den fuenf Nachtraegen darueber.
+
 ---
 
 ## 30.08.2026 — Gespräch MacBook Pro 29.08.2026 (Konversations-Destillat `logbuch/konversationen/260830-konversationen.md`)
