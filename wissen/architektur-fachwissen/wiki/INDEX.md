@@ -1917,3 +1917,21 @@ Aristoteles/Politik). Nach Platon bleiben 17 Positionen offen. Nächster
 Lauf: Kritias (54, Atlantis-Beschreibung, unmittelbar im Anschluss),
 sonst der Rest der Liste der Reihe nach. Details in
 `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 45. P2-Lauf):** Kritias, Atlantis-Erzählung
+(Platon-Dialog «Kritias», Stephanus 113-118, S. 54-61: konzentrische
+Ringstadt um Kleitos Hügel mit gestufter Bronze/Zinn/Goldkupfererz-
+Verkleidung, Zufahrtskanal und unterirdisch überbrückte Wall-Durchstiche,
+Doppeltempel- und Palastanlage mit Thermalquellen, Hafenvorstadt-
+Ringmauer, rechteckiges Bewässerungs- und Kanalraster der Ebene mit
+zwei Ernten pro Jahr) destilliert →
+[[kritias-atlantis-konzentrische-ringstadt-kanalsystem-bewaesserung]].
+Dabei S. 63-68 gegengeprüft: bereits als
+[[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]]
+destilliert, keine neue Position. Gegen Wiki-Bestand geprüft: nur der
+bekannte Vorverweis im Platon-Artikel, kein Duplikat. Verlinkt mit
+Campanella, Aristophanes/Meton, Platon/Die Gesetze und
+Aristoteles/Politik. Nach Kritias bleiben 16 Positionen offen. Nächster
+Lauf: Polybios (69, über Militärlager), sonst der Rest der Liste der
+Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.

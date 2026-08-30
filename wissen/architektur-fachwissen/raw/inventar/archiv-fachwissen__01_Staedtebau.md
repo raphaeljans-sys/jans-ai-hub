@@ -2292,3 +2292,51 @@ d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achille
 Positionen. **Nächster Lauf:** Kritias (54, Atlantis-Beschreibung, unmittelbar im Anschluss an
 die gelesenen Platon-Seiten) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest
 der Liste der Reihe nach.
+
+## Fünfundvierzigster P2-Lauf, Kritias/Atlantis destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen):
+`KORPUS-QUEUE.md` (Zeile 4 dort weiterhin nur bis 32. Lauf nachgeführt, veraltet),
+`wiki/INDEX.md`, `CHANGELOG.md` und diese Inventardatei sind der aktuellere, deckungsgleiche
+Stand bis einschliesslich 44. Lauf (Platon). `git status` zeigte zu Laufbeginn keine
+unversionierten Änderungen (44. Lauf bereits vom Auto-Sync committet), `git log` bestätigt
+den Commit. `ps aux` zeigte genau einen laufenden `claude -p`-Prozess (diesen selbst), kein
+`MERGE_HEAD`.
+
+Die vom 44. Lauf empfohlene erste Priorität (Kritias, S. 54) bearbeitet, per
+`/opt/homebrew/bin/pdftoppm` gerendert (Pfad
+`06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf`, PDF-Seite = gedruckte
+Seite + 4, S. 54-61 vollständig gelesen). Dabei auch S. 63-68 gegengeprüft (Aristoteles,
+Politik, Buch II,8 und VII) — diese Seiten sind bereits als
+[[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]] destilliert (Quellenangabe
+dort deckungsgleich S. 63-68), keine neue Position; S. 62 ist eine Leerseite (Kapitelwechsel).
+Damit ist Aristoteles keine offene Namenslisten-Position (er stand dort nie, weil bereits vor
+dieser Namensliste erfasst).
+
+- **Kritias, Atlantis-Erzählung** (Platon-Dialog «Kritias», Stephanus 113-118, S. 54-61,
+  vollständig gelesen, keine Datierung im Quellenband vermerkt) → neuer Artikel
+  [[kritias-atlantis-konzentrische-ringstadt-kanalsystem-bewaesserung]]: konzentrische
+  Ringstadt-Gründungsfigur (2 Erdringe, 3 Wasserringe um Kleitos Hügel), Zufahrtskanal
+  (3 Plethren breit, 100 Fuss tief, 50 Stadien lang) und unterirdisch überbrückte
+  Wall-Durchstiche für Dreiruderer, gestufte Materialverkleidung der Wallringe
+  (Bronze/Zinn/Goldkupfererz von aussen nach innen), Doppeltempel- und Palastanlage mit
+  warmer/kalter Quelle und funktionalem Wasserkreislauf, Hafenvorstadt-Ringmauer, sowie das
+  rechteckige Bewässerungs- und Erschliessungsraster der Ebene (10'000-Stadien-Umfassungsgraben,
+  100-Stadien-Kanalraster, zwei Ernten pro Jahr). Verlinkt mit den beiden anderen
+  Ringstadt-Texten
+  ([[campanella-citta-del-sole-konzentrische-ringstadt-verteidigung-lehrinstrument]],
+  [[aristophanes-die-voegel-meton-luftstadt-satire-radial-stadtplan]]), mit
+  [[platon-die-gesetze-idealstadt-zwoelfteilung-mauerdebatte-arbeitsteilung]] (der dortige
+  Vorverweis auf diesen Text ist damit eingelöst) und mit
+  [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]] (Mauerdebatte als
+  Kontrastfolie).
+- Gegen Wiki-Bestand geprüft (`grep -rli` kritias/atlantis über `wiki/*.md`): nur der bereits
+  bekannte Vorverweis im Platon-Artikel sowie INDEX/QUESTIONS-Journaleinträge, kein Duplikat.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste bleibt
+nach Kritias offen: Polybios (69), Varro (73), Livius (95), Seneca (105), Plinius d. Ä. (113),
+Plutarch/Romulus (125), Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal (145),
+Sueton (149), Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159),
+Francesco Colonna/Hypnerotomachia (247) — 16 Positionen. **Nächster Lauf:** Polybios (69, über
+Militärlager, S. 69 bereits als Kopfzeile gesichtet) als nächster im Seitenverlauf liegender
+Kandidat, sonst der Rest der Liste der Reihe nach.
