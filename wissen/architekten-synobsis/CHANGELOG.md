@@ -4,6 +4,15 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, fuenfundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+`git status --short`/`git diff --numstat` leer (Arbeitsbaum sauber), Zeilen 313
+(Sik_Miroslav) und 319 (Sutter_Annabarbara) in `wiki/QUESTIONS.md` gegengelesen — die
+beiden einzigen offenen Rueckfragen an Raphael unveraendert unbeantwortet, sonst nichts
+Neues gegenueber den 24 Vorlaeufen seit 29.08.2026. Keine Aenderung an Katalog oder
+`QUESTIONS.md`. 25. Redispatch desselben Auftragstexts an einem Tag; Empfehlung
+unveraendert: Lane pausieren oder Dispatch-Text aktualisieren.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, vierundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
 
 Vor jeder Recherche `git status --short`/`git diff --numstat` (Arbeitsbaum sauber bis auf
