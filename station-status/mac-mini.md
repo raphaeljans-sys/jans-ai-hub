@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 12:09:14
+Stand: 30.08.2026 12:19:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 11:56)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 12:09:14
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 494deee87 nas-selfcommit: 3 Datei(en) 2026-08-30 12:00
+- 82159b275 wissens-destillat: Kritias/Atlantis destilliert (45. P2-Lauf 01_Staedtebau, Lane FACHWISSEN)
