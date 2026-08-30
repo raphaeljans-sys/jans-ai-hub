@@ -2386,3 +2386,38 @@ Sueton (149), Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus
 Francesco Colonna/Hypnerotomachia (247) — 15 Positionen. **Nächster Lauf:** Varro (73, «De
 lingua latina», S. 73 bereits als Kopfzeile gesichtet, unmittelbar im Anschluss) als nächster
 im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## Siebenundvierzigster P2-Lauf, Varro/De lingua latina destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen, behauptete
+erneut «kein Destillat, keine Spec»): `git log` auf diese Datei sowie CHANGELOG/`wiki/INDEX.md`
+zeigten den 46. Lauf (Polybios) als letzten committeten Stand, working tree sauber, kein
+`MERGE_HEAD`, `scutil` bestätigt Station Macmini, keine Doppel-Instanz laut `ps`.
+
+Die vom 46. Lauf empfohlene erste Priorität (Varro, S. 73) bearbeitet, per
+`/opt/homebrew/bin/pdftoppm` gerendert (PDF-Seite = gedruckte Seite + 4, S. 73-74 vollständig
+gelesen, S. 75-Kopfzeile «Cicero» gegengeprüft als Sektionsende — Cicero war bereits zuvor
+eigenständig destilliert):
+
+- **Varro, De lingua latina, Buch V, §141/143/145** (S. 73-74, keine weitere Datierung im
+  Quellenband ausser Autorenlebensdaten 116-27 v. Chr.) → neuer Artikel
+  [[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]]: lateinische
+  Begriffsetymologie von Aedificium/Oppidum/Moenia/Aggeres/Moerus (§141), das etruskische
+  Stadtgründungsritual mit Stier-Kuh-Pflugfurche, Fossa/Murus, Orbis-zu-Urbs-Ableitung und
+  Pomerium-Auspizien-Grenze mit Steinmarken um Aricia und Rom (§143), sowie Strassentypen
+  Vicus/Fundula/Angiportum/Forum (§145). Verlinkt mit
+  [[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]] (dort nur Vogelschau
+  erwähnt, hier erstmals das Furchenritual selbst),
+  [[polybios-roemisches-militaerlager-castrum-rasterordnung]] und
+  [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]. Keine
+  Vorverweise in Bestandsartikeln gefunden (`grep -rli` varro über `wiki/*.md`).
+- Gegen Wiki-Bestand geprüft (`grep -rli` urbs/pomerium/etrusk/furche/varro): kein Treffer
+  ausser dem neuen Artikel selbst, kein Duplikat.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste bleibt
+nach Varro offen: Livius (95), Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125),
+Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias
+(151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247) — 14 Positionen. **Nächster Lauf:** Livius (95, ab urbe condita,
+Romulus-Gründungssage) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest der
+Liste der Reihe nach.

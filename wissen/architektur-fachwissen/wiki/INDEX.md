@@ -1949,3 +1949,18 @@ Vauban, Wiese/Zils römische Grundlagen und Aristoteles/Politik. Nach
 Polybios bleiben 15 Positionen offen. Nächster Lauf: Varro (73, De
 lingua latina), sonst der Rest der Liste der Reihe nach. Details in
 `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 47. P2-Lauf):** Varro, De lingua latina
+Buch V, §141/143/145 (S. 73-74: lateinische Etymologie von
+Aedificium/Oppidum/Moenia/Aggeres/Moerus, etruskisches
+Stadtgründungsritual mit Stier-Kuh-Pflugfurche und Orbis-zu-Urbs-
+Ableitung, Pomerium-Auspizien-Grenze mit Steinmarken um Aricia und Rom,
+Strassentypen Vicus/Fundula/Angiportum/Forum) destilliert →
+[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]].
+Gegen Wiki-Bestand geprüft (`grep -rli` urbs/pomerium/etrusk/furche/varro):
+kein Treffer, kein Duplikat. Verlinkt mit Cicero/Vom Staatswesen (dort nur
+Vogelschau erwähnt, hier erstmals das Furchenritual), Polybios-Castrum
+und dem Stadtgründungstypen-Artikel. Nach Varro bleiben 14 Positionen
+offen. Nächster Lauf: Livius (95, ab urbe condita, Romulus-Gründungssage),
+sonst der Rest der Liste der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.

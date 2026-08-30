@@ -3828,3 +3828,47 @@ Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypne
 (247) — 15 Positionen. **Nächster Lauf:** Varro (73, De lingua latina, S. 73 bereits als
 Kopfzeile gesichtet) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest der
 Liste der Reihe nach.
+
+## 2026-08-30 — 47. P2-Lauf Sektion `01_Staedtebau`: Varro/De lingua latina destilliert (Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trug wie üblich keinen verlässlichen
+Zahlenstand): `git log` auf diese Datei, `wiki/INDEX.md` und die Inventardatei zeigten den
+46. Lauf (Polybios, Commit `57ace19bb`) als letzten committeten Stand, working tree sauber,
+kein `MERGE_HEAD`. `scutil --get ComputerName` bestätigt Station Macmini; `ps -ax` zeigte
+keine zweite laufende `claude -p`-Instanz für diese Lane.
+
+Die vom 46. Lauf empfohlene erste Priorität (Varro, S. 73) bearbeitet. Quelle war nicht
+direkt auffindbar (kein Pfad im bisherigen Log vermerkt), per gezieltem `find` unter
+`/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/` lokalisiert:
+`06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf`. Per
+`/opt/homebrew/bin/pdftoppm` gerendert (PDF-Seite = gedruckte Seite + 4, S. 73-74
+vollständig gelesen, S. 75-Kopfzeile «Cicero» gegengeprüft als Sektionsende — Cicero war
+bereits in einem früheren Lauf eigenständig destilliert, daher zu Recht nicht mehr auf der
+aktuellen Namensliste):
+
+- **Varro, De lingua latina, Buch V, §141/143/145** («Über die lateinische Sprache»,
+  S. 73-74, keine weitere Datierung im Quellenband ausser Autorenlebensdaten 116-27 v. Chr.)
+  → neuer Artikel
+  [[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]]: lateinische
+  Begriffsetymologie Aedificium/Oppidum/Moenia/Aggeres/Moerus als Kette von *opus*
+  («Bedarf/Arbeit») über *munire* («befestigen») zu *munus* («Pflicht») — Stadtbefestigung
+  sprachlich als Bürgerpflicht verstanden (§141); das etruskische Gründungsritual: Furche
+  mit Stier-Kuh-Pflug (Kuh nach innen), Fossa/Murus-Entstehung, Orbis-zu-Urbs-Ableitung
+  (Kreis + gebogener Pflug), Pomerium als Auspizien-Grenze «hinter der Mauer» mit
+  Steinmarken um Aricia und Rom (§143); Strassentypen Vicus/Fundula/Angiportum/Forum
+  (§145). Verlinkt mit
+  [[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]] (dort bislang nur die
+  Vogelschau als Gründungsritual erwähnt, hier erstmals das Furchenritual selbst),
+  [[polybios-roemisches-militaerlager-castrum-rasterordnung]] und
+  [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]. Keine
+  Vorverweise in Bestandsartikeln gefunden (`grep -rli` varro über `wiki/*.md`).
+- Gegen Wiki-Bestand geprüft (`grep -rli` urbs/pomerium/etrusk/furche/varro über
+  `wiki/*.md`): kein Treffer ausser dem neuen Artikel, kein Duplikat.
+
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` und `wiki/INDEX.md` nachgeführt (reiner
+Append, `git diff --numstat` geprüft). Aus der Namensliste bleibt nach Varro offen: Livius
+(95), Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125), Tacitus (131-133), Plinius
+d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius
+(155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) —
+14 Positionen. **Nächster Lauf:** Livius (95, ab urbe condita, Romulus-Gründungssage) als
+nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.
