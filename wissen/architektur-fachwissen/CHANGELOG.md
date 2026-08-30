@@ -4339,3 +4339,45 @@ Namensliste bleibt nach Ausonius offen: Salvianus (159), Francesco
 Colonna/Hypnerotomachia (247) — 2 Positionen. **Nächster Lauf:** Salvianus (159) als
 nächster im Seitenverlauf liegender Kandidat, sonst Francesco Colonna/Hypnerotomachia
 (247).
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, 59. P2-Lauf (Salvianus destilliert, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen): Working
+Tree sauber, letzter Commit 21 Sekunden vor Laufbeginn (`auto-sync [Macmini]`) —
+`KORPUS-QUEUE.md`, dieses CHANGELOG und die Inventardatei übereinstimmend auf 58 Läufe, 2
+offene Namenslisten-Positionen, nächster Kandidat Salvianus S. 159.
+
+Salvianus, «Von der Regierung Gottes» / «De gubernatione Dei», Buch VI, Auszug «Eroberung
+römischer Städte von Barbaren» (verfasst ca. 440-450 n. Chr., Autorendaten im Quellenwerk
+ca. 400 – ca. 480 n. Chr.), S. 159-161, per `/opt/homebrew/bin/pdftoppm -png -f 163 -l 166
+-r 150` gerendert (PDF-Seite = gedruckte Seite + 4, bestätigt: PDF-Seite 163 = gedruckte
+Seite 159 = Beginn «Salvianus»), vollständig gelesen — drei Textseiten, S. 162 im
+Quellenwerk leer. Fallbeispiel Trier («Stadt der Treverer»): der Auszug nennt an zwei
+Stellen widersprüchliche Zerstörungszahlen für dieselbe Stadt («viermal ist schliesslich
+die reichste Stadt der Gallier erobert worden», S. 160, versus «dreimal ist in
+aufeinanderfolgenden Eroberungen die bedeutendste Stadt der Gallier ausgelöscht worden»,
+S. 160) — beide Zahlen unaufgelöst in den Artikel übernommen statt einer den Vorzug zu
+geben. Weitere genannte Städte: Mainz («Mogontiacenser», zerstört und vernichtet), Köln
+(«Agrippina», voll von Feinden), gallische und spanische Städte allgemein. Detaillierte
+Zerstörungsfolgen (Tod durch Kampf/Hunger/Kälte, unbestattete Leichen beider Geschlechter,
+Verwesungsgestank als Seuchenquelle, sekundäre Notleiden auch unbeteiligter Städte) und
+ein zynisch kommentiertes Detail (überlebende Adlige fordern Zirkusspiele als vermeintliches
+Heilmittel für die zerstörte Stadt). Zentrale Deutungsthese: Sittenverfall (Luxus,
+Trunksucht, verlorene Selbstbeherrschung selbst unter unmittelbarer Bedrohung) statt
+militärisches Versagen als eigentliche Zerstörungsursache — selbst nach der ersten
+Zerstörung kein Verhaltenswandel, erst eine vierte Katastrophe trifft die durch drei
+vorangegangene ungebesserte Stadt. Destilliert →
+[[salvianus-von-der-regierung-gottes-staedtezerstoerung-sittenverfall-trier]], `status:
+speculative` (religiös-polemische Streitschrift ohne unabhängige Prüfung der
+Zerstörungszahl, zwei widersprüchliche Zahlenangaben im selben Auszug).
+
+Gegen Wiki-Bestand geprüft (`grep -rli` trier/salvianus/treverer über `wiki/*.md`): kein
+inhaltlicher Duplikat-Fund. Verlinkt mit
+[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (beide Quellen verknüpfen
+Stadtkatastrophen mit einer moralisch-politischen statt rein bautechnischen Deutungsebene).
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (20/0). Aus der Namensliste
+bleibt nach Salvianus nur noch offen: Francesco Colonna/Hypnerotomachia (247) — 1
+Position. **Nächster Lauf:** Francesco Colonna/Hypnerotomachia (247) — danach ist die
+54-Positionen-Liste dieses Quellentextbands vollständig abgearbeitet, zur nächsten
+P2-Sektion gemäss Inventar-Prioritäten vorrücken.

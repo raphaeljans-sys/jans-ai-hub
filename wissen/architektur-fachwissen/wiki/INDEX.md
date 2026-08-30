@@ -2132,3 +2132,16 @@ panegyrische Dichtung, Ortszuordnung des Tempels unklar), verlinkt mit
 Nachtrag rückverlinkt). Nach Ausonius bleiben 2 Positionen offen: Salvianus (159),
 Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Salvianus (159).
 Details CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN, 59. P2-Lauf):** Salvianus, «Von der Regierung Gottes», Buch
+VI (Fallbeispiel Trier, im selben Auszug widersprüchlich «viermal»/«dreimal» zerstört
+genannt, weitere Städte Mainz/Köln, Zerstörungsfolgen Seuche/unbestattete Leichen,
+Zirkusspiele als kritisiertes Heilmittel, Deutungsmuster Sittenverfall statt militärisches
+Versagen), S. 159-161 vollständig gelesen (S. 162 leer), destilliert →
+[[salvianus-von-der-regierung-gottes-staedtezerstoerung-sittenverfall-trier]]
+(`status: speculative`, religiöse Streitschrift, widersprüchliche Zerstörungszahl),
+verlinkt mit [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]. Nach
+Salvianus bleibt 1 Position offen: Francesco Colonna/Hypnerotomachia (247). Nächster Lauf:
+Francesco Colonna/Hypnerotomachia (247) — danach ist die 54-Positionen-Liste dieses
+Quellentextbands vollständig abgearbeitet.
+Details CHANGELOG 30.08.2026.

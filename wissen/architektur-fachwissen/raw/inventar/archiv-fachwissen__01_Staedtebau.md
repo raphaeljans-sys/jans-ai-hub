@@ -2796,3 +2796,23 @@ Inventardatei zeigt reinen Append. Aus der Namensliste bleibt nach Ausonius offe
 Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 2 Positionen. **Nächster
 Lauf:** Salvianus (159) als nächster im Seitenverlauf liegender Kandidat, sonst Francesco
 Colonna/Hypnerotomachia (247).
+
+**30.08.2026, 59. P2-Lauf (Lane FACHWISSEN):** Salvianus (159, **jetzt destilliert**), «Von
+der Regierung Gottes» («De gubernatione Dei»), Buch VI, Auszug «Eroberung römischer Städte
+von Barbaren», S. 159-161, per `pdftoppm -f 163 -l 166 -r 150` gerendert (PDF-Seite =
+gedruckte Seite + 4, bestätigt: PDF-Seite 163 = gedruckte Seite 159 = Beginn «Salvianus»),
+vollständig gelesen, S. 162 im Quellenwerk leer. Fallbeispiel Trier: Text nennt im selben
+Auszug widersprüchlich «viermal» und «dreimal» zerstört — beide Zahlen unaufgelöst
+übernommen statt eine zu bevorzugen. Weitere genannte Städte: Mainz, Köln, gallische und
+spanische Städte allgemein. Zerstörungsfolgen (unbestattete Leichen, Seuche, Zirkusspiele
+als zynisch kritisiertes «Heilmittel») und Salvianus' Deutungsmuster (Sittenverfall statt
+militärisches Versagen als Ursache) belegt destilliert →
+[[salvianus-von-der-regierung-gottes-staedtezerstoerung-sittenverfall-trier]]
+(`status: speculative`, religiöse Streitschrift, widersprüchliche Zerstörungszahl),
+verlinkt mit [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]. Gegen
+Wiki-Bestand geprüft (`grep -rli` trier/salvianus/treverer über `wiki/*.md`): kein
+inhaltlicher Duplikat-Fund. `git diff --numstat` auf diese Inventardatei zeigt reinen
+Append. Aus der Namensliste bleibt nach Salvianus nur noch offen: Francesco
+Colonna/Hypnerotomachia (247) — 1 Position. **Nächster Lauf:** Francesco
+Colonna/Hypnerotomachia (247), danach ist die 54-Positionen-Liste dieses Quellentextbands
+vollständig abgearbeitet — zur nächsten P2-Sektion gemäss Inventar-Prioritäten vorrücken.
