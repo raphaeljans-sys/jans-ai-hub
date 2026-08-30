@@ -35,6 +35,27 @@ Argument (klimatisch, topografisch, bautechnisch, ökonomisch …) eine städteb
 Setzung in einem Erläuterungsbericht begründet werden kann, statt nur gestalterisch behauptet
 zu werden.
 
+**Ergänzung (Jans-Reader S. 8-9, dieselbe Vorlesungsreihe, eigenständige Mitschrift der
+ersten Sitzung):** dieselbe Determinanten-Logik erscheint dort unter der Überschrift
+«Formale Beziehungen» mit vier Kernfaktoren Topographie/Baurecht/Geologie/Material und
+zusätzlichen, im Glossar nicht enthaltenen Beispielen: **Venedig** für Topographie (Insel,
+Aufschüttung, Pfähle, topografische Verdichtung als Dauerproblem); **Siena und Bath** für
+Materialverfügbarkeit (Siena nur Ziegel mangels Steinbrüchen, entsprechend schmale Häuser;
+Bath vollständig aus lokalem Sandstein); die New-York-Weltausstellung 1853 (Aufzug) als
+technischer Determinante; **Vitruvs Hygiene-Postulat** («Wind muss durch die Stadt
+ziehen») mit dem Hinweis, dass die Zuordnung zu einem «Theorie Yassmann» in der
+Live-Mitschrift unklar bleibt (nicht identifiziert, nicht verifizierbar) und dass erst die
+20.-Jh.-Bakteriologie (Licht/Luft/Sonne gegen Krankheitsherde in schmalen Gassen) die
+klassische Moderne begründet; **London** als Beispiel für Baurecht als «weichen, aber
+härtesten Faktor» (Grundstücke in wenigen Händen konzentriert, punktuelle statt
+gesamtplanerische Erweiterung, im Gegensatz zur kleinteiligeren Zellenstruktur Zürich/
+Berlin); und als «weiche Determinante» **Ildefons Cerdàs Ensanche-Plan für Barcelona**,
+laut Quelle von der (unbelegten) Überzeugung geprägt, gesellschaftliche Ungleichheit
+entstehe aus dem Kapitalismus, weshalb sein Raster Zentrum und Peripherie bewusst
+gleichstellt — Gegenbeispiel dazu die Achsen von Versailles, die exakt die gegenteilige,
+hierarchische Vorstellung baulich umsetzen. Diese Beispiele ergänzen, ersetzen aber nicht
+die Kategorienliste des Glossars.
+
 ## Bausteine der Stadtstruktur: interne vs. externe Wirkung
 
 Zentrale Unterscheidung des Glossars: Die **interne Wirkung des Bauvolumens**

@@ -2,7 +2,7 @@
 title: "Monumentale Stadtachsen: Haussmanns Paris und die City-Beautiful-Planung Washington D.C."
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1852_1872_Stadtumbau_Paris_Haussmann/02_19_JH_Paris/Textbearbeitung/Zusammenfassung.doc (eigene Zusammenfassung, Vorlesungsreihe Geschichte des Städtebaus, Modul Stadtumbau Paris/Haussmann)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/01_Einleitung/110320_Einleitung_Gruene_Stadtmitte.docx (eigenes Übungs-/Testdokument «12. Modul Geschichte des Städtebaus im Netz», Modul Die grüne Stadtmitte)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/02_Uebung/2/VL Architektur der USA.doc (Vorlesungsskript Prof. Lippert, TU Dresden, Sommer 2007, Vorlesung 5 «Die aufblühende Nation: City Beautiful und École des Beaux-Arts»)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1852_1872_Stadtumbau_Paris_Haussmann/02_19_JH_Paris/Textbearbeitung/Zusammenfassung.doc (eigene Zusammenfassung, Vorlesungsreihe Geschichte des Städtebaus, Modul Stadtumbau Paris/Haussmann)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/01_Einleitung/110320_Einleitung_Gruene_Stadtmitte.docx (eigenes Übungs-/Testdokument «12. Modul Geschichte des Städtebaus im Netz», Modul Die grüne Stadtmitte)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/01_Geschichte/1922_1930_Die gruene Stadtmitte/02_Uebung/2/VL Architektur der USA.doc (Vorlesungsskript Prof. Lippert, TU Dresden, Sommer 2007, Vorlesung 5 «Die aufblühende Nation: City Beautiful und École des Beaux-Arts»)", "/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/01_Jans_Reader/PDF/00_Alles/110806_Alles.pdf S. 42-43 (eigener Reader «Geschichte des Städtebaus», Modul 9 Haussmann)", "raw/inventar/archiv-fachwissen__01_Staedtebau.md"]
 links: ["[[wettbewerb-gross-berlin-1908-hochhausstadt-debatte-wohnblock-reform]]", "[[us-rastersystem-jefferson-land-ordinance-commissioners-plan]]"]
 ---
 
@@ -46,6 +46,39 @@ Kontrolle zu geraten.
 (Napoleon I.) — 1815–1830/48 Julimonarchie — 1848 Februarrevolution/Juniaufstand
 (Arbeiterrevolte) — 1851 Staatsstreich Napoleons III. — 1853–1869 Umgestaltung von Paris
 durch Napoleon III. und Präfekt Haussmann.
+
+## Die drei Bauphasen (réseaux) Haussmanns
+
+Ergänzung aus einer weiteren eigenen Quelle (Jans-Reader zur Vorlesungsreihe, S. 42–43):
+Haussmann wird 1853 préfet de la Seine (löst Jean-Jacques Berger ab) und gliedert die
+grandes travaux laut Quelle in drei chronologisch aufeinanderfolgende Netzausbauten
+(réseaux). Fachressorts: Planungsamt Jean-Pierre Barillet-Deschamps, Gartenanlagen
+Jean-Charles-Adolphe Alphand, Wasserversorgung/Kanalisation Marie-François-Eugène
+Belgrand.
+
+- **Premier réseau, Zentrum (1853–1858):** Erweiterung des Louvre, Errichtung der Halles
+  Centrales, Weiterführung der Rue de Rivoli und Verlängerung des Boulevard de Strasbourg
+  durch den Boulevard du Centre als Teil der Nord-Süd-Achse, Gestaltung der Avenue de
+  l'Impératrice, Umbau des Bois de Boulogne zur grosszügigen Grünanlage nach englischem
+  Vorbild.
+- **Second réseau, Zentrum und Peripherie (1858–1869):** Umgestaltung der Île de la Cité,
+  Verlängerung der Nord-Süd-Achse durch Boulevards, Schliessung des mittleren
+  Boulevardrings, Neugestaltung der Place de l'Étoile, weitere Durchbrüche und Boulevards
+  im Nordosten und Westen (u. a. Boulevard Malesherbes).
+- **Troisième réseau (1860–1869):** Regulierung mehrerer Plätze (u. a. Place de la
+  République), Entstehung der Avenue de l'Opéra, Boulevard Sébastopol (Parzellierung und
+  Durchbruch), Parc des Buttes-Chaumont, Ausbau von Wasserversorgung/Aquädukten und
+  Kanalisation, Eingemeindung der Vororte.
+
+Die Typenhäuser der vorausgehenden napoleonischen Rue-de-Rivoli-Bebauung (Architekten
+Charles Percier und Pierre-François-Léonard Fontaine) hatten laut Quelle Arkaden im
+Erdgeschoss, einheitliche Strassenfassaden mit zurückhaltendem Schmuck und höchstens vier
+Geschosse — Vorbildtypologie, die Haussmanns spätere, grossflächigere Bebauung fortführt.
+Kritischer Befund derselben Quelle: die grandes travaux liefern Paris leistungsfähige
+Strassen und funktionierende Infrastruktur, doch die überbesiedelten Wohnquartiere selbst
+bleiben vernachlässigt — bei den grandes travaux liegen politische Repression, sozialer
+Modernisierungsdrang und Immobilienspekulation nebeneinander, nicht nur Hygiene und
+Ästhetik.
 
 ## City Beautiful und der Washingtoner Capitol-Plan
 
