@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 12:29:48
+Stand: 30.08.2026 12:40:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 12:05)
+- /Users/raphaeljans  (letzte Aktivitaet 12:40)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 12:29:48
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e73f2fe70 nas-selfcommit: 2 Datei(en) 2026-08-30 12:30
+- d8ef61c2a Wissens-Destillat archiv-fachwissen 01_Staedtebau: Varro De lingua latina destilliert (47. P2-Lauf)

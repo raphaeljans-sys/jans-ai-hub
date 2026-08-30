@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 12:27:01
+Stand: 30.08.2026 12:37:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 12:27:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- edeae524a Fachwissen: CHANGELOG-Eintrag 45. P2-Lauf (Kritias/Atlantis) nachtragen
+- d8ef61c2a Wissens-Destillat archiv-fachwissen 01_Staedtebau: Varro De lingua latina destilliert (47. P2-Lauf)
