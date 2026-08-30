@@ -4971,3 +4971,60 @@ zeigte `37 0` (reiner Append). **Nächster Lauf:** Kapitel
 `05 HEIMATSTIL GARTENSTADTBEWEGUNG` lesen — Duplikatsrisiko vermerkt, da diese KB bereits
 [[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] führt, davor
 Duplikatscheck.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte`, siebter P2-Lauf: Sauter-Kapitel 05 Heimatstil/Gartenstadtbewegung (Lane FACHWISSEN, 74. Lauf)
+
+Dieser Lauf-Eintrag fehlte im CHANGELOG (nur in `KORPUS-QUEUE.md` und der Inventardatei
+dokumentiert) und wird hier vom 75. Lauf nachgetragen, damit die drei Buchführungsorte
+konsistent bleiben.
+
+**Duplikatscheck zuerst ausgeführt** gegen
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] (vom 73. Lauf als
+Kollisionsrisiko vermerkt): kein Artikel-Duplikat — jener Artikel ist eine rohe
+Vorlesungsmitschrift zur ideengeschichtlichen Genealogie Pugin→Ruskin→Morris→Howard, dieses
+Kapitel liefert einen sauberen Vier-Bauten-Kanon mit Architekt/Jahr/Kernmerkmal aus einer
+geordneten Sekundärquelle. Einzige Überschneidung Hellerau, dort per Rückverlinkung ergänzt.
+
+**Hauptarbeit:** Kapitel `05 HEIMATSTIL GARTENSTADTBEWEGUNG.pdf` (5 S.) vollständig gelesen
+und destilliert zu
+[[sauter-heimatstil-reformarchitektur-gartenstadtbewegung-vier-bauten-kanon]]: Vier-Bauten-
+Kanon 1904-1917 (Villa Heimeli Luzern/Sepp Kaiser, Schoorenkolonie St. Gallen/Paul Robert
+Gerber, Gartenstadt Hellerau Dresden/Richard Riemerschmid, Gartenstadt Staaken Berlin/Paul
+Schmidthenner) mit zwei Kurzbiografien und gesellschaftspolitischem Rahmen (Schweizer
+Landesausstellungen 1896/1914, Heimatschutzbewegung 1905). Kein neuer Glossarbegriff.
+
+**7 der 13 Sauter-Dateien bleiben offen** (Kapitel 06-11, Jugendstil bis
+Moderne-Postmoderne). Sperrlisten-Prüfung: kein Fund. **Nächster Lauf:** Kapitel
+`06 JUGENDSTIL` lesen, davor Duplikatscheck.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte`, achter P2-Lauf: Sauter-Kapitel 06 Jugendstil/Secession (Lane FACHWISSEN, 75. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`,
+Inventardatei) — der überarbeitete Dispatch-Text nennt bewusst keine Zahlen mehr. Dabei die
+fehlende 74.-Lauf-Buchführung in diesem CHANGELOG bemerkt und oben nachgetragen.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -in jugendstil` gegen `wiki/*.md` ergab drei
+Treffer, die «Jugendstil» nur beiläufig als Epochenmarke nennen
+([[loos-ornament-und-verbrechen-argumentationsgang-kleidungs-analogie]],
+[[sullivan-ornament-emotionale-ausdruckstheorie-1892-herzog-de-meuron-rueckkehr]],
+`monumentale-stadtachsen-...`). Kein Artikel-Duplikat — dieser Lauf legt erstmals einen
+eigenständigen Bauten-Kanon der Bewegung an, keine Rückverlinkung nötig (reine
+Begriffserwähnung ohne inhaltliche Überschneidung).
+
+**Hauptarbeit:** Kapitel `06 JUGENDSTIL.pdf` (8 S.) vollständig gelesen (pypdf) und
+destilliert zu
+[[sauter-jugendstil-arts-and-crafts-secession-sieben-bauten-kanon]]: Sieben-Bauten-Kanon
+1897-1914 (Glasgow School of Art/Mackintosh, Palais Stoclet Brüssel/Hoffmann, Künstlerkolonie
+Mathildenhöhe Darmstadt/Olbrich, Secessionsgebäude Wien/Olbrich, Linke Wienzeile Wien/Wagner,
+Postsparkasse Wien/Wagner, Werkbundausstellung/Theater Köln/van der Velde) mit fünf
+Kurzbiografien, gesellschaftspolitischem Rahmen (Arts-and-Crafts-Herkunft, Namensgebung
+DE/AT, Gründungsdaten 1896-1914) und Vertreterliste nach Land laut Quelle. Kein neuer
+Glossarbegriff.
+
+**6 der 13 Sauter-Dateien bleiben offen** (Kapitel 07-11, Expressionismus/Kubismus bis
+Moderne-Postmoderne). Kollisionsrisiko für kommende Kapitel vermerkt: Le Corbusier/Mies/
+Bauhaus/Loos (Kapitel 08/09/11) treffen auf bereits bestehende Fachartikel dieser KB, dort
+zuerst Duplikatscheck. Sperrlisten-Prüfung: kein Fund, ausschliesslich historische,
+öffentlich bekannte Architekten/Bauwerke. `git diff --numstat` auf die Inventardatei zeigte
+einen reinen Append. **Nächster Lauf:** Kapitel `07 EXPRESSIONISMUS KUBISMUS` lesen, davor
+Duplikatscheck.

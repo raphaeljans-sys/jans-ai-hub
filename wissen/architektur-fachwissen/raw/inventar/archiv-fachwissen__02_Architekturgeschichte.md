@@ -500,3 +500,41 @@ Architekten, Bauherren und Bauwerke.
 
 `git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
 **Nächster Lauf:** Kapitel `06 JUGENDSTIL` lesen, davor Duplikatscheck gegen Wiki-Bestand.
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `06 JUGENDSTIL` (75. Lauf, Lane FACHWISSEN)
+
+**Stand selbst ermittelt** (Vorgabe des überarbeiteten Dispatch-Texts, der bewusst keine
+Zahlen mehr nennt): `KORPUS-QUEUE.md`, `wiki/INDEX.md` und diese Inventardatei gegengeprüft,
+kein unkommittierter Vorlauf-Rest vorgefunden.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -in jugendstil` gegen `wiki/*.md` ergab drei
+Treffer ([[loos-ornament-und-verbrechen-argumentationsgang-kleidungs-analogie]],
+[[sullivan-ornament-emotionale-ausdruckstheorie-1892-herzog-de-meuron-rueckkehr]],
+`monumentale-stadtachsen-...`), alle nennen «Jugendstil» nur beiläufig als Epochenmarke im
+Fliesstext. Kein Artikel-Duplikat — dieser Lauf legt erstmals einen eigenständigen
+Bauten-Kanon der Bewegung selbst an, keine Rückverlinkung nötig (keine inhaltliche
+Überschneidung, nur Begriffserwähnung).
+
+**Hauptarbeit:** Kapitel `06 JUGENDSTIL.pdf` (8 S.) vollständig gelesen (pypdf, kein
+`pdftotext` auf dieser Station) und destilliert zu
+[[sauter-jugendstil-arts-and-crafts-secession-sieben-bauten-kanon]]: Sieben-Bauten-Kanon
+1897-1914 (Glasgow School of Art/Mackintosh, Palais Stoclet Brüssel/Hoffmann, Künstlerkolonie
+Mathildenhöhe Darmstadt/Olbrich, Secessionsgebäude Wien/Olbrich, Linke Wienzeile Wien/Wagner,
+Postsparkasse Wien/Wagner, Werkbundausstellung/Theater Köln/van der Velde), fünf
+Kurzbiografien (Mackintosh, Hoffmann, Olbrich, Wagner, van der Velde), gesellschaftspolitischer
+Rahmen (Arts-and-Crafts-Herkunft, Namensgebung DE/AT, Gründungsdaten Wiener Secession 1896 bis
+Kölner Werkbundausstellung 1914) und Vertreterliste nach Land laut Quelle. Kein neuer
+Glossarbegriff (Quelle führt keine Fachbegriffe ausserhalb des bestehenden Sauter-/
+Fachglossars).
+
+**6 der 13 Sauter-Dateien bleiben offen:** Kapitel `07`-`11` (Expressionismus/Kubismus bis
+Moderne-Postmoderne). Duplikatscheck bei den kommenden Kapiteln weiterhin nötig, sobald sie
+mit bestehenden Fachartikeln kollidieren (Le Corbusier/Mies/Bauhaus/Loos, Kapitel 08/09/11 —
+hohe Duplikatswahrscheinlichkeit dort erwartet).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `07 EXPRESSIONISMUS KUBISMUS` lesen, davor Duplikatscheck gegen
+Wiki-Bestand.
