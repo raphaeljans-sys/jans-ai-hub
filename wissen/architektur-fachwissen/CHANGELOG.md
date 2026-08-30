@@ -1,5 +1,28 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, achter P2-Lauf, VL8 Loos (Lane FACHWISSEN)
+
+Dispatch-Auftrag wieder veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel» behauptet;
+real 30+ Läufe, beide Specs, 160+ Wiki-Artikel, P1 in beiden Korpora vollständig). Vor
+Arbeitsbeginn geprüft: `scutil --get LocalHostName` → Macmini (Dispatch-Text nennt
+fälschlich «MacBook Pro»), `ps aux` zeigte keine zweite FACHWISSEN-Instanz, `git status`/
+`git diff --numstat` sauber (keine unkommittierte Vorarbeit zu sichern) — 21. Beispiel des
+dokumentierten Dispatch-Bugs, Memory `project_fachwissen-dispatch-loop`. Am realen Stand von
+`KORPUS-QUEUE.md` weitergearbeitet: `111118_VL8_Loos_Adolf/` (Sektion `02_Architekturtheorie`,
+Korpus `archiv-fachwissen`) bearbeitet, beide Vorlesungsmitschriften gelesen (rohe
+Live-Mitschrift Moravánszky + eigene, mit Literaturangaben versehene Prüfungszusammenfassung).
+Cross-Check gegen die beiden bereits bestehenden Loos-Artikel dieser KB ergab: Raumplan-
+Grundbegriff und die Ornament/Semper/Riegl-Konstellation waren bereits abgedeckt, Loos'
+vollständiger Argumentationsgang in «Ornament und Verbrechen» (inkl. Primärzitaten und
+Kleidungs-Analogie) sowie ein Werk-/Biografie-Überblick (Michaelerplatz, Chicago-Tribune-
+Wettbewerb, Café Museum, American Bar, Baugeschichte Haus Müller) fehlten. Zwei neue Artikel:
+`wiki/loos-ornament-und-verbrechen-argumentationsgang-kleidungs-analogie.md` (`emerging`) und
+`wiki/loos-werkregister-michaelerplatz-chicago-tribune-cafe-museum-american-bar-haus-mueller-baugeschichte.md`
+(`speculative`, primär aus der fehlerhaften Mitschrift, mehrere Eigennamen unklar
+transkribiert). `111118_VL8_Loos_Adolf` damit vollständig bearbeitet. Offen: 16 der 23
+Vorlesungsordner (rund 180 der 190 Dateien). Nächster Lauf: `111125_VL9_Wright_Frank_Lloyd`.
+Details Inventardatei `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, siebter P2-Lauf (Lane FACHWISSEN)
 
 Dispatch-Auftrag erneut veraltet (behauptete «kein Destillat, keine Spec, 2 Wiki-Artikel»,

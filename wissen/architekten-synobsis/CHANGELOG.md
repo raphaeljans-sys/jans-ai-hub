@@ -4,6 +4,42 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, achter Folgelauf desselben Tages) — Minimalcheck bestaetigt Vorlauf, ein Nebenbefund geklaert (Jager_Egli_Architekten/dolmus)
+
+Minimalcheck vor Redispatch (Memory-Hinweis: chronischer Dispatch-Loop seit 29.08.2026, alle
+vier Auftragspositionen seit dem ersten Lauf erledigt). `wiki/QUESTIONS.md` gegen die vier
+Prioritaeten des Auftrags geprueft: **Fehlextraktionen** (Tadao_Ando, Spuehler_Martin, Wurster_
+William, Pfister_Gebrueder, Pouillon_Fernand, Romero_Schaefle, Rohn_Roland) — alle BEHOBEN bzw.
+gepruft und korrekt befunden (Rohn_Roland). **Katalog-Kollisionen** (Christ_Gantenbein,
+Enzmann_Fischer, Miller_Maranta, Gigon_Guyer) — alle vier auf Datenebene BEHOBEN, plus Scanner-
+Fix (`build_slug_index()`/`merge_records()`) gegen kuenftige Kollisionen. **Sonderzeichen-Regel**
+(Šuchov, Tusquet, 14 Faelle) — vereinheitlicht auf NFC-Vorbild Utzon_Jørn, plus Scanner-Fix
+(NFD/NFC-Normalisierung vor `slugify()`). **Sammelfrage Charge 2 ff.** — entgegen dem urspruenglichen
+Auftragstext ("Charge 2 und folgende sind offen") tatsaechlich laengst erledigt: alle sechs
+Chargen (1-6, rund 156 Namen) einzeln per WebSearch recherchiert, die letzten unbestaetigten
+Reste zusaetzlich per Ordnerinhalt-Sichtung nachverfolgt (30.08. Nachtrag). Alle vier Prioritaeten
+damit weiterhin vollstaendig erledigt, keine neue Vollrecherche noetig.
+
+Ein bislang uebersehener Nebenbefund aus Zeile 339 (`Jager_Egli_Architekten`, Fehlextraktions-
+Eintrag vom 29.08.) wurde nachrecherchiert: das Plakat im Ordner nennt «dolmus» als Planverfasser
+statt Jager Egli. Per WebSearch geklaert — kein Fehlzuordnungsfall, sondern eine Arbeitsgemeinschaft:
+das Projekt Seebistro LUZ (ehemaliges Depot der Schifffahrtsgesellschaft, Baujahr 1907, ab 2006
+nach Hochwasserschaden neu ausgeschrieben) wurde von der ARGE **dolmus Architekten** (Luzern,
+gegruendet 2007) und **Jäger-Egli Architekten** (Emmenbruecke, seit 1957) gemeinsam realisiert;
+der Ordner ist korrekt bei Jager_Egli_Architekten einsortiert. Ergaenzung direkt an der
+bestehenden Zeile 339 in `wiki/QUESTIONS.md`. `git diff --numstat`: 1 Zeile geaendert / 1 Zeile
+(additive Ergaenzung derselben Bulletzeile), keine Loeschung von Bestand. Kein Fan-out, kein
+Versand, keine Buchung, keine destruktive Aktion. Gesichert via `nas-commit-now.sh`.
+
+Fuer den naechsten Lauf: aus heutiger Sicht sind alle vier Auftragspositionen erschoepfend
+bearbeitet; verbleibende offene Punkte in `QUESTIONS.md` sind entweder Freigabesache (NAS-
+Ordner umbenennen/zusammenfuehren: Christ_Gantenbein, Enzmann_Fischer, Miller_Maranta,
+Gigon_Guyer, Rohn_Roland «Neuer Ordner»), eine Kapazitaetsfrage (`--reindex`-Lauf, damit die
+Scanner-Fixes auf alle 853 Architekten wirken) oder ohne weiteres Quellmaterial nicht mehr
+klaerbar (Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure, Zanini — Ordnerinhalt bereits
+gesichtet, Websuche ausgeschoepft). Ein reiner Wiederholungs-Dispatch ohne neuen Auftrag von
+Raphael bringt ab hier keinen weiteren Fortschritt mehr.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, siebter Folgelauf desselben Tages) — Minimalcheck bestaetigt: nichts Neues, keine Recherche ausgefuehrt
 
 Minimalcheck (Arbeitsbaum sauber, `git diff --numstat` leer, kein inhaltlicher Commit seit

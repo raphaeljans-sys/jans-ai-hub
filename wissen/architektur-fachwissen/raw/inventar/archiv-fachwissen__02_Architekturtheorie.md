@@ -290,3 +290,26 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   (keine offenen Dateien mehr in diesem Vorlesungsordner ausser Folien/Audio). Offen: 17 der
   23 Vorlesungsordner (rund 183 der 190 Dateien). Nächster Lauf: `111118_VL8` bzw. nächste
   noch nicht gesichtete Vorlesung nach Ordnernummer.
+
+- 2026-08-30 (Lane FACHWISSEN, achter P2-Lauf, Fortsetzung — Dispatch erneut veraltet
+  [kein Destillat/keine Spec/2 Artikel behauptet, real 30+ Läufe/150+ Artikel], Station
+  im Dispatch fälschlich «MacBook Pro» genannt, tatsächlicher Hostname laut `scutil`
+  Macmini, `ps aux` zeigte keine Doppel-Instanz — 21. Beispiel Memory
+  `project_fachwissen-dispatch-loop`): `111118_VL8_Loos_Adolf/` bearbeitet. Beide
+  Mitschriften gelesen (`111118 Architekturtheorie mit Moravansky.docx`, rohe Live-
+  Mitschrift mit zahlreichen Verschreibungen; `120123_Loos.docx`, eigene, mit
+  Literaturangaben versehene Prüfungszusammenfassung). Cross-Check gegen bestehende
+  Loos-Artikel ([[raumplan-adolf-loos-oekonomische-begruendung]],
+  [[ornament-decorum-angemessenheit-loos-semper-riegl]]) ergab: Raumplan-Grundbegriff und
+  Ornament/Semper/Riegl-Dreierkonstellation bereits abgedeckt, aber Loos' vollständiger
+  Argumentationsgang in «Ornament und Verbrechen» inkl. Primärzitaten, die
+  Kleidungs-Analogie sowie ein Werk-/Biografie-Überblick (Michaelerplatz, Chicago-Tribune-
+  Wettbewerb, Café Museum, American Bar, Baugeschichte Haus Müller) fehlten. Zwei Artikel
+  destilliert: `wiki/loos-ornament-und-verbrechen-argumentationsgang-kleidungs-analogie.md`
+  (`status: emerging`, Quelle 120123 klar strukturiert mit Literaturangaben) und
+  `wiki/loos-werkregister-michaelerplatz-chicago-tribune-cafe-museum-american-bar-haus-mueller-baugeschichte.md`
+  (`status: speculative`, primär aus der fehlerhaften Moravánszky-Mitschrift, mehrere
+  Eigennamen/Ortsangaben unklar transkribiert — vor Aussenwirkung gegenprüfen).
+  `01_Sylabus` und `03_Folie` bewusst nicht ausgewertet (Konvention wie VL2-VL7). Damit ist
+  `111118_VL8_Loos_Adolf` vollständig bearbeitet. Offen: 16 der 23 Vorlesungsordner (rund
+  180 der 190 Dateien). Nächster Lauf: `111125_VL9_Wright_Frank_Lloyd`.
