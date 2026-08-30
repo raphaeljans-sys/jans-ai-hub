@@ -1,10 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 05:56:59
+Stand: 30.08.2026 06:07:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:35)
-- /Users/raphaeljans  (letzte Aktivitaet 05:27)
+- /Users/raphaeljans  (letzte Aktivitaet 06:03)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +12,4 @@ Stand: 30.08.2026 05:56:59
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3d62eb851 Destillat Sitte/Stuebben/Curdes, Sektion 01_Staedtebau Position 3
+- d70832d68 auto-sync: architekten-synobsis CHANGELOG (Minimalcheck-Folgelauf)
