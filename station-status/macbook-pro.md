@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 03:01:19
+Stand: 30.08.2026 03:11:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 03:01:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 522b0d35b wissen/architektur-fachwissen: VL120224 Lefebvre destilliert (P2, Sektion 02_Architekturtheorie)
+- 717bcf09e FACHWISSEN: Bachelard-Artikel + Queue/Changelog/Index (Vorlauf sichern)

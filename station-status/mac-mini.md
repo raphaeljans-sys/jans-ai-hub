@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 02:59:31
+Stand: 30.08.2026 03:09:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 02:41)
@@ -13,4 +13,4 @@ Stand: 30.08.2026 02:59:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 522b0d35b wissen/architektur-fachwissen: VL120224 Lefebvre destilliert (P2, Sektion 02_Architekturtheorie)
+- 717bcf09e FACHWISSEN: Bachelard-Artikel + Queue/Changelog/Index (Vorlauf sichern)
