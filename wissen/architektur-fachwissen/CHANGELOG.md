@@ -1,5 +1,55 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, einunddreissigster P2-Lauf (Lex Iulia Municipalis, Regensburg und Vita Meinwerci destilliert, Lane FACHWISSEN)
+
+Dispatch-Text trug diesmal bewusst keine Zahlen/Fortschrittsangaben mehr
+(Korrektur nach dem im 30. Lauf dokumentierten Fehlprompt-Befund) — Stand
+selbst aus `KORPUS-QUEUE.md`, dieser CHANGELOG-Datei, `wiki/INDEX.md` und
+der Inventardatei ermittelt. Working tree trug bei Laufbeginn die
+vollständige, unkommittierte Vorarbeit des 30. Laufs (Bern/Siena, neues
+Inhaltsverzeichnis); `nas-commit-now.sh` lief in den bekannten
+Merge-Konflikt in sechs fremden Lane-CHANGELOGs, working tree danach
+lokal sauber, Sicherung dem 15-Min-Cron überlassen (Muster der letzten
+zehn Läufe, unverändert).
+
+Aus der im 30. Lauf gefundenen 54-Positionen-Liste des
+`Quellentextband-1.pdf` die dort genannten Kandidaten gewählt, per vollem
+Pfad `/opt/homebrew/bin/pdftoppm` gerendert und vollständig gelesen
+(PDF-Seite = gedruckte Seite + 4, erneut bestätigt):
+
+- **Lex Iulia Municipalis** (45 v. Chr., S. 101-104) → neuer Artikel
+  [[lex-iulia-municipalis-strassenunterhalt-edilenrecht-kostenumlage]]
+  (Strassenunterhaltspflicht der Anlieger nach Ädilen-Weisung mit
+  Kostenumlage-/Ersatzvornahme-Mechanik bei Säumnis, zeitlich
+  differenzierte Wagenverkehrslenkung, Aufsicht über öffentliche
+  Plätze/Portiken) — die detaillierteste in dieser Sektion belegte antike
+  Vollstreckungsmechanik für Strassenunterhalt, strukturell näher an
+  einem heutigen Erschliessungsbeitrags-/Ersatzvornahme-Verfahren als die
+  knapperen Digesta-Auszüge. Rückverlinkt im bestehenden
+  [[digesta-43-oeffentliches-wegerecht-baurecht-interdikte-roemisch]].
+- **Regensburg-Quellen 8.-12. Jh.** (S. 191-192, fünf Annalen-/
+  Chronikauszüge) und **Vita Meinwerci** (ca. 1160, S. 193, Paderborn) →
+  gemeinsamer neuer Artikel
+  [[regensburg-vita-meinwerci-mittelalterliche-stadterweiterung-chronikquellen]]
+  (Kaiserpfalz-Standortwahl nach Reliquienbindung unter Herzog/Kaiser
+  Arnulf, Stadterweiterung durch Einschluss des Emmeramklosters im
+  Verteilbauverfahren unter dem Adel, geplante aber unvollendete
+  Kirchenkreuz-Anlage Paderborns unter Bischof Meinwerk), `status:
+  speculative` (reine Chronik-Rohübersetzung ohne Sekundärliteratur-
+  Abgleich).
+- Vita Nicolai V (S. 201) weiterhin nicht destilliert, bleibt offene
+  Position für einen Folgelauf.
+
+Gegen Wiki-Bestand geprüft (`grep -ril` über `wiki/*.md`): keine
+inhaltlichen Duplikate. Von den 54 benannten Positionen der Anthologie
+sind jetzt 24 destilliert oder begründet ohne Artikel abgeschlossen, 30
+bleiben vollständig offen (`wiki/INDEX.md` und Inventardatei
+aktualisiert). `git diff --numstat` auf die Inventardatei zeigt reinen
+Append. **Nächster Lauf:** Koran-Auszüge (S. 169, bisher nie geprüft) und
+Vita Nicolai V (S. 201, bereits angelesen) zuerst, sonst Hippokrates
+(S. 35, Standortkriterien, Parallele zu Vitruv) als kurzer antiker
+Kandidat.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, dreissigster P2-Lauf (vollständiges Inhaltsverzeichnis des Quellentextbands gefunden, Bern und Siena destilliert, Lane FACHWISSEN)
 
 Bei Laufbeginn eine unkommittierte, inhaltlich vollständige Vorarbeit des

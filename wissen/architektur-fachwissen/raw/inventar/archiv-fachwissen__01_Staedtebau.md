@@ -1662,3 +1662,55 @@ Quellen (191) und Vita Meinwerci (193, beide mittelalterliche Bau-/
 Stadtrechtsquellen, thematisch an Bern/Siena anschliessend), sonst Vita
 Nicolai V (201) fertigstellen oder Hippokrates (35, Standortkriterien,
 Parallele zu Vitruv) als kurzer antiker Kandidat.
+
+## Einunddreissigster P2-Lauf, Lex Iulia Municipalis, Regensburg und Vita
+Meinwerci destilliert (30.08.2026, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn working tree geprüft: die unkommittierte Vorlaufarbeit
+des 30. Laufs (Bern/Siena, neues Inhaltsverzeichnis) lag vollständig im
+Repo, `nas-commit-now.sh` lief in den bekannten Merge-Konflikt in fremden
+Lane-CHANGELOGs (sechs KBs), working tree danach lokal sauber, Sicherung
+dem 15-Min-Cron überlassen (bestätigtes Muster der letzten zehn Läufe).
+Dispatch-Text trug bewusst keine Zahlen mehr (Korrektur nach dem
+Fehlprompt-Befund des 30. Laufs) — Stand aus `KORPUS-QUEUE.md`,
+Inventardatei und `wiki/INDEX.md` selbst ermittelt.
+
+Aus der 54-Positionen-Liste des 30. Laufs die dort empfohlenen
+Kandidaten gewählt und per vollem Pfad `/opt/homebrew/bin/pdftoppm`
+gerendert (PDF-Seite = gedruckte Seite + 4, erneut bestätigt: Lex Iulia
+S. 101 = PDF-Seite 105, Regensburg S. 191 = PDF-Seite 195):
+
+- **Lex Iulia Municipalis** (45 v. Chr., S. 101-104, vollständig gelesen)
+  → neuer Artikel
+  [[lex-iulia-municipalis-strassenunterhalt-edilenrecht-kostenumlage]]
+  (Strassenunterhaltspflicht der Anlieger nach Ädilen-Weisung,
+  Kostenumlage bei Säumnis mit öffentlicher Ausschreibung/Ersatzvornahme
+  und hälftigem Zuschlag, zeitlich differenzierte Wagenverkehrslenkung,
+  Aufsicht über öffentliche Plätze/Portiken). Rückverlinkt im bestehenden
+  [[digesta-43-oeffentliches-wegerecht-baurecht-interdikte-roemisch]].
+- **Regensburg-Quellen 8.-12. Jh.** (S. 191-192, fünf Annalen-/
+  Chronikauszüge) und **Vita Meinwerci** (ca. 1160, S. 193, Paderborn)
+  → gemeinsamer neuer Artikel
+  [[regensburg-vita-meinwerci-mittelalterliche-stadterweiterung-chronikquellen]]
+  (Kaiserpfalz-Standortwahl nach Reliquienbindung unter Arnulf,
+  Stadterweiterung durch Einschluss des Emmeramklosters im
+  Verteilbauverfahren unter dem Adel, geplante aber unvollendete
+  Kirchenkreuz-Anlage Paderborns unter Bischof Meinwerk), `status:
+  speculative` (reine Chronik-Rohübersetzung ohne Sekundärliteratur-
+  Abgleich, mehrere Ereignisse nur in einem Satz angedeutet).
+- **Vita Nicolai V** (S. 201) weiterhin **nicht** destilliert — bleibt
+  laut 30. Lauf offene Position für einen Folgelauf.
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach «Lex Iulia»/«Iulia
+Municipalis» sowie «Regensburg»/«Meinwerc» über `wiki/*.md`): keine
+inhaltlichen Duplikate, die wenigen Regensburg-Treffer in
+`deutsche-ostkolonisation-...`, `roemische-grundlagen-...`, `curdes-...`
+und `stuebben-...` betreffen andere Quellen/Kontexte derselben Stadt.
+Von den 54 benannten Positionen der Anthologie sind jetzt **24
+destilliert oder begründet ohne Artikel abgeschlossen, 30 vollständig
+offen**. `git diff --numstat` auf diese Inventardatei zeigt reinen
+Append. **Nächster Lauf:** aus der 54-Positionen-Liste im 30.-Lauf-
+Abschnitt oben weiterwählen — Koran-Auszüge (169, bisher nie geprüft, auf
+Bürorelevanz sichten) und Vita Nicolai V (201, bereits angelesen) zuerst,
+sonst Hippokrates (35, Standortkriterien, Parallele zu Vitruv) als kurzer
+antiker Kandidat.

@@ -3,7 +3,7 @@ title: "Digesta Buch 43,7-11: Römisches öffentliches Wege- und Baurecht (Inter
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 163-168 (Digesta, Gesetzessammlung Kaiser Justinians I., 530 n. Chr., Buch 43, Titel 7-11, englische Übersetzung nach The Digest of Justinian, hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, vollständig gelesen)"]
-links: ["[[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]]", "[[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]]", "[[ibn-abdun-sevilla-baupolizei-hisba-marktordnung-1100]]"]
+links: ["[[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]]", "[[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]]", "[[ibn-abdun-sevilla-baupolizei-hisba-marktordnung-1100]]", "[[lex-iulia-municipalis-strassenunterhalt-edilenrecht-kostenumlage]]"]
 ---
 
 # Digesta Buch 43,7-11: Römisches öffentliches Wege- und Baurecht
