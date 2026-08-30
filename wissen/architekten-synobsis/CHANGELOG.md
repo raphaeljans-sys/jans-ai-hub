@@ -4,6 +4,31 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Charge 3: Knorr bestaetigt, zwei weitere Leads praezisiert
+
+Minimalcheck bestaetigte erneut den Nullstand der vier Kern-Prioritaeten (Arbeitsbaum
+sauber, `git log` nur bekannte Commits, alle vier Punkte laut `wiki/QUESTIONS.md` seit
+29.08.2026 abgeschlossen). Statt eines weiteren Nulltreffer-Berichts wurden drei der
+sieben seit dem Charge-3-NACHTRAG vom 30.08. verbliebenen Sammelfrage-Namen erneut
+per Ordnerinhalt-Sichtung bzw. gezielter Websuche zu Ordner-Leads bearbeitet:
+**Knorr** jetzt bestaetigt — die zuvor als "ueber 20 MB, mit Read-Tool nicht oeffenbar"
+vermerkte Juryberichts-PDF hat im selben Ordner eine kleinere Einzelseiten-Extraktion
+(`Seite25.pdf`), die den Wettbewerbsbeitrag "La vie est belle" von Knorr & Pürckhauer
+Architekten fuer das Emilienheim explizit nennt (Empfehlung zur Weiterbearbeitung).
+**Lazarini_Fenster** wahrscheinlich (Vorbehalt bleibt): Ordnerbild-Motiv (Engadin-Steinbau)
+plus Websuche fuehrt zu Mierta & Kurt Lazzarini Architekten, Samedan, Projekt
+"Wohnüberbauung Giardin" — Dateiname "Lazzarini-Girardin" liest sich als Verschreibung
+von "Lazzarini-Giardin", aber keine Quelle bestaetigt "Girardin" woertlich. **Imhof_Edi**
+staerkerer, aber weiterhin unbestaetigter Kandidat: Eduard Imhof, dipl. Architekt ETH SIA
+Luzern, Fachautor zu Bruecken-Formfindung, passt zu Vorname/Sujet des Ordnerbilds
+(Seebruecke); die ARGE-Namensnennung "Amann Architekten" im Dateinamen liesse sich zur
+Neuen Seebruecke Luzern (1994-96, Planergemeinschaft "H.P. Ammann und P. Baumann")
+in Bezug setzen, keine Quelle verbindet aber Imhof direkt mit diesem Projekt — bleibt
+Indiz, kein Beleg. Vier Namen (Jaeckel_Fabian, Horvat_Paolo, Keles_Oetzguer,
+La_Pierre_Eric) ohne neuen Anhaltspunkt, unveraendert offen. Details siehe NACHTRAG
+in `wiki/QUESTIONS.md` (Charge-3-Zeile). `git diff --numstat` bestaetigt reines
+Anhaengen (1/1 QUESTIONS.md).
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Charge 4: drei der vier Restnamen ueber Ordnerinhalt-Sichtung geklaert
 
 Minimalcheck bestaetigte erneut: alle vier Kern-Prioritaeten des Dispatch-Texts
