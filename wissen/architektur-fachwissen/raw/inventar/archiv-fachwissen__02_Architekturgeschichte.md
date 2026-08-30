@@ -779,3 +779,31 @@ Fliesstext «starb 1781»). **30 Einzelportraits bleiben offen**, Liste im neuen
 reinen Append. **Nächster Lauf:** weitere Einzelportraits nach demselben
 Duplikatscheck-Kriterium, danach wie gehabt `Fragen.doc`, Rest von
 `Renaissance-Zusammenfassung.pdf` und `Moderne.pdf`.
+
+## 260830 — zweiter Lauf `01_Architektenportrait` (82. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`, diese
+Inventardatei — nicht nur `tail`); Dispatch-Text nennt bewusst keine Zahlen. `scutil`
+bestätigte Macmini, `ps -eo pid,ppid,command` zeigte nur die eigene laufende
+`claude -p`-Instanz (PID 15629), `git status`/`git log` sauber, Top-Commit `7badcedd4`
+(81. Lauf) bereits committet. Von den 30 nach dem 81. Lauf offenen Einzelportraits acht
+gelesen und destilliert (Auswahlkriterium wie beim Vorlauf: Duplikatscheck per `grep -lir`
+gegen alle Namen zuerst; Garnier/Ruskin/Morris/Sullivan trotz fehlendem eigenem Portrait
+zurückgestellt, da bereits mehrfach in thematischen Artikeln dieser KB behandelt):
+Friedrich Wilhelm von Erdmannsdorff, Friedrich David Gilly, Henri Labrouste, Joseph Paxton,
+Victor Baltard, Gustave Eiffel, William Le Baron Jenney (inkl. Kurzerwähnung Louis-Auguste
+Boileau und Kontext Chicagoer Schule), Daniel Burnham → konsolidiert in
+[[architektenportraits-sammlung-klassizismus-eisenarchitektur-acht-kurzbiografien-erdmannsdorff-eiffel-jenney-burnham]].
+Ein unbelegter Sekundärartikel («Wettlauf in der Vertikale») in `40_jenney.pdf` bewusst
+nicht als Quelle übernommen (populärwissenschaftliche Kompilation ohne Fachlektorat-Ausweis,
+im neuen Artikel vermerkt). **22 Einzelportraits bleiben offen**, dazu vier
+Nicht-Portrait-Positionen desselben Ordners (`9_rom_st`, `16_schloss_versailles`,
+`26_paris_um_1800`, `1_filippo_brunelleschi` mit Duplikatsrisiko) sowie Kartenset und
+Sammelmappe — vollständige Liste im neuen Artikel unter «Offene Portraits dieser Sammlung».
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekannte
+Architekten des 18./19. Jahrhunderts. `git diff --numstat` nach diesem Lauf auf diese
+Inventardatei zeigt einen reinen Append. **Nächster Lauf:** weitere Einzelportraits nach
+demselben Duplikatscheck-Kriterium (Kandidaten mit vermutlich geringem Duplikatsrisiko:
+Neumann, Ledoux, Klenze, Fischer von Erlach — vor Bearbeitung dennoch grep-Check, da einige
+Namen bereits in Sauter-Kanon-Artikeln knapp auftauchen), danach wie gehabt `Fragen.doc`,
+Rest von `Renaissance-Zusammenfassung.pdf` und `Moderne.pdf`.
