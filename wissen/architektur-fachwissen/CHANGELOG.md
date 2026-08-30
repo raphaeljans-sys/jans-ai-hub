@@ -4573,3 +4573,37 @@ Caruso-Reader-Auszug, elf weitere kurze Eigen-DOCX sowie die Wikipedia-/
 Wiktionary-Begriffsblätter plus Sgraffito-Sammlung. `git diff --numstat` auf die
 Inventardatei zeigt reinen Append. **Nächster Lauf:** Caruso-Reader-Auszug (`Seiten aus
 13_FS_Alles_ist_Umbau_caruso2013FSreaderstudio.pdf`).
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern`, vierter P2-Lauf (Caruso-Reader-Auszug destilliert, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt: `KORPUS-QUEUE.md`, `wiki/INDEX.md` und die
+Inventardatei zeigten übereinstimmend den dritten P2-Lauf als letzten Stand, Arbeitsstand
+bereits committet (kein NAS-Merge-Konflikt vorgefunden). `scutil` bestätigte Hostname
+Macmini, `ps -o pid,ppid,command` zeigte nur die eigene Prozesskette, keine Doppel-Instanz.
+
+**Hauptarbeit:** `Seiten aus 13_FS_Alles_ist_Umbau_caruso2013FSreaderstudio.pdf`
+(Aufsatz Carsten Ruhl «Hinter dem Schleier der Geschichte», Semester-Reader «Alles ist
+Umbau», Caruso-Studio ETH Zürich FS 2013, S. 166-167, 1 Seite) vollständig gelesen
+(PyMuPDF) und destilliert →
+[[ruhl-rossi-sedlmayr-quaroni-stadt-ready-made-homo-poeticus]] (`status: emerging`).
+Kernaussagen: Sedlmayrs Verfallsdiagnose («geometrischer Rationalismus», Verlust des
+metaphysischen Sinngehalts) gegen Rossis Gegenlesart (Kritik am
+Bauwirtschaftsfunktionalismus, aber Schuldzuweisung an die ausserarchitektonische
+Zweckentfremdung statt an die Moderne selbst); Rossis Begriff der Stadt als **«ready
+made»** (historische Stadtzentren als bereits verwirklichte Gleichzeitigkeit
+ungleichzeitiger Bauten); Ludovico Quaronis Architekt als **«homo poeticus»** und der
+revitalisierte disegno-Begriff; Bezug zu Rossis «L'architettura della città» (1966,
+Titel als Quaroni-Referenz, vier Kapitel). Auszug bricht bei Fussnote 46 mitten im
+Fliesstext ab — Fragment, keine Gesamtargumentation des Ruhl-Aufsatzes. Gegen
+Wiki-Bestand geprüft (`grep -rli "quaroni\|sedlmayr\|homo poeticus\|ready made\|ruhl"`):
+kein Duplikat-Fund, neuer Artikel verlinkt mit
+[[rossi-analoge-architektur-typus-piranesi-eth-lehrzeit]] (dort Rückverlinkung ergänzt)
+und [[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]]. Sperrlisten-Prüfung:
+kein Fund (publizierter akademischer Aufsatz, keine Personendaten).
+
+Damit sind **28 der 33 P2-Positionen** der Sektion `10_Protomodern` offen: elf weitere
+kurze Eigen-DOCX (Religiöses/Politisches in der Architektur, Kulturaustausch, Der
+heterogene Ort, Panofsky-Liste, Protorenaissance, Tabubruch, Klassiker für die
+Protomoderne, Lampugnani-Grundsätze u. a.) sowie die Wikipedia-/Wiktionary-Begriffsblätter
+plus Sgraffito-Sammlung. `git diff --numstat` auf die Inventardatei zeigte `36 0`
+(reiner Append). **Nächster Lauf:** die elf kurzen Eigen-DOCX dieser Sektion.
