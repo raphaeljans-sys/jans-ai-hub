@@ -525,3 +525,30 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   Damit ist `120427_Bauen_Abraham` für die gesichteten Textquellen abgeschlossen. Offen: 5 der
   23 Vorlesungsordner (rund 140 der 190 Dateien). Nächster Lauf: nächste noch nicht gesichtete
   Vorlesung nach Ordnernummer (`120504_Vision_Visualitaet_I_Gropius`).
+
+- **30.08.2026 (20. P2-Lauf, Lane FACHWISSEN, Station laut `scutil` tatsächlich Macmini,
+  Dispatch-Text erneut veraltet/fälschlich «MacBook Pro», 43. Beispiel Memory
+  `project_fachwissen-dispatch-loop`):** Vor Arbeitsbeginn `ps aux` (nur der eigene
+  `claude -p`-Prozess dieser Lane, keine Doppel-Instanz) geprüft; unkommittierte
+  `120427_Bauen_Abraham`-Buchführung des Vorlaufs per `nas-commit-now.sh` gesichert (erneuter
+  NAS-Merge-Konflikt in sechs fremden KBs, lokaler Working Tree ohne `MERGE_HEAD`/Konfliktmarker,
+  dem 15-Min-Cron überlassen). `120504_Vision_Visualitaet_I_Gropius` bearbeitet (8. Vorlesung
+  Architekturtheorie II, 04.05.2012). Syllabus (`pypdf`) sowie eine bereits als PDF vorliegende
+  Live-Mitschrift (`01_Vorlesungsmittschrift/PDF/120504_Visualitaet.pdf`, 31 Seiten, sehr
+  unregelmässige Transkriptionsqualität) gelesen; die ersten rund zehn Seiten wiederholen
+  inhaltlich die Vorvorlesung zu anonymer/vernakulärer Architektur und wurden nicht erneut
+  ausgewertet (Duplikat-Vermeidung gegen
+  `vernakulaere-architektur-anonymes-bauen-strukturalismus-pattern-language.md`). Ein Artikel
+  destilliert: `wiki/perspektive-axonometrie-visualitaet-symbolische-form-panofsky-eisenman.md`
+  (`status: speculative`, mittelalterliche hierarchische Bildlogik vs. Zentralperspektive,
+  Brunelleschis Spiegelexperiment und Panofskys «Perspektive als symbolische Form», Kritik der
+  Perspektive als körpergebundene Subjektivität, Axonometrie-Wiederentdeckung der Moderne um
+  1920, Eisenmans «Houses of Cards» axonometrisch als Anti-Humanismus-Statement — ergänzt den
+  bestehenden Eisenman-Artikel um die dortige Kurzaussage, kein Duplikat, sondern Herleitung —,
+  Kartografie als Ideologie, Otto Neuraths Isotype, Anamorphosen/Panorama/Panoptikon). Gegen
+  bestehende Wiki-Artikel geprüft (Eisenman-Artikel enthält bereits einen Kurzsatz zur
+  Axonometrie/Perspektive-Kritik, hier ausführlich hergeleitet und verlinkt, kein Duplikat).
+  Vorlesungsfolien (rund 100 Einzelseiten plus Sammel-PDF) und Tonmitschnitt (Logic-Projektdatei)
+  nicht ausgewertet. Damit ist `120504_Vision_Visualitaet_I_Gropius` für die gesichteten
+  Textquellen abgeschlossen. Offen: 4 der 23 Vorlesungsordner (rund 130 der 190 Dateien).
+  Nächster Lauf: nächste noch nicht gesichtete Vorlesung nach Ordnernummer.

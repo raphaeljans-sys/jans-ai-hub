@@ -1,5 +1,44 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, zwanzigster P2-Lauf, `120504_Vision_Visualitaet_I_Gropius` (Lane FACHWISSEN, 43. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich
+«MacBook Pro», real Macmini laut `scutil`). Vor Arbeitsbeginn geprüft: `ps aux` zeigte genau
+einen `claude -p`-Prozess für Lane FACHWISSEN (dieser Lauf selbst), keine Doppel-Instanz.
+Unkommittierte `120427_Bauen_Abraham`-Buchführung des Vorlaufs zuerst per `nas-commit-now.sh`
+gesichert (erneuter NAS-Merge-Konflikt in sechs fremden KBs — normen, architekten-synobsis,
+baurecht, grobkosten plus die eigene KB —, lokaler Working Tree ohne `MERGE_HEAD` und ohne
+Konfliktmarker, dem 15-Min-Cron überlassen).
+
+`120504_Vision_Visualitaet_I_Gropius` (8. Vorlesung Architekturtheorie II, 04.05.2012)
+bearbeitet: Syllabus (`17_SYL-Ath2-2012-8Visualitaet.pdf`, `pypdf`) sowie die bereits als PDF
+vorliegende Live-Mitschrift (`01_Vorlesungsmittschrift/PDF/120504_Visualitaet.pdf`, 31 Seiten,
+sehr unregelmässige Transkriptionsqualität) gelesen. Die ersten rund zehn Seiten der Mitschrift
+wiederholen inhaltlich die Vorvorlesung zu anonymer/vernakulärer Architektur (Rudofsky,
+Loos-Villen, Lévi-Strauss, Shelter/Favelas) und wurden bewusst nicht erneut ausgewertet —
+Duplikat-Prüfung gegen `vernakulaere-architektur-anonymes-bauen-strukturalismus-pattern-language.md`
+bestätigt. Ein Artikel destilliert:
+`wiki/perspektive-axonometrie-visualitaet-symbolische-form-panofsky-eisenman.md` (`status:
+speculative`): mittelalterliche hierarchische Bildlogik vs. Zentralperspektive (Bedeutungsgrösse
+statt geometrische Distanz, Fra Angelico ohne Fluchtpunkt), Brunelleschis Spiegelexperiment am
+Baptisterium von Florenz und Panofskys These der «Perspektive als symbolische Form» (1927),
+Kritik der Perspektive als körpergebundene, subjektive Darstellung, Wiederentdeckung der
+Axonometrie in der Moderne um 1920 (Bauhaus, De-Stijl), Peter Eisenmans «Houses of Cards»
+axonometrisch als Anti-Humanismus-Statement, Kartografie als Ideologie (Velokarte vs.
+Einkaufskarte vs. Pilotenkarte), Otto Neuraths Isotype/Wiener Methode samt kritischer Volte
+(«die Verständlichkeit ist eine Illusion»), Anamorphosen/Panorama/Panoptikon als
+Projektions-Grenzfälle.
+
+Gegen bestehende Wiki-Artikel geprüft: `eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino.md`
+enthält bereits einen Kurzsatz zur Axonometrie-vs-Perspektive-Kritik — der neue Artikel liefert
+die ausführliche Herleitung dazu und verlinkt zurück, kein Duplikat, sondern Ergänzung. Kein
+weiterer inhaltlicher Überschneidungsfund. Vorlesungsfolien (rund 100 Einzelseiten plus
+Sammel-PDF) und Tonmitschnitt (Logic-Projektdatei) nicht ausgewertet. Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschnitt «Destillat-Fortschritt»,
+reiner Append (`git diff --numstat` zeigt `-0`). Offen: 4 der 23 Vorlesungsordner (rund 130 der
+190 Dateien). `wiki/INDEX.md` und `skills/wissens-destillat/KORPUS-QUEUE.md` nachgeführt.
+Nächster Lauf: nächste noch nicht gesichtete Vorlesung nach Ordnernummer.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, neunzehnter P2-Lauf, `120427_Bauen_Abraham` (Lane FACHWISSEN, 42. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich
