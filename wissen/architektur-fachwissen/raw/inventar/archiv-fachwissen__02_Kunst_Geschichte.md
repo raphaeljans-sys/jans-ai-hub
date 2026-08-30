@@ -380,3 +380,19 @@ Prüfung der nächsten Sektion mit offenem P2.
 noch ungeöffneten Dateien von Zeile 74 (`Praesentation.pdf`, `Tania_Meisser.pdf`) oder Zeile 68
 `02_Bildende_Kunst/08_Design/` (733 Dateien) oder Zeile 72 (Flandern-Reader), sonst laut
 Queue-Regel Prüfung der nächsten Sektion mit offenem P2.
+
+- Zeile 72 `02_Bildende_Kunst/10_Regionskunst/Flandern/` (57 Dateien) → **erledigt.**
+  Der Studienreise-Reader `L`Architecture Moderne Belgique - Überarbeitet.pdf` (12 S.)
+  vollständig gelesen, Deckblatt mit Personendaten der drei studentischen Verfasser bewusst
+  nicht übernommen. Destilliert zu
+  [[flandern-studienreise-2007-sieben-bauten-kanon-robbrecht-daem-van-duysen-beel-conzett-toyo-ito]]
+  (Sieben-Bauten-Kanon Groot Vleeshuis/Coussée & Goris, Umbau Compagnie/Wim Goes,
+  Concertgebouw/Robbrecht & Daem, Pavillon 2002/Toyo Ito, Fussgängerbrücke Coupure/Jürg
+  Conzett, Bürohaus Concordia/Vincent van Duysen, Roger Raveel Museum/Stéphane Beel;
+  institutioneller Hintergrund Hoger Architectuurinstituut St. Lukas Gent). Die übrigen 56
+  Dateien des Ordners sind Bilddateien ohne eigenen Fliesstext, nicht einzeln geöffnet.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** die zwei
+noch ungeöffneten Dateien von Zeile 74 (`Praesentation.pdf`, `Tania_Meisser.pdf`) oder Zeile 68
+`02_Bildende_Kunst/08_Design/` (733 Dateien), sonst laut Queue-Regel Prüfung der nächsten
+Sektion mit offenem P2.
