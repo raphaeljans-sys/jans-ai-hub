@@ -9656,3 +9656,33 @@ Schweizer Pavillon mit Zumthor). Nebenbefund: Gerkan (ebenfalls in Charge 2) war
 anderer Stelle geklaert (Zeile 244). 17 der 22 Charge-2-Namen bleiben offen. Details mit Quellen
 in `wiki/QUESTIONS.md` angehaengt, CHANGELOG-Eintrag gesetzt. `git diff --numstat` nativ geprueft:
 1/1 (QUESTIONS.md), keine Loeschung. Budget rund 1.3 von 5 USD.
+
+## 2026-08-30 Nachtschicht Mac Mini — Fristen-Nachtrag P1-Sync, wissenscheck grobkosten (Prioritaet 6)
+
+Prioritaeten 1-2 leer/gesaettigt: keine pending remote-/sync-Tasks, keine Freigabe-Eintraege;
+Synobsis Stufe 1+2 laut siebtem Bestaetigungslauf vom 29.08. weiterhin vollstaendig erschoepft
+(eigener Taktgeber `synobsis-batch-nacht`). Prioritaet 3 (Fristen-Radar): das offene P1
+"NAS-GitHub-Sync blockiert" (seit 29.08. 22:05) frisch nativ per ssh gemessen und als Nachtrag an
+der bestehenden Zeile in `logbuch/fristen.md` angehaengt — Divergenz jetzt 93 Commits voraus / 46
+zurueck (vorher 78/39, davor 31/13), waechst weiter; kein Merge/Rebase-Versuch unternommen (Rule
+`interaktive-eingriffe`/`auto-verbesserungen` 260811 Punkt 3, Einzelentscheid bleibt bei Raphael).
+Prioritaet 4: alle KBs mit `training/PROGRAMM.md` sind ausgeschlossen oder gesaettigt (baurecht/
+normen/planungsgrundlagen/wettbewerbs-dna eigener Taktgeber; energie heute 02:31 am eigenen Takt
+bereits gelaufen; bauprodukte seit 15.08. formal ERLEDIGT; grobkosten seit 13.08. AUSGESETZT;
+spec/immobilienbewertung tragen Ereignis-Trigger-Statuskoepfe). Prioritaet 5: architekten-synobsis
+Sammelfrage-Chargen sind laut eigenem CHANGELOG bereits alle sechs vollstaendig recherchiert
+(Gegenpruefung VOR dem Schreiben verhinderte einen Doppellauf auf Charge 2 — fuenf WebSearches
+dafuer verbraucht, aber nichts geschrieben); `projekt-lessons` Fokus-Bereich "Bauen im Betrieb"
+ist bereits zweimal (04./05.08.) erfolglos ueber alle drei PROGRAMM.md-Quellen durchsucht,
+verbleibender Fundort (Baujournale Bauleitung, DS3) ausdruecklich als eigener vollbudgetierter
+Lauf vorgemerkt — kein dritter Versuch. Auf Prioritaet 6 ausgewichen: `grobkosten` traegt das
+aelteste Wissenscheck-Datum im ganzen Wissens-Layer (03.08.2026, zusammen mit mehreren anderen
+KBs, aber mit deutlich mehr offenen Positionen). Phase-1-Audit an einen Sonnet-Subagenten
+delegiert (Modell-Politik, mechanische Pruefung eines 1166-Zeilen-Artikels). Ergebnis: A0 B0 C0
+D3 E0 F1 G0 — `raw/_INGESTED.md` seit Ende Juli nicht nachgefuehrt (4 von 18 realen raw-Dateien
+fehlen dort, obwohl in `kennwerte.md` verarbeitet), `2105-steinkogler-davos.md` im INDEX als
+"dokumentiert" gefuehrt, aber in `kennwerte.md` kein einziges Mal zitiert, juengster Output
+(28.08., EI30-Schiebetueren) nicht zurueckgefuehrt, ein Frontmatter-`sources:`-Luecke. Report
+`wissen/grobkosten/outputs/2026-08-30_health-check.md`, CHANGELOG-Eintrag gesetzt, Diff nativ
+geprueft (nur Insertion, keine Loeschung). Kein Versand/Publikation/Buchung. Budget rund 4.2 von
+5 USD, Zyklus beendet.

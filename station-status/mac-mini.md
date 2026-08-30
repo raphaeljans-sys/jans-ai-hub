@@ -1,8 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 02:28:34
+Stand: 30.08.2026 02:38:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:36)
 - /Users/raphaeljans  (letzte Aktivitaet 02:14)
 
 ## Laufende Arbeits-Prozesse
@@ -12,4 +13,4 @@ Stand: 30.08.2026 02:28:34
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ba0454b86 Lane FACHWISSEN: VL7 Rossi Analoge Architektur destilliert
+- 24bfb95ac wissen/architektur-fachwissen: VL9 Wright destilliert (organische Architektur, Broadacre City)

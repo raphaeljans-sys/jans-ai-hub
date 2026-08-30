@@ -1,5 +1,18 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-30 (Nachtschicht Mac Mini, Wissenscheck Phase 1) — A0 B0 C0 D3 E0 F1 G0
+
+Erster voller Health-Check seit 2026-08-03 (ältestes Audit-Datum im gesamten Wissens-Layer).
+Kein Widerspruch, kein toter Backlink, keine unbelegten Claims gefunden — die KB bleibt
+beleg-diszipliniert. Drei D-Funde: `raw/_INGESTED.md` ist seit Ende Juli nicht mehr
+nachgeführt (4 von 18 realen raw-Dateien fehlen dort, sind aber tatsächlich verarbeitet);
+`raw/2105-steinkogler-davos.md` wird in INDEX.md als "dokumentiert" geführt, kommt in
+`kennwerte.md` selbst aber kein einziges Mal vor; der jüngste Output
+(2026-08-28 EI30-Schiebetüren) ist nicht in `kennwerte.md` zurückgeführt. Ein F-Fund:
+`raw/schaetzungsanleitung-kap5-…` fehlt im Frontmatter `sources:` trotz zweier Body-Zitate.
+Voller Report: `outputs/2026-08-30_health-check.md`. Keine Änderungen an `kennwerte.md`,
+`QUESTIONS.md` oder `raw/` (reine Phase 1, Reparaturen sind Phase 2).
+
 ## 2026-08-30 (Schub-Lane grobkosten, sechster Dispatch, erster Tag danach) — erneut Duplikat erkannt, erneut keine Verdichtung erzwungen
 
 **Befund:** sechster Dispatch dieser Lane mit wortgleichem Auftragstext ("20 raw-Eintraege, erst

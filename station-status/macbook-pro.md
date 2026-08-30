@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 02:30:28
+Stand: 30.08.2026 02:40:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 02:30:28
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ee760d47f nas-selfcommit: 2 Datei(en) 2026-08-30 02:30
+- 24bfb95ac wissen/architektur-fachwissen: VL9 Wright destilliert (organische Architektur, Broadacre City)
