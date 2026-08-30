@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 18:57:55
+Stand: 30.08.2026 19:08:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 18:57:55
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b5ada3250 FACHWISSEN 92. Lauf: Architektenportraits Garnier/Schinkel/Semper/Ruskin-Morris-Webb/Wright/Sullivan gegengeprueft
+- 7d6b2c8b7 FACHWISSEN 93. Lauf: Vignola/Palladio gegengeprueft, drei neue Artikel, Architektenportrait-Ordner abgearbeitet
