@@ -2763,3 +2763,40 @@ offen, nächster Schritt:** Fortsetzung nach Dateigrösse (`nurmesniemi.htm`,
 `dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`) — bei `schichtholz.htm`/`behrens.htm`
 vorab prüfen, ob Ergänzung bestehender Artikel treffender ist als eigener, sonst laut
 Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (124. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen), Hostname Macmini via
+`scutil`, genau ein `claude -p`-Prozess mit diesem Dispatch-Text (PID 49084), kein
+Doppel-Dispatch, Working Tree bei Laufbeginn sauber (Top-Commit `abe50268b`). Kandidaten
+diesmal wieder programmatisch ermittelt (`find` gegen alle Grössen, referenzierte
+Dateinamen aus `wiki/*.md` **ohne** `INDEX.md`/`QUESTIONS.md` abgeglichen — der vom 121./122.
+Lauf dokumentierte Fallstrick, dass die eigene «nächster Schritt»-Prosa in `INDEX.md`
+zukünftige Kandidaten schon vor dem Lesen nennt und sie so fälschlich als referenziert
+erscheinen lässt, erneut bestätigt und vermieden). Drei kleinste ungelesene, inhaltstragende
+Positionen gelesen: `nurmesniemi.htm`, `henry_van_de velde.htm`, `earl.htm`. Duplikatscheck
+vorab: Nurmesniemi ohne jeden bisherigen Treffer — komplett neu. Van de Velde bislang nur in
+vier bestehenden Artikeln als Randfigur erwähnt (Adolf-Behne-, Paris-1900-, Aalto/Eames-
+Jacobsen- und Literaturlandkarte-Artikel), keine eigene Biografie — kein Duplikat. Harley Earl
+bereits mit einem knappen Absatz im «Krise der Moderne»-Artikel vorhanden — kein Duplikat,
+da dort nur als Beleg für die 1930er-Abspaltung Design/Konsum erwähnt, ohne Werkchronologie.
+Drei neue Artikel:
+[[antti-vuokko-nurmesniemi-finnisches-nachkriegsdesign-saunahocker-marimekko]] (finnisches
+Designerpaar, Saunahocker 1952, Kaffeekanne «Finel», Marimekko-Textildruck, ergänzt die
+bestehenden Wirkkala-/Franck-Artikel um eine dritte finnische Position),
+[[henry-van-de-velde-belgischer-jugendstil-werkbund-weimar-bauhausvorlaeufer]] (Villa
+Bloemenwerf 1895, Deutscher Werkbund 1907, Weimarer Kunstgewerbeschule als Bauhaus-Vorlauf,
+Werkbund-Streit 1914 mit Muthesius, löst die vier offenen Kurzverweise auf) und
+[[harley-earl-general-motors-automobil-styling-y-job-heckflossen]] (Werkchronologie
+La Salle 1927 → Buick Y-Job 1937 → Heckflossen-Cadillac 1948 → Firebird II 1956 → Nader-Kritik
+1962, vertieft den bestehenden Kurzabsatz statt ihn zu duplizieren). Damit von den 22 in
+Lauf 123 identifizierten inhaltstragenden Restpositionen drei bearbeitet, 19 bleiben offen.
+`git diff --numstat` zeigte für die Inventardatei keinen Treffer (keine Änderung nötig,
+Sammelzeile bleibt unverändert), für die drei neuen Wiki-Dateien reine Neuanlage. Details
+CHANGELOG 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach
+Dateigrösse (`bellini.htm`, `50-60ein.htm`, `mo1ein.htm`, `race.htm`, `krise.htm`,
+`mollino.htm`, `maugham.htm`, `mailand.htm`, `schichtholz.htm`, `behrens.htm`, `wegner.htm`,
+`mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`, `deskey.htm`,
+`bugholz.htm`, `day.htm`) — bei `schichtholz.htm`/`behrens.htm` vorab prüfen, ob Ergänzung
+bestehender Artikel treffender ist als eigener, sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2.

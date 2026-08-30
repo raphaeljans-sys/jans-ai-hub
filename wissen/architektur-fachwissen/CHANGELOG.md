@@ -7115,3 +7115,47 @@ Fortsetzung nach Dateigrösse unter den 22 verbliebenen Positionen; bei `schicht
 [[sauter-klassische-moderne-neues-bauen-behrens-loos-wright-aalto-vierzehn-bauten-kanon]]
 treffender ist als ein eigener Artikel, sonst laut Queue-Regel nächste Sektion mit offenem
 P1/P2.
+
+## 2026-08-30 — Zeile 68 fortgesetzt (124. Lauf Lane FACHWISSEN)
+
+`nurmesniemi.htm`, `henry_van_de velde.htm` und `earl.htm` gelesen (die drei kleinsten der 22
+vom 123. Lauf identifizierten inhaltstragenden Restpositionen). Kandidatenermittlung erneut
+programmatisch, diesmal unter Ausschluss von `INDEX.md`/`QUESTIONS.md` aus dem
+Referenz-Abgleich (bestätigt den vom 121./122. Lauf dokumentierten Fallstrick: die eigene
+Fortschritts-Prosa in `INDEX.md` nennt künftige Kandidaten bereits vor dem Lesen und lässt
+sie sonst fälschlich als «bereits referenziert» erscheinen).
+
+Drei neue Wiki-Artikel:
+[[antti-vuokko-nurmesniemi-finnisches-nachkriegsdesign-saunahocker-marimekko]] (Antti und
+Vuokko Nurmesniemi, finnisches Designerpaar; Saunahocker 1952 für das Palace Hotel Helsinki,
+Kaffeekanne «Finel» 1957, Telefon «Antti Slim» 1984 für Fujitsu, Vuokkos Marimekko-Textildruck
+1953–1964; ergänzt die bestehenden finnischen Design-Artikel Wirkkala/Franck um eine dritte
+Position),
+[[henry-van-de-velde-belgischer-jugendstil-werkbund-weimar-bauhausvorlaeufer]] (Henry van de
+Velde 1863–1957; Villa Bloemenwerf 1895, Mitbegründer Deutscher Werkbund 1907, stellvertretender
+Leiter der Weimarer Kunstgewerbeschule als Bauhaus-Vorlauf, Werkbund-Streit 1914 mit
+Hermann Muthesius; löst vier bestehende Kurzverweise auf, ohne sie zu duplizieren) und
+[[harley-earl-general-motors-automobil-styling-y-job-heckflossen]] (Harley Earl 1893–1969;
+Werkchronologie Cadillac «La Salle» 1927 → Abteilung Art and Color 1927 → Buick «Y-Job» 1937
+→ erste Heckflossen-Cadillac 1948 → «Motorama» ab 1952 → «Firebird II» 1956 → Ralph Naders
+Kritik 1962; vertieft den bestehenden Kurzabsatz in
+[[design-krise-der-moderne-1960er-pop-aesthetik-harley-earl-archigram]] statt ihn zu
+duplizieren).
+
+Duplikatscheck vorab für alle drei Namen über `wiki/*.md` (ohne `INDEX.md`/`QUESTIONS.md`):
+Nurmesniemi ohne jeden Treffer, van de Velde nur als Randfigur in vier Artikeln, Earl nur als
+knapper Beleg in einem Artikel — in keinem Fall eine bereits vollständige eigene Biografie,
+also kein Duplikat.
+
+Damit sind 73 von 128 `.htm`-Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert.
+19 inhaltstragende Positionen bleiben offen: `bellini.htm`, `50-60ein.htm`, `mo1ein.htm`,
+`race.htm`, `krise.htm`, `mollino.htm`, `maugham.htm`, `mailand.htm`, `schichtholz.htm`,
+`behrens.htm`, `wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`,
+`dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`.
+
+`git diff --numstat` auf die Inventardatei zeigte keine Änderung (Sammelzeile bleibt
+unverändert, Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE), auf die drei neuen
+Wiki-Dateien reine Neuanlage. Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68
+bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den 19 verbliebenen
+Positionen (`bellini.htm` als kleinste zuerst), sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2.
