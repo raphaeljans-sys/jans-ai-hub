@@ -435,6 +435,25 @@ Einzelvorlesungen, die 31 Syllabi und die Vorlesungsfolien-Sammel-PDF).
   Offen: 9 der 23 Vorlesungsordner (rund 162 der 190 Dateien). Nächster Lauf: nächste noch nicht
   gesichtete Vorlesung nach Ordnernummer (`120316_Natur_Schwarz`).
 
+- **30.08.2026 (17. P2-Lauf, 41. Beispiel Memory `project_fachwissen-dispatch-loop`, Station
+  laut `scutil` tatsächlich Macmini, Dispatch erneut fälschlich «MacBook Pro»):**
+  `120401_Technik_Archigram` bearbeitet (5. Vorlesung Architekturtheorie II, 30.03.2012).
+  Vorlauf-Buchführung (Natur/Schwarz-Artikel + Queue/Changelog/Index) zuerst per
+  `nas-commit-now.sh` gesichert (erneuter NAS-Merge-Konflikt, diesmal auch in der eigenen
+  `skills/wissens-destillat/KORPUS-QUEUE.md`, lokaler Working Tree sauber geblieben, dem
+  15-Min-Cron überlassen). Syllabus (`pypdf`) gelesen; ausnahmsweise lag zusätzlich eine
+  lesbare PDF-Fassung der Live-Mitschrift vor (`01_Vorlesungsmitschrift/PDF/120401_Technik.pdf`,
+  17 Seiten) — Transkriptionsqualität die bislang schlechteste der Sektion, Kernaussagen daher
+  primär aus dem Syllabus. Ein Artikel destilliert:
+  `wiki/technik-maschine-archigram-diagramm-vs-plan-architekturtheorie.md` (`status:
+  speculative`, Maschinenästhetik/Ruskin, Fordismus/Taylorismus, russischer Konstruktivismus/
+  Leonidov, Archigram/Superstudio/Shin Takamatsu, Diagramm-vs-Plan-Debatte Neufert/Eisenman/
+  MVRDV). Gegen bestehende Wiki-Artikel (Eisenman, Koolhaas, Neufert) geprüft, kein Duplikat,
+  verlinkt. `.indd`-Fassung, Tonmitschnitt (Logic-Projektdatei) und reine Foliensammlungen nicht
+  ausgewertet. Damit ist `120401_Technik_Archigram` für die gesichteten Textquellen
+  abgeschlossen. Offen: 7 der 23 Vorlesungsordner (rund 150 der 190 Dateien). Nächster Lauf:
+  nächste noch nicht gesichtete Vorlesung nach Ordnernummer (`120420_Kunst_Loos`).
+
 - **30.08.2026 (16. P2-Lauf, 40. Beispiel Memory `project_fachwissen-dispatch-loop`, Station
   laut `scutil` tatsächlich Macmini, Dispatch erneut fälschlich «MacBook Pro»):**
   `120316_Natur_Schwarz` bearbeitet (4. Vorlesung Architekturtheorie II, 16.03.2012). Vorlauf-

@@ -1,5 +1,33 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, siebzehnter P2-Lauf, `120401_Technik_Archigram` (Lane FACHWISSEN, 41. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich
+«MacBook Pro», real Macmini laut `scutil`). Vor Arbeitsbeginn geprüft: `ps aux` zeigte genau
+einen `claude -p`-Prozess für Lane FACHWISSEN (dieser Lauf selbst) und einen unabhängigen für
+Lane SYNOBSIS — keine Doppel-Instanz. `git status` zeigte unkommittierte Natur/Schwarz-
+Buchführung des Vorlaufs (ein Wiki-Artikel plus Queue/Changelog/Index/Inventar-Nachträge) —
+zuerst per `nas-commit-now.sh` gesichert (erneuter NAS-Merge-Konflikt, diesmal auch in der
+eigenen `skills/wissens-destillat/KORPUS-QUEUE.md`; kein `MERGE_HEAD`, keine Konfliktmarker im
+lokalen Working Tree; dem 15-Min-Cron überlassen).
+
+Danach `120401_Technik_Archigram` (5. Vorlesung Architekturtheorie II, 30.03.2012) bearbeitet:
+Syllabus (`14_SYL-Ath2-2012-5Technik.pdf`, `pypdf`) und — anders als bei den letzten Vorlesungen
+dieser Sektion — ausnahmsweise eine bereits vorliegende PDF-Fassung der Live-Mitschrift
+(`01_Vorlesungsmitschrift/PDF/120401_Technik.pdf`, 17 Seiten, ungewöhnlich fehlerhafte
+Transkription) gelesen. Ein Artikel destilliert:
+`wiki/technik-maschine-archigram-diagramm-vs-plan-architekturtheorie.md` (`status: speculative`,
+Maschinenästhetik als Argumentationsfigur von Ruskin/Firth-of-Forth-Brücke über russischen
+Konstruktivismus/Leonidov-Arbeiterklub, Fordismus/Taylorismus mit Frankfurter Küche, Archigram/
+Superstudio/Shin Takamatsu, bis zur Diagramm-vs-Plan-Debatte Neufert/Eisenman/MVRDV — ergänzt
+den bestehenden Eisenman-Artikel um die dort nur beiläufig erwähnte Diagramm-Frage, kein
+Duplikat). Gegen bestehende Wiki-Artikel geprüft (Eisenman, Koolhaas, Neufert), kein Duplikat,
+verlinkt. `.indd`-Fassung der Mitschrift und Tonmitschnitt (Logic-Projektdatei) nicht
+ausgewertet, ebenso die reinen Foliensammlungen (Bildmaterial ohne Fliesstext) — Details siehe
+Artikel «Offene Punkte». Damit ist `120401_Technik_Archigram` für die gesichteten Textquellen
+abgeschlossen. Offen: 7 der 23 Vorlesungsordner (rund 150 der 190 Dateien). Nächster Lauf:
+nächste noch nicht gesichtete Vorlesung nach Ordnernummer (`120420_Kunst_Loos`).
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie`, sechzehnter P2-Lauf, `120316_Natur_Schwarz` (Lane FACHWISSEN, 40. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel»), Station
