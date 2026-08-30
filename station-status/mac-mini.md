@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 07:09:24
+Stand: 30.08.2026 07:19:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 07:08)
+- /Users/raphaeljans  (letzte Aktivitaet 07:18)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 07:09:24
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4b8b1606a logbuch-radar 30.08.2026: Radar-Briefing + fuenf Registernachtraege (P1 Sync 173/94, bexio-Abo 08.10., drei neue KISPI-Termine, SharePoint-Zugriff Bajrami, Leerlauf-Schleife erledigt)
+- 75c15d23f Fachwissen Lauf 68: Sonne-Dossier des Vorlaufs sichern

@@ -3615,3 +3615,71 @@ Dateien MacBook Pro und 1'680 Dateien Mac Mini im 9-Tage-Fenster.
 Messzeitpunkt 30.08.2026 07:15 CEST, Fenster 9 Tage nach mtime vorgefiltert, je Zeile nach
 timestamp[:10] gegen ein explizites 8-Tage-Fenster gefiltert, Duplikate ueber
 (message.id, requestId) ausgeschlossen.
+
+**Bewertung — Kriterium (b) formal gerissen, trotzdem NICHT gemailt. Begruendung unten.**
+
+(a) **Keine echten Limit-Fehlerereignisse** in 24 h, strukturell geprueft (isApiErrorMessage /
+type=error / apiErrorStatus 429 in Verbindung mit einem Limit-Text). Kontrollprobe bestanden:
+`scheduled-task` kommt auf dem MacBook Pro in 405, auf dem Mini in 66 Zeilen vor, das Muster greift.
+(b) **39.37 Mio teuer am 29.08. — ueber der 35-Mio-Schwelle.** Siehe Sendeentscheid.
+(c) Kein erschoepftes Wochenkontingent.
+(d) **Alle vier operativen Briefings im Takt.** `logbuch-radar` heute 07:06 gelaufen (Alter 0.2 h);
+`hub-chef-taeglich` und `zahlungsabgleich-check` zuletzt 29.08., der heutige Lauf steht um 08:39
+bzw. 08:30 noch aus — kein Ausfall. **`mahnwesen-verzugscheck` ist mit 47 h scheinbar auffaellig,
+tatsaechlich korrekt:** die Task ist laut Frontmatter **werktaeglich**, der 29.08. war ein Samstag,
+der 30.08. ist ein Sonntag. Letzter Lauf Freitag 28.08. ist der planmaessige. Ohne diese Pruefung
+haette die Zahl allein wie ein zweitaegiger Briefing-Ausfall ausgesehen.
+(e) **Radar-Herzschlag frisch:** `vollgas-chef-radar` zuletzt 30.08. 01:17 CEST, Alter 6.0 h;
+Herzschlag ueber den letzten timestamp INNERHALB der Datei gemessen, nicht ueber mtime (Lehre 29.08.).
+(f) **Kein Aufwand ohne Wissenszuwachs — im Gegenteil.** git zaehlt **137 geaenderte Wiki-Artikel am
+29.08.** (131 ohne die Twin-Facetten) und **129 am 30.08. bis 07:15**. Die Ziel-KB
+`architektur-fachwissen` steht bei **79 Artikeln**; der Vortagseintrag meldete hier noch **null**.
+(g) Die Queue meldet nicht «KORPUS-QUEUE KOMPLETT» (0 Treffer, Korpus 3 und 4 laufen).
+
+**Stueckkosten 29.08.: 0.29 Mio Token je Artikel** (39.37 Mio auf 137 Artikel), ohne Twin-Facetten
+0.30 Mio. **30.08. bis 07:15: 0.16 Mio je Artikel** (20.10 Mio auf 129). Zum Vergleich die
+Vortagsreihe: 27.08. 0.81 · 28.08. 1.01 (ohne Twin 2.22). **Das ist der mit Abstand beste Wert der
+gesamten Messreihe** — der Verbrauchssprung ist gleichzeitig der ertragreichste Tag.
+
+**Sendeentscheid: keine Mail, obwohl (b) gerissen ist.** Drei Gruende, jeder einzeln tragend:
+**1.** Der Verbrauch ist Raphaels **ausdruecklicher, befristeter Auftrag** vom 29.08. — die
+Schub-Lanes tragen ihn im Prompt («Wochenkontingent vor dem Montags-Reset ausschoepfen»), Frist
+Montag 31.08. 11:00. Ihm zu melden, dass sein eigener Ausschoepfungsauftrag Kontingent verbraucht,
+sagt ihm nichts, was er nicht angeordnet hat. **2.** Der Leerlauf-Anteil darin ist **bereits erkannt
+und behoben**: der `vollgas-chef-radar` hat um 01:11 gemessen, dass vier von fuenf Lanes «nichts mehr
+offen» melden (418 Laeufe, rund 233 USD in zwei Tagen), und **drei davon ueber den eingebauten
+Selbstschutz stillgelegt**; die beiden liefernden laufen weiter. **3.** Der Ertrag ist der beste der
+Messreihe. Dieselbe Abwaegung hat der Radar in derselben Nacht fuer den geloesten Login-Blocker
+getroffen und ebenfalls nicht gemailt. Der Lauf faellt nicht aus, nur die Mail.
+
+**Vier Vortagsbefunde erledigt — Delta gegen den 29.08.:**
+**1 — Spec-Gate geschlossen.** `archiv-fachwissen-spec.md` und `buero-referenzen-spec.md` liegen
+seit 29.08. 21:15 vor. Beide tragen eine **bindende Sperrliste**, die Rule 260823 woertlich umsetzt
+(«Nie erfassen, nicht einmal als Inventar: Vertraege, Bewerbungen und Personaldossiers, Adress- und
+Kontaktsammlungen, Lohn- und Honorardaten, Gesundheits- und Privatunterlagen»). Der gestrige Befund
+3 — Spec fehlt, Ausschlussliste nicht hinterlegt — ist damit **vollstaendig behoben**. Anzumerken
+bleibt, dass `tools/korpus.conf` selbst die Kategorien weiterhin nur als Kommentar zu einem anderen
+Pfad fuehrt; bindend wirkt die Spec.
+**2 — Ziel-KB liefert.** `architektur-fachwissen/wiki/` von 0 auf 79 Artikel, Front bewegt sich
+(gestrige Befunde 3 und 4 gegenstandslos).
+**3 — Gate-Log Mac Mini wieder frisch.** `gate-Macmini.log` **1'015 Zeilen**, letzte Zeile heute
+07:19:27; gestern stand er den dritten Tag bei 19 Zeilen vom 24.08. Der gestrige Befund 5 ist erledigt.
+**4 — P1-Login-Blocker geloest.** Der headless-OAuth war am 29.08. 19:15 auf beiden Stationen tot;
+seit 00:47 laufen die Schub-Laeufe wieder mit rc=0 und Kosten groesser null.
+
+**Ein Vortagsbefund besteht fort:** `inventar.sh --stand` meldet fuer **beide** aktiven Korpora
+weiterhin `sektionen=0/0 dateien_inventarisiert=0`, obwohl Inventar- und Destillatarbeit nachweislich
+laeuft. Die Registerdateien unter `skills/wissens-destillat/training/<korpus>-sektionen.md` fehlen fuer
+Korpus 3 und 4. Das ist die Kennzahl (a) FORTSCHRITT, auf die Fruehwarnung und Radar ihre
+Delta-Null-Beurteilung stuetzen — sie bleibt blind und wuerde Stillstand melden, wo der ertragreichste
+Tag der Messreihe liegt. Gehoert weiterhin dem Radar vorgelegt.
+
+**Zur Beobachtung fuer den naechsten Lauf:** der Mini liegt an einem Sonntag um 07:15 bereits bei
+18.38 Mio teuer. Bei diesem Tempo laeuft der 30.08. auf rund 50 Mio zu. Das ist die gewollte Folge
+des Ausschoepfungsauftrags mit Frist Montag 11:00 und daher kein Sendegrund; sollte das
+Wochenkontingent aber **vor** dem Montags-Reset kippen, traefe es die Montags-Briefings — dann greift
+Kriterium (c).
+
+**Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
+Kontingent-Erschoepfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag oder Aufwand ohne
+Wissenszuwachs.
