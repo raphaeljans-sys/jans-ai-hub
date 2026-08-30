@@ -4,6 +4,28 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, vierzehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git status --short`, `git diff --numstat` und `wiki/QUESTIONS.md`
+geprueft (Memory-Hinweis: chronischer Dispatch-Loop, 13 Vorlaeufe allein am 30.08.2026).
+Arbeitsbaum war zu Laufbeginn sauber (`git status --short` leer, `git diff --numstat` leer),
+`git log -3` zeigt seither nur NAS-Auto-Sync-Commits ohne inhaltliche Aenderung an dieser KB.
+Alle vier Auftragspositionen unveraendert erledigt: **Fehlextraktionen** (Tadao_Ando,
+Spuehler_Martin, Wurster_William, Pfister_Gebrueder, Pouillon_Fernand, Romero_Schaefle,
+Rohn_Roland) BEHOBEN bzw. gepruft und bewusst textlos belassen wo keine Alternativquelle
+existiert; **Katalog-Kollisionen** (Christ_Gantenbein, Enzmann_Fischer, Miller_Maranta,
+Gigon_Guyer) BEHOBEN inkl. Scanner-Fix; **Sonderzeichen-Regel** vereinheitlicht (NFC-Fix)
+und alle 14 Slugs nachgezogen; **Sammelfrage Charge 1-6** vollstaendig einzeln recherchiert
+(rund 156 Namen), die vier Restnamen Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure
+bleiben nach zwei unabhaengigen Recherche- plus Ordnerinhalt-Sichtungs-Passagen (29./
+30.08.) ohne Beleg — echter Materialmangel, keine offene Arbeit. Die zwei Rueckfragen an
+Raphael (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319) sind nicht recherchierbar,
+sondern Freigabesache. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert. Dies ist
+der vierzehnte Redispatch desselben Auftrags an einem einzigen Tag — die Ursache liegt im
+Dispatch-Mechanismus, nicht in der KB. Erneute Empfehlung an Raphael: Lane SYNOBSIS
+pausieren, bis ein inhaltlich neuer Auftrag vorliegt, neues Quellmaterial im NAS-Ordner
+eintrifft, oder die zwei Rueckfragen beantwortet sind.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, dreizehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
 
 Vor jeder Recherche gegen `git status`, `git log` und `wiki/QUESTIONS.md` geprueft
