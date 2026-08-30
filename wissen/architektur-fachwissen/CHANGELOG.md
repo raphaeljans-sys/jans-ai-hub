@@ -4267,3 +4267,38 @@ Namensliste bleibt nach Pausanias offen: Achilleus Tatius (155), Ausonius (157),
 Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 4 Positionen. **Nächster
 Lauf:** Achilleus Tatius (155) als nächster im Seitenverlauf liegender Kandidat, sonst
 der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, 57. P2-Lauf (Achilleus Tatius destilliert, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Prompt nennt bewusst keine Zahlen mehr):
+`KORPUS-QUEUE.md`, dieses CHANGELOG und die Inventardatei übereinstimmend auf 56 Läufe,
+4 offene Namenslisten-Positionen, nächster Kandidat Achilleus Tatius S. 155. Working
+tree zu Laufbeginn bereits sauber (Vorlauf-Arbeit vom 15-Min-Cron selbständig committet,
+Commit `128b8aaab`).
+
+Achilleus Tatius, «Leukippe und Kleitophon» (2. Jh. n. Chr.), Buch V,1, S. 155-156, per
+`/opt/homebrew/bin/pdftoppm -png -f 159 -l 160 -r 150` gerendert (PDF-Seite = gedruckte
+Seite + 4), vollständig gelesen — ein kurzer, sechs Absätze langer Auszug. Reisebericht
+über die Ankunft des Ich-Erzählers in Alexandria: eine gerade, beidseitig von Kolonnaden
+gesäumte Strassenachse verbindet das «Sonnentor» mit dem gegenüberliegenden «Mondtor»
+(Torbenennung nach den Schutzgottheiten), dazwischen die Stadtebene mit zahlreichen
+Querstrassen; ausserhalb der Stadt beim Alexander-Ort eine zweite, rechtwinklig gekreuzte
+Kolonnadenreihe. Abschluss mit reiner Staunensrhetorik (Stadt grösser als ein Kontinent,
+Bevölkerung zahlreicher als ein Volk) ohne belegbaren Kennwert. Destilliert → neuer
+Artikel
+[[achilleus-tatius-alexandria-kolonnadenstrassen-kreuzraster-stadtbeschreibung]],
+`status: speculative` (literarischer Roman, keine technische oder amtliche Quelle).
+
+Gegen Wiki-Bestand geprüft (`grep -rli` alexandria/kolonnade/säulenstrasse über
+`wiki/*.md`): kein inhaltlicher Duplikat-Fund. Der bestehende Artikel
+[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]] behandelt
+dieselbe Stadt, aber die Gründungsflächen (chlamys-förmiger Umriss, Flächenreservierung
+für die Königsburg) statt der Strassenform — kein Duplikat, sondern Ergänzung; dort per
+Nachtrag rückverlinkt. Zusätzlich verlinkt mit
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]] (Aussenblick
+auf dieselbe hippodamische Rasterlogik, hier als Seherlebnis statt Vermessungsschema).
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append. Aus der Namensliste
+bleibt nach Achilleus Tatius offen: Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247) — 3 Positionen. **Nächster Lauf:** Ausonius (157) als
+nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.

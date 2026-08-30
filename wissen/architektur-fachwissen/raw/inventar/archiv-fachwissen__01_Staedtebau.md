@@ -2756,3 +2756,24 @@ bleibt nach Pausanias offen: Achilleus Tatius (155), Ausonius (157), Salvianus (
 Francesco Colonna/Hypnerotomachia (247) — 4 Positionen. **Nächster Lauf:** Achilleus
 Tatius (155) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste
 der Reihe nach.
+
+**30.08.2026, 57. P2-Lauf (Lane FACHWISSEN):** Achilleus Tatius (155, **jetzt
+destilliert**), «Leukippe und Kleitophon», Buch V,1, S. 155-156, per `pdftoppm -f 159
+-l 160 -r 150` gerendert, vollständig gelesen (kurzer Auszug, sechs Absätze). Reisebericht
+über die Ankunft in Alexandria: Kolonnadenstrassen-Achse zwischen «Sonnentor» und
+«Mondtor», Querstrassennetz über die dazwischenliegende Stadtebene, zweite gekreuzte
+Kolonnadenreihe beim Alexander-Ort ausserhalb der Stadt, abschliessende Staunensrhetorik
+(Stadt grösser als ein Kontinent, Bevölkerung zahlreicher als ein Volk) ohne belegbaren
+Kennwert. Destilliert →
+[[achilleus-tatius-alexandria-kolonnadenstrassen-kreuzraster-stadtbeschreibung]]
+(`status: speculative`, literarischer Roman, keine technische Quelle), verlinkt mit
+[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]] (dort per
+Nachtrag rückverlinkt) und
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]. Gegen
+Wiki-Bestand geprüft (`grep -rli` alexandria/kolonnade/säulenstrasse über `wiki/*.md`):
+kein inhaltlicher Duplikat-Fund, nur die bestehende Plinius-Alexandria-Beschreibung
+(andere Textstelle, ergänzend statt überschneidend). `git diff --numstat` auf diese
+Inventardatei zeigt reinen Append. Aus der Namensliste bleibt nach Achilleus Tatius
+offen: Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) — 3
+Positionen. **Nächster Lauf:** Ausonius (157) als nächster im Seitenverlauf liegender
+Kandidat, sonst der Rest der Liste der Reihe nach.

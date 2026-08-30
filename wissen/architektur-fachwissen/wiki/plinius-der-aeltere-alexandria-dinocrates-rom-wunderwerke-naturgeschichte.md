@@ -3,7 +3,7 @@ title: "Plinius der Ältere: Alexandria-Gründung durch Dinocrates und Roms Infr
 status: emerging
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/01_Staedtebau/06_Theorie_des_Staedtbaus/Lampugnani_Vitorio/Quellentextband-1.pdf, S. 113-116 (Plinius der Ältere, «Naturgeschichte» [Naturalis historia], Buch V, 11 (Alexandria) und Buch XXXVI, 24 (Wunderwerke Roms), hier nach Auszug in: Vittorio Magnago Lampugnani (Hrsg.), Texte zur Geschichte des Städtebaus, Band I: Von der Antike zum Barock, ETH Zürich 1996, S. 113-116 vollständig gelesen, Fraktursatz)"]
-links: ["[[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]", "[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]"]
+links: ["[[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]", "[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]]", "[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]", "[[achilleus-tatius-alexandria-kolonnadenstrassen-kreuzraster-stadtbeschreibung]]"]
 ---
 
 # Plinius der Ältere: Alexandria-Gründung durch Dinocrates und Roms Infrastruktur-Wunderwerke (Naturalis historia)
@@ -85,3 +85,8 @@ für Ehrenhäuser ist ein seltener Beleg für eine antike Bauvorschrift mit Stra
 ohne dass der Auszug erkennen lässt, ob dies Einzelfall oder verbreitete Praxis war — offen.
 Nicht aufgelöst: die widersprüchlichen Grössenangaben zum See Mareotis (von Plinius selbst
 als Diskrepanz markiert, hier unkommentiert übernommen).
+
+**Nachtrag 30.08.2026:** die Flächenangaben hier werden durch
+[[achilleus-tatius-alexandria-kolonnadenstrassen-kreuzraster-stadtbeschreibung]] (2. Jh.
+n. Chr.) um die tatsächlich wahrgenommene Strassenform ergänzt — ein Kreuzraster aus
+Kolonnadenachsen zwischen Sonnentor und Mondtor, mit Querstrassen über die Stadtebene.

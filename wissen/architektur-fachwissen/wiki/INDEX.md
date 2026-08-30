@@ -2107,4 +2107,16 @@ Nachtrag rückverlinkt) sowie
 [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]. Nach
 Pausanias bleiben 4 Positionen offen: Achilleus Tatius (155), Ausonius (157), Salvianus
 (159), Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Achilleus Tatius (155).
+
+**30.08.2026 (Lane FACHWISSEN, 57. P2-Lauf):** Achilleus Tatius, «Leukippe und
+Kleitophon», Buch V,1 (Reisebericht Ankunft Alexandria: Kolonnadenstrassen-Kreuzraster
+zwischen Sonnentor und Mondtor, Querstrassen über die Stadtebene, Staunensrhetorik Grösse
+Stadt/Bevölkerung), S. 155-156 vollständig gelesen, destilliert →
+[[achilleus-tatius-alexandria-kolonnadenstrassen-kreuzraster-stadtbeschreibung]]
+(`status: speculative`, literarischer Roman statt technischer Quelle), verlinkt mit
+[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]] (dort per
+Nachtrag rückverlinkt) und
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]. Nach
+Achilleus Tatius bleiben 3 Positionen offen: Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247). Nächster Lauf: Ausonius (157).
 Details CHANGELOG 30.08.2026.
