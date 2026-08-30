@@ -1,7 +1,7 @@
 ---
 title: "INDEX architektur-fachwissen"
 status: established
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 sources:
   - "raw/inventar/ (43 Sektionsinventare: 23 buero-referenzen, 20 archiv-fachwissen, Stand 29.08.2026)"
   - "wissen/architektur-fachwissen/CLAUDE.md (Korpus-Zuschnitt)"
@@ -87,7 +87,7 @@ jeweiligen Inventar unter «Triage».
 | 13 | `01_Entwerfen` | archiv | 6 / 1'246 — **P1 vollständig destilliert 29.08.2026, fünf Artikel** | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). P2 (elf Positionen: Ausbau-Variantenvergleich, Raumtypologie-Vorlesung, SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe, Fachglossare Farbe/Pigmente, Farbenlehre-Website, Ornamentik-Literaturliste, eigene Ideentexte, Class-A-Problem-Vokabular, Ikonographie-Raster u. a.) offen. | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
 | 14 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
 | 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 — **P1 vollständig destilliert 29.08.2026, vier Artikel** | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Naturstein-Materialkunde, Baumpflanzung/Kletterpflanzen und eine Pflanzenliste (Vogt-Broschüren). Dachbegrünung als Cross-KB-Duplikat zu `bauprodukte/dachbegruenung-systeme.md` erkannt, nicht erneut destilliert. Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). P2 (24 Positionen, u. a. Gartenanalyse-Raster, Stadtbaum-Merkblatt Luzern, Vogt-Projektbroschüren) offen. | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
-| 16 | `01_Tragwerk` | archiv | 4 / 1'098 P1, 9/31 P2 — **P1 vollständig destilliert 29.08.2026 (zwei Artikel), P2 in drei Läufen 30.08.2026 (acht weitere Artikel/Ergänzungen)** | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen (Grubenmann-Kirchen, inkl. Knotenpunkt-Details), Werkverzeichnis der Grubenmann-Brücken (Schaffhauser Rheinbrücke), Tragwerksentwurf-Philosophie (Plastizitätstheorie, Eleganz im Brückenbau), Formfindungsmethode nach Frei Otto (Fallbeispiel Stuttgart 21), einem Literaturregister Holzbau, einem Werkregister Schwartz'scher Bauten 1992-2011, einem Erläuterungstext-Muster (Counterpoise) und einer Aufgabenstellungs-Gliederung mit Randbedingungen (Bridging the Gap). Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). P2 (22 Positionen offen, u. a. drei Kraftfluss-Darstellungsvarianten, textlose Bildscans, ein 109-seitiger Reader ohne lesbaren Seitenbereich — fehlendes `poppler`). | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
+| 16 | `01_Tragwerk` | archiv | 4 / 1'098 P1, 13/31 P2 — **P1 vollständig destilliert 29.08.2026 (zwei Artikel), P2 in vier Läufen 30.08.2026 (zwölf weitere Artikel/Ergänzungen)** | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen (Grubenmann-Kirchen, inkl. Knotenpunkt-Details), Werkverzeichnis der Grubenmann-Brücken (Schaffhauser Rheinbrücke), Tragwerksentwurf-Philosophie (Plastizitätstheorie, Eleganz im Brückenbau), Formfindungsmethode nach Frei Otto (Fallbeispiel Stuttgart 21), einem Literaturregister Holzbau, einem Werkregister Schwartz'scher Bauten 1992-2011, einem Erläuterungstext-Muster (Counterpoise), einer Aufgabenstellungs-Gliederung mit Randbedingungen (Bridging the Gap), einer Formfindungstaxonomie digitaler Holzkonstruktion (Eierschneider/Falt/Kassetten/Flecht), einem Werkregister Bieler-Holzbrücken, einem Werkregister Christian Menn (Stabbogen-vs-Hohlkasten) und dem Ähnlichkeitsgesetz Struktur-Modell (Galileo-Bezug). Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). P2 (18 Positionen offen, u. a. drei Kraftfluss-Darstellungsvarianten und ein 109-seitiger Reader ohne lesbaren Seitenbereich — fehlendes `poppler`). | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
 | 17 | `00_Allgemein` | archiv | 3 / 19 | Meta-Ebene des Archivs: Ordnungslogik (24 Hauptordner) und ein eigenes 14-teiliges Fachsystematik-Konzeptpapier von 2011, kein Fachinhalt im engeren Sinn. | `raw/inventar/archiv-fachwissen__00_Allgemein.md` |
 | 18 | `02_Architektur_Vermitteln` | archiv | 3 / 85 | Lehrmaterial zur Vermittlung: Rhetorik, Moderation, Protokoll, Geschäftskorrespondenz, wissenschaftliches Arbeiten — direkt anschlussfähig an mehrere JANS-Skills. Datenschutz-Fund: private Kontaktdaten Dritter auf Studienarbeits-Titelblättern, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__02_Architektur_Vermitteln.md` |
 | 19 | `12_Masse` | buero | 2 / 11 | Acht gescannte Seiten einer Konstruktionslehre Hochbau tragen die Achs- und Wandabstände von Sanitärapparaten in den drei Stufen Minimum, Durchschnitt und Komfort über sieben Nasszellen-Grundrisstypen, dazu Montagehöhen und hindernisfreie WC-Masse; die übrigen neun Dateien sind Dubletten oder unbelegt. | `raw/inventar/buero-referenzen__12_Masse.md` |
@@ -1176,3 +1176,38 @@ Modell-Belastungstest-Blatt (Skalierungsmodell-Bilder, Galileo-Bezug), sowie
 `Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf`. Nächster Lauf: `poppler`-Installation
 abwarten/anfragen, oder gemäss Queue-Regel zu `02_Architektur_Vermitteln`/
 `01_Landschaftsarchitektur` wechseln.
+
+## 260830 — Sechsundzwanzigster Destillat-Lauf (Korpus 4, Sektion `01_Tragwerk`, vierter P2-Lauf)
+
+Werkzeuglücke revidiert: die als «ohne Textlayer» eingestuften vier Bildscans lassen sich
+mit dem Read-Tool dieser Station direkt lesen (eigene PDF-Rendering-Pipeline, unabhängig
+vom fehlenden System-`pdftoppm` — funktioniert bei Einzeldateien unter rund 2,5 MB ohne
+Seitenbereichs-Parameter). Vier P2-Positionen destilliert:
+
+- ArchPlus 193 (9/2009, Kraft/Schindler, «Mit oder gegen Holz») → neuer Artikel
+  [[digitale-schreinerei-formfindungstaxonomie-eierschneider-falt-flecht]]
+  (Vier-Prinzipien-Taxonomie: Eierschneider einfach/zweifach, Faltstrukturen,
+  Kassettenelemente, Flechtstrukturen, 14 Werkbeispiele 2005-2009).
+- Archithese 6.02 (Walter Bieler, «Täler mit Holz überspannen») → neuer Artikel
+  [[bieler-holzbruecken-werkregister-graubuenden-ostschweiz]] (neun Werke, Prinzip
+  Tragwerk-unter-Fahrbahn statt Dach).
+- ETH-Ehrenpromotions-Broschüre Christian Menn (Schlaich-Laudatio, unbezeichneter
+  Fachaufsatz, Menns Verdankung, zwei Dateien vollständig) → neuer Artikel
+  [[christian-menn-werkregister-stabbogen-hohlkasten-brueckenbaukultur]] (Werkregister
+  neun Bauten/Projekte, Stabbogen-vs-Hohlkasten-Argumentation) — gegen
+  [[tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau]] geprüft, kein Duplikat
+  (dort Eleganzdebatte, hier Werkregister/Technik).
+- Skalierung_Modelle (4 JPG, vollständig) → neuer Artikel
+  [[modellstatik-aehnlichkeitsgesetz-struktur-modell-skalierung]] (Ähnlichkeitsgesetz-
+  Tabelle Struktur-1:1-vs-Modell-1:x, Galileo-Bezug 1636).
+
+`git diff --numstat` auf Inventardatei zeigt `39 0` (reiner Append). Erneuter Versuch am
+109-seitigen Reader mit Seitenbereichs-Parameter bestätigt die Werkzeuglücke unverändert
+(`pdftoppm is not installed`) — die native Rendering-Pipeline greift nur ohne
+Seitenbereich bei kleinen Einzeldateien, nicht bei grossen Dateien mit Seitenbereich.
+
+18 P2-Positionen bleiben offen: die drei Kraftfluss-Darstellungsvarianten (weiterhin als
+eigenständiger Artikel zu dünn), der 109-seitige Reader (`QUESTIONS.md` #72), sowie
+`Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf` (P3). Nächster Lauf: `poppler`-Installation
+abwarten/anfragen, oder gemäss Queue-Regel zu `02_Architektur_Vermitteln`/
+`01_Landschaftsarchitektur` wechseln (je rund 12 P2-Positionen).

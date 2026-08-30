@@ -1,5 +1,71 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Tragwerk`, vierter P2-Lauf (Lane FACHWISSEN, 50. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut identisch veraltet («noch kein Destillat und keine Spec ... 2
+Wiki-Artikel», Station fälschlich «MacBook Pro»). Vor Arbeitsbeginn `scutil` (bestätigt
+Macmini), `ps aux` (ein einziger `claude -p`-Prozess, keine Doppel-Instanz) und
+`KORPUS-QUEUE.md`/`CHANGELOG.md` geprüft. Unkommittierte Grubenmann-Buchführung des
+Vorlaufs zuerst per `nas-commit-now.sh` gesichert (bekannter Merge-Konflikt in sieben
+fremden Dateien/KBs, lokaler Working Tree sauber ohne `MERGE_HEAD`/Konfliktmarker, dem
+15-Min-Cron überlassen — hat binnen Minuten selbständig committet/gepusht).
+
+**Werkzeuglücke revidiert:** die vier zuvor als «ohne Textlayer, OCR nötig» eingestuften
+Bildscans lassen sich mit dem Read-Tool dieser Station direkt lesen — das Tool bringt eine
+eigene PDF-Rendering-Pipeline mit, die unabhängig vom fehlenden System-`pdftoppm`
+funktioniert, allerdings nur bei Einzeldateien ohne Seitenbereichs-Parameter (getestet bis
+rund 2,5 MB). Vier P2-Positionen destilliert:
+
+- ArchPlus 193 (9/2009, Sabine Kraft/Christoph Schindler, «Mit oder gegen Holz — Digitale
+  Schreinerei», vollständig gelesen) → neuer Artikel
+  `wiki/digitale-schreinerei-formfindungstaxonomie-eierschneider-falt-flecht.md`:
+  Vier-Prinzipien-Taxonomie digitaler Holzformfindung (Eierschneider einfach/zweifach,
+  Faltstrukturen, Kassettenelemente, Flechtstrukturen) mit 14 Werkbeispielen 2005-2009
+  (u. a. Metropol Parasol, Serpentine Gallery Pavilion, Centre Pompidou Metz) samt der
+  methodischen Kritik der Autoren an rein additiver, nicht materialgerechter Formgebung.
+- Archithese 6.02 (Walter Bieler, «Täler mit Holz überspannen», vollständig gelesen) →
+  neuer Artikel `wiki/bieler-holzbruecken-werkregister-graubuenden-ostschweiz.md`:
+  Werkregister von neun Holzbrücken Graubünden/Ostschweiz mit Baujahr/Länge/Struktur, dazu
+  Bielers Grundprinzip Tragwerk-unter-der-Fahrbahn (übernimmt Dachfunktion, keine
+  Anprallast aufs Tragwerk).
+- ETH-Ehrenpromotions-Broschüre Christian Menn (zwei Dateien, vollständig gelesen: Jörg
+  Schlaichs Laudatio, ein unbezeichneter Fachaufsatz, Menns Verdankung) → neuer Artikel
+  `wiki/christian-menn-werkregister-stabbogen-hohlkasten-brueckenbaukultur.md`:
+  Karriereverlauf, Werkregister von neun Bauten/Projekten (u. a. Ganterbrücke Simplon,
+  Chandoline-Brücke Sion, das nicht realisierte Charles-River-Crossing-Projekt Boston) und
+  die technische Stabbogen-vs-Hohlkasten-Argumentation — gegen den bestehenden Artikel
+  `wiki/tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau.md` geprüft (dort bereits
+  Menns Eleganz-Zitat und die Letziwaldbrücke über eine andere Quelle behandelt), kein
+  Duplikat, da hier Werkregister und Technik statt Eleganzdebatte im Fokus stehen. Zwei
+  Zitatstellen aus dem unbezeichneten Fachaufsatz liessen sich wegen Scanqualität nur
+  sinngemäss rekonstruieren, im Artikel unter «Offen» als unsicher gekennzeichnet.
+- `Weiteres Material/Skalierung_Modelle/` (4 JPG, vollständig gesichtet) → neuer Artikel
+  `wiki/modellstatik-aehnlichkeitsgesetz-struktur-modell-skalierung.md`: handschriftliche
+  Ähnlichkeitsgesetz-Tabelle (Struktur 1:1 vs. Modell 1:x, Eigengewicht g/x³, Querschnitte
+  A/x², Nutzlast pro m² skalenunabhängig) mit historischem Bezug auf Galileo Galileis
+  Quadrat-Kubik-Gesetz (Discorsi 1636) und zwei unbeschrifteten Fotos eines
+  Belastungsversuchs.
+
+Erneuter, gezielter Versuch am 109-seitigen `111002_Reader_alle_Seiten.pdf` mit dem
+Read-Tool-Parameter für Seitenbereiche (statt Bash/System-`pdftoppm` wie im Vorlauf):
+schlägt mit identischer Fehlermeldung `pdftoppm is not installed` fehl — die native
+Rendering-Pipeline des Tools greift nur bei kleinen Einzeldateien ohne Seitenbereich, bei
+grossen Dateien mit Seitenbereichs-Parameter fällt sie auf das fehlende System-`poppler`
+zurück. `QUESTIONS.md` #72 bleibt unverändert offen.
+
+`git diff --numstat` auf Inventardatei zeigt `39 0` (reiner Append, keine Löschung).
+
+**18 P2-Positionen dieser Sektion bleiben offen:** die drei Kraftfluss-Darstellungsvarianten
+(weiterhin als eigenständiger Artikel zu dünn beurteilt, Methode bereits im Kurzbefund
+beschrieben), der 109-seitige Reader mit seinen 13 zitierten Quelltexten (Werkzeuglücke),
+sowie `Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf` (P3, nicht P2). Kein neuer
+Datenschutz-Fund; Sperrvermerk Seite 4 des Readers und die Teilnehmerlisten-CSV/XLSX
+erneut nicht geöffnet. **Nächster Lauf:** `01_Tragwerk` mit den drei verbliebenen
+Diagrammen abschliessen (dünner Ertrag) oder gemäss Queue-Regel zur nächstgrössten Sektion
+mit offenem P2 wechseln (`02_Architektur_Vermitteln` oder `01_Landschaftsarchitektur`, je
+rund 12 P2-Positionen) — `poppler`-Installation weiterhin empfehlenswert, um den Reader
+und künftige grosse Scans nutzbar zu machen.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Tragwerk`, dritter P2-Lauf (Lane FACHWISSEN, 49. Beispiel Memory `project_fachwissen-dispatch-loop`)
 
 Dispatch-Text erneut veraltet (behauptet «noch kein Destillat und keine Spec ... KB hat erst

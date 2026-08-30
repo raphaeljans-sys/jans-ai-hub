@@ -313,3 +313,42 @@ Modell-Belastungstest-Blatt, `Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf` so
 Skalierungsmodell-Bilder). Kein neuer Datenschutz-Fund; die CSV/XLSX-Teilnehmerliste in
 `Weiteres Material/` wurde erneut nicht geöffnet (Sperrliste), Sperrvermerk Seite 4 des
 Readers erneut beachtet.
+
+**30.08.2026 (Lane FACHWISSEN, vierter P2-Lauf dieser Sektion).** Werkzeuglücke bei den
+4 als «ohne Textlayer» eingestuften Bildscans revidiert: das Read-Tool dieser Station
+extrahiert Text und Bildinhalt auch aus Scans ohne Textlayer direkt (eigene Rendering-
+Pipeline, unabhängig vom fehlenden System-`pdftoppm`) — funktioniert bei allen vier
+Dateien unter rund 2,5 MB. Alle vier destilliert:
+
+- `08_Archplus_Mit_oder_gegen_Holz.pdf` (ArchPlus 193, 9/2009, Kraft/Schindler) →
+  `wiki/digitale-schreinerei-formfindungstaxonomie-eierschneider-falt-flecht.md`
+  (Vier-Prinzipien-Taxonomie digitaler Holzformfindung, 14 Werkbeispiele).
+- `10_Archithese_Taeler_mit_Holz_ueberspannen.pdf` (Archithese 6.02, Walter Bieler) →
+  `wiki/bieler-holzbruecken-werkregister-graubuenden-ostschweiz.md` (neun Werke,
+  Prinzip Tragwerk-unter-Fahrbahn).
+- `11_Christian_Menn_Reden_und_Aufsaetze.pdf` + `20110930125418873.pdf` (beide vollständig,
+  ETH-Ehrenpromotions-Broschüre: Schlaich-Laudatio, unbezeichneter Fachaufsatz, Menns
+  Verdankung) → `wiki/christian-menn-werkregister-stabbogen-hohlkasten-brueckenbaukultur.md`
+  (Werkregister neun Bauten/Projekte, Stabbogen-vs-Hohlkasten-Argumentation) — gegen den
+  bestehenden Artikel `wiki/tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau.md`
+  geprüft (dort bereits Menn-Eleganzzitat und Letziwaldbrücke über andere Quelle
+  beschrieben), kein Duplikat, da hier Werkregister/Technik statt Eleganzdebatte im
+  Fokus steht.
+- `Weiteres Material/Skalierung_Modelle/` (4 JPG) → nach Sichtung aller vier Bilder
+  vollständig destilliert zu
+  `wiki/modellstatik-aehnlichkeitsgesetz-struktur-modell-skalierung.md`
+  (Ähnlichkeitsgesetz-Tabelle Struktur-1:1-vs-Modell-1:x, Galileo-Bezug 1636, zwei
+  unbeschriftete Belastungsversuch-Fotos).
+
+Erneuter Versuch, den 109-seitigen `111002_Reader_alle_Seiten.pdf` selektiv mit
+Seitenbereich zu lesen: schlägt weiterhin fehl, diesmal mit expliziter Fehlermeldung
+`pdftoppm is not installed` — bestätigt, dass die native Rendering-Pipeline des Read-Tools
+nur bei kleinen Einzeldateien ohne Seitenbereichs-Parameter greift, bei grossen Dateien mit
+Seitenbereich aber auf das fehlende System-`poppler` zurückfällt. Bleibt offen
+(`QUESTIONS.md` #72 unverändert gültig).
+
+18 P2-Positionen dieser Sektion bleiben offen: die drei Kraftfluss-Darstellungsvarianten
+(weiterhin als eigenständiger Artikel zu dünn, Methode bereits im Kurzbefund beschrieben),
+der 109-seitige Reader mit seinen 13 zitierten Quelltexten (Werkzeuglücke), sowie
+`Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf` (P3, nicht P2). Kein neuer
+Datenschutz-Fund.

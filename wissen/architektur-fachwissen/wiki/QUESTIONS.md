@@ -11,12 +11,23 @@ grosser PDF (z. B. `pages: "5-15"`) setzt `pdftoppm` aus dem Paket `poppler` vor
 dieser Station (Macmini) nicht installiert (`brew install poppler` würde es nachrüsten).
 Ohne Seitenbereich lässt sich eine 52-MB/109-Seiten-Datei
 (`.../110928_Reader_Seminarwoche/PDF/111002_Reader_alle_Seiten.pdf`) nicht in einem
-Werkzeugaufruf lesen. Betroffen: das Modell-Belastungstest-Blatt (Ähnlichkeitsgesetz, Bezug
-Galileo «Discorsi» 1636) und 13 im Reader zitierte Quelltexte (Lévi-Strauss, Sennett,
-Pallasmaa u. a.), alle als P2/P3 in `raw/inventar/archiv-fachwissen__01_Tragwerk.md`
-gelistet. Vierte Formatlücke dieser Art nach InDesign (#69), verschlüsselter Foliensammlung
-(#69) und GarageBand (#70). Wer beantworten kann: Raphael (`poppler` auf der Station
-installieren) oder eine Station, auf der es bereits vorhanden ist.
+Werkzeugaufruf lesen. Betroffen: 13 im Reader zitierte Quelltexte (Lévi-Strauss, Sennett,
+Pallasmaa u. a.), als P2/P3 in `raw/inventar/archiv-fachwissen__01_Tragwerk.md` gelistet.
+Vierte Formatlücke dieser Art nach InDesign (#69), verschlüsselter Foliensammlung (#69) und
+GarageBand (#70). Wer beantworten kann: Raphael (`poppler` auf der Station installieren)
+oder eine Station, auf der es bereits vorhanden ist.
+
+**Nachtrag 30.08.2026 (vierter P2-Lauf):** Teilweise erledigt — das Modell-
+Belastungstest-Blatt (Ähnlichkeitsgesetz, Bezug Galileo «Discorsi» 1636) liess sich **ohne**
+`poppler` lesen, da es als vier einzelne JPG (nicht als PDF-Seitenbereich) vorliegt;
+destilliert zu `wiki/modellstatik-aehnlichkeitsgesetz-struktur-modell-skalierung.md`. Ebenso
+liessen sich vier zuvor als «ohne Textlayer» eingestufte, aber als eigenständige
+Kleindateien vorliegende PDF-Scans (unter rund 2,5 MB) direkt lesen — das Read-Tool bringt
+offenbar eine eigene, von `pdftoppm` unabhängige Rendering-Pipeline mit, die aber bei
+grossen Dateien mit explizitem Seitenbereichs-Parameter weiterhin auf das fehlende
+System-`poppler` zurückfällt (erneut getestet, gleiche Fehlermeldung). Die Einschränkung
+gilt also nach jetzigem Kenntnisstand **nur noch** für grosse Einzeldateien, die einen
+Seitenbereich brauchen — wie den 109-seitigen Reader.
 
 ## 260830 — Zweiter P2-Lauf Sektion `02_Architekturtheorie` (Korpus 4): Inventar-Lücke Fragen-Unterordner
 
