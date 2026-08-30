@@ -582,3 +582,48 @@ Architekten, Bauherren und Bauwerke.
 `git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
 **Nächster Lauf:** Kapitel `08 BAUHAUS DE STIJL` lesen, davor Duplikatscheck gegen
 Wiki-Bestand (hoher Duplikatsverdacht).
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `08 BAUHAUS DE STIJL` (77. Lauf, Lane FACHWISSEN)
+
+**Stand selbst ermittelt** (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`
+zeigte die Zell-Notiz nach dem 75. Lauf, `CHANGELOG.md` und diese Inventardatei bestätigten
+jedoch, dass der 76. Lauf (Kapitel 07) bereits abgeschlossen und committet war (Top-Commit
+`9076e6feb`) — die Queue-Zelle war nur redaktionell nicht nachgeführt. Kein unkommittierter
+Vorlauf-Rest vorgefunden.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -lni "gropius|dessau|rietveld|meisterhäus|
+haus schröder|siedlung törten"` gegen `wiki/*.md` ergab ausschliesslich beiläufige
+Erwähnungen — in
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] dieselben neun
+Bauten bereits als knappe Kanon-Zeilen 55-59 ohne Beschreibungstext (wie bei Kapitel 05-07
+kein Artikel-Duplikat), sowie ein Nebensatz zu Le Corbusiers «Wohnmaschine» in
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]] (anderer Kontext). Kein
+eigenständiger Beschreibungs-Kanon zu Bauhaus/De Stijl vorhanden.
+
+**Hauptarbeit:** Kapitel `08 BAUHAUS DE STIJL.pdf` (13 S.) vollständig gelesen (pypdf) und
+destilliert zu
+[[sauter-bauhaus-de-stijl-dessau-utrecht-acht-bauten-kanon]]: Acht-Bauten-Kanon 1904-1926
+(Weimar/Kunstgewerbeschule-Vorläufer/van der Velde, Dessau/Haus Sommerfeld/Gropius,
+Jena/Theaterumbau/Gropius+Meyer, Dessau/Bauhausgebäude/Gropius, Dessau/Meisterhäuser/
+Gropius, Dessau/Siedlung Törten/Gropius, Utrecht/Haus Schröder/Rietveld, Rotterdam/Café De
+Unie/Oud), vier Kurzbiografien (Gropius mit Rückverlinkung zum Expressionismus-Artikel,
+Hannes Meyer, Rietveld, Oud), Lehrenden-/Mitgliederliste laut Quelle,
+gesellschaftspolitischer Rahmen (Neubeginn nach 1. Weltkrieg, Bauhaus-Manifest-Zitat
+Gropius, Auflösung 1932/33, Emigration, De-Stijl-Kubismus-Bezug). Ein Glossarbegriff
+(«Wohnmaschine», mit Abgrenzung zu Le Corbusiers bekannterer Prägung in
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]]).
+
+**4 der 13 Sauter-Dateien bleiben offen:** Kapitel `09`-`11` (Le Corbusier/Mies van der Rohe,
+Klassische Moderne/Neues Bauen, Moderne-Postmoderne). Hohe Duplikatswahrscheinlichkeit bei
+Kapitel 09 erwartet (Le Corbusier, Mies van der Rohe — in dieser KB bereits andernorts
+behandelt, u. a.
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]],
+[[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]]), Duplikatscheck dort
+zwingend vor dem Schreiben.
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Lehrende und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `09 LE CORBUSIER MIES VAN DER ROHE` (Dateiname vor Ort prüfen)
+lesen, davor Duplikatscheck gegen Wiki-Bestand (hoher Duplikatsverdacht).
