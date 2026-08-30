@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 23:56:13
+Stand: 31.08.2026 00:06:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:34)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 23:56:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 287b780d3 Fachwissen: 01_Landschaftsarchitektur Topografie-Skript destilliert (2 Artikel)
+- e3843183b Lane FACHWISSEN: Renaissance-Prüfungsskript destilliert (Terza Natura, Gartengestaltung), INDEX/CHANGELOG nachgetragen
