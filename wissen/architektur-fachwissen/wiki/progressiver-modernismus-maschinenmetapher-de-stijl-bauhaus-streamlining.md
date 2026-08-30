@@ -15,7 +15,10 @@ Design-Enzyklopädie-Website wie mehrere andere Artikel dieser Sektion (kein Imp
 Sekundärquelle ohne akademische Beleghaltigkeit, daher `status: speculative`). Ausgewertet:
 `mo2ein.htm`, ein einführender Überblicksessay zur Epoche (nicht personenbezogen), der als
 Klammer über zahlreiche bereits einzeln destillierte Personen-/Bewegungsartikel dieser KB
-dient. Anders als die übrigen Artikel dieser Sektion wird hier kein Einzelschicksal, sondern
+dient. Inhaltliches Gegenstück (traditionsbewusster Pol derselben Zwischenkriegsmoderne):
+[[konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939]] (Quelle
+`mo1ein.htm`, nachträglich ergänzt 30.08.2026). Anders als die übrigen Artikel dieser
+Sektion wird hier kein Einzelschicksal, sondern
 die Bewegung als Ganzes referiert — daher als eigenständiger Übersichtsartikel statt als
 Ergänzung eines Personenartikels.
 

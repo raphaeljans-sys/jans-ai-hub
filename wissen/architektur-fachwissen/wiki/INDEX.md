@@ -2800,3 +2800,53 @@ Dateigrösse (`bellini.htm`, `50-60ein.htm`, `mo1ein.htm`, `race.htm`, `krise.ht
 `bugholz.htm`, `day.htm`) — bei `schichtholz.htm`/`behrens.htm` vorab prüfen, ob Ergänzung
 bestehender Artikel treffender ist als eigener, sonst laut Queue-Regel nächste Sektion mit
 offenem P1/P2.
+
+## 125. Lauf (30.08.2026, Lane FACHWISSEN): Zeile 68 fortgesetzt
+
+Stand selbst ermittelt (KORPUS-QUEUE-Historie plus programmatischer Abgleich `find` gegen
+alle in `wiki/*.md` referenzierten `.htm`-Dateinamen, ohne `INDEX.md`/`QUESTIONS.md`).
+Bestätigt: die vom 124. Lauf empfohlenen 19 Restpositionen sind tatsächlich noch keine in
+einem Wiki-Artikel referenziert. Die drei kleinsten davon nach Dateigrösse gelesen und per
+Tag-Strip-Vorschau als inhaltstragend bestätigt: `bellini.htm` (9,6 KB), `50-60ein.htm`
+(10,4 KB), `mo1ein.htm` (11,7 KB).
+
+Drei neue Wiki-Artikel:
+[[mario-bellini-olivetti-cassina-vitra-italienisches-produktdesign]] (Mario Bellini,
+geb. 1935; Olivetti-Werkchronologie Divisumma 18 → Lettera 10 → Logos 80 → ETP55, Möbel für
+Cassina/C&B Italia — Colonnato, Cab, Teneride —, Bürostühle Figur/Persona für Vitra,
+Domus-Chefredaktion 1986–1991; löst den bislang offenen Punkt in
+[[cassina-moebelfirma-mailand-designerroster-i-maestri]] auf, wo Bellini nur mit einem
+Produktbeispiel belegt war — dort per Anhang verlinkt, kein Duplikat),
+[[konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939]] (Übersichtsartikel
+aus `mo1ein.htm`, inhaltliches Gegenstück zu
+[[progressiver-modernismus-maschinenmetapher-de-stijl-bauhaus-streamlining]]; verklammert
+die bestehenden Artikel zu Ruhlmann/Klint, Paris 1925, Aalto und Mackintosh in einer
+gemeinsamen Epochen-Erzählung «Traditionsbewahrung statt Maschinen-Idealismus»; Rückverweis
+im Gegenartikel ergänzt) und
+[[der-neue-modernismus-nachkriegsdesign-1945-1960-nationale-identitaeten]] (Übersichtsartikel
+aus `50-60ein.htm`, dritter Epochenartikel dieser Sektion, chronologischer Anschluss an die
+beiden Zwischenkriegs-Überblicke; verklammert Aalto/Eames/Jacobsen, Nizzoli, Rams, Grange,
+Sony, italienisches Nachkriegsdesign und Nelson in der Erzählung «Design als nationales
+Identitätsprojekt nach 1945»).
+
+Duplikatscheck vorab für alle drei Themen über `wiki/*.md` (ohne `INDEX.md`/`QUESTIONS.md`):
+Bellini nur als ein Werkbeleg in der Cassina-Roster-Liste (kein eigener Artikel, daher neu
+statt Duplikat), «50-60ein»/«mo1ein» als reine Überblicksessays ohne Namensträger (Abgleich
+gegen bestehende Überblicksartikel-Paar mo2ein/progressiver-modernismus bestätigte:
+inhaltlich komplementär, keine Überschneidung).
+
+Damit sind 76 von 128 `.htm`-Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert.
+16 inhaltstragende Positionen bleiben offen: `race.htm`, `krise.htm`, `mollino.htm`,
+`maugham.htm`, `mailand.htm`, `schichtholz.htm`, `behrens.htm`, `wegner.htm`, `mathsson.htm`,
+`coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`, `deskey.htm`, `bugholz.htm`,
+`day.htm`.
+
+`git diff --numstat` auf die Inventardatei zeigte keine Änderung (Sammelzeile bleibt
+unverändert). Auf die drei neuen Wiki-Dateien reine Neuanlage; die beiden ergänzten
+Bestandsartikel (Cassina-Roster, Progressiver-Modernismus) zeigten reine Anhänge (`6 0` bzw.
+`4 1`, die eine Löschzeile ist der für die Einfügung aufgetrennte Ursprungssatz, kein
+Inhaltsverlust). Details CHANGELOG 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:**
+Fortsetzung nach Dateigrösse unter den 16 verbliebenen Positionen (`race.htm` als kleinste
+zuerst; bei `schichtholz.htm`/`behrens.htm` weiterhin vorab prüfen, ob Ergänzung
+bestehender Artikel treffender ist als eigener), sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2.

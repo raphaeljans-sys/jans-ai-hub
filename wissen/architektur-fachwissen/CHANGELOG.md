@@ -7159,3 +7159,57 @@ Wiki-Dateien reine Neuanlage. Sicherung via `bash scripts/nas-commit-now.sh`. **
 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den 19 verbliebenen
 Positionen (`bellini.htm` als kleinste zuerst), sonst laut Queue-Regel nächste Sektion mit
 offenem P1/P2.
+
+## 2026-08-30 — Zeile 68 fortgesetzt (125. Lauf Lane FACHWISSEN)
+
+`bellini.htm`, `50-60ein.htm` und `mo1ein.htm` gelesen (die drei kleinsten der 19 vom
+124. Lauf identifizierten inhaltstragenden Restpositionen). Stand vorab selbst ermittelt:
+KORPUS-QUEUE-Historie plus programmatischer Abgleich (`find` gegen den Ordnerinhalt versus
+alle in `wiki/*.md` referenzierten `.htm`-Dateinamen, `INDEX.md`/`QUESTIONS.md` bewusst
+ausgeschlossen, wie vom 121./122. Lauf als Fallstrick dokumentiert) — bestätigte, dass keine
+der 19 Positionen bereits verarbeitet war.
+
+Drei neue Wiki-Artikel:
+[[mario-bellini-olivetti-cassina-vitra-italienisches-produktdesign]] (Mario Bellini,
+geb. 1935; Olivetti-Berater ab 1963 — Divisumma 18 1972, Lettera 10 1976/77, Logos 80 1978,
+ETP55 1987 —, Möbel für Cassina/C&B Italia — Il Colonnato 1977, Cab 1976, Teneride 1970 —,
+Leuchte Area 1974 für Artemide, Bürostühle Figur/Persona 1979–1984 für Vitra mit Daniel
+Thiel, Domus-Chefredaktion 1986–1991),
+[[konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939]] (Übersichtsessay aus
+`mo1ein.htm`: Art déco in Frankreich mit Paris 1925 als Forum, Skandinavien als
+Kontinuitätsmodell, britische Traditionslinie um Ambrose Heal/Gordon Russell/C. R. Ashbee) und
+[[der-neue-modernismus-nachkriegsdesign-1945-1960-nationale-identitaeten]] (Übersichtsessay aus
+`50-60ein.htm`: Nachkriegsdesign als nationales Identitätsprojekt, institutioneller Rahmen
+Council of Industrial Design/Rat für Formgebung/MoMA/Mailänder Triennalen, Italien versus
+Deutschland als Gegensatzpaar, Konsumboom-«Contemporary Style», organischer Modernismus
+versus Neofunktionalismus).
+
+Die beiden Überblicksartikel sind das inhaltliche Gegenstück bzw. der chronologische
+Anschluss an die bereits bestehenden Überblicksartikel
+[[progressiver-modernismus-maschinenmetapher-de-stijl-bauhaus-streamlining]] (Quelle
+`mo2ein.htm`) — dort ein Rückverweis ergänzt (reiner Anhang, `4 1` laut `git diff
+--numstat`, die eine Löschzeile ist der zur Einfügung aufgetrennte Ursprungssatz, kein
+Inhaltsverlust).
+
+Duplikatscheck vorab über `wiki/*.md` (ohne `INDEX.md`/`QUESTIONS.md`): Bellini bislang nur
+als ein einzelnes Werkbeispiel («Rotondo», 1976) im «Offene Punkte»-Abschnitt von
+[[cassina-moebelfirma-mailand-designerroster-i-maestri]] genannt, kein eigener Artikel —
+dort ein Anhang ergänzt, der auf den neuen Bellini-Artikel verweist (`6 0` laut `git diff
+--numstat`, reiner Anhang). «50-60ein» und «mo1ein» sind reine Überblicksessays ohne
+Namensträger; Abgleich gegen das bestehende Überblicksartikel-Paar (mo2ein/progressiver-
+Modernismus) bestätigte inhaltliche Komplementarität ohne Überschneidung.
+
+Damit sind 76 von 128 `.htm`-Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert
+(32 Frameset-/Banner-Seiten + 41 inhaltstragende Dateien aus früheren Läufen + 3 dieser
+Lauf). 16 inhaltstragende Positionen bleiben offen: `race.htm`, `krise.htm`, `mollino.htm`,
+`maugham.htm`, `mailand.htm`, `schichtholz.htm`, `behrens.htm`, `wegner.htm`, `mathsson.htm`,
+`coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`, `deskey.htm`, `bugholz.htm`,
+`day.htm`.
+
+`git diff --numstat` auf die Inventardatei zeigte keine Änderung (Sammelzeile bleibt
+unverändert, Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE). Auf die drei neuen
+Wiki-Dateien reine Neuanlage. Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68
+bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den 16 verbliebenen
+Positionen (`race.htm` als kleinste zuerst; bei `schichtholz.htm`/`behrens.htm` weiterhin
+vorab prüfen, ob Ergänzung bestehender Artikel treffender ist als eigener), sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2.

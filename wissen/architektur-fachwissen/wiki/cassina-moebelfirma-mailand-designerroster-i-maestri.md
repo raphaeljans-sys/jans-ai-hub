@@ -86,3 +86,9 @@ Design-Kurator/Nachlassverwalter.
   gegen Primärliteratur (Cassina-Werksarchiv) in diesem Lauf.
 - Bellini-Zusammenarbeit ab 1962 nur mit einem Produktbeispiel («Rotondo», 1976) belegt,
   keine vollständige Werkliste in der Quelle.
+- Ergänzung (Zeile-68-Fortsetzung 30.08.2026): Bellinis Gesamtwerk (Olivetti, Vitra,
+  Domus-Redaktion) jetzt eigenständig destilliert in
+  [[mario-bellini-olivetti-cassina-vitra-italienisches-produktdesign]] — auch dort taucht
+  «Rotondo» (1976) nicht auf, der offene Punkt zur Cassina-Werkliste bleibt damit
+  unverändert bestehen, ist aber nicht mehr isoliert, sondern mit Bellinis übrigem Werk
+  verknüpft.
