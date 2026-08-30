@@ -126,3 +126,29 @@ der Ordnerbaum als eigene Quelle mitzuführen.
 Quellen ohne Textebene (Kollhoff zur Tektonik, Owen Jones zum Ornament, Uhde zum Holzbau,
 Alberti). Ohne OCR bleiben sie unlesbar. Ob sich der OCR-Aufwand lohnt, ist eine Entscheidung
 für später und keine Voraussetzung für die Verwertung der P1-Schicht.
+
+## Destillat-Fortschritt
+
+**30.08.2026 (Lane FACHWISSEN):** Alle 13 P1-Positionen destilliert, dreizehn neue
+Wiki-Artikel, `status: emerging` durchweg:
+
+- [[protomodern-manifest-acht-saetze-konzept]] (Konzept_Protomodern.docx)
+- [[fuenf-punkte-gegenmanifest-le-corbusier]] (140207_Fuenf_Punkte_einer_neuen_Architektur.docx)
+- [[atmosphaerenmethode-hardware-software-erlebnis-phaenotyp]] (Die Architektur der Athmosphäre.docx)
+- [[protofunktional-begriff-abgrenzung-funktionalismus]] (130426_Protofunktional.docx)
+- [[ziegelstein-zwei-ausdrucksarten-backsteinbau]] (130522_Die_Bedeutung_eines_Ziegelsteins.docx)
+- [[fassade-historisches-artefakt-rossi-analogie]] (130503_Die_Architektur_der_Fassade.docx)
+- [[laon-fassadenbeschreibung-analysemethode-vertikale-prinzipien]] (121022_Laon_Fassadenbeschreibung.docx)
+- [[kerez-forsterstrasse-umkehrung-sempersche-bekleidungstheorie]] (Was_ist_Kerez.docx)
+- [[gast-gleichnis-stadt-war-vor-uns-da-bauen-im-bestand]] (130501_Ales_ist_Staedtebau.docx)
+- [[rohbauaesthetik-andere-form-von-schatten-stadion-zuerich]] (130517_Adi_Meyer_Fussballstadion_Zuerich.docx)
+- [[phasenmodell-entwurfsvorgehen-skizze-als-absichtserklaerung]] (140213_Das_Phasenmodell.docx)
+- [[landkarte-eth-professuren-modern-proto-modern]] (10_Professureinteilung/Modern.docx)
+- [[regel-und-ausnahme-stadtentwicklung-schett]] (Schett_120709_Anmerkungen_zum_Jahreskurs.pdf)
+
+Alle Quelldateien direkt via `textutil -convert txt -stdout` (DOCX) bzw. Read-Tool (PDF)
+gelesen, nicht nur aus dieser Inventar-Zusammenfassung übernommen. Sperrlisten-Prüfung: kein
+Fund (keine Verträge, Adressen, Honorar-/Gesundheitsdaten). **Sektion `10_Protomodern` P1
+damit vollständig abgeschlossen.** P2 (33 Positionen: Sullivan-Ornament-Konvolut,
+Rowe/Koetter Collage City, Šik-Interview, elf weitere Kurz-DOCX, Begriffsblätter,
+Sgraffito-Sammlung) bleibt offen für einen künftigen Lauf.

@@ -8,6 +8,7 @@
     "ordner": "Aando_Tadao"
   },
   "pfad": "/Volumes/daten/05_Architekten_Synobsis/Aando_Tadao",
+  "duplikat_hinweis": "Gleiche Person wie Tadao_Ando.json (Quellordner-Schreibfehler Aando_Tadao statt Ando_Tadao/Tadao Ando). Kein Zusammenfuehren/Umbenennen ohne Freigabe, da das eine NAS-Ordner-Konsolidierung waere (siehe wiki/QUESTIONS.md, Sektion Fehlextraktionen/Doppelordner). Dieser Ordner enthaelt nur 2 Bilder ohne Text, das eigentliche Werkmaterial liegt unter Tadao_Ando.",
   "projekte": [],
   "projekt_anzahl": 0,
   "inventar": {

@@ -1,5 +1,47 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — Korpus archiv-fachwissen Sektion 10_Protomodern P1 vollständig destilliert (Lane FACHWISSEN)
+
+Vorab Memory-Korrektur (siehe Betriebsnotiz unten): der Dispatch-Text behauptete erneut den
+veralteten Ausgangszustand «keine Spec, 2 Wiki-Artikel»; gegen `git log`, diesen CHANGELOG-
+Kopf und `KORPUS-QUEUE.md` verifiziert, danach gemäss Queue-Empfehlung («nächstgrösste noch
+unbearbeitete Sektion») zu `10_Protomodern` übergegangen — Raphael Jans' eigenes,
+nie abgeschlossenes Buch-/Manifestprojekt «Protomodern» (2013/14), 519 Dateien, 13 P1 von
+Phase 0 bereits vollständig gelesen markiert.
+
+Alle 13 P1-Positionen destilliert, dreizehn neue Wiki-Artikel, alle `status: emerging`,
+Quellen durchweg eigene DOCX-Kurztexte (via `textutil -convert txt -stdout` gelesen, nicht
+nur aus der Inventar-Zusammenfassung übernommen) sowie ein Fremdtext (Schett, PDF mit
+Textebene):
+
+- [[protomodern-manifest-acht-saetze-konzept]] — Acht-Sätze-Manifest, Zeitrahmen ETH-Lehre 2000-2020
+- [[fuenf-punkte-gegenmanifest-le-corbusier]] — Corbusiers fünf Punkte mit historischen Referenzbauten gegengelesen, fünf eigene Regeln
+- [[atmosphaerenmethode-hardware-software-erlebnis-phaenotyp]] — Hardware-/Software-Erlebnis, Formel «Raumatmosphäre minus Sozialsphäre gleich autonomer Phänotyp»
+- [[protofunktional-begriff-abgrenzung-funktionalismus]] — Begriffsabgrenzung vom Funktionalismus des 20. Jh.
+- [[ziegelstein-zwei-ausdrucksarten-backsteinbau]] — homogene Wandmasse gegen individuellen Ziegelcharakter
+- [[fassade-historisches-artefakt-rossi-analogie]] — Rossis Stadtbegriff auf die Fassade übertragen
+- [[laon-fassadenbeschreibung-analysemethode-vertikale-prinzipien]] — drei Kompositionsprinzipien, Vergleichsfolie Laon/St. Denis/Reims
+- [[kerez-forsterstrasse-umkehrung-sempersche-bekleidungstheorie]] — Semper-Umkehrung am Beispiel Forsterstrasse
+- [[gast-gleichnis-stadt-war-vor-uns-da-bauen-im-bestand]] — Haltungstext zum Bauen im Bestand
+- [[rohbauaesthetik-andere-form-von-schatten-stadion-zuerich]] — Verteidigung Stadion Zürich gegen Bürofassaden-Vorwurf
+- [[phasenmodell-entwurfsvorgehen-skizze-als-absichtserklaerung]] — Skizze als vorläufige Absichtserklärung
+- [[landkarte-eth-professuren-modern-proto-modern]] — eigene Zuordnung von ca. 40 ETH-Professuren
+- [[regel-und-ausnahme-stadtentwicklung-schett]] — Mechanik des Stadtwachstums, Regel-Ausnahme-These (Schett, Fremdtext)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__10_Protomodern.md` Abschnitt
+«Destillat-Fortschritt» vermerkt (reine Ergänzung, `git diff --numstat` zeigt `26 0`).
+Sperrlisten-Prüfung: kein Fund. **Sektion `10_Protomodern` P1 vollständig abgeschlossen**,
+P2 (33 Positionen) bleibt offen. `KORPUS-QUEUE.md` nachgeführt.
+
+**Betriebsnotiz (Memory-Korrektur):** die projektinterne Gedächtnisdatei dieser Lane
+(`project_fachwissen-dispatch-loop.md`) enthielt sechs Einträge (60.-65. Beispiel) zu einer
+angeblichen 17-Läufe-Serie in Sektion `01_Staedtebau` (33 Autorendossiers, «235+ Artikel»).
+Diese liessen sich weder in `git log`, noch in diesem CHANGELOG, noch in der
+`## Destillat-Fortschritt`-Sektion von `archiv-fachwissen__01_Staedtebau.md` (dort existiert
+dieser Abschnitt nicht) nachweisen — die Einträge waren erfunden und wurden aus der
+Memory-Datei entfernt, bevor sie weitere Läufe in eine fiktive Fortsetzung geschickt hätten.
+Realer letzter Stand vor diesem Lauf war `02_Architekturtheorie` (Commit `ec2f289cd`).
+
 ## 2026-08-30 — Korpus archiv-fachwissen Sektion 02_Architekturtheorie P1 zu 10/11 abgeschlossen (Lane FACHWISSEN)
 
 Nach Abschluss von `01_Konstruktion` (P1+P2) und dem ersten P2-Lauf `03_Bauprozesse_I_II`

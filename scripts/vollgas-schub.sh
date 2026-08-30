@@ -107,8 +107,47 @@ while :; do
             break ;;
     esac
 
-    # Ein Lauf, der in unter 25 s ohne Ergebnis zurueckkommt, ist ein Blindgaenger.
-    # Drei in Folge -> Lane beendet sich, statt das Fenster leer zu verbrennen.
+    # --- Abbruchbedingung: LIEFER-DELTA, nicht Laufzahl -----------------------
+    # Korrektur 30.08.2026, teuer bezahlt. Die erste Fassung pruefte nur, ob ein
+    # Lauf SCHNELL und LEER zurueckkam. Ein Lauf, der 192 s nachdenkt, 1.36 USD
+    # kostet und sorgfaeltig begruendet «hier ist nichts mehr offen», galt damit
+    # als Erfolg und loeste die naechste Runde aus. Ergebnis in der Nacht auf den
+    # 30.08.: synobsis 344 Runden fuer 2 geaenderte Dateien, normen 185 Runden,
+    # baurecht 96, grobkosten 52 — zusammen ueber 600 Laeufe ohne Ertrag, waehrend
+    # jeder einzelne Lauf technisch fehlerfrei war und selbst um Pausierung bat.
+    # Der Hub hat dafuer laengst eine Regel (rollen-taxonomie, Punkt 4: «Nie
+    # Laeufe zaehlen, immer Ertrag») — dieser Treiber hat Laeufe gezaehlt.
+    #
+    # Ab jetzt entscheidet der gemessene Ertrag: hat der Lauf Dateien im Repo
+    # bewegt? Lesendes git ueber SMB ist erlaubt (Rule 260726 verbietet nur
+    # schreibende Befehle).
+    DELTA=$(cd "$HUB" 2>/dev/null && git status --porcelain 2>/dev/null | wc -l | tr -d ' ')
+    DELTA="${DELTA:-0}"
+    KOPF=$(cd "$HUB" 2>/dev/null && git rev-parse --short HEAD 2>/dev/null)
+
+    if [ "$DELTA" -gt 0 ] || [ "$KOPF" != "${KOPF_VOR:-}" ]; then
+        ERTRAGLOS=0
+    else
+        ERTRAGLOS=$((${ERTRAGLOS:-0}+1))
+        log "  Ohne Liefer-Delta ($ERTRAGLOS/3)."
+    fi
+    KOPF_VOR="$KOPF"
+
+    # Zweiter, unabhaengiger Weg: der Lauf sagt selbst, dass nichts offen ist.
+    # Die Lane-Prompts verlangen genau diesen Satz — er wird jetzt auch gehoert.
+    case "$OUT" in
+        *"nichts mehr zu bearbeiten"*|*"keine unausgeschoepfte"*|*"keine einzige unausgeschoepfte"*|\
+        *"nichts mehr offen"*|*"NICHTS mehr offen"*|*"Nullstand"*|*STILLGELEGT*)
+            log "Der Lauf meldet selbst: nichts mehr offen. Lane beendet sich."
+            break ;;
+    esac
+
+    if [ "${ERTRAGLOS:-0}" -ge 3 ]; then
+        log "Drei Runden ohne Liefer-Delta — Lane beendet sich."
+        break
+    fi
+
+    # Absturz-Wache bleibt zusaetzlich bestehen (schnell + leer = Blindgaenger).
     if [ "$DAUER" -lt 25 ] && [ "${#OUT}" -lt 80 ]; then
         BLIND=$((BLIND+1))
         log "  Blindgaenger $BLIND/3."

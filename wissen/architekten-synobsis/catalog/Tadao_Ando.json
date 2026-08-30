@@ -8,6 +8,7 @@
     "ordner": "Tadao_Ando"
   },
   "pfad": "/Volumes/daten/05_Architekten_Synobsis/Tadao_Ando",
+  "duplikat_hinweis": "Gleiche Person wie Aando_Tadao.json (dortiger Quellordner Aando_Tadao ist ein Schreibfehler-Doppelordner mit nur 2 Bildern ohne Text). Kein Zusammenfuehren/Umbenennen ohne Freigabe, da das eine NAS-Ordner-Konsolidierung waere.",
   "projekte": [
     {
       "raw": "E_Architekt",
