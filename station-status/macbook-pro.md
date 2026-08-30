@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 02:09:54
+Stand: 30.08.2026 02:20:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 01:57)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 02:09:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6b5996f45 Lane FACHWISSEN: VL2/VL3 Koolhaas destilliert, Buchfuehrung gesichert
+- 724928b2f FACHWISSEN: VL5 Venturi destilliert (archiv-fachwissen 02_Architekturtheorie, fuenfter P2-Lauf)
