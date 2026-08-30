@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 16:33:53
+Stand: 30.08.2026 16:44:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 16:33:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2c59dfcc6 nas-selfcommit: 1 Datei(en) 2026-08-30 16:30
+- 68a4566d9 P2-Lauf Sauter Kapitel 09 Le Corbusier/Mies van der Rohe (78. Lauf, Lane FACHWISSEN)

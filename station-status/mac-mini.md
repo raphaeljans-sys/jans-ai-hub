@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 16:26:50
+Stand: 30.08.2026 16:37:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 16:12)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 16:26:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 223fa3a50 wissens-destillat: Sauter-Kapitel 07 Expressionismus/Kubismus destilliert (02_Architekturgeschichte, 76. Lauf)
+- 68a4566d9 P2-Lauf Sauter Kapitel 09 Le Corbusier/Mies van der Rohe (78. Lauf, Lane FACHWISSEN)
