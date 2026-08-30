@@ -3949,3 +3949,83 @@ Tacitus (131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149
 Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
 Colonna/Hypnerotomachia (247) — 13 Positionen. **Nächster Lauf:** Seneca (105) als
 nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.
+
+## 2026-08-30 — 49. P2-Lauf Sektion `01_Staedtebau`: Seneca und Plinius d. Ä. destilliert (Lane FACHWISSEN, nachgetragen im 51. Lauf)
+
+Dieser Eintrag fehlte hier ursprünglich (Artikel und Inventarnachtrag bestanden bereits,
+die CHANGELOG-Nachführung wurde übersprungen) und wird im 51. Lauf nachgetragen.
+
+Seneca, Naturales quaestiones VI, 1 (S. 112, Erdbeben in Pompeji 62 n. Chr. mit regionalem
+Schadensmuster über Pompeji/Herculaneum/Nuceria/Neapel) und Plinius der Ältere, Naturalis
+historia V, 11 sowie XXXVI, 24 (S. 113-116: Alexandria-Gründungsplan durch den Architekten
+Dinocrates, Circus Maximus, Cloaca Maxima, dokumentierte antike Fassadenregel für
+staatlich zugeteilte Ehrenhäuser) destilliert →
+[[seneca-erdbeben-pompeji-62-nchr-naturwissenschaftliche-untersuchungen]],
+[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]]. Löst den bei
+Livius offen gelassenen Cross-Check zu den «Abzugsgräben» ein (dieselbe Cloaca Maxima).
+`git diff --numstat` auf die Inventardatei zeigte reinen Append. Aus der Namensliste
+bleibt nach Seneca und Plinius d. Ä. offen: Plutarch/Romulus (125), Tacitus (131-133),
+Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achilleus
+Tatius (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) —
+11 Positionen.
+
+## 2026-08-30 — 50. P2-Lauf Sektion `01_Staedtebau`: Plutarch/Romulus destilliert (Lane FACHWISSEN, nachgetragen im 51. Lauf)
+
+Ebenfalls nachgetragen (siehe Begründung oben). Plutarch, Romulus Kap. 3/9-11 (S. 125-129:
+Cermalus/Ruminalis-Ortsnamen der Aussetzungssage, Standortstreit Romulus/Remus per
+Augurien-Wettstreit entschieden, Asyl-Tempel als Bevölkerungswachstumsinstrument,
+ausführliches etruskisches Gründungsritual mit Mundus-Grube und Tor-Ausnahme von der
+Mauerheiligkeit) destilliert →
+[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]], komplementär zu
+[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]] (dort dasselbe
+Ritual nur sprachetymologisch, hier narrativ mit Mundus-Grube). `git diff --numstat` zeigte
+reinen Append. Aus der Namensliste bleibt nach Plutarch offen: Tacitus (131-133), Plinius
+d. J. (137), Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius
+(155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247) —
+10 Positionen. **Nächster Lauf:** Tacitus (131-133) als nächster im Seitenverlauf
+liegender Kandidat.
+
+## 2026-08-30 — 51. P2-Lauf Sektion `01_Staedtebau`: Tacitus destilliert, Nachtrags-Lücke 49./50. Lauf geschlossen (Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine Zahlen):
+`KORPUS-QUEUE.md` zeigte veraltet den 32. Lauf, dieses CHANGELOG und `wiki/INDEX.md`
+zeigten veraltet den 48. Lauf (Livius) als letzten Eintrag. Massgeblich war die
+Inventardatei `raw/inventar/archiv-fachwissen__01_Staedtebau.md` selbst, dort bereits beim
+50. Lauf (Plutarch) — die Wiki-Artikel zu Seneca, Plinius d. Ä. und Plutarch bestanden
+bereits, nur die CHANGELOG- und INDEX-Nachführung der Läufe 49 und 50 war übersprungen
+worden. Beide oben nachgetragen; für die Zukunft gilt weiterhin: Stand vor jedem Lauf aus
+Inventardatei, INDEX und CHANGELOG gemeinsam ermitteln, nicht nur aus einer Quelle.
+
+Die vom 50. Lauf empfohlene Priorität (Tacitus, Namensliste S. 131-133, tatsächlicher
+Fundbereich S. 131-136) bearbeitet, per `/opt/homebrew/bin/pdftoppm -r 150` gerendert
+(PDF-Seite = gedruckte Seite + 4; S. 137 als Beginn der Folgeposition „Plinius d. J."
+bestätigt):
+
+- **Tacitus, Agricola Kap. 13/18/21, Germania Kap. 16, Annalen Buch XV, 37-43** (S.
+  131-136) → neuer Artikel
+  [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]: Agricola-Sentenz zu
+  Infrastruktur (Tempel/Markt/Haus/Säulenhalle/Bad) als Befriedungsinstrument statt
+  Kultur («ein Stück Knechtschaft»); Germania Kap. 16 unstädtische Streusiedlung ohne
+  Mauer-/Ziegelstein, Erdgruben als Frost- und Plünderungsschutz; Bericht zum Brand Roms
+  64 n. Chr. (bauliche Ursache: fehlende Brandmauern, enge winklige Strassen) und vor
+  allem Neros Wiederaufbau-Massnahmen als zusammenhängender **antiker Bauordnungstext**:
+  regelmässiger Grundriss, Höhenlimite, Pflicht-Hofräume, subventionierte Säulengänge,
+  nach Vermögen gestaffelte Fristauflage, geregelte Schuttentsorgung über Getreideschiffe,
+  Brandschutzmaterial (Sabiner-/Albanerstein) bis Grenzhöhe ohne Gebälk, öffentliche
+  Wasseraufsicht gegen private Anzapfung, Pflicht-Feuerlöschgeräte je Hof, Verbot
+  gemeinsamer Trennwände zugunsten eigener Brandmauern je Gebäude; Schlussnotiz zur
+  Abwägung Brandschutz/Strassenbreite gegen sommerlichen Hitzeschutz durch enge, hohe
+  Bebauung.
+- Gegen Wiki-Bestand geprüft (`grep -rli` nero/agricola/germania/brandmauer über
+  `wiki/*.md`): drei themenfremde Zufallstreffer (Castiglione, Palladio,
+  Muratori/Caniggia) ohne inhaltlichen Bezug, kein Duplikat. Verlinkt mit
+  [[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]] (Gegenstück:
+  derselbe Fall Rom-Wiederaufbau-nach-Brand, einmal ungeregelt 390 v. Chr., einmal
+  reguliert 64 n. Chr.) und
+  [[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]].
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append. Aus der Namensliste bleibt
+nach Tacitus offen: Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149),
+Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247) — 9 Positionen. **Nächster Lauf:** Plinius d. J. (137) als
+nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der Reihe nach.

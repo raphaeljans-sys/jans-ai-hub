@@ -2526,3 +2526,49 @@ bleibt nach Plutarch offen: Tacitus (131-133), Plinius d. J. (137), Strabo (141)
 (159), Francesco Colonna/Hypnerotomachia (247) — 10 Positionen. **Nächster Lauf:** Tacitus
 (131-133) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der
 Reihe nach.
+
+## Einundfünfzigster P2-Lauf, Tacitus destilliert (30.08.2026, Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt: `KORPUS-QUEUE.md` zeigte veraltet den 32. Lauf,
+`wiki/INDEX.md` und `CHANGELOG.md` zeigten veraltet den 48. Lauf (Livius) als letzten
+Eintrag — diese Inventardatei selbst war mit dem 50. Lauf (Plutarch) am weitesten
+fortgeschritten und damit massgeblich. **Befund: INDEX.md und CHANGELOG.md fehlen die
+Einträge zum 49. Lauf (Seneca, Plinius d. Ä.) und 50. Lauf (Plutarch)** — beide Artikel
+und die Inventarnachträge existieren bereits, nur die beiden Nachführungen wurden
+übersprungen. In diesem Lauf in `wiki/INDEX.md` und `CHANGELOG.md` nachgetragen (s. dort).
+
+Die vom 50. Lauf empfohlene Priorität (Tacitus, S. 131-133 der Namensliste, tatsächlicher
+Fundbereich S. 131-136) bearbeitet, per `/opt/homebrew/bin/pdftoppm -r 150` gerendert
+(PDF-Seite = gedruckte Seite + 4, S. 131-136 vollständig gelesen; S. 137 als Beginn der
+nächsten Position „Plinius d. J." bestätigt und nicht mehr zu dieser Position gerechnet):
+
+- **Tacitus, Agricola Kap. 13/18/21, Germania Kap. 16, Annalen Buch XV, 37-43** (S.
+  131-136) → neuer Artikel
+  [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]: Agricola-Sentenz
+  Infrastruktur (Tempel/Markt/Haus/Säulenhalle/Bad) als Befriedungsinstrument statt
+  Kultur («ein Stück Knechtschaft»); Germania-Kap. 16 unstädtische Streusiedlung ohne
+  Mauer-/Ziegelstein, Erdgruben als Frost-/Plünderungsschutz; Annalen-Bericht zum Brand
+  Roms 64 n. Chr. (bauliche Ursache: fehlende Brandmauern, enge winklige Strassen) und
+  vor allem Neros Wiederaufbau-Massnahmen als zusammenhängender **antiker
+  Bauordnungstext**: regelmässiger Grundriss, Höhenlimite, Pflicht-Hofräume, subventionierte
+  Säulengänge, gestaffelte Fristauflage nach Vermögen, geregelte Schuttentsorgung über
+  Getreideschiffe, Brandschutzmaterial (Sabiner-/Albanerstein) bis Grenzhöhe ohne Gebälk,
+  öffentliche Wasseraufsicht gegen private Anzapfung, Pflicht-Feuerlöschgeräte je Hof,
+  Verbot gemeinsamer Trennwände zugunsten eigener Brandmauern je Gebäude; Schlussnotiz zur
+  Abwägung Brandschutz/Strassenbreite gegen sommerlichen Hitzeschutz durch enge, hohe
+  Bebauung.
+- Gegen Wiki-Bestand geprüft (`grep -rli` nero/agricola/germania/brandmauer über
+  `wiki/*.md`): drei themenfremde Zufallstreffer (Castiglione, Palladio,
+  Muratori/Caniggia) ohne inhaltlichen Bezug zu dieser Stelle, kein Duplikat. Verlinkt mit
+  [[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]] (Gegenstück:
+  derselbe Fall Rom-Wiederaufbau-nach-Brand, einmal ungeregelt 390 v. Chr., einmal
+  reguliert 64 n. Chr.) und
+  [[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]].
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Aus der Namensliste
+bleibt nach Tacitus offen: Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149),
+Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247) — 9 Positionen. **Nächster Lauf:** Plinius d. J. (137,
+Erdbeben-Bericht laut Positionsliste bereits als Cross-Ref bei Seneca/Erdbeben-Pompeji
+denkbar) als nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste der
+Reihe nach.

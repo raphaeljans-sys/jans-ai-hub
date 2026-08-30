@@ -1986,3 +1986,49 @@ Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Seneca (105) als
 nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste
 der Reihe nach. Details in
 `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 49. P2-Lauf, nachgetragen im 51. Lauf — dieser
+Eintrag fehlte hier ursprünglich):** Seneca, Naturales quaestiones VI, 1 (S.
+112, Erdbeben Pompeji 62 n. Chr., regionales Schadensmuster
+Pompeji/Herculaneum/Nuceria/Neapel) und Plinius der Ältere, Naturalis
+historia V, 11 und XXXVI, 24 (S. 113-116: Alexandria-Gründungsplan durch
+Dinocrates, Circus Maximus, Cloaca Maxima, Fassadenregel für staatlich
+zugeteilte Ehrenhäuser) destilliert →
+[[seneca-erdbeben-pompeji-62-nchr-naturwissenschaftliche-untersuchungen]],
+[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]].
+Löst den bei Livius offen gelassenen Cross-Check zu den «Abzugsgräben» ein
+(dieselbe Cloaca Maxima). Nach Seneca/Plinius d. Ä. bleiben 11 Positionen
+offen. Details in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 50. P2-Lauf, nachgetragen im 51. Lauf):**
+Plutarch, Romulus Kap. 3/9-11 (S. 125-129: Cermalus/Ruminalis-Ortsnamen,
+Standortstreit Romulus/Remus per Augurien entschieden, Asyl-Tempel als
+Wachstumsinstrument, etruskisches Gründungsritual mit Mundus-Grube und
+Tor-Ausnahme von der Mauerheiligkeit) destilliert →
+[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]],
+komplementär zu [[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]]
+(dort nur sprachetymologisch, hier narrativ mit Mundus-Grube). Nach Plutarch
+bleiben 10 Positionen offen. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 51. P2-Lauf):** Bei Laufbeginn Nachtrags-Lücke
+festgestellt: `KORPUS-QUEUE.md` zeigte veraltet den 32. Lauf, dieses INDEX
+und `CHANGELOG.md` zeigten veraltet den 48. Lauf (Livius); massgeblich war
+die Inventardatei selbst, dort bereits beim 50. Lauf (Plutarch) — die beiden
+oben nachgetragenen Blöcke (49., 50. Lauf) fehlten hier ursprünglich, Artikel
+und Inventar-Einträge bestanden aber schon. Tacitus, Agricola Kap. 13/18/21,
+Germania Kap. 16, Annalen Buch XV, 37-43 (S. 131-136: Infrastruktur als
+Befriedungsinstrument in Britannien, unstädtische Germanen-Streusiedlung,
+Brand Roms 64 n. Chr. und Neros anschliessende **Bauordnung** — Grundriss,
+Höhenlimite, Hofraumpflicht, subventionierte Säulengänge, gestaffelte
+Fristauflage, geregelte Schuttentsorgung, Brandschutzmaterial,
+Wasseraufsicht, Feuerlöschpflicht, Verbot gemeinsamer Trennwände) destilliert
+→ [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]], Gegenstück
+zu [[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]
+(derselbe Fall Rom-Wiederaufbau-nach-Brand, einmal ungeregelt, einmal
+reguliert). Nach Tacitus bleiben 9 Positionen offen: Plinius d. J. (137),
+Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius
+(155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia
+(247). Nächster Lauf: Plinius d. J. (137) als nächster im Seitenverlauf
+liegender Kandidat, sonst der Rest der Liste der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
