@@ -839,3 +839,47 @@ noch ungeprüft), Rossi (gegen bestehende Rossi-Artikel aus Korpus
 vorherigem Duplikat-Check zuerst, dann Sievers, Giedion/Hilberseimer/Lampugnani/Sonne
 zuletzt (grössere/teils blockierte Dateien). Danach `kapitel01_dk...` Unterkapitel 1/2/4/5
 als eigene, von den Autorendossiers unabhängige Restaufgabe dieser Sektion angehen.
+
+**30.08.2026 (Lane FACHWISSEN, vierzehnter P2-Lauf, Position 4 fortgesetzt — Rossi
+abgeschlossen):** vor Arbeitsbeginn wie üblich `scutil` (Macmini bestätigt, Dispatch-Text
+weiterhin identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro»),
+`ps aux` (eigener Prozess PID 41686, keine echte Doppel-Instanz) und
+`KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft — Stand identisch zum Ende des dreizehnten
+Laufs. `Rossi_Aldo/` (vier Dateien) vollständig gesichtet:
+
+- Zwei unabhängige studentische Zusammenfassungen von Rossis «L'architettura della
+  città»/«Die Architektur der Stadt» (`Greutmann_Domique_aldo_rossi_zusammenfassung.pdf`,
+  126 kB, echte Textebene; `Lama_Daiana_..._Zusammenfassung.pdf`, fälschlich mit
+  `.pdf`-Endung, tatsächlich ein Apple-Pages-Zip-Container — Text nicht direkt lesbar,
+  aber über das eingebettete `QuickLook/Preview.pdf` vollständig extrahierbar) sowie das
+  vollständige Buch-PDF und ein reines Titelblatt (beide ohne über die Zusammenfassungen
+  hinausgehenden Ertrag, nicht separat destilliert).
+- Vor Destillation wie vom Vorlauf verlangt gegen die beiden bestehenden Rossi-Artikel aus
+  `archiv-fachwissen__02_Architekturtheorie` geprüft (Theorie der Permanenz/Lucca/
+  Muratori-Vergleich sowie Analoge Architektur/ETH-Lehrzeit): **keine Überschneidung** —
+  jene Artikel stammen aus separaten ETH-Vorlesungsmitschriften, diese Quelle ist eine
+  direkte Buchzusammenfassung mit erheblich breiterem, bisher unerschlossenem Umfang
+  (vollständige Vierkapitel-Gliederung des Buches).
+- Neuer Artikel
+  [[rossi-architektur-der-stadt-funktionalismuskritik-typologie-eigentumsstruktur-monument]]
+  (Kritik am naiven Funktionalismus, Typus-vs-Modell-Unterscheidung mit
+  Laubenganghaus-Beispiel, drei Grundfunktionen der Stadt, Untersuchungsbereich/Areal/
+  Distrikt-Begriff, Wohnbautypologie Rom insulae/domus und Berlin nach Herbert Louis 1936,
+  Forum Romanum als zweites Monument-Fallbeispiel neben Lucca, Kölner-Dom-Argumentationsfigur
+  Monument vs. Milieu, Eigentumsstruktur/Enteignung nach Halbwachs mit den historischen
+  Beispielen Haussmann/Paris, Cerda/Barcelona, napoleonisches Mailand und Bernoullis
+  Bodenkritik, sowie Athen als älteste fassbare Stadtidee) — bewusst als eigenständiger
+  Artikel statt Ergänzung der bestehenden Rossi-Artikel, da der inhaltliche Schwerpunkt
+  komplementär ist und keine der dort behandelten Kernaussagen wiederholt.
+
+Gegen bestehenden Wiki-Bestand geprüft (`grep -ril rossi wiki/*.md`): keine weiteren
+Duplikate. `git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Von den 33
+Autorendossiers der Position 4 sind damit 21 mit Ertrag bearbeitet** (20 aus den Vorläufen
+plus Rossi); weiterhin drei leer/ohne Ertrag (Leveillé, Siedler, Sutcliffe) und zwei ohne
+Ertrag geprüft (Mumford, Gracq). **12 Autorendossiers bleiben offen**: Giedion,
+Hilberseimer, Lampugnani (10,8 MB `Quellentextband-1.pdf` noch ungeprüft), Sievers
+(`Thomas Sieverts - Zwischenstadt.pdf` 6,5 MB, plus `Bosshard_Zwischenstadt.pdf`), Sonne
+(mehrteiliges Dossier, eine Datei 85 MB, über 20-MB-Grenze). **Nächster Lauf:** Sievers
+zuerst (kleinere Restdateien), dann Giedion/Hilberseimer/Lampugnani/Sonne (grössere,
+teils über 20-MB-Grenze blockierte Dateien). Danach `kapitel01_dk...` Unterkapitel 1/2/4/5
+als eigene, von den Autorendossiers unabhängige Restaufgabe dieser Sektion angehen.

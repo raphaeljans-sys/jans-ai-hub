@@ -1,5 +1,28 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, vierzehnter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, PID 41686, keine Doppel-Instanz)
+
+Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/CHANGELOG geprüft: entsprach exakt dem Ende
+des dreizehnten Laufs. Rossi-Dossier (vier Dateien: zwei unabhängige studentische
+Zusammenfassungen von «L'architettura della città»/«Die Architektur der Stadt», das
+vollständige Buch-PDF, ein Titelblatt) vollständig gesichtet. Vor Destillation wie vom
+Vorlauf verlangt gegen die beiden bestehenden Rossi-Artikel aus
+`archiv-fachwissen__02_Architekturtheorie` geprüft (Theorie der Permanenz/Lucca sowie
+Analoge Architektur/ETH-Lehrzeit) — keine Überschneidung, da jene Artikel aus separaten
+ETH-Vorlesungsmitschriften stammen und diese Quelle eine direkte, inhaltlich
+komplementäre Buchzusammenfassung ist. Neuer Artikel
+[[rossi-architektur-der-stadt-funktionalismuskritik-typologie-eigentumsstruktur-monument]]
+(Kritik am naiven Funktionalismus, Typus-vs-Modell mit Laubenganghaus-Beispiel, drei
+Grundfunktionen der Stadt, Untersuchungsbereich/Areal/Distrikt-Begriff, Wohnbautypologie
+Rom insulae/domus und Berlin nach Herbert Louis 1936, Forum Romanum als zweites
+Monument-Fallbeispiel neben Lucca, Kölner-Dom-Argumentationsfigur Monument vs. Milieu,
+Eigentumsstruktur/Enteignung nach Halbwachs mit Haussmann/Paris, Cerda/Barcelona,
+napoleonischem Mailand und Bernoullis Bodenkritik, sowie Athen als älteste fassbare
+Stadtidee). Von den 33 Autorendossiers der Position 4 sind jetzt 21 mit Ertrag bearbeitet,
+12 bleiben offen (Giedion, Hilberseimer, Lampugnani, Sievers, Sonne, plus drei leer/ohne
+Ertrag und zwei ohne Ertrag geprüft aus Vorläufen). Details Inventardatei
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`, Abschnitt `## Destillat-Fortschritt`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, dreizehnter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, PID 39085, Prozessbaum 39078→39084→39085 als verschachtelte Wrapper derselben Instanz erkannt, keine Doppel-Instanz; paralleler Prozess ist unabhängige Lane SYNOBSIS)
 
 Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/CHANGELOG geprüft: entsprach exakt dem Ende
