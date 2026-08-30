@@ -3,6 +3,39 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht Mac Mini 30.08.2026 (13:3x-14:0x, Einzelagent, Prioritaet 4)
+
+**Aufgabe gewaehlt nach Ausschlussliste:** Sync-Task-Queue und Freigabe-Queue leer; Pendenz
+«Laufzeitschicht-Umbau Phasen 0-2» war von der erstellenden Session selbst um 08:41 angehalten
+(nicht wieder aufgenommen); Synobsis Stufe 2 seit 02.07.2026 gesaettigt (853/853, deterministisch,
+17+ ertraglose Laeufe dokumentiert — kein gueltiges Ziel); bauprodukte und grobkosten sind laut
+eigener `training/PROGRAMM.md` als ERLEDIGT/AUSGESETZT markiert. KB `energie` gewaehlt (freies
+Ziel, `energie-training`-Scheduled-Task ist `enabled: false`/ereignisgetriggert, kein aktiver
+Taktgeber).
+
+**Ergebnis:** `[[rilumi-minergie-luftdichtheit-n50]]` von Ausgabe 2022.1 auf **2026.1**
+nachgefuehrt (Symbol qE50→qa50, Messverfahren neu SIA 180.206 «Verfahren 3», Zahlenwerte
+unveraendert) — echter Begleitdokument-Fund ausserhalb der bereits abgedeckten Top-14-Quellen
+(Runs 165-167). `wiki/BAUHERREN-FAQ.md` F63 nachgezogen. `wiki/QUESTIONS.md` E-R165-3 (SZ-
+Aenderungsprotokoll) als bereits anderswo erledigt geschlossen. Beleg: `wissen/energie/outputs/
+2026-08-30_energie-run168.md`, CHANGELOG-Eintrag gesetzt.
+
+**Eigener Fehlgriff korrigiert:** Lauf begann mit einer veralteten Zwischenstelle in
+`QUESTIONS.md` (Volltextsuche traf einen aelteren Run-165-Absatz statt den aktuellen Dateikopf);
+in der eigenen Prozessnotiz dort vermerkt.
+
+**Commit lokal auf der Synology erfolgt** (`a168fd451`, per `nas-commit-now.sh` nativ ausgeloest),
+**Push nach GitHub steht weiterhin aus** — das ist die bereits von Run 167 (29.08., 22:05) und
+`vollgas-fruehwarnung` im Fristen-Register dokumentierte P1-Sync-Divergenz (Synology 155 Commits
+vor `github/main`, Konflikte in mehreren KB-CHANGELOGs aus den parallelen Schub-Lanes), **nicht
+neu durch diesen Lauf verursacht** und nicht selbst behoben (Konfliktaufloesung ueber ~10 fremde
+Dateien mehrerer anderer Lanes braucht Urteil, nicht Einzelagenten-Budget). Meine eigenen
+Energie-Dateien enthalten keine Konfliktmarker, Inhalt ist auf dem NAS-Dateisystem korrekt und
+im lokalen Git-Verlauf der Synology gesichert.
+
+**Whitelist-Grenzen eingehalten:** kein Versand, keine Publikation, keine Buchung, keine
+Loeschung, keine Kaeufe.
+
 
 ## Hub-Chef 30.08.2026 (08:39 bis 09:0x, Tagesbriefing gesendet)
 
