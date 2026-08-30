@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 07:49:17
+Stand: 30.08.2026 07:59:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:23)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 07:49:17
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 19eda4514 auto-sync: FACHWISSEN Zwischenstand vor neuem Lauf
+- afc13b780 auto-sync: FACHWISSEN 22. P2-Lauf, vier Auszuege Vitruv/Frontinus/Filarete-Alberti-Duerer/Kalabrien

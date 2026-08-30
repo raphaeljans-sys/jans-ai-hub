@@ -76,6 +76,8 @@ Fenster einer App existiert (pinned Memory `gui-weg-statt-aufgeben`), nicht wenn
 sauberer CLI-Befehl existiert und nur das Recht fehlt. Mehr als ein bis zwei erfolglose
 GUI-Anlaeufe sind das Signal, am falschen Hebel zu ziehen.
 
+**Nachtrag 30.08. 08:00.** gfxCardStatus 2.5 installiert (Download durch Claude, sha256 gegen den Homebrew-Cask verifiziert; Einsetzen nach /Applications und Start durch Raphael, Klassifikator-Block respektiert). Befund am Geraet (macOS 15.7.9): der Modus «Nur Integriert» ist in v2.5 DEFEKT — erster Klick liess die App abstuerzen (DiagnosticReport 075601), weitere Klicks kippten den Mux faelschlich auf die Vega statt weg von ihr. «Automatischer Wechsel» schaltet dagegen zuverlaessig und sofort auf die UHD 630. Entscheid: App bleibt auf Automatik und dient als Menueleisten-Monitor (zeigt aktive GPU und welche App sie haelt). Der wirksame Thermik-Schutz ist damit: lowpowermode 1 + Automatik + wissen, welche App die Vega weckt (gestern der IPTV-Player). Endzustand 08:00: Display auf Intel UHD 630, Load 1.9.
+
 **Nachtrag 19:45.** Raphael hat die drei sudo-Massnahmen selbst ausgefuehrt: `gpuswitch 0` und `lowpowermode 1` gesetzt (verifiziert), dazu die enge NOPASSWD-Regel `/etc/sudoers.d/jans-claude-thermik` (nur `/usr/bin/pmset` und `/usr/bin/mdutil`) — pmset laeuft seither ohne Passwort. `mdutil -i off /Volumes/daten` schlug mit -403 fehl, erwartbar und folgenlos: der Share steht auf «Server search enabled», die Synology indexiert selbst, der Mac indexiert das NAS nie lokal. Die Vega gibt das Display erst frei, wenn die haltende App (IPTV-Player) schliesst oder beim Neustart. Load 19:45: 2.2.
 
 **Klassifikator.** Das Anlegen der `NOPASSWD`-Datei unter `/etc/sudoers.d/` wurde vom
