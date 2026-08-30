@@ -1790,3 +1790,47 @@ Artikel abgeschlossen, 26 vollständig offen**. **Nächster Lauf:** aus der
 Pero Tafur (245) als nächste kurze Positionen vor dem bereits destillierten
 Francesco di Giorgio Martini (251), sonst Serlio (267) oder Pacioli (255)
 als bürorelevante Renaissance-Traktat-Kandidaten.
+
+## Vierunddreissigster P2-Lauf, Campano/Pienza destilliert, Pero Tafur ohne
+Artikel (30.08.2026, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn Stand selbst ermittelt (Dispatch-Text trägt bewusst keine
+Zahlen): `KORPUS-QUEUE.md`, `wiki/INDEX.md`, CHANGELOG und diese
+Inventardatei gegengeprüft, deckungsgleich mit dem 33.-Lauf-Ende. Working
+tree bei Laufbeginn zeigte einen unkommittierten `wiki/INDEX.md`-Nachtrag
+des 33. Laufs; `nas-commit-now.sh` lief in den bekannten Merge-Konflikt in
+fremden Lane-CHANGELOGs (sechs KBs, u. a. `wissen/normen`,
+`skills/wissens-destillat/KORPUS-QUEUE.md`), Skript brach den Merge selbst
+sauber ab, working tree danach lokal konfliktfrei, Sicherung dem
+15-Min-Cron überlassen (bestätigtes Muster).
+
+Beide vom 33. Lauf empfohlenen Kandidaten aus `Quellentextband-1.pdf` per
+`/opt/homebrew/bin/pdftoppm` gerendert (PDF-Seite = gedruckte Seite + 4):
+
+- **Giannantonio Campano, «Pii II vita»** (S. 243-244, Abschnitt «Über
+  Pienza», vollständig gelesen) → neuer Artikel
+  [[campano-pienza-pius-ii-architekt-kostenueberschreitung-1462]] (Pienza-
+  Bauprogramm, Nutzungsauflagen nach Abnahme, die
+  Kostenüberschreitungs-Anekdote mit Bauherren-Begründung, Tivoli-Zitadelle
+  aus Misstrauen, unrealisierte Grossinfrastruktur Anio/Trajanshafen/Orcia-
+  See), verlinkt mit
+  [[enea-silvio-piccolomini-wien-1438-deutschland-tivoli-stadtbeschreibungen]]
+  (derselbe Papst, unabhängige Quelle).
+- **Pero Tafur, Reisebeschreibung 1438-39** (S. 245-246, Mainz/Köln/Brügge,
+  vollständig gelesen): reines Reisetagebuch mit Städtelob (Befestigung,
+  Strassen, Gasthäuser, Handelsvolumen Brügge vs. Venedig, Warenhalle am
+  Wasserarm) — **kein Artikel**, da kein Kennwert, Verfahren oder
+  Konstruktionsdetail über allgemeines Städtelob hinaus greifbar ist
+  (Delta-Ehrlichkeit, analog Al-Ghazali/Koran-Befund).
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach «Pienza»/«Campano»/«Pius II»
+über `wiki/*.md`): einzige Treffer sind
+`campanella-citta-del-sole-...` (andere Person, Tommaso Campanella) und der
+neue Piccolomini-Artikel selbst — keine inhaltlichen Duplikate. `git diff
+--numstat` auf diese Inventardatei zeigt reinen Append.
+
+**Von den 54 benannten Positionen der Anthologie sind jetzt 29 destilliert
+oder begründet ohne Artikel abgeschlossen, 25 vollständig offen.**
+**Nächster Lauf:** Serlio (267) oder Pacioli (255) als bürorelevante
+Renaissance-Traktat-Kandidaten, sonst nächste kurze Position aus der
+54-Positionen-Liste nach Bürorelevanz.

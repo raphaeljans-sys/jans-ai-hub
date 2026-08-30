@@ -1,5 +1,35 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, vierunddreissigster P2-Lauf (Campano/Pienza destilliert, Pero Tafur ohne Artikel, Lane FACHWISSEN)
+
+Stand vor Arbeitsbeginn selbst aus `KORPUS-QUEUE.md`, `wiki/INDEX.md`, CHANGELOG und der
+Inventardatei ermittelt (Dispatch-Text trägt bewusst keine Zahlen). Working tree bei
+Laufbeginn zeigte einen unkommittierten `wiki/INDEX.md`-Nachtrag aus dem 33. Lauf;
+`nas-commit-now.sh` lief in den bekannten Merge-Konflikt in fremden Lane-CHANGELOGs
+(sechs KBs), Skript brach den Merge selbst sauber ab, working tree danach lokal
+konfliktfrei, Sicherung dem 15-Min-Cron überlassen.
+
+Beide vom 33. Lauf empfohlenen Kandidaten aus `Quellentextband-1.pdf` gelesen
+(`/opt/homebrew/bin/pdftoppm`, PDF-Seite = gedruckte Seite + 4):
+- **Giannantonio Campano, «Pii II vita»** (S. 243-244) → neuer Artikel
+  [[campano-pienza-pius-ii-architekt-kostenueberschreitung-1462]]: Pienza-Bauprogramm,
+  Nutzungsauflagen nach Abnahme, primärquellenbelegte Architekten-
+  Kostenüberschreitungs-Anekdote mit Bauherren-Begründung, Tivoli-Zitadelle aus
+  Misstrauen, unrealisierte Grossinfrastruktur (Anio, Trajanshafen, Orcia-See). Verlinkt
+  mit [[enea-silvio-piccolomini-wien-1438-deutschland-tivoli-stadtbeschreibungen]]
+  (derselbe Papst, unabhängige Quelle).
+- **Pero Tafur, Reisebeschreibung 1438-39** (S. 245-246, Mainz/Köln/Brügge) gelesen, aber
+  ohne Artikel — reines Reisetagebuch mit Städtelob, kein Kennwert/Verfahren über
+  allgemeines Lob hinaus (Delta-Ehrlichkeit, analog Al-Ghazali/Koran-Befund).
+
+Gegen Wiki-Bestand geprüft (`grep -ril` «Pienza»/«Campano»/«Pius II»): keine
+inhaltlichen Duplikate. `git diff --numstat` auf die Inventardatei zeigt reinen Append
+(44/0). `wiki/INDEX.md` (Zeile Sektion 11) nachgeführt.
+
+Von den 54 benannten Positionen der Anthologie sind jetzt 29 destilliert oder begründet
+ohne Artikel abgeschlossen, 25 vollständig offen. Nächster Lauf: Serlio (S. 267) oder
+Pacioli (S. 255) als bürorelevante Renaissance-Traktat-Kandidaten.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, dreiunddreissigster P2-Lauf (Enea Silvio Piccolomini destilliert, Lane FACHWISSEN)
 
 Stand vor Arbeitsbeginn selbst aus `KORPUS-QUEUE.md`, `wiki/INDEX.md`,
