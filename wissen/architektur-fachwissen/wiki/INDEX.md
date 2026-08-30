@@ -2733,3 +2733,33 @@ prüfen, ob Ergänzung der bestehenden Artikel [[organische-schichtholz-moderne-
 bzw. [[sauter-klassische-moderne-neues-bauen-behrens-loos-wright-aalto-vierzehn-bauten-kanon]]
 treffender ist als ein eigener Artikel, sonst laut Queue-Regel nächste Sektion mit offenem
 P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (123. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen), Hostname Macmini via
+`scutil`, genau ein `claude -p`-Prozess mit diesem Dispatch-Text, kein Doppel-Dispatch,
+Working Tree bei Laufbeginn sauber. Drei vom 122. Lauf empfohlene kleinste Positionen
+gelesen: `cassina.htm`, `lucchi.htm`, `frogdesign.htm`. Duplikatscheck vorab (`grep -rli`
+gegen `cassina|lucchi|frogdesign|esslinger` über `wiki/*.md`): Cassina bislang nur als
+Herstellerbeziehung in [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]]
+erwähnt, keine eigene Firmengeschichte — kein Duplikat. Michele De Lucchi bislang nur
+Namenseintrag in der Memphis-Gründungsliste zweier Artikel, keine eigene Biografie — kein
+Duplikat. frogdesign/Esslinger ohne jeden bisherigen Treffer — komplett neues Thema. Drei
+neue Artikel: [[cassina-moebelfirma-mailand-designerroster-i-maestri]] (Firmengeschichte
+18. Jh. bis 1987, Cesare/Umberto Cassina, Industrialisierung nach 1945, Designerroster nach
+Jahrzehnten, Reissue-Serie «I Maestri»), [[michele-de-lucchi-memphis-alchimia-olivetti-artemide]]
+(Cavart/Superstudio-Umfeld → Sottsass/Memphis → Corporate-Design für Olivetti/Deutsche Bank,
+Lampe «Tolomeo») und [[frogdesign-esslinger-braun-funktionalismus-apple]] (Synthese
+Braun-Funktionalismus und Memphis-Eklektizismus, Wega/Sony-Kundenbeziehung, Apple «Ilc» 1984
+als «Design des Jahres»). Damit 70 von 128 Dateien der Zeile 68 gelesen/als ertraglos
+identifiziert (32 Frameset + 35 vorherige inhaltstragende Läufe + 3 dieser Lauf), 22
+Positionen bleiben tatsächlich offen. `git diff --numstat` auf die Inventardatei zeigte
+`0 0` (Sammelzeile unverändert, Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE), auf die
+drei neuen Wiki-Dateien reine Neuanlage. Details CHANGELOG 30.08.2026. **Zeile 68 bleibt
+offen, nächster Schritt:** Fortsetzung nach Dateigrösse (`nurmesniemi.htm`,
+`henry_van_de velde.htm`, `earl.htm`, `bellini.htm`, `50-60ein.htm`, `mo1ein.htm`,
+`race.htm`, `krise.htm`, `mollino.htm`, `maugham.htm`, `mailand.htm`, `schichtholz.htm`,
+`behrens.htm`, `wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`,
+`dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`) — bei `schichtholz.htm`/`behrens.htm`
+vorab prüfen, ob Ergänzung bestehender Artikel treffender ist als eigener, sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2.

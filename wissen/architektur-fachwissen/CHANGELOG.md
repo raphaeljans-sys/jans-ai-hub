@@ -7049,3 +7049,69 @@ Magistretti/Ponti-Artikel dokumentierte Randerwähnung hinausgeht — falls ja, 
 Referenzartikel, sonst Ergänzung dort. Bei `lucchi.htm`: Michele De Lucchi hat bereits zwei
 Streuverweise (Postmoderne-, Sottsass-Artikel) — prüfen, ob eigener Artikel oder Ergänzung
 sinnvoller ist.
+
+## 260830 — 123. Lauf Lane FACHWISSEN: drei weitere Personen-/Firmenartikel Zeile 68
+
+Fortsetzung `02_Kunst_Geschichte`/`08_Design` (Zeile 68 der Inventardatei
+`archiv-fachwissen__02_Kunst_Geschichte.md`). Stand vor Arbeitsbeginn selbst ermittelt
+(KORPUS-QUEUE.md, wiki/INDEX.md, CHANGELOG.md gegen raw/inventar geprüft, keine Zahl aus dem
+Dispatch-Text übernommen — dieser nennt bewusst keine Zahlen mehr, siehe Korrektur zum
+Fachwissen-Dispatch-Loop). Hostname Macmini (`scutil --get ComputerName`), Working Tree bei
+Laufbeginn sauber (Top-Commit `1b869b2ab`), genau ein `claude -p`-Prozess mit diesem
+Dispatch-Text laufend, kein Doppel-Dispatch.
+
+Drei vom 122. Lauf empfohlene kleinste Positionen gelesen (nach Dateigrösse):
+`cassina.htm` (9048 Bytes), `lucchi.htm` (9081 Bytes), `frogdesign.htm` (9352 Bytes).
+
+Duplikatscheck vorab (`grep -rli` über `wiki/*.md`):
+- Cassina bislang nur als Herstellerbeziehung mehrerer Designer erwähnt
+  ([[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]],
+  [[le-corbusier-perriand-jeanneret-moebelserie-grand-confort-b306-thonet-cassina]]), aber
+  keine eigene Firmengeschichte — kein Duplikat.
+- Michele De Lucchi bislang nur Namenseintrag in der Memphis-Gründungsliste
+  ([[sottsass-memphis-studio-alchimia-olivetti-radical-design]],
+  [[postmoderne-design-jencks-memphis-alchimia-international]]), keine eigene Biografie —
+  kein Duplikat.
+- frogdesign/Hartmut Esslinger ohne jeden bisherigen Treffer in der KB — komplett neues
+  Thema.
+
+Drei neue Wiki-Artikel:
+
+1. **[[cassina-moebelfirma-mailand-designerroster-i-maestri]]** — Firmengeschichte vom
+   Schreinerbetrieb im 18. Jahrhundert über die Übernahme durch Cesare/Umberto Cassina 1927
+   zur Industrialisierung nach 1945; Designerroster nach Jahrzehnten (Ponti, Magistretti ab
+   1960, Bellini ab 1962, Tobia/Afra Scarpa ab 1963, Pesce ab 1964, Deganello ab frühen
+   1970ern); Reissue-Serie «I Maestri» (Mackintosh, Le Corbusier/Perriand/Jeanneret,
+   Rietveld) ab Mitte der 1960er. Verlinkt die drei bestehenden Cassina-Designer-Artikel.
+2. **[[michele-de-lucchi-memphis-alchimia-olivetti-artemide]]** — Weg von der Gruppo Cavart
+   (Padua 1973) und dem Superstudio-Umfeld über Sottsass/Studio-Alchimia/Memphis (ab 1981)
+   zum Corporate-Designer für Olivetti, Deutsche Bank und Artemide (Lampe «Tolomeo» 1983).
+   Offener Punkt: Quelltext bricht in der Spätphase der 1980er als Satzfragment ab, nicht
+   nachrecherchiert, da für die Kernbiografie nicht nötig.
+3. **[[frogdesign-esslinger-braun-funktionalismus-apple]]** — Programmatische Synthese aus
+   deutschem Braun-Funktionalismus und italienischem Memphis-Eklektizismus; Wega/Sony als
+   Lehrverhältnis, internationale Expansion ab 1982 (Kalifornien) und 1986 (Tokio), Apple
+   «Ilc» 1984 als «Time»-«Design des Jahres». Erste eigenständige Behandlung dieses Büros in
+   der KB.
+
+Kein Fund gesperrter Inhalte (Verträge/Adressen/Personaldossiers/Honorardaten). Kein
+globales Suchen-und-Ersetzen. `git diff --numstat` auf die Inventardatei
+(`archiv-fachwissen__02_Kunst_Geschichte.md`) zeigte `0 0` — die Sammelzeile 68 bleibt gemäss
+seit dem 106. Lauf gültiger Praxis unverändert, Fortschritt wird nur in
+INDEX/CHANGELOG/KORPUS-QUEUE geführt. Auf die drei neuen Wiki-Dateien reine Neuanlage.
+
+Damit sind 70 von 128 `.htm`-Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert
+(32 Frameset-/Banner-Seiten + 35 inhaltstragende Dateien aus früheren Läufen + 3 dieser
+Lauf). Rund 22 Positionen bleiben offen: `nurmesniemi.htm`, `henry_van_de velde.htm`,
+`earl.htm`, `bellini.htm`, `50-60ein.htm`, `mo1ein.htm`, `race.htm`, `krise.htm`,
+`mollino.htm`, `maugham.htm`, `mailand.htm`, `schichtholz.htm`, `behrens.htm`, `wegner.htm`,
+`mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`, `deskey.htm`,
+`bugholz.htm`, `day.htm`.
+
+Sicherung via `bash scripts/nas-commit-now.sh`. **Zeile 68 bleibt offen, nächster Schritt:**
+Fortsetzung nach Dateigrösse unter den 22 verbliebenen Positionen; bei `schichtholz.htm` und
+`behrens.htm` vorab prüfen, ob Ergänzung der bestehenden Artikel
+[[organische-schichtholz-moderne-aalto-eames-jacobsen]] bzw.
+[[sauter-klassische-moderne-neues-bauen-behrens-loos-wright-aalto-vierzehn-bauten-kanon]]
+treffender ist als ein eigener Artikel, sonst laut Queue-Regel nächste Sektion mit offenem
+P1/P2.
