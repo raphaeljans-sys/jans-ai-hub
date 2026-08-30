@@ -1,9 +1,9 @@
 ---
-title: "Sankt Peter, Rom: Baugeschichte über sechs Architektengenerationen (Bramante bis Maderno)"
+title: "Sankt Peter, Rom: Baugeschichte über sechs Architektengenerationen (Bramante bis Bernini)"
 status: speculative
 last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/Renaissance-Zusammenfassung.pdf (Tönnesmann-Vorlesungsskript, S. 23-25 von 51, vollständig gelesen)"]
-links: ["[[architektenportraits-sammlung-renaissance-kernfiguren-fuenf-kurzbiografien-alberti-bramante-raffael-michelangelo-brunelleschi]]", "[[toennesmann-alberti-rossellino-laurana-palazzo-rucellai-pienza-urbino]]", "[[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]]"]
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/Renaissance-Zusammenfassung.pdf (Tönnesmann-Vorlesungsskript, S. 23-25 von 51, vollständig gelesen)", "/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/01_Architektenportrait/alles/9_rom_st.pdf (2 Seiten, vollständig gelesen)"]
+links: ["[[architektenportraits-sammlung-renaissance-kernfiguren-fuenf-kurzbiografien-alberti-bramante-raffael-michelangelo-brunelleschi]]", "[[toennesmann-alberti-rossellino-laurana-palazzo-rucellai-pienza-urbino]]", "[[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]]", "[[toennesmann-bernini-baldachin-cornaro-kapelle-petersplatz-entwurfsgeschichte-scala-regia]]"]
 ---
 
 # Sankt Peter, Rom: Baugeschichte über sechs Architektengenerationen (Tönnesmann)
@@ -116,6 +116,39 @@ Lichtsituation ändert sich (sechs Fenster in der Tonne des Langhauses gegenübe
 geschlossenen Gewölbe des Zentralbaus, in den Seitenschiffen sorgt eine Reihung von
 Kuppelräumen mit Laternen für Licht). Unter Papst Innozenz X. wurde die Dekoration des
 Langhauses nach Entwürfen Berninis umgestaltet.
+
+## Fünfter Architekt: Bernini — Kolonnade, Fassadenmasse, künstlerische Ausstattung
+
+Quelle `9_rom_st.pdf` (Duplikatscheck: Berninis Petersplatz-Entwurfsgeschichte mit den drei
+Entwurfsstufen und der Baldachin/Cornaro-Kapelle-Vertiefung stehen bereits ausführlich in
+[[toennesmann-bernini-baldachin-cornaro-kapelle-petersplatz-entwurfsgeschichte-scala-regia]],
+hier deshalb nicht wiederholt). Neu gegenüber jenem Artikel sind Masse und die künstlerische
+Ausstattung jenseits von Baldachin und Cornaro-Kapelle:
+
+**Petersplatz-Kolonnade:** die halbkreisförmigen Kolonnaden aus dorischen Säulen und
+Pfeilern tragen insgesamt 140 Heiligenstatuen.
+
+**Fassade (Maderno):** 45 m hoch, 115 m breit — eine im Verhältnis zur Höhe deutlich zu
+breite Fassade, die Maderno durch eine mächtige Gliederung der Hauptgeschosse mit Säulen und
+Pilastern zu kompensieren suchte, die sich zur Mitte hin plastisch verdichtet.
+
+**Gesamtmasse laut dieser Quelle:** 211 m Länge, 15'160 m² Grundfläche, rund 60'000
+Gläubige Fassungsvermögen. **Quellenwiderspruch dokumentiert, nicht aufgelöst:** die
+Gesamtlänge weicht von den 186,3 m in
+[[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]] (Abschnitt
+Eckdaten, selbe Vorlesungsreihe Tönnesmann) deutlich ab. Beide Zahlen stammen aus
+Studienunterlagen ohne Fachlektorat; keine externe Zweitquelle zur Klärung herangezogen
+(`nichts erfinden`).
+
+**Künstlerische Ausstattung (Auswahl mit Datierung):** Michelangelos Pietà (1499-1500,
+Marmorgruppe); Sitzfigur des Petrus von Arnolfo di Cambio; Papstgrabmäler Innozenz VIII.
+(1498, Antonio del Pollaiuolo), Paul III. (1551-75, Giacomo della Porta), Urban VIII.
+(1642-47, Bernini) und Alexander VII. (1671-78, Bernini).
+
+**Bauabschluss laut dieser Quelle:** 1626 als Datum der Fertigstellung/Weihe genannt — nach
+della Portas Tod 1602 vollendeten Bau bis auf Fassade/Langhaus, die Maderno 1607-1614 anfügte
+(vgl. oben); 1626 fällt damit in die Bauzeit der Ausstattung unter Bernini, nicht in die
+Rohbauphase.
 
 ## Einordnung für die Bürotätigkeit
 
