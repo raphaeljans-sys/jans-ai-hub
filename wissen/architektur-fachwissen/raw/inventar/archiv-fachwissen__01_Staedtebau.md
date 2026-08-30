@@ -1355,3 +1355,42 @@ Stadtlage, S. 63-68) oder Digesta Buch 43,7-11 (römisches öffentliches
 Wege-/Baurecht, S. 163-167, direkt bürorelevant als antikes Vorbild
 heutigen öffentlichen Baurechts), sonst nächstes unbearbeitetes
 Autorendossier.
+
+## Sechsundzwanzigster P2-Lauf, Aristoteles und Digesta destilliert
+(30.08.2026, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn Stand gegen `KORPUS-QUEUE.md`, `wiki/INDEX.md` und `git log --
+wissen/architektur-fachwissen/` gegengeprüft (Stand identisch zum 25. Lauf
+dokumentierten Ende, working tree sauber). Die beiden vom 25. Lauf empfohlenen
+Kandidaten aus `Quellentextband-1.pdf` vollständig gelesen und destilliert:
+
+- Aristoteles, «Politik», Buch II,8 (S. 63: Hippodamus von Milet, eigenwillige
+  Charakterisierung, 10'000-Bürger-Staat mit Dreiteilung von Bevölkerung
+  [Handwerker/Bauern/Krieger] und Land [Kultus/öffentlich/privat]) und Buch
+  VII,5-6/10-11 (S. 64-68: vierfache Rücksicht bei der Stadtlage — Gesundheit,
+  Kriegstauglichkeit, Wasser, Befestigungsform nach Staatsform —, Zielkonflikt
+  hippodamische Rasterbauart versus Kriegssicherheit mit der Rebpfahl-Lösung,
+  Mauern als Kriegserfordernis trotz «altväterlicher» Gegenmeinung) → neuer
+  Artikel [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]],
+  verlinkt mit den bestehenden Hippodamus-Artikeln (die Aristoteles bisher nur
+  über Sekundärliteratur zitierten, mit abweichender Kapitelzählung II,5
+  gegenüber hier II,8, nicht gegengeprüft).
+- Digesta Buch 43, Titel 7-11 (S. 163-168, 530 n. Chr., Justinian, englische
+  Übersetzung in der Anthologie): prätorisches Interdikt-Recht zu öffentlichen
+  Plätzen/Wegen — Bauverbot mit gesetzlicher Ausnahme, städtische
+  Aufseherpflichten, zentrale Reparatur-Interdikt-Formel mit
+  Verschlechterungsverbot, Nachbarhaftung für abgeleitetes Wasser
+  (Labeo/Nerva-Kontroverse), Unterscheidung öffentlicher/privater/lokaler Wege
+  nach Entstehungsart, Ausschluss der Verjährung öffentlicher Wege durch
+  Nichtnutzung → neuer Artikel
+  [[digesta-43-oeffentliches-wegerecht-baurecht-interdikte-roemisch]] (erste
+  Rechtsquelle dieser Sektion als Prozessrecht statt Bauwerksbeschreibung).
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach Aristoteles/Hippodamus/Digesta über
+`wiki/*.md`): keine inhaltlichen Duplikate, nur bestehende Sekundärzitate.
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von den ca. 50
+Quellentextband-Auszügen sind jetzt vierzehn destilliert, rund 32 bleiben offen.
+Von den 33 Autorendossiers der Position 4 bleiben weiterhin acht unangetastet —
+kein neuer Fund in diesem Lauf. **Nächster Lauf:** nächstes kurzes,
+eigenständiges Autorendossier oder weitere Quellentextband-Einzelauszüge nach
+Bürorelevanz auswählen.

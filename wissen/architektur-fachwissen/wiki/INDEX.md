@@ -1612,3 +1612,19 @@ bleiben offen** (zahlreiche kürzere antike/mittelalterliche Einzelauszüge). Ke
 der harten Sperren berührt. **Nächster Lauf:** Aristoteles «Politik» (Buch II,8
 Hippodamus-Stadtplan; Buch VII,5-6/10-11 optimale Stadtlage) oder Digesta Buch
 43,7-11 (römisches öffentliches Wege-/Baurecht) — beide kurz und eigenständig.
+
+26. Lauf, zwei weitere Auszüge (Aristoteles, Digesta):
+
+- [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]] —
+  Hippodamus von Milet (10'000-Bürger-Staat, Dreiteilung von Bevölkerung und
+  Land), vierfache Rücksicht bei der Stadtlage, Zielkonflikt hippodamische
+  Rasterbauart versus Kriegssicherheit.
+- [[digesta-43-oeffentliches-wegerecht-baurecht-interdikte-roemisch]] —
+  prätorisches Interdikt-Recht zu öffentlichen Plätzen/Wegen,
+  Reparatur-Interdikt-Formel mit Verschlechterungsverbot, Nachbarhaftung für
+  abgeleitetes Wasser.
+
+**Von den ca. 50 Quellentextband-Auszügen sind jetzt vierzehn destilliert, rund
+32 bleiben offen.** Keine der harten Sperren berührt. **Nächster Lauf:**
+nächstes kurzes, eigenständiges Autorendossier oder weitere
+Quellentextband-Einzelauszüge nach Bürorelevanz auswählen.
