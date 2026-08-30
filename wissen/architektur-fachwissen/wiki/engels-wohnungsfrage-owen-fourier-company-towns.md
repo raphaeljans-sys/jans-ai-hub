@@ -78,6 +78,25 @@ finanzierten nicht nur die Arbeiterwohnungen, sondern investierten — teils ohn
 Rückzahlung — in Sportanlagen, Grünräume und Erziehungs-, Bildungs- und
 Gesundheitseinrichtungen.
 
+## Ergänzung: Engels' «Haussmann»-Verallgemeinerung im Originalwortlaut
+
+Primärquelle nachträglich verfügbar (Auszug aus Friedrich Engels, «Wie die Bourgeoisie die
+Wohnungsfrage löst», in: *Volksstaat*, Nr. 104, 28.12.1872, S. 1-2): Engels prägt hier den
+Begriff **«Haussmann» als Gattungsbezeichnung**, nicht nur als Verweis auf den Pariser
+Präfekten selbst — gemeint ist die «allgemein gewordene Praxis des Breschelegens in die
+Arbeiterbezirke», unabhängig davon, ob sie mit öffentlicher Gesundheit, Verschönerung,
+Geschäftsflächen-Nachfrage oder Verkehrsbedürfnissen (Eisenbahnen, Strassen) begründet
+wird. Die zentrale These: Slums werden durch diese Praxis nicht beseitigt, sondern nur
+**verlegt** — «dieselbe ökonomische Notwendigkeit, die sie am ersten Ort erzeugte, erzeugt
+sie auch am zweiten» — solange die kapitalistische Produktionsweise fortbesteht. Engels
+grenzt sich damit auch von Emil Sax ab, der Arbeiterkolonien nach dem Vorbild von
+Owen/Fourier ohne deren sozialistischen Gehalt vorschlägt («bloß durch Abstreifung alles
+Sozialistischen total verbürgert» — dadurch laut Engels erst recht utopisch, da kein
+Kapitalist ein eigenes Interesse an solchen Kolonien habe). Als einziges tatsächlich
+gebautes Beispiel eines Fourier'schen Gemeinschaftsmodells nennt Engels **Guise
+(Frankreich)** — errichtet von einem Fourieristen als sozialistisches Experiment, nicht als
+rentable Spekulation. (Quelle: `Engels_Friedrich/Engels_Friedrich.pdf`.)
+
 ## Praxisrelevanz
 
 Die drei Modelle (Enteignung/Verstaatlichung bei Engels, Genossenschaft bei Owen/Fourier,

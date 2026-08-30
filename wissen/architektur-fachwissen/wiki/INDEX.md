@@ -1429,3 +1429,41 @@ Fünfteln (Sitte, Stübben, Curdes) erledigt; Position 3 bleibt nur für Krier/N
 (beide über 20 MB, dauerhaft blockiert). Positionen 4-7 bleiben vollständig offen.
 **Nächster Lauf:** Position 4 (33 Autorendossiers) beginnen. Keine der harten Sperren
 berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 4, elfter P2-Lauf (Lane FACHWISSEN, 61. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Sieben weitere der 33 Autorendossiers bearbeitet. Drei neue Artikel aus bisher unberührten
+Quellen:
+
+- [[christiaanse-urban-breeding-grounds-gentrifizierungszyklus-steuerungspolitik]] — Kees
+  Christiaanse (ETH Zürich), Gentrifizierungszyklus als «urban breeding grounds»,
+  Jane-Jacobs-Zitat «self-destruction of diversity», Steuerungsinstrumente
+  Parzellenschutz/Wohnanteil-Vorgabe/Bonus-Malus.
+- [[tessenow-strassen-plaetze-geschlechtermetapher-dorf-stadt-grossstadt-analogie]] —
+  Heinrich Tessenow, Strasse/Platz als Geschlechtermetapher, Dorf-Stadt-Grossstadt als
+  Lebenslauf-Analogie (studentische Textanalyse).
+- [[deutsches-institut-stadtbaukunst-konferenz-traditionalisten-modernisten-2012]] —
+  Hochparterre-Bericht zur Stadtbaukunst-Konferenz Düsseldorf 2012, Traditionalisten
+  (Mäckler/Sonne/Kollhoff) gegen Modernisten (Ingenhoven/de Vries), mit
+  Lampugnani-Zitat «Lasst Architekten die Strassen zeichnen!».
+
+Vier weitere Dossiers (Howard, Taut, Migge, Engels) erwiesen sich als Primärquellen zu
+bereits destillierten Sekundärtexten und wurden als Ergänzung statt Duplikat eingefügt:
+Howards Drei-Magnete-Schema im Originalwortlaut in
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]]; Tauts
+Stadtkrone-Masszahlen (7 km Durchmesser, 800x500 m Areal, 38,5 km² Gesamtfläche,
+300'000-500'000 Einwohner) und Migges Gartengrössen-Norm (80-100 m²/Person) in
+[[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]]; Engels' «Haussmann» als
+Gattungsbegriff für Slum-Verlagerung (nicht -beseitigung) samt Guise als einziges gebautes
+Fourier-Beispiel in [[engels-wohnungsfrage-owen-fourier-company-towns]]. Zwei Dossiers ohne
+Ertrag (Delta-Ehrlichkeit): Mumford (reine Aufgabenstellung ohne eigene Bearbeitung), Gracq
+(literarischer Wikipedia-Stub ohne städtebauliche Fachaussage).
+
+Von den 33 Autorendossiers der Position 4 sind jetzt 15 mit Ertrag bearbeitet, drei Ordner
+leer (Leveillé, Siedler, Sutcliffe); 16 bleiben offen: Behne, Giedion, Hilberseimer,
+Jefferson, Lampugnani, Muratori, Rossi (gegen bestehende Rossi-Artikel aus
+`archiv-fachwissen__02_Architekturtheorie` prüfen), Sievers, Sonne, Waldenheim, sowie die
+unzugeordnete `kapitel01_dk_vorindustrielle_120dpi.pdf`. **Nächster Lauf:** kleine
+Restdateien zuerst (Behne, Waldenheim, `kapitel01_dk...`), grosse Dateien
+(Sonne/Lampugnani/Sievers, teils über 20-MB-Grenze) zuletzt. Keine der harten Sperren
+berührt.

@@ -1,5 +1,34 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, elfter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, 61. Beispiel Memory `project_fachwissen-dispatch-loop`, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz, PID 31881)
+
+Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/CHANGELOG geprüft: entsprach exakt dem Ende
+des zehnten Laufs. Sieben weitere Dossiers der Position 4 (33 Autorendossiers) bearbeitet.
+Drei neue Wiki-Artikel aus bisher unberührten Quellen:
+[[christiaanse-urban-breeding-grounds-gentrifizierungszyklus-steuerungspolitik]] (Kees
+Christiaanse, Gentrifizierungszyklus, Jane-Jacobs-Zitat, Steuerungsinstrumente),
+[[tessenow-strassen-plaetze-geschlechtermetapher-dorf-stadt-grossstadt-analogie]]
+(Strasse/Platz-Geschlechtermetapher, Dorf-Stadt-Grossstadt-Lebenslauf-Analogie),
+[[deutsches-institut-stadtbaukunst-konferenz-traditionalisten-modernisten-2012]]
+(Traditionalisten-vs-Modernisten-Debatte Düsseldorf 2012 mit Originalzitaten
+Mäckler/Sonne/Kollhoff/Ingenhoven/Lampugnani/Stimmann/Krier). Vier weitere Dossiers
+(Howard, Taut, Migge, Engels) erwiesen sich als Primärquellen zu bereits destillierten
+Sekundärtexten und wurden als Ergänzung mit bisher fehlenden Originalzitaten/Kennzahlen in
+die bestehenden Artikel eingefügt (Delta-Ehrlichkeit, kein Duplikat):
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] (Howards
+Drei-Magnete-Schema), [[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]] (Tauts
+Stadtkrone-Masszahlen sowie Migges Gartengrössen-Norm 80-100 m²/Person),
+[[engels-wohnungsfrage-owen-fourier-company-towns]] (Engels' «Haussmann»-Gattungsbegriff,
+Guise als einziges gebautes Fourier-Beispiel). Zwei Dossiers ohne Ertrag (Delta-Ehrlichkeit):
+Mumford (`Die_Stadt_Mumford.doc`, reine ILIAS-Aufgabenstellung ohne eigene Bearbeitung),
+Gracq (Wikipedia-Stub zu einem literarischen Nantes-Erinnerungsbuch, keine städtebauliche
+Fachaussage). `git diff --numstat` auf die Inventardatei zeigt reinen Append (`67 0`). Von
+den 33 Autorendossiers der Position 4 sind jetzt 15 mit Ertrag bearbeitet, drei Ordner leer;
+16 bleiben offen (Behne, Giedion, Hilberseimer, Jefferson, Lampugnani, Muratori, Rossi
+[gegen `archiv-fachwissen__02_Architekturtheorie` prüfen], Sievers, Sonne, Waldenheim,
+`kapitel01_dk_vorindustrielle_120dpi.pdf`). Details: `raw/inventar/
+archiv-fachwissen__01_Staedtebau.md` Abschnitt Destillat-Fortschritt, `wiki/INDEX.md`.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zehnter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«Station MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
 
 Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/eigenes CHANGELOG geprüft: entsprach exakt

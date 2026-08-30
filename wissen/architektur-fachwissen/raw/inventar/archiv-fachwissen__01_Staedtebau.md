@@ -649,3 +649,70 @@ denselben Migge/Taut-Artikel prüfen), Tessenow, Von Moos-Restdatei keine mehr, 
 sowie die unzugeordnete `kapitel01_dk_vorindustrielle_120dpi.pdf`. **Nächster Lauf:**
 Position 4 fortsetzen, dabei Migge/Taut/Rossi zuerst gegen bestehende Artikel prüfen (siehe
 oben), bevor destilliert wird.
+
+**30.08.2026 (Lane FACHWISSEN, elfter P2-Lauf, Position 4 fortgesetzt — sieben weitere
+Dossiers, davon vier neue Artikel und vier Ergänzungen an vier Dossiers, die sich als
+Primärquellen zu bereits destillierten Sekundärtexten erwiesen):** vor Arbeitsbeginn wie
+üblich `scutil` (Macmini bestätigt), `ps aux` (nur der eigene Prozess, PID 31881) und
+`KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft — Dispatch-Text weiterhin identisch veraltet
+(«kein Destillat, keine Spec, 2 Wiki-Artikel», Station fälschlich «MacBook Pro», 61.
+Beispiel Memory `project_fachwissen-dispatch-loop`, Stand entsprach exakt dem Ende des
+zehnten Laufs oben).
+
+- `Christiansen_Kees/Christiaanse_Kees_christiUrban_breeding_grounds.pdf` (Kees
+  Christiaanse, «Urban breeding grounds», Global Investor 2.10, 2010, eine Seite,
+  vollständiger Fliesstext) → neuer Artikel
+  [[christiaanse-urban-breeding-grounds-gentrifizierungszyklus-steuerungspolitik]]
+  (Gentrifizierungszyklus, Jane-Jacobs-Zitat «self-destruction of diversity»,
+  Steuerungsinstrumente Parzellenschutz/Wohnanteil/Bonus-Malus).
+- `Tessenow_Heinrich/Susana Gomes_Gedanken-eines-Baumeisters.pdf` (Textanalyse zu Tessenow,
+  *Geschriebenes*, dritter Abschnitt) → neuer Artikel
+  [[tessenow-strassen-plaetze-geschlechtermetapher-dorf-stadt-grossstadt-analogie]]
+  (Strasse/Platz als Geschlechtermetapher, Dorf-Stadt-Grossstadt als Lebenslauf-Analogie).
+  Die zweite Datei desselben Ordners (`Tessenow Presentation Bilder.pdf`) nicht ausgewertet
+  — reines Bildmaterial ohne Fliesstext laut Dateiname, kein Mehrwert erwartet.
+- `Darmstaedter_Gespraeche/Inovation_ist_boese_Architektur.docx` (Axel Simon,
+  Hochparterre, «Innovation ist böse!», 23.07.2012, Bericht zur Stadtbaukunst-Konferenz
+  Düsseldorf) → neuer Artikel
+  [[deutsches-institut-stadtbaukunst-konferenz-traditionalisten-modernisten-2012]]
+  (Traditionalisten-vs-Modernisten-Debatte, Mäckler/Sonne/Kollhoff/Ingenhoven/Lampugnani/
+  Stimmann/Krier mit Originalzitaten). Die begleitende `img001.jpg` nicht ausgewertet
+  (Volltext bereits im Artikel).
+- `Mumfort_Lewis/Die_Stadt_Mumford.doc` (via `textutil`) — **kein Artikel**: reine
+  ILIAS-Aufgabenstellung mit Fragenkatalog und Begriffsliste, keine eigene inhaltliche
+  Bearbeitung des Mumford-Texts vorhanden (Delta-Ehrlichkeit).
+- `Gracq_Julien/.../La Forme d'une ville - Wikipédia.pdf` — **kein Artikel**:
+  bibliografischer Wikipedia-Stub zu Gracqs literarischem Nantes-Erinnerungsbuch, keine
+  städtebauliche Fachaussage, rein literaturgeschichtlich (Delta-Ehrlichkeit, ausserhalb
+  Bürorelevanz dieser KB).
+- Vier bereits als Sekundärtexte destillierte Dossiers lieferten zusätzlich die
+  Originalzitate/Primärquelle mit bisher fehlenden Kennzahlen — als Ergänzung in die
+  jeweils bestehenden Artikel eingefügt statt neuer Duplikat-Artikel: `Howarde_Ebnezer/
+  Howard.pdf` (Drei-Magnete-Schema im Originalwortlaut) in
+  [[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]]; `Taut_Bruno/Bruno
+  Taut.pdf` (Masszahlen: 7 km Durchmesser, 800x500 m Stadtkrone-Areal, 38,5 km²
+  Gesamtfläche, 300'000-500'000 Einwohner, 150 EW/ha, Strassenbreiten 5-8 m) und
+  `Leberecht_Migge/Leberecht Migge.pdf` (Gartengrössen-Norm 80-100 m²/Person, 400 m² für
+  fünfköpfige, 1'400 m² für zehnköpfige Familie) beide in
+  [[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]]; `Engels_Friedrich/
+  Engels_Friedrich.pdf` («Haussmann» als Gattungsbegriff für Slum-Verlagerung statt
+  -Beseitigung, Guise als einziges gebautes Fourier-Beispiel) in
+  [[engels-wohnungsfrage-owen-fourier-company-towns]].
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. Von den 33
+Autorendossiers der Position 4 sind damit 15 mit Ertrag bearbeitet (elf destilliert plus
+vier Ergänzungs-Primärquellen zu bereits gezählten Dossiers) sowie drei als leer/ohne
+Ertrag identifiziert (Leveillé, Siedler, Sutcliffe) und zwei weitere jetzt ohne Ertrag
+geprüft (Mumford, Gracq); **16 Dossiers bleiben offen**: Behne, Darmstaedter-Datei
+`img001.jpg` bereits mitgeprüft, Giedion, Hilberseimer, Jefferson, Lampugnani (grosse
+PDF, 10,8 MB `Quellentextband-1.pdf` noch ungeprüft), Muratori, Rossi (gegen bestehende
+Rossi-Artikel aus Korpus `archiv-fachwissen__02_Architekturtheorie` prüfen, bevor
+destilliert wird), Sievers (`Thomas Sieverts - Zwischenstadt.pdf`, 6,5 MB, plus
+`Bosshard_Zwischenstadt.pdf`), Sonne (mehrteiliges Dossier, eine Datei 85 MB, über
+20-MB-Grenze), Von_Moos bereits vollständig erledigt (Vorlauf), Waldenheim
+(`LANDSCAPE_URB_READER.pdf`, 3 MB), sowie die unzugeordnete
+`kapitel01_dk_vorindustrielle_120dpi.pdf` (19,1 MB, unter 20-MB-Grenze, noch nicht
+geöffnet). **Nächster Lauf:** kleine/mittlere Restdateien zuerst (Behne 71-149 KB-Dateien,
+Waldenheim 3 MB, `kapitel01_dk...` 19,1 MB), dann Jefferson (5,3 MB)/Muratori
+(mehrere PDF 1,8-4,2 MB)/Rossi (Duplikat-Check gegen `02_Architekturtheorie` zuerst),
+Sonne/Lampugnani/Sievers zuletzt (grösste Dateien, teils über 20-MB-Grenze).

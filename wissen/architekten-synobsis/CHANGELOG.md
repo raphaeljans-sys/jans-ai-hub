@@ -4,6 +4,47 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, zweiundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche `git status --short`/`git diff --numstat` (Arbeitsbaum sauber bis auf den
+noch nicht gesicherten CHANGELOG-Eintrag des 21. Folgelaufs, `+27/-0`, also append-only) sowie
+`wiki/QUESTIONS.md` an den namentlich betroffenen Zeilen erneut gegengelesen: Fehlextraktionen
+(331/332/339/344/349/353), alle vier Katalog-Kollisionen (105/136/180/268/336/342/350),
+Sonderzeichen-Regel (351) und Sammelfrage Charge 1-6 unveraendert BEHOBEN bzw. vollstaendig
+recherchiert seit dem ersten Lauf am 29.08.2026 — keine neue Position gefunden, keine
+Katalog-JSON- oder `QUESTIONS.md`-Aenderung. Dies ist der 22. Redispatch desselben (laut
+Vorlauf bereits als veraltet erkannten) Auftragstexts an einem Tag. Unveraendert dringliche
+Empfehlung an Raphael: Lane SYNOBSIS pausieren oder Dispatch-Text aktualisieren, bis neuer
+Auftrag, neues Quellmaterial oder eine Antwort auf die zwei offenen Rueckfragen (Sik_Miroslav
+Zeile 313, Sutter_Annabarbara Zeile 319) vorliegt.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, einundzwanzigster Folgelauf desselben Tages) — Unabhaengige Vollpruefung bestaetigt: alle vier Auftragspositionen erledigt, Auftragstext selbst veraltet
+
+Statt des ueblichen Minimalchecks diesmal die vier Auftragspositionen einzeln direkt in
+`wiki/QUESTIONS.md` gegengelesen (nicht nur die CHANGELOG-Zusammenfassungen der Vorlaeufe
+uebernommen): **Fehlextraktionen** (Zeilen 331/332/339/344/349/353) — alle BEHOBEN, jeweils
+mit Ersatzquelle oder bewusst auf textlos gesetzt, wo keine Alternative im Ordner lag.
+**Katalog-Kollisionen** (Zeilen 105/136/180/268/336/342/350) — alle vier Faelle (Christ_
+Gantenbein, Enzmann_Fischer, Miller_Maranta, Gigon_Guyer) BEHOBEN, inklusive Scanner-Fix
+(`build_slug_index()`/`merge_records()`), der ein Wiederauftreten bei kuenftigem `--reindex`
+verhindert. **Sonderzeichen-Regel** (Zeile 351) — vereinheitlicht auf das Utzon_Jørn-Vorbild,
+14 betroffene Katalogdateien per `git mv` nachgezogen, Scanner-Ursache (NFD-Zerlegung ueber
+SMB) identifiziert und per `nfc()`-Normalisierung behoben. **Sammelfrage** — hier eine
+Praezisierung des Auftragstexts noetig: dieser nennt "Charge 2 und folgende offen", das
+stimmt nicht mehr — Zeile 88 dokumentiert bereits, dass Charge 2 bis 6 am 29.08.2026
+vollstaendig einzeln recherchiert wurden (Charge 1 an Zeile 32, Charge 3 bis 6 an den
+Zeilen 67/74/78/88), der Auftragstext im Dispatch ist insofern veraltet. Verbleibender
+echter Rest ist kein Arbeitsauftrag mehr, sondern entweder Materialmangel (kein Beleg trotz
+Recherche: u.a. Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure, Wurster_William,
+Pfister_Gebrueder, Lengacher_Emenegger), Freigabesache (NAS-Ordner umbenennen/mergen,
+produktiver `--reindex`-Lauf) oder interne Rueckfrage an Raphael (Sik_Miroslav Zeile 313,
+Sutter_Annabarbara Zeile 319). Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert
+(`git diff --numstat` vor und nach dieser Pruefung leer). **Empfehlung an Raphael, jetzt mit
+Nachdruck:** diese Lane hat 21 identische Dispatches an einem Tag erhalten, seit Lauf 1
+(29.08.2026) ist nichts mehr offen, das ohne Freigabe oder neues Quellmaterial bearbeitbar
+waere — den Auftragstext im Dispatcher aktualisieren oder die Lane bis zu einer der drei
+genannten Bedingungen pausieren, statt denselben veralteten Text weiter zu wiederholen.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, zwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
 
 Vor jeder Recherche `git status --short`/`git diff --numstat` (sauber, keine unerledigten
