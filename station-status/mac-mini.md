@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 09:23:30
+Stand: 30.08.2026 09:33:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /Users/raphaeljans  (letzte Aktivitaet 09:22)
+- /Users/raphaeljans  (letzte Aktivitaet 09:29)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 09:23:30
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 025171d31 nas-selfcommit: 4 Datei(en) 2026-08-30 09:15
+- 662b670ea P2-Lauf 29 abgeschlossen: Francesco di Giorgio Martini destilliert, Seitenoffset im Quellentextband dokumentiert

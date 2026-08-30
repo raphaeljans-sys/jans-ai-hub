@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 09:21:52
+Stand: 30.08.2026 09:32:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:00)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 09:21:52
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 025171d31 nas-selfcommit: 4 Datei(en) 2026-08-30 09:15
+- 662b670ea P2-Lauf 29 abgeschlossen: Francesco di Giorgio Martini destilliert, Seitenoffset im Quellentextband dokumentiert
