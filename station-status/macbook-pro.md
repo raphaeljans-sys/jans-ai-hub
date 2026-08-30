@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 07:59:34
+Stand: 30.08.2026 08:09:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:09)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 07:59:34
 - keine
 
 ## Hub-Git-Stand (NAS)
-- afc13b780 auto-sync: FACHWISSEN 22. P2-Lauf, vier Auszuege Vitruv/Frontinus/Filarete-Alberti-Duerer/Kalabrien
+- 5cb1f6d9f Schub-Lane SYNOBSIS: Charge 1 vollstaendig per Ordnerinhalt geprueft

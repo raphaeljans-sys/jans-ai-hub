@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 08:01:04
+Stand: 30.08.2026 08:11:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 08:01)
@@ -12,4 +12,4 @@ Stand: 30.08.2026 08:01:04
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7c3f7502b nas-selfcommit: 3 Datei(en) 2026-08-30 08:00
+- 5cb1f6d9f Schub-Lane SYNOBSIS: Charge 1 vollstaendig per Ordnerinhalt geprueft
