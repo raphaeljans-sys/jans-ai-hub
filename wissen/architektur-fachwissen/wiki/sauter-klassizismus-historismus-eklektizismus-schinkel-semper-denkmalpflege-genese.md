@@ -3,7 +3,7 @@ title: "Klassizismus/Historismus/Eklektizismus 1770-1900: Dreizehn-Bauten-Kanon,
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturgeschichte/ 00_Allgemein/04_Kunsthistoriker/Sauter_Marion/04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS.pdf (15 S., vollständig gelesen)"]
-links: ["[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]", "[[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]]", "[[materialwahrheit-stoffwechseltheorie-semper-urtechniken]]", "[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]]"]
+links: ["[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]", "[[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]]", "[[materialwahrheit-stoffwechseltheorie-semper-urtechniken]]", "[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]]", "[[semper-polytechnikum-zuerich-eth-hauptgebaeude-struktur-oberflaeche-gaertner-staatsbibliothek-muenchen]]"]
 ---
 
 # Klassizismus/Historismus/Eklektizismus 1770-1900 (Sauter/hta Luzern)

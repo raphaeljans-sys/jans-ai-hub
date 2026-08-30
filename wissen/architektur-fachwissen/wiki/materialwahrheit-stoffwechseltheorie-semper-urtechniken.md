@@ -3,7 +3,7 @@ title: "Materialwahrheit gegen Stoffwechseltheorie Sempers — vier Elemente, vi
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/Materialwahrheit_und_Stoffwechsel/06_Fragen/Materialwahrheit_und_Stoffwechsel_Fragen.docx", "/Volumes/daten/02_Architektur_Archiv/02_Architekturtheorie/Materialwahrheit_und_Stoffwechsel/02_Vorlesungsmittschrift/121011_Materialwahrheit_Stoffwechsel.docx", "raw/inventar/archiv-fachwissen__02_Architekturtheorie.md Abschnitt «Was hier für JANS drinsteckt» Punkt 2"]
-links: ["[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]]", "[[materialitaet-haptisch-optisch-riegl-bandmann]]", "[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]"]
+links: ["[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]]", "[[materialitaet-haptisch-optisch-riegl-bandmann]]", "[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]", "[[semper-polytechnikum-zuerich-eth-hauptgebaeude-struktur-oberflaeche-gaertner-staatsbibliothek-muenchen]]"]
 ---
 
 # Materialwahrheit gegen Stoffwechseltheorie Sempers

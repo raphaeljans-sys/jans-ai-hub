@@ -165,17 +165,19 @@ mit einem separaten, höher gelegenen Gästehaus verbunden.
 
 ## Offene Positionen dieses Ordners
 
-Aus `Moderne.pdf` bleiben die ersten neun Seiten (Empire-Paris, Schinkel/Klenze in
-München/Berlin, Gärtner, englische Neugotik/Soane, Crystal Palace/Paxton — bereits als
-Einzelportrait destilliert, Semper-Werke inkl. ETH Zürich, Garnier, Morris/Webb) unbearbeitet;
-Duplikatscheck zeigt für Schinkel/Klenze/Semper teilweise bereits Kanon-Zeilen in
+Aus `Moderne.pdf` blieben nach diesem Lauf zunächst die ersten neun Seiten offen; ein
+Folgelauf (87. Lauf) hat davon Sempers Polytechnikum Zürich (ETH-Hauptgebäude) und Gärtners
+Bayerische Staatsbibliothek München destilliert, siehe
+[[semper-polytechnikum-zuerich-eth-hauptgebaeude-struktur-oberflaeche-gaertner-staatsbibliothek-muenchen]].
+Der Rest der ersten neun Seiten (Empire-Paris, Schinkel/Klenze in München/Berlin, englische
+Neugotik/Soane, Crystal Palace/Paxton — bereits als Einzelportrait destilliert, Semper-Dresden,
+Garnier, Morris/Webb) bleibt aus Duplikatsgründen unbearbeitet: bereits als Kanon-Zeilen in
 [[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]] und
-[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]], eine Vertiefung
-um die hier vorhandene Fassadendetailtiefe (Semper-Polytechnikum Zürich ist z. B. nirgends
-sonst in dieser KB behandelt) wäre ein sinnvoller eigenständiger Folgeauftrag. Die letzten
-Zeilen von S. 16 (Domino-Häuser, Villa Stein Le Corbusier) bleiben als blosse Stichwortlisten
-unter der Destillationsschwelle unbearbeitet — Villa Savoye ist bereits ausführlicher in
-[[sauter-le-corbusier-mies-van-der-rohe-elf-bauten-kanon]] geführt.
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] geführt. Die
+letzten Zeilen von S. 16 (Domino-Häuser, Villa Stein Le Corbusier) bleiben als blosse
+Stichwortlisten unter der Destillationsschwelle unbearbeitet — Villa Savoye ist bereits
+ausführlicher in [[sauter-le-corbusier-mies-van-der-rohe-elf-bauten-kanon]] geführt. Damit
+gilt `Moderne.pdf` als vollständig ausgewertet.
 
 **Datenschutz/Sperrliste:** kein Fund. Ausschliesslich historische, öffentlich bekannte
 Architekten und ihre publizierten Bauten (19./20. Jahrhundert).
