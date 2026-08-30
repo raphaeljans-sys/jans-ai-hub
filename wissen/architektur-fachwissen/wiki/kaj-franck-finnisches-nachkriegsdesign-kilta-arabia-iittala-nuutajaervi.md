@@ -3,7 +3,7 @@ title: "Kaj Franck: finnisches Nachkriegsdesign zwischen Arabia, Iittala und Nuu
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/franck.htm"]
-links: []
+links: ["[[tapio-wirkkala-finnisches-glasdesign-iittala-triennale]]"]
 ---
 
 # Kaj Franck: finnisches Nachkriegsdesign zwischen Arabia, Iittala und Nuutajärvi
@@ -72,5 +72,5 @@ Mailänder Triennalen.
 
 - Quelle ist ein unautorisierter Website-Spiegel ohne Impressum/Autor, keine Verifikation gegen
   Primärliteratur (Design Museum Helsinki, Arabia-Werksarchiv) in diesem Lauf.
-- Tapio Wirkkala als eigenständige Person (`wirkkala.htm`) in diesem Lauf nicht gelesen, bleibt
-  offen für einen Folgelauf.
+- Tapio Wirkkala als eigenständige Person: eigener Artikel
+  [[tapio-wirkkala-finnisches-glasdesign-iittala-triennale]] (Folgelauf 30.08.2026).

@@ -2427,3 +2427,21 @@ Sammelzeile für den ganzen Ordner unverändert, Fortschritt wird ausschliesslic
 CHANGELOG geführt). Details CHANGELOG 30.08.2026. **Nächster Lauf:** Zeile 68 fortsetzen
 (Kandidaten nach Dateigrösse: `zanuso.htm`, `wirkkala.htm`, `paris_1925.htm`), sonst laut
 Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (109. Lauf Lane FACHWISSEN)
+
+Drei weitere Positionen des Design-Ordners `08_Design` gelesen (`zanuso.htm`, `wirkkala.htm`,
+`paris_1925.htm` — die letzte kein Personen-, sondern ein Ausstellungsartikel), zu drei neuen
+Wiki-Artikeln destilliert: [[marco-zanuso-italienisches-nachkriegsdesign-sapper-brionvega-kartell]]
+(Doppelrolle Architekt/Industriedesigner Mailand 1945–1986, Sapper-Partnerschaft mit Kartell/
+Brionvega, Material-/Fertigungstechnik als Formtreiber), [[tapio-wirkkala-finnisches-glasdesign-iittala-triennale]]
+(Bildhauerei-Zugang zum Glas, Iittala-Werk, Mailänder Triennalen 1951/1954, Gegenpol zu Kaj
+Franck — Rückverlinkung im bestehenden Franck-Artikel ergänzt) und
+[[paris-1925-exposition-art-deco-melnikow-esprit-nouveau-ruhlmann]] (Ursprungsereignis Art déco,
+Ruhlmann/Dufrêne-Luxuslinie gegen Melnikows Sowjetpavillon und Le Corbusiers Pavillon de
+l'Esprit Nouveau, verankert die bestehenden Ruhlmann- und Le-Corbusier-Möbelserie-Artikel an
+einem gemeinsamen Ereignis). Damit 28 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 73
+Personenartikel bleiben offen. `git diff --numstat` auf die Inventardatei zeigte `0 0`
+(Sammelzeile unverändert, wie in den Vorläufen). Details CHANGELOG 30.08.2026. **Nächster
+Lauf:** Zeile 68 fortsetzen — nächste Kandidaten nach Dateigrösse unter den noch ungelesenen
+Positionen, sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.

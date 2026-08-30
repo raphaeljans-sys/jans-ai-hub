@@ -1,5 +1,48 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (109. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und `CHANGELOG.md` gegen `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md`
+geprüft. `scutil --get ComputerName` bestätigte Macmini, `ps -eo pid,ppid,command` zeigte genau
+einen laufenden `claude -p`-Prozess (PID 34703) mit diesem Dispatch-Text — kein Doppel-Dispatch.
+Working Tree bei Laufbeginn sauber (Top-Commit `21050191a`, 108. Lauf bereits selbständig vom
+15-Min-Cron committet).
+
+Die vom 108. Lauf empfohlenen Kandidaten `zanuso.htm`, `wirkkala.htm` und `paris_1925.htm`
+gelesen (die drei nächstkleinsten der sechs vorgeschlagenen Dateien). Duplikatscheck vorab
+(`grep -rli` gegen Zanuso/Wirkkala/Melnikow/Esprit Nouveau/Paris 1925/Art déco über alle
+`wiki/*.md`): keine dedizierten Artikel, nur Streuverweise (Zanuso als Kunststoff-Experiment im
+Artikel [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]] und als Zeitgenossen-
+Nennung bei Sottsass; Wirkkala als Kontrastfigur im Kaj-Franck-Artikel). Drei neue Wiki-Artikel:
+
+- [[marco-zanuso-italienisches-nachkriegsdesign-sapper-brionvega-kartell]] (Doppelrolle
+  Architekt/Industriedesigner am Polytechnikum Mailand 1945–1986, ADI-Mitgründung 1954,
+  Möbel mit Material-/Fertigungstechnik als Formtreiber — Maggiolina/Stahlrohr, Lady/
+  Schaumgummi —, langjährige Sapper-Partnerschaft mit Kartell-Polyethylen-Kinderstuhl und
+  Brionvega-Radio-/Fernsehgeräten Doney/LS502/Sirius/Virgo/Algol/Black 201, Olivetti-Bauten
+  São Paulo)
+- [[tapio-wirkkala-finnisches-glasdesign-iittala-triennale]] (Bildhauereistudium als Zugang
+  zum Glas, Naturabformungstechnik Kantarelli-Vase/Blatt-Flechten-Schüsseln, Iittala-
+  Werk bis zum Tod, Mailänder Triennalen 1951/1954 mit Rut Bryk organisiert, drei von sechs
+  finnischen Grands Prix 1951, Gegenpol zu Kaj Franck)
+- [[paris-1925-exposition-art-deco-melnikow-esprit-nouveau-ruhlmann]] (Ursprungsereignis des
+  Begriffs Art déco, Entstehung 1912/Verschiebung durch Ersten Weltkrieg, Werkbund-Reaktion;
+  Ruhlmann/Dufrêne-Luxuslinie im Hôtel du Collectionneur gegen Melnikows konstruktivistischen
+  Sowjetpavillon und Le Corbusiers seriell gedachten Pavillon de l'Esprit Nouveau, Hoffmann/
+  Frank-österreichischer Pavillon)
+
+Rückverlinkung im bestehenden Kaj-Franck-Artikel ergänzt (Wirkkala-Verweis von «bleibt offen»
+auf den neuen Artikel aktualisiert). Damit 28 von 128 Fliesstext-Dateien der Zeile 68 gelesen,
+rund 73 Personenartikel bleiben offen (u. a. Josef Hoffmann als Möbeldesigner, Charles Rennie
+Mackintosh, Le Corbusier als Möbeldesigner — teils bereits über den Paris-1925-Artikel
+angerissen, aber ohne eigenständigen Personenartikel). Kein Datenschutz-/Sperrlisten-Fund.
+`git diff --numstat` auf die Sektions-Inventardatei zeigt `0 0` (Sammelzeile Zeile 68 bleibt wie
+in den Vorläufen unverändert, Fortschritt nur in `wiki/INDEX.md`/`CHANGELOG.md`/
+`KORPUS-QUEUE.md` dokumentiert, bis alle Personenartikel der Sektion gesichtet sind). **Zeile 68
+bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den noch ungelesenen
+Positionen, sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (108. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
