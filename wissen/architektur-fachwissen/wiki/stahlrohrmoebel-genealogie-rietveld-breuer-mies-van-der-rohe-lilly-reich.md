@@ -3,7 +3,7 @@ title: "Stahlrohrmöbel-Genealogie: Rietveld, Bauhaus/Breuer, Mies van der Rohe/
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/rietveld.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/breuer.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/bauhaus.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/mies.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/stahlrohrmöbel.htm"]
-links: ["organische-schichtholz-moderne-aalto-eames-jacobsen", "terragni-italienischer-rationalismus-casa-del-fascio-moebel"]
+links: ["organische-schichtholz-moderne-aalto-eames-jacobsen", "terragni-italienischer-rationalismus-casa-del-fascio-moebel", "bugholz-technikgeschichte-thonet-biegeholz-schichtholz-genealogie"]
 ---
 
 # Stahlrohrmöbel-Genealogie: Rietveld, Bauhaus/Breuer, Mies van der Rohe/Lilly Reich

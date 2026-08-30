@@ -3,7 +3,7 @@ title: "Eileen Gray: von Lackarbeiten zu Stahlrohr und Architektur (E.1027)"
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/gray.htm"]
-links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "organische-schichtholz-moderne-aalto-eames-jacobsen"]
+links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "organische-schichtholz-moderne-aalto-eames-jacobsen", "jean-dunand-franzoesischer-art-deco-lackkunst-ozeandampfer-normandie"]
 ---
 
 # Eileen Gray: von Lackarbeiten zu Stahlrohr und Architektur (E.1027)

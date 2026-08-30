@@ -3,7 +3,7 @@ title: "Organische Schichtholz-Moderne: Aalto, Eames, Jacobsen"
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/alvar_aalto.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/eames.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/jacobsen.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/schichtholz.htm"]
-links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "saarinen-eames-knoll-womb-chair-tulip-chair-moebeldesign", "carlo-mollino-turiner-barock-organische-schichtholzmoebel", "ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain"]
+links: ["stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "saarinen-eames-knoll-womb-chair-tulip-chair-moebeldesign", "carlo-mollino-turiner-barock-organische-schichtholzmoebel", "ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain", "bugholz-technikgeschichte-thonet-biegeholz-schichtholz-genealogie"]
 ---
 
 # Organische Schichtholz-Moderne: Aalto, Eames, Jacobsen

@@ -3,7 +3,7 @@ title: "Ernest Race: britisches Nachkriegsdesign zwischen Rüstungsschrott und F
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/race.htm"]
-links: ["ron-arad-postindustrielles-recycling-design-one-off", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich"]
+links: ["ron-arad-postindustrielles-recycling-design-one-off", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "robin-lucienne-day-britisches-nachkriegsdesign-hille-festival-of-britain-polypropylen"]
 ---
 
 # Ernest Race: britisches Nachkriegsdesign zwischen Rüstungsschrott und Festival of Britain
