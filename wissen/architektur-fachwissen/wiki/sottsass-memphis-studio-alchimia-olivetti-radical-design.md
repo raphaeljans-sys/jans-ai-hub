@@ -3,7 +3,7 @@ title: "Ettore Sottsass: Olivetti, Studio Alchimia, Memphis-Gruppe, Radical Desi
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/sottsass.htm"]
-links: ["italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "javier-mariscal-spanisches-postfranco-design-memphis-barcelona", "gaetano-pesce-radikales-design-polyurethan-serienunikate", "postmoderne-design-jencks-memphis-alchimia-international"]
+links: ["italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus", "stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich", "javier-mariscal-spanisches-postfranco-design-memphis-barcelona", "gaetano-pesce-radikales-design-polyurethan-serienunikate", "postmoderne-design-jencks-memphis-alchimia-international", "antonio-citterio-italienisches-moebeldesign-bb-italia-kartell-vitra"]
 ---
 
 # Ettore Sottsass: Olivetti, Studio Alchimia, Memphis-Gruppe, Radical Design

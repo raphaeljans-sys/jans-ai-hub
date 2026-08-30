@@ -146,9 +146,25 @@ japanische Postmoderne, Rückverlinkung im Sottsass-Artikel ergänzt). Fünf neu
 bestehender Artikel ergänzt. Duplikatscheck vorab (`grep -rli` gegen alle sechs Namen über
 `wiki/*.md`): keine Dubletten, nur der bereits bekannte Otto-Wagner-Theorieartikel als
 Nachbarthema. Damit 43 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 60
-Personenartikel bleiben offen. **Nächster Lauf:** Zeile 68 fortsetzen nach Dateigrösse
-unter den verbleibenden ungelesenen Positionen, sonst laut Queue-Regel nächste Sektion mit
-offenem P1/P2. |
+Personenartikel bleiben offen. **114. Lauf (30.08.2026):** `citterio.htm`/`sason.htm`/
+`dreyfuss.htm` gelesen, zwei neue Artikel (Antonio Citterio/B&B Italia/Kartell/Vitra; Sason/
+Dreyfuss beratendes Industriedesign/Anthropometrics). Damit 46 von 128 Fliesstext-Dateien
+gelesen, rund 82 Personenartikel bleiben offen. **115. Lauf (30.08.2026):** drei kleinste
+verbliebene Dateien gelesen — `post.htm` (kein Personenportrait, sondern das zweite
+Unterkapitel des bereits bekannten Postmoderne-Quellenkapitels: sozioökonomische
+Kommerzialisierung des Designerbegriffs in den 1980ern, Alessi, Design Museum London,
+High-Tech-Stil neben Post-Memphis, Ende der Designerkultur-Blase Anfang der 1990er,
+Globalisierung des Designs), `sipek.htm` (Bořek Šípek, dekoratives Design der 1990er
+zwischen Barock/Rokoko, Vitra/Driade/Néotu, Gegenpol zu Sottsass/Memphis) und `grange.htm`
+(Kenneth Grange, britische Produktdesign-Profession, Kodak/Kenwood/British-Rail-125,
+Vergleichsfall zu Teague/Douglas Scott). Drei neue Artikel, dazu Rückverlinkung im
+bestehenden Postmoderne-Artikel ergänzt (Verweis auf das Schwesterkapitel `post.htm`).
+Duplikatscheck vorab (`grep -rli` gegen alle drei Namen über `wiki/*.md`): keine Dubletten.
+Damit 49 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 79 Personenartikel bleiben
+offen. `git diff --numstat` auf die Inventardatei zeigt `0 0` (Sammelzeile unverändert,
+Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE). **Nächster Lauf:** Zeile 68 fortsetzen
+nach Dateigrösse (`graves.htm`, `kuramata.htm`, `hector_guimard.htm`, `elsie_de_wolfe.htm`,
+`morrison.htm`, `noyes.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2. |
 `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)
@@ -2486,3 +2502,22 @@ Personenartikel bleiben offen. `git diff --numstat` auf die Inventardatei zeigte
 (Sammelzeile unverändert, wie in den Vorläufen). Details CHANGELOG 30.08.2026. **Nächster
 Lauf:** Zeile 68 fortsetzen — nächste Kandidaten nach Dateigrösse unter den noch ungelesenen
 Positionen, sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (114. Lauf Lane FACHWISSEN)
+
+Läufe 110.–113. (Lane FACHWISSEN) hatten die Fliesstext-Positionen von Zeile 68 bereits auf
+43 von 128 gelesene Dateien gebracht (Details KORPUS-QUEUE/CHANGELOG); dieser Lauf ermittelte
+den Stand selbst gegen `KORPUS-QUEUE.md`/`CHANGELOG.md`, statt eine Zahl aus dem Dispatch-Text
+zu übernehmen (der inzwischen bewusst keine Zahlen mehr nennt). Drei kleinste ungelesene
+Positionen des Design-Ordners `08_Design` gelesen: `citterio.htm`, `sason.htm`, `dreyfuss.htm`.
+Duplikatscheck vorab (keine Dublette). Zwei neue Wiki-Artikel:
+[[antonio-citterio-italienisches-moebeldesign-bb-italia-kartell-vitra]] (B&B Italia/Kartell/
+Vitra, Rückverlinkung im bestehenden Magistretti/Ponti- und Zanuso-Artikel ergänzt) und
+[[sason-dreyfuss-beratendes-industriedesign-streamlining-ergonomie]] (schwedisches/
+amerikanisches Beraterdesign, Dreyfuss' Anthropometrics-Konzept verlinkt zurück auf Kaare
+Klint, Rückverlinkung im bestehenden Teague- und Ruhlmann/Kaare-Klint-Artikel ergänzt). Damit
+46 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 82 Personenartikel bleiben offen.
+`git diff --numstat` auf die Inventardatei zeigte `0 0` (Sammelzeile unverändert). Details
+CHANGELOG 30.08.2026. **Nächster Lauf:** Zeile 68 fortsetzen (Kandidaten nach Dateigrösse:
+`post.htm`, `sipek.htm`, `grange.htm`, `graves.htm`, `paris_1900.htm`, `kuramata.htm`), sonst
+laut Queue-Regel nächste Sektion mit offenem P1/P2.

@@ -3,7 +3,7 @@ title: "Italienisches Nachkriegsdesign: Magistretti und Ponti (Cassina, Domus, T
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/magistretti.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/ponti.htm"]
-links: []
+links: ["antonio-citterio-italienisches-moebeldesign-bb-italia-kartell-vitra"]
 ---
 
 # Italienisches Nachkriegsdesign: Magistretti und Ponti (Cassina, Domus, Triennale)

@@ -3,7 +3,7 @@ title: "Walter Dorwin Teague: Begründer des amerikanischen Industriedesign-Bera
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/teague.htm"]
-links: ["douglas-scott-britisches-nachkriegsdesign-routemaster", "philippe-starck-superdesigner-cafe-costes-alessi-via"]
+links: ["douglas-scott-britisches-nachkriegsdesign-routemaster", "philippe-starck-superdesigner-cafe-costes-alessi-via", "sason-dreyfuss-beratendes-industriedesign-streamlining-ergonomie"]
 ---
 
 # Walter Dorwin Teague: Begründer des amerikanischen Industriedesign-Beraterberufs

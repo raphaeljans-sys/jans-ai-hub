@@ -1,5 +1,40 @@
 # CHANGELOG architektur-fachwissen
 
+## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (114. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und `CHANGELOG.md` gegen den tatsächlichen Zustand geprüft. Nur ein
+`claude -p`-Prozess mit diesem Dispatch-Text (PID 39303), kein Doppel-Dispatch. `KORPUS-QUEUE.md`
+war bis Lauf 113 fortgeschrieben, `wiki/INDEX.md` hing seit Lauf 109 hinterher (Lücke bereits
+in früheren Läufen dokumentiert) — kein Widerspruch, nur Nachführungsrückstand.
+
+Drei kleinste ungelesene Positionen von Zeile 68 (`02_Bildende_Kunst/08_Design/`) nach
+Dateigrösse gelesen: `citterio.htm`, `sason.htm`, `dreyfuss.htm`. Duplikatscheck vorab
+(`grep -il` über `wiki/*.md`): keine Dubletten, alle drei Personen bislang nirgends in der KB.
+
+Zwei neue Wiki-Artikel:
+- [[antonio-citterio-italienisches-moebeldesign-bb-italia-kartell-vitra]]: B&B Italia
+  («Diesis» 1980, «Baisity» 1990), Kartell (Servierwagen «Battista» 1990), Vitra (Zusammenarbeit
+  mit Terry Dwan, «T-Chair» 1996 mit Glen Oliver Low). Als betont zurückhaltende, industriell-
+  serielle Linie gegen Sottsass/Memphis abgegrenzt und an die bestehenden Artikel zu
+  Magistretti/Ponti und Zanuso rückverlinkt (alle vier Rückverlinkungen gegenseitig ergänzt).
+- [[sason-dreyfuss-beratendes-industriedesign-streamlining-ergonomie]]: Sixten Sason (Saab 92/99,
+  Hasselblad-Kameras) und Henry Dreyfuss (Bell-Telefon «Model 300», «Designing for People» 1955,
+  Anthropometrics-Konzept) als Gegenüberstellung destilliert — Dreyfuss' Anthropometrics-Verweis
+  auf Kaare Klint schliesst einen bislang unbelegten Berührungspunkt zwischen amerikanischem
+  Beraterdesign und skandinavischem Funktionalismus; Rückverlinkung im bestehenden Teague- und
+  Ruhlmann/Kaare-Klint-Artikel ergänzt.
+
+Damit 46 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 82 Personenartikel bleiben
+offen (nach neuem, direktem Auszählen der verbleibenden `.htm`-Personendateien im Ordner,
+Index-Dateien wie `50-60.htm`/`hfg-index.htm` und Kategorie-Übersichten wie `italien.htm`
+nicht mitgezählt). `git diff --numstat` auf die Inventardatei (`archiv-fachwissen__02_Kunst_Geschichte.md`)
+zeigte `0 0` (Sammelzeile 68 bleibt als Ordner-Pauschalposition unverändert, Fortschritt nur
+in INDEX/CHANGELOG/KORPUS-QUEUE geführt, wie in allen Vorläufen dieser Zeile). **Zeile 68
+bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den nächsten ungelesenen
+Positionen (`post.htm`, `sipek.htm`, `grange.htm`, `graves.htm`, `paris_1900.htm`,
+`kuramata.htm`), sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
 ## 260830 — Zeile 68 Fortsetzung, Sektion `02_Kunst_Geschichte` (113. Lauf Lane FACHWISSEN)
 
 Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,

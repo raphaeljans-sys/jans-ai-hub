@@ -3,7 +3,7 @@ title: "Marco Zanuso: italienisches Nachkriegsdesign zwischen Architektur, Sappe
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/zanuso.htm"]
-links: ["[[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]]", "[[sottsass-memphis-studio-alchimia-olivetti-radical-design]]"]
+links: ["[[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]]", "[[sottsass-memphis-studio-alchimia-olivetti-radical-design]]", "[[antonio-citterio-italienisches-moebeldesign-bb-italia-kartell-vitra]]"]
 ---
 
 # Marco Zanuso: italienisches Nachkriegsdesign zwischen Architektur, Sapper-Duo und Brionvega

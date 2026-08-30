@@ -3,7 +3,7 @@ title: "Postmoderne im Design: Jencks-Begriff, Mailänder Gruppen, international
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/postmoderne.htm"]
-links: ["sottsass-memphis-studio-alchimia-olivetti-radical-design", "javier-mariscal-spanisches-postfranco-design-memphis-barcelona", "philippe-starck-superdesigner-cafe-costes-alessi-via"]
+links: ["sottsass-memphis-studio-alchimia-olivetti-radical-design", "javier-mariscal-spanisches-postfranco-design-memphis-barcelona", "philippe-starck-superdesigner-cafe-costes-alessi-via", "designerkultur-80er-90er-alessi-design-museum-high-tech-globalisierung"]
 ---
 
 # Postmoderne im Design: Jencks-Begriff, Mailänder Gruppen, internationale Ausprägungen
@@ -71,3 +71,8 @@ geografisch verortet werden muss, statt nur einzelne Namen zu nennen.
   gegen Primärliteratur (Jencks-Originaltext, Venturi-Originaltext) in diesem Lauf; Venturi
   selbst ist über die Architekturtheorie-Sektion dieser KB bereits mit eigenem
   Artikelkonvolut vertreten (dort nicht gegengelesen).
+- Der sozioökonomische zweite Teil desselben Quellenkapitels (Kommerzialisierung des
+  Designerbegriffs 1980er, Alessi, Design Museum London, Ende der Blase Anfang 1990er) ist
+  separat destilliert in
+  [[designerkultur-80er-90er-alessi-design-museum-high-tech-globalisierung]] (Quelle
+  `post.htm`, gleiches Kapitel «Die 90er Jahre — Postmoderne»).

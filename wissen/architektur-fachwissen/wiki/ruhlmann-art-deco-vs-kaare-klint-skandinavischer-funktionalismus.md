@@ -3,7 +3,7 @@ title: "Ruhlmann (Art déco) vs. Kaare Klint (skandinavischer Funktionalismus): 
 status: speculative
 last_updated: 2026-08-30
 sources: ["/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/ruhlmann.htm", "/Volumes/daten/02_Architektur_Archiv/02_Kunst_Geschichte/02_Bildende_Kunst/08_Design/kaare_klint.htm"]
-links: ["italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus", "eileen-gray-lackarbeiten-tubular-steel-e1027"]
+links: ["italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus", "eileen-gray-lackarbeiten-tubular-steel-e1027", "sason-dreyfuss-beratendes-industriedesign-streamlining-ergonomie"]
 ---
 
 # Ruhlmann (Art déco) vs. Kaare Klint (skandinavischer Funktionalismus): zwei Gegenmodelle der 1920er/30er
