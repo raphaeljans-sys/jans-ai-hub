@@ -1569,3 +1569,21 @@ Renaissance-Vergleichsartikel referenziert; Palladio, Descartes, Campanella, Lud
 Dézallier d'Argenville ungelesen). Die 33 Autorendossiers der Position 4 gelten mit Sonne
 als abgeschlossen. **Nächster Lauf:** Vauban («Abhandlung von der Vertheidigung der
 Festungen») eigenständig, danach Palladio. Keine der harten Sperren berührt.
+
+23. Lauf, zwei weitere Auszüge (Vauban, Palladio):
+
+- [[vauban-festungsbau-bastionstheorie-graenzfestung-1704]] — Gränzfestung-Definition,
+  Klassifikation regelmässig/unregelmässig/zugänglich, Wallmasse, Bastionstheorie
+  (Facen/Courtinen/Flanquen-Verteidigungslogik, Bastions ohne Cavalier).
+- [[palladio-strassen-bruecken-plaetze-vier-buecher-1570]] — Buch III: vier
+  Strassenanforderungen, Windregel nach Vitruv, Palladios eigener Brückenentwurf mit
+  Läden/Loggien, Platzproportionsregel nach Alberti (1/3-1/6 Gebäudehöhe zu
+  Platzbreite), ergänzt Sitte/Stübben/Curdes-Platzdebatte. Offener Punkt zur
+  Alberti-Fundstelle in `wiki/QUESTIONS.md` #73.
+
+**Von den ca. 50 Quellentextband-Auszügen sind jetzt acht destilliert, rund 38 bleiben
+offen** (Descartes, Campanella, Ludwig XIV., Dézallier d'Argenville weiterhin ungelesen,
+dazu zahlreiche kürzere antike/mittelalterliche Einzelauszüge). Keine der harten Sperren
+berührt. **Nächster Lauf:** Descartes (Methodenlehre, Stadtplanungs-Analogie) oder
+Ludwig XIV. (Versailles-Gartenführung) — beide kurz und eigenständig, danach
+Campanella/Dézallier d'Argenville.

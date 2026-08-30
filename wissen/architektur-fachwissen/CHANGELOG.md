@@ -1,5 +1,31 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, dreiundzwanzigster P2-Lauf (Vauban und Palladio aus `Quellentextband-1.pdf` destilliert, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
+
+Vor Arbeitsbeginn KORPUS-QUEUE.md/wiki/INDEX.md gegengeprüft, Stand identisch zum 22.
+Lauf dokumentierten Ende. Die beiden vom Vorlauf empfohlenen Prioritäten aus
+`Quellentextband-1.pdf` vollständig bearbeitet:
+
+- Vauban, «Abhandlung von der Vertheidigung der Festungen» (1704, S. 309-312):
+  Gränzfestung-Definition, Klassifikation regelmässig/unregelmässig/zugänglich, Wall-Masse,
+  Bastionstheorie (Facen-/Courtinen-/Flanquen-Verteidigungslogik, Bastions ohne Cavalier
+  vorteilhaft für Retranchements) → neuer Artikel
+  [[vauban-festungsbau-bastionstheorie-graenzfestung-1704]].
+- Palladio, «Die vier Bücher zur Architektur», Buch III, Kap. 1-4/13/16 (1570, S.
+  283-288): vier Strassenanforderungen, Windregel nach Vitruv, Palladios eigener
+  Brückenentwurf mit Läden/Loggien, Platzproportionsregel nach Alberti (1/3-1/6
+  Gebäudehöhe zu Platzbreite) → neuer Artikel
+  [[palladio-strassen-bruecken-plaetze-vier-buecher-1570]], zurückverlinkt auf die
+  bestehende Sitte/Stübben/Curdes-Platzdebatte.
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach Vauban/Palladio über `wiki/*.md`): keine
+Duplikate. Offener Punkt (Alberti-Originalfundstelle der Palladio-Proportionsregel
+ungeprüft) in `wiki/QUESTIONS.md` #73 vermerkt. `git diff --numstat` zeigte reinen
+Append auf Inventardatei, `wiki/INDEX.md` und `wiki/QUESTIONS.md`. Von den ca. 50
+Quellentextband-Auszügen sind jetzt acht destilliert, rund 38 bleiben offen. Nächster
+Lauf: Descartes oder Ludwig XIV. (beide kurz und eigenständig), danach
+Campanella/Dézallier d'Argenville, sonst nächstes unbearbeitetes Autorendossier.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, zweiundzwanzigster P2-Lauf (vier Auszüge aus `Quellentextband-1.pdf` destilliert: Vitruv, Frontinus, Filarete/Alberti/Dürer, Kalabrien-Wiederaufbau, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», 72. Beispiel Memory `project_fachwissen-dispatch-loop`, Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz)
 
 Vor Arbeitsbeginn KORPUS-QUEUE.md/CHANGELOG gegengeprüft, Stand identisch zum 21. Lauf

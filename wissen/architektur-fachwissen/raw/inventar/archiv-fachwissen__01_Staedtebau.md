@@ -1245,3 +1245,33 @@ Ludwig XIV., Dézallier d'Argenville, Max Weber bereits im 21. Lauf erledigt). *
 Lauf:** Vauban («Abhandlung von der Vertheidigung der Festungen») als eigenständiger
 Festungsbau-Artikel, danach Palladio (Strassen-/Brücken-/Platztheorie) oder nächstes
 unbearbeitetes Autorendossier.
+
+**30.08.2026 (Lane FACHWISSEN, dreiundzwanzigster P2-Lauf, Vauban und Palladio
+destilliert):** vor Arbeitsbeginn `scutil` (Macmini bestätigt, Dispatch-Text erneut
+identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro»), `ps aux`
+(nur der eigene Prozess) und `KORPUS-QUEUE.md`/`wiki/INDEX.md` gegengeprüft: Stand
+identisch zum 22. Lauf dokumentierten Ende. Die beiden vom 22. Lauf empfohlenen
+Prioritäten vollständig bearbeitet:
+
+- Vauban, «Abhandlung von der Vertheidigung der Festungen» (1704, S. 309-312) → neuer
+  Artikel [[vauban-festungsbau-bastionstheorie-graenzfestung-1704]] (Gränzfestung-
+  Definition, Klassifikation regelmässig/unregelmässig/zugänglich, Wall-Masse,
+  Bastionstheorie mit Facen-/Courtinen-/Flanquen-Verteidigungslogik, Bastions ohne
+  Cavalier vorteilhaft für Retranchements).
+- Palladio, «Die vier Bücher zur Architektur», Buch III, Kap. 1-4/13/16 (1570, S.
+  283-288) → neuer Artikel
+  [[palladio-strassen-bruecken-plaetze-vier-buecher-1570]] (vier Strassenanforderungen,
+  Windregel nach Vitruv, Palladios eigener Brückenentwurf mit Läden/Loggien,
+  Platzproportionsregel nach Alberti 1/3-1/6, Bezug zu Sitte/Stübben/Curdes).
+
+Gegen Wiki-Bestand geprüft (`grep -ril` nach Vauban/Palladio über `wiki/*.md`): keine
+Duplikate, nur bestehende beiläufige Palladio-Erwähnungen in anderen Themenfeldern.
+Offener Punkt (Alberti-Fundstelle der Palladio-Proportionsregel ungeprüft) in
+`wiki/QUESTIONS.md` #73 vermerkt. `git diff --numstat` auf diese Inventardatei zeigt
+reinen Append. Von den ca. 50 Quellentextband-Auszügen sind jetzt acht destilliert, rund
+38 bleiben offen (Descartes, Campanella, Ludwig XIV., Dézallier d'Argenville weiterhin
+ungelesen, dazu zahlreiche kürzere antike/mittelalterliche Einzelauszüge). Von den 33
+Autorendossiers der Position 4 bleiben weiterhin acht unangetastet. **Nächster Lauf:**
+Descartes (Methodenlehre) oder Ludwig XIV. (Versailles-Gartenführung) — beide kurz und
+eigenständig im Quellentextband —, danach Campanella/Dézallier d'Argenville, sonst
+nächstes unbearbeitetes Autorendossier.

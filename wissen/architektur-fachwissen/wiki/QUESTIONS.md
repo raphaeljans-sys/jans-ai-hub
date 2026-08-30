@@ -4,6 +4,18 @@
 Offene Fragen der Wissensbasis, neueste Blöcke zuoberst nachtragen. Jede Frage nennt, woher
 sie stammt und wer sie beantworten kann.
 
+## 260830 — Dreiundzwanzigster P2-Lauf, `Quellentextband-1.pdf` (Vauban/Palladio, Korpus 4 Sektion `01_Staedtebau`)
+
+**#73 Palladios Proportionsregel Loggien-Gebäudehöhe nicht gegen Alberti-Originalstelle
+geprüft.** Im Artikel [[palladio-strassen-bruecken-plaetze-vier-buecher-1570]] zitiert
+Palladio (Buch III, Kap. 16) eine Höhenregel für Platzgebäude (nicht höher als 1/3, nicht
+niedriger als 1/6 der Platzbreite) «nach Alberti». Der Alberti-Auszug dieser Anthologie
+(Buch I,3/9 und IV,2/3, `Quellentextband-1.pdf` S. 213-222) enthält das
+Platzproportions-Thema nicht — die genaue Fundstelle bei Alberti selbst
+(«Zehn Bücher über die Baukunst») bleibt ungeprüft. Wer beantworten kann: bei Zugriff auf
+eine vollständige Alberti-Ausgabe (nicht nur diesen Auszug) oder Palladio-Sekundärliteratur
+mit Stellenverweis.
+
 ## 260830 — Dritter P2-Lauf Sektion `01_Tragwerk` (Korpus 4): fehlendes `pdftoppm`
 
 **#72 PDF-Seitenrendering nicht verfügbar.** Der Lese-Weg für einzelne Seitenbereiche
