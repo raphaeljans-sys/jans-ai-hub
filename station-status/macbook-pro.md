@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 16:23:36
+Stand: 30.08.2026 16:33:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 16:23:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 223fa3a50 wissens-destillat: Sauter-Kapitel 07 Expressionismus/Kubismus destilliert (02_Architekturgeschichte, 76. Lauf)
+- 2c59dfcc6 nas-selfcommit: 1 Datei(en) 2026-08-30 16:30
