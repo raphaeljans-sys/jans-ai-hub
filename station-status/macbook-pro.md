@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 19:18:29
+Stand: 30.08.2026 19:28:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 19:18:29
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8fdcef9e7 wissen/architektur-fachwissen: Zeile 70 Sektion 02_Kunst_Geschichte (Kiss/Ursprung destilliert, Merzbau-Vertiefung), KORPUS-QUEUE 95. Lauf
+- e2530b9bb Wissens-Destillat archiv-fachwissen: Bibiena-Familie (02_Kunst_Geschichte)
