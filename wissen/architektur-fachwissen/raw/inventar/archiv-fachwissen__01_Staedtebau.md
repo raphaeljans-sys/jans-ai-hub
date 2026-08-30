@@ -919,3 +919,58 @@ Gracq). **11 Autorendossiers bleiben offen**: Giedion, Hilberseimer, Lampugnani 
 direkt probieren, auch wenn `pypdf` keine Textebene zeigt, siehe Sievers-Befund), Sonne
 zuletzt (grösstenteils über 20-MB-Grenze blockiert). Danach `kapitel01_dk...` Unterkapitel
 1/2/4/5 als eigene, von den Autorendossiers unabhängige Restaufgabe dieser Sektion angehen.
+
+**30.08.2026 (Lane FACHWISSEN, sechzehnter P2-Lauf, Position 4 fortgesetzt — Giedion und
+Hilberseimer abgeschlossen, Lampugnani grösstenteils):** vor Arbeitsbeginn wie üblich
+`scutil` (Macmini bestätigt, Dispatch-Text weiterhin identisch veraltet «kein Destillat,
+keine Spec, 2 Wiki-Artikel»/«MacBook Pro»), `ps aux` (eigener Prozess, keine Doppel-Instanz)
+und `KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft — Stand identisch zum Ende des fünfzehnten
+Laufs, Git sauber (kein uncommitteter Rest).
+
+- `Gideon_Sigfried/` (drei Dateien): `Giedion_Städtebau_19Jh_2_Frühes19Jh.pdf` (5 S.) und
+  `Giedion_Staedtebau_19Jh_3_Paris1853-68red.pdf` (14 S.) vollständig gelesen — Kapitelauszug
+  aus Sigfried Giedion, «Raum, Zeit, Architektur» (4. Aufl. 1989), Teil VII. Neuer Artikel
+  [[giedion-raum-zeit-architektur-haussmann-paris-transformation-1853-1868]] (Rambuteau als
+  Vorläufer, Barrikaden-Statistik 1827-1851 als Planungsmotiv, réseaux als
+  Finanzierungs- nicht Lagebegriff, Haussmanns «théorie des dépenses productives»,
+  Miethaus-Analyse Boulevard Sébastopol 1860, Thiers-Kritik am «culte de l'axe», Echo im
+  Wiener Ring) — deutlich reichhaltigere Primärquelle als die bestehende, aus
+  Vorlesungsmitschriften kompilierte Darstellung, bewusst als eigener Artikel angelegt und
+  gegenseitig verlinkt, keine Duplikation (dort ergänzt, hier Buchtext). `HallThomas_Paris_
+  Haussmann_1995red.pdf` (10 S., dieselbe Ausgabe/derselbe Herausgeber-Reprint) gesichtet,
+  aber nicht separat ausgewertet — inhaltlich deckungsgleich mit Giedions Kapitel, keine
+  neuen Fakten über den destillierten Artikel hinaus (Delta-Ehrlichkeit).
+- `Hilbersheimer_Ludwig/hilberseimer_stefan_willener.pdf` (4 S., vollständig gelesen) — neuer
+  Artikel [[hilberseimer-hochhausstadt-dezentralisiertes-wohngebiet-mischbebauung]]
+  (Biografie, Hochhausstadt 1924, wörtliche Selbstkritik 1963 «Nekropolis statt Metropolis»,
+  dezentralisiertes Wohngebiet/Mischbebauung-Konzept, beide mit Seitenangabe zitierfähig).
+- `Lampugnani_Vitorio/` (drei Dateien): `120327_Kulturgut und Lehrstück (...).pdf` (NZZ-Essay
+  24.02.2012, vollständig gelesen) → neuer Artikel
+  [[lampugnani-historisches-stadtzentrum-kulturgut-lehrstueck-dichte]] (historischer Bogen
+  Voltaire/Pombal/Cerdà/Haussmann/Nietzsche/Futuristen/Le Corbusier/Scharoun/Banham/
+  Koolhaas gegen Hesse/Muratori/Rossi/Krier, vier Argumente für die funktionale Aktualität
+  der Altstadt, Umkehrung von Haussmanns «Labyrinth»-Begriff). `e03_978-3-8031-3633-6_01.pdf`
+  (Titelblatt + Inhaltsverzeichnis von Lampugnanis Standardwerk «Die Stadt im
+  20. Jahrhundert», 28 Kapitel) gesichtet, aber **kein eigener Artikel** — reines
+  Inhaltsverzeichnis ohne Fliesstext, im neuen Lampugnani-Artikel nur als
+  Bibliografie-Hinweis mit den fünf einschlägigsten Kapiteln vermerkt (Delta-Ehrlichkeit).
+  `Quellentextband-1.pdf` (10,8 MB, 358 S., reiner Bildscan ohne Textebene) **weiterhin
+  offen**: Read-Tool ohne Seitenbereich (unter der 20-MB-Grenze) nicht versucht, da 358
+  Scan-Seiten in einem Zug den Rahmen eines einzelnen Laufs sprengen würden und als
+  Quellensammlung ohnehin eher abschnittsweise als komplett zu lesen ist; Seitenbereichs-
+  Lesung (`pages: "1-3"`) bestätigt am fehlenden System-`poppler` gescheitert
+  («pdftoppm is not installed»), wie bei allen grossen Dateien dieser Lane.
+
+Gegen bestehenden Wiki-Bestand geprüft (`grep -ril haussmann wiki/*.md`): keine
+Duplikate, die beiden Haussmann-Artikel wurden bewusst gegenseitig verlinkt statt
+zusammengeführt. `git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Von den
+33 Autorendossiers der Position 4 sind damit 24 mit Ertrag bearbeitet** (22 aus den
+Vorläufen plus Giedion und Hilberseimer; Lampugnani zu zwei Dritteln, ein Teilfund
+`Quellentextband-1.pdf` bleibt offen); weiterhin drei leer/ohne Ertrag (Leveillé, Siedler,
+Sutcliffe) und zwei ohne Ertrag geprüft (Mumford, Gracq). **Nur noch Sonne (mehrteiliges
+Dossier, grösstenteils über 20-MB-Grenze) und der Lampugnani-Quellentextband bleiben offen**,
+dazu `kapitel01_dk...` Unterkapitel 1/2/4/5 als eigene Restaufgabe. **Nächster Lauf:** Sonne
+prüfen, welche Teildateien unter 20 MB liegen und einzeln lesbar sind; danach ein gezielter,
+auf wenige Seitenbereiche begrenzter Versuch am Lampugnani-Quellentextband (z. B. erste
+20-30 Seiten als Vollzugriff ohne `pages`-Parameter, falls die Gesamtantwort das
+Kontextfenster nicht sprengt) oder als eigene, spätere Teilaufgabe zurückstellen.

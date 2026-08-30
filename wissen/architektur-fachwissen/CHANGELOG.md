@@ -1,5 +1,37 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, sechzehnter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, keine Doppel-Instanz, Git sauber vor Arbeitsbeginn)
+
+Drei der vier verbliebenen kleineren Autorendossiers abgeschlossen:
+
+- Giedion (`Gideon_Sigfried/`, drei Dateien, zwei vollständig gelesen): Kapitelauszug aus
+  Sigfried Giedion, «Raum, Zeit, Architektur» (4. Aufl. 1989) → neuer Artikel
+  [[giedion-raum-zeit-architektur-haussmann-paris-transformation-1853-1868]] — deutlich
+  reichhaltigere Primärquelle als der bestehende, aus Vorlesungsmitschriften kompilierte
+  Haussmann-Artikel (Rambuteau als Vorläufer, Barrikaden-Statistik als Planungsmotiv,
+  réseaux als Finanzierungsbegriff, Haussmanns «théorie des dépenses productives»,
+  Miethaus-Analyse Boulevard Sébastopol 1860, Thiers-Kritik am «culte de l'axe», Echo im
+  Wiener Ring) — bewusst als eigener, gegenseitig verlinkter Artikel angelegt statt
+  zusammengeführt, keine Duplikation.
+- Hilberseimer (`Hilbersheimer_Ludwig/`, eine Datei, HTA-Luzern-Textanalyse 2007) → neuer
+  Artikel [[hilberseimer-hochhausstadt-dezentralisiertes-wohngebiet-mischbebauung]]
+  (Hochhausstadt 1924, wörtliche Selbstkritik 1963 «Nekropolis statt Metropolis»,
+  dezentralisiertes Wohngebiet/Mischbebauung).
+- Lampugnani (`Lampugnani_Vitorio/`, drei Dateien): NZZ-Essay 2012 vollständig gelesen →
+  neuer Artikel [[lampugnani-historisches-stadtzentrum-kulturgut-lehrstueck-dichte]]
+  (historischer Bogen Voltaire bis Koolhaas, vier Argumente für die funktionale Aktualität
+  der Altstadt). Inhaltsverzeichnis des Standardwerks «Die Stadt im 20. Jahrhundert» ohne
+  Fliesstext gesichtet, kein eigener Artikel (Delta-Ehrlichkeit), nur Bibliografie-Hinweis.
+  `Quellentextband-1.pdf` (10,8 MB, 358 Scan-Seiten ohne Textebene) bleibt offen —
+  Seitenbereichs-Lesung scheitert am fehlenden System-`poppler`, ein Vollzugriff auf 358
+  Scan-Seiten sprengt den Rahmen eines einzelnen Laufs.
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (55 0). Von den 33
+Autorendossiers der Position 4 sind jetzt 24 mit Ertrag bearbeitet; nur noch Sonne
+(grösstenteils über 20-MB-Grenze) und der Lampugnani-Quellentextband bleiben offen, dazu
+`kapitel01_dk...` Unterkapitel 1/2/4/5 als eigene Restaufgabe. Details
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` Abschnitt Destillat-Fortschritt.
+
 ## 2026-08-30 — P2-Lauf Korpus `archiv-fachwissen`, Sektion `01_Staedtebau`, fünfzehnter P2-Lauf (Position 4 fortgesetzt, Lane FACHWISSEN, Dispatch-Text erneut identisch veraltet «kein Destillat, keine Spec, 2 Wiki-Artikel»/«MacBook Pro», Station laut `scutil` Macmini bestätigt, Prozessbaum 42877→42880→42886, keine Doppel-Instanz)
 
 Stand vor Arbeitsbeginn gegen `KORPUS-QUEUE.md`/CHANGELOG geprüft: entsprach exakt dem Ende
