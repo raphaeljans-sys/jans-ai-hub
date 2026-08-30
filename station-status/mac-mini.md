@@ -1,10 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 30.08.2026 13:52:14
+Stand: 30.08.2026 14:02:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:45)
-- /Users/raphaeljans  (letzte Aktivitaet 13:50)
+- /Users/raphaeljans  (letzte Aktivitaet 13:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 30.08.2026 13:52:14
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6f1f2e1de Fachwissen: Achilleus Tatius (Alexandria-Kolonnadenraster) destilliert, 57. P2-Lauf 01_Staedtebau
+- 78ed052a2 nas-selfcommit: 2 Datei(en) 2026-08-30 14:00
