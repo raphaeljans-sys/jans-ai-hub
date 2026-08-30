@@ -3,6 +3,138 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 30.08.2026 (06:55 bis 07:15, Logbuch-Radar)
+
+**Nicht gemailt, Ein-Mail-Prinzip.** Der Chef-Lauf vom 29.08. hat stattgefunden (Briefing 08:46:57
+an rj@ gesendet, in den Gesendeten belegt), und kein Punkt verlangt Handeln vor 08:39. Heute ist
+Sonntag, sämtliche Fristen fallen auf morgen und übermorgen. Der Hub-Chef übernimmt diesen
+Abschnitt in das Tagesbriefing.
+
+**Gelesen wurde über Graph** (Apple Mail antwortet den achten Tag nicht): rj@ und mail@
+vollständig, Posteingang und Gesendete im Fenster 29.08. 06:45 bis 30.08. 06:55, dazu der Kalender
+bis 06.09. über osascript. Das Konto raphaeljans@outlook.com bleibt ohne Graph-Weg und ist den
+sechsten Tag ungelesen.
+
+### Erledigt seit gestern
+
+**01 Die Massaufnahme der inneren Verglasung ist terminiert, nach dreizehn Tagen.** Du hast
+L. Bajrami am 29.08. 15:55 gebeten, am Donnerstag **03.09.** die restlichen Lichtmasse vor Ort
+aufzunehmen und danach die Werkpläne zur Freigabe zu erstellen, Ziel «Gut zur Ausführung» in KW36.
+Der Punkt lag seit dem 17.08. als unversendeter Entwurf im Postfach und war im Register als
+Bringschuld geführt. Cc gingen an O. Stadelmann, A. Spahic, M. Spörri und F. Würsch.
+
+**02 Für die Türbeschläge steht eine Runde am Montag.** Teams-Termin 31.08. 16:00 bis 16:30 mit
+F. Würsch, L. Merci, M. Spörri, L. Bajrami, L. Hiltmann und A. Spahic, von Dir am 29.08. 15:58
+gesetzt. Das ist der letzte Termin vor dem Produktionsstart der Türen am Dienstag.
+
+**03 Der Leerlauf des Vollgas-Schubs ist abgestellt, und zwar vom Wächter selbst.** Um 06:56 hat
+der `vollgas-chef-radar` drei Lanes stillgelegt und eine vierte auf echte Arbeit umgelenkt. Bis
+dahin hatten die drei heute USD 22.49 für null Ertrag verbraucht.
+
+### Aus unseren Gesprächen
+
+**04 Dein Vollgas-Auftrag läuft und liefert ungleich.** Fünf Lanes auf dem Mac Mini, im Fenster
+677 Läufe. Der Ertrag steckt fast vollständig in einer davon: Die Lane FACHWISSEN hat aus dem
+Archiv-Korpus **dreizehn neue Wiki-Artikel** destilliert, darunter die ganze Sektion
+Architekturtheorie und ein eBKP-H-Musterbeispiel. Drei Lanes fuhren zusammen 515 Läufe ohne
+inhaltliches Delta und sind seit heute Morgen still. Frist des Schubs bleibt **Montag 11:00**;
+Stopp jederzeit mit `touch /Volumes/daten/jans-ai-hub/logbuch/vollgas/STOP-SCHUB`.
+
+**05 Der langlebige Zugangstoken steht im Chatverlauf, zum zweiten Mal.** Am 29.08. ist bei der
+Login-Reparatur ein `sk-ant-oat01`-Token in den Verlauf geraten, ein Jahr gültig, voller Zugriff
+aufs Konto. Derselbe Vorgang steht bereits für den 24.08. im Register und ist dort nicht quittiert.
+Entlastend: Für den Betrieb wird er nicht mehr gebraucht, alle drei Stationen sind wieder
+angemeldet. Es bleiben ein Widerruf und ein neuer Token.
+
+**06 Der Hub hat drei Stationen, nicht zwei.** Die Hardware-Fakten sind korrigiert und gemessen:
+Der Mac Mini ist die stärkste Maschine, nicht der Revendo. Ohne Frist; gehört beim nächsten
+Konnektor-Lauf in `hub-setup-daten.json` nachgetragen.
+
+**07 Dein `wissenscheck` vom Handy ist ins Leere gelaufen.** Der Dispatch meldete Erfolg, geliefert
+wurde eine Rückfrage, die im Kanal niemand beantworten konnte. Der Health-Check hat nicht
+stattgefunden; mit KB-Argument wiederholen.
+
+### Überfällig
+
+**08 Das bereinigte Terminprogramm an N. Rothe ist den zweiten Tag überfällig.** Zugesagt für Ende
+KW35, also für Freitag. Die Gesendeten von gestern sind durchgesehen, an ihn ging nichts. Damit
+gilt weiterhin seine eigene Kette, und die verlangt die **Freigabe der Therapieküche am Montag
+31.08.**, damit die Küche in Produktion kann.
+
+**09 Die Sync-Kette NAS zu GitHub steht den zweiten Tag, jetzt 173 zu 94.** Seit dem 29.08. 22:05
+scheitert jeder Abgleich; die Divergenz ist von 31/13 auf **173 Commits voraus und 94 nicht
+integriert** gewachsen. Ein Befund von heute Morgen entlastet immerhin die Auflösung: Der
+Arbeitsbaum auf der Synology ist sauber, kein halb aufgelöster Rebase, keine Konfliktdateien im
+Zustand. Es gibt nichts aufzuräumen, nur zu entscheiden. Die Arbeit selbst ist sicher, fehlend sind
+das GitHub-Backup dieser Linie und die zweite Station. Der fertige Befehl steht im Register.
+
+### In den nächsten 7 Tagen
+
+**10 Montag 31.08. trägt jetzt sechs Dinge.** 07:30 Dein Block für die Freigabe Therapieküche und
+das Terminprogramm an N. Rothe, 09:00 der Abgleich des finalen Gesamtzeitplans mit C. Schäfer,
+C. Allerkamp und A. Spahic, **neu 16:00 die Türbeschläge-Runde**, dazu die Beantwortung der offenen
+Fragen an die Bauherrschaft, der finale Kernbohrungsplan Sanitär als Bringschuld von M. Eren und
+die Kommunikation des Terminplans an die Bauherrschaft. M. Spörri ist an diesem Tag erstmals wieder
+erreichbar, und an ihm hängen zwei Dinge zugleich.
+
+**11 Dienstag 01.09.** Meldung Baustart an die Feuerpolizei, Produktionsstart Türen, Dein
+angekündigter Einstellungstermin beim KISPI, die Anliegen an R. Steinmann als letzter Tag vor
+seiner dreiwöchigen Abwesenheit und **neu 10:00 bis 11:00 die Brandabschottungen vor Ort**, im
+Kalender ausdrücklich als «kein Termin für mich» vermerkt. Der unbenannte Ganztageseintrag «Neues
+Ereignis» steht weiterhin.
+
+**12 Donnerstag 03.09.** 13:00 bis 14:00 Koordinationssitzung Gruner, Jans und KISPI, und am selben
+Tag die Aufnahme der Lichtmasse durch L. Bajrami vor Ort.
+
+**13 KW36** Gut zur Ausführung Innere Verglasungen, Los 274.01, mit Unterschrift Architektur und
+Bauherrschaft.
+
+**14 Montag 07.09. läuft Bajramis SharePoint-Zugriff ab, und das ist neu unbequem.** Die
+Erinnerungsmail kam heute um 00:20, neun Tage vorher. Sachlich unverändert seit dem 23.08., aber er
+soll ab dem 03.09. die Werkpläne zeichnen und braucht dafür die Plangrundlagen. Die Verlängerung
+war zu Recht als «ohne Eile» geführt, das gilt ab jetzt nicht mehr. L. Hiltmann läuft am 22.09. ab
+und kann im selben Vorgang mit erledigt werden.
+
+### In Beobachtung
+
+**15 bexio** antwortet den dreiundzwanzigsten Tag mit HTTP 401. Neu dazu: das Abo wechselt am
+**08.10.2026** automatisch von Starter auf Advanced, **CHF 42.00 statt CHF 35.00 pro Monat**, rund CHF 84.00
+mehr im Jahr. Wer den Abo-Entscheid trifft, kann den Token im selben Gang erneuern.
+
+**16 Apple Mail** antwortet den achten Tag nicht auf osascript. Folge unverändert: Das Konto
+raphaeljans@outlook.com bleibt ungelesen, Entwürfe können nicht als Draft im Postfach abgelegt
+werden.
+
+**17 AG-Gründung.** Die Kapitaleinzahlung von CHF 50'000 auf das seit dem 17.08. offene UBS-Konto
+steht weiterhin aus, dreizehnter Tag.
+
+**18 Der Tür-ID-Restpunkt.** Für 01.2.3014.01 und 01.2.3017.01 fehlt die Korrektur; der Entwurf
+liegt seit dem 28.08. abgelegt im Projektordner und braucht Deinen Entscheid. Produktionsstart ist
+Dienstag.
+
+**19 Die Rückmeldung von J. Ziegel** zum Termin der feuerpolizeilichen Abnahme fehlt seit dem 27.08.
+
+**20 Thalwil.** Die SBB liefert seit sieben Wochen nicht; S. Tschopp wartet auf Deine Rückmeldung.
+
+**21 Hostpoint** meldet die Sicherheitslücke im WordPress-Plugin Optimole auf dem Studio-Hosting;
+noch nichts unternommen.
+
+### Vorschlag Kalendereinträge
+
+**22 Montag 31.08., vor 16:00.** Kurzer Block, um den SharePoint-Zugriff von L. Bajrami zu
+verlängern und den von L. Hiltmann gleich mit. Der Vorgang dauert Sekunden, aber er muss vor dem
+03.09. passieren.
+
+**23 Montag 05.10.** Erinnerung an den bexio-Abo-Entscheid, drei Tage vor der automatischen
+Verlängerung am 08.10.
+
+Nicht eingetragen, nur vorgeschlagen.
+
+### Token-Tempo
+
+**24 Vortag 29.08.2026.** MacBook Pro 187.5 Mio. Token (USD 153.17 Kostenäquivalent), Mac Mini
+529.0 Mio. Token (USD 212.35), Summe 716.5 Mio. Token und USD 365.52.
+
 ## Nachtschicht Mac Mini 30.08.2026 (05:2x bis 05:3x)
 
 Prioritaeten 1+2 leer (keine pending remote-/sync-tasks; SYNOBSIS-Embeddings seit sieben
