@@ -5326,3 +5326,49 @@ Inventardatei zeigte einen reinen Append (`50 0`). **Nächster Lauf dieser Sekti
 Architektenportraits (Qualitätsvorbehalt: mindestens ein belegter Datierungsfehler bekannt),
 danach `Fragen.doc`, Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51) und `Moderne.pdf`
 (Duplikatsprüfung gegen Semper-Artikel nötig).
+
+## 2026-08-30 — vierter Lauf `01_Architektenportrait`, fünf Renaissance-Kernfiguren (85. Lauf, Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, Inventardatei
+vollständig gelesen; `scutil` bestätigte Macmini, `git status`/`git log` sauber, Top-Commit
+`c8e93e437`, `ps -eo pid,ppid,command` zeigte nur die eigene laufende Instanz, keine
+Doppel-Instanz).
+
+Von den nach dem 83. Lauf verbliebenen 16 offenen Einzelportraits sind laut wiederholtem
+Duplikatscheck elf bereits andernorts in dieser KB behandelt (Schinkel, Semper, Garnier,
+Ruskin, Morris, Webb, Wright, Sullivan, Vignola, Palladio, Ledoux); die fünf verbleibenden
+«echten Kandidaten» — Alberti, Bramante, Raffael, Michelangelo, Brunelleschi — nochmals per
+`grep -lri` gegengeprüft: alle fünf nur als knappe Kanon-Zeilen in
+[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]
+und [[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] geführt, keine
+Werkanalyse — kein Duplikat.
+
+Alle fünf PDF vollständig gelesen (deutlich umfangreicher als bisherige Portraits: Alberti
+5 S. inkl. zwei Sekundärliteratur-Exkursen zu Kirchenfassaden-Typologie und Traktatgeschichte,
+Michelangelo und Brunelleschi je 3-4 S. mit mehreren Hauptwerken) und zu einem Artikel
+konsolidiert →
+[[architektenportraits-sammlung-renaissance-kernfiguren-fuenf-kurzbiografien-alberti-bramante-raffael-michelangelo-brunelleschi]]:
+Alberti (Palazzo Rucellai, Santa Maria Novella, Sant'Andrea Mantua, De-re-aedificatoria-
+Struktur mit concinnitas-Begriff), Bramante (Mailänder Frühwerk San Satiro/Santa Maria delle
+Grazie, Tempietto San Pietro in Montorio, Vatikan-Planung/Peterskirche-Neubau unter Julius
+II.), Raffael (Palazzo dell'Aquila, Villa Madama, Nachfolge Bramantes als Petersdom-Architekt),
+Michelangelo (Juliusgrab, Neue Sakristei/Biblioteca-Laurenziana-Vestibül als Manierismus-
+Initialbau, Kapitolsplatz-Neugestaltung mit Konservatoren-/Senatorenpalast, Porta Pia),
+Brunelleschi (Dom-Kuppel Florenz als erste doppelschalige Kuppel der Welt, Ospedale degli
+Innocenti als erstes Renaissance-Gebäude, Alte Sakristei/Pazzi-Kapelle, San Lorenzo/Santo
+Spirito).
+
+**Damit sind alle fünf als «echte Kandidaten» identifizierten Renaissance-Kernfiguren
+destilliert.** Von den ursprünglich 39 Einzelportraits bleiben nur noch die elf laut
+wiederholtem Duplikatscheck bereits andernorts behandelten Namen offen — für diese lohnt sich
+kein eigenes Portrait mehr ohne neuen Werkaspekt. Unverändert offen: drei
+Nicht-Portrait-Positionen (`9_rom_st`, `16_schloss_versailles`, `26_paris_um_1800`), Kartenset
+und Sammelmappe, Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51) und `Moderne.pdf`.
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekannte Architekten
+des 15./16. Jahrhunderts. `git diff --numstat` auf die Inventardatei zeigte einen reinen
+Append (`38 0`).
+
+**Nächster Lauf dieser Sektion:** `Moderne.pdf` (Duplikatscheck gegen die Semper-Artikel
+dieser KB zuerst, laut Sichtprüfung des 68. Laufs teils sehr rohe Mitschrift-Qualität) oder
+der unbearbeitete Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51, umfangreiche
+Einzelbau-Dokumentation Brunelleschi/Michelozzo/Alberti/Rossellino).
