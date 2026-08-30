@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.08.2026 03:32:10
+Stand: 30.08.2026 03:42:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:41)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.08.2026 03:32:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e93f1e5c1 FACHWISSEN: archiv-fachwissen P2, 02_Architekturtheorie, 120427_Bauen_Abraham destilliert
+- 0c725bfb7 Fachwissen: Vorlauf-Buchfuehrung 120511_Vision_Visualitaet_II_Nadas sichern
