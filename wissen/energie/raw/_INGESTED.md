@@ -372,3 +372,15 @@ vollständige Dateiliste mit Upload- und Änderungsdatum (66 EN-Treffer).
 sammelweise auf **«gültig bis 31.12.2026»** gestempelt, bei unveränderten Sachversionen
 (September 2016 bis Juni 2023). Die Vollzugshilfe **EN-102** steht unverändert auf **Ausgabe Januar
 2020**. Destillat: `destillate/enfk-nachweisformulare-gueltigkeit-2026.md`.
+
+## 2026-08-31 (Run 171) — AHB-Merkblatt M-System-Nr. 384 (Web-Direktbezug)
+
+**Quelle:** Stadt Zuerich, Amt fuer Hochbauten, Merkblatt «Beleuchtung Hallenbaeder und
+Schulschwimmanlagen», M-System-Nr. 384, Oktober 2024, 6 Seiten. Bezug per `curl` von
+`stadt-zuerich.ch/.../merkblatt-hallenbaeder-schulschwimmanlagen.pdf` (HTTP 200,
+`application/pdf`, 159'012 Byte, SHA-256 `8fde99d5…09f77b`), Text via `pdftotext -layout`,
+S. 1-6 vollstaendig gelesen. Kein SharePoint-Bestand, reiner Web-Direktbezug.
+
+**Ausgabenstand mitgeprueft:** die offizielle AHB-Downloadliste (`stadt-zuerich.ch/egt`) fuehrt
+genau diese Datei mit «PDF | 6 Seiten | 155 KB» — deckungsgleich, keine neuere Fassung.
+Destillat: `destillate/ahb-merkblatt-384-beleuchtung-hallenbaeder-2024.md`.

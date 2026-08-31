@@ -2678,3 +2678,13 @@ Verordnungstext — Messtarife pro Messpunkt, Referenz-Marktpreis; einziger P1-P
 (BD LEG-CH 2025 lesen) und E-R169-3 (AHB-Merkblatt 384). Die Begleitdokument-Pruefung laeuft
 kuenftig **nach Quellenklasse, nicht nach Rang** — und damit vorrangig ueber die Foerder-, Vollzugs-
 und Branchendokumente der KB.
+
+**Stand nach Run 171 (31.08.2026).** Die 169er-Reihe ist zur Haelfte abgetragen: E-R169-1 (Run 170),
+E-R169-3 (Run 171, AHB-Merkblatt 384 destilliert) erledigt; **E-R169-2 war ein Fehl-Offen** — das
+BD LEG – CH 2025 V2 lag seit dem 13.07.2026 vollstaendig gelesen vor. Offen bleiben E-R169-4/-5/-6
+(alle P3).
+
+**Naechster Zuschnitt:** **E-R171-1** (P1, methodisch) vor allen Beschaffungspunkten — zwei Laeufe in
+Folge haben einen bereits erledigten Punkt als offen bearbeitet; der Hebel liegt beim **Schreiben**
+eines «noch nicht gelesen»-Eintrags, nicht erst beim Aufgreifen. Danach der P3-Rest der 169er-Reihe,
+jeweils mit vorgeschalteter Bestandspruefung.

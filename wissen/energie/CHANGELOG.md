@@ -1,5 +1,39 @@
 # CHANGELOG
 
+## 2026-08-31 — Run 171: AHB-Merkblatt 384 destilliert, E-R169-2 als Fehl-Offen geschlossen
+
+- **Neu:** `destillate/ahb-merkblatt-384-beleuchtung-hallenbaeder-2024.md` — Stadt Zuerich AHB,
+  Merkblatt M-System-Nr. 384 «Beleuchtung Hallenbaeder und Schulschwimmanlagen», Oktober 2024,
+  S. 1-6 vollstaendig (curl, HTTP 200, `application/pdf`, 159'012 Byte, SHA-256 `8fde99d5…09f77b`).
+  Kern: 300 lx vollflaechig ueber der Wasserflaeche auch bei Unterwasserbeleuchtung; Unterwasser-
+  leuchten Pflicht, nur laengsseitig, 0,60-1,00 m unter Wasserspiegel, Abstand 2-3 m, korrosions-
+  bestaendig, ≥120 lm/m3 Wasservolumen (Wettkampf ca. 1'100 lm/m3 nach SLG 305 Teil 5); ≥4 ungedimmte
+  Schaltgruppen; Not-/Sicherheitsbeleuchtung ohne Umschaltmodule nach Feuerpolizei-Auflagen;
+  MINERGIE-LED und Relux-Simulation; uebrige Raeume nach EN 12464-1/SIA 387/4.
+  **Ausgabenstand geprueft** (AHB-Downloadliste `/egt`: «6 Seiten | 155 KB», deckungsgleich) —
+  keine neuere Fassung. Schliesst **E-R169-3**.
+- **Neu in der FAQ:** **F263** (Kennwerte + welche davon Rohbau-Entscheide sind) und **F264**
+  (Wettkampftauglichkeit: Faktor 10 zwischen 120 und ca. 1'100 lm/m3, Entscheid vor der
+  Beckenzeichnung).
+- **Querverbindung ergaenzt:** SIA 380/1 fuehrt Hallenbaeder als Standardnutzung **Kategorie XII**
+  mit **QE = 200 MJ/m2** — hoechster Elektrizitaetsbedarf aller zwoelf Kategorien (MFH 100,
+  Schulen 40), 28 °C Innentemperatur, 300 MJ/m2·a Warmwasser. In Destillat und F263 eingearbeitet
+  (`[[sia-380-1-standardnutzungswerte-tab24-25]]`).
+- **E-R169-2 als FEHL-OFFEN geschlossen:** die VSE-Branchenempfehlung «BD LEG – CH 2025 V2» lag seit
+  **13.07.2026 (Run 52)** vollstaendig gelesen vor (35/35 Seiten, kapitelgenau zitiert, am 24.08.2026
+  re-geprueft). Keine neue Beschaffung noetig. **Zweiter Fehl-Offen in Folge**, beide aus Lauf 169 —
+  als **E-R171-1 (P1, methodisch)** festgehalten: die Pruefpflicht gehoert an die Stelle, wo der
+  Eintrag *geschrieben* wird, nicht erst dorthin, wo er aufgegriffen wird.
+- **Nachgefuehrt:** `destillate/ahb-zuerich-gt-rl8-beleuchtung.md` (Verweiszeile erledigt),
+  `destillate/INDEX.md`, `wiki/INDEX.md`, `wiki/QUESTIONS.md`, `training/curriculum.md`,
+  `raw/_INGESTED.md`.
+- **Cross-KB-Bringschuld:** `wissen/normen/wiki/QUESTIONS.md` **N-E171-1** — **EN 12464-1**,
+  **EN 12193** und **SLG 305 Teil 5** kommen im dortigen `REGISTER.md` null Mal vor, obwohl
+  EN 12464-1 in mehreren `energie`-Destillaten tragende Fundstelle ist. Eingetragen nach Rule
+  `wissens-bibliothekar` und dem Verfahrensschritt E46-1.
+- Laufbericht: `outputs/2026-08-31_energie-run171.md`.
+
+
 ## 2026-08-31 (Nachtschicht Mac Mini, Run 170) — E-R169-1 geschlossen: Messtarife pro Messpunkt destilliert, Rueckliefervergütung-Doppelbefund aufgeklaert
 
 **Neu:** `destillate/messtarife-pro-messpunkt-stromvg-2026.md` — StromVG Art. 17a (Fedlex-Volltext,
