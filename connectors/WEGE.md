@@ -45,6 +45,7 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | Mail senden | Apple Mail (osascript) | **Graph `Mail.Send` via m365-CLI — produktiv belegt 25.08.2026** (siehe unten) | `icloud-mail.py` | |
 | Mail lesen, durchsuchen | Apple Mail (osascript) | Graph `/messages` | MCP Outlook | |
 | Kalender | MCP Outlook `outlook_calendar_search` | Apple Calendar (osascript, **nur iCloud-Kalender**) | ~~Graph `/events`~~ Sackgasse, 403 | Outlook Web |
+| Kontakt ins M365-Adressbuch rj@ (Programm Kontakte) | Kontakte-App via osascript ins Exchange-Konto rj@ (Quelle via `Accounts4.sqlite` ermitteln, `ABDefaultSourceID` temporär umstellen); **Telefonnummern via CNContactStore/Swift nachtragen** (belegt 31.08.2026, siehe Nachtrag) | GUI (Kontakte-App von Hand) | ~~Graph `/users/rj@…/contacts`~~ Sackgasse, 403 — App hat keine Contacts-Berechtigung | Outlook Web |
 | Buchhaltung, Debitoren | `connectors/bexio.mjs` | | | bexio-Weboberfläche |
 | Handelsregister | `connectors/zefix.mjs` | | | zefix.admin.ch |
 | Projektraum Truninger | `connectors/truninger-ds3.mjs` | | | ds3.data-share.ch |
