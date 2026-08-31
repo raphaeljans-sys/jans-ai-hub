@@ -942,3 +942,33 @@ braucht kein neues Script; wer trotzdem eines will, legt Raphael den Befehl vor.
 **Ebenfalls blockiert am 28.08.2026:** ein `grep -nA6 -iE "mail|senden|versand"` auf diese
 Datei. Der Klassifikator greift dort auf das Suchmuster, nicht auf die Datei; das Read-Tool
 liest sie anstandslos. Kein Umweg suchen, Werkzeug wechseln.
+
+## Nachtrag 31.08.2026 — Kontakt ins M365-Adressbuch rj@: AppleScript legt an, aber Telefonnummern nur via CNContactStore
+
+Anlassfall: Kontakt Nicklas Rothe (Schreinermanufaktur) sollte im Adressbuch des Tenants
+rj@raphaeljans.ch erscheinen (Programm Kontakte). Der tragende Weg, Schritt fuer Schritt:
+
+1. **Quelle des Exchange-Kontos ermitteln** — die AddressBook-Quellen tragen keinen Namen;
+   die Zuordnung Quelle↔Konto steht in
+   `sqlite3 ~/Library/Accounts/Accounts4.sqlite "SELECT ZUSERNAME, ZACCOUNTDESCRIPTION, ZIDENTIFIER FROM ZACCOUNT WHERE ZUSERNAME LIKE '%@%'"`.
+   Stand 31.08.2026: rj@raphaeljans.ch («rj I JANS») = Quelle `3BB49493-D2D7-4CD8-BEF1-FA0E788CCE26`.
+2. **Kontakte-App beenden, `ABDefaultSourceID` temporaer auf diese Quelle stellen**, Kontakt
+   per osascript (`make new person` + emails + urls + `save`) anlegen, App beenden,
+   `ABDefaultSourceID` auf den Originalwert zurueckstellen (gleiche Mechanik wie im Memory
+   «Apple Contacts Multi-Konten-Setup»).
+3. ⚠ **`make new phone` schlaegt still fehl** (macOS Tahoe, Exchange-Kontakt): kein Fehler,
+   aber `count of phones` bleibt 0 — bei Anlage wie beim Nachtragen, in allen
+   Syntax-Varianten. E-Mail und erste URL werden dagegen uebernommen.
+4. **Telefonnummern via Contacts-Framework nachtragen** (traegt, belegt):
+   Swift-Script mit `CNContactStore` — `unifiedContacts(matching: predicateForContacts(matchingName:))`,
+   `mutableCopy`, `phoneNumbers` setzen, `CNSaveRequest.update()`, `execute()`.
+   Laeuft ohne zusaetzlichen TCC-Prompt, wenn der Prozess Contacts-Zugriff hat.
+5. **Exchange nimmt nur EINE URL** (Homepage) — eine zweite Website in die Notiz legen.
+
+**Sackgassen, nicht erneut laufen:**
+- Graph `/users/rj@raphaeljans.ch/contacts` (lesend wie schreibend): **403**. Die App
+  `80c24101` hat Files/Group/Mail/Sites/User, aber **keine Contacts-Berechtigung**. Wer den
+  Graph-Weg will, laesst Raphael in Entra `Contacts.ReadWrite` (Application) ergaenzen.
+- `m365-graph.mjs` kann nur GET, kein POST — fuer Schreibvorgaenge ungeeignet.
+- AppleScript `sources` von Contacts abfragen (`repeat with s in sources`) wirft
+  «Variable nicht definiert»; die Konto-Zuordnung stattdessen ueber `Accounts4.sqlite` (oben).
