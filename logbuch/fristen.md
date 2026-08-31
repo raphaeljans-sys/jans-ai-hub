@@ -4632,3 +4632,71 @@ der Schub endet. Ertrag des Schubs konzentriert sich auf die Lane FACHWISSEN (66
 Korpus-Sektionen komplett destilliert, dreizehn neue Wiki-Artikel).
 
 | Beleg: Konversations-Digest Mac Mini 29./30.08.2026, Destillat `logbuch/konversationen/260830-konversationen.md` Blöcke 04 und 05 | Hub-Betrieb / Mac Mini | mittel | offen — vor Montag 31.08.2026 11:00 prüfen |
+
+---
+
+## 31.08.2026 — Gespräch MacBook Pro 30.08.2026 und eigene Messungen (Konversations-Destillat `logbuch/konversationen/260831-konversationen.md`)
+
+**NEU — Das Lauf-Gate weist den Vollgas-Schub seit heute 01:00 ab; der Auftrag endet um 11:00, das Restkontingent verfällt um 12:00, und niemand hat entschieden.**
+Seit **31.08.2026 01:00:24** weist das Lauf-Gate die Lane `schub-fachwissen` mit der Begründung
+«Wochenkontingent zu 85.x % aufgebraucht (Drosselschwelle erreicht)» ab. Bis 06:18 sind das
+**201 Abweisungen** auf dem Mac Mini, dazu zwei für `weiche-nachtschicht`; auf dem MacBook Pro drei
+weitere (`normen-training-nacht` 01:28, `weiche-nachtschicht` 02:30 und 05:30). Am 30.08. gab es im
+ganzen 26-h-Fenster **null** Abweisungen. Der Treiber versucht es unverändert etwa alle 95 Sekunden
+erneut; seit 01:00 kam **ein einziger** Lauf durch (Runde 223 um 06:04:52, rc=0).
+**Warum das mehr ist als Buchhaltung:** Der Logbuch-Radar hat um 01:06 gemessen, dass rund 25 Mio
+Token heute um 12:00 verfallen, wenn sie niemand einsetzt, und daraus richtig geschlossen, dass
+Stilllegen zehn Stunden vor Fristende der falsche Zug wäre. Das Lauf-Gate blockiert seit 01:00 aus
+derselben Zahl heraus **genau diese Verwendung**. Beide Mechanismen arbeiten für sich korrekt und
+ziehen gegeneinander: der Schub ist seit elf Stunden faktisch beendet, ohne dass ihn jemand beendet
+hätte, und der Rest des Wochenkontingents verfällt ungenutzt. `logbuch/vollgas/STOP-SCHUB` ist
+**nicht** gesetzt.
+**Regellücke, gleiche Familie wie Rule `auto-verbesserungen` 260830:** Die Rule verlangt den Abbruch
+nach gemessenem Liefer-Delta und das Hören der Selbstauskunft des Laufs. Sie deckt den **leeren**
+Lauf ab, nicht den **abgewiesenen** — eine Gate-Abweisung ist kein Lauf, erzeugt kein Delta und
+keinen Abbruchsatz und läuft an beiden Abbruchbedingungen vorbei. Sie kostet kein Kontingent (das
+Gate blockiert vor dem Modellaufruf), sieht aber von aussen wie Betrieb aus.
+**AKTION Raphael, heute vor 11:00 bzw. 12:00:** entscheiden, ob die Drosselschwelle für die
+verbleibenden Stunden dieses befristeten Auftrags angehoben oder der Schub sauber beendet wird.
+Claude hat weder das Gate verstellt noch `STOP-SCHUB` gesetzt (Konfiguration bzw. Drosselentscheid).
+| Eigene Messung 31.08.2026 06:2x an `logbuch/speicher/gate-Macmini.log` und `gate-Macbookpro.log` (201 + 5 Abweisungen gezählt), `logbuch/vollgas/schub/fachwissen.log` (Runde 223), Lauf-Journal `logbuch/laeufe/260831-laeufe.jsonl`; Gegenlage aus dem Radar-Eintrag 31.08. 01:06 | Hub-Betrieb / Kontingent | **hoch** | offen — Tagesfrist 31.08.2026 11:00 / 12:00 |
+
+**NACHTRAG zur P1-Sync-Zeile — 413 voraus / 267 zurück nach 504 Versuchen; und der scheiternde Rebase schreibt Arbeitsbaum-Dateien neu, womit die NAS-mtime als Datumsquelle ausfällt.**
+Eigene Messung nativ per ssh auf der Synology (`/volume2/daten/jans-ai-hub`) um 06:2x:
+**413 lokal voraus / 267 nicht integriert**, Selfcommit-**Versuch 504**, heute allein **118 Versuche**.
+Verlauf: 203/115 (30.08. 08:43) → 330/216 (20:11) → 364/245 (23:0x) → 396/266 (31.08. 02:50) →
+**413/267**. Arbeitsbaum sauber (kein `MERGE_HEAD`, kein `rebase-merge`, keine `index.lock`,
+`git diff --diff-filter=U` null Dateien) — das Script setzt weiterhin vollständig zurück.
+**Neu und über die Zahl hinaus:** Der scheiternde Rebase **schreibt Dateien im Arbeitsbaum neu**.
+Belegt an dieser Ablage selbst: `logbuch/konversationen/260830-konversationen.md` trägt auf der
+Synology die mtime **31.08. 06:15:05**, obwohl die Datei am **30.08. 06:30** committet wurde
+(`fd1e5f248`) und ihr Inhalt unverändert das Fenster 29./30.08. beschreibt. Der Zeitstempel deckt
+sich auf die Sekunde mit der Logzeile `2026-08-31T06:15:05 rebase fehlgeschlagen (413/267) —
+versuche Merge`. Alle 39 übrigen Dateien desselben Ordners tragen unverändert ihre
+Entstehungs-mtime; betroffen ist, was in den Konfliktbereich des jeweiligen Versuchs fällt.
+**Praktische Folge für jeden Lauf, solange der Zustand anhält:** Rule `auto-verbesserungen` 260730b
+verlangt für eine Umdatierung einen Beleg statt einer Hypothese — die **NAS-mtime ist derzeit kein
+solcher Beleg**. Es gilt der native Synology-Log `sync-tasks/log/selfcommit-JJJJMM.log` bzw.
+`git log`. Wer eine Datei nach ihrer mtime für «heute entstanden» hält, irrt hier systematisch.
+**Zweiter Beleg für die Zwei-Seiten-Lage (Spec-Befund B6):** In `wissen/architektur-fachwissen/wiki`
+trägt die NAS-Seite heute **99** Artikel, während die Lane FACHWISSEN in ihren eigenen Läufen
+zuletzt **245** meldet — beide Zahlen sind richtig, sie beschreiben verschiedene Seiten. Jede Zahl
+aus dieser KB ist ohne Seitenangabe wertlos.
+**Unverändert nicht selbst aufgelöst:** fremde unbestätigte Arbeit mehrerer Lanes in genau den
+Konfliktdateien (Rule `interaktive-eingriffe` Punkt 3, Rule `auto-verbesserungen` 260811 Punkt 3).
+| Eigene Messung 31.08.2026 06:2x nativ per ssh auf der Synology (`git rev-list --left-right --count HEAD...github/main`, `git log -1` auf die Datei, `stat`, `sync-tasks/log/selfcommit-202608.log` per `awk` gelesen) | Hub-Infrastruktur / alle Stationen | **hoch (P1)** | offen — Einzelentscheid Raphael |
+
+**NEU — Die KB `architekten-synobsis` hat zwei Sachfragen und eine Freigabesache offen, die mit dem Stopp der Lane sonst niemand mehr liest.**
+Die Schub-Lane SYNOBSIS wurde am 30.08. um 08:17 bei Runde 348 gestoppt, weil sie erschöpft war
+(Block 01 des Destillats). Ihre offenen Punkte standen nur in ihren Laufberichten und wären damit
+aus dem Blick gefallen:
+**(1) Zwei Namen, nicht websuchbar,** blockieren die letzten Katalog-Positionen — wer
+**«Sik_Miroslav»** und **«Sutter_Annabarbara»** im JANS-Bürokontext sind. Nur Raphael kann das
+beantworten.
+**(2) Vier Katalog-Kollisionen** hängen an einer NAS-Ordner-Zusammenführung bzw. Slug-Umbenennung.
+Das ist nach Rule `wissens-bibliothekar` eine destruktive Änderung und damit ausdrücklich
+Freigabesache Raphaels; Claude hat sie deshalb nicht vollzogen.
+**(3) Ein produktiver `--reindex`-Lauf** ist die Voraussetzung dafür, dass zwei bereits eingebaute
+Parser-Korrekturen überhaupt wirken. Ohne ihn bringt jeder weitere Lauf dieser KB nichts.
+Ohne (1) bis (3) ist die KB gesättigt, und jeder erneute Dispatch an diese Lane ist reiner Verlust.
+| Beleg: Konversations-Digest Mac Mini 30.08.2026, 155 Läufe der Lane SYNOBSIS mit Nullstand, Empfehlung wörtlich in `logbuch/vollgas/schub/synobsis.log` (Schlusseinträge 30.08. 08:15 und 08:17); Destillat `logbuch/konversationen/260831-konversationen.md` Blöcke 01 und 06 | Wissens-Layer / architekten-synobsis | mittel | offen — Aktion Raphael (zwei Auskünfte + eine Freigabe) |
