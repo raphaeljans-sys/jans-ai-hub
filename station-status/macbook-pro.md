@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.08.2026 07:08:16
+Stand: 31.08.2026 07:18:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:06)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:18)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 31.08.2026 07:08:16
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 6ed81a7f5 Logbuch-Radar 31.08.2026: Briefing-Abschnitt + 4 Register-Nachtraege (Tuerbeschlaege-Absagen, Gate-Stand, bexio/Mail-Messwege, Fristbefund bexio-Kalendereintrag)
+- 252864dc6 nas-selfcommit: 4 Datei(en) 2026-08-31 07:15

@@ -3694,3 +3694,88 @@ Schreibkollision der gleichzeitig laufenden Schub-Lanes auf denselben CHANGELOG-
 **Loser Faden, bewusst nicht angefasst:** im SSD-Klon liegt ein `stash@{0}: autostash`. Ein
 `stash drop` waere ein Eingriff in Git-Interna und gehoert nach Rule `interaktive-eingriffe` nicht in
 einen unbeaufsichtigten Lauf — hier nur vermerkt, damit die naechste interaktive Session ihn findet.
+
+---
+
+## 2026-08-31 07:15 CEST — Rohblock (Messung zuerst, Bewertung folgt unten)
+
+**Messzeitpunkt:** 31.08.2026 07:15 CEST, Station MacBook Pro. NAS gemountet.
+
+**Tagesverbrauch teuer (in+cache_creation+out) / total, Mio Token, rekursiv inkl. Subagenten,
+Duplikate ueber (message.id, requestId) ausgeschlossen, je Zeile nach timestamp[:10] gefiltert:**
+
+MacBook Pro (773 Dateien im 9-Tage-Fenster): 25.08. 7.89/178.59 · 26.08. 7.02/159.88 ·
+27.08. 8.60/189.52 · 28.08. 8.88/236.61 · 29.08. 9.52/222.30 · 30.08. 6.37/140.99 ·
+31.08. bis 07:15 2.58/62.32.
+
+Mac Mini (1'876 Dateien, gemessen ueber den Alias `ssh mini`): 25.08. 2.88/83.14 ·
+26.08. 1.18/44.81 · 27.08. 1.11/26.38 · 28.08. 2.20/82.06 · 29.08. 29.84/679.38 ·
+30.08. 49.10/1159.68 · 31.08. bis 07:15 0.49/11.48.
+
+**Beide Stationen zusammen, teuer:** 29.08. 39.36 · **30.08. 55.47** · 31.08. bis 07:15 3.07 Mio.
+
+**Blockade-Status: keine echten Limit-Fehlerereignisse in den letzten 26 h auf beiden Stationen.**
+Strukturell geprueft (isApiErrorMessage==true / type==error / apiErrorStatus==429 in Verbindung mit
+einem Limit-Text), nicht per Wort-grep. Geprueft: 45 Dateien MacBook Pro, 295 Dateien Mac Mini.
+
+**Bewertung — Kriterium (b) formal gerissen, wie am Vortag NICHT gemailt. Begruendung unten.**
+
+(a) **Keine echten Limit-Fehlerereignisse** in 26 h auf beiden Stationen. Kontrollprobe bestanden:
+`scheduled-task` kommt in 799 von 983 Dateien vor, das Muster greift.
+**Messfalle unterwegs gefunden und behoben:** die erste Suche nach dem escaped Opener
+`scheduled-task name=\"logbuch-radar\"` fing die **eigene** Fruehwarnungs-Session mit ein, weil der
+Messhinweis im eigenen Task-Text genau diesen String woertlich fuehrt und das ganze Transcript
+durchsucht wurde. Korrekt ist die Pruefung auf die **erste User-Eingabe** der Datei plus Ausschluss
+der eigenen Session-ID; ohne die Korrektur haette `logbuch-radar` mit dem Zeitstempel dieses Laufs
+als «gerade gelaufen» gegolten. Der Skill-Messhinweis vom 18.08. deckt diese Variante noch nicht ab.
+(b) **55.47 Mio teuer am 30.08. (49.10 Mini + 6.37 MacBook Pro) — deutlich ueber der 35-Mio-Schwelle**,
+der hoechste Tageswert der Messreihe. Siehe Sendeentscheid.
+(c) **Kein erschoepftes Wochenkontingent.** Der Radar hat um 00:57 CEST 85 % Verbrauch gemessen,
+8.5 Punkte hinter dem Zeitverlauf, und ausdruecklich keinen Eingriff vorgenommen. Der Montags-Reset
+ist erreicht, ohne dass das Kontingent gekippt ist — die Sorge des Vortagseintrags hat sich nicht
+bewahrheitet, die heutigen Briefings sind nicht gefaehrdet.
+(d) **Alle vier operativen Briefings im Takt.** `logbuch-radar` heute 07:08 CEST gelaufen (201 Zeilen);
+`hub-chef-taeglich` zuletzt 30.08. 09:04, `zahlungsabgleich-check` 30.08. 08:24 — die heutigen Laeufe
+stehen um 08:39 bzw. 08:30 noch aus, kein Ausfall. **`mahnwesen-verzugscheck` mit 72 h wieder
+scheinbar auffaellig, tatsaechlich korrekt:** die Task ist laut Frontmatter werktaeglich, letzter Lauf
+Freitag 28.08., danach Samstag und Sonntag. Der Montagslauf steht noch aus. Dieselbe Pruefung wie am
+Vortag, dieselbe Entwarnung.
+(e) **Radar-Herzschlag frisch:** `vollgas-chef-radar` zuletzt 31.08. 01:06 CEST, Alter 6.2 h, mit
+substanziellem Eintrag in RADAR.md um 00:57.
+(f) **Kein Aufwand ohne Wissenszuwachs — der ertragreichste Tag der gesamten Messreihe.** git zaehlt
+**337 geaenderte Wiki-Artikel am 30.08.**, alle 337 ausserhalb der Twin-Facetten. Die Ziel-KB
+`architektur-fachwissen` ist von **79 auf 97 Artikel** gewachsen. Heute bis 07:15 bereits 13 Artikel.
+(g) Die Queue meldet nicht «KORPUS-QUEUE KOMPLETT» (0 Treffer).
+
+**Stueckkosten 30.08.: 0.165 Mio Token je Artikel** (55.47 Mio auf 337 Artikel), ohne Twin identisch.
+**31.08. bis 07:15: 0.24 Mio je Artikel** (3.07 Mio auf 13). Reihe zum Vergleich: 27.08. 0.81 ·
+28.08. 1.01 · 29.08. 0.29 · **30.08. 0.165**. Der teuerste Tag ist zugleich der mit Abstand
+guenstigste je Artikel — der Verbrauch ist in Wissen geflossen, nicht in Leerlauf.
+
+**Sendeentscheid: keine Mail.** Vier Gruende, jeder einzeln tragend: **1.** Derselbe Befund wie am
+Vortag, an dem bereits mit Begruendung nicht gemailt wurde — die Regel verbietet die
+Wiederholungsmail. **2.** Der Verbrauch ist Raphaels **ausdruecklicher, befristeter Auftrag** vom
+29.08. mit Frist heute 11:00; ihm zu melden, dass sein Ausschoepfungsauftrag Kontingent verbraucht,
+sagt ihm nichts Neues. **3.** Der Schub ist **von selbst ausgelaufen**: kein `claude -p`-Prozess mehr
+aktiv, das Lauf-Journal faellt von 670 Eintraegen gestern auf 9 heute. Der Leerlauf-Anteil war bereits
+in der Nacht auf den 30.08. vom Radar erkannt und durch Stilllegung dreier Lanes behoben.
+**4.** Das Kontingent hat den Reset erreicht, ohne zu kippen — der einzige Weg, auf dem der Schub
+Raphaels Arbeit haette treffen koennen, ist verstrichen.
+
+**Ein Vortagsbefund besteht zum dritten Mal in Folge fort — und ein zweiter tritt daneben:**
+**1 — Fortschrittskennzahl blind.** `inventar.sh --stand` meldet fuer **beide** aktiven Korpora
+weiterhin `sektionen=0/0 dateien_inventarisiert=0`, waehrend die Ziel-KB an einem Tag um 18 Artikel
+waechst. Ursache belegt: unter `skills/wissens-destillat/training/` liegen nur
+`bauprodukte-sektionen.md` und `buero-projekte-sektionen.md`; die Register fuer `archiv-fachwissen`
+und `buero-referenzen` fehlen. Das ist die Kennzahl (a), auf die Fruehwarnung und Radar ihre
+Delta-Null-Beurteilung stuetzen — sie wuerde Stillstand melden, wo der ertragreichste Tag der
+Messreihe liegt. Gehoert weiterhin dem Radar vorgelegt.
+**2 — Delta-Null-Serie nicht messbar.** Unter `wissen/architektur-fachwissen/outputs/` liegt ein
+einziger Report, vom 23.08. Die Schub-Laeufe schreiben ihre Lauf-Reports nicht dorthin, obwohl
+Schritt 5b sie genau dort erwartet. Damit ist die zweite von vier Destillat-Kennzahlen blind. Beide
+Befunde zusammen heissen: **die Ertragsseite ist derzeit nur ueber git messbar**, nicht ueber die
+dafuer gebauten Register. Solange das so bleibt, traegt Kriterium (f) allein die git-Zaehlung.
+
+**Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
+Kontingent-Erschoepfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag oder Aufwand ohne
+Wissenszuwachs.
