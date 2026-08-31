@@ -1,5 +1,56 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-08-31 — Etappe 4 Lauf 05: Ursache des Healthcare-Fehlzeigers behoben, Rang-Stolperstein an der Wurzel korrigiert
+
+- **[etappe]** **Endbedingung gemessen, nicht fortgeschrieben.** V1/V2/V3 sind seit Lauf 04
+  erschöpft; `git log --since="2026-08-23" --diff-filter=A -- raw/` belegt **null** neue
+  Quelldateien (die einheitliche mtime 29.08. 22:18 ist ein SMB-Kopierartefakt, kein
+  Materialzugang). Jurybericht 2501 weiterhin ausstehend. **Etappe 4 bleibt abgeschlossen** —
+  kein Etappen-Baustein simuliert.
+- **[inhalt]** **`wiki/muster/kennwerte-healthcare.md` (+11/−6): Selbstwiderspruch aufgelöst.**
+  Die Präzisierung vom 27.08. war rein additiv — die drei falschen Sätze blieben wörtlich neben
+  den Warnzeilen stehen, der Artikel widersprach sich innerhalb weniger Zeilen selbst. Alle drei
+  sind jetzt sachlich richtiggestellt (führend bei Healthcare ist
+  `wissen/immobilienbewertung/wiki/realwert-sachwert.md`, **nicht** `wissen/grobkosten/`); die
+  Warnzeilen bleiben als Belegkette und tragen neu den Vollzugsvermerk sowie den **bezifferten**
+  Vorbehalt zum oberen Endpunkt (1'420 quellenintern nicht reproduzierbar, recompute 1'285 —
+  geltend bleibt dennoch **826–1'420**, Entscheid bei Raphael).
+- **[struktur]** **Bauaufgaben-Weiche in allen drei `kennwerte-*`-Artikeln** (+2/+2 in Schulbau
+  und Wohnungsbau): ⚠-Block vor dem Konsequenz-Satz, der ihn als bauaufgaben-abhängig markiert,
+  die Führung je Bauaufgabe benennt und auf `wissen/koordination/QUERBEZUEGE.md` verweist. In
+  Schulbau und Wohnungsbau bleibt die Aussage sachlich unverändert richtig.
+- **[regel]** **`CLAUDE.md` der KB: neue Ableitungs-Regel** — die Bestandssichtung belegt, dass
+  es **kein Template** gibt; ein neuer Muster-Artikel wird faktisch aus dem zuerst geschriebenen
+  abgeleitet (Schulbau 20.07. → Healthcare 25.07. → Wohnungsbau 27.07.2026). Die Regel verlangt:
+  jede Führungsaussage vor der Übernahme gegen die Führungsmatrix prüfen, bauaufgaben-abhängige
+  Sätze als Weiche markieren, Vorbehalte mit dem Kennwert mitwandern lassen. Damit ist die
+  Bringschuld aus Wissens-Chef Run 45 **an der Ursache** geschlossen, nicht nur am Einzelfall.
+- **[korrektur]** **Rang-Stolperstein an der Wurzel** (`CLAUDE.md`, Goldstandards): dort stand
+  «die beiden **2. Plätze** 2102 Muttenz und 2206 Schoental» — an der Stelle, die jeder Lauf
+  dieser KB zuerst liest. Belegt und eingetragen: **2102 = 4. Rang / 3. Preis** (Jurybericht
+  S. 15), **2206 = 3. Rang / 3. Preis** (Schlussbericht S. 11, amtlich bestätigt). Die
+  Goldstandard-Eigenschaft hängt am dokumentierten Delta zum Sieg, nicht am Rang.
+- **[korrektur]** **`wiki/INDEX.md` (+7/−2):** zwei Healthcare-Stellen trugen dieselbe falsche
+  Standardformel weiter (Fund des Refuters). Beide berichtigt; die Schulbau-Stelle im selben
+  Register blieb unangetastet, weil sie dort richtig ist.
+- **[verifikation]** Ein unabhängiger Refuter, **VERDIKT NICHT BESTANDEN**, **3 Beanstandungen
+  eingearbeitet**: (1) das Ausstellungsdatum der Schulrats-Verfügung 2206 war ohne tragfähigen
+  Beleg beziffert (Quellenzeile 17.11.2022 gegen Dateiname 221109 = 09.11.2022) und ist
+  **zurückgezogen**; (2) die beiden INDEX-Stellen; (3) eine widersprüchliche Ortsangabe. Eine
+  Fehlleitung des Sichtungs-Subagenten (Vorschlag, das Band auf 826–1'285 zu ändern) wurde vor
+  der Umsetzung am Original abgefangen — 826–1'285 ist der reproduzierbare Rohband, **kein**
+  geltender Band.
+- **[questions]** Punkt vom 27.08. als gelöst eingetragen; neuer offener Punkt: Ausstellungsdatum
+  der Verfügung 2206 am Original-PDF klären (Rang davon nicht berührt).
+- **[ertrag]** Messung gegen den Stand vor dem Lauf: **+86 / −9** über sechs Inhalts- und
+  Regeldateien (Registerpflege in CHANGELOG +49 und PROGRAMM +35 bewusst **nicht** als Ertrag
+  mitgezählt); alle neun Löschungen sind kontrollierte Zeilenersetzungen, zeilenweise
+  gegengelesen. Report
+  `outputs/2026-08-31_etappe4-vertiefung-05.md`.
+- **[naechster-schritt]** Kein Etappen-Baustein offen, kein Sachpunkt mehr hängig. **Ohne neuen
+  Entscheid oder neues Material erzeugt der nächste Lauf kein inhaltliches Delta** — Empfehlung
+  unverändert: Beobachtungstakt.
+
 ## 2026-08-27 — Wissens-Chef Run 45: der Healthcare-Fehlzeiger auf `grobkosten`, dreimal in einem Artikel
 
 - **[inhalt]** **`wiki/muster/kennwerte-healthcare.md` (+7/−0, rein additiv):** Der Artikel wies für

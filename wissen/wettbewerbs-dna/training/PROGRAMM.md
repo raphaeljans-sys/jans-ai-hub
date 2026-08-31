@@ -188,6 +188,41 @@
 > neuer Jurybericht eintrifft oder Raphael eine neue Richtung entscheidet (Etappe 5 oder erneute
 > Reaktivierung). Entscheid ueber den Takt bleibt bei Raphael.
 
+> ---
+>
+> ### STAND 31.08.2026 nach Lauf 05: **ETAPPE 4 ABGESCHLOSSEN BESTAETIGT — VERTIEFUNG ERSCHOEPFT**
+>
+> **Endbedingung gemessen, nicht fortgeschrieben.** Kein Etappen-Baustein war offen; zusaetzlich
+> belegt `git log --since="2026-08-23" --diff-filter=A -- raw/` **null** neue Quelldateien (die
+> einheitliche mtime 29.08. 22:18 auf allen `raw/`-Dateien ist ein SMB-Kopierartefakt, kein
+> Materialzugang). Jurybericht 2501 Steinfabrik weiterhin ausstehend. **Kein V1/V2/V3-Lauf
+> simuliert.**
+>
+> **Gearbeitet wurde am einzigen seit Lauf 04 neu entstandenen Sachpunkt:** der Cross-KB-Befund
+> des `wissens-chef` Run 45 (27.08.2026, Bringschuld in `wiki/QUESTIONS.md`, ausdruecklich «Sache
+> dieser KB»). Eigener Vorbefund: die Korrektur vom 27.08. war **rein additiv** — die drei
+> falschen Saetze standen woertlich neben den Warnzeilen, der Artikel widersprach sich selbst.
+> Behoben in drei Stufen: Richtigstellung der drei Stellen · **Bauaufgaben-Weiche** in allen drei
+> `kennwerte-*`-Artikeln · **Ableitungs-Regel** in der KB-`CLAUDE.md` (es gibt kein Template, ein
+> neuer Muster-Artikel wird aus dem Vorgaenger abgeleitet — genau dort greift die Regel).
+>
+> **Nebenfund mit eigenem Gewicht:** Die KB-`CLAUDE.md` bezeichnete 2102 und 2206 als «die beiden
+> **2. Plaetze**» — der belegte Rang-Stolperstein dieser KB an seiner Wurzel, an der Stelle, die
+> jeder Lauf zuerst liest. Korrigiert auf **2102 = 4. Rang / 3. Preis**, **2206 = 3. Rang /
+> 3. Preis**.
+>
+> **Verifikation:** ein unabhaengiger Refuter, **VERDIKT NICHT BESTANDEN**, 3 Beanstandungen
+> eingearbeitet (zurueckgezogenes Verfuegungsdatum 2206, zwei unkorrigierte INDEX-Stellen,
+> eine widerspruechliche Ortsangabe). Ertrag gemessen: **+86/−9** ueber sechs Inhalts-/Regeldateien
+> (Registerpflege nicht mitgezaehlt). Report
+> `outputs/2026-08-31_etappe4-vertiefung-05.md`.
+>
+> **VERTIEFUNG ERSCHOEPFT.** Kein Baustein und kein Sachpunkt mehr offen. **Ohne neuen Entscheid
+> Raphaels oder neues Quellmaterial erzeugt der naechste Lauf dieses Loops kein inhaltliches
+> Delta** — Empfehlung unveraendert: Beobachtungstakt, bis der Jurybericht 2501 eintrifft oder
+> eine neue Richtung entschieden ist (Etappe 5, vierte Bauaufgabe «Gewerbe/Buero», sechster
+> Healthcare-Subtyp «ambulante Praxisbauten»).
+
 Loop: `wettbewerbs-dna-training` · Station: **MacBook Pro** (Zuteilung 12.07.2026;
 OneDrive-Archiv hier lesbar, TCC geprueft). Takt **historisch** (bis 27.07.2026): taeglich
 05:22 (Scheduled Task), in der Intensivphase (Regel 260712) ergaenzt durch manuelle
@@ -232,6 +267,7 @@ je Ziel-Bauaufgabe) — Bauaufgaben-Prioritaeten vorher bei Raphael abholen (QUE
 | **E4-02** | **13.08.2026** | **Etappe 4, Baustein V2 Schulbau.** 3 Schulbau-Beitraege (2102/2103/2206) gegen alle 12 Siegargumente aus `jury-argumente-schulbauten.md` gestellt, neuer Abschnitt 7 (3x12-Matrix). Refuter NICHT BESTANDEN, 7 Beanstandungen eingearbeitet. Report `outputs/2026-08-13_etappe4-vertiefung-02.md` | erledigt |
 | **E4-03** | **17.08.2026** | **Etappe 4, Baustein V2 Healthcare.** Quellenlage-Vorpruefung findet zusaetzlich 2205 Guggerbach; 2 Beitraege (2101/2205) gegen `jury-argumente-healthcare.md`-Katalog gestellt, neuer Abschnitt 7 (2x12-Matrix, 2 neue Codes). Refuter NICHT BESTANDEN, 8 Beanstandungen eingearbeitet. Report `outputs/2026-08-17_etappe4-vertiefung-03.md` | erledigt |
 | **E4-04** | **23.08.2026** | **Etappe 4, Baustein V2 Wohnungsbau (unbaubar bestaetigt) + Baustein V3 Verdichtung.** Quellenlage-Vorpruefung bestaetigt: 2207 kein Jurybericht, 2503 keine Unterlagen ausser CAD, 2205 bereits in E4-03 verarbeitet → kein V2-Lauf bildbar, direkt V3. Neuer Abschnitt in `delta-zum-ersten-rang.md`: 12 Verlust-Befunde nach Haeufigkeit ueber 7 Verfahren gestuft (Stufe A >=3/7: Befund 2/3/5; Stufe B 2/7: Befund 4/6/8/9; Stufe C 1/7: Befund 7/10/11/12/13). Refuter BESTANDEN, 1 stilistische Praezisierung eingearbeitet. **Damit alle drei Etappen-4-Bausteine (V1/V2/V3) auf strukturellem Maximum — Etappe 4 inhaltlich abgeschlossen.** Report `outputs/2026-08-23_etappe4-vertiefung-04.md` | erledigt |
+| **E4-05** | **31.08.2026** | **Etappe 4, kein Baustein — Endbedingung bestaetigt + Ursachenbehebung.** Endbedingung gemessen (null neue raw-Dateien seit 23.08., mtime-Sprung als SMB-Artefakt entlarvt); kein V1/V2/V3-Lauf simuliert. Gearbeitet am Cross-KB-Sachpunkt aus Wissens-Chef Run 45: Korrektur vom 27.08. war rein additiv und liess den falschen Satz dreimal daneben stehen → richtiggestellt, **Bauaufgaben-Weiche** in allen drei `kennwerte-*`-Artikeln, **Ableitungs-Regel** in der KB-`CLAUDE.md` (kein Template vorhanden — Ableitung aus dem Vorgaenger ist die Fehlerquelle). Nebenfund: Rang-Stolperstein an der Wurzel korrigiert («die beiden 2. Plaetze» → 2102 4. Rang / 3. Preis, 2206 3. Rang / 3. Preis). Refuter NICHT BESTANDEN, 3 Beanstandungen eingearbeitet. Ertrag +86/−9 ueber 6 Inhalts-/Regeldateien (Registerpflege nicht mitgezaehlt). **Vertiefung erschoepft.** Report `outputs/2026-08-31_etappe4-vertiefung-05.md` | erledigt |
 | Nachbrenner-Fix | 13.07.2026 | **`muster/jury-argumente-schulbauten.md` von draft auf established gehoben:** die 10 Korrekturauflagen aus dem durchgefallenen Refuter-Erstlauf (Fehlzuordnungen Fermate/Froeschmatt/Merian-LINK/Muhen/Sandgruben/Merian-COMEPURE, uebertriebene Quellenzahl, dekorative Steinhof/Schoental-Verlinkung) einzeln gegen die Rohquellen in `raw/` korrigiert und mit Zitat/Seite belegt. Fokussierter Zweitlauf (unabhaengiger Refuter-Agent) prueft alle 10 Punkte gegen die Originaltexte: 9/10 sofort bestaetigt, 1 Praezisierung (Heilpaed.-Bern-Ausschluss gehoert zum Abschnitt «Ausschluss von der Preiserteilung», nicht «2. Wertungsrundgang») nachgezogen und selbst verifiziert. Status jetzt `established` | erledigt |
 
 **Endbedingung Etappe 2 VOLLSTAENDIG ERREICHT (13.07.2026):** alle 11 destillierbaren
