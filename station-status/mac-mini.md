@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 01:23:53
+Stand: 01.09.2026 01:44:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 01.09.2026 01:23:53
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9abf0988e vollgas-radar 260901 00:57: P1 eskaliert (GitHub+beide Klone seit 19h eingefroren, 510/267), Fenster FREI, 4 Loops mit Delta, Mount-Lehre
+- 371f7964d vollgas-radar 260901: Nachtrag Sicherungsversuch (Commit 9abf0988e ok, Push scheitert)
