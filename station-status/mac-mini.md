@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.08.2026 07:02:10
+Stand: 31.08.2026 07:12:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 31.08.2026 07:02:10
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 7c0bd6e2c nas-selfcommit: 4 Datei(en) 2026-08-31 07:00
+- 6ed81a7f5 Logbuch-Radar 31.08.2026: Briefing-Abschnitt + 4 Register-Nachtraege (Tuerbeschlaege-Absagen, Gate-Stand, bexio/Mail-Messwege, Fristbefund bexio-Kalendereintrag)

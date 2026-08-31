@@ -4761,3 +4761,14 @@ in derselben Registerzeile.
 nicht eingetragen — Kalendereinträge bleiben Deine Sache). Der tote API-Zugang gehört unverändert in
 denselben Vorgang.
 | Kalendereintrag belegt in `logbuch/LOGBUCH.md`, Hub-Chef-Abschnitt 30.08.2026, Zeile 110; Frist belegt in der Aktiv-Zeile «08.09.2026 — bexio-Abo» desselben Registers; Befund entdeckt bei der Layout-QS dieses Briefings | Betrieb / Buchhaltung | hoch | offen — Entscheid Raphael bis 08.09.2026 |
+
+**NACHTRAG 31.08.2026, 07:07 zur P1-Sync-Zeile — eigene Sicherung dieses Radar-Laufs.**
+`nas-commit-now.sh` hat den Lauf nativ auf der Synology **committet** (`6ed81a7f5`, 07:07:13); der
+anschliessende Abgleich mit GitHub scheiterte wie an den mehr als fünfhundert Versuchen davor, mit
+denselben Konfliktdateien der Schub-Lanes (`architektur-fachwissen`, `baurecht`, `grobkosten`,
+`normen`). Arbeitsbaum danach **sauber**: kein `MERGE_HEAD`, `git diff --diff-filter=U` null Dateien.
+Divergenz um 07:07 **418 voraus / 267 nicht integriert** (06:2x waren es 413/267). Praktische Folge
+unverändert: dieses Briefing und die vier Register-Nachträge liegen auf dem NAS und sind nicht im
+GitHub-Backup. Nicht selbst aufgelöst, aus den bekannten Gründen (fremde unbestätigte Arbeit
+mehrerer Lanes, Rule `interaktive-eingriffe` Punkt 3).
+| Eigene Messung 31.08.2026 07:07 nativ per ssh auf der Synology (`git log -1`, `git diff --diff-filter=U`, `git rev-list --left-right --count HEAD...github/main`) | Hub-Infrastruktur / alle Stationen | **hoch (P1)** | offen — Einzelentscheid Raphael |
