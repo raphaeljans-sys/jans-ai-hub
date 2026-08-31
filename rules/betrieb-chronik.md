@@ -19,6 +19,45 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260831 — die Freigabe hing auf `/Volumes/daten-1`, und kein Waechter kam aus der Schleife heraus
+
+**Befund (Synergie-Lauf 24, 31.08.2026, MacBook Pro).** Der Lauf startete ohne Skills, Agenten,
+Commands und Rules: `/Volumes/daten` existierte nicht. Die Freigabe war gemountet, aber unter
+`/Volumes/daten-1` (`//raphaeljans@192.168.1.10/daten on /Volumes/daten-1`). In diesem Zustand ist
+die Station fuer den ganzen Hub blind — jeder Symlink, jeder `@`-Import und jeder Script-Pfad zeigt
+auf `/Volumes/daten`.
+
+**Warum niemand herauskommt.** `nas-auto-mount.sh` erkennt einen haengenden Mount (Z. 70-77) und
+trennt ihn mit `umount -f` (Z. 76). Wird waehrend des Abbaus neu gemountet, vergibt macOS den
+naechsten freien Namen — `daten-1`. Ab da laeuft der Waechter im Kreis: `mount volume` (Z. 151)
+meldet OK, weil die Freigabe unter anderem Namen laengst haengt, und die Verifikation (Z. 173)
+findet unter `/Volumes/daten` nichts und schreibt ERROR. Gemessen: letzter `[OK]` **13:23:25**,
+danach **83 ERROR-Zeilen bis 17:19:34** in `~/Developer/jans-ai-hub/.git/nas-auto-mount.log`.
+`ensure-nas-mounted.sh` (Z. 45-46) und `nas-keepalive.sh` (Z. 46) stellen dieselbe Frage und sind
+darum gleich blind; der Guard meldete um 13:21:10 korrekt rc 1 — jeder headless-Lauf brach damit
+sauber und folgenlos ab, rund vier Stunden lang. Auch `heartbeat.sh` hilft nicht: es fragt gleich
+(Z. 51), heilt mit `open smb://…` in dieselbe Falle (Z. 58) und wird ueberdies ueber genau den
+NAS-Pfad aufgerufen, den es pruefen soll.
+
+**Das Muster war bekannt.** Eintrag 260824 dieser Chronik haelt fest, dass der Mount «zeitweise auf
+`/Volumes/daten-1`» lag. Ein Grep `daten-[0-9]` ueber `scripts/`, `rules/` und `skills/heartbeat/`
+trifft heute ausschliesslich jene Chronikzeile: beschrieben, nirgends abgebildet.
+
+**Geheilt wurde nur die laufende Station**, nicht der Mechanismus: `umount /Volumes/daten-1`
+(sauber, nicht `-f`; ein belegter Mount haette verweigert), danach `scripts/ensure-nas-mounted.sh`.
+Der launchd-Waechter mountete binnen einer Minute korrekt nach `/Volumes/daten`, Sentinel lesbar,
+Symlinks intakt. Am Mount-Weg selbst wurde nichts geaendert — die naheliegende Haertung (vor dem
+Mountversuch `mount | grep "/daten on /Volumes/daten-"` pruefen und trennen) ist als **SYN-64**
+gemeldet und wartet auf Freigabe; ein Aufsichtslauf baut nicht nebenbei am Mount-Weg der Station.
+
+**Praktische Folge fuer jeden Lauf, der das NAS braucht:** «NAS nicht gemountet» ist zwei
+verschiedene Zustaende. Die Gegenprobe kostet eine Zeile und trennt sie —
+`mount | grep -i daten` zeigt eine Fremdmontage sofort, waehrend `ls /Volumes/daten` in beiden
+Faellen gleich scheitert. Der SMB-Mount fiel im selben Lauf zweimal erneut aus; deshalb liefen
+dessen Messungen und Schreibvorgaenge durchgehend **nativ per ssh** auf `/volume2/daten/jans-ai-hub`
+statt ueber SMB. Das ist bei instabilem Mount der belastbarere Weg und verletzt die
+SMB-`git`-Sperre (260726) nicht, weil git dabei nativ auf der Synology laeuft.
+
 ## 260830 — `git diff --numstat` gegen HEAD misst bei langen Laeufen nur den Schwanz
 
 **Befund (Normen-Nacht Run 66, 30.08.2026).** Die Bestandsmessung nach Rule 260811 lief zuerst

@@ -2,6 +2,45 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-31 (Synergie-Lauf 24) — der Aufsichtslauf fand das NAS nicht, und keiner der drei Waechter konnte den Zustand sehen
+
+**Zuschnitt:** Tagestakt, Delta-Basis 30.08.2026 17:10, Fenster 24,0 h. **179 Commits** im
+NAS-Repo, **82** auf `origin/main` (beidseitig gemessen wegen der laufenden Sync-Divergenz).
+Kein Multi-Agent-Fan-out, alles inline. Bericht: `outputs/2026-08-31_synergie-lauf-24.md`.
+
+**Der Lauf begann mit einem Betriebsbefund.** `/Volumes/daten` existierte nicht; die Freigabe hing
+seit rund vier Stunden auf `/Volumes/daten-1`. Diese Session startete deshalb ohne Skills, Agenten
+und ohne die per `@` importierten Rules — jedes zitierte Objekt wurde einzeln gelesen. Die
+laufende Station wurde von Hand geheilt (`umount /Volumes/daten-1`, danach der hauseigene
+`ensure-nas-mounted.sh`); am Mount-Weg selbst nichts geaendert. Uhr-Check bestanden (Station
+17:20 CEST gegen Synology 17:15). Alle Messungen und Schreibvorgaenge nativ per ssh, nicht ueber
+SMB.
+
+**2 neue Befunde, beide nur gemeldet, beide Infrastruktur.**
+
+- **SYN-64** — drei Waechter (`nas-auto-mount.sh`, `ensure-nas-mounted.sh`, `nas-keepalive.sh`,
+  dazu `heartbeat.sh`) teilen die Annahme «nicht unter `/Volumes/daten` ⇒ nicht gemountet» und
+  koennen den Fremd-Mountpunkt weder sehen noch heilen — den `nas-auto-mount.sh` mit seinem
+  eigenen `umount -f` (Z. 76) selbst erzeugt. 83 ERROR-Zeilen im Kreis, vier Stunden
+  Stationsblindheit. Der Ausfallmodus ist seit dem 24.08. in der Chronik beschrieben (Z. 817),
+  aber in keinem Script abgebildet.
+- **SYN-65** — `scripts/git-divergenz.sh` wurde am 24.08. gegen genau diesen blinden Fleck gebaut,
+  wird aber nur in `skills/heartbeat/SKILL.md` Z. 313-317 aufgerufen; der Scheduled Task
+  `heartbeat-daily` fuehrt das **Script** aus, und das prueft nur `git status --short`. Folge: die
+  Divergenz (ahead 471 / behind 267, Fehlversuchs-Zaehler 555, seit 29.08. 22:04) wurde in sieben
+  Nachtlaeufen je von Hand nachgemessen und von keinem Waechter gemeldet.
+
+**SYN-43 aufgerollt** (Beteiligter bewegt): neue praezise Anrede-Klausel wieder nur in der nicht
+importierten `jans-dna-facetten.md`, Muster bestaetigt, Status nachgefuehrt.
+
+**Nicht uebernommen:** die 2/2-Zeile in `jans-dna-facetten.md` (Substanz entfernt, aber begruendet
+dokumentiert und im immer aktiven Kern erhalten — kein stiller Verlust, wohl aber der Merksatz,
+dass die Zeilenzaehlung nach Rule 260811 so etwas nicht sieht); die Sync-Divergenz selbst (in
+`logbuch/fristen.md` gefuehrt, Ursache B6 gespect); 336 KB-Dateibewegungen ohne neuen Baustein.
+
+**Kein neuer Baustein im Fenster** (beidseitig `--diff-filter=A` = leer): keine
+Contract-Pflichtfelder, keine Rollen-Zeile, keine Allowlist-Freigabe, kein @-Import zu pruefen.
+
 ## 2026-08-30 (Run 48) — die Aufsicht mass ihren eigenen Fussabdruck vom Vortag als Hauskonvention
 
 **Zuschnitt:** 6 Melder (`model: sonnet`) + 6 adversariale Refuter (Hauptmodell) + eigener
