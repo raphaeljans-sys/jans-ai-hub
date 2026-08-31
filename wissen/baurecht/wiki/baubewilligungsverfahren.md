@@ -1,10 +1,14 @@
 ---
 title: Baubewilligungsverfahren — Kanton Zürich
 status: established
-last_updated: 2026-08-24
-sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§ 309 Abs. 1 lit. a-o PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", "§§ 38-52 GG", "§§ 170-171 GG", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, 260823_amtlich_zh_gg.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004", "Art. 21-24 Gebührenverordnung Thalwil (SR 600.1)", 260824_amtlich_zh_thalwil-gebuehrenverordnung.md, 260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md, 260824_amtlich_zh_thalwil-gebuehrenreglement-bauwesen.md]
+last_updated: 2026-09-01
+sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§ 309 Abs. 1 lit. a-o PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", "§§ 38-52 GG", "§§ 170-171 GG", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, 260823_amtlich_zh_gg.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004", "Art. 21-24 Gebührenverordnung Thalwil (SR 600.1)", 260824_amtlich_zh_thalwil-gebuehrenverordnung.md, 260824_amtlich_ch_pue-baubewilligungsgebuehren-studie.md, 260824_amtlich_zh_thalwil-gebuehrenreglement-bauwesen.md, "Art. 32a RPV", "Art. 32a-bis RPV", 260901_amtlich_ch_rpv-art32a-36-37.md]
 links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[raumplanung-und-gestaltung]], [[07-zustaendigkeiten-entscheide-auskuenfte]], [[06-baurechtliches-verfahren-teil2]], [[umgebungsgestaltung-und-einfriedungen]], [[fahrzeugabstellplaetze-und-parkierung]]
 verifiziert:
+  - datum: 2026-09-01
+    methode: "Verweisnorm-Prüfung zweiteilig (Leitplanke Run 71), Buch-Run 141 — amtlicher Bundesvolltext"
+    umfang: "Art. 32a / 32a-bis RPV (Fedlex ELI cc/2000/310, Snapshot 20260101) als verwiesene Bundesnorm hinter § 2a Abs. 1 lit. a/d BVV"
+    ergebnis: "BVV-Wortlaut unverändert und intakt; die VERWIESENE Bundesnorm hat sich zweimal bewegt (1.7.2022 AS 2022 357; 1.1.2026 AS 2025 659). Materieller Gehalt von Art. 32a ergänzt, dazu die im KB bislang fehlende Flachdach-Alternative Abs. 1bis (1 m / 45 Grad) und der neue Art. 32a-bis (Fassaden). Nebenbefund aus dem Destillat: «nicht über den Dachfirst hinaus» war falsch — Abs. 1 lit. b stellt auf die Dachfläche in der Draufsicht ab. Offen an KB energie übergeben: Verhältnis § 2a Abs. 1 lit. b BVV zu Art. 32a-bis RPV."
   - datum: 2026-08-24
     methode: "Stale-Flag-Sweep QUESTIONS.md (Buch-Run 111) — Modell-D-Volltextabgleich § 309 Abs. 1 PBG"
     umfang: "vollständiger Bewilligungspflicht-Katalog § 309 Abs. 1 lit. a-o PBG gegen raw/260607_amtlich_zh_pbg.md; bislang nur pauschal als «§§ 309 ff. PBG» referenziert"
@@ -109,7 +113,31 @@ geregelt, siehe [[laermschutz-und-nichtionisierende-strahlung]].
   Wärmepumpen (alle neuen Sonden ≥ **2,5 m** Grenzabstand, nicht im Bereich von Bau-/
   Abstandslinien; gewässerschutzrechtliche Bewilligung vorbehalten), Fernwärme-Anschlüsse
   (§ 47g BBV I) und öffentlich zugängliche Ladestationen für Elektrofahrzeuge an bestehenden
-  Abstellplätzen. **Rückausnahme (§ 2a Abs. 2 BVV):** sämtliche Solaranlagen und aussen
+  Abstellplätzen. **Die Bundesebene unter dem BVV-Verweis (ergänzt Buch-Run 141, 01.09.2026).** Zwei der
+  Tatbestände oben sind **Verweisnormen**: § 2a Abs. 1 lit. a BVV knüpft die Meldepflicht daran,
+  dass die Dachanlage «nach **Art. 32a RPV** genügend angepasst» ist, lit. d nimmt in
+  Industrie-/Gewerbezonen ausdrücklich davon aus. Was das materiell heisst, steht damit **im
+  Bundesrecht**, und dort hat es sich zweimal bewegt, ohne dass die BVV geändert wurde:
+  **Art. 32a Abs. 1 RPV** verlangt für Dachanlagen kumulativ, dass sie die Dachfläche im rechten
+  Winkel um höchstens **20 cm** überragen, **von oben gesehen nicht über die Dachfläche
+  hinausragen** (nicht: über den First!), reflexionsarm nach Stand der Technik ausgeführt und
+  kompakt angeordnet sind (technisch bedingte Auslassungen und versetzte Anordnung sind
+  zulässig). **Art. 32a Abs. 1bis RPV** stellt für **Flachdächer** eine eigenständige Alternative
+  daneben: Oberkante Dachrand um höchstens **1 m** überragt, von unten im **45-Grad-Winkel** nicht
+  sichtbar zurückversetzt, reflexionsarm — eine aufgeständerte Flachdachanlage kann also über
+  Abs. 1bis meldepflichtig sein, obwohl sie an der 20-cm-Schwelle scheitert. Neu hinzugekommen ist
+  ausserdem **Art. 32a-bis RPV** (Solaranlagen an **Fassaden**) mit eigenem Kriterienkatalog
+  (Abs. 1 lit. a-g, eine Voraussetzung genügt) und Zusatzanforderungen (Abs. 2, u.a. max. **20 cm
+  Abstand zur Fassade**, parallel, keine Überdeckung von Gliederungs- oder Schmuckelementen);
+  ob § 2a Abs. 1 lit. b BVV daneben eigenständig fortbesteht, ist offen (Frage an KB `energie`).
+  **Art. 32a Abs. 3 RPV** ordnet das Meldeprinzip selbst an und delegiert Frist und Unterlagen
+  ans kantonale Recht — genau das füllen §§ 2c/2d BVV aus. Fassungsstand: Art. 32a Abs. 1
+  lit. a/b/d i.d.F. vom **1.7.2022** (AS 2022 357), Titel/Einleitung i.d.F. vom **1.1.2026**
+  (AS 2025 659). Beleg `raw/260901_amtlich_ch_rpv-art32a-36-37.md`.
+  **Merksatz:** Ein Fassungsstand-Check am kantonalen Erlass hätte hier nichts gefunden — die BVV
+  ist intakt; bewegt hat sich die Norm, auf die sie zeigt (Leitplanke «Verweisnormen zweiteilig
+  prüfen», Run 71).
+- **Rückausnahme (§ 2a Abs. 2 BVV):** sämtliche Solaranlagen und aussen
   aufgestellte Luft/Wasser-Wärmepumpen in **Kernzonen**, im Geltungsbereich eines Ortsbild-/
   Denkmalschutzinventars oder einer denkmalpflegerischen Schutzanordnung sind
   **bewilligungspflichtig** (kein Meldeverfahren). Tragweite (§ 2b BVV): **keine Aussteckung,

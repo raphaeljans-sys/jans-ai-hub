@@ -3,6 +3,63 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-01 (Buch-Run 141) — RPV-Schwellengruppe geschlossen: drei Zahlen CONFIRMED, vier Regeln falsch, ein Phantom-Artikel
+
+Der von Buch-Run 140 ausdrücklich offen gelassene Rest (35 % / 5000 m², 20 cm, 70 % Trockensubstanz)
+ist am amtlichen RPV-Volltext Stand 1.1.2026 geprüft (Fedlex, ELI cc/2000/310, Snapshot 20260101,
+de/html, 146'451 Byte — Grösse identisch mit Run 140). **Alle drei Zahlen sind CONFIRMED.
+Trotzdem waren vier Aussagen daneben falsch** — der Kernbefund des Laufs: eine Verifikation, die
+nur Zahlen vergleicht, hätte alles durchgewinkt.
+
+- **`raw/260901_amtlich_ch_rpv-art32a-36-37.md` — neu:** amtlicher Wortlaut Art. 32a, 32a-bis, 36,
+  37, 38 RPV mit voller Provenienz und Fassungsstand je Artikel.
+- **`buecher/band-2/21-bauen-ausserhalb-bauzonen.md` — vier Korrekturen** (`git diff --numstat`
+  nativ gemessen: `+60/-17`, die 17 Löschungen sind exakt die drei ersetzten Blöcke):
+  1. **Fundstelle:** die Gemüse-/Gartenbau-Schwelle 35 % / 5000 m² stand unter «Art. 36 RPV» —
+     richtig ist **Art. 37 RPV**. Art. 36 gilt ausschliesslich der **Tierhaltung** (Artikeltitel).
+  2. **Verknüpfung:** die beiden Schwellen waren mit «bzw.» verbunden und lasen sich damit
+     **alternativ**; der Erlass verbindet sie mit **«und»** — sie gelten **kumulativ**. Ein
+     Betrieb mit 30 % Anteil, aber 6000 m² erfüllt den Tatbestand **nicht**; die alte Fassung
+     hätte ihn durchgewinkt. Ausserdem beziehen sich die 35 % auf die Anbaufläche **des Betriebs**.
+  3. **Zahl ohne Grundlage:** «Deckungsbeitrag <50 %» kommt in Art. 36 **nicht vor** — Abs. 1
+     lit. a fordert einen **Vergleich** (bodenunabhängig kleiner als bodenabhängig). Die 50 %
+     stehen in **Abs. 3** als Auffangregel und hatten im Destillat ganz gefehlt (jetzt ergänzt,
+     samt Abs. 2 Standardwerte-Pflicht).
+  4. **Bezugsgrösse:** «Solaranlage nicht über den **Dachfirst** hinaus» — Art. 32a Abs. 1 lit. b
+     stellt auf die **Dachfläche in der Draufsicht** ab, nicht auf den First.
+- **Zwei Fassungsstände nachgetragen, beide nach der Buchfassung 2019 in Kraft:** Art. 32a
+  **Abs. 1bis** (Flachdach-Alternative: 1 m über Dachrand, 45-Grad-Rückversetzung, reflexionsarm)
+  und der ganz neue **Art. 32a-bis** (Solaranlagen an Fassaden, Kriterienkatalog Abs. 1 lit. a-g,
+  Zusatzanforderungen Abs. 2 inkl. 20 cm Wandabstand). Art. 32a steht teils i.d.F. vom 1.7.2022
+  (AS 2022 357), Titel/Einleitung i.d.F. vom **1.1.2026** (AS 2025 659).
+- **Phantom-Artikel ausgeräumt: «Art. 37a RPV» existiert nicht.** Die RPV geht von Art. 37 direkt
+  zu Art. 38 (Volltextsuche nach `37a`/`37 a`: null Treffer; Artikel-IDs `art_36`, `art_37`,
+  `art_38`, `art_38_a`, **kein** `art_37_a`). **Nicht zu verwechseln mit Art. 37a RPG**
+  (zonenfremde Gewerbebauten) — der existiert und ist korrekt geführt. Der Register-Sweep zeigte,
+  dass 20 der 22 «37a»-Treffer im KB das **korrekte RPG**-Zitat sind; ein mechanisches Ersetzen
+  hätte richtige Fundstellen zerstört (Fehlerfamilie Rule `bkp-2017-referenz`, «Sachbezug prüfen»).
+- **`wiki/baubewilligungsverfahren.md` (established) geschärft:** die Bundesebene unter den
+  BVV-Verweisnormen § 2a Abs. 1 lit. a/d ergänzt (materieller Gehalt Art. 32a, Abs. 1bis,
+  Art. 32a-bis, Meldeprinzip Abs. 3), neues `verifiziert`-Feld 2026-09-01, `last_updated` und
+  `sources` nachgeführt. **Die BVV selbst ist völlig intakt** — bewegt hat sich die Norm, auf die
+  sie zeigt; ein Fassungsstand-Check auf kantonaler Ebene hätte nichts gefunden (Leitplanke Run 71).
+- **Cross-KB-Bringschuld an `wissen/energie` eingelöst** (Rule `wissens-bibliothekar`): Zeiger in
+  `wiki/solarpflicht-schweiz-kantone.md` (neuer Abschnitt zur bewegten Bundesebene) und offener
+  Punkt **E-B141-1** in deren `wiki/QUESTIONS.md` — zu klären ist dort, ob § 2a Abs. 1 lit. b BVV
+  neben Art. 32a-bis RPV eigenständig fortbesteht.
+- **`training/drills.md` — zwei neue Karten (G, H):** «die Zahl stimmt, die Regel nicht» (Fundstelle
+  / und-oder / Bezugsgrösse) und die zweiteilige Verweisnorm-Prüfung am Flachdach-Solarfall.
+- **Register:** `wiki/QUESTIONS.md` (Run-140-Punkt geschlossen, drei neue Einträge),
+  `training/PROGRAMM.md` (Tracker + Phantom-Fundstelle berichtigt).
+- **Neu offen:** der per 1.1.2026 eingefügte **5a. Abschnitt RPV «Vorrang der Landwirtschaft in der
+  Landwirtschaftszone»** (zu Art. 16 Abs. 5 RPG) ist beschafft, aber inhaltlich nicht erschlossen.
+- **Betriebsbefund (kein Fachinhalt):** Der NAS-Mount brach während des Laufs **zweimal** weg
+  (SMB-Idle-Stall, verwaister `/Volumes/daten-1`-Stub). Beide Male durch
+  `scripts/ensure-nas-mounted.sh` geheilt (rc=0). **Wichtig für Folgeläufe:** der erste Ausfall
+  erzeugte einen scheinbaren Sachbefund — eine von Run 140 angelegte `raw/`-Datei schien zu fehlen.
+  Sie fehlte nicht; der Mount war weg. Ein «Datei nicht gefunden» ist zuerst eine Aussage über den
+  Mount (Rule `auto-verbesserungen` 260730b/260807).
+
 ## 2026-08-29j (Schub-Lane BAURECHT-THALWIL) — Kopfzeilen-Korrektur in der Korpus-Queue (243/13 → 234/11), kein neuer Batch
 
 Reglemente-Queue T1-T9 weiterhin vollständig **erledigt** — neunfach unabhängig bestätigt an
