@@ -4782,3 +4782,26 @@ acht Commits pro Stunde allein aus den Schub-Lanes). Arbeitsbaum danach sauber, 
 Der gemeinsame Vorfahr ist unveraendert `01204714a` vom **29.08.2026 22:04**, das Backup steht
 damit seit **34 Stunden**. Nicht selbst aufgeloest (Git-Interna, unbeaufsichtigter Lauf, fremde
 unbestaetigte Arbeit mehrerer Lanes).
+
+**NACHTRAG 31.08.2026, 13:15 zur P1-Sync-Zeile — Messung des vollgas-chef-radar.** Derselbe
+Vorgang, fuenf Stunden spaeter und nach dem Wochen-Reset: `nas-commit-now.sh` hat den
+RADAR-Eintrag dieses Laufs nativ committet, der Abgleich scheiterte erneut, diesmal an **fuenf**
+Konfliktdateien (`wissen/baurecht/CHANGELOG.md`, `wissen/normen/CHANGELOG.md`,
+`wissen/grobkosten/CHANGELOG.md`, `wissen/baurecht/training/KORPUS-QUEUE-thalwil-reglemente.md`,
+`wissen/architektur-fachwissen/wiki/protofunktional-begriff-abgrenzung-funktionalismus.md`, letztere
+als `add/add`). Divergenz nach frischem Fetch: **452 voraus / 267 nicht integriert** (08:08 waren
+es 426/267). Arbeitsbaum danach sauber, kein `MERGE_HEAD`, keine Konfliktmarker in den genannten
+Dateien; `github/main` traegt einen Kopf von heute **06:12**.
+
+Zwei Punkte, die dieser Lauf zur Lage beitraegt. **Erstens: die Wachstumsrate ist gefallen, nicht
+gestiegen.** Zwischen 07:07 und 08:08 kamen rund acht Commits pro Stunde dazu, zwischen 08:08 und
+13:15 nur noch **rund fuenf pro Stunde** — die Schub-Lanes sind seit 11:02 alle beendet, die
+`fachwissen`-Lane hat ihre Frist regulaer erreicht. Der Haupttreiber der Divergenz ist damit
+vorerst weg; sie waechst jetzt nur noch aus dem Regelbetrieb. **Zweitens: die Zahl 267 steht seit
+dem 30.08. unveraendert.** Nicht integriert wird also kein wachsender Rueckstau, sondern ein
+konstanter Block — das stuetzt die Ursachenlesart (zwei Schreibwege ab einem gemeinsamen Vorfahr)
+und spricht dafuer, dass eine einmalige, bewusste Zusammenfuehrung den Vorgang schliessen wuerde,
+sobald Raphael entschieden hat, welcher Weg fuehrt.
+
+Nicht selbst aufgeloest, unveraendert aus denselben Gruenden (Git-Interna, unbeaufsichtigter Lauf,
+fremde unbestaetigte Arbeit mehrerer Lanes; Force-Push ohnehin ausgeschlossen).
