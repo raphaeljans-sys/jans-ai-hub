@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.08.2026 07:22:44
+Stand: 31.08.2026 07:43:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 31.08.2026 07:22:44
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- ca4f4cc9d vollgas-fruehwarnung 260831: Rohblock + Bewertung, keine Mail (Kriterium b, Wiederholungsbefund)
+- eaf9aa71e nas-selfcommit: 2 Datei(en) 2026-08-31 07:30
