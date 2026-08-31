@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 31.08.2026 06:00:24
+Stand: 31.08.2026 06:10:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- /Users/raphaeljans  (letzte Aktivitaet 06:10)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- keine
+- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 45642b96b nas-selfcommit: 5 Datei(en) 2026-08-31 05:45
+- 6036583dd Fachwissen: ZÜRICHFORUM-Kongresszentrum-Jurybericht destilliert (Sektion 02_Gestalt_Kulturverstaendnis)
