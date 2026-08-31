@@ -1,15 +1,15 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.08.2026 18:11:31
+Stand: 31.08.2026 18:36:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:55)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- keine
+- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- fa0d62fe1 Synergie-Lauf 24 (31.08.): SYN-64 drei Mount-Waechter teilen die blinde Annahme /Volumes/daten, Fremdmontage daten-1 nicht heilbar (4 h Stationsblindheit); SYN-65 git-divergenz.sh nur im SKILL-Text, heartbeat-daily fuehrt das Script aus und meldet die Divergenz nie (471/267, Zaehler 555); SYN-43 nachgefuehrt; Chronik 260831
+- 08574f13a nas-selfcommit: 1 Datei(en) 2026-08-31 18:30
