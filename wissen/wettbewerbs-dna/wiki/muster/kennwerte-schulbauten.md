@@ -40,6 +40,8 @@ belegbar** — und das ist ein struktureller Befund, keine Lücke dieses Laufs:
 - Absolute GV-Werte fanden sich in **genau einer** von 25 Quellen — der eigenen
   Berechnung zu 2206 Schöntal.
 
+⚠ **Bauaufgaben-Weiche (eingeführt 31.08.2026, Etappe 4 Lauf 05):** Der folgende Konsequenz-Satz ist **bauaufgaben-abhängig** und darf beim Ableiten eines neuen `kennwerte-*`-Artikels **nicht ungeprüft mitkopiert** werden. Für **Schulbau** und **Wohnungsbau** führt `wissen/grobkosten/` für CHF/m³ (belegt), für **Healthcare** ausdrücklich **nicht** — dort führt `wissen/immobilienbewertung/wiki/realwert-sachwert.md`. Vor jeder Übernahme die Führungsmatrix in `wissen/koordination/QUERBEZUEGE.md` konsultieren. Anlass: genau dieser Satz wurde beim Ableiten von [[kennwerte-healthcare]] aus diesem Artikel mitübertragen und war dort vom 25.07.2026 bis zum 31.08.2026 falsch.
+
 Konsequenz: Für CHF/m³ bleibt die KB `wissen/grobkosten/` die führende Quelle; dieser
 Benchmark liefert stattdessen das, was in Juryberichten belegbar ist — **Flächen-
 effizienz, Programm-Mengengerüst, Kostendach-Grössenordnung und die

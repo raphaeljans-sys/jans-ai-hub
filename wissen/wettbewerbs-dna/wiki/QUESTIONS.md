@@ -3,6 +3,31 @@
 Stand: 27.07.2026 (Wohnungsbau B4+B6 abgeschlossen; Verfahrens-Sonderfaelle-Frage und
 Extrakt-Grenze Koch-Areal geklaert, fehlende 1. Stufe Walkeweg bleibt offen)
 
+## Geloest 31.08.2026 (Etappe 4, Lauf 05)
+
+- [x] **Healthcare-Ausnahme in der Standardformel — Ursache behoben, nicht nur der Einzelfall.**
+  Der Punkt vom 27.08.2026 (unten) ist erledigt. Drei Massnahmen: (1) Die drei Stellen in
+  `wiki/muster/kennwerte-healthcare.md` sind **richtiggestellt** — die Praezisierung vom 27.08.
+  war rein additiv, der falsche Satz blieb daneben woertlich stehen, sodass der Artikel sich
+  selbst widersprach. (2) Alle drei `kennwerte-*`-Artikel tragen jetzt eine ⚠ **Bauaufgaben-Weiche**
+  vor dem Konsequenz-Satz. (3) `CLAUDE.md` der KB hat eine **Ableitungs-Regel** erhalten: es gibt
+  kein Template, ein neuer Muster-Artikel wird faktisch aus dem Vorgaenger abgeleitet — jede
+  Fuehrungsaussage ist vor der Uebernahme gegen `wissen/koordination/QUERBEZUEGE.md` zu pruefen.
+  Nebenbefund desselben Laufs: `wiki/INDEX.md` trug an zwei Healthcare-Stellen dieselbe falsche
+  Formel, ebenfalls berichtigt. Beleg: `outputs/2026-08-31_etappe4-vertiefung-05.md`.
+
+## Offen (neu 31.08.2026, Etappe 4 Lauf 05)
+
+- [ ] **Ausstellungsdatum der Schulrats-Verfuegung 2206 Schoental am Original klaeren.**
+  `outputs/2026-07-12_rang-klaerung-2102-2206.md` nennt in der Quellenzeile den **17.11.2022**,
+  der Dateiname `221109_Entscheid_Schoental_Altstaetten.pdf` kodiert nach Hub-Konvention (YYMMDD)
+  aber den **09.11.2022**; der Rohextrakt traegt keinen OCR-Text, das Dossier
+  `wiki/teilnahmen/2206-schoental.md` nennt kein Datum. Acht Tage Widerspruch in derselben
+  Zitatzeile. **Der Rang selbst ist davon nicht beruehrt** (3. Rang / 3. Preis ist mehrfach
+  unabhaengig belegt) — offen ist allein das Datum. Bis zur Klaerung am Original-PDF wird es
+  nirgends beziffert (so gehandhabt in `CLAUDE.md`, Abschnitt Goldstandards). Gefunden vom
+  Refuter in Lauf 05.
+
 ## Offen (neu 27.08.2026, Wissens-Chef Run 45)
 
 - [ ] **Healthcare-Ausnahme in der Standardformel des Muster-Templates.** `wiki/muster/kennwerte-healthcare.md`

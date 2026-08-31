@@ -64,6 +64,8 @@ Schweizer Wohnungsbau-Juryberichten **nicht belegbar**:
   S. 66) — kein Absolutwert.
 - **Kosten je Wohnung** publiziert keiner der acht Berichte.
 
+⚠ **Bauaufgaben-Weiche (eingeführt 31.08.2026, Etappe 4 Lauf 05):** Der folgende Konsequenz-Satz ist **bauaufgaben-abhängig** und darf beim Ableiten eines neuen `kennwerte-*`-Artikels **nicht ungeprüft mitkopiert** werden. Für **Schulbau** und **Wohnungsbau** führt `wissen/grobkosten/` für CHF/m³ (belegt), für **Healthcare** ausdrücklich **nicht** — dort führt `wissen/immobilienbewertung/wiki/realwert-sachwert.md`. Vor jeder Übernahme die Führungsmatrix in `wissen/koordination/QUERBEZUEGE.md` konsultieren. Anlass: genau dieser Satz wurde beim Ableiten von [[kennwerte-healthcare]] aus diesem Artikel mitübertragen und war dort vom 25.07.2026 bis zum 31.08.2026 falsch.
+
 **Konsequenz:** Für CHF/m³ bleibt die KB `wissen/grobkosten/` die führende Quelle. Anders als
 bei den beiden anderen Bauaufgaben liefert dieser Benchmark aber wenigstens einen **echten,
 mehrfach gestützten CHF/m²-HNF-Korridor** (Abschnitt 3) — aus einer einzigen Auslobung

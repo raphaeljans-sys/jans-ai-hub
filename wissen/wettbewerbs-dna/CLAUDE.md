@@ -51,8 +51,44 @@ mit Quelle (Pfad + Seite). Vollstaendige Pfade ausschreiben (Regel 260619). Frem
 Projekte/Juryberichte nur sinngemaess, Zitate kurz (Urheberrecht). Nichts erfinden;
 Luecken nach `wiki/QUESTIONS.md`.
 
+## Ableitungs-Regel fuer `wiki/muster/`-Artikel (Bauaufgaben-Weiche, 31.08.2026)
+
+Es gibt **kein** Template fuer die `muster/kennwerte-*`- und `muster/jury-argumente-*`-Artikel;
+ein neuer Artikel wird faktisch aus dem zuerst geschriebenen abgeleitet (Reihenfolge Schulbau
+20.07. → Healthcare 25.07. → Wohnungsbau 27.07.2026). **Genau dabei wandern bauaufgaben-
+abhaengige Saetze unbemerkt mit.** Belegter Fall: die Standardformel «fuer CHF/m3 fuehrt
+`wissen/grobkosten/`» ist fuer Schulbau und Wohnungsbau richtig, fuer **Healthcare falsch**
+(dort fuehrt `wissen/immobilienbewertung/wiki/realwert-sachwert.md`) — sie stand vom 25.07.
+bis zum 31.08.2026 dreimal falsch in `muster/kennwerte-healthcare.md`.
+
+Darum gilt beim Ableiten oder Erweitern eines Muster-Artikels:
+
+1. **Jede Fuehrungsaussage** («fuehrend ist KB X», «Wahrheit liegt bei Y») wird gegen die
+   Fuehrungsmatrix in `wissen/koordination/QUERBEZUEGE.md` geprueft, bevor sie uebernommen
+   wird — nie aus dem Vorgaengerartikel uebernehmen.
+2. Ist die Aussage bauaufgaben-abhaengig, wird sie im Zielartikel als **Bauaufgaben-Weiche**
+   markiert (⚠-Block direkt vor dem Satz, wie in `kennwerte-schulbauten.md`,
+   `kennwerte-healthcare.md`, `kennwerte-wohnungsbau.md` seit 31.08.2026).
+3. Dasselbe gilt fuer **Kennwert-Baender**: Vorbehalte und Nicht-Reproduzierbarkeiten der
+   Quelle wandern mit dem Wert mit, nicht nur der Wert (Beispiel: 826–1'420 CHF/m3 GV gilt,
+   der reproduzierbare Rohband 826–1'285 ist ausdruecklich **kein** geltender Band).
+
+Kuenftige Kandidaten, an denen die Regel greift: eine vierte Bauaufgabe «Gewerbe/Buero» und
+ein sechster Healthcare-Subtyp «ambulante Praxisbauten» (beide Entscheid Raphael, offen).
+
 ## Goldstandards
 
-Die beiden **2. Plaetze 2102 Muttenz und 2206 Schoental** sind die Goldstandard-Dossiers
+Die Dossiers **2102 Muttenz und 2206 Schoental** sind die Goldstandard-Dossiers
 (Aussage Raphael 12.07.2026): an ihnen wird das maschinelle Wettbewerbs-Prozedere
 geschaerft, weil dort das Delta zum Sieg dokumentiert ist.
+
+⚠ **Rang-Korrektur 31.08.2026 (Etappe 4, Lauf 05):** Hier stand bis heute «die beiden
+**2. Plaetze** 2102 Muttenz und 2206 Schoental». Das ist der belegte Rang-Stolperstein dieser
+KB an seiner Wurzel — an der Stelle, die jeder Lauf zuerst liest. Belegt gilt:
+**2102 Muttenz = 4. Rang / 3. Preis** (Jurybericht S. 15) und **2206 Schoental = 3. Rang /
+3. Preis** (Schlussbericht S. 11, amtlich bestaetigt durch die Verfuegung des Schulrats
+Altstaetten, Dokument `221109_Entscheid_Schoental_Altstaetten.pdf`; das Ausstellungsdatum
+ist quellenintern widerspruechlich — Dateiname 09.11.2022 gegen Quellenzeile 17.11.2022 —
+und wird darum hier NICHT beziffert, siehe `wiki/QUESTIONS.md`). Massgeblich sind allein `wiki/INDEX.md` und
+`outputs/2026-07-12_rang-klaerung-2102-2206.md` — nie Gedaechtnis, Rule oder Memory. Die
+Goldstandard-Eigenschaft haengt am dokumentierten Delta zum Sieg, nicht am Rang.
