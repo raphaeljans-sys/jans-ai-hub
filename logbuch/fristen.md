@@ -4805,3 +4805,36 @@ sobald Raphael entschieden hat, welcher Weg fuehrt.
 
 Nicht selbst aufgeloest, unveraendert aus denselben Gruenden (Git-Interna, unbeaufsichtigter Lauf,
 fremde unbestaetigte Arbeit mehrerer Lanes; Force-Push ohnehin ausgeschlossen).
+
+**NACHTRAG 31.08.2026, 20:2x zur P1-Sync-Zeile — Messung des tenant-hygiene-Laufs: 484 voraus /
+267 nicht integriert.** Derselbe Vorgang, sieben Stunden nach der 13:15-Messung.
+`nas-commit-now.sh` hat den Hygiene-Report `tenant-hygiene/reports/260831-hygiene.md` nativ
+**committet** (`faf5e56b8`, 20:24:46) — der anschliessende Abgleich scheiterte erneut, an denselben
+fuenf Konfliktdateien wie um 13:15 (`wissen/baurecht/CHANGELOG.md`, `wissen/normen/CHANGELOG.md`,
+`wissen/grobkosten/CHANGELOG.md`, `wissen/baurecht/training/KORPUS-QUEUE-thalwil-reglemente.md`,
+`wissen/architektur-fachwissen/wiki/protofunktional-begriff-abgrenzung-funktionalismus.md` als
+`add/add`), dazu `wissen/architektur-fachwissen/wiki/QUESTIONS.md`.
+
+**Eigene Nachmessung nativ per ssh auf der Synology**, weil der Script-Output (rc=1,
+«Automatic merge failed») fuer sich genommen wie ein gescheiterter Commit aussieht und es nicht
+ist: HEAD steht auf meinem Commit, Arbeitsbaum sauber, **kein `MERGE_HEAD`, null Konfliktdateien**
+(`git status --porcelain | grep -E '^(UU|AA|DD|AU|UA|DU|UD)'` → 0). Das Script setzt weiterhin
+vollstaendig zurueck statt halb aufzuloesen. Wer nur den rc liest, meldet faelschlich einen
+Datenverlust.
+
+**Zwei Zahlen zur Lage.** Erstens: die Divergenz steht auf **484/267** (13:15 waren es 452/267),
+also rund **sechs Commits pro Stunde** — die 13:15 gemessene Verlangsamung auf fuenf pro Stunde
+haelt an, der Regelbetrieb allein traegt sie. Zweitens: **267 steht den zweiten Tag unveraendert**,
+und der letzte gemeinsame Stand ist weiterhin `01204714a` vom **29.08.2026 22:04** — die Divergenz
+ist damit heute Abend rund **46 Stunden** alt. `github/main` traegt unveraendert den Kopf von heute
+06:12 (`66df04125`, «auto-sync [Macmini]»).
+
+**Praktische Folge fuer diesen Lauf:** der Hygiene-Report vom 31.08. liegt ausschliesslich auf dem
+NAS. Damit sind alle Hygiene-Reports seit dem 29.08. nicht im GitHub-Backup — der dritte Tag in
+Folge. Inhaltlich betrifft das heute den bislang groessten Tageswert der Reihe (+7.93 GB, davon
+99.4 % Versionsverlauf auf JANS.PROJEKTE).
+
+Nicht selbst aufgeloest, unveraendert aus denselben Gruenden (Git-Interna, unbeaufsichtigter Lauf,
+fremde unbestaetigte Arbeit mehrerer Lanes in genau den Konfliktdateien; Rule
+`interaktive-eingriffe` Punkt 3, Rule `auto-verbesserungen` 260811 Punkt 3).
+| Eigene Messung 31.08.2026 20:2x nativ per ssh auf der Synology (`git status -sb`, `git merge-base HEAD github/main`, `git status --porcelain`) | Hub-Infrastruktur / alle Stationen | **hoch (P1)** | offen — Einzelentscheid Raphael |
