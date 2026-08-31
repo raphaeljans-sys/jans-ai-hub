@@ -53,6 +53,67 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-01 00:57 — [FREI] **P1 ESKALIERT: die Sicherungskette hat seit 19 Stunden gar nichts mehr erhalten. GitHub-Kopf und BEIDE SSD-Klone stehen auf demselben Commit vom 31.08. 06:12, waehrend die Synology auf 510 nicht gesicherte Commits angewachsen ist. Die Nacht selbst lief einwandfrei: Fenster frei, Kontingent bei 2.4 %, vier Loops mit echtem Liefer-Delta, kein Leerlauf.**
+
+**Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **00:57** (2026-08-31T22:57:48Z), letzter Eintrag **31.08. 12:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h. Zweiter Ausfalltyp nicht zu pruefen, kein Lauf fehlt.
+
+**Fenster FREI in 98 Sekunden, PATH-Probe zum sechsten Mal in Folge nicht versucht.** Der Symlink `/opt/homebrew/bin/claude` zeigt unveraendert seit **29.08. 05:15** auf die gewedgte **2.1.236**; Homebrew hat in **vier Tagen** nichts nachgeliefert (frueherer Wedge dauerte zwei Tage, der vom 22.08. drei). Die app-gebuendelte **2.1.247** antwortete mit «OK», **rc=0, 98 s**. Der Umweg hat erneut 180 Sekunden und einen irrefuehrenden rc=137 erspart. Die Empfehlung vom 30.08. (Probe fest auf die App-CLI umstellen) steht damit im sechsten Lauf unveraendert — Entscheid Raphael, ich editiere die laufende Task-Datei nicht selbst.
+
+**Kontingent FREI, Verbrauch hinter dem Zeitverlauf.** `kontingent-budget.sh`: **3.94 von 167 Mio teuer (2.4 %)** bei **7.7 %** verstrichener Woche, Vorsprung **−5.4 Punkte**, beide Stationsdateien frisch (MacBook Pro 3.14 Mio, Mac Mini 0.80 Mio). Keine Drossel ausgeloest, keine zurueckzudrehen. Schritt 2c bleibt unberuehrt.
+
+### P1 — die Sicherung nach GitHub ist nicht mehr nur divergent, sie ist stehen geblieben
+
+Bisher lautete der Befund «zwei Schreibwege, beide Seiten wachsen, kein Datenverlust». **Die zweite Haelfte dieses Satzes stimmt seit dem 31.08. 06:12 nicht mehr.** Gemessen um 01:00 nach frischem Fetch (`FETCH_HEAD` 01.09. 01:00:10):
+
+| Ort | Kopf | Stand |
+|---|---|---|
+| Synology (NAS, kanonisch) | `34362aa36` | 01.09. 01:00 — **510 voraus / 267 zurueck** |
+| GitHub `github/main` | `66df04125` | **31.08. 06:12** — seit 19 h kein Push |
+| SSD-Klon Mac Mini | `66df04125` | **31.08. 06:12**, Arbeitsbaum sauber (0 Aenderungen) |
+| SSD-Klon MacBook Pro | `66df04125` | **31.08. 06:12** |
+
+**Damit existiert die gesamte Wissensarbeit seit dem 31.08. 06:12 an genau einem Ort.** Betroffen sind unter anderem `energie` Run 171, `baurecht` Buch-Run 141, `wissens-chef` Run 49 und der Nachtschicht-Lauf 23:30 — alle vier haben heute Nacht geliefert, und keine ihrer Zeilen liegt ausserhalb der Synology. Die 267 GitHub-only-Commits sind ausnahmslos `auto-sync [Macmini]`-Commits vom **29.08. 22:05 bis 31.08. 06:12**; danach hat auch dieser Weg aufgehoert zu schreiben. Der Mini-Klon ist dabei **nicht blockiert**, sondern schlicht nicht mehr vorwaerts gekommen: sauberer Arbeitsbaum, keine offenen Aenderungen. Er kann nicht fast-forwarden, weil die Historien auseinanderlaufen, und er faellt still.
+
+**Nicht eigenmaechtig aufgeloest**, aus demselben Grund wie in allen Vorlaeufen: eine Vereinigung von 510 gegen 267 Commits ueber fremde, unbestaetigte Arbeit ist genau der Fall, den Rule `interaktive-eingriffe` dem unbeaufsichtigten Lauf verbietet. Die Ursache ist ausserdem bereits benannt und braucht keine weitere Diagnose, sondern einen Entscheid: **Befund B6** in `docs/konzepte/260830-Laufzeitschicht-Umbau/SPEC.md` (`dispatch-run.sh` Zeile 33 pinnt das Arbeitsverzeichnis auf den SSD-Klon statt auf den NAS-Pfad). Wer die Divergenz aufloest, ohne B6 zu beheben, hat sie in wenigen Tagen erneut.
+
+**Verlauf der Messreihe:** 3/50 → 31/13 → 42/19 → 68/34 → 267/452 (30.08. 13:15) → 396/266 (31.08. 02:50) → 503/267 (01.09. 00:0x) → **510/267 (01.09. 01:00)**. Neu ist nicht die Zahl links, sondern dass die Zahl rechts seit 19 Stunden **eingefroren** ist. Nachtrag im Fristen-Register gesetzt.
+
+### Liefer-Delta: vier Loops haben geliefert, kein Delta-Null-Befund
+
+Ueber git gemessen (Basis `2026-08-31 12:00`, nicht `find -newermt`): **69 Commits im 14-h-Fenster, 44 geaenderte Dateien**, davon in `wissen/` — **energie 23**, **baurecht 9**, **koordination 7**, **claude-code 3**, dazu `twin` und `normen` je 1.
+
+| Loop | Lauf | Delta |
+|---|---|---|
+| `energie-training` (Mini) | Run 171 | AHB-Merkblatt 384 Beleuchtung Hallenbaeder destilliert, F263/F264, E-R169-2 als Fehl-Offen geschlossen, Cross-KB N-E171-1 an `normen` |
+| `baurecht-buch-training` | Buch-Run 141 | RPV-Schwellengruppe geschlossen (Art. 32a/36/37, Stand 1.1.2026), 3 Zahlen CONFIRMED, 4 Regelfehler korrigiert, Phantom-Artikel 37a ausgeraeumt |
+| `wissens-chef` | Run 49 | 4 Nullbefunde, 2 teilweise, 1 widerlegt (eigener Eingriff zurueckgenommen), links-Schema 13/394 nachgemessen |
+| Nachtschicht Mini 23:30 | `dispatch-versuch1` | dritte Grundkontext-Messung (132'245 B), QUESTIONS Punkt 3 in `claude-code` fortgeschrieben |
+
+Alle mit **rc=0**. Die beiden Twin-Loops (03:40 / 05:45) und `normen-training-nacht` (01:28) haben im gemessenen Fenster gar nicht gefeuert und sind deshalb **nicht** als Delta-Null zu werten. Keine Ruecktakt-Empfehlung, keine Stilllegung.
+
+**Schub-Lanes: unveraendert still und geordnet.** `fachwissen` seit 31.08. 11:02 («Frist erreicht — beende»), `synobsis` 30.08. 08:22, `normen-pruefstand` / `baurecht-thalwil` / `grobkosten` seit 30.08. 01:1x mit regulaerem «SCHUB ENDE». Kein `vollgas-schub`-Prozess auf beiden Stationen.
+
+**Feuermechanismen, alle drei Orte geprueft.** MacBook Pro: kein vollgas-Job geladen, beide `*.disabled-260729`-plists unberuehrt, **keine** `claude -p`-Waise. Mac Mini: `ch.jans.nachtschicht` geladen, `ch.jans.vollgas-supervisor.plist.disabled-260729` unberuehrt, Registry vollstaendig mit den acht Sollstand-Tasks. Beide STOP-Dateien unveraendert seit **29.07. 02:51**. **Der stehende Entscheid vom 30.07.2026 ist gewahrt.**
+
+### P2 — der NAS-Mount ist waehrend dieses Laufs zweimal weggebrochen, und mein erster Reparaturversuch war der falsche
+
+Der Startup-Hook meldete «nicht gemountet», die Gegenprobe sagte MOUNTED, und im ersten Messblock fielen dann `git log` und das Lauf-Journal mit «no such file or directory» aus, waehrend `sed` auf derselben Freigabe zwei Sekunden vorher noch gelesen hatte. Bekanntes Muster (`project_nas_mount_haerten`, SMB-idle-Stall).
+
+**Die Lehre betrifft die Reparatur, nicht den Ausfall.** Ich habe zuerst `osascript -e 'mount volume "smb://diskstation918…"'` abgesetzt. Das haengt die Freigabe unter einem **neuen** Namen ein: es entstand `/Volumes/daten-2` (Tailscale), waehrend `com.jans.nas-auto-mount` parallel `/Volumes/daten` ueber die LAN-IP 192.168.1.10 wiederherstellte. Zwei Mounts derselben Freigabe, und der Pfad, auf den alle Scripts zeigen, war dabei reine Glueckssache. Erst `bash scripts/ensure-nas-mounted.sh` stellte den Sollzustand her (rc=0, `/Volumes/daten` ueber LAN). **Merksatz: den Mount immer mit dem Guard-Script reparieren, nie mit einem blanken `osascript mount volume` — das Guard-Script belegt `/Volumes/daten`, das osascript erzeugt einen Parallelmount unter neuem Namen.** Gleiche Familie wie die `find -newermt`-Falle vom 20.08.: das Werkzeug tut etwas anderes als erwartet und meldet dabei Erfolg.
+
+**Rueckstand: `/Volumes/daten-1` liegt weiterhin da** (Verzeichnis vom 31.08. 18:06, `ls` gibt «Permission denied», in `mount` nicht aufgefuehrt). Es ist der Rest eines frueheren Abrisses, blockiert derzeit nichts, sollte aber bei Gelegenheit abgeraeumt werden — das braucht `sudo` und damit Raphael.
+
+**Speicher:** 2.62 GB frei+inaktiv+purgeable, `kern.memorystatus_vm_pressure_level` = **2** (Warnstufe). Erhoeht, nicht kritisch; `ch.jans.speicher-waechter` ist geladen. Nach vm_stat gemessen, nicht ueber top oder ps-RSS.
+
+### Prioritaeten
+
+- **P1 — Sicherungskette entscheiden, nicht weiter messen.** 510 Commits ohne Zweitkopie, GitHub und beide Klone seit 19 h eingefroren. Zwei Teile: (1) die Vereinigung selbst, die ein Urteil ueber fremde Arbeit verlangt, (2) Befund **B6** der Laufzeitschicht-Spec, ohne dessen Behebung dasselbe in Tagen wiederkehrt. Beides braucht Raphael.
+- **P2 — Probe fest auf die app-gebuendelte CLI umstellen.** Sechster Lauf in Folge, in dem der dokumentierte Pflichtweg der Task nicht der tatsaechlich benutzte ist. Ein Zweizeiler in der Task-Datei; ich editiere sie auftragsgemaess nicht selbst.
+- **P3 — `/Volumes/daten-1` abraeumen** (sudo) und den Merksatz zum Guard-Script in `project_nas_mount_haerten` nachtragen.
+
+**Keine Mail.** Kein geloester P1, kein erschoepftes Wochenkontingent, und der Sync-Befund ist derselbe, fuer den eine Wiederholungsmail seit dem 30.08. ausdruecklich ausgeschlossen ist. Die Eskalation ist scharf, aber sie erreicht Raphael um **06:55** ueber das Fristen-Register und um **08:39** im Tagesbriefing des Hub-Chefs — eine zusaetzliche Nachtmail um 01:15 bringt sieben Stunden frueher nichts, was er um diese Zeit tun koennte. **Regellauf schlank gehalten:** keine Delegation, Messungen inline und parallel, rund 16 Werkzeugaufrufe; die drei Zusatzaufrufe gingen an den konkreten Sync-Befund, wie es der Auftrag fuer Tiefenpruefungen vorsieht.
+
+---
 ## 2026-08-31 12:57 — [FREI] **Wochen-Reset vollzogen: das Kontingent steht wieder bei 167 Mio, verbraucht sind 0.1 %. Die Vorwoche endete bei 85 % — rund 25 Mio «teuer» sind um 12:00 ungenutzt verfallen. Alle fuenf Schub-Lanes stehen still, aber geordnet: `fachwissen` hat um 11:02 seine Frist regulaer erreicht und sich selbst beendet. Kein Leerlauf, kein Eingriff.**
 
 **Selbstkontrolle: bestanden, sauber gemessen.** `lastRunAt` dieser Task **12:57**, letzter Eintrag **00:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h. Der Vorlauf hatte angemerkt, dass die Regel das ENDE des Vorlaufs mit dem START des aktuellen vergleicht; hier faellt das nicht ins Gewicht, weil der 00:57-Lauf seinen Eintrag zeitnah schrieb. Zweiter Ausfalltyp nicht zu pruefen, kein Lauf fehlt.

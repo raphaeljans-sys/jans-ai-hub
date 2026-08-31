@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 00:40:25
+Stand: 01.09.2026 01:16:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:30)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:06)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 00:40:25
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cd0b567ee baurecht Buch-Run 141: Report + Fristen-Nachtrag (Backup-Divergenz 507/267, 15 Konfliktdateien gemessen)
+- d8a7ea0e6 nas-selfcommit: 3 Datei(en) 2026-09-01 01:15
