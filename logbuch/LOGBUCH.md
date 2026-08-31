@@ -3,6 +3,41 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht Mac Mini 31.08.2026 (13:3x, Einzelagent, Prioritaet 1 dann 4)
+
+**Sync-Queue abgearbeitet.** Commit-Anfrage von Macbookpro (`twin-fidelity-review: 2026-08-31`)
+ausgeloest und verifiziert (`b589512f3` nativ auf der Synology, Task nach `sync-tasks/done/`
+verschoben). Die Pendenz «Laufzeitschicht-Umbau Phasen 0-2» bleibt bewusst unberuehrt — sie ist
+seit 30.08. 08:41 von der erstellenden Session selbst angehalten (Spec-Befund B6: `dispatch-run.sh`
+pinnt das Arbeitsverzeichnis auf den SSD-Klon, ein Lauf dort würde den zu untersuchenden Befund
+reproduzieren statt ihn zu prüfen). **Gemessener Nebenbefund:** die P1-Sync-Divergenz auf der
+Synology wächst weiter (455 voraus/267 zurück gegen GitHub, zuletzt 452/267 um 18:1x am 30.08.
+registriert) — nicht selbst aufgeloest, bereits als P1 im Register geführt.
+
+**Prioritaet 4 (Trainingslektion), KB energie gewaehlt** nach Ausschlussdurchsicht aller
+`wissen/*/training/PROGRAMM.md`: bauprodukte (ERLEDIGT seit 15.08.), grobkosten (Endbedingung
+erreicht, 0 offene Inventarzeilen), baurecht/normen (eigener woechentlicher/taeglicher Taktgeber),
+planungsgrundlagen (UMGEWIDMET zu MAINTAINER), projekt-lessons (AUSGESETZT seit 05.08.),
+wettbewerbs-dna/immobilienbewertung/spec (Ereignis-Trigger bzw. bereits heute bedient) —
+`energie` blieb als einzige freie, faellige KB.
+
+**Ergebnis (Run 170):** E-R169-1 aus dem Vorlauf abgearbeitet — StromVG Art. 17a (Messtarife pro
+Messpunkt, Fassung 1.1.2026) am Fedlex-Volltext destilliert (`destillate/
+messtarife-pro-messpunkt-stromvg-2026.md`, neu), BAUHERREN-FAQ F262, Themenartikel
+`pv-eigenverbrauch-zev.md` gewachsen. **Nebenfund:** der zweite Teil desselben Punktes
+(Rueckliefervergütung nach Art. 15 EnG/Art. 12 EnV/Art. 15 EnFV) war entgegen der Einschaetzung
+des Vorlaufs gar nie offen — bereits seit 17.07.2026 in einem anderen Destillat vollstaendig
+erfasst, nur nicht von dort aus verlinkt; jetzt korrigiert und verknuepft. Beleg: `wissen/energie/
+outputs/2026-08-31_energie-run170.md`, CHANGELOG-Eintrag gesetzt, `wiki/QUESTIONS.md` E-R169-1
+geschlossen.
+
+**Commit nativ auf der Synology** (`ad2d6e675`, per `nas-commit-now.sh`, Merge-Konflikt-Meldung
+des Scripts war ein Fehlalarm — Gegenprobe per ssh zeigt sauberen Arbeitsbaum und den Commit in
+der Historie).
+
+**Nicht ausgefuehrt:** kein Versand, keine Buchung, keine Loeschung, kein Eingriff in die
+Sync-Divergenz oder die angehaltene Laufzeitschicht-Pendenz.
+
 ## Radar-Briefing 31.08.2026 (06:55, Kanal Logbuch, Weitergabe durch den Hub-Chef um 08:39)
 
 **Lagebild in einem Satz:** Der Tag trägt drei Termine und zwei Entscheide mit Tagesfrist, und die
