@@ -4,6 +4,46 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-31 — twin-mail-training Batch 110: `Drafts` Seite 2, fuenf Golds, Anrede-Bewegung «Dear» → «Hi»
+
+**Raw:** `raw/260831-mailbatch-110.md`. **Fenster:** `rj@` Sent Items ab 30.08.2026
+(`totalResultCount: 2`, beide Hub-Selbstmails, kein Gold) + `Drafts` Seite 2 von 5
+(`order: oldest`, `offset: 25`, 25 von 124 Eintraegen, Zeitraum 11.11.2025–09.04.2026).
+**5 Golds `authentisch`**, 4 im Volltext, 1 aus dem Zitat-Stack; Gratis-Vorfilter sparte 14 von
+25 `read_resource`-Aufrufen. Kanaltrennung je Stueck ueber die `internetMessageId`.
+
+**Metrik ueber alle fuenf Golds (422 W.):** Du-Gross-Quote 1.0 (4/4) · `unterstrich_bullets: 5` ·
+Satzlaenge 19.2 W. · Anreden Hoi Lukas / Hoi Albin / Geschätzter Herr / Sehr geehrter Herr ·
+Gruesse «Lieber Gruss» und «lgr».
+
+**Vier Befunde, die bestehende Saetze praezisieren, statt neue anzuhaengen:**
+1. **Beziehungsregister:** die englische Anrede an den Webprogrammierer war am **10.02.2026**
+   «**Dear Hlep,**» mit «**Kind regards**» — sechs Tage vor dem in Rule `anrede-kontakte`
+   genannten «Hi Hleb»-Erstbeleg. Bewegung `Dear` → `Hi`; die Rule ist unvollstaendig, nicht
+   falsch. → [[beziehungsregister]], [[QUESTIONS]] 260831 #1.
+2. **Beziehungsregister:** zweiter Beleg des Anrede-Fehlgriffs **aus der Exchange-
+   Verzeichnisform** (dreimal «Herr Valentin» an eine Frau, einmal «Guten Tag Valentin Michelle
+   Amanda»); gleiche Familie wie «Herr Mustafa» (Batch 100). → [[QUESTIONS]] 260831 #2.
+3. **Beziehungsregister:** die Anrede-Stufe wandert bei **Rechtsverbindlichkeit** nach oben,
+   ohne Geldbezug — «Guten Tag» → «Geschätzter» → «Sehr geehrter» beim selben Empfaenger in gut
+   zwei Stunden. Oberbegriff ist das Anlassgewicht, Richtung **formeller, nicht waermer**;
+   praezisiert Batch 109 Kernbefund 12.
+4. **Denken:** «**Frage:**» ist ein **Anliegen-Anker, keine Frage** — das Wort steht vor dem
+   Kontextabsatz, die Bitte folgt zwei Absaetze spaeter ohne Fragezeichen. Zweiter, aelterer
+   Beleg (30.01.2026) als der aus Batch 109.
+
+**Neue Formmarker:** Aenderungs-Diff «Vorher: … / Neu: …» statt Prosa ([[arbeitsweise]]) ·
+Unterstrich als Aufzaehlungszeichen ([[stimme]]) · «Kind regards» und «lgr» als Grussformen
+([[stimme]]) · nachgereichter Konditional-Zielsatz ([[denken]]) · «wir» traegt das Koennen,
+«ich» traegt die Luecke ([[haltung]]) · HR-Schreibweise und Eingabequittungs-Verfahren
+wortgetreu ([[fachsignatur]]).
+
+**Auto-Block-Reserve — gemessen:** `build_dna.py` meldet **33'952 B von 34'000, also 48 B
+Reserve** (unveraendert seit Batch 108); Kompilation «bereits aktuell (keine Aenderung)»,
+`rules/jans-dna-facetten.md` md5-gleich vor und nach dem Lauf (`ca3b827b…`). **Fuenfter Lauf in
+Folge ohne Wirkung aufs Gehirn** — Batch-Abschnitte erreichen den Auto-Block nicht, nur
+Do/Don't-Bloecke tun das, und deren naechste Erweiterung bricht am Riegel ab.
+
 ## 2026-08-30 — twin-fidelity-review: Fidelity 28, vier neue Formmarker, Riegel 4. Lauf ohne Wirkung
 
 **Report:** `outputs/2026-08-30_fidelity.md`. **Golds** (alle vor-Claude, Sent Items November

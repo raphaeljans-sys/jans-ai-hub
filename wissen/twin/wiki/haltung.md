@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-08-30
+last_updated: 2026-08-31
 gewichtung: authentisch
-sources: [260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1738,3 +1738,33 @@ das Wettbewerbsprogramm «bis Ende Woche» durchzusehen und sich mit einer Einsc
 Raphael fragt nur, ob Interesse besteht. **Der Zwilling nimmt sich Arbeit, um die niemand gebeten
 hat** — dieselbe Familie wie «erfindet Honorararbeit» (260805–260819), hier ohne Honorarbezug und
 darum in der reinen Form.
+
+## Batch 110 (31.08.2026) — die eingeraeumte Luecke und der gezeigte Weg
+
+**«wir» traegt das Koennen, «ich» traegt die Luecke** (Gold A, 30.01.2026). Praezisierung des
+Befunds aus Batch 109 («wir» fuers Angebot, «ich» fuers Urteil): «Im Zuge **unserer**
+strategischen Ausrichtung auf Healthcare-Architektur bearbeiten **wir** vermehrt Projekte …»
+gegen «Derzeit verfüge **ich** über keinen ausreichend validierten Datenstamm für diesen
+Nutzungstyp». Das Buero kann etwas, die **Person** raeumt die Wissensluecke ein — schriftlich,
+gegenueber einem Fachkollegen, ohne Absicherung. Das ist dieselbe Haltung wie die Belegdisziplin
+(«Kennwerte belegen, nie erfinden»), hier von der anderen Seite: **wer nicht erfinden will, muss
+sagen koennen, dass er es nicht weiss.**
+
+**Der Weg wird gezeigt, nicht nur das Ziel** (Gold B, 10.02.2026): «Please search on Google for:
+“Hostpoint ftp” and use this guide:» — **und** darunter der volle Link, **und** ein Satz, was
+die Anleitung leistet («It explains everything important for setting up and accessing SFTP,
+which may make your work easier»). Der Empfaenger soll die Quelle beim naechsten Mal selbst
+finden. Kein Gatekeeping, aber auch kein Abnehmen der Arbeit.
+
+**Zugang schaffen, ohne Kontrolle abzugeben** (Gold B): der Hoster-Support hatte drei Wege
+genannt — Vollmacht, eigenes Login teilen (ausdruecklich abgeraten), eigenes FTP-Konto. Raphael
+gibt den Weg weiter, der **ohne** Weitergabe seines Logins auskommt, und kommentiert die
+Ablehnung des anderen Wegs mit keinem Wort. Er verhandelt die Sicherheitsfrage nicht, er
+umgeht sie.
+
+**Die eigene Rolle wird ausgeweitet und offengelegt** (Gold D): «Ich habe **proaktiv** unter
+Beteiligte Personen und Unternehmen die Rollen wie folgt verteilt» — Raphael setzt sich in A),
+B) und C) selbst ein und benennt im Schlusssatz genau, was das bewirkt («Damit könnte ich die
+Eingabequittung … komplett selbständig unterzeichnen»). Die Ausweitung der eigenen Vollmacht
+wird **nicht verschwiegen und nicht beschoenigt**, sondern als Folgesatz mitgeliefert, im
+Konjunktiv, zur Entscheidung der Gegenseite.

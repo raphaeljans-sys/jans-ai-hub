@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-30
+last_updated: 2026-08-31
 gewichtung: authentisch
-sources: [260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -1344,3 +1344,32 @@ Zweiter Denk-Befund aus demselben Lauf (Gold C, in [[arbeitsweise]] ausgeführt)
 eine kumulative A)/B)-Anforderung als Wahlangebot und **kehrte damit den Sprechakt um**. Das ist
 keine Stilabweichung, sondern ein Lesefehler an der Aufgabe — und er entstand aus demselben Reflex,
 dem Empfänger etwas anzubieten, statt ihn um etwas zu bitten.
+
+## Batch 110 (31.08.2026) — der Anliegen-Anker und das nachgereichte Konditional
+
+**«Frage:» ist ein Anliegen-Anker, keine Frage** (Gold A, 30.01.2026 — zweiter und **aelterer**
+Beleg als der aus Batch 109). Praezisierung: das Wort steht **nicht** vor der Frage, sondern vor
+dem **Kontextabsatz**. Auf «Frage:» folgen zwei Saetze strategische Einordnung, danach ein
+Absatz Bedarfsbegruendung, und erst dann die Bitte — die **kein Fragezeichen** traegt («…wäre
+ich Dir für die entsprechende Angebote dankbar»). Das Gattungswort kuendigt an, dass jetzt ein
+Anliegen kommt; formuliert wird es spaeter und als Dank im Konditional. Familie mit «Ziel:» und
+den A)/B)-Gliederungen.
+
+**Die Kette: Ausrichtung → Bedarf → eigene Luecke → Bitte** (Gold A). Vier Schritte, jeder ein
+Absatz, keiner uebersprungen. Die Bitte steht zuletzt und ist der kuerzeste Teil. Kein Wort der
+Rechtfertigung dafuer, dass gefragt wird — dieselbe Bewegung wie die «gelegte, nicht begruendete
+Handlungskette» (Batch 109 Kernbefund 16).
+
+**Konditional als Zielsatz, nachgereicht** (Gold C und D): «**Damit kann** die Eingabequittung …
+ohne zusätzliche Unterzeichnung der Eigentümerschaft eingereicht werden» · «**Damit könnte ich**
+die Eingabequittung … komplett selbständig unterzeichnen». Die Struktur wird zuerst vollstaendig
+gelegt (Diff bzw. Rollenliste), der **Nutzen** kommt erst im Schlusssatz — und rutscht in den
+**Konjunktiv**, sobald er die eigene Vollmacht vergroessert. Der Zwilling neigt dazu, den Nutzen
+vorwegzunehmen («damit Sie … koennen, habe ich …»); Raphael stellt ihn hinten hin.
+
+**Verfahren wird als Wenn-dann-Kette erklaert, nicht als Regelwerk** (Gold E): «Sobald die
+Baueingabe fertig ist und hochgeladen wird müssen dann diese Personen die Eingabequittung … 
+unterzeichnen (keine Pläne). Diese … wird dann per Post dem Amt für Baubewilligungen zugesendet.
+Damit ist die Baueingabe rechtsgültig eingegeben.» Drei Saetze, chronologisch, jeder ein
+Handgriff; die **Klammer korrigiert den wahrscheinlichsten Irrtum** («keine Pläne»), bevor er
+entsteht.

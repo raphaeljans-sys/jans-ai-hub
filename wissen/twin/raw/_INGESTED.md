@@ -2348,3 +2348,60 @@ das Times-Signal nur in Kombination werten (Kernbefund 3). (5) Vor der Lektüre 
 **beide Teile dieser Datei** auswerten — genau das hat diesen Lauf vor einem falschen
 Kernbefund bewahrt. (6) Auto-Block-Reserve messen statt fortschreiben. (7) Weiterhin offen und
 von keinem Batch angefasst: die Behördenschiene **AfB / Feuerpolizei**.
+
+## Batch 110 (31.08.2026) — `Drafts` Seite 2 von 5 (`offset: 25`) + Sent Items ab 30.08.2026
+
+**Datei:** `260831-mailbatch-110.md` · **Gewichtung:** authentisch (5 Golds) ·
+**eingearbeitet:** ja (alle sechs Facetten + [[QUESTIONS]] 260831 #1–#3)
+
+**Abgedeckt:** (A) `rj@` Sent Items ab 30.08.2026 vollstaendig (`totalResultCount: 2`) — beide
+Hub-Selbstmails, per Gratis-Vorfilter uebersprungen, **kein Gold**. (B) `Drafts` Seite 2
+(**25 von 124**, `order: oldest`, `offset: 25`, Zeitraum **11.11.2025–09.04.2026**): 11 leere
+Huellen, 3 Fragmente, **4 Volltexte gelesen**, dazu **1 weiteres Gold aus dem Zitat-Stack**
+(eigene Mail vom 20.03.2026). **Gesamt 5 Golds.** Der Vorfilter sparte 14 von 25 `read_resource`-
+Aufrufen. Zeiten lokal; Graph liefert UTC.
+
+**Verbraucht — nicht erneut destillieren:** Bitte um Kostenkennwert-Quellen an den
+Kostendaten-Fachmann 30.01.2026 15:30 (Exchange) · FTP-Zugangsklaerung englisch an den
+Webprogrammierer 10.02.2026 12:03 (Apple Mail) · Vollmacht-Diff an die Assistenz der
+Bauherrschaft 26.03.2026 11:32 (Exchange) · Baugesuchsformular mit Rollenverteilung an dieselbe
+26.03.2026 13:50 (Exchange) · Verfahrensinstruktion Eingabequittung an den Technischen Dienst
+20.03.2026 17:07 (Exchange, aus dem Zitat-Stack).
+
+**Reserviert, bewusst NICHT gelesen** (Apple Mail, 24.03.2026, Verdacht auf AI-Paste, Fehlerbild
+ungeprueft): «Re: Angebot» an den Bauherr-Partner 08:56 · Terminvorschlag an den Fotografen 08:32.
+
+**Kernbefunde:** (1) ⭐ **Die englische Anrede an den Webprogrammierer war «Dear Hlep»** — sechs
+Tage vor dem in Rule `anrede-kontakte` genannten «Hi Hleb»-Erstbeleg; Bewegung `Dear` → `Hi`
+zwischen dem 10. und 16.02.2026 ([[QUESTIONS]] 260831 #1). (2) ⭐ **«Kind regards» als dritte
+englische Grussform.** (3) ⭐ **Anrede-Fehlgriff aus der Exchange-Verzeichnisform, zweiter Beleg
+derselben Quelle** — dreimal «Herr Valentin» an eine Frau, einmal die Verzeichniszeile
+unveraendert als Anrede; gleiche Familie wie «Herr Mustafa» (Batch 100). (4) ⭐ **Die
+Anrede-Stufe wandert bei Rechtsverbindlichkeit nach oben, ohne Geldbezug** — «Guten Tag» →
+«Geschätzter» → «Sehr geehrter» beim selben Empfaenger in gut zwei Stunden; praezisiert Batch 109
+Kernbefund 12 (Oberbegriff ist das Anlassgewicht, Richtung formeller statt waermer).
+(5) ⭐ **Aenderungen als Zweizeilen-Diff** («Vorher: … / Neu: …») statt als Prosa.
+(6) ⭐ **Der Unterstrich als Aufzaehlungszeichen** («_ Raphael Jans - Architekten ETH»), von
+`stilmetrik.py` als `unterstrich_bullets: 5` gemessen. (7) ⭐ **«Frage:» ist ein Anliegen-Anker,
+keine Frage** — zweiter, aelterer Beleg (30.01.2026); das Wort steht vor dem Kontextabsatz, die
+Bitte folgt zwei Absaetze spaeter und traegt kein Fragezeichen. (8) ⭐ **«wir» traegt das Koennen,
+«ich» traegt die Luecke** — Praezisierung von Batch 109 Kernbefund 8; die Wissensluecke wird
+gegenueber einem Fachkollegen schriftlich eingeraeumt. (9) **Der Weg wird gezeigt, nicht nur das
+Ziel** (Google-Suchbegriff *und* Link *und* Nutzensatz). (10) **Konditional als nachgereichter
+Zielsatz** («Damit kann …» / «Damit könnte ich …»), im Konjunktiv, sobald es die eigene Vollmacht
+vergroessert. (11) **«lgr» als kuerzeste belegte Grussform** ([[QUESTIONS]] 260831 #3).
+(12) **Insider-Kuerzel bleiben im Du-Register unaufgeloest** («bei WP bestellt»).
+(13) **Fuenf Tippfehlertypen in vier Mails**, keiner davon eine Claude-Fehlerart.
+(14) **Der abgebrochene Entwurf markiert die Denkpause** — drei Fragmente brechen mitten im
+ersten Satz ab; zweiter Beleg des Musters aus Batch 96.
+
+**Auto-Block-Reserve — gemessen:** siehe CHANGELOG-Zeile dieses Laufs.
+
+**Naechstes Fenster:** (1) **`Drafts` Seite 3 von 5** (`order: oldest`, `offset: 50`, Bestand
+124). (2) Die zwei reservierten Apple-Mail-Entwuerfe vom 24.03.2026. (3) `rj@` Sent Items ab
+31.08.2026. (4) **Die `internetMessageId` vor jeder Gewichtung lesen** — sie trennt Exchange
+(`…OUTLOOK.COM`, Raphaels unfertige Hand) von Apple Mail (`…@raphaeljans.ch`) ohne einen
+einzigen zusaetzlichen Aufruf, und die Zeit-Einschraenkung aus Batch 109 traegt nachweislich bis
+mindestens Februar 2026. (5) Gratis-Vorfilter beibehalten. (6) Weiterhin offen: die
+Behoerdenschiene **AfB / Feuerpolizei** — auf Seite 2 lag ein Entwurf an vier AfB-Adressen
+(26.03.2026 14:19), der nach eineinhalb Zeilen abbricht; der Bestand enthaelt die Schiene also.

@@ -5098,3 +5098,46 @@ Zwei Wege liegen bereit: **(a)** die Fachprosa 2007–2014 aus `02_Architektur_A
 die Batch 109 als historischen Gold-Bestand 2024/2025 identifiziert hat. *Warum die Frage an
 Dich: (a) haengt an Deinem Entscheid aus 260829c #1 (ist Stimme von 2007 heute noch Gold?), und
 ohne diesen Entscheid bleibt nur (b).*
+
+---
+
+## 260831 — aus Batch 110 (`Drafts` Seite 2, fuenf Golds 11/2025–04/2026)
+
+**#1 — «Dear Hlep» am 10.02.2026: ist die englische Anrede an den Webprogrammierer gewandert?** ·
+*Beziehungsregister, betrifft eine Rule*
+
+Die Rule `anrede-kontakte` fuehrt fuer diesen Kontakt «**Hi Hleb**», «zweifach aus Deiner eigenen
+Hand belegt (16.02. und 27.06.2026)», und grenzt ausdruecklich gegen «Hello» ab (das gehoert dem
+3D-Freelancer). Der Entwurf vom **10.02.2026** — also sechs Tage vor dem dort genannten
+Erstbeleg — traegt «**Dear Hlep,**» mit Komma und «**Kind regards**».
+
+Drei Lesarten: **(a)** eine **Bewegung** `Dear` → `Hi` beim Uebergang von der Zugangs-/
+Vertragsphase in die laufende Zusammenarbeit; **(b)** «Dear» gehoert der **Gattung**
+(formelle Auskunft mit weitergereichter Supportantwort), «Hi» dem lockeren Zuruf; **(c)** freie
+Variation wie beim deutschen Gruss. *Warum die Frage an Dich: die Rule beschreibt die Stufe ab
+Mitte Februar als feststehend; traegt Lesart (a), gehoert ein Satz zur Vorgeschichte hinein, und
+der Zwilling darf «Dear» bei einem neuen englischsprachigen Kontakt nicht fuer falsch halten.
+Claude aendert den Wortlaut einer Rule nicht selbst.*
+
+**#2 — Soll der Zwilling den Anrede-Fehlgriff aus der Verzeichnisform aktiv korrigieren?** ·
+*Beziehungsregister, Verfahren*
+
+Zum zweiten Mal belegt (nach «Herr Mustafa» statt «Herr Eren», Batch 100): die Exchange-Form
+«Nachname Vorname Zweitname» erzeugt eine falsche Anrede — hier dreimal «**Herr** Valentin» an
+eine Frau, dazu einmal die Verzeichniszeile unveraendert als Anrede («Guten Tag Valentin
+Michelle Amanda»).
+
+Der Zwilling kann das erkennen, sobald eine Antwort der Gegenseite mit Signatur vorliegt. Die
+Frage ist, **was er dann tun soll**: (a) still korrigieren und ab der naechsten Mail richtig
+anreden; (b) korrigieren und Dich in einem Satz darauf hinweisen; (c) den Thread-Stand halten,
+weil eine stille Aenderung der Anrede selbst auffaellt. *Warum: Variante (a) ist die hoeflichste,
+aber sie veraendert unbemerkt etwas, das Du geschrieben hast — und genau das ist sonst verboten.*
+
+**#3 — Ist «lgr» eine Grussform, die der Zwilling verwenden darf?** · *Stimme, klein aber scharf*
+
+Beleg 20.03.2026 an den Technischen Dienst (Du-Kontakt): die Mail endet auf «**lgr**», klein,
+allein, ohne Name und ohne Block. Das ist die kuerzeste bisher belegte Form und ein starker
+Echtheitsmarker — aber Kuerzel dieser Art wirken schnell schnodderig, wenn sie am falschen
+Kontakt landen. *Warum: der Zwilling schreibt heute im Du-Register durchgaengig «Lieber Gruss».
+Darf «lgr» in die kurze, rein operative Mail an einen vertrauten Kontakt — oder bleibt es Dir
+vorbehalten?*

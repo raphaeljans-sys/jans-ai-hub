@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-30
+last_updated: 2026-08-31
 gewichtung: authentisch
-sources: [260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2833,3 +2833,35 @@ diesem Artikel sowie [[QUESTIONS]] 260730 #1). Zwei Belege an zwei aufeinanderfo
 **Echo-Schutz-Konsequenz, mechanisch:** in dieser Gattung ist alles unterhalb des **ersten**
 Signaturblocks grundsätzlich `claude-aera`, bis das Gegenteil belegt ist. Der Schnitt ist billig
 und eindeutig zu finden; er hätte in diesem Lauf 60 Zeilen Modelltext aus der Wertung gehalten.
+
+## Batch 110 (31.08.2026) — Zeichnungsberechtigung, Eingabequittung, unaufgeloeste Kuerzel
+
+**Insider-Kuerzel bleiben im Du-Register unaufgeloest** (Gold A): «Falls Du Publikationen oder
+Datenprodukte mit entsprechenden Kostenkennwerten kennst, welche z.B. bei **WP** bestellt werden
+können …» — Wüest Partner, ohne Erklaerung, gegenueber einem Fachkollegen. Familie mit den
+Kuerzeln HNF/BMZ/BKP: die Abkuerzung ist der Beweis, dass man zum selben Fach gehoert. Gegenueber
+Bauherrschaft oder Behoerde wird dieselbe Groesse ausgeschrieben.
+
+**Handelsregister-Realismus** (Gold E, 20.03.2026): «Zeichnungsberechtigt mit
+**Kollektivunterschrift zu zweien** sind: … Allerkamp, Claudia, von Zürich, in Zürich (COO) /
+Hillebrandt, Dr. Julia, von Jenaz, in Zumikon (CEO) / **oder** Schlepfer, Thomas, von Appenzell,
+in Zürich (Sekretär)» — die HR-Schreibweise «Name, Vorname, von <Heimatort>, in <Wohnort>
+(Funktion)» wird **wortgetreu** aus dem Auszug uebernommen, samt CHE-Nummer und
+«Alleineigentum». Kein Umformulieren amtlicher Formen.
+
+**Das Verfahren wird bis zum Papier zu Ende gedacht** (Gold E): Eingabequittung → Unterzeichnung
+durch die Zeichnungsberechtigten → «(keine Pläne)» → **Original per Post** an das Amt fuer
+Baubewilligungen → «Damit ist die Baueingabe rechtsgültig eingegeben». Die eingeklammerte
+Praezisierung raeumt den wahrscheinlichsten Irrtum der Gegenseite aus, bevor er entsteht.
+
+**Rollenraster des Baugesuchsformulars** (Gold D): A) Bevollmaechtigte Vertretung der
+Bauherrschaft · B) Projektverfasser/in · C) Vertretung Eigentuemerschaft · D) Bauherrschaft ·
+E) Grundeigentuemer/in. Die fuenf Rollen werden **einzeln besetzt** statt zusammengefasst — die
+Trennung Bauherrschaft/Eigentuemerschaft ist genau die, die im Aenderungs-Diff der Vollmacht
+zwei Stunden zuvor entstand («Vorher: Bauherrschaft / Neu: Bauherrschaft und Eigentümerschaft»).
+**Der Fachbegriff wandert aus dem Dokument in das Formular** — dieselbe Praezisierung, zweimal
+angewandt.
+
+**Belastbarkeit vor Verfuegbarkeit** (Gold A): gesucht sind «**belastbare** Kostenkennwerte» und
+ein «ausreichend **validierter** Datenstamm», ausdruecklich «für Grobkostenschätzungen in frühen
+Projektphasen». Die Anforderung an die Quelle wird vor der Bitte formuliert, nicht nach ihr.
