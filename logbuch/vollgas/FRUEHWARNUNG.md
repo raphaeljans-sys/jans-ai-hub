@@ -3779,3 +3779,18 @@ dafuer gebauten Register. Solange das so bleibt, traegt Kriterium (f) allein die
 **Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer
 Kontingent-Erschoepfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag oder Aufwand ohne
 Wissenszuwachs.
+
+**Nachtrag 07:22 — derselbe transiente Merge-Konflikt wie am Vortag, kein Eingriff noetig.**
+`nas-commit-now.sh` meldete rc=1 mit Konflikten in `wissen/baurecht/training/KORPUS-QUEUE-thalwil-reglemente.md`,
+`wissen/grobkosten/CHANGELOG.md` und `wissen/normen/CHANGELOG.md`. Nachgemessen (nur lesend, nativ per
+ssh): **das NAS-Repo ist sauber** — dieser Eintrag liegt dort als Commit `ca4f4cc9d` vom 31.08. 07:20:25,
+kein `MERGE_HEAD`, keine Konfliktdatei. Der Konflikt entstand wie am 30.08. erst im zweiten Script-Teil
+beim `pull --rebase --autostash` des SSD-Klons; dieser ist ebenfalls sauber (kein MERGE_HEAD, kein
+Rebase, keine Konfliktdatei), steht aber mit HEAD `66df04125` vom 06:12 hinter dem NAS zurueck und zieht
+beim naechsten Pull nach. Ursache bleibt die Schreibkollision gleichzeitig laufender Laeufe auf denselben
+CHANGELOG-Dateien. **Zweimal in Folge derselbe Ablauf** — das ist kein Einzelfall mehr, sondern ein
+Muster des Committers unter paralleler Last; gehoert dem Radar vorgelegt.
+**Derselbe lose Faden wie gestern, bewusst nicht angefasst:** im SSD-Klon liegt weiterhin
+`stash@{0}: autostash`. Ein `stash drop` waere ein Eingriff in Git-Interna und gehoert nach Rule
+`interaktive-eingriffe` nicht in einen unbeaufsichtigten Lauf. Er liegt jetzt den zweiten Tag — die
+naechste interaktive Session sollte ihn pruefen und aufloesen.

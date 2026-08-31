@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.08.2026 07:12:27
+Stand: 31.08.2026 07:22:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 31.08.2026 07:12:27
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 6ed81a7f5 Logbuch-Radar 31.08.2026: Briefing-Abschnitt + 4 Register-Nachtraege (Tuerbeschlaege-Absagen, Gate-Stand, bexio/Mail-Messwege, Fristbefund bexio-Kalendereintrag)
+- ca4f4cc9d vollgas-fruehwarnung 260831: Rohblock + Bewertung, keine Mail (Kriterium b, Wiederholungsbefund)
