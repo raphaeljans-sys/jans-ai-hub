@@ -182,6 +182,115 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### energie ↔ planungsgrundlagen (AHB-Lux-Tabelle §14.2) — geprueft 2026-08-31 (Run 49), MELDER WIDERLEGT — und die Aufsicht hatte den Fehler schon eingebaut
+
+**Der teuerste Befund dieses Laufs ist ein eigener.** Ein Melder meldete mit Schwere «hoch», die
+Tabelle in `planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §14.2
+(«Uebersichtstabelle Beleuchtung EN 12464-1/SIA 2024», AHB, 19.01.2007) sei veraltet und schreibe
+fuer Healthcare zu niedrige Lux-Werte in Elektro-LVs fort — Stationszimmer 300 statt 500 lx,
+Untersuchung 300 statt 1000 lx —, weil `energie` am 24.08.2026 die Nachfolgetabelle
+`destillate/ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025.md` (August 2025,
+`established`) destilliert hat.
+
+**Der Hauptkontext hat beide vom Melder genannten Dateien am Original nachgemessen, den Befund
+bestaetigt und einen additiven Vorbehalt in §14.2 (+19/−0) sowie eine Rueckkante im
+energie-Destillat (+7/−0) geschrieben.** Beides ist **zurueckgenommen** (diff gegen das Vorbild
+0 geloescht / 0 neu, nie committet, keine Station hat es je gesehen).
+
+**Warum der Befund falsch ist.** Der adversariale Verifikator hat die massgebende Norm geoeffnet,
+die weder Melder noch Hauptkontext angefasst hatten: `normen/destillate/sia-387-4-2017.md` Z. 61
+(SIA 387/4:2017, `established`) fuehrt Bettenzimmer E_vm 100 / k0 3 / E0 300, Stationszimmer
+E_vm 300 / k0 1,67 / E0 500, Behandlungsraum E_vm 500 / k0 1,5 / E0 750. **Die drei
+Healthcare-Werte in pg §14.2 sind deckungsgleich mit der heute geltenden Norm.** Die gemeldete
+«massive Abweichung» ist die Bezugsgroessen-Falle **E_vm gegen E0**: Norm 300 × 1,67 = 500,
+AHB-2025 500 × 1,0 = 500 — dieselbe Referenzbeleuchtungsstaerke, zwei Bezugsgroessen. Die
+«Verdreifachung» paart zusaetzlich zwei verschiedene Labels (2007 «einfache Untersuchungen» 300 lx
+ist eine Absenkung unter den Grundwert, 2025 «Untersuchung» 1000 lx eine Anhebung darueber; der
+Grundwert Behandlungsraum ist beidseitig 500 lx).
+
+**Genau davor warnt dieses Register in Z. 49 woertlich** («vor jeder Uebernahme klaeren, ob E_vm
+oder E0 gemeint ist»). Die Warnung stand da, wurde gelesen — und hat den Fehlgriff nicht
+verhindert, weil sie in einem anderen Registereintrag steht als die Tabelle, an der sie gebraucht
+wird. Zusaetzlich abgewehrt: der Vorschlag haette ein staedtisches Eigentuemer-Dokument zur
+fuehrenden Quelle fuer Normwerte gemacht — gegen Rule `normen-referenz` und gegen die schon in
+Run 27/28 abgewehrte gleichartige Fuehrungs-Verschiebung (Z. 2802-2805).
+
+**Regel daraus, als Ergaenzung zur Run-48-Regel:** Ein bestaetigter Cross-KB-Zahlenwiderspruch ist
+erst dann bestaetigt, wenn die **fuehrende Norm** selbst geoeffnet wurde — nicht nur die beiden
+KB-Dateien, die der Melder nennt. Wo zwei Quellen dieselbe Groesse verschieden beziffern, ist die
+erste Frage nicht «welche ist neuer», sondern «messen beide dasselbe».
+
+**Offen, niedrige Schwere, nicht ausgefuehrt:** (1) pg §14.2 traegt an der Tabelle selbst keinen
+E_vm/E0-Vermerk — ein Bezugsgroessen-Vorbehalt (nicht ein Veraltungs-Vorbehalt) waere dort sachlich
+richtig; Fuehrung fuer die Norm bleibt bei `normen`. (2) pg §14.2 nennt die 2025er-Tabelle nicht;
+die Bring-Schuld liegt beim energie-Lauf vom 24.08.2026, nicht bei `planungsgrundlagen`.
+(3) Ein zweiter Melder-Befund (§14 fehlt der «Rollen nach Ebene»-Block, den §12.1 in Run 48 erhielt)
+**konnte nicht verifiziert werden — der Verifikator brach mit einem API-Fehler ab.** Ungeprueft,
+nicht ausgefuehrt, an Run 50 uebergeben.
+
+### twin → rules (Person/Kollektiv-Achse der englischen Anrede) — geprueft 2026-08-31 (Run 49), 2× TEILWEISE, Bring-Schuld gesetzt
+
+Der Fidelity-Lauf vom 31.08.2026 belegt «**Dear** gehoert dem Team, **Hi** der Person» (Gold B,
+05.05.2026, «Dear HLEB team»). Beide Melder-Befunde echt, beide im Adressat bzw. in der Ursache
+korrigiert:
+
+- **Adressat weiter als gemeldet:** die einachsige Klausel «die englische Anrede haengt am Kontakt»
+  steht **doppelt** — `rules/anrede-kontakte.md` Z. 80 (Hleb) und `rules/jans-dna-facetten.md`
+  Z. 83-88. Die zweite wiegt schwerer: sie wird vor **jedem** ausgehenden Texterzeugnis gelesen.
+  Beide Stellen sind richtig, aber unvollstaendig. **Kein Rule-Eingriff durch Claude** — Vorlage an
+  Raphael, `twin/wiki/QUESTIONS.md` 260831b #1 steht bereits.
+- **Ursache berichtigt:** der twin-CHANGELOG legt die fehlende Kompilierung dem «Wachstums-Riegel»
+  zur Last (Reserve 24 B). Tatsaechlich liest `build_dna.py` je Facette **nur den Do/Don't-Block**,
+  und die Dear/Team-Regel steht in einem Fidelity-Abschnitt (`beziehungsregister.md` Z. 3630), im
+  Do/Don't-Block mit 0 Treffern. Es fehlt zuerst die **Promotion**, nicht die Reserve; eine blosse
+  Anhebung der Grenze kompilierte nichts. Derselbe Lauf hat den «namenlos»-Marker sehr wohl
+  promoviert — zwei Befunde desselben Tages, ungleich behandelt.
+- **Aktion:** Bring-Schuld additiv in `wissen/twin/wiki/QUESTIONS.md` als **260831c** abgelegt
+  (+34/−0). Die Promotion selbst **bewusst nicht** ausgefuehrt: sie laeuft unmittelbar in die
+  24-B-Reserve, und welcher bestehende Marker dafuer weicht, ist eine Abwaegung ueber Raphaels
+  Stimme und kein Aufsichts-Entscheid (Rule `wissens-bibliothekar`, Pause vor Umstrukturierung).
+
+### `links:`-Schema hub-weit nachgemessen — 2026-08-31 (Run 49), Run-48-Zahl praezisiert, KEINE Ausbreitung
+
+Run 48 nannte «rund 7 von 272» Artikeln mit einem KB-Pfad im `links:`-Frontmatter. Nachgemessen
+ueber **394** Wiki-Artikel mit Frontmatter: **13 Artikel** in **7 KBs** (afw 3, projekt-lessons 3,
+planungsgrundlagen 2, grobkosten 1, immobilienbewertung 1, auflagebereinigung 1, dazu 2 Grenzfaelle
+unter `sources:`). Die Praxis ist also **breiter und aelter** als die Run-48-Zahl nahelegt und
+keineswegs auf `architektur-fachwissen` beschraenkt — das schaerft den offenen Schema-Entscheid
+(`architektur-fachwissen/wiki/QUESTIONS.md` #64), aendert ihn aber nicht.
+
+**Wichtiger Nullbefund:** die drei afw-Faelle tragen unveraendert `last_updated: 2026-08-29`, sind
+also die von Run 47 erzeugten. **48 afw-Artikel wurden seit dem 30.08. geschrieben oder geaendert,
+keiner davon hat das Muster uebernommen.** Der von Run 48 befuerchtete Folgeschaden ist nicht
+eingetreten.
+
+**Werkzeug-Merksatz aus derselben Messung:** der erste Zaehlversuch ergab 4 Treffer und sah nach
+einem sauberen Befund aus — der Parser sah nur Block-Listen (`links:` + `  - …`) und war blind fuer
+die **Inline-Array-Schreibweise** (`links: ["…", "…"]`), in der die afw-Faelle stehen. Ein leeres
+oder kleines Suchergebnis ist zuerst eine Aussage ueber das Werkzeug (Rules 260730b, 260807).
+
+### Vier Nullbefunde mit Aussage — 2026-08-31 (Run 49)
+
+- **energie ↔ normen (SIA 380/1 Kat. XII Hallenbaeder, Zuwachs Run 171):** Fuehrung von
+  `[[sia-380-1-standardnutzungswerte-tab24-25]]` bei `energie` ist in diesem Register Z. 6-8
+  ausdruecklich autorisiert und in `normen/wiki/QUESTIONS.md` Z. 5641 wortgleich bestaetigt.
+  SIA 387/4 ist als Destillat vorhanden; die Luecken EN 12464-1 / SLG 305 sind seit 05.08.2026 als
+  **E-122-6** (Z. 49) registriert. Kein neuer Befund.
+- **grobkosten ↔ immobilienbewertung ↔ wettbewerbs-dna (Healthcare CHF/m3):** die Fuehrungsklaerung
+  von gestern ist **beidseitig angekommen**. `grobkosten/wiki/kennwerte.md` Z. 21-24 und Z. 530-542
+  weisen die Fuehrung ausdruecklich zurueck und zeigen auf `realwert-sachwert.md`; dieser weiss
+  Z. 561-563, dass er fuehrt, und traegt den 1'285-Vorbehalt Z. 569-572 identisch. Keine
+  Zahlendivergenz.
+- **normen → Konsumenten (SIA 416 Figurenanhang, Run 66):** die drei neu gefuehrten
+  Darstellungsregeln und zwei Praezisierungen widersprechen keiner Konsumentenaussage;
+  `immobilienbewertung/wiki/flaechendefinitionen-sia.md` Z. 53-54 deckt sich mit Regel (a), die
+  uebrigen Konsumenten erheben zu den Feinheiten gar keinen Anspruch. Kein Korrekturbedarf.
+- **baurecht ↔ planungsgrundlagen (Zuwachs Schub-Lane THALWIL):** der Baulinien-Querverweis aus
+  Lauf 29c schliesst genau den Punkt, den Run 45 offen gelassen hatte; beide Richtungen gemessen
+  vorhanden. Waldabstand/Gewaesserraum mit erklaerter Arbeitsteilung und beidseitigem Verweis, kein
+  totes Recht. Die uebrigen Laeufe des 29.08. sind ausdrueckliche Nullbefunde — aus einem
+  Nullbefund entsteht kein Cross-KB-Befund.
+
 ### energie intern (F115 Blower-Door: Symbol qE50 → qa50, Messnorm SN EN ISO 9972 → SIA 180.206) — geprueft 2026-08-30 (Run 48), BESTAETIGT und KORRIGIERT
 
 `energie` Run 168 fuehrte am 30.08.2026 die RiLuMi auf Ausgabe **2026.1** nach und zog den

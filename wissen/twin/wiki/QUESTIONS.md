@@ -5221,3 +5221,37 @@ fragen? **(b)** Oder hebst Du `MAX_AUTO_BYTES` (der Block liegt in **jedem** Tex
 an, nicht in jeder Session — 1'000 B mehr sind rund 250 Token je Erzeugnis)? *Warum: ohne
 Entscheid steht der nächste Lauf wieder vor 24 B Reserve, und das ist ein halber Satz. Die
 Frage 260829b #4 ist damit nicht erledigt, sondern beziffert.*
+
+## 260831c — Bring-Schuld aus Wissens-Chef Run 49 (31.08.2026): die Dear/Team-Regel erreicht das Gehirn nicht, und der Grund ist ein anderer als angenommen
+
+*Beziehungsregister · Arbeitsweise · Status: offen, Ursache berichtigt*
+
+Der Fidelity-Lauf vom selben Tag hat den Befund «**Dear** gehoert dem Team, **Hi** der Person»
+(Gold B, 05.05.2026, «Dear HLEB team») korrekt erhoben und im Artikel abgelegt. **Im kompilierten
+Gehirn steht er nicht:** `grep -c "Dear"` auf den Auto-Block von `rules/jans-dna-facetten.md`
+ergibt **0**.
+
+**Die Ursache ist NICHT der Wachstums-Riegel.** Der CHANGELOG-Eintrag vom 31.08.2026 legt die
+fehlende Kompilierung dem Riegel zur Last (Reserve gemessen 24 B). Nachgemessen im Lauf 49 gilt
+aber zuerst etwas anderes: `skills/twin/tools/build_dna.py` kompiliert je Facette **nur den
+Do/Don't-Block**. Die Dear/Team-Regel steht in `wiki/beziehungsregister.md` in einem
+**Fidelity-Abschnitt** (Z. 3630) und im Do/Don't-Block (6'119 B) mit **0 Treffern** gar nicht.
+Es fehlt also zuerst die **Promotion in die kompilierbare Ebene**; die 24-B-Grenze wird erst
+danach zum Thema. Eine blosse Anhebung der Grenze wuerde nichts kompilieren.
+
+**Warum das zaehlt:** derselbe Lauf hat den «namenlos»-Marker sehr wohl in den Do/Don't-Block
+promoviert und damit kompiliert. Die beiden Befunde desselben Tages wurden also ungleich
+behandelt, ohne dass das auffiel.
+
+**Naechster Schritt (bewusst nicht von Run 49 ausgefuehrt):** Die Promotion einer Zeile in den
+Do/Don't-Block liegt in der Domaene des Zwillings, nicht der Aufsicht, und sie laeuft unmittelbar
+in die 24-B-Reserve — welcher bestehende Marker dafuer weicht, ist eine Abwaegung ueber Raphaels
+Stimme und kein Aufsichts-Entscheid. Run 49 legt den Punkt darum hier ab, statt ihn selbst zu
+schreiben (Rule `wissens-bibliothekar`, Pause vor Umstrukturierung).
+
+**Zweite, davon unabhaengige Luecke (an Raphael, kein Claude-Eingriff):** die Person/Kollektiv-Achse
+fehlt im **gesamten Rule-Bestand** — `rules/anrede-kontakte.md` Z. 80 (Hleb-Zeile) und
+`rules/jans-dna-facetten.md` Z. 83-88 tragen beide die einachsige Klausel «die englische Anrede
+haengt am Kontakt». Die zweite Fundstelle wiegt schwerer, weil sie vor jedem ausgehenden
+Texterzeugnis gelesen wird. Beide Stellen sind **richtig, aber unvollstaendig**; der Wortlaut einer
+Rule wird von Claude nie selbst geaendert (siehe 260831b #1).

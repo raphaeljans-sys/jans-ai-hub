@@ -2,6 +2,55 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-31 (Run 49) — die Aufsicht baute den Fehler ein, den ihr eigener Verifikator dann fand
+
+**Zuschnitt:** 6 Melder (`model: sonnet`) + 4 adversariale Verifikatoren (Hauptmodell) = 10 Agenten,
+1'715'310 Token, 136 Werkzeugaufrufe, 24,1 Min, **1 Agent mit API-Fehler abgebrochen**. Gezielt auf
+**frisch destillierte Sektionen** statt auf das mtime-Delta (Empfehlung Run 48 umgesetzt — das
+mtime-Delta wird weiterhin von der afw-Lane dominiert, 48 Artikel seit dem 30.08.).
+Bericht: `outputs/2026-08-31_wissens-chef-run49.md`.
+
+**0 bestaetigt · 2 teilweise · 1 widerlegt · 1 unverifiziert · 4 Nullbefunde.**
+
+- **Der Lauf hat sich selbst korrigiert, aber erst nach dem Eingriff.** Ein Melder meldete mit
+  Schwere «hoch», `planungsgrundlagen` §14.2 schreibe veraltete Healthcare-Lux-Werte in Elektro-LVs
+  fort. Der Hauptkontext mass **beide vom Melder genannten Dateien** am Original nach, bestaetigte
+  und schrieb einen Vorbehalt (+19/−0) samt Rueckkante (+7/−0). Der adversariale Verifikator oeffnete
+  danach die **Norm**, die keiner von beiden angefasst hatte: SIA 387/4:2017 Tab. 4 fuehrt genau die
+  Werte, die in `planungsgrundlagen` stehen. Die «Abweichung» war die Bezugsgroessen-Falle **E_vm
+  gegen E0** (300 × 1,67 = 500 gegen 500 × 1,0 = 500 — dieselbe Anforderung). **Beide Eingriffe
+  zurueckgenommen**, Diff gegen das Vorbild 0/0, **nie committet**. Dieses Register warnt in Z. 49
+  woertlich vor genau dieser Falle; die Warnung stand an einem anderen Eintrag als die Tabelle, an
+  der sie gebraucht wurde. **Regel als Registerzeile gesetzt: ein Zahlenwiderspruch ist erst
+  bestaetigt, wenn die fuehrende Norm selbst geoeffnet wurde — die Frage ist nicht «welche Quelle
+  ist neuer», sondern «messen beide dasselbe».**
+- **`twin` → Rules (+34/−0 in `twin/wiki/QUESTIONS.md` als 260831c).** Die belegte
+  Person/Kollektiv-Achse der englischen Anrede («Dear» ans Team, «Hi» an die Person) fehlt im
+  **gesamten** Rule-Bestand, nicht nur in der gemeldeten Hleb-Zeile: `rules/jans-dna-facetten.md`
+  Z. 83-88 traegt dieselbe einachsige Klausel und wird vor **jedem** ausgehenden Erzeugnis gelesen.
+  Zweitens die berichtigte Ursache: die Regel fehlt im kompilierten Gehirn nicht wegen des
+  «Wachstums-Riegels», sondern weil `build_dna.py` nur den **Do/Don't-Block** liest und die Regel in
+  einem Fidelity-Abschnitt steht — es fehlt die **Promotion**, nicht die Reserve. Promotion
+  **bewusst nicht** ausgefuehrt (24-B-Reserve; welcher Marker weicht, ist ein Entscheid ueber
+  Raphaels Stimme). Kein Rule-Eingriff.
+- **`links:`-Schema hub-weit nachgemessen:** nicht «rund 7 von 272», sondern **13 von 394** in
+  **7 KBs** — breiter und aelter als Run 48 nahelegte. **Aber keine Ausbreitung:** die drei
+  afw-Faelle tragen unveraendert `last_updated: 2026-08-29` (Run 47), und **48 seither geschriebene
+  afw-Artikel haben das Muster nicht uebernommen.** Der erste Zaehlversuch ergab 4 und war ein
+  Parser-Artefakt (blind fuer die Inline-Array-Schreibweise) — ein kleines Suchergebnis ist zuerst
+  eine Aussage ueber das Werkzeug.
+- **Vier Nullbefunde mit Aussage:** die gestrige Healthcare-Fuehrungsklaerung ist beidseitig
+  angekommen (grobkosten weist die Fuehrung zurueck, immobilienbewertung weiss dass sie fuehrt,
+  1'285-Vorbehalt identisch); der SIA-416-Figurenanhang widerspricht keinem Konsumenten; die
+  SIA-380/1-Fuehrung bei `energie` ist autorisiert; der Baulinien-Querverweis der THALWIL-Lane
+  schliesst den von Run 45 offen gelassenen Punkt.
+- **Uebergabe an Run 50:** ein Melder-Befund (§14 fehlt der «Rollen nach Ebene»-Block, den §12.1 in
+  Run 48 erhielt) blieb **unverifiziert**, weil der zustaendige Verifikator mit einem API-Fehler
+  abbrach. Nicht ausgefuehrt.
+- **Betrieb (nicht Wissens-Layer):** siehe `rules/betrieb-chronik.md` 260831b — der SMB-Mount fiel
+  waehrend dieses Laufs **dreimal** aus, `/etc/nsmb.conf` fehlt auf der Station. Alle Messungen und
+  Schreibvorgaenge liefen darum nativ per ssh.
+
 ## 2026-08-31 (Synergie-Lauf 24) — der Aufsichtslauf fand das NAS nicht, und keiner der drei Waechter konnte den Zustand sehen
 
 **Zuschnitt:** Tagestakt, Delta-Basis 30.08.2026 17:10, Fenster 24,0 h. **179 Commits** im

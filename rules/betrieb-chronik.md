@@ -19,6 +19,40 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260831b — `/etc/nsmb.conf` fehlt: 59 Mount-Abrisse an einem Tag, der Waechter heilt jeden einzeln
+
+**Befund (Wissens-Chef Run 49, 31.08.2026, MacBook Pro, 23:13-23:55).** Waehrend eines einzigen
+Laufs fiel der SMB-Mount **dreimal** aus (23:13, 23:29, 23:41). Jedes Mal existierte
+`/Volumes/daten` nicht mehr; `ensure-nas-mounted.sh` heilte jedes Mal mit rc 0 innerhalb des
+Budgets. **Der Schutz funktioniert** — headless-Laeufe brechen sauber ab oder warten, statt in
+halbe Schreibvorgaenge zu laufen.
+
+**Das ist NICHT der SYN-64-Fall.** Beim ersten Ausfall war `mount | grep daten` **leer**: die
+Freigabe war gar nicht gemountet, und `/Volumes/daten-1` war ein **Leichenordner** (Permission
+denied, kein Mount-Eintrag), nicht eine Fremdmontage. In diesem Zustand heilt der Waechter
+problemlos. SYN-64 beschreibt den anderen Zustand — Freigabe **aktiv** unter `daten-1` —, und nur
+dort laeuft der Waechter im Kreis. Die Gegenprobe aus Chronik 260831 trennt beide Faelle in einer
+Zeile und hat sich bewaehrt: `mount | grep -i daten`.
+
+**Ursache eine Ebene tiefer: `/etc/nsmb.conf` FEHLT.** Die dokumentierte Haertung gegen genau
+diese Idle-Stalls (`notify_off` / `mc_on` / signing, dazu 60-s-Keepalive) ist nur **halb**
+vorhanden: der launchd-Job laeuft (`com.jans.nas-keepalive`, PID 27220), die SMB-Konfiguration
+dazu nicht. Gemessen in `~/Developer/jans-ai-hub/.git/nas-auto-mount.log`: **59 WARN-Zyklen am
+31.08.2026** (Log beginnt 08:43), also rund alle 15 Minuten ein Abriss, je etwa 4 Minuten ohne
+`/Volumes/daten` — die Signatur des macOS-SMB-Idle-Stalls, gegen die die Datei angelegt worden war.
+
+**Nicht behoben, bewusst.** `/etc/nsmb.conf` verlangt erhoehte Rechte und damit Raphaels Passwort;
+System- und Sync-Schalter bedient er selbst (Rule `interaktive-eingriffe` Klasse 2, Rule
+`auto-verbesserungen` 260814). Ebenfalls stehen gelassen: der Leichenordner `/Volumes/daten-1`,
+der der Keim des naechsten Fehl-Mounts ist — sein Entfernen ist ein Systemeingriff, kein
+Aufsichtsschritt.
+
+**Praktische Folge fuer den Lauf:** alle Messungen und **alle Schreibvorgaenge** liefen nativ per
+ssh auf `/volume2/daten/jans-ai-hub` statt ueber SMB (Praezedenz Chronik 260831). Bei flatterndem
+Mount ist das der belastbarere Weg und verletzt die SMB-`git`-Sperre (260726) nicht, weil git dabei
+nativ auf der Synology laeuft. Nebenbefund: `scp` gegen die Synology schliesst die Verbindung
+(`scp: Connection closed`) — Dateien per `cat | ssh` uebertragen.
+
 ## 260831 — die Freigabe hing auf `/Volumes/daten-1`, und kein Waechter kam aus der Schleife heraus
 
 **Befund (Synergie-Lauf 24, 31.08.2026, MacBook Pro).** Der Lauf startete ohne Skills, Agenten,
