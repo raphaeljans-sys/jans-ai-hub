@@ -133,8 +133,9 @@ primärquellenverifiziert.
   https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/projekte-und-ausschreibungen/dokumente/hochbauvorhaben/vorgaben/energie-gebaeudetechnik/merkblatt-hallenbaeder-schulschwimmanlagen.pdf
   (PDF vollständig gelesen, abgerufen 30.08.2026). Es nennt eigene Kennwerte nach EN 12464-1 und
   EN 12193: 300 Lux Schwimmhallenbeleuchtung, 120 lm/m3 Unterwasserbeleuchtung, 1'100 lm/m3
-  Wettkampf, und empfiehlt Relux als Simulationsprogramm. Als eigener Destillat-Kandidat
-  vermerkt, hier nicht ausdestilliert.
+  Wettkampf, und empfiehlt Relux als Simulationsprogramm.
+  ✓ **Ausdestilliert 31.08.2026 (Run 171): `[[ahb-merkblatt-384-beleuchtung-hallenbaeder-2024]]`**
+  — vollstaendig, mit Ausgabenstand-Pruefung; die Verweiszeile hier ist damit erledigt.
 - Aktualitätsprüfung bestätigt: SIA 387/4:2023 ist die geltende Ausgabe, «gültig ab 01.08.2023»,
   keine neuere Ausgabe und kein Korrigendum
   (https://shop.sia.ch/normenwerk/architekt/387-4_2023_d/D/Product, abgerufen 30.08.2026). Die

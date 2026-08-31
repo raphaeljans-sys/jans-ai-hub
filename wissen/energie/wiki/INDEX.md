@@ -475,6 +475,17 @@ Empfehlung als Basis + schlanke AHB-Ergaenzung); die hier destillierte RL1-RL9-F
 taucht in der aktuellen Dokumentenliste (Stand 08.2025) namentlich nicht mehr auf — moegliches
 Indiz fuer eine Ablösung, nicht abschliessend geprueft. Details: `wiki/QUESTIONS.md`.
 
+⚠ **Nachtrag 31.08.2026 (Run 171):** Dritter Baustein der Beleuchtungs-Familie destilliert —
+`[[ahb-merkblatt-384-beleuchtung-hallenbaeder-2024]]` (AHB M-System-Nr. 384, Oktober 2024). Es
+regelt **nur** den Hallen- und Beckenbereich von Schwimmbaedern (300 lx vollflaechig ueber der
+Wasserflaeche, Unterwasserleuchten Pflicht und nur laengsseitig, ≥120 lm/m3 Wasservolumen bzw.
+ca. 1'100 lm/m3 im Wettkampf, ≥4 ungedimmte Schaltgruppen) und verweist fuer alle uebrigen Raeume
+ausdruecklich auf die allgemeine Tabelle Nr. 376. Der Ausgabenstand ist am selben Tag gegen die
+AHB-Downloadliste geprueft (keine neuere Fassung). Ein eigener Wiki-Themenartikel Beleuchtung
+fehlt weiterhin; die drei Destillate 376/384/RL8 traegen den Stoff bisher allein. Neu belegt in
+**F263** und **F264**. Cross-KB: EN 12464-1, EN 12193 und SLG 305 Teil 5 fehlen im Register der
+KB `normen` — Bringschuld dort eingetragen (N-E171-1).
+
 **Ehrliche Negativbefunde der Agenten** (gewuenschtes Verhalten, nicht kaschiert): RL7
 Elektroanlagen liefert **keinen** Zugewinn zu PV, Submetering und Ladeinfrastruktur — diese
 Themen kommen im Dokument von 2008 gar nicht vor. RL9 verweist fuer BACS-Klassen und

@@ -2,6 +2,57 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-31 (Run 171) — E-R169-3 destilliert, E-R169-2 als Fehl-Offen geschlossen; zweiter Fehl-Offen in Folge
+
+**Geliefert:** `[[ahb-merkblatt-384-beleuchtung-hallenbaeder-2024]]` (AHB M-System-Nr. 384, Oktober
+2024, S. 1-6 vollstaendig, Ausgabenstand geprueft), **F263** und **F264** in der BAUHERREN-FAQ,
+Nachfuehrung in `[[ahb-zuerich-gt-rl8-beleuchtung]]`, beiden INDEX-Dateien und der KB `normen`
+(Cross-KB-Bringschuld N-E171-1: EN 12464-1, EN 12193, SLG 305 Teil 5 fehlen dort im Register).
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R171-1 (P1, methodisch): Zwei Laeufe in Folge haben einen Punkt als offen bearbeitet, der
+  es nicht war — die Fehl-Offen-Diagnose ist keine Einzelpanne mehr, sondern ein Muster.**
+  Run 170 fand Teil 2 von E-R169-1 (Rueckliefervergütung) seit dem 17.07.2026 vollstaendig
+  destilliert; Run 171 fand E-R169-2 (BD LEG – CH 2025 V2) seit dem 13.07.2026 vollstaendig gelesen,
+  35 von 35 Seiten, sogar mit einer Re-Pruefung vom 24.08.2026. **Beide Fehleintraege stammen aus
+  demselben Lauf (169) und betreffen dieselbe Quellenfamilie.** Die Lehre von Run 170 («vor einer
+  *noch nicht destilliert*-Diagnose zuerst `destillate/INDEX.md` nach den **Sachbegriffen** durchsuchen»)
+  war richtig, aber sie hat den zweiten Fall nicht verhindert — weil sie erst greift, wenn der naechste
+  Lauf den Punkt aufgreift, und nicht dort, wo der Fehleintrag **entsteht**.
+  **Vorschlag mit dem Hebel an der Entstehung:** wer einen Punkt der Form «X noch nicht gelesen /
+  nicht destilliert / noch offen» in QUESTIONS **schreibt**, prueft im selben Zug das
+  Frontmatter-Feld `gelesen:` bzw. `quelle:` des thematisch naechsten Destillats — genau dort stand
+  in beiden Faellen die Widerlegung woertlich, ohne dass eine Volltextsuche noetig gewesen waere.
+  Mechanisierbar als kleiner Waechter (`grep -l` ueber QUESTIONS nach den drei Formulierungen, dann
+  Abgleich gegen `destillate/*.md` Frontmatter), analog `datenstand-waechter.py`. **Kosten des
+  Unterlassens sind belegt:** zwei Laeufe haben je einen erheblichen Teil ihrer Zeit mit dem Nachweis
+  verbracht, dass bereits vorhandenes Wissen vorhanden ist.
+- [ ] **E-R171-2 (P2): Die beiden Lichtnormen hinter den Schwimmbad-Kennwerten sind Sekundaerbeleg.**
+  **SLG 305 Teil 5** (Beleuchtung von Sportanlagen, Hallen- und Freibaeder) traegt den Wert
+  **ca. 1'100 lm/m3** fuer Wettkampf, **EN 12193** (Sportstaettenbeleuchtung) die Klassensystematik
+  I/II/III. Beide sind kostenpflichtig, in dieser KB nicht destilliert und im Register der KB `normen`
+  nicht gefuehrt (dort als N-E171-1 eingetragen). Die Werte in F263/F264 sind damit **ueber das
+  AHB-Merkblatt belegt, nicht an der Primaernorm gegengelesen** — im Destillat und in den FAQ-Antworten
+  ausdruecklich so gekennzeichnet. Vor einer verbindlichen Wettkampf-Beratung nachholen; Beschaffung
+  ist ein Normkauf-Entscheid (gleiche Klasse wie E-R148-1 und E-R161-1).
+- [ ] **E-R171-3 (P3): «Figur 1: Prinzip der Leuchtenanordnung» ist nicht erschlossen.** Die
+  Prinzipskizze auf S. 5 des Merkblatts liegt als Grafik vor; `pdftotext` gibt nur die Bildlegende her.
+  Der Textteil traegt die Anordnungsregeln vollstaendig (laengsseitig, 0,60-1,00 m, 2-3 m), die Figur
+  illustriert sie — geringe Prioritaet. Loesbar ueber eine Bildextraktion (`pdfimages`) und Lesen der
+  Grafik.
+
+**Unveraendert blockiert, nicht erneut aufgreifen:** E-R148-1 (Normkauf SIA 380/1:2016), E-R161-1
+(SN EN ISO 6946), E-R230-2 und E103 (beide Entscheid Raphael). **E-R163-1** (ewz-Fernwaermetarif,
+Volltext STRB 3879/2025) und **E-R164-3** (Werkzeug `datenstand-waechter.py`) bleiben offen, in diesem
+Lauf nicht bearbeitet.
+
+**Fuer den naechsten Lauf:** **E-R171-1** zuerst — es ist der einzige Punkt, der eine ganze Klasse
+kuenftiger Laeufe betrifft, und zwei Laeufe in Folge haben gezeigt, was er kostet. Danach der
+Rest der 169er-Reihe: **E-R169-4** (zwei Minergie-Broschueren + Anwendungshilfe 2026.2, P3),
+**E-R169-5** (ElCom-Weisung 4/2025 Volltext, P3), **E-R169-6** (VSE-HER-Anpassung, P3) — bei allen
+dreien nach E-R171-1 **zuerst den Bestand pruefen**, bevor beschafft wird.
+
 ## 2026-08-30 (Run 169) — E-R167-6 fortgesetzt und beantwortet: die Ader traegt noch, aber nur noch in einer Quellenklasse
 
 **Die Frage war** (E-R167-6): Die Begleitdokument-Pruefung auf die Raenge 15-30 ausdehnen — **und dabei
@@ -71,13 +122,32 @@ nicht eine andere** (Rule `auto-verbesserungen` 260729b, hier zum zweiten Mal in
   uebersehen, weil dort keine Verlinkung bestand. Beide Fundstellen jetzt gegenseitig verlinkt. **Lehre:**
   vor einer «noch nicht destilliert»-Diagnose zuerst `destillate/INDEX.md` nach den Sachbegriffen
   durchsuchen (hier: «Referenz-Marktpreis», «Minimalvergütung»), nicht nur die Fundstelle selbst.
-- [ ] **E-R169-2 (P2): BD LEG-CH 2025 selbst lesen.** Die Branchenempfehlung «Lokale Elektrizitaets-
-  gemeinschaften» ist jetzt namentlich belegt (ueber die ElCom-FAQ Frage 9.2), aber in dieser KB nach
-  wie vor **nicht gelesen**. Der seit Monaten offene Punkt «BD-LEG noch offen» ist damit praeziser, aber
-  nicht erledigt.
-- [ ] **E-R169-3 (P2): AHB-Merkblatt «Beleuchtung Hallenbaeder und Schulschwimmanlagen», M-System-Nr.
-  384, Oktober 2024** destillieren — bisher in der KB nicht erfasst, mit eigenen Kennwerten nach
-  EN 12464-1 und EN 12193. Fundstelle im Nachtrag von `[[ahb-zuerich-gt-rl8-beleuchtung]]`.
+- [x] **E-R169-2 (P2): BD LEG-CH 2025 selbst lesen.** ✓ **Geschlossen 31.08.2026 (Run 171) als
+  FEHL-OFFEN — das Dokument war seit sieben Wochen vollstaendig gelesen.** Die Einstufung «in dieser
+  KB nach wie vor nicht gelesen» ist am Bestand widerlegt:
+  `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]` nennt in drei Frontmatter-Feldern
+  (`quelle`, `gelesen`, `datenstand`) woertlich «**BD LEG – CH 2025 V2**
+  (strom.ch/de/media/15458/download), LOKAL per Read-Tool aus dem heruntergeladenen PDF gelesen
+  (**alle 35 Seiten vollstaendig**)», Datum **13.07.2026 (Run 52)**. Der Textkoerper zitiert die
+  Branchenempfehlung kapitelgenau (Kap. 3-4 Gruendung/Fristen, Kap. 4.5 Formel Produktions-/
+  Anschlussleistung mit Rechenbeispiel, Kap. 8 Speicher-Uebergangsregelung, Kap. 9-10 Verguetung+HKN).
+  Am **24.08.2026** wurde die Quelle zusaetzlich re-geprueft, mit zwei eigenstaendigen Befunden:
+  **es gibt keine V3**, und **Anhang 1 wurde im Dezember 2025 geloescht**, ohne dass die
+  Versionsnummer wechselte. Damit ist der Punkt in jeder Hinsicht erledigt — inklusive der
+  Ausgabenstandsfrage, die er gar nicht gestellt hatte.
+  **Einzige verbleibende Praezisierung** (bewusst nicht als neuer Punkt gefuehrt, weil geringfuegig):
+  die Run-110-Ergaenzung zu Speichern im Mischbetrieb stammt aus dem Swissolar-Batteriemonitor und
+  traegt im Destillat noch den Vermerk «noch nicht seitengenau gegen die BD-LEG-Primaerquelle selbst
+  verifiziert» — die Sachaussage selbst ist inzwischen ueber Art. 19h StromVV und den Erlaeuternden
+  Bericht des BFE (Run 167) amtlich gedeckt, der Vermerk ist also ueberholt, nicht offen.
+- [x] **E-R169-3 (P2): AHB-Merkblatt «Beleuchtung Hallenbaeder und Schulschwimmanlagen», M-System-Nr.
+  384, Oktober 2024** destillieren. ✓ **Erledigt 31.08.2026 (Run 171):**
+  `[[ahb-merkblatt-384-beleuchtung-hallenbaeder-2024]]`, S. 1-6 vollstaendig, Quelle per curl geladen
+  und vor der Auswertung geprueft (HTTP 200, `application/pdf`, 159'012 Byte, SHA-256 `8fde99d5…09f77b`).
+  **Ausgabenstand mitgeprueft** (Methode E-R164-2): die offizielle AHB-Downloadliste
+  (www.stadt-zuerich.ch/egt) fuehrt genau diese Datei mit «PDF | 6 Seiten | 155 KB» — deckungsgleich,
+  keine neuere Fassung, kein zweites Merkblatt zum Thema. Verdichtet in **F263** (Kennwerte +
+  Rohbau-Relevanz) und **F264** (Wettkampf-Entscheid, Faktor 10).
 - [ ] **E-R169-4 (P3): zwei unerschlossene Minergie-Wissen-Broschueren** — «Sommerlicher Waermeschutz»
   (2019, Ueberarb. Aug. 2023) und «Messen. Steuern. Optimieren.» (2021, **Ueberarb. Mai 2025**, juengste
   Revision der Reihe). Dazu die 2026er-Begleitdokumente zum Produktreglement, darunter die

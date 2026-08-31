@@ -6461,3 +6461,27 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   skizzierte Vorschlag einer Stichprobenrunde für den Mittelbau der ~300 übrigen
   `established`-Destillate ohne Prüfstand — **weiterhin Raphael vorzulegen, nicht selbständig
   zu starten** (Trefferquote einer Stichprobe in dieser Reihe nie gemessen).
+
+## Cross-KB-Eingang aus KB `energie` (Run 171, 31.08.2026)
+
+- [ ] **N-E171-1 (P2): Drei Beleuchtungsnormen fehlen im Register, obwohl die KB `energie` sie
+  laufend zitiert.** Beim Destillieren des AHB-Merkblatts M-System-Nr. 384 «Beleuchtung Hallenbäder
+  und Schulschwimmanlagen» (Oktober 2024) hat die KB `energie` gegen dieses Register geprüft:
+  **EN 12464-1** (Licht von Arbeitsstätten, Teil 1 Innenräume), **EN 12193** (Sportstätten-
+  beleuchtung) und **SLG 305 Teil 5** (Richtlinie Beleuchtung von Sportanlagen, Hallen- und
+  Freibäder) kommen in `wiki/REGISTER.md` **null Mal** vor (`grep -c`, 31.08.2026).
+  **Warum das mehr ist als eine Registerlücke:** EN 12464-1 ist die Bezugsnorm der gesamten
+  AHB-Lux-Systematik und steht bereits in mehreren `energie`-Destillaten als tragende Fundstelle
+  (`ahb-merkblatt-376-uebersichtstabelle-beleuchtungsanforderungen-2025`,
+  `ahb-zuerich-uebersichtstabelle-beleuchtung-en12464`, `ahb-zuerich-gt-rl8-beleuchtung`) — sie
+  wird also nach Rule `normen-referenz` zitiert, ohne dass dieses Register ihren Fassungsstand
+  führt. SIA 387/4 ist demgegenüber sauber erfasst (Register Z. 477, inkl. der 2023er-Klärung).
+  Offen ist damit: gültige Ausgabe/Jahrgang der drei Normen, Bestand im Haus, und ob die
+  BBV I ZH sie ebenso als «zu beachten» führt wie die 387/4.
+  **Belegte Einzelwerte aus dem Merkblatt** (über die Sekundärquelle belegt, nicht an den
+  Primärnormen gegengelesen): 300 lx vollflächig über der Wasserfläche, 120 lm/m3 Wasservolumen
+  Unterwasserbeleuchtung, ca. 1'100 lm/m3 für Wettkampf/Vorführung (dort auf SLG 305 Teil 5
+  gestützt). Destillat: `wissen/energie/destillate/ahb-merkblatt-384-beleuchtung-hallenbaeder-2024.md`,
+  Laufbericht `wissen/energie/outputs/2026-08-31_energie-run171.md`.
+  Eingetragen nach Rule `wissens-bibliothekar` (Cross-KB-Bringschuld beim erledigenden Lauf) und
+  dem Verfahrensschritt aus E46-1 der KB `energie`.
