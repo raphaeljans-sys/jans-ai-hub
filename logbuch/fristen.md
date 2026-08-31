@@ -4772,3 +4772,13 @@ unverändert: dieses Briefing und die vier Register-Nachträge liegen auf dem NA
 GitHub-Backup. Nicht selbst aufgelöst, aus den bekannten Gründen (fremde unbestätigte Arbeit
 mehrerer Lanes, Rule `interaktive-eingriffe` Punkt 3).
 | Eigene Messung 31.08.2026 07:07 nativ per ssh auf der Synology (`git log -1`, `git diff --diff-filter=U`, `git rev-list --left-right --count HEAD...github/main`) | Hub-Infrastruktur / alle Stationen | **hoch (P1)** | offen — Einzelentscheid Raphael |
+
+**NACHTRAG 31.08.2026, 08:08 zur P1-Sync-Zeile — Messung des Verzugscheck-Laufs.** Derselbe
+Vorgang, eine Stunde spaeter: `nas-commit-now.sh` hat den Registernachtrag dieses Laufs nativ
+committet (`23128c452`, 08:07:49), der Abgleich scheiterte erneut an denselben Konfliktdateien
+(`wissen/grobkosten/CHANGELOG.md`, `wissen/normen/CHANGELOG.md`). Selfcommit-Log: **Versuch 514**,
+Divergenz **426 voraus / 267 nicht integriert** (07:50 waren es 424/267, 07:07 418/267 — rund
+acht Commits pro Stunde allein aus den Schub-Lanes). Arbeitsbaum danach sauber, kein `MERGE_HEAD`.
+Der gemeinsame Vorfahr ist unveraendert `01204714a` vom **29.08.2026 22:04**, das Backup steht
+damit seit **34 Stunden**. Nicht selbst aufgeloest (Git-Interna, unbeaufsichtigter Lauf, fremde
+unbestaetigte Arbeit mehrerer Lanes).
