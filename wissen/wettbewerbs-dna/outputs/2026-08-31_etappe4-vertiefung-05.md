@@ -130,3 +130,19 @@ neu das offene Ausstellungsdatum der Verfuegung 2206.
 
 **Ohne neuen Entscheid oder neues Material erzeugt der naechste Lauf dieses Loops kein
 inhaltliches Delta.**
+
+## 8. Nebenbefund Betrieb (nicht Loop-Sache, aber diesen Lauf betreffend)
+
+Der Sicherungslauf `nas-commit-now.sh` hat den Stand erfolgreich **committet**
+(`c07fa28f3`, 02:48:45), der anschliessende Abgleich mit GitHub scheiterte —
+**Versuch 488, Divergenz 396 lokal / 266 remote**. Der Vorgang ist seit dem 29.08.2026 als
+**P1** im Register `logbuch/fristen.md` geführt; dieser Lauf hat dort nur einen datierten
+Messnachtrag angehängt, keinen neuen Vorgang eröffnet. **Praktische Folge für diese KB:** der
+Abschluss der Etappe 4 samt der heute behobenen Fehlerquelle liegt ausschliesslich auf dem NAS
+und ist nicht im GitHub-Backup.
+
+**Nicht selbst aufgelöst, bewusst:** unbeaufsichtigter Lauf, Eingriff in Git-Interna über fremde
+unbestätigte Arbeit mehrerer parallel laufender Lanes (Rule `interaktive-eingriffe` Punkt 3).
+Die Konflikte sitzen ausnahmslos in append-at-top-Dateien (CHANGELOGs mehrerer KBs) — dieselbe
+Fehlerfamilie, die auch der heutige inhaltliche Befund berührt: mehrere Läufe schreiben an
+denselben Kopf, und niemand merkt es, bis es widersprüchlich wird.
