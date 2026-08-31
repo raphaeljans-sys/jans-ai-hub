@@ -7818,3 +7818,40 @@ Juryberichten/-programmen dieser Sektion bleiben rund 16. Datenschutz/Sperrliste
 `bash scripts/nas-commit-now.sh`. Nächster Lauf: einen der übrigen rund 16
 Juryberichte/-programme dieser Sektion lesen, sonst gemäss `KORPUS-QUEUE.md` die nächste
 Sektion mit offenem P1.
+
+## 31.08.2026 — Sektion 02_Gestalt_Kulturverstaendnis, dreizehnter Lauf, ZÜRICHFORUM-Kongresszentrum-Jurybericht (Lane FACHWISSEN)
+
+Position `02_Architekturdisskurs/04_Wettbewerbe/Zuerich/060505_Kongresshaus_Zuerich/
+kongresshaus_jurybericht.pdf` vollständig gelesen (105 Seiten): Bericht des Preisgerichts
+«ZÜRICHFORUM», neues Kongresszentrum Zürich, Vorsitz Peter Zumthor, April 2006. Anders als
+die bisher destillierten offenen, anonymen Projektwettbewerbe (Zollstrasse Ost, Depot Hard)
+ein zweistufiges, nicht anonymes Studienauftragsverfahren mit zehn eingeladenen Büros
+(Moneo, Taniguchi, Vacchini, Diener & Diener, Betrix & Consolascio, Gigon/Guyer,
+Chipperfield, Dürig, Perrault, Souto de Moura), Zwischenpräsentation, verbindlicher
+Programmreduktion um rund 25 % nach dieser Zwischenpräsentation, Phase Wettbewerb (10
+Projekte) und Phase Überarbeitung (3 Projekte), Sieger Rafael Moneo.
+
+**Neuer Artikel:**
+[[wettbewerbsverfahren-zweistufig-nicht-anonym-studienauftrag-zuerichforum-programmreduktion]].
+Kernbefunde: (1) Verfahrensform mit Zwischenkorrektur — ein Programm kann bei einem
+mehrstufigen Studienauftrag nach einer dokumentierten Zwischenerkenntnis verbindlich neu
+gefasst werden, bevor die eigentliche Jurierung beginnt; (2) Denkmalschutz-Abwägung bereits
+im Programm selbst aufgelöst nach der Formel «Gegenwert statt Erhaltungspflicht» (Tonhalle
+1895 muss erhalten bleiben, Kongresshaus 1939 von Haefeli/Moser/Steiger darf trotz
+kantonalem Schutzstatus abgebrochen werden, wenn das neue Projekt einen städtebaulichen
+Gegenwert liefert); (3) dieselbe Sandwich-Kritikstruktur (Würdigung → Mängel → Synthese) wie
+in der Depot-Hard-Reihe bestätigt sich, aber die dort belegte Rang↔Schärfe-Korrelation
+überträgt sich nicht auf ein Verfahren mit nur drei gleichrangig eingeladenen
+Überarbeitungsprojekten — offene Frage der Depot-Hard-Notiz damit teilweise beantwortet;
+(4) «Antrag und Empfehlungen» als bauteilgegliederter, verb-pro-Punkt formulierter
+Bedingungskatalog fürs Siegerprojekt ist ein direkt als Pflichtenheft nutzbares Muster für
+`bericht-autor`/`wettbewerb`.
+
+Datenschutz/Sperrliste: kein Fund (veröffentlichtes Verfahrensdokument, alle genannten
+Personen — Preisgericht, Projektverfasser, Fachberater — in öffentlicher
+Wettbewerbs-/Preisgerichtsfunktion, keine Adress-/Honorar-/Personaldaten). Von den rund 16
+zuvor offenen Juryberichten/-programmen dieser Sektion bleiben rund 15. `git diff
+--numstat` auf die Inventardatei zeigt reinen Append (21 0). Sicherung via
+`bash scripts/nas-commit-now.sh`. Nächster Lauf: einen der übrigen rund 15
+Juryberichte/-programme dieser Sektion lesen, sonst gemäss `KORPUS-QUEUE.md` die nächste
+Sektion mit offenem P1.

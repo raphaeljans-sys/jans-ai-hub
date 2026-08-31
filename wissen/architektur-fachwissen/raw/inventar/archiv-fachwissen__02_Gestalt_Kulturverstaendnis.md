@@ -675,3 +675,24 @@ Fund (veröffentlichtes Verfahrensdokument, Architekt in öffentlicher Wettbewer
 `bash scripts/nas-commit-now.sh`. **Nächster Lauf:** einen der übrigen rund 16
 Juryberichte/-programme dieser Sektion lesen, sonst gemäss `KORPUS-QUEUE.md` die nächste
 Sektion mit offenem P1.
+
+## Destillat-Fortschritt, dreizehnter Lauf (P1, 31.08.2026, Lane FACHWISSEN)
+
+Position `Zuerich/060505_Kongresshaus_Zuerich/kongresshaus_jurybericht.pdf` gelesen
+(vollständiger Preisgerichtsbericht «ZÜRICHFORUM», neues Kongresszentrum Zürich,
+Vorsitz Peter Zumthor, April 2006, 105 Seiten, vollständig ausgewertet — zweistufiges,
+nicht anonymes Studienauftragsverfahren mit Zwischenpräsentation, Programmreduktion um
+rund 25 %, Phase Wettbewerb 10 Projekte, Phase Überarbeitung 3 Projekte, Sieger Rafael
+Moneo). **Neuer Artikel**:
+[[wettbewerbsverfahren-zweistufig-nicht-anonym-studienauftrag-zuerichforum-programmreduktion]]
+(Verfahrensform mit Zwischenkorrektur, Denkmalschutz-«Gegenwert»-Abwägung als
+Programm-Vorentscheid, Sandwich-Kritikstruktur ohne Rang-Schärfe-Korrelation im
+Unterschied zur Depot-Hard-Reihe, «Antrag und Empfehlungen»-Bedingungskatalog als
+Pflichtenheft-Muster für die Weiterbearbeitung). Datenschutz/Sperrliste: kein Fund
+(veröffentlichtes Verfahrensdokument, alle genannten Personen in öffentlicher
+Wettbewerbs-/Preisgerichtsfunktion). Von den rund 16 zuvor offenen Juryberichten/
+-programmen dieser Sektion bleiben rund 15. `git diff --numstat` nach dem Schreiben
+geprüft: reiner Append. Sicherung via `bash scripts/nas-commit-now.sh`. **Nächster Lauf:**
+einen der übrigen rund 15 Juryberichte/-programme dieser Sektion lesen (z. B. Triemli,
+Langhagweg, Europaallee Baufeld B/G/H, Kongresshaus-Nachbarverfahren Kronenwiese/
+Schauenberg), sonst gemäss `KORPUS-QUEUE.md` die nächste Sektion mit offenem P1.
