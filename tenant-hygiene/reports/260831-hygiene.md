@@ -238,4 +238,31 @@ Härtung adressiert. Falls sich das an weiteren Läufen wiederholt, gehört ein
   greift (Montag, Wochenpflicht). Grund c) greift beim Wochenschnitt **nicht** mehr
   (67 Tage, über 60) — beim Werktagsschnitt mit 48 Tagen weiterhin schon; die Abweichung
   ist ein Fenster-Effekt und oben ausdrücklich eingeordnet. Auslastung 84.74 % (unter 88),
-  keine Auto-Bereinigung, kein Blocker.
+  keine Auto-Bereinigung. Grund **e)** greift zusaetzlich — der Report konnte nicht ins GitHub-Backup gesichert werden (Nachtrag unten).
+
+## Nachtrag 20:2x — Blocker: der Report ist committet, aber nicht gesichert (Grund e)
+
+Der Versuch, den Report ueber `scripts/nas-commit-now.sh` zu sichern, endete mit rc=1 und
+«Automatic merge failed». **Der Commit selbst ist gelungen** (`faf5e56b8`, 20:24:46, Datei
+auf der Synology vorhanden); gescheitert ist der anschliessende Abgleich mit GitHub.
+
+Eigene Nachmessung nativ per ssh, weil der rc fuer sich genommen wie ein Datenverlust
+aussieht und keiner ist: HEAD steht auf dem eigenen Commit, Arbeitsbaum sauber, **kein
+`MERGE_HEAD`, null Konfliktdateien**. Das Script setzt vollstaendig zurueck statt halb
+aufzuloesen.
+
+Lage des bereits bekannten P1-Vorgangs, heute Abend gemessen:
+
+- Divergenz **484 Commits voraus / 267 nicht integriert** (13:15 waren es 452/267)
+- Letzter gemeinsamer Stand `01204714a` vom **29.08.2026 22:04**, also rund **46 Stunden** alt
+- `github/main` unveraendert bei `66df04125` vom heutigen 06:12 («auto-sync [Macmini]»)
+- Konflikte in denselben fuenf append-at-top-Dateien wie um 13:15, dazu
+  `wissen/architektur-fachwissen/wiki/QUESTIONS.md`
+
+**Folge fuer diese Reihe:** die Hygiene-Reports vom 29., 30. und 31.08. liegen ausschliesslich
+auf dem NAS und sind nicht im GitHub-Backup — der dritte Tag in Folge.
+
+**Nicht selbst aufgeloest** (Git-Interna, unbeaufsichtigter Lauf, fremde unbestaetigte Arbeit
+mehrerer Lanes in genau den Konfliktdateien; Rule `interaktive-eingriffe` Punkt 3, Rule
+`auto-verbesserungen` 260811 Punkt 3). Messpunkt im Register nachgetragen:
+`logbuch/fristen.md`, Nachtrag 31.08.2026 20:2x.
