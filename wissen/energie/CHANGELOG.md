@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 2026-08-31 (Nachtschicht Mac Mini, Run 170) — E-R169-1 geschlossen: Messtarife pro Messpunkt destilliert, Rueckliefervergütung-Doppelbefund aufgeklaert
+
+**Neu:** `destillate/messtarife-pro-messpunkt-stromvg-2026.md` — StromVG Art. 17a (Fedlex-Volltext,
+Fassung 1.1.2026) woertlich gelesen und destilliert: Messentgelt neu je Messpunkt statt indirekt
+ueber das Netznutzungsentgelt, verursachergerechter Messtarif, Kostendeckungsprinzip. `wiki/
+BAUHERREN-FAQ.md` F262 neu; `wiki/pv-eigenverbrauch-zev.md` um Abschnitt «Messentgelt je Messpunkt»
+gewachsen.
+
+**Korrigiert:** Der Nachtrag vom 30.08.2026 in `destillate/zev-eigenverbrauch-mfh-her-2025.md` hatte
+die **Rueckliefervergütung** (Art. 15 EnG/Art. 12 EnV/Art. 15 EnFV) faelschlich als «noch nicht
+ausdestilliert» gefuehrt — sie steht bereits seit 17.07.2026 vollstaendig in `destillate/
+pv-rueckliefer-verguetung-mindestverguetung-2026.md`. Beide Destillate jetzt gegenseitig verlinkt,
+der Nachtrag richtiggestellt. `wiki/QUESTIONS.md` E-R169-1 geschlossen (mit Lehre: vor einer
+«noch offen»-Diagnose zuerst das Sach-Register durchsuchen, nicht nur die Fundstelle selbst).
+
+Bericht: `outputs/2026-08-31_energie-run170.md`.
+
 ## 2026-08-30 (Wissens-Chef Run 48) — der Symbolwechsel qE50 → qa50 blieb in F115 und drei Index-/Schwesterzeilen stehen
 
 Run 168 fuehrte am selben Tag die RiLuMi auf Ausgabe **2026.1** nach und zog den Symbolwechsel in

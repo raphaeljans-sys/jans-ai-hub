@@ -125,3 +125,13 @@ LEG ab 1.1.2026) und
 altern schnell — konkrete Tarif-/Preisregeln vor Zusagen am aktuellen Stand (VSE / EnergieSchweiz /
 Standort-VNB) prüfen. Absolut-Erträge/Eigenverbrauchsquoten → [[pv-ertrag-eigenverbrauch-praxis]];
 Marktpreise → [[pv-marktzahlen-kosten-ch-2025]]; Förderung Bund → [[pv-einmalverguetung-bund-bfe]].
+
+## Messentgelt je Messpunkt (neu ab 1.1.2026)
+
+Seit dem zweiten Mantelerlass-Verordnungspaket ist das Messwesen ein eigener Gesetzesabschnitt
+(StromVG Art. 17a): Netzbetreiber erheben das Messentgelt neu **je Messpunkt**, auf Basis eines
+selbst festgelegten, verursachergerechten Messtarifs — vorher lief dieser Kostenblock indirekt
+über das Netznutzungsentgelt. Für eine ZEV-/LEG-Konfiguration mit mehreren Messpunkten (getrennt
+gemessene Wärmepumpe, PV-Erzeugung, mehrere Mietparteien) wird das ein eigener, wiederkehrender
+Kostenposten. Der LEG-Netzentgelt-Rabatt gilt ausdrücklich **nicht** auf dem Messtarif.
+→ [[messtarife-pro-messpunkt-stromvg-2026]], [[BAUHERREN-FAQ]] F262.

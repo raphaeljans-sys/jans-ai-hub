@@ -60,13 +60,17 @@ Fundstelle geloescht worden. **Wer eine Quellenangabe widerlegen will, muss die 
 nicht eine andere** (Rule `auto-verbesserungen` 260729b, hier zum zweiten Mal in dieser KB belegt).
 
 ### Neu offen nach diesem Lauf
-- [ ] **E-R169-1 (P1): Das zweite Verordnungspaket des Mantelerlasses per 01.01.2026 destillieren.**
-  Der groesste Einzelbefund dieses Laufs, der NICHT abgearbeitet wurde. Betroffen: **Messtarife neu pro
-  Messpunkt** (Art. 17a StromVG, Version 1.1.2026, AS 2024 679 — bis 2025 lief die Abgeltung indirekt
-  ueber das Netznutzungsentgelt; das aendert die Kostenseite jeder ZEV-Messkonfiguration) und die
-  **Rueckliefervergütung nach BFE-Referenz-Marktpreis** samt Minimalverguetungen (Art. 15 EnG Version
-  1.1.2026 i.V.m. Art. 12 EnV, AS 2025 138, Art. 15 EnFV). In `[[zev-eigenverbrauch-mfh-her-2025]]` nur
-  **benannt**, nicht ausdestilliert — gehoert an den Verordnungstext, nicht in einen Nachtrag.
+- [x] **E-R169-1 (P1): Das zweite Verordnungspaket des Mantelerlasses per 01.01.2026 destillieren.**
+  ✓ **Geschlossen 31.08.2026 (Run 170), zerfiel bei Bearbeitung in zwei Teile mit sehr unterschiedlichem
+  Befund.** Teil 1 (**Messtarife neu pro Messpunkt**, Art. 17a StromVG, Version 1.1.2026, AS 2024 679)
+  war tatsaechlich offen und ist jetzt destilliert: `[[messtarife-pro-messpunkt-stromvg-2026]]`,
+  Fedlex-Volltext gelesen, BAUHERREN-FAQ F262. Teil 2 (**Rueckliefervergütung** nach BFE-Referenz-
+  Marktpreis samt Minimalverguetungen, Art. 15 EnG i.V.m. Art. 12 EnV/Art. 15 EnFV) war entgegen der
+  Einschaetzung dieses Eintrags **gar nie offen** — bereits seit 17.07.2026 vollstaendig destilliert in
+  `[[pv-rueckliefer-verguetung-mindestverguetung-2026]]`; der Nachtrag im ZEV-Destillat hatte das
+  uebersehen, weil dort keine Verlinkung bestand. Beide Fundstellen jetzt gegenseitig verlinkt. **Lehre:**
+  vor einer «noch nicht destilliert»-Diagnose zuerst `destillate/INDEX.md` nach den Sachbegriffen
+  durchsuchen (hier: «Referenz-Marktpreis», «Minimalvergütung»), nicht nur die Fundstelle selbst.
 - [ ] **E-R169-2 (P2): BD LEG-CH 2025 selbst lesen.** Die Branchenempfehlung «Lokale Elektrizitaets-
   gemeinschaften» ist jetzt namentlich belegt (ueber die ElCom-FAQ Frage 9.2), aber in dieser KB nach
   wie vor **nicht gelesen**. Der seit Monaten offene Punkt «BD-LEG noch offen» ist damit praeziser, aber

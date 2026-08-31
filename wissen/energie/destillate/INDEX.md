@@ -466,3 +466,18 @@ Ausgabe derselben** Quelle — die Frage, an der Run 164 beim Merkblatt Fenster 
 WordPress-REST-API `/wp-json/wp/v2/media?search=<begriff>&per_page=100` vollständig auslesbar
 (Upload- und Änderungsdatum je Datei). Damit ist der Ausgabenstand dieser Plattform maschinell
 prüfbar und **E-R164-1** gegenstandslos.
+
+## 2026-08-31 (Run 170) — E-R169-1 abgeschlossen: nur die Messtarif-Seite war wirklich offen
+
+Der Auftrag «zweites Verordnungspaket per 01.01.2026 destillieren» (Messtarife + Rückliefervergütung)
+zerfiel bei Prüfung in zwei sehr unterschiedliche Teile: die **Rückliefervergütung** (Art. 15 EnG,
+Art. 12 EnV, Art. 15 EnFV) war bereits seit 17.07.2026 in `[[pv-rueckliefer-verguetung-mindestverguetung-2026]]`
+vollständig destilliert — der Nachtrag im ZEV-Destillat hatte das übersehen und fälschlich als offen
+geführt. Nur die **Messtarife pro Messpunkt** (StromVG Art. 17a) waren tatsächlich ungedeckt; die
+existierenden Destillate zu Art. 17abis/17b/17c (Smart Meter, Sperrzeiten) zitierten Art. 17a nur
+beiläufig als Rechtsgrundlage, ohne den Kostenmechanismus (Messentgelt je Messpunkt statt indirekt
+über Netznutzung) selbst wiederzugeben.
+
+| Destillat | Quelle | Status | Datenstand |
+|---|---|---|---|
+| [[messtarife-pro-messpunkt-stromvg-2026]] (neu) | StromVG Art. 17a, Fedlex-PDF (curl+pdftotext, Volltext) | established | 2026-08-31 / Recht 1.1.2026 |

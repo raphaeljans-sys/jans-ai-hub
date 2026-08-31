@@ -168,16 +168,22 @@ relevant:
   per 01.01.2026 in Kraft; die Netzbetreiber erheben neu Messtarife, die kostenorientiert
   ausgestaltet sein müssen und die anrechenbaren Messkosten nicht übersteigen dürfen. Bis 2025
   lief die Abgeltung indirekt über das Netznutzungsentgelt. **Das ändert die Kostenseite jeder
-  ZEV-/vZEV-Messkonfiguration** und ist in diesem Destillat noch nicht abgebildet.
+  ZEV-/vZEV-Messkonfiguration** — ✓ **ausdestilliert 31.08.2026** in
+  [[messtarife-pro-messpunkt-stromvg-2026]] (E-R169-1 Teil 1 geschlossen, Run 170).
 - **Rückliefervergütung** — ab 01.01.2026 gilt der vom BFE publizierte **Referenz-Marktpreis**,
   ergaenzt um Minimalverguetungen (Art. 15 EnG Version 01.01.2026 i.V.m. Art. 12 EnV, AS 2025 138,
-  und Art. 15 EnFV).
+  und Art. 15 EnFV). ⚠ **Korrektur 31.08.2026:** Dieser Punkt war schon seit 17.07.2026 vollstaendig
+  ausdestilliert in [[pv-rueckliefer-verguetung-mindestverguetung-2026]] (Art. 9/11/12/13/15
+  woertlich gelesen) — der Nachtrag vom 30.08.2026 hatte das übersehen und fälschlich als offen
+  gefuehrt. E-R169-1 Teil 2 war demnach nie offen, nur nicht von hier aus verlinkt (Run 170).
 - **LEG-Ausfuehrungsbestimmungen** — Art. 17d/17e StromVG und Art. 19e bis 19h StromVV, je Version
   vom 01.01.2026. Die LEG ist damit nicht mehr nur angekündigt, sondern vollzugsreif
   (→ [[leg-lokale-elektrizitaetsgemeinschaft-2026]]).
 
-**Diese drei Punkte sind hier bewusst nur benannt, nicht ausdestilliert** — sie gehören in einen
-eigenen Lauf am Verordnungstext, nicht in einen Nachtrag an einem HER-Destillat.
+**Die LEG-Ausfuehrungsbestimmungen bleiben bewusst nur benannt, nicht ausdestilliert** — sie
+gehoeren in einen eigenen Lauf am Verordnungstext (E-R169-2/-3), nicht in einen Nachtrag an einem
+HER-Destillat. Die beiden anderen Punkte oben sind seit Run 170 (31.08.2026) bzw. bereits seit
+17.07.2026 erledigt.
 
 ## Offene Punkte
 - **LEG** (Modell, Netzentgelt-Rabatt, Voraussetzungen) — eigenes Branchendokument BD-LEG, noch offen.
