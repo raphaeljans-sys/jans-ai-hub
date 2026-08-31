@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.08.2026 07:53:34
+Stand: 31.08.2026 08:03:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 31.08.2026 07:53:34
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 3f401679f ag-gruendung-monitor: Status 31.08. (Kapitaleinzahlung 14 Tage ausstehend)
+- 0cadd6e25 sync: twin-fidelity-review: 2026-08-31
