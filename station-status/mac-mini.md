@@ -1,10 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 31.08.2026 06:31:16
+Stand: 31.08.2026 06:41:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:15)
-- /Users/raphaeljans  (letzte Aktivitaet 06:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
