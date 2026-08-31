@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.08.2026 13:03:46
+Stand: 31.08.2026 13:28:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:04)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:26)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 31.08.2026 13:03:46
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- bd1c1882c nas-selfcommit: 3 Datei(en) 2026-08-31 13:00
+- 255f5bcc9 vollgas-radar: P1-Divergenz 452/267 nachgemessen, Registernachtrag, Mount-Stalls
