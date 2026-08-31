@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 00:22:12
+Stand: 01.09.2026 00:42:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 01.09.2026 00:22:12
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 896f691e9 baurecht Buch-Run 141: RPV-Schwellengruppe geschlossen (Art. 32a/36/37 Stand 1.1.2026) — 3 Zahlen CONFIRMED, 4 Regelfehler korrigiert, Phantom-Artikel 37a RPV ausgeraeumt, Cross-KB-Zeiger an energie
+- cd0b567ee baurecht Buch-Run 141: Report + Fristen-Nachtrag (Backup-Divergenz 507/267, 15 Konfliktdateien gemessen)
