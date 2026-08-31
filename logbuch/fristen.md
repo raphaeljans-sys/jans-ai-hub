@@ -4838,3 +4838,29 @@ Nicht selbst aufgeloest, unveraendert aus denselben Gruenden (Git-Interna, unbea
 fremde unbestaetigte Arbeit mehrerer Lanes in genau den Konfliktdateien; Rule
 `interaktive-eingriffe` Punkt 3, Rule `auto-verbesserungen` 260811 Punkt 3).
 | Eigene Messung 31.08.2026 20:2x nativ per ssh auf der Synology (`git status -sb`, `git merge-base HEAD github/main`, `git status --porcelain`) | Hub-Infrastruktur / alle Stationen | **hoch (P1)** | offen — Einzelentscheid Raphael |
+
+**Nachtrag 31.08.2026 22:5x (Energie-Lauf 171, eigene Messung nativ per ssh).** Die Divergenz steht
+auf **496/267**. Gegenueber 20:2x (484/267) sind das **zwoelf Commits in rund zweieinhalb Stunden**,
+also weiterhin rund fuenf pro Stunde — der von 13:15 und 20:2x gemessene Trend haelt unveraendert an.
+**267 steht den dritten Tag unveraendert**, letzter gemeinsamer Stand weiterhin `01204714a` vom
+29.08.2026 22:04, `github/main` weiterhin `66df04125` von heute 06:12 («auto-sync [Macmini]»). Die
+Divergenz ist damit rund **49 Stunden** alt.
+
+**Wie der Befund in diesem Lauf auffiel** (relevant, weil er einen zweiten Symptomweg zeigt): nicht
+ueber eine Statusmessung, sondern beim regulaeren Abschluss-Commit. `nas-commit-now.sh` meldete
+`rc=1` und Merge-Konflikte in `wissen/baurecht/training/KORPUS-QUEUE-thalwil-reglemente.md`,
+`wissen/grobkosten/CHANGELOG.md` und `wissen/normen/CHANGELOG.md` — also in CHANGELOGs **fremder**
+Lanes, nicht in den Dateien dieses Laufs. Gegenpruefung: **beide Repos sind sauber**, kein
+`MERGE_HEAD`, kein `rebase-merge`, keine Konfliktdateien (`git diff --diff-filter=U` leer, nativ auf
+der Synology und im SSD-Klon geprueft) — der fehlgeschlagene Merge wurde vollstaendig zurueckgerollt.
+**Der Commit dieses Laufs ist trotz `rc=1` sauber gelandet** (`9394bd080`), was die Fehlermeldung
+nicht erkennen laesst: der Rueckgabewert stammt aus dem nachgelagerten `pull --rebase` des SSD-Klons,
+nicht aus dem NAS-Commit. Wer `rc=1` als «nicht committet» liest, committet doppelt.
+
+**Praktische Folge fuer diesen Lauf:** das Destillat AHB-Merkblatt 384, F263/F264 und der Cross-KB-
+Eintrag an die KB `normen` liegen ausschliesslich auf dem NAS und sind nicht im GitHub-Backup.
+
+Nicht selbst aufgeloest, unveraendert aus denselben Gruenden (Git-Interna, unbeaufsichtigter Lauf,
+fremde unbestaetigte Arbeit mehrerer Lanes in genau den Konfliktdateien; Rule `interaktive-eingriffe`
+Punkt 3, Rule `auto-verbesserungen` 260811 Punkt 3). Ein Zusammenfuehren von 496 gegen 267 divergente
+Commits oder ein Force-Push bleibt Einzelentscheid Raphaels.
