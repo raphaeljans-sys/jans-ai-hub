@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 31.08.2026 22:49:40
+Stand: 31.08.2026 23:10:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:49)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 31.08.2026 22:49:40
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- fad871319 energie Run 171: Laufbericht-Nachtrag Commit-Befund; fristen.md Nachtrag Git-Divergenz 496/267
+- d0ad3a913 nas-selfcommit: 1 Datei(en) 2026-08-31 23:00
