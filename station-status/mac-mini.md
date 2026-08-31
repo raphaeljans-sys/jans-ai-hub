@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.08.2026 20:36:00
+Stand: 31.08.2026 20:56:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 31.08.2026 20:36:00
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 269daa45e tenant-hygiene 260831: Nachtrag Blocker (484/267, Report nicht gesichert) + Fristen-Register
+- 30d3b2461 nas-selfcommit: 2 Datei(en) 2026-08-31 20:45
