@@ -1,8 +1,8 @@
 ---
 title: Kontext-Architektur des Hubs — was wann laedt
 status: established
-last_updated: 2026-08-25
-sources: [messung-260729-grundkontext, messung-260803-grundkontext-wissens-chef-run23, messung-260806-grundkontext-wissens-chef-run27, messung-260825-grundkontext-nachtschicht, lecture-260729-anthropic]
+last_updated: 2026-08-31
+sources: [messung-260729-grundkontext, messung-260803-grundkontext-wissens-chef-run23, messung-260806-grundkontext-wissens-chef-run27, messung-260825-grundkontext-nachtschicht, messung-260831-grundkontext-nachtschicht, lecture-260729-anthropic]
 links: [[lecture-260729-anthropic]], [[INDEX]], [[environment-jans-hub]] (KB spec — formales Layer-3-Modell)
 ---
 
@@ -55,6 +55,45 @@ Schluessel 4 B/Token.
 | **Gesamt inkl. User-Level 25.08.2026** | **128'381** | **~32'095** |
 | Netto-Veraenderung 06.08. 23:41 → 25.08. 05:35 | +35'366 | +3 Importe (`interaktive-eingriffe`, `wege-und-vollmachten`, `wissens-ruecklauf`) + Wiederanwachsen bestehender Rules |
 | Stand gegenueber dem Vor-Diaet-Wert 105'573 B | **+19'539** | **19 % ueber dem Ausgangswert — die Diaet ist zum zweiten Mal vollstaendig aufgezehrt, diesmal deutlicher als am 03.08. (+9'909 B)** |
+| **Stand 31.08.2026 23:5x, 24 @-Importe (CLAUDE.md + Importe, ohne User-Level)** | **132'245** | **~33'061** |
+| davon `~/.claude/CLAUDE.md` (User-Level, separat) | 3'269 | ~817 |
+| **Gesamt inkl. User-Level 31.08.2026** | **135'514** | **~33'879** |
+| Netto-Veraenderung 25.08. 05:35 → 31.08. 23:5x | +7'133 | kein neuer Import (weiterhin 24 Rules), reines Wiederanwachsen bestehender Dateien |
+| Stand gegenueber dem Vor-Diaet-Wert 105'573 B | **+26'672** | **25 % ueber dem Ausgangswert — dritter Rebound in Folge, jedes Mal ohne Gegeneingriff staerker als der vorherige (+9'909 B → +19'539 B → +26'672 B)** |
+
+**Dritte Messung in Folge ohne Gegeneingriff (31.08.2026, Nachtschicht Mac Mini).** Sechs Tage
+nach der letzten Messung (25.08. 05:35) ist der Grundkontext um weitere 7'133 B gewachsen, auf
+132'245 B ohne User-Level. Reproduzierbarer Messweg unveraendert: `wc -c` ueber `CLAUDE.md` und
+alle 24 per `grep '^@/Volumes' CLAUDE.md` ermittelten Importe. Die Anzahl der Importe hat sich
+seit dem 25.08. **nicht** veraendert (weiterhin 24) — das Wachstum ist reines Wiederanwachsen
+bestehender Dateien, kein neuer Baustein.
+
+| Datei | Bytes | Anteil am Grundkontext (132'245 B) |
+|---|---|---|
+| `rules/auto-verbesserungen.md` | 35'175 | 26.6 % |
+| `CLAUDE.md` | 19'279 | 14.6 % |
+| `rules/anrede-kontakte.md` | 13'101 | 9.9 % |
+| `rules/interaktive-eingriffe.md` | 8'216 | 6.2 % |
+| `rules/bkp-2017-referenz.md` | 4'411 | 3.3 % |
+
+Die Rangfolge ist gegenueber dem 25.08. unveraendert. Von den 7'133 B Zuwachs entfallen
+4'094 B (57 %) allein auf `rules/auto-verbesserungen.md` (31'081 → 35'175 B, +13 % in sechs
+Tagen — das Wachstumstempo der Datei haelt an: 17'469 B am 06.08. → 31'081 B am 25.08. →
+35'175 B am 31.08., seit dem 06.08. **+101 %**), weitere 1'200 B (17 %) auf
+`rules/anrede-kontakte.md` (11'901 → 13'101 B), 144 B auf `CLAUDE.md` selbst.
+`rules/interaktive-eingriffe.md` und `rules/bkp-2017-referenz.md` sind seit dem 25.08.
+**unveraendert** (8'216 B bzw. 4'411 B, exakt gleich) — nicht jede Rule waechst, das Muster
+konzentriert sich auf wenige Dateien. Die restlichen rund 1'695 B verteilen sich auf die
+uebrigen 20 Rules.
+
+**Einordnung zu [[QUESTIONS]] Punkt 4 (25.08.2026):** die dort aufgeworfene Frage, ob
+`auto-verbesserungen.md` einen eigenen Schwellenwert-Riegel braucht, bleibt unentschieden bei
+Raphael — diese Messung ist reine Bestandsaufnahme, kein Eingriff. Der Befund selbst haelt aber
+weiter an: die Datei ist zum dritten Mal in Folge der groesste Einzelposten, ihr Anteil am
+Grundkontext waechst (24.8 % → 26.6 %), und die Wachstumsrate seit dem 06.08. ist nicht
+abgeflacht, sondern beschleunigt (78 % in den ersten 19 Tagen, weitere 13 % in den letzten
+sechs). Kein Eintrag in dieser Datei selbst wurde fuer diese Messung gepruefungspflichtig
+veraendert — die Beobachtung betrifft ausschliesslich die Gesamtgroesse.
 
 *(Zeile 06.08. nachgemessen Wissens-Chef Run 27, Messweg unveraendert. Der Wert deckt sich mit
 der unabhaengigen Messung des Verifikators vom 03.08. 23:25 — der Grundkontext hat sich in den

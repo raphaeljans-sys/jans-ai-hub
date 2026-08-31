@@ -3,6 +3,21 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht Mac Mini 31.08.2026 (23:3x, Prioritaet 5) — Grundkontext-Messung Nr. 3, `claude-code`
+
+Prioritaeten 1-4 geprueft, alle leer/nicht anwendbar: der einzige Sync-Task ist der bewusst
+angehaltene «Laufzeitschicht-Umbau» (wartet auf Raphaels Arbeitsbaum-Entscheid, richtig
+unberuehrt gelassen); Synobsis Stufe 2 unveraendert 853/853; Fristen-Register ohne neuen,
+heute noch nicht aufbereiteten Punkt; alle Training-KBs eigen getaktet, formal erledigt/
+ausgesetzt (bauprodukte, grobkosten) oder bereits heute beruehrt (energie Run 171,
+architektur-fachwissen, twin, wettbewerbs-dna, koordination). Auf Prioritaet 5 ausgewichen:
+offene Frage 3 in `wissen/claude-code/wiki/QUESTIONS.md` (Grundkontext-Token-Kosten) direkt
+aus der laufenden Session heraus gemessen. Ergebnis: 132'245 B ohne User-Level (25.08.:
+125'112 B), dritter Rebound in Folge ohne Gegeneingriff, Treiber weiterhin
+`rules/auto-verbesserungen.md`. Details in `wissen/claude-code/wiki/kontext-architektur.md`
+und CHANGELOG derselben KB. Keine Entscheidung getroffen, keine Rule veraendert. Kein
+Versand, keine Publikation, keine Buchung. Budget rund 2.5 von 5 USD, Zyklus beendet.
+
 ## Nachtschicht Mac Mini 31.08.2026 (13:3x, Einzelagent, Prioritaet 1 dann 4)
 
 **Sync-Queue abgearbeitet.** Commit-Anfrage von Macbookpro (`twin-fidelity-review: 2026-08-31`)

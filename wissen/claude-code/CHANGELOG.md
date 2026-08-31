@@ -2,6 +2,40 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-31 (Mac-Mini-Nachtschicht, 23:3x-Slot) — Dritte Grundkontext-Messung in Folge: 132'245 B, +7'133 B seit 25.08., weiterhin kein Gegeneingriff
+
+Prioritaeten 1-4 geprueft und leer: `sync-tasks/mac-mini/` traegt nur den bewusst
+angehaltenen Task «Laufzeitschicht-Umbau» (`.angehalten`, wartet auf Raphaels Entscheid zum
+Arbeitsbaum B6 — richtig zurueckgestellt, nicht ausgefuehrt); Synobsis Stufe 2 unveraendert
+853/853 verarbeitet, kein neues Rohmaterial; Fristen-Register enthaelt nur Punkte, die bereits
+als «Aktion Raphael» mit Datum/Beleg gefuehrt werden (nichts Neues zum Aufbereiten); alle KBs
+mit `training/PROGRAMM.md` entweder eigen getaktet, formal erledigt/ausgesetzt (`bauprodukte`
+seit 15.08., `grobkosten` seit 13.08.) oder heute bereits beruehrt (`energie` Run 171,
+`architektur-fachwissen`, `twin`, `wettbewerbs-dna`, `koordination` via `wissens-chef`).
+
+Auf Prioritaet 5 ausgewichen. `wissen/claude-code/wiki/QUESTIONS.md` Punkt 3 (Token-Kosten
+des Grundkontexts) war seit dem 25.08. offen und direkt aus dieser Session heraus messbar
+(die aktuell geladenen Dateien liegen ohnehin vor). Frischmessung nach unveraendertem
+Messweg (`wc -c` ueber `CLAUDE.md` + alle 24 per `grep '^@/Volumes'` ermittelten Importe):
+**132'245 B ohne User-Level / 135'514 B gesamt** (25.08.: 125'112 / 128'381 B) — dritter
+Rebound in Folge ohne Gegeneingriff, +7'133 B in sechs Tagen, weiterhin 24 Importe (kein
+neuer Baustein, reines Wiederanwachsen). Groesster Treiber unveraendert
+`rules/auto-verbesserungen.md` (31'081 → 35'175 B, +13 % in sechs Tagen, jetzt 26.6 % des
+Grundkontexts) und `rules/anrede-kontakte.md` (11'901 → 13'101 B). `rules/interaktive-eingriffe.md`
+und `rules/bkp-2017-referenz.md` sind seit dem 25.08. exakt unveraendert. Zusaetzlich geprueft
+und dokumentiert: ein exakter modellspezifischer Tokenizer-Lauf ist im Hub weiterhin nicht
+verfuegbar (kein `count_tokens`-Connector, `grep -rl count_tokens connectors/` leer) — als
+konkreter naechster Schritt (kleiner Connector gegen `/v1/messages/count_tokens`) in
+QUESTIONS.md nachgetragen statt die Luecke unveraendert weiterzutragen.
+
+Ergebnis in `wiki/kontext-architektur.md` (neue Tabellenzeile + Datei-Aufschluesselung +
+Einordnung zu QUESTIONS Punkt 4), `wiki/QUESTIONS.md` Punkt 3 fortgeschrieben. Keine
+Entscheidung getroffen (Schwellenwert-Riegel fuer `auto-verbesserungen.md` bleibt bei
+Raphael) — reine Bestandsaufnahme, active-with-flagging. `git diff --numstat` beider Dateien
+vor dem Sichern geprueft (nur Insertion in QUESTIONS.md, 41+/2- in kontext-architektur.md,
+die zwei Loeschzeilen sind die bewusst ersetzten Frontmatter-Felder). Kein Versand, keine
+Publikation, keine Buchung.
+
 ## 2026-08-25 (Mac-Mini-Nachtschicht, 05:30-Slot) — QUESTIONS-Item 2 geklaert (Versionsbindung), Grundkontext-Rebound Nr. 2 gemessen und dokumentiert
 
 Prioritaeten 1-4 leer/nicht anwendbar (keine pending Tasks; Synobsis Stufe 2 unveraendert

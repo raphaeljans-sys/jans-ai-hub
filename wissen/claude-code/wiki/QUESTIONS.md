@@ -92,6 +92,18 @@ Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeit
    die exakte Tokenzahl je Modell (Byte/Token-Schluessel ist weiterhin grob 4 B/Token, kein
    modellspezifischer Tokenizer-Lauf).
 
+   **Update 31.08.2026 (Nachtschicht Mac Mini):** dritte Messung in Folge, wieder gewachsen —
+   132'245 B ohne User-Level (+7'133 B seit 25.08., weiterhin 24 Importe, kein neuer Baustein).
+   Details: [[kontext-architektur]], Abschnitt «Dritte Messung in Folge ohne Gegeneingriff».
+   **Zum Byte/Token-Schluessel selbst geprueft:** in dieser Session existiert kein Weg, die
+   exakte Tokenzahl je Modell zu ermitteln — kein `count_tokens`-Connector im Hub
+   (`grep -rl count_tokens connectors/` leer) und kein Tokenizer lokal verfuegbar. Der
+   naheliegende Weg waere ein kleiner Connector gegen den Anthropic-Endpunkt
+   `/v1/messages/count_tokens` (liefert die exakte modellspezifische Zahl ohne eine Anfrage
+   zu bezahlen). Existiert nicht und wurde in diesem Lauf bewusst nicht gebaut (Umfang
+   sprengt das Nachtschicht-Budget einer einzelnen Recherche-Einheit) — als konkreter
+   naechster Schritt hier vermerkt, statt die Luecke unveraendert weiterzutragen.
+
 ## Offen (25.08.2026)
 
 4. **`rules/auto-verbesserungen.md` waechst trotz Einzelfall-Pruefung weiter — braucht die
