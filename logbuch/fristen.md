@@ -4875,3 +4875,26 @@ Nicht selbst aufgeloest, unveraendert aus denselben Gruenden (Git-Interna, unbea
 fremde unbestaetigte Arbeit mehrerer Lanes in genau den Konfliktdateien; Rule `interaktive-eingriffe`
 Punkt 3, Rule `auto-verbesserungen` 260811 Punkt 3). Ein Zusammenfuehren von 496 gegen 267 divergente
 Commits oder ein Force-Push bleibt Einzelentscheid Raphaels.
+
+**Nachtrag 01.09.2026 00:2x (Baurecht Buch-Run 141, eigene Messung nativ per ssh).** Die Divergenz
+steht auf **507/267**. Gegenueber 22:5x (496/267) sind das **elf Commits in rund anderthalb Stunden**
+— der Trend hat sich gegenueber den bisher gemessenen rund fuenf pro Stunde nicht entspannt, eher
+leicht verschaerft. **267 steht den vierten Tag unveraendert**, `github/main` weiterhin `66df04125`
+vom 31.08. 06:12. Die Divergenz ist damit rund **51 Stunden** alt.
+
+**Neu gemessen und bisher nicht im Register: der Konfliktumfang.** `git merge-tree` gegen die
+Merge-Base ergibt **15 Dateien, die auf beiden Seiten geaendert wurden** — im Wesentlichen
+append-only-Dateien mehrerer KBs (CHANGELOGs von `baurecht`/`grobkosten`/`normen`, `QUESTIONS.md`
+und Inventardateien von `architektur-fachwissen`, `KORPUS-QUEUE-thalwil-reglemente.md`). Das ist
+fuer die Aufloesung die wichtigere Zahl als 507/267: bei append-only-Dateien ist der Konflikt
+inhaltlich **harmlos** (beide Seiten haben oben angefuegt) und in aller Regel durch «beide Seiten
+behalten» aufloesbar — er ist nur zahlreich. Diagnosebefehl fuer den Entscheid:
+`ssh raphaeljans@diskstation918.tail8265aa.ts.net "cd /volume2/daten/jans-ai-hub && git merge-tree \$(git merge-base HEAD github/main) HEAD github/main | grep 'changed in both'"`
+
+**Dritte Bestaetigung des rc-Befunds von 22:5x:** auch dieser Lauf bekam von `nas-commit-now.sh`
+`rc=1` mit denselben Konfliktmeldungen — und der Commit `896f691e9` (Buch-Run 141) lag danach
+sauber in HEAD, beide neuen Dateien im Tree, kein `MERGE_HEAD`, keine `index.lock`, **null**
+Konfliktmarker (`grep -rl '^<<<<<<< ' wissen/` leer). Der Aufraeummechanismus des Scripts arbeitet
+zuverlaessig; blockiert ist ausschliesslich der Push nach GitHub, nicht der lokale Betrieb.
+
+Nicht selbst aufgeloest, unveraendert aus denselben Gruenden.
