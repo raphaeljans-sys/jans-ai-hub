@@ -53,6 +53,50 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-08-31 12:57 — [FREI] **Wochen-Reset vollzogen: das Kontingent steht wieder bei 167 Mio, verbraucht sind 0.1 %. Die Vorwoche endete bei 85 % — rund 25 Mio «teuer» sind um 12:00 ungenutzt verfallen. Alle fuenf Schub-Lanes stehen still, aber geordnet: `fachwissen` hat um 11:02 seine Frist regulaer erreicht und sich selbst beendet. Kein Leerlauf, kein Eingriff.**
+
+**Selbstkontrolle: bestanden, sauber gemessen.** `lastRunAt` dieser Task **12:57**, letzter Eintrag **00:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h. Der Vorlauf hatte angemerkt, dass die Regel das ENDE des Vorlaufs mit dem START des aktuellen vergleicht; hier faellt das nicht ins Gewicht, weil der 00:57-Lauf seinen Eintrag zeitnah schrieb. Zweiter Ausfalltyp nicht zu pruefen, kein Lauf fehlt.
+
+**Fenster FREI in 82 Sekunden — die PATH-Probe zum fuenften Mal in Folge nicht versucht.** Der Symlink `/opt/homebrew/bin/claude` zeigt unveraendert seit **29.08. 05:15** auf die gewedgte **2.1.236**; Homebrew hat in nunmehr **drei Tagen** nichts nachgeliefert (frueherer Wedge dauerte zwei Tage). Die app-gebuendelte **2.1.247** antwortete mit «OK», **rc=0, 82 s**. Der Umweg hat erneut **180 Sekunden und einen irrefuehrenden rc=137 erspart**. Die Empfehlung vom 30.08. (Probe fest auf die App-CLI umstellen) steht damit im fuenften Lauf unveraendert — Entscheid Raphael, ich editiere die laufende Task-Datei nicht selbst.
+
+**Kontingent: FREI, die Woche beginnt bei null.** `kontingent-budget.sh`: **0.22 von 167 Mio teuer (0.1 %)** bei **0.6 %** verstrichener Woche, Vorsprung **−0.5 Punkte**, beide Stationsdateien frisch (MacBook Pro 0.21 Mio, Mac Mini 0.01 Mio). Zur Einordnung der abgelaufenen Woche: der letzte gemessene Stand war 141.9 Mio (85.0 %) bei 93.5 % verstrichener Zeit. **Rund 25 Mio «teuer» sind mit dem Reset verfallen.** Das ist der zweite Datenpunkt fuer den stehenden Entscheid vom 03.08. («gleichmaessig ueber die Woche») — der Verbrauch lief die ganze Woche HINTER dem Zeitverlauf, nicht davor. Ein Tagesdeckel-Mechanismus ist weiterhin nicht gebaut; die Regimefrage wird auftragsgemaess nicht erneut als P1 vorgelegt.
+
+**Keine Drossel zurueckzudrehen.** Schritt 2c war in der abgelaufenen Woche nie ausgeloest worden (die Ampel stand auf WARNUNG, nie auf DROSSEL). Gegengeprueft: alle Lern-Tasks der MacBook-Registry tragen `enabled: true`. Die vier dauerhaft stillgelegten (`immobewertung-training`, `spec-training`, `masterclass-woche1`, `synergie-lauf-monatlich`) sind aus eigenen, dokumentierten Entscheiden aus und wurden nicht angetastet.
+
+### Lane-Stand: geordnetes Ende, kein Leerlauf
+
+| Lane | letzter Lauf | Zustand |
+|---|---|---|
+| fachwissen | **31.08. 11:02** | **Frist erreicht, selbst beendet** (Runde 223, alle rc=0) |
+| synobsis | 30.08. 08:22 | selbst beendet |
+| normen-pruefstand | 30.08. 01:10 | stillgelegt, haelt |
+| baurecht-thalwil | 30.08. 01:11 | stillgelegt, haelt |
+| grobkosten | 30.08. 01:10 | stillgelegt, haelt |
+
+Auf dem Mac Mini laeuft **kein** `vollgas-schub`-Prozess und **kein** `claude -p` mehr. Das Lauf-Journal zeigt fuer heute **9 Laeufe, 20.29 USD, alle rc=0**, der letzte um 06:11; der Log schliesst mit «Frist erreicht — beende». **Das ist der Delta-Abbruch nach Rule 260830, wie er gedacht war** — die Lane hat bis zur Frist geliefert und dann von selbst aufgehoert, ohne dass ein Waechter eingreifen musste. Ruecktakt- oder Stilllegungsempfehlung entfaellt: Null-Ertrag durch regulaeres Fristende ist kein Delta-Null-Befund.
+
+**Liefer-Delta bis zum Fristende, gemessen ueber git (nicht `find -newermt`):** seit dem 30.08. 23:00 **22 Commits**, **44 geaenderte Dateien**, davon **43 in `wissen/architektur-fachwissen`** — neue Wiki-Artikel zu Wettbewerbsverfahren, Jurykritik, Typografie, Landschaftsarchitektur und Moebel-Genealogie, dazu INDEX, QUESTIONS, CHANGELOG und die Inventardatei. Die Lane hat in ihren letzten Stunden voll gearbeitet.
+
+**Feuermechanismen, alle drei Orte geprueft.** MacBook Pro: kein vollgas-/nachtschicht-Job geladen, beide `*.disabled-260729`-plists unberuehrt, **keine** `claude -p`-Waise. Mac Mini: `ch.jans.nachtschicht` geladen mit den vier Sollslots **23:30 / 02:30 / 05:30 / 13:30**, `ch.jans.vollgas-supervisor.plist.disabled-260729` unberuehrt. Mini-Registry vollstaendig, acht Tasks wie im Sollstand. **Der stehende Entscheid vom 30.07.2026 ist gewahrt: kein Endlos-Runner laeuft, keiner wurde gestartet.** Beide STOP-Dateien liegen unveraendert seit 29.07.
+
+**Nebenbefund, geprueft und harmlos:** vier `.prompt`-Dateien im Schub-Ordner tragen mtime **31.08. 13:00**, was nach einem Massen-Eingriff aussieht. Nativ gegengemessen: `git status --porcelain` und `git diff --numstat` auf den Ordner sind **beide leer** — der Inhalt ist mit HEAD identisch, der Zeitstempel stammt von einem git-/Sync-Vorgang, nicht von einer Aenderung. Gleiche Familie wie die bekannten Messfallen: ein auffaelliger Zeitstempel ist zuerst eine Aussage ueber den Sync, nicht ueber den Inhalt.
+
+**Eigener Vorfall waehrend dieses Laufs: der NAS-Mount fiel weg und wurde wiederhergestellt.** Beim Schreiben dieses Eintrags meldete der Schreibvorgang `No such file or directory`; `/Volumes/` zeigte nur noch `Macintosh HD`. Das ist der bekannte SMB-idle-Stall der mobilen Station (Haertung `nsmb.conf` + Keepalive + Inline-Guard). `scripts/ensure-nas-mounted.sh` aus dem SSD-Klon stellte den Mount in einem Anlauf wieder her (rc=0), danach war das Repo sofort wieder erreichbar. Wichtig fuer die Bewertung: **die Messungen dieses Laufs sind davon nicht betroffen** — sie liefen alle vor dem Stall bzw. nativ per `ssh mini`, also am Mount vorbei. Der Guard hat gegriffen, wie vorgesehen; der Stall selbst ist der Grund, weshalb der Guard existiert.
+
+**Speicher:** `kern.memorystatus_vm_pressure_level: 2` (Warnstufe), verfuegbar rund **2.9 GB** (free 908 + inactive 187'234 Pages a 16 kB, purgeable 0). Keine Waise beteiligt, kein Lern-Lauf aktiv — der Druck stammt aus der laufenden Arbeitssitzung. Beobachten, kein Eingriff.
+
+### P1 / P2 / P3
+
+**P1 — keiner.** Kein Blocker, kein Login-Problem, kein erschoepftes Kontingent. Keine Mail (kein Sendegrund nach der Mail-Disziplin).
+
+**P2 — die Homebrew-Wedge zum fuenften Mal in Folge, Empfehlung unveraendert.** Die Probe-Vorschrift der Task versucht weiterhin zuerst den PATH-Weg; jeder Lauf, der sich daran haelt, verliert 180 Sekunden an einen rc=137, der wie eine Kontingentsperre aussieht und keine ist. Vorschlag bleibt: die Task-Datei so umstellen, dass die app-gebuendelte CLI der **Regelweg** ist und der PATH-Weg nur noch die Gegenprobe. Entscheid Raphael.
+
+**P2 — das neue Wochenfenster ist offen und es taktet nur die Nachtschicht.** Mit dem Fristende der `fachwissen`-Lane ist der einzige verbliebene Lern-Taktgeber `ch.jans.nachtschicht` mit vier Slots; der naechste ist **13:30**. Ob eine neue Schub-Runde aufgesetzt wird, ist Raphaels Entscheid — der Schub war ein eigener, befristeter Auftrag, und der Radar startet ihn nicht von sich aus. Sachlicher Hinweis dazu: 167 Mio stehen bereit, und die Vorwoche hat gezeigt, dass der regulaere Takt allein das Kontingent nicht ausschoepft.
+
+**P3 — Speicherdruck auf Warnstufe** (2.9 GB verfuegbar). Ohne Waisen und ohne aktiven Lern-Lauf kein Handlungsbedarf; im naechsten Lauf gegenmessen.
+
+---
+
 ## 2026-08-31 00:57 — [FREI] **Letzter Radar-Lauf vor dem Wochen-Reset: das Kontingent liegt bei 85 % und laeuft dem Zeitverlauf immer noch 8.5 Punkte hinterher, die einzige verbliebene Lane arbeitet. Kein Eingriff — 10 Stunden vor Fristende waere Stilllegen genau der falsche Zug.** Ein eigener Messfehler unterwegs gefunden und aufgeloest: `find -newermt` zeigte 48 frische Wiki-Dateien, git zeigt eine.
 
 **Selbstkontrolle: bestanden — aber die Regel misst am falschen Punkt.** Der Vorgaengereintrag traegt **20:40**, dieser Lauf feuerte um **00:57**: Abstand nach Eintragsdatum nur **4 h 17**, was bei 15 h Toleranz formal durchgeht, aber nichts beweist. Der richtige Vergleich ist Feuerzeitpunkt gegen Feuerzeitpunkt: der Vorlauf feuerte **12:57** und schrieb seinen Eintrag erst nach 7 h 43 Laufzeit. Von 12:57 auf 00:57 sind es **exakt 12 h 0 min** bei 12-h-Takt. **Die Selbstkontrolle vergleicht heute das Eintragsdatum, also das ENDE des Vorlaufs, mit dem START des aktuellen** — bei einem langen Lauf verkuerzt das den gemessenen Abstand kuenstlich und wuerde einen echten Ausfall verdecken, sobald ein Lauf lange genug dauert. `lastRunAt` gegenzuhalten ist der belastbare Weg; der zweite Ausfalltyp war nicht zu pruefen.
