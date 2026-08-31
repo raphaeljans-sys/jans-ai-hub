@@ -210,7 +210,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
   geehrte. Behörde nach Vertrautheit UND Gewicht: bekannt→Geschätzte/r;
   unbekanntes Postfach: triviale Service-Bitte→namenloses «Guten Tag»/«Grüezi»,
-  gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren.
+  gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Auch die Zahlungserinnerung ist namenlos, selbst im warmen Du (260831).**
   **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die
@@ -222,7 +222,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
   Fliesstext; «Ich ersuche um» als förmliche Behörden-Eröffnung, «Beste(r) Grüsse/Gruss» als
-  warm-neutrale Mittelstufe (Anrede-Skala ab 260807 nur hier). Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; Bitte-Form nach der
+  warm-neutrale Mittelstufe (Anrede-Skala ab 260807 nur hier). Bitte-Form nach der
   Vier-Stufen-Skala in [[stimme]] (wer den Druck erzeugt), nicht nach dem Register.
   **Im Eigendokument steht die Person in der Drittform (260801/260803):** die Anrede-Stufe der Mail
   wandert **nicht** in die Drittnennung — dort «Herr <Nachname>» bzw. voller Name, Teilnehmer-Rubrik

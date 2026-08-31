@@ -3920,3 +3920,31 @@ Abwaegung; wer ausfuehrt, bekommt die Zeile.**
 Anzeigeverfahren mit»). Zweiter Beleg des Musters aus Batch 96 (Selbst-Delta «Nach Rücksprache
 mit Herr »): **Raphael beginnt die Mail, stoesst auf die ungeklaerte Stelle und laesst sie
 stehen, statt sie zu erfinden.** Der Abbruch ist kein Versehen, er ist die Fundstelle.
+
+## Fidelity 260831 — der Einzelfall wird zur Vorlage abstrahiert
+
+**⭐ Gold B** (05.05.2026, an das Webteam, `authentisch`) ist der bisher klarste Beleg dafür,
+dass Raphael einen Auftrag nicht als Einzelfall vergibt, wenn er ihn wiederholen wird:
+
+> From now on you will only receive templates of this kind from me. Please **abstract** the URL /
+> browser input as well as the adapted menu navigation to the project PDF (title row) **as a
+> reusable element, so that this works in a consistent way for every future project**.
+
+Die Bewegung ist: **Anliegen → Grundsatzansage → Abstraktionsauftrag → projektspezifische
+Ausnahmen → Ausblick → Material.** Der konkrete Wunsch («integriere den Download auf dieser
+Seite») steht am Anfang und ist der kleinere Teil; der eigentliche Auftrag ist, daraus ein
+wiederverwendbares Element zu machen. Erst danach folgen die beiden Dinge, die **nur** für
+dieses Projekt gelten, als «•»-Bullets ausdrücklich als Ausnahme markiert («For the project
+CO Davos I have **also** introduced two specific features»).
+
+Der Zwilling schrieb eine Dreizeilen-Bitte für den Einzelfall. Das ist keine Ton-, sondern eine
+**Ebenen-Drift**: er arbeitet die Aufgabe ab, statt zu fragen, ob sie wiederkehrt. Sie ist die
+Umkehrung der bekannten Vereinheitlichungs-Drift (260824) — dort glättet der Zwilling
+Verschiedenes zu Gleichem, hier lässt er Gleiches als Einzelfälle stehen.
+
+Zwei Formmarker aus derselben Mail: **zwei getrennte Link-Blöcke** («→ <url>» oben als Referenz,
+«You will find the plans and images here: / → <url>» zuunterst als Material) und der
+**Ausblick vor dem Service-Satz** («I will continue to layout further projects from here»).
+
+**Gold A** (14.04.2026) bestätigt die dritte Endform: die Mahnung endet auf dem **Service-Satz**,
+nicht auf der Frist. Die Frist steht im vorletzten Satz und bekommt keine Schlussstellung.

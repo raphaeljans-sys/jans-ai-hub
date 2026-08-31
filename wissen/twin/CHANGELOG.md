@@ -4,6 +4,34 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-31 — twin-fidelity-review: Drafts Seite 3, drei Golds; Riegel erstmals durch Verdichten bewegt
+
+**Report:** `outputs/2026-08-31_fidelity.md`. **Gesamt-Fidelity 31** (nach 28 am 30.08.), je
+Gold A' 33 / B' 35 / C' 25. Golds: Zahlungsmahnung 14.04.2026 (namenlos, Sie), Grundsatzmail an
+das HLEB-Webteam 05.05.2026 (englisch), Brandschutz-Prüffrage an Bojan Stevanovic 11.05.2026
+(vollständig leckfrei, aus dem Zitat-Stack eines späteren Entwurfs).
+
+**Fünf Befunde:** (1) ⭐ **Wer fragt, bringt keinen Apparat mit** — die Fachfrage an den
+VKF-Experten enthält keine Norm, keinen Nachweis; der Zwilling erfand «Bfl-s1 nach EN 13501-1»
+(16. Beleg der Erfindungs-Drift) → [[fachsignatur]], [[denken]]. (2) ⭐ **Der Auftrag wird zur
+Vorlage abstrahiert**, nicht abgearbeitet → [[arbeitsweise]]. (3) ⭐ **«Dear» gehört dem Team,
+«Hi» der Person** — widerlegt die heute früh in Batch 110 vermutete monotone Bewegung
+`Dear` → `Hi` (Beleg 05.05.2026, drei Monate nach dem «Hi») → [[beziehungsregister]],
+[[QUESTIONS]] 260831b #1. (4) ⭐ **Die Mahnung zerfällt in Ein-Satz-Absätze**, und der Vorbehalt
+«bei Akzeptanz der Rechnung» gehört der Rechnungsstellung, nicht der Mahnung → [[stimme]],
+[[haltung]]. (5) Der namenlose Mahnungs-Opener stand seit Batch 36 im Artikel, war nie
+kompiliert und wurde prompt verfehlt — **erster kausal gezeigter Preis des Wachstums-Riegels**.
+
+**Gehirn geändert (erstmals seit fünf Läufen):** drei Redundanzen aus dem Do-Block von
+[[beziehungsregister]] entfernt («Gruss nach Mail-Typ», «Stufe nur Richtwert», «Du gross» —
+alle drei anderswo belegt), dafür promoviert: «Auch die Zahlungserinnerung ist namenlos, selbst
+im warmen Du (260831).» Neu kompiliert via `build_dna.py`, Auto-Block **33'976 B**, Reserve
+24 B. Eingriff zeilenexakt, mit `diff` gegen die Sicherung nachgemessen (Rule 260811).
+
+**Neue Selbstfragen:** [[QUESTIONS]] 260831b #1–#5 (Dear/Hi nach Adressatentyp · Bitte-Skala bei
+fälliger Schuld · Erstanrede mit vollem Namen · kein Apparat in der Frage · Verdichten künftig
+ohne Rückfrage, mit Bezifferung von `MAX_AUTO_BYTES`).
+
 ## 2026-08-31 — twin-mail-training Batch 110: `Drafts` Seite 2, fuenf Golds, Anrede-Bewegung «Dear» → «Hi»
 
 **Raw:** `raw/260831-mailbatch-110.md`. **Fenster:** `rj@` Sent Items ab 30.08.2026

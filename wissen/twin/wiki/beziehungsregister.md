@@ -416,7 +416,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
   geehrte. Behörde nach Vertrautheit UND Gewicht: bekannt→Geschätzte/r;
   unbekanntes Postfach: triviale Service-Bitte→namenloses «Guten Tag»/«Grüezi»,
-  gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren.
+  gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Auch die Zahlungserinnerung ist namenlos, selbst im warmen Du (260831).**
   **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die
@@ -428,7 +428,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
   Fliesstext; «Ich ersuche um» als förmliche Behörden-Eröffnung, «Beste(r) Grüsse/Gruss» als
-  warm-neutrale Mittelstufe (Anrede-Skala ab 260807 nur hier). Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; Bitte-Form nach der
+  warm-neutrale Mittelstufe (Anrede-Skala ab 260807 nur hier). Bitte-Form nach der
   Vier-Stufen-Skala in [[stimme]] (wer den Druck erzeugt), nicht nach dem Register.
   **Im Eigendokument steht die Person in der Drittform (260801/260803):** die Anrede-Stufe der Mail
   wandert **nicht** in die Drittnennung — dort «Herr <Nachname>» bzw. voller Name, Teilnehmer-Rubrik
@@ -3626,3 +3626,29 @@ zweiter unabhaengiger Beleg dieser Richtung.
 **Gegenprobe im selben Vorgang, Du-Register:** an den Technischen Dienst (Du-Kontakt) im selben
 Thread «**Hoi Albin,**» mit Komma, Sachzeile direkt darunter ohne Leerzeile, Gruss «**lgr**».
 Zwei Register, ein Vorgang, keine Angleichung — vierter Beleg der Nicht-Nivellier-Linie.
+
+## Fidelity 260831 — «Dear» gehört dem Team, «Hi» der Person; und die Erstanrede trägt den vollen Namen
+
+**⭐ Die englische Anrede trennt nach Adressaten-TYP, nicht nach Zeit.** Am **05.05.2026**
+schreibt Raphael «**Dear HLEB team**» (ohne Schlusskomma) — also **nach** dem «Hi Hleb» vom
+16.02.2026, das die Rule `anrede-kontakte` als Erstbeleg führt. Die in [[QUESTIONS]] 260831 #1
+aus dem «Dear Hlep» vom 10.02.2026 abgeleitete **Bewegung `Dear` → `Hi` ist damit als monotone
+Entwicklung widerlegt**: beide Formen laufen parallel weiter. Die belegte Trennlinie ist der
+Adressat — «Hi <Vorname>» an die **Person**, «Dear <Firma> team» an das **Kollektiv**. Damit
+gehört diese Zeile in dieselbe Familie wie «Geschätzte Firma <Name> AG» (260825) und
+«Geschätztes Care-Team-Gastroküche»: **fehlt die einzelne Person, wird die Gruppe als Gruppe
+angeredet**, nicht ein Stellvertreter herausgegriffen. Quelle: 05.05.2026, `authentisch`.
+
+**⭐ Die Mahnung nimmt die Tageszeit mit in die namenlose Stufe.** Der Artikel führte bisher
+«Zahlungserinnerung schlägt selbst warme Du-Beziehung nieder auf ‹Guten Tag› ohne Namen»
+(Batch 36). Gold A vom 14.04.2026 öffnet dieselbe Gattung mit «**Guten Morgen**», ebenfalls
+namenlos. Die Stufe ist also **namenlos**, nicht «Guten Tag»: der Opener folgt weiterhin der
+Tageszeit, er verliert nur den Namen. In den Do-Block promoviert (260831).
+
+**⭐ Die Erstanrede an einen neu übernommenen Kontakt trägt Vor- UND Nachnamen.** 11.05.2026,
+erste Mail an den Gruner-Nachfolger: «**Geschätzter Herr Bojan Stevanovic**». Zwei Tage später,
+im selben Vorgang: «**Geschätzter Herr Stevanovic**». Der Artikel führte bisher nur die kurze
+Form als Mapping. Die lange ist **kein Verzeichnis-Artefakt** wie «Herr Mustafa» (Batch 100)
+oder «Herr Valentin» (Batch 110) — dort war der Nachname weggefallen, hier ist der Name
+vollständig und richtig. Lesart: der volle Name ist die **Erstnennung**, danach wird auf den
+Nachnamen verkürzt. Quelle: 11./13.05.2026, `authentisch`.

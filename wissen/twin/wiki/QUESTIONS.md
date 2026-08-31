@@ -5141,3 +5141,83 @@ Echtheitsmarker — aber Kuerzel dieser Art wirken schnell schnodderig, wenn sie
 Kontakt landen. *Warum: der Zwilling schreibt heute im Du-Register durchgaengig «Lieber Gruss».
 Darf «lgr» in die kurze, rein operative Mail an einen vertrauten Kontakt — oder bleibt es Dir
 vorbehalten?*
+
+---
+
+## 260831b — aus dem Fidelity-Review (Drafts Seite 3, drei Golds 04/2026–05/2026)
+
+**#1 — «Dear» ans Team, «Hi» an die Person: ist das die Trennlinie?** ·
+*Beziehungsregister, betrifft eine Rule — korrigiert 260831 #1 vom selben Tag*
+
+Heute früh hat Batch 110 aus dem «**Dear Hlep**» vom 10.02.2026 eine mögliche Bewegung
+`Dear` → `Hi` abgeleitet, weil die Rule `anrede-kontakte` «Hi Hleb» ab dem 16.02.2026 führt.
+Der Fidelity-Lauf hat wenige Stunden später einen Entwurf vom **05.05.2026** gefunden, also
+gut drei Monate NACH dem «Hi»: «**Dear HLEB team**», ohne Schlusskomma, Sign-off «Best regards».
+
+Damit ist die Bewegung als monotone Entwicklung erledigt — beide Formen laufen parallel. Die
+Trennlinie, die beide Belege ohne Rest erklärt, ist der **Adressat**: «Hi <Vorname>» an die
+Person, «Dear <Firma> team» an das Kollektiv. Stimmt das? *Warum die Frage: der Zwilling hält
+«Dear» nach der heutigen Rule-Lesart für überholt und würde ein ganzes Team mit «Hi» anreden.
+Deutsch hast Du für genau diesen Fall die Kollektiv-Anrede belegt («Geschätzte Firma <Name> AG»,
+«Geschätztes Care-Team»); es wäre stimmig, dass Englisch dasselbe tut. Claude ändert den
+Wortlaut einer Rule nicht selbst.*
+
+**#2 — Fällt die Bitte-Form bei einer FÄLLIGEN Schuld auf den nackten Indikativ?** ·
+*Facetten [[stimme]] × [[haltung]]*
+
+Die Vier-Stufen-Skala sagt: fremde Ressource, insbesondere Geld → höflichste Stufe «Darf ich
+Sie bitten …», weil der Druck von Dir stammt. Deine Mahnung vom 14.04.2026 schreibt aber
+«**Daher Bitte ich Sie** bis Ende KW16 die Überweisung zu tätigen» — nackter Indikativ mit
+kausalem «Daher», und davor der unverstellte Satz «Ich arbeite seit 3 Monaten für Sie ohne
+Bezahlung.»
+
+Meine Lesart: die Skala misst, **wer den Druck erzeugt** — und bei einer fälligen, unbezahlten
+Rechnung erzeugt ihn nicht mehr Du, sondern der Verzug des Empfängers. Die Skala bliebe damit
+unverändert richtig und bekäme nur einen Satz zur Fälligkeit. Trifft das? *Warum: der Zwilling
+schreibt Mahnungen derzeit in der höflichsten Stufe und hängt zusätzlich den Vorbehalt «bei
+Akzeptanz der Rechnung» an — er stellt Deine fällige Forderung noch einmal zur Disposition.*
+
+**#3 — Erstanrede mit vollem Namen, danach nur Nachname: Regel oder Zufall?** ·
+*Facette [[beziehungsregister]]*
+
+Erste Mail an den neuen Gruner-Ansprechpartner, 11.05.2026: «**Geschätzter Herr Bojan
+Stevanovic**». Zwei Tage später, gleicher Vorgang: «**Geschätzter Herr Stevanovic**».
+
+Das ist **nicht** die Verzeichnisform-Falle («Herr Mustafa», «Herr Valentin») — dort fiel der
+Nachname weg, hier ist der Name vollständig und richtig. Ist der volle Name Deine bewusste
+**Erstnennung** bei einem übernommenen Kontakt, und wird danach verkürzt? *Warum: der Zwilling
+setzt heute in beiden Fällen den Nachnamen und verfehlt damit genau die erste Mail, die eine
+neue Arbeitsbeziehung eröffnet.*
+
+**#4 — «Wer fragt, bringt keinen Apparat mit» — gilt das generell?** · *Facette [[fachsignatur]]*
+
+Deine Brandschutzfrage vom 11.05.2026 an einen VKF-Brandschutzexperten enthält **keine Norm,
+keine Klasse, keinen Nachweis** — nur die Frage: «Ist die Ausführung Gastroküche in Metal
+Pflicht oder auch in Holz möglich?» Zwei Tage vorher hast Du dieselbe Materialfrage
+**beantwortet** und dabei drei Wissensebenen verbunden (Zuständigkeit Kantonales Labor,
+VKF-Brandabschnitt, eigene architektonische Empfehlung).
+
+Also: der Fachapparat gehört der Antwort, der Eingabe und dem Gesuch — nie der Frage, weil er
+die Antwort präjudiziert und den Gefragten zum Bestätiger einer fremden Subsumtion macht.
+Ist das die Regel? *Warum: der Zwilling baut in Fachfragen reflexhaft Normen und
+Leistungserklärungen ein, die niemand genannt hat — heute «Bfl-s1 nach EN 13501-1», frei
+erfunden. Ein klares Ja hier schneidet die häufigste Erfindungslage an der Wurzel ab.*
+
+**#5 — Wachstums-Riegel: Verdichten künftig ohne Rückfrage?** · *Steuerung, [[CLAUDE]]*
+
+Fünf Läufe lang lag `rules/jans-dna-facetten.md` bei 33'952 von 34'000 B, und fünf Läufe lang
+wurde kein Marker mehr ins Gehirn kompiliert. Heute liess sich zum ersten Mal ZEIGEN, was das
+kostet: die Regel «Zahlungserinnerung → namenlose Anrede» steht seit Batch 36 im Artikel, war
+nie kompiliert, und der Zwilling hat sie heute prompt verfehlt («Guten Tag Herr [Name]» statt
+«Guten Morgen»).
+
+Dieser Lauf hat darum verdichtet statt zu warten: drei Redundanzen aus dem Beziehungsregister-
+Do-Block entfernt (Gruss-Regel und «Du gross» stehen bereits in [[stimme]] bzw. im Kern
+`jans-dna.md`) und den namenlosen Marker dafür promoviert. Stand jetzt 33'976 B, Reserve 24 B.
+
+Zwei Fragen: **(a)** Soll Verdichten künftig der Regelweg sein — also darf jeder Lauf
+redundante Do-Zeilen streichen, um Platz für einen gemessenen Marker zu schaffen, ohne Dich zu
+fragen? **(b)** Oder hebst Du `MAX_AUTO_BYTES` (der Block liegt in **jedem** Texterzeugnis-Lauf
+an, nicht in jeder Session — 1'000 B mehr sind rund 250 Token je Erzeugnis)? *Warum: ohne
+Entscheid steht der nächste Lauf wieder vor 24 B Reserve, und das ist ein halber Satz. Die
+Frage 260829b #4 ist damit nicht erledigt, sondern beziffert.*

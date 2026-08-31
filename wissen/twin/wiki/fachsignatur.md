@@ -2865,3 +2865,29 @@ angewandt.
 **Belastbarkeit vor Verfuegbarkeit** (Gold A): gesucht sind «**belastbare** Kostenkennwerte» und
 ein «ausreichend **validierter** Datenstamm», ausdruecklich «für Grobkostenschätzungen in frühen
 Projektphasen». Die Anforderung an die Quelle wird vor der Bitte formuliert, nicht nach ihr.
+
+## Fidelity 260831 — die Fachfrage wird NACKT gestellt; und das eigene Layout-System ist Fachsprache
+
+**⭐ Kein Normapparat in der Frage.** Gold C (11.05.2026) ist eine Brandschutzfrage an einen
+VKF-Brandschutzexperten und enthält **keine einzige Norm, keine Klassenbezeichnung, keinen
+Nachweis**: «Ist die Ausführung Gastroküche in Metal Pflicht oder auch in Holz möglich?» Der
+Zwilling baute in seine Fassung «Bfl-s1 nach EN 13501-1» und eine beigelegte Leistungserklärung
+ein — beides frei erfunden, beides plausibel, beides in der Aufgabe nicht vorhanden. **Sechzehnter
+Beleg der Erfindungs-Drift**, und der erste, bei dem der Zwilling den Fachapparat gegenüber dem
+**Fachmann** aufbaut, dessen Auskunft er gerade erbittet.
+
+Die Regel dahinter, die den Marker «Verweisanker statt plausibler Zahl» (260826) ergänzt: **wer
+fragt, bringt keinen Apparat mit.** Der Apparat gehört der Antwort, der Eingabe und dem Gesuch
+— nicht der Frage. Er würde die Antwort präjudizieren und macht den Gefragten zum Bestätiger
+einer fremden Subsumtion. Die belegte Gegenbewegung steht direkt daneben: wo Raphael dieselbe
+Materialfrage **beantwortet** (Batch 44, 11.05.2026), verbindet er drei Wissensebenen
+(Zuständigkeit Kantonales Labor, VKF-Brandabschnitt, architektonische Empfehlung). Dieselbe
+Sache, zwei Rollen, zwei völlig verschiedene Fachdichten.
+
+**⭐ Das eigene Bezeichnungssystem wird beim Namen genannt.** Gold B (05.05.2026, englisch, an
+das Webteam) trägt eine durchgehende Eigen-Nomenklatur für die Projektseiten-Bausteine:
+«**C-Mediastrip Pattern C**», «**Finisher / E-Finisher**», «**D-PD Project Description**», dazu
+«title row» und «menu navigation» als Layout-Begriffe. Buchstabe-Bindestrich-Name, konsequent
+durchgezogen. Das ist die vierte Säule neben Bau/Design/3D: **die eigene Layout- und
+Publikationssystematik ist Fachsprache und wird gegenüber dem Dienstleister exakt so verwendet
+wie ein Gewerksbegriff gegenüber dem Unternehmer.** Quelle: 05.05.2026, `authentisch`.

@@ -1768,3 +1768,29 @@ B) und C) selbst ein und benennt im Schlusssatz genau, was das bewirkt («Damit 
 Eingabequittung … komplett selbständig unterzeichnen»). Die Ausweitung der eigenen Vollmacht
 wird **nicht verschwiegen und nicht beschoenigt**, sondern als Folgesatz mitgeliefert, im
 Konjunktiv, zur Entscheidung der Gegenseite.
+
+## Fidelity 260831 — der Vorbehalt gehört der Rechnung, nicht der Mahnung
+
+Der Artikel führt seit 260826: «die eigene Rechnung wird zur Disposition gestellt, die fremde
+festgestellt» — bei der **eigenen** Rechnung tritt der Vorbehalt «bei Akzeptanz der Rechnung»
+an die Stelle des Prüferbefunds. Gold A vom 14.04.2026 zeigt die **Grenze dieses Markers**: in
+der Mahnung steht kein Vorbehalt, keine Begründung, keine Weichzeichnung.
+
+> Ich arbeite seit 3 Monaten für Sie ohne Bezahlung.
+
+Der Vorwurf steht als **eigener Absatz**, im Aktiv, mit der nackten Dauer. Kein «ohne dass eine
+Zahlung eingegangen ist», kein Passiv, keine Relativierung. Der Zwilling hat genau das getan:
+er schob die Dauer in einen Nebensatz und hängte den Vorbehalt «bei Akzeptanz der Rechnung» an
+— und stellte damit die eigene, bereits fällige Forderung noch einmal zur Disposition.
+
+**Die Trennlinie:** der Vorbehalt gehört dem Moment, in dem Raphael **stellt** (dort ist die
+Rechnung noch nicht anerkannt). Ist sie fällig und unbezahlt, ist nichts mehr offen — dann
+bleibt die Forderung stehen, und die Höflichkeit lebt nur noch im Service-Satz am Schluss.
+
+**Die Bitte-Skala kippt mit der Fälligkeit.** Nach der Vier-Stufen-Skala ([[stimme]]) gehört
+Geld in die höflichste Stufe («Darf ich Sie bitten»), weil der Druck von Raphael stammt. Gold A
+schreibt stattdessen «**Daher Bitte ich Sie** bis Ende KW16 die Überweisung zu tätigen» —
+nackter Indikativ mit kausalem «Daher». Die Skala hält, wenn man sie richtig liest: bei einer
+**fälligen** Schuld erzeugt nicht Raphael den Druck, sondern der Verzug des Empfängers. Die
+Höflichkeitsform ist Kennzeichen des eigenen Wollens; wo nichts mehr gewollt, sondern nur noch
+geschuldet wird, fällt sie weg. Offen zur Bestätigung → [[QUESTIONS]] 260831b #2.

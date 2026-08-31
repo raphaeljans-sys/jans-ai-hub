@@ -4876,3 +4876,36 @@ Satzzeichen, das den Ton traegt, nicht die Grammatik.
 und die Uebernahme der Verzeichnisform als Anrede. **Keine davon ist eine Claude-Fehlerart** —
 das Fehlerbild trennt die Haende zuverlaessiger als jedes Markup-Signal (vgl. die
 Times-New-Roman-Falle, Batch 109 Kernbefund 3).
+
+## Fidelity 260831 — die Mahnung zerfällt in Ein-Satz-Absätze; «→» und «•» im englischen Register
+
+**Gold A** (14.04.2026, Zahlungsmahnung, Sie, Entwurf, `authentisch`): sechs Absätze, **jeder
+genau ein Satz**, jeder durch eine Leerzeile getrennt.
+
+> Guten Morgen / Das Geld wurde nicht überwiesen. / Können Sie mir ein Termin nennen bis wann es
+> überwiesen wird? / Ich arbeite seit 3 Monaten für Sie ohne Bezahlung. / Daher Bitte ich Sie bis
+> Ende KW16 die Überweisung zu tätigen. / Bei Fragen oder Unklarheit stehe ich Ihnen jederzeit
+> gerne zur Verfügung. / Freundlich[e Grüsse]
+
+Die Zerlegung ist der Ton: kein Satz stützt den anderen, jeder steht als eigene Feststellung.
+Der Zwilling verdichtete auf drei Blöcke und koppelte zwei Sätze mit einem Semikolon — das
+nimmt der Mahnung genau die Härte, die aus der Isolation entsteht.
+
+Dazu drei Mikromarker aus denselben sechs Zeilen: **Ziffer statt Zahlwort** («seit **3**
+Monaten»), **«KW16» ohne Leerschlag**, und der **Service-Satz überlebt die Mahnung** — «Bei
+Fragen oder Unklarheit stehe ich Ihnen jederzeit gerne zur Verfügung.» Er steht in seiner
+langen Form, mit «oder Unklarheit» und «jederzeit». Das stützt die Gattungsregel (wer für sich
+selbst etwas erbittet, hält den Kanal offen) an ihrem härtesten Fall.
+
+**Binnengrossschreibung, zwei weitere Belege:** «Daher **B**itte ich Sie» (14.04.2026) und «Wie
+telefonisch besprochen **B**itte ich zu prüfen» (13.05.2026). Beide mobil getippt, beide am
+Vollverb. Bestätigt den Kanal-Fingerabdruck oben; **nicht nachahmen**, nur zum Gewichten.
+
+**Gold B** (05.05.2026, englisch, an das Webteam): «**→**» steht als Marker **vor jeder URL**,
+auf eigener Zeile, zweimal in derselben Mail (Referenzlink oben, Materiallink unten unter
+«You will find the plans and images here:»). Aufzählungszeichen im Englischen ist «**•**», nicht
+«_ » oder «–». Schluss einzeilig bestätigt: «Best regards / Raphael», **ohne Block**.
+Der Gedankenstrich lebt auch englisch in der Mail: «just let me know — happy to help at any time».
+
+**Gold C** (11.05.2026, Sie, Fachplaner, PlainText): FG + «**Raphael Jans**» — Kurzsignatur ohne
+Block. Zweiter Beleg dafür, dass die Kurzsignatur eine Ausnahme ist und nicht am Reply hängt.

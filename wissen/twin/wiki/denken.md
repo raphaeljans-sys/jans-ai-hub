@@ -1373,3 +1373,36 @@ unterzeichnen (keine Pläne). Diese … wird dann per Post dem Amt für Baubewil
 Damit ist die Baueingabe rechtsgültig eingegeben.» Drei Saetze, chronologisch, jeder ein
 Handgriff; die **Klammer korrigiert den wahrscheinlichsten Irrtum** («keine Pläne»), bevor er
 entsteht.
+
+## Fidelity 260831 — «Meine Frage ist wie folgt:» ist die Sie-Vollform des Frage-Ankers
+
+**Gold C** (11.05.2026, an den neuen Brandschutz-Fachplaner, `authentisch`), vollständig:
+
+> Geschätzter Herr Bojan Stevanovic
+>
+> Da Herr Simmen nicht mehr bei Ihnen arbeitet und Herr Ziegel in den Ferien ist komme ich mit
+> meinem Anliegen zu Ihnen.
+>
+> Meine Frage ist wie folgt: Ist die Ausführung Gastroküche in Metal Pflicht oder auch in Holz
+> möglich?
+>
+> Freundliche Grüsse / Raphael Jans
+
+Drei Bewegungen, drei Absätze, kein vierter. Zwei Marker daraus:
+
+**Der Frage-Anker hat zwei Register-Formen.** Das Wiki führt «**Frage:**» als nacktes
+Gattungswort im Du (29.07.2025) und als Anliegen-Anker ohne Fragezeichen (Batch 109/110). Gold C
+zeigt die **Sie-Vollform**: «**Meine Frage ist wie folgt:**» — derselbe Anker, ausgeschrieben,
+und hier trägt er tatsächlich eine Frage mit Fragezeichen. Die Funktion ist in beiden Registern
+dieselbe: der Anker trennt den Kontext von dem, was der Empfänger beantworten soll.
+
+**Die geschlossene Alternativfrage braucht keine Aufzählung.** Das Wiki führt sie bisher als
+«–»-Liste + «oder» in der Behörden-Auslegungsfrage ([[fachsignatur]]). Gold C stellt sie im
+**Fliesstext** in einem Satz: «Ist die Ausführung … in Metal Pflicht **oder** auch in Holz
+möglich?» Das «oder» ist der Marker, nicht die Liste. Der Zwilling baute stattdessen eine
+Prüfbitte mit dreigliedrigem Schichtaufbau und Normbezug — er beantwortete die Frage
+strukturell vor, statt sie zu stellen.
+
+**Und die Zuständigkeit wird VOR der Frage geklärt, in einem Satz, ohne Entschuldigung:** «Da
+Herr Simmen nicht mehr bei Ihnen arbeitet und Herr Ziegel in den Ferien ist komme ich mit meinem
+Anliegen zu Ihnen.» Der Adressatenwechsel wird begründet, nicht übergangen und nicht bedauert.
