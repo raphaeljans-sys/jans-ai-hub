@@ -4700,3 +4700,64 @@ Freigabesache Raphaels; Claude hat sie deshalb nicht vollzogen.
 Parser-Korrekturen überhaupt wirken. Ohne ihn bringt jeder weitere Lauf dieser KB nichts.
 Ohne (1) bis (3) ist die KB gesättigt, und jeder erneute Dispatch an diese Lane ist reiner Verlust.
 | Beleg: Konversations-Digest Mac Mini 30.08.2026, 155 Läufe der Lane SYNOBSIS mit Nullstand, Empfehlung wörtlich in `logbuch/vollgas/schub/synobsis.log` (Schlusseinträge 30.08. 08:15 und 08:17); Destillat `logbuch/konversationen/260831-konversationen.md` Blöcke 01 und 06 | Wissens-Layer / architekten-synobsis | mittel | offen — Aktion Raphael (zwei Auskünfte + eine Freigabe) |
+
+**NEU 31.08.2026, 06:5x (Logbuch-Radar) — Die Sitzung «Türbeschläge» von heute 16:00 verliert genau die zwei Teilnehmer, wegen denen sie einberufen wurde.**
+RJ hat den Termin (Montag 31.08., 16:00 bis 16:30, Teams) als letzte Gelegenheit vor dem
+Produktionsstart Türen am 01.09. angesetzt. Heute früh sind **zwei Absagen** eingegangen, beide
+aus dem KISPI:
+**L. Merci, 06:12 CEST**, wörtlich: «Ich bin an einem Termin und kann diesen leider nicht
+wahrnehmen. Stehe aber vorab per Mail gerne zur Verfügung.»
+**M. Spörri, 06:36 CEST**, Absage ohne Begleittext.
+**Warum das den Zweck der Sitzung trifft:** Merci ist der Urheber der **sieben Matrix-Korrekturen**
+vom 28.08., die bis morgen bereinigt sein müssen; er ist damit nicht ein Teilnehmer unter sechs,
+sondern der Anlass. Spörri ist auf der Bauherrenseite der Technische Dienst. Es verbleiben
+L. Bajrami (Jegen), L. Hiltmann (TeKoSi), A. Spahic und F. Würsch — die ausführende Seite ohne die
+freigebende. Mercis Angebot «vorab per Mail» ist die naheliegende Brücke: die sieben Korrekturen
+und der offene Tür-ID-Restpunkt (01.2.3014.01 und 01.2.3017.01) lassen sich vor 16:00 schriftlich
+bereinigen, dann trägt die Sitzung wieder.
+**AKTION Raphael, heute vor 16:00:** entscheiden, ob die Sitzung in dieser Besetzung stattfindet,
+und Mercis Mail-Angebot annehmen, bevor die Produktion am 01.09. anläuft.
+| Absagen im Postfach rj@ gelesen (Graph): `Lior.Merci@kispi.uzh.ch` 31.08.2026 06:12:49 CEST mit Text, `Michael.Spoerri@kispi.uzh.ch` 31.08.2026 06:36:27 CEST ohne Text; Termin gegengeprüft im Outlook-Kalender (Organisator rj@, 6 Eingeladene) | 2619 KISPI, Lose 231.10 und 274.01 | **hoch** | offen — Tagesfrist 31.08.2026 16:00 |
+
+**NACHTRAG 31.08.2026, 06:5x zum Lauf-Gate (Zeile von 06:2x) — der Zustand hält an und verschärft sich.**
+Eigene Messung um 06:59: **228 Abweisungen** der Lane `schub-fachwissen` allein heute auf dem Mac
+Mini (06:2x waren es 201), die Begründung lautet inzwischen **86.6 %** statt 85.x %.
+`logbuch/vollgas/STOP-SCHUB` ist unverändert **nicht** gesetzt, der Treiber versucht es weiter im
+95-Sekunden-Takt. Damit bleibt der Entscheid unverändert offen und die Tagesfrist unverändert:
+11:00 (Ende des Schub-Auftrags) beziehungsweise 12:00 (Kontingent-Reset).
+| Eigene Messung 31.08.2026 06:59 an `logbuch/speicher/gate-Macmini.log` (228 Zeilen mit Datum 2026-08-31), Prüfung auf `logbuch/vollgas/STOP-SCHUB` (nicht vorhanden) | Hub-Betrieb / Kontingent | **hoch** | offen — Tagesfrist 31.08.2026 11:00 / 12:00 |
+
+**NACHTRAG 31.08.2026, 06:5x — die zwei blinden Messwege des Radars, heute erneut gegengemessen.**
+**(1) bexio, vierundzwanzigster Tag.** `node connectors/bexio.mjs --verzug --json` antwortet
+unverändert **HTTP 401**; die Gegenprobe direkt am Aussteller
+(`auth.bexio.com/realms/bexio/protocol/openid-connect/userinfo`) liefert ebenfalls **401**. Der
+Token in `~/.bexio.env` ist gesetzt und läuft erst am 13.12.2026 ab — Warten hilft weiterhin
+nicht, es braucht einen neuen Personal Access Token. Der Zahlstatus der offenen Debitoren steht
+damit weiter auf dem verifizierten Stand vom **08.08.2026 08:36**; es wurde nichts gemahnt und
+nichts gebucht. Der Punkt gehört sachlich zum Abo-Entscheid vom 08.09. und ist dort mitzuerledigen.
+**(2) Apple Mail, neunter Tag.** `scripts/mail-vorfilter.sh` bricht mit AppleEvent-Zeitüberschreitung
+(**-1712**) ab und meldet `KEINE_MAILS`. Der Radar ist wie an den Vortagen auf Graph ausgewichen und
+hat rj@ (Posteingang und Gesendete) sowie mail@ vollständig gelesen; **das Konto
+raphaeljans@outlook.com hat keinen Graph-Weg und ist damit den siebten Tag ungelesen** — zu jedem
+Thalwil-Punkt gilt weiterhin, dass er dort nicht gegengeprüft werden konnte.
+**(3) Nebenbefund ohne eigene Zeile:** im Konto mail@ liegen zwei Anmelde-Links von
+`mail.anthropic.com` (31.08. 06:01 und 06:07 CEST). Sie passen zum offenen P1 «headless-OAuth tot»
+vom 29.08.; ob sie von Raphael oder von einem Lauf ausgelöst wurden, ist aus der Mail nicht
+ersichtlich. Nicht angeklickt.
+| Eigene Messungen 31.08.2026 06:4x bis 06:5x (bexio-Connector und curl-Gegenprobe am Keycloak-Endpunkt, `mail-vorfilter.sh`, Graph-Postfächer rj@ und mail@) | Debitoren / Hub-Infrastruktur | hoch | offen |
+
+**NEU 31.08.2026, 07:0x (Logbuch-Radar) — Der Erinnerungstermin für den bexio-Abo-Entscheid steht 27 Tage nach der Frist, die er sichern soll.**
+Der Hub-Chef hat am 30.08. als Whitelist-Aktion A2 den Kalendereintrag **«bexio-Abo-Entscheid vor
+automatischer Verlängerung 08.10.»** auf **Montag 05.10.2026 09:00** gesetzt. Die Registerzeile
+desselben Vorgangs beziffert die massgebliche Handlungsfrist aber auf den **08.09.2026**:
+«Kündigung oder Paketwechsel wirken nur bis spätestens 30 Tage vor Ablauf». Der Eintrag zielt damit
+auf das **Verlängerungsdatum**, nicht auf den **Kündigungsstichtag** — wer ihm folgt, entscheidet
+27 Tage zu spät, und die Migration Starter auf Advanced (CHF 35 auf CHF 42 im Monat) vollzieht sich
+automatisch.
+**Der Fehlertyp ist die eigentliche Lehre:** ein Erinnerungstermin wurde auf das Datum des
+**Ereignisses** gelegt statt auf das Datum der **letzten Handlungsmöglichkeit**. Beide Daten standen
+in derselben Registerzeile.
+**AKTION Raphael:** den Eintrag vom 05.10. auf **Montag 07.09.2026** vorverlegen (nur vorgeschlagen,
+nicht eingetragen — Kalendereinträge bleiben Deine Sache). Der tote API-Zugang gehört unverändert in
+denselben Vorgang.
+| Kalendereintrag belegt in `logbuch/LOGBUCH.md`, Hub-Chef-Abschnitt 30.08.2026, Zeile 110; Frist belegt in der Aktiv-Zeile «08.09.2026 — bexio-Abo» desselben Registers; Befund entdeckt bei der Layout-QS dieses Briefings | Betrieb / Buchhaltung | hoch | offen — Entscheid Raphael bis 08.09.2026 |

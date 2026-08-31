@@ -3,6 +3,119 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 31.08.2026 (06:55, Kanal Logbuch, Weitergabe durch den Hub-Chef um 08:39)
+
+**Lagebild in einem Satz:** Der Tag trägt drei Termine und zwei Entscheide mit Tagesfrist, und die
+16:00-Sitzung zu den Türbeschlägen hat heute früh genau die zwei Absagen bekommen, die ihr den
+Zweck nehmen.
+
+### Erledigt seit gestern
+
+**Matterport-Link an die ausführende Seite versandt.** RJ am 31.08. 06:13 an L. Bajrami (Jegen) und
+L. Hiltmann (TeKoSi): Link zum Nachschauen des Ursprungszustands im Umbaubereich KISPI PPTS.
+Damit haben beide vor dem Produktionsstart die Bestandsreferenz.
+
+**Zwei Kalendereinträge und zwei Register-Nachträge des Hub-Chefs vom 30.08.** stehen: der
+Erinnerungseintrag für die Verlängerung von Bajramis SharePoint-Zugriff (heute 08:45) und der
+Entscheidungstermin zum bexio-Abo (05.10.).
+
+### Aus unseren Gesprächen
+
+**Der Leerlauf im Vollgas-Schub ist abgestellt und die Lehre verankert.** Aus dem Gespräch vom
+Sonntagvormittag entstand Rule `auto-verbesserungen` 260830: ein Treiber bricht nach gemessenem
+Liefer-Delta ab und hört die Selbstauskunft seines Laufs; ein wiederholt zugestellter Prompt
+schreibt nie einen Fortschrittsstand fest. Die Umsetzung ist im Feld nachgemessen. Die Lane
+SYNOBSIS wurde bei Runde 348 gestoppt.
+
+**Der Umbau der Laufzeitschicht ist aufgegleist, aber bewusst nicht angelaufen.** Die Spec liegt
+unter `docs/konzepte/260830-Laufzeitschicht-Umbau/SPEC.md`, freigegeben sind die Phasen 0 bis 2,
+das Umschalten bleibt bei Dir. Die Pendenz auf dem Mac Mini ist angehalten, weil der eigene
+Spec-Befund B6 zuerst zu klären ist: `dispatch-run.sh` pinnt das Arbeitsverzeichnis auf den
+SSD-Klon, während geteilte Inhalte nur auf dem NAS-Pfad bearbeitet werden dürfen. Eine Station,
+die im Klon arbeitet, würde genau den Befund reproduzieren, den sie untersuchen soll.
+
+### Heute, mit Tagesfrist
+
+**01 — 09:00 bis 09:15, Teams: Abgleich finaler Gesamtzeitplan.** Organisatorin C. Schäfer (KISPI),
+dazu C. Allerkamp und A. Spahic. Eine Viertelstunde, und sie liegt vor allem Übrigen des Tages.
+
+**02 — 16:00 bis 16:30, Teams: Türbeschläge, und die Besetzung stimmt nicht mehr.** Zwei Absagen
+heute früh: **L. Merci um 06:12** («Ich bin an einem Termin und kann diesen leider nicht wahrnehmen.
+Stehe aber vorab per Mail gerne zur Verfügung.») und **M. Spörri um 06:36** ohne Text. Merci ist der
+Urheber der sieben Matrix-Korrekturen vom 28.08., also nicht ein Teilnehmer unter sechs, sondern der
+Anlass der Sitzung. Es verbleiben Bajrami, Hiltmann, Spahic und Würsch, also die ausführende Seite
+ohne die freigebende. Mercis Angebot «vorab per Mail» ist die Brücke: Die sieben Korrekturen und der
+offene Tür-ID-Restpunkt (01.2.3014.01 und 01.2.3017.01) lassen sich vor 16:00 schriftlich bereinigen.
+Der Produktionsstart Türen ist morgen.
+
+**03 — Zusage aus der eigenen Mail vom 26.08.: Heute wird der Terminplan der Bauherrschaft
+kommuniziert.** Dazu fallen heute die zwei Zusagen aus der Koordinationssitzung vom 27.08. an, beide
+einen Tag vor der Meldung Baustart an die Feuerpolizei.
+
+**04 — Bis 11:00 beziehungsweise 12:00: Entscheid zum Kontingent.** Das Lauf-Gate weist die Lane
+`schub-fachwissen` seit 01:00 ab, um 06:59 waren es 228 Abweisungen allein heute, Begründung
+inzwischen 86.6 Prozent. Gleichzeitig verfallen um 12:00 rund 25 Mio ungenutzte Token. Beide
+Mechanismen arbeiten korrekt und ziehen gegeneinander; der Schub ist faktisch beendet, ohne dass
+ihn jemand beendet hätte. `STOP-SCHUB` ist nicht gesetzt. Zu entscheiden ist, ob die Drosselschwelle
+für die Reststunden angehoben oder der Schub sauber beendet wird. Das Gate wurde nicht verstellt.
+
+**05 — Estermann bringt ab 06:30 die RHS ein** (Registerzeile nennt den Wochentag Freitag, der
+31.08.2026 ist ein Montag; das Datum stammt aus der Zusage, der Wochentag ist dort ein Verschreiber).
+
+### In den nächsten 7 Tagen
+
+**01.09. (morgen)** — Produktionsstart Türen; Meldung Baustart an die Feuerpolizei der Stadt
+Zürich (KW36); die sieben Türmatrix-Korrekturen von L. Merci müssen bis dahin eingearbeitet
+sein; die von Dir am 28.08. angekündigte Arbeitseinstellung KISPI PPTS greift, sofern die
+Gegenseite nur bei der Zusage bleibt.
+
+**02.09.** — Planfreigabe Werkplan Therapieküche, Fassung 1 von N. Rothe liegt vor, die fachliche
+Rückmeldung von JANS steht aus.
+
+**03.09.** — 13:00 bis 14:00 Koordinationssitzung Gruner / Jans / KISPI (Teams); am selben Tag nimmt
+L. Bajrami die restlichen Lichtmasse vor Ort auf und erstellt danach die Werkpläne, Ziel «Gut zur
+Ausführung» in KW36.
+
+**07.09.** — Der SharePoint-Zugriff von L. Bajrami auf die Projektsite läuft ab, mitten in seiner
+Planarbeit. Ursache ist die Tenant-Richtlinie (Ablauf externer Zugriffe nach 60 Tagen), nicht eine
+Einzelfreigabe. L. Hiltmann (22.09.) im selben Gang mit erledigen.
+
+**08.09.** — Entscheid zum bexio-Abo vor der automatischen Migration Starter auf Advanced am 08.10.
+Kündigung oder Paketwechsel wirken nur bis 30 Tage vor Ablauf. Der tote API-Zugang gehört in denselben
+Vorgang. **Achtung, der Erinnerungstermin sichert diese Frist nicht:** der Kalendereintrag des
+Hub-Chefs vom 30.08. steht auf dem **05.10.2026**, also 27 Tage nach der massgeblichen Frist. Er
+zielt auf das Verlängerungsdatum 08.10., nicht auf den Kündigungsstichtag 08.09. Der Eintrag
+gehört vorverlegt.
+
+### In Beobachtung
+
+Sync-Divergenz NAS gegen GitHub, P1, heute 413 voraus und 267 nicht integriert nach 504 Versuchen,
+Einzelentscheid bei Dir. Neu belegt: Der scheiternde Rebase schreibt Arbeitsbaum-Dateien neu, damit
+ist die NAS-mtime derzeit keine Datumsquelle mehr.
+
+bexio-API im vierundzwanzigsten Tag mit HTTP 401, Debitorenstatus steht auf dem Stand vom 08.08.
+
+Apple Mail antwortet den neunten Tag nicht, das Konto raphaeljans@outlook.com ist damit den siebten
+Tag ungelesen; alles Übrige wurde über Graph gelesen.
+
+Die KB `architekten-synobsis` wartet auf zwei Auskünfte und eine Freigabe von Dir.
+
+Headless-OAuth beider Stationen, P1 seit 29.08.; im Konto mail@ liegen zwei Anmelde-Links von heute
+früh 06:01 und 06:07, nicht angeklickt.
+
+### Vorschlag Kalendereintrag
+
+Erstens heute 15:30 bis 16:00, ein halbstündiger Block vor der Türbeschläge-Sitzung, um mit Merci
+die sieben Matrix-Korrekturen schriftlich zu bereinigen.
+Zweitens den bestehenden Eintrag «bexio-Abo-Entscheid» vom 05.10.2026 auf **Montag 07.09.2026**
+vorverlegen, damit er vor dem Kündigungsstichtag 08.09. greift.
+Beides nur vorgeschlagen, nichts eingetragen.
+
+### Token-Tempo
+
+Vortag 30.08.: MacBook Pro 206.7 Mio Token (USD 152.37), Mac Mini 1'261.6 Mio (USD 513.50), zusammen
+rund 1'468 Mio und USD 665.87 Kostenäquivalent.
+
 ## Abo-Auslastung 30.08.2026 (18:0x) — SCHWARZ, Messausfall; der Zugang ist aber NICHT tot
 
 **Ampel SCHWARZ.** `connectors/claude-usage.mjs` liefert keinen Prozentwert: HTTP 400
