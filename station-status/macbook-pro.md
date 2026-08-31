@@ -1,10 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.08.2026 07:59:43
+Stand: 31.08.2026 08:10:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 07:58)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:50)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:09)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -20,4 +20,4 @@ Stand: 31.08.2026 07:59:43
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3f401679f ag-gruendung-monitor: Status 31.08. (Kapitaleinzahlung 14 Tage ausstehend)
+- 4d2eb2a62 fristen: P1-Sync-Nachtrag 08:08 (Divergenz 426/267, Versuch 514)
