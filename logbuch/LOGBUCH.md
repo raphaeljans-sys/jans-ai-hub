@@ -10122,3 +10122,8 @@ zugriff auf ein wiki/CHANGELOG in genau diesen KBs vergroessert die Konfliktflae
 von Hand zusammengefuehrt werden muss. Sinnvoller als eine erzwungene siebte Baustelle in derselben
 Nacht: Zyklus sauber ohne Aenderung an Wissensdateien beenden. Kein neuer Sachbefund, keine Aktion,
 kein Versand. Budget rund 1.3 von 5 USD, Zyklus beendet.
+
+## 2026-08-31 07:3x ag-gruendung-monitor
+
+Automatisierter Monitor-Lauf, weiterhin blind (osascript-Timeout seit neun Tagen). M365/Graph-Ersatzweg: Suche beide Postfächer (mail@/rj@) nach UBS, Notariat, Handelsregister, Kapitaleinzahlung — jüngste Sachnachricht bleibt «Ihr Kapitaleinzahlungskonto» vom **17.08.2026 08:18** im Konto mail@. Seither kein Eingang. **Status verifiziert unverändert:** Kapitaleinzahlungskonto geöffnet (IBAN CH46 0027 6276 1238 74D7 N), **Einzahlung CHF 50'000 noch ausstehend, 14 Tage offen**. Ohne Einzahlung kein Kapitalbescheinigung-Rückversand, keine Beurkundung. Notariat Wiedikon seit 25.08. nicht erreicht (osascript-Block). **Notariat-Vorgabe (Firmenname-Alternative statt «JANS AG»)** seit 22.06. offen — erforderlich für HR-Anmeldung. Nächster Schritt: (1) CHF 50'000 einzahlen, (2) UBS Kapitalbescheinigung per Einschreiben anfordern, (3) Firmenname-Alternative wählen + osascript-Fehler beheben damit Notariat erreichbar.
+
