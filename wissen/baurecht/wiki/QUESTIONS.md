@@ -2544,13 +2544,52 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Rechtssatz ist zuerst in der Ausführungsverordnung zu suchen, bevor er als unbelegt gilt —
   Run 137 hatte ausschliesslich das RPG geprüft und daraus auf «nicht belegbar» geschlossen.
 
-- **Neu 2026-08-24 (Buch-Run 140) — noch offen: die übrigen RPV-Schwellenwerte.** Geprüft und
-  korrigiert sind Art. 41, 42, 43 und 43a RPV. **Nicht** am Volltext geprüft sind die im
-  Destillat [[21-bauen-ausserhalb-bauzonen]] ebenfalls genannten Schwellen **35 % / 5000 m²**
-  (innere Aufstockung, Art. 37/37a RPV), **20 cm** und **70 % Trockensubstanz** (Art. 36 RPV) —
-  sie stehen weiterhin auf Buchstand 2019. Weg ist bekannt und dokumentiert
-  (`docs/referenz/fedlex-volltexte.md`, Nachtrag Buch-Run 140: ELI cc/2000/310, Snapshot
-  20260101, de/html).
+- ~~**Neu 2026-08-24 (Buch-Run 140) — noch offen: die übrigen RPV-Schwellenwerte.**~~ →
+  **ERLEDIGT 2026-09-01 (Buch-Run 141).** Alle drei Schwellen sind am amtlichen RPV-Volltext
+  Stand 1.1.2026 geprüft (`raw/260901_amtlich_ch_rpv-art32a-36-37.md`, ELI cc/2000/310,
+  Snapshot 20260101, de/html, 146'451 Byte).
+
+  **Die drei Zahlen sind alle CONFIRMED — und die Regeln drumherum waren trotzdem an vier
+  Stellen falsch.** Das ist der Kernbefund des Laufs: eine Prüfung, die nur Zahlen vergleicht,
+  hätte alles durchgewinkt.
+  1. **Fundstelle falsch:** die Gemüse-/Gartenbau-Schwelle 35 % / 5000 m² steht in **Art. 37
+     RPV**, nicht in Art. 36. Art. 36 gilt ausschliesslich der **Tierhaltung** (so schon der
+     Artikeltitel).
+  2. **Verknüpfung falsch:** 35 % und 5000 m² standen mit «bzw.» im Destillat und lasen sich
+     damit alternativ. Der Erlass verbindet sie mit **«und»** — sie gelten **kumulativ**.
+  3. **Zahl ohne Grundlage:** «Deckungsbeitrag <50 %» kommt im Erlass nicht vor; Art. 36 Abs. 1
+     lit. a fordert einen **Vergleich** (bodenunabhängig kleiner als bodenabhängig). Die 50 %
+     stehen in **Abs. 3** als Auffangregel und hatten im Destillat ganz gefehlt.
+  4. **Bezugsgrösse falsch:** «nicht über den **Dachfirst** hinaus» — Art. 32a Abs. 1 lit. b
+     stellt auf die **Dachfläche in der Draufsicht** ab, nicht auf den First.
+
+  **Dazu zwei Fassungsstände, die am Buchstand 2019 vorbeigelaufen sind:** Art. 32a Abs. 1bis
+  (**Flachdach**-Alternative: 1 m über Dachrand, 45-Grad-Rückversetzung) und der ganz neue
+  **Art. 32a-bis** (Solaranlagen an **Fassaden**, eigener Kriterienkatalog, 20 cm Wandabstand).
+  Art. 32a steht teils in der Fassung vom 1.7.2022 (AS 2022 357), Titel/Einleitung in jener vom
+  **1.1.2026** (AS 2025 659).
+
+- **Neu 2026-09-01 (Buch-Run 141) — Phantom-Artikel «Art. 37a RPV» ausgeräumt.** Die Fundstelle
+  «Art. 37/37a RPV» führte einen Artikel, den es **nicht gibt**: die RPV geht von Art. 37 direkt
+  zu Art. 38 (Volltextsuche nach `37a`/`37 a` über den ganzen Erlass: null Treffer; Artikel-IDs
+  `art_36`, `art_37`, `art_38`, `art_38_a`, **kein** `art_37_a`). **Nicht zu verwechseln mit
+  Art. 37a RPG** (zonenfremde Gewerbebauten, Stichtag 1.1.1980) — der existiert und ist im
+  Destillat [[21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald]] korrekt geführt. Beim
+  Register-Sweep zeigte sich, dass 20 der 22 «37a»-Treffer im KB das **korrekte RPG**-Zitat
+  sind; ein mechanisches Ersetzen hätte richtige Fundstellen zerstört (gleiche Fehlerfamilie wie
+  Rule `bkp-2017-referenz`, «Sachbezug prüfen, nicht mechanisch ersetzen»).
+
+- **Neu 2026-09-01 (Buch-Run 141) — offen: 5a. Abschnitt RPV «Vorrang der Landwirtschaft in der
+  Landwirtschaftszone».** Per **1.1.2026** unmittelbar nach Art. 38 RPV eingefügt (V vom
+  15. Okt. 2025, AS 2025 659, zu Art. 16 Abs. 5 RPG); im Buch (6. Aufl. 2019) naturgemäss nicht
+  enthalten und in diesem Lauf **inhaltlich nicht erschlossen**. Kandidat für den nächsten Lauf —
+  der Volltext liegt bereits beschafft vor.
+
+- **Neu 2026-09-01 (Buch-Run 141) — Cross-KB-Bringschuld an `wissen/energie`.** Die Solar-Befunde
+  (Art. 32a Abs. 1bis Flachdach, Art. 32a-bis Fassaden, Meldepflicht Abs. 3 i.V.m. § 2a BVV) sind
+  für die KB `energie` (PV-Eignung, Solarpflicht, Bewilligungsfreiheit) unmittelbar relevant.
+  → **übergeben an `wissen/energie`** (Rule `wissens-bibliothekar`, Cross-KB-Bringschuld);
+  Zeiger dort gesetzt, Beleg `raw/260901_amtlich_ch_rpv-art32a-36-37.md`.
 - ~~**needs-verification — Wortlaut § 220 / § 357 Abs. 1 PBG:** im Destillat
   [[20-ausnahmen-bestandesschutz]] nach Buch S. 1434/1444 sinngemäss wiedergegeben; am amtlichen
   PBG-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).~~ → **stale, bereits erledigt

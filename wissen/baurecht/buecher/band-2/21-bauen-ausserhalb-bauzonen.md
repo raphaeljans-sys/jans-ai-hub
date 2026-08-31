@@ -84,9 +84,16 @@ Aenderungen/Erweiterungen/Wiederaufbau.
   BGE 120 Ib 266) (S. 1467/1468).
 - **Innere Aufstockung (Art. 16a Abs. 2 RPG / Art. 36 RPV):** bodenunabhaengige Produktion
   zonenkonform nur, wenn sie einem bodenabhaengigen Betrieb angegliedert ist und im
-  Vergleich untergeordnet bleibt (Trockensubstanzkriterium: Deckungsbeitrag <50 %, bzw.
-  Trockensubstanzpotenzial des Pflanzenbaus mind. 70 % des Bedarfs des Tierbestands,
-  Art. 36 RPV) (S. 1474/1475).
+  Vergleich untergeordnet bleibt. **Art. 36 RPV gilt allein fuer die TIERHALTUNG**
+  (Artikeltitel «Innere Aufstockungen im Bereich der Tierhaltung»); Gemuese-/Gartenbau
+  steht in Art. 37 RPV. Zwei **alternative** Kriterien (Abs. 1 lit. a **oder** lit. b):
+  Deckungsbeitrag der bodenunabhaengigen Produktion **kleiner als jener der bodenabhaengigen**,
+  oder Trockensubstanzpotenzial des Pflanzenbaus mind. **70 %** des Trockensubstanzbedarfs des
+  Tierbestandes (S. 1474/1475; **CONFIRMED 2026-09-01, Buch-Run 141** am amtlichen Volltext
+  `raw/260901_amtlich_ch_rpv-art32a-36-37.md`, RPV Stand 1.1.2026).
+  **KORRIGIERT 2026-09-01 (Buch-Run 141):** hier stand «Deckungsbeitrag <50 %» — eine Zahl, die
+  im Erlass **nicht vorkommt**; Abs. 1 lit. a fordert einen **Vergleich**, keinen 50-%-Wert.
+  Die 50 % stehen an ganz anderer Stelle, naemlich in **Abs. 3** (Auffangregel, unten).
 - **Intensivlandwirtschaftszonen (Art. 16a Abs. 3 RPG):** ueber innere Aufstockung
   hinausgehende bodenunabhaengige Bauten nur in einer vom Kanton im Planungsverfahren
   ausgeschiedenen Zone (S. 1475).
@@ -238,19 +245,46 @@ folgt nach S. 1503)
   Erweiterungen nur zur Haelfte») kehrte die Anrechnungsrichtung um und liess die
   60-%-Innenschwelle weg (S. 1499/1500; Beleg `raw/260824_amtlich_ch_rpv-art41-43a.md`).
 - **Identitaetswahrung:** Aenderung in den **wesentlichen Zuegen** der Baute (S. 1499/1500).
-- **Innere Aufstockung — Trockensubstanzkriterium (Art. 36 RPV):** Deckungsbeitrag der
-  bodenunabhaengigen Produktion **kleiner** als der der bodenabhaengigen; bzw.
-  Trockensubstanzpotenzial des Pflanzenbaus deckt mind. **70 %** des Bedarfs des
-  Tierbestands (S. 1474/1475).
-- **Gemuese-/Gartenbau «innere Aufstockung» (Art. 36 RPV):** bodenunabhaengig bewirtschaftete
-  Flaeche **35 %** der gartenbaulichen Anbauflaeche bzw. **nicht mehr als 5000 m²**
-  (S. 1475).
-- **Solaranlagen genuegend angepasst (Art. 32a RPV):** Reflexionsarmut nach Stand der
-  Technik, max. **20 cm** ueber Dachflaeche, kompakte Flaeche, nicht ueber Dachfirst
-  hinaus (S. 1478).
+- **Innere Aufstockung Tierhaltung — Trockensubstanzkriterium (Art. 36 RPV):** Deckungsbeitrag
+  der bodenunabhaengigen Produktion **kleiner** als der der bodenabhaengigen; **oder**
+  Trockensubstanzpotenzial des Pflanzenbaus deckt mind. **70 %** des Trockensubstanzbedarfs des
+  Tierbestandes (S. 1474/1475; **CONFIRMED** Run 141). **Ergaenzt Run 141 — Abs. 3, im Buch nicht
+  wiedergegeben:** fuehrt das Deckungsbeitragskriterium zu einem **hoeheren** Aufstockungs-
+  potenzial als das Trockensubstanzkriterium, muessen in jedem Fall **50 %** des Trockensubstanz-
+  bedarfs gedeckt sein. Der Vergleich ist nach **Standardwerten** vorzunehmen (Abs. 2).
+- **Gemuese-/Gartenbau «innere Aufstockung» (Art. 37 RPV — NICHT Art. 36):** bodenunabhaengig
+  bewirtschaftete Flaeche uebersteigt **35 %** der gemuese-/gartenbaulichen Anbauflaeche **des
+  Betriebs** nicht **UND** betraegt **nicht mehr als 5000 m²** (S. 1475; **CONFIRMED** Run 141).
+  **ZWEI KORREKTUREN 2026-09-01 (Buch-Run 141):** (1) die Fundstelle lautete «Art. 36 RPV» —
+  richtig ist **Art. 37 RPV**; (2) die beiden Schwellen waren mit «bzw.» verbunden und lasen sich
+  damit **alternativ** — der Erlass verknuepft sie mit **«und»**, sie gelten **kumulativ**. Wer
+  nur eine der beiden einhaelt, erfuellt den Tatbestand nicht.
+- **Solaranlagen auf Daechern genuegend angepasst (Art. 32a RPV):** reflexionsarm nach Stand der
+  Technik, kompakt angeordnet, Dachflaeche im rechten Winkel um max. **20 cm** ueberragend und
+  **von oben gesehen nicht ueber die Dachflaeche hinausragend** (S. 1478; 20 cm **CONFIRMED**
+  Run 141). **KORRIGIERT 2026-09-01 (Buch-Run 141):** hier stand «nicht ueber **Dachfirst**
+  hinaus» — Art. 32a Abs. 1 lit. b stellt nicht auf den First, sondern auf die **Dachflaeche in
+  der Draufsicht** ab.
+  **Zwei Fassungsstands-Nachtraege, beide nach der Buchfassung 2019 in Kraft getreten:**
+  (a) **Abs. 1bis Flachdach-Alternative** — anstelle von Abs. 1 genuegt: Oberkante Dachrand um
+  max. **1 m** ueberragt, von unten im **45-Grad**-Winkel nicht sichtbar zurueckversetzt,
+  reflexionsarm. (b) **Art. 32a-bis Solaranlagen an FASSADEN** — ganz neuer Artikel mit
+  Kriterienkatalog (Abs. 1 lit. a-g, **eine** genuegt) und Zusatzvoraussetzungen (Abs. 2, u.a.
+  max. **20 cm Abstand zur Fassade**, parallel). Abs. 1 lit. a/b/d von Art. 32a stehen in der
+  Fassung vom 1.7.2022 (AS 2022 357), Titel/Einleitung in der Fassung vom **1.1.2026**
+  (AS 2025 659). Beides fehlte hier vollstaendig.
+- **Meldepflicht statt Baubewilligung (Art. 32a Abs. 3 RPV):** bewilligungsfreie Solaranlagen
+  sind vor Baubeginn der Baubewilligungsbehoerde zu **melden**; Frist und Unterlagen bestimmt
+  das kantonale Recht. **Fuer ZH:** **§ 2a BVV** erklaert Solaranlagen auf Daechern meldepflichtig,
+  «soweit sie nach Art. 32a RPV genuegend angepasst sind» — eine **Verweisnorm auf genau diesen
+  Bundesartikel** (`raw/260607_amtlich_zh_bvv.md`). Aendert der Bund Art. 32a RPV, aendert sich
+  der kantonale Meldetatbestand **ohne jede kantonale Rechtsaenderung** mit. Zweiteilig pruefen
+  (Leitplanke Run 71): Verweisnorm **und** verwiesene Bundesbestimmung.
 
-> Hinweis: Schwellenwerte aus RPV — vor Anwendung am geltenden RPV-Volltext
-> (admin.ch) verifizieren; Werte aus dem Buch (Stand 6. Aufl. 2019).
+> Hinweis: Die drei oben markierten Schwellen (70 %, 35 %/5000 m², 20 cm) sind am amtlichen
+> RPV-Volltext Stand 1.1.2026 geprueft (Run 141, `raw/260901_amtlich_ch_rpv-art32a-36-37.md`).
+> Fuer die uebrigen im Kapitel genannten RPV-Werte gilt weiterhin Buchstand 6. Aufl. 2019 —
+> vor Anwendung gegenpruefen.
 
 ## 4. Praxis / Fallrecht (im Buch zitiert)
 
@@ -304,7 +338,16 @@ folgt nach S. 1503)
   **Teilweise erledigt 2026-08-24 (Buch-Run 140):** Art. 41, 42, 43 und 43a RPV sind am amtlichen
   Volltext Stand 1.1.2026 gegengeprueft (`raw/260824_amtlich_ch_rpv-art41-43a.md`) — zwei
   Korrekturen (60-%-Innenschwelle, Anrechnungsrichtung), Wiederaufbau-Fundstelle richtiggestellt.
-  **Noch offen:** die uebrigen genannten Schwellen (35 %/5000 m² Art. 37/37a RPV, 20 cm, 70 %
-  Trockensubstanz Art. 36 RPV) sind in diesem Lauf **nicht** geprueft worden.
+  ~~**Noch offen:** die uebrigen genannten Schwellen (35 %/5000 m² Art. 37/37a RPV, 20 cm, 70 %
+  Trockensubstanz Art. 36 RPV) sind in diesem Lauf **nicht** geprueft worden.~~
+  **ERLEDIGT 2026-09-01 (Buch-Run 141):** alle drei am amtlichen Volltext Stand 1.1.2026 geprueft
+  (`raw/260901_amtlich_ch_rpv-art32a-36-37.md`). Ergebnis: **alle drei Zahlen CONFIRMED**, aber
+  **vier Zuordnungs-/Bedeutungsfehler** daneben — Fundstelle Art. 36 statt **37** (Gemuesebau),
+  «bzw.» statt **«und»** (kumulativ!), «Deckungsbeitrag <50 %» (Zahl steht so nicht im Erlass),
+  «nicht ueber Dachfirst» statt **Dachflaeche in der Draufsicht** — dazu zwei fehlende
+  Fassungsstaende bei Art. 32a (Abs. 1bis Flachdach; Art. 32a-bis Fassaden). **Die Zahlen waren
+  richtig und trotzdem war die Regel falsch** — eine reine Zahlenpruefung haette nichts gefunden.
+  Ausserdem: **Art. 37a RPV existiert nicht** (Artikelfolge 37 → 38), die Fundstelle war ein
+  Phantom-Artikel; **Art. 37a RPG** dagegen existiert und ist korrekt gefuehrt.
 - **Konkrete RPV-Artikelnummern** einzelner Detailregelungen (Art. 34/34a/34b/36/42/43a)
   bei Bedarf am Volltext praezisieren.

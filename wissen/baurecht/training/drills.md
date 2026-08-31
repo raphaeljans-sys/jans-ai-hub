@@ -2619,3 +2619,37 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   Delegationsgesetz wie das RPG verlagert Schwellenwerte und Voraussetzungen systematisch in die
   Verordnung. Vgl. Buch-Run 137 (Befund «nicht verifizierbar») und Buch-Run 140 (Auflösung).
   _[2026-08-24]_
+
+- **G (Modell D / «die Zahl stimmt, die Regel nicht», Fall innere Aufstockung):** Ein Destillat
+  nennt fuer die innere Aufstockung im Gemuese-/Gartenbau «**35 %** der gartenbaulichen
+  Anbauflaeche **bzw.** nicht mehr als **5000 m²**, Art. 36 RPV». Die Pruefung am amtlichen
+  Volltext bestaetigt beide Zahlen. Ist der Satz damit in Ordnung? — **A: Nein, er ist an drei
+  Stellen falsch, obwohl keine Zahl falsch ist.** (1) **Fundstelle:** die Regel steht in
+  **Art. 37 RPV**; Art. 36 gilt ausschliesslich der **Tierhaltung** (so schon der Artikeltitel).
+  (2) **Verknuepfung:** der Erlass verbindet die beiden Schwellen mit **«und»**, nicht mit «bzw.» —
+  sie gelten **kumulativ**. Ein Betrieb, der 30 % erreicht, aber 6000 m² bewirtschaftet, erfuellt
+  den Tatbestand **nicht**; die «bzw.»-Fassung haette ihn durchgewinkt. (3) **Bezugsgroesse:** die
+  35 % beziehen sich auf die Anbauflaeche **des Betriebs**, nicht auf eine Parzelle. **Lehre:** Eine
+  Verifikation, die nur Zahlen vergleicht, ist keine Verifikation — Fundstelle, Verknuepfung
+  (und/oder) und Bezugsgroesse tragen den Rechtssatz genauso wie der Zahlenwert. Gegenprobe im
+  selben Lauf: «Deckungsbeitrag <50 %» in Art. 36 war eine Zahl, die im Erlass **gar nicht
+  vorkommt** (dort ein Vergleich; die 50 % stehen in Abs. 3 als Auffangregel).
+  `raw/260901_amtlich_ch_rpv-art32a-36-37.md`, RPV Stand 1.1.2026. _[2026-09-01]_
+
+- **H (Modell D / Verweisnorm zweiteilig, Fall Solaranlage auf dem Flachdach):** Eine Bauherrschaft
+  will auf dem **Flachdach** eine aufgestaenderte PV-Anlage; die Aufstaenderung ueberragt die
+  Dachflaeche um deutlich mehr als 20 cm. Das KB-Destillat sagt: «genuegend angepasst nur bei max.
+  20 cm Ueberstand» — also Baubewilligungsverfahren statt Meldung? — **A: Nein, das ist der
+  Buchstand 2019.** **Art. 32a Abs. 1bis RPV** (nach der Buchfassung in Kraft) stellt fuer
+  Flachdaecher eine **eigenstaendige Alternative** bereit: Oberkante Dachrand um hoechstens **1 m**
+  ueberragt, von unten im **45-Grad-Winkel nicht sichtbar** zurueckversetzt, reflexionsarm — dann
+  genuegend angepasst **ohne** die 20-cm-Schwelle. Zweiter Fehler derselben Karte: das Destillat
+  sagte «nicht ueber den **Dachfirst** hinaus», Abs. 1 lit. b stellt aber auf die **Dachflaeche in
+  der Draufsicht** ab. **Der Verfahrensweg haengt zweiteilig:** kantonal ordnet **§ 2a Abs. 1
+  lit. a BVV** die Meldepflicht an «soweit sie nach Art. 32a RPV genuegend angepasst sind» — eine
+  **Verweisnorm**. Der Bund hat Art. 32a per 1.7.2022 (AS 2022 357) und 1.1.2026 (AS 2025 659)
+  geaendert; der kantonale Meldetatbestand hat sich damit **mitbewegt, ohne dass die BVV geaendert
+  wurde**. **Lehre:** Bei jeder Verweisnorm beide Ebenen pruefen (Leitplanke Run 71) — ein
+  Fassungsstand-Check auf Ebene des **kantonalen** Erlasses haette hier nichts gefunden, weil die
+  BVV voellig intakt ist. Vgl. auch Art. 32a-bis RPV (Fassaden), im Buch noch nicht vorhanden.
+  `raw/260901_amtlich_ch_rpv-art32a-36-37.md` + `raw/260607_amtlich_zh_bvv.md`. _[2026-09-01]_

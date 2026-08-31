@@ -2,6 +2,21 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-09-01 — Eingang aus KB `baurecht` (Buch-Run 141): Art. 32a RPV per 1.1.2026 revidiert
+
+**E-B141-1 (offen):** Prüfen, ob die BVV (LS 700.6, Nachtrag 133, Druckstand 1.7.2026) den neuen
+**Art. 32a-bis RPV** (Solaranlagen an Fassaden, in Kraft nach der Buchfassung) nachvollzieht, oder
+ob § 2a Abs. 1 lit. b BVV und Art. 32a-bis RPV nebeneinander stehen. Ebenso offen: ob die
+**Flachdach-Alternative Art. 32a Abs. 1bis RPV** (1 m über Dachrand, 45-Grad-Rückversetzung) den
+kantonalen Meldetatbestand § 2a Abs. 1 lit. a BVV faktisch erweitert — die BVV-Zeile ist eine
+**Verweisnorm** auf Art. 32a RPV und bewegt sich mit dem Bundesrecht mit, ohne selbst geändert zu
+werden.
+
+Zeiger gesetzt in `[[solarpflicht-schweiz-kantone]]`, Abschnitt «Die Bundesebene unter § 2a BVV hat
+sich per 1.1.2026 bewegt». Amtlicher Wortlaut:
+`wissen/baurecht/raw/260901_amtlich_ch_rpv-art32a-36-37.md` (Fedlex, ELI cc/2000/310, Snapshot
+20260101, de/html). Herkunft: `wissen/baurecht/outputs/2026-09-01_buch-run141.md`.
+
 ## 2026-08-31 (Run 171) — E-R169-3 destilliert, E-R169-2 als Fehl-Offen geschlossen; zweiter Fehl-Offen in Folge
 
 **Geliefert:** `[[ahb-merkblatt-384-beleuchtung-hallenbaeder-2024]]` (AHB M-System-Nr. 384, Oktober

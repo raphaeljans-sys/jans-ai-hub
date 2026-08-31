@@ -1853,6 +1853,12 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   **Naechster Schritt:** Kap.-22-Restabschnitte (22.1/22.2/22.5-22.7/22.9.2-22.9.3) und Kap. 23
   ueber den in Run 139 dokumentierten M365-Graph-Screenshot-Weg; dazu die noch ungepruefte
   RPV-Schwellengruppe 35 %/5000 m², 20 cm, 70 % Trockensubstanz (Art. 36/37/37a RPV).
+  **→ erledigt durch Run 141 (2026-09-01):** alle drei Zahlen CONFIRMED, daneben vier
+  Zuordnungs-/Bedeutungsfehler korrigiert und zwei Fassungsstaende (Art. 32a Abs. 1bis,
+  Art. 32a-bis RPV) nachgetragen. **«Art. 37a RPV» war ein Phantom-Artikel** — die RPV geht von
+  Art. 37 direkt zu Art. 38; die Gemuesebau-Schwelle steht allein in **Art. 37 RPV**. Nicht zu
+  verwechseln mit **Art. 37a RPG** (existiert, Gewerbebauten). Report
+  `outputs/2026-09-01_buch-run141.md`, Beleg `raw/260901_amtlich_ch_rpv-art32a-36-37.md`.
   *(Tracker-Hinweis: die Eintraege fuer Run 116-139 fehlen hier; ihre Belege stehen im CHANGELOG
   und in `outputs/`. Nicht rekonstruiert, nur vermerkt — gleiche Luecken-Familie wie bei Run 41.)*
 

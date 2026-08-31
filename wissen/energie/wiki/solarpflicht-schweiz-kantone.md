@@ -76,6 +76,34 @@ Fassadenanlagen zusätzlich der Nachweis nach VKF-Richtlinien 14-15 und 15-15. M
 § 238 Abs. 4 PBG massgebend: sorgfältig in Dach- oder Fassadenfläche integrierte Anlagen sind zu
 bewilligen, sofern nicht überwiegende öffentliche Interessen entgegenstehen.
 
+### Die Bundesebene unter § 2a BVV hat sich per 1.1.2026 bewegt (Zeiger aus KB `baurecht`, Buch-Run 141, 01.09.2026)
+
+Die Tabellenzeile «Dachanlage, nach **Art. 32a RPV** genügend angepasst» ist eine **Verweisnorm**:
+sie übernimmt den bundesrechtlichen Anpassungsbegriff unverändert. Ändert der Bund Art. 32a RPV,
+verschiebt sich der kantonale Meldetatbestand **ohne jede Änderung der BVV** mit. Genau das ist
+geschehen, und zwar zweifach nach dem hier dokumentierten BVV-Stand:
+
+- **Art. 32a Abs. 1bis RPV (Flachdach-Alternative):** Auf einem Flachdach gilt eine Anlage auch
+  dann als genügend angepasst, wenn sie statt der Voraussetzungen von Abs. 1 die Oberkante des
+  Dachrandes um höchstens **1 m** überragt, von unten im **45-Grad**-Winkel nicht sichtbar
+  zurückversetzt ist und reflexionsarm ausgeführt wird. **Praktische Folge:** eine aufgeständerte
+  Flachdachanlage, die an der 20-cm-Schwelle von Abs. 1 scheitert, kann über Abs. 1bis dennoch
+  meldepflichtig statt bewilligungspflichtig sein.
+- **Art. 32a-bis RPV (Solaranlagen an Fassaden):** ein ganz neuer Artikel mit eigenem
+  Kriterienkatalog (Abs. 1 lit. a-g, **eine** Voraussetzung genügt) und Zusatzanforderungen
+  (Abs. 2, u.a. max. **20 cm Abstand zur Fassade**, parallel, keine Überdeckung von Gliederungs-
+  oder Schmuckelementen). Die Tabelle oben stützt die Fassadenanlage bisher allein auf § 2a
+  Abs. 1 lit. b BVV.
+
+Art. 32a RPV steht teils in der Fassung vom 1.7.2022 (AS 2022 357), Titel und Einleitung in jener
+vom **1.1.2026** (AS 2025 659). Amtlicher Wortlaut beider Artikel:
+`wissen/baurecht/raw/260901_amtlich_ch_rpv-art32a-36-37.md` (Fedlex, ELI cc/2000/310, Snapshot
+20260101).
+
+**Noch nicht geprüft** (Bringschuld dieser KB): ob die BVV in der Fassung Nachtrag 133
+(Druckstand 1.7.2026) den neuen Art. 32a-bis bereits nachvollzieht oder ob § 2a Abs. 1 lit. b BVV
+und Art. 32a-bis RPV nebeneinander stehen und sich inhaltlich überschneiden.
+
 ⚠ **Überholt:** Die noch verbreitete Faustregel «Dachanlage bis 35 m² zusammenhängend, Überstand
 ≤ 20 cm, bewilligungsfrei» stammt aus § 1 lit. k BVV alter Fassung (so abgedruckt im
 AWEL-Vollzugsordner Energie, Stand Juni 2013). Sie gilt nicht mehr und führt in der Planung zur
