@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 20:04:38
+Stand: 01.09.2026 20:25:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 20:04:38
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 48e4f265d nas-selfcommit: 2 Datei(en) 2026-09-01 20:00
+- 923d6ba62 logbuch/fristen: Nachtrag 01.09. 20:1x (tenant-hygiene) — Divergenz 610/267, 70 h, Hygiene-Reports 4. Tag ohne GitHub-Backup

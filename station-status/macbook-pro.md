@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 20:07:27
+Stand: 01.09.2026 20:28:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:48)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 01.09.2026 20:07:27
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 48e4f265d nas-selfcommit: 2 Datei(en) 2026-09-01 20:00
+- 923d6ba62 logbuch/fristen: Nachtrag 01.09. 20:1x (tenant-hygiene) — Divergenz 610/267, 70 h, Hygiene-Reports 4. Tag ohne GitHub-Backup
