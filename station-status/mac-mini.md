@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 05:10:04
+Stand: 01.09.2026 05:20:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 05:10:04
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fd572cf0f planungsgrundlagen-wartung 03: Sicherungsabschnitt im Report, Fristen-Register-Fortschreibung 530/267
+- a182286fe nas-selfcommit: 2 Datei(en) 2026-09-01 05:15
