@@ -3824,3 +3824,69 @@ aktiv, `ssh mini` antwortet sofort). Ohne Gegenprobe waere hier ein Erreichbarke
 Stufe P1 nach Rule 260824 gemeldet worden, den es nicht gab. Gleiche Familie wie der
 Task-Opener-Befund vom 18.08.: **ein leeres Ergebnis ist zuerst eine Aussage ueber das
 Werkzeug.** In diesem Lauf ohne `timeout` gemessen, nur mit `ssh -o ConnectTimeout`.
+
+**Bewertung — keines der sieben Meldekriterien erreicht, nicht gemailt.**
+**(a) Interaktive Blockade:** keine. Die letzten beiden echten Limit-Fehlerereignisse (strukturell
+geprueft, nicht per Wort-grep) liegen am **29.08. 17:06 und 18:26** und damit ausserhalb des
+24-Stunden-Fensters. Kontrollprobe gefahren: `scheduled-task` kommt in 101 von 161 Dateien vor,
+das Opener-Muster ist also intakt und ein leeres Ergebnis waere ein Sachbefund gewesen.
+**(b) Verbrauch:** 31.08. zusammen **8.47 Mio teuer** — weit unter der 35-Mio-Schwelle und unter
+der 18-Mio-Folgetagsschwelle. Der Schub ist am 31.08. 11:00 fristgerecht ausgelaufen.
+**(c) Wochenkontingent:** nicht erschoepft; der Reset vom 31.08. 12:00 ist vollzogen, der Radar
+mass um 00:57 einen Stand von 2.4 %.
+**(d) Briefings:** `hub-chef` (31.08. 09:13) und `zahlungsabgleich-check` sauber beendet.
+`mahnwesen-verzugscheck` erreichte sein Deliverable nicht — **bexio HTTP 401, vierundzwanzigster
+Tag**. Das ist der bekannte, im Fristen-Register gefuehrte Blocker mit Entscheidfrist Raphael
+**08.09.2026**; der Lauf selbst endete korrekt mit dokumentiertem Blocker. Kein neuer Befund,
+darum keine Wiederholungsmail.
+**(e) Radar-Herzschlag:** vorhanden — juengste `## `-Ueberschrift in `RADAR.md` vom **01.09. 00:57**
+(vor 6.5 h), Session belegt. Nicht am Dateikopf gemessen.
+**(f) Destillat:** Ertrag bewegt sich — `architektur-fachwissen` steht bei **97 Artikeln**, der
+juengste wurde **heute 07:30** geschrieben. Kein Aufwand ohne Wissenszuwachs.
+**(g) Korpus-Queue:** nicht komplett. Korpus 4 `archiv-fachwissen` ist aktiv (fuenf Destillat-Laeufe
+29./30.08.), Specs liegen fuer alle vier Korpora vor — das Spec-Gate haengt nicht.
+
+**Stueckkosten (teuer je neu/erweitertem Wiki-Artikel, Artikelzahl via `git log`, nicht mtime):**
+29.08. 39.36/80 = **0.49** · 30.08. 55.47/37 = **1.50** · 31.08. 8.47/12 = **0.71** Mio je Artikel.
+Ohne die sechs Twin-Facetten, die der Fidelity-Review taeglich anfasst, bleiben am 31.08. **6**
+eigenstaendige Artikel, also **1.41** Mio. Der 29.08. bleibt der guenstigste Tag der Reihe.
+
+**Vortagsbefund 1 gegengeprueft und BESTAETIGT — die Fortschrittskennzahl ist wirklich blind.**
+Unterwegs entstand die Hypothese, `sektionen=0/0` sei bloss ein Artefakt der Mount-Aussetzer: bei
+weggekipptem Volume meldet `inventar.sh` naemlich `korpus.conf nicht lesbar`, was wie derselbe
+Fehler aussieht. Die Gegenprobe bei nachweislich stehendem Mount widerlegt die Hypothese —
+das Script laeuft sauber durch und meldet fuer beide aktiven Korpora unveraendert
+`sektionen=0/0 dateien_inventarisiert=0`. Unter `skills/wissens-destillat/training/` liegen
+weiterhin nur `bauprodukte-sektionen.md` und `buero-projekte-sektionen.md`. Der Befund steht
+damit den **vierten** Tag; die Ertragsseite bleibt allein ueber git messbar. **Zwei verschiedene
+Fehlerbilder, die man nicht verwechseln darf** — der Mount-Aussetzer verdeckt die Blindheit,
+er erzeugt sie nicht.
+**Vortagsbefund 2 unveraendert:** unter `wissen/architektur-fachwissen/outputs/` liegt weiterhin
+nur der Report vom 23.08.
+
+**Zwei offene P1 — beide bereits registriert, beide erreichen Raphael heute um 08:39.**
+**1 — Sicherungskette.** Nativ per ssh nachgemessen (nie git ueber SMB): **546 Commits ungesichert**
+gegen `github/main`, der GitHub-Kopf steht seit **31.08. 06:12** still. Der Selfcommit committet
+lokal weiter und scheitert seit dem 29.08. bei jedem Abgleich: **634 Fehlversuche**, Divergenz
+546 lokal / 267 remote, Rebase und Merge beide abgewiesen mit «Konflikte brauchen ein Urteil».
+Der Radar hat den Punkt um 00:57 als P1 eskaliert, die Ursache benannt (**Befund B6**,
+`dispatch-run.sh` Zeile 33 pinnt das Arbeitsverzeichnis auf den SSD-Klon) und mit derselben
+Begruendung wie hier nicht gemailt. Eine Vereinigung ueber fremde, unbestaetigte Arbeit ist genau
+der Fall, den Rule `interaktive-eingriffe` dem unbeaufsichtigten Lauf verbietet.
+**2 — NAS-Mount MacBook Pro.** Waehrend dieses Laufs **drei Ausfaelle in 27 Minuten**; eine
+Messreihe ueber zwei Minuten ergab **24 von 24 Proben unerreichbar**, der Mount kam nicht von
+allein zurueck. Nach manuellem Remount **18 von 18 Proben stabil**. `com.jans.nas-keepalive` und
+`com.jans.nas-auto-mount` sind beide geladen, heilen den Stall aber nicht. Der Wissens-Chef hat
+denselben Befund am **31.08. 23:5x** mit **59 Abrissen an einem Tag** ins Fristen-Register
+geschrieben, samt Ursache: die dokumentierte SMB-Haertung ist halb vorhanden, die
+Konfigurationsdatei fehlt. **Wichtig fuer den Fix:** es gibt einen Weg **ohne sudo** —
+`~/Library/Preferences/nsmb.conf` mit `notify_off=yes`, `mc_on=no`, `signing_required=no`
+(`docs/referenz/nas-mount-haerten.md`). Selbst angelegt habe ich sie nicht: eine Datei, die einen
+Reboot ueberlebt, faellt unter Persistenz und damit unter die Freigabe-Schwelle, die fuer
+unbeaufsichtigte Laeufe ausnahmslos gilt.
+
+**Nicht gemailt.** Zuletzt gemailt: **24.08.2026 07:50**. Beide P1 sind im Fristen-Register und
+laufen um 08:39 ueber das Tagesbriefing des Hub-Chefs bei Raphael ein; eine zweite Mail 70 Minuten
+vorher braechte ihm nichts, was er jetzt anders machen koennte. Naechste Mail erst bei neuer
+Kontingent-Erschoepfung, einem Briefing-Ausfall aus neuer Ursache, fehlendem Radar-Herzschlag oder
+Aufwand ohne Wissenszuwachs.

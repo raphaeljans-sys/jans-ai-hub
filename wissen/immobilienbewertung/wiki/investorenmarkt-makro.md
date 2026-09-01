@@ -201,8 +201,27 @@ Aktualisierung der Kurs-Anker (Kurszahlen sind Stand 2022/23):
   Das ist das **risikofreie Basisniveau** für die Diskontsatz-Herleitung ([[ertragswert-dcf]],
   JANS-Diskontsatz-Tabelle D3) — nahe null, ähnlich/tiefer als im WP-Kursstand Sommer 2023, was
   die WP-Diskontanker (Wohnbau real 2.1–3.0 %) am unteren Band stützt. Quelle: SNB-Quartalsheft
-  2/2026 (snb.ch, publ. 24.06.2026, S. Kapitel 5 «Geld- und Kapitalmarktzinsen»). Nächste
-  Publikation (Quartalsheft 3/2026) ~09/2026 nachziehen.
+  2/2026 (snb.ch, publ. 24.06.2026, S. Kapitel 5 «Geld- und Kapitalmarktzinsen»).
+  - **✓ Update 01.09.2026 (Marktpuls) — neu tagesaktuell statt quartalsweise: R10 = 0,469 %
+    per 31.08.2026.** Die SNB publiziert die Rendite zehnjähriger Eidgenossen **täglich** als
+    maschinenlesbaren Feed (`https://www.snb.ch/public/rss/de/interestRates`, Reihe **R10**,
+    «Rendite Bundesobligationen Eidgenossenschaft / Kassazinssatz bei einer Laufzeit von 10
+    Jahren»). Die KB zog diesen Wert bisher aus dem **Quartalsheft** und führte damit einen bis
+    zu drei Monate alten Stand; der Feed löst das dauerhaft ([[datenquellen-registry]]).
+    Letzte Handelstage: 25.08. 0,442 · 26.08. 0,412 · 27.08. 0,424 · 28.08. 0,443 ·
+    **31.08. 0,469 %**. Gegenüber dem Quartalsheft-Wert **0,39 % (Mitte Juni 2026)** ist das
+    ein Anstieg um rund **8 Basispunkte**. Ebenfalls aus demselben Feed und damit amtlich
+    bestätigt per 31.08.2026: **SNB-Leitzins 0,00 %**, **SARON −0,05 %**, Sondersatz
+    Engpassfinanzierungsfazilität 0,25 %, Sichtguthaben über der Limite −0,25 %.
+    **Bewertungsrelevanz:** +8 Bp auf dem risikofreien Basisniveau sind **kein Anlass, die
+    Diskontsatz-Tabelle D3 zu ändern** — die JANS-Bänder sind in Zehntelprozentpunkten
+    definiert, und 0,47 % bleibt im selben «nahe null»-Regime wie 0,39 %. Festgehalten wird der
+    **Richtungswechsel**: die Reihe steigt seit Frühjahr (0,34 % Mitte März → 0,39 % Mitte Juni
+    → 0,47 % Ende August). Ein Weiterlaufen über ~0,8 % wäre der Punkt, an dem D3 neu zu prüfen
+    ist. Quelle: SNB, Feed «Aktuelle Zinssätze», Abruf 01.09.2026 (Datenstand 31.08.2026).
+  - Das **SNB-Quartalsheft 3/2026** (erwartet ~24.09.2026, zusammen mit der Lagebeurteilung)
+    bleibt für die erzählende Einordnung nachzuziehen; der Zahlenwert selbst kommt neu aus dem
+    Feed und wartet nicht mehr auf das Heft.
 - **Bewertungsfolge:** tiefes Zinsniveau stützt Diskont-/Kapitalisierungssätze auf tiefem
   Niveau → hohe Bewertungen halten; aber Mietsenkungsdruck via Referenzzins dämpft den
   Bestandes-Cashflow ([[ertragswert-dcf]]).
@@ -276,9 +295,49 @@ Aktualisierung der Kurs-Anker (T10) mit dem jüngsten Marktstand:
     UBS-Prognose 2026 neu **nominal +3.5 bis +4.0 %** (vorher +3 %). Für die Bewertung: die
     Preisdynamik ist eher stärker als im Frühjahr unterstellt, das Blasenrisiko bleibt aber im
     moderaten Band — kein Anlass, Diskontsätze aus Risikogründen zu heben.
-    Quelle: UBS CIO, SREBI Q2-2026, publ. 06.08.2026 (Medienberichterstattung nau.ch 06.08.2026
-    gegengelesen; PDF-Primärquelle nicht direkt abrufbar → Wert `emerging`, Verifikation am
-    UBS-PDF beim nächsten Lauf).
+    Quelle: UBS CIO, SREBI Q2-2026, publ. 06.08.2026.
+  - **✓ VERIFIZIERT AM PRIMÄRDOKUMENT — Marktpuls 01.09.2026.** Der am 13.08.2026 nur über
+    Medienberichterstattung belegte Wert ist am **UBS-Originalbericht** gegengelesen:
+    «UBS Swiss Real Estate Bubble Index — Schweizer Immobilien», Chief Investment Office GWM,
+    Autoren Holzhey/Skoczek/Saputelli, **6. August 2026, 06:00 UTC**, 8 Seiten. Wortlaut:
+    «Der UBS Swiss Real Estate Bubble Index stieg im 2. Quartal 2026 von 0,62 auf 0,72
+    Indexpunkte.» Alle Begleitzahlen (Wohneigentum +3,6 %, Angebotsmieten +2,4 %,
+    Bestandesmieten +1,1 %, Prognose 2026 nominal 3,5–4,0 %) sind wörtlich bestätigt.
+    **Status damit `emerging` → `established`.** Der Zugangsweg ist notiert
+    ([[datenquellen-registry]]): das PDF ist über den JCR-Link der UBS-Indexseite abrufbar,
+    ein direkter `curl` auf denselben Pfad wird mit HTTP 403 abgewiesen.
+  - **Neu aus dem Primärdokument — die vier Perspektiven im Detail (Q2-2026, in Standard-
+    abweichungen, Vorquartal in Klammern):**
+
+    | Perspektive | Score | Risiko | Treiber laut Bericht |
+    |---|---|---|---|
+    | **Fundament** (Preis-Miet-, Preis-Einkommens-Verhältnis) | **1,81** (1,77) | **erhöht** | Preise stiegen erneut stärker als Mieten; Preis-Miet-Verhältnis noch unter dem Allzeithoch Mitte 2023, Preis-Einkommens-Verhältnis weiter steigend |
+    | **Dynamik** (reale Preisveränderung 3 J / 10 J) | 0,40 (0,36) | moderat | real annualisiert **2,8 %** über 3 Jahre gegen langfristiges Mittel **1,5 %**; 10-Jahres-Rate **2,2 %** |
+    | **Kosten** (Kauf-Miete-Nutzungskostenvergleich) | −0,75 (−0,74) | gering | Hypothekarzinsen kaum verändert; Wohneigentum laufend deutlich günstiger als Mieten |
+    | **Umfeld** (Hypothekarvolumen/Einkommen, Reinzugang) | −0,52 (−0,62) | gering | Hypothekarvolumen **+3,1 % YoY** (leichte Verlangsamung); Wohnungsreinzugang nahe dem Tiefpunkt der letzten 20 Jahre |
+
+    **Lesart für die Bewertung:** der Index ist als Gesamtwert «moderat», aber die
+    **Fundamentalperspektive steht mit 1,81 im Band «erhöht»** — das Blasenrisiko der
+    Gesamtzahl wird von den tiefen Nutzungskosten und der schwachen Bautätigkeit gedämpft,
+    nicht von einem gesunden Preis-Einkommens-Verhältnis. Für ein Deliverable heisst das:
+    die Aussage «Blasenrisiko moderat» darf nicht ohne den Fundament-Score stehen, sonst
+    verschweigt sie die eigentliche Fallhöhe.
+  - **Neu: der Grund der Rückrevision ist jetzt belegt.** Der Bericht nennt ihn ausdrücklich:
+    «Die Werte der Vorquartale wurden allerdings aufgrund **neuer Daten zur Wohnbautätigkeit
+    2025** nach unten revidiert.» Der Befund vom 13.08.2026 (Revision Q1-2026 von 0.69 auf
+    0.62) ist damit nicht nur beobachtet, sondern **ursächlich erklärt** — revidiert wird über
+    die Perspektive «Umfeld» (Reinzugang am Bestand), nicht über die Preisreihen.
+  - **Regionale Analyse Q2-2026 (Datenstand der Karte: Q1-2026), für JANS einschlägig:**
+    im Vergleich der Grossstädte weist **nur Zürich ein «hohes» Ungleichgewicht** auf,
+    Lausanne ein «erhöhtes»; in Basel, Bern und Genf hat die unterdurchschnittliche
+    Preisentwicklung zu Entspannung geführt. In den **Tourismusregionen Graubündens** bestehen
+    mittlerweile fast flächendeckend hohe Ungleichgewichte (Zweitwohnungsboom bei knappem
+    Angebot), in der Westschweiz entlang des Genfersees (Waadt) erhöhte. Definition UBS:
+    «hoch» = Veränderung des Preis-Einkommens- und Preis-Miet-Verhältnisses seit Q1-2021
+    grösser als bei 90 % der 106 Wirtschaftsregionen, «erhöht» = grösser als bei 75 %.
+    **Für JANS-Bewertungen in der Stadt Zürich ist das der einschlägige Vorbehalt** — die
+    Marktwerte sind belastbar, die Fallhöhe bei einem Zinsschock ist es in Zürich stärker als
+    im Schweizer Mittel. Anschluss: [[vergleichswert-hedonisch]], [[ertragswert-dcf]] (D3).
   - **⚠ METHODISCHER BEFUND 13.08.2026 — der SREBI wird rückwirkend revidiert.** Die
     Q2-Publikation weist den Vorquartalswert mit **0.62** aus, während dieselbe Reihe im Mai
     für Q1-2026 **0.69** meldete (UBS-Mitteilung 07.05.2026, «Anstieg um 0.23 auf 0.69»,
@@ -322,6 +381,55 @@ Aktualisierung der Kurs-Anker (T10) mit dem jüngsten Marktstand:
   YoY-Anstieg (+1.0 %) liegt auf dem Niveau der Vorperiode → Bauteuerung bleibt moderat, kein
   Kostenschub. Quelle: BFS/fachbau.ch, 18.06.2026. (Umrechnung alte→neue Basis: Faktor ~0.86,
   116.2 alt entspricht ~100 neu.)
+
+## Leerwohnungsziffer — der Leerstands-Anker (Stichtag 1. Juni, neu 01.09.2026)
+
+Die Leerwohnungsziffer ist der einzige **amtliche** Leerstands-Anker der Schweiz und damit die
+Belegquelle für den Parameter «struktureller Leerstand» in [[residualwertmethode]] (dort
+1.0–3.5 %, Basisfall 1 %) und für die Ertragsausfall-Annahme in [[ertragswert-dcf]]. Sie wird
+jedes Jahr **per Stichtag 1. Juni** erhoben; die **Kantone publizieren im August**, das **BFS
+die gesamtschweizerische Zahl im September** (Vorjahr: 09.09.2025). Wüest Partner nennt als
+Referenz eine **optimale Fluktuationsreserve von 1.3 %** (Kurs-Stand, siehe oben) — jeder Wert
+deutlich darunter beschreibt einen Markt ohne Umzugsspielraum.
+
+| Ebene | Stichtag 01.06.2026 | Vorjahr 01.06.2025 | Quelle / Publikation |
+|---|---|---|---|
+| **Schweiz** | ⚠ **noch nicht publiziert** | **1.00 %** (48'455 Whg.) | BFS, erwartet ~09.2026 |
+| **Kanton Zürich** | **0.52 %** (4'189 Whg.) | 0.48 % (~3'800 Whg.) | Kanton ZH, MM 18.08.2026 |
+| Stadt Zürich | **0.11 %** (252 Whg.) | — | Stadt Zürich, MM 08.2026 |
+| Winterthur | 0.20 % | — | Kanton ZH, MM 18.08.2026 |
+| Region Oberland (ZH) | 0.95 % | — | Kanton ZH, MM 18.08.2026 |
+| Region Pfannenstiel (ZH) | 0.90 % | — | Kanton ZH, MM 18.08.2026 |
+| **Kanton Schwyz** | ⚠ **noch nicht publiziert** | **0.52 %** (440 Whg.) | data.sz.ch, Reihe seit 1999 |
+
+**Befunde für die Bewertung (Stand 01.09.2026):**
+
+1. **Der Leerstand steigt erstmals seit fünf Jahren wieder — aber von einem sehr tiefen
+   Niveau.** Kanton Zürich 0.48 % → **0.52 %**. Die gesamtschweizerische Reihe war fünf Jahre
+   in Folge gefallen (zuletzt 1.08 % → 1.00 %); ob die Zürcher Trendwende national gilt, zeigt
+   erst die BFS-Publikation im September.
+2. **Der Anstieg ist ein Mietwohnungs-Anstieg.** Über 75 % der leeren Wohnungen im Kanton ZH
+   sind Mietwohnungen, deren Zahl um 10 % zunahm (Eigentumswohnungen +9 %).
+3. **⚠ Der Neubau-Leerstand ist ein Vielfaches des Bestandes-Leerstands:** 600 leerstehende
+   Wohnungen mit Baujahr 2024 oder jünger, entsprechend einer **Leerwohnungsziffer von 3.02 %
+   im Neubausegment** gegen 0.52 % im Gesamtbestand. **Das ist der bewertungsrelevanteste Wert
+   dieses Marktpulses.** Für eine Residualwertrechnung auf einem Neubauprojekt ist der
+   Bestandes-Basisfall von 1 % struktureller Leerstand **zu optimistisch**; die
+   Erstvermietungsphase ist mit dem Neubau-Wert zu unterlegen oder als eigener
+   Vermarktungs-Carry zu führen (die Sensitivität dafür steht in
+   [[projektstruktur-deliverables]], Zeile «Leerstand / Vermarktung»).
+4. **Die Stadt Zürich bleibt praktisch leerstandsfrei** (0.11 %). Für Bewertungen in der Stadt
+   heisst das: kein Leerstandsabschlag über den technischen Minimalwert hinaus — aber es ist
+   dieselbe Stadt, die im UBS-SREBI als **einzige Grossstadt mit «hohem» Ungleichgewicht**
+   geführt wird (siehe oben). Knappheit und Fallhöhe sind hier zwei Seiten derselben Zahl.
+5. **Kanton Schwyz:** die Reihe ist über das kantonale Datenportal maschinenlesbar abrufbar
+   (`data.sz.ch`, Explore-API v2.1, Datensatz `leerstehende-wohnungen-und-leerwohnungsziffer`,
+   27 Jahrgänge). Der 2026er-Wert fehlt dort am 01.09.2026 noch. Reihe zuletzt: 2021 0.99 % →
+   2022 0.72 % → 2023 0.50 % → 2024 0.57 % → **2025 0.52 %**.
+
+**Nicht getan:** die gesamtschweizerische Ziffer 01.06.2026 wurde **nicht** aus den kantonalen
+Werten hochgerechnet. Der Kanton Zürich ist kein Proxy für die Schweiz (ZH 0.52 % gegen CH
+1.00 % im Vorjahr — Faktor zwei). Der Wert bleibt offen bis zur BFS-Publikation.
 
 ## Bueromarkt Zuerich (hbre/Savills 2024) — Geschaeftsflaechen-Kontext
 
