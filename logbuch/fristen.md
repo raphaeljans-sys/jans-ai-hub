@@ -5029,3 +5029,19 @@ kommt nicht durch. GitHub und der SSD-Klon MacBook Pro stehen beide auf `66df041
 06:12 (exakt gleichauf, 0/0); die Arbeit der letzten **31 Stunden** existiert an einem Ort.
 Nach der Konfliktaufloesung bleibt **Befund B6** (`docs/konzepte/260830-Laufzeitschicht-Umbau/SPEC.md`,
 `dispatch-run.sh` Zeile 33) zu beheben, sonst kehrt der Stau in Tagen wieder.
+
+**Nachtrag 01.09.2026 19:5x (wissenscheck-monatlich, eigene Messung nativ per ssh).** Die Divergenz
+steht auf **605/267**. Gegenueber 12:45 (571/267) sind das **34 Commits in rund sieben Stunden**,
+also rund **4.9 pro Stunde** — der Trend haelt an, `267` steht den vierten Tag unveraendert,
+Merge-Base weiterhin `01204714a` vom 29.08. 22:04, `github/main` weiterhin `66df04125` vom
+31.08. 06:12. Die Divergenz ist damit rund **69 Stunden** alt. **Siebte Bestaetigung des
+rc-Befunds:** der Abschluss-Commit dieses Monatslaufs (`3028d0a1d`, 18 Health-Check-Reports plus
+CHANGELOG-Zeilen) liegt sauber in HEAD, waehrend `nas-commit-now.sh` `rc=1` meldete; kein
+`MERGE_HEAD`, kein `rebase-merge`, `--diff-filter=U` leer, und ein `grep` ueber `wissen/` sowie
+`skills/wissens-destillat/` findet **null Konfliktmarker**. Die Arbeit dieses Laufs ist also
+vollstaendig und unbeschaedigt auf dem NAS, nur nicht auf GitHub. Zusaetzliche Messung dieses
+Laufs: `git merge-tree` gegen die Merge-Base meldet **0 Konfliktbloecke** fuer den Gesamtmerge —
+das stuetzt den Befund vom 12:57, dass nicht die Commit-Menge das Problem ist, sondern der eine
+haengende Konflikt in `wissen/normen/CHANGELOG.md` bei `1eed7118c`. Nicht selbst aufgeloest:
+unbeaufsichtigter Lauf, Git-Interna und ein Urteil ueber fremde Arbeit (Rule
+`interaktive-eingriffe` Ziff. 3).
