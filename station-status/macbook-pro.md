@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 12:55:30
+Stand: 01.09.2026 13:05:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:03)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 01.09.2026 12:55:30
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- ea7eec11e nas-selfcommit: 4 Datei(en) 2026-09-01 12:45
+- 569e44077 vollgas-radar 01.09.: Aufrufzahl berichtigt (33 statt 14), drei Zugriffswege dokumentiert (origin statt github, /volume2, Synology-SSH)

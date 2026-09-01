@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 13:03:02
+Stand: 01.09.2026 13:13:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 13:03:02
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 568174e1d vollgas-radar 01.09. 12:57: P1 praezisiert — Sync-Bruch haengt an EINEM Commit 1eed7118c (660 Versuche seit 29.08.), Fenster frei, 4 Loops mit Delta
+- 569e44077 vollgas-radar 01.09.: Aufrufzahl berichtigt (33 statt 14), drei Zugriffswege dokumentiert (origin statt github, /volume2, Synology-SSH)
