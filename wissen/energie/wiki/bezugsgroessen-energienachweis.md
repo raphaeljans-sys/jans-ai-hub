@@ -74,9 +74,18 @@ den Nachweis. Vgl. Skill `volumenstudie` und `grobkosten-onepager`.
 
 ## Offene Punkte / Vorbehalte
 
-- ⚠ **Klimareferenz-Widerspruch, nicht geglättet:** Die Quelle zur Gebäudeform rechnet mit
-  SIA 380/1:2009 (8,5 °C, 8 % pro K); die in der KB geführte aktuelle Basis ist SIA 380/1:2016
-  (9,4 °C, 6 % pro K). Vgl. `[[u-werte-grenzwerte-ch]]`.
+- ✅ **Klimareferenz-Scheinwiderspruch geklärt (2026-09-01, E-121-2):** Die Quelle zur Gebäudeform
+  (Infoblatt EnerCoach «Gebäudeform», Version 20170908_AG) rechnet mit **8,5 °C / 8 % pro K** —
+  das ist die Vorgänger-Ausgabe **SIA 380/1:2009**. Die in der KB als aktuell geführte Basis
+  **9,4 °C / 6 % pro K** gehört zur seither geltenden **SIA 380/1:2016**. Beide Zahlenpaare
+  meinen **dieselbe Grösse** (Referenz-Jahresmitteltemperatur θea und Temperaturkorrekturfaktor
+  in der Grenzwertformel Q_H,li); es ist kein Widerspruch über dieselbe Norm, sondern eine
+  Gegenüberstellung zweier Normausgaben. **Für aktuelle Nachweise gilt ausschliesslich
+  9,4 °C / 6 % pro K** — operative Vollzugsbasis im Kt. ZH seit dem Anforderungsprofil
+  Version 16.01a (11.04.2017), belegt über die Vollzugshilfe EN-102 (Ausgabe Januar 2020,
+  Basis SIA 380/1:2016, `status: established`, gegengeprüft an der Kantonalen Energieverordnung
+  Luzern, Anhang 1-3). Vgl. `[[u-werte-grenzwerte-ch]]`,
+  `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`.
 - ⚠ **Schwache Quelle bei der Flächenhierarchie:** Die SIA-416-Hierarchie GF/NGF/HNF/NNF stammt
   im Destillat aus einem Dokument einer privaten Immobilienfirma, nicht von einer Normstelle.
   Für verbindliche Flächendefinitionen ist SIA 416 selbst zu ziehen (Skill `normen`).

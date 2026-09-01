@@ -270,14 +270,16 @@ Quelle im naechsten Lauf erneut geprueft.
   KBOB-Empfehlung vom 26.02.2026 nennt **600 kg CO₂-eq/t** fuer die treibhausgasarme Beschaffung von
   Bewehrungsstahl. Das ist einer der wenigen direkt ausschreibbaren THGE-Hebel; er gehoert in die
   LV-Textbausteine, nicht nur in diese KB. **Cross-Skill-Bringschuld** (Rule `wissens-bibliothekar`).
-- [ ] **E-R167-4 (P3): ElCom-Weisung 5/2025 auf LEG-Bezug pruefen.** Nur per Suchtreffer identifiziert,
+- [x] **E-R167-4 (P3): ElCom-Weisung 5/2025 auf LEG-Bezug pruefen.** Nur per Suchtreffer identifiziert,
   Inhalt nicht geprueft.
+  ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** geschlossen **30.08.2026** (Abschnitt «In diesem Lauf geschlossen», oben in dieser Datei): ElCom-Weisung 5/2025 «Transparente und vergleichbare Rechnungsstellung» vom 06.05.2025 geprüft — der LEG-Bezug besteht, ist aber eng (Netznutzungsabschlag nach Art. 17e Abs. 3 StromVG i.V.m. Art. 19h StromVV, in Fussnote 1 der Erläuterungen) **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
 - [ ] **E-R167-5 (P3): EN-102d-Formularnummer in `[[enfk-fensterblatt]]` nachtragen.** Die EnFK fuehrt
   das bereits erfasste Fenster-Excel-Tool unter der Formularnummer EN-102d; die Nummer fehlt dort.
-- [ ] **E-R167-6 (P3): Begleitdokument-Pruefung auf die Raenge 15-30 ausdehnen.** 11 von 11 Treffern
+- [x] **E-R167-6 (P3): Begleitdokument-Pruefung auf die Raenge 15-30 ausdehnen.** 11 von 11 Treffern
   rechtfertigen die Fortsetzung. **Aber die Ertragsklasse mitmessen** (siehe die drei Klassen oben) —
   wenn nur noch Negativbefunde und Formalien kommen, ist die Ader erschoepft und der naechste Lauf
   gehoert einer anderen Methode. Das ist das Abbruchkriterium, das dieser Methode bisher fehlt.
+  ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** beantwortet **30.08.2026** (oben in dieser Datei): nicht durch Fortsetzung, sondern durch Verwerfen der Reihenfolge — die Begleitdokument-Prüfung ist künftig nach **Alterungsgeschwindigkeit** der Quelle zu fahren, nicht nach Zitierrang; der Rang misst, wie oft die KB zitiert, nicht wie wahrscheinlich sich etwas geändert hat **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
 - [ ] **E-R167-7 (P3): ZH-Gesuchsportal nicht auslesbar.** `portal.dasgebaeudeprogramm.ch/zh` leitet
   auf `portal.energie-foerderung.ch/zh` (Single-Page-App), Formularfelder je Massnahme sind ohne
   Login/Headless-Browser nicht einsehbar. Moeglich, dass dort Formulare haengen, die von der
@@ -328,7 +330,7 @@ Aenderung des Zielwert-Faktors).
   Vernehmlassung im Rahmen der Revision der Energieverordnung im **Herbst 2026**. **Ab Oktober
   2026 monatlich pruefen**, ob die Unterlagen publiziert sind; dann ziehen und destillieren.
   Auch in `logbuch/fristen.md` eingetragen (Rule `auto-verbesserungen` 260805).
-- [ ] **E-R166-3 (P2): HFM-2015-Ausschluesse gegenlesen.** Die vier Ausschluesse und drei Fristen,
+- [x] **E-R166-3 (P2): HFM-2015-Ausschluesse gegenlesen.** Die vier Ausschluesse und drei Fristen,
   die als Nachtrag in `[[gebaeudeprogramm-bund-hfm-2015]]` stehen (Fensterersatz nicht
   foerderfaehig; Neubau/Anbau/Aufstockung ausgeschlossen; Bund-/Kantonsbauten nach Art. 57 EnV
   ausgeschlossen; CO2-abgabebefreite Standorte ausgeschlossen; Gesuch vor Baubeginn; Foerderzusage
@@ -336,6 +338,7 @@ Aenderung des Zielwert-Faktors).
   Anteil) stammen aus einem Rechercheauftrag mit woertlichen Zitaten, sind aber **nicht einzeln
   von Hand am Original nachgeschlagen**. Der Abschnitt ist entsprechend geflaggt. Vor einer
   verbindlichen Zusage an eine Bauherrschaft: Originalstelle pruefen. Danach Statushebung.
+  ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** erledigt **29.08.2026** (Abschnitt «In diesem Lauf geschlossen», oben in dieser Datei): die HFM-2015-Ausschlüsse und Fristen wurden einzeln am Original gegengelesen — sieben von acht bestätigt, zwei präzisiert (Neubau-Ausschluss gilt nur für M-01; die Zwei-Jahres-Frist ist kantonale Praxis, keine Bundesvorgabe), der Zusatz «verlängerbar um sechs Monate» als unbelegt markiert **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
 - [ ] **E-R166-1 (P3): Rechenzentrums-Schwellenwert im verabschiedeten MuKEn-Volltext.** Die
   Aenderungsuebersicht nennt «Abwaermenutzung Kaelteerzeugung (Rechenzentren): Abgabe zu
   Gestehungskosten» ohne Schwellenwert. Der Entwurfs-Redline vom 30.08.2024 nennt 230 kW
@@ -352,9 +355,10 @@ Aenderung des Zielwert-Faktors).
   Kanton Zuerich hatte 2025 die hoechsten Impulsprogramm-Verpflichtungen aller Kantone — direkt
   JANS-relevant. Quelle: Jahresbericht 2025 des Gebaeudeprogramms (publiziert 21.08.2026, der KB
   bisher unbekannt).
-- [ ] **E-R166-6 (P3): Begleitdokument-Pruefung auf die Raenge 6-20 ausdehnen.** Geprueft sind
+- [x] **E-R166-6 (P3): Begleitdokument-Pruefung auf die Raenge 6-20 ausdehnen.** Geprueft sind
   fuenf Quellen. Bei fuenf von fuenf war etwas zu finden — die Trefferquote rechtfertigt die
   Fortsetzung.
+  ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** erledigt **29.08.2026**: fünf weitere Quellen der Ränge 2 bis 14 geprüft, bei allen fünf war etwas zu finden (kumuliert 11 von 11) — die Klasse ist nicht auf die Spitzenquellen beschränkt **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell und im Health-Check vom 01.09.2026 weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
 
 ## 2026-08-26 (Mac-Mini-Nachtschicht, Versuchs-Slot 13:30) — A-BLIND Ränge 41–60: Backlink-Ranking neu gebildet, ein Fall bearbeitet
 
@@ -4185,6 +4189,19 @@ Ordner ist lesbar und wurde in diesem Lauf produktiv genutzt.
 - **E-121-2 — Klimareferenz-Widerspruch bei der Gebäudehüllziffer.** Quelle rechnet mit 8,5 °C /
   8 % pro K (SIA 380/1:2009), KB-Basis ist 9,4 °C / 6 % pro K (SIA 380/1:2016). Nicht geglättet →
   `[[gebaeudehuellziffer-ebf-flaechendefinition]]`, `[[bezugsgroessen-energienachweis]]`.
+  ✅ **GESCHLOSSEN 2026-09-01 (Run 172) — kein echter Widerspruch, sondern Normausgabenwechsel.** Beide
+  Zahlenpaare meinen dieselbe Grösse (θea / Temperaturkorrekturfaktor der Q_H,li-Formel) und sind
+  je für ihre eigene Ausgabe korrekt: 8,5 °C / 8 % pro K = SIA 380/1:2009 (belegt über die
+  Frontmatter-Felder von `[[enfk-en-02-waermeschutz-2013]]`, `[[systemnachweis-kurs-zh-2009]]`,
+  `[[bauphysik-heizwaermebedarf-kennwerte]]`), 9,4 °C / 6 % pro K = SIA 380/1:2016 (belegt über
+  `[[enfk-en-102-waermeschutz-2018]]`, status established, gegengeprüft an der KEnV Luzern
+  Anhang 1-3, und `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`, status established).
+  **Für aktuelle Nachweise gilt ausschliesslich 9,4 °C / 6 % pro K.** Es gibt keine Fundstelle,
+  an der derselbe Normstand mit zwei Werten belegt wäre — die Einordnung fehlte, nicht die
+  Auflösung. Aufgelöst in `[[bezugsgroessen-energienachweis]]` (offener Punkt → geklärt),
+  `[[gebaeudehuellziffer-ebf-flaechendefinition]]` (Frontmatter), `destillate/INDEX.md` (Zeile
+  zum Destillat) und FAQ **F198**. Selbst am Original gegengelesen (Rule `auto-verbesserungen`
+  260729b), nicht auf den Agentenbefund hin ediert.
 - **E-121-3 — «Norm SIA 180/4» existiert vermutlich nicht.** Die BaFa-Quelle zur
   Energiebezugsfläche zitiert wörtlich eine «Norm SIA 180/4»; vermutlich Schreibfehler für
   SIA 380/4. Unverändert übernommen, nicht stillschweigend korrigiert. Klärung über Skill `normen`.
@@ -7568,13 +7585,14 @@ Angaben und Publikationsstatus.
 
 ### Neue offene Punkte
 
-- [ ] **E-R162-1 (P1): Ändern sich zitierte Einzelwerte durch KBOB v9.0?** Die KB rechnet an
+- [x] **E-R162-1 (P1): Ändern sich zitierte Einzelwerte durch KBOB v9.0?** Die KB rechnet an
   mehreren Stellen mit Ökobilanz-Kennwerten auf Basis **v8.0**. Der Sprung auf **v9.0 (14.07.2026)**
   ist dokumentiert, aber **nicht ausgewertet** — die KBOB-Seite nennt ausdrücklich «Anpassungen
   gegenüber der Version 8.0». Solange nicht geprüft ist, welche Werte betroffen sind, gilt jede
   bauteilbezogene CO₂-Zahl der KB als **v8.0-Stand**. Eigener Lauf: v9.0-Liste ziehen und gegen die
   in `kbob-bauteilkatalog-co2-je-aufbau` / `kbob-massivbau-bauteilaufbau-co2` zitierten Werte
   diffen. Aus eigener Kraft lösbar (XLSX frei verfügbar), kein Normkauf-Blocker.
+  ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** geschlossen **25.08.2026** in Run 163 (Abschnitt «Run 163 (25.08.2026) — A-BLIND auf die Ränge 21–40», unten in dieser Datei): der v9.0-Verdacht bestätigte sich nicht, die KB zitiert keinen Kennwert woertlich aus der KBOB-Liste; Stichprobe Position 01.002 «Hochbaubeton unspezifisch» zwischen v8.0 und v9.0 unverändert. Nebenbefund dort: Versionsdatum v8.0 amtlich 04.03.2026, nicht 20.02.2026 **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell und im Health-Check vom 01.09.2026 weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
 - [ ] **E-R162-2 (P2): Leistungsbeiträge EIV 360/300/400 CHF/kWp nur indirekt belegt.** Der
   Pronovo-Tarifrechner rechnet serverseitig und gibt per curl/WebFetch nur Platzhalter aus; die
   Richtlinie druckt keine aktuelle Tariftabelle. Gestützt sind die Werte über die dokumentierte
@@ -7714,16 +7732,18 @@ Laufbericht-Zeile).
 
 **Neue offene Punkte:**
 
-- [ ] **E-R164-1 (P2): Lag zwischen 2009 und 2021 eine Zwischenausgabe, und gibt es nach 2021 eine
+- [x] **E-R164-1 (P2): Lag zwischen 2009 und 2021 eine Zwischenausgabe, und gibt es nach 2021 eine
   neuere?** Die EnDK-Vollzugshilfen-Seite rendert ihre Dateiliste per JavaScript und war per
   WebFetch nicht auslesbar; der Nachweis stützt sich auf das Dokument selbst («Ausgabe 2021»).
   Lösbar über das Chrome-Werkzeug oder eine direkte Anfrage bei der EnDK.
-- [ ] **E-R164-2 (P2, methodisch): Der Ausgabenstand ist KB-weit nie systematisch geprüft worden.**
+  ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** geschlossen **27.08.2026** in Lauf 165 (Abschnitt «Lauf 165 (27.08.2026)»): genau EINE Merkblatt-Fenster-Datei in der EnDK-WordPress-REST-API, SHA-256 byte-identisch mit dem Hash aus Run 164 — keine Zwischen- oder Folgeausgabe **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell und im Health-Check vom 01.09.2026 weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
+- [x] **E-R164-2 (P2, methodisch): Der Ausgabenstand ist KB-weit nie systematisch geprüft worden.**
   Dieser Fall war kein Einzelfall der Sorgfalt, sondern eine Lücke der Methode: die KB prüft
   Quellen auf Ablösung durch **andere** Quellen, aber nicht auf eine **neuere Ausgabe derselben**
   Quelle. Kandidaten mit demselben Risiko sind alle Vollzugshilfen und Merkblätter mit
   Bestellnummer (EnFK/EnDK/BFE). Vorschlag: eigener Lauf, der für die zwanzig meistzitierten
   amtsnahen Destillate je die Herausgeber-Website nach der aktuellen Ausgabe abfragt.
+  ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** erledigt **27.08.2026** in Lauf 165: erste systematische Ausgabenstand-Prüfung durchgeführt (EN-102 = Januar 2020, HFM 2015 rev. September 2016, Merkblatt Fenster = Ausgabe 2021; Formularsatz EN-101a bis EN-141 am 28.11.2025 sammelweise auf «gültig bis 31.12.2026» gestempelt). Als ständige sechste Prüfung in `training/PROGRAMM.md` verankert **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell und im Health-Check vom 01.09.2026 weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
 - [ ] **E-R164-3 (P3, Werkzeug): `datenstand-waechter.py` meldet erledigte Prüfstichtage weiter.**
   Vier Treffer (QUESTIONS Z. 596/2208/2250/5395) betreffen Stichtage, die am 24.08.2026 nachweislich
   abgearbeitet und mit «✓ Nachtrag» annotiert wurden. Das Werkzeug liest die Annotation nicht.
@@ -7766,13 +7786,14 @@ CHF 100'000, Minergie-ECO-Sperre nach Einzelmassnahmen. Destillat
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R165-1 (P2): Abdeckungslücke ist eine eigene Fehlerklasse — und sie ist nicht gemessen.**
+- [x] **E-R165-1 (P2): Abdeckungslücke ist eine eigene Fehlerklasse — und sie ist nicht gemessen.**
   Der Förder-Fund war kein Ausgabenfehler, sondern eine **Abdeckungslücke**: die richtige Ausgabe war
   vollständig gelesen worden, und fünf Bedingungen fehlten trotzdem. Rule `normen-referenz` Ziffer 1c
   beschreibt genau das für die KB `normen` («`established` heisst geprüfte Werte stimmen, nicht Quelle
   vollständig erfasst»). Für `energie` ist diese Klasse nie erhoben worden. Vorschlag: bei den zehn
   meistzitierten Destillaten prüfen, ob die Quelle ein **Begleitdokument** hat (Änderungsprotokoll,
   Korrigenda, FAQ, Merkblatt, Anhang) — Begleitdokumente sind der wahrscheinlichste Ort solcher Lücken.
+  ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** erledigt **28.08.2026**: Begleitdokument-Prüfung an fünf der meistzitierten Quellen gefahren, bei allen fünf fehlte mindestens ein Begleitdokument — die Fehlerklasse ist damit gemessen, nicht mehr vermutet **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell und im Health-Check vom 01.09.2026 weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
 - [ ] **E-R165-2 (P2): Gültigkeitsende des Formularsatzes am 31.12.2026 ist ein Terminrisiko.**
   Ob die Kantone erneut verlängern oder die MuKEn-2025-Generation einführen, ist offen und ohne
   angekündigten Termin. Ab **Oktober 2026** monatlich an der EnDK-Plattform prüfen (REST-API-Abfrage

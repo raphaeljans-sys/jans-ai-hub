@@ -197,7 +197,7 @@ das war die eigentlich gesuchte Quelle für FAQ F124, nachdem sich das kursieren
 Sekundärzitat zu Ziffer 3.5.3 der Richtlinie «Gefährliche Stoffe» als falsch erwiesen hatte.
 
 **Vorgehen:** alle drei bereits für dieses Destillat verifizierten Primär-/Vollzugsdokumente
-erneut per curl+pdftotext -layout geladen und gezielt mit Volltextsuche (Groß-/Kleinschreibung
+erneut per curl+pdftotext -layout geladen und gezielt mit Volltextsuche (Gross-/Kleinschreibung
 ignorierend) nach den Stichworten «Batter», «Speicher», «Lithium», «Akku» durchsucht:
 - VKF-Richtlinie 22-15de selbst (8 Seiten, `https://services2.vkf.ch/rest/public/georg/bs/
   publikation/documents/BSPUB-1394520214-107.pdf/content`)

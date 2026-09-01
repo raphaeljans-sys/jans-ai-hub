@@ -12,7 +12,7 @@ ausgabe:
   - "Flächendefinition.pdf: keine Datums- oder Versionsangabe im Dokument selbst"
   - "Definition Energiebezugsflaeche.pdf: EBF_DEFINITIONHP, Seite 1 von 1, 10.06.2005/TSt; zitiert wörtlich «Norm SIA 180/4 Energiekennzahl» (Wortlaut des Dokuments — siehe Offene Punkte)"
 gelesen: "alle drei vollständig (Gebaeudeform.pdf 1 Seite, Flächendefinition.pdf 2 Seiten, Definition Energiebezugsflaeche.pdf 1 Seite)"
-datenstand: "2005–2017, teils veraltete Normfassung ⚠ (Gebaeudeform.pdf rechnet mit der SIA-380/1:2009-Klimareferenz 8,5 °C / 8 % pro K; im Kt. ZH gilt heute SIA 380/1:2016 mit 9,4 °C / 6 % pro K, siehe [[muken-2025-anhang-1-3-uwert-heizwaermebedarf]])"
+datenstand: "2005–2017, teils veraltete Normfassung ⚠ (Gebaeudeform.pdf rechnet mit der SIA-380/1:2009-Klimareferenz 8,5 °C / 8 % pro K; im Kt. ZH gilt heute SIA 380/1:2016 mit 9,4 °C / 6 % pro K, siehe [[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]). ✅ 2026-09-01: Beide Zahlenpaare betreffen dieselbe Groesse (Referenz-Jahresmitteltemperatur θea / Temperaturkorrekturfaktor der Q_H,li-Formel); der scheinbare Widerspruch ist durch den Normausgabenwechsel SIA 380/1:2009 → SIA 380/1:2016 vollstaendig erklaert und damit kein offener Punkt mehr (E-121-2, siehe [[sia-380-1-2016-aenderungen-gegenueber-2009]], status established)"
 status: emerging
 last_updated: 2026-08-03
 links:

@@ -15,6 +15,15 @@ den Dateinamen jedes Destillats abgeglichen. Bei mindestens zwei gemeinsamen Sac
 einem Feld `gelesen:`, das keinen Teillese-Marker traegt (kein "nicht", "nur auszugsweise",
 "Seiten X-Y (Teil"), wird der Treffer als Fehl-Offen-Verdacht gemeldet.
 
+ZWEITE PRUEFUNG (Typ 2, ergaenzt 01.09.2026 aus Run 172 der KB energie): ein offener
+Checkbox-Eintrag, dessen Kennung im SELBEN QUESTIONS-Journal weiter unten ausdruecklich als
+geschlossen/erledigt vermerkt ist. Anlass: der Health-Check vom 01.09.2026 meldete E-R162-1 als
+Top-1-P1-Befund, obwohl Run 163 den Punkt am 25.08.2026 mit Beleg geschlossen hatte — nur die
+Checkbox war nie gesetzt worden. Fuenf solcher Faelle lagen gleichzeitig vor (E-R162-1, E-R164-1,
+E-R164-2, E-R165-1, E-R166-6), alle aus den letzten zwei Wochen. Typ 1 fragt "beantwortet ein
+Destillat die Frage?", Typ 2 fragt "hat ein spaeterer Lauf sie bereits beantwortet und es nur
+nicht abgehakt?".
+
 Aufruf:
     python3 wissen/tools/fehloffen-waechter.py            # alle Wissensbasen mit destillate/
     python3 wissen/tools/fehloffen-waechter.py energie     # eine
@@ -161,6 +170,54 @@ def pruefe_kb(wurzel, kb, melde):
                     break
 
 
+# ---------------------------------------------------------------- Typ 2: Kennung
+# Eine Kennung gilt als "anderswo geschlossen", wenn sie ausserhalb ihres eigenen
+# Bullet-Blocks in einer Zeile mit einem Schliess-Signal steht. Zeilen, die zugleich ein
+# Offen-Signal tragen ("bleibt offen", "verbleibend offen", "weiterhin ungeloest"), werden
+# verworfen — genau daran haengen die echten Dauerbrenner (E103, E94, E-R148-1), die in
+# Sammelzeilen als noch offen aufgezaehlt werden.
+KENNUNG_OFFEN = re.compile(r"^\s*- \[ \] \*\*(E-[A-Za-z0-9]+(?:-\d+)?|E\d+(?:-\d+)?)(?![\w-])")
+SCHLIESS = re.compile(r"geschlossen|erledigt|gel[oö]est|gel[oö]st|abgeschlossen|✓|✅", re.IGNORECASE)
+OFFEN_SIGNAL = re.compile(
+    r"bleibt offen|bleiben offen|verbleibend|weiterhin offen|weiterhin ungel|noch offen|"
+    r"unver[aä]ndert (offen|blockiert)|nicht geschlossen|Normkauf|"
+    r"Raphael|Entscheid gebunden|Beschaffungsentscheid|Negativbefund|"
+    r"neu er[oö]ffnet|Zwischenstufe bleibt|bleibt bestehen",
+    re.IGNORECASE,
+)
+SIEHE = re.compile(r"siehe\s*$|s\.\s*$|vgl\.\s*$", re.IGNORECASE)
+
+
+def pruefe_kennungen(wurzel, kb, melde):
+    """Typ 2 — offene Checkbox, deren Kennung anderswo im selben Journal als erledigt gilt."""
+    fragen_pfad = wurzel / kb / "wiki" / "QUESTIONS.md"
+    if not fragen_pfad.is_file():
+        return
+    zeilen = fragen_pfad.read_text(encoding="utf-8", errors="replace").splitlines()
+
+    offen = {}
+    for nr, zeile in enumerate(zeilen, 1):
+        m = KENNUNG_OFFEN.match(zeile)
+        if m:
+            offen.setdefault(m.group(1), []).append(nr)
+
+    for kennung, eigene in offen.items():
+        # Wortgrenze rechts: E46 darf nicht auf E46-2 passen
+        muster = re.compile(re.escape(kennung) + r"(?![\w-])")
+        for nr, zeile in enumerate(zeilen, 1):
+            if nr in eigene or not muster.search(zeile):
+                continue
+            umfeld = " ".join(zeilen[nr - 1 : nr + 2])
+            if not SCHLIESS.search(zeile) or OFFEN_SIGNAL.search(umfeld):
+                continue
+            # blosser Querverweis ("… siehe E-R166-2 unten") ist keine Schliessung
+            vor = zeile[: muster.search(zeile).start()]
+            if SIEHE.search(vor.rstrip()[-8:]):
+                continue
+            melde(kennung, eigene[0], nr, zeile.strip()[:110])
+            break
+
+
 def main():
     p = argparse.ArgumentParser(
         description="Redundanz-Aufsicht: als offen gemeldete Fragen vs. bereits gelesene Destillate"
@@ -191,7 +248,20 @@ def main():
         for kennung, dest, gelesen, overlap in treffer:
             woerter = ", ".join(sorted(overlap))
             print(f"  ! {kennung[:55]:55s} <-> {dest} (gelesen: {gelesen[:45]}) [{woerter}]")
-        gesamt += len(treffer)
+        kennungen = []
+        pruefe_kennungen(
+            wurzel,
+            kb,
+            lambda kennung, zeile_offen, zeile_zu, text: kennungen.append(
+                (kennung, zeile_offen, zeile_zu, text)
+            ),
+        )
+        for kennung, zeile_offen, zeile_zu, text in kennungen:
+            print(
+                f"  ! [Typ 2] {kennung:12s} offen in Z.{zeile_offen}, "
+                f"aber Z.{zeile_zu} meldet erledigt: {text}"
+            )
+        gesamt += len(treffer) + len(kennungen)
 
     print(f"\nTotal: {gesamt} Befund(e).")
     return 1 if gesamt else 0

@@ -6990,9 +6990,10 @@ Unbeheizte Nebenräume (Garage, Veloraum, offene Laubengänge) zählen nicht zur
 
 **Quelle:** EnergieSchweiz, Infoblatt EnerCoach «Gebäudeform», Version 20170908_AG (rechnet mit
 SIA 380/1:2009 und SIA 2031:2008); BaFa (EAWAG/EMPA/WSL/PSI), «Definition Energiebezugsfläche»,
-10.06.2005. ⚠ Zwei Vorbehalte, nicht geglättet: die Klimareferenz der Quelle (8,5 °C, 8 % pro K)
-entspricht der Ausgabe 2009 und weicht von der in der KB geführten aktuellen Basis
-SIA 380/1:2016 (9,4 °C, 6 % pro K) ab; die dritte Quelle zur Flächenhierarchie stammt von einer
+10.06.2005. ✅ Vorbehalt 1 geklärt (2026-09-01, E-121-2): die Klimareferenz der Quelle (8,5 °C, 8 % pro K) ist die
+Ausgabe **SIA 380/1:2009**, die KB-Basis 9,4 °C / 6 % pro K die geltende **SIA 380/1:2016** —
+dieselbe Grösse in zwei Normausgaben, kein Widerspruch. **Für aktuelle Nachweise gilt
+9,4 °C / 6 % pro K.** ⚠ Vorbehalt 2 bleibt: die dritte Quelle zur Flächenhierarchie stammt von einer
 privaten Immobilienfirma, nicht von einer Normstelle, und ist entsprechend schwach belegt.
 Datenstand 2026-08-03 (Run 121) → `[[gebaeudehuellziffer-ebf-flaechendefinition]]`.
 Status **emerging**.
