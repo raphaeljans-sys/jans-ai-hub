@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 10:31:32
+Stand: 01.09.2026 10:41:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 10:41)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 01.09.2026 10:31:32
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 6a08b2b01 nas-selfcommit: 2 Datei(en) 2026-09-01 10:30
+- 0cd8e620c logbuch/fristen: Tailscale-Ausfall Mac Mini (20.-24.08.) als erledigt geschlossen; Waechter-Installation bleibt offen (heartbeat-daily 01.09.)

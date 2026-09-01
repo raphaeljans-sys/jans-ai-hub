@@ -4996,3 +4996,17 @@ Divergenz ist damit rund **54 Stunden** alt. **Vierte Bestaetigung des rc-Befund
 Lauf bekam `rc=1` mit Konfliktmeldungen, waehrend der Commit `68cc3c9c0` sauber in HEAD lag
 (kein `MERGE_HEAD`, keine `index.lock`, null Konflikte via `--diff-filter=U`). Nicht selbst
 aufgeloest, unveraendert aus denselben Gruenden.
+
+**Nachtrag 01.09.2026 10:4x (heartbeat-daily, eigene Messung nativ per ssh).** Die Divergenz steht
+auf **562/267**. Gegenueber 04:06 (525/267) sind das **37 Commits in rund sechseinhalb Stunden**,
+also rund **5.7 pro Stunde** — der seit 31.08. gemessene Trend haelt unveraendert an. **267 steht
+den vierten Tag unveraendert**, Merge-Base weiterhin `01204714a` vom **29.08. 22:04** (Fetch 10:4x,
+Tracking-Ref frisch), `github/main` weiterhin `66df04125` vom 31.08. 06:12. Die Divergenz ist damit
+rund **60 Stunden** alt. **Fuenfte Bestaetigung des rc-Befunds:** auch dieser Lauf bekam von
+`nas-commit-now.sh` `rc=1` mit denselben vier Konfliktmeldungen, waehrend der Commit `0cd8e620c`
+sauber in HEAD lag (kein `MERGE_HEAD`, kein `rebase-merge`, `--diff-filter=U` leer, null
+Konfliktmarker in allen vier gemeldeten Dateien). **Der Heartbeat selbst meldet die Divergenz
+nicht** — sein Git-Check misst den SSD-Klon («Clean, Branch main») und sagt nichts ueber den
+Push-Stand des NAS-Repos; gefunden wurde sie auch heute nur ueber den Abschluss-Commit. Das ist
+dieselbe Luecke wie beim Tailscale-Check vor dem 28.08.: ein gruener Statuszeile deckt einen
+ungemessenen Zustand zu. Nicht selbst aufgeloest, unveraendert aus denselben Gruenden.
