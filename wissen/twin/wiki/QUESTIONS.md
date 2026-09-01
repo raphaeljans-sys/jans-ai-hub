@@ -5255,3 +5255,40 @@ fehlt im **gesamten Rule-Bestand** — `rules/anrede-kontakte.md` Z. 80 (Hleb-Ze
 haengt am Kontakt». Die zweite Fundstelle wiegt schwerer, weil sie vor jedem ausgehenden
 Texterzeugnis gelesen wird. Beide Stellen sind **richtig, aber unvollstaendig**; der Wortlaut einer
 Rule wird von Claude nie selbst geaendert (siehe 260831b #1).
+
+## 260901 — aus dem Mail-Training Batch 111 (Drafts Seite 3, offset 50–74)
+
+**#1 (Stimme · Gewichtungs-Entscheid erbeten) — ist die englische Mail an das Webteam vom
+05.05.2026 wirklich Deine Hand, oder hast Du sie sprachlich glaetten lassen?**
+
+Der Fidelity-Lauf vom 31.08.2026 hat sie als `authentisch` gewertet und daraus unter anderem den
+Marker «der Gedankenstrich lebt auch englisch in der Mail» gezogen. Batch 111 hat diesen einen
+Satz **quarantaeniert** (Vorbehalt in [[stimme]] eingetragen, die uebrigen Marker der Mail bleiben
+gueltig), weil vier Signale dagegen stehen: die Kontrollgruppen-Quote (0 Em-Striche / 0 Bullets auf
+322 W deutsches Gold desselben Batches gegen 1 + 2 auf 185 W, dazu 2 im Betreff), die in
+`wissen/twin/CLAUDE.md` gelistete AI-Paste-Schlussfloskel, der Kontrast zu Deinem eigenen,
+gebrochenen Englisch an **denselben Empfaenger** 20 Tage frueher (15.04.2026 06:06), und Deine
+eigene Vorgabe «kein Gedankenstrich als Stilmittel» (10.06.2026).
+
+**Warum die Frage zaehlt:** Der Marker wuerde dem Zwilling beibringen, im Englischen den
+Gedankenstrich zu setzen — gegen eine Deiner ausdruecklichen Regeln. Die inhaltlichen Marker
+derselben Mail («→» vor der URL, «•» als englisches Aufzaehlungszeichen, die Eigen-Nomenklatur
+C-Mediastrip / D-PD) sind dagegen projektspezifisch und von keinem Modell erfindbar, also
+weiterhin gelernt. Die Arbeitshypothese ist **zwei Haende in einer Mail**: Deine Substanz, fremd
+geglaettete Sprachoberflaeche — dieselbe Gattung wie die vierte Falle im KB-Schema, nur auf den
+englischen Strang angewandt.
+
+**Was ich brauche:** ein Satz von Dir. Entweder «das habe ich selbst so geschrieben» (dann faellt
+die Quarantaene und der englische Strang bekommt eine eigene Gedankenstrich-Regel), oder «da war
+ein Werkzeug dabei» (dann gilt fuer den englischen Strang dieselbe Zwei-Haende-Pruefung wie fuer
+das Dokument-Archiv, und die Sprachoberflaeche englischer Mails ab 2026 ist generell mit Vorsicht
+zu gewichten).
+
+**#2 (Verfahren · kein Entscheid noetig, nur zur Kenntnis) — zwei Loops haben heute dasselbe
+Quellfenster bearbeitet.** `twin-fidelity-review` (31.08.) und `twin-mail-training` Batch 111
+(01.09.) haben beide `Drafts` Seite 3 gezogen; die drei Golds sind identisch. Das war kein
+Schaden — der zweite Lauf hat den Widerspruch oben gefunden, den der erste erzeugt hatte, also
+hat die Doppelung genau das geleistet, wofuer eine zweite Instanz da ist. Es heisst aber, dass
+das Batch-Register `raw/_INGESTED.md` den Verbrauch des Fidelity-Laufs nicht mitfuehrt und der
+naechste Mail-Lauf denselben Bereich ein drittes Mal zoege. Batch 111 vermerkt darum im Register,
+welches Fenster der Fidelity-Lauf verbraucht hat.

@@ -4907,5 +4907,29 @@ auf eigener Zeile, zweimal in derselben Mail (Referenzlink oben, Materiallink un
 «_ » oder «–». Schluss einzeilig bestätigt: «Best regards / Raphael», **ohne Block**.
 Der Gedankenstrich lebt auch englisch in der Mail: «just let me know — happy to help at any time».
 
+> ⚠ **Widerspruch, markiert statt geglättet (Batch 111, 01.09.2026).** Dieser eine Satz wird
+> **quarantäniert und NICHT als Marker gelernt** — nach dem Verfahren, das dieser Artikel für
+> Gedankenstrich-Sätze bereits kennt (oben, «die zwei Gedankenstrich-Sätze selbst werden
+> vorsorglich NICHT als neue Marker gewertet») und nach der Kombinationsregel «En-dash als
+> Gedankenstrich + fehlerfreie Prosa = Maschine» (ebenfalls oben). Vier unabhängige Gründe:
+> (1) **Kontrollgruppen-Quote**: im deutschen Gold desselben Batches 0 Em-Striche und 0 Bullets
+> auf 322 Wörter (`stilmetrik.py`, 01.09.2026), im Verdachtstext 1 Em-Strich + 2 «•» auf 185
+> Wörter, dazu 2 weitere Em-Striche in der Betreffzeile. (2) **Der Schlusssatz ist die in
+> `CLAUDE.md` gelistete AI-Paste-Floskel** («If anything is unclear, just let me know — happy to
+> help at any time» ≈ «…sag einfach Bescheid!»). (3) **Register-Kontrast zum selben Empfänger
+> innerhalb von 20 Tagen**: 15.04.2026 06:06 eigene Hand ist gebrochenes Englisch («the webside»,
+> «till to the end», klein «i», Lauf-Satz ohne Satzende, in `CLAUDE.md` als Kontrollgruppe
+> dokumentiert); der Text vom 05.05. ist idiomatisch fehlerfrei. Das ist die **vierte Falle**
+> (auffällige Sauberkeit im Umfeld auffälliger Rohheit), hier auf den englischen Strang
+> angewandt. (4) Die Mail widerspräche der stehenden Vorgabe Raphaels «kein Gedankenstrich als
+> Stilmittel» (10.06.2026, oben in diesem Artikel).
+>
+> **Was Gold B trotzdem trägt:** die inhaltsgetragenen Marker — «→» vor der URL, «•» als
+> englisches Aufzählungszeichen, «Best regards / Raphael» ohne Block, die Eigen-Nomenklatur
+> (C-Mediastrip, D-PD) — sie sind projektspezifisch und von keinem Modell erfindbar. Wahrscheinlich
+> **zwei Hände in einer Mail**: Raphaels Substanz, fremd geglättete Sprachoberfläche. Die
+> Sprachoberfläche wird nicht gelernt, die Struktur schon. Entscheid Raphaels ausstehend →
+> [[QUESTIONS]] 260901 #1.
+
 **Gold C** (11.05.2026, Sie, Fachplaner, PlainText): FG + «**Raphael Jans**» — Kurzsignatur ohne
 Block. Zweiter Beleg dafür, dass die Kurzsignatur eine Ausnahme ist und nicht am Reply hängt.
