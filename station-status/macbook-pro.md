@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 10:41:49
+Stand: 01.09.2026 10:52:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 10:41)
+- Developer/jans/ai/hub  (letzte Aktivitaet 10:42)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 01.09.2026 10:41:49
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0cd8e620c logbuch/fristen: Tailscale-Ausfall Mac Mini (20.-24.08.) als erledigt geschlossen; Waechter-Installation bleibt offen (heartbeat-daily 01.09.)
+- 08d98d0e3 logbuch/fristen: Divergenz-Nachtrag 01.09. 10:4x (562/267, ~60h, fuenfte rc=1-Bestaetigung) + Heartbeat misst NAS-Push-Stand nicht

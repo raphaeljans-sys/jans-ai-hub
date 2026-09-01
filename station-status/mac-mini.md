@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 10:39:04
+Stand: 01.09.2026 10:59:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,7 @@ Stand: 01.09.2026 10:39:04
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 6a08b2b01 nas-selfcommit: 2 Datei(en) 2026-09-01 10:30
+- 08d98d0e3 logbuch/fristen: Divergenz-Nachtrag 01.09. 10:4x (562/267, ~60h, fuenfte rc=1-Bestaetigung) + Heartbeat misst NAS-Push-Stand nicht
