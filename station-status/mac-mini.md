@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 05:40:55
+Stand: 01.09.2026 05:51:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 05:36)
@@ -12,4 +12,4 @@ Stand: 01.09.2026 05:40:55
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5aacb0bb7 Nachtschicht 05:3x: Fristen-Nachtrag Git-Divergenz + Logbuch-Journal
+- 3c4fe5885 nas-selfcommit: 2 Datei(en) 2026-09-01 05:45
