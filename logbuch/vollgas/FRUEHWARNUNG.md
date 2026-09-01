@@ -3794,3 +3794,33 @@ Muster des Committers unter paralleler Last; gehoert dem Radar vorgelegt.
 `stash@{0}: autostash`. Ein `stash drop` waere ein Eingriff in Git-Interna und gehoert nach Rule
 `interaktive-eingriffe` nicht in einen unbeaufsichtigten Lauf. Er liegt jetzt den zweiten Tag — die
 naechste interaktive Session sollte ihn pruefen und aufloesen.
+
+## 2026-09-01 07:18 — Rohmessung (Bewertung folgt unten)
+
+**Verbrauch teuer/total in Mio Token je Tag (beide Stationen, rekursiv inkl. Subagenten):**
+MacBook Pro: 24.08. 8.65/214.98 · 25.08. 7.89/178.59 · 26.08. 7.02/159.88 · 27.08. 8.60/189.52 ·
+28.08. 8.88/236.61 · 29.08. 9.52/222.30 · 30.08. 6.37/140.99 · **31.08. 7.02/160.50** ·
+01.09. (laufend, 07:17) 1.79/53.95.
+Mac Mini: 24.08. 46.70/1611.21 · 25.08. 2.88/83.14 · 26.08. 1.18/44.81 · 27.08. 1.11/26.38 ·
+28.08. 2.20/82.06 · 29.08. 29.84/679.38 · 30.08. 49.10/1159.68 · **31.08. 1.45/53.06** ·
+01.09. (laufend) 0.50/16.28.
+**Vortagssumme 31.08. teuer: 8.47 Mio** — der Vollgas-Schub ist ausgelaufen, der Wert liegt
+wieder im Normalband. Zum Vergleich die drei Schub-Spitzen: 30.08. 55.47 · 24.08. 55.35 ·
+29.08. 39.36 Mio.
+
+**Betriebsbefund waehrend dieses Laufs — NAS-Mount weggekippt und neu gemountet.**
+`test -d /Volumes/daten/jans-ai-hub` war um 07:17 **OK**, eine Minute spaeter war das ganze
+Volume verschwunden (`mount | grep smb` leer). Remount per osascript erfolgreich, Hub wieder
+erreichbar. **Loser Faden, bewusst nicht angefasst:** der verwaiste Mountpoint
+`/Volumes/daten-1` liegt weiterhin da (Permission denied, kein Mount dahinter). Ihn zu
+entfernen ist ein Systemeingriff und gehoert nach Rule `interaktive-eingriffe` nicht in einen
+unbeaufsichtigten Lauf — die naechste interaktive Session sollte ihn aufloesen, sonst mountet
+der Hub bei der naechsten Stall-Wiederkehr moeglicherweise unter dem falschen Pfad.
+
+**Messfalle dokumentiert (Werkzeug, nicht Sachbefund).** Der erste Mini-Messversuch meldete
+«nicht erreichbar/messbar». Ursache war `timeout`, das es auf macOS nicht gibt — `(eval):1:
+command not found: timeout`. Der Mini war die ganze Zeit erreichbar (ping 0.9 ms, Tailnet
+aktiv, `ssh mini` antwortet sofort). Ohne Gegenprobe waere hier ein Erreichbarkeitsausfall der
+Stufe P1 nach Rule 260824 gemeldet worden, den es nicht gab. Gleiche Familie wie der
+Task-Opener-Befund vom 18.08.: **ein leeres Ergebnis ist zuerst eine Aussage ueber das
+Werkzeug.** In diesem Lauf ohne `timeout` gemessen, nur mit `ssh -o ConnectTimeout`.

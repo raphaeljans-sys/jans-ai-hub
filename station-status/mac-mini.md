@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 07:13:26
+Stand: 01.09.2026 07:23:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 07:13:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2304c7a53 nas-selfcommit: 1 Datei(en) 2026-09-01 07:00
+- aae62945c logbuch-radar 01.09.2026: Briefing + 6 Registereintraege (Tuermatrix erledigt, Therapiekueche Tagesfrist, Termin 10:00)
