@@ -99,6 +99,30 @@ Ergänzend (nicht mehr der Hauptbeleg): der BFE-Wärmebrückenkatalog «Innendä
 modelliert aber durchgehend eine **historische Holzbalkendecke**, keine Betondecke → nur Analogiewert.
 Dort ebenfalls belegt: die **Aussenwandecke** ist im ungedämmten Bestand die kritischste Stelle
 (fRsi 0,37–0,48 < SIA-Grenze 0,75), wird durch 40–80 mm Innendämmung zuverlässig über die Grenze gehoben.
+⚠ **Zwei Berichtigungen zum Satz davor (01.09.2026, Wissens-Chef Lauf 50, am Normdestillat und an der
+Katalogtabelle nachgemessen).** Der Bestandsbefund bleibt richtig: fRsi 0,37–0,48 reisst jede denkbare
+Grenze. Falsch sind das Etikett und die Sanierungszusage.
+
+1. **Fassungs-Kante.** «SIA-Grenze 0,75» ist der Stand **SIA 180:1999**; der Katalog selbst weist das so
+   aus («fRsi ≥ 0,75 nach SIA 180 (1999)»,
+   `[[bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013]]`), hier oben ist die Ausgabe beim
+   Verdichten verloren gegangen. Nach **SIA 180:2014 Ziff. 6.2.2.1** gilt im vereinfachten Nachweis für
+   konstruktive Wärmebrücken ausser Fenster/Türen der **standortabhängige Grenzwert nach Anhang F**;
+   ungünstigster Schweizer Wert **fRsi,min 0,80** (Schimmel, unkontrollierte Raumluftfeuchte) bzw.
+   **0,83** (Kondensat, 50 % konstant) — Fundstelle `wissen/normen/destillate/sia-180-2014.md`,
+   Ziff. 6.2.2.1 und Anhang F; für ein konkretes Projekt die Klimastation in Anhang F direkt
+   nachschlagen. **Nicht mit der 0,75 aus Ziff. 6.2.1.4 verwechseln:** die ist keine
+   Bauteilanforderung, sondern die Annahme hinter der zulässigen Raumluftfeuchte (Fig. 14/Tab. 10).
+2. **Die Sanierungsaussage ist nicht belegt.** Die Katalogtabelle 3.6-1-250 (Backstein 250 mm) gibt bei
+   **40 mm fRsi 0,61–0,63** — schon unter der 1999er-Grenze — und bei **80 mm erst 0,75–0,80**; über
+   0,80 kommt die Ecke dort erst ab 120 mm (0,80–0,84) bzw. 140 mm (0,82–0,85). «Zuverlässig über die
+   Grenze» ist damit durch die eigene Quelle widerlegt. Ein direkter Vergleich mit dem Anhang-F-Wert ist
+   zudem unzulässig, weil der Katalog mit **R_si = 0,35** rechnet (Systematik SIA 180:1999), während
+   SIA 180:2014 Ziff. 6.2.3.6 **R_si = 0,25** verlangt; die Katalogwerte liegen dadurch konservativ.
+   **Für die Beratung gilt darum: die Ecke wird mit 40–80 mm Innendämmung deutlich verbessert, aber
+   nicht nachweislich über die Grenze gehoben — der Eck-fRsi ist projektspezifisch zu rechnen und darf
+   dem Bauherrn nicht aus dem Katalog zugesichert werden.**
+
 
 Entschärfung: **Flankendämmung/Dämmkeil** (Innendämmung um einbindende Bauteile/Leibungen weiterführen),
 Anschluss an die übrigen Dämmebenen, **Balkenköpfe aussparen + vorher hygrothermisch simulieren**

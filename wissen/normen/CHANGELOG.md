@@ -1,3 +1,15 @@
+
+## 2026-09-01 (Wissens-Chef Lauf 50) — Glossarzeile zu f_Rsi präzisiert (war die Fehlerquelle eines Cross-KB-Vorgangs)
+
+`destillate/sia-180-2014.md` (+8/−0): Die Begriffszeile «Oberflächentemperaturfaktor f_Rsi — …
+Grenzwert je Standort in Anhang F; für den vereinfachten Feuchtenachweis 0,75 (Ziff. 6.2.1.4)» zieht
+zwei nicht austauschbare Grössen in einem Satz zusammen und hat in Lauf 50 einen Melder zu der
+falschen Gegenthese verleitet, 0,75 sei die geltende Bauteilanforderung. Präzisiert: der
+**Prüfgrenzwert ist immer der Anhang-F-Wert** (Ziff. 6.2.2.1); die 0,75 ist der Faktor, der der
+Kurve der zulässigen **Raumluftfeuchte** (Fig. 14/Tab. 10) zugrunde liegt — so auch in der
+Ziffern-Zeile zu 6.2.1.4 dieser Datei formuliert. Wo ein Ziffern-Zitat und eine Glossarzeile
+derselben Datei auseinandergehen, gilt das Ziffern-Zitat. Nichts gelöscht.
+
 ## 2026-09-01 — Wissens-Health-Check (Phase 1): A0 (2 offene Altspannungen N63-3/N46-3-N65-5) · B0 (3 Skript-Falschpositive in QUESTIONS-Protokollprosa) · C3 (u.a. sia-416-2003 speculative ohne Warnhinweis bei 12 Konsumenten) · D0 · E0 · F3 (143/470 Dateien ae/oe/ue statt Umlaute, Status-Vokabular seit Run 52 unnormiert) · G0. Voller Report `outputs/2026-09-01_health-check.md`.
 
 ## 2026-08-29 (Run 76, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — neunter Doppel-Dispatch, weiterhin Nullbefund

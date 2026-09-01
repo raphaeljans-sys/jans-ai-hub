@@ -181,6 +181,137 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Register der Cross-KB-Kanten** (wo wird festgehalten, dass Artikel A einer anderen KB von Artikel B abhaengt) | **`koordination/QUERBEZUEGE.md`** — plus der Fassungs-/Warnblock im Artikeltext selbst, der beim Lesen wirkt | **NICHT das `links:`-Frontmatter.** Das Schema `wissen/WISSEN-CLAUDE.md` Z. 50/60-61 definiert `links:` ausschliesslich als `[[artikel-name]]` auf einen anderen Wiki-Artikel **derselben** KB, und Pruefung B des Skills `wissenscheck` validiert genau das. Hub-weit tragen rund 7 von 272 Artikeln einen KB-Pfad im `links:`-Feld; 3 davon entstanden in **Run 47** und wurden in Run 48 von einem Melder faelschlich als Hauskonvention gelesen und zur Ausweitung auf vier weitere Dateien vorgeschlagen. **Regel daraus: ein Aufsichtslauf darf seinen eigenen Eingriff vom Vortag nicht als Konvention messen** — die Konvention steht im Schema, nicht im letzten Diff. Schema-Entscheid offen: `architektur-fachwissen/wiki/QUESTIONS.md` #64 (260830b) — NEU Run 48 (30.08.2026) |
 
 ## Gepruefte Paare
+### planungsgrundlagen ↔ baurecht (Genehmigungsfiktion Anzeigeverfahren ZH) — geprueft 2026-09-01 (Run 50), BESTAETIGT und KORRIGIERT
+
+**Der schwerste inhaltliche Befund dieses Laufs, und er stand seit dem 01.08.2026 als
+`status: established` im Bestand.** `planungsgrundlagen/wiki/recht-norm-baueingabe-verfahren-zh.md`
+fuehrte zum **Anzeigeverfahren**: «Gilt als bewilligt, wenn 30 Tage nach Anzeige keine Antwort der
+Behoerde vorliegt». Der geltende Erlass traegt diese Fiktion nicht: § 13 Abs. 2 BVV nennt eine
+**Behandlungsfrist ohne Saeumnisfolge**, § 18 Abs. 1 BVV zaehlt **vier aktive Abschlussformen**
+(lit. a-d) auf und kennt **keinen Absatz 3** mehr. Suche ueber den ganzen Erlass (`gilt als
+bewilligt` / `gilt als erteilt` / `Stillschweigen` / `unbenutzt` / `ohne Antwort`): **je 0 Treffer**
+(`baurecht/raw/260607_amtlich_zh_bvv.md`, LS 700.6, Nachtrag 133, Stand 01.07.2026). «Schweigen =
+Freigabe» gilt in ZH heute allein im **Meldeverfahren** (§ 2e BVV).
+
+**Es war kein Verwechslungsfehler, sondern ein Fassungsstand-Fehler** — diese Praezisierung stammt
+vom Verifikator und aendert die Lehre: die Aussage war **bis 2020/2024 richtig** (aBVV § 13 Abs. 2
+i.V.m. § 18 Abs. 3; Fassungsmarker 50 = RRB 20.11.2019, in Kraft 01.02.2020; Marker 59 = RRB
+24.01.2024, in Kraft 01.04.2024). Deshalb tragen gleich **vier** Hub-Quellen sie: der «Ratgeber
+Baubewilligung» (Maerz 2016) als Quelle des pg-Artikels, das Standardwerk Bd. 1 S. 415/416
+(6. Aufl. 2019) und zwei `energie`-Destillate des AWEL-Vollzugsordners (Juni 2013).
+
+**Warum es sechs Wochen ueberlebt hat, obwohl es schon einmal gemeldet war:** `baurecht/CHANGELOG.md`
+haelt unter Run 15 (25.07.2026) genau diesen Verdacht fuer «widerlegt» — gemessen aber **am Buch**,
+nicht am Erlass. Die veraltete Belegschicht hat sich selbst bestaetigt. **Regel daraus, allgemeiner
+als der Fall: ein Verdacht gegen eine Sekundaerquelle ist am geltenden Erlass zu messen, nie an der
+Sekundaerquelle.** Das ist die rechtliche Schwester der Norm-Regel aus Run 49 («die fuehrende Norm
+selbst oeffnen»).
+
+**Ausgefuehrt (fuenf additive Eingriffe, null Loeschungen):** Korrekturblock im pg-Artikel (+29);
+neuer Abschnitt «Abschluss des Anzeigeverfahrens (§ 18 BVV) — vier aktive Formen, keine
+Genehmigungsfiktion» in `baurecht/wiki/baubewilligungsverfahren.md` (+21), der zugleich die Luecke
+schliesst, die das Fehllesen ermoeglicht hat (der Artikel schwieg zu § 18 BVV); Ueberholungsvermerke
+in `energie/destillate/vollzugsordner-energie-zh-abschnitt6.md` (+10) und `…-abschnitt4-1.md` (+10);
+datierte Berichtigung des Run-15-Eintrags in `baurecht/CHANGELOG.md` (+1). **Offen gelassen:**
+`baurecht/buecher/band-1/06-baurechtliches-verfahren-teil2.md` Z. 85/87 fuehrt § 18 Abs. 3 aBVV ohne
+Ueberholungsvermerk — ein Buch-Destillat gibt seine Quelle korrekt wieder, ein Eingriff dort waere
+eine Quellenverfaelschung; der Vermerk gehoert an den Wiki-Artikel und steht dort jetzt.
+
+### architektur-fachwissen ↔ energie ↔ normen (fRsi-Grenzwert Innendaemmung) — geprueft 2026-09-01 (Run 50), TEILWEISE, KORRIGIERT
+
+Melder meldete `energie/wiki/innendaemmung.md` («fRsi 0,37-0,48 < SIA-Grenze 0,75») als veraltet, ein
+zweiter Melder hielt dagegen, 0,75 gelte nach SIA 180:2014 Ziff. 6.2.1.4 weiter. **Beide hatten
+teilweise recht, und beide haben den schwereren Fehler uebersehen.** Am Destillat nachgemessen
+(`normen/destillate/sia-180-2014.md`): Ziff. 6.2.1.4 legt f_Rsi = 0,75 der Kurve der zulaessigen
+**Raumluftfeuchte** (Fig. 14/Tab. 10) zugrunde — das ist eine **Annahme, keine Bauteilanforderung**.
+Der vereinfachte Nachweis ist Ziff. **6.2.2.1** und verlangt fuer konstruktive Waermebruecken ausser
+Fenster/Tueren den standortabhaengigen **Anhang-F-Wert** (unguenstigster CH-Wert 0,80 Schimmel /
+0,83 Kondensat). Die Aussenwandecke faellt in beiden denkbaren Lesarten unter Anhang F, nie unter
+0,75 — Ziff. 6.2.3.6 kalibriert R_si = 0,25 ausdruecklich «wegen Gebaeudekanten».
+
+**Der eigentliche Befund lag in der zweiten Satzhaelfte, die kein Melder geprueft hatte:** «wird
+durch 40-80 mm Innendaemmung zuverlaessig ueber die Grenze gehoben» widerspricht der **eigenen
+Tabelle** des zitierten Katalogs (Detail 3.6-1-250: 40 mm = fRsi 0,61-0,63, 80 mm = 0,75-0,80, ueber
+0,80 erst ab 120 mm). Der Katalog-Beratungsblock formuliert korrekt «deutlich verbessert»; erst sein
+Fazit spitzt zu, und das Wiki hat die Zuspitzung uebernommen. **Das ist eine Bauherren-Zusicherung
+bei Innendaemmung, also der Punkt mit realem Schadenpotenzial (Schimmel).** Zusatzvorbehalt gesetzt:
+die Katalogwerte sind mit R_si = 0,35 (Systematik 1999) gerechnet, SIA 180:2014 verlangt 0,25 — ein
+direkter Vergleich mit Anhang F ist unzulaessig, die Werte liegen konservativ. Korrekt ist darum
+nicht «80 mm genuegt nicht», sondern **«die Aussage ist nicht mehr belegt»**.
+
+**Ausgefuehrt:** Berichtigungsblock in `energie/wiki/innendaemmung.md` (+24); Berichtigung am Fazit
+von `energie/destillate/bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013.md` (+11); Praezisierung
+der Glossarzeile in `normen/destillate/sia-180-2014.md` (+8) — **diese Zeile war die Fehlerquelle des
+Vorgangs**: sie zieht Anhang-F-Grenzwert und 0,75-Annahme in einem Satz zusammen und hat den
+Gegen-Melder in die Irre gefuehrt. Der Bestandsbefund 0,37-0,48 bleibt unangetastet und richtig.
+
+### wettbewerbs-dna ↔ grobkosten ↔ architektur-fachwissen (Schulbau-Kennwerte) — geprueft 2026-09-01 (Run 50), KERNVORWURF WIDERLEGT, Etikett praezisiert
+
+Melder meldete die Bauaufgaben-Weiche der `kennwerte-*`-Artikel («Fuer Schulbau und Wohnungsbau
+fuehrt `grobkosten` fuer CHF/m³ (belegt)») als Fehlzeiger, weil `grobkosten` keinen einzigen
+Schulbau-Wert fuehrt. **Der Verifikator hat den Kernvorwurf widerlegt:** die Weiche ist eine
+**Zustaendigkeits-, keine Bestandeszuweisung**, wurde in Run 45 geprueft und bewusst stehen gelassen
+(«in den Schwesterartikeln sachlich richtig … darf dort nicht angefasst werden»). Sie zu drehen
+haette einen dokumentierten Entscheid still ueberschrieben.
+
+**Bestaetigt ist nur das Etikett.** Volltextmessung der ganzen KB `grobkosten` am 01.09.2026:
+**null** Schulbau-Positionen (68 Treffer auf `schul|bildung|…` sind samt und sonders
+«Median-**Bildung**», «Bring-**Schul**d», «Paar**bildung**»; Werkzeug gegengeprueft). «(belegt)»
+trifft damit den **Wohnungsbau** (Matrixzeile Z. 15 nennt Wohnbau), fuer **Schulbau** ist die
+Zuweisung **offen** und liegt als Entscheid bei Raphael (`wettbewerbs-dna/wiki/QUESTIONS.md`, B6 vom
+20.07.2026). **Ausgefuehrt:** additive Praezisierung in beiden Artikeln (+13 je), die die Weiche
+ausdruecklich **nicht** dreht, sondern «(belegt)» als Zustaendigkeit liest.
+
+**Der neue afw-Artikel schliesst die Luecke nicht** — und die Pruefung, warum nicht, ist selbst
+lehrreich: `kostenkennwerte-schulanlage-leutschenbach.md` fuehrt **echte SIA-416-GV-Werte** (656
+CHF/m³ auf **BKP 2**, 987 CHF/m³ auf **BKP 1-9**), warnt korrekt vor der SIA-116/416-Verwechslung —
+aber die **zweite** Falle benennt er nicht: `grobkosten` rechnet auf **BKP 1-5**. 987 gegen das
+MFH-Band 800-1'000 zu halten waere ein reiner Scope-Fehlschluss. Dazu n=1, Preisstand 2003/04, kein
+Indexpfad. **Historischer Einzelwert mit Warnkarte, kein Band.**
+
+### architektur-fachwissen ↔ BKP-2017-Rule (eBKP-H 2012) — geprueft 2026-09-01 (Run 50), TEILWEISE, Vermerk GESETZT
+
+Von den beiden neuen eBKP-H-Artikeln traegt das **Musterbeispiel** den Abgrenzungsvermerk
+vorbildlich (5 Nennungen «BKP 2017», expliziter Warnblock, `references/bkp-2017/` in `sources:`) —
+die **Kuerzel-Tabelle** nannte BKP 2017 **kein einziges Mal** (`grep -c` = 0) und schloss mit «direkt
+als Ausmass-Checkliste nutzbar, bevor ein eBKP-H-Devis eroeffnet wird», ohne zu sagen, dass ein
+eBKP-H-Devis im JANS-Alltag der Ausnahmefall ist (Rule `bkp-2017-referenz`: «eBKP-H NICHT verwenden,
+wenn nicht explizit gefordert»). Kein Fachfehler, kein Phantom-Code, keine BKP-Praefix-Verwechslung
+(alle Codes einzeln geprueft) — aber ein Leser, der nur diesen Artikel oeffnet, sah den Vorbehalt
+nicht. **Ausgefuehrt:** Abgrenzungsvermerk analog zum Schwesterartikel gesetzt (+9). **Lehre: ein
+Warnblock, der nur im Schwesterartikel steht, wirkt nicht** — Backlinks werden nicht zwingend
+verfolgt.
+
+### Uebergabe Run 49 (§14 «Rollen nach Ebene») — nachgeholt 2026-09-01 (Run 50), BEKANNT UND BEWUSST ZURUECKGESTELLT
+
+Der in Run 49 wegen eines API-Fehlers unverifiziert gebliebene Befund ist geprueft und **entwertet
+sich selbst**: Run 48 hat die uebrigen **acht** GT-RL-Paare ausdruecklich bewusst nicht angefasst
+(«sonst wird die dortige Fortschrittsmessung unbrauchbar»). §14/RL7/RL8 gehoert zu diesen acht. Kein
+uebersehener Defekt, sondern ein registrierter Sammel-Rueckstand; ein Einzelfix haette genau das
+Messproblem erzeugt, das Run 48 vermeiden wollte. **Kein Eingriff.** Nebenbefund: anders als bei
+GT_RL1 gibt es fuer RL7/RL8 **kein** drittes afw-Pendant, die Lage ist dort einfacher.
+
+### afw ↔ wettbewerbs-dna (Verfahren/Honorar/Gliederung) — geprueft 2026-09-01 (Run 50), NULLBEFUND in der Sache
+
+Keine Doppelspurigkeit, kein Widerspruch: `wettbewerbs-dna` fuehrt die **eigene Jury-Erfahrung**,
+afw die **Veranstalter-Verfahrensseite aus dem Archiv**. Beide Seiten hedgen ihre Normstaende korrekt
+(afw markiert SIA 142:1998 und SIA 102:2001/2003 selbst als veraltet; die Honorarzahlen tragen «Stand
+2009, nur Mechanik-Beleg»). Der scheinbare Konflikt CHF 110/128 gegen CHF 135 loest sich ueber das
+Bezugsjahr auf. Offen bleibt nur die **Einbahnstrasse**: afw zeigt auf `wettbewerbs-dna`, zurueck
+zeigt nichts. Nicht gesetzt, weil die Kantenkonvention selbst offen ist (Schema-Entscheid #64).
+Ein verwertbarer Nebenfund: afw belegt fuer Zeughaus Ebnet Herisau einen **anonymen** Studienauftrag
+und stuetzt damit eine Ableitung, die `wettbewerbs-dna` in `jury-argumente-wohnungsbau.md` selbst als
+«nicht direkt belegt» markiert.
+
+### afw ↔ normen (SIA 102:2003 / SIA 180 Ausgaben-Disziplin) — geprueft 2026-09-01 (Run 50), NULLBEFUND, Run 48 unabhaengig bestaetigt
+
+Phasenanteile zeilengenau identisch (9/21/2,5/18/16/29/4,5 %), Ausgabe-Vorbehalte im afw-Artikel
+vorhanden und korrekt («SIA 102:2020 kennt die Prozentmethode nicht mehr»), SIA-180-Nuance bereits
+mit ⚠-Berichtigung versehen. Der Dateizeitstempel 01.09. 23:00 ist ein Sync-Touch, kein
+Inhaltsdelta (`last_updated: 2026-08-29`) — **beim Delta-Zuschnitt kuenftiger Laeufe Frontmatter
+statt mtime lesen.** Offener Rueckstand von `normen` selbst, nicht durch afw verursacht:
+`sia-102-2003.md` bleibt `speculative`, obwohl zwei Fundorte der Originalnorm registriert sind.
+
 
 ### energie ↔ planungsgrundlagen (AHB-Lux-Tabelle §14.2) — geprueft 2026-08-31 (Run 49), MELDER WIDERLEGT — und die Aufsicht hatte den Fehler schon eingebaut
 

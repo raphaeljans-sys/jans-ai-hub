@@ -65,6 +65,19 @@ Schweizer Wohnungsbau-Juryberichten **nicht belegbar**:
 - **Kosten je Wohnung** publiziert keiner der acht Berichte.
 
 ⚠ **Bauaufgaben-Weiche (eingeführt 31.08.2026, Etappe 4 Lauf 05):** Der folgende Konsequenz-Satz ist **bauaufgaben-abhängig** und darf beim Ableiten eines neuen `kennwerte-*`-Artikels **nicht ungeprüft mitkopiert** werden. Für **Schulbau** und **Wohnungsbau** führt `wissen/grobkosten/` für CHF/m³ (belegt), für **Healthcare** ausdrücklich **nicht** — dort führt `wissen/immobilienbewertung/wiki/realwert-sachwert.md`. Vor jeder Übernahme die Führungsmatrix in `wissen/koordination/QUERBEZUEGE.md` konsultieren. Anlass: genau dieser Satz wurde beim Ableiten von [[kennwerte-healthcare]] aus diesem Artikel mitübertragen und war dort vom 25.07.2026 bis zum 31.08.2026 falsch.
+**Präzisierung 01.09.2026 (Wissens-Chef Lauf 50): «(belegt)» bezeichnet die Zuständigkeit für die
+Grösse CHF/m³, nicht einen dort liegenden Bestand.** Die Weiche bleibt richtig und wird nicht gedreht —
+aber wer ihr für **Schulbau** folgt, findet in `wissen/grobkosten/` eine zuständige KB und **keinen
+Schulbau-Kennwert**: eine Volltextmessung der ganzen KB am 01.09.2026 ergab null Schulbau-Positionen
+(`wiki/kennwerte.md` führt Wohnbau, Umbau/Sanierung und einen Healthcare-Verweis). Belegt ist die
+Zuweisung nur für den **Wohnungsbau** (`wissen/koordination/QUERBEZUEGE.md`, Matrixzeile «Grobkennwerte
+CHF/m3 GV (BKP 1-5, Wohnbau)»); für **Schulbau** ist sie **offen** und liegt als Entscheid bei Raphael
+(`wissen/wettbewerbs-dna/wiki/QUESTIONS.md`, Befund B6 vom 20.07.2026: «bleibt `wissen/grobkosten/`
+allein zuständig?»). Der bisher einzige reale Schulbau-m³-Wert des Hub liegt seit dem 29.08.2026 in
+`wissen/architektur-fachwissen/wiki/kostenkennwerte-schulanlage-leutschenbach.md` (656 CHF/m³ GV auf
+**BKP 2**, 987 CHF/m³ GV auf **BKP 1-9**, Preisstand 2003/04, `emerging`) und ist **weder BKP 1-5 noch
+indexiert** — er schliesst die Lücke also nicht und darf nicht als Band verwendet werden.
+
 
 **Konsequenz:** Für CHF/m³ bleibt die KB `wissen/grobkosten/` die führende Quelle. Anders als
 bei den beiden anderen Bauaufgaben liefert dieser Benchmark aber wenigstens einen **echten,

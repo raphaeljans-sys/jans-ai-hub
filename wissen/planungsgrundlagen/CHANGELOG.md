@@ -2,6 +2,20 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-01 (Wissens-Chef Lauf 50) — Genehmigungsfiktion Anzeigeverfahren korrigiert (rechtlich folgenreich)
+
+`wiki/recht-norm-baueingabe-verfahren-zh.md` (+29/−0): Der Satz «Gilt als bewilligt, wenn 30 Tage
+nach Anzeige keine Antwort der Behörde vorliegt» gab die Rechtslage **bis 2020/2024** zutreffend
+wieder (aBVV § 13 Abs. 2 i.V.m. § 18 Abs. 3), ist seit den BVV-Revisionen vom 20.11.2019 und
+24.01.2024 aber **überholt**. Der geltende § 18 Abs. 1 BVV verlangt eine von vier **aktiven**
+Abschlussformen; die 30 Tage sind eine Behandlungsfrist ohne Säumnisfolge. Suche über den ganzen
+Erlass nach einer Fiktionsformel: je 0 Treffer (LS 700.6, Nachtrag 133, Stand 01.07.2026). Additiver
+Korrekturblock gesetzt, nichts gelöscht; die Quelle des Artikels («Ratgeber Baubewilligung»,
+März 2016) ist in diesem Punkt vorrevisionär. **Praktische Folge:** wer der alten Aussage folgte,
+hätte nach blossem Fristablauf mit dem Bauen begonnen — also ohne Bewilligung. Gegenstelle und
+neuer Abschnitt «Abschluss des Anzeigeverfahrens (§ 18 BVV)» in `wissen/baurecht`. Register:
+`wissen/koordination/QUERBEZUEGE.md`, Bericht `wissen/koordination/outputs/2026-09-01_wissens-chef-run50.md`.
+
 ## 2026-09-01 (Wissens-Health-Check, Skill `wissenscheck`, nur Phase 1) — strukturell weiterhin makellos, neuer Fund: Umlaut-Konvention driftet in frischen Lauf-Protokollen zurück
 
 A0 · B0 · C0 · D0 · E0 · F2 · G0. Keine Backlinks-/Coverage-/Aktualitätsbefunde bei 49

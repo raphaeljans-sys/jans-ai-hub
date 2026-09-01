@@ -9335,3 +9335,71 @@ und `[[bauphysik-heizwaermebedarf-kennwerte]]`. Aufgenommen 01.09.2026 (Run 172)
 von E-121-2. ⚠ Die konkreten Q_H,li0/ΔQ_H,li-Zahlenwerte je Nutzungskategorie nach der Ausgabe
 2016 sind ohne gekauften Norm-Volltext nicht belegt (E-D8) — für eine bindende Zahl gilt die im
 Kanton verbindliche Vollzugshilfe, nicht diese Antwort.
+
+## F266 — «Unser Architekt sieht eine abgehängte Akustikdecke vor — hat das etwas mit sommerlicher Überhitzung zu tun?»
+
+**Kurz:** Ja, und zwar deutlich mehr als vermutet: Eine Akustikdecke reduziert die nutzbare
+Speichermasse des Raums und erhöht dadurch den wirksamen solaren Wärmeeintrag im Vergleich zu
+einer rohen Massivdecke um **rund 30 %** — kommt zusätzlich ein Doppelboden mit Teppich dazu
+(Decke und Boden dann thermisch vom Raum entkoppelt), sind es **rund 50 %**.
+
+**Fachlich:** Minergie-Wissen «Sommerlicher Wärmeschutz» (Überarb. 2023) vergleicht drei
+Varianten desselben Typraums (25 m² NGF, identischer aussenliegender Raffstoren-Sonnenschutz,
+Westausrichtung, 30 % Glasflächenanteil): Massivdecke mit Unterlagsboden/Parkett als Referenz
+(100 % solarer Wärmeeintrag), Akustikdecke mit demselben Boden (70 %, −30 %) und Akustikdecke
+mit Doppelboden/Teppich (50 %, −50 %). Der Effekt ist rein thermophysikalisch: Speichermasse
+puffert den Wärmeeintrag tagsüber und gibt ihn nachts wieder ab; eine abgehängte, meist
+gedämmte Akustikdecke unterbricht diesen Austausch mit dem Betonkern darüber. Wird die
+Speichermasse reduziert, muss der Sonnenschutz entsprechend wirksamer sein (hochselektive
+Sonnenschutzgläser oder eine noch bessere aussenliegende Beschattung), um dasselbe
+Komfortniveau zu halten.
+
+**Bauherren-Transfer:** Die Akustikdecke wird praktisch immer aus Schallschutzgründen
+entschieden (offene Bürolandschaften, Schulzimmer, Sitzungsräume) — die thermische
+Nebenwirkung wird selten mitgedacht, weil sie in einem anderen Gewerk (Sonnenschutz/
+Fassade) sichtbar wird. Wer eine Akustikdecke setzt, sollte im gleichen Schritt prüfen
+lassen, ob der vorgesehene Sonnenschutz (g-Wert total, Windwiderstandsklasse) für den
+höheren Wärmeeintrag noch ausreicht — nachträglich ist nur der Sonnenschutz, nicht die
+Speichermasse, korrigierbar. Bei Minergie-Zertifizierung ist das kein Kann, sondern
+Teil des Nachweises: Minergie lässt gegenüber der SIA-180-Basisnorm (400 Stunden
+Überhitzung/Jahr) nur 100 Stunden zu und rechnet zusätzlich mit Wetterdaten 2035.
+
+**Quelle:** Minergie-Wissen «Sommerlicher Wärmeschutz — Klimakomfort im Minergie-Gebäude»,
+Verein Minergie, Überarbeitung August 2023, S. 6-7 vollständig gelesen am 01.09.2026 (HTTP 200,
+159'0XX Byte, SHA-256 geprüft). Destillat: `[[minergie-sommerlicher-waermeschutz-broschuere]]`.
+Aufgenommen 01.09.2026 (Nachtschicht Mac Mini, E-R169-4).
+
+## F267 — «Reicht das Minergie-Zertifikat als Nachweis, dass unser Gebäude im Betrieb tatsächlich effizient läuft?»
+
+**Kurz:** Nein — das Bau-Zertifikat bestätigt die **Planung und Ausführung**, nicht den
+laufenden Betrieb. Für den Betrieb gibt es ein eigenständiges, zusätzliches **Zertifikat
+Minergie-Betrieb**, das frühestens nach einem vollen Betriebsjahr auf Basis gemessener Daten
+vergeben wird und **keinen Einfluss auf den Bau-Zertifikatsstatus** hat (und umgekehrt).
+
+**Fachlich:** Für grössere Minergie-Gebäude (ab 1'000 m² EBF, Minergie-A in jeder Grösse)
+gilt seit 2017 eine Monitoring-Pflicht mit definierten Pflichtmesspunkten (elektrisch/
+thermisch je Erzeuger und Verbrauchergruppe). Seit 2021 zertifiziert das Minergie-Modul
+Monitoring Anbietende, die zusätzlich zur Erfassung eine Schnittstelle zur
+Minergie-Monitoring-Datenbank führen — Grundlage der automatisierten Auswertung
+Monitoring+, die Plan- gegen Messdaten im Ampelsystem vergleicht (Grün 30–110 % des
+Planwerts erfüllt, Rot über 130 % Handlungsbedarf). Erst wenn Monitoring+ durchgehend
+auf «Grün» steht (nur minimale Abweichungen), kann das separate Zertifikat Minergie-Betrieb
+beantragt werden; es gilt 3 Jahre, danach ist eine Rezertifizierung empfohlen. Ein
+dokumentiertes Beispiel aus der Praxis zeigt die Grössenordnung: ein Areal in Russikon
+lag im ersten Betriebsjahr beim elektrischen Gesamtverbrauch bei 135 % des Planwerts
+(Rot), nach einer gezielten Betriebsoptimierung (Heizkurve, Freecooling-Einschaltschwelle,
+Wärmepumpen-Takten) sank der Wert auf durchgehend 79–86 % (Grün) in den Folgejahren.
+
+**Bauherren-Transfer:** Wer Wert auf den nachweislich effizienten Betrieb legt (z. B. für
+eine Vermarktung an institutionelle Investoren oder ESG-Reporting), sollte das
+Minergie-Modul Monitoring bereits in der Ausschreibung der Gebäudetechnik/Automation
+vorsehen — es ist deutlich günstiger, die Datenpunkte von Anfang an mitzuplanen, als sie
+nachträglich für ein Zertifikat ohne Monitoring-Modul einzeln aufzurüsten. Rechnen Sie
+zudem damit, dass die Erstinbetriebnahme systematisch zu hoch ausfällt (siehe
+Praxisbeispiel): eine Betriebsoptimierung im ersten Jahr ist der Regelfall, nicht die
+Ausnahme, und sollte im Betriebsbudget eingeplant sein.
+
+**Quelle:** Minergie-Wissen «Messen. Steuern. Optimieren. — Planen und Betreiben für mehr
+Energieeffizienz», Verein Minergie, Überarbeitung Mai 2025, S. 14-19 vollständig gelesen am
+01.09.2026 (HTTP 200, SHA-256 geprüft). Destillat: `[[minergie-messen-steuern-optimieren]]`.
+Aufgenommen 01.09.2026 (Nachtschicht Mac Mini, E-R169-4).

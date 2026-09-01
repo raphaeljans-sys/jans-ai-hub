@@ -106,7 +106,16 @@ vs. AWFU) vermeidet.
   SIA-416-Grösse. Wo Verwechslungsgefahr besteht (insbesondere GF, NF), gegen SIA
   416:2003 verifizieren.
 - Die Liste ist direkt als Ausmass-Checkliste nutzbar, bevor ein eBKP-H-Devis eröffnet
-  wird: sie zeigt, welche Bezugsgrösse pro Element **normkonform** anzusetzen ist.
+  wird: sie zeigt, welche Bezugsgrösse pro Element **normkonform** anzusetzen ist.- ⚠ **eBKP-H ≠ BKP 2017** (ergänzt 01.09.2026, Wissens-Chef Lauf 50; im Schwesterartikel
+  [[ebkp-h-2012-musterbeispiel-haus-im-forst-drei-genauigkeitsstufen]] steht derselbe Vermerk
+  bereits, hier fehlte er). Die Codes dieses Artikels sind **eBKP-H-2012-Elementcodes** (A bis Z
+  bzw. A1, B1 … J4) und **keine BKP-2017-Kostengliederungscodes**; sie dürfen nie mit dem Präfix
+  «BKP» geschrieben werden. Im JANS-Alltag ist die verbindliche Kostengliederung der **BKP 2017**
+  (`references/bkp-2017/BKP-2017-Liste.md`, Rule `bkp-2017-referenz`); eBKP-H wird nur verwendet,
+  **wenn eine Bauherrschaft es ausdrücklich verlangt**. Der Satz darüber («bevor ein eBKP-H-Devis
+  eröffnet wird») beschreibt also den Ausnahme-, nicht den Regelfall. Dieser Artikel ist
+  Archivwissen zur Systematik, keine Aufforderung, in eBKP-H zu devisieren.
+
 
 ## Offene Punkte
 

@@ -383,7 +383,18 @@ thermische (nicht feuchtetechnische) Teilantwort.
    Oberflächentemperaturfaktor an der Aussenwandecke bei nur **fRsi 0,37–0,48** (Schimmelrisiko real),
    an den Fensteranschlüssen dagegen bei **0,50–0,64** — beide unter der SIA-Grenze 0,75, aber die
    Ecke deutlich kritischer. Beide Bereiche werden durch 40–80 mm Innendämmung zuverlässig über die
-   0,75-Grenze gehoben.
+   0,75-Grenze gehoben.   ⚠ **Berichtigung 01.09.2026 (Wissens-Chef Lauf 50): der letzte Satz widerspricht der eigenen
+   Tabelle dieses Destillats.** Detail 3.6-1-250 gibt bei **40 mm fRsi 0,61–0,63** und bei **80 mm
+   erst 0,75–0,80**; über 0,80 kommt die Aussenecke erst ab 120 mm. Der Beratungsblock weiter oben
+   formuliert korrekt «deutlich verbessert» — «zuverlässig über die 0,75-Grenze gehoben» ist eine
+   Zuspitzung im Fazit und ist nicht belegt. Zusätzlich: die 0,75 stammt aus **SIA 180:1999**; nach
+   SIA 180:2014 Ziff. 6.2.2.1 gilt für konstruktive Wärmebrücken der standortabhängige Anhang-F-Wert
+   (ungünstigster CH-Wert 0,80/0,83, `wissen/normen/destillate/sia-180-2014.md`). Ein direkter
+   Vergleich der Katalogzahlen mit Anhang F ist nicht zulässig, weil hier mit R_si = 0,35 gerechnet
+   wird, SIA 180:2014 Ziff. 6.2.3.6 aber R_si = 0,25 verlangt. Rückkante:
+   `wissen/energie/wiki/innendaemmung.md` hatte die Zuspitzung übernommen und ist am selben Tag
+   berichtigt.
+
 3. **140 mm Innendämmung reicht am Backsteinbau nie für das Gebäudeprogramm.** Selbst bei maximal
    gerechneten 140 mm Innendämmung wird der Förder-Grenzwert U ≤ 0,20 W/m²K bei keiner der drei
    Wanddicken (250/380/510 mm) erreicht — nur der Mindestwärmeschutz nach SIA 180:1999 (U ≤ 0,4)

@@ -1,5 +1,18 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-09-01 (Wissens-Chef Lauf 50) — «(belegt)» in der Bauaufgaben-Weiche präzisiert (Weiche selbst unverändert)
+
+`wiki/muster/kennwerte-schulbauten.md` und `wiki/muster/kennwerte-wohnungsbau.md` (je +13/−0): Ein
+Melder hielt die Weiche («Für Schulbau und Wohnungsbau führt `grobkosten` für CHF/m³ (belegt)») für
+einen Fehlzeiger. Der adversariale Verifikator hat das **widerlegt** — die Weiche ist eine
+Zuständigkeits-, keine Bestandeszuweisung und wurde in Run 45 geprüft und bewusst stehen gelassen;
+sie ist **nicht** gedreht worden. Bestätigt ist nur das Etikett: eine Volltextmessung der ganzen KB
+`grobkosten` ergab **null** Schulbau-Positionen. «(belegt)» trifft damit den Wohnungsbau; für
+Schulbau ist die Zuweisung **offen** und liegt als Entscheid bei Raphael (`wiki/QUESTIONS.md`, B6
+vom 20.07.2026). Additive Präzisierung gesetzt, samt Hinweis, dass der einzige reale Schulbau-m³-Wert
+des Hub (`architektur-fachwissen`, Leutschenbach) auf **BKP 2 bzw. BKP 1–9** rechnet, während
+`grobkosten` auf **BKP 1–5** rechnet, und deshalb kein Ersatz für ein Band ist.
+
 ## 2026-09-01 — Health-Check Phase 1: A0 · B1 · C0 · D0 · E0 · F1 · G2 — KB stabil nach 29 Tagen Etappe-4-Arbeit, fehlende `_INGESTED.md` einziger substanzieller Befund
 
 - **[befund]** Sehr stabiler Zustand trotz intensiver Etappe-4-Vertiefungsarbeit (Läufe 01-05, 03.-31.08.2026). Alle 7 Audits zeigen UNVERÄNDERTEN Stand seit 03.08., einzige Persistenz: `raw/_INGESTED.md` fehlend (93 raw-Dateien, alle zitiert, aber ohne Register unbelegt, welche als "eingearbeitet" gelten). Umlauts-Fehler (659 ae/oe/ue-Treffer) auf Phase-2-Sanierung verschoben (Altbestand `delta-zum-ersten-rang.md` und `jury-argumente-schulbauten.md` Zitate). 0 neue raw-Dateien seit 23.08. (nachgeprüft: `git log --since="2026-08-23" --diff-filter=A -- raw/` = 0). Keine neuen Strukturfehler durch Vertiefungsarbeit. Refuter-Verifizierung durchgehend (je 7-23 Korrekturen pro Lauf, alle behoben). Nächster Lauf ohne neuen Entscheid/Material wird kein inhaltliches Delta bringen. Report `outputs/2026-09-01_health-check.md`. Messung: +1/−0.

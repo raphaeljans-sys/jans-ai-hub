@@ -29,6 +29,16 @@ Jede Erstellung, jeder Umbau und jeder Wärmeerzeuger-/Brennerersatz einer Heizu
 - **Zusätzlich EN-3** («Heizungs- und Warmwasseranlagen») als Teil des «Nachweises der energetischen und schalltechnischen Massnahmen», v. a. bei Neubauten/Umbauten/Umnutzungen — ⚠ das Papierformular-Verfahren EN-1 bis EN-13 ist seit 1.1.2026 durch **EVEN** ersetzt (siehe [[en-zh-nachweis-uebersicht]]).
 - **Kessel-/Brennerersatz:** gilt immer als bewilligungspflichtiger Umbau. Bei reinem Brennerersatz (Kessel bleibt, beschränkte Restlebensdauer) ist die Zumutbarkeitsprüfung grosszügiger, v. a. bei der Leitungsdämmung. Kleinere Eingriffe (Ventile, Brennerdüsen) sind NICHT bewilligungspflichtig.
 - **Fristen Anzeigeverfahren:** Vorhaben gilt als bewilligt, wenn die zuständige Behörde nicht innert **30 Tagen** eine andere Anordnung trifft (§ 13 Abs. 2, § 18 Abs. 3 BVV). Kann die Gemeinde nicht allein entscheiden, bestätigt sie den Eingang und nennt das Fristende (§ 17 BVV). Muss die Baudirektion eine Feuerung zusätzlich beurteilen (Feststofffeuerungen ab 70 kW, Grossfeuerungsanlagen Öl/Gas ab 1'000 kW, Abfallverbrennungsanlagen, stationäre Motoren/Gasturbinen), gilt das **ordentliche Verfahren mit längeren Fristen** statt des Anzeigeverfahrens.
+⚠ **Überholungsvermerk 01.09.2026 (Wissens-Chef Lauf 50, Cross-KB-Rücklauf aus `baurecht`):** Die hier
+zitierte Genehmigungsfiktion des **Anzeigeverfahrens** (§ 13 Abs. 2 i.V.m. § 18 Abs. 3 aBVV) gab den
+Stand des Vollzugsordners (Juni 2013) korrekt wieder, ist aber durch die BVV-Revisionen vom 20.11.2019
+(in Kraft 01.02.2020) und 24.01.2024 (in Kraft 01.04.2024) **weggefallen**. Der geltende § 18 Abs. 1 BVV
+kennt keinen Absatz 3 mehr, sondern vier aktive Abschlussformen (lit. a-d); die 30 Tage des § 13 Abs. 2
+BVV sind eine Behandlungsfrist ohne Säumnisfolge. «Schweigen = Freigabe» gilt heute allein im
+**Meldeverfahren** (§ 2e BVV). Massgebend: `wissen/baurecht/wiki/baubewilligungsverfahren.md`, Abschnitt
+«Abschluss des Anzeigeverfahrens (§ 18 BVV)», gemessen am Erlasstext LS 700.6, Nachtrag 133,
+Stand 01.07.2026. **Diese Passage darf keiner Terminplanung mehr zugrunde gelegt werden.**
+
 - **Wärmepumpe/Elektroheizung/Fernwärmeanschluss:** ebenfalls bewilligungspflichtig (§ 4 BVV), grundsätzlich dieselben Anforderungen wie Feuerungsanlagen (wegen Nebenanlagen wie Rampenheizungen, Freiluftbädern). Bei Wärmepumpen mit brennbarem Kältemittel (z. B. **R290 Propan**) muss das Gesuch von der Gemeinde an die kantonale Feuerpolizei weitergeleitet werden.
 
 ## Spezialbewilligungen

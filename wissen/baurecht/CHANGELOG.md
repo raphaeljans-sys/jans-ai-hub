@@ -3,6 +3,24 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-01 (Wissens-Chef Lauf 50) — § 18 BVV nachgetragen; Run-15-Befund berichtigt
+
+`wiki/baubewilligungsverfahren.md` (+21/−0): Neuer Abschnitt «Abschluss des Anzeigeverfahrens
+(§ 18 BVV) — vier aktive Formen, keine Genehmigungsfiktion», samt historischem Vorbehalt zu
+§ 18 Abs. 3 aBVV (weggefallen mit den Revisionen 20.11.2019 / 24.01.2024). Der Artikel schwieg
+bisher zu § 18 BVV — **genau diese Lücke hat verhindert, dass eine falsche Fiktionsaussage in
+`wissen/planungsgrundlagen` sechs Wochen lang auffiel.**
+
+`CHANGELOG.md` (+1/−0): Der Eintrag zu Run 15 vom 25.07.2026 («Verdacht widerlegt:
+Genehmigungsfiktion nur im Meldeverfahren») ist mit einem datierten ⚠-Nachtrag berichtigt — **der
+Verdacht war richtig**, die damalige Widerlegung war am Standardwerk (6. Aufl. 2019) gemessen statt
+am geltenden Erlass. **Lehre: ein Verdacht gegen eine Sekundärquelle ist am Erlass zu messen, nie
+an der Sekundärquelle selbst** — sonst bestätigt die veraltete Belegschicht sich selbst.
+
+Bewusst **nicht** angefasst: `buecher/band-1/06-baurechtliches-verfahren-teil2.md` Z. 85/87 führt
+§ 18 Abs. 3 aBVV ohne Überholungsvermerk. Ein Buch-Destillat gibt seine Quelle korrekt wieder; der
+Vermerk gehört an den Wiki-Artikel und steht dort jetzt.
+
 ## 2026-09-01 (Wissens-Health-Check, Phase 1) — A0·B0·C0·D4·E0·F1·G0: fast alle 24.08.-Befunde erledigt, Register `_INGESTED.md` hinkt vier frischen Quellen hinterher
 
 Phase-1-Audit gegen den letzten Check vom 24.08.2026. Alle vier damaligen Backlink-/Frontmatter-
@@ -4327,7 +4345,8 @@ Format: `- [aktion] Beschreibung (Artikel/Datei)`
 - **SIA-181-Fundstelle nachgezogen (Rule `normen-referenz`):** `wiki/laermschutz-und-nichtionisierende-strahlung.md` nannte SIA 181 dreimal materiell ohne Verweis auf das fuehrende Destillat → Verweis auf `wissen/normen/destillate/sia-181-2006.md` inkl. Fassungsvorbehalt SIA 181:2020 gesetzt.
 - **Teil-Antwort zum offenen Fassungs-Punkt (QUESTIONS §§ nABV/nPBG):** die KB `planungsgrundlagen` haelt das Destillat des amtlichen IVHB-Leitfadens der Baudirektion ZH (1.3.2017, 29 Begriffe) — in dieser KB `grep «ivhb-baubegriffe»`: 0 Treffer. Als Teil-Antwort im QUESTIONS-Punkt vermerkt, reziprok verlinkt (die Anwendungshilfe ersetzt den Abgleich am geltenden Erlass nicht).
 - **Neue Luecke angemeldet:** Revisionsstrang «Erleichtertes Bauen im Bestand» (§ 220a/§ 357 E-PBG, Aufhebung Mehrlaengenzuschlag §§ 23/24 ABV) — `grep «220a»` ueber die ganze KB: 0 Treffer, obwohl genau diese Normen hier als geltendes Recht gefuehrt werden. Kein Widerspruch (Vorentwurf), aber in `wiki/QUESTIONS.md` aufgenommen.
-- **Verdacht widerlegt:** «Genehmigungsfiktion nur im Meldeverfahren» — argumentum e silentio; die Beleg-Schicht (Buch Bd. 1 S. 415/416) fuehrt «Verfahrensabschluss durch Stillschweigen» sehr wohl. Keine Korrektur.
+- **Verdacht widerlegt:** «Genehmigungsfiktion nur im Meldeverfahren» — argumentum e silentio; die Beleg-Schicht (Buch Bd. 1 S. 415/416) fuehrt «Verfahrensabschluss durch Stillschweigen» sehr wohl. Keine Korrektur.  - ⚠ **Berichtigt 01.09.2026 (Wissens-Chef Lauf 50): dieser Verdacht war RICHTIG, die Widerlegung ist an einer ueberholten Beleg-Schicht gemessen.** Das Buch (Bd. 1, 6. Aufl. 2019, S. 415/416) beschreibt § 13 Abs. 2 i.V.m. **§ 18 Abs. 3 aBVV** — beide Normen sind durch die Revisionen vom 20.11.2019 (in Kraft 01.02.2020) und 24.01.2024 (in Kraft 01.04.2024) weggefallen. Der geltende § 18 Abs. 1 BVV kennt vier **aktive** Abschlussformen (lit. a-d) und keinen Absatz 3; die ganze BVV (LS 700.6, Nachtrag 133, Stand 01.07.2026) enthaelt keine Fiktionsformel (Suche «gilt als bewilligt» / «gilt als erteilt» / «Stillschweigen» / «unbenutzt»: je 0 Treffer). «Schweigen = Freigabe» gilt heute allein im **Meldeverfahren** (§ 2e BVV). Lehre: **ein Verdacht gegen eine Sekundaerquelle ist am geltenden Erlass zu messen, nicht an der Sekundaerquelle selbst** — sonst bestaetigt die veraltete Belegschicht sich selbst. Der Sachverhalt ist am 01.09.2026 in `wiki/baubewilligungsverfahren.md` (neuer Abschnitt «Abschluss des Anzeigeverfahrens») nachgetragen; die daraus folgende Falschaussage in `wissen/planungsgrundlagen/wiki/recht-norm-baueingabe-verfahren-zh.md` und in zwei `wissen/energie`-Destillaten ist am selben Tag korrigiert.
+
 - Bericht: `wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md`.
 
 ## 2026-07-25 — Buch-Run 52 (Modell D, Fassungsstand-Check): LSV-Novelle 01.04.2026 geklärt — Art. 31a LSV aufgehoben, Art. 22/24 USG neu

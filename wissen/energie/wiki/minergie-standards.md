@@ -1,9 +1,9 @@
 ---
 title: Minergie-Standards & Eigenstromerzeugung
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-09-01
 datenstand: 2026-01-01 (Produktreglement MINERGIE/-P/-A Version 2026.1, gültig ab 01.01.2026 — massgebende Primärquelle für alle Kennwerte dieses Artikels)
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/minergie-produktreglement-2026-1-muken-vergleich.md]
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/minergie-produktreglement-2026-1-muken-vergleich.md, destillate/minergie-messen-steuern-optimieren.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-nachweiskurs-2023-mkz-thge]], [[graue-energie]]
 verifikation: "Adversarial Verify 2026-07-21 gegen Produktreglement MINERGIE/-P/-A Version 2026.1
   (gueltig ab 01.01.2026, minergie.ch). THGE-Zeile unten aktualisiert (Grenzwerte 2026.1 hoeher als
@@ -200,3 +200,31 @@ ist die Bewegung: die THGE-Grenzwerte und die PV-Pflicht seit 2023 adressieren g
 Emissions- und Erzeugungsseite, deren Vernachlässigung damals beanstandet wurde.
 
 Siehe auch Bauherren-FAQ **F237** (Unterschied ME/ME-P am EFH) und **F238** (Label-Debatte).
+
+## Nachtrag 2026-09-01 (E-R169-4) — Monitoring+/Zertifikat Minergie-Betrieb, eigenständig vom Bau-Zertifikat
+
+Aus der Minergie-Wissen-Broschüre «Messen. Steuern. Optimieren.» (Überarb. Mai 2025,
+`[[minergie-messen-steuern-optimieren]]`): **das Zertifikat Minergie-Betrieb ist ein von der
+Bau-Zertifizierung (oben, Kap. 2 Produktreglement) unabhängiges Zusatzzertifikat.** Nicht
+verwechseln — es prüft ausschliesslich das gemessene Betriebsergebnis, nicht die Bauqualität,
+und hat keinen Einfluss auf den zertifizierten Baustandard.
+
+- **Monitoring-Pflicht** gilt seit **2017** für Minergie-Gebäude ab der Schwelle 1'000 m² EBF
+  (oben bereits dokumentiert); **seit 2021** zertifiziert das **Minergie-Modul Monitoring**
+  Anbietende, die zusätzlich zu den Pflichtmesspunkten eine Schnittstelle zur
+  Minergie-Monitoring-Datenbank führen.
+- **Monitoring+** vergleicht automatisiert Plan- gegen Messdaten (Ampel: Grün 30–110 %,
+  Gelb bis Rot >130 % Überschreitung) — Grundlage sowohl für die Betriebsoptimierung als
+  auch für das Zertifikat.
+- **Zertifikat Minergie-Betrieb:** frühestens nach einem vollen Betriebsjahr, Voraussetzung
+  Monitoring+ auf «Grün» mit nur minimalen Abweichungen, **Gültigkeit 3 Jahre**,
+  Rezertifizierung danach empfohlen. Zwei Wege (mit/ohne Monitoring-Modul) mit
+  unterschiedlichem Prüfaufwand/Gebühren.
+- Referenzprojekt Russikon (2 MFH, Minergie-P, ZH-818-P/ZH-819-P) zeigt die Grössenordnung
+  einer Betriebsoptimierung im Betrieb: Eigenverbrauchsrate 83 %, Autarkiegrad 28 %, nach
+  Feinjustierung von Heizkurve, Freecooling-Einschaltschwelle (21 statt 19 °C) und
+  Wärmepumpen-Takten.
+
+Details, Ablauf einer Betriebsoptimierung (7 Schritte) und weitere Referenzprojekte:
+`[[minergie-messen-steuern-optimieren]]`. Siehe auch `[[pv-eigenverbrauch-zev]]`
+(Eigenverbrauchsoptimierung technisch/rechtlich), Bauherren-FAQ **F267**.

@@ -193,6 +193,16 @@ Gestützt auf **SIA 380/4, Ausgabe 2006**; Gliederung: 1. Geltungsbereich, 2. An
 **Bewilligungspflicht bei Nichterfüllung:** Für alle Solaranlagen, welche die Voraussetzungen von § 1 lit. k nicht erfüllen, ist ein Bewilligungsverfahren durchzuführen — in der Regel: Anzeigeverfahren gemäss §§ 13 ff. BVV (vgl. § 14 lit. k BVV).
 
 **Anzeigeverfahren:** Aussteckung und öffentliche Bekanntmachung entfallen. Das Bauvorhaben gilt gemäss § 13 Abs. 2 BVV als bewilligt, wenn die zuständigen Behörden innert **30 Tagen** keine andere Anordnung treffen (§ 18 BVV). Kann der Entscheid von der örtlichen Baubehörde nicht sofort getroffen werden oder ist sie nicht allein zuständig, bestätigt sie den Eingang des Gesuchs und teilt dem Gesuchstellenden und den weiteren Stellen mit, an welchem Datum die Behandlungsfrist von 30 Tagen endet (§ 17 BVV). Erlässt keine der zuständigen Stellen innert der Behandlungsfrist eine Verfügung, darf das angezeigte Vorhaben ausgeführt werden (§ 18 Abs. 3 BVV).
+⚠ **Überholungsvermerk 01.09.2026 (Wissens-Chef Lauf 50, Cross-KB-Rücklauf aus `baurecht`):** Die hier
+zitierte Genehmigungsfiktion des **Anzeigeverfahrens** (§ 13 Abs. 2 i.V.m. § 18 Abs. 3 aBVV) gab den
+Stand des Vollzugsordners (Juni 2013) korrekt wieder, ist aber durch die BVV-Revisionen vom 20.11.2019
+(in Kraft 01.02.2020) und 24.01.2024 (in Kraft 01.04.2024) **weggefallen**. Der geltende § 18 Abs. 1 BVV
+kennt keinen Absatz 3 mehr, sondern vier aktive Abschlussformen (lit. a-d); die 30 Tage des § 13 Abs. 2
+BVV sind eine Behandlungsfrist ohne Säumnisfolge. «Schweigen = Freigabe» gilt heute allein im
+**Meldeverfahren** (§ 2e BVV). Massgebend: `wissen/baurecht/wiki/baubewilligungsverfahren.md`, Abschnitt
+«Abschluss des Anzeigeverfahrens (§ 18 BVV)», gemessen am Erlasstext LS 700.6, Nachtrag 133,
+Stand 01.07.2026. **Diese Passage darf keiner Terminplanung mehr zugrunde gelegt werden.**
+
 
 **Ordentliches Baubewilligungsverfahren:** Wenn Interessen des Natur- und Heimatschutzes betroffen sein können — insbesondere wenn sich das Gebäude in einer Kernzone, ausserhalb der Bauzonen oder im Geltungsbereich einer Schutzanordnung, eines Ortsbild- oder Denkmalschutzinventars befindet — muss ein ordentliches Baubewilligungsverfahren mit öffentlicher Bekanntmachung durchgeführt werden, sodass die gemäss § 338a Abs. 2 PBG legitimierten ideellen Verbände von ihrem Beschwerderecht Gebrauch machen können.
 

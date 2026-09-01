@@ -1,9 +1,9 @@
 ---
 title: Sommerlicher Wärmeschutz & Hitzeschutz
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-09-01
 datenstand: "2013 (ältester zitierter Quellenstand: EnFK-Vollzugshilfe EN-2 «Wärmeschutz von Gebäuden», Ausgabe Februar 2013, Basis SIA 380/1:2009 — im Artikelabschnitt «Vollzug» als «Gesetz [EnFK EN-2, Kap. 8]» direkt zitiert für die g-Wert-Pflicht des Sonnenschutzes und die Befreiungstatbestände. ⚠ Die Vollzugshilfen-Reihe wurde seither fortgeschrieben [Nachfolgeausgabe EN-102, Ausgabe Januar 2020, Basis SIA 380/1:2016, ebenfalls als Quelle geführt]; die zahlenmässigen Verfahrensdetails im Artikel stützen sich bereits auf EN-102/SIA 180:2014, EN-2 bleibt aber für den zitierten generischen Befreiungs-/Grundsatzteil tragend, ohne dass der Artikeltext dies ausdrücklich als Ablösung kennzeichnet.)"
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/muken-2025-verabschiedet.md, destillate/ahb-merkblatt-386-storensteuerung-2017.md]
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/muken-2025-verabschiedet.md, destillate/ahb-merkblatt-386-storensteuerung-2017.md, destillate/minergie-sommerlicher-waermeschutz-broschuere.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -142,3 +142,30 @@ Health-Check-Empfehlung (01.07./21.07./25.07.) damit umgesetzt.
 Siehe auch: `[[u-werte-grenzwerte-ch]]`, `[[minergie-standards]]`, `[[daemmstoffe-lambda]]`,
 `[[naturdaemmstoffe]]` (Holzfaser/Zellulose als Hitzeschutz durch Speichermasse),
 `[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]` (Begrünung vs. Fassaden-PV).
+
+## Nachtrag 2026-09-01 (E-R169-4) — SIA-180-Komfortdefinition, Speichermasse-Effekt quantifiziert, Minergie-Nachweisvarianten
+
+Aus der Minergie-Wissen-Broschüre «Sommerlicher Wärmeschutz» (Überarb. August 2023,
+`[[minergie-sommerlicher-waermeschutz-broschuere]]`), bisher nicht in diesem Artikel:
+
+- **SIA 180 quantifiziert «behaglich»:** mindestens **90 % der Benutzenden** müssen die
+  Raumtemperatur bei normaler Tätigkeit/Kleidung als behaglich empfinden; Richtwert **22–26,5 °C**.
+- **Speichermasse-Effekt beziffert:** eine abgehängte Akustikdecke reduziert die nutzbare
+  Speicherfähigkeit und erhöht den wirksamen solaren Wärmeeintrag im Vergleich zur rohen
+  Massivdecke um **30 % (Akustikdecke allein) bis 50 % (Akustikdecke + Doppelboden mit Teppich,
+  Decke/Boden thermisch entkoppelt)** — bei identischem Sonnenschutz und identischer Ausrichtung.
+- **Minergie ist strenger als die SIA-180-Basisnorm:** SIA 180 lässt 400 Stunden Überhitzung über
+  26,5 °C pro Jahr zu, Minergie nur **100 Stunden**, zusätzlich mit **Wetterdaten 2035**
+  gerechnet. Minergie kennt drei Nachweisvarianten (1 Globalbeurteilung Standardfälle für die
+  meisten Wohnbauten, 2 raumweiser Systemnachweis mit Kompensation über das Hilfstool SoWS,
+  3 thermische Gebäudesimulation, Pflicht bei aktiver Kühlung mit Kältemaschine).
+- **b-Faktor** (Verhältnis g-Wert mit zu g-Wert ohne Sonnenschutz, auf 80 % normiert) als
+  Bestellgrösse für Sonnenschutzverglasungen — Beispielwert 0,3.
+- **ClimaBau-Studie (HSLU/BFE):** Neubauten sind vom Klimawandel-bedingten Kühlbedarfsanstieg
+  stärker betroffen als Altbauten (Klimakälteleistung 2060 bis zum Doppelten der Heizleistung
+  gegenüber 25–40 % bei Altbauten) — Altbauten profitieren von grösserer Speichermasse bei
+  geringerem Glasanteil.
+
+Details, Kennwerttabellen und Referenzprojekte: `[[minergie-sommerlicher-waermeschutz-broschuere]]`.
+Offen bleibt die Anwendungshilfe Sommerlicher Wärmeschutz 2026.1 (Klimagruppen-/
+Glasflächenzahl-Detailtabellen), noch nicht beschafft.

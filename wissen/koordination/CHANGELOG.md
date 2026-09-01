@@ -2,6 +2,52 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-01 (Run 50) — eine Genehmigungsfiktion, die es nicht mehr gibt; und die kanonische Quelle ist unvollstaendig
+
+**Zuschnitt:** 6 Melder (`model: sonnet`) + 3 adversariale Verifikatoren + eigene Nachmessung an den
+Originalquellen. **2 bestaetigt und korrigiert · 2 teilweise · 1 Kernvorwurf widerlegt · 2
+Nullbefunde · 1 Uebergabe entwertet · 1 Infrastruktur-Befund von erheblichem Gewicht.** Bericht:
+`outputs/2026-09-01_wissens-chef-run50.md`.
+
+- **⚠ Der schwerste Befund ist operativ.** **387 Dateien liegen auf `github/main` und fehlen im
+  kanonischen NAS-Arbeitsbaum** (Datei fuer Datei mit `[ -e ]` geprueft), davon **383 in
+  `architektur-fachwissen`**: das afw-Wiki fuehrt auf dem NAS **99** Artikel, auf GitHub **455**.
+  Das Fristen-Register beschreibt die Divergenz seit vier Tagen ausschliesslich als
+  Backup-Rueckstand; **die Gegenrichtung war nie gemessen.** Damit wird aus «Backup fehlt»
+  **«kanonische Quelle unvollstaendig»** — und von innen ist die Luecke unsichtbar, ein
+  `wissenscheck` auf dem NAS misst die 99 und meldet «stabil». Kein Datenverlust (alles auf GitHub
+  und im SSD-Klon), Ursache ist der bekannte haengende Konflikt in `wissen/normen/CHANGELOG.md`.
+  Nicht selbst aufgeloest (Rule `interaktive-eingriffe` Ziff. 3). Registriert in `logbuch/fristen.md`.
+  Die erste Lesart des Hauptkontexts («ein Commit ist per Rebase aus dem Branch gefallen») war
+  **falsch** und wurde vor dem Schreiben korrigiert: `66df04125` ist der GitHub-Kopf.
+- **Rechtlich folgenreich, bestaetigt und korrigiert:** `planungsgrundlagen` fuehrte als
+  `established`, das Anzeigeverfahren ZH gelte nach 30 Tagen Schweigen als bewilligt. § 18 Abs. 1 BVV
+  verlangt eine von **vier aktiven** Abschlussformen; Fiktionsformel im ganzen Erlass: je 0 Treffer.
+  **Der Verifikator hat die Begruendung berichtigt:** kein Verwechslungs-, sondern ein
+  **Fassungsstand-Fehler** — bis 2020/2024 war die Aussage richtig, weshalb sie **vier** Hub-Quellen
+  tragen. Genau deshalb hatte Run 15 den Verdacht schon einmal «widerlegt» — gemessen am Buch statt
+  am Erlass. **Regel: ein Verdacht gegen eine Sekundaerquelle ist am geltenden Erlass zu messen, nie
+  an der Sekundaerquelle selbst** (rechtliche Schwester der Norm-Regel aus Run 49). Fuenf additive
+  Eingriffe in drei KBs, null Loeschungen; der Run-15-Eintrag ist datiert berichtigt.
+- **fRsi-Streit zweier Melder aufgeloest — und der echte Fehler stand daneben.** 0,75 (Ziff. 6.2.1.4)
+  ist eine **Annahme** hinter der zulaessigen Raumluftfeuchte, der Pruefgrenzwert ist der
+  Anhang-F-Wert (0,80/0,83, Ziff. 6.2.2.1). Ungeprueft geblieben war die zweite Satzhaelfte: «40–80 mm
+  Innendaemmung hebt zuverlaessig ueber die Grenze» widerspricht der **eigenen Katalogtabelle**
+  (40 mm = 0,61–0,63). Das ist eine **Bauherren-Zusicherung mit Schadenpotenzial** und ist entschaerft.
+  Die Glossarzeile in `normen/destillate/sia-180-2014.md` war die Fehlerquelle des Vorgangs und ist
+  praezisiert.
+- **Schulbau-«Fehlzeiger» widerlegt:** die Bauaufgaben-Weiche ist eine Zustaendigkeits-, keine
+  Bestandeszuweisung und war in Run 45 geprueft. **Sie zu korrigieren haette einen dokumentierten
+  Entscheid still gedreht.** Bestaetigt nur das Etikett «(belegt)»: `grobkosten` fuehrt null
+  Schulbau-Positionen; additive Praezisierung, Weiche unveraendert.
+- **Uebergabe aus Run 49 entwertet:** der §14-Befund betrifft acht von Run 48 **bewusst**
+  zurueckgestellte GT-RL-Paare. Kein Eingriff.
+- **Nebenlehre fuer den Delta-Zuschnitt:** der mtime 01.09. 23:00 auf saemtlichen KB-Dateien ist ein
+  **Sync-Touch, kein Inhaltsdelta** — kuenftig ueber `last_updated` im Frontmatter zuschneiden.
+- ⚠ **Offengelegt:** dieser Lauf hat einen CHANGELOG-Kopfeintrag in **die Konfliktdatei**
+  `wissen/normen/CHANGELOG.md` geschrieben, bevor deren Rolle gemessen war. Nicht zurueckgenommen
+  (dokumentiert eine reale Korrektur), aber wer den Merge aufloest, soll es wissen.
+
 ## 2026-09-01 (Health-Check) — Phase 1 Audit, 0 Widersprueche, 67 Synergien-Eintraege, 51 Outputs seit 03.08.
 
 Keine aktiven Reparaturen noetig. Abweichung vom Standard-Schema ist in CLAUDE.md dokumentiert. Bericht: `outputs/2026-09-01_health-check.md`.

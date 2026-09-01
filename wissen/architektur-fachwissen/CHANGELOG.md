@@ -1,5 +1,24 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-01 (Wissens-Chef Lauf 50) — Abgrenzungsvermerk eBKP-H ≠ BKP 2017 in der Kürzel-Tabelle nachgetragen
+
+`wiki/ebkp-h-2012-bezugsgroessen-kuerzel-tabelle.md` (+9/−0): Der Schwesterartikel
+`ebkp-h-2012-musterbeispiel-haus-im-forst-drei-genauigkeitsstufen.md` trägt den Abgrenzungsvermerk
+vorbildlich (5 Nennungen «BKP 2017», Warnblock, `references/bkp-2017/` in `sources:`); die
+Kürzel-Tabelle nannte BKP 2017 **kein einziges Mal** und schloss mit «direkt als Ausmass-Checkliste
+nutzbar, bevor ein eBKP-H-Devis eröffnet wird». Kein Fachfehler und kein Phantom-Code — alle Codes
+wurden einzeln gegen `references/bkp-2017/BKP-2017-Liste.md` geprüft, keine BKP-Präfix-Verwechslung.
+Aber ein Leser, der nur diesen Artikel öffnet, sah den Vorbehalt aus Rule `bkp-2017-referenz`
+(«eBKP-H NICHT verwenden, wenn nicht explizit gefordert») nicht. **Lehre: ein Warnblock, der nur im
+Schwesterartikel steht, wirkt nicht.**
+
+⚠ **Nicht behoben, ausserhalb des Wissens-Layers, aber diese KB trifft es am härtesten:** Von den
+387 Dateien, die auf `github/main` liegen und im kanonischen NAS-Arbeitsbaum fehlen, gehören **383
+zu dieser KB**. Das Wiki führt auf dem NAS **99** Artikel, auf GitHub **455**. Ursache ist der seit
+dem 29.08.2026 hängende Merge (Konflikt in `wissen/normen/CHANGELOG.md` bei `1eed7118c`), nicht ein
+Fehler dieser KB. Kein Datenverlust, aber jede Session liest bis zur Auflösung einen unvollständigen
+Bestand. Registriert in `logbuch/fristen.md` (Nachtrag 01.09.2026 23:5x).
+
 ## 2026-09-01 — Erster Wissens-Health-Check (Phase 1, unbeaufsichtigt-tauglich): A0·B68·C0·D0·E0·F0·G0
 
 Erster `wissenscheck`-Lauf dieser KB. Kernbefund: **44 von 97 Wiki-Artikeln (45 %) nicht im

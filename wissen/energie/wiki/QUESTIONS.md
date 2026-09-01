@@ -173,11 +173,16 @@ nicht eine andere** (Rule `auto-verbesserungen` 260729b, hier zum zweiten Mal in
   (www.stadt-zuerich.ch/egt) fuehrt genau diese Datei mit «PDF | 6 Seiten | 155 KB» — deckungsgleich,
   keine neuere Fassung, kein zweites Merkblatt zum Thema. Verdichtet in **F263** (Kennwerte +
   Rohbau-Relevanz) und **F264** (Wettkampf-Entscheid, Faktor 10).
-- [ ] **E-R169-4 (P3): zwei unerschlossene Minergie-Wissen-Broschueren** — «Sommerlicher Waermeschutz»
-  (2019, Ueberarb. Aug. 2023) und «Messen. Steuern. Optimieren.» (2021, **Ueberarb. Mai 2025**, juengste
-  Revision der Reihe). Dazu die 2026er-Begleitdokumente zum Produktreglement, darunter die
-  **Anwendungshilfe Version 2026.2** — deren Versionsstand weicht vom Reglement 2026.1 ab, was fuer sich
-  schon eine Pruefung wert ist. Liste im Nachtrag von `[[minergie-besser-planen-bauen]]`.
+- [x] **E-R169-4 (P3): zwei unerschlossene Minergie-Wissen-Broschueren — BEHOBEN 01.09.2026
+  (Nachtschicht Mac Mini).** «Sommerlicher Waermeschutz» (2019, Ueberarb. Aug. 2023) und
+  «Messen. Steuern. Optimieren.» (2021, Ueberarb. Mai 2025) vollstaendig gelesen (curl+SHA-256
+  geprueft) und destilliert: `[[minergie-sommerlicher-waermeschutz-broschuere]]`,
+  `[[minergie-messen-steuern-optimieren]]`; verdichtet in `[[sommerlicher-waermeschutz]]`,
+  `[[minergie-standards]]`, Bauherren-FAQ F266/F267. **Weiterhin offen, NICHT Teil dieses
+  Laufs:** die 2026er-Begleitdokumente zum Produktreglement — **Anwendungshilfe Version 2026.2**
+  (Versionsstand weicht vom Reglement 2026.1 ab, eigene Pruefung wert), «Berechnungsmethodik
+  Grenzwerte THGE in der Erstellung 2026.1», «Zusatzanforderungen Industrie, Version 2026.1».
+  URLs bereits im Nachtrag von `[[minergie-besser-planen-bauen]]` vermerkt — eigener Fetch/Lauf.
 - [ ] **E-R169-5 (P3): ElCom-Weisung 4/2025 Volltext nachholen.** «Grundversorgung Energie: erweiterte
   Eigenproduktion im Konzern», 01.04.2025. Als nicht LEG-/ZEV-bezogen eingestuft, aber **nur nach Titel
   und Suchtreffern** — die Quell-URL lieferte wiederholt HTTP 502. Vor einer verbindlichen Aussage

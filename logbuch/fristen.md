@@ -5062,3 +5062,30 @@ Hygiene-Reihe:** die Reports vom 29., 30., 31.08. und 01.09. liegen ausschliessl
 und sind nicht im GitHub-Backup — der **vierte Tag in Folge**. Nicht selbst aufgeloest:
 unbeaufsichtigter Lauf, Git-Interna, fremde unbestaetigte Arbeit in den Konfliktdateien (Rule
 `interaktive-eingriffe` Ziff. 3, Rule `auto-verbesserungen` 260811 Ziff. 3).
+
+**Nachtrag 01.09.2026 23:5x (wissens-chef Lauf 50, eigene Messung nativ per ssh) — die Divergenz
+laeuft in BEIDE Richtungen, und die bisher ungemessene Richtung trifft die kanonische Quelle.**
+Die Eintraege der letzten vier Tage beschreiben die Divergenz durchgehend als Backup-Rueckstand
+(«die Arbeit liegt vollstaendig auf dem NAS, nur nicht auf GitHub»). Das ist die eine Haelfte.
+Gemessen wurde heute die andere: `git rev-list --left-right --count HEAD...github/main` ergibt
+**626/267** — die 267 Commits auf `github/main` enthalten **387 Dateien, die im kanonischen
+NAS-Arbeitsbaum schlicht fehlen** (geprueft Datei fuer Datei mit `[ -e ]`, nicht aus dem Diff
+geschlossen). Verteilung: **383 `wissen/architektur-fachwissen`**, 4 `wissen/baurecht/outputs`
+(Thalwil-Schub-Lane 29.08., Laeufe e/f/h/i). Konkret: die afw-Wissensbasis fuehrt auf dem NAS
+**99** Wiki-Artikel, auf `github/main` **455** — **356 fertige Artikel der Nachtschicht-Lanes
+liegen nicht in der Quelle, aus der alle Stationen lesen.** Aufgefallen ist es an einem
+Einzelfall: der am 31.08. committete Artikel
+`wettbewerbsverfahren-zweistufig-nicht-anonym-studienauftrag-zuerichforum-programmreduktion.md`
+(126 Zeilen) ist auf GitHub und im SSD-Klon vorhanden, auf dem NAS nicht — samt der zugehoerigen
+CHANGELOG- und `raw/`-Eintraege desselben Commits.
+**Kein Datenverlust:** alle 387 Dateien liegen auf `github/main` (Kopf `66df04125`) und im
+SSD-Klon; wiederherstellbar ueber die Aufloesung des einen haengenden Konflikts in
+`wissen/normen/CHANGELOG.md` bei `1eed7118c`, den die Eintraege vom 01.09. bereits als Ursache
+benennen. **Aber:** solange der Merge haengt, arbeitet jede Session, jeder Skill und jeder Loop
+auf einer Wissensbasis, der ein Viertel bis ein Fuenftel ihres Bestandes fehlt — ohne dass das
+irgendwo sichtbar waere. Ein `wissenscheck` auf dem NAS misst die 99 Artikel und meldet «stabil».
+**Das hebt die Divergenz von «Backup fehlt» auf «kanonische Quelle unvollstaendig».**
+Nicht selbst aufgeloest: unbeaufsichtigter Lauf, Git-Interna, fremde unbestaetigte Arbeit in der
+Konfliktdatei (Rule `interaktive-eingriffe` Ziff. 3, Rule `auto-verbesserungen` 260811 Ziff. 3).
+Vorgelegter Weg, nativ auf der Synology und nur nach Sichtung der Konfliktdatei durch Raphael:
+`ssh raphaeljans@diskstation918.tail8265aa.ts.net "cd /volume2/daten/jans-ai-hub && git merge github/main"`

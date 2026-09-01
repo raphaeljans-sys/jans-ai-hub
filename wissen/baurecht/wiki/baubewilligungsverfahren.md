@@ -102,7 +102,28 @@ geregelt, siehe [[laermschutz-und-nichtionisierende-strahlung]].
   [[06-baurechtliches-verfahren-teil2]] (Bd 1, S. 402-421); Modell-D-Volltextabgleich
   2026-07-13 gegen § 325 PBG + §§ 13-15 BVV (amtlicher Volltext, Fassungsstand 1.7.2026):
   CONFIRMED, mit Präzisierung der § 325/§ 13-BVV-Normhierarchie (Delegationsnorm vs.
-  materielle Regel).
+  materielle Regel).  **Abschluss des Anzeigeverfahrens (§ 18 BVV) — vier aktive Formen, keine Genehmigungsfiktion**
+  (ergänzt 01.09.2026, Wissens-Chef Lauf 50, gemessen am amtlichen Volltext
+  [[260607_amtlich_zh_bvv]], LS 700.6, Nachtrag 133, Stand 01.07.2026): Die zuständigen Stellen
+  schliessen das Anzeigeverfahren ab mit (a) der Mitteilung, dass dem Vorhaben in ihrem
+  Zuständigkeitsbereich nichts entgegenstehe, (b) einer gleichlautenden Verfügung, in der
+  Nebenbestimmungen und Behandlungsgebühren festgesetzt werden, (c) der Verfügung, dass die
+  Voraussetzungen für das Anzeigeverfahren nicht erfüllt seien, oder (d) der Verfügung, dass die
+  Bewilligung verweigert wird (§ 18 Abs. 1 lit. a-d BVV). **Die 30-Tage-Frist des § 13 Abs. 2 BVV
+  ist eine Behandlungsfrist ohne Säumnisfolge — ihr blosser Ablauf bewilligt nichts.** Wer nach
+  Fristablauf ohne Abschlussverfügung baut, baut ohne Bewilligung; bei Fristüberschreitung gilt
+  die Mitteilungspflicht nach § 319 Abs. 3 PBG. **Historischer Vorbehalt, damit die ältere
+  Beleg-Schicht nicht erneut fehlgelesen wird:** Bis zu den Revisionen vom 20.11.2019 (in Kraft
+  01.02.2020) und 24.01.2024 (in Kraft 01.04.2024) trug die BVV in § 18 Abs. 3 aBVV tatsächlich
+  einen Verfahrensabschluss durch Stillschweigen; [[06-baurechtliches-verfahren-teil2]] (Bd 1,
+  S. 415/416, 6. Aufl. 2019) beschreibt diesen Stand korrekt für seine Zeit, ist in diesem Punkt
+  aber überholt. Der geltende Erlass enthält keine Fiktionsformel (Suche «gilt als bewilligt» /
+  «gilt als erteilt» / «Stillschweigen» / «unbenutzt»: je 0 Treffer). «Schweigen = Freigabe» gilt
+  in ZH heute ausschliesslich im **Meldeverfahren** (§ 2e BVV, siehe nächster Punkt). Die
+  Übergangsbestimmung hält § 18 in der alten Fassung nur noch für Verfahren in **Papierform**
+  anwendbar. Rückkante: `wissen/planungsgrundlagen/wiki/recht-norm-baueingabe-verfahren-zh.md`
+  führte die überholte Fiktion bis zur Korrektur vom 01.09.2026 als geltendes Recht.
+
 - **Meldeverfahren (§§ 2a-2e BVV, LS 700.6):** der **vierte** ZH-Verfahrenstyp, ein
   besonders schlankes Verfahren für **haustechnische Energie-Anlagen**. Erfasst (§ 2a Abs. 1
   BVV) namentlich: Solaranlagen auf Dächern (nach Art. 32a RPV genügend angepasst),

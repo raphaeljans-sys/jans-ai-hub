@@ -482,3 +482,15 @@ beiläufig als Rechtsgrundlage, ohne den Kostenmechanismus (Messentgelt je Messp
 |---|---|---|---|
 | [[messtarife-pro-messpunkt-stromvg-2026]] (neu) | StromVG Art. 17a, Fedlex-PDF (curl+pdftotext, Volltext) | established | 2026-08-31 / Recht 1.1.2026 |
 | [[ahb-merkblatt-384-beleuchtung-hallenbaeder-2024]] (neu) | Web: Stadt Zuerich AHB, Merkblatt M-System-Nr. 384 «Beleuchtung Hallenbaeder und Schulschwimmanlagen», PDF S. 1-6 vollstaendig (curl, SHA-256 geprueft) | established (300 lx vollflaechig ueber der Wasserflaeche; Unterwasserleuchten Pflicht, nur laengsseitig, 0,60-1,00 m unter Wasserspiegel, Abstand 2-3 m, ≥120 lm/m3 Wasservolumen, Wettkampf ca. 1'100 lm/m3; ≥4 ungedimmte Schaltgruppen; Not-/Sicherheitsbeleuchtung ohne Umschaltmodule; MINERGIE-LED + Relux-Simulation; uebrige Raeume nach EN 12464-1/SIA 387/4) | 2026-08-31 / Ausgabe Oktober 2024, Ausgabenstand am 31.08.2026 gegen die AHB-Downloadliste geprueft (keine neuere Fassung) |
+
+## 2026-09-01 (Nachtschicht Mac Mini, E-R169-4) — zwei Minergie-Wissen-Broschueren erschlossen
+
+Kandidatenliste aus dem Nachtrag zu `[[minergie-besser-planen-bauen]]` (Run 169) abgearbeitet:
+die beiden bisher unerschlossenen Minergie-Wissen-Broschueren. Die 2026er-Begleitdokumente
+(Anwendungshilfe 2026.2, Berechnungsmethodik THGE, Zusatzanforderungen Industrie) bleiben
+offen — eigener Fetch/Lauf, ausserhalb des Nachtschicht-Budgets.
+
+| Destillat | Quelle | Status | Datenstand |
+|---|---|---|---|
+| [[minergie-sommerlicher-waermeschutz-broschuere]] (neu) | Minergie-Wissen «Sommerlicher Waermeschutz», PDF S. 1-20 vollstaendig (curl, SHA-256 geprueft) | established (ClimaBau-Klimaszenarien, SIA-180-Komfortdefinition 90%/22-26,5°C, Speichermasse-Effekt 30/50% quantifiziert, 3 Sonnenschutz-Varianten mit Kennwerten, b-Faktor, 3 Minergie-Nachweisvarianten 100h vs. SIA 400h, 2 Referenzprojekte) | 2026-09-01 / Ueberarbeitung August 2023 |
+| [[minergie-messen-steuern-optimieren]] (neu) | Minergie-Wissen «Messen. Steuern. Optimieren.», PDF S. 1-24 vollstaendig (curl, SHA-256 geprueft) | established (Monitoring-Pflicht seit 2017, Minergie-Modul Monitoring seit 2021, Monitoring+ Ampelsystem, Zertifikat Minergie-Betrieb eigenstaendig vom Bau-Zertifikat, 3 Jahre gueltig, 7-Schritte-Optimierungsablauf, 3 Referenzprojekte mit Eigenverbrauchs-/Autarkiegrad) | 2026-09-01 / Ueberarbeitung Mai 2025 |

@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## 2026-09-01 (Wissens-Chef Lauf 50) — fRsi-Zusicherung bei Innendämmung entschärft; zwei Überholungsvermerke
+
+`wiki/innendaemmung.md` (+24/−0): Zwei Berichtigungen zum Aussenwandecken-Satz. (1) «SIA-Grenze
+0,75» ist der Stand **SIA 180:1999**; nach SIA 180:2014 Ziff. 6.2.2.1 gilt für konstruktive
+Wärmebrücken der standortabhängige **Anhang-F-Wert** (ungünstigster CH-Wert 0,80/0,83). Die 0,75 aus
+Ziff. 6.2.1.4 ist **keine Bauteilanforderung**, sondern die Annahme hinter der zulässigen
+Raumluftfeuchte. (2) Schwerer wiegt: «wird durch 40–80 mm Innendämmung zuverlässig über die Grenze
+gehoben» widerspricht der **eigenen Katalogtabelle** (40 mm = fRsi 0,61–0,63, 80 mm = 0,75–0,80,
+über 0,80 erst ab 120 mm). Das war eine Bauherren-Zusicherung mit Schadenpotenzial und ist jetzt als
+«deutlich verbessert, aber nicht nachweislich über der Grenze — projektspezifisch rechnen» gefasst.
+Der Bestandsbefund 0,37–0,48 bleibt unverändert richtig.
+
+`destillate/bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013.md` (+11/−0): Berichtigung am
+Fazit, das die eigene Tabelle überspitzt; der Beratungsblock desselben Destillats formuliert korrekt
+«deutlich verbessert». Zusatzvorbehalt: die Katalogwerte rechnen mit R_si = 0,35 (Systematik 1999),
+SIA 180:2014 Ziff. 6.2.3.6 verlangt 0,25 — ein direkter Vergleich mit Anhang F ist unzulässig.
+
+`destillate/vollzugsordner-energie-zh-abschnitt6.md` (+10/−0) und `…-abschnitt4-1.md` (+10/−0):
+Überholungsvermerk zur Genehmigungsfiktion des Anzeigeverfahrens (§ 18 Abs. 3 aBVV, weggefallen).
+Cross-KB-Rücklauf aus `wissen/baurecht`; beide Destillate tragen die Alterskorpus-Warnung bereits,
+der konkrete Überholungsvermerk fehlte.
+
 ## 2026-09-01 — Run 172: Fehl-Offen Typ 2 (acht Faelle) mechanisiert; E-121-2 als Scheinwiderspruch geschlossen
 
 - **Hauptbefund:** Der Health-Check von heute meldete als **Top-1-P1** die unbearbeitete
