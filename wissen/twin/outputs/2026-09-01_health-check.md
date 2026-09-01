@@ -38,7 +38,7 @@ gefunden", nicht "bewiesen widerspruchsfrei".
 | C Unbelegte Claims | 0 |
 | D RAW-Coverage-Luecken | 0 |
 | E Veraltete Artikel | 0 |
-| F Schreibregel-Verstoesse | 2 (beide seit 08.08.2026 unveraendert offen) |
+| F Schreibregel-Verstoesse | 3 (2 seit 03.08.2026 unveraendert offen, 1 neu: Frontmatter-Datum) |
 | G Promotion-/Ruecklauf-Kandidaten | 1 gross (Nivellier-Zeile-Entscheid), 1 Grooming |
 
 ## Top-3 (Raphaels Aufmerksamkeit)
@@ -190,6 +190,14 @@ Zwei Befunde, **beide bereits im Health-Check vom 03.08.2026 gemeldet und seithe
 Beide Befunde sind trivial zu beheben (ein Wort, sechs Symbole), liegen aber seit vier Wochen
 unangefasst — vermutlich, weil kein Lauf seither ausdruecklich als Phase-2-Session mit
 Schreibkorrektur-Auftrag lief.
+
+3. **`last_updated` aller sechs Facetten-Artikel ist einen Tag hinter dem tatsaechlichen
+   Bearbeitungsstand.** Frontmatter traegt durchgehend `last_updated: 2026-08-31`, obwohl heute
+   (01.09.2026) sowohl der `twin-fidelity-review` (neue "Fidelity 260901"-Abschnitte in allen
+   sechs Artikeln) als auch `twin-mail-training` Batch 111 (Quarantaene-Vermerk in `stimme.md`)
+   Inhalt ergaenzt haben. Kein inhaltlicher Fehler, aber das Feld verfehlt seinen Zweck (Audit E
+   stuetzt sich auf `last_updated`, um Veralterung zu erkennen) — solange es dem Body
+   hinterherhinkt, meldet Audit E systematisch zu juenge Artikel als aelter, als sie sind.
 
 ### G. Promotion-/Ruecklauf-Kandidaten
 

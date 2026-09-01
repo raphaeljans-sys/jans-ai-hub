@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 19:36:35
+Stand: 01.09.2026 19:46:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:35)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 01.09.2026 19:36:35
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 07f6af1e2 nas-selfcommit: 2 Datei(en) 2026-09-01 19:30
+- 6b1fdf65c Fristen-Register: Nachtrag NAS-GitHub-Divergenz 605/267 (wissenscheck-monatlich 01.09.)

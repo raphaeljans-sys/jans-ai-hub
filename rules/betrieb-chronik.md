@@ -19,6 +19,38 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260901b — Ein Subagent, der «laeuft im Hintergrund» meldet, ist nicht untaetig: Doppellauf im Wissenscheck
+
+**Vorfall ohne Schaden, aber mit Lehre** (`wissenscheck-monatlich`, 01.09.2026, 19:3x bis 19:46,
+MacBook Pro). Der Sammellauf faechert die 19 KBs auf je einen Subagenten auf. Der Agent fuer die
+KB `twin` kam nach 85 Sekunden und vier Werkzeugaufrufen zurueck mit dem Satz, der Health-Check
+«laeuft jetzt im Hintergrund», und ohne Ergebnis. Die Gegenpruefung am Dateisystem zeigte keinen
+Report, also wurde der Lauf neu gestartet. **Beide liefen dann parallel:** der erste Agent hatte
+nicht narriert, sondern selbst weiterdelegiert, und sein Kind lieferte 8 Minuten spaeter ab.
+
+**Was gut ging.** Der zweite Lauf pruefte vor dem Schreiben den Bestand, fand die CHANGELOG-Zeile
+des ersten bereits vor, liess sie stehen statt eine zweite zu setzen, und glich seinen Report
+inhaltlich gegen sie ab — er uebernahm dabei sogar einen Befund, den er selbst uebersehen hatte
+(Frontmatter aller sechs Facetten einen Tag hinter dem Body). `wc -l` belegt einen sauberen
+Einfach-Einschub (3020 → 3022). Kein Zeilenverlust, keine Doppelzeile, kein zerstoerter Bestand.
+Die Existenzpruefung aus dem Schreib-Riegel des Skills `wissenscheck` (08.08.2026) hat also genau
+das getan, wofuer sie gebaut wurde — hier gegen einen Fall, fuer den sie nie gedacht war.
+
+**Was nicht gut ging.** Die Report-Datei `outputs/2026-09-01_health-check.md` wurde vom zweiten
+Lauf ueberschrieben; die Anweisung «existiert die Datei bereits, dann als `-2.md`» griff nicht,
+weil sie zum Pruefzeitpunkt noch nicht existierte. Inhaltlich ist der stehende Report der
+vollstaendigere von beiden, aber die Zahlen der beiden Laeufe weichen voneinander ab (C1/G3 gegen
+C0/G2) — **wer zwei Laeufe derselben Pruefung auf dieselbe Datei laesst, bekommt zwei Wahrheiten
+und behaelt zufaellig die zweite.**
+
+**Die Lehre, zwei Saetze.** Erstens: eine Ergebnismeldung eines Subagenten, die eine Ankuendigung
+statt eines Resultats enthaelt, ist **kein Beleg fuer Untaetigkeit** — vor einem Neustart wird
+geprueft, ob noch ein Kind laeuft, nicht nur, ob die Zieldatei schon da ist. Zweitens: ein
+Neustart derselben Pruefung schreibt **nie auf denselben Pfad**, sondern auf einen eigenen, damit
+beide Faelle vergleichbar bleiben. Gleiche Familie wie `auto-verbesserungen` 260830 (die
+Selbstauskunft des Laufs muss gehoert werden) und 260811 Ziff. 2 (nach dem Schreiben den Umfang
+messen).
+
 ## 260901 — Bestaetigung: `/etc/nsmb.conf` fehlt weiterhin, der Stall wiederholt sich taeglich
 
 **Kein neuer Vorfall, eine Messung** (twin-mail-training Batch 111, 01.09.2026, 03:4x, MacBook
