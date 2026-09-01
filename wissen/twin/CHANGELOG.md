@@ -33,7 +33,8 @@ Gruss), 26.03.2026 «Klärung Vollmachten und Vertretung» (AfB Zuerich, Handy-F
 - **Riegel, zweite Verdichtungsrunde:** 33'976 → **33'986 B (14 B Reserve)**. Entfernt wurden
   ausschliesslich Beleg-Prosa und ein reiner Rueckverweis in [[beziehungsregister]] (die vom
   Vorlauf benannten Stapel-Doppelungen), promoviert die Apparat-Regel in [[fachsignatur]]. Alle
-  Eingriffe zeilenexakt, `diff` gegen `outputs/.bak-260901/` (Rule 260811). **Das Bild von
+  Eingriffe zeilenexakt, `diff` gegen Sicherungskopien nachgemessen (Rule 260811), Kopien danach
+  entfernt. **Das Bild von
   260831c bestaetigt sich:** der Engpass war die Promotion in den Do/Don't-Block, nicht die Byte-
   Grenze — der erste Kompilierversuch lag 22 B darueber, die Verdichtung brachte ihn hinein.
 - **Artikel ergaenzt:** je ein Fidelity-260901-Abschnitt in [[stimme]], [[denken]], [[haltung]],
