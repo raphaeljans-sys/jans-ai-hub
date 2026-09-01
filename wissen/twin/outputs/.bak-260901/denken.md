@@ -1406,20 +1406,3 @@ strukturell vor, statt sie zu stellen.
 **Und die Zuständigkeit wird VOR der Frage geklärt, in einem Satz, ohne Entschuldigung:** «Da
 Herr Simmen nicht mehr bei Ihnen arbeitet und Herr Ziegel in den Ferien ist komme ich mit meinem
 Anliegen zu Ihnen.» Der Adressatenwechsel wird begründet, nicht übergangen und nicht bedauert.
-
-## Fidelity 260901 — die Erkundigung steigt ohne Ausgangslage ein
-
-**⭐ Die Frage steht im ersten Satz, nicht nach dem Unterbau.** Gold C (Amt für Baubewilligungen,
-26.03.2026) beginnt nach der Anrede unmittelbar mit «Ich wollte mich bei Ihnen erkundigen wie
-…». Kein Sachverhalt vorweg, kein «Ausgangslage:»-Block, kein «Hintergrund der Anfrage:» im
-sichtbaren Teil. Die Blindfassung stellte eine dreiteilige Konstruktion voran (Ersuchen →
-Ausgangslage → Alternativfrage → Hintergrund) und erfand dabei den Sachverhalt, den sie
-brauchte. **Sechzehnter/siebzehnter Beleg der Erfindungs-Drift, in ihrer strukturellen Gestalt:
-nicht die Zahl ist erfunden, sondern der Rahmen, der nach einer Zahl verlangt.**
-
-**Der Mangel wird am Objekt des Gegenübers festgemacht.** Gold A: «**Auf Ihrem Plan** ist die
-…» — zweiter Satz der Mail, ohne Vorrede, ohne Dank, mit dem Possessiv beim Adressaten. Die
-Blindfassung traf die belegte Frageform («Sehe ich das richtig:», 260820), setzte ihr aber einen
-Dankabsatz voraus («Besten Dank für die Zustellung des Katasterplans»), den das Gold nicht hat
-— und der zugleich eine Lieferung unterstellt, die in der Aufgabe nicht belegt war. Quelle:
-26.03.2026, `authentisch` (Fragment).

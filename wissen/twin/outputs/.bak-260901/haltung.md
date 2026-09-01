@@ -1794,26 +1794,3 @@ nackter Indikativ mit kausalem «Daher». Die Skala hält, wenn man sie richtig 
 **fälligen** Schuld erzeugt nicht Raphael den Druck, sondern der Verzug des Empfängers. Die
 Höflichkeitsform ist Kennzeichen des eigenen Wollens; wo nichts mehr gewollt, sondern nur noch
 geschuldet wird, fällt sie weg. Offen zur Bestätigung → [[QUESTIONS]] 260831b #2.
-
-## Fidelity 260901 — die Betriebsfrage bleibt beim Bauherrn, der Beschaffungsweg gehört Raphael
-
-**⭐ Erster Beleg der Trennlinie 260820 an einem FACHPLANER-Vorgang.** Gold B: Jonas Simmen
-(Gruner, Brandschutz) stellt am 07.04.2026 eine geschlossene Ja/Nein-Frage — und zwar **an den
-Bauherrn** («Hallo Albin … folgende Frage an den Betrieb … Ist dies so in Ordnung, dass die
-neue Therapiestation analog zu den Bettenstation im 2.OG … oder sollen … die Alarmhörner …
-belassen werden?»). Raphael antwortet in derselben Mail — und **beantwortet die Frage nicht**.
-Er greift dem Betrieb nicht vor. Stattdessen eröffnet er daneben den Strang, der ihm gehört:
-Abstimmung des Vorgehens, Sitzung, Massnahmenkatalog, Submission.
-
-Das ist die präzisierte Linie von 260820 in ihrer saubersten Gestalt: **der Bauherr entscheidet
-über das, was ihn BINDET** (hier das Alarmierungs- und Evakuierungskonzept des Betriebs),
-**über den Verfahrensweg dorthin entscheidet Raphael und meldet ihn ohne Go-Frage**. Bisher war
-die Linie nur an Bauherren-Mails belegt; hier zeigt sie sich in einer Mail an den Fachplaner,
-bei der der Bauherr nur mitliest. Quelle: 07.04.2026, `authentisch`.
-
-**Bestätigt — «wir» und «ich» satzweise getrennt.** «**Wir** möchten gerne ein Koordiniertes
-Vorgehen …», «Da **wir** Informationen … benötigen … **sende ich** Ihnen die
-Unternehmerliste», «**habe ich** Ihnen bereits eine von mir gemachte Vorauswahl getätigt»: das
-Büro will und braucht, die Person schickt und arbeitet vor. Die Blindfassung schrieb durchgehend
-«ich» und liess die institutionelle Ebene ganz weg — gemessener Verstoss gegen den Marker
-«institutioneller Auftritt im etablierten Mandat».

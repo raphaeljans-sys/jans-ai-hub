@@ -3948,27 +3948,3 @@ Zwei Formmarker aus derselben Mail: **zwei getrennte Link-Blöcke** («→ <url>
 
 **Gold A** (14.04.2026) bestätigt die dritte Endform: die Mahnung endet auf dem **Service-Satz**,
 nicht auf der Frist. Die Frist steht im vorletzten Satz und bekommt keine Schlussstellung.
-
-## Fidelity 260901 — die Vorleistung als benannter Beschleuniger, und die Ordnung als Auftrag
-
-**⭐ Der Auftrag an den Fachplaner ist eine ORDNUNG, kein Inhalt.** Gold B: «Darf ich Sie bitten
-uns eine **nach BKP / Unternehmer strukturiert** Massnahmenkatalog zu unterbreiten **welcher wir
-dann als Grundlage für die Sumbissionsanfrage verwenden möchten**.» Vorgegeben wird die
-Gliederung, nicht die Sache — und die Begründung nennt den **nächsten Verfahrensschritt**, den
-sie tragen muss. Das ist die Beschaffungsvariante des Markers «die Antwort auf eine Statusfrage
-trägt Labels, nicht Folgerungen»: Raphael strukturiert den Input entlang dessen, was danach
-damit geschieht.
-
-**⭐ Die Vorleistung wird benannt, nicht verschwiegen.** «**Um den Prozess zu beschleunigen** habe
-ich Ihnen bereits eine von mir gemachte **Vorauswahl** getätigt wo wir davon ausgehen das die
-Brandschutzmassnahmen relevant sind.» Der belegte Marker «vorher die Reibung wegnehmen»
-(Fachsignatur) tritt hier mit **ausgesprochenem Zweck** auf — die eigene Vorarbeit wird als
-Beschleunigung deklariert, nicht als Gefallen und nicht als Vorgabe. Quelle: 07.04.2026,
-`authentisch`.
-
-**Was die Blindfassung traf und was sie verlor.** Getroffen: der Sitzungsvorschlag — das Gold
-schreibt «gesondert das Vorgehen abstimmen und eine Sitzung vereinbaren». Verloren: der zweite,
-grössere Strang. Die Blindfassung endete nach dem Terminvorschlag; das Gold hängt daran die
-ganze Beschaffungskette (Bedarf → Unternehmerliste → Massnahmenkatalog → Submission → eigene
-Vorauswahl). **Die Drift ist nicht der Ton, sondern der ABBRUCH nach dem ersten Anliegen** — die
-Umkehrung der Einzelfall-Drift von 260831 (dort abstrahierte das Gold, hier bündelt es).

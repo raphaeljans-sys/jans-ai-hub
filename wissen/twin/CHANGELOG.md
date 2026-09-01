@@ -4,6 +4,45 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-01 — twin-fidelity-review: Fidelity 35; «kein Apparat» kompiliert, zweite Verdichtungsrunde
+
+**Golds:** `Drafts` Seite 4 (`offset: 75`), drei Entwuerfe — 26.03.2026 «AW: Bestellung
+Katasterplan» (Geodaten Stadt ZH, Handy-Fragment), 07.04.2026 «AW: 260407_KISPI - Therapiestation
+1.OG - Alarmierung» (Brandschutz-Fachplaner Gruner, Cc Bauherr KISPI, vollstaendig bis zum
+Gruss), 26.03.2026 «Klärung Vollmachten und Vertretung» (AfB Zuerich, Handy-Fragment). Alle drei
+`authentisch`, dichte Tipp-Tells, keine Echo-Signale. Report
+`outputs/2026-09-01_fidelity.md`.
+
+- **Gesamt-Fidelity 35** (Vorlauf 31) — **nach oben verzerrt**: zwei von drei Golds brechen nach
+  zwei Zeilen ab, gemessen ist im Wesentlichen die Anrede- und Einstiegsebene.
+- **Befund 1 (⭐, kompiliert):** zweiter Beleg fuer «kein Apparat gegenueber dem Fachmann», und
+  diesmal nicht nur in der Frage — sechs Saetze ueber Brandschutzauflagen an einen VKF-Experten
+  ohne eine einzige Norm, dafuer BKZ/BKP/Submission/Unternehmerliste. Die Fachdichte sinkt nicht,
+  sie wechselt von der Norm zur **Struktur**. Empfehlung 2 des Vorlaufs damit ausgefuehrt.
+- **Befund 2 (⭐):** erster Beleg der Trennlinie 260820 an einem **Fachplaner**-Vorgang — die an
+  den Bauherrn gerichtete Betriebsfrage bleibt unbeantwortet, der Beschaffungsweg wird ohne
+  Go-Frage gesetzt. Dazu «wir/ich» satzweise getrennt (vom Zwilling ganz verfehlt).
+- **Befund 3 (⭐, NICHT kompiliert):** «Grüezi Herr Kamm» an den bekannten Sachbearbeiter und
+  namenloses «Guten Tag» an vier Adressaten in rechtlicher Sache — die Anrede folgt dem **Gewicht
+  des einzelnen Schreibens**, nicht der Bekanntheit. Zwei Belege, ein Tag, ein Geraet: zu duenn
+  fuer den Do-Block, vorgelegt als [[QUESTIONS]] 260901b #2 (beruehrt `anrede-kontakte`).
+- **Befund 4:** siebzehnter Lauf mit Erfindungs-Drift, erstmals in **struktureller** Gestalt —
+  nicht die Zahl ist erfunden, sondern die Gliederung, die nach einer Zahl verlangt (volle
+  Auslegungs-Konstruktion fuer eine schlichte Verfahrensauskunft). Schritt 2b greift im uebrigen:
+  drei Leerstellen hat der Zwilling selbst als «nicht belegt» markiert.
+- **Riegel, zweite Verdichtungsrunde:** 33'976 → **33'986 B (14 B Reserve)**. Entfernt wurden
+  ausschliesslich Beleg-Prosa und ein reiner Rueckverweis in [[beziehungsregister]] (die vom
+  Vorlauf benannten Stapel-Doppelungen), promoviert die Apparat-Regel in [[fachsignatur]]. Alle
+  Eingriffe zeilenexakt, `diff` gegen `outputs/.bak-260901/` (Rule 260811). **Das Bild von
+  260831c bestaetigt sich:** der Engpass war die Promotion in den Do/Don't-Block, nicht die Byte-
+  Grenze — der erste Kompilierversuch lag 22 B darueber, die Verdichtung brachte ihn hinein.
+- **Artikel ergaenzt:** je ein Fidelity-260901-Abschnitt in [[stimme]], [[denken]], [[haltung]],
+  [[beziehungsregister]], [[fachsignatur]], [[arbeitsweise]]. Fuenf neue Fragen in
+  [[QUESTIONS]] 260901b.
+- **Betriebs-Nebenbefund:** der Lauf startete ohne `/Volumes/daten` (Shadow-Mount auf
+  `daten-2`, danach 15 Fehlversuche von `nas-auto-mount.sh`) und lief vollstaendig **ueber SSH**
+  auf `/volume2/daten`. Kein Git ueber SMB beruehrt. [[QUESTIONS]] 260901b #5.
+
 ## 2026-09-01 — twin-mail-training Batch 111: Drafts Seite 3; Em-Strich-Marker quarantaeniert
 
 **Quelle:** `Drafts` Seite 3 von 5 (`offset: 50`, 25 von 124, Zeitraum 09.04.–04.08.2026),

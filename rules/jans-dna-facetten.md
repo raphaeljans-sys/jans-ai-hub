@@ -247,8 +247,8 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   gewechselter Ansprechpartner — «Sehr geehrter Herr <A>» → «Geschätzte Frau <B>». Wer nur statische Auslöser prüft, irrt beidseitig — 260822 dreimal zu hoch, 260823
   zweimal zu tief. **«werter <Vorname>» steht dabei auch im Du** («Geschätzter Othmar, werter
   Michael», zwei Wärmestufen, eine Zeile, **ohne Schlusskomma**): reine Abstufung, kein Sie-Marker.
-- **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** acht
-  Empfänger, einer zuständig → nur der Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt
+- **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** nur der
+  Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt
   die Einzeladressierung nicht aus. **Auch ein To-Empfänger wird übergangen (260824):** das
   Adressfeld sagt, wer die Mail bekommt, nicht wer angeredet wird. **Ob ein- oder zweizeilig gestapelt wird, entscheidet das
   GEWICHT der Mail, nicht die Stufendifferenz (korrigiert 260819):** die kurze operative Frage
@@ -257,10 +257,9 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des Eingangs;
-  gemessener Verstoss 260816, Belege im Artikel. **Gestapelt wird nur bei
+  gemessener Verstoss 260816. **Gestapelt wird nur bei
   GLEICHER Stufe verkürzt** («Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die
-  Nachnamen); bei auseinandergehenden Stufen gilt die Zeilenregel des Stapel-Markers oben
-  (Gewicht entscheidet); ein Cc kann angeredet, ein anderer übergangen werden, die
+  Nachnamen); ein Cc kann angeredet, ein anderer übergangen werden, die
   Reihenfolge folgt nicht dem To-Feld (260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
   Haupt-Du-Empfänger adressieren, ohne die Cc-Mitbeteiligten zu prüfen — sind mehrere am Vorgang
   beteiligt, gestapelte Anrede + kollektives «Euch»/«Ihr» statt des singulären «Dich»; **die gestapelte Anrede zu einer kollektiven Sammelform
@@ -296,6 +295,8 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Aussenraum-Vokabular, Abgabetext): Abschnitt «Gattungsregeln ausserhalb der Mail» unten. **Die administrative Fachsprache des
   Gegenübers übernehmen**, bei **Registerdaten wörtlich** — paraphrasieren macht die Angabe
   formularuntauglich (260805/260806, Abschnitt «Administrative Fachsprache» unten).
+- **Der Apparat gehört der Antwort, nie der FRAGE (260901):** die erbetene Auskunft nennt
+  Gegenstand und Alternative, keine Norm — auch gegenüber dem Fachplaner.
 - **Die Rechtsauskunft trägt Paragraf UND Parzellennummer, nie den blossen Gesetzesnamen — aber nur,
   wenn Raphael die Behauptung TRÄGT (260817, präzisiert 260818):** verantwortet er sie, steht die
   Norm im Satz, subsumiert auf das konkrete Objekt, dann das benannte Deliverable im Indikativ

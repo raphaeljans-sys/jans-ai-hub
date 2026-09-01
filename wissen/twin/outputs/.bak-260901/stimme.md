@@ -4933,29 +4933,3 @@ Der Gedankenstrich lebt auch englisch in der Mail: «just let me know — happy 
 
 **Gold C** (11.05.2026, Sie, Fachplaner, PlainText): FG + «**Raphael Jans**» — Kurzsignatur ohne
 Block. Zweiter Beleg dafür, dass die Kurzsignatur eine Ausnahme ist und nicht am Reply hängt.
-
-## Fidelity 260901 — die weiche Behörden-Eröffnung, und die Anrede ohne Leerzeile
-
-**⭐ «Ich wollte mich bei Ihnen erkundigen wie …»** — Gold C (26.03.2026, Amt für
-Baubewilligungen Zürich). Der Artikel führt bisher «**Ich ersuche um**» als förmliche
-Behörden-Eröffnung. Daneben steht damit belegt die **weiche, ins Präteritum gesetzte**
-Erkundigungsform: kein Ersuchen, keine Bitte, sondern eine ins Unverbindliche gerückte
-Auskunftsfrage. Die Blindfassung setzte «Ich ersuche um Ihre Auskunft» und traf damit die
-falsche Härte. Quelle: 26.03.2026, `authentisch` (Fragment).
-
-**⭐ Anrede und erster Sachsatz ohne Leerzeile dazwischen.** Gold A und Gold C, beide vom Handy
-(`ms-outlook-mobile-signature`), setzen den ersten Satz **direkt** unter die Anrede:
-«Grüezi Herr Kamm / Auf Ihrem Plan ist die …», «Guten Tag / Ich wollte mich bei Ihnen
-erkundigen …». Der Artikel kannte die fehlende Leerzeile bisher nur für das **reine
-Transmittal** (verbloser Nominalsatz). Gold B — dieselbe Woche, ebenfalls Handy, aber länger —
-hält die Leerzeile. Vermutete Trennlinie: die kurze operative Rückfrage lässt sie weg, die
-mehrabsätzige Mail nicht. Zwei Belege, ein Tag, ein Gerät — vorgelegt als [[QUESTIONS]]
-260901b #3, nicht kompiliert.
-
-**Bestätigt (Regressionstest 260820): die Bitte endet auf einem PUNKT.** Gold B: «**Darf ich Sie
-bitten** uns eine nach BKP / Unternehmer strukturiert Massnahmenkatalog zu unterbreiten welcher
-wir dann als Grundlage für die Sumbissionsanfrage verwenden möchten**.**» — höflichste Stufe
-der Vier-Stufen-Skala (fremde Ressource), Schlusspunkt, kein Fragezeichen. Die Blindfassung
-stellte stattdessen eine echte Frage («Passt Ihnen …?»). Ebenfalls bestätigt: «**Besten Dank
-für Ihre E-Mail.**» als eigener Absatz nach der Anrede — mit «E-Mail», nicht «Mail».
-Quelle: 07.04.2026, `authentisch`.

@@ -5292,3 +5292,84 @@ hat die Doppelung genau das geleistet, wofuer eine zweite Instanz da ist. Es hei
 das Batch-Register `raw/_INGESTED.md` den Verbrauch des Fidelity-Laufs nicht mitfuehrt und der
 naechste Mail-Lauf denselben Bereich ein drittes Mal zoege. Batch 111 vermerkt darum im Register,
 welches Fenster der Fidelity-Lauf verbraucht hat.
+
+## 260901b — aus dem Fidelity-Review (Drafts Seite 4, drei Golds 03./04.2026, zwei davon Handy-Fragmente)
+
+**#1 — Trennt sich die Behördenanfrage in zwei Gattungen: Auslegung einer strittigen Norm ↔
+schlichte Verfahrensauskunft?** · *Facette [[fachsignatur]]*
+
+Der Do-Block sagt für die Behörde: NICHT subsumieren, sondern die konkurrierenden Auslegungen
+belegt gegenüberstellen, mit «–»-Alternativfrage und «Hintergrund der Anfrage:». Deine Anfrage
+ans AfB vom 26.03.2026 macht nichts davon — sie öffnet mit «Ich wollte mich bei Ihnen erkundigen
+wie die Eingabequittung einer Baueingabe im Anzeigeverfahren mit …» und stellt die Frage im
+ersten Satz.
+
+Meine Lesart: der belegte Apparat gehört der **strittigen Norm**, die Du selbst gelesen hast und
+zur Wahl stellst. Die blosse Verfahrensauskunft («wie handhabt ihr das?») trägt ihn nicht.
+Trifft das? *Warum die Frage: der Zwilling hat gestern für genau diese Aufgabe die volle
+Konstruktion gebaut — und der Rahmen verlangte danach nach Inhalt, den es nicht gab. Er hat eine
+unterzeichnete Vollmacht und zwei Rechtsalternativen behauptet, beides frei erfunden. Ein Ja
+hier schneidet nicht eine Erfindung ab, sondern die Gliederung, die sie erzeugt.*
+
+**#2 — Ist «Grüezi Herr <Nachname>» eine eigene Anredestufe, und bleibt das kurze Schreiben
+niederschwellig, auch wenn sein Thema schwer ist?** · *Facette [[beziehungsregister]], berührt
+`rules/anrede-kontakte.md`*
+
+Zwei Entwürfe vom 26.03.2026, beide ans Amt, beide gegen die heutige Regel:
+«**Grüezi Herr Kamm**» an den namentlich bekannten Sachbearbeiter der Geodaten-Stelle (die Regel
+sagt: bekannt → «Geschätzte/r»), und «**Guten Tag**», namenlos, an vier Adressaten des AfB, von
+denen zwei namentlich dastehen, in der Sache Vertretungsbefugnis im Anzeigeverfahren (die Regel
+sagt: rechtsbegründetes Ersuchen → «Sehr geehrte Damen und Herren»).
+
+Meine Lesart: die Stufe folgt dem **Gewicht des einzelnen Schreibens**, nicht der Bekanntheit
+der Person und nicht der Rechtserheblichkeit des Themas. Eine kurze Erkundigung bleibt unten,
+erst das ausformulierte Ersuchen hebt. Stimmt das — und ist «Grüezi Herr <Nachname>» bei Dir
+eine bewusste Stufe unterhalb von «Geschätzter Herr <Nachname>»? *Warum: der Zwilling lag heute
+zweimal zu hoch und schreibt Ämtern dadurch steifer, als Du es tust. Beide Belege stammen aber
+vom selben Tag und Gerät — deshalb ist die Regel bewusst NICHT ins Gehirn kompiliert worden. Den
+Wortlaut von `anrede-kontakte` ändert Claude nie selbst.*
+
+**#3 — Lässt Du die Leerzeile zwischen Anrede und erstem Satz in der kurzen Rückfrage absichtlich
+weg?** · *Facette [[stimme]]*
+
+Beide Fragmente vom 26.03.2026 setzen den ersten Satz **direkt** unter die Anrede («Grüezi Herr
+Kamm / Auf Ihrem Plan ist die …», «Guten Tag / Ich wollte mich …»). Die längere Mail vom
+07.04.2026 — dasselbe Gerät, dieselbe Woche — hält die Leerzeile. Der Artikel kannte die
+fehlende Leerzeile bisher nur für das reine Transmittal.
+
+Ist das eine Form der kurzen operativen Rückfrage, oder schlicht das Tippen auf dem Handy?
+*Warum: der Zwilling setzt heute immer eine Leerzeile. Wenn es eine Form ist, ist sie billig zu
+lernen; wenn es ein Geräte-Artefakt ist, darf sie gar nicht gelernt werden — sonst wandert sie
+in Mails, die Du am Rechner schreibst.*
+
+**#4 — Beantwortest Du eine Fachplanerfrage, die an den Bauherrn gerichtet ist, grundsätzlich
+nicht mit — auch wenn Du die Antwort kennst?** · *Facette [[haltung]]*
+
+Am 07.04.2026 fragte der Brandschutzexperte **den Betrieb** («folgende Frage an den Betrieb …
+Ist dies so in Ordnung … oder sollen … die Alarmhörner belassen werden?»). Du hast in derselben
+Mail geantwortet und die Frage **nicht** beantwortet, sondern daneben den Submissionsstrang
+eröffnet.
+
+Meine Lesart: das ist die Linie «der Bauherr entscheidet über das, was ihn bindet — über den
+Verfahrensweg entscheidest Du», hier zum ersten Mal an einem Fachplaner-Vorgang. Gilt sie so
+streng, dass Du auch dann schweigst, wenn Du die Betriebsantwort sicher weisst? *Warum: der
+Zwilling springt in solche Lücken und antwortet stellvertretend. Ein klares Ja macht aus einer
+Beobachtung eine anwendbare Regel; ein Nein sagt mir, woran Du die Ausnahme erkennst.*
+
+**#5 — Harness, kein Twin-Thema: darf der NAS-Guard einen verschatteten Mount selbst auflösen?**
+· *Betrieb, zur Kenntnis + Entscheid*
+
+Dieser Lauf startete ohne `/Volumes/daten`. Weder Netz noch NAS waren schuld (Last 0.06, Port 445
+offen): der Keepalive trennte um 05:10 einen als hängend erkannten Mount, der Remount landete auf
+`/Volumes/daten-2`, weil der Name noch belegt war — und danach meldete `nas-auto-mount.sh`
+**15-mal in Folge** «Mount-Verifizierung fehlgeschlagen», weil `mount volume` die bestehende
+Verbindung zurückgibt, statt unter dem erwarteten Namen neu zu mounten. Von Hand aufgelöst; der
+Lauf lief anschliessend vollständig über SSH auf `/volume2/daten`, weil der SMB-Mount weiter alle
+paar Minuten wegbrach.
+
+Zwei Punkte: **(a)** Soll `nas-auto-mount.sh` einen Mount derselben Freigabe unter
+`/Volumes/daten-N` erkennen und vor dem Remount trennen dürfen? Das ist ein `umount -f` ohne
+Rückfrage und gehört deshalb Dir. **(b)** Der wiederkehrende Stall selbst (alle paar Minuten,
+Mac Book Pro, NAS idle) ist ein zweites, älteres Thema — er steht in der Memory-Notiz
+«NAS-Mount-Haertung» als gelöst, ist es aber offenbar nicht mehr. *Warum hier: der Lauf wäre ohne
+den SSH-Umweg ausgefallen, und ein ausgefallener Fidelity-Lauf fällt nur im Register auf.*

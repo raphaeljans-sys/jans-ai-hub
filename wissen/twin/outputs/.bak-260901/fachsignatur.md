@@ -519,8 +519,6 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Aussenraum-Vokabular, Abgabetext): Abschnitt «Gattungsregeln ausserhalb der Mail» unten. **Die administrative Fachsprache des
   Gegenübers übernehmen**, bei **Registerdaten wörtlich** — paraphrasieren macht die Angabe
   formularuntauglich (260805/260806, Abschnitt «Administrative Fachsprache» unten).
-- **Der Apparat gehört der Antwort, nie der FRAGE (260901):** die erbetene Auskunft nennt
-  Gegenstand und Alternative, keine Norm — auch gegenüber dem Fachplaner.
 - **Die Rechtsauskunft trägt Paragraf UND Parzellennummer, nie den blossen Gesetzesnamen — aber nur,
   wenn Raphael die Behauptung TRÄGT (260817, präzisiert 260818):** verantwortet er sie, steht die
   Norm im Satz, subsumiert auf das konkrete Objekt, dann das benannte Deliverable im Indikativ
@@ -2893,35 +2891,3 @@ das Webteam) trägt eine durchgehende Eigen-Nomenklatur für die Projektseiten-B
 durchgezogen. Das ist die vierte Säule neben Bau/Design/3D: **die eigene Layout- und
 Publikationssystematik ist Fachsprache und wird gegenüber dem Dienstleister exakt so verwendet
 wie ein Gewerksbegriff gegenüber dem Unternehmer.** Quelle: 05.05.2026, `authentisch`.
-
-## Fidelity 260901 — der Fachplaner bekommt eine ORDNUNG, keine Normen
-
-**⭐ Zweiter Beleg: kein Apparat gegenüber dem zuständigen Fachmann — und diesmal nicht nur in
-der Frage.** Gold B (07.04.2026, an den VKF-Brandschutzexperten Jonas Simmen, Gruner AG, Cc
-Bauherr KISPI) handelt über sechs Sätze von brandschutzrelevanten Auflagen, Bauteilen und
-Nachrüstungen — und enthält **keine einzige Norm, keine EI/RF-Klasse, keine VKF-Ziffer**.
-Stattdessen steht die Beschaffungs-Fachsprache: «effektiver Ausbaustandart, verwendete
-Materialien und Installationsmaterial mit den entsprechenden **BKZ**», «nach **BKP /
-Unternehmer** strukturiert Massnahmenkatalog», «Grundlage für die Submissionsanfrage»,
-«Unternehmerliste».
-
-Das erweitert den Marker von 260831 (dort galt er nur der **Frage**) auf den ganzen Verkehr mit
-dem zuständigen Fachplaner: **der Apparat gehört dem Gefragten, Raphael liefert die Ordnung, in
-der er die Antwort braucht.** Die Fachdichte sinkt nicht — sie wechselt die Ebene: von der Norm
-zur Struktur (BKP, Unternehmer, Submission, BKZ). In den Do-Block promoviert (260901).
-
-**Die Behördenfrage trägt ebenfalls keinen Unterbau.** Gold C öffnet mit «Ich wollte mich bei
-Ihnen erkundigen wie die Eingabequittung einer Baueingabe im Anzeigeverfahren mit …» — kein
-Paragraf, keine Ausgangslage, keine gegenübergestellten Auslegungen. Der Do-Block führt unter
-(b) für die Behörde die belegte Gegenüberstellung konkurrierender Auslegungen; die trifft die
-**strittige Norm**, nicht die schlichte **Verfahrensauskunft**. Die Blindfassung wandte (b) an,
-baute dafür eine «Ausgangslage» und behauptete darin eine unterzeichnete Vollmacht — unbelegt
-(siehe Erfindungs-Check im Report). Grenze im Do-Block als «erbetene Auskunft» gefasst;
-Trennfrage vorgelegt als [[QUESTIONS]] 260901b #1.
-
-**Marker aus dem Bestellformular (Gold A, Zitat-Stack).** Raphaels eigene Einträge im
-Katasterplan-Formular der Stadt Zürich: «Zweck: **Baugesuch (1 Katasterplan)**», «Ausschnitt:
-**33.1_Kataster.pdf**», Projektangabe «**2619_KINDERSPITAL** Innerer Umbau und
-Nutzungsänderung Büro zu Klinik». Der Gegenstand wird mit dem **vollständigen Dateinamen**
-bezeichnet, die Projektnummer mit ihrem ausgeschriebenen Titel — dieselbe Mechanik wie der
-Statusantwort-Marker 260827. Quelle: 26.03.2026, `authentisch`.

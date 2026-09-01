@@ -453,8 +453,8 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   gewechselter Ansprechpartner — «Sehr geehrter Herr <A>» → «Geschätzte Frau <B>». Wer nur statische Auslöser prüft, irrt beidseitig — 260822 dreimal zu hoch, 260823
   zweimal zu tief. **«werter <Vorname>» steht dabei auch im Du** («Geschätzter Othmar, werter
   Michael», zwei Wärmestufen, eine Zeile, **ohne Schlusskomma**): reine Abstufung, kein Sie-Marker.
-- **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** nur der
-  Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt
+- **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** acht
+  Empfänger, einer zuständig → nur der Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt
   die Einzeladressierung nicht aus. **Auch ein To-Empfänger wird übergangen (260824):** das
   Adressfeld sagt, wer die Mail bekommt, nicht wer angeredet wird. **Ob ein- oder zweizeilig gestapelt wird, entscheidet das
   GEWICHT der Mail, nicht die Stufendifferenz (korrigiert 260819):** die kurze operative Frage
@@ -463,9 +463,10 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des Eingangs;
-  gemessener Verstoss 260816. **Gestapelt wird nur bei
+  gemessener Verstoss 260816, Belege im Artikel. **Gestapelt wird nur bei
   GLEICHER Stufe verkürzt** («Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die
-  Nachnamen); ein Cc kann angeredet, ein anderer übergangen werden, die
+  Nachnamen); bei auseinandergehenden Stufen gilt die Zeilenregel des Stapel-Markers oben
+  (Gewicht entscheidet); ein Cc kann angeredet, ein anderer übergangen werden, die
   Reihenfolge folgt nicht dem To-Feld (260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
   Haupt-Du-Empfänger adressieren, ohne die Cc-Mitbeteiligten zu prüfen — sind mehrere am Vorgang
   beteiligt, gestapelte Anrede + kollektives «Euch»/«Ihr» statt des singulären «Dich»; **die gestapelte Anrede zu einer kollektiven Sammelform
@@ -3651,36 +3652,3 @@ Form als Mapping. Die lange ist **kein Verzeichnis-Artefakt** wie «Herr Mustafa
 oder «Herr Valentin» (Batch 110) — dort war der Nachname weggefallen, hier ist der Name
 vollständig und richtig. Lesart: der volle Name ist die **Erstnennung**, danach wird auf den
 Nachnamen verkürzt. Quelle: 11./13.05.2026, `authentisch`.
-
-## Fidelity 260901 — «Grüezi Herr <Nachname>» ans Amt, und das namenlose «Guten Tag» trotz vier bekannter Adressaten
-
-*Zwei der drei Golds dieses Laufs sind abgebrochene Handy-Entwürfe (zwei Zeilen, Container
-`ms-outlook-mobile-signature`). Was sie zeigen, ist die ÖFFNUNG — Anrede und erster Satz —, und
-nur die wird hier gewertet.*
-
-**⭐ «Grüezi Herr Kamm» an den namentlich bekannten Sachbearbeiter.** Gold A (26.03.2026, an
-`geodaten@zuerich.ch` **und** `ueli.kamm@zuerich.ch`, Rückfrage zum gelieferten Katasterplan)
-öffnet mit «**Grüezi Herr Kamm**». Der Artikel führte «Grüezi» bisher ausschliesslich als
-**namenlose** Form für das *unbekannte* Postfach bei trivialer Service-Bitte. Hier steht es mit
-Nachnamen, an eine Person, deren Namen Raphael kennt und benutzt. Damit ist «Grüezi Herr
-<Nachname>» eine eigene, unterste besetzte Stufe im Behörden-Sie — unterhalb von
-«Geschätzter Herr <Nachname>», aber oberhalb der namenlosen Formen. Die Blindfassung setzte
-regelkonform «Geschätzter Herr Kamm». Quelle: 26.03.2026, `authentisch` (Fragment).
-
-**⭐ Das namenlose «Guten Tag» hält auch gegen vier Adressaten und ein rechtliches Thema.**
-Gold C (26.03.2026, «Klärung Vollmachten und Vertretung» an `afb-bausekretariat@` und
-`afb-helpline@zuerich.ch`, To zusätzlich **Annina Mürner**, Cc **Angela Hottinger**) öffnet mit
-«**Guten Tag**», namenlos. Zwei der vier Adressaten stehen namentlich da, und der Gegenstand ist
-die Vertretungsbefugnis im Anzeigeverfahren — nach der bisherigen Lesart des Artikels
-(«gewichtiges/rechtsbegründetes Ersuchen → Sehr geehrte Damen und Herren») hätte hier die
-höchste Stufe stehen müssen. Die Blindfassung setzte genau das und lag falsch.
-
-**Die Achse ist offenbar nicht bekannt/unbekannt, sondern das Gewicht des EINZELNEN
-Schreibens:** die kurze Erkundigung bleibt niederschwellig, auch wenn ihr Gegenstand rechtlich
-ist. Beide Belege stammen vom selben Tag und demselben Gerät; das ist zu dünn für den Do-Block
-und darum als Frage vorgelegt ([[QUESTIONS]] 260901b #2), nicht kompiliert.
-
-**Bestätigt — gestapelt wird, wer handeln muss.** Gold B (07.04.2026, KISPI-Alarmierung) hat vier
-Beteiligte: Fachplaner Simmen und Bauherr Spahic im To, Ziegel im Cc. Angeredet wird **nur
-Simmen**, der Bauherr im To wird übergangen (Marker 260824). Die Anrede trägt ein
-**Schlusskomma**: «Geschätzter Herr Simmen,». Quelle: 07.04.2026, `authentisch`.
