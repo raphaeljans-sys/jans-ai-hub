@@ -198,7 +198,8 @@ null, aehnlich/tiefer als im WP-Kursstand Sommer 2023. Das stuetzt die WP-2023-A
 sie umso klarer ans **untere Band**. Der weitere Rueckgang aendert die belegten Diskont-Zeilen
 nicht (sie liegen ohnehin am unteren Rand), bestaetigt aber die Tieflage des Zinsumfelds.
 
-> ### Warum es fuer den risikofreien Basiszins keine maschinenlesbare Reihe mehr gibt (belegt 23.08.2026)
+> ### Der risikofreie Basiszins: die Datenportal-Wuerfel sind eingefroren, der SNB-Feed ist es nicht
+> *(Befund 23.08.2026, **aufgeloest am 01.09.2026** — die Aufloesung steht am Ende des Kastens.)*
 >
 > Die Zeile «Risikofreier Basiszins (10-j Eidgenoss)» traegt den Zusatz «bei Anwendung Tagesstand
 > pruefen», und [[investorenmarkt-makro]] fuehrt seit dem 20.08.2026 einen offenen Punkt: die
@@ -241,6 +242,46 @@ nicht (sie liegen ohnehin am unteren Rand), bestaetigt aber die Tieflage des Zin
 > eine neue ID verschoben hat. Gemessen ist nur, dass die **bekannten IDs** seit dem 01.09.2025
 > nicht mehr fortgeschrieben werden. Wer den Anker maschinell braucht, muss den Nachfolger im
 > SNB-Portal von Hand suchen — oder auf das Quartalsheft ausweichen.
+>
+> ---
+>
+> ### ✓ AUFGELOEST am 01.09.2026 (Marktpuls): der Nachfolgeweg ist nicht im Datenportal, sondern im SNB-Feed
+>
+> Der Anker ist **doch maschinell verfuegbar**, tagesaktuell und datiert — nur nicht ueber die
+> `warehouse/cubes`-Schnittstelle, in der der 23.08.-Lauf gesucht hat:
+>
+> **`https://www.snb.ch/public/rss/de/interestRates`** («Aktuelle Zinssaetze», RSS/RDF,
+> `cb:`-Namespace der Zentralbank-Spezifikation). Der Feed traegt je Handelstag die Reihe
+> **R10** — «Rendite Bundesobligationen Eidgenossenschaft / Kassazinssatz bei einer Laufzeit von
+> 10 Jahren» — mit `cb:value`, `cb:unit`, `cb:period` und Publikationszeitstempel, dazu
+> SNB-Leitzins, SARON und die Sichtguthaben-Saetze. Kein Login, kein JavaScript, `curl`-fest.
+>
+> | Handelstag | R10 |
+> |---|---|
+> | 25.08.2026 | 0.442 % |
+> | 26.08.2026 | 0.412 % |
+> | 27.08.2026 | 0.424 % |
+> | 28.08.2026 | 0.443 % |
+> | **31.08.2026** | **0.469 %** |
+>
+> **Drei Konsequenzen.**
+> 1. **Die undatierten Live-Snapshots (~0.42-0.51 %) waren der Sache nach richtig** — sie sind
+>    jetzt durch datierte amtliche Werte im selben Band ersetzt. Der Verdacht, die Snapshots
+>    seien unbrauchbar, war unbegruendet; unbrauchbar war nur ihre **Datierung**.
+> 2. **Der Basiszins steht bei 0.47 % (31.08.2026)**, gegen 0.39 % (Mitte Juni) und 0.34 %
+>    (Mitte Maerz). Die im Kasten oben bezifferte Tragweite trifft damit ein: der bottom-up-
+>    Basiszins liegt rund **0.1 Prozentpunkte** ueber dem gefuehrten Wert, die Diskont-Baender
+>    der Tabelle unten verschieben sich **nicht**. **Der Vorbehalt fuer Bewertungen am unteren
+>    Bandrand bleibt** — er ist jetzt nur belegt statt vermutet.
+> 3. **Der Befund oben bleibt gueltig, er wird nicht widerrufen:** die Wuerfel `rendoblim` und
+>    `rendoblid` wurden am 01.09.2026 **nicht erneut geprueft**; ueber ihren Zustand sagt dieser
+>    Nachtrag nichts. Gefunden ist ein **anderer Endpunkt derselben Institution**. Genau das ist
+>    die Lehre: ein leeres Ergebnis war auch hier zuerst eine Aussage ueber das **Werkzeug**
+>    (die abgefragte Schnittstelle), nicht ueber die Quelle.
+>
+> Eingetragen in [[investorenmarkt-makro]] und in die Nutzungsregel 10 der
+> [[datenquellen-registry]]. Das Quartalsheft bleibt die bessere Quelle fuer die **Begruendung**
+> der Zinsbewegung, der **Zahlenwert** kommt neu aus dem Feed und wartet nicht mehr auf das Heft.
 
 **Additive Herleitung (bottom-up, Modell S. 54):**
 
