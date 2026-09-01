@@ -10193,3 +10193,21 @@ Stattdessen Prioritaet 6: Wissenscheck Phase 1 auf der KB mit dem aeltesten Audi
 D0 E0 F0 G0 — sauber, kein Rueckstand, kein zehnter realer Spec-Fall seit 28.07. Report
 `wissen/spec/outputs/2026-09-01_health-check.md`, CHANGELOG nachgefuehrt. Budget rund 3.1
 von 5 USD, Zyklus beendet.
+
+## 2026-09-01 05:3x Nachtschicht Mac Mini
+
+Prioritaet 2 (Mini-exklusive Baustelle Synobsis Stufe 2 Embeddings): offen und ergiebig, anders
+als die bereits gesaettigten QUESTIONS-Prioritaeten aus dem 02:3x-Lauf heute. `catalog/vectors.npz`
+stammte vom 24.08., `catalog/documents.jsonl` trug aber bereits 30 seither korrigierte Eintraege
+(Fehlextraktionen, Kollisionen, Sonderzeichen-Slugs aus den Schub-Lane-Folgelaeufen 25.-29.08.) —
+die semantische Suche arbeitete fuer diese Faelle auf veraltetem Text. `tools/synobsis_embed.py`
+neu gelaufen (kein `--reindex`, kein Rescan der NAS-Quelle, keine Katalogaenderung): Index jetzt
+853 x 768, deckungsgleich mit `documents.jsonl`, Stichprobe via `--semantic` plausibel.
+CHANGELOG nachgefuehrt. Beim Commit ueber `nas-commit-now.sh` griff die bekannte P1-Git-Divergenz
+(Befund B6, angehalten seit 30.08. bis Raphaels Entscheid): lokaler Commit gelang
+(`133ea8447`), Push nach GitHub scheiterte wie erwartet an denselben Altkonflikten. Live-Messung
+zeigt die Divergenz stark gewachsen (534 lokal / 267 remote, Versuch 621 des Selfcommit-Abgleichs,
+vs. 203/115 im Spec-Befund vom 30.08.) — als Nachtrag in `logbuch/fristen.md` an der bestehenden
+Zeile ergaenzt, keine eigene Aufloesung versucht (Git-Historie, braucht Raphaels Freigabe). Sync-Task
+`.angehalten` unveraendert liegen gelassen, ebenfalls wartend auf denselben Entscheid. Budget rund
+1.8 von 5 USD, Zyklus beendet.
