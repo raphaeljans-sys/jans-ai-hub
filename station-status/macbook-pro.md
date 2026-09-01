@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 04:18:16
+Stand: 01.09.2026 05:05:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 04:12)
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:06)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 04:18:16
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9ae5a2b0a Batch 111: Chronik-Bestaetigung nsmb.conf + Fristen-Nachtrag Divergenz 525/267
+- 3e6c76732 planungsgrundlagen-wartung 03: SIA-Shop-Adresse korrigiert (500 = unvollstaendige Pfadform, /D/Product = 200), Connector-Benchmark 9/9 gruen, E13 um zweiten toISOString-Treffer erweitert, PL-02 +48 Dateien als Entscheid vorgelegt
