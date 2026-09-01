@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 10:52:06
+Stand: 01.09.2026 11:12:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 10:42)
@@ -9,14 +9,14 @@ Stand: 01.09.2026 10:52:06
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
+- 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 08d98d0e3 logbuch/fristen: Divergenz-Nachtrag 01.09. 10:4x (562/267, ~60h, fuenfte rc=1-Bestaetigung) + Heartbeat misst NAS-Push-Stand nicht
+- 9d49ceddb nas-selfcommit: 2 Datei(en) 2026-09-01 11:00
