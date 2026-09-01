@@ -33,6 +33,35 @@ S.4-5, Abb. 1 «Vereinfachter Ablauf der unterschiedlichen Verfahrenswege»):
   Anzeige keine Antwort der Behörde vorliegt** — Voraussetzung: keine
   einsprachebrechtigten Dritten betroffen (sonst deren Einverständnis vorab
   einholen). Ausserhalb Bauzonen ist das Anzeigeverfahren **nicht** zulässig.
+  > ⚠ **Korrektur Fassungsstand (01.09.2026, Wissens-Chef Lauf 50): die 30-Tage-Genehmigungsfiktion
+  > des Anzeigeverfahrens ist überholt und darf einer Terminplanung nicht mehr zugrunde gelegt
+  > werden.** Der Satz oben gab die Rechtslage bis zu den BVV-Revisionen vom 20.11.2019 (in Kraft
+  > 01.02.2020) und vom 24.01.2024 (in Kraft 01.04.2024) zutreffend wieder (aBVV § 13 Abs. 2 i.V.m.
+  > § 18 Abs. 3); die hier zitierte Quelle «Ratgeber Baubewilligung» stammt aus dem März 2016 und ist
+  > in diesem Punkt vorrevisionär. **Im geltenden Recht besteht die Fiktion nicht mehr.** § 13 Abs. 2
+  > BVV lautet heute nur noch: «Beim Anzeigeverfahren entfallen die Aussteckung und die öffentliche
+  > Bekanntmachung. Die Behandlungsfrist beträgt 30 Tage.» — eine Behandlungsfrist ohne
+  > Säumnisfolge. § 18 Abs. 1 BVV zählt vier **aktive** Abschlussformen auf (lit. a Mitteilung, dass
+  > nichts entgegenstehe; lit. b gleichlautende Verfügung mit Nebenbestimmungen und Gebühren;
+  > lit. c Verfügung, dass die Voraussetzungen des Anzeigeverfahrens nicht erfüllt seien; lit. d
+  > Verweigerung der Bewilligung) und kennt keinen Absatz 3 mehr. Die ganze BVV enthält keine
+  > Fiktionsformel (Suche «gilt als bewilligt» / «gilt als erteilt» / «Stillschweigen» / «unbenutzt»:
+  > je 0 Treffer, gemessen am Erlasstext `wissen/baurecht/raw/260607_amtlich_zh_bvv.md`, LS 700.6,
+  > Nachtrag 133, Stand 01.07.2026). «Schweigen = Freigabe» gilt heute allein im **Meldeverfahren**,
+  > § 2e BVV: «Muss ein Bewilligungsverfahren durchgeführt werden, teilt die örtliche Baubehörde dies
+  > innert 30 Tagen nach Einreichung der Meldung elektronisch über die Plattform mit. Andernfalls
+  > darf das Projekt ausgeführt werden.»
+  >
+  > **Für die Terminplanung heisst das:** Im Anzeigeverfahren wird erst gebaut, wenn eine der vier
+  > Abschlussformen nach § 18 Abs. 1 BVV schriftlich vorliegt. Die 30 Tage sind ein Planungswert für
+  > die Behördenreaktion, kein Bewilligungsersatz. Bleibt die Behörde stumm, ist der Entscheid
+  > einzufordern, nicht der Baubeginn anzusetzen; Baubeginn nach blossem Fristablauf ist Bauen ohne
+  > Bewilligung. Zur Fristüberschreitung selbst: § 319 Abs. 3 PBG «Können die Behandlungsfristen
+  > nicht eingehalten werden, wird den Gesuchstellern unter Angabe der Gründe mitgeteilt, wann der
+  > Entscheid vorliegt.» Gegenstelle in der führenden Rechts-KB:
+  > `wissen/baurecht/wiki/baubewilligungsverfahren.md` (Anzeigeverfahren ohne Fiktion; die Fiktion
+  > dort ausschliesslich beim Meldeverfahren).
+
 - **Ordentliches Verfahren** mit Publikation — für alles, was nicht in die
   ersten beiden Kategorien fällt; ausgelöst durch ordentliches Baugesuch der
   Bauherrschaft an die Gemeinde.
