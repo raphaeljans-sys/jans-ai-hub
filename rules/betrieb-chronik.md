@@ -19,6 +19,23 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260901 — Bestaetigung: `/etc/nsmb.conf` fehlt weiterhin, der Stall wiederholt sich taeglich
+
+**Kein neuer Vorfall, eine Messung** (twin-mail-training Batch 111, 01.09.2026, 03:4x, MacBook
+Pro). Der SMB-Mount fiel mitten im Lauf weg, `mount | grep -i daten` war **leer**,
+`/Volumes/daten-1` lag als **Leichenordner** daneben (Permission denied, 0 B, kein
+Mount-Eintrag) — also der **benigne** Fall aus 260831b, nicht der SYN-64-Fall. Der Waechter
+heilte in einem Durchgang (`ensure-nas-mounted.sh`, rc 0, `[OK] NAS gemountet via LAN` 03:55:26).
+Der Lauf lief danach ohne Verlust zu Ende.
+
+**Der Punkt der Zeile:** `/etc/nsmb.conf` **existiert immer noch nicht** (geprueft 01.09.2026).
+Die gestern benannte Ursache ist damit nicht ein Tagesbefund, sondern ein **fortbestehender
+Zustand**; `nas-auto-mount.log` steht bei **175** WARN/ERROR-Zeilen. Der Leichenordner
+`/Volumes/daten-1` wurde **bewusst nicht entfernt** — das Loeschen eines Mountpoints ist
+destruktiv, und das Anlegen von `/etc/nsmb.conf` ist eine System-Konfigurationsaenderung mit
+`sudo`; beides gehoert nach `interaktive-eingriffe` und der Freigabe-Schwelle nicht in einen
+unbeaufsichtigten Lauf. **Aktion Raphael**, Befehl steht in 260831b.
+
 ## 260831b — `/etc/nsmb.conf` fehlt: 59 Mount-Abrisse an einem Tag, der Waechter heilt jeden einzeln
 
 **Befund (Wissens-Chef Run 49, 31.08.2026, MacBook Pro, 23:13-23:55).** Waehrend eines einzigen

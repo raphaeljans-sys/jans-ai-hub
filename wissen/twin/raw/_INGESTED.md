@@ -2405,3 +2405,50 @@ einzigen zusaetzlichen Aufruf, und die Zeit-Einschraenkung aus Batch 109 traegt 
 mindestens Februar 2026. (5) Gratis-Vorfilter beibehalten. (6) Weiterhin offen: die
 Behoerdenschiene **AfB / Feuerpolizei** — auf Seite 2 lag ein Entwurf an vier AfB-Adressen
 (26.03.2026 14:19), der nach eineinhalb Zeilen abbricht; der Bestand enthaelt die Schiene also.
+
+## Batch 111 (01.09.2026) — `Drafts` Seite 3 von 5 (`offset: 50`)
+
+**Datei:** `260901-mailbatch-111.md` · **Gewichtung:** 4 Gold-Einheiten `authentisch`,
+1 Verdachtsfall · **eingearbeitet:** ja ([[stimme]] Quarantaene-Vorbehalt, [[QUESTIONS]]
+260901 #1–#2)
+
+**Abgedeckt:** `Drafts` Seite 3 (**25 von 124**, `order: oldest`, `offset: 50`, Zeitraum
+**09.04.2026–04.08.2026**). Vorfilter warf 18 von 25 vor dem ersten `read_resource` weg:
+8 Hub-Selbstmails, 4 Claude-Aera-Entwuerfe (ab 24.07., zwei reine Platzhalter-Vorlagen),
+6 Weiterleitungen ohne eigenen Text. 5 Volltexte gelesen, dazu 2 Golds aus dem Zitat-Stack.
+
+**⚠ Ueberschneidung mit einem Schwester-Loop:** Der `twin-fidelity-review` vom **31.08.2026**
+hat aus **demselben Fenster** bereits drei Golds verbraucht und in alle sechs Facetten
+destilliert (Zahlungsmahnung 14.04., Webteam-Mail englisch 05.05., Brandschutz-Prueffrage
+11.05.). Batch 111 hat darum **nicht gedoppelt**, sondern gegengelesen — und dabei einen
+Widerspruch in dessen Ergebnis gefunden (Kernbefund 1). Das Register fuehrt den Verbrauch des
+Fidelity-Laufs ab jetzt mit, damit der naechste Mail-Lauf das Fenster nicht ein drittes Mal
+zieht.
+
+**Verbraucht — nicht erneut destillieren:** Zahlungsmahnung namenlos/Sie 14.04.2026 (Apple
+Mail) · Grundsatzmail an das Webteam englisch 05.05.2026 (Apple Mail, Gewichtung bestritten) ·
+Brandschutz-Prueffrage an den VKF-Experten 11.05.2026 (Zitat-Stack) · Verteiler-Mail mit
+@-Bloecken an acht Empfaenger 02.04.2026 (Zitat-Stack; war ueber `Sent Items` schon
+eingearbeitet) · vier Anrede-Fragmente (05.05., 13.05., 09.04., 22.04.).
+
+**Kernbefunde:** (1) ⭐ **Der Em-Strich im englischen Gold ist quarantaeniert, nicht gelernt** —
+Kontrollgruppe 0 Em-Striche/0 Bullets auf 322 W deutsches Gold gegen 1 + 2 auf 185 W, dazu die
+AI-Paste-Schlussfloskel, der Kontrast zum gebrochenen Englisch an denselben Empfaenger 20 Tage
+frueher und Raphaels Vorgabe «kein Gedankenstrich als Stilmittel»; das Quarantaene-Verfahren
+stand bereits im Artikel und wurde vom Fidelity-Lauf uebergangen. (2) **Die vierte Falle (zwei
+Haende in einem Erzeugnis) gilt auch fuer den englischen Strang.** (3) ⭐ **Die
+Binnengrossschreibung «Bitte/Bitten» am Vollverb ist ein KANAL-Marker, kein Stilmarker** —
+drei Belege, alle mobil getippt; dieselbe Konstruktion in der fertig gesendeten Mail vom
+02.04.2026 dreimal klein. Nicht nachahmen. (4) Erstnennung voller Name → danach Nachname,
+zweiter Beleg. (5) **Die gestaffelte Dreifach-Anrede ist auf den 02.04.2026 vordatiert** —
+frueher als die bisher gefuehrte Belegkette; weiterer unabhaengiger Beleg gegen die
+Nivellier-Zeile in `rules/anrede-kontakte.md` (Entscheid Raphaels offen, kein Rule-Eingriff).
+
+**Betriebsvorfall:** SMB-Mount fiel mitten im Lauf weg, via `ensure-nas-mounted.sh` geheilt
+(rc=0); leerer Rest-Mountpoint `/Volumes/daten-1` bewusst nicht angefasst.
+
+**Naechstes Fenster:** (1) **`Drafts` Seite 4 von 5** (`order: oldest`, `offset: 75`, Bestand
+124). (2) Die zwei reservierten Apple-Mail-Entwuerfe vom 24.03.2026. (3) `rj@` Sent Items ab
+01.09.2026. (4) **Vor dem Ziehen pruefen, welches Fenster der `twin-fidelity-review` zuletzt
+verbraucht hat.** (5) Gratis-Vorfilter und `internetMessageId`-Kanaltrennung beibehalten.
+(6) Weiterhin offen: die Behoerdenschiene **AfB / Feuerpolizei**.

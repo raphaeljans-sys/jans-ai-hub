@@ -4,6 +4,42 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-01 — twin-mail-training Batch 111: Drafts Seite 3; Em-Strich-Marker quarantaeniert
+
+**Quelle:** `Drafts` Seite 3 von 5 (`offset: 50`, 25 von 124, Zeitraum 09.04.–04.08.2026),
+Register `raw/260901-mailbatch-111.md`. Vorfilter warf 18 von 25 vor dem ersten `read_resource`
+weg (8 Hub-Selbstmails, 4 Claude-Aera-Entwuerfe, 6 textlose Weiterleitungen).
+
+**⚠ Fenster-Ueberschneidung:** Der `twin-fidelity-review` vom 31.08. hatte dasselbe Fenster
+bereits verbraucht und seine drei Golds in alle sechs Facetten destilliert. Dieser Lauf hat
+darum **nicht gedoppelt, sondern gegengelesen** — und den Widerspruch unten gefunden. Register
+fuehrt den Fidelity-Verbrauch ab jetzt mit → [[QUESTIONS]] 260901 #2.
+
+**Ein Eingriff, append-only, mit `diff` nachgemessen (0 geloeschte Zeilen, Rule 260811):** in
+[[stimme]] ein Quarantaene-Vorbehalt unter den gestern gesetzten Marker «der Gedankenstrich lebt
+auch englisch in der Mail». Der Satz wird **nicht gelernt**, die uebrigen Marker derselben Mail
+bleiben gueltig. Vier Gruende: Kontrollgruppen-Quote (deutsches Gold desselben Batches 0
+Em-Striche / 0 Bullets auf 322 W gegen 1 + 2 auf 185 W, dazu 2 im Betreff), die im KB-Schema
+gelistete AI-Paste-Schlussfloskel, der Kontrast zum gebrochenen Englisch an **denselben
+Empfaenger** 20 Tage frueher (15.04.2026), und Raphaels stehende Vorgabe «kein Gedankenstrich
+als Stilmittel» (10.06.2026). Das Quarantaene-Verfahren stand bereits im Artikel (Z. 1908,
+Z. 2221) und war uebergangen worden. **Der fremde Befund wurde markiert, nicht geloescht**
+(Rule `wissens-bibliothekar`: Widersprueche markieren statt glaetten).
+
+**Vier weitere Kernbefunde, alle ohne Artikel-Eingriff, weil bereits belegt:** die vierte Falle
+(zwei Haende in einem Erzeugnis) gilt auch englisch · die Binnengrossschreibung «Bitte/Bitten»
+ist ein **Kanal**-Marker (drei Belege, alle mobil; dieselbe Konstruktion in der gesendeten Mail
+vom 02.04. dreimal klein) · Erstnennung voller Name → danach Nachname, zweiter Beleg · die
+gestaffelte Dreifach-Anrede ist auf den **02.04.2026** vordatiert und damit ein frueherer
+unabhaengiger Beleg gegen die Nivellier-Zeile in `rules/anrede-kontakte.md` (Entscheid Raphaels
+offen, kein Rule-Eingriff durch Claude).
+
+**Gehirn unveraendert** — kein `build_dna.py`-Lauf; der einzige Eingriff ist ein Vorbehalt im
+Artikelkoerper, nicht im Do/Don't-Block, und beruehrt die 24-B-Reserve nicht.
+
+**Betrieb:** SMB-Mount fiel mitten im Lauf weg, via `scripts/ensure-nas-mounted.sh` geheilt
+(rc=0); leerer Rest-Mountpoint `/Volumes/daten-1` bewusst nicht angefasst.
+
 ## 2026-08-31 — twin-fidelity-review: Drafts Seite 3, drei Golds; Riegel erstmals durch Verdichten bewegt
 
 **Report:** `outputs/2026-08-31_fidelity.md`. **Gesamt-Fidelity 31** (nach 28 am 30.08.), je
