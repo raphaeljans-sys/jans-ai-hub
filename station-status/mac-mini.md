@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 06:32:19
+Stand: 01.09.2026 06:42:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 06:32:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 39aa96fe8 twin-fidelity-review 260901: Sicherungskopien nach der diff-Pruefung entfernt
+- 139290884 twin-fidelity-review 260901: GitHub-Divergenz (540/267 seit 29.08.) im Report und in QUESTIONS vermerkt
