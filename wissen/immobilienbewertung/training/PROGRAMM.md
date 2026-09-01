@@ -16,20 +16,35 @@
 > diesen Anker laegen rund 370 KB destillierten Materials bis zum 01.09.2026 brach — die Reports
 > sind geschrieben, aber im Wiki ist noch nichts davon angekommen.
 >
-> **⚠ AN DEN LAUF VOM 01.09.2026 — ein Marktpuls ist am 13.08.2026 VORGEZOGEN gelaufen.**
-> Der Task `immobewertung-marktpuls-260901` hat dabei **nicht gefeuert** (er stand und steht auf
-> `fireAt 01.09.2026`, ohne `lastRunAt`) — der Lauf wurde 19 Tage vor dem Stichtag ausgeloest.
-> **Nicht als erledigt betrachten und nicht doppelt fahren:** bereits nachgefuehrt sind UBS SREBI
-> **Q2-2026 = 0.72** (publ. 06.08.2026), BFS-IMPI **Q2-2026 = 127.7** (neu in der KB) und LIK
-> Juli 2026 (Jahresteuerung 0.4 %); alle drei Verfahrensartikel sind geprueft. **Offen geblieben
-> und der eigentliche Auftrag des 01.09.:** (1) die **BWO-Referenzzinssatz-Publikation vom
-> 01.09.2026** samt massgebendem Durchschnittszinssatz per Stichtag 30.06.2026 (letzter Stand
-> **1.31 % per 31.03.2026**, Schwellen 1.13/1.37 %) und (2) die **BFS-Leerwohnungsziffer** zum
-> Stichtag 01.06.2026 (Publikation im September; letzter Stand 01.06.2025 = **1.00 %**). Beide
-> waren am 13.08. schlicht noch nicht publiziert und wurden bewusst **nicht** geschaetzt.
-> Zusaetzlich faellig: SMG-Mietindex Juli/August 2026, SNB-Quartalsheft 3/2026 (~09.2026), und
-> die **SNB-Lagebeurteilung 24.09.2026** liegt NACH dem Stichtag. Voller Bericht:
-> `outputs/2026-08-13_immobewertung-marktpuls-vorgezogen.md`, Details im `CHANGELOG.md`.
+> **✓ DER STICHTAG 01.09.2026 IST EINGELOEST (Lauf vom 01.09.2026).** Der Task
+> `immobewertung-marktpuls-260901` hat an seinem Datum gefeuert und ist damit **verbraucht**.
+> Beschafft und in die Artikel eingearbeitet: **BWO-Publikation 01.09.2026** (Referenzzinssatz
+> **1.25 % unveraendert ab 02.09.2026**, Durchschnittszinssatz **1.31 % per Stichtag
+> 30.06.2026** — der Abwaertstrend ist gestoppt, 6 Bp unter der Erhoehungsschwelle 1.37 %);
+> **SREBI Q2-2026 am UBS-Primaerdokument verifiziert** (Status `established`, vier
+> Perspektiv-Scores, Revisionsgrund, regionale Karte); **SNB-Tagesfeed als neue R10-Quelle**
+> (0.469 % per 31.08.2026, loest den am 23.08. als eingefroren belegten Weg ab); **neuer
+> Abschnitt Leerwohnungsziffer** (ZH 0.52 % per 01.06.2026, **Neubau 3.02 %** → neue
+> Anwendungsregel in `residualwertmethode`). **Offen geblieben, weil am Stichtag nicht
+> publiziert und bewusst nicht geschaetzt:** BFS-Leerwohnungsziffer **Schweiz** und **Kanton
+> SZ** per 01.06.2026, LIK August 2026, SMG-Mietindex August 2026, SNB-Quartalsheft 3/2026.
+> Voller Bericht: `outputs/2026-09-01_immobewertung-marktpuls.md`, Details im `CHANGELOG.md`.
+>
+> **NAECHSTER EREIGNIS-ZEITPUNKT: One-Time-Task `immobewertung-marktpuls-261201`, 01.12.2026,
+> 09:00.** Drei faellige Groessen in einem Fenster: BWO-Publikation 01.12.2026 (Stichtag
+> 30.09.2026 — Leitfrage sind die verbleibenden **6 Basispunkte** zur Erhoehungsschwelle),
+> SNB-Lagebeurteilung 10.12.2026, **BFS-Baupreisindex Dez-2026** aus der Oktober-Erhebung (der
+> einzige Termin des Jahres, an dem `realwert-sachwert.md` nachzufuehren ist). **Uhrzeit 09:00
+> statt 07:00, gemessen:** die BWO publizierte am 01.09.2026 zwischen **07:52 und 08:00** — ein
+> Lauf um 07:00, der nur einmal schaut, verfehlt den Termin. **Zuerst zu holen**, weil dann
+> laengst publiziert: die oben offen gebliebenen Werte. **Nicht erneut zu holen:** BWO-Wert per
+> 30.06.2026, SREBI Q2-2026, IMPI Q2-2026, LIK 07.2026.
+>
+> **⚠ DER GROESSERE RUECKSTAND BLEIBT DER ZWEITE TRIGGER**, nicht der Marktpuls: die
+> Einarbeitung der fuenf Ingest-Reports vom 31.07.2026 (rund 370 KB) in die `wiki/`-Artikel ist
+> seit dem 31.07. offen und wurde von **zwei** Marktpuls-Laeufen in Folge korrekt nicht
+> mitgenommen — ein Ingest dieser Groesse ist kein Anhang an einen Marktpuls. Er braucht einen
+> eigenen Lauf; der Entscheid darueber liegt bei Raphael.
 
 Selbststudium-Loop, der die KB kompoundierend verbessert: aus dem Rohmaterial (`raw/` +
 die IMMO-SharePoint-Ordner) werden laufend bessere Wiki-Artikel — damit zukuenftige

@@ -2,6 +2,105 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-01 (Marktpuls zum Stichtag) — der Termin ist eingelöst, und drei Sackgassen sind aufgelöst
+
+Sieben `wiki/`-Dateien geändert, ein Report. Der One-Time-Task `immobewertung-marktpuls-260901`
+hat an seinem Datum gefeuert; die zwei Werte, wegen derer der Stichtag im Kalender stand, sind
+**beschafft statt geschätzt**.
+
+**1. BWO-Publikation 01.09.2026 (der Kernwert).** Referenzzinssatz **1.25 % unverändert ab
+02.09.2026**, massgebender Durchschnittszinssatz **1.31 % per Stichtag 30.06.2026** —
+Primärabruf 08:00 CEST an der BWO-Seite und der Entwicklungstabelle, nicht über Presse.
+**Inhaltlich mehr als eine Bestätigung:** der Satz ist **nicht weiter gefallen** (1.32 → 1.31 →
+1.31). Die seit dem 12.07.2026 geführte KB-Lesart «Tendenz sinkend, Erhöhungsrisiko sinkt» ist
+**zurückgenommen**; der Abstand zur Erhöhungsschwelle 1.37 % bleibt 6 Bp und ist kleiner als
+jener zur Senkungsschwelle 1.13 % (18 Bp). Das ist keine Trendwende nach oben — zwei gleiche
+Werte sind kein Trend —, aber der Wegfall einer Entwarnung. Konsequenz in `ertragswert-dcf`:
+ein Szenario «Referenzzins sinkt → Mietsenkungsanspruch» ist für 2027 nicht mehr das
+naheliegendere; wer eine Richtung annimmt, weist sie als Annahme aus.
+
+**Beobachtung zum Ablauf, festgehalten weil sie den nächsten Lauf betrifft:** um 07:52 war die
+Publikation noch nicht da, um 08:00 war sie da. Der Task feuert um 07:00. Ein Lauf, der einmal
+beim Start schaut, hätte den Termin um acht Minuten verfehlt — zum zweiten Mal in Folge. Der
+Nachfolge-Task ist deshalb auf **09:00** gelegt.
+
+**2. SREBI Q2-2026 am Primärdokument verifiziert — `emerging` → `established`.** Gelesen wurde
+das UBS-Original (8 S., Holzhey/Skoczek/Saputelli, publ. 06.08.2026 06:00 UTC): «stieg im
+2. Quartal 2026 von 0,62 auf 0,72 Indexpunkte». Alle Begleitzahlen wörtlich bestätigt. Die am
+13.08.2026 notierte Sackgasse «PDF-Primärquelle nicht frei abrufbar» ist **aufgelöst**; der
+Zugangsweg steht in der Registry (JCR-Link der UBS-Indexseite; direkter `curl` → HTTP 403).
+**Drei Dinge stehen nur im Primärdokument:** (a) der **Revisionsgrund** ist belegt — «neue
+Daten zur Wohnbautätigkeit 2025», also über die Perspektive «Umfeld», nicht über die
+Preisreihen; (b) die **vier Perspektiv-Scores** — Fundament **1,81 «erhöht»** (Vq 1,77),
+Dynamik 0,40, Kosten −0,75, Umfeld −0,52, dazu Hypothekarvolumen +3,1 % YoY; (c) die
+**regionale Karte** — **Zürich ist die einzige Grossstadt mit «hohem» Ungleichgewicht**,
+Lausanne «erhöht», Basel/Bern/Genf entspannt. Daraus die Deliverable-Regel: die Aussage
+«Blasenrisiko moderat» darf nicht ohne den Fundament-Score stehen, sonst verschweigt sie die
+Fallhöhe.
+
+**3. Der risikofreie Basiszins ist doch maschinenlesbar — der Kasten vom 23.08.2026 ist
+aufgelöst.** Der Vertiefungslauf hatte belegt, dass die SNB-Datenportal-Würfel `rendoblim` und
+`rendoblid` seit dem 01.09.2025 eingefroren sind, und daraus geschlossen, es gebe keine
+maschinenlesbare Reihe mehr. Gefunden wurde ein **anderer Endpunkt derselben Institution**:
+`snb.ch/public/rss/de/interestRates` trägt die Reihe **R10** täglich, datiert, ohne Login —
+**0.469 % per 31.08.2026** (25.08. 0.442 / 26.08. 0.412 / 27.08. 0.424 / 28.08. 0.443), dazu
+Leitzins 0.00 % und SARON −0.05 %. Damit sind auch die am 20.08.2026 verworfenen undatierten
+Snapshots (~0.42–0.51 %) rehabilitiert: unbrauchbar war ihre Datierung, nicht ihr Wert.
+**Der alte Befund wird nicht widerrufen** — die Würfel wurden heute nicht erneut geprüft. Die
+Lehre ist die dritte ihrer Familie im Hub: ein leeres Ergebnis ist zuerst eine Aussage über das
+**Werkzeug**, nicht über die Quelle. Wirkung auf D3: **keine** — +8 Bp gegenüber dem geführten
+Stand verschieben die Diskontbänder nicht; ein Weiterlaufen über ~0.8 % wäre der Prüfpunkt.
+
+**4. Leerwohnungsziffer 01.06.2026 — neuer Abschnitt, und der Neubau-Wert ist der
+bewertungsrelevanteste Fund des Laufs.** Die gesamtschweizerische BFS-Zahl ist am 01.09.2026
+**noch nicht publiziert** (an der Quelle geprüft, Vorjahr publ. 09.09.2025), der **Kanton
+Zürich** hat am 18.08.2026 publiziert: **0.52 %** (4'189 Whg., Vorjahr 0.48 %), Stadt Zürich
+**0.11 %**, Winterthur 0.20 %, Oberland 0.95 %, Pfannenstiel 0.90 %; über 75 % der leeren
+Wohnungen sind Mietwohnungen. **Entscheidend: Neubauten Baujahr 2024+ stehen bei 3.02 %** —
+dem rund Sechsfachen des Bestandes. Die Residualwertmethode setzt «struktureller Leerstand»
+aus der amtlichen Ziffer an, JANS-Basisfall 1 %; die Ziffer misst aber den **Bestand**, während
+ein Residualwert die **Erstvermietung eines Neubaus** rechnet. Neue Anwendungsregel in
+`residualwertmethode` und als **Nutzungsregel 9** in der Registry: Erstvermietung mit dem
+Neubauwert oder als eigener Vermarktungs-Carry, Dauerzustand mit dem Gemeindewert; Gemeinde
+statt Kanton (ZH spannt 0.11–0.95 %, Faktor neun), Kanton statt Land (CH 1.00 % gegen ZH
+0.48 %, Faktor zwei). Die WP-Bandbreite 1.0–3.5 % selbst wurde **nicht** geändert — geändert
+ist, welcher Wert aus dem Band für welche Phase gilt.
+
+**5. Langfrist-Inflationsanker ~1.0 % bestätigt — und die Begründung ist jetzt belegt.** Der
+13.08.-Entscheid stützte sich auf die Annahme, der Teuerungsrückgang sei energiegetrieben und
+reversibel. Comparis weist per Datenstand Juli 2026 (Mitteilung 20.08.2026) **Heizöl +31 %
+YoY** und «Energie zum Heizen» +3,7 % MoM aus — die Komponente dreht bereits wieder nach oben.
+Eine Senkung auf 0.7–0.8 % im August wäre nach vier Wochen zu revidieren gewesen. Der Fall ist
+der Beleg für die Regel: ein Langfrist-Anker wird an Quartalen gemessen, nicht an Monaten.
+
+**Alle vier Verfahrensartikel geprüft:** `ertragswert-dcf`, `vergleichswert-hedonisch`,
+`residualwertmethode` geändert; **`realwert-sachwert` geprüft, keine Änderung nötig** — mit
+Begründung je aktualisierter Grösse vermerkt, nicht still übersprungen (Baupreisindex April
+2026 = 100.6 unverändert, nächster Anlass Dez-2026).
+
+**Nicht getan und ausgewiesen:** BFS-Leerwohnungsziffer CH und SZ, LIK August, SMG-Mietindex
+August, SNB-Quartalsheft 3/2026 — alle am Stichtag nicht publiziert, keiner geschätzt. Wüest
+Partner Immo-Monitoring Herbst 2026 gesucht und **nicht gefunden**; der einzige Treffer mit
+passender Überschrift erwies sich beim Öffnen als Artikel vom **01.11.2021** und wurde
+verworfen. Bring-Schulden D1/D2/D5/D10/D12/D13/D14/D15/D16/D17 unverändert offen. Der zweite
+Ereignis-Trigger (Ingest-Reports vom 31.07.2026, rund 370 KB) **erneut nicht angefasst** und
+damit seit 32 Tagen offen — er braucht einen eigenen Lauf, Vorschlag im Report.
+
+**Nächster Trigger:** One-Time-Task `immobewertung-marktpuls-261201`, **01.12.2026, 09:00** —
+BWO-Publikation (Stichtag 30.09.2026, Leitfrage: die verbleibenden 6 Bp zur Erhöhungsschwelle),
+SNB-Lagebeurteilung 10.12.2026, BFS-Baupreisindex Dez-2026 (der einzige Jahrestermin für
+`realwert-sachwert`). **Der tägliche Takt bleibt aus** (`immobewertung-training` weiterhin
+`enabled: false`) — das bleibt Raphaels Entscheid.
+
+**Betriebsbefund (kein KB-Inhalt, aber für den nächsten Lauf):** der NAS-Mount fiel im Lauf
+viermal aus; beim vierten Mal blieb `/Volumes/daten` leer, während dieselbe Freigabe unter
+`/Volumes/daten-2` erreichbar war (Doppelmount LAN + Tailscale, verwaiste Mountpoints). Der
+Guard `ensure-nas-mounted.sh` prüft nur `/Volumes/daten` und hätte einen headless-Lauf
+abgebrochen, obwohl die Freigabe erreichbar war. Aufräumen und Guard-Fallback sind Raphael
+vorgelegt, nicht selbst ausgeführt (Rule `interaktive-eingriffe`).
+
+Report: `outputs/2026-09-01_immobewertung-marktpuls.md`
+
 ## 2026-08-29 (Wissens-Chef Run 47) — EBF-Navigationshinweis gesetzt
 
 `wiki/flaechendefinitionen-sia.md` (+1/−1). Der Artikel routete die EBF ausschliesslich auf «SIA 380/1 /
