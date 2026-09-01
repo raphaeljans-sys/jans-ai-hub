@@ -101,7 +101,7 @@ AHB-Honorarvertrag weiterhin bindend.
 ⚠ **KORREKTUR 23.08.2026 (`normen`, SIA-Sweep, elfte Fortsetzung) — die oben zitierte Nachfolgenorm
 SIA 380:2015 ist selbst seit 31.10.2022 archiviert.** Aktuell gültig ist **SIA 380:2022**
 «Grundlagen für energetische Berechnungen von Gebäuden», gültig ab 01.11.2022 (Produktseite
-`shop.sia.ch/normenwerk/architekt/380_2022_d`, abgerufen 23.08.2026: «die 2015er-Version ist
+`shop.sia.ch/normenwerk/architekt/380_2022_d/D/Product`, abgerufen 23.08.2026, Adressform korrigiert 01.09.2026: «die 2015er-Version ist
 archiviert, gültig bis 31.10.2022»). Die Bring-Schuld `N57-2` zielt jetzt auf SIA 380:2022; ob
 diese den 1,0-m-Wert unverändert führt, bleibt ebenso ungeprüft wie zuvor bei 2015. Bei
 Doppelfassaden/hinterlüfteten Fassaden mit Luftraum >10 cm gilt die **innere** Begrenzung des
