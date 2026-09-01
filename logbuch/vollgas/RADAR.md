@@ -53,6 +53,63 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-01 12:57 — [FREI] **P1 praezisiert: es sind nicht 571 Commits, die ein Urteil brauchen, sondern EINER. Der Selfcommit-Rebase scheitert seit dem 29.08. 21:51 in 660 Versuchen ausnahmslos am Commit `1eed7118c` (Normen CHANGELOG); alles andere ist Folgeschaden. GitHub steht damit seit 31 Stunden still. Der Lauf selbst war sauber: Fenster frei in 7 s, Kontingent 4.8 %, vier Loops mit Liefer-Delta.**
+
+**Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **12:57** (2026-09-01T10:57:19Z), letzter Eintrag **01.09. 00:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h. Zweiter Ausfalltyp nicht zu pruefen, kein Lauf fehlt.
+
+**Fenster FREI in 7 Sekunden, PATH-Probe zum siebten Mal in Folge nicht versucht.** Der Symlink `/opt/homebrew/bin/claude` zeigt unveraendert seit **29.08. 05:15** auf die gewedgte **2.1.236**; Homebrew hat in **fuenf Tagen** nichts nachgeliefert (die frueheren Wedges dauerten zwei bzw. drei Tage). Die app-gebuendelte **2.1.247** antwortete mit «OK», **rc=0, 7 s** — der schnellste Messwert der ganzen Reihe. Zur Einordnung der Latenz-Reihe, die im Auftrag mitgefuehrt wird: 39 s · 76 s · >120 s · 8 s · 7 s · 98 s · 82 s · **7 s**. Sie schwankt weiterhin um den Faktor 14 und zeigt keinen Trend; die Untergrenze von 180 s bleibt richtig, ein Befund-Lauf zur Ursache ist nicht faellig. Die Empfehlung vom 30.08. (Probe fest auf die App-CLI umstellen) steht im siebten Lauf unveraendert — Entscheid Raphael, ich editiere die laufende Task-Datei nicht selbst.
+
+**Kontingent FREI, Verbrauch klar hinter dem Zeitverlauf.** `kontingent-budget.sh`: **7.97 von 167 Mio teuer (4.8 %)** bei **14.9 %** verstrichener Woche, Vorsprung **−10.1 Punkte**, beide Stationsdateien frisch (MacBook Pro 6.67 Mio, Mac Mini 1.30 Mio). Keine Drossel ausgeloest, keine zurueckzudrehen; Schritt 2c bleibt unberuehrt. Der Abstand zum Zeitverlauf hat sich gegenueber dem Vorlauf verdoppelt (−5.4 → −10.1) und liegt damit in derselben Richtung wie die abgelaufene Woche, die mit 25 ungenutzten Mio endete.
+
+### P1 — der Sync-Bruch hat genau eine Ursache, und sie ist benennbar
+
+Die bisherigen Eintraege beschrieben den Befund als «zwei divergente Historien, deren Vereinigung ein Urteil ueber fremde Arbeit verlangt». Das war richtig, aber zu grob. Der native Selfcommit-Log auf der Synology (`sync-tasks/log/selfcommit-202609.log`) benennt die Ursache zeilengenau:
+
+| Messung | Wert |
+|---|---|
+| Erster gescheiterter Abgleich | **29.08. 21:51**, Versuch 1, Divergenz **1** |
+| Gescheiterte Versuche seither | **660** (75 davon im September) |
+| Immer derselbe Konflikt-Commit | **`1eed7118c`**, 29.08. 22:06, «Normen CHANGELOG: Run 74+75 …» |
+| Divergenz jetzt | **571 lokal / 267 remote** |
+
+**Jeder der 660 Versuche scheitert an demselben einen Commit.** Der Selfcommit versucht alle 15 Minuten `rebase`, bleibt bei `1eed7118c` haengen, versucht `merge`, scheitert ebenfalls, bricht sauber ab — und der naechste Selfcommit legt einen weiteren lokalen Commit obendrauf. Die Zahl links waechst also nicht, weil immer neue Konflikte entstehen, sondern weil **ein einziger ungeloester Konflikt seit sechs Tagen die ganze Kette staut**. Die 571 Commits sind Folgeschaden, nicht Ursache.
+
+Damit ist der Aufwand fuer die Behebung ein anderer als bisher angenommen: es geht um die Aufloesung **eines** Konflikts in `wissen/normen/CHANGELOG.md` — einer append-at-top-Datei, bei der beide Seiten oben eine Zeile ergaenzt haben. Das bleibt ein Urteil ueber fremde Arbeit und damit ausserhalb dessen, was Rule `interaktive-eingriffe` einem unbeaufsichtigten Lauf erlaubt; aber es ist kein Grossvorhaben, sondern eine Handreichung von wenigen Minuten.
+
+**Zustand des NAS-Repos ist dabei sauber**, nativ gegengemessen: kein `MERGE_HEAD`, **null** unmergte Dateien, Kopf `ea7eec11e` (01.09. 12:45). Das Abbruch-Verhalten des Scripts funktioniert; es hinterlaesst keinen Rebase-Rest. Der Commit-Weg arbeitet ungestoert weiter — allein der Push nach GitHub kommt nicht durch.
+
+**Sicherungslage unveraendert kritisch.** GitHub `origin/main` und der SSD-Klon MacBook Pro stehen beide auf `66df04125` vom **31.08. 06:12**, der Klon exakt gleichauf mit GitHub (0/0). Die gesamte Arbeit seit **31 Stunden** — darunter twin-Batch 111, der Immobewertungs-Marktpuls und die Wartung `planungsgrundlagen` — existiert an genau einem Ort. **Befund B6** der Laufzeitschicht-Spec (`docs/konzepte/260830-Laufzeitschicht-Umbau/SPEC.md`, `dispatch-run.sh` Zeile 33 pinnt das Arbeitsverzeichnis auf den SSD-Klon) bleibt die strukturelle Ursache: wer nur den Konflikt aufloest, hat die Divergenz in Tagen erneut.
+
+### Liefer-Delta: vier Loops haben geliefert, ein Delta-Null-Lauf ist zu beobachten
+
+Ueber git gemessen (Basis 12 h, nativ auf der Synology, nicht `find -newermt`): **62 Commits**, in `wissen/` geaendert — **twin 11**, **immobilienbewertung 11**, **planungsgrundlagen 5**, **spec 3**, **architekten-synobsis 2**.
+
+| Loop | Lauf | Delta |
+|---|---|---|
+| `twin-mail-training` | 01:40 | Mailbatch 111 ingestiert, alle sechs Facetten-Wikis fortgeschrieben, QUESTIONS |
+| `twin-fidelity-review` | 03:45 | Fidelity-Report 01.09., Drift-Messung |
+| `immobewertung-marktpuls-260901` | 05:00 | Marktpuls zum Stichtag, 7 Wiki-Artikel plus Datenquellen-Registry und Wissensluecken |
+| `planungsgrundlagen-wartung` | 02:19 | Wartungsreport 03, Endpunkt-Check, zwei Wiki-Artikel |
+
+Der Marktpuls verdient eine Anmerkung: **der Ereignis-Trigger hat funktioniert, wie er gedacht war.** Der Loop `immobewertung-training` ist seit dem 26.07. bewusst auf `enabled: false`, und statt eines Zeittakts feuerte der One-Time-Task zum Stichtag 01.09. — mit dem groessten Einzel-Delta des Fensters. Der Nachfolger `immobewertung-marktpuls-261201` steht scharf fuer den 01.12. Kein Handlungsbedarf, aber ein sauberer Gegenbeleg zur Annahme, stillgelegte Loops lieferten nichts mehr.
+
+**Ein Delta-Null-Lauf, Zaehlstand 1 von 3:** `normen-training-nacht` feuerte um **01:28** (`lastRunAt` bestaetigt), die letzte Aenderung in `wissen/normen` datiert dagegen vom **31.08. 22:45**. Das Fenster war frei und das Kontingent bei unter 5 %, der Lauf durfte also arbeiten — es ist kein blockierter Lauf und damit ein echter Delta-Null. **Noch keine Ruecktakt-Empfehlung** (die Schwelle liegt bei drei Laeufen in Folge); der Vorlauf konnte den Loop nicht bewerten, weil er im gemessenen Fenster gar nicht gefeuert hatte. Naechster Radar-Lauf zaehlt weiter. Anzumerken ist, dass der Konflikt-Commit, an dem die ganze Sync-Kette haengt, ausgerechnet aus derselben KB stammt — ein Zusammenhang ist damit nicht belegt, aber beim naechsten Delta-Null in `normen` mitzudenken.
+
+**Schub-Lanes: unveraendert still und geordnet.** `fachwissen` seit 31.08. 11:02 («Frist erreicht — beende»), `synobsis` 30.08. 08:22, `normen-pruefstand` / `baurecht-thalwil` / `grobkosten` seit 30.08. 01:1x mit regulaerem «SCHUB ENDE». Kein `vollgas-schub`-Prozess auf beiden Stationen.
+
+**Feuermechanismen, alle drei Orte geprueft.** MacBook Pro: kein vollgas-/nachtschicht-Job geladen, beide `*.disabled-260729`-plists unberuehrt, **keine** `claude -p`-Waise. Mac Mini: `ch.jans.nachtschicht` geladen, `ch.jans.vollgas-supervisor.plist.disabled-260729` unberuehrt, kein Prozess. Mini-Registry vollstaendig mit den **acht** Sollstand-Tasks (arbeits-weiche-review, baurecht-buch-training, claude-abo-auslastung, energie-training, grobkosten-training, normen-training-mini, planungsgrundlagen-training, synobsis-batch-nacht). Beide STOP-Dateien unveraendert seit **29.07. 02:51**. **Der stehende Entscheid vom 30.07.2026 ist gewahrt.**
+
+**Speicher:** `kern.memorystatus_vm_pressure_level` = **1** (normal, im Vorlauf noch 2), verfuegbar rund **5.6 GB** (free 4'393 + inactive 335'372 Pages a 16 kB). Nach vm_stat gemessen, nicht ueber top oder ps-RSS. Kein Eingriff.
+
+### Prioritaeten
+
+- **P1 — den einen Konflikt aufloesen, dann B6 beheben.** `1eed7118c` in `wissen/normen/CHANGELOG.md`, beide Seiten haben oben angefuegt; die Aufloesung ist mechanisch einfach, aber ein Urteil ueber fremde Arbeit und damit Raphaels Entscheid. Danach faellt die Divergenz in einem Zug, und die 571 Commits erreichen GitHub. Ohne die anschliessende Behebung von **B6** kehrt der Stau in Tagen wieder.
+- **P2 — Probe fest auf die app-gebuendelte CLI umstellen.** Siebter Lauf in Folge, in dem der dokumentierte Pflichtweg der Task nicht der tatsaechlich benutzte ist; Homebrew liefert seit fuenf Tagen nichts nach. Ein Zweizeiler in der Task-Datei; ich editiere sie auftragsgemaess nicht selbst.
+- **P3 — `normen-training-nacht` im naechsten Lauf gegenpruefen** (Zaehlstand 1 von 3) und `/Volumes/daten-1` abraeumen (braucht sudo, damit Raphael).
+
+**Keine Mail.** Kein geloester P1, kein erschoepftes Wochenkontingent. Der Sync-Befund ist derselbe Vorgang, fuer den eine Wiederholungsmail seit dem 30.08. ausdruecklich ausgeschlossen ist — neu ist seine Praezisierung, nicht sein Bestehen. Er erreicht Raphael morgen um 06:55 ueber das Fristen-Register und um 08:39 im Tagesbriefing des Hub-Chefs; der Nachtrag im Register ist gesetzt und nennt neu den konkreten Konflikt-Commit. **Regellauf schlank gehalten:** keine Delegation, Messungen inline und parallel, rund 14 Werkzeugaufrufe; die drei Zusatzaufrufe gingen an den Selfcommit-Log, also an genau den einen Befund, fuer den der Auftrag eine Tiefenpruefung vorsieht.
+
+---
 ## 2026-09-01 00:57 — [FREI] **P1 ESKALIERT: die Sicherungskette hat seit 19 Stunden gar nichts mehr erhalten. GitHub-Kopf und BEIDE SSD-Klone stehen auf demselben Commit vom 31.08. 06:12, waehrend die Synology auf 510 nicht gesicherte Commits angewachsen ist. Die Nacht selbst lief einwandfrei: Fenster frei, Kontingent bei 2.4 %, vier Loops mit echtem Liefer-Delta, kein Leerlauf.**
 
 **Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **00:57** (2026-08-31T22:57:48Z), letzter Eintrag **31.08. 12:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h. Zweiter Ausfalltyp nicht zu pruefen, kein Lauf fehlt.

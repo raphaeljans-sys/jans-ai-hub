@@ -5010,3 +5010,22 @@ nicht** — sein Git-Check misst den SSD-Klon («Clean, Branch main») und sagt 
 Push-Stand des NAS-Repos; gefunden wurde sie auch heute nur ueber den Abschluss-Commit. Das ist
 dieselbe Luecke wie beim Tailscale-Check vor dem 28.08.: ein gruener Statuszeile deckt einen
 ungemessenen Zustand zu. Nicht selbst aufgeloest, unveraendert aus denselben Gruenden.
+
+**Nachtrag 01.09.2026 12:57 (vollgas-chef-radar) — DIE URSACHE IST EIN EINZIGER COMMIT, nicht
+die Commit-Menge.** Der native Selfcommit-Log auf der Synology
+(`sync-tasks/log/selfcommit-202609.log`, gelesen per ssh) benennt sie zeilengenau: **seit dem
+29.08. 21:51 sind 660 Abgleichversuche gescheitert** (Versuch 1 lief noch bei Divergenz **1**),
+und **jeder einzelne scheitert an demselben Commit `1eed7118c`** vom 29.08. 22:06, «Normen
+CHANGELOG: Run 74+75 …». Der Ablauf ist immer gleich: `rebase` bleibt bei `1eed7118c` haengen,
+`merge` scheitert ebenfalls, das Script bricht sauber ab, und der naechste 15-Min-Selfcommit
+legt einen weiteren lokalen Commit obendrauf. **Die 571 Commits (Stand 12:45) sind Folgeschaden
+eines einzigen ungeloesten Konflikts, nicht 571 einzelne Urteile.** Damit ist der Behebungsaufwand
+ein anderer als bisher angenommen: aufzuloesen ist EIN Konflikt in `wissen/normen/CHANGELOG.md`,
+einer append-at-top-Datei, bei der beide Seiten oben eine Zeile ergaenzt haben — mechanisch
+einfach, aber ein Urteil ueber fremde Arbeit und deshalb Raphaels Entscheid (Rule
+`interaktive-eingriffe`). **Sechste Bestaetigung des rc-Befunds:** NAS-Kopf `ea7eec11e` (12:45),
+kein `MERGE_HEAD`, null unmergte Dateien — der Commit-Weg arbeitet ungestoert, allein der Push
+kommt nicht durch. GitHub und der SSD-Klon MacBook Pro stehen beide auf `66df04125` vom 31.08.
+06:12 (exakt gleichauf, 0/0); die Arbeit der letzten **31 Stunden** existiert an einem Ort.
+Nach der Konfliktaufloesung bleibt **Befund B6** (`docs/konzepte/260830-Laufzeitschicht-Umbau/SPEC.md`,
+`dispatch-run.sh` Zeile 33) zu beheben, sonst kehrt der Stau in Tagen wieder.
