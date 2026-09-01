@@ -75,6 +75,43 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## Erledigt
 
+- ✓ 2026-09-01 **Marktpuls ZUM STICHTAG — der Termin ist eingeloest.** Der One-Time-Task
+  `immobewertung-marktpuls-260901` hat an seinem Datum gefeuert; die beiden Werte, wegen derer
+  der Stichtag gewaehlt wurde, sind **beschafft statt geschaetzt**:
+  **(1) BWO-Publikation 01.09.2026** — Referenzzinssatz **1.25 % unveraendert ab 02.09.2026**,
+  massgebender Durchschnittszinssatz **1.31 % per Stichtag 30.06.2026**. Primaerabruf um
+  08:00 CEST; die Publikation erschien **waehrend des Laufs** (07:52 noch nicht da, 08:00 da) und
+  wurde direkt an der BWO-Seite und der Entwicklungstabelle gelesen, nicht ueber Presse.
+  **Inhaltlich mehr als eine Bestaetigung:** der Durchschnittszinssatz ist **nicht weiter
+  gefallen** (1.32 → 1.31 → 1.31); die seit dem 12.07.2026 gefuehrte KB-Lesart «Tendenz sinkend,
+  Erhoehungsrisiko sinkt» ist **zurueckgenommen** — der Abstand zur Erhoehungsschwelle 1.37 %
+  bleibt 6 Bp und ist kleiner als jener zur Senkungsschwelle 1.13 % (18 Bp).
+  **(2) Leerwohnungsziffer 01.06.2026** — gesamtschweizerisch am 01.09.2026 **noch nicht
+  publiziert** (BFS, Vorjahr publ. 09.09.2025), aber der **Kanton Zuerich hat am 18.08.2026
+  publiziert**: **0.52 %** (4'189 Whg., Vorjahr 0.48 %), Stadt Zuerich 0.11 %, und — der
+  bewertungsrelevanteste Wert des Laufs — **Neubauten Baujahr 2024+ 3.02 %**. Der CH-Wert wurde
+  **nicht** aus Kantonswerten hochgerechnet und bleibt offen; **Kanton Schwyz** ebenfalls (im
+  kantonalen Datenportal am 01.09.2026 noch nicht eingestellt, letzter Stand 2025 = 0.52 %).
+  **Drei weitere Ergebnisse:** **(a)** der **SREBI Q2-2026 ist am UBS-Primaerdokument
+  verifiziert** (PDF, publ. 06.08.2026 06:00 UTC) — 0.72 von 0.62 bestaetigt, Status
+  `emerging` → **`established`**, samt Perspektiv-Scores (Fundament **1.81 «erhoeht»**), dem
+  belegten Revisionsgrund («neue Daten zur Wohnbautaetigkeit 2025») und der regionalen Karte
+  (**Zuerich einzige Grossstadt mit «hohem» Ungleichgewicht**). Die am 13.08.2026 notierte
+  Sackgasse «PDF-Primaerquelle nicht frei abrufbar» ist damit **aufgeloest** (Zugangsweg in
+  [[datenquellen-registry]]). **(b)** Der am 23.08.2026 als eingefroren belegte Weg zum
+  **risikofreien Basiszins** ist ersetzt: der **SNB-Tagesfeed** liefert R10 amtlich und datiert,
+  **0.469 % per 31.08.2026** (vorher 0.39 % Mitte Juni aus dem Quartalsheft). Der alte Befund
+  wird nicht widerrufen — die Datenportal-Wuerfel wurden nicht erneut geprueft; gefunden ist ein
+  **anderer Endpunkt derselben Institution**. **(c)** Neue Anwendungsregel in
+  [[residualwertmethode]]: der **Bestandes-Leerstand ist fuer die Erstvermietung eines Neubaus
+  der falsche Anker** (ZH 0.52 % gegen 3.02 %); als Nutzungsregel 9 in der Registry gespiegelt.
+  **Alle vier Verfahrensartikel geprueft:** [[ertragswert-dcf]] (geaendert), [[vergleichswert-hedonisch]]
+  (geaendert), [[residualwertmethode]] (geaendert), [[realwert-sachwert]] (**geprueft, keine
+  Aenderung** — haengt am Baupreisindex, naechster Anlass Dez-2026; Pruefvermerk mit Begruendung
+  gesetzt). **Bring-Schulden D1/D2/D5/D10/D12/D13/D14/D15/D16/D17 unveraendert offen** — keine
+  wurde durch einen Schaetzwert ersetzt. Report:
+  `outputs/2026-09-01_immobewertung-marktpuls.md`.
+
 - ✓ 2026-08-13 **Marktpuls VORGEZOGEN (19 Tage vor dem Stichtag 01.09.2026), erster
   Nicht-Delta-Null-Lauf seit Run 51.** Der One-Time-Task `immobewertung-marktpuls-260901` ist
   dabei **nicht verbraucht** — er stand und steht auf `fireAt 01.09.2026` und hat nie gefeuert;

@@ -1,7 +1,7 @@
 ---
 title: Realwert / Sachwert — Bodenwert plus Gebaeude-Zeitwert
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-09-01 (Marktpuls Stichtag: geprueft, keine Aenderung noetig — Pruefvermerk mit Begruendung ergaenzt)
 sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte (`_Kennwerte Jans.docx` R. Jans 25.03.2025 — JANS-Erstellungskosten-Kennwert Wohnen EFH/ZFH indexiert 2'900→3'365 BKP2 / 4'485 BKP1-5 CHF/m2 GF + Thalwil-Bohlweg-Rechenbeispiel + HNF-Faktor 7'350, D8, Run 16; Healthcare `Spektrumskosten.docx`/`Umbaukosten 500K.docx`/`Umbaukosten_CHF_2500K.docx` R. Jans 2025 — Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle, Run 16), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), JANS 8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, R. Jans — 8 CH-Heime 2011-2025: BKP-2-Kennwerte CHF/m2-GF/m3-GV/PZ + Teuerungsbereinigung Index-115, Run 14 2026-07-06), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web), Zuercher Index der Wohnbaupreise 1939-2025 (Stadt Zuerich Statistik, Publikationsstand 01.01.2026, via hev-sz.ch, Run 31 — Volltext gegengelesen 23.08.2026), Statistik Stadt Zuerich «Methodenbericht Revision 2025 — Zuercher Index der Wohnbaupreise» (Juni 2026, PDF 2026-07-07, Volltext, Vertiefungslauf 2), Statistik Stadt Zuerich ZIW-Indextabelle Stichtag 01.04.2026 (Basis Okt-2025=100, publ. 08.07.2026, abgerufen 23.08.2026), BFS Baupreisindex Hauptresultate nach Bauwerksart April 2026 (Basis Okt-2025=100, abgerufen 23.08.2026)]
 links: [[bewertungsverfahren-ueberblick]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[datenquellen-registry]], [[residualwertmethode]]
 ---
@@ -780,6 +780,26 @@ Instandsetzungskosten decken koennen.
 
 - Selbstgenutzte EFH (Sachwertanteil), Spezialimmobilien ohne Mietmarkt, Versicherungswert.
 - Bei Renditeobjekten dient er als **Plausibilisierung** des Ertragswerts, fuehrt selten.
+
+## Marktpuls-Pruefvermerke (keine Aenderung noetig)
+
+- **13.08.2026 — geprueft, keine Aenderung.** SREBI und IMPI sind **Preis**reihen fuer
+  Wohneigentum und treffen den Vergleichswert, nicht die Erstellungskosten; der LIK ist der
+  **Konsumenten**preisindex und nicht der Baupreisindex.
+- **01.09.2026 (Marktpuls zum Stichtag) — geprueft, keine Aenderung.** Ausdruecklich vermerkt
+  und nicht still uebersprungen. Die vier an diesem Tag aktualisierten Groessen beruehren den
+  Realwert nicht:
+  - **BWO-Referenzzinssatz 1.25 % / Durchschnittszinssatz 1.31 %** — wirkt auf Bestandesmieten
+    und damit auf den Ertragswert ([[ertragswert-dcf]]), nicht auf die Erstellungskosten.
+  - **SREBI Q2-2026 und die Perspektiv-Scores** — Preis- und Risikoreihe, kein Kostenanker.
+  - **SNB R10 0.469 %** — Diskontierungsgroesse, im Realwert nicht verwendet.
+  - **Leerwohnungsziffer** — Nachfrage-/Anspannungsmass, kein Kostenanker.
+  Die fuer den Realwert massgebenden Anker sind **unveraendert**: BFS-Baupreisindex **April 2026
+  = 100.6** (Basis Okt-2025 = 100; halbjaehrliche Erhebung, naechste Erhebung 01.10.2026,
+  Publikation **Dez-2026**) und die ZIW-Reihe der Stadt Zuerich (Publikationsstand 01.01.2026).
+  **Naechster Anlass zur Nachfuehrung dieses Artikels bleibt Dez-2026.** Beim Indexieren gilt
+  unveraendert Nutzungsregel 7 der [[datenquellen-registry]]: je Bauwerksart, nie mit dem
+  Totalwert.
 
 ## Offen / zu vertiefen
 

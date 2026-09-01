@@ -1,7 +1,7 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-08-23 (Vertiefungslauf 10: SNB-Renditenreihe als eingefroren belegt, Fallback und naechster Termin benannt)
+last_updated: 2026-09-01 (Marktpuls Stichtag: SNB-Tagesfeed als R10-Quelle gefunden und Kasten aufgeloest, R10 0.469 % per 31.08.2026; Inflations-Langfristanker bestaetigt und belegt; Referenzzins-Szenario nach BWO-Publikation praezisiert)
 sources: [Crivelli/Filippini/Lunati 2001 «Effizienz der Pflegeheime in der Schweiz» (SECO/USI Lugano, 835 Heime — Skalenertraege/optimale Betriebsgroesse 70-80 Betten, Median 52/Ø 62, Run 14 2026-07-06), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung (231231_Residualwert und Diskontierung.docx, R. Jans 31.12.2023 — Diskontsatz-Dekomposition 2.0+0.5 %, Betriebskosten-Pauschale 5x0.5 %, Rechenkaskade + Abzinsungsformel, Run 10; Disskontierung.docx — Healthcare-Diskontsatz-Anker 4-8 %, Run 10), IMMO-03 Residualwert (Kursnotizen IMG_7064-67, Run 10), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Annuitaets-Finanzierungsmodell CURAVIVA 33 J / BWO-Referenzzins 1.25 %, Hotellerie-Taxe, KVG-Restfinanzierung; ARTISET Betriebswirtschaftliche Instrumente KVG 17.04.2023 — KoRe-Kostentraeger LZP/ToNs/AUEP, Run 12; SenioResidenz AG Geschaeftsbericht 2017 19.02.2018 — Healthcare-Investoren-Fall impl. Brutto-Yield ~5.3 %, WP-DCF-Bewertung, Finanzierungsstruktur, Run 13; BFS «Indikatoren der Pflegeheime 2019-2021» Mai 2023 BFS-Nr. 1552-2100 — Beherbergungskosten 10'035 CHF/Mt, Ertrags-/Finanzierungsstruktur, Belegung/Defizitquote, Run 13; NZZ/Curaviva Pflegekosten 13.11.2023 — Kostenstruktur Pension/KVG-Pflege/Betreuung, Run 13), IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.24-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9/11; WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026) — Gewerbe-Feinabstufung D3-Rest Run 13]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]], [[flaechendefinitionen-sia]]
 ---
@@ -322,6 +322,31 @@ dieselbe Erdoel-Mechanik, die im Mai nach oben wirkte. Ein Langfrist-Anker, der 
 Monatsausschlag folgt, ist keiner. Erst ein **anhaltend** tieferes Niveau ueber mehrere
 Quartale — oder eine gesenkte SNB-Inflationsprognose — rechtfertigt eine Absenkung Richtung
 0.7-0.8 %; dann waere der nominale Diskont Wohnen entsprechend ~2.8-4.0 %.
+
+✓ **Bestaetigt am 01.09.2026 (Marktpuls) — und die Begruendung ist jetzt belegt statt vermutet.**
+Der Entscheid vom 13.08.2026 stuetzte sich auf die Annahme, der Teuerungsrueckgang sei
+energiegetrieben und damit reversibel. Genau das ist inzwischen an der Preisseite messbar:
+comparis.ch weist per **Datenstand Juli 2026** (Medienmitteilung 20.08.2026) **Heizoel rund
+31 % teurer als vor einem Jahr** aus, «Energie zum Heizen» **+3.7 % gegenueber Juni 2026**.
+Die Energiekomponente, die die Jahresteuerung von 0.6 % auf 0.4 % gedrueckt hat, dreht also
+bereits wieder nach oben. **Der Langfrist-Anker ~1.0 % bleibt unveraendert stehen** — haette man
+ihn im August auf 0.7-0.8 % gesenkt, waere die Senkung nach vier Wochen zu revidieren gewesen.
+Das ist der Beleg fuer die Regel selbst, nicht nur fuer den Einzelfall: **ein Langfrist-Anker
+wird an Quartalen gemessen, nicht an Monaten.** Der naechste Pruefpunkt bleibt eine ueber
+mehrere Quartale anhaltend tiefere Teuerung oder eine gesenkte SNB-Prognose
+(Lagebeurteilung **24.09.2026**). Quelle: comparis.ch AG, Medienmitteilung 20.08.2026
+(Datenstand LIK Juli 2026); LIK-Reihe siehe [[investorenmarkt-makro]].
+
+**Referenzzinssatz-Szenario in der Mietprognose — praeziser gefasst (01.09.2026).** Die
+BWO-Publikation vom 01.09.2026 haelt den Referenzzinssatz bei **1.25 %** und den massgebenden
+Durchschnittszinssatz bei **1.31 % per Stichtag 30.06.2026** — **unveraendert** gegenueber dem
+31.03.2026. Damit ist der bisher unterstellte Abwaertstrend gestoppt. Fuer die DCF-Mietprognose
+auf Bestandesobjekten heisst das: ein Szenario «Referenzzins sinkt → Mietsenkungsanspruch der
+Mieterschaft» ist fuer 2027 **nicht mehr das naheliegendere**; der Abstand zur
+Erhoehungsschwelle 1.37 % (6 Bp) ist kleiner als jener zur Senkungsschwelle 1.13 % (18 Bp).
+**Beide Richtungen offen halten oder die gewaehlte Richtung ausdruecklich als Annahme
+ausweisen** — nicht stillschweigend die eine unterstellen. Naechste BWO-Publikation
+**01.12.2026** (Stichtag 30.09.2026). Detail und Quelle: [[investorenmarkt-makro]].
 
 ⚠ **Anwendungs-Leitplanke (Sensitivitaet):** **−20 Bps Diskont → Marktwert +16 %** (S. 62).
 Die Satzwahl ist die heikelste Annahme — im Band bleiben, nie scheingenau auf 1 Bp, und die

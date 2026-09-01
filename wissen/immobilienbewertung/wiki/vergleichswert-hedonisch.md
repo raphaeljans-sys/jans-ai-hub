@@ -1,7 +1,7 @@
 ---
 title: Vergleichswert / hedonische Bewertung
 status: established
-last_updated: 2026-08-13
+last_updated: 2026-09-01 (Marktpuls Stichtag: Leerwohnungsziffer und UBS-Fundament-Score als Korrektive zum Punktwert aufgenommen)
 sources: [IMMO-03 Hedonistische_Berechnungsweise (WP Standortinformation Beispiel-Report Langenthal, 21.06.2023), IMMO-02 UBS Real Estate Fact Sheets (Glossar 12/2023), IMMO-01 MA Marktwertanalyse-Projekte (Thalwil 9568 MA 241126: Bauland Mittel/Top → Marktwert-Synthese), Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64), Web-Recherche Hedonik-Modellfamilie CH (UBS/IAZI/bestag/HEV, Stand 06.2026), LB Langnau Giebelweg 12 (260603) — Bestand-vs-Abbruch-Entscheidlogik Run 6, BFS/EDI Wohnimmobilienpreisindex IMPI Q2-2026 (publ. 30.07.2026: 127.7 Punkte, Q4-2019=100, +0.7 % QoQ, +3.5 % YoY, EFH −0.4 % QoQ, ETW +1.6 % QoQ) — erste WP-UNABHAENGIGE amtliche Transaktionsreihe der KB, aufgenommen im Marktpuls 13.08.2026 samt Divergenzbefund IMPI vs. WP beim EFH-Quartalswert]
 links: [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[lageklasse-landwertanteil]], [[ertragswert-dcf]], [[marktdaten-gemeinden/README]]
 ---
@@ -241,6 +241,39 @@ modelliert hedonisch und bezieht Angebotsdaten ein. Beim **YoY** liegen alle dre
 Quelle: BFS/EDI, «Die Preise fuer Wohneigentum sind im 2. Quartal 2026 um 0,7% gestiegen»,
 publ. 30.07.2026; Wuest Partner Immo-Monitoring Q2-2026 (via cash.ch 16.07.2026); UBS CIO
 SREBI Q2-2026 (publ. 06.08.2026). Alle Web-Check 13.08.2026 (Marktpuls vorgezogen).
+
+## Marktanspannung und Fallhoehe — zwei Korrektive zum Punktwert (neu 01.09.2026)
+
+Der Vergleichswert sagt, was ein Objekt **heute** loest. Zwei amtlich belegte Groessen sagen,
+wie belastbar diese Zahl ist. Beide sind zum Marktpuls 01.09.2026 erstmals als Korrektiv in
+diesem Artikel gefuehrt; die Quellenzeilen stehen in [[datenquellen-registry]], die Zeitreihen
+in [[investorenmarkt-makro]].
+
+**1. Die Leerwohnungsziffer als Anspannungsmass.** Sie ersetzt keinen Quantilwert — sie sagt,
+ob der Median in einem Markt mit oder ohne Ausweichmoeglichkeit zustande kommt. Werte per
+Stichtag **01.06.2026**: Kanton Zuerich **0.52 %** (Vorjahr 0.48 %), Stadt Zuerich **0.11 %**,
+Winterthur 0.20 %, Region Oberland 0.95 %; Kanton Schwyz und die Schweiz per 01.06.2026 noch
+nicht publiziert (letzter Stand SZ 0.52 %, CH 1.00 %). Bezugsgroesse ist die von Wuest Partner
+genannte **optimale Fluktuationsreserve von 1.3 %**: **jeder dieser Werte liegt darunter**, die
+Stadt Zuerich um mehr als eine Zehnerpotenz. Praktisch heisst das: in der Stadt Zuerich ist ein
+Abschlag «schwer vermietbar» ohne objektspezifische Begruendung nicht haltbar, und im Kanton
+Zuerich sind Marktmieten am oberen Quantilrand plausibler als im Schweizer Mittel. **Aber nicht
+im Neubausegment** — dort betraegt die Ziffer im Kanton Zuerich **3.02 %** (Nutzungsregel 9 der
+Registry).
+
+**2. Die Fallhoehe aus dem UBS-Fundament-Score.** Der SREBI-Gesamtwert Q2-2026 (0.72
+«moderat») wird von tiefen Nutzungskosten und schwacher Bautaetigkeit gedaempft; die
+**Fundamentalperspektive** — Preis-Miet- und Preis-Einkommens-Verhaeltnis — steht mit **1.81
+im Band «erhoeht»**. In der regionalen Karte ist **Zuerich die einzige Grossstadt mit «hohem»
+Ungleichgewicht** (Basel, Bern, Genf entspannt; Lausanne «erhoeht»). **Fuer ein
+JANS-Deliverable in der Stadt Zuerich gehoert dieser Vorbehalt in den Bericht:** der
+Vergleichswert ist belastbar, die Fallhoehe bei einem Zinsschock ist in Zuerich groesser als im
+Schweizer Mittel. Die Aussage «Blasenrisiko moderat» ohne den Fundament-Score ist unvollstaendig.
+
+**Beide Korrektive zeigen in dieselbe Richtung und widersprechen sich nicht:** extreme
+Knappheit (0.11 %) und hohe Fundamental-Ungleichgewichte sind zwei Beschreibungen desselben
+Zuercher Marktes — die Knappheit traegt die heutigen Preise, das Ungleichgewicht beziffert, wie
+weit sie von Einkommen und Mieten entfernt sind.
 
 ## Offen / zu vertiefen
 

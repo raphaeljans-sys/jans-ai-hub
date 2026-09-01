@@ -1,7 +1,7 @@
 ---
 title: Residualwertmethode — Landwert aus der Projektentwicklung
 status: established
-last_updated: 2026-08-24 (Querbezug Mehrwertabgabe ZH ↔ baurecht ergaenzt, `wissen/koordination`)
+last_updated: 2026-09-01 (Marktpuls Stichtag: Segmentverwechslung beim strukturellen Leerstand belegt — Neubau ZH 3.02 % gegen Bestand 0.52 %)
 sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1 Projektbewertung, L. Huesser; S. 13-72 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Marktwertschaetzung A4-Blatt S. 34/35), IMMO-03 Residualwert Excel-Tools (WP + JANS: Pre-Check_Tool + Residualwert_Projektbewertung.xlsx — Zellformeln reverse-engineered Run 15 2026-07-08: Rechenkette, Default-Parameter, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung Pre-Check 12 %/2.45 %), IMMO-01 RW Residualwert-Projekte, wissen/baurecht/wiki/enteignung-und-entschaedigung.md (MAG LS 700.9, Buch-Run 98)]
 links: [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[investorenmarkt-makro]], [[realwert-sachwert]], [[nutzungskonzepte]], baurecht/[[enteignung-und-entschaedigung]]
 ---
@@ -152,6 +152,45 @@ In % der Erstellungskosten (Wuest-Kurs S. 39/40):
   HNF**. Beispiel-Total ~18.7 % des Soll-Ertrags.
 - **Diskontierung**: siehe [[ertragswert-dcf]] (WP-Empfehlung Neubau-Wohnbau Sommer 2023:
   2.2-2.9 %).
+
+## ⚠ Struktureller Leerstand: der Bestandeswert ist fuer ein Neubauprojekt der falsche Anker (belegt 01.09.2026)
+
+Der WP-Default oben nennt **1.0-3.5 % struktureller Leerstand, hergeleitet aus der
+BFS-Leerwohnungsziffer der Gemeinde**, und die JANS-Rechnungen fahren als Basisfall **1 %**.
+Der Marktpuls zum 01.09.2026 zeigt, dass diese Herleitung eine **Segmentverwechslung**
+enthaelt, wenn sie auf ein Neubauprojekt angewandt wird.
+
+Kanton Zuerich, Stichtag **01.06.2026** (Medienmitteilung 18.08.2026):
+
+| Segment | Leerwohnungsziffer |
+|---|---|
+| Gesamtbestand Kanton ZH | **0.52 %** |
+| davon Neubauten Baujahr 2024 oder juenger | **3.02 %** |
+
+Die amtliche Ziffer misst den **Bestand**. Ein Residualwert rechnet aber die **Erstvermietung
+eines Neubaus** — und dort liegt der Leerstand im Kanton Zuerich beim **rund Sechsfachen**. Der
+Basisfall 1 % steht damit nicht in der Mitte des WP-Bandes, sondern **unter dem gemessenen
+Neubauwert**, und zwar in einem der angespanntesten Maerkte der Schweiz. In entspannteren
+Gemeinden ist der Abstand groesser, nicht kleiner.
+
+**Konsequenz fuer den Rechenweg** (kein neuer Default, sondern eine Belegpflicht):
+
+1. **Die Erstvermietungsphase nicht mit dem Bestandes-Leerstand rechnen.** Entweder den
+   Neubauwert des Marktes ansetzen, oder die Vermarktung als **eigener Carry** ueber die
+   Absorptionsdauer fuehren — die Sensitivitaet dafuer ist in
+   [[projektstruktur-deliverables]] als Zeile «Leerstand / Vermarktung» bereits hergeleitet
+   (δ\* = −M0, Werthebel rund −8 %).
+2. **Der Dauerzustand nach Vollvermietung** bleibt beim Bestandeswert der Gemeinde — dort ist
+   die amtliche Ziffer der richtige Anker.
+3. **Die Ziffer der Gemeinde belegen, nicht den Kantonswert einsetzen.** Innerhalb des Kantons
+   Zuerich spannt sie per 01.06.2026 von **0.11 %** (Stadt Zuerich) bis **0.95 %** (Region
+   Oberland) — Faktor neun. Ein Kantonsmittel trifft keine dieser Lagen.
+4. **Und kein Landeswert als Kantonswert:** CH 1.00 % gegen ZH 0.48 % im Vorjahr, Faktor zwei.
+
+Quellen und Zeitreihen: [[investorenmarkt-makro]], Abschnitt «Leerwohnungsziffer»;
+Nutzungsregel 9 in [[datenquellen-registry]]. **Was hier NICHT geaendert wurde:** die
+WP-Default-Bandbreite 1.0-3.5 % selbst — sie stammt aus dem Kurs und bleibt als Kursstand
+stehen; geaendert ist die **Anwendungsregel**, welcher Wert aus dem Band fuer welche Phase gilt.
 
 ## Sensitivitaet (Excel-Tool, S. 61/62)
 
