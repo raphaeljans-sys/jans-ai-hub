@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 19:54:21
+Stand: 01.09.2026 20:04:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 19:54:21
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 1dfaeaa6f Betriebs-Chronik 260901b: Doppellauf twin im Wissenscheck (Subagent-Ankuendigung ist kein Beleg fuer Untaetigkeit)
+- 48e4f265d nas-selfcommit: 2 Datei(en) 2026-09-01 20:00

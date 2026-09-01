@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 19:57:09
+Stand: 01.09.2026 20:07:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 19:48)
@@ -19,4 +19,4 @@ Stand: 01.09.2026 19:57:09
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 1dfaeaa6f Betriebs-Chronik 260901b: Doppellauf twin im Wissenscheck (Subagent-Ankuendigung ist kein Beleg fuer Untaetigkeit)
+- 48e4f265d nas-selfcommit: 2 Datei(en) 2026-09-01 20:00
