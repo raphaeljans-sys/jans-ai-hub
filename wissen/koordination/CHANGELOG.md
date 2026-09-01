@@ -2,6 +2,32 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-01 (Synergie-Lauf 25) — vier Startpfade statt einem, und eine Schreibfalle ohne Grundkontext
+
+Tagestakt, Delta-Basis 31.08. 17:10, Fenster 24,0 h. **122 Commits im NAS-Repo, 0 auf
+`origin/main`** — der GitHub-Kopf steht seit 31.08. 06:12 still. Delta nativ per `ssh` gezogen.
+Strukturell beidseitig leer (keine neue Datei), geaendert nur `rules/betrieb-chronik.md` und
+`rules/jans-dna-facetten.md`; Frueh-Ausstieg griff deshalb nicht.
+
+**Zwei neue Eintraege.** SYN-66: die B6-Bestandsaufnahme in
+`docs/konzepte/260830-Laufzeitschicht-Umbau/SPEC.md` belegt einen Startpfad, tatsaechlich pinnen
+**vier** das Arbeitsverzeichnis auf den SSD-Klon — `vollgas-runner.sh` Z. 73/162,
+`arbeits-weiche.sh` Z. 186/191 und `nachtschicht-run.sh` Z. 155 kommen dort nicht vor (`grep -c` =
+0). Wer B6 nach der Spec behebt, laesst drei offen; nur gemeldet, Entscheid Raphael. SYN-67: der
+stille CWD-Fallback aus Chronik 260901 (fehlgeschlagenes `cd`, relative Pfade greifen im Klon,
+Schreibvorgaenge gehen beim naechsten `git pull` verloren) fehlt in **allen sechs** importierten
+Grundkontext-Dateien; `scripts/` ist dabei sauber, der Befund trifft die Session-Schicht.
+Querverweis in `rules/sync-kanonische-quelle.md` gesetzt (+12/−0, active-with-flagging).
+
+**Drei Statusnachtraege.** SYN-43 (Apparat-Regel 260901 nur in der nicht importierten Fassung),
+SYN-64 (Waechter unbewegt, `daten-[0-9]` weiterhin in keinem Script), SYN-65 (verschaerft:
+592/267 statt 471/267, Fehlversuche 681 statt 555, kein Zufluss nach GitHub im ganzen Fenster —
+zum dritten Mal von einem Synergie-Lauf gefunden, nie vom Waechter).
+
+Register 1218 → 1269 Zeilen, 65 → 67 Tabellenzeilen, null Loeschungen. Laufbericht:
+`outputs/2026-09-01_synergie-lauf-25.md`.
+
+
 ## 2026-08-31 (Run 49) — die Aufsicht baute den Fehler ein, den ihr eigener Verifikator dann fand
 
 **Zuschnitt:** 6 Melder (`model: sonnet`) + 4 adversariale Verifikatoren (Hauptmodell) = 10 Agenten,

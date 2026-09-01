@@ -44,6 +44,18 @@ Frueher existierten drei divergente Kopien; der Auto-Sync sicherte die falsche. 
   (Die fruehere pathspec-Commit-Mitigation aus Rule 260724 ist damit ueberholt.)
 - `git push --force` gegen GitHub `main`.
 
+  ⚠ **Und: auf NAS-Inhalte immer ABSOLUT zugreifen — ein fehlgeschlagenes `cd` ist stumm.**
+  Reisst der SMB-Mount ab (Idle-Stall, gemessen 59-mal an einem Tag), bricht ein `cd` auf den
+  NAS-Pfad die Shell **nicht** ab: das Arbeitsverzeichnis bleibt auf `~/Developer/jans-ai-hub`,
+  und alle nachfolgenden **relativen** Pfade greifen still im SSD-Klon. Lesevorgaenge liefern
+  dann inhaltlich richtige Daten — der Klon ist ein Lesespiegel —, und nichts im Output verraet,
+  dass die kanonische Quelle gar nicht angefasst wurde. Ein **Schreib**vorgang landet in diesem
+  Zustand im Klon und ist beim naechsten `git pull` spurlos weg. Darum: NAS-Dateien mit vollem
+  Pfad ansprechen, ein `cd` dorthin mit `|| exit 1` (bzw. `set -e`) absichern, nie mit stillem
+  Fallback. Gleiche Familie wie `auto-verbesserungen` 260730b Ziff. 2 — dort liest man das
+  Falsche, hier schreibt man am Richtigen vorbei. Beleg und Messung:
+  `rules/betrieb-chronik.md` 260901 (nicht importiert), Synergie-Register SYN-67.
+
 ## Geltungsbereich
 
 Alle Sessions auf allen Stationen. Ergaenzt `git-auto-push.md` und `SKILL-CONTRACT.md`.
