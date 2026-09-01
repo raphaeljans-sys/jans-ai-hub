@@ -3,6 +3,68 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 01.09.2026 (06:55, Kanal Logbuch, Weitergabe durch den Hub-Chef um 08:39)
+
+**Lagebild in einem Satz:** Der Vorgang, der gestern der schärfste war, hat sich über Nacht von selbst gelöst — die sieben Türmatrix-Korrekturen sind schriftlich bereinigt, pünktlich zum Produktionsstart —, dafür ist eine neue Tagesfrist entstanden, die niemand angekündigt hatte: die Therapieküche braucht die Freigabe bis heute Mittag.
+
+### Erledigt seit gestern
+
+**Die sieben Türmatrix-Korrekturen sind bereinigt, ohne dass Du nachfassen musstest.** L. Hiltmann hat am 31.08. um 17:21 alle sieben Punkte von L. Merci beantwortet, L. Merci hat heute um 06:11 abgenommen: «Passt so perfekt.» Zwei der sieben waren keine Fehler, sondern KISPI-Konventionen: bei Türe Umbau-14 führt das Spital Schiebetüren mit Zutrittskontrolle gemeinsam mit der Feuerpolizei als System 4.3, und bei Umbau-32-01 bezeichnet das S das schwerkraftschliessende Brandschutzschiebetor, das TS die integrierte Fluchtwegtüre. Die übrigen fünf fehlenden Türschliesser übernimmt Hiltmann und arbeitet sie heute ein. Damit hat die Türbeschläge-Runde vom Mittwoch ihren ursprünglichen Anlass verloren; sie bleibt für die Beschläge selbst sinnvoll, ist aber nicht mehr die letzte Gelegenheit vor der Produktion.
+
+**Deine Terminplan-Zusage vom 26.08. ist eingelöst, an alle drei Kreise.** Am 31.08. um 10:15 die Realisierungstermine an die Bauherrschaft (Spahic, Allerkamp, Schäfer), um 10:33 den Terminplan mit den Montagefenstern an Bajrami und Hiltmann, um 10:35 an J. Ziegel. Alle drei mit Bestätigungsbitte.
+
+**Die Hostpoint-Sicherheitsmeldung liegt beim Programmierer.** Du hast die Warnung zu WordPress und Optimole am 31.08. um 07:40 an Hleb weitergeleitet. Die Registerzeile «Aktion Raphael» ist damit geschlossen.
+
+**Die Sanitär-Pendenz Dusche ist planseitig nachgeführt.** M. Eren meldete am 31.08. um 16:09, dass der Duschenanschluss auf die gegenüberliegende Seite muss; Du hast um 17:09 die angepassten Plangrundlagen verlinkt und Spahic und Suljanovic gebeten, die Schmidlin-Duschwanne entsprechend umzubestellen.
+
+### Aus unseren Gesprächen
+
+Im Fenster liegen zwei echte Gespräche, beide vom Montagvormittag auf dem Mac Mini und beide ausserhalb der Bauprojekte. Die kryptischen Adressen in der Outlook-Vorschau sind List-Unsubscribe-Adressen von Newslettern, die sich die AutoVervollständigen-Liste gemerkt hat; wegräumen lassen sie sich nur von Hand über das kleine X im Vorschlag. Und der Kontakt N. Rothe von der Schreinermanufaktur liegt jetzt im Adressbuch von rj@ und synchronisiert in den Tenant — derselbe Mann, der heute Mittag auf die Küchenfreigabe wartet.
+
+### Heute, mit Tagesfrist
+
+**01 — Bis Mittag: die Freigabe der Therapieküche, sonst kippt der Liefertermin.** N. Rothe schrieb am 31.08. um 16:54 an A. Spahic, mit Dir im Verteiler: er braucht die Freigabe bis spätestens heute Mittag, um den Liefertermin zu halten. Das Register führte für diesen Vorgang bisher den 02.09.; die Unternehmerschaft zieht um einen halben Tag vor. Deine Seite ist erbracht: Du hast den Werkplan am 31.08. um 11:40 mit «Gut zur Ausführung» und Korrekturen an Spahic gegeben, zur internen Prüfung und Signatur. Ausstehend ist allein die bauherrenseitige Unterschrift. Ein kurzes Nachfassen bei Spahic vor Mittag ist das Einzige, was den Produktionsstart vom 07.09. noch sichert.
+
+**02 — 10:00 bis 10:30, Teams: L. Hiltmann hat kurzfristig eine Zweierbesprechung angesetzt, Du hast zugesagt.** Sie stand in keinem Register und in keinem Briefing. Hiltmanns Begründung: «Können wir uns das Morgen kurz anschauen, da der Rest der Woche unmöglich ist.» Der Termin ersetzt die Runde vom Mittwoch nicht, er läuft ihr voraus. Der eigene Eintrag «Brandabschottungen vor Ort» im selben Fenster ist mit «kein Termin für mich» vermerkt und kollidiert nicht.
+
+**03 — Der Produktionsstart Türen ist heute.** Hiltmann arbeitet die fünf Türschliesser-Korrekturen heute ein.
+
+**04 — Rückruf N. Rothe zu Position und Mischbatterie Spülarmatur** steht aus; Du hast ihn am 31.08. um 16:39 darum gebeten.
+
+### Überfällig
+
+**bexio ist den fünfundzwanzigsten Tag blind, und dahinter stehen CHF 51'400.00 unverifiziert.** Der Verzugscheck antwortet unverändert mit HTTP 401. Der Token läuft erst am 13.12.2026 ab, die Session dahinter ist serverseitig beendet — Warten hilft nicht, es braucht einen neuen Personal Access Token. Betroffen sind fünf Positionen, darunter RE-00098 und RE-00099 (KISPI, CHF 13'600 und CHF 3'680, weit über der Mahnfrist) und RE-00100 (Nova Property Fund, CHF 13'120, seit über einem Monat offen). Letzter verifizierter Zahlstatus bleibt der 08.08.2026. Nichts gebucht, nichts gemahnt.
+
+**AG-Gründung, die Kapitaleinzahlung fehlt seit fünfzehn Tagen.** Das Kapitaleinzahlungskonto ist seit dem 17.08. offen, die CHF 50'000 sind nicht eingezahlt, und ohne sie gibt es keine Kapitalbescheinigung und keine Beurkundung. Neu terminlich relevant: **das Notariat ist am 03. und 04.09. wegen IT-Systemwechsel geschlossen** — was diese Woche nicht bis Mittwoch steht, verschiebt sich auf die Folgewoche.
+
+### In den nächsten 7 Tagen
+
+**02.09. (morgen), 09:00 bis 09:30** — Türbeschläge, Teams, sechs Eingeladene; Hiltmann hat auf die neue Einladung nicht geantwortet, Spörri hat abgelehnt.
+
+**03.09., 13:00 bis 14:00** — Koordinationssitzung Gruner / Jans / KISPI, Serientermin im Zweiwochenrhythmus, dreizehn Teilnehmer.
+
+**03. und 04.09.** — Notariat geschlossen (AG-Gründung).
+
+**07.09.** — Produktionsstart Therapieküche; am selben Tag läuft der SharePoint-Gastzugriff von L. Bajrami ab, mitten in seiner Arbeit; die Verlängerung ist eine Aktion auf Deiner Seite und sollte vor dem Wochenende gesetzt sein.
+
+**08.09.** — Entscheid bexio-Abo vor der automatischen Migration Starter auf Advanced. Der bestehende Kalendereintrag steht auf dem 05.10. und damit nach der Handlungsfrist; die Vorverlegung ist im Register als offener Punkt geführt.
+
+### In Beobachtung
+
+Signiertes Türbuch von L. Merci, in dieser Woche zugesagt · Tür-ID-Restpunkt 01.2.3014.01 und 01.2.3017.01 · drei ausstehende Terminplan-Bestätigungen von Bajrami, Hiltmann und Ziegel · Umbestellung der Schmidlin-Duschwanne durch Spahic oder Suljanovic · Rückmeldung von Hleb zur Hostpoint-Sicherheitslücke · Thalwil, Nachfassen bei der SBB · Apple Mail bleibt für Automatik blockiert, das Konto raphaeljans@outlook.com damit ungelesen · P1: die Wissensarbeit seit dem 31.08. 06:12 liegt nur auf dem NAS, GitHub schreibt seit 19 Stunden nicht mehr mit · der NAS-Mount riss allein während dieses Laufs dreimal ab, `/etc/nsmb.conf` fehlt weiterhin.
+
+### Vorschlag Kalendereinträge
+
+Heute 11:30, fünfzehn Minuten: Nachfassen bei A. Spahic zur Freigabe Therapieküche, vor Ablauf der Mittagsfrist.
+
+Donnerstag 03.09. vormittags: Verlängerung des SharePoint-Gastzugriffs für L. Bajrami, vor dem Ablauf am 07.09.
+
+Montag 07.09.: den bestehenden bexio-Entscheidungstermin vom 05.10. auf diesen Tag vorverlegen, damit er vor der Frist vom 08.09. liegt.
+
+### Token-Tempo
+
+Vortag 31.08.: MacBook Pro 146'281'409 Token (Kostenäquivalent USD 130.20), Mac Mini 102'155'639 Token (USD 50.38), zusammen 248'437'048 Token und USD 180.58.
+
 ## Nachtschicht Mac Mini 31.08.2026 (23:3x, Prioritaet 5) — Grundkontext-Messung Nr. 3, `claude-code`
 
 Prioritaeten 1-4 geprueft, alle leer/nicht anwendbar: der einzige Sync-Task ist der bewusst
