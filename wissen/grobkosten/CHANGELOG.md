@@ -1,5 +1,12 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-09-01 (Wissenscheck Phase 1, unbeaufsichtigt) — A0 B0 C0 D3 E0 F1 G0
+
+Identische Findings zu 2026-08-30. Keine neuen Befunde, keine Regression. Status stabil,
+Endbedingung seit 13.08.2026 erreicht (alle raw-Dateien verdichtet/geschlossen, kein Material
+seit 17.08., MFH-Median-Block rein strukturell). Voller Report: `outputs/2026-09-01_health-check.md`.
+Reine Phase 1 (Audit), keine Änderungen.
+
 ## 2026-08-30 (Nachtschicht Mac Mini, Wissenscheck Phase 1) — A0 B0 C0 D3 E0 F1 G0
 
 Erster voller Health-Check seit 2026-08-03 (ältestes Audit-Datum im gesamten Wissens-Layer).

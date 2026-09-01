@@ -2,6 +2,10 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-01 (Health-Check) — Phase 1 Audit, 0 Widersprueche, 67 Synergien-Eintraege, 51 Outputs seit 03.08.
+
+Keine aktiven Reparaturen noetig. Abweichung vom Standard-Schema ist in CLAUDE.md dokumentiert. Bericht: `outputs/2026-09-01_health-check.md`.
+
 ## 2026-09-01 (Synergie-Lauf 25) — vier Startpfade statt einem, und eine Schreibfalle ohne Grundkontext
 
 Tagestakt, Delta-Basis 31.08. 17:10, Fenster 24,0 h. **122 Commits im NAS-Repo, 0 auf

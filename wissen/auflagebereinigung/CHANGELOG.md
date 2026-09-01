@@ -2,6 +2,10 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-01 (Health-Check Phase 1, unbeaufsichtigt) — A0 · B0 · C1 · D0 · E0 · F1 · G2
+
+Health-Check-Report abgelegt: `outputs/2026-09-01_health-check.md`. Frontmatter-Behoebung vom 26.08. bestätigt fehlerfrei; jedoch ae/oe/ue-Anteil im Text von `gvz-einreichung-bma-sprinkler.md` noch unbehoben (Schreibregel F1). `brandschutz-auflagen-qss.md` generische VKF-RL-Quellen ohne Norm-Nummern (Audit C1). `fristenlogik-bauentscheid-zh.md` reif für Promotion zu `established`. PDF-Annotations-Extraktionsmethode (G-Rücklauf) zweifach belegt, aber nie ins Wiki überführt. Phase 2 nicht ausgeführt.
+
 ## 2026-08-26 (Wissens-Chef Run 44) — Fassungs-Nachtrag: der Zeiger auf das BMA-Destillat führt auf einen `superseded`-Stand
 
 Eingriff in `wiki/gvz-einreichung-bma-sprinkler.md`, Querbezug-Block (+11/−0, rein additiv).

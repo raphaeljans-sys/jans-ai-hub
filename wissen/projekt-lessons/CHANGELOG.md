@@ -1,6 +1,9 @@
 # CHANGELOG — Wissensbasis Projekt-Lessons
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
+## 2026-09-01 (Wissens-Health-Check Phase 1)
+Vollständige Auditierung aller 14 Wiki-Artikel gegen sieben Standard-Prüfungen: A0 · B2 · C0 · D2 · E0 · F3 · G1. Keine neuen Befunde gegenüber 25.08.2026; bekannte Punkte teilweise behoben (Run 46 BKP-Notation, Cross-KB-Verweis gesetzt). Strukturelle Lücke persisiert: RAW-Register (`_INGESTED.md`) kennt 12 von 14 Quellartikel nicht (buero-projekte-Destillation über Wissens-Destillat). Promotion-Kandidat Mahnkaskaden-Muster bereit (zweifach belegt, wechselseitig verlinkt). Report: outputs/2026-09-01_health-check.md.
+
 
 ## 2026-08-28 (Wissens-Chef Run 46) — «BKP 274.01» berichtigt, Schwester-Report verbunden
 

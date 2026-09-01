@@ -4,6 +4,10 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-09-01 (Mac Mini, Tagsschicht, Phase 1) — Wissens-Health-Check abgelegt
+
+`outputs/2026-09-01_health-check.md` (Phase 1): Audits durchgefuehrt. THEMEN.md fehlt Frontmatter (1 B-Befund), Vektorindex am 01.09. 19:30 neu gebaut und mit documents.jsonl synchron, Scan saturiert seit 03.07. (853/853, 849 kuratiert), vier Katalog-Kollisionen + ein Tadao_Ando-Doppelordner dokumentiert, keine neuen Spannungen, 171 ae/oe/ue-Fehler unveraendert seit 03.08., Stilllegung `synobsis-batch-nacht` zu formalisieren (wo im Register?). Phase 2 nicht ausgefuehrt.
+
 ## 2026-09-01 (Mac Mini, Nachtschicht, Prioritaet 2) — Vektorindex neu gebaut, war seit 24.08. veraltet
 
 `catalog/vectors.npz` stammte vom 24.08.2026, `catalog/documents.jsonl` (die eigentliche

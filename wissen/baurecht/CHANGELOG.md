@@ -3,6 +3,16 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-01 (Wissens-Health-Check, Phase 1) — A0·B0·C0·D4·E0·F1·G0: fast alle 24.08.-Befunde erledigt, Register `_INGESTED.md` hinkt vier frischen Quellen hinterher
+
+Phase-1-Audit gegen den letzten Check vom 24.08.2026. Alle vier damaligen Backlink-/Frontmatter-
+Befunde (Audit B) sind behoben, die Umlaut-Verschmutzung (vormals ~340 Treffer/23 Artikel) ist bis
+auf eine Fundstelle (`wiki/baureife-und-erschliessung.md` Z. 320, Run 46 vom 28.08.) verschwunden,
+die 7 dekorativen ✅ im Fliesstext sind weg. Neuer Befund: vier frisch bezogene und bereits zitierte
+`raw/`-Dateien (u.a. der heutige `260901_amtlich_ch_rpv-art32a-36-37.md`) fehlen im Ingest-Register
+— kein Inhaltsverlust, aber das Register bildet den Stand nicht mehr vollständig ab. Voller Report:
+`outputs/2026-09-01_health-check.md`.
+
 ## 2026-09-01 (Buch-Run 141) — RPV-Schwellengruppe geschlossen: drei Zahlen CONFIRMED, vier Regeln falsch, ein Phantom-Artikel
 
 Der von Buch-Run 140 ausdrücklich offen gelassene Rest (35 % / 5000 m², 20 cm, 70 % Trockensubstanz)

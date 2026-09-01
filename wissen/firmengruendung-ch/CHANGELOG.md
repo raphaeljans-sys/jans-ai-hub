@@ -3,6 +3,9 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-01 — Wissens-Health-Check (Phase 1)
+- A1 · B2 · C0 · D0 · E1 · F0 · G1. Befunde unveraendert zu 26.08. (zwei Orphans, ein QUESTIONS-Registerpflege-Fehler); neu: drei Artikel ueberschreiten 90-Tage-Schwelle (inhaltlich aktuell, Auffrischung bei naechster Gelegenheit). Report: `outputs/2026-09-01_health-check.md`.
+
 ## 2026-08-30 — Output: bexio vs. Alternativen fuer Einzelfirma + AG
 - Neuer Report `outputs/2026-08-30_bexio-vs-alternativen-buchhaltung.md` (Auftrag Raphael):
   bexio-Paketumstellung 01.03.2026 (Starter → Advanced CHF 42/Mt. am Verlaengerungsdatum

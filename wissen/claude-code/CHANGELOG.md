@@ -2,6 +2,8 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-09-01 (Health-Check Phase 1) — A0 · B1 · C2 · D0 · E0 · F1 · G0: Umlaute-Verstoß groß, sonst strukturell sauber — Report: `outputs/2026-09-01_health-check.md`
+
 ## 2026-08-31 (Mac-Mini-Nachtschicht, 23:3x-Slot) — Dritte Grundkontext-Messung in Folge: 132'245 B, +7'133 B seit 25.08., weiterhin kein Gegeneingriff
 
 Prioritaeten 1-4 geprueft und leer: `sync-tasks/mac-mini/` traegt nur den bewusst
