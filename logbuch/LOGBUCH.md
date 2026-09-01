@@ -10329,3 +10329,24 @@ vs. 203/115 im Spec-Befund vom 30.08.) — als Nachtrag in `logbuch/fristen.md` 
 Zeile ergaenzt, keine eigene Aufloesung versucht (Git-Historie, braucht Raphaels Freigabe). Sync-Task
 `.angehalten` unveraendert liegen gelassen, ebenfalls wartend auf denselben Entscheid. Budget rund
 1.8 von 5 USD, Zyklus beendet.
+
+## 2026-09-01 13:3x Nachtschicht Mac Mini (Versuchs-Slot)
+
+Prioritaeten 1-3 leer bzw. nicht umsetzbar: `remote-tasks/pending/` und `sync-tasks/mac-mini/`
+ohne offene Task (einziger Sync-Task traegt weiterhin `.angehalten`, wartet auf Raphaels
+Entscheid zur P1-Git-Divergenz); Synobsis Stufe 2 erst heute frueh (05:3x) neu indexiert,
+853/853 deckungsgleich; Fristen-Register ohne neuen, undokumentierten Punkt. Prioritaet 4
+(naechste faellige Trainingslektion): KB `energie` hatte fuer den naechsten Lauf ausdruecklich
+E-R171-1 vorgemerkt (P1, methodisch, aus Run 171) — ein Muster von zwei Fehl-Offen-Diagnosen in
+Folge (QUESTIONS-Eintraege als "noch nicht gelesen" bearbeitet, obwohl das Frontmatter des
+eigenen Destillats die Widerlegung woertlich trug). Umgesetzt: siebtes Pruefwerkzeug im
+Wissens-Layer, `wissen/tools/fehloffen-waechter.py` (Frage "Redundanz"), gegen synthetische
+Fixtures verifiziert; ein realer Fehlalarm (generische Wortueberschneidung "AHB"/"Merkblatt")
+beim ersten Testlauf gefunden und mit einem Dokumentfrequenz-Filter behoben. Volllauf
+`energie`+`normen`: 0 Befunde. E-R171-1 in `wiki/QUESTIONS.md` auf ✓ gesetzt, CHANGELOG und
+Bericht `outputs/2026-09-01_fehloffen-waechter.md` nachgefuehrt, Werkzeug in
+`wissen/tools/README.md` registriert. Commit ueber `nas-commit-now.sh` (`a37b436a2`) auf dem NAS
+verifiziert erfolgreich (kein `MERGE_HEAD`, sauberer Arbeitsbaum); Push nach GitHub scheiterte
+wie erwartet an der bestehenden P1-Divergenz (Befund B6) — keine neue Diagnose, nicht selbst
+aufgeloest. Fuer den naechsten energie-Lauf bleibt der P3-Rest der 169er-Reihe offen (E-R169-4/-5/-6).
+Budget rund 3.3 von 5 USD, Zyklus beendet.
