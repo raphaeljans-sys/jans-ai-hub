@@ -53,6 +53,55 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-02 00:57 — [FREI] **Der Lauf war sauber und der Ertrag hoch: 219 geaenderte Wissens-Dateien in 15 KBs seit dem Mittagslauf, kein Leerlauf-Kandidat. Der P1 ist unveraendert derselbe Commit, waechst aber weiter (634/267, 723 Fehlversuche) — und die gestern Abend nachgetragene Umdeutung «kanonische Quelle unvollstaendig» faellt mit einem zweiten Befund zusammen: das Kontingent laeuft dem Zeitverlauf 12.5 Punkte HINTERHER.**
+
+**Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **02.09. 00:57** (2026-09-01T22:57:16Z), letzter Eintrag **01.09. 12:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h (Takt + 3 h). Zweiter Ausfalltyp nicht zu pruefen, kein Lauf fehlt.
+
+**Fenster FREI in 7 Sekunden, PATH-Probe zum achten Mal in Folge nicht versucht.** `/opt/homebrew/bin/claude` zeigt unveraendert seit **29.08. 05:15** auf die gewedgte **2.1.236** — Homebrew liefert seit **vier Tagen** nichts nach (die frueheren Wedges dauerten zwei bzw. drei Tage). Die app-gebuendelte **2.1.255** antwortete mit «OK», **rc=0, 7 s**. Latenz-Reihe: 39 · 76 · >120 · 8 · 7 · 98 · 82 · 7 · **7 s** — sie schwankt weiter um den Faktor 14 und zeigt keinen Trend; Untergrenze 180 s bleibt richtig, ein Befund-Lauf zur Ursache ist nicht faellig.
+
+**Messfalle im eigenen Rezept, notiert fuer den naechsten Lauf:** die Probe zuerst als Vordergrund-Pipe (`bash script | tail -6`) gefahren; das Kommando lief in den 120-s-Werkzeug-Timeout, wurde in den Hintergrund verschoben und hinterliess eine **0 Byte grosse** Ausgabedatei bei `exit code 0`. Das sieht nach einer stummen Probe aus und ist keine — die Ausgabe wurde von der Pipe gepuffert und ging beim Verschieben verloren. Richtig ist, das Probe-Script selbst mit `exec > datei 2>&1` umzuleiten und es mit `nohup ... &` zu starten. Gleiche Familie wie die bekannten Werkzeugfallen: **ein leeres Ergebnis ist zuerst eine Aussage ueber das Werkzeug.**
+
+### Liefer-Delta — hoher Ertrag, kein Ruecktakt-Kandidat
+
+Delta gemessen ueber Dateizeitstempel mit **absolutem** Zeitstempel (`-newermt "2026-09-01 11:00"`, nie relativ) und gegengelesen am Selfcommit-Log; `git log` im SSD-Klon zeigt fuer 14 Stunden **null** Commits, was hier kein Leerlauf ist, sondern der P1 selbst — der Klon bekommt nichts mehr.
+
+| KB | geaenderte .md | KB | geaenderte .md |
+|---|---|---|---|
+| `architektur-fachwissen` | 68 | `wettbewerbs-dna` | 10 |
+| `energie` | 46 | `normen` | 9 |
+| `twin` | 16 | `planungsgrundlagen` | 7 |
+| `immobilienbewertung` | 13 | `claude-code` | 4 |
+| `baurecht` | 12 | `spec` · `grobkosten` · `firmengruendung-ch` · `architekten-synobsis` | je 3 |
+| `koordination` | 11 | `projekt-lessons` | 2 |
+
+**219 Dateien in 15 Wissensbasen in 14 Stunden.** Namentlich belegt ueber die Commit-Messages: `wissens-chef` Lauf 50 (Genehmigungsfiktion Anzeigeverfahren ZH korrigiert), `twin-mail-training` Batch 111, `twin-fidelity-review` (Fidelity 35), `tenant-hygiene` (896.18 GB / 85.03 %), `synobsis` (Vektorindex neu gebaut), `planungsgrundlagen-wartung` Lauf 03, dazu vier Nachtschicht-Laeufe auf dem Mac Mini (Journal `260901-laeufe.jsonl`, alle rc=0, 1.94 bis 4.20 USD, 35 bis 60 Turns). **Kein Loop mit Delta Null, kein Ruecktakt- und kein Stilllegungs-Kandidat.** Der Zaehlstand fuer `normen-training-nacht` aus dem Vorlauf bleibt bei 1 von 3 — die KB liefert (9 Dateien), der Punkt ist damit erledigt und wird nicht weitergezaehlt.
+
+### P1 — unveraendert ein Commit, aber vier Tage alt und weiter wachsend
+
+Nativ auf der Synology gegengemessen (`ssh raphaeljans@diskstation918…`, `/volume2/daten/jans-ai-hub`), nicht aus dem Vorlauf uebernommen:
+
+- Divergenz **634 lokal / 267 remote** (Vorlauf 12 h zuvor: 571/267) — **+63 Commits in 12 Stunden**, rund 5 je Stunde.
+- Selfcommit-Log: **Versuch 723** des Abgleichs, alle seit dem 29.08. 21:51 gescheitert; 405 Logzeilen allein am 01./02.09. Das Script raeumt den fehlgeschlagenen Merge jedes Mal sauber ab — **keine Merge-Marker** auf der Synology (`.git/MERGE_HEAD`, `rebase-merge`, `rebase-apply` alle nicht vorhanden). Die lokalen Commits selbst gelingen weiter im 15-Minuten-Takt.
+- Der Nachtrag des `wissens-chef` vom 01.09. 23:5x im Fristen-Register **bestaetigt**: `wissen/architektur-fachwissen/wiki/` fuehrt auf dem NAS **99** Artikel, auf `github/main` **455**. Eigene Zaehlung nativ: **99**. 356 fertige Artikel liegen nicht in der Quelle, aus der alle Stationen lesen.
+
+**Was daran fuer diesen Radar neu ist:** die beiden Befunde dieses Laufs gehoeren zusammen. Der Hub verbraucht **9.5 % des Wochenkontingents bei 22.0 % verstrichener Woche** (Vorsprung **−12.5 Punkte**, Ampel FREI; MacBook 13.50 Mio, Mac Mini 2.38 Mio, beide frisch) — und arbeitet dabei auf einer Wissensbasis, der ein Fuenftel ihres Bestandes fehlt. Ein Teil der brachliegenden Kapazitaet ist damit nicht bloss ungenutzt, sondern **gefaehrdet**: jeder Lauf, der in `architektur-fachwissen` etwas anlegt, das auf GitHub laengst existiert, produziert Doppelarbeit, die beim spaeteren Merge zusaetzliche Konflikte erzeugt. Der Sync-Blocker ist deshalb nicht nur ein Sicherungsproblem, sondern inzwischen auch ein **Auslastungsproblem** — und das ist die Waehrung dieses Radars. Eine Drossel ist bei −12.5 Punkten nicht angezeigt und wird nicht gesetzt.
+
+### Feuermechanismen — beide Stationen im Sollstand
+
+Alle drei Orte geprueft. **MacBook Pro:** `ch.jans.vollgas-supervisor` und `ch.jans.vollgas-monitor` unveraendert als `*.disabled-260729` abgelegt und nicht geladen; geladen sind ausschliesslich die regulaeren Jobs (synctask-runner, widerruf-queue, nas-keepalive, station-status, speicher-waechter, claude-alwayson u. a.). **Mac Mini:** `ch.jans.nachtschicht` geladen, `ch.jans.vollgas-supervisor.plist.disabled-260729` unangetastet. **Zweite Registry Mac Mini:** acht Task-Ordner, exakt der dokumentierte Sollstand (energie-training, claude-abo-auslastung, grobkosten-training, arbeits-weiche-review sowie die vier stillgelegten). Kein Loop wird von zwei Mechanismen gefeuert. Der Endlos-Runner bleibt ausgebaut — kein Eingriff.
+
+**Speicher:** Druckstufe **1** (normal), rund 4.6 GB verfuegbar (free + inactive + purgeable, ueber `vm_stat`, nie ueber top-«unused»). Keine Waisen: `ps -eo pid,ppid,command | grep "claude -p"` leer, der Watchdog musste nicht eingreifen.
+
+### Prioritaeten
+
+- **P1 — unveraendert: den einen Konflikt in `wissen/normen/CHANGELOG.md` bei `1eed7118c` aufloesen.** Vierter Tag, 723 gescheiterte Abgleiche, 634 ungesicherte Commits, 356 Artikel fehlen in der kanonischen Quelle. Die Aufloesung ist mechanisch einfach (beide Seiten haben oben angefuegt), aber ein Urteil ueber fremde Arbeit und damit Raphaels Entscheid; kein Loop und kein Radar fasst sie an. Vorgelegter Weg, nur nach Sichtung der Konfliktdatei: `ssh raphaeljans@diskstation918.tail8265aa.ts.net "cd /volume2/daten/jans-ai-hub && git merge github/main"`. Ohne die anschliessende Behebung von **B6** kehrt der Stau in Tagen wieder.
+- **P2 — Probe fest auf die app-gebuendelte CLI umstellen.** Achter Lauf in Folge, in dem der dokumentierte Pflichtweg der Task nicht der tatsaechlich benutzte ist; Homebrew liefert seit vier Tagen nichts nach. Ein Zweizeiler in der Task-Datei; ich editiere sie auftragsgemaess nicht selbst.
+- **P3 — zu weite Allowlist-Regel in `.claude/settings.local.json`.** Die Probe gab unaufgefordert eine Warnung aus: eine `Bash(sed …)`-Regel traegt einen `*` **vor** dem restlichen Befehl und genehmigt damit auch beliebige an dieser Stelle eingeschobene Optionen ohne Rueckfrage. Betrifft die lokale, nicht versionierte Datei dieser Station. Kein Radar-Kernthema, aber ein Sicherheits-Nebenbefund, der sonst niemandem auffaellt.
+
+**Keine Mail.** Kein geloester P1, kein erschoepftes Wochenkontingent, kein neuer Blocker — der Sync-Befund ist derselbe Vorgang, fuer den eine Wiederholungsmail seit dem 30.08. ausdruecklich ausgeschlossen ist. Er erreicht Raphael um 06:55 ueber das Fristen-Register (Nachtrag des `wissens-chef` steht) und um 08:39 im Tagesbriefing des Hub-Chefs. **Regellauf: keine Delegation, Messungen inline und parallel, rund 14 Werkzeugaufrufe** — im Sollmass; die drei Zugriffswege aus dem Vorlauf (`origin` statt `github` im Klon, `/volume2` statt `/volume1`, Synology-SSH statt `mini`) haben auf Anhieb getragen und keinen Fehlversuch gekostet.
+
+---
+
 ## 2026-09-01 12:57 — [FREI] **P1 praezisiert: es sind nicht 571 Commits, die ein Urteil brauchen, sondern EINER. Der Selfcommit-Rebase scheitert seit dem 29.08. 21:51 in 660 Versuchen ausnahmslos am Commit `1eed7118c` (Normen CHANGELOG); alles andere ist Folgeschaden. GitHub steht damit seit 31 Stunden still. Der Lauf selbst war sauber: Fenster frei in 7 s, Kontingent 4.8 %, vier Loops mit Liefer-Delta.**
 
 **Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **12:57** (2026-09-01T10:57:19Z), letzter Eintrag **01.09. 00:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h. Zweiter Ausfalltyp nicht zu pruefen, kein Lauf fehlt.
