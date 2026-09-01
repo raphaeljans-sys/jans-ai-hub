@@ -2,7 +2,7 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
-## 2026-09-01 (Marktpuls zum Stichtag) — der Termin ist eingelöst, und drei Sackgassen sind aufgelöst
+## 2026-09-01 (Marktpuls zum Stichtag) — der Termin ist eingelöst, und zwei Sackgassen sind aufgelöst
 
 Sieben `wiki/`-Dateien geändert, ein Report. Der One-Time-Task `immobewertung-marktpuls-260901`
 hat an seinem Datum gefeuert; die zwei Werte, wegen derer der Stichtag im Kalender stand, sind
