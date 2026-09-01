@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 04:59:47
+Stand: 01.09.2026 05:10:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,7 @@ Stand: 01.09.2026 04:59:47
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- keine
 
 ## Hub-Git-Stand (NAS)
-- f86b08522 nas-selfcommit: 3 Datei(en) 2026-09-01 04:45
+- fd572cf0f planungsgrundlagen-wartung 03: Sicherungsabschnitt im Report, Fristen-Register-Fortschreibung 530/267
