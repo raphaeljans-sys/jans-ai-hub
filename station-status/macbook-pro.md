@@ -1,9 +1,8 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 17:22:53
+Stand: 01.09.2026 17:43:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 17:09)
 - Developer/jans/ai/hub  (letzte Aktivitaet 17:20)
 
 ## Laufende Arbeits-Prozesse
@@ -20,4 +19,4 @@ Stand: 01.09.2026 17:22:53
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 185ff790e Synergie-Lauf 25 (01.09.): SYN-66 B6-Bestandsaufnahme nennt einen Startpfad, vier pinnen das CWD auf den SSD-Klon (vollgas-runner, arbeits-weiche, nachtschicht-run fehlen in der SPEC); SYN-67 stiller CWD-Fallback aus Chronik 260901 fehlt in allen sechs importierten Grundkontext-Dateien, Querverweis in sync-kanonische-quelle gesetzt; SYN-43/64/65 nachgefuehrt (Divergenz 592/267, 0 Commits nach GitHub im Fenster)
+- 3c1fc5acd nas-selfcommit: 2 Datei(en) 2026-09-01 17:30
