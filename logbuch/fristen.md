@@ -4900,3 +4900,14 @@ Konfliktmarker (`grep -rl '^<<<<<<< ' wissen/` leer). Der Aufraeummechanismus de
 zuverlaessig; blockiert ist ausschliesslich der Push nach GitHub, nicht der lokale Betrieb.
 
 Nicht selbst aufgeloest, unveraendert aus denselben Gruenden.
+
+**Nachtrag 01.09.2026 04:06 (twin-mail-training Batch 111, eigene Messung nativ per ssh).** Die
+Divergenz steht auf **525/267**. Gegenueber 00:2x (507/267) sind das **18 Commits in rund
+dreieinhalb Stunden**, also weiterhin rund **fuenf pro Stunde** — der Trend ist stabil, nicht
+ruecklaeufig. **267 steht den vierten Tag unveraendert**, `github/main` weiterhin `66df04125`;
+`git ls-remote` bestaetigt, dass der Tracking-Ref frisch ist und nicht etwa ein alter Stand
+gemessen wird (Fetch 04:06). Merge-Base unveraendert `01204714a` vom **29.08. 22:04**, die
+Divergenz ist damit rund **54 Stunden** alt. **Vierte Bestaetigung des rc-Befunds:** auch dieser
+Lauf bekam `rc=1` mit Konfliktmeldungen, waehrend der Commit `68cc3c9c0` sauber in HEAD lag
+(kein `MERGE_HEAD`, keine `index.lock`, null Konflikte via `--diff-filter=U`). Nicht selbst
+aufgeloest, unveraendert aus denselben Gruenden.
