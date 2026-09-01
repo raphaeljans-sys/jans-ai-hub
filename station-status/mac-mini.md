@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 06:22:02
+Stand: 01.09.2026 06:32:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 06:22:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7c99d1fb0 nas-selfcommit: 3 Datei(en) 2026-09-01 06:15
+- 39aa96fe8 twin-fidelity-review 260901: Sicherungskopien nach der diff-Pruefung entfernt

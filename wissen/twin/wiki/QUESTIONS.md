@@ -5373,3 +5373,12 @@ Rückfrage und gehört deshalb Dir. **(b)** Der wiederkehrende Stall selbst (all
 Mac Book Pro, NAS idle) ist ein zweites, älteres Thema — er steht in der Memory-Notiz
 «NAS-Mount-Haertung» als gelöst, ist es aber offenbar nicht mehr. *Warum hier: der Lauf wäre ohne
 den SSH-Umweg ausgefallen, und ein ausgefallener Fidelity-Lauf fällt nur im Register auf.*
+
+**(c) — und der schwerere Teil: das GitHub-Backup laeuft seit dem 29.08.2026 leer.** Der Commit
+dieses Laufs liegt sauber auf dem NAS, der **Push scheitert**: `main` ist **540 Commits voraus,
+267 zurueck** gegenueber `github/main`, gemeinsamer Vorfahre 29.08.2026. Zwei Committer bauen
+seither parallele Historien (nativer `nas-selfcommit.sh` und `auto-sync [Macmini]`).
+`nas-selfcommit.sh` macht dabei alles richtig — Rebase, dann Merge, bei Konflikten sauberer
+Abbruch mit dem Vermerk «Konflikte brauchen ein Urteil». Das Urteil fehlt seit drei Tagen.
+**Solange es fehlt, ist GitHub kein Backup, sondern ein Stand vom 31.08.** Eine 540/267-Divergenz
+aufzuloesen heisst zu entscheiden, welche Historie gilt — das entscheidet Claude nicht selbst.
