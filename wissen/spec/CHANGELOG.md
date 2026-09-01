@@ -1,5 +1,12 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-09-01 (Nachtschicht Mac Mini, Wissenscheck Phase 1) — A0 · B0 · C0 · D0 · E0 · F0 · G0
+
+Health-Check-Report abgelegt: `outputs/2026-09-01_health-check.md`. Strukturell und
+inhaltlich sauber, kein Drift seit dem letzten Sammellauf (03.08.2026); kein zehnter
+realer Spec-Fall seit der Korpus-Spec `bauprodukte` (28.07.) gegengeprüft und bestätigt.
+Phase 2 (Aktionen) nicht ausgeführt — unbeaufsichtigter Lauf.
+
 ## 2026-08-24 — Trainingslauf 39 (Verifikationslauf): F-ENV1 exemplarisch gelöst
 - **Kein neuer realer Fall seit Lauf 38 (30.07., Korpus-Spec `bauprodukte`):** über alle
   `*_spec.md` im Hub geprüft, jüngstes Datum unverändert 28.07. Legitimer Verifikationslauf

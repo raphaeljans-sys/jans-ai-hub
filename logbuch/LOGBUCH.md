@@ -10177,3 +10177,19 @@ kein Versand. Budget rund 1.3 von 5 USD, Zyklus beendet.
 
 Automatisierter Monitor-Lauf, weiterhin blind (osascript-Timeout seit neun Tagen). M365/Graph-Ersatzweg: Suche beide Postfächer (mail@/rj@) nach UBS, Notariat, Handelsregister, Kapitaleinzahlung — jüngste Sachnachricht bleibt «Ihr Kapitaleinzahlungskonto» vom **17.08.2026 08:18** im Konto mail@. Seither kein Eingang. **Status verifiziert unverändert:** Kapitaleinzahlungskonto geöffnet (IBAN CH46 0027 6276 1238 74D7 N), **Einzahlung CHF 50'000 noch ausstehend, 14 Tage offen**. Ohne Einzahlung kein Kapitalbescheinigung-Rückversand, keine Beurkundung. Notariat Wiedikon seit 25.08. nicht erreicht (osascript-Block). **Notariat-Vorgabe (Firmenname-Alternative statt «JANS AG»)** seit 22.06. offen — erforderlich für HR-Anmeldung. Nächster Schritt: (1) CHF 50'000 einzahlen, (2) UBS Kapitalbescheinigung per Einschreiben anfordern, (3) Firmenname-Alternative wählen + osascript-Fehler beheben damit Notariat erreichbar.
 
+
+## 2026-09-01 02:3x Nachtschicht Mac Mini
+
+Prioritaeten 1-4 leer bzw. besetzt: `remote-tasks/pending/` und `sync-tasks/mac-mini/` ohne
+offene Task (der einzige Sync-Task dort traegt `.angehalten`, wartet auf Freigabe). Synobsis
+Stufe 2 seit acht Bestaetigungslaeufen in Folge (bis 30.08.) gesaettigt — kein neunter
+Leerlauf. Fristen-Register ohne neuen, undokumentierten Punkt (die laufende P1-Git-Divergenz
+ist bereits mehrfach belegt und wartet auf Raphaels Einzelentscheid). Freie
+Trainingsziele `energie` (Run 171, 31.08./01.09. Nacht) und `architektur-fachwissen`/`twin`
+waren laut Dateistempeln in den letzten Minuten von anderen Laeufen angefasst, `bauprodukte`
+bleibt seit 15.08. foermlich erledigt — kein unberuehrtes Ziel fuer Prioritaet 4.
+Stattdessen Prioritaet 6: Wissenscheck Phase 1 auf der KB mit dem aeltesten Audit-Datum
+(`spec`, zuletzt 03.08.2026, danach realer Trainingslauf 39 am 24.08.). Ergebnis A0 B0 C0
+D0 E0 F0 G0 — sauber, kein Rueckstand, kein zehnter realer Spec-Fall seit 28.07. Report
+`wissen/spec/outputs/2026-09-01_health-check.md`, CHANGELOG nachgefuehrt. Budget rund 3.1
+von 5 USD, Zyklus beendet.
