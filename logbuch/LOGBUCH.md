@@ -3,6 +3,62 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 01.09.2026 (08:36 bis 09:2x, Tagesbriefing gesendet, dazu ein Nachtrag)
+
+**Lauf-Vorbedingung nicht erfuellt und selbst hergestellt.** Die Session startete ohne NAS: die
+Freigabe lag unter `/Volumes/daten-2`, der kanonische Pfad fehlte, Skills, Agenten, Commands und
+Rules waren nicht geladen. `nas-auto-mount.sh` drehte seit 07:34 im Kreis, weil es auf dem Pfad
+prueft, den macOS nicht mehr belegte. Reparatur: `umount /Volumes/daten-2`, danach
+`nas-auto-mount.sh` neu, Sentinel lesbar, `ensure-nas-mounted.sh` rc 0. Danach im Lauf noch
+dreimal Remount noetig (08:47 und zweimal spaeter), jedes Mal durch den Guard geheilt. Details und
+Restaufgabe (`/Volumes/daten-1`, Rechte) im Fristen-Register, Eintrag 08:4x.
+
+**Pflichtpruefungen.** `freigabe-status.sh --kurz`: mac-mini 0, macbook-pro 0, Exit 0.
+`--briefing`: keine Eintraege ab 12 h. `stationen-watchdog.sh --briefing`: **Exit 1** — Herzschlag
+`git-auto-sync` MacBook Pro 47 Minuten alt gegen Schwelle 30, mit hoher Wahrscheinlichkeit Folge
+des Mount-Ausfalls; Mac Mini fristgerecht.
+
+**Signale.** Radar-Briefing 06:55 und AG-Gruendungs-Nachtrag 07:5x im Logbuch beziehungsweise
+Register gelesen und weitergetragen. Konversations-Destillat 01.09. gelesen (acht Bloecke).
+Mail ueber Graph, nicht ueber den Vorfilter: `mail-vorfilter.sh 26` hing und wurde nach 45 s
+abgebrochen (Apple-Mail-Automatik, zehnter Tag). Posteingang rj@ seit 31.08. 17:00: zwei Mails,
+davon eine **neu seit dem Radar** (L. Hiltmann 01.09. 07:22, aktualisierte Tuermatrix und
+Sicherheitszonenplan auf SharePoint). Gesendete rj@ im selben Fenster: keine. Postfach mail@:
+ein Newsletter. Konto raphaeljans@outlook.com unverandert ohne Graph-Weg und ungelesen.
+Kalender 01.09. bis 09.09.: sechs Termine, darunter der bisher nirgends gefuehrte 07.09. 09:15
+«Abgleich Umbau PPTS». bexio `--verzug` und `--abgleich`: beide HTTP 401, fuenfundzwanzigster Tag.
+Queues: sync-tasks macbook-pro 0, mac-mini ein **angehaltener** Task vom 30.08.
+(Laufzeitschicht-Umbau Phasen 0 bis 2), remote-tasks pending 0.
+
+**Aktionen.**
+
+(A4) Fristen-Register um vier Eintraege ergaenzt: Steinmann-Tagesfrist samt Ursache der Luecke,
+Termin 07.09. 09:15, NAS-Mount-Nachtrag, Wege-Grenzen. Dieser Logbuch-Eintrag.
+
+**Nicht ausgefuehrt, mit Grund.** (A1) Mahnaktion: Guard nicht bestanden, der `--abgleich`
+antwortet 401, es wurde nichts gebucht und nichts gemahnt. (A5) Mail-Entwurf Nachfassen A. Spahic:
+Anlage im Postfach ueber Graph scheitert mit **403** (App hat `Mail.Send`, nicht `Mail.ReadWrite`);
+der Entwurf ging stattdessen als Volltext ins Briefing. (A2) Die drei Kalendereintraege aus dem
+Radar-Vorschlag waren in diesem Lauf technisch nicht setzbar und stehen als Vorschlag im Briefing.
+
+**Briefing gesendet, ueber den Ersatzweg.** Apple Mail ist blockiert, deshalb Weg 2 (Graph,
+m365-CLI, `--sender` gesetzt). Der Ersatzweg ist im Briefing selbst benannt. Nachgemessen am
+Original in den Gesendeten von rj@: **Hauptbriefing 09:13:34, 7095 Bytes / 6439 Textzeichen**,
+Betreff «Hub-Chef 01.09.2026: Freigabe Therapiekueche bis Mittag, Termin 10:00».
+
+**Nachtrag als zweite Mail, bewusst und begruendet.** Nach dem Versand fiel auf, dass **heute der
+letzte Zustelltag fuer R. Steinmann** ist (Nova Property, abwesend 03.09. bis 21.09.) und dass
+weder der Radar noch das Hauptbriefing ihn nannten. Die Erinnerung dafuer war am 29.08. als A2
+gesetzt worden, aber im Apple-Kalender «Arbeit» — der Graph-Weg sieht sie nicht. Nach der
+Sende-Schwelle des Skills wird eine Korrektur des eigenen Briefings gemailt, wenn der Fehler
+Raphaels Handeln beeinflusst haette; das ist hier der Fall. **Nachtrag 09:19:19, 1480 Bytes /
+1295 Textzeichen**, ebenfalls am Original nachgemessen.
+
+**Lehre fuer den naechsten Lauf.** Solange die Automatik auf Graph ausweicht, sind alle im
+Apple-Kalender gesetzten A2-Erinnerungen fuer sie unsichtbar. Ein Lauf, der Erinnerungen dort
+ablegt und sie am naechsten Tag ueber Graph sucht, verliert sie systematisch. Der Punkt ist im
+Register als eigene Ursache festgehalten, nicht nur als Einzelfall.
+
 ## Radar-Briefing 01.09.2026 (06:55, Kanal Logbuch, Weitergabe durch den Hub-Chef um 08:39)
 
 **Lagebild in einem Satz:** Der Vorgang, der gestern der schärfste war, hat sich über Nacht von selbst gelöst — die sieben Türmatrix-Korrekturen sind schriftlich bereinigt, pünktlich zum Produktionsstart —, dafür ist eine neue Tagesfrist entstanden, die niemand angekündigt hatte: die Therapieküche braucht die Freigabe bis heute Mittag.
