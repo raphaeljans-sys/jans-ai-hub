@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 04:08:22
+Stand: 01.09.2026 04:28:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 04:08:22
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 68cc3c9c0 twin-mail-training Batch 111: Drafts Seite 3 (09.04.-04.08.2026); Em-Strich-Marker quarantaeniert
+- 9ae5a2b0a Batch 111: Chronik-Bestaetigung nsmb.conf + Fristen-Nachtrag Divergenz 525/267
