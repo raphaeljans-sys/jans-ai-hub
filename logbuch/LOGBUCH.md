@@ -10367,5 +10367,8 @@ masse-Effekt 30/50 % quantifiziert, Minergie-Nachweisvarianten 100 vs. SIA 400 S
 diges, vom Bau-Zertifikat unabhaengiges Zusatzzertifikat — Verwechslungsgefahr aufgeloest), zwei
 neue Bauherren-FAQ (F266/F267). E-R169-4 in `QUESTIONS.md` auf ✓ gesetzt; E-R169-5 (ElCom-Weisung)
 und E-R169-6 (VSE-HER) sowie die 2026er-Minergie-Begleitdokumente (Anwendungshilfe 2026.2 u.a.)
-bleiben offen fuer den naechsten energie-Lauf. CHANGELOG nachgefuehrt, Commit ueber
-`nas-commit-now.sh` folgt. Budget rund 3.2 von 5 USD, Zyklus beendet.
+bleiben offen fuer den naechsten energie-Lauf. CHANGELOG nachgefuehrt. Commit ueber
+`nas-commit-now.sh` (`d39aefe17`) auf dem NAS verifiziert erfolgreich (kein `MERGE_HEAD`,
+sauberer Arbeitsbaum); Push nach GitHub scheiterte wie in jedem heutigen Lauf an der
+bestehenden P1-Divergenz (Befund B6) — keine neue Diagnose, nicht selbst aufgeloest. Budget
+rund 4.1 von 5 USD, Zyklus beendet.
