@@ -26,7 +26,7 @@ Nachfuehrung in `[[ahb-zuerich-gt-rl8-beleuchtung]]`, beiden INDEX-Dateien und d
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R171-1 (P1, methodisch): Zwei Laeufe in Folge haben einen Punkt als offen bearbeitet, der
+- [x] **E-R171-1 (P1, methodisch): Zwei Laeufe in Folge haben einen Punkt als offen bearbeitet, der
   es nicht war — die Fehl-Offen-Diagnose ist keine Einzelpanne mehr, sondern ein Muster.**
   Run 170 fand Teil 2 von E-R169-1 (Rueckliefervergütung) seit dem 17.07.2026 vollstaendig
   destilliert; Run 171 fand E-R169-2 (BD LEG – CH 2025 V2) seit dem 13.07.2026 vollstaendig gelesen,
@@ -43,6 +43,16 @@ Nachfuehrung in `[[ahb-zuerich-gt-rl8-beleuchtung]]`, beiden INDEX-Dateien und d
   Abgleich gegen `destillate/*.md` Frontmatter), analog `datenstand-waechter.py`. **Kosten des
   Unterlassens sind belegt:** zwei Laeufe haben je einen erheblichen Teil ihrer Zeit mit dem Nachweis
   verbracht, dass bereits vorhandenes Wissen vorhanden ist.
+  **✓ 2026-09-01 (Nachtschicht Mac Mini, Versuchs-Slot 13:30):** Werkzeug gebaut,
+  `wissen/tools/fehloffen-waechter.py` (siebtes Werkzeug im Wissens-Layer, Frage «Redundanz»).
+  Gegen synthetische Fixtures verifiziert (findet den Motivationsfall «BD LEG – CH 2025 V2»,
+  ignoriert abgehakte und thematisch unabhaengige Eintraege sowie Teillese-Destillate). Ein erster
+  Testlauf gegen `energie` warf einen Fehlalarm (Wortueberschneidung «AHB»/«Merkblatt», zu haeufig
+  um zu unterscheiden) — behoben mit einem Dokumentfrequenz-Filter statt gepflegter Stopwortliste.
+  Volllauf `energie`+`normen`: **0 Befunde**, plausibel, da E-R169-1/E-R169-2 bereits von Hand
+  geschlossen sind. Details und Abnahmestand: `wissen/tools/README.md`. Aufruf fuer kuenftige
+  Laeufe: **vor dem Schreiben eines neuen «noch nicht gelesen/destilliert/noch offen»-Eintrags**
+  `python3 wissen/tools/fehloffen-waechter.py energie` laufen lassen.
 - [ ] **E-R171-2 (P2): Die beiden Lichtnormen hinter den Schwimmbad-Kennwerten sind Sekundaerbeleg.**
   **SLG 305 Teil 5** (Beleuchtung von Sportanlagen, Hallen- und Freibaeder) traegt den Wert
   **ca. 1'100 lm/m3** fuer Wettkampf, **EN 12193** (Sportstaettenbeleuchtung) die Klassensystematik

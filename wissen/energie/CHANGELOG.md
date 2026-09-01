@@ -1,5 +1,28 @@
 # CHANGELOG
 
+## 2026-09-01 (Nachtschicht Mac Mini, Versuchs-Slot 13:30) — E-R171-1 mechanisiert: Werkzeug `fehloffen-waechter.py`
+
+- **Neu (kb-uebergreifend):** `wissen/tools/fehloffen-waechter.py` — siebtes Pruefwerkzeug im
+  Wissens-Layer, Frage «Redundanz»: ist ein als offen gemeldeter QUESTIONS-Eintrag («noch nicht
+  gelesen»/«nicht destilliert»/«noch offen») bereits durch ein eigenes Destillat beantwortet?
+  Vorschlag aus E-R171-1 (Run 171) mechanisiert. Registriert in `wissen/tools/README.md` mit
+  Motivation, Funktionsweise und Abnahmestand.
+- **Verifikation:** synthetische Fixtures (findet den realen Motivationsfall «BD LEG – CH 2025 V2»
+  nachgebaut, ignoriert abgehakte/unabhaengige Eintraege und Teillese-Destillate). Ein erster
+  Testlauf gegen die echte KB warf einen Fehlalarm (generische Wortueberschneidung
+  «AHB»/«Merkblatt») — behoben mit einem Dokumentfrequenz-Filter (Woerter in >5 % der Destillate
+  zaehlen nicht mehr). Volllauf `energie`+`normen`: 0 Befunde (plausibel, die beiden real
+  belegten Faelle E-R169-1/E-R169-2 sind bereits von Hand geschlossen).
+- **QUESTIONS.md:** E-R171-1 auf ✓ gesetzt, mit Verweis auf das Werkzeug und der Handlungsanweisung
+  fuer kuenftige Laeufe (Waechter laufen lassen, bevor ein neuer Fehl-Offen-verdaechtiger Eintrag
+  geschrieben wird).
+- **Kein TRANSFER/VERDICHTUNG in diesem Zyklus:** dieser Lauf hat bewusst die P1-Empfehlung aus
+  Run 171 («E-R171-1 zuerst») statt der naechsten PDF-Destillation bearbeitet. Fuer den naechsten
+  Lauf bleibt der P3-Rest der 169er-Reihe offen: E-R169-4 (Minergie-Broschueren + Anwendungshilfe
+  2026.2), E-R169-5 (ElCom-Weisung 4/2025 Volltext), E-R169-6 (VSE-HER-Anpassung) — bei allen
+  dreien zuerst den Bestand pruefen (jetzt mit dem neuen Werkzeug moeglich), bevor beschafft wird.
+- **Bericht:** `outputs/2026-09-01_fehloffen-waechter.md`.
+
 ## 2026-08-31 — Run 171: AHB-Merkblatt 384 destilliert, E-R169-2 als Fehl-Offen geschlossen
 
 - **Neu:** `destillate/ahb-merkblatt-384-beleuchtung-hallenbaeder-2024.md` — Stadt Zuerich AHB,

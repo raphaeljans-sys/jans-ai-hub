@@ -1,6 +1,6 @@
 # wissen/tools — Prüfwerkzeuge für den Wissens-Layer
 
-Sechs Werkzeuge, die je eine andere Frage an eine Wissensbasis stellen. Sie ersetzen einander
+Sieben Werkzeuge, die je eine andere Frage an eine Wissensbasis stellen. Sie ersetzen einander
 nicht: eine KB kann strukturell tadellos sein, alle Adressen erreichbar haben, jeden Link
 sauber ans Ziel bringen und trotzdem falsche Zahlen führen.
 
@@ -12,8 +12,9 @@ sauber ans Ziel bringen und trotzdem falsche Zahlen führen.
 | `link-zielabgleich.sh` | **Ziel** — landet ein Link dort, wo er hinzeigt? | 23.08.2026 |
 | `bezugsgroessen-check.py` | **Nenner** — trägt jede Quote ihre Bezugsgrösse, und ist der Wert überhaupt möglich? | 23.08.2026 |
 | `datenstand-waechter.py` | **Alter** — kommt die Zahl mit ihrem Alter beim Leser an? | 23.08.2026 |
+| `fehloffen-waechter.py` | **Redundanz** — ist eine als offen gemeldete Frage bereits durch ein eigenes Destillat beantwortet? | 01.09.2026 |
 
-Alle sechs melden mit `Exit 1`, wenn es Befunde gibt, und mit `0`, wenn nicht — sie eignen sich
+Alle sieben melden mit `Exit 1`, wenn es Befunde gibt, und mit `0`, wenn nicht — sie eignen sich
 also für einen Wartungslauf.
 
 ## Warum die zwei neuen (23.08.2026, aus dem Audit der KB energie)
@@ -51,6 +52,7 @@ bash wissen/tools/wiki-konsistenz.sh    [<kb> …]
 bash wissen/tools/link-frischecheck.sh  <kb> [--out <datei.tsv>]
 bash wissen/tools/kennwert-recompute.sh [<kb> …] [--toleranz <prozent>] [--hub <pfad>] [--raw]
 bash wissen/tools/link-zielabgleich.sh  <kb> [--hub <pfad>] [--out <datei.psv>]
+python3 wissen/tools/fehloffen-waechter.py [<kb> …] [--hub <pfad>]
 ```
 
 Ohne `<kb>` prüfen `wiki-konsistenz` und `kennwert-recompute` alle Wissensbasen mit `wiki/`.
@@ -183,3 +185,55 @@ bereits als D10 geführten Zellen plus die neue Lanzeln-Zelle), **null Fehlalarm
 Bewusst zwei Dateien: der Parser braucht reguläre Ausdrücke mit Anführungszeichen und
 Backslashes, und ein Python-Block in einem Bash-Heredoc wird dabei unlesbar — beim Schreiben
 des ersten Entwurfs hat genau das die Datei zerstört.
+
+## Warum es `fehloffen-waechter` gibt
+
+Aus Befund **E-R171-1** der KB `energie` (`wissen/energie/wiki/QUESTIONS.md`, Run 171,
+30./31.08.2026): zwei Läufe in Folge (170, 171) haben je einen Punkt als «noch nicht
+gelesen»/«nicht destilliert» bearbeitet und einen erheblichen Teil ihrer Zeit mit dem Nachweis
+verbracht, dass bereits vorhandenes Wissen vorhanden ist — die Widerlegung stand beide Male
+wörtlich im Frontmatter-Feld `gelesen:` eines eigenen Destillats. Beide Fehleinträge stammen aus
+demselben Ursprungslauf und derselben Quellenfamilie: kein Einzelfall der Sorgfalt mehr, sondern
+ein Muster, das an der **Entstehung** des QUESTIONS-Eintrags ansetzen muss, nicht erst dort, wo
+ein späterer Lauf ihn aufgreift.
+
+### Was geprüft wird
+
+Für jeden **offenen** QUESTIONS-Eintrag (`- [ ]`) mit einer der drei Formulierungen («noch nicht
+gelesen», «nicht destilliert», «noch offen») werden fett gesetzte und `[[verlinkte]]` Begriffe
+extrahiert und gegen die Frontmatter-Felder `quelle`/`titel` sowie den Dateinamen jedes
+Destillats abgeglichen. Bei mindestens zwei gemeinsamen Wörtern/Codes UND einem Feld `gelesen:`
+ohne Teillese-Marker («nicht vollst…», «nur auszugsweise», «Seiten X-Y (Teil») gilt der Treffer
+als Fehl-Offen-Verdacht.
+
+**Zwei Wortarten zählen, nicht nur lange Sachwörter.** Der reale Fall E-R169-2 trug als Kennung
+«BD LEG – CH 2025 V2» — fast nur Abkürzungen und eine Versionsmarke, kein einziges Wort mit vier
+Buchstaben. Ein erster Entwurf, der nur Wörter ab vier Buchstaben zählte, fand genau diesen
+Motivationsfall nicht. Gezählt werden darum zusätzlich Grossbuchstaben-Abkürzungen (`BD`, `LEG`,
+`CH`) und Versions-/Jahresmarken (`V2`, `2025`).
+
+**Dokumentfrequenz statt gepflegter Stopwortliste.** Wörter, die in mehr als 5 % der Destillate
+einer KB vorkommen (mindestens 5 Treffer), zählen nicht mehr für den Abgleich. Ohne diesen Filter
+meldete ein erster Testlauf über `energie` einen Fehlalarm: ein QUESTIONS-Eintrag erwähnte
+beiläufig «AHB-Merkblatt», und «ahb» + «merkblatt» kommen in gut einem Fünftel aller
+energie-Destillate vor — die beiden Wörter überschnitten sich mit zwei beliebigen
+AHB-Merkblatt-Destillaten, ohne dass der Eintrag deren Quelle tatsächlich meinte. Die
+Dokumentfrequenz-Schwelle braucht kein Domain-Tuning und passt sich jeder KB automatisch an.
+
+### Bewusste Grenzen
+
+- **Meldet Kandidaten, keine Urteile** (gleiche Konvention wie die übrigen sechs Werkzeuge). Vor
+  dem Schliessen eines QUESTIONS-Eintrags das Destillat selbst gegenlesen (Rule
+  `auto-verbesserungen` 260729b: ein Agentenbefund ist ein Verdacht, kein Vollzug).
+- Reine Wortüberschneidung, kein semantisches Verständnis — ein Eintrag, der ein Dokument mit
+  völlig anderen Worten beschreibt als sein Destillat, wird nicht gefunden.
+- Prüft nur `destillate/` gegen `wiki/QUESTIONS.md` derselben KB — keine Cross-KB-Prüfung.
+
+### Abnahmestand 01.09.2026
+
+Volllauf über die beiden KBs mit `destillate/` (`energie`, `normen`): **0 Befunde** — die zwei
+real belegten Fälle (E-R169-1, E-R169-2) waren zum Zeitpunkt des Baus bereits durch die Läufe
+170/171 von Hand aufgelöst. Am synthetischen Nachbau des Motivationsfalls («BD LEG – CH 2025 V2»,
+Frontmatter `gelesen: vollstaendig …`) meldet das Werkzeug korrekt 1 Treffer; ein abgehakter
+(`- [x]`) und ein thematisch unabhängiger Eintrag werden korrekt nicht gemeldet; ein Destillat mit
+Teillese-Marker im Feld `gelesen:` wird korrekt nicht gemeldet.
