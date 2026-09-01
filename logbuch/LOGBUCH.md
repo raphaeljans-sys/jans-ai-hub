@@ -10350,3 +10350,22 @@ verifiziert erfolgreich (kein `MERGE_HEAD`, sauberer Arbeitsbaum); Push nach Git
 wie erwartet an der bestehenden P1-Divergenz (Befund B6) — keine neue Diagnose, nicht selbst
 aufgeloest. Fuer den naechsten energie-Lauf bleibt der P3-Rest der 169er-Reihe offen (E-R169-4/-5/-6).
 Budget rund 3.3 von 5 USD, Zyklus beendet.
+
+## 2026-09-01 23:3x Nachtschicht Mac Mini
+
+Prioritaeten 1-3 leer bzw. nicht umsetzbar: `remote-tasks/pending/` und `sync-tasks/mac-mini/`
+ohne offene Task (einziger Sync-Task weiterhin `.angehalten`, wartet auf Raphaels Entscheid zur
+P1-Git-Divergenz, nicht selbst aufgeloest); Synobsis Stufe 2 bereits im 05:3x-Lauf heute neu
+indexiert (853/853 deckungsgleich), kein weiterer Lauf noetig; Fristen-Register ohne neuen,
+undokumentierten Punkt. Prioritaet 4 (naechste faellige Trainingslektion): energie hatte aus dem
+13:3x-Lauf den P3-Rest der 169er-Reihe vorgemerkt — **E-R169-4** umgesetzt (zwei bislang
+unerschlossene Minergie-Wissen-Broschueren, «Sommerlicher Waermeschutz» und «Messen. Steuern.
+Optimieren.», via curl geladen und SHA-256-geprueft, vollstaendig gelesen). Zwei neue Destillate,
+verdichtet in die Wiki-Artikel `sommerlicher-waermeschutz` (SIA-180-Komfortdefinition, Speicher-
+masse-Effekt 30/50 % quantifiziert, Minergie-Nachweisvarianten 100 vs. SIA 400 Stunden) und
+`minergie-standards` (Monitoring-Pflicht seit 2017, Zertifikat Minergie-Betrieb als eigenstaen-
+diges, vom Bau-Zertifikat unabhaengiges Zusatzzertifikat — Verwechslungsgefahr aufgeloest), zwei
+neue Bauherren-FAQ (F266/F267). E-R169-4 in `QUESTIONS.md` auf ✓ gesetzt; E-R169-5 (ElCom-Weisung)
+und E-R169-6 (VSE-HER) sowie die 2026er-Minergie-Begleitdokumente (Anwendungshilfe 2026.2 u.a.)
+bleiben offen fuer den naechsten energie-Lauf. CHANGELOG nachgefuehrt, Commit ueber
+`nas-commit-now.sh` folgt. Budget rund 3.2 von 5 USD, Zyklus beendet.
