@@ -1,5 +1,49 @@
 # CHANGELOG
 
+## 2026-09-01 — Run 172: Fehl-Offen Typ 2 (acht Faelle) mechanisiert; E-121-2 als Scheinwiderspruch geschlossen
+
+- **Hauptbefund:** Der Health-Check von heute meldete als **Top-1-P1** die unbearbeitete
+  KBOB-v9.0-Pruefung (E-R162-1) — sie war am 25.08.2026 in Run 163 mit Beleg geschlossen, nur die
+  Checkbox war nie gesetzt. Die Nachpruefung fand **acht** solcher Eintraege aus den letzten zwei
+  Wochen (E-R162-1, E-R164-1, E-R164-2, E-R165-1, E-R166-3, E-R166-6, E-R167-4, E-R167-6), jeder
+  mit Datum und Beleg weiter oben in derselben Datei. Alle acht abgehakt, je mit Nachtrag auf die
+  urspruengliche Fundstelle. Die acht echten Dauerbrenner (E-R148-1, E-R161-1, E-R230-2, E103,
+  E94, E-R134-3, E-R150-3, E-R166-2) blieben unangetastet — sie nennen ihren Grund selbst.
+- **Werkzeug (kb-uebergreifend):** `wissen/tools/fehloffen-waechter.py` prueft ab heute **zwei
+  Typen**. Typ 1 (aus Run 171): beantwortet ein eigenes Destillat die Frage? Typ 2 (neu): hat ein
+  spaeterer Lauf sie im selben Journal beantwortet, ohne abzuhaken? Zwei Filter, beide an echten
+  Faellen geeicht — Kontextfenster ueber die Schliess-Zeile plus zwei Folgezeilen (die Sammelzeilen
+  brechen mitten im Satz um, Teilschliessungen nennen den Vorbehalt erst im Folgesatz) und eine
+  Pruefung der Selbstauskunft des offenen Eintrags. **Der erste Filterentwurf unterdrueckte zwei
+  der acht echten Faelle**, weil er Stichworte statt Wendungen prueft («Normkauf» kommt auch in
+  «kein Normkauf-Blocker» vor); enger gefasst und gegen den rekonstruierten Vorzustand
+  abgenommen: 8/8 gefunden, 0 Fehlalarme im bereinigten Stand, 0 in der KB `normen`.
+  `wissen/tools/README.md` nachgefuehrt.
+- **E-121-2 geschlossen (seit 03.08.2026 offen, in zwei Health-Checks der einzige
+  Widerspruchsbefund der KB):** Der Klimareferenz-Widerspruch ist ein **Scheinwiderspruch**.
+  8,5 °C / 8 % pro K und 9,4 °C / 6 % pro K meinen dieselbe Groesse (Referenz-Jahresmitteltemperatur
+  θea und Temperaturkorrekturfaktor der Formel Q_H,li), gehoeren aber zu SIA 380/1:**2009** bzw.
+  :**2016** und sind je fuer ihre Ausgabe korrekt; keine Fundstelle belegt denselben Normstand mit
+  zwei Werten. Fuer aktuelle Nachweise gilt ausschliesslich 9,4 °C / 6 % pro K. Beide Belegketten im
+  Hauptkontext selbst am Frontmatter gegengelesen (Rule 260729b), nicht auf den Agentenbefund hin
+  ediert. Eingearbeitet in `wiki/bezugsgroessen-energienachweis.md`, das Frontmatter von
+  `destillate/gebaeudehuellziffer-ebf-flaechendefinition.md`, `destillate/INDEX.md` und FAQ **F198**.
+  Abschlussregel mit Schreibvarianten-Durchgang: 0 Treffer der alten Einordnung.
+- **Verdichtung:** FAQ **F265** neu («Wir haben eine aeltere Energieberechnung im Projekt — ist die
+  noch gueltig?») mit dem Erkennungstest 8,5 °C = abgeloeste Ausgabe 2009 / 9,4 °C = geltende
+  Ausgabe 2016 und der Abgrenzung, was aus alten Unterlagen brauchbar bleibt; **F60** um einen
+  Erkennungs-Absatz geschaerft; **F198** von «nicht geglaettet» auf «geklaert» gesetzt
+  (Vorbehalt 2 bleibt).
+- **Schreibregel:** `destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md` Z. 200
+  «Groß-/Kleinschreibung» → «Gross-/Kleinschreibung» (seit 03.08.2026 gemeldet).
+- **Pflichtpruefungen:** wiki-konsistenz 20 Rohtreffer/0 echte · bezugsgroessen 135 Kandidaten
+  (Bestandsliste) · datenstand 35 (alle quittiert) · kennwert-recompute 0 · fehloffen Typ 1 0.
+- **Neu offen:** **E-R172-1** (P2 — die Typ-2-Pruefung heilt den Fall immer einen Tag zu spaet;
+  der eigentliche Griff ist das Abhaken beim Schreiben des Schliess-Absatzes), **E-R172-2** (P3 —
+  der Skill `wissenscheck` liest QUESTIONS-Checkboxen als Wahrheit und sollte den Typ-2-Lauf in
+  seine mechanische Vorpruefung aufnehmen; betrifft alle 19 KBs).
+- **Bericht:** `outputs/2026-09-01_energie-run172.md`.
+
 ## 2026-09-01 — Monatlicher Wissens-Health-Check (Phase 1): A1·B0(20 triagierte Werkzeug-Rohtreffer)·C0·D0·E1·F3·G1 — Top-Fund KBOB v9.0 in zwei Bauteil-Destillaten noch nicht gegengeprueft (E-R162-1), ss-Verstoss in vkf-richtlinie-22-15-blitzschutzsysteme.md seit 03.08. unveraendert offen. Report: `outputs/2026-09-01_health-check.md`.
 
 ## 2026-09-01 (Nachtschicht Mac Mini, Versuchs-Slot 13:30) — E-R171-1 mechanisiert: Werkzeug `fehloffen-waechter.py`

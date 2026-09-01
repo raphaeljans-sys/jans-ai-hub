@@ -185,6 +185,16 @@ OFFEN_SIGNAL = re.compile(
     r"neu er[oö]ffnet|Zwischenstufe bleibt|bleibt bestehen",
     re.IGNORECASE,
 )
+# Enger als OFFEN_SIGNAL: nur Wendungen, mit denen ein Eintrag AUSDRUECKLICH sagt, dass er
+# offen BLEIBT. Bewusst ohne "Normkauf"/"Negativbefund"/"Raphael" als blosse Stichworte — die
+# stehen auch in Eintraegen, die genau deshalb offen WAREN und laengst geschlossen wurden
+# (gemessen an E-R162-1 «kein Normkauf-Blocker» und E-R167-6 «wenn nur noch Negativbefunde»).
+BEWUSST_OFFEN = re.compile(
+    r"Entscheid Raphaels|Beschaffungsentscheid|Entscheid gebunden|bleibt offen|bleiben offen|"
+    r"Zwischenstufe bleibt|bleibt bestehen|nicht geschlossen|"
+    r"(unver[aä]ndert|weiterhin) blockiert",
+    re.IGNORECASE,
+)
 SIEHE = re.compile(r"siehe\s*$|s\.\s*$|vgl\.\s*$", re.IGNORECASE)
 
 
@@ -201,7 +211,21 @@ def pruefe_kennungen(wurzel, kb, melde):
         if m:
             offen.setdefault(m.group(1), []).append(nr)
 
+    def eigener_block(start):
+        """Text des eigenen Bullet-Blocks (fuer die Selbstauskunft des Eintrags)."""
+        i = start
+        ende = i + 1
+        while ende < len(zeilen) and zeilen[ende].strip() and not zeilen[ende].startswith(
+            ("- [", "#", "**")
+        ):
+            ende += 1
+        return " ".join(zeilen[i - 1 : ende])
+
     for kennung, eigene in offen.items():
+        # Sagt der Eintrag selbst, warum er offen BLEIBT (Beschaffungsentscheid, Teilschliessung,
+        # Normkauf), ist er kein Fehl-Offen, sondern ein bewusst gehaltener Punkt.
+        if BEWUSST_OFFEN.search(eigener_block(eigene[0])):
+            continue
         # Wortgrenze rechts: E46 darf nicht auf E46-2 passen
         muster = re.compile(re.escape(kennung) + r"(?![\w-])")
         for nr, zeile in enumerate(zeilen, 1):

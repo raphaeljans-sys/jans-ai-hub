@@ -2699,6 +2699,16 @@ ein Jahr verstrichen, ohne dass eine neue SIA-380/1-Ausgabe erschienen ist. Für
 heisst das: **kein bevorstehendes, terminiertes Ereignis**, sondern ein offenbar ins Stocken
 geratener Vorschlag — keine Frist daraus ableiten.
 
+**Woran Sie im Dokument erkennen, welche Ausgabe dahintersteht** (ergänzt 2026-09-01, aus
+E-121-2): Der zuverlässigste Marker ist die **Klimareferenz**. Steht im Nachweis, in der
+Berechnungsvorlage oder im Infoblatt eine Referenz-Jahresmitteltemperatur von **8,5 °C** und
+eine Temperaturkorrektur von **8 % pro Kelvin**, ist die Grundlage die alte Ausgabe **2009**.
+Die geltende Ausgabe **2016** rechnet mit **9,4 °C** und **6 % pro Kelvin**. Das ist keine
+Rundungsdifferenz: die wärmere Referenztemperatur und die schwächere Korrektur verschieben den
+zulässigen Grenzwert Q_H,li, und zwar je nach Standorthöhe in unterschiedliche Richtungen. Bei
+einem übernommenen Rechenblatt oder einer älteren Vorlage lohnt dieser eine Blick, bevor man das
+Ergebnis weiterverwendet.
+
 **Quelle:** Web-Sekundärquellen (SIA-Shop-Produktmetadaten SIA 380/1:2016 + espazium.ch-
 Fachartikel Mennel/Friedli, 23.03.2017) → `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`,
 emerging; Harmonisierungs-Statusbericht im Volltext → `[[sia-harmonisierung-standardwerte-gebaeudekategorien-2019]]`,
@@ -9282,3 +9292,46 @@ Fusszeile und PDF-Metadaten ausgewertet. Destillat mit vollständiger Tabelle:
 **Bauherren-Transfer:** Vor der Beckenzeichnung ist zu entscheiden, ob die Anlage Wettkämpfe tragen soll. Fällt der Entscheid später, sind die Folgen nicht auf die Leuchten begrenzt: mehr Lichtstrom heisst mehr Unterwasserleuchten, also mehr Nischen im Beton, grössere Anschlussleistung und ein anderer Verteiler. Ein Nachrüsten auf Wettkampfniveau ist an einem fertigen Becken praktisch ausgeschlossen. Umgekehrt gilt: wer keinen Wettkampfbetrieb plant, sollte auch nicht dafür bauen — der Faktor 10 schlägt auf Investition und Betriebskosten durch. Ein tragfähiger Mittelweg ist, die Beckenkonstruktion für die spätere Nachrüstung vorzubereiten (Nischen und Leerrohre setzen), die Leuchten aber nur für den Badebetrieb zu bestücken; das ist beim Bauherrn ausdrücklich als Variante zu benennen, damit der Entscheid bewusst fällt.
 
 **Quelle:** Stadt Zürich, Amt für Hochbauten, Merkblatt M-System-Nr. 384, Oktober 2024, Kap. 3 und Literaturverzeichnis [6] (SLG 305 Teil 5), gelesen 31.08.2026. Der Wert 1'100 lm/m3 ist über das Merkblatt belegt, nicht an der kostenpflichtigen Primärnorm SLG 305 gegengelesen. Destillat: `[[ahb-merkblatt-384-beleuchtung-hallenbaeder-2024]]`. Aufgenommen 31.08.2026 (Run 171).
+
+
+## F265 — «Wir haben eine ältere Energieberechnung im Projekt — ist die noch gültig, oder muss sie neu gerechnet werden?»
+
+**Kurz:** Prüfen Sie **eine einzige Zahl**: die Referenz-Jahresmitteltemperatur im Rechenblatt.
+Steht dort **8,5 °C** (mit 8 % Korrektur pro Kelvin), stammt die Berechnung aus der abgelösten
+Ausgabe **SIA 380/1:2009** und ist für eine heutige Baueingabe **nicht mehr verwendbar**. Steht
+dort **9,4 °C** (mit 6 % pro Kelvin), ist sie auf der geltenden Ausgabe **2016** gerechnet. Das
+ersetzt keine Prüfung der übrigen Eingaben, aber es trennt in dreissig Sekunden die brauchbaren
+von den überholten Unterlagen.
+
+**Fachlich:** Der zulässige Heizwärmebedarf Q_H,li wird nicht absolut gesetzt, sondern über die
+Gebäudehüllziffer an die Gebäudeform gekoppelt und anschliessend über die Standorttemperatur
+korrigiert: Q_H,li = (Q_H,li0 + ΔQ_H,li · Ath/AE) · (1 − (θea − θ_ref) · k). Mit dem Wechsel von
+SIA 380/1:2009 auf :2016 änderten sich beide Klimaparameter dieser Korrektur — die Referenz
+θ_ref von 8,5 °C auf **9,4 °C** (neu nach SIA 2028) und der Faktor k von 8 %/K auf **6 %/K**.
+Im Kanton Zürich ist die Ausgabe 2016 die operative Vollzugsbasis seit dem Anforderungsprofil
+Version 16.01a vom 11.04.2017, fortgeführt über die Vollzugshilfe EN-102 (Ausgabe Januar 2020)
+und heute über EVEN. Ältere Vollzugshilfen, Infoblätter und Excel-Vorlagen kursieren weiter:
+die EnFK-Vollzugshilfe **EN-2 (Februar 2013)** und die ZH-Kursunterlage von 2009 rechnen beide
+noch mit 8,5 °C — sie sind fachlich korrekt für ihre Zeit, aber nicht für einen heutigen
+Nachweis. Ebenso das verbreitete EnerCoach-Infoblatt «Gebäudeform» in der Version 20170908_AG.
+
+**Bauherren-Transfer:** Der Fall tritt öfter auf, als man denkt — bei einem Projekt, das nach
+einem Unterbruch wieder aufgenommen wird, bei einer von der Vorgängerplanung übernommenen
+Machbarkeitsstudie, oder wenn ein Fachplaner mit einer eingespielten eigenen Vorlage rechnet.
+Wirtschaftlich ist die Frage relevant, weil der Grenzwert über die Dämmstärken und die
+Fensterqualität entscheidet: Wer auf einer überholten Grundlage optimiert, riskiert im
+schlechteren Fall eine Rückweisung im Bewilligungsverfahren und im besseren eine
+Umplanung im falschen Moment. Verlangen Sie deshalb bei jeder übernommenen Energieberechnung,
+dass **Normausgabe und Klimareferenz auf dem Deckblatt stehen** — das kostet den Fachplaner
+nichts und macht den Stand der Unterlage jederzeit prüfbar. Umgekehrt heisst der Befund nicht,
+dass alte Unterlagen wertlos wären: Flächen, Bauteilaufbauten und U-Werte bleiben verwendbar,
+neu zu rechnen ist die Grenzwert- und Korrekturstufe.
+
+**Quelle:** Ausgabenvergleich aus `[[sia-380-1-2016-aenderungen-gegenueber-2009]]` (established)
+und `[[enfk-en-102-waermeschutz-2018]]` (established, Ausgabe Januar 2020 auf Basis
+SIA 380/1:2016, gegengeprüft an der Kantonalen Energieverordnung Luzern, Anhang 1-3); die
+2009er-Werte belegt über `[[enfk-en-02-waermeschutz-2013]]`, `[[systemnachweis-kurs-zh-2009]]`
+und `[[bauphysik-heizwaermebedarf-kennwerte]]`. Aufgenommen 01.09.2026 (Run 172) beim Abschluss
+von E-121-2. ⚠ Die konkreten Q_H,li0/ΔQ_H,li-Zahlenwerte je Nutzungskategorie nach der Ausgabe
+2016 sind ohne gekauften Norm-Volltext nicht belegt (E-D8) — für eine bindende Zahl gilt die im
+Kanton verbindliche Vollzugshilfe, nicht diese Antwort.

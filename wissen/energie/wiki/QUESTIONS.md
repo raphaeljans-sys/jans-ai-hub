@@ -7838,3 +7838,51 @@ Klasse real ist. Danach A-BLIND Ränge 61-80.
   und boten es als autoritativen Ersatz für die schwache RHYMO-Quelle an. Seit dem 28.08.2026 trägt es
   `speculative` (normen Run 64). Nachtrag an beiden Stellen gesetzt; die materielle Aussage
   (GF = NGF + KF) bleibt unberührt und richtig — Run 64 fand **keinen falschen Wert**, nur Lücken.
+
+## Run 172 (01.09.2026) — Fehl-Offen Typ 2: acht geschlossene Punkte standen weiter als offen; E-121-2 aufgelöst
+
+**Ausgelöst durch den eigenen Health-Check von heute.** Er meldete als **Top-1-P1-Befund**, die
+KBOB-v9.0-Prüfung (E-R162-1) sei unbearbeitet — sie war am **25.08.2026 in Run 163 mit Beleg
+geschlossen** worden, nur die Checkbox war nie gesetzt. Die Nachprüfung ergab **acht** solcher
+Fälle, alle aus den letzten zwei Wochen: E-R162-1, E-R164-1, E-R164-2, E-R165-1, E-R166-3,
+E-R166-6, E-R167-4, E-R167-6. In jedem Fall stand die Schliessung samt Datum und Beleg weiter
+oben in derselben Datei.
+
+**Warum das mehr ist als Ordnungspflege.** Ein nicht abgehakter Eintrag ist maschinell nicht von
+einem echten Rückstand zu unterscheiden. Der Health-Check hat daraus einen P1 gebildet, der
+keiner war, und ihn Raphael als wichtigsten Punkt der Monatsprüfung vorgelegt. Der Vorlauf
+(Run 171, E-R171-1) hatte genau diese Familie schon erkannt und mechanisiert — aber für den
+**Typ 1** («ein Destillat beantwortet die Frage längst»). **Typ 2 ist der billigere und
+häufigere Fall: ein späterer Lauf hat die Frage beantwortet und es nur nicht abgehakt.**
+Der Waechter fand ihn nicht, weil er auf die drei Trigger-Formulierungen filtert und die
+Schliessung im selben Journal gar nicht anschaut.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R172-1 (P2, methodisch): Wer einen QUESTIONS-Punkt schliesst, hakt die Checkbox im
+  selben Lauf ab — mechanisch geprüft.** Umgesetzt als **Typ-2-Prüfung** in
+  `wissen/tools/fehloffen-waechter.py` (Abnahme: findet alle acht Fälle im rekonstruierten
+  Vorzustand, meldet null im bereinigten Stand, null in der KB `normen`). Offen bleibt die
+  Verhaltensseite: die Prüfung läuft erst im **nächsten** Lauf und heilt damit den Fall immer
+  einen Tag zu spät. Der eigentliche Griff ist, die Checkbox beim Schreiben des
+  Schliess-Absatzes zu setzen, nicht danach.
+- [ ] **E-R172-2 (P3, Werkzeug): Der Health-Check liest QUESTIONS-Checkboxen als Wahrheit.**
+  Er hat den Fehl-Offen-Eintrag ungeprüft zum Top-1-P1 erhoben, obwohl die Widerlegung 46 Zeilen
+  tiefer in derselben Datei stand. Vorschlag: Skill `wissenscheck` nimmt den Typ-2-Lauf in seine
+  mechanische Vorprüfung auf, bevor er Audit E/A bildet — dieselbe Stelle, an der er
+  `fehloffen-waechter` (Typ 1) heute schon aufruft. Betrifft alle 19 KBs, nicht nur `energie`.
+
+### In diesem Lauf geschlossen
+- [x] **E-121-2 — Klimareferenz-Widerspruch war ein Scheinwiderspruch** ✓ 2026-09-01. Details am
+  Ursprungseintrag (Abschnitt Run 121). Kurz: 8,5 °C / 8 % pro K und 9,4 °C / 6 % pro K meinen
+  dieselbe Grösse in zwei aufeinanderfolgenden Normausgaben (SIA 380/1:2009 bzw. :2016), beide
+  je für ihre Ausgabe korrekt. Für aktuelle Nachweise gilt ausschliesslich 9,4 °C / 6 % pro K.
+  Aufgelöst in `[[bezugsgroessen-energienachweis]]`, `[[gebaeudehuellziffer-ebf-flaechendefinition]]`,
+  `destillate/INDEX.md` und FAQ **F198**; verdichtet zu FAQ **F265** und einem
+  Erkennungs-Absatz in **F60**. Der Punkt stand seit 03.08.2026 offen und wurde in zwei
+  Health-Checks in Folge als einziger Widerspruchsbefund der KB gemeldet.
+- [x] **Schreibregel-Verstoss aus dem Health-Check vom 03.08.2026** ✓ 2026-09-01.
+  `destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md` Z. 200 schrieb «Groß-/Kleinschreibung»
+  in eigenem Methodiktext; korrigiert auf «Gross-/Kleinschreibung» (Rule `umlaute-konvention`:
+  ss statt ß). Vier Wochen und mehrere Läufe waren an der Stelle vorbeigegangen.
+

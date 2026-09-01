@@ -12,7 +12,7 @@ sauber ans Ziel bringen und trotzdem falsche Zahlen führen.
 | `link-zielabgleich.sh` | **Ziel** — landet ein Link dort, wo er hinzeigt? | 23.08.2026 |
 | `bezugsgroessen-check.py` | **Nenner** — trägt jede Quote ihre Bezugsgrösse, und ist der Wert überhaupt möglich? | 23.08.2026 |
 | `datenstand-waechter.py` | **Alter** — kommt die Zahl mit ihrem Alter beim Leser an? | 23.08.2026 |
-| `fehloffen-waechter.py` | **Redundanz** — ist eine als offen gemeldete Frage bereits durch ein eigenes Destillat beantwortet? | 01.09.2026 |
+| `fehloffen-waechter.py` | **Redundanz** — ist eine als offen gemeldete Frage bereits beantwortet? **Typ 1:** durch ein eigenes Destillat. **Typ 2:** durch einen späteren Lauf, der sie im selben Journal als geschlossen vermerkt, ohne die Checkbox abzuhaken (ergänzt 01.09.2026, Run 172 KB energie). | 01.09.2026 |
 
 Alle sieben melden mit `Exit 1`, wenn es Befunde gibt, und mit `0`, wenn nicht — sie eignen sich
 also für einen Wartungslauf.
@@ -237,3 +237,26 @@ real belegten Fälle (E-R169-1, E-R169-2) waren zum Zeitpunkt des Baus bereits d
 Frontmatter `gelesen: vollstaendig …`) meldet das Werkzeug korrekt 1 Treffer; ein abgehakter
 (`- [x]`) und ein thematisch unabhängiger Eintrag werden korrekt nicht gemeldet; ein Destillat mit
 Teillese-Marker im Feld `gelesen:` wird korrekt nicht gemeldet.
+
+## Warum `fehloffen-waechter` zwei Typen prüft (Nachtrag 01.09.2026, Run 172 der KB energie)
+
+Typ 1 entstand aus zwei Läufen, die je eine Quelle beschafften, die längst gelesen war. **Typ 2
+entstand einen Tag später aus dem umgekehrten Fall:** der monatliche Health-Check der KB
+`energie` meldete als wichtigsten Befund einen P1-Punkt, den ein Lauf sechs Tage zuvor mit Beleg
+geschlossen hatte — nur die Checkbox war nie gesetzt worden. Die Nachprüfung fand **acht** solche
+Einträge, alle aus den zwei Wochen davor.
+
+Beide Typen sind derselbe Fehler an verschiedenen Orten: **eine Antwort existiert im Haus und
+wird nicht gefunden.** Typ 1 sucht sie in den Destillaten, Typ 2 im Journal daneben. Typ 2 ist
+der billigere Fall — er braucht keine Sachwort-Heuristik, nur einen Abgleich der Kennung — und
+zugleich der häufigere, weil jeder Lauf, der einen Punkt schliesst, ihn erzeugen kann.
+
+**Zwei Filter halten die Meldung ehrlich**, beide an echten Fällen der KB `energie` geeicht:
+ein Kontextfenster über die Schliess-Zeile plus zwei Folgezeilen (die Sammelzeilen dieses
+Journals brechen mitten im Satz um, und eine Teilschliessung nennt ihren Vorbehalt erst im
+Folgesatz), und eine Prüfung der **Selbstauskunft** des offenen Eintrags: sagt er selbst, dass er
+offen bleibt («Beschaffungsentscheid Raphaels», «bleibt offen»), ist er kein Fehl-Offen. Der
+zweite Filter musste enger gefasst werden als der erste — die blossen Stichworte «Normkauf» und
+«Negativbefund» kommen auch in Einträgen vor, die genau deshalb offen *waren* und geschlossen
+wurden.
+

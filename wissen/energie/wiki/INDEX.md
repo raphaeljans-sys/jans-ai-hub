@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-08-23 (Run 161): 257 Kernfragen F1–F257 (lueckenlos, keine Duplikate, maschinell nachgezaehlt), 326 Destillate, 37 Wiki-Themenartikel**); ⚠ die Destillat-Zahl wurde in Run 116 nachgezählt und um eins nach unten korrigiert — die bisherige Serie hatte `destillate/INDEX.md` als Destillat mitgezählt; der Zuwachs von Run 115 auf 116 beträgt korrekt +4, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-09-01 (Run 172): 265 Kernfragen F1–F265 (maschinell nachgezaehlt), **341** Destillate, 37 Wiki-Themenartikel**; ⚠ die Zahl 342 in aelteren Berichten und im Health-Check vom 01.09.2026 zaehlt `destillate/INDEX.md` mit — derselbe Zaehlfehler, der schon in Run 116 korrigiert wurde); ⚠ die Destillat-Zahl wurde in Run 116 nachgezählt und um eins nach unten korrigiert — die bisherige Serie hatte `destillate/INDEX.md` als Destillat mitgezählt; der Zuwachs von Run 115 auf 116 beträgt korrekt +4, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
 
 ## Themen-Artikel
 Echte eigenständige Wiki-Artikel (`wiki/*.md`), 31 Stück.
@@ -634,3 +634,10 @@ Priorität für einen dedizierten Lauf, danach der Ordner `06_Richtlinien/Minerg
 **Stand PL-02:** **77 von 182** energierelevanten PDF destilliert (75 bis Run 132, **2 in Run 133**),
 **103 offen**; zusätzlich 7 in diesem Lauf geprüft und bewusst nicht einzeln destilliert (5 Dubletten
 + 2 ohne Bauherren-Fakt).
+
+**Nachtrag 01.09.2026 (Run 172):** **F265** neu (Erkennungstest fuer die Normausgabe einer
+uebernommenen Energieberechnung: 8,5 °C = abgeloeste Ausgabe SIA 380/1:2009, 9,4 °C = geltende
+Ausgabe :2016), **F60** um den Erkennungs-Absatz geschaerft, **F198** von «Widerspruch, nicht
+geglaettet» auf «geklaert» gesetzt. Grund: **E-121-2 geschlossen** — der seit 03.08.2026 gefuehrte
+Klimareferenz-Widerspruch ist ein Scheinwiderspruch (dieselbe Groesse in zwei Normausgaben).
+

@@ -2688,3 +2688,11 @@ BD LEG – CH 2025 V2 lag seit dem 13.07.2026 vollstaendig gelesen vor. Offen bl
 Folge haben einen bereits erledigten Punkt als offen bearbeitet; der Hebel liegt beim **Schreiben**
 eines «noch nicht gelesen»-Eintrags, nicht erst beim Aufgreifen. Danach der P3-Rest der 169er-Reihe,
 jeweils mit vorgeschalteter Bestandspruefung.
+
+## 2026-09-01 (Run 172) — Bestandspflege statt Transfer
+
+Kein neuer Korpus-Zugang. Der Lauf hat den Registrierfehler «Fehl-Offen Typ 2» erhoben und
+mechanisiert (acht Faelle, `wissen/tools/fehloffen-waechter.py`) und den seit 03.08.2026 offenen
+Klimareferenz-Widerspruch E-121-2 als Scheinwiderspruch aufgeloest (Normausgabenwechsel
+SIA 380/1:2009 → :2016). Verdichtet zu FAQ F265, F60 und F198.
+Bericht: `outputs/2026-09-01_energie-run172.md`.
