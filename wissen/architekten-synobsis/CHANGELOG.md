@@ -4,6 +4,24 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-09-01 (Mac Mini, Nachtschicht, Prioritaet 2) — Vektorindex neu gebaut, war seit 24.08. veraltet
+
+`catalog/vectors.npz` stammte vom 24.08.2026, `catalog/documents.jsonl` (die eigentliche
+Textquelle fuer die Embeddings) trug aber bereits 30 seither korrigierte Eintraege aus den
+Schub-Lane-Folgelaeufen 25.-29.08. (u.a. mehrere der dort behobenen Fehlextraktionen und
+Katalog-Kollisionen, siehe die Eintraege zu Christ_Gantenbein/Enzmann_Fischer/Miller_Maranta/
+Gigon_Guyer und den Sonderzeichen-Slugs). Die semantische Suche arbeitete damit fuer diese
+Faelle auf veraltetem, teils fehlerhaftem Text. `tools/synobsis_embed.py` neu gelaufen (kein
+`--reindex`, nur Neu-Embedding des bestehenden `documents.jsonl` — kein Rescan der NAS-Quelle,
+keine Veraenderung an Katalogdaten): `catalog/vectors.npz` jetzt 853 x 768, Stand 01.09.2026,
+deckungsgleich mit den 853 Zeilen in `documents.jsonl`. Stichprobe via
+`synobsis_query.py --semantic` liefert plausible Treffer. Offen bleiben zwei Katalogdateien
+(`Aando_Tadao.json`/`Tadao_Ando.json`), die NACH dem letzten `documents.jsonl`-Stand (29.08.
+21:15) nur um das additive Feld `duplikat_hinweis` ergaenzt wurden (Kreuzverweis zwischen den
+zwei eigenstaendigen Katalogdateien derselben Person) — kein Text-Feld, daher keine Auswirkung
+auf die Embedding-Qualitaet; ein voller `--reindex` bleibt weiterhin eine kapazitaetsabhaengige,
+budgetsprengende Aufgabe fuer einen dedizierten Lauf, nicht fuer die Nachtschicht.
+
 ## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, achter Folgelauf) — Doppelordner Tadao_Ando/Aando_Tadao dokumentiert, weiterhin keine offene Position in den vier Prioritaeten
 
 Eigener Grep-Durchgang bestaetigte vorab den Stand des siebten Folgelaufs (29.08.2026): alle vier
