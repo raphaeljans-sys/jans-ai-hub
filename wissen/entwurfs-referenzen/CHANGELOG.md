@@ -1,5 +1,9 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-09-01 (Claude Code Agent, unbeaufsichtigt) — Wissenscheck Phase 1: A0 · B0 · C0 · D0 · E0 · F0 · G0
+
+Letzter Check 25.08., 7 Tage Abstand, aktueller Stand stabil (Sachartikel established, keine Backlink-Befunde, Struktur sauber seit 23.08., Raw-Material leer). Report abgelegt: `outputs/2026-09-01_health-check.md`. Einziger offener Punkt bleibt Parameter-Set-ASCII-Frage (bewusst offen, Entscheid Raphael).
+
 ## 2026-08-25 (Nachtschicht Mac Mini, Versuchs-Slot 13:30) — Wissenscheck Phase 1: A0 B0 C0 D0 E0 F1 G0
 
 Faellig als aeltestes Health-Check-Datum unter den KBs ohne eigenen Taktgeber (letzter Check

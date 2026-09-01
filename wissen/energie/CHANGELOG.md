@@ -1,5 +1,7 @@
 # CHANGELOG
 
+## 2026-09-01 — Monatlicher Wissens-Health-Check (Phase 1): A1·B0(20 triagierte Werkzeug-Rohtreffer)·C0·D0·E1·F3·G1 — Top-Fund KBOB v9.0 in zwei Bauteil-Destillaten noch nicht gegengeprueft (E-R162-1), ss-Verstoss in vkf-richtlinie-22-15-blitzschutzsysteme.md seit 03.08. unveraendert offen. Report: `outputs/2026-09-01_health-check.md`.
+
 ## 2026-09-01 (Nachtschicht Mac Mini, Versuchs-Slot 13:30) — E-R171-1 mechanisiert: Werkzeug `fehloffen-waechter.py`
 
 - **Neu (kb-uebergreifend):** `wissen/tools/fehloffen-waechter.py` — siebtes Pruefwerkzeug im

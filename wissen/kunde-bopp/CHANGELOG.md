@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-01 (Claude Code Agent, unbeaufsichtigt) — Wissenscheck Phase 1: A1 · B4 (gekennzeichnet ok) · C0 · D0 · E0 · F1 · G2
+
+Letzter Check 19.08., 13 Tage Abstand. Befunde: (A1) Abschnitt «Aktuell offen» in `profil-christoph-bopp` seit 24.07. veraltet, soll gekürzt werden (bekannt seit 25.07. HC, Phase 2 nicht ausgefuehrt); (F1) CHANGELOG/CLAUDE.md/QUESTIONS.md haben ae/oe/ue statt echter Umlaute (121 Treffer, bekannt seit 19.08., Phase 2 nicht ausgefuehrt); (B4) vier Backlinks sind Vorwärtsverweise auf geplante Artikel, bewusst und 25.08. explizit gekennzeichnet, kein struktureller Fehler; (G2) zwei geplante Cluster-Artikel + ein Status-Promotion kandidat. Report abgelegt: `outputs/2026-09-01_health-check.md`.
+
 ## 2026-08-25 — Wissens-Chef Run 43: Vorwärtsreferenz als solche gekennzeichnet
 
 `wiki/profil-christoph-bopp.md` Z. 48 (1/1, Zeilenzahl 82/82): «Siehe [[auftrags-muster-bopp]].»

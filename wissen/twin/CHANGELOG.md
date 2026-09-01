@@ -4,6 +4,8 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-01 — Wissens-Health-Check (Phase 1): A0 · B8 · C1 · D0 · E0 · F3 · G3 — sechsfacher kaputter Backlink `[[260830-mailbatch-109]]` (raw-Datei als Wiki-Link zitiert), ss-Verstoss von 03.08. weiterhin unbehoben, Frontmatter aller sechs Facetten einen Tag hinter dem Body; Anrede-Spannungen (Nivellier-Klausel, Treffen-Klausel/Stadelmann) im Wiki sauber offen gehalten, kein Widerspruch. Report `outputs/2026-09-01_health-check.md`.
+
 ## 2026-09-01 — twin-fidelity-review: Fidelity 35; «kein Apparat» kompiliert, zweite Verdichtungsrunde
 
 **Golds:** `Drafts` Seite 4 (`offset: 75`), drei Entwuerfe — 26.03.2026 «AW: Bestellung

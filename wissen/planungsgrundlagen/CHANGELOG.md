@@ -2,6 +2,19 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-01 (Wissens-Health-Check, Skill `wissenscheck`, nur Phase 1) — strukturell weiterhin makellos, neuer Fund: Umlaut-Konvention driftet in frischen Lauf-Protokollen zurück
+
+A0 · B0 · C0 · D0 · E0 · F2 · G0. Keine Backlinks-/Coverage-/Aktualitätsbefunde bei 49
+Wiki-Artikeln (`wiki-konsistenz.sh` + `fehloffen-waechter.py`: keine Befunde); Connector-Wege/
+Flags von `geo-zh.mjs`/`geo-sz.mjs`/`behoerden-zh.mjs` decken sich mit den KB-Beschreibungen;
+`link-zielabgleich.sh` live neu gefahren (136 Deep-Links), nur die zwei bereits dokumentierten
+Fälle (`geoportal.zh.ch` Katchall, `mobilityplatform.ch/vss-shop`), keine neuen. E13
+(UTC-Datumsfalle) bestätigt weiterhin offen, wie vom Wartungslauf 03 desselben Tages gemeldet.
+**Neuer Fund F1:** der Umlaut-Fix vom 26.07.2026 (Run 91) war ein Einmal-Fix — neue
+CHANGELOG-/QUESTIONS-Einträge (u.a. der heutige Wartungslauf-03-Eintrag selbst, ~150
+Ersatzschreibungen) verwenden wieder ae/oe/ue statt ä/ö/ü. Keine Aktion in diesem Lauf (Phase 1
+only). Report: `outputs/2026-09-01_health-check.md`.
+
 ## 2026-09-01 (Wartungslauf 03, monatlicher Takt) — der SIA-Shop war nie tot, nur unvollstaendig zitiert; PL-02 erstmals seit Run 92 gewachsen
 
 Dritter Lauf als **maintainer** (Umwidmung 30.07.2026). Keine Wissensproduktion, keine

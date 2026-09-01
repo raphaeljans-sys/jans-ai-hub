@@ -2,6 +2,19 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-01 (Wissens-Health-Check, Phase 1) — A2 · B0 · C0 · D2 · E1 · F2 · G1
+
+Voller Report: `outputs/2026-09-01_health-check.md`. Kein neuer materieller Befund: T-Regelgeschoss
+und die Teuerungsanker-Doppelführung (D12/D15) bleiben als Fachentscheide Raphaels offen; T-Umlaut
+bestätigt gross und wächst nachweislich mit frischem Text statt zu schrumpfen (ertragswert-dcf.md
+56→67, realwert-sachwert.md 31→57 Vorkommen seit 22.08.). Neu hervorgehoben: vier Ingest-Cluster-
+Reports (~320 KB, 31.07.2026) liegen seit 32 Tagen unintegriert in `outputs/`. Ein mechanisch
+gemeldeter toter Link `[[outputs/…]]` in `wissensluecken.md` ist ein Falsch-Positiv (zitierter Text
+in einer historischen Notiz, kein aktiver Link). SREBI/IMPI seit dem letzten Check auf `established`
+promoviert; `az-gfz-kennwerte` als weicher Promotion-Kandidat vermerkt. Bring-Schulden-Abgleich
+(UBS-FS/Bodenpreise/Diskontsatz/Excel-Tools): Excel-Tools erledigt, Diskontsatz grösstenteils,
+Bodenpreise teilweise (nur noch Kt. SZ offen), UBS-FS weiterhin offen mit belegter Reihenfolge.
+
 ## 2026-09-01 (Marktpuls zum Stichtag) — der Termin ist eingelöst, und zwei Sackgassen sind aufgelöst
 
 Sieben `wiki/`-Dateien geändert, ein Report. Der One-Time-Task `immobewertung-marktpuls-260901`

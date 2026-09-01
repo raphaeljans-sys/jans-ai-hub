@@ -1,3 +1,5 @@
+## 2026-09-01 — Wissens-Health-Check (Phase 1): A0 (2 offene Altspannungen N63-3/N46-3-N65-5) · B0 (3 Skript-Falschpositive in QUESTIONS-Protokollprosa) · C3 (u.a. sia-416-2003 speculative ohne Warnhinweis bei 12 Konsumenten) · D0 · E0 · F3 (143/470 Dateien ae/oe/ue statt Umlaute, Status-Vokabular seit Run 52 unnormiert) · G0. Voller Report `outputs/2026-09-01_health-check.md`.
+
 ## 2026-08-29 (Run 76, Schub-Lane NORMEN-PRUEFSTAND, MacBook Pro) — neunter Doppel-Dispatch, weiterhin Nullbefund
 
 Neunter Auftrag Raphael mit identischem Wortlaut in Folge (Run 68-76), direkt auf dem

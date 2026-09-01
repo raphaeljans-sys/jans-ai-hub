@@ -1,5 +1,19 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-09-01 — Wissens-Health-Check (Phase 1)
+
+A0 · B2 · C0 · D0 · E0 · F3 · G1. Neu: `kevi-buerodrehstuhl.md` verlinkt fälschlich auf
+`[[REGISTER]]` (fremde KB `normen`) statt `[[INDEX]]`; zwei Möbel-Artikel (`ch24-wishbone-chair`,
+`matrah-moll-naturmatratze`) tragen `status: established` mit nur einer Quelle (Schreibregel-6-
+Verstoss); `cheminee-aufbau-hafnerarbeiten.md` hat ein stehen gebliebenes `last_updated`
+(2026-08-01) trotz inhaltlicher Erweiterung am 24.08.2026 (Run 41). Der vom zentralen Vorlauf
+gemeldete tote Backlink in `erco-lichtplanung-glossar.md` ist ein Fehlalarm (Prosa-Erwähnung
+von `[[...]]`-Syntax, kein echter Link) — verifiziert, kein Befund. BKP-Code-Prüfung aller
+Fundstellen in `wiki/` gegen `references/bkp-2017/BKP-2017-Liste.md`: alle korrekt, kein
+`271.10`-artiger Phantom-Code. Korpus 1 laut `KORPUS-QUEUE.md` weiterhin „erledigt" (RAW-
+Coverage ohne Lücke). BKP-281-Doppeleintrag in `wiki/INDEX.md` (BP46-1, seit 28.08.2026 offen)
+weiterhin unbehoben. Voller Report: `outputs/2026-09-01_health-check.md`.
+
 ## 2026-08-24 — Wissens-Chef Run 41: die zurueckgestellte Kante zu `normen` ist gesetzt
 
 `wiki/cheminee-aufbau-hafnerarbeiten.md` — Fassungs- und Norm-Kante additiv nachgetragen. Run 40

@@ -1,5 +1,18 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-01 — Erster Wissens-Health-Check (Phase 1, unbeaufsichtigt-tauglich): A0·B68·C0·D0·E0·F0·G0
+
+Erster `wissenscheck`-Lauf dieser KB. Kernbefund: **44 von 97 Wiki-Artikeln (45 %) nicht im
+INDEX registriert**, davon 16 vom selben Tag wie der letzte INDEX-Stand (29.08.) und 28 vom
+Folgetag (30.08.) — die INDEX-Pflege hinkt der Destillat-Lane systematisch hinterher, keine
+alte Verrottung. Zusätzlich 20 echte Orphans (keine Backlinks aus dieser KB), ein toter
+Tabellenverweis in `INDEX.md` Zeile 112 auf die nach Rule 260823 entfernte Inventardatei
+`buero-referenzen__16_Portfolios.md`, sowie Bestätigung des bereits offenen Schema-Konflikts
+#64 (unverändert, nicht neu geflaggt). Audits C-G ohne echte Befunde (RAW-Coverage vollständig
+erklärt, keine veralteten Artikel, Schreibregeln eingehalten, keine Promotion-Kandidaten bei
+0 `established`-Artikeln). Voller Report: `outputs/2026-09-01_health-check.md`. Keine
+Reparaturen ausgeführt (Phase 1 only, unbeaufsichtigt-tauglich).
+
 ## 2026-08-30 (Wissens-Chef Run 48) — drei Fragen gesetzt, kein Eingriff in Artikel; der Schema-Widerspruch stammt aus Run 47
 
 Cross-KB-Pruefung des 45-Artikel-Zuwachses der letzten 24 h. **Kein einziger Artikeltext geaendert** —
