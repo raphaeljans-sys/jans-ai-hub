@@ -5045,3 +5045,16 @@ das stuetzt den Befund vom 12:57, dass nicht die Commit-Menge das Problem ist, s
 haengende Konflikt in `wissen/normen/CHANGELOG.md` bei `1eed7118c`. Nicht selbst aufgeloest:
 unbeaufsichtigter Lauf, Git-Interna und ein Urteil ueber fremde Arbeit (Rule
 `interaktive-eingriffe` Ziff. 3).
+
+**Nachtrag 01.09.2026 20:1x (tenant-hygiene-weekly, eigene Messung nativ per ssh).** Die Divergenz
+steht nach dem eigenen Commit dieses Laufs auf **610/267** (Messung vor dem Commit: 609/267).
+Merge-Base weiterhin `01204714a` vom 29.08. 22:04, `github/main` weiterhin `66df04125` vom
+31.08. 06:12; die Divergenz ist damit rund **70 Stunden** alt und `267` steht den vierten Tag
+unveraendert. **Achte Bestaetigung des rc-Befunds:** der Report-Commit dieses Laufs
+(`4636abab1`, `tenant-hygiene/reports/260901-hygiene.md`) liegt sauber in HEAD, waehrend
+`nas-commit-now.sh` `rc=1` meldete; kein `MERGE_HEAD`, `--diff-filter=U` leer, Arbeitsbaum
+sauber. Das Script setzt den fehlgeschlagenen Merge vollstaendig zurueck. **Folge fuer die
+Hygiene-Reihe:** die Reports vom 29., 30., 31.08. und 01.09. liegen ausschliesslich auf dem NAS
+und sind nicht im GitHub-Backup — der **vierte Tag in Folge**. Nicht selbst aufgeloest:
+unbeaufsichtigter Lauf, Git-Interna, fremde unbestaetigte Arbeit in den Konfliktdateien (Rule
+`interaktive-eingriffe` Ziff. 3, Rule `auto-verbesserungen` 260811 Ziff. 3).
