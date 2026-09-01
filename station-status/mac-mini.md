@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 22:59:28
+Stand: 01.09.2026 23:09:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 22:42)
@@ -12,4 +12,4 @@ Stand: 01.09.2026 22:59:28
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 9afde5111 energie Run 172: Bericht + Fristen-Nachtrag (Divergenz 622/267 gemessen)
+- aba7983c1 nas-selfcommit: 2 Datei(en) 2026-09-01 23:00
