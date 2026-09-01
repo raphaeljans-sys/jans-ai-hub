@@ -1,7 +1,7 @@
 ---
 title: Datenquellen-Registry (Markt-, Boden-, Kennwert-Daten)
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-09-01 (Marktpuls Stichtag: SREBI-Zeile auf established + Zugangsweg zum UBS-PDF; neue Quellenzeilen SNB-Tagesfeed und Leerwohnungszaehlung; Nutzungsregeln 9 und 10)
 sources: [IMMO-02 UBSFS, IMMO-04 Marktpreise, IMMO-05 Bodenpreise, IMMO-06 Kennwerte (inkl. Healthcare Herosé-Baukredit 2021 + ARTISET KVG 2023, Run 12; JANS-Umbau-Kostenband Spektrumskosten + `_Kennwerte Jans.docx` D8 + `_Kennwerte_Links.docx`, Run 16)]
 links: [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[lageklasse-landwertanteil]], [[bewertungsverfahren-ueberblick]]
 ---
