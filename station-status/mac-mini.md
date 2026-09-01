@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 02.09.2026 01:02:52
+Stand: 02.09.2026 01:13:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 02.09.2026 01:02:52
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 46bc206ed nas-selfcommit: 3 Datei(en) 2026-09-02 01:00
+- 9d08eaf41 vollgas-radar 260902: P1 praezisiert — vier Konfliktdateien statt einer (normen, baurecht x2, grobkosten)
