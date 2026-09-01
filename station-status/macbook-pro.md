@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.09.2026 19:46:52
+Stand: 01.09.2026 19:57:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:46)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:48)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 01.09.2026 19:46:52
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 6b1fdf65c Fristen-Register: Nachtrag NAS-GitHub-Divergenz 605/267 (wissenscheck-monatlich 01.09.)
+- 1dfaeaa6f Betriebs-Chronik 260901b: Doppellauf twin im Wissenscheck (Subagent-Ankuendigung ist kein Beleg fuer Untaetigkeit)
