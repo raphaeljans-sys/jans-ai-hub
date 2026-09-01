@@ -2,6 +2,60 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-01 (Wartungslauf 03, monatlicher Takt) — der SIA-Shop war nie tot, nur unvollstaendig zitiert; PL-02 erstmals seit Run 92 gewachsen
+
+Dritter Lauf als **maintainer** (Umwidmung 30.07.2026). Keine Wissensproduktion, keine
+Trainings-Run-Nummer. Station MacBook Pro. Report:
+`outputs/2026-09-01_wartung-03.md`.
+
+**1 · Endpunkte/Links.** `link-frischecheck.sh`: **280 Adressen aus 51 Artikeln**, 196 sofort 200
+(Vorlauf 258 — Sanity-Check bestanden, der Zuwachs stammt aus den Vertiefungslaeufen vom
+23.08.2026). `link-zielabgleich.sh`: 131 Deep-Links, **0 Treffer**. **Ein** echter Fund, und zwar
+in der Gegenrichtung zu den Vorlaeufen: **`shop.sia.ch/normenwerk/architekt/380_2022_d`** ist
+nicht tot. Die kurze Form liefert reproduzierbar 500 (3/3), die vollstaendige Form
+**`…/380_2022_d/D/Product`** liefert 200 — am Seitentitel «SIA 380 / 2022 D — Grundlagen fuer
+energetische Berechnungen von Gebaeuden» verifiziert, nicht nur am Statuscode. Der Punkt war vom
+Vertiefungslauf 8 bewusst offengelassen worden («ein 500 ist kein Beleg fuer eine tote Adresse»);
+diese Zurueckhaltung war richtig. Fundstelle in `wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`
+korrigiert. **Neue Lehre:** ein 500 ist haeufiger eine unvollstaendige **Pfadform** als ein
+defekter Server — die Vier-Varianten-Pruefung der Vorlaeufe deckt Hostvarianten ab, nicht
+Pfadsuffixe. Alle uebrigen 84 Auffaelligkeiten waren bereits dokumentiert (tote Adressen mit
+Datum, Nachfolger-Vermerke, `www.`-Pflicht K67, REST-Normalfaelle, Prosa-Artefakte) und wurden
+nicht erneut aufgerollt.
+
+**2 · Connectoren.** **9 von 9 gruen**, jeder Benchmark-Wert identisch zum 23.08. und 01.08.2026:
+EGRID CH879777718909 · Parz. 3338 · BFS 136, Zonenplan W/1.5 · BMZ 1.5 · GH 4.5 · ES_II,
+7 Baulinien (116.2 m) + 1 Waldgrenze (105.6 m), SZ EGRID CH527708492462, `behoerden-zh --check`
+33 aktuell / 0 TOT, `--hilfe` ueberall rc=0. **Kein Connector-Code geaendert.** Benchmark als
+eigener Abschnitt in `wiki/kartenportale-oereb-egrid-bezug.md` festgehalten. `geoshop-zh --list`
+liefert 248 statt 247 Zeilen — lebender Katalog, im Artikel ausdruecklich als **Nicht-Sanity-Wert**
+vermerkt, damit die Zahl nicht als Sollwert weitergereicht wird. E11 und E14 nachkontrolliert,
+beide halten (die Weiterleitungsdatei `oereb-schwyz/geo-sz.mjs` ist weiterhin **kein** Symlink,
+entgegen dem stationslokalen Task-Text).
+
+**3 · Offene Aufgaben.** SIA-Punkt geschlossen. **E13 erweitert:** der Vorlauf meldete «genau ein
+Treffer» (`bexio.mjs`), ein breiteres Muster — `toISOString` **ohne** `.slice(0, 10)` — findet
+einen zweiten in `connectors/ebaugesuche-zh.mjs:426` (Datum der Statusbericht-Kopfzeile, im
+Nachtfenster ein Tag zurueck). Bewusst **nicht** behoben: der Connector ist unbeaufsichtigt nicht
+end-to-end testbar (Mobile-ID-Login), und ungetesteter Connector-Code wird nicht abgelegt. Die
+Lehre liegt in der Suchbreite, nicht im Treffer.
+
+**4 · Quellbestand — Entscheid fuer Raphael.** `PL - 02_Recht_Norm` **2'551** Dateien gegen 2'503
+im Vorlauf, **+48** (46 PDF, mtime ueberwiegend 07.08.2026; Original-Normen-PDFs, u.a. SIA 118/248,
+SIA 382/2, DIN EN 12101-2, VKF-Aenderungen 2017). Erster Zuwachs seit Run 92 — die Bedingung der
+Umwidmung ist formal erfuellt. **Empfehlung: keine Reaktivierung als grower**, weil das Material
+bereits einen aktiven Zustaendigen hat: PL-02 ist die kanonische Quelle der KB `normen`
+(Rule `normen-referenz`), deren CHANGELOG den Stand 2026-08-07 seit Wochen fuehrt. Zwei KBs auf
+denselben Ordner erzeugen zwei Wahrheiten ueber dieselben Normen. PL-01/03/04 unveraendert =
+**31. Erschoepfungsbestaetigung**. Entscheid steht in `wiki/QUESTIONS.md`.
+
+**Betriebsbefund (kein neuer).** Der NAS-Mount riss waehrend des Laufs **dreimal** ab, jedes Mal
+geheilt, kein Datenverlust. Der Vorgang steht bereits in `rules/betrieb-chronik.md` (260831b,
+260901) samt Ursache — `/etc/nsmb.conf` fehlt — und offener **Aktion Raphael**. **Neu ist nur die
+Folgemechanik**, dort nachgetragen: ein fehlgeschlagenes `cd` auf den NAS-Pfad bricht die Shell
+nicht ab, sondern laesst relative Pfade still im SSD-Klon greifen — Lesen bleibt richtig,
+**Schreiben** waere an der kanonischen Quelle vorbeigelaufen. Seither jeder `cd` mit `|| exit 1`.
+
 ## 2026-08-30 (Wissens-Chef Run 48) — die seit Run 34 offene GT-RL1-Kante ist gesetzt
 
 `wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §12.1 um einen additiven Rollen-Block

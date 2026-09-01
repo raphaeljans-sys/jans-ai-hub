@@ -92,6 +92,144 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Beleg: `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md`.
 
 
+## Lauf 2026-09-01 (Wartungslauf 03, monatlicher Takt) — der SIA-Shop war nie tot, nur unvollstaendig zitiert; PL-02 ist erstmals seit Run 92 gewachsen
+
+**Station:** MacBook Pro (nicht Mac Mini — der Task bevorzugt den Mini, laeuft aber auf jeder Station).
+**Messbasis:** `link-frischecheck.sh` = **280 pruefbare Adressen aus 51 Artikeln**, 196 sofort 200
+(Vorlauf 01.08.2026: 258 aus 51). Der Sanity-Check des Vorlaufs («darf nicht deutlich unter 258
+fallen») ist damit bestanden; der Zuwachs stammt aus den Vertiefungslaeufen vom 23.08.2026, die
+viele neue Adressen in QUESTIONS.md eingetragen haben. `link-zielabgleich.sh`: **131 Deep-Links,
+0 Treffer** — keine Umleitungs-Falle im Bestand.
+
+### GESCHLOSSEN
+
+1. **`shop.sia.ch/normenwerk/architekt/380_2022_d` — HTTP 500 aufgeklaert, Adresse korrigiert.**
+   Der Vertiefungslauf 8 vom 23.08.2026 hat diesen Punkt bewusst offen gelassen («Beim naechsten
+   Wartungslauf erneut messen»), weil ein 500 ein Serverfehler und kein Beleg fuer eine tote
+   Adresse ist. Diese Zurueckhaltung war richtig — und die Adresse ist tatsaechlich nicht tot:
+   die **kurze Form** liefert reproduzierbar 500 (3 von 3 Messungen am 01.09.2026), die
+   **vollstaendige Form** `shop.sia.ch/normenwerk/architekt/380_2022_d/D/Product` liefert **200**.
+   Am Inhalt verifiziert, nicht nur am Statuscode: die Seite traegt den Titel «SIA 380 / 2022 D —
+   Grundlagen fuer energetische Berechnungen von Gebaeuden (Normenwerk => Architekt)». Der
+   SIA-Shop verlangt am Produktpfad das Suffix `/D/Product`; ohne dieses Suffix wirft die
+   Applikation einen Serverfehler statt einer 404. Fundstelle in
+   [[recht-norm-ahb-stadt-zuerich-projektstandards]] korrigiert (Z. 104), `last_updated` gesetzt.
+   **Lehre fuer kuenftige Laeufe:** ein 500 ist haeufiger eine unvollstaendige Adresse als ein
+   defekter Server — vor der Tot-Markierung die Pfadform variieren, nicht nur `www.`/Protokoll.
+
+### NEU — Entscheid Raphael
+
+2. **`PL - 02_Recht_Norm` ist erstmals seit Run 92 gewachsen: +48 Dateien.**
+   Bestandsvergleich gegen den Vorlauf (01.08.2026), versteckte Dateien ausgeschlossen
+   (`! -name ".*"`, Zaehlfalle des Vorlaufs beachtet):
+   `PL - 01 Kartenportale` **979** (unveraendert) · `PL - 02_Recht_Norm` **2'551** (Vorlauf 2'503,
+   **+48**) · `PL - 03 Brandschutz` **152** (unveraendert) · `PL - 04 Energie` **317**
+   (unveraendert). Von den 48 sind **46 PDF**, 1 `.txt`, 1 `.md`; 46 davon mit mtime
+   **07.08.2026**, je eine am 08.08. und 17.08. Verteilung: 40 in `02_Normen/SIA_Norm`, 3 in
+   `02_Normen/_Normatives Explanations`, 2 in `06_Richtlinien/BfU`, 2 in `02_Normen/VSS_Norm`.
+   Es sind Original-Normen-PDFs (u.a. SIA 118/248, SIA 118/263, SIA 382/2, SIA 162.152,
+   DIN EN 12101-2, VKF-Aenderungen 2017, bfu/upi-Merkblaetter), kein Arbeitsprodukt eines Loops.
+   **Damit ist die Bedingung der Umwidmung vom 30.07.2026 formal erfuellt** («Reaktivierung als
+   grower nur, wenn Raphael neues Quellmaterial in die PL-Ordner legt»). Der Wartungslauf hat
+   **nichts davon destilliert** — das ist auftragsgemaess nicht seine Aufgabe.
+   ⚠ **Wichtig fuer den Entscheid, und der Grund fuer eine Empfehlung statt einer blossen
+   Meldung:** dieses Material hat bereits einen aktiven Zustaendigen. `PL - 02_Recht_Norm` ist
+   die kanonische Quelle der KB **`normen`** (Rule `normen-referenz`: «Originale bleiben auf
+   SharePoint PL - 02_Recht_Norm»), und deren CHANGELOG fuehrt den Stand **2026-08-07** seit
+   Wochen als bekannten Bezugspunkt (mehrfach belegt, u.a. «juengste Aenderung unveraendert
+   2026-08-07», Sweep-Eintraege ueber `connectors/m365-graph.mjs`). Die KB `normen` hat das
+   Material also gesehen und arbeitet damit.
+   **Empfehlung (Entscheid bleibt bei Raphael):** **keine** Reaktivierung von
+   `planungsgrundlagen` als grower. Eine zweite KB auf denselben Ordner anzusetzen erzeugt
+   Doppeldestillate und zwei Wahrheiten ueber dieselben Normen — genau das Muster, das die
+   Umwidmung vermeiden wollte. Wenn `planungsgrundlagen` etwas davon braucht, holt sie es ueber
+   den Router `normen` (Rule `normen-referenz`), nicht durch eigenes Destillieren. Die drei
+   uebrigen PL-Ordner sind unveraendert; das ist die **31. Erschoepfungsbestaetigung** fuer
+   PL-01/03/04.
+
+3. **E13 erweitert: der Bestandssweep hatte einen zweiten Treffer, den das Suchmuster nicht sah.**
+   Der Vorlauf meldete «genau ein Treffer, `connectors/bexio.mjs:279`» (heute Z. 331, die Datei
+   ist gewachsen; der Code dort unveraendert). Ein breiteres Muster — `toISOString` **ohne**
+   `.slice(0, 10)` — findet einen zweiten: **`connectors/ebaugesuche-zh.mjs:426`**,
+   `L.push(\`  Abgefragt:  ${d(new Date().toISOString())}\`)`. `d()` (Z. 356) formt daraus ein
+   sechsstelliges Datum fuer die Kopfzeile des Statusberichts. Wirkung: zwischen 00:00 und 02:00
+   CEST traegt der Bericht den **Vortag** — dieselbe UTC-Falle wie E11, nur in einer Anzeigezeile
+   statt in einem Dateinamen, und damit deutlich harmloser.
+   **Nicht behoben, mit Absicht:** der Fix waere einzeilig, aber `ebaugesuche-zh.mjs` laesst sich
+   nicht unbeaufsichtigt end-to-end testen (Playwright-Login ueber idp.zh.ch mit Mobile-ID-
+   Bestaetigung am Handy). Der Auftrag des Wartungslaufs verbietet ausdruecklich, ungetesteten
+   Connector-Code abzulegen. Der Punkt gehoert damit zum naechsten Lauf, in dem der Login ohnehin
+   angefasst wird — oder in eine interaktive Sitzung.
+   **Die eigentliche Lehre ist die Suchbreite:** das Muster `toISOString().slice(0, 10)` hat einen
+   echten Treffer stillschweigend uebersehen, weil dort anders formatiert wird. Gleiche Familie
+   wie Rule `wege-und-vollmachten` Ziff. 5 — ein schmales Suchergebnis ist zuerst eine Aussage
+   ueber das Werkzeug. Kuenftige Sweeps auf `toISOString` **ohne** Suffix greppen.
+
+### NACHKONTROLLIERT — haelt
+
+4. **Connector-Funktionstest: 9 von 9 gruen, alle Benchmarks identisch zum Vorlauf.**
+   `geo-zh` Adresse→EGRID (Giebelweg 12, 8135 Langnau a.A.): **EGRID CH879777718909 · Parz. 3338 ·
+   BFS 136** · Zonenplan **W/1.5 (W1) · BMZ 1.5 · GH 4.5 · ES_II · inKraft** · Baulinien **7
+   Baulinien (naechste 116.2 m) + 1 Waldgrenze (105.6 m)** · `geo-sz --parzelle "Einsiedeln 3301"`
+   **EGRID CH527708492462 · Parz. 3301 · BFS 1301** · Weiterleitungsdatei
+   `skills/oereb-schwyz/connectors/geo-sz.mjs` loest denselben EGRID auf · `gwr-bund --egid
+   302064023` (KISPI) liefert Gebaeude-/Energiedaten · `behoerden-zh --check` **33 aktuell · 0
+   geaendert · 0 neu · 0 TOT (von 33)** · `--hilfe` bei allen fuenf Connectoren rc=0.
+   **Kein Connector-Code geaendert**, also auch keiner ungetestet abgelegt.
+5. **E11 haelt.** Alle vier PG-Connectoren bilden `isoDate()` unveraendert mit
+   `toLocaleDateString("sv-SE")` (`geo-zh.mjs:557`, `geo-sz.mjs:87`, `behoerden-zh.mjs:78`,
+   `gwr-bund.mjs:179`). ⚠ Wie im Vorlauf: der Lauf fiel auf **04:2x CEST**, also **ausserhalb** des
+   kritischen UTC-Fensters — ein erzeugter Dateiname beweist hier nichts, massgeblich ist die
+   Codepruefung.
+6. **E14 haelt.** `skills/oereb-schwyz/connectors/geo-sz.mjs` ist nachgemessen **kein** Symlink,
+   sondern eine regulaere Weiterleitungsdatei (1'190 B, `test -L` falsch) — und das ist richtig so
+   (ein echter Symlink wuerde ueber den SMB-Mount als «XSym»-Textdatei committet).
+   ⚠ **Der Auftragstext des Scheduled Task behauptet weiterhin das Gegenteil** («ist seit
+   30.07.2026 ein SYMLINK hierauf»). Die Aussage ist seit dem Vorlauf zweimal widerlegt; die
+   Handlungsanweisung dahinter («es gibt nur EINE Fassung, nicht wieder aufspalten») bleibt
+   richtig und wurde befolgt. Wie der falsche Connector-Pfad (E17) steht das in einer
+   **stationslokalen** Task-Datei, die nicht Teil des NAS-Repos ist — Korrektur nur durch Raphael.
+7. **`maps.zh.ch/wms/...` bleibt HTTP-Basic-geschuetzt** («HTTP Basic: Access denied.», 401 auch
+   mit `SERVICE=WMS&REQUEST=GetCapabilities` und ebenso bei `wms.zh.ch` sowie `maps.zh.ch/wfs/`).
+   Gegenprobe: ein **zweiter** Layer (`GefahrenkarteZH`) antwortet gleich — es ist kein
+   Einzelfall-Defekt, sondern der Zugangsweg. Bereits als Sackgasse dokumentiert
+   ([[kartenportale-naturgefahren-objektschutz]], [[kartenportale-oereb-egrid-bezug]]); der
+   offene Ersatzweg `geo.zh.ch/wms/...` antwortet **200** und ist im Connector-Kommentar
+   (`geo-zh.mjs:130`, OGD-WFS login-/Referer-frei) bereits als Loesung der alten Luecke A2/E2
+   vermerkt. **Kein neuer Befund, keine Aenderung.**
+8. **Alle uebrigen Auffaelligkeiten des Frischechecks waren bereits dokumentiert** und wurden
+   nicht erneut aufgerollt: `altlasten.zh.ch` (tot), `upc.ch`/`leitungskataster.upc.ch` (tot,
+   Betreiber Sunrise), `solarrechner.ch` (tot, Nachfolger EnergieSchweiz), `geoglatt.ch` (tot),
+   `bsvonline.vkf.ch` (historisch), `kanton-luzern.ch` → `lu.ch` und `geodatenshop.lu.ch` →
+   `geoportal.lu.ch` (beide mit Nachfolger vermerkt), `energieheld.ch` → `ckw.ch` (Betreiber-
+   wechsel vermerkt), `gis.zh.ch` (nur ueber `http`), die `www.`-Pflicht bei `gwr.admin.ch`/
+   `geo.lu.ch`/`procap-bauen.ch` (K67), die REST-Normalfaelle (`geoshopapi/v1`, `map.geo.sz.ch/
+   oereb/extract/*` und `maps.zh.ch/oereb/v2/...` antworten ohne Parameter 400/404/204) und die
+   Prosa-Artefakte, die das Werkzeug selbst als `VERDACHT-ARTEFAKT` markiert. `bfs.admin.ch`
+   steht nur in einer Prosa-Aufzaehlung von Portalnamen ([[kartenportale-sharepoint-ablage]]),
+   ist also kein Link und braucht kein `www.`.
+
+### Beobachtung ohne Handlungsbedarf
+
+9. **`geoshop-zh --list` liefert 248 Produktzeilen (Vorlauf 247).** Kein Defekt, sondern ein
+   lebender Katalog. Festgehalten, damit die Zahl nicht als Sanity-Wert missverstanden wird:
+   das Pruefkriterium ist «Liste kommt live und vollstaendig», **nicht** «genau 247».
+
+### Betriebsbefund (nicht KB-inhaltlich)
+
+10. **Der NAS-Mount ist waehrend des Laufs dreimal abgerissen** (jedes Mal per
+    `osascript -e 'mount volume ...'` geheilt, Lauf ohne Datenverlust beendet). **Kein neuer
+    Befund:** `rules/betrieb-chronik.md` fuehrt den Vorgang bereits als fortbestehenden Zustand
+    (260831b: 59 Abrisse an einem Tag; 260901 vom selben Morgen), Ursache benannt —
+    **`/etc/nsmb.conf` existiert nicht** — und die Behebung liegt als **Aktion Raphael** vor
+    (sudo-Systemaenderung, nach Rule `interaktive-eingriffe` nicht fuer unbeaufsichtigte Laeufe).
+    **Neu ist allein die Folgemechanik**, dort nachgetragen: ein fehlgeschlagenes `cd` auf den
+    NAS-Pfad bricht die Shell nicht ab, sondern laesst alle nachfolgenden **relativen** Pfade
+    still im SSD-Klon greifen. Lesevorgaenge bleiben inhaltlich richtig (Lesespiegel), ein
+    **Schreib**vorgang waere in den Klon gelaufen und beim naechsten `git pull` verschwunden. In
+    diesem Lauf traf es nur Lesevorgaenge; die Befunde bleiben gueltig. Ab sofort jeder `cd` auf
+    einen NAS-Pfad mit `|| exit 1` bzw. `set -e`.
+
 ## Lauf 2026-08-23 (Vertiefungslauf 8 Revendo, Auftrag Raphael) — ein abgeschalteter Host, den sechs Läufe für erreichbar gehalten haben
 
 **Auftrag:** wie Lauf 6 und 7 — Endpunkte, Links und Connector-Wege verifizieren, belegt arbeiten.
@@ -161,7 +299,7 @@ umgeschrieben.
 - **`shop.sia.ch/normenwerk/architekt/380_2022_d`** antwortet reproduzierbar **HTTP 500** (zweimal
   gemessen). Nicht geändert: die Fundstelle in [[recht-norm-ahb-stadt-zuerich-projektstandards]]
   wurde am selben Tag erfolgreich abgerufen, ein 500 ist ein Serverfehler und **kein** Beleg für
-  eine tote Adresse. Beim nächsten Wartungslauf erneut messen.
+  eine tote Adresse. Beim nächsten Wartungslauf erneut messen. ✓ **ERLEDIGT 01.09.2026 (Wartungslauf 03):** 500 reproduzierbar (3/3), aber die Adresse ist nicht tot — die vollständige Form `…/380_2022_d/D/Product` liefert 200 (am Seitentitel verifiziert). Fundstelle korrigiert.
 
 ### Nicht angetastet
 

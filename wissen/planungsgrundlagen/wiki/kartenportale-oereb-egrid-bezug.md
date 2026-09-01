@@ -1,7 +1,7 @@
 ---
 title: OEREB-Auszug und EGRID beziehen (Kt. ZH)
 status: established
-last_updated: 2026-08-23 (Vertiefungslauf 7 Revendo: strukturierte OEREB-Endpunkte json/xml/capabilities für ZH+SZ dokumentiert, ThemeWithoutData-Falle belegt, behoerden-zh-Vermerk präzisiert)
+last_updated: 2026-09-01 (Wartungslauf 03: vierter Connector-Benchmark, 9 von 9 gruen, alle Werte unveraendert seit 30.07.2026; Geoshop-Produktzahl als Nicht-Sanity-Wert vermerkt)
 sources: [GIS-Helpdesk Kt. ZH (Hannah Gies, 2026), api3.geo.admin.ch, maps.zh.ch/oereb/v2, map.geo.sz.ch/oereb, eigene Endpunkt-Messungen 30.07.2026 (Training Run 93), eigene Nutzdaten-Messungen 23.08.2026 (Vertiefungslauf 7: extract/json+xml+capabilities beider Kantone, 5 Parzellen-Benchmarks, PDF-Textextraktion)]
 links: [[kartenportale-geoportale-uebersicht]], [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-kataster-system-zh]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-regenwasser-gewaesserraum-zh]]
 ---
@@ -252,6 +252,35 @@ nicht.** Gemessen am 23.08.2026:
 
 *Messungen: `curl` mit Browser-User-Agent, `dig`, `openssl s_client`, alle am 23.08.2026;
 Connectoren lokal ausgeführt (node v22.11.0).*
+
+## Connector-Benchmark 01.09.2026 (Wartungslauf 03) — 9 von 9 grün, alle Werte unverändert
+
+Vierte Messung am identischen JANS-Benchmark, neun Tage nach dem Vertiefungslauf. **Jeder Wert
+identisch zum 23.08.2026 und zum 01.08.2026** — seit dem 30.07.2026 keine Endpunkt-Erosion und
+kein Revisions-Delta an den Benchmark-Parzellen.
+
+| Test | Ergebnis 01.09.2026 | gegen 23.08.2026 |
+|---|---|---|
+| `geo-zh` Adresse → EGRID (Giebelweg 12, 8135 Langnau a.A.) | EGRID CH879777718909 · Parz. 3338 · BFS 136 | unverändert |
+| `geo-zh --produkt zonenplan` | W/1.5 (W1) · BMZ 1.5 · GH 4.5 · ES_II · inKraft | unverändert |
+| `geo-zh --produkt baulinien` | 7 Baulinien (nächste 116.2 m) · 1 Waldgrenze (105.6 m) | unverändert |
+| `geo-sz --parzelle "Einsiedeln 3301"` | EGRID CH527708492462 · Parz. 3301 · BFS 1301 | unverändert |
+| Weiterleitungsdatei `oereb-schwyz/geo-sz.mjs` | löst denselben EGRID auf | unverändert |
+| `gwr-bund --egid 302064023` (KISPI) | Gebäude-/Energiedaten vollständig (EBF 78'834 m², WP/Erdsonde) | unverändert |
+| `geoshop-zh --list` | **248** Produktzeilen live | 247 → 248, siehe Kasten |
+| `behoerden-zh --check` | **33 aktuell · 0 geändert · 0 neu · 0 TOT** (von 33) | unverändert |
+| `--hilfe` bei allen fünf Connectoren | rc=0 | unverändert |
+
+> **Die Produktzahl des Geoshops ist kein Sanity-Wert.** `geoshop-zh --list` liefert heute 248
+> statt 247 Zeilen. Das ist ein lebender Katalog, kein Defekt — das Prüfkriterium lautet «Liste
+> kommt live und vollständig», nicht «genau 247». Wer die Zahl als Sollwert führt, meldet beim
+> nächsten regulären Katalogeintrag einen Ausfall, den es nicht gibt. Dieselbe Falle wie die
+> «+1 Datei je PL-Ordner» des Wartungslaufs 02 (dort eine OneDrive-Sync-Markierung).
+
+**Kein Connector-Code geändert**, also auch keiner ungetestet abgelegt. `isoDate()` bildet in
+allen vier PG-Connectoren unverändert `toLocaleDateString("sv-SE")` (E11 hält); der Lauf fiel auf
+04:2x CEST und damit **ausserhalb** des kritischen UTC-Fensters — massgeblich ist deshalb die
+Codeprüfung, nicht ein erzeugter Dateiname.
 
 ## Der OEREB-Auszug ist auch maschinenlesbar zu haben (belegt 23.08.2026, Vertiefungslauf 7)
 

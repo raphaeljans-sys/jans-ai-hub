@@ -36,6 +36,20 @@ destruktiv, und das Anlegen von `/etc/nsmb.conf` ist eine System-Konfigurationsa
 `sudo`; beides gehoert nach `interaktive-eingriffe` und der Freigabe-Schwelle nicht in einen
 unbeaufsichtigten Lauf. **Aktion Raphael**, Befehl steht in 260831b.
 
+**Nachtrag 01.09.2026, 04:2x–05:0x (planungsgrundlagen-wartung 03, MacBook Pro) — dreimal
+abgerissen im selben Lauf, und eine Folgemechanik, die hier noch nicht stand.** Derselbe benigne
+Fall, dreimal je mit `osascript -e 'mount volume …'` geheilt, Lauf ohne Datenverlust beendet.
+**Neu ist nicht der Abriss, sondern was er ausloest:** ein fehlgeschlagenes `cd` auf den NAS-Pfad
+bricht die Shell **nicht** ab, sondern laesst alle nachfolgenden **relativen** Pfade still im
+lokalen SSD-Klon greifen (CWD bleibt `~/Developer/jans-ai-hub`). Lesevorgaenge liefern dann
+inhaltlich richtige Daten — der Klon ist ein Lesespiegel — und **nichts** im Output deutet darauf
+hin, dass die kanonische Quelle gar nicht angefasst wurde. Ein **Schreib**vorgang haette
+stattdessen in den Klon geschrieben und waere beim naechsten `git pull` spurlos verschwunden.
+**Regel daraus, ab sofort in diesem Loop angewandt:** jeder `cd` auf einen NAS-Pfad wird mit
+`|| exit 1` bzw. `set -e` abgesichert, nie mit stillem Fallback. Gleiche Familie wie 260730b
+Ziff. 2 (veralteter Lesestand ueber SMB) — dort las man das Falsche, hier schreibt man am
+Richtigen vorbei.
+
 ## 260831b — `/etc/nsmb.conf` fehlt: 59 Mount-Abrisse an einem Tag, der Waechter heilt jeden einzeln
 
 **Befund (Wissens-Chef Run 49, 31.08.2026, MacBook Pro, 23:13-23:55).** Waehrend eines einzigen
