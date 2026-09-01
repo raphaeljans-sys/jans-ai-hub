@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.09.2026 06:42:36
+Stand: 01.09.2026 06:52:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.09.2026 06:42:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 139290884 twin-fidelity-review 260901: GitHub-Divergenz (540/267 seit 29.08.) im Report und in QUESTIONS vermerkt
+- 5e07ffc1c nas-selfcommit: 5 Datei(en) 2026-09-01 06:45
