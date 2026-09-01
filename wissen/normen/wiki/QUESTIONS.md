@@ -1,5 +1,64 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 77 (02.09.2026) — N66-1 geschlossen, zweiter Beleg für N66-2, eine ID-Kollision
+
+**N66-1 GESCHLOSSEN.** Figur 11 der SIA 416:2003 (S. 56) ist vom **Hauptprozess selbst**
+gemessen (600 dpi, Präfix `sia416-r77-hp-`, Legenden-Swatches an der Figur gemessen). Der blaue
+Streifen in der Deckenzone ist **bestätigt** als waagrechte Installationszone im FV — und er
+trägt mehr als gemeldet, weil Ziff. 2.1.3 «Installationsgeschosse sowie Ver- und
+Entsorgungskanäle» ausdrücklich zur FF zählt. Der orange Keil ist als **Beobachtung bestätigt**,
+seine mitgelieferte **Begründung «zu geringe Raumhöhe» aber nicht**: SIA 416 kennt keinen
+Höhen-Schwellenwert. Ein unabhängiger Refuter hat den ganzen deutschen Normteil (S. 3-16) nach
+Höhen-/Masskriterien durchsucht und keines gefunden. Befunde einzeln:
+`training/n77-figur11-anlage.md`.
+
+### N77-1 — Der Ausbeute-Vergleich Fläche gegen Volumen ist erst an EINEM Kategorienpaar gefahren
+Run 77 hat gezeigt, dass die Volumenanteile **nicht** aus den Flächenanteilen ableitbar sind:
+über derselben Grundfläche liegen im 1. OG der Figur 11 zwei Volumenschichten verschiedener
+Kategorie (HNV unten, FV oben), während dieselbe Grundfläche im Grundriss **einmal** klassiert
+ist. Gemessen ist das an **FF/FV** (Figur 4 gegen Figur 11) und an **HNF/NNF gegen HNV/NNV**
+(Traufseite im DG). **Nicht gemessen** ist, ob dieselbe Asymmetrie auch bei **VF/VV** und
+**KF/KV** besteht. Solange das offen ist, gilt die Warnung im Destillat für die geprüften Paare
+und ist für die übrigen eine begründete Vermutung. Kein Fremdbedarf, nächster Arbeitsgegenstand
+an diesem Destillat.
+
+### N77-2 — **Vorlage an Raphael: N66-2 hat den geforderten zweiten Fall**
+Run 66 hatte die Frage, ob Aussagen über **Signaturen** (Farbe, Schraffur, Linienart) verbindlich
+zu **messen** statt zu betrachten sind, ausdrücklich zurückgestellt — «ein Fall ist zu wenig für
+eine Pflicht», vorzulegen «erst, wenn ein zweiter unabhängiger Fall dazukommt». **Der Fall liegt
+vor**, und er ist in drei Punkten unabhängig vom ersten:
+
+| | Run 66 (Figur 12) | Run 77 (Figur 11) |
+|---|---|---|
+| Art der Signatur | **Flächen**signatur (Vollton gegen Schraffur) | **Linien**signatur (Umriss gegen Konstruktion) |
+| Wer irrte beim Betrachten | ein Agent, und das Destillat seit Monaten | **der Hauptprozess selbst**, am eigenen 600-dpi-Ausschnitt |
+| Folge des Irrtums | Verweis auf die falsche Kategorie | Umkehrung der Begründung (Nutzung statt Höhe) |
+
+Konkret: der 12-px-Balken zwischen HNV und NNV im Dachgeschoss sah aus wie eine Wand derselben
+Strichstärke wie die übrigen. Gemessen hat er **keinen weissen Kern**, während jede echte Wand
+und Decke dieser Figur `S6 W18–28 S6` zeigt. Aus «abgetrennter Nebenraum, NNV wegen der Nutzung»
+wurde dadurch «Kategoriegrenze quer durch ein Raumvolumen». Ein unabhängiger Refuter hat den
+Unterschied an drei weiteren, selbst gewählten Referenzstellen reproduziert und ihn als
+**kategorisch** (Anwesenheit gegen Abwesenheit des weissen Kerns), nicht graduell, protokolliert.
+**Vorgeschlagene Fassung** (Methodik-Pflicht 14, analog MP 8 für Tabellen): *Eine Aussage über
+eine Signatur — Farbe, Schraffur, Linienart, Strichstärke — wird gemessen, nicht betrachtet. Die
+Legende wird je Figur einzeln am Original gemessen.* Entscheid Raphael; nicht selbständig
+umgesetzt.
+
+### N77-3 — ID-Kollision im eigenen Fragenregister: N66-1 und N66-2 sind doppelt vergeben
+Zwei Läufe tragen die Nummer 66: die **Normen-Nacht Run 66** (30.08.2026, Kopfblock dieser Datei)
+und ein **Schub-Lane-Lauf «Run 66»** (29.08.2026, NORMEN-PRUEFSTAND, weiter unten in dieser
+Datei). Beide haben N66-1 und N66-2 an verschiedene Sachverhalte vergeben — Figur 11 bzw.
+Signaturen-Messung auf der einen Seite, SIA 102:2014 bzw. der M365-Zugriffsweg auf der anderen.
+Jede Referenz «N66-1» ist damit mehrdeutig, auch die in den Laufberichten. Ursache sind die
+**zwei parallelen Run-Nummernkreise** (Normen-Nacht und Schub-Lane), die dieselbe Zählung
+benutzen; aus demselben Grund vergibt dieser Lauf die Nummer **77** und nicht 67.
+**Nicht selbständig umnummeriert** — das wäre eine Umstrukturierung des Registers und würde
+Verweise in bestehenden Berichten brechen (Rule `wissens-bibliothekar`: Pause vor Umbau).
+**Vorschlag:** künftig ein Präfix je Nummernkreis (`NN-66-1` Normen-Nacht, `SP-66-1`
+Schub-Lane), rückwirkend nur als Klammerzusatz an den vier betroffenen Stellen. Entscheid Raphael.
+
+
 ## Normen-Nacht Run 66 (30.08.2026) — N65-3 geschlossen, N63-2 erstmals gefahren, zwei neue Punkte
 
 **N65-3 GESCHLOSSEN.** Die Q&A-Richtung ist auf dem Figurenanhang S. 44-57 von

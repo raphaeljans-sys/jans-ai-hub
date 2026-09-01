@@ -149,7 +149,9 @@ Bueroname/Logo).
   Werte liefert `machbarkeit`/`baurecht`. `volumenstudie` rechnet nur die Geometrie.
 - **Flaechen-Nachweis** (`flaechen-nachweis`): GF/NGF/HNF/NNF/VF/FF/KF und GV nach
   **SIA 416:2003** rechnen, Bezugsgroessen nie mischen — Fundstelle
-  `wissen/normen/destillate/sia-416-2003.md` (Rule `normen-referenz`). SIA 416 definiert
+  `wissen/normen/destillate/sia-416-2003.md` (Rule `normen-referenz`).
+  ⚠ **Stand 02.09.2026: dieses Destillat trägt `status: speculative`** — nicht weil die geführten Werte unsicher wären (vier Prüfrunden fanden keinen falschen Wert), sondern weil die Vollständigkeit des Figurenanhangs nicht belegt ist. Nach Rule `normen-referenz` Ziff. 1b vor dem Zitieren am Original gegenlesen.
+  SIA 416 definiert
   die baurechtlichen Groessen (anrechenbare Geschossflaeche, Baumassenziffer) **nicht**
   (Ziff. 0.1) — die kommen aus `baurecht`/`machbarkeit`. **Nicht verwechseln mit
   SIA 416/1:2007** (Kennzahlen fuer die Gebaeudetechnik) — das ist eine andere Norm und

@@ -34,7 +34,7 @@ Lebenszyklus: `ausschreibung/wissensbasis/11_lebenszyklus-reifegrad.md`.
   10_dokumente-standard.md                ← Dokumentstandard
 /Volumes/daten/jans-ai-hub/references/bkp-2017/BKP-2017-Liste.md  ← BKP-Gliederung (verbindlich)
 /Volumes/daten/jans-ai-hub/wissen/normen/destillate/sia-118-1991.md  ← Fristen/Prozentsaetze (Rule normen-referenz)
-/Volumes/daten/jans-ai-hub/wissen/normen/destillate/sia-416-2003.md  ← Bezugsflaechen fuer CHF/m2, CHF/m3
+/Volumes/daten/jans-ai-hub/wissen/normen/destillate/sia-416-2003.md  ← Bezugsflaechen fuer CHF/m2, CHF/m3 (Stand 02.09.2026: status speculative, vor dem Zitieren am Original gegenlesen)
 ```
 
 **Norm-Fundstellen kommen aus der KB `normen`, nicht aus dem Gedaechtnis** (Rule
@@ -119,6 +119,7 @@ Ausgabe.
 - **Zahlungsfrist 30 Tage** (Art. 190) — Bezugsgroesse fuer Verzugsberechnungen.
 - **Kennwerte** (Schritt 6): CHF/m2 und CHF/m3 nur mit benannter Bezugsflaeche nach
   **SIA 416:2003** rechnen (GF/NGF/HNF/GV, `wissen/normen/destillate/sia-416-2003.md`).
+  ⚠ **Stand 02.09.2026: dieses Destillat trägt `status: speculative`** — nicht weil die geführten Werte unsicher wären (vier Prüfrunden fanden keinen falschen Wert), sondern weil die Vollständigkeit des Figurenanhangs nicht belegt ist. Nach Rule `normen-referenz` Ziff. 1b vor dem Zitieren am Original gegenlesen.
   **SIA 416 ist ausdruecklich keine Kostenermittlungsmethode** und definiert die
   baurechtlichen Groessen (Bruttogeschossflaeche im Ausnuetzungssinn, anrechenbare
   Geschossflaeche, Volumen zur Baumassenziffer) **nicht** (Ziff. 0.1) — diese kommen aus

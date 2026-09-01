@@ -1,3 +1,81 @@
+## 2026-09-02 — Normen-Nacht Run 77: N66-1 geschlossen (Figur 11 SIA 416), fünf Befunde aus einer Figur, zweiter Beleg für N66-2
+
+Inventar unverändert bei **0 offenen `[ ]`** im SIA/VKF-Scope; gearbeitet wurde am einzigen
+namentlich benannten Rückstand des Destillats `sia-416-2003.md`: **N66-1**, die beiden Deutungen
+zu **Figur 11 (S. 56)**, die Run 66 bewusst nicht übernommen hatte, weil der Hauptprozess sie
+nicht selbst nachgelesen hatte.
+
+**Methode.** Der Hauptprozess hat die Figur selbst gerendert (600 dpi, Präfix `sia416-r77-hp-`)
+und **rechnerisch aufgenommen**: Legenden-Swatches an der Figur selbst gemessen, alle Farbregionen
+über Connected Components erfasst, Linien-Signaturen über Pixelschnitte protokolliert. Zwei
+unabhängige Refuter-Agenten (je eigenes Präfix `r77-refA-`/`r77-refB-`) haben sechs Behauptungen
+zu **widerlegen** versucht. Gedruckte Seitenzahl am Rand abgelesen, Versatz null.
+
+**Verdikte: 5 bestätigt, 1 eingeschränkt** — und ausgerechnet die Einschränkung war ergiebig.
+
+**N66-1 geschlossen.** Der blaue Streifen in der Deckenzone ist **bestätigt**: gemessen liegt er
+**unterhalb** des Deckenkörpers (`HNV | S6 W28 S6 | FV 24px | S5 | HNV`), also im Nettovolumen des
+1. OG. Er trägt mehr als gemeldet, weil Ziff. 2.1.3 «Installationsgeschosse sowie Ver- und
+Entsorgungskanäle» ausdrücklich zur FF zählt — die Deutung hängt also nicht an der
+unbeschrifteten Figur allein. Der orange Keil ist als **Beobachtung bestätigt** (NNV an der
+Traufseite, ohne Konstruktion zum HNV), seine mitgelieferte Begründung **«zu geringe Raumhöhe»
+als Norm-Kriterium jedoch nicht**: SIA 416 kennt keinen Raumhöhen-Schwellenwert, unabhängig durch
+Volltextsuche über den ganzen deutschen Normteil gegengeprüft. Wer aus dieser Figur eine
+Mindesthöhe für HNV ableitet, legt der Norm etwas unter, das sie nicht sagt — und würde es beim
+nächsten Dachausbau anwenden.
+
+**Zwei Befunde mit Hub-Reichweite.** (1) **Die Volumenanteile sind nicht aus den Flächenanteilen
+ableitbar.** Ziff. 5.1/5.1.1 sagen «analog der Flächengliederung»; das meint die Struktur, nicht
+die Zuordnung. Über derselben Grundfläche liegen im 1. OG zwei Volumenschichten verschiedener
+Kategorie, während die Grundfläche im Plan **einmal** klassiert ist — Gegenprobe an Figur 4
+gemessen, wo Blau (FF) nur als Schachtquerschnitt und Technikraum auftritt. (2) **Die
+NGV-Kategorien sind nicht geschossweise geschnitten:** der Raum über EG/1. OG ist auf rund zwei
+Dritteln seiner Breite **zweigeschossig** (Decke nur über 270 von 897 px gezeichnet), und der
+VV-Schacht läuft ohne trennende Decke 45 % ins Höhenband des 2. UG. Der Gegenbeleg steht im
+eigenen Destillat: in **Figur 1** bleibt ein Luftraum **unkoloriert** und zählt in der Fläche
+nicht — im Volumen zählt er voll. Fläche und Volumen weichen damit nicht nur in der Kategorie ab,
+sondern auch in der **Menge**. Praxisfolge: ein HNV/NGV-Verhältnis darf nicht aus dem HNF/NGF-
+Verhältnis fortgeschrieben werden.
+
+**Eine Bestätigung statt eines Befundes** (Methodik-Pflicht 7): die innenliegende Treppe/Rampe im
+zweigeschossigen Raum ist **HNV-farbig**, nicht VV — das bestätigt die schon geführte Regel aus
+Ziff. 2.1.2, wonach nur die **ausserhalb der Wohnung liegenden** Treppen zur VF zählen. Neu und
+nachgetragen ist allein die volumenseitige Folge: der VV-Anteil einer Maisonette ist kleiner, als
+eine Zählung «alle Treppen sind VV» ergäbe.
+
+**Eine Selbstkorrektur im Lauf.** Die eigene Aufnahme führte das FV-Feld als «einziger
+eingefärbter Bereich im 2. UG». Ein Refuter widersprach, die Nachmessung des Hauptprozesses gab
+ihm recht — und die widerlegende Zahl (`y 1924–3419`) stand die ganze Zeit in der eigenen
+Regionenliste, ungelesen. Zweitens hatte der Hauptprozess den 12-px-Balken zwischen HNV und NNV
+beim blossen **Betrachten** für eine Wand gehalten; erst die Messung kehrte die Deutung um.
+
+**Status bewusst NICHT gehoben.** Alle vier Prüfrichtungen sind auf allen Teilen gelaufen, vier
+Runden haben **keinen falschen Zahlenwert** gefunden, und N66-1 ist geschlossen — der Zustand,
+den Methodik-Pflicht 13 für eine Hebung verlangt, ist formal erreicht. Dagegen steht die Ausbeute
+dieses Laufs: die **messende** Abdeckung des Hauptprozesses lief auf **1 von 12 Figuren** und hat
+dort fünf Befunde gehoben, nachdem die Abdeckungsrunde von Run 64 denselben Anhang auf
+Agenten-Ebene bereits abgedeckt hatte. Nach der Methoden-Lehre misst eine ertragreiche Runde die
+Quelle und nicht die Methode: der Anhang ist nicht ausgereizt. Was zur Hebung fehlt, ist
+benannt — die messende Abdeckung der Figuren 1-10 und 12 sowie der systematische f/i-Diff.
+
+**Health-Check-Befund C3 präzisiert und behandelt.** Der Check vom 01.09. nannte «12 Konsumenten
+ohne Warnhinweis». Gegen den ganzen Bestand geprüft (Methodik-Pflicht 10) sind es **vier**: die
+KBs `energie` (2×), `immobilienbewertung` und `wiki/synthese-sia-vkf-fachskills.md` tragen den
+Vermerk seit dem 28.08. bereits, und mehrere weitere Treffer nennen SIA 416 nur als
+Bezugsgrössen-Konvention ohne Ziffern-Zitat. Die vier offenen Stellen —
+`agents/flaechen-nachweis.md`, `skills/kostenkontrolle/SKILL.md` (2×), `skills/wettbewerb/SKILL.md`,
+`wissen/baurecht/wiki/nutzungsziffern.md` — sind in diesem Lauf mit dem Vermerk versehen. Die
+richtige Formulierung lautet nicht «der Check hatte unrecht», sondern: der Befund ist real, sein
+handlungsrelevanter Kern ist ein Drittel so gross.
+
+**Vorgelegt (nicht selbständig umgesetzt):** **N77-2** — N66-2 hat den geforderten zweiten,
+unabhängigen Fall (dort eine Flächensignatur und ein Agent, hier eine Liniensignatur und der
+Hauptprozess selbst); Vorschlag Methodik-Pflicht 14. **N77-3** — die Nummern N66-1/N66-2 sind
+zwischen den zwei Run-Nummernkreisen (Normen-Nacht, Schub-Lane) **doppelt vergeben**; deshalb
+vergibt dieser Lauf 77 und nicht 67. Nicht umnummeriert, das wäre ein Registerumbau.
+
+Anlage `training/n77-figur11-anlage.md`, Report `outputs/2026-09-02_normen-nacht-run77.md`.
+
 
 ## 2026-09-01 (Wissens-Chef Lauf 50) — Glossarzeile zu f_Rsi präzisiert (war die Fehlerquelle eines Cross-KB-Vorgangs)
 

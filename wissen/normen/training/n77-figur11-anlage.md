@@ -34,7 +34,7 @@ Voraussetzung, um die Linienbefunde unter Ziff. 3 richtig zu lesen.
 
 | Kategorie | Fläche (px) | y | x | Was es ist |
 |---|---|---|---|---|
-| FV blau | 87'100 | 3287–3547 | 3640–3975 | Einziger eingefärbter Bereich im **2. UG**; beidseits Wände, darunter ein gespreiztes Fundament |
+| FV blau | 87'100 | 3287–3547 | 3640–3975 | Eigener Raum im **2. UG** des rechten Anbaus; beidseits Wände, darunter ein gespreiztes Fundament. ⚠ *Berichtigt, siehe A77-05 — es ist **nicht** der einzige eingefärbte Bereich in diesem Höhenband* |
 | FV blau | 50'621 | 1658–1881 | 2004–2231 | Eigener Raum im **DG**, unmittelbar **über** dem gelben VV-Schacht |
 | FV blau | 21'192 | 2312–2336 | 2263–3146 | **Waagrechtes Band** unter der Decke des 1. OG, über die volle Raumbreite |
 | NNV orange | 519'569 | 2962–3245 | 2263–4126 | «Keller / Cave / Cantina», 1. UG; reicht **weiter nach rechts** als die Geschosse darüber |
@@ -164,3 +164,84 @@ vom ersten:
 
 Damit ist die Beobachtung nicht mehr an einen Einzelfall gebunden, und sie ist auch nicht auf
 Farbflächen beschränkt. Vorlage an Raphael im Laufbericht.
+
+
+---
+
+## 7. Unabhängige Widerlegungsprüfung (zwei Refuter, je eigenes Render-Präfix)
+
+Zwei Agenten haben die Behauptungen dieses Laufs am Original zu **widerlegen** versucht, je mit
+eigenem Präfix (`r77-refA-`, `r77-refB-`) und je mit **selbst gemessenen** Legenden-Swatches.
+Beide haben die gedruckte Seitenzahl am Rand abgelesen und Seitenversatz null bestätigt.
+
+| Behauptung | Refuter | Verdikt |
+|---|---|---|
+| Waagrechtes FV-Band unter der Decke des 1. OG, **unterhalb** des Deckenkörpers | A | **bestätigt** |
+| FV-Feld im DG **über** dem VV-Schacht, mit regulärer Decke dazwischen | A | **bestätigt** |
+| Im 2. UG ist das FV-Feld der **einzige** eingefärbte Bereich | A | **eingeschränkt — teilweise widerlegt** (siehe A77-05) |
+| NNV-Feld an der Traufseite des DG, direkt an das HNV-Feld grenzend | B | **bestätigt** |
+| Zwischen HNV und NNV **kein** Konstruktionsbauteil (`S12` ohne weissen Kern) | B | **bestätigt**, an drei **selbst gewählten** Referenzstellen reproduziert; der Unterschied ist **kategorisch**, nicht graduell |
+| SIA 416 kennt **kein** Raumhöhen-Kriterium für HNF/NNF bzw. HNV/NNV | B | **bestätigt** — Volltextsuche über den ganzen deutschen Normteil S. 3-16 nach Höhen- und Massangaben; die drei Treffer auf «Höhe» betreffen den Berechnungsmodus (Ziff. 0.4), die GV-Berechnung (Ziff. 5) und lichte Schachtquerschnitte (Ziff. 2.2), keiner ein Zuordnungskriterium |
+
+Refuter A hat zusätzlich die **Höhen-Referenzlinien des Massstrangs** vermessen und damit einen
+Beleg geliefert, den der Hauptprozess nicht hatte: die Geschossgrenze «H 2.OG» liegt bei y ≈ 2307
+und damit **im weissen Deckenkörper** — das blaue Band (y 2312-2336) liegt eindeutig unterhalb
+davon, im Nettovolumen des 1. OG.
+
+**Was beide Refuter ausdrücklich NICHT konnten:** die Bedeutung der unbeschrifteten Felder aus
+der Figur allein bestimmen. Refuter A vermutete beim orangen Feld im DG «Dachvorsprung/Gaube»,
+Refuter B «niedriger Randstreifen unter der Schräge». **Beide Deutungen sind unbelegt und
+keine ist ins Destillat übernommen** — dort steht nur, was gemessen ist: NNV an der Traufseite,
+ohne Konstruktion zum HNV, ohne Höhenangabe.
+
+## 8. A77-05 — Selbstkorrektur: das 2.-UG-Höhenband trägt zwei Farben
+
+**Vom Hauptprozess nachgemessen, nachdem Refuter A widersprochen hatte** (Spaltenscan x = 2100):
+Der gelbe VV-Schacht läuft **ohne trennende Decke** bis y = 3418 durch, also rund **137 px unter
+die Geschossgrenze 1. UG / 2. UG** (y ≈ 3282) und damit etwa 45 % in das Höhenband des 2. UG
+hinein; erst dort schliesst ihn eine Linie und darunter folgt Konstruktion. Die Aufnahme in
+Ziff. 2 dieser Anlage sagte «einziger eingefärbter Bereich im 2. UG» — **das ist falsch**, und
+die Zahl stand in der eigenen Regionenliste (`y 1924–3419`), ohne dass sie gelesen worden wäre.
+
+Refuter A liess offen, ob dieser Schachtfuss ein Raum oder blosse Fundamenttiefe sei. **Die
+Nachmessung entscheidet es:** es liegt **keine Decke** dazwischen, der Schachtfuss ist also die
+Fortsetzung desselben Volumens und nicht ein eigener Raum.
+
+## 9. A77-06 — Neu: die NGV-Kategorien sind **nicht** geschossweise geschnitten
+
+Aus A77-05 und einer zweiten, unabhängig gemessenen Stelle folgt eine Regel, die das Destillat
+nie geführt hat:
+
+1. **Nach unten:** Der VV-Schacht überschreitet die Geschossgrenze 1./2. UG ohne trennende
+   Decke (A77-05). Ein durchgehender Schacht ist **ein** VV-Volumen, nicht eines je Geschoss.
+2. **Nach oben:** An der Geschossgrenze 1. OG / EG (y ≈ 2634) ist die Decke **nur über einen
+   Teil der Raumbreite gezeichnet**. Gemessen quer über die 897 px Raumbreite: bei y = 2634
+   sind 270 px schwarz (Decke), der Rest nicht; bei y = 2640 sind 871 px durchgehend rot.
+   Vertikalschnitte bestätigen es: bei x = 2300 / 2500 / 2700 läuft das Rot über 80 px
+   ununterbrochen durch, bei x = 2900 / 3100 liegt eine reguläre Decke (`S13 W28`). Der Raum
+   ist also über etwa zwei Drittel seiner Breite **zweigeschossig**, und das HNV-Volumen läuft
+   dort über die Geschossgrenze durch.
+
+**Warum das der zweite Mechanismus derselben Asymmetrie ist** (der erste ist die waagrechte
+FV-Schicht, A77-03): In der Flächensystematik **kann** ein Luftraum nicht als zweite Fläche
+zählen — die Figurentabelle des Destillats führt genau das schon für **Figur 1** («ein
+innenliegender Luftraum bleibt unkoloriert»). Im Volumen zählt derselbe Luftraum voll mit.
+Fläche und Volumen weichen also nicht nur in der Kategorie ab (A77-03), sondern auch in der
+**Menge**.
+
+## 10. A77-07 — Bestätigung einer bereits geführten Regel (Methodik-Pflicht 7)
+
+Im zweigeschossigen Raum steigt ein diagonales Band konstanter Breite vom Boden zur oberen
+Decke — eine innenliegende Treppe oder Rampe. Sie ist **in der Farbe des HNV** eingefärbt, nicht
+gelb. Das **bestätigt** die Regel, die das Destillat aus Ziff. 2.1.2 bereits führt: zur VF
+gehören die **ausserhalb der Wohnung liegenden** Treppen; eine innenliegende Verbindung bleibt
+bei der Nutzung, der sie dient.
+
+Nach Methodik-Pflicht 7 ist das **kein Befund, sondern eine unabhängige Bestätigung** und wird
+als solche protokolliert. Die **volumenseitige Folge** ist dagegen neu und im Destillat
+nachgetragen: der VV-Anteil einer Maisonette ist kleiner, als eine Zählung «alle Treppen sind
+VV» ergäbe.
+
+**Vorbehalt:** Ob das Band eine Treppe oder eine Rampe darstellt, ist nicht entscheidbar — es
+sind zwei parallele Linien ohne Stufen, während die gelben Treppenläufe der Figur Stufen zeigen.
+Für die Kategorienfrage ist der Unterschied ohne Belang; als Benennung bleibt er offen.

@@ -50,6 +50,7 @@ Baubewilligungsverfahren nachgewiesen (siehe [[baubewilligungsverfahren]]).
 > anrechenbare Geschossfläche beruhen (GSF/GF/NGF/HNF/NNF/KF/AGF/GV), definiert die Norm
 > **SIA 416:2003** — Destillat `wissen/normen/destillate/sia-416-2003`. Bei Flächennachweisen
 > gilt die dortige Definition; das PBG-Mass (§§ 254-259) ist davon zu unterscheiden.
+> ⚠ **Stand 02.09.2026: dieses Destillat trägt `status: speculative`** — nicht weil die geführten Werte unsicher wären (vier Prüfrunden fanden keinen falschen Wert), sondern weil die Vollständigkeit des Figurenanhangs nicht belegt ist. Nach Rule `normen-referenz` Ziff. 1b vor dem Zitieren am Original gegenlesen.
 
 ## Ausnützungsziffer (AZ)
 Verhältnis der anrechenbaren Geschossfläche (aGF) zur **massgeblichen
