@@ -217,7 +217,7 @@ viele neue Adressen in QUESTIONS.md eingetragen haben. `link-zielabgleich.sh`: *
 
 ### Betriebsbefund (nicht KB-inhaltlich)
 
-10. **Der NAS-Mount ist waehrend des Laufs dreimal abgerissen** (jedes Mal per
+10. **Der NAS-Mount ist waehrend des Laufs viermal abgerissen** (jedes Mal per
     `osascript -e 'mount volume ...'` geheilt, Lauf ohne Datenverlust beendet). **Kein neuer
     Befund:** `rules/betrieb-chronik.md` fuehrt den Vorgang bereits als fortbestehenden Zustand
     (260831b: 59 Abrisse an einem Tag; 260901 vom selben Morgen), Ursache benannt —

@@ -49,7 +49,7 @@ bereits einen aktiven Zustaendigen hat: PL-02 ist die kanonische Quelle der KB `
 denselben Ordner erzeugen zwei Wahrheiten ueber dieselben Normen. PL-01/03/04 unveraendert =
 **31. Erschoepfungsbestaetigung**. Entscheid steht in `wiki/QUESTIONS.md`.
 
-**Betriebsbefund (kein neuer).** Der NAS-Mount riss waehrend des Laufs **dreimal** ab, jedes Mal
+**Betriebsbefund (kein neuer).** Der NAS-Mount riss waehrend des Laufs **viermal** ab, jedes Mal
 geheilt, kein Datenverlust. Der Vorgang steht bereits in `rules/betrieb-chronik.md` (260831b,
 260901) samt Ursache — `/etc/nsmb.conf` fehlt — und offener **Aktion Raphael**. **Neu ist nur die
 Folgemechanik**, dort nachgetragen: ein fehlgeschlagenes `cd` auf den NAS-Pfad bricht die Shell
