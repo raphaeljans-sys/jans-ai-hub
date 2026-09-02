@@ -19,6 +19,34 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260902 — Zweiter Speicher-Notstand MacBook Pro: 16 haengende Desktop-Sessions, Claude 18.13 GB
+
+**Vorfall:** 02.09.2026, MacBook Pro (16 GB RAM). macOS-Dialog «Dein System hat keinen
+Programmspeicher mehr», Claude-App mit 18.13 GB Footprint; Mail und Vorschau reagierten nicht
+mehr. Gemessen um 16:00: **16 gleichzeitig laufende Claude-Code-Session-Prozesse** der
+Desktop-App (Pfad `Application Support/Claude/claude-code/.../MacOS/claude`), entstanden fast
+im Stundentakt (05:44, 06:12, 06:54, 07:14, 07:46, 08:05, 08:22, 08:38, 09:40, 10:17, 12:57 …),
+die aelteste seit Vortag 23:11 — Sessions aus Scheduled-Task-/Loop-Laeufen und offenen Tabs,
+die nach getaner Arbeit nie beendet wurden. RSS-Summe der Sessions ~3.4 GB; der Rest des
+18-GB-Footprints war komprimierter/ausgelagerter Ballast der langlebigen Prozesse plus
+Electron-Renderer mit allen offenen Transkripten. Gleiche Familie wie der Vorfall 28.07.2026
+(20.24 GB), nur dass damals OneDrive der Treiber war und der daraus gebaute `speicher-waechter`
+Claude-Prozesse bewusst nie anfasst.
+
+**Eingriff (interaktiv, Auftrag Raphael):** 15 Sessions per SIGTERM beendet (alle bis auf die
+laufende eigene; alle gingen sauber auf TERM, keine SIGKILL noetig, Wrapper `disclaimer`
+beendeten mit). Werkzeug-Falle dabei: zsh splittet `$VAR` in `for p in $VAR` NICHT — der
+erste Kill-Versuch scheiterte mit «illegal pid» an der ungeteilten Liste; PIDs explizit
+auflisten oder `${=VAR}`.
+
+**Dauerhafte Massnahme:** neuer `scripts/claude-session-waechter.sh` (Kriterien: nur
+Desktop-Session-Prozesse, nur aelter 8 h oder verwaist, nie aktiv rechnende, eigener
+Prozessbaum ausgenommen; App-Neustart bei >8 GB RSS-Familie nur Nachtfenster 03-06 Uhr bei
+Ruhe; TROCKEN=1 Trockenlauf), verkettet am Ende von `speicher-waechter.sh` (gleiches Muster
+wie kontingent-waechter, kein eigener launchd-Job). Kopf-Kommentar des speicher-waechter
+praezisiert. Rule: `auto-verbesserungen.md` 260902 (inkl. Langlaeufer-Weiche: Loops nie als
+Desktop-Session auf dem MacBook). Getestet: Trockenlaeufe + ein Vollauf der Kette, rc=0.
+
 ## 260901b — Ein Subagent, der «laeuft im Hintergrund» meldet, ist nicht untaetig: Doppellauf im Wissenscheck
 
 **Vorfall ohne Schaden, aber mit Lehre** (`wissenscheck-monatlich`, 01.09.2026, 19:3x bis 19:46,

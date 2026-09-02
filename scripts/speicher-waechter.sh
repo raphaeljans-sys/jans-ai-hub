@@ -15,6 +15,11 @@
 #   2. Freier Speicher     -> Warnung + Eintrag ins Log
 # Er beendet NIEMALS Claude-Prozesse und NIEMALS Benutzer-Anwendungen
 # (ArchiCAD, InDesign) — dort koennte ungesicherte Arbeit verloren gehen.
+# PRAEZISIERUNG 02.09.2026 (Auftrag Raphael nach dem zweiten Speicher-Notstand,
+# Claude 18.13 GB durch 16 haengende Desktop-Sessions): haengende HEADLESS-
+# Claude-Sessions beendet der am Ende verkettete claude-session-waechter.sh
+# mit engen Kriterien (nur Session-Prozesse, nur alt/verwaist, nie aktive).
+# Dieser Waechter selbst fasst weiterhin keine Claude-Prozesse an.
 # OneDrive ist der einzige Prozess, den er neu startet: ein Sync-Client
 # vertraegt einen Neustart jederzeit (lokale Dateien bleiben unberuehrt,
 # der Abgleich wird beim Start wieder aufgenommen).
@@ -205,5 +210,13 @@ fi
 KW="$HOME/Developer/jans-ai-hub/scripts/kontingent-waechter.sh"
 [ -f "$KW" ] || KW="/Volumes/daten/jans-ai-hub/scripts/kontingent-waechter.sh"
 [ -f "$KW" ] && bash "$KW" >/dev/null 2>&1 || true
+
+# Claude-Session-Waechter mitlaufen lassen (02.09.2026, Auftrag Raphael nach
+# dem 18-GB-Vorfall): beendet haengende Desktop-App-Sessions und startet die
+# App bei aufgeblaehter Familie im Nachtfenster neu. Gleiche Verkettungs-
+# Begruendung wie beim Kontingent-Waechter — kein eigener launchd-Job.
+SW="$HOME/Developer/jans-ai-hub/scripts/claude-session-waechter.sh"
+[ -f "$SW" ] || SW="/Volumes/daten/jans-ai-hub/scripts/claude-session-waechter.sh"
+[ -f "$SW" ] && bash "$SW" >/dev/null 2>&1 || true
 
 exit 0

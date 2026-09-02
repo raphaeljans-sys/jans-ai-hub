@@ -14,6 +14,27 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260902 — Desktop-App-Sessions schliessen; Langlaeufer nie als Desktop-Session auf dem MacBook
+- **Regel:** (1) Claude-Desktop-Sessions werden nach getaner Arbeit **geschlossen, nicht liegen
+  gelassen** — jede offene Session ist ein eigener Node-Prozess (~200-300 MB RSS, Footprint
+  hoeher), und die Electron-Oberflaeche haelt jedes offene Transkript zusaetzlich im Renderer.
+  Haengende Sessions raeumt der `claude-session-waechter.sh` ab (verkettet im
+  `speicher-waechter`, 30-Min-Takt, beide Stationen): beendet nur Desktop-Session-Prozesse,
+  nur alt (Default 8 h) oder verwaist, nie aktiv rechnende; App-Neustart bei mehr als 8 GB
+  RSS-Familie nur im Nachtfenster 03-06 Uhr und nur bei Ruhe. (2) **Langlaeufer (Loops,
+  Nachtlaeufe, Dauerauftraege) laufen nie als Desktop-App-Session auf dem MacBook Pro** —
+  sie gehoeren auf den Mac Mini oder in einen Terminal-Lauf via `scripts/claude-run.sh`
+  (Rollenteilung der Stationen, Betriebs-Chronik). Wer einen Langlaeufer startet, waehlt
+  zuerst die Station und den Kanal, nicht die bequemste Oberflaeche.
+- **Warum, mit Beleg:** Zweiter Speicher-Notstand des MacBook Pro am 02.09.2026 (Dialog
+  «Dein System hat keinen Programmspeicher mehr», Claude 18.13 GB bei 16 GB RAM); gemessen:
+  16 gleichzeitig laufende Session-Prozesse, fast im Stundentakt entstanden, die aelteste
+  seit Vortag 23:11. Erster Vorfall 28.07.2026 (20.24 GB) fuehrte zum `speicher-waechter`,
+  der Claude-Prozesse bewusst nie anfasst — diese Luecke schliesst der neue Waechter.
+  Chronik: `rules/betrieb-chronik.md` 260902.
+- **Gilt fuer:** alle Stationen, alle Sessions; Scripts `claude-session-waechter.sh` +
+  `speicher-waechter.sh`.
+
 ## 260830 — Treiber brechen nach gemessenem Ertrag ab; ein Prompt schreibt nie einen Fortschrittsstand fest
 - **Regel:** (1) Jede Schleife, die einen Lauf wiederholt anstoesst (Treiber, Runner, Lane, Loop),
   braucht eine **Abbruchbedingung aus gemessenem Liefer-Delta** — geaenderte Dateien, neuer
