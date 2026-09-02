@@ -10396,3 +10396,31 @@ bleiben offen fuer den naechsten energie-Lauf. CHANGELOG nachgefuehrt. Commit ue
 sauberer Arbeitsbaum); Push nach GitHub scheiterte wie in jedem heutigen Lauf an der
 bestehenden P1-Divergenz (Befund B6) — keine neue Diagnose, nicht selbst aufgeloest. Budget
 rund 4.1 von 5 USD, Zyklus beendet.
+
+## 2026-09-02 05:3x Nachtschicht Mac Mini
+
+Prioritaeten 1-3 leer bzw. nicht umsetzbar: `remote-tasks/pending/` ohne Station-Unterordner (keine
+Pendenz); einziger Sync-Task `sync-tasks/mac-mini/...Laufzeitschicht-Umbau-Phasen-0-2.md.angehalten`
+war bereits am 30.08. 08:41 von der erstellenden Session selbst angehalten (wartet auf Raphaels
+Arbeitsbaum-Entscheid) — unveraendert nicht wieder aufgenommen; Fristen-Register ohne neuen,
+undokumentierten Punkt. Prioritaet 2 (Synobsis Stufe 2) und Prioritaet 4 (naechste faellige
+Trainingslektion) beide ohne gueltiges Ziel: `bauprodukte` ist seit 15.08.2026 in der eigenen
+`training/PROGRAMM.md` als ERLEDIGT markiert (bisher nicht auf der Ausschlussliste des
+Nachtschicht-Auftrags vermerkt — Praezisierung faellig), `energie` war bereits im 02:3x-Lauf
+derselben Nacht bearbeitet (Run 173, 169er-Reihe geschlossen), alle uebrigen KBs mit
+`training/PROGRAMM.md` sind eigenstaendig getaktet oder ereignisgetriggert (Bestand gegen alle
+zehn `wissen/*/training/PROGRAMM.md`-Dateien geprueft).
+
+Prioritaet 5 gegriffen: naechster offener Punkt aus `wissen/energie/wiki/QUESTIONS.md` nach dem
+Zeiger aus Run 173. E-R163-1 (ewz-Fernwaermetarif-Volltext) bereits am 26.08. als "zu gross fuer
+Nachtschicht-Budget" vermerkt — uebersprungen, nicht erneut versucht. **E-R164-3** bearbeitet:
+das Werkzeug `wissen/tools/datenstand-waechter.py` sollte laut Befund erledigte, quittierte
+Pruefstichtage weiterhin melden. Nachpruefung (zwei Laeufe des Tools, aktueller Stichtag und
+`--heute 2026-08-24`) zeigt: die Reparatur (Quittungsfenster) wurde bereits am 28.08. in Run 166
+eingebaut und funktioniert einwandfrei — null unquittierte Pruefstichtag-Treffer. Ein weiterer
+Fall der Klasse "Fehl-Offen Typ 2" (vgl. E-R172-1): geloest war es laengst, nur die Checkbox
+fehlte. `QUESTIONS.md` und `CHANGELOG.md` nachgefuehrt, Bericht
+`wissen/energie/outputs/2026-09-02_energie-run174.md`. Kein Code-Fix noetig.
+
+Sicherung ueber `nas-commit-now.sh` folgt im Anschluss an diesen Eintrag. Budget rund 1.8 von
+5 USD, Zyklus beendet.

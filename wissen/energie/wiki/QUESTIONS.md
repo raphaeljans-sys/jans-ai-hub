@@ -2,6 +2,23 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-09-02 (Nachtschicht Mac Mini 05:3x) — E-R164-3 geschlossen: Werkzeug war bereits repariert, nur nie abgehakt
+
+- [x] **E-R164-3 (P3, Werkzeug) ✓ 2026-09-02 — `datenstand-waechter.py` meldet erledigte
+  Pruefstichtage nicht mehr weiter.** Der Punkt stand seit Lauf 165 (27.08.2026) offen. Tatsaechlich
+  wurde die Reparatur bereits am **28.08.2026 in Run 166** eingebaut: das Quittungsfenster (Regel 3,
+  `QUITTUNG_SPRACHE`-Regex, Skript-Kommentar «Ergaenzt 28.08.2026 (energie Run 166)») unterdrueckt
+  seither jeden verstrichenen, im Umfeld quittierten Pruefstichtag — nur die Checkbox zu E-R164-3
+  selbst wurde nie gesetzt. **Nachpruefung heute:** `python3 wissen/tools/datenstand-waechter.py
+  energie` (Stichtag 2026-09-02 und zur Kontrolle mit `--heute 2026-08-24`, dem im urspruenglichen
+  Befund genannten Datum) liefert in beiden Laeufen **null** unquittierte Pruefstichtag-Treffer;
+  alle vier gefundenen QUESTIONS-Stichtage (17.08.2026, Zeilen 965/2577/2619/5777 im aktuellen
+  Dateistand) sind korrekt mit «[im Umfeld quittiert — kein Befund]» markiert. Die im Befund
+  genannten Zeilennummern (596/2208/2250/5395) sind ueberholt — die Datei ist seither gewachsen und
+  hat sich verschoben, betroffen ist derselbe Mechanismus. **Damit ein weiterer Fall der Klasse
+  „Fehl-Offen Typ 2"** (siehe E-R172-1 oben): die Loesung stand laengst im Code, nur die Buchhaltung
+  hinkte hinterher. Checkbox jetzt im selben Lauf gesetzt (Rule `auto-verbesserungen` E-R172-1).
+
 ## 2026-09-01 — Eingang aus KB `baurecht` (Buch-Run 141): Art. 32a RPV per 1.1.2026 revidiert
 
 **E-B141-1 (offen):** Prüfen, ob die BVV (LS 700.6, Nachtrag 133, Druckstand 1.7.2026) den neuen

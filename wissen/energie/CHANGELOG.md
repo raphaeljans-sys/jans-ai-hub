@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 2026-09-02 (Nachtschicht Mac Mini, Run 174) — E-R164-3 geschlossen (Fehl-Offen Typ 2, Werkzeug bereits repariert)
+
+`wissen/tools/datenstand-waechter.py` meldete laut QUESTIONS.md E-R164-3 seit dem 27.08.2026
+erledigte Prüfstichtage weiter. Nachprüfung ergab: das Quittungsfenster (Regel 3) wurde bereits am
+28.08.2026 in Run 166 eingebaut und funktioniert — nur die Checkbox war nie gesetzt. Zwei Läufe
+des Tools (Stichtag heute und mit `--heute 2026-08-24`) zeigen null unquittierte
+Prüfstichtag-Treffer für die KB `energie`. `wiki/QUESTIONS.md` entsprechend als ✓ geschlossen
+nachgetragen. Kein Code-Fix nötig, kein neuer Befund — reine Buchhaltungskorrektur.
+
 ## 2026-09-02 (Nachtschicht Mac Mini, Run 173) — E-R169-5/-6 geschlossen: beide ElCom/VSE-Restpunkte per Primärquelle bestätigt
 
 Rest der 169er-Reihe (nach E-R169-4 am 01.09.) abgearbeitet, beide Punkte P3:
