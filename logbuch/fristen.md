@@ -5130,3 +5130,9 @@ ist lokal auf dem NAS vorhanden. **Zaehlerstand jetzt: 647 lokal / 267 remote** 
 Nachtrag von 02.0x). Kein neuer Sachbefund — bestaetigt nur, dass der Sicherungsmechanismus haelt,
 solange der Konflikt ungeloest bleibt. Weiterhin nicht selbst aufgeloest (Git-Interna, Rule
 `interaktive-eingriffe` Ziff. 3).
+
+**Nachtrag 02.09.2026 05:3x (Nachtschicht Mac Mini, eigene Messung nativ per ssh) — unveraendert,
+gleiches Bild.** Eigener `nas-commit-now.sh`-Aufruf (energie/QUESTIONS-Fehl-Offen-Fix, Commit
+`febc3775b`) loeste denselben Merge-Konflikt an denselben sieben Dateien aus, sauber abgebrochen
+(kein `MERGE_HEAD`, `git status --porcelain` leer, eigener Commit lokal vorhanden). **Zaehlerstand
+jetzt: 662 lokal / 267 remote.** Kein neuer Sachbefund. Weiterhin nicht selbst aufgeloest.
