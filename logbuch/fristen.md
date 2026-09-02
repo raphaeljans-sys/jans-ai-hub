@@ -5195,3 +5195,14 @@ zur Aufloesung die alte speicher-waechter-Fassung ohne Session-Bereinigung (NAS-
 nur, wenn die SSD-Datei fehlt). Aufloesungsversuch per ssh (Merge mit Union-Aufloesung der
 CHANGELOGs) vom Auto-Mode-Klassifikator blockiert; Befehl gemaess Rule wege-und-vollmachten
 Raphael vorgelegt (Chat 02.09.). Nicht selbst aufgeloest.
+
+**ERLEDIGT 02.09.2026 16:2x (interaktive Session MacBook Pro, Einzelfreigabe Raphael):**
+Divergenz aufgeloest. Merge-Commit `a6fb7e3bd` (Union-Aufloesung von 11 Log-Dateien +
+redaktionelle Zusammenfuehrung des doppelt destillierten Wiki-Artikels protofunktional-*,
+siehe CHANGELOG architektur-fachwissen 2026-09-02), Push auf GitHub bestaetigt
+(origin/main = a6fb7e3bd), SSD-Klon MacBook Pro nachgezogen. Werkzeug:
+`scripts/sync-merge-reparatur-260902.sh`, durch Raphael per ssh ausgefuehrt (drei Anlaeufe:
+AA-Konflikt, dirty tree durch liegende SMB-Edits, dann Erfolg — Haertungen im Script
+dokumentiert). Verlustfrei: beide Seiten aller Konfliktdateien erhalten; Union-Merges koennen
+in den CHANGELOGs doppelte Nachbarbloecke hinterlassen, die Lern-Loops raeumen das beim
+naechsten Durchgang. Mac Mini zieht via git-auto-sync selbst nach.

@@ -39,6 +39,17 @@ beendeten mit). Werkzeug-Falle dabei: zsh splittet `$VAR` in `for p in $VAR` NIC
 erste Kill-Versuch scheiterte mit «illegal pid» an der ungeteilten Liste; PIDs explizit
 auflisten oder `${=VAR}`.
 
+**Nachtrag 16:2x — Sync-Kette geheilt (Einzelfreigabe Raphael):** Die seit 31.08. divergierte
+Kette NAS→GitHub→SSD (zuletzt 719/267 Commits) blockierte die Verteilung des Waechters an die
+SSD-Klone. Aufloesung durch `scripts/sync-merge-reparatur-260902.sh` (nativ auf der Synology,
+durch Raphael per ssh gestartet; der Auto-Mode-Klassifikator hatte Claudes Direktausfuehrung
+korrekt zur Vorlage gezwungen): Merge-Commit `a6fb7e3bd`, 11 Log-Dateien per Union, der doppelt
+destillierte Artikel protofunktional-* per redaktioneller Vorgabe
+(`scripts/merge-vorgaben-260902/`). Drei Anlaeufe noetig — Lehren im Script-Kopf: (1) AA-Konflikte
+nicht pauschal abbrechen, (2) dirty tree vorab committen, ein verweigerter Merge-Start sieht
+sonst wie Erfolg aus, (3) `if cmd | tail` prueft tail, nicht cmd. Push auf GitHub bestaetigt,
+SSD-Klon MacBook Pro gezogen, launchd-Kette damit scharf.
+
 **Dauerhafte Massnahme:** neuer `scripts/claude-session-waechter.sh` (Kriterien: nur
 Desktop-Session-Prozesse, nur aelter 8 h oder verwaist, nie aktiv rechnende, eigener
 Prozessbaum ausgenommen; App-Neustart bei >8 GB RSS-Familie nur Nachtfenster 03-06 Uhr bei
