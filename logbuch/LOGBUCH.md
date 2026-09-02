@@ -3,6 +3,108 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 02.09.2026 (Logbuch-Radar, 06:55)
+
+Ein Tag mit einer echten letzten Gelegenheit: R. Steinmann ist ab morgen drei Wochen weg, und
+das Anliegen an ihn ist gestern trotz Kalendereintrag nicht hinausgegangen. Die Therapieküche
+ist dagegen sauber durch. Um 09:00 läuft die Türbeschläge-Runde.
+
+**Erledigt seit gestern**
+
+Therapieküche PPTS ist freigegeben und beim Unternehmer. F. Würsch hat die unterzeichnete
+Fassung der Bauherrschaft am 01.09. um 16:32 geschickt («Anbei die Freigabe der Küche»,
+Anhang HPScan), RJ hat sie um 16:49 an N. Rothe weitergeleitet, mit dem Werkplan «Gut zur
+Ausführung von Architekt und Bauherrschaft» und dem SharePoint-Ordner. Rothes Mittagsfrist
+wurde um gut vier Stunden verfehlt, die Freigabe ging aber am selben Tag hinaus. JANS hat
+hier keine offene Aktion mehr.
+
+Die sieben Türmatrix-Korrekturen von L. Merci sind abgenommen («Passt so perfekt»,
+01.09. 06:11); L. Hiltmann hat am 01.09. um 11:23 Türmatrix, Türbuch und Türkonzeptplan
+geliefert.
+
+**Aus unseren Gesprächen**
+
+Keine. Im Fenster der letzten 26 Stunden hat kein Gespräch mit Claude stattgefunden; alles
+Berichtenswerte stammt aus den Automatik-Läufen und steht unten.
+
+**Überfällig**
+
+R. Steinmann (Nova Property) ist nicht angeschrieben worden. Die Zustellfrist war gestern, der
+Kalendereintrag stand seit dem 29.08. auf 08:00 mit Alarm, und die Gegenprüfung über alle
+Postfächer findet seit dem 25.08. kein einziges ausgehendes Mail an ihn oder an
+novaproperty.ch. Er ist vom 03.09. bis 21.09. abwesend und hat am 27.08. ausdrücklich um
+rechtzeitige Zustellung gebeten. **Heute ist der letzte Tag, an dem er es noch liest.**
+Betroffen ist der Strang 2620 Albertstrasse 7, KV-Zusammenstellung und Debitor RE-00100 über
+CHF 13'120.
+
+Sicherungskette NAS zu GitHub, fünfter Tag: 670 Commits voraus, 267 nicht integriert,
+gemeinsamer Stand seit 81 Stunden eingefroren. Heute selbst nachgemessen statt übernommen:
+**387 Dateien liegen auf GitHub und fehlen im kanonischen NAS-Arbeitsbaum**, im Wiki der KB
+architektur-fachwissen stehen 99 Dateien auf dem NAS gegen 455 auf GitHub. Damit ist es kein
+Backup-Rückstand mehr, sondern eine unvollständige Hauptquelle. Nicht selbst aufgelöst, die
+Auflösung greift in fremde unbestätigte Arbeit ein und braucht Deinen Entscheid.
+
+AG-Gründung: Die Kapitaleinzahlung von CHF 50'000 auf das seit dem 17.08. offene Sperrkonto
+fehlt seit 16 Tagen, ohne sie keine Kapitalbescheinigung und keine Beurkundung. Vom Notariat
+Mathies liegt seit dem 13.08. keine Antwort vor.
+
+bexio antwortet den 25. Tag mit 401. Der Token läuft erst am 13.12. ab, die Session dahinter
+ist beendet; nur ein neuer Personal Access Token hilft. Unverifiziert bleiben CHF 51'400 in
+fünf Positionen.
+
+**In den nächsten 7 Tagen**
+
+Heute, 09:00 bis 09:30, Türbeschläge, Teams, Du bist Organisator; Merci hat heute um 06:12
+zugesagt, Hiltmann hat auf den verschobenen Termin nicht geantwortet.
+
+Donnerstag 03.09., 13:00 bis 14:00, Koordinationssitzung Gruner / Jans / KISPI,
+Teams, 13 Teilnehmende.
+
+Montag 07.09. trägt drei Dinge: Produktionsstart Therapieküche, Ablauf des
+SharePoint-Gastzugriffs von L. Bajrami und um 09:15 der Abgleich Umbau PPTS mit C. Schäfer,
+C. Allerkamp und A. Spahic. Bajrami zeichnet gerade die Werkpläne, für die er den Zugriff
+braucht: RJ hat ihm am 01.09. um 09:42 und 10:53 die Grundlagen geschickt. Die Verlängerung
+sollte vor dem Wochenende geschehen, Hiltmann (Ablauf 22.09.) im selben Zug.
+
+Dienstag 08.09.: Entscheid zum bexio-Abo, letzter Tag der 30-Tage-Frist vor der automatischen
+Migration Starter auf Advanced am 08.10.
+
+**In Beobachtung**
+
+RWD Schlatter, Angebot KD18611: Der Video-Call ist am 01.09. gelaufen, der angebotene
+Donnerstagstermin damit überholt. Offen ist eine Frage mit Terminwirkung, die Du um 17:15
+gestellt hast: ob der Typ IT100 als Steckzarge lieferbar ist. Die bisherige Offerte rechnet
+IT100, im Gespräch ging RWD offenbar von IT400 aus. Mit IT100 würden die Türen dem Typ auf dem
+Geschoss entsprechen und die Lieferfristen halten. Dazu die korrigierte Offerte für die zwei
+zusätzlichen Fluchtwegtüren 01.2.037.01 und 01.2.038.01, die von EI00 auf EI30 aufzurüsten
+sind, und die von RWD gewünschte Baustellenbesichtigung mit einem Beispielelement, die Du auf
+KW36 gesetzt hast, also auf diese Woche. J. Tobler ist bis 04.09. abwesend, Stellvertretung
+L. Khov.
+
+Türbuch zur Unterschrift, Zusage Merci steht noch aus. Duschenanschluss PPTS muss auf die
+gegenüberliegende Seite, die Duschwannen-Bestellung ist entsprechend anzupassen
+(Eren, 31.08.).
+
+SIA 416 steht seit dem 28.08. auf speculative und wird von zwölf Bausteinen ungewarnt
+zitiert, darunter der Flächennachweis und die Volumenstudie.
+
+Der Tailscale-Wächter ist auf keiner Station installiert. Der NAS-Mount des MacBook Pro
+reisst weiter ab, /etc/nsmb.conf fehlt.
+
+**Vorschlag Kalendereinträge**
+
+Heute, 11:00 bis 11:30: Anliegen an R. Steinmann senden, allerletzter Tag vor der Abwesenheit
+vom 03.09. bis 21.09. Der gestrige Eintrag hat nicht getragen, deshalb diesmal später am Tag
+und nicht in die Morgenstunde.
+
+Freitag 04.09., 08:00 bis 08:15: SharePoint-Gastzugriff Bajrami verlängern, Ablauf 07.09.,
+Hiltmann (22.09.) gleich mit.
+
+**Token-Tempo**
+
+01.09.2026: MacBook Pro 291.2 Mio Token / 187.70 USD, Mac Mini 56.0 Mio / 24.66 USD, zusammen
+347.3 Mio Token / 212.36 USD.
+
 ## 2026-09-02 02:3x Nachtschicht Mac Mini
 
 Prioritaeten 1-3 leer bzw. nicht umsetzbar: `remote-tasks/pending/` und `sync-tasks/mac-mini/`
