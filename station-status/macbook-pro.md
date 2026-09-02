@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 02.09.2026 08:48:31
+Stand: 02.09.2026 08:58:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:27)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 02.09.2026 08:48:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b2357aa1e nas-selfcommit: 3 Datei(en) 2026-09-02 08:45
+- f950c1e95 Hub-Chef 02.09.2026: Steinmann-Entwurf (A5) angelegt, Register + Logbuch + WEGE nachgefuehrt
