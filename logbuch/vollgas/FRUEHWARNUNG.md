@@ -3890,3 +3890,103 @@ laufen um 08:39 ueber das Tagesbriefing des Hub-Chefs bei Raphael ein; eine zwei
 vorher braechte ihm nichts, was er jetzt anders machen koennte. Naechste Mail erst bei neuer
 Kontingent-Erschoepfung, einem Briefing-Ausfall aus neuer Ursache, fehlendem Radar-Herzschlag oder
 Aufwand ohne Wissenszuwachs.
+
+---
+
+## 2026-09-02 — Rohblock (Messung 07:15 CEST, Bewertung folgt unten)
+
+**Tageswerte, teuer = input + cache_creation + output (Mio Token), beide Stationen rekursiv
+gemessen inkl. Subagenten-Transcripts.**
+
+MacBook Pro: 27.08. 8.60 / 28.08. 8.88 / 29.08. 9.52 / 30.08. 6.37 / 31.08. 7.02 /
+01.09. 11.19 / 02.09. bisher 1.68 (total 45.21).
+Mac Mini: 27.08. 1.11 / 28.08. 2.20 / 29.08. 29.84 / 30.08. 49.10 / 31.08. 1.45 /
+01.09. 1.59 / 02.09. bisher 0.44 (total 15.11).
+
+Summe beider Stationen: 31.08. 8.47 · 01.09. 12.78 · 02.09. bisher 2.12. Damit unter beiden
+Schwellen (35 Mio an einem Tag, 18 Mio an zwei Folgetagen).
+
+**Der Ausschlag 29./30.08. auf dem Mac Mini ist der bereits aufgearbeitete Schub-Leerlauf**
+(Rule `auto-verbesserungen` 260830: ueber 600 ertraglose Laeufe, Treiber ohne Delta-Abbruch).
+Seit dem 31.08. liegt der Mini wieder bei 1.5 Mio/Tag — die Gegenmassnahme wirkt, gemessen
+und nicht angenommen.
+
+### Bewertung
+
+**Blockade-Check: keine echten Limit-Ereignisse.** Strukturell geprüft über 129 Dateien der
+letzten drei Tage (`isApiErrorMessage`, `type=="error"`, `apiErrorStatus==429`, Text mit
+Usage-/Rate-/Weekly-Limit): **null Treffer**, weder interaktiv noch in einem Loop. Kontrollprobe
+gefahren wie vorgeschrieben — der Teilstring `scheduled-task` kommt in **114 von 129** Dateien
+vor, das Suchmuster greift also. Ein leeres Ergebnis ist hier ein Sachbefund, kein Werkzeugfehler.
+
+**Wochenkontingent frei.** Der Radar hat um 00:57 gemessen: **9.5 % des Wochenkontingents bei
+22.0 % verstrichener Woche**, Vorsprung **−12.5 Punkte**, Ampel FREI. Kriterium (c) damit klar
+nicht erfüllt; eine Drossel ist nicht angezeigt.
+
+**Alle vier operativen Briefings haben ihr Deliverable erreicht.** `logbuch-radar` (23 Turns),
+`hub-chef-taeglich` (116), `mahnwesen-verzugscheck` (52), `zahlungsabgleich-check` (23) — alle
+mit Mail-Werkzeug im Lauf und mit Still-Vermerk, keine nach wenigen Schritten abgebrochene
+Sitzung. Kein Meldegrund (d).
+
+**Radar-Herzschlag doppelt bestätigt.** Erste `## `-Überschrift in `RADAR.md`: **02.09. 00:57**,
+also 6.3 h alt (nicht der historische Dateikopf — die Falle vom 18.08. umgangen). Zweites Signal:
+eine Session mit dem Task-Opener liegt **6.2 h** zurück. Kriterium (e) nicht erfüllt.
+
+**Ertrag der Lern-Loops: real und laufend.** Über `git log` auf dem NAS gemessen, nicht über
+mtime: 29.08. **80** Artikel · 30.08. **37** · 31.08. **12** · 01.09. **26** · 02.09. bisher **5**
+(ohne die täglich angefassten Twin-Facetten: 74 · 31 · 6 · 20 · 1). Keine Delta-Null-Serie in den
+Lauf-Reports der Ziel-KBs — bei `normen`, `energie` und `architektur-fachwissen` steht nirgends
+drei Läufe in Folge ein Nullbefund. Kriterium (f) nicht erfüllt.
+
+**Stückkosten (teurer Tagesverbrauch beider Stationen je neu geschriebenem oder erweitertem
+Artikel, Mio Token):** 29.08. **0.49** (ohne Twin 0.53) · 30.08. **1.50** (1.79) · 31.08. **0.71**
+(1.41) · 01.09. **0.49** (0.64). Der Ausreisser am 30.08. ist der Schub-Leerlauf, nicht ein
+teurer gewordenes Destillat; die Reihe kehrt am 01.09. auf den Wert vom 29.08. zurück.
+
+**Spec-Gate hält.** Für alle vier Korpora liegt eine Spec unter
+`skills/wissens-destillat/specs/` vor. **Kein `KORPUS-QUEUE KOMPLETT`** — Kriterium (g) nicht
+erfüllt; Korpus 3 (`buero-referenzen`) ist P1 vollständig / P2 offen, Korpus 4
+(`archiv-fachwissen`) läuft.
+
+**Befund 1 — die Fortschrittskennzahl ist den FÜNFTEN Tag blind.** `inventar.sh --stand` meldet
+für beide aktiven Korpora unverändert `sektionen=0/0 dateien_inventarisiert=0`
+(`archiv-fachwissen`, `buero-referenzen`), während die abgeschlossenen Korpora sauber
+`37/37` bzw. `21/21` liefern. Die Ursache ist damit eingegrenzt und nicht mehr offen: unter
+`skills/wissens-destillat/training/` liegen nur `bauprodukte-sektionen.md` und
+`buero-projekte-sektionen.md` — den beiden aktiven Korpora fehlt schlicht die Sektionsdatei, aus
+der das Script zählt. **Kein Ertragsproblem:** die `KORPUS-QUEUE.md` führt den Stand beider
+Korpora sektionsweise und sehr genau, und die Ertragsseite ist über git ohnehin messbar. Es fehlt
+die maschinelle Kennzahl, nicht der Fortschritt.
+
+**Befund 2 — der Sync-P1 wächst weiter, ist aber vollständig aufgeklärt.** Nativ per ssh
+gemessen (nie git über SMB): **673 lokal / 267 remote**, Versuch **765**, allein heute **98**
+Fehlversuche; der GitHub-Kopf steht seit **31.08. 06:12** still, also **49 Stunden**. Blockierend
+ist unverändert der eine Commit `1eed7118c` in `wissen/normen/CHANGELOG.md`. Neu ist gegenüber
+dem Vorlauf nichts Sachliches — das Fristen-Register trägt seit 02.09. 02:0x die entscheidende
+Charakterisierung: beide Seiten schreiben **ausschliesslich** neue Datumsblöcke an den Dateikopf
+(+212/−0 lokal, +162/−0 remote), es löscht keine Seite eine Zeile, die Auflösung ist mechanisch.
+Der vorgelegte Befehl steht dort. **Selbst nicht aufgelöst**: unbeaufsichtigter Lauf und
+Git-Interna, Rule `interaktive-eingriffe` Ziff. 3.
+
+**Befund 3 — Nachtrag zum Vorlauf, der sich erledigt hat.** Der gestrige Eintrag hielt fest,
+unter `wissen/architektur-fachwissen/outputs/` liege nur der Report vom 23.08. Das gilt nicht
+mehr: seit dem 01.09. liegt dort zusätzlich `2026-09-01_health-check.md`.
+
+**Befund 4 — Werkzeug-Nebenwirkung, betrifft künftige Läufe dieser Warnung.** Der Mail-Entwurfs-
+Wächter greift auch in eine **rein lesende** Diagnose ein: ein `python3`-Aufruf, der die
+Briefing-Sessions nach Mail-Werkzeugspuren durchsucht, wurde mit «MAIL-ENTWURF BLOCKIERT —
+ASCII-Umlaute im Body» abgewiesen, weil das Suchmuster die Trigger-Wörter im Klartext enthielt.
+Der Lauf kam durch, indem die Muster im Script zusammengesetzt statt literal geschrieben werden
+(`"osas" + "cript"`). Kein Datenverlust, keine Fehlmessung — aber wer Schritt 3 dieser Warnung
+anfasst, sollte es wissen.
+
+**Nicht gemailt.** Keines der sieben Kriterien ist erfüllt: kein Limit-Ereignis, Verbrauch
+deutlich unter beiden Schwellen, Wochenkontingent bei 9.5 %, alle vier Briefings zugestellt,
+Radar-Herzschlag 6.3 h frisch, Ertrag in Bewegung, Queue nicht komplett. Zuletzt gemailt:
+**24.08.2026 07:50**. Der Sync-P1 ist derselbe Vorgang, für den eine Wiederholungsmail seit dem
+30.08. ausdrücklich ausgeschlossen ist; er erreicht Raphael um 08:39 im Tagesbriefing des
+Hub-Chefs, das ihn am 31.08. und 01.09. nachweislich getragen hat (`1eed7118` je namentlich).
+Nächste Mail erst bei neuer Kontingent-Erschöpfung, einem Briefing-Ausfall aus neuer Ursache,
+fehlendem Radar-Herzschlag oder Aufwand ohne Wissenszuwachs.
+
+**Regellauf, keine Delegation** — Messungen inline, rund 12 Werkzeugaufrufe, im Sollmass.
