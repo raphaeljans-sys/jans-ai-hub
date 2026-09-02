@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 02.09.2026 07:54:12
+Stand: 02.09.2026 08:04:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 02.09.2026 07:54:12
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cb5fd9c66 ag-gruendung-monitor 02.09.2026: Kapitaleinzahlung 16+ Tage ueberfaellig, fristen.md + Spec aktualisiert
+- 2221d56d1 nas-selfcommit: 2 Datei(en) 2026-09-02 08:00
