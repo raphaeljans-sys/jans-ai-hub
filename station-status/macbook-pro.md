@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 02.09.2026 03:39:57
+Stand: 02.09.2026 03:50:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:39)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 02.09.2026 03:39:57
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 31aa0e90f nas-selfcommit: 3 Datei(en) 2026-09-02 03:30
+- e8d70c6de twin-mail-training Batch 112: Drafts Seite 5 (15.08.-01.09.2026), Draft-Bestand durchlaufen; 15. Falle dritter Beleg
