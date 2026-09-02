@@ -2,6 +2,34 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-02 (Synergie-Lauf 26, Tagestakt) — zwei Befunde, beide gemessen statt vermutet
+
+Delta-Basis 01.09.2026 17:10, Fenster 24,0 h, 133 Commits. Uhrenprobe gegen den nativen
+Synology-Log bestanden. Strukturell 0 neue Bausteine in den sechs Verzeichnissen, 7
+geaenderte Struktur-Dateien; ein neuer Baustein ausserhalb davon
+(`scripts/claude-session-waechter.sh`), dessen Verdrahtung vollstaendig ist und dessen
+Behauptung «beide Stationen» per `ssh mini` verifiziert wurde.
+
+- **SYN-68 (neu, Ketten-Luecke):** Check 6 des Schutzmechanik-Selbsttests erntet Scriptnamen
+  aus den launchd-Plists. Die zwei **verketteten** Waechter (`kontingent-waechter.sh`,
+  `claude-session-waechter.sh`) haben keine Plist und fallen aus der Drift-Pruefung, obwohl
+  beide mit SSD-Vorrang starten. Gemessen: Plist-Ernte 10 Namen, beide nicht darunter, beide
+  aktuell driftfrei — blinder Fleck, kein Defekt. Selbsttest bewusst nicht angefasst
+  (Rule `interaktive-eingriffe`).
+- **SYN-69 (neu, Ketten-/Compounding-Luecke):** Der Wachstums-Riegel hat am 02.09. erstmals
+  eine Regel gekostet statt Beleg-Prosa; die Deckungszusage haelt auf der kompilierten Ebene
+  nicht. Auto-Block nachgerechnet: 33'922 von 34'000 B, Reserve 78 B. Damit ist zugleich der
+  offengebliebene Punkt (b) aus Lauf 21 belegt. Entscheid Raphael faellig, Flag in
+  `wissen/twin/wiki/QUESTIONS.md` gesetzt.
+- **SYN-43** zum vierten Mal aufgerollt (Beteiligter bewegt), Status nachgefuehrt.
+- **Drei Nullbefunde, gemessen:** Rueckkanten-Probe zum `speculative`-Vermerk auf
+  `sia-416-2003.md` (alle Struktur-Konsumenten gestempelt), die Zeilenbilanz 14/15 in
+  `jans-dna-facetten.md` (14 davon Verdichtung), die Sync-Divergenz (unveraendert kein
+  eigener Synergie-Befund).
+
+Register 1269 → 1271 Zeilen vor der Fussnote, 67 → 69 Tabellenzeilen, null geloeschte
+Zeilen. Bericht: `outputs/2026-09-02_synergie-lauf-26.md`. Keine Mail.
+
 ## 2026-09-02 (Nachtschicht Mac Mini, Prioritaet 5) — offene KB-Fuehrungsfrage aus Run 45 geschlossen
 
 Nachpruefung der Run-45-Frage «baurecht ↔ planungsgrundlagen, Baulinien: Gegenrichtung und

@@ -5498,3 +5498,26 @@ erfragen oder zu erfinden. Soll der Zwilling das generalisieren — leeres Feld 
 Vorschlaege?
 *Warum:* er hat heute genau hier einen ganzen Bitte-Satz erfunden. Waere das bestaetigt, haette
 er ein einfaches, uebertragbares Mittel gegen die Erfindungs-Drift.
+
+---
+
+**Flag aus dem Synergie-Lauf 26 (02.09.2026) — SYN-69, Wachstums-Riegel kostet jetzt Regeln**
+· *Arbeitsweise / Steuerung, [[arbeitsweise]]*
+
+Kein neue Frage an Raphael, sondern ein Zeiger auf die schon vorgelegten Fragen #2, #4 und #5:
+der Aufsichtslauf hat heute nachgemessen, dass der kompilierte Auto-Block bei **33'922 von
+34'000 B** steht (Reserve 78 B) und dass die Verdichtung vom 02.09. erstmals eine **Regel**
+entfernt hat statt Beleg-Prosa — den Don't-Marker «eine Folge einzeln zu beantwortender Fragen
+als offene Bullet-Liste tarnen». Die in `arbeitsweise.md` Z. 4057-4060 notierte Deckungszusage
+haelt auf der Ebene der Konsumenten nicht: die 260824-Regel im Do-Block traegt kein Kriterium,
+und die naechstliegende 260804-Regel prueft «worauf spaeter zurueckverwiesen wird», nicht «was
+einzeln zu beantworten ist». Das explizite Kriterium steht nur noch im Wiki-Artikel (Z. 60-66),
+den die Konsumenten (`agents/email`, `agents/dokument`, `skills/korrektur`) nicht lesen — sie
+lesen die kompilierte Datei.
+
+Damit ist der Zustand eingetreten, den der Kopfkommentar von `skills/twin/tools/build_dna.py`
+Z. 57-60 am 18.08.2026 als Grenze benannt hat («Regeln geloescht statt Doppelungen — der Punkt,
+an dem der Riegel schadet statt schuetzt»). Der Aufsichtslauf entscheidet das nicht und hat
+weder `build_dna.py` noch die kompilierte Datei angefasst. Vollstaendige Belegkette:
+`wissen/koordination/SYNERGIE-REGISTER.md` SYN-69 und
+`wissen/koordination/outputs/2026-09-02_synergie-lauf-26.md`.
