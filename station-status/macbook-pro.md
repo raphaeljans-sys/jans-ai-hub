@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 02.09.2026 05:53:39
+Stand: 02.09.2026 06:14:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:53)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 02.09.2026 05:53:39
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 0d4220886 nas-selfcommit: 3 Datei(en) 2026-09-02 05:45
+- dfca68491 logbuch/fristen: P1-Sync-Nachtrag 02.09.2026 — 665/267, vierter Tag ohne GitHub-Backup
