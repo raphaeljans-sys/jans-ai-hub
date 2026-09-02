@@ -3,6 +3,30 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## 2026-09-02 02:3x Nachtschicht Mac Mini
+
+Prioritaeten 1-3 leer bzw. nicht umsetzbar: `remote-tasks/pending/` und `sync-tasks/mac-mini/`
+ohne offene Task (einziger Sync-Task weiterhin `.angehalten`, wartet auf Raphaels Entscheid zur
+P1-Git-Divergenz — Befund B6, nicht selbst aufgeloest); Synobsis Stufe 2 seit 01.09. 05:3x
+deckungsgleich (853/853), kein weiterer Lauf noetig; Fristen-Register ohne neuen, undokumentierten
+Punkt (die laufende P1-Git-Sync-Divergenz ist bereits mehrfach belegt, zuletzt heute 02:0x durch
+`normen-training-nacht` Run 77 als mechanisch loesbar charakterisiert — Einzelentscheid bleibt bei
+Raphael, Rule `interaktive-eingriffe` Ziff. 3). Prioritaet 4: KB `energie` (kein aktiver Taktgeber,
+`energie-training` `enabled: false`/ereignisgetriggert) hatte aus dem letzten Lauf (23.3x, 01.09.)
+den P3-Rest der 169er-Reihe vorgemerkt — **E-R169-5 und E-R169-6 abgeschlossen** (Run 173). E-R169-5:
+ElCom-Weisung 4/2025 blieb per Quell-URL bei HTTP 502, Volltext ueber Wayback-Machine-Snapshot
+(15.11.2025) nachgeholt — Negativbefund (kein LEG-/ZEV-Bezug, reine VNB-Grundversorgungspflicht)
+am Volltext bestaetigt. E-R169-6: VSE-Handbuch HER-CH 2025 im Volltext gelesen (statt nur
+Suchtreffer) — Chronologie-Tabelle bestaetigt keine Ausgabe nach der Genehmigung vom 10.02.2025,
+die ElCom-Beanstandung zu Ziff. 3.2 (7) bleibt ohne VSE-Reaktion. Beide Checkboxen im selben Lauf
+gesetzt (Rule E-R172-1). Nachtrag in `destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md`,
+Bericht `wissen/energie/outputs/2026-09-02_energie-run173.md`, CHANGELOG nachgefuehrt. Die 169er-
+Reihe (E-R169-1 bis -6) ist damit vollstaendig abgeschlossen. Commit ueber `nas-commit-now.sh`
+ausgeloest und Ergebnis verifiziert (siehe Chronik-Vermerk).
+
+**Nicht ausgefuehrt:** kein Versand, keine Buchung, keine Loeschung, kein Eingriff in die
+Sync-Divergenz oder die angehaltene Laufzeitschicht-Pendenz.
+
 ## Hub-Chef 01.09.2026 (08:36 bis 09:2x, Tagesbriefing gesendet, dazu ein Nachtrag)
 
 **Lauf-Vorbedingung nicht erfuellt und selbst hergestellt.** Die Session startete ohne NAS: die

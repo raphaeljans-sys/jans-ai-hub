@@ -183,14 +183,20 @@ nicht eine andere** (Rule `auto-verbesserungen` 260729b, hier zum zweiten Mal in
   (Versionsstand weicht vom Reglement 2026.1 ab, eigene Pruefung wert), «Berechnungsmethodik
   Grenzwerte THGE in der Erstellung 2026.1», «Zusatzanforderungen Industrie, Version 2026.1».
   URLs bereits im Nachtrag von `[[minergie-besser-planen-bauen]]` vermerkt — eigener Fetch/Lauf.
-- [ ] **E-R169-5 (P3): ElCom-Weisung 4/2025 Volltext nachholen.** «Grundversorgung Energie: erweiterte
-  Eigenproduktion im Konzern», 01.04.2025. Als nicht LEG-/ZEV-bezogen eingestuft, aber **nur nach Titel
-  und Suchtreffern** — die Quell-URL lieferte wiederholt HTTP 502. Vor einer verbindlichen Aussage
-  nachholen.
-- [ ] **E-R169-6 (P3): hat der VSE das HER inzwischen angepasst?** Trotz zweier ElCom-Beanstandungen
-  (zuletzt bestaetigt im Update vom 16.06.2026) wurde keine VSE-Reaktion, kein Erratum und keine
-  HER-CH-2026-Ausgabe gefunden. Geprueft: strom.ch-Downloadcenter und gezielte Suche. **Nicht geprueft:
-  der strom.ch-Mitgliederbereich hinter Login** — dort koennte eine nachgefuehrte Fassung liegen.
+- [x] **E-R169-5 (P3): ElCom-Weisung 4/2025 Volltext nachholen.** ✓ 2026-09-02 (Run 173). Die
+  Quell-URL liefert weiterhin HTTP 502 (dreifach erneut geprüft); Volltext über den
+  **Wayback-Machine-Snapshot** vom 15.11.2025 gelesen (2 Seiten). **Negativbefund bestätigt:** die
+  Weisung regelt ausschliesslich die Grundversorgungspflicht der Verteilnetzbetreiber nach Art. 6
+  StromVG (Mindestanteil erweiterte Eigenproduktion, Konzern-/Holding-Betrachtung) — reine
+  Netzbetreiber-Ebene, kein Bezug zu Art. 16/17 EnG, ZEV/vZEV oder LEG. Nachtrag in
+  `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`.
+- [x] **E-R169-6 (P3): hat der VSE das HER inzwischen angepasst?** ✓ 2026-09-02 (Run 173). Das
+  Handbuch selbst (strom.ch/de/media/15256/download, 39 Seiten, Primärquelle statt nur Suchtreffer)
+  gelesen: die **Chronologie-Tabelle** (S. 4) führt jede Überarbeitung seit 2013 lückenlos bis zur
+  **Genehmigung durch die VSE-Geschäftsleitung am 10.02.2025** — kein weiterer Eintrag danach, keine
+  HER-CH-2026-Ausgabe. Der strom.ch-Mitgliederbereich hinter Login bleibt ungeprüft (kein Zugang),
+  aber die öffentliche Primärquelle bestätigt: **keine neue Ausgabe seit HER-CH 2025**, Ziff. 3.2 (7)
+  unverändert in Kraft, die ElCom-Beanstandung bleibt ohne VSE-Reaktion.
 
 ## 2026-08-30 (Run 168, Mac-Mini-Nachtschicht) — RiLuMi-Ausgabe nachgefuehrt, E-R165-3 geschlossen
 

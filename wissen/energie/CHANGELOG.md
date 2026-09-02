@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 2026-09-02 (Nachtschicht Mac Mini, Run 173) — E-R169-5/-6 geschlossen: beide ElCom/VSE-Restpunkte per Primärquelle bestätigt
+
+Rest der 169er-Reihe (nach E-R169-4 am 01.09.) abgearbeitet, beide Punkte P3:
+
+- **E-R169-5 (ElCom-Weisung 4/2025):** Quell-URL liefert weiterhin HTTP 502 (dreifach erneut
+  geprüft); Volltext über Wayback-Machine-Snapshot (15.11.2025) nachgeholt. Negativbefund aus
+  Run 169 bestätigt: die Weisung regelt ausschliesslich die Grundversorgungspflicht der
+  Verteilnetzbetreiber (Art. 6 StromVG, Konzern-/Holding-Betrachtung) — kein Bezug zu ZEV/vZEV/LEG.
+  Nachtrag in `destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md`.
+- **E-R169-6 (VSE-HER-Anpassung):** Primärquelle (VSE-Handbuch HER-CH 2025, 39 S.) statt nur
+  Suchtreffer gelesen. Die Chronologie-Tabelle bestätigt: letzte Genehmigung 10.02.2025, keine
+  neuere Ausgabe — die ElCom-Beanstandung zu Ziff. 3.2 (7) bleibt ohne VSE-Reaktion.
+
+`wiki/QUESTIONS.md` beide Punkte abgehakt (Checkbox im selben Lauf gesetzt, Rule E-R172-1).
+Bericht `outputs/2026-09-02_energie-run173.md`. Damit ist die gesamte 169er-Reihe (E-R169-1 bis
+-6) abgeschlossen.
+
 ## 2026-09-01 (Wissens-Chef Lauf 50) — fRsi-Zusicherung bei Innendämmung entschärft; zwei Überholungsvermerke
 
 `wiki/innendaemmung.md` (+24/−0): Zwei Berichtigungen zum Aussenwandecken-Satz. (1) «SIA-Grenze
