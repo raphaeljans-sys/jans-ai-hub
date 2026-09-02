@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-31
+last_updated: 2026-09-02
 gewichtung: authentisch
-sources: [260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -3684,3 +3684,54 @@ und darum als Frage vorgelegt ([[QUESTIONS]] 260901b #2), nicht kompiliert.
 Beteiligte: Fachplaner Simmen und Bauherr Spahic im To, Ziegel im Cc. Angeredet wird **nur
 Simmen**, der Bauherr im To wird übergangen (Marker 260824). Die Anrede trägt ein
 **Schlusskomma**: «Geschätzter Herr Simmen,». Quelle: 07.04.2026, `authentisch`.
+
+## Batch 112 (02.09.2026) — ein Telefonat hebt die Stufe nicht, und ein fehlender Gruss ist kein Befund
+
+Quelle: `260902-mailbatch-112.md`, zwei Golds aus `Drafts` Seite 5, beide Outlook Mobile,
+Gewichtung **authentisch**.
+
+### ⭐ Dritter Gegenbeleg zur Treffen-Klausel — der Anlass steht diesmal im Text selbst
+
+Der Werkplaner (Jegen, Los Verglasungen KISPI) erhält am **01.09.2026** die **kälteste**
+Sie-Stufe, «Sehr geehrter Herr Bajrami» — und im zweiten Satz steht der persönliche Kontakt
+ausdrücklich: «Besten Dank für das Telefongespräch von heute Morgen.»
+
+Die Klausel in `rules/anrede-kontakte.md` (nachgetragen 21.08.2026) sagt, ein persönlicher
+Kontakt hebe die Stufe, und die neue Stufe bleibe. Dieser Beleg ist der klarste Gegenfall
+bisher, weil er den Anlass nicht aus dem Kalender rekonstruieren muss: **das Telefonat ist im
+Erzeugnis selbst benannt, und die Anrede bleibt trotzdem unten.** Er reiht sich an Stadelmann
+(22.07.2026, nach Telefonat «Geschätzter Herr Stadelmann») und stützt die präzisere Fassung in
+`rules/jans-dna-facetten.md`: die Stufe ist eine **Trajektorie**, der Kanalwechsel wirkt
+**verzögert**, und der belegte Opener desselben Vorgangs gilt weiter.
+
+Zu unterscheiden bleibt, was die beiden Gegenbelege gemeinsam haben und was die Belege für die
+Klausel (Eren 20.08., Hiltmann 18.08.) auszeichnet: dort ging die Bewegung **Sie → Du** und der
+Kontakt war eine **Sitzung** bzw. ein längeres Gespräch; hier ist es ein kurzes
+Abstimmungstelefonat in laufender Sache. Mögliche Trennlinie also nicht «Kontakt ja/nein»,
+sondern **Gewicht und Art des Kontakts**. Zwei Gegenbelege sind zu dünn für eine Regelaussage —
+vorgelegt als [[QUESTIONS]] 260902 #1. **Kein Eingriff in `rules/anrede-kontakte.md`**; die
+Kontaktliste ist Raphaels Register.
+
+### Der fehlende Gruss in einem Draft ist kein Kälte-Signal
+
+[[QUESTIONS]] 1155 hielt fest, dass dieser Kontakt die sonst ausnahmslose Regel «Sie →
+Freundliche Grüsse + Block» durchbricht. Der Beleg vom 01.09. trägt **gar keinen** Gruss, nur
+`--` aus der Handy-Signatur — weil der Entwurf ein Platzhalter-Gerüst ist und dort abbricht
+(siehe [[arbeitsweise]], Batch 112). **Methodenregel für künftige Läufe: bei einem Draft darf
+ein fehlender oder abweichender Gruss nicht als Registerbefund gewertet werden**, solange nicht
+feststeht, dass der Text fertig war. Die frühere Notiz zu diesem Kontakt ist damit nicht
+widerlegt, aber sie steht auf einem schwächeren Beleg als angenommen.
+
+### Das Eren-Mapping ist aus Raphaels eigener Hand bestätigt
+
+Am **25.08.2026** schreibt er selbst «**Hoi Mustafa,**» — Du, Vorname, Komma. Im selben
+Draft-Bestand tragen die beiden **Claude-Entwürfe** vom 18.08.2026 (Apple-Mail-IDs,
+`claude-aera`) noch «Sehr geehrter Herr Mustafa», also die Stufe vor der Umstellung samt dem
+bekannten Fehlgriff **Herr + Vorname**.
+
+Zwei Dinge sind damit geklärt: der am 21.08. in `rules/anrede-kontakte.md` nachgetragene
+Registerwechsel ist **unabhängig aus Raphaels Hand belegt** (bisher stützte er sich auf den
+Beleg vom 20.08.), und der Fehlgriff «Herr + Vorname» ist als **Claude-Artefakt** identifiziert,
+nicht als Stil. Er ist damit endgültig nicht nachzuahmen — die offene Frage [[QUESTIONS]]
+260901 #2 («Absicht oder Verwechslung?») ist in der Sache beantwortet: Verwechslung, und zwar
+die des Zwillings, nicht die Raphaels.

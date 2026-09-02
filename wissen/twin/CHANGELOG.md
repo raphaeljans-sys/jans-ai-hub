@@ -4,6 +4,29 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-02 — twin-mail-training Batch 112: `Drafts` Seite 5 (15.08.–01.09.2026) — Draft-Bestand durchlaufen; 15. Falle dritter Beleg widerlegt die Kanaltrennung aus Batch 111
+
+2 Golds `authentisch` (beide Outlook Mobile), 1 Fund der 15. Falle, 19 Apple-Mail-Entwürfe und
+3 leere Hüllen gratis vorgefiltert. Datei `raw/260902-mailbatch-112.md`.
+
+- **[[stimme]]** — vierte, erstmals **materiell messbare** Lesart der Du-Grossschreibung (gross
+  oberhalb, klein unterhalb der Handy-Separatorlinie; Quote 0.75) · Binnengrossschreibung
+  «Bitten» fünfter Beleg samt Präzisierung «freistehende Bitte = Punkt, listeneinleitende =
+  Doppelpunkt» · der Handy-Gruss ist Signaturblock, keine Registerentscheidung · **15. Falle
+  dritter Beleg**: Exchange-Umschlag mit `font-claude-response-body` im Body — die
+  Kanaltrennung aus Batch 111 ist als Gold-Nachweis widerlegt, dazu der markup-freie
+  Zweit-Diskriminator «gekürzter Service-Satz».
+- **[[arbeitsweise]]** — ⭐ neue Entwurfsgattung **Platzhalter-Gerüst**: Gliederung nach Akteur
+  steht vor dem Inhalt, der Zwilling darf sie nicht glattschreiben.
+- **[[fachsignatur]]** — Mundart trägt auch die **Sache** («zwei Brünneli» an den Fachplaner),
+  nicht nur den Ton; Grenze zum ausgehenden Dokument unverändert.
+- **[[beziehungsregister]]** — dritter Gegenbeleg zur Treffen-Klausel, erstmals mit dem Anlass
+  im Erzeugnis selbst · fehlender Gruss in einem Draft ist kein Registerbefund · Eren-Du aus
+  Raphaels eigener Hand bestätigt, «Herr + Vorname» als Claude-Artefakt identifiziert.
+- **[[QUESTIONS]]** — 260902 #1–#5 (Gewicht des persönlichen Kontakts · Token-Prüfung in den
+  Vorfilter-Standard · Du-Grenze am Baustein · Platzhalter-Gerüst zur Kenntnis · Drafts künftig
+  als Zuwachs statt Seitennummer). Kein Eingriff in `rules/anrede-kontakte.md`.
+
 ## 2026-09-01 — Wissens-Health-Check (Phase 1): A0 · B8 · C1 · D0 · E0 · F3 · G3 — sechsfacher kaputter Backlink `[[260830-mailbatch-109]]` (raw-Datei als Wiki-Link zitiert), ss-Verstoss von 03.08. weiterhin unbehoben, Frontmatter aller sechs Facetten einen Tag hinter dem Body; Anrede-Spannungen (Nivellier-Klausel, Treffen-Klausel/Stadelmann) im Wiki sauber offen gehalten, kein Widerspruch. Report `outputs/2026-09-01_health-check.md`.
 
 ## 2026-09-01 — twin-fidelity-review: Fidelity 35; «kein Apparat» kompiliert, zweite Verdichtungsrunde

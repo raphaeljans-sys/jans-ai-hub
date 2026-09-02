@@ -5382,3 +5382,57 @@ seither parallele Historien (nativer `nas-selfcommit.sh` und `auto-sync [Macmini
 Abbruch mit dem Vermerk «Konflikte brauchen ein Urteil». Das Urteil fehlt seit drei Tagen.
 **Solange es fehlt, ist GitHub kein Backup, sondern ein Stand vom 31.08.** Eine 540/267-Divergenz
 aufzuloesen heisst zu entscheiden, welche Historie gilt — das entscheidet Claude nicht selbst.
+
+## 260902 — Batch 112 (`Drafts` Seite 5, 15.08.–01.09.2026)
+
+**#1 (Beziehungsregister · Entscheid Raphael) — hebt JEDER persönliche Kontakt die Anrede-Stufe,
+oder nur ein Kontakt von einigem Gewicht?** Am 01.09.2026 nennst Du im zweiten Satz das
+Telefonat desselben Morgens («Besten Dank für das Telefongespräch von heute Morgen») und bleibst
+in der Anrede trotzdem auf der kältesten Stufe, «Sehr geehrter Herr Bajrami». Das ist nach
+Stadelmann (22.07.2026) der zweite Gegenbeleg zur Treffen-Klausel in `rules/anrede-kontakte.md`
+— und der erste, bei dem der Anlass im Erzeugnis selbst steht, also nicht aus dem Kalender
+erschlossen werden muss. *Warum wir fragen: die Klausel-Belege (Eren nach der
+Koordinationssitzung, Hiltmann nach dem Telefonat) tragen alle eine Bewegung **Sie → Du** nach
+einem längeren Gespräch; die beiden Gegenbelege sind kurze Abstimmungstelefonate in laufender
+Sache und bewegen gar nichts. Mögliche Trennlinie also nicht «Kontakt ja/nein», sondern
+**Gewicht und Art des Kontakts**. Zwei Belege sind zu dünn, um sie zu ziehen — und die Klausel
+sagt dem Zwilling heute, er solle vor jeder Fachplaner-Mail den Kalender prüfen und die Anrede
+des letzten Threads als überholt behandeln. Das war in diesem Fall dreifach falsch gewesen.*
+**Kein Eingriff in die Rule** — die Kontaktliste ist Dein Register.
+
+**#2 (Echo-Schutz · an den Harness, Fortschreibung von 260819 #1) — die Token-Prüfung an der
+ohnehin gelesenen Mail hat zum ersten Mal geliefert; soll sie in den Vorfilter-Standard?**
+Batch 97 hatte einen Suchindex-Sweep über `font-claude-response-body` verlangt, Batch 98 wies
+ihn als unmöglich nach (`outlook_email_search` indexiert kein Markup) und schlug ersatzweise
+vor, jede ohnehin geöffnete Mail auf das Token zu prüfen — Kosten null. Genau so entstand in
+diesem Lauf der **dritte Beleg der 15. Falle** (17.08.2026, Nutzungsbestätigung an das
+städtische Amt, Cc Bauherrschaft und Fachplaner). *Warum das mehr ist als eine Bestätigung: der
+Fund **widerlegt die Kanaltrennung aus Batch 111**. Eine Exchange-`internetMessageId` galt dort
+als Beleg für Raphaels eigene Hand; hier trägt sie Maschinentext samt Raphaels Outlook-Signatur.
+Der Umschlag trennt das Gerät, nicht die Hand. Als Vorfilter bleibt die Regel brauchbar, als
+Gold-Nachweis ist sie erledigt.* Vorschlag zur Aufnahme in den Standard: (a) Token-Prüfung an
+jeder gelesenen Mail, (b) zusätzlich der **gekürzte Service-Satz** als markup-freies
+Zweitsignal — «Für Rückfragen stehen wir Ihnen gerne zur Verfügung» statt Deiner belegten Form
+«Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung».
+
+**#3 (Stimme · Bestätigung erbeten, ergänzt 260830 #1) — trennt die Du-Grossschreibung nach
+frisch getipptem und eingesetztem Text?** In der Mail vom 25.08.2026 stehen alle drei
+Grossformen («Dir», «Du», «Deine») **oberhalb** der Separatorlinie des Handy-Clients, die
+Kleinform («findest **d**u generell hier») **unterhalb**, im wiederverwendeten Ablage-Baustein.
+*Warum das nützlich wäre: die drei bisherigen Lesarten (Satzfunktion, Adressat-vs-Zuruf,
+Haupt-vs-Nebensatz) verlangen alle eine Deutung des Satzes; diese hier ist im HTML nachmessbar
+und damit die billigste. Sie schliesst die anderen nicht aus. Frage an Dich schlicht: schreibst
+Du das Du klein, wenn Du einen Textbaustein einsetzt, den Du nicht in diesem Moment formulierst?*
+
+**#4 (Arbeitsweise · zur Kenntnis, keine Frage) — der Zwilling darf ein Platzhalter-Gerüst nicht
+glattschreiben.** Der Entwurf vom 01.09. ist bis zur Aufforderung fertig und setzt danach
+`TeKoSi / _`, `Jans / _`, `_ Terminplan`. Das ist keine unfertige Prosa, sondern eine bereits
+getroffene Gliederung nach Akteur. Als Regel in [[arbeitsweise]] aufgenommen; hier nur vermerkt,
+weil der Zwilling bisher jeden abgebrochenen Entwurf als «zu Ende schreiben» gelesen hat.
+
+**#5 (Harness · Methodik, erledigt sich selbst) — der `Drafts`-Bestand ist durchlaufen.** Seiten
+1–5 sind mit den Batches 108–112 abgedeckt. Künftige Läufe ziehen dort nur noch den Zuwachs
+(`order: newest`, Abgleich gegen `raw/_INGESTED.md`) statt einer Seitennummer; der reguläre
+Vorwärtsfaden ist wieder `rj@` **Sent Items ab 01.09.2026**. *Warum vermerkt: die
+Seitennummer-Mechanik hätte beim nächsten Lauf still ins Leere gegriffen, weil der Bestand
+während des Durchlaufs von 124 auf 126 gewachsen ist.*

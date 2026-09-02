@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-31
+last_updated: 2026-09-02
 gewichtung: authentisch
-sources: [260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -4959,3 +4959,73 @@ der Vier-Stufen-Skala (fremde Ressource), Schlusspunkt, kein Fragezeichen. Die B
 stellte stattdessen eine echte Frage («Passt Ihnen …?»). Ebenfalls bestätigt: «**Besten Dank
 für Ihre E-Mail.**» als eigener Absatz nach der Anrede — mit «E-Mail», nicht «Mail».
 Quelle: 07.04.2026, `authentisch`.
+
+## Batch 112 (02.09.2026) — die Du-Grenze liegt im HTML, und die Maschine kürzt den Service-Satz
+
+Quelle: `260902-mailbatch-112.md`, `Drafts` Seite 5 (15.08.–01.09.2026). Gewichtung
+**authentisch** (2 Golds, beide Outlook Mobile), dazu ein Fund der 15. Falle als Kontrollgruppe.
+
+### ⭐ Vierte Lesart der Du-Grossschreibung — und die erste, die man messen kann
+
+Gold A (25.08.2026, an den Sanitärplaner) trägt beide Formen:
+
+- **oberhalb** der `ms-outlook-mobile-body-separator-line`, frisch getippt:
+  «nichts mehr von **D**ir gehört», «konntest **D**u», «**D**eine Pläne»
+- **unterhalb**, im wiederverwendeten Ablage-Baustein: «Die Ausführungspläne Architekt findest
+  **d**u generell hier:»
+
+Der Artikel führt bisher drei Lesarten — Satzfunktion (Batch 107), Adressat-vs-Inline-Zuruf
+(Batch 108), Haupt-vs-Nebensatz ([[QUESTIONS]] 260830 #1). Dies ist die vierte, und sie ist
+die einzige mit einer **materiellen** Grenze statt einer grammatischen: die Separatorlinie des
+Handy-Clients trennt, was er gerade tippt, von dem, was er einsetzt. Gemessene Quote im Batch:
+**0.75**.
+
+Die vier schliessen einander nicht aus — der recycelte Baustein ist zugleich ein
+nachgeschobener Nebensatz. Aber die HTML-Grenze ist die **billigste Prüfung** und die einzige,
+die ohne Interpretation auskommt. Ergänzt [[QUESTIONS]] 260830 #1, ersetzt sie nicht.
+
+### Binnengrossschreibung, fünfter Beleg — und die Bitte endet nicht immer auf einem Punkt
+
+«Darf ich Sie um folgende Einarbeitung der Plangrundlagen in die Werkpläne **B**itten**:**»
+(01.09.2026, mobil, Vollverb). Der Kanal-Fingerabdruck hält damit über ein weiteres Gerätedatum;
+**weiterhin nicht nachahmen**, nur zum Gewichten.
+
+Neu ist das Satzzeichen. Der Artikel hält als Regressionsbefund fest, «die Bitte endet auf einem
+PUNKT» (Beleg 07.04.2026). Das gilt für die **freistehende** Bitte. Dieser Beleg zeigt die
+Variante: **die listeneinleitende Bitte endet auf Doppelpunkt.** Kein Widerspruch, eine
+Fallunterscheidung — freistehend Punkt, vor einer Aufzählung Doppelpunkt, **nie Fragezeichen**.
+
+### Auf dem Handy ist der Gruss keine Registerentscheidung
+
+Gold A kombiniert «Hoi Mustafa,» mit «Freundliche Grüsse». Der Gruss steht im festen
+Signatur-`div` (Helvetica 9 pt) unter dem getippten Text, nicht in der Prosa. Beim Gewichten
+einer Handy-Mail darf «Freundliche Grüsse» darum **nicht als Distanz-Signal** gelesen werden —
+es ist Möblierung, nicht Wahl. (Gegenprobe im selben Batch: Gold B, ebenfalls mobil, trägt
+**gar keinen** Gruss, nur `--`.)
+
+### ⭐ Die 15. Falle, dritter Beleg — und ein Diskriminator, der ohne Markup auskommt
+
+Die Nutzungsbestätigung an das städtische Amt vom 17.08.2026 trägt Exchange-Umschlag und
+Raphaels Outlook-Signatur, im Body aber jeden Absatz mit
+`class="font-claude-response-body break-words whitespace-normal"`. **Maschinentext, nicht
+getippt — dauerhaft von der Stilquelle gesperrt.**
+
+Zwei Folgerungen für diesen Artikel:
+
+**(a) Der Umschlag trennt das Gerät, nicht die Hand.** Batch 111 stellte die Regel auf, die
+`internetMessageId` trenne Exchange («Raphaels unfertige Hand») von Apple Mail. Als Vorfilter
+bleibt sie brauchbar; als **Gold-Nachweis ist sie hiermit widerlegt**. Was trennt, ist der
+HTML-Körper.
+
+**(b) Der Service-Satz wird von der Maschine gekürzt.** Der Verdachtstext schliesst mit «Für
+Rückfragen stehen wir Ihnen gerne zur Verfügung.» Raphaels belegte Form ist länger und anders
+gebaut: «Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung» — mit
+«oder Unklarheit(en)», mit «jederzeit», und im **Singular** («stehe ich»), sogar unter der Härte
+einer Mahnung gehalten (14.04.2026, oben in diesem Artikel). Wo das Markup fehlt — reiner Text,
+Weiterleitung, Zitatblock — ist **der auf die Standardfloskel gekürzte Service-Satz das
+nächstbeste Echo-Signal**. Kontrollzahlen desselben Batches: Gold 87 Wörter mit 3 Fehlerinseln
+und 0 Strichen, Verdachtstext 48 Wörter mit 0 Fehlerinseln und 2 En-Strichen.
+
+Das ist zugleich der erste Ertrag der Methode aus [[QUESTIONS]] 260819 #1 (jede ohnehin gelesene
+Mail auf die Klassen-Token prüfen, weil der Suchindex kein Markup führt). **Kosten null, Ertrag
+ein Fund — beibehalten.**

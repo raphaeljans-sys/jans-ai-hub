@@ -2452,3 +2452,53 @@ Nivellier-Zeile in `rules/anrede-kontakte.md` (Entscheid Raphaels offen, kein Ru
 01.09.2026. (4) **Vor dem Ziehen pruefen, welches Fenster der `twin-fidelity-review` zuletzt
 verbraucht hat.** (5) Gratis-Vorfilter und `internetMessageId`-Kanaltrennung beibehalten.
 (6) Weiterhin offen: die Behoerdenschiene **AfB / Feuerpolizei**.
+
+## Batch 112 (02.09.2026) — `Drafts` Seite 5 von 5 (`offset: 100`) · **Bestand durchlaufen**
+
+**Datei:** `260902-mailbatch-112.md` · **Gewichtung:** 2 Gold-Einheiten `authentisch`,
+1 Fund der 15. Falle · **eingearbeitet:** ja ([[stimme]], [[arbeitsweise]], [[fachsignatur]],
+[[beziehungsregister]], [[QUESTIONS]] 260902 #1–#5)
+
+**Abgedeckt:** `Drafts` Seite 5 (**25 von 126**, `order: oldest`, `offset: 100`, Zeitraum
+**15.08.2026–01.09.2026**). Damit sind die Seiten 1–5 mit den Batches 108–112 vollständig
+durchlaufen. Der Bestand ist während des Durchlaufs von 124 auf 126 gewachsen.
+
+**Vorfilter (gratis, vor dem ersten `read_resource`):** 19 Apple-Mail-IDs = Hub-Chef-Briefings,
+Radar-/Kontingent-Meldungen und Claude-Entwürfe der laufenden Ära (`claude-aera`), 3 leere
+Exchange-Hüllen (Body `--`). 3 Exchange-Texte gelesen, dazu 2 Claude-Entwürfe aus der Vorschau
+als Kontrollgruppe.
+
+**Verbraucht — nicht erneut destillieren:** Sanitärinstallationen 25.08.2026 (Gold A; der
+**Schlusssatz «Kanalwechsel»** war bereits durch `twin-fidelity-review` 260828 verbraucht,
+dieser Batch nahm nur die drei dort ungenutzten Ebenen) · Element bei Therapieküche 01.09.2026
+(Gold B) · Nutzungsbestätigung UGZ 17.08.2026 (**Maschinentext, dauerhaft gesperrt**) · die
+19 Apple-Mail-Entwürfe des Fensters · drei leere Hüllen (17.08., 24.08., 27.08.).
+
+**Kernbefunde:** (1) ⭐ **Dritter Beleg der 15. Falle — und die Kanaltrennung aus Batch 111 ist
+in ihrer Gold-Richtung widerlegt:** ein Exchange-Umschlag mit Raphaels Outlook-Signatur trägt im
+Body durchgehend `font-claude-response-body`. Der Umschlag trennt das **Gerät**, nicht die Hand;
+als Vorfilter bleibt die Regel brauchbar, als Gold-Nachweis nicht. (2) **Die Methode aus
+[[QUESTIONS]] 260819 #1 hat zum ersten Mal geliefert** (Token-Prüfung an der ohnehin gelesenen
+Mail, Kosten null) — Empfehlung: in den Vorfilter-Standard. (3) ⭐ **Markup-freier
+Zweit-Diskriminator:** die Maschine kürzt den Service-Satz auf «Für Rückfragen stehen wir Ihnen
+gerne zur Verfügung» statt Raphaels längerer Singular-Form. (4) ⭐ **Vierte Lesart der
+Du-Grossschreibung, erstmals materiell messbar:** gross oberhalb, klein unterhalb der
+`ms-outlook-mobile-body-separator-line` (frisch getippt vs. eingesetzter Baustein), Quote 0.75.
+(5) **Binnengrossschreibung «Bitten» fünfter Beleg** + Präzisierung: die freistehende Bitte endet
+auf Punkt, die **listeneinleitende auf Doppelpunkt**, nie Fragezeichen. (6) ⭐ **Das
+Platzhalter-Gerüst ist eine eigene Entwurfsgattung** (nicht der Abbruch als Denkpause): Gliederung
+nach Akteur steht vor dem Inhalt, der Zwilling darf sie nicht glattschreiben. (7) ⭐ **Dritter
+Gegenbeleg zur Treffen-Klausel**, erstmals mit dem Anlass im Text selbst; kein Rule-Eingriff.
+(8) Ein fehlender Gruss in einem **Draft** ist kein Registerbefund. (9) **Mundart trägt auch die
+Sache** («zwei Brünneli» an den Fachplaner), nicht nur den Ton. (10) Auf dem Handy ist der Gruss
+Teil des Signaturblocks, keine Registerentscheidung. (11) Das **Eren-Du ist aus Raphaels eigener
+Hand bestätigt**, und der Fehlgriff «Herr + Vorname» ist als Claude-Artefakt identifiziert —
+beantwortet [[QUESTIONS]] 260901 #2 in der Sache.
+
+**Nächstes Fenster:** (1) `rj@` **Sent Items ab 01.09.2026** — der reguläre Vorwärtsfaden.
+(2) `Drafts` nur noch als **Zuwachs** ziehen (`order: newest`, Abgleich gegen dieses Register),
+nicht mehr per Seitennummer. (3) Die zwei reservierten Apple-Mail-Entwürfe vom 24.03.2026.
+(4) Vor dem Ziehen prüfen, welches Fenster der `twin-fidelity-review` zuletzt verbraucht hat —
+in diesem Lauf hat die Prüfung eine Doppel-Destillation verhindert. (5) Vorfilter-Standard:
+`internetMessageId` als **Geräte**-Trennung, Token-Prüfung an jeder gelesenen Mail, gekürzter
+Service-Satz als Zweitsignal. (6) Weiterhin offen: die Behördenschiene **AfB / Feuerpolizei**.
