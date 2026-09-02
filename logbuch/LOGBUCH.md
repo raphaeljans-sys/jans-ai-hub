@@ -10632,3 +10632,29 @@ koordination/QUERBEZUEGE.md` um die benannten Artikel ergaenzt (`baulinien-und-a
 QUESTIONS-Eintrag in `planungsgrundlagen` auf ✓ gesetzt, CHANGELOG beider KBs (`koordination`,
 `planungsgrundlagen`) nachgefuehrt. Kein neuer Wiki-Artikel noetig — die Frage war eine
 KB-Fuehrungsfrage, keine Sachfrage. Budget rund 2.3 von 5 USD, Zyklus beendet.
+
+## 2026-09-02 23:3x Nachtschicht Mac Mini — alle sechs Prioritaeten leer, sauber beendet ohne erfundene Beschaeftigung
+
+Vollstaendiger Durchgang, kein gueltiges Ziel gefunden:
+
+Prioritaet 1: `remote-tasks/pending/` leer; einziger Sync-Task weiterhin
+`sync-tasks/mac-mini/...Laufzeitschicht-Umbau-Phasen-0-2.md.angehalten`, bewusst angehalten seit
+30.08. (wartet auf Raphaels Entscheid). Prioritaet 2: Synobsis 853/853 gesaettigt, Vektorindex
+zuletzt 01.09. neu gebaut, kein Rueckstand. Prioritaet 3: `logbuch/fristen.md` wird heute bereits
+sehr dicht von Hub-Chef, Logbuch-Radar und twin-fidelity-review gefuehrt (u. a. Steinmann-Entwurf
+bereits erstellt, SharePoint-Bajrami/P1-Git-Divergenz/SIA-416-Status als «Aktion/Entscheid
+Raphael» korrekt offen gehalten) — nichts davon faellt in die Nachtschicht-Whitelist. Prioritaet 4:
+alle zehn `wissen/*/training/PROGRAMM.md` gegen die Ausschlussliste geprueft — jede traegt einen
+eigenen Taktgeber (baurecht, normen, wettbewerbs-dna), einen Stillgelegt-/Ereignis-Trigger-
+Statuskopf (planungsgrundlagen, immobilienbewertung, spec, projekt-lessons) oder eine erreichte
+Endbedingung (bauprodukte seit 15.08., grobkosten seit 13.08.); `energie` hat heute bereits zwei
+substanzielle Laeufe hinter sich (Run 175 Abendlauf + Wissens-Chef Lauf 51, letzter Wiki-Stand
+22:5x). Prioritaet 5: offene Punkte in `firmengruendung-ch` (Notarofferte, 1e-Kaderplan) und
+`kunde-bopp` (Rechnungsadresse, Romanshorn-Projektordner) sind explizit als «kein
+Nachtschicht-Standardfall» bzw. «Aktion/Klaerung mit Raphael» markiert, `entwurfs-referenzen` ist
+durchgehend BEANTWORTET/ERLEDIGT. Prioritaet 6: alle 19 KBs tragen bereits einen Health-Check vom
+01.09. — kein Alters-Unterschied, ein Re-Audit heute waere Doppelarbeit ohne Delta.
+
+Kein Edit an geteilten Inhalten, kein Commit noetig ausser diesem Journal-Eintrag. Budget rund
+1.6 von 5 USD, Zyklus beendet ohne Ergebnis in wiki/outputs — Begruendung liegt hier statt
+erfundener Beschaeftigung.
