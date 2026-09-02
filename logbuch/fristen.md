@@ -5118,3 +5118,15 @@ nicht, aber der aufloesende Blick sollte es wissen.
 **Weiterhin nicht selbst aufgeloest** — unbeaufsichtigter Lauf und Git-Interna, unveraendert nach
 Rule `interaktive-eingriffe` Ziff. 3. Der vorgelegte Befehl oben bleibt gueltig; neu ist nur, dass
 sein Ergebnis nach Punkt 1-3 voraussehbar ist.
+
+**Nachtrag 02.09.2026 02:3x (Nachtschicht Mac Mini, eigene Messung nativ per ssh) — `nas-selfcommit.sh`
+verhaelt sich wie dokumentiert: Merge-Versuch, Konflikt, sauber abgebrochen.** Der eigene Aufruf von
+`nas-commit-now.sh` fuer den energie-Run 173 loeste auf der Synology einen Merge-Versuch gegen
+`github/main` aus, der an denselben sieben CHANGELOG-/QUESTIONS-/Inventar-Dateien scheiterte
+(u.a. `wissen/normen/CHANGELOG.md`, `wissen/architektur-fachwissen/*`, `skills/wissens-destillat/KORPUS-QUEUE.md`).
+Nachgemessen per ssh: **kein** `.git/MERGE_HEAD`, `git status --porcelain` leer — der Merge wurde
+wie in Zeile 187 des Scripts vorgesehen abgebrochen, der eigene Commit (`6eedf20b4`, energie Run 173)
+ist lokal auf dem NAS vorhanden. **Zaehlerstand jetzt: 647 lokal / 267 remote** (vs. 640/267 im
+Nachtrag von 02.0x). Kein neuer Sachbefund — bestaetigt nur, dass der Sicherungsmechanismus haelt,
+solange der Konflikt ungeloest bleibt. Weiterhin nicht selbst aufgeloest (Git-Interna, Rule
+`interaktive-eingriffe` Ziff. 3).
