@@ -10631,4 +10631,4 @@ koordination/QUERBEZUEGE.md` um die benannten Artikel ergaenzt (`baulinien-und-a
 ↔ `kartenportale-baulinien-abstandslinien-zh`), Run-45-Abschnitt um Nachpruefungs-Absatz ergaenzt.
 QUESTIONS-Eintrag in `planungsgrundlagen` auf ✓ gesetzt, CHANGELOG beider KBs (`koordination`,
 `planungsgrundlagen`) nachgefuehrt. Kein neuer Wiki-Artikel noetig — die Frage war eine
-KB-Fuehrungsfrage, keine Sachfrage. Budget rund 0.3 von 5 USD, Zyklus beendet.
+KB-Fuehrungsfrage, keine Sachfrage. Budget rund 2.3 von 5 USD, Zyklus beendet.
