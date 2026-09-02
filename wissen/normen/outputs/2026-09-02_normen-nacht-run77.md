@@ -304,7 +304,7 @@ Abdeckungsrichtung 12 Lücken hob). Sie ist beim Durchsehen des Diffs aufgefalle
 **wiederhergestellt** — genau dafür ist die Zeile-für-Zeile-Sicht da, die Rule 260811 verlangt.
 
 Zeilenzahlen nach dem Lauf: Destillat 267 · Anlage 247 · Inventar 1594 · INDEX 495 ·
-QUESTIONS 6546 · CHANGELOG 13019 · Report 314 · `logbuch/fristen.md` 5120 (+32/−0).
+QUESTIONS 6546 · CHANGELOG 13019 · Report 314 · `logbuch/fristen.md` 5120 (**+29/−0**, nativ nachgemessen — die zuerst notierte 32 war geschätzt).
 
 Umlaute: alle in diesem Lauf geschriebenen Dateien in der Zielkonvention (echte ä/ö/ü),
 **auch die Anlage in `training/`** — anders als die Run-66-Anlage, die bewusst ASCII verwendete.
