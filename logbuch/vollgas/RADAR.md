@@ -53,6 +53,60 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-02 12:57 — [FREI] **Der Ertrag ist hoch (226 Dateien in 20 KBs), kein Leerlauf-Kandidat, alle Feuermechanismen im Sollstand. Zwei Befunde: der P1-Sync-Stau geht in den fuenften Tag (790 Versuche, 698/267, +64 in 12 h) — und die Kennzahl, mit der dieser Radar die Unterauslastung misst, hat mich zwei Laeufe lang in die Irre gefuehrt: der wachsende Rueckstand in Punkten ist Arithmetik, nicht Verschlechterung.**
+
+**Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **02.09. 12:57** (2026-09-02T10:57:17Z), letzter Eintrag **02.09. 00:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h (Takt + 3 h). Zweiter Ausfalltyp nicht zu pruefen, kein Lauf fehlt.
+
+**Fenster FREI in 7 Sekunden, PATH-Probe zum neunten Mal in Folge nicht versucht.** `/opt/homebrew/bin/claude` zeigt unveraendert seit **29.08. 05:15** auf die gewedgte **2.1.236**; das Caskroom fuehrt keine andere Fassung. Homebrew liefert damit seit **fuenf Tagen** nichts nach und uebertrifft beide frueheren Wedges (zwei bzw. drei Tage) deutlich. Die app-gebuendelte **2.1.255** antwortete mit «OK», **rc=0, 7 s**. Latenz-Reihe: 39 · 76 · >120 · 8 · 7 · 98 · 82 · 7 · 7 · **7 s** — dreimal in Folge derselbe Tiefstwert, weiterhin ohne Trend; Untergrenze 180 s bleibt richtig, ein Befund-Lauf zur Ursache ist nicht faellig. Die Messfalle des Vorlaufs (Probe als Vordergrund-Pipe, 0-Byte-Ausgabe bei `exit code 0`) trat nicht wieder auf: das Probe-Script leitete sich mit `exec > datei 2>&1` selbst um und lief unter `nohup`, wie dort notiert.
+
+### Der Rueckstand in Punkten ist die falsche Kennzahl — Korrektur an zwei eigenen Vorlaeufen
+
+`kontingent-budget.sh`: **21.30 von 167 Mio teuer (12.8 %)** bei **29.1 %** verstrichener Woche, Vorsprung **−16.4 Punkte**, Ampel FREI, beide Stationsdateien frisch (MacBook Pro 18.36 Mio, Mac Mini 2.94 Mio). Keine Drossel ausgeloest, keine zurueckzudrehen; Schritt 2c bleibt unberuehrt.
+
+Die letzten drei Eintraege haben den wachsenden Rueckstand als sich verschaerfenden Befund gelesen (−5.4 → −10.1 → −12.5 → **−16.4**). **Das ist ein Messfehler meinerseits, und zwar einer der bekannten Familie: ein auffaelliges Muster ist zuerst eine Aussage ueber das Instrument.** Der Rueckstand in Punkten ist die Differenz zweier Groessen, von denen eine linear mit der Zeit waechst. Bleibt die Verbrauchsrate konstant und unter 100 %, waechst diese Differenz **zwangslaeufig** jeden Tag — auch wenn sich nichts verschlechtert. Die aussagekraeftige Groesse ist der Quotient:
+
+| Messzeitpunkt | verstrichen | verbraucht | Rueckstand | **Rate (verbraucht/verstrichen)** |
+|---|---|---|---|---|
+| 01.09. 12:57 | 14.9 % | 4.8 % | −10.1 | **0.32** |
+| 02.09. 00:57 | 22.0 % | 9.5 % | −12.5 | **0.43** |
+| 02.09. 12:57 | 29.1 % | 12.8 % | −16.4 | **0.44** |
+
+Die Rate ist von 0.32 auf 0.44 **gestiegen** und hat sich dann stabilisiert. Der Verbrauch hat also aufgeholt, waehrend die Punktzahl das Gegenteil suggerierte. Wer den Punktwert als Trend liest, meldet eine Verschlechterung, wo eine Verbesserung stattfand.
+
+**Was die Rate stattdessen sagt, ist trotzdem ernst:** bei 0.44 endet die Woche bei rund **74 von 167 Mio**, also mit gut **90 Mio ungenutzt**. Das ist der Befund, der Bestand hat — nicht die Punktzahl. Er wird hier gemeldet und **nicht als Regimefrage vorgelegt**: der stehende Entscheid vom 03.08. (gleichmaessiger Verbrauch ueber die Woche) gilt, und der Tagesdeckel-Mechanismus ist ausdruecklich ein eigener Auftrag, kein Radar-Thema. Eine Drossel waere bei dieser Lage ohnehin verkehrt herum.
+
+### Liefer-Delta — 226 Dateien in 20 Wissensbasen, kein Ruecktakt-Kandidat
+
+Gemessen mit **absolutem** Zeitstempel (`-newermt "2026-09-01 23:00"`, nie relativ) und am nativen Selfcommit-Log gegengelesen. `git log` im SSD-Klon zeigt fuer 14 Stunden erneut **null** Commits — das ist hier kein Leerlauf, sondern der P1 selbst: der Klon bekommt nichts mehr.
+
+| KB | .md | KB | .md | KB | .md |
+|---|---|---|---|---|---|
+| `architektur-fachwissen` | 68 | `normen` | 11 | `spec` | 3 |
+| `energie` | 48 | `koordination` | 11 | `grobkosten` | 3 |
+| `twin` | 18 | `wettbewerbs-dna` | 10 | `firmengruendung-ch` | 3 |
+| `immobilienbewertung` | 13 | `planungsgrundlagen` | 7 | `architekten-synobsis` | 3 |
+| `baurecht` | 13 | `claude-code` | 4 | sechs weitere KBs | je 2 |
+
+Belegt ueber das Lauf-Journal `260902-laeufe.jsonl`: zwei Nachtschicht-Laeufe auf dem Mac Mini, beide **rc=0** (02:37, 449 s, 2.93 USD, 50 Turns — LEG/VSE-HER-Chronologie in `energie`; 05:35, 327 s, 2.17 USD, 37 Turns — Fehl-Offen E-R164-3 geschlossen). Dazu `twin-mail-training` (01:39), `normen-training-nacht` (01:27), `twin-fidelity-review` (03:44), `wissens-chef` (01.09. 23:11), `tenant-hygiene` (01.09. 20:07). **Kein Loop mit Delta Null. Kein Ruecktakt- und kein Stilllegungs-Kandidat.** Beide Mini-Laeufe melden im `result_tail` ausdruecklich, dass ihr Push am bekannten P1 scheiterte und sie die Historie nicht angefasst haben — das ist das gewuenschte Verhalten.
+
+### Feuermechanismen — alle drei Orte, beide Stationen im Sollstand
+
+**MacBook Pro:** `ch.jans.vollgas-supervisor` und `ch.jans.vollgas-monitor` unveraendert als `*.disabled-260729` abgelegt, keiner von beiden geladen (`launchctl list` zeigt nichts zu vollgas/nachtschicht). **Mac Mini:** `ch.jans.nachtschicht` geladen und arbeitend, `ch.jans.vollgas-supervisor.plist.disabled-260729` unangetastet. **Beide Registries geprueft:** lokal 33 Tasks im dokumentierten Zustand; Mini genau die acht dokumentierten Ordner (energie-training, claude-abo-auslastung, grobkosten-training, arbeits-weiche-review sowie die vier korrekt stillgelegten). Kein Loop wird von zwei Mechanismen gefeuert. Der Endlos-Runner bleibt ausgebaut — kein Eingriff.
+
+**Speicher:** Druckstufe **1** (normal), rund 7.7 GB verfuegbar (free + inactive + purgeable ueber `vm_stat`, nie ueber top-«unused»). **Keine Waisen:** `ps -eo pid,ppid,command | grep "claude -p"` leer, der Watchdog musste nicht eingreifen.
+
+### Prioritaeten
+
+- **P1 — unveraendert der Sync-Stau, jetzt im fuenften Tag und weiter wachsend.** Nativ auf der Synology gegengemessen (`/volume2/daten/jans-ai-hub`, nicht aus dem Vorlauf uebernommen): **Versuch 790**, Divergenz **698 lokal / 267 remote** (Vorlauf 12 h zuvor: 634/267, also **+64**, rund 5 je Stunde — exakt dieselbe Rate wie im Vorlauf). 211 Logzeilen allein heute. Das Repo ist dabei sauber: Kopf `2652236f1` (12:45), **kein** `MERGE_HEAD`, **kein** `rebase-merge`, **null** unmergte Dateien — das Abbruch-Verhalten des Scripts traegt weiterhin. `wissen/architektur-fachwissen/wiki/` fuehrt auf dem NAS **99** Artikel, auf `github/main` **455**; beide Zahlen nativ gezaehlt, unveraendert seit gestern. Neu gemessen: `git merge-tree` weist **13 Konfliktstellen** aus. **Achtung bei der Einordnung** — der Vorlauf nannte «vier Konfliktdateien»; das ist eine andere Einheit (Dateien gegen Konfliktstellen), die beiden Zahlen widersprechen sich nicht und duerfen nicht als Wachstum gelesen werden. Der vorgelegte Weg bleibt unveraendert und nur nach Sichtung der Konfliktdateien: `ssh raphaeljans@diskstation918.tail8265aa.ts.net "cd /volume2/daten/jans-ai-hub && git merge github/main"`. Es bleibt ein Urteil ueber fremde Arbeit und damit Raphaels Entscheid; kein Loop und kein Radar fasst es an. Ohne die Behebung von **B6** (`dispatch-run.sh` Zeile 33 pinnt das Arbeitsverzeichnis auf den SSD-Klon, Spec `docs/konzepte/260830-Laufzeitschicht-Umbau/SPEC.md`) kehrt der Stau in Tagen wieder.
+
+- **P2 — Probe fest auf die app-gebuendelte CLI umstellen.** Neunter Lauf in Folge, in dem der dokumentierte Pflichtweg der Task nicht der tatsaechlich benutzte ist; fuenf Tage ohne Homebrew-Nachlieferung sind laenger als beide frueheren Wedges. Ein Zweizeiler in der Task-Datei; ich editiere die laufende Task auftragsgemaess nicht selbst.
+
+- **P3 — zu weite Allowlist-Regel in `.claude/settings.local.json`, zweiter Lauf in Folge.** Die Probe gab die Warnung erneut unaufgefordert aus: eine `Bash(sed …)`-Regel traegt einen `*` **vor** dem restlichen Befehl und genehmigt damit beliebige an dieser Stelle eingeschobene Optionen ohne Rueckfrage. Betrifft die lokale, nicht versionierte Datei dieser Station. Kein Radar-Kernthema, aber ein Sicherheits-Nebenbefund, der sonst niemandem auffaellt.
+
+**Keine Mail.** Kein neuer Blocker, kein geloester P1, kein erschoepftes Wochenkontingent — der Sync-Befund ist derselbe Vorgang, fuer den eine Wiederholungsmail seit dem 30.08. ausdruecklich ausgeschlossen ist. Er erreicht Raphael um 06:55 ueber das Fristen-Register und um 08:39 im Tagesbriefing des Hub-Chefs. **Regellauf: keine Delegation, Messungen inline und parallel, 15 Werkzeugaufrufe** — im Sollmass.
+
+---
+
 ## 2026-09-02 00:57 — [FREI] **Der Lauf war sauber und der Ertrag hoch: 219 geaenderte Wissens-Dateien in 15 KBs seit dem Mittagslauf, kein Leerlauf-Kandidat. Der P1 ist unveraendert derselbe Commit, waechst aber weiter (634/267, 723 Fehlversuche) — und die gestern Abend nachgetragene Umdeutung «kanonische Quelle unvollstaendig» faellt mit einem zweiten Befund zusammen: das Kontingent laeuft dem Zeitverlauf 12.5 Punkte HINTERHER.**
 
 **Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **02.09. 00:57** (2026-09-01T22:57:16Z), letzter Eintrag **01.09. 12:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h (Takt + 3 h). Zweiter Ausfalltyp nicht zu pruefen, kein Lauf fehlt.
