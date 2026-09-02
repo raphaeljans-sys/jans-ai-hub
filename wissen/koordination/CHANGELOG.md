@@ -2,6 +2,18 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-02 (Nachtschicht Mac Mini, Prioritaet 5) — offene KB-Fuehrungsfrage aus Run 45 geschlossen
+
+Nachpruefung der Run-45-Frage «baurecht ↔ planungsgrundlagen, Baulinien: Gegenrichtung und
+benannte Artikelzuordnung» (`wissen/planungsgrundlagen/wiki/QUESTIONS.md`, offen seit 27.08.2026).
+Ergebnis: die geforderte Gegenrichtung existiert bereits — `baurecht/wiki/baulinien-und-
+abstandslinien.md` Abschnitt 5 nennt den planungsgrundlagen-Artikel beim vollen Pfad, und zwar
+bereits vor Run 45 (Frontmatter-Datum 24.08., Run 45 war 27.08.). Kein Edit an `baurecht` noetig.
+Matrixzeile «Wald-/Gewaesserabstand, Baulinien, Zonenmasse, Verfahren» um die benannten Artikel
+ergaenzt (`baulinien-und-abstandslinien` ↔ `kartenportale-baulinien-abstandslinien-zh`).
+Run-45-Abschnitt um Nachpruefungs-Absatz ergaenzt, QUESTIONS-Eintrag in `planungsgrundlagen`
+auf ✓ gesetzt.
+
 ## 2026-09-01 (Run 50) — eine Genehmigungsfiktion, die es nicht mehr gibt; und die kanonische Quelle ist unvollstaendig
 
 **Zuschnitt:** 6 Melder (`model: sonnet`) + 3 adversariale Verifikatoren + eigene Nachmessung an den

@@ -2,6 +2,15 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-02 (Nachtschicht Mac Mini, Prioritaet 5) — QUESTIONS-Eintrag Baulinien-Gegenrichtung geschlossen
+
+`wiki/QUESTIONS.md`, Eintrag «Baulinien: Gegenrichtung und benannte Artikelzuordnung» (offen seit
+27.08.2026, Wissens-Chef Run 45) recherchiert und geschlossen: `baurecht/wiki/baulinien-und-
+abstandslinien.md` traegt bereits einen direkten Verweis zurueck auf diesen Artikel (Abschnitt 5,
+voller Pfad, stand schon vor Run 45 im Text). Matrixzeile in `wissen/koordination/QUERBEZUEGE.md`
+um die benannten Artikel ergaenzt. Kein Edit an diesem Artikel selbst noetig. Details:
+`wissen/koordination/CHANGELOG.md` 2026-09-02.
+
 ## 2026-09-01 (Wissens-Chef Lauf 50) — Genehmigungsfiktion Anzeigeverfahren korrigiert (rechtlich folgenreich)
 
 `wiki/recht-norm-baueingabe-verfahren-zh.md` (+29/−0): Der Satz «Gilt als bewilligt, wenn 30 Tage

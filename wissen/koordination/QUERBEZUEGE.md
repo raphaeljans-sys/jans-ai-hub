@@ -7,7 +7,7 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 | Thema | Fuehrende KB (Wahrheit) | Zuliefernde KB (verweist dorthin) |
 |---|---|---|
-| Wald-/Gewaesserabstand, Baulinien, Zonenmasse, Verfahren (Recht) | **baurecht** | planungsgrundlagen (Geodatum/Beschaffung) |
+| Wald-/Gewaesserabstand, Baulinien, Zonenmasse, Verfahren (Recht) | **baurecht** (`baulinien-und-abstandslinien`) | planungsgrundlagen (`kartenportale-baulinien-abstandslinien-zh`, Geodatum/Beschaffung) |
 | Geodatum/OEREB/Kataster/Vektorlinien | **planungsgrundlagen** | baurecht (verweist fuer Bezug) |
 | Norm-Fundstellen SIA/VKF/VSS (Ziffer/Ausgabe/Kennwert) | **normen** | baurecht (nennt Norm, verweist auf Destillat) |
 | Energie-Fachphysik / U-Werte / Grenzwerte / PV-Technologie | **energie** | planungsgrundlagen/energie-* |
@@ -824,6 +824,15 @@ vollzogen.
   `baurecht`-Rechtsartikel noetig ist oder der indirekte Pfad ueber `abstaende-und-hoehen` genuegt,
   und ob die Matrixzeile «Wald-/Gewaesserabstand, Baulinien …» eine **benannte Artikelzuordnung**
   erhalten soll statt nur KB-Namen.
+- **Nachpruefung 2026-09-02 (Nachtschicht Mac Mini, Prioritaet 5, aus `planungsgrundlagen/wiki/QUESTIONS.md`
+  Z. 81):** beide Fragen erledigt. (1) Der `baurecht`-Rechtsartikel traegt bereits eine **direkte**
+  Gegenrichtung — Abschnitt 5 «Anwendungs-Transfer JANS» von `baulinien-und-abstandslinien.md` nennt
+  `wissen/planungsgrundlagen/wiki/kartenportale-baulinien-abstandslinien-zh.md` beim vollen Pfad. Der
+  Text stand bereits vor diesem Lauf im Artikel (Frontmatter `last_updated: 2026-08-24`, also vor
+  Run 45 vom 27.08.); der indirekte Pfad ueber `abstaende-und-hoehen` bleibt zusaetzlich bestehen,
+  ist aber nicht mehr die einzige Bruecke. Kein Edit an `baurecht` noetig. (2) Matrixzeile oben um die
+  benannten Artikel ergaenzt (`baulinien-und-abstandslinien` ↔ `kartenportale-baulinien-abstandslinien-zh`).
+  Frage in `planungsgrundlagen/wiki/QUESTIONS.md` auf ✓ gesetzt.
 
 ### normen (KB-intern, aus der Abnehmer-Pruefung Run 45) — 2026-08-27
 

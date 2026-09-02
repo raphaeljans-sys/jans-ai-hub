@@ -10607,3 +10607,28 @@ fehlte. `QUESTIONS.md` und `CHANGELOG.md` nachgefuehrt, Bericht
 
 Sicherung ueber `nas-commit-now.sh` folgt im Anschluss an diesen Eintrag. Budget rund 1.8 von
 5 USD, Zyklus beendet.
+
+## 2026-09-02 13:3x Nachtschicht Mac Mini (Versuchs-Slot)
+
+Prioritaeten 1-4 leer bzw. ohne gueltiges Ziel: `remote-tasks/pending/` und `sync-tasks/mac-mini/`
+ohne offene Task (einziger Sync-Task weiterhin `.angehalten`, wartet auf Raphaels Entscheid zur
+P1-Git-Divergenz, unveraendert nicht selbst aufgeloest); Synobsis Stufe 2 bereits am 01.09. 05:3x
+neu indexiert, 853/853 deckungsgleich, kein weiterer Lauf noetig; Fristen-Register ohne neuen,
+undokumentierten Punkt (die laufende P1-Git-Divergenz und der davon abgeleitete afw-Befund aus
+`koordination` Run 50 sind bereits dokumentiert und warten auf Raphaels Entscheid); alle zehn
+`wissen/*/training/PROGRAMM.md` gegen die Ausschlussliste geprueft — jede trug entweder einen
+eigenen Taktgeber oder einen Stillgelegt-/Ereignis-Trigger-Statuskopf, `energie` bereits zweimal
+heute bearbeitet (Run 173/174).
+
+Prioritaet 5 gegriffen: offene KB-Fuehrungsfrage aus `wissen/planungsgrundlagen/wiki/QUESTIONS.md`
+(«Baulinien: Gegenrichtung und benannte Artikelzuordnung», offen seit 27.08.2026, Wissens-Chef
+Run 45). Nachpruefung ergab: die geforderte Gegenrichtung existiert bereits — `baurecht/wiki/
+baulinien-und-abstandslinien.md` Abschnitt 5 nennt den planungsgrundlagen-Geodatum-Artikel beim
+vollen Pfad, und zwar bereits vor Run 45 (Frontmatter-Datum 24.08., Run 45 war 27.08. — dessen
+Befund «in keiner Richtung» war zu diesem Zeitpunkt bereits ueberholt). Kein Edit an `baurecht`
+noetig. Matrixzeile «Wald-/Gewaesserabstand, Baulinien, Zonenmasse, Verfahren» in `wissen/
+koordination/QUERBEZUEGE.md` um die benannten Artikel ergaenzt (`baulinien-und-abstandslinien`
+↔ `kartenportale-baulinien-abstandslinien-zh`), Run-45-Abschnitt um Nachpruefungs-Absatz ergaenzt.
+QUESTIONS-Eintrag in `planungsgrundlagen` auf ✓ gesetzt, CHANGELOG beider KBs (`koordination`,
+`planungsgrundlagen`) nachgefuehrt. Kein neuer Wiki-Artikel noetig — die Frage war eine
+KB-Fuehrungsfrage, keine Sachfrage. Budget rund 0.3 von 5 USD, Zyklus beendet.

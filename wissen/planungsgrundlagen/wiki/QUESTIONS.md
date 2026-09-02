@@ -78,7 +78,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 
 ## Offen (neu 27.08.2026, Wissens-Chef Run 45)
 
-- [ ] **Baulinien: Gegenrichtung und benannte Artikelzuordnung.** `wiki/kartenportale-baulinien-abstandslinien-zh.md`
+- [x] **Baulinien: Gegenrichtung und benannte Artikelzuordnung.** `wiki/kartenportale-baulinien-abstandslinien-zh.md`
   trug in **keiner** Richtung einen Rueckverweis in die KB `baurecht`, obwohl der dortige Rechtsartikel
   `baurecht/wiki/baulinien-und-abstandslinien.md` die materielle Wuerdigung fuehrt (Bauverbot bis zur
   Linie, §§ 96-101 PBG, Gewaesserabstandslinie § 67, Waldabstandslinie § 66, Ausnahmebewilligung § 220
@@ -90,6 +90,13 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Artikelzuordnung** erhalten statt nur der KB-Namen — der Fall zeigt, dass die KB-Ebene zwei Artikel
   unverbunden lassen kann, obwohl die Matrix formal stimmt. **Kein Entscheid Raphaels.**
   Beleg: `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md`.
+  **Geschlossen 2026-09-02 (Nachtschicht Mac Mini, Prioritaet 5).** (1) `baurecht/wiki/baulinien-
+  und-abstandslinien.md` traegt bereits eine direkte Gegenrichtung — Abschnitt 5 «Anwendungs-Transfer
+  JANS» nennt diesen Artikel beim vollen Pfad (stand bereits vor Run 45 im Text, Frontmatter
+  `last_updated: 2026-08-24`); der indirekte Pfad ueber `abstaende-und-hoehen` bleibt zusaetzlich
+  bestehen. Kein Edit an `baurecht` noetig. (2) Matrixzeile in `QUERBEZUEGE.md` um die benannten
+  Artikel ergaenzt. Beleg: `wissen/koordination/QUERBEZUEGE.md`, Abschnitt Run 45, Nachpruefung
+  2026-09-02.
 
 
 ## Lauf 2026-09-01 (Wartungslauf 03, monatlicher Takt) — der SIA-Shop war nie tot, nur unvollstaendig zitiert; PL-02 ist erstmals seit Run 92 gewachsen
