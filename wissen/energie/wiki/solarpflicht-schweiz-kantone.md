@@ -76,33 +76,48 @@ Fassadenanlagen zusätzlich der Nachweis nach VKF-Richtlinien 14-15 und 15-15. M
 § 238 Abs. 4 PBG massgebend: sorgfältig in Dach- oder Fassadenfläche integrierte Anlagen sind zu
 bewilligen, sofern nicht überwiegende öffentliche Interessen entgegenstehen.
 
-### Die Bundesebene unter § 2a BVV hat sich per 1.1.2026 bewegt (Zeiger aus KB `baurecht`, Buch-Run 141, 01.09.2026)
+### Die Bundesebene hat sich per 1.1.2026 bewegt — der Kanton ZH ist nicht nachgezogen (geprüft 02.09.2026, Run 175)
 
 Die Tabellenzeile «Dachanlage, nach **Art. 32a RPV** genügend angepasst» ist eine **Verweisnorm**:
 sie übernimmt den bundesrechtlichen Anpassungsbegriff unverändert. Ändert der Bund Art. 32a RPV,
-verschiebt sich der kantonale Meldetatbestand **ohne jede Änderung der BVV** mit. Genau das ist
-geschehen, und zwar zweifach nach dem hier dokumentierten BVV-Stand:
+verschiebt sich der kantonale Meldetatbestand **ohne jede Änderung der BVV** mit. Für **Fassaden**
+gilt das gerade nicht — dort führt § 2a Abs. 1 lit. b BVV eigene Kriterien und keinen RPV-Verweis.
 
-- **Art. 32a Abs. 1bis RPV (Flachdach-Alternative):** Auf einem Flachdach gilt eine Anlage auch
-  dann als genügend angepasst, wenn sie statt der Voraussetzungen von Abs. 1 die Oberkante des
-  Dachrandes um höchstens **1 m** überragt, von unten im **45-Grad**-Winkel nicht sichtbar
-  zurückversetzt ist und reflexionsarm ausgeführt wird. **Praktische Folge:** eine aufgeständerte
-  Flachdachanlage, die an der 20-cm-Schwelle von Abs. 1 scheitert, kann über Abs. 1bis dennoch
-  meldepflichtig statt bewilligungspflichtig sein.
-- **Art. 32a-bis RPV (Solaranlagen an Fassaden):** ein ganz neuer Artikel mit eigenem
-  Kriterienkatalog (Abs. 1 lit. a-g, **eine** Voraussetzung genügt) und Zusatzanforderungen
-  (Abs. 2, u.a. max. **20 cm Abstand zur Fassade**, parallel, keine Überdeckung von Gliederungs-
-  oder Schmuckelementen). Die Tabelle oben stützt die Fassadenanlage bisher allein auf § 2a
-  Abs. 1 lit. b BVV.
+**Was 2026 wirklich neu ist:**
 
-Art. 32a RPV steht teils in der Fassung vom 1.7.2022 (AS 2022 357), Titel und Einleitung in jener
-vom **1.1.2026** (AS 2025 659). Amtlicher Wortlaut beider Artikel:
-`wissen/baurecht/raw/260901_amtlich_ch_rpv-art32a-36-37.md` (Fedlex, ELI cc/2000/310, Snapshot
-20260101).
+- **Art. 18a Abs. 1 RPG** erfasst seit dem **1.1.2026** Solaranlagen «auf Dächern **oder an
+  Fassaden**» — die Bewilligungsfreiheit (nur Meldepflicht) wurde erstmals auf Fassaden
+  ausgedehnt. Fassung gemäss Ziff. III des BG vom 29.09.2023 über eine sichere Stromversorgung
+  mit erneuerbaren Energien (AS 2024 679; AS 2025 636).
+- **Art. 32a-bis RPV** (neu, V vom 15.10.2025, AS 2025 659) konkretisiert das für Fassaden:
+  eigener Kriterienkatalog Abs. 1 lit. a-g, wobei **eine** Voraussetzung genügt, plus
+  Zusatzanforderungen nach Abs. 2 (u.a. max. 20 cm Abstand zur Fassade, parallel, keine
+  Überdeckung von Gliederungs- oder Schmuckelementen) — diese aber nur, «soweit das kantonale
+  Recht nichts anderes vorsieht».
 
-**Noch nicht geprüft** (Bringschuld dieser KB): ob die BVV in der Fassung Nachtrag 133
-(Druckstand 1.7.2026) den neuen Art. 32a-bis bereits nachvollzieht oder ob § 2a Abs. 1 lit. b BVV
-und Art. 32a-bis RPV nebeneinander stehen und sich inhaltlich überschneiden.
+**⚠ Korrektur einer Fehldatierung, die bis 02.09.2026 an dieser Stelle stand:** Die
+**Flachdach-Alternative Art. 32a Abs. 1bis RPV** (Überragung der Dachrand-Oberkante um höchstens
+1 m, 45-Grad-Rückversetzung, reflexionsarm) ist **nicht** von 2026, sondern gilt bereits seit dem
+**1. Juli 2022** («Eingefügt durch Ziff. I der V vom 3. Juni 2022, in Kraft seit 1. Juli 2022»,
+AS 2022 357 — Fussnote 24 zu Art. 32a im Fedlex-Snapshot 20220701, in dem der Absatz wortgleich
+enthalten ist; im Lauf 175 selbst geladen und gegengelesen). An Art. 32a RPV änderte die Revision
+2025/2026 im Wesentlichen nur Titel und Einleitung. Der frühere Text führte Abs. 1bis als
+Neuerung von 2026 und datierte ihn damit um dreieinhalb Jahre falsch.
+
+**Antwort auf die Bringschuld (E-B141-1, erledigt 02.09.2026): die BVV vollzieht Art. 32a-bis RPV
+nicht nach.** § 2a Abs. 1 lit. b BVV (Nachtrag 133, Druckstand 1.7.2026 — zum Prüfzeitpunkt der
+aktuellste Nachtrag) steht unverändert und **enger** neben dem Bundesartikel: er verlangt
+reflexionsarm **und** kompakt **und** parallel **und** kein Hinausragen über die Fassadenfläche
+**und** höchstens 20 cm Überragung — fünf Merkmale kumulativ, während Art. 32a-bis Abs. 1 eine
+von sieben Voraussetzungen genügen lässt. Eine BVV-Änderung, ein RRB oder eine
+AWEL/ARE-Vollzugsmitteilung zum neuen Bundesstand wurde nicht gefunden (Negativbefund); die
+amtliche Vollzugsseite «Solaranlage melden» zitiert für Fassaden weiterhin allein § 2a Abs. 1
+lit. b BVV. Volle Herleitung, Wortlaute und die zwei vertretbaren Lesarten:
+`[[fassaden-solaranlagen-bewilligungsfreiheit-zh-2026]]`.
+
+Amtlicher Wortlaut RPV: `wissen/baurecht/raw/260901_amtlich_ch_rpv-art32a-36-37.md` (Fedlex, ELI
+cc/2000/310, Snapshot 20260101). Kantonale Prüfung und Suchwege:
+`raw/260902_amtlich_zh_bvv-2a-vs-rpv-32a-bis.md`.
 
 ⚠ **Überholt:** Die noch verbreitete Faustregel «Dachanlage bis 35 m² zusammenhängend, Überstand
 ≤ 20 cm, bewilligungsfrei» stammt aus § 1 lit. k BVV alter Fassung (so abgedruckt im

@@ -150,7 +150,20 @@ geregelt, siehe [[laermschutz-und-nichtionisierende-strahlung]].
   ausserdem **Art. 32a-bis RPV** (Solaranlagen an **Fassaden**) mit eigenem Kriterienkatalog
   (Abs. 1 lit. a-g, eine Voraussetzung genügt) und Zusatzanforderungen (Abs. 2, u.a. max. **20 cm
   Abstand zur Fassade**, parallel, keine Überdeckung von Gliederungs- oder Schmuckelementen);
-  ob § 2a Abs. 1 lit. b BVV daneben eigenständig fortbesteht, ist offen (Frage an KB `energie`).
+  ob § 2a Abs. 1 lit. b BVV daneben eigenständig fortbesteht, ist **beantwortet** (KB `energie`,
+  Run 175, 02.09.2026): **ja, unverändert und enger.** § 2a Abs. 1 lit. b BVV (Nachtrag 133,
+  Druckstand 1.7.2026) verlangt fünf Merkmale **kumulativ** (reflexionsarm, kompakt, parallel,
+  kein Hinausragen über die Fassadenfläche, höchstens 20 cm Überragung) und verweist nirgends auf
+  Art. 32a-bis RPV — anders als lit. a, der dynamisch auf Art. 32a RPV verweist. Eine
+  BVV-Änderung, ein RRB oder eine AWEL/ARE-Vollzugsmitteilung zum neuen Bundesstand wurde nicht
+  gefunden (Negativbefund). **Zwei Ergänzungen zum Bundesstand, die hier fehlten:** (1) die
+  Rechtsgrundlage für Fassaden ist **Art. 18a Abs. 1 RPG**, der seit dem **1.1.2026** Anlagen «auf
+  Dächern **oder an Fassaden**» erfasst (Fassung gemäss Ziff. III BG vom 29.09.2023, AS 2024 679 /
+  AS 2025 636) — erst dadurch hat Art. 32a-bis RPV überhaupt eine Gesetzesgrundlage; (2)
+  **Art. 32a Abs. 1bis RPV ist nicht von 2026**, sondern «Eingefügt durch Ziff. I der V vom
+  3. Juni 2022, in Kraft seit 1. Juli 2022» (AS 2022 357) — Fussnote 24, am Fedlex-Snapshot
+  20220701 gegengelesen, in dem der Absatz wortgleich enthalten ist. Der Fassungsstand-Satz unten
+  liess dies offen. Herleitung: `wissen/energie/destillate/fassaden-solaranlagen-bewilligungsfreiheit-zh-2026.md`.
   **Art. 32a Abs. 3 RPV** ordnet das Meldeprinzip selbst an und delegiert Frist und Unterlagen
   ans kantonale Recht — genau das füllen §§ 2c/2d BVV aus. Fassungsstand: Art. 32a Abs. 1
   lit. a/b/d i.d.F. vom **1.7.2022** (AS 2022 357), Titel/Einleitung i.d.F. vom **1.1.2026**

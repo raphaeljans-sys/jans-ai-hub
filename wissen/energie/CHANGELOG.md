@@ -1,5 +1,44 @@
 # CHANGELOG
 
+## 2026-09-02 (Abendlauf Mac Mini, Run 175) — Fassaden-Solar ZH geklärt, ewz-Fernwärmetarif beschafft, eigene Fehldatierung korrigiert
+
+Erster Lauf des Tages mit Fachertrag (173 und 174 waren Buchhaltungsläufe). Zwei substanzielle
+Punkte geschlossen, beide an der Primärquelle verifiziert.
+
+**E-B141-1 (Cross-KB aus `baurecht`) beantwortet:** Fassaden-Solaranlagen sind seit dem 1.1.2026
+bundesrechtlich baubewilligungsfrei und nur meldepflichtig — Trägernorm Art. 18a Abs. 1 RPG
+i.d.F. des Mantelerlasses vom 29.09.2023 (AS 2024 679 / AS 2025 636), der neu «auf Dächern **oder
+an Fassaden**» erfasst, konkretisiert durch den neuen Art. 32a-bis RPV (AS 2025 659, eine von
+sieben Voraussetzungen genügt). Der Kanton Zürich zieht nicht nach: § 2a Abs. 1 lit. b BVV
+(Nachtrag 133, Druckstand 1.7.2026) verlangt weiterhin fünf Merkmale kumulativ und verweist
+nirgends auf Art. 32a-bis; Negativbefund zu BVV-Änderung, RRB und Vollzugsmitteilung. Neues
+Destillat `fassaden-solaranlagen-bewilligungsfreiheit-zh-2026`, FAQ F268, Artikel
+`solarpflicht-schweiz-kantone` umgeschrieben. Antwort im selben Lauf nach
+`wissen/baurecht/wiki/baubewilligungsverfahren.md` zurückgeschrieben (Cross-KB-Bringschuld).
+
+**E-R163-1 nach zwölf Tagen geschlossen:** STRB Nr. 3879/2025 vom 26.11.2025 revidiert den
+ewz-Fernwärmetarif «KVA und Holz» per 1.1.2027 — P1 65 → 35 CHF/MWh, P2 42 → 145 CHF/kW, P3
+unverändert, Indexierung neu durchgehend ZIK. Break-even bei rund 2'100 Vollbenutzungsstunden
+(eigene Rechnung aus den belegten Formeln): die abonnierte Leistung wird zum Hauptkostenhebel.
+Neues Destillat `ewz-fernwaermetarif-kva-holz-2027`, FAQ F269. Der Punkt war zweimal als «zu
+gross fürs Nachtschicht-Budget» zurückgestellt worden und kostete tatsächlich rund ein Dutzend
+Abrufe.
+
+**Eigener Fehlerbefund (E-R175-1):** Art. 32a Abs. 1bis RPV (Flachdach, 1 m / 45 Grad) stand im
+eigenen Wiki seit dem 01.09.2026 als Neuerung «per 1.1.2026». Richtig ist 1. Juli 2022
+(AS 2022 357), verifiziert am Fedlex-Snapshot 20220701, in dem der Absatz bereits wortgleich
+steht. Ursache war eine im Quell-Rohtext unaufgelöste Fussnote («Abs. 1bis eingefügt (Fussnote
+28)»), aus deren Nachbarschaft auf das falsche Datum geschlossen wurde. Korrigiert in Artikel,
+Destillat und FAQ F270. Übertragbare Lehre in QUESTIONS festgehalten: ein Vermerk «eingefügt
+(Fussnote N)» ist kein Datum, sondern ein Zeiger.
+
+**Betriebsbefund:** PDF-Inventar seit Run 65 leer, Curriculum ohne offenen Fachpunkt, QUESTIONS
+nach diesem Lauf ohne inhaltlichen Rest. Vorschlag im Laufbericht: Takt von täglich auf
+wöchentlich/ereignisgetrieben umstellen (Aktualitätspflege Förderung/Energierecht/Tarife) —
+Takt-Entscheid, liegt bei Raphael, nicht eigenmächtig vorgenommen.
+
+Bericht: `outputs/2026-09-02_energie-run175.md`.
+
 ## 2026-09-02 (Nachtschicht Mac Mini, Run 174) — E-R164-3 geschlossen (Fehl-Offen Typ 2, Werkzeug bereits repariert)
 
 `wissen/tools/datenstand-waechter.py` meldete laut QUESTIONS.md E-R164-3 seit dem 27.08.2026

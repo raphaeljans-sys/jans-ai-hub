@@ -2,6 +2,57 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-09-02 (Run 175, Abendlauf Mac Mini 22:3x) — E-B141-1 und E-R163-1 geschlossen; Fehldatierung im eigenen Wiki korrigiert
+
+- [x] **E-B141-1 (P2, Cross-KB aus `baurecht`) ✓ 2026-09-02 — die BVV vollzieht Art. 32a-bis RPV
+  nicht nach.** § 2a Abs. 1 lit. b BVV (LS 700.6, Nachtrag 133, Druckstand 1.7.2026 — zum
+  Pruefzeitpunkt der aktuellste Nachtrag) fordert fuer Fassadenanlagen in Bauzonen weiterhin
+  **fuenf Merkmale kumulativ** und verweist nirgends auf den neuen Bundesartikel; lit. a (Daecher)
+  verweist dagegen dynamisch auf Art. 32a RPV und bewegt sich mit. **Negativbefund** zu einer
+  BVV-Aenderung, einem RRB oder einer AWEL/ARE-Vollzugsmitteilung; die amtliche Vollzugsseite
+  «Solaranlage melden» zitiert fuer Fassaden weiterhin allein § 2a Abs. 1 lit. b BVV. Neues
+  Destillat `[[fassaden-solaranlagen-bewilligungsfreiheit-zh-2026]]`, FAQ **F268**, Artikel
+  `[[solarpflicht-schweiz-kantone]]` umgeschrieben. **Rueckmeldung an `baurecht` im selben Lauf
+  gesetzt** (Rule `wissens-bibliothekar`, Cross-KB-Bringschuld): Antwort plus zwei Ergaenzungen
+  direkt in `wissen/baurecht/wiki/baubewilligungsverfahren.md` eingetragen.
+
+- [x] **E-R163-1 (P3) ✓ 2026-09-02 — ewz-Fernwaermetarif, STRB 3879/2025 im Volltext beschafft.**
+  Der Punkt stand seit Run 163 (26.08.2026) offen und war zweimal als «zu gross fuers
+  Nachtschicht-Budget» zurueckgestellt worden — im Abendlauf mit vollem Budget in einem Zug
+  erledigt. STRB Nr. 3879/2025 «Elektrizitaetswerk, Revision Fernwaermetarif» vom 26.11.2025 samt
+  Beilage-Tarifblatt sowie das aktuell geltende ewz-Tarifblatt selbst geladen und alle Zahlen am
+  Original gegengelesen. Neues Destillat `[[ewz-fernwaermetarif-kva-holz-2027]]`, FAQ **F269**.
+  **Lehre zur Zurueckstellungs-Praxis:** die Beschaffung kostete rund ein Dutzend Abrufe. «Zu
+  gross fuers Nachtschicht-Budget» war eine Schaetzung, die nie nachgemessen wurde, und hat den
+  Punkt zwoelf Tage liegen lassen — bei einer erneuten Zurueckstellung gehoert der geschaetzte
+  Aufwand mit einer Zahl hingeschrieben, sonst wird die Notiz zur selbsterfuellenden Sperre.
+
+### Eigener Befund dieses Laufs (kein Eingang von aussen)
+
+- [x] **E-R175-1 (P2, Sachfehler) ✓ 2026-09-02 — Art. 32a Abs. 1bis RPV war im eigenen Wiki um
+  dreieinhalb Jahre falsch datiert.** `[[solarpflicht-schweiz-kantone]]` fuehrte die
+  Flachdach-Alternative (1 m / 45 Grad) seit dem 01.09.2026 als Teil der Bundesaenderung «per
+  1.1.2026». Tatsaechlich: «Eingefuegt durch Ziff. I der V vom 3. Juni 2022, in Kraft seit
+  1. Juli 2022» (AS 2022 357) — Fussnote 24, verifiziert am Fedlex-Snapshot **20220701**, in dem
+  der Absatz bereits wortgleich steht. Der Fehler entstand nicht aus einer falschen Quelle,
+  sondern aus einer **unaufgeloesten Fussnote**: die Quelldatei
+  `wissen/baurecht/raw/260901_amtlich_ch_rpv-art32a-36-37.md` notiert woertlich «Abs. 1bis
+  eingefuegt (Fussnote 28)», ohne den Fussnotentext aufzuloesen — und der uebernehmende Lauf
+  schloss aus der Nachbarschaft zum 1.1.2026-Vermerk auf dasselbe Datum. Korrigiert in Artikel,
+  Destillat und FAQ **F270**. **Lehre, uebertragbar:** ein Fassungsvermerk der Form «eingefuegt
+  (Fussnote N)» ist **kein Datum**, sondern ein Zeiger — wer ihn ohne Aufloesung uebernimmt, erbt
+  keine Angabe, sondern die naechstgelegene. Beim Destillieren amtlicher Volltexte gehoert der
+  Fussnotentext mitgelesen oder die Luecke ausdruecklich als solche markiert.
+
+- [ ] **E-R175-2 (P3, Werkzeug): `datenstand-waechter.py` liest eine Jahreszahl in Klammern als
+  Pruefstichtag.** Der Lauf meldet neu einen unquittierten Treffer in `QUESTIONS.md` Z. 8 —
+  dort steht aber kein selbst gesetzter Stichtag, sondern der Satz «Der Punkt stand seit Lauf 165
+  (27.08.2026) offen», also eine **Herkunftsangabe**. Falsch-Positiv derselben Familie wie das in
+  Run 166 eingebaute Quittungsfenster, aber an anderer Stelle: die Regel trennt nicht zwischen
+  «Stichtag, den ich mir selbst gesetzt habe» und «Datum, das ich nur erwaehne». Kleiner Aufwand,
+  ohne Dringlichkeit — der Treffer ist harmlos, solange er verstanden ist.
+
+
 ## 2026-09-02 (Nachtschicht Mac Mini 05:3x) — E-R164-3 geschlossen: Werkzeug war bereits repariert, nur nie abgehakt
 
 - [x] **E-R164-3 (P3, Werkzeug) ✓ 2026-09-02 — `datenstand-waechter.py` meldet erledigte

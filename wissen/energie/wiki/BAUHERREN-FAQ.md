@@ -9403,3 +9403,107 @@ Ausnahme, und sollte im Betriebsbudget eingeplant sein.
 Energieeffizienz», Verein Minergie, Überarbeitung Mai 2025, S. 14-19 vollständig gelesen am
 01.09.2026 (HTTP 200, SHA-256 geprüft). Destillat: `[[minergie-messen-steuern-optimieren]]`.
 Aufgenommen 01.09.2026 (Nachtschicht Mac Mini, E-R169-4).
+
+## F268 — «Wir möchten Photovoltaik an die Fassade hängen. Brauchen wir im Kanton Zürich eine Baubewilligung?»
+
+**Kurz:** In einer Bauzone in aller Regel **nein** — seit dem 1.1.2026 sind genügend angepasste
+Fassadenanlagen bundesrechtlich baubewilligungsfrei und nur noch **meldepflichtig**. Zwei
+Ausnahmen bleiben hart: in **Kernzonen**, im Perimeter eines Ortsbild- oder
+Denkmalschutzinventars und unter einer denkmalpflegerischen Schutzanordnung ist jede
+Solaranlage bewilligungspflichtig. Und weil der Kanton seinen eigenen Wortlaut noch nicht
+nachgeführt hat, gehört der konkrete Fall vor Baubeginn schriftlich an die Baubehörde.
+
+**Fachlich:** Art. 18a Abs. 1 RPG erfasst seit dem 1.1.2026 Solaranlagen «auf Dächern **oder an
+Fassaden**» und ordnet für genügend angepasste Anlagen die blosse Meldepflicht an (Fassung
+gemäss BG vom 29.09.2023, AS 2024 679 / AS 2025 636). Wann eine Fassadenanlage «genügend
+angepasst» ist, sagt der neue Art. 32a-bis RPV (AS 2025 659): dort genügt **eine** von sieben
+Voraussetzungen (u.a. zusammenhängende kompakte rechteckige Fläche, einheitlicher Ersatz von
+Fassadenelementen, vollständige Abdeckung von Giebelflächen, angepasste Farbgebung, Lage in
+einer Arbeitszone), dazu die Zusatzbedingungen nach Abs. 2 (max. 20 cm Abstand zur Fassade,
+parallel, keine Überdeckung von Gliederungs- oder Schmuckelementen). **Der Kanton Zürich hat
+das nicht nachvollzogen:** § 2a Abs. 1 lit. b BVV (Nachtrag 133, Druckstand 1.7.2026) verlangt
+für Fassaden in Bauzonen weiterhin fünf Merkmale **kumulativ** — reflexionsarm, kompakt,
+parallel, kein Hinausragen über die Fassadenfläche, höchstens 20 cm Überragung — und verweist
+nirgends auf Art. 32a-bis RPV. Für **Dächer** ist die Lage anders und unproblematisch: § 2a
+Abs. 1 lit. a BVV verweist dynamisch auf Art. 32a RPV und bewegt sich mit dem Bundesrecht mit.
+
+**Bauherren-Transfer:** Planen Sie die Fassadenanlage so, dass sie **beide** Kataloge erfüllt —
+also die fünf kantonalen Merkmale von § 2a lit. b BVV **und** eine Voraussetzung von Art. 32a-bis
+Abs. 1 RPV. Dann ist der Fall unstrittig meldepflichtig, und Sie sparen sich die Diskussion.
+Wird die Anlage bewusst anders konzipiert (etwa als einheitlicher Ersatz bestehender
+Fassadenelemente, was der Bund ausdrücklich zulässt, das kantonale Kompaktheitskriterium aber
+sprengen kann), holen Sie vor Baubeginn eine schriftliche Auskunft der Gemeinde ein. Der Aufwand
+dafür ist gering, eine nachträglich verlangte Baubewilligung ist es nicht. Rechnen Sie in
+Kernzonen und Inventarlagen von Anfang an mit dem ordentlichen Bewilligungsverfahren — dort hat
+sich 2026 nichts geändert.
+
+**Quelle:** Fedlex, RPG SR 700 Art. 18a und RPV SR 700.1 Art. 32a/32a-bis, beide Stand 1.1.2026;
+Zürcher Gesetzessammlung, BVV LS 700.6, Original-PDF Nachtrag 133 (Druckstand 1.7.2026), § 2a —
+alle am 02.09.2026 im Wortlaut selbst gelesen. Destillat:
+`[[fassaden-solaranlagen-bewilligungsfreiheit-zh-2026]]`. Aufgenommen 02.09.2026 (Run 175,
+schliesst die Cross-KB-Bringschuld E-B141-1 aus der KB `baurecht`).
+
+## F269 — «ewz ändert den Fernwärmetarif per 2027. Wir hängen am Wärmeverbund KVA und Holz — was kommt auf uns zu?»
+
+**Kurz:** Der Stadtrat hat den Tarif am 26.11.2025 revidiert (STRB 3879/2025), gültig ab
+**1.1.2027**. Im Schnitt rund **+10 %**, aber der Durchschnitt sagt wenig: Der Arbeitspreis
+halbiert sich mehr als (effektiv 80.60 → 35.00 CHF/MWh), der Leistungspreis verdreifacht sich
+(effektiv 47.88 → 145.00 CHF/kW). **Entscheidend wird die abonnierte Leistung, nicht mehr der
+Verbrauch.**
+
+**Fachlich:** Die Kostengleichheit zwischen altem und neuem Tarif liegt bei rund **2'100
+Vollbenutzungsstunden** pro Jahr (Jahreswärmebezug in MWh ÷ abonnierte Leistung in kW × 1'000)
+— eigene Rechnung aus den publizierten Formeln, Leistungsbereich 0–250 kW, ohne
+Rücklauftemperaturzuschlag und ohne EHS-Anteil. Darüber wird es günstiger, darunter teurer. Ein
+Mehrfamilienhaus mit 120 kW abonnierter Leistung und 200 MWh Jahresbezug (rund 1'670 Stunden)
+zahlt statt rund 22'900 neu rund 25'300 CHF, also +10,5 %. Ein Objekt mit 100 kW und 300 MWh
+(3'000 Stunden) zahlt statt rund 30'000 neu rund 25'900 CHF, also −13,6 %. Der Anschlussbeitrag
+P3 bleibt unverändert; neu wird durchgehend auf den Zürcher Index der Konsumentenpreise
+indexiert, mit dem Mittelwert 2026 als Ausgangswert (Indexwert 2027 = 1.00). ⚠ Die Zahlen gelten
+**nur** für den Wärmeverbund «KVA und Holz» — andere ewz-Energieverbünde haben eigene Tarife.
+
+**Bauherren-Transfer:** Prüfen Sie **vor dem 1.1.2027** die abonnierte Leistung Ihres
+Anschlusses. Ab 2027 kostet jedes zu viel abonnierte Kilowatt rund 145 CHF pro Jahr statt rund
+48 CHF — 30 kW zu grosszügig bestellt sind gut 4'300 CHF jährlich ohne jeden Gegenwert. Bei
+Liegenschaften, die seit dem Anschluss saniert wurden, ist die abonnierte Leistung erfahrungsgemäss
+nie nachgeführt worden; genau dort liegt das Geld. Bei **Neuanschlüssen** die Leistung rechnerisch
+belegen statt sicherheitshalber aufzurunden — gut gedämmte Neubauten haben wenige
+Vollbenutzungsstunden und werden vom neuen Tarif überdurchschnittlich getroffen. Der hydraulische
+Abgleich (Rücklauftemperatur, Zuschlag bis 20 % auf den Arbeitspreis) bleibt sinnvoll, wiegt
+aber relativ weniger, weil der Arbeitspreis einen kleineren Teil der Rechnung ausmacht.
+
+**Quelle:** Stadt Zürich, STRB Nr. 3879/2025 vom 26.11.2025 samt Beilage «Tarif Fernwärme im
+Wärmeverbund KVA und Holz, Ausgabe Dezember 2025»; ewz-Tarifblatt «Tarifsystem Fernwärme 2022 —
+Ausgabe Juni 2026» (aktuell geltend). Beide PDF am 02.09.2026 selbst geladen und im Volltext
+gegengelesen. Destillat: `[[ewz-fernwaermetarif-kva-holz-2027]]`. Aufgenommen 02.09.2026
+(Run 175, schliesst den seit Run 163 offenen Punkt E-R163-1).
+
+## F270 — «Unsere Flachdach-Anlage soll aufgeständert werden und überragt den Dachrand. Ist das neu erlaubt?»
+
+**Kurz:** Erlaubt ja, aber **nicht neu** — die Flachdach-Alternative gilt seit dem **1. Juli
+2022**, nicht erst seit 2026. Die Anlage darf die Oberkante des Dachrandes um höchstens **1 m**
+überragen, muss von unten im **45-Grad**-Winkel betrachtet unsichtbar zurückversetzt und
+reflexionsarm ausgeführt sein. Sind diese drei Punkte erfüllt, ist sie meldepflichtig statt
+bewilligungspflichtig.
+
+**Fachlich:** Art. 32a Abs. 1bis RPV lässt für Flachdächer diese Alternative **anstelle** der
+Voraussetzungen von Abs. 1 zu — eine aufgeständerte Anlage, die an der 20-cm-Schwelle von Abs. 1
+lit. a scheitert, kann also über Abs. 1bis dennoch im Meldeverfahren bleiben. Der Absatz wurde
+durch die Verordnungsänderung vom 3. Juni 2022 eingefügt und ist seit dem 1. Juli 2022 in Kraft
+(AS 2022 357). Im Kanton Zürich wirkt er unmittelbar durch, weil § 2a Abs. 1 lit. a BVV pauschal
+auf «Art. 32a RPV» verweist und damit jede Änderung dieses Artikels ohne eigene
+BVV-Anpassung übernimmt. ⚠ Diese Antwort korrigiert eine Fehldatierung, die bis zum 02.09.2026
+im Artikel `[[solarpflicht-schweiz-kantone]]` stand und Abs. 1bis der Revision von 2026 zuordnete.
+
+**Bauherren-Transfer:** Wenn Ihnen jemand die Flachdach-Regel als Neuerung von 2026 verkauft,
+ist die Auskunft veraltet — und häufig steckt dieselbe veraltete Grundlage dahinter, die auch die
+längst aufgehobene «35 m²»-Faustregel am Leben hält. Massgebend ist der Verordnungswortlaut, nicht
+das Merkblatt. Für die Planung heisst das: die 45-Grad-Sichtbarkeit ist das Kriterium, an dem
+aufgeständerte Anlagen in der Praxis scheitern, nicht die Höhe — die Rückversetzung von der
+Dachkante gehört früh in die Belegungsplanung, weil sie Modulfläche kostet.
+
+**Quelle:** Fedlex, RPV SR 700.1 Art. 32a Abs. 1bis, Snapshot 20220701 (Absatz wortgleich
+enthalten, Fussnote 24: «Eingefügt durch Ziff. I der V vom 3. Juni 2022, in Kraft seit
+1. Juli 2022»), gegengelesen am 02.09.2026; BVV LS 700.6 Nachtrag 133 § 2a Abs. 1 lit. a.
+Destillat: `[[fassaden-solaranlagen-bewilligungsfreiheit-zh-2026]]`. Aufgenommen 02.09.2026
+(Run 175).

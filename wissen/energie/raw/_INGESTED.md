@@ -384,3 +384,29 @@ S. 1-6 vollstaendig gelesen. Kein SharePoint-Bestand, reiner Web-Direktbezug.
 **Ausgabenstand mitgeprueft:** die offizielle AHB-Downloadliste (`stadt-zuerich.ch/egt`) fuehrt
 genau diese Datei mit «PDF | 6 Seiten | 155 KB» — deckungsgleich, keine neuere Fassung.
 Destillat: `destillate/ahb-merkblatt-384-beleuchtung-hallenbaeder-2024.md`.
+
+## 2026-09-02 (Run 175) — Web-/Amtsdirektbezug, kein SharePoint-Bestand
+
+**Amtliche Rechtstexte** (alle per `curl -A Mozilla` geladen, Wortlaut selbst extrahiert):
+- Fedlex RPG SR 700, ELI `cc/1979/1573_1573_1573`, Snapshot **20260101**, de/html (136'450 Byte)
+  — Art. 18a; belegt die Ausdehnung auf «Daecher **oder** Fassaden» per 1.1.2026 samt Fussnote 55.
+- Fedlex RPV SR 700.1, ELI `cc/2000/310`, Snapshot **20220701**, de/html (104'407 Byte)
+  — Datierungspruefung Art. 32a Abs. 1bis; Fussnote 24 «Eingefuegt … in Kraft seit 1. Juli 2022».
+  Der Snapshot 20260101 lag bereits als `wissen/baurecht/raw/260901_amtlich_ch_rpv-art32a-36-37.md` vor.
+- Zuercher Gesetzessammlung, BVV LS 700.6, Original-PDF Nachtrag 133
+  (`700.6_3.12.97_133.pdf`, 413'366 Byte, 27 S.), Text via `pdftotext -layout` — § 2a Abs. 1/2.
+
+**Tarifquellen** (PDF, beide via `pdftotext -layout` gegengelesen):
+- Stadt Zuerich, Beilage zu STRB Nr. 3879/2025, «Tarif Fernwaerme im Waermeverbund KVA und Holz,
+  Ausgabe Dezember 2025» (257'845 Byte, 2 S.).
+- ewz, «Tarifsystem Fernwaerme 2022 — Ausgabe Juni 2026» (236'293 Byte, 2 S.), aktuell geltend.
+
+⚠ **Werkzeug-Notiz:** Die verkuerzte STRB-URL (`…/stadtratsbeschluesse/stzh-strb-2025-3879.pdf`)
+liefert eine 5'747-Byte-**HTML**-Seite, kein PDF. Der tragfaehige Weg ist der volle
+`/content/dam/web/de/politik-verwaltung/politik-recht/stadtratsbeschluesse/<JJJJ>/<MM>/`-Pfad.
+Wer nur `wc -c` prueft und nicht `file`, haelt die HTML-Huelle fuer ein kurzes PDF.
+
+Zwischennotizen des Laufs: `raw/260902_amtlich_zh_bvv-2a-vs-rpv-32a-bis.md`,
+`raw/260902_ewz-fernwaermetarif-strb-3879-2025.md`.
+Destillate: `destillate/fassaden-solaranlagen-bewilligungsfreiheit-zh-2026.md`,
+`destillate/ewz-fernwaermetarif-kva-holz-2027.md`.
