@@ -5186,3 +5186,12 @@ gleiches Bild.** Eigener `nas-commit-now.sh`-Aufruf (energie/QUESTIONS-Fehl-Offe
 `febc3775b`) loeste denselben Merge-Konflikt an denselben sieben Dateien aus, sauber abgebrochen
 (kein `MERGE_HEAD`, `git status --porcelain` leer, eigener Commit lokal vorhanden). **Zaehlerstand
 jetzt: 662 lokal / 267 remote.** Kein neuer Sachbefund. Weiterhin nicht selbst aufgeloest.
+
+**Nachtrag 02.09.2026 16:1x (interaktive Session MacBook Pro, Session-Waechter-Einrichtung):**
+Divergenz jetzt **718 lokal / 267 remote**; GitHub steht seit 31.08. 06:12 (`66df04125`).
+Konkrete Folge heute: der neue `scripts/claude-session-waechter.sh` (Commit `b079d6d2b` auf dem
+NAS) erreicht den SSD-Klon nicht, weil dieser von GitHub pullt — die launchd-Kette faehrt bis
+zur Aufloesung die alte speicher-waechter-Fassung ohne Session-Bereinigung (NAS-Fallback greift
+nur, wenn die SSD-Datei fehlt). Aufloesungsversuch per ssh (Merge mit Union-Aufloesung der
+CHANGELOGs) vom Auto-Mode-Klassifikator blockiert; Befehl gemaess Rule wege-und-vollmachten
+Raphael vorgelegt (Chat 02.09.). Nicht selbst aufgeloest.
