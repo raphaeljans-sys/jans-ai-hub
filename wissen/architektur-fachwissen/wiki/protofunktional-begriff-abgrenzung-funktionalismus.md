@@ -1,36 +1,51 @@
 ---
-title: "Begriff 'protofunktional' — Abgrenzung vom Funktionalismus des 20. Jahrhunderts"
+title: "Begriff «Protofunktional» — Abgrenzung vom Funktionalismus des 20. Jahrhunderts"
 status: emerging
-last_updated: 2026-08-30
-sources: ["/Volumes/daten/02_Architektur_Archiv/10_Protomodern/05_Begriffe/Protofunktional/00_Text/130426_Protofunktional.docx (rj, 130426)"]
-links: ["[[protomodern-manifest-acht-saetze-konzept]]"]
+last_updated: 2026-09-02
+sources: ["/Volumes/daten/02_Architektur_Archiv/10_Protomodern/05_Begriffe/Protofunktional/00_Text/130426_Protofunktional.docx (rj, 130426)", "raw/inventar/archiv-fachwissen__10_Protomodern.md"]
+links: ["[[protomodern-projektrahmen-professurenlandkarte]]", "[[protomodern-manifest-acht-saetze-konzept]]", "[[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]]"]
 ---
 
-# Begriff «protofunktional»
+# Begriff «Protofunktional»
 
 ## Kontext
 
-Eigene Begriffsdefinition von Raphael Jans (130426), zentraler Leitbegriff des
-gleichnamigen Ordners innerhalb der Sektion `10_Protomodern`.
+Eigener Begriffstext von Raphael Jans (datiert 26.04.2013, Kürzel «130426»), Kernstück des
+Vokabular-Ordners `05_Begriffe` der Sektion `10_Protomodern`. Definiert den namensgebenden
+Leitbegriff des Projekts und ist zugleich zentraler Leitbegriff des gleichnamigen Ordners.
 
-## Definition
+## Begriff (Kern)
 
-«Protofunktional» ist ausdrücklich **nicht** als Vorstufe zum Funktionalismus des 20.
-Jahrhunderts zu verstehen. Es bezeichnet eine Entwurfshaltung, die Architektur nach den
-Qualitäten des erlebten, benutzten Raumes beurteilt — optimale und hierarchische
-Platzverhältnisse sowie deren Lichtstimmung für den vorgesehenen Gebrauch stehen im
-Vordergrund. Im Unterschied dazu stellt der Funktionalismus des 20. Jahrhunderts den rohen
-Ausdruck der architektonischen Elemente nach aussen und ihre Zurschaustellung in den
-Mittelpunkt. Protofunktional kehrt die Blickrichtung um: das optimale Raumphänomen für die
-Nutzer bestimmt die gestalterische Konsequenz der Fassade — die Fassade folgt aus dem
-Innenraumerlebnis, nicht umgekehrt.
+Der Text setzt «protofunktional» ausdrücklich **nicht** als Vorstufe zum Funktionalismus
+des 20. Jahrhunderts, sondern als eigene Entwurfshaltung: Massgebend sind die Qualitäten
+des tatsächlich erlebten, benutzten Raumes — «optimale und hierarchische
+Platzverhältnisse sowie deren Lichtstimmung für den angedachten Gebrauch» — nicht der
+rohe Ausdruck der architektonischen Elemente nach aussen, wie ihn der Funktionalismus des
+20. Jahrhunderts sucht. Die Abgrenzung in einem Satz: nicht die Zurschaustellung der
+Elemente von aussen interessiert, sondern das optimale Raumphänomen für die Nutzenden im
+Innern — die Fassade folgt daraus als gestalterische Konsequenz, sie ist nicht der
+Ausgangspunkt. Protofunktional kehrt damit die Blickrichtung des Funktionalismus um: die
+Fassade folgt aus dem Innenraumerlebnis, nicht umgekehrt.
 
-## Praxisregel
+## Praxisregel/Anwendung
 
-Nützlich als kurze, präzise Formel, um in einer Entwurfsbegründung zu belegen, warum eine
-Fassade aus der Nutzungslogik des Innenraums abgeleitet wurde statt aus einem äusseren
-Gestaltungswillen — Gegenargument zu einer rein bildhaften Fassadenkritik.
+Als Argumentationsfigur einsetzbar, wenn ein Entwurf gegen den Vorwurf verteidigt werden
+soll, seine Fassade sei nicht «ehrlich funktional» genug: die Gegenfrage lautet dann, ob
+die Fassade aus den Platz-, Hierarchie- und Lichtverhältnissen im Innern hergeleitet ist,
+statt der äusseren Erscheinung nachträglich eine Funktionsbehauptung anzuheften. Nützlich
+auch als kurze, präzise Formel in einer Entwurfsbegründung, warum eine Fassade aus der
+Nutzungslogik des Innenraums abgeleitet wurde statt aus einem äusseren Gestaltungswillen —
+Gegenargument zu einer rein bildhaften Fassadenkritik. Verwandt, aber nicht identisch mit
+dem Funktionsbegriff aus [[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]]
+(Architekturtheorie-Vorlesung ETH) — dort fünf historische Lesarten des Funktionsbegriffs,
+hier eine private Gegenposition dazu; beide Artikel ergänzen sich, keine Dublette.
 
 ## Offene Punkte
 
-- Keine; kurzer, in sich geschlossener Begriffstext ohne offene Anschlussfrage.
+- Einzige Quelle ein einzelner, nicht weiter ausgearbeiteter Begriffstext (eine Seite) —
+  `status: emerging` bleibt bis zu einer unabhängigen Zweitbelegung innerhalb des
+  Protomodern-Bestands (nicht gefunden) oder ausserhalb.
+
+<!-- Redaktionsnotiz 02.09.2026: Zusammenführung zweier unabhängig entstandener Fassungen
+     desselben Destillats (Mac Mini 29.08. / NAS-Lauf 30.08., Merge-Konflikt AA bei der
+     Sync-Reparatur 260902). Inhalt beider Fassungen vollständig übernommen. -->

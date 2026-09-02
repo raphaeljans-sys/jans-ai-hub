@@ -170,3 +170,16 @@ Auszählung und Stichprobe der Dateinamen beurteilt, nicht einzeln geöffnet.
 05. **`03 Länder/Indien` ist mit 5.6 GB der grösste Länderordner bei nur 235 Dateien.** Der
     Grössenanteil deutet auf hochaufgelöste Broschüren-Druckdaten, nicht auf mehr Inhalt. Vor
     einer allfälligen Migration wäre zu prüfen, ob die Druckdaten aufbewahrt werden müssen.
+
+## Destillat-Fortschritt
+
+- **29.08.2026 (Lane FACHWISSEN):** beide P1-Positionen destilliert, drei Wiki-Artikel:
+  `wiki/grundrisskompendium-wohnhochhaeuser-eth-hs14.md` und
+  `wiki/zuercher-hochhaus-staedtebau-gespraech-gmuer-meili-peter.md` (beide aus
+  `HS14 Broschüre Wohnhochhaus.pdf`, vollständig gelesen inkl. Warnung zur didaktisch
+  fiktiven Baurechtslockerung in der Aufgabenstellung S. 53) sowie
+  `wiki/neufert-architects-data-fundstelle-bibliothek.md` (reiner Fundstellen-Verweis,
+  kein Inhalts-Digest, da urheberrechtlich geschütztes Standardwerk ohne Textebene). P1
+  dieser Sektion damit **vollständig**. P2 (320 Positionen, v. a. 287 Seminarreise-Reader,
+  INSA-Inventar mit SEALS-Lizenzvorbehalt, Bestandslisten-Kanon Professur Schwartz)
+  bleibt offen. `Passwort.docx` (Zugangsdaten) weiterhin ungeöffnet und gesperrt.

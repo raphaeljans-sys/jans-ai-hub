@@ -202,3 +202,153 @@ Alle übrigen beschriebenen Inhalte sind veröffentlichte oder für die Lehre be
 Fachtexte; Projektdaten Dritter (Bauten mit Architekt- und Ingenieurnennung in der
 Werkschau) sind nur methodisch als Referenzregister benannt und nirgends wörtlich
 wiedergegeben.
+
+## Destillat-Fortschritt
+
+**29.08.2026 (Lane FACHWISSEN, zwölfter Destillat-Lauf Korpus `archiv-fachwissen`).** Alle
+vier P1-Dateien gelesen und zu zwei Sach-Artikeln destilliert:
+
+- `…/Tec21/Grubenmann_Kirchen_Tragwerk.pdf` (vollständig) + `…/Dissertation/eth-20590-02.pdf`
+  (nur Einzelseiten S. 140-141, Fig. 94/96-98; die übrigen 189 Seiten nicht gelesen) →
+  destilliert zu `wiki/grubenmann-kirchen-holzdachstuhl-typologie.md`.
+- `…/00_Administration/02_Daten/Antrittsvorlesung/Schwartz_Einführungsvortrag_20081030_DrT.pdf`
+  + `…/10_Projekte/110928_Reader_Seminarwoche/Texte/eleganz.pdf` → gemeinsam destilliert zu
+  `wiki/tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau.md`.
+
+**Damit ist P1 dieser Sektion vollständig destilliert.** P2 (31 Positionen, siehe Triage
+oben) bleibt offen für einen künftigen P2-Lauf; darunter insbesondere die restlichen
+Knotenpunkt-Seiten der Killer-Dissertation (Verbindung Hängesäule-Untergurt-Längsbinder,
+Streckbalken-Auflager) und das Literaturregister Holzbau. Kein neuer Datenschutz- oder
+Sperrlisten-Fund über den bereits dokumentierten Stand hinaus.
+
+## Destillat-Fortschritt
+
+**30.08.2026 (Lane FACHWISSEN, erster P2-Lauf dieser Sektion).** Zwei P2-Positionen
+gelesen und destilliert:
+
+- `…/03_Vorlesungen/110316_Experimenteller_Tragwerksentwurf/110327_Experimenteller_Tragwerksentwurf.pdf`
+  (vollständig, 3 Seiten) → destilliert zu
+  `wiki/formfindung-experimenteller-tragwerksentwurf-frei-otto-stuttgart21.md` (Methode
+  Selbstbildungsprozess nach Frei Otto, Fallbeispiel Stuttgarter Bahnhof/Stuttgart 21).
+- `…/00_Administration/02_Daten/holzbau.pdf` (vollständig, 7 Seiten; `.xls` nicht separat
+  gelesen, gleicher Inhalt in Tabellenform) → destilliert zu
+  `wiki/literaturregister-holzbau-1876-1993.md`.
+
+29 P2-Positionen dieser Sektion bleiben offen, darunter weiterhin vorrangig die restlichen
+Knotenpunkt-Einzelseiten der Killer-Dissertation (S. 138-144, sieben PDF), das
+Werkschau-Register der Abschlussvorlesung (`TWE IV_Vorlesung_20110513_Abschluss.pptx`,
+135 Folien), die drei Kraftfluss-Darstellungsvarianten desselben Brückenlängsschnitts, das
+Randbedingungs-Muster der Seminarwochen-Aufgabenstellung («Bridging the Gap») und der
+Counterpoise-Erläuterungstext. Kein neuer Datenschutz- oder Sperrlisten-Fund; der
+Sperrvermerk auf Seite 4 des Readers `111002_Reader_alle_Seiten.pdf` wurde erneut beachtet
+(Reader in diesem Lauf nicht angefasst).
+
+## Destillat-Fortschritt
+
+**30.08.2026 (Lane FACHWISSEN, zweiter P2-Lauf dieser Sektion).** Vier P2-Positionen
+gelesen und destilliert:
+
+- Killer-Dissertation, Einzelseiten S. 138-144 (7 PDF, Ordner
+  `.../Dissertation/Einzelseiten/S138_144/` plus `Einzelseiten/eth-20590-02 139.pdf`) —
+  vollständig gelesen (Fig. 95, 99-102; Fig. 94/96-98 waren bereits über die Volltext-Fassung
+  für P1 gelesen). Knotenpunkt-Massangaben (Hauptbinder-Stabpolygon 35.5 m/6.50 m,
+  Querbinder 21.5 m, Hängesäulen-/Streckbalken-Verbindung, Auflagerung Schwellenholz) und der
+  Finanzierungs-Nebenbefund (Verkauf der «Kirchenörter», 62'993 Gulden Erlös) als neue
+  Abschnitte in das bestehende `wiki/grubenmann-kirchen-holzdachstuhl-typologie.md`
+  eingefügt, kein neuer Artikel (gleiches Gebäude, gleiche Quelle).
+- `.../03_Vorlesungen/110513_Abschlussvorlesung/TWE IV_Vorlesung_20110513_Abschluss.pptx`
+  (Bildunterschriften aller 135 Folien ausgewertet, nicht die Bilder selbst) → destilliert zu
+  `wiki/werkregister-tragwerksentwurf-schwartz-architekten-1992-2011.md` (15 Bauten/
+  Wettbewerbe 1992-2011 mit Architekt/Ingenieur/Jahr).
+- `.../00_Administration/02_Daten/Counterpoise.doc` (vollständig) → destilliert zu
+  `wiki/counterpoise-tischtragwerk-erlaeuterungstext-massstabstransfer.md`
+  (Erläuterungstext-Muster Tragwerk als Ausdrucksmittel).
+- `.../Weiteres Material/Bridging the Gap.pdf` + `Aufgabe2.docx` (beide vollständig) →
+  destilliert zu `wiki/aufgabenstellung-randbedingungen-muster-bridging-the-gap.md`
+  (Aufgabenstellungs-Gliederung mit Randbedingungen als eigenem Block).
+
+25 P2-Positionen dieser Sektion bleiben offen: die drei Kraftfluss-Darstellungsvarianten
+desselben Brückenlängsschnitts (reine Bilddiagramme ohne Text, methodisch bereits im
+Kurzbefund oben beschrieben, ein eigenständiger Artikel dazu wäre dünn), die Planserien und
+PLN-Dateien (P3, nicht P2), sowie die 4 Bildscans ohne Textlayer (ArchPlus, Archithese,
+Menn, Starke Strukturen — OCR nötig, siehe Empfehlung oben). Kein neuer Datenschutz- oder
+Sperrlisten-Fund; Sperrvermerk Seite 4 des Readers `111002_Reader_alle_Seiten.pdf` erneut
+beachtet (Reader nicht angefasst).
+
+## Destillat-Fortschritt
+
+**30.08.2026 (Lane FACHWISSEN, dritter P2-Lauf dieser Sektion).** Drei P2-Positionen
+gelesen, zwei destilliert:
+
+- `.../Dissertation/eth-20590-01_abstract.pdf` — Dateiname irreführend: enthält nicht den
+  Abstract, sondern das Schlusskapitel «D. Schluss» der Dissertation (S. 186-190) samt dem
+  vollständigen Werkverzeichnis der Grubenmann-Brücken (ausgeführte Brücken und
+  Brückenprojekte, je mit Jahr und ausführendem Bruder). Vollständig gelesen und zu einem
+  neuen Artikel destilliert: `wiki/grubenmann-brueder-werkverzeichnis-bruecken-schaffhausen.md`
+  (Arbeitsteilung der drei Brüder, Werkverzeichnis-Tabelle, Ende der Dynastie, biografische
+  Kurznotizen).
+- `.../02_Bruecke/Grundlageplaene/Seiten aus Mechel_Drey merkwürdigsten Brücken in der
+  Schweiz_1803.pdf` (vollständig, eine Tafel) → in denselben neuen Artikel eingearbeitet:
+  zeitgenössische Bilddokumentation (Plan/Schnitt/Aufriss) der Schaffhauser Rheinbrücke,
+  Zerstörung 1799 im Krieg dokumentiert, Datierungsdifferenz zwischen französischer und
+  deutscher Bildunterschrift derselben Tafel als offener Punkt vermerkt.
+- `.../Tec21/Einzelseite/Empore_aus_Grubenmann_Kirchen_Tragwerk.pdf` gelesen, aber **nicht**
+  gesondert destilliert: reine Bildunterschriften-Seite (Fig. 11-15) zu bereits im
+  bestehenden Artikel `wiki/grubenmann-kirchen-holzdachstuhl-typologie.md` beschriebenen
+  Knotenpunkten (Hängesäule-Untergurt-Längsbinder, Auflager Querbinder); liefert nur einen
+  zusätzlichen Quellenverweis (SBZ 23/1959, S. 361 zur Emporenkonstruktion) ohne neuen
+  Sachinhalt, deshalb kein Duplikat-Zusatz.
+
+Versuch, den 109-seitigen Reader `111002_Reader_alle_Seiten.pdf` selektiv zu lesen (Seiten
+1-3 und 5-15, unter Auslassung der gesperrten Teilnehmerliste auf Seite 4), scheiterte an
+einer Werkzeuglücke: die Stationswerkzeuge rendern PDF-Seitenbereiche nur über `pdftoppm`
+(Paket `poppler`), das auf dieser Station nicht installiert ist; ohne Seitenbereich ist die
+52-MB-Datei zu gross für einen Einzelaufruf. Neue Formatlücke, siehe `QUESTIONS.md`. Die
+Fundstelle «Modell-Belastungstest» (Ähnlichkeitsgesetz, Bezug Galileo «Discorsi» 1636, vier
+JPG in `Weiteres Material/Skalierung_Modelle/`) bleibt deshalb ungelesen und offen.
+
+22 P2-Positionen dieser Sektion bleiben offen (die drei Kraftfluss-Darstellungsvarianten,
+die 4 textlosen Bildscans, der 109-seitige Reader mit seinen 13 zitierten Quelltexten, das
+Modell-Belastungstest-Blatt, `Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf` sowie die
+Skalierungsmodell-Bilder). Kein neuer Datenschutz-Fund; die CSV/XLSX-Teilnehmerliste in
+`Weiteres Material/` wurde erneut nicht geöffnet (Sperrliste), Sperrvermerk Seite 4 des
+Readers erneut beachtet.
+
+**30.08.2026 (Lane FACHWISSEN, vierter P2-Lauf dieser Sektion).** Werkzeuglücke bei den
+4 als «ohne Textlayer» eingestuften Bildscans revidiert: das Read-Tool dieser Station
+extrahiert Text und Bildinhalt auch aus Scans ohne Textlayer direkt (eigene Rendering-
+Pipeline, unabhängig vom fehlenden System-`pdftoppm`) — funktioniert bei allen vier
+Dateien unter rund 2,5 MB. Alle vier destilliert:
+
+- `08_Archplus_Mit_oder_gegen_Holz.pdf` (ArchPlus 193, 9/2009, Kraft/Schindler) →
+  `wiki/digitale-schreinerei-formfindungstaxonomie-eierschneider-falt-flecht.md`
+  (Vier-Prinzipien-Taxonomie digitaler Holzformfindung, 14 Werkbeispiele).
+- `10_Archithese_Taeler_mit_Holz_ueberspannen.pdf` (Archithese 6.02, Walter Bieler) →
+  `wiki/bieler-holzbruecken-werkregister-graubuenden-ostschweiz.md` (neun Werke,
+  Prinzip Tragwerk-unter-Fahrbahn).
+- `11_Christian_Menn_Reden_und_Aufsaetze.pdf` + `20110930125418873.pdf` (beide vollständig,
+  ETH-Ehrenpromotions-Broschüre: Schlaich-Laudatio, unbezeichneter Fachaufsatz, Menns
+  Verdankung) → `wiki/christian-menn-werkregister-stabbogen-hohlkasten-brueckenbaukultur.md`
+  (Werkregister neun Bauten/Projekte, Stabbogen-vs-Hohlkasten-Argumentation) — gegen den
+  bestehenden Artikel `wiki/tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau.md`
+  geprüft (dort bereits Menn-Eleganzzitat und Letziwaldbrücke über andere Quelle
+  beschrieben), kein Duplikat, da hier Werkregister/Technik statt Eleganzdebatte im
+  Fokus steht.
+- `Weiteres Material/Skalierung_Modelle/` (4 JPG) → nach Sichtung aller vier Bilder
+  vollständig destilliert zu
+  `wiki/modellstatik-aehnlichkeitsgesetz-struktur-modell-skalierung.md`
+  (Ähnlichkeitsgesetz-Tabelle Struktur-1:1-vs-Modell-1:x, Galileo-Bezug 1636, zwei
+  unbeschriftete Belastungsversuch-Fotos).
+
+Erneuter Versuch, den 109-seitigen `111002_Reader_alle_Seiten.pdf` selektiv mit
+Seitenbereich zu lesen: schlägt weiterhin fehl, diesmal mit expliziter Fehlermeldung
+`pdftoppm is not installed` — bestätigt, dass die native Rendering-Pipeline des Read-Tools
+nur bei kleinen Einzeldateien ohne Seitenbereichs-Parameter greift, bei grossen Dateien mit
+Seitenbereich aber auf das fehlende System-`poppler` zurückfällt. Bleibt offen
+(`QUESTIONS.md` #72 unverändert gültig).
+
+18 P2-Positionen dieser Sektion bleiben offen: die drei Kraftfluss-Darstellungsvarianten
+(weiterhin als eigenständiger Artikel zu dünn, Methode bereits im Kurzbefund beschrieben),
+der 109-seitige Reader mit seinen 13 zitierten Quelltexten (Werkzeuglücke), sowie
+`Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf` (P3, nicht P2). Kein neuer
+Datenschutz-Fund.

@@ -3,7 +3,7 @@ title: "Standort- und Platzanalyse: Methodik in drei Ebenen (Fallbeispiel Turbin
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/20_Rendering/TURBINENPLATZ_Stadtanalyse_A_G_M.pdf (13 S., FS 2010)", "raw/inventar/buero-referenzen__20_Rendering.md Abschnitt 6"]
-links: ["[[strategisches-entwerfen-systematik-etappenprojekte]]"]
+links: ["[[strategisches-entwerfen-systematik-etappenprojekte]]", "[[ortsanalyse-raster-plananalyse-platzanalyse-lampugnani]]"]
 ---
 
 # Standort- und Platzanalyse: Methodik in drei Ebenen

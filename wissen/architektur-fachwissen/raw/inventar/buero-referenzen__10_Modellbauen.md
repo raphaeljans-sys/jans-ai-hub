@@ -222,3 +222,52 @@ recherchieren.
 
 Damit sind alle 12 P1-Positionen dieser Sektion destilliert (6 Fundstellen, vier Artikel nach
 Sache statt Datei). P2 bleibt offen für einen späteren Lauf.
+
+## Ergänzung 2026-08-30 (erster P2-Lauf, Lane FACHWISSEN)
+
+- `10_Betonmodelle/02_Kerez_Recherche/020328 Infos Modell/020419 Tips Nicolas.doc` gelesen und
+  gegen die drei P1-Betondokumente abgeglichen (Auftrag aus Zeile oben): eine unabhängige
+  dritte Bestätigung der «tepafit»-Schalungsauskleidung, zwei nicht anderweitig belegte
+  Angaben (Möbelöl-Trennmittel auf Holzschalung, drittes Mischverhältnis
+  5 Zement : 9 Keraflott : 1 «Keraq» mit Vorbehalt) → als eigener Abschnitt in
+  `wiki/modellbeton-fehlerkatalog-schalung.md` ergänzt (keine neue Datei).
+- `03_Modellbaudokumente/04_Bestellungen/Bestellung_für_Herzog.doc` gelesen. Feldschema
+  destilliert, Personen-/Kontaktdaten des historischen Einzelfalls bewusst nicht übernommen
+  (Sperrliste-Nähe) → `wiki/bestellvorlage-modellbaumaterial-zuschnitt.md`, neu.
+- `03_Modellbaudokumente/02_Modellbauplan/Rhino_Schnittmuster/100316 model corridor.pdf`
+  vollständig gelesen (`pypdf`): reine Bemassungs-/Teilenummern-Grafik ohne Fliesstext (Zahlen
+  1–12 als Teile-Referenzen), kein über die Triage-Zeile hinausgehender Destillationsertrag —
+  bewusst kein Artikel (Delta-Ehrlichkeit).
+- Nicht bearbeitet in diesem Lauf: `03_Modellbaudokumente/01_Werkstoffe/` (Materialien-Fragment,
+  INDD ungeprüft), `02_Modellbauutensilien/Profilitwand_Vorlagen/` (Vektorgeometrie, kein Text),
+  `Schmiede_Modell.pln`/`.vwx` (CAD ungeöffnet), `03_Werkstoffliste/Voll/` S2-Design-Fremdvorlage
+  (Kundendaten, nicht ausgangsfähig), die beiden Betondecke-Fotoserien (Bildbeleg ohne eigenen
+  Text). Rest der 89 P2-Positionen bleibt offen für einen Folgelauf.
+
+## Ergänzung 2026-08-30 (zweiter P2-Lauf, Lane FACHWISSEN)
+
+Die beiden vom Vorlauf offen gelassenen, mit dem Read-Tool tatsächlich prüfbaren Positionen
+geöffnet (kein Word/InDesign/Illustrator nötig):
+
+- `03_Modellbaudokumente/01_Werkstoffe/PDF/Materialien.pdf` vollständig gelesen: eine einzige
+  Seite, exakt der bereits in `wiki/werkstoffliste-modellbau-vorlage.md` bzw. Inventar-Abschnitt
+  „Was die Sektion NICHT hergibt" zitierte Preisvergleich (master wood 8 mm, Herzog-Elmiger
+  18.50 CHF/m² gegen Coop Bau+Hobby 32.00 CHF/m²), Rest der Seite leer. Kein neuer Fakt — das
+  „Fragment" ist bereits vollständig destilliert, das INDD trägt nachweislich nichts zusätzlich
+  Erschliessbares (PDF-Export ist die vollständige Textebene). `stand_herzog_elmiger.gif`
+  gelesen: ein reiner Anfahrtsplan (A2-Ausfahrt), kein Fachinhalt. Position damit **abschliessend
+  geprüft, kein Artikel** (Delta-Ehrlichkeit).
+- `02_Modellbauutensilien/Profilitwand_Vorlagen/060215_Profilit_M10.pdf` stellvertretend für die
+  Gruppe (12 PDF, 4 AI) mit dem Read-Tool geöffnet: reine Vektorgrafik, grüne Streifen ohne jede
+  Bemassung, Beschriftung oder Massstabsangabe auf der Seite selbst. Bestätigt die Inventar-
+  Einschätzung „kein extrahierbarer Text" — auch visuell kein Fakt gewinnbar. Position
+  **abschliessend geprüft, kein Artikel**.
+
+**Damit sind von den verbleibenden P2-Positionen dieser Sektion nur noch dauerhaft blockierte
+übrig:** `Schmiede_Modell.pln`/`.vwx` (kein ArchiCAD/Vectorworks-Werkzeug auf dieser Station),
+`03_Werkstoffliste/Voll/` S2-Design-Fremdvorlage (Kundendaten Dritter, Provenienz bereits
+anonymisiert in `wiki/werkstoffliste-modellbau-vorlage.md` vermerkt, Inhalt bleibt gesperrt),
+zwei Betondecke-Fotoserien (54 Bilder, reines Bildmaterial ohne Fliesstext, als Beleg zu
+`wiki/modellbeton-fehlerkatalog-schalung.md` bereits im Fliesstext erwähnt). **P2 dieser Sektion
+gilt damit als abgearbeitet**, bis eines der Werkzeuge (ArchiCAD/Vectorworks-Viewer) verfügbar
+wird — kein weiterer Folgelauf nötig, ausser bei neuem Werkzeug.

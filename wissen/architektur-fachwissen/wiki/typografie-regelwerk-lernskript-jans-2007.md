@@ -1,8 +1,8 @@
 ---
 title: "Typografie-Regelwerk: Makro-/Mikro-Typografie mit Plakat-Schriftgrössen (Lernskript Jans, 2007)"
 status: emerging
-last_updated: 2026-08-29
-sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/01_Architektur_darstellen/04_Layout/03_Checklisten/Typografie.pdf (2 S., Fusszeile «2007 © Lernskript Jans Typografie 1», Eigenmaterial)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/01_Architektur_darstellen/04_Layout/03_Checklisten/Typografische Verbesserung der Plakatdarstellung Park.doc (Projektanwendung Park & Ride Erstfeld, 12.07.2007, inhaltlich identisch mit dem Lernskript plus Rückfragen an Markus Käch)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/01_Architektur_darstellen/04_Layout/01_Satzspiegel_Booklet/Mueller/Merkblatt10_Layout_Satzspiegel.pdf (Merkblatt 10 «Layout/Satzspiegel», © Cut & Paste, Christian Müller & Barbara Dubs, IT-Tools HTA Luzern, 2008 — urheberrechtlich geschütztes Drittmaterial, hier sinngemäss)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/01_Architektur_darstellen/04_Layout/02_Produktion_INND/Indesign_Projekte.pdf (S. 44-52, Produktionsablauf)", "raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md Abschnitt «Was hier für JANS drinsteckt» Punkt 1"]
+last_updated: 2026-08-31
+sources: ["/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/01_Architektur_darstellen/04_Layout/03_Checklisten/Typografie.pdf (2 S., Fusszeile «2007 © Lernskript Jans Typografie 1», Eigenmaterial)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/01_Architektur_darstellen/04_Layout/03_Checklisten/Typografische Verbesserung der Plakatdarstellung Park.doc (Projektanwendung Park & Ride Erstfeld, 12.07.2007, inhaltlich identisch mit dem Lernskript plus Rückfragen an Markus Käch)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/01_Architektur_darstellen/04_Layout/01_Satzspiegel_Booklet/Mueller/Merkblatt10_Layout_Satzspiegel.pdf (Merkblatt 10 «Layout/Satzspiegel», © Cut & Paste, Christian Müller & Barbara Dubs, IT-Tools HTA Luzern, 2008 — urheberrechtlich geschütztes Drittmaterial, hier sinngemäss)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/01_Architektur_darstellen/04_Layout/02_Produktion_INND/Indesign_Projekte.pdf (S. 44-52, Produktionsablauf)", "/Volumes/daten/02_Architektur_Archiv/02_Gestalt_Kulturverstaendnis/01_Architektur_darstellen/04_Layout/00_Typografie/Typografie.pdf (40 S., HTA Luzern/FHZ Abteilung Architektur, W. Voney/C. Müller, «Typografie — was sie soll und nicht soll», 11.11.2005 — urheberrechtlich geschütztes Drittmaterial, hier sinngemäss)", "raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md Abschnitt «Was hier für JANS drinsteckt» Punkt 1"]
 links: ["[[layout-vorgehensmodell-fragestunde-satzspiegel-produktion]]"]
 ---
 
@@ -18,6 +18,49 @@ Ride Erstfeld», 12.07.2007) — dort mit denselben Regeln plus einer Liste offe
 Rückfragen an einen Markus Käch, was zeigt, dass das Regelwerk aus einer betreuten
 Ausbildungssituation (vermutlich HTA Luzern) stammt, auch wenn nur die Ergebnisliste,
 nicht die Vorlesung selbst, mit «Lernskript Jans» gekennzeichnet ist.
+
+## Herkunft bestätigt: die HTA-Luzern-Vorlesung selbst
+
+Die Herkunftsvorlesung ist gelesen: `00_Typografie/Typografie.pdf`, 40 Folien, «FHZ —
+Fachhochschule Zentralschweiz, HTA — Hochschule für Technik+Architektur Luzern,
+Abteilung Architektur», Titel «Typografie — was sie soll und nicht soll», Dozenten W.
+Voney und C. Müller, datiert 11.11.05. Der Abgleich bestätigt die Herkunft der
+Zahlenreihe **wortgleich**, nicht nur sinngemäss: Folie 19 nennt exakt «Aufmacher
+100pt», «Titel 40-80pt», «Aufzählungen und Text 24-40pt», «Keine Texte kleiner als
+18pt» sowie «Immer gleiche Schriftgrössen verwenden», «Maximal drei verschiedene
+Grössen auf einer Seite» — identisch mit dem Lernskript von 2007. Auch die
+Mikro-Typografie-Liste (Folie 38: Schriftgrössen, Zeichen-/Wort-/Zeilenabstände,
+Buchstabenbilder, Trennungen, Laufweite) und die Makro-Typografie-Liste (Folie 39)
+stammen wortgleich aus dieser Vorlesung.
+
+**Begriffsherkunft** (Folien 4–5): Typo leitet sich vom griechischen *tipos* her
+(Schlag, Abdruck, Figur, Typ), grafie von *gráfin* (malen, schreiben, ritzen).
+
+**Makro-/Mikro-Unterscheidung mit Autor belegt** (Folie 39): Die in diesem Artikel
+verwendete Zweiteilung Makro-/Mikro-Typografie stammt laut Vorlesungsfolie von **Hans
+Peter Willberg**. Makrotypografie umfasst Gesamtkonzeption, Format, Satzspiegel,
+Gliederung, Verhältnis Schrift zu Bild, Schriftwahl und Auszeichnungen; Mikrotypografie
+die Gestaltung des Satzes zwischen Buchstaben und Zeichen, Wörtern und Zeilen (Folie
+38).
+
+**Antiqua vs. Grotesk** (Folien 10–13, nicht im Lernskript von 2007 enthalten, aber
+Grundlage jeder Schriftwahl): Antiqua bezeichnet im engeren Sinn serifenbehaftete
+Schriften mit gerundeten Bögen (Gegensatz zu Grotesk), im weiteren Sinn den
+Gegenentwurf zu gebrochenen Schriften; Antiqua-Mischformen sind die heute meistgenutzten
+Druck- und Schreibschriften für westliche Sprachen (Beispiele der Folie: Book Antiqua,
+Palatino, Sylfaen, Bitstream, Times). Grotesk (Serifenlose Linear-Antiqua, engl. Sans
+Serif) ist eine aus der Antiqua abgeleitete Schriftart mit nahezu gleichmässiger
+Strichstärke ohne Serifen (Beispiele: Helvetica, Arial, Impact, Verdana, Arial Narrow).
+Die erste Grotesk wurde 1816 von William Caslon IV veröffentlicht, ab 1832 als plakative
+Anzeigenschrift in England verbreitet; hundert Jahre später erlebte sie mit dem
+Bauhaus, Jan Tschicholds «Neuer Typographie» und Paul Renners Futura ihren endgültigen
+Durchbruch (Folie 22, mit Tschichold-Zitat: die Grotesk sei «die einzige, die unserer
+Zeit gemäss ist»). Die Univers-Schrift wurde 1956 von Adrian Frutiger entworfen (Folie
+16).
+
+**Weiterführende Literatur der Vorlesung** (Folie 40, für vertiefte Nachschlagefragen):
+Ralph Turtschi, *Praktische Typografie*, Niggli Verlag Sulgen 1996; Willi Kunz,
+*Typografie: Makro- + Mikro-Ästhetik*, Niggli Verlag Sulgen 1998.
 
 ## Aufgabe der Typografie
 
@@ -104,9 +147,6 @@ heutige JANS-Dokumentstandard vorschreibt — die Grundhaltung ist seit 2007 sta
 
 ## Offene Punkte
 
-- Die Herkunftsvorlesung selbst (`01_Architektur_darstellen/04_Layout/00_Typografie/
-  Typografie.pdf`, 40 S., laut Phase-0-Inventar eine HTA-Luzern-Vorlesung «Typografie —
-  was sie soll und nicht soll») ist in diesem Lauf nicht gelesen worden; sie könnte die
-  Herkunft der Zahlenreihe zusätzlich verifizieren oder relativieren.
 - Nicht geprüft, ob die Plakat-Schriftgrössen für andere Plakatformate (A0 vs. A1) oder
-  für Bildschirmpräsentationen unverändert gelten — die Quelle nennt kein Bezugsformat.
+  für Bildschirmpräsentationen unverändert gelten — keine der beiden Quellen nennt ein
+  Bezugsformat.

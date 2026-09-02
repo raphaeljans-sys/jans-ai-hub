@@ -3,7 +3,7 @@ title: "eBKP-H 2012: Bezugsgrössen-Kürzel-Tabelle (Mengendefinitionen)"
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/02_Architektur_Archiv/03_Bauprozesse_I_II/03_Kostenplanung/04_eBKP_H/00_Unterlagen/00_Bezugstabelle_Groessen_eBKP_H_de.pdf (CRB, Volltext gelesen 29.08.2026)", "raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md Abschnitt 5"]
-links: ["[[ebkp-h-2012-musterbeispiel-haus-im-forst-drei-genauigkeitsstufen]]"]
+links: ["[[ebkp-h-2012-musterbeispiel-haus-im-forst-drei-genauigkeitsstufen]]", "[[ebkp-h-2012-gliederungslogik-elementarten-oak-eak-kataloge]]"]
 ---
 
 # eBKP-H 2012: Bezugsgrössen-Kürzel-Tabelle

@@ -71,7 +71,7 @@ Adress- oder Honorardaten. Die vorkommenden Personennamen sind öffentliche Fach
 | `09_Die_athmospherische_Stadt/Eine Stadt ist mehr als eine Galerie.pdf` | P2 | ETH-Life-Interview mit M. Šik zum Schweizer Pavillon der Biennale 2012, Stichwort «dialogischer Städtebau» und Ensemble statt Objekt. Belegt den in `Konzept_Protomodern.docx` gesetzten Ausgangspunkt der «protomodernen Bewegung». Gelesen. |
 | `Seiten aus 13_FS_Alles_ist_Umbau_caruso2013FSreaderstudio.pdf` | P2 | Auszug aus dem Semester-Reader «Alles ist Umbau» (Caruso, FS 2013): C. Ruhl über Rossi, Sedlmayr und Quaroni, Stadt als ready made und der Architekt als «homo poeticus». Gelesen. |
 | Elf weitere eigene Kurz-DOCX (Religiöses/Politisches in der Architektur, Kulturaustausch, Der heterogene Ort, Panofsky-Liste, Protorenaissance, Tabubruch, Klassiker für die Protomoderne, Lampugnani-Grundsätze u. a.) | P2 | Teils nur ein bis drei Sätze, aber pointiert: etwa «Architektur kann die Probleme einer Gesellschaft nicht lösen, sie kann sie nur abbilden» oder der Lampugnani-Merksatz «Bevor du dein Haus entwirfst, entwirfst du seine Umgebung». Material für Artikel, nicht selbst schon einer. Alle gelesen. |
-| Begriffsblätter aus Wikipedia/Wiktionary (Anthropomorphismus, Capriccio, Pasticcio, Epitome, Form follows function, Shaker-Religion, Protogeometric Art) und die Sgraffito-Sammlung `cntmng*.pdf` | P2 | Nachschlagestand von 2012/2013, für den Wortschatz der Sektion angelegt. Vor Verwendung gegen eine belastbare Quelle prüfen; als Hinweis auf die Begriffsarbeit wertvoll. |
+| Begriffsblätter aus Wikipedia/Wiktionary (Anthropomorphismus, Capriccio, Pasticcio, Epitome, Form follows function, Shaker-Religion, Protogeometric Art) und die Sgraffito-Sammlung `cntmng*.pdf` | P2 | Nachschlagestand von 2012/2013, für den Wortschatz der Sektion angelegt. Vor Verwendung gegen eine belastbare Quelle prüfen; als Hinweis auf die Begriffsarbeit wertvoll. Alle sieben Begriffsblätter und die Sgraffito-Quelle gelesen (67. Lauf, 30.08.2026) → [[begriffsapparat-protomodern-capriccio-piranesi-shaker-sgraffito-weilenmann]]: Capriccio (Piranesi-Anschluss) und Shaker-Religion (dokumentierter Arts-and-Crafts/Moderne-Bezug) sowie der Sgraffito-Zeitschriftenaufsatz (Weilenmann, Das Werk 1920) ergaben belegten Inhalt; Anthropomorphismus, Pasticcio, Epitome und Protogeometric Art blieben generisch/ohne Architektur-Bezug im Quelltext bzw. wurden vom Klassifikator selbst als „Ungueltig" abgelegt, Form follows function (Wikipedia) ist Dopplung des bereits bestehenden Di-Stefano-Artikels. **Gelesen, destilliert.**
 | Gescannte Fachquellen ohne Textebene: Kollhoff «Tektonik» (10 S.), Owen Jones «Renaissance Ornament» (10 S.), Uhde «Konstruktion und Konstruktionsformen der Architektur, Band 4 Holzbau» (60 S., 137 MB), Alberti aus dem Lampugnani-Quellentextband (20 S.), Caruso «Der Putz» (arhi/SIA 2012), «Moderne Baukunst» (254 S.), «Architekturschulen» (97 S.), «Texte Collage City» (27 S.) | P3 | Substanzielle Primär- und Sekundärquellen, aber ohne OCR nicht durchsuchbar (0 bis 20 Zeichen Textausbeute gemessen). Hoher Archivwert, Nutzung erst nach OCR. Nicht gelesen, nur gemessen. |
 | Präsentationsfolien-Auszüge («Seiten aus …» zu Eisenman/Transparenz, Praes-Ath3 Schatten, FS2013 Aufklärung, Michelangelo Laurenziana, Millet/Liebermann, Goethe Verona Kolosseum, Betontag Dudler, Du Nr. 525) | P3 | Einzelseiten aus Vorlesungspräsentationen, als Bildbeleg an der jeweiligen These abgelegt. Ohne den Vortrag nur begrenzt lesbar; `Du Nr. 525` liegt zweifach identisch. |
 | `00_Allgemein/00_Titelbild/130501_Titelbild_Protomodern.indd` + PDF, `140208_Fuenf_Punkte_einer_neuen_Architektur.pln`, `WEISSBUCH_STADT_LUZERN.pdf`, `Program_Spring 2014_Metropolis.pdf`, `Keiller_London.pdf` | P3 | Produktions- und Kontextdateien des Buchprojekts: Layoutvorlage mit elf Titelvarianten als Ordnernamen, eine ArchiCAD-Datei zu den fünf Punkten, dazu Programmblätter fremder Publikationen und Kurse. Belegen die Absicht, nicht den Inhalt. |
@@ -152,3 +152,151 @@ Fund (keine Verträge, Adressen, Honorar-/Gesundheitsdaten). **Sektion `10_Proto
 damit vollständig abgeschlossen.** P2 (33 Positionen: Sullivan-Ornament-Konvolut,
 Rowe/Koetter Collage City, Šik-Interview, elf weitere Kurz-DOCX, Begriffsblätter,
 Sgraffito-Sammlung) bleibt offen für einen künftigen Lauf.
+**Sechster Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern` — 29.08.2026
+(Lane FACHWISSEN, Fortsetzung).** Alle 13 P1-Positionen destilliert, alle 13 Primärquellen im
+Original gelesen (docx via `textutil`, PDF via PyMuPDF). Elf Wiki-Artikel nach Sache statt
+Datei (zwei Dateipaare sachlich zusammengefasst: Konzept+Professureinteilung,
+Fassadenprogrammtext+Laon-Fassadenbeschreibung), alle `status: emerging`:
+
+- [[protomodern-projektrahmen-professurenlandkarte]] — Projektidee/Zeitrahmen
+  (`Konzept_Protomodern.docx`) + Professuren-Landkarte Modern/Proto Modern (`Modern.docx`)
+- [[protofunktional-begriff-abgrenzung-funktionalismus]] — Leitbegriff der Sektion
+- [[fuenf-punkte-gegenmanifest-corbusier-jans]] — Fünf-Punkte-Gegenmanifest zu Le Corbusier
+- [[atmosphaeren-methode-ortsanalyse-hardware-software-erlebnis]] — Hardware-/Software-Erlebnis,
+  Phänotyp-Gleichung
+- [[backstein-materialargumentation-zwei-ausdrucksarten]] — Ziegelstein: homogene Wandmasse
+  gegen sprechenden Einzelstein
+- [[fassadenbeschreibung-methode-laon-rossi-analogie]] — Rossi-Analogie + Laon-Fassaden-
+  beschreibung als Beschreibungsmuster
+- [[kerez-forsterstrasse-einkleidung-gegen-semper-stoffwechseltheorie]] — Einkleidung statt
+  Bekleidung, Umkehrung Sempers Stoffwechseltheorie
+- [[bauen-im-bestand-haltungstext-die-stadt-war-vor-uns-da]] — Gast-Gleichnis
+- [[rohbauaesthetik-fassadenverteidigung-fussballstadion-zuerich-adi-meyer]] — «andere Form
+  von Schatten, nicht andere Form von Form» (Adi Meyer, Vortragsmitschrift)
+- [[entwurfs-phasenmodell-leitidee-iterativ]] — Skizze als Absichtserklärung
+- [[regel-und-ausnahme-stadtentwicklung-schett-jahreskurs]] — Mechanik des Stadtwachstums,
+  Ausnahme bestätigt die Regel (Wolfgang Schett, Fremdtext, urheberrechtlich geschützt)
+
+**Sperrlisten-Prüfung:** kein Fund. Sektion enthält laut Kurzbefund keine Verträge,
+Bewerbungen, Personaldossiers, Adress- oder Honorardaten; vorkommende Personennamen sind
+öffentliche Fachpersonen (ETH-Professuren, Vortragende, Seminarteilnehmende mit Pseudonym) im
+Rahmen einer Lehr-/Theoriearbeit. Pseudonyme aus der Laon-Mitschrift (z. B. «kleiner
+Schwule», «Tunte, Nazischuhe») bewusst nicht in einen Artikel übernommen.
+
+**Urheberrecht:** Der Fremdtext Schett (`04_Texte/00_ugueltig/Schett_120709_...pdf`) sowie die
+Vortragsmitschrift Adi Meyer wurden sinngemäss mit Fundstelle wiedergegeben, keine grösseren
+Passagen wörtlich übernommen (kurze, gekennzeichnete Kernformulierungen ausgenommen, analog
+zum bereits etablierten Verfahren bei Architektenzitaten in `02_Gestalt_Kulturverstaendnis`).
+Eigene Texte von Raphael Jans wurden teils wörtlich zitiert, da kein Drittrecht betroffen ist.
+
+**P2 (33 Positionen) bleibt vollständig offen** — u. a. das Ornament-Forschungskonvolut
+(Sullivan/Di Stefano/Kamphans), das Rowe/Koetter-«Collage-City»-Konvolut, das Šik-Interview,
+der Caruso-Reader-Auszug, elf weitere kurze Eigen-DOCX sowie die Wikipedia-/
+Wiktionary-Begriffsblätter. **Damit ist Sektion `10_Protomodern` für P1 vollständig
+destilliert.** Nächste Position gemäss `wiki/INDEX.md` «Sektionen nach Ertrag»:
+`02_Architekturgeschichte` (11 P1) oder `02_Kunst_Geschichte` (11 P1, sehr dünn im Verhältnis
+zum Gesamtbestand).
+
+**Erster P2-Lauf 30.08.2026 (Lane FACHWISSEN).** Zwei der sieben P2-Zeilen des
+Ornament-Forschungskonvoluts (Zeile «Di Stefano» und Zeile
+«Sullivan-Ornament+Kamphans+Handout») vollständig im Original gelesen (PyMuPDF für die drei
+PDF, `textutil` für die Kamphans-DOCX) und destilliert:
+
+- `2.3 Di Stefano.pdf` (Elisabetta di Stefano, Wolkenkuckucksheim 32/2012) → **erledigt** →
+  [[form-follows-function-genealogie-sokrates-vitruv-alberti-greenough-sullivan]]
+- `Sullivan-Ornament in Architecture.pdf` (1892) + `Dissertationsvorhaben Stefan
+  Kamphans.docx` + `V_20100520-Ornament-Handout.pdf` (Hildebrand, ETH-Vorlesung) →
+  **erledigt** →
+  [[sullivan-ornament-emotionale-ausdruckstheorie-1892-herzog-de-meuron-rueckkehr]]
+
+Beide Artikel `status: emerging`, gegen die bestehenden Ornament-Artikel
+([[ornament-decorum-angemessenheit-loos-semper-riegl]],
+[[loos-ornament-und-verbrechen-argumentationsgang-kleidungs-analogie]],
+[[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]]) geprüft — kein Duplikat,
+verlinkt. Sperrlisten-Prüfung: kein Fund (Fachaufsatz, historisches Originalzitat,
+Dissertationsexposé einer fremden Autorenschaft, urheberrechtlich sinngemäss mit
+Fundstelle wiedergegeben statt grossflächig zitiert).
+
+**31 der 33 P2-Positionen bleiben offen**: das Rowe/Koetter-«Collage-City»-Konvolut, das
+Šik-Interview, der Caruso-Reader-Auszug, elf weitere kurze Eigen-DOCX sowie die
+Wikipedia-/Wiktionary-Begriffsblätter plus Sgraffito-Sammlung. Nächster Lauf: Rowe/Koetter
+«Collage City» (5 PDF, `04_Texte/00_ugueltig/Rowe_Colin_Collage_City/`).
+
+**Zweiter P2-Lauf 30.08.2026 (Lane FACHWISSEN).** Das Rowe/Koetter-«Collage-City»-Konvolut
+vollständig gelesen (PyMuPDF, alle 5 PDF): `collage-ref.pdf` und
+`collage-ref_zusammenfassung.pdf` sind ein MD5-Duplikat (identischer Text, Zusammenfassung
+Georg Fast 2004), verbleiben also 4 inhaltlich eigenständige Lesenotizen zum selben Buch
+(Fast 2004, «Alex» undatiert, M. Henggeler 2007 nur Kapitel 2, unbekannte Verfasserschaft mit
+allen vier Kapiteln). Zu einem Artikel verdichtet → **erledigt** →
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]] (`status: speculative`, keine
+Quelle ist der Originaltext). Gegen bestehende Artikel geprüft — kein Duplikat, verlinkt mit
+[[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]] und
+[[rossi-analoge-architektur-typus-piranesi-eth-lehrzeit]]. Sperrlisten-Prüfung: kein Fund
+(publizierter Fachtext plus studentische Sekundärlesungen, keine Personendaten). Damit sind
+**30 der 33 P2-Positionen** dieser Sektion offen: das Šik-Interview, der Caruso-Reader-Auszug,
+elf weitere kurze Eigen-DOCX sowie die Wikipedia-/Wiktionary-Begriffsblätter plus
+Sgraffito-Sammlung. Nächster Lauf: Šik-Interview `09_Die_athmospherische_Stadt/Eine Stadt ist
+mehr als eine Galerie.pdf` (ETH-Life, kurz, schnell erschliessbar).
+
+**Dritter P2-Lauf 30.08.2026 (Lane FACHWISSEN).** `09_Die_athmospherische_Stadt/Eine Stadt
+ist mehr als eine Galerie.pdf` (ETH-Life-Interview mit Miroslav Šik, 10.05.2012, 3 Seiten)
+vollständig gelesen (PyMuPDF) und destilliert → **erledigt** →
+[[sik-dialogischer-staedtebau-ensemble-schweizer-pavillon-biennale-2012]] (`status:
+emerging`). Kernaussagen: Begriff «dialogischer Städtebau», Ensemble-These gegen
+Objektarchitektur («Eine Stadt ist mehr als eine Galerie»), Ausstellungskonzept Schweizer
+Pavillon Biennale 2012 mit Miller & Maranta und Knapkiewicz & Fickert, biografische
+Eckdaten. Gegen Wiki-Bestand geprüft (`grep -rli "šik\|sik\b\|ensemble"`): kein
+inhaltlicher Duplikat-Fund, verlinkt mit
+[[protomodern-projektrahmen-professurenlandkarte]] (dort bereits als «Proto Modern»-Name
+gelistet) und [[regel-und-ausnahme-stadtentwicklung-schett-jahreskurs]]. Sperrlisten-
+Prüfung: kein Fund (publiziertes Interview, öffentliche Fachperson, keine
+Personendaten). Damit sind **29 der 33 P2-Positionen** dieser Sektion offen: der
+Caruso-Reader-Auszug, elf weitere kurze Eigen-DOCX sowie die Wikipedia-/
+Wiktionary-Begriffsblätter plus Sgraffito-Sammlung. Nächster Lauf: Caruso-Reader-Auszug
+(`Seiten aus 13_FS_Alles_ist_Umbau_caruso2013FSreaderstudio.pdf`).
+
+**Vierter P2-Lauf 30.08.2026 (Lane FACHWISSEN).**
+`Seiten aus 13_FS_Alles_ist_Umbau_caruso2013FSreaderstudio.pdf` (Aufsatz Carsten Ruhl,
+Semester-Reader «Alles ist Umbau», Caruso-Studio FS 2013, S. 166-167) vollständig gelesen
+(PyMuPDF) und destilliert → **erledigt** →
+[[ruhl-rossi-sedlmayr-quaroni-stadt-ready-made-homo-poeticus]] (`status: emerging`).
+Kernaussagen: Sedlmayrs Verfallsdiagnose gegen Rossis Gegenlesart, Stadt als «ready made»,
+Quaronis Architekt als «homo poeticus», disegno-Begriff, Bezug zu Rossis «L'architettura
+della città» (1966). Fragment (bricht bei Fussnote 46 ab), keine Gesamtargumentation.
+Gegen Wiki-Bestand geprüft (`grep -rli "quaroni\|sedlmayr\|homo poeticus\|ready made\|ruhl"`):
+kein Duplikat-Fund, verlinkt mit
+[[rossi-analoge-architektur-typus-piranesi-eth-lehrzeit]] und
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]]. Sperrlisten-Prüfung: kein
+Fund (publizierter akademischer Aufsatz, keine Personendaten). Damit sind **28 der 33
+P2-Positionen** dieser Sektion offen: elf weitere kurze Eigen-DOCX sowie die Wikipedia-/
+Wiktionary-Begriffsblätter plus Sgraffito-Sammlung. Nächster Lauf: die elf kurzen
+Eigen-DOCX (Religiöses/Politisches in der Architektur, Kulturaustausch, Der heterogene
+Ort, Panofsky-Liste, Protorenaissance, Tabubruch, Klassiker für die Protomoderne,
+Lampugnani-Grundsätze u. a., siehe Zeile 73 oben).
+
+**Fünfter P2-Lauf 30.08.2026 (Lane FACHWISSEN).** Die Zeile 73 («Elf weitere eigene
+Kurz-DOCX») abschliessend geprüft: im Dateisystem finden sich acht eigenständige Kurztexte
+(Religiöses/Politisches, Kulturaustausch, Tabubruch, Klassiker, Lampugnani-Grundsatz,
+Panofsky-Kunsthistoriker-Liste, Protorenaissance-Quellenverweis, Der heterogene Ort) sowie
+zwei weitere Dateien gleichen Titels, die sich bei Volltextvergleich (`diff`) als inhaltlich
+identische Zweitablagen bereits P1-destillierter Quellen erweisen: `05_Begriffe/
+Protofunktional/00_Text/Protofunktional.docx` (Duplikat von `130426_Protofunktional.docx`,
+bereits [[protofunktional-begriff-abgrenzung-funktionalismus]]) und
+`Die_Architektur_der_Athmosphaere.docx` im Wurzelverzeichnis (identisch mit der bereits
+destillierten Fassung in `09_Die_athmospherische_Stadt/`, nur um zwei Kopfzeilen
+«Dachlandschaft: berner altstadt» ergänzt — kein neuer Fakt). Die acht eigenständigen
+Kurztexte vollständig gelesen (`textutil`) und zu einem Sammelartikel verdichtet →
+**erledigt** → [[protomodern-kurzfragmente-religion-politik-klassiker-lampugnani-panofsky]]
+(`status: speculative`, reine Fragment-Sammlung ohne durchgehende Argumentation). Gegen
+Wiki-Bestand geprüft (`grep -rli "lampugnani\|heterogen\|hetrogen\|panofsky\|pevsner"`):
+kein inhaltlicher Duplikat-Fund, verlinkt mit
+[[protomodern-projektrahmen-professurenlandkarte]],
+[[sik-dialogischer-staedtebau-ensemble-schweizer-pavillon-biennale-2012]],
+[[von-moos-lampugnani-kritik-schmierfinken-2011]] und
+[[lampugnani-historisches-stadtzentrum-kulturgut-lehrstueck-dichte]]. Sperrlisten-Prüfung:
+kein Fund (eigene Kurznotizen und Quellenverweise, keine Personendaten). Damit sind **27
+der 33 P2-Positionen** dieser Sektion offen: die Wikipedia-/Wiktionary-Begriffsblätter
+(Anthropomorphismus, Capriccio, Pasticcio, Epitome, Form follows function, Shaker-Religion,
+Protogeometric Art) plus die Sgraffito-Sammlung `cntmng*.pdf`. Nächster Lauf: die sieben
+Begriffsblätter gegen eine belastbare Quelle prüfen (laut Kurzbefund «Nachschlagestand von
+2012/2013»), danach die Sgraffito-Sammlung.

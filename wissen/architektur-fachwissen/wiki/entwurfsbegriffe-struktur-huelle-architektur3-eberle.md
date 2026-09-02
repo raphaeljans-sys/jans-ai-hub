@@ -3,7 +3,7 @@ title: "Entwurfsbegriffe Struktur und Hülle (Vorlesung Architektur III, Profess
 status: emerging
 last_updated: 2026-08-29
 sources: ["/Volumes/daten/04_Buero/10_Referenzenbibliothek/20_Rendering/Architektur III&IV/Architektur III/Handouts/08hs_vl3_struktur2.pdf", "/Volumes/daten/04_Buero/10_Referenzenbibliothek/20_Rendering/Architektur III&IV/Architektur III/Handouts/08hs_vl6_huelle.pdf", "raw/inventar/buero-referenzen__20_Rendering.md Abschnitte 2, 3"]
-links: ["[[strategisches-entwerfen-systematik-etappenprojekte]]", "[[erlaeuterungsbericht-gattungsvorlage-vier-kapitel-diplom2010]]"]
+links: ["[[strategisches-entwerfen-systematik-etappenprojekte]]", "[[erlaeuterungsbericht-gattungsvorlage-vier-kapitel-diplom2010]]", "[[projektstart-checkliste-kontext-programm-tektonik]]"]
 ---
 
 # Entwurfsbegriffe Struktur und Hülle

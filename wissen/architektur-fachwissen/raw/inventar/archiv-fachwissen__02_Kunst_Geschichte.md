@@ -203,3 +203,317 @@ Energietraeger und Energieressourcen, Dezember 2005) ist zwanzig Jahre alt und d
 Der Verweisordner `01_Kunstwissenschaft/04_Kunsthistoriker/siehe_Architekturgeschichte` zeigt,
 dass die eigentliche Architekturgeschichte in einer **anderen** Sektion des Archivs liegt. Wer
 Architekturgeschichte sucht, ist hier falsch.
+
+## Destillat-Fortschritt
+
+**29.08.2026 (Lane FACHWISSEN, achter Destillat-Lauf Korpus `archiv-fachwissen`):** Fünf der
+sechs P1-Positionen destilliert, vier Wiki-Artikel nach Sache statt Datei:
+
+- `00_Allgemein/Kunstanalyse/1.1_Syntax_Einführung_Druck_WS07 32.pdf` → erledigt →
+  [[syntaktik-analyse-raster-design-kunst-architektur-sechs-ebenen]] (`speculative`)
+- `01_Kunstwissenschaft/02_Klausuren/anleitung.htm` (+ analyse.htm, beschreibung.htm als
+  Gruppe benannt, nicht einzeln gelesen) und `Der_Aufbau_einer_Klausur.doc` (Fragestellung
+  Ittig) → erledigt → [[bildanalyse-dreischritt-bestand-komposition-interpretation]]
+  (`emerging`)
+- `00_Allgemein/Kunstanalyse/Strukturierungsmethoden/Methode_der_Kunstgeschichte_Typologie.doc`
+  → erledigt → [[betrachtungsweisen-typologie-quellenmethodik-kunstgeschichte]]
+  (`speculative`); zweite Datei der Gruppe (`Methode_Kunstgeschichte_Quellliteratur.pdf`)
+  nicht einzeln gelesen
+- `02_Bildende_Kunst/00_Allgemein/20_Entwurfsinspirationen/140706_Protomoderne_Maler.docx` →
+  **bewusst nicht destilliert.** Wie im Kurzbefund oben vermerkt («Echo-Schutz-sicherer Teil
+  des Stilkorpus, nicht Fachdestillation»), gehört dieser eigene Stimm-Text von Raphael Jans
+  nicht in diese KB. Gemeldet in `wiki/QUESTIONS.md`, damit ein späterer Lauf ihn an die
+  richtige Stelle (Twin-Harness/Stilkorpus) routet, statt ihn stillschweigend verwaist zu
+  lassen.
+- `10_Einzelwissenschaften/Systemik/10_Semestermaterial/Systemik/Materialien Altbau als
+  Ressource.doc` → erledigt → [[bestand-umbau-argumentationsvorrat-altbau-als-ressource]]
+  (`emerging`)
+- `10_Einzelwissenschaften/Systemik/10_Semestermaterial/Systemik/Idee Bauen_Uebung
+  Vernetzung 20051220.pdf` + `Systemik - Vernetztes Denken in komplexen Situationen.pdf` →
+  erledigt → [[systemische-bauobjektanalyse-wirkungsmatrix-vernetztes-denken]] (`emerging`)
+
+**Damit sind alle sechs P1-Positionen dieser Sektion bearbeitet** (fünf destilliert, eine
+begründet ausgeschlossen). P2 (1'876 Dateien) bleibt vollständig offen. Kein Sperrlisten-Fund
+über die bereits im Kurzbefund vermerkten drei Personendaten-Fundstellen hinaus (diese blieben
+unangetastet).
+
+**30.08.2026 (Lane FACHWISSEN, erster P2-Lauf dieser Sektion, Korpus `archiv-fachwissen`):**
+Stand selbst ermittelt (`KORPUS-QUEUE.md` verweist nach dem 93. Lauf auf diese Sektion als
+nächsten P2-Kandidaten), `scutil` bestätigt Macmini, `ps -eo pid,ppid,command` zeigte genau
+eine laufende Instanz dieser Lane (PID 25192), Working Tree vor Beginn sauber. Zwei
+Zeilen-71-/67-Positionen aus der Triage-Tabelle bearbeitet:
+
+- Zeile 67 `02_Bildende_Kunst/02_Fotografie/01_Architekturfotografie/` (876 Dateien) →
+  **teilweise erledigt.** Die Vorlesungsunterlage `Geschichte_Architekturfotografie.pdf`
+  (10 S., HSLU, J. Ittig, WS 2007) via PyMuPDF gelesen (kein `pdftotext` auf dieser Station)
+  und zu [[architekturfotografie-referenzkanon-alinari-atget-becher-shulman-basilico-sugimoto]]
+  destilliert (32-Positionen-Kanon Alinari 1852 bis Sugimoto 2000). Der begleitende Zweig
+  `02_Fotographenverzeichnis` (rund 40 Fotografenordner) stichprobenweise geprüft
+  (Baan, Basilico, Gursky, Ghirri, Struth): durchweg reine Bilddateien ohne Begleittext; die
+  einzige gefundene Textdatei (Ghirri, Buch «Paesaggio italiano», 123 S.) ist ein Bild-PDF
+  ohne OCR, liefert 0 Zeichen. Dieser Zweig gilt damit als **nicht destillierbar, ohne
+  weiteren Lauf zu benötigen**. Die Vorlesungs-PPT `Architektur.ppt`/`Architektur.pdf`
+  desselben Ordners nicht zusätzlich geöffnet (gleicher Foliensatz wie die PDF, Duplikatrisiko
+  hoch, kein Mehrwert erwartet).
+- Zeile 71 `06_Kuenstlerverzeichnis/Pipilotti_Rist/` (23 Dateien) → **erledigt.** Vier der
+  acht PDF im Unterordner `Stadtlounge/` gelesen (`Projektbeschrieb.pdf` 5 S.,
+  `Umsetzung.pdf` 2 S. mit Milestones-Chronologie Dezember 2002 bis Oktober 2005,
+  `Umsetzung - Testphase für Beläge.pdf` 1 S., `Die Stadtlounge.pdf` 3 S.) → destilliert zu
+  [[stadtlounge-st-gallen-pipilotti-rist-carlos-martinez-kunst-am-bau-studienauftrag-belagstest]]
+  (Studienauftrags-Verfahren mit sechs Teams/18-köpfiger Jury, Entwurfskonzept Loungezonen,
+  Materialisierung Gummigranulat-Teppich, Belagstest 19.11.2004 mit Tiefbauamt). Die vier
+  übrigen Kurz-PDF (Bauphase Porsche, Einbringung Belag, Konstruktion Möbel, Produktion
+  Lampen, je unter 900 Zeichen) sind reine Bildunterschriften ohne zusätzlichen Fliesstext,
+  ihr Inhalt bereits in `Umsetzung.pdf` als Milestone-Liste erfasst — nicht separat
+  ausgewertet. Die neun Zeitungsberichte im Nachbarordner `Zeitungsberichte/` und der
+  Ordner `Programm/` (Exkursionslogistik) bleiben unausgewertet, als offener Punkt in
+  `wiki/QUESTIONS.md` vermerkt.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** weitere
+P2-Positionen dieser Sektion nach Ertrag (Kandidaten laut Triage-Tabelle: Zeile 70
+`01_Kunstwissenschaft/03_Vorlesungen/`, als «konsistent aufgebaut, gut destillierbar»
+vermerkt; Zeile 69 Bühnenbildner-Zweig; Zeile 75 Stilepochen-Zusammenfassung/Hagia-Sophia-
+Chronologie) oder, falls Ertrag dort erschöpft, laut Queue-Regel Prüfung der nächsten
+Sektion mit offenem P2.
+
+- Zeile 70 `01_Kunstwissenschaft/03_Vorlesungen/` (73 Dateien) → **teilweise erledigt.** Drei
+  Vorlesungsreihen im Ordner: Ittig (`Bildsprachen`), Kiss Horvath (`Konzeption: Denk/Werk`),
+  Ursprung (`kunstkarten.pdf`). Kiss Horvath und Ursprung gelesen und destilliert zu
+  [[kiss-horvath-koerper-kontext-skulptur-plastik-sockel-ready-made-ursprung-kunstkarten]]
+  (Skulptur/Plastik-Unterscheidung nach Balkenhol, Sockel-Begriff, Ready-made nach
+  Duchamp/Stauffer, Ursprungs Architektur-Kunst-Referenzkartenliste); zusätzlich Merzbau-
+  Vertiefung (drei Bauten, «Prinzip Merz») aus Kiss Horvaths Ordnung-Chaos-Vorlesung in
+  [[kunst-architektur-autonomie-gesamtkunstwerk-anarchitektur-bilbao-effekt]] ergänzt. Ittigs
+  sechs Themenordner (`Bildsprachen`, PP-Folien plus VN-Dateien) geprüft: die VN-Dateien
+  (`.doc`) sind unkorrigierte, stark fehlerhafte Studierenden-Live-Mitschriften (Tippfehler,
+  Satzfragmente, teils widersprüchliche Datierungen) ohne Quellenbelege für die einzelnen
+  Aussagen — als Zitierquelle zu unzuverlässig, **bewusst nicht destilliert**. Die PP-Folien
+  selbst sind reine Bildunterschriften-Sammlungen (Werk/Jahr/Zitat der abgebildeten
+  Kunstwerke) ohne verbindenden Fliesstext. Einzige potenziell architekturrelevante Notiz aus
+  `06_Gerhard_Richter`-Kontext (Peter Märkli, Bürogebäude Novartis Campus WSJ-157 2006,
+  Kunst-am-Bau-Vorschlag Harald Szeemann/Jenny Holzer) bleibt wegen der unsicheren
+  Quellenlage unbelegt und offen, siehe `wiki/QUESTIONS.md`. Ittigs Ordner damit als **P3
+  bezüglich Direktzitierbarkeit eingestuft, nicht weiter zu bearbeiten**; die Sektion insgesamt
+  bleibt bei Zeile 70 nicht vollständig «erledigt» (Kiss/Ursprung ja, Ittig nein — aber
+  Ittig ist die bewusste Entscheidung, nicht ein offener Rest).
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 69
+Bühnenbildner-Zweig (83 Dateien) oder Zeile 75 Stilepochen-Zusammenfassung/Hagia-Sophia-
+Chronologie, sonst laut Queue-Regel Prüfung der nächsten Sektion mit offenem P2.
+
+- Zeile 69 `02_Bildende_Kunst/07_Buehnenbildner/` (83 Dateien) → **erledigt.** Rund 80 der 83
+  Dateien sind Fotos/Diathek-Scans ohne Fliesstext (Appia, Bibiena-Familie, Bramante, Callot,
+  Popova, Robert Wilson, Schinkel/Hasenpflug u. a., reiner Bildfundus). Einzige Textquelle mit
+  zusammenhängendem Inhalt: die spanischsprachige Webseite der Universidad de Navarra zur
+  Galli-Bibiena-Dynastie (6 Seiten, vollständig gelesen), destilliert zu
+  [[bibiena-familie-barocke-buehnenarchitektur-scena-per-angolo-bayreuth-mantova]]. Das
+  ETH-gta-Ausstellungs-PDF `00_Die_Stadt_als_Buehne/Die Stadt - Die Stadt als Bühne.pdf`
+  gelesen: ein einzelner Absatz ohne weitere Fakten, bereits in der Tabellenzeile
+  wiedergegeben, kein eigener Artikel gerechtfertigt. Zwei Bildvorlagen `Seiten aus
+  TRADITIONALISMUS_UM_1910-27.pdf`/`-28.pdf` (Appia) sind reine Scans ohne Text, geprüft und
+  ohne Ertrag geschlossen. Die `.indd`-Dateien (Appia) sind InDesign-Binärdateien, nicht
+  auswertbar.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 75
+Stilepochen-Zusammenfassung/Hagia-Sophia-Chronologie, sonst laut Queue-Regel Prüfung der
+nächsten Sektion mit offenem P2.
+
+- Zeile 75 `00_Allgemein/Stilepochen/` (8 Dateien) und `532 Hagia Sophia ....docx` →
+  **geprüft, kein Artikel (Delta-Ehrlichkeit).** Alle vier `.doc`-Dateien
+  (`Kunst_nach_1945.doc`, `Künstler.doc`, `Stilrichtung_in_der_Malerei_alphabetisch.doc`,
+  `Kunstgeschichte_Zusammenfassung.doc`) sind reine Gliederungen/Namenslisten ohne
+  Fliesstext (Kapitelstruktur, Künstlernamen, alphabetischer Stilrichtungs-Index) — kein
+  Argument, keine Analyse, nichts Nicht-Triviales über die bereits vorhandene
+  Tabellenzeilen-Beschreibung hinaus. Die beiden PDF im Unterordner `Kunstgeschichte/pdf/`
+  sind Scans desselben Dokuments: ein von Raphael Jans 2008 als HSLU-Lernmittel erstelltes
+  chronologisches Künstlerverzeichnis (Antike bis Gegenwart, rund 150 Namen mit Geburts-/
+  Sterbedaten und Orten je Epoche/Stilrichtung) — eigene Urheberschaft, aber reine
+  Datums-/Namenstabelle ohne Entwurfs- oder Bürobezug, fällt ausserhalb der drei
+  büroverwertbaren Linien dieser Sektion (Kurzbefund oben). `Kunstgeschichte.indd` ist eine
+  InDesign-Binärdatei, nicht auswertbar. `532 Hagia Sophia ....docx` per XML-Extraktion aus
+  dem Docx-Zip geprüft (Tabellenstruktur ging bei `textutil`-Konvertierung nicht verloren):
+  die Tabelle hat nur drei Zeilen (532 Hagia Sophia Konstantinopel/Byzanz/Orthodox/Original,
+  784 Mezquita Cordoba/Umayyaden-Emirat/Islam, 832 San Marco Venedig/Republik Venedig/
+  Katholisch, beide Folgebauten mit Verweis „byzantinische Architektur") — zu dünn (drei
+  Positionen, kein Fliesstext) und inhaltlich allgemeinbekannt für einen eigenen Artikel.
+  **Zeile 75 gilt damit als abgeschlossen.**
+
+**99. Lauf (30.08.2026):** die zwei vom 98. Lauf offen gelassenen Dateien
+`Praesentation.pdf` und `Tania_Meisser.pdf` (Zeile 74, `03_Darstellende_Kunst/05_Landart/`)
+gelesen — beide nahezu identische Fassungen derselben HSLU-Semesterarbeit (Tanja Meisser,
+2008). Destilliert zu
+[[landart-fulton-goldsworthy-prigann-oekologische-aesthetik-walking-art]] (Hamish Fulton
+«Walking Art», Andy Goldsworthy ephemere Materialkunst, Hermann Priganns vier Kategorien
+ökologischer Ästhetik inkl. Reclamation Art für Bergwerks-/Abfallhalden-Renaturierung).
+Barthes-Strukturalismus- und Diaconu-Taktilitäts-Abschnitte sowie der eigene
+Fotografie-Praxisteil der Autorin bewusst nicht destilliert (Theorie ohne Baubezug bzw.
+Studierendenwerk ohne Faktengehalt). **Damit gilt Zeile 74 als vollständig abgearbeitet.**
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 68
+`02_Bildende_Kunst/08_Design/` (733 Dateien, Designgeschichte-Website-Spiegel) oder Zeile 72-74
+(Flandern-Reader/Kunst-der-Gegenwart-Zusammenfassung/Landart-Smithson), sonst laut Queue-Regel
+Prüfung der nächsten Sektion mit offenem P2.
+
+- Zeile 73 `00_Allgemein/KUNST-DER-GEGENWART-Philip-Ursprung.pdf` → **erledigt.**
+  Vollständig gelesen (15 S., Studierenden-Mitschrift). Destilliert zu
+  [[ursprung-kunst-der-gegenwart-globalisierungsthese-museumsarchitektur-empire]]
+  (Globalisierungsthese, Museumsarchitektur-Genealogie Documenta 5/Beaubourg/Weisse-Zelle-
+  Loft/Tate-Modern-Turbinenhalle, Abschnitt «Architektur des Empire» mit Eisenman/Koolhaas/
+  Herzog & de Meuron/Zumthor, Erhabenes als wiederkehrende Kategorie). Feminismus-, AIDS- und
+  Neo-Expressionismus-Kapitel der Mitschrift bewusst nicht destilliert, ohne Architekturbezug.
+- Zeile 74 `03_Darstellende_Kunst/05_Landart/` (3 Dateien) → **teilweise erledigt.**
+  `landart_zusammenfassung.pdf` vollständig gelesen (10 S., zehn datierte Vorlesungssitzungen
+  25.02.-13.05.2011, weit mehr Stoff als die ursprüngliche Kurzzusammenfassung in dieser
+  Tabellenzeile erfasste) und zu zwei Artikeln destilliert:
+  [[landart-smithson-heizer-demaria-site-nonsite-groesse-massstab-tilted-arc]] (Site/Non-Site
+  nach Smithson, Grösse-gegen-Massstab nach Heizer, das Erhabene nach De Maria, Tilted-Arc-
+  Site-Specificity-Konflikt nach Serra) und, als eigenständiger Exkurs derselben Datei ohne
+  Land-Art-Bezug,
+  [[denkmal-diskurs-freiheits-einheitsdenkmal-leipzig-generationelle-erinnerungszeit]]
+  (Vortrag Dieter Daniels, Denkmal-Wettbewerb Leipzig, generationelle Zeitdistanz-These,
+  Holocaust-Mahnmal-Konflikt Kohl/Serra). Body-Art- und Prozesskunst-Positionen ohne
+  Architekturbezug (Oppenheim, Ukeles, Denes u. a.) bewusst nicht destilliert. Die beiden
+  übrigen Dateien (`Praesentation.pdf`, `Tania_Meisser.pdf`, ca. 9-5 MB) nicht geöffnet —
+  offener Rest fuer einen Folgelauf, siehe `wiki/QUESTIONS.md`.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** die zwei
+noch ungeöffneten Dateien von Zeile 74 (`Praesentation.pdf`, `Tania_Meisser.pdf`) oder Zeile 68
+`02_Bildende_Kunst/08_Design/` (733 Dateien) oder Zeile 72 (Flandern-Reader), sonst laut
+Queue-Regel Prüfung der nächsten Sektion mit offenem P2.
+
+- Zeile 72 `02_Bildende_Kunst/10_Regionskunst/Flandern/` (57 Dateien) → **erledigt.**
+  Der Studienreise-Reader `L`Architecture Moderne Belgique - Überarbeitet.pdf` (12 S.)
+  vollständig gelesen, Deckblatt mit Personendaten der drei studentischen Verfasser bewusst
+  nicht übernommen. Destilliert zu
+  [[flandern-studienreise-2007-sieben-bauten-kanon-robbrecht-daem-van-duysen-beel-conzett-toyo-ito]]
+  (Sieben-Bauten-Kanon Groot Vleeshuis/Coussée & Goris, Umbau Compagnie/Wim Goes,
+  Concertgebouw/Robbrecht & Daem, Pavillon 2002/Toyo Ito, Fussgängerbrücke Coupure/Jürg
+  Conzett, Bürohaus Concordia/Vincent van Duysen, Roger Raveel Museum/Stéphane Beel;
+  institutioneller Hintergrund Hoger Architectuurinstituut St. Lukas Gent). Die übrigen 56
+  Dateien des Ordners sind Bilddateien ohne eigenen Fliesstext, nicht einzeln geöffnet.
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** die zwei
+noch ungeöffneten Dateien von Zeile 74 (`Praesentation.pdf`, `Tania_Meisser.pdf`) oder Zeile 68
+`02_Bildende_Kunst/08_Design/` (733 Dateien), sonst laut Queue-Regel Prüfung der nächsten
+Sektion mit offenem P2.
+
+- Zeile 76 `10_Einzelwissenschaften/Systemik/` übriger Bestand (rund 16 Dateien) →
+  **erledigt.** Stand selbst ermittelt (`KORPUS-QUEUE.md`, `git log`: Zeile 74 laut Commits
+  `148f9d9b4`/`3ad64614e` bereits vollständig destilliert, entgegen dem stehen gebliebenen
+  Hinweis im vorigen Absatz — Redaktionsrest, kein offener Auftrag). Von den 16 Dateien
+  ausserhalb der bereits als P1 erfassten drei (Modulführer 405, Begleittext Systemtheorie,
+  Energieträger-PDF) gelesen: `ISA_Modulführer_405_Systemisch.pdf` (13 S., Begriffsglossar
+  Systemtheorie/Innovationsprozesse) und `Begleittext Einführung Systemtheorie.pdf` (Auszug
+  S. 7-36 aus Hafen 2007, «Grundlagen der systemischen Prävention»). Beide destilliert zu
+  [[luhmann-systemtheorie-beobachtung-autopoiesis-organisation-interventionsstufen-hafen]]
+  (Beobachtung 1./2. Ordnung, Autopoiesis, operative Geschlossenheit, funktionale
+  Differenzierung, die drei Organisations-Entscheidungsprämissen, die sechs Stufen vom
+  Interventionsversuch zur verfestigten Verhaltensänderung). Rückverlinkung im bestehenden
+  Artikel [[systemische-bauobjektanalyse-wirkungsmatrix-vernetztes-denken]] ergänzt. Nicht
+  gelesen: `A Relational Scaffolding Model of Hybrid Communication.pdf`, `Getting to Know the
+  Customer.pdf`, `Involving Key Stakeholders into Regional Innovation Processes.pdf` (reine
+  Management-/Innovationsforschungs-Fachartikel ohne Architekturbezug, im Modulführer bereits
+  als Literaturverzeichnis erfasst, kein Systemtheorie-Neuwert), `Peer Fuchs «Nachhaltige
+  Entwicklung – theoretisch»` und die beiden Vorlesungs-PDF (`Einführung 26.03.2008`,
+  `Einführung Systemtheorie Martin Hafen 2.&9.4.08`) — hohes Duplikatsrisiko zum bereits
+  gelesenen Begleittext derselben Dozenten und Lehrveranstaltung, Ertrag oberhalb der
+  Destillationsschwelle nicht zu erwarten. Teilnehmerliste und Gruppeneinteilung bleiben
+  gemäss Sperrliste Zeile 88 nicht inventarisiert. `Fragen.doc` unter `02_Uebung/` nicht
+  geöffnet (Praxisrecherche-Interviewleitfaden ohne erwartbaren Fachwert, siehe Modulführer
+  S. 4-5). **Zeile 76 gilt damit als abgeschlossen — P2 der Sektion `02_Kunst_Geschichte` ist
+  nun bis auf Zeile 68 (`08_Design`, 733 Dateien) vollständig abgearbeitet.**
+
+`git diff --numstat` auf diese Inventardatei zeigt reinen Append. **Nächster Lauf:** Zeile 68
+`02_Bildende_Kunst/08_Design/` (733 Dateien, Designgeschichte-Website-Spiegel), sonst laut
+Queue-Regel Prüfung der nächsten Sektion mit offenem P1/P2 (Kandidaten laut `wiki/INDEX.md`:
+`02_Gestalt_Kulturverstaendnis` 146 P1, `03_Bauprozesse_I_II` P2-Rest).
+
+## 260830 — Zeile 68 (Teilbearbeitung), Sektion `02_Kunst_Geschichte` (Lane FACHWISSEN, 102. Lauf)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md` und diese
+Inventardatei geprüft, die beiden zuvor als Alternativkandidaten genannten Sektionen
+`02_Gestalt_Kulturverstaendnis` (P1 UND P2 laut eigenem Inventar bereits 29.08.2026 vollständig
+abgeschlossen) und `03_Bauprozesse_I_II` (verbleibender P2-Rest laut eigenem Inventar dauerhaft
+blockiert: Urheberrechtsfrage, veraltete Software, Anonymisierungsprüfung) geprüft und als
+tatsächlich nicht offen bestätigt — die «Sektionen nach Ertrag»-Tabelle in `wiki/INDEX.md` war an
+dieser Stelle veraltet. Damit war Zeile 68 der einzige real offene Posten. Vor Arbeitsbeginn drei
+laufende `claude -p`-Prozesse mit identischem Dispatch-Text geprüft (PID 29659/29665/29666, alle
+7:54 Uhr gestartet) — das ist die Prozesskette dieser einen Lane-Instanz selbst, keine
+Doppel-Instanz.
+
+Zeile 68 `02_Bildende_Kunst/08_Design/` (733 Dateien, Offline-Spiegel einer nicht mehr
+identifizierbaren Design-Enzyklopädie-Website, kein Impressum/Autor in den Dateien): Duplikatscheck
+zuerst (`grep -rli` gegen die Namen Otto Wagner/Peter Behrens/Alvar Aalto/Marcel Breuer/
+Castiglioni/Carlo Bugatti/Antonio Citterio/Bauhaus in allen vorhandenen `wiki/*.md`-Verzeichnissen)
+— keine echte Dublette, nur Streuverweise auf Aalto/Behrens/Bauhaus in bestehenden
+Architekturtheorie-Kanon-Listen, kein eigener Möbel-/Designartikel. Vier der 128 `.htm`-Dateien
+mit Fliesstext vollständig gelesen (`rietveld.htm`, `breuer.htm`, `bauhaus.htm`, `mies.htm`,
+alle >16 KB, deutschsprachige Fliesstext-Biografien) und zu einem zusammenhängenden neuen Artikel
+destilliert:
+[[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]
+(Rietvelds Rot-Blau-Stuhl 1917/18 und De-Stijl-Konstruktionsprinzip; Bauhaus-Möbelwerkstatt als
+institutioneller Rahmen; Breuers Weg vom Holz zum Stahlrohr 1925-1930 mit Modellbezeichnungen
+Wassily/B3, B32/Cesca, B26, Schweizer Station Kaufhaus Wohnbedarf/Embru-Liegestuhl 1933; Mies van
+der Rohe/Lilly Reich-Zusammenarbeit ab 1927 mit Modellen MR20/MR10, Brno, Barcelona/MR90,
+Tugendhat/MR70). Quelle ausdrücklich als Sekundärquelle ohne akademische Beleghaltigkeit
+gekennzeichnet, Artikel `status: speculative`.
+
+**Zeile 68 bleibt mit diesem Teilbeleg offen** — nur 4 von 128 Fliesstext-Dateien gelesen (rund
+100 weitere Personenartikel, u. a. Alvar Aalto, Josef Hoffmann, Charles Eames, Charles Rennie
+Mackintosh, Josef Frank, Gray, Magistretti, Ponti, Jacobsen, Sottsass; dazu ein `bilder`-
+Unterordner und diverse `~$`/`.tmp`-Sicherungsdateien ohne Fachwert). Kein Datenschutz-/
+Sperrlisten-Fund. `git diff --numstat` auf diese Inventardatei zeigt reinen Append. Ein
+Wiki-Artikel neu, `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile 68 fortsetzen — nächste
+Kandidaten nach Dateigrösse (Substanz-Indikator) u. a. `gray.htm`, `magistretti.htm`, `ponti.htm`,
+`jacobsen.htm`, `josef_frank.htm`, `eames.htm`, `alvar_aalto.htm` (vor Destillation Duplikatscheck
+gegen den neuen Stahlrohrmöbel-Artikel und `01_Innenarchitektur`-Sektion, da dort bereits eine
+Encyclopedia of Interior Design liegt).
+
+## 260830 — Zeile 68 (Fortsetzung), Sektion `02_Kunst_Geschichte` (Lane FACHWISSEN, 103. Lauf)
+
+Duplikatscheck vor Beginn: `grep -rli` gegen alle sieben Namen (Aalto/Eames/Jacobsen/Gray/Frank/
+Magistretti/Ponti) in allen `wiki/*.md` — nur Streuverweise auf Aalto in bestehenden
+Architekturtheorie-Kanon-Listen (`sauter-klassische-moderne-...`), kein eigener Möbel-/
+Designartikel zu einem der sieben Namen. Alle sieben genannten Kandidatendateien (`alvar_aalto.htm`,
+`eames.htm`, `gray.htm`, `jacobsen.htm`, `josef_frank.htm`, `magistretti.htm`, `ponti.htm`)
+vollständig gelesen und zu vier neuen Wiki-Artikeln destilliert:
+
+- [[organische-schichtholz-moderne-aalto-eames-jacobsen]] (Aalto Paimio-Stuhl/Artek 1935/Savoy-Vase;
+  Eames Cranbrook/Organic-Design-Wettbewerb/Molded-Plywood/Eames House; Jacobsen Ameisenstuhl/
+  Schwan/Ei/St.-Catherine's-College — durchgehende, in der Quelle selbst belegte Materialgenealogie
+  Schichtholz/Glasfaser 1929-1958, inkl. explizitem Eames-Einfluss auf den «Ameisenstuhl»)
+- [[eileen-gray-lackarbeiten-tubular-steel-e1027]] (Lackarbeiten bei Sugawara, Galerie Jean Desert,
+  Übergang Ornament zu Funktionalismus mit Rietveld-Bezug, E.1027 mit Jean Badovici)
+- [[josef-frank-wien-schwedische-moderne-svenskt-tenn]] (Wiener Sozialwohnungsbau, Weissenhof-
+  Beitrag 1927, Emigration 1934, Svenskt Tenn mit Estrid Ericson, Golden-Gate-Expo 1939)
+- [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]] (Ponti: Domus-Gründer,
+  Pirelli-Turm, Superleggera, Compasso d'Oro; Magistretti: Carimate-Stuhl, Cassina-Beziehung ab
+  1960, frühe Kunststoffmöbel Demetrio/Selene, Leuchten Eclisse/Atollo)
+
+Der bestehende Stahlrohrmöbel-Artikel um Rückverlinkung ergänzt (Aalto/Eames sind dort als
+künftiger Folgeartikel vermerkt gewesen, jetzt aufgelöst). Damit sind elf von 128
+Fliesstext-Dateien der Zeile 68 gelesen. **Zeile 68 bleibt weiterhin offen** — rund 90 Personen-
+artikel ungelesen (u. a. Josef Hoffmann, Charles Rennie Mackintosh, Le Corbusier als Möbeldesigner,
+Sottsass), dazu der `bilder`-Unterordner und `~$`/`.tmp`-Dateien ohne Fachwert. Kein Datenschutz-/
+Sperrlisten-Fund. `git diff --numstat` auf diese Inventardatei zeigt reinen Append. Vier
+Wiki-Artikel neu, `wiki/INDEX.md` nachgeführt. **Nächster Lauf:** Zeile 68 fortsetzen — nächste
+Kandidaten nach Dateigrösse, u. a. Hoffmann/Mackintosh, vor Destillation erneut Duplikatscheck
+gegen die vier neuen Artikel und `01_Innenarchitektur`.
+
+## 260830 — Zeile 68 abgeschlossen, Sektion `02_Kunst_Geschichte` (130. Lauf Lane FACHWISSEN)
+
+Die vier letzten Positionen der Zeile 68 (`dunand.htm`, `deskey.htm`, `bugholz.htm`,
+`day.htm`) gelesen und zu vier neuen Wiki-Artikeln destilliert: Jean Dunand (Pariser
+Art-déco-Lackkunst, Ozeandampfer «Atlantique»/«Normandie»), Donald Deskey (amerikanisches
+Streamline Moderne, Radio City Music Hall), die technikgeschichtliche Bugholz-/
+Schichtholz-Genealogie (Thonet-Patent 1841 bis Wegners «DA Stuhl» 1948) sowie Robin und
+Lucienne Day (britisches Nachkriegsdesign, Hille/Festival of Britain/Polypropylen-Stuhl
+1963). Details CHANGELOG 30.08.2026 (130. Lauf).
+
+**Damit sind alle 128 inhaltstragenden Dateien der Zeile 68 gelesen. Zeile 68 gilt als
+abgeschlossen — die gesamte Sektion `02_Kunst_Geschichte` (P1 und P2) ist damit vollständig
+abgearbeitet** (die übrigen P2-Zeilen 67, 69–76 waren bereits seit dem 101. Lauf erledigt,
+siehe oben). Diese Sammelzeile (Zeile 68 in der Triage-Tabelle oben) bleibt bewusst
+unverändert, um den Append-only-Charakter dieser Datei zu wahren; der Abschluss ist hier und
+in `wiki/INDEX.md`/`CHANGELOG.md`/`KORPUS-QUEUE.md` vermerkt. **Nächster Lauf:** neue
+Sektion gemäss Queue-Regel, siehe CHANGELOG-Empfehlung 130. Lauf.

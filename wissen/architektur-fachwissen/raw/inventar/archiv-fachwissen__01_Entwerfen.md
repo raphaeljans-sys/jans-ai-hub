@@ -215,3 +215,41 @@ Kontaktangaben Dritter (`22_Grundrisse/Wohngrössen/093-G200-02439.pdf`), der au
 **methodisch** als aGF-Nachweis-Muster gewertet ist. Verkaufsbeschriebe und
 Kennwertblaetter sind ebenfalls Projektdaten Dritter und wurden methodisch beschrieben, ohne
 Beteiligte oder Betraege zu nennen.
+
+## Destillat-Fortschritt
+
+**29.08.2026, Lane FACHWISSEN, zehnter Destillat-Lauf Korpus `archiv-fachwissen`.** Alle
+sechs P1-Positionen destilliert, fuenf Wiki-Artikel unter
+`wissen/architektur-fachwissen/wiki/`:
+
+- `22_Grundrisse/Wohngrössen/rl_flaechenerfassung _und_bewirtschaftungsplaene_dmb_immo_id_671.pdf`
+  → [[flaechenerfassungsrichtlinie-rfb-stadt-zuerich-bewirtschaftungsplaene]]
+- `22_Grundrisse/Wohngrössen/20160608 Anforderungen an Bauten.pdf`
+  → [[bauherren-anforderungsprofil-preisguenstiger-wohnungsbau-stiftung-pwg-2016]]
+- `22_Grundrisse/Wohngrössen/_Guenstiger_Mietwohnungsbau_ist_moeglich._Kurzfass_9545.pdf`
+  → [[guenstiger-mietwohnungsbau-flaechenreduktion-hebel-bwo-halter-pensimo-2012]]
+- `22_Grundrisse/Wohngrössen/170428_Grundrissfaktor_Muehletaler.pdf` +
+  `22_Grundrisse/Wohngrössen/100928_103_TGC_übersicht_whgschl_aktuell.pdf` +
+  `22_Grundrisse/Wohngrössen/103 TGC_Werte_Verknüpfung.pdf` (drei Dateien, eine Sache: das
+  Pruefraster Wohnungsschluessel/Flaechenkennwert desselben Areals)
+  → [[wohnungsschluessel-flaechenkennwert-pruefraster-studienauftrag-freilager-albisrieden]]
+- `22_Grundrisse/00_best/baubeschrieb_seesicht-meggen.pdf`
+  → [[baubeschrieb-checkliste-vollstaendigkeit-steckdosenliste-seesicht-meggen]]
+
+Quellentexte per `pypdf` (Textlayer vollstaendig, 1 bis 92 Seiten je Datei) extrahiert, alle
+Fundstellen mit Seitenangabe in den Artikel-Frontmatters belegt. Keine BKP-Codes in diesen
+sechs Quellen, daher keine BKP-2017-Pruefung noetig. Norm-Bezug (SIA 400/405/406/410/416/
+416-1/2007/2014, SIA d 0165) in der RFB nur methodisch referenziert, nicht als eigene
+Norm-Aussage destilliert (Abgrenzung `archiv-fachwissen-spec.md`).
+
+Nicht destilliert, bewusst zurueckgestellt: die elf P2-Positionen (Ausbau-Variantenvergleich
+BKP, Raumtypologie-Vorlesung ROP_02, SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe
+Juppien, zwei Farbe/Pigment-Glossare, Farbenlehre-Website Sylvie Grimm, Ornamentik-
+Literaturliste, eigene Ideentexte `00_Ideen`, Class-A-Problem-Vokabular, Ikonographie-Raster,
+Referenzen Labor/Praxis) sowie die gesamte P3-Bildmasse (uebergrosser Teil der Sektion, groesstenteils
+ohne Textlayer). Hinweis aus dem Kurzbefund an den Twin-Harness (`00_Ideen`/
+`00_Entwurfshaltungen`, eigene Texte Raphael Jans 2013/14) bleibt unbearbeitet, da kein
+Fachartikelstoff dieser KB.
+
+**Sektion `01_Entwerfen` damit fuer P1 vollstaendig destilliert.** P2 offen fuer einen
+kuenftigen Lauf, falls ein konkreter Bedarf entsteht.

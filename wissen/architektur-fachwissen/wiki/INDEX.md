@@ -1,7 +1,7 @@
 ---
 title: "INDEX architektur-fachwissen"
 status: established
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 sources:
   - "raw/inventar/ (43 Sektionsinventare: 23 buero-referenzen, 20 archiv-fachwissen, Stand 29.08.2026)"
   - "wissen/architektur-fachwissen/CLAUDE.md (Korpus-Zuschnitt)"
@@ -67,29 +67,126 @@ jeweiligen Inventar unter «Triage».
 
 | # | Sektion | Korpus | P1 / gesichtet | Was drinsteckt | Inventar |
 |---|---|---|---|---|---|
-| 01 | `02_Gestalt_Kulturverstaendnis` | archiv | 146 / 5'664 | Raphael Jans' persönliche Denk- und Darstellungswerkstatt (2007–2015): ein eigenes datiertes Typografie-Regelwerk, ein Wettbewerbs-Referenzkorpus mit 22 Juryberichten und 19 Projektbeschrieben, ein Betonforum-Fachaussagenkonvolut zu Schwinden/Rissbildung/Sichtbetonqualität, Modellfoto-Methodik und ein 305 Begriffsordner grosser Begriffsapparat. Nur 10 Triage-Positionen für die 146 Dateien; **P1 rund, keine Einzelfile-Zählung** laut Inventar. | `raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md` |
+| 01 | `02_Gestalt_Kulturverstaendnis` | archiv | 146 / 5'664 — **P1 nicht vollständig, vierter Lauf 31.08.2026 korrigiert eine irrtümliche Abschlussformel** | Raphael Jans' persönliche Denk- und Darstellungswerkstatt (2007–2015): ein eigenes datiertes Typografie-Regelwerk, ein Wettbewerbs-Referenzkorpus mit 22 Juryberichten und 19 Projektbeschrieben, ein Betonforum-Fachaussagenkonvolut zu Schwinden/Rissbildung/Sichtbetonqualität, Modellfoto-Methodik, ein 305 Begriffsordner grosser Begriffsapparat sowie (31.08.2026) ein siebenteiliges Plangrafik-Referenzkorpus (Siza/OMA-AMO/Chipperfield/Olgiati/Holl/BVG-St.-Gallen/Zumthor), die Bauplan-Definition nach Annette Spiro und eine Konstruktionslehre zum Grundriss-Schrägbild ([[plangrafik-referenzkorpus-hta-luzern-bauplan-definition-schraegbild-konstruktion]]). Nur 10 Triage-Positionen für die 146 Dateien; **P1 rund, keine Einzelfile-Zählung** laut Inventar. Fünfter Lauf (31.08.2026): die HTA-Luzern-Typografievorlesung selbst gelesen und in [[typografie-regelwerk-lernskript-jans-2007]] eingearbeitet (Herkunft der Plakat-Schriftgrössenreihe wortgleich bestätigt, plus Begriffsherkunft, Autorenzuordnung Willberg, Antiqua/Grotesk, Univers 1956). Sechster Lauf (31.08.2026): Schrift-Systematik (9 PDF) abgeschlossen, vier neue Artikel (Glossar, Vox-Klassifikation, Schriftgeschichte, Wortbild/Konzeptkunst), drei Dateien ohne Ertrag (Duplikat, reine Vektorübung, eigene Font-Screenshots). Achter Lauf: Küssnacht-Beschriebe (6/6) und Schönauring-Wettbewerbsprogramm destilliert (Honorarmechanik/Zuschlagskriterien-Ergänzungen). Neunter Lauf: erste der vier Depot-Hard-Jurybericht-Positionen gelesen (Kerez, «MY HOME IS MY CASTLE»), neuer Artikel [[wettbewerbsjury-projektkritik-sandwich-struktur-kerez-depot-hard]] zur Kritikstruktur einzelner Projektbeurteilungen. Weiterhin offene P1-Positionen: 19 von 22 Juryberichten (davon 3 der 4 Depot-Hard-Berichte), 62 von 65 Betonforum-Referaten, Teile der Modellfoto-Methodik — Details CHANGELOG 31.08.2026. | `raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md` |
 | 02 | `01_Konstruktion` | archiv | 101 / 8'791 | Konstruktions- und Bauphysik-Studienarchiv HTA/ETH (2002–2014): Fassadensysteme-Typologie, Uw-Wert-Berechnungsgrundlagen, AHB-Planungsrichtlinie der Stadt Zürich, funktionale Ausschreibung als Fachtext — nur 4 Triage-Positionen für die 101 Dateien. Jede Kennzahl trägt Normstand 1991–2010, Destillate zwingend `status: speculative`. | `raw/inventar/archiv-fachwissen__01_Konstruktion.md` |
 | 03 | `03_Bauprozesse_I_II` | archiv | 58 / 524 | Das ETH-Studien- und Arbeitsarchiv zu «Bauprozesse I & II» trägt vollständige Originalnormen (SIA 112:2001, 102:2003, 416:2003, 142:2009, 500:2009, VKF 2015, VSS 640 291a), die geschlossene Kostenplanungskette am Objekt Leutschenbach, das eBKP-H 2012 samt CRB-Musterbeispiel und den eigenen Grobkosten-Fachtext von Raphael Jans. | `raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` |
-| 04 | `02_Architekturtheorie` | archiv | 21 / 1'603 | Vorlesungsreihe Architekturtheorie ETH (Moravánszky/Hildebrand) mit rund 20 eigenen, durchformulierten Frage-Antwort-Katalogen zu Stil, Tektonik, Typus und Ornament. | `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` |
+| 04 | `02_Architekturtheorie` | archiv | 21 / 1'603 — **P1 vollständig, P2-Gruppen «31 Syllabi» + 2 versteckte Fragen-Kataloge + VL2-VL11 (Koolhaas/Eisenman/Venturi/Kahn/Rossi/Loos/Wright/Zumthor) + Shinohara Kazuo + Lefebvre + Schmarsow destilliert 30.08.2026** | Vorlesungsreihe Architekturtheorie ETH (Moravánszky/Hildebrand) mit rund 20 eigenen, durchformulierten Frage-Antwort-Katalogen zu Stil, Tektonik, Typus und Ornament, dazu eine Literaturlandkarte über 16 Begriffe aus den Semestersyllabi, Rossis Theorie der Permanenz, ein Fallbeispiel-Register (Loos/Wright/Kahn/Rossi), zwei Koolhaas-Artikel (Delirious New York/PK-Methode, Bigness/Generic City/Junkspace), ein Eisenman-Artikel (House VI, Autonomie der Architektur, New York Five, Dom-ino als Zeichen), ein Venturi-Artikel (Dekorierter Schuppen/Ente, Komplexität und Widerspruch, Postmoderne als Sprachtheorie), ein Kahn-Artikel (Monumentalitäts-Essay, «Form evokes Function», Post-Miesismus), ein zweiter Rossi-Artikel (Analoge Architektur, Typus-Beispiel Split, malerische Bezüge Hopper/de Chirico/Piranesi, ETH-Lehrzeit 1973-75, Kerez/Oligiati-Synthese), zwei Loos-Artikel (Ornament-und-Verbrechen-Argumentationsgang, Werkregister Michaelerplatz/Chicago-Tribune/Café Museum/American Bar), ein Wright-Artikel (organische Architektur, «Zerstörung der Kiste»/fliessender Raum, Abgrenzung International Style, Broadacre City), drei Zumthor-Artikel (Kritischer Regionalismus/Frampton/Ricoeur-Genealogie/Haus Truog; Authentizitäts-/Atmosphäre-Begriff mit Raumkonzeptions-Vergleich Loos/Wright/Zumthor «negiert/kreiert/interpretiert»; Pavillon-Vergleich Zumthor/MVRDV Expo 2000 Hannover aus der Resümee-Vorlesung VL11), zwei Shinohara-Artikel (vier Schaffensphasen/symbolischer Raum/Vergleich Loos-Wright-Zumthor; Schweizer Rezeption Oligiati/Kerez/Deplazes), ein Lefebvre-Artikel (Raumtrias percu/concu/vécu, Budapest-Vier-Plätze-Analysemethode, nur erster Platz inhaltlich belegt) sowie ein Schmarsow-Artikel (Raumsystem statt Form, Tiefenachse gegen Semper/Wölfflin/Hildebrand), ein Foucault-Artikel (Heterotopie-Typologie/Beispielkatalog, löst den bisher offenen Foucault-Punkt in `genius-loci-ort-raum-nichtorte.md`) sowie ein Bachelard-Artikel (Poetik des Raumes, Haus als Seelen-Analyse-Instrument, Existenzminimum/unheimliches Haus/mobiles Haus, Abgrenzung zur Urhütten-Debatte Semper) und ein Natur-Artikel (Erhabenes/Schönes/Malerisches nach Kant/Burke, Olmsted-Parksysteme New York/Boston, organische Architektur Viollet-le-Duc/Gaudí/Rudolf Schwarz/Ábalos & Herreros, Land-Art-Bezug Smithson/Noguchi/High-Line) sowie ein Technik-Artikel (Maschinenästhetik/Ruskin, Fordismus/Taylorismus, russischer Konstruktivismus/Leonidov, Archigram/Superstudio, Diagramm-vs-Plan-Debatte Neufert/Eisenman/MVRDV) und ein Kunst-Artikel (Loos' Trennungsthese Kunst/Architektur, Gesamtkunstwerk-Idee Wagner/Schwitters/Gropius-Taut-Behne, Fallbeispiel Residence Gehry Santa Monica, Anarchitekturen Matta-Clark/SITE-Gruppe/Cabrita Reis, Criticality-vs-Projectivity mit Dan Graham/Herzog & de Meuron/Bilbao-Effekt) sowie ein Bauen-Artikel (Begriffsklärung Volksarchitektur/anonymes Bauen/vernakuläre Architektur, Strukturalismus/Partizipation bei Kroll/Hertzberger/van Eyck, Rudofsky und anonyme Architektur bei Eldem/Konstantinidis/Gellner/Pikionis, Christopher Alexander vom Baumdiagramm zur Pattern Language, Kernzitate Abrahams «Elementare Architektur») sowie ein Visualitäts-Artikel (mittelalterliche hierarchische Bildlogik vs. Zentralperspektive, Brunelleschis Spiegelexperiment/Panofskys «Perspektive als symbolische Form», Axonometrie-Wiederentdeckung der Moderne um 1920, Eisenmans «Houses of Cards» axonometrisch als Anti-Humanismus-Statement, Otto Neuraths Isotype, Anamorphosen/Panorama/Panoptikon) sowie ein zweiter Visualitäts-Artikel (Transparenz/Opazität-Kritik des Okularzentrismus nach Rowe/Slutzky, Otto Wagners Phantasie-Training und Grossstadt-Ästhetik mit Werkliste, Townscape-Bewegung Pevsner/Cullen/de Wolfe, Black Mountain College/Buckminster Fuller Dymaxion, ohne Live-Mitschrift, nur Syllabus); Abschlussvorlesung (Prüfungsrückblick, überwiegend bereits destillierter Stoff, ohne Syllabus, Tonmitschnitt als GarageBand-Paket nicht extrahierbar) ergänzt zwei bestehende Artikel statt eines neuen (Böhmes formloser Raum/Blur Building im Zumthor-Atmosphäre-Artikel; Stalinallee-vs-Modena-Übungsbeispiel im Rossi-Permanenz-Artikel) — **damit sind alle 22 in der aktuellen NAS-Ordnerliste vorhandenen nummerierten Vorlesungsordner gesichtet** (Zähldifferenz zur historischen Angabe „23" `QUESTIONS.md` #71). P2 offen: rund 100 der 190 Vorlesungsmitschriften (`QUESTIONS.md` #68 beantwortet, keine weiteren versteckten P1-Funde), Vorlesungsfolien-Sammel-PDF, sämtliche Tonmitschnitte/Foliensätze der Einzelvorlesungen. | `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` |
 | 05 | `18_Projektkostenplanung` | buero | 16 / 28 | Ein einziger Grossbau (Schulanlage Leutschenbach) liegt hier über alle Kostenermittlungsstufen von der Kostenschätzung 2003 bis zum Finanzrapport 2006 vor, dazu die Genauigkeitsbänder je Projektphase, die Anrechenbarkeitssätze der honorarberechtigten Bausumme und zwei SIA-102-Rechenwerke. | `raw/inventar/buero-referenzen__18_Projektkostenplanung.md` |
-| 06 | `10_Protomodern` | archiv | 13 / 519 | Raphael Jans' nie abgeschlossenes Buch-/Manifestprojekt «Protomodern» (2013/14): dichte Schicht eigener Theorietexte, teils nur als Ordnerstruktur/Fragenregister vorhanden. | `raw/inventar/archiv-fachwissen__10_Protomodern.md` |
-| 07 | `10_Modellbauen` | buero | 12 / 235 | Eine über vier Jahre gewachsene Betonmodell-Rezeptur- und Verfahrenssammlung aus dem Umfeld Christian Kerez (zwölf Mischungsversuche mit Schlussformel, Fehlerkatalog A bis G) plus ein zitierfähiges Betontechnologie-Merkblatt von Heinz Richner, das bis zum Sichtbeton 1:1 trägt. | `raw/inventar/buero-referenzen__10_Modellbauen.md` |
-| 08 | `02_Architekturgeschichte` | archiv | 11 / 3'826 | Kunst-/Architekturgeschichte-Studienarchiv ETH/HTA mit Analyseraster für Gebäudeanalysen, Fachglossar historischer Bauteile und einer geprüften Referenz-Objektliste. | `raw/inventar/archiv-fachwissen__02_Architekturgeschichte.md` |
-| 09 | `02_Kunst_Geschichte` | archiv | 11 / 27'649 | Mit 27'649 Dateien die grösste Einzelsektion des ganzen Korpus (zu 54 % Website-Spiegel); büroverwertbar sind Analyseraster, ein Architekturfotografie-Kanon und Bestandes-/Umbau-Argumentation — sehr dünner Ertrag im Verhältnis zum Volumen. | `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
+| 06 | `10_Protomodern` | archiv | 13 / 519 — **P1 und P2 vollständig destilliert 30.08.2026 (67. Lauf)** | Raphael Jans' nie abgeschlossenes Buch-/Manifestprojekt «Protomodern» (2013/14): dichte Schicht eigener Theorietexte, teils nur als Ordnerstruktur/Fragenregister vorhanden. P2 komplett: Ornament-Forschungskonvolut (Di Stefano-Genealogie «Form follows Function», Sullivan 1892 + Kamphans-Exposé + Hildebrand-Handout), Rowe/Koetter «Collage City»-Konvolut (Figur-Grund, Bricolage/Fuchs-Igel, Stadt als Museum), Šik-Interview (dialogischer Städtebau, Ensemble gegen Objektarchitektur), Ruhl-Aufsatz-Auszug (Sedlmayr/Rossi/Quaroni, Stadt als ready made, homo poeticus), acht Kurzfragmente (Religion/Politik, Kulturaustausch, Klassiker, Lampugnani-Grundsatz, Panofsky-Reihe, heterogener Ort u. a.), Begriffsapparat (Capriccio/Piranesi, Shaker-Religion, Sgraffito-Beleg Weilenmann 1920; Anthropomorphismus/Pasticcio/Epitome/Protogeometric Art geprüft ohne Ertrag). Rest nur noch P3 (unlesbare Scans) und X (Bilder/Sicherungskopien), beide nicht zu destillieren. | `raw/inventar/archiv-fachwissen__10_Protomodern.md` |
+| 07 | `10_Modellbauen` | buero | 12 / 235 — **P1 und P2 vollständig destilliert 30.08.2026 (drei P2-Läufe)** | Eine über vier Jahre gewachsene Betonmodell-Rezeptur- und Verfahrenssammlung aus dem Umfeld Christian Kerez (zwölf Mischungsversuche mit Schlussformel, Fehlerkatalog A bis G) plus ein zitierfähiges Betontechnologie-Merkblatt von Heinz Richner, das bis zum Sichtbeton 1:1 trägt. P2: eine dritte, unsichere Quelle bestätigt/ergänzt den Fehlerkatalog, ein Bestellvorlagen-Feldschema destilliert. **P2 gilt als abgearbeitet:** die restlichen Positionen sind dauerhaft blockiert (zwei CAD-Dateien ohne ArchiCAD/Vectorworks-Werkzeug, eine Fremdvorlage mit Kundendaten Dritter, zwei reine Fotoserien) oder geprüft ohne Ertrag (Materialien-Fragment, Profilit-Vektorvorlagen). | `raw/inventar/buero-referenzen__10_Modellbauen.md` |
+| 08 | `02_Architekturgeschichte` | archiv | 16 / 3'826 — **P1 vollständig; `Renaissance-Zusammenfassung.pdf` (51 S.) vollständig destilliert (90. Lauf); die drei Nicht-Portrait-Positionen des Architektenportrait-Ordners abgearbeitet (91. Lauf) 30.08.2026** | Kunst-/Architekturgeschichte-Studienarchiv ETH/HTA mit Analyseraster für Gebäudeanalysen, Fachglossar historischer Bauteile und einer geprüften Referenz-Objektliste. P2: machtgeschichtliche Herleitung von Bauaufgaben (Tönnesmann-Skript, Florenz/Urbino), Mittelalter-Epochenraster, Renaissance-Stilmerkmal-Raster, Architekturtheorie-Genealogie Vitruv/Alberti, Luzerner Skript Sauter/Marion (alle 13 Kapitel destilliert), Architektenportraits-Ordner: 25 Kurzbiografien destilliert, `Fragen.doc` destilliert, `Moderne.pdf` und `Renaissance-Zusammenfassung.pdf` vollständig ausgewertet (u. a. St.-Peter-Baugeschichte, Bernini-Louvre/Perrault/Versailles, Fischer-von-Erlach-Schönbrunn, Soufflot Ste-Geneviève), dazu `9_rom_st.pdf`/`16_schloss_versailles.pdf`/`26_paris_um_1800.pdf` destilliert (Bernini-Ergänzung St.-Peter, Versailles-Vorgeschichte 1623-1661, neuer Artikel französischer Barock Heinrich IV.-Hardouin-Mansart, neuer Artikel Paris-Empire-Architektur Percier/Fontaine/Hittorff). Neumanns Lebensdaten 1687-1753 bestätigen den bekannten Datierungsfehler im Semper-Portrait; zusätzlicher Quellenwiderspruch St.-Peter-Gesamtlänge (211 m gegen 186,3 m). **92. Lauf (30.08.2026):** acht zuvor per Namens-Grep pauschal zurückgestellte Portraits (Schinkel, Garnier, Semper, Ruskin, Morris, Webb, Wright, Sullivan) tatsächlich gelesen — drei neue Artikel (Charles Garnier, Schinkel-Institutionsgeschichte, Semper-Biografie), drei als Ergänzung eingearbeitet (Ruskin/Morris/Webb), zwei bestätigte Duplikate (Wright, Sullivan). Namensverwechslung Charles/Tony Garnier aufgedeckt und korrigiert. **93. Lauf (30.08.2026):** Vignola und Palladio tatsächlich gelesen, drei neue Artikel (Vignola-Ergänzung, Serlio-Dogmatisierungsessay, Palladio-Ergänzung) — der Architektenportrait-Ordner gilt damit als abgearbeitet (nur `23_ledoux` bewusst zurückgestellt). Nächster Schritt: Sektion `02_Kunst_Geschichte` als nächste P2-Kandidatensektion. | `raw/inventar/archiv-fachwissen__02_Architekturgeschichte.md` |
+| 09 | `02_Kunst_Geschichte` | archiv | 11 / 27'649 — **P1 vollständig (5/6 destilliert, 1 bewusst ausgeschlossen); P2 seit 30.08.2026, Zeilen 67/69/70(teilw.)/71/73/74(teilw.)/75 geprüft** | Mit 27'649 Dateien die grösste Einzelsektion des ganzen Korpus (zu 54 % Website-Spiegel); büroverwertbar waren ein Analyseraster (semiotisch), der Bildanalyse-Dreischritt, eine Betrachtungsweisen-Typologie, Bestandes-/Umbau-Argumentation und eine systemische Analysemethode — sehr dünner Ertrag im Verhältnis zum Volumen. P2: Architekturfotografie-Referenzkanon (32 Positionen Alinari-Sugimoto), Stadtlounge-St.-Gallen-Fallbeispiel (Pipilotti Rist/Carlos Martinez), Kiss-Horvath/Ursprung-Vorlesung (Skulptur/Plastik/Sockel/Ready-made, Kunstkarten-Referenzliste) plus Merzbau-Vertiefung, Bühnenbildner-Zweig (Bibiena-Familie) destilliert; Zeile 75 (Stilepochen/Hagia-Sophia) geprüft und bewusst ohne Artikel geschlossen (Delta-Ehrlichkeit, Details CHANGELOG 30.08.2026). **98. Lauf (30.08.2026):** Zeile 73 (Ursprung «Kunst der Gegenwart», Globalisierungsthese/Museumsarchitektur-Genealogie Documenta-5-Beaubourg-Weisse-Zelle-Tate-Modern/«Architektur des Empire» Eisenman-Koolhaas-Herzog&deMeuron-Zumthor) und Zeile 74 (Land-Art-Vorlesungsreihe: Site/Non-Site nach Smithson, Grösse-gegen-Massstab nach Heizer, das Erhabene nach De Maria, Tilted-Arc-Site-Specificity nach Serra, separat der Denkmal-Exkurs Dieter Daniels zum Leipziger Freiheits-/Einheitsdenkmal und dem Holocaust-Mahnmal-Konflikt Kohl/Serra) destilliert, drei neue Artikel. Fotografenverzeichnis-Zweig und Ittigs Bildsprachen-Ordner als reiner Bildfundus/zu unzuverlässig geschlossen. **99./100. Lauf (30.08.2026):** Zeile 74 Rest (zwei Dateien, Land-Art-Vertiefung Fulton/Goldsworthy/Prigann) und Zeile 72 Flandern-Studienreise-Reader (Sieben-Bauten-Kanon Robbrecht&Daem/van Duysen/Beel/Conzett/Toyo Ito, Brügge Kulturhauptstadt 2002) destilliert. **101. Lauf (30.08.2026):** Zeile 76 (Systemik übriger Bestand) destilliert — Luhmannsche Systemtheorie-Grundlagen (Beobachtung, Autopoiesis, operative Geschlossenheit, funktionale Differenzierung, Organisations-Entscheidungsprämissen, sechs Interventionsstufen nach Hafen). **102. Lauf (30.08.2026):** Zeile 68 (`08_Design`, 733 Dateien) begonnen — vier von 128
+Fliesstext-Dateien gelesen (Rietveld, Breuer, Bauhaus, Mies van der Rohe/Lilly Reich),
+destilliert zu einem neuen Artikel zur Stahlrohrmöbel-Genealogie 1917-1930. **103. Lauf
+(30.08.2026):** Zeile 68 fortgesetzt — sieben weitere Personenartikel gelesen (Alvar Aalto,
+Charles/Ray Eames, Arne Jacobsen, Eileen Gray, Josef Frank, Vico Magistretti, Gio Ponti),
+destilliert zu vier neuen Artikeln: organische Schichtholz-Moderne Aalto/Eames/Jacobsen (mit
+dokumentiertem Einfluss Eames→Jacobsen «Ameise»), Eileen Gray (Lack zu Stahlrohr/E.1027), Josef
+Frank (Wien zur Schwedischen Moderne/Svenskt Tenn), italienisches Nachkriegsdesign
+Magistretti/Ponti (Cassina/Domus/Triennale). Damit elf von 128 Fliesstext-Dateien gelesen, rund
+90 weitere Personenartikel (u. a. Hoffmann, Mackintosh, Le Corbusier als Möbeldesigner) sowie
+ein `bilder`-Unterordner und diverse `~$`/`.tmp`-Sicherungsdateien ohne Fachwert bleiben offen;
+Zeile 68 bleibt offen. Eine sechste P1-Position (eigener Stimm-Text) bewusst nicht in dieser KB
+destilliert, s. `QUESTIONS.md`. **104. Lauf (30.08.2026):** `hoffmann.htm`, `wiener_werkstätte.htm`
+und `gropius.htm` gelesen, zu einem neuen Vergleichsartikel Wiener Werkstätte gegen Bauhaus
+destilliert (Reformwurzel Arts and Crafts identisch, Ausgang gegensätzlich: Werkstätte bleibt
+handwerkliches Luxusprodukt, Bauhaus zielt auf Serienfertigung). Damit 14 von 128
+Fliesstext-Dateien gelesen, rund 87 weitere Personenartikel (u. a. Mackintosh, Le Corbusier als
+Möbeldesigner, Sottsass) bleiben offen; Zeile 68 bleibt offen. **105. Lauf (30.08.2026):**
+`mackintosh.htm` und `le_corbusier.htm` gelesen, zu zwei neuen Artikeln destilliert: Mackintosh
+(The Four, Glasgow School of Art in zwei Bauphasen, Gesamtkunstwerk-Prinzip, Kontaktpunkt zu
+Hoffmann/Wiener Sezession 1900) und Le Corbusier/Perriand/Jeanneret-Möbelserie 1927-1929 (Grand
+Confort, B306, Drehstuhl, Produktion Thonet-Mundus, Cassina-Revival ab 1965; Sterbejahr-Diskrepanz
+1968 vs. 1965 gegen Sauter-Kanon dokumentiert). Damit 16 von 128 Fliesstext-Dateien gelesen, rund
+85 weitere Personenartikel (u. a. Sottsass, Rams, Zanuso, Wirkkala, Saarinen) bleiben offen; Zeile
+68 bleibt weiterhin offen. **106. Lauf (30.08.2026):** `sottsass.htm`, `ruhlmann.htm` und
+`kaare_klint.htm` gelesen, zu zwei neuen Artikeln destilliert: Sottsass (Olivetti-Industriedesign,
+Studio Alchimia, Memphis-Gruppe, Radical Design) sowie eine Gegenüberstellung Ruhlmann
+(Art déco, Luxuslinie) gegen Kaare Klint (skandinavischer Funktionalismus aus Körpermass-Analyse,
+Wurzel der späteren dänischen Designergeneration Wegner/Juhl). Damit 19 von 128 Fliesstext-Dateien
+gelesen, rund 82 weitere Personenartikel (u. a. Rams, Zanuso, Wirkkala, Saarinen, Russell,
+Svenska/Schweden-Sammelartikel) bleiben offen; Zeile 68 bleibt weiterhin offen. **107.-109. Lauf
+(30.08.2026):** `svenska.htm`/`rams.htm`/`russell.htm`, `saarinen.htm`/`franck.htm`/`starck.htm`,
+`zanuso.htm`/`wirkkala.htm`/`paris_1925.htm` gelesen — sechs neue Artikel (nationale
+Designverbände Russell/DIA/Svenska Slöjdföreningen, Dieter Rams/Braun/Ulm, Saarinen/Eames/Knoll,
+Kaj Franck/Arabia, Philippe Starck, Marco Zanuso/Sapper/Brionvega, Tapio Wirkkala/Iittala, Paris
+1925 Art déco). Details KORPUS-QUEUE.md/CHANGELOG. **110. Lauf (30.08.2026):** drei kleinste
+verbliebene Dateien nach Grösse gelesen — `el_lissitzky.htm` (Proun-Konzept, russischer
+Konstruktivismus, einziger Möbelentwurf Leipziger Stuhl 1930), `terragni.htm` (italienischer
+Rationalismus, Möbel für Casa del Fascio/Sant'Elia-Schule, Kontrast zu Breuer/Mies im selben
+Material Stahlrohr) und `panton.htm` (Verner Panton, Stapelstuhl 1960 als erster einteiliger
+Spritzguss-Kunststoffstuhl, Fritz Hansen/Vitra/Herman Miller). Drei neue Artikel. Damit 31 von
+128 Fliesstext-Dateien der Zeile 68 gelesen. **111. Lauf (30.08.2026):** `carlo_bugatti.htm`
+(italienischer Art nouveau, exotische Materialien/Kreisformen, Turin 1902), `scott.htm`
+(Douglas Scott, britisches Nachkriegs-Industriedesign, Routemaster-Bus) und `arad.htm` (Ron
+Arad, Ready-made-Möbel aus Altmaterial, One-Off, Übergang zur Serienfertigung bei Vitra/
+Moroso) gelesen, drei neue Artikel, dazu Rückverlinkung im bestehenden Terragni-Artikel
+ergänzt (italienische Möbeldesign-Zeitachse Bugatti→Terragni→Sottsass). Damit 34 von 128
+Fliesstext-Dateien der Zeile 68 gelesen, rund 67 Personenartikel bleiben offen. **112. Lauf
+(30.08.2026):** drei kleinste verbliebene Dateien gelesen — `mariscal.htm` (Javier Mariscal,
+spanisches Post-Franco-Design, Memphis-Anschluss 1981, Maskottchen Barcelona 1992),
+`brandt.htm` (Marianne Brandt, Bauhaus-Metallwerkstatt, Serienproduktions-Prinzip,
+Alessi-Reeditionen) und `pesce.htm.htm` (Gaetano Pesce, radikales Design, Serie «Up» 1969,
+Polyurethan-Material-Experimente). Drei neue Artikel, dazu Rückverlinkung im
+Sottsass-Artikel ergänzt (Mariscal/Pesce als Memphis-/Anti-Design-Zeitgenossen). Damit 37
+von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 64 Personenartikel bleiben offen.
+**113. Lauf (30.08.2026):** sechs vom 112. Lauf empfohlene Kandidaten gelesen —
+`nizzoli.htm`/`colombo.htm` (italienisches Industriedesign zweiter Generation: Nizzoli/
+Olivetti-Büromaschinen Lexicon 80/Lettera 22, Colombo/Wohnen-als-System Total Furnishing
+Unit 1971, gemeinsamer neuer Artikel), `0tto_wagner.htm` (als Ergänzung im bestehenden
+Wiener-Werkstätte-Artikel eingearbeitet statt neuem Artikel — Wagner als Lehrer Hoffmanns/
+Olbrichs und eigenständiger Möbel-Designer der Postsparkasse Wien, Duplikatabgrenzung zum
+theorielastigen Otto-Wagner-Artikel der Architekturtheorie-Sektion dokumentiert),
+`nelson.htm` (George Nelson, Herman-Miller-Design-Direktor, Storagewall, löst den bisher
+offenen Nelson-Verweis im Aalto/Eames/Jacobsen-Artikel auf), `teague.htm` (Walter Dorwin
+Teague, Begründer des amerikanischen Industriedesign-Beraterberufs, löst den Verweis im
+Douglas-Scott-Artikel auf) und `postmoderne.htm` (Überblicksartikel zur internationalen
+Design-Postmoderne: Jencks-Begriff, Studio Alchimia/Memphis, Kukkapuro/Weil/De Lucchi/
+japanische Postmoderne, Rückverlinkung im Sottsass-Artikel ergänzt). Fünf neue Artikel, ein
+bestehender Artikel ergänzt. Duplikatscheck vorab (`grep -rli` gegen alle sechs Namen über
+`wiki/*.md`): keine Dubletten, nur der bereits bekannte Otto-Wagner-Theorieartikel als
+Nachbarthema. Damit 43 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 60
+Personenartikel bleiben offen. **114. Lauf (30.08.2026):** `citterio.htm`/`sason.htm`/
+`dreyfuss.htm` gelesen, zwei neue Artikel (Antonio Citterio/B&B Italia/Kartell/Vitra; Sason/
+Dreyfuss beratendes Industriedesign/Anthropometrics). Damit 46 von 128 Fliesstext-Dateien
+gelesen, rund 82 Personenartikel bleiben offen. **115. Lauf (30.08.2026):** drei kleinste
+verbliebene Dateien gelesen — `post.htm` (kein Personenportrait, sondern das zweite
+Unterkapitel des bereits bekannten Postmoderne-Quellenkapitels: sozioökonomische
+Kommerzialisierung des Designerbegriffs in den 1980ern, Alessi, Design Museum London,
+High-Tech-Stil neben Post-Memphis, Ende der Designerkultur-Blase Anfang der 1990er,
+Globalisierung des Designs), `sipek.htm` (Bořek Šípek, dekoratives Design der 1990er
+zwischen Barock/Rokoko, Vitra/Driade/Néotu, Gegenpol zu Sottsass/Memphis) und `grange.htm`
+(Kenneth Grange, britische Produktdesign-Profession, Kodak/Kenwood/British-Rail-125,
+Vergleichsfall zu Teague/Douglas Scott). Drei neue Artikel, dazu Rückverlinkung im
+bestehenden Postmoderne-Artikel ergänzt (Verweis auf das Schwesterkapitel `post.htm`).
+Duplikatscheck vorab (`grep -rli` gegen alle drei Namen über `wiki/*.md`): keine Dubletten.
+Damit 49 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 79 Personenartikel bleiben
+offen. `git diff --numstat` auf die Inventardatei zeigt `0 0` (Sammelzeile unverändert,
+Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE). **130. Lauf (30.08.2026): Zeile 68
+abgeschlossen.** Die vier letzten Positionen (`dunand.htm`, `deskey.htm`, `bugholz.htm`,
+`day.htm`) gelesen, vier neue Artikel (Jean Dunand, Donald Deskey, Bugholz-/
+Schichtholz-Technikgeschichte Thonet–Isokon–Wegner, Robin/Lucienne Day). **Damit sind alle
+128 inhaltstragenden Dateien der Zeile 68 gelesen — die gesamte Sektion `02_Kunst_Geschichte`
+(P1 und P2) ist damit vollständig abgearbeitet.** Details CHANGELOG 30.08.2026. **Nächster
+Lauf:** neue Sektion gemäss Queue-Regel — Kandidaten laut Nachprüfung 130. Lauf: die rund 100
+offenen P2-Vorlesungsmitschriften in `02_Architekturtheorie` (Zeile 04 dieser Tabelle) oder
+eine der laut `QUESTIONS.md` 260823 #1 noch nicht inventarisierten `archiv-fachwissen`-
+Sektionen. |
+`raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` |
 
 ### Mittelschicht (P1 einstellig, hohe Dichte)
 
 | # | Sektion | Korpus | P1 / gesichtet | Was drinsteckt | Inventar |
 |---|---|---|---|---|---|
 | 10 | `02_Denkmalpflege` | archiv | 8 / 156 | Der ETH-Studienapparat zur Vorlesung Hassler liefert mit dem SIA-Merkblatt 2017 «Erhaltungswert von Bauwerken», der SVTSM-Trockenmauer-Richtlinie samt Devisierungskapitel, den Kalk- und Pigmentrezepturen von Glaser und der Begriffssystematik Petzet/Mader vier sofort einsetzbare Bausteine für die Bestandsarbeit. | `raw/inventar/archiv-fachwissen__02_Denkmalpflege.md` |
-| 11 | `01_Staedtebau` | archiv | 8 / 51 (von ~8'800 Gesamtbestand, nur 51 einzeln geöffnet) | Städtebau-Studienarchiv ETH (Lampugnani/Christiaanse); eigenes Städtebau-Glossar, Analyseraster, ein städtebauliches Manifest von 2014. | `raw/inventar/archiv-fachwissen__01_Staedtebau.md` |
+| 11 | `01_Staedtebau` | archiv | 8 / 57 (von ~8'800 Gesamtbestand, nur 57 einzeln geöffnet) — **P1 vollständig destilliert 29.08.2026; P2-Positionen 1, 2, 8, 13, 14 vollständig, 3 zu zwei Fünfteln, 4 fünfundzwanzig von 33, Sonne-Dossier vollständig inkl. Hauptartikel «Dwelling in the Metropolis» (30.08.2026, achtzehn Läufe)** | Städtebau-Studienarchiv ETH (Lampugnani/Christiaanse); eigenes Städtebau-Glossar, Ortsanalyse- und Siedlungsstrukturraster, Projektstart-Checkliste, Stadttypen-Systematik, Blockrand-/Aufenthaltsqualitäts-Argumentation aus dem Manifest «Die Athmosphärische Stadt» 2014. P2: Gartenstadtbewegung, utopische Stadtentwurfs-Typologie/Garnier, Wettbewerb Gross-Berlin, Berlage/Amsterdamer Schule, monumentale Stadtachsen Haussmann/City Beautiful (Position 8, ergänzt um Primärzitate Bellamy und Hegemann/Peets); DTV-Atlas-Konkordanz (Position 14); Manifest-Ergänzung (Position 13); barocke Stadtplanung/Platztypologie, Berlin Schinkel-Lenné-Hobrecht, Determinanten-Ergänzung (Position 1, Jans-Reader); Antike Stadtgründungstypen, Plantypen-Glossar, Begriffstrias Stadtgründung/-erweiterung/-umbau, Bruno-Taut-Stadtkrone/Migge-Volkspark (Position 2, Übungsheft, **abgeschlossen** — Block 17 «Städtisches Wohnen Frankfurt» fehlt als Datei im Bestand); Sitte/Stübben/Curdes-Platztheorie (Position 3, Krier/Nolli über 20 MB dauerhaft blockiert); Jacobs-Park-/Nachbarschaftstheorie, Lynch-Bild-der-Stadt, Corboz-Planer-Architekten-Metropole-Schweiz, Octavia-Hill-Freiraumtypen, Hirschfeld-Bern-Lauben, Stuart-Londoner-Platzkritik, Von-Moos-Lampugnani-Debatte, Pawley-Stealth-Architektur, Eitelberger-Städtebau-Historiographie, Adolf-Behne-Zweckbau-Dreistufenmodell (Position 4, achtzehn von 33 Autorendossiers plus drei leere Ordner identifiziert, HSLU-Modul «Gebautes Umfeld» 2007 sowie eigenständige Primärquellenfunde 1769-2011). Ausserhalb der Autorendossiers, aus der unzugeordneten Datei `kapitel01_dk_vorindustrielle_120dpi.pdf` (Wiese/Zils «Deutsche Kulturgeographie» 1987, jetzt **vollständig destilliert, drei Artikel**): Ostkolonisation/mittelalterliche Stadtgründung/Hanse (Unterkapitel 3), römische Grundlagen/Völkerwanderung/fränkische Expansion (Unterkapitel 1/2) sowie neu Wüstungsperiode/Bergstädte/Fugger/Absolutismus/Residenzstädte/Aufstieg Brandenburg-Preussens (Unterkapitel 4/5, 30.08.2026, zwanzigster P2-Lauf); aus `Waldenheim/`: Landscape-Urbanism-Reader (Waldheim/Shane/Shannon/Berger, erster Fund dieser Sektion zur zeitgenössischen Bewegung). Rest-P2 offen: Position 4 (15 Autorendossiers, davon Rossi vor Destillation gegen bestehende Artikel zu prüfen), 5 (Platz-Materialbestand), 3 (Krier/Nolli blockiert). Separat, aus dem als eigene ETH-Quellenanthologie erkannten `Quellentextband-1.pdf` (Lampugnani-Professur 1996): **30. Lauf fand das vollständige Inhaltsverzeichnis (54 benannte Positionen Homer bis Max Weber, S. 7-8 der Anthologie) und ersetzt damit die bisherige Schätzung «ca. 50/rund 28 offen»**. Stand nach dem 34. Lauf: 29 Positionen destilliert oder begründet ohne Artikel abgeschlossen (Max Weber, Manuel da Maia, Vitruv, Frontinus, Filarete, Alberti, Dürer, Vauban, Palladio, Descartes, Ludwig XIV., Campanella, Dézallier d'Argenville, Aristoteles, Digesta, Al-Farabi, Ibn Abdun, Ibn Dschubair, Al-Ghazali ohne Artikel, Ibn Chaldun x2, Francesco di Giorgio Martini, Bern Handfeste/Satzungenbuch, Siena Baupflege-Dokumente, Lex Iulia Municipalis, Regensburg/Vita Meinwerci, Vita Nicolai V, Hippokrates, Koran-Auszüge ohne Artikel, Enea Silvio Piccolomini/Wien-Deutschland-Tivoli, neu Campano/Pienza, Pero Tafur ohne Artikel), **25 vollständig offen** — vollständige Positionsliste mit gedruckten Seitenzahlen im 30.-Lauf-Abschnitt der Inventardatei. Betriebsbefund: Seitenangaben in der Inventardatei sind **gedruckte Buchseiten**, PDF-Seitenindex = gedruckte Seite + 4; der `pages`-Parameter des Read-Tools scheitert an fehlendem `pdftoppm` im PATH dieser Lane-Session, funktioniert aber über den vollen Pfad `/opt/homebrew/bin/pdftoppm` (30. Lauf). **Nachtrag 40. Lauf:** seither zusätzlich destilliert Pacioli, Serlio, Castiglione, Münster, Specklin, Vasari il Giovane, Leonardo da Vinci, Herodot (Babylon/Ägypten/Samos); ohne Artikel geschlossen Aventinus, Olivier de Serres, Homer. **Nachtrag 41. Lauf:** zusätzlich destilliert Thukydides (Mauerbau/Peiraieus/Synoikismos). **Nachtrag 42. Lauf:** zusätzlich destilliert Cicero, Vom Staatswesen (Stadtdefinition/drei Staatsformen, Romulus' Binnenlage-Entscheid am Tiber statt Küste). **Nachtrag 43.-50. Lauf:** zusätzlich destilliert Aristophanes/Die Vögel, Xenophon/Cyropädie, Platon/Die Gesetze, Kritias/Atlantis, Polybios/Militärlager, Varro/De lingua latina, Livius/Camillus-Standortrede, Seneca/Erdbeben Pompeji 62 n. Chr., Plinius d. Ä./Alexandria-Gründung Dinocrates und Roms Infrastruktur-Wunderwerke (Cloaca Maxima), Plutarch/Romulus (Ortsstreit Palatin/Aventin, Asyl-Institution, Mundus-Ritual als narrative Parallele zu Varro) — nach dem 50. Lauf bleiben aus der Namensliste offen: Tacitus, Plinius d. J., Strabo, Juvenal, Sueton, Pausanias, Achilleus Tatius, Ausonius, Salvianus, Francesco Colonna/Hypnerotomachia (10 Positionen, Detail im 50.-Lauf-Abschnitt der Inventardatei). **Nachtrag 51.-55. Lauf:** zusätzlich destilliert Tacitus (Brand Roms/Neros Bauordnung), Plinius d. J. (Vesuvausbruch 79 n. Chr.), Strabo (Servianische Mauererweiterung/Augustus-Bauhöhenlimite), Juvenal (Mietshaus-Baufälligkeit/Brandgefahr), Sueton (Forum/Mars-Ultor/Vigiles/Regionenverwaltung) — offen bleiben Pausanias, Achilleus Tatius, Ausonius, Salvianus, Francesco Colonna/Hypnerotomachia (5 Positionen). Die bisherige Einzelzahl-Zählung "X von 54" ist über die Läufe abgedriftet (Detail und korrigierte Namensliste offener Positionen: `wiki/QUESTIONS.md` #74, 41.-Lauf-Abschnitt der Inventardatei) — künftige Stände dort, nicht hier, nachführen. | `raw/inventar/archiv-fachwissen__01_Staedtebau.md` |
 | 12 | `17_Projektbeschriebe` | buero | 7 / 18 | Die Sektion enthält genau ein Projekt, dafür das vollständige Set der Projektbeschriebe aller Fachplaner der Schulanlage Leutschenbach, verdichtet zum revidierten Gesamtdossier vom 09.12.2009, mit belegten Fassaden-, Minergie-, Tragwerks- und Lüftungswerten. | `raw/inventar/buero-referenzen__17_Projektbeschriebe.md` |
-| 13 | `01_Entwerfen` | archiv | 6 / 1'246 | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
+| 13 | `01_Entwerfen` | archiv | 6 / 1'246 — **P1 vollständig destilliert 29.08.2026, fünf Artikel** | Entwurfs-/Farb-/Ornamenttheorie-Archiv HTA/ETH 2000–2021; büroverwertbarer Kern sind Flächenerfassungs-Richtlinien, Baubeschriebe und Wohnungsschlüssel-Kennwerte. Datenschutz-Funde vermerkt (s. u.). P2 (elf Positionen: Ausbau-Variantenvergleich, Raumtypologie-Vorlesung, SEALS-Aussenraum-Aufsatz, Wohnweisen-Vorlesungsreihe, Fachglossare Farbe/Pigmente, Farbenlehre-Website, Ornamentik-Literaturliste, eigene Ideentexte, Class-A-Problem-Vokabular, Ikonographie-Raster u. a.) offen. | `raw/inventar/archiv-fachwissen__01_Entwerfen.md` |
 | 14 | `25_Wettbewerb` | buero | 5 / 17 | Zwei vollständige Ausschreibungspakete öffentlicher Bauherrschaften von 2009 (selektiver Studienauftrag Zeughaus Ebnet, offener Projektwettbewerb Naturmuseum St.Gallen) zeigen Programmaufbau, Raumprogramm im SIA-416-Raster, Zeittarif-Mechanik und die Kritik der SIA-Kommission 142 im Genehmigungsvermerk. | `raw/inventar/buero-referenzen__25_Wettbewerb.md` |
-| 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Dachbegrünung, Pflanzenlisten und ein Gartenanalyse-Raster (Vogt-Broschüren). Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
-| 16 | `01_Tragwerk` | archiv | 4 / 1'098 | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen und Formfindung. Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
+| 15 | `01_Landschaftsarchitektur` | archiv | 4 / 826 — **P1 vollständig destilliert 29.08.2026, vier Artikel; P2 seit 30.08.2026 (zwei Läufe), vier weitere Artikel** | ETH-Studienarchiv Landschaftsarchitektur; büroverwertbar sind Belagsaufbauten, Naturstein-Materialkunde, Baumpflanzung/Kletterpflanzen und eine Pflanzenliste (Vogt-Broschüren, alle P1). P2 destilliert: Baumschutz-Bewilligungsschwelle Stadt Luzern 2008, Gehölz-Kurzwissen (Baumaufbau/Artenverteilung LFI 1996), Vogt-Referenzblatt-Format (drei echte Projektblätter; die vierte in der Triage genannte Datei war bei Prüfung Hersteller-Marketing FOAMGLAS®, nicht destilliert), Gartenanalyse-Raster (fünf Kategorien, methodisch). Dachbegrünung als Cross-KB-Duplikat zu `bauprodukte/dachbegruenung-systeme.md` erkannt, nicht erneut destilliert. Datenschutz-Fund: Lieferantenliste mit **Zugangspasswort im Klartext**, nicht erfasst (s. u.). P2 rund 19 der ursprünglich 24 Positionen offen (Topografie-/Renaissance-Prüfungsskripte, Ökologische-Gärten-Notiz, Irchelpark-Lehrunterlage, OCR-Blocker Irchelpark-Bepflanzung). | `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` |
+| 16 | `01_Tragwerk` | archiv | 4 / 1'098 P1, 13/31 P2 — **P1 vollständig destilliert 29.08.2026 (zwei Artikel), P2 in vier Läufen 30.08.2026 (zwölf weitere Artikel/Ergänzungen)** | Grösstenteils leeres Ordnungsgerüst; belegter Kern ist der Arbeitsbestand aus einer Assistenz bei Prof. Schwartz (ETH) zu historischen Holzdachstühlen (Grubenmann-Kirchen, inkl. Knotenpunkt-Details), Werkverzeichnis der Grubenmann-Brücken (Schaffhauser Rheinbrücke), Tragwerksentwurf-Philosophie (Plastizitätstheorie, Eleganz im Brückenbau), Formfindungsmethode nach Frei Otto (Fallbeispiel Stuttgart 21), einem Literaturregister Holzbau, einem Werkregister Schwartz'scher Bauten 1992-2011, einem Erläuterungstext-Muster (Counterpoise), einer Aufgabenstellungs-Gliederung mit Randbedingungen (Bridging the Gap), einer Formfindungstaxonomie digitaler Holzkonstruktion (Eierschneider/Falt/Kassetten/Flecht), einem Werkregister Bieler-Holzbrücken, einem Werkregister Christian Menn (Stabbogen-vs-Hohlkasten) und dem Ähnlichkeitsgesetz Struktur-Modell (Galileo-Bezug). Mehrere Datenschutz-Funde (Stundenzettel, privater Schriftverkehr), nicht erfasst (s. u.). P2 (18 Positionen offen, u. a. drei Kraftfluss-Darstellungsvarianten und ein 109-seitiger Reader ohne lesbaren Seitenbereich — fehlendes `poppler`). | `raw/inventar/archiv-fachwissen__01_Tragwerk.md` |
 | 17 | `00_Allgemein` | archiv | 3 / 19 | Meta-Ebene des Archivs: Ordnungslogik (24 Hauptordner) und ein eigenes 14-teiliges Fachsystematik-Konzeptpapier von 2011, kein Fachinhalt im engeren Sinn. | `raw/inventar/archiv-fachwissen__00_Allgemein.md` |
-| 18 | `02_Architektur_Vermitteln` | archiv | 3 / 85 | Lehrmaterial zur Vermittlung: Rhetorik, Moderation, Protokoll, Geschäftskorrespondenz, wissenschaftliches Arbeiten — direkt anschlussfähig an mehrere JANS-Skills. Datenschutz-Fund: private Kontaktdaten Dritter auf Studienarbeits-Titelblättern, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__02_Architektur_Vermitteln.md` |
+| 18 | `02_Architektur_Vermitteln` | archiv | 16 / 85 | Lehrmaterial zur Vermittlung: Rhetorik, Moderation, Protokoll, Geschäftskorrespondenz, wissenschaftliches Arbeiten — direkt anschlussfähig an mehrere JANS-Skills. **P1 und P2 vollständig destilliert 30.08.2026** (7 Artikel für 13 P2-Positionen, 3 für P1). Datenschutz-Fund: private Kontaktdaten Dritter auf Studienarbeits-Titelblättern, nicht erfasst (s. u.). | `raw/inventar/archiv-fachwissen__02_Architektur_Vermitteln.md` |
 | 19 | `12_Masse` | buero | 2 / 11 | Acht gescannte Seiten einer Konstruktionslehre Hochbau tragen die Achs- und Wandabstände von Sanitärapparaten in den drei Stufen Minimum, Durchschnitt und Komfort über sieben Nasszellen-Grundrisstypen, dazu Montagehöhen und hindernisfreie WC-Masse; die übrigen neun Dateien sind Dubletten oder unbelegt. | `raw/inventar/buero-referenzen__12_Masse.md` |
 | 20 | `21_Rhino` | buero | 2 / 180 | Ein geschlossenes McNeel-Lernpaket zu Rhinoceros 4.0 ohne jeden Architekturbezug, dessen schmaler büroverwertbarer Kern die Planausgabe-Kette (Make2D, Page Layout, Massstab, Print Width) und die Exportregeln samt Meshing-Toleranzfalle sind. | `raw/inventar/buero-referenzen__21_Rhino.md` |
 | 21 | `02_Bibliothek` | archiv | 2 / 6'947 | Mit 6'947 Dateien die grösste, aber dünnste Sektion: sie verwaltet eine Bibliothek statt sie zu sein, und trägt drei Nester (Grundrisskompendium Wohnhochhaus ETH HS14, Neufert-Scan, INSA-Inventar Zürich 1850 bis 1920) sowie 287 kuratierte Seminarreise-Reader. | `raw/inventar/archiv-fachwissen__02_Bibliothek.md` |
@@ -101,7 +198,7 @@ jeweiligen Inventar unter «Triage».
 |---|---|---|---|---|---|
 | 23 | `15_Oberflaechenbehandlung` | buero | 0 / 1 | Eine einzige, fachlich dichte Aktennotiz einer Betontechnologin von 2007 trennt die Nachfixierung trockener Sichtbetonflächen mit Kaliwasserglas von der oliophoben und hydrophoben Imprägnierung spritzwasserexponierter Flächen und ist nur wegen Preisstand 2007 und fehlendem Preisanhang P2 statt P1. | `raw/inventar/buero-referenzen__15_Oberflaechenbehandlung.md` |
 | 24 | `19_Puplikationen` | buero | 0 / 4 | Ein abgeschlossenes Altbestands-Nest ohne JANS-Eigenbezug, dessen Layout-Andruck sechs Schweizer Einfamilienhäuser 2005 bis 2007 mit Flächen, Terminen und vollständigen Planerteams belegt, während die drei El-Croquis-Scans mangels Titel und Textebene nicht zitierfähig sind. | `raw/inventar/buero-referenzen__19_Puplikationen.md` |
-| 25 | `11_Landschaftsarchitektur` (buero) | buero | 0 / 1 | Die Sektion besteht aus einem einzigen Fremd-Projektblatt von Vogt Landschaftsarchitekten zum Bahnhofplatz Landquart, verwertbar allein wegen des belegten Beschriebs des roten Terraton-Belags mit Ziegelbruch und des sauberen Projektdatenblatt-Layouts. **Achtung Namenskollision:** nicht zu verwechseln mit `01_Landschaftsarchitektur` (archiv, Zeile 15), anderer Korpus. | `raw/inventar/buero-referenzen__11_Landschaftsarchitektur.md` |
+| 25 | `11_Landschaftsarchitektur` (buero) | buero | 0 / 1 — **vollständig destilliert 30.08.2026** | Die Sektion besteht aus einem einzigen Fremd-Projektblatt von Vogt Landschaftsarchitekten zum Bahnhofplatz Landquart, destilliert zusammen mit zwei weiteren Vogt-Projektblättern aus der Schwestersektion zu `wiki/vogt-referenzblatt-format-herkunft-material-identitaet.md`. **Achtung Namenskollision:** nicht zu verwechseln mit `01_Landschaftsarchitektur` (archiv, Zeile 15), anderer Korpus — dieselbe Datei lag in beiden Korpora vor, in einem Lauf gemeinsam abgearbeitet. | `raw/inventar/buero-referenzen__11_Landschaftsarchitektur.md` |
 | 26 | `31_Klimadaten` | buero | 0 / 2 | Zwei Einzelgrafiken ohne ein einziges Textdokument, von denen nur das Sonnenpfad-Diagramm Zürich mit den zeitinvarianten Kulminationshöhen (rund 66 Grad, 43 Grad, 20 Grad) brauchbar ist, und dies ohne Quellenangabe und damit nicht als Beleg. | `raw/inventar/buero-referenzen__31_Klimadaten.md` |
 | 27 | `06_Reisen` | archiv | 0 / 132 (P2 9, P3 24, X 99) | Arbeitsordner zweier privater Studienreisen 2013 (USA, Toskana) plus Veneto-Planung; methodisch verwertbar ist höchstens die Reise-/Exkursionsplanung (Factsheet, Stundenraster). **Starker Privatunterlagen-Befund** (Pass-/ESTA-/Buchungsdaten, s. u.) — vor jeder Destillation die Kurator-Prüfung nach Spec Punkt 8 durchführen; im Zweifel auch die P2-Reste nicht destillieren. | `raw/inventar/archiv-fachwissen__06_Reisen.md` |
 
@@ -438,8 +535,2620 @@ Norm-Originale (SIA 112/102/416/142/500, VKF, VSS) gemäss Abgrenzung nicht dest
 Ein Cross-KB-Fund (Grobkostenmethodik-Fachtext Raphael Jans → `wissen/grobkosten`) und ein
 Entwickler-Testfixture (SIA-451) sind nicht als Wiki-Artikel, sondern in
 `wiki/QUESTIONS.md` #33–#36 vermerkt. **Damit ist Sektion `03_Bauprozesse_I_II` ohne
-weiteren eigenständigen offenen P1-Artikel; P2 bleibt vollständig offen.** Nächster Lauf
-gemäss Spec-Plan: `wiki/INDEX.md` «Sektionen nach Ertrag» für alle 20 archiv-fachwissen-
-Inventardateien neu aufbauen (aktuell nur zwei erfasst), danach die übrigen Sektionen nach
-Ertrag ordnen und abarbeiten — Vorsicht bei `04_Politik`/`05_Kultur_Gesellschaft_Stil`/
-`06_Reisen`/`07_Religion` (Privatunterlagen-Vorbehalt).
+weiteren eigenständigen offenen P1-Artikel; P2 bleibt vollständig offen.**
+
+**Register-Nachführung 29.08.2026 (Lane FACHWISSEN, selber Tag, Fortsetzung):**
+`wiki/INDEX.md` «Sektionen nach Ertrag» für alle 20 archiv-fachwissen-Inventardateien
+neu aufgebaut (siehe oben — zuvor waren nur vier archiv-Sektionen erfasst). Ergebnis:
+die beiden grössten bisher unbekannten Funde, `02_Gestalt_Kulturverstaendnis` (146 P1)
+und `01_Konstruktion` (101 P1), überholen `03_Bauprozesse_I_II` (58) als Träger der
+Rangfolge. Beide wurden im selben Lauf destilliert (Details in den zwei folgenden
+Absätzen).
+
+**Dritter und vierter Destillat-Lauf Korpus `archiv-fachwissen` 29.08.2026 (Lane
+FACHWISSEN, selber Tag, parallel durch zwei Unterläufe bearbeitet):**
+
+*Sektion `01_Konstruktion`* — vier P1-Positionen (101 Dateien) auf neun Wiki-Artikel
+verteilt, alle `status: speculative` (Normstand 1991–2010, vor Verwendung gegen
+aktuelle Norm zu prüfen):
+
+- [[fassadensysteme-typologie-sechs-systeme-hta-luzern]] — sechs Fassadensysteme mit
+  Konstruktionsprinzip und sieben Systemanbietern
+- [[anforderungskatalog-fenster-fassade-sechs-interessengruppen-gkp]] —
+  Anforderungsraster Architekt/Bauherr/Nutzer/Bauphysik/Sicherheit/Bauablauf
+- [[uw-wert-berechnung-und-bauphysikalische-kennwerte-wandaufbauten]] — EnFK-Merkblatt
+  Fenster (Juni 2009) plus Zeitkonstanten-/Speichermassen-Schichtdaten
+- [[funktionale-ausschreibung-verfahrensmethodik]] — Zeitpunkt-Argument und Ablauf für
+  Skill `ausschreibung`
+- [[ahb-planungsgrundlagen-richtlinie-sieben-oekologische-zielvorgaben]] — sieben
+  ökologische Zielvorgaben AHB Stadt Zürich (Datum im Dokument verifiziert: 12.10.2005)
+- [[fassaden-feuchteschutz-sia-180-unterkonstruktion-dehnung-toleranz]] —
+  Feuchteschutz nach SIA 180:1999 plus Unterkonstruktion/Dehnungsformel
+- [[beanspruchungsklassifizierung-fenster-aussentueren-ift-fe-05-1]] —
+  Geländekategorien I–IV, deutsche Richtlinie klar gekennzeichnet
+- [[materialwahl-argumentationsraster-vier-referenzbaustoffe]] — Holz/Stein/Stahl/Glas
+  mit Referenzbauten
+- [[lignatur-hohlkasten-holzelemente-dach-deckenkonstruktion]] — Herstellerhandbuch
+  Hohlkasten-Holzelemente
+
+Der Flachdachaufbau aus `Oblicht.pdf` wurde **nicht** erneut destilliert — MD5-Vergleich
+bestätigt Dateiidentität mit der bereits in `buero-referenzen/09_Konstruktion`
+destillierten Quelle von [[flachdachaufbauten-vier-typen-textbausteine]]. Die
+Detail-CD `01 2D Details` (P2, Rudolf-Müller-Lizenz) bleibt für einen späteren
+P2-Lauf zurückgestellt. Offene Punkte in `wiki/QUESTIONS.md` #37–#40. Fortschritt in
+`raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt «Destillat-Fortschritt».
+
+*Sektion `02_Gestalt_Kulturverstaendnis`* — zehn P1-Positionen (146 Dateien) auf elf
+Wiki-Artikel verteilt, alle `status: emerging`:
+
+- [[typografie-regelwerk-lernskript-jans-2007]] — Makro-/Mikro-Typografie-Regelsatz,
+  eigenes Lernskript 2007, belegte Plakat-Schriftgrössen
+- [[layout-vorgehensmodell-fragestunde-satzspiegel-produktion]] — vierstufiger
+  Layout-Ablauf; Herkunft beim Gegenlesen als geschichtet erkannt (siehe
+  `wiki/QUESTIONS.md` #42)
+- [[wettbewerbsjury-kapitelfolge-gestaltungsplan-zollstrasse-ost-sbb]] — Jurybericht
+  Zollstrasse Ost (SBB, zweistufig, 2014), § 85 PBG-Gestaltungsplan
+- [[wettbewerbsbeschrieb-gliederung-staedtebau-struktur-funktion-material-kuessnacht]] —
+  Gliederungsmuster Städtebau→Freiraum→Struktur→Funktion→Material
+- [[betontechnologie-schwinden-sichtbeton-betonkernaktivierung-betonforum]] —
+  Schwindarten, Sichtbeton-Qualitätsfaktoren, Betonkernaktivierung
+- [[modellfoto-bildregie-perspektive-licht-tiefenschaerfe]] — Perspektive-/
+  Lichtquellen-Entscheidungsfragen, Optikregeln
+- [[begriffsapparat-kant-sprachstil-pruefraster-jans]] — Kant-Prüfraster, Eigentext-
+  Beispiele, zwei geprüfte Architektenzitate
+- [[typografie-glossar-hta-luzern-fachbegriffe-satz-schrift-drucktechnik]] — rund
+  200 Fachbegriffe Satz/Schrift/Drucktechnik A-Z (31.08.2026, sechster Lauf)
+- [[schriftklassifikation-maximilian-vox-formprinzip-serifen-schriftgruppen]] —
+  Vox-Formprinzip-Matrix sechs Hauptgruppen plus Beinert-9-Gruppen-Alternative
+  (31.08.2026, sechster Lauf)
+- [[schriftgeschichte-typografen-genealogie-duerer-gutenberg-garamond-bodoni-frutiger]] —
+  Dürer-Konstruktion bis Frutiger, Schriftgestalter-Chronologie mit Jahreszahlen
+  (31.08.2026, sechster Lauf)
+- [[wortbild-visuelle-poesie-schrift-als-kunst-dada-konstruktivismus-konzeptkunst]] —
+  Dada/Konstruktivismus/konkrete Poesie bis US-Konzeptkunst (Holzer, Weiner, Nauman)
+  (31.08.2026, sechster Lauf)
+
+Das Raumprogramm Naturmuseum St.Gallen wurde **nicht** erneut destilliert — dieselbe
+Datei wie die bereits bestehende Quelle von
+[[raumprogramm-spaltenlogik-sia416-naturmuseum]], nur verlinkt. Offene Punkte in
+`wiki/QUESTIONS.md` #41–#44 (u. a. eine korrigierte Begriffsordner-Zahl 598 statt der
+im Phase-0-Inventar genannten 305). Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md` Abschnitt
+«Destillat-Fortschritt». Sperrlisten-Prüfung beider Sektionen: kein neuer Fund über die
+bereits im Abschnitt «Sperren und Vorbehalte» oben zentral vermerkten Positionen hinaus.
+
+**Damit sind die beiden ertragsstärksten `archiv-fachwissen`-Sektionen destilliert.**
+Nächster Lauf gemäss Ertrag-Tabelle: `03_Bauprozesse_I_II` ist bereits abgeschlossen,
+`02_Architekturtheorie` (21 P1) ist die nächste offene Position in der Trägerschicht,
+danach `10_Protomodern` (13), `02_Architekturgeschichte` (11) und `02_Kunst_Geschichte`
+(11, sehr dünn im Verhältnis zu 27'649 gesichteten Dateien). Vorsicht weiterhin bei
+`04_Politik`/`05_Kultur_Gesellschaft_Stil`/`06_Reisen`/`07_Religion`
+(Privatunterlagen-Vorbehalt, `06_Reisen` mit starkem Befund).
+
+**Fünfter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturtheorie` (Zeile 04
+oben) — Lane FACHWISSEN, selber Tag, Fortsetzung.** Sektion vollständig destilliert: alle 10
+P1-Positionen, acht Wiki-Artikel nach Sache statt Datei, alle `status: emerging`, Quelle die
+eigenen Fragen-Antworten aus Architekturtheorie III/IV (ETH gta, Moravánszky/Hildebrand,
+2011–2014), primär gegen die Originalquellen gelesen (docx via `textutil`, PDF via PyMuPDF):
+
+- [[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]] — Kernform/Kunstform,
+  Bekleidungstheorie, Bekleidungsgesetz, Framptons Tektonik-Begriff, Deplazes-Begriffskonkordanz
+- [[materialwahrheit-stoffwechseltheorie-semper-urtechniken]] — vier Elemente/Urtechniken Sempers,
+  Ehrlichkeits-Einwand Therme Vals
+- [[typus-modell-prototyp-trennschaerfe-architekturtheorie]] — Trennschärfe Typus/Modell/Prototyp
+- [[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]] — fünf Funktionsbegriffs-Lesarten,
+  Fassadendreiteilung als städtebauliches Argument
+- [[ornament-decorum-angemessenheit-loos-semper-riegl]] — Decorum als Angemessenheitsbegriff
+- [[stilbegriff-geschichte-styling-signatur-brand]] — Stilbegriff-Geschichte,
+  Stil/Styling/Signatur/Brand
+- [[genius-loci-ort-raum-nichtorte]] — Genius Loci, Nicht-Orte
+- [[materialitaet-haptisch-optisch-riegl-bandmann]] — haptisch/optisch, Bandmanns
+  Hemmungswiderstand
+- [[textanalyseraster-19-punkte-architekturtheorie]] — eigenes Methodenraster
+- [[begriffskonkordanz-theoretiker-literaturregister-architekturtheorie]] — Begriffs-Konkordanz +
+  Literaturlandkarte, Sammelmappe1.pdf als Kompilat ohne Eigenwert erkannt
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Architekturtheorie.md` Abschnitt
+«Destillat-Fortschritt». Kein Sperrlisten-Fund. P2 bleibt vollständig offen (rund 190
+Vorlesungsmitschriften, 31 Syllabi, Vorlesungsfolien-Sammel-PDF). Nächster Lauf gemäss
+Ertrag-Tabelle: `10_Protomodern` (13 P1).
+
+**Sechster Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `10_Protomodern` (Zeile 06
+oben) — Lane FACHWISSEN, selber Tag, Fortsetzung.** Sektion vollständig destilliert: alle 13
+P1-Positionen, elf Wiki-Artikel nach Sache statt Datei, alle `status: emerging`. Die Sektion
+ist kein Kursarchiv, sondern das private, nie abgeschlossene Manifestprojekt «Protomodern»
+von Raphael Jans (2013/14):
+
+- [[protomodern-projektrahmen-professurenlandkarte]] — Projektidee, Professuren-Landkarte
+  Modern/Proto Modern
+- [[protofunktional-begriff-abgrenzung-funktionalismus]] — Leitbegriff der Sektion
+- [[fuenf-punkte-gegenmanifest-corbusier-jans]] — Gegenmanifest zu Le Corbusier
+- [[atmosphaeren-methode-ortsanalyse-hardware-software-erlebnis]] — Hardware-/Software-
+  Erlebnis als Ortsanalyseraster
+- [[backstein-materialargumentation-zwei-ausdrucksarten]] — Materialargumentation Backstein
+- [[fassadenbeschreibung-methode-laon-rossi-analogie]] — Fassadenbeschreibungsmethode am
+  Beispiel Laon
+- [[kerez-forsterstrasse-einkleidung-gegen-semper-stoffwechseltheorie]] — Einkleidung statt
+  Bekleidung
+- [[bauen-im-bestand-haltungstext-die-stadt-war-vor-uns-da]] — Gast-Gleichnis Bauen im Bestand
+- [[rohbauaesthetik-fassadenverteidigung-fussballstadion-zuerich-adi-meyer]] — Rohbauästhetik-
+  Verteidigung, Fussballstadion Zürich
+- [[entwurfs-phasenmodell-leitidee-iterativ]] — Entwurfs-Phasenmodell
+- [[regel-und-ausnahme-stadtentwicklung-schett-jahreskurs]] — Mechanik des Stadtwachstums
+  (Fremdtext Schett)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__10_Protomodern.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` zeigt `47 0`). Kein
+Sperrlisten-Fund (Sektion enthält laut Kurzbefund keine Verträge/Bewerbungen/Personaldossiers/
+Adress-/Honorardaten; vorkommende Personennamen sind öffentliche Fachpersonen oder
+Seminarteilnehmende mit Pseudonym, Letztere bewusst nicht in einen Artikel übernommen).
+Urheberrecht beachtet: der Fremdtext Schett und die Vortragsmitschrift Adi Meyer sinngemäss
+mit Fundstelle wiedergegeben, nur kurze gekennzeichnete Kernformulierungen direkt zitiert.
+P2 (33 Positionen) bleibt vollständig offen. **Damit ist Sektion `10_Protomodern` für P1
+vollständig destilliert.**
+
+**Siebter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Architekturgeschichte`
+(Zeile 08 oben) — Lane FACHWISSEN, selber Tag, Fortsetzung.** Sektion vollständig
+destilliert: alle 11 P1-Dateien, vier Wiki-Artikel nach Sache statt Datei:
+
+- [[gebaeudeanalyse-raster-situation-volumetrie-grundriss-fassade]] — `status: emerging`,
+  offizielle ETH-Prüfungsaufgabe + Musteranalyse Semper/ETH-Hauptgebäude + Übungsanalyse
+  Haus Steiger, Vier-plus-eins-Raster Situation/Volumetrie/Grundriss/Fassade/Einordnung
+- [[fachglossar-historische-bauteile-kirchenbau-gotik]] — `status: speculative`
+  (Einzelquelle ohne Fachlektorat), 14 Kirchenbau-/Gotik-Begriffe mit Definition
+- [[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]] —
+  `status: emerging`, Autonomie-These der Tessiner Tendenza und die spätere Verschiebung
+  zum Atmosphäre-Begriff (Šik, Zumthor, H&dM-Naturgeschichte)
+- [[objektliste-architekturgeschichte-datierungen-eth]] — `status: emerging`, geprüfte
+  Architekten-Objektliste (Tönnesmann/Hildebrand), bestätigt den im Phase-0-Inventar
+  vermerkten Datierungsfehler im Semper-Portrait (1687-1753 falsch, korrekt 1803-1879)
+
+**Technische Werkzeuglücke auf Station MacBook Pro festgestellt und umgangen:** weder
+`pdftotext`/`poppler` noch Homebrew sind installiert; Read-Tool-Rendering von
+textlayer-losen Scans scheitert deshalb ebenfalls (`pdftoppm` fehlt). Behelf in diesem Lauf:
+`pip install --user pypdf` (kein Homebrew nötig) für Textlayer-PDFs. Ein 26-seitiger echter
+Scan (`architekturgeschichte_begriffe_notizen.pdf`, 0 extrahierbare Zeichen) bleibt trotzdem
+ungelesen — offen in `wiki/QUESTIONS.md`. Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Architekturgeschichte.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` zeigt `45 0`). Kein
+Sperrlisten-Fund. P2 (rund 160 Dateien) bleibt vollständig offen. **Damit ist Sektion
+`02_Architekturgeschichte` für P1 vollständig destilliert — und damit ist die gesamte
+Trägerschicht-Tabelle (Zeilen 01-09) für P1 abgearbeitet.** Nächste Position gemäss
+Ertrag-Tabelle: `02_Kunst_Geschichte` (11 P1, sehr dünn im Verhältnis zu 27'649 gesichteten
+Dateien) — einzige verbliebene Trägerschicht-Zeile, danach folgt die Mittelschicht
+(P1 einstellig, angeführt von `02_Denkmalpflege`, bereits abgeschlossen, und
+`01_Staedtebau`, 8 P1, offen).
+
+**Achter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `02_Kunst_Geschichte` (Zeile 09
+oben) — Lane FACHWISSEN, selber Tag, Fortsetzung.** Fünf der sechs P1-Positionen destilliert,
+vier Wiki-Artikel nach Sache statt Datei, alle `status: emerging` ausser dem ersten
+(`speculative`, Einzelquelle ohne gesicherte Autorschaft):
+
+- [[syntaktik-analyse-raster-design-kunst-architektur-sechs-ebenen]] — `speculative`,
+  sechsstufiges Analyseraster Syntaktik/Syntax/Sigmatik/Ausdrucksqualitäten/Semantik/
+  Pragmatik nach Kerner/Duroy, Wilkens, Ching, Fischer
+- [[bildanalyse-dreischritt-bestand-komposition-interpretation]] — Dreischritt Bestand/
+  Komposition/Interpretation plus Ittigs Fünf-Schritt-Kurzform «Über Bilder sprechen»
+- [[betrachtungsweisen-typologie-quellenmethodik-kunstgeschichte]] — `speculative`
+  (Wikipedia-Kompilat), vier Betrachtungsweisen phänomenologisch/hermeneutisch/
+  strukturalistisch/ikonografisch
+- [[bestand-umbau-argumentationsvorrat-altbau-als-ressource]] — sieben belegte
+  Literaturfundstellen zur These «Umbau statt Neubau», vier Fallbeispiele ohne Kultstatus
+- [[systemische-bauobjektanalyse-wirkungsmatrix-vernetztes-denken]] — fünf Analyseschritte
+  Einflussgrössen/Wirkungsmatrix/Aktivitäts-Vernetzungs-Diagramm, HTA Luzern 2005
+
+**Eine sechste P1-Position bewusst nicht destilliert:** `140706_Protomoderne_Maler.docx`
+(eigener Entwurfshaltungstext von Raphael Jans, 2014) ist laut Inventar-Kurzbefund
+Stimm-Material für den Stilkorpus/Twin-Harness, keine Fachdestillation — Routing-Frage in
+`wiki/QUESTIONS.md` vorgelegt statt stillschweigend übersprungen oder falsch einsortiert.
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Kunst_Geschichte.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` zeigt `33 0`). Kein
+Sperrlisten-Fund über die bereits im Kurzbefund vermerkten drei Personendaten-Fundstellen
+hinaus. P2 (1'876 Dateien) bleibt vollständig offen. **Damit ist Sektion `02_Kunst_Geschichte`
+für P1 vollständig bearbeitet — und damit ist auch die Trägerschicht-Zeile 09
+abgeschlossen.** Nächste Position gemäss Ertrag-Tabelle: Mittelschicht, angeführt von
+`01_Staedtebau` (8 P1, `02_Denkmalpflege` mit ebenfalls 8 P1 ist bereits abgeschlossen).
+
+**Zehnter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Entwerfen` (Zeile 13 oben)
+— Lane FACHWISSEN, 29.08.2026, Fortsetzung.** Alle sechs P1-Positionen destilliert, fünf
+Wiki-Artikel nach Sache statt Datei (zwei P1-Quellen zu einer Sache zusammengefasst, siehe
+unten), alle `status: emerging`, Fundstellen mit Seitenzahl direkt aus den PDF-Textlayern
+extrahiert (`pypdf`, Behelf mangels `pdftotext` auf dieser Station):
+
+- [[flaechenerfassungsrichtlinie-rfb-stadt-zuerich-bewirtschaftungsplaene]] — verbindliches
+  Planlieferungs-Handbuch der Stadt Zürich (IMMO/AHB), Version 16.0/2013: Liefertermine
+  nach SIA-102-Phasen, Flucht-/Rettungssymbol-Layer, GF/NGF-Systematik methodisch (nicht
+  normativ) referenziert
+- [[bauherren-anforderungsprofil-preisguenstiger-wohnungsbau-stiftung-pwg-2016]] —
+  Leitfaden Stiftung PWG Zürich: drei Hebel der Preisgünstigkeit, Grössen-/
+  Belegungstabelle 2.5- bis 5.5-Zimmerwohnungen, Kritik an fliessenden Grossraumgrundrissen
+- [[guenstiger-mietwohnungsbau-flaechenreduktion-hebel-bwo-halter-pensimo-2012]] —
+  BWO/Halter/Pensimo-Studie: kompensatorisches Grundriss-Prinzip, quantifizierte
+  Kosten-/Mietwirkung (−17 % Erstellungskosten, −37 % Miete pro Einheit), umgekehrte
+  Kalkulationslogik Landwert→Miete
+- [[wohnungsschluessel-flaechenkennwert-pruefraster-studienauftrag-freilager-albisrieden]]
+  — fasst zwei P1-Quellen zusammen (Wohnungsschlüssel-Übersicht + Kennwerte-
+  Verknüpfungsblatt, Studienauftrag Teilgebiet C 2010, plus Realisierungs-Flächenblatt
+  Mühlethaler 2017): Vierergliederung Anteile-Mix/Ertragsfläche/Verkleinerungsregel/
+  Überschreitungsausweis, Je-Wohnung-Prüfung statt Durchschnitt
+- [[baubeschrieb-checkliste-vollstaendigkeit-steckdosenliste-seesicht-meggen]] —
+  Vollständigkeits-Checkliste bis zur raumweisen Steckdosenliste, Ergänzung zu
+  [[baubeschrieb-als-kostentraeger]] (dort BKP-Kostenträger-Fokus, hier
+  Vollständigkeits-Fokus)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Entwerfen.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Kein neuer Sperrlisten-Fund über die im
+Phase-0-Inventar bereits dokumentierten vier Personendaten-Fundstellen hinaus (nicht
+destilliert). Der Hinweis auf `00_Ideen`/`00_Entwurfshaltungen` als Twin-Harness-Material
+(eigene Texte Raphael Jans, 2013/14) bleibt unbearbeitet liegen — Routing-Frage, kein
+Fachartikel dieser KB. **Damit ist Sektion `01_Entwerfen` für P1 vollständig destilliert.**
+Nächste Position gemäss Ertrag-Tabelle: weiterhin Mittelschicht, jetzt angeführt von den
+verbliebenen unbearbeiteten Zeilen `01_Landschaftsarchitektur` (4 P1, Datenschutz-Vorbehalt
+Klartext-Zugangspasswort in einer anderen Datei derselben Sektion, nicht in den P1-Dateien),
+`01_Tragwerk` (4 P1, Datenschutz-Vorbehalt), `00_Allgemein` (3 P1),
+`02_Architektur_Vermitteln` (3 P1, Datenschutz-Vorbehalt), `02_Bibliothek` (2 P1) und
+`01_Innenarchitektur` (1 P1).
+
+**Elfter Destillat-Lauf Korpus `archiv-fachwissen`, Sektion `01_Landschaftsarchitektur`
+(Zeile 15 oben) — Lane FACHWISSEN, 29.08.2026, Fortsetzung.** Alle vier P1-Dateien
+gelesen (`pypdf`, Seitenzahlen extrahiert), drei davon zu vier Wiki-Artikeln destilliert;
+die vierte (Dachbegrünung, `Unterlagen Kolloquium.pdf` S. 3-8) als **Cross-KB-Duplikat**
+zu `wissen/bauprodukte/wiki/dachbegruenung-systeme.md` erkannt und **nicht** erneut
+destilliert (dieser Artikel liegt ausserhalb der Schreib-Lane dieses Laufs; ein
+Zusatzfund — Pflegeaufwand-Kennwert 1-2 Kontrollgänge/Jahr bei Extensivbegrünung — ist als
+Routing-Hinweis in `wiki/QUESTIONS.md` vermerkt, nicht selbst eingepflegt):
+
+- [[aussenbelaege-regelaufbauten-vogt-2012]] — Regelaufbauten Kiesweg/Asphalt/Rasen/Wiese/
+  Schotterrasen/Rasenpflaster, Vogt-Broschüre 2012, inkl. Schweiz-Deutschland-Unterschied
+  bei Saatgutmischungen (RSM vs. Herstellermischung UFA/OH)
+- [[naturstein-materialkunde-bollinger-sandstein]] — Bollinger Sandstein: Mineralbestand,
+  Vorkommen oberer Zürichsee, Schachtabbau in Naturschutzgebieten; ergänzt (nicht dupliziert)
+  [[naturstein-oberflaechenbearbeitung-portmann-merkblatt]] (dort Bearbeitungstechnik-
+  Datierung, hier Gesteins-/Vorkommenskunde eines konkreten Steins)
+- [[baumpflanzung-pflanzgrube-kletterpflanzen-typologie]] — Pflanzgrubendimensionierung
+  (6 m²/1,5 m grosskroniger Strassenbaum), Pflanzdichte als Gestaltungsfrage,
+  Kletterpflanzen-Typologie (Selbstklimmer/Rankpflanzen); ZH-Grenzabstände bewusst **nicht**
+  wiederholt, Verweis auf die dort massgebliche [[umgebungsgestaltung-und-einfriedungen]]
+  in `wissen/baurecht`
+- [[immergruene-sicht-heckenpflanzen-artenliste]] — 13 immergrüne Sicht-/Heckenarten,
+  1,5-7 m Endhöhe, mit Neobiota-Warnhinweis zu *Prunus laurocerasus* (Kirschlorbeer)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Landschaftsarchitektur.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Datenschutz-Befund der Sektion (Lieferantenliste
+mit Klartext-Zugangspasswort, archivierte Hochschul-E-Mail mit Privatadressen) bereits im
+Phase-0-Inventar korrekt als nicht erfasst dokumentiert, kein neuer Fund. **Damit ist
+Sektion `01_Landschaftsarchitektur` für P1 vollständig destilliert** (P2, 24 Positionen,
+bleibt offen).
+
+**29.08.2026 (Lane FACHWISSEN, zwölfter Destillat-Lauf).** `01_Tragwerk` (4 P1)
+vollständig destilliert, zwei Wiki-Artikel:
+
+- [[grubenmann-kirchen-holzdachstuhl-typologie]] — drei Grubenmann-Dachstuhl-Dispositive
+  mit datierten Referenzbauten Ostschweiz/ZH, Kennwerte Kirche Wädenswil (1764-1767),
+  Killer-Konstruktionsschnitte mit Vollholz-Querschnitten, Bauabrechnung 1767 als
+  historische Kostenkuriosität (54'873 Gulden)
+- [[tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau]] — Schwartz' Argumentation
+  Plastizitätstheorie vs. Elastizitätstheorie-«Schutzwall» (Zitate Menn, Polónyi, Torroja),
+  Dreiklang Transparenz/Stringenz/Leichtigkeit im Brückenbau anhand Menn-Brückenpaar
+  Letziwaldbrücke/Crestawaldbrücke
+
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Tragwerk.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Von der 191-seitigen Killer-Dissertation nur die
+bereits als Einzelseiten vorliegenden S. 140-141 gelesen; die übrigen Seiten (u. a. die
+Knotenpunkt-Details Hängesäule-Untergurt-Längsbinder, Streckbalken-Auflager) bleiben P2.
+Kein neuer Datenschutz-Fund über den bereits im Phase-0-Inventar dokumentierten Stand
+hinaus. **Damit ist Sektion `01_Tragwerk` für P1 vollständig destilliert** (P2,
+31 Positionen, bleibt offen). Nächste Position gemäss Ertrag-Tabelle: `00_Allgemein`
+(3 P1), danach `02_Architektur_Vermitteln` (3 P1, Datenschutz-Vorbehalt), `02_Bibliothek`
+(2 P1), `01_Innenarchitektur` (1 P1) — danach ist die gesamte Mittelschicht (Zeilen 10-22)
+für P1 abgearbeitet.
+
+**29.08.2026 (Lane FACHWISSEN, dreizehnter Destillat-Lauf, Fortsetzung).** `00_Allgemein`
+(3 P1) vollständig destilliert, zwei Wiki-Artikel:
+
+- [[fachsystematik-14-kapitel-gliederungsraster-jans]] — eigenes 14-Kapitel-Gliederungsraster
+  von Raphael Jans (2011), Kapitel 1 (Entwerfen) und 14 (Normen/Gesetze) am weitesten
+  ausgearbeitet, Vorwegnahme von `wissen/architekten-synobsis` unter Kapitel 6.4
+- [[archiv-ordnerschluessel-24-hauptordner-strukturfotos]] — die 24 Hauptordner (00-26,
+  Lücken 05/08/12) als Landkarte für die weitere Inventarisierung dieses Korpus, mit
+  belegtem Nummerierungsfehler-Fund bei den Unterordnern 07-09 von
+  `15_Architekturvisualisierung`
+
+Fortschritt in `raw/inventar/archiv-fachwissen__00_Allgemein.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Kein Sperrlisten-Fund (Sektion bereits im
+Phase-0-Inventar als unbedenklich geprüft). Der Auftrag dieses Laufs beschrieb fälschlich
+einen Stand ohne Spec/Destillat (Dispatch-Loop-Muster, s. `wiki/QUESTIONS.md` #54) — der
+Lauf hat sich stattdessen an dieser Tabelle orientiert. **Damit ist Sektion `00_Allgemein`
+für P1 vollständig destilliert** (P2, eine Position, bleibt offen). Nächste Position gemäss
+Ertrag-Tabelle: `02_Architektur_Vermitteln` (3 P1, Datenschutz-Vorbehalt), danach
+`02_Bibliothek` (2 P1), `01_Innenarchitektur` (1 P1) — danach ist die gesamte Mittelschicht
+(Zeilen 10-22) für P1 abgearbeitet.
+
+**29.08.2026 (Lane FACHWISSEN, vierzehnter Destillat-Lauf, Fortsetzung).**
+`02_Architektur_Vermitteln` (3 P1) vollständig destilliert, drei Wiki-Artikel:
+
+- [[protokoll-methodik-sechs-protokollarten-sprachregeln]] — sechs Protokollarten,
+  Protokollrahmen, Sprachregeln (Konjunktiv I/II)
+- [[interne-externe-kommunikation-musterbriefe-mit-funktionsglossen]] — Mängelrüge-Dramaturgie,
+  Offerten-Pflichtfelder, vier E-Mail-Regeln
+- [[sitzungsmoderation-organonmodell-harvard-methode]] — Prozessschema Sachgespräche,
+  Diskussionsleitung, Harvard-Methode
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Architektur_Vermitteln.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Der im Phase-0-Inventar angekündigte
+Datenschutz-Vorbehalt betrifft nur die P3-Titelblätter studentischer Musterarbeiten (weiterhin
+gesperrt), nicht die drei P1-Positionen selbst. **Damit ist Sektion `02_Architektur_Vermitteln`
+für P1 vollständig destilliert** (P2, 13 Positionen, bleibt offen). Nächste Position gemäss
+Ertrag-Tabelle: `02_Bibliothek` (2 P1), danach `01_Innenarchitektur` (1 P1) — danach ist die
+gesamte Mittelschicht (Zeilen 10-22) für P1 abgearbeitet.
+
+**29.08.2026 (Lane FACHWISSEN, fünfzehnter Destillat-Lauf, Fortsetzung).** `02_Bibliothek`
+(2 P1) vollständig destilliert, drei Wiki-Artikel:
+
+- [[grundrisskompendium-wohnhochhaeuser-eth-hs14]] — 24 Referenzobjekte Wohnhochhaus-Typologie,
+  drei vertiefte Fälle (Mies, MVRDV, Zölly Zürich)
+- [[zuercher-hochhaus-staedtebau-gespraech-gmuer-meili-peter]] — Gespräch Gmür/Meili/Peter,
+  mit Warnung zur didaktisch fiktiven Baurechtslockerung der Semesteraufgabe
+- [[neufert-architects-data-fundstelle-bibliothek]] — Fundstellen-Verweis, kein
+  Inhalts-Digest (Urheberrecht)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__02_Bibliothek.md` Abschnitt
+«Destillat-Fortschritt», reiner Append. Kein neuer Sperrlisten-Fund; `Passwort.docx` bleibt
+ungeöffnet und gesperrt. **Damit ist Sektion `02_Bibliothek` für P1 vollständig destilliert**
+(P2, 320 Positionen, bleibt offen). Nächste und letzte Position der Mittelschicht-Tabelle:
+`01_Innenarchitektur` (1 P1) — danach ist die gesamte Mittelschicht (Zeilen 10-22) für P1
+abgearbeitet.
+
+**29.08.2026 (Lane FACHWISSEN, sechzehnter Destillat-Lauf) — MEILENSTEIN.**
+`01_Innenarchitektur` (1 P1) destilliert:
+[[gastronomieausbau-kostendatenpunkt-vorderer-sternen-zuerich]]. Fortschritt in
+`raw/inventar/archiv-fachwissen__01_Innenarchitektur.md`, reiner Append. **Damit ist P1 über
+sämtliche inventarisierten Sektionen beider Korpora dieser KB (`buero-referenzen` und
+`archiv-fachwissen`) vollständig destilliert.** Alle Zeilen 01-22 dieser Tabelle sind
+abgearbeitet; die verbleibenden Sektionen in «Ohne P1, aber mit destillierbarem Rest» und «Ohne
+Ertrag» unten haben laut Inventar P1=0 und werden nicht destilliert — vier davon
+(`04_Politik`, `05_Kultur_Gesellschaft_Stil`, `06_Reisen`, `07_Religion`) ausdrücklich wegen
+Privatunterlagen-Vorbehalt. Offen bleiben: P2 in praktisch jeder destillierten Sektion (über
+700 Positionen kumuliert), sowie Phase 0 für 9 `buero-referenzen`- und 3
+`archiv-fachwissen`-Sektionen (Liste in `QUESTIONS.md`). Nächster Schritt ist ein Entscheid,
+keine Fortsetzung nach Ertrag: P2-Destillation beginnen oder erst die fehlende
+Phase-0-Inventarisierung nachholen.
+
+**29.08.2026 (Lane FACHWISSEN, siebzehnter Lauf — erster P2-Lauf).** Dispatch-Text dieses
+Laufs beschrieb erneut fälschlich «kein Destillat, keine Spec» für die gesamte KB (fünftes
+Beispiel desselben veralteten Dispatch-Musters, siehe Memory-Eintrag). Da die
+Phase-0-Nachholung ein Entscheid Raphaels ist (`QUESTIONS.md` #1), hat dieser Lauf
+stattdessen mit der P2-Destillation begonnen, an der ertragsstärksten Sektion
+`02_Gestalt_Kulturverstaendnis` (Zeile 01): zwei der fünf P2-Positionen bearbeitet —
+Bauwelt-36/2012-Dichteheft → [[dichte-typologien-vergleich-muenchen-bauwelt-2012]],
+Allreal-Gestaltungsplan-Präsentation Richti-Areal Wallisellen (aus der Position
+`Stadtwanderung`) → [[gestaltungsplan-verfahren-kennzahlen-richti-areal-wallisellen-allreal-2009]].
+Zwei Positionen (Booklet-/Plakatdarstellungs-Beispiele) bleiben laut Triage bewusst
+undestilliert (reine Anschauung). Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md`, reiner Append
+(`git diff --numstat` 38/0 geprüft). P2 dieser Sektion bleibt zu drei Positionen offen
+(Begriffs-DOCX teilweise erledigt im ersten Lauf, Stadtwanderung teilweise, Booklet-/
+Plakatdarstellungs-Beispiele bewusst nicht). Nächster Lauf nach P2-Ertrag: Sektion
+`01_Konstruktion` (101 P1/8'791, P2-Bestand dort noch nicht gesichtet) oder Fortsetzung
+in derselben Sektion mit den übrigen P2-Resten — Entscheid beim nächsten Lauf.
+
+**29.08.2026 (Lane FACHWISSEN, achtzehnter Lauf).** Dispatch-Text dieses Laufs beschrieb
+erneut fälschlich «kein Destillat, keine Spec» für die gesamte KB (sechstes Beispiel
+desselben veralteten Dispatch-Musters, siehe Memory-Eintrag Lane FACHWISSEN). Lauf hat
+sich am realen Stand orientiert und die drei laut siebzehntem Lauf noch offenen
+P2-Positionen der Sektion `02_Gestalt_Kulturverstaendnis` abgeschlossen: die restlichen
+39 eigenen Begriffe-DOCX-Texte vollständig gelesen (`textutil`-Extraktion), neun
+destilliert (drei Ergänzungen + drei Zitate im bestehenden
+[[begriffsapparat-kant-sprachstil-pruefraster-jans]], drei neue Artikel
+[[raumplan-adolf-loos-oekonomische-begruendung]],
+[[praesenz-begriff-olgiati-lyotard]], [[manhattanismus-koolhaas-monumentalitaet]], ein
+Glossar [[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]]),
+rund 25 Texte als zu dünn/fachfremd bewusst nicht destilliert (Details im
+Begriffsapparat-Artikel «Offene Punkte»), ein Fund als Wikipedia-Übernahme identifiziert
+und wie die bestehenden X-Ausdrucke behandelt. Zusatzfund aus derselben Quelldatei-Gruppe
+(Moravánszky-Exposé) als Rezeptionsgeschichte-Abschnitt in
+`materialwahrheit-stoffwechseltheorie-semper-urtechniken.md` (Sektion
+`02_Architekturtheorie`) ergänzt. Die beiden übrigen Positionen (Booklet-/
+Plakatdarstellungs-Beispiele) bestätigt als keine Destillationskandidaten. Fortschritt in
+`raw/inventar/archiv-fachwissen__02_Gestalt_Kulturverstaendnis.md`, reiner Append
+(`git diff --numstat` 45/0 geprüft). **Damit ist Sektion `02_Gestalt_Kulturverstaendnis`
+für P1 und P2 vollständig destilliert.** Nächster Lauf nach P2-Ertrag: Sektion
+`01_Konstruktion` (101 P1/8'791, P2-Bestand dort noch nicht gesichtet) — der
+Entscheidungspunkt Raphaels (P2 systematisch fortsetzen vs. Phase-0-Nachholung für die
+12 offenen Sektionen, `QUESTIONS.md` #1) bleibt weiterhin offen und unverändert.
+
+## 260830 — Neunzehnter Destillat-Lauf (Korpus 4, Sektion `01_Konstruktion`, zweiter P2-Lauf)
+
+Erster gezielter P2-Lauf der Sektion `01_Konstruktion` (nach dem P1-Vollabschluss der dritten/
+vierten Läufe vom 29.08.2026). Zwei der vier im Inventar gelisteten P2-Positionen bearbeitet,
+gemäss Auftrags-Reihenfolge:
+
+- **`02_Bauelemente/04_Decke_Boden/100601_Deckenstruktur_Resarch_Oswald/ResearchDeckenstruktur.pdf`
+  (Deckenaufbauten-Vergleichsstudie) — destilliert.**
+  [[deckenaufbauten-vergleichsstudie-lichte-raumhoehe-konstruktionsraster]]: lichte Raumhöhe
+  und Konstruktionsraster-Profilmasse von neun realisierten Bauten (R. Schwarz, SANAA, Von
+  Ballmoos Krucker, Mendes da Rocha × 3, Caruso St John, Herzog & de Meuron, Maja Lalić), am
+  Original per PyMuPDF-Rendering visuell verifiziert (reine `pypdf`-Text-Extraktion ordnete die
+  Zahlen nicht eindeutig den Massachsen zu). Zwei h-Werte (Mendes da Rocha, Haus Milan und
+  Kindertagesstätte São Bernardo) im Original ohne Dezimaltrennzeichen beschriftet und deshalb
+  als unsicher gekennzeichnet, nicht stillschweigend geglättet.
+- **`01_Technische_Inst_I_II/` Lüftungsvorlesung — destilliert.** Zwei Artikel:
+  [[lueftungsgrundlagen-co2-kennzahlen-aussenluftwechselraten-eth-leibundgut]] (Aufgaben der
+  Lüftung, CO2-Physiologie, pAR-/fAR-Tabellen) und
+  [[lueftungssystematik-zuluftfuehrung-waermerueckgewinnung-eth-leibundgut]] (Zu-/Abluftführung,
+  Quell-/Verdrängungs-/Mischlüftung, vier WRG-Bauarten mit Rückwärmezahlen). Quelle:
+  `02_Vorlesungsfolien/110916_Webseite/03_Luftung.pdf` (Prof. H.-J. Leibundgut, ETH Zürich,
+  August 2008, 41 Seiten, vollständig gelesen) — die im Inventar behauptete Textebene wurde am
+  Original selbst verifiziert (nicht blind aus der Inventar-Zusammenfassung übernommen), Befund
+  bestätigt sich. **Norm-Diskrepanz entdeckt und nicht stillschweigend geglättet:** die Folie
+  zitiert die fAR-Tabelle «nach SIA 384/1», der heutige Registerstand in `wissen/normen` weist
+  SIA 384/1:2022 jedoch als Heizungsanlagen-Norm aus, die Lüftungsauslegung läuft heute über SIA
+  382/1:2014 — als offener Punkt im Artikel und in `wiki/QUESTIONS.md` vermerkt.
+
+**Nicht destilliert in diesem Lauf, aus Zeit-/Budgetgründen zurückgestellt (P2, für den
+nächsten Lauf dieser Sektion):** `04_Bauphysik_Energie/02_Skripte`, `01_Vorlesungsfolien`,
+`03_Uebungen` (153 Dateien, Bauphysik I–III ETH Zürich) und der systematische Teil von
+`02_Bauelemente/` (209 Dateien, Bauteil-Typologien Decke/Boden, Dach, Öffnung/Fenster, Treppen).
+Beide inhaltlich intakt und laut Inventar für einen P2-Lauf geeignet.
+
+**Sperrliste-Prüfung:** keine neuen Funde, keine der sechs gesperrten Positionen berührt
+(`00_Baustoffkonzept/Baustoffadressen`, `09_Konstruktion/28_Konstruktionaufbauten` ausserhalb
+Lignatur, `01 2D Details`, `01_Baustoff_Materialitaet/` Materialordner, `.band`/`.aif`,
+`06_Construction_Caruso/`). `06_Construction_Caruso/` in diesem Lauf nicht erneut geprüft
+(Inventar-Befund «keine Textebene» aus dem Erst-Sweep übernommen, nicht neu verifiziert).
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt
+«Destillat-Fortschritt», reiner Append (`git diff --numstat` geprüft).
+
+## 2026-08-30 — P2-Lauf Korpus `buero-referenzen`, Sektion `18_Projektkostenplanung` (Lane FACHWISSEN, Station MacBook Pro)
+
+**Sektion `18_Projektkostenplanung` (Zeile 05 der Trägerschicht-Tabelle) ist jetzt auch für
+P2 abgeschlossen** — vier der fünf P2-Positionen destilliert, eine begründet
+übersprungen (siehe `raw/inventar/buero-referenzen__18_Projektkostenplanung.md` Abschnitt
+«Destillat-Fortschritt (P2, ...)» und `QUESTIONS.md` #65). Drei neue Wiki-Artikel:
+
+- [[personaleinsatzplanung-rollen-projektphase-honorarkalkulation-efh-allgaier]] —
+  Rollen-Prozentsatz-Matrix über Projektphasen mit Personenmonat-Hochrechnung, plus
+  Honorar-Faustformel Lohnansatz × Unkostenfaktor; vierte unabhängige Bestätigung der
+  SIA-102:2003-Phasenanteile (nachgetragen in
+  [[sia-102-2003-phasenanteile-zwei-rechenwerke]]).
+- [[baunebenkosten-anlagewert-anlagekosten-definitionen]] — kurze Begriffsdefinitionen,
+  `status: speculative` (Quelle unbelegt).
+- [[oeffentliche-kreditabrechnung-nachtragskredit-mechanik-balzers-fl]] —
+  Kreditgenehmigungs-/Nachtragskredit-Mechanik, Fremdrecht (FL) ausdrücklich gekennzeichnet,
+  Personendaten Dritter aus demselben Protokoll bewusst nicht destilliert.
+
+**Hinweis zur Lauf-Koordination:** Dieser Lauf hat bewusst den Korpus `buero-referenzen`
+statt `archiv-fachwissen` bearbeitet, weil zeitgleich ein zweiter Lauf auf Station Macmini
+am Korpus `archiv-fachwissen` (Sektion `01_Konstruktion`) aktiv war (siehe CHANGELOG
+2026-08-30 und `QUESTIONS.md` #64). Damit ist der Korpus `buero-referenzen` jetzt insgesamt
+weiter fortgeschritten als zuvor angenommen — Register unten in den Kennzahlen und der
+Fussnote noch nicht neu gezählt, da die übrigen 22 Sektionen dieses Korpus bislang keinen
+systematischen P2-Durchgang hatten.
+
+## 260830 — Zwanzigster Destillat-Lauf (Korpus 4, Sektion `01_Konstruktion`, dritter P2-Lauf)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», elftes Beispiel
+desselben Musters, siehe Memory-Eintrag Lane FACHWISSEN); Lauf orientierte sich am realen
+Stand (`KORPUS-QUEUE.md`, dieses Register). Vor Arbeitsbeginn `ps aux` auf Parallel-Instanzen
+geprüft: kein Duplikat dieser Lane (der einzige `claude -p`-FACHWISSEN-Prozess war der Lauf
+selbst), lediglich NORMEN-PRUEFSTAND und BAURECHT-THALWIL liefen parallel auf unabhängigen KBs.
+
+Von den zwei laut neunzehntem Lauf offenen P2-Positionen bearbeitet: `02_Bauelemente/`
+systematischer Teil (209 Dateien). Alle 17 Unterordner auf Nicht-Bild-Dateien durchsucht;
+Ergebnis überwiegend Fotos/CAD/Bildscans ohne Textebene. Zwei Artikel destilliert:
+
+- [[phaenomen-eingang-typologie-schwellenraum-eth-schwartz]] — fünfteilige
+  Schwellen-Typologie (lineare Schwelle → Schwellenraum → Antizipation → Verzögerung →
+  Übergänglichkeit) und Massstabskette Stadt-/Quartiers-/Gebäude-Eingang, aus derselben
+  ETH-Lehrveranstaltung («Tragwerksentwurf», Prof. Schwartz) wie
+  [[tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau]], aber eigenständige
+  Vorlesungseinheit ohne Duplikatsrisiko.
+- [[pilzdecken-fruehgeschichte-schweiz-maillart-giesshuebel]] — Einzelfund aus einem
+  urheberrechtlich geschützten Essay-Heft (René Furer, ISBN 978-3-9523262-6-8): zwei
+  Datierungspunkte für frühen Zürcher Stahlbetonbau (Maillart Stauffacherbrücke 1899,
+  erste Pilzdecke Lagerhaus Giesshübel 1910), nur dieser eine Fakt sinngemäss übernommen,
+  der Rest des Essays bewusst nicht destilliert (kein klar abgrenzbarer Fachbaustein).
+
+Bewusst nicht destilliert: eine eigene Studienarbeit Raphael Jans (HTA 2007), eine private
+E-Mail-Korrespondenz Raphael Jans mit einem Studienkollegen (2009, kein Sperrlisten-Fund im
+engeren Sinn, aber private Korrespondenz), ein deutsches Dachdecker-Fachmagazin (68 Seiten,
+überwiegend Hersteller-Marketing), eine Literaturlisten-Scanseite, drei isolierte
+Sheddach-Einzelfolien ohne vollständigen Foliensatz, diverse reine Bildscans. Details je
+Position in `raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt
+«Destillat-Fortschritt — Ergänzung 2026-08-30», reiner Append (`git diff --numstat` 54/0
+geprüft).
+
+**Weiterhin offen (P2, für den nächsten Lauf dieser Sektion):** `04_Bauphysik_Energie/
+02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien, Bauphysik I–III ETH Zürich)
+— in diesem Lauf aus Zeit-/Budgetgründen nicht begonnen. Danach ist Sektion `01_Konstruktion`
+für P1 und P2 vollständig. Der Entscheidungspunkt Raphaels (P2 systematisch für die übrigen
+Sektionen vs. Phase-0-Nachholung, `QUESTIONS.md` #1/#58/#60/#63) bleibt unverändert offen und
+wurde in diesem Lauf bewusst kein weiteres Mal wiederholt.
+
+## 260830 — Einundzwanzigster Destillat-Lauf (Korpus 4, Sektion `01_Konstruktion`, vierter P2-Lauf, ABSCHLUSS)
+
+Dispatch-Text erneut veraltet (zwölftes Beispiel, Memory `project_fachwissen-dispatch-loop`);
+Lauf orientierte sich am realen Stand. `ps aux` vor Arbeitsbeginn geprüft: kein
+FACHWISSEN-Duplikat.
+
+Die letzte laut zwanzigstem Lauf offene P2-Position bearbeitet: `04_Bauphysik_Energie/
+02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien). Kernquelle: Skript
+«Bauphysik III, FS 2009» (Dr. H. Manz, ETH Zürich), Kapitel 3–7 plus Anhang vollständig per
+`pypdf` gelesen (Kapitel 1–2 bereits in früheren Läufen destilliert). Drei Wiki-Artikel:
+[[instationaerer-waermedurchgang-eindringtiefe-zeitkonstante-eth-bauphysik-iii-manz]] (Kap. 3:
+Eindringtiefe, dynamische Wärmekapazität, Zeitkonstante τ=d²/a, Aussen- vs. Innendämmung),
+[[luftdichtheitsphysik-winddruck-thermischer-auftrieb-blower-door-eth-bauphysik-iii-manz]]
+(Kap. 5: Winddruck-Cp, Kamineffekt, Blower-Door n50/va,4), und
+[[instationaeres-raumverhalten-zeitkonstante-gewinn-verlust-verhaeltnis-eth-bauphysik-iii-manz]]
+(Kap. 6: Zeitkonstante τ=C/H, Gewinn/Verlust-Verhältnis γ=G/H, Gebäudesimulationsbeispiel).
+
+Kapitel 4 (Transparente Bauteile) und Kapitel 7 (Energie und Nachhaltigkeit) sowie die
+Anhang-Baustofftabellen bewusst nicht destilliert: Registerprüfung ergab vollständige
+inhaltliche Abdeckung durch die aktuellere, `established`-geführte KB `wissen/energie`
+(g-Wert/Uw, sommerlicher Wärmeschutz, graue Energie, Minergie, U-Werte, Dämmstoff-λ) —
+Routing-Hinweis `wiki/QUESTIONS.md` #66, Details CHANGELOG 2026-08-30.
+
+**Damit ist Sektion `01_Konstruktion` (Korpus `archiv-fachwissen`) für P1 UND P2 vollständig
+abgeschlossen.** Fortschritt in `raw/inventar/archiv-fachwissen__01_Konstruktion.md` Abschnitt
+«Destillat-Fortschritt — Ergänzung 2026-08-30», reiner Append (`git diff --numstat` 36/0
+geprüft). Sperrliste-Prüfung: keine neuen Funde. Nächster Schritt gemäss Queue-Regel: die
+nächste Sektion des Korpus `archiv-fachwissen` nach Ertrag (siehe «Sektionen nach Ertrag»
+oben), oder der weiterhin offene Entscheidungspunkt Raphaels (`QUESTIONS.md`
+#1/#58/#60/#63) zwischen weiterer P2-Priorisierung und Phase-0-Nachholung der 12 noch
+offenen Sektionen.
+
+## 260830 — Zweiundzwanzigster Destillat-Lauf (Korpus 4, Sektion `03_Bauprozesse_I_II`, erster P2-Lauf)
+
+Dispatch-Text erneut veraltet («kein Destillat, keine Spec, 2 Wiki-Artikel», Station
+fälschlich als «MacBook Pro» bezeichnet — `scutil --get LocalHostName` zeigt **Macmini**,
+dreizehntes Beispiel desselben Musters, Memory `project_fachwissen-dispatch-loop`). Lauf
+orientierte sich am realen Stand (`KORPUS-QUEUE.md`, dieses Register). `ps aux` vor
+Arbeitsbeginn geprüft: kein FACHWISSEN-Duplikat, nur der eigene Prozess.
+
+Mit `01_Konstruktion` (P1+P2 vollständig) folgt gemäss Queue-Regel «nächstgrösste Sektion
+nach Ertrag» die drittgrösste Sektion `03_Bauprozesse_I_II` (58 P1, P1 bereits im zweiten
+Lauf dieses Korpus abgeschlossen; P2 mit 96 Positionen bislang vollständig offen). Drei
+neue Wiki-Artikel:
+
+- [[kostenvoranschlag-merkblatt-oeffentliche-bauherrschaft-reserven-verwaltungskosten]] —
+  GSZ-Kostenvoranschlag-Merkblatt 2013: Reserven-Prozentsätze BKP 61/62,
+  Verwaltungskostenzuschlag 7,5 %, Kostenumfang im Verpflichtungskredit
+- [[ebkp-h-2012-gliederungslogik-elementarten-oak-eak-kataloge]] — eBKP-H-Gliederungslogik
+  (Hauptgruppe/Elementgruppe/Element), Elementarten, Verweis auf CRB-Kataloge OAK/EAK
+  (Kennwerte selbst nicht reproduziert, Copyright); rückverlinkt mit den beiden bereits
+  bestehenden eBKP-H-Artikeln dieser Sektion
+- [[eth-checklisten-kontextanalyse-bauelementglossar-abgabeliste]] — drei ETH-Checklisten
+  (Kontext-/Tektonik-Analyseraster, Bauelement-Glossar, Abgabe-Deliverable-Liste), `status:
+  speculative`
+
+**Wichtiger Cross-KB-Befund:** `schaetzungsanleitung_kap5.pdf` (P2-Hauptkandidat laut
+Inventar) ist bei Volltextprüfung bereits **vollständig** in
+`wissen/immobilienbewertung/wiki/realwert-sachwert.md` destilliert (Tab. 2/3/9/10/11,
+Lebensdauer/wirtschaftliches Alter/Wertminderung mit Berechnungsbeispiel) — kein
+Doppelartikel geschrieben, nur in der Inventardatei vermerkt. Ausserdem mehrere
+Norm-/Urheberrechts-Positionen bewusst nicht hier destilliert (VKF-Fluchtwegelängen,
+VSS-Sichtzonen, SIA-500-Sekundärliteratur — gehören zu `wissen/normen`; KBOB-Honorarempfehlung
+2002 eher zu `honorarberechnung-sia102`, Cross-KB-Hinweis in `QUESTIONS.md`).
+
+**P2 dieser Sektion bleibt zu rund 15–20 Positionen offen** (Bauprozess-Systematik Menz,
+Ausschreibungsbeispiele mit Anonymisierungsprüfung, Baubeschrieb-Musterbeispiel) — Details
+`raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` Abschnitt «Destillat-Fortschritt —
+Ergänzung 2026-08-30», reiner Append (`git diff --numstat` 73/0 geprüft). Der
+Entscheidungspunkt Raphaels (`QUESTIONS.md` #1/#58/#60/#63) bleibt unverändert offen und
+wurde in diesem Lauf bewusst kein weiteres Mal wiederholt.
+uninventarisierten Sektionen.
+
+## 260830 — Vierundzwanzigster Destillat-Lauf (Korpus 4, Sektion `03_Bauprozesse_I_II`, vierter P2-Lauf)
+
+Dispatch-Text erneut veraltet (46. Beispiel, Memory `project_fachwissen-dispatch-loop`), am
+realen Stand weitergearbeitet. **Prozessfehler in diesem Lauf:** vor Arbeitsbeginn nur den
+letzten `## Destillat-Fortschritt`-Abschnitt der Inventardatei geprüft (`tail`), nicht die
+beiden vorherigen — dadurch zwei Positionen erneut begonnen, die im ersten P2-Lauf dieser
+Sektion bereits verarbeitet waren (`06_Checklisten/*.doc`, bereits als
+[[eth-checklisten-kontextanalyse-bauelementglossar-abgabeliste]] destilliert). Noch im
+selben Lauf korrigiert: eigener Duplikat-Artikel-Entwurf gelöscht, bevor er gesichert wurde.
+
+Zwei frühere Voreinschätzungen bei genauerer Prüfung korrigiert, zwei neue Artikel:
+
+- [[schaetzungsanleitung-lageklassenschluessel-landwertanteil]] — die
+  Lageklassenschlüssel-Methode (Tab. 6-8 derselben `schaetzungsanleitung_kap5.pdf`, die im
+  ersten P2-Lauf als «kein Mehrwert» eingestuft worden war) ist eine eigenständige,
+  wiederverwendbare Bewertungslogik (vier gewichtete Lagekriterien → Landwertanteil-Kurve),
+  die in `wissen/immobilienbewertung` fehlt. Die zugehörige
+  Kapitalisierungssatz-Zuschlagssystematik derselben Quelle bleibt zu Recht unangetastet
+  (bereits in `wissen/immobilienbewertung/wiki/ertragswert-dcf.md` destilliert).
+- [[kbob-2002-gleitpreisklausel-teuerungsabrechnung-honorargrundprozentsatz]] — die
+  KBOB-2002-Honorarempfehlung war als reiner Cross-KB-Kandidat zurückgestellt worden
+  (`QUESTIONS.md` #67), obwohl diese KB bereits zwei Honorarmechanik-Artikel aus Korpus 3
+  führt. Gleitpreisklausel-Formel und Honorargrundprozentsatz-Kurve (subventionierte Bauten)
+  jetzt destilliert, Zeittarif-Kategorien-Teil bewusst nicht erneut (Duplikat zu
+  [[zeittarif-mechanik-tarifblatt-stgallen-2009]]). `QUESTIONS.md` #67 mit Auflösungsnotiz
+  ergänzt.
+
+Fortschritt in `raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` Abschnitt
+«Destillat-Fortschritt — Ergänzung 2026-08-30 (P2, vierter Lauf dieser Sektion)», reiner
+Append (`git diff --numstat` 51/0 geprüft). **Lehre, im Append festgehalten:** vor
+Bearbeitung einer Sektion IMMER alle bisherigen `## Destillat-Fortschritt`-Abschnitte lesen,
+nicht nur den letzten. Kein schnell erschliessbarer P2-Rest mehr in dieser Sektion; nächster
+Lauf sollte gemäss Queue-Regel zur nächstgrössten Sektion mit offenem P2 übergehen
+(`01_Tragwerk`, `02_Architektur_Vermitteln` oder `01_Landschaftsarchitektur`, je 12
+P2-Zeilen, bisher unbearbeitet).
+
+## 260830 — Fünfundzwanzigster Destillat-Lauf (Korpus 4, Sektion `01_Tragwerk`, erster P2-Lauf)
+
+Vor Arbeitsbeginn `ps aux`/Prozessabstammung geprüft: zwei `claude-run.sh`-Wrapper-Prozesse
+für dieselbe Lane gefunden (PID 1452/1459), aber per Elternschaftskette als verschachtelte
+Wrapper derselben Instanz identifiziert (`1452 → 1459 → 1460`), keine echte Doppel-Instanz.
+`KORPUS-QUEUE.md`/`CHANGELOG.md` statt Dispatch-Text konsultiert (Dispatch behauptet erneut
+fälschlich «noch kein Destillat und keine Spec», real: beide Specs stehen, P1 in beiden
+Korpora vollständig, mehrere P2-Läufe abgeschlossen).
+
+`01_Tragwerk` (Sektion mit 31 offenen P2-Positionen, nächstgrösste gemäss Queue-Empfehlung)
+bearbeitet: zwei Quellen vollständig gelesen, zwei neue Artikel:
+
+- [[formfindung-experimenteller-tragwerksentwurf-frei-otto-stuttgart21]] — Methode
+  Selbstbildungsprozess nach Frei Otto (Formfindung über physische Analogmodelle statt
+  Berechnung), Fallbeispiel Stuttgarter Bahnhof/Stuttgart 21 (Seifenhaut-Minimalflächen,
+  Umkehr Hängemodell zu Druckschale, Formfindungsprogramm «Tensyl»)
+- [[literaturregister-holzbau-1876-1993]] — rund 100 Titel Holzbau-Fachliteratur 1876-1995
+  nach Epochen geordnet, mit Anschluss an [[grubenmann-kirchen-holzdachstuhl-typologie]]
+  (Dubas/Gehri 1983)
+
+Fortschritt in `raw/inventar/archiv-fachwissen__01_Tragwerk.md` Abschnitt
+«Destillat-Fortschritt» (zweiter Abschnitt dieses Namens in der Datei, reiner Append,
+`git diff --numstat` 22/0 geprüft) — vor Arbeitsbeginn beide vorhandenen
+`## Destillat-Fortschritt`-Abschnitte gelesen (Lehre aus dem 24. Lauf befolgt), keine
+Doppelbearbeitung. Kein neuer Datenschutz- oder Sperrlisten-Fund; Sperrvermerk Seite 4 des
+Readers `111002_Reader_alle_Seiten.pdf` weiterhin nicht angetastet. 29 P2-Positionen bleiben
+offen (u. a. Killer-Knotenpunktdetails S. 138-144, Werkschau-Register der
+Abschlussvorlesung, drei Kraftfluss-Darstellungsvarianten, Randbedingungs-Muster
+«Bridging the Gap», Counterpoise-Erläuterungstext). Nächster Lauf: entweder weiter in
+`01_Tragwerk` oder gemäss Queue-Regel zu `02_Architektur_Vermitteln`/
+`01_Landschaftsarchitektur` wechseln.
+
+## 260830 — Sechsundzwanzigster Destillat-Lauf (Korpus 4, Sektion `01_Tragwerk`, zweiter P2-Lauf)
+
+Dispatch-Text wie in den letzten gut 20 Läufen veraltet (behauptet «noch kein Destillat und
+keine Spec», reale Station laut `scutil --get ComputerName` Macmini statt der im Dispatch
+genannten «MacBook Pro») — Auftrag stattdessen am realen Stand aus `KORPUS-QUEUE.md` und
+dieser Datei ausgerichtet, siehe Memory `project_fachwissen-dispatch-loop` (48. Beispiel).
+`ps aux` zeigte nur den eigenen `claude`-Prozess, keine Doppel-Instanz.
+
+Vier der fünf im Vorlauf namentlich offenen P2-Positionen in `01_Tragwerk` bearbeitet:
+
+- Killer-Dissertation-Knotenpunkte (Einzelseiten S. 138-144, Fig. 95/99-102) vollständig
+  gelesen und als neue Abschnitte «Knotenpunkt-Details des Hauptdachstuhls» und
+  «Baufinanzierung durch Platzverkauf» in
+  [[grubenmann-kirchen-holzdachstuhl-typologie]] eingefügt (kein neuer Artikel, gleiche
+  Quelle/gleiches Gebäude wie der bestehende P1-Artikel; damit ist dessen «Offen»-Punkt zu
+  den Knotenpunkten aufgelöst).
+- Werkschau-Register der Abschlussvorlesung (`TWE IV_Vorlesung_20110513_Abschluss.pptx`,
+  135 Folien, nur Bildunterschriften ausgewertet) → neuer Artikel
+  [[werkregister-tragwerksentwurf-schwartz-architekten-1992-2011]] (15 Bauten/Wettbewerbe
+  1992-2011 mit Architekt/Ingenieur/Jahr; auffällige wiederkehrende Achse Kerez/Schwartz,
+  cross-referenziert zu [[tragwerksbeschrieb-leutschenbach-kennwerte]] und
+  [[kahn-monumentalitaet-form-evokes-function-post-miesismus]]).
+- Counterpoise-Erläuterungstext (`Counterpoise.doc`, vollständig) → neuer Artikel
+  [[counterpoise-tischtragwerk-erlaeuterungstext-massstabstransfer]] (Argumentationsmuster
+  Tragwerk als Ausdrucksmittel, Massstabstransfer Hochbau zu Möbeldesign).
+- Randbedingungs-Muster «Bridging the Gap» (`Bridging the Gap.pdf` + `Aufgabe2.docx`,
+  beide vollständig) → neuer Artikel
+  [[aufgabenstellung-randbedingungen-muster-bridging-the-gap]] (Sechsteilung einer
+  Aufgabenstellung, harte Randbedingungen als disjunkter Einzelsatz-Block).
+
+Gegen bestehende Wiki-Artikel geprüft: keine Duplikate (Grep auf «Counterpoise», «Bridging
+the Gap», «Kongresshaus Davos», «Leutschenbach», «MFH Forsterstrasse», «Ponte Polmengo» über
+alle KBs, nur die bereits bekannten Leutschenbach-Kostenartikel als Cross-Referenz
+verlinkt, nicht dupliziert). `git diff --numstat` auf die Inventardatei zeigt 32/0 (reiner
+Append). Kein neuer Datenschutz- oder Sperrlisten-Fund; Sperrvermerk Seite 4 des Readers
+`111002_Reader_alle_Seiten.pdf` weiterhin nicht angetastet (Reader in diesem Lauf nicht
+angefasst).
+
+25 P2-Positionen bleiben offen: die drei Kraftfluss-Darstellungsvarianten desselben
+Brückenlängsschnitts (reine Bilddiagramme ohne Text — ein eigener Artikel dazu wäre dünn,
+methodisch bereits in der Inventardatei unter «Was hier für JANS drinsteckt» Punkt 6
+beschrieben), die restlichen Planserien/PLN-Dateien (P3, nicht P2) sowie vier Bildscans ohne
+Textlayer (ArchPlus, Archithese, Menn, Starke Strukturen — OCR nötig). Nächster Lauf: entweder
+die Kraftfluss-Bilder/Bildscans klären (OCR-Weg prüfen, `connectors/WEGE.md`), oder gemäss
+Queue-Regel «nächstgrösste Sektion nach Ertrag» zu `02_Architektur_Vermitteln` oder
+`01_Landschaftsarchitektur` (je rund 12 P2-Positionen) wechseln.
+
+## 260830 — Siebenundzwanzigster Destillat-Lauf (Korpus 4, Sektion `01_Tragwerk`, dritter P2-Lauf, 49. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Dispatch-Text erneut veraltet (behauptet «noch kein Destillat und keine Spec ... 2
+Wiki-Artikel», Station fälschlich «MacBook Pro») — `scutil` bestätigt Macmini, `ps aux` keine
+Doppel-Instanz, am realen Stand aus `KORPUS-QUEUE.md`/`CHANGELOG.md` weitergearbeitet.
+
+Zwei P2-Positionen destilliert, eine gelesen ohne eigenen Sachinhalt:
+
+- `Dissertation/eth-20590-01_abstract.pdf` (Dateiname irreführend, tatsächlich das
+  Schlusskapitel «D. Schluss» S. 186-190 samt Werkverzeichnis) + die Mechel-Tafel von 1803
+  zur Schaffhauser Rheinbrücke (vollständig) → neuer Artikel
+  [[grubenmann-brueder-werkverzeichnis-bruecken-schaffhausen]] (Arbeitsteilung Jakob/
+  Johannes/Hans Ulrich, Werkverzeichnis-Tabelle Brücken, Ende der Dynastie, Schaffhauser
+  Brücke: Anspruch stützenfrei über 119 m, Kriegszerstörung 1799).
+- `Tec21/Einzelseite/Empore_aus_Grubenmann_Kirchen_Tragwerk.pdf` gelesen: reine
+  Bildunterschriften zu bereits destillierten Knotenpunkten, kein neuer Sachinhalt, deshalb
+  nicht separat destilliert.
+
+`git diff --numstat` auf Inventardatei und CHANGELOG zeigt beide Male `0` Löschungen (reiner
+Append). Neue Werkzeuglücke: `pdftoppm`/`poppler` fehlt auf dieser Station, deshalb der
+109-seitige Reader `111002_Reader_alle_Seiten.pdf` weiterhin ungelesen (`QUESTIONS.md` #72).
+Kein neuer Datenschutz-Fund; Sperrvermerk Seite 4 des Readers und die Teilnehmerlisten-CSV/
+XLSX erneut nicht geöffnet.
+
+22 P2-Positionen bleiben offen: die drei Kraftfluss-Darstellungsvarianten, vier textlose
+Bildscans, der 109-seitige Reader mit seinen 13 zitierten Quelltexten, das
+Modell-Belastungstest-Blatt (Skalierungsmodell-Bilder, Galileo-Bezug), sowie
+`Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf`. Nächster Lauf: `poppler`-Installation
+abwarten/anfragen, oder gemäss Queue-Regel zu `02_Architektur_Vermitteln`/
+`01_Landschaftsarchitektur` wechseln.
+
+## 260830 — Sechsundzwanzigster Destillat-Lauf (Korpus 4, Sektion `01_Tragwerk`, vierter P2-Lauf)
+
+Werkzeuglücke revidiert: die als «ohne Textlayer» eingestuften vier Bildscans lassen sich
+mit dem Read-Tool dieser Station direkt lesen (eigene PDF-Rendering-Pipeline, unabhängig
+vom fehlenden System-`pdftoppm` — funktioniert bei Einzeldateien unter rund 2,5 MB ohne
+Seitenbereichs-Parameter). Vier P2-Positionen destilliert:
+
+- ArchPlus 193 (9/2009, Kraft/Schindler, «Mit oder gegen Holz») → neuer Artikel
+  [[digitale-schreinerei-formfindungstaxonomie-eierschneider-falt-flecht]]
+  (Vier-Prinzipien-Taxonomie: Eierschneider einfach/zweifach, Faltstrukturen,
+  Kassettenelemente, Flechtstrukturen, 14 Werkbeispiele 2005-2009).
+- Archithese 6.02 (Walter Bieler, «Täler mit Holz überspannen») → neuer Artikel
+  [[bieler-holzbruecken-werkregister-graubuenden-ostschweiz]] (neun Werke, Prinzip
+  Tragwerk-unter-Fahrbahn statt Dach).
+- ETH-Ehrenpromotions-Broschüre Christian Menn (Schlaich-Laudatio, unbezeichneter
+  Fachaufsatz, Menns Verdankung, zwei Dateien vollständig) → neuer Artikel
+  [[christian-menn-werkregister-stabbogen-hohlkasten-brueckenbaukultur]] (Werkregister
+  neun Bauten/Projekte, Stabbogen-vs-Hohlkasten-Argumentation) — gegen
+  [[tragwerksentwurf-plastizitaetstheorie-eleganz-brueckenbau]] geprüft, kein Duplikat
+  (dort Eleganzdebatte, hier Werkregister/Technik).
+- Skalierung_Modelle (4 JPG, vollständig) → neuer Artikel
+  [[modellstatik-aehnlichkeitsgesetz-struktur-modell-skalierung]] (Ähnlichkeitsgesetz-
+  Tabelle Struktur-1:1-vs-Modell-1:x, Galileo-Bezug 1636).
+
+`git diff --numstat` auf Inventardatei zeigt `39 0` (reiner Append). Erneuter Versuch am
+109-seitigen Reader mit Seitenbereichs-Parameter bestätigt die Werkzeuglücke unverändert
+(`pdftoppm is not installed`) — die native Rendering-Pipeline greift nur ohne
+Seitenbereich bei kleinen Einzeldateien, nicht bei grossen Dateien mit Seitenbereich.
+
+18 P2-Positionen bleiben offen: die drei Kraftfluss-Darstellungsvarianten (weiterhin als
+eigenständiger Artikel zu dünn), der 109-seitige Reader (`QUESTIONS.md` #72), sowie
+`Final_Lageplan_100.pdf`/`Final_Schnitt_100.pdf` (P3). Nächster Lauf: `poppler`-Installation
+abwarten/anfragen, oder gemäss Queue-Regel zu `02_Architektur_Vermitteln`/
+`01_Landschaftsarchitektur` wechseln (je rund 12 P2-Positionen).
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), zweiter und dritter P2-Lauf (Lane FACHWISSEN, 54. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Fortsetzung des ersten P2-Laufs dieser Sektion vom selben Tag. Vor Arbeitsbeginn wie üblich
+Prozesskette geprüft (keine Doppel-Instanz), `KORPUS-QUEUE.md`/`CHANGELOG.md` gegengeprüft
+statt dem strukturell veralteten Dispatch-Text zu folgen.
+
+**Zweiter P2-Lauf, Abschluss Position 8** (fünf zuvor offene Restdateien der
+Geschichte-Zusammenfassungen):
+
+- `Alternativen zur Grossstadt.docx` (ILIAS-Übungsdokument mit Erläuterungen: Engels' «Zur
+  Wohnungsfrage», Owen/Fourier-Siedlungsmodelle, Company Towns Saltaire/Akroydon/Bournville/
+  Port Sunlight) → neuer Artikel [[engels-wohnungsfrage-owen-fourier-company-towns]],
+  `status: speculative`.
+- `VL Architektur der USA.doc` (TU Dresden, Prof. Lippert, Sommer 2007, elfteilige
+  Vorlesungsreihe, nur Vorlesung 2 gelesen: Jefferson-Raster/Land Ordinance 1785/Northwest
+  Ordinance 1787/Commissioner's Plan New York 1811) → neuer Artikel
+  [[us-rastersystem-jefferson-land-ordinance-commissioners-plan]], `status: speculative`.
+  Vorlesung 5 (Ursprung City-Beautiful-Bewegung: Weltausstellung Chicago 1893,
+  Senate-Park-Commission-Zeitleiste 1902–1943) als Ergänzung in den bestehenden Artikel
+  [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]] eingefügt statt
+  Duplikat. Die übrigen rund neun Vorlesungen dieser Datei (Klassizismus, Neogotik, Chicago
+  School, Wright, Mies, Las Vegas) bleiben ungelesen, Fundstelle für einen künftigen Lauf
+  im Inventar vermerkt.
+- `Alternative zur Grossstadt.docx`, `Test/test.docx`, `Lead.doc`: kein Artikel (reine
+  Aufgabenstellung bzw. Duplikate zu bereits destillierten Artikeln).
+
+**Position 8 gilt damit als abgeschlossen.**
+
+**Dritter P2-Lauf, Positionen 13 und 14:**
+
+- Position 14 (DTV-Atlas-Konkordanz, 25 Kapitel mit Seitenzahlen) → neuer Artikel
+  [[dtv-atlas-baukunst-konkordanz-staedtebau-kapitel]], `status: emerging` (reine
+  Wegweiser-Tabelle, keine Textübernahme aus dem Atlas selbst).
+- Position 13 (das Manifest «Die Athmosphärische Stadt» selbst) gelesen: zu roh für einen
+  eigenen Artikel (Delta-Ehrlichkeit), zwei Fundpunkte als Ergänzung in den bestehenden
+  Artikel [[blockrand-aufenthaltsqualitaet-argumentation-verdichtung-jans]] eingefügt
+  (Attribution der Kernformulierung an Schmid Schärer Architekten statt rein eigener
+  Prägung; Maler-Stichwortliste als Bildreferenz-Fundus).
+
+`git diff --numstat` auf die Inventardatei zeigt über beide Teilläufe reinen Append
+(`58 0`). **Von den acht P2-Positionen dieser Sektion sind jetzt 8, 13 und 14
+abgeschlossen; Positionen 1–7 (Jans-Reader, Übungsheft, fünf Grundlagenwerke Manualistik,
+33 Autorendossiers, Platz-Materialbestand) bleiben vollständig offen.** Nächster Lauf:
+Position 1 (Jans-Reader, eigenes Ordnungsgerüst der Vorlesungsreihe Lampugnani, gibt laut
+Kurzbefund die spätere Wiki-Struktur «Geschichte des Städtebaus» vor).
+
+Keine der harten Sperren berührt (Verträge, Bewerbungen, Personaldossiers, Adress-/
+Kontaktdaten, Lohn-/Honorardaten, Privatunterlagen); die bekannte Datenschutz-Sperre
+(`FactShets_Staedte.docx`, Stufe X) wurde nicht angerührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 1 (Lane FACHWISSEN, 55. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Vor Arbeitsbeginn wie üblich `scutil` (Macmini bestätigt), `ps aux` (keine Doppel-Instanz,
+nur der eigene Prozess) und `KORPUS-QUEUE.md`/diese Datei gegengeprüft: der Dispatch-Text
+war erneut identisch veraltet («kein Destillat, keine Spec», Station fälschlich «MacBook
+Pro»), der reale Stand entsprach dem oben dokumentierten Ende des dritten P2-Laufs.
+
+Position 1 (`00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/01_Jans_Reader/PDF/00_Alles/
+110806_Alles.pdf`, 47 S., eigener Reader zur Vorlesungsreihe) vollständig gelesen. Die
+Quelle ist grösstenteils eine stichwortartige Live-Mitschrift, die bereits an anderer
+Stelle destillierte Themen wiederholt (Antike Athen/Rom, Mittelalter/Renaissance-Überblick,
+England Landschaftspark/Squares, vor-Haussmannsches Paris-Embellissement) — dort kein
+neuer Artikel (Delta-Ehrlichkeit). Vier Fundstellen mit echtem Mehrwert identifiziert und
+gegen bestehende Artikel geprüft, um Duplikate zu vermeiden:
+
+- S. 8–9 (Determinanten der Stadtform: Venedig/Topographie, Siena+Bath/Material,
+  Vitruv-Hygiene, London-Baurecht, Barcelona-Cerdà als weiche Determinante) als Ergänzung
+  in den bestehenden Artikel
+  [[staedtebau-begriffe-einflussgroessen-bausteine-stadtstruktur-jans]] eingefügt (dieselbe
+  Kategorienlogik wie im Glossar, dort aber mit anderen Beispielen belegt — kein Duplikat).
+- S. 24–26 und 38–40 (Systemwechsel Renaissance→Barock, Rom/Sixtus V., Versailles,
+  St. Petersburg, Platztypologie dreiseitig/ausstrahlend/allseitig-geschlossen,
+  Place-Royal-Typus Place Dauphine/Place des Vosges) → neuer Artikel
+  [[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]],
+  `status: speculative`.
+- S. 42–43 (Haussmanns drei Bauphasen: Premier/Second/Troisième réseau 1853–1869 mit
+  benannten Einzelprojekten) als Ergänzung in den bestehenden Artikel
+  [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]] eingefügt statt
+  Duplikat (der bestehende Artikel deckte Motivation/Zeitleiste ab, nicht die konkreten
+  Bauphasen).
+- S. 46 (dreistufige Berlin-Strategie Schinkel/Individualmonument → Lenné/gescheiterter
+  Gesamtplan → Hobrecht/privatwirtschaftlicher Grossblock, nur ein kurzer Einleitungsabsatz,
+  die Quelle bricht danach ab) → neuer Artikel
+  [[berlin-stadterweiterung-schinkel-lenne-hobrecht]], `status: speculative`.
+- S. 7 (parallele Zwölfer-Stadttypen-Liste, praktisch deckungsgleich mit dem bereits
+  destillierten Typologieblatt «Die A4») als reiner Cross-Check-Verweis in
+  [[stadttypen-strassennetz-systematik-jans]] vermerkt, kein neuer Artikel.
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append. **Position 1 gilt damit als
+abgeschlossen** (die übrigen, bereits andernorts abgedeckten Kapitel des Readers wurden
+geprüft, aber bewusst nicht erneut destilliert). Von den acht P2-Positionen dieser Sektion
+sind jetzt 1, 8, 13 und 14 abgeschlossen; **Positionen 2–7 (Übungsheft Lampugnani, fünf
+Grundlagenwerke Manualistik, 33 Autorendossiers, Platz-Materialbestand) bleiben offen.**
+Nächster Lauf: Position 2 (Übungsheft, 61 S., 214 kB Text, Kompetenz-/Methodenraster über
+17 Themenblöcke) oder eine der übrigen vier Positionen.
+
+Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 2, Teil 1 (Lane FACHWISSEN, 56. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Wie üblich vor Arbeitsbeginn `scutil` (Macmini bestätigt), `ps aux` (keine Doppel-Instanz)
+und `KORPUS-QUEUE.md`/`CHANGELOG.md`/diese Datei gegengeprüft: Dispatch-Text erneut
+identisch veraltet («kein Destillat, keine Spec», Station fälschlich «MacBook Pro»), realer
+Stand entsprach dem Ende des vierten P2-Laufs (Position 1 abgeschlossen).
+
+Position 2 (`.../02_Uebungsheft/PDF/110805_Alles.pdf`, 61 S. ILIAS-Übungsheft) zu rund 82 %
+gelesen (Themenblöcke 1-14 von 17). Textextraktion: `textutil` scheiterte an dieser PDF
+(gab Rohbytes statt Text zurück), `python3`/`pypdf` extrahierte erfolgreich 214'561 Zeichen
+— deckt sich mit dem im Kurzbefund vermerkten Textumfang. **Delta-Ehrlichkeit:** der
+Grossteil der Übung ist Multiple-Choice-Lernkontrolle zu historischen Stadtplänen, die
+bereits destillierte Inhalte wiederholt (u. a. Sixtus V./Versailles, Haussmann, Berlage/
+Amsterdamer Schule inklusive der Baublock-Definition **wortidentisch** zum bestehenden
+Artikel, Howard/Owen/Fourier, City-Beautiful/L'Enfant) — dort kein neuer Artikel. Drei neue
+Artikel destilliert:
+
+- [[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]
+  (`status: emerging`): Streifenstadt, Hippodamisches System, Cardo/Decumanus, Centuriatio,
+  Castrum, Insulae, Forum/Agora — Definitionen aus Modul 1.
+- [[plantypen-glossar-katasterplan-schwarzplan-strassenplan-enteignungsplan]]
+  (`status: emerging`): Katasterplan, Schwarzplan, Strassenplan, Quartierplan,
+  Strassenquerschnitt, Gestaltungsplan (Schweizer Bezug), Enteignungsplan (Schweizer
+  Raumplanungsgesetz-Bezug), Nolliplan-Sonderfall.
+- [[stadtgruendung-stadterweiterung-stadtumbau-begriffstrias]] (`status: emerging`):
+  präzise Dreiteilung mit wörtlichem ARL-2005-Zitat zu Stadtumbau.
+
+Zusätzlich Ergänzung im bestehenden Artikel
+[[berlin-stadterweiterung-schinkel-lenne-hobrecht]]: Hobrecht-Fluchtlinienplan-Kennzahlen
+1862 (Mietskaserne-Kritikpunkte, Tempelhofer/Schöneberger Feldmark 1861/1870/1891) — füllt
+die dort selbst vermerkte Lücke.
+
+**Drei Themenblöcke bleiben ungelesen** (15 Stadtmodernisierung Berlin, 16 Städtisches
+Grün, 17 Städtisches Wohnen Frankfurt). Details/Fundstellen in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md` Abschnitt Destillat-Fortschritt.
+**Nächster Lauf:** die drei Restblöcke abschliessen, dann Position 2 schliessen und mit
+Position 3 (fünf Grundlagenwerke Manualistik) fortfahren. Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 2, Teil 2/Abschluss (Lane FACHWISSEN, 57. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Wie üblich vor Arbeitsbeginn `scutil` (Macmini bestätigt), `ps aux` (nur der eigene Prozess)
+und `KORPUS-QUEUE.md`/`CHANGELOG.md`/diese Datei gegengeprüft: Dispatch-Text erneut
+identisch veraltet («kein Destillat, keine Spec», Station fälschlich «MacBook Pro»), realer
+Stand entsprach dem Ende des fünften Laufs.
+
+Die drei Restblöcke (15-17) geprüft. Das Read-Tool lieferte bei den beiden grossen
+Einzelmodul-PDF (`15_Stadtmodernisierung.pdf`, 11.6 MB, `16_Staedtisches_gruen.pdf`,
+12.9 MB) nur `[media removed: request limit]` — via `python3`/`pypdf` sauber als Text
+extrahiert (13'925 bzw. 16'849 Zeichen).
+
+- **Block 15** erwies sich als praktisch deckungsgleich mit dem bereits destillierten
+  [[wettbewerb-gross-berlin-1908-hochhausstadt-debatte-wohnblock-reform]] (dieselben vier
+  Wohnblock-Reformbeispiele, dieselben vier Hochhausstadt-Theoretiker) — kein neuer
+  Artikel, nur eine Fünf-Kategorien-Klassifikation der Wettbewerbs-Rahmenbedingungen
+  (planungspolitisch/wirtschaftlich/demografisch/sozial/politisch) dort ergänzt.
+- **Block 16** war ein echter Neufund (gegen den Wiki-Bestand geprüft, keine Überschneidung):
+  neuer Artikel [[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]] — Bruno Tauts
+  Stadtkrone-Konzept (konzentrische Stadt, Kristallhaus, Hufeisensiedlung Berlin-Britz als
+  gebautes Beispiel) und Leberecht Migges Kleingarten-/Volkspark-Theorie (Volkspark
+  Rehberge als gebautes Beispiel). Schliesst die im vierten Lauf offen gelassene Lücke
+  derselben Quelldatei (damals nur Werktitel ohne Zusammenfassung notiert).
+- **Block 17** (Städtisches Wohnen Frankfurt) **fehlt als Datei vollständig** — weder
+  eigener Unterordner noch in der kombinierten `110805_Alles.pdf` enthalten (diese endet
+  nachweislich nach Modul 16). Laut Inhaltsverzeichnis sollte er «Das Neue Frankfurt und
+  das Rote Wien» behandeln. Reale Bestandslücke, kein Werkzeug- oder Lesefehler; im neuen
+  Artikel als offener Punkt vermerkt.
+
+`git diff --numstat` auf die Inventardatei zeigt reinen Append (43 0). **Position 2 gilt
+damit als abgeschlossen** (alle 17 Themenblöcke geprüft, Block 17 als dokumentierte
+Quelllücke geschlossen). Von den acht P2-Positionen der Sektion sind jetzt 1, 2, 8, 13 und
+14 erledigt; Positionen 3-7 (fünf Grundlagenwerke Manualistik, 33 Autorendossiers,
+Platz-Materialbestand) bleiben offen. **Nächster Lauf:** Position 3 (Grundlagenwerke der
+Städtebau-Manualistik: Sitte mit Textebene, Stübben/Krier/Curdes/Nolli als Scans — Fremdwerke,
+nur methodisch mit Fundstelle zitierbar). Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 3 teilweise (Lane FACHWISSEN,
+58. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Textlayer-Probe per `pypdf` über alle fünf Grundlagenwerke der Manualistik: nur
+`Sitte.pdf` liefert echten Text (93 S., 115'781 Zeichen), `Stuebben.pdf`/`Krier.pdf`/
+`Curdes.pdf` 0 Zeichen, `Nolli.pdf` nur 105 Zeichen — vier der fünf Werke bleiben reine
+Bildscans. `Sitte.pdf` vollständig gelesen, neuer Artikel
+[[camillo-sitte-staedtebau-kuenstlerische-grundsaetze-platzgestaltung]] (vier Grundregeln
+alter Platzgestaltung: Freihalten der Mitte, Geschlossenheit der Plätze, Grösse/Form im
+Verhältnis zum Hauptgebäude, Unregelmässigkeit als Qualität; Platzgruppen und Übergang zur
+barocken Theaterperspektive). **Neuer Befund:** der Scan selbst ist unvollständig — laut
+Inhaltsverzeichnis 12 Kapitel plus Schluss bis Seite 175, tatsächlich endet der Scan nach
+Kapitel VII (S. 87) mit Städte-Register und Druckvermerk; die praktischen Kapitel VIII-XII
+(Sittes eigenes Reformprogramm) fehlen vollständig im digitalisierten Bestand — reale
+Bestandslücke, keine Fehlextraktion. Von den acht P2-Positionen der Sektion sind jetzt 1, 2,
+8, 13, 14 erledigt sowie 3 teilweise (Sitte-Anteil); Positionen 4-7 (33 Autorendossiers,
+Platz-Materialbestand) bleiben offen, Position 3 bleibt für die vier Bildscans offen.
+**Nächster Lauf:** Read-Tool direkt auf Stübben/Krier/Curdes/Nolli probieren, sonst Position
+4 (33 Autorendossiers) beginnen. Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 3 fortgesetzt (Lane FACHWISSEN,
+achter P2-Lauf dieser Sektion, direkt im Anschluss)
+
+Read-Tool trotz negativer `pypdf`-Probe auf Stübben/Krier/Curdes/Nolli probiert:
+`Stuebben.pdf` (5,2 MB) und `Curdes.pdf` (11,2 MB) vollständig lesbar, `Krier.pdf` (21,6 MB)
+scheitert an einer harten 20-MB-Obergrenze des Tools, `Nolli.pdf` (51,6 MB) danach nicht
+mehr getestet. **Neuer Befund:** die Read-Tool-Fähigkeit ist nicht auf Dateien unter rund
+2,5 MB beschränkt (wie im 50. Beispiel vermutet), sondern funktioniert bis mindestens
+11,2 MB — die reale Grenze ist ein hartes 20-MB-Dateigrössenlimit. Aus `Stuebben.pdf`
+(Josef Stübben, «Der Städtebau», Handbuch der Architektur 1907, Abschnitt 2 Kap. 6-7)
+neuer Artikel [[stuebben-staedtebau-platzarten-systematik-oeffentliche-plaetze]]
+(Vier-Typen-Systematik Verkehrs-/Nutz-/Garten-/Architekturplätze, Maertens'sche
+Sehwinkel-Theorie zur Platzdimensionierung als quantifizierte Ergänzung zu Sitte,
+Grössenvergleichstabelle, Platzgruppen, Nivellement). Aus `Curdes.pdf` (Gerhard Curdes,
+«Stadtstruktur und Stadtgestaltung», Kapitel 15 «Plätze», moderner Lehrbuchtext) neuer
+Artikel [[curdes-plaetze-funktionstypologie-entwurfsanforderungen-krier-formtypologie]]
+(Epochentypologie der Platzrolle, Acht-Punkte-Anforderungskatalog, funktionsabhängige
+Proportionsregeln, klimatische Cafés-Platzierungsregel, Rob Kriers Formtypologie 1975 in
+Sekundärdarstellung, da `Krier.pdf` selbst wegen Dateigrösse nicht zugänglich ist). Von den
+acht P2-Positionen der Sektion sind jetzt 1, 2, 8, 13, 14 vollständig sowie 3 zu zwei
+Fünfteln (Sitte, Stübben, Curdes) erledigt; Position 3 bleibt nur für Krier/Nolli offen
+(beide über 20 MB, dauerhaft blockiert). Positionen 4-7 bleiben vollständig offen.
+**Nächster Lauf:** Position 4 (33 Autorendossiers) beginnen. Keine der harten Sperren
+berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 4, elfter P2-Lauf (Lane FACHWISSEN, 61. Beispiel Memory `project_fachwissen-dispatch-loop`)
+
+Sieben weitere der 33 Autorendossiers bearbeitet. Drei neue Artikel aus bisher unberührten
+Quellen:
+
+- [[christiaanse-urban-breeding-grounds-gentrifizierungszyklus-steuerungspolitik]] — Kees
+  Christiaanse (ETH Zürich), Gentrifizierungszyklus als «urban breeding grounds»,
+  Jane-Jacobs-Zitat «self-destruction of diversity», Steuerungsinstrumente
+  Parzellenschutz/Wohnanteil-Vorgabe/Bonus-Malus.
+- [[tessenow-strassen-plaetze-geschlechtermetapher-dorf-stadt-grossstadt-analogie]] —
+  Heinrich Tessenow, Strasse/Platz als Geschlechtermetapher, Dorf-Stadt-Grossstadt als
+  Lebenslauf-Analogie (studentische Textanalyse).
+- [[deutsches-institut-stadtbaukunst-konferenz-traditionalisten-modernisten-2012]] —
+  Hochparterre-Bericht zur Stadtbaukunst-Konferenz Düsseldorf 2012, Traditionalisten
+  (Mäckler/Sonne/Kollhoff) gegen Modernisten (Ingenhoven/de Vries), mit
+  Lampugnani-Zitat «Lasst Architekten die Strassen zeichnen!».
+
+Vier weitere Dossiers (Howard, Taut, Migge, Engels) erwiesen sich als Primärquellen zu
+bereits destillierten Sekundärtexten und wurden als Ergänzung statt Duplikat eingefügt:
+Howards Drei-Magnete-Schema im Originalwortlaut in
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]]; Tauts
+Stadtkrone-Masszahlen (7 km Durchmesser, 800x500 m Areal, 38,5 km² Gesamtfläche,
+300'000-500'000 Einwohner) und Migges Gartengrössen-Norm (80-100 m²/Person) in
+[[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]]; Engels' «Haussmann» als
+Gattungsbegriff für Slum-Verlagerung (nicht -beseitigung) samt Guise als einziges gebautes
+Fourier-Beispiel in [[engels-wohnungsfrage-owen-fourier-company-towns]]. Zwei Dossiers ohne
+Ertrag (Delta-Ehrlichkeit): Mumford (reine Aufgabenstellung ohne eigene Bearbeitung), Gracq
+(literarischer Wikipedia-Stub ohne städtebauliche Fachaussage).
+
+Von den 33 Autorendossiers der Position 4 sind jetzt 15 mit Ertrag bearbeitet, drei Ordner
+leer (Leveillé, Siedler, Sutcliffe); 16 bleiben offen: Behne, Giedion, Hilberseimer,
+Jefferson, Lampugnani, Muratori, Rossi (gegen bestehende Rossi-Artikel aus
+`archiv-fachwissen__02_Architekturtheorie` prüfen), Sievers, Sonne, Waldenheim, sowie die
+unzugeordnete `kapitel01_dk_vorindustrielle_120dpi.pdf`. **Nächster Lauf:** kleine
+Restdateien zuerst (Behne, Waldenheim, `kapitel01_dk...`), grosse Dateien
+(Sonne/Lampugnani/Sievers, teils über 20-MB-Grenze) zuletzt. Keine der harten Sperren
+berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 4, zwölfter und dreizehnter P2-Lauf (Lane FACHWISSEN)
+
+Zwölfter Lauf: Behne (Dreistufenmodell Fassade/Haus/Raum), Waldenheim (Landscape Urbanism
+Reader) und `kapitel01_dk...` Unterkapitel 3 (Ostkolonisation/Hanse) abgeschlossen — Details
+CHANGELOG 30.08.2026.
+
+Dreizehnter Lauf: Jefferson und Muratori abgeschlossen, drei neue Artikel:
+
+- [[thomas-jefferson-checkerboard-plan-staedtekritik-agrarideal-widerspruch]] — Dissertation
+  Felix Aeppli (Uni Zürich 1975), Jeffersons eigene Federal-City-Entwürfe 1790/91,
+  Checkerboard-Plan gegen Gelbfieber (gebaut in Jeffersonville IN und Jackson MS,
+  wirtschaftlich beide gescheitert), Gesundheits-/Moralkritik an der Stadt, Wandel
+  Agrarideal→Manufaktur über Embargo 1807/Krieg 1812, biografischer Widerspruch (Nagelfabrik
+  Monticello, Pariser Bibliothekskäufe, Universität Charlottesville).
+- [[saverio-muratori-typologische-methode-biografie-rezeption-bologna-kritik]] — arch+ Heft
+  85 (Giorgio Conti), Biografie, Wettbewerb Mestre-San Giuliano 1959 (drei Positionen
+  Muratori/Piccinato-Samonà/Quaroni), Tafuris Kritik am «undialektischen Übergang von
+  Analyse zu Entwerfen», kritische Relativierung der Bologna-Sanierung Cervellati 1973.
+- [[saverio-muratori-caniggia-stadtmorphologie-glossar-typ-standard-mutation]] — arch+ Heft
+  85 (Sylvain Malfroy), Typ-vs-Standard-Unterscheidung, vier Massstabsebenen, strukturelle
+  Permanenzen, Kapillarmutationen vs. konzentrierte Planung.
+
+Von den 33 Autorendossiers der Position 4 sind jetzt 20 mit Ertrag bearbeitet; 13 bleiben
+offen: Giedion, Hilberseimer, Lampugnani, Rossi (gegen bestehende Rossi-Artikel aus
+`archiv-fachwissen__02_Architekturtheorie` prüfen), Sievers, Sonne, plus drei leere Ordner
+und zwei ohne Ertrag geprüft aus Vorläufen. **Nächster Lauf:** Rossi mit Duplikat-Check
+zuerst, dann Sievers, Giedion/Hilberseimer/Lampugnani/Sonne zuletzt (teils über
+20-MB-Grenze). Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 4, vierzehnter bis sechzehnter P2-Lauf (Lane FACHWISSEN)
+
+Vierzehnter Lauf: Rossi (`Rossi_Aldo/`, zwei studentische Buchzusammenfassungen von
+«L'architettura della città») → neuer Artikel
+[[rossi-architektur-der-stadt-funktionalismuskritik-typologie-eigentumsstruktur-monument]],
+nach Duplikat-Check gegen die bestehenden Rossi-Artikel aus
+`archiv-fachwissen__02_Architekturtheorie` als eigenständig destilliert (Funktionalismuskritik,
+Typus-vs-Modell, Eigentumsstruktur/Enteignung, Monument-Begriff).
+
+Fünfzehnter Lauf: Sievers (`Siewerts_Thomas/`, zwei Dateien, eine davon ohne Textebene aber
+vom Read-Tool dennoch vollständig gelesen) → neuer Artikel
+[[sieverts-zwischenstadt-drei-voraussetzungen-aesthetik-anaesthetik-iba-emscher-park]]
+(Begriff Zwischenstadt, Ästhetik/Anästhetik nach Welsch, IBA Emscher Park).
+
+Sechzehnter Lauf: drei weitere Autorendossiers abgeschlossen:
+
+- [[giedion-raum-zeit-architektur-haussmann-paris-transformation-1853-1868]] — Sigfried
+  Giedion, «Raum, Zeit, Architektur», Kapitel zur Haussmann-Transformation von Paris
+  (réseaux als Finanzierungsbegriff, «théorie des dépenses productives», Miethaus-Analyse
+  1860, Thiers-Kritik, Echo im Wiener Ring) — eigenständige, reichhaltigere Ergänzung zum
+  bestehenden [[monumentale-stadtachsen-haussmann-paris-city-beautiful-washington]].
+- [[hilberseimer-hochhausstadt-dezentralisiertes-wohngebiet-mischbebauung]] — Hochhausstadt
+  1924, wörtliche Selbstkritik 1963, dezentralisiertes Wohngebiet/Mischbebauung.
+- [[lampugnani-historisches-stadtzentrum-kulturgut-lehrstueck-dichte]] — NZZ-Essay 2012,
+  historischer Bogen Voltaire bis Koolhaas, vier Argumente für die Aktualität der Altstadt.
+
+Von den 33 Autorendossiers der Position 4 sind jetzt 24 mit Ertrag bearbeitet; drei Ordner
+leer (Leveillé, Siedler, Sutcliffe), zwei ohne Ertrag geprüft (Mumford, Gracq). **Nur noch
+Sonne (grösstenteils über 20-MB-Grenze) und der Lampugnani-Quellentextband (358 Scan-Seiten
+ohne Textebene, Seitenbereichs-Lesung am fehlenden `poppler` gescheitert, Vollzugriff für
+einen einzelnen Lauf zu umfangreich) bleiben offen**, dazu `kapitel01_dk...` Unterkapitel
+1/2/4/5 als eigene Restaufgabe. Keine der harten Sperren berührt.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), Position 4 abgeschlossen, `Quellentextband-1.pdf` als vollständig lesbar erwiesen (Lane FACHWISSEN, 21. und 22. P2-Lauf)
+
+Nach Abschluss der 33 Autorendossiers (Sonne/Kultur der Urbanität als letztes Dossier,
+siehe [[sonne-kultur-der-urbanitaet-dichte-stadt-kontinuitaetsthese]]) und den fünf
+Unterkapiteln von `kapitel01_dk_vorindustrielle_120dpi.pdf` (siehe
+[[deutsche-ostkolonisation-mittelalterliche-stadtgruendung-hanse-wiese-zils]] und die
+beiden weiteren Wiese/Zils-Artikel) blieb als letzte grosse Einzelquelle der Sektion
+`Quellentextband-1.pdf` (10,3 MB, 358 Seiten Bildscan) offen. Entgegen früherer
+Einschätzung («zu lang für einen Volldurchlauf») liest das Read-Tool die Datei ohne
+`pages`-Parameter vollständig in einem Aufruf. Sie erwies sich als Band I einer
+vierbändigen ETH-Quellenanthologie «Texte zur Geschichte des Städtebaus»
+(Lampugnani-Professur 1996) mit ca. 50 Primärtext-Auszügen von Homer bis Max Weber.
+
+21. Lauf: Max Webers Marktansiedlungs-Definition
+([[max-weber-stadtbegriff-marktansiedlung-fuerstenstadt-konsumentenstadt-produzentenstadt]])
+und Manuel da Maias Fünf-Modi-Variantenvergleich für den Lissabon-Wiederaufbau 1755
+([[manuel-da-maia-lissabon-wiederaufbau-fuenf-modi-1755]]).
+
+22. Lauf, vier weitere Auszüge:
+
+- [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]] — Buch I:
+  Standortwahl/Vier-Elemente-Lehre, Sumpfgebiets-Fallbeispiele, Windrosen-Strassenraster,
+  Götter-Standortlogik.
+- [[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]] — Vitruv Buch VIII,6
+  plus Frontinus «Wasser für Rom»: neun Aquädukte, Mengenbilanz, Kalibersystem,
+  Senatsbeschluss 11 v. Chr.
+- [[renaissance-idealstadt-typologie-filarete-alberti-duerer]] — Dreiervergleich
+  Filarete/Sforzinda, Alberti (Standort-/Formregeln, Perugia-Beispiel), Dürer
+  (Quadratstadt-Idealstadtbeschreibung 1527), mit Vergleichstabelle.
+- [[kalabrien-wiederaufbau-erdbeben-1783-vergleich-lissabon]] — Bauvorschriften Reggio,
+  Neugründung Filadelfia, Bagnara-Konflikt, Palestinos Vollzugschronik; Vergleichsfall zu
+  Manuel da Maia, dort zurückverlinkt.
+
+**Von den ca. 50 Quellentextband-Auszügen sind jetzt sechs destilliert, rund 40 bleiben
+offen** (u. a. Vauban im Original noch nicht eigenständig behandelt, nur im
+Renaissance-Vergleichsartikel referenziert; Palladio, Descartes, Campanella, Ludwig XIV.,
+Dézallier d'Argenville ungelesen). Die 33 Autorendossiers der Position 4 gelten mit Sonne
+als abgeschlossen. **Nächster Lauf:** Vauban («Abhandlung von der Vertheidigung der
+Festungen») eigenständig, danach Palladio. Keine der harten Sperren berührt.
+
+23. Lauf, zwei weitere Auszüge (Vauban, Palladio):
+
+- [[vauban-festungsbau-bastionstheorie-graenzfestung-1704]] — Gränzfestung-Definition,
+  Klassifikation regelmässig/unregelmässig/zugänglich, Wallmasse, Bastionstheorie
+  (Facen/Courtinen/Flanquen-Verteidigungslogik, Bastions ohne Cavalier).
+- [[palladio-strassen-bruecken-plaetze-vier-buecher-1570]] — Buch III: vier
+  Strassenanforderungen, Windregel nach Vitruv, Palladios eigener Brückenentwurf mit
+  Läden/Loggien, Platzproportionsregel nach Alberti (1/3-1/6 Gebäudehöhe zu
+  Platzbreite), ergänzt Sitte/Stübben/Curdes-Platzdebatte. Offener Punkt zur
+  Alberti-Fundstelle in `wiki/QUESTIONS.md` #73.
+
+**Von den ca. 50 Quellentextband-Auszügen sind jetzt acht destilliert, rund 38 bleiben
+offen** (Descartes, Campanella, Ludwig XIV., Dézallier d'Argenville weiterhin ungelesen,
+dazu zahlreiche kürzere antike/mittelalterliche Einzelauszüge). Keine der harten Sperren
+berührt. **Nächster Lauf:** Descartes (Methodenlehre, Stadtplanungs-Analogie) oder
+Ludwig XIV. (Versailles-Gartenführung) — beide kurz und eigenständig, danach
+Campanella/Dézallier d'Argenville.
+
+24. Lauf, zwei weitere Auszüge (Descartes, Ludwig XIV.):
+
+- [[descartes-methode-architektonische-einheitsplanung-organisches-wachstum]] —
+  Ein-Baumeister-Argument gegen gewachsene Stadtstruktur, Analogie
+  Gebäude/Gesetzgebung, Beispiel Sparta.
+- [[ludwig-xiv-versailles-gartenfuehrung-choreographierte-besichtigungsroute]] —
+  eigenhändiges Regieskript für die Versailles-Gartenbesichtigung in 25
+  nummerierten Schritten, verlinkt mit dem Achsensystem-Artikel.
+
+25. Lauf, zwei weitere Auszüge (Campanella, Dézallier d'Argenville):
+
+- [[campanella-citta-del-sole-konzentrische-ringstadt-verteidigung-lehrinstrument]] —
+  konzentrische Sieben-Ring-Stadt mit gestaffelter, torversetzter
+  Verteidigungstiefe und enzyklopädischem Wandmalprogramm je Ring.
+- [[dezallier-dargenville-gartentheorie-vier-maximen-standortkriterien]] — fünf
+  Standortkriterien nach Vitruv, vier Grundmaximen der Gartendisposition
+  (Natur vor Kunst, keine Überladung, gestaffelte statt totale Ansicht, grösser
+  wirken als tatsächlich), verlinkt mit Ludwig-XIV.-Artikel.
+
+**Von den ca. 50 Quellentextband-Auszügen sind jetzt zwölf destilliert, rund 34
+bleiben offen** (zahlreiche kürzere antike/mittelalterliche Einzelauszüge). Keine
+der harten Sperren berührt. **Nächster Lauf:** Aristoteles «Politik» (Buch II,8
+Hippodamus-Stadtplan; Buch VII,5-6/10-11 optimale Stadtlage) oder Digesta Buch
+43,7-11 (römisches öffentliches Wege-/Baurecht) — beide kurz und eigenständig.
+
+26. Lauf, zwei weitere Auszüge (Aristoteles, Digesta):
+
+- [[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]] —
+  Hippodamus von Milet (10'000-Bürger-Staat, Dreiteilung von Bevölkerung und
+  Land), vierfache Rücksicht bei der Stadtlage, Zielkonflikt hippodamische
+  Rasterbauart versus Kriegssicherheit.
+- [[digesta-43-oeffentliches-wegerecht-baurecht-interdikte-roemisch]] —
+  prätorisches Interdikt-Recht zu öffentlichen Plätzen/Wegen,
+  Reparatur-Interdikt-Formel mit Verschlechterungsverbot, Nachbarhaftung für
+  abgeleitetes Wasser.
+
+**Von den ca. 50 Quellentextband-Auszügen sind jetzt vierzehn destilliert, rund
+32 bleiben offen.** Keine der harten Sperren berührt. **Nächster Lauf:**
+nächstes kurzes, eigenständiges Autorendossier oder weitere
+Quellentextband-Einzelauszüge nach Bürorelevanz auswählen.
+
+27. Lauf, bislang unbemerkter islamischer Textblock (S. 173-190) gefunden und
+zwei Positionen destilliert (Al-Farabi, Ibn Abdun):
+
+- [[al-farabi-musterstaat-gesellschaftshierarchie-koerper-metapher]] —
+  zweistufige Gesellschaftshierarchie (vollkommene Gesellschaft dreistufig bis
+  zur Stadt, unvollkommene Gesellschaften Dorf/Quartier/Haus), Musterstadt als
+  ethisches statt bauliches Kriterium, Stadt-Körper-Organhierarchie-Metapher.
+- [[ibn-abdun-sevilla-baupolizei-hisba-marktordnung-1100]] —
+  Hisba-Baupolizeiverordnung Sevilla (Mindest-Mauerstärke, normierte
+  Baustoff-Musterexemplare, feste Standplätze für Brennholz-/Kalkhändler, fest
+  besoldeter Moschee-Maurermeister), Eigentumsrecht-durch-Dauernutzung am
+  Moscheevorplatz (Parallele zur Digesta, dort zurückverlinkt).
+
+28. Lauf, drei weitere Positionen des islamischen Textblocks destilliert
+(Ibn Dschubair, Ibn Chaldun zweimal):
+
+- [[ibn-dschubair-damaskus-wasserinfrastruktur-stiftungswesen-1184]] —
+  Reisebeschreibung Damaskus (ca. 1184): Brandrisiko dichter
+  Lehm-/Holzbauweise, Wasserinfrastruktur (Bäche durch jede Strasse, vier
+  Reservoirs an der Grossen Moschee), Waqf-Stiftungswesen für Hospitäler
+  (15 Dinar Tageszuwendung, Patientenregister) und Medresen.
+- [[ibn-chaldun-standortkriterien-verfallslogik-staedtischer-kultur]] —
+  Muqaddima-Auszug: Städte als Folgeerscheinung der Königsherrschaft,
+  ökonomisch-zyklische Verfallslogik städtischer Kultur (Prachtentfaltung →
+  Warensteuer → Verarmung), sechs Standortkriterien für Stadtgründung
+  (Sicherheit, Luft, Wasser, Weiden, Felder, Wald), Negativbeispiel
+  Kairouan/Kufa/Basra.
+- [[ibn-chaldun-bauhandwerk-tabija-geometrie-nachbarrecht]] — Bautypen nach
+  Klimazone, systematische Nachbarrecht-Konflikte (Licht, gemeinsame Mauer,
+  Wegerecht, Wasserabfluss), Tabija-Stampflehmbau-Technik im Detail,
+  Geometrie als Voraussetzung des Baumeisters.
+
+Al-Ghazali (S. 181-182) mitgelesen, aber ohne eigenen Artikel — reiner
+theologischer Text ohne städtebaulichen Bezug (Delta-Ehrlichkeit).
+
+**Von den ca. 50 Quellentextband-Auszügen sind jetzt 17 destilliert, rund 29
+bleiben offen — der gesamte islamische Block (sechs Positionen) ist damit
+vollständig gesichtet, fünf davon destilliert.** Nächster Lauf: Francesco di
+Giorgio Martini (anthropometrische Stadtproportionen, S. 251-254) oder
+weitere kurze Quellentextband-Einzelauszüge nach Bürorelevanz.
+
+**Von den ca. 50 Quellentextband-Auszügen sind jetzt 16 destilliert, rund 30
+bleiben offen — darunter der gesamte restliche islamische Block (Ibn
+Dschubair/Damaskus, Al-Ghazali, Ibn Chaldun zweimal) und Francesco di Giorgio
+Martinis anthropometrische Stadtproportionen (S. 251-254), die im
+Al-Farabi-Artikel bereits als offene Anschlussposition vermerkt sind.**
+Zusätzlich Stichprobenbefund: die seit dem 18. Lauf wiederholte Zahl «acht
+Autorendossiers bleiben unangetastet» liess sich bei sieben stichprobenartig
+geprüften Positionen nicht bestätigen (alle sieben bereits erledigt) — Zahl
+gilt als nicht mehr belastbar, aber nicht abschliessend widerlegt. **Nächster
+Lauf:** Ibn Dschubair (Damaskus-Reisebeschreibung, S. 177-180) oder Ibn
+Chaldun (Stadtplanung/Bauhandwerk, S. 183-190), danach Francesco di Giorgio
+Martini.
+
+29. Lauf, Francesco di Giorgio Martini destilliert:
+
+- [[francesco-di-giorgio-martini-stadtkoerper-proportionslehre-anthropometrie]]
+  — Zitadelle als Kopf-Analogie des Stadtkörpers, Dinocrates-Anekdote,
+  konkrete Konstruktionsvorschrift (Kreis um den Körpernabel, alternativ
+  Quadrat), Organ-Funktions-Analogie für Platzverteilung, praktische Regeln
+  für Hügel-, Ebenen- und Flussstädte. Verlinkt mit dem Al-Farabi-Artikel
+  (dort veraltete Notiz korrigiert).
+
+Betriebsbefund: Seitenangaben in dieser Anthologie sind gedruckte
+Buchseiten, nicht PDF-Seitenindex — Offset PDF-Seite = gedruckte Seite + 4
+(verifiziert über Fusszeile vor dem Al-Farabi-Text). Diese Session hatte
+`poppler`/`tesseract`/`tesseract-lang` (Sprachpaket `deu`) zwar installiert,
+aber nicht im PATH — nachgerüstet statt neu installiert; `/tmp` liess sich
+von `tesseract` nicht öffnen, Workaround `~/fdgm-test/`. **Von den ca. 50
+Quellentextband-Auszügen sind jetzt 18 destilliert, rund 28 bleiben offen.**
+**Nächster Lauf:** nächsten kurzen, bürorelevanten Quellentextband-Auszug
+wählen, Auswahl gegen diesen INDEX-Eintrag statt gegen `KORPUS-QUEUE.md`
+prüfen (dort oft einen Lauf veraltet).
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), 32. P2-Lauf: Vita Nicolai V, Hippokrates destilliert, Koran-Auszüge ohne Artikel (Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine
+Zahlen mehr): `KORPUS-QUEUE.md`, dieses INDEX, CHANGELOG und die
+Inventardatei gegengeprüft — deckungsgleich mit dem 31.-Lauf-Ende. Working
+tree bei Laufbeginn sauber, kein `MERGE_HEAD`, nur die eigene Prozessinstanz
+(`ps aux`).
+
+Aus der 54-Positionen-Liste des 30. Laufs die drei vom 31. Lauf empfohlenen
+Kandidaten per `/opt/homebrew/bin/pdftoppm` gerendert und gelesen:
+
+- **Koran-Auszüge** (S. 169-171, drei Suren-Sammlungen zu Paradiesgärten:
+  Sure 3/4/18/37/47/56/88) — reine Jenseits-/Paradiesbeschreibung
+  (Gärten, Bäche, Polster, Trauben), kein städtebaulicher oder
+  architektonischer Bezug über die religiöse Gartenmetapher hinaus. Analog
+  zum Al-Ghazali-Befund des 27. Laufs **ohne Artikel geschlossen**
+  (Delta-Ehrlichkeit).
+- **Vita Nicolai V** (S. 201, einseitiger Auszug, Folgeseite 202 im
+  Quellenband leer) → neuer Artikel
+  [[vita-nicolai-v-stadt-als-bibel-der-armen-monumentalbau-legitimation]]
+  (monumentale Architektur als Legitimations-/Kommunikationsmittel der
+  Kirche gegenüber einer schriftunkundigen Mehrheit, „Stadt als Bibel der
+  Armen"), verlinkt mit der bestehenden Renaissance-Idealstadt-Sektion.
+- **Hippokrates, «Von der Luft, den Wässern und den Gegenden»** (S. 35-39,
+  Erstes und Zweites Hauptstück) → neuer Artikel
+  [[hippokrates-von-der-luft-waessern-gegenden-staedtestandort-windrichtung]]
+  (medizinisches Vier-Kriterien-Prüfraster für Stadtstandorte, Wind-Wasser-
+  Konstitutions-Kausalkette, Ost- vs. Westlage-Gesundheitsrangfolge) —
+  strukturelle Vorstufe zu Vitruvs Standortregel, verlinkt mit
+  [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]].
+
+Gegen Wiki-Bestand geprüft (`grep -rli` nach «hippokrat»/«nicolai»/«manetti»
+über `wiki/*.md`): keine Treffer, keine Duplikate. `git diff --numstat` auf
+die Inventardatei zeigt reinen Append.
+
+**Von den 54 benannten Positionen der Anthologie sind jetzt 27 destilliert
+oder begründet ohne Artikel abgeschlossen, 27 vollständig offen.**
+**Nächster Lauf:** aus der 54-Positionen-Liste im 30.-Lauf-Abschnitt weiter
+auswählen — kurze, bürorelevante Einzelauszüge zuerst.
+
+## 260830 — Sektion `01_Staedtebau` (Korpus 4), 33. P2-Lauf: Enea Silvio Piccolomini destilliert (Lane FACHWISSEN)
+
+Stand vor Laufbeginn selbst ermittelt (Dispatch-Text trägt bewusst keine
+Zahlen): `KORPUS-QUEUE.md`, dieses INDEX, CHANGELOG und die Inventardatei
+gegengeprüft — deckungsgleich mit dem 32.-Lauf-Ende. Working tree bei
+Laufbeginn sauber.
+
+Nächste Position aus der 54-Positionen-Liste des 30. Laufs gewählt: **Enea
+Silvio Piccolomini** (S. 233/240/241, drei Sub-Exzerpte), per
+`/opt/homebrew/bin/pdftoppm` gerendert und gelesen:
+
+- **Deutschland** (Buch II, S. 233-234): politische Apologie gegen die
+  Curia-These der deutschen Verarmung, Stadtpracht (Beispiel Köln) als
+  Wohlstandsbeweis, Kontrastfolie antikes Germanien nach Caesar.
+- **Wien-Brief** (Brief 9, an einen Freund in Basel, April 1438, S. 240-241):
+  quantifizierte Stadtbeschreibung — Befestigung, Haustypologie
+  («Stuben»-Heizraum), Rechtssonderstatus Adel/Klerus, Strassenpflaster,
+  schlanke Verwaltungsstruktur (18 Stadtväter, Stadtrichter, Bürgermeister,
+  einziges Fiskalamt Weinsteuer), quantifizierte Versorgungslogistik.
+- **Tivoli/Commentarii rerum memorabilium** (S. 241-242) gelesen, nur
+  fundstellenhalber vermerkt — reine Ruinenbeschreibung ohne Verfahrens-
+  oder Kennwertbezug (Delta-Ehrlichkeit).
+
+→ neuer Artikel
+[[enea-silvio-piccolomini-wien-1438-deutschland-tivoli-stadtbeschreibungen]],
+verlinkt mit [[vitruv-standortwahl-windrose-tempelstandorte-antike-stadthygiene]],
+[[siena-baupflege-dokumente-campo-fensterordnung-ballatoi-ufficio-bellezza]]
+und [[bern-handfeste-1218-satzungenbuch-1405-baulinien-nachbarrecht]].
+
+Gegen Wiki-Bestand geprüft (`grep -rli` nach «piccolomini»/«Enea Silvio»/
+«Pius II» über `wiki/*.md`): keine Treffer, keine Duplikate. `git diff
+--numstat` auf die Inventardatei zeigt reinen Append (45/0).
+
+**Von den 54 benannten Positionen der Anthologie sind jetzt 28 destilliert
+oder begründet ohne Artikel abgeschlossen, 26 vollständig offen.**
+**Nächster Lauf:** Campano (243) oder Pero Tafur (245) als nächste kurze
+Positionen, sonst Serlio (267) oder Pacioli (255) als bürorelevante
+Renaissance-Traktat-Kandidaten.
+
+**30.08.2026 (Lane FACHWISSEN, 34. und 35. P2-Lauf):** Campano/Pienza
+destilliert ([[campano-pienza-pius-ii-architekt-kostenueberschreitung-1462]],
+Pero Tafur ohne Ertrag), danach Pacioli
+([[pacioli-divina-proportione-koerperproportion-simulacro-architektur]]) und
+Serlio ([[serlio-buehnenbau-scena-comica-tragica-satirica-1545]]). Von den
+54 benannten Positionen der Anthologie sind jetzt 31 destilliert oder
+begründet ohne Artikel abgeschlossen, 23 vollständig offen. Details je Lauf
+in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 36. P2-Lauf):** vor Laufbeginn systematisch
+geprüft, ob in irgendeiner Sektion beider Korpora noch offene P1-Positionen
+bestehen (alle 43 Inventardateien gegen ihren Destillat-Fortschritt
+geprüft) — **P1 ist über `buero-referenzen` UND `archiv-fachwissen`
+vollständig abgeschlossen**, kein offener Rest gefunden; nur P2 bleibt
+offen. Aventinus, Bayerische Chronik (S. 271-274) gelesen, aber ohne
+Artikel geschlossen (religiös-moralisierende Verfallsklage, ein einzelner
+Absatz zu bescheidenem Kirchenbau ohne Verfahren/Kennwert, zu dünn für
+einen eigenständigen Artikel). Castiglione/Raffael-Brief an Leo X. (1519,
+S. 275-279) destilliert →
+[[castiglione-raffael-brief-leo-x-1519-stilkritik-spolien]] (Spolien-/
+Kalkbrennerei-Kritik am antiken Rom, Raffaels Vermessungsmethode,
+stilkritische Dreiperioden-Klassifikation, Konstantinsbogen-Beispiel).
+Von den 54 benannten Positionen der Anthologie sind jetzt 32 destilliert
+oder begründet ohne Artikel abgeschlossen, 22 vollständig offen. Details
+in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 37. P2-Lauf):** Münster/Cosmographei (S.
+281-282, Berner Gründungssage, Flussschlaufe als Determinante der drei
+Längsgassen) destilliert →
+[[muenster-cosmographei-bern-gruendungssage-flussschlaufe-stadtform-1550]].
+Specklin, Architectura von Vestungen (S. 289-292, vierfache
+Standortprüfung Boden/Klima/Wasser/Kriegssicherheit, Begriff der
+«Topographia» als Bestandsaufmass vor Erweiterung) destilliert →
+[[specklin-architectura-vestungen-standortkriterien-topographia-1589]].
+Dazwischen liegender Palladio-Auszug (S. 283-288) als bereits im 23. Lauf
+destilliert bestätigt ([[palladio-strassen-bruecken-plaetze-vier-buecher-1570]]),
+kein Doppelfund. Von den 54 benannten Positionen der Anthologie sind jetzt
+34 destilliert oder begründet ohne Artikel abgeschlossen, 20 vollständig
+offen. Details in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 38. P2-Lauf):** Olivier de Serres, Théâtre
+d'Agriculture (S. 293-297, Buch VI «Des Jardinages») vollständig geprüft und
+**ohne Artikel geschlossen** — reine Zier-/Nutzgarten-Anleitung
+(Bordürenpflanzen, Parterre-Farbkiesmuster, Blickachsen-Perspektive), kein
+städtebaulicher Gehalt (Delta-Ehrlichkeit, analog Aventinus/Al-Ghazali).
+Giorgio Vasari il Giovane, La Città ideale (1598, S. 299-302) destilliert →
+[[vasari-il-giovane-citta-ideale-1598-gebaeudetypologie-marktzonierung]]
+(Standortwahl Ebene statt Hügel wegen fester Regelbarkeit, Fluss nahe aber
+nicht durch die Stadt, Strassenraster-Debatte gerade vs. krumm mit
+Siena-Verkettung als Kompromiss, fünfeckige Zitadelle als erster Bauplan,
+65-teiliges Typenverzeichnis mit Markt-Warenzonierung, Palast-Geschosshierarchie
+und Bibliotheks-Begründung). Von den 54 benannten Positionen der Anthologie
+sind jetzt 36 destilliert oder begründet ohne Artikel abgeschlossen, 18
+vollständig offen. Nächster Lauf: Leonardo da Vinci (S. 257, bisher nie
+geprüft) oder der noch ungeprüfte antike Block Homer bis Cicero (S. 9-81).
+Details in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 39. P2-Lauf):** vor Laufbeginn erneut
+geprüft, dass P1 über beide Korpora vollständig abgeschlossen bleibt
+(Stichprobe unverändert). Leonardo da Vinci, Ausgewählte Texte (S. 257,
+zwei Manuskript-Notizen 1490/1493) vollständig gelesen und destilliert →
+[[leonardo-da-vinci-mailand-verstaedterungspolitik-zweistufiges-strassensystem]]
+(Verstädterungspolitik durch Anreiz-Hausbau der Standesoberen, Zielgrösse
+5'000 Häuser/30'000 Wohnungen, Finanzierung über Gemeinde Lodi gegen
+Herzogspreis; zweistufiges Strassensystem mit getrennten Ebenen für
+Fussverkehr der Herren, Warenverkehr und unterirdische Entsorgung, Verbindung
+alle 300 Braccia über Wendeltreppen). Von den 54 benannten Positionen der
+Anthologie sind jetzt 37 destilliert oder begründet ohne Artikel
+abgeschlossen, 17 vollständig offen. Nächster Lauf: der noch ungeprüfte
+antike Block Homer bis Cicero (S. 9-81). Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 40. P2-Lauf):** Homer, Ilias (S. 9-12,
+Schiffskatalog/Zeus-Hera-Dialog) geprüft, **ohne Artikel geschlossen**
+(reine Städte-Epitheta ohne Verfahren/Kennwert, Delta-Ehrlichkeit). Herodot,
+Historien (S. 13-24, Babylon-Doppelmauer/Nitokris-Flussumleitung,
+Memphis-Gründung/Sesostris-Kanalnetz, Eupalinos-Tunnel Samos) destilliert →
+[[herodot-historien-babylon-memphis-eupalinos-tunnel-samos]]. Bei dieser
+Gelegenheit Zähl-Drift der laufenden "X von 54"-Zählung entdeckt und durch
+konkrete Namensliste ersetzt (Detail: `wiki/QUESTIONS.md` #74). Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 41. P2-Lauf):** Thukydides, Geschichte des
+Peloponnesischen Krieges (S. 27-34, Landflucht-/Küstenbesiedlungstheorie,
+Themistokles' eiliger Mauerbau/Peiraieus-Ausbau mit Baukennwerten,
+Mauerlängen-Kennwerttabelle der «Langen Mauern» 431 v. Chr.,
+Theseus-Synoikismos als Verwaltungsreform) destilliert →
+[[thukydides-peloponnesischer-krieg-athen-mauerbau-peiraieus-synoikismos]].
+Details in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 42. P2-Lauf):** Cicero, Vom Staatswesen (S.
+75-81, Buch I,26 Stadtdefinition und drei Staatsformen nach Sitz der
+Beschlusskompetenz; Buch II,1-6 Roms Verfassung als Werk vieler Generationen
+statt eines Gesetzgebers, Romulus' bewusste Binnenlage-Entscheidung am Tiber
+gegen die Küstenlage mit ausführlicher Vor-/Nachteilsabwägung, Beispiele
+Karthago/Korinth) destilliert →
+[[cicero-vom-staatswesen-romulus-binnenlage-drei-staatsformen]]. Gegen
+Wiki-Bestand geprüft (`grep -rli` Cicero/Romulus): keine bestehenden
+Treffer, kein Duplikat. Nächster Lauf: Aristophanes/Die Vögel (41),
+Xenophon/Cyropädie (43) oder Platon/Die Gesetze (45) als nächste
+Kandidaten aus der Namensliste (Details/Reihenfolge:
+`wiki/QUESTIONS.md` #74, 41.-Lauf-Abschnitt der Inventardatei). Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 43. P2-Lauf):** Aristophanes, Die Vögel (S.
+41-42, Luftstadt-Gründung als Kontrollinstrument über die
+Opferrauch-Transitroute, Meton-Szene mit radial-konzentrischem Stadtplan
+als Komödien-Witzfigur) destilliert →
+[[aristophanes-die-voegel-meton-luftstadt-satire-radial-stadtplan]].
+Xenophon, Cyropädie (Buch VIII,2,5, S. 43, Arbeitsteilung des Handwerks
+als Funktion der Stadtgrösse) destilliert →
+[[xenophon-cyropaedie-arbeitsteilung-stadtgroesse-spezialisierung]]. Gegen
+Wiki-Bestand geprüft (`grep -rli` Aristophanes/Meton/Xenophon/Cyropädie):
+keine inhaltlich überschneidenden Treffer, kein Duplikat. Von der
+Namensliste des 40./41./42. Laufs sind damit Thukydides, Cicero,
+Aristophanes und Xenophon bearbeitet; 17 Positionen bleiben offen.
+Nächster Lauf: Platon, Die Gesetze (45) als nächster im Seitenverlauf
+liegender Kandidat, sonst der Rest der Liste der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 44. P2-Lauf):** Platon, Die Gesetze (S.
+45-53, Standortkriterien gegen Küstennähe/Bodenreichtum, radial-religiöse
+Zwölfteilung von Stadt und Land um ein zentrales Heiligtum mit 5040
+Losen, spartanische Anti-Mauer-Position mit Alternative «Wohnbauten als
+durchgehender Mauerring», gesetzlich erzwungenes Ein-Handwerk-Prinzip mit
+Zwölf-Ortschaften-Raster, befristetes Metökenrecht, kontrolliertes
+Reiserecht ab 40 Jahren) destilliert →
+[[platon-die-gesetze-idealstadt-zwoelfteilung-mauerdebatte-arbeitsteilung]].
+Gegen Wiki-Bestand geprüft (`grep -rli` platon/kleinias): keine
+bestehenden Treffer, kein Duplikat. Verlinkt mit sieben Bestandsartikeln
+(Hippokrates, Vitruv, Vauban, Thukydides, Aristophanes, Xenophon,
+Aristoteles/Politik). Nach Platon bleiben 17 Positionen offen. Nächster
+Lauf: Kritias (54, Atlantis-Beschreibung, unmittelbar im Anschluss),
+sonst der Rest der Liste der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 45. P2-Lauf):** Kritias, Atlantis-Erzählung
+(Platon-Dialog «Kritias», Stephanus 113-118, S. 54-61: konzentrische
+Ringstadt um Kleitos Hügel mit gestufter Bronze/Zinn/Goldkupfererz-
+Verkleidung, Zufahrtskanal und unterirdisch überbrückte Wall-Durchstiche,
+Doppeltempel- und Palastanlage mit Thermalquellen, Hafenvorstadt-
+Ringmauer, rechteckiges Bewässerungs- und Kanalraster der Ebene mit
+zwei Ernten pro Jahr) destilliert →
+[[kritias-atlantis-konzentrische-ringstadt-kanalsystem-bewaesserung]].
+Dabei S. 63-68 gegengeprüft: bereits als
+[[aristoteles-politik-hippodamus-stadtplan-vierfache-lagekriterien]]
+destilliert, keine neue Position. Gegen Wiki-Bestand geprüft: nur der
+bekannte Vorverweis im Platon-Artikel, kein Duplikat. Verlinkt mit
+Campanella, Aristophanes/Meton, Platon/Die Gesetze und
+Aristoteles/Politik. Nach Kritias bleiben 16 Positionen offen. Nächster
+Lauf: Polybios (69, über Militärlager), sonst der Rest der Liste der
+Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 46. P2-Lauf):** Polybios, Historien Buch
+VI, 26-31 (S. 69-72, römisches Militärlager als Massmodul-Rasterordnung:
+Feldherrnzelt als Nullpunkt-Setzung, 100/50-Fuss-Wiederholungslogik,
+sozialräumliche Rangzonierung, Zentrumszone Markt/Prätorium/Quästorium,
+200-Fuss-Sicherheitsabstand zum Wall mit expliziter
+Fernwaffen-Reichweiten-Begründung) destilliert →
+[[polybios-roemisches-militaerlager-castrum-rasterordnung]]. Gegen
+Wiki-Bestand geprüft: nur der bereits bekannte Castrum-Artikel aus
+Sekundärquelle, kein Duplikat. Verlinkt mit Castrum-Typus-Artikel,
+Vauban, Wiese/Zils römische Grundlagen und Aristoteles/Politik. Nach
+Polybios bleiben 15 Positionen offen. Nächster Lauf: Varro (73, De
+lingua latina), sonst der Rest der Liste der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 47. P2-Lauf):** Varro, De lingua latina
+Buch V, §141/143/145 (S. 73-74: lateinische Etymologie von
+Aedificium/Oppidum/Moenia/Aggeres/Moerus, etruskisches
+Stadtgründungsritual mit Stier-Kuh-Pflugfurche und Orbis-zu-Urbs-
+Ableitung, Pomerium-Auspizien-Grenze mit Steinmarken um Aricia und Rom,
+Strassentypen Vicus/Fundula/Angiportum/Forum) destilliert →
+[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]].
+Gegen Wiki-Bestand geprüft (`grep -rli` urbs/pomerium/etrusk/furche/varro):
+kein Treffer, kein Duplikat. Verlinkt mit Cicero/Vom Staatswesen (dort nur
+Vogelschau erwähnt, hier erstmals das Furchenritual), Polybios-Castrum
+und dem Stadtgründungstypen-Artikel. Nach Varro bleiben 14 Positionen
+offen. Nächster Lauf: Livius (95, ab urbe condita, Romulus-Gründungssage),
+sonst der Rest der Liste der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 48. P2-Lauf):** Livius, Ab urbe condita
+Buch V, 42-55 (S. 95-99: Zerstörung Roms durch die Gallier 390 v. Chr.,
+Camillus' Standortrede gegen die Umsiedlung nach Veji mit vier expliziten
+Lagekriterien — Gesundheit der Hügel, Fluss für Binnen- und Seezufuhr,
+Sicherheitsabstand zum Meer, Zentrallage in Italien —, sowie die
+Schilderung des tatsächlichen Wiederaufbaus ohne Strassenplan unter
+Fristauflage, mit der expliziten Livius-Gegenüberstellung «in Besitz
+genommen» versus «vertheilt») destilliert →
+[[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]].
+Gegen Wiki-Bestand geprüft (`grep -rli` livius/camillus/veji/veii): kein
+Treffer ausser dem neuen Artikel selbst, kein Duplikat. Verlinkt mit
+Cicero/Vom Staatswesen (zweite, ausführlichere Standortbegründung
+derselben Stadt), Varro, Polybios-Castrum und dem
+Stadtgründungstypen-Artikel. Nach Livius bleiben 13 Positionen offen:
+Seneca (105), Plinius d. Ä. (113), Plutarch/Romulus (125), Tacitus
+(131-133), Plinius d. J. (137), Strabo (141), Juvenal (145), Sueton (149),
+Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus (159),
+Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Seneca (105) als
+nächster im Seitenverlauf liegender Kandidat, sonst der Rest der Liste
+der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 49. P2-Lauf, nachgetragen im 51. Lauf — dieser
+Eintrag fehlte hier ursprünglich):** Seneca, Naturales quaestiones VI, 1 (S.
+112, Erdbeben Pompeji 62 n. Chr., regionales Schadensmuster
+Pompeji/Herculaneum/Nuceria/Neapel) und Plinius der Ältere, Naturalis
+historia V, 11 und XXXVI, 24 (S. 113-116: Alexandria-Gründungsplan durch
+Dinocrates, Circus Maximus, Cloaca Maxima, Fassadenregel für staatlich
+zugeteilte Ehrenhäuser) destilliert →
+[[seneca-erdbeben-pompeji-62-nchr-naturwissenschaftliche-untersuchungen]],
+[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]].
+Löst den bei Livius offen gelassenen Cross-Check zu den «Abzugsgräben» ein
+(dieselbe Cloaca Maxima). Nach Seneca/Plinius d. Ä. bleiben 11 Positionen
+offen. Details in `raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 50. P2-Lauf, nachgetragen im 51. Lauf):**
+Plutarch, Romulus Kap. 3/9-11 (S. 125-129: Cermalus/Ruminalis-Ortsnamen,
+Standortstreit Romulus/Remus per Augurien entschieden, Asyl-Tempel als
+Wachstumsinstrument, etruskisches Gründungsritual mit Mundus-Grube und
+Tor-Ausnahme von der Mauerheiligkeit) destilliert →
+[[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]],
+komplementär zu [[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]]
+(dort nur sprachetymologisch, hier narrativ mit Mundus-Grube). Nach Plutarch
+bleiben 10 Positionen offen. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 51. P2-Lauf):** Bei Laufbeginn Nachtrags-Lücke
+festgestellt: `KORPUS-QUEUE.md` zeigte veraltet den 32. Lauf, dieses INDEX
+und `CHANGELOG.md` zeigten veraltet den 48. Lauf (Livius); massgeblich war
+die Inventardatei selbst, dort bereits beim 50. Lauf (Plutarch) — die beiden
+oben nachgetragenen Blöcke (49., 50. Lauf) fehlten hier ursprünglich, Artikel
+und Inventar-Einträge bestanden aber schon. Tacitus, Agricola Kap. 13/18/21,
+Germania Kap. 16, Annalen Buch XV, 37-43 (S. 131-136: Infrastruktur als
+Befriedungsinstrument in Britannien, unstädtische Germanen-Streusiedlung,
+Brand Roms 64 n. Chr. und Neros anschliessende **Bauordnung** — Grundriss,
+Höhenlimite, Hofraumpflicht, subventionierte Säulengänge, gestaffelte
+Fristauflage, geregelte Schuttentsorgung, Brandschutzmaterial,
+Wasseraufsicht, Feuerlöschpflicht, Verbot gemeinsamer Trennwände) destilliert
+→ [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]], Gegenstück
+zu [[livius-camillus-rede-standortkriterien-regelloser-wiederaufbau-rom]]
+(derselbe Fall Rom-Wiederaufbau-nach-Brand, einmal ungeregelt, einmal
+reguliert). Nach Tacitus bleiben 9 Positionen offen: Plinius d. J. (137),
+Strabo (141), Juvenal (145), Sueton (149), Pausanias (151), Achilleus Tatius
+(155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia
+(247). Nächster Lauf: Plinius d. J. (137) als nächster im Seitenverlauf
+liegender Kandidat, sonst der Rest der Liste der Reihe nach. Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 52. P2-Lauf):** Zuerst den unkommittierten
+51. Lauf (Tacitus) per `nas-commit-now.sh` gesichert (`96232b648`, erneuter
+NAS-Merge-Konflikt in sechs fremden KBs beim Push, dem 15-Min-Cron
+überlassen). Danach Plinius d. J., Briefe Buch VI, 20 (S. 137-139:
+Augenzeugenbericht aus Misenum zum Vesuvausbruch 79 n. Chr. — Vorbeben,
+Eskalationsstufen der Evakuierung Innenhof→Platz→Stadtverlassen ausgelöst
+durch sichtbaren Nachbarschaftsschaden, bodenbewegungsbedingt wandernde
+Wagen, Meeresrückzug, Eruptionswolke, künstliche Vollverdunkelung,
+Ascheschneelast-Analogie) destilliert →
+[[plinius-der-juengere-erdbeben-misenum-vesuvausbruch-79-nchr]], ergänzt
+[[seneca-erdbeben-pompeji-62-nchr-naturwissenschaftliche-untersuchungen]]
+(selbe Region, Erdbeben 62 n. Chr., andere Perspektive) und abgegrenzt von
+[[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]
+(Bauordnungstext vs. reine Erlebnisquelle). Nach Plinius d. J. bleiben 8
+Positionen offen: Strabo (141), Juvenal (145), Sueton (149), Pausanias
+(151), Achilleus Tatius (155), Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247). Nächster Lauf: Strabo (141). Details in
+`raw/inventar/archiv-fachwissen__01_Staedtebau.md`.
+
+**30.08.2026 (Lane FACHWISSEN, 53. P2-Lauf, hier nachgetragen im 54. Lauf — dieser
+Eintrag fehlte ursprünglich):** Strabo, Erdbeschreibung, Buch V, 7-8 (S. 141-143:
+ringweise Servianische Stadterweiterung mit Agger-Bau, Werteaussage «Männer statt
+Mauern», Baustoffkreislauf mit Abbruch-und-Neubau als Strukturprinzip, Augustus'
+Bauhöhenlimite 70 Fuss/21,581 m und Löschtruppe vor Neros Bauordnung,
+Griechen-Römer-Prioritätenvergleich, Marsfeld-Ensemble, Mausoleum-Augustus) destilliert
+→ [[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]].
+Details CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN, 54. P2-Lauf):** Juvenal, Satiren, Dritte Satire, V.
+180-275 (S. 145-148: Baufälligkeit römischer Mietshäuser durch unterlassene
+Instandsetzung, Brandausbreitung im dichten Baubestand mit Anreizkonflikt durch
+soziale Nachbrand-Wiedergutmachung, Wohnkostenvergleich Rom gegen Kleinstadt,
+nächtlicher Verkehrslärm/Schlafentzug mit klassenspezifischem Sänften-Kontrast,
+Transportgefahr durch Marmor/Bauholz im Strassenraum, nächtliche Gefahr durch aus
+Fenstern fallende Gegenstände) destilliert →
+[[juvenal-satiren-dritte-satire-mietshaeuser-baufaelligkeit-brandgefahr-rom]], verlinkt
+mit [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]] (dort per Nachtrag
+rückverlinkt) und
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]].
+Nach Juvenal bleiben 6 Positionen offen: Sueton (149), Pausanias (151), Achilleus
+Tatius (155), Ausonius (157), Salvianus (159), Francesco Colonna/Hypnerotomachia (247).
+Nächster Lauf: Sueton (149). Details CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN, 55. P2-Lauf):** Sueton, Kaiserbiographien, Der göttliche
+Augustus, Kapitel 28-30 und 37 (S. 149-150: Marmor-Anspruch, drei Staatstempel
+Forum/Mars-Ultor, Apollo/Palatin-Bibliothek, Jupiter Tonans; Drei-Wege-Finanzierungsmodell
+Staatsbauten/Familiennamen/private Stiftungen; Regionen-/Bezirksverwaltung; nächtliche
+Feuerwehr als Augustus' eigene Erfindung; Tiberbett-Unterhalt; Strassenfinanzierung aus
+Triumphatoren-Beute; bezifferte Kapitolinischer-Jupiter-Schenkung; Kapitel-37-Ämterliste)
+destilliert →
+[[sueton-augustus-kaiserbiographien-forum-mars-ultor-vigiles-regionen]], verlinkt mit
+[[strabo-erdbeschreibung-rom-servianische-mauererweiterung-augustus-bauhoehenlimite]] (dort
+per Nachtrag rückverlinkt), [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]
+und [[frontinus-vitruv-wasserversorgung-rom-kaliber-konzessionsrecht]]. Nach Sueton bleiben
+5 Positionen offen: Pausanias (151), Achilleus Tatius (155), Ausonius (157), Salvianus
+(159), Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Pausanias (151). Details
+CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN, 56. P2-Lauf):** Pausanias, Reisen in Griechenland, Buch
+IV,27 (Stadtgründung Messenes: Orakelprüfung des Standorts, Bauablauf
+Wege/Häuser/Heiligtümer vor Mauerabschluss, Opferritual mehrerer Völker, Rückruf lokaler
+Heroen als «Mitbewohner»), Buch VI,23-24 (Elis: Gymnasion/«Strasse des
+Schweigens»/Hellanodikeon/Markt als verschränkte Kette, Markt «nach älterer Art» mit
+Doppelnutzung als Hippodrom, dorische Dreiteilungshalle, «korkyraiische» Halle aus
+Kriegsbeute-Zehnten finanziert) und Buch X,4 (Panopeus: Polis-Status ohne jede
+Bauinfrastruktur, Grenzhoheit/Bundesvertretung als Kriterium, eigene
+Mauerring-Schätzung, Homer-Kontinuitätsbeleg) destilliert →
+[[pausanias-reisen-griechenland-messene-gruendung-elis-marktarchitektur-panopeus-polis-minimalkriterium]],
+verlinkt mit [[plutarch-romulus-stadtgruendung-rom-ortsstreit-asyl-mundus-ritual]] und
+[[varro-de-lingua-latina-etruskisches-gruendungsritual-stadtetymologie]] (beide dort per
+Nachtrag rückverlinkt) sowie
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]. Nach
+Pausanias bleiben 4 Positionen offen: Achilleus Tatius (155), Ausonius (157), Salvianus
+(159), Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Achilleus Tatius (155).
+
+**30.08.2026 (Lane FACHWISSEN, 57. P2-Lauf):** Achilleus Tatius, «Leukippe und
+Kleitophon», Buch V,1 (Reisebericht Ankunft Alexandria: Kolonnadenstrassen-Kreuzraster
+zwischen Sonnentor und Mondtor, Querstrassen über die Stadtebene, Staunensrhetorik Grösse
+Stadt/Bevölkerung), S. 155-156 vollständig gelesen, destilliert →
+[[achilleus-tatius-alexandria-kolonnadenstrassen-kreuzraster-stadtbeschreibung]]
+(`status: speculative`, literarischer Roman statt technischer Quelle), verlinkt mit
+[[plinius-der-aeltere-alexandria-dinocrates-rom-wunderwerke-naturgeschichte]] (dort per
+Nachtrag rückverlinkt) und
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]]. Nach
+Achilleus Tatius bleiben 3 Positionen offen: Ausonius (157), Salvianus (159), Francesco
+Colonna/Hypnerotomachia (247). Nächster Lauf: Ausonius (157).
+Details CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN, 58. P2-Lauf):** Ausonius, «Opuscula», Buch XI, Narbonne
+(Lobgedicht auf Narbo/Narbonne: Provinz-Namensgeber Gallia Narbonensis mit
+Grenzbeschreibung, erste Stadt Galliens mit römischen Hoheitszeichen, Tempel aus
+Parischem Marmor über drei Bauherren Tarquin/Catulus/Caesar, Fernhandelsnetz über Fluss-
+und Seewege), S. 157 vollständig gelesen (S. 158 leer), destilliert →
+[[ausonius-narbo-lobgedicht-provinzstadt-tempel-dreiphasenbau]] (`status: speculative`,
+panegyrische Dichtung, Ortszuordnung des Tempels unklar), verlinkt mit
+[[antike-stadtgruendungstypen-hippodamisches-system-streifenstadt-castrum]] (dort per
+Nachtrag rückverlinkt). Nach Ausonius bleiben 2 Positionen offen: Salvianus (159),
+Francesco Colonna/Hypnerotomachia (247). Nächster Lauf: Salvianus (159).
+Details CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN, 59. P2-Lauf):** Salvianus, «Von der Regierung Gottes», Buch
+VI (Fallbeispiel Trier, im selben Auszug widersprüchlich «viermal»/«dreimal» zerstört
+genannt, weitere Städte Mainz/Köln, Zerstörungsfolgen Seuche/unbestattete Leichen,
+Zirkusspiele als kritisiertes Heilmittel, Deutungsmuster Sittenverfall statt militärisches
+Versagen), S. 159-161 vollständig gelesen (S. 162 leer), destilliert →
+[[salvianus-von-der-regierung-gottes-staedtezerstoerung-sittenverfall-trier]]
+(`status: speculative`, religiöse Streitschrift, widersprüchliche Zerstörungszahl),
+verlinkt mit [[tacitus-agricola-germania-annalen-brand-rom-neros-bauordnung]]. Nach
+Salvianus bleibt 1 Position offen: Francesco Colonna/Hypnerotomachia (247). Nächster Lauf:
+Francesco Colonna/Hypnerotomachia (247) — danach ist die 54-Positionen-Liste dieses
+Quellentextbands vollständig abgearbeitet.
+Details CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN), Sektion `10_Protomodern` (Zeile 06 oben), erster P2-Lauf:**
+zwei der sieben P2-Zeilen des Ornament-Forschungskonvoluts destilliert —
+[[form-follows-function-genealogie-sokrates-vitruv-alberti-greenough-sullivan]] (Di Stefano,
+Genealogie der Formel von Sokrates/Vitruv/Alberti/Greenough bis Sullivan/Venturi/Mendini) und
+[[sullivan-ornament-emotionale-ausdruckstheorie-1892-herzog-de-meuron-rueckkehr]] (Sullivan
+1892 im Original, Kamphans-Dissertationsexposé zur Ornament-Rückkehr bei Herzog & de Meuron,
+Hildebrand-ETH-Handout mit Ornament-Bau-Zeitleiste Richardson bis Herzog & de Meuron). Gegen
+die bestehenden Ornament-Artikel geprüft, kein Duplikat. Fortschritt in
+`raw/inventar/archiv-fachwissen__10_Protomodern.md` Abschnitt «Destillat-Fortschritt», reiner
+Append (`git diff --numstat` zeigt `25 0`). 31 der 33 P2-Positionen bleiben offen. Nächster
+Lauf: Rowe/Koetter «Collage City»-Konvolut (5 PDF).
+
+**30.08.2026 (Lane FACHWISSEN), Sektion `10_Protomodern`, zweiter P2-Lauf:** Rowe/Koetter
+«Collage City»-Konvolut (5 PDF, davon 2 MD5-Duplikat) vollständig gelesen und verdichtet zu
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]] (`status: speculative`,
+ausschliesslich Sekundärlesungen, kein Originaltext im Bestand). Figur-Grund-Umkehrung,
+Bricolage/Fuchs-Igel, Stadt als Museum, Collage-als-Methode — verlinkt mit
+[[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]] und
+[[rossi-analoge-architektur-typus-piranesi-eth-lehrzeit]]. Details CHANGELOG 30.08.2026,
+Erledigt-Markierung `raw/inventar/archiv-fachwissen__10_Protomodern.md` (reiner Append). 30
+der 33 P2-Positionen bleiben offen. Nächster Lauf: Šik-Interview
+(`09_Die_athmospherische_Stadt/Eine Stadt ist mehr als eine Galerie.pdf`).
+Details CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN), Sektion `10_Protomodern`, dritter P2-Lauf:**
+Šik-Interview (`09_Die_athmospherische_Stadt/Eine Stadt ist mehr als eine Galerie.pdf`,
+ETH-Life 10.05.2012) vollständig gelesen und destilliert zu
+[[sik-dialogischer-staedtebau-ensemble-schweizer-pavillon-biennale-2012]]
+(`status: emerging`). Begriff «dialogischer Städtebau», Ensemble-These gegen
+Objektarchitektur, Ausstellungskonzept Schweizer Pavillon Biennale 2012 — verlinkt mit
+[[protomodern-projektrahmen-professurenlandkarte]] und
+[[regel-und-ausnahme-stadtentwicklung-schett-jahreskurs]]. Details CHANGELOG 30.08.2026,
+Erledigt-Markierung `raw/inventar/archiv-fachwissen__10_Protomodern.md` (reiner Append).
+29 der 33 P2-Positionen bleiben offen. Nächster Lauf: Caruso-Reader-Auszug (`Seiten aus
+13_FS_Alles_ist_Umbau_caruso2013FSreaderstudio.pdf`).
+
+**30.08.2026 (Lane FACHWISSEN), Sektion `10_Protomodern`, vierter P2-Lauf:**
+Caruso-Reader-Auszug (`Seiten aus 13_FS_Alles_ist_Umbau_caruso2013FSreaderstudio.pdf`,
+Aufsatz Carsten Ruhl, S. 166-167) vollständig gelesen und destilliert zu
+[[ruhl-rossi-sedlmayr-quaroni-stadt-ready-made-homo-poeticus]] (`status: emerging`).
+Sedlmayrs Verfallsdiagnose gegen Rossis Gegenlesart, Stadt als «ready made», Quaronis
+Architekt als «homo poeticus», Bezug zu «L'architettura della città» (1966) — verlinkt mit
+[[rossi-analoge-architektur-typus-piranesi-eth-lehrzeit]] und
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]]. Details CHANGELOG
+30.08.2026, Erledigt-Markierung `raw/inventar/archiv-fachwissen__10_Protomodern.md`
+(reiner Append). 28 der 33 P2-Positionen bleiben offen. Nächster Lauf: die elf kurzen
+Eigen-DOCX dieser Sektion (Religiöses/Politisches in der Architektur, Kulturaustausch,
+Der heterogene Ort, Panofsky-Liste, Protorenaissance, Tabubruch, Klassiker für die
+Protomoderne, Lampugnani-Grundsätze u. a.).
+
+**30.08.2026 (Lane FACHWISSEN), Sektion `10_Protomodern`, fünfter P2-Lauf:** die elf
+kurzen Eigen-DOCX geprüft — zwei erwiesen sich als inhaltsgleiche Zweitablagen bereits
+destillierter Quellen, die übrigen acht zu einem Sammelartikel verdichtet:
+[[protomodern-kurzfragmente-religion-politik-klassiker-lampugnani-panofsky]]
+(`status: speculative`). Details CHANGELOG 30.08.2026.
+
+**30.08.2026 (Lane FACHWISSEN), Sektion `10_Protomodern`, sechster und letzter P2-Lauf
+(67. Lauf):** die sieben Wikipedia-/Wiktionary-Begriffsblätter und die Sgraffito-Sammlung
+`cntmng*.pdf` gelesen und differenziert verdichtet zu
+[[begriffsapparat-protomodern-capriccio-piranesi-shaker-sgraffito-weilenmann]]
+(`status: speculative`): Capriccio (Anschluss an
+[[rossi-analoge-architektur-typus-piranesi-eth-lehrzeit]]), Shaker-Religion (dokumentierter
+Arts-and-Crafts-/Moderne-Bezug), Sgraffito-Beleg (Weilenmann, «Ein Museum», Das Werk 1920,
+Sgraffitohaus Andeer). Anthropomorphismus/Pasticcio/Epitome/Protogeometric Art geprüft ohne
+Ertrag (kein Architektur-Bezug im Quelltext bzw. vom Klassifikator selbst als „Ungueltig"
+abgelegt); Form follows function als Dopplung von
+[[form-follows-function-genealogie-sokrates-vitruv-alberti-greenough-sullivan]] erkannt
+(dort als Randnotiz ergänzt). Details CHANGELOG 30.08.2026, Erledigt-Markierung
+`raw/inventar/archiv-fachwissen__10_Protomodern.md` (reiner Append). **Damit sind alle
+P1- und P2-Tabellenzeilen der Sektion `10_Protomodern` als gelesen markiert** — Rest nur
+noch P3 (Scans ohne OCR) und X (Bilder/Sicherungskopien), beide nicht zu destillieren.
+Nächster Schritt für den Korpus: nächstgrosse Sektion mit offenem P1/P2 wählen, siehe
+Kandidatenliste oben unter «Sektionen nach Ertrag».
+
+**30.08.2026 (Lane FACHWISSEN), Sektion `02_Architekturgeschichte`, 88. Lauf:**
+`Renaissance-Zusammenfassung.pdf` S. 5-25 destilliert zu vier neuen Artikeln
+([[toennesmann-brunelleschi-konstruktionsvertiefung-domkuppel-ospedale-sakristei-basiliken]],
+[[toennesmann-michelozzo-palazzo-medici-riccardi-prototyp-renaissancepalast]],
+[[toennesmann-alberti-rossellino-laurana-palazzo-rucellai-pienza-urbino]],
+[[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]]), Duplikatscheck
+vorab gegen die bestehenden Renaissance-Portrait-/Kanon-Artikel. Details CHANGELOG 30.08.2026.
+S. 18-22 als echtes Duplikat übersprungen, S. 26-51 offen (Manierismus/Barock,
+Duplikatrisiko gegen Sauter-Kapitel — eigener Check nötig).
+
+**30.08.2026 (Lane FACHWISSEN), Sektion `02_Architekturgeschichte`, 89. Lauf:**
+`Renaissance-Zusammenfassung.pdf` S. 26-33 (Manierismus) destilliert zu vier neuen Artikeln
+([[toennesmann-giulio-romano-palazzo-del-te-manierismus-regelverstoss]],
+[[toennesmann-vasari-uffizien-florenz-verwaltungsbautypus]],
+[[toennesmann-vignola-il-gesu-rom-finanzierung-innenausbau-fassadenvertiefung]],
+[[toennesmann-palladio-fuenf-bauten-vertiefung-basilica-chiericati-rotonda-redentore-foscari]]),
+Duplikatscheck vorab gegen die Sauter-Kanon-Zeilen (Palazzo del Tè, Villa Rotonda, Il Gesù),
+die Giulio-Romano-Kurzbiografie und die Palladio-Städtebautheorie — kein echtes Duplikat,
+drei Artikel vertiefen bestehende Kanon-Zeilen, einer (Vasari/Uffizien) ist vollständig neu.
+Details CHANGELOG 30.08.2026. **Damit ist `Renaissance-Zusammenfassung.pdf` bis S. 33
+vollständig destilliert.** S. 34-51 (Barock/Aufklärung) bleibt offen, Duplikatcheck gegen
+Sauter-Barock/Rokoko und Revolutionsarchitektur zwingend.
+
+**30.08.2026 (Lane FACHWISSEN), Sektion `02_Architekturgeschichte`, 90. Lauf:**
+`Renaissance-Zusammenfassung.pdf` S. 34-51 (Barock/Aufklärung, letzter Rest der Datei)
+destilliert zu fünf neuen Artikeln
+([[toennesmann-borromini-s-ivo-s-carlo-quattro-fontane-konstruktionsvertiefung]],
+[[toennesmann-bernini-baldachin-cornaro-kapelle-petersplatz-entwurfsgeschichte-scala-regia]],
+[[toennesmann-bernini-louvre-entwuerfe-perrault-ostfassade-versailles-baugeschichte]],
+[[toennesmann-fischer-von-erlach-schoenbrunn-hofbibliothek-hildebrandt-belvedere-vertiefung]],
+[[toennesmann-soufflot-ste-genevieve-pantheon-antike-gotik-synthese-vertiefung]]) sowie einer
+Ergänzung des bestehenden
+[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]
+(Zollhäuser Paris neu, Saline-von-Chaux-Konstruktionsdetail vertieft). Duplikatscheck vorab
+gegen die Architektenportrait-Sammlungen ([[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]],
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]])
+und den Sauter-Kanon ([[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]):
+Borromini, Bernini, Perrault, Hildebrandt und Soufflot haben dort bereits Kurzbiografien,
+diese Quelle liefert durchgehend deutlich tiefere Grundriss-/Konstruktions-/
+Entwurfsgeschichts-Analyse — kein echtes Duplikat, fünf Vertiefungen; Versailles-Baugeschichte
+(Le Vau/Hardouin-Mansart/Le Nôtre/Le Brun) und die Hofbibliothek Wien sind vollständig neu in
+dieser KB. **Echter Quellenwiderspruch dokumentiert:** die Grundrissgeometrie von Sant'Ivo
+alla Sapienza wird von dieser Quelle («zwei überlagerte Dreiecke») und der bestehenden
+Portrait-Sammlung («ein einzelnes Dreieck, nicht wie oft dargestellt zwei überlagerte») exakt
+gegensätzlich beschrieben — beide Fassungen offen dokumentiert, keine als richtig markiert
+(keine Drittquelle verfügbar). Ebenso ein Datierungswiderspruch zum Chaux-Auftraggeber
+(Ludwig XIV. vs. korrekt Ludwig XVI. laut Sauter-Quelle) dokumentiert. `git diff --numstat`
+nach jedem Schreiben geprüft, Inventardatei-Ergänzung reiner Append. **Damit ist
+`Renaissance-Zusammenfassung.pdf` (51 S.) vollständig destilliert.** Nächster Schritt:
+`Moderne.pdf` gilt bereits als vollständig ausgewertet (87. Lauf), als Nächstes die drei
+Nicht-Portrait-Positionen des Architektenportrait-Ordners (`9_rom_st`, `16_schloss_versailles`
+— jetzt mit Duplikatrisiko gegen diesen Lauf zu prüfen —, `26_paris_um_1800`) sowie
+`Fragen.doc`-Rest und die verbleibenden rund 20 offenen Einzelportraits.
+
+## 260830 — Architektenportraits, Sektion `02_Architekturgeschichte` (92. Lauf Lane FACHWISSEN)
+
+Acht Portraitdateien, die die Läufe 83/85 per Namens-Grep pauschal als «bereits behandelt»
+zurückgestellt hatten, ohne sie zu öffnen, in diesem Lauf vollständig gelesen. Drei neue
+Artikel: [[charles-garnier-pariser-oper-style-napoleon-iii-abgrenzung-sohn-tony-garnier]]
+(Namensverwechslung Vater Charles/Sohn Tony Garnier aufgedeckt),
+[[schinkel-bauakademie-institutionsgeschichte-altes-museum-konstruktion-lustgarten-palimpsest]]
+(Institutions-/Konstruktionsgeschichte jenseits der Kanon-Zeile),
+[[gottfried-semper-biografie-lebensstationen-hamburg-dresdner-barrikaden-zuerich-wien]]
+(bislang fehlende Biografie neben den vorhandenen Theorie-Artikeln, neuer
+Quellenwiderspruch Studienort München vs. Göttingen/Paris, `wiki/QUESTIONS.md` #72). Drei
+Ergänzungen statt neuer Artikel in
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] (Ruskins
+Sieben-Lampen-/Stones-of-Venice-Kriterien, Webbs Werkregister, Morris' Firmengeschichte).
+Zwei bestätigte echte Duplikate ohne neuen Fakt (Wright, Sullivan — bereits vollständig in
+[[richardson-chicago-school-wright-vom-rundbogenstil-zur-stahlskelettbauweise-organischen-architektur]]
+bzw. [[form-follows-function-genealogie-sokrates-vitruv-alberti-greenough-sullivan]]
+destilliert), bewusst nicht erneut destilliert. Fehlerhafte Duplikats-Einstufung des 83.
+Laufs in
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]]
+korrigiert. Details CHANGELOG 30.08.2026. Von den ursprünglich 38 Portraitdateien bleiben elf
+offen (drei Nicht-Portrait-Positionen bereits erledigt, Vignola/Palladio/Ledoux). Nächster
+Lauf: `Fragen.doc`-Rest gegenprüfen, danach Vignola/Palladio nach demselben «tatsächlich
+lesen»-Standard.
+
+## 260830 — Vignola/Palladio, Sektion `02_Architekturgeschichte` (93. Lauf Lane FACHWISSEN)
+
+Die beiden letzten vom 92. Lauf als unsicher benannten Kandidaten vollständig gelesen (nicht
+nur gegrept). Trotz bestehender Vertiefungsartikel erhebliches neues Material in beiden
+Dateien. Drei neue Artikel:
+[[vignola-villa-giulia-ovalkirchen-caprarola-petersdom-nachfolge-regola-cinque-ordini]]
+(Villa Giulia, zwei Ovalkirchen, Petersdom-Nachfolge Michelangelos 1564, Regola-Traktat),
+[[kruft-serlio-dogmatisierung-architekturtheorie-sieben-buecher-saeulenkanon]]
+(Essay-Anhang zu Serlios sieben Büchern und der Säulenordnungs-Bauaufgaben-Zuordnung), und
+[[palladio-humanistenkreis-palazzo-thiene-rialto-dogenpalast-tempietto-quattro-libri-rezeption]]
+(Humanistenkreis Trissino/Cornaro/Barbaro, Palazzo Thiene, zwei gescheiterte Wettbewerbe
+Rialto-Brücke/Dogenpalast, Tempietto Barbaro, Quattro-Libri-Struktur, Palladianismus-
+Rezeption) — die fünf bereits in Konstruktionstiefe behandelten Palladio-Bauten
+(Basilica/Chiericati/Rotonda/Redentore/Foscari) bewusst nicht wiederholt. Details CHANGELOG
+30.08.2026. **Damit gilt der Architektenportrait-Ordner als abgearbeitet** (nur `23_ledoux`
+bewusst zurückgestellt). Nächster Lauf: nächste P2-Kandidatensektion `02_Kunst_Geschichte`
+prüfen (siehe `KORPUS-QUEUE.md`).
+
+## 260830 — Zwei P2-Positionen, Sektion `02_Kunst_Geschichte` (94. Lauf Lane FACHWISSEN, erster P2-Lauf dieser Sektion)
+
+Architekturfotografie-Vorlesung (HSLU, J. Ittig, WS 2007) gelesen und zu
+[[architekturfotografie-referenzkanon-alinari-atget-becher-shulman-basilico-sugimoto]]
+destilliert (32-Positionen-Kanon Alinari 1852 bis Sugimoto 2000); begleitender
+Fotografenverzeichnis-Zweig als reiner Bildfundus ohne Begleittext geschlossen. Vier PDF zur
+Stadtlounge St. Gallen (Pipilotti Rist/Carlos Martinez) gelesen und zu
+[[stadtlounge-st-gallen-pipilotti-rist-carlos-martinez-kunst-am-bau-studienauftrag-belagstest]]
+destilliert (Studienauftrags-Verfahren 2002-2005, Entwurfskonzept, Belagstest 19.11.2004).
+Details CHANGELOG 30.08.2026. Neun Zeitungsberichte zur Stadtlounge und der
+Exkursions-Programmordner bleiben unausgewertet (`QUESTIONS.md`). **Nächster Lauf:** weitere
+P2-Positionen dieser Sektion (Kandidaten: Vorlesungsreihen Ittig/Kiss/Ursprung,
+Bühnenbildner-Zweig, Stilepochen-/Hagia-Sophia-Chronologie).
+
+## 260830 — Zeile 70 (teilweise), Sektion `02_Kunst_Geschichte` (95. Lauf Lane FACHWISSEN)
+
+Kiss Horvath («Konzeption: Denk/Werk») und Ursprung (`kunstkarten.pdf`) aus der
+Vorlesungsreihen-Sammlung gelesen und zu
+[[kiss-horvath-koerper-kontext-skulptur-plastik-sockel-ready-made-ursprung-kunstkarten]]
+destilliert: Skulptur/Plastik-Unterscheidung nach Balkenhol, Sockel-Begriff, Ready-made nach
+Duchamp/Stauffer, Ursprungs Architektur-Kunst-Referenzkartenliste (15 Bauten, u. a.
+Zumthor/Gehry/Herzog&de Meuron/OMA, neben zeitgenössischer Kunst). Zusätzlich
+Merzbau-Vertiefung (drei Bauten, «Prinzip Merz») aus derselben Vorlesungsreihe in
+[[kunst-architektur-autonomie-gesamtkunstwerk-anarchitektur-bilbao-effekt]] ergänzt. Ittigs
+«Bildsprachen»-Ordner bewusst nicht destilliert (Studierenden-Live-Mitschriften zu
+unzuverlässig für Zitate, Folien reine Bildunterschriften); eine potenziell verwertbare
+Notiz zu Peter Märkli/Novartis Campus/Szeemann/Jenny Holzer bleibt unbelegt offen
+(`QUESTIONS.md`). Details CHANGELOG 30.08.2026. **Nächster Lauf:** Zeile 69
+Bühnenbildner-Zweig oder Zeile 75 Stilepochen-/Hagia-Sophia-Chronologie.
+
+## 260830 — Zeile 69, Sektion `02_Kunst_Geschichte` (96. Lauf Lane FACHWISSEN)
+
+Bühnenbildner-Zweig (83 Dateien, fast ausschliesslich Bild-/Diathek-Scans ohne Fliesstext)
+geprüft: einzige Textquelle mit zusammenhängendem Inhalt ist eine spanischsprachige
+Webseite der Universidad de Navarra zur Galli-Bibiena-Dynastie, gelesen und zu
+[[bibiena-familie-barocke-buehnenarchitektur-scena-per-angolo-bayreuth-mantova]] destilliert:
+Ferdinandos Scena-per-angolo-Diagonalperspektive und Bauglieder-«Palette», Giuseppes
+Bayreuther Opernhaus (1748, einziger vollständig erhaltener Bibiena-Theaterbau), Antonios
+drei weitere erhaltene Theater (Bologna 1763, Mantova 1769 mit Mozart-Konzert 1770, Pavia
+1773). Das ETH-gta-Ausstellungs-PDF «Die Stadt als Bühne» geprüft: ein einzelner
+Absatz ohne weitere Fakten, bereits vollständig in der Inventarzeile wiedergegeben, kein
+eigener Artikel gerechtfertigt. Zwei kurze Appia-Bildvorlagen (`Seiten aus
+TRADITIONALISMUS_UM_1910-27/28.pdf`) sind reine Scans ohne Text. Zeile 69 gilt damit als
+abgeschlossen. **Nächster Lauf:** Zeile 75 Stilepochen-/Hagia-Sophia-Chronologie, sonst
+laut Queue-Regel nächste Sektion mit offenem P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (107. Lauf Lane FACHWISSEN)
+
+Drei weitere Personenartikel des Design-Ordners `08_Design` gelesen (`russell.htm`, `rams.htm`,
+`svenska.htm`), zu zwei neuen Wiki-Artikeln destilliert:
+[[nationale-designverbaende-gordon-russell-dia-svenska-slojdforeningen]] (Gordon Russell/DIA und
+Svenska Slöjdföreningen als gleicher Institutionstyp, Berührungspunkt Stockholmer Ausstellung
+1930) und [[dieter-rams-braun-vitsoe-deutscher-neofunktionalismus-ulm]] (Braun/Vitsœ,
+Neofunktionalismus über HfG Ulm und Mies van der Rohe). Details CHANGELOG 30.08.2026. Damit 22
+von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 79 Personenartikel bleiben offen.
+**Nächster Lauf:** Zeile 68 fortsetzen (Kandidaten nach Dateigrösse: `paris_1925.htm`,
+`zanuso.htm`, `wirkkala.htm`, `saarinen.htm`, `franck.htm`, `starck.htm`), sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (108. Lauf Lane FACHWISSEN)
+
+Drei weitere Personenartikel des Design-Ordners `08_Design` gelesen (`saarinen.htm`,
+`franck.htm`, `starck.htm`), zu drei neuen Wiki-Artikeln destilliert:
+[[saarinen-eames-knoll-womb-chair-tulip-chair-moebeldesign]] (Eero Saarinens Möbelseite für
+Knoll — Womb Chair, Tulip Chair —, direkte Fortsetzung der Eames-Zusammenarbeit ab Cranbrook,
+Cross-Link zu [[organische-schichtholz-moderne-aalto-eames-jacobsen]]),
+[[kaj-franck-finnisches-nachkriegsdesign-kilta-arabia-iittala-nuutajaervi]] (Kaj Franck als
+Gegenstück zu Aalto im Feld Gebrauchskeramik/-glas — Service «Kilta» für Arabia, Abgrenzung zur
+expressiveren Wirkkala/Sarpaneva-Linie auf denselben Mailänder Triennalen) und
+[[philippe-starck-superdesigner-cafe-costes-alessi-via]] (Starck als «Superdesigner»-Phänomen
+der 1980er/90er, VIA-Staatsförderung unter Mitterrand, Café Costes, Alessi-Zusammenarbeit).
+Damit 25 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 76 Personenartikel bleiben
+offen. `git diff --numstat` auf die Inventardatei zeigte `0 0` (Inventarzeile 68 bleibt als
+Sammelzeile für den ganzen Ordner unverändert, Fortschritt wird ausschliesslich hier und im
+CHANGELOG geführt). Details CHANGELOG 30.08.2026. **Nächster Lauf:** Zeile 68 fortsetzen
+(Kandidaten nach Dateigrösse: `zanuso.htm`, `wirkkala.htm`, `paris_1925.htm`), sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (109. Lauf Lane FACHWISSEN)
+
+Drei weitere Positionen des Design-Ordners `08_Design` gelesen (`zanuso.htm`, `wirkkala.htm`,
+`paris_1925.htm` — die letzte kein Personen-, sondern ein Ausstellungsartikel), zu drei neuen
+Wiki-Artikeln destilliert: [[marco-zanuso-italienisches-nachkriegsdesign-sapper-brionvega-kartell]]
+(Doppelrolle Architekt/Industriedesigner Mailand 1945–1986, Sapper-Partnerschaft mit Kartell/
+Brionvega, Material-/Fertigungstechnik als Formtreiber), [[tapio-wirkkala-finnisches-glasdesign-iittala-triennale]]
+(Bildhauerei-Zugang zum Glas, Iittala-Werk, Mailänder Triennalen 1951/1954, Gegenpol zu Kaj
+Franck — Rückverlinkung im bestehenden Franck-Artikel ergänzt) und
+[[paris-1925-exposition-art-deco-melnikow-esprit-nouveau-ruhlmann]] (Ursprungsereignis Art déco,
+Ruhlmann/Dufrêne-Luxuslinie gegen Melnikows Sowjetpavillon und Le Corbusiers Pavillon de
+l'Esprit Nouveau, verankert die bestehenden Ruhlmann- und Le-Corbusier-Möbelserie-Artikel an
+einem gemeinsamen Ereignis). Damit 28 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 73
+Personenartikel bleiben offen. `git diff --numstat` auf die Inventardatei zeigte `0 0`
+(Sammelzeile unverändert, wie in den Vorläufen). Details CHANGELOG 30.08.2026. **Nächster
+Lauf:** Zeile 68 fortsetzen — nächste Kandidaten nach Dateigrösse unter den noch ungelesenen
+Positionen, sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (114. Lauf Lane FACHWISSEN)
+
+Läufe 110.–113. (Lane FACHWISSEN) hatten die Fliesstext-Positionen von Zeile 68 bereits auf
+43 von 128 gelesene Dateien gebracht (Details KORPUS-QUEUE/CHANGELOG); dieser Lauf ermittelte
+den Stand selbst gegen `KORPUS-QUEUE.md`/`CHANGELOG.md`, statt eine Zahl aus dem Dispatch-Text
+zu übernehmen (der inzwischen bewusst keine Zahlen mehr nennt). Drei kleinste ungelesene
+Positionen des Design-Ordners `08_Design` gelesen: `citterio.htm`, `sason.htm`, `dreyfuss.htm`.
+Duplikatscheck vorab (keine Dublette). Zwei neue Wiki-Artikel:
+[[antonio-citterio-italienisches-moebeldesign-bb-italia-kartell-vitra]] (B&B Italia/Kartell/
+Vitra, Rückverlinkung im bestehenden Magistretti/Ponti- und Zanuso-Artikel ergänzt) und
+[[sason-dreyfuss-beratendes-industriedesign-streamlining-ergonomie]] (schwedisches/
+amerikanisches Beraterdesign, Dreyfuss' Anthropometrics-Konzept verlinkt zurück auf Kaare
+Klint, Rückverlinkung im bestehenden Teague- und Ruhlmann/Kaare-Klint-Artikel ergänzt). Damit
+46 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 82 Personenartikel bleiben offen.
+`git diff --numstat` auf die Inventardatei zeigte `0 0` (Sammelzeile unverändert). Details
+CHANGELOG 30.08.2026. **Nächster Lauf:** Zeile 68 fortsetzen (Kandidaten nach Dateigrösse:
+`post.htm`, `sipek.htm`, `grange.htm`, `graves.htm`, `paris_1900.htm`, `kuramata.htm`), sonst
+laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (116. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`/`CHANGELOG.md`/`raw/inventar/` geprüft, keine Zahl
+aus dem Dispatch-Text übernommen), `scutil` bestätigte Macmini, genau ein `claude -p`-Prozess
+(PID 40481), kein Doppel-Dispatch. Drei kleinste ungelesene Positionen des Design-Ordners
+`08_Design` gelesen: `graves.htm`, `kuramata.htm`, `hector_guimard.htm`. Duplikatscheck vorab
+(`grep -lir` gegen alle drei Namen): Graves und Kuramata bislang nur Streuverweise
+(New-York-Five- bzw. Memphis-Mitausstellung), Guimard ohne jeden Treffer — keine Dubletten.
+Drei neue Artikel:
+[[michael-graves-postmoderne-alessi-swid-powell-new-york-five]] (New-York-Five-Architekt zu
+postmodernem Produktdesigner, Alessi-Kessel «Bollitore», Swid-Powell-Keramik, Rückverlinkung
+im bestehenden Eisenman/New-York-Five- und Sottsass/Memphis-Artikel ergänzt),
+[[shiro-kuramata-japanisches-design-memphis-cappellini]] (japanischer Minimalismus, Kommoden-
+serie «Wavy»/Cappellini, Memphis-Beiträge «Imperial»/«Kyoto», Rückverlinkung im Sottsass/
+Memphis-Artikel ergänzt) und
+[[hector-guimard-art-nouveau-paris-metro-castel-beranger]] (Pariser Art nouveau, Métro-
+Eingänge, Castel Béranger, Ensemblier-Prinzip — komplett neues Thema in dieser KB, kein
+Vergleichsartikel zu Gaudí/Horta vorhanden). Damit 52 von 128 Fliesstext-Dateien der Zeile 68
+gelesen, rund 76 Personenartikel bleiben offen. `git diff --numstat` auf die Inventardatei
+zeigte `0 0` (Sammelzeile bleibt unverändert, Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE).
+Details CHANGELOG 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach
+Dateigrösse unter den restlichen ungelesenen Positionen, sonst laut Queue-Regel nächste
+Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (117. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`/`CHANGELOG.md`/`raw/inventar/` geprüft, keine Zahl
+aus dem Dispatch-Text übernommen), `scutil` bestätigte Macmini, genau ein `claude -p`-Prozess
+(PID 40890) mit diesem Auftrag, kein Doppel-Dispatch. Working Tree bei Laufbeginn sauber
+(Top-Commit `d44de8e2c`). Vor der Dateiauswahl den kompletten Ordnerinhalt nach Grösse
+sortiert und gegen alle bisher gelesenen Positionen abgeglichen (statt nur die im 116. Lauf
+genannten drei Kandidaten zu übernehmen) — dabei aufgefallen: 32 der 128 `.htm`-Dateien sind
+reine FrontPage-Frameset-/Banner-Seiten ohne Fliesstext (Stichprobe an vier Grössenklassen
+geprüft: `index.htm`/`90.htm`/`mo1.htm`/`hfg-index.htm` liefern nur «Diese Seite verwendet
+Frames», `ital-b.htm` nur das Wort «bild», `hfg-li.htm`/`mo1li.htm`/`jug2.htm` reine
+Namenslisten als Navigationsframe, `50-60b.htm` eine bereits im Nelson-Artikel abgedeckte
+Bildunterschrift) — diese 32 Dateien enthalten laut Stichprobe keinen destillierbaren Fakt und
+werden nicht einzeln aufgeführt.
+
+Drei kleinste ungelesene **inhaltstragende** Positionen gelesen: `stahlrohrmöbel.htm` (6778
+Bytes), `hfg.htm` (6918 Bytes), `new_york.htm` (7894 Bytes). Duplikatscheck vorab: Thema
+Stahlrohrmöbel bereits als eigener Artikel vorhanden
+([[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]), HfG Ulm bisher
+nur Nebenerwähnung im Rams-Artikel, New York 1939 bisher nur Ford-Pavillon-Erwähnung im
+Teague-Artikel — echte Ergänzungen, keine reinen Dubletten.
+
+Ein bestehender Artikel ergänzt und zwei neue Artikel:
+
+- **Ergänzung** [[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]]
+  um einen Abschnitt zu Mart Stams freitragendem Stahlstuhl (Modell S33, 1926/27, schliesst
+  die dort offen vermerkte Lücke), der britischen Firma PEL, Gilbert Rhode/Wolfgang Hoffmann
+  in den USA, der Habitat-Wiederauflage der 1960er/70er und Eileen Grays Materialkombination
+  Stahlrohr/Kiefernholz; Rückverlinkung zum Terragni-Artikel ergänzt.
+- [[hochschule-fuer-gestaltung-ulm-scholl-aicher-bill-gugelot-maldonado]] (Bauhaus-
+  Nachfolgeinstitution: Inge Scholl/Otl Aicher/Max Bill/Hans Gugelot/Tomas Maldonado,
+  Verwissenschaftlichung des Designprozesses, Schliessung 1968, Praxisprojekte Lufthansa/
+  Hamburger U-Bahn/Rosenthal; Rückverlinkung im Rams-Artikel-Themenkreis).
+- [[new-york-weltausstellung-1939-trylon-perisphere-futurama-teague-loewy-dreyfuss]] (Trylon/
+  Perisphere von Harrison & Fouilhoux, Bel Geddes' «Futurama», Dreyfuss' «Democracity»/AT&T,
+  Loewys Raketenschiffmodell, «Swedish Modern»-Prägung im schwedischen Pavillon; bündelt
+  Teague- und Dreyfuss-Artikel um das gemeinsame Ausstellungsereignis, Bel Geddes und Loewy
+  als offene Personenartikel vermerkt).
+
+Damit 55 von 128 Fliesstext-Dateien der Zeile 68 gelesen (davon 32 als frameset-/banner-bedingt
+ertraglos identifiziert), rund 73 Positionen bleiben offen. `git diff --numstat` auf die
+Inventardatei zeigte `0 0` (Sammelzeile bleibt unverändert, Fortschritt nur in
+INDEX/CHANGELOG/KORPUS-QUEUE, Praxis seit dem 106. Lauf). Details CHANGELOG 30.08.2026.
+**Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den
+verbleibenden ungelesenen inhaltstragenden Positionen (u. a. `paris_1900.htm`, `jug3.htm`,
+`elsie_de_wolfe.htm`, `morrison.htm`, `noyes.htm`), die 32 identifizierten Frameset-Dateien
+nicht mehr einzeln prüfen, sonst laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
+**118. Lauf (30.08.2026, Lane FACHWISSEN): Zeile 68 fortgesetzt.** Stand vor Arbeitsbeginn
+selbst ermittelt statt aus dem Dispatch-Text übernommen: Grep über alle Inventardateien
+beider Korpora auf offene, nicht als «Gelesen»/«destilliert» markierte P1-Zeilen ergab
+zunächst Fehlalarme, weil mehrere Sektionen (u. a. `18_Projektkostenplanung`,
+`09_Konstruktion`, `17_Projektbeschriebe`, `20_Rendering`, `21_Rhino`, `22_Terminplanung`,
+`25_Wettbewerb` sowie mehrere `archiv-fachwissen`-Sektionen) den Status **nicht** in der
+Triage-Tabelle selbst, sondern in einem separaten Abschnitt `## Destillat-Fortschritt`
+festhalten und dort «P1» teils ohne Bold-Markup schreiben — beim Gegencheck aller
+betroffenen Abschnitte bestätigte sich in jedem Fall die bereits dokumentierte
+Vollständigkeit (keine echten offenen P1-Reste gefunden). Drei kleinste ungelesene
+Positionen von Zeile 68 gelesen: `paris_1900.htm`, `jug3.htm`, `elsie_de_wolfe.htm`.
+Duplikatscheck vorab (keine Dublette). Zwei neue Artikel:
+[[paris-1900-weltausstellung-art-nouveau-hoehepunkt-niedergang-wiener-stil]] (bündelt
+`paris_1900.htm` und `jug3.htm`, da beide dieselbe Kernaussage — Aufstieg und Niedergang
+des Art nouveau um 1900 zugunsten des Wiener geometrischen Stils — tragen; Rückverlinkung
+zu Guimard-, Wiener-Werkstätte- und Mackintosh-Artikeln) und
+[[elsie-de-wolfe-amerikanische-innenarchitektin-the-house-in-good-taste]] (frühe
+professionelle Innenausstattung als eigenständiges Berufsbild, «The House in Good Taste»
+1913). Damit 58 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 70 Positionen bleiben
+offen. `git diff --numstat` auf die Inventardatei zeigte `0 0`. Details CHANGELOG
+30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse
+(`morrison.htm`, `noyes.htm`, `gugelot.htm`), sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2.
+
+**119. Lauf (30.08.2026, Lane FACHWISSEN): Zeile 68 fortgesetzt.** Stand selbst ermittelt
+(Dispatch-Text nennt bewusst keine Zahlen). Die drei im 118. Lauf angekündigten Dateien
+gelesen: `morrison.htm`, `noyes.htm`, `gugelot.htm`. Duplikatscheck vorab (Grep gegen
+`wiki/*.md`): Morrison und Noyes ohne Treffer, Gugelot bereits als Nebenfigur im
+bestehenden HfG-Ulm-Artikel erwähnt, aber ohne eigene Biografie — kein Duplikat, sondern
+Ergänzung. Drei neue Artikel:
+[[jasper-morrison-britischer-minimalismus-cappellini-vitra-magis]] (Ausbildung Kingston/
+Royal College of Art, «Laundry Box»-Stuhl 1985, Cappellini/Vitra/Magis-Werkstücke),
+[[eliot-noyes-ibm-corporate-design-moma-kurator]] (MoMA-Kurator, IBM Design Director ab
+1956, «Executive»/«Selectric»-Schreibmaschinen, Rückverlinkung zu Saarinen/Eames- und
+Dreyfuss-Artikeln) und
+[[hans-gugelot-hfg-ulm-braun-systemdesign-carousel]] (ETH-Zürich-Ausbildung, Braun SK4/
+Sixtant, Kodak Carousel S, Systemgedanke; Rückverlinkung zum bestehenden HfG-Ulm-Artikel und
+zum Rams-Artikel). Damit 61 von 128 Fliesstext-Dateien der Zeile 68 gelesen, rund 67
+Positionen bleiben offen. `git diff --numstat` auf die Inventardatei zeigte `0 0` (Praxis
+seit dem 106. Lauf: Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE, Sammelzeile bleibt
+unverändert). **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse
+unter den verbleibenden ungelesenen inhaltstragenden Positionen, sonst laut Queue-Regel
+nächste Sektion mit offenem P1/P2.
+
+**120. Lauf (30.08.2026, Lane FACHWISSEN): Zeile 68 fortgesetzt.** Stand selbst ermittelt
+(P1-Vollständigkeit über alle 20 archiv-Inventardateien via `Destillat-Fortschritt`-Abschnitten
+gegengeprüft, aktive Arbeit bleibt P2 dieser Zeile). Verbleibende Kandidatenliste
+programmatisch neu ermittelt: alle `.htm`-Dateien im Ordner gegen alle in `wiki/*.md`
+referenzierten Quelldateinamen abgeglichen (`comm` statt Handzählung), drei kleinste
+inhaltstragende Treffer gelesen: `jiricna.htm`, `wright.htm`, `rodtschenko.htm`.
+Duplikatscheck vorab: Jiřičná und Rodtschenko ohne Treffer, Wright bereits mit einem
+theorielastigen Artikel aus der Architekturtheorie-Vorlesung vorhanden (Fallingwater/
+Broadacre City), aber ohne Möbeldesign-Aspekt — kein Duplikat, sondern Ergänzung. Zwei neue
+Artikel: [[eva-jiricna-britischer-high-tech-stil-innenausbau-formica-colorcore]] (britischer
+High-Tech-Stil im Ladenausbau der 1980er, Joseph-Ettedgui-Serie, Formica/Colorcore) und
+[[alexander-rodtschenko-russischer-konstruktivismus-arbeiterclub-produktivismus]] (russischer
+Konstruktivismus: Arbeiterclub-Möbel Paris 1925, Fotomontage, Bühnenbild; Rückverlinkung zum
+bestehenden El-Lissitzky-Artikel), dazu **Ergänzung**
+[[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]] um einen neuen
+Abschnitt Möbel-/Ausstattungsdesign (Fass-Stuhl, Larkin-Building-Metallmöbel, Hotel-Imperial-
+Ausstattung, Cassina-Reeditionen der 1980er). Damit 64 von 128 Fliesstext-Dateien der Zeile
+68 gelesen, rund 64 Positionen bleiben offen. `git diff --numstat` auf die Inventardatei
+zeigte `0 0` (Sammelzeile unverändert, Praxis seit dem 106. Lauf). Details CHANGELOG
+30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter
+den verbleibenden ungelesenen inhaltstragenden Positionen (nächstkleinste laut Grössenliste
+dieses Laufs: `nurmesniemi.htm`, `henry_van_de velde.htm`, `earl.htm`, `bellini.htm`), sonst
+laut Queue-Regel nächste Sektion mit offenem P1/P2.
+
+**121. Lauf (30.08.2026, Lane FACHWISSEN, Hostname Macmini via `scutil`): Zeile 68
+fortgesetzt.** Stand selbst ermittelt, Working Tree bei Laufbeginn sauber. Ein zweiter
+`claude -p`-Prozess mit demselben Lane-Namen, aber einem sichtbar älteren Fassungstext des
+Dispatchs lief parallel (kennt die seit dem 106. Lauf gültige Fortschrittspraxis nicht) —
+kein identischer Doppel-Dispatch, kein eigenmächtiges Eingreifen, siehe CHANGELOG. Bei der
+programmatischen Kandidatenermittlung zwei Encoding-Fallstricke behoben (Umlaute in der
+`grep`-Zeichenklasse fehlten; macOS/APFS speichert Umlaut-Dateinamen NFD-zerlegt gegenüber
+NFC in den Markdown-Referenzen — erst nach Unicode-Normalisierung stimmte der Abgleich).
+Sechs Grenzfälle um 8'500–9'400 Bytes (`mo2ein.htm`, `sony.htm`, `wright-r..htm`,
+`cassina.htm`, `lucchi.htm`, `frogdesign.htm`) per Tag-Strip-Vorschau geprüft, um sie nicht
+fälschlich für Frameset zu halten — alle sechs inhaltstragend. Drei kleinste gelesen:
+`mo2ein.htm`, `sony.htm`, `wright-r..htm`. Duplikatscheck vorab (keine Dublette; Sony/De
+Lucchi nur Randerwähnungen ohne eigene Behandlung, Wright ist eine andere Person als der
+bereits destillierte Frank Lloyd Wright). Drei neue Artikel:
+[[progressiver-modernismus-maschinenmetapher-de-stijl-bauhaus-streamlining]] (Epochenessay,
+verankert acht bestehende Artikel dieser KB in einer gemeinsamen Erzählung),
+[[sony-produktdesign-morita-ibuka-transistorradio-walkman-minimalismus]] (Firmengeschichte,
+US-Styling-Kopie zu japanisch-deutschem Minimalismus) und
+[[russel-wright-amerikanisches-haushaltsdesign-american-modern-geschirr]] (US-Haushaltsdesign
+1904–1967, explizite Namensklärung gegen Frank Lloyd Wright). Damit 67 von 128
+Fliesstext-Dateien der Zeile 68 gelesen, rund 61 Positionen bleiben offen. `git diff
+--numstat` auf die Inventardatei zeigte `0 0`. Details CHANGELOG 30.08.2026. **Zeile 68
+bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter den bereits als
+inhaltstragend verifizierten Positionen (`cassina.htm`, `lucchi.htm`, `frogdesign.htm`,
+`nurmesniemi.htm`, `henry_van_de velde.htm`, `earl.htm`, `bellini.htm`); bei `cassina.htm`
+und `lucchi.htm` vorab prüfen, ob Ergänzung bestehender Artikel (Magistretti/Ponti bzw.
+Sottsass/Postmoderne) treffender ist als ein eigener Artikel, sonst laut Queue-Regel nächste
+Sektion mit offenem P1/P2.
+
+**122. Lauf (30.08.2026, Lane FACHWISSEN, Hostname Macmini via `scutil`, PID 47271, ein
+`claude -p`-Prozess, kein Doppel-Dispatch): Zeile 68 fortgesetzt, Kandidatenermittlung
+korrigiert.** Stand selbst ermittelt. Beim Reproduzieren der Python-Kandidatenermittlung des
+121. Laufs fiel ein dritter Fehler auf: das Suchmuster erfasste auch `INDEX.md`/
+`QUESTIONS.md` selbst, wo `nächster Schritt`-Prosa künftige Dateinamen nennt, bevor sie
+gelesen sind — das liess `cassina.htm`/`lucchi.htm`/`frogdesign.htm`/`nurmesniemi.htm`/
+`henry_van_de velde.htm`/`earl.htm`/`bellini.htm` fälschlich als „bereits referenziert"
+erscheinen. Nach Ausschluss dieser beiden Dateien aus dem Abgleich: 57 von 128 Dateien
+tatsächlich unreferenziert, davon 27 durch Tag-Strip-Vorschau als Frameset-/Index-/
+Banner-Seiten ohne Fliesstext bestätigt (`ital-b.htm`, `90.htm`, `mo1.htm`, `hfg-index.htm`,
+`index.htm`, `hfg-li.htm`, `50-60b.htm`, `jug2.htm`, `mo1li.htm` und 18 bereits in früheren
+Läufen identifizierte). Drei kleinste inhaltstragende Dateien ausserhalb dieser 27 gelesen:
+`design_im_20.htm`, `kunststoff.htm`, `aktion_und_reaktion.htm`. Duplikatscheck vorab:
+`design_im_20.htm` erwies sich als praktisch deckungsgleich mit dem bereits über `jug3.htm`
+destillierten Artikel [[paris-1900-weltausstellung-art-nouveau-hoehepunkt-niedergang-wiener-stil]]
+(identische Erzählung Ruskin/Morris → Guimard/Van-de-Velde/Horta/Gaudí/Behrens/Mackintosh/
+Wagner/Hoffmann → Turin 1902) — **kein neuer Artikel**, stattdessen die drei zusätzlichen
+Fakten (Gallé-Vase 1895, Zeitschriften «The Studio»/«Pan», Geschlechteranmerkung) dort als
+Ergänzung nachgetragen (Delta-Ehrlichkeit). `kunststoff.htm` und `aktion_und_reaktion.htm`
+ohne Dublette (nur Randerwähnungen in bestehenden Artikeln). Zwei neue Artikel:
+[[kunststoff-im-design-bakelit-spritzguss-polypropylen-oekokritik]] (Materialgeschichte
+Bakelit 1907 → Zanuso/Panton/Day/Colombo-Spritzguss-Kette → Ölkrise/Starck-Recycling-Design,
+verankert vier bestehende Einzelwerk-Artikel) und
+[[design-krise-der-moderne-1960er-pop-aesthetik-harley-earl-archigram]] (Funktionalismus-
+Krise mit Harley Earl/GM-Styling als amerikanischem Vorlauf und Peter Murdoch/Archigram/
+Sottsass als Trägern des Bruchs — schliesst die zeitliche Lücke vor der bereits bestehenden
+[[postmoderne-design-jencks-memphis-alchimia-international]]). Damit 60 von 128 Dateien
+gelesen/korrekt als ertraglos identifiziert (27 Frameset + 33 vorherige inhaltstragende
+Läufe + 3 dieser Lauf), 57 minus 3 = 54 Positionen bleiben tatsächlich offen (`cassina.htm`
+bis `day.htm`, siehe CHANGELOG-Liste). `git diff --numstat` zeigte für die Inventardatei
+keine Änderung, für die modifizierte Paris-1900-Datei `13 0` (reiner Anhang), für die zwei
+neuen Wiki-Dateien reine Neuanlage. Details CHANGELOG 30.08.2026. **Zeile 68 bleibt offen,
+nächster Schritt:** Fortsetzung nach Dateigrösse unter den 25 verbliebenen inhaltstragenden
+Positionen (`cassina.htm`, `lucchi.htm`, `frogdesign.htm`, `nurmesniemi.htm`,
+`henry_van_de velde.htm`, `earl.htm`, `bellini.htm`, `50-60ein.htm`, `mo1ein.htm`, `race.htm`,
+`krise.htm`, `mollino.htm`, `maugham.htm`, `mailand.htm`, `schichtholz.htm`, `behrens.htm`,
+`wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`,
+`deskey.htm`, `bugholz.htm`, `day.htm`) — bei `schichtholz.htm` und `behrens.htm` vorab
+prüfen, ob Ergänzung der bestehenden Artikel [[organische-schichtholz-moderne-aalto-eames-jacobsen]]
+bzw. [[sauter-klassische-moderne-neues-bauen-behrens-loos-wright-aalto-vierzehn-bauten-kanon]]
+treffender ist als ein eigener Artikel, sonst laut Queue-Regel nächste Sektion mit offenem
+P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (123. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen), Hostname Macmini via
+`scutil`, genau ein `claude -p`-Prozess mit diesem Dispatch-Text, kein Doppel-Dispatch,
+Working Tree bei Laufbeginn sauber. Drei vom 122. Lauf empfohlene kleinste Positionen
+gelesen: `cassina.htm`, `lucchi.htm`, `frogdesign.htm`. Duplikatscheck vorab (`grep -rli`
+gegen `cassina|lucchi|frogdesign|esslinger` über `wiki/*.md`): Cassina bislang nur als
+Herstellerbeziehung in [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]]
+erwähnt, keine eigene Firmengeschichte — kein Duplikat. Michele De Lucchi bislang nur
+Namenseintrag in der Memphis-Gründungsliste zweier Artikel, keine eigene Biografie — kein
+Duplikat. frogdesign/Esslinger ohne jeden bisherigen Treffer — komplett neues Thema. Drei
+neue Artikel: [[cassina-moebelfirma-mailand-designerroster-i-maestri]] (Firmengeschichte
+18. Jh. bis 1987, Cesare/Umberto Cassina, Industrialisierung nach 1945, Designerroster nach
+Jahrzehnten, Reissue-Serie «I Maestri»), [[michele-de-lucchi-memphis-alchimia-olivetti-artemide]]
+(Cavart/Superstudio-Umfeld → Sottsass/Memphis → Corporate-Design für Olivetti/Deutsche Bank,
+Lampe «Tolomeo») und [[frogdesign-esslinger-braun-funktionalismus-apple]] (Synthese
+Braun-Funktionalismus und Memphis-Eklektizismus, Wega/Sony-Kundenbeziehung, Apple «Ilc» 1984
+als «Design des Jahres»). Damit 70 von 128 Dateien der Zeile 68 gelesen/als ertraglos
+identifiziert (32 Frameset + 35 vorherige inhaltstragende Läufe + 3 dieser Lauf), 22
+Positionen bleiben tatsächlich offen. `git diff --numstat` auf die Inventardatei zeigte
+`0 0` (Sammelzeile unverändert, Fortschritt nur in INDEX/CHANGELOG/KORPUS-QUEUE), auf die
+drei neuen Wiki-Dateien reine Neuanlage. Details CHANGELOG 30.08.2026. **Zeile 68 bleibt
+offen, nächster Schritt:** Fortsetzung nach Dateigrösse (`nurmesniemi.htm`,
+`henry_van_de velde.htm`, `earl.htm`, `bellini.htm`, `50-60ein.htm`, `mo1ein.htm`,
+`race.htm`, `krise.htm`, `mollino.htm`, `maugham.htm`, `mailand.htm`, `schichtholz.htm`,
+`behrens.htm`, `wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`,
+`dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`) — bei `schichtholz.htm`/`behrens.htm`
+vorab prüfen, ob Ergänzung bestehender Artikel treffender ist als eigener, sonst laut
+Queue-Regel nächste Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (124. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen), Hostname Macmini via
+`scutil`, genau ein `claude -p`-Prozess mit diesem Dispatch-Text (PID 49084), kein
+Doppel-Dispatch, Working Tree bei Laufbeginn sauber (Top-Commit `abe50268b`). Kandidaten
+diesmal wieder programmatisch ermittelt (`find` gegen alle Grössen, referenzierte
+Dateinamen aus `wiki/*.md` **ohne** `INDEX.md`/`QUESTIONS.md` abgeglichen — der vom 121./122.
+Lauf dokumentierte Fallstrick, dass die eigene «nächster Schritt»-Prosa in `INDEX.md`
+zukünftige Kandidaten schon vor dem Lesen nennt und sie so fälschlich als referenziert
+erscheinen lässt, erneut bestätigt und vermieden). Drei kleinste ungelesene, inhaltstragende
+Positionen gelesen: `nurmesniemi.htm`, `henry_van_de velde.htm`, `earl.htm`. Duplikatscheck
+vorab: Nurmesniemi ohne jeden bisherigen Treffer — komplett neu. Van de Velde bislang nur in
+vier bestehenden Artikeln als Randfigur erwähnt (Adolf-Behne-, Paris-1900-, Aalto/Eames-
+Jacobsen- und Literaturlandkarte-Artikel), keine eigene Biografie — kein Duplikat. Harley Earl
+bereits mit einem knappen Absatz im «Krise der Moderne»-Artikel vorhanden — kein Duplikat,
+da dort nur als Beleg für die 1930er-Abspaltung Design/Konsum erwähnt, ohne Werkchronologie.
+Drei neue Artikel:
+[[antti-vuokko-nurmesniemi-finnisches-nachkriegsdesign-saunahocker-marimekko]] (finnisches
+Designerpaar, Saunahocker 1952, Kaffeekanne «Finel», Marimekko-Textildruck, ergänzt die
+bestehenden Wirkkala-/Franck-Artikel um eine dritte finnische Position),
+[[henry-van-de-velde-belgischer-jugendstil-werkbund-weimar-bauhausvorlaeufer]] (Villa
+Bloemenwerf 1895, Deutscher Werkbund 1907, Weimarer Kunstgewerbeschule als Bauhaus-Vorlauf,
+Werkbund-Streit 1914 mit Muthesius, löst die vier offenen Kurzverweise auf) und
+[[harley-earl-general-motors-automobil-styling-y-job-heckflossen]] (Werkchronologie
+La Salle 1927 → Buick Y-Job 1937 → Heckflossen-Cadillac 1948 → Firebird II 1956 → Nader-Kritik
+1962, vertieft den bestehenden Kurzabsatz statt ihn zu duplizieren). Damit von den 22 in
+Lauf 123 identifizierten inhaltstragenden Restpositionen drei bearbeitet, 19 bleiben offen.
+`git diff --numstat` zeigte für die Inventardatei keinen Treffer (keine Änderung nötig,
+Sammelzeile bleibt unverändert), für die drei neuen Wiki-Dateien reine Neuanlage. Details
+CHANGELOG 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach
+Dateigrösse (`bellini.htm`, `50-60ein.htm`, `mo1ein.htm`, `race.htm`, `krise.htm`,
+`mollino.htm`, `maugham.htm`, `mailand.htm`, `schichtholz.htm`, `behrens.htm`, `wegner.htm`,
+`mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`, `deskey.htm`,
+`bugholz.htm`, `day.htm`) — bei `schichtholz.htm`/`behrens.htm` vorab prüfen, ob Ergänzung
+bestehender Artikel treffender ist als eigener, sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2.
+
+## 125. Lauf (30.08.2026, Lane FACHWISSEN): Zeile 68 fortgesetzt
+
+Stand selbst ermittelt (KORPUS-QUEUE-Historie plus programmatischer Abgleich `find` gegen
+alle in `wiki/*.md` referenzierten `.htm`-Dateinamen, ohne `INDEX.md`/`QUESTIONS.md`).
+Bestätigt: die vom 124. Lauf empfohlenen 19 Restpositionen sind tatsächlich noch keine in
+einem Wiki-Artikel referenziert. Die drei kleinsten davon nach Dateigrösse gelesen und per
+Tag-Strip-Vorschau als inhaltstragend bestätigt: `bellini.htm` (9,6 KB), `50-60ein.htm`
+(10,4 KB), `mo1ein.htm` (11,7 KB).
+
+Drei neue Wiki-Artikel:
+[[mario-bellini-olivetti-cassina-vitra-italienisches-produktdesign]] (Mario Bellini,
+geb. 1935; Olivetti-Werkchronologie Divisumma 18 → Lettera 10 → Logos 80 → ETP55, Möbel für
+Cassina/C&B Italia — Colonnato, Cab, Teneride —, Bürostühle Figur/Persona für Vitra,
+Domus-Chefredaktion 1986–1991; löst den bislang offenen Punkt in
+[[cassina-moebelfirma-mailand-designerroster-i-maestri]] auf, wo Bellini nur mit einem
+Produktbeispiel belegt war — dort per Anhang verlinkt, kein Duplikat),
+[[konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939]] (Übersichtsartikel
+aus `mo1ein.htm`, inhaltliches Gegenstück zu
+[[progressiver-modernismus-maschinenmetapher-de-stijl-bauhaus-streamlining]]; verklammert
+die bestehenden Artikel zu Ruhlmann/Klint, Paris 1925, Aalto und Mackintosh in einer
+gemeinsamen Epochen-Erzählung «Traditionsbewahrung statt Maschinen-Idealismus»; Rückverweis
+im Gegenartikel ergänzt) und
+[[der-neue-modernismus-nachkriegsdesign-1945-1960-nationale-identitaeten]] (Übersichtsartikel
+aus `50-60ein.htm`, dritter Epochenartikel dieser Sektion, chronologischer Anschluss an die
+beiden Zwischenkriegs-Überblicke; verklammert Aalto/Eames/Jacobsen, Nizzoli, Rams, Grange,
+Sony, italienisches Nachkriegsdesign und Nelson in der Erzählung «Design als nationales
+Identitätsprojekt nach 1945»).
+
+Duplikatscheck vorab für alle drei Themen über `wiki/*.md` (ohne `INDEX.md`/`QUESTIONS.md`):
+Bellini nur als ein Werkbeleg in der Cassina-Roster-Liste (kein eigener Artikel, daher neu
+statt Duplikat), «50-60ein»/«mo1ein» als reine Überblicksessays ohne Namensträger (Abgleich
+gegen bestehende Überblicksartikel-Paar mo2ein/progressiver-modernismus bestätigte:
+inhaltlich komplementär, keine Überschneidung).
+
+Damit sind 76 von 128 `.htm`-Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert.
+16 inhaltstragende Positionen bleiben offen: `race.htm`, `krise.htm`, `mollino.htm`,
+`maugham.htm`, `mailand.htm`, `schichtholz.htm`, `behrens.htm`, `wegner.htm`, `mathsson.htm`,
+`coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`, `deskey.htm`, `bugholz.htm`,
+`day.htm`.
+
+`git diff --numstat` auf die Inventardatei zeigte keine Änderung (Sammelzeile bleibt
+unverändert). Auf die drei neuen Wiki-Dateien reine Neuanlage; die beiden ergänzten
+Bestandsartikel (Cassina-Roster, Progressiver-Modernismus) zeigten reine Anhänge (`6 0` bzw.
+`4 1`, die eine Löschzeile ist der für die Einfügung aufgetrennte Ursprungssatz, kein
+Inhaltsverlust). Details CHANGELOG 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:**
+Fortsetzung nach Dateigrösse unter den 16 verbliebenen Positionen (`race.htm` als kleinste
+zuerst; bei `schichtholz.htm`/`behrens.htm` weiterhin vorab prüfen, ob Ergänzung
+bestehender Artikel treffender ist als eigener), sonst laut Queue-Regel nächste Sektion mit
+offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (126. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen), Hostname Macmini via
+`scutil`, genau ein `claude -p`-Prozess mit diesem Dispatch-Text (PID 54058), kein
+Doppel-Dispatch, Working Tree bei Laufbeginn sauber. Korrektur zur 16er-Liste des 125. Laufs:
+`maugham.htm` war darin fälschlich als offen geführt, ist aber bereits über
+[[konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939]] destilliert — real
+bleiben 15 inhaltstragende Positionen. Kandidatenermittlung diesmal vollständig
+programmatisch (Python, NFC-Normalisierung, Referenzabgleich gegen alle `wiki/*.md` ausser
+`INDEX.md`/`QUESTIONS.md`, danach Tag-Strip-Vorschau der übrigen 30 kleinsten Dateien): alle
+30 bestätigten sich als reine Frameset-/Navigations-/Bildunterschrift-Seiten ohne Fliesstext
+(`<frameset>`-Marker bzw. Textlänge unter 260 Zeichen nach Tag-Entfernung) und wurden damit
+zur bereits bekannten Gruppe der 32 ertraglosen Dateien aus Lauf 117 hinzugerechnet — 15
+inhaltstragende Positionen bestätigt. Die drei kleinsten davon gelesen: `race.htm`,
+`krise.htm`, `mollino.htm`. Duplikatscheck vorab (`grep -rli` gegen die jeweiligen Namen über
+`wiki/*.md` ohne `INDEX.md`/`QUESTIONS.md`): keine Dublette zu Ernest Race oder Carlo
+Mollino; `krise.htm` überschneidet sich mit der bereits destillierten theoretischen Erzählung
+in [[design-krise-der-moderne-1960er-pop-aesthetik-harley-earl-archigram]] (aus
+`aktion_und_reaktion.htm`), liefert aber die dort als offener Punkt vermerkten konkreten
+Träger (Peter Murdoch, Archigram) plus zusätzliches, dort nicht behandeltes Material (Mary
+Quant, Biba, italienisches Anti-Design) — daher kein Duplikat, sondern komplementärer
+Artikel mit Rückverweis im Gegenartikel. Drei neue Artikel:
+[[ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain]] (BA-Stuhl
+aus Rüstungsaluminium, Antilope/Springbock für das Festival of Britain 1951,
+«Contemporary Style»), [[carlo-mollino-turiner-barock-organische-schichtholzmoebel]]
+(Turiner Gegenlinie zur seriellen Mailänder Nachkriegsmoderne, organische
+Schichtholz-Einzelstücke, «Stromlinienförmiger Surrealismus») und
+[[pop-design-anti-design-1960er-mary-quant-archigram-superstudio-archizoom]] (Mary
+Quant/Biba, Spotty-Stuhl, Archigram, italienische Kollektive Superstudio/Archizoom/Gruppo
+Strum/Gruppo 9999, Blow Chair/Sacco/Up-Sessel, Internationalisierung über Ingo Maurer/Eero
+Aarnio/Robert Venturi), dazu Rückverweis im bestehenden Krisen-Artikel ergänzt. Damit sind
+116 von 128 Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert (62
+Frameset-/Banner-Dateien, davon 30 neu in diesem Lauf identifiziert, plus 54 inhaltstragende
+Dateien über alle Läufe), 12 inhaltstragende Positionen bleiben offen. `git diff --numstat`
+auf die Inventardatei zeigte keine Änderung
+(Sammelzeile unverändert), auf die drei neuen Wiki-Dateien reine Neuanlage, auf den
+Gegenartikel `4 3` (Ersetzung eines Bulletpunkts, kein Inhaltsverlust). Details CHANGELOG
+30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter
+den 12 verbliebenen Positionen (`mailand.htm`, `schichtholz.htm`, `behrens.htm`, `wegner.htm`,
+`mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`, `deskey.htm`,
+`bugholz.htm`, `day.htm`) — bei `schichtholz.htm`/`behrens.htm` weiterhin vorab prüfen, ob
+Ergänzung bestehender Artikel treffender ist als eigener, sonst laut Queue-Regel nächste
+Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (127. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen). Working Tree bei
+Laufbeginn nicht sauber (126. Lauf fertig, aber unkommittiert) — während der Prüfung griff
+der 15-Minuten-Cron und committete den Vorlauf selbst (`f16de7a3d`), kein eigener
+`nas-commit-now.sh`-Aufruf nötig. Vorab Gegenprobe, ob die beiden als P1 markierten
+Sektionen `03_Bauprozesse_I_II` (28 Tabellenzeilen) und `10_Protomodern` (13 Zeilen) wirklich
+offen sind: beide sind es nicht — die inline-`P1`-Markierung der Rohtabelle wird in dieser
+KB nie editiert (Rule: `raw/` nur mit Erledigt-Ausnahme), der tatsächliche Stand steht in den
+angehängten `## Destillat-Fortschritt`-Abschnitten der jeweiligen Inventardatei bzw. im
+CHANGELOG; beide Sektionen sind dort für P1 und den grössten Teil von P2 als abgeschlossen
+dokumentiert. Damit bestätigt: `02_Kunst_Geschichte` Zeile 68 bleibt der korrekte
+Arbeitspunkt.
+
+Die drei kleinsten der 12 laut 126. Lauf verbliebenen Positionen gelesen: `mailand.htm`,
+`schichtholz.htm`, `behrens.htm`. Duplikatscheck vorab (`grep -rli` gegen `wiki/*.md` ohne
+`INDEX.md`/`QUESTIONS.md`):
+
+- `mailand.htm` (Institutionsgeschichte der Mailänder Triennale 1923–1968) — keine
+  Dublette, nur Streifung in
+  [[italienisches-nachkriegsdesign-magistretti-ponti-cassina-domus]] (Pontis
+  Organisatorenrolle, keine durchgehende Chronologie der Ausstellung selbst). Neuer Artikel
+  [[mailaender-triennale-institutionsgeschichte-1923-1968]].
+- `behrens.htm` (Personenbiografie Peter Behrens) — Behrens taucht bereits als Nebenfigur in
+  sieben bestehenden Artikeln auf (Turbinenhalle, Lehrverhältnis Gropius/Mies/Corbusier),
+  aber ohne eigene Design-Biografie; kein Duplikat, sondern Lücke. Neuer Artikel
+  [[peter-behrens-aeg-industriedesign-werkbund-architektenschule]] mit Rückverlinkung auf
+  alle sieben bestehenden Erwähnungen.
+- `schichtholz.htm` (thematischer Artikel zur Materialtechnik, kein Personenartikel) — wie
+  vom 126. Lauf vermutet, eine Ergänzung statt eigener Artikel: erweitert
+  [[organische-schichtholz-moderne-aalto-eames-jacobsen]] um die technische
+  Materialgenealogie (Thonet Mitte 19. Jh., Kriegsdurchbruch synthetische Harze/
+  Luftfahrtindustrie 1942, Eames/Saarinen-Beinschienen für die US Navy, parallele
+  britische Entwicklung Ernest Race/Robin Day, italienische Domus-Rezeption
+  Mollino/di Carli/Mango/Arflex/Cassina/Gavina, Rietvelds «Birza»-Versuch 1927,
+  Ablösung durch Kunststoff ab den 1950ern) und ergänzt Rückverweise in
+  [[carlo-mollino-turiner-barock-organische-schichtholzmoebel]] (Domus/Eames-Rezeptionsweg
+  dort als offener Punkt vermerkt statt nachträglich eingefügt, um den bestehenden Artikel
+  nicht zu verändern) und
+  [[ernest-race-britisches-nachkriegsdesign-ba-stuhl-antilope-festival-of-britain]]
+  (Sitzmaterial Antilope/Springbock: geformtes Schichtholz, dort bislang nicht spezifiziert).
+
+Damit sind 119 von 128 Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert, 9
+inhaltstragende Positionen bleiben offen. `git diff --numstat` auf die Inventardatei zeigte
+keine Änderung (Sammelzeile unverändert, wie beim 126. Lauf), auf die beiden neuen
+Wiki-Dateien reine Neuanlage, auf den erweiterten Schichtholz-Artikel reiner Zusatz (kein
+Bulletpunkt/Absatz entfernt). Details CHANGELOG 30.08.2026. **Zeile 68 bleibt offen,
+nächster Schritt:** Fortsetzung nach Dateigrösse unter den 9 verbliebenen Positionen
+(`wegner.htm`, `mathsson.htm`, `coates.htm`, `sapper.htm`, `castiglioni.htm`, `dunand.htm`,
+`deskey.htm`, `bugholz.htm`, `day.htm`), sonst laut Queue-Regel nächste Sektion mit offenem
+P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (128. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (Dispatch-Text nennt bewusst keine Zahlen); `git status`/`git log`
+vor Beginn geprüft, Working Tree sauber (Top-Commit `317ba2180`). Hostname Macmini via
+`scutil` bestätigt, genau ein `claude -p`-Prozess mit diesem Dispatch-Text (PID 56559),
+kein Doppel-Dispatch.
+
+Die drei kleinsten der 9 laut 127. Lauf verbliebenen Positionen gelesen: `wegner.htm`,
+`mathsson.htm`, `coates.htm`. Duplikatscheck vorab (`grep -rli` gegen `wiki/*.md` ohne
+`INDEX.md`/`QUESTIONS.md`):
+
+- `wegner.htm` (Personenbiografie Hans Wegner) — bislang nur Streuverweise in
+  [[ruhlmann-art-deco-vs-kaare-klint-skandinavischer-funktionalismus]] (Nachfolgegeneration
+  Klints), [[mailaender-triennale-institutionsgeschichte-1923-1968]] (Preisträger elfte
+  Triennale) und [[verner-panton-kunststoffmoebel-stapelstuhl-fritz-hansen-vitra]]
+  (Gegenbeispiel Handwerkslinie); kein eigener Artikel. Neuer Artikel
+  [[hans-wegner-daenische-moderne-the-chair-china-stuhl]] (China-Stuhl 1944, «The Chair»
+  1949, Lehrjahre bei Arne Jacobsen 1938–1943, Rückverlinkung auf die drei bestehenden
+  Streuverweis-Artikel).
+- `mathsson.htm` (Personenbiografie Bruno Mathsson) — bislang nur Namensnennung in
+  [[konservativer-modernismus-art-deco-skandinavien-britannien-1918-1939]] und
+  [[verner-panton-kunststoffmoebel-stapelstuhl-fritz-hansen-vitra]]; kein eigener Artikel.
+  Neuer Artikel [[bruno-mathsson-schwedische-moderne-eva-stuhl-superellipse]] (Eva-Stuhl
+  1934, «schwedisch modern», Superellipse 1964 mit Piet Hein, Bezug zu Klints
+  Stuhl-Neudefinition).
+- `coates.htm` (Personenbiografie Wells Coates) — bislang nur Namensnennung in
+  [[kenneth-grange-britisches-produktdesign-kodak-kenwood-british-rail]]; kein eigener
+  Artikel. Neuer Artikel
+  [[wells-coates-britische-moderne-isokon-ekco-radio-lawn-road]] (Isokon-Gründung 1932 mit
+  Jack Pritchard, Lawn-Road-Flats mit Breuers Isokon-Liegestuhl, PEL-Stahlrohrserie 1935,
+  Ekco-Bakelitradios AD65/Princess Handbag, BBC Broadcasting House 1931/32), dazu
+  Rückverlinkung im bestehenden Stahlrohr-Artikel
+  [[stahlrohrmoebel-genealogie-rietveld-breuer-mies-van-der-rohe-lilly-reich]] ergänzt
+  (Isokon/PEL-Verbindung zu Breuer). Ein unvollständiger Namenseintrag im Quelltext
+  («... und insbesondere ...», Satz bricht ab) ausgelassen statt geraten, Frage #78 in
+  `wiki/QUESTIONS.md`.
+
+Damit sind 122 von 128 Dateien der Zeile 68 gelesen bzw. als ertraglos identifiziert, 6
+inhaltstragende Positionen bleiben offen. `git diff --numstat` auf die Inventardatei zeigte
+keine Änderung (Sammelzeile unverändert), auf die drei neuen Wiki-Dateien reine Neuanlage,
+auf den ergänzten Stahlrohr-Artikel `3 0` (reiner Anhang, kein Inhaltsverlust). Details
+CHANGELOG 30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach
+Dateigrösse unter den 6 verbliebenen Positionen (`sapper.htm`, `castiglioni.htm`,
+`dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`), sonst laut Queue-Regel nächste
+Sektion mit offenem P1/P2.
+
+## 260830 — Zeile 68 fortgesetzt, Sektion `02_Kunst_Geschichte` (129. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt; `git status`/`git log` vor Beginn geprüft. Unkommittierte Vorarbeit
+aus dem vorherigen Lauf (`01_Landschaftsarchitektur` P2, siehe folgender Abschnitt) via
+`nas-commit-now.sh` gesichert — Skript meldete den bekannten Merge-Konflikt in fremden
+Lane-CHANGELOGs, der 15-Minuten-Cron hat den Stand danach committet (Top-Commit `eefc19ae4`
+bei Laufbeginn). `ps aux` zeigte genau einen `claude -p`-Prozess mit diesem Dispatch-Text
+(PID 58775), kein Doppel-Dispatch.
+
+Zwei der sechs vom 128. Lauf empfohlenen kleinsten verbleibenden Positionen gelesen:
+`sapper.htm`, `castiglioni.htm`. Duplikatscheck vorab (`grep -rli` gegen `wiki/*.md`): beide
+bislang nur als Nebenerwähnung in
+[[marco-zanuso-italienisches-nachkriegsdesign-sapper-brionvega-kartell]] beziehungsweise
+[[mailaender-triennale-institutionsgeschichte-1923-1968]] vorhanden, kein eigener Artikel.
+Zwei neue Artikel:
+[[richard-sapper-deutsch-italienisches-industriedesign-alessi-ibm-tizio]] (Tizio-Leuchte
+1972, Alessi-Partnerschaft ab 1977 mit Cafetière 9090/Bollitore/Besteck, IBM-Beratung ab
+1981, Sapperstuhl für Knoll) und
+[[castiglioni-brueder-italienisches-nachkriegsdesign-arco-mezzadro-readymade]] (Studio
+Livio/Pier Giacomo/Achille ab 1938, Ready-made-Prinzip bei Mezzadro/Sella/Toio,
+Arco-Leuchte 1962, Achilles Alleinwerk nach Pier Giacomos Tod 1968), dazu Rückverlinkung im
+bestehenden Zanuso-Artikel ergänzt.
+
+Damit sind 124 von 128 Dateien der Zeile 68 gelesen, 4 inhaltstragende Positionen bleiben
+offen: `dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`. `git diff --numstat` auf die
+Inventardatei zeigte keine Änderung (Sammelzeile unverändert), auf die zwei neuen
+Wiki-Dateien reine Neuanlage, auf den ergänzten Zanuso-Artikel `1 1` (reine
+Link-Ergänzung in der Frontmatter-Zeile, kein Inhaltsverlust). Details CHANGELOG
+30.08.2026. **Zeile 68 bleibt offen, nächster Schritt:** Fortsetzung nach Dateigrösse unter
+den 4 verbliebenen Positionen (`dunand.htm` als kleinste zuerst), sonst laut Queue-Regel
+nächste Sektion mit offenem P1/P2.
+
+## 260830 — Sektion `01_Landschaftsarchitektur` (Korpus 4), erster und zweiter P2-Lauf (Lane FACHWISSEN)
+
+Vier P2-Positionen destilliert (von 24 in der Triage, drei Bausteine zusammengefasst plus
+Gartenanalyse-Raster separat):
+
+- `07_Pflanzen_Produkte_Mobelierung_Belaege/00_Produkte/Stadtbaum_Luzern/100411_stadtbaeume08_Luzern.pdf`
+  → [[baumschutz-bewilligungsschwelle-stammumfang-stadt-luzern-2008]] (Bewilligungsschwelle
+  80 cm Stammumfang, 6-cm-Astregel, 6 m² Flächenbedarf je Strassenbaum; touristischer
+  Baumporträt-Teil bewusst nicht destilliert).
+- `05_Literatur/Bäume.pdf` (52 Seiten, generische Artbestimmungsbroschüre) →
+  [[gehoelz-kurzwissen-baumaufbau-artenverteilung-schweizer-waelder]] (nur Baumaufbau-
+  Terminologie und Artenverteilung Schweizer Wälder nach LFI 1996 destilliert, die rund 20
+  Einzelartenporträts bewusst nicht reproduziert — Wikipedia-artiges Bestimmungswissen ohne
+  JANS-Bürobezug).
+- `02_Landschaftsarchitekten/Vogt_Guenter/*` — drei echte Vogt-Referenzblätter (Novartis
+  Campus Park Basel, Bahnhofplatz Landquart, Helvetia Patria St. Gallen) →
+  [[vogt-referenzblatt-format-herkunft-material-identitaet]]. **Triage-Korrektur:** die
+  vierte in der Zeile genannte Datei (`Buonas_Roche_Tagungszentrum/Roche_Tagungszentrum_d.pdf`)
+  erwies sich bei Volltextprüfung als Pittsburgh-Corning-Pressedienst zum Dämmstoff
+  FOAMGLAS® (Hersteller-Marketing), nicht als Vogt-Referenzblatt — nicht destilliert, Spec-
+  Abgrenzung greift. Der Bahnhofplatz-Landquart-Fund deckt sich mit der bereits inventarisierten
+  Datei `raw/inventar/buero-referenzen__11_Landschaftsarchitektur.md` (Namenskollision Zeile 25
+  oben) — beide Inventardateien im selben Lauf mit Fortschritt versehen, keine
+  Doppeldestillation.
+- `00_Administration/07_Gartenanalyse/120814_Gartenanalyse.docx` + zwei PDF-Fassungen →
+  [[gartenanalyse-raster-fuenf-kategorien-bestandesaufnahme]] (fünf Analysekategorien,
+  übertragbar auf Ankaufsbesichtigung, Machbarkeitsstudie und Bestandesaufnahme vor Umbau).
+
+`git diff --numstat` auf beide betroffenen Inventardateien nach jedem Schreibschritt geprüft:
+reiner Append. Kein Datenschutz- oder Sperrlisten-Fund. Rund 19 der ursprünglich 24
+P2-Positionen bleiben in `01_Landschaftsarchitektur` offen (Topografie-/Renaissance-
+Prüfungsskripte, Ökologische-Gärten-Notiz, Irchelpark-Lehrunterlage, OCR-blockierte
+Irchelpark-Bepflanzung, Kolloquium-Teildublette). Nächster Lauf: Topografie-Prüfungsskript
+(Anschluss an Skill `massgebendes-terrain`).
+
+## 260830 — Zeile 68 abgeschlossen, Sektion `02_Kunst_Geschichte` (130. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt: `KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md` und die
+Inventardatei geprüft; `git status`/`git log` vor Beginn sauber, keine Doppel-Dispatch-Prozesse
+ausser der eigenen Instanz. Die vier laut 129. Lauf letzten Positionen der Zeile 68 gelesen,
+nach Dateigrösse: `dunand.htm`, `deskey.htm`, `bugholz.htm`, `day.htm`. Duplikatscheck vorab:
+keine Dubletten. Vier neue Artikel:
+[[jean-dunand-franzoesischer-art-deco-lackkunst-ozeandampfer-normandie]],
+[[donald-deskey-amerikanisches-art-deco-streamline-moderne-radio-city]],
+[[bugholz-technikgeschichte-thonet-biegeholz-schichtholz-genealogie]],
+[[robin-lucienne-day-britisches-nachkriegsdesign-hille-festival-of-britain-polypropylen]].
+Details CHANGELOG 30.08.2026 (130. Lauf), inklusive sieben Rückverlinkungen in bestehenden
+Artikeln.
+
+**Damit sind alle 128 inhaltstragenden Dateien der Zeile 68 gelesen. Die gesamte Sektion
+`02_Kunst_Geschichte` (P1 und P2) ist damit vollständig abgearbeitet** — die übrigen
+P2-Zeilen (67, 69–76) waren bereits seit dem 101. Lauf erledigt. `git diff --numstat` auf die
+Inventardatei zeigt reinen Append (Sammelzeile Zeile 68 unverändert), auf die vier neuen
+Wiki-Dateien reine Neuanlage, auf die sieben ergänzten Artikel je `1 1`. Kein
+Datenschutz-/Sperrlisten-Fund. Sicherung via `bash scripts/nas-commit-now.sh`.
+
+**Nächster Lauf:** Kennzahlen-Tabelle oben («Sektionen nach Ertrag») ist an mehreren Stellen
+veraltet — `02_Gestalt_Kulturverstaendnis`, `01_Konstruktion` und `03_Bauprozesse_I_II` sind
+laut eigenem Inventar bereits abgeschlossen bzw. dauerhaft blockiert, obwohl die Tabelle das
+nicht überall ausweist. Nächster echter Kandidat: die rund 100 offenen
+P2-Vorlesungsmitschriften in `02_Architekturtheorie`, sonst laut Queue-Regel eine der laut
+`QUESTIONS.md` 260823 #1 noch nicht inventarisierten `archiv-fachwissen`-Sektionen.
+
+## 260830 — Topografie-Prüfungsskript, Sektion `01_Landschaftsarchitektur` (dritter P2-Lauf dieser Sektion, Lane FACHWISSEN)
+
+Stand vor Beginn selbst ermittelt statt den Fortsetzungshinweis des 130. Laufs (oben,
+«`02_Architekturtheorie`») blind zu übernehmen: laut eigener Inventardatei dieser Sektion
+(Zeile 632-636) ist `02_Architekturtheorie` bereits seit dem 23. P2-Lauf desselben Tages
+vollständig für P1 und P2 abgeschlossen — Korrektur nur in `wiki/QUESTIONS.md` vermerkt, nicht
+selbst am fremden Abschnitt editiert. Stattdessen `00_Pruefungsskript_Topografie/
+00_Skript_Topografie_FS12.pdf` (18 Seiten, Albert Kirchengast, ETH Zürich, FS 2012) plus
+begleitende Studierenden-Zusammenfassung gelesen (Zusammenfassung reine Paraphrase, kein
+eigenständiger Fund). Zwei neue Artikel:
+[[corboz-territorium-palimpsest-produkt-projekt-prozess-trias]] (Corboz' Territorium-Trias
+Produkt/Projekt/Prozess, Palimpsest-Metapher, Belegbeispiele Bahn-2000-Langenthal und NEAT
+Sigirino, Girot-Organismus-Ergänzung) und
+[[cramer-kienast-vogt-rasenpyramiden-schweizer-landschafts-land-art]] (Ernst Cramers «Garten
+des Poeten» 1959 und Kienast Vogt Partners «Berggarten» Graz 2000 als Schweizer
+Land-Art-Tradition abstrahierter Geländeformen). Details CHANGELOG 30.08.2026 (dritter
+P2-Lauf). `git diff --numstat` auf die Inventardatei zeigt reinen Append, die zwei Wiki-Dateien
+sind Neuanlagen. Kein Datenschutz-/Sperrlisten-Fund. Sicherung via
+`bash scripts/nas-commit-now.sh`.
+
+**Nächster Lauf:** rund 17 der ursprünglich 24 P2-Positionen in `01_Landschaftsarchitektur`
+bleiben offen (Renaissance-Skript + Zusammenfassung als nächstgrösste Position, dazu
+Irchelpark-Bepflanzung/-Lehrunterlage, Ökologische-Gärten-Notiz, Kolloquium-Teildublette und
+die aus der Topografie-Quelle noch nicht destillierten Nebenstränge Leatherbarrow,
+Ästhetikdebatte, zeitgenössische Parkbeispiele).
+
+## 260831 — Renaissance-Prüfungsskript, Sektion `01_Landschaftsarchitektur` (vierter P2-Lauf dieser Sektion, Lane FACHWISSEN)
+
+Vorgefunden: der dritte P2-Lauf (oben) hatte Inhalt geschrieben, aber weder hier nachgetragen
+noch gesichert — nachgeholt. `bash scripts/nas-commit-now.sh` scheitert dabei reproduzierbar an
+Merge-Konflikten in fremden Lane-CHANGELOGs (normen, synobsis, baurecht, grobkosten,
+`KORPUS-QUEUE.md`) — derselbe, bereits am 29.08.2026 eskalierte NAS-Git-Merge-Konflikt, nicht
+selbst aufgelöst (fremde Lanes). `01_Gartentypen/Renaissance/01_Pruefung_Skript/
+01_Skript_Renaissance_FS12.pdf` (14 Seiten, Freytag/Richter, ETH Zürich, FS 2012) gelesen;
+`renaissanceskript.pdf` als Vorgängerfassung SS 2007 identifiziert, nicht separat destilliert;
+Zusammenfassungs-Docx als reine Paraphrase geprüft. Zwei neue Artikel:
+[[terza-natura-cicero-bonfadio-taegio-renaissancegarten-begriffstrias]] (Ciceros
+prima/altera/terza natura, Bonfadio/Taegio 1541/1559, Mimesis-Spannung) und
+[[renaissance-gartengestaltung-kompartimente-zonierung-giardino-segreto]] (Vier-Kompartiment-
+Schema, giardino segreto/delle semplici, bosco, Rockox-Garten Antwerpen). Details CHANGELOG
+31.08.2026 (vierter P2-Lauf). `git diff --numstat` auf die Inventardatei zeigt reinen Append, die
+zwei Wiki-Dateien sind Neuanlagen. Kein Datenschutz-/Sperrlisten-Fund.
+
+**Nächster Lauf:** rund 16 der ursprünglich 24 P2-Positionen bleiben offen. Nächstgrösste
+Position: Gartenmöblierung-Renaissance-Destillat, sonst gemäss Queue-Regel zur nächstgrössten
+Sektion mit offenem P2 übergehen.

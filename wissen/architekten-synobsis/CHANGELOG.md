@@ -88,6 +88,610 @@ kein `QUESTIONS.md`-Text veraendert. Empfehlung: naechster sinnvoller Auftrag fu
 liegt ausserhalb dieser vier Prioritaeten (z.B. Sektion 1/2 der leeren Ordner und Schreibfehler-Slugs,
 die nie Teil dieses Auftrags waren) oder wartet auf Raphaels Freigabe der NAS-Zusammenfuehrungen
 beziehungsweise den naechsten regulaeren `--reindex`-Batch.
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, noch ein Folgelauf) — Gruppo_Ligure praezisiert (weiterhin ohne Namensbeleg), Dispatch-Loop erneut bestaetigt
+
+Vier-Prioritaeten-Auftrag erneut ohne offene Punkte angetroffen: Fehlextraktionen,
+Katalog-Kollisionen und Sonderzeichen-Regel sind seit 29.08.2026 vollstaendig behoben
+(siehe QUESTIONS.md Sektion 3/4), Sammelfrage Charge 1 bis 6 sind alle einzeln
+recherchiert, die meisten Restnamen zusaetzlich per Ordnerinhalt-Sichtung geprueft.
+Einzige inhaltliche Ergaenzung: **Gruppo_Ligure** (Zeile 54) — gezielte Websuche zum
+bereits vermerkten Lead «Abitazione_Tipica_1933» ergab den vollstaendigen, namentlich
+belegten Architektenkreis der «Casa a struttura in acciaio» (V. Triennale di Milano
+1933, genuesische Rationalisten: Morozzo della Rocca, Crosa di Vergagni, Daneri,
+Fineschi, Haupt, Nicoli, Vietti, Zappa) — keine Quelle nennt das Kollektiv jedoch
+woertlich «Gruppo Ligure», Belegpflicht bleibt unerfuellt, Eintrag bleibt offen.
+Damit ist dies der siebte bis achte Nachtlauf in Folge auf denselben Auftrag ohne
+neuen Materialzugang (Katalog gesaettigt); die verbleibenden ~15 unbestaetigten
+Einzelnamen (Zanini, Gigometti, Goldsmith_Felix, Mitzutome, Fischle, Imhof_Edi,
+Jaeckel_Fabian, Horvat_Paolo, Keles_Oetzguer, La_Pierre_Eric u.a.) wurden bereits
+mehrfach sowohl websuchend als auch per Ordnerinhalt-Sichtung erfolglos geprueft —
+erneute Versuche mit denselben Mitteln sind keine sinnvolle Kapazitaetsnutzung mehr.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Charge 1: Burkhardt_Elsa per Ordnerinhalt bestaetigt, Dunkel bleibt offen
+
+Minimalcheck bestaetigte erneut den Nullstand der vier Kern-Prioritaeten (Arbeitsbaum
+sauber, letzter Commit bereits vom Vorlauf, alle vier Punkte laut `wiki/QUESTIONS.md`
+seit 29.08.2026 abgeschlossen) — reiner Wiederholungs-Dispatch. Der vorherige
+Charge-4-NACHTRAG hatte vermerkt, dass von den Sammelfrage-Chargen nur 1 und 2 ihre
+unbestaetigten Namen noch nicht per Ordnerinhalt-Sichtung (nur websuchend) geprueft
+hatten; Charge 2 war zwischenzeitlich am 30.08. bereits per NACHTRAG nachgezogen worden,
+Charge 1 noch nicht. Charge 1 hat von 14 Sammelfrage-Namen nur zwei, die nie ueber
+"wahrscheinlich" hinauskamen (Burkhardt_Elsa, Dunkel) — beide jetzt per NAS-Ordnerinhalt
+gesichtet. **Burkhardt_Elsa bestaetigt:** der Ordner enthaelt genau ein Dokument,
+`Burkhardt_Elsa_Ernst_Badeanstalt_Unterer_Letten.pdf` (Artikel "Der BSA und die Frauen",
+werk, bauen+wohnen 9/2008), dessen Bildunterschrift wortwoertlich "Badeanstalt Unterer
+Letten von Elsa Burckhardt-Blum und Ernst F. Burckhardt, urspruenglich erbaut 1955" nennt
+— Person und Werk direkt aus der Quelle im Ordner selbst belegt, kein Websuche-Vorbehalt
+mehr noetig. **Dunkel bleibt unveraendert offen:** das einzige Ordnerbild (`DSC_3587.JPG`)
+ist eine unbeschriftete Perspektive einer zeitgenoessischen Holzfassaden-Wohnueberbauung
+ohne jede Namens- oder Projektangabe, stilistisch auch nicht zu William Dunkels
+dokumentiertem Werk der 1930er (Neues Bauen) passend — eher ein Indiz gegen als fuer die
+bisherige Vermutung. Damit haben jetzt alle vierzehn Charge-1-Namen sowohl Websuche als
+auch Ordnerinhalt-Sichtung durchlaufen; einzig Dunkel bleibt ohne Beleg, nur aus
+zusaetzlichem Quellordner-Material zu klaeren. NACHTRAG an die bestehende
+Charge-1-Sammelfrage-Zeile in `wiki/QUESTIONS.md` angehaengt (`git diff --numstat`:
+1/1, reine Ergaenzung innerhalb der Zeile, kein Zeilenverlust). Fuer den naechsten Lauf:
+mit Charge 1 und 2 vollstaendig durchlaufen (Websuche + Ordnerinhalt) bleiben als
+Sammelfrage-Rest nur noch die seit Laengerem unveraendert offenen Einzelnamen aus
+Charge 3/4 (Imhof_Edi, Jaeckel_Fabian, Horvat_Paolo, Keles_Oetzguer, La_Pierre_Eric,
+Lazarini_Fenster als Vorbehalts-Kandidat, Mitzutome) — diese wurden bereits mehrfach mit
+denselben Mitteln (Websuche + Ordnerinhalt) erfolglos geprueft; ohne zusaetzliches
+Quellenmaterial im Ordner ist von ihnen kein weiterer Ertrag mehr zu erwarten. Die vier
+Kern-Prioritaeten des Dispatch-Texts bleiben vollstaendig erledigt.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Charge 3: Knorr bestaetigt, zwei weitere Leads praezisiert
+
+Minimalcheck bestaetigte erneut den Nullstand der vier Kern-Prioritaeten (Arbeitsbaum
+sauber, `git log` nur bekannte Commits, alle vier Punkte laut `wiki/QUESTIONS.md` seit
+29.08.2026 abgeschlossen). Statt eines weiteren Nulltreffer-Berichts wurden drei der
+sieben seit dem Charge-3-NACHTRAG vom 30.08. verbliebenen Sammelfrage-Namen erneut
+per Ordnerinhalt-Sichtung bzw. gezielter Websuche zu Ordner-Leads bearbeitet:
+**Knorr** jetzt bestaetigt — die zuvor als "ueber 20 MB, mit Read-Tool nicht oeffenbar"
+vermerkte Juryberichts-PDF hat im selben Ordner eine kleinere Einzelseiten-Extraktion
+(`Seite25.pdf`), die den Wettbewerbsbeitrag "La vie est belle" von Knorr & Pürckhauer
+Architekten fuer das Emilienheim explizit nennt (Empfehlung zur Weiterbearbeitung).
+**Lazarini_Fenster** wahrscheinlich (Vorbehalt bleibt): Ordnerbild-Motiv (Engadin-Steinbau)
+plus Websuche fuehrt zu Mierta & Kurt Lazzarini Architekten, Samedan, Projekt
+"Wohnüberbauung Giardin" — Dateiname "Lazzarini-Girardin" liest sich als Verschreibung
+von "Lazzarini-Giardin", aber keine Quelle bestaetigt "Girardin" woertlich. **Imhof_Edi**
+staerkerer, aber weiterhin unbestaetigter Kandidat: Eduard Imhof, dipl. Architekt ETH SIA
+Luzern, Fachautor zu Bruecken-Formfindung, passt zu Vorname/Sujet des Ordnerbilds
+(Seebruecke); die ARGE-Namensnennung "Amann Architekten" im Dateinamen liesse sich zur
+Neuen Seebruecke Luzern (1994-96, Planergemeinschaft "H.P. Ammann und P. Baumann")
+in Bezug setzen, keine Quelle verbindet aber Imhof direkt mit diesem Projekt — bleibt
+Indiz, kein Beleg. Vier Namen (Jaeckel_Fabian, Horvat_Paolo, Keles_Oetzguer,
+La_Pierre_Eric) ohne neuen Anhaltspunkt, unveraendert offen. Details siehe NACHTRAG
+in `wiki/QUESTIONS.md` (Charge-3-Zeile). `git diff --numstat` bestaetigt reines
+Anhaengen (1/1 QUESTIONS.md).
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Charge 4: drei der vier Restnamen ueber Ordnerinhalt-Sichtung geklaert
+
+Minimalcheck bestaetigte erneut: alle vier Kern-Prioritaeten des Dispatch-Texts
+(Fehlextraktionen, vier Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage
+Charge 1-6 insgesamt) waren bereits seit 29.08.2026 vollstaendig abgeschlossen.
+Statt eines weiteren Nulltreffers wurden die vier seit 29.08.2026 in Charge 4 ohne
+Websuche-Treffer verbliebenen Sammelfrage-Namen per Ordnerinhalt-Sichtung (`find` +
+`Read` auf die Bilder/PDFs im NAS-Quellordner) weiterverfolgt, analog dem bereits an
+Charge 2/3/6 erprobten Muster. Drei geklaert: **Perrot** (Alain-Charles Perrot,
+franzoesischer Monuments-historiques-Chefarchitekt, Grand-Palais-Restaurierung
+1997-2006, per drei Innenaufnahmen «picGrandPalais» im Ordner belegt),
+**Meier_Juergen_H** (Jürgen Mayer H., J. MAYER H. Berlin, per Foto der Dupli.Casa
+Ludwigsburg mit Dateikuerzel «jmh» im Ordner belegt, Slug schreibt «Meier» statt
+«Mayer»), **Luebps_Atelier** (Atelier Lüps, Schondorf am Ammersee, per Foto des
+eigenen, mit dem Deutschen Ziegelpreis 2011 ausgezeichneten Ateliergebaeudes im
+Ordner belegt, Dateiname nennt bereits «ziegelpreis»). Ein Name bleibt trotz
+Ordnerinhalt-Sichtung ohne Namensbeleg: **Mitzutome** (einziges Bild ein japanischer
+Wohnraum ohne jede Namens- oder Projektangabe). Alle Ergaenzungen als NACHTRAG an
+die bestehende Charge-4-Sammelfrage-Zeile in `wiki/QUESTIONS.md` angehaengt
+(`git diff --numstat` zeigt nur die eine bereits mehrfach editierte Zeile, kein
+Zeilenverlust). Fuer den naechsten Lauf: Mitzutome bleibt offen (nur aus
+zusaetzlichem Quellordner-Material zu klaeren), Chargen 4/5/6 haben ihre
+unbestaetigten Sammelfrage-Namen damit inzwischen alle per Ordnerinhalt-Sichtung
+durchlaufen (Charge 5 hatte ohnehin keine offenen Faelle) — verbleibend als
+legitime naechste Position waeren nur noch Chargen 1/2 (deren unbestaetigte Namen
+bislang nur websuchend, nicht per Ordnerinhalt-Sichtung geprueft wurden). Die vier
+Kern-Prioritaeten bleiben unveraendert vollstaendig erledigt; Katalog-Kollisionen
+und Umbenennungen bleiben Freigabesache an Raphael.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, sechsundzwanzigster Folgelauf desselben Tages) — Charge 3: vier weitere Namen ueber Ordnerinhalt-Sichtung geklaert
+
+Minimalcheck bestaetigte erneut: alle vier im Dispatch-Text genannten Prioritaeten
+(Fehlextraktionen Tadao_Ando/Spuehler_Martin/Wurster_William/Pfister_Gebrueder/
+Pouillon_Fernand/Romero_Schaefle/Rohn_Roland, die vier Katalog-Kollisionen, die
+Sonderzeichen-Regel, Sammelfrage Charge 2) waren bereits am 29.08.2026 vollstaendig
+abgeschlossen — reiner Wiederholungs-Dispatch. Statt eines 26. Nulltreffers wurden
+stattdessen die elf seit 29.08.2026 in Charge 3 unbestaetigten Sammelfrage-Namen per
+Ordnerinhalt-Sichtung (nicht nur Websuche) weiterverfolgt, analog dem bereits an
+Charge 2 und 6 erprobten Muster. Vier geklaert: **Herrle_Stoll** (OIKOS Peter Herrle
+und Werner Stoll, Berlin, per DETAIL-Artikel 2001/1 im Ordner selbst belegt),
+**Kampmann** (Hack Kampmann, 1856-1920, Buchseiten-Scan im Ordner nennt Name und
+Lebensdaten exakt), **Hofmann_Ludwig** (KORRIGIERT: nicht der zuvor vermutete
+Herborn-Kirchenbaumeister, sondern Ludwig Hoffmann, 1852-1932, Stadtbaurat Berlin —
+Ordner enthaelt Material zu Ludwig-Hoffmann-Quartier Berlin-Buch, -Krankenhaus,
+-Bruecke), **Klement_Juergen** (praezisiert: keine Einzelperson, sondern
+Firmenname-Verkuerzung von Juergensen Klement Architekten Zuerich, gegruendet 2013
+von Steffen Juergensen und Thomas Klement). Sieben bleiben trotz Ordnerinhalt-Sichtung
+ohne Namensbeleg (Imhof_Edi, Jaeckel_Fabian, Horvat_Paolo, Keles_Oetzguer,
+La_Pierre_Eric, Lazarini_Fenster, Knorr — Letzterer wegen 88-MB-PDF ueber dem
+Read-Limit inhaltlich nicht gesichtet). Alle Ergaenzungen als NACHTRAG an die
+bestehende Sammelfrage-Zeile in `wiki/QUESTIONS.md` angehaengt (`git diff --numstat`
+zeigt nur die eine bereits mehrfach editierte Zeile, kein Zeilenverlust). Fuer den
+naechsten Lauf: sieben ungeklaerte Charge-3-Namen bleiben offen, ebenso Sik_Miroslav/
+Sutter_Annabarbara (Rueckfragen an Raphael) und Chargen 4/5 (noch keine
+Ordnerinhalt-Sichtung der dort unbestaetigten Sammelfrage-Namen versucht).
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, fuenfundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+`git status --short`/`git diff --numstat` leer (Arbeitsbaum sauber), Zeilen 313
+(Sik_Miroslav) und 319 (Sutter_Annabarbara) in `wiki/QUESTIONS.md` gegengelesen — die
+beiden einzigen offenen Rueckfragen an Raphael unveraendert unbeantwortet, sonst nichts
+Neues gegenueber den 24 Vorlaeufen seit 29.08.2026. Keine Aenderung an Katalog oder
+`QUESTIONS.md`. 25. Redispatch desselben Auftragstexts an einem Tag; Empfehlung
+unveraendert: Lane pausieren oder Dispatch-Text aktualisieren.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, vierundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche `git status --short`/`git diff --numstat` (Arbeitsbaum sauber bis auf
+den noch nicht gesicherten CHANGELOG-Eintrag des 23. Folgelaufs, append-only) sowie
+`wiki/QUESTIONS.md` an den namentlich betroffenen Zeilen erneut gegengelesen:
+Fehlextraktionen (331/332/339/344/349/353), alle vier Katalog-Kollisionen
+(105/136/180/268/336/342/350), Sonderzeichen-Regel (351) und Sammelfrage Charge 1-6
+unveraendert BEHOBEN bzw. vollstaendig recherchiert seit dem ersten Lauf am 29.08.2026.
+Einzige inhaltlich noch offene Reste sind die per Websuche UND Ordnerinhalt-Sichtung
+bereits ausgeschoepften Charge-2/6-Merkposten (Fischle, Gigometti, Goldsmith_Felix,
+Gruppo_Ligure, Zanini) — fuer diese fehlt zusaetzliches Material im Quellordner, keine
+erneute Recherche mit denselben Mitteln bringt Fortschritt. Keine neue Position gefunden,
+keine Katalog-JSON- oder `QUESTIONS.md`-Aenderung. Dies ist der 24. Redispatch desselben
+(laut mehreren Vorlaeufen bereits als veraltet erkannten) Auftragstexts an einem Tag.
+Unveraendert dringliche Empfehlung an Raphael: Lane SYNOBSIS pausieren oder Dispatch-Text
+aktualisieren, bis neuer Auftrag, neues Quellmaterial oder eine Antwort auf die zwei
+offenen Rueckfragen (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319) vorliegt.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, dreiundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche `git status --short`/`git diff --numstat` (Arbeitsbaum sauber, `-0/-0`)
+sowie `wiki/QUESTIONS.md` an den namentlich betroffenen Zeilen erneut gegengelesen:
+Fehlextraktionen (331/332/339/344/349/353), alle vier Katalog-Kollisionen
+(105/136/180/268/336/342/350), Sonderzeichen-Regel (351) und Sammelfrage Charge 1-6
+unveraendert BEHOBEN bzw. vollstaendig recherchiert seit dem ersten Lauf am 29.08.2026 —
+keine neue Position gefunden, keine Katalog-JSON- oder `QUESTIONS.md`-Aenderung. Dies ist
+der 23. Redispatch desselben (laut mehreren Vorlaeufen bereits als veraltet erkannten)
+Auftragstexts an einem Tag. Unveraendert dringliche Empfehlung an Raphael: Lane SYNOBSIS
+pausieren oder Dispatch-Text aktualisieren, bis neuer Auftrag, neues Quellmaterial oder
+eine Antwort auf die zwei offenen Rueckfragen (Sik_Miroslav Zeile 313, Sutter_Annabarbara
+Zeile 319) vorliegt.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, zweiundzwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche `git status --short`/`git diff --numstat` (Arbeitsbaum sauber bis auf den
+noch nicht gesicherten CHANGELOG-Eintrag des 21. Folgelaufs, `+27/-0`, also append-only) sowie
+`wiki/QUESTIONS.md` an den namentlich betroffenen Zeilen erneut gegengelesen: Fehlextraktionen
+(331/332/339/344/349/353), alle vier Katalog-Kollisionen (105/136/180/268/336/342/350),
+Sonderzeichen-Regel (351) und Sammelfrage Charge 1-6 unveraendert BEHOBEN bzw. vollstaendig
+recherchiert seit dem ersten Lauf am 29.08.2026 — keine neue Position gefunden, keine
+Katalog-JSON- oder `QUESTIONS.md`-Aenderung. Dies ist der 22. Redispatch desselben (laut
+Vorlauf bereits als veraltet erkannten) Auftragstexts an einem Tag. Unveraendert dringliche
+Empfehlung an Raphael: Lane SYNOBSIS pausieren oder Dispatch-Text aktualisieren, bis neuer
+Auftrag, neues Quellmaterial oder eine Antwort auf die zwei offenen Rueckfragen (Sik_Miroslav
+Zeile 313, Sutter_Annabarbara Zeile 319) vorliegt.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, einundzwanzigster Folgelauf desselben Tages) — Unabhaengige Vollpruefung bestaetigt: alle vier Auftragspositionen erledigt, Auftragstext selbst veraltet
+
+Statt des ueblichen Minimalchecks diesmal die vier Auftragspositionen einzeln direkt in
+`wiki/QUESTIONS.md` gegengelesen (nicht nur die CHANGELOG-Zusammenfassungen der Vorlaeufe
+uebernommen): **Fehlextraktionen** (Zeilen 331/332/339/344/349/353) — alle BEHOBEN, jeweils
+mit Ersatzquelle oder bewusst auf textlos gesetzt, wo keine Alternative im Ordner lag.
+**Katalog-Kollisionen** (Zeilen 105/136/180/268/336/342/350) — alle vier Faelle (Christ_
+Gantenbein, Enzmann_Fischer, Miller_Maranta, Gigon_Guyer) BEHOBEN, inklusive Scanner-Fix
+(`build_slug_index()`/`merge_records()`), der ein Wiederauftreten bei kuenftigem `--reindex`
+verhindert. **Sonderzeichen-Regel** (Zeile 351) — vereinheitlicht auf das Utzon_Jørn-Vorbild,
+14 betroffene Katalogdateien per `git mv` nachgezogen, Scanner-Ursache (NFD-Zerlegung ueber
+SMB) identifiziert und per `nfc()`-Normalisierung behoben. **Sammelfrage** — hier eine
+Praezisierung des Auftragstexts noetig: dieser nennt "Charge 2 und folgende offen", das
+stimmt nicht mehr — Zeile 88 dokumentiert bereits, dass Charge 2 bis 6 am 29.08.2026
+vollstaendig einzeln recherchiert wurden (Charge 1 an Zeile 32, Charge 3 bis 6 an den
+Zeilen 67/74/78/88), der Auftragstext im Dispatch ist insofern veraltet. Verbleibender
+echter Rest ist kein Arbeitsauftrag mehr, sondern entweder Materialmangel (kein Beleg trotz
+Recherche: u.a. Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure, Wurster_William,
+Pfister_Gebrueder, Lengacher_Emenegger), Freigabesache (NAS-Ordner umbenennen/mergen,
+produktiver `--reindex`-Lauf) oder interne Rueckfrage an Raphael (Sik_Miroslav Zeile 313,
+Sutter_Annabarbara Zeile 319). Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert
+(`git diff --numstat` vor und nach dieser Pruefung leer). **Empfehlung an Raphael, jetzt mit
+Nachdruck:** diese Lane hat 21 identische Dispatches an einem Tag erhalten, seit Lauf 1
+(29.08.2026) ist nichts mehr offen, das ohne Freigabe oder neues Quellmaterial bearbeitbar
+waere — den Auftragstext im Dispatcher aktualisieren oder die Lane bis zu einer der drei
+genannten Bedingungen pausieren, statt denselben veralteten Text weiter zu wiederholen.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, zwanzigster Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche `git status --short`/`git diff --numstat` (sauber, keine unerledigten
+Aenderungen) und `wiki/QUESTIONS.md` gezielt gegen alle vier Auftragspositionen geprueft
+(Fehlextraktionen Zeilen 349/353, vier Katalog-Kollisionen Zeilen 105/136/180/268/336/342/350,
+Sonderzeichen-Regel Zeile 265/351, Sammelfrage Charge 1-6 inkl. Zeile 32). Alle vier weiterhin
+BEHOBEN bzw. vollstaendig recherchiert seit dem ersten Lauf am 29.08.2026, keine neue Position
+gefunden. Die zwei verbleibenden Rueckfragen (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile
+319: wer diese Personen im JANS-Buerokontext sind) bleiben nicht websuchbar, reine Freigabe-/
+Auskunftssache; die NAS-Ordner-Zusammenfuehrungen der vier Kollisionsfaelle bleiben ebenfalls
+Freigabesache. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert, kein Commit ausgeloest
+(NAS-Auto-Sync erfasst diesen Eintrag von selbst). Zwanzigster Redispatch desselben Auftrags an
+einem Tag. Empfehlung an Raphael unveraendert und dringlich: Lane SYNOBSIS pausieren, bis neues
+Quellmaterial vorliegt oder die zwei Rueckfragen beantwortet sind — jeder weitere Redispatch mit
+identischem Auftragstext bindet Budget ohne Ertrag.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, neunzehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git status --short`, `git diff --numstat` und `wiki/QUESTIONS.md`
+geprueft: Arbeitsbaum fuer diese KB sauber, `git log -3` zeigt seither nur NAS-Auto-Sync-
+Commits ohne inhaltliche Aenderung an dieser KB. Alle vier Auftragspositionen (Fehlextrak-
+tionen, vier Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 1-6) unveraendert
+BEHOBEN bzw. vollstaendig recherchiert seit dem ersten Lauf am 29.08.2026. Die verbleibenden
+zwei Punkte (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319) sind Rueckfragen zu
+JANS-internem Wissen (wer diese Personen im Buero-Kontext sind), nicht per Websuche loesbar
+— reine Freigabesache. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert. Neunzehnter
+Redispatch desselben Auftrags an einem Tag. Empfehlung an Raphael unveraendert und verstaerkt:
+Lane SYNOBSIS pausieren, bis neuer Auftrag/Quellmaterial vorliegt oder die zwei Rueckfragen
+beantwortet sind — jeder weitere Redispatch mit identischem Auftragstext bindet Budget ohne
+Ertrag.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, achtzehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git status --short`, `git diff --numstat` und `wiki/QUESTIONS.md`
+geprueft: Arbeitsbaum sauber, Stand identisch zum 17. Folgelauf. Alle vier Auftragspositionen
+weiterhin BEHOBEN bzw. vollstaendig recherchiert; die vier Restnamen (Fischle, Gigometti,
+Goldsmith_Felix, Gruppo_Ligure) bleiben echter Materialmangel. Kein Katalog-JSON, kein
+`QUESTIONS.md`-Eintrag veraendert. Achtzehnter Redispatch desselben Auftrags an einem Tag.
+Empfehlung an Raphael unveraendert: Lane SYNOBSIS pausieren, bis neuer Auftrag/Quellmaterial
+vorliegt oder die zwei Rueckfragen (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319)
+beantwortet sind.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, siebzehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git status --short`, `git diff --numstat` und `wiki/QUESTIONS.md`
+geprueft: Arbeitsbaum zu Laufbeginn sauber, `git log -3` zeigt seither nur NAS-Auto-Sync-
+Commits ohne inhaltliche Aenderung an dieser KB. Alle vier Auftragspositionen (Fehlextrak-
+tionen, vier Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 1-6) unveraendert
+BEHOBEN bzw. vollstaendig recherchiert seit dem ersten Lauf am 29.08.2026. Die vier Restnamen
+Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure bleiben echter Materialmangel (kein neues
+Quellmaterial im NAS-Ordner). Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert.
+Siebzehnter Redispatch desselben Auftrags an einem Tag — unveraendert Empfehlung an Raphael,
+Lane SYNOBSIS zu pausieren, bis ein neuer Auftrag, neues Quellmaterial oder eine Antwort auf
+die zwei offenen Rueckfragen (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319) vorliegt.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, sechzehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git status --short`/`git diff --numstat`/`wiki/QUESTIONS.md`
+geprueft: Arbeitsbaum fuer diese KB sauber, keine Aenderungen seit dem 15. Folgelauf. Alle
+vier Auftragspositionen (Fehlextraktionen, vier Katalog-Kollisionen, Sonderzeichen-Regel,
+Sammelfrage Charge 1-6) unveraendert BEHOBEN bzw. vollstaendig recherchiert; die vier
+Restnamen Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure bleiben echter Materialmangel.
+Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert. Sechzehnter Redispatch desselben
+Auftrags an einem Tag — unveraendert Empfehlung an Raphael, Lane SYNOBSIS zu pausieren, bis
+ein neuer Auftrag, neues Quellmaterial oder eine Antwort auf die zwei offenen Rueckfragen
+(Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319) vorliegt.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, fuenfzehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git status --short`, `git diff --numstat` und `wiki/QUESTIONS.md`
+geprueft (Memory-Hinweis: chronischer Dispatch-Loop, 14 Vorlaeufe allein am 30.08.2026, siehe
+Eintrag direkt darunter). Arbeitsbaum war zu Laufbeginn sauber, `git diff --numstat` leer.
+Katalog-Stichprobe bestaetigt unveraendert: `catalog/{Christ_Gantenbein,Enzmann_Fischer,
+Miller_Maranta,Gigon_Guyer,Tadao_Ando,Spuehler_Martin}.json` vorhanden/korrigiert wie in den
+Vorlaeufen dokumentiert. `QUESTIONS.md` Zeilen 54/55/88/334: dieselben vier Restnamen (Fischle,
+Gigometti, Goldsmith_Felix, Gruppo_Ligure) weiterhin ohne Beleg — echter Materialmangel nach
+zwei unabhaengigen Recherche-Passagen, keine offene Arbeit mehr mit den vorhandenen Mitteln.
+Alle vier Auftragspositionen (Fehlextraktionen, vier Katalog-Kollisionen, Sonderzeichen-Regel,
+Sammelfrage Charge 1-6) bleiben seit dem ersten Lauf am 29.08. BEHOBEN bzw. vollstaendig
+recherchiert. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert. Dies ist der
+fuenfzehnte Redispatch desselben Auftrags an einem einzigen Tag. Erneute, unveraenderte
+Empfehlung an Raphael: Lane SYNOBSIS pausieren, bis ein inhaltlich neuer Auftrag vorliegt,
+neues Quellmaterial im NAS-Ordner eintrifft, oder die zwei offenen Rueckfragen (Sik_Miroslav
+Zeile 313, Sutter_Annabarbara Zeile 319) beantwortet sind.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, vierzehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git status --short`, `git diff --numstat` und `wiki/QUESTIONS.md`
+geprueft (Memory-Hinweis: chronischer Dispatch-Loop, 13 Vorlaeufe allein am 30.08.2026).
+Arbeitsbaum war zu Laufbeginn sauber (`git status --short` leer, `git diff --numstat` leer),
+`git log -3` zeigt seither nur NAS-Auto-Sync-Commits ohne inhaltliche Aenderung an dieser KB.
+Alle vier Auftragspositionen unveraendert erledigt: **Fehlextraktionen** (Tadao_Ando,
+Spuehler_Martin, Wurster_William, Pfister_Gebrueder, Pouillon_Fernand, Romero_Schaefle,
+Rohn_Roland) BEHOBEN bzw. gepruft und bewusst textlos belassen wo keine Alternativquelle
+existiert; **Katalog-Kollisionen** (Christ_Gantenbein, Enzmann_Fischer, Miller_Maranta,
+Gigon_Guyer) BEHOBEN inkl. Scanner-Fix; **Sonderzeichen-Regel** vereinheitlicht (NFC-Fix)
+und alle 14 Slugs nachgezogen; **Sammelfrage Charge 1-6** vollstaendig einzeln recherchiert
+(rund 156 Namen), die vier Restnamen Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure
+bleiben nach zwei unabhaengigen Recherche- plus Ordnerinhalt-Sichtungs-Passagen (29./
+30.08.) ohne Beleg — echter Materialmangel, keine offene Arbeit. Die zwei Rueckfragen an
+Raphael (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319) sind nicht recherchierbar,
+sondern Freigabesache. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert. Dies ist
+der vierzehnte Redispatch desselben Auftrags an einem einzigen Tag — die Ursache liegt im
+Dispatch-Mechanismus, nicht in der KB. Erneute Empfehlung an Raphael: Lane SYNOBSIS
+pausieren, bis ein inhaltlich neuer Auftrag vorliegt, neues Quellmaterial im NAS-Ordner
+eintrifft, oder die zwei Rueckfragen beantwortet sind.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, dreizehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git status`, `git log` und `wiki/QUESTIONS.md` geprueft
+(Memory-Hinweis: chronischer Dispatch-Loop). Ergebnis unveraendert gegenueber dem
+zwoelften Folgelauf: alle vier Auftragspositionen (Fehlextraktionen, vier Katalog-
+Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 1-6) BEHOBEN bzw. vollstaendig
+recherchiert; die vier Restnamen Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure
+bleiben nach zwei unabhaengigen Recherche- plus Ordnerinhalt-Sichtungs-Passagen (29./
+30.08.) ohne Beleg — echter Materialmangel, keine offene Arbeit. `git status --short`
+zeigt fuer diese KB keine Aenderungen, `git diff --numstat wissen/architekten-synobsis/`
+leer vor diesem Eintrag. Dies ist der dreizehnte Redispatch desselben Auftrags an einem
+einzigen Tag. Erneute Empfehlung an Raphael: Lane SYNOBSIS pausieren, bis ein inhaltlich
+neuer Auftrag vorliegt oder neues Quellmaterial im NAS-Ordner eintrifft — jeder weitere
+Redispatch mit demselben Auftragstext bindet Budget ohne Ertrag.
+
+## 2026-08-30 04:10 (Mac Mini, Schub-Lane SYNOBSIS, zwoelfter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `git log`, `git status` und `wiki/QUESTIONS.md` geprueft
+(Memory-Hinweis: chronischer Dispatch-Loop). Stichprobe am Katalog direkt (nicht nur am
+Text) bestaetigt unveraendert: `catalog/{Christ_Gantenbein,Enzmann_Fischer,Miller_Maranta,
+Gigon_Guyer}.json` tragen beide Quellordner, `catalog/Tadao_Ando.json` und
+`catalog/Spuehler_Martin.json` die korrigierten Textauszuege, Sonderzeichen-Slugs
+unveraendert korrekt. `QUESTIONS.md` Zeile 54/55/88/334: dieselben vier Restnamen
+(Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure) weiterhin ohne Beleg trotz zweier
+unabhaengiger Recherche- plus Ordnerinhalt-Sichtungs-Passagen am 29./30.08. — echter
+Materialmangel, keine offene Arbeit. `git status --short` fuer diese KB leer, `git diff
+--numstat wissen/architekten-synobsis/` leer. Keine Datei veraendert ausser diesem Eintrag.
+Dies ist der zwoelfte Redispatch desselben Auftrags an einem einzigen Tag. Empfehlung an
+Raphael unveraendert: Lane SYNOBSIS pausieren, bis ein inhaltlich neuer Auftrag vorliegt
+oder neues Quellmaterial im NAS-Ordner eintrifft.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, elfter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `wiki/QUESTIONS.md` und die letzten CHANGELOG-Eintraege geprueft
+(Memory-Hinweis: chronischer Dispatch-Loop). Alle vier Auftragspositionen unveraendert
+erledigt: **Fehlextraktionen** BEHOBEN bzw. bewusst textlos wo keine Alternativquelle
+existiert; **Katalog-Kollisionen** (Christ_Gantenbein, Enzmann_Fischer, Miller_Maranta,
+Gigon_Guyer) BEHOBEN inkl. Scanner-Fix; **Sonderzeichen-Regel** vereinheitlicht (NFC-Fix)
+und alle 14 Slugs nachgezogen; **Sammelfrage Charge 1-6** vollstaendig einzeln recherchiert,
+vier Namen (Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure) bleiben ohne Beleg offen bis
+neues Quellmaterial vorliegt. Kein neuer Fund, keine Aenderung an `QUESTIONS.md`. Dies ist
+der elfte Redispatch desselben Auftrags an einem einzigen Tag. `git diff --numstat` fuer
+`wiki/QUESTIONS.md`: `-0`. Gesichert via `nas-commit-now.sh`.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, zehnter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `wiki/QUESTIONS.md` und die letzten CHANGELOG-Eintraege geprueft
+(Memory-Hinweis: chronischer Dispatch-Loop). Ergebnis unveraendert gegenueber dem neunten
+Folgelauf (03:25 Uhr): **Fehlextraktionen** (Tadao_Ando, Spuehler_Martin, Wurster_William,
+Pfister_Gebrueder, Pouillon_Fernand, Romero_Schaefle, Rohn_Roland) BEHOBEN bzw. gepruft und
+bewusst textlos belassen wo keine Alternativquelle existiert; **Katalog-Kollisionen**
+(Christ_Gantenbein, Enzmann_Fischer, Miller_Maranta, Gigon_Guyer) BEHOBEN inkl. Scanner-Fix
+(`build_slug_index()`/`merge_records()`); **Sonderzeichen-Regel** vereinheitlicht (NFC-Fix in
+`slugify()`) und alle 14 betroffenen Slugs nachgezogen; **Sammelfrage Charge 1-6**
+vollstaendig einzeln recherchiert, verbleibende vier Namen (Fischle, Gigometti,
+Goldsmith_Felix, Gruppo_Ligure) mit Ordnerinhalt gesichtet und ohne Beleg — bleiben laut
+Vermerk in `QUESTIONS.md` offen, bis neues Material im Quellordner liegt. Kein neuer Fund,
+keine Aenderung an `QUESTIONS.md` in diesem Lauf. Dies ist der zehnte Redispatch desselben
+Auftrags an einem einzigen Tag; die Ursache liegt im Dispatch-Mechanismus, nicht in der KB.
+Empfehlung an Raphael: Lane SYNOBSIS pausieren, bis ein neuer, inhaltlich anderer Auftrag
+vorliegt. `git diff --numstat` fuer `wiki/QUESTIONS.md`: `-0`. Gesichert via `nas-commit-now.sh`.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, neunter Folgelauf desselben Tages) — Minimalcheck: weiterhin nichts offen, keine Recherche ausgefuehrt
+
+Vor jeder Recherche gegen `wiki/QUESTIONS.md` geprueft (Memory-Hinweis: chronischer
+Dispatch-Loop, alle vier Auftragspositionen seit Lauf 1 erledigt). Ergebnis unveraendert:
+**Fehlextraktionen** BEHOBEN/gepruft, **Katalog-Kollisionen** (Christ_Gantenbein,
+Enzmann_Fischer, Miller_Maranta, Gigon_Guyer) BEHOBEN plus Scanner-Fix, **Sonderzeichen-
+Regel** vereinheitlicht plus Scanner-Fix, **Sammelfrage Charge 1-6** vollstaendig
+recherchiert. Kein neuer Fund, keine Aenderung an `QUESTIONS.md` in diesem Lauf noetig.
+Dies ist der neunte Redispatch desselben Auftrags an einem einzigen Tag — die Ursache
+liegt nicht mehr in der KB, sondern im Dispatch-Mechanismus selbst; weitere Laeufe ohne
+neuen Auftrag von Raphael sollten unterbleiben. `git diff --numstat`: nur dieser
+CHANGELOG-Eintrag, `-0` an `wiki/QUESTIONS.md`. Gesichert via `nas-commit-now.sh`.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, achter Folgelauf desselben Tages) — Minimalcheck bestaetigt Vorlauf, ein Nebenbefund geklaert (Jager_Egli_Architekten/dolmus)
+
+Minimalcheck vor Redispatch (Memory-Hinweis: chronischer Dispatch-Loop seit 29.08.2026, alle
+vier Auftragspositionen seit dem ersten Lauf erledigt). `wiki/QUESTIONS.md` gegen die vier
+Prioritaeten des Auftrags geprueft: **Fehlextraktionen** (Tadao_Ando, Spuehler_Martin, Wurster_
+William, Pfister_Gebrueder, Pouillon_Fernand, Romero_Schaefle, Rohn_Roland) — alle BEHOBEN bzw.
+gepruft und korrekt befunden (Rohn_Roland). **Katalog-Kollisionen** (Christ_Gantenbein,
+Enzmann_Fischer, Miller_Maranta, Gigon_Guyer) — alle vier auf Datenebene BEHOBEN, plus Scanner-
+Fix (`build_slug_index()`/`merge_records()`) gegen kuenftige Kollisionen. **Sonderzeichen-Regel**
+(Šuchov, Tusquet, 14 Faelle) — vereinheitlicht auf NFC-Vorbild Utzon_Jørn, plus Scanner-Fix
+(NFD/NFC-Normalisierung vor `slugify()`). **Sammelfrage Charge 2 ff.** — entgegen dem urspruenglichen
+Auftragstext ("Charge 2 und folgende sind offen") tatsaechlich laengst erledigt: alle sechs
+Chargen (1-6, rund 156 Namen) einzeln per WebSearch recherchiert, die letzten unbestaetigten
+Reste zusaetzlich per Ordnerinhalt-Sichtung nachverfolgt (30.08. Nachtrag). Alle vier Prioritaeten
+damit weiterhin vollstaendig erledigt, keine neue Vollrecherche noetig.
+
+Ein bislang uebersehener Nebenbefund aus Zeile 339 (`Jager_Egli_Architekten`, Fehlextraktions-
+Eintrag vom 29.08.) wurde nachrecherchiert: das Plakat im Ordner nennt «dolmus» als Planverfasser
+statt Jager Egli. Per WebSearch geklaert — kein Fehlzuordnungsfall, sondern eine Arbeitsgemeinschaft:
+das Projekt Seebistro LUZ (ehemaliges Depot der Schifffahrtsgesellschaft, Baujahr 1907, ab 2006
+nach Hochwasserschaden neu ausgeschrieben) wurde von der ARGE **dolmus Architekten** (Luzern,
+gegruendet 2007) und **Jäger-Egli Architekten** (Emmenbruecke, seit 1957) gemeinsam realisiert;
+der Ordner ist korrekt bei Jager_Egli_Architekten einsortiert. Ergaenzung direkt an der
+bestehenden Zeile 339 in `wiki/QUESTIONS.md`. `git diff --numstat`: 1 Zeile geaendert / 1 Zeile
+(additive Ergaenzung derselben Bulletzeile), keine Loeschung von Bestand. Kein Fan-out, kein
+Versand, keine Buchung, keine destruktive Aktion. Gesichert via `nas-commit-now.sh`.
+
+Fuer den naechsten Lauf: aus heutiger Sicht sind alle vier Auftragspositionen erschoepfend
+bearbeitet; verbleibende offene Punkte in `QUESTIONS.md` sind entweder Freigabesache (NAS-
+Ordner umbenennen/zusammenfuehren: Christ_Gantenbein, Enzmann_Fischer, Miller_Maranta,
+Gigon_Guyer, Rohn_Roland «Neuer Ordner»), eine Kapazitaetsfrage (`--reindex`-Lauf, damit die
+Scanner-Fixes auf alle 853 Architekten wirken) oder ohne weiteres Quellmaterial nicht mehr
+klaerbar (Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure, Zanini — Ordnerinhalt bereits
+gesichtet, Websuche ausgeschoepft). Ein reiner Wiederholungs-Dispatch ohne neuen Auftrag von
+Raphael bringt ab hier keinen weiteren Fortschritt mehr.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, siebter Folgelauf desselben Tages) — Minimalcheck bestaetigt: nichts Neues, keine Recherche ausgefuehrt
+
+Minimalcheck (Arbeitsbaum sauber, `git diff --numstat` leer, kein inhaltlicher Commit seit
+dem sechsten Folgelauf). Alle vier Auftragspositionen weiterhin BEHOBEN/RECHERCHIERT, nur
+die zwei Rueckfragen an Raphael (Sik_Miroslav Zeile 313, Sutter_Annabarbara Zeile 319) sind
+offen und nicht recherchierbar. Mindestens der fuenfzehnte inhaltsgleiche Lauf seit dem
+29.08.2026. Keine neue Handlung ausgefuehrt, keine erneute Recherche. **Eskalation
+unveraendert:** Dispatcher/Scheduler bitte anhalten oder Prompt aktualisieren, bis (a) eine
+NAS-Umbenennungs-/Zusammenfuehrungs-Freigabe erteilt wird, (b) ein `--reindex` mit neuem
+Rohmaterial laeuft, oder (c) die zwei Rueckfragen beantwortet sind.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, sechster Folgelauf desselben Tages) — Minimalcheck bestaetigt: nichts Neues, keine Recherche ausgefuehrt
+
+Minimalcheck wie von Memory und den fuenf Vorlaeufen empfohlen: `git status --short` zeigte
+zu Laufbeginn nur den unfertigen CHANGELOG-Eintrag des fuenften Folgelaufs selbst (noch nicht
+gesichert), sonst nichts. `git log` gegen `wissen/architekten-synobsis` zeigt seither nur
+NAS-Auto-Sync-Commits ohne inhaltliche Aenderung an dieser KB. Alle vier Auftragspositionen
+(Fehlextraktionen, Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 2 ff.) sind
+per `grep` gegen jeden im Dispatch-Prompt genannten Einzelnamen erneut gegengeprueft —
+ausnahmslos weiterhin BEHOBEN/RECHERCHIERT/GEPRUEFT wie in den fuenf Vorlaeufen dokumentiert.
+Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert. Dies ist mindestens der
+dreizehnte inhaltsgleiche Lauf seit dem 29.08.2026. **Eskalation unveraendert:** ohne
+(a) NAS-Umbenennungs-/Zusammenfuehrungs-Freigabe, (b) einen `--reindex`-Lauf mit neuem
+Rohmaterial oder (c) Antworten auf die zwei offenen Rueckfragen (Sik_Miroslav,
+Sutter_Annabarbara) bringt kein weiterer Lauf dieser Lane zusaetzlichen Erkenntniswert —
+Dispatcher/Scheduler bitte ausserhalb der Lane pruefen, nicht erneut dispatchen.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, fuenfter Folgelauf desselben Tages) — Minimalcheck bestaetigt: nichts Neues, keine Recherche ausgefuehrt
+
+Minimalcheck wie von Memory und den vier Vorlaeufen empfohlen: `git status --short` fuer
+diesen Ordner leer, `git log -3` zeigt nur NAS-Auto-Sync-Commits ohne inhaltliche Aenderung
+seit dem letzten Lauf. Alle vier Auftragspositionen des Dispatch-Prompts sind unveraendert
+BEHOBEN/RECHERCHIERT (Zeilen 94/105/136/180/239/265/268/349/351/353 wie in den Vorlaeufen
+zitiert), der Prompt-Text selbst ist weiterhin veraltet ("Charge 2 und folgende sind offen").
+Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag veraendert. Dies ist mindestens der zwoelfte
+inhaltsgleiche Lauf seit dem 29.08.2026. **Eskalation unveraendert:** ohne (a) NAS-Umbenennungs-
+/Zusammenfuehrungs-Freigabe, (b) einen `--reindex`-Lauf mit neuem Rohmaterial oder (c) Antworten
+auf die zwei offenen Rueckfragen (Sik_Miroslav, Sutter_Annabarbara) bringt kein weiterer Lauf
+dieser Lane zusaetzlichen Erkenntniswert — Dispatcher/Scheduler bitte ausserhalb der Lane pruefen.
+
+Minimalcheck wie von den drei Vorlaeufen des Tages empfohlen: `git status`/`git log`
+gegengeprueft, Arbeitsbaum unveraendert. Alle vier Auftragspositionen des Dispatch-Prompts
+(Fehlextraktionen, Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 2 ff.) sind
+per `grep` gezielt gegen jeden im Prompt genannten Einzelnamen sowie gegen alle
+`QUESTIONS.md`-Treffer fuer "Fehlextraktion" gegengeprueft — ausnahmslos bereits BEHOBEN,
+GEPRUEFT oder (mangels Alternativquelle im Bestand) korrekt auf textlos gesetzt, siehe
+Zeilen 94/105/136/180/239/265/268/349/351/353. Der Dispatch-Prompt selbst ist unveraendert
+veraltet (behauptet weiterhin "Charge 2 und folgende sind offen"). Kein Katalog-JSON, kein
+`QUESTIONS.md`-Eintrag veraendert — keine erneute Vollrecherche, da nichts Neues vorliegt.
+Dies ist der vierte inhaltsgleiche Lane-Lauf allein am 30.08.2026 und mindestens der elfte
+seit dem 29.08.2026 (siehe die drei vorherigen Eintraege unten). **Empfehlung an Raphael,
+jetzt ausserhalb dieser Lane zu handeln:** den Dispatcher/Scheduler, der diesen Auftrag an
+SYNOBSIS schickt, anhalten oder den Prompt-Text aktualisieren, bis (a) eine NAS-Umbenennung/
+-Zusammenfuehrung freigegeben wird, (b) ein `--reindex` neues Rohmaterial liefert, oder
+(c) die zwei offenen Rueckfragen (Sik_Miroslav, Sutter_Annabarbara) beantwortet sind — ein
+zwoelfter identischer Lauf haette keinen weiteren Erkenntniswert.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, weiterer Folgelauf) — Minimalcheck bestaetigt Vorlauf, keine neue Recherche
+
+Minimalcheck (nicht volle Recherche, wie vom Vorlauf empfohlen): `git status --short` und
+`git diff --numstat` fuer diese KB leer, Arbeitsbaum unveraendert seit dem Lauf von heute
+frueh (Zeile unten). Dieser Dispatch-Auftrag ist inhaltlich identisch zu mindestens neun
+Vorlaeufen seit dem 29.08.2026 und behauptet weiterhin "Charge 2 und folgende sind offen" —
+das ist laut `wiki/QUESTIONS.md` Zeile 54 unveraendert falsch, alle sechs Chargen sind seit
+dem 29.08. vollstaendig einzeln recherchiert. Die vier einzigen verbliebenen Merkposten ohne
+Beleg (Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure) wurden im Vorlauf von heute frueh
+bereits per Ordnerinhalt UND Websuche ausgeschoepft; keine neuen Mittel verfuegbar, also keine
+erneute Bearbeitung. Sik_Miroslav und Sutter_Annabarbara (Sektion 1) sind Rueckfragen an
+Raphael, keine recherchierbaren Positionen. Kein Katalog-JSON, kein `QUESTIONS.md`-Eintrag
+veraendert. **Empfehlung unveraendert und verstaerkt (jetzt zehnter Lauf ohne echten neuen
+Sachstand):** die Lane SYNOBSIS nicht mehr automatisch redispatchen, bis entweder (a) Freigabe
+fuer die protokollierten NAS-Umbenennungen/-Zusammenfuehrungen erteilt wird, (b) ein regulaerer
+`--reindex`-Lauf neues Rohmaterial liefert, oder (c) Raphael die beiden Rueckfragen (Sik_Miroslav,
+Sutter_Annabarbara) beantwortet.
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS, Folgelauf) — vier Charge-2-Restnamen sichten, keine Bestaetigung
+
+Minimalcheck vor Vollrecherche (Memory-Hinweis dieser Lane und CHANGELOG-Empfehlung des
+Vorlaufs vom selben Tag): alle vier Auftragspositionen des Dispatch-Prompts (Fehlextraktionen,
+Katalog-Kollisionen, Sonderzeichen-Regel, Sammelfrage Charge 2 bis 6) waren bereits vor diesem
+Lauf vollstaendig BEHOBEN/RECHERCHIERT — der Dispatch-Prompt selbst ist veraltet (behauptet
+"Charge 2 und folgende sind offen", tatsaechlich sind alle sechs Chargen laut QUESTIONS.md
+Zeile 88 "vollstaendig einzeln recherchiert"). Statt einer weiteren reinen Bestaetigung wurde
+der vom Vorlauf empfohlene naechste Schritt ausgefuehrt: fuer die vier verbliebenen Charge-2-
+Merkposten ohne belastbaren Websuche-Treffer (Fischle, Gigometti, Goldsmith_Felix, Gruppo_Ligure)
+Ordnerinhalt gesichtet und die gefundenen Leads (Uster_Infostand.jpg, East Barnet Baptist
+Church) gezielt websuchend weiterverfolgt. Ergebnis: keine Bestaetigung moeglich — Fischle ohne
+jeden Lead, Gigometti nur ein lautaehnlicher, unbelegter Kandidat (Bruno Giacometti), Goldsmith_
+Felix trotz Kirchen-RIBApix-Motiv ohne genannten Architekten, Gruppo_Ligure unveraendert. Details
+in QUESTIONS.md Zeile 54 (NACHTRAG 30.08.2026). Naechster Lauf: diese vier Namen nicht erneut
+mit denselben Mitteln (Ordnerinhalt/Websuche) pruefen — bereits ausgeschoepft. Falls weiter-
+gearbeitet werden soll: Sektion-1-Fragen (Sik_Miroslav-Einordnung, Sutter_Annabarbara, Boesch_
+Ivo-aehnliche Grenzfaelle) oder allgemein QUESTIONS.md nach unmarkierten Fundstellen durchsuchen,
+bevor die vier Kernprioritaeten des Dispatch-Prompts erneut aufgenommen werden (Loop-Gefahr,
+siehe Memory project_synobsis-dispatch-loop).
+
+## 2026-08-30 (Mac Mini, Schub-Lane SYNOBSIS) — Dispatch-Loop bestaetigt, drei neue Ordnerinhalt-Klaerungen
+
+Minimalcheck vor Vollrecherche (Memory-Hinweis dieser Lane): alle vier Auftragspositionen
+(Fehlextraktionen Tadao_Ando/Spuehler_Martin/Wurster_William/Pfister_Gebrueder/Pouillon_Fernand/
+Romero_Schaefle/Rohn_Roland, die vier Katalog-Kollisionen, die Sonderzeichen-Regel, Sammelfrage
+Charge 2 bis 6) waren bereits am 29.08.2026 in fruehen Nachtschicht-Laeufen BEHOBEN/RECHERCHIERT
+und seither siebenfach unabhaengig gegengeprueft, ohne Aenderung. Statt eine achte reine
+Bestaetigung zu protokollieren, wurde echte neue Arbeit geleistet: fuer die als "nur aus dem
+Ordnerinhalt zu klaeren, nicht websuchbar" offen gebliebenen Sammelfrage-Restnamen (Charge 6,
+QUESTIONS.md Zeile 88) wurden die tatsaechlichen NAS-Ordnerinhalte gesichtet (`find`, Dateinamen)
+statt nur erneut Websuche. Ergebnis: drei zusaetzlich belegt — **ebeling** = Siegfried Ebeling
+(Bauhaus-Theoretiker, "Der Raum als Membran" 1926, Unterordnername identisch), **Soriano_Rafael**
+= Raphael Soriano (Architekt, Bilddatei "SorianoLaiken1.jpg" verweist auf das Laiken Beach House
+Malibu 1947), **Speer_Alfred** = Albert Speer (30 Bilddateien nennen ihn explizit im Dateinamen,
+vorheriges Verdikt "kein Architekt dieses Namens" war durch fehlende Ordnersichtung falsch).
+Ein Lead ohne Bestaetigung (Gruppo_Ligure/Abitazione Tipica 1933), drei weiterhin ohne Treffer
+trotz Sichtung (Zanini, Gigometti, Goldsmith_Felix). Details und Quellen in QUESTIONS.md Zeile 88.
+Naechster Lauf: keine der vier Auftragspositionen erneut aufnehmen (siehe Memory-Eintrag
+project_synobsis-dispatch-loop); falls weitergearbeitet werden soll, die uebrigen "nur aus
+Ordnerinhalt zu klaerenden" Merkposten in Charge 2 (Fischle, Gigometti, Goldsmith_Felix,
+Gruppo_Ligure) und die brachliegenden Fragen aus Sektion 1 (Sik_Miroslav, Sutter_Annabarbara,
+Balisat) pruefen — alles Freigabesachen (NAS-Umbenennungen) bleiben fuer Raphael offen.
+
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, siebter Folgelauf) — siebte unabhaengige Bestaetigung, keine neue Position
+
+Eigene, unabhaengige Gegenpruefung vor Beginn (nicht nur das Protokoll gelesen): `grep -in`
+auf `wiki/QUESTIONS.md` fuer Fehlextraktion/"falschen Text"/"Textauszug ist" ohne
+BEHOBEN/GEPRUEFT (0 Treffer), fuer "Kollision" ohne BEHOBEN (nur die beiden bereits als
+"keine neue Kollision" gekennzeichneten Charge-3/5-Nebenbefunde), fuer "Sonderzeichen" ohne
+BEHOBEN (nur der unveraenderte Kjærholm-Hauses-Referenzfall) und fuer "Sammelfrage" ohne
+"RECHERCHIERT"/"vollstaendig" (0 Treffer). Zusaetzlich die vier Kollisionsdateien direkt per
+Python geladen: `Christ_Gantenbein.json`, `Enzmann_Fischer.json`, `Miller_Maranta.json`,
+`Gigon_Guyer.json` tragen alle im Feld `quellordner` beide Quellordner. `git status --short .`
+und `git diff --numstat .` im KB-Ordner leer, keine Datei veraendert. Ergebnis identisch zu
+den sechs Vorlaeufen desselben Tages: alle vier Auftragsprioritaeten abgearbeitet, offen bleiben
+ausschliesslich die protokollierten Freigabesachen (NAS-Umbenennungen/-Zusammenfuehrungen der
+vier Kollisionsfaelle, Chamberlin-Slug-Erweiterung u.ae.) und die rund elf Sammelfrage-Namen je
+Charge ohne belastbaren Websuche-Treffer. Empfehlung unveraendert: Lane nicht redispatchen, bis
+(a) Freigabe fuer die NAS-Aenderungen erteilt wird oder (b) ein `--reindex`-Lauf neues Material
+oder eine neue Kollision liefert.
+
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, sechster Folgelauf) — sechste unabhaengige Bestaetigung, Empfehlung: Lane pausieren
+
+Eigene, von den fuenf Vorlaeufen unabhaengige Pruefung: `wiki/QUESTIONS.md` gezielt auf
+unmarkierte Fundstellen durchsucht (`grep -in "Fehlextraktion|falschen? Text|Textauszug ist"`
+ohne BEHOBEN/GEPRUEFT: 0 Treffer; `grep -in Kollision` ohne BEHOBEN: nur bereits als
+"keine Kollision" oder "keine neue Kollision" gekennzeichnete Nebenbefunde; `grep -in
+Sonderzeichen` ohne BEHOBEN: nur der unveraenderte Kjærholm-Hauses-Sonderfall, der von der
+Regel bereits als Vorbild referenziert wird). `git status --short .` und `git diff --numstat`
+im KB-Ordner leer, Arbeitsbaum sauber, keine Datei veraendert. Ergebnis identisch zu den
+fuenf Vorlaeufen: alle vier Auftragsprioritaeten (Fehlextraktionen, Katalog-Kollisionen,
+Sonderzeichen-Regel, Sammelfrage Charge 1-6) sind vollstaendig abgearbeitet; verbleibend nur
+echte Freigabesachen (NAS-Ordner-Umbenennungen/-Zusammenfuehrungen der vier Kollisionsfaelle
+und diverser Schreibfehler-Slugs, siehe Sektion 2) sowie der kapazitaetsabhaengige
+`--reindex`-Lauf des bereits gefixten Scanners. **Empfehlung an Raphael (analog zur Praxis bei
+`synobsis-batch-nacht`, Regel 260712b «abgeschlossene Inventare werden ganz beendet statt
+gedrosselt»):** die Schub-Lane SYNOBSIS nicht mehr automatisch redispatchen, bis entweder (a)
+Freigabe fuer die protokollierten NAS-Umbenennungen/-Zusammenfuehrungen erteilt wird, oder (b)
+ein regulaerer `--reindex`-Lauf neues Rohmaterial oder eine neue Kollision liefert. Sechs
+ergebnislose Folgelaeufe am selben Tag ohne neuen Sachstand sprechen fuer denselben
+Endbedingungs-Befund wie beim Batch-Task.
+
+## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, fuenfter Folgelauf) — Stichprobenverifikation, keine neue Position gefunden
+
+Unabhaengige Gegenpruefung des vierten Folgelaufs, nicht nur Protokoll gelesen: `wiki/QUESTIONS.md` per
+gezieltem Grep auf alle vier Prioritaeten (Fehlextraktion/Textauszug, Kollision, Sonderzeichen, Sammelfrage
+Charge 1-6) durchsucht sowie die vier Katalog-Kollisionsdateien (`Christ_Gantenbein`, `Enzmann_Fischer`,
+`Miller_Maranta`, `Gigon_Guyer`) direkt per Python geladen — `quellordner`-Feld traegt in allen vieren beide
+Quellordner, Projektzahlen stimmen mit den protokollierten Werten ueberein. Alle 14 umbenannten Sonderzeichen-
+Katalogdateien (u.a. `Šuchov_Vladimir_...`, `Tusquet_Oscar_Clotet_Lluìs`, `Dürr_Otto`, `Förderer`,
+`Hönger_Giulliani`) im Dateisystem bestaetigt vorhanden. `git status`/`git diff --numstat` im KB-Ordner leer,
+Arbeitsbaum sauber, keine Katalog-JSON in dieser Session veraendert. Ergebnis identisch zu den vier
+Vorlaeufen: alle vier zugewiesenen Prioritaeten sind erledigt, ausser den bereits mehrfach protokollierten,
+echten Freigabesachen (NAS-Ordner-Umbenennungen/-Zusammenfuehrungen) und den rund elf Sammelfrage-Namen
+ohne belastbaren Websuche-Treffer (bleiben korrekt offen). Kein Anlass fuer einen weiteren Folgelauf vor
+einem inhaltlich neuen Ereignis (z.B. dem naechsten regulaeren `--reindex`-Batch).
 
 ## 2026-08-29 (Mac Mini, Schub-Lane SYNOBSIS, vierter Folgelauf) — Scanner-Root-Cause fuer Kollision und Sonderzeichen behoben, nicht nur Katalogdaten
 

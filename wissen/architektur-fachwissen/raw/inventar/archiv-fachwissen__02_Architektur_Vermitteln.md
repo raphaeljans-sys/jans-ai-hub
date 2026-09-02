@@ -253,3 +253,37 @@ keine Normen, keine Ausschreibungsunterlagen. Wer diese Sektion nach Fachdaten d
 findet nichts. Ihr Wert liegt vollständig in der **Form der Vermittlung**: wie eine Sitzung
 geführt, ein Beschluss festgehalten, ein Mangel gerügt, ein Angebot gegliedert, eine
 Behauptung belegt und ein Bericht aufgebaut wird.
+
+## Destillat-Fortschritt
+
+- **29.08.2026 (Lane FACHWISSEN):** alle drei P1-Positionen destilliert, drei Wiki-Artikel:
+  `wiki/protokoll-methodik-sechs-protokollarten-sprachregeln.md`,
+  `wiki/interne-externe-kommunikation-musterbriefe-mit-funktionsglossen.md` und
+  `wiki/sitzungsmoderation-organonmodell-harvard-methode.md`. P1 dieser Sektion damit
+  **vollständig**. P2 (13 Positionen, u. a. Präsentationstechniken, Quellenregeln,
+  Dispositionsvorlagen, Fachwörterbuch für Baulaien) bleibt offen. Kein neuer
+  Datenschutz-Fund über den bereits im Phase-0-Inventar dokumentierten Stand hinaus (die
+  betroffenen studentischen Titelblätter bleiben P3/gesperrt).
+- **30.08.2026 (Lane FACHWISSEN, 51. Beispiel Memory `project_fachwissen-dispatch-loop` —
+  Dispatch-Text weiterhin veraltet/fälschlich «kein Destillat, keine Spec, 2 Wiki-Artikel»/
+  «MacBook Pro», tatsächlich Macmini, `KORPUS-QUEUE.md` vorab gegengeprüft):** alle 13
+  P2-Positionen dieser Sektion destilliert, sieben neue Wiki-Artikel:
+  `wiki/rhetorik-praesentationstechnik-redeaufbau-formeln-visualisierung.md` (Präsentationstechniken +
+  Merkblatt Referate), `wiki/medienmitteilung-aufbau-umgekehrte-pyramide.md`,
+  `wiki/wissenschaftliches-arbeiten-aufbau-zitierregeln-arbeitsphasen.md` (Quellenregeln,
+  Anleitung-Wissenschaftliches-Arbeiten, Leitfaden Imhof, Wissenschaftliches_arbeiten,
+  Einleitung-Merkblatt — fünf Quellen in einem Artikel konsolidiert, da drei davon stark
+  überlappende ETH-/HTA-Zitierregeln behandeln), `wiki/entwurfsmethodik-herzog-de-meuron-programm-vor-form-dialogischer-prozess.md`,
+  `wiki/dispositionsvorlagen-studienarbeit-skelett-revisionsdaten.md` (beide Dissposition-Dateien),
+  `wiki/fachwoerterbuch-baulaien-baukommissionen-rzu-1995.md`,
+  `wiki/projektbeschrieb-eigene-schreibhand-bikerhotel-erstfeld.md`. Nebenbefund: die beiden
+  `.doc`-Dateien dieser Sektion (`vorgabe disposition.doc`, `Vortrag.doc`) liessen sich entgegen
+  früherer Formatlücken-Vermerke via `textutil -convert txt -stdout` vollständig lesen — kein
+  Word/LibreOffice nötig, siehe Praxishinweis unten. Zweiter Nebenbefund: das Fachwörterbuch
+  `fwb.pdf` war im Phase-0-Inventar fälschlich als «nur 4 Seiten (Fragment A bis B)» beschrieben;
+  tatsächlich deckt es auf 4 Seiten den vollständigen Alphabet-Bereich A bis Z ab (Verwechslung
+  Seitenzahl/Buchstabenumfang), im neuen Artikel korrigiert. **Damit ist Sektion
+  `02_Architektur_Vermitteln` (P1 und P2) vollständig destilliert — keine offenen Positionen
+  mehr.** Die drei bereits P3/verworfenen Kategorien (studentische Musterarbeiten mit
+  Personendaten Dritter, unbearbeitete Wikipedia-Kopien, INDD-Begriffsblätter) bleiben
+  unangetastet gesperrt bzw. verworfen.

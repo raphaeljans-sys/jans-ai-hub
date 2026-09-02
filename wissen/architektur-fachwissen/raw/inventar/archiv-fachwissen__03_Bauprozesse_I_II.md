@@ -537,3 +537,175 @@ Cross-KB-Fund (`wissen/grobkosten`) oder technisch nicht sauber destillierbar (n
 Kopfstruktur, Testfixture, unvollständige Quelle). **Kein weiterer eigenständiger
 P1-Artikel für diese Sektion offen.** P2 bleibt vollständig offen (u. a. `schaetzungsanleitung_kap5.pdf`,
 OAK/EAK-Kataloge, KV-Deffisierung-Erläuterungen, Bauprozess-Systematik).
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (P2, erster Lauf dieser Sektion)
+
+Zweiundzwanzigster Destillat-Lauf des Korpus `archiv-fachwissen` (Lane FACHWISSEN), erster
+gezielter P2-Lauf der Sektion `03_Bauprozesse_I_II` (drittgrösste Sektion nach Ertrag,
+nächster Schritt gemäss `KORPUS-QUEUE.md` nach Abschluss von `01_Konstruktion`). Alle
+Aussagen gegen die Primärquelle (PDF/DOC im Archiv), nicht nur gegen diese
+Inventar-Zusammenfassung, verifiziert (30.08.2026).
+
+**Destilliert (drei neue Wiki-Artikel, alle `status: emerging` bzw. `speculative`):**
+
+- [x] `05_KV_Deffisierung/2013_KV_Merkblatt.pdf` (Grün Stadt Zürich, v2013-01) →
+  [[kostenvoranschlag-merkblatt-oeffentliche-bauherrschaft-reserven-verwaltungskosten]],
+  neu. Reserven-Prozentsätze BKP 61/62, Verwaltungskostenzuschlag 7,5 %, MWST-Handhabung,
+  weiter Kostenumfang-Begriff im Verpflichtungskredit.
+- [x] `05_KV_Deffisierung/Elementbasierter Kostenvoranschlag.pdf` (Web-Auszug, sinngemäss)
+  + `08_OAK_Objektkatalog_264.-/OAK_de.pdf` (CRB, Impressum/Inhaltsverzeichnis) →
+  [[ebkp-h-2012-gliederungslogik-elementarten-oak-eak-kataloge]], neu. Drei
+  Gliederungsebenen (Hauptgruppe/Elementgruppe/Element), Elementarten als vierte, nicht
+  genormte Stufe, Verweis auf OAK/EAK-Kataloge (Kennwerte selbst nicht reproduziert,
+  CRB-Copyright). Rückverlinkt mit den beiden bereits bestehenden eBKP-H-Artikeln dieser
+  Sektion (frontmatter `links:` ergänzt, `git diff --numstat` je 1/1 geprüft — reine
+  Backlink-Ergänzung, kein Inhalt entfernt).
+- [x] `06_Checklisten/Checkliste.doc` + `Grundlegende Bauelemente.doc` +
+  `Inhalt_Abschlusspraesentation.doc` (alle undatiert bis WS 07/08, per `textutil`
+  extrahiert) → [[eth-checklisten-kontextanalyse-bauelementglossar-abgabeliste]], neu,
+  `status: speculative` (Autorenschaft nicht abschliessend belegt).
+
+**Cross-KB-Duplikat, hier nicht destilliert:**
+
+- [=] `11_Kostenkennzahlen/schaetzungsanleitung_kap5.pdf` — vollständig geprüft (Tabellen
+  1–11 gelesen). Tab. 2/3/9/10/11 (Neuwert-Richtwerte, BKP-2-Prozentanteile, Lebensdauer
+  Baumaterialien, wirtschaftliches Alter, Wertminderungstabelle) sind bereits belegt
+  destilliert in `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (Quelle IMMO-03
+  Schätzungen, dort vollständig mit Berechnungsbeispiel). Kein Doppelartikel in dieser KB;
+  die übrigen Tabellen (Zürcher/Luzerner Baukostenindex, Lageklassenschlüssel,
+  Rentenbarwert-/Abzinsungsfaktoren, Gastgewerbe-Bewertungskriterien) sind reine
+  Zahlenreihen ohne eigenständigen Fachwissens-Mehrwert über die bereits destillierten
+  Tabellen hinaus.
+
+**Nicht destilliert (Cross-KB/Abgrenzung, gehört zu `wissen/normen`):**
+
+- [=] `01_Normen_PM/VKF 1.1.15_.../VKF_Fluchtwegelängen_16-03d.pdf` +
+  `web_distances_policedufeu_2015_d.pdf` — Norm-/kantonale Vollzugshilfe, Abgrenzung
+  `archiv-fachwissen-spec.md`.
+- [=] `01_Normen_PM/VSS-Norm-SN 640 273a_Sichtzone/` — Norm-Original (VSS).
+- [=] `01_Normen_PM/SIA_500_.../00_sekundaer/` — Sekundärliteratur zu SIA 500, gehört
+  methodisch zu `wissen/normen`.
+- [=] `05_Vertraege/2_2002_KBBOB Hilfe Arch_verträge.pdf` — KBOB-Honorarempfehlung 2002
+  (Gleitpreisklausel), inhaltlich näher an Skill `honorarberechnung-sia102`/`wissen/normen`
+  als an dieser KB; Tarifwerte 2002 ohnehin überholt. Cross-KB-Hinweis `wiki/QUESTIONS.md`.
+
+**Zurückgestellt (P2, geringer Ertrag im Verhältnis zum Aufwand):**
+
+- [-] `00_Administration/01_Skripte/bauprozesse.pdf` (40 S., Zusammenfassung fremder
+  Lehrbücher nach Menz) — Urheberrechtslage einer vollständigen Zusammenfassung eines
+  fremden Lehrbuchs unklar; in diesem Lauf nicht destilliert.
+- [-] `00_Administration/02_Vorlesung/04_doppelR/` (Kapitelweise Kurzdestillate) — 
+  Fremdautor-Zusammenfassung, gleiche Urheberrechtsvorsicht.
+- [-] `03_Kostenplanung/00_Organisation/10_.../11_Tools/` (AVA-Software-Vergleich 2011) —
+  Marktbild veraltet, kein aktueller Mehrwert für eine Ausschreibungs-Anforderungsliste;
+  in diesem Lauf zurückgestellt.
+- [-] `02_Projektbeschriebe/Beschriebe.doc` + `03_Kostenplanung/Baubeschrieb.pdf` — noch
+  nicht gelesen, für einen Folgelauf offen.
+- [-] `01_Phasen_Kostenaufstellungen/03_Ausschreibung/` (Ausschreibungspläne + reale
+  Unternehmerofferte) — Anonymisierungsprüfung (Unternehmername) nötig, in diesem Lauf aus
+  Zeitgründen zurückgestellt.
+
+**P2-Status dieser Sektion nach diesem Lauf: drei neue Fachbausteine destilliert, ein
+grosser Cross-KB-Fund vermieden (Doppelarbeit mit `immobilienbewertung`), mehrere
+Norm-/Urheberrechts-Positionen bewusst nicht hier destilliert. Rund 15–20 P2-Positionen
+bleiben für einen Folgelauf offen** (Bauprozess-Systematik Menz, Ausschreibungsbeispiele,
+KBOB-Gleitpreisklausel als Cross-KB-Kandidat, Baubeschrieb-Musterbeispiel).
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (P2, zweiter Lauf dieser Sektion)
+
+Dreiundzwanzigster Destillat-Lauf des Korpus `archiv-fachwissen` (Lane FACHWISSEN),
+Fortsetzung der Sektion `03_Bauprozesse_I_II`. Dispatch-Text erneut veraltet (behauptete
+«kein Destillat, keine Spec, 2 Wiki-Artikel» sowie fälschlich Station «MacBook Pro» statt
+des per `scutil` bestätigten Hostnamens Macmini) — vierzehntes Beispiel des dokumentierten
+Dispatch-Bugs, Memory `project_fachwissen-dispatch-loop`. Am realen Stand
+(`KORPUS-QUEUE.md`) weitergearbeitet, keine Spec neu geschrieben. Vor Beginn `ps aux` auf
+Doppel-Instanzen geprüft: keine zweite FACHWISSEN-Instanz aktiv.
+
+**Destilliert (zwei der beiden noch ungelesenen Positionen aus dem vorigen Lauf):**
+
+- [x] `02_Projektbeschriebe/Beschriebe.doc` (Dateidatum 27.06.2007, unvollständiges
+  Fragment, kein Autor) → vollständig gelesen (`textutil`), SIA-416/SIA-116-Volumenvergleich
+  mit Kostenkennwert destilliert →
+  [[sia416-sia116-volumenvergleich-kostenkennwert-uebungsbeispiel]], neu,
+  `status: speculative` (Herkunft/Autorenschaft nicht belegt).
+- [x] `03_Kostenplanung/Baubeschrieb.pdf` (13 Seiten, Verkaufsbeschrieb Gäbrisstrasse
+  Rorschach, 4.12.2011) → Seiten 1-11 vollständig gelesen (`pypdf`), Seite 13 «Adressen»
+  bewusst **nicht** gelesen (Sperrliste-Nähe, reine Kontaktliste). Technischer Teil
+  (BKP-gegliederte Leistungsbeschreibung, Holzbau-Konstruktionsangaben,
+  Budget-Richtpreise) als drittes Beispiel in [[baubeschrieb-als-kostentraeger]] ergänzt
+  (dritte unabhängige Bestätigung der BKP-Phantom-Code-Warnung: 051 als Sammelcode
+  verwendet, 213 mit abweichender Bedeutung, 466 existiert im BKP 2017 gar nicht). Der
+  Klauselteil (Mängelhaftung, Käuferänderungen, Plan-Hierarchie) als eigener Artikel
+  destilliert → [[verkaufsbeschrieb-stweg-standardklauseln-kaeuferaenderungen-gaebrisstrasse]],
+  neu, `status: emerging`.
+
+**Verbleibende P2-Positionen dieser Sektion (unverändert gegenüber vorigem Lauf, aus
+Zeitgründen in diesem Lauf nicht bearbeitet):**
+
+- [-] `00_Administration/01_Skripte/bauprozesse.pdf` (40 S., Zusammenfassung fremder
+  Lehrbücher nach Menz) — Urheberrechtslage weiterhin ungeklärt.
+- [-] `00_Administration/02_Vorlesung/04_doppelR/` — dieselbe Urheberrechtsvorsicht.
+- [-] `03_Kostenplanung/00_Organisation/10_.../11_Tools/` (AVA-Software-Vergleich 2011) —
+  Marktbild veraltet, weiterhin zurückgestellt.
+- [-] `01_Phasen_Kostenaufstellungen/03_Ausschreibung/` (Ausschreibungspläne + reale
+  Unternehmerofferte) — Anonymisierungsprüfung weiterhin offen.
+
+**P2-Status dieser Sektion nach diesem Lauf: zwei weitere Fachbausteine destilliert (drei
+neue Wiki-Artikel/-Erweiterungen), damit alle zu Beginn dieses Laufs als „ungelesen"
+markierten Positionen abgearbeitet. Vier P2-Positionen bleiben offen** — zwei davon mit
+ungeklärter Urheberrechtslage (Menz-Zusammenfassungen), eine mit Anonymisierungsbedarf, eine
+mit fehlendem Aktualitätswert. Für die Sektion ist damit kein unblockierter,
+schnell erschliessbarer P2-Rest mehr vorhanden; ein Folgelauf müsste entweder die
+Urheberrechtsfrage klären, die Anonymisierung vornehmen, oder gemäss Queue-Regel zur
+nächstgrössten Sektion nach Ertrag übergehen.
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (P2, vierter Lauf dieser Sektion)
+
+Vierundzwanzigster Destillat-Lauf des Korpus `archiv-fachwissen` (Lane FACHWISSEN).
+Dispatch-Text erneut veraltet (identisches Muster, Memory `project_fachwissen-dispatch-loop`,
+45. Beispiel), am realen `KORPUS-QUEUE.md`-Stand weitergearbeitet. **Wichtiger Hinweis für
+Folgeläufe:** dieser Lauf begann fälschlich, ohne zuerst den kompletten
+`## Destillat-Fortschritt`-Verlauf dieser Datei zu lesen (nur `tail` geprüft, nicht die
+beiden bereits bestehenden Abschnitte weiter oben) — dadurch wurden zwei Positionen erneut
+bearbeitet, die im ersten Lauf (siehe oben) bereits verarbeitet waren. Fehler in diesem Lauf
+selbst korrigiert (Duplikat-Artikel gelöscht, Kapitalisierungssatz-Abschnitt aus einem
+zweiten Artikel entfernt), aber als Lehre für den nächsten Lauf hier festgehalten: **vor
+Bearbeitung IMMER alle `## Destillat-Fortschritt`-Abschnitte einer Inventardatei lesen, nicht
+nur den letzten.**
+
+**Bearbeitet:**
+
+- [x] `06_Checklisten/*.doc` (Zeile 108) — **Fehlgriff.** War bereits im ersten P2-Lauf dieser
+  Sektion destilliert (`[[eth-checklisten-kontextanalyse-bauelementglossar-abgabeliste]]`).
+  Eigener Duplikat-Artikel `entwurfscheckliste-kontext-tektonik-bauteilglossar-abgabeset-eth.md`
+  in diesem Lauf wieder gelöscht, bevor er committet wurde. Kein Schaden entstanden.
+- [x] `11_Kostenkennzahlen/schaetzungsanleitung_kap5.pdf` (Zeile 95) — **Korrektur einer
+  Voreinschätzung.** Der erste P2-Lauf hatte die Lageklassenschlüssel-/Landwertanteil-Tabellen
+  (Tab. 6-8) als «reine Zahlenreihen ohne eigenständigen Fachwissens-Mehrwert» eingestuft und
+  nicht destilliert. Bei genauerer Prüfung ist die Lageklassenschlüssel-**Methode** (vier
+  gewichtete Lagekriterien → Mittelwert → nichtlineare Landwertanteil-Kurve) eine
+  eigenständige, wiederverwendbare Bewertungslogik, in `wissen/immobilienbewertung` nicht
+  vorhanden → [[schaetzungsanleitung-lageklassenschluessel-landwertanteil]], neu,
+  `status: speculative`. Die Kapitalisierungssatz-Zuschlagssystematik derselben Quelle
+  (Tab. 21/23) bleibt zu Recht unangetastet — die ist bereits vollständig in
+  `wissen/immobilienbewertung/wiki/ertragswert-dcf.md` destilliert (dort korrekt erkannt).
+- [x] `05_Vertraege/2_2002_KBBOB Hilfe Arch_verträge.pdf` (Zeile 104) — **Korrektur einer
+  Voreinschätzung.** Der erste P2-Lauf hatte das Dokument als reinen Cross-KB-Kandidaten
+  eingestuft und nicht destilliert (`wiki/QUESTIONS.md` #67). Da diese KB bereits zwei
+  Honorarmechanik-Artikel aus Korpus 3 führt, ist Honorarmethodik entgegen der damaligen
+  Einschätzung ein etablierter Artikeltyp hier. Gleitpreisklausel-Formel und
+  Honorargrundprozentsatz-Kurve destilliert →
+  [[kbob-2002-gleitpreisklausel-teuerungsabrechnung-honorargrundprozentsatz]], neu,
+  `status: emerging`. Die Zeittarif-Kategorien-Mechanik desselben Dokuments bewusst NICHT
+  erneut destilliert (Duplikat zu [[zeittarif-mechanik-tarifblatt-stgallen-2009]]).
+  `wiki/QUESTIONS.md` #67 mit Auflösungsnotiz ergänzt.
+
+**P2-Status dieser Sektion nach diesem Lauf: zwei weitere Fachbausteine destilliert (zwei
+neue Wiki-Artikel), zwei frühere Voreinschätzungen korrigiert. Verbleibende offene
+P2-Positionen unverändert gegenüber dem zweiten Lauf** (Menz-Bauprozesse-Zusammenfassung
+Urheberrechtsfrage, AVA-Software-Vergleich veraltet, Ausschreibungspläne/Unternehmerofferte
+Anonymisierungsprüfung). Kein unblockierter, schnell erschliessbarer P2-Rest mehr vorhanden;
+nächster Lauf sollte gemäss Queue-Regel zur nächstgrössten Sektion mit offenem P2 in
+`archiv-fachwissen` übergehen (Kandidaten nach Zeilenzahl: `01_Tragwerk`,
+`02_Architektur_Vermitteln`, `01_Landschaftsarchitektur`, je 12 P2-Zeilen, keine bisher
+bearbeitet).

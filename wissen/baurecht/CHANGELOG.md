@@ -105,6 +105,114 @@ dieser Schub-Lane, ausschliesslich über den NAS-Mount zu schreiben (Regel `sync
 Kein totes Recht, kein neuer Fachinhalt, keine Wiki-Änderung. **Empfehlung unverändert (Lauf h):**
 nächste Ausschöpfung dieser Schub-Lane auf den allgemeinen Buch-Loop oder eine gezielte,
 andernorts noch offene Fassungsstand-Frage umlenken, nicht ein elfter Bestätigungslauf.
+## 2026-08-29i (Schub-Lane BAURECHT-THALWIL, neunter Lauf) — neunte unabhängige Bestätigung: Queue bleibt geschlossen, kein neuer Batch, kein totes Recht
+
+Quellordner frisch und unabhängig nachgezählt: unverändert 234 Dateien. Bestätigt denselben
+Befund wie die Läufe a-h desselben Tages (Queue T1-T9 vollständig, alle neun Themen der
+Priorität (d) geschlossen, KB-weiter Dead-Law-Sweep 0 Treffer, Live-Abgleich PBG/ABV/VErV/BZO
+Thalwil gegen zhlex ohne Drift). Auf einen erneuten Null-Befund an derselben Stelle wurde
+verzichtet (Empfehlung aus Lauf h); kein Ingest, keine Wiki-Änderung. Queue-Tracker und Report
+`outputs/2026-08-29i_thalwil-schub-lane.md` ergänzt. **Die Thalwil-Reglemente-Korpus-Queue
+bleibt geschlossen — für die nächste Ausschöpfung dieser Schub-Lane wird empfohlen, auf den
+allgemeinen Buch-Loop oder gezielte Fassungsstand-Nachprüfungen ausserhalb dieses Ordners
+umzulenken.**
+
+## 2026-08-29h (Schub-Lane BAURECHT-THALWIL, achter Lauf) — Fassungsstand von PBG/ABV/VErV/BZO Thalwil live gegen zhlex bestätigt, kein neuer Batch, kein totes Recht
+
+Quellordner erneut unabhängig ausgezählt: unverändert 234 Dateien. Statt einer achten reinen
+Text-Bestätigung die vier tragenden Erlasse von [[umgebungsgestaltung-und-einfriedungen]] —
+PBG, ABV, VErV, BZO Thalwil — frisch über `skills/baurecht/connectors/recht-ch.mjs` von zhlex
+gezogen und byte-genau gegen die bestehenden `raw/`-Volltexte verglichen. Befund: VErV/ABV/BZO
+Thalwil unverändert (VErV Nachtrag 127 seit Buch-Run 83, ABV Nachtrag 127, BZO Thalwil
+unverändert seit 07.06.2026). PBG zeigt Nachtrag 134 — kein Neufund, bereits am 24.08.2026
+(Buch-Run 122) erfasst und ausgewertet (`raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md`,
+§ 221 PBG Zwischennutzungen + neue IVHB-Anpassungsfrist 29.02.2028); beide Änderungen betreffen
+nicht die in diesem Artikel geführten Paragraphen. Kein neuer Fassungsdrift, kein totes Recht.
+Die vier live gezogenen Volltexte waren reine Duplikate (nur Abrufdatum abweichend) und wurden
+nach dem Abgleich gelöscht, kein Ingest nötig. Neuer `verifiziert`-Eintrag in
+[[umgebungsgestaltung-und-einfriedungen]] (append-only, `+1/-0`). Queue-Tracker und Report
+`outputs/2026-08-29h_thalwil-schub-lane.md` ergänzt. **Damit ist die Reglemente-Queue 2414
+Thalwil zum achten Mal an diesem Tag bestätigt geschlossen — erstmals mit einer frisch
+gezogenen Live-Quelle statt einer reinen Texterneuerung.**
+
+## 2026-08-29g (Schub-Lane BAURECHT-THALWIL, siebter Lauf) — unabhängige Bestätigung: Korpus-Queue bleibt geschlossen, kein neuer Batch, kein totes Recht gefunden
+
+Quellordner frisch und unabhängig ausgezählt (`find`, nicht Erinnerung an frühere Läufe):
+unverändert **234 Dateien** — deckt sich mit Lauf f. Stichprobe gegen den Schwerpunkt des
+stehenden Auftrags vom 30.07.2026 (Umgebungs- und Gestaltungsrecht, Fassungsstand-Pflicht):
+[[umgebungsgestaltung-und-einfriedungen]] geprüft — Fassungsstand-Führung vorbildlich (⚠ bei
+der aufgehobenen StrAV bereits gesetzt, VErV-Nachträge per 01.12.2024 dokumentiert), kein
+totes Recht gefunden. Bestätigung des Laufs f: dessen Nachtrag in `wiki/QUESTIONS.md`
+(SR 600.3, Fassung 1.1.2026) ist über die reguläre Auto-Sync-Kette committet und gepusht
+(Commit `dae4fb9c1`, verifiziert per `git log`/`grep`). **Kein neuer Batch, keine
+Wiki-Änderung ausser diesem Eintrag; die gesamte Thalwil-Reglemente-Korpus-Queue (T1-T9)
+bleibt vollständig geschlossen.**
+
+## 2026-08-29f (Schub-Lane BAURECHT-THALWIL, sechster Lauf) — letzter Zeiger-Rückstand der Korpus-Queue geschlossen: Gebührenreglement Bauwesen Thalwil war seit Buch-Run 116 gefunden, nur nie im QUESTIONS-Register nachgetragen
+
+Reglemente-Queue und Priorität (d) bleiben vollständig geschlossen (fünf Bestätigungsläufe
+desselben Tages, siehe Einträge unten). Quellordner erneut ausgezählt: unverändert 234 Dateien,
+kein neuer Batch. Statt eines sechsten Nullbefunds auf den bereits erschöpften Prüfgegenständen
+den letzten in `training/PROGRAMM.md` als "offener Restpunkt" geführten Punkt nachgeprüft.
+
+- **Befund: der Restpunkt "Gebührenreglement Bauwesen Thalwil über JS-Suche nicht auffindbar"
+  (Buch-Run 115) ist stale.** Buch-Run 116 (2026-08-24) hatte das Reglement (SR 600.3, Fassung
+  1.1.2026) bereits über `thalwil.ch/gebuehrenthalwil` gefunden und vollständig in
+  [[baubewilligungsverfahren]] eingearbeitet — nur `wiki/QUESTIONS.md` trug den Zeiger nie nach
+  (Ursache: die in `training/PROGRAMM.md` dokumentierte Tracker-Lücke Run 116-139).
+- Korrektur in `wiki/QUESTIONS.md` nachgetragen (append-only, `+12/-0`). Zusätzlich über einen
+  zweiten, unabhängigen Zugriffsweg gegengeprüft (Rechtssammlung-Kategorie 700 "Bauen" direkt
+  durchsucht statt Volltextsuche): SR 600.3 erscheint dort nicht separat gelistet — bestätigt die
+  bereits dokumentierte Zugriffsweg-Falle, ändert nichts am bereits beschafften Volltext.
+- **Kein totes Recht, kein neuer Fachinhalt.** Bestätigungs-/Korrekturvermerk in
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (+20/-0, append-only, `git diff --numstat`
+  geprüft). Report `outputs/2026-08-29f_thalwil-schub-lane.md`.
+- **Damit ist in der gesamten Thalwil-Reglemente-Korpus-Queue (T1-T9), der Priorität (d) und
+  ihren Querverweisen kein Restpunkt mehr offen.**
+
+## 2026-08-29e (Schub-Lane BAURECHT-THALWIL, fünfter Lauf) — Themen-Tracker der Priorität (d) korrigiert: 5 Themen waren bereits erledigt, nur nie markiert
+
+Nach vier reinen Bestätigungsläufen desselben Tages (Queue geschlossen, Fassungsstand-
+Wachposten geprüft, Baulinien-Punkt geschlossen, KB-weiter Dead-Law-Sweep 0 Treffer) wurde
+statt eines fünften Nullbefunds die **Themen-Liste selbst** in `training/PROGRAMM.md`
+(«Die neun Themen» der Priorität (d)) gesichtet — unabhängig von den bereits geschlossenen
+Datei-Batches T1-T9.
+
+- **Befund: Themen 1 (Vorgarten/Art. 50 lit. b revBZO), 2 (Grünflächenziffer/§ 257 PBG +
+  Anrechnungspraxis), 3 (Pflichtbäume/Art. 50 lit. c/d revBZO), 6 (Rechtsprechungs-Register
+  § 238 Abs. 1 PBG) und 8 (Näherbaurecht: Art. 738 ZGB, SBB, Grundbuch) sind bereits
+  vollständig im Wiki abgedeckt** — in [[umgebungsgestaltung-und-einfriedungen]],
+  [[nutzungsziffern]], [[negative-vorwirkung-und-bzo-revision]] und [[abstaende-und-hoehen]] —,
+  trugen im Tracker aber (anders als Themen 4/5/7/9) nie einen ERLEDIGT-Vermerk. Ohne diese
+  Prüfung hätte ein künftiger Lauf hier fälschlich echte Lücken vermutet.
+- **Kein neuer Fachinhalt, keine Wiki-Änderung, kein totes Recht gefunden.** Reine
+  Bookkeeping-Korrektur, append-only in `training/PROGRAMM.md` (+35/−0) und
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (+11/−0).
+- **Damit sind alle neun Themen der Priorität (d) UND alle Batches T1-T9 sowohl datei- als auch
+  themenseitig geschlossen.** Report `outputs/2026-08-29e_thalwil-schub-lane.md`.
+
+## 2026-08-29d (Schub-Lane BAURECHT-THALWIL, vierter Lauf) — KB-weiter Sweep: kein totes Recht ausserhalb der bereits geflaggten Stellen
+
+Reglemente-Queue und Priorität (d) bleiben geschlossen (siehe die drei Einträge vom selben Tag
+unten). Statt eines vierten Nullbefunds auf denselben sieben Artikeln wurde die Prüfung
+verbreitert: `grep -rniI` über die **gesamte** `wiki/`-Ebene (nicht nur die im 08-29c-Lauf
+ausgewählten Umgebungsrecht-Artikel) nach den vier in dieser KB bekannten aufgehobenen Erlassen
+**StrAV**, **HWSchV**, **EG GSchG**, **KGSchV**.
+
+- **Befund: 0 unmarkierte Fundstellen.** Jede einzelne Nennung dieser vier Erlässe in `wiki/`
+  (u.a. in `umgebungsgestaltung-und-einfriedungen.md`, `abstaende-und-hoehen.md`,
+  `baureife-und-erschliessung.md`, `strassenabstand-zufahrten-vorteilsabgabe-sz.md`,
+  `QUESTIONS.md`, `INDEX.md`) trägt bereits einen Aufhebungsvermerk mit Nachfolgenorm
+  (StrAV → VErV, HWSchV → WsG/WsV, EG GSchG → WsG, KGSchV weiterhin in Kraft mit korrigiertem
+  Fassungsstand). Kein ⚠-Markierungsbedarf, keine Wiki-Änderung, kein neuer `raw/`-Bezug.
+- **Einordnung:** die Anlassfall-Lehre vom 31.07.2026 (totes Recht StrAV im Begleitbeschrieb
+  2414 Thalwil) ist damit nicht mehr nur an den sieben vom 08-29c-Lauf ausgewählten
+  Kernartikeln, sondern über den gesamten Baurecht-Wiki-Bestand stichwortbasiert verifiziert.
+- Bestätigungsvermerk in `training/KORPUS-QUEUE-thalwil-reglemente.md` (+14/−0, append-only,
+  `git diff --numstat` geprüft).
+- **Verbleibend offen, nicht selbst schliessbar:** unverändert die beiden externen
+  Fassungsstand-Wachposten T-01/T-02 (revBZO-Genehmigung/-Inkrafttreten Thalwil) und der
+  PBG-Teilrevisions-Wachposten „Baulinien" (RRB 1319/2024, KR-Geschäft 6000).
 
 ## 2026-08-29c (Schub-Lane BAURECHT-THALWIL, dritter Lauf) — Baulinien-Querverweis geschlossen, ein Fehlbefund widerlegt
 

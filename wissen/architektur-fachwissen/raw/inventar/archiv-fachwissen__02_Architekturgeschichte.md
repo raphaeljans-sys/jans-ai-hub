@@ -196,3 +196,1151 @@ Inventars.
 20-MB-Limit des Read-Tools lässt sich für reine Textextraktion (kein Seitenlayout nötig)
 mit `pypdf` in Python umgehen, auch bei sehr grossen Dateien (hier 586 MB) — das Limit
 gilt nur für das Read-Tool selbst, nicht für den Inhalt.
+**29.08.2026 (Lane FACHWISSEN, siebter Destillat-Lauf Korpus `archiv-fachwissen`).** Alle elf
+P1-Dateien gelesen und destilliert, vier Wiki-Artikel nach Sache statt Datei, alle
+`status: emerging` (ein Artikel `speculative`, siehe unten):
+
+- [[gebaeudeanalyse-raster-situation-volumetrie-grundriss-fassade]] — aus
+  `05_Gebaeudeanalyse/kolloquium.pdf`, `Gebäudeanalyse.pdf` (Haus Steiger) und
+  `beispielanalyse_semper.pdf` (7 Dateien der Gruppe)
+- [[fachglossar-historische-bauteile-kirchenbau-gotik]] — aus
+  `00_Begriffe/Architektur- und Kunstgeschichte_neu1.pdf` S. 1; **`status: speculative`**,
+  da Einzelquelle ohne Fachlektorat. Die zweite Datei der Gruppe,
+  `architekturgeschichte_begriffe_notizen.pdf`, ist ein reiner Scan ohne Textlayer und auf
+  dieser Station (MacBook Pro, kein `pdftotext`/`poppler`/Homebrew) technisch nicht lesbar
+  — bleibt offen, siehe `wiki/QUESTIONS.md`.
+- [[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]] — aus
+  `ArchitekturVVI_Texte.pdf`, nur S. 1-5 (Tessin/Autonomie/Atmosphäre). Der zweite Teil der
+  Datei (S. 6-8, Archigram/Living City) ist eine andere Sache und wurde nicht destilliert.
+- [[objektliste-architekturgeschichte-datierungen-eth]] — aus `07_Objektliste/  .pdf`,
+  inkl. Gegenprobe/Bestätigung des im Kurzbefund genannten Datierungsfehlers in
+  `01_Architektenportrait/32_semper.pdf` (Titel 1687-1753 falsch, korrekt 1803-1879, in
+  der Objektliste verifiziert).
+
+**Technischer Befund dieses Laufs:** Auf der Station MacBook Pro fehlen `pdftotext`
+(poppler) und Homebrew vollständig; Read-Tool-Rendering von Scan-PDFs ohne Textlayer
+scheitert am selben Fehlen von `pdftoppm`. Textlayer-PDFs wurden stattdessen über
+`pypdf` (per `pip install --user`, kein Homebrew nötig) ausgelesen. Reine Scans (0
+Zeichen extrahierbar) bleiben ungelesen. Meldung an `wiki/QUESTIONS.md` und als
+Werkzeug-Lücke vermerkt.
+
+**Sperrlisten-Prüfung:** kein Fund. Kurzbefund bestätigt: keine Verträge, Bewerbungen,
+Personaldossiers, Adress- oder Honorardaten. Vorkommende Namen sind Dozierende und
+öffentliche Architekturhistoriker/Architekten; Namen von Mitstudierenden wurden bereits im
+Kurzbefund nicht genannt und auch hier nicht übernommen.
+
+**P2 (rund 160 Dateien) bleibt vollständig offen** — u. a. das Luzerner Skript Sauter/Marion
+(13 Teile), die vier Epochen-Zusammenfassungen der obersten Ebene, das Tönnesmann-Skript
+HS 2012, die sechs eigenen Epochen-Übersichten von Raphael Jans, die 41
+Architektenportraits (Qualitätsvorbehalt: mindestens ein belegter Datierungsfehler, siehe
+oben) und der Frage-Antwort-Katalog `Fragen.doc`. **Damit ist Sektion
+`02_Architekturgeschichte` für P1 vollständig destilliert.** Nächste Position gemäss
+`wiki/INDEX.md` «Sektionen nach Ertrag»: `02_Kunst_Geschichte` (11 P1, sehr dünn im
+Verhältnis zu 27'649 gesichteten Dateien) — damit sind alle P1-Positionen der
+Trägerschicht-Tabelle abgearbeitet, es bleibt nur noch die Mittelschicht.
+
+## Destillat-Fortschritt, erster P2-Lauf (30.08.2026, Lane FACHWISSEN)
+
+Vor Arbeitsbeginn `KORPUS-QUEUE.md`, `wiki/INDEX.md` «Sektionen nach Ertrag» und diese
+Inventardatei vollständig gelesen (nicht nur `tail`) — Lehre aus dem Fehlgriff im
+24. Lauf von `03_Bauprozesse_I_II`. Dispatch-Text nennt bewusst keinen Stand mehr; realer
+Stand: beide Specs bestehen, P1 des gesamten Korpus `archiv-fachwissen` ist durchgehend
+destilliert, `02_Architekturgeschichte` ist laut Queue-Zelle (67. Lauf) einer von zwei
+verbleibenden Kandidaten mit vollständig offenem, unblockiertem P2 (der andere,
+`02_Kunst_Geschichte`, ist laut eigenem Vermerk «sehr dünner Ertrag»). Von der oben
+empfohlenen Reihenfolge («zuerst Luzerner Skript, dann die vier
+Epochen-Zusammenfassungen») wurde mit den vier Zusammenfassungen begonnen, weil sie den
+Epochenrahmen liefern:
+
+- `Kunst-und-Architekturgeschichte-I-12-HS-Renaissance-und-Barock-A.-Tönnesmann.pdf`
+  (43 S., via `pypdf` vollständig extrahiert und gelesen, kein `pdftotext`/Homebrew auf
+  dieser Station nötig) — **destilliert** →
+  [[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]]
+  (machtgeschichtliche Herleitung von Bauaufgaben Florenz/Urbino, drei wiederkehrende
+  Entwurfsprinzipien, Zahl-Mass-Proportion-Systematik aus dem Gastvorlesungsteil
+  Naredi-Rainer). Gegen Wiki-Bestand geprüft (`grep` auf Brunelleschi/Alberti/
+  Palladio/Bramante/Serliana/Kolossalordnung u. a.): keine inhaltliche Dopplung, nur
+  Namensnähe zu bereits bestehenden Artikeln aus anderen Sektionen (kein Duplikat).
+- `MITTELALTER-ZSMFSG.pdf` (17 S.) — **destilliert** →
+  [[mittelalter-epochenraster-romanik-gotik-stilmerkmale-datierung]] (Epochenraster
+  Vor-/Früh-/Hoch-/Spätromanik/Gotik als Datierungshilfe, vier neue Glossarbegriffe
+  Atrium/Spolien/Villard de Honnecourt/St. Galler Klosterplan, drei Referenzbauten mit
+  Argumentationswert). Die im Quelltext bereits vorhandenen Begriffe Krypta/Apsis/
+  Chor/Triforium etc. **nicht** erneut destilliert — bereits in
+  [[fachglossar-historische-bauteile-kirchenbau-gotik]] geführt, dort verlinkt statt
+  dupliziert.
+- `Renaissance-Zusammenfassung.pdf` (51 S., Tönnesmann) — **teilweise destilliert**: nur
+  S. 1-3 (Abschnitte Ablauf/Ideen/Erneuerung der Künste/Architekturtheorie/
+  Architektonische Charakteristiken) gelesen und destilliert →
+  [[renaissance-epochencharakteristik-stilmerkmale-architekturtheorie-vitruv-alberti]]
+  (Stilmerkmal-Raster Früh-/Hoch-/Spätrenaissance/Manierismus, Architekturtheorie-
+  Genealogie Vitruv-Wiederentdeckung 1416/Alberti/Serlio/Vignola/Palladio). Die
+  anschliessende, sehr umfangreiche Einzelbau-Dokumentation (S. 4-51: Brunelleschi,
+  Michelozzo, Alberti, Rossellino im Detail bis auf Fassadenachsen-Ebene) **nicht**
+  gelesen — bleibt offen, im Artikel selbst vermerkt.
+- `Moderne.pdf` (16 S., «Aufklärung bis Moderne») — **nicht destilliert**: Sichtprüfung
+  der ersten rund 500 Zeilen (Empire-Stil, Schinkel, Klenze, Semper-Bauten inkl. ETH-
+  Polytechnikum Zürich) zeigte hohe thematische Nähe zu bereits bestehenden
+  Semper-Artikeln dieser KB ([[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]],
+  [[materialwahrheit-stoffwechseltheorie-semper-urtechniken]]) und stellenweise sehr
+  rohe, teils nur stichwortartige Mitschrift-Qualität (Zeilen ca. 380-413) — Rest bleibt
+  ungelesen, Duplikatsprüfung gegen die genannten Artikel vor einem Folgelauf nötig.
+
+**Nicht bearbeitet in diesem Lauf:** Luzerner Skript Sauter/Marion (13 PDF), 41
+Architektenportraits, Frage-Antwort-Katalog `Fragen.doc`, übrige Autorenordner
+`04_Kunsthistoriker` (889 Dateien), Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51)
+und `Moderne.pdf`.
+
+**Datenschutz/Sperrliste:** kein Fund in den drei gelesenen Quellen. Ausschliesslich
+historische, öffentlich bekannte Architekten, Bauherren und Dozierende.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append
+(nur Zeilen hinzugefügt, keine bestehende Zeile verändert oder gelöscht). **Nächster
+Lauf:** entweder das Luzerner Skript Sauter/Marion (13 Teile, geschlossener
+Vorlesungszyklus, laut Empfehlung oben mit hohem Ertrag), oder Rest von `Moderne.pdf`
+nach vorheriger Duplikatsprüfung gegen die bestehenden Semper-Artikel.
+
+## Destillat-Fortschritt, zweiter P2-Lauf (30.08.2026, Lane FACHWISSEN, 69. Lauf)
+
+Vor Laufbeginn Stand selbst ermittelt (kein Fortschritt im Dispatch-Text vorgegeben):
+`KORPUS-QUEUE.md` (69. Lauf lief auf Macmini, `ps -o pid,ppid,command` zeigte nur die
+eigene Prozesskette 4841→4842, keine Doppel-Instanz), `wiki/INDEX.md`, `CHANGELOG.md` und
+diese Inventardatei vollständig gelesen. Empfohlener nächster Schritt aus dem 68. Lauf war
+das Luzerner Skript Sauter/Marion — dieses bearbeitet.
+
+Von den 13 PDF des Ordners `Sauter_Marion/` zwei vollständig gelesen und destilliert:
+- `00 EINLEITUNG GLOSSAR.pdf` (6 S., via PyMuPDF vollständig extrahiert): Bautenverzeichnis
+  (90 Positionen, Renaissance bis Postmoderne, nach Vorlesungskapitel gegliedert) und
+  Glossar (rund 50 Begriffe) destilliert → zwei neue Artikel
+  [[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] und
+  [[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]]. Neun
+  Glossarbegriffe (Apsis, Architrav, Basis, Chor, Kapitell, Krypta, Obergaden, Portikus,
+  Vierung) überschneiden sich inhaltlich mit dem bestehenden
+  [[fachglossar-historische-bauteile-kirchenbau-gotik]] — dort verlinkt, nicht erneut
+  ausformuliert (Duplikatsvermeidung). Das Literaturverzeichnis derselben Datei bewusst
+  nicht in einen eigenen Artikel überführt: reine Lesetipp-Liste ohne unmittelbaren
+  Handlungswert für die Büropraxis.
+- `13 ARCHITEKTURSPAZIERGANG LUZERN.pdf` (2 S.) — vollständig gelesen, die 14 Luzerner
+  Lokalbeispiele als Regionalanhang in
+  [[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] integriert
+  (nicht als eigener Artikel, da zu kurz für Eigenständigkeit). Eine im Dokument enthaltene
+  private E-Mail-Adresse der Dozentin (Arbeitsanweisung an die Studierenden) **nicht**
+  übernommen — kein Bestandteil des fachlichen Inhalts, kein Sperrlisten-Fund (Einzeladresse
+  in einem Lehrmittel, keine Adress-/Kontaktsammlung im Sinne der Sperre).
+
+**11 der 13 Dateien bleiben offen:** die Kapitel `01`-`11` (Renaissance/Manierismus bis
+Moderne-Postmoderne, je eigenes Vorlesungskapitel, 1.1-4.7 MB). Cross-Check gegen
+Wiki-Bestand (`grep -rli` auf Semper/Corbusier/Mies/Bauhaus/Loos/Palladio u. a.) für diesen
+Lauf nicht durchgeführt — **Pflicht-Check für den nächsten Lauf**, bevor die Epochenkapitel
+gelesen werden, da mehrere davon (Le Corbusier, Mies, Bauhaus, Loos) bereits Gegenstand
+eigener Artikel in `01_Konstruktion`/`02_Architekturtheorie`/`10_Protomodern` sind.
+
+**Sperrlisten-Prüfung:** kein Fund in beiden gelesenen Dateien (historische, öffentlich
+bekannte Architekten und Bauwerke; die eine gefundene Dozierenden-E-Mail wie oben
+begründet nicht übernommen).
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append
+(nur Zeilen hinzugefügt). **Nächster Lauf:** Kapitel `01 RENAISSANCE MANIERISMUS (ITALIEN)`
+lesen, davor Duplikatscheck gegen Wiki-Bestand.
+
+## Destillat-Fortschritt, dritter P2-Lauf (30.08.2026, Lane FACHWISSEN, 70. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`,
+diese Inventardatei), `ps -eo pid,ppid,command` zeigte nur einen laufenden `claude -p`-
+Prozess dieser Lane, keine bestätigte Doppel-Instanz. Empfohlener nächster Schritt aus dem
+69. Lauf: Kapitel `01 RENAISSANCE MANIERISMUS (ITALIEN).pdf` (10 S.), davor Duplikatscheck.
+
+**Duplikatscheck (Pflicht-Vorprüfung):** `grep -rli` auf die im Kapitel vorkommenden Namen/
+Bauten (Renaissance, Manierismus, Brunelleschi, Bramante, Palladio, Michelangelo, Rucellai
+u. a.) gegen `wiki/*.md` — Treffer in
+[[renaissance-epochencharakteristik-stilmerkmale-architekturtheorie-vitruv-alberti]] (Stil-
+merkmal-Raster, deckt denselben Zeitraum ab, verzichtet aber explizit auf die
+Bau-für-Bau-Dokumentation, siehe dortiger Abschnitt „Was in diesem Lauf offen bleibt") und
+[[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]] (vier der neun
+Bauten am Rand erwähnt, dort unter dem Blickwinkel Proportionsrechnung/Machtgeschichte,
+nicht als Typologiebeschreibung). Kein inhaltliches Duplikat, aber zwei
+Berührungspunkte — beide Artikel um eine Rückverlinkung ergänzt.
+
+**Hauptarbeit:** Kapitel `01 RENAISSANCE MANIERISMUS (ITALIEN).pdf` vollständig gelesen
+(PyMuPDF, 10 S.) und destilliert zu
+[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]:
+Neun-Bauten-Kanon (Findelhaus, S. Spirito, Tempietto San Pietro in Montorio, Santa Maria
+della Consolazione Todi, Palazzo Rucellai, Palazzo Strozzi, Palazzo del Tè, Villa Rotonda,
+Biblioteca Laurenziana) mit Ort/Architekt/Jahr/typologischer Kernaussage je Bau, plus zwei
+Fachbegriffe, die im bestehenden Glossar [[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]]
+noch fehlten (Konche, Vestibül) — die dort bereits geführten Begriffe (Vierung, Joch,
+Basilika, Kolossalordnung, Tambour, Laterne, Volute) bewusst nicht erneut ausformuliert.
+
+**10 der 13 Dateien bleiben offen:** Kapitel `02`-`11` (Barock/Rokoko bis
+Moderne-Postmoderne). Fortsetzung des im 69. Lauf begonnenen Duplikatschecks nötig, sobald
+Kapitel mit bereits bestehenden Fachartikeln thematisch kollidieren könnten (Le Corbusier/
+Mies/Bauhaus/Loos, siehe Vormerkung 69. Lauf).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `02 BAROCK ROKOKO (SAKRALBAUTEN)` lesen, davor Duplikatscheck
+gegen Wiki-Bestand (insbesondere gegen etwaige bestehende Barock-Artikel).
+
+## Destillat-Fortschritt, vierter P2-Lauf (30.08.2026, Lane FACHWISSEN, 71. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`,
+diese Inventardatei), `ps -o pid,ppid,command` auf die eigene Prozesskette zeigte keine
+Doppel-Instanz, `scutil --get ComputerName` bestätigt Macmini. Empfohlener nächster Schritt
+aus dem 70. Lauf: Kapitel `02 BAROCK ROKOKO (SAKRALBAUTEN).pdf`, davor Duplikatscheck.
+
+**Duplikatscheck (Pflicht-Vorprüfung):** `grep -rli` auf „barock/rokoko/sakral" gegen
+`wiki/*.md` — Treffer in
+[[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]] (dieselbe Epoche,
+aber Stadtebene/Achsensysteme statt Sakralbau-Typologie) und
+[[grubenmann-kirchen-holzdachstuhl-typologie]] (Schweizer Barockkirchen derselben Zeit,
+aber Holzdachstuhl-Tragwerk statt Raumform/Fassade). Kein inhaltliches Duplikat — beide
+Artikel um eine Rückverlinkung ergänzt (`git diff --numstat` zeigte dort je `1 1`, reine
+Link-Ergänzung in der bestehenden `links:`-Zeile).
+
+**Hauptarbeit:** Kapitel `02 BAROCK ROKOKO (SAKRALBAUTEN).pdf` vollständig gelesen
+(PyMuPDF, 11 S.) und destilliert zu
+[[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]:
+Neun-Bauten-Kanon (Il Gesù Rom, St. Michael München, Jesuitenkirche Solothurn, Stiftskirche
+St. Gallen, San Carlo alle quattro fontane Rom, Benediktinerkirche Neresheim, Stiftskirche
+Einsiedeln, St. Johann Nepomuk München, Wieskirche Steingaden) mit Ort/Architekt/Jahr/
+typologischer Kernaussage je Bau, plus drei Fachbegriffe, die im bestehenden Glossar
+[[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]] noch fehlten
+(Fresko, Baldachin, Eckbastion/Eckrisalit) — die dort bereits geführten Begriffe (Joch,
+Kolossalordnung, Vierung, konkav/konvex) bewusst nicht erneut ausformuliert.
+
+**9 der 13 Dateien bleiben offen:** Kapitel `03`-`11` (Revolutionsarchitektur bis
+Moderne-Postmoderne). Fortsetzung des Duplikatschecks weiterhin nötig, sobald Kapitel mit
+bereits bestehenden Fachartikeln thematisch kollidieren (Le Corbusier/Mies/Bauhaus/Loos,
+Kapitel 08/09/11).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `03 REVOLUTIONSARCHITEKTUR` lesen, davor Duplikatscheck gegen
+Wiki-Bestand.
+
+## Destillat-Fortschritt, fünfter P2-Lauf (30.08.2026, Lane FACHWISSEN, 72. Lauf)
+
+Stand vor Laufbeginn selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`,
+diese Inventardatei) — der Dispatch-Text nennt bewusst keine Zahlen. Empfohlener nächster
+Schritt aus dem 71. Lauf: Kapitel `03 REVOLUTIONSARCHITEKTUR`, davor Duplikatscheck.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -rli` gegen `wiki/*.md` auf
+Revolutionsarchitektur/Boullée/Ledoux. Treffer in
+[[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]] (führt
+«Architecture parlante» bereits mit denselben zwei Architekten, aber anderen
+Entwurfsbeispielen) und [[utopische-stadtentwuerfe-typologie-garnier-cite-industrielle]]
+(nennt Ledoux' Salines de Chaux als einen von mehreren Utopie-Stadtentwürfen, dort mit
+fehlerhafter Datierung 1847). Kein inhaltliches Duplikat — beide Artikel um eine
+Rückverlinkung ergänzt (`git diff --numstat` zeigte dort je `1 1`, reine Link-Ergänzung in
+der bestehenden `links:`-Zeile).
+
+**Hauptarbeit:** Kapitel `03 REVOLUTIONSARCHITEKTUR.pdf` (5 S.) vollständig gelesen
+(PyMuPDF) und destilliert zu
+[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]:
+vier Bauten/Projekte 1770-1800 (Salinenstadt Arc-et-Senans, Idealstadt-Chaux-Entwürfe,
+beide Ledoux; Newton-Kenotaph Boullée; Kaserne/Frauengefängnis Würzburg, Speeth) mit
+Ort/Architekt/Jahr/Kernmerkmal, drei Kurzbiografien, sowie eine in der Quelle selbst
+widersprüchliche Datierung des Würzburger Baus (S. 1: 1809-1810, S. 5: ab 1811) unkorrigiert
+dokumentiert. Kein neuer Glossarbegriff nötig: Portikus bereits in
+[[sauter-glossar-architekturbegriffe-saeulenordnung-gewoelbe-fassade]], Architecture
+parlante bereits in [[architekturbegriffe-glossar-serliana-architecture-parlante-stadtbegreifen]]
+geführt; dort lediglich zwei zusätzliche, bislang nicht genannte Ledoux-Beispiele sowie das
+Boullée-Beispiel im neuen Artikel vermerkt.
+
+**8 der 13 Dateien bleiben offen:** Kapitel `04`-`11` (Klassizismus/Historismus/Eklektizismus
+bis Moderne-Postmoderne). Fortsetzung des Duplikatschecks weiterhin nötig, sobald Kapitel
+mit bereits bestehenden Fachartikeln thematisch kollidieren (Le Corbusier/Mies/Bauhaus/Loos,
+Kapitel 08/09/11).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS` lesen, davor
+Duplikatscheck gegen Wiki-Bestand.
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS` (73. Lauf, Lane FACHWISSEN)
+
+**Duplikatscheck zuerst ausgeführt:** `grep -il` gegen `wiki/*.md` auf Pilaster/Risalit/
+Quadriga sowie Sichtprüfung des bestehenden Sauter-Glossars. Kein neuer Artikel-Duplikat;
+Risalit/Pilaster bereits im Glossar bzw. in anderen Sauter-Kapiteln geführt, Quadriga neu,
+aber zu dünn für einen eigenen Eintrag (Einzelerwähnung ohne Definitionskontext).
+
+**Hauptarbeit:** Kapitel `04_KLASSIZISMUS HISTORISMUS EKLEKTIZISMUS.pdf` (15 S.) vollständig
+gelesen (PyMuPDF) und destilliert zu
+[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]:
+Dreizehn-Bauten-Kanon 1803-1898 (Klassizismus: Weinbrenner/Karlsruhe, drei Schinkel-Bauten
+Berlin; Historismus/Neogotik: Schinkel-Nationaldenkmal-Entwurf, Kölner Dom mit
+Vergleichsfällen Strassburg/Konstanz/Zürich, Friedrichswerdersche Kirche, Ferstel-Votivkirche
+Wien; Historismus/Neorenaissance-Neobarock: Garnier-Opéra Paris, Semper-Hoftheater Dresden;
+Eklektizismus: Schinkel-Schloss Babelsberg, Trocadéro Paris und Zürich), fünf Kurzbiografien
+(Weinbrenner, Schinkel — mit Abstand am stärksten vertreten, Ferstel, Garnier, Semper — bei
+Semper Cross-Referenz zu den bereits bestehenden theoriegeschichtlichen Artikeln
+[[materialwahrheit-stoffwechseltheorie-semper-urtechniken]] und
+[[tektonik-bekleidungstheorie-boetticher-semper-loos-frampton]], beide um Rückverlinkung
+ergänzt, `git diff --numstat` dort je `1 1`), sowie eine Denkmalpflege-Genese-Nebenlinie
+(vier zeitgenössische Antworten auf dieselbe Zweiturmfassaden-Frage, darunter ein Schweizer
+Beispiel Zürich bereits im 18. Jahrhundert). Kein neuer Glossarbegriff (s. o.).
+
+**8 der 13 Sauter-Dateien bleiben offen:** Kapitel `05`-`11` (Heimatstil/Gartenstadtbewegung
+bis Moderne-Postmoderne). Fortsetzung des Duplikatschecks weiterhin nötig, sobald Kapitel mit
+bereits bestehenden Fachartikeln thematisch kollidieren (Le Corbusier/Mies/Bauhaus/Loos,
+Kapitel 08/09/11).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `05 HEIMATSTIL GARTENSTADTBEWEGUNG` lesen, davor Duplikatscheck
+gegen Wiki-Bestand (Gartenstadtbewegung ist in dieser KB bereits als eigener Artikel
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] geführt — hohe
+Duplikatswahrscheinlichkeit, zuerst dort gegenlesen).
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `05 HEIMATSTIL GARTENSTADTBEWEGUNG` (74. Lauf, Lane FACHWISSEN)
+
+**Duplikatscheck zuerst ausgeführt:** bestehenden Artikel
+[[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] gegengelesen. Kein
+Artikel-Duplikat — jener Artikel ist eine rohe Mitschrift zur ideengeschichtlichen Genealogie
+(Pugin→Howard), dieses Kapitel liefert einen sauberen Vier-Bauten-Kanon mit Architekt/Jahr/
+Kernmerkmal. Einzige Überschneidung Hellerau, dort per Rückverlinkung ergänzt
+(`git diff --numstat` `3 1`, reine Ergänzung, kein globales Ersetzen).
+
+**Hauptarbeit:** Kapitel `05 HEIMATSTIL GARTENSTADTBEWEGUNG.pdf` (5 S.) vollständig gelesen und
+destilliert zu
+[[sauter-heimatstil-reformarchitektur-gartenstadtbewegung-vier-bauten-kanon]]: Vier-Bauten-Kanon
+1904-1917 (Villa Heimeli Luzern/Sepp Kaiser, Schoorenkolonie St. Gallen/Paul Robert Gerber,
+Gartenstadt Hellerau Dresden/Richard Riemerschmid, Gartenstadt Staaken Berlin/Paul
+Schmidthenner), zwei Kurzbiografien (Riemerschmid, Schmidthenner), gesellschaftspolitischer
+Rahmen (Landesausstellungen 1896/1914, Schweizer Heimatschutzbewegung 1905). Kein neuer
+Glossarbegriff.
+
+**7 der 13 Sauter-Dateien bleiben offen:** Kapitel `06`-`11` (Jugendstil bis
+Moderne-Postmoderne). Fortsetzung des Duplikatschecks weiterhin nötig, sobald Kapitel mit
+bereits bestehenden Fachartikeln thematisch kollidieren (Le Corbusier/Mies/Bauhaus/Loos,
+Kapitel 08/09/11).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `06 JUGENDSTIL` lesen, davor Duplikatscheck gegen Wiki-Bestand.
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `06 JUGENDSTIL` (75. Lauf, Lane FACHWISSEN)
+
+**Stand selbst ermittelt** (Vorgabe des überarbeiteten Dispatch-Texts, der bewusst keine
+Zahlen mehr nennt): `KORPUS-QUEUE.md`, `wiki/INDEX.md` und diese Inventardatei gegengeprüft,
+kein unkommittierter Vorlauf-Rest vorgefunden.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -in jugendstil` gegen `wiki/*.md` ergab drei
+Treffer ([[loos-ornament-und-verbrechen-argumentationsgang-kleidungs-analogie]],
+[[sullivan-ornament-emotionale-ausdruckstheorie-1892-herzog-de-meuron-rueckkehr]],
+`monumentale-stadtachsen-...`), alle nennen «Jugendstil» nur beiläufig als Epochenmarke im
+Fliesstext. Kein Artikel-Duplikat — dieser Lauf legt erstmals einen eigenständigen
+Bauten-Kanon der Bewegung selbst an, keine Rückverlinkung nötig (keine inhaltliche
+Überschneidung, nur Begriffserwähnung).
+
+**Hauptarbeit:** Kapitel `06 JUGENDSTIL.pdf` (8 S.) vollständig gelesen (pypdf, kein
+`pdftotext` auf dieser Station) und destilliert zu
+[[sauter-jugendstil-arts-and-crafts-secession-sieben-bauten-kanon]]: Sieben-Bauten-Kanon
+1897-1914 (Glasgow School of Art/Mackintosh, Palais Stoclet Brüssel/Hoffmann, Künstlerkolonie
+Mathildenhöhe Darmstadt/Olbrich, Secessionsgebäude Wien/Olbrich, Linke Wienzeile Wien/Wagner,
+Postsparkasse Wien/Wagner, Werkbundausstellung/Theater Köln/van der Velde), fünf
+Kurzbiografien (Mackintosh, Hoffmann, Olbrich, Wagner, van der Velde), gesellschaftspolitischer
+Rahmen (Arts-and-Crafts-Herkunft, Namensgebung DE/AT, Gründungsdaten Wiener Secession 1896 bis
+Kölner Werkbundausstellung 1914) und Vertreterliste nach Land laut Quelle. Kein neuer
+Glossarbegriff (Quelle führt keine Fachbegriffe ausserhalb des bestehenden Sauter-/
+Fachglossars).
+
+**6 der 13 Sauter-Dateien bleiben offen:** Kapitel `07`-`11` (Expressionismus/Kubismus bis
+Moderne-Postmoderne). Duplikatscheck bei den kommenden Kapiteln weiterhin nötig, sobald sie
+mit bestehenden Fachartikeln kollidieren (Le Corbusier/Mies/Bauhaus/Loos, Kapitel 08/09/11 —
+hohe Duplikatswahrscheinlichkeit dort erwartet).
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `07 EXPRESSIONISMUS KUBISMUS` lesen, davor Duplikatscheck gegen
+Wiki-Bestand.
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `07 EXPRESSIONISMUS KUBISMUS` (76. Lauf, Lane FACHWISSEN)
+
+**Stand selbst ermittelt** (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`,
+`wiki/INDEX.md` und die `## Destillat-Fortschritt`-Abschnitte dieser sowie mehrerer
+Nachbar-Inventardateien (`01_Konstruktion`, `02_Gestalt_Kulturverstaendnis`,
+`03_Bauprozesse_I_II`, `02_Architekturtheorie`, `10_Protomodern`) gelesen, um den Korpus-
+weiten Ertrags-Rang zu bestätigen: alle P1-höheren Sektionen (146/101/58/21/13) sind laut
+ihrem jeweils letzten Changelog-Eintrag für P1 und P2 abgeschlossen oder ohne unblockierten
+Rest — `02_Architekturgeschichte` (P1 11) mit dem hier laufenden Sauter-Kapitel-Durchgang
+bleibt damit der ertragsstärkste offene Posten. Kein unkommittierter Vorlauf-Rest
+vorgefunden.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -lni` gegen `wiki/*.md` nach Expressionismus/
+Kubismus-Stichworten (Bruno Taut, Einsteinturm, Chilehaus, Jahrhunderthalle, Josef Gočár,
+Goetheanum) ergab Treffer in
+[[bruno-taut-stadtkrone-migge-selbstversorger-volkspark]] (Tauts städtebauliches Spätwerk,
+nicht dieser frühe Werkkanon) und im eigenen
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] (dieselben zehn
+Bauten bereits als knappe Kanon-Zeilen 45-54 ohne Beschreibungstext geführt, wie schon bei
+Kapitel 05/06 kein Artikel-Duplikat). Kein eigenständiger Beschreibungs-Kanon vorhanden.
+
+**Hauptarbeit:** Kapitel `07 EXPRESSIONISMUS KUBISMUS.pdf` (5 S.) vollständig gelesen
+(`/opt/homebrew/bin/pdftotext`) und destilliert zu
+[[sauter-expressionismus-kubismus-prag-breslau-zehn-bauten-kanon]]: Zehn-Bauten-Kanon
+1911-1927 (Prag/Haus zur Schwarzen Mutter Gottes/Gočár, Prag/Mietshaus Neklanova-Strasse/
+Chochol, Breslau/Jahrhunderthalle/Berg, Köln/Glashaus Werkbundausstellung/Taut, Alpine
+Architektur-Manifest/Taut, Weimar/Denkmal Märzgefallene/Gropius, Dornach/2. Goetheanum/
+Steiner, Hamburg/Chilehaus/Höger, Potsdam/Einsteinturm/Mendelsohn, Frielingsdorf/St.
+Apollinaris/Böhm), acht Kurzbiografien, gesellschaftspolitischer Rahmen (Umbruchphase 1.
+Weltkrieg, Arbeitsrat für Kunst 1918, «Gläserne Kette»-Manifestkultur mangels realer
+Aufträge). Ein Glossarbegriff aus der Quelle («monolithisch», am Beispiel Einsteinturm).
+
+**5 der 13 Sauter-Dateien bleiben offen:** Kapitel `08`-`11` (Bauhaus/De Stijl bis
+Moderne-Postmoderne). Hohe Duplikatswahrscheinlichkeit bei Kapitel 08/09 erwartet (Bauhaus,
+Le Corbusier, Mies van der Rohe — in dieser KB bereits andernorts behandelt), Duplikatscheck
+dort zwingend vor dem Schreiben.
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Bauherren und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `08 BAUHAUS DE STIJL` lesen, davor Duplikatscheck gegen
+Wiki-Bestand (hoher Duplikatsverdacht).
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `08 BAUHAUS DE STIJL` (77. Lauf, Lane FACHWISSEN)
+
+**Stand selbst ermittelt** (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md`
+zeigte die Zell-Notiz nach dem 75. Lauf, `CHANGELOG.md` und diese Inventardatei bestätigten
+jedoch, dass der 76. Lauf (Kapitel 07) bereits abgeschlossen und committet war (Top-Commit
+`9076e6feb`) — die Queue-Zelle war nur redaktionell nicht nachgeführt. Kein unkommittierter
+Vorlauf-Rest vorgefunden.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -lni "gropius|dessau|rietveld|meisterhäus|
+haus schröder|siedlung törten"` gegen `wiki/*.md` ergab ausschliesslich beiläufige
+Erwähnungen — in
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] dieselben neun
+Bauten bereits als knappe Kanon-Zeilen 55-59 ohne Beschreibungstext (wie bei Kapitel 05-07
+kein Artikel-Duplikat), sowie ein Nebensatz zu Le Corbusiers «Wohnmaschine» in
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]] (anderer Kontext). Kein
+eigenständiger Beschreibungs-Kanon zu Bauhaus/De Stijl vorhanden.
+
+**Hauptarbeit:** Kapitel `08 BAUHAUS DE STIJL.pdf` (13 S.) vollständig gelesen (pypdf) und
+destilliert zu
+[[sauter-bauhaus-de-stijl-dessau-utrecht-acht-bauten-kanon]]: Acht-Bauten-Kanon 1904-1926
+(Weimar/Kunstgewerbeschule-Vorläufer/van der Velde, Dessau/Haus Sommerfeld/Gropius,
+Jena/Theaterumbau/Gropius+Meyer, Dessau/Bauhausgebäude/Gropius, Dessau/Meisterhäuser/
+Gropius, Dessau/Siedlung Törten/Gropius, Utrecht/Haus Schröder/Rietveld, Rotterdam/Café De
+Unie/Oud), vier Kurzbiografien (Gropius mit Rückverlinkung zum Expressionismus-Artikel,
+Hannes Meyer, Rietveld, Oud), Lehrenden-/Mitgliederliste laut Quelle,
+gesellschaftspolitischer Rahmen (Neubeginn nach 1. Weltkrieg, Bauhaus-Manifest-Zitat
+Gropius, Auflösung 1932/33, Emigration, De-Stijl-Kubismus-Bezug). Ein Glossarbegriff
+(«Wohnmaschine», mit Abgrenzung zu Le Corbusiers bekannterer Prägung in
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]]).
+
+**4 der 13 Sauter-Dateien bleiben offen:** Kapitel `09`-`11` (Le Corbusier/Mies van der Rohe,
+Klassische Moderne/Neues Bauen, Moderne-Postmoderne). Hohe Duplikatswahrscheinlichkeit bei
+Kapitel 09 erwartet (Le Corbusier, Mies van der Rohe — in dieser KB bereits andernorts
+behandelt, u. a.
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]],
+[[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]]), Duplikatscheck dort
+zwingend vor dem Schreiben.
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten, Lehrende und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `09 LE CORBUSIER MIES VAN DER ROHE` (Dateiname vor Ort prüfen)
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `09 LE CORBUSIER LUDWIG MIES VAN DER ROHE` (78. Lauf, Lane FACHWISSEN)
+
+**Stand selbst ermittelt** (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md` und
+`CHANGELOG.md` bestätigten den 77. Lauf (Kapitel 08 Bauhaus/De Stijl) als abgeschlossen und
+committet (Top-Commit `9076e6feb`), nächster Schritt laut beiden Quellen Kapitel 09. Kein
+unkommittierter Vorlauf-Rest vorgefunden. Dateiname vor Ort geprüft: `09 LE CORBUSIER LUDWIG
+MIES VAN DER ROHE.pdf`.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -lni` gegen `wiki/*.md` nach Le Corbusier/Mies/
+Villa Savoye/Farnsworth/Barcelona/Seagram-Stichworten ergab Treffer in
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] (Villa Savoye,
+Haus Tugendhat, Barcelona-Pavillon, Haus Farnsworth bereits als knappe Kanon-Zeilen 62/66-68
+ohne Beschreibungstext — wie bei Kapitel 05-08 kein Artikel-Duplikat), in
+[[fuenf-punkte-gegenmanifest-corbusier-jans]] (Raphaels eigene kritische Gegenposition zu den
+Fünf Punkten, anderer Fokus, kein Duplikat) und in
+[[rowe-koetter-collage-city-figur-grund-bricolage-fuchs-igel]] (beiläufiger Nebensatz zur
+«machine à habiter», anderer Kontext). Kein eigenständiger Beschreibungs-Kanon zu diesen elf
+Bauten vorhanden.
+
+**Hauptarbeit:** Kapitel `09 LE CORBUSIER LUDWIG MIES VAN DER ROHE.pdf` (13 S.) vollständig
+gelesen und destilliert zu
+[[sauter-le-corbusier-mies-van-der-rohe-elf-bauten-kanon]]: Elf-Bauten-Kanon 1921-1967 (zwei
+Weissenhofsiedlung-Bauten Stuttgart/Corbusier, Villa Savoye Poissy/Corbusier, Unité
+d'habitation Marseille/Corbusier, Notre-Dame-du-Haut Ronchamp/Corbusier, Entwurf Haus aus
+Backstein/Mies, Haus Tugendhat Brno/Mies, Deutscher Pavillon Barcelona/Mies, Haus Farnsworth
+Plano/Mies, Lake Shore Drive Apartments Chicago/Mies, Seagram Building New York/Mies — Letzteres
+nur in der Bautenübersicht genannt, ohne Fliesstext-Beschreibung, daher ohne Kernmerkmal-Zitat
+geführt), zwei ausführliche Kurzbiografien (Le Corbusier, Mies van der Rohe, je mit
+vollständiger Bautenübersicht laut Quelle als Zusatzangabe).
+
+**Alle 13 Sauter-Dateien bis Kapitel 09 sind damit destilliert, 3 bleiben offen:** Kapitel
+`10 KLASSISCHE MODERNE NEUES BAUEN` und `11 MODERNE - POSTMODERNE` (Dateinamen laut Ordnerliste
+bereits bekannt, kein weiterer Suchbedarf). Duplikatscheck bei Kapitel 10 vor dem Schreiben
+zwingend — Kollisionsrisiko mit
+[[eisenman-house-vi-autonomie-architektur-new-york-five-dom-ino]] und
+[[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]].
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `10 KLASSISCHE MODERNE NEUES BAUEN.pdf` lesen, davor Duplikatscheck.
+lesen, davor Duplikatscheck gegen Wiki-Bestand (hoher Duplikatsverdacht).
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `10 KLASSISCHE MODERNE NEUES BAUEN` (79. Lauf, Lane FACHWISSEN)
+
+**Stand selbst ermittelt** (Dispatch-Text nennt bewusst keine Zahlen): `KORPUS-QUEUE.md` und
+diese Inventardatei (Zeile 671) bestätigten den 78. Lauf (Kapitel 09 Le Corbusier/Mies) als
+abgeschlossen und committet (Top-Commit `c685b1250`), `git status`/`git log` bestätigten
+sauberen Working Tree, `scutil` bestätigte Hostname Macmini. Dateiname vor Ort geprüft: `10
+KLASSISCHE MODERNE NEUES BAUEN.pdf` (18 S., im Ordner `Sauter_Marion/`).
+
+**Duplikatscheck zuerst ausgeführt:** `grep -lni` gegen alle vierzehn Architektennamen des
+Kapitels (Behrens, Gropius, Loos, Scharoun, Wright, Neutra, Aalto, Terragni, Artaria, Schmidt,
+Braillard, Moser, Fahrenkamp, Indermühle, Meili) über `wiki/*.md`. Erwartete Treffer in
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] (Kanon-Zeilen ohne
+Beschreibungstext) und [[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]]
+(Wright-Kollisionsrisiko aus dem 78. Lauf) bestätigt — Letzterer behandelt Broadacre City/
+theoretische Position, nicht Fallingwater, kein Artikel-Duplikat, beide Artikel gegenseitig
+verlinkt. Das ebenfalls vom Vorlauf vermerkte Eisenman-Kollisionsrisiko bestätigte sich nicht
+(kein Treffer). Keine weiteren Funde.
+
+**Hauptarbeit:** Kapitel `10 KLASSISCHE MODERNE NEUES BAUEN.pdf` vollständig gelesen und
+destilliert zu
+[[sauter-klassische-moderne-neues-bauen-behrens-loos-wright-aalto-vierzehn-bauten-kanon]]:
+Vierzehn-Bauten-Kanon 1908-1936 (Behrens/AEG-Turbinenwerke Berlin, Gropius+Meyer/Fagus-Werke
+Alfeld, Loos/Haus Steiner Wien, Scharoun/Haus Schminke Löbau, Wright/Fallingwater Mill Run,
+Neutra/Health House Los Angeles, Aalto/Tuberkulosesanatorium Paimio, Terragni/Casa del fascio
+Como, Artaria+Schmidt/Haus zum Neuen Singer Basel, Braillard/Les Tilleuls Genf, Moser/
+Antoniuskirche Basel, Fahrenkamp/Hotel Monte Verità Ascona, Indermühle/Schulhaus Stapfenacker
+Bern-Bümpliz, Meili/Infanterie-Kaserne Allmend Luzern), dreizehn Kurzbiografien (Gropius per
+Rückverlinkung auf die bereits bestehende Biografie in
+[[sauter-expressionismus-kubismus-prag-breslau-zehn-bauten-kanon]] statt Doppelführung; Hannes
+Meyer ohne eigene Kurzbiografie in dieser Quelle, bewusst nicht erfunden), ein kurzer Exkurs
+Konstruktivismus in der bildenden Kunst (Malewitsch/Lissitzky/Moholy-Nagy/Tatlin/Rodtschenko,
+ohne eigenen Glossareintrag, rein kunsthistorischer Randbefund).
+
+**Alle 11 der bisher gesichteten 13 Sauter-Dateien sind damit destilliert, 1 bleibt offen:**
+Kapitel `11 MODERNE - POSTMODERNE` (Dateiname laut Ordnerliste bereits bekannt). Duplikatscheck
+davor zwingend.
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte Architekten
+und Bauwerke; Terragni/Casa del fascio als politisch belasteter Bau bleibt rein
+architekturhistorisch referenziert, keine Wertung übernommen.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** Kapitel `11 MODERNE - POSTMODERNE.pdf` lesen, davor Duplikatscheck.
+
+## 2026-08-30 — P2-Lauf, Sauter-Kapitel `11 MODERNE - POSTMODERNE` (80. Lauf, Lane FACHWISSEN, ABSCHLUSS der Sauter-Reihe)
+
+**Stand selbst ermittelt** (Dispatch-Text nennt bewusst keine Zahlen): `scutil` bestätigte
+Hostname Macmini, `git status`/`git log` bestätigten sauberen Working Tree und den 79. Lauf
+(Kapitel 10 Klassische Moderne/Neues Bauen) als abgeschlossen und committet (Top-Commit
+`7c287c001`), `ps -o pid,ppid,command`/`ps aux` zeigten nur die eigene Prozesskette, keine
+Doppel-Instanz. `KORPUS-QUEUE.md` und diese Inventardatei bestätigten Kapitel 11 als letzte
+offene Sauter-Datei.
+
+**Duplikatscheck zuerst ausgeführt:** `grep -lni` gegen `wiki/*.md` nach allen Bau-/
+Architektennamen des Kapitels (Tscharnergut, Le Lignon, Megabridge, Rob Krier, Ritterstrasse,
+Tessiner Schule, Casa Tonini, Reichlin, Reinhart, Teatro del Mondo, Casa Rotonda, Mario Botta,
+Postmoderne, Aldo Rossi). Treffer in
+[[tessiner-tendenza-schweizer-architektur-seit-1970-argumentationsfundus]] (Casa
+Rotonda/Casa Tonini bereits als knappe Beispielsätze aus anderer Quelle geführt, keine
+Ort/Jahr/Kernmerkmal-Vollangabe — kein Duplikat, hier ergänzende Vollbehandlung, gegenseitig
+verlinkt), in
+[[curdes-plaetze-funktionstypologie-entwurfsanforderungen-krier-formtypologie]] (behandelt
+Kriers Theoriewerk «Stadtraum in Theorie und Praxis», nicht die IBA-Baupraxis — kein
+Duplikat) und in
+[[venturi-dekorierter-schuppen-ente-komplexitaet-widerspruch-postmoderne]] (Rossis
+Manifestjahr 1966 nur beiläufig genannt — kein Duplikat). Rossis Teatro del Mondo (1979-1980)
+kommt in keinem bestehenden Rossi-Artikel vor. Keine weiteren Funde.
+
+**Hauptarbeit:** Kapitel `11 MODERNE - POSTMODERNE.pdf` (12 S.) vollständig gelesen und
+destilliert zu
+[[sauter-moderne-postmoderne-nachkriegssiedlungen-krier-tessiner-schule-rossi-botta-sieben-bauten-kanon]]:
+Sieben-Bauten-Kanon 1958-1982 (Bern/Tscharnergut Lienhard & Strasser, Genf/Le Lignon Addor,
+Entwurf Megabridge/Abraham, Berlin/IBA Ritterstrasse-Rauchstrasse/Rob Krier, Toricella-Lugano/
+Casa Tonini Reichlin+Reinhart, Venedig-Biennale/Teatro del Mondo Aldo Rossi, Stabio/Casa
+Rotonda Mario Botta), fünf Kurzbiografien. Zusätzlich sieben «Ausblick Moderne»-Positionen
+(Saarinen/TWA Terminal, Frei Otto+Gutbrod/Deutscher Pavillon Montreal, Eiermann/Olivetti
+Frankfurt, Piano+Rogers/Centre Pompidou, Ando/Row House Osaka, Coop Himmelblau/Dachaufbau
+Wien, Calatrava/Bahnhof Stadelhofen Zürich) ohne Fliesstext in der Quelle — wie beim Seagram
+Building in Kapitel 09 bewusst als reine Werklisten-Position ohne Kernmerkmal-Zitat geführt,
+nicht erfunden. Ein Schreibfehler der Quelle («Caltrava» statt «Calatrava») korrigiert im
+Artikel vermerkt, nicht stillschweigend übernommen.
+
+**Damit sind alle 13 Dateien des Luzerner Skripts Sauter/Marion destilliert — die Sauter-Reihe
+dieser Sektion ist abgeschlossen.**
+
+**Sperrlisten-Prüfung:** kein Fund. Ausschliesslich historische, öffentlich bekannte
+Architekten und Bauwerke.
+
+`git diff --numstat` nach diesem Lauf auf diese Inventardatei zeigt einen reinen Append.
+**Nächster Lauf:** 41 Architektenportraits (eigener Unterordner, Qualitätsvorbehalt laut
+Zeile 207/244 oben — mindestens ein belegter Datierungsfehler bereits bekannt), danach
+`Fragen.doc`, Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51) und `Moderne.pdf`
+(Duplikatsprüfung gegen bestehende Semper-Artikel nötig vor Bearbeitung).
+
+## 260830 — erster Lauf `01_Architektenportrait` (81. Lauf Lane FACHWISSEN)
+
+Von den 41 Dateien (39 Einzelportraits + `architekten_kaertli.pdf` + `Sammelmappe2.pdf`) neun
+Einzelportraits gelesen und destilliert (Auswahl nach Neuheitswert, Duplikatscheck gegen
+bestehende Wiki-Artikel zuerst): Michelozzo di Bartolomeo, Luciano Laurana, Bernardo
+Rossellino, Gian Lorenzo Bernini, Francesco Borromini, Claude Perrault, Johann Lucas von
+Hildebrandt, Jacques-Germain Soufflot, Giulio Romano → konsolidiert in
+[[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]].
+Bei `21_soufflot.pdf` Quellenwiderspruch unkorrigiert dokumentiert (Titel 1713-1780,
+Fliesstext «starb 1781»). **30 Einzelportraits bleiben offen**, Liste im neuen Artikel unter
+«Offene Portraits dieser Sammlung». `git diff --numstat` zeigt für diese Inventardatei einen
+reinen Append. **Nächster Lauf:** weitere Einzelportraits nach demselben
+Duplikatscheck-Kriterium, danach wie gehabt `Fragen.doc`, Rest von
+`Renaissance-Zusammenfassung.pdf` und `Moderne.pdf`.
+
+## 260830 — zweiter Lauf `01_Architektenportrait` (82. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `wiki/INDEX.md`, `CHANGELOG.md`, diese
+Inventardatei — nicht nur `tail`); Dispatch-Text nennt bewusst keine Zahlen. `scutil`
+bestätigte Macmini, `ps -eo pid,ppid,command` zeigte nur die eigene laufende
+`claude -p`-Instanz (PID 15629), `git status`/`git log` sauber, Top-Commit `7badcedd4`
+(81. Lauf) bereits committet. Von den 30 nach dem 81. Lauf offenen Einzelportraits acht
+gelesen und destilliert (Auswahlkriterium wie beim Vorlauf: Duplikatscheck per `grep -lir`
+gegen alle Namen zuerst; Garnier/Ruskin/Morris/Sullivan trotz fehlendem eigenem Portrait
+zurückgestellt, da bereits mehrfach in thematischen Artikeln dieser KB behandelt):
+Friedrich Wilhelm von Erdmannsdorff, Friedrich David Gilly, Henri Labrouste, Joseph Paxton,
+Victor Baltard, Gustave Eiffel, William Le Baron Jenney (inkl. Kurzerwähnung Louis-Auguste
+Boileau und Kontext Chicagoer Schule), Daniel Burnham → konsolidiert in
+[[architektenportraits-sammlung-klassizismus-eisenarchitektur-acht-kurzbiografien-erdmannsdorff-eiffel-jenney-burnham]].
+Ein unbelegter Sekundärartikel («Wettlauf in der Vertikale») in `40_jenney.pdf` bewusst
+nicht als Quelle übernommen (populärwissenschaftliche Kompilation ohne Fachlektorat-Ausweis,
+im neuen Artikel vermerkt). **22 Einzelportraits bleiben offen**, dazu vier
+Nicht-Portrait-Positionen desselben Ordners (`9_rom_st`, `16_schloss_versailles`,
+`26_paris_um_1800`, `1_filippo_brunelleschi` mit Duplikatsrisiko) sowie Kartenset und
+Sammelmappe — vollständige Liste im neuen Artikel unter «Offene Portraits dieser Sammlung».
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekannte
+Architekten des 18./19. Jahrhunderts. `git diff --numstat` nach diesem Lauf auf diese
+Inventardatei zeigt einen reinen Append. **Nächster Lauf:** weitere Einzelportraits nach
+demselben Duplikatscheck-Kriterium (Kandidaten mit vermutlich geringem Duplikatsrisiko:
+Neumann, Ledoux, Klenze, Fischer von Erlach — vor Bearbeitung dennoch grep-Check, da einige
+Namen bereits in Sauter-Kanon-Artikeln knapp auftauchen), danach wie gehabt `Fragen.doc`,
+Rest von `Renaissance-Zusammenfassung.pdf` und `Moderne.pdf`.
+
+## 260830 — dritter Lauf `01_Architektenportrait` (83. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig, nicht nur `tail`); Dispatch-Text nennt bewusst keine Zahlen mehr.
+Von den vier im Vorlauf empfohlenen Kandidaten (Neumann, Ledoux, Klenze, Fischer von Erlach)
+per `grep -lir` gegengeprüft: **Ledoux zurückgestellt** (bereits eigener Artikel
+[[sauter-revolutionsarchitektur-ledoux-boullee-architecture-parlante-idealstadt-chaux]]),
+die übrigen drei gelesen und destilliert: Johann Bernhard Fischer von Erlach, Balthasar
+Neumann, Leo von Klenze → konsolidiert in
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]].
+**Quellenkritischer Neufund:** `20_neumann.pdf` bestätigt Neumanns Lebensdaten
+konsistent mit 1687-1753 — exakt die Zahl, die `32_semper.pdf` fälschlich im Titel für
+Gottfried Semper führt (bereits im ersten Lauf als Datierungsfehler notiert); die
+Verwechslung stammt vermutlich aus einer Vertauschung mit Neumann. `28_klenze.pdf` selbst
+trägt einen Tippfehler («... bis 1913 tätig», gemeint 1813), im neuen Artikel vermerkt.
+**16 Einzelportraits bleiben offen** (Alberti, Bramante, Raffael, Michelangelo, Vignola,
+Palladio, Ledoux, Schinkel, Semper, Garnier, Ruskin, Morris, Webb, Wright, Sullivan,
+Brunelleschi mit Duplikatsrisiko), dazu drei Nicht-Portrait-Positionen (`9_rom_st`,
+`16_schloss_versailles`, `26_paris_um_1800`) sowie Kartenset und Sammelmappe — Liste im
+neuen Artikel. Sperrlisten-Prüfung: kein Fund. `git diff --numstat` zeigt für diese
+Inventardatei einen reinen Append. **Nächster Lauf:** von den verbliebenen 16 sind laut
+wiederholtem Duplikatscheck zehn (Schinkel, Semper, Garnier, Ruskin, Morris, Webb, Wright,
+Sullivan, Vignola, Palladio) bereits andernorts in dieser KB substanziell behandelt —
+lohnt sich eher ein Blick auf `Fragen.doc`, den Rest von `Renaissance-Zusammenfassung.pdf`
+und `Moderne.pdf`, oder eine gezielte Prüfung, ob Alberti/Bramante/Raffael/Michelangelo/
+Brunelleschi (Renaissance-Kernfiguren) trotz Nennung im Sauter-Kanon-Artikel noch
+eigenständigen Portrait-Mehrwert bieten (Kurzbiografie fehlt dort, nur Bauten gelistet).
+
+## 260830 — Lauf `Fragen.doc` (84. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen, nicht nur `tail`; `scutil` bestätigte Macmini,
+`ps -eo pid,ppid,command` zeigte nur die eigene laufende `claude -p`-Instanz PID 16771,
+keine Doppel-Instanz). Ein unkommittierter Rest des 83. Laufs lag noch vor (sauberer
+Append) und wurde zuerst per `nas-commit-now.sh` gesichert; die Sicherung selbst scheiterte
+am bekannten NAS-Merge-Konflikt in mehreren fremden KB-CHANGELOGs (siehe Memory
+`project_nas-git-merge-konflikt-dispatch-loop-260829`), lokal blieb der Stand aber sauber
+(kein `MERGE_HEAD`, keine Konfliktmarker) — dem 15-Min-Cron überlassen.
+
+Position `00_Allgemein/03_Fragen/Fragen.doc` (Zeile 88 oben) bearbeitet: Datei ist ein
+`.doc` (kein Textlayer-PDF), mit `textutil -convert txt -stdout` gelesen. Von rund 60
+gestellten Prüfungsfragen sind nur die ersten acht beantwortet, der Rest ist leer (reine
+Prüfungsfragen ohne Fakteninhalt) — nicht destilliert, nichts erfunden. Die acht
+beantworteten Fragen ergaben vier verwertbare Fakten, konsolidiert in
+[[fragen-doc-alberti-vignola-fassade-saeule-manierismus-beginn]]: Theorie-Praxis-
+Unterscheidung Alberti («De re aedificatoria», 10 Bücher) vs. Vignola/Serlio (Rezeptbücher),
+Verselbständigung der Kirchenfassade seit dem Mittelalter mit konkretem Beleg bei Alberti
+(Sant'Andrea Mantua, städtebaulich begründete Differenzproportionierung Fassade/Langhaus),
+Säulensymbolik-Belegkette über drei Epochen (Brunelleschi statisch → Palladianismus
+proportional-ideal → nach der Französischen Revolution Hoheitssymbol), zwei Bauten am
+Beginn des Manierismus (Biblioteca Laurenziana Florenz/Michelangelo 1524, Il Gesù
+Rom/Giulio Romano 1568 — Widerspruch zur della-Porta-Zuschreibung in
+[[toennesmann-machtgeschichte-bauaufgaben-proportionssysteme-renaissance]] dokumentiert,
+nicht aufgelöst). Duplikatscheck gegen
+[[renaissance-epochencharakteristik-stilmerkmale-architekturtheorie-vitruv-alberti]] zuerst
+ausgeführt: kein Artikel-Duplikat (jener Artikel nennt Sant'Andrea Mantua nur als offene
+Position ohne Begründung), dort per Ergänzung und beidseitiger Rückverlinkung ergänzt statt
+dupliziert.
+
+Die private Schlussbitte der Datei an einen mit Vornamen genannten Kommilitonen wurde
+bewusst **nicht** übernommen (kein Fachinhalt, keine Fremddaten Dritter im neuen Artikel).
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekannte
+Architekten. `git diff --numstat` zeigt für diese Inventardatei nach diesem Lauf einen
+reinen Append.
+
+**Damit ist die Position `Fragen.doc` erledigt.** Von den P2-Positionen dieser Sektion
+bleiben offen: 16 Architektenportraits (elf davon laut wiederholtem Duplikatscheck des
+83. Laufs bereits andernorts in dieser KB behandelt — Schinkel, Semper, Garnier, Ruskin,
+Morris, Webb, Wright, Sullivan, Vignola, Palladio, Ledoux —, fünf echte Kandidaten Alberti,
+Bramante, Raffael, Michelangelo, Brunelleschi), drei Nicht-Portrait-Positionen desselben
+Ordners, Kartenset und Sammelmappe, Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51,
+Einzelbau-Dokumentation, laut Vorlauf grossteils bereits abgedeckt) und `Moderne.pdf`
+(Duplikatsprüfung gegen Semper-Artikel vor Bearbeitung nötig). **Nächster Lauf:** entweder
+`Moderne.pdf` (Duplikatscheck zuerst) oder die fünf Renaissance-Kernfiguren-Portraits
+(Duplikatscheck trotz Sauter-Kanon-Nennung dennoch zwingend).
+
+## 260830 — vierter Lauf `01_Architektenportrait` (85. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen, nicht nur `tail`; `scutil` bestätigte Macmini, `git
+status`/`git log` sauber, Top-Commit `c8e93e437`, `ps -eo pid,ppid,command` zeigte nur die
+eigene laufende `claude -p`-Instanz PID 17373, keine Doppel-Instanz).
+
+Die fünf nach dem 84. Lauf verbliebenen echten Portrait-Kandidaten (Alberti, Bramante,
+Raffael, Michelangelo, Brunelleschi) per `grep -lri` gegen bestehende Wiki-Artikel
+gegengeprüft: alle fünf nur als knappe Bautenverzeichnis-Zeilen in
+[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]
+und [[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] geführt, kein
+Artikel mit eigener Werkanalyse — kein Duplikat. Alle fünf PDF vollständig gelesen (deutlich
+umfangreicher als bisherige Portraits: Alberti 5 S. inkl. zwei Sekundärliteratur-Exkursen,
+Michelangelo und Brunelleschi je 3-4 S.) und zu einem Artikel konsolidiert →
+[[architektenportraits-sammlung-renaissance-kernfiguren-fuenf-kurzbiografien-alberti-bramante-raffael-michelangelo-brunelleschi]]
+(Alberti: Palazzo Rucellai/Santa Maria Novella/Sant'Andrea Mantua/De-re-aedificatoria-Struktur
+mit concinnitas-Begriff; Bramante: Mailänder Frühwerk, Tempietto, Vatikan/Peterskirche-Planung
+unter Julius II.; Raffael: Palazzo dell'Aquila, Villa Madama, Nachfolge Bramantes am
+Petersdom; Michelangelo: Juliusgrab, Neue Sakristei/Biblioteca-Laurenziana-Vestibül als
+Manierismus-Initialbau, Kapitolsplatz-Neugestaltung, Porta Pia; Brunelleschi: Dom-Kuppel
+Florenz, Ospedale degli Innocenti, Alte Sakristei/Pazzi-Kapelle, San Lorenzo/Santo Spirito).
+
+**Damit sind alle fünf als «echte Kandidaten» identifizierten Renaissance-Kernfiguren
+destilliert.** Von den ursprünglich 39 Einzelportraits bleiben nur noch die elf laut
+wiederholtem Duplikatscheck bereits andernorts in dieser KB behandelten Namen offen (Schinkel,
+Semper, Garnier, Ruskin, Morris, Webb, Wright, Sullivan, Vignola, Palladio, Ledoux) — für
+diese lohnt sich kein eigenes Portrait mehr ohne neuen Werkaspekt. Unverändert offen: drei
+Nicht-Portrait-Positionen (`9_rom_st`, `16_schloss_versailles`, `26_paris_um_1800`), Kartenset
+und Sammelmappe, Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51) und `Moderne.pdf`.
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekannte Architekten
+des 15./16. Jahrhunderts. `git diff --numstat` zeigt für diese Inventardatei nach diesem Lauf
+einen reinen Append.
+
+**Nächster Lauf:** `Moderne.pdf` (Duplikatscheck gegen die Semper-Artikel dieser KB zuerst,
+laut Sichtprüfung des 68. Laufs teils sehr rohe Mitschrift-Qualität) oder der unbearbeitete
+Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51, umfangreiche Einzelbau-Dokumentation).
+
+## 260830 — fünfter Lauf `01_Architektenportrait`-Ordner-Umfeld, `Moderne.pdf` teilweise (86. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen; unkommittierter Rest des 85. Laufs lag noch im Working
+Tree — `git diff --numstat` bestätigte reinen Append, `nas-commit-now.sh` ausgelöst, lief
+in den bekannten NAS-Merge-Konflikt in sechs fremden Lane-Dateien auf der Synology-Seite,
+lokal blieb der Working Tree unverändert bestehen, 15-Min-Cron übernimmt).
+
+`Moderne.pdf` (16 S.) vollständig gelesen. Duplikatscheck (`grep -lir`) gegen alle
+vorkommenden Namen/Bauten ausgeführt: die ersten neun Seiten (Empire-Paris,
+Schinkel/Klenze/Gärtner, englische Neugotik, Semper, Garnier, Morris/Webb) überschneiden
+sich mit bereits bestehenden Kanon-Zeilen in
+[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]] und
+[[sauter-bautenverzeichnis-architekturgeschichte-kanon-luzerner-beispiele]] — bleiben
+unbearbeitet, kein neuer Artikel. Die Seiten 10-16 (Richardson, Chicagoer
+Wolkenkratzer-Reihe Jenney/Burnham/Sullivan, Wright bis Falling Water) erwiesen sich als
+**kein** Duplikat (Richardson/seine drei Bauten und die Chicagoer Einzelbauten nirgends
+sonst in dieser KB behandelt, Wrights hier destillierte Bauten explizit ausserhalb des
+Themas von [[wright-organische-architektur-zerstoerung-der-kiste-broadacre-city]]) und
+wurden destilliert →
+[[richardson-chicago-school-wright-vom-rundbogenstil-zur-stahlskelettbauweise-organischen-architektur]]
+(Trinity Church/Marshall Field's Wholesale Store/Glessner House — Richardson; First Leiter
+Building/Monadnock/Reliance Building — tragende Mauer zu Stahlskelett; Auditorium/Wainwright/
+Charnley House — Sullivan; Home and Studio/Robie House/Unity Temple/Larkin Building/Falling
+Water — Wright vom Prairie House zur organischen Architektur). Die letzten Zeilen (S. 16,
+Domino-Häuser/Villa Stein Le Corbusier) blieben als blosse Stichwortlisten unter der
+Destillationsschwelle unbearbeitet; Villa Savoye bereits ausführlicher in
+[[sauter-le-corbusier-mies-van-der-rohe-elf-bauten-kanon]] geführt.
+
+**`Moderne.pdf` gilt damit als teilweise destilliert** (S. 1-9 aus Duplikatsgründen bewusst
+nicht bearbeitet, S. 10-16 destilliert bis auf die Corbusier-Stichwortzeilen). Sperrlisten-
+Prüfung: kein Fund. `git diff --numstat` auf diese Inventardatei zeigt einen reinen Append.
+
+**Nächster Lauf:** entweder Vertiefung der Schinkel/Klenze/Semper-Kanon-Zeilen um die in
+`Moderne.pdf` S. 1-9 vorhandene Fassaden-/Grundrissdetailtiefe (v. a. Semper-Polytechnikum
+Zürich, nirgends sonst in dieser KB behandelt) oder der unbearbeitete Rest von
+`Renaissance-Zusammenfassung.pdf` (S. 4-51, umfangreiche Einzelbau-Dokumentation
+Brunelleschi/Michelozzo/Alberti/Rossellino).
+
+## 260830 — Lauf `Moderne.pdf` S. 4+6-7, Semper-Polytechnikum Zürich (87. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen; `git status`/`git log` sauber, Top-Commit `73173542b`,
+`scutil` bestätigte Macmini, `ps -eo pid,ppid,command` nur ein laufender `claude -p`-Prozess).
+`pdftoppm`/`pdftotext` sind auf dieser Station nicht installiert; PDF-Text stattdessen über
+`python3 -c "import fitz..."` (PyMuPDF, lokal bereits vorhanden) extrahiert.
+
+Duplikatscheck zuerst ausgeführt (`grep -rn` gegen alle Namen S. 1-9): Sempers Zürcher
+Polytechnikum (heute ETH-Hauptgebäude) war in dieser KB bisher **nirgends als Bau behandelt**
+(nur beiläufige biografische Datumsnennung in
+[[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]),
+ebenso Friedrich von Gärtners Bayerische Staatsbibliothek München (andere Gärtner-Treffer in
+dieser KB betreffen durchgehend den Gärtner-Beruf). Klenzes Glyptothek/Alte Pinakothek dagegen
+bereits ausführlich in
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]]
+geführt — unbearbeitet gelassen.
+
+Neuer Artikel
+[[semper-polytechnikum-zuerich-eth-hauptgebaeude-struktur-oberflaeche-gaertner-staatsbibliothek-muenchen]]:
+Gärtners Bayerische Staatsbibliothek München (Rundbogenstil-Palastfassade) als Vergleichsbau,
+Hauptteil zu Sempers Polytechnikum Zürich (Gründungskontext ETH 1854/Bundesstaatsgründung,
+Wettbewerb, Struktur-gegen-Oberfläche-Theorie am eigenen Bau als Anwendung von Sempers
+Bekleidungstheorie, ungewöhnliche Platzierung der Aula in der Dachzone, Museum mit antiken
+Abgüssen im Mittelgang, Genealogie-Strang Klenze/München → Semper/Dresden → Semper/Zürich).
+Ein Datierungswiderspruch der Quelle selbst (Polytechnikum «1858-68» vs. an anderer Stelle
+Sempers Zürcher Wirkungszeit «1858-1864») unkorrigiert dokumentiert. Rückverlinkung in die drei
+bestehenden Semper-Artikel ergänzt (`links:`-Frontmatter). Sperrlisten-Prüfung: kein Fund,
+ausschliesslich historische, öffentlich bekannte Architekten und ihre publizierten Bauten des
+19. Jahrhunderts.
+
+**Damit gilt `Moderne.pdf` als vollständig ausgewertet** (jede Seite entweder destilliert oder
+mit begründetem Duplikat-/Schwellenwert-Verweis dokumentiert — S. 1-3+5+7-9 Duplikate
+bestehender Kanon-Zeilen, S. 16-Rest unter Destillationsschwelle). `git diff --numstat` auf
+diese Inventardatei zeigt einen reinen Append.
+
+**Nächster Lauf:** unbearbeiteter Rest von `Renaissance-Zusammenfassung.pdf` (S. 4-51,
+umfangreiche Einzelbau-Dokumentation Brunelleschi/Michelozzo/Alberti/Rossellino, Duplikatscheck
+gegen die bestehenden Renaissance-Artikel zuerst), danach die drei Nicht-Portrait-Positionen
+des Architektenportrait-Ordners.
+
+## 260830 — Lauf `Renaissance-Zusammenfassung.pdf` S. 5-25, Frührenaissance/Hochrenaissance
+bis St. Peter (88. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen; `git status` zeigte unkommittierten Rest des 87. Laufs,
+`nas-commit-now.sh` lief in den bekannten NAS-Merge-Konflikt in sechs fremden KBs — Working
+Tree lokal sauber, 15-Min-Cron übernimmt). `scutil` bestätigte Macmini, `ps -eo
+pid,ppid,command | grep "claude -p"` zeigte genau eine laufende Instanz (PID 19172, keine
+Doppel-Instanz). PDF-Text wie im 87. Lauf über PyMuPDF extrahiert (`pdftotext`/`pdftoppm`
+fehlen auf dieser Station).
+
+`Renaissance-Zusammenfassung.pdf` hat 51 Seiten und reicht entgegen der bisherigen
+Inventarbezeichnung nicht nur bis zur Renaissance: S. 4-33 behandeln Frührenaissance bis
+Manierismus (Brunelleschi bis Palladio/Villa Foscari), S. 34-51 wechseln unvermittelt zu
+Barock und Aufklärungsarchitektur (Borromini, Bernini, Fischer von Erlach, Hildebrandt,
+Soufflot, Boullée, Ledoux/Saline de Chaux) — Themen mit hohem Duplikatrisiko gegen die bereits
+destillierten Sauter-Barock- und Revolutionsarchitektur-Kapitel. Dieser Lauf bearbeitet daher
+bewusst nur S. 5-25 (Frührenaissance/Hochrenaissance bis zum Baugeschichte-Abschnitt St.
+Peter); S. 26-33 (Manierismus: Giulio Romano, Vasari, Vignola, Palladio) und S. 34-51 bleiben
+offen für Folgeläufe mit eigenem Duplikatscheck.
+
+Duplikatscheck zuerst ausgeführt (`grep -lZi` gegen Brunelleschi/Michelozzo/Palladio/Alberti/
+Bramante über `wiki/*.md`): die Renaissance-Kernfiguren sind bereits in
+[[architektenportraits-sammlung-renaissance-kernfiguren-fuenf-kurzbiografien-alberti-bramante-raffael-michelangelo-brunelleschi]]
+(Kurzbiografien + knappe Bauanalyse) und
+[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]
+(Kanon-Tabelle) geführt — Vergleich der Einzelabschnitte zeigte, dass diese Quelle dieselben
+Bauten in deutlich grösserer konstruktiver/formaler Tiefe behandelt (kein Duplikat, sondern
+Vertiefung), plus mehrere in der KB bisher komplett fehlende Bauten/Architekten (Domkuppel
+Florenz, Michelozzo/Palazzo Medici, Rossellino/Pienza, Laurana/Palazzo Ducale Urbino,
+St.-Peter-Baugeschichte).
+
+Vier neue Artikel:
+- [[toennesmann-brunelleschi-konstruktionsvertiefung-domkuppel-ospedale-sakristei-basiliken]]
+  (S. 5-9: Domkuppel-Konstruktion mit Fischgrätenverband — neu in der KB —, vertiefte
+  Grundriss-/Wandaufriss-Details zu Ospedale Innocenti, Alte Sakristei, San Lorenzo, Santo
+  Spirito)
+- [[toennesmann-michelozzo-palazzo-medici-riccardi-prototyp-renaissancepalast]] (S. 10-11:
+  vollständig neuer Architekt/Bau, Prototyp des Florentiner Renaissancepalasts)
+- [[toennesmann-alberti-rossellino-laurana-palazzo-rucellai-pienza-urbino]] (S. 12-17:
+  vertiefte Fassadenanalyse Palazzo Rucellai, neue Architekten Rossellino/Pienza und
+  Laurana/Palazzo Ducale Urbino)
+- [[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]] (S. 23-25:
+  Baugeschichte über sechs Architektengenerationen Bramante–Maderno, in der KB bisher ohne
+  eigenständigen Gesamtartikel)
+
+S. 18-22 (Tempietto/Bramante, Palazzo dell'Aquila/Raffael, Neue Sakristei + Biblioteca
+Laurenziana + Kapitol/Michelangelo) bewusst nicht erneut destilliert: alle drei Bauten sind
+in [[architektenportraits-sammlung-renaissance-kernfiguren-fuenf-kurzbiografien-alberti-bramante-raffael-michelangelo-brunelleschi]]
+bereits mit vergleichbarer Detailtiefe geführt — echtes Duplikat, kein Mehrwert durch
+Zweitdestillat.
+
+Eine quelleneigene Ungereimtheit dokumentiert, nicht stillschweigend übernommen: Der
+Kuppeldurchmesser von St. Peter wird mit «119 m» angegeben, was mit dem allgemein bekannten
+lichten Durchmesser (rund 42 m) nicht vereinbar ist — im Artikel als unaufgelöster
+Quellenfehler vermerkt. Ein offensichtlicher Zahlendreher bei der Vollendung der Florentiner
+Domkuppel («1936» statt «1436», im Widerspruch zur eigenen Kopfzeile) wurde dagegen nicht als
+Fakt übernommen, sondern als Zahlendreher benannt.
+
+Sperrlisten-Prüfung: kein Fund. Ausschliesslich historische, öffentlich bekannte Architekten,
+Bauherren und Päpste des 14.-17. Jahrhunderts. `git diff --numstat` auf diese Inventardatei
+zeigt einen reinen Append.
+
+**Nächster Lauf:** S. 26-33 von `Renaissance-Zusammenfassung.pdf` (Manierismus: Palazzo del
+Tè/Giulio Romano, Uffizien/Vasari, Il-Gesù-Fassade/Vignola, vier Palladio-Bauten — vorher
+Duplikatscheck gegen [[palladio-strassen-bruecken-plaetze-vier-buecher-1570]] und die
+Sauter-Barock/Rokoko-Sakralbauten-Artikel wegen Il Gesù), danach S. 34-51 (Barock/Ledoux, mit
+Duplikatscheck gegen die bestehenden Sauter- und Revolutionsarchitektur-Artikel), danach die
+drei Nicht-Portrait-Positionen des Architektenportrait-Ordners.
+
+## 260830 — Lauf `Renaissance-Zusammenfassung.pdf` S. 26-33, Manierismus (89. Lauf Lane
+FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen; `git status`/`git log` sauber, Top-Commit `c2a5f8953`,
+`scutil` bestätigte Macmini, `ps -eo pid,ppid,command | grep "claude -p"` zeigte genau eine
+laufende Instanz PID 19979, keine Doppel-Instanz). PDF-Text wie in den Vorläufen über
+PyMuPDF extrahiert.
+
+S. 26-33 (8 Seiten) vollständig gelesen und wie vom Vorlauf vorgemerkt bearbeitet:
+Duplikatscheck zuerst ausgeführt gegen
+[[sauter-neun-bauten-kanon-renaissance-manierismus-typologie-brunelleschi-bramante-palladio]]
+(Kanon-Zeilen zu Palazzo del Tè und Villa Rotonda),
+[[sauter-neun-bauten-kanon-barock-rokoko-sakralbauten-wandpfeilerkirche-vorarlberger-baumeister]]
+(Kanon-Zeile Il Gesù),
+[[architektenportraits-sammlung-quattrocento-barock-neun-kurzbiografien-giulio-romano-bernini-borromini]]
+(Giulio-Romano-Kurzbiografie) und
+[[palladio-strassen-bruecken-plaetze-vier-buecher-1570]] (Palladios Städtebautheorie, andere
+Ebene). Ergebnis: kein echtes Duplikat, da diese Quelle durchgehend grössere konstruktive
+Tiefe liefert (Grundrissprobleme und -lösungen, Fassadendetails) als die bestehenden
+Kanon-Zeilen bzw. Kurzbiografie; vier neue Artikel:
+
+- [[toennesmann-giulio-romano-palazzo-del-te-manierismus-regelverstoss]] (Palazzo del Tè,
+  Vertiefung der Kanon-Zeile: Bauaufgabe Palast-Villa-Mischform, gezielte Regelverstösse als
+  Manierismus-Programm)
+- [[toennesmann-vasari-uffizien-florenz-verwaltungsbautypus]] (Vasari/Uffizien, vollständig
+  neuer Architekt und Bau, Prototyp des europäischen Verwaltungsbaus)
+- [[toennesmann-vignola-il-gesu-rom-finanzierung-innenausbau-fassadenvertiefung]] (Il Gesù,
+  Vertiefung der Kanon-Zeile: nur die dort fehlenden Punkte Vignola-Biografie,
+  Finanzierungskontext Alessandro Farnese, historischer Wandel des Innenausbaus,
+  Fassadendetail)
+- [[toennesmann-palladio-fuenf-bauten-vertiefung-basilica-chiericati-rotonda-redentore-foscari]]
+  (Basilica Vicenza, Palazzo Chiericati, Villa Rotonda als Vertiefung der Kanon-Zeile, Il
+  Redentore, Villa Foscari/Malcontenta — fünf Bauten gebündelt, da derselbe Architekt und
+  durchgehende Quellen-Erzählung über seine Laufbahn)
+
+Eine quelleneigene Datierungsungereimtheit dokumentiert statt übernommen: Il Redentore wird
+mit Senatsbeschluss «4. September 1676» datiert, obwohl dieselbe Quelle Palladios
+Verpflichtung «1577» nennt und die Bauzeit mit 1576-1592 überschreibt — im Artikel als
+Zahlendreher (statt 1576) benannt.
+
+Sperrlisten-Prüfung: kein Fund. Ausschliesslich historische, öffentlich bekannte Architekten,
+Bauherren und Päpste des 16. Jahrhunderts. `git diff --numstat` auf diese Inventardatei zeigt
+einen reinen Append.
+
+**Damit ist `Renaissance-Zusammenfassung.pdf` bis S. 33 (Frührenaissance bis Manierismus)
+vollständig destilliert.** **Nächster Lauf:** S. 34-51 (Barock/Aufklärung: Borromini,
+Bernini, Fischer von Erlach, Hildebrandt, Soufflot, Boullée, Ledoux/Saline de Chaux —
+Duplikatscheck gegen die bestehenden Sauter-Barock-/Rokoko- und
+Revolutionsarchitektur-Artikel zwingend, da hohes Überschneidungsrisiko), danach die drei
+Nicht-Portrait-Positionen des Architektenportrait-Ordners.
+
+## Destillat-Fortschritt, 90. Lauf Lane FACHWISSEN (30.08.2026)
+
+`Renaissance-Zusammenfassung.pdf` S. 34-51 (letzter Rest, Barock/Aufklärung) gelesen und
+destilliert. Duplikatscheck zuerst gegen beide Architektenportrait-Sammlungsartikel und die
+zwei einschlägigen Sauter-Kapitel (Barock/Rokoko-Sakralbauten, Revolutionsarchitektur):
+kein echtes Duplikat, diese Quelle liefert durchgehend tiefere Grundriss-/Konstruktions-/
+Entwurfsgeschichtsanalyse. Fünf neue Wiki-Artikel (Borromini S.Ivo/S.Carlo, Bernini
+Baldachin/Cornaro-Kapelle/Petersplatz-Entwurfsgeschichte/Scala Regia, Bernini-Louvre/
+Perrault-Ostfassade/Versailles-Baugeschichte, Fischer-von-Erlach-Schönbrunn/Hofbibliothek/
+Hildebrandt-Belvedere, Soufflot Ste-Geneviève), dazu eine Ergänzung des bestehenden
+Ledoux/Boullée-Artikels (Zollhäuser Paris neu, Chaux-Konstruktionsdetail vertieft). Details
+CHANGELOG/`wiki/INDEX.md` 30.08.2026. Zwei Quellenwidersprüche offen dokumentiert (Sant'-Ivo-
+Geometrie, Chaux-Auftraggeber Ludwig XIV. vs. XVI.), keiner eigenmächtig aufgelöst.
+Sperrlisten-Prüfung: kein Fund.
+
+**Damit ist `Renaissance-Zusammenfassung.pdf` (51 Seiten) vollständig destilliert.**
+**Nächster Lauf:** `Moderne.pdf` gilt bereits als vollständig ausgewertet (87. Lauf); als
+Nächstes die drei Nicht-Portrait-Positionen des Architektenportrait-Ordners (`9_rom_st`,
+`16_schloss_versailles` — jetzt mit Duplikatrisiko gegen diesen Lauf zu prüfen —,
+`26_paris_um_1800`), `Fragen.doc`-Rest, danach die rund 20 verbleibenden offenen
+Einzelportraits.
+
+## Destillat-Fortschritt, 91. Lauf Lane FACHWISSEN (30.08.2026)
+
+Stand selbst ermittelt, ohne den mitgelieferten Dispatch-Text zu übernehmen (der nennt
+bewusst keine Zahlen): `KORPUS-QUEUE.md`, `wiki/INDEX.md` Zeile `02_Architekturgeschichte`
+und diese Inventardatei gegengeprüft, `git status`/`git log` vor Beginn sauber (Top-Commit
+`fca118764`), `scutil` bestätigt Macmini, `ps -eo pid,ppid,command` zeigt keine
+Doppel-Instanz dieser Lane. Vorab geprüft: die 36.-P2-Lauf-Auditzeile in `wiki/INDEX.md`
+(«P1 ist über `buero-referenzen` UND `archiv-fachwissen` vollständig abgeschlossen») steht
+weiterhin unwidersprochen — P1 bleibt für beide Ziel-Korpora dieser KB erledigt, offen ist
+ausschliesslich P2. Die drei vom 90. Lauf benannten Nicht-Portrait-Positionen des
+Architektenportrait-Ordners bearbeitet:
+
+- **`9_rom_st.pdf`** (St. Peter, Rom, 2 Seiten): Duplikatscheck zuerst gegen
+  [[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]] und
+  [[toennesmann-bernini-baldachin-cornaro-kapelle-petersplatz-entwurfsgeschichte-scala-regia]]
+  — Baldachin, Cornaro-Kapelle und Petersplatz-Entwurfsgeschichte sind dort bereits vertieft
+  vorhanden, deshalb hier nicht wiederholt. Echter Zusatzwert (Kolonnaden-Statuenzahl,
+  Maderno-Fassadenmasse, Gesamtmasse, künstlerische Ausstattung inkl. Papstgräbern,
+  Bauabschluss 1626) als neuer Abschnitt «Fünfter Architekt: Bernini» in
+  [[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]] ergänzt. Ein
+  Quellenwiderspruch dokumentiert, nicht aufgelöst: Gesamtlänge 211 m (diese Quelle) gegen
+  186,3 m (Renaissance-Zusammenfassung.pdf, selbe Vorlesungsreihe).
+- **`16_schloss_versailles.pdf`** (5 Seiten, zwei Texte): erster Text (Versailles-
+  Baugeschichte) grösstenteils Duplikat von
+  [[toennesmann-bernini-louvre-entwuerfe-perrault-ostfassade-versailles-baugeschichte]] —
+  nur die Vorgeschichte 1623-1661 (Richelieu-Pavillon, Le Roy, Ludwig-XIII.-Erwerb) sowie
+  Innenausstattung/Sonnenkönig-Symbolik und Nutzungsrealität (unbeheizbar, keine Toiletten)
+  waren neu und wurden als Abschnitt «Versailles vor 1661» in jenen Artikel ergänzt. Zweiter
+  Text (Barbara Borngässer, «Architektur des Barock in Frankreich», S. 2-5) ist durchgehend
+  neuer Stoff — Heinrich IV./Place Royale-Typus (Rückverlinkung statt Wiederholung, da
+  [[barocke-stadtplanung-offene-achsensysteme-platztypologie-place-royal]] die Typologie
+  bereits führt), Salomon de Brosse, François Mansart (Schloss Blois/Maisons), Le Vau
+  (Vaux-le-Vicomte/Hôtel Lambert), Eglise de la Sorbonne, Querelle des anciens et des
+  modernes (Blondel/Porte-Saint-Denis gegen Perrault/Pariser Observatorium), Hardouin-Mansart
+  (Invalidendom) — neuer Artikel
+  [[borngaesser-franzoesischer-barock-heinrich-iv-bis-hardouin-mansart-invalidendom]].
+- **`26_paris_um_1800.pdf`** (2 Seiten, Wikipedia-Kompilat): vollständig neuer Stoff, kein
+  Duplikat gefunden (Percier/Fontaine/Empire-Stil, Arc de Triomphe du Carrousel und de
+  l'Étoile, Hittorff, Place de la Concorde) — neuer Artikel
+  [[paris-empire-architektur-percier-fontaine-arc-de-triomphe-hittorff-place-concorde]].
+
+**Damit sind alle drei vom 90. Lauf benannten Nicht-Portrait-Positionen des
+Architektenportrait-Ordners abgearbeitet** (zwei Artikelergänzungen, zwei neue Artikel).
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische Architekten/Monarchen/Päpste.
+`git diff --numstat` nach jedem Schreibschritt geprüft: reiner Append auf dieser
+Inventardatei, Artikeländerungen betreffen ausschliesslich `wiki/`. **Nächster Lauf:**
+`Fragen.doc`-Rest (laut 84. Lauf bereits vollständig erledigt — vor erneuter Bearbeitung
+zuerst gegenprüfen, ob dieser Punkt in der Queue-Zelle nur redaktionell hängen geblieben
+ist), danach die rund 20 verbleibenden offenen Einzelportraits des Architektenportrait-
+Ordners (Duplikatscheck-Kriterium wie in den Läufen 81-83).
+
+## 260830 — Architektenportraits, Sektion `02_Architekturgeschichte` (92. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, `wiki/INDEX.md`, diese
+Inventardatei vollständig gelesen, nicht nur `tail`; `git status`/`git log` vor Beginn
+sauber, Top-Commit `e1d040fc8`). Dispatch-Text nannte 13 Kandidatennamen; Gegenprüfung ergab,
+dass fünf davon (Raffael, Michelangelo, Alberti, Bramante, Brunelleschi) bereits im 85. Lauf
+vollständig destilliert sind
+([[architektenportraits-sammlung-renaissance-kernfiguren-fuenf-kurzbiografien-alberti-bramante-raffael-michelangelo-brunelleschi]])
+— der Dispatch-Text war insofern veraltet, keine erneute Bearbeitung nötig.
+
+Von den verbleibenden acht Namen (Schinkel, Garnier, Ruskin, Morris, Webb, Wright, Sullivan,
+Semper) waren alle acht in den Läufen 83/85 per Namens-Grep pauschal als «bereits
+substanziell behandelt» eingestuft und seither ungeprüft zurückgestellt worden. Dieser Lauf
+hat alle acht Portraitdateien tatsächlich vollständig gelesen (nicht nur gegrept) und den
+Duplikatscheck neu ausgeführt:
+
+- **Echter Fund (Namensverwechslung Vater/Sohn):** `34_garnier.pdf` behandelt **Charles
+  Garnier** (Pariser Oper), die bestehende KB-Abdeckung unter «Garnier» betrifft aber
+  ausschliesslich dessen Sohn **Tony Garnier** (Cité Industrielle) — zwei verschiedene
+  Personen, kein Duplikat. Neuer Artikel
+  [[charles-garnier-pariser-oper-style-napoleon-iii-abgrenzung-sohn-tony-garnier]].
+- **Echter Mehrwert trotz bestehender Kanon-Zeile:** `27_schinkel.pdf` (6 S.) liefert
+  Bauakademie-Institutionsgeschichte, Altes-Museum-Konstruktionsdetail und einen
+  Lustgarten-Palimpsest-Essay (Buddensieg), die die einzeilige Kanon-Erwähnung in
+  [[sauter-klassizismus-historismus-eklektizismus-schinkel-semper-denkmalpflege-genese]]
+  nicht abdeckt. Neuer Artikel
+  [[schinkel-bauakademie-institutionsgeschichte-altes-museum-konstruktion-lustgarten-palimpsest]].
+- **Echter Mehrwert (Lücke: Theorie ja, Biografie nein):** `32_semper.pdf` (2 S.) liefert
+  Lebensstationen (Hamburg, Göttingen/Paris, Dresden, 1849 Barrikadenkämpfe mit Wagner,
+  Londoner Exil, Zürich, Wien, Tod in Rom), die trotz zahlreicher bestehender
+  Theorie-Artikel dieser KB bisher fehlten. Bestätigt den seit dem 81. Lauf bekannten
+  Datierungsfehler im Dateititel (1687-1753, korrekt Neumanns Daten). Neuer
+  Quellenwiderspruch dokumentiert: Studienort München (laut bestehendem Sauter-Kanon) gegen
+  Göttingen/Paris bei Gau (laut dieser Quelle) — offen, nicht aufgelöst. Neuer Artikel
+  [[gottfried-semper-biografie-lebensstationen-hamburg-dresdner-barrikaden-zuerich-wien]].
+- **Teilmehrwert (Ergänzung statt neuer Artikel):** `36_ruskin.pdf`, `37_morris.pdf`,
+  `38_webb.pdf` liefern konkrete Kriterienlisten (Ruskins Seven Lamps/Stones-of-Venice-
+  Kategorien), Webbs Werkregister (neun Landhäuser, Standen, Einfluss auf
+  Lethaby/Voysey/Lutyens/Mackintosh) und Morris' Firmen-/Vereinsgeschichte (1861/1877/1883/
+  1884), die die bestehende, auf einer fehlerhaften Live-Mitschrift beruhende
+  Genealogie-Darstellung in
+  [[gartenstadtbewegung-genealogie-pugin-ruskin-morris-howard-europa]] nicht enthält —
+  dort als neuer Abschnitt «Vertiefung (92. Lauf)» ergänzt, kein neuer Artikel (Status des
+  Basisartikels bleibt `speculative`, da Kernquelle weiterhin die Mitschrift ist).
+- **Bestätigtes echtes Duplikat, kein Mehrwert:** `39_wright.pdf` (Home and Studio Oak Park,
+  Robie House — beide bereits vollständig destilliert in
+  [[richardson-chicago-school-wright-vom-rundbogenstil-zur-stahlskelettbauweise-organischen-architektur]])
+  und `42_sullivan.pdf` (Auditorium/Wainwright Building dort ebenfalls bereits destilliert,
+  das «form ever follows function»-Zitat aus dem 1896er-Essay bereits belegt in
+  [[form-follows-function-genealogie-sokrates-vitruv-alberti-greenough-sullivan]]) — beide
+  bewusst **nicht** destilliert, Delta-Ehrlichkeit: PDF wurde vollständig gelesen, kein
+  neuer Fakt gefunden.
+
+Bestehende Fehleinschätzung in
+[[architektenportraits-sammlung-barock-klassizismus-drei-kurzbiografien-fischer-von-erlach-neumann-klenze]]
+(«bei 34-42 bereits substanziell behandelt») dort korrigiert, damit künftige Läufe nicht
+erneut ungeprüft auf denselben Namens-Grep-Fehlschluss hereinfallen. Sperrlisten-Prüfung: kein
+Fund, ausschliesslich historische, öffentlich bekannte Personen. `git diff --numstat` nach
+diesem Schreibschritt auf diese Inventardatei geprüft: reiner Append.
+
+**Damit sind alle 13 vom Dispatch-Text genannten Kandidaten abschliessend geklärt** (5 bereits
+erledigt, 3 neue Artikel, 3 als Ergänzung eingearbeitet, 2 bestätigte Duplikate). Von den
+ursprünglich 38 Portraitdateien bleiben nur noch **elf echte Kandidaten offen**:
+`9_rom_st`/`16_schloss_versailles`/`26_paris_um_1800` sind keine Portraits (bereits im
+91. Lauf abgearbeitet), `11_jacopo_barozzi_da_vignola` und `12_andrea_palladio` sind laut
+83. Lauf bereits substanziell behandelt (Sauter-Kanon, Toennesmann-Vertiefungen — noch nicht
+mit derselben Sorgfalt wie in diesem Lauf einzeln gegengeprüft), `23_ledoux` bewusst
+zurückgestellt (eigener Artikel vorhanden). **Nächster Lauf:** `Fragen.doc`-Rest gegenprüfen
+(laut 84. Lauf bereits erledigt, vermutlich nur redaktionell offen in der Queue-Zelle),
+danach Vignola/Palladio nach demselben «tatsächlich lesen statt nur grepen»-Standard
+gegenprüfen, den dieser Lauf etabliert hat. Sobald der Architektenportrait-Ordner
+abgeschlossen ist, laut Lauf-Historie als nächste P2-Kandidatensektion
+`02_Kunst_Geschichte` prüfen (siehe `KORPUS-QUEUE.md`).
+
+## 260830 — Vignola/Palladio gegengeprüft (93. Lauf Lane FACHWISSEN)
+
+Stand selbst ermittelt (`KORPUS-QUEUE.md`, `CHANGELOG.md`, diese Inventardatei vollständig
+gelesen; `git status` zeigte den unkommittierten Rest des 92. Laufs, zuerst per
+`nas-commit-now.sh` lokal gesichert — bekannter NAS-Merge-Konflikt in sechs fremden KBs,
+Working Tree danach lokal sauber). `11_jacopo_barozzi_da_vignola.pdf` (4 S.) und
+`12_andrea_palladio.pdf` (7 S.) vollständig gelesen (nicht nur gegrept), wie vom 92. Lauf als
+Standard etabliert. Beide waren entgegen der Einschätzung des 83. Laufs («bereits
+substanziell behandelt») nur mit den fünf bzw. den Kanon-Bauten dupliziert — jede Datei
+enthält erhebliches neues Material:
+
+- Vignola: Villa Giulia (1551), zwei Ovalkirchen (Sant'Andrea in Via Flaminia,
+  Sant'Anna dei Palafrenieri), Nachfolge Michelangelos als Petersdom-Baumeister (1564,
+  Lücke in [[toennesmann-sankt-peter-rom-baugeschichte-sechs-architektengenerationen]]
+  vermerkt, dort nicht ergänzt), vertiefter Il-Gesù-Grundriss, Bedeutung der «Regola delle
+  cinque ordini» (1562). Neuer Artikel
+  [[vignola-villa-giulia-ovalkirchen-caprarola-petersdom-nachfolge-regola-cinque-ordini]].
+  Zusätzlich enthielt dieselbe PDF einen Essay-Anhang (Hanno-Walter Kruft) zur
+  Dogmatisierung der Architekturtheorie im 16. Jahrhundert anhand Serlios sieben Büchern
+  (Publikationsgeschichte, Säulenordnung-Bauaufgaben-Zuordnung) — Duplikatscheck gegen
+  [[serlio-buehnenbau-scena-comica-tragica-satirica-1545]] negativ (andere Ebene), neuer
+  Artikel [[kruft-serlio-dogmatisierung-architekturtheorie-sieben-buecher-saeulenkanon]].
+- Palladio: Namensgebung/Trissino-Kreis, Humanistenkreis Trissino/Cornaro/Barbaro,
+  Palazzo Thiene (bislang ohne Artikel, Giulio-Romano-Kollaboration belegt durch
+  Inigo-Jones-Zitat 1614), zwei gescheiterte Wettbewerbe (Rialto-Brücke 1554 gegen Antonio
+  da Ponte, Dogenpalast-Neubau nach 1577 verworfen), San Pietro di Castello (1559, erster
+  Sakralbauauftrag), Tempietto Barbaro (letzter Sakralbau, mit Palladio-Zitat zur
+  Zentralbau-Symbolik), strukturierte Zusammenfassung der vier Quattro-Libri-Bücher,
+  Rezeptionsgeschichte Palladianismus, Ausblick Durand. Duplikatscheck gegen
+  [[toennesmann-palladio-fuenf-bauten-vertiefung-basilica-chiericati-rotonda-redentore-foscari]]
+  zuerst ausgeführt: die dort bereits in Konstruktionstiefe behandelten fünf Bauten (Basilica,
+  Chiericati, Rotonda, Redentore, Foscari) wurden hier bewusst **nicht** erneut destilliert.
+  Neuer Artikel
+  [[palladio-humanistenkreis-palazzo-thiene-rialto-dogenpalast-tempietto-quattro-libri-rezeption]].
+
+Sperrlisten-Prüfung: kein Fund, ausschliesslich historische, öffentlich bekannte Personen.
+`git diff --numstat` nach dem Schreibschritt auf diese Inventardatei geprüft: reiner Append.
+
+**Damit sind die beiden vom 92. Lauf benannten letzten unsicheren Kandidaten
+(`11_jacopo_barozzi_da_vignola`, `12_andrea_palladio`) geklärt.** Von den ursprünglich 39
+Einzelportraits bleibt nur noch `23_ledoux` bewusst zurückgestellt (eigener Artikel
+vorhanden, kein Mehrwert erwartet) sowie das Kartenset/die Sammelmappe (keine Portraits,
+P3-Charakter). **Der Architektenportrait-Ordner gilt damit als abgearbeitet.** Nächster
+Lauf: laut Lauf-Historie nächste P2-Kandidatensektion `02_Kunst_Geschichte` prüfen (siehe
+`KORPUS-QUEUE.md`).

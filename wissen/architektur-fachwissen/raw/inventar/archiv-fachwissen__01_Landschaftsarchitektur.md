@@ -192,3 +192,152 @@ bleibt liegen; er trägt Entwurf und Wettbewerb, nicht die Ausführung.
 Zwei Erschliessungslücken sind benannt und nicht behoben: die Bepflanzungsunterlage zum
 Irchelpark und rund 60 Buchseiten-Scans haben keinen Textlayer und wären nur über OCR
 zu heben.
+
+## Destillat-Fortschritt
+
+**29.08.2026 (Lane FACHWISSEN, elfter Destillat-Lauf Korpus `archiv-fachwissen`).** Alle
+vier P1-Dateien gelesen und destilliert bzw. geprüft:
+
+- `07_Pflanzen_Produkte_Mobelierung_Belaege/VOGT Bodenbeläge_120919.pdf` → destilliert zu
+  `wiki/aussenbelaege-regelaufbauten-vogt-2012.md`.
+- `07_Pflanzen_Produkte_Mobelierung_Belaege/Unterlagen Kolloquium.pdf` → in drei Sachen
+  aufgeteilt: Naturstein-Materialkunde destilliert zu
+  `wiki/naturstein-materialkunde-bollinger-sandstein.md` (S. 2); Baumpflanzung/Pflanzdichte/
+  Kletterpflanzen destilliert zu
+  `wiki/baumpflanzung-pflanzgrube-kletterpflanzen-typologie.md` (S. 13-16, ZH-Grenzabstände
+  bewusst nicht wiederholt, siehe dort); Dachbegrünung (S. 3-8) **nicht** destilliert —
+  Cross-KB-Duplikat zu `wissen/bauprodukte/wiki/dachbegruenung-systeme.md`, Zusatzfund als
+  Routing-Hinweis in `wiki/QUESTIONS.md` #52 vermerkt.
+- `07_Pflanzen_Produkte_Mobelierung_Belaege/pflanzen (1).pdf` + `pflanzen Layout (2).pdf` →
+  gemeinsam destilliert zu `wiki/immergruene-sicht-heckenpflanzen-artenliste.md`.
+
+**Damit ist P1 dieser Sektion vollständig destilliert.** P2 (24 Positionen, siehe Triage
+oben) bleibt offen für einen künftigen P2-Lauf. Kein neuer Datenschutz- oder Sperrlisten-Fund
+über den bereits im Kurzbefund/Datenschutz-Befund dokumentierten Stand hinaus.
+
+- **30.08.2026 (Lane FACHWISSEN, erster P2-Lauf dieser Sektion):** drei P2-Positionen
+  bearbeitet:
+  - `07_Pflanzen_Produkte_Mobelierung_Belaege/00_Produkte/Stadtbaum_Luzern/100411_stadtbaeume08_Luzern.pdf`
+    (Faltbogen, touristischer Baumporträt-Teil nicht destilliert) → Regel-/Praxisteil
+    destilliert zu `wiki/baumschutz-bewilligungsschwelle-stammumfang-stadt-luzern-2008.md`.
+  - `05_Literatur/Bäume.pdf` (52-seitige Artbestimmungsbroschüre, artenweise Porträts
+    bewusst nicht reproduziert — generisches Bestimmungswissen ohne JANS-Bürobezug) →
+    nur die beiden übertragbaren Bausteine (Baumaufbau-Terminologie, Artenverteilung
+    Schweizer Wälder nach LFI 1996) destilliert zu
+    `wiki/gehoelz-kurzwissen-baumaufbau-artenverteilung-schweizer-waelder.md`.
+  - `02_Landschaftsarchitekten/Vogt_Guenter/*` — **Triage-Korrektur:** von den vier in der
+    Triage-Zeile genannten Dateien ist nur die Kategorie zutreffend für drei: Novartis
+    Campus Park Basel, Bahnhofplatz Landquart, Gartenanlage Helvetia Patria St. Gallen
+    (echte Vogt-Referenzblätter). Die vierte, `Buonas_Roche_Tagungszentrum/
+    Roche_Tagungszentrum_d.pdf`, ist bei Volltextprüfung kein Vogt-Referenzblatt, sondern
+    ein Pittsburgh-Corning-Pressedienst zum Dämmstoff FOAMGLAS® am Gebäude Roche Forum
+    Buonas (Architektur Scheitlin Syfrig) — Hersteller-Marketing, nicht destilliert (Spec-
+    Abgrenzung «kein Hersteller-Marketing»). Die drei echten Referenzblätter destilliert zu
+    `wiki/vogt-referenzblatt-format-herkunft-material-identitaet.md` (Formatvorbild
+    Auftraggeber/Zeitraum/Leistungsphasen/Fläche/Herleitungstext, Muster
+    Herkunft-Material-Identität am Beispiel Landquart).
+
+  Kein neuer Datenschutz- oder Sperrlisten-Fund. `git diff --numstat` auf diese
+  Inventardatei nach dem Schreibschritt geprüft: reiner Append. **Verbleibende offene
+  P2-Positionen (rund 20 der ursprünglich 24 Zeilen, drei Positionen oben bearbeitet, eine
+  als Hersteller-Marketing verworfen):** Stadtbaum-Merkblatt-Nachbarn wie Irchelpark-
+  Bepflanzung (OCR-Blocker, kein Textlayer), `120919_Irchelpark.pdf` Lehrunterlage,
+  Vorlesungsnotiz Entwerfen-und-Bauen-mit-Pflanzen, Gartenanalyse-Raster (Methodik),
+  Gartenmöblierung-Renaissance-Destillat, Topografie-Prüfungsskript, Renaissance-Skript,
+  Ökologische-Gärten-Vorlesungsnotiz, Kolloquium-Auszug (Teildublette). Nächster Lauf:
+  Gartenanalyse-Raster (`00_Administration/07_Gartenanalyse/120814_Gartenanalyse.docx`)
+  als nächster Kandidat — methodischer Artikel, direkt auf Machbarkeitsstudien und
+  Bestandesaufnahmen übertragbar, kein Blocker bekannt.
+
+- **30.08.2026 (Lane FACHWISSEN, zweiter P2-Lauf dieser Sektion, direkt im selben Durchgang):**
+  `00_Administration/07_Gartenanalyse/120814_Gartenanalyse.docx` + beide PDF-Fassungen
+  (14.08. und 15.08.2012, inhaltlich identisch, zweite verfeinert) gelesen und destilliert zu
+  `wiki/gartenanalyse-raster-fuenf-kategorien-bestandesaufnahme.md` (`status: speculative`,
+  eigene Studiennotiz ohne unabhängige Zweitquelle). Kein neuer Datenschutz-Fund. `git diff
+  --numstat` geprüft: reiner Append. **Verbleibende offene P2-Positionen (rund 19 der
+  ursprünglich 24 Zeilen):** Irchelpark-Bepflanzung (OCR-Blocker), `120919_Irchelpark.pdf`
+  Lehrunterlage, Vorlesungsnotiz Entwerfen-und-Bauen-mit-Pflanzen (Stadtbaum-Konstruktives),
+  Gartenmöblierung-Renaissance-Destillat, Topografie-Prüfungsskript + Zusammenfassung,
+  Renaissance-Skript + Zusammenfassung, Ökologische-Gärten-Vorlesungsnotiz,
+  Kolloquium-Auszug (Teildublette). Nächster Lauf: Topografie-Prüfungsskript
+  (`06_Themenfelder_Vorlesungen/Topografie/00_Pruefungsskript_Topografie/`) — Anschluss an
+  Skill `massgebendes-terrain`, kein Blocker bekannt.
+
+- **30.08.2026 (Lane FACHWISSEN, dritter P2-Lauf dieser Sektion):** Stand vor Beginn selbst
+  ermittelt (`git status`/`git log` sauber, keine Doppel-Instanz laut `ps aux`). Vor Zugriff auf
+  `KORPUS-QUEUE.md`/`wiki/INDEX.md` verifiziert statt deren Fortsetzungshinweis blind übernommen:
+  die dortige Notiz «Sektion 02_Architekturtheorie hat noch ~100 offene P2-Vorlesungsmitschriften»
+  war veraltet — die Sektion `02_Architekturtheorie` ist laut eigener Inventardatei (Zeile 632-636)
+  bereits seit dem 23. P2-Lauf desselben Tages vollständig für P1 und P2 abgeschlossen; hier daher
+  nicht editiert (fremde Sektion), sondern nur zur Kenntnis genommen. `00_Pruefungsskript_Topografie/
+  00_Skript_Topografie_FS12.pdf` (18 Seiten, Albert Kirchengast, ETH Zürich, Prüfungsskript
+  Landschaftsarchitektur II, FS 2012) vollständig gelesen (`pypdf`), dazu die begleitende
+  Studierenden-Zusammenfassung `120213_Zusammenfassung_Topografie.docx` (`textutil`, reine
+  Paraphrase ohne neue Fakten, nicht eigenständig destilliert; die dortige Sicherungskopie ist
+  identisch, ebenfalls kein eigenständiger Fund). Gegen Wiki-Bestand geprüft (`grep -rli` auf
+  Corboz/Topografie/Girot/Leatherbarrow/Jackson/Cramer/Kienast — kein Duplikat, nur der
+  themenfremde `corboz-stadt-planer-architekten-metropole-schweiz-nordamerikanische-stadt.md`
+  existierte bereits). Zwei Artikel destilliert:
+  [[corboz-territorium-palimpsest-produkt-projekt-prozess-trias]] (`status: speculative`,
+  Corboz' Territorium-Trias Produkt/Projekt/Prozess und die Palimpsest-Metapher, Belegbeispiele
+  Bahn-2000-Langenthal und NEAT Sigirino, Girot-Organismus-Ergänzung) und
+  [[cramer-kienast-vogt-rasenpyramiden-schweizer-landschafts-land-art]] (`status: speculative`,
+  Ernst Cramers «Garten des Poeten» 1959 und Kienast Vogt Partners «Berggarten» Graz 2000 als
+  Schweizer Land-Art-Tradition abstrahierter Geländeformen). Nicht destilliert bleiben aus
+  derselben Quelle: Leatherbarrows Gegenposition zur Topografie, die Ästhetikdebatte
+  (Hogarth «Line of Beauty», Church vs. Kiley, WPA-Parkways/Seifert-Reichsautobahnen) sowie die
+  zeitgenössischen Parkbeispiele (Botanischer Garten Bordeaux, Parc de Clot Barcelona, Freeway
+  Park/Olympic Sculpture Park Seattle) — als offene Punkte in beiden neuen Artikeln vermerkt.
+  `git diff --numstat` auf diese Inventardatei nach dem Schreibschritt geprüft: reiner Append.
+  Damit ist die Position «Topografie-Prüfungsskript + Zusammenfassung» abgeschlossen.
+  **Verbleibende offene P2-Positionen (rund 17 der ursprünglich 24 Zeilen):** Irchelpark-
+  Bepflanzung (OCR-Blocker), `120919_Irchelpark.pdf` Lehrunterlage, Vorlesungsnotiz
+  Entwerfen-und-Bauen-mit-Pflanzen, Gartenmöblierung-Renaissance-Destillat, Renaissance-Skript +
+  Zusammenfassung, Ökologische-Gärten-Vorlesungsnotiz, Kolloquium-Auszug (Teildublette), dazu neu
+  als Fund vermerkt: die vier oben nicht destillierten Themenblöcke derselben Topografie-Quelle
+  (Leatherbarrow, Ästhetikdebatte, zeitgenössische Parks) als eigenständig nachholbare
+  Teilpositionen. Nächster Lauf: Renaissance-Skript + Zusammenfassung, sonst gemäss Queue-Regel
+  zur nächstgrössten Sektion mit offenem P2 übergehen.
+
+- **31.08.2026 (Lane FACHWISSEN, vierter P2-Lauf dieser Sektion):** Stand vor Beginn selbst
+  ermittelt: uncommittete Arbeit eines vorherigen, offenbar abgebrochenen Laufs vorgefunden
+  (CHANGELOG-Eintrag, diese Inventardatei, `wiki/QUESTIONS.md` sowie zwei neue Wiki-Dateien zum
+  Topografie-Prüfungsskript bereits geschrieben, aber weder in `wiki/INDEX.md` nachgetragen noch
+  gesichert) — nachgeholt: INDEX-Eintrag ergänzt, `bash scripts/nas-commit-now.sh` ausgeführt.
+  Der native NAS-Commit schlägt dabei reproduzierbar mit Merge-Konflikten in fremden Lane-Dateien
+  fehl (`wissen/normen/CHANGELOG.md`, `skills/wissens-destillat/KORPUS-QUEUE.md`,
+  `wissen/architekten-synobsis/CHANGELOG.md`, `wissen/baurecht/CHANGELOG.md`,
+  `wissen/grobkosten/CHANGELOG.md` u. a.) — deckungsgleich mit dem bereits bekannten, am
+  29.08.2026 eskalierten NAS-Git-Merge-Konflikt; nicht selbst aufgelöst (fremde Lanes, hohes
+  Risiko), der lokale `git`-Stand dieser Sektion ist davon unberührt. Danach die nächste offene
+  P2-Position bearbeitet: `01_Gartentypen/Renaissance/01_Pruefung_Skript/01_Skript_Renaissance_FS12.pdf`
+  (14 Seiten, Dr. Anette Freytag/Dunja Richter, ETH Zürich, FS 2012) vollständig gelesen. Die
+  Begleitdatei `renaissanceskript.pdf` im selben Ordner erwies sich als Vorgängerfassung
+  desselben Skripts (SS 2007, gleiche Autorin, gleicher Kerninhalt) — nicht eigenständig
+  destilliert, nur als Vorläuferversion vermerkt. `Zusammenfassung_Skript_Renaissance.docx`
+  (+ Sicherungskopie) geprüft: reine, fehlerhafte Studierenden-Paraphrase ohne neue Fakten, kein
+  eigenständiger Fund. Duplikatscheck gegen Wiki-Bestand (`grep -rli` auf Renaissance/Villa/
+  Girot/Bonfadio/Taegio/terza natura): keine Dublette, die vorhandenen
+  `renaissance-*`-Artikel behandeln die architekturgeschichtliche Seite (Vitruv/Alberti,
+  Idealstadt), nicht die Gartenkunst. Zwei Artikel destilliert:
+  [[terza-natura-cicero-bonfadio-taegio-renaissancegarten-begriffstrias]] (Cicero
+  altera/prima/terza natura, Bonfadio/Taegio-Begriffsprägung, Mimesis-Spannung
+  natürlich/künstlich) und
+  [[renaissance-gartengestaltung-kompartimente-zonierung-giardino-segreto]] (Vier-
+  Kompartiment-Schema kleiner Gärten, Zonierungsvokabular giardino segreto/delle semplici/bosco,
+  Rockox-Garten Antwerpen als rekonstruierbares Beispiel). Nicht destilliert bleiben aus
+  derselben Quelle: die kartografiegeschichtliche Einleitung (Ptolemäus, Mercator,
+  Zentralperspektive — eher Kunst-/Wissenschaftsgeschichte als Büropraxis), die italienische
+  Villenkultur und Plinius-Rezeption, der Botanische Garten Padua, die kulturgeschichtliche
+  Dimension (Utopie, Wunderkammer, Bomarzo) sowie die Literaturliste mit rund 15 weiteren
+  Referenzgärten — als offene Punkte vermerkt, Kandidaten für Folgeartikel aus derselben Quelle.
+  `git diff --numstat` auf diese Inventardatei nach dem Schreibschritt geprüft: reiner Append,
+  die zwei neuen Wiki-Dateien sind Neuanlagen. Kein Datenschutz-/Sperrlisten-Fund.
+  **Verbleibende offene P2-Positionen (rund 16 der ursprünglich 24 Zeilen):** Irchelpark-
+  Bepflanzung (OCR-Blocker), `120919_Irchelpark.pdf` Lehrunterlage, Vorlesungsnotiz
+  Entwerfen-und-Bauen-mit-Pflanzen, Gartenmöblierung-Renaissance-Destillat,
+  Ökologische-Gärten-Vorlesungsnotiz, Kolloquium-Auszug (Teildublette), dazu die oben
+  vermerkten, noch nicht destillierten Themenblöcke aus Topografie- und Renaissance-Quelle.
+  Nächster Lauf: Gartenmöblierung-Renaissance-Destillat (eigenes Destillat, kleinster
+  verbleibender Umfang), sonst gemäss Queue-Regel zur nächstgrössten Sektion mit offenem P2
+  übergehen.

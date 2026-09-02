@@ -90,6 +90,89 @@ abschliessend geklaert (vermutlich Timing zwischen NAS-Selfcommit-Takt und Auto-
 selbst war identisch und ist mit dieser Ergaenzung wieder auf der NAS-Kopie nachgefuehrt. Kein
 Datenverlust, da Git die vollstaendige Historie haelt — als Hinweis fuer Raphael vermerkt, falls
 sich das Muster wiederholt.
+## 2026-08-30 (Schub-Lane grobkosten, zwoelfter Dispatch) — unveraendert, knapper Verweis
+
+Zwoelfter wortgleicher Dispatch seit 29.08. 20:32 Uhr. Gegengeprueft (`raw/`-Ordnerliste mit
+`ls -la`, `wiki/kennwerte.md`-Frontmatter `sources:`, `wiki/INDEX.md`-Raw-Material-Status-
+Tabelle, `git log --oneline -- wissen/grobkosten/`): `raw/` unveraendert seit 17.08., alle 18
+realen Dateien weiterhin in `sources:` gefuehrt, kein neuer Commit auf `raw/` seit dem letzten
+Check. Kein weiterer Verdichtungsdurchgang. Blocker unveraendert Frage 1/2 in
+`wiki/QUESTIONS.md` (Raphaels Entscheid).
+
+## 2026-08-30 (Schub-Lane grobkosten, elfter Dispatch) — unveraendert, knapper Verweis
+
+Elfter wortgleicher Dispatch seit 29.08. 20:32 Uhr. Gegengeprueft (`git log -1 -- raw/`,
+`raw/`-Ordnerliste mit `ls -la`, `wiki/kennwerte.md`-Frontmatter `sources:`): `raw/` unveraendert
+seit 17.08., alle 18 realen Dateien weiterhin in `sources:` gefuehrt. Kein weiterer
+Verdichtungsdurchgang. Blocker unveraendert Frage 1/2 in `wiki/QUESTIONS.md` (Raphaels Entscheid).
+
+## 2026-08-30 (Schub-Lane grobkosten, zehnter Dispatch) — unveraendert, knapper Verweis
+
+Zehnter wortgleicher Dispatch seit 29.08. 20:32 Uhr. Gegengeprueft (`git log --oneline --
+wissen/grobkosten/`, `raw/`-Ordnerliste, `wiki/kennwerte.md`-Frontmatter `sources:`): kein
+neuer Commit auf `raw/` seit 17.08., der einzige Commit seither ist der eigene CHANGELOG-
+Eintrag des neunten Dispatches. Kein weiterer Verdichtungsdurchgang. Blocker unveraendert
+Frage 1/2 in `wiki/QUESTIONS.md` (Raphaels Entscheid).
+
+## 2026-08-30 (Schub-Lane grobkosten, neunter Dispatch) — unveraendert, knapper Verweis
+
+Neunter wortgleicher Dispatch seit 29.08. 20:32 Uhr. Gegengeprueft (`git log --oneline -- wissen/
+grobkosten/`, `raw/`-Ordnerliste, `training/quellen-inventar.md`): kein neuer Commit auf
+`wissen/grobkosten/` seit dem achten Dispatch (nur dessen eigener CHANGELOG-Eintrag), `raw/`
+unveraendert seit 30.07., keine offene `[ ]`-Zeile im Inventar. Kein weiterer
+Verdichtungsdurchgang. Blocker unveraendert Frage 1/2 in `wiki/QUESTIONS.md` (Raphaels Entscheid).
+
+## 2026-08-30 (Schub-Lane grobkosten, achter Dispatch selber Tag/Nacht) — unveraendert, knapper Verweis
+
+Achter wortgleicher Dispatch seit 20:32 Uhr (29.08.). Gegengeprueft (`git log --oneline -- wissen/
+grobkosten/`, `raw/`-Ordnerliste): kein neuer Commit auf `raw/` seit dem siebten Dispatch, der
+einzige Commit seither ist der eigene CHANGELOG-Eintrag des siebten Dispatches. Kein weiterer
+Verdichtungsdurchgang. Blocker unveraendert Frage 1/2 in `wiki/QUESTIONS.md` (Raphaels Entscheid).
+
+## 2026-08-29 (Schub-Lane grobkosten, siebter Dispatch selber Tag) — unveraendert, knapper Verweis wie angekuendigt
+
+Siebter wortgleicher Dispatch seit 20:32 Uhr. Gegengeprueft (`raw/`-Ordnerliste, `git log
+--oneline -- wissen/grobkosten/`): kein neuer Commit, kein neues Rohmaterial seit dem
+sechsten Dispatch direkt darunter. Kein weiterer Verdichtungsdurchgang. Blocker unveraendert
+Frage 1/2 in `wiki/QUESTIONS.md` (Raphaels Entscheid).
+
+## 2026-08-29 (Schub-Lane grobkosten, sechster Dispatch selber Tag) — unveraendert, knapper Verweis wie angekuendigt
+
+Sechster wortgleicher Dispatch seit 20:32 Uhr. Gegengeprueft (raw/-Ordnerliste, `git log --
+oneline -- wissen/grobkosten/raw/`, `wiki/QUESTIONS.md` Frage 1/2): nichts veraendert seit dem
+Eintrag zum fuenften Dispatch direkt darunter. Kein neuer Verdichtungsdurchgang, wie dort
+angekuendigt. Raphael sollte die VOLLGAS-Lane-Taktung fuer diese Lane pruefen.
+
+## 2026-08-29 (Schub-Lane grobkosten, fuenfter Dispatch selber Tag, ~23:12 Uhr) — unveraendert, letzter ausfuehrlicher Eintrag dieser Reihe
+
+**Befund:** fuenfter wortgleicher Dispatch seit 20:32 Uhr (20:32/22:00/22:09/22:33/23:12).
+Gegengeprueft: kein Commit auf `wissen/grobkosten/raw/` seit dem letzten Check, `raw/` lokal
+und NAS dateigleich, `git status` sauber. Nichts hat sich seit dem vierten Eintrag (unten)
+veraendert. Nicht ausgefuehrt: kein fuenfter inhaltsgleicher Verdichtungsdurchgang.
+
+**Ab hier keine weiteren ausfuehrlichen Nullbefund-Eintraege mehr** (analog zur Entscheidung
+der Lane NORMEN-PRUEFSTAND, `wissen/normen/CHANGELOG.md` Run 87): der Befund ist seit dem
+zweiten Dispatch unveraendert, der Blocker bleibt Frage 1/2 in `wiki/QUESTIONS.md`
+(Raphaels Entscheid), nicht ein weiterer Lane-Lauf. Ein sechster Dispatch mit identischem
+Auftragstext soll knapp auf diesen Eintrag verweisen statt erneut zu recherchieren. Das ist
+jetzt der zweite Wissens-Bereich (nach `normen`) mit demselben Symptom binnen desselben Tages
+— spricht fuer einen Dispatcher-/Scheduler-Fehler statt eines KB-spezifischen Problems;
+Raphael sollte die VOLLGAS-Lane-Taktung pruefen.
+
+## 2026-08-29 (Schub-Lane grobkosten, vierter Dispatch selber Tag, ~22:33 Uhr) — viertes Duplikat, unabhaengig gegengeprueft statt den drei Vorbefunden vertraut
+
+**Befund:** vierter Dispatch derselben Lane binnen desselben Tages, wortgleicher Auftragstext
+("20 raw-Eintraege, erst 3 Wiki-Artikel", identische Projektliste inkl.
+`2304-waedenswil-residualwert-zwei-varianten` und `2305-waedenswil-precheck`, die beide bereits
+als "geschlossen/dokumentiert, nicht promoviert" gefuehrt werden). Nicht blind auf die drei
+Eintraege darunter verlassen, sondern eigenstaendig gegengeprueft: `wiki/INDEX.md`
+Raw-Material-Status-Tabelle und `wiki/kennwerte.md`-Frontmatter `sources:` fuehren weiterhin alle
+18 realen `raw/`-Dateien; `raw/`-Ordnerliste unveraendert (juengste Datei weiterhin
+`zuercher-index-wohnbaupreise-2025-10-update.md`, 17.08.). Zusaetzlich zwei der staerksten
+Einzelfaelle direkt am Rohbeleg gegengeprueft: `raw/8155-niederhasli-seestrasse64.md`
+(1'032 CHF/m³, GV 3'843.8 m³, BKP 1–5 CHF 3'966'406 — Rechnung stimmt) und
+`raw/2304-reckholdern.md` (1'735 CHF/m³, GV 1'986 m³, BKP 1–5 CHF 3'446'500 — Rechnung stimmt).
+Beide decken sich exakt mit `wiki/kennwerte.md`.
 
 **Nicht ausgefuehrt:** kein vierter inhaltsgleicher Verdichtungsdurchgang — `raw/`,
 `wiki/kennwerte.md` und `wiki/INDEX.md`-Tabelle bleiben unangetastet, kein Kennwert erzeugt.
@@ -99,6 +182,34 @@ sich das Muster wiederholt.
 ohne neues Rohmaterial in `raw/` erzeugt jeder weitere Dispatch dieser Lane nur denselben
 Nulldurchgang. Empfehlung unveraendert: Lane auf Ereignis-Trigger (neues Rohmaterial in `raw/`)
 statt Tages-Rotation umstellen.
+**Hinweis fuer den Dispatcher (wiederholt, jetzt zum dritten Mal protokolliert):** die
+Vorlagenzahl "20 raw / 3 Wiki-Artikel" ist weiterhin nicht aktualisiert und hat denselben
+Auftrag ein viertes Mal ausgeloest. Der einzige inhaltliche Blocker fuer einen echten
+Fortschritt bleibt Frage 1/2 in `wiki/QUESTIONS.md` (BKP-1-9-vs-1-5-Scope, Standard-
+Klassifikation "norm, eloquent") — nur durch Raphaels Entscheid loesbar, nicht durch einen
+weiteren Lane-Dispatch. Empfehlung unveraendert: Lane auf Ereignis-Trigger (neues Rohmaterial
+in `raw/` oder Raphaels Antwort zu Frage 1/2) statt Tages-Rotation umstellen.
+
+## 2026-08-29 (Schub-Lane grobkosten, dritter Dispatch selber Tag, ~22:09 Uhr) — erneut Duplikat erkannt, erneut keine Verdichtung erzwungen
+
+**Befund:** dritter Dispatch derselben Lane binnen desselben Tages mit wortgleichem Auftragstext
+("20 raw-Eintraege, erst 3 Wiki-Artikel", identische Projektliste) wie die beiden Eintraege
+direkt darunter (Commits `7778d7b0b` 20:32 Uhr und `b1578cb45` 22:00 Uhr). Unabhaengig
+gegengeprueft statt den beiden Vorbefunden vertraut: `git log --oneline -- wissen/grobkosten/`
+zeigt keinen Commit zwischen `b1578cb45` (22:00:37) und diesem Lauf (22:09); die `raw/`-Ordnerliste
+ist unveraendert (juengste Datei weiterhin `zuercher-index-wohnbaupreise-2025-10-update.md` vom
+17.08.); `wiki/INDEX.md` Raw-Material-Status-Tabelle und `wiki/kennwerte.md` Frontmatter
+`sources:` fuehren weiterhin alle 18 realen `raw/`-Dateien vollstaendig auf; `training/
+quellen-inventar.md` Z. 14 bestaetigt weiterhin "keine `[ ]`-Zeile".
+
+**Nicht ausgefuehrt:** kein dritter inhaltsgleicher Verdichtungsdurchgang — `raw/`,
+`wiki/kennwerte.md` und `wiki/INDEX.md`-Tabelle bleiben unangetastet, kein Kennwert erzeugt.
+
+**Hinweis fuer den Dispatcher (wiederholt):** die Vorlagenzahl "20 raw / 3 Wiki-Artikel" ist
+nach zwei vorherigen Korrekturen (Eintraege unten) weiterhin nicht aktualisiert worden und hat
+denselben Auftrag ein drittes Mal ausgeloest — ohne neues Rohmaterial in `raw/` erzeugt jeder
+weitere Dispatch dieser Lane nur denselben Nulldurchgang. Empfehlung unveraendert: Lane auf
+Ereignis-Trigger (neues Rohmaterial in `raw/`) statt Tages-Rotation umstellen.
 
 ## 2026-08-29 (Schub-Lane grobkosten, zweiter Dispatch selber Tag) — Duplikat-Auftrag erkannt, keine erneute Verdichtung erzwungen
 

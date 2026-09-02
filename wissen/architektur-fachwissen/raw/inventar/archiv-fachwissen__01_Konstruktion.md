@@ -346,3 +346,139 @@ siehe `wiki/QUESTIONS.md`.
 **Sperrliste-Prüfung:** keine neuen Funde. `00_Baustoffkonzept/Baustoffadressen` und
 `09_Konstruktion/28_Konstruktionaufbauten` (Diplomarbeit Markus Abegg, ausser dem
 unabhängigen Lignatur-Unterordner) weiterhin nicht geöffnet.
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (Lane FACHWISSEN, erster P2-Lauf dieser Sektion)
+
+Auftrag: die im Abschnitt oben als P2 zurückgestellten Positionen «Deckenaufbauten-
+Vergleichsstudie» und «Lüftungsgrundlagen/CO2-Kennzahlen» destillieren, danach so weit Budget
+trägt weitere P2-Positionen. NAS-Mount während des gesamten Laufs stabil (keine Ausfälle).
+
+- **`02_Bauelemente/04_Decke_Boden/100601_Deckenstruktur_Resarch_Oswald/
+  ResearchDeckenstruktur.pdf` — destilliert.** [[deckenaufbauten-vergleichsstudie-lichte-raumhoehe-konstruktionsraster]].
+  Da `pypdf`-Text-Extraktion die bemassten Zahlen nicht eindeutig den Massachsen zuordnete
+  (nur lose Zahlenfragmente pro Seite), wurden alle neun Seiten zusätzlich mit PyMuPDF (`fitz`)
+  bei 200 dpi als PNG gerendert und visuell gelesen — damit ist die Zuordnung Bauwerk/h-Wert/
+  Profilmass belegt, nicht geraten. Zwei h-Werte (Haus Milan, Kindertagesstätte São Bernardo,
+  beide Mendes da Rocha) sind im Original ohne Dezimaltrennzeichen beschriftet («h=600»,
+  «h=650») und deshalb im Artikel ausdrücklich als unsicher markiert, nicht stillschweigend
+  als 6,00 m/6,50 m behauptet. Ein Beispiel (Caruso St John, New Art Gallery Walsall) hat keinen
+  h-Wert im Blatt; nicht ergänzt.
+- **`01_Technische_Inst_I_II/` — Lüftungs-Foliensatz destilliert, Rest der 120 Dateien nicht
+  einzeln gesichtet.** Verifikation der Inventar-Behauptung «zwei Foliensätze mit Textebene
+  gelesen»: bestätigt am Original — `02_Vorlesungsfolien/110916_Webseite/03_Luftung.pdf`
+  (41 Seiten, 30'192 Zeichen laut `pypdf`) und die inhaltsgleiche 4-pro-Seite-Druckversion
+  `02_Vorlesungsfolien/04 Lüftung 4er.pdf` (17'219 Zeichen) tragen beide echten Text; Autor und
+  Datum (© Prof. H.-J. Leibundgut, Professur für Gebäudetechnik ETH Zürich, August 2008) stehen
+  auf der letzten Folienseite und wurden vorher nicht im Inventar vermerkt. Zwei Artikel:
+  [[lueftungsgrundlagen-co2-kennzahlen-aussenluftwechselraten-eth-leibundgut]] und
+  [[lueftungssystematik-zuluftfuehrung-waermerueckgewinnung-eth-leibundgut]]. Übrige Dateien der
+  Gruppe (Prüfungsvorbereitung, Formelsammlungen, Vorlesungsnotizen zu anderen Themen als
+  Lüftung, Lüftungsschema-Bildersammlung) nicht einzeln geprüft — für einen künftigen P2-Lauf
+  vorgemerkt, falls dort über die beiden destillierten Artikel hinausgehender Neuwert steckt.
+  **Norm-Diskrepanz-Fund:** die fAR-Tabelle der Vorlesung zitiert «nach SIA 384/1»; der
+  Registerstand in `wissen/normen` weist SIA 384/1:2022 als Heizungsanlagen-Norm aus, nicht als
+  Lüftungsnorm (dafür gilt heute SIA 382/1:2014) — als offener Punkt im Artikel und in
+  `wiki/QUESTIONS.md` vermerkt, nicht stillschweigend gleichgesetzt.
+
+**Nicht destilliert in diesem Lauf, aus Zeit-/Budgetgründen zurückgestellt (weiterhin P2):**
+`04_Bauphysik_Energie/02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien, Bauphysik
+I–III ETH Zürich, Auftrags-Position 3) und der systematische Teil von `02_Bauelemente/`
+(209 Dateien, Auftrags-Position 4) — beide nicht begonnen, für den nächsten P2-Lauf dieser
+Sektion vorgesehen.
+
+**Sperrliste-Prüfung:** keine neuen Funde, keine der sechs gesperrten Positionen geöffnet
+(`00_Baustoffkonzept/Baustoffadressen`, `09_Konstruktion/28_Konstruktionaufbauten` ausserhalb
+Lignatur, `01 2D Details`, `01_Baustoff_Materialitaet/` Materialordner, `.band`/`.aif`-Dateien,
+`06_Construction_Caruso/`). `06_Construction_Caruso/` in diesem Lauf nicht erneut technisch
+geprüft — der Erst-Sweep-Befund «keine Textebene, reine Scans» wurde übernommen, nicht neu
+verifiziert; sollte ein künftiger Lauf dort ansetzen wollen, ist eine eigene Prüfung fällig.
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (Lane FACHWISSEN, dritter P2-Lauf dieser Sektion)
+
+Auftrag: die beiden im zwanzigsten Lauf zurückgestellten P2-Positionen weiterbearbeiten.
+Bearbeitet: `02_Bauelemente/` systematischer Teil (209 Dateien). `04_Bauphysik_Energie/
+02_Skripte`, `01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien, Bauphysik I–III ETH) in diesem
+Lauf nicht begonnen — bleibt offen für den nächsten Lauf.
+
+- **`02_Bauelemente/` systematischer Teil — vollständig gesichtet, Ertrag gering.** Alle
+  Unterordner (`00_Theorie` bis `16_Rolltreppe`) auf Nicht-Bild-Dateien durchsucht (`find`
+  ohne jpg/jpeg/png/tif/gif/bmp). Ergebnis: von 209 Dateien sind die allermeisten Fotos, CAD-
+  Dateien (`.dxf`/`.pln`/`.bpn`) oder reine Bildscans ohne Textebene (per `pypdf`
+  seitenweise geprüft, nicht nur Stichprobe). Textlesbare Funde:
+  - `03_Oeffnung_Fenster/02_Fensteröffnung/Die_Oeffnung.pdf` — eigene Studienarbeit
+    Raphael Jans (HTA Bachelor, Sommersemester 2007, «Rafael Jans» als Autor im Dokument),
+    Skizzenpläne zu einer Öffnung in der Theaterhalle Künstlerkolonie Erstfeld. **Nicht
+    destilliert** — Studienarbeiten auch von Raphael Jans selbst sind laut
+    `specs/archiv-fachwissen-spec.md` kein eigenständiger Artikelstoff.
+  - `09_Eingaenge/Vorlesung_Phänomen Eingang.pdf` (Prof. Schwartz, «Tragwerksentwurf», ETH,
+    39 Seiten) — **destilliert**:
+    [[phaenomen-eingang-typologie-schwellenraum-eth-schwartz]].
+  - `09_Eingaenge/renefurer_heft_7.pdf` (René Furer, «Zwei Eingänge», Heft 7, ISBN
+    978-3-9523262-6-8, 2008) — als Ganzes ein essayistischer Architekturvergleich ohne
+    eigenständig destillierbare Fachmethodik; **ein Einzelfund destilliert**
+    (Pilzdecken-Frühgeschichte Maillart): [[pilzdecken-fruehgeschichte-schweiz-maillart-giesshuebel]].
+  - `04_Decke_Boden/AW_ Bodenaufbau.pdf` — private E-Mail-Korrespondenz Raphael Jans mit
+    einem Studienkollegen (2009, private Adressen beider Absender im Klartext). **Nicht
+    destilliert und nicht zitiert** — private Korrespondenz, kein Fachartikel-Stoff. Kein
+    Sperrlisten-Fund im engeren Sinn (keine Vertrags-/Lohn-/Gesundheitsdaten), aber bewusst
+    nicht in die KB übernommen.
+  - `04_Decke_Boden/rapitzdecken/R7U56D~3.PDF` — reine Literaturlisten-Seite einer
+    deutschen Fachdatenbank (baufachinformation.de), kein Artikeltext selbst. Nicht
+    destillierbar.
+  - `05_Dach/00_Konstruktion/emag_gedruckt_A4.pdf` (68 Seiten, deutsches Dachdecker-
+    Fachmagazin, Ausgabe 3.2010) — geprüft (Inhaltsverzeichnis plus Stichproben
+    Gründach-/Brandschutz-Artikel S. 16-19). Überwiegend Hersteller-Marketing (Zinco,
+    Rhepanol, Braas) und deutscher Marktkontext; laut Spec kein Hersteller-Marketing
+    destillieren. **Nicht destilliert.**
+  - `05_Dach/Sheddachtypologie/` (drei PDFs, u. a. Herrera-y-Obes-Lagerhalle von Eladio
+    Dieste) — jeweils nur eine einzelne exportierte Vorlesungsfolie mit Bildlegende,
+    nicht der volle Foliensatz. Zu dünn für einen eigenständigen Artikel. **Nicht
+    destilliert.**
+  - `02_Wand/Brunelleschi...pdf`, `10_Tuer/Tuer.pdf`, `03_Oeffnung_Fenster/Fenster.pdf` —
+    reine Bildscans ohne Textebene (0 Zeichen laut `pypdf`).
+  - `09_Eingaenge/DETAIL/` (23 JPG-Scans, Zeitschrift *Detail*, Rubriken u. a.
+    «Stadteingänge», «Das Werktor», «Servicecenter München») — keine Textebene, nur mit
+    Vision/OCR erschliessbar; für einen künftigen Lauf vorgemerkt.
+  - `06_Treppen/` in diesem Lauf nicht erneut bearbeitet — bereits im vorherigen Lauf
+    (`VL 08 _ 20100506_treppen.pdf`) vollständig destilliert, siehe
+    [[treppen-tragwerkstypologie-eth-vorlesung-tragstruktur-kohlhammer-rinke]].
+
+**Sperrliste-Prüfung:** keine neuen Funde in den sechs bekannten gesperrten Positionen.
+Zusätzlich vermerkt (kein Sperrlisten-Fund, aber Vorsichtsmassnahme): private
+E-Mail-Korrespondenz in `04_Decke_Boden/AW_ Bodenaufbau.pdf` nicht destilliert, siehe oben.
+
+## Destillat-Fortschritt — Ergänzung 2026-08-30 (Lane FACHWISSEN, vierter P2-Lauf dieser Sektion)
+
+Dispatch-Auftrag erneut veraltet («kein Destillat, keine Spec», zwölftes Beispiel desselben
+Musters, Memory `project_fachwissen-dispatch-loop`); vor Arbeitsbeginn `ps aux` gegen
+Parallel-Instanzen geprüft (kein FACHWISSEN-Duplikat) und `KORPUS-QUEUE.md`/`CHANGELOG.md`
+gelesen — Lauf orientierte sich am realen Stand, nicht am Dispatch-Text.
+
+Bearbeitet: letzte offene P2-Position dieser Sektion, `04_Bauphysik_Energie/02_Skripte`,
+`01_Vorlesungsfolien`, `03_Uebungen` (153 Dateien, Bauphysik I–III ETH Zürich). Damit ist die
+Sektion `01_Konstruktion` jetzt für **P1 UND P2 vollständig abgeschlossen**.
+
+- Kernfund: das deutschsprachige Manz-Skript «Bauphysik III, FS 2009» (`00_Uebersicht/
+  deutsch Manz/`, identisch dupliziert unter `03_Energie/03_ETHZ/`, per MD5 verifiziert)
+  enthält die Kapitel 3–7 plus Anhang; Kapitel 1–2 waren bereits in früheren Läufen
+  destilliert ([[aussenklima-grundlagen-solarstrahlung-erdreichtemperatur-eth-bauphysik-iii-manz]],
+  [[thermische-behaglichkeit-pmv-ppd-modell-fanger-eth-bauphysik-iii-manz]]). Alle sieben
+  Kapitel per `pypdf` vollständig textextrahiert und gelesen (Kap. 3: 32'728 Zeichen, Kap. 4:
+  35'543, Kap. 5: 38'206, Kap. 6: 22'575, Kap. 7: 49'913, Anhang: 9'481 Zeichen zzgl.
+  Klimadaten-Tabellen als reine Bildscans ohne Textebene).
+- Drei Wiki-Artikel aus Kapitel 3, 5 und 6 destilliert (Details CHANGELOG 2026-08-30):
+  [[instationaerer-waermedurchgang-eindringtiefe-zeitkonstante-eth-bauphysik-iii-manz]],
+  [[luftdichtheitsphysik-winddruck-thermischer-auftrieb-blower-door-eth-bauphysik-iii-manz]],
+  [[instationaeres-raumverhalten-zeitkonstante-gewinn-verlust-verhaeltnis-eth-bauphysik-iii-manz]].
+- **Kapitel 4 (Transparente Bauteile: g-Wert/Uw-Herleitung, Sonnenschutz-Klassifizierung) und
+  Kapitel 7 (Energie und Nachhaltigkeit: SIA-380/1-Heizwärmebedarf, Heizgradtage, graue
+  Energie, Minergie, Niedrigenergie-Strategien) bewusst NICHT destilliert** — Registerprüfung
+  gegen `wissen/energie/wiki/` ergab, dass die dortigen Artikel (`fenster-uw-g-wert-
+  zielkonflikt.md`, `sommerlicher-waermeschutz.md`, `graue-energie.md`, `minergie-
+  standards.md`, `u-werte-grenzwerte-ch.md`, `daemmstoffe-lambda.md`) dieselben Themen mit
+  aktuellem Normstand (SIA 380/1:2016, SIA 180:2014, Minergie-Reglement 2026.1, KBOB
+  v9.0/2026) bereits `established` führen; das 2009er-Manz-Skript hätte hier nur veraltete
+  Grenzwerte dupliziert. Anhang-Tabellen 3–5 (SN EN 12524-Baustoffkennwerte λ/ρ/c/μ) aus
+  demselben Grund nicht destilliert — Duplikat zu `wissen/energie/wiki/daemmstoffe-lambda.md`.
+  Details und Routing-Hinweis in `wiki/QUESTIONS.md` #66.
+- Sperrliste-Prüfung: keine neuen Funde, keine der sechs gesperrten Positionen betroffen.
