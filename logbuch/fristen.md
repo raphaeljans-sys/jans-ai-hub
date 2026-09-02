@@ -5089,3 +5089,32 @@ Nicht selbst aufgeloest: unbeaufsichtigter Lauf, Git-Interna, fremde unbestaetig
 Konfliktdatei (Rule `interaktive-eingriffe` Ziff. 3, Rule `auto-verbesserungen` 260811 Ziff. 3).
 Vorgelegter Weg, nativ auf der Synology und nur nach Sichtung der Konfliktdatei durch Raphael:
 `ssh raphaeljans@diskstation918.tail8265aa.ts.net "cd /volume2/daten/jans-ai-hub && git merge github/main"`
+
+**Nachtrag 02.09.2026 02:0x (normen-training-nacht Run 77, eigene Messung nativ per ssh) — der
+blockierende Konflikt ist auf BEIDEN Seiten ein reiner Prepend, es loescht niemand etwas.**
+Der Lauf stiess beim eigenen `nas-commit-now.sh` in den Konflikt und hat ihn deshalb
+charakterisiert, statt ihn nur erneut zu melden. Drei Messwerte, alle nativ per ssh:
+1. Der haengende Commit **`1eed7118c`** (29.08. 22:06) beruehrt **genau eine Datei**,
+   `wissen/normen/CHANGELOG.md`, mit **35 Zeilen und dem Diff-Kopf `@@ -0,0 +1,35 @@`** — ein
+   Einschub an Position 1, **null Loeschungen**.
+2. Seit dem merge-base steht diese Datei lokal bei **+212 / −0** (6 Commits) und auf
+   `github/main` bei **+162 / −0**. **Keine der beiden Seiten entfernt eine einzige Zeile.**
+3. Beide Seiten schreiben ausschliesslich neue Datumsbloecke an den Dateikopf.
+**Was das aendert:** Die Eintraege seit dem 29.08. fuehren die Blockade als «Konflikte brauchen
+ein Urteil» — das ist die Regel des Selfcommit-Skripts und fuer den allgemeinen Fall richtig.
+Fuer **diese** Datei trifft es nicht zu: wenn keine Seite loescht und beide nur oben anfuegen,
+ist die Aufloesung **mechanisch** — beide Bloecke behalten, nach Datum ordnen. Es gibt keine
+inhaltliche Entscheidung zu treffen und keine fremde Arbeit, die verloren gehen koennte. Damit
+faellt die Hemmschwelle: was seit vier Tagen als Urteilsfrage liegt, ist der Sache nach eine
+Bestaetigung. **Die Einstufung als P1 bleibt unveraendert** — 356 fertige afw-Wiki-Artikel
+fehlen weiterhin in der kanonischen Quelle (Nachtrag 01.09. 23:5x).
+**Zaehlerstand jetzt:** Versuch **730**, Divergenz **640 lokal / 267 remote**, Log
+`sync-tasks/log/selfcommit-202609.log`.
+**Dieser Lauf haengt jetzt mit drin:** die 640. ist der Commit **`6c34e2db6`** (normen Run 77,
+13 Dateien). Sie ist sauber und vollstaendig auf dem NAS, aber sie liegt auf der lokalen Seite —
+wer die Divergenz aufloest, hat sie mit dabei. Der Lauf hat zudem **78 Zeilen an den Kopf genau
+der Konfliktdatei** angefuegt (Punkt 2 oben schliesst sie ein); das aendert die Art des Konflikts
+nicht, aber der aufloesende Blick sollte es wissen.
+**Weiterhin nicht selbst aufgeloest** — unbeaufsichtigter Lauf und Git-Interna, unveraendert nach
+Rule `interaktive-eingriffe` Ziff. 3. Der vorgelegte Befehl oben bleibt gueltig; neu ist nur, dass
+sein Ergebnis nach Punkt 1-3 voraussehbar ist.
