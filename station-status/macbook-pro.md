@@ -1,11 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 02.09.2026 16:21:08
+Stand: 02.09.2026 16:41:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 16:03)
-- Developer/jans/ai/hub//claude/worktrees/kwc/sirius/bs302/kispi/cd9dd1  (letzte Aktivitaet 16:20)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:03)
+- Developer/jans/ai/hub//claude/worktrees/kwc/sirius/bs302/kispi/cd9dd1  (letzte Aktivitaet 16:22)
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:28)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +13,4 @@ Stand: 02.09.2026 16:21:08
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- a6fb7e3bd Merge github/main (Sync-Reparatur 260902, Union-Aufloesung Log-Dateien)
+- de7a7d718 nas-selfcommit: 1 Datei(en) 2026-09-02 16:30
