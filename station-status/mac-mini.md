@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 02.09.2026 01:54:16
+Stand: 02.09.2026 02:04:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 02.09.2026 01:54:16
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 2900a28e6 nas-selfcommit: 5 Datei(en) 2026-09-02 01:45
+- 204f9418d normen Run 77: Messwert fristen.md im Report auf den nativ gemessenen Wert +29/-0 korrigiert
