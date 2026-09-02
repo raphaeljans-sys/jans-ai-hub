@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 02.09.2026 22:59:07
+Stand: 02.09.2026 23:09:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 22:58)
@@ -12,4 +12,4 @@ Stand: 02.09.2026 22:59:07
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 399813192 energie Run 175: Fassaden-Solar ZH (E-B141-1) + ewz-Fernwaermetarif (E-R163-1) geschlossen, Fehldatierung Art. 32a Abs. 1bis RPV korrigiert
+- 53107d8de nas-selfcommit: 1 Datei(en) 2026-09-02 23:00
