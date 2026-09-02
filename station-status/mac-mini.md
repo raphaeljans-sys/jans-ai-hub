@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.09.2026 01:12:46
+Stand: 03.09.2026 01:23:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 01:12:46
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 5f34976f7 vollgas-radar 03.09. 00:57: P1-Sync-Stau aufgeloest, Merge-Inflation im Liefer-Delta korrigiert, Rate 0.45 stabil
+- 0dd8faad5 nas-selfcommit: 2 Datei(en) 2026-09-03 01:15

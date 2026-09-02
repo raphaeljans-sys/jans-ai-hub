@@ -1,9 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.09.2026 01:07:40
+Stand: 03.09.2026 01:28:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:57)
+- Developer/jans/ai/hub//claude/worktrees/fc/bayern/vfl/uhf/player/cd6da6  (letzte Aktivitaet 01:13)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:13)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +13,4 @@ Stand: 03.09.2026 01:07:40
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 5f34976f7 vollgas-radar 03.09. 00:57: P1-Sync-Stau aufgeloest, Merge-Inflation im Liefer-Delta korrigiert, Rate 0.45 stabil
+- 0dd8faad5 nas-selfcommit: 2 Datei(en) 2026-09-03 01:15
