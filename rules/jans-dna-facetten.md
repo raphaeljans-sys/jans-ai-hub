@@ -30,12 +30,13 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
   («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz hängt an der
   GATTUNG, nicht am Empfänger (260807/260808):** wer für sich selbst etwas erbittet, hält den
-  Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, die erbetene Auskunft
-  (Amt ODER Lieferant, 260827), **Erst-Offertanfrage** — die praezisierte Zweitanfrage im
-  laufenden Verfahren traegt ihn NICHT (260826; Familie 260818)); wer liefert, meldet oder **das Amt um Auskunft
-  ERSUCHT** (260823), hört nach dem letzten Sachsatz
-  auf (Transmittal, Gesuch/Antrag, Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
-  (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
+  Kanal offen: Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, erbetene Auskunft
+  (Amt ODER Lieferant, 260827), Erst-Offertanfrage, **Antrag ans Amt und Abgebot** (260902,
+  zweifach — die Gegen-Carve-outs 260719/260818/260826 sind insoweit BESTRITTEN, im Zweifel
+  setzen); die praezisierte Zweitanfrage traegt ihn NICHT (260826). Wer liefert, meldet oder
+  **das Amt um Auskunft ERSUCHT** (260823, Delta-Beleg 260902), hört nach dem letzten Sachsatz
+  auf (Transmittal, Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der
+  Schlusspunkt schwankt (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)** — die Wiederholung
   rahmt die dazwischenliegende Nachforderung ein; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
@@ -86,11 +87,10 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
   Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
   **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
-- **Alles im laufenden Vergabeverfahren trägt KEINEN Service-Satz (260818, erweitert 260826):**
-  Abgebot, Nachfass **und schon die präzisierte Zweitanfrage** sind Abwicklung im Mandat — «Im
-  Auftrag der Bauherrschaft **bitte ich Sie** …» (nackter Indikativ: der Druck stammt von der
-  Bauherrschaft), dann «Danke für Ihre Unterstützung.» + «**Wir freuen uns auf die
-  Zusammenarbeit.**» Der Nachlass wird als Total beziffert («-8%tot»), nie umschrieben.
+- **Im laufenden Vergabeverfahren (260818/260826):** «Im Auftrag der Bauherrschaft **bitte ich
+  Sie** …» (nackter Indikativ: der Druck stammt von der Bauherrschaft), dann «Danke für Ihre
+  Unterstützung.» + «**Wir freuen uns auf die Zusammenarbeit.**» Der Nachlass wird als Total
+  beziffert («-8%tot»), nie umschrieben. Zum Service-Satz siehe oben (260902).
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji oder
   Mundart ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail:
   Hochdeutsch); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
@@ -286,8 +286,8 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Bestätigungsbitte. (b) **die Behörde um Auslegung einer strittigen Norm bitten**: NICHT
   subsumieren, sondern die **konkurrierenden Auslegungen belegt gegenüberstellen** (exakte
   Fundstellen, Quellen anhängen) und mit geschlossener «–»-Alternativfrage + «oder» +
-  «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen. Beide enden mit FG + Block **ohne
-  Service-Satz**. Honorar als durchgerechnete Offerte nüchtern beziffern (Tagespauschale, «exkl.
+  «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen. Beide enden mit FG + Block; der Service-Satz
+  ist beim **Antrag** belegt (260902), beim Auslegungs-Ersuchen nicht. Honorar als durchgerechnete Offerte nüchtern beziffern (Tagespauschale, «exkl.
   MwSt.», Geltungsdauer), warm gerahmt. Bei der Weitergabe einer **Behörden-Auflage an die
   Bauherrschaft** deren materiellen Wortlaut übernehmen statt zu paraphrasieren und jeden Punkt
   seiner **namentlichen Amtsstelle** zuordnen (Liste unten). Bei einer **Korrektur-/Planlieferung**
@@ -380,8 +380,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   entscheidet **je Block neu**: eine einzige operative Mail trug sechs Formen nebeneinander. Die Aufzählung steht auch mitten im Satz, ohne
   Aufzählungszeichen; der Satz läuft über sie hinweg.
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten; offene Enden
-  ohne nächsten Schritt **in der Mail**; eine Folge einzeln zu beantwortender Fragen als offene
-  Bullet-Liste tarnen; **den Formalisierungs-Reflex ins engste Peer-Du tragen** (dort reflexhaft
+  ohne nächsten Schritt **in der Mail**; **den Formalisierungs-Reflex ins engste Peer-Du tragen** (dort reflexhaft
   nummerieren, umsortieren, Anrede oder Gruss-Rahmen ergänzen, wo das Vorbild roh bleibt); **den
   Schluss über die Bedingung bzw. den Nutzen hinaus verlängern** (weder Begründungssatz noch
   Reihenfolge-Empfehlung noch Rückfrage); **was das Gegenüber selbst gesetzt hat,

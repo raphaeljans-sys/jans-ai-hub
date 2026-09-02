@@ -194,8 +194,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   entscheidet **je Block neu**: eine einzige operative Mail trug sechs Formen nebeneinander. Die Aufzählung steht auch mitten im Satz, ohne
   Aufzählungszeichen; der Satz läuft über sie hinweg.
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten; offene Enden
-  ohne nächsten Schritt **in der Mail**; eine Folge einzeln zu beantwortender Fragen als offene
-  Bullet-Liste tarnen; **den Formalisierungs-Reflex ins engste Peer-Du tragen** (dort reflexhaft
+  ohne nächsten Schritt **in der Mail**; **den Formalisierungs-Reflex ins engste Peer-Du tragen** (dort reflexhaft
   nummerieren, umsortieren, Anrede oder Gruss-Rahmen ergänzen, wo das Vorbild roh bleibt); **den
   Schluss über die Bedingung bzw. den Nutzen hinaus verlängern** (weder Begründungssatz noch
   Reihenfolge-Empfehlung noch Rückfrage); **was das Gegenüber selbst gesetzt hat,
@@ -4010,3 +4009,52 @@ sichtbar offen gelassen, nie geraten (deckt sich mit «Annahmen markieren, nie e
 die bekannte Endform «Besprochenes schriftlich fixieren», hier in ihrer knappsten Gestalt: Dank
 für das Gespräch, dann sofort die Liste dessen, was daraus einzuarbeiten ist. Das Telefonat
 erzeugt die Struktur, die Mail hält sie fest.
+
+## Das Feldraster laesst das unbekannte Feld LEER stehen — und das Gefaess ist schon angelegt (belegt Fidelity 260902, authentisch)
+
+Gold C, 30.07.2026, Antrag ans UGZ Lueftungskontrolle, vollstaendiger Sachteil:
+
+> Im Auftrag der Bauherrschaft beantragen wir eine Koordinationssitzung mit der Behoerde UGZ
+> Lueftungskontrolle.
+>
+> Ziel: Baufreigabe Lueftung KISPI PPTS
+> Termin/Sprechstunde:
+> Medium: digital, Microsoft Teams Besprechung
+
+Zwei Befunde, die zusammengehoeren:
+
+1. **Das Feld «Termin/Sprechstunde:» steht mit Doppelpunkt und ohne Wert.** Es wird weder
+   weggelassen noch mit einem Vorschlag gefuellt. Das Raster ist vollstaendig, die Luecke ist
+   sichtbar, und sie ist genau die Frage an den Empfaenger. Das ist das **formale Gegenstueck zur
+   Erfindungs-Drift**: wo der Zwilling einen Satz baut, um die Luecke zu schliessen, setzt
+   Raphael ein leeres Feld und laesst sie stehen.
+2. **Die Teams-Besprechung ist bereits eroeffnet und der Beitrittslink haengt in derselben Mail.**
+   Er bittet nicht um einen Termin, er legt die Sitzung an und laesst nur die Zeit offen.
+   Bestaetigt «vorher die Reibung wegnehmen: Zielgefaess selbst anlegen» — hier in der
+   Behoerdenvariante, erstmals belegt.
+
+Die Blindfassung machte beides falsch herum: sie erfand zwei zusaetzliche Rasterzeilen
+(«Gegenstand:», «Teilnehmer:») und ersetzte das leere Terminfeld durch «Darf ich Sie bitten, uns
+zwei bis drei moegliche Termine zu nennen. Ich stimme sie anschliessend mit den uebrigen
+Beteiligten ab». Das ist die **Bauherr-entscheidet/Raphael-bereitet-vor**-Drift in der
+Behoerdenvariante: der Zwilling gibt den Arbeitsschritt zurueck, den Raphael vorweggenommen hat.
+
+**Ebenfalls verfehlt:** Gold C erwaehnt den Anhang (Eingabequittung-PDF) mit **keinem Wort**;
+die Blindfassung schrieb einen Transmittal-Satz dazu. Der Anhang traegt sich selbst.
+
+## Der Zwilling zieht eine geschlossene Fragenliste zu Fliesstext zusammen — die Listen-Drift in Gegenrichtung (belegt Fidelity 260902, Korrektur-Delta)
+
+Die AfB-Mail vom 16.07.2026 traegt drei Auskunftsfragen als nummerierte `<ol>`-Liste. Das ist
+genau der Fall, den die Regel benennt: eine **geschlossene Aufzaehlung, auf die spaeter
+zurueckverwiesen wird** — nummeriert. Die Blindfassung zog die drei Fragen in **einen
+Fliesstextsatz** zusammen («… mir mitzuteilen, ob das Gesuch derzeit in Beurteilung steht oder ob
+von unserer Seite noch Unterlagen ausstehen») und verlor dabei die dritte Frage ganz.
+
+Das stuetzt die Korrektur von 260824: die Drift ist nicht «zu viele Listen», sondern
+**Vereinheitlichung** — heute in der selteneren Richtung, zu wenig Liste. Der Zwilling waehlt eine
+Form und zieht sie durch; Raphael entscheidet je Block neu.
+
+Als Folge ist der schmalere Don't-Marker «eine Folge einzeln zu beantwortender Fragen als offene
+Bullet-Liste tarnen» am 02.09.2026 aus dem kompilierten Don't-Block entfernt worden: er nennt nur
+die eine Richtung und wird von der 260824-Regel im Do-Block vollstaendig abgedeckt. Die Streichung
+diente zugleich dem Riegel (Reserve von 14 B auf 29 B).

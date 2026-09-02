@@ -4,6 +4,43 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-02 — Fidelity-Review: Gesamt 34; zwei kompilierte Service-Satz-Verbote gemessen widerlegt und korrigiert; ein Gold als Claude-Echo enttarnt und zu SILBER herabgestuft
+
+3 Vorlagen: 2 Golds `authentisch` (Kuechenbauer 04.08.2026 + zwei Vormails desselben Strangs;
+UGZ-Antrag 30.07.2026), 1 als `korrektur-delta` herabgestufte AfB-Mail (16.07.2026, Paste-Artefakt
+`rgb(253,253,252)`). Report `outputs/2026-09-02_fidelity.md`.
+
+- **[[stimme]]** — ⭐ **Kernbefund, kompiliert:** der Service-Satz «Bei Fragen oder Unklarheiten
+  stehe ich Ihnen jederzeit gerne zur Verfuegung.» steht wortgleich im **Antrag ans Amt** und im
+  **Abgebot im laufenden Vergabeverfahren**. Damit sind die Verbote 260719 und 260818/260826
+  zweifach widerlegt; Aufloesung ueber die aeltere Grundregel 260807 (**Anspruch gegen Gefallen**,
+  nicht «Amt» oder «Vergabe»). Dazu drei neue Abschnitte: Korrektur-Delta des Auskunftsersuchens
+  (Schluss-Satz aktiv gestrichen, Rechtsblock ans Ende, Eskalation ueber **Bcc**); die weiche
+  Erkundigung im Praeteritum **zweitbelegt** in anderem Monat/Kanal/Empfaengerklasse samt Grenze
+  zur Bitte-Skala (Bitte → Punkt, Erkundigung → Fragezeichen); der **vorweggenommene Dank, der die
+  Bitte ersetzt** (dreifach in einem Strang); Eingrenzung «Danke und Gruss» in der Behoerdenmail.
+- **[[arbeitsweise]]** — ⭐ das **leere Rasterfeld** («Termin/Sprechstunde:» ohne Wert) bei bereits
+  eroeffneter Teams-Sitzung: Gefaess anlegen, die offene Groesse sichtbar stehen lassen — das
+  formale Gegenmittel zur Erfindungs-Drift. Dazu die Listen-Drift in **Gegenrichtung** (geschlossene
+  Fragenliste zu Fliesstext gezogen), was die Vereinheitlichungs-Korrektur 260824 stuetzt.
+- **[[beziehungsregister]]** — Stapel-Regeln in voller Breite bestaetigt (7 To-Empfaenger, 2
+  angeredet, uebergangener zweiter Vertreter derselben Amtsstelle, kein Schlusskomma, einzeilig
+  weil operativ — mit zweizeiliger Gegenprobe am selben Tag). **Gegenprobe zur «Gruezi»-Achse:**
+  9 authentische Amts-Eroeffnungen Juni–August 2026, 6 Amtsstellen, **kein einziger** Treffer —
+  Arbeitshypothese jetzt **Kanal statt Gewicht**, nicht kompiliert. Stadelmann 22.07. Sie →
+  05.08. Du als dritte Bestaetigung der Trajektorien-Klausel.
+- **[[fachsignatur]]** — Insider-Kuerzel («GT-FP», «LBW-Bauer») bleiben **gegenueber dem Gewerk**
+  ungeoeffnet; die Don't-Regel gilt der Bauherrschaft und dem Laien, nicht dem Betrieb.
+  Begruendungsrichtung (260828) zum zweiten Mal gemessen und verfehlt.
+- **[[QUESTIONS]]** — 6 neue Fragen (260902 #1–#6): Carve-out-Entscheid zum Service-Satz, «Danke
+  und Gruss», Kanal-oder-Gewicht-Achse, Stadelmann-Zeile in `rules/anrede-kontakte.md`,
+  vorweggenommener Dank, leeres Rasterfeld.
+- **Gehirn neu kompiliert** (`build_dna.py`): erster Versuch vom Riegel korrekt bei 34'047 B
+  **abgewiesen ohne zu schreiben**; nach Verdichtung an den zwei vom Vorlauf benannten Stellen
+  neuer Stand **33'971 B, Reserve 29 B** (vorher 12 B).
+- **Verfahrensbefund:** der Echo-Grep lief nach dem Schreiben der Blindfassung und haette **vor der
+  Gold-Auswahl** laufen muessen — als Empfehlung 1 in den Report aufgenommen.
+
 ## 2026-09-02 — twin-mail-training Batch 112: `Drafts` Seite 5 (15.08.–01.09.2026) — Draft-Bestand durchlaufen; 15. Falle dritter Beleg widerlegt die Kanaltrennung aus Batch 111
 
 2 Golds `authentisch` (beide Outlook Mobile), 1 Fund der 15. Falle, 19 Apple-Mail-Entwürfe und

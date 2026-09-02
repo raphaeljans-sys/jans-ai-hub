@@ -3735,3 +3735,79 @@ Beleg vom 20.08.), und der Fehlgriff «Herr + Vorname» ist als **Claude-Artefak
 nicht als Stil. Er ist damit endgültig nicht nachzuahmen — die offene Frage [[QUESTIONS]]
 260901 #2 («Absicht oder Verwechslung?») ist in der Sache beantwortet: Verwechslung, und zwar
 die des Zwillings, nicht die Raphaels.
+
+## Sieben Empfaenger im To, zwei angeredet — und der zweite Behoerdenvertreter wird uebergangen (belegt Fidelity 260902, authentisch)
+
+Gold C, 30.07.2026, «UGZ Zuerich - PPTS KISPI: Baufreigabe Lueftung». To-Feld: Merci und Spoerri
+(Bauherrschaft KISPI), Kuebler, Duran und Ziegel (Gruner), Zala und Stubbe (UGZ, Stadt Zuerich).
+Sieben Personen, kein Cc. Angeredet werden **zwei**:
+
+> Geschaetzter Herr Zala, werter Herr Kuebler
+
+Bestaetigt gleich drei Marker in einem Beleg:
+
+- **Gestapelt wird, wer handeln muss** (260818): Zala bewilligt, Kuebler liefert die
+  Lueftungsunterlagen zu. Die Bauherrschaft wird uebergangen.
+- **Auch ein To-Empfaenger wird uebergangen** (260824) — hier gleich fuenf, darunter mit Stubbe ein
+  **zweiter Vertreter derselben Amtsstelle**. Die Zustaendigkeit im Einzelfall entscheidet, nicht
+  die Organisation.
+- **Kein Schlusskomma** nach der gestapelten Anrede (260823), und **einzeilig** trotz Behoerde und
+  sieben Empfaengern: die Mail ist kurz und operativ, erst die gewichtige foermliche Mail bricht
+  auf zwei Zeilen um (260819). Gegenprobe im selben Lauf: die AfB-Mail vom 16.07.2026
+  (Fristablauf, Rechtsblock) ist **zweizeilig** gestapelt, Komma nur auf der ersten Zeile. Beide
+  Formen an einem Tag gemessen, beide regelkonform.
+
+## Die «Gruezi»/«Guten Tag»-Achse: in drei Monaten Desktop-Korrespondenz kein einziger Beleg (Pruefung der offenen Frage 260901b #2, belegt Fidelity 260902)
+
+Der Vorlauf fand am 26.03.2026 zwei Amts-Eroeffnungen, die gegen die kompilierte Regel stehen —
+«Gruezi Herr Kamm» (namentlich bekannt, statt «Geschaetzter») und ein namenloses «Guten Tag» bei
+einem rechtlich erheblichen Gegenstand (statt «Sehr geehrte Damen und Herren») — und schloss
+daraus auf eine Achse **Gewicht des einzelnen Schreibens**. Beide Belege stammten vom selben Tag
+und demselben Geraet (Handy-Kurzentwuerfe, Container `ms-outlook-mobile-signature`, beide nach
+zwei Zeilen abgebrochen).
+
+Gegenprobe an einem anderen Zeitraum, wie im Vorlauf empfohlen. Alle authentischen
+Amts-Eroeffnungen aus dem Postfach `rj@`, Juni bis August 2026, ueber Outlook Desktop/Web
+(PROD.OUTLOOK.COM-IDs):
+
+| Datum | Empfaenger | Eroeffnung |
+|---|---|---|
+| 09.06.2026 | Capkin/Heinrich/Hottinger, AfB | Geschaetzte Frau Capkin, Heinrich, Hottinger |
+| 25.06.2026 | Soerensen, ZSO | Geschaetzter Herr Soerensen |
+| 08.07.2026 | Soerensen, ZSO | Geschaetzter Herr Soerensen |
+| 16.07.2026 | Sivec + Team 4, AfB | Sehr geehrter Herr Sivec, / sehr geehrte Damen und Herren |
+| 24.07.2026 | Stubbe/Zuercher, UGZ | Geschaetzter Herr Stubbe, werter Herr Zuercher |
+| 27.07.2026 | Gantenbein, Feuerpolizei | Geschaetzter Herr Gantenbein, |
+| 30.07.2026 | Zala/Kuebler, UGZ | Geschaetzter Herr Zala, werter Herr Kuebler |
+| 12.08.2026 | Shyam, AfB | Sehr geehrter Herr Shyam |
+| 17.08.2026 | Hansen, UGZ | Sehr geehrter Herr Hansen |
+
+**Neun Eroeffnungen, drei Monate, sechs Amtsstellen — kein einziges «Gruezi», kein einziges
+namenloses «Guten Tag».** Ausschliesslich «Geschaetzte/r» (bekannt) und «Sehr geehrte/r»
+(unbekannt oder Erstkontakt), also exakt die kompilierte Regel.
+
+**Folgerung, vorsichtig:** die Achse ist wahrscheinlich **nicht** das Gewicht des Schreibens,
+sondern der **Kanal**. Beide Ausreisser sind Handy-Kurzentwuerfe; die Desktop-Korrespondenz haelt
+die Regel ausnahmslos. Das erklaert auch, warum beide Ausreisser nach zwei Zeilen abbrechen: es
+sind hingetippte Kurznachrichten, keine Briefe.
+
+**Nicht entschieden, und deshalb nicht kompiliert:** aus dem Maerz liegt keine Desktop-Amtsmail
+zum Vergleich vor, und die Regel beruehrt `rules/anrede-kontakte.md`, deren Wortlaut Claude nie
+selbst aendert. Die Frage 260901b #2 wird darum nicht als beantwortet gefuehrt, sondern praezisiert
+(QUESTIONS 260902 #3): nicht «Gewicht oder Bekanntheit», sondern «Kanal oder Gewicht».
+
+## Stadelmann Sie→Du, 22.07. auf 05.08.2026 — dritte Bestaetigung der Trajektorie (belegt Fidelity 260902, authentisch)
+
+`rules/anrede-kontakte.md` fuehrt zu Othmar Stadelmann (Estermann) den Gegenbeleg vom 22.07.2026:
+«Geschaetzter Herr Stadelmann» — Sie mit Nachnamen, **nach** einem Telefonat. Zwei Wochen spaeter,
+am 05.08.2026 08:45, oeffnet Raphael in derselben Sache mit «**Guten Morgen Othmar,** / Besten
+Dank fuer **Deine** E» (Entwurfsfragment aus eigener Hand, PROD.OUTLOOK-ID).
+
+Das ist **kein** Widerspruch, sondern die dritte Bestaetigung der Trajektorien-Klausel (260823):
+die Stufe wandert ueber Wochen wiederholten Kontakts kumulativ ins Vertrautere, verzoegert und
+nicht auf einen einzelnen Ausloeser hin. 22.07. Sie, 05.08. Du — chronologisch monoton, und
+zwischen beiden liegt die gemeinsame Ausfuehrungskoordination der Leichtbauwaende.
+
+Die Zeile in `rules/anrede-kontakte.md` fuehrt Stadelmann bisher gar nicht; ihr Gegenbeleg-Vermerk
+steht nur als Warnung unter der Treffen-Klausel. Ein Eintrag waere faellig, aber der Wortlaut
+dieser Rule gehoert Raphael (QUESTIONS 260902 #4).

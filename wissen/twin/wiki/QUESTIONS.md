@@ -5436,3 +5436,65 @@ weil der Zwilling bisher jeden abgebrochenen Entwurf als «zu Ende schreiben» g
 Vorwärtsfaden ist wieder `rj@` **Sent Items ab 01.09.2026**. *Warum vermerkt: die
 Seitennummer-Mechanik hätte beim nächsten Lauf still ins Leere gegriffen, weil der Bestand
 während des Durchlaufs von 124 auf 126 gewachsen ist.*
+
+## 260902 — Fidelity-Review (twin-fragesteller)
+
+**#1 [Fachsignatur/Stimme] Fallen die beiden Service-Satz-Verbote ganz, oder gelten sie neben der
+Grundregel?**
+Heute zweifach widerlegt, wortgleich, aus Deiner eigenen Hand: der Antrag ans UGZ (30.07.2026)
+und das Abgebot an den Kuechenbauer (27.07.2026) tragen beide «Bei Fragen oder Unklarheiten stehe
+ich Ihnen jederzeit gerne zur Verfuegung.» — obwohl der Zwilling kompiliert hat, dass Gesuch und
+Antrag ans Amt (260719) und «alles im laufenden Vergabeverfahren» (260818/260826) ihn NICHT
+tragen. Meine Aufloesung: die Grundregel 260807 traegt beides — wer fuer sich selbst etwas
+erbittet (Antrag, Abgebot, Entgegenkommen), haelt den Kanal offen; wer etwas einfordert, worauf
+er Anspruch hat (Auskunftsersuchen nach Fristablauf), schliesst ohne. Trennlinie also **Anspruch
+gegen Gefallen**, nicht «Amt» oder «Vergabe».
+*Warum das den Zwilling annaehert:* der Satz steht oder faellt in praktisch jeder ausgehenden
+Sie-Mail; die falsche Regel hat ihn heute in zwei von drei Blindfassungen unterdrueckt. Eine
+Zeile von Dir entscheidet, ob die Carve-outs gestrichen werden oder als Ausnahmen bestehen
+bleiben.
+
+**#2 [Stimme] Steht «Danke und Gruss» vor dem Block in der Sie-Behoerdenmail wirklich als Regel?**
+Der Antrag ans UGZ (30.07.2026) schliesst mit dem Service-Satz und direkt darauf «Freundliche
+Gruesse» + Block — ohne «Danke und Gruss». Der Zwilling hat die Formel heute zweimal gesetzt und
+lag zweimal daneben. Ist sie an eine engere Gattung gebunden (Bitte um Nacharbeit?), oder ist sie
+ueberhaupt keine Behoerden-Regel?
+*Warum:* betrifft den Schluss jeder Amtsmail; Einzelbeleg, deshalb nicht kompiliert.
+
+**#3 [Beziehungsregister] «Gruezi Herr X» und das namenlose «Guten Tag» ans Amt — Kanal oder
+Gewicht?**
+Praezisierung der Frage 260901b #2. Gegenprobe gefahren: neun authentische Amts-Eroeffnungen aus
+Juni bis August 2026 ueber Outlook Desktop/Web, sechs Amtsstellen — **ausnahmslos** «Geschaetzte/r»
+oder «Sehr geehrte/r», kein einziges «Gruezi», kein namenloses «Guten Tag». Beide Ausreisser vom
+26.03.2026 sind Handy-Kurzentwuerfe, die nach zwei Zeilen abbrechen. Arbeitshypothese also: die
+niederschwellige Eroeffnung haengt am **Kanal** (hingetippte Kurznachricht), nicht am Gewicht des
+Anliegens.
+*Warum:* entscheidet, ob der Zwilling die Anrede je nach Geraet/Laenge senken darf. Ich habe
+keinen Maerz-Desktop-Vergleich, und die Regel beruehrt `rules/anrede-kontakte.md` — deren
+Wortlaut aendere ich nie selbst.
+
+**#4 [Beziehungsregister] Soll Othmar Stadelmann in `rules/anrede-kontakte.md` aufgenommen
+werden — Du, seit August 2026?**
+Belegt: 22.07.2026 «Geschaetzter Herr Stadelmann» (Sie), 05.08.2026 08:45 «Guten Morgen Othmar, /
+Besten Dank fuer **Deine** E» (Du, eigene Hand). Chronologisch monoton, dritte Bestaetigung der
+Trajektorien-Klausel. Die Rule fuehrt ihn bisher nur als Warnvermerk unter der Treffen-Klausel,
+nicht als eigene Zeile.
+*Warum:* er ist im KISPI-Strang laufend Empfaenger; ohne Zeile raet der Zwilling bei jeder Mail
+neu.
+
+**#5 [Stimme] Ist der vorweggenommene Dank («Danke fuer die prompte Zusendung.») bewusst gesetzt?**
+Dreifach im selben Strang belegt, jedes Mal **anstelle** einer Bitte, jedes Mal bevor geliefert
+wurde. Ich lese ihn als eigene Form neben der Vier-Stufen-Skala: er unterstellt die Zusage und
+macht ein Nein teuer, ohne Druck auszusprechen. Ist das Absicht oder Routine — und gilt er auch
+gegenueber Behoerden, oder nur gegenueber Unternehmern und Lieferanten?
+*Warum:* der Zwilling trennt reflexhaft in Anweisung + generischen Dank und verliert damit genau
+die Wirkung, die Deine Form hat.
+
+**#6 [Arbeitsweise] Bleibt ein Rasterfeld absichtlich leer?**
+Im UGZ-Antrag steht «Termin/Sprechstunde:» mit Doppelpunkt und ohne Wert, waehrend die
+Teams-Sitzung samt Beitrittslink schon eroeffnet ist. Ich lese das als bewusstes Verfahren: das
+Gefaess anlegen, die eine offene Groesse als leeres Feld sichtbar stehen lassen, statt sie zu
+erfragen oder zu erfinden. Soll der Zwilling das generalisieren — leeres Feld statt Bitte um
+Vorschlaege?
+*Warum:* er hat heute genau hier einen ganzen Bitte-Satz erfunden. Waere das bestaetigt, haette
+er ein einfaches, uebertragbares Mittel gegen die Erfindungs-Drift.

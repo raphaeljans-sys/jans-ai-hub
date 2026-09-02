@@ -56,12 +56,13 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
   («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz hängt an der
   GATTUNG, nicht am Empfänger (260807/260808):** wer für sich selbst etwas erbittet, hält den
-  Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, die erbetene Auskunft
-  (Amt ODER Lieferant, 260827), **Erst-Offertanfrage** — die praezisierte Zweitanfrage im
-  laufenden Verfahren traegt ihn NICHT (260826; Familie 260818)); wer liefert, meldet oder **das Amt um Auskunft
-  ERSUCHT** (260823), hört nach dem letzten Sachsatz
-  auf (Transmittal, Gesuch/Antrag, Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
-  (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
+  Kanal offen: Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, erbetene Auskunft
+  (Amt ODER Lieferant, 260827), Erst-Offertanfrage, **Antrag ans Amt und Abgebot** (260902,
+  zweifach — die Gegen-Carve-outs 260719/260818/260826 sind insoweit BESTRITTEN, im Zweifel
+  setzen); die praezisierte Zweitanfrage traegt ihn NICHT (260826). Wer liefert, meldet oder
+  **das Amt um Auskunft ERSUCHT** (260823, Delta-Beleg 260902), hört nach dem letzten Sachsatz
+  auf (Transmittal, Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der
+  Schlusspunkt schwankt (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)** — die Wiederholung
   rahmt die dazwischenliegende Nachforderung ein; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
@@ -112,11 +113,10 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
   Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
   **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
-- **Alles im laufenden Vergabeverfahren trägt KEINEN Service-Satz (260818, erweitert 260826):**
-  Abgebot, Nachfass **und schon die präzisierte Zweitanfrage** sind Abwicklung im Mandat — «Im
-  Auftrag der Bauherrschaft **bitte ich Sie** …» (nackter Indikativ: der Druck stammt von der
-  Bauherrschaft), dann «Danke für Ihre Unterstützung.» + «**Wir freuen uns auf die
-  Zusammenarbeit.**» Der Nachlass wird als Total beziffert («-8%tot»), nie umschrieben.
+- **Im laufenden Vergabeverfahren (260818/260826):** «Im Auftrag der Bauherrschaft **bitte ich
+  Sie** …» (nackter Indikativ: der Druck stammt von der Bauherrschaft), dann «Danke für Ihre
+  Unterstützung.» + «**Wir freuen uns auf die Zusammenarbeit.**» Der Nachlass wird als Total
+  beziffert («-8%tot»), nie umschrieben. Zum Service-Satz siehe oben (260902).
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji oder
   Mundart ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail:
   Hochdeutsch); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
@@ -5029,3 +5029,119 @@ und 0 Strichen, Verdachtstext 48 Wörter mit 0 Fehlerinseln und 2 En-Strichen.
 Das ist zugleich der erste Ertrag der Methode aus [[QUESTIONS]] 260819 #1 (jede ohnehin gelesene
 Mail auf die Klassen-Token prüfen, weil der Suchindex kein Markup führt). **Kosten null, Ertrag
 ein Fund — beibehalten.**
+
+## Der Service-Satz steht im Antrag und im Abgebot — zwei kompilierte Verbote widerlegt (belegt Fidelity 260902, authentisch, zweifach)
+
+Zwei unabhaengige Golds aus Raphaels eigener Hand, verschiedene Gattungen, verschiedene
+Empfaengerklassen, **wortgleicher Satz**:
+
+- **Antrag an die Behoerde** (30.07.2026 13:52, «UGZ Zuerich - PPTS KISPI: Baufreigabe
+  Lueftung», an Zala/UGZ + Kuebler/Gruner, sieben To-Empfaenger): nach dem Feldraster steht
+  «Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfuegung.», dann FG+Block.
+- **Abgebot an den Unternehmer im laufenden Vergabeverfahren** (27.07.2026 12:44, Los 273.35
+  Kuechenbau, an Lanz/Inniger, Cc Bauherrschaft): Rahmenbudget gesetzt, Streichung verlangt —
+  und derselbe Satz, «Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur
+  Verfuegung.», vor dem Block.
+
+Damit sind zwei kompilierte Verbote gemessen widerlegt: «Gesuch/Antrag ans Amt schliesst mit dem
+ANTRAG — ohne Service-Satz» (260719, oben in diesem Artikel) und «Alles im laufenden
+Vergabeverfahren traegt KEINEN Service-Satz» (260818/260826). Beide hatten eigene Golds; sie
+sind nicht falsch erhoben, sondern **zu breit verallgemeinert**.
+
+**Aufloesung ueber die Grundregel, die beide Carve-outs verdraengt hatten (260807/260808):**
+*wer fuer sich selbst etwas erbittet, haelt den Kanal offen.* Antrag und Abgebot sind genau das —
+Raphael braucht Mitwirkung bzw. Entgegenkommen, auf das er keinen Anspruch hat. Das
+**Auskunftsersuchen** dagegen fordert etwas ein, worauf er Anspruch hat (Frist abgelaufen), und
+schliesst darum ohne Service-Satz — heute unabhaengig als Korrektur-Delta bestaetigt, siehe
+naechster Abschnitt. Die Trennlinie ist nicht die Gattung «Amt» oder «Vergabe», sondern
+**Anspruch gegen Gefallen**.
+
+Kompiliert am 02.09.2026: die beiden Carve-outs sind im Do-Block als «insoweit BESTRITTEN, im
+Zweifel setzen» markiert, `Gesuch/Antrag` aus der Kein-Service-Satz-Liste entfernt, `Antrag ans
+Amt und Abgebot` in die Kanal-offen-Liste aufgenommen. Der Entscheid, ob die Carve-outs ganz
+fallen, gehoert Raphael (QUESTIONS 260902 #1).
+
+## Korrektur-Delta: das Auskunftsersuchen verliert seinen Schluss-Satz und schiebt den Rechtsblock ans Ende (SILBER, belegt Fidelity 260902)
+
+Zwei Fassungen derselben Mail ans AfB Team 4 (Baumackerstrasse 43, Projekt-ID 1840759), neun
+Tage auseinander, beide mit dem Paste-Artefakt `rgb(253,253,252)` — also **nicht Gold**, sondern
+Claude-Text, den Raphael ueberarbeitet hat. Gelernt wird ausschliesslich die Aenderung:
+
+| 07.07.2026 (Erstfassung) | 16.07.2026 (Raphaels Fassung) |
+|---|---|
+| Rechtsblock («Bearbeitungsfrist von drei Wochen») steht **vor** den Fragen | Rechtsblock steht **hinter** den Fragen, als letzter Absatz |
+| Schluss «Besten Dank fuer eine rasche Rueckmeldung. Ich bitte Sie, zeitnah mit mir Kontakt aufzunehmen, damit die offenen Punkte geklaert werden koennen.» | **ersatzlos gestrichen** — die Mail endet auf dem Sachsatz |
+| Frage 3 «Aus welchem Grund ist bisher keine Bearbeitung erfolgt?» | «Aus welchem Grund wird **die Zuweisung intern** nicht kommuniziert?» |
+| «ohne dass eine **Reaktion** feststellbar war» | «ohne dass eine **Zuweisung auf ein Kreisarchitekt** feststellbar war» |
+
+Vier Bewegungen, alle in dieselbe Richtung:
+
+1. **Der Service-/Bitte-Schluss faellt weg.** Bestaetigt 260823 (das Amt um Auskunft ersuchen →
+   kein Service-Satz) — und zwar als aktiver Streichungsentscheid Raphaels, nicht als blosse
+   Abwesenheit. Staerkster Belegtyp fuer diese Regel bisher.
+2. **Der Rechtsblock wandert ans Ende.** Bestaetigt die vierte Endform aus [[arbeitsweise]]: die
+   entscheidungserheblichen Fakten als eigene, unverbundene Saetze ohne «daher» und ohne
+   Bewertung — die Folgerung zieht der Zustaendige.
+3. **Der Vorwurf wird konkreter, nicht lauter.** «Reaktion» → «Zuweisung auf ein Kreisarchitekt»,
+   «keine Bearbeitung» → «Zuweisung intern nicht kommuniziert». Er uebernimmt die
+   **Verwaltungssprache des Amtes** und trifft damit den internen Vorgang statt das Ergebnis.
+   Bestaetigt «die administrative Fachsprache des Gegenuebers uebernehmen» (260805/260806).
+4. **Die Anrede bleibt unveraendert.** «Sehr geehrter Herr Sivec, / sehr geehrte Damen und Herren
+   des Teams 4», zweizeilig, Komma nur auf der ersten Zeile — in beiden Fassungen. Auch die
+   schaerfere zweite Mail eskaliert **nicht** ueber die Anrede. Zweiter unabhaengiger Beleg des
+   Hansen-Markers (260820), jetzt an einem anderen Amt.
+
+**Neuer Marker, ohne Vorbild im Artikel: die Eskalation laeuft ueber den VERDECKTEN Verteiler.**
+Die zweite Fassung traegt **Bcc** an `info@khgp.ch` und `info@acta-ing.ch` (Bauherrschaft und
+Ingenieur). Raphael nimmt die eigene Seite mit, ohne dass das Amt es sieht. Das ergaenzt den
+Hansen-Marker («eskaliert wird ueber den Verteiler, nicht ueber die Anrede») um eine Stufe
+darunter: erst verdeckt, dann sichtbar.
+
+## Die weiche Erkundigung im Praeteritum — zweiter Beleg, anderer Monat, andere Empfaengerklasse (belegt Fidelity 260902, authentisch)
+
+Gold A (04.08.2026, an den Kuechenbauer): «**Ich wollte mich bei Ihnen erkundigen ob** der
+Installationsplan fuer die Elektro- und Sanitaeranschluesse der Therapiekueche bereits erstellt
+wurde**?**»
+
+Damit ist die Form aus Gold C des Vorlaufs (26.03.2026, ans AfB: «Ich wollte mich bei Ihnen
+erkundigen wie …») **unabhaengig bestaetigt** — anderer Monat, anderes Geraet (Outlook Mobile
+statt Handy-Kurzentwurf), andere Empfaengerklasse (Unternehmer statt Amt). Sie ist damit keine
+Tagesform, sondern eine belegte Eroeffnung fuer die **Nachfrage nach etwas Ausstehendem**.
+
+**Grenze zur Bitte-Skala, ohne Widerspruch:** die Regel «die Bitte endet auf einem PUNKT, nie auf
+einem Fragezeichen» (260820) gilt der «Darf ich Sie bitten»-Form, die ein Hoeflichkeitsrahmen um
+eine Anweisung ist. Die **Erkundigung** ist keine Bitte, sondern eine echte Frage — und traegt
+darum sehr wohl ein Fragezeichen. Zwei Formen, zwei Interpunktionen; wer sie vermischt, macht
+aus der Nachfrage eine Anweisung.
+
+## Der vorweggenommene Dank ERSETZT die Bitte — fuenfter Weg neben der Vier-Stufen-Skala (belegt Fidelity 260902, authentisch, dreifach in einem Strang)
+
+Im selben Strang (Los 273.35 Kuechenbau) steht die Bitte dreimal **gar nicht** als Bitte, sondern
+als Dank, der die Erfuellung bereits unterstellt:
+
+- «**Danke fuer die prompte Zusendung.**» (04.08.2026 — es ist noch nichts zugesendet worden)
+- «Fuer die Lieferung der definitiven Installationsplaene sowie die Liste der Kuechengeraete bis
+  Montag den 03.08.26 **sind wir Ihnen dankbar**.» (27.07.2026 — mit Termin im Dank)
+- «Fuer Ihr entgegenkommen **bedanke ich mich im Voraus**.» (27.07.2026, vor der Streichbitte)
+
+Die Form ist weder Imperativ noch «Darf ich Sie bitten»: sie nimmt die Zusage vorweg und macht
+ein Nein teuer, ohne Druck auszusprechen. Sie steht neben der Vier-Stufen-Skala, nicht auf ihr —
+und sie traegt den **Termin** und den **Gegenstand** mit («bis Montag den 03.08.26»).
+
+Der Zwilling schrieb stattdessen «Bitte stellen Sie uns den Plan zu.» + «Danke fuer Ihre
+Unterstuetzung.» — Anweisung und Dank getrennt, der Dank generisch und ohne Objekt. Genau die
+Trennung, die Raphael vermeidet.
+
+**Dazu ein Marker der Nicht-Handlung:** die am 27.07. gesetzte eigene Frist (03.08.26) war am
+04.08. verstrichen. Raphael haelt sie dem Unternehmer **nicht vor** — kein «wie vereinbart», kein
+«leider ist die Frist verstrichen». Er fragt neu und freundlich. Der bekannte Marker «was das
+Gegenueber selbst gesetzt hat, nicht zurueckspiegeln» (260731) gilt damit auch fuer die **eigene**
+gesetzte und verstrichene Frist.
+
+## Kein «Danke und Gruss» vor dem Block in der Sie-Behoerdenmail (Eingrenzung, belegt Fidelity 260902)
+
+Gold C (Antrag ans UGZ) schliesst mit dem Service-Satz und direkt darauf «Freundliche Gruesse» +
+Block. **Kein «Danke und Gruss» davor** — obwohl die Regel im Do-Block genau das fuer die
+Sie-Behoerdenmail vorschreibt. Einfachbeleg, deshalb nicht kompiliert; als Eingrenzungskandidat
+vorgemerkt (QUESTIONS 260902 #2). Beide Blindfassungen dieses Laufs setzten die Formel und lagen
+damit zweimal daneben.

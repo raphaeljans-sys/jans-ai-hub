@@ -510,8 +510,8 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Bestätigungsbitte. (b) **die Behörde um Auslegung einer strittigen Norm bitten**: NICHT
   subsumieren, sondern die **konkurrierenden Auslegungen belegt gegenüberstellen** (exakte
   Fundstellen, Quellen anhängen) und mit geschlossener «–»-Alternativfrage + «oder» +
-  «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen. Beide enden mit FG + Block **ohne
-  Service-Satz**. Honorar als durchgerechnete Offerte nüchtern beziffern (Tagespauschale, «exkl.
+  «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen. Beide enden mit FG + Block; der Service-Satz
+  ist beim **Antrag** belegt (260902), beim Auslegungs-Ersuchen nicht. Honorar als durchgerechnete Offerte nüchtern beziffern (Tagespauschale, «exkl.
   MwSt.», Geltungsdauer), warm gerahmt. Bei der Weitergabe einer **Behörden-Auflage an die
   Bauherrschaft** deren materiellen Wortlaut übernehmen statt zu paraphrasieren und jeden Punkt
   seiner **namentlichen Amtsstelle** zuordnen (Liste unten). Bei einer **Korrektur-/Planlieferung**
@@ -2949,3 +2949,28 @@ Information stammt nicht aus seiner Planung, und er gibt sie als ungesicherte we
 zu behaupten (gleiche Haltung wie «Annahmen markieren»). Und der Satz endet ohne Verb und ohne
 Punkt: die offene Frage bleibt buchstäblich offen stehen, statt zu einer Feststellung
 geschlossen zu werden.
+
+## Insider-Kuerzel bleiben ungeoeffnet, auch gegenueber dem Unternehmer (belegt Fidelity 260902, authentisch)
+
+Gold A, 04.08.2026, an den Kuechenbauer (Schreinerei, kein Planungsbuero):
+
+> Gerne moechten wir die finalen Positionen der **GT-FP** zustellen und die Rohbauinstallationen
+> / / **Kernbohrungen / Schlitzungen** fuer die Leitungen mit dem **LBW-Bauer** zu Koordinieren.
+
+«GT-FP» (Gebaeudetechnik-Fachplanung) und «LBW-Bauer» (Leichtbauwand-Unternehmer) stehen ohne
+Aufloesung, gegenueber einem Empfaenger ausserhalb des Planerkreises. Die Regel «Fachjargon ohne
+Uebersetzung gegenueber Nicht-Architekten» im Don't-Block ist damit **enger zu lesen, als sie
+klingt**: sie gilt der Bauherrschaft und dem Laien, nicht dem Gewerk. Gegenueber einem Betrieb,
+der auf der Baustelle mit denselben Beteiligten arbeitet, kuerzt Raphael haerter, nicht weicher —
+das Kuerzel ist Zugehoerigkeitszeichen, nicht Nachlaessigkeit.
+
+Die Blindfassung schrieb «Gebaeudetechnikplanung» und «Ausfuehrungsplanung der Sanitaer- und
+Elektroinstallation» aus und benannte die konkreten Bauvorgaenge (Kernbohrungen, Schlitzungen)
+gar nicht. Ergebnis: hoeflicher, aber fachlich duenner als das Gold — die Fachdichte sinkt genau
+dort, wo der Zwilling glaubt, ruecksichtsvoll zu sein.
+
+**Dazu die Begruendungsrichtung**, bestaetigt aus 260828: Raphael begruendet die Nachfrage mit dem
+**eigenen naechsten Arbeitsschritt** («Gerne moechten wir … zustellen und … koordinieren»). Die
+Blindfassung begruendete mit der **Folge fuer den Empfaenger** («sonst verschiebt sich die Freigabe
+der betroffenen Gewerke») — aus einer Absicht wird eine Drohung. Der Marker ist damit zum zweiten
+Mal gemessen und in beiden Faellen verfehlt worden.
