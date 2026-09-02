@@ -9,8 +9,13 @@
 #
 # Dieses Script loest den Merge mit UNION-Aufloesung: bei jedem Konflikt werden
 # BEIDE Seiten behalten (verlustfrei; bei Log-Dateien genau richtig). Bei
-# Konflikttypen, die keine beidseitige Aenderung sind (geloescht/umbenannt),
-# bricht es ab und raeumt auf.
+# Konflikttypen mit Loeschung/Umbenennung (DD/UD/DU) bricht es ab und raeumt auf.
+#
+# ERWEITERT 02.09.2026 nach dem ersten Lauf (Abbruch an einem AA-Konflikt):
+# - AA (beidseitig neu angelegt) wird wie UU behandelt (Union, leere Basis).
+# - Liegt unter scripts/merge-vorgaben-260902/<pfad> eine redaktionell
+#   zusammengefuehrte Ziel-Fassung, gewinnt diese (genutzt fuer das doppelt
+#   destillierte Wiki-Artikel-Paar protofunktional-*, siehe KB-CHANGELOG).
 #
 # Aufruf durch Raphael (Einzelfreigabe, Klassifikator-Vorlage 02.09.2026):
 #   ssh raphaeljans@diskstation918.tail8265aa.ts.net \
@@ -32,11 +37,26 @@ ALT=$(git rev-parse HEAD)
 echo "Sicherung: HEAD vor Reparatur = $ALT"
 echo "Stand: $(git rev-list --count github/main..main) lokal / $(git rev-list --count main..github/main) remote"
 
-git fetch github 2>/dev/null || true
-git merge github/main -m "Merge github/main (Sync-Reparatur 260902, Union-Aufloesung Log-Dateien)" >/dev/null 2>&1
+# Liegende Edits zuerst committen (Loops und SMB-Sessions schreiben laufend in
+# den Arbeitsbaum; ein dirty tree laesst git den Merge verweigern — genau daran
+# scheiterte der Lauf vom 02.09. 16:1x mit irrefuehrendem "Merge fertig").
+if [ -n "$(git status --porcelain)" ]; then
+    git add -A
+    git commit -m "Vorab-Commit liegender Edits (Sync-Reparatur 260902)" >/dev/null \
+        && echo "Vorab-Commit: $(git log -1 --oneline)"
+fi
 
-KONFLIKTE=$(git status --porcelain | awk '$1=="UU" {print $2}')
-ANDERE=$(git status --porcelain | awk '$1 ~ /(DD|AU|UD|UA|DU|AA)/ {print $1, $2}')
+git fetch github 2>/dev/null || true
+MERGE_OUT=$(git merge github/main -m "Merge github/main (Sync-Reparatur 260902, Union-Aufloesung Log-Dateien)" 2>&1)
+# Merge weder durchgelaufen noch im Konfliktzustand -> echter Fehler, zeigen.
+if [ ! -f .git/MERGE_HEAD ] && ! git merge-base --is-ancestor github/main HEAD 2>/dev/null; then
+    echo "FEHLER: Merge kam nicht zustande. git sagt:"
+    echo "$MERGE_OUT" | tail -10
+    exit 4
+fi
+
+KONFLIKTE=$(git status --porcelain | awk '$1=="UU"||$1=="AA" {print $2}')
+ANDERE=$(git status --porcelain | awk '$1 ~ /(DD|AU|UD|UA|DU)/ {print $1, $2}')
 
 if [ -n "$ANDERE" ]; then
     echo "ABBRUCH: Konflikttypen ausserhalb UU (beidseitig geaendert):"
@@ -47,23 +67,38 @@ if [ -n "$ANDERE" ]; then
 fi
 
 if [ -n "$KONFLIKTE" ]; then
-    echo "Union-Aufloesung fuer:"
+    echo "Aufloesung fuer:"
     for f in $KONFLIKTE; do
+        VORGABE="$REPO/scripts/merge-vorgaben-260902/$f"
+        if [ -f "$VORGABE" ]; then
+            cp "$VORGABE" "$f"
+            git add "$f"
+            echo "  $f (redaktionelle Vorgabe)"
+            continue
+        fi
         git show :1:"$f" > /tmp/rep-base.$$ 2>/dev/null || : > /tmp/rep-base.$$
         git show :2:"$f" > /tmp/rep-ours.$$
         git show :3:"$f" > /tmp/rep-theirs.$$
         git merge-file --union /tmp/rep-ours.$$ /tmp/rep-base.$$ /tmp/rep-theirs.$$
         cp /tmp/rep-ours.$$ "$f"
         git add "$f"
-        echo "  $f"
+        echo "  $f (union)"
     done
     rm -f /tmp/rep-base.$$ /tmp/rep-ours.$$ /tmp/rep-theirs.$$
     git commit --no-edit >/dev/null || { echo "FEHLER beim Merge-Commit."; exit 3; }
 fi
 
+if ! git merge-base --is-ancestor github/main HEAD 2>/dev/null; then
+    echo "FEHLER: github/main ist nach dem Merge nicht in HEAD enthalten — nichts gepusht."
+    git status | head -5
+    exit 5
+fi
 echo "Merge fertig: $(git log -1 --oneline)"
-if git push github main 2>&1 | tail -2; then
+
+PUSH_OUT=$(git push github main 2>&1); PUSH_RC=$?
+echo "$PUSH_OUT" | tail -2
+if [ "$PUSH_RC" -eq 0 ]; then
     echo "PUSH OK — Stand jetzt: $(git rev-list --count github/main..main) lokal / $(git rev-list --count main..github/main) remote (soll 0/0 sein)"
 else
-    echo "WARNUNG: Push fehlgeschlagen — Merge steht lokal (HEAD $(git rev-parse --short HEAD)), Ruecksprung: git reset --hard $ALT"
+    echo "WARNUNG: Push fehlgeschlagen (rc=$PUSH_RC) — Merge steht lokal (HEAD $(git rev-parse --short HEAD)), Ruecksprung: git reset --hard $ALT"
 fi

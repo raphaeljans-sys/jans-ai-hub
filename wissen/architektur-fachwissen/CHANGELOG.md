@@ -1,5 +1,19 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-02 (Sync-Reparatur 260902) — Doppel-Destillat «protofunktional» redaktionell zusammengeführt
+
+`wiki/protofunktional-begriff-abgrenzung-funktionalismus.md`: Der Artikel war **zweimal
+unabhängig** entstanden (Mac Mini 29.08., NAS-Lauf 30.08. — beide aus derselben Quelle
+`130426_Protofunktional.docx`) und kollidierte beim Merge der divergierten Sync-Kette als
+AA-Konflikt (beidseitig neu angelegt). Zusammenführung: Basis ist die reichere Fassung vom
+29.08. (Zweitquelle Inventar, Querverweis auf [[funktionsbegriff-fassadendreiteilung-sullivan-haering-semper]],
+offener Punkt zur Zweitbelegung); ergänzt um den Link [[protomodern-manifest-acht-saetze-konzept]]
+und die Formel «Fassade folgt aus dem Innenraumerlebnis» der Fassung vom 30.08. Kein Inhalt
+verworfen. Mechanik: Vorgabe-Datei unter `scripts/merge-vorgaben-260902/`, eingespielt durch
+`scripts/sync-merge-reparatur-260902.sh` (Einzelfreigabe Raphael). Lehre für die Lern-Loops:
+zwei Stationen, die denselben Korpus destillieren, brauchen eine Queue-Absprache — der Fall
+ist als Frage im Wiki zu verfolgen, wenn er sich wiederholt.
+
 ## 2026-09-01 (Wissens-Chef Lauf 50) — Abgrenzungsvermerk eBKP-H ≠ BKP 2017 in der Kürzel-Tabelle nachgetragen
 
 `wiki/ebkp-h-2012-bezugsgroessen-kuerzel-tabelle.md` (+9/−0): Der Schwesterartikel
