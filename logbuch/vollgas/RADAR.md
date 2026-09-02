@@ -53,6 +53,72 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-03 00:57 — [FREI] **Der fuenf Tage alte P1-Sync-Stau ist aufgeloest — GitHub steht wieder auf dem aktuellen Stand. Zugleich eine Messfalle in eigener Sache: die 469 geaenderten Dateien der letzten 13 h sind zu 90 % nicht Produktion, sondern der Merge, der die bisher unsichtbaren Artikel endlich sichtbar macht. Und der Nullbefund der Nachtschicht deutet an, dass die Unterauslastung kein Drosselproblem ist, sondern ein Materialproblem.**
+
+**Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **03.09. 00:57** (2026-09-02T22:57:19Z), letzter Eintrag **02.09. 12:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h (Takt + 3 h). Kein Lauf fehlt, zweiter Ausfalltyp nicht zu pruefen.
+
+**Fenster FREI in 8 Sekunden, PATH-Probe zum zehnten Mal in Folge nicht versucht.** `/opt/homebrew/bin/claude` zeigt unveraendert seit **29.08. 05:15** auf die gewedgte **2.1.236**, das Caskroom fuehrt keine andere Fassung — Homebrew liefert damit im **sechsten Tag** nichts nach und uebertrifft beide frueheren Wedges (zwei bzw. drei Tage) weiterhin deutlich. Die app-gebuendelte **2.1.255** antwortete mit «OK», **rc=0, 8 s**. Latenz-Reihe: 39 · 76 · >120 · 8 · 7 · 98 · 82 · 7 · 7 · 7 · **8 s** — vier Tiefstwerte in Folge, kein Trend; Untergrenze 180 s bleibt richtig, ein Befund-Lauf zur Ursache ist nicht faellig.
+
+⚠ **Eigene Werkzeugfalle in diesem Lauf, fuer den naechsten notiert:** die Probe lief zuerst im Vordergrund und wurde vom 2-Minuten-Timeout des Bash-Werkzeugs abgeschnitten (`Exit code 143`), waehrend mein eigener Watchdog auf 180 s steht. Das sieht wie ein rc=137 aus und ist keiner. Der Watchdog des Rezepts (180 s) ist **laenger als der Werkzeug-Timeout (120 s)** — die Probe gehoert deshalb zwingend per `nohup` in den Hintergrund mit `exec > datei 2>&1`, wie im Vorlauf notiert. Beim zweiten, korrekt entkoppelten Anlauf kam die Antwort in 8 s.
+
+### P1 aufgeloest — der Sync-Stau ist zu Ende
+
+`origin/main` steht auf **68579a653, 03.09. 01:00**, der SSD-Klon auf `main...origin/main [hinterher 1]` — das ist der normale 15-Minuten-Versatz der Selfcommit-Kette, kein Rueckstand. Die Divergenz, die am 02.09. 12:57 noch bei **698/267** stand und in den fuenften Tag ging, ist **erledigt**.
+
+Aufgeloest wurde sie am **02.09. 16:2x in einer interaktiven Session mit Einzelfreigabe Raphaels**, nicht von einem Loop: Merge-Commit `a6fb7e3bd` mit Union-Aufloesung von 11 Log-Dateien, Werkzeug `scripts/sync-merge-reparatur-260902.sh`, drei Anlaeufe (AA-Konflikt, dirty tree durch liegende SMB-Edits, dann Erfolg). Der Vorgang ist in `logbuch/fristen.md` bereits vollstaendig als **ERLEDIGT** nachgetragen und in der Betriebs-Chronik dokumentiert — **ich trage hier nichts nach**, das Register ist dicht. Der Punkt faellt damit aus der P-Liste dieses Radars.
+
+### Die 469 Dateien sind nicht 469 Dateien Arbeit
+
+Liefer-Delta ueber `git diff --name-only` gegen die Basis vor 13 h (nie `find -newermt` relativ): **469 geaenderte Dateien**, davon 453 unter `wissen/`. Nach KB:
+
+| KB | Dateien | | KB | Dateien |
+|---|---|---|---|---|
+| architektur-fachwissen | **419** | | planungsgrundlagen | 2 |
+| energie | 12 | | architekten-synobsis | 2 |
+| baurecht | 10 | | twin · normen · grobkosten | je 1 |
+| koordination | 5 | | | |
+
+**Diese Zahl darf nicht als Produktion gelesen werden.** Der Merge `a6fb7e3bd` liegt mit 02.09. 16:21 **innerhalb** meines 13-Stunden-Fensters. Die 419 Dateien in `architektur-fachwissen` (+55'137 Zeilen) sind zu allergroesstem Teil die **411 Wiki-Artikel, die wegen der Divergenz bis zum 02.09. gar nicht im kanonischen Arbeitsbaum lagen** und nun erstmals sichtbar werden — Bestand, der ankommt, nicht Bestand, der entsteht. Dasselbe gilt fuer einen Teil des baurecht-Deltas: dort tragen vier `outputs/`-Dateien das Datum **29.08.** und erscheinen jetzt bloss nachtraeglich.
+
+Echte Produktion der letzten 13 h, gegengelesen an den CHANGELOGs: **energie Run 175** (Fassaden-Solar ZH und ewz-Fernwaermetarif geschlossen, Fehldatierung Art. 32a Abs. 1bis RPV korrigiert), **Synergie-Lauf 26**, **Wissens-Chef Lauf 51** (Erstpruefung der 411 nachtraeglich sichtbaren Artikel, 6 Melder gegen 7 adversariale Verifikatoren, 0 Befunde ueberstanden unveraendert, 2 praezisiert gesetzt) sowie die Sync-Reparatur selbst. Das sind rund **drei Dutzend** Dateien, nicht 469.
+
+Gleiche Familie wie die Punkt-Kennzahl, die ich im Vorlauf korrigiert habe: **eine Zahl, die ploetzlich gut aussieht, ist zuerst eine Aussage ueber das Messfenster.** Ein Ertragssprung um den Faktor zwei am Tag einer Repo-Reparatur ist ein Merge, keine Leistungssteigerung.
+
+### Kontingent — Rate stabil bei 0.45, rund 90 Mio laufen ungenutzt aus
+
+`kontingent-budget.sh`: **27.39 von 167 Mio teuer (16.4 %)** bei **36.3 %** verstrichener Woche, Ampel **FREI**, beide Stationsdateien frisch (MacBook Pro 22.51 Mio, Mac Mini 4.88 Mio). Keine Drossel ausgeloest, keine zurueckzudrehen; Schritt 2c unberuehrt.
+
+Fortschreibung der im Vorlauf eingefuehrten Rate (verbraucht/verstrichen, statt des arithmetisch zwangslaeufig wachsenden Rueckstands in Punkten):
+
+| Messzeitpunkt | verstrichen | verbraucht | **Rate** |
+|---|---|---|---|
+| 01.09. 12:57 | 14.9 % | 4.8 % | 0.32 |
+| 02.09. 00:57 | 22.0 % | 9.5 % | 0.43 |
+| 02.09. 12:57 | 29.1 % | 12.8 % | 0.44 |
+| 03.09. 00:57 | 36.3 % | 16.4 % | **0.45** |
+
+Die Rate ist seit drei Messungen stabil. Hochgerechnet endet die Woche bei rund **75 von 167 Mio**, also mit gut **90 Mio ungenutzt**. Der Befund steht unveraendert und wird **nicht als Regimefrage vorgelegt** (stehender Entscheid 03.08., Tagesdeckel ist ein eigener Auftrag).
+
+### Leerlauf-Waechter — kein Ruecktakt-Kandidat, aber ein Hinweis auf die Ursache
+
+Kein Loop erreicht drei Laeufe ohne Liefer-Delta. Der Nachtschicht-Lauf **02.09. 23:34** (rc=0, 222 s, 1.77 USD) meldet allerdings einen **begruendeten Nullbefund**: nach Pruefung aller sechs Prioritaeten war «kein gueltiges Ziel offen» — pending Tasks, Synobsis, Fristen-Radar, zehn Trainingsprogramme, offene QUESTIONS und Wissenscheck-Alter allesamt entweder am selben Tag von anderen Loops erledigt, bewusst pausiert oder auf einen Entscheid Raphaels wartend. Das ist **kein Leerlauf im Sinne der Ruecktakt-Regel** (der Lauf hat sauber gearbeitet und den Nullbefund dokumentiert), aber es ist der erste konkrete Beleg dafuer, **woher die Unterauslastung kommt**: nicht aus einer Drossel und nicht aus Blockaden, sondern daraus, dass den getakteten Loops das Material ausgeht. Das gehoert zusammengelesen mit der Rate 0.45. Ein einzelner Nullbefund traegt noch keine Massnahme; ich beobachte, ob daraus eine Serie wird.
+
+### Feuermechanismen — beide Stationen im Sollstand
+
+Beide Registries geprueft. **MacBook Pro:** 14 launchd-Jobs geladen, `ch.jans.vollgas-monitor` und `ch.jans.vollgas-supervisor` unveraendert als `*.disabled-260729` und **nicht** geladen, ebenso `com.jans.aihub.runner.plist.disabled-260728`. **Mac Mini:** 12 Jobs geladen, `ch.jans.nachtschicht` aktiv, `ch.jans.vollgas-supervisor.plist.disabled-260729` nicht geladen; die acht Scheduled Tasks entsprechen dem Sollstand (energie-training, claude-abo-auslastung, grobkosten-training, arbeits-weiche-review sowie vier korrekt stillgelegte). Kein doppelt gefeuerter Loop, keine wiederbelebte plist, keine Abweichung zu korrigieren.
+
+**Waisen:** keine (`ps` auf `claude -p` leer). **Speicher:** frei+inaktiv+purgeable rund **3.8 GB**, `kern.memorystatus_vm_pressure_level: 1` (normal).
+
+### P-Liste
+
+- **P1 — entfaellt.** Der Sync-Stau, seit fuenf Laeufen der P1 dieses Radars, ist am 02.09. aufgeloest und im Register geschlossen. Kein neuer P1-Blocker.
+- **P2 — Material, nicht Kontingent.** Rate stabil bei 0.45, rund 90 Mio laufen zum Montags-Reset ungenutzt aus, und die Nachtschicht meldet erstmals ein leeres Zielfeld. Die beiden Befunde zeigen in dieselbe Richtung: der Engpass sitzt nicht beim Kontingent, sondern bei den offenen Aufgaben. Keine Massnahme dieses Radars, Beobachtung.
+- **P3 — Homebrew-Wedge im sechsten Tag.** `2.1.236` bleibt tot, die app-gebuendelte `2.1.255` traegt die Probe zuverlaessig in unter 10 Sekunden. Kein Handlungsbedarf, nur Buchfuehrung; Umstellung auf PATH erst nach einer Messung mit rc=0 dort.
+
+**Keine Mail.** Kein neuer P1-Blocker, kein erschoepftes Wochenkontingent; der geloeste P1 wurde von Raphael selbst freigegeben und ausgefuehrt, ist ihm also bekannt — nach der Mail-Disziplin (b) kein eigener Sendegrund. Der Radar bleibt still.
+
+---
+
 ## 2026-09-02 12:57 — [FREI] **Der Ertrag ist hoch (226 Dateien in 20 KBs), kein Leerlauf-Kandidat, alle Feuermechanismen im Sollstand. Zwei Befunde: der P1-Sync-Stau geht in den fuenften Tag (790 Versuche, 698/267, +64 in 12 h) — und die Kennzahl, mit der dieser Radar die Unterauslastung misst, hat mich zwei Laeufe lang in die Irre gefuehrt: der wachsende Rueckstand in Punkten ist Arithmetik, nicht Verschlechterung.**
 
 **Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **02.09. 12:57** (2026-09-02T10:57:17Z), letzter Eintrag **02.09. 00:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h (Takt + 3 h). Zweiter Ausfalltyp nicht zu pruefen, kein Lauf fehlt.
