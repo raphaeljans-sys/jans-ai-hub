@@ -238,7 +238,46 @@ Whitelist. Unverändert bei Raphael und **nicht erneut vorgelegt**: N65-2, N65-4
 übrigen Bestand, N63-3, die Reihenfolge der 308 Kandidaten, das Statusvokabular und die
 Beschaffungs-Bring-Schulden.
 
-## 10. Bestandsmessung (Rule 260811)
+## 10. Ein Nebenbefund beim Commit — und warum er nicht als neuer Befund gebucht wird
+
+Der eigene `nas-commit-now.sh` lief in einen **Merge-Konflikt**. Der Commit selbst ist sauber
+durchgegangen (**`6c34e2db6`**, 13 Dateien, Arbeitsbaum danach clean); gescheitert ist erst der
+Abgleich mit GitHub.
+
+**Zuerst geprüft, ob das schon bekannt ist** (Methodik-Pflicht 10) — und das ist es, gründlich:
+`logbuch/fristen.md` führt die Divergenz seit dem **29.08.** mit sieben Bestätigungen und hat sie
+am 01.09. 23:5x von «Backup fehlt» auf **«kanonische Quelle unvollständig»** hochgestuft, weil auf
+`github/main` **387 Dateien** liegen, die im NAS-Arbeitsbaum fehlen — darunter **356 fertige
+Wiki-Artikel** der KB `architektur-fachwissen`. Ein achter «steht immer noch» wäre genau der
+Leerlauf, vor dem Rule `auto-verbesserungen` 260830 warnt.
+
+**Neu ist deshalb nur, was dieser Lauf messen konnte, weil der Konflikt in seiner eigenen Datei
+liegt** — `wissen/normen/CHANGELOG.md`:
+
+| Messung (nativ per ssh) | Wert |
+|---|---|
+| Der hängende Commit `1eed7118c` berührt | **genau eine Datei**, 35 Zeilen, Diff-Kopf `@@ -0,0 +1,35 @@` |
+| Lokale Seite seit merge-base | **+212 / −0** (6 Commits) |
+| `github/main` seit merge-base | **+162 / −0** |
+| Zählerstand | Versuch **730**, Divergenz **640 / 267** |
+
+**Keine der beiden Seiten löscht eine einzige Zeile** — beide fügen ausschliesslich neue
+Datumsblöcke an den Dateikopf. Damit ist die Auflösung für diese Datei **mechanisch** (beide
+Blöcke behalten, nach Datum ordnen) und nicht, wie das Selfcommit-Skript für den allgemeinen Fall
+zu Recht annimmt, eine Urteilsfrage. Das ist der Beitrag dieses Laufs: aus «braucht ein Urteil»
+wird «braucht eine Bestätigung». Die P1-Einstufung bleibt davon unberührt.
+
+**Nicht selbst aufgelöst.** Unbeaufsichtigter Lauf, Git-Interna — Rule `interaktive-eingriffe`
+Ziff. 3 gilt unverändert, und der vorgelegte Befehl steht seit dem 01.09. im Register. Ergänzt
+wurde dort nur die Charakterisierung oben und der Hinweis, dass dieser Lauf mit in der lokalen
+Seite hängt (er hat 78 Zeilen an den Kopf ebenjener Konfliktdatei angefügt — das ändert die Art
+des Konflikts nicht, aber der auflösende Blick sollte es wissen).
+
+**Für die Beurteilung dieses Laufs heisst das:** die Arbeit ist vollständig und committet auf der
+**kanonischen Quelle** (NAS), wie es Rule `sync-kanonische-quelle` verlangt. Sie erreicht GitHub
+und die zweite Station erst mit der Auflösung der Divergenz.
+
+## 11. Bestandsmessung (Rule 260811)
 
 Gemessen **nativ auf der Synology per ssh** (nie `git` über den SMB-Mount, Rule 260726), gegen
 den Commit-Stand **bei Laufbeginn** (`d7e019d31`, 01:30) — nicht gegen HEAD, weil der
