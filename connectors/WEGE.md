@@ -280,6 +280,31 @@ abschalten. Das ist eine Änderung an einer Sicherheitseinstellung des Tenants u
 ausdrücklich **nicht** gedeckt — A6 erlaubt das Verlängern einer Berechtigung, nicht das
 Aufweichen der Richtlinie dahinter.
 
+**Geprueft und VERWORFEN (02.09.2026, Hub-Chef) — Freigabe per Graph `invite` neu ausstellen.**
+Der Gedanke lag nahe und stand nicht unter den vier Sackgassen oben: statt zu verlaengern die
+Ordnerfreigabe schlicht **neu** ausstellen
+(`POST /drives/{driveId}/items/{itemId}/invite`, Zertifikats-Token) und damit die Frist
+zuruecksetzen. **Das loest es nicht.** Die 60 Tage laufen nach der Tenant-Richtlinie am
+**Gastkonto im Verzeichnis**, nicht an der Item-Freigabe (Bajrami: Entra-`createdDateTime`
+30.06.2026, siehe Punkt 2 und 3 oben). Eine neue Item-Einladung erzeugt eine zweite Berechtigung
+auf demselben Ordner und aendert an der Kontofrist nichts. Nicht ausgefuehrt, weil sie ohne
+Wirkung Berechtigungen dupliziert haette. **Nicht erneut probieren.**
+
+**Beim Pruefen aufgeloest, damit kuenftige Laeufe nicht neu suchen muessen:**
+
+| Site | Site-ID | Zweck |
+|---|---|---|
+| kispi (Anzeigename «JANS - 2619-KISPI») | `raphaeljans.sharepoint.com,9309f595-ed24-4bcd-bd4f-72500bda9bf7,1b25bcf5-9af9-42e7-941d-9209672ac03f` | Projektsite 2619 KISPI, Gastzugriffe der Fachplaner |
+
+| Bibliothek (Site kispi) | Drive-ID | Pfad-Beispiel |
+|---|---|---|
+| `Documents` | `b!lfUJkyTtzUu9T3JQC9qb9_W8JRv5mudClB2SCWcqwD_CbmxEdMbDQaHruii6jpZV` | `/2 Umbauprojekt Neu PPTS BKP/LOS_274.01 Innere Verglasungen JEGEN` (Los L. Bajrami, Jegen) |
+
+**Falle bei der Site-Aufloesung:** `--get "/sites/raphaeljans.sharepoint.com:/sites/2619-KISPI"`
+antwortet **404**. Der Site-**Name** ist `kispi`, nur der Anzeigename lautet «JANS - 2619-KISPI».
+Zuverlaessig ist `--get "/sites?search=KISPI"`.
+
+
 **Offen (lohnender als jede Einzelverlängerung):** ein Weg, der die Ablaufdaten aller Gäste einer
 Site **vorausschauend** liest, damit die Verlängerung nicht neun Tage vorher per Systemmail
 auffällt. Das Feld `Expiration` leistet das nach Punkt 2 nicht.

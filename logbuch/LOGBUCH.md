@@ -3,6 +3,87 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 02.09.2026 (08:39 bis 09:0x, Tagesbriefing gesendet ueber Weg 1)
+
+**Pflichtpruefungen.** `freigabe-status.sh --kurz`: mac-mini 0, macbook-pro 0, Exit 0. `--briefing`:
+keine Eintraege ab 12 h. `stationen-watchdog.sh --briefing`: **Exit 0** — alle Stationen und
+Sync-Jobs fristgerecht (gestern noch Exit 1 wegen des Mount-Ausfalls).
+
+**Signale.** Radar-Briefing 06:55 im Logbuch gelesen und weitergetragen; ein eigener
+AG-Gruendungs-Abschnitt fehlt heute im LOGBUCH.md, der Sachstand kam aus dem Fristen-Register
+(Nachtrag 01.09. 07:5x) und dem Konversations-Destillat. Konversations-Destillat 02.09. gelesen
+(sechs Bloecke; Befund: **kein einziges echtes Gespraech im 26-h-Fenster**, alles aus
+Automatik-Laeufen). Mail ueber `mail-vorfilter.sh 26` — **das Script traegt heute wieder**, nach
+zehn Tagen Apple-Mail-Blockade: 8 eingehende Mails Exchange, 7 gesendete, dazu iCloud und mail@.
+Kalender 02.09. bis 09.09. ueber Graph: vier Termine. bexio `--verzug` und `--abgleich`: beide
+HTTP 401, **sechsundzwanzigster Tag**. Queues: macbook-pro 0, mac-mini ein weiterhin
+**angehaltener** Task vom 30.08. (Laufzeitschicht-Umbau Phasen 0 bis 2, dritter Tag),
+`remote-tasks/pending/` existiert nicht.
+
+**Eigene Gegenpruefung statt Uebernahme** (Rule `auto-verbesserungen` 260729b): die Steinmann-
+Zeile des Radars am Original nachgemessen — Graph-Empfaengersuche `recipient: steinmann` ab
+25.08.2026 liefert **weiterhin kein einziges ausgehendes Mail**; einziger Treffer bleibt seine
+Abwesenheitsmeldung vom 27.08.2026 09:36. Der Radar-Befund ist bestaetigt.
+
+**Aktionen.**
+
+(A5) **Mail-Entwurf an R. Steinmann im Postfach angelegt und verifiziert.** Betreff
+«Albertstrasse 7: KV-Termin vor Deiner Abwesenheit», Empfaenger
+roman.steinmann@novaproperty.ch, Absender rj@, Konto Exchange. Anwesenheit in den Entwuerfen per
+osascript gegengeprueft. QS: Agenten `rechtschreibung` und `layout` parallel (eine echte
+Korrektur «hineinsende», vier Meldungen ohne Eingriff), danach `twin-chef`-Gate — **Fidelity 80
+auf 89 nach einer Veredelungsrunde** (Stimme, Denken, Fachsignatur). Der Twin hat zwei
+Sachangaben als unbelegt zurueckgemeldet; **beide wurden von mir am Original verifiziert und
+wiederhergestellt**: die Ferienmeldung vom 27.08.2026 09:36 (Graph-Metadaten gelesen) und die
+Bitte vom 24.08.2026 17:02, mit Felix Staehlin Kontakt aufzunehmen (Volltext gelesen, Cc
+f.staehlin@ und a.staehlin@). Eine dritte Ruecknahme des Twin war berechtigt und wurde
+uebernommen: der Satz «Er hat sich inzwischen selbst nach dem Projektstand erkundigt» kehrte die
+Chronologie um — die Nachfrage von A. Staehlin am 24.08. 16:58 war der **Anlass** der
+Weiterleitung, nicht deren Folge.
+
+(A4) Fristen-Register um zwei Eintraege ergaenzt (Steinmann-Entwurf liegt bereit; Gastzugriff
+Bajrami mit der geprueften Wegbegruendung). Dieser Logbuch-Eintrag. `connectors/WEGE.md` um eine
+**geprueft-und-verworfene** Variante ergaenzt.
+
+**Nicht ausgefuehrt, mit Grund.**
+
+(A1) Mahnaktion: Guard nicht bestanden, `--abgleich` antwortet 401. Nichts gebucht, nichts
+gemahnt. Aus demselben Grund ist die Rechnung RE-00100 ueber CHF 13'120.00 **bewusst nicht** in
+den Steinmann-Entwurf aufgenommen worden: der Zahlstatus ist seit 08.08.2026 unverifiziert, und
+eine Zahlungserinnerung an einen moeglicherweise zahlenden Kunden ist teurer als ihr Nutzen.
+
+(A2) **Kein dritter Kalendereintrag fuer Steinmann**, obwohl der Radar ihn fuer heute 11:00
+vorschlaegt. Begruendung: der Eintrag vom 29.08. fuer den 01.09. 08:00 trug einen Alarm und ist
+durchgefallen, das Register haelt dazu ausdruecklich fest «ein zweiter Eintrag allein wird es
+nicht richten»; zudem ist ein im Apple-Kalender gesetzter Eintrag fuer die auf Graph
+ausweichende Automatik unsichtbar (Lehre 01.09.). Der Entwurf im Postfach ist das staerkere
+Instrument und wurde stattdessen gebaut.
+
+(A6) **Gastzugriff Bajrami nicht verlaengert — Weg geprueft, bleibt versperrt.** Neu gegenueber
+dem Stand vom 30.08. ist, dass eine bis dahin nicht gelaufene Variante durchdacht wurde: die
+Ordnerfreigabe per Graph `POST /drives/{id}/items/{id}/invite` neu auszustellen. Site- und
+Drive-ID der KISPI-Site sind dabei aufgeloest worden (siehe WEGE.md). Die Variante ist
+**verworfen, nicht gescheitert**: die 60 Tage laufen laut Tenant-Richtlinie
+(`ExternalUserExpirationRequired = true`, `ExternalUserExpireInDays = 60`) am **Gastkonto im
+Verzeichnis**, nicht an der Item-Freigabe — eine neue Einladung setzt die Frist deshalb nicht
+zurueck. Bleibt Aktion Raphael ueber den Link «Zugriff verwalten» in der Systemmail vom
+30.08.2026 00:20.
+
+(P1) Sync-Divergenz **unveraendert nicht selbst aufgeloest** (Rule `interaktive-eingriffe`
+Ziff. 3, Urteil ueber fremde unbestaetigte Arbeit).
+
+**Briefing gesendet, ueber Weg 1.** Apple Mail antwortet heute wieder (Erreichbarkeit vorab mit
+25-s-Zeitgrenze geprueft, Konten-Abfrage kam zurueck). Nachgemessen am Original in den
+Gesendeten von rj@ (Rule: nie am Rueckgabewert): **02.09.2026 08:54:38 CEST, 8217 Zeichen**,
+Betreff «Hub-Chef 02.09.2026: Der Entwurf an Steinmann liegt im Postfach, heute ist der letzte
+Tag», `internetMessageId` `<954A1F70-8FCD-4808-A87A-9EB550A3B326@raphaeljans.ch>`.
+
+**Vermerk zum Korrektur-Harness.** Beiden Pruef-Agenten wurde die gestern im Register gesetzte
+Grenze (Fachnotation und Zitiertes melden, nie aendern) ausdruecklich in den Auftrag geschrieben.
+**Beide haben sie in beiden Laeufen eingehalten** und ihre Funde zu Tuer-IDs, Typenbezeichnungen,
+Betraegen und Datumsangaben ausschliesslich gemeldet. Das ist ein erster Wirksamkeitsbeleg fuer
+den im Register liegenden Vorschlag, die Grenze dauerhaft in `agents/layout.md` zu verankern.
+
 ## Radar-Briefing 02.09.2026 (Logbuch-Radar, 06:55)
 
 Ein Tag mit einer echten letzten Gelegenheit: R. Steinmann ist ab morgen drei Wochen weg, und
