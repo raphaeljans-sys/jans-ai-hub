@@ -2,6 +2,49 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-02 (Run 51) — die Erstpruefung von 411 unsichtbar gewesenen Artikeln, und warum sie duenn ausfiel
+
+**Zuschnitt:** 6 Melder (`model: sonnet`) + 7 adversariale Verifikatoren + Hauptkontext-Nachmessung.
+13 Agenten, 2'367'358 Token, 8,3 Min, 0 Fehler. **0 bestaetigt · 7 widerlegt · 1 Nullbefund · 2 in
+praezisierter Form gesetzt · 1 Uebergabe aus Lauf 50 selbst geschlossen.** Bericht:
+`outputs/2026-09-02_wissens-chef-run51.md`.
+
+- **Uebergabe Lauf 50 erfuellt.** Die Repo-Divergenz ist am 02.09. um 16:2x durch Raphael aufgeloest
+  (Merge `a6fb7e3bd`); eigene Nachmessung nativ per ssh: 0/0, afw-Wiki **482** Artikel. Die
+  **411** dadurch erstmals sichtbaren Artikel (Diff `1eed7118c..a6fb7e3bd`, Datei fuer Datei
+  gezaehlt) sind auf sechs Achsen cross-geprueft. **Der Merge betraf auch andere KBs** — 14 Dateien
+  `energie`, 9 `twin`, 8 `baurecht`, 5 `normen` und **8 in `koordination` selbst**, darunter die
+  Laufberichte der Runs 47-50: die Aufsicht fuehrte vier Tage ein Register, dessen eigene
+  Belegdateien im kanonischen Baum fehlten.
+- **Der Grund fuer die duenne Ausbeute ist gemessen:** alle 411 Artikel sind schema-konform
+  (0 Ausreisser), Statusverteilung **229 `emerging` · 182 `speculative` · 0 `established`**. Nach
+  Rule `normen-referenz` 1b ist kein einziger davon Zitierquelle. **Merksatz:** vor der
+  Kollisionsbewertung die Statusverteilung der Zielmenge messen — sie sagt vorher, wie viel Gewicht
+  ein Befund tragen kann.
+- **Gesetzt 1 — `afw/wiki/baunebenkosten-anlagewert-anlagekosten-definitionen.md` (+17/−0).** Der
+  Vorwurf «ordnet Architektenhonorare BKP 5 zu» ist **widerlegt** (der Artikel nennt keinen Code).
+  Real ist eine Namensgleichheit: «Baunebenkosten» der Bewertungslogik gegenueber BKP-2017-Hauptgruppe
+  5. Am Original nachgemessen: Gruppe 5 = Wettbewerbe (50), Bewilligungen/Gebuehren (51),
+  Dokumentation (52); Architektenhonorare = **291** (Hauptgruppe 2). Folge: bei einem Abgleich
+  Realwertschaetzung ↔ BKP-Kostenvoranschlag nicht gegeneinander verrechnen.
+- **Gesetzt 2 — `afw/wiki/sia416-sia116-volumenvergleich-…` (+12/−0).** «SIA 416/2002» existiert
+  nicht; einschlaegig ist SIA 416:2003 (ersetzt 416:1993 **und** 116:1952). Der Vorwurf ist
+  widerlegt (quellentreue Wiedergabe, `speculative`, Belegvorbehalt); gesetzt wurde nur der
+  Ausgaben-Vermerk, damit die Zeichenfolge nicht als Fundstelle zitiert wird.
+- **Zweite Uebergabe aus Lauf 50 selbst geschlossen** (`wissen/energie`, +15/−0 plus CHANGELOG
+  +18/−0): die vermutete weitere Fundstelle der fRsi-Zusicherung existiert und steht woertlich in
+  `destillate/innendaemmung-altbau-bauphysik-ch.md`. Fuer 40 mm belegt falsch (fRsi 0,61-0,63 gegen
+  die Grenze 0,75). ⚠-Berichtigung mit beiden Fassungsvorbehalten gesetzt.
+- **Zum zweiten Mal unabhaengig belegt:** ein Warnblock, der nur im Schwesterartikel steht, wirkt
+  nicht (Lehre Lauf 50, Abschnitt 7).
+- **Fuenf Befunde ohne Aktion**, je mit Begruendung im Bericht; ein Melder-Befund blieb ausserhalb
+  der Zwei-pro-Achse-Grenze und ist als offen ausgewiesen (kein stiller Deckel).
+
+Register `QUERBEZUEGE.md` +55/−0 (drei neue Abschnitte). Alle sechs geaenderten Dateien rein
+additiv, `git diff --numstat` je `x/0` (Rule `auto-verbesserungen` 260811). Keine Mail — die drei
+offenen Punkte sind nicht operativ (Rule 260803).
+
+
 ## 2026-09-02 (Synergie-Lauf 26, Tagestakt) — zwei Befunde, beide gemessen statt vermutet
 
 Delta-Basis 01.09.2026 17:10, Fenster 24,0 h, 133 Commits. Uhrenprobe gegen den nativen

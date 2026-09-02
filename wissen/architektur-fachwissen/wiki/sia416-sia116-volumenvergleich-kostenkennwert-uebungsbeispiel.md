@@ -33,6 +33,18 @@ Aussengeschossfläche (Balkone, Vorbauten o. Ä.) mit einer pauschalen Zuschlags
 2,00 m — SIA 416/2002 kennt diesen Zuschlag nicht und bleibt bei der reinen
 Geschossflächen-Multiplikation.
 
+> **⚠ Ausgaben-Vermerk 02.09.2026 (Wissens-Chef Lauf 51).** Die Bezeichnung **«SIA 416/2002»
+> stammt aus dem Quelldokument und bezeichnet keine existierende Norm-Ausgabe.** Die
+> einschlägige Ausgabe ist **SIA 416:2003** «Flächen und Volumen von Gebäuden»; sie ersetzt
+> SIA 416 Ausgabe 1993 **und** SIA 116 Ausgabe 1952 (belegt im Normteil selbst,
+> `wissen/normen/destillate/sia-416-2003.md`, Frontmatter `ausgabe`/`ersetzt`; Registerzeile
+> `wissen/normen/wiki/REGISTER.md` — dort auch der Hinweis, dass die Rücknahme der SIA 416/1
+> die gültige SIA 416:2003 **nicht** betrifft). Die Bezeichnung oben ist quellentreu wiedergegeben
+> und wird nicht geändert; sie darf aber **nicht als Ausgabenangabe zitiert** werden. Für jede
+> Fundstelle gilt Rule `normen-referenz`: Norm + Ausgabe + Ziffer aus der KB `normen`, nie aus
+> diesem Artikel. Der Rechenweg selbst (Geschossfläche × Geschosshöhe ohne Zuschlag gegenüber
+> dem SIA-116-Zuschlag für Aussengeschossflächen) ist von diesem Vermerk nicht berührt.
+
 ## Kernaussage: Trotz 43 % Volumendifferenz nur ~3,6 % Differenz im Kostenkennwert
 
 Angewendet auf zwei unterschiedliche BKP-2-Richtwerte (Basis Zürcher Baukostenindex 928.4,

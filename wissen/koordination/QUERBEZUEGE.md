@@ -181,6 +181,61 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Register der Cross-KB-Kanten** (wo wird festgehalten, dass Artikel A einer anderen KB von Artikel B abhaengt) | **`koordination/QUERBEZUEGE.md`** — plus der Fassungs-/Warnblock im Artikeltext selbst, der beim Lesen wirkt | **NICHT das `links:`-Frontmatter.** Das Schema `wissen/WISSEN-CLAUDE.md` Z. 50/60-61 definiert `links:` ausschliesslich als `[[artikel-name]]` auf einen anderen Wiki-Artikel **derselben** KB, und Pruefung B des Skills `wissenscheck` validiert genau das. Hub-weit tragen rund 7 von 272 Artikeln einen KB-Pfad im `links:`-Feld; 3 davon entstanden in **Run 47** und wurden in Run 48 von einem Melder faelschlich als Hauskonvention gelesen und zur Ausweitung auf vier weitere Dateien vorgeschlagen. **Regel daraus: ein Aufsichtslauf darf seinen eigenen Eingriff vom Vortag nicht als Konvention messen** — die Konvention steht im Schema, nicht im letzten Diff. Schema-Entscheid offen: `architektur-fachwissen/wiki/QUESTIONS.md` #64 (260830b) — NEU Run 48 (30.08.2026) |
 
 ## Gepruefte Paare
+
+### afw ↔ BKP-2017-Rule / immobilienbewertung («Baunebenkosten» doppelt belegt) — geprueft 2026-09-02 (Run 51), KERNVORWURF WIDERLEGT, Praezisierung GESETZT
+
+Erstpruefung der 411 Artikel, die bis zum Merge `a6fb7e3bd` (02.09.2026) nicht im kanonischen
+NAS-Arbeitsbaum lagen. Melder-Vorwurf: `wiki/baunebenkosten-anlagewert-anlagekosten-definitionen.md`
+ordne Architektenhonorare der BKP-Hauptgruppe 5 zu. **Widerlegt** — der Artikel nennt keinen einzigen
+BKP-Code und fuehrt BKP 5 ueber den verlinkten Schwesterartikel ausdruecklich als «0 % honorarberechtigt,
+keine Planungsleistung des Architekten».
+
+**Was bleibt, ist eine Namensgleichheit mit Verwechslungspotenzial:** «Baunebenkosten» bezeichnet in der
+**Bewertungslogik** (Anlagewert = Bodenwert + Bauwert + Baunebenkosten, Fuehrung `immobilienbewertung`)
+etwas anderes als die **BKP-2017-Hauptgruppe 5** (Fuehrung `references/bkp-2017`). Am Original
+nachgemessen: Hauptgruppe 5 fuehrt Wettbewerbskosten (50), Bewilligungen/Gebuehren (51), Dokumentation
+(52) — `BKP-2017-Liste.md` Z. 879-905; Architektenhonorare stehen als **291** unter Hauptgruppe 2
+(Z. 592). Von den sieben Beispielen des Artikels liegen nur Bauzeitzinsen, Versicherungspraemien und
+Spesen in Gruppe 5. **Folge fuer die Praxis:** bei einem Abgleich Realwertschaetzung ↔
+BKP-Kostenvoranschlag duerfen die beiden Groessen nicht gegeneinander verrechnet werden (sonst
+Doppelzaehlung oder Luecke bei den Honoraren). Praezisierung im Artikel gesetzt (+17/−0).
+
+**Uebertragbar:** der Abgrenzungsvermerk stand ausschliesslich im verlinkten Schwesterartikel. Das ist
+derselbe Fall wie Run 50, Abschnitt 7 — **ein Warnblock, der nur nebenan steht, wirkt nicht**, weil
+Backlinks nicht zwingend verfolgt werden. Die Lehre ist damit zum zweiten Mal unabhaengig belegt.
+
+### afw ↔ normen (Ausgabe «SIA 416/2002») — geprueft 2026-09-02 (Run 51), TEILWEISE, Vermerk GESETZT
+
+`wiki/sia416-sia116-volumenvergleich-kostenkennwert-uebungsbeispiel.md` Z. 28/33 nennt «SIA 416/2002».
+Diese Ausgabe existiert nicht; einschlaegig ist **SIA 416:2003**, die SIA 416:1993 und SIA 116:1952
+ersetzt (`normen/destillate/sia-416-2003.md`, Frontmatter aus dem Normteil selbst). **Der Melder-Vorwurf
+«der Artikel fuehrt eine falsche geltende Ausgabe» ist widerlegt:** die Bezeichnung stammt woertlich aus
+dem Quelldokument (Beschriebe.doc, 27.06.2007), der Artikel gibt sie quellentreu wieder, traegt
+`status: speculative`, einen Belegvorbehalt und die Praxisregel, vor Verwendung gegenzupruefen. Gesetzt
+wurde nur der Ausgaben-Vermerk (+12/−0), damit die Zeichenfolge nicht als Fundstelle zitiert wird
+(Rule `normen-referenz`). Der Rechenweg ist nicht berueht. **Fuehrung unveraendert:** Norm-Ausgaben aus
+`normen`, nie aus afw (Matrix Z. 176).
+
+### Erstpruefung der 411 nachtraeglich sichtbaren afw-Artikel — 2026-09-02 (Run 51), Uebergabe Lauf 50 ERFUELLT
+
+Lauf 50 hatte die damals 356 (bis zum Merge auf 411 angewachsenen) Artikel als «ungepruefetes Delta»
+an Lauf 51 uebergeben. Erledigt: 6 Melder auf den Achsen normen · Kennwerte · baurecht · energie ·
+Honorar · Delta, 7 adversariale Verifikatoren. **0 bestaetigt · 7 widerlegt · 1 Nullbefund**; zwei
+Befunde in praezisierter Form gesetzt (oben), fuenf ohne Aktion.
+
+**Der Grund fuer die duenne Ausbeute ist gemessen, nicht vermutet:** alle 411 Artikel sind
+schema-konform (Frontmatter/`status`/`sources` vollstaendig, 0 Ausreisser), und die Statusverteilung
+lautet **229 `emerging` · 182 `speculative` · 0 `established`**. Nach Rule `normen-referenz` 1b ist
+damit **kein einziger dieser Artikel Zitierquelle**. Ein Widerspruch zwischen einem `speculative`-afw-
+Artikel und einem gepflegten Destillat der Gegenseite ist keine Kollision auf Augenhoehe — die
+fuehrende Seite steht in jedem der geprueften Faelle bereits in der Matrix. **Merksatz fuer kuenftige
+Laeufe:** vor der Kollisionsbewertung die Statusverteilung der Zielmenge messen; sie sagt vorher, wie
+viel Gewicht ein Befund ueberhaupt tragen kann.
+
+**Nicht verifiziert (bewusst, kein stiller Deckel):** der dritte Melder-Befund der normen-Achse
+(«eBKP-H-Artikel verweist nicht auf die JANS-Nutzungssperre fuer eBKP-H») blieb ausserhalb der
+Zwei-pro-Achse-Grenze und ist offen. Run 50 hat dieselbe Familie unter Abschnitt 7 bereits behandelt.
+
 ### planungsgrundlagen ↔ baurecht (Genehmigungsfiktion Anzeigeverfahren ZH) — geprueft 2026-09-01 (Run 50), BESTAETIGT und KORRIGIERT
 
 **Der schwerste inhaltliche Befund dieses Laufs, und er stand seit dem 01.08.2026 als

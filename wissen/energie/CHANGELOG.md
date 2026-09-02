@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## 2026-09-02 (Wissens-Chef Lauf 51) — zweite Fundstelle derselben fRsi-Zusicherung berichtigt
+
+`destillate/innendaemmung-altbau-bauphysik-ch.md` (+15/−0): Lauf 50 hatte am 01.09. die
+Bauherren-Zusicherung «wird durch 40–80 mm Innendämmung zuverlässig über die Grenze gehoben» in
+`wiki/innendaemmung.md` korrigiert und die Vermutung weiterer Fundstellen an Lauf 51 übergeben.
+Die Vermutung trifft zu: derselbe Satz steht wörtlich im Destillat (Abschnitt Run 76/79,
+Aussenwandecke). Er ist für 40 mm **belegt falsch** — die vollständige Staffelung derselben
+Primärquelle (`destillate/bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013.md`, Abschnitt 3.5,
+Detail 3.6-1-250) gibt **40 mm → fRsi 0,61–0,63**, **80 mm → 0,75–0,80**, über 0,80 erst ab 120 mm.
+⚠-Berichtigung additiv gesetzt, mit den beiden Fassungsvorbehalten (0,75 = Stand SIA 180:1999;
+SIA 180:2014 Ziff. 6.2.2.1 verlangt für konstruktive Wärmebrücken den Anhang-F-Wert 0,80/0,83, und
+die Katalogwerte rechnen mit R_si = 0,35 statt der nach Ziff. 6.2.3.6 verlangten 0,25). Der
+Bestandsbefund 0,37–0,48 bleibt unverändert richtig. Bestehender Text nicht überschrieben
+(Rule `auto-verbesserungen` 260811, `git diff --numstat` = 15/0).
+
+**Damit ist die Übergabe von Lauf 50 an Lauf 51 zu diesem Punkt geschlossen.**
+
+
 ## 2026-09-02 (Abendlauf Mac Mini, Run 175) — Fassaden-Solar ZH geklärt, ewz-Fernwärmetarif beschafft, eigene Fehldatierung korrigiert
 
 Erster Lauf des Tages mit Fachertrag (173 und 174 waren Buchhaltungsläufe). Zwei substanzielle

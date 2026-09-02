@@ -1,5 +1,38 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-02 (Wissens-Chef Lauf 51) — Erstprüfung der 411 nachträglich sichtbaren Artikel; zwei Vermerke
+
+Die 411 Wiki-Artikel, die wegen der Repo-Divergenz bis zum 02.09.2026 nicht im kanonischen
+NAS-Arbeitsbaum lagen (Merge `a6fb7e3bd`), sind erstmals cross-geprüft worden — die Übergabe von
+Lauf 50 («als Zuwachs behandeln, nicht als Bestand»). Zuschnitt: 6 Melder (`model: sonnet`) auf den
+Achsen normen · Kennwerte · baurecht · energie · Honorar · Delta, 7 adversariale Verifikatoren,
+Nachmessung im Hauptkontext. **0 Befunde überstanden die Verifikation unverändert; 2 in
+präzisierter Form gesetzt.**
+
+`wiki/baunebenkosten-anlagewert-anlagekosten-definitionen.md` (+17/−0): Der Satz «deckt sich mit
+der Logik von BKP 5» trägt nicht in voller Breite. **«Baunebenkosten» ist gleichnamig in zwei
+verschiedenen Klassifikationen** — Bewertungslogik (Anlagewert = Bodenwert + Bauwert +
+Baunebenkosten) gegenüber BKP-2017-Hauptgruppe 5. Von den sieben genannten Beispielen liegen nur
+Bauzeitzinsen, Versicherungsprämien und Spesen in Hauptgruppe 5; diese führt Wettbewerbskosten (50),
+Bewilligungen/Gebühren (51), Dokumentation (52). **Architektenhonorare sind BKP 291** (Hauptgruppe 2,
+Untergruppe 29), am Original gegengelesen: `references/bkp-2017/BKP-2017-Liste.md` Z. 592 und
+Z. 879-905. ⚠ Der ursprünglich gemeldete Vorwurf (der Artikel ordne Honorare der Gruppe 5 zu) ist
+**widerlegt** — der Artikel nennt gar keinen Code und führt BKP 5 über den verlinkten
+Schwesterartikel sogar als «0 % honorarberechtigt». Gesetzt wurde nur die belegte Präzisierung.
+
+`wiki/sia416-sia116-volumenvergleich-kostenkennwert-uebungsbeispiel.md` (+12/−0): «SIA 416/2002»
+bezeichnet **keine existierende Norm-Ausgabe**; einschlägig ist SIA 416:2003, die SIA 416:1993 und
+SIA 116:1952 ersetzt (`wissen/normen/destillate/sia-416-2003.md`). Die Bezeichnung stammt aus dem
+Quelldokument von 2007, ist quellentreu wiedergegeben und bleibt unverändert — sie darf aber nicht
+als Ausgabenangabe zitiert werden (Rule `normen-referenz`). Der Rechenweg ist nicht berührt.
+
+**Nullbefund mit Zahl:** alle 411 Artikel sind schema-konform (Frontmatter, `status`, `sources`
+vollständig, 0 Ausreisser). Statusverteilung **229 `emerging` · 182 `speculative` · 0 `established`**
+— der Bestand ist belegter Arbeitsstand, keine Auskunftsbasis; nach Rule `normen-referenz` 1b ist
+davon kein Artikel Zitierquelle. Das entschärft die Kollisionslage und erklärt, warum von sechs
+Achsen keine einen tragenden Widerspruch hergab.
+
+
 ## 2026-09-02 (Sync-Reparatur 260902) — Doppel-Destillat «protofunktional» redaktionell zusammengeführt
 
 `wiki/protofunktional-begriff-abgrenzung-funktionalismus.md`: Der Artikel war **zweimal

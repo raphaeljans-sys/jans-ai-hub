@@ -547,6 +547,21 @@ Aussenwandecke ist im ungedämmten Bestand die kritischste alle Wärmebrücken (
 deutlich unter der SIA-Grenze 0,75), wird aber durch 40–80 mm Innendämmung zuverlässig über die
 Mindestwärmeschutz-Grenze gehoben.
 
+> **⚠ Berichtigung 02.09.2026 (Wissens-Chef Lauf 51).** Der Satz «durch 40–80 mm Innendämmung
+> zuverlässig über die Mindestwärmeschutz-Grenze gehoben» ist in dieser Form **nicht belegt und
+> für 40 mm belegt falsch**. Die vollständige Staffelung derselben Primärquelle steht in
+> `[[bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013]]`, Abschnitt 3.5 (Detail 3.6-1-250,
+> Backsteinmauerwerk 250 mm): **40 mm → fRsi 0,61–0,63** (klar **unter** 0,75), **80 mm → 0,75–0,80**
+> (an der Grenze, je nach WLF), **über 0,80 erst ab 120 mm**. Richtig ist: die Aussenecke wird durch
+> 40–80 mm Innendämmung **deutlich verbessert, aber nicht nachweislich über die Grenze gehoben** —
+> projektspezifisch rechnen. Zwei weitere Vorbehalte gelten mit: die 0,75 ist der Stand
+> **SIA 180:1999**; nach **SIA 180:2014 Ziff. 6.2.2.1** gilt für konstruktive Wärmebrücken der
+> standortabhängige Anhang-F-Wert (ungünstigster CH-Wert 0,80/0,83), und die Katalogwerte rechnen
+> mit **R_si = 0,35** (Systematik 1999), während SIA 180:2014 Ziff. 6.2.3.6 **0,25** verlangt — ein
+> direkter Vergleich mit Anhang F ist unzulässig. Der Bestandsbefund 0,37–0,48 bleibt richtig.
+> Dieselbe Zusicherung wurde am 01.09.2026 (Lauf 50) bereits in `wiki/innendaemmung.md` korrigiert;
+> diese Fundstelle war die von Lauf 50 an Lauf 51 übergebene offene Stelle.
+
 **Run 79 (2026-07-18) — E93 geschlossen, neuer Quellenwinkel:** Statt eines weiteren externen
 Fachportals wurde der bereits im Hub liegende **BFE-Wärmebrückenkatalog 2002** (die «Mutter»-
 Publikation, aus der 2013 auch das BFH-«Arbeitspaket 5» abgeleitet wurde) über einen neuen Zugang
