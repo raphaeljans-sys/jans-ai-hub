@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 02.09.2026 02:07:24
+Stand: 02.09.2026 02:27:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 02:03)
@@ -19,4 +19,4 @@ Stand: 02.09.2026 02:07:24
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 204f9418d normen Run 77: Messwert fristen.md im Report auf den nativ gemessenen Wert +29/-0 korrigiert
+- a296e7765 nas-selfcommit: 4 Datei(en) 2026-09-02 02:15
