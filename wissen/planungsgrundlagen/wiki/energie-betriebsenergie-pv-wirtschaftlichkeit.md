@@ -37,10 +37,34 @@ Referenzanlage** ab. Drei Kategorien nach Leistung:
 | **HEIV** (Hochalpine EIV) | — | hochalpine Anlagen, hier nicht vertieft |
 
 **Aufbau des Beitrags = Grundbeitrag + Leistungsbeitrag:**
-- **Grundbeitrag:** Pauschale je Anlage, abhängig von der Bauart (angebaut/freistehend vs.
-  integriert).
+- ⚠ **Grundbeitrag: seit dem 01.04.2024 CHF 0** (Korrektur 03.09.2026, siehe Kasten unten). Die
+  frühere Beschreibung «Pauschale je Anlage, abhängig von der Bauart» beschreibt einen Zustand,
+  der seit über zwei Jahren nicht mehr gilt. Die EIV ist heute **faktisch reiner Leistungsbeitrag**.
 - **Leistungsbeitrag:** CHF pro kWp, **degressiv gestaffelt** nach Leistungsklasse (die ersten kWp
-  höher vergütet als die oberen; Klassen u.a. bis 30 kW / 30–100 kW / ab 100 kW).
+  höher vergütet als die oberen; Klassen bis 30 kW / 30–100 kW / ab 100 kW).
+
+> **✓ Nachtrag 03.09.2026 — die absoluten Sätze sind jetzt gemessen (Bringschuld aus KB `energie`,
+> Lauf 176).** Dieser Artikel hielt bisher fest, «absolute CHF/kW weiterhin nur über den
+> Tarifrechner beziehen (kein neuer statischer Wert nötig)». Der Tarifrechner wurde am 03.09.2026
+> im Browser bedient und über neun Stützstellen je Bauart ausgewertet; die Sätze stehen damit fest:
+>
+> | Leistungsband (**marginal**, nicht auf die ganze Anlage) | Angebaut / freistehend | Integriert |
+> |---|---|---|
+> | 0 bis 30 kWp | **360 CHF/kWp** | **400 CHF/kWp** |
+> | über 30 bis 100 kWp | **300 CHF/kWp** | **330 CHF/kWp** |
+> | über 100 kWp | **250 CHF/kWp** | **250 CHF/kWp** |
+>
+> **Dieser Artikel hat dabei geholfen und wird zugleich korrigiert.** Die hier seit längerem
+> geführte Klassengrenze «bis 30 / 30–100 / ab 100 kW» war in der KB `energie` nicht bekannt —
+> dort standen nur zwei Bänder. Umgekehrt ist die hiesige Senkungs-Angabe «je 20 CHF/kW per
+> 01.04.2025 bei ≤30 kW und ab 100 kW» durch die Messung **unabhängig bestätigt**: mit
+> Inbetriebnahme 01.06.2024 rechnet der Rechner 380 CHF/kWp in der ersten Stufe, ab 01.06.2025
+> noch 360. Die mittlere Klasse wurde nicht gesenkt und liegt weiterhin bei 300.
+>
+> Führend für Systematik, Boni und Deckel bleibt `wissen/energie` →
+> `pv-einmalverguetung-bund-bfe` (dort auch die Messprotokolle und die Formel); Bauherren-Antworten
+> dazu in `wissen/energie/wiki/BAUHERREN-FAQ.md` **F271** (Staffel/Rechenbeispiele) und **F272**
+> (Indach-Zuschlag entfällt ab 100 kWp).
 
 **Boni (obendrauf):**
 - **Neigungswinkelbonus** (Winterstrom-Anreiz, ab **01.01.2025** erhöht): stark geneigte
@@ -108,7 +132,9 @@ Kategorien, keine neuen Schwellen; die zuletzt dokumentierte Änderung bleibt di
 Leistungsbeitrag-Senkung je CHF 20 (≤30 kW und ab 100 kW) per 01.04.2025 (identisch zum bereits
 in §1 erfassten Stand). Grundstruktur Grundbeitrag + degressiver Leistungsbeitrag + Neigungswinkel-
 /Parkflaechenbonus bleibt unverändert gültig; absolute CHF/kW weiterhin nur über den
-Tarifrechner beziehen (kein neuer statischer Wert nötig).
+Tarifrechner beziehen (kein neuer statischer Wert nötig). ⚠ **Überholt seit 03.09.2026** in zwei
+Punkten: der Grundbeitrag ist seit 01.04.2024 CHF 0 (also kein Strukturbestandteil mehr), und die
+absoluten Sätze sind inzwischen am Rechner gemessen — siehe Kasten in §1.
 
 **Refresh 2026-07-22 (Run 55):** Ordner `_Betriebsenergie` erneut vollständig geprüft (D9,
 älteste offene Energie-Frage) — er enthält weiterhin **nur** den hier dokumentierten EFH-Fall

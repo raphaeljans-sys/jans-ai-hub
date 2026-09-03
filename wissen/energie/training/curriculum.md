@@ -2696,3 +2696,25 @@ mechanisiert (acht Faelle, `wissen/tools/fehloffen-waechter.py`) und den seit 03
 Klimareferenz-Widerspruch E-121-2 als Scheinwiderspruch aufgeloest (Normausgabenwechsel
 SIA 380/1:2009 → :2016). Verdichtet zu FAQ F265, F60 und F198.
 Bericht: `outputs/2026-09-01_energie-run172.md`.
+
+## 2026-09-03 (Run 176) — Belegvorbehalt am Rechner geschlossen, kein neuer Korpus-Zugang
+
+Kein PDF-Transfer (Inventar seit Run 65 erschoepft). Der Lauf hat **E-R162-2** geschlossen, indem
+der Pronovo-Tarifrechner im Browser ueber neun Stuetzstellen je Bauart ausgewertet wurde: die
+EIV-Leistungsbeitraege sind **marginal gestaffelt 360/300/250 CHF/kWp** (integriert 400/330/250)
+mit Grenzen bei 30 und 100 kWp — die **dritte Stufe war der KB unbekannt**, und die alte Lesart
+«ab 30 kWp 300» unterschaetzte eine 50-kWp-Anlage um 1'800 CHF. Verdichtet zu FAQ **F271** und
+**F272**, Artikel `[[pv-solar-technologien]]` gewachsen, Cross-KB-Korrektur in
+`planungsgrundlagen` gesetzt.
+
+**Zuschnitt-Lehre fuer kuenftige Laeufe:** vor der externen Recherche zu einem offenen Punkt
+**zuerst die Nachbar-KBs greppen** — die Klassengrenzen 30/100 kW standen seit Monaten in
+`planungsgrundlagen/wiki/energie-betriebsenergie-pv-wirtschaftlichkeit.md`, waehrend der Punkt hier
+zehn Tage offen lag (E-R176-1). Zweitens: ein alter Vermerk «Weg nicht moeglich» gehoert periodisch
+gegengemessen, nicht fortgeschrieben — «kein WebFetch-faehiges Formular» war richtig und trotzdem
+kein Blocker.
+
+**Naechster Zuschnitt:** E-R176-1 (Cross-KB-Schritt vor der Recherche), danach die beiden
+Waechter-Falsch-Positive E-R176-2 + E-R175-2 gemeinsam (gleiche Ursache: Erwaehnung wird als
+Aussage gelesen). Cross-Skill-Bringschulden E-R176-3 und E-R167-3 Raphael vorlegen. Ab Oktober die
+terminierten Punkte E-R166-2 (GFM 2028), E-R167-2 (KBOB), E-R165-2 (Formularsatz).

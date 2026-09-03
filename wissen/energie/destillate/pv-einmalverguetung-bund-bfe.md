@@ -3,9 +3,9 @@ quelle: «Foerderung von Photovoltaikanlagen — Einmalverguetung, gleitende Mar
 herausgeber: Bundesamt fuer Energie BFE (Faktenblatt pubdb 7238) · Pronovo AG (Vollzugs-Richtlinie, Tarifrechner) · ElCom (Fachsekretariat, FAQ ES2050/Mantelerlass)
 ausgabe: BFE-Faktenblatt Stand 27.11.2025 (PDF-Metadaten) · Pronovo «Richtlinie Photovoltaik 2026», Version 4.1, Ausgabedatum 03.06.2026 · ElCom-FAQ 053-00004, Update 10.02.2026 · BFE Referenz-Marktpreise Art. 15 EnFV, Stand 14.07.2026
 gelesen: 2026-07-23 (Pronovo-Richtlinie PDF vollst. 56 S. via pdftotext; BFE-Faktenblatt PDF 5 S.; ElCom-FAQ PDF Abschnitt 1.6 + Fussnoten Art. 12/15; BFE-Referenzmarktpreise-PDF; Pronovo-Website haeufige-fragen/ + neuerungen-einmalverguetung-photovoltaik/ als Rohtext)
-datenstand: Struktur 2025/2026 (ab 1.1.2025 erhoehte Neigungs-/Parkflaechenboni) · Basis-Leistungsbeitraege KLEIV unveraendert seit 01.04.2025 (360/300/400 CHF/kWp) · **Grundbeitrag = CHF 0 seit 1.4.2024** (jetzt primaerquellen-belegt) · Winterstrombonus (ersetzt Hoehenbonus) fuer IBN ab 1.1.2026 neu mit CHF-Wert belegt · Minimalverguetung Rueckliefer-/Abnahmepflicht neu seit 1.1.2026 (Art. 15 EnG/Art. 12 EnV) — separat dokumentiert, nicht Teil der EIV
+datenstand: Struktur 2025/2026 (ab 1.1.2025 erhoehte Neigungs-/Parkflaechenboni) · Leistungsbeitraege **marginal gestaffelt 360/300/250 CHF/kWp (angebaut/freistehend) bzw. 400/330/250 (integriert)**, am Pronovo-Tarifrechner gemessen 03.09.2026, unveraendert seit der Senkung per 01.04.2025 (davor 380 in der ersten Stufe) · **naechster Pruefstichtag Januar 2027** (neue Tarife werden Anfang Januar mit Gueltigkeit ab 1. April hinterlegt) · **Grundbeitrag = CHF 0 seit 1.4.2024** (jetzt primaerquellen-belegt) · Winterstrombonus (ersetzt Hoehenbonus) fuer IBN ab 1.1.2026 neu mit CHF-Wert belegt · Minimalverguetung Rueckliefer-/Abnahmepflicht neu seit 1.1.2026 (Art. 15 EnG/Art. 12 EnV) — separat dokumentiert, nicht Teil der EIV
 status: established
-last_updated: 2026-08-24 (Winterstrombonus-Mechanik und 100-kW-Untergrenze ergaenzt; Belegvorbehalt zu 360/300/400 CHF/kWp gesetzt; Richtlinienstand V4.1 bestaetigt)
+last_updated: 2026-09-03 (Leistungsbeitraege am Pronovo-Tarifrechner ueber neun Stuetzstellen gemessen: **Staffelung ist marginal**, dritte Stufe ab 100 kWp = 250 CHF/kWp erstmals erfasst, Integrations-Aufschlag entfaellt ab 100 kWp; Belegvorbehalt E-R162-2 aufgeloest)
 ---
 
 # Destillat — PV-Einmalverguetung des Bundes (EIV / KLEIV / GREIV / HEIV)
@@ -17,7 +17,8 @@ last_updated: 2026-08-24 (Winterstrombonus-Mechanik und 100-kW-Untergrenze ergae
 
 ## Das Wichtigste in 1 Satz
 Der Bund zahlt fuer eine neue PV-Anlage eine einmalige **Einmalverguetung (EIV)** — fuer Kleinanlagen
-(KLEIV, <100 kW) aktuell rund **360 CHF/kWp** (angebaut/freistehend, ab 30 kWp 300; **integriert 400**)
+(KLEIV, <100 kW) **360 CHF/kWp** fuer die ersten 30 kWp, **300** fuer den Anteil darueber und
+**250** ab 100 kWp (integriert **400 / 330 / 250**) — **marginal gestaffelt wie ein Steuertarif** —
 und gedeckelt auf **max. 30 %** der Referenz-Investitionskosten — abgewickelt ueber **Pronovo**.
 
 ## Die vier Foerderpfade (BFE-Faktenblatt)
@@ -29,19 +30,41 @@ und gedeckelt auf **max. 30 %** der Referenz-Investitionskosten — abgewickelt 
 | **Gleitende Marktpraemie / Auktion** | ohne Eigenverbrauch, **≥150 kW** | — | Auktion, Gebot CHF/kW bzw. Rp./kWh, Teilnahmegebuehr |
 | **PV-Grossanlagen (Art. 71a EnG)** | ≥10 GWh/a, Winterproduktion ≥500 kWh/kW | max. 60 % indiv. Kosten | Einzelfall, Gesuch beim BFE; **kein** Anspruch auf Boni |
 
-## Konkrete KLEIV-Saetze (Stand September 2025, primaerquellen-verifiziert unveraendert per 2026-07-23)
-| Kategorie | Leistungsbeitrag |
-|---|---|
-| **Angebaut / freistehend** bis 30 kWp | **360 CHF/kWp** |
-| **Angebaut / freistehend** ab 30 kWp | **300 CHF/kWp** |
-| **Integriert** (Indach, Doppelfunktion) | **400 CHF/kWp** (≈ angebaut **+10 %**) |
+## Konkrete Leistungsbeitraege — die vollstaendige Staffel (am Pronovo-Tarifrechner gemessen 2026-09-03)
 
-⚠ Ob der integrierte Satz auch oberhalb 30 kWp bei 400 CHF/kWp bleibt oder wie die angebauten
-Anlagen (300 CHF/kWp) abgestuft wird, ist in dieser KB nicht abschliessend geklärt
-(Audit-Korrektur A-P2 02.18, 24.08.2026) — vor einer Wirtschaftlichkeitsrechnung über 30 kWp den
-Pronovo-Tarifrechner rechnen lassen (`pronovo.ch/de/services/tarifrechner/`).
+**Die Saetze sind MARGINAL gestaffelt, nicht als Gesamtsatz** — jede Stufe gilt nur fuer den
+Leistungsanteil in ihrem Band, wie bei einem Steuertarif. Das ist der praktisch wichtigste Punkt
+dieser Tabelle und war in dieser KB bis zum 03.09.2026 falsch dargestellt.
 
-- Rechenbeispiel: **10 kWp angebaut → ~3'600 CHF**; **5 kWp integriert → 2'000 CHF**.
+| Leistungsband (marginal) | Angebaut / freistehend | Integriert (Indach) |
+|---|---|---|
+| **0 bis 30 kWp** | **360 CHF/kWp** | **400 CHF/kWp** (+11 %) |
+| **ueber 30 bis 100 kWp** | **300 CHF/kWp** | **330 CHF/kWp** (+10 %) |
+| **ueber 100 kWp** | **250 CHF/kWp** | **250 CHF/kWp** (**kein** Aufschlag mehr) |
+
+**Zwei Befunde, die vorher nicht in der KB standen:**
+
+01 **Die dritte Stufe ab 100 kWp (250 CHF/kWp) war ueberhaupt nicht erfasst.** Die KB kannte nur
+zwei Baender (360/300). Fuer Grossanlagen — die JANS-relevante Groesse im Healthcare-Bau — fuehrte
+das zu einer systematischen **Ueberschaetzung** der Foerderung.
+
+02 **Der Integrations-Aufschlag entfaellt oberhalb 100 kWp.** Bis dahin liegt Indach rund 10 %
+vorn (360→400, 300→330); ab 100 kWp zahlen angebaut und integriert **identisch 250 CHF/kWp**. Das
+Argument «Indach lohnt sich foerderseitig» gilt also **nur unterhalb 100 kWp**.
+
+**Gegenprobe zur alten, irrefuehrenden Lesart.** Die bisherige Formulierung «ab 30 kWp
+300 CHF/kWp» liest sich, als bekaeme eine 50-kWp-Anlage 50 × 300 = 15'000 CHF. Gemessen sind es
+**16'800 CHF** (30 × 360 + 20 × 300). Die alte Lesart lag **1'800 CHF zu tief**; bei 150 kWp
+angebaut betraegt die Abweichung gegenueber der naiven Rechnung **+6'800 CHF**.
+
+- Rechenbeispiel EFH: **10 kWp angebaut → 3'600 CHF**; **5 kWp integriert → 2'000 CHF**.
+- Rechenbeispiel MFH/Gewerbe: **50 kWp angebaut → 16'800 CHF**; **50 kWp integriert → 18'600 CHF**.
+- Rechenbeispiel Grossanlage: **150 kWp angebaut → 44'300 CHF**; **150 kWp integriert → 47'600 CHF**;
+  **300 kWp → 81'800 / 85'100 CHF**.
+- Formel (angebaut): `min(P;30)×360 + max(0;min(P;100)−30)×300 + max(0;P−100)×250`.
+  Integriert: dieselbe Formel mit **400 / 330 / 250**.
+- Der Deckel **30 % der Investitionskosten** (KLEIV/GREIV) bleibt daneben bestehen und kann den
+  errechneten Betrag kappen — der Tarifrechner beruecksichtigt ihn **nicht**.
 - ⚠ Die Saetze werden **jaehrlich neu** festgelegt (sinkende Tendenz). Verbindlich rechnet der
   **Pronovo-Tarifrechner** (`pronovo.ch/de/services/tarifrechner/`); massgebend ist das Inbetriebnahme-Datum.
 - **Grundbeitrag/Leistungsbeitrag-Aufteilung geklaert (verifiziert 2026-07-23):** Die EIV besteht aus
@@ -76,13 +99,14 @@ bei Grossanlagen ≥100 kW — das typische EFH/MFH ist nicht betroffen.
 
 ## Bauherren-Transfer
 - **PV-Foerderung kommt vom Bund, nicht vom Kanton ZH** — ueber die Pronovo-EIV. Fuer ein typisches EFH
-  (5-15 kWp) sind das rund **360 CHF/kWp** (Indach 400), also bei 10 kWp ~**3'600 CHF**, gedeckelt auf
+  (5-15 kWp) sind das **360 CHF/kWp** (Indach 400), also bei 10 kWp **3'600 CHF**, gedeckelt auf
   30 % der Kosten. Dazu kommt der **Steuerabzug** und allenfalls **Gemeindebeitraege** (`energiefranken.ch`).
-- **Indach lohnt foerderseitig** (+10 % EIV) — der Indach-Mehrpreis liegt real 2024 bei nur noch
+- **Indach lohnt foerderseitig — aber nur unter 100 kWp** (+10 bis +11 % EIV; ab 100 kWp zahlen
+  angebaut und integriert identisch 250 CHF/kWp, gemessen 03.09.2026) — der Indach-Mehrpreis liegt real 2024 bei nur noch
   **+0 bis +19 %** je Groessenklasse (BFE-Preisbeobachtungsstudie 2024, publ. 10.07.2025; die
   fruehere Faustregel «+60 %» war undatiert und ist ueberholt, Audit-Korrektur A-P2 02.4,
-  24.08.2026, vgl. `[[pv-marktzahlen-kosten-ch-2025]]`) — foerderseitig liegt die integrierte
-  Anlage damit sogar vorn.
+  24.08.2026, vgl. `[[pv-marktzahlen-kosten-ch-2025]]`) — **unterhalb 100 kWp** liegt die integrierte
+  Anlage foerderseitig damit sogar vorn; **darueber faellt dieser Vorteil weg**.
 - **Fassaden-/Steilanlagen** (≥75°) bekommen einen **Neigungsbonus** — der honoriert genau den
   **Winterstrom**, den eine flache Anlage nicht liefert (vgl. F26 Ausrichtung × Neigung).
 - **Wichtige Regel:** KLEIV-Gesuch **nach** Inbetriebnahme ueber das Pronovo-Kundenportal — anders als
@@ -97,8 +121,8 @@ bei Grossanlagen ≥100 kW — das typische EFH/MFH ist nicht betroffen.
   03.06.2026** — PDF vollstaendig gelesen, nicht nur Web-Zusammenfassung): das Dokument listet unter
   «Neuerungen zur letzten Version» explizit **nur eine** inhaltliche Aenderung seit Version 4.0
   (31.01.2025): «Aufnahme des Winterstrombonus». Die **Basis-Leistungsbeitraege bleiben damit bestaetigt
-  unveraendert** — KLEIV **bis 30 kWp 360 CHF/kWp**, **ab 30 kWp 300**, integriert **+10 % (≈400 CHF/kWp
-  bis 30 kWp)**; Neigungsbonus integriert 400 / angebaut-freistehend 200 CHF/kW (seit 1.1.2025),
+  unveraendert** — KLEIV **bis 30 kWp 360 CHF/kWp**, **ueber 30 bis 100 kWp 300**, **ueber 100 kWp 250**,
+  integriert **400 / 330 / 250** (Marginalstaffel, am Rechner gemessen 03.09.2026); Neigungsbonus integriert 400 / angebaut-freistehend 200 CHF/kW (seit 1.1.2025),
   Parkflaechenbonus 250 CHF/kW (seit 1.1.2025). **Deckel 30 % (KLEIV/GREIV) bzw. 60 % (HEIV) der
   Investitionskosten von Referenzanlagen** zusaetzlich im BFE-Faktenblatt (Stand 27.11.2025, PDF-Metadaten)
   bestaetigt, unveraendert.
@@ -145,7 +169,7 @@ Einspeisung-Hebel, ~7 J Amortisation) fuer Machbarkeit/Erstgespraech steht in `w
 hier (energie, established); planungsgrundlagen verweist dorthin. Doppelspur der EIV-Systematik im dortigen
 §1 ist markiert und zum Verschlanken vorgemerkt.
 
-## Verifikation 2026-08-24 — Winterstrombonus praezisiert, ein Belegvorbehalt neu
+## Verifikation 2026-08-24 / 2026-09-03 — Winterstrombonus praezisiert; Belegvorbehalt am Rechner aufgeloest
 
 **01 Richtlinienstand bestaetigt.** Pronovo «Richtlinie Photovoltaik 2026» ist weiterhin
 **Version 4.1, Ausgabedatum 03.06.2026** (56 S.); die Aenderungstabelle S. 4 nennt woertlich
@@ -166,24 +190,54 @@ Winterhalbjahren erfuellt sind»; eine Produktionssimulation ist mit dem Gesuch 
 ersetzt den per 01.01.2026 ausgelaufenen Hoehenbonus. **Fuer die typische Bauherren-Anlage unter
 100 kW ist er damit gegenstandslos** — das war aus der bisherigen Formulierung nicht erkennbar.
 
-**04 ⚠ Belegvorbehalt zu den Leistungsbeitraegen 360/300/400 CHF/kWp.** Diese drei Zahlen liessen
-sich am 24.08.2026 **nicht woertlich** an einer statischen Primaerquelle bestaetigen: die
-Richtlinie druckt keine aktuelle Tariftabelle, sondern verweist auf den Online-Tarifrechner, und
-dieser rechnet serverseitig (per curl/WebFetch nur Platzhalter «-.--»). Indirekt gestuetzt sind sie
-gut — Pronovo dokumentiert die Anpassung per 01.04.2025, und Swissolar schreibt am 09.01.2026
-woertlich «Die Verguetungssaetze werden dieses Jahr nicht gesenkt». **Bis zur Live-Bestaetigung im
-Rechner sind die drei Werte daher als indirekt belegt zu fuehren, nicht als primaerquellenbelegt.**
-Gegenprobe fuer die Vorsicht: eine gepruefte Anbieter-Sekundaerquelle nannte einen Grundbeitrag von
-«ca. CHF 350 pro Anlage» — direkter Widerspruch zur Primaerquelle (CHF 0). Werte fuer 2027 sind
-nirgends publiziert, auch nicht als Ankuendigung.
+**04 ✓ Belegvorbehalt zu den Leistungsbeitraegen aufgeloest (03.09.2026, E-R162-2 geschlossen).**
+Der am 24.08.2026 gesetzte Vorbehalt ist erledigt: die Saetze wurden am **03.09.2026 direkt im
+Pronovo-Tarifrechner gemessen** — nicht abgelesen, sondern ueber **neun Stuetzstellen** je Bauart
+zurueckgerechnet (20 / 29,9 / 30 / 50 / 99 / 100 / 101 / 150 / 300 / 500 kWp, Bauart angebaut,
+freistehend und integriert, Inbetriebnahme 03.09.2026). Der Rechner rechnet serverseitig gegen
+`services.pronovo.ch/brix/processes/start/`; die Berechnung laesst sich in der Seite ausloesen und
+das Ergebnisfeld auslesen. **Damit sind 360 / 300 / 250 (angebaut/freistehend) und 400 / 330 / 250
+(integriert) primaerquellenbelegt**, ebenso der **Grundbeitrag CHF 0** (in allen Laeufen `0.00`).
+
+**Das Modell ist exakt reproduziert, nicht interpoliert.** Die Marginalformel
+`min(P;30)x360 + max(0;min(P;100)-30)x300 + max(0;P-100)x250` trifft alle fuenf gemessenen
+angebauten Stuetzstellen mit einer konstanten Abweichung von **-0.10 CHF**, das integrierte Pendant
+(400/330/250) alle vier mit **-0.15 CHF**. Diese Restdifferenz ist ein Anzeige-/Rundungsartefakt des
+Rechners (er gibt z.B. `10'799.95` statt `10'800.00` aus), kein Tarifbestandteil — sie ist
+**absolut konstant und waechst nicht mit der Leistung**, kann also kein Satzfehler sein.
+
+**Zwei Nebenbefunde aus derselben Messung:**
+(a) **Die Senkung per 01.04.2025 ist damit ebenfalls belegt.** Mit Inbetriebnahme 01.06.2024 rechnet
+der Rechner **380 CHF/kWp** (20 kWp: 7'600 CHF), mit 01.06.2025 und mit 03.09.2026 je
+**360 CHF/kWp** (7'200 CHF). Das bestaetigt zugleich die Swissolar-Aussage vom 09.01.2026, die
+Saetze wuerden 2026 nicht gesenkt — sie liegen 15 Monate nach der Senkung unveraendert.
+(b) **Der Neigungswinkelbonus 75 Grad ist bestaetigt:** 20 kWp angebaut 4'000 CHF (= 200 CHF/kW),
+20 kWp integriert 8'000 CHF (= 400 CHF/kW), je zusaetzlich zum Leistungsbeitrag.
+
+⚠ **Messfalle, dokumentiert fuer die Wiederholung:** das Leistungsfeld `#LSG` ist ein Maskenfeld
+(`getDoubled()` erzwingt zwei Nachkommastellen). Ein programmatisch gesetztes «20» wird als
+**0,20 kWp** gerechnet, nicht als 20 — der erste Messdurchgang lieferte deshalb sauber skalierende,
+aber um Faktor 100 zu kleine Betraege (72.00 statt 7'200.00). Der Fehler faellt nur auf, weil das
+Verhaeltnis stimmte; **wer nur eine einzige Stuetzstelle misst, merkt ihn nicht**. Immer mit zwei
+Nachkommastellen setzen («20.00») und mindestens zwei Leistungen gegenrechnen.
+
+Die alte Gegenprobe bleibt gueltig und ist jetzt entschieden: eine Anbieter-Sekundaerquelle nannte
+einen Grundbeitrag von «ca. CHF 350 pro Anlage» — **falsch**, der Rechner weist in allen Laeufen
+CHF 0 aus. Werte fuer 2027 sind weiterhin nirgends publiziert; laut Disclaimer des Rechners gelten
+die Saetze **bis zum 31. Maerz des Folgejahres**, und die neuen Tarife (Gueltigkeit ab 1. April)
+werden **jeweils Anfang Januar** im Rechner hinterlegt — daraus folgt ein Pruefstichtag
+**Januar 2027**.
 
 ## Offene Punkte / Folgelaeufe
-- **Teilweise geklaert (2026-07-23):** der Grundbeitrag betraegt CHF 0 (primaerquellen-belegt), die
-  Leistungsbeitraege je Grossenklasse **bis 30/ab 30 kWp** sind mit 360/300 CHF/kWp weiterhin belegt.
+- ✓ **Vollstaendig geklaert (2026-09-03):** Grundbeitrag CHF 0, und die Leistungsbeitraege sind
+  ueber **drei** marginale Baender belegt (360/300/250 bzw. integriert 400/330/250) — die frueher
+  vermutete «feinere Staffelung in 100-kWp-Schritten» existiert tatsaechlich, sie steht nur in
+  keiner gedruckten Tabelle, sondern ausschliesslich im Rechner. Historischer Stand bis 24.08.2026:
   Eine feinere Staffelung (z.B. 100-kWp-Schritte bei GREIV) publiziert **weder Pronovo-Richtlinie noch
   BFE-Faktenblatt** als feste Tabelle — beide verweisen ausdruecklich auf den interaktiven
-  Pronovo-Tarifrechner. Bleibt daher offen: beim naechsten Lauf direkt am Tarifrechner
-  (Eingabe einer Beispielanlage) verifizieren — frei, aber interaktiv, kein WebFetch-faehiges Formular.
+  Pronovo-Tarifrechner. **Genau das ist am 03.09.2026 geschehen** — der Rechner wurde im Browser
+  bedient und ueber neun Stuetzstellen ausgewertet; der damals als «kein WebFetch-faehiges Formular»
+  beschriebene Weg ist ueber die Browser-Automatisierung gangbar (Rule `wege-und-vollmachten`).
 - **Neu offen (2026-07-23):** Minimalverguetungs-/Rueckliefer-Regelung (Art. 15 EnG/Art. 12 EnV) ist
   hier nur als Uebersicht ergaenzt; eine vertiefte Pruefung (Uebergangsrecht, Zusammenspiel mit ZEV,
   Vollzugspraxis der einzelnen Netzbetreiber) waere ein eigenes Destillat wert, falls Bauherren-Fragen

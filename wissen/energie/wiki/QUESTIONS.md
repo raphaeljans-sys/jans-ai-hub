@@ -2,6 +2,101 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 176 (03.09.2026, Tageslauf) — E-R162-2 am Rechner geschlossen: die EIV-Staffel ist marginal, und eine dritte Stufe fehlte
+
+**Block 1 des PROGRAMMs (PDF-Transfer) faellt weiterhin strukturell aus** (`pdf-inventar.md` seit
+Run 65 abgearbeitet, `curriculum.md` ohne offenen Fachpunkt). Der Lauf hat stattdessen den seit dem
+24.08.2026 offenen Belegvorbehalt **E-R162-2** geschlossen — mit einem Fachbefund, nicht mit
+Buchhaltung.
+
+### Was gemessen wurde
+
+Der **Pronovo-Tarifrechner** wurde im Browser bedient und ueber **neun Stuetzstellen je Bauart**
+ausgewertet (20 / 29,9 / 30 / 50 / 99 / 100 / 101 / 150 / 300 / 500 kWp; angebaut, freistehend,
+integriert; Inbetriebnahme 03.09.2026). Ergebnis:
+
+| Leistungsband (**marginal**) | Angebaut / freistehend | Integriert |
+|---|---|---|
+| 0 bis 30 kWp | **360 CHF/kWp** | **400 CHF/kWp** |
+| ueber 30 bis 100 kWp | **300 CHF/kWp** | **330 CHF/kWp** |
+| ueber 100 kWp | **250 CHF/kWp** | **250 CHF/kWp** |
+
+**Zwei Fehler der eigenen KB, beide mit Geldwirkung:**
+
+**01 Die Staffelung ist marginal, nicht als Gesamtsatz.** Die bisherige Formulierung «ab 30 kWp
+300 CHF/kWp» liest sich, als bekaeme eine 50-kWp-Anlage 50 x 300 = 15'000 CHF. Gemessen sind es
+**16'800 CHF**. Bei 150 kWp betraegt die Abweichung gegenueber der naiven Rechnung **+6'800 CHF**.
+
+**02 Die dritte Stufe ab 100 kWp (250 CHF/kWp) fehlte ganz.** Wer mit dem Satz der zweiten Stufe
+weiterrechnete, ueberschaetzte die Foerderung bei einer 300-kWp-Anlage um rund 6'000 CHF; wer gar
+mit 360 rechnete, um 26'000 CHF. Zugleich faellt damit der **Integrations-Aufschlag oberhalb
+100 kWp weg** — angebaut und integriert erhalten dort identisch 250 CHF/kWp, der Indach-Vorteil ist
+absolut auf 3'300 CHF gedeckelt. Das Argument «Indach lohnt foerderseitig» gilt nur unter 100 kWp.
+
+Nebenbefunde: **Grundbeitrag CHF 0** in allen Laeufen bestaetigt (die Anbieter-Angabe «ca. CHF 350
+pro Anlage» ist widerlegt); die **Senkung per 01.04.2025** ist belegt (IBN 01.06.2024 → 380 CHF/kWp,
+ab 01.06.2025 → 360); **Neigungswinkelbonus** 200 (angebaut) / 400 CHF/kW (integriert) bestaetigt.
+
+### Die unbequemste Lehre dieses Laufs
+
+**Die halbe Antwort lag seit Monaten in einer Schwester-KB.**
+`wissen/planungsgrundlagen/wiki/energie-betriebsenergie-pv-wirtschaftlichkeit.md` fuehrt die
+Klassengrenzen «bis 30 kW / 30–100 kW / ab 100 kW» ausdruecklich und nennt den Leistungsbeitrag
+«degressiv gestaffelt» — waehrend diese KB zwei Baender kannte und die dritte Stufe fuer nicht
+existent hielt. Der Punkt stand **zehn Tage** offen. Niemand hat nachgesehen, weil die
+Abschlussregel «grep KB-weit» genau das nicht verlangt: sie sucht **nach dem Schliessen** im
+eigenen Bestand, nicht **vor dem Suchen** im fremden. Das ist exakt die Luecke, die **E46-1**
+(Wissens-Chef Run 46) fuer die Gegenrichtung beschreibt — dort als Bringschuld nach aussen, hier
+als **Holschuld nach innen**. Die Bringschuld ist in diesem Lauf erfuellt (Korrektur und Nachtrag
+in `planungsgrundlagen` gesetzt, PG-E176-1); die Holschuld ist als E-R176-1 neu eroeffnet.
+
+Der zweite Teil derselben Lehre: der Vermerk «kein WebFetch-faehiges Formular» stand seit dem
+23.07.2026 im Destillat und wurde nie erneut versucht. Er war richtig — und trotzdem kein Grund
+aufzugeben, weil ein anderer Weg (Browser-Automatisierung) offenstand. Gleiche Familie wie Rule
+`auto-verbesserungen` 260807, Spiegelfall («eine festgeschriebene Stoerung wird periodisch
+gegengemessen»), und Rule `wege-und-vollmachten`.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R176-1 (P2, methodisch): Die Abschlussregel braucht einen Cross-KB-Schritt VOR der
+  Recherche, nicht nur danach.** E46-1 verlangt beim **Schliessen** zu fragen, welche andere KB das
+  Thema nach der Matrix fuehrt. Dieser Lauf zeigt die Gegenrichtung: **beim Eroeffnen oder
+  Aufgreifen** eines offenen Punkts gehoert dieselbe Frage gestellt — die dritte Leistungsklasse
+  stand zehn Tage lang in `planungsgrundlagen`, waehrend hier «nicht abschliessend geklaert»
+  vermerkt war. Konkreter Vorschlag: ein `grep` ueber `wissen/*/wiki/` mit den Kernbegriffen des
+  Punkts, bevor extern recherchiert wird — billig, und es haette hier zehn Tage gespart. Betrifft
+  alle KBs, nicht nur `energie`.
+- [ ] **E-R176-2 (P3, Werkzeug): `fehloffen-waechter.py` (Typ 2) meldet bei blosser Erwaehnung
+  einer Punkt-ID.** Als in der abgehakten E-R164-3-Zeile die ID «E-R172-1» referenziert wurde,
+  meldete der Waechter E-R172-1 als Fehl-Offen — die Zeile ist abgehakt, also gilt sie ihm als
+  Erledigungsmeldung fuer **jede** darin genannte ID. Im Lauf durch Umformulierung entschaerft
+  (Referenz auf «der Vorlauf vom 01.09.2026»), aber die Regel bleibt anfaellig: sie trennt nicht
+  zwischen «diese Zeile schliesst Punkt X» und «diese Zeile erwaehnt Punkt X». **Gleiche Familie
+  wie E-R175-2** (`datenstand-waechter.py` liest eine Jahreszahl in Klammern als Stichtag): beide
+  Waechter verwechseln **Erwaehnung mit Aussage**. Lohnt sich, gemeinsam zu beheben.
+- [ ] **E-R176-3 (P2, Cross-Skill-Bringschuld): die EIV-Marginalstaffel gehoert in die
+  rechnenden Skills.** Jede Wirtschaftlichkeitsrechnung mit PV-Anteil (`machbarkeit` Typ B,
+  `healthcare-wirtschaftlichkeit`, `grobkosten-onepager`, `immobilienbewertung` bei
+  Renditeobjekten) kann die Foerderung heute nur ueber die verkuerzte Formel ansetzen. Die Formel
+  `min(P;30)x360 + max(0;min(P;100)-30)x300 + max(0;P-100)x250` ist kurz genug fuer einen
+  Skill-Baustein. **In diesem Lauf nicht erledigt** — bewusst, weil Skill-Eingriffe ausserhalb der
+  KB liegen und mit Raphael abzustimmen sind. Zusammen mit **E-R167-3** (Bewehrungsstahl-
+  Schwellenwert in `ausschreibung`) zu fuehren: **zwei offene Cross-Skill-Bringschulden derselben
+  Art**, beide seit Wochen.
+- [ ] **E-R176-4 (P2, terminiert): Pruefstichtag Januar 2027 fuer die naechsten EIV-Saetze.** Der
+  Rechner-Disclaimer nennt den Mechanismus woertlich: die Saetze gelten **bis zum 31. Maerz des
+  Folgejahres**, die neuen (Gueltigkeit ab 1. April) werden **jeweils Anfang Januar** hinterlegt.
+  Ab **Januar 2027** dieselbe Neun-Punkte-Messung wiederholen; sie kostet wenige Minuten und
+  liefert die Staffel vollstaendig. Fuer Projekte mit Inbetriebnahme ab April 2027 ist die Frage
+  beratungsrelevant. Zusammen mit E-R166-2 (GFM 2028) und E-R167-2 (KBOB) zu fuehren.
+
+### Unveraendert offen, in diesem Lauf nicht beruehrt
+E-R148-1 (P1, Normkauf SIA 380/1:2016) · E-R161-1 · E-R230-2 und E103 (Entscheid Raphael) ·
+E-R164-3 ✓ heute abgehakt (Fehl-Offen Typ 2, vom Waechter gefunden) · die terminierten Punkte
+E-R166-2 (GFM 2028) und E-R167-2 (KBOB) sind **erst ab Oktober 2026** faellig und wurden korrekt
+nicht vorgezogen · E-R165-2 (Formularsatz-Gueltigkeit 31.12.2026) ebenso.
+
+
 ## 2026-09-02 (Run 175, Abendlauf Mac Mini 22:3x) — E-B141-1 und E-R163-1 geschlossen; Fehldatierung im eigenen Wiki korrigiert
 
 - [x] **E-B141-1 (P2, Cross-KB aus `baurecht`) ✓ 2026-09-02 — die BVV vollzieht Art. 32a-bis RPV
@@ -7689,7 +7784,8 @@ Angaben und Publikationsstatus.
   in `kbob-bauteilkatalog-co2-je-aufbau` / `kbob-massivbau-bauteilaufbau-co2` zitierten Werte
   diffen. Aus eigener Kraft lösbar (XLSX frei verfügbar), kein Normkauf-Blocker.
   ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** geschlossen **25.08.2026** in Run 163 (Abschnitt «Run 163 (25.08.2026) — A-BLIND auf die Ränge 21–40», unten in dieser Datei): der v9.0-Verdacht bestätigte sich nicht, die KB zitiert keinen Kennwert woertlich aus der KBOB-Liste; Stichprobe Position 01.002 «Hochbaubeton unspezifisch» zwischen v8.0 und v9.0 unverändert. Nebenbefund dort: Versionsdatum v8.0 amtlich 04.03.2026, nicht 20.02.2026 **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell und im Health-Check vom 01.09.2026 weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
-- [ ] **E-R162-2 (P2): Leistungsbeiträge EIV 360/300/400 CHF/kWp nur indirekt belegt.** Der
+- [x] **E-R162-2 (P2): Leistungsbeiträge EIV 360/300/400 CHF/kWp nur indirekt belegt.** ✓ **2026-09-03 (Run 176) — am Pronovo-Tarifrechner gemessen, und die KB war dabei in zwei Punkten falsch.** Details im Abschnitt «Run 176» zuoberst in dieser Datei. Kurz: der Rechner wurde im Browser bedient (der am 24.08.2026 als «kein WebFetch-fähiges Formular» notierte Weg ist über die Browser-Automatisierung gangbar, Rule `wege-und-vollmachten`) und über **neun Stützstellen je Bauart** ausgewertet. Die drei Sätze sind bestätigt — **aber marginal gestaffelt**, und es existiert eine **dritte Stufe ab 100 kWp (250 CHF/kWp)**, die diese KB gar nicht kannte. Grundbeitrag CHF 0 in allen Läufen bestätigt; die Anbieter-Angabe «ca. CHF 350 pro Anlage» ist damit widerlegt.
+  **Historischer Wortlaut des Punkts:** Der
   Pronovo-Tarifrechner rechnet serverseitig und gibt per curl/WebFetch nur Platzhalter aus; die
   Richtlinie druckt keine aktuelle Tariftabelle. Gestützt sind die Werte über die dokumentierte
   Anpassung per 01.04.2025 und die Swissolar-Aussage vom 09.01.2026 («Die Vergütungssätze werden
@@ -7840,7 +7936,7 @@ Laufbericht-Zeile).
   Bestellnummer (EnFK/EnDK/BFE). Vorschlag: eigener Lauf, der für die zwanzig meistzitierten
   amtsnahen Destillate je die Herausgeber-Website nach der aktuellen Ausgabe abfragt.
   ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** erledigt **27.08.2026** in Lauf 165: erste systematische Ausgabenstand-Prüfung durchgeführt (EN-102 = Januar 2020, HFM 2015 rev. September 2016, Merkblatt Fenster = Ausgabe 2021; Formularsatz EN-101a bis EN-141 am 28.11.2025 sammelweise auf «gültig bis 31.12.2026» gestempelt). Als ständige sechste Prüfung in `training/PROGRAMM.md` verankert **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell und im Health-Check vom 01.09.2026 weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
-- [ ] **E-R164-3 (P3, Werkzeug): `datenstand-waechter.py` meldet erledigte Prüfstichtage weiter.**
+- [x] **E-R164-3 (P3, Werkzeug): `datenstand-waechter.py` meldet erledigte Prüfstichtage weiter.** ✓ **2026-09-02** — Reparatur bereits am 28.08.2026 in Run 166 eingebaut (Quittungsfenster, Regel 3); die Schliessung ist im Abschnitt «2026-09-02 (Nachtschicht Mac Mini 05:3x)» oben dokumentiert. **Checkbox nachgetragen 03.09.2026 (Run 176)**, gefunden vom `fehloffen-waechter.py` (Typ-2-Prüfung) — genau der Fall, für den der Vorlauf vom 01.09.2026 dieses Werkzeug gebaut hat.
   Vier Treffer (QUESTIONS Z. 596/2208/2250/5395) betreffen Stichtage, die am 24.08.2026 nachweislich
   abgearbeitet und mit «✓ Nachtrag» annotiert wurden. Das Werkzeug liest die Annotation nicht.
   Kleine Ergänzung: Treffer unterdrücken, wenn im Umfeld ein `✓`/`[x]` steht.

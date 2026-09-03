@@ -1,10 +1,10 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-09-03 (EIV-Marginalstaffel und Wegfall des Indach-Zuschlags ab 100 kWp ergänzt)
 datenstand: "2012 (ältester zitierter Quellenstand: TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012, EPFL/LESO — trägt weiterhin die Grundstruktur PV-Zelltypen, Integrationsarten und Bedarf→Technologie-Zuordnung; die dortigen Wirkungsgrad-Zahlen sind im Artikel selbst als «Stand 2012, heute höher» gekennzeichnet, nicht als abgelöst — vor Zitat in einem Aussendokument aktuelle Datenblätter/Marktzahlen prüfen, dafür `destillate/pv-marktzahlen-kosten-ch-2025.md`, Datenstand 2026-07-23)"
-sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/gvz-photovoltaik-melde-versicherungspflicht.md, destillate/vkf-richtlinie-gefaehrliche-stoffe.md, destillate/solarreport-solarapp-basel-2022.md, destillate/pv-spezialmodule-transparent-bifazial-datenblaetter.md, destillate/tachion-solarrechner-energieschweiz.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[holzbau-bauphysik-clt]], [[gvz-photovoltaik-melde-versicherungspflicht]], [[vkf-richtlinie-gefaehrliche-stoffe]], [[vkf-richtlinie-22-15-blitzschutzsysteme]], [[batteriespeicher]]
+sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/gvz-photovoltaik-melde-versicherungspflicht.md, destillate/vkf-richtlinie-gefaehrliche-stoffe.md, destillate/solarreport-solarapp-basel-2022.md, destillate/pv-spezialmodule-transparent-bifazial-datenblaetter.md, destillate/tachion-solarrechner-energieschweiz.md, destillate/pv-einmalverguetung-bund-bfe.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[holzbau-bauphysik-clt]], [[gvz-photovoltaik-melde-versicherungspflicht]], [[vkf-richtlinie-gefaehrliche-stoffe]], [[vkf-richtlinie-22-15-blitzschutzsysteme]], [[batteriespeicher]], [[pv-einmalverguetung-bund-bfe]]
 ---
 
 # PV- & Solartechnologien
@@ -203,6 +203,28 @@ Optimum:** Module zu nah an Aufbauten kosten über Verschattung mehr Ertrag/kWp,
 bringt. CHF/kWp **nie aus alten Zahlen zitieren** (Referenz 2019: CHF 1'600–2'460/kWp) → aktuelle
 Installateur-Offerte. Detail → `[[pv-marktzahlen-kosten-ch-2025]]`, `[[pv-kosten-amortisation-praxis-ewz]]`,
 Förderung `[[foerderprogramm-energie-zh-2026]]`.
+
+### Bundes-Einmalvergütung: die Staffel ist marginal, und ab 100 kWp endet der Indach-Vorteil
+**Ergänzt 03.09.2026, am Pronovo-Tarifrechner über neun Stützstellen gemessen** (Systematik und
+Belege → `[[pv-einmalverguetung-bund-bfe]]`, Bauherren-Antworten F271/F272). Die EIV ist **kein
+Einheitssatz mal Leistung**, sondern in drei Bändern **marginal** gestaffelt wie ein Steuertarif:
+**360 / 300 / 250 CHF/kWp** (angebaut/freistehend) bzw. **400 / 330 / 250** (integriert), mit den
+Grenzen bei **30 und 100 kWp**. Ein Grundbeitrag fällt seit 01.04.2024 nicht mehr an.
+
+Zwei Konsequenzen für die Typenwahl in diesem Artikel:
+
+**01** Der **Integrationszuschlag von rund 10 % entfällt oberhalb 100 kWp** — dort zahlen aufgesetzte
+und integrierte Anlagen identisch 250 CHF/kWp. Der Zuschlag ist absolut auf **3'300 CHF** gedeckelt
+(voll ausgeschöpft bei 100 kWp) und wächst danach nicht mehr. Das oben referierte Argument
+«förderseitig liegt die integrierte Anlage vorn» gilt damit **nur unterhalb 100 kWp**; bei
+Gewerbe- und Healthcare-Dächern trägt es nicht mehr und die Indach-Entscheidung muss sich
+gestalterisch und bauphysikalisch rechtfertigen (Dachhaut-Ersatz gegen Unterhalt/Modultausch).
+
+**02** Die verbreitete Kurzformel «ab 30 kWp gibt es 300 CHF/kWp» **unterschätzt** die Förderung,
+weil sie den tiefen Satz auf die ganze Anlage anwendet: 50 kWp ergeben 16'800 CHF statt der so
+gerechneten 15'000, 150 kWp ergeben 44'300 statt 37'500 CHF. Formel angebaut:
+`min(P;30)×360 + max(0;min(P;100)−30)×300 + max(0;P−100)×250`. Der **Deckel von 30 %** der
+Referenz-Investitionskosten liegt darüber und wird vom Tarifrechner nicht mitgerechnet.
 
 ## Brandschutz (Schnittstelle Solar↔Gebäude)
 Stand der Technik swissolar/VKF (Basis VKF-BSM 2001-15): drei Schnittstellen planen — **DC-Leitungen**

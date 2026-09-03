@@ -351,8 +351,9 @@ Fenster/Türen). **Minergie-Sanierung nur mit Zusatzzertifikat «ECO»** (reines
 → `energiefranken.ch` prüfen. Hotline 0800 93 93 93.
 
 **PV fördert der Kanton NICHT** pauschal, sondern der **Bund** über die Pronovo-**Einmalvergütung
-(EIV)**: für ein EFH die **KLEIV** (<100 kW), Stand Sept 2025 rund **360 CHF/kWp** (angebaut/freistehend,
-ab 30 kWp 300; **Indach/integriert +10 %**), gedeckelt auf **max. 30 %** der Kosten — also
+(EIV)**: für ein EFH die **KLEIV** (<100 kW), **360 CHF/kWp** für die ersten 30 kWp, **300** für den
+Anteil bis 100 kWp und **250** darüber (Indach 400/330/250; **marginal gestaffelt**, am
+Pronovo-Tarifrechner gemessen 03.09.2026), gedeckelt auf **max. 30 %** der Kosten — also
 ~**3'600 CHF für 10 kWp**. Ein **Grundbeitrag entfällt seit 1.4.2024 (CHF 0)** — die Vergütung ist
 reiner Leistungsbeitrag. **Stand 2026 (Pronovo-Richtlinie PV v4.1, 03.06.2026, primärquellenbelegt):**
 der **Höhenbonus lief per 31.12.2025 aus** und ist seit **1.1.2026 durch den Winterstrombonus ersetzt**
@@ -9029,20 +9030,25 @@ Bauen 2000/1, 1. Auflage April 2000, vollständig gelesen (Run 146, 20.08.2026) 
 
 **Fachlich:** Die kantonale Förderseite hält ausdrücklich fest, dass «Photovoltaik-Anlagen ohne gleichzeitige Dämmung des Daches» nicht gefördert werden, und verweist für PV auf pronovo.ch. Der Bund kennt vier Pfade; für ein normales Wohn- oder Gewerbeobjekt zählt die **KLEIV** für Anlagen unter 100 kW (daneben GREIV ab 100 kW, HEIV für Volleinspeiser von 2 bis unter 150 kW ohne Eigenverbrauch, und ab 150 kW die Auktion). Die Einmalvergütung ist heute **faktisch reiner Leistungsbeitrag**: der frühere Grundbeitrag beträgt **seit dem 1. April 2024 CHF 0**. Massgebend sind Leistung und Bauart:
 
-| Kategorie | Leistungsbeitrag |
-|---|---|
-| Angebaut / freistehend bis 30 kWp | **360 CHF/kWp** |
-| Angebaut / freistehend ab 30 kWp | **300 CHF/kWp** |
-| **Integriert** (Indach, Doppelfunktion) | **400 CHF/kWp** (rund **+10 %**) |
+**Die Sätze sind marginal gestaffelt — wie ein Steuertarif.** Jedes Band gilt nur für den
+Leistungsanteil, der hineinfällt, nicht für die ganze Anlage:
 
-⚠ Ob der integrierte Satz auch oberhalb 30 kWp bei 400 CHF/kWp bleibt oder wie die angebauten
-Anlagen abgestuft wird, ist in der KB nicht abschliessend geklärt (Audit-Korrektur A-P2 02.18,
-24.08.2026) — vor einer Wirtschaftlichkeitsrechnung über 30 kWp den Pronovo-Tarifrechner rechnen
-lassen (`pronovo.ch/de/services/tarifrechner/`), er ist ohnehin die verbindliche Grösse.
+| Leistungsband (marginal) | Angebaut / freistehend | Integriert (Indach) |
+|---|---|---|
+| 0 bis 30 kWp | **360 CHF/kWp** | **400 CHF/kWp** |
+| über 30 bis 100 kWp | **300 CHF/kWp** | **330 CHF/kWp** |
+| über 100 kWp | **250 CHF/kWp** | **250 CHF/kWp** |
 
-Gedeckelt ist die EIV auf **maximal 30 %** der Referenz-Investitionskosten. Rechenbeispiele: 10 kWp angebaut ergeben rund **CHF 3'600**, 5 kWp integriert **CHF 2'000**. Die Sätze werden jährlich neu festgelegt. Der **Neigungswinkelbonus** (integriert 400, angebaut/freistehend 200 CHF/kW, erhöht per 01.01.2025) setzt eine **Modulneigung von mindestens 75 Grad** voraus — das ist Fassade oder Steilanlage, **nicht** ein normales Steildach. Der **Parkflächenbonus** von 250 CHF/kW gilt erst ab 100 kW auf dauerhaft unüberdachten Parkflächen. Der frühere **Höhenbonus** ist per 01.01.2026 durch den **Winterstrombonus** ersetzt und betrifft mit seiner 100-kW-Schwelle das typische EFH/MFH nicht.
+⚠ **Korrektur 03.09.2026.** Diese Antwort führte bis heute nur zwei Bänder und formulierte
+«ab 30 kWp 300 CHF/kWp». Das war in zwei Punkten falsch: die **dritte Stufe ab 100 kWp**
+(250 CHF/kWp) fehlte ganz, und die Formulierung legte nahe, der tiefere Satz gelte für die
+**ganze** Anlage. Beides wurde am 03.09.2026 direkt im Pronovo-Tarifrechner über neun
+Stützstellen nachgemessen. Praktische Folge: eine 50-kWp-Anlage erhält **16'800 CHF**
+(30 × 360 + 20 × 300), nicht 15'000 CHF — die alte Lesart lag **1'800 CHF zu tief**.
 
-**Bauherren-Transfer:** Für die Bauherrschaft zählen zwei Dinge. Erstens zahlt der Bund für die **Indach-Lösung rund 10 % mehr** je Kilowatt als für die aufgesetzte (400 gegen 360 CHF/kWp) — das deckt den Mehrpreis der Integration nicht, verkleinert ihn aber, und bei einem Neubau ist Indach ohnehin die architektonisch bessere Lösung. Auf den Neigungswinkelbonus darf dabei **nicht** gerechnet werden: er beginnt erst bei 75 Grad Modulneigung und meint die Fassade, nicht das steile Dach. Zweitens ist die verbreitete Faustregel «die Einmalvergütung deckt 20 bis 30 % der Investition» eine Angabe aus Anbieterunterlagen von 2022; die verlässliche Zahl ist der Leistungsbeitrag mal Anlagenleistung, gedeckelt bei 30 %. Wer die Dachdämmung ohnehin anfasst, sollte zusätzlich die kantonale Förderung für die **Dämmung** prüfen, weil sich damit ein Teil des Dachaufbaus mitfinanzieren lässt, den die PV-Anlage sonst allein tragen müsste.
+Gedeckelt ist die EIV auf **maximal 30 %** der Referenz-Investitionskosten. Rechenbeispiele (gemessen 03.09.2026): 10 kWp angebaut **CHF 3'600**, 5 kWp integriert **CHF 2'000**, 50 kWp angebaut **CHF 16'800** (integriert 18'600), 150 kWp angebaut **CHF 44'300** (integriert 47'600), 300 kWp angebaut **CHF 81'800** (integriert 85'100). Die Sätze werden jährlich neu festgelegt. Der **Neigungswinkelbonus** (integriert 400, angebaut/freistehend 200 CHF/kW, erhöht per 01.01.2025) setzt eine **Modulneigung von mindestens 75 Grad** voraus — das ist Fassade oder Steilanlage, **nicht** ein normales Steildach. Der **Parkflächenbonus** von 250 CHF/kW gilt erst ab 100 kW auf dauerhaft unüberdachten Parkflächen. Der frühere **Höhenbonus** ist per 01.01.2026 durch den **Winterstrombonus** ersetzt und betrifft mit seiner 100-kW-Schwelle das typische EFH/MFH nicht.
+
+**Bauherren-Transfer:** Für die Bauherrschaft zählen zwei Dinge. Erstens zahlt der Bund für die **Indach-Lösung rund 10 % mehr** je Kilowatt als für die aufgesetzte (400 gegen 360 CHF/kWp in der ersten Stufe, 330 gegen 300 in der zweiten) — **aber nur unterhalb 100 kWp; ab da zahlen beide Bauarten identisch 250 CHF/kWp**, das Förderargument für Indach fällt bei Grossanlagen also weg — das deckt den Mehrpreis der Integration nicht, verkleinert ihn aber, und bei einem Neubau ist Indach ohnehin die architektonisch bessere Lösung. Auf den Neigungswinkelbonus darf dabei **nicht** gerechnet werden: er beginnt erst bei 75 Grad Modulneigung und meint die Fassade, nicht das steile Dach. Zweitens ist die verbreitete Faustregel «die Einmalvergütung deckt 20 bis 30 % der Investition» eine Angabe aus Anbieterunterlagen von 2022; die verlässliche Zahl ist der Leistungsbeitrag mal Anlagenleistung, gedeckelt bei 30 %. Wer die Dachdämmung ohnehin anfasst, sollte zusätzlich die kantonale Förderung für die **Dämmung** prüfen, weil sich damit ein Teil des Dachaufbaus mitfinanzieren lässt, den die PV-Anlage sonst allein tragen müsste.
 
 **Quelle:** Kanton Zürich, Energieförderung, Förderprogramm 2026, Stand Januar 2026 (zh.ch, abgerufen 23.08.2026) — keine PV-Förderung, Verweis auf pronovo.ch; deckt sich mit `[[foerderung-energie-zh]]`. Sätze, Deckel und Boni aus `[[pv-einmalverguetung-bund-bfe]]` (status **established**; Pronovo-Richtlinie Photovoltaik 2026 v4.1 vom 03.06.2026, 56 S. vollständig gelesen, plus BFE-Faktenblatt Stand 27.11.2025). Faustregel «20-30 %» aus `[[solarreport-solarapp-basel-2022]]` (Glossar, Quellstand 05.11.2022). Aufgenommen Run 149, 23.08.2026.
 
@@ -9507,3 +9513,35 @@ enthalten, Fussnote 24: «Eingefügt durch Ziff. I der V vom 3. Juni 2022, in Kr
 1. Juli 2022»), gegengelesen am 02.09.2026; BVV LS 700.6 Nachtrag 133 § 2a Abs. 1 lit. a.
 Destillat: `[[fassaden-solaranlagen-bewilligungsfreiheit-zh-2026]]`. Aufgenommen 02.09.2026
 (Run 175).
+
+## F271 — «Unsere Anlage wird deutlich grösser als ein Einfamilienhaus-Dach. Wie rechnet sich die Einmalvergütung bei 50, 150 oder 300 kWp?»
+
+**Kurz:** Nicht mit einem einzigen Satz mal Leistung. Die Einmalvergütung ist **marginal gestaffelt wie ein Steuertarif**: die ersten 30 kWp bekommen den höchsten Satz, der Anteil bis 100 kWp einen tieferen, alles darüber den tiefsten. Wer den tiefen Satz auf die ganze Anlage anwendet, rechnet die Förderung systematisch zu klein; wer den hohen anwendet, zu gross. Für eine 150-kWp-Aufdachanlage sind es rund **44'300 CHF**, für 300 kWp rund **81'800 CHF**.
+
+**Fachlich:** Die Sätze wurden am 03.09.2026 direkt im Pronovo-Tarifrechner gemessen und über neun Stützstellen je Bauart zurückgerechnet (20 / 29,9 / 30 / 50 / 99 / 100 / 101 / 150 / 300 / 500 kWp). Es gelten drei Bänder, jeweils nur auf den Leistungsanteil in diesem Band:
+
+| Leistungsband (marginal) | Angebaut / freistehend | Integriert (Indach) |
+|---|---|---|
+| 0 bis 30 kWp | 360 CHF/kWp | 400 CHF/kWp |
+| über 30 bis 100 kWp | 300 CHF/kWp | 330 CHF/kWp |
+| über 100 kWp | 250 CHF/kWp | 250 CHF/kWp |
+
+Die Formel für angebaut/freistehend lautet `min(P;30) × 360 + max(0; min(P;100) − 30) × 300 + max(0; P − 100) × 250`, für integriert dieselbe mit 400/330/250. Sie trifft alle gemessenen Stützstellen mit einer konstanten Abweichung von 10 bzw. 15 Rappen, was ein Anzeigeartefakt des Rechners ist und nicht mit der Leistung wächst. Ein **Grundbeitrag** fällt seit dem 1. April 2024 nicht mehr an; er wurde in allen Läufen mit CHF 0 ausgewiesen. Zu beachten ist der **Deckel von 30 %** der Referenz-Investitionskosten, den der Tarifrechner **nicht** mitrechnet: bei einer sehr günstig erstellten Grossanlage kann er den errechneten Betrag kappen.
+
+Gerechnete Beispiele (Inbetriebnahme 2026, ohne Boni): 50 kWp angebaut **16'800 CHF**, integriert **18'600 CHF**. 150 kWp angebaut **44'300 CHF**, integriert **47'600 CHF**. 300 kWp angebaut **81'800 CHF**, integriert **85'100 CHF**.
+
+**Bauherren-Transfer:** Der Fehler, den diese Antwort verhindert, ist teuer und lautlos. Die verbreitete Kurzformel «ab 30 kWp gibt es 300 CHF/kWp» führt bei einer 50-kWp-Anlage zu 15'000 statt 16'800 CHF, bei 150 kWp zu 37'500 statt 44'300 CHF. In einer Wirtschaftlichkeitsrechnung, die ohnehin auf ein bis zwei Prozentpunkte Rendite hin geprüft wird, sind das keine Rundungsgrössen. Umgekehrt gilt: wer bei einer 300-kWp-Anlage mit 360 CHF/kWp kalkuliert, verspricht der Bauherrschaft 108'000 CHF und liefert 81'800. Für die Grobkostenschätzung genügt die Formel oben; verbindlich ist der Tarifrechner mit dem tatsächlichen Inbetriebnahmedatum, weil die Sätze **jährlich** neu festgelegt werden und laut Disclaimer jeweils bis zum 31. März des Folgejahres gelten.
+
+**Quelle:** Pronovo-Tarifrechner (`pronovo.ch/de/services/tarifrechner/`), Live-Messung 03.09.2026, neun Stützstellen je Bauart, Inbetriebnahme 03.09.2026; Systematik und Deckel aus `[[pv-einmalverguetung-bund-bfe]]` (Pronovo-Richtlinie Photovoltaik 2026 v4.1 vom 03.06.2026; BFE-Faktenblatt Stand 27.11.2025). Datenstand der Sätze: unverändert seit der Senkung per 01.04.2025 (davor 380 CHF/kWp in der ersten Stufe, ebenfalls am Rechner gegengeprüft). Nächster Prüfstichtag Januar 2027.
+
+## F272 — «Lohnt sich die Indach-Lösung förderseitig auch bei einer grossen Anlage?»
+
+**Kurz:** Unterhalb 100 kWp ja, darüber nicht mehr. Der Bund zahlt für integrierte Anlagen rund 10 % mehr je Kilowatt — aber nur in den ersten beiden Leistungsbändern. Ab 100 kWp erhalten aufgesetzte und integrierte Anlagen **exakt denselben Satz** von 250 CHF/kWp. Bei einer Grossanlage muss die Indach-Lösung ihren Mehrpreis also allein über Architektur, Dachaufbau und Unterhalt rechtfertigen, nicht über die Förderung.
+
+**Fachlich:** Gemessen am Pronovo-Tarifrechner (03.09.2026) beträgt der Integrationszuschlag im ersten Band 400 gegen 360 CHF/kWp (+11 %), im zweiten 330 gegen 300 CHF/kWp (+10 %) und im dritten null. Nachgerechnet an zwei Anlagengrössen: bei 50 kWp bringt Indach 18'600 statt 16'800 CHF, also **1'800 CHF Mehrförderung**. Bei 300 kWp bringt Indach 85'100 statt 81'800 CHF — die Differenz von 3'300 CHF stammt vollständig aus den ersten 100 kWp und wächst danach **nicht mehr**. Der Zuschlag ist damit absolut gedeckelt: mehr als 3'300 CHF Mehrförderung sind über die Bauart nicht zu holen, gleich wie gross die Anlage wird.
+
+Dem gegenüber steht der Mehrpreis der Integration. Er liegt nach der BFE-Preisbeobachtungsstudie 2024 (publiziert 10.07.2025) je nach Grössenklasse bei **+0 bis +19 %**; die früher kursierende Faustregel «+60 %» ist überholt. Bei einer 300-kWp-Anlage mit einem Systempreis in der Grössenordnung von 2'000 bis 3'000 CHF/kWp bewegt sich schon ein Aufschlag von wenigen Prozent im fünf- bis sechsstelligen Bereich — die 3'300 CHF Mehrförderung sind daneben ohne Gewicht.
+
+**Bauherren-Transfer:** Bei Einfamilienhaus und kleinem Mehrfamilienhaus ist die Förderung ein echtes, wenn auch kleines Argument für Indach, das den Integrations-Mehrpreis teilweise auffängt. Bei Gewerbe-, Healthcare- und grösseren Wohnbauten trägt es nicht mehr. Dort ist die Indach-Entscheidung eine gestalterische und bauphysikalische: Indach ersetzt die Dachhaut und spart deren Kosten, Aufdach ist im Unterhalt und beim späteren Modultausch einfacher. Wer die Bauart mit dem Förderargument begründet bekommt, sollte nach der Anlagengrösse fragen — oberhalb 100 kWp ist das Argument schlicht falsch. Nicht zu verwechseln ist der Integrationszuschlag mit dem **Neigungswinkelbonus**, der 200 (angebaut/freistehend) bzw. 400 CHF/kW (integriert) beträgt, aber erst ab 75 Grad Modulneigung greift und damit die Fassade meint, nicht das Steildach.
+
+**Quelle:** Pronovo-Tarifrechner, Live-Messung 03.09.2026 (Bauart angebaut/freistehend/integriert je über die Leistungsbänder). Integrations-Mehrpreis aus `[[pv-marktzahlen-kosten-ch-2025]]` (BFE-Preisbeobachtungsstudie 2024, publ. 10.07.2025). Systematik: `[[pv-einmalverguetung-bund-bfe]]`. Datenstand der Sätze: unverändert seit 01.04.2025, nächster Prüfstichtag Januar 2027.

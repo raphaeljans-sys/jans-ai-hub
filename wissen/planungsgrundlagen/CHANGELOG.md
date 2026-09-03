@@ -2,6 +2,17 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-03 — Cross-KB-Eingang aus `energie` (Lauf 176): EIV-Sätze gemessen, Grundbeitrag korrigiert
+
+- `wiki/energie-betriebsenergie-pv-wirtschaftlichkeit.md`: **Grundbeitrag = CHF 0 seit 01.04.2024**
+  korrigiert (stand als «Pauschale je Anlage»); die absoluten Leistungsbeiträge als Kasten ergänzt
+  (marginal 360/300/250 bzw. integriert 400/330/250, Grenzen 30 und 100 kWp), gemessen von der KB
+  `energie` am Pronovo-Tarifrechner über neun Stützstellen. Refresh-Absatz mit Überholt-Vermerk.
+- `wiki/QUESTIONS.md`: PG-E176-1 eingetragen und im selben Zug geschlossen.
+- Hinweis: die hier geführten drei Leistungsklassen (30 / 100 kW) waren in der KB `energie` nicht
+  bekannt und haben die dortige Messung mitgetragen — der Querbezug wirkte in beide Richtungen.
+
+
 ## 2026-09-02 (Nachtschicht Mac Mini, Prioritaet 5) — QUESTIONS-Eintrag Baulinien-Gegenrichtung geschlossen
 
 `wiki/QUESTIONS.md`, Eintrag «Baulinien: Gegenrichtung und benannte Artikelzuordnung» (offen seit

@@ -2231,3 +2231,19 @@ Vorbehalte (BSE 108-15, BRL 10-15), der auf `established`-Destillate aus `normen
   Protokolle werden nicht nachträglich umgeschrieben; (c) Eigennamen-Kandidaten `Troesch`,
   `Schaerer`, `Lueter` — ohne Beleg der amtlichen Schreibweise nicht geraten (Rule
   `identifikatoren-verifizieren`).
+
+## 2026-09-03 — Eingang aus KB `energie` (Lauf 176): EIV-Sätze gemessen, Grundbeitrag-Aussage korrigiert
+
+- [x] **PG-E176-1 ✓ 2026-09-03 — die absoluten EIV-Leistungsbeiträge sind jetzt belegt; unsere
+  Grundbeitrag-Beschreibung war überholt.** `energie-betriebsenergie-pv-wirtschaftlichkeit.md` §1
+  beschrieb den **Grundbeitrag** als «Pauschale je Anlage, abhängig von der Bauart» — er beträgt
+  **seit dem 01.04.2024 CHF 0**. Korrigiert, mit Vermerk auch im Refresh-Absatz. Zugleich sind die
+  absoluten Sätze nicht mehr offen: die KB `energie` hat sie am 03.09.2026 am Pronovo-Tarifrechner
+  über neun Stützstellen gemessen — **marginal** gestaffelt **360 / 300 / 250 CHF/kWp**
+  (angebaut/freistehend) bzw. **400 / 330 / 250** (integriert), Klassengrenzen 30 und 100 kWp.
+  **Dieser Artikel hat die Messung mitgetragen:** die hier seit längerem geführten drei
+  Leistungsklassen waren in `energie` unbekannt (dort nur zwei Bänder), und die hiesige Angabe
+  «Senkung je 20 CHF/kW per 01.04.2025» ist durch die Messung unabhängig bestätigt (380 → 360 in
+  der ersten Stufe). Führend bleibt `wissen/energie` → `pv-einmalverguetung-bund-bfe`.
+  **Offen bleibt** die schon vermerkte Verschlankung von §1 auf die Anwendung (Doppelspur zur
+  KB `energie`) — durch diesen Nachtrag eher dringlicher als vorher.

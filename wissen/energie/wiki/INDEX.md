@@ -66,7 +66,7 @@ Details im jeweiligen Destillat bzw. im CHANGELOG.
 - `[[waermepumpe-systemvergleich]]` — WP↔Fernwärme↔Pellets JAZ-Richtwerte + Entscheidungslogik (F6); tiefste Vorlauftemperatur/höchste JAZ via Betonkernaktivierung/TABS als eigenes Flächensystem vertieft, siehe `[[betonkernaktivierung-tabs-energieeffizienz]]` (F138) · established
 - `[[fawa-jaz-feldanalyse-waermepumpen]]` — BFE-Feldanalyse FAWA (236 Anlagen): reale JAZ Sole/Wasser 3,5 / Luft/Wasser 2,7 + Planungslehren · established ⚠ 2004
 - `[[cop-scop-jaz-waermepumpe-gruenenwald]]` — Begriffsklärung COP (Prüfpunkt) vs. SCOP (EN 14825) vs. JAZ (Feldmessung) · established
-- `[[pv-einmalverguetung-bund-bfe]]` — PV-Förderung Bund: EIV/KLEIV/GREIV/HEIV, KLEIV ~360 CHF/kWp, Boni Neigung/Winterstrom/Parkfläche (F7) · established
+- `[[pv-einmalverguetung-bund-bfe]]` — PV-Förderung Bund: EIV/KLEIV/GREIV/HEIV, **Leistungsbeitrag marginal gestaffelt 360/300/250 CHF/kWp (integriert 400/330/250), Grenzen 30 und 100 kWp — am Tarifrechner gemessen 03.09.2026**, Grundbeitrag CHF 0, Boni Neigung/Winterstrom/Parkfläche (F7, **F271**, **F272**) · established
 - `[[minergie-zertifizierung-workflow]]` — Minergie-Nachweis praktisch: Label-Plattform, Antrags-Checkliste, WPesti/PVopti, Prüfprozess AS↔ZS · established
 - `[[gebaeudeprogramm-bund-hfm-2015]]` — Das Gebäudeprogramm Bund & HFM 2015: 18 Module M-01…M-18, Rahmenbedingungen (U≤0,20/GEAK Plus ab 10k), PV separat via Pronovo (F27) · established
 - `[[energiefranken-foerder-suchmaschine-ch]]` — Förder-Suchmaschine energiefranken.ch (PLZ → alle Ebenen Bund/Kanton/Gemeinde/EWU/Stiftung) + Förder-Stapel-Logik (F29) · established

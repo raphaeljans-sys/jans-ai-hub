@@ -1,5 +1,46 @@
 # CHANGELOG
 
+## 2026-09-03 — Run 176: EIV-Leistungsbeitraege am Tarifrechner gemessen (E-R162-2 geschlossen)
+
+**Fachbefund mit Geldwirkung.** Der Pronovo-Tarifrechner wurde im Browser ueber neun Stuetzstellen
+je Bauart ausgewertet. Die EIV ist **marginal gestaffelt** (wie ein Steuertarif), und es existiert
+eine **dritte Stufe ab 100 kWp**, die diese KB nicht kannte: **360 / 300 / 250 CHF/kWp**
+(angebaut/freistehend) bzw. **400 / 330 / 250** (integriert), Grenzen bei 30 und 100 kWp.
+
+- Alte Lesart «ab 30 kWp 300 CHF/kWp» unterschaetzte eine 50-kWp-Anlage um **1'800 CHF**, eine
+  150-kWp-Anlage um **6'800 CHF**.
+- **Der Integrations-Aufschlag entfaellt ab 100 kWp** (beide Bauarten 250 CHF/kWp); der
+  Indach-Vorteil ist absolut auf 3'300 CHF gedeckelt.
+- Bestaetigt: Grundbeitrag **CHF 0** (Anbieter-Angabe «ca. CHF 350» widerlegt), Senkung per
+  01.04.2025 (IBN 2024 → 380, ab 2025 → 360), Neigungswinkelbonus 200/400 CHF/kW.
+
+**Geaendert:**
+- `destillate/pv-einmalverguetung-bund-bfe.md` — Staffeltabelle, Formel, Rechenbeispiele,
+  Messprotokoll, Messfalle (`getDoubled()`-Maskenfeld); Belegvorbehalt Punkt 04 aufgeloest;
+  Frontmatter/datenstand/last_updated; «Offene Punkte» geschlossen.
+- `wiki/BAUHERREN-FAQ.md` — **F250** korrigiert (Tabelle, Rechenbeispiele, Indach-Aussage),
+  F7-Stelle praezisiert; **F271** neu (Staffel, Rechenbeispiele 50/150/300 kWp), **F272** neu
+  (Indach foerderseitig nur unter 100 kWp). Bestand jetzt 272 Antworten.
+- `wiki/pv-solar-technologien.md` — neuer Abschnitt «Bundes-Einmalverguetung: die Staffel ist
+  marginal …», Backlinks und Frontmatter nachgezogen.
+- `destillate/INDEX.md`, `wiki/INDEX.md`, `wiki/QUESTIONS.md` (Run-176-Abschnitt).
+- **Cross-KB `planungsgrundlagen`** (Bringschuld im selben Lauf erfuellt): ueberholte Aussage
+  «Grundbeitrag = Pauschale je Anlage» korrigiert (CHF 0 seit 01.04.2024), gemessene Staffel als
+  Kasten ergaenzt, PG-E176-1 und CHANGELOG dort gesetzt.
+
+**Methodisch, zwei Lehren.** (1) Die Klassengrenzen 30/100 kW standen seit Monaten in
+`planungsgrundlagen` — die halbe Antwort lag zehn Tage lang in einer Schwester-KB. Neu als
+**E-R176-1**: der Cross-KB-Schritt gehoert **vor** die Recherche, nicht nur ans Schliessen (E46-1
+regelt die Gegenrichtung). (2) Der Vermerk «kein WebFetch-faehiges Formular» war richtig und
+trotzdem kein Blocker — der Browser-Weg stand offen (Rule `wege-und-vollmachten`).
+
+**Buchhaltung:** E-R164-3 als Fehl-Offen Typ 2 abgehakt (vom `fehloffen-waechter.py` gefunden,
+danach null Befunde). Dessen Falsch-Positiv bei blosser ID-Erwaehnung als **E-R176-2** erfasst —
+gleiche Familie wie E-R175-2.
+
+Bericht: `outputs/2026-09-03_energie-run176.md`.
+
+
 ## 2026-09-03 (Nachtschicht Mac Mini) — Minergie-ECO-Anleitung V2023.3 vollstaendig destilliert, E-R167-1 geschlossen
 
 Run 175 (02.09.) hatte das Curriculum als erschoepft gemeldet; dieser Lauf schliesst stattdessen
