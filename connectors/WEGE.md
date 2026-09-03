@@ -411,6 +411,17 @@ Passwort im Keychain unter `icloud-app-password`.
 
 **Achtung:** Der MCP-Outlook-Connector kann das Postfach nicht durchsuchen, siehe Sackgassen.
 
+**Achtung, belegte Sackgasse 03.09.2026: ein GESPEICHERTER Apple-Mail-Entwurf ist über
+AppleScript vollständig read-only.** Nach `save newMsg` scheitern sowohl `set content of` als auch
+`set subject of` mit Fehler **-10006** («kann nicht gesetzt werden»). Ein bereits abgelegter Entwurf
+lässt sich also weder nachbessern noch umbenennen; löschen ist nach `logbuch/AKTIONS-WHITELIST.md`
+verboten. Wer nachbessert, erzeugt zwangsläufig einen zweiten Entwurf mit demselben Betreff.
+**Konsequenz für die Reihenfolge:** den Entwurf erst anlegen, wenn die QS **vollständig** durch ist,
+also `korrektur` UND das `twin-chef`-Gate UND allfällige Facetten-Agenten, die nach dem Chef-Merge
+nachmelden. Am 03.09.2026 im Hub-Chef-Lauf belegt: zwei Entwürfe an S. Tschopp (09:00:51 und
+09:02:49), weil zwei Stil-Agenten nach dem Merge noch belegte Befunde lieferten. Der ältere musste
+von Hand verworfen werden.
+
 ---
 
 ## 3. Belegte Sackgassen

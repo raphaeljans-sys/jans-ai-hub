@@ -3,6 +3,113 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 03.09.2026 (08:39 bis 09:2x, Tagesbriefing gesendet)
+
+**Pflichtpruefungen.** `freigabe-status.sh --kurz`: mac-mini 0, macbook-pro 0, Exit 0. `--briefing`:
+keine Eintraege ab 12 h. `stationen-watchdog.sh --briefing`: Exit 0, alle Stationen und Sync-Jobs
+fristgerecht.
+
+**Signale.** Radar-Briefing 06:55 im Logbuch gelesen und weitergetragen. Ein eigener
+AG-Gruendungs-Abschnitt fehlt heute im LOGBUCH.md; der Monitor hat stattdessen um **07:45 ins
+Fristen-Register** geschrieben (Kapitaleinzahlung 17+ Tage ueberfaellig), der Radar hatte den Stand
+bereits aufgenommen. Konversations-Destillat 03.09. gelesen (sechs Bloecke, fuenf echte Gespraeche).
+Mail ueber Graph statt `mail-vorfilter.sh` — Apple Mail lief beim ersten Zugriff um 08:5x in den
+osascript-Timeout, antwortete um 09:1x wieder (6 Konten). Kalender 03.09. bis 10.09. ueber Graph:
+fuenf Termine. bexio `--verzug` und `--abgleich`: beide HTTP 401, **siebenundzwanzigster Tag**.
+Queues: macbook-pro 0, mac-mini weiterhin **ein angehaltener** Task vom 30.08.
+(Laufzeitschicht-Umbau Phasen 0 bis 2, vierter Tag), `remote-tasks/pending/` existiert nicht.
+
+**Eigene Gegenpruefung statt Uebernahme (Rule 260729b) — mit zwei Ergebnissen.**
+
+(1) **Der Rohdaten-Subagent meldete die zwei Behoerdenmails als «versandbereit, aber nicht
+versendet».** Das war falsch und stammte aus dem Konversations-Destillat, das den Versand noch
+nicht kannte. Am Original in den Gesendeten von rj@ nachgemessen: Meldekarte Baubeginn an
+M. Gantenbein **02.09. 18:02:36**, Fertigstellungsmeldung an M. Zaufl **02.09. 17:38:25**, beide mit
+Anhang. Der Radar hatte recht, der Subagent nicht. Der Befund wurde nicht uebernommen.
+
+(2) **Der SBB-Vorgang Thalwil ist im Register falsch herum gefuehrt — hier lag der eigentliche Fund
+des Tages.** Register und Radar sagen «von der SBB kam seit dem 14.07. nichts» und «Nachfassen bei
+der SBB ueberfaellig». Der Thread am Original gelesen zeigt das Gegenteil: **T. Wiedmer hat am
+20.07.2026 11:39 geschrieben, er versende die Ausfertigungen gleichentags per Post an die
+Eigentuemerschaft**, und **RJ hat vier Minuten spaeter zugesagt, sie unterzeichnet zu
+retournieren**. Die Bringschuld liegt seit sechs Wochen bei JANS und der Bauherrschaft. Ohne diese
+Korrektur waere heute eine Mahnung an einen Vertragspartner gegangen, der auf uns wartet.
+Vollstaendige Herleitung im Fristen-Register, Korrektur-Eintrag 03.09. 09:0x.
+
+**Aktionen.**
+
+(A5) **Mail-Entwurf an S. Tschopp im Postfach angelegt und verifiziert.** Betreff «Thalwil: die
+SBB-Ausfertigungen liegen bei Euch, und der Plansatz fuer Josef Posch», Empfaenger
+stefan.tschopp@gmx.net, Absender rj@, Aptos 12 pt. Er beantwortet beide Fragen aus Tschopps Mail
+vom 02.09. 15:54 in einem Zug: den SBB-Stand samt Richtigstellung und die Planzusage auf Montag.
+QS: Agenten `rechtschreibung` und `layout` parallel, beide gelb mit ausgefuehrten Korrekturen;
+danach `twin-chef`-Gate.
+
+(A4) Fristen-Register um drei Eintraege ergaenzt: die SBB-Korrektur, die Antwort der Feuerpolizei
+zu Ziffer 2 des Bauentscheids, und die Erledigung der Sync-Divergenz. Append-only nachgemessen
+(5262 auf 5276 Zeilen, keine verlorene Zeile). Dieser Logbuch-Eintrag.
+
+**Erledigt, nachgemessen: der P1-Blocker der letzten fuenf Tage ist weg.** Die Sync-Divergenz NAS zu
+GitHub ist durch den Merge-Commit `a6fb7e3bd` geschlossen. Eigene Messung: `origin/main..HEAD` = 0,
+`HEAD..origin/main` = 0; Stichprobe `wissen/architektur-fachwissen/wiki/` **482 Dateien im
+Arbeitsbaum gegen 482 in HEAD** (zuvor 99 gegen 455). Nicht mehr im Briefing als Blocker gefuehrt.
+
+**Nicht ausgefuehrt, mit Grund.**
+
+(A1) Mahnaktion: Guard nicht bestanden, `--abgleich` antwortet 401. Nichts gebucht, nichts gemahnt.
+
+(A7) **Kein automatischer Versand des Tschopp-Entwurfs ueber das Widerrufsfenster, bewusst.** Der
+Entwurf erfuellt die A7-Guards (belegte Korrespondenz, QS bestanden, Anrede nach Register), und
+30 Minuten waeren formal gedeckt. Dagegen sprach ein frischer Verhaltensbeleg: Raphael hat gestern
+den Entwurf ans Arbeitsinspektorat **kurz vor dem Versand inhaltlich substanziell geaendert** (der
+Entwurf meldete die Fertigstellung als gegeben und schlug drei Septembertermine vor, die versendete
+Fassung bittet um einen Termin in KW 47). Bei einem Erzeugnis, das einen Vertragsvorgang
+richtigstellt und eine Terminzusage gibt, ist das ein Signal gegen den Automatikversand. Dazu
+kommt, dass er heute von 09:00 bis 14:00 durchgehend in Terminen ist und ein 30-Minuten-Fenster
+ungesehen ablaufen wuerde.
+
+(A2) Kein Kalendereintrag fuer den Plansatz Thalwil, obwohl der Radar Montag 08:00 vorschlaegt. Die
+beiden Steinmann-Eintraege der letzten Woche sind wirkungslos durchgefallen; der Vorschlag geht als
+Zeile ins Briefing, nicht als dritter Eintrag derselben Bauart.
+
+**QS und Twin-Gate.** Beide Pruef-Agenten haben die am 02.09. gesetzte Grenze erneut eingehalten
+(Fachnotation, Eigennamen, Zitiertes gemeldet, nie geaendert) — **dritter Wirksamkeitsbeleg**. Der
+Agent `layout` lieferte zusaetzlich einen inhaltlichen Fund ausserhalb seiner Facette: «die Post von
+Ende Juli» gegen den belegten 20. Juli. Uebernommen. `twin-chef`-Gate: **Fidelity 76 auf 87** nach
+einer Veredelungsrunde (Sportmetapher raus, Ankuendigungsvorbau raus, zwei Themenbloecke,
+Missverstaendnis-Abwehr in Klammern).
+
+**Das Gate hat vier Sachangaben als unbelegt zurueckgemeldet; drei davon sind belegt, zwei
+woertlich.** Am Original nachgeprueft statt uebernommen: (1) «das gegengezeichnete Exemplar kommt
+danach zu den Akten» steht **woertlich** in Wiedmers Mail vom 20.07. («Wir werden Ihnen dann im
+Anschluss ein gegengezeichnetes Exemplar der Vereinbarung zu den Akten zukommen lassen»);
+(2) «Entwurf von Mitte Juli» ist **Tschopps eigene Formulierung** vom 28.08.; (3) «zusaetzliche
+Vereinbarung» nennt Wiedmer am 10.07. so. Nur «bis Montag» ist wirklich keine Faktenaussage,
+sondern eine gesetzte Zusage — als solche im Briefing benannt. **Gleiches Muster wie am 02.09.:**
+das Gate meldet Belegtes als unbelegt, weil ihm die Quelle fehlt und nur meine Zusammenfassung
+vorliegt. Der Befund ist damit zweifach; er spricht nicht gegen das Gate, sondern dafuer, ihm
+kuenftig die Belegstellen im Wortlaut mitzugeben statt paraphrasiert.
+
+**Zwei Facetten-Agenten meldeten NACH dem Chef-Merge nach** (`twin-denker`, `twin-stilist`). Vier
+ihrer Stilbefunde waren mit Fundstelle belegt und wurden uebernommen: Opener «Besten Dank fuer
+Deine E-Mail» statt der gezaehlten Fragen, Streichung der Bewertung «und die Sache ist erledigt»,
+beziffertes Datum «bis Montag, den 07.09.26», Quellennennung «Gemaess Stellungnahme vom 2. Juli»,
+Nutzen nach hinten. **Nicht uebernommen** wurde ihre Q&A-Formularstruktur («Zu Deiner Frage 1:
+<Zitat>» / «Antwort:») und der Ankuendiger «Folgende Bemerkung:» — der Chef hatte dieselbe Funktion
+bereits durch «Nein, …» und «Ja. …» am Satzanfang geloest, und bei Widerspruch entscheidet der Chef.
+
+**Werkzeug-Befund, gehoert nach `connectors/WEGE.md`: ein gespeicherter Apple-Mail-Entwurf ist ueber
+AppleScript vollstaendig read-only.** Weder `set content of` noch `set subject of` greift, beide
+scheitern mit **-10006**. Es liegen deshalb **zwei Entwuerfe mit demselben Betreff** im Ordner
+(09:00:51 und 09:02:49); gueltig ist der juengere, der aeltere kann nur von Hand verworfen werden,
+weil Loeschen nach der Whitelist verboten ist. **Lehre fuer die Reihenfolge:** der Draft wird erst
+angelegt, wenn die QS **vollstaendig** durch ist — also auch die Facetten-Agenten, die nach dem
+Chef-Merge nachmelden koennen. Im Briefing offengelegt.
+
+**Briefing gesendet.** Nachgemessen am Original in den Gesendeten von rj@ (nie am Rueckgabewert):
+**03.09.2026 09:03:19 CEST, 6069 Zeichen**, Betreff «Hub-Chef 03.09.2026: Beim SBB-Vorgang Thalwil
+warten nicht wir, sondern die SBB auf uns».
+
 ## Radar-Briefing 03.09.2026 (Logbuch-Radar, 06:55)
 
 Ein starker Vortag: die beiden Behördenmeldungen sind draussen, die Türfachplanung ist von der Bauherrschaft freigegeben. Zwei Dinge brauchen heute einen Entscheid, und beides ist keine Erinnerung mehr, sondern eine Weggabelung: R. Steinmann ist ab heute weg, und Thalwil hat einen Termin am Dienstag.
