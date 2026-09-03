@@ -2,6 +2,60 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-03 (Lauf 52) — der Run-78-Befund an seine Konsumenten ausgeliefert; ein Destillat, das ueber sie log
+
+**Zuschnitt:** 6 Melder (`model: sonnet`) + 4 adversariale Verifikatoren + vier eigene Messungen
+im Hauptkontext. 10 Agenten. **9 bestaetigt (3 davon eingeschraenkt) · 2 widerlegt · 2
+Nullbefunde · 1 Befund am Pruefinstrument.** 22 Dateien, nativ per `ssh` nachgemessen. Bericht:
+`outputs/2026-09-03_wissens-chef-run52.md`.
+
+- **Der SIA-416-Kernbefund aus `normen` Run 78 ist ausgeliefert.** «CHF/m3 GV ist gegenueber
+  Aussenflaechen blind» (ANF/AVF ohne Volumen-Pendant, AKV mit eigener Ziff. 6) benannte seine
+  drei Konsumenten namentlich — und **keiner** trug den Vorbehalt. Gesetzt in
+  `grobkosten-onepager`, `machbarkeit-studio`, `grobkosten-rechner`, `grobkosten/wiki/kennwerte`,
+  `flaechendefinitionen-sia`, `realwert-sachwert`. **Adversarial eingeschraenkt:** bei mittleren
+  Projekten bleibt das Delta meist innerhalb der ±25-%-Bandbreite; materiell wird es bei kleinen
+  und bei balkonlastigen Varianten. Die Einschraenkung steht im gesetzten Text.
+- **Schaerfster Fund, und er kam vom Verifikator:** `normen/destillate/sia-416-2003.md`
+  behauptete, «die zitierenden Bausteine des Hub tragen seit Run 77 einen entsprechenden
+  Vermerk». Nachgemessen falsch — zwei der zwoelf Konsumenten des Statuswechsels (N46-3) waren
+  ungekennzeichnet, und zwar genau die beiden, die GV als harten Bezugswert zitieren. Berichtigt.
+  **Lehre: ein Destillat darf ueber den Zustand seiner Konsumenten nichts behaupten, das es nicht
+  selbst gemessen hat** — die Behauptung altert unbemerkt und verhindert die Nachpflege, die sie
+  beschreibt (Familie 260807).
+- **HEIV war die falsche Abkuerzung.** `planungsgrundlagen` fuehrte sie als «Hochalpine EIV» —
+  eine Verwechslung mit der alpinen Grossanlagen-Foerderung nach Art. 71a EnG («Solarexpress»),
+  die zufaellig denselben 60-%-Deckel kennt. Richtig: **hohe** Einmalverguetung, Volleinspeiser
+  ohne Eigenverbrauch, 2 bis <150 kW. Am Primaerbeleg berichtigt; der Fehler war isoliert, die
+  fuehrende KB `energie` trennt beide Regime seit jeher. Dazu «degressiv» → «marginal»,
+  `last_updated` und INDEX. **Lehre: eine erfuellte Cross-KB-Bringschuld deckt den Sachwert, nicht
+  die Legende, das Frontmatter und den INDEX-Eintrag daneben** — die Zahlen aus `energie` Run 176
+  waren zifferngenau richtig, ich habe die Rechenbeispiele nachgerechnet.
+- **Zweimal hat der Verifikator den Melder korrigiert, nicht nur bestaetigt.** (1) Der
+  Waldabstands-Wachposten sollte an die 30-m-Zeile in `baurecht` — falsch: eine Planrevision
+  verschiebt die **Linienlage** (`planungsgrundlagen`), nicht das **Mass** (§ 66 PBG). (2) Der
+  geo.admin-`identify` per Punktkoordinate war keine «Werkzeug-Erkenntnis» — `identifyParcel()`
+  steht laengst im Connector und liefert `rings` mit; es fehlt nur der CLI-Einstieg. Deshalb
+  **kein** WEGE.md-Eintrag (das Register fuehrt Faehigkeiten, nicht Flags), sondern PG-52-1.
+- **Widerlegt (2):** der `links:`-KB-Pfad-Vorschlag zum **dritten Mal** (Run 48, jetzt Lauf 52) —
+  am Schema und an QUESTIONS #64 gekippt, kein `links:`-Feld angefasst; und die vermeintliche
+  Doppelattribution § 9 ABV gegen § 276 Abs. 1 PBG, am Erlasswortlaut widerlegt (zwei Erlasse,
+  zwei Regelungsgegenstaende, beide Zitate korrekt).
+- **Eigener Befund am Pruefinstrument:** `wissenscheck` Pruefung B prueft nur `[[wikilinks]]` —
+  damit ist die Folgenprognose in QUESTIONS #64 («naechster Check meldet Falschbefunde»)
+  **widerlegt** (empirisch: `grobkosten/wiki/kennwerte.md`, vier KB-Pfade, B0 am 01.09.), und ein
+  **echter** toter Backlink (`[[sia-416-1-2007]]` in `flaechendefinitionen-sia`, Ziel liegt in
+  `normen/destillate/`) wurde vom Check uebersehen. Dazu gemessen: die Form betrifft **elf**
+  Dateien in **vier** Notationen, **acht aelter als Run 47** — und eine vierte, selbsterklaerende
+  Variante (eigener Frontmatter-Schluessel) fehlt im Entscheid. Alles nur festgehalten.
+- **Handwerklicher Selbstbefund:** mein Fan-out-Prompt fuer die afw-Achse hat die Registerwarnung
+  zum `links:`-Feld nicht mitgegeben, obwohl sie im Register steht. Der Melder lief deshalb in
+  eine bekannte Falle. Beim naechsten Lauf gehoert die einschlaegige Registerzeile in den
+  Melder-Auftrag.
+
+Register `QUERBEZUEGE.md` +4 Matrixzeilen. Keine Mail — die drei offenen Punkte sind nicht
+operativ (Rule 260803).
+
 ## 2026-09-03 — Synergie-Lauf 27 (Tagestakt)
 
 Delta-Basis 02.09.2026 17:10, Fenster 23,8 h, 112 Commits, HEAD `a2767315e`. Uhr- und
