@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.09.2026 03:47:00
+Stand: 03.09.2026 03:57:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 03:47:00
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- b8878278b nas-selfcommit: 2 Datei(en) 2026-09-03 03:45
+- 1d398f973 twin-mail-training Batch 113: rj@ Sent Items 01.-02.09.2026 (5 Gold + 1 korrektur-delta, Behoerdenschiene erstmals belegt)
