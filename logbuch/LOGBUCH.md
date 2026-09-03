@@ -10913,3 +10913,32 @@ defekte Dateien. Nicht selbst repariert (Systemsache Raphaels, Rule 260814); Bef
 Schritt (Ordner im Finder oeffnen/PDFs einmal anklicken) in `QUESTIONS.md` vermerkt.
 
 Budget rund 3.4 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-03 23:30 Nachtschicht Mac Mini — Laufzeitschicht-Umbau Phase 0 nachgeholt, Sync-Task war zu Unrecht weiter blockiert
+
+Prioritaet 1 (`sync-tasks/mac-mini/`): die `.angehalten`-Sync-Task zum Laufzeitschicht-Umbau
+(SPEC `docs/konzepte/260830-Laufzeitschicht-Umbau/`) war seit dem 30.08. blockiert, weil Phase 0
+laut Spec erst nach Aufloesung der B6-Divergenz (NAS ↔ GitHub) starten darf. Diese Divergenz hat
+Raphael am 02.09.2026 16:2x per Einzelfreigabe aufgeloest (Merge-Commit `a6fb7e3bd`, Eintrag
+`logbuch/fristen.md`) — der 02:30-Lauf von heute Nacht hatte die Blockade noch als «zu Recht»
+bestehend gemeldet, ohne das Datum der Freigabe gegen den eigenen Blockade-Vermerk zu pruefen.
+Eigene Pruefung ergab: Vorbedingung erfuellt, Suffix `.angehalten` entfernt, Task reaktiviert.
+
+Phase 0 (Befund) durchgefuehrt und dokumentiert: `docs/konzepte/260830-Laufzeitschicht-Umbau/BEFUND.md`.
+Vollstaendige Aufrufer-Matrix aller sieben `claude -p`-Aufrufer-Scripts (Binary-Aufloesung,
+Auth-Quelle, Arbeitsverzeichnis) — B6 dabei praezisiert (drei statt zwei Default-Arbeitsbaeume:
+SSD-Klon bei `dispatch-run.sh`/`vollgas-runner.sh`/`sync-task-run.sh`, NAS-bevorzugt bei
+`claude-run.sh`/`vollgas-schub.sh`, NAS fest verdrahtet ohne Fallback bei `wissens-trigger.sh`),
+B1 vollstaendig bestaetigt (nur `claude-run.sh` liest `~/.jans-dispatch.env` nicht selbst). B4
+(«OAuth session expired» bei abgeloesten Laeufen) mit einer konkreten, direkt aus der eigenen
+laufenden Session-Umgebung belegten Hypothese eingekreist: sieben `CLAUDE_CODE_*`-Variablen sind
+in dieser Session gesetzt, darunter `CLAUDE_CODE_MESSAGING_SOCKET`/`_TOKEN`/`CLAUDE_CODE_SESSION_ID`/
+`CLAUDE_CODE_CHILD_SESSION` — vier Kandidaten, die ein Kindprozess erbt und die bei Abloesung der
+Elternsession auf einen toten Kanal zeigen wuerden. Nicht selbst verifiziert (Test gehoert in
+Phase 2). Phase 1 (`lauf.sh` bauen) und Phase 2 (Zwoelfer-Stationsmatrix) bewusst NICHT begonnen —
+zu gross fuer einen einzelnen 5-USD-Zyklus, Phase 2 zusaetzlich auf Messungen anderer Stationen
+angewiesen. Sync-Task-Status auf `teilerledigt` gesetzt, Fortsetzungspunkte fuer Phase 1 in
+`BEFUND.md` Abschnitt 5 vermerkt. Commit via `nas-commit-now.sh` gesichert.
+
+Budget rund 2.1 von 5 USD. Zyklus sauber beendet, weiteres Restbudget bewusst nicht fuer den
+Beginn von Phase 1 verwendet (Ein-Aufgabe-Regel, sauberer Uebergabepunkt fuer den naechsten Lauf).
