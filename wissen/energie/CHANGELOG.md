@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## 2026-09-03 (Nachtschicht Mac Mini) — Minergie-ECO-Anleitung V2023.3 vollstaendig destilliert, E-R167-1 geschlossen
+
+Run 175 (02.09.) hatte das Curriculum als erschoepft gemeldet; dieser Lauf schliesst stattdessen
+einen offenen QUESTIONS-Punkt (Nachtschicht-Prioritaet 5). Beide Fassungen der Minergie/eco-bau-
+Anleitung zur Berechnung der Grauen Energie beim Zusatz ECO (V1.3 vom 31.03.2021 und V2023.3 vom
+26.11.2024) vollstaendig geladen und Seite fuer Seite gegengelesen — Run 167 (29.08.) hatte nur
+die drei Haustechnik-Grenzwerte (PV/Solarkollektoren/Erdsonden) verglichen. **Befund deutlich
+breiter:** die primaere Neubau-Grenzwerttabelle (GWPEAE, kWh/m²a je Nutzung) wurde neu kalibriert
+und war bisher in der KB nirgends vermerkt (z.B. Wohnen MFH 25.0/36.1 → 28/35, Verkauf
+47.2/58.3 → 39/57); der kWh-Wert der PV-Anlage halbierte sich zusaetzlich zum bereits bekannten
+CO₂-Wert (47.2 → 25.5); neuer Absatz zur PV-Flaechenanrechnung nach Eigenverbrauchsrate
+(Eigenverbrauch 100 %, Netzeinspeisung nur 40 % angerechnet); die Aushub-Ausnahme fuer
+Baugrubenabschluss/Pfaehlung (B06.04/B07.02) wurde ersatzlos gestrichen; Nutzungskategorien
+konsolidiert (Kleine Wohnbauten→Wohnen EFH, Museen→Versammlungslokal, Kleine Schulbauten
+entfallen). Neues Destillat `[[minergie-eco-anleitung-graue-energie-v2023-3]]`, Nachtrag in
+`[[kbob-graue-treibhausgasemissionen-2025]]`. Ein Punkt bleibt offen und nicht aus dem
+Anleitungstext allein loesbar: der 0,6-Faktor fuer Minergie-P/-A bei Erdsonden/Waermeerzeugung
+ist in V2023.3 ersatzlos verschwunden — E-R176-1, Klaerung braucht ein Nachweistool-Testfall
+oder eine Rueckfrage bei der Zertifizierungsstelle. `wiki/QUESTIONS.md` (E-R167-1 geschlossen,
+E-R176-1 neu), `destillate/INDEX.md` nachgefuehrt.
+
 ## 2026-09-02 (Wissens-Chef Lauf 51) — zweite Fundstelle derselben fRsi-Zusicherung berichtigt
 
 `destillate/innendaemmung-altbau-bauphysik-ch.md` (+15/−0): Lauf 50 hatte am 01.09. die

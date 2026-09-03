@@ -144,6 +144,14 @@ befriedigend↔unbefriedigend, kalibriert an den Richtwerten des Effizienzpfads 
 Haustechnik-Bauteile (alle Nutzungen, kg CO₂/m² Bauteilflaeche bzw. Energiebezugsflaeche AE):
 PV-Anlage **13.3**, therm. Solarkollektoren **5.2**, Erdsonden **0.3** (je kg CO₂/m²·a).
 ⚠ **Diese drei Haustechnik-Werte sind quellentreu fuer die Minergie/eco-bau-Anleitung V1.3 (31.03.2021), aber NICHT MEHR AKTUELL.** Die Anleitung wurde durch **V2023.3 (26.11.2024)** abgeloest: PV-Anlage **7.1** statt 13.3 (Faktor ~0,53), Solarkollektoren **5.6** statt 5.2; Erdsonden unveraendert. Fuer heutige Aussagen die Werte aus dem Nachtrag vom 2026-08-29 (Run 167) verwenden, siehe unten. Die Gebaeudehuellen-Werte der Tabelle darueber sind von der Aenderung nicht betroffen.
+⚠ **Nachtrag 03.09.2026 (Nachtschicht Mac Mini):** dieser Nachtrag war zu eng — nicht nur die drei
+Haustechnik-Werte haben sich geaendert. Der vollstaendige Seite-fuer-Seite-Vergleich V1.3 ↔ V2023.3
+zeigt, dass auch die **primaere Neubau-Grenzwerttabelle (GWPEAE, kWh/m²a) je Nutzungskategorie**
+neu kalibriert wurde (z.B. Wohnen MFH GW1/GW2 25.0/36.1 → 28/35, Verkauf 47.2/58.3 → 39/57), dass
+auch der **kWh-Wert der PV-Anlage** sich mehr als halbiert hat (47.2 → 25.5, nicht nur der CO₂-Wert),
+und dass ein **0,6-Faktor fuer Minergie-P/-A bei Erdsonden/Waermeerzeugung** in V2023.3 ersatzlos
+verschwunden ist (offen, siehe QUESTIONS.md E-R176-1). Vollstaendiger Vergleich mit allen Tabellen:
+`[[minergie-eco-anleitung-graue-energie-v2023-3]]`. E-R167-1 damit geschlossen.
 
 - Andere Nutzungskategorien (Verwaltung, Schule, Verkauf, Restaurant, Museen, **Spital**, Industrie,
   Kleine Schulbauten, Sportbauten) liegen bei Aussenwand/Dach/Bodenplatte teils **hoeher** (z.B. Spital

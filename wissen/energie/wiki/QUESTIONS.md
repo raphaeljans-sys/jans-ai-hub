@@ -335,12 +335,29 @@ Quelle im naechsten Lauf erneut geprueft.
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R167-1 (P2): Minergie-ECO-Anleitung V2023.3 vollstaendig destillieren.** Der Lauf hat die
+- [x] **E-R167-1 (P2): Minergie-ECO-Anleitung V2023.3 vollstaendig destillieren.** Der Lauf hat die
   geaenderten Haustechnik-Grenzwerte erfasst (PV 13,3 → 7,1; Solarkollektoren 5,2 → 5,6; Erdsonden und
   Gebaeudehuelle unveraendert). **Die uebrigen Aenderungen zwischen V1.3 (2021) und V2023.3 (26.11.2024)
   sind nicht systematisch verglichen.** Die Frontmatter-Zeile `ergaenzende_quellen` in
   `[[kbob-graue-treibhausgasemissionen-2025]]` zeigt weiterhin auf die alte V1.3-URL (bewusst nicht
   ersetzt, um additiv zu bleiben) — beim naechsten Lauf sauber nachfuehren.
+  ✓ **Geschlossen — Nachtschicht Mac Mini 03.09.2026.** Beide Fassungen vollstaendig Seite fuer Seite
+  gegengelesen (curl + pdftotext -layout). Befund deutlich breiter als angenommen: die primaere
+  Neubau-Grenzwerttabelle (GWPEAE, kWh/m²a) je Nutzung wurde neu kalibriert (nicht nur Haustechnik),
+  der kWh-Wert der PV-Anlage halbierte sich zusaetzlich zum CO₂-Wert (47.2→25.5), ein neuer
+  Absatz zur PV-Flaechenanrechnung nach Eigenverbrauchsrate kam hinzu, die Aushub-Ausnahme fuer
+  Baugrubenabschluss/Pfaehlung wurde gestrichen, und die Nutzungskategorien wurden konsolidiert
+  (Kleine Wohnbauten→Wohnen EFH, Museen→Versammlungslokal, Kleine Schulbauten entfallen). Vollstaendiger
+  Vergleich: `[[minergie-eco-anleitung-graue-energie-v2023-3]]`. Nachtrag in
+  `[[kbob-graue-treibhausgasemissionen-2025]]` gesetzt. Ein Punkt bleibt offen, neu unter E-R176-1.
+- [ ] **E-R176-1 (P2, neu aus E-R167-1): Ist der 0,6-Faktor fuer Minergie-P/-A bei Erdsonden und
+  Waermeerzeugung bewusst gestrichen oder implizit in die neuen Basiswerte eingerechnet?** V1.3 kennt
+  an zwei Stellen einen Herabsetzungsfaktor 0,6 fuer Minergie-P/-A-Bauten (Erdsonden-Fussnote,
+  Erneuerung-Waermeerzeugung). In V2023.3 ist der Faktor an keiner der beiden Stellen mehr zu finden;
+  einzig der unveraenderte Faktor 1.2 fuer Aussenbauteile bleibt. Aus dem reinen Anleitungstext (ohne
+  Berechnungsformel/Nachweistool) nicht entscheidbar. Klaerung nur moeglich durch Test in einem
+  zugelassenen Nachweistool (Lesosai o.ae.) mit einem Minergie-P/-A-Referenzobjekt, oder durch
+  Rueckfrage bei der Zertifizierungsstelle Minergie-ECO — beides ausserhalb des Nachtschicht-Budgets.
 - [ ] **E-R167-2 (P2, terminiert): KBOB-Einreichefrist 30.10.2026 und Bilanzierungsregeln v9.** Die
   KBOB/ecobau-Liste 2027 erscheint im Fruehjahr 2027, Einreichefrist fuer Datensaetze ist der
   **30.10.2026**, die Bilanzierungsregeln v9 sind angekuendigt, aber nicht publiziert. Ab Oktober 2026

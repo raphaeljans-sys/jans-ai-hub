@@ -10689,3 +10689,25 @@ beide Laeufe endeten mit vollstaendiger Selbstauskunft, nicht mit stillem Abbruc
 
 Kein Edit an geteilten Inhalten ausser diesem Journal-Eintrag. Budget rund 2.1 von 5 USD
 (vorwiegend Reconnaissance ueber alle sechs Prioritaeten), Zyklus sauber beendet.
+
+## 2026-09-03 05:30 Nachtschicht Mac Mini — Prioritaet 5: Minergie-ECO-Anleitung V2023.3 destilliert, E-R167-1 geschlossen
+
+Prioritaeten 1-4 wie vom 02:30-Lauf gemeldet leer/gesaettigt (remote-tasks/sync-tasks leer,
+Laufzeitschicht-Umbau-Task traegt Status `.angehalten`, architekten-synobsis Stufe 2 seit 01.09.
+gesaettigt, bauprodukte/grobkosten/projekt-lessons formal erledigt bzw. ausgesetzt, energie-
+Curriculum laut Run 175 ohne offenen Fachpunkt). Im Unterschied zum Vorlauf (der auf KB-Ebene
+geprueft hat) wurde direkt in `wissen/energie/wiki/QUESTIONS.md` nach offenen, tatsaechlich
+recherchierbaren Einzelpunkten gesucht (Prioritaet 5) — E-R167-1 (Minergie-ECO-Anleitung V2023.3
+vollstaendig destillieren) war seit Run 167 (29.08.) offen und nicht an Raphaels Entscheid
+gebunden. Beide Fassungen (V1.3 31.03.2021, V2023.3 26.11.2024) von minergie.ch geladen und
+vollstaendig gegengelesen. Befund deutlich breiter als der bisherige Teilbefund: die primaere
+Neubau-Grenzwerttabelle (GWPEAE, kWh/m²a) wurde neu kalibriert und war bisher nirgends vermerkt;
+der kWh-Wert der PV-Anlage halbierte sich zusaetzlich zum CO₂-Wert; neue PV-Flaechenanrechnung
+nach Eigenverbrauchsrate; Aushub-Ausnahme B06.04/B07.02 gestrichen; Nutzungskategorien
+konsolidiert. Neues Destillat `minergie-eco-anleitung-graue-energie-v2023-3.md`, Nachtrag in
+`kbob-graue-treibhausgasemissionen-2025.md`, `QUESTIONS.md`/`destillate/INDEX.md`/`CHANGELOG.md`
+nachgefuehrt. Ein Punkt bleibt offen (E-R176-1: 0,6-Faktor Minergie-P/-A bei Erdsonden/
+Waermeerzeugung in V2023.3 verschwunden, aus dem Anleitungstext allein nicht rekonstruierbar).
+
+Budget rund 3.3 von 5 USD (Reconnaissance + Volltext-Vergleich zweier PDF). Zyklus sauber
+beendet.
