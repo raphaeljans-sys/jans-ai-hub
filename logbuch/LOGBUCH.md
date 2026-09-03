@@ -10658,3 +10658,34 @@ durchgehend BEANTWORTET/ERLEDIGT. Prioritaet 6: alle 19 KBs tragen bereits einen
 Kein Edit an geteilten Inhalten, kein Commit noetig ausser diesem Journal-Eintrag. Budget rund
 1.6 von 5 USD, Zyklus beendet ohne Ergebnis in wiki/outputs — Begruendung liegt hier statt
 erfundener Beschaeftigung.
+
+## 2026-09-03 02:30 Nachtschicht Mac Mini — zweiter Nullbefund in Folge, unabhaengig bestaetigt
+
+Eigener vollstaendiger Durchgang (ohne den Eintrag von gestern 23:3x vorher zu lesen), Ergebnis
+deckungsgleich: kein gueltiges Ziel in den sechs Prioritaeten.
+
+Prioritaet 1: `remote-tasks/pending/` leer; die `.angehalten`-Sync-Task zum Laufzeitschicht-Umbau
+bleibt zu Recht blockiert (Spec Abschnitt 4: Vorbedingung Phase 0 ist die Aufloesung der
+Git-Divergenz B6, ein Git-Historien-Eingriff mit Raphaels Einzelfreigabe) — der reine
+Divergenz-**Zustand** ist laut `logbuch/fristen.md` seit heute Nacht 01:5x (normen Run 78) auf
+0/0 aufgeloest, die **Ursache** B6 bleibt bewusst offen. Prioritaet 2: Synobsis unveraendert
+853/853 gesaettigt, Vektorindex vom 01.09., kein Rueckstand. Prioritaet 4: bauprodukte (ERLEDIGT
+seit 15.08.), grobkosten (0 offene Positionen im Quellen-Inventar) und energie (Run 175
+Abendlauf: „Curriculum ohne offenen Fachpunkt, QUESTIONS ohne inhaltlichen Rest") sind jetzt ALLE
+DREI gesaettigt — die drei bisherigen „freien Ziele" der Nachtschicht-Anweisung sind damit
+veraltet. Uebrige KBs mit `training/PROGRAMM.md` tragen eigenen Taktgeber oder
+Stillgelegt-/Ereignis-Trigger-Status. Prioritaet 5: offene Punkte in `entwurfs-referenzen`,
+`firmengruendung-ch`, `auflagebereinigung`, `claude-code` durchgesehen — durchweg als Raphaels
+Einzelentscheid oder externe Rueckmeldung (Notarofferte, Fachplaner-Antwort, Behoerden-Rueckfrage)
+markiert, nicht als recherchierbare Luecke. Prioritaet 6: alle 19 KBs tragen einen Health-Check
+vom 01.09., kein Alters-Unterschied, Re-Audit waere Doppelarbeit ohne Delta.
+
+**Neu gegenueber gestern:** alle drei frueher „freien" Trainingsziele sind jetzt gleichzeitig
+gesaettigt — die Nachtschicht-Anweisung (Prioritaet 4) braucht einen aktualisierten Verweis auf
+freie Ziele, sobald neues Rohmaterial in einer dieser KBs liegt oder eine andere KB ein eigenes
+`training/PROGRAMM.md` bekommt. Zweiter Nullbefund in Folge (23:3x gestern, jetzt 02:30) — nach
+Rule `auto-verbesserungen` 260830 ein legitimer, gemessener Leerlauf-Befund, kein Fehlschlag:
+beide Laeufe endeten mit vollstaendiger Selbstauskunft, nicht mit stillem Abbruch.
+
+Kein Edit an geteilten Inhalten ausser diesem Journal-Eintrag. Budget rund 2.1 von 5 USD
+(vorwiegend Reconnaissance ueber alle sechs Prioritaeten), Zyklus sauber beendet.
