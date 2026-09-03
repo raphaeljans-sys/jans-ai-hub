@@ -2,6 +2,32 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-03 — Synergie-Lauf 27 (Tagestakt)
+
+Delta-Basis 02.09.2026 17:10, Fenster 23,8 h, 112 Commits, HEAD `a2767315e`. Uhr- und
+Lueckenprobe bestanden. Strukturelles Delta: 0 neue Bausteine, **3 geaenderte Rules**
+(`anrede-kontakte.md` 1/1 und `jans-dna-facetten.md` 13/13 aus `cc4367efe`,
+`auto-verbesserungen.md` 15/0 aus `48adc3c0f`) — Frueh-Ausstieg griff nicht.
+
+**Zwei neue Befunde, beide aus den geaenderten importierten Rules.** **SYN-70:** der neue
+Spiegelfall in Rule 260807 nennt `wege-und-vollmachten` als «gleiche Familie», waehrend
+`connectors/WEGE.md` 0 Treffer auf ein Wiedervorlage-Kriterium hat und seine Sackgassen-Tabelle
+strukturelle und zustandsabhaengige Faelle unter der kategorischen Zeile «muss nicht nochmals
+probiert werden» mischt (Prototyp: «Mini seit drei Tagen offline», seit dem 24.08. ueberholt).
+⚠-Absatz mit der Klassentrennung gesetzt, Grundsatz 3 ausdruecklich bestaetigt (+25/0).
+**SYN-71:** die importierte Klausel «Gewicht des Anliegens» ist am Du-Kontakt formuliert und
+wurde nachweislich als Ausschluss fuers Sie-Register gelesen (`jans-dna-facetten.md`, unter
+Berufung auf ebendiese Rule); der Fidelity-Review vom 03.09. hat die Lesart widerlegt und den
+Beleg in dieselbe Rule-Datei gelegt (Hofer-Zeile, drei Sie-Stufen aus eigener Hand), ohne den
+Klauseltext zu beruehren. ⚠-Vermerk gesetzt, Klauselwortlaut unangetastet (+16/0) — die Aufnahme
+in den Regeltext ist Raphaels Entscheid.
+
+Zeilenbilanzen beider 1/1- und 13/13-Aenderungen geprueft und harmlos (Verdichtungen und
+Praezisierungen, keine Substanzverluste) — fuenfter Lauf in Folge mit diesem Ergebnis.
+Register 1350 → 1403 Zeilen (69 → 71 Tabellenzeilen), 0 entfernte Zeilen in allen drei
+geschriebenen Dateien. Selbstbeleg zu SYN-67 im Laufbericht festgehalten. Keine Mail.
+Laufbericht: `outputs/2026-09-03_synergie-lauf-27.md`.
+
 ## 2026-09-02 (Run 51) — die Erstpruefung von 411 unsichtbar gewesenen Artikeln, und warum sie duenn ausfiel
 
 **Zuschnitt:** 6 Melder (`model: sonnet`) + 7 adversariale Verifikatoren + Hauptkontext-Nachmessung.

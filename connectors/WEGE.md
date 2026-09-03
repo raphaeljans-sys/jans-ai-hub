@@ -428,6 +428,31 @@ von Hand verworfen werden.
 
 Wer hier steht, muss nicht nochmals probiert werden.
 
+⚠ **Zwei Klassen, ein Satz — Unterscheidung nachgetragen 03.09.2026 (Synergie-Lauf 27, SYN-70).**
+Der Satz darüber gilt uneingeschränkt für die **strukturelle** Sackgasse: sie scheitert an etwas,
+das sich von selbst nicht ändert (SPO-Management-Shell ist Windows-only, `git` über den SMB-Mount
+hängt, die Selfcommit-Logdatei ist nicht UTF-8, zsh rechnet in doppelten Anführungszeichen).
+Daneben steht in derselben Tabelle die **zustandsabhängige** Sackgasse: sie scheitert an einem
+Zustand, der vergehen kann — an einer Version (`m365 spo tenant setting list`, «existiert nicht
+**in v11.5.0**»), an einem Index (`mdfind` über `~/Library/Mail`, «im Zustand ‹unknown indexing
+state›»), an einem Sync-Stand (der Apple-Mail-`whose`-Filter greift «auf **frisch**
+synchronisierten Nachrichten» nicht), an einer fehlenden Berechtigung (Graph `403`, weil die
+App-Registrierung das Recht nicht trägt) oder an einer Station, die gerade nicht da ist («Mini
+**seit drei Tagen** offline», Abschnitt Stationen). Solche Zeilen sind Momentaufnahmen und dürfen
+nicht als Dauerzustand gelesen werden.
+
+**Wer eine zustandsabhängige Sackgasse einträgt, nennt darum, woran man ihr Ende erkennt**, und
+misst sie bei Gelegenheit billig gegen, statt sie fortzuschreiben. Die Regel dahinter steht in
+`rules/auto-verbesserungen.md` 260807 (Spiegelfall, ergänzt 03.09.2026): «**Wer einen Weg nicht
+mehr versucht, erfährt nie, dass er wieder offen ist.**» Belegt an der PATH-Probe des
+Vollgas-Radars — am 29.08. als «gewedgtes Binary» festgeschrieben, danach elf Läufe lang nicht
+mehr versucht, am 03.09. in 13 Sekunden mit rc=0 beantwortet, bei unverändertem Binary und
+unverändertem Symlink.
+
+**Grundsatz 3 bleibt unberührt.** Dieselbe Sackgasse zweimal voll zu laufen ist weiterhin der
+teuerste vermeidbare Fehler; die Gegenmessung ist die **billige** Probe von Sekunden — der
+Testbefehl der Zeile —, nicht der zweite volle Anlauf.
+
 | Datum | Was versucht | Warum es nicht geht |
 |---|---|---|
 | 09.08. | `Get-Command PnP.PowerShell` nach einem Cmdlet für den Gastablauf | Es gibt keines. Der Gastablauf ist über PnP nicht erreichbar. |

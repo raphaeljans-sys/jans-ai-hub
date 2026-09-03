@@ -33,6 +33,22 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
   «Geschätzter Besnik» + direkten FG-Block zeigt. Die Klausel heilt alle Zeilen zugleich; die
   Einzelnotizen bleiben als Routine-Default gültig und müssen dafür nicht angepasst werden.
 
+  ⚠ **Reichweite der Klausel — Vermerk 03.09.2026 (Synergie-Lauf 27, SYN-71); Wortlaut oben
+  unangetastet.** Die Klausel ist am **Du-Kontakt und am Vornamen** formuliert («auch beim sonst
+  lockersten Du-Kontakt»), und alle drei Belege sind Du-Kontakte. Bis zum 03.09.2026 wurde sie
+  deshalb als **Ausschluss** für das Sie-Register gelesen: `rules/jans-dna-facetten.md` hielt
+  unter ausdrücklicher Berufung auf diese Rule fest, das Gewicht hebe die Stufe «bei
+  **Du-Kontakten und Behörden** (Rule `anrede-kontakte`), **nicht** bei der Privatkundin im warmen
+  Sie». **Der Fidelity-Review vom 03.09.2026 hat diese Lesart widerlegt** (Commit `cc4367efe`):
+  die Privatbauherrin trägt alle drei Sie-Stufen — «Guten Tag» / «Sehr geehrte» / «Geschätzte Frau
+  \<Nachname\>,» —, und es hebt das Gewicht des **Inhalts**, nicht der Verteiler. Der Beleg steht
+  seit demselben Commit in dieser Datei, in der Zeile **Undine Hofer**: dieselbe Person, dieselbe
+  Rolle, über drei Sie-Stufen zwischen dem 01.12.2025 und dem 08.01.2026, alle aus Raphaels
+  eigener Hand. **Praktische Folge bis zum Entscheid Raphaels:** die Klausel auch im Sie-Register
+  anwenden («Geschätzte Frau \<Nachname\>» bei Gewicht) und das Du-Beispiel im Wortlaut oben als
+  A-fortiori-Fall lesen, nicht als Grenze. Ob die Erweiterung in den Klauseltext selbst gehört,
+  ändert dieser Lauf nicht.
+
 - **Ein persoenliches Treffen kann das Register heben (belegt, Bestaetigung ausstehend).**
   Zwei unabhaengige Belege aus Raphaels eigener Hand: der Sanitaer-Fachplaner wird am 18.08.2026
   im Thread durchgehend im Sie angesprochen und am 20.08.2026, **nach der Koordinationssitzung
