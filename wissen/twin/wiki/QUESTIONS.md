@@ -3,6 +3,29 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+> **BEFUND 260903 (Hub-Chef, zweiter Beleg) — das Gate meldet Belegtes als unbelegt, wenn ihm die
+> Quelle nur paraphrasiert vorliegt.** Im Fidelity-Lauf über den Entwurf an S. Tschopp (2414 Thalwil,
+> SBB-Näherbaurecht) hat `twin-chef` vier Sachangaben als unbelegt zurückgemeldet. **Drei davon sind
+> belegt, zwei sogar wörtlich:** «das gegengezeichnete Exemplar kommt danach zu den Akten» steht
+> wortgleich in T. Wiedmers Mail vom 20.07.2026; «Entwurf von Mitte Juli» ist S. Tschopps eigene
+> Formulierung vom 28.08.2026; «zusätzliche Vereinbarung» nennt Wiedmer am 10.07.2026 so. Der
+> nachmeldende `twin-denker` stufte dieselben Stellen unabhängig als «Erfindungs-Drift» ein, teils
+> auf höchster Stufe. **Nur «bis Montag» war wirklich keine Faktenaussage**, sondern eine gesetzte
+> Terminzusage.
+> **Das ist derselbe Befund wie am 02.09.2026**, wo zwei korrekt belegte Angaben (Ferienmeldung
+> 27.08. 09:36, Bitte um Kontakt zu F. Stählin 24.08. 17:02) zurückgemeldet und nach Verifikation am
+> Original wiederhergestellt wurden. Zweimal in zwei Tagen, beide Male am Original widerlegt.
+> **Die Ursache ist nicht das Urteil des Gates, sondern sein Input:** es bekommt eine
+> zusammengefasste Faktenbasis und misst den Entwurf gegen diese Zusammenfassung statt gegen die
+> Quelle. Was der Aufrufer beim Zusammenfassen weglässt, wird zur gemeldeten Erfindung. Das Gate
+> handelt dabei **richtig** — es meldet, statt zu streichen, genau wie beauftragt.
+> **Vorschlag zur Prüfung (Entscheid Raphael, nicht selbst umgesetzt):** dem Gate die Belegstellen
+> im **Wortlaut** mitgeben statt paraphrasiert, oder ihm den Lesezugriff auf den Quell-Thread
+> eröffnen. Solange das nicht geschieht, bleibt die Regel bestehen, dass der Aufrufer jede
+> Rücknahme am Original verifiziert, bevor er sie übernimmt. **Facette:** Fachsignatur / Verfahren.
+> **Status:** offen, Entscheid Raphael. Beleg: `logbuch/LOGBUCH.md`, Einträge Hub-Chef 02.09. und
+> 03.09.2026.
+
 > **ESKALIERT an Raphael — Wissens-Chef Run 17, 27.07.2026.** Der Cross-Lauf hat den Widerspruch
 > zwischen `wiki/beziehungsregister.md` und der **immer aktiven Rule** `rules/anrede-kontakte.md`
 > adversarial verifiziert und **bestätigt**: die Kontaktliste führt Besnik starr als «nackter
