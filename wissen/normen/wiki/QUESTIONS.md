@@ -1,5 +1,84 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 79 (04.09.2026) — N64-5.1 geschlossen, ein Statusabstieg, eine Bestandslücke
+
+**N64-5.1 GESCHLOSSEN.** Run 64 hatte die Spezifität der Stichprobenstufe als ungemessen
+ausgewiesen und als Hindernis genannt, dass «ein sauberes Destillat im Bestand nicht bekannt»
+sei. Run 66 hat einen Tag spaeter genau einen geschaffen
+(`vkf-allgemein-anerkannte-bauprodukte-2017`, beide Richtungen auf allen 12 Seiten, 0 Befunde).
+Auf ihm ist die Messung jetzt kontrolliert gefahren: **dotierte Variante 3 von 3 gepflanzten
+Auslassungen erkannt · undotierte Variante 0 Kern-Falschbefunde.** Damit trägt ein Nullbefund
+der Stichprobe erstmals die Aussage «Status bleibt», und Stufe 2 der Dreiteilung für die 308
+Kandidaten ist belastbar. Anlage: `training/n79-spezifitaet-kalibrierung-260904.md`.
+Die Reihenfolge der Kandidaten bleibt unverändert Raphaels Entscheid.
+
+### N79-1 — Vier Destillate erklärten vorhandene Destillate für nicht vorhanden
+Beim Bestandsabgleich dieses Laufs (eine Prüfrichtung, die in dieser Reihe nie gefahren wurde:
+**Destillat-Aussagen ueber den eigenen Bestand gegen den Bestand halten**) zeigten sich vier
+Aussagen, die **schon bei der Niederschrift falsch waren** — nicht bloss veraltet:
+
+| Datei | behauptete fehlend | liegt im Bestand seit |
+|---|---|---|
+| `sia-118-262-2004` | SIA 118/263 | `sia-118-263-2004`, **derselbe Tag** 13.08.2026 |
+| `sia-118-263-2004` | SIA 118/262 | `sia-118-262-2004`, **derselbe Tag** 13.08.2026 |
+| `sia-118-248-2006` | SIA 248 | `sia-248-2006`, 13.07.2026 (ein Monat frueher) |
+| `sia-118-248-2006` | SIA 493 | `sia-493-1997`, 04.08.2026 |
+
+Die ersten beiden erklärten **einander** wechselseitig für nicht vorhanden. Alle vier
+entstanden am **13.08.2026**, also in einem Lauf mit parallelen Agenten, von denen keiner den
+Bestand prüfte und niemand am Ende abglich. Alle vier sind inline berichtigt (Methodik-Pflicht 9).
+Ein fuenfter Fall (`sia-118-267-2004` zu SIA 267) ist mit «nicht im Detail destilliert»
+zurückhaltend formuliert und bleibt zutreffend; dort ist nur der Querverweis ergänzt.
+
+**Kein neuer Aufsichtsmechanismus vorgeschlagen** — der Befund ist eine Prüfrichtung, kein Loop.
+
+### N79-2 — 28 Destillate verweisen auf ein Verzeichnis, das die KB führt, ohne es zu verlinken
+Dieselbe Familie, groessere Zahl: **28 Destillate** nennen das TKB-VKF-Verzeichnis «Weitere
+Bestimmungen», **keines** verlinkt [[vkf-verz-40-15-weitere-bestimmungen]] (S. 1-22 destilliert)
+oder [[vkf-verz-40-15-fassung-2025-delta]]. Mehrere formulieren ausdrücklich «nicht Teil dieses
+Destillats» oder «bei Bedarf separat beschaffen» — sie schicken den Leser hinaus nach etwas, das
+im Haus liegt. In den beiden diesem Lauf zugewiesenen Destillaten ist der Verweis gesetzt; die
+übrigen 26 sind **nicht** angefasst.
+⚠ **Vorgelegt:** Lohnt sich ein einmaliger Verlinkungs-Sweep ueber die 26 restlichen, oder wird
+der Verweis nur noch beim jeweils nächsten Anfassen nachgezogen? Der Sweep ist mechanisch und
+umkehrbar, berührt aber 26 Dateien auf einmal. **Nicht selbständig entschieden.**
+⚠ Zu beachten: das Bestands-Destillat ist `superseded` (Fassung 01.01.2015), **geltend ist
+11.06.2025** — ein Verweis darauf muss diesen Vorbehalt mittragen, sonst ersetzt er eine
+Beschaffungs-Bringschuld durch eine Fassungs-Falle.
+
+### N79-3 — `vkf-brl-15-15` von `established (verifiziert)` auf `speculative` herabgestuft
+Die Refuter-Runde Run 7 (14.07.2026) hatte die Quelle als bestätigt ausgewiesen. Die erstmals
+gefahrene Abdeckungsrichtung fand **27 Kern- und 6 Nebenluecken** — darunter zwei fehlende
+Nutzungszeilen in **jeder** der drei Feuerwiderstands-Tabellen, sieben unerschlossene Fussnoten,
+vier Ziffern ohne eigenen Inhalt (3.7.10, 3.7.12, 3.7.14, 3.7.15), die vollständig fehlende
+Ziff. 5 und die Ersatzmassnahmen-Matrix des Anhangs. **Dazu eine falsche Angabe in der geltenden
+Fassung:** Ziff. 3.1.2 Abs. 3 trug im Kernziffern-Teil den überholten Wortlaut der Fassung 2015
+(«Nutzungseinheiten» statt «Brandabschnitten») und liess «oder Brandbelastung» weg — während der
+Revisions-Abschnitt derselben Datei die Änderung korrekt dokumentierte. Vom Hauptprozess an
+**beiden** Originalen belegt.
+
+**Das ist der dritte Fall nach `sia-416-1-2007` (Run 54) und `sia-118-1991` (Run 62) — und der
+erste, in dem die Abdeckungsrichtung zusaetzlich einen falschen Wert gefunden hat.** Die bisherige
+Regelmaessigkeit «die Abdeckungsrichtung findet Lücken, keine falschen Werte» gilt damit nicht
+mehr uneingeschraenkt.
+
+### N79-4 — Eine Blindheits-Sperre für einen Agenten muss mechanisch sein, nicht angewiesen
+Der erste Anlauf der Spezifitäts-Messung ist an der Sperre gescheitert und hat es selbst
+offengelegt: das Read-Tool liefert eine Datei ohne `limit` vollständig, also stand der
+ausdrücklich gesperrte Prüfstand mit «0 Befunde» im Kontext des Agenten. Der Lauf wurde
+verworfen und mit einer **mechanisch gekürzten Kopie** wiederholt. Gleiche Familie wie Run 50
+(«eine Pflicht ohne Kontrollpunkt im Lauf ist eine Empfehlung»). Vermerk für kuenftige Laeufe,
+keine Frage.
+
+### N79-5 — Zwei Agenten, dieselbe Lücke, unterschiedliche Präzision
+Die Ziffern 3.7.14/3.7.15 wurden von einem Agenten als «tauchen an keiner Stelle auf» gemeldet;
+die Gegenprobe des Hauptprozesses ergab **je einen Treffer** (als Verweisziel in Ziff. 3.7.2).
+Ein zweiter Agent hatte es unabhaengig korrekt als «nur als Verweisziel erwaehnt» formuliert.
+Der Sachbefund (kein eigener Inhalt) steht, die schaerfere Formulierung war falsch —
+Methodik-Pflicht 7 hat gegriffen. Für 3.7.10 und 3.7.12 traf «keine Stelle» dagegen zu (0 Treffer),
+und dort bestätigten sich die beiden Agenten aus entgegengesetzten Segmenten gegenseitig.
+
+
 ## Normen-Nacht Run 78 (03.09.2026) — N77-1 geschlossen, ein Grundsatzentscheid vorgelegt
 
 **N77-1 GESCHLOSSEN.** Der Fläche/Volumen-Vergleich ist auf **allen vier** Kategorienpaaren
@@ -188,7 +267,7 @@ per `textutil -convert txt` bzw. Ordner-Listing geprüft. Ergebnis je Datei:
 2. `1001-11_2018_d.docx` (SIA1001.11_BIM_Zusatzvereinbarung_BIM/) — Word-Ausfüllvorlage;
    PDF-Pendant `1001-11-K_2018_d.pdf` im selben Ordner. Bereits `established`:
    `destillate/sia-1001-11-2018.md` (Run 15, `destillate/INDEX.md` Z. 310). **Kein Bedarf.**
-3. `1001-2_2020_d.docx` (SIA1001.2_2020_Gesellschaftsvertrag_fuer_Planergemeinschaften/) —
+3. `1001-2_2020_d.docx` (SIA1001.2_2020_Gesellschaftsvertrag_für_Planergemeinschaften/) —
    Word-Ausfüllvorlage; PDF-Pendant `1001-2_2020_d.pdf` im selben Ordner. Bereits `established`:
    `destillate/sia-1001-2-2020.md` (Run 15, `destillate/INDEX.md` Z. 308). **Kein Bedarf.**
    (Ergänzend, nicht Teil der 7er-Liste: SIA 1001/3 ist über denselben Run 15 ebenfalls
@@ -207,7 +286,7 @@ per `textutil -convert txt` bzw. Ordner-Listing geprüft. Ergebnis je Datei:
    (`https://www.sia.ch/de/dienstleistungen/normen/vertraege/`), keinen Fliesstext. Keine
    Destillationsgrundlage.
 6. `contrat d'architecte sine nomine.doc` (siebte, zunächst unklare Datei, jetzt lokalisiert:
-   `SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/_SIA1002_2003_Vertag_fuer_Architekturleistungen/f/`)
+   `SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/_SIA1002_2003_Vertag_für_Architekturleistungen/f/`)
    — liegt in einem `_Archiv`-Unterordner der bereits 2020 abgelösten Vorgängernorm SIA
    1002:2003, ist französischsprachig und ein Vertragsformular, kein Normtext. Archiviert +
    fremdsprachig + Formular einer abgelösten Ausgabe: **kein Destillationsbedarf.**
@@ -228,11 +307,11 @@ Datei. Exakte Pfade (Site `/sites/PL`, Drive `02 Recht_Norm`, Ordner
 `02_Normen/SIA_Norm/SIA_Vertraege/`, Stand PL-02-Zählung 23.08.2026):
 
 `00_Vertag_Knowhow/230529_Vertragsunterschiede.docx`, `00_Vertag_Knowhow/Link_Vertag.docx`,
-`SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/_SIA1002_2003_Vertag_fuer_Architekturleistungen/f/
+`SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/_SIA1002_2003_Vertag_für_Architekturleistungen/f/
 contrat d'architecte sine nomine.doc`,
 `SIA1001.1_2020_Planer_Bauleitervertrag/1001-1_2020_d.docx`,
 `SIA1001.11_BIM_Zusatzvereinbarung_BIM/1001-11_2018_d.docx`,
-`SIA1001.2_2020_Gesellschaftsvertrag_fuer_Planergemeinschaften/1001-2_2020_d.docx` — plus eine
+`SIA1001.2_2020_Gesellschaftsvertrag_für_Planergemeinschaften/1001-2_2020_d.docx` — plus eine
 siebte Datei aus demselben Ordnerbaum, die im Rohbestand nicht mehr eindeutig von einer bereits
 gezählten Zeile zu unterscheiden war (Zählung ergab 7 docx/doc unter `SIA_Vertraege/`, hier sind
 6 eindeutig benannt). Mehrere tragen ein gleichnamiges `.pdf` daneben (z.B. `1001-1_2020_d.pdf`)
@@ -783,7 +862,7 @@ destilliert in `destillate/vkf-teilrevision-2026-pyrotechnik.md`.
 > BRL 13-15 Ziff. 2.1 Abs. 2, S. 5). Klassiert wird je nach Produktkategorie nach SN EN
 > 13501-1:2009 (Bauprodukte, Bodenbeläge, Rohrisolierungen, Ziff. 2.4.1, S. 8), SN EN
 > 13501-5:2009 (Bedachungen, Ziff. 2.4.2, S. 9) oder SN EN 13501-6:2014 (Kabel, Ziff. 2.4.3,
-> S. 10-11). Praktische Folge fuer die Ursprungsfrage: eine Anforderung «RF3» ohne Zusatz
+> S. 10-11). Praktische Folge für die Ursprungsfrage: eine Anforderung «RF3» ohne Zusatz
 > lässt nur den cr-freien Teilbereich der RF3-Zeile zu; «RF3 (cr)» schliesst zusätzlich den
 > cr-markierten Teilbereich ein, seit der Fassung 2017 einschliesslich Klasse E/E-d2 (2015 nur
 > RF4 (cr)). Ein Produkt der Klasse E/E-d2 erfüllt daher **nie** eine blanke «RF3»-Anforderung.
@@ -970,7 +1049,7 @@ Cheminée-Anforderungen überführt wurden.
 > BRL-24-15-Spur.** Die VKF-Newsseite selbst dokumentiert den Rückzugsgrund: die
 > News-Kachel «Rückzug VKF-Brandschutzerläuterung 103-15 Cheminées» (datiert 8. September
 > 2025) auf `bsvonline.ch/de/aktuell`, verlinkt auf
-> `bsvonline.ch/de/aktuell/erlaeuterung-103-15-zurueckgezogen` — per `curl -sL
+> `bsvonline.ch/de/aktuell/erläuterung-103-15-zurueckgezogen` — per `curl -sL
 > -A "Mozilla/5.0"` abgerufen und gegen Tag-Strip gelesen (kein WebFetch nötig, die
 > Meldungsseite ist serverseitig gerendert). Wortlaut: **«Mit der Veröffentlichung des 2024
 > überarbeiteten Stand der Technik Papiers Teil B: Ofen- und Cheminéebau des Verbandes
@@ -1336,8 +1415,8 @@ diese vorliegt:
 
 | KB | Datei |
 |---|---|
-| `energie` | `wiki/u-werte-grenzwerte-ch.md`; `destillate/gebaeudehuellziffer-ebf-flaechendefinition.md`, `enfk-en-02-waermeschutz-2013.md`, `enfk-fensterblatt.md`, `systemnachweis-kurs-zh-2009.md`, `therapiebad-hallenbad-energie-pflegeheim.md` |
-| `immobilienbewertung` | `wiki/flaechendefinitionen-sia.md` |
+| `energie` | `wiki/u-werte-grenzwerte-ch.md`; `destillate/gebaeudehuellziffer-ebf-flächendefinition.md`, `enfk-en-02-waermeschutz-2013.md`, `enfk-fensterblatt.md`, `systemnachweis-kurs-zh-2009.md`, `therapiebad-hallenbad-energie-pflegeheim.md` |
+| `immobilienbewertung` | `wiki/flächendefinitionen-sia.md` |
 | `planungsgrundlagen` | `wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` |
 | `baurecht` | `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md` |
 
@@ -1406,7 +1485,7 @@ als «(informativ)» überschrieben** — das war im Destillat nicht ausgewiesen
 normative Verbindlichkeit erheblich. Zwei Abgrenzungen sind neu benannt, weil sie den
 Zweifelsfall entscheiden: Küchen und Sanitärräume sind **je zweimal** geführt (Wohnung → HNF1,
 gewerblich bzw. allgemein → HNF3 bzw. NNF), und **Labors gehören zu HNF3, nicht HNF6**. Damit
-kann `flaechen-nachweis` die Zuordnung aus der KB beziehen statt aus dem Original.
+kann `flächen-nachweis` die Zuordnung aus der KB beziehen statt aus dem Original.
 
 **N56-1 — Der Run-56-Zuwachs auf S. 4, 6 und 21 ist selbst wieder unverifiziert.** Genau die
 drei Seiten, die einen Kernbefund erbrachten, tragen jetzt neu geschriebenen Text, den niemand
@@ -1438,7 +1517,7 @@ fehlen im Destillat.** Run 54 vermerkte, der Anhang führe «zu jeder HNF-Katego
 Raumlisten», buchstabierte aber nur HNF6 aus. Der Vermerk las sich wie eine geschlossene
 Lücke. Belegt fehlen u.a. die FF-Positionen «Installationsschächte und -kanäle». Der Anhang ist
 informativ, aber er ist die einzige Zuordnungshilfe zwischen Raumbezeichnung und
-SIA-416-Flächenkategorie und wird von `flaechen-nachweis` gebraucht.
+SIA-416-Flächenkategorie und wird von `flächen-nachweis` gebraucht.
 
 **N55-3 — Grafische Kodierung der Tabellen 3 und 5 (S. 30 und 32) ohne Legende.** Beide
 Tabellen setzen einen Teil der Zellen **grau** und umranden zwei Ergebniszellen **fett**. Auf
@@ -1887,7 +1966,7 @@ Ausgabe steht. Dieselbe Frage stellt sich für die übrigen 16 VL-Dateien im xal
 - **N48-2 — SIA 112/1: woher stammt der Registerstand «2005»?** Die Norm 112/1:2017 nennt an zwei
   unabhaengigen Stellen (Titelblatt S. 1, Genehmigungsblock S. 52) als ersetzte Ausgabe die
   **Empfehlung** SIA 112/1, **Ausgabe 2004** — beide Stellen vom Hauptprozess am Original gelesen.
-  Das REGISTER fuehrte 2005. Damit ist die ersetzte Ausgabe geklaert (2004), **nicht** aber die
+  Das REGISTER führte 2005. Damit ist die ersetzte Ausgabe geklaert (2004), **nicht** aber die
   Herkunft der 2005: Druck-/Vertriebsjahr der Empfehlung, Eintrag im Gesamtverzeichnis SIA, oder
   Registerfehler? Zu klaeren am `Gesamtverzeichnis SIA.pdf` bzw. an `ersetzte_normen.pdf`, die
   beide im Bestand liegen. Kein Handlungsdruck, aber eine offene Kette.
@@ -1930,23 +2009,23 @@ Ausgabe steht. Dieselbe Frage stellt sich für die übrigen 16 VL-Dateien im xal
   Die Matrix ordnet ueber sechs Seiten jeder Leistung Phase, Akteur (E/L/P) und raeumlichen Fokus
   zu. Zeilentexte, Blocktitel und Kriterien-Rueckverweise sind zuverlaessig aufgenommen; die
   Kreuzfelder selbst sind bei sehr kleiner Schrift **visuell** gelesen und **nicht** rechnerisch
-  gemessen — beide Refuter haben diese Luecke bestaetigt und ebenfalls nicht geschlossen. Genau
+  gemessen — beide Refuter haben diese Lücke bestätigt und ebenfalls nicht geschlossen. Genau
   diese Methode (Blob-Detektion + Helligkeitsmessung je Zelle) hat bei Tabelle 1 derselben Norm
   105 von 105 Zellen belegt. **Auftrag:** die Methode auf die Anhang-D-Matrix anwenden. Das ist
   der lehrbuchmaessige Fall der Methodik-Pflicht 6: eine Methode ist auf einen Teil der Quelle
   angewandt und auf einen anderen nicht.
 
-- **N48-4 — SIA 118/265:2018 beschaffen (Bring-Schuld Raphael).** Der Bestand fuehrt die Ausgabe
+- **N48-4 — SIA 118/265:2018 beschaffen (Bring-Schuld Raphael).** Der Bestand führt die Ausgabe
   **2004**; eine Web-Recherche am SIA-Shop (08.08.2026, durch einen Destillier-Agenten) ergab, dass
   diese per 31.03.2018 durch **SIA 118/265:2018** abgeloest wurde. **Diese Statusaussage ist NICHT
   am Original verifiziert** — die Ausgabe 2018 liegt nicht im Haus. Gemaess Methodik-Pflicht 10 ist
   sie deshalb als «die KB hatte 2004 (Stand ihres Stichtags 2013), neu ist 2018» zu fuehren und
-  nicht als Registerfehler. Fuer laufende Holzbau-Werkvertraege und neue Ausschreibungen ist die
-  2018er Fassung zu beschaffen; bis dahin traegt das Destillat einen Warnhinweis zuoberst.
+  nicht als Registerfehler. Für laufende Holzbau-Werkvertraege und neue Ausschreibungen ist die
+  2018er Fassung zu beschaffen; bis dahin trägt das Destillat einen Warnhinweis zuoberst.
 
 - **N48-5 — Nachfolge-Status von vier Altnormen am Original nicht erkennbar.** Bei
   `sia-162-6-1999` (Stahlfaserbeton, Empfehlung), `sia-370-21-1987`, `sia-370-24-1979`
-  (Gueter-Aufzuege) und `sia-380-3-1991` (Waermedaemmung Leitungen) laesst sich am Dokument selbst
+  (Gueter-Aufzuege) und `sia-380-3-1991` (Wärmedämmung Leitungen) laesst sich am Dokument selbst
   nicht feststellen, ob und wodurch sie abgeloest sind. Die Destillate behaupten deshalb weder
   Gueltigkeit noch Ablösung. Zu klaeren am Gesamtverzeichnis SIA bzw. am Shop — mit derselben
   Vorsicht wie N48-4: eine Shop-Auskunft ist eine Statusaussage von aussen, kein Normtext.
@@ -1955,35 +2034,35 @@ Ausgabe steht. Dieselbe Frage stellt sich für die übrigen 16 VL-Dateien im xal
   Titelblatt S. 1 nennt als ersetzte Norm SIA 192 in der «Ausgabe 1996», der Genehmigungsblock
   S. 98 nennt «1998» — beide Stellen gerendert verifiziert, der Widerspruch steht **im Original**.
   (b) `sia-118-265-2004` Ziff. 8.2.2.2 verweist auf eine «Ziffer 8.1.3.2», die im ganzen Normtext
-  nicht existiert (vollstaendig geprueft), vermutlich Redaktionsfehler der Norm. Beide sind im
+  nicht existiert (vollständig geprüft), vermutlich Redaktionsfehler der Norm. Beide sind im
   jeweiligen Destillat als Quellfehler markiert. Kein Handlungsbedarf, aber beim Zitieren zu kennen.
 
 - **N48-7 — SIA 382/2:2011 verweist normativ auf SIA 382/1:2007, im Bestand liegt 382/1:2014.**
   Das Berechnungsverfahren der 382/2 ist auf die 2007er Fassung der Anforderungsnorm kalibriert.
   Ob die 2014er Fassung Groessen geaendert hat, auf die 382/2 rechnerisch zugreift, ist **nicht**
-  geprueft. Relevant fuer `energie` und die KB `wissen/energie`, sobald eine Klimaanlage
+  geprüft. Relevant für `energie` und die KB `wissen/energie`, sobald eine Klimaanlage
   nachzurechnen ist.
   **Nachtrag 13.08.2026 (Wissens-Chef Run 29):** nicht geloescht, aber praktisch entwertet — die
-  ganze SIA 382/2 ist per 31.10.2022 archiviert (siehe N29-1). Die Frage bleibt fuer **Altvertraege**
-  relevant, fuer Neuprojekte ist sie gegenstandslos.
+  ganze SIA 382/2 ist per 31.10.2022 archiviert (siehe N29-1). Die Frage bleibt für **Altvertraege**
+  relevant, für Neuprojekte ist sie gegenstandslos.
 
 ## Wissens-Chef Run 29 (13.08.2026) — Cross-KB-Nachzug
 
-- **N29-1 — SIA 380/2:2022 liegt nicht im Bestand (neue, echte Luecke).** Mit der Archivierung der
-  SIA 382/2:2011 per 31.10.2022 ist **SIA 380/2:2022** die geltende Norm fuer den Leistungs- und
-  Energiebedarf klimatisierter Gebaeude (und zugleich Nachfolgerin von SIA 2044:2019). Der Volltext
-  ist im Hub **nicht vorhanden und ungelesen** (Kostenschranke). Damit fuehrt die KB fuer dieses
+- **N29-1 — SIA 380/2:2022 liegt nicht im Bestand (neue, echte Lücke).** Mit der Archivierung der
+  SIA 382/2:2011 per 31.10.2022 ist **SIA 380/2:2022** die geltende Norm für den Leistungs- und
+  Energiebedarf klimatisierter Gebäude (und zugleich Nachfolgerin von SIA 2044:2019). Der Volltext
+  ist im Hub **nicht vorhanden und ungelesen** (Kostenschranke). Damit führt die KB für dieses
   Thema nur noch abgeloesten Bestand. Solange das so ist, gilt: aus `sia-382-2-2011` und
-  `sia-2044` darf **keine Aussage fuer ein Neuprojekt** gezogen werden, ohne den Ablöse-Vorbehalt
+  `sia-2044` darf **keine Aussage für ein Neuprojekt** gezogen werden, ohne den Ablöse-Vorbehalt
   mitzuführen. Beschaffungs-Bring-Schuld. Beleg: shop.sia.ch, Produktseite SIA 380/2 (2022),
   Vorgaenger-Block, selbst abgerufen 13.08.2026.
 
-- **N29-2 — REGISTER.md Zeile 256 fuehrt SIA 382/1 noch mit «2007», obwohl die KB 2014 UND 2025
-  kennt.** Das Destillat `sia-382-1-2014.md` traegt seit dem 26.07.2026 korrekt das Feld
-  `ausgabe_ueberholt` (ersetzt durch SIA 382/1:2025 seit 01.02.2025) und REGISTER Zeile 472 fuehrt
+- **N29-2 — REGISTER.md Zeile 256 führt SIA 382/1 noch mit «2007», obwohl die KB 2014 UND 2025
+  kennt.** Das Destillat `sia-382-1-2014.md` trägt seit dem 26.07.2026 korrekt das Feld
+  `ausgabe_überholt` (ersetzt durch SIA 382/1:2025 seit 01.02.2025) und REGISTER Zeile 472 führt
   den neueren Stand. Die Zeile 256 liegt jedoch im **Stichtags-Block 25.02.2013** und ist per
-  Stichtag richtig — sie darf nicht ueberschrieben, sondern nur in der Bemerkungsspalte ergaenzt
-  werden (viertes Struktur-Muster, Run 25). Eigener Befund, noch nicht ausgefuehrt; bewusst nicht
+  Stichtag richtig — sie darf nicht ueberschrieben, sondern nur in der Bemerkungsspalte ergänzt
+  werden (viertes Struktur-Muster, Run 25). Eigener Befund, noch nicht ausgeführt; bewusst nicht
   im selben Zug erledigt, weil er einen eigenen Herausgeber-Beleg braucht.
 
   > ✅ **GESCHLOSSEN, nachgetragen 24.08.2026 (QUESTIONS-Abarbeitung).** War bereits erledigt, nur
@@ -1992,18 +2071,18 @@ Ausgabe steht. Dieselbe Frage stellt sich für die übrigen 16 VL-Dateien im xal
   > verlangte, nicht-ueberschreibende Bemerkung «⚠ Bereits an anderer Stelle belegt, hier
   > nachgeführt (23.08.2026): siehe Run-5-Zeile unten — Bestand 2014 … Nach 2013 selbst ersetzt:
   > SIA 382/1:2025, in Kraft seit 01.02.2025 …». Eigene Gegenprobe 24.08.2026: der 2013-Stichtagwert
-  > «2007» in Spalte 2 ist unveraendert stehen geblieben (nicht ueberschrieben), REGISTER Zeile 982
-  > (Run-5-Zeile) fuehrt den Stand 2014→2025 bereits seit dem 14.07.2026 konsistent dazu. Kein
+  > «2007» in Spalte 2 ist unverändert stehen geblieben (nicht ueberschrieben), REGISTER Zeile 982
+  > (Run-5-Zeile) führt den Stand 2014→2025 bereits seit dem 14.07.2026 konsistent dazu. Kein
   > eigener Herausgeber-Beleg mehr noetig, da die Bemerkung ausschliesslich auf bereits im Hub
-  > vorhandene, verifizierte Fundstellen verweist (Destillat-Frontmatter `ausgabe_ueberholt`,
+  > vorhandene, verifizierte Fundstellen verweist (Destillat-Frontmatter `ausgabe_überholt`,
   > REGISTER Zeile 982), keine neue Norm-Aussage macht. Herkunft der Korrektur: vermutlich SIA-Sweep
   > desselben Tages (23.08.2026, Fortsetzungsserie), CHANGELOG nennt diesen konkreten Edit nicht
   > namentlich — Fund ueber direkten Zeilenvergleich, nicht ueber einen Laufbericht.
 
-- **N29-3 — `status: VOLLSTAENDIG` hat im SIA-180-Destillat eine Kapitel-Luecke nicht verhindert.**
-  `destillate/sia-180-2014.md` fehlen Ziff. 2.4.1.3 (Figur 6 gilt fuer 30-70 % r.F., Kapitel
+- **N29-3 — `status: VOLLSTAENDIG` hat im SIA-180-Destillat eine Kapitel-Lücke nicht verhindert.**
+  `destillate/sia-180-2014.md` fehlen Ziff. 2.4.1.3 (Figur 6 gilt für 30-70 % r.F., Kapitel
   thermische Behaglichkeit) und Ziff. 6.4.4 (Bereich ohne aktive Be-/Entfeuchtung einzuhalten),
-  obwohl das Destillat sich als vollstaendig destilliert ausweist. Gefunden ueber Feld A des
+  obwohl das Destillat sich als vollständig destilliert ausweist. Gefunden ueber Feld A des
   Cross-KB-Laufs, als eine `energie`-Aussage gegengelesen wurde. Ergaenzen, nicht ueberschreiben.
 
   > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Original `180_2014.pdf` (14,5 MB, SN
@@ -2407,7 +2486,7 @@ Aussage weiterführt, liest ein Nutzer zuerst den Fehler — dieselbe Mechanik w
 Absturzsicherungs-Destillat aus Run 42, wo die Kurzfassung falsch und der Fliesstext richtig
 war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worden.
 
-## Run 42 (03.08.2026) — neu offen ⚠ S42-2 GESCHLOSSEN 24.08.2026 (BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 direkt geprueft: «Firsthoehe + 1,0 m» ist Kriterium a) der Maximum-Bildung, kein eigenstaendiger Wert); S42-3 GESCHLOSSEN 24.08.2026 (SWKI-Original erstmals seit NAS-Ausfall via M365-Graph-Connector erreichbar, Tab. 16 komplett gelesen: keine Schwyz-Station, Luzern/Altdorf bestaetigt und gleichwertig); N43-5 TEILWEISE GESCHLOSSEN 24.08.2026 (Rissweiten-Diagramm-Kapitel neu geschrieben, SIA-266-Zitate geprueft — Art. 4.3.4.3 im Merkblatt selbst ein Druckfehler, richtig waere 4.2.1.2/4.2.1.3; K4-K10 bleiben offen)
+## Run 42 (03.08.2026) — neu offen ⚠ S42-2 GESCHLOSSEN 24.08.2026 (BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 direkt geprüft: «Firsthöhe + 1,0 m» ist Kriterium a) der Maximum-Bildung, kein eigenständiger Wert); S42-3 GESCHLOSSEN 24.08.2026 (SWKI-Original erstmals seit NAS-Ausfall via M365-Graph-Connector erreichbar, Tab. 16 komplett gelesen: keine Schwyz-Station, Luzern/Altdorf bestätigt und gleichwertig); N43-5 TEILWEISE GESCHLOSSEN 24.08.2026 (Rissweiten-Diagramm-Kapitel neu geschrieben, SIA-266-Zitate geprüft — Art. 4.3.4.3 im Merkblatt selbst ein Druckfehler, richtig waere 4.2.1.2/4.2.1.3; K4-K10 bleiben offen)
 
 ### KL Hochbau, Sanitäre Anlagen ([[kl-hochbau-sanitaer-katalogblaetter]])
 - **K42-1 Herausgeber/Werktitel/Ausgabedatum unbekannt.** Keine der acht gelesenen Seiten
@@ -2476,28 +2555,28 @@ war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worde
 - **S42-1** Anhang D (Anwendungsbeispiele S. 81-94), Anhang E (Simulationsnachweis-Methodik
   S. 95-106) und Anhang F sind weiterhin nicht destilliert.
 - **S42-2** Tab. 7: die Spalte Q/S > 1 ist am Scan nicht zweifelsfrei aufloesbar — ist
-  «Firsthoehe + 1,0 m» ein eigenstaendiger dachtypspezifischer Wert oder Teil der
+  «Firsthöhe + 1,0 m» ein eigenständiger dachtypspezifischer Wert oder Teil der
   Maximum-Bildung? Gegen BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 zu verifizieren.
 
-  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** «Firsthoehe + 1,0 m» ist kein
-  > eigenstaendiger Wert, sondern die dachtyp-spezifische Auspraegung von Kriterium a) der
-  > Maximum-Bildung selbst. Beleg: BAFU, Umwelt-Vollzug Nr. 1318 «Mindesthoehe von Kaminen
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** «Firsthöhe + 1,0 m» ist kein
+  > eigenständiger Wert, sondern die dachtyp-spezifische Auspraegung von Kriterium a) der
+  > Maximum-Bildung selbst. Beleg: BAFU, Umwelt-Vollzug Nr. 1318 «Mindesthöhe von Kaminen
   > ueber Dach. Kamin-Empfehlungen», Erstausgabe 2013, 1. aktualisierte Auflage Dezember 2018,
   > Ziff. 5.3 Abs. 1+2 (S. 13-14), selbst heruntergeladen
-  > (`bafu.admin.ch/dam/de/sd-web/x0hJtl7AkYcm/mindesthoehe_vonkaminenueberdach.pdf`) und mit
-  > `pdftotext` geprueft: Kriterium a) verlangt «den hoechsten Gebaeudeteil (z. B. Dachfirst)
-  > um mindestens 1 m ... ueberragen» — fuer ein Schraegdach identisch mit «Firsthoehe + 1,0 m»,
+  > (`bafu.admin.ch/dam/de/sd-web/x0hJtl7AkYcm/mindesthöhe_vonkaminenueberdach.pdf`) und mit
+  > `pdftotext` geprüft: Kriterium a) verlangt «den hoechsten Gebäudeteil (z. B. Dachfirst)
+  > um mindestens 1 m ... ueberragen» — für ein Schraegdach identisch mit «Firsthöhe + 1,0 m»,
   > exakt parallel zum Normalfall Q/S ≤ 1 (Ziff. 5.2 Bst. a, 0,5 m statt 1 m). Details und
-  > vollstaendiger Formelvergleich (a/b/c) in `destillate/swki-va103-01-2017.md`, Abschnitt
+  > vollständiger Formelvergleich (a/b/c) in `destillate/swki-va103-01-2017.md`, Abschnitt
   > Fortluft. Kein Korrekturbedarf am bestehenden Destillat-Text.
-- **S42-3** Fuer den Kanton Schwyz enthaelt Tab. 16 (Anhang A) **keinen** eigenen
-  Stationseintrag; naechstgelegen sind Altdorf und Luzern. Eine Zuordnung ist nicht belegt.
+- **S42-3** Für den Kanton Schwyz enthaelt Tab. 16 (Anhang A) **keinen** eigenen
+  Stationseintrag; nächstgelegen sind Altdorf und Luzern. Eine Zuordnung ist nicht belegt.
 
   > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung), primaerquellenfest.** Original
   > erstmals seit dem NAS-Ausfall wieder erreichbar (M365-Graph-Connector, Site PL, Drive
   > `02_Recht_Norm`, `06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf`,
   > direkt via Graph-API heruntergeladen). Tab. 16 (Druckseiten 73-74, PDF-Seiten 75-76 bei
-  > Rendering-Offset +2) vollstaendig bei 300 dpi gerendert und **alle 40 Stationszeilen**
+  > Rendering-Offset +2) vollständig bei 300 dpi gerendert und **alle 40 Stationszeilen**
   > alphabetisch gelesen (Adelboden … Zürich-MeteoSchweiz): **keine** Zeile heisst «Schwyz»
   > oder nennt einen Ort im Kanton Schwyz (kein Einsiedeln, Pfäffikon SZ, Lachen, Freienbach,
   > Küssnacht). Die bereits vermutete Nachbar-Zuordnung ist damit bestätigt: **Luzern**
@@ -2510,43 +2589,43 @@ war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worde
   > Energie- und Gebäudetechnik», deren **Basis-Merkblatt 2010 weiterhin nicht im Haus ist**
   > (kostenpflichtig, Bring-Schuld, siehe `wiki/REGISTER.md` Zeile SIA 2028) — eine dort evtl.
   > genannte Auswahlmethodik bleibt offen, ändert aber am praktischen Ergebnis (Luzern/Altdorf,
-  > beide gleichwertig) nichts. `destillate/swki-va103-01-2017.md` unveraendert (Tab. 16 bleibt
+  > beide gleichwertig) nichts. `destillate/swki-va103-01-2017.md` unverändert (Tab. 16 bleibt
   > aus Urheberrechtsgruenden nicht als Volltabelle kopiert); dieser Befund ist rein am
-  > Original geprueft und hier dokumentiert.
+  > Original geprüft und hier dokumentiert.
 
 ### Absturzsicherungen ZH ([[stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019]])
 - **A42-1** Geometrische Bedeutung der Kote ≤ 90 in der Skizze «nur obere Traverse» unklar;
   Zuordnung der Handlaufmasse (Profilbreite gegen Wandabstand) nur als Lesart belegt. Beides
-  beim Amt fuer Baubewilligungen zu klaeren.
+  beim Amt für Baubewilligungen zu klaeren.
 
 ### Hindernisfreies Bauen (Anschluss an H41-1)
 - **H42-1** Alle drei neuen Merkblaetter (`ugz-hindernisfreie-aufzuege-2010`,
   `ugz-wohnungsbau-hindernisfrei-2014`, `procap-mb105-2009-rollstuhlgerechte-toiletten`)
   stuetzen sich auf SIA 500:2009, keines auf SN 521 500:1988 — aber **keines liefert einen
-  eigenstaendigen Beleg zum kantonalen Verordnungsstand** (§ 239 PBG / § 34 BBV I). H41-1
+  eigenständigen Beleg zum kantonalen Verordnungsstand** (§ 239 PBG / § 34 BBV I). H41-1
   bleibt offen, ist jetzt aber praeziser gestellt. Ferner ungeklaert, ob SIA 500:2009 heute
   noch die gueltige Ausgabe ist.
 
 ### SMU-Merkblatt 004 ([[smu-merkblatt-004-tueren-in-fluchtwegen]])
-- **SMU42-1** Stuetzt sich auf die VKF-Generation 2003 und ist ueberholt. Zu klaeren, ob eine
+- **SMU42-1** Stuetzt sich auf die VKF-Generation 2003 und ist überholt. Zu klaeren, ob eine
   an VKF 2015/BRL 16-15 angepasste Fassung existiert.
 
 ### PAVIDENSA
-Kreuzmatrix PAV-A 03:2013 geprueft, bevor sie ein zweites Mal eingetragen wird: **bereits
+Kreuzmatrix PAV-A 03:2013 geprüft, bevor sie ein zweites Mal eingetragen wird: **bereits
 offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintrag noetig.
 *(P41-1 seither GESCHLOSSEN 24.08.2026, siehe dort.)*
 
 ### Fassungsstand-Sammelpunkt (Run 42)
 - **F42-1** Boulevardgastronomie (Gebuehrentarif Rechtsstand 1998), Leitfaden Mobilitaet
   2000-Watt (2007, Mikrozensus 2005), Hochwasser-Leitfaden (2003, §§ nicht gegen heutige
-  Fassung geprueft), AFS-Leitfaeden (BZO/PBG-Fassungen 2009), SVDW-Wegleitung (kein
+  Fassung geprüft), AFS-Leitfaeden (BZO/PBG-Fassungen 2009), SVDW-Wegleitung (kein
   Ausgabedatum) — alle vor Verwendung in einer aktuellen Baueingabe zu verifizieren.
 
-### `Flaechen_Wettbewerb.pdf`
+### `Flächen_Wettbewerb.pdf`
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); H41-2 Fundstelle identifiziert 24.08.2026 (SIA 500:2009 Anhang H nennt «Merkblatt Nr. 7, Rollstuhlgaengigkeit bei Sonderbauten» der Fachstelle FABB — Zahlenwert bleibt Bring-Schuld/Rueckfrage, kein SIA-Kauf); S41-8 GESCHLOSSEN 24.08.2026 (Praemisse falsch — Deutsch/Franzoesisch stehen zweispaltig auf denselben Seiten, Tabellenwerte strukturell bilingual-einheitlich, Struktur-Fund in Destillat nachgetragen); G41-2 zwei weitere Belege 24.08.2026 (Drittanbieter-Spiegel bestaetigt unveraendert 2011er-Ausgabe, GVZ-Leitfaden RWA 40.1/2013 ist kein Ersatz), bleibt offen; L41-4 GESCHLOSSEN 24.08.2026 (nach Tabelle 3 und Tabelle 5 jetzt auch Tabelle 4 zellenweise gegen das Original gehalten: fuenf bisher unbelegte Nutzungszeilen nachgetragen, keine Abweichung zu bestehenden Werten — alle vier Tabellen 2/3/4/5 seit Run 8 erneut geprueft); die uebrigen Bestaende (GVZ G41-1, restliche PAVIDENSA-Punkte) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestätigt); H41-2 Fundstelle identifiziert 24.08.2026 (SIA 500:2009 Anhang H nennt «Merkblatt Nr. 7, Rollstuhlgaengigkeit bei Sonderbauten» der Fachstelle FABB — Zahlenwert bleibt Bring-Schuld/Rueckfrage, kein SIA-Kauf); S41-8 GESCHLOSSEN 24.08.2026 (Praemisse falsch — Deutsch/Franzoesisch stehen zweispaltig auf denselben Seiten, Tabellenwerte strukturell bilingual-einheitlich, Struktur-Fund in Destillat nachgetragen); G41-2 zwei weitere Belege 24.08.2026 (Drittanbieter-Spiegel bestätigt unverändert 2011er-Ausgabe, GVZ-Leitfaden RWA 40.1/2013 ist kein Ersatz), bleibt offen; L41-4 GESCHLOSSEN 24.08.2026 (nach Tabelle 3 und Tabelle 5 jetzt auch Tabelle 4 zellenweise gegen das Original gehalten: fuenf bisher unbelegte Nutzungszeilen nachgetragen, keine Abweichung zu bestehenden Werten — alle vier Tabellen 2/3/4/5 seit Run 8 erneut geprüft); die übrigen Bestaende (GVZ G41-1, restliche PAVIDENSA-Punkte) unverändert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -3144,7 +3223,7 @@ mit dem Fund prominent in Frontmatter, Titel und eigenem Abschnitt jeder Datei:
   ersetzt» gefunden (die 2017er-Zusammenfassung listet nur die neue Nummerierung, keine
   Alt-Neu-Tabelle) — die Zuordnung stützt sich auf Wortlaut- und Themenidentität, nicht auf
   einen einzelnen Ablösungssatz; als **established** einzustufen, da zwei unabhängige
-  Primärquellen (Originaltext 2003/2008 + VKF-Aenderungsuebersicht 2017) übereinstimmen.
+  Primärquellen (Originaltext 2003/2008 + VKF-Änderungsuebersicht 2017) übereinstimmen.
   In `destillate/vkf-brl-23-15-befoerderungsanlagen.md` und
   `destillate/vsa-aufzuege-dokumente-bestimmungen.md` je einen additiven Nachtrag ergänzt.
 - [x] **N-R40-2 (P3):** ESBA-Originaltext der Baudirektion Kanton Zürich beschaffen und
@@ -3677,7 +3756,7 @@ Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel au
    liegen als Volltext im Haus — Beschaffungs-Bring-Schuld bleibt bestehen, ist aber Sache
    Raphaels (Kauf), nicht mehr eine offene Verifikationsfrage.
 2. **EN 13487 fehlt ganz (P2).** `grep "13487"` über die ganze KB = 0 Treffer. Die Norm wird in
-   `wissen/energie/destillate/rueckkuehler-flaechenkonkurrenz-pv-laermschutz.md:273-275` als
+   `wissen/energie/destillate/rueckkuehler-flächenkonkurrenz-pv-laermschutz.md:273-275` als
    Herstellernorm für Rückkühler-Schalldruckpegel zitiert — **ohne Ausgabejahr**, und von dort ins
    Wiki `waermepumpen-laermschutz.md:110` übernommen. Ausgabe verifizieren (nicht raten), ins
    REGISTER aufnehmen, Rückverweis setzen.
@@ -3686,7 +3765,7 @@ Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel au
    (dt. Fassung EN 13487:2019), ersetzt DIN EN 13487:2004-03 (EN 13487:2003). `wiki/REGISTER.md`
    (Abschnitt «QUESTIONS-Abarbeitung 10») und neuer Stub `destillate/en-13487-2019.md`
    (`status: speculative`, nur Ausgabe/Titel belegt, Volltext nicht im Haus) angelegt. Beide
-   Abnehmer-Fundstellen in `energie` (`rueckkuehler-flaechenkonkurrenz-pv-laermschutz.md`,
+   Abnehmer-Fundstellen in `energie` (`rueckkuehler-flächenkonkurrenz-pv-laermschutz.md`,
    `wiki/waermepumpen-laermschutz.md`) im selben Lauf mit der Ausgabe nachgeführt. **Weiterhin
    offen:** keine SN-EN-Übernahme geprüft; Volltext-Beschaffung bleibt Bring-Schuld Raphael.
 3. **EN 12102-1 fehlt ebenfalls (P2).** `grep "12102"` = 0 Treffer, obwohl das WP-Destillat der KB
@@ -3704,7 +3783,7 @@ Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel au
 *Abgrenzung:* die **Cercle-Bruit-Vollzugshilfen 6.20/6.21** sind amtsnahe Vollzugshilfen, keine
 Normen — sie bleiben zu Recht in `energie` und gehören nicht ins REGISTER.
 
-## Run 31 (MacBook Pro, 27.07.2026) — Retro-Verifikation mit 78 Befunden, zwei Regressionen, zwei Reichweiten-Luecken
+## Run 31 (MacBook Pro, 27.07.2026) — Retro-Verifikation mit 78 Befunden, zwei Regressionen, zwei Reichweiten-Lücken
 
 **Befund 1 (methodisch, wichtigster des Laufs):** Alle fuenf Destillate, die nach ihrer ersten Pruefrunde
 als korrigiert galten, wurden in der zweiten Runde erneut beanstandet — zusammen 78 Befunde. Darunter
@@ -3714,7 +3793,7 @@ BKP 19-99 / EKG W1-W6 als angeblich «im Original nicht auffindbar». Eine Verif
 Destillat also auch **verschlechtern**.
 **Zur Entscheidung vorgelegt:** `established` an einen sauberen Nulldurchgang binden statt an eine
 bestandene Korrekturrunde. Das kostet je Destillat systematisch eine Runde mehr, verhindert aber, dass
-Korrekturartefakte als geprueftes Wissen gelten.
+Korrekturartefakte als geprüftes Wissen gelten.
 
 **Befund 2 (Methodik-Praezisierung):** Der Satz «frisch nachgetragener Text ist die hoechste Fehlerquelle»
 (seit Run 23/24) gilt NICHT pauschal. Bestaetigt bei Lignatec (beide Erstrunden-Korrekturen fehlerhaft),
@@ -3748,24 +3827,24 @@ erfasste VKF-Freistellungsliste «Allgemein anerkannte Bauprodukte».
 `PL - 02_Recht_Norm/06_Richtlinien/Lignum Brandschutz/`. Sie lagen nur ausserhalb von `02_Normen/`
 (dessen Unterordner `Lignum/` leer ist). Die drei Lignum-Destillate bleiben richtig und noetig.
 
-**Neu offen fuer den naechsten Lauf:**
-1. **Dritte Verifikationsrunde** fuer alle fuenf heute korrigierten Destillate, fokussiert auf die heute
+**Neu offen für den nächsten Lauf:**
+1. **Dritte Verifikationsrunde** für alle fuenf heute korrigierten Destillate, fokussiert auf die heute
    geaenderten Stellen — bei zwei nachgewiesenen Regressionen keine Formalie.
 2. **Unabhaengige Verifikation** der drei neuen Destillate (bisher nur Selbst-Gegenprobe):
    `vkf-allgemein-anerkannte-bauprodukte-2017`, `brandschutzfachstellen-anleitung-brandschutznachweis-v3`,
    `brandschutzplan-legende-symbole-2017`.
 3. **VKF-Merkblatt 2003-15** «Brandschutzplaene, Flucht- und Rettungswegplaene, Feuerwehrplaene» fehlt als
-   Destillat. Es ist die Primaerquelle fuer Planpflicht und Symbolik; bis dahin bleibt der amtliche Status
-   des neuen Symbolblatt-Destillats unbestaetigt. Beschaffung aus `PL - 02_Recht_Norm/02_Normen/VKF_Norm/`
+   Destillat. Es ist die Primaerquelle für Planpflicht und Symbolik; bis dahin bleibt der amtliche Status
+   des neuen Symbolblatt-Destillats unbestätigt. Beschaffung aus `PL - 02_Recht_Norm/02_Normen/VKF_Norm/`
    pruefen. Ebenfalls nicht destilliert: das Merkblatt «Feuerwehrzufahrten».
 4. **Regionale Geltung** der beiden neuen Arbeitshilfen: Herausgeber sind sechs Zentralschweizer
-   Fachstellen. Fuer ZH-Projekte ist ungeprueft, ob die GVZ abweichende formelle Vorgaben kennt.
-5. **VKF-Bauprodukteliste:** Version 12.0 traegt keine Aenderungsliste; ob seit 2017 eine juengere Version
+   Fachstellen. Für ZH-Projekte ist ungeprüft, ob die GVZ abweichende formelle Vorgaben kennt.
+5. **VKF-Bauprodukteliste:** Version 12.0 trägt keine Änderungsliste; ob seit 2017 eine juengere Version
    publiziert wurde, ist ueber praever.ch/de/bs nachzuziehen. BSV 2026 wird die Bezugsrichtlinien abloesen.
 
 **Unveraendert offen:** Bring-Schulden SIA 491 und SN EN 12193 (KB `baurecht`) — in PL-02 UND PL-03 am
-27.07.2026 erneut nicht gefunden, externe Beschaffung ueber den SIA-Shop noetig. Uebrige SIA-Bring-Schulden
-(SIA 380/1 Volltext, SIA 385/1 Volltext, SIA 118:2013, SIA 242) unveraendert.
+27.07.2026 erneut nicht gefunden, externe Beschaffung ueber den SIA-Shop noetig. Übrige SIA-Bring-Schulden
+(SIA 380/1 Volltext, SIA 385/1 Volltext, SIA 118:2013, SIA 242) unverändert.
 
 Report `outputs/2026-07-27_normen-nacht-run31.md`.
 
@@ -3774,57 +3853,57 @@ Report `outputs/2026-07-27_normen-nacht-run31.md`.
 **Befund 1 (Bookkeeping-Fehler behoben):** Der PL-03-Abschnitt in `training/norm-inventar.md` (aufgenommen
 26.07.2026) listete die BRL-13-15/14-15-Re-Destillation als offenen Handlungsbedarf, obwohl diese bereits
 am 25.07.2026 (Run 23, re-verifiziert Run 24) erledigt worden war — der Abschnitt wurde nach der
-Aufnahme-Entscheidung nicht gegen den tatsaechlichen Destillat-Stand geprueft, nur gegen den aelteren
+Aufnahme-Entscheidung nicht gegen den tatsaechlichen Destillat-Stand geprüft, nur gegen den aelteren
 Mapping-Report vom 25.07. Korrigiert, siehe `norm-inventar.md` Abschnitt "PL-03 Brandschutz".
 
-**Befund 2:** PL-03-Unterordner 01/03/04/05 (26 Dateien) sind vollstaendig MD5-identisch mit bereits
+**Befund 2:** PL-03-Unterordner 01/03/04/05 (26 Dateien) sind vollständig MD5-identisch mit bereits
 destillierten PL-02-Kopien (PL-02 spiegelt dieselbe Struktur unter `VKF_Norm/`). Keine neue Destillation
 noetig. Einzige untersuchte Abweichung (`1001-15_Wohnbauten.pdf`, 29 vs. 27 Seiten) stellte sich als
 bereits anderweitig destillierter BRL-16-15-Inhalt plus ein separates, inhaltlich deckungsgleiches
 "Auszug"-Dokument (Stand 17.05.2018) heraus — 0 Abweichungen bei Ziff. 3/5/6 gegen das established-
-Destillat `vkf-ah-1001-15-wohnbauten.md`, dessen Frontmatter entsprechend cross-verifiziert ergaenzt wurde.
+Destillat `vkf-ah-1001-15-wohnbauten.md`, dessen Frontmatter entsprechend cross-verifiziert ergänzt wurde.
 
 **Befund 3 (offen, ausserhalb Scope):** `PL - 03 Brandschutz/06 Lignum Brandschutz/Lignum Erdbeben/
 Erdbebengerechte_Holzbauten_d.pdf` (25 S.) behandelt Erdbebenertuechtigung im Holzbau, kein Brandschutz-
 /Normeninhalt. Nicht in dieser Normen-KB destilliert. Falls fachlich relevant, gehoert das Dokument eher
-in eine statik-/erdbeben-bezogene Wissensbasis (aktuell keine vorhanden) — als Hinweis fuer den
+in eine statik-/erdbeben-bezogene Wissensbasis (aktuell keine vorhanden) — als Hinweis für den
 Wissens-Chef vermerkt, nicht selbststaendig loesbar aus dem Normen-Scope heraus.
 
 **Befund 4 (weiterhin offen):** SIA 491:2013 und SN EN 12193:2008 (Bring-Schulden KB `baurecht`) erneut
-gegen PL-02 UND PL-03 geprueft (27.07.2026) — in keiner der beiden Ablagen vorhanden. Bleibt echte externe
+gegen PL-02 UND PL-03 geprüft (27.07.2026) — in keiner der beiden Ablagen vorhanden. Bleibt echte externe
 Bring-Schuld (SIA-Shop-Kauf durch Raphael noetig), kein Fall einer PL-03-Fehlklassierung wie bei den
 Brandschutz-Dokumenten in Run 22.
 
 **✅ Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung):** Befund 1 und 2 waren bereits mit ihrem eigenen
 Text erledigt, nur nie mit einem Schliess-Marker versehen. Befund 3 bleibt informativer Hinweis an
 den Wissens-Chef (keine statik-/erdbeben-bezogene KB vorhanden, kein Handlungsbedarf im Scope
-`normen`). Befund 4 (SIA 491, SN EN 12193) ist unveraendert in `training/norm-inventar.md` als
-Bring-Schuld gefuehrt (Preis/Bezugsweg dort seit Run 36 verifiziert) — keine neue Information seit
+`normen`). Befund 4 (SIA 491, SN EN 12193) ist unverändert in `training/norm-inventar.md` als
+Bring-Schuld geführt (Preis/Bezugsweg dort seit Run 36 verifiziert) — keine neue Information seit
 27.07.2026.
 
-## Run 27 (MacBook Pro, 25.07.2026) — Q&A-Selbstbefragung (Vertiefungsstufe c) fuer die 5 neu established Destillate
+## Run 27 (MacBook Pro, 25.07.2026) — Q&A-Selbstbefragung (Vertiefungsstufe c) für die 5 neu established Destillate
 
-**Ausgangslage.** Run 26 hatte als naechsten sinnvollen Schritt vorgeschlagen: Q&A-Selbstbefragung fuer die
+**Ausgangslage.** Run 26 hatte als nächsten sinnvollen Schritt vorgeschlagen: Q&A-Selbstbefragung für die
 seit Run 25/26 neu auf `established` gehobenen Destillate (sia-266/1, sia-410, sia-112-leistungsmodell,
 sia-112-tabelle-infrastruktur, sia-271-wegleitung), da ein reiner Frischecheck ohne Mehrwert waere. 5
 unabhaengige Verifikations-Agenten liefen parallel, je einer pro Norm — Original-PDF unabhaengig gelesen,
 Fragen formuliert und sofort daraus beantwortet, danach gegen das Destillat abgeglichen (echter
 Refuter-Versuch).
 
-- **[x] sia-266-1-2003 — 20 Fragen, bestaetigt, 0 Abweichungen.** Alle Kernpunkte (31 Verweisungen,
-  Modalitaeten, Formeln, Gummiplatten-Kennwerte, sechs Kategorien besonderer Eigenschaften) exakt bestaetigt.
-- **[x] sia-410-1986 — 18 Fragen, bestaetigt + 1 Klarstellung + 2 Ergaenzungen angewendet.** Substanz
-  vollstaendig bestaetigt. Korrektur: Das Dokument wurde bisher als «dreisprachig d/f/i, teils Englisch in
-  Kopfzeilen» unterschaetzt — tatsaechlich durchgehend **vierprachig d/f/i/en** mit vollstaendiger vierter
-  Spalte in praktisch jeder Tafel. Frontmatter + Hinweistext korrigiert. Ergaenzt unter Offene Punkte: Kap. 6
-  fehlt im urspruenglichen Inhaltsverzeichnis (S. 2-3, stuetzt die Nachtrags-These), Positionsnummern-Luecke
+- **[x] sia-266-1-2003 — 20 Fragen, bestätigt, 0 Abweichungen.** Alle Kernpunkte (31 Verweisungen,
+  Modalitaeten, Formeln, Gummiplatten-Kennwerte, sechs Kategorien besonderer Eigenschaften) exakt bestätigt.
+- **[x] sia-410-1986 — 18 Fragen, bestätigt + 1 Klarstellung + 2 Ergaenzungen angewendet.** Substanz
+  vollständig bestätigt. Korrektur: Das Dokument wurde bisher als «dreisprachig d/f/i, teils Englisch in
+  Kopfzeilen» unterschaetzt — tatsaechlich durchgehend **vierprachig d/f/i/en** mit vollständiger vierter
+  Spalte in praktisch jeder Tafel. Frontmatter + Hinweistext korrigiert. Ergänzt unter Offene Punkte: Kap. 6
+  fehlt im urspruenglichen Inhaltsverzeichnis (S. 2-3, stuetzt die Nachtrags-These), Positionsnummern-Lücke
   9/10 in Ziff. 3.3 (S. 21, unerklaert im Original).
-- **[x] sia-112-leistungsmodell — 8 Fragen (1-Seiten-Dokument), bestaetigt, 0 Abweichungen.**
-- **[x] sia-112-tabelle-infrastruktur — 10 Fragen, bestaetigt, 0 Abweichungen.** Dritte unabhaengige
-  Pruefrunde nach Run 25 (Erstpruefung) und Run 26 (erste Bestaetigung) — weiterhin 0 Befunde.
-- **[x] sia-271-wegleitung — 8 Fragen (nur 2 S. vorhanden), bestaetigt.** Ein kleiner, nicht korrigierter
-  Vervollstaendigungshinweis: Abb. 76 traegt im Original den engeren Titel «... bei Terrassen», waehrend der
-  Fliesstext die 25-mm-Freibord-Pflicht allgemein fuer den gesamten Flachdachbereich formuliert — kein
+- **[x] sia-112-leistungsmodell — 8 Fragen (1-Seiten-Dokument), bestätigt, 0 Abweichungen.**
+- **[x] sia-112-tabelle-infrastruktur — 10 Fragen, bestätigt, 0 Abweichungen.** Dritte unabhaengige
+  Pruefrunde nach Run 25 (Erstpruefung) und Run 26 (erste Bestätigung) — weiterhin 0 Befunde.
+- **[x] sia-271-wegleitung — 8 Fragen (nur 2 S. vorhanden), bestätigt.** Ein kleiner, nicht korrigierter
+  Vervollständigungshinweis: Abb. 76 trägt im Original den engeren Titel «... bei Terrassen», während der
+  Fliesstext die 25-mm-Freibord-Pflicht allgemein für den gesamten Flachdachbereich formuliert — kein
   Widerspruch, keine Statusaenderung noetig.
 
 **Ergebnis:** 64 Fragen total, 0 Widersprueche gegen bestehende Kernaussagen, 1 Destillat mit einer echten
@@ -3832,11 +3911,11 @@ Klarstellung korrigiert (sia-410 Sprachenangabe). Alle 5 Destillate bleiben `est
 **alle 15 SIA/VKF-Kernnormen** die Q&A-Vertiefungsstufe (c) durchlaufen (10 aus Run 14/260715 + 5 aus Run 27).
 Neue QA-Dateien: `destillate/qa/sia-266-1-2003-fragen.md`, `sia-410-1986-fragen.md`,
 `sia-112-leistungsmodell-fragen.md`, `sia-112-tabelle-infrastruktur-fragen.md`, `sia-271-wegleitung-fragen.md`.
-Verbleibende offene Punkte unveraendert: Bring-Schulden (SIA-Normtexte nur per Abo/Kauf) und
-Strukturentscheide bei Raphael (PL-03-Aufnahme). Fuer den naechsten Lauf: Vertiefungsstufe (b) Retro-
-Verifikation mit 3 unabhaengigen Widerlegungs-Agenten fuer die P1-Kernnormen, oder Stufe (d)
-Querschnitts-Synthesen fuer die Fach-Skills (werkvertrag/honorarberechnung/brandschutz/flaechen-nachweis),
-da Stufe (c) fuer SIA/VKF jetzt vollstaendig ist. Report `outputs/2026-07-25_normen-nacht-run27.md`.
+Verbleibende offene Punkte unverändert: Bring-Schulden (SIA-Normtexte nur per Abo/Kauf) und
+Strukturentscheide bei Raphael (PL-03-Aufnahme). Für den nächsten Lauf: Vertiefungsstufe (b) Retro-
+Verifikation mit 3 unabhaengigen Widerlegungs-Agenten für die P1-Kernnormen, oder Stufe (d)
+Querschnitts-Synthesen für die Fach-Skills (werkvertrag/honorarberechnung/brandschutz/flächen-nachweis),
+da Stufe (c) für SIA/VKF jetzt vollständig ist. Report `outputs/2026-07-25_normen-nacht-run27.md`.
 
 ## Run 26 (MacBook Pro, 25.07.2026) — beide Run-25-Folgeaufgaben abgeschlossen, speculative-Bestand geleert
 
@@ -4110,16 +4189,16 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   `sia-266-1-2003.md` durchlief FUENF Retro-Verifikationsrunden (Run 23-25, 25.07.2026; Runde 1
   13+9 Befunde, Runde 2-4 je 1-2 Befunde, Runde 5 0 Befunde), Status seither `established` — die
   heutige (23.08.) Ergaenzung ist nur der web-belegte `superseded`-Hinweis auf SIA 266/1:2015, keine
-  Aenderung an den verifizierten Ziffern. `sia-410-1986.md` adversarial geprueft Run 23 (BEANSTANDET,
+  Änderung an den verifizierten Ziffern. `sia-410-1986.md` adversarial geprüft Run 23 (BEANSTANDET,
   korrigiert, auf `established` gehoben) plus Q&A-Selbstbefragung Run 27 (18 Fragen, 0 Widersprueche);
   die heutige Ergaenzung ist ebenso nur der web-belegte `zurückgezogen`-Hinweis (suissetec.ch,
-  Ruecknahme per 01.01.2025), keine Aenderung am verifizierten Bestand. `vkf-brl-13-15-baustoffe-
-  bauteile.md`: Fassungs-Delta 2017 adversarial per Seitenbildvergleich gegengeprueft (Run 23,
+  Ruecknahme per 01.01.2025), keine Änderung am verifizierten Bestand. `vkf-brl-13-15-baustoffe-
+  bauteile.md`: Fassungs-Delta 2017 adversarial per Seitenbildvergleich gegengeprüft (Run 23,
   Verdikt BESTANDEN, 0 Abweichungen), Status `established`. `vkf-brl-verwendung-baustoffe.md`:
   Fassungs-Delta 2017 adversarial verifiziert (Run 23, BEANSTANDET, 5 Korrekturen eingearbeitet;
-  Run 24 unabhaengige Re-Verifikation, 4/5 bestaetigt, 1/5 praezisiert), Status `established`.
+  Run 24 unabhaengige Re-Verifikation, 4/5 bestätigt, 1/5 praezisiert), Status `established`.
   `wiki/vkf-beherbergungskategorien.md`: zwei unabhaengige Verifikationsrunden (Runde 1 BEANSTANDET,
-  12 Korrekturen; Runde 2 Run 23, alle 12 seitengenau bestaetigt plus 1 neuer Befund korrigiert),
+  12 Korrekturen; Runde 2 Run 23, alle 12 seitengenau bestätigt plus 1 neuer Befund korrigiert),
   Status `established`. Alle fuenf sind damit seit 25.07.2026 zitierfaehig; kein weiterer Lauf muss
   diesen Punkt erneut aufgreifen.
 - [x] **GESCHLOSSEN (Run 24, 260725): P1-FOLGEARBEIT VKF-BRL 16-15 Ziff. 3.5.2 Personenbelegung —
@@ -4162,11 +4241,11 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   als historische Dokumentation korrekt); REGISTER.md Zeile SIA 410 nachgeführt. Ebenfalls
   ausserhalb des Geltungsbereichs und weiterhin nicht recherchiert: die SEV-Sinnbilder für Elektro.
 - [x] **ENTSCHIEDEN 26.07.2026 (Raphael): PL-03 wird ins Inventar aufgenommen.** Umgesetzt am
-  26.07.2026: `training/norm-inventar.md` fuehrt PL-03 als gleichrangige Quelle (Erst-Scan, 116
+  26.07.2026: `training/norm-inventar.md` führt PL-03 als gleichrangige Quelle (Erst-Scan, 116
   Dateien, Ordner-Tabelle mit Relevanz/Status, Fassungs-Befund-Tabelle aus dem Mapping-Report);
   `training/PROGRAMM.md` Methodik-Pflicht 1 entsprechend umgestellt. **Daraus folgt konkrete Arbeit
-  fuer den naechsten Lauf:** Re-Destillation von `vkf-brl-verwendung-baustoffe` (BRL 14-15de,
-  hoechste Prioritaet — umfangreichste IOTH-Aenderungsliste) und `vkf-brl-13-15-baustoffe-bauteile`
+  für den nächsten Lauf:** Re-Destillation von `vkf-brl-verwendung-baustoffe` (BRL 14-15de,
+  hoechste Prioritaet — umfangreichste IOTH-Änderungsliste) und `vkf-brl-13-15-baustoffe-bauteile`
   gegen die 2017er-Fassung; danach die noch nicht inventarisierten PL-03-Unterordner (01, 03, 04,
   05, 06) erfassen. Bis zur Re-Destillation tragen beide Destillate einen Fassungs-Vorbehalt.
 
@@ -4197,39 +4276,39 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   > `outputs/`-Datei belegen — am 25.07.2026 haben zwei Laeufe unabhaengig die Nummer 21
   > vergeben») und ist im Auftragstext des Scheduled Task wiederholt. Der historische
   > Doppeleintrag `outputs/2026-07-25_normen-nacht-run21.md` bleibt als Protokoll stehen.
-  > **Anders als bei den drei gleichzeitig geprueften Faellen (N-R40-7 Z. ~2889, Q&A-
-  > Selbstbefragung Z. ~4080, Z1/Z2 Z. ~5049) traegt diese Zeile KEINEN Schliessungsvermerk
+  > **Anders als bei den drei gleichzeitig geprüften Faellen (N-R40-7 Z. ~2889, Q&A-
+  > Selbstbefragung Z. ~4080, Z1/Z2 Z. ~5049) trägt diese Zeile KEINEN Schliessungsvermerk
   > darueber** — sie ist also kein bewusst stehen gelassener Ursprungswortlaut, sondern war
   > tatsaechlich nie nachgezogen.
-- [x] **Wissenscheck Phase 1 (Health-Check) durchgefuehrt (2026-07-24, Mac Mini) — mit
+- [x] **Wissenscheck Phase 1 (Health-Check) durchgeführt (2026-07-24, Mac Mini) — mit
   budget-bewusster Methodik statt Volltext-Audit.** Der Vorbehalt vom 23.07. (voller
-  Struktur-Audit sprengt das Nachtschicht-Budget) hat sich bestaetigt fuer eine Volltext-
+  Struktur-Audit sprengt das Nachtschicht-Budget) hat sich bestätigt für eine Volltext-
   Lektuere aller 271 Destillate — geloest, indem das Audit ueberwiegend deterministisch
   (grep auf Frontmatter/Links/Status) statt per Einzel-Lektuere gefahren wurde: 17 tote
   `[[links]]`, 65/271 Umlaut-Bug-Faelle, 0 neue Widersprueche (ausser Sonderauftrag-Klaerung
   SIA/VKF-Meilenstein), Kosten ~2.4 USD. Ein echter Volltext-Claim-Abgleich (Audit C ueber
-  alle 271 Dateien) bleibt weiterhin ein dedizierter, groesserer Lauf — siehe naechster Punkt.
+  alle 271 Dateien) bleibt weiterhin ein dedizierter, groesserer Lauf — siehe nächster Punkt.
   Report `outputs/2026-07-24_health-check.md`.
 
 - [x] **Vier tote `[[links]]`-Namensfehler behoben (Health-Check 24.07.2026 → Fix 24.07.2026,
   Mac Mini Nachtschicht 18:30):** `destillate/sia-382-1-2014.md` `[[sia-2024]]` → korrigiert auf
-  `[[sia-mb-2024-2006]]` (einziger Treffer im Bestand, Merkblatt-Praefix ergaenzt). Dieselbe
-  Datei `[[sia-180]]` → korrigiert auf `[[sia-180-2014]]` (inhaltlich bestaetigt: SIA 180:2014
-  = Waerme-/Feuchteschutz, thematisch einschlaegig fuer SIA 382/1 Lueftung/Klima; die beiden
+  `[[sia-mb-2024-2006]]` (einziger Treffer im Bestand, Merkblatt-Praefix ergänzt). Dieselbe
+  Datei `[[sia-180]]` → korrigiert auf `[[sia-180-2014]]` (inhaltlich bestätigt: SIA 180:2014
+  = Wärme-/Feuchteschutz, thematisch einschlaegig für SIA 382/1 Lueftung/Klima; die beiden
   080/081/082-Dateien behandeln ISO-10077-Fensterberechnung, nicht einschlaegig).
   `destillate/sia-480-2004.md` `[[sia-102-2003]]` → **kein Linkfehler, sondern echte
-  Bestandsluecke**: Fliesstext (Zeile 23) zitiert korrekt "SIA 102:2003", diese Ausgabe ist im
+  Bestandslücke**: Fliesstext (Zeile 23) zitiert korrekt "SIA 102:2003", diese Ausgabe ist im
   Bestand nicht digitalisiert (nur 2014/2020 vorhanden). Gemaess Rule identifikatoren-
   verifizieren NICHT auf falsche Ausgabe umgebogen, sondern zu Klartext "SIA 102:2003 (nicht im
   Bestand, siehe QUESTIONS)" entlinkt — Beschaffung der 2003er-Ausgabe bleibt offen, kein
   Nachtschicht-Fall (evtl. kostenpflichtig). `destillate/din-1960-2010.md`
-  `[[din-1961-2012]]` → korrigiert auf `[[din-1961-2010]]` (Datei traegt Ausgabe
+  `[[din-1961-2012]]` → korrigiert auf `[[din-1961-2010]]` (Datei trägt Ausgabe
   "DIN 1961:2010-08", passend zur Gegendatei "DIN 1960:2010-08"; 2012 war Zahlendreher).
   **Zusaetzlich beim Fix gefunden (nicht in den urspruenglichen 4, gleiches Fehlermuster):**
   `destillate/sia-384-201-2017.md` und `destillate/sia-2040-2017.md` hatten ebenfalls
-  `[[sia-2024]]` statt `[[sia-mb-2024-2006]]` — mitkorrigiert. Alle 6 Links geprueft: 0 offene
+  `[[sia-2024]]` statt `[[sia-mb-2024-2006]]` — mitkorrigiert. Alle 6 Links geprüft: 0 offene
   `[[sia-2024]]`/`[[sia-180]]`/`[[sia-102-2003]]`/`[[din-1961-2012]]`-Treffer mehr im
-  `destillate/`-Ordner (CHANGELOG/QUESTIONS/outputs-Historieneintraege bewusst unveraendert
+  `destillate/`-Ordner (CHANGELOG/QUESTIONS/outputs-Historieneintraege bewusst unverändert
   gelassen, sind Protokoll).
 
 - [x] **EN 520 Original-Destillat fehlt (2026-07-23, KISPI-Fall Rohdichte 800 kg/m³) — soweit
@@ -4258,16 +4337,16 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   Arbeitsteilung). Report: `outputs/2026-07-22_din-ersetzt-durch-luecke.md`.
 
 - [x] **ERLEDIGT Run 15 (2026-07-17): Die 30 Ergaenzungskandidaten aus Run 14 sind eingearbeitet.**
-  29 gemeldete Luecken am Original verifiziert und in die Destillate eingebaut (SIA 103: 10,
+  29 gemeldete Lücken am Original verifiziert und in die Destillate eingebaut (SIA 103: 10,
   SIA 105: 7, SIA 118: 2, SIA 112: 2, SIA 451: 4, VKF BRL 16-15: 4). Verdikt: 28x `belegt`,
   1x `abweichend` (VKF-BRL-16-15-Ausgabejahr, siehe unten). Anschliessende Widerlegungs-Pruefung:
   5 Beanstandungen, alle korrigiert. Details unten und in `outputs/2026-07-17_normen-nacht-run15.md`.
 
 - [ ] ~~**Q&A-Selbstbefragung SIA/VKF-P1 (Run 14, 2026-07-15) — 30 Ergaenzungskandidaten:**~~
   Alle 10 P1-Kernnormen (SIA 102/103/105/111/112/118/416/451, VKF Brandschutznorm 1-15,
-  VKF BRL 16-15) durch je 20–22 am Original beantwortete Pruefungsfragen gegengeprueft:
-  **0 sachliche Fehler**, alle established bestaetigt. Gemeldete Luecken (Destillate korrekt,
-  aber unvollstaendig) als Ergaenzungskandidaten fuer einen kuenftigen Volldestillat-Lauf:
+  VKF BRL 16-15) durch je 20–22 am Original beantwortete Pruefungsfragen gegengeprüft:
+  **0 sachliche Fehler**, alle established bestätigt. Gemeldete Lücken (Destillate korrekt,
+  aber unvollständig) als Ergaenzungskandidaten für einen kuenftigen Volldestillat-Lauf:
   SIA 103 (mittlere-Stundenansaetze-Formel H=Tt·h·a + Anforderungsfaktoren, Kuendigung-zur-
   Unzeit-Zuschlag 10 %, CHF-100'000-Schwelle, Erhaltung +0,2–0,6, ARGE 5 %, 10-J-Verjaehrung),
   SIA 105 (Phasengliederung/Leistungsmodell, Genauigkeitsgrade ±15 %/±10 %, CHF-100'000-Schwelle),
@@ -4384,7 +4463,7 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
 - [x] DIN 277-3 (Mengen/Bezugseinheiten) — **destilliert 260712** (din-277-3-2005.md),
   DIN-277-Serie (Teil 1-3) komplett.
 - [x] Grosse/scanlastige VSS-Dateien (640 065/281/291a/578) — **destilliert 260713 (Run 4)**,
-  Familie VSS im Inventar vollstaendig abgearbeitet.
+  Familie VSS im Inventar vollständig abgearbeitet.
 - [x] ~~Merkblatt SIA 2014 «CAD-Layerorganisation» (der Layerkatalog, auf den SIA 400:2000 Ziff.
   B.11.3 zwingend verweist: Agent A–/B–/S– + Elementcode + Präsentationscode E/T/D) ist NICHT im
   Normen-Bestand. Bring-Schuld für den Wettbewerbs-Layer / die maschinelle DXF-Layer-Codierung —
@@ -4556,7 +4635,7 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
 - [x] **VKF-Verzeichnis 40-15 (Weitere Bestimmungen) — ERLEDIGT, Bestandskontrolle Run 17 (260721):**
   das Destillat `vkf-verz-40-15-weitere-bestimmungen.md` ist am Bestand als vollständig belegt
   (Frontmatter `gelesen: S. 1-22 komplett (Titelblatt bis Ziffer 4 Abkürzungsverzeichnis, gesamtes
-  Dokument)`, status `established (verifiziert 260714, vollstaendig)`). Die 13.07. notierte Lücke
+  Dokument)`, status `established (verifiziert 260714, vollständig)`). Die 13.07. notierte Lücke
   (Ziff. 3.7-3.9 + Abkürzungsverzeichnis) wurde zwischenzeitlich geschlossen; Notat war veraltet.
 - [ ] **Workflow-Tool blockiert Hintergrundläufe:** In diesem Scheduled-Task-Lauf (13.07.2026)
   verweigerte das Workflow-Orchestrierungstool die Ausführung mit „Review dynamic workflow
@@ -4601,7 +4680,7 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   01.02.2026, neue eigenständige Norm; Produktdatenblatt web-verifiziert 23.08.2026, Volltext
   kostenpflichtig (110 CHF, Bring-Schuld Raphael) — schliesst die Lücke „keine
   SIA-Raumakustik-Norm im Bestand" (`wiki/REGISTER.md` Z. 1575, Mini-Run 30). **Die
-  SIA 260er-Tragwerksnormen** (Pendant zu den Eurocodes DIN EN 1990-1999): vollstaendige
+  SIA 260er-Tragwerksnormen** (Pendant zu den Eurocodes DIN EN 1990-1999): vollständige
   Serie `sia-260-2003.md`, `sia-261-2003.md`/`-1`, `sia-262-2003.md`/`-1`, `sia-263-2003.md`,
   `sia-264-2003.md`/`-1`, `sia-265-2003.md`, `sia-266-2003.md`/`-1`, `sia-267-2003.md`/`-1`
   im Destillat-Ordner, mehrere davon (261/1, 262/1, 264/1, 267/1) mit Refuter-Verifikation
@@ -4610,20 +4689,20 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   `DIN_Norm/Sonstiges/` enthaelt neben echten DIN-Normen auch deutsche Landesrecht-Auszuege
   (NBauO/DVNBauO Niedersachsen), HOAI-Leistungsbild-Exzerpte und ein Lehrskript (HCU Hamburg
   Treppen) — alle wurden dennoch destilliert, da im Inventar gelistet (Kompoundierungs-Pflicht),
-  aber mit deutlichem Vermerk "kein CH-Bezug" im JANS-Praxis-Transfer. Fuer kuenftige Laeufe:
+  aber mit deutlichem Vermerk "kein CH-Bezug" im JANS-Praxis-Transfer. Für kuenftige Laeufe:
   gleiche Vorsicht bei Interpretation als "verbindliche Norm" gegenueber diesen Auszuegen.
 - [x] **Gross-Dateien DIN-Sonstiges/DIN-Norm** — alle in Run 3+4 (13.07.2026) destilliert,
   siehe Inventar. Keine offenen Positionen mehr.
 
 - [x] **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung, zwoelfter Lauf).** Alle drei Folgen
   dieses Status-Vermerks sind laengst erledigt, nur die Checkbox war nie nachgezogen: (1) die
-  hier als «offen fuer naechsten Lauf» gelisteten Dateien (DIN 4844-2, DIN V 105-100, DIN V 106,
+  hier als «offen für nächsten Lauf» gelisteten Dateien (DIN 4844-2, DIN V 105-100, DIN V 106,
   Sonstiges/Baupreisindizes, Sonstiges/Inhaltsverzeichnis, Sonstiges/Komm DIN 18024, Sonstiges/
-  VdS-Richtlinie 2234, Rest DIN 1054, alle 5 VSS-Grossdateien) sind gemaess den direkt
-  nachfolgenden Eintraegen dieser Datei (Mac Mini Run 4/5, 13.07.2026, unten) vollstaendig
-  destilliert bzw. begruendet uebersprungen — «0 offene [ ]-Positionen» in DIN/VSS/RAL bestaetigt.
+  VdS-Richtlinie 2234, Rest DIN 1054, alle 5 VSS-Grossdateien) sind gemäss den direkt
+  nachfolgenden Eintraegen dieser Datei (Mac Mini Run 4/5, 13.07.2026, unten) vollständig
+  destilliert bzw. begruendet uebersprungen — «0 offene [ ]-Positionen» in DIN/VSS/RAL bestätigt.
   (2) DIN 4159/4149 blieben mangels konkretem Projektbedarf bewusst unangetastet (P4-Fall wie
-  N-R40-3 oben), kein Loop-Fall. (3) Die «Neue CH-Pendant-Luecke SWKI 99-3» war ein falscher
+  N-R40-3 oben), kein Loop-Fall. (3) Die «Neue CH-Pendant-Lücke SWKI 99-3» war ein falscher
   Gegenstand: SWKI 99-3:2003 (+ Beiblatt 2004) ist seit 1.8.2015 durch VA 105-01:2015 ersetzt
   (belegt `wiki/REGISTER.md`, Zeile VA 105-01/SWKI 99-3:2003; zweitbelegt
   `wissen/energie/destillate/reinraum-op-klimatisierung-gesundheitsbau-ch.md`) — bereits an
@@ -4632,12 +4711,12 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   Kap. 3-6)**, kein neuer Destillier-Auftrag.
 
 - [x] **SN 640 105a (Verbreiterung der Fahrbahn in Kurven, Dez. 2000)** — **destilliert
-  13.07.2026 (Mac Mini Run 6):** vollstaendig gelesen (S.25-37 des Traegerdokuments
-  `VSS 640 291a Parkieren Geometrie.PDF`, 13/13 S.), eigenstaendiges Destillat
+  13.07.2026 (Mac Mini Run 6):** vollständig gelesen (S.25-37 des Trägerdokuments
+  `VSS 640 291a Parkieren Geometrie.PDF`, 13/13 S.), eigenständiges Destillat
   `destillate/sn-640105a-2000.md`. Volltextabgleich-Verifikation (Modell D): alle Kernwerte
   (D-Werte Kategorien A-D, Formel e=Ra-√(Ra²-D²), Bagatellgrenzen, Geltungsbereich 11,25-500m)
-  gegen den Originaltext geprueft, established.
-- [x] **Mac Mini Run 4 (13.07.2026): DIN/VSS/RAL-Inventar vollstaendig abgearbeitet.** Alle
+  gegen den Originaltext geprüft, established.
+- [x] **Mac Mini Run 4 (13.07.2026): DIN/VSS/RAL-Inventar vollständig abgearbeitet.** Alle
   zuvor offenen DIN-Sonstiges-Dateien (Inhaltsverzeichnis, Planungsgrundlagen, VdS 2234,
   Komm DIN 18024 Rest) sowie alle 5 grossen VSS-Scans (40 291, 640 065, 640 281, 640 291a,
   640 578) destilliert; verbleibende 5 Dateien als Nicht-Normen begruendet uebersprungen.
@@ -5057,38 +5136,38 @@ einzeln geprüft:
 
 - [x] **GEKLAERT: Ausgabejahr VKF-BRL 16-15 «Flucht- und Rettungswege».** Run 14 hatte vermutet, die
   Datei datiere als «Ausgabe 2017». Am Original widerlegt: korrekt ist **Ausgabe 2015, Fassung
-  01.01.2017** (Copyright 2015; IOTH-Aenderungen 17.09.2015 und 22.09.2016 eingearbeitet;
+  01.01.2017** (Copyright 2015; IOTH-Änderungen 17.09.2015 und 22.09.2016 eingearbeitet;
   Inkraftsetzung Ziff. 5: Beschluss IVTH 18.09.2014, in Kraft 01.01.2015 — ein Inkrafttreten 2017
   existiert im Dokument nicht). «2017» ist das Fassungs-, nicht das Ausgabedatum. Zitierform:
   «VKF-BRL 16-15de, Ausgabe 2015, Fassung 01.01.2017».
 - [x] **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung).** Die Folgepruefung ist inzwischen
   systematisch geleistet worden, nur nicht unter diesem Titel: der **VKF-Fassungs-Sweep**
-  (N27-1/N58-1, Normen-Lauf Run 58-60, 20.-23.08.2026) hat den Zugangsweg fuer **alle 35**
+  (N27-1/N58-1, Normen-Lauf Run 58-60, 20.-23.08.2026) hat den Zugangsweg für **alle 35**
   VKF-Publikationen mit KB-Destillat geklaert (`training/n58-vkf-fassungsmatrix-260820.md`,
-  Zusammenfassung `wiki/REGISTER.md` Abschnitt D) und fuer die 01.01.2017er-Fassungswelle
-  15 von 15 Delta-Destillaten erstellt (Run 60, 23.08.2026). Fuer die hier namentlich
-  betroffene BRL-Familie bestaetigt die Rang-5-Tabelle in N58-1 (`## Normen-Lauf Run 58`
-  oben) ausdruecklich: «die Aenderungen 2017 sind fuer 13-15/14-15/15-15/16-15/22-15 bereits
-  erfasst» — exakt die hier befuerchtete systematische Verwechslung Fassungsdatum ↔
-  Ausgabejahr wurde damit fuer die ganze revidierte Serie durchgesehen, nicht nur fuer 16-15.
+  Zusammenfassung `wiki/REGISTER.md` Abschnitt D) und für die 01.01.2017er-Fassungswelle
+  15 von 15 Delta-Destillaten erstellt (Run 60, 23.08.2026). Für die hier namentlich
+  betroffene BRL-Familie bestätigt die Rang-5-Tabelle in N58-1 (`## Normen-Lauf Run 58`
+  oben) ausdrücklich: «die Änderungen 2017 sind für 13-15/14-15/15-15/16-15/22-15 bereits
+  erfasst» — exakt die hier befürchtete systematische Verwechslung Fassungsdatum ↔
+  Ausgabejahr wurde damit für die ganze revidierte Serie durchgesehen, nicht nur für 16-15.
   Ursprungswortlaut bleibt unten stehen, damit die urspruengliche Vermutung nachvollziehbar ist:
 - [x] **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung, zwoelfter Lauf).** Die geforderte
   systematische Durchsicht ist durch eine zwischenzeitlich unabhaengig entstandene Arbeit
   bereits erledigt: `wiki/REGISTER.md`, Abschnitt zu den VKF-Publikationen 01.01.2017 (Run 60,
-  23.08.2026), fuehrt fuer **alle fuenfzehn** Publikationen der Sammelrevision (BRL 17-15,
+  23.08.2026), führt für **alle fuenfzehn** Publikationen der Sammelrevision (BRL 17-15,
   18-15, 20-15, 21-15, 23-15, 24-15, 25-15, BSE 100-15, 101-15, 102-15, 105-15, 106-15, 107-15,
   AH 1000-15, 1002-15) je ein eigenes Delta-Destillat mit explizitem Fundstellen-Abgleich
   Fassungsdatum ↔ Ausgabejahr, plus BRL 13-15 als Gegenprobe — REGISTER-Vermerk: «Der
-  Sammelposten 01.01.2017 ist mit Run 60 vollstaendig abgearbeitet». Damit ist die hier
+  Sammelposten 01.01.2017 ist mit Run 60 vollständig abgearbeitet». Damit ist die hier
   verlangte Durchsicht der ganzen Serie bereits vollzogen, nur die Checkbox war nicht
-  nachgezogen. Separat davon bleibt eine ANDERE, im REGISTER selbst als naechster Schritt
+  nachgezogen. Separat davon bleibt eine ANDERE, im REGISTER selbst als nächster Schritt
   markierte Frage offen (Abdeckungsrichtung: ob die Bestandsdestillate ihre eigene Fassung
-  *vollstaendig* abbilden, nicht nur das Delta) — das ist keine Wiederholung dieses Punkts,
+  *vollständig* abbilden, nicht nur das Delta) — das ist keine Wiederholung dieses Punkts,
   sondern eine eigene, groessere Arbeit (siehe Eskalationsempfehlung im Report des elften
   Laufs). Ursprungswortlaut zur Nachvollziehbarkeit: «Dieselbe Verwechslung Fassungsdatum ↔
-  Ausgabejahr duerfte bei den uebrigen revidierten VKF-Richtlinien systematisch auftreten
+  Ausgabejahr duerfte bei den übrigen revidierten VKF-Richtlinien systematisch auftreten
   (deren Fassungsdaten sind ebenfalls 2016/2017). REGISTER und Destillate der ganzen Serie
-  darauf durchsehen. Vorarbeit vorhanden (Run 8): `planungsgrundlagen` hat fuer BSR 13-15
+  darauf durchsehen. Vorarbeit vorhanden (Run 8): `planungsgrundlagen` hat für BSR 13-15
   (Rev. 2017, redaktionelle Deltas) und BSR 14-15 bereits Fassungs-Recherche geleistet — siehe
   `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser` (Run 41/52).»
 - [~] **TEILWEISE GESCHLOSSEN Run 22 (260725): Fassung «Stand 01.12.2022» gelesen und die Teilfrage zu
@@ -5102,41 +5181,41 @@ einzeln geprüft:
   sind laengst im Destillat geloest, nur die Checkbox hier wurde nie nachgezogen: Der Abschnitt
   «Fassung 01.12.2022 — Delta zur Fassung 01.01.2017» in
   `destillate/vkf-brl-16-15-flucht-rettungswege.md` (dort seit Run 22/23, 25.07.2026) behandelt
-  **beide** offenen Punkte abschliessend — (1) die ABSV-Aenderung vom 22.03.2017 zu Ziff.
+  **beide** offenen Punkte abschliessend — (1) die ABSV-Änderung vom 22.03.2017 zu Ziff.
   2.4.3/2.4.4: Run 23 hat die urspruengliche Fehldiagnose («Vertauschung Ziff. 2.4.3/2.4.4»,
   «S. 16») per `pdftotext`-Volltextabgleich beider Fassungen widerlegt und richtiggestellt —
   reine Umbenennung einer Anhang-Bildunterschrift auf S. 15, keine Vertauschung, kein
   Zahlenwert betroffen (Delta-Punkt 2 im Destillat); (2) die materielle Personenbelegungs-
-  Aenderung Ziff. 3.5.2 (TKB-Beschluss 09.06.2021, Anhang S. 24): am Original der Fassung
+  Änderung Ziff. 3.5.2 (TKB-Beschluss 09.06.2021, Anhang S. 24): am Original der Fassung
   Stand 01.12.2022 nochmals gegengelesen, die bereits seit Wissens-Chef Run 8 (18.07.2026)
-  im Destillat gefuehrte 3-zeilige Matrix (Fachmaerkte/Kaufhaeuser/Einkaufszentren 0.10/0.10,
+  im Destillat geführte 3-zeilige Matrix (Fachmaerkte/Kaufhaeuser/Einkaufszentren 0.10/0.10,
   Supermaerkte 0.38/0.15, Hochfrequentierte Supermaerkte 0.45/0.21 Personen/m2) stimmt
   wortgetreu mit dem Original ueberein — «kein weiterer Korrekturbedarf» (Delta-Punkt 3).
   Eigene Gegenpruefung dieses Laufs (23.08.2026): `BSPUB-1394520214-85.pdf` (35 S., Titel
   «16-15 Flucht- und Rettungswege», SharePoint `AR - 01 Projekte/2619_KINDERSPITAL/
   06_Reglemente/Brandschutz Normen Auszug/`) per `pdftotext -layout` erneut gelesen (Titelseite
-  S. 1-2 Aenderungsliste, Anhang S. 14-17), Wortlaut deckt sich vollstaendig mit dem im
+  S. 1-2 Änderungsliste, Anhang S. 14-17), Wortlaut deckt sich vollständig mit dem im
   Destillat dokumentierten Befund. Einzig **Delta-Punkt 1** (Fehlerkorrektur 01.12.2022,
-  Ziff. 3.7 Bildunterschrift «Geschossflaeche» → «Brandabschnittsflaeche», S. 33) war im
+  Ziff. 3.7 Bildunterschrift «Geschossfläche» → «Brandabschnittsfläche», S. 33) war im
   Original-Auftragstext unten bereits vorweggenommen richtig geloest (Run 22) und nie strittig.
   Ursprungswortlaut bleibt unten stehen, damit die Abarbeitung nachvollziehbar ist:
-- [x] **P1 — Fassung «Stand 01.12.2022» der VKF-BRL 16-15 vollstaendig destillieren.**
+- [x] **P1 — Fassung «Stand 01.12.2022» der VKF-BRL 16-15 vollständig destillieren.**
   *Checkbox nachgezogen 24.08.2026 (QUESTIONS-Abarbeitung) — der Text direkt darüber («GESCHLOSSEN
   23.08.2026») hatte die Klärung bereits dokumentiert, nur dieses Kästchen war stehen geblieben.
   Eigene Gegenprüfung: `destillate/vkf-brl-16-15-flucht-rettungswege.md` Frontmatter `datenstand`
   bestätigt alle drei Änderungsstufen (ABSV 22.03.2017, TKB 09.06.2021, Fehlerkorrektur 01.12.2022)
-  als "jetzt am Original geprueft und destilliert", Abschnitt "Fassung 01.12.2022 — Delta zur Fassung
+  als "jetzt am Original geprüft und destilliert", Abschnitt "Fassung 01.12.2022 — Delta zur Fassung
   01.01.2017" (Z. 253) vorhanden, `status: established-mit-vorbehalt`.*
   *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026); der Uebergabe-Flag stand seit Run 52 nur
   in `planungsgrundlagen` und war hier nie angekommen.* Im Bestand liegt
   `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-85.pdf`.
   Das aktuelle Destillat basiert auf der Fassung 01.01.2017; **nur die Personenbelegung Verkauf**
-  (Beschluss TKB 09.06.2021) ist nachgefuehrt. **Ungeprueft bleiben:** Beschluss **ABSV 22.03.2017**
+  (Beschluss TKB 09.06.2021) ist nachgeführt. **Ungeprüft bleiben:** Beschluss **ABSV 22.03.2017**
   (Ziff. 2.4.3/2.4.4, S. 15/16) und die **Fehlerkorrektur 01.12.2022** (Ziff. 3.7, S. 33).
   **Konkrete Teilfrage zu Ziff. 3.7:** die Fehlerkorrektur aendert laut planungsgrundlagen die
-  Bezugsflaeche der Schleusenpflicht bei Einstellraeumen von «Geschossflaeche» auf
-  «Brandabschnittsflaeche > 1'200 m2» — unser 2017er-Destillat schreibt aber **bereits**
-  «Brandabschnittsflaeche». Entweder ist die Beschreibung der Vorfassung unpraezis oder das
+  Bezugsfläche der Schleusenpflicht bei Einstellräumen von «Geschossfläche» auf
+  «Brandabschnittsfläche > 1'200 m2» — unser 2017er-Destillat schreibt aber **bereits**
+  «Brandabschnittsfläche». Entweder ist die Beschreibung der Vorfassung unpraezis oder das
   Destillat hat die Formulierung damals geglaettet. Am Wortlaut beider Fassungen klaeren.
 - [~] **BESTÄTIGT UND TEILWEISE BEHOBEN Run 22 (260725) — der Strukturhinweis war zutreffend und hat
   zwei konkrete Fälle geliefert.** Der hier geforderte «Bestand nach jüngeren Fassungen durchsuchen»-Schritt
@@ -5152,9 +5231,9 @@ einzeln geprüft:
   finden. Kuenftige Verifikationen sollten als ersten Schritt den **Bestand nach juengeren Fassungen
   derselben Norm** durchsuchen (Dateiname/Stempel), bevor sie Werte gegenlesen.
 - [ ] **BRING-SCHULD P1 — Volltext SIA 380/1:2016 beschaffen.** Im Bestand liegt nur eine Vorschau
-  (6 von 60 Seiten). Bis dahin sind Q_H-Grenz-/Zielwerte, U-Wert-Grenzwerte und Gebaeudekategorien
+  (6 von 60 Seiten). Bis dahin sind Q_H-Grenz-/Zielwerte, U-Wert-Grenzwerte und Gebäudekategorien
   **nicht belegbar** und duerfen von Agent `energie-berater` / Skill `planungsgrundlagen` NICHT
-  genannt werden. Falle: `alle/xalt/neu/380_1_d_2001.pdf` ist Volltext, aber zweifach ueberholt
+  genannt werden. Falle: `alle/xalt/neu/380_1_d_2001.pdf` ist Volltext, aber zweifach überholt
   (2001→2009→2016) — kein Ersatz. **SIA-Normen-Abo-Weg GEPRÜFT 23.08.2026 (SIA-Sweep,
   fünfundzwanzigste Fortsetzung) — Sackgasse:** `SIA_Abo/Korrespondenz/180208_INorm-Abo_2018_Login.pdf`
   ist ein iNorm-Abonnement der SIA von 2018, ausgestellt auf **Meili, Peter & Partner Architekten AG**
@@ -5165,7 +5244,7 @@ einzeln geprüft:
 - [ ] **BRING-SCHULD P1 — Volltext SIA 385/1:2011 beschaffen** (6 von 28 Seiten im Bestand). Die
   praxisrelevanteste Frage (Legionellen-Temperaturen, Ziff. 3.1/3.2, Normseite 13) ist bis dahin
   aus dieser Norm nicht beantwortbar. ~~Vor einem Normkauf zuerst pruefen, ob die franzoesische
-  Variante `alle/f/385_1_f.pdf` den Volltext enthaelt — waere der billigste Lueckenschluss.~~
+  Variante `alle/f/385_1_f.pdf` den Volltext enthaelt — waere der billigste Lückenschluss.~~
   **GEPRÜFT Run 22 (260725) — negativ, dieser Weg ist versperrt:** `alle/f/385_1_f.pdf` (60 S.) ist die
   Ausgabe **2000** zum Thema «Wasser und Wasseraufbereitungsanlagen in öffentlichen Schwimmbädern». Die
   Nummer 385/1 wurde 2011 für «Anlagen für Trinkwarmwasser in Gebäuden» wiederverwendet; die
@@ -5205,15 +5284,15 @@ einzeln geprüft:
   *(Ursprungswortlaut, Teil 1 seither geschlossen — siehe Eintrag direkt darüber.)*
   > **Nachtrag Run 61 (25.08.2026) — Marker auf `[~]` korrigiert, kein neuer Sachbefund.**
   > Der Eintrag benennt seine eigene Teilerledigung bereits im Schlusssatz («Teil 1 seither
-  > geschlossen»), stand aber weiter auf `[ ]`. Teil (1) SIA 400:2000 Rev. 1/2015 ist geprueft
+  > geschlossen»), stand aber weiter auf `[ ]`. Teil (1) SIA 400:2000 Rev. 1/2015 ist geprüft
   > und in `destillate/sia-400-2000.md` nachgetragen (23.08.2026); Teil (2) suissetec-
   > Planungsrichtlinien bleibt Beschaffungs-Bring-Schuld.
 - [~] **P2 — SIA-Merkblatt 2048 «Energetische Betriebsoptimierung» ins Inventar aufnehmen.**
   *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026).* Die KB `energie` hat die Uebergabe
-  («Kandidat fuer den Skill/die KB `normen`») in `destillate/muken-2025-modul-7-betriebsoptimierung-hlkkse.md`
+  («Kandidat für den Skill/die KB `normen`») in `destillate/muken-2025-modul-7-betriebsoptimierung-hlkkse.md`
   notiert; hier kam sie nie an (grep «2048» in `wissen/normen/`: 0 Treffer — weder REGISTER noch
   `training/norm-inventar.md`). SIA 2048 ist die von MuKEn 2025 Modul 7 in Bezug genommene Methodik;
-  energie hat sie bisher nur ueber EnFK EN-142 + Sekundaerquellen erschlossen. Fuer die Methodik-Frage
+  energie hat sie bisher nur ueber EnFK EN-142 + Sekundaerquellen erschlossen. Für die Methodik-Frage
   (Anhang E.2 Berichtsvorgaben) braucht es den Volltext.
   > ✅ **Bestandsfrage GEPRÜFT 23.08.2026 (QUESTIONS-Abarbeitung), negativ.** (1) SharePoint-Bestand
   > (Site PL, Drive `02_Recht_Norm`) per M365-Graph-Connector durchsucht: Volltextsuche
@@ -5239,12 +5318,12 @@ einzeln geprüft:
   SIA nicht geprüft). Ursprungswortlaut:
 - [ ] **Z1/Z2-Koeffizienten des SIA-103-Grundfaktors fehlen** (p = Z1 + Z2/∛Bp, Ziff. 7.2.2). Sie
   werden laut Norm periodisch vom SIA publiziert, stehen aber nicht im PDF. Folge: **Honorar nach
-  Baukosten ist nach SIA 103 derzeit nicht durchrechenbar.** Fuer SIA 102 liefert das neue Destillat
+  Baukosten ist nach SIA 103 derzeit nicht durchrechenbar.** Für SIA 102 liefert das neue Destillat
   `sia-honorar-hilfsmittel.md` die z-Werte 2015 — der SIA-103-Gegenpart fehlt.
 - [x] **Widerspruch zwischen Destillaten — KORRIGIERT 21.07.2026 (Dauerschicht-Zyklus 39,
   Audit-Top-1):** `sia-112-2014.md` Z. 19 ordnete SIA 104 = «Landschaftsarchitektur» und
   SIA 105 = «Maschinen-/Elektroingenieur» zu; korrigiert auf 104 = Forstingenieure,
-  105 = Landschaftsarchitektur, 108 = Gebaeudetechnik/Maschinenbau/Elektrotechnik —
+  105 = Landschaftsarchitektur, 108 = Gebäudetechnik/Maschinenbau/Elektrotechnik —
   verifiziert an den drei etablierten Ordnungs-Destillaten (sia-104-2003, sia-105-2020,
   sia-108-2014, je Titelseite der Original-PDFs). Restpunkt bleibt: bei Gelegenheit am
   SIA-112-Original S. 4/S. 10 gegenlesen, ob der Scan dort tatsaechlich anders lautet
@@ -5253,9 +5332,9 @@ einzeln geprüft:
   richtig — die Definition steht in der Brandschutznorm 1-15de (Art. 13 Abs. 2 lit. a, S. 8) und wortnah
   in der BRL 10-15de «Begriffe und Definitionen» (S. 12). Neuer Artikel
   `wiki/vkf-beherbergungskategorien.md`; Details und Verifikations-Verdikt in der Run-22-Sektion oben.
-- [ ] **SIA 118:2013 nicht im Bestand** — belegt sind nur 1977/1991. Ob die Ausgabe 2013 fuer laufende
-  Werkvertraege beschafft werden muss, ist ein Entscheid fuer Raphael.
-  > **Nachtrag Run 61 (25.08.2026) — Bestand mit Primaerquellenzugriff geprueft, Kaufentscheid
+- [ ] **SIA 118:2013 nicht im Bestand** — belegt sind nur 1977/1991. Ob die Ausgabe 2013 für laufende
+  Werkvertraege beschafft werden muss, ist ein Entscheid für Raphael.
+  > **Nachtrag Run 61 (25.08.2026) — Bestand mit Primaerquellenzugriff geprüft, Kaufentscheid
   > bleibt.** Rekursiver `find` ueber `PL - 02_Recht_Norm/02_Normen` (OneDrive materialisiert,
   > 636 PDF): im Haus liegen `alle/118_1991_d.pdf`, `SIA_Normen/SIA 118/118_1991_d.pdf`,
   > `alle/118-C1_2026_d.pdf` sowie die Teilnormen 118/2xx (244, 246, 248, 257, 262, 263, 265,
@@ -5264,7 +5343,7 @@ einzeln geprüft:
   > aendert das nichts.
   > ⚠ **Randbefund zum Ursprungswortlaut:** «belegt sind nur 1977/1991» ist ungenau — eine
   > SIA-118-Ausgabe **1977 liegt nicht im Haus** (der 1977er-Treffer im Bestand ist SIA 150:1977,
-  > eine andere Norm). Belegt ist 1991, dazu die Aenderung C1:2026. Nicht im Ursprungswortlaut
+  > eine andere Norm). Belegt ist 1991, dazu die Änderung C1:2026. Nicht im Ursprungswortlaut
   > korrigiert (Nachvollziehbarkeit), hier richtiggestellt.
 - [x] **ÜBERHOLT, korrigiert Run 22 (260725):** Die Merkblatt-Serie ist destilliert (Run 16, 260719) —
   `sia-mb-2001-2005` … `sia-mb-2027-2006`, inkl. der prioritären `sia-mb-2024-2006`
@@ -5274,26 +5353,26 @@ einzeln geprüft:
   als geltendes Recht zitieren. Strategisch relevant als Vorschau auf die Abloesung der BSV 2015.
   > **Nachtrag Run 61 (25.08.2026, Normen-Nacht) — Teilerledigung, Marker auf `[~]` korrigiert.**
   > Die *Aufgabe* dieser Zeile («neu im Inventar») ist seit Run 16 erledigt und dort belegt:
-  > `training/norm-inventar.md:1128` fuehrt `07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF
+  > `training/norm-inventar.md:1128` führt `07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF
   > Normkonzept BSV 2026 Stand 2022-10-06.pdf` als `[x] 260719` mit Destillat
   > `vkf-normkonzept-bsv-2026-entwurf.md` (established, verifiziert beanstandet, 6 Befunde
   > korrigiert); `destillate/INDEX.md:345` und `wiki/REGISTER.md:1141` sind gleichlautend
-  > nachgefuehrt. Offen bleibt allein der **stehende Warnhinweis** (nie als geltendes Recht
+  > nachgeführt. Offen bleibt allein der **stehende Warnhinweis** (nie als geltendes Recht
   > zitieren) — der ist kein abschliessbarer Auftrag, sondern eine Dauerregel; die laufende
-  > Ueberwachung des Inkrafttretens fuehrt der eigene Eintrag «BSV 2026 ueberwachen» (Z. ~4162,
+  > Ueberwachung des Inkrafttretens führt der eigene Eintrag «BSV 2026 ueberwachen» (Z. ~4162,
   > Inkraftsetzung fruehestens Maerz 2027). Kein Primaerquellenbefund, reine Markerkorrektur.
 - [~] **Inventar-Scan haerten:** Der Scan vom 11.07.2026 hat nur `SIA_Normen/alle/` erfasst (58 Dateien
-  uebersehen) und Vorschau-PDFs nicht erkannt. Zwei Konsequenzen fuer den naechsten Scan: (1) rekursiv
+  uebersehen) und Vorschau-PDFs nicht erkannt. Zwei Konsequenzen für den nächsten Scan: (1) rekursiv
   ab `02_Normen/` scannen, nicht ab einem Unterordner; (2) je PDF die tatsaechliche Seitenzahl gegen die
   auf dem Titelblatt deklarierte «Anzahl Seiten» pruefen — damit waeren beide Auszuege sofort aufgefallen.
-  Gegenprobe Run 15: im uebrigen destillierten SIA-Bestand (`alle/`) gibt es **0 weitere Auszuege**.
+  Gegenprobe Run 15: im übrigen destillierten SIA-Bestand (`alle/`) gibt es **0 weitere Auszuege**.
   > **Nachtrag 23.08.2026 (QUESTIONS-Abarbeitung 24): Punkt (1) substanziell erledigt, Punkt (2) bleibt
   > offen.** Die SIA-Sweep-Fortsetzung „fünfte" (23.08.2026) hat mit funktionierendem Graph-API-Zugang
-  > ein vollstaendiges Listing von 140 Dateien aus `SIA_Norm/SIA_Normen/alle/` plus sieben norm-eigenen
-  > Unterordnern gegen die 55 Bestandslücken-Nummern gefahren — 0 Treffer, die Luecke ist real, kein
+  > ein vollständiges Listing von 140 Dateien aus `SIA_Norm/SIA_Normen/alle/` plus sieben norm-eigenen
+  > Unterordnern gegen die 55 Bestandslücken-Nummern gefahren — 0 Treffer, die Lücke ist real, kein
   > Scan-Artefakt der urspruenglichen `alle/`-only-Erfassung (`outputs/2026-08-23_sia-sweep-fuenfte-
   > fortsetzung-zugangsweg.md`). Damit ist der urspruengliche Verdacht «rekursiver Scan faende mehr»
-  > fuer den SIA-Bestand widerlegt, nicht nur fuer den Unterordner `alle/`. **Punkt (2) — Seitenzahl
+  > für den SIA-Bestand widerlegt, nicht nur für den Unterordner `alle/`. **Punkt (2) — Seitenzahl
   > gegen Titelblatt-Deklaration je PDF — ist NICHT erneut gegen den seit Run 15 (Mitte Juli) massiv
   > gewachsenen Destillat-Bestand (79+ SIA-Destillate, Stand 23.08.2026) gepruefft worden;** die
   > „0 weitere Auszuege"-Aussage bezieht sich nachweislich nur auf den damaligen Bestand. Ein
@@ -5312,10 +5391,10 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   `VSS 640 291a.PDF` steckt und keine eigene Datei ist), RAL 1 = 1, Lignum 0 = 0. Die von Run 15
   gemeldete Differenz (DIN 71, VSS 14) reproduziert sich heute nicht — vermutlich transienter
   OneDrive-Sync-Zustand auf der Gegenstation am 17.07., kein echter Bestandsfehler. «DIN/VSS/RAL
-  komplett» bleibt bestaetigt. Details `outputs/2026-07-20_normen-mini-run33.md`.
-- [x] **Auszug-Plausibilisierung fuer DIN/VSS — GEKLAERT Mac-Mini-Nachtschicht (2026-07-21):**
+  komplett» bleibt bestätigt. Details `outputs/2026-07-20_normen-mini-run33.md`.
+- [x] **Auszug-Plausibilisierung für DIN/VSS — GEKLAERT Mac-Mini-Nachtschicht (2026-07-21):**
   Root Cause zum Mini-Run-33-Teilbefund gefunden. `DIN EN 12207.pdf` liest sich normal (6 S.
-  bestaetigt, Adobe-Scan 2012), kein Auffaelligkeitsbefund ueber die reine Seitenzahl hinaus.
+  bestätigt, Adobe-Scan 2012), kein Auffaelligkeitsbefund ueber die reine Seitenzahl hinaus.
   `DIN 277-1.pdf` bleibt auf dem Mac Mini reproduzierbar NICHT lesbar — diesmal ueber `cat`
   direkt (nicht nur `pdfinfo`/Read-Tool) verifiziert: `stat` meldet korrekt 577'967 Bytes,
   jeder Lesezugriff (`cat`, Kopieren nach `/tmp`) bricht exakt mit `EDEADLK`/"Resource deadlock
@@ -5325,19 +5404,19 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   Internet OK, `brctl status` zeigt den Container `foreground`/`caught-up`, letzter Sync
   17:19 Uhr) und nicht die Netzwerkverbindung, sondern **spezifisch der lokale File-Provider-
   Cache-Eintrag dieser einen Datei auf dem Mac Mini**. `brctl download` griff nicht (Tool ist
-  fuer iCloud/CloudDocs, nicht fuer den OneDrive-File-Provider zustaendig — erwartete
+  für iCloud/CloudDocs, nicht für den OneDrive-File-Provider zustaendig — erwartete
   Fehlermeldung "Path is outside of any CloudDocs app library"). Damit ist die in Mini-Run 33
   offen gelassene Alternative **beantwortet**: kein Datenverlust in der SharePoint-Ablage (das
   bestehende Destillat `din-277-1-2005.md` wurde nachweislich von einer anderen Station aus
-  vollstaendig gelesen und verifiziert), sondern ein isolierter, lokaler Materialisierungsfehler
+  vollständig gelesen und verifiziert), sondern ein isolierter, lokaler Materialisierungsfehler
   auf dem Mac Mini. **Kein automatischer Fix versucht** (Neustart OneDrive-App/Entfernen des
   lokalen Cache-Eintrags ist keine Nachtschicht-Whitelist-Aktion) — empfohlene manuelle Behebung
-  fuer Raphael bei Gelegenheit: Datei im Finder rechtsklicken → "Immer auf diesem Geraet behalten"
+  für Raphael bei Gelegenheit: Datei im Finder rechtsklicken → "Immer auf diesem Geraet behalten"
   aus-/wieder einschalten, oder OneDrive-App einmal neu starten, das erzwingt eine
   Neu-Materialisierung. Betrifft nur den Lesezugriff auf dem Mini; der Skill `normen` und alle
-  Destillate bleiben unveraendert korrekt. Details vorheriger Lauf: `outputs/2026-07-20_normen-mini-run33.md`.
+  Destillate bleiben unverändert korrekt. Details vorheriger Lauf: `outputs/2026-07-20_normen-mini-run33.md`.
 - [x] **Stilllegung des Tasks `normen-training-mini` (Radar-Entscheid 17.07., Commit `fd6ce35f`) beruht auf
-  «Inventar dreimal komplett bestaetigt».** Nach Mini-Run 33 war Punkt 1 (Zaehl-Differenz) geklaert;
+  «Inventar dreimal komplett bestätigt».** Nach Mini-Run 33 war Punkt 1 (Zaehl-Differenz) geklaert;
   Punkt 2 (Auszug-Plausibilisierung DIN 277-1) ist mit der lokalen EDEADLK-Root-Cause-Analyse
   vom 2026-07-21 (siehe oben) ebenfalls geklaert — kein Datenverlust, nur lokaler Mac-Mini-
   Cache-Fehler, kein weiterer Inventar-Handlungsbedarf. Reaktivierung des Loops bleibt trotzdem
@@ -5510,7 +5589,7 @@ Struktur-Muster 1 «Übergabe verpufft im abgebenden KB»: `baurecht` nennt vier
 Fundstellenfunktion, die in dieser KB **null Präsenz** haben (weder Destillat noch
 `training/norm-inventar.md`). Bis dahin gilt in `baurecht` der dortige Wortlaut; hier ist
 Bestandsprüfung und ggf. Destillat fällig. Gegenprobe im Cross-Lauf: `wiki/QUESTIONS.md`
-dieser KB enthielt bis heute **0 Treffer** fuer «baurecht» — es war noch nie eine Bring-Schuld
+dieser KB enthielt bis heute **0 Treffer** für «baurecht» — es war noch nie eine Bring-Schuld
 aus der Recht-KB hier angekommen.
 
 > **Nachtrag Wissens-Chef Run 16 (26.07.2026):** Die Anmeldung allein hat nicht gewirkt — Run 28
@@ -5701,7 +5780,7 @@ Runde 4 hat das korrigiert). Details `training/norm-inventar.md` (Run-33-Eintrag
 `outputs/2026-07-27_normen-nacht-run33.md`. Fünfte Runde für die drei verbleibenden Destillate
 ist naheliegender nächster Batch (alle drei nahe am Nulldurchgang).
 
-### Regionale Geltung Brandschutznachweis-Arbeitshilfen fuer ZH (Run 33, recherchiert)
+### Regionale Geltung Brandschutznachweis-Arbeitshilfen für ZH (Run 33, recherchiert)
 
 Web-Recherche (WebSearch/WebFetch, 27.07.2026) zur oben offenen Frage «kennt die GVZ/Stadt
 Zürich eine abweichende Symbolik oder ein eigenes Verfahren?». Befund: **kein eigenes,
@@ -5794,7 +5873,7 @@ das geht nur bei korrekter Zuordnung auf.
 > 9.1.1) und die Neufassung von Tabelle 9 in Anhang D.1.1.3 sind aus der Korrigenda selbst
 > zitiert, nicht gegen den vollständigen Anhangstext geprüft — vermerkt in den Offenen Punkten
 > des Destillats. C1/C2 bleiben unverändert offen (nur sekundär über `sia-500-auslegung.md`
-> belegt). Report: `outputs/2026-08-23_sia500-korrigenda-c3-c4-vollstaendig.md`.
+> belegt). Report: `outputs/2026-08-23_sia500-korrigenda-c3-c4-vollständig.md`.
 >
 > ✅ **C1/C2 ZUSÄTZLICH GESCHLOSSEN 23.08.2026 (SIA-Sweep, dreizehnte Fortsetzung).** Auch
 > C1:2009 (SN 521500-C1:2009 de, 6 S.) und C2:2011 (SN 521500-C2:2011 de, gültig ab 01.06.2011,
@@ -5817,12 +5896,12 @@ das geht nur bei korrekter Zuordnung auf.
 > Fundstelle in `destillate/sia-500-2009.md` nachgeführt, `wiki/REGISTER.md` FRISCH-GEMELDET
 > ergänzt. Kein Cross-KB-Abnehmer zitiert Ziff. 10.2.1 bisher aktiv (geprüft: 0 Treffer für
 > «10.2.1» ausserhalb dieser Datei). Report:
-> `outputs/2026-08-23_sia500-korrigenda-c1-c2-vollstaendig.md`.
+> `outputs/2026-08-23_sia500-korrigenda-c1-c2-vollständig.md`.
 
 **Was der Chef-Lauf geleistet hat.** Der Verifikator hat die Basisausgabe `500_2009.pdf` sowie die
 Korrigenda **C3:2013** und **C4:2019** am Original beschafft und ausgewertet (shop.sia.ch,
 Preisgruppe 0 — Korrigenda sind gratis). Ergebnis in `destillate/sia-500-2009.md`: Fassungs-Feld
-`ausgabe_ueberholt` gesetzt, **Ziff. 9.7.2/9.7.3 vollständig auf C3:2013 nachgeführt** (Bezugsgrösse
+`ausgabe_überholt` gesetzt, **Ziff. 9.7.2/9.7.3 vollständig auf C3:2013 nachgeführt** (Bezugsgrösse
 wechselt von Parkplätzen auf **Wohnungen**, neuer 100-m-Richtwert), Ziff. 3.4.1 und 3.7.3 als
 C4-betroffen markiert.
 
@@ -5845,18 +5924,18 @@ wenn die **Ausgabe unverändert gilt**, können **Korrigenda** einzelne Ziffern 
 sie tragen keine neue Jahreszahl im Normtitel und sind deshalb an der Ausgabe nicht erkennbar.
 Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops dazu; sie sind gratis.
 
-## 260731 — NIN: eigener Stromkreis fuer Geschirrspueler?
-- Frage: Enthaelt die NIN (SN 411000, aktuelle Ausgabe NIN 2025/2020) eine Bestimmung, die fuer Geschirrspueler eine eigene, separat abgesicherte Steckdose/Endstromkreis verlangt, oder ist das Teilen einer Gruppe (z.B. mit Kuehlschrank) zulaessig?
-- Stand: NIN liegt nicht in PL-02/02_Normen (dort nur SIA/VKF/DIN/VSS/RAL/Lignum). Web-Recherche 31.07.2026: keine explizite NIN-Fundstelle gefunden; deutsche DIN 18015-2 verlangt eigene Stromkreise fuer Geraete >2 kW (in CH nicht direkt verbindlich). Praxis-Hebel: Montageanleitung des Herstellers (verbindlich) + Bemessung des Endstromkreises.
+## 260731 — NIN: eigener Stromkreis für Geschirrspueler?
+- Frage: Enthaelt die NIN (SN 411000, aktuelle Ausgabe NIN 2025/2020) eine Bestimmung, die für Geschirrspueler eine eigene, separat abgesicherte Steckdose/Endstromkreis verlangt, oder ist das Teilen einer Gruppe (z.B. mit Kuehlschrank) zulässig?
+- Stand: NIN liegt nicht in PL-02/02_Normen (dort nur SIA/VKF/DIN/VSS/RAL/Lignum). Web-Recherche 31.07.2026: keine explizite NIN-Fundstelle gefunden; deutsche DIN 18015-2 verlangt eigene Stromkreise für Geraete >2 kW (in CH nicht direkt verbindlich). Praxis-Hebel: Montageanleitung des Herstellers (verbindlich) + Bemessung des Endstromkreises.
 - Zweiter Web-Recherche-Anlauf 23.08.2026 (QUESTIONS-Abarbeitung): vier gezielte WebSearch-Anfragen (NIN + Geschirrspueler/Kuechengeraete/eigener Stromkreis/NIN-Know-how) und ein WebFetch-Versuch auf eine als Treffer gelistete Electrosuisse-PDF (`nin_kh_53.pdf`, HTTP 404) sowie auf die frei zugaengliche NIN-FAQ-Sammlung `mueller-pe.ch/nin_fragen.php` (durchsucht, kein Treffer zu Kuechengeraeten/Endstromkreisen). Kein Fund, echte Sackgasse: der eigentliche Normtext (SN 411000 bzw. die NIN-Arbeitsblaetter im Volltext) liegt hinter der kostenpflichtigen `ninonline.electrosuisse.ch`-Anmeldung, frei zugaengliche Sekundaerquellen (FAQ-Seiten, oeffentliche Auszuege) behandeln diese Detailfrage nicht.
-- Naechster Schritt (unveraendert): NIN-Zugang (ninonline.electrosuisse.ch, kostenpflichtig — Bring-Schuld Raphael) oder Rueckfrage Elektroplaner; bei Antwort Destillat-Artikel anlegen. Ein weiterer freier Web-Recherche-Anlauf ueber dieselben Quellenarten verspricht keinen Mehrwert.
-- **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung):** Kontaktdaten fuer den Bring-Schuld-Schritt
+- Naechster Schritt (unverändert): NIN-Zugang (ninonline.electrosuisse.ch, kostenpflichtig — Bring-Schuld Raphael) oder Rueckfrage Elektroplaner; bei Antwort Destillat-Artikel anlegen. Ein weiterer freier Web-Recherche-Anlauf ueber dieselben Quellenarten verspricht keinen Mehrwert.
+- **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung):** Kontaktdaten für den Bring-Schuld-Schritt
   recherchiert, nicht die Norm selbst. Electrosuisse-Hauptkontakt laut offizieller Kontaktseite
   `electrosuisse.ch/de/kontakt/` (WebFetch, Abruf 24.08.2026, Erstquelle): **info@electrosuisse.ch**,
-  Tel. **+41 58 595 11 11**, Hauptsitz Luppmenstrasse 1, 8320 Fehraltorf; Kontaktformular fuehrt
+  Tel. **+41 58 595 11 11**, Hauptsitz Luppmenstrasse 1, 8320 Fehraltorf; Kontaktformular führt
   die Kategorie «Bestellung Produkt / Norm». ⚠ Eine spezifischere Adresse
   `normenverkauf@electrosuisse.ch` (Tel. 058 595 11 90) wurde nur in der WebSearch-Zusammenfassung
-  genannt, auf der Shop-Seite selbst per Gegenprobe **nicht bestaetigt** — nicht als eigenstaendig
+  genannt, auf der Shop-Seite selbst per Gegenprobe **nicht bestätigt** — nicht als eigenständig
   belegte Angabe uebernommen, nur der Hauptkontakt ist zitierfaehig.
 
 ## 260807 — Bezugsgroessen-Divergenz E_vm: SIA 2056 Tab. 42 gegen SIA 387/4 Tab. 4 (KB-intern)
@@ -5887,7 +5966,7 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 >
 > **Ursprungswortlaut:** Beide Destillate fuehren eine Groesse unter dem Namen **E_vm**, aber mit
 > unterschiedlichem Bezug. `destillate/sia-592-056.md:84` (SIA 2056, Tab. 42) nennt Bettenzimmer
-> **300 lx**; `destillate/sia-387-4-2017.md:61` (SIA 387/4, Tab. 4) nennt fuer dieselbe Nutzung
+> **300 lx**; `destillate/sia-387-4-2017.md:61` (SIA 387/4, Tab. 4) nennt für dieselbe Nutzung
 > **E_vm 100 lx** bei E_0 = 300 (ueber k_0 = 3). Herkunft: Cross-KB-Lauf Wissens-Chef Run 28,
 > 07.08.2026, Feld F.
 
@@ -5901,7 +5980,7 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 > Destillat 23.08.2026 (Sitzung QUESTIONS-Abarbeitung) bestätigt beide Fundstellen.
 
 - Frage (Ursprungswortlaut): `destillate/sia-382-2-2011.md` referenziert in Ziff. 0.2.1 und Kap. 5 durchgehend **SIA 416/1:2007** «Kennzahlen für die Gebäudetechnik» (Bezugsflächen, Tabellenschema Tabellen 1-3). Im Frontmatter `links` stand dagegen nur `[[sia-416-2003]]`, also SIA 416:2003 «Flächen und Volumen von Gebäuden» — eine andere Norm mit ähnlicher Nummer. Ein Destillat zu SIA 416/1:2007 lag im Bestand nicht vor.
-- Warum das zaehlte: Jeder Abnehmer, der über den Link auf SIA 416 in 382/2 nachschlaegt, wäre auf der falschen Norm gelandet (Flaechen/Volumen statt Gebaeudetechnik-Kennzahlen).
+- Warum das zaehlte: Jeder Abnehmer, der über den Link auf SIA 416 in 382/2 nachschlaegt, wäre auf der falschen Norm gelandet (Flächen/Volumen statt Gebäudetechnik-Kennzahlen).
 - Herkunft: Refuter-Run 49 (13.08.2026), Nebenbefund zu `destillate/sia-382-2-2011.md`; geschlossen durch Run 52 (15.08.2026), hier nachgetragen 23.08.2026.
 
 ## 260823 — VKF BRL 13-15: Delta 2015→2017 liegt an zwei Orten (Duplikat, nicht konsolidiert)
@@ -5913,34 +5992,34 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 > die kanonische Fundstelle, `vkf-brl-13-15-fassung-2017-delta.md` (speculative) die
 > Redundanz-/Gegenprobe-Fassung. Beide Dateien tragen jetzt einen gegenseitig verlinkten
 > Kanon-Hinweis im Fliesstext (nicht nur im Frontmatter). **Keine Datei geloescht oder
-> zusammengelegt** — Rule `wissens-bibliothekar` verlangt dafuer eine Rueckfrage, hier genuegte
+> zusammengelegt** — Rule `wissens-bibliothekar` verlangt dafür eine Rueckfrage, hier genuegte
 > eine nicht-destruktive Klarstellung. Dieselbe Methode (established > speculative als
 > Tie-Breaker) laesst sich auf N60-1 (AFC-Synopse-Duplikat) NICHT uebertragen, da dort beide
 > Destillate `established` sind — dort bleibt der Entscheid bei Raphael.
 
-- Frage: `vkf-brl-13-15-baustoffe-bauteile.md` traegt seit 25.07.2026 (Run 23) einen eigenen,
-  `established` gefuehrten Inline-Abschnitt «Fassung 01.01.2017 — Delta». Run 60 (23.08.2026) hat
-  unabhaengig davon, gemaess der seit Run 59 gefuehrten Konvention (eigene Delta-Datei je
+- Frage: `vkf-brl-13-15-baustoffe-bauteile.md` trägt seit 25.07.2026 (Run 23) einen eigenen,
+  `established` geführten Inline-Abschnitt «Fassung 01.01.2017 — Delta». Run 60 (23.08.2026) hat
+  unabhaengig davon, gemäss der seit Run 59 geführten Konvention (eigene Delta-Datei je
   Publikation, z.B. `vkf-brl-10-15-fassung-2019-delta.md`), zusaetzlich
   `vkf-brl-13-15-fassung-2017-delta.md` erstellt. Beide kommen unabhaengig zum selben Ergebnis
   (Gegenprobe bestanden), aber welcher Ort kuenftig kanonisch ist und ob der Inline-Abschnitt in
-  eine reine Verweiszeile gekuerzt werden soll, ist nicht entschieden.
-- Warum das zaehlt: zwei Orte fuer denselben Sachverhalt driften bei der naechsten Aenderung
-  auseinander, wenn nur einer nachgefuehrt wird.
+  eine reine Verweiszeile gekürzt werden soll, ist nicht entschieden.
+- Warum das zaehlt: zwei Orte für denselben Sachverhalt driften bei der nächsten Änderung
+  auseinander, wenn nur einer nachgeführt wird.
 - Herkunft: Run 60, Auftrag «VKF-Fassungs-Deltas 01.01.2015 → 01.01.2017», Publikation 13-15.
 
 ## 260823 — VKF BRL 17-15: Begriffe «Verkaufsraeume» und «Technikraum Sicherheitsstromversorgung» nicht in dieser Richtlinie definiert
 
 > ✅ **TEIL 1 (Verkaufsraeume) GESCHLOSSEN am 23.08.2026 durch den Hauptprozess, Run 60.** Die
 > Vermutung im Fragetext, die Begriffsbildung sei erst 2019 gekommen, trifft **nicht** zu. Die
-> BRL 10-15 definiert «Verkaufsraeume» als Raeume fuer den Warenverkauf, die weder unter «Raeume
-> mit grosser Personenbelegung» noch unter «Verkaufsgeschaefte» fallen, mit der ausdruecklichen
+> BRL 10-15 definiert «Verkaufsraeume» als Räume für den Warenverkauf, die weder unter «Räume
+> mit grosser Personenbelegung» noch unter «Verkaufsgeschäfte» fallen, mit der ausdrücklichen
 > Zuweisung «es gelten die nutzungsbezogenen Anforderungen an Gewerbe und Industrie» — und dieser
 > Begriff gehoert zu den zehn Begriffen des **IOTH-Beschlusses vom 22.09.2016**, also zur Fassung
 > **01.01.2017**. Definition und Tabellenanwendung stammen damit aus **demselben Beschluss**: die
 > 17-15 verschiebt «Verkaufsraeume» genau in jene Zeile, der die 10-15 sie definitorisch zuweist.
 > Die Tabellenaenderung ist also kein isoliertes Absenken, sondern der Vollzug einer Definition.
-> Ausgefuehrt und belegt im Destillat `vkf-brl-17-15-fassung-2017-delta.md`, Abschnitt «Offene
+> Ausgeführt und belegt im Destillat `vkf-brl-17-15-fassung-2017-delta.md`, Abschnitt «Offene
 > Punkte»; Tabellenvergleich vom Hauptprozess an eigenen Renderings (200 dpi, gedruckte S. 9)
 > unabhaengig nachgelesen.
 >
@@ -5955,8 +6034,8 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 > Fassungs-Delta-Kette bis 01.01.2019 (`vkf-brl-10-15-fassung-2019-delta.md`, Quelle
 > VKG-Publikationsportal BSPUB-1394520214-2768 gegen Hausbestand) listet erschöpfend alle elf
 > durch die Beschlüsse IOTH 22.09.2016 und 20.09.2018 neu gefassten oder neu eingeführten
-> Begriffe (Dachkonstruktionen, Einliegerwohnung, Galerie, Raum, Ueberhohe Raeume,
-> Verkaufsraeume, Bedachung, Gesamthoehe, Kindertagesstaetten, Nutzungseinheit,
+> Begriffe (Dachkonstruktionen, Einliegerwohnung, Galerie, Raum, Ueberhohe Räume,
+> Verkaufsraeume, Bedachung, Gesamthöhe, Kindertagesstaetten, Nutzungseinheit,
 > Uebereinstimmungserklaerung) — «Technikraum» ist nicht darunter. Damit ist der Begriff in
 > **keiner** in der KB dokumentierten Fassung von BRL 10-15 (2015 bis 2019) definiert. Der
 > Ausdruck in BRL 17-15 (Anhang zu Ziff. 3.3.2) bezeichnet demnach einen **Brandabschnitt nach
@@ -5966,15 +6045,15 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 > Sicherheitsstromversorgung bis zur Brandabschnittsgrenze) selbst herleiten. Quelle:
 > `Begriffe & Definitionen.pdf` (SharePoint Site PL, Drive `02_Recht_Norm`, `VKF_Norm/
 > 02_Brandschutzrichtlinien 2015/`), per M365-Graph-Connector geladen, Abruf 23.08.2026.
-- Frage: Der Anhang zu Ziff. 2.2 (S. 9, Fassung 2017) fuehrt die Nutzungskategorie
-  «Verkaufsraeume» neu getrennt von «Verkaufsgeschaefte», ohne beide Begriffe zu definieren. Der
+- Frage: Der Anhang zu Ziff. 2.2 (S. 9, Fassung 2017) führt die Nutzungskategorie
+  «Verkaufsraeume» neu getrennt von «Verkaufsgeschäfte», ohne beide Begriffe zu definieren. Der
   Anhang zu Ziff. 3.3.2 (S. 12) verlangt neu einen Brandabschnitt «Technikraum
   Sicherheitsstromversorgung», ebenfalls ohne Definition in dieser Richtlinie. `vkf-brl-10-15-
-  fassung-2019-delta.md` fuehrt «Verkaufsraeume» als 2019 neu eingefuehrten Begriff mit Abgrenzung
-  zu «Verkaufsgeschaefte» und «Raeume mit grosser Personenbelegung» — deckt sich das mit der
+  fassung-2019-delta.md` führt «Verkaufsraeume» als 2019 neu eingeführten Begriff mit Abgrenzung
+  zu «Verkaufsgeschäfte» und «Räume mit grosser Personenbelegung» — deckt sich das mit der
   hiesigen 2017er-Tabellenzeile, oder ist die Begriffsbildung 2019 eine Praezisierung, die erst
-  nach der 17-15-Aenderung 2017 kam?
-- Warum das zaehlt: ohne Begriffsklaerung ist die praktisch wichtige Frage «gilt eine Flaeche als
+  nach der 17-15-Änderung 2017 kam?
+- Warum das zaehlt: ohne Begriffsklaerung ist die praktisch wichtige Frage «gilt eine Fläche als
   Verkaufsraum (Empfehlungszeile) oder Verkaufsgeschaeft (Pflichtzeile)» nicht aus der KB
   beantwortbar.
 - Herkunft: Run 60, Delta-Destillat `vkf-brl-17-15-fassung-2017-delta.md`.
@@ -5983,13 +6062,13 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 > Teilschritte waren bereits in den Destillaten selbst erledigt, hier nur nachgezogen: (1) die
 > Gegenseitig-Verlinkung fehlte einseitig — `vkf-brl-17-15-fassung-2017-delta.md` verlinkte
 > bereits auf `vkf-brl-10-15-fassung-2019-delta.md` (Frontmatter + «Offene Punkte», belegt mit
-> Seitenangabe 35), der Rueckweg fehlte im Frontmatter der 10-15-Delta-Datei und wurde ergaenzt.
+> Seitenangabe 35), der Rueckweg fehlte im Frontmatter der 10-15-Delta-Datei und wurde ergänzt.
 > (2) Die vermeintliche Rueckwirkungsfrage stellt sich nicht: «Verkaufsraeume» ist **kein**
 > 2019er-Begriff, sondern gehoert zu den zehn Begriffen des IOTH-Beschlusses vom **22.09.2016**
-> (Fassung **01.01.2017**) — demselben Beschluss, der die BRL-17-15-Tabellenaenderung traegt.
-> Beide Aenderungen sind am selben Tag beschlossen; die Tabellenverschiebung ist Vollzug der
+> (Fassung **01.01.2017**) — demselben Beschluss, der die BRL-17-15-Tabellenaenderung trägt.
+> Beide Änderungen sind am selben Tag beschlossen; die Tabellenverschiebung ist Vollzug der
 > Definition, keine zeitversetzte Anwendung. Ein erklaerender Querverweis wurde zusaetzlich in
-> `vkf-brl-10-15-fassung-2019-delta.md` (nach der Sechs-Begriffe-Tabelle) ergaenzt. Kein
+> `vkf-brl-10-15-fassung-2019-delta.md` (nach der Sechs-Begriffe-Tabelle) ergänzt. Kein
 > Widerspruch zur TEIL-1-Schliessung oben — deckungsgleiches Ergebnis, hier nur die beiden
 > Datei-Querverweise nachgezogen.
 
@@ -5998,7 +6077,7 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 
 ## 260823 — N60-1: Die AFC-Synopse 2017 ist zweimal destilliert (ENTSCHEID RAPHAEL nötig)
 
-- **Frage:** Dieselbe Quelle — `Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` (AFC Basel,
+- **Frage:** Dieselbe Quelle — `Änderungen_Brandschutzrichtlinien_VKF-2017.pdf` (AFC Basel,
   Autorin Lisa Hugenschmidt) — liegt in dieser KB als **zwei** Destillate vor:
   `vkf-aenderungen-brandschutzrichtlinien-2017.md` (13.07.2026) und `vkf-brl-aenderungen-2017.md`
   (21.07.2026). Beide `established`, beide mit denselben vierzehn Abschnitten und denselben
@@ -6182,11 +6261,11 @@ Bis dahin gilt im baurecht-Artikel weiterhin der dort bereits gesetzte Vorbehalt
   einzige Fundstelle im ganzen Bestand ist eine Literaturangabe der **Vorgaengernorm**
   SN 640 273 (nicht 273a). Die Ausgabe 273a gilt seit dem 1.8.2010.
 - **Zu tun:** SN 640 273a beschaffen (VSS, kostenpflichtig — dieselbe Bring-Schuld-Klasse wie
-  die uebrigen SN-640-Zeilen), Registerzeile anlegen, danach destillieren und die Werte im
+  die übrigen SN-640-Zeilen), Registerzeile anlegen, danach destillieren und die Werte im
   baurecht-Artikel gegenlesen.
 - **Bis dahin gilt** (Vorbehalt dort bereits gesetzt): die Werte sind als **Behoerden-
   wiedergabe aus dem SZ-Merkblatt** zu zitieren, nicht als verifizierte VSS-Fundstelle.
-  Verifiziert vorhanden ist fuer Zufahrtstyp und Geometrie allein
+  Verifiziert vorhanden ist für Zufahrtstyp und Geometrie allein
   `destillate/vss-640050-1993.md` (`established`).
 
 ## N61-1 — Drei bisher unentdeckte Destillat-Duplikate in der DE-Kohorte (Run 61, 25.08.2026)
@@ -6260,8 +6339,8 @@ dieselbe Wurzel hat: **ein Vokabular, das nie normiert wurde, wird von jedem Lau
 Geprüft im Zuge des Bestandsscans (Run 61, 25.08.2026), weil eine naheliegende Hypothese zu N60-1
 («AFC-Synopse 2017 zweimal destilliert») lautete, die Quelldatei liege doppelt und sei deshalb
 zweimal aufgenommen worden. **Die Datei liegt tatsächlich doppelt** —
-`VKF_Norm/02_Brandschutzrichtlinien 2015/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` und
-`VSS_Norm/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf`, **byte-identisch (je 3'882'552 B)**,
+`VKF_Norm/02_Brandschutzrichtlinien 2015/Änderungen_Brandschutzrichtlinien_VKF-2017.pdf` und
+`VSS_Norm/Änderungen_Brandschutzrichtlinien_VKF-2017.pdf`, **byte-identisch (je 3'882'552 B)**,
 also eine VKF-Datei fehlabgelegt im VSS-Ordner. **Das erklärt die Doppel-Destillation aber nicht:**
 beide Destillate (`vkf-brl-aenderungen-2017.md`, `vkf-aenderungen-brandschutzrichtlinien-2017.md`)
 nennen im Frontmatter denselben Pfad, nämlich den unter `VKF_Norm/`; der VSS-Pfad kommt in keinem
@@ -6367,11 +6446,11 @@ Status ist auf `speculative` herabgestuft. Voller Lauf-Report:
   `wissens-bibliothekar`.
   **Nachtrag 27.08.2026, Wissens-Chef Run 45 — es sind inzwischen VIER Vorbehalte, nicht drei.**
   Hinzugekommen ist Z. 457: die Fundstelle «3.3.3-3.3.5», die Run 63 am selben Tag in Tabelle 2.3
-  aufgetrennt hatte, stand dort im Abschnitt fuer den Skill `kostenschaetzung` unveraendert weiter
-  und ist jetzt auf «4.21 / 3.3.2 / 3.3.4» praezisiert. **Das ist ein eigenes Argument fuer die
+  aufgetrennt hatte, stand dort im Abschnitt für den Skill `kostenschaetzung` unverändert weiter
+  und ist jetzt auf «4.21 / 3.3.2 / 3.3.4» praezisiert. **Das ist ein eigenes Argument für die
   Durchsicht:** die drei bisherigen Vorbehalte kamen von aussen an den Artikel heran; dieser vierte
   zeigt, dass eine Korrektur im Artikel selbst nicht bis ans Ende getragen wurde. Wer die Durchsicht
-  fuehrt, prueft die Tabellen 4 bis 8 (ab Z. 400) mit derselben Sorgfalt wie Tabelle 2.3. Beleg:
+  führt, prueft die Tabellen 4 bis 8 (ab Z. 400) mit derselben Sorgfalt wie Tabelle 2.3. Beleg:
   `wissen/koordination/outputs/2026-08-27_wissens-chef-run45.md`.
 - [x] **N62-3 — BEANTWORTET.** Die Kandidatenliste liegt als
   `training/n62-3-pruefstand-kandidaten.md`. **Ergebnis: von 310 `established`-Destillaten

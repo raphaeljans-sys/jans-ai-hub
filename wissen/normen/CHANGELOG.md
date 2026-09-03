@@ -1,5 +1,42 @@
 ## 2026-09-03 (Wissens-Chef Lauf 52) — das Destillat behauptete etwas ueber seine Konsumenten, das nicht stimmte
 
+## 2026-09-04 — Normen-Nacht Run 79 (MacBook Pro, SIA/VKF)
+
+**Abdeckungsrichtung auf zwei VKF-Kernrichtlinien des Skills `brandschutz`, beide bisher ohne
+Prüfstand, beide auf der geltenden Fassung 01.01.2017 aus PL-03 (Methodik-Pflicht 1).**
+
+- `vkf-brl-13-15-baustoffe-bauteile.md` — 9 Kern-, 6 Nebenlücken ergänzt, **0 falsche Werte**.
+  Kernpunkte: **E_ca ist RF3 mit kritischem Verhalten** (Hauptprozess am Original gemessen, im
+  Destillat fehlte die Klasse ganz); **Zweischienen-Prinzip** (10-%-Regel nur bei VKF-Prüfnorm,
+  bei EN gilt Kapitel 13 der Prüfnorm); **C0-C5 Öffnungszyklen beziffert** (200'000/100'000/
+  50'000/10'000/500); Bauteilfugen-Codes mit Bedeutungen; Kapselung K30-RF1 bzw. K60-RF1 nach
+  Feuerwiderstandsdauer; BSR-Zuordnungswerte erstmals mit Beispielen; **Ziff. 5 als eigene
+  Kernziffer nachgetragen**. Status bleibt `established`. Prüfstand ergänzt.
+- `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` — **⚠ Status von `established (verifiziert)`
+  auf `speculative` herabgestuft.** 27 Kern-, 6 Nebenlücken **und eine falsche Angabe in der
+  geltenden Fassung**: Ziff. 3.1.2 Abs. 3 trug den überholten Wortlaut 2015 («Nutzungseinheiten»
+  statt «Brandabschnitten») und liess «oder Brandbelastung» weg, während der Revisions-Abschnitt
+  derselben Datei die Änderung korrekt führte. An beiden Originalen belegt, inline berichtigt.
+  Ferner: je zwei fehlende Nutzungszeilen in allen drei Feuerwiderstands-Tabellen (u.a.
+  «Industrie/Gewerbe q über 1'000 MJ/m²» und die Zeile Beherbergung [b]/[c]), sieben
+  unerschlossene Fussnoten (35-m-Parkingregel, Brandmeldeanlagen-Verzicht, 2'400-m²-Regel),
+  vier Ziffern ohne eigenen Inhalt, Ziff. 5 fehlte ganz, Anhang erstmals erschlossen
+  (Ersatzmassnahmen-Matrix, 11 Anschlussvarianten, Hochhaus 0.9 m/1.5 m/200 m²). Prüfstand ergänzt.
+
+**Spezifität der Stichprobenstufe erstmals gemessen** (`training/n79-spezifitaet-kalibrierung-260904.md`)
+— schliesst den offenen Punkt N64-5.1. Kontrollierte Anlage auf `vkf-allgemein-anerkannte-bauprodukte-2017`:
+dotierte Variante **3/3** gepflanzte Auslassungen erkannt, undotierte Variante **0 Kern-Falschbefunde**.
+Damit trägt ein Nullbefund der Stichprobe die Aussage «Status bleibt».
+
+**Vier falsche Bestandsaussagen berichtigt** (neue Prüfrichtung: Destillat-Aussagen über den
+eigenen Bestand gegen den Bestand halten). `sia-118-262-2004` und `sia-118-263-2004` erklärten
+**einander** für nicht vorhanden, `sia-118-248-2006` erklärte SIA 248 und SIA 493 für nicht
+destilliert — alle vier Ziele lagen bereits im Bestand, alle vier Aussagen waren bei der
+Niederschrift falsch. Querverweis in `sia-118-267-2004` ergänzt.
+
+Register nachgeführt: `destillate/INDEX.md`, `training/norm-inventar.md`, `wiki/QUESTIONS.md`
+(N79-1 bis N79-5). Lauf-Report: `outputs/2026-09-04_normen-nacht-run79.md`.
+
 - `destillate/sia-416-2003.md` (+12/-0): Berichtigung im Statusabsatz. Der Satz «die zitierenden
   Bausteine des Hub tragen seit Run 77 einen entsprechenden Vermerk» ist **nachgemessen falsch**.
   Der Eingriff aus Run 46 (Vorgang **N46-3**, zwoelf namentlich bekannte Konsumenten) erreichte
