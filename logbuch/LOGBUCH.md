@@ -3,6 +3,70 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 03.09.2026 (Logbuch-Radar, 06:55)
+
+Ein starker Vortag: die beiden Behördenmeldungen sind draussen, die Türfachplanung ist von der Bauherrschaft freigegeben. Zwei Dinge brauchen heute einen Entscheid, und beides ist keine Erinnerung mehr, sondern eine Weggabelung: R. Steinmann ist ab heute weg, und Thalwil hat einen Termin am Dienstag.
+
+**Erledigt seit gestern**
+
+Die Meldekarte Baubeginn ist bei der SRZ Feuerpolizei. Versendet am 02.09. um 18:02 an M. Gantenbein, Cc die ganze Projektrunde, mit Entscheid-Nr. BE 1171/26, Geschäfts-Nr. B 26-00705-01 und Akten-Nr. 08303. Vorher hatte J. Ziegel bestätigt, dass die Meldung Sache des Architekten ist und die Feuerpolizei danach selbst prüft.
+
+Die Meldung an das Arbeitsinspektorat ist ebenfalls hinaus, 02.09. um 17:38 an M. Zaufl. Hier zählt vor allem, was Du im letzten Moment geändert hast: der Entwurf meldete die Fertigstellung als gegeben und schlug drei Septembertermine vor. Die versendete Fassung tut das nicht mehr, sie bittet um einen Termin in der KW 47. Das passt zur Fertigstellungsanzeige vom 23.11.2026 und zu den Abnahmeterminen, die J. Ziegel für den 24. und 27.11. abstimmt.
+
+Die generelle Freigabe der Türfachplanung durch KISPI liegt vor. L. Merci hat am 02.09. um 11:15 das unterschriebene Türbuch und das visierte Sicherheitskonzept geschickt, freigegeben sind Türbuch, Sicherheitskonzept Zutrittszonen und Türmatrix. Damit ist die seit dem 24.08. offene Bitte beantwortet und die Position «Generelle Freigabe seitens KISPI pendent» im Koordinationsprotokoll erledigt. Offen bleibt dort allein die Spezifikation Architektur in der Türmatrix, und die liegt bei uns.
+
+Dazu die Meldung BMA und Sprinkler an die GVZ, die Terminkoordination mit dem UGZ für die Abnahme und die Zusagen für die feuerpolizeiliche Abnahme und die QS-Brandschutz-Abnahme.
+
+**Aus unseren Gesprächen**
+
+Die zwei Behördenentwürfe vom Mittwochabend sind erledigt, siehe oben. Das Konversations-Destillat führte sie als offene Freigaben, weil es den Versand noch nicht kannte.
+
+Zargen-Dokumentation RWD Schlatter zweimal nach DWG gewandelt. Dabei ein Werkzeugbefund, der wiederkommt: auf dem OneDrive-Pfad erzeugte das Script still nur das DXF, ohne Fehlermeldung, vermutlich wegen des Gedankenstrichs im Bibliotheksnamen. Dieselbe Falle, die für osascript längst dokumentiert ist. Gehört in den Skill nachgetragen.
+
+Die lichte Durchgangsbreite beim IV-WC ist belegt geklärt: mindestens 0,80 m nach SIA 500:2009, Ziff. 3.3.1.1 und Anhang E, gemessen bei geöffnetem Türflügel samt Drückergarnitur. Ein 80er-Rohbaulicht genügt also nicht. Das trifft direkt auf die Rückfrage von A. Kayisoglu zu den Rohmassen der IV-WC-Türe, die heute Mittag vor Ort zur Sprache kommt.
+
+Zwei weitere Externe haben SharePoint-Zugriff bekommen, A. Kayisoglu und T. Tus, beide noch nicht angenommen. Für beide läuft die 60-Tage-Uhr ab dem 02.09., also Ablauf um den 01.11.
+
+**Überfällig**
+
+R. Steinmann ist ab heute drei Wochen weg, und der Entwurf liegt unverändert in Deinen Entwürfen, seit gestern 08:49. Gegengeprüft: über alle Konten ist kein Mail an ihn oder an novaproperty.ch hinausgegangen. Damit ist die Frist verstrichen, und die Frage ist nicht mehr «erinnern», sondern entscheiden: heute trotzdem senden, damit es in seinem Postfach liegt, oder den Vorgang bewusst auf den 21.09. legen. Für das Senden spricht, dass die Mail genau diese Lage anbietet, nämlich den revidierten KV erst auf die Rückkehr hin bereitzustellen. Die Frage nach der Ferienvertretung für die Albertstrasse 7 wird durch die Abwesenheit sogar dringender. Zwei Kalendereinträge und ein fertiger Entwurf haben es nicht ausgelöst, ein dritter Anlauf derselben Art wird es auch nicht.
+
+Thalwil: S. Tschopp hat gestern um 15:54 zweimal nachgefragt. Erstens, ob Du die SBB nach Eurem Telefonat vom Montag kontaktiert hast. Die Zusatzvereinbarung für das Vordach liegt seit dem 14.07. bei T. Wiedmer, seither kam nichts; Tschopp hat am 28.08. die Dokumente zurückgespielt und um Rückmeldung gebeten, auch die steht aus. Strittig ist keine Entschädigung, die SBB verzichtet darauf, es geht nur um die Ausfertigung. Zweitens braucht er die aktuellsten Pläne gemäss Eingabe in PDF und DXF für J. Posch, den er am Dienstag, 08.09., um 10:00 sieht. Wichtig ist dabei der Planstand gemäss Eingabe, nicht der Arbeitsstand.
+
+Der SharePoint-Gastzugriff von L. Bajrami läuft am 07.09. ab, praktisch also morgen, weil danach das Wochenende kommt. Er arbeitet gerade darin: heute um 06:50 hat er die Prinzippläne innere Verglasung geschickt. L. Hiltmann mit Ablauf 22.09. im selben Zug erledigen.
+
+Die Kapitaleinzahlung von CHF 50'000 auf das Sperrkonto fehlt den 20. Tag. Ohne sie keine Kapitalbescheinigung und keine Beurkundung. Vom Notariat Mathies seit dem 13.08. keine Antwort.
+
+bexio antwortet den 27. Tag mit 401. Der Token läuft erst am 13.12. ab, die Session dahinter ist beendet; nur ein neuer Personal Access Token hilft. Unverifiziert bleiben CHF 51'400 in fünf Positionen.
+
+**In den nächsten 7 Tagen**
+
+Heute 09:00 RWD-Bestellliste, 12:00 die Steckzargen-Besprechung vor Ort im Kinderspital mit A. Kayisoglu und T. Tus, 13:00 bis 14:00 die Koordinationssitzung Gruner, Jans und KISPI.
+
+Für die Sitzung ein Traktandum, das Du nicht selbst angestossen hast: A. Spahic hat gestern um 16:01 gegenüber B. Kübler die Lüftungsplanung eskaliert, weil der Termin vom 31.08. nicht wahrgenommen und die Pläne nicht an die QS übergeben wurden. Er kündigt an, heute Abend über die CEOs zu eskalieren. Du bist nur im Cc, die Verzögerung trifft aber die Freigabekette bis zur Fertigstellungsanzeige. C. Duran hat gestern um 17:12 zur Lüftungsplanung geliefert; ob das die verlangte Übergabe an die QS ist, wäre heute zu klären.
+
+Montag 07.09. trägt wie bisher drei Dinge: Produktionsstart Therapieküche, Ablauf des Gastzugriffs Bajrami und um 09:15 der Abgleich Umbau PPTS mit C. Schäfer, C. Allerkamp und A. Spahic.
+
+Dienstag 08.09.: um 10:00 sieht die Bauherrschaft Thalwil J. Posch, die Pläne müssen vorher bereitstehen. Derselbe Tag ist der letzte für den Entscheid zum bexio-Abo vor der automatischen Migration am 08.10.
+
+Donnerstag 10.09., 13:00 bis 14:00, die nächste Koordinationssitzung.
+
+**In Beobachtung**
+
+RWD Schlatter, Angebot KD18611: offen bleibt, ob der Typ IT100 als Steckzarge lieferbar ist; die Lieferfristen von 8 bis 10 Wochen ab Korrexfreigabe machen das zum Terminthema. Heute Mittag vor Ort.
+
+Der SharePoint-Speicherpool steht bei 85.51 Prozent, die Prognose «voll am 4. September» ist widerlegt. Die 88-Prozent-Marke ist rund acht Tage entfernt, Restlaufzeit 47 Tage; 96 Prozent des Zuwachses gehen auf JANS.PROJEKTE, dort vor allem auf den Versionsverlauf.
+
+Weiter offen und unverändert: der Entscheid zur Grenze für den Layout-Agenten, das Destillat SIA 416 auf Status speculative mit zwölf zitierenden Bausteinen und der tailscale-waechter, der auf keiner Station geladen ist.
+
+**Vorschlag Kalendereintrag**
+
+Montag 07.09., 08:00 bis 08:30: Plansatz Thalwil gemäss Eingabe für J. Posch bereitstellen, PDF und DXF. Nur als Vorschlag, eingetragen wird nichts.
+
+**Token-Tempo**
+
+Gestern 02.09.: MacBook Pro 208.3 Mio Token, Mac Mini 53.7 Mio, zusammen rund 262 Mio Token, API-Kostenäquivalent rund 233 US-Dollar.
+
 ## Hub-Chef 02.09.2026 (08:39 bis 09:0x, Tagesbriefing gesendet ueber Weg 1)
 
 **Pflichtpruefungen.** `freigabe-status.sh --kurz`: mac-mini 0, macbook-pro 0, Exit 0. `--briefing`:
