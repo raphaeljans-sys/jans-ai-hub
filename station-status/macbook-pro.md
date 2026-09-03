@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.09.2026 13:33:40
+Stand: 03.09.2026 13:44:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:18)
@@ -12,4 +12,4 @@ Stand: 03.09.2026 13:33:40
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9e898c615 nas-selfcommit: 4 Datei(en) 2026-09-03 13:30
+- b3c01c3e3 logbuch: Nachtschicht-Journal 03.09. 13:3x (Versuchs-Slot)
