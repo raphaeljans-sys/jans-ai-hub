@@ -34,6 +34,12 @@ eigenen Bestand gegen den Bestand halten). `sia-118-262-2004` und `sia-118-263-2
 destilliert — alle vier Ziele lagen bereits im Bestand, alle vier Aussagen waren bei der
 Niederschrift falsch. Querverweis in `sia-118-267-2004` ergänzt.
 
+⚠ **Regelverstoss in diesem Lauf, begangen und repariert (Rule 260811):** die Umlaut-Bereinigung
+lief zunächst als globales Ersetzen über ganze Dateien und schrieb dabei **231 historische Zeilen**
+in `wiki/QUESTIONS.md` um. Entdeckt durch die vorgeschriebene `--numstat`-Messung, repariert durch
+Neuaufbau aus dem Basis-Stand `070b56a8c` plus Wiedereinsetzen des eigenen Blocks (Gegenmessung
+**80 / 0**); zuvor geprüft, dass kein anderer Lauf die Datei berührt hatte. Details im Lauf-Report.
+
 Register nachgeführt: `destillate/INDEX.md`, `training/norm-inventar.md`, `wiki/QUESTIONS.md`
 (N79-1 bis N79-5). Lauf-Report: `outputs/2026-09-04_normen-nacht-run79.md`.
 

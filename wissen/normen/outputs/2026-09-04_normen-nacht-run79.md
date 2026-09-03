@@ -266,6 +266,38 @@ Kernformulierungen früherer Läufe wurden nach den Edits einzeln gegengesucht u
 vorhanden («Brandkennziffer», «CWFT», «BSR-Nummer», «Delta-Liste», «Retro-Verifikation»,
 «Revision 22.09.2016», «Ersatzmassnahmen», «Nebenbauten»).
 
+### ⚠ Regelverstoss in diesem Lauf, begangen und repariert — Rule 260811
+
+Die Umlaut-Bereinigung wurde zunächst als **wortlistenbasiertes Ersetzen über ganze Dateien**
+gefahren, unter anderem über `wiki/QUESTIONS.md`. Das ist genau das, was Rule
+`auto-verbesserungen` **260811** verbietet: «Um **eigenen** Text in einer gewachsenen, geteilten
+Datei zu korrigieren, wird **nie** ein globales Suchen-und-Ersetzen über den ganzen Dateiinhalt
+gefahren. Der eigene Abschnitt wird am Anker herausgeschnitten, darin ersetzt und wieder
+eingesetzt.»
+
+**Der Schaden, gemessen:** `QUESTIONS.md` zeigte **310 / 231** statt der beabsichtigten
+**80 / 0** — es waren **231 historische Zeilen früherer Läufe** umgeschrieben worden. Die Rule
+existiert, weil am 11.08.2026 auf dieselbe Weise 246 Zeilen eines append-only-Journals
+umgeschrieben wurden. Die Zahl ist fast dieselbe.
+
+**Wie er entdeckt wurde:** durch die von derselben Rule vorgeschriebene `--numstat`-Messung nach
+dem Schreiben. Ohne sie wäre der Vorgang unsichtbar geblieben — der Commit sah aus wie ein
+normaler Registereintrag.
+
+**Wie repariert wurde**, nach dem Verfahren derselben Rule: **nicht** aus HEAD wiederhergestellt.
+Zuerst geprüft, ob ein anderer Lauf unbestätigte Änderungen an derselben Datei hatte (der
+Selfcommit `5bdf89e2e` von 01:45 hat `QUESTIONS.md` **nicht** berührt — gemessen, nicht
+angenommen). Dann die Datei aus dem **Basis-Stand `070b56a8c`** neu zusammengesetzt und der
+eigene 80-Zeilen-Block nach der H1 wieder eingefügt. Gegenmessung: **80 / 0**, append-only
+wiederhergestellt, alle 231 historischen Zeilen zeichengenau zurück.
+
+**Die Lehre für den nächsten Lauf** — sie steht bereits in der Rule und wurde hier trotzdem
+verletzt: eine Konvention nachträglich über einen gewachsenen Bestand zu ziehen ist **kein
+Formatierungsschritt, sondern ein Eingriff in fremde Arbeit**. Der Anker-Ausschnitt ist der
+einzig zulässige Weg. In den beiden Destillaten und den beiden neuen Dateien war das Vorgehen
+unbedenklich (eigene bzw. in diesem Lauf ohnehin bearbeitete Dateien); der Fehler lag allein
+im Journal.
+
 Umlaute: die in diesem Lauf geschriebenen Passagen sind auf echte ä/ö/ü gebracht
 (Rule `umlaute-konvention`), in zwei gezielten Durchgängen mit einer Wortliste statt eines
 blinden Global-Replace. Der Vollzug ist gegengesucht; verbleibende ae/oe/ue-Vorkommen stammen
