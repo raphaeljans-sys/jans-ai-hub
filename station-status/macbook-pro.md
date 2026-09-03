@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.09.2026 02:09:33
+Stand: 03.09.2026 02:19:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:09)
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:15)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 02:09:33
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 38f018809 nas-selfcommit: 6 Datei(en) 2026-09-03 02:00
+- beee63dcc normen Run 78: messende Abdeckung Figuren 1-10+12 (SIA 416), N77-1 geschlossen; Flaeche/Volumen-Paarung bricht bei Aussenkategorien ab, KV nicht aus KF hochrechenbar; P1-Sync-Divergenz als erledigt gemessen
