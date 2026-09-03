@@ -3,10 +3,10 @@ quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/Ba
 herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 13-15de. Destillat beruht auf der Fassung 01.01.2015; GELTEND ist 01.01.2017 (Titelblatt abgelesen, MD5 5dc4d5989c41). Das Fassungs-Delta ist inline unten (Nachtrag Run 23) und zusaetzlich als eigenes Destillat [[vkf-brl-13-15-fassung-2017-delta]] gefuehrt (Run 60, 23.08.2026)."
 gelesen: "S. 1-25 komplett (Ziff. 1-6 + Anhang zu Ziff. 2.2.2/2.2.3/2.2.4/2.2.5/2.3.2/2.3.3/3.1.5/3.1.10/3.4). Nachtrag 25.07.2026: Fassung 01.01.2017 (BSPUB-1394520214-71.pdf) komplett gegen Fassung 01.01.2015 volltextverglichen (pdftotext-Diff + Seitenbild-Gegenlesung S. 6, 8-12, 19, 24-25)"
-datenstand: "Bestand 2015, Delta 2017 nachgetragen (Run 23) und 2026-08-23 unabhaengig gegengeprueft (Run 60)"
+datenstand: "Bestand 2015, Delta 2017 nachgetragen (Run 23) und 2026-08-23 unabhaengig gegengeprueft (Run 60); Abdeckungsrichtung erstmals gefahren Run 79 (04.09.2026) auf allen 25 Seiten inkl. Anhang — 9 Kern- und 6 Nebenluecken ergaenzt, 0 falsche Werte"
 status: established
-last_updated: 2026-07-25
-links: [[vkf-brl-13-15-fassung-2017-delta]], [[REGISTER]]
+last_updated: 2026-09-04
+links: [[vkf-brl-13-15-fassung-2017-delta]], [[vkf-verz-40-15-weitere-bestimmungen]], [[vkf-verz-40-15-fassung-2025-delta]], [[vkf-allgemein-anerkannte-bauprodukte-2017]], [[REGISTER]]
 ---
 
 # VKF-Brandschutzrichtlinie 13-15de — Baustoffe und Bauteile (Klassifikation)
@@ -70,10 +70,32 @@ Die Richtlinie ist das Klassifikations-Fundament der VKF-Brandschutzvorschriften
 - **Ziff. 3.4** — Zuordnung bisheriger VKF-Klassierungen zu EN-Klassifikationen möglich gemäss Zuordnungstabelle im Schweizerischen Brandschutzregister der VKF (S. 19; Beispiel-Tabelle mit BSR-Nummern im Anhang S. 24-25)
 
 ### Ziff. 4 — Anwendung von Baustoffen und Bauteilen (S. 19)
-- **Ziff. 4.1, Abs. 1-2** — die Brandschutzbehörde entscheidet über die Anwendung von Brandschutzprodukten in Bauten/Anlagen; stützt sich (a) bei EN-harmonisierten Bauprodukten auf Leistungserklärungen zur Grundanforderung «Brandschutz» gemäss Bauprodukte-Gesetz, (b) bei anderen Produkten auf Prüfnachweise/Zertifikate/Konformitätsnachweise akkreditierter Stellen sowie das VKF-Brandschutzregister (S. 19, Norm-Zitat grau hinterlegt)
+- **Ziff. 4.1, Abs. 1-2** — die Brandschutzbehörde entscheidet über die Anwendung von Brandschutzprodukten in Bauten/Anlagen; stützt sich (a) bei Bauprodukten, die von einer harmonisierten europäischen Norm erfasst sind **oder für die eine europäische technische Bewertung (ETA) ausgestellt wurde** (zweite Alternative ergaenzt Run 79, S. 19), auf Leistungserklärungen zur Grundanforderung «Brandschutz» gemäss Bauprodukte-Gesetz, (b) bei anderen Produkten auf Prüfnachweise/Zertifikate/Konformitätsnachweise akkreditierter Stellen sowie das VKF-Brandschutzregister (S. 19, Norm-Zitat grau hinterlegt)
 - **Ziff. 4.2** — wo VKF-Anerkennungen eine Kennzeichnung verlangen, ist ein auch nach Einbau leicht erkennbarer, dauerhafter Hinweis anzubringen (Norm-Zitat grau hinterlegt, S. 19)
 - **Ziff. 4.3** — allgemein anerkannte Baustoffe (z.B. naturbelassene Hölzer) und Bauteile (z.B. anerkannte Konstruktion ohne/mit Feuerwiderstand) sind im VKF-Brandschutzregister aufgeführt (S. 19)
 - **Ziff. 4.4** — die Brandschutzbehörde entscheidet über die Anwendung von Bauprodukten ohne Prüfnachweis/VKF-Anerkennung, sofern Eignung nach Erfahrung/Stand der Technik/Versuchsresultaten/validierten Rechenverfahren nachgewiesen ist (Norm-Zitat grau hinterlegt, S. 19)
+
+### Ziff. 5 — Weitere Bestimmungen (S. 19)
+- **Ziff. 5** — Erlasse, Publikationen und «Stand der Technik Papiere», die ergaenzend zu dieser Brandschutzrichtlinie zu beachten sind, werden im **periodisch aktualisierten Verzeichnis der TKB-VKF** aufgefuehrt (VKF, Postfach, 3001 Bern; www.praever.ch/de/bs/vs) (S. 19)
+- ⚠ **Nachgetragen 04.09.2026 (Run 79).** Die Ziffer war inhaltlich nur unter «Offene Punkte» vermerkt und fehlte als eigene Kernziffer — wer die Kernziffern von oben liest, sah eine Luecke zwischen Ziff. 4 und Ziff. 6. Zwei Ziffern verweisen ausdruecklich hierher (Ziff. 3.1.3 Abs. 1 und Ziff. 4.2), der Verweis lief bisher ins Leere
+- **Das Verzeichnis liegt im Haus:** [[vkf-verz-40-15-weitere-bestimmungen]] (S. 1-22 destilliert) samt [[vkf-verz-40-15-fassung-2025-delta]]. ⚠ Das Bestands-Destillat ist `superseded` (Fassung 01.01.2015); **geltend ist die Fassung 11.06.2025** — fuer eine geltende Fundstelle das Delta-Destillat beiziehen
+
+### Anhang (S. 20-25) — nachgetragen 04.09.2026 (Run 79, Abdeckungsrichtung)
+
+Der Anhang war im Frontmatter als gelesen ausgewiesen, aber in den Kernziffern nicht als eigener Abschnitt gefuehrt. Die Abdeckungsrichtung hat dort folgende eigenstaendige Inhalte gefunden:
+
+- **Statusaussage des Anhangs (S. 20)** — die Ausfuehrungen im Anhang erlaeutern einzelne Richtlinienbestimmungen, **ohne selbst Eigenstaendigkeit oder Vorschriftenstatus zu beanspruchen**. Bestimmt, mit welchem Gewicht Anhang-Inhalte (Prinzipskizzen, BSR-Tabelle) zitiert werden duerfen
+- **zu Ziff. 2.2.2 (S. 20)** — eine vollstaendige Tabelle ordnet jeder Brandverhaltensklasse (A1/A1L bis F/FL) eine Verhaltensbeschreibung im Raumbrand zu; das Destillat fuehrte bisher nur die Klassenbuchstaben und die Rangfolge, nicht die inhaltliche Abgrenzung der Klassen
+- **zu Ziff. 2.2.3 (S. 20)** — **zwei getrennte Skalen**: fuer Baustoffe allgemein drei Rauchentwicklungsklassen (s1-s3), fuer **Bodenbelaege nur zwei** (s1-s2, je eigene Definition). Die Kernziffer fuehrte nur «s1/s2/s3» ohne diese Zweiteilung
+- **zu Ziff. 2.2.4 / 2.2.5 / 2.3.2 / 2.3.3 (S. 21-22)** — Volltextdefinitionen von d0-d2 (Zeitdauer des brennenden Abtropfens), a1-a3 (Korrosivitaet), der VKF-Brennbarkeitsgrade 3-6 inkl. 5(200 °C) und 6q sowie der Qualmgrade 1-3. Das Destillat fuehrt jeweils nur Kurzbezeichnung und Rangfolge; die materiellen Kriterien (Zuendbarkeit, Abbrandgeschwindigkeit, Nachglimmen) stehen nur im Anhang
+- **zu Ziff. 3.1.5 (S. 22)** — drei Prinzipskizzen (homogene Konstruktion, mehrschichtig aus RF1-Baustoffen, mehrschichtig mit brennbaren Anteilen) und dazu eine im Haupttext so nicht vorkommende Regel: **Kapselung mindestens K30-RF1 bei Bauteilen mit 30 und 60 Minuten Feuerwiderstand, mindestens K60-RF1 bei 90 Minuten**. Das Destillat gab nur die allgemeine Formel des Haupttexts wieder
+- **zu Ziff. 3.1.10, Zusatzkriterium C (S. 23)** — die Oeffnungszyklen sind bezifferte Werte, **vom Hauptprozess am 300-dpi-Rendering abgelesen**: **C5 200'000 · C4 100'000 · C3 50'000 · C2 10'000 · C1 500 Pruefzyklen · C0 keine Leistung gefordert**. Das Destillat nannte nur «C0-C5 je nach Oeffnungszyklen». C2 ist ausdruecklich der Fall «Tueren von Privathaeusern oder grosse Tore», C1 «offen stehend gehalten»
+- **zu Ziff. 3.1.10, Bauteilfugen (S. 23)** — die Zusatzcodes tragen Bedeutungen, ohne die sie im LV-Text nicht anwendbar sind (am Original gegengelesen): **Ausrichtung** H- horizontale Tragkonstruktion · V- vertikale Tragkonstruktion mit vertikalen Fugen · T- vertikale Tragkonstruktion mit horizontalen Fugen; **Beweglichkeit** X- keine Bewegung · M000- Bewegung aufgezwungen (in %); **Art der Stossstellen** M- vorgefertigt · F- vor Ort erstellt · B- beides; **Breite** W00 bis 99 (Bereich der Fugenbreiten in mm)
+- **zu Ziff. 3.4, «Zweischienen-Prinzip» (S. 24)** — eigenstaendige Nachweisregel, bisher ganz fehlend, **vom Hauptprozess am Original gegengelesen**: die Vergroesserung eines geprueften Bauteils um generell **10 %** ist **nur** fuer Bauteile gestattet, die **nach VKF-Pruefnorm** geprueft wurden. Fuer Bauteile nach **EN-Normen** gilt stattdessen der **direkte Anwendungsbereich aus Kapitel 13 der anwendbaren Pruefnorm**. Das ist eine Regel zur Uebertragbarkeit von Pruefresultaten und nicht bloss eine Tabellenueberschrift
+- **zu Ziff. 3.4, Legende der BSR-Tabelle (S. 24)** — die Legende fuehrt **sechs** VKF-Klassierungsarten: **F** trag./raumabschl. Bauteile, Unterdecken, Verkleidungen · **T** bewegliche Abschluesse · **R** rauchdichte Abschluesse · **K** Brandschutzklappen · **S** Abschottungen · **A** Aufzugstueren. Der Haupttext (Ziff. 3.2.1 Abs. 2, S. 16) nennt nur vier; T und A stehen allein im Anhang. Ebenfalls dort erklaert: **bb** = Bauteile mit brennbaren Baustoffen, **RF1** = Bauteil erfuellt die Anforderungen der Brandverhaltensgruppe RF1 — das ist der Schluessel zur Notation «F 30 bb»
+- **zu Ziff. 3.4, BSR-Zuordnungswerte (S. 24-25)** — das Destillat beschrieb bisher nur die Struktur der Tabelle, ohne einen einzigen konkreten Zuordnungswert. Am Original abgelesene Beispiele: **BSR 201** Aussenwaende tragend F 30 bb - F 60 bb / F 30 → REI 30 - REI 60, F 60 - F 240 → REI 60-RF1 - REI 240-RF1 · **BSR 205** Decken analog · **BSR 206** Stuetzen/Balken F 30 bb - F 60 bb → R 30 - R 60, F 30 - F 240 → R 30-RF1 - R 240-RF1 · **BSR 208** Dachkonstruktionen → EI 30 - EI 60 bzw. EI 60-RF1 - EI 90-RF1 · **BSR 223** Abschottungen/Durchfuehrungen S 30 - S 90 → EI 30 - EI 90 · **BSR 224** Fugenabdichtungen S 30 - S 90 → EI 30 - EI 90 · **BSR 231** Brandschutzplatten F 30 - F 90 → BSP mit 30-90 Minuten Feuerwiderstand. Die vollstaendige Wiedergabe aller Zellen bleibt aus Urheberrechts- und Umfangsgruenden unterlassen (wie bei den Ziff.-2.4-Tabellen); die Struktur «alte F-Klassierung → heutige EN-Klasse» ist damit aber erstmals mit belegten Werten hinterlegt
+- **zu Ziff. 3.4, Fundstelle der Pruefbestimmungen (S. 24)** — Brandschutzrichtlinie «Baustoffe und Bauteile», **Teil B: Pruefbestimmungen, Ausgabe 1988 mit Nachtraegen 1990, 1994, 1995, 2005**
+- **Copyright-Vermerk (S. 25)** — Nachdruck und Vervielfaeltigung der Anhang-Zeichnungen sind unter Quellenangabe erlaubt; relevant, falls die Prinzipskizzen S. 22/23 je in ein JANS-Dokument uebernommen werden
 
 ### Ziff. 6 — Inkrafttreten (S. 19)
 - **Ziff. 6** — in Kraft ab 1. Januar 2015, für verbindlich erklärt durch Beschluss des zuständigen IVTH-Organs vom 18.09.2014; Verbindlichkeit gilt für alle Kantone (S. 19)
@@ -84,7 +106,7 @@ Die Richtlinie enthält vier Zuordnungstabellen (Ziff. 2.4, S. 8-12), die je RF-
 
 - **Ziff. 2.4.1 (S. 8, Stand Fassung 01.01.2017 — geändert gegenüber 01.01.2015, siehe Abschnitt «Fassung 01.01.2017 — Delta» unten)** — Zuordnung RF-Gruppe ↔ SN EN 13501-1:2009 (Bauprodukte allgemein, lineare Rohrdämmungen, Bodenbeläge): RF1 = A1/A2-s1,d0 bzw. A1L/A2L-s1,d0 bzw. A1fl/A2fl-s1; RF2 = A2-B-C-Varianten mit s1/s2/d0/d1 (cr-Markierung bei bestimmten d2/s3-Kombinationen); RF3 = D-Varianten UND, seit Fassung 01.01.2017 neu hier eingeordnet (cr-markiert), die EN-Klassen E/E-d2 (Bauprodukte) bzw. EL/EL-d2 (lineare Rohrdämmungen); RF4 = in der Fassung 01.01.2017 kein SN-EN-13501-1-Äquivalent mehr ausgewiesen (Tabellenzelle «–» über alle drei Spalten); «Kein Baustoff» = Klasse F/FL/Ffl. **In der Fassung 01.01.2015 waren E/EL/E-d2/EL-d2 noch RF4 (durchgehend cr) zugeordnet** — diese Zuordnung ist mit der IOTH-Änderung vom 22.09.2016 (Fassung 01.01.2017) überholt.
 - **Ziff. 2.4.2 (S. 9)** — Zuordnung RF-Gruppe ↔ SN EN 13501-5 (Bedachungen bei Beanspruchung durch Feuer von aussen, BROOF): RF2 = BROOF(t1-t4) (cr); RF3 = CROOF/DROOF(t3-t4) (cr); RF4 = EROOF(t4) (cr); «Kein Baustoff» = FROOF(t1-t4)
-- **Ziff. 2.4.3 (S. 10-11)** — Zuordnung RF-Gruppe ↔ SN EN 13501-6 (elektrische Kabel): RF1 = Aca; RF2 = umfangreiche B1ca/B2ca/Cca-Kombinationen mit s/a/d-Zusätzen (cr bei bestimmten a3/d2-Kombinationen); RF3 = Dca-Varianten (teils cr); RF4 = durchgehend cr (kein Wert ausgewiesen, «-»); «Kein Baustoff» = Fca
+- **Ziff. 2.4.3 (S. 10-11)** — Zuordnung RF-Gruppe ↔ SN EN 13501-6 (elektrische Kabel): RF1 = Aca; RF2 = umfangreiche B1ca/B2ca/Cca-Kombinationen mit s/a/d-Zusätzen (cr bei bestimmten a3/d2-Kombinationen); RF3 = Dca-Varianten (teils cr) **sowie Eca** (Nachtrag Run 79); RF4 = durchgehend cr (kein Wert ausgewiesen, «-»); «Kein Baustoff» = Fca. ⚠ **Ergaenzt 04.09.2026 (Run 79, Hauptprozess am 300-dpi-Rendering der S. 11 gemessen):** **E_ca ist RF3 mit kritischem Verhalten (cr)** — es steht als letzter Eintrag der dritten Spalte im rot umrandeten RF3/cr-Block, also **nicht** RF4 (die Zeile RF4/cr traegt durchgehend «–»). Die fruehere Formulierung «RF3 = Dca-Varianten» las sich so, als enthalte RF3 ausschliesslich Dca-Kombinationen; ein als **Eca** deklariertes Kabel war damit im Destillat nicht auffindbar. Folge fuer die Praxis: ein Eca-Kabel unterliegt der Anwendungsbeschraenkung des cr-Bereichs, ist aber RF3 und nicht RF4
 - **Ziff. 2.4.4 (S. 12)** — Zuordnung RF-Gruppe ↔ VKF-Brandkennziffer (BKZ): RF1 = BKZ 6.3/6q.3; RF2 = BKZ 5(200°C).3/5.3/5.2 (BKZ 5(200°C).1/5.1 = cr); RF3 = BKZ 4.3/4.2 (BKZ 4.1 = cr); RF4 = BKZ 3.3/3.2 (BKZ 3.1 = cr); «Kein Baustoff» = BKZ 1.1-2.3
 
 Für die exakte Zellenzuordnung im Einzelfall (insbesondere die sehr granularen EN-13501-1/-6-Tabellen) ist die Originaltabelle im PDF zu konsultieren — hier nur Struktur und Grenzwerte je RF-Gruppe wiedergegeben, nicht die vollständigen Code-Listen (Urheberrecht/Praktikabilität).
@@ -93,7 +115,7 @@ Die Anhang-Tabelle zu Ziff. 3.4 (S. 24-25, Stand Fassung 01.01.2017) listet für
 
 ## Begriffe
 - **RF1-RF4** — Brandverhaltensgruppen für Baustoffe (RF = reaction au feu); RF1 kein, RF4 unzulässiger Brandbeitrag (Ziff. 2.1)
-- **cr (kritisches Verhalten)** — comportement critique; Baustoffe mit unzulässigem Rauch-/Abtropf-/Korrosionsverhalten trotz sonstiger RF-Einstufung (Ziff. 2.1, Abs. 2)
+- **cr (kritisches Verhalten)** — comportement critique; Baustoffe mit unzulässigem Rauch-/Abtropf-/Korrosionsverhalten trotz sonstiger RF-Einstufung (Ziff. 2.1, Abs. 2). **Folge, ergaenzt Run 79 (Legendenkasten unter jeder Zuordnungstabelle, S. 8, 9, 11, 12, wortgleich viermal):** die rot umrandeten cr-Bereiche bedeuten eine **Anwendungsbeschraenkung** aufgrund des kritischen Verhaltens im Brandfall bzw. des unzulaessigen Brandbeitrages. Das Destillat fuehrte bisher nur die Definition von cr, nicht diese Rechtsfolge
 - **BKZ (Brandkennziffer)** — VKF-eigenes Klassierungssystem, BKZ x.y = Brennbarkeitsgrad(x).Qualmgrad(y) (Ziff. 2.3.4)
 - **Brennbarkeitsgrade 1-6** — VKF-Skala; 1-2 unzulässig als Baustoff, 3 leichtbrennbar bis 6 nicht brennbar, dazwischen 5(200°C) und 6q (Ziff. 2.3.2, Anhang S. 21)
 - **Qualmgrade 1-3** — VKF-Skala nach Lichtabsorption; 1 stark, 3 schwach (Ziff. 2.3.3, Anhang S. 22)
@@ -112,7 +134,7 @@ Die Anhang-Tabelle zu Ziff. 3.4 (S. 24-25, Stand Fassung 01.01.2017) listet für
 
 ## Offene Punkte
 - Die vollständigen Code-Listen der Zuordnungstabellen Ziff. 2.4.1/2.4.3 (insbesondere die sehr granularen EN-13501-1- und EN-13501-6-Kombinationen mit s/a/d-Zusätzen) sind im Destillat nur in ihrer Struktur/Grenzwerten wiedergegeben, nicht vollständig transkribiert (Urheberrecht + Praktikabilität) — für den Einzelfall Originaltabelle im PDF konsultieren
-- Verweis in Ziff. 5 «Weitere Bestimmungen» auf das periodisch aktualisierte TKB-VKF-Verzeichnis (Erlasse/Publikationen/Stand-der-Technik-Papiere) nicht im Detail geprüft — bei Bedarf separat beschaffen (www.praever.ch/de/bs/vs)
+- ~~Verweis in Ziff. 5 «Weitere Bestimmungen» auf das TKB-VKF-Verzeichnis nicht im Detail geprüft — bei Bedarf separat beschaffen~~ ⚠ **Berichtigt 04.09.2026 (Run 79): das Verzeichnis liegt seit Langem im Haus** und muss nicht beschafft werden — [[vkf-verz-40-15-weitere-bestimmungen]] (S. 1-22 destilliert) plus [[vkf-verz-40-15-fassung-2025-delta]]. Offen bleibt allein, dass das Bestands-Destillat auf der Fassung 01.01.2015 beruht (`superseded`); **geltend ist 11.06.2025**. Der alte Wortlaut schickte den Leser hinaus nach etwas, das der Bestand fuehrt
 - Norm-Nummer im Frontmatter als «13-15de» aus dem Fusszeilen-/Cover-Vermerk übernommen; Konsistenz mit den bereits destillierten Schwester-Richtlinien 14-15de (Verwendung von Baustoffen), 16-15 (Flucht/Rettungswege), 27-15 (Nachweisverfahren) bestätigt die Nummerierungslogik BRL xx-15
 - Anhang-Zuordnungstabelle Ziff. 3.4 ist laut PDF nur ein Auszug («Beispiel», Bauteile 201-238); die vollständige Tabelle liegt im Schweizerischen Brandschutzregister der VKF und wurde hier nicht separat beschafft
 
@@ -168,3 +190,18 @@ Beide PDF mit `pdftotext -layout` in Text gewandelt, `diff -b -B` (Leerraum-/Lee
 
 - Ob die Umbenennungen BSR 208/231 und die Tippfehlerkorrektur BSR 203 durch einen eigenen, unpublizierten Redaktionsbeschluss oder implizit durch denselben IOTH-Beschluss vom 22.09.2016 gedeckt sind — die Änderungsliste auf S. 2 nennt nur «Tabelle (Seite 24)» ohne Aufschlüsselung der einzelnen BSR-Zeilen.
 - Ob nach der Fassung 01.01.2017 weitere, hier nicht geprüfte Fassungen existieren (der Ordnername auf SharePoint «02 Brandschutzrichtlinien 2015-17-22» deutet auf mindestens eine weitere Fassung um 2022 hin) — nicht Gegenstand dieses Nachtrags, ausschliesslich 2015 vs. 2017 verglichen.
+
+## Prüfstand (Methodik-Pflicht 13 — welche Methode lief auf welchem Teil)
+
+| Teil der Quelle (Fassung 01.01.2017, MD5 `5dc4d5989c41`) | Refuter-Richtung | Abdeckungsrichtung | Bemerkung |
+|---|---|---|---|
+| Titelblatt, Impressum, Änderungsliste, Inhaltsverzeichnis (S. 1-4) | Run 23 (Volltext-Diff 2015↔2017) | **Run 79** | 1 Nebenbefund (Graurasterhinweis) |
+| Ziff. 1-2.3, Fliesstext (S. 5-7) | Run 23 | **Run 79** | keine Lücke |
+| Ziff. 2.4.1-2.4.4, vier Zuordnungstabellen (S. 8-12) | Run 23, Run 60 (Seitenbild) | **Run 79, Bildlesung 300/600 dpi** | **1 Kernlücke: E_ca (RF3/cr), vom Hauptprozess am Original bestätigt**; Legendenkasten «Anwendungsbeschränkung» ergänzt |
+| Ziff. 2.5-3.4, Fliesstext (S. 13-19) | Run 23 | **Run 79** | 2 Nebenlücken (Ziff. 3.1.3 Abs. 1; Ziff. 4.1 lit. a ETA) |
+| **Ziff. 5 Weitere Bestimmungen (S. 19)** | — | **Run 79** | war keine eigene Kernziffer; nachgetragen |
+| **Anhang (S. 20-25)** | Run 23 (nur Delta-Abgleich) | **Run 79, erstmals vollständig** | **8 Kern-, 6 Nebenlücken**; C-Zyklen, Zweischienen-Prinzip und BSR-Werte vom Hauptprozess am Original abgelesen |
+
+**Status bleibt `established`** (kein Statuswechsel durch diesen Lauf). In beiden Richtungen wurde **kein einziger falscher Zahlenwert** gefunden — die Befunde sind durchgehend Lücken, also Klasse (b) nach Methodik-Pflicht 13.
+
+**Was ungeprüft bleibt:** die vollständige Zell-für-Zell-Verifikation der rund 90 Einzelcodes der Tabelle 2.4.3 (EN 13501-6) und der Tabelle 2.4.1; das Destillat transkribiert sie bewusst nicht (Urheberrecht) und gibt nur Struktur und Grenzwerte je RF-Gruppe wieder. Geprüft sind die Randwerte (Aca, Eca, Fca) und die RF-/cr-Blockgrenzen.
