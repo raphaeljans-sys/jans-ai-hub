@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.09.2026 13:01:46
+Stand: 03.09.2026 13:12:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:01)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:03)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 13:01:46
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3292a3265 nas-selfcommit: 4 Datei(en) 2026-09-03 13:00
+- 48adc3c0f vollgas-radar 03.09. 12:57: PATH-Probe laeuft wieder mit unveraendertem Binary 2.1.236 — Wedge-Annahme elf Laeufe ungeprueft fortgeschrieben; Auftrag neu gefasst, Rule 260807 um Spiegelfall ergaenzt

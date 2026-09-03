@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.09.2026 13:02:13
+Stand: 03.09.2026 13:12:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 13:02:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3292a3265 nas-selfcommit: 4 Datei(en) 2026-09-03 13:00
+- 48adc3c0f vollgas-radar 03.09. 12:57: PATH-Probe laeuft wieder mit unveraendertem Binary 2.1.236 — Wedge-Annahme elf Laeufe ungeprueft fortgeschrieben; Auftrag neu gefasst, Rule 260807 um Spiegelfall ergaenzt
