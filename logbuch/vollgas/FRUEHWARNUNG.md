@@ -3990,3 +3990,32 @@ Nächste Mail erst bei neuer Kontingent-Erschöpfung, einem Briefing-Ausfall aus
 fehlendem Radar-Herzschlag oder Aufwand ohne Wissenszuwachs.
 
 **Regellauf, keine Delegation** — Messungen inline, rund 12 Werkzeugaufrufe, im Sollmass.
+
+## 2026-09-03 07:15 — Rohblock (Messung, Bewertung folgt im selben Lauf)
+
+Messzeitpunkt 07:15 CEST, NAS gemountet, beide Stationen messbar (Mini über Alias `mini`).
+
+Verbrauch teuer (in+cache_creation+out) / total, in Mio Token:
+
+MacBook Pro: 28.08. 8.88/236.61 · 29.08. 9.52/222.30 · 30.08. 6.37/140.99 · 31.08. 7.02/160.50 · 01.09. 11.19/324.88 · 02.09. 9.20/219.74 · 03.09. (bis 07:15) 2.43/56.50
+Mac Mini: 28.08. 2.20/82.06 · 29.08. 29.84/679.38 · 30.08. 49.10/1159.68 · 31.08. 1.45/53.06 · 01.09. 1.59/56.02 · 02.09. 2.49/53.63 · 03.09. (bis 07:15) 0.55/16.71
+
+Beide Stationen zusammen teuer: 01.09. 12.78 · 02.09. 11.69 · 03.09. bislang 2.98. Kein Tag über 35 Mio, keine zwei Folgetage über je 18 Mio.
+
+Blockade-Status: KEIN echtes Usage-/Rate-Limit-Fehlerereignis in den letzten 24 h (strukturell geprüft über isApiErrorMessage / type==error / apiErrorStatus==429). Kontrollprobe bestanden: Teilstring `scheduled-task` in 124 von 146 Dateien, das Suchmuster greift also.
+
+Briefings: hub-chef-taeglich vor 15.2 h (294 Zeilen), mahnwesen-verzugscheck vor 15.2 h (127), zahlungsabgleich-check vor 6.5 h (139), logbuch-radar vor 0.2 h (06:55, Briefing-Block im LOGBUCH geschrieben). Alle mit Deliverable, keine abgebrochene Sitzung.
+
+Radar-Herzschlag: vollgas-chef-radar Session vor 6.0 h, jüngster RADAR.md-Eintrag 2026-09-03 00:57. Innerhalb der 12-Stunden-Schwelle.
+
+Messfalle in eigener Sache (neu, festzuhalten): die Task-Opener-Suche nach `logbuch-radar` traf zuerst die EIGENE Frühwarnungs-Session mit 0.0 h. Grund: der Messhinweis-Abschnitt dieser Task zitiert das Muster `scheduled-task name="logbuch-radar"` wörtlich, und dieses Zitat steht damit escaped in der eigenen JSONL. Wer das nicht bemerkt, misst sich selbst und meldet jeden Briefing-Loop als taufrisch. Gegenmittel: die eigene Session-ID aus der Dateiliste ausschliessen, dann erneut messen (hier: logbuch-radar real vor 0.2 h, unverändert unkritisch). Gleiche Familie wie der Befund vom 18.08.2026, nur mit umgekehrtem Vorzeichen — dort ein falsches Negativ, hier ein falsches Positiv.
+
+**Bewertung — keines der sieben Meldekriterien erreicht, nicht gemailt.**
+
+(a) kein echtes Limit-Fehlerereignis, weder interaktiv noch in einem Loop. (b) beide Stationen zusammen teuer 12.78 Mio am 01.09. und 11.69 Mio am 02.09. — unter der 35er-Tagesschwelle und unter der 18er-Doppeltagesschwelle. (c) kein erschöpftes Wochenkontingent in den letzten 24 h; das Gate hat zuletzt am 31.08. gedrosselt (87.3 %, vier Abweisungen `schub-fachwissen`), seither keine Abweisung. (d) alle vier Briefings haben ihr Deliverable erreicht — beim Hub-Chef am Original nachgemessen: Tagesbriefing am 02.09. um 08:54:38 über Apple Mail versendet, 8'217 Zeichen. (e) Radar-Herzschlag frisch (Session vor 6.0 h, RADAR.md 00:57). (f) kein Aufwand ohne Wissenszuwachs: `architektur-fachwissen` steht bei 480 Artikeln, die beiden jüngsten vom 02.09. 16:21 und 23:26; keine Delta-Null-Serie in den Output-Reports. (g) Queue nicht komplett, Specs liegen für alle vier Korpora vor, das Spec-Gate hängt nicht.
+
+Stückkosten (teuer beider Stationen je neu geschriebenem oder erweitertem Wiki-Artikel, Artikelzahl per `git log`, nicht per mtime): 31.08. 8.47 Mio / 25 Artikel = 0.34 (ohne die sechs Twin-Facetten 0.45) · 01.09. 12.78 / 26 = 0.49 (ohne Twin 0.64) · 02.09. 11.69 / 10 = 1.17 (ohne Twin 1.95). Der 02.09. ist damit der bislang teuerste Tag der Reihe, und zwar nicht wegen höheren Verbrauchs, sondern wegen eingebrochener Artikelzahl. Das ist noch kein Meldegrund, aber die Zahl, auf die beim nächsten Lauf zuerst zu schauen ist: hält der Wert über 1.5, ist das der frühe Abdruck eines Materialproblems, nicht eines Verbrauchsproblems.
+
+Passend dazu und dem Radar bereits bekannt: das Gate-Log `logbuch/speicher/gate-Macmini.log` endet am 31.08. 13:30, die Nachtschicht hat seither keine Freigabe mehr angefragt. `ch.jans.nachtschicht` ist geladen und mit Status 0 beendet, also nicht abgestürzt. Der Radar hat den Nullbefund der Nachtschicht heute um 00:57 selbst gemeldet und als Material- statt Drosselproblem gedeutet; das deckt sich mit den Stückkosten oben. Kein zweiter Kanal von hier — der Befund gehört ihm.
+
+Zuletzt gemailt: **24.08.2026 07:50**. Nächste Mail erst bei neuer Kontingent-Erschöpfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag, Aufwand ohne Wissenszuwachs oder komplett gemeldeter Korpus-Queue.

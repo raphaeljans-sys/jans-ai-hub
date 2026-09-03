@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.09.2026 07:08:44
+Stand: 03.09.2026 07:19:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:05)
@@ -12,4 +12,4 @@ Stand: 03.09.2026 07:08:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- faf32f1f1 logbuch-radar 03.09.2026: Briefing im Logbuch; Register — 3 erledigt (Meldekarte SRZ versendet, Arbeitsinspektorat versendet, Tuerfachplanung freigegeben), 2 neu (Thalwil Posch/SBB, Lueftungs-Eskalation), Steinmann-Nachtrag
+- e7bb5f8c9 nas-selfcommit: 2 Datei(en) 2026-09-03 07:15
