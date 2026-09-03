@@ -1,8 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.09.2026 01:06:20
+Stand: 04.09.2026 01:26:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
+- Developer/jans/ai/hub//claude/worktrees/kwc/sirius/bs302/kispi/cd9dd1  (letzte Aktivitaet 01:25)
 - Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
 
 ## Laufende Arbeits-Prozesse
@@ -12,4 +13,4 @@ Stand: 04.09.2026 01:06:20
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 132cf80a5 vollgas-radar 04.09. 00:57: Regellauf ohne Befund, PATH-Probe 7s rc=0 (Gegenmessung bestaetigt), Wochenbudget 23.5% bei 50.6% Woche (-27.1 Pkt), alle Loops liefern
+- a9e84d7e8 nas-selfcommit: 2 Datei(en) 2026-09-04 01:15
