@@ -1,15 +1,15 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.09.2026 06:58:25
+Stand: 03.09.2026 07:08:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:38)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:05)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- keine
 
 ## Hub-Git-Stand (NAS)
-- f6f0780f0 nas-selfcommit: 2 Datei(en) 2026-09-03 06:45
+- faf32f1f1 logbuch-radar 03.09.2026: Briefing im Logbuch; Register — 3 erledigt (Meldekarte SRZ versendet, Arbeitsinspektorat versendet, Tuerfachplanung freigegeben), 2 neu (Thalwil Posch/SBB, Lueftungs-Eskalation), Steinmann-Nachtrag

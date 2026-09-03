@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.09.2026 07:02:22
+Stand: 03.09.2026 07:12:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 07:02:22
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 08f4c5f8f nas-selfcommit: 4 Datei(en) 2026-09-03 07:00
+- faf32f1f1 logbuch-radar 03.09.2026: Briefing im Logbuch; Register — 3 erledigt (Meldekarte SRZ versendet, Arbeitsinspektorat versendet, Tuerfachplanung freigegeben), 2 neu (Thalwil Posch/SBB, Lueftungs-Eskalation), Steinmann-Nachtrag
