@@ -165,7 +165,17 @@ Klassierung, Schliessen 15×15, Regionen > 1200 px), Koordinaten bei 300 dpi.
 | **Keller** | x1187-2128, y1560-1611 | **NNF** | 2.1.1.2 |
 | Grube unter der Terrasse | x1882-2051, y1712-1763 | **FF** | 2.1.3 |
 | **Laubengang** links | x649-754, y1073-1125 | **AVF**, schraffiert | 3.1.2 |
-| Terrasse / Balkon / Sitzplatz rechts | y1073-1125, y1236-1287, y1398-1449 | **ANF**, schraffiert | 3.1.1 |
+| Terrasse / Balkon / Sitzplatz rechts | y1073-1125, y1236-1287, y1398-1449, **jeweils nur der Teil ausserhalb der Aussenwandflucht** | **ANF**, schraffiert | 3.1.1 |
+
+⚠ **Präzisierung durch Refuter B, vom Hauptprozess am Original nachgemessen:** Die mit
+«Terrasse» und «Balkon» beschrifteten Bänder sind **nicht durchgehend** ANF. Im Terrassenband
+(y1080-1120) schlägt der Schwarzanteil bei **x = 1538** von 0.00 auf 0.083 um, und genau dort
+steht eine durchgehende senkrechte schwarze Linie: bei **x = 1543 und x = 1549 sind je 93 von
+125 Pixeln** zwischen y950 und y1075 schwarz. Innerhalb dieser Linie ist das Band **solid rot
+(HNF)**, ausserhalb **schraffiert rot (ANF)**. Das ist die unabhängige Reproduktion der schon
+geführten Regel aus Run 66 (A66-16): die Grenze GF-Familie ↔ AGF-Familie ist die
+**Aussenwandflucht**. Nach Methodik-Pflicht 7 als **Bestätigung** protokolliert, nicht als
+Befund — und die Zeile oben ist entsprechend eingeschränkt.
 
 **Bewertung:** Der Estrich als NNF und der Keller als NNF stehen zwar als **Beispielliste**
 in Ziff. 2.1.1.2, aber die Figur zeigt sie **am durchgerechneten Beispiel** — und sie zeigt
@@ -269,10 +279,21 @@ Schliessen 15×15, Zeichnungsbereich (Legende ab y1880 ausgeschlossen).
 | 1 | Dachüberstand links | x599-713, y934-1016 | 1'850 | 0.141 | 30 px = 1.7 % |
 | 2 | Dachüberstand rechts | x1611-1691, y929-984 | 1'263 | 0.151 | 31 px = 2.5 % |
 | 3 | **Laubengang-Platte** links | x599-713, y1154-1229 | 2'044 | 0.138 | 28 px = 1.4 % |
-| 4 | Balkonplatte 2. OG **samt Brüstung in Ansicht** | x1611-1825, y1074-1181 | 3'275 | 0.160 | 42 px = 1.4 % |
+| 4 | Balkonplatte 2. OG | x1611-1825, y1074-1181 | 3'275 | 0.160 | 42 px = 1.4 % |
 | 5 | Balkonplatte 1. OG | x1613-1825, y1279-1347 | 3'249 | 0.151 | **0 px = 0.0 %** |
+| 6 | **senkrechtes Bauteil in Ansicht** (Balkonwange/Brüstung) | x1790-1831, y1073-1456 | ≈1'600 | 0.145 | 0 px |
 
-**Kein sechstes Element.** Die Restüberlappungen von 1.4 bis 2.5 % sind reine Kantenwirkung.
+**Kein siebtes Element.** Die Restüberlappungen von 1.4 bis 2.5 % sind reine Kantenwirkung.
+⚠ **Selbstkorrektur beim Nachmessen:** Die erste Aufnahme führte nur **fünf** Gruppen, weil ein
+morphologisches Schliessen mit 25×25 px die beiden Balkonplatten und das senkrechte
+Ansichts-Bauteil zu **einer** Region verschmilzt (x1611-1825, y1073-1456). Erst die Messung des
+Streifens für sich zeigt, dass er ein **eigenständiges, durchgehendes** Bauteil ist: 42 px breit,
+**384 px hoch — also über beide Balkongeschosse durchlaufend**, und in der Ansichts-Signatur
+(Weiss 0.717, Schwarz 0.145, Braun 0.083 gegen den Legendenwert Weiss 0.847). Er ist damit
+gerade **kein** Zubehör der oberen Platte. **Lehre:** ein Schliessradius, der gross genug ist,
+um eine Schraffur zu einer Fläche zu verbinden, ist auch gross genug, um benachbarte Bauteile
+zu verschmelzen — die Regionenzahl einer geschlossenen Maske ist eine **untere Schranke** für
+die Zahl der Bauteile, nie deren Nachweis.
 **Drei Aussagen daraus:**
 1. **Der Bestand war nie aufgenommen.** Das Destillat beschreibt zu Figur 12 nur die zwei
    Signaturen (Run 66), nicht **welche** Bauteile AKV sind.
@@ -355,6 +376,61 @@ Leser zur falschen Kategorie — bleibt richtig und wird schärfer: es sind **zw
 Kategorien, je nach Figurenart. Eine braune Fläche ist ohne die Frage «Grundriss oder
 Schnitt?» nicht auflösbar.
 
+### A78-15 — Figur 5 zeigt die Grenze UF ↔ AGF **über einem einzigen Keller**
+**Fundstelle:** S. 50, Figur 5, Erdgeschoss- und 1.-UG-Niveau.
+**Messung** (300 dpi; Innen/Aussen über den Schwarzanteil in einem 30-px-Fenster, Spaltenprofil):
+
+| Niveau | x-Bereich | Signatur | Kategorie |
+|---|---|---|---|
+| EG (y1410-1440) | 406-758 | grün, voll | **UF** (1.2) |
+| EG | 761 bis ≈1660 | magenta, Schwarzanteil 0.00 | **GF** (2) |
+| EG | ≈1680 bis 1992 | magenta, Schwarzanteil **0.10-0.23** | **AGF** (3) |
+| EG | 1993-2243 | grün, voll | **UF** (1.2) |
+| 1. UG (y1570-1600) | 762 bis **2151** | magenta, Schwarzanteil 0.01 | **GF** (2) |
+
+**Der Befund:** Das Kellergeschoss reicht nach rechts bis **x2151** und damit **weiter als die
+Terrasse darüber** (Ende bei x1992). Über **demselben** unterirdischen Bauwerk liegt also
+zwischen x1680 und 1992 **AGF** und zwischen x1993 und 2151 **UF**. Die Grenze ist nicht die
+Kante des Kellers, sondern der Punkt, an dem die Fläche in das anschliessende Terrain übergeht.
+**Bewertung:** Das ist die zeichnerische Umsetzung des zweiten Halbsatzes der Ziff. 1.2
+(«Flächen über Bauten im Erdreich gelten als UF, sofern sie bepflanzt, begangen oder befahren
+werden können und mit dem anschliessenden Terrain in Verbindung stehen»). Das Destillat führt
+das Kriterium «Terrainanschluss entscheidet AGF gegen UF» und schreibt es **allein der Figur 7**
+zu. **Figur 5 zeigt es bereits** — und zeigt es an einem durchgehenden Bauteil, also schärfer
+als die Nebeneinanderstellung zweier Beispiele. Nach Methodik-Pflicht 7 ist das keine neue
+Regel, sondern eine **zweite, unabhängige Fundstelle** für eine geführte Regel; neu ist die
+Fundstelle und die Einsicht, dass über **einem** Keller beide Kategorien nebeneinander liegen.
+
+### A78-16 — KERNBEFUND: die HNF/NNF-Grenze an der Traufseite steht auch auf der **Flächen**seite — ohne Konstruktion dazwischen
+**Fundstelle:** S. 51, Figur 6, DG-Band y824-876.
+**Anlass:** Refuter B meldete als Zusatzbefund eine «kleine NNF-Insel» bei x1582-1634 und deutete
+sie als Abgrenzung wegen ungenügender lichter Höhe (Kniestock). Der Hauptprozess hat den
+Sachverhalt am Original nachgemessen — die **Beobachtung** hält, die **Deutung** nicht.
+**Messung** (Zeilenschnitt y = 850, Einzelpixel):
+
+| x | RGB | Kategorie |
+|---|---|---|
+| 1565-1580 | (222, 26, 55) | HNF |
+| **1583**-1634 | (246, 135, 18) | **NNF** |
+| ab 1637 | (255, 255, 255) | weiss (ausserhalb) |
+
+**Zwischen x1570 und x1600 ist der Schwarzanteil im Band (y830-870) exakt 0.000** — es gibt
+**keine** trennende Linie, keinen Wandquerschnitt, kein Konstruktionsbauteil. HNF und NNF
+stossen unmittelbar aneinander.
+**Was daran neu ist:** Run 77 hat genau diese Konstellation auf der **Volumen**seite gefunden
+(Figur 11, NNV neben HNV an der Traufseite, gemessen `S12` ohne weissen Kern gegen `S6 W18-28 S6`
+bei jeder echten Wand). Sie steht damit **auch auf der Flächenseite**, in einer anderen Figur und
+einer anderen Zeichnung. Die Kategoriengrenze innerhalb eines durchgehenden Raumvolumens ist
+also kein Eigenheit der Volumenfigur.
+⚠ **Und was NICHT übernommen wird — zum zweiten Mal:** die Begründung «zu geringe Raumhöhe».
+Run 77 hat sie an der Figur 11 geprüft und **widerlegt**: SIA 416 kennt an keiner Stelle einen
+Raumhöhen-Schwellenwert; Ziff. 2.1.1.1/2.1.1.2 und 5.1.1.1/5.1.1.2 stellen auf **Zweckbestimmung
+und Nutzung** ab, und an der Grenze steht kein Mass. Hier steht ebenfalls keines.
+**Das ist der eigentliche methodische Ertrag:** In zwei Läufen haben **zwei unabhängige Agenten**
+in **zwei verschiedenen Figuren** dieselbe falsche Erklärung angeboten. Die Fehldeutung ist
+naheliegend und wiederholbar — sie gehört deshalb nicht bloss abgelehnt, sondern **im Destillat
+sichtbar als widerlegt geführt**, damit sie nicht beim dritten Mal durchgeht.
+
 ---
 
 ## Teil B — Selbstkorrektur im Lauf
@@ -393,7 +469,105 @@ die Ansichts-Teile des AKV nicht.
 
 ## Teil C — Refuter-Verdikte
 
-*(Abschnitt wird nach Rücklauf der drei unabhängigen Refuter-Agenten ausgefüllt.)*
+Drei unabhängige Agenten (sonnet), je eigenes Arbeitsverzeichnis und eigenes Render-Präfix
+(`r78-refA-` / `r78-refB-` / `r78-refC-`, Methodik-Pflicht 5). Jeder hat die Legenden-Swatches
+selbst gemessen und seine Referenzstellen selbst gewählt. Auftrag war zu **widerlegen**.
+
+**Gesamtbilanz: 17 Behauptungen geprüft — 11 bestätigt, 5 eingeschränkt, 1 Zahlenwert
+widerlegt. Keine inhaltliche Widerlegung.**
+
+| Refuter | Behauptung | Verdikt |
+|---|---|---|
+| A (Fig. 1-4) | B1 zwei Treppen verschieden klassiert | **bestätigt** — Punktmessung: obere (246,227,4) = VF, untere (222,26,55) = HNF an drei Stufen |
+| A | B2 beide Treppenläufe in Fig. 3 weiss | **bestätigt** — (255,255,255) exakt, an vier Punkten |
+| A | B3 Luftraumgrenze an der Treppenwange | **bestätigt** — Grenze Weiss/Magenta läuft exakt auf der Wangenlinie |
+| A | B4 Luftraum einziges grosses weisses Feld | **bestätigt** — 121 Komponenten; nach dem Luftraum (91'571 px) folgt erst 153 px, und die liegt in der Fusszeile |
+| A | B5 Additivität Fig. 1-4 | **bestätigt, mit Einschränkung zur Schwelle** |
+| A | B6 Aussen-Signatur schwarz über Vollfarbe | **bestätigt, Zahlenband zu eng** — Weissanteil 0.000 in beiden Messungen |
+| B (Fig. 5-7) | B1 raumweise Zuordnung Fig. 6 | **bestätigt** (RGB-Distanz 0.0 bei sieben von sieben), **Einschränkung** zu Terrasse/Balkon |
+| B | B2 Bänder ohne Massbedeutung | **bestätigt**, Bandhöhen und alle sechs Abstände unabhängig reproduziert |
+| B | B3 Signatur schwarz auf Vollfarbe | **eingeschränkt bestätigt** — Weissanteil 0.000 in vier Swatches, Farbanteil real 0.85-0.92 |
+| B | B4 UF-Band starr waagrecht | **bestätigt** — Geländelinie steigt um 37 px über 340 px, das Band bleibt bei y1399-1450 |
+| B | B5 Fig. 5/6 gegen Fig. 8-12 nicht deckungsgleich | **bestätigt**, Quantifizierung aber nicht haltbar — siehe C-3 |
+| C (Fig. 8-12) | B1 Additivität Volumen | **bestätigt** — IoU **0.986** (GV gegen NGV∪KV) und **0.990** (NGV gegen Fig. 11) |
+| C | B2 Bestand der Figur 12 | **bestätigt**, Schwelle bis auf 10 px abgesenkt, kein weiteres Element; Nuance zum Ansichts-Streifen |
+| C | B3 Disjunktheit AKV ↔ GV | **eingeschränkt** — je nach Subpixel-Registrierung 0.00 bis 3.83 % statt «höchstens 2.5 %» |
+| C | B4 Terrasse ist nicht AKV | **bestätigt** (Messteil); die Begründung ausdrücklich als **Deutung** markiert |
+| C | B5 Signaturen der Figur 12 | **ein Zahlenwert widerlegt** — Schnitt-Swatch hat Weissanteil **0.000**, nicht «um 0.3» |
+| C | B6 Grube ist GV/NGV/FV | **bestätigt** — FV 90.2 % gegen drei Nullwerte |
+
+### C-1 — Die einzige Widerlegung, und sie traf einen Wert, den der Hauptprozess selbst schon berichtigt hatte
+Refuter C hat den in seinem Auftrag genannten Weissanteil «um 0.3 oder tiefer» für die
+Schnitt-Signatur der Figur 12 **widerlegt**: gemessen 0.000. Der Hauptprozess war unabhängig zum
+selben Ergebnis gekommen, bevor der Bericht eintraf (siehe A78-13, Messhinweis): die 0.31 bis
+0.37 stammten aus einem zu weit gefassten Messkasten, der den weissen Blattrand mitzählte. Die
+Widerlegung ist damit **richtig und wird übernommen** — und sie bestätigt zugleich die Lehre,
+dass ein Messkasten über Zusammenhangskomponenten zu bestimmen ist. Der Wert stand in keinem
+Destillat; korrigiert wurde eine Behauptung dieses Laufs, kein Bestand.
+
+### C-2 — Die Additivität ist jetzt mit zwei verschiedenen Verfahren gemessen
+Der Hauptprozess hat mit **Toleranzband** gearbeitet (11-px-Dilatation, morphologisches Öffnen)
+und in vier Richtungen **null** Abweichungsregion über 1200-1500 px gefunden. Refuter A hat ohne
+Toleranzband einen **rohen XOR** gebildet und Komponenten bis 48'231 px gefunden, sie aber als
+linienförmig ausgewiesen; Refuter C hat einen **IoU** gerechnet (0.986 / 0.990). Die drei
+Verfahren widersprechen sich nicht, sie messen dasselbe verschieden streng.
+**Der Hauptprozess hat den Einwand danach selbst nachgerechnet** (Formfaktor jeder
+XOR-Komponente): von den sechs grössten Komponenten je Test hat **keine** einen Füllgrad über
+0.093 — sie sind alle linienförmig; die grösste kompakt aussehende misst 407 × 5 px, ist also
+ebenfalls eine Linie. Refuter A kommt auf dasselbe: die grösste **nicht** linienartige Komponente
+misst **213 px**. Damit ist die Additivität dreifach unabhängig belegt.
+
+### C-3 — Der Hauptprozess widerspricht einer Quantifizierung des Refuters B
+Refuter B hat B5 (Flächenschnitt und Volumenschnitt sind nicht deckungsgleich) bestätigt, dabei
+aber gemessen, der First liege in Figur 8 «58 px weiter links bei nahezu gleicher linker
+Aussenkante» und die Zeichnung sei «10 % höher im Verhältnis zur Breite». **Beides hält der
+Nachmessung nicht stand.** Die von Refuter B als «linke Gebäudekante» genommenen x403/x400 sind
+nicht das Gebäude, sondern der linke Textrand der Seite (die Zeile «Figur 5» beginnt dort).
+
+Eigene Messung des Hauptprozesses an der schwarzen Strichzeichnung, Fenster ohne Titeltext und
+ohne Massstrang:
+
+| Grösse | Figur 5 (S. 50) | Figur 8 (S. 53) | Abweichung |
+|---|---|---|---|
+| Breite auf halber Höhe | x760-1885 = **1126 px** | x706-1821 = **1116 px** | 0.9 % |
+| Gesamthöhe der Zeichnung | **1125 px** | **1137 px** | 1.1 % |
+| First, Abstand von der linken Aussenkante | 1190 − 760 = 430 px = **38.2 %** der Breite | 1132 − 706 = 426 px = **38.2 %** der Breite | 0.0 % |
+
+**Massstab und Proportion sind also praktisch identisch.** Nicht deckungsgleich sind die
+Zeichnungen trotzdem: ein Zeilenschnitt bei y = 1200 zeigt, dass die ersten drei senkrechten
+Linien mit einem Versatz von −53/−54 px zur Deckung kommen, eine weiter rechts liegende aber
+erst mit −33 px. Die Abweichung **wächst über die Breite auf rund 20 px an**. Es sind zwei
+**separat gezeichnete** Darstellungen desselben Gebäudes mit lokalen Zeichnungsabweichungen,
+nicht zwei verschieden skalierte. Die Aussage «nicht registrierbar» bleibt; ihre Begründung
+ändert sich.
+
+### C-4 — Zwei Zusatzbefunde der Refuter, die übernommen werden
+**Aus Refuter C:** Das AKV trägt in der Norm die **eigenständige Ziffer 6**, nicht «5.3». Die
+Norm weist es also auch numerisch als eine von GV unabhängige Kategorie aus — ein
+**struktureller** Beleg neben dem gemessenen (A78-06, A78-09) dafür, dass Aussenbauteile nicht
+Teil des Gebäudevolumens sind. Übernommen.
+
+**Aus Refuter C, vom Hauptprozess nachgemessen:** Die Ansichts-Signatur trägt in der **Zeichnung**
+mehr schwarze als braune Schraffur, in der **Legende** umgekehrt fast nur braune:
+
+| Messstelle | weiss | schwarz (35,31,32) | braunrot (143,65,46) |
+|---|---|---|---|
+| Legenden-Swatch «Ansicht» (S. 57) | 0.793 | 0.024 | **0.078** |
+| Ansichts-Streifen in der Zeichnung (x1795-1828, y1150-1300) | 0.634 | **0.117** | 0.049 |
+
+Die Zeichnung zeigt also **zwei** Linienfamilien, die Legende im Wesentlichen nur eine. Wer die
+Zeichnung gegen die Legende hält, sieht dort eine dunklere, «schwärzere» Schraffur als im Swatch.
+Das verschärft den Run-66-Befund A66-15 ein zweites Mal: die Ansichts-Signatur ist nicht nur
+nicht erklärt, sie sieht in der Anwendung auch anders aus als in ihrer eigenen Legende. **Was die
+schwarze Linienfamilie bedeutet, ist nicht entschieden** — sie könnte das eigene Strichwerk des
+Geländers sein. Als offener Punkt geführt, nicht als Regel.
+
+### C-5 — Was ein Refuter meldete und NICHT übernommen wurde
+Refuter B deutete die NNF-Insel an der Traufseite als Folge zu geringer lichter Höhe. Die
+Beobachtung ist übernommen und nachgemessen (A78-16), **die Deutung nicht** — Run 77 hat
+dieselbe Erklärung an Figur 11 bereits am ganzen deutschen Normteil widerlegt. Ebenfalls nicht
+übernommen: Refuter B's Zusatzbefund 4, Figur 8 zeige den Schacht «nicht als Aussparung» — das
+ist richtig gemessen, war aber nie behauptet und ist kein Befund.
 
 ---
 

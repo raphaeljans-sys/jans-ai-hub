@@ -1,3 +1,114 @@
+## 2026-09-03 — Normen-Nacht Run 78: messende Abdeckung auf den Figuren 1-10 und 12 (SIA 416), N77-1 geschlossen
+
+Inventar unverändert bei **0 offenen `[ ]`** im SIA/VKF-Scope. Gearbeitet wurde am ersten der
+zwei von Run 77 benannten Hebungs-Blocker des Destillats `sia-416-2003.md`: die **messende
+Abdeckungsrichtung des Hauptprozesses** war auf **einer** von zwölf Figuren gelaufen (Figur 11).
+Dieser Lauf fährt sie auf den **übrigen elf** — Figuren 1-10 und 12, S. 46-55 und 57.
+
+**Methode.** Alle Anhangseiten selbst gerendert (300 dpi Vollseiten, Detailfragen 600 dpi,
+Präfix `sia416-r78-`), Legenden-Swatches **je Figur an der Figur selbst** gemessen, jedes Pixel
+per Nächste-Farbe-Klassierung zugeordnet. Der eigentliche Abdeckungstest war die
+**Kreuztabellierung**: die drei Figurenserien (Grundriss 1-4, Flächenschnitt 5/6,
+Volumenschnitt 8-12) gegeneinander registriert und in beide Richtungen gedifft. Sie prüft nicht,
+ob eine Aussage des Destillats stimmt, sondern ob die Figuren untereinander aufgehen — und findet
+damit, was in keiner Aussage vorkommt. Drei unabhängige Refuter-Agenten (eigene
+Arbeitsverzeichnisse, Präfixe `r78-refA-`/`refB-`/`refC-`). Seitenzahl am Rand abgelesen,
+Versatz null.
+
+**Verdikte: 17 Behauptungen geprüft — 11 bestätigt, 5 eingeschränkt, 1 Zahlenwert widerlegt.**
+Der widerlegte Wert war eine Behauptung dieses Laufs (Weissanteil des Figur-12-Schnitt-Swatches,
+gemessen 0.000 statt «um 0.3»), die der Hauptprozess unabhängig schon berichtigt hatte —
+Messkasten zu weit gefasst, Blattrand mitgezählt. **Kein Bestandswert widerlegt; in fünf
+Prüfrunden kein einziger falscher Zahlenwert des Destillats.**
+
+**Zwei Kernbefunde mit Hub-Reichweite.**
+
+**(1) Die Fläche/Volumen-Paarung bricht bei den Aussenkategorien ab — das schliesst N77-1.**
+Am selben Beispielgebäude (Figur 6 gegen Figur 11/12) gemessen: Estrich NNF↔NNV · Wohnen
+HNF↔HNV · Keller NNF↔NNV · Treppenhaus VF↔VV · Schacht FF↔FV · Grube FF↔FV — **aber Laubengang
+(AVF) und Terrasse/Balkon (ANF) haben kein Volumen-Pendant.** Die Gegenprobe macht es hart: über
+der Balkonplatte und über der Laubengangplatte ist der Raum in **allen fünf** Volumenfiguren
+leer (Weiss 0.986 bzw. 1.000, jede Legendenfarbe 0.000). Strukturell gestützt: das AKV trägt die
+eigenständige Ziffer **6**, nicht «5.3». **Praxisfolge:** ein Variantenvergleich über CHF/m³ GV
+ist gegenüber Aussenflächen blind, einer über CHF/m² nicht — zwei Varianten mit und ohne
+grosszügige Balkone sind zwischen den beiden Kennwerten nicht neutral. Betrifft
+`grobkosten-onepager`, `machbarkeit-studio`, Agent `grobkosten-rechner`.
+
+**(2) KV ist aus KF nicht hochrechenbar.** In der Deckenzone zwischen zwei Geschossen gemessen:
+Figur 8 GV 0.737 · Figur 9 NGV **0.000** · Figur 10 KV **0.684**. Die Geschossdecken sind KV —
+und eine waagrechte Platte hat im Geschossgrundriss kein Pendant, weil Ziff. 2.2 die KF als
+*Grundrissfläche* der geschnittenen Bauteile definiert. **39.2 %** der KV-Pixel der Figur 10
+liegen in 56 von 1131 Bildzeilen, also in den Platten; dazu die geneigte Dachkonstruktion. Eine
+Schätzung «KV = KF × Geschosshöhe» unterschätzt das KV um deutlich mehr als ein Drittel.
+Damit ist auch die zweite Hälfte von N77-1 beantwortet: bei **VF/VV** besteht **keine**
+Asymmetrie.
+
+**Weitere Befunde.**
+- **Figur 4 klassiert zwei Treppen desselben Grundrisses verschieden:** die gemeinschaftliche ist
+  **VF** (0.97, kein HNF-Pixel), die wohnungsinterne **HNF** (0.97, kein VF-Pixel). Die Norm zeigt
+  die Regel der Ziff. 2.1.2 an ihrem eigenen Beispiel — bisher stand sie nur als Begriffszeile und,
+  seit Run 77, auf der Volumenseite. **Und: ein Treppenlauf ist nie KF** (beide in Figur 3 weiss).
+  Der Luftraum ist **netto** zu messen — seine Grenze läuft entlang der Treppenwange.
+- **Die Flächen der Figuren 5/6 sind Bänder ohne Massbedeutung.** Alle vierzehn Bänder sind
+  52-54 px hoch, während die Bandabstände zwischen 100 und 253 px variieren; und **dasselbe Feld
+  (Spitzboden) ist in Figur 5 bei y720-772, in Figur 6 bei y749-800 gezeichnet — 29 px versetzt,
+  bei deckungsgleichen schwarzen Referenzlinien.** Die vertikale Lage eines Bandes trägt keine
+  Information. Scharfer Gegensatz zu den Figuren 8-12, wo die Geometrie die Messgrösse **ist**.
+- **Die raumweise Zuordnung der Figur 6** war nie geführt (Estrich/Spitzboden/Keller NNF,
+  Treppenhaus VF über vier Geschosse, Schacht und Grube FF, Laubengang AVF). Zwei davon stehen in
+  keiner Beispielliste der Norm.
+- **Die HNF/NNF-Grenze an der Traufseite steht auch auf der Flächenseite ohne Konstruktion
+  dazwischen** (Schwarzanteil exakt 0.000 zwischen x1570 und x1600) — die Flächenseite derselben
+  Konstellation, die Run 77 an Figur 11 fand. ⚠ Die naheliegende Erklärung «zu geringe Raumhöhe»
+  ist **zum zweiten Mal** von einem Agenten angeboten und **zum zweiten Mal widerlegt**; sie ist
+  jetzt ausdrücklich als widerlegt im Destillat geführt.
+- **Der Bestand des AKV (Figur 12) erstmals aufgenommen:** genau **sechs** Elementgruppen — zwei
+  Dachüberstände, die Laubengang-Platte, zwei Balkonplatten und ein **senkrechtes Bauteil in
+  Ansicht, das über beide Balkongeschosse durchläuft** (y1073-1456), also kein Zubehör der oberen
+  Platte. Damit ist der Run-65-Schluss zum direkten Beleg geworden. Die grosse Terrassenplatte
+  fehlt in der Liste — dieselbe Bauform ist einmal AKV und einmal GV-Bestandteil, massgebend ist,
+  was darunter liegt.
+- **Die Gesamtlegende S. 44/45 vollständig ausgezählt:** 9 Innen + 7 Aussen (Flächen), 7 + 1
+  (Volumen). Die zwei ungepaarten Innen-Kategorien sind damit **abgezählt** statt aufgezählt:
+  UF und NNF. Alle 24 Signaturen haben Weissanteil **0.000** — die Aussen-Signatur ist schwarze
+  Schraffur **über** der Vollfarbe. Die Ansichts-Signatur der Figur 12 ist die **einzige von 26**
+  mit weissem Grund. **Braun trägt drei Bedeutungen** (KFT/KV voll, AKFT/AKV schraffiert) — eine
+  braune Fläche ist ohne die Frage «Grundriss oder Schnitt?» nicht auflösbar.
+- **Additivität beider Serien pixelgenau gemessen** und dreifach unabhängig belegt: GF = NGF + KF,
+  NGF = HNF+NNF+VF+FF, GV = NGV + KV, NGV = HNV+NNV+VV+FV. Hauptprozess mit Toleranzband: null
+  Abweichungsregion > 1200 px in acht Richtungen. Refuter A ohne Toleranzband: grösste **nicht**
+  linienartige Komponente 213 px. Refuter C: **IoU 0.986 / 0.990**.
+
+**Der Hauptprozess hat zwei Refuter-Aussagen seinerseits geprüft und korrigiert.** Refuter B
+quantifizierte die Nicht-Deckungsgleichheit von Flächen- und Volumenschnitt mit «First 58 px
+weiter links, Zeichnung 10 % höher» — die als Referenz genommene «linke Gebäudekante» war der
+linke **Textrand** der Seite. Eigene Messung an der Strichzeichnung: Breite 1126 gegen 1116 px
+(0.9 %), Höhe 1125 gegen 1137 px (1.1 %), First bei **38.2 % der Breite in beiden**. Massstab und
+Proportion sind praktisch identisch; die Nicht-Registrierbarkeit kommt aus lokalen
+Zeichnungsabweichungen, die über die Breite auf rund 20 px anwachsen. Ebenfalls nicht übernommen:
+die Höhen-Deutung der NNF-Insel (siehe oben).
+
+**Status bleibt `speculative`** — aber der Grund hat sich halbiert. Der **einzige** verbliebene
+Blocker ist der f/i-Sprachdiff. Ob der überhaupt Voraussetzung sein soll, ist als **N78-1**
+Raphael vorgelegt: die Frage betrifft alle dfi-Normen der KB, und beim heutigen Massstab könnte
+keine von ihnen je `established` werden. Empfehlung des Laufs: dokumentierter
+Stichproben-Abgleich statt Volldiff. Nicht selbständig entschieden.
+
+**Nebenbefund ausserhalb der KB, gemessen und im Register geschlossen:** Die seit dem 29.08.2026
+als P1 geführte **Sync-Divergenz NAS ↔ GitHub ist aufgelöst.** Nativ per ssh gemessen:
+`HEAD` = `github/main` = `3bd56d0ef`, beide Richtungen 0 Commits; die als «kanonische Quelle
+unvollständig» beschriebene Lücke ist geschlossen (482 Wiki-Artikel der KB
+`architektur-fachwissen` auf **beiden** Seiten). Nachtrag in `logbuch/fristen.md` gesetzt. Die
+**Ursache** (Befund B6, `dispatch-run.sh` pinnt auf den SSD-Klon) bleibt offen.
+
+**Berichtigt:** Eine Zeile der «Offenen Punkte» des Destillats behauptete drei Läufe lang, die
+Q&A-Runde auf dem Figurenanhang sei nie gelaufen — während die Prüfstand-Tabelle derselben Datei
+seit Run 66 «Q&A: Run 66» führt. Inline korrigiert (N78-4).
+
+Anlage `training/n78-figuren-1-10-12-anlage.md` (alle Befunde einzeln mit Fundstelle und
+Messwert, A78-01 bis A78-16, Refuter-Verdikte C-1 bis C-5).
+Report `outputs/2026-09-03_normen-nacht-run78.md`.
+
 ## 2026-09-02 — Normen-Nacht Run 77: N66-1 geschlossen (Figur 11 SIA 416), fünf Befunde aus einer Figur, zweiter Beleg für N66-2
 
 Inventar unverändert bei **0 offenen `[ ]`** im SIA/VKF-Scope; gearbeitet wurde am einzigen

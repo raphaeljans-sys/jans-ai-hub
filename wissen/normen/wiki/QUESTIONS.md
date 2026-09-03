@@ -1,5 +1,66 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 78 (03.09.2026) — N77-1 geschlossen, ein Grundsatzentscheid vorgelegt
+
+**N77-1 GESCHLOSSEN.** Der Fläche/Volumen-Vergleich ist auf **allen vier** Kategorienpaaren
+gefahren, am selben Beispielgebäude (Figur 6 gegen Figur 11/12, S. 51 gegen S. 56/57), vom
+Hauptprozess gemessen. Ergebnis: **HNF↔HNV · NNF↔NNV · VF↔VV · FF↔FV sind gepaart. ANF und AVF
+haben kein Volumen-Pendant** — der Raum über einer Aussenfläche ist in allen fünf Volumenfiguren
+leer (Weissanteil 0.986 bzw. 1.000, jede Legendenfarbe 0.000). **Bei VF/VV besteht keine
+Asymmetrie**, bei **KF/KV eine erhebliche**: Geschossdecken und Dachkonstruktion sind KV und
+haben im Geschossgrundriss kein KF-Pendant; mindestens **39 %** des KV liegen in den waagrechten
+Platten. Befunde einzeln: `training/n78-figuren-1-10-12-anlage.md`.
+
+### N78-1 — **Vorlage an Raphael: Ist ein Sprachdiff Voraussetzung für `established`?**
+Nach diesem Lauf ist der **einzige** verbliebene Hebungs-Blocker von `sia-416-2003.md`, dass der
+**französische und italienische** Normteil (S. 17-30 und 31-43) nie systematisch gegen den
+deutschen gediffed wurde. Alle anderen Blocker sind erledigt: vier Prüfrichtungen sind auf allen
+Teilen gelaufen, die messende Abdeckung des Hauptprozesses jetzt auf allen zwölf Figuren, und in
+**fünf Prüfrunden ist kein einziger falscher Zahlenwert** gefunden worden.
+
+**Die Frage hat Reichweite über dieses Destillat hinaus.** Die KB führt weitere dfi-Normen. Wird
+der Sprachdiff als Voraussetzung gehandhabt, kann **keine** von ihnen je `established` werden —
+der Aufwand steht in keinem Verhältnis zum erwartbaren Ertrag, denn benutzt wird durchgehend der
+deutsche Teil, und der Stichproben-Abgleich aus Run 65 ergab «wortgleich knapp, keine
+zusätzliche Messregel».
+
+**Zur Wahl stehen (Entscheid Raphael, nicht selbständig umgesetzt):**
+- **(a)** Sprachdiff bleibt Voraussetzung — dann bleibt `sia-416-2003` `speculative`, und für die
+  übrigen dfi-Normen gilt dasselbe. Ehrlich, aber der Status verliert seine Unterscheidungskraft.
+- **(b)** Ein **dokumentierter Stichproben-Abgleich** genügt (definierte Zahl Ziffern, am
+  Original gegengelesen, Ergebnis im Prüfstand vermerkt) — dann wäre dieses Destillat mit einem
+  überschaubaren Lauf hebbar.
+- **(c)** Der Sprachdiff wird nur dort verlangt, wo eine Fundstelle **inhaltlich strittig** ist.
+
+**Empfehlung des Laufs: (b)**, weil sie messbar bleibt und den Prüfstand nicht entwertet.
+Nicht selbständig entschieden — das ist eine Regel der KB, keine Feststellung an der Quelle.
+
+### N78-2 — Die schwarze Linienfamilie in der Ansichts-Signatur der Figur 12 ist ungedeutet
+Gemessen trägt der Ansichts-Streifen in der **Zeichnung** weiss 0.634 / **schwarz 0.117** /
+braunrot 0.049, der zugehörige **Legenden-Swatch** dagegen weiss 0.793 / schwarz 0.024 /
+braunrot 0.078. Die Zeichnung zeigt zwei Linienfamilien, die Legende im Wesentlichen eine — wer
+die Zeichnung gegen die Legende hält, sieht dort eine dunklere Schraffur als im Swatch. Ob die
+schwarze Familie das eigene Strichwerk des Geländers ist oder Teil der Signatur, ist **nicht
+entschieden**. Für die Kategorienfrage ohne Belang, für das Wiedererkennen der Signatur nicht.
+Zuerst von Refuter C beobachtet, vom Hauptprozess nachgemessen. Kein Fremdbedarf.
+
+### N78-3 — Beobachtung zur Prüfmechanik: dieselbe Fehldeutung ist jetzt zweimal aufgetreten
+Die HNF/NNF- bzw. HNV/NNV-Grenze an der Traufseite ist in Run 77 (Figur 11, Volumen) und in
+Run 78 (Figur 6, Fläche) von **zwei unabhängigen Agenten** je mit «zu geringe Raumhöhe»
+begründet worden. Beide Male ist die Begründung am Original widerlegt: SIA 416 kennt keinen
+Raumhöhen-Schwellenwert. Die Fehldeutung ist offenbar **naheliegend und wiederholbar** — sie ist
+deshalb im Destillat jetzt ausdrücklich als widerlegt geführt, statt bloss nicht übernommen zu
+werden. Keine Frage, sondern ein Vermerk für den nächsten Lauf.
+
+### N78-4 — Berichtigt: eine veraltete Zeile in den «Offenen Punkten» hat drei Läufe überdauert
+Die Zeile «Q&A-Runde auf dem Figurenanhang S. 44-57 — die einzige der drei etablierten
+Richtungen, die dort nie lief; nächster Arbeitsgegenstand» stand bis zum 03.09.2026 unverändert
+im Destillat, **obwohl die Prüfstand-Tabelle derselben Datei seit Run 66 für beide Anhang-Zeilen
+«Q&A: Run 66» führt**. Ein Destillat, das seinem eigenen Prüfstand widerspricht, schickt den
+nächsten Lauf auf eine erledigte Aufgabe. Inline berichtigt (Methodik-Pflicht 9).
+**Praktische Folge für künftige Läufe:** Vor der Wahl des Arbeitsgegenstands sind «Offene Punkte»
+und Prüfstand-Tabelle **gegeneinander** zu lesen, nicht nur nacheinander.
+
 ## Normen-Nacht Run 77 (02.09.2026) — N66-1 geschlossen, zweiter Beleg für N66-2, eine ID-Kollision
 
 **N66-1 GESCHLOSSEN.** Figur 11 der SIA 416:2003 (S. 56) ist vom **Hauptprozess selbst**
