@@ -3,6 +3,16 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-03 (interaktive Session, Wissens-Rücklauf) — Fallreport W3 Stadt Zürich, Hanglage mit fremder Tiefgarage
+
+`outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md` (neu): verallgemeinerbare
+Rechenkette W3 Regelbauweise, acht Fallstricke aus der Prüfung einer Fremd-Potentialstudie
+(Nullreserve/Reduit-Praxis, UG-Niveau durch Nachbar-Tiefgarage fixiert, § 276 Abs. 1 Anhang,
+Dienstbarkeitspaket für Tiefgaragen-Verbindung, Handschiebeleiterkonzept, Teilrevision
+Waldabstandslinien Stadt Zürich Auflage 03.12.2025) und eine Werkzeug-Erkenntnis
+(geo.admin-Identify per Koordinate). Kein Wiki-Artikel geändert; Kandidat für
+[[nutzungsziffern]] (Reduit-Praxis) in QUESTIONS.md eingetragen.
+
 ## 2026-09-01 (Wissens-Chef Lauf 50) — § 18 BVV nachgetragen; Run-15-Befund berichtigt
 
 `wiki/baubewilligungsverfahren.md` (+21/−0): Neuer Abschnitt «Abschluss des Anzeigeverfahrens

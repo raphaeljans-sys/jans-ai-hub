@@ -1,7 +1,7 @@
 ---
 title: Profil Christoph Bopp
 status: emerging
-last_updated: 2026-08-24
+last_updated: 2026-09-03
 sources: [Apple-Mail-Archiv 25 Mails 2025-06 bis 2026-06, christoph.bopp@woma-maur.ch, christoph.bopp@novaproperty.ch, christoph.bopp@bluewin.ch, Zefix/Handelsregister ZH (woma-maur.ch/organisation.php, novaproperty.ch/en/team/christoph-bopp, zh.chregister.ch UID CHE-403.795.970), moneyhouse.ch Personensuche, northdata.com Feag Facility Engineering AG UID CHE-108.531.313, Stand 2026-07-21, Projektordner 2412 Ebmatingen und 2513 BAAR (Dateisystem-Verifikation 2026-08-24)]
 links: [[projekt-giebelweg12]], [[auftrags-muster-bopp]] (geplant), [[zusammenarbeit-lessons-bopp]] (geplant)
 ---
@@ -80,3 +80,15 @@ bei der Gemeinde hängig, Stand 24.08.2026). Der frühere Abschnitt «Aktuell of
 2026-06-03)» beschrieb den Auftrag noch im Erstauftrags-Stadium und ist durch den Projekt-
 Detailartikel überholt (bereinigt 2026-08-24, siehe `outputs/2026-08-19_health-check.md`
 Audit A).
+
+**Neu 03.09.2026: Zürich-Witikon, Steinbrüchelstrasse 26/28 (Kat. WI1585, W3, 1'562 m²).** Rolle Nova
+Property (Head Development), Erwerberin wäre die 1291 Die Schweizer Anlagestiftung. Auftrag per Mail
+03.09.2026: baurechtliche Überprüfung einer Fremd-Potentialstudie (Spice Architecture für Ginesta,
+16.05.2025), Abgabe bis 09.09.2026, ausdrücklich ohne Kosten und Ertrag (drei TU-Richtofferten liegen
+bei Nova). Muster wie Baar/Ebmatingen: rasche Vorabklärung als Kaufgrundlage. Bericht und amtliche
+Grundlagen: OneDrive «IMMO - 01 Projekte/04 CONTROLLING/Zürich Witikon Steinbrüchelstrasse 26_28/
+260903-Baurechtliche-Machbarkeit-Steinbruechelstrasse-26-28/». Fachliches Destillat:
+`wissen/baurecht/outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md`. Offen: Bestätigung,
+dass die Anlagestiftung die Nachbarparzelle WI3365 (Steinbrüchelstrasse 14/14a) besitzt; das Mail
+nennt «Restelbergstr. 14», das in Fluntern liegt.
+

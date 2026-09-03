@@ -3277,3 +3277,8 @@ tatsächlich verwendete Wort dort ablesen, statt zu raten.
   **Zu beachten:** der Buch-Layer ist nach `skills/baurecht/SKILL.md` Z. 70-71 eine **zitierbare**
   Synthese (Stufe 0b), keine Rohschicht — eine solche Zeile kann direkt in eine Bauherren-Auskunft
   laufen.
+
+## 260903 — Reduit-Praxis Stadt Zürich (aus Fallprüfung Witikon WI1585)
+
+1. **Sind Reduits innerhalb der Wohnung (bis 10 m² je Wohnung) in Vollgeschossen nach Praxis des AfB Stadt Zürich nicht anrechenbar?** Eine Fremdstudie (Spice Architecture, 16.05.2025) setzt das als Regel; § 10 ABV (Fassung bis 28.02.2017) nennt nur Gemeinschaftsräume, Arbeitsplatz-Nebenräume und verglaste Vorbauten. Am Fall entscheidet die Antwort über rund 140 m² (10 % der Ausnützung). Weg: schriftliche Auskunft AfB oder Vorentscheid § 323 PBG; Ergebnis nach [[nutzungsziffern]] übernehmen. Quelle: `outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md`.
+

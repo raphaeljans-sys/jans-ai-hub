@@ -2,6 +2,13 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-03 (interaktive Session) — Neuer Auftrag Witikon Steinbrüchelstrasse 26/28 im Profil nachgetragen
+
+`wiki/profil-christoph-bopp.md`, Abschnitt «Laufende Projekte»: Auftrag vom 03.09.2026 (Nova
+Property, baurechtliche Prüfung einer Fremd-Potentialstudie, Frist 09.09.2026, ohne Kosten/Ertrag)
+mit Ablageort und offener Frage zur Nachbarparzelle. Fachliches Destillat liegt in
+`wissen/baurecht/outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md`.
+
 ## 2026-09-01 (Claude Code Agent, unbeaufsichtigt) — Wissenscheck Phase 1: A1 · B4 (gekennzeichnet ok) · C0 · D0 · E0 · F1 · G2
 
 Letzter Check 19.08., 13 Tage Abstand. Befunde: (A1) Abschnitt «Aktuell offen» in `profil-christoph-bopp` seit 24.07. veraltet, soll gekürzt werden (bekannt seit 25.07. HC, Phase 2 nicht ausgefuehrt); (F1) CHANGELOG/CLAUDE.md/QUESTIONS.md haben ae/oe/ue statt echter Umlaute (121 Treffer, bekannt seit 19.08., Phase 2 nicht ausgefuehrt); (B4) vier Backlinks sind Vorwärtsverweise auf geplante Artikel, bewusst und 25.08. explizit gekennzeichnet, kein struktureller Fehler; (G2) zwei geplante Cluster-Artikel + ein Status-Promotion kandidat. Report abgelegt: `outputs/2026-09-01_health-check.md`.
