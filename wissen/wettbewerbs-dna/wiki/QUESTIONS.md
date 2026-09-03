@@ -27,6 +27,21 @@ Extrakt-Grenze Koch-Areal geklaert, fehlende 1. Stufe Walkeweg bleibt offen)
   unabhaengig belegt) — offen ist allein das Datum. Bis zur Klaerung am Original-PDF wird es
   nirgends beziffert (so gehandhabt in `CLAUDE.md`, Abschnitt Goldstandards). Gefunden vom
   Refuter in Lauf 05.
+  **Klaerungsversuch 03.09.2026 (Nachtschicht Mac Mini, Versuchs-Slot) — an einer Infra-Sperre
+  gescheitert, nicht an fehlendem Material.** Der Ordner
+  `OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2206 WB Schoental/02 Korrespondenz/
+  00_Auslober/221109_Entscheid/` enthaelt neben der Haupt-PDF drei zusaetzliche Scan-Dateien
+  (`SKM_C300i22121513430/431/432.pdf`), die im Rohextrakt nicht erwaehnt sind und die Klaerung
+  vermutlich direkt liefern koennten. **Alle vier PDFs im Ordner sind auf dieser Station aktuell
+  nicht lesbar** — `pdftotext`/`pdfinfo`/`file` scheitern konsistent mit
+  «Couldn't find trailer dictionary», ein direkter Lesezugriff (Read-Tool) endet mit `EDEADLK`
+  (Resource-Deadlock). Da alle vier Dateien im selben Ordner identisch fehlschlagen (nicht nur
+  eine), ist das kein Einzeldatei-Defekt, sondern vermutlich ein OneDrive-FileProvider-Stau
+  dieses Ordners. **Nicht selbst behoben** — Materialisieren/Reparieren von OneDrive-Sync ist
+  Systemsache Raphaels (Rule `auto-verbesserungen` 260814, `interaktive-eingriffe`). Naechster
+  Schritt: Ordner im Finder oeffnen/die vier PDFs einmal anklicken (materialisiert sie oft), dann
+  erneuten Klaerungsversuch. Kein Kandidat mehr fuer einen weiteren unbeaufsichtigten Lauf, bis
+  das geschehen ist.
 
 ## Offen (neu 27.08.2026, Wissens-Chef Run 45)
 
@@ -277,14 +292,15 @@ Extrakt-Grenze Koch-Areal geklaert, fehlende 1. Stufe Walkeweg bleibt offen)
   gegen weitergekommene Projekte stellen — beim Leitthema des Verfahrens (Raumsuffizienz,
   S. 19/36) der naheliegendste offene Prüfschritt. GF-/GV-Totale und m2/m3 je Schlafplatz
   fehlen den Planblättern, ein Vergleich der SIA-416-Gesamtkennwerte bleibt unmöglich.
-- **NEU 03.08.2026 — Formmangel `wiki/muster/delta-zum-ersten-rang.md`: Volltext-Umlaut-
-  Sanierung fällig.** Der Altbestand des Artikels (Kopf, Befunde 1–11) transliteriert
-  durchgängig ae/oe/ue, **auch innerhalb wörtlicher Zitate** — Verstoss gegen Rule
-  `umlaute-konvention` und ein Hindernis für jede maschinelle Zitatprüfung (aufgedeckt vom
-  Refuter im Vertiefungslauf 01). Die in Lauf 01 neu geschriebenen Abschnitte tragen echte
-  Umlaute, der Artikel ist dadurch vorübergehend gemischt. Die Sanierung fasst den ganzen
-  Artikel an und braucht einen eigenen Verifikationsgang gegen die Originalquellen — deshalb
-  bewusst nicht nebenbei erledigt. Kandidat für einen eigenen, mechanischen Lauf.
+- ~~**NEU 03.08.2026 — Formmangel `wiki/muster/delta-zum-ersten-rang.md`: Volltext-Umlaut-
+  Sanierung fällig.**~~ → **erledigt 03.09.2026 (Nachtschicht Mac Mini, Versuchs-Slot 13:3x):**
+  248 ae/oe/ue-Treffer einzeln geprüft (nicht blind ersetzt, Rule 260811), 145 Wortformen /
+  213 Fundstellen wortgrenzen-scharf auf echte Umlaute korrigiert. Echte Ausnahmen (kein
+  Umlaut noetig: aktuellen/aktueller, ausbauen, individuell(er), neue/neuen, Quelle-Familie,
+  quer/Quervergleich, zueinander, Weiterbauen, Standorttreue, zuerst, konsequent/Konsequenz)
+  und ASCII-Identifikatoren (`programm-pruefer`, `flaechen-nachweis`, Dateiname/Link
+  `2206-schoental`) bewusst unveraendert gelassen. Verifiziert per `git diff --numstat`
+  (136/136, Zeilenzahl 574 vor/nach identisch, UTF-8 fehlerfrei). Beleg: CHANGELOG 03.09.2026.
 - **2101 KSSG:** Kein individuelles Jury-Feedback zu «LOUISE» (nur Sammelurteil
   2. Rundgang, Bericht S. 13) — welche Kritikpunkte den Ausschlag gaben, bleibt
   unbelegbar, sofern keine Nachbesprechungs-Notizen existieren.

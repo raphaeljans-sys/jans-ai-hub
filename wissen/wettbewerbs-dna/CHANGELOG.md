@@ -1,5 +1,25 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-09-03 13:3x (Nachtschicht Mac Mini, Versuchs-Slot) — Umlaut-Sanierung `wiki/muster/delta-zum-ersten-rang.md` abgeschlossen
+
+Der in `QUESTIONS.md` (Fund 03.08.2026, Vertiefungslauf 01) als «Kandidat für einen eigenen,
+mechanischen Lauf» zurückgestellte Formmangel ist behoben: der Altbestand des Artikels
+(Kopf, Befunde 1–11) transliterierte durchgängig `ae/oe/ue` statt echter Umlaute
+(Rule `umlaute-konvention`). Vorgehen (keine blinde Ersetzung, Rule 260811): alle
+248 ae/oe/ue-Treffer einzeln gegen echtes Deutsch geprüft, eine Whitelist aus 145
+eindeutigen Wortformen (213 Fundstellen) gebaut und wortgrenzen-scharf ersetzt. **Bewusst
+unverändert gelassen** (echte Ausnahmen, keine übersehenen Fälle): loanword-/Digraph-Fälle
+ohne Umlaut (`aktuellen/aktueller`, `ausbauen`, `individuell(er)`, `neue/neuen`, `Quelle`
+und Ableitungen, `quer/Quervergleich`, `zueinander`, `Weiterbauen`, `Standorttreue`,
+`zuerst`, `konsequent/Konsequenz`), der Eigenname `Raphaels`, sowie ASCII-Identifikatoren
+(`programm-pruefer`, `flaechen-nachweis`, Dateiname/Link `2206-schoental` in
+`sources:`/`links:`). Verifiziert: `git diff --numstat` 136/136 (reine Wortersetzung, keine
+Zeile verloren, Zeilenzahl 574 vor/nach identisch), Datei laedt fehlerfrei als UTF-8. Die im
+selben QUESTIONS-Eintrag verlangte Vollverifikation gegen die Originalquellen bezog sich auf
+die Zitatgenauigkeit (Gegenstand separater, bereits offener Seitenzahl-Audits); die
+Orthografie-Korrektur selbst macht die zitierten Jury-Passagen **korrekter**, nicht
+unsicherer, da amtliche Schweizer Texte durchgehend echte Umlaute fuehren.
+
 ## 2026-09-01 (Wissens-Chef Lauf 50) — «(belegt)» in der Bauaufgaben-Weiche präzisiert (Weiche selbst unverändert)
 
 `wiki/muster/kennwerte-schulbauten.md` und `wiki/muster/kennwerte-wohnungsbau.md` (je +13/−0): Ein
