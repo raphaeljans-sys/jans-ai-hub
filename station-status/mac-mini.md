@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.09.2026 07:12:39
+Stand: 03.09.2026 07:22:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 07:12:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- faf32f1f1 logbuch-radar 03.09.2026: Briefing im Logbuch; Register — 3 erledigt (Meldekarte SRZ versendet, Arbeitsinspektorat versendet, Tuerfachplanung freigegeben), 2 neu (Thalwil Posch/SBB, Lueftungs-Eskalation), Steinmann-Nachtrag
+- a19d15c11 vollgas-fruehwarnung 03.09.2026: still beendet, kein Meldekriterium; Stueckkosten 02.09. auf 1.17 Mio/Artikel gestiegen (Artikelzahl eingebrochen, nicht Verbrauch); Messfalle Task-Opener-Selbsttreffer dokumentiert
