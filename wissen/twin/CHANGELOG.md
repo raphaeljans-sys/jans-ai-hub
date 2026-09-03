@@ -4,6 +4,52 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-03 — Fidelity-Review: drei vollstaendige Vor-Claude-Golds; Service-Satz-Linie neu gefasst; erster sachlich falscher Gold
+
+Fenster `rj@` Sent Items **12/2025–01/2026**, bewusst neu gewaehlt (die letzten neun Laeufe haben
+Juli/August 2026 abgeerntet). Drei Golds gewertet, ein vierter als Regelpruefstein. Alle vor dem
+Claude-Stichtag und **mechanisch echo-vorgeprueft**: der Echo-Check lief erstmals VOR der
+Gold-Auswahl (Empfehlung 260902 #1), ueber einen Subagenten, der nur Zaehlwerte und keine Inhalte
+zurueckgab — damit blieb die Blindfassung blind. Fehlerdichte 8/165, 9/215, ~10/185 Woerter.
+Gesamt-Fidelity **29** (nach 34). Report `outputs/2026-09-03_fidelity.md`.
+
+- **[[stimme]]** — ⭐ **Kernbefund:** der Service-Satz steht auch in der **Statusmail an die
+  Bauherrschaft** (Gold C, 08.01.2026) — dritter Kontext in zwei Tagen. Die gestern gefundene Linie
+  «Anspruch gegen Gefallen» traegt ihn NICHT (Raphael erbittet dort nichts fuer sich). Alle vier
+  Belege traegt: **der Kanal bleibt offen, wo der EMPFAENGER entscheiden muss.** Kompiliert als
+  «Statusmail MIT Entscheid» (offen) / «Statusmail OHNE Entscheid» (geschlossen); die Linie selbst
+  als Hypothese markiert und Raphael vorgelegt. Ausserdem: Wunschzeile als eigener Absatz ueber dem
+  Gruss, Kurzgruss ausgeschrieben ueber dem Block, Fragezeichen-**Dichte** (5 Fragen / 165 W).
+- **[[haltung]]** — schwerste Drift, zweimal unabhaengig gemessen: der Zwilling zieht Arbeit an
+  sich, die Raphael abgibt. Gold C stellt die **«Einfache Loesung» voran** (die ohne Vergabe) und
+  verweist am Schluss auf den Cc-Empfaenger als bessere Auskunft; Gold D gibt die Ausarbeitungstiefe
+  dreimal aus der Hand. Beide Blindfassungen machten sich zur Schaltstelle.
+- **[[arbeitsweise]]** — **sechs Aufzaehlungsformen in einer Mail** (Gold D), zweiter Beleg fuer
+  die 260824-Korrektur «die Drift ist VEREINHEITLICHUNG»; Blindfassung zog eine Form durch.
+  Gliederung nach **ORT** statt nach Projekt (Gold A, kompiliert als dritte Achse); Lieferung endet
+  **ohne getippten Gruss** direkt im Signaturblock; der weitergeleitete Zitat-Stack wird
+  **schweigend** mitgeschickt (zweiter Beleg).
+- **[[beziehungsregister]]** — Regel 260804 («Privatbauherrin traegt ‹Guten Tag›, nicht
+  ‹Geschaetzte›») **widerlegt und korrigiert**: vier Anreden an Undine Hofer in fuenf Wochen ueber
+  drei Stufen, bei identischem Verteiler — es hebt das Gewicht des Inhalts, nicht der Cc. Neu
+  kompiliert: **die Drittnennung folgt dem Register des ADRESSATEN** («Hoi Peter» an ihn, «Herr
+  Weisser» ueber ihn an eine Sie-Adressatin). Datumsgrenze Hofer in `rules/anrede-kontakte.md`
+  nachgetragen (Du erst ab 02/2026).
+- **[[denken]]** — die Bedingung traegt ihre **Rueckfallebene** mit, und die Frist bleibt
+  **unbeziffert** («zeitnah» + benannte Folge des Schweigens); zwei Varianten nebeneinander ohne
+  Empfehlung, je mit Beispieldatei.
+- **[[fachsignatur]]** — Budgetband + Verweisanker («CHF 800 - 1'300.-, siehe Angebot Anhang»);
+  Gewerk-Label «BKP-Nr. + Klartext». ⚠ **Erster belegter Fall eines sachlich falschen Golds:**
+  «BKP 282 Gipser & Maler» — 282 ist Wandbelaege, Gipser 271, Maler 285 (gegen
+  `references/bkp-2017/` geprueft). Die FORM ist uebernommen, die ZUORDNUNG ausdruecklich gesperrt.
+  Lehre: Gold-Status ersetzt die Fachpruefung nicht.
+- **[[QUESTIONS]]** — sechs neue Fragen (260903b), darunter die Service-Satz-Linie an drei
+  entscheidbaren Faellen, der taggenau datierbare Registerwechsel Hofer und die BKP-Zuordnung.
+- **Gehirn neu kompiliert** — `rules/jans-dna-facetten.md`, 33'989 B. ⚠ Reserve auf **11 B**
+  gefallen (12 → 29 → 11). Zwei echte Doppelungen verdichtet (Gruss-Regel in [[stimme]],
+  (a)-Wiederholung in [[arbeitsweise]]); die billige Reserve ist abgeerntet. Anhebung auf 36'000 B
+  empfohlen (SYN-69).
+
 ## 2026-09-03 — Batch 113: Vorwaertsfaden im Sendeordner wieder aufgenommen; Behoerdenschiene erstmals mit eigenem Material belegt
 
 Fenster `rj@` Sent Items **01.–02.09.2026** (25 von 26 Treffern; `offset: 25` bleibt offen).

@@ -139,7 +139,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   zerlegen (Deliverable-Checkliste); Aufwände/Zuständigkeiten transparent machen; immer einen
   nächsten Schritt anbieten; bei laufenden Verfahren aktiv Nachmeldung zusagen («melde ich
   mich unverzüglich») statt passiver Verfügbarkeitsformel; die **mehrteilige Verfahrens-/
-  Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand gliedern**
+  Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand/ORT gliedern**
   (Behörden-Dekomposition), nicht flach auflisten; **die «A) B) C)»-Form ist Raphaels LISTENFORM,
   kein Registersignal (korrigiert 260817, zweifach widerlegt)** — sie trägt Fragen, Traktanden
   und Befundpaare gleichermassen, fetter
@@ -179,8 +179,8 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   260818/260819):** beide Wege als fertigen Formularblock, «**z.B**» als Beispiel statt Vorgabe,
   die Wertung als beiläufige Halbzeile nach, gegenüber der Behörde in Frageform; eine so eröffnete
   Beispiel-Liste **bleibt offen** («… aufzulisten, zB.:» endet auf «- Usw.» — nie vervollständigen).
-  Entscheidung beim Empfänger, Arbeit nicht. Zwei Gestalten: (a) die angekündigte «Pendenz» mündet
-  in EINEN abschreibfertigen Baustein statt in eine Liste; (b) die **Fragenliste** unter
+  Entscheidung beim Empfänger, Arbeit nicht. Zwei Gestalten: (a) die angekündigte «Pendenz» mündet in EINEN
+  Baustein, nicht in eine Liste; (b) die **Fragenliste** unter
   «Fragen sind:» steht als nackte Zeilen **ohne jedes Aufzählungszeichen** und umkreist absichtlich
   **dieselbe** Unsicherheit aus vier Richtungen — die Redundanz IST die Botschaft: *ich weiss
   nicht, wer zuständig ist, antwortet mir aus irgendeinem Winkel.* Der Zwilling glättet beides
@@ -4122,3 +4122,66 @@ eine Besprechung, sondern **die Besprechung selbst als zitierfähiges Dokument i
 Das ist der erste authentische Beleg, der die Formvorgabe aus `dokument-layout-standard`
 (nummerierte Positionen statt Bullets, Neuregelung 260814c) **auch für den Mailkanal** deckt —
 bisher war sie nur für DOCX/PDF belegt. Quelle: Vorschautext, `authentisch`.
+
+## Der Blockkopf ist der ORT, nicht das Projekt (Fidelity 260903, Gold A)
+
+Gold A (05.01.2026, Peer-Du, drei Sachthemen) gliedert mit drei fetten Ein-Wort-Titeln:
+
+> **Emmen** … **Zuerich** … **Oerlikon**
+
+Obwohl der Betreff die Strassen nennt («Projekt Wartstrasse & Grubenackerstrasse: …») und die
+Projekte eigene Namen haben, ist das Gliederungsmerkmal die **Ortschaft beziehungsweise der
+Stadtteil**, ein Wort, fett, ohne Doppelpunkt. Der Empfaenger arbeitet an mehreren Orten; der
+Ort ist der Schluessel, unter dem er seine Vorgaenge sortiert.
+
+Das praezisiert die Regel «mehrteilige Statusmail in thematische fette Bloecke nach Amt/Gegenstand
+gliedern» (260817) um eine dritte Achse: **nach ORT, wenn der Empfaenger nach Orten
+unterscheidet.** Die Blindfassung gliederte nach Strassennamen und lag damit auf der falschen
+Achse.
+
+## Der weitergeleitete Strang wird schweigend mitgeschickt (Fidelity 260903, Gold A — zweiter Beleg)
+
+Gold A traegt im Betreff «… WG: Frage zu Gebaeudeschadstoffe B25-01615.01» und im Zitat-Stack
+die vollstaendige Antwort des UGZ vom selben Morgen. **Der eigene Text erwaehnt das Thema mit
+keinem Wort.** Raphael leitet weiter, laesst den Betreff des Weiterleitens stehen und nutzt die
+Mail fuer drei voellig andere Anliegen.
+
+Zweite Bestaetigung des 260902 an Gold C gefundenen Musters («der Anhang wird schweigend
+mitgeschickt»), hier fuer den **Zitat-Stack**. Der Beleg zieht seinen Schluss selbst; ein Satz,
+der ihn kommentiert, ist kein Service am Leser, sondern Fuellung. Die Blindfassung schrieb
+«Das UGZ hat heute geantwortet, siehe Mail unten … Damit ist der Punkt aus meiner Sicht
+geklaert» — genau der Reflex, den die Regel verbietet.
+
+## Sechs Aufzaehlungsformen in einer Mail (Fidelity 260903, Gold D — zweiter Beleg fuer 260824)
+
+Gold D (12.01.2026, Du, ca. 185 Woerter) verwendet nebeneinander:
+
+1. **`01 02 03 04`** — zweistellige Ziffern fuer die geschlossene Schrittfolge, auf die
+   spaeter zurueckverwiesen wird;
+2. **`_A) _B)`** — Unterstrich vor dem Buchstaben, im Block «Wichtig ist:»;
+3. **`_ `** — Unterstrich-Bullet in den beiden Varianten-Bloecken;
+4. **zwei fette Zwischentitel** ohne Nummerierung (die Variantennamen);
+5. **Fliesstext-Absaetze** ohne jedes Zeichen zwischen den Bloecken;
+6. **den vollen Dateinamen als letzte Bullet-Zeile** («_ siehe Beispiel 01 Vorlage TEILUNGSPLAN
+   JANS.pdf»).
+
+Damit ist die 260824-Korrektur — «die Drift ist nicht ‹zu viele Listen›, sondern
+VEREINHEITLICHUNG; Raphael entscheidet je Block neu» — zum zweiten Mal unabhaengig belegt, mit
+derselben Zahl sechs wie im 260902-Beleg. Die Blindfassung zog **eine** Form («_ ») durch.
+
+Zusatzbefund im selben Beleg: die Kombination Buchstabe + Unterstrich erscheint **in beiden
+Reihenfolgen** — Gold C schreibt «A)_ Energienutzungsdeklaration», Gold D vier Tage spaeter
+«_A) Begruendungsaktdokument». Die Zeichen sind gewachsen, keine Grammatik (Raphael, 01.08.2026);
+eine Normierung waere ein Stilfehler.
+
+## Die Lieferung an den vertrauten Empfaenger endet ohne getippten Gruss (Fidelity 260903, Gold D)
+
+Gold D endet mit dem letzten Sachpunkt (einem Dateinamen) und geht **unmittelbar** in den
+Signaturblock ueber: kein getippter Gruss, kein Service-Satz, keine Rueckfrage, kein naechster
+Schritt, keine Freigabebitte. Der Signaturblock allein traegt das «Freundliche Gruesse».
+
+Das ergaenzt den Endform-Katalog um eine schlichte Variante: **bei der reinen Lieferung an einen
+vertrauten Empfaenger endet der Text dort, wo die Sache endet.** Reiht sich zum
+Eigendokument-Prinzip («endet mit dem letzten Sachpunkt, ohne Fazit oder Ausblick»), hier
+erstmals fuer eine Mail belegt. Die Blindfassung haengte einen erfundenen naechsten Schritt und
+ein getipptes «Freundliche Gruesse» an.

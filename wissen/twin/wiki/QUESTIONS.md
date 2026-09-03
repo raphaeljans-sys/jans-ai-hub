@@ -5570,3 +5570,72 @@ bei grossen oder unbekannten Verteilern») deckt diesen Fall mit ab. Bitte um En
 vom 01.09.2026 10:53 wurde bereits in **Batch 112** als Gold B destilliert und in diesem Lauf
 bewusst übergangen. Die Vorabprüfung des zuletzt verbrauchten Fensters hat damit zum zweiten Lauf
 in Folge eine Doppel-Destillation verhindert; sie bleibt im Ablauf.
+
+## 260903b — aus dem Fidelity-Review (`rj@` Sent Items 12/2025–01/2026, drei Golds + ein Pruefstein)
+
+Fenster bewusst neu gewaehlt: die letzten neun Laeufe haben Juli/August 2026 abgeerntet. Dezember
+2025 bis Januar 2026 liegt vor dem Claude-Stichtag, alle vier Belege sind mechanisch auf
+Echo-Tells geprueft (kein `rgb(253,253,252)`, kein `Anthropic Sans`, kein Gedankenstrich) und
+tragen dichte Tippfehler — Echtheit belegt, nicht angenommen.
+
+**#1 [Stimme/Fachsignatur] Traegt die Linie «der Kanal bleibt offen, wo der EMPFAENGER entscheiden
+muss»?**
+Der Service-Satz «Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfuegung» ist
+jetzt in vier Gattungen belegt: Antrag ans Amt, Abgebot an den Unternehmer (beide 260902) und neu
+in der Statusmail an die Bauherrschaft (260903, Gold C) — waehrend Auskunftsersuchen, Transmittal
+und Nachlieferung ohne ihn schliessen. Die gestern vorgeschlagene Linie «Anspruch gegen Gefallen»
+traegt Gold C nicht: dort erbittest Du nichts fuer Dich. Die Linie «der Empfaenger muss nach der
+Mail etwas entscheiden» traegt alle vier.
+*Konkret:* Setzt Du den Satz in diesen drei Faellen? (a) Du meldest der Bauherrschaft einen Stand
+und legst ihr zwei Wege zur Wahl vor. (b) Du meldest denselben Stand, ohne dass sie etwas
+entscheiden muss. (c) Du lieferst Plaene nach, die jemand bestellt hat.
+*Warum:* Der Zwilling entscheidet den Satz derzeit selbst, weil drei Regeln als «bestritten»
+markiert sind. Eine Ja/Nein-Antwort auf drei Faelle ersetzt alle drei.
+
+**#2 [Beziehungsregister] Undine Hofer — wann wurde aus dem Sie ein Du, und was hat es ausgeloest?**
+Vier Anreden an sie in fuenf Wochen, alle aus Deiner Hand: 01.12.2025 «Guten Tag Frau Hofer»,
+05.01.2026 «Sehr geehrte Frau Hofer», 06.01.2026 «Guten Tag Frau Hofer», 08.01.2026 «Geschaetzte
+Frau Hofer,». Ab 08.02.2026 fuehren die Belege «Hoi Undine». Der Wechsel faellt also in das Fenster
+09.01.–08.02.2026.
+*Konkret:* Gab es dazwischen ein Treffen, ein Telefonat oder hat sie Dich geduzt?
+*Warum:* Das ist der bestdatierte Registerwechsel im ganzen Korpus. Er wuerde die offene
+Trajektorien-Klausel (260821/260823, seit dem 22.08. bestritten) an einem Fall entscheiden, bei dem
+Anfang und Ende taggenau feststehen — anders als bei Stadelmann und Furrer.
+
+**#3 [Fachsignatur] «BKP 282 Gipser & Maler» — Buerokonvention oder Verschreiber?**
+In Gold C (08.01.2026) gliederst Du die Firmenvorschlaege mit «BKP 112 Bauunternehmung» und
+«BKP 282 Gipser & Maler». Nach `references/bkp-2017/` ist 282 «Wandbelaege, Wandbekleidungen»;
+Gipserarbeiten sind 271, Maler 285. 112 ist «Rueckbau» (sachlich passend fuer Abbruch, aber die
+Bezeichnung ist Deine, nicht die des BKP).
+*Konkret:* Ist das eine bewusste buerointerne Gewerkgliederung, oder soll der Zwilling hier
+kuenftig 271/285 setzen?
+*Warum:* Die Form «BKP-Nr. + Klartext-Gewerk» als Zeilenlabel ist ein guter, uebernehmbarer
+Marker — die Zuordnung darf er nur uebernehmen, wenn sie gewollt ist. Sonst wandert eine echt
+aussehende Nummer ins Wiki (Familie «271.10», Rule `bkp-2017-referenz`).
+
+**#4 [Arbeitsweise] Endet die Lieferung an vertraute Empfaenger bewusst ohne getippten Gruss?**
+Gold D (12.01.2026, an Maria) endet mit einem Dateinamen und geht unmittelbar in den
+Signaturblock: kein «Lieber Gruss», kein Service-Satz, keine Rueckfrage, kein naechster Schritt.
+Gold A am selben Empfaengertyp traegt dagegen «Lieber Gruss / Raphael» ueber dem Block.
+*Konkret:* Ist der fehlende Gruss in D Absicht (die Sache ist fertig, der Block genuegt) oder
+Handy-Fluechtigkeit?
+*Warum:* Der Zwilling haengt reflexhaft einen Gruss an. Ist es Absicht, bekommt der
+Endform-Katalog eine belegte Nullform; ist es Fluechtigkeit, darf er sie nie nachahmen.
+
+**#5 [Denken] Die unbezifferte Frist — bewusst offen gelassen?**
+Gold A: «Wenn Du da eine Abstimmung mit mir moechtest muesstest Du Dich zeitnah bei mir melden.
+Ohne Deine Rueckmeldung gehe ich davon aus das du kein Koordiniertes Vorgehen wuenschst und wuerde
+einfach meine prognostizierten Aufwendungen offerieren.» Der Druck entsteht aus der benannten
+Folge, nicht aus einem Datum.
+*Konkret:* Setzt Du hier bewusst kein Datum, weil die Folge genuegt — oder haettest Du eines
+gesetzt, wenn eines festgestanden haette?
+*Warum:* Der Zwilling erfindet Fristen (stehende Erfindungs-Drift). Wenn «zeitnah» + benannte Folge
+Deine Form ist, hat er ein Gegenmittel statt nur ein Verbot.
+
+**#6 [Arbeitsweise] Gliederst Du generell nach ORT, wenn der Empfaenger an mehreren Orten arbeitet?**
+Gold A gliedert drei Themen unter den fetten Ein-Wort-Titeln «Emmen», «Zuerich», «Oerlikon» —
+obwohl der Betreff Strassennamen nennt und die Projekte eigene Namen haben.
+*Konkret:* Ist der Ort Dein Standard-Schluessel bei Empfaengern mit mehreren Baustellen, oder war
+das dieser eine Fall?
+*Warum:* Kompiliert ist die Achse seit heute als «Amt/Gegenstand/ORT». Eine Bestaetigung macht aus
+einer dritten Moeglichkeit eine Vorzugsregel; ein Nein grenzt sie wieder ein.

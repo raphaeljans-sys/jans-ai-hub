@@ -433,9 +433,9 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   **Im Eigendokument steht die Person in der Drittform (260801/260803):** die Anrede-Stufe der Mail
   wandert **nicht** in die Drittnennung — dort «Herr <Nachname>» bzw. voller Name, Teilnehmer-Rubrik
   «Vorname Nachname · Kürzel · Firmenkürzel», die eigene Stimme nur als Kürzel («Anmerkung RJ»).
-- **Die Privatbauherrin trägt «Guten Tag», nicht «Geschätzte» (Drift 260804):** das Gewicht des
-  Anliegens hebt die Stufe bei **Du-Kontakten und Behörden** (Rule `anrede-kontakte`), **nicht**
-  bei der Privatkundin im warmen Sie; dort trägt die laufende Zusammenarbeit die Anrede. Belege unten.
+- **Die Privatbauherrin trägt alle drei Sie-Stufen (260804 widerlegt 260903):** «Guten Tag» / «Sehr geehrte» / «Geschätzte Frau <Nachname>,» — es hebt
+  das GEWICHT DES INHALTS, nicht der Cc. **Die Drittnennung folgt dem Register des ADRESSATEN,
+  nicht der eigenen Nähe:** der Du-Partner heisst vor einem Sie-Adressaten «Herr <Nachname>».
 - **Der mitlesende Dritte formalisiert die Anrede — über welche Achse, entscheidet das Register
   (260805/260806):** im **Sie** kippt die **Namensform** («Geschätzte
   <Vorname>» → «Geschätzte Frau <Nachname>», Wärmestufe unverändert); im **Du** kippt die
@@ -3882,3 +3882,76 @@ eigene Öffnung im selben Strang bleibt «Guten Morgen Jens.» — er zieht **ni
 Kommentar — die richtige Form ersetzt die falsche wortlos. Gleiche Haltung wie beim Webprogrammierer
 («Hlep» → «Hleb»): **Namensfehler werden behoben, nicht thematisiert.** Der Zwilling neigt dazu,
 die Korrektur zu entschuldigen und macht den Fehler damit erst sichtbar.
+
+## Undine Hofer: vier Anreden in fuenf Wochen, drei Stufen, gleicher Verteiler (Fidelity 260903)
+
+Aus `rj@` Sent Items, alle an hofer@undineschneider.com, Projekt Wartstrasse 8, aus Raphaels
+eigener Hand:
+
+| Datum | Anrede | Verteiler |
+|---|---|---|
+| 01.12.2025 09:09 | «Guten Tag Frau Hofer» | allein |
+| 05.01.2026 12:58 | «Sehr geehrte Frau Hofer» | + pw@dasbaumanagement.ch |
+| 06.01.2026 10:31 | «Guten Tag Frau Hofer» | + pw@ |
+| 08.01.2026 11:00 | «**Geschaetzte Frau Hofer,**» | + pw@ |
+
+Drei Befunde:
+
+1. **Die 260804-Regel «Die Privatbauherrin traegt ‹Guten Tag›, nicht ‹Geschaetzte›» ist
+   widerlegt.** Sie traegt beides, und dazu «Sehr geehrte».
+2. **Der Verteiler erklaert es nicht.** Am 05., 06. und 08.01. steht derselbe Cc-Empfaenger
+   dabei, und die Stufe schwankt trotzdem ueber drei Werte. Das stuetzt 260822 («statische
+   Ausloeser sind notwendig, nicht hinreichend») und widerlegt die Cc-Achse fuer diesen Fall.
+3. **Das Gewicht des Inhalts erklaert es.** Die 08.01.-Mail ist mit Abstand die inhaltsreichste
+   des Strangs (Einsprachestand, zwei Auflagepunkte, Loesungsweg, vier Firmen, Budgetband) und
+   traegt die waermste Stufe. Das ist die Anlassgewicht-Klausel aus `rules/anrede-kontakte.md`,
+   hier erstmals **im Sie-Register mit Nachnamen** belegt — sie galt dort bisher fuer
+   Du-Kontakte und Behoerden.
+
+**Fuer `rules/anrede-kontakte.md`:** die Zeile Hofer fuehrt seit 26.08.2026 «**Du** — Hoi Undine»,
+belegt aus Golds ab 08.02.2026. Die vier Belege oben zeigen die Zeit **davor**: bis mindestens
+08.01.2026 Sie mit Nachnamen. Der Wechsel Sie → Du faellt damit in das Fenster
+09.01.–08.02.2026. Datumsgrenze dort nachgetragen.
+
+## Die Drittnennung folgt dem Register des ADRESSATEN, nicht der eigenen Beziehung (Fidelity 260903, Golds A + C, kontrollierter Vergleich)
+
+Derselbe Mensch, dieselbe Woche, zwei Mails:
+
+- **Gold A**, 05.01.2026, **an** ihn: «**Hoi Peter** … Hast du fuer Deine Aufwendungen …»
+- **Gold C**, 08.01.2026, **ueber** ihn, an die Bauherrschaft im Sie: «Ansonsten kann **Herr
+  Weisser** heute Abend sicher noch eine gute Empfehlung diesbezueglich machen.»
+
+Raphael ist mit Peter Weisser per Du (belegt, `rules/anrede-kontakte.md`). Sobald er ihn
+**gegenueber einem Sie-Adressaten** in der dritten Person nennt, wird daraus «Herr Weisser» —
+nicht «Peter», nicht «Herr Peter». Die Drittform richtet sich also nach dem Register, in dem die
+Mail steht, nicht nach der eigenen Naehe zum Genannten.
+
+Das ergaenzt die bestehende Regel «im Eigendokument steht die Person in der Drittform»
+(260801/260803) um den **Mail**-Fall und macht sie zur allgemeineren Aussage: die Anrede-Stufe
+einer Beziehung wandert nie in die Drittnennung eines Dritten. Der Zwilling neigt dazu, den
+Du-Partner auch vor Dritten beim Vornamen zu nennen, weil das Beziehungsregister ihn so fuehrt.
+
+## Das namenlose «Guten Tag» steht auch beim rechtsbegruendeten Ersuchen ans Gericht (Fidelity 260903, Pruefstein B)
+
+`rj@` Sent 05.01.2026 10:40 an abteilung1@baurekursgericht-zh.ch, Cc pw@, mit zwei PDF-Anhaengen,
+Betreff «Abklaerung: „Verzoegerung durch Dritte" (Baurecht) nicht gegeben; Baurechtsentscheid
+2564/25 …». Anrede: «**Guten Tag**». Schluss: «Besten Dank fuer Ihre schriftliche Bestaetigung»,
+**kein** Service-Satz.
+
+Der kompilierte Block sagt: unbekanntes Postfach + «gewichtiges/rechtsbegruendetes Ersuchen» →
+«Sehr geehrte Damen und Herren»; das namenlose «Guten Tag» sei der trivialen Service-Bitte
+vorbehalten. Ein Ersuchen an ein Rekursgericht unter Nennung des Entscheid-Aktenzeichens ist das
+Gegenteil von trivial — **die Gewichts-Achse traegt die Regel hier nicht.**
+
+Zur offenen Frage [[QUESTIONS]] 260902 #3 (Kanal oder Gewicht?) liefert dieser Beleg eine
+Unterscheidung: die Mail ist **kurz und auf dem Handy geschrieben** (38 Woerter,
+`ms-outlook-mobile-signature`), aber sie ist **vollstaendig, versendet und mit Anhaengen** — kein
+abgebrochener Entwurf, wie die dortige Arbeitshypothese fuer die 26.03.2026-Faelle annahm. Der
+Befund stuetzt also die **Kanal**-Achse und widerlegt die **Gewichts**-Achse; er widerlegt
+zugleich die Hilfsannahme, es handle sich nur um Fragmente. Beleg an die offene Frage angehaengt,
+nicht kompiliert.
+
+Zweiter Marker aus derselben Mail: **der Betreff traegt die These, der Body die Frage.**
+«… ‹Verzoegerung durch Dritte› (Baurecht) **nicht gegeben**; …» steht als Behauptung im Betreff,
+waehrend der Body offen fragt, ob sie gegeben sei. Der Betreff nimmt die erwartete Antwort
+vorweg und macht die Mail fuer die Ablage sofort auswertbar.

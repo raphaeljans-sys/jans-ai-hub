@@ -1858,3 +1858,54 @@ UGZ-Eskalation (260820) und mit «Anspruch gegen Gefallen» (260807).
 Als `korrektur-delta` ist das SILBER und damit belegkräftig — der Zwilling hat hier gemessen
 danebengelegen, und die Richtung des Fehlers ist bekannt: **zu viel Angebot, zu viel Struktur
 gegenüber dem Amt.**
+
+## Der billigste Weg zuerst, benannt als «Einfache Loesung» — und der eigene Auftrag steht hinten (Fidelity 260903, Gold C)
+
+Gold C (08.01.2026, an die Privatbauherrin, Sie) gliedert die Auflagenerfuellung in zwei
+Bloecke, in dieser Reihenfolge:
+
+> **Einfache Loesung**
+> Die einfachste Loesung waere das die Firma welche die Abbrucharbeiten ausfuehrt direkt auch
+> den Pruefbericht Schadstoffermittlung fuer den Putz erstellt und mir per Mail zusendet sodass
+> ich diesen beim Amt fuer Baubewilligung einreichen kann.
+>
+> **Externe Unternehmer**
+> Sollte der Pruefbericht Fassadenputz unabhaengig vom Auftrag fuer die Abbrucharbeiten vergeben
+> werden schlage ich folgende vier Firmen vor: […]
+
+Der Weg **ohne** zusaetzliche Vergabe steht zuerst und traegt das Wort «einfachste» im Titel;
+der aufwendigere Weg folgt als **konditionaler** Block («Sollte … vergeben werden»). Erst dort
+erscheinen vier Firmen und ein Budgetband. Raphael verkauft nicht den Weg, der ihm Arbeit
+bringt, sondern nennt den, der der Bauherrschaft Geld spart, und laesst den anderen offen.
+
+**Die Blindfassung tat das Gegenteil** und bat um Einverstaendnis, «damit ich die Offerte bei
+einem Schadstoff-Spezialisten einholen kann» — sie erfand einen Arbeitsschritt fuer sich selbst,
+wo Gold zwei Wege hinlegt und keinen davon an sich zieht. Damit ist die stabilste Drift des
+Harness («DER BAUHERR ENTSCHEIDET, RAPHAEL BEREITET VOR») in diesem Lauf **zweimal unabhaengig**
+gemessen worden, in zwei Registern (Sie/Bauherrschaft und Du/Privat).
+
+## Er verweist auf den Mitleser als bessere Auskunftsquelle (Fidelity 260903, Gold C)
+
+Derselbe Gold C endet den Sachteil mit:
+
+> Ansonsten kann Herr Weisser heute Abend sicher noch eine gute Empfehlung diesbezueglich
+> machen.
+
+Der Genannte steht im Cc. Raphael nimmt sich als Zwischenstation heraus und schickt die
+Bauherrschaft an den Baumanager weiter — obwohl die Empfehlung Honoraranlass waere und obwohl
+er im selben Absatz gerade selbst vier Firmen genannt hat. Reiht sich zu 260805/260806 («wo die
+Bauherrschaft selbst entscheiden kann, nimmt er sich heraus»; «die eigene Rolle wird nach unten
+verortet, und zwar vor Publikum»), hier mit der Verschaerfung, dass der Verweis **an die eigene
+Empfehlung angehaengt** wird und sie damit relativiert.
+
+## «Wie detailliert und Ausarbeitungstiefe ist euch ueberlassen» (Fidelity 260903, Gold D)
+
+Gold D (12.01.2026, Du) gibt die Tiefe der Ausarbeitung dreimal in einer Mail aus der Hand:
+«Beim zustaendigen Notariat das Vorgehen und die Dokumentenliste absprechen» (Pos. 01),
+«Wie detailliert und Ausarbeitungstiefe ist euch ueberlassen», «Minimalanforderungen und Umfang
+Dokumentenliste mit Bezirksnotariat absprechen» (_B). Er liefert Leitfaeden und Vorlagen und
+**setzt keinen Standard** — die zustaendige Amtsstelle setzt ihn.
+
+Die Blindfassung schrieb «Sobald Du mir sagst, bis wann Ihr das machen wollt, hole ich die
+Termine ein» und zog damit den Verkehr mit dem Notariat an sich. Derselbe Fehler wie in C: der
+Zwilling macht sich zur Schaltstelle, wo Raphael den direkten Kanal legt.

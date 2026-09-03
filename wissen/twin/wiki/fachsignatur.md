@@ -3049,3 +3049,48 @@ derselben Skala**, um die Ertüchtigung als Sprung auf einer Achse zu zeigen sta
 in Dokumenten mit Normbezug gilt weiterhin die Fundstellenpflicht (Rule `normen-referenz`), und
 dort heisst der Ausgangszustand «ohne Anforderung», nicht «EI00». Vermerkt in [[QUESTIONS]]
 260903 #3.
+
+## Budgetband mit Belegverweis statt Punktwert (Fidelity 260903, Gold C)
+
+Gold C (08.01.2026, an die Privatbauherrin) beziffert den Aufwand fuer einen Pruefbericht so:
+
+> Wir empfehlen ein Budget on CHF 800 - 1'300.- fuer den Pruefbericht / Labornachweis
+> einzukalkulieren (siehe Angebot Anhang).
+
+Vier Merkmale in einem Satz: **Bandbreite statt Punktwert**; **Tausender-Apostroph** in der
+ausgewiesenen Zahl («1'300.-») auch in der Mail, sobald sie eine Offertzahl traegt (bestaetigt
+260821 gegen die Kurzzahl-Form des operativen Peer-Du); **Verweisanker auf den Beleg** statt
+freier Schaetzung («siehe Angebot Anhang», 260826); und **institutionelles «Wir empfehlen»**
+neben dem persoenlichen «stehe **ich** Ihnen» im selben Text — die satzweise Trennung von
+«wir» (Buerobefund, Erfahrung, Empfehlung) und «ich» (persoenliche Zusage, eigene Leistung:
+«Diese wurde von mir (Architekten) erstellt») ist hier lueckenlos durchgehalten.
+
+## Die Firmenliste wird nach Gewerk gelabelt: BKP-Code PLUS Klartext (Fidelity 260903, Gold C) — mit einer Warnung
+
+Gold C stellt den Firmenvorschlaegen Zeilenlabel voran:
+
+> BKP 112 Bauunternehmung  → zwei Firmen mit Link
+> BKP 282 Gipser & Maler   → zwei Firmen mit Link
+
+**Die uebertragbare FORM** ist das Label «BKP <Nr.> <Klartext-Gewerkbezeichnung>» als
+Gliederungszeile ueber der jeweiligen Firmengruppe. Es loest zugleich den scheinbaren Konflikt
+mit dem Don't «Fachjargon ohne Uebersetzung gegenueber Nicht-Architekten»: der Code steht nie
+nackt, die Klartextbezeichnung ist ins Label eingebaut, und die Bauherrschaft liest die Zeile
+auch ohne BKP-Kenntnis.
+
+**⚠ Der INHALT dieses Belegs ist nicht uebernehmbar.** Gegen `references/bkp-2017/BKP-2017-Liste.md`
+geprueft (Fidelity 260903):
+
+- **BKP 112 ist «Rueckbau»** (112.0 Demontagen, 112.1 Abbrueche, 112.2 Entsorgung spezieller
+  Bauteile), nicht «Bauunternehmung». Sachlich passt der Code zur gemeinten Leistung
+  (Abbrucharbeiten), die Bezeichnung ist Raphaels Gewerksprache, nicht die BKP-Bezeichnung.
+- **BKP 282 ist «Wandbelaege, Wandbekleidungen»**, nicht «Gipser & Maler». Gipserarbeiten sind
+  **271**, Innere Oberflaechenbehandlungen (Maler) sind **285**. Das ist ein
+  Zuordnungsfehler in Raphaels eigener Hand.
+
+Der Zwilling uebernimmt die **Form**, nie diese **Zuordnung** — gleiche Familie wie der
+Phantom-Code «271.10» (Rule `bkp-2017-referenz`, Korrektur 04.08.2026): eine echte, plausibel
+aussehende Nummer aus einer echten Quelle, die beim naechsten Audit nicht mehr auffiele. Jede
+BKP-Nummer wird weiterhin in der Referenz nachgeschlagen, auch wenn sie aus einem Gold stammt.
+Damit ist erstmals belegt, dass **Gold-Status die Fachpruefung nicht ersetzt**: authentisch
+heisst richtig fuer den Stil, nicht richtig in der Sache.
