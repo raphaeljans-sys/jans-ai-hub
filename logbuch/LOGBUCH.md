@@ -10882,3 +10882,34 @@ Waermeerzeugung in V2023.3 verschwunden, aus dem Anleitungstext allein nicht rek
 
 Budget rund 3.3 von 5 USD (Reconnaissance + Volltext-Vergleich zweier PDF). Zyklus sauber
 beendet.
+
+## 2026-09-03 13:3x Nachtschicht Mac Mini (Versuchs-Slot) — Prioritaet 5: Umlaut-Sanierung wettbewerbs-dna abgeschlossen, ein Klaerungsversuch an OneDrive-Infra gescheitert
+
+Prioritaeten 1-4 unveraendert leer/gesaettigt (remote-tasks/sync-tasks leer bis auf die zu Recht
+weiter `.angehalten`-Laufzeitschicht-Umbau-Task; Synobsis Stufe 2 seit 01.09. gesaettigt;
+bauprodukte/grobkosten/projekt-lessons erledigt bzw. ausgesetzt; energie-Curriculum ohne offenen
+Fachpunkt). Prioritaet 5 systematisch ueber alle `wissen/*/wiki/QUESTIONS.md` gesucht (16 KBs):
+zwei konkrete, budgettaugliche Kandidaten in `wettbewerbs-dna` gefunden.
+
+**Erledigt:** Der von der KB selbst als "Kandidat fuer einen eigenen, mechanischen Lauf"
+zurueckgestellte Formmangel in `wiki/muster/delta-zum-ersten-rang.md` (durchgaengige ae/oe/ue-
+Transliteration statt echter Umlaute, Verstoss gegen Rule `umlaute-konvention`). Alle 248
+Treffer einzeln gegen echtes Deutsch geprueft (nicht blind ersetzt, Rule 260811) — dabei mehrere
+echte Ausnahmen gefunden, die ein naives Ersetzen korrumpiert haette (`aktuellen/aktueller`,
+`ausbauen`, `individuell(er)`, `neue/neuen`, `Quelle`-Familie, `quer`, `zueinander`,
+`Weiterbauen`, `Standorttreue`, `zuerst`, `konsequent/Konsequenz`, der Eigenname `Raphaels`,
+sowie ASCII-Identifikatoren `programm-pruefer`/`flaechen-nachweis`/Dateiname `2206-schoental`).
+145 Wortformen / 213 Fundstellen wortgrenzen-scharf korrigiert, `git diff --numstat` 136/136
+(Zeilenzahl 574 vor/nach identisch), UTF-8 fehlerfrei. CHANGELOG + QUESTIONS.md nachgefuehrt,
+Commit `915c6c34b`.
+
+**Nicht erledigt, sauber dokumentiert:** Die zweite offene Frage derselben KB (Ausstellungsdatum
+Schulrats-Verfuegung 2206 Schoental, 17.11. vs. 09.11.2022) scheiterte nicht an fehlendem
+Material — im Auslober-Ordner liegen vier PDFs (die Haupt-Verfuegung + drei bisher unerwaehnte
+Scans SKM_C300i...), aber alle vier sind auf dieser Station aktuell nicht lesbar
+(`pdftotext`/Read-Tool: `EDEADLK`/„Couldn't find trailer dictionary" durchgaengig ueber alle vier
+Dateien desselben Ordners). Deutet auf einen OneDrive-FileProvider-Stau dieses Ordners, nicht auf
+defekte Dateien. Nicht selbst repariert (Systemsache Raphaels, Rule 260814); Befund + naechster
+Schritt (Ordner im Finder oeffnen/PDFs einmal anklicken) in `QUESTIONS.md` vermerkt.
+
+Budget rund 3.4 von 5 USD. Zyklus sauber beendet.

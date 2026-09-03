@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 03.09.2026 13:33:05
+Stand: 03.09.2026 13:43:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:31)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:43)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 13:33:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9e898c615 nas-selfcommit: 4 Datei(en) 2026-09-03 13:30
+- 915c6c34b wettbewerbs-dna: Umlaut-Sanierung delta-zum-ersten-rang.md (145 Wortformen/213 Fundstellen), Schulrats-Verfuegung-Klaerung an OneDrive-Infra-Sperre dokumentiert
