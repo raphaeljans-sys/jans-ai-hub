@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.09.2026 07:22:55
+Stand: 03.09.2026 07:43:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 07:22:55
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a19d15c11 vollgas-fruehwarnung 03.09.2026: still beendet, kein Meldekriterium; Stueckkosten 02.09. auf 1.17 Mio/Artikel gestiegen (Artikelzahl eingebrochen, nicht Verbrauch); Messfalle Task-Opener-Selbsttreffer dokumentiert
+- bce934bf5 nas-selfcommit: 4 Datei(en) 2026-09-03 07:30
