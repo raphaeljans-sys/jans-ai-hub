@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.09.2026 09:05:44
+Stand: 03.09.2026 09:26:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 09:05:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3251bee9d twin/QUESTIONS: zweiter Beleg — Gate meldet Belegtes als unbelegt, wenn die Faktenbasis paraphrasiert ist
+- e3724cec7 nas-selfcommit: 2 Datei(en) 2026-09-03 09:15
