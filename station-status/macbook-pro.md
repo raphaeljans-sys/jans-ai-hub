@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.09.2026 07:39:56
+Stand: 03.09.2026 07:50:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:22)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:49)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 07:39:56
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bce934bf5 nas-selfcommit: 4 Datei(en) 2026-09-03 07:30
+- a571c4245 ag-gruendung-monitor: 03.09.2026 07:45 — Kapitaleinzahlung 17+ Tage ueberfaellig, kein Fortschritt seit 31.08.
