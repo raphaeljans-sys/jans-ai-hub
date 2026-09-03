@@ -149,6 +149,18 @@ Ausgabe je proj-Treffer: `typ`, `rechtsstatus`, `projektzustand`, `gemeinde`, `a
 Regression gegen die bestehenden Benchmarks (Langnau 7 Baulinie + 1 Waldgrenze, Seuzach 10
 Baulinie/29.8 m) unverändert grün — keine proj-Treffer dort, korrekt kein Revisions-Flag.
 
+**Zweiter benannter Wald-proj-Fall: Stadt Zürich, Witikon (nachgetragen 03.09.2026,
+Wissens-Chef Lauf 52).** Teilrevision des **Ergänzungsplans Waldabstandslinien** der Stadt
+Zürich, Amt für Städtebau, Erstellungsdatum 01.10.2025, **öffentliche Auflage seit 03.12.2025**,
+693 Seiten, OEREB-`docid` **17431**; der Connector meldet sie als `proj wald`. Anders als der
+Existenznachweis Wila/Boppelsen ist dies ein Fall aus laufender Projektarbeit, mit Aktenzeichen
+und Auflagedatum. **Praxisregel daraus:** bei Parzellen in rund 30 bis 35 m Waldentfernung in
+der Stadt Zürich die Linie am projektierten Stand prüfen, nicht nur am rechtskräftigen — eine
+bloss aufgelegte Linie kann über die negative Vorwirkung (§ 234 PBG) ein Vorhaben schon heute
+scheitern lassen; die materielle Würdigung führt `wissen/baurecht`
+(`wiki/baulinien-und-abstandslinien.md`, `wiki/negative-vorwirkung-und-bzo-revision.md`).
+Beleg: `wissen/baurecht/outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md`.
+
 ## Benchmarks (Abstand gemessen, validiert 2026-07-08)
 
 | Parzelle | ±150-m-Treffer | nächster Abstand (`dist_m`) | Lesart |

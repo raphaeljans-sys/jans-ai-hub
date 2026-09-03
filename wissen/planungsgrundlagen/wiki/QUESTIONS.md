@@ -76,6 +76,21 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > Beides ist Arbeit der KB `normen`, nicht des Wartungslaufs; hier steht es, damit es nicht
 > allein im Laufbericht verpufft.
 
+## Offen (neu 03.09.2026, Wissens-Chef Lauf 52)
+
+- **PG-52-1 — `geo-zh.mjs`: CLI-Einstieg `--punkt E,N` fehlt (Builder-Kandidat, klein).** Die
+  Mechanik ist gebaut: `identifyParcel(east, north)` (Z. 503-521) setzt den `identify` auf
+  `ch.swisstopo-vd.amtliche-vermessung` ab und liefert Nummer, EGRID, BFS, Gemeinde **und** den
+  Polygonring `rings` zurueck. Erreichbar ist sie aber nur ueber `--adresse` bzw. `--egrid`
+  (`parseArgs`, Z. 466 ff.) — genau der Fall **Nachbarparzelle ohne bekannte Adresse** hat also
+  keinen Einstieg, obwohl der Weg dahinter existiert. Dazu die Flaeche per Shoelace aus `rings`,
+  die heute jeder Lauf von Hand rechnet. Anlass: Projektarbeit Witikon 03.09.2026, wo der Weg
+  als «neue Werkzeug-Erkenntnis» notiert wurde — er war keine, er war nur nicht erreichbar.
+  **Das ist die Familie von Rule `wege-und-vollmachten`:** ein vorhandener Weg, den niemand
+  findet, ist so gut wie keiner. Beleg:
+  `wissen/baurecht/outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md`,
+  Gegenrichtung dokumentiert in `wiki/kartenportale-oereb-egrid-bezug.md`.
+
 ## Offen (neu 27.08.2026, Wissens-Chef Run 45)
 
 - [x] **Baulinien: Gegenrichtung und benannte Artikelzuordnung.** `wiki/kartenportale-baulinien-abstandslinien-zh.md`

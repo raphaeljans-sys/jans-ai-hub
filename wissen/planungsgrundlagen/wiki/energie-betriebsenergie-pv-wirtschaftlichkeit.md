@@ -1,7 +1,7 @@
 ---
 title: PV-Förderung (Pronovo Einmalvergütung) & Wirtschaftlichkeit
 status: emerging
-last_updated: 2026-07-19
+last_updated: 2026-09-03 (Cross-KB-Eingang aus `energie` Lauf 176: EIV-Saetze gemessen, Grundbeitrag CHF 0; HEIV-Legende berichtigt, Wissens-Chef Lauf 52)
 sources: [Pronovo AG "Neuerungen Einmalvergütung Photovoltaik" (pronovo.ch/de/foerderinstrumente/neuerungen-einmalverguetung-photovoltaik, abgerufen 2026-07-14 + Refresh 2026-07-19), Pronovo AG "Einmalvergütung (EIV) Photovoltaik" + Förderung-Übersicht (pronovo.ch/de/foerderung, abgerufen 2026-07-14), Pronovo Tarifrechner (pronovo.ch/de/services/tarifrechner), EnergieSchweiz "Einmalvergütungen | Investitionsbeiträge" (energieschweiz.ch/wohnen/einmalverguetungen, abgerufen 2026-07-14), realer Betriebskosten-Fall EFH 1957 → [[energie-uebersicht]] §Betriebsenergie]
 links: [[energie-uebersicht]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]], [[steuerabzug-energetische-sanierung-zh-sz]]
 ---
@@ -34,14 +34,27 @@ Referenzanlage** ab. Drei Kategorien nach Leistung:
 |---|---|---|
 | **KLEIV** (Kleine EIV) | **2 bis < 100 kWp** | EFH/MFH, Standardfall JANS |
 | **GREIV** (Grosse EIV) | **100 kWp bis 50 MWp** | grössere Anlagen, Gewerbe/Areal |
-| **HEIV** (Hochalpine EIV) | — | hochalpine Anlagen, hier nicht vertieft |
+| **HEIV** (hohe EIV) | **2 bis < 150 kW, ohne Eigenverbrauch** | Volleinspeiser, Deckel 60 % der massgebenden Investitionskosten |
+
+> ⚠ **Berichtigt 03.09.2026 (Wissens-Chef Lauf 52).** Diese Zeile fuehrte HEIV bis dahin als
+> «Hochalpine EIV». Das ist eine Verwechslung mit einem **anderen** Foerderregime: der
+> Foerderung alpiner PV-Grossanlagen nach **Art. 71a EnG** («Solarexpress»), die zufaellig
+> ebenfalls einen 60-%-Deckel kennt. HEIV steht fuer **hohe Einmalverguetung** und richtet
+> sich an Volleinspeiser ohne Eigenverbrauch. Beleg: pronovo.ch/de/foerderung/photovoltaik
+> (abgerufen 03.09.2026) und BFE-Faktenblatt pubdb 7238; deckungsgleich mit der fuehrenden
+> KB `wissen/energie` → `destillate/pv-einmalverguetung-bund-bfe.md` (`established`), die
+> beide Regime seit jeher getrennt fuehrt (HEIV eigene Zeile, Art. 71a EnG eigene Zeile).
 
 **Aufbau des Beitrags = Grundbeitrag + Leistungsbeitrag:**
 - ⚠ **Grundbeitrag: seit dem 01.04.2024 CHF 0** (Korrektur 03.09.2026, siehe Kasten unten). Die
   frühere Beschreibung «Pauschale je Anlage, abhängig von der Bauart» beschreibt einen Zustand,
   der seit über zwei Jahren nicht mehr gilt. Die EIV ist heute **faktisch reiner Leistungsbeitrag**.
-- **Leistungsbeitrag:** CHF pro kWp, **degressiv gestaffelt** nach Leistungsklasse (die ersten kWp
-  höher vergütet als die oberen; Klassen bis 30 kW / 30–100 kW / ab 100 kW).
+- **Leistungsbeitrag:** CHF pro kWp, **marginal gestaffelt** nach Leistungsklasse (die ersten kWp
+  höher vergütet als die oberen; Klassen bis 30 kW / 30–100 kW / ab 100 kW). Praezisiert
+  03.09.2026 (Wissens-Chef Lauf 52): der Mechanismus ist **marginal wie ein Steuertarif** —
+  jede Klasse hat einen eigenen, konstanten Satz, der nur auf den in ihr liegenden
+  Leistungsanteil wirkt. «Degressiv» beschreibt bloss den Effekt auf den Durchschnittssatz
+  und war genau die Fehlvorstellung, die `energie` Lauf 176 am Tarifrechner widerlegt hat.
 
 > **✓ Nachtrag 03.09.2026 — die absoluten Sätze sind jetzt gemessen (Bringschuld aus KB `energie`,
 > Lauf 176).** Dieser Artikel hielt bisher fest, «absolute CHF/kW weiterhin nur über den

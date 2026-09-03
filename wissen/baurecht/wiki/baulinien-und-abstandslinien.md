@@ -326,6 +326,19 @@ durch Baulinien gesichert werden kann** (Auffanginstrument zu den Baulinien).
 | Ski-/Schlittellinie | § 111 PBG | Gemeindevorstand | Bauverbot für zweckwidrige Bauten/Bewirtschaftung, § 112 |
 | Gewässerabstandslinie | § 67 PBG | Gemeinde (BZO) | wie Baulinie, §§ 99-101 analog |
 | Waldabstandslinie | § 66 PBG | Kanton/Gemeinde | 30 m (red. bis 15 m), → [[15-lage-von-gebaeuden]] |
+
+> **Das Abstandsmass steht, die Linienlage kann in Revision sein** (nachgetragen 03.09.2026,
+> Wissens-Chef Lauf 52). Die 30 m aus § 66 PBG sind unberuehrt; was sich aendern kann, ist der
+> **Verlauf** der Linie im kommunalen Ergaenzungsplan. Aktueller Fall: **Stadt Zuerich**,
+> Teilrevision Ergaenzungsplan Waldabstandslinien, oeffentliche Auflage seit **03.12.2025**
+> (Amt fuer Staedtebau, OEREB-`docid` 17431). Eine bloss **aufgelegte** Linie ist nicht
+> wirkungslos: nach § 234 PBG kann bereits eine beantragte planungsrechtliche Festlegung ein
+> Vorhaben scheitern lassen (→ [[negative-vorwirkung-und-bzo-revision]]; dieselbe Analogie
+> zieht dieser Artikel weiter unten fuer projektierte Verkehrsbaulinien). **Bezug der
+> Linienlage fuehrt `planungsgrundlagen`**
+> (`wiki/kartenportale-baulinien-abstandslinien-zh.md`, Connector-Meldung `proj wald`); die
+> materielle Wuerdigung bleibt hier. Beleg:
+> `outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md`.
 | Gewässerraum (Bundesrecht) | Art. 36a GSchG / § 15h HWSchV (aufgehoben 01.06.2026 → § 183 lit. b WsV) | Kanton (Baudirektion) | standortgebundene Anlagen, → [[abstaende-und-hoehen]] |
 | **Werkplan** (subsidiär zur Baulinie) | §§ 114-119 PBG | Werkträger/Richtplan-Ersteller | Enteignungs-/Vorkaufsrecht Werkträger, Heimschlagsrecht Eigentümer |
 | **Vorsorgliches Bauverbot** (2. Auffangstufe) | §§ 120-122 PBG | RR (Staat) / zuständige Direktion | befristet 5 Jahre seit Rechtskraft, dann dahingefallen |

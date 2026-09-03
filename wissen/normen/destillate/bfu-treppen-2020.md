@@ -172,6 +172,18 @@ sehbehindertengerechte Beleuchtung); SIA 500:2009 (SN 521 500); SN 640 075:2014;
 Vorgänger-Destillat, **Ausgabejahr geändert**, keine dieser VSS-Ausgaben im Haus); SN EN
 81-40:2008 (Treppenschrägaufzüge); SN 640 568:2013 (Passive Sicherheit, Geländer).
 
+## Querbezug `baurecht` (gesetzt 03.09.2026, Wissens-Chef Lauf 52)
+
+Die Treppenbreite der Tabelle 1 (MFH 1,20 m / EFH 0,90 m) ist **zahlengleich** mit § 305 Abs. 1
+PBG ZH (`wissen/baurecht/wiki/wohnhygiene-und-raumanforderungen.md`, Abschnitt 4, `established`,
+volltextverifiziert). Die Rechtsnorm fuehrt `baurecht`, diese Empfehlung ist **nachrangig und
+nicht rechtsverbindlich** — im Streitfall gilt die Norm bzw. der Erlass, nicht die Broschuere.
+Zwei Vorbehalte: § 305 regelt Treppen **und Gaenge** in einer Zahl, diese Zeile nur die Treppe;
+und die Bezugsgroesse (lichte Breite / Laufbreite) ist an keiner der beiden Stellen definiert.
+**Die Zahlengleichheit ist keine Ableitung:** SIA 500 traegt in derselben Tabellenzeile
+ausdruecklich «keine Angabe», die beiden Quellen sind unabhaengig — warum sie zusammenfallen,
+ist offen.
+
 ## Offene Punkte
 
 - Rampenneigung in Prozent statt Grad angegeben und zahlenmässig abweichend von der 2009er-

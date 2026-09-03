@@ -41,6 +41,16 @@ Bezug: **Gebäudevolumen GV nach SIA 416** (inkl. Untergeschoss), **BKP 1–5** 
 Baunebenkosten inkl. Planerhonorare), **exkl. Land (BKP 0) und Reserven/Finanzierung (BKP 6–9)**.
 Region Zürich / Zentralschweiz. Preisstand 2026. Immer als Grobschätzung ±25 % verwenden.
 
+⚠ **Fundstellen-Status und Aussenflaechen-Vorbehalt** (nachgetragen 03.09.2026, Wissens-Chef
+Lauf 52 — offener Rest des Vorgangs **N46-3**): Die Fundstelle
+`wissen/normen/destillate/sia-416-2003.md` traegt `status: speculative`. Das betrifft eine nie
+gelaufene **Abdeckungs**richtung, **nicht** die Richtigkeit der Werte (fuenf Pruefrunden, kein
+falscher Zahlenwert); nach Rule `normen-referenz` Ziff. 1b ist das Destillat formal Warnkarte
+und nicht Zitierquelle. **Sachlich wichtiger:** GV nach SIA 416 ist gegenueber Aussenflaechen
+**blind** — Balkone/Terrassen (ANF) und Laubengaenge (AVF) haben kein Volumen-Pendant (AKV,
+eigenstaendige Ziff. 6, Kernbefund Run 78). Vergleiche zwischen Varianten mit ungleichem
+Aussenflaechenanteil deshalb zusaetzlich ueber CHF/m2 fuehren.
+
 > Status der Werte: **Seed, Wüest-kalibriert (07.06.2026)** — an die belegten Wüest-Kostenbenchmarks
 > (m²) angekoppelt, aber noch NICHT mit realen JANS-Schlussabrechnungen (m³) verifiziert. Reife
 > steigt mit jedem zurückgespeisten Realwert (siehe Compounding unten).

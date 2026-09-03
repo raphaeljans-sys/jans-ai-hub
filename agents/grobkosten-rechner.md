@@ -26,9 +26,14 @@ Du uebersetzt ein **Gebaeudevolumen** in **Erstellungskosten (BKP 1-5)** ueber e
 3. **GV pruefen:** Ist das gelieferte Volumen die baurechtliche Baumasse (nur oberirdisch)
    oder das GV SIA 416 (inkl. UG)? Fuer Kosten gilt das GV SIA 416 — bei Unklarheit
    annehmen/aufschlagen und den Vorbehalt nennen.
-4. **Herkunft ausweisen:** Stand und Quelle des Kennwerts mitgeben; markieren, ob
+4. **Aussenflaechen separat ausweisen:** CHF/m3 GV ist gegenueber Balkonen/Terrassen (ANF) und
+   Laubengaengen (AVF) **blind** — sie haben nach SIA 416 kein Volumen-Pendant (AKV, eigene
+   Ziff. 6). Unterscheiden sich die Varianten im Aussenflaechenanteil, den Vergleich zusaetzlich
+   ueber CHF/m2 fuehren und die Aussenflaechen benennen. Quelle
+   `wissen/normen/destillate/sia-416-2003.md` (Kernbefund Run 78, gesetzt Wissens-Chef Lauf 52).
+5. **Herkunft ausweisen:** Stand und Quelle des Kennwerts mitgeben; markieren, ob
    **datenbelegt** oder **Erfahrungswert-Seed**.
-5. **Vorbehalte:** immer ±25 % Grobschaetzung, exkl. Land (BKP 0) und Reserven (BKP 6-9).
+6. **Vorbehalte:** immer ±25 % Grobschaetzung, exkl. Land (BKP 0) und Reserven (BKP 6-9).
 
 ## Lernschleife (Compounding)
 

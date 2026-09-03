@@ -3,6 +3,35 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-03 (Wissens-Chef Lauf 52) — Waldabstandslinie: das Mass steht, die Linie laeuft; ein bfu-Querverweis mit Einordnung
+
+- `wiki/baulinien-und-abstandslinien.md` (+13/-0): Vermerk an der Waldabstandslinien-Zeile. Die
+  30 m aus § 66 PBG sind unberuehrt — aendern kann sich der **Verlauf** der Linie im kommunalen
+  Ergaenzungsplan. Aktueller Fall Stadt Zuerich, oeffentliche Auflage seit 03.12.2025
+  (OEREB-`docid` 17431). **Warum das materiell ist und nicht bloss ein Hinweis:** nach § 234 PBG
+  kann bereits eine **beantragte** planungsrechtliche Festlegung ein Vorhaben scheitern lassen —
+  dieselbe Vorwirkungs-Analogie, die dieser Artikel weiter unten fuer projektierte
+  Verkehrsbaulinien bereits selbst zieht. Bezug der Linienlage fuehrt `planungsgrundlagen`.
+- `wiki/wohnhygiene-und-raumanforderungen.md` (+13/-0): Querverweis auf die bfu-Empfehlung zur
+  Treppenbreite (2.007.01:12.2020, MFH 1,20 m / EFH 0,90 m — zahlengleich mit § 305 Abs. 1 PBG),
+  **ausdruecklich als nicht bindend gekennzeichnet**. Der Verifikator hat drei Praezisierungen
+  erzwungen, ohne die der Verweis in die Irre gefuehrt haette: § 305 regelt Treppen **und
+  Gaenge** in einer Zahl, die bfu-Zeile nur die Treppe; die Bezugsgroesse (lichte Breite /
+  Laufbreite) ist an **keiner** der beiden Stellen definiert; und die Quellen sind
+  **unabhaengig** — SIA 500 traegt in derselben bfu-Tabellenzeile «keine Angabe», die
+  Zahlengleichheit ist also belegt, aber unerklaert.
+
+**Widerlegt und deshalb NICHT geaendert.** Ein Melder meldete eine Doppelattribution derselben
+Regel («UG mehrheitlich ueber gewachsenem Boden gilt als Geschoss») an § 9 ABV
+(`wiki/nutzungsziffern.md`) einerseits und § 276 Abs. 1 PBG Anhang
+(`wiki/geschosse-und-kniestock.md`) andererseits. Am **Erlasswortlaut im eigenen `raw/`-Bestand**
+gegengeprueft: es sind **zwei verschiedene Erlasse mit verschiedenem Regelungsgegenstand** —
+§ 9 ABV (alte Fassung) betrifft die Berechnung der **Ausnuetzungsziffer**, § 276 Abs. 1 PBG die
+allgemeine **Geschoss-Anrechenbarkeit**; beide trugen historisch dasselbe materielle Kriterium
+(Verordnung konkretisiert Gesetz). Beide Zitate sind korrekt. `nutzungsziffern.md` hat die
+Konstellation zudem laengst selbst antizipiert (Z. 98-99, Hinweis auf noch nicht harmonisierte
+BZO) — genau der Fall Stadt Zuerich aus dem Witikon-Report.
+
 ## 2026-09-03 (interaktive Session, Wissens-Rücklauf) — Fallreport W3 Stadt Zürich, Hanglage mit fremder Tiefgarage
 
 `outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md` (neu): verallgemeinerbare

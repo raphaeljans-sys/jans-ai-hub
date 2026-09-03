@@ -2,6 +2,37 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-03 (Wissens-Chef Lauf 52) — Aussenflaechen-Vorbehalt zu CHF/m3 GV; offener Rest von N46-3 geschlossen
+
+Eingang aus `normen` Run 78 (03.09.2026), der die SIA-416-Anhangfiguren messend abgedeckt hat.
+**Kernbefund mit Kennwert-Folge:** die Flaeche/Volumen-Paarung der Norm bricht bei den
+Aussenkategorien ab — Balkone/Terrassen (ANF) und Laubengaenge (AVF) haben **kein
+Volumen-Pendant**; sie zaehlen zum Aussenkubaturvolumen AKV mit eigenstaendiger Ziff. 6. Ueber
+der Balkon- und der Laubengangplatte ist der Raum in allen fuenf Volumenfiguren leer (Weissanteil
+0.986 bzw. 1.000). **Folge:** ein Variantenvergleich ueber CHF/m3 GV erfasst Aussenflaechen gar
+nicht, einer ueber CHF/m2 schon — die beiden Kennwerte sind zwischen Varianten mit ungleichem
+Aussenflaechenanteil nicht neutral.
+
+`wiki/flaechendefinitionen-sia.md` (+11/-0) und `wiki/realwert-sachwert.md` (+8/-0):
+Vorbehalt jeweils beim Bezugswert gesetzt. Bei Pflegebauten sind Zimmerloggien und
+Dachterrassen ein realer, oft variantenbildender Posten — der Fall ist nicht konstruiert.
+
+**Zugleich der offene Rest des Vorgangs N46-3.** Der Statuswechsel von `sia-416-2003.md` auf
+`speculative` (28.08.2026) hatte zwoelf namentlich bekannte Konsumenten; der Eingriff aus Run 46
+erreichte `flaechendefinitionen-sia.md` und zwei `energie`-Artikel, **nicht** aber die hier
+genannten Dateien. Das Destillat selbst behauptete daneben, «die zitierenden Bausteine des Hub
+tragen seit Run 77 einen entsprechenden Vermerk» — nachgemessen falsch, in `normen` berichtigt.
+
+**Adversarial gegengeprueft.** Der Vorbehalt ist **nicht in jedem Fall materiell**: bei mittleren
+Projekten liegt das Balkon-Delta meist innerhalb der ausgewiesenen Grobschaetzungs-Bandbreite von
+plus/minus 25 Prozent. Er wird materiell bei kleinen Projekten und bei bewusst balkonlastigen
+Varianten — also genau dann, wenn der Aussenflaechenanteil das Vergleichsmerkmal ist. Der
+gesetzte Text sagt das ausdruecklich, damit der Vorbehalt nicht ueberdehnt wird.
+
+**Ebenfalls gesetzt (ausserhalb dieser KB):** `skills/grobkosten-onepager/SKILL.md`,
+`agents/grobkosten-rechner.md` (neuer Arbeitsschritt 4) und `skills/machbarkeit-studio/SKILL.md`
+— die drei vom Run-78-Befund namentlich genannten Konsumenten.
+
 ## 2026-09-01 (Wissens-Health-Check, Phase 1) — A2 · B0 · C0 · D2 · E1 · F2 · G1
 
 Voller Report: `outputs/2026-09-01_health-check.md`. Kein neuer materieller Befund: T-Regelgeschoss

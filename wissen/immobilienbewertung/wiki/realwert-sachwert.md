@@ -509,6 +509,14 @@ Kennwerten nebeneinander — die belastbare Basis fuer den Healthcare-Neuwert (R
 - **CHF/m2 GF: 2'623-4'250** (Median ~3'800); die Neubauten ab 2019 liegen bei **3'560-4'250**,
   Herosé/Trotte/Mathysweg um **3'850-3'910** — konsistent mit dem frueheren Herosé-Anker.
 - **CHF/m3 GV: 826-1'420** (Median ~1'100); Herosé 1'105 mittig.
+  ⚠ **Aussenflaechen-Vorbehalt** (nachgetragen 03.09.2026, Wissens-Chef Lauf 52, offener Rest
+  des Vorgangs N46-3): GV nach SIA 416 hat **kein Pendant fuer Balkone/Terrassen (ANF) und
+  Laubengaenge (AVF)** — diese zaehlen zum Aussenkubaturvolumen AKV mit eigenstaendiger
+  Ziff. 6 (`wissen/normen/destillate/sia-416-2003.md`, Kernbefund Run 78, an den
+  Anhangfiguren gemessen). Ein CHF/m3-GV-Vergleich ist gegenueber ihnen blind; bei
+  Pflegebauten mit Zimmerloggien oder Dachterrassen zusaetzlich ueber CHF/m2 GF pruefen.
+  Die Fundstelle traegt `status: speculative` — das betrifft eine nie gelaufene
+  Abdeckungsrichtung, nicht die Richtigkeit der Werte (Rule `normen-referenz` Ziff. 1b/1c).
 - **CHF/Pflegezimmer (BKP 2, ~24 m2-Zimmer): 272'780-530'000** fuer reine Heime; **780'000** beim
   St.-Anna-**Zentrum** (Ausreisser, hoher Gemein-/Therapieflaechenanteil). Das erweitert den
   frueheren Herosé-Vier-Heim-Vergleich (337'000-418'000) nach unten und oben.

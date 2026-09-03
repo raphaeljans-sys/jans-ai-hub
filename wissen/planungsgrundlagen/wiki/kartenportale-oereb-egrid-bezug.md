@@ -21,6 +21,17 @@ Koordinate  --identify-->  EGRID + Parzelle + BFS
 EGRID  --maps.zh.ch-->  OEREB-Auszug (PDF, 7 S.)
 ```
 
+> **Schritt 2 laeuft auch ohne Schritt 1** (nachgetragen 03.09.2026, Wissens-Chef Lauf 52, aus
+> der Projektarbeit Witikon). Ist eine **Punktkoordinate** bekannt, laesst sich der `identify`
+> auf `ch.swisstopo-vd.amtliche-vermessung` direkt darauf absetzen — ohne vorgelagerte
+> Adress-Geokodierung. Das ist der Weg zur **Nachbarparzelle**, fuer die man gar keine Adresse
+> hat. Der Rueckgabewert enthaelt neben Nummer, EGRID und BFS auch den Polygonring `rings`,
+> aus dem sich die Parzellenflaeche per Shoelace-Formel rechnen laesst — ohne einen weiteren
+> Dienst zu bemuehen. **Die Mechanik ist gebaut**, nicht neu: `identifyParcel(east, north)` in
+> `skills/planungsgrundlagen/connectors/geo-zh.mjs` ruft genau diesen Endpunkt auf und liefert
+> `rings` bereits mit; nur der CLI-Einstieg fehlt (Kandidat `--punkt E,N`, siehe QUESTIONS).
+> Beleg: `wissen/baurecht/outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md`.
+
 1. **Adresse → Koordinate** (api3.geo.admin.ch SearchServer):
    `…/SearchServer?searchText=<Adresse>&type=locations&origins=address&sr=2056`
    liefert `y` (Ost, ~2.68 Mio) und `x` (Nord, ~1.24 Mio).

@@ -165,6 +165,17 @@ Hoehe); spezielle Fundationen (Pfaehlungen, Kofferungen, Sohlenbeton) zaehlen **
 Das ist der Bezugswert fuer **CHF/m3-Neuwert-/Grobkostenkennwerte** ([[realwert-sachwert]],
 Skill `grobkosten-onepager`). ⚠ Aeltere CHF/m3-Tabellen beziehen sich teils auf den
 SIA-116-Volumenbegriff (mit Zuschlaegen) — bei Kennwert-Anwendung den Volumenbegriff abgleichen.
+⚠ **Und: GV ist gegenueber Aussenflaechen blind** (nachgetragen 03.09.2026, Wissens-Chef Lauf 52,
+Quelle `wissen/normen/destillate/sia-416-2003.md`, Kernbefund Run 78, an den Anhangfiguren
+gemessen): Balkone/Terrassen (ANF) und Laubengaenge (AVF) haben **kein Volumen-Pendant** — sie
+zaehlen zum Aussenkubaturvolumen AKV mit eigenstaendiger Ziff. 6. Ein Variantenvergleich ueber
+CHF/m3 GV erfasst sie also gar nicht, einer ueber CHF/m2 schon; die beiden Kennwerte sind
+zwischen Varianten mit ungleichem Aussenflaechenanteil **nicht neutral**. Bei Pflegeheimen,
+Reha- und Psychiatriebauten ist das ein realer, oft variantenbildender Posten (Zimmerloggien,
+Dachterrassen). ⚠ Das Destillat `sia-416-2003.md` traegt `status: speculative` — nach Rule
+`normen-referenz` Ziff. 1b formal Warnkarte, nicht Zitierquelle; der Status betrifft eine nie
+gelaufene **Abdeckungs**richtung, nicht die Richtigkeit der Werte (fuenf Pruefrunden, kein
+falscher Zahlenwert).
 Grobansatz fruehe Phase: GV ≈ Grundflaeche × Geschosse × Geschosshoehe (Skill `machbarkeit`).
 
 ## Miet-/Eigentumsflaechen FSN/FGN (Norm Kap. 4, S. 12-13)

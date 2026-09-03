@@ -64,6 +64,12 @@ verschickbar.
                  → je Variante aGF/BGF/GV(m3)/HNF/Geschosse
 4 KOSTEN         Skill grobkosten-onepager / KB wissen/grobkosten
                  → Kennwert CHF/m3 + Band (BKP 1-5), Nutzung/Standard
+                 ⚠ CHF/m3 GV ist gegenueber Aussenflaechen blind: Balkone/Terrassen
+                   (ANF) und Laubengaenge (AVF) haben nach SIA 416 kein Volumen-Pendant
+                   (AKV, eigene Ziff. 6). Unterscheiden sich die Varianten im
+                   Aussenflaechenanteil, das Studio zusaetzlich ueber CHF/m2 ausweisen —
+                   sonst ist der Reglervergleich zwischen ihnen nicht neutral. Quelle
+                   wissen/normen/destillate/sia-416-2003.md (Run 78, gesetzt Lauf 52).
 5 WIRTSCHAFT     Agent wirtschaftlichkeit-rechner / immobilienbewertung
                  → Verkaufspreis|Mietzins, Marge, Diskont, Residualwert, Sensitivitaet
 6 MODELL         alles in EIN model.json giessen (schema/studio-model.schema.json)

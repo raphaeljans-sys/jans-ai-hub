@@ -1,5 +1,35 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-09-03 (Wissens-Chef Lauf 52) — Aussenflaechen-Vorbehalt zu CHF/m3 GV; offener Rest von N46-3 geschlossen
+
+Eingang aus `normen` Run 78 (03.09.2026), der die SIA-416-Anhangfiguren messend abgedeckt hat.
+**Kernbefund mit Kennwert-Folge:** die Flaeche/Volumen-Paarung der Norm bricht bei den
+Aussenkategorien ab — Balkone/Terrassen (ANF) und Laubengaenge (AVF) haben **kein
+Volumen-Pendant**; sie zaehlen zum Aussenkubaturvolumen AKV mit eigenstaendiger Ziff. 6. Ueber
+der Balkon- und der Laubengangplatte ist der Raum in allen fuenf Volumenfiguren leer (Weissanteil
+0.986 bzw. 1.000). **Folge:** ein Variantenvergleich ueber CHF/m3 GV erfasst Aussenflaechen gar
+nicht, einer ueber CHF/m2 schon — die beiden Kennwerte sind zwischen Varianten mit ungleichem
+Aussenflaechenanteil nicht neutral.
+
+`wiki/kennwerte.md` (+10/-0): Vorbehalt und Fundstellen-Status unmittelbar beim
+Bezugsabsatz gesetzt (dort, wo GV als Bezugswert eingefuehrt wird).
+
+**Zugleich der offene Rest des Vorgangs N46-3.** Der Statuswechsel von `sia-416-2003.md` auf
+`speculative` (28.08.2026) hatte zwoelf namentlich bekannte Konsumenten; der Eingriff aus Run 46
+erreichte `flaechendefinitionen-sia.md` und zwei `energie`-Artikel, **nicht** aber die hier
+genannten Dateien. Das Destillat selbst behauptete daneben, «die zitierenden Bausteine des Hub
+tragen seit Run 77 einen entsprechenden Vermerk» — nachgemessen falsch, in `normen` berichtigt.
+
+**Adversarial gegengeprueft.** Der Vorbehalt ist **nicht in jedem Fall materiell**: bei mittleren
+Projekten liegt das Balkon-Delta meist innerhalb der ausgewiesenen Grobschaetzungs-Bandbreite von
+plus/minus 25 Prozent. Er wird materiell bei kleinen Projekten und bei bewusst balkonlastigen
+Varianten — also genau dann, wenn der Aussenflaechenanteil das Vergleichsmerkmal ist. Der
+gesetzte Text sagt das ausdruecklich, damit der Vorbehalt nicht ueberdehnt wird.
+
+**Ebenfalls gesetzt (ausserhalb dieser KB):** `skills/grobkosten-onepager/SKILL.md`,
+`agents/grobkosten-rechner.md` (neuer Arbeitsschritt 4) und `skills/machbarkeit-studio/SKILL.md`
+— die drei vom Run-78-Befund namentlich genannten Konsumenten.
+
 ## 2026-09-01 (Wissenscheck Phase 1, unbeaufsichtigt) — A0 B0 C0 D3 E0 F1 G0
 
 Identische Findings zu 2026-08-30. Keine neuen Befunde, keine Regression. Status stabil,

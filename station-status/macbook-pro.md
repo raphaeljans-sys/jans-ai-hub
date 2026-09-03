@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.09.2026 23:13:07
+Stand: 03.09.2026 23:23:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:12)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 23:13:07
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 4923d7123 energie Run 176: EIV-Leistungsbeitraege am Pronovo-Tarifrechner gemessen — Staffel ist marginal, dritte Stufe ab 100 kWp (250 CHF/kWp) erstmals erfasst, Indach-Zuschlag entfaellt dort; E-R162-2 geschlossen, FAQ F271/F272, Cross-KB-Korrektur in planungsgrundlagen (Grundbeitrag CHF 0)
+- 76fc3b5a8 nas-selfcommit: 2 Datei(en) 2026-09-03 23:15

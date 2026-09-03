@@ -1,3 +1,34 @@
+## 2026-09-03 (Wissens-Chef Lauf 52) — das Destillat behauptete etwas ueber seine Konsumenten, das nicht stimmte
+
+- `destillate/sia-416-2003.md` (+12/-0): Berichtigung im Statusabsatz. Der Satz «die zitierenden
+  Bausteine des Hub tragen seit Run 77 einen entsprechenden Vermerk» ist **nachgemessen falsch**.
+  Der Eingriff aus Run 46 (Vorgang **N46-3**, zwoelf namentlich bekannte Konsumenten) erreichte
+  `immobilienbewertung/wiki/flaechendefinitionen-sia.md` und zwei `energie`-Artikel; **nicht**
+  aber `grobkosten/wiki/kennwerte.md` und `immobilienbewertung/wiki/realwert-sachwert.md` —
+  beide zitieren GV nach SIA 416 als harten Bezugswert, beide ungekennzeichnet. Lauf 52 hat den
+  Vermerk dort gesetzt; die uebrigen der zwoelf sind **nicht** einzeln nachgemessen und bleiben
+  offen. **Lehre:** ein Destillat darf ueber den Zustand seiner Konsumenten keine Aussage
+  treffen, die es nicht selbst gemessen hat — sie altert unbemerkt und verhindert genau die
+  Nachpflege, die sie behauptet (gleiche Familie wie Rule `auto-verbesserungen` 260807).
+- `destillate/bfu-treppen-2020.md` (+12/-0): Querbezug nach `baurecht` gesetzt (Treppenbreite
+  zahlengleich mit § 305 Abs. 1 PBG ZH), mit Nachrangigkeits-Vermerk und den beiden Vorbehalten
+  (Erfassungsbereich Gaenge, undefinierte Bezugsgroesse). Gegenrichtung dort gesetzt.
+
+**Der Run-78-Kernbefund ist an seine Konsumenten ausgeliefert.** Die drei vom Befund namentlich
+genannten Bausteine (`skills/grobkosten-onepager`, `skills/machbarkeit-studio`,
+`agents/grobkosten-rechner`) tragen den Aussenflaechen-Vorbehalt jetzt, ebenso `grobkosten` und
+`immobilienbewertung`. Adversarial praezisiert: der Vorbehalt ist **nicht in jedem Fall
+materiell** — bei mittleren Projekten bleibt das Balkon-Delta meist innerhalb der ±25-%-Bandbreite
+der Grobschaetzung; materiell wird er bei kleinen Projekten und bei balkonlastigen Varianten.
+
+**Offen geblieben (Rotation, nicht erledigt):** der bfu-Aktualitaets-Check ist erst fuer 2.006
+(Glas) und 2.007 (Treppen) gelaufen, beide am 23.08.2026, beide mit Fund einer Ausgabe 12.2020.
+Fuer **2.003, 2.005 (Tueren/Tore, Bestand 12.2012), 2.027, 2.032, 2.034 und 2.075 (rechtliche
+Aspekte, Bestand 02.2011)** steht er aus. ⚠ Aus 2 von 2 Treffern laesst sich **keine**
+Trefferwahrscheinlichkeit fuer die uebrigen sechs ableiten: die Stichprobe ist nicht zufaellig
+(beide wurden im SIA-Sweep mitgenommen), n=2, und die Reihen haben nachweislich verschiedene
+Republikationsrhythmen. Das Register traegt dazu korrekt keine Ableitung — das soll so bleiben.
+
 ## 2026-09-03 — Normen-Nacht Run 78: messende Abdeckung auf den Figuren 1-10 und 12 (SIA 416), N77-1 geschlossen
 
 Inventar unverändert bei **0 offenen `[ ]`** im SIA/VKF-Scope. Gearbeitet wurde am ersten der

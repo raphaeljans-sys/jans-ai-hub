@@ -60,6 +60,19 @@ interesse allein genügt nicht**.
 ### 4. Innere Erschliessung & Aufzug (§ 305 PBG, § 40 BBV I)
 - Haustür Lichtmass **1 m**; Treppen/Gänge zu Aufenthaltsräumen **1,2 m** (EFH/wohnungsintern
   0,9 m).
+
+> **Querverweis, ausdruecklich nicht bindend** (gesetzt 03.09.2026, Wissens-Chef Lauf 52). Die
+> private bfu-Fachdokumentation 2.007.01, Ausgabe 12.2020
+> (`wissen/normen/destillate/bfu-treppen-2020.md`, Tabelle 1) empfiehlt fuer die **Breite der
+> Treppe** denselben Zahlenwert wie § 305 Abs. 1 PBG: MFH 1,20 m, EFH 0,90 m. **Massgebend
+> bleibt § 305 PBG**; die bfu-Empfehlung ist eine Sicherheitsempfehlung ohne Gesetzeskraft
+> (im Streitfall gilt die Norm, nicht die Broschuere). Drei Praezisierungen, ohne die der
+> Verweis in die Irre fuehrt: (1) **Der Erfassungsbereich ist nicht deckungsgleich** — § 305
+> regelt Treppen **und Gaenge** in einer Zahl, die bfu-Zeile nur die Treppe. (2) **Die
+> Bezugsgroesse ist an keiner der beiden Stellen definiert** (lichte Breite? Laufbreite?
+> zwischen Handlaeufen?) und bleibt offen. (3) Die Quellen sind **unabhaengig** — SIA 500
+> fuehrt in derselben bfu-Tabellenzeile ausdruecklich «keine Angabe», der bfu-Wert ist also
+> keine Norm-Ableitung; die Zahlengleichheit ist damit belegt, aber unerklaert.
 - **Aufzugspflicht:** ab **mehr als fünf** anrechenbaren Geschossen über/unter dem
   Eingangsgeschoss ein **krankentransporttauglicher** Aufzug (lichte Innenmasse ≥ **2,1 m × 1,1 m**,
   Tür ≥ 0,8 m); ab **mehr als neun** Geschossen zwei Aufzüge. ⚠ Der amtliche BBV-I-Volltext

@@ -40,6 +40,17 @@ Zuschlag (optional)          ×  (1 + Zuschlag%)        z.B. Hanglage, Untergesc
 
 - **GV** = Gebaeudevolumen nach SIA 416 (inkl. Untergeschoss), NICHT die baurechtliche
   Baumasse (die ist meist kleiner, weil nur oberirdisch). Bei Bedarf umrechnen/abschaetzen.
+- ⚠ **CHF/m3 GV ist gegenueber Aussenflaechen blind** (Wissens-Chef Lauf 52, 03.09.2026, Quelle
+  `wissen/normen/destillate/sia-416-2003.md`, Kernbefund Run 78): Balkone/Terrassen (ANF) und
+  Laubengaenge (AVF) haben in SIA 416 **kein Volumen-Pendant** — ueber der Balkon- und der
+  Laubengangplatte ist der Raum in allen Volumenfiguren der Norm leer; das Aussenkubaturvolumen
+  AKV traegt die eigenstaendige Ziff. 6. **Folge fuer den Variantenvergleich:** zwei Varianten mit
+  und ohne grosszuegige Balkone sind zwischen CHF/m3 GV und CHF/m2 **nicht neutral**. Bei
+  ungleichem Aussenflaechenanteil den Vergleich zusaetzlich ueber CHF/m2 ausweisen und die
+  Aussenflaechen separat benennen. **Groessenordnung, damit der Vorbehalt richtig gewichtet wird:**
+  bei mittleren Projekten liegt das Delta meist noch innerhalb der ausgewiesenen ±25-%-Bandbreite
+  der Grobschaetzung; materiell wird es bei kleinen Projekten und bei bewusst balkonlastigen
+  Varianten — also genau dann, wenn der Aussenflaechenanteil das Vergleichsmerkmal ist.
 - **Kennwert** = BKP 1-5 (Gebaeude + Umgebung + Baunebenkosten inkl. Planerhonorare),
   exkl. Land (BKP 0), Reserven/Finanzierung (BKP 6-9). Quelle: KB `wissen/grobkosten`.
 - Immer als **Grobschaetzung ±25 %** deklarieren, keine Kostengarantie.

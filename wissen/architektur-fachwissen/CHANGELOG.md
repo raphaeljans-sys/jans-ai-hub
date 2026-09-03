@@ -1,5 +1,23 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-09-03 (Wissens-Chef Lauf 52) — Schema-Frage #64 gemessen statt entschieden
+
+`wiki/QUESTIONS.md` (+41/-0): Nachtrag zu **#64** (KB-Pfad im `links:`-Feld). **Kein Entscheid,
+kein Eingriff in ein `links:`-Feld** — nur vier Messungen, die den Entscheid schaerfen: die Form
+betrifft **elf** Dateien hub-weit statt drei, und **acht davon sind aelter als Run 47**; es gibt
+**vier** Notationen statt der zwei formulierten Varianten, darunter eine selbsterklaerende
+(eigener Frontmatter-Schluessel `querbezug_kb_normen:`), die als Variante 3 fehlt; die
+Folgenprognose «der naechste Wissenscheck meldet Falschbefunde» ist **widerlegt** (Pruefung B
+prueft nur `[[wikilinks]]`, empirisch bestaetigt an `grobkosten/wiki/kennwerte.md` mit vier
+solchen Pfaden und B0 am 01.09.2026); und der echte tote Backlink liegt woanders und wurde vom
+Health-Check uebersehen.
+
+**Zur Sache dieser KB (Achse `normen` ↔ afw):** kein Widerspruch. Von acht Artikeln mit
+SIA-416/116-Bezug behauptet keiner eine eigene Kategorien-Zaehlung, und keiner rechnet ein
+Volumen aus einer Flaeche hoch; die beiden materiell heikelsten tragen bereits die
+Ausgaben-Vermerke aus Run 47 und Lauf 51 und sind als `speculative`/`emerging` korrekt als
+Warnkarte gekennzeichnet.
+
 ## 2026-09-02 (Wissens-Chef Lauf 51) — Erstprüfung der 411 nachträglich sichtbaren Artikel; zwei Vermerke
 
 Die 411 Wiki-Artikel, die wegen der Repo-Divergenz bis zum 02.09.2026 nicht im kanonischen

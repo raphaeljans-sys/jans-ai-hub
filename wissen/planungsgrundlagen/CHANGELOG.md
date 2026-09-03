@@ -2,6 +2,70 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-03 (Wissens-Chef Lauf 52, zweiter Eintrag) — Witikon: der Wald-proj-Fall und der Weg, den es schon gab
+
+Eingang aus dem Fallreport `wissen/baurecht/outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md`.
+
+- `wiki/kartenportale-baulinien-abstandslinien-zh.md` (+12/-0): Die Teilrevision des
+  **Ergaenzungsplans Waldabstandslinien der Stadt Zuerich** (Amt fuer Staedtebau, oeffentliche
+  Auflage seit **03.12.2025**, OEREB-`docid` 17431) als **zweiter benannter Wald-proj-Fall** neben
+  Wila/Boppelsen eingetragen — der erste stammt aus laufender Projektarbeit statt aus einem
+  Existenznachweis. **Der Melder wollte den Vermerk urspruenglich in `baurecht` an die
+  30-m-Zeile setzen; der Verifikator hat den Zielort korrigiert:** die Revision aendert die
+  **Linienlage** (Geodatum, diese KB), nicht das **Abstandsmass** aus § 66 PBG (materielle
+  Wuerdigung, `baurecht`). Genau die Arbeitsteilung, die dieser Artikel seit 27.08.2026 selbst
+  beschreibt.
+- `wiki/kartenportale-oereb-egrid-bezug.md` (+11/-0): Schritt 2 der Bezugskette
+  (Koordinate → EGRID) laesst sich **direkt ab einer Punktkoordinate** absetzen, ohne
+  Adress-Geokodierung — der Weg zur Nachbarparzelle, fuer die man keine Adresse hat; `rings` im
+  Rueckgabewert erlaubt die Flaeche per Shoelace ohne weiteren Dienst.
+- `wiki/QUESTIONS.md` (+15/-0): **PG-52-1**, CLI-Einstieg `--punkt E,N` fuer `geo-zh.mjs`.
+
+**Die Lehre dieses Eingangs ist die interessantere Haelfte.** Der Fallreport fuehrte den
+geo.admin-Identify als «Werkzeug-Erkenntnis». Nachgemessen ist er **keine**: `identifyParcel()`
+steht seit langem im Connector und gibt `rings` schon heute zurueck. Was fehlte, war allein der
+**Einstieg** — es gibt kein `--punkt`-Flag. Ein vorhandener Weg, den niemand findet, ist so gut
+wie keiner (Rule `wege-und-vollmachten`, Rule `auto-verbesserungen` 260809). Deshalb **kein**
+neuer Eintrag in `connectors/WEGE.md`: das Register fuehrt Faehigkeiten, nicht CLI-Flags, und die
+Zeile «Geodaten ZH und SZ → `geo-zh.mjs`» deckt diese Faehigkeit bereits ab.
+
+## 2026-09-03 (Wissens-Chef Lauf 52) — HEIV war die falsche Abkürzung; «degressiv» das falsche Wort
+
+Nachlauf zum Cross-KB-Eingang von `energie` Lauf 176 (Eintrag unten). Der Eingang hat die **Zahlen**
+korrigiert; dieser Lauf hat die **Begriffe** und die Metadaten daneben gemessen und drei Befunde
+gefunden, alle adversarial gegengeprüft.
+
+- `wiki/energie-betriebsenergie-pv-wirtschaftlichkeit.md` (+13/−0, davon 2 Zeilen ersetzt):
+  **(1) HEIV berichtigt.** Die Kategorientabelle führte «**HEIV** (Hochalpine EIV) | — | hochalpine
+  Anlagen, hier nicht vertieft». HEIV heisst **hohe Einmalvergütung** und gilt für Volleinspeiser
+  ohne Eigenverbrauch, 2 bis < 150 kW, Deckel 60 %. Verwechselt worden war sie mit einem **anderen**
+  Förderregime, der Förderung alpiner PV-Grossanlagen nach **Art. 71a EnG** («Solarexpress») — die
+  zufällig ebenfalls einen 60-%-Deckel kennt. Beleg: pronovo.ch/de/foerderung/photovoltaik
+  (abgerufen 03.09.2026), BFE-Faktenblatt pubdb 7238. Die führende KB `energie`
+  (`destillate/pv-einmalverguetung-bund-bfe.md`, `established`) führt beide Regime seit jeher
+  getrennt und in je eigener Tabellenzeile — der Fehler war hier isoliert, nicht geerbt.
+  **Der Leerstrich in der Leistungsbereich-Spalte war das Warnzeichen:** die Zeile war aus dem
+  Kürzel heraus geraten, nie an einer Quelle gemessen.
+  **(2) «degressiv» → «marginal».** Der Mechanismus ist marginal wie ein Steuertarif; «degressiv»
+  beschreibt nur den Effekt auf den Durchschnittssatz und ist genau die Fehlvorstellung, die
+  `energie` Lauf 176 am Tarifrechner widerlegt hat. Die zweite Fundstelle (Refresh-Protokoll,
+  Z. 133) blieb **bewusst unangetastet**: sie ist ein datierter historischer Eintrag und trägt
+  bereits den ⚠-Überholt-Vermerk — ein Protokoll gibt seinen Stand korrekt wieder.
+  **(3) `last_updated`** stand auf `2026-07-19`, obwohl der Artikel am 03.09. substanziell geändert
+  worden war; nachgezogen.
+- `wiki/INDEX.md` (0 Zeilen Delta, eine Zeile ersetzt): Die Beschreibung trug «Grundbeitrag +
+  degressiver Leistungsbeitrag» und «absolute Sätze via Tarifrechner, bewusst kein statischer
+  KB-Wert» — beides seit dem 03.09. überholt. Nachgeführt samt HEIV-Berichtigung.
+
+**Zifferngenau geprüft und in Ordnung:** die Staffeltabelle dieses Artikels stimmt Ziffer für Ziffer
+mit `energie/destillate/pv-einmalverguetung-bund-bfe.md` überein (360/300/250 bzw. 400/330/250,
+Grenzen 30/100 kWp, Grundbeitrag CHF 0). Die Bringschuld aus Lauf 176 ist damit inhaltlich erfüllt;
+offen geblieben waren nur Begriffe und Metadaten.
+
+**Lehre, hub-weit:** eine erfüllte Cross-KB-Bringschuld deckt den **Sachwert**, nicht automatisch
+die **Legende, das Frontmatter und den INDEX-Eintrag** daneben. Wer eine Zahl in eine
+Schwester-KB nachträgt, liest den umgebenden Absatz mit.
+
 ## 2026-09-03 — Cross-KB-Eingang aus `energie` (Lauf 176): EIV-Sätze gemessen, Grundbeitrag korrigiert
 
 - `wiki/energie-betriebsenergie-pv-wirtschaftlichkeit.md`: **Grundbeitrag = CHF 0 seit 01.04.2024**

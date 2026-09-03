@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 03.09.2026 23:09:04
+Stand: 03.09.2026 23:29:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:00)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:15)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 03.09.2026 23:09:04
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 4923d7123 energie Run 176: EIV-Leistungsbeitraege am Pronovo-Tarifrechner gemessen — Staffel ist marginal, dritte Stufe ab 100 kWp (250 CHF/kWp) erstmals erfasst, Indach-Zuschlag entfaellt dort; E-R162-2 geschlossen, FAQ F271/F272, Cross-KB-Korrektur in planungsgrundlagen (Grundbeitrag CHF 0)
+- 76fc3b5a8 nas-selfcommit: 2 Datei(en) 2026-09-03 23:15

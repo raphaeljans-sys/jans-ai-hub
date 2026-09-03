@@ -25,6 +25,47 @@ der Cross-KB-Zeiger bleibt in Prosa plus `koordination/QUERBEZUEGE.md`.
 Bis zum Entscheid: nichts anfassen. Wer beantworten kann: Raphael (hub-weite Schema-Frage), oder
 ein Lauf, der `WISSEN-CLAUDE.md` und `wissenscheck` gemeinsam nachzieht.
 
+⚠ **Nachtrag 03.09.2026 (Wissens-Chef Lauf 52) — die Frage ist breiter als «drei Artikel aus
+Run 47», und ihre Folgenprognose stimmt nicht.** Nichts entschieden, nur gemessen:
+
+1. **Es sind nicht drei Dateien, sondern elf** (hub-weit, 818 Wiki-Artikel, `grep '^links:.*wissen/'`):
+   die drei hier genannten plus `auflagebereinigung/wiki/aemter-stadt-zuerich`,
+   `grobkosten/wiki/kennwerte`, `immobilienbewertung/wiki/flaechendefinitionen-sia`,
+   `planungsgrundlagen/wiki/recht-norm-richtprojekt-ueberbauungsordnung`,
+   `planungsgrundlagen/wiki/recht-norm-tiefgarage-erschliessung` und drei in `projekt-lessons`.
+   **Acht davon sind aelter als Run 47** (im Bestand seit spaetestens 25.07.2026, im SSD-Klon
+   nachgemessen). Die Form ist also **keine** Neuerung eines Aufsichtslaufs, sondern eine seit
+   Monaten gelebte, nie beschriebene Praxis — Run 47 hat sie fortgesetzt, nicht erfunden.
+2. **Es gibt nicht zwei Varianten, sondern mindestens vier Notationen.** (a) KB-Pfad an
+   Wikilinks angehaengt (`aemter-stadt-zuerich`); (b) `links:` **ausschliesslich** aus KB-Pfaden,
+   ohne einen einzigen Wikilink (`grobkosten/wiki/kennwerte`); (c) `[[sia-416-1-2007]]` als
+   **Wikilink auf eine Datei einer anderen KB** plus erklaerende Prosa
+   (`flaechendefinitionen-sia`); (d) Wikilinks sauber getrennt, der Cross-KB-Zeiger ausdruecklich
+   beschriftet («KB-uebergreifend als Pfadverweis, kein Wikilink, da ausserhalb dieser KB») plus
+   ein **eigener Frontmatter-Schluessel** `querbezug_kb_normen:`
+   (`planungsgrundlagen/wiki/recht-norm-tiefgarage-erschliessung`). **(d) ist die einzige Form,
+   die sich selbst erklaert** und weder das Schema verletzt noch den Zeiger verliert — sie ist in
+   keiner der beiden hier formulierten Varianten enthalten und gehoert als Variante 3 in den
+   Entscheid.
+3. **Die Folgenprognose «der naechste Wissenscheck meldet sie als tote Backlinks» ist widerlegt.**
+   Pruefung B in `skills/wissenscheck/SKILL.md` prueft ausschliesslich `[[artikel-name]]`; ein
+   nackter KB-Pfad ist kein solcher Link und wird **konstruktionsbedingt nie** geprueft.
+   Empirisch bestaetigt: `grobkosten/wiki/kennwerte.md` traegt vier solche Pfade, der
+   Health-Check vom 01.09.2026 meldete **B0**. Der Entscheid ist also **nicht** durch drohende
+   Falschbefunde erzwungen — er kann in Ruhe fallen.
+4. **Der echte, unbemerkte Fehler liegt woanders:** Form (c),
+   `immobilienbewertung/wiki/flaechendefinitionen-sia.md`, traegt `[[sia-416-1-2007]]` — die
+   Zieldatei liegt in `normen/destillate/`, **nicht** im Wiki dieser KB. Das ist nach Pruefung B
+   ein **echter toter Backlink**, und der Health-Check derselben KB vom 01.09.2026 meldete
+   ebenfalls B0. Pruefung B hat ihn also uebersehen. Das ist ein Befund am **Pruefinstrument**,
+   nicht an der Schema-Frage, und dort separat zu verfolgen.
+
+**Unveraendert gilt: bis zum Entscheid nichts anfassen** — Lauf 52 hat in keinem `links:`-Feld
+etwas gesetzt. Ein Melder dieses Laufs schlug erneut vor, die Form auf zwei weitere Dateien
+auszuweiten (eine davon ist `kostenkennwerte-schulanlage-leutschenbach.md`, also genau eine der
+drei oben). Damit ist derselbe Vorschlag zum **dritten Mal** entstanden (Run 48, Lauf 52) — was
+weniger ueber die Melder sagt als darueber, dass die gelebte Praxis nirgends beschrieben ist.
+
 **#65 — Zwei namentlich belegte Doppelbewirtschaftungen mit `entwurfs-referenzen`.** Präzisiert
 den bereits offenen Punkt #2 (260823), der bisher nur allgemein «wo landen Entwurfsbestände»
 fragt. Konkret kollidieren: (a) `wiki/laon-fassadenbeschreibung-analysemethode-vertikale-prinzipien.md`
