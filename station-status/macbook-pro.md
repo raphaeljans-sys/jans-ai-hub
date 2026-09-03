@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.09.2026 09:13:59
+Stand: 03.09.2026 09:54:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:05)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:54)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 09:13:59
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3251bee9d twin/QUESTIONS: zweiter Beleg — Gate meldet Belegtes als unbelegt, wenn die Faktenbasis paraphrasiert ist
+- beaa87fe3 nas-selfcommit: 1 Datei(en) 2026-09-03 09:45
