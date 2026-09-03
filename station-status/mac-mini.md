@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 03.09.2026 08:04:03
+Stand: 03.09.2026 08:14:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:05)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 03.09.2026 08:04:03
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7a2f0afdb nas-selfcommit: 4 Datei(en) 2026-09-03 08:00
+- 15668fe20 fristen: Nachtrag Verzugscheck 03.09.2026 — bexio-Token weiterhin 401 (Tag 26), kein Verzugsstand erhebbar
