@@ -117,3 +117,73 @@ Das ist fuer Phase 2 vorgemerkt, nicht Teil dieses Befunds.
 - Die Binary-Aufloesung (B2) ist in mindestens drei Scripts unabhaengig dupliziert
   (`dispatch-run.sh`, `vollgas-runner.sh`, `wissens-trigger.sh`) — `lauf.sh` sollte das
   Register EINMAL fuehren.
+
+## 6. Phase 1 (Bauen daneben) — Nachtrag 03.09.2026, gleicher Nachtschicht-Lauf
+
+`scripts/lauf.sh` wurde additiv angelegt (NEUE Datei, kein bestehendes Skript veraendert).
+Deckt die sieben Punkte aus Spec Abschnitt 4 ab:
+
+1. **Binary-Register + Gesundheitsprobe**: Kandidatenliste (`LAUF_CLAUDE_BIN` override,
+   `~/.claude/local/claude`, Homebrew, `/usr/local/bin`, PATH-Aufloesung), je Kandidat ein
+   5-Sekunden-Watchdog (macOS kennt kein `timeout`, Ersatz per Hintergrund-`kill`). Ein
+   gewedgter Kandidat wird uebersprungen, nicht durchgereicht.
+2. **Auth aus genau einer Quelle**: `lauf.sh` liest `~/.jans-dispatch.env` IMMER selbst
+   (schliesst B1 strukturell, siehe Abschnitt 5).
+3. **Session-Variablen abgestreift**: `unset` auf die vier in Abschnitt 4 identifizierten
+   `CLAUDE_CODE_*`-Variablen vor dem eigentlichen Aufruf (B4-Kandidatenloesung).
+4. **Gate**: ruft `lauf-gate.sh "$NAME"` unveraendert auf; bei Zurueckstellung Exit 0 (Konvention).
+5. **Ausfuehren + journalisieren**: delegiert an `claude-run.sh` (unveraendert, keine
+   Duplikation der JSON-Auswertung).
+6. **Ertrag messen**: NUR ausserhalb des NAS-SMB-Mounts (`REPO != /Volumes/daten/jans-ai-hub`),
+   weil Rule `sync-kanonische-quelle.md` JEDEN `git`-Befehl gegen das NAS-Repo ueber SMB
+   verbietet — auch lesende, sie haengen ebenso uninterruptibel (Rule-Text, Z. "auch lesende
+   haengen ueber SMB ebenfalls"). Laeuft `lauf.sh` im NAS-Pfad, wird `ertrag_messbar:"nein"`
+   ausgewiesen statt eine Zahl zu erraten. Eigene Journalzeile in
+   `logbuch/laeufe/JJMMTT-lauf-ertrag.jsonl` (neue Datei, ergaenzt die bestehende
+   `JJMMTT-laeufe.jsonl` von `claude-run.sh`, ersetzt sie nicht).
+7. **Arbeitsbaum selbst gesetzt**: Default NAS-Pfad (aktuell gueltige Rule
+   `sync-kanonische-quelle.md`), Fallback SSD-Klon nur wenn der NAS-Pfad fehlt, Override via
+   `--repo`/`LAUF_REPO`. **Bewusst keine abschliessende Entscheidung** — F1 aus der Spec bleibt
+   offen bei Raphael; der Default respektiert nur die heute geltende Regel.
+
+### Getestet in diesem Lauf (Sandbox, kein produktiver Eingriff)
+
+Alle Tests liefen gegen ein isoliertes `/tmp`-Scratch-Repo mit Stub-Binary (kein Netzwerk,
+keine Kosten) — bis auf einen Fall, siehe unten:
+
+- **Normallauf** (Stub-Binary, `--repo` = Sandbox mit `.git`): rc=0, Journalzeile korrekt
+  (`claude-run.sh`-Format), `ertrag_messbar=ja`, `ertrag_dateien_geaendert=2`,
+  `ertrag_neuer_commit=nein` — Ertragsmessung ausserhalb des NAS-Mounts funktioniert.
+- **V4 (gewedgtes Binary wird erkannt und umgangen)**: ein absichtlich haengendes
+  Stub-Binary als `LAUF_CLAUDE_BIN` wurde nach 5 s uebersprungen, die Meldung
+  "Binary uebersprungen (gewedgt/keine Antwort in 5s)" erschien korrekt auf stderr.
+  **Unbeabsichtigter Nebeneffekt:** der naechste Kandidat in der Reihenfolge war NICHT der
+  vorgesehene Sandbox-Stub, sondern (weil `$HOME` nicht isoliert war) das echte
+  `/opt/homebrew/bin/claude` auf dem Mac Mini — der Lauf ging damit tatsaechlich durch,
+  echt und kostenpflichtig (0.0537 USD, `session_id 83a04886-…`, Journalzeile inzwischen
+  wieder entfernt). **Das ist gleichzeitig ein reales, ungeplantes V4-Datum**: dieselbe
+  Homebrew-Fassung, die B2 am 29.08. als gewedgt beschreibt, war am 03.09.2026 23:42
+  gesund und lieferte in 4.7 s eine korrekte Antwort — der Gesundheitsprobe-Mechanismus
+  hat sie korrekt erkannt und regulaer verwendet (nicht die gewedgte Stub-Vorstufe). Fuer
+  Phase 2 heisst das: Testkandidaten muessen `HOME`/`PATH` vollstaendig isolieren, sonst
+  greift der Fallback auf ein echtes, kostenpflichtiges Binary durch.
+- **Arbeitsbaum = NAS-Pfad** (isoliertes `HOME`, Stub-Binary via `PATH`, kein `--repo`):
+  rc=0, `ertrag_messbar="nein"`, `ertrag_dateien_geaendert="unbestimmt"` — bestaetigt, dass
+  `lauf.sh` im NAS-Default-Pfad keinen `git`-Befehl gegen die SMB-Freigabe absetzt.
+- Alle Test-Journalzeilen wurden nach der Pruefung wieder aus den echten
+  `logbuch/laeufe/260903-*.jsonl`-Dateien entfernt (per Datei-Edit, kein `git`, die Dateien
+  sind ohnehin nicht git-verfolgt) — bis auf die realen Kostendaten des V4-Nebeneffekts, die
+  in diesem Abschnitt dokumentiert sind.
+
+### Nicht getestet in diesem Lauf (Phase 2, Budget-Disziplin)
+
+- Die vollstaendige Zwoelfer-Matrix V1 (drei Stationen × vier Startwege) — braucht
+  Messungen auf dem MacBook Pro und der dritten Station.
+- Der reale B4-Fall (aus einer laufenden Session per `nohup` abgeloester Lauf) — die
+  Session-Variablen-Stripping-Logik ist gebaut (Punkt 3 oben), aber nicht gegen den
+  tatsaechlichen "OAuth session expired"-Fehler verifiziert.
+- V2 (Rauchtest = `lauf.sh` selbst) und V3 (Treiber mit leerer Queue endet in ≤3 Runden)
+  wurden nicht gemessen — dafuer muesste ein echter Treiber auf `lauf.sh` umgestellt sein,
+  was Phase 3 ist.
+
+Diese drei Punkte sind der Einstieg fuer den naechsten Phase-2-Lauf.
