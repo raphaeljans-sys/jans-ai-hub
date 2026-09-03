@@ -53,6 +53,34 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-03 12:57 — [FREI] **Die PATH-Probe funktioniert wieder — mit genau dem Binary, das elf Laeufe lang als defekt galt. Homebrew hat nichts nachgeliefert, der Symlink ist unveraendert. Der Auftrag verlangte die Gegenmessung seit dem 22.08.; gemacht wurde sie erst heute, weil der Rueckfallweg funktionierte und niemand einen Anlass sah.**
+
+**Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **03.09. 12:57** (2026-09-03T10:57:43Z), letzter Eintrag **03.09. 00:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h (Takt + 3 h). Kein Lauf fehlt, zweiter Ausfalltyp nicht zu pruefen.
+
+**P1 — Die Wedge-Diagnose war ueberholt, und niemand hat es gemerkt.** Die PATH-Probe `/opt/homebrew/bin/claude -p ... < /dev/null` antwortete heute mit «OK», **rc=0 in 13 s**. Gegengemessen: der Symlink zeigt **unveraendert seit dem 29.08. 05:15** auf **2.1.236**, das Caskroom fuehrt keine andere Fassung. Homebrew hat also **nichts** nachgeliefert — die Fassung, die seit dem 29.08. als gewedgt gefuehrt wurde, laeuft. Die Latenz von 13 s liegt im Band der besten frueheren Messungen (7 bis 8 s), nicht am Watchdog.
+
+Der Befund selbst ist harmlos. Sein Zustandekommen ist es nicht. Der Auftragsabsatz vom 22.08. schrieb ausdruecklich vor: «Wieder auf PATH umstellen erst, wenn eine Messung dort rc=0 zeigt» — und **elf Laeufe lang wurde diese Messung nicht gemacht**, festgehalten in den Eintraegen als «zum zehnten Mal nicht versucht». Die Begruendung war jedes Mal dieselbe und jedes Mal zirkulaer: die Probe gilt als gewedgt, also versucht man sie nicht, also erfaehrt man nicht, dass sie laeuft. Der Rueckfallweg funktionierte tadellos und nahm damit jeden Anlass zur Gegenprobe. **Eine einmal gemessene Stoerung ist so zur stehenden Annahme geworden, die sich selbst bestaetigt.**
+
+Gleiche Familie wie Rule `auto-verbesserungen` 260807, nur spiegelverkehrt: dort galt ein Konfigurationsfeld ungeprueft als **wirksam**, hier ein Werkzeug ungeprueft als **kaputt**. Beide Male ersetzt eine plausible Annahme eine billige Messung.
+
+**Massnahme (ausgefuehrt).** Zeile 20 der eigenen Auftragsdatei `~/.claude/scheduled-tasks/vollgas-chef-radar/SKILL.md` zeilenexakt neu gefasst (94 Zeilen vorher und nachher, keine Loeschung; Sicherung im Scratchpad): die PATH-Probe ist **wieder Regelweg**, der app-gebuendelte Weg bleibt als Rueckfall. Neu ausformuliert ist die verallgemeinerte Regel — **eine im Auftrag festgeschriebene Stoerung wird bei JEDEM Lauf einmal guenstig gegengemessen, nicht erst, wenn jemand einen Anlass sieht.** Kosten der Gegenmessung: 13 Sekunden.
+
+**P2 — Das Kontingent laeuft dem Zeitverlauf deutlich hinterher, und das ist kein Drosselerfolg.** Ampel **FREI**: 34.34 von 167 Mio teure Token = **20.6 %** verbraucht, waehrend **43.4 %** der Woche verstrichen sind. Rueckstand **22.9 Punkte** — das Kontingent wird bei diesem Tempo nicht ausgeschoepft. Stationen: MacBook Pro 28.92 Mio, Mac Mini 5.43 Mio, beide frisch gemeldet. Keine Drossel faellig (Schritt 2c greift nicht), keine Wiederscharfschaltung noetig, weil nichts gedrosselt ist.
+
+Das bestaetigt die Lesart des 00:57-Eintrags: die Unterauslastung ist **kein Drosselproblem, sondern ein Materialproblem**. Der Hub hat mehr Kontingent als Aufgaben, die es sinnvoll verbrauchen. Der Vollgas-Runner bleibt ausgebaut (stehender Entscheid 30.07.) — das ist ausdruecklich **nicht** der Hebel, und dieser Radar schlaegt ihn nicht vor. Der Hebel waere neues Rohmaterial fuer die Lern-Loops; das ist eine Bring-Schuld, keine Takt-Frage.
+
+**Liefer-Delta der letzten 12 h: gesund, keine Delta-Null-Serie.** Gemessen ueber `git diff --name-only <basis> HEAD` (nicht ueber `find -newermt`, Werkzeugfalle 20.08.): **twin 11** geaenderte Dateien · **normen 7** · **energie 5** · **spec 1**; daneben `logbuch` 8, `rules` 2, `connectors` 1. Die naechtlichen Loops haben alle geliefert: `twin-mail-training` (01:40), `twin-fidelity-review` (03:45, Gehirn neu kompiliert), `normen-training-nacht` (23:28), `energie` ueber die Mac-Mini-Nachtschicht (05:30, Minergie-ECO V2023.3 destilliert). **Kein Loop steht bei drei oder mehr Laeufen ohne Delta** — keine Ruecktaktung, keine Stilllegung faellig.
+
+**Feuermechanismen: Sollstand auf beiden Stationen.** MacBook Pro — beide Vollgas-plists liegen unveraendert als `*.disabled-260729`, nichts davon geladen. Mac Mini — `ch.jans.nachtschicht` geladen und aktiv (Exit 0), `ch.jans.vollgas-supervisor.plist.disabled-260729` unangetastet. Kein Mechanismus feuert doppelt, kein stillgelegter ist zurueckgekehrt.
+
+**Speicher und Waisen: sauber.** Keine `claude -p`-Waisen (der Watchdog dieses Laufs musste nicht eingreifen, die Probe kam vor Ablauf zurueck). Frei rund **3.4 GB** (Pages free 5152 + inactive 203034 + purgeable 12, à 16 kB), Druckstufe **2**. Das ist erhoeht, aber unauffaellig fuer eine Arbeitsstation im Tagbetrieb; der `claude-session-waechter` (Eintrag 260902) laeuft im 30-Min-Takt und ist der zustaendige Mechanismus.
+
+**P3 — Kleiner Messmangel im Lauf-Journal.** `logbuch/laeufe/260903-laeufe.jsonl` fuehrt heute nur zwei Zeilen, und deren Feldnamen weichen von den erwarteten ab (`zeit`/`name`/`usd` leer, nur `rc` lesbar). Fuer diesen Lauf ohne Folge — das Liefer-Delta wurde ohnehin ueber git gemessen, wie es der Auftrag seit dem 20.08. verlangt. Aber das Journal ist die Quelle, an der die Frage «durfte der Loop ueberhaupt laufen» beantwortet wird (Befund `vollgas-fruehwarnung` 03.08.). Kein eigener Befund-Lauf faellig; beim naechsten Mal mitpruefen, ob das Schema gewechselt hat oder nur diese zwei Zeilen unvollstaendig sind.
+
+**Keine Mail.** Kein P1-Blocker, den nur Raphael loesen kann (der Befund war eine Selbstkorrektur dieses Radars und ist behoben), kein geloester Fremd-Blocker, kein erschoepftes Wochenkontingent. Still beendet nach Mail-Disziplin.
+
+---
+
 ## 2026-09-03 00:57 — [FREI] **Der fuenf Tage alte P1-Sync-Stau ist aufgeloest — GitHub steht wieder auf dem aktuellen Stand. Zugleich eine Messfalle in eigener Sache: die 469 geaenderten Dateien der letzten 13 h sind zu 90 % nicht Produktion, sondern der Merge, der die bisher unsichtbaren Artikel endlich sichtbar macht. Und der Nullbefund der Nachtschicht deutet an, dass die Unterauslastung kein Drosselproblem ist, sondern ein Materialproblem.**
 
 **Selbstkontrolle: bestanden.** `lastRunAt` dieser Task **03.09. 00:57** (2026-09-02T22:57:19Z), letzter Eintrag **02.09. 12:57** — exakt **12 h 0 min** bei 12-h-Takt, Toleranz 15 h (Takt + 3 h). Kein Lauf fehlt, zweiter Ausfalltyp nicht zu pruefen.

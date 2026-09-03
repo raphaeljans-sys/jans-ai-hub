@@ -238,6 +238,21 @@ zuerst.
   Familie wie `enabled:`/`cron_target:` (Radar-Befund 06.08.). **Eine Sparmassnahme, die nur
   ein Doku-Feld setzt, ist keine Sparmassnahme**, sondern erzeugt den Glauben, das Problem sei
   geloest. Was wirkt: Arbeit an Subagenten delegieren und den Grundkontext schlank halten.
+- **Spiegelfall, ergaenzt 03.09.2026 (Vollgas-Radar, eigener Befund): eine festgeschriebene
+  Stoerung wird periodisch gegengemessen, nicht als Dauerzustand fortgeschrieben.** Derselbe
+  Fehler laeuft in beide Richtungen: oben gilt etwas ungeprueft als **wirksam**, hier gilt etwas
+  ungeprueft als **kaputt**. Belegt: die PATH-Probe des Radars wurde am 29.08. als «gewedgtes
+  Binary» diagnostiziert und danach **elf Laeufe lang nicht mehr versucht** — obwohl der
+  Auftragstext ausdruecklich verlangte, wieder umzustellen, sobald dort eine Messung rc=0 zeigt.
+  Am 03.09. antwortete sie in **13 Sekunden** mit rc=0, bei **unveraendertem** Symlink und
+  unveraenderter Fassung: die Stoerung war laengst weg, nur niemand hatte nachgesehen. Weil der
+  Rueckfallweg tadellos funktionierte, gab es nie einen Anlass zur Gegenprobe, und die Annahme
+  bestaetigte sich selbst. **Wer einen Weg nicht mehr versucht, erfaehrt nie, dass er wieder offen
+  ist.** Darum: eine in einem Auftrag, einer Doku oder einem Register festgehaltene Stoerung
+  bekommt eine **billige Gegenmessung bei jedem Lauf**, nicht erst, wenn jemand einen Anlass
+  sieht — und der Vermerk nennt, woran man ihr Ende erkennt. Gleiche Familie wie 260730b (eine
+  bestehende Datierung nie ohne Beleg umdatieren) und `wege-und-vollmachten` (ein Weg, den
+  niemand findet, ist so gut wie keiner).
 - **Gilt fuer:** alle Scheduled Tasks, alle Stationen, jede Aussage ueber Verbrauch oder
   Betriebszustand. Volle Messung und Muster: Rule `modellwahl-routine.md`.
 
