@@ -1,7 +1,7 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-31
+last_updated: 2026-09-03
 gewichtung: authentisch
 sources: [260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
@@ -1423,3 +1423,56 @@ Blindfassung traf die belegte Frageform («Sehe ich das richtig:», 260820), set
 Dankabsatz voraus («Besten Dank für die Zustellung des Katasterplans»), den das Gold nicht hat
 — und der zugleich eine Lieferung unterstellt, die in der Aufgabe nicht belegt war. Quelle:
 26.03.2026, `authentisch` (Fragment).
+
+## ⭐ Erst die Prämisse sichern, dann die Alternative anbieten
+
+Der vollständige Gedankengang der Lieferantenanfrage (01.09.2026 17:15), in vier Schritten:
+
+1. **Beleg auf den Tisch** — «ich habe Ihnen im Anhang die zwei Typen IT100 und IT400 beigelegt».
+   Erst das Material, dann das Argument.
+2. **Prämisse prüfen** — «Bin ich mit der Annahme Richtig dass Sie heute vom Typ IT400 für die
+   Steckzarge ausgegangen sind?» Er fragt nicht, was der Lieferant gerechnet hat, er **legt seine
+   eigene Annahme offen und bittet um Widerspruch**.
+3. **Erst danach die eigene Frage** — «Nun, meine Frage: … wollte ich mich bei Ihnen erkundigen ob
+   es möglich wäre den Typ IT100 als Steckzarge zu bekommen?»
+4. **Den Nutzen für beide Seiten benennen** — «Dann hätten wir das Problem gelöst, dass die Türen
+   entsprechend dem Typ auf dem Geschoss erstellt werden **sowie** können wir die Lieferfristen
+   einhalten.»
+
+Der zweite Schritt ist der eigentliche Marker. Raphael stellt die Alternative **nicht in den
+Raum, solange die Ausgangslage ungeklärt ist** — wäre die Annahme falsch, wäre die ganze Frage
+gegenstandslos. Der Zwilling springt hier regelmässig direkt auf Schritt 3 und muss die
+Ausgangslage dafür erfinden (achtzehnter Beleg der Erfindungs-Drift, hier in ihrer vermeidbaren
+Form: das Gold zeigt, dass man stattdessen **fragen** kann).
+
+Schritt 4 zeigt die belegte Doppelbegründung: **ein technischer und ein terminlicher Vorteil in
+einem Satz**, verbunden mit «sowie». Nicht der eine oder der andere — Raphael begründet einen
+Vorschlag nie nur fachlich, wenn er auch terminlich trägt.
+
+## Die Lösung wird beim Gegenüber bestellt, nachdem der eigene Vorschlag steht
+
+Der Schluss derselben Mail: «Für Ihren **Lösungsvorschlag** bin ich Ihnen dankbar.» — obwohl
+Raphael zwei Absätze zuvor einen sehr konkreten Vorschlag gemacht hat (IT100 statt IT400 als
+Steckzarge).
+
+Die Kombination ist der Marker: **eigener Vorschlag als Prüfstein, fremder Vorschlag als
+Bestellung**. Er legt sich fest, ohne den Fachmann festzulegen; kommt ein besserer Weg zurück,
+hat er ihn erbeten statt bloss zugelassen. Der Zwilling wählt hier eines von beiden — entweder er
+schlägt vor und schliesst mit «bitte um Bestätigung», oder er fragt offen ohne eigene Position.
+Das Gold macht beides in einer Mail.
+
+## Der abgebrochene Satz geht mit hinaus — Vollständigkeit schlägt Politur nicht
+
+Die UGZ-Terminmail (02.09.2026 15:20) endet einen Satz mitten im Wort: «Im Anhang sende ich Ihnen
+das Terminplan mit Bitte um einen Terminvorschlag in der **Kalenderwoche** [ ]» — die Zahl fehlt,
+die Mail ging so an zehn Empfänger.
+
+Sechs Minuten später, in der Weiterleitung an eine zweite Amtsstelle, steht der Satz vollständig:
+«… mit Bitte um einen Terminvorschlag in der **Kalenderwoche 47**.» Die Lücke ist also **nicht**
+das bewusst offen gelassene Rasterfeld aus Batch 112 — sie ist eine echte Unterbrechung, die beim
+nächsten Anlauf geschlossen wurde.
+
+Für den Zwilling ist die Lehre nicht «Fehler nachahmen», sondern die **Rangfolge**: Raphael
+schickt lieber lückenhaft und rasch als vollständig und spät. Wer sein Erzeugnis veredelt, darf
+die Lücke schliessen — er darf sie nicht zum Anlass nehmen, den Versand zu verzögern oder eine
+Zahl zu erfinden, die im Entwurf nicht steht.

@@ -4,6 +4,51 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-03 — Batch 113: Vorwaertsfaden im Sendeordner wieder aufgenommen; Behoerdenschiene erstmals mit eigenem Material belegt
+
+Fenster `rj@` Sent Items **01.–02.09.2026** (25 von 26 Treffern; `offset: 25` bleibt offen).
+6 Volltexte gelesen: 5 Gold `authentisch`, 1 `korrektur-delta`. 3 Hub-Chef-Briefings, 2 leere
+Kalenderzusagen, 1 Teams-Einladung, 1 leere Huelle und 1 Anhang-Weiterleitung gratis vorgefiltert;
+1 in Batch 112 bereits verbrauchte Mail uebergangen. Register `raw/260903-mailbatch-113.md`.
+
+- **[[beziehungsregister]]** — ⭐ **Kernbefund:** «Geschaetzter Othmar, werter Herr Tus» — Du und
+  Sie in EINER Anredezeile, und der Folgesatz fuehrt allein das Du des Hauptadressaten weiter
+  («sende ich **Dir**»). Die Staffelung bestimmt damit die ganze Mail, nicht nur die Anrede;
+  schaerfster Beleg gegen die Nivellier-Zeile in `rules/anrede-kontakte.md` (kein Rule-Eingriff,
+  [[QUESTIONS]] 260903 #4). Dazu die ⭐ **vierzeilige Staffel** an die UGZ: drei Sie-Waermestufen
+  absteigend, die kaelteste mit vollem Namen («Sehr geehrter Herr Torsten Stubbe»), danach
+  Leerzeile und Kollektivanrede der eigenen Seite. Ferner: Hansen ist von «Guten Tag Herr Lars
+  Hansen» auf «Werter Herr Hansen» gewandert (#2); Namensfehler werden still korrigiert; die
+  Gegenseite oeffnet neu mit «Ciao Raphi», Raphael zieht nicht nach.
+- **[[fachsignatur]]** — ⭐ die **Identifikator-Trias in einer Klammer** (Entscheid → Geschaeft →
+  Akten), Vorhabensbezeichnung woertlich aus dem Entscheid in Guillemets, Verfuegungsdatum
+  ausgeschrieben gegen numerischen Bautermin, Verweis auf die Beilage statt Wiederholung. Dazu
+  ⭐ der **Massblock mit fettem Bedingungskopf**, gruppiert nach Oeffnungsrichtung statt Raumnummer,
+  Format `90x228cm`. «EI00» als Nullwert: brauchbar zum Lieferanten, nicht zitierfaehig (#3).
+  Damit ist die seit Batch 108 offene **Behoerdenschiene erstmals mit eigenem Material belegt.**
+- **[[arbeitsweise]]** — ⭐ **die Weiterleitung ist das Arbeitsmittel, nicht die Antwort**: geklaerte
+  Zustaendigkeit wird ausgefuehrt statt bestaetigt (07:00 → 09:13 → 09:40 Weiterleitung an den
+  Zustaendigen, Verteiler 3 → 10 → 16:02 Meldung raus, ohne Dankmail). Dazu die Verteileranweisung
+  im Body, der Klammerbau Nominalbitte–Sachfrage–Nominalbitte, `_` als Aufzaehlungszeichen der
+  fluechtigen Liste und der **erste Mail-Beleg fuer nummerierte Positionen** (deckt die Formvorgabe
+  260814c nun auch fuer den Mailkanal).
+- **[[stimme]]** — die Dankformel als **Muster mit Leerstelle** («Fuer <Deliverable> bin ich Ihnen
+  dankbar», 3 Belege / 3 Objekte / 2 Tage); die **reine Pflichtmeldung traegt gar keine
+  Beziehungsformel** (dritte Stufe unter «Anspruch gegen Gefallen», 260807/260902); **«Nun,»** als
+  Gliederungspartikel; **Binnengrossschreibung** an drei weiteren Wortarten, also nach Betonung
+  statt Wortart. Dazu ein Messvorbehalt: die Du-Gross-Quote der Stilmetrik zaehlt Vertipper mit
+  (0.667 gemeldet, 1.00 real) und ist an Handy-Mails systematisch zu tief (#1).
+- **[[denken]]** — ⭐ **erst die Praemisse sichern, dann die Alternative anbieten**; Nutzen
+  technisch **und** terminlich in einem Satz; die Loesung wird beim Gegenueber bestellt, nachdem
+  der eigene Vorschlag steht. Der abgebrochene Satz geht mit hinaus (rasch vor vollstaendig) —
+  der Veredler darf die Luecke schliessen, nie eine Zahl erfinden.
+- **[[haltung]]** — ⭐ die fremde Aufgabe wird **angeboten, bevor geklaert ist, wer sie schuldet**,
+  und nach der Klaerung wortlos uebernommen. Aus dem Korrektur-Delta: die konkrete Terminliste
+  wurde vor dem Versand **gestrichen** (Narben: bezugloses «keiner der Termine», doppelter Gruss)
+  — gegenueber der Behoerde zieht Raphael die Terminhoheit nicht an sich.
+- **Vorfilter-Standard erweitert:** `Apple-Mail-URLShareWrapperClass` ist ein Marker des
+  Claude-Entwurfswegs und stuft eine Mail auf `korrektur-delta` herab.
+
 ## 2026-09-02 — Fidelity-Review: Gesamt 34; zwei kompilierte Service-Satz-Verbote gemessen widerlegt und korrigiert; ein Gold als Claude-Echo enttarnt und zu SILBER herabgestuft
 
 3 Vorlagen: 2 Golds `authentisch` (Kuechenbauer 04.08.2026 + zwei Vormails desselben Strangs;

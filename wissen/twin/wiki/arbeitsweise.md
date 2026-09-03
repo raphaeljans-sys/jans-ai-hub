@@ -1,7 +1,7 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-09-02
+last_updated: 2026-09-03
 gewichtung: authentisch
 sources: [260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
@@ -4058,3 +4058,67 @@ Als Folge ist der schmalere Don't-Marker «eine Folge einzeln zu beantwortender 
 Bullet-Liste tarnen» am 02.09.2026 aus dem kompilierten Don't-Block entfernt worden: er nennt nur
 die eine Richtung und wird von der 260824-Regel im Do-Block vollstaendig abgedeckt. Die Streichung
 diente zugleich dem Riegel (Reserve von 14 B auf 29 B).
+
+## ⭐ Die Weiterleitung ist das Arbeitsmittel, nicht die Antwort
+
+Ein vollständiger Vorgang vom 02.09.2026, in drei Schritten und sieben Stunden:
+
+- **07:00** Frage vom Handy an den Brandschutz-Fachplaner: «Guten Morgen Jens. / Frage: Konntet
+  Ihr dir Auflagen der Feuerpolizei vor baubeginn erledigen; hast Du den Baustart bei der
+  Feuerpolizei gemeldet oder soll ich das erledigen? / Lgr»
+- **09:13** Antwort: der Baustart sei von ihm anzumelden, die Auflagen seien nach seinem Wissen
+  erfüllt.
+- **09:40** Raphael **antwortet nicht**. Er leitet den Strang an den zuständigen Kollegen weiter,
+  verdichtet ihn auf vier Zeilen und **erweitert den Verteiler von 3 auf 10 Personen**.
+- **16:02** Meldung an die Baupolizei ist raus.
+
+Das Muster: **eine geklärte Zuständigkeit wird nicht bestätigt, sondern ausgeführt.** Es gibt
+keine Dankmail an den Fachplaner, keine Zwischenmeldung, keine Ankündigung. Der Zwilling schiebt
+an dieser Stelle regelmässig eine Bestätigungsstufe ein («Besten Dank für die Klärung, ich melde
+den Baustart entsprechend an») — im Gold fehlt sie durchgängig.
+
+Zweite Beobachtung: die Weiterleitung geht an den **Zuständigen**, nicht zurück an den
+Antwortenden. Wer geantwortet hat, rutscht ins Cc.
+
+## Die Verteileranweisung steht im Body, nicht im Header
+
+«Bitte um Antwort **(CC Allerkamp & Schäfer)**.» — Raphael setzt die beiden Personen nicht nur ins
+Cc, er schreibt dem Empfänger **in den Fliesstext**, wen dessen Antwort mitzuerreichen hat. Der
+Header sagt, wer mitliest; der Satz sagt, wer mitlesen **muss**, wenn zurückgeschrieben wird.
+
+## Der Klammerbau: Nominalbitte — Sachfrage — Nominalbitte
+
+Derselbe Text, in seiner Gesamtform:
+
+```
+Kann ich den Baustart für 07.09.26 anmelden?      ← Hauptfrage, allein stehend, Absatz für sich
+                                                   ← Leerzeile
+Bitte um Antwort (CC Allerkamp & Schäfer).        ← Nominalbitte
+Sind alle Auflagen erfüllt?                       ← eingeklammerte Sachfrage
+Bitte um Bestätigung Terminprogramm: <Datei>.pdf  ← Nominalbitte
+```
+
+Die **Hauptfrage steht isoliert** und trägt die Entscheidung. Der Block darunter ist die
+Abarbeitungsliste, und die zwei knappen Nominalbitten («Bitte um Antwort», «Bitte um Bestätigung»,
+ohne Verb, ohne «ich») **klammern die Sachfrage ein**. Vier Zeilen, drei Anliegen, kein einziger
+Nebensatz. Präzisierung der Bitte-Skala (260902): die **Nominalbitte** ist die knappste Stufe und
+endet auf Punkt; die Sachfrage dazwischen behält ihr Fragezeichen.
+
+## Der Unterstrich als Aufzählungszeichen
+
+«**_** Abnahme IV-WC (Masse/Zuziehgriff usw.) / **_** nach Angaben/Vorgabe UGZ» — nicht «-», nicht
+«•», nicht nummeriert. Die Stilmetrik zählt das Merkmal bereits (`unterstrich_bullets`, hier 2).
+Es tritt in der kurzen, zweizeiligen Themenliste auf, nicht in der nummerierten Positionenliste
+des Protokoll-Typs. Lesart: **der Unterstrich markiert die flüchtige Aufzählung, die Nummer die
+referenzierbare.**
+
+## Das Protokoll IN der Mail: Besprechungskopf, dann nummerierte Traktanden
+
+Die Mail an den Werkplaner (01.09.2026 09:42) setzt zwischen Anrede und Inhalt einen
+Besprechungskopf: «Besprechung mit <Fachplaner>, <Firma> / Raphael Jans, 01.09.26», darunter
+«Traktanden» und nummerierte Positionen («01 Mecano Kor…»). Der Empfänger bekommt keine Mail über
+eine Besprechung, sondern **die Besprechung selbst als zitierfähiges Dokument im Mailtext**.
+
+Das ist der erste authentische Beleg, der die Formvorgabe aus `dokument-layout-standard`
+(nummerierte Positionen statt Bullets, Neuregelung 260814c) **auch für den Mailkanal** deckt —
+bisher war sie nur für DOCX/PDF belegt. Quelle: Vorschautext, `authentisch`.

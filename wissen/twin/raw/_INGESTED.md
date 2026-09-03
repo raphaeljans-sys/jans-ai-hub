@@ -2502,3 +2502,60 @@ nicht mehr per Seitennummer. (3) Die zwei reservierten Apple-Mail-Entwürfe vom 
 in diesem Lauf hat die Prüfung eine Doppel-Destillation verhindert. (5) Vorfilter-Standard:
 `internetMessageId` als **Geräte**-Trennung, Token-Prüfung an jeder gelesenen Mail, gekürzter
 Service-Satz als Zweitsignal. (6) Weiterhin offen: die Behördenschiene **AfB / Feuerpolizei**.
+
+## Batch 113 (03.09.2026) — `rj@` Sent Items 01.–02.09.2026 · **Vorwaertsfaden wieder aufgenommen**
+
+**Datei:** `260903-mailbatch-113.md` · **Gewichtung:** 5 Gold-Einheiten `authentisch`,
+1 `korrektur-delta`, 3 `claude-aera` gesperrt · **eingearbeitet:** ja ([[stimme]],
+[[beziehungsregister]], [[arbeitsweise]], [[fachsignatur]], [[denken]], [[haltung]],
+[[QUESTIONS]] 260903 #1–#5)
+
+**Abgedeckt:** `Sent Items` **01.09.2026 07:13 bis 02.09.2026 16:02** (25 von 26 Treffern der
+Seite, `order: oldest`, `afterDateTime: 2026-09-01`, `nextOffset: 25` nicht gezogen — ein Treffer
+bleibt offen). Nach fuenf Batches im `Drafts`-Bestand (108–112) ist damit der regulaere
+Vorwaertsfaden im Sendeordner wieder aufgenommen, wie im Fenster von Batch 112 vorgesehen.
+
+**Vorfilter (gratis, vor dem ersten `read_resource`):** 3 Hub-Chef-Briefings an sich selbst
+(`claude-aera`), 2 leere Kalenderzusagen, 1 Teams-Einladung, 1 leere Huelle (Betreff `null`),
+1 reine Anhang-Weiterleitung. Der Vorabgleich gegen Batch 112 hat die bereits verbrauchte
+Kuechen-Schnitt-Mail vom 01.09. 10:53 abgefangen — zweiter Lauf in Folge, in dem diese Pruefung
+eine Doppel-Destillation verhindert hat. Der `twin-fidelity-review` 260902 hatte ausschliesslich
+Juli-/August-Material verbraucht, also keine Kollision.
+
+**Verbraucht — nicht erneut destillieren:** Abnahmetermin UGZ 02.09. 15:20 · Meldung Baustart
+Baupolizei 02.09. 16:02 · Zargentyp-Anfrage Lieferant 01.09. 17:15 · WG Baustart Feuerpolizei
+02.09. 09:40 samt eingebettetem Handy-Original 07:00 · Ausfuehrungsplan Steckzargen 02.09. 12:29 ·
+Besichtigung Arbeitnehmerschutz 02.09. 15:38 (`korrektur-delta`) · Werkplan-Grundlagen Tuerbauer
+01.09. 09:42 (nur Vorschautext, Traktandenstruktur).
+
+**Kernbefunde:** (1) ⭐ **Du und Sie in EINER Anredezeile**, und der Fliesstext fuehrt allein das Du
+des Hauptadressaten weiter — die Staffelung bestimmt die ganze Mail, nicht nur die Anrede;
+schaerfster Beleg gegen die Nivellier-Zeile. (2) ⭐ **Vierzeilige Anredestaffel** an eine
+Amtsstelle: drei Sie-Waermestufen absteigend, die kaelteste mit vollem Namen, danach abgesetzt die
+Kollektivanrede der eigenen Seite. (3) ⭐ **Die Weiterleitung ist das Arbeitsmittel**: geklaerte
+Zustaendigkeit wird ausgefuehrt statt bestaetigt, Verteiler 3 → 10, keine Dankmail. (4) ⭐
+**Identifikator-Trias in einer Klammer** und woertliche Uebernahme der Vorhabensbezeichnung aus dem
+Entscheid — die lange offene **Behoerdenschiene ist mit diesem Batch erstmals mit eigenem Material
+belegt** (Feuerpolizei, Baupolizei, Arbeitnehmerschutz, UGZ). (5) ⭐ **Massblock mit fettem
+Bedingungskopf**, gruppiert nach Oeffnungsrichtung. (6) ⭐ **Erst die Praemisse sichern, dann die
+Alternative anbieten.** (7) Die Dankformel ist ein **Muster mit Leerstelle** (3 Belege, 3 Objekte).
+(8) Die **reine Pflichtmeldung traegt gar keine Beziehungsformel** — dritte Stufe unter «Anspruch
+gegen Gefallen». (9) **«Nun,»** als Gliederungspartikel. (10) **Binnengrossschreibung** an drei
+weiteren Wortarten. (11) **Verteileranweisung im Body**, Nominalbitten klammern die Sachfrage ein.
+(12) `_` als Aufzaehlungszeichen der fluechtigen Liste. (13) Erster **Mail**-Beleg fuer nummerierte
+Positionen (deckt 260814c auch fuer den Mailkanal). (14) **Korrektur-Delta:** die eigene
+Terminliste wurde vor dem Versand gestrichen — gegenueber der Behoerde keine Terminhoheit.
+(15) Der **abgebrochene Satz** geht mit hinaus; rasch schlaegt vollstaendig, der Veredler darf die
+Luecke schliessen, nie eine Zahl erfinden. (16) **Namensfehler werden still korrigiert.**
+(17) Fremdsignal «Ciao Raphi», Raphael zieht **nicht** nach. (18) **Werkzeugbefund:** die
+Du-Gross-Quote der Stilmetrik zaehlt Vertipper mit und ist an Handy-Mails systematisch zu tief.
+
+**Naechstes Fenster:** (1) `rj@` **Sent Items ab 02.09.2026 16:02** — der offene Treffer dieser
+Seite (`offset: 25`) und alles Neuere, weiterhin `order: oldest`. (2) `Drafts` nur noch als
+**Zuwachs** (`order: newest`, Abgleich gegen dieses Register), nicht per Seitennummer. (3) Die zwei
+reservierten Apple-Mail-Entwuerfe vom 24.03.2026. (4) Vor dem Ziehen weiterhin pruefen, welches
+Fenster der `twin-fidelity-review` zuletzt verbraucht hat. (5) Vorfilter-Standard beibehalten:
+`internetMessageId` als **Geraete**-Trennung, Token-Pruefung an jeder gelesenen Mail, gekuerzter
+Service-Satz als Zweitsignal — dazu neu **`Apple-Mail-URLShareWrapperClass` als Marker des
+Claude-Entwurfswegs**, der eine Mail auf `korrektur-delta` herabstuft. (6) Die Behoerdenschiene ist
+angebrochen, aber duenn: **AfB** fehlt weiterhin mit eigenem Volltext (Furrer sass hier nur im Cc).

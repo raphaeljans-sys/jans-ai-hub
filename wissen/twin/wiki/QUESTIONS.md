@@ -5521,3 +5521,52 @@ an dem der Riegel schadet statt schuetzt»). Der Aufsichtslauf entscheidet das n
 weder `build_dna.py` noch die kompilierte Datei angefasst. Vollstaendige Belegkette:
 `wissen/koordination/SYNERGIE-REGISTER.md` SYN-69 und
 `wissen/koordination/outputs/2026-09-02_synergie-lauf-26.md`.
+
+---
+
+## 260903 — Batch 113 (`rj@` Sent Items 01.–02.09.2026, 6 Volltexte)
+
+**#1 — Die Du-Gross-Quote der Stilmetrik ist an Handy-Mails nicht belastbar (Werkzeugbefund, keine
+Frage an Raphael)** · *Stimme, [[stimme]]*
+
+`stilmetrik.py` meldete für dieses Bündel 0.667; real ist 1.00. Der dritte Treffer ist der
+Vertipper «Konntet Ihr **dir** Auflagen» («dir» für «die»). Das Werkzeug kann Anredepronomen nicht
+von gleichlautenden Vertippern unterscheiden, und die Handy-Mails mit der höchsten Tippfehlerdichte
+sind zugleich die mit der höchsten Du-Dichte — der Fehler ist also **systematisch nach unten
+gerichtet**. Vorschlag zur Behebung, nicht ausgeführt: im Script nur Vorkommen mit vorangehendem
+Verb der 2. Person bzw. in Anredestellung zählen, hilfsweise «dir/die»-Nachbarschaft prüfen.
+Bis dahin: eine Quote unter 1.00 vor jeder Drift-Aussage am Text gegenlesen.
+
+**#2 — Lars Hansen (UGZ): «Guten Tag Herr Lars Hansen» oder inzwischen «Werter Herr Hansen»?**
+· *Beziehungsregister, [[beziehungsregister]]*
+
+`rules/anrede-kontakte.md` führt ihn mit «Guten Tag Herr Lars Hansen» und hält diese Stufe
+ausdrücklich auch im Konflikt (Eskalationsmail 19.08.2026). Am 02.09.2026 15:20 steht in einer
+organisatorischen Mail «**Werter Herr Hansen**» — wärmere Stufe, ohne Vornamen, zwei Wochen nach
+dem Konflikt. Die Richtung passt zur Trajektorien-Klausel (260823). **Kein Rule-Eingriff
+vorgenommen** — der Wortlaut gehört Raphael. Frage: soll die Zeile auf «Werter Herr Hansen»
+nachgeführt werden, oder war das eine Ausnahme des Anlasses?
+
+**#3 — «EI00» als Nullwert: für den Lieferanten in Ordnung, für das Dokument nicht?**
+· *Fachsignatur, [[fachsignatur]]*
+
+Belegt am 01.09.2026 («von EI00 auf EI30 aufgerüstet»). «EI00» ist keine VKF-Klasse; die
+Schreibweise macht die Ertüchtigung als Sprung auf einer Achse sichtbar und ist in der
+Lieferantenkorrespondenz verständlich. Der Zwilling braucht die Grenze: **darf er sie in
+Bauleitungsmails übernehmen, muss er sie aber in Devis, Berichten und allem mit Normbezug durch
+«ohne Anforderung» ersetzen** (Rule `normen-referenz`, Fundstellenpflicht)? So arbeitet er bis auf
+Weiteres.
+
+**#4 — Die Nivellier-Zeile ist jetzt auch in der Textfortsetzung widerlegt** · *Beziehungsregister*
+
+Kein neuer Sachverhalt, sondern die schärfste Fassung der seit 260815 offenen Frage (dort #4,
+seither #1 mehrfach wiederholt). Neu ist die **Fortsetzung**: «Geschätzter Othmar, werter Herr
+Tus» — Du und Sie in einer Anredezeile — und der Folgesatz führt allein das Du weiter («sende ich
+**Dir**»). Die Staffelung wird also nicht nur in der Anrede gehalten, sie bestimmt den ganzen
+Mailtext. Die vorgeschlagene Neufassung («einzeln in der eigenen Stufe anreden; nivellieren nur
+bei grossen oder unbekannten Verteilern») deckt diesen Fall mit ab. Bitte um Entscheid.
+
+**#5 — Verbrauchsvermerk, keine Frage:** Die Mail «Element bei Küche / Schnitt Therapieküche»
+vom 01.09.2026 10:53 wurde bereits in **Batch 112** als Gold B destilliert und in diesem Lauf
+bewusst übergangen. Die Vorabprüfung des zuletzt verbrauchten Fensters hat damit zum zweiten Lauf
+in Folge eine Doppel-Destillation verhindert; sie bleibt im Ablauf.

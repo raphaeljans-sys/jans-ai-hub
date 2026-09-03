@@ -1,7 +1,7 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-09-02
+last_updated: 2026-09-03
 gewichtung: authentisch
 sources: [260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
@@ -3811,3 +3811,74 @@ zwischen beiden liegt die gemeinsame Ausfuehrungskoordination der Leichtbauwaend
 Die Zeile in `rules/anrede-kontakte.md` fuehrt Stadelmann bisher gar nicht; ihr Gegenbeleg-Vermerk
 steht nur als Warnung unter der Treffen-Klausel. Ein Eintrag waere faellig, aber der Wortlaut
 dieser Rule gehoert Raphael (QUESTIONS 260902 #4).
+
+## ⭐ Du und Sie in EINER Anredezeile — und der Fliesstext folgt dem Hauptadressaten
+
+«**Geschätzter Othmar, werter Herr Tus**» — zwei Adressaten desselben Betriebs, in einer Zeile,
+durch Komma getrennt, in zwei verschiedenen Registern: Vorname im Du, «werter Herr» plus Nachname
+im Sie. Der erste Satz danach führt **allein das Du weiter**: «Wie besprochen sende ich **Dir**
+den angepasster Ausführungsplan …». Der zweite Adressat wird angeredet und danach übergangen;
+der Plan geht an beide, die Ansprache an einen.
+
+Das ist der bislang **schärfste Beleg gegen die Nivellier-Zeile** in `rules/anrede-kontakte.md`.
+Frühere Belege zeigten gestaffelte Anreden nebeneinander; dieser zeigt zusätzlich, dass die
+**Fortsetzung des Textes** die Staffelung nicht auflöst, sondern die wärmste Stufe durchzieht.
+Wer hier nivelliert, verliert nicht nur die Anrede, sondern das ganze Register der Mail.
+Quelle: 02.09.2026 12:29, `authentisch` (PROD.OUTLOOK-ID, sechs Empfänger im To).
+
+## ⭐ Vierzeilige Staffel: drei Sie-Wärmestufen plus abgesetzte Kollektivanrede der eigenen Seite
+
+Die Anrede der UGZ-Terminmail (02.09.2026 15:20) hat eine Bauform, die im Korpus so noch nicht
+belegt war:
+
+```
+Geschätzter Herr Zala,
+Werter Herr Hansen,
+Sehr geehrter Herr Torsten Stubbe,
+                                    ← Leerzeile
+Geschätzte Kollegen Kübler und Duran
+```
+
+Drei Beobachtungen, alle neu:
+
+1. **Drei Wärmestufen des Sie-Registers, absteigend geordnet** — «Geschätzter» (wärmste),
+   «Werter» (mittlere), «Sehr geehrter» (kälteste). Die Reihenfolge folgt der Vertrautheit, nicht
+   der Hierarchie: alle drei sitzen in derselben Amtsstelle.
+2. **Die kälteste Stufe trägt den vollen Namen** — «Sehr geehrter Herr **Torsten Stubbe**», Herr
+   plus Vorname plus Nachname. Dieselbe Bauform wie das frühere «Guten Tag Herr **Lars Hansen**»
+   und das als Claude-Artefakt verworfene «Herr Mustafa»; hier aber aus eigener Hand und im
+   kältesten Register. Lesart: **je unbekannter die Person, desto vollständiger der Name.**
+3. **Die eigene Seite steht abgesetzt und kollektiv** — die zwei Fachplaner sind nicht in die
+   Staffel eingereiht, sondern nach einer Leerzeile als «Geschätzte **Kollegen** Kübler und Duran»
+   zusammengefasst. Die Leerzeile trennt Gegenseite von eigener Seite, nicht Stufe von Stufe.
+
+Ein weiterer Empfänger derselben Verwaltung (AfB) sitzt im Cc und wird **nicht** angeredet —
+Bestätigung der Stapel-Regel (angeredet wird, wer handeln soll).
+
+## Hansen: Bewegung von «Guten Tag Herr Lars Hansen» zu «Werter Herr Hansen»
+
+`rules/anrede-kontakte.md` führt Lars Hansen (UGZ) mit «Guten Tag Herr Lars Hansen», ausdrücklich
+auch im Konflikt gehalten (Beleg 19.08.2026, Eskalationsmail). Zwei Wochen später, in einer rein
+organisatorischen Mail, steht «**Werter Herr Hansen**» — wärmere Stufe, ohne Vornamen.
+
+Die Richtung passt zur Trajektorien-Klausel (260823): nach durchgestandenem Konflikt und
+fortgesetzter Zusammenarbeit wandert die Stufe ins Vertrautere. **Kein Rule-Eingriff** — der
+Wortlaut dieser Rule gehört Raphael; vermerkt in [[QUESTIONS]] 260903 #2.
+
+## Gegenseite: der Brandschutz-Fachplaner öffnet neu mit «Ciao Raphi»
+
+Jens Ziegel schrieb bisher «Hallo Raphael» (belegt 260820). Am 02.09.2026 09:13 antwortet er mit
+«**Ciao Raphi,**» — Kosename plus italienischer Gruss, dazu durchgehendes klein geschriebenes
+«du» («meldest **du** an», «**du** warst im cc») und der Sign-off «Danke und VG».
+
+Für das Register ist das ein **Fremdsignal**, kein Marker Raphaels: es zeigt, wie warm die
+Gegenseite den Faden inzwischen führt, und stützt damit die Zeile «Du» in der Rule. Raphaels
+eigene Öffnung im selben Strang bleibt «Guten Morgen Jens.» — er zieht **nicht** nach.
+
+## Der Name des Gegenübers wird still korrigiert
+
+01.09.2026 17:15: «Geschätzter Herr **Kaysoglu**». 02.09.2026 11:17, an dieselbe Person:
+«Geschätzter Herr **Kayisoglu**,». Kein «Entschuldigen Sie die falsche Schreibweise», kein
+Kommentar — die richtige Form ersetzt die falsche wortlos. Gleiche Haltung wie beim Webprogrammierer
+(«Hlep» → «Hleb»): **Namensfehler werden behoben, nicht thematisiert.** Der Zwilling neigt dazu,
+die Korrektur zu entschuldigen und macht den Fehler damit erst sichtbar.

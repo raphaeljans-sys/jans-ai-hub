@@ -1,7 +1,7 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-09-02
+last_updated: 2026-09-03
 gewichtung: authentisch
 sources: [260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
@@ -2974,3 +2974,78 @@ dort, wo der Zwilling glaubt, ruecksichtsvoll zu sein.
 Blindfassung begruendete mit der **Folge fuer den Empfaenger** («sonst verschiebt sich die Freigabe
 der betroffenen Gewerke») — aus einer Absicht wird eine Drohung. Der Marker ist damit zum zweiten
 Mal gemessen und in beiden Faellen verfehlt worden.
+
+## ⭐ Die Identifikator-Trias der Behördenmeldung — alles in eine Klammer
+
+Baustart-Meldung an die Baupolizei (02.09.2026 16:02), der Satz vollständig:
+
+> In der Beilage erhalten Sie die Meldekarte zum Baubeginn für das Bauvorhaben «Akutspital Innerer
+> Umbau und Nutzungsänderung», Lenggstrasse 30, 8008 Zürich (Entscheid-Nr. BE 1171/26 vom 8. Juni
+> 2026, Geschäfts-Nr. B 26-00705-01, Akten-Nr. 08303).
+
+Die Bauform, viermal belegt in diesem Fenster (zweimal Baupolizei, einmal Arbeitnehmerschutz,
+einmal AfB-Weiterleitung):
+
+1. **Die Vorhabensbezeichnung steht in Guillemets** «…» und wird **wörtlich aus dem Entscheid**
+   übernommen, nicht projektintern abgekürzt («Akutspital Innerer Umbau und Nutzungsänderung», nicht
+   «KISPI PPTS»). Gegenüber der Behörde gilt deren Nomenklatur, nicht die eigene.
+2. **Adresse zwischen Bezeichnung und Klammer**, nicht in der Klammer.
+3. **Alle Aktenzeichen in EINER Klammer**, durch Komma gereiht, in fester Ordnung
+   Entscheid → Geschäft → Akten. Nie auf mehrere Sätze verteilt, nie als Liste.
+4. **Das Verfügungsdatum wird ausgeschrieben** («vom 8. Juni 2026»), der **eigene Bautermin
+   numerisch** («am 07.09.2026»). Amtliche Daten in amtlicher Form, eigene Termine in Arbeitsform.
+
+Die Weiterleitung an eine zweite Amtsstelle (02.09.2026 15:26) stellt die Geschäftsnummer sogar
+**vor die Anrede** — der Empfänger soll die Zuordnung sehen, bevor er den ersten Satz liest.
+
+## Verweis auf die Beilage statt Wiederholung im Text
+
+«Die zuständigen Kontaktpersonen sind auf der Meldekarte vermerkt.» Ein Satz, wo der Zwilling die
+Namen und Telefonnummern in den Mailtext holt. **Was in der Beilage steht, wird nicht doppelt
+geführt** — sonst entstehen zwei Fassungen, die auseinanderlaufen können. Gleiche Logik wie der
+Verweis auf den SharePoint-Pfad statt Anhang bei Werkplänen.
+
+## ⭐ Der Massblock: fett gesetzter Bedingungskopf, darunter Raum-Nr. und Rohmass
+
+02.09.2026 12:29, an den Trockenbauer, die volle Bauform:
+
+```
+Rohmasse Türöffnungen in Leichtbauwand für Türen nach Innen öffnend (Zargentyp A-SD-49-QF-14)   ← fett
+Raum 2.336: 90x228cm
+Raum 2.335: 90x228cm
+Raum 2.338: 110x228cm
+                                                                        ← Leerzeile, zweiter Block
+Rohmasse Türöffnungen in Leichtbauwand für Türen nach Aussen öffnend; WC IV (Zargentyp SD-49)    ← fett
+Raum 2.337: 104x225cm
+```
+
+Der fette Kopf trägt **vier Angaben in fester Ordnung**: Massart (Rohmass, nicht Fertigmass) —
+Bauteil — Wandtyp — Öffnungsrichtung — Fabrikatstyp in Klammer. Die Gruppierung folgt **nicht** der
+Raumnummer, sondern der **Öffnungsrichtung**, weil daran der Zargentyp und damit das Rohmass
+hängt: der einzelne WC-IV-Raum bekommt einen eigenen Block, obwohl es nur eine Tür ist.
+
+Massformat: **90x228cm** — kleines x, keine Leerschläge, Einheit einmal am Ende, Breite vor Höhe,
+ganze Zentimeter. Nicht «90 × 228 cm», nicht «900/2280 mm».
+
+Der Zwilling zieht solche Angaben regelmässig in eine Tabelle mit Spalten «Raum | Breite | Höhe |
+Typ». Das Gold verzichtet auf die Tabelle und trägt die Bedingung stattdessen **im Kopf über der
+Gruppe** — dadurch steht neben jedem Mass, unter welcher Annahme es gilt.
+
+## Die Fachfrage wird über den Bauteil-Ort begründet, nicht über die Norm
+
+«Da wir auf dem **1.OG** sind und nicht im **1.UG** wo dieser Typ am KISPI verbaut wurde …» — die
+Begründung für einen anderen Zargentyp ist die **Geschosslage im konkreten Bau**, nicht eine
+Anforderungsklasse. Raphael argumentiert aus dem Bestand des eigenen Hauses («wo dieser Typ am
+KISPI verbaut wurde»), gegen den der Lieferant seine Offerte gerechnet hatte.
+
+Dazu die Schreibweise: **1.OG / 1.UG** ohne Leerschlag nach dem Punkt, durchgängig.
+
+## «von EI00 auf EI30» — der Nullwert als Klassenangabe
+
+«… zwei Türen im Fluchtweg welche aufgrund von Brandschutzanforderungen **von EI00 auf EI30**
+aufgerüstet werden müssen». «EI00» ist keine VKF-Klasse; Raphael setzt sie als **Nullwert
+derselben Skala**, um die Ertüchtigung als Sprung auf einer Achse zu zeigen statt als Wechsel von
+«keine Anforderung» zu einer Klasse. Verständlich für den Türlieferanten, **nicht zitierfähig**:
+in Dokumenten mit Normbezug gilt weiterhin die Fundstellenpflicht (Rule `normen-referenz`), und
+dort heisst der Ausgangszustand «ohne Anforderung», nicht «EI00». Vermerkt in [[QUESTIONS]]
+260903 #3.
