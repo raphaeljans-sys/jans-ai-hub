@@ -17,17 +17,6 @@ Wiki-Artikel überführen und hier streichen.
   der Punkt, gehört er nach [[fristenlogik-bauentscheid-zh]] — er entscheidet, ob solche
   Nachweise auf den kritischen Pfad der Baufreigabe gehören oder nicht.
 
-- **Was verlangt der Behördenkommentar «Art. 12» konkret?** (aufgeworfen 31.07.2026, Hub-Chef,
-  Fall 2619 KISPI / BE 1171/26 Ziff. 16). Drei der fünf Textkommentare von SRZ zur Stellungnahme
-  Brandschutz bestehen nur aus «Art. 12» bzw. «Art. 12!», gesetzt bei der Beurteilung nach
-  Löschanlagenkonzept und bei der Nutzungsdefinition. Belegt ist allein die Fundstelle:
-  Art. 12 VKF-Brandschutznorm 1-15de:2015 = Nachweisverfahren (`wissen/normen/destillate/
-  vkf-brandschutznorm-1-15de-bspub57.md`). **Nicht belegt** ist, ob die Behörde damit die
-  ausdrückliche Deklaration als Nachweisverfahren erwartet (statt/neben dem Standardkonzept
-  nach Art. 10) oder etwas anderes meint. Zu klären durch die Verfasserin der Stellungnahme
-  (Gruner AG) bei der Behörde; die Antwort gehört danach als Muster in den Wiki-Artikel, weil
-  Ein-Wort-Normverweise in Behördenkommentaren wiederkehren dürften.
-
 - **Telefon-/Kontaktstellen Ämter:** Aus Entscheiden gesammelte Direktnummern (z.B. AfB
   Baukontrolle 044 412 28 65, TBA Strassen 044 412 23 35) in einen Kontakt-Artikel bündeln,
   sobald 2–3 Projekte vorliegen.
@@ -41,6 +30,25 @@ Wiki-Artikel überführen und hier streichen.
   [[aemter-stadt-zuerich]], Abschnitt «Fallbezogener Zuständigkeitsstand».
 
 ## Geklärt (archiviert)
+
+- **Was verlangt der Behördenkommentar «Art. 12» konkret? — generisch geklärt, Projektfall
+  weiterhin offen (04.09.2026, Nachtschicht Mac Mini, Fall 2619 KISPI / BE 1171/26 Ziff. 16).**
+  Aufgeworfen 31.07.2026 (Hub-Chef): drei der fünf SRZ-Textkommentare bestehen nur aus
+  «Art. 12» bzw. «Art. 12!», gesetzt bei der Beurteilung nach Löschanlagenkonzept und bei der
+  Nutzungsdefinition; bis dahin war nur die Fundstelle belegt (Art. 12 VKF-Brandschutznorm
+  1-15de:2015 = Nachweisverfahren), nicht der Inhalt. Jetzt gegen den vollständigen
+  Destillat-Text von Art. 12 (Brandschutznorm) UND der referenzierten BRL 27-15
+  «Nachweisverfahren im Brandschutz» gelesen: Art. 12 ist die Nachweisverfahrens-Klausel,
+  systematisch neben Art. 10 (Standardkonzepte) und Art. 11 (Abweichungen); die Behörde prüft
+  einen solchen Nachweis auf Vollständigkeit/Nachvollziehbarkeit/Plausibilität (Ziff. 8.2
+  BRL 27-15). Ein SRZ-Verweis «Art. 12» an einer Beurteilungsstelle heisst damit generisch:
+  die Behörde ordnet diesen Punkt dem Nachweisverfahrens-Regime zu und erwartet einen
+  entsprechenden Beleg, keine blosse Behauptung. Details und die vollständige Fundstellenkette:
+  [[brandschutz-auflagen-qss]], Abschnitt «Ein-Wort-Normverweis «Art. 12» in
+  Behördenkommentaren». **Weiterhin offen:** ob im konkreten Fall 2619 tatsächlich ein
+  formaler Nachweisverfahrens-Bericht nach BRL 27-15 verlangt ist oder die Behörde den
+  Verweis nur als Prüfmassstab zitiert — das kann nur die Verfasserin der Stellungnahme
+  (Gruner AG) bei der Behörde klären, nicht aus dem Normtext allein.
 
 - **Adressdiskrepanz Lenggstrasse/Lengstrasse (22.07.2026, Nachtschicht-Zyklus Mac Mini,
   echte Primärquellen-Verifikation):** Der Health-Check vom 21.07. hatte zu Recht

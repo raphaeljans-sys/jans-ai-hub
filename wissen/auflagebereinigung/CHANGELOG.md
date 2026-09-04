@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-04 (Nachtschicht Mac Mini, Priorität 5 QUESTIONS-Recherche) — Behördenkommentar «Art. 12» geklärt
+
+`wiki/QUESTIONS.md`, offener Punkt vom 31.07.2026 (Fall 2619 KISPI / BE 1171/26 Ziff. 16,
+SRZ-Kommentare «Art. 12»/«Art. 12!»): gegen die vollständigen Destillate der KB `normen`
+gelesen (`vkf-brandschutznorm-1-15de-bspub57.md` Art. 12, `vkf-brl-nachweisverfahren.md` =
+BRL 27-15de). Ergebnis: Art. 12 ist die Nachweisverfahrens-Klausel, systematisch neben Art. 10
+(Standardkonzepte) und Art. 11 (Abweichungen); ein SRZ-Verweis darauf ordnet die betroffene
+Beurteilungsstelle dem Nachweisverfahrens-Regime zu (Beleg statt Behauptung, Prüfung auf
+Vollständigkeit/Nachvollziehbarkeit/Plausibilität nach BRL 27-15 Ziff. 8.2) — generisch geklärt.
+Projektspezifisch offen bleibt, ob im Fall 2619 tatsächlich ein formaler
+Nachweisverfahrens-Bericht verlangt ist; das kann nur die Verfasserin der Stellungnahme
+(Gruner AG) bei der Behörde klären. Neuer Abschnitt «Ein-Wort-Normverweis «Art. 12» in
+Behördenkommentaren» in `wiki/brandschutz-auflagen-qss.md`, dort zugleich Frontmatter-Quellen
+auf die konkreten Norm-Nummern präzisiert (schliesst nebenbei Health-Check-Befund C1 vom
+01.09.2026, generische VKF-RL-Quellen ohne Norm-Nummern). `QUESTIONS.md` Punkt nach «Geklärt
+(archiviert)» verschoben, Restfrage dort dokumentiert.
+
 ## 2026-09-01 (Health-Check Phase 1, unbeaufsichtigt) — A0 · B0 · C1 · D0 · E0 · F1 · G2
 
 Health-Check-Report abgelegt: `outputs/2026-09-01_health-check.md`. Frontmatter-Behoebung vom 26.08. bestätigt fehlerfrei; jedoch ae/oe/ue-Anteil im Text von `gvz-einreichung-bma-sprinkler.md` noch unbehoben (Schreibregel F1). `brandschutz-auflagen-qss.md` generische VKF-RL-Quellen ohne Norm-Nummern (Audit C1). `fristenlogik-bauentscheid-zh.md` reif für Promotion zu `established`. PDF-Annotations-Extraktionsmethode (G-Rücklauf) zweifach belegt, aber nie ins Wiki überführt. Phase 2 nicht ausgeführt.

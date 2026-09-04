@@ -1,8 +1,8 @@
 ---
 title: Brandschutz-Auflagen — QSS, Übereinstimmungserklärung, Integral-Test
 status: emerging
-last_updated: 2026-06-04
-sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH Ziff. II.11–27, VKF-Brandschutzrichtlinien, VKF-BFS, VVB LS 861.12]
+last_updated: 2026-09-04
+sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH Ziff. II.11–27, VKF-Brandschutzrichtlinien, VKF-BFS, VVB LS 861.12, wissen/normen/destillate/vkf-brandschutznorm-1-15de-bspub57.md, wissen/normen/destillate/vkf-brl-nachweisverfahren.md]
 links: [[auflagentypen-gewerkzuteilung]], [[fristenlogik-bauentscheid-zh]], [[aemter-stadt-zuerich]]
 ---
 
@@ -73,3 +73,44 @@ Im Vorabzug erscheinen Marker wie **SRZ*EW1** (Schiebetüren in brandabschnittsb
 Bauteilen mit Fluchtwegfunktion → erhöhte Konstruktionsanforderungen) und **SRZ*EW2**
 (Raum Reduit 4.2 / Lager 8 m² nicht untergeordnet → Austauschpläne). Sie zeigen, welche
 Erwägung zu welcher konkreten Auflage (II.18 bzw. II.15) führt.
+
+## Ein-Wort-Normverweis «Art. 12» in Behördenkommentaren (Nachweisverfahren)
+
+Behördenstellungnahmen (SRZ/Feuerpolizei) markieren einzelne Beurteilungspunkte teils nur
+mit dem blossen Artikelverweis «Art. 12» bzw. «Art. 12!», ohne Erläuterung — belegt am Fall
+2619 KISPI, BE 1171/26 Ziff. 16 (drei Kommentare, gesetzt bei der Beurteilung nach
+Löschanlagenkonzept und bei der Nutzungsdefinition). Was der Verweis **generell** bedeutet,
+ist jetzt aus der Norm belegbar:
+
+- **Art. 12 VKF-Brandschutznorm 1-15de** ist die Klausel **Nachweisverfahren**: sie erlaubt
+  die Anwendung eines ingenieurmässigen Nachweisverfahrens zur Beurteilung von
+  Brandgefahr/-risiko oder zur Nachweisführung konzeptioneller Ansätze — zulässig, wenn die
+  Schutzziele der Brandschutznorm bei **ganzheitlicher Betrachtung** erfüllt werden. Die
+  Brandschutzbehörde prüft den Nachweis auf **Vollständigkeit, Nachvollziehbarkeit,
+  Plausibilität**. Damit steht Art. 12 systematisch **neben** Art. 10 (Standardkonzepte:
+  bauliches Konzept / Löschanlagenkonzept) und Art. 11 (Abweichungen als Einzellösung) — er
+  ist die dritte, nicht-präskriptive Beurteilungsschiene.
+- Das materielle Vorgehen für ein Nachweisverfahren regelt die eigene Richtlinie
+  **VKF-BRL 27-15de «Nachweisverfahren im Brandschutz»**: Bericht an die Behörde (Ziff. 4.1),
+  verbindliche Dokumentation mit rechtsgültiger Unterzeichnung aller Verantwortlichen und der
+  Eigentümerschaft (Ziff. 4.2), 7 Prozessschritte (Projektdefinition → Schutzziel-/
+  Leistungskriterien → Risikobeurteilung → Bemessungsszenarien → Nachweisführung →
+  Auswertung → Dokumentation, Ziff. 3.2.2), Prüfung durch die Behörde auf dieselben drei
+  Kriterien Vollständigkeit/Nachvollziehbarkeit/Plausibilität (Ziff. 8.2).
+- **Konkrete Lesart für einen SRZ-Kommentar «Art. 12» an einer Beurteilungsstelle:** die
+  Behörde ordnet diesen Punkt dem Nachweisverfahrens-Regime zu statt der reinen
+  Standardkonzept-Prüfung — d.h. sie erwartet an dieser Stelle **keine blosse Behauptung**,
+  sondern einen dem Nachweisverfahren entsprechenden **Beleg** (Bericht/Dokumentation nach
+  BRL 27-15, mind. mit den drei Prüfkriterien standhaltend), bevor sie den Punkt als erfüllt
+  freigibt. Bei einer Beurteilung «nach Löschanlagenkonzept» wäre das systematisch eigentlich
+  Art. 10 (Standardkonzept) — der Art.-12-Verweis an dieser Stelle deutet darauf hin, dass die
+  Behörde die konkrete Ausgestaltung des Löschanlagenkonzepts (bzw. die Nutzungsdefinition) im
+  Einzelfall als nachweispflichtig einstuft, nicht als Standardfall.
+- **Weiterhin offen und nur durch die Verfasserin der Stellungnahme (Gruner AG) bei der
+  Behörde zu klären:** ob im Fall 2619 tatsächlich ein formaler Nachweisverfahrens-Bericht
+  nach BRL 27-15 verlangt ist oder die Behörde den Verweis nur als Prüfmassstab zitiert, ohne
+  eine eigene Berichtspflicht auszulösen. Die generische Bedeutung des Artikelverweises ist
+  damit belegt geklärt, die projektspezifische Konsequenz nicht.
+
+Quelle: `wissen/normen/destillate/vkf-brandschutznorm-1-15de-bspub57.md` (Art. 12),
+`wissen/normen/destillate/vkf-brl-nachweisverfahren.md` (BRL 27-15de, vollständig).

@@ -11180,3 +11180,44 @@ statt auf den 15-Min-Cron zu warten; Diff nativ bestaetigt: CHANGELOG +18/-0, QU
 Aussenwirkung, Rule 260803).
 
 Budget rund 1.0 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-04 23:30 Nachtschicht Mac Mini — Prio 5, QUESTIONS-Recherche `auflagebereinigung`: Behördenkommentar «Art. 12» geklärt
+
+Priorisierung: remote-tasks/pending und sync-tasks/mac-mini leer. Synobsis Stufe 2 (Prio 2)
+weiterhin aktuell (Health-Check 01.09., letzter Embedding-Lauf 01.09.). Fristen-Radar (Prio 3):
+`logbuch/fristen.md` traegt zwei offene P1/hoch-Punkte vom 04.09. (Steinbrüchelstrasse-Entwurf
+versandbereit, Aktion Raphael; KISPI Los 231.10 Jegen-Freigabe der Prinzippläne), beide bereits
+heute frueh vom hub-chef aufbereitet — kein neues Delta, Fachpruefung der Plaene ist ohnehin
+keine Nachtschicht-Aufgabe. Bei Prio 4 sind alle zehn KBs mit `training/PROGRAMM.md` fuer diesen
+Taktgeber gesperrt: `baurecht`/`normen`/`planungsgrundlagen`/`wettbewerbs-dna` eigen getaktet
+(Scheduled Tasks), `energie` und `grobkosten` haben seit dieser Pruefung ebenfalls eigene aktive
+Scheduled Tasks (`energie-training`, `grobkosten-training` in `~/.claude/scheduled-tasks/`) und
+`energie` hat zudem heute bereits Run 177 geliefert, `bauprodukte`/`projekt-lessons` sind
+Status-ERLEDIGT bzw. ausgesetzt, `immobilienbewertung`/`spec` sind beide auf Ereignis-Trigger
+statt Zeittakt gesetzt (Statuskopf: kein gueltiges Ziel). Prio 4 damit fuer heute erschoepft.
+
+Stattdessen Prio 5 (offene QUESTIONS.md recherchieren): KB `auflagebereinigung`,
+`wiki/QUESTIONS.md`, Punkt vom 31.07.2026 (Fall 2619 KISPI / BE 1171/26 Ziff. 16) — drei
+SRZ-Kommentare bestehen nur aus dem blossen Verweis «Art. 12»/«Art. 12!», bis heute war nur die
+Fundstelle belegt (Art. 12 VKF-Brandschutznorm 1-15de = Nachweisverfahren), nicht der Inhalt.
+Gegen die vollstaendigen Destillate der KB `normen` gelesen (`vkf-brandschutznorm-1-15de-bspub57.md`
+Art. 12 sowie die referenzierte `vkf-brl-nachweisverfahren.md` = BRL 27-15de vollstaendig).
+Ergebnis: Art. 12 ist die Nachweisverfahrens-Klausel, systematisch neben Art. 10
+(Standardkonzepte) und Art. 11 (Abweichungen); ein SRZ-Verweis darauf ordnet die betroffene
+Beurteilungsstelle dem Nachweisverfahrens-Regime zu — Beleg statt Behauptung, Pruefung auf
+Vollstaendigkeit/Nachvollziehbarkeit/Plausibilitaet nach BRL 27-15 Ziff. 8.2. Generisch damit
+geklaert; projektspezifisch bleibt offen, ob im Fall 2619 tatsaechlich ein formaler
+Nachweisverfahrens-Bericht verlangt ist — das kann nur die Verfasserin der Stellungnahme
+(Gruner AG) direkt bei der Behoerde klaeren.
+
+Neuer Abschnitt «Ein-Wort-Normverweis «Art. 12» in Behoerdenkommentaren» in
+`wiki/brandschutz-auflagen-qss.md` (Frontmatter-Quellen zugleich auf die konkreten Norm-Nummern
+praezisiert, schliesst nebenbei Health-Check-Befund C1 vom 01.09.2026). `QUESTIONS.md`-Punkt
+nach «Geklärt (archiviert)» verschoben, Restfrage dort dokumentiert. CHANGELOG-Eintrag in
+`wissen/auflagebereinigung/` gesetzt.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). Die zwei P1-Punkte im
+Fristen-Register bleiben unveraendert Aktion Raphael, nicht selbststaendig bearbeitet (Rule
+`interaktive-eingriffe`, Nachtschicht-Auftrag Ziff. 3 "nie selbststaendig versenden").
+
+Budget rund 1.8 von 5 USD. Zyklus sauber beendet.
