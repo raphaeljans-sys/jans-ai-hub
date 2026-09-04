@@ -1,7 +1,7 @@
 ---
 title: "Cheminée-Aufbau — Schichtenfolge und Anschlussdetails (Detailplan 2009)"
 status: emerging
-last_updated: 2026-08-01
+last_updated: 2026-08-24
 sources: ["Cheminee.pdf" (BKP 284 Hafnerarbeiten, Detailplan Scheitlin-Syfrig+Partner Architekten Luzern, Projekt «Haus Karlsen», Plan-Nr. 3380/E0/001a+b, datiert 18.06.2009, VectorWorks-Export, Massstab 1:20)]
 links: [[INDEX]]
 ---

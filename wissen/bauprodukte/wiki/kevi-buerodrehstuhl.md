@@ -3,7 +3,7 @@ title: "Kevi-Bürodrehstuhl (Design Jørgen Rasmussen) — Furnier-Schale auf F�
 status: established
 last_updated: 2026-08-15
 sources: ["900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/kevi.pdf" (Linea Einrichtungs GmbH, Datenblatt Kevi 2003, Preisstand 01/2011), "900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/Kevi-Katalog_0.pdf" (Herstellerkatalog, Designphilosophie/Konstruktionsprinzip), "900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/kevi_catalogue_produkt_pdf_e.pdf" (englischer Produktkatalog, Office/Conference-Serie)]
-links: [[REGISTER]]
+links: [[INDEX]]
 ---
 
 # Kevi-Bürodrehstuhl — Furnier-Schale auf Fünffuss-Alu-Gestell

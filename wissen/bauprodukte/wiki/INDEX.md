@@ -24,10 +24,13 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
 - [[pu-beschichtung-fassade]] — PU-Fassadenbeschichtung: Aufbau, Verarbeitung,
   Elastizitäts-/Garantierisiken (Stand 2002, unverifiziert)
 
-### BKP 281 — Bodenbeläge (Estrich-Systeme)
+### BKP 281 — Bodenbeläge (Estrich-Systeme, Terrazzo/Kunststein)
 - [[bkp-281-estrich-systeme]] — Verbund-/Trenn-/Schwimmestrich (DIN 18560/13813),
   Festigkeitsklassen, beheizter Estrich Bauart A/B/C, CM-Restfeuchtemessung
   (Stand 2017, DIN-basiert, nicht SIA)
+- [[terrazzo-kunststein-bodenbelaege]] — Kunststein-Plattenboden (281.5) vs.
+  vor Ort gegossener Terrazzo/geschliffener Beton (281.1): Aufbauvarianten,
+  Rezeptur-Hinweise, Ausführungsrisiken, Preisvergleich (Stand 2002, unverifiziert)
 
 ### BKP 224 — Bedachungsarbeiten
 - [[dachbegruenung-systeme]] — Extensive/intensive Dachbegrünung, drei CH-Anbieter
@@ -93,11 +96,6 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
 - [[z-winkel-beschlag-schreinerei]] — Z-Winkel Stahlwinkel-Beschlag (offene
   Korpus-/Montageverbindung, 5 Grössenstufen), Abgrenzung zu den verdeckten
   Arbeitsplatten-Verbindern (Stand 2011, unverifiziert, einzige Quelle ein Händler)
-
-### BKP 281 — Bodenbeläge
-- [[terrazzo-kunststein-bodenbelaege]] — Kunststein-Plattenboden (281.5) vs.
-  vor Ort gegossener Terrazzo/geschliffener Beton (281.1): Aufbauvarianten,
-  Rezeptur-Hinweise, Ausführungsrisiken, Preisvergleich (Stand 2002, unverifiziert)
 
 ### BKP 284 — Hafnerarbeiten
 - [[cheminee-aufbau-hafnerarbeiten]] — Cheminée-Ummantelung: Schichtenfolge

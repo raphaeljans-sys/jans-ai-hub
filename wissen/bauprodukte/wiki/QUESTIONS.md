@@ -137,6 +137,18 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    bereits gelesenen «Licht visualisieren»-Abschnitt «Simulation» ungeklärt) sowie
    das Glossar. Der Anschlusspunkt «S. 96, Rest ‹Montage› (Wand, Boden)» aus dem
    Registerstand 95 ist damit erledigt.
+
+   **ERLEDIGT, Registerstand korrigiert 04.09.2026 (Nachtschicht Mac Mini).** Dieser
+   Eintrag führte den ERCO-Ratgeber seit dem 06.08.2026 als «145 von ca. 435 Seiten» —
+   am Frontmatter `gelesen:` der drei Artikel gemessen ist das Dokument bereits seit dem
+   14.08.2026 **vollständig** destilliert: [[erco-lichtplanung-grundlagen]] deckt S. 1-374
+   (`last_updated: 2026-08-13`), [[erco-lichtplanung-simulation-berechnung]] S. 375-426
+   (`last_updated: 2026-08-13`), [[erco-lichtplanung-glossar]] S. 427-435, A-Z, 271
+   Fachbegriffe (`last_updated: 2026-08-14`) — die drei Bereiche schliessen lückenlos
+   aneinander an. Der Eintrag blieb drei Wochen offen geführt, obwohl die Arbeit längst
+   abgeschlossen war — gleiche Registerdrift-Familie wie die beiden bereits im Eintrag
+   selbst dokumentierten Vorfälle vom 05.08. und 06.08.2026. Punkt geschlossen, kein
+   weiterer ERCO-Folgelauf nötig.
 5. **AS-Aufzüge-Dokumente ohne Datum im Dokument selbst:** [[bkp-261-aufzuege]] stützt
    die Datierung von `100426_AS_Aufzuege.pdf` und `21005312.pdf` nur auf den
    Dateinamen (JANS-Konvention YYMMDD). Vor Verwendung in einer aktuellen
@@ -423,12 +435,26 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
 
 ## Wissens-Chef Run 46 (28.08.2026) — Cross-KB-Eingang
 
-- [ ] **BP46-1 — Registerdefekt: BKP 281 steht im `wiki/INDEX.md` zweimal** (Z. 27 «Bodenbeläge
+- [x] **BP46-1 — Registerdefekt: BKP 281 steht im `wiki/INDEX.md` zweimal** (Z. 27 «Bodenbeläge
   (Estrich-Systeme)» und Z. 97 «Bodenbeläge»). Beim nächsten bauprodukte-Lauf mitnehmen. Gefunden als
   Nebenbefund bei der Prüfung, ob die KB Brandschutz-Türen führt.
+  **BEHOBEN 04.09.2026 (Nachtschicht Mac Mini):** beide Abschnitte zu einer Überschrift
+  «BKP 281 — Bodenbeläge (Estrich-Systeme, Terrazzo/Kunststein)» mit beiden Artikeln
+  zusammengeführt, der Doppeleintrag entfernt.
 - [ ] **BP46-2 — Kein Artikel zu Türen/Spezialverglasungen (BKP 273.0 / 274).** Am 28.08.2026 sind in
   `grobkosten` belegte Preisreihen für EI30-Schiebetüren mit integrierter Fluchttüre entstanden
   (Berchtold 2020 Serie, Jegen 2026 Einzelstück). **Kein Handlungsbedarf und ausdrücklich kein
   Widerspruch:** `bauprodukte` führt nach der Führungsmatrix keine Kennwerte für Kalkulationen, und ein
   Artikel auf Vorrat wäre nach dem Schreib-Riegel in `skills/wissenscheck/SKILL.md` Z. 55-78
   unerwünscht. Hier nur vermerkt, damit ein künftiger Türen-Artikel die belegten Fundstellen findet.
+
+## Wissens-Health-Check 01.09.2026 — offener Rest
+
+- [ ] **HC0901-1 — `ch24-wishbone-chair.md` und `matrah-moll-naturmatratze.md` tragen
+  `status: established` mit jeweils nur einer Quelle** (KB-Schreibregel 6 verlangt für
+  `established` eine unabhängige Zweitbelegung). Braucht ein zweites Datenblatt, eine Norm
+  oder einen eigenen Projektbeleg je Artikel — nicht durch Umformulieren lösbar, sondern nur
+  durch echte Zusatzrecherche. Für eine Nachtschicht mit 5-USD-Budget zu unscharf abgegrenzt
+  (zwei unabhängige Recherchen zu Konsumgüter-Möbeln); Kandidat für einen dedizierten Lauf oder
+  ersatzweise Herabstufung auf `emerging`, falls keine Zweitquelle auffindbar ist. Nicht
+  behoben in der Nachtschicht 04.09.2026, siehe CHANGELOG.

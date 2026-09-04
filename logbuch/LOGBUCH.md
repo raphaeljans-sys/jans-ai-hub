@@ -10942,3 +10942,35 @@ angewiesen. Sync-Task-Status auf `teilerledigt` gesetzt, Fortsetzungspunkte fuer
 
 Budget rund 2.1 von 5 USD. Zyklus sauber beendet, weiteres Restbudget bewusst nicht fuer den
 Beginn von Phase 1 verwendet (Ein-Aufgabe-Regel, sauberer Uebergabepunkt fuer den naechsten Lauf).
+
+## 2026-09-04 02:30 Nachtschicht Mac Mini — KB bauprodukte: Health-Check-Rest 01.09. bereinigt, ERCO-Registerdrift geschlossen
+
+Prioritaet 1 leer (kein `remote-tasks/pending/`, kein `sync-tasks/mac-mini/`). Prioritaet 2
+(Synobsis) geprueft: Stufe 1 seit Juli 853/853, Stufe 2 (`vectors.npz`) zuletzt am 02.09.
+neu gebaut, kein offener Anschlusspunkt fuer einen 5-USD-Slot. Freie Ziele nach Prioritaet 4
+sind `bauprodukte`/`energie`/`grobkosten` (grobkosten seit 13.08. als erledigt ausgesetzt);
+`energie` wurde laut Wiki-Mtime zuletzt heute 22:57 (13:30-Slot) bearbeitet, `bauprodukte`
+zuletzt am 28.08. — also faellig.
+
+`bauprodukte` selbst hat keine offenen Inventar-Positionen mehr (Korpus 1 der
+`wissens-destillat`-Queue seit 15.08. „erledigt"); statt eines neuen Artikels wurde darum der
+unerledigte Rest des Health-Checks vom 01.09.2026 abgearbeitet: (1) `kevi-buerodrehstuhl.md`
+verlinkte faelschlich auf `[[REGISTER]]` (fremde KB `normen`) statt `[[INDEX]]`, korrigiert.
+(2) `cheminee-aufbau-hafnerarbeiten.md` fuehrte `last_updated: 2026-08-01`, obwohl der Artikel
+am 24.08.2026 (Run 41) inhaltlich erweitert wurde — nachgezogen auf 2026-08-24. (3) BKP-281
+stand im `wiki/INDEX.md` doppelt (BP46-1, seit 28.08. offen) — beide Abschnitte zu einer
+Ueberschrift mit beiden Artikeln zusammengefuehrt. (4) Beim Gegenlesen von `QUESTIONS.md`
+zusaetzlich eine eigene, drei Wochen alte Registerdrift gefunden: Punkt 4 (ERCO-Ratgeber)
+fuehrte seit 06.08.2026 einen Stand von „145 von ca. 435 Seiten", waehrend die drei ERCO-
+Artikel (`erco-lichtplanung-grundlagen` S. 1-374, `-simulation-berechnung` S. 375-426,
+`-glossar` S. 427-435) das Dokument am Frontmatter `gelesen:` gemessen bereits seit dem
+14.08.2026 lueckenlos vollstaendig destilliert hatten — als ERLEDIGT geschlossen. Zwei
+Befunde des Health-Checks bleiben bewusst offen (`ch24-wishbone-chair`/`matrah-moll-
+naturmatratze`, `status: established` mit nur einer Quelle, Schreibregel-6-Verstoss): das
+braucht echte Zweitquellen-Recherche, keine Registerkorrektur, und ist fuer diesen Slot zu
+unscharf abgegrenzt — als HC0901-1 in `QUESTIONS.md` vermerkt statt begonnen und abgebrochen.
+
+CHANGELOG- und QUESTIONS-Eintraege in `wissen/bauprodukte/` gesetzt. Kein Sendegrund (reines
+Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 1.4 von 5 USD. Zyklus sauber beendet.

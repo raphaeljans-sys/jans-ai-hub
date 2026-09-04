@@ -1,5 +1,25 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-09-04 — Nachtschicht Mac Mini: drei Befunde aus dem Health-Check 01.09. behoben
+
+`kevi-buerodrehstuhl.md`: Frontmatter-Link `[[REGISTER]]` (fremde KB `normen`) auf
+`[[INDEX]]` korrigiert. `cheminee-aufbau-hafnerarbeiten.md`: `last_updated` von 2026-08-01
+auf 2026-08-24 nachgezogen (Artikel wurde an diesem Datum in Run 41 inhaltlich erweitert,
+Frontmatter war nicht mitgezogen worden). `wiki/INDEX.md`: BKP-281-Doppeleintrag (BP46-1,
+seit 28.08.2026 offen) zusammengeführt — eine Überschrift «BKP 281 — Bodenbeläge
+(Estrich-Systeme, Terrazzo/Kunststein)» mit beiden Artikeln statt zwei getrennter
+Abschnitte. Zusätzlich `wiki/QUESTIONS.md` Punkt 4 (ERCO-Ratgeber-Fortschritt) als
+ERLEDIGT geschlossen: der Eintrag führte seit 06.08.2026 einen Stand von «145 von ca. 435
+Seiten», während die drei Artikel [[erco-lichtplanung-grundlagen]] (S. 1-374),
+[[erco-lichtplanung-simulation-berechnung]] (S. 375-426) und [[erco-lichtplanung-glossar]]
+(S. 427-435) das 435-seitige PDF bereits seit dem 14.08.2026 lückenlos vollständig
+destilliert hatten — drei Wochen unbemerkte Registerdrift, gleiche Familie wie die im
+Eintrag selbst dokumentierten Vorfälle vom 05./06.08.2026. Kein neuer Wiki-Artikel in
+diesem Lauf; die verbleibenden zwei Health-Check-Befunde (Schreibregel-6-Verstoss bei
+`ch24-wishbone-chair`/`matrah-moll-naturmatratze`, jeweils nur eine Quelle für
+`established`) brauchen eine echte Zweitquelle und bleiben offen — nicht mit dieser
+Nachtschicht lösbar, siehe `wiki/QUESTIONS.md`.
+
 ## 2026-09-01 — Wissens-Health-Check (Phase 1)
 
 A0 · B2 · C0 · D0 · E0 · F3 · G1. Neu: `kevi-buerodrehstuhl.md` verlinkt fälschlich auf
