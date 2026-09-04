@@ -11146,3 +11146,37 @@ Checkbox E-R176-2 gesetzt, CHANGELOG-Eintrag in `wissen/energie/` gesetzt, Docst
 keine Ueberraschung. Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 0.5 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-04 13:30 Nachtschicht Mac Mini (Versuchs-Slot) — Werkzeug-Fix `datenstand-waechter.py`, E-R175-2 geschlossen
+
+Priorisierung: remote-tasks/pending und sync-tasks/mac-mini leer. Synobsis Stufe 2 (Prio 2)
+vollstaendig (853/853, Embeddings aktuell, letzter Lauf 25.07.). Fristen-Radar (Prio 3) bereits
+heute frueh vom hub-chef bearbeitet (Steinbrüchelstrasse-Entwurf liegt versandbereit, Aktion
+Raphael; KISPI Los 231.10 Jegen-Freigabe ist fachliche Plan-Pruefung, nicht nachtlauftauglich).
+Bei Prio 4 sind `baurecht`/`normen`/`planungsgrundlagen`/`wettbewerbs-dna` eigen getaktet,
+`grobkosten`/`bauprodukte`/`projekt-lessons` ausgesetzt (erledigt bzw. Delta-Null) — `energie`
+bleibt das einzige aktive freie Ziel, aber PDF-Inventar seit Run 65 erschoepft und der
+Fach-Nachlauf (E-R176-1/-3/-4) ist entweder heute frueh schon erledigt oder Raphael vorzulegen.
+
+Stattdessen den von Run 176 selbst benannten zweiten Nachfolgepunkt aufgegriffen: **E-R175-2**,
+derselbe Fehlermechanismus wie E-R176-2 (heute frueh behoben), anderes Werkzeug. Fund:
+`datenstand-waechter.py` sucht in einem 80-Zeichen-Radius nach der naechsten Jahreszahl hinter
+einem Trigger-Wort wie «Pruefstichtag», ohne die grammatische Bindung zu pruefen. Reproduziert
+am Satz «…meldet erledigte Pruefstichtage nicht mehr weiter. Der Punkt stand seit Lauf 165
+(27.08.2026) offen» — das Klammerdatum ist die Herkunftsangabe von Lauf 165, kein selbst
+gesetzter Stichtag, loeste aber einen unquittierten Treffer auf `QUESTIONS.md` Z. 164 aus.
+Fix: neues Muster `HERKUNFTSDATUM` erkennt ein Klammerdatum direkt hinter «Lauf N»/«Run N» (im
+Wissens-Layer durchgaengige Schreibweise) und schliesst es von Regel 3 aus. Nach der Reparatur
+loest der reproduzierte Fall nicht mehr aus; Regressionslauf gegen **alle 19 KBs** (nicht nur
+energie+normen wie beim Vorlauf, da dieses Werkzeug ohne `destillate/`-Einschraenkung ueber
+jede KB mit `wiki/` laeuft) identisch zur Baseline bis auf den behobenen Fall — die fuenf
+bereits quittierten echten Pruefstichtag-Treffer (17.08.2026 x4, 2026-09-02 x1) bleiben
+unveraendert quittiert, kein neuer und kein verschwundener Treffer sonst.
+
+Checkbox E-R175-2 gesetzt, CHANGELOG-Eintrag in `wissen/energie/` gesetzt, Docstring-Kommentar
+im Script ergaenzt. Ueber `nas-commit-now.sh` sofort commit+push ausgeloest (Commit `de4f9dc62`)
+statt auf den 15-Min-Cron zu warten; Diff nativ bestaetigt: CHANGELOG +18/-0, QUESTIONS.md
++11/-1, Script +13/-0 — alles erwartet. Kein Sendegrund (reines Hub-Internum ohne
+Aussenwirkung, Rule 260803).
+
+Budget rund 1.0 von 5 USD. Zyklus sauber beendet.
