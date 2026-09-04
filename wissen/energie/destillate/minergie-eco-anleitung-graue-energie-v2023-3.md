@@ -12,7 +12,7 @@ gelesen: beide Fassungen vollstaendig per curl geladen und mit pdftotext -layout
 datenstand: aktuell — dies ist die von Minergie selbst als gueltig gefuehrte Fassung
   (Stand Abruf 03.09.2026, keine neuere Version auf der Quellseite gelistet)
 status: established
-last_updated: 2026-09-03
+last_updated: 2026-09-04
 links: [[kbob-graue-treibhausgasemissionen-2025]], [[minergie-eco-gebaeudelabel]],
   [[minergie-nachweiskurs-2023-mkz-thge]], [[minergie-produktreglement-2026-1-muken-vergleich]]
 ---
@@ -34,7 +34,9 @@ nirgends vermerkt.
 V2023.3 ist keine reine Aktualisierung der Zahlen, sondern eine Strukturreform: ECO wird vom
 eigenstaendigen Label («Minergie-ECO») zum «Zusatz ECO» zu jedem Minergie-Standard, die
 Neubau-Basisgrenzwerte fuer Graue Energie sind neu kalibriert, und mindestens eine
-Vergünstigung (0,6-Faktor fuer Erdsonden/Waermeerzeugung bei -P/-A) ist ersatzlos verschwunden.
+Sonderregel (0,6-Faktor fuer Erdsonden/Waermeerzeugung bei -P/-A) ist ersatzlos gestrichen und
+durch die ausdrueckliche Anweisung ersetzt, fuer alle Minergie-Standards denselben Wert zu
+verwenden — was den ECO-Nachweis fuer P/-A-Bauten **erleichtert**, nicht erschwert (Abschnitt 8).
 
 ## 1) Terminologie- und Strukturwechsel (durchgehend)
 
@@ -146,24 +148,98 @@ aber KBOB-**Ökobilanzdaten 2022, Version 3**, Annahme neu **200 Wp/m²**. Die R
 Folge sowohl der neueren Ökobilanzdaten als auch einer geänderten Leistungsannahme — nicht
 weiter aufgeschlüsselt, welcher Anteil auf welchen Faktor entfällt.
 
-## 8) Verschwundener 0,6-Faktor für Minergie-P/-A (offener Punkt, nicht abschliessend geklärt)
+## 8) Der 0,6-Faktor für Minergie-P/-A — geklärt (Run 177, 04.09.2026)
 
-V1.3 nennt an **zwei** Stellen einen Herabsetzungsfaktor 0,6 für Minergie-P/-A-Bauten:
-- Fussnote zu Erdsonden («Für Minergie-P und Minergie-A-Bauten sind die Werte mit 0.6 zu
-  multiplizieren»), unmittelbar im Anschluss an die Erdsonden-Basisgrenzwerte;
-- bei der Erneuerung/Modernisierung der Haustechnik («Achtung: Für Minergie-P und Minergie-A-
-  Bauten sind die Werte für die Wärmeerzeugung mit 0.6 zu multiplizieren»), zweimal (nach der
-  kWh- und nach der CO₂-Tabelle).
+**Der Punkt galt seit dem 03.09.2026 als «nicht aus dem Anleitungstext entscheidbar». Das war
+falsch: die Antwort steht wörtlich in der Fussnote, deren Wegfall den Punkt ausgelöst hat.**
 
-**In V2023.3 ist an keiner der drei Stellen ein 0,6-Faktor mehr zu finden** — weder in der
-Erdsonden-Fussnote (Fussnote 3, umformuliert, ohne Faktor) noch bei den beiden
-Erneuerungs-Tabellen. Der einzige verbleibende Multiplikator in V2023.3 ist der **Faktor 1.2**
-für die Aussenbauteile bei Minergie-P/-A (unverändert in beiden Fassungen vorhanden, Abschnitt
-4.2/4.3). Zwei Lesarten sind offen und **nicht aus dem Anleitungstext allein zu entscheiden**:
-(a) der Faktor wurde bewusst gestrichen (Systemvereinfachung, Erleichterung für P/A-Bauten
-entfällt), oder (b) er ist implizit in die neu kalibrierten Basiswerte eingerechnet worden.
-Da beide Anleitungen reine Text-/Tabellendokumente ohne Berechnungsformel sind, lässt sich das
-nicht rückrechnen. **Bleibt offen, siehe QUESTIONS.md E-R176-1.**
+### Der Befund in einem Satz
+
+Der 0,6-Faktor ist **bewusst gestrichen und ausdrücklich ersetzt** worden, nicht implizit in die
+Basiswerte eingerechnet — V2023.3 sagt in derselben Erdsonden-Fussnote positiv, was neu gilt.
+
+### Der Beleg (wörtlich)
+
+**V1.3, Fussnote 3 (Neubau, S. 10) und Fussnote 4 (Erneuerung, S. 14):**
+
+> «Für Minergie-P und Minergie-A-Bauten sind die Werte mit 0.6 zu multiplizieren.»
+
+**V2023.3, Fussnote 3 zu denselben Erdsonden-Basisgrenzwerten:**
+
+> «Basis stellt der Datensatz 31.016 „Erdsonden, für Sole-Wasser-Wärmepumpe" der
+> KBOB-Ökobilanzdaten 2022, Version 3 dar. Es wird von einer Entnahmeleistung von 36 W/m, einem
+> Wärmeleistungsbedarf von 20 W/m² EBF und einer Arbeitszahl der Wärmepumpe von 4 ausgegangen.
+> **Für alle Minergie-Standards ist derselbe Wert zu verwenden.**»
+
+Das ist keine Auslassung, sondern eine **Ersetzungsklausel**: an der Stelle, an der V1.3 den
+Faktor anordnete, ordnet V2023.3 ausdrücklich dessen Gegenteil an. Damit ist die im Vorlauf
+offengelassene Lesart (b) — «der Faktor ist implizit in die neu kalibrierten Basiswerte
+eingerechnet» — **ausgeschlossen**: ein Wert, der für alle Standards derselbe ist, kann keinen
+standardabhängigen Faktor enthalten. Zwei unabhängige Gegenproben stützen das:
+
+**Gegenprobe 1 — die Zahlen sind unverändert.** Erdsonden-Basisgrenzwert 1.4 kWh/m²·a bzw.
+0.3 kg CO₂/m²·a in **beiden** Fassungen; Wärmeerzeugung bei Erneuerung 0.2 kWh/m²·a bzw.
+0.04 kg CO₂/m²·a, ebenfalls in beiden identisch und über **alle** Nutzungskategorien gleich. Wäre
+der Faktor eingerechnet worden, hätten diese Werte sich ändern oder nach Standard aufspalten
+müssen.
+
+**Gegenprobe 2 — dasselbe Zahlenwerk in einem zweiten Regelwerk, ebenfalls ohne Faktor.** Das
+Minergie-Produktreglement 2026.1 (Anhang G) führt für die THGE-Grenzwerte die zahlengleichen
+Haustechnik-Zuschläge Erdsonde **+0,3**, PV **+7,1**, Solarthermie **+5,6** kg CO₂-eq/m²·a — und
+kennt dort ebenfalls keinen P/A-Faktor (`[[minergie-standards]]`, `[[graue-energie]]`). Zwei
+unabhängig geführte Regelwerke Minergies behandeln die Haustechnik-Zuschläge heute
+standardunabhängig.
+
+### Die zweite Stelle: Wärmeerzeugung bei Erneuerung
+
+Hier ist der Befund schwächer und wird als solcher ausgewiesen. V1.3 trägt die Klausel «Achtung:
+Für Minergie-P und Minergie-A-Bauten sind die Werte für die Wärmeerzeugung mit 0.6 zu
+multiplizieren» bei der Haustechnik-Erneuerungstabelle; **in V2023.3 fehlt sie ersatzlos**, ohne
+dass an dieser Stelle eine Ersetzungsklausel nachgeschoben würde. Der einzige verbliebene
+«Achtung»-Satz in V2023.3 ist der für die Aussenbauteile (Faktor 1.2), wortgleich zu V1.3.
+Für die Wärmeerzeugung stützt sich der Schluss also auf die **Analogie zur Erdsonden-Klausel plus
+die unveränderten Werte**, nicht auf einen eigenen Satz der Quelle.
+
+### ⚠ Richtungskorrektur: der Faktor war keine «Vergünstigung»
+
+**Bis zum 04.09.2026 führte dieses Destillat den 0,6-Faktor als «Vergünstigung» für
+Minergie-P/-A. Das ist die falsche Wirkrichtung.** Die Tabellenwerte sind **Basisgrenzwerte**:
+aus ihnen und den zugehörigen Flächen errechnen sich die objektspezifischen Grenzwerte GW1 und
+GW2, gegen welche die berechnete Graue Energie gemessen wird. V2023.3 definiert sie ausdrücklich:
+
+> «Der Grenzwert 1 (GW1) bezeichnet den Übergang zwischen gut (grün) und befriedigend (orange),
+> der Grenzwert 2 (GW2) den Übergang zwischen befriedigend (orange) und unbefriedigend (rot).»
+
+Ein **höherer** Grenzwert ist also leichter zu erfüllen, ein **tieferer** schwerer. Daraus folgt:
+
+| Faktor in V1.3 | Wirkung auf den Grenzwert | Bedeutung für Minergie-P/-A |
+|---|---|---|
+| **0,6** auf Erdsonden / Wärmeerzeugung | senkt ihn auf 60 % | **Verschärfung** |
+| **1,2** auf Aussenbauteile | erhöht ihn auf 120 % | **Erleichterung** |
+
+Beide Faktoren sind sachlogisch konsistent und in der Quelle nur für den 1,2er begründet
+(«um den höheren Materialeinsatz für den besseren Wärmeschutz zu berücksichtigen»). Für den
+0,6er liegt die naheliegende Begründung in der Fussnote selbst: sie leitet den Erdsonden-Wert aus
+einem **Wärmeleistungsbedarf von 20 W/m² EBF** her — ein Minergie-P/-A-Bau braucht weniger, also
+eine kürzere Sonde und damit weniger graue Energie. *(Diese Herleitung ist eigene Einordnung; die
+Quelle nennt für den 0,6-Faktor keine Begründung.)*
+
+**Konsequenz:** Der Wegfall des 0,6-Faktors ist für Minergie-P/-A-Bauten eine **Erleichterung**,
+kein Verlust. Sie dürfen den Erdsonden- und Wärmeerzeugungs-Zuschlag heute in voller Höhe
+ansetzen wie jeder Minergie-Basisbau, behalten aber den Hüllen-Bonus von 1,2. Netto ist der
+ECO-Nachweis für P/A-Bauten seit V2023.3 **milder** geworden.
+
+### Was daran die Methodenlehre ist
+
+Der Vorlauf hat die Fussnote als «umformuliert, ohne Faktor» korrekt als **verändert** erkannt und
+den Satz, der die Veränderung erklärt, in derselben Fussnote nicht gelesen. **Eine festgestellte
+Auslassung ist erst dann untersucht, wenn der Text an genau dieser Stelle vollständig gelesen
+wurde** — ein Diff sagt, dass etwas fehlt, nicht, was an seine Stelle getreten ist. Gleiche
+Familie wie die «Geltungsbereich mitlesen»-Lehre der sechsten Prüfung (`training/PROGRAMM.md`).
+
+**Status:** geklärt für die Erdsonden-Stelle (wörtlicher Beleg), begründet geschlossen für die
+Wärmeerzeugungs-Stelle (Analogie + unveränderte Werte, keine eigene Ersetzungsklausel).
+Ursprünglich QUESTIONS.md E-R176-1 (Minergie-Strang, siehe dort zur ID-Doppelvergabe).
 
 ## 9) Was unverändert blieb
 
@@ -185,7 +261,8 @@ nicht rückrechnen. **Bleibt offen, siehe QUESTIONS.md E-R176-1.**
   der Bilanzliste selbst) — das ist ein Fehler in der **Quelle selbst**, in beiden Fassungen
   identisch übernommen, keine Korrektur zwischen V1.3 und V2023.3.
 - SIA-Merkblatt-2032-Bezug, 60 Jahre Nutzungsdauer, Bilanzperimeter gesamtes Gebäude — unverändert.
-- Faktor 1.2 für Aussenbauteile bei Minergie-P/-A — unverändert vorhanden.
+- Faktor 1.2 für Aussenbauteile bei Minergie-P/-A — unverändert vorhanden (und, anders als der
+  gestrichene 0,6-Faktor, eine **Erleichterung**: er hebt den Grenzwert; siehe Abschnitt 8).
 
 ## Redundanzhinweis (Schritt 0)
 

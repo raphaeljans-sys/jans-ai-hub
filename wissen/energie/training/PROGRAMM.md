@@ -205,3 +205,34 @@ Erst danach darf «es gelten …» geschrieben werden; sonst heisst es «die Aus
 (`1,8 / 2,2 / 2,8`) acht Fundstellen, der zweite ueber Varianten (`Uf 1,8`, `Kunststoff Uf 2,2`)
 **zwei weitere mit der Sachaussage im Fliesstext** — beide in der FAQ. Ohne den zweiten Durchgang
 waere der Indach-Fall exakt wiederholt worden.
+
+---
+
+## Siebte Pruefung ab Run 177 (04.09.2026): **Welche andere KB fuehrt dieses Thema?**
+
+**Warum die Pruefung dazukommt.** Run 176 (03.09.2026) recherchierte zehn Tage lang eine
+PV-Foerderstaffel als offenen Punkt, waehrend die dritte Leistungsklasse die ganze Zeit in
+`wissen/planungsgrundlagen/wiki/energie-betriebsenergie-pv-wirtschaftlichkeit.md` stand. Die
+bestehende Regel E46-1 verlangt den Cross-KB-Blick beim **Schliessen** eines Punkts
+(Bringschuld nach aussen, Rule `wissens-bibliothekar`). Sie sagt nichts ueber das **Eroeffnen
+und Aufgreifen** — und dort faellt der teurere Fehler an: eine Recherche, die gar nicht noetig
+gewesen waere.
+
+**Was ab jetzt gilt.** Bevor ein offener Punkt extern recherchiert wird, laeuft ein `grep` mit
+seinen Kernbegriffen ueber `wissen/*/wiki/` und `wissen/*/destillate/` der **anderen** KBs. Der
+Schritt kostet unter einer Minute und geht der Websuche voraus, nicht nach.
+
+**Ehrliche Erstanwendung, Run 177 (04.09.2026).** Fuer den 0,6-Faktor der Minergie-ECO-Anleitung
+lieferte der Cross-KB-grep **null Treffer** — keine andere KB fuehrt die ECO-Basisgrenzwerte. Die
+Regel hat hier also nichts gespart. Das ist **kein Argument gegen sie**: ein Schritt, der eine
+Minute kostet und in einem von zehn Faellen zehn Tage spart, rechnet sich auch dann, wenn die
+neun anderen Faelle leer ausgehen. Wer die Regel nur bei Treffern fuer bewaehrt haelt, misst die
+falsche Groesse (gleiche Familie wie Rule `rollen-taxonomie` Punkt 4, «nie Laeufe zaehlen, immer
+Ertrag» — hier umgekehrt: nicht die Trefferquote zaehlt, sondern der Erwartungswert).
+
+**Ein Nebenbefund, der den Schritt trotzdem gerechtfertigt hat.** Der grep fand zwar keine
+fremde KB, aber **innerhalb** dieser KB die zahlengleichen Haustechnik-Zuschlaege im
+Minergie-Produktreglement 2026.1 (`[[minergie-standards]]`, `[[graue-energie]]`: Erdsonde +0,3,
+PV +7,1, Solarthermie +5,6 kg CO₂-eq/m²·a) — dasselbe Zahlenwerk in einem zweiten Regelwerk,
+dort ebenfalls ohne P/A-Faktor. Das wurde zum entscheidenden Zweitbeleg. **Der Cross-KB-Schritt
+ist deshalb immer auch ein KB-interner Querschnitt**, nicht nur ein Blick nach draussen.
