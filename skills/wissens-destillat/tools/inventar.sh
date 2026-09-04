@@ -51,10 +51,30 @@ passt_ext() {  # $1 = pfad
 
 # ---------------------------------------------------------------- --stand ---
 if [ "$MODUS" = "--stand" ]; then
-    ges=$(grep -c '^- \[' "$SEKTIONEN" 2>/dev/null || echo 0)
-    fer=$(grep -c '^- \[x\]' "$SEKTIONEN" 2>/dev/null || echo 0)
-    dat=$(grep -c '^| \[' "$INVENTAR" 2>/dev/null || echo 0)
-    off=$(grep -c '^| \[ \]' "$INVENTAR" 2>/dev/null || echo 0)
+    # Ehrlichkeits-Wache (04.09.2026, Vollgas-Fruehwarnung): fehlen die Eingabe-
+    # dateien, lieferte dieser Block bisher ein sauberes "sektionen=0/0
+    # dateien_inventarisiert=0" — eine stille Null, die wie ein Sachbefund
+    # aussieht. Die aktiven Korpora 3 und 4 fuehren ihr Inventar seit dem
+    # 29.08.2026 als Sektionsdateien unter
+    # wissen/<ziel-kb>/raw/inventar/<korpus>__<sektion>.md und legen
+    # training/<korpus>-{sektionen,inventar}.md gar nicht mehr an. Statt zu
+    # raten wird das hier benannt und mit rc=6 quittiert; die Fortschritts-
+    # Semantik des neuen Formats (P1/P2 je Triage-Tabelle) gehoert in den Skill
+    # wissens-destillat, nicht in ein Messwerkzeug.
+    if [ ! -f "$SEKTIONEN" ] || [ ! -f "$INVENTAR" ]; then
+        RAWINV="$HUB/wissen/$ZIEL_KB/raw/inventar"
+        n_sek=0
+        [ -d "$RAWINV" ] && n_sek=$(ls "$RAWINV"/${KORPUS}__*.md 2>/dev/null | wc -l | tr -d ' ')
+        echo "korpus=$KORPUS ziel_kb=$ZIEL_KB stand=UNMESSBAR grund=training-inventar-fehlt sektionsdateien_raw=$n_sek"
+        echo "  erwartet: $SEKTIONEN" >&2
+        echo "  erwartet: $INVENTAR" >&2
+        echo "  vorhanden stattdessen: $RAWINV/${KORPUS}__*.md ($n_sek Dateien)" >&2
+        exit 6
+    fi
+    ges=$(grep -c '^- \[' "$SEKTIONEN" 2>/dev/null); ges=${ges:-0}
+    fer=$(grep -c '^- \[x\]' "$SEKTIONEN" 2>/dev/null); fer=${fer:-0}
+    dat=$(grep -c '^| \[' "$INVENTAR" 2>/dev/null); dat=${dat:-0}
+    off=$(grep -c '^| \[ \]' "$INVENTAR" 2>/dev/null); off=${off:-0}
     echo "korpus=$KORPUS ziel_kb=$ZIEL_KB sektionen=$fer/$ges dateien_inventarisiert=$dat dateien_offen=$off"
     exit 0
 fi

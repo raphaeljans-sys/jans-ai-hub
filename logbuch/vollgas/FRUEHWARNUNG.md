@@ -4019,3 +4019,22 @@ Stückkosten (teuer beider Stationen je neu geschriebenem oder erweitertem Wiki-
 Passend dazu und dem Radar bereits bekannt: das Gate-Log `logbuch/speicher/gate-Macmini.log` endet am 31.08. 13:30, die Nachtschicht hat seither keine Freigabe mehr angefragt. `ch.jans.nachtschicht` ist geladen und mit Status 0 beendet, also nicht abgestürzt. Der Radar hat den Nullbefund der Nachtschicht heute um 00:57 selbst gemeldet und als Material- statt Drosselproblem gedeutet; das deckt sich mit den Stückkosten oben. Kein zweiter Kanal von hier — der Befund gehört ihm.
 
 Zuletzt gemailt: **24.08.2026 07:50**. Nächste Mail erst bei neuer Kontingent-Erschöpfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag, Aufwand ohne Wissenszuwachs oder komplett gemeldeter Korpus-Queue.
+
+## 2026-09-04 07:15 — Rohblock (Messung, Bewertung folgt im selben Lauf)
+
+Messzeitpunkt 07:15 CEST, NAS gemountet, beide Stationen messbar (Mini über Alias `mini`; die
+Tailscale-IP wurde gar nicht erst versucht, gemäss Befund 17./18.08.).
+
+Verbrauch teuer (in+cache_creation+out) / total, in Mio Token:
+
+MacBook Pro: 29.08. 9.52/222.30 · 30.08. 6.37/140.99 · 31.08. 7.02/160.50 · 01.09. 11.19/324.88 · 02.09. 9.20/219.74 · 03.09. 10.12/204.17 · 04.09. (bis 07:15) 1.88/34.24
+Mac Mini: 29.08. 29.84/679.38 · 30.08. 49.10/1159.68 · 31.08. 1.45/53.06 · 01.09. 1.59/56.02 · 02.09. 2.49/53.63 · 03.09. 2.40/66.38 · 04.09. (bis 07:15) 0.51/18.63
+
+Beide Stationen zusammen teuer: 01.09. 12.78 · 02.09. 11.69 · 03.09. 12.52 · 04.09. bislang 2.39.
+Kein Tag über 35 Mio, keine zwei Folgetage über je 18 Mio. Der 03.09. schliesst mit 12.52 auf
+demselben ruhigen Band wie die beiden Vortage; die Schub-Nächte vom 29./30.08. (39.36 und 55.47)
+bleiben die einzigen Ausreisser der Reihe und liegen ausserhalb des 24-Stunden-Fensters.
+
+Blockade-Status: KEIN echtes Usage-/Rate-Limit-Fehlerereignis in den letzten 24 h auf beiden
+Stationen (strukturell geprüft über isApiErrorMessage / type==error / message.type==error /
+apiErrorStatus==429, Text gegen usage/rate/weekly limit).
