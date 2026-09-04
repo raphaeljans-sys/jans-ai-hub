@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 04.09.2026 13:12:49
+Stand: 04.09.2026 13:23:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 04.09.2026 13:12:49
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 59a7e41a7 vollgas-radar 04.09.2026: Korrektur-Harness am Eintrag 12:57 — echte Umlaute, abgebrochener Satz geschlossen (19 von 72 Commits substanziell), Vorlaufwert -27.1 statt -27
+- 8fc4a566e nas-selfcommit: 1 Datei(en) 2026-09-04 13:15

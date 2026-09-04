@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.09.2026 13:07:03
+Stand: 04.09.2026 13:27:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 12:58)
@@ -12,4 +12,4 @@ Stand: 04.09.2026 13:07:03
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 077773410 vollgas-radar 04.09.2026 12:57: [FREI], Probe 6s, Messfalle Watchdog-Wanduhr, Unterauslastung -30.5 Punkte
+- 8fc4a566e nas-selfcommit: 1 Datei(en) 2026-09-04 13:15
