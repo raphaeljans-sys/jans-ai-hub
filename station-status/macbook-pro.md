@@ -1,9 +1,8 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.09.2026 01:47:30
+Stand: 04.09.2026 01:57:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/kwc/sirius/bs302/kispi/cd9dd1  (letzte Aktivitaet 01:25)
 - Developer/jans/ai/hub  (letzte Aktivitaet 01:42)
 
 ## Laufende Arbeits-Prozesse
@@ -13,4 +12,4 @@ Stand: 04.09.2026 01:47:30
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 5bdf89e2e nas-selfcommit: 4 Datei(en) 2026-09-04 01:45
+- 682112f0e normen Run 79 Nachtrag: QUESTIONS.md append-only wiederhergestellt (Rule 260811 — globales Ersetzen hatte 231 historische Zeilen umgeschrieben, Gegenmessung jetzt 80/0); Verstoss und Reparatur in Report und CHANGELOG protokolliert
