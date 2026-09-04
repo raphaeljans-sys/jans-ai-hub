@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 2026-09-04 — Werkzeug-Fix: `fehloffen-waechter.py` verwechselte ID-Zitat mit ID-Schliessung (E-R176-2)
+
+Kein Fachbefund, ein Werkzeug-Fix mit Wirkung auf alle 19 KBs (das Script ist gemeinsames
+Werkzeug im Wissens-Layer, `wissen/tools/`). Der Typ-2-Redundanz-Check («ist eine offene ID
+anderswo im Journal bereits als erledigt vermerkt?») zaehlte jede Zeile als Beleg, die die
+ID-Zeichenkette enthielt UND ein Schliess-Wort trug — auch wenn diese Zeile zu einem GANZ
+ANDEREN, bereits abgehakten Eintrag gehoerte und die geprüfte ID nur beilaeufig zitierte
+(reproduzierter Fund E-R176-2: eine E-R164-3-Zeile erwaehnte «E-R172-1» als Referenz und
+loeste dabei einen Fehlalarm fuer E-R172-1 aus). Fix: ein Treffer zaehlt nur noch, wenn die
+Zeile zum eigenen Bullet-Block der gepruften ID gehoert oder ausserhalb jedes Bullet-Blocks
+als freier Fliesstext steht (das uebliche Muster echter Nachtraege), nie innerhalb eines
+fremden Blocks mit anderer erkannter Kennung. Synthetisch reproduziert und nach der Reparatur
+widerlegt; Regressionslauf gegen `energie` + `normen` (die beiden KBs mit `destillate/`)
+identisch zur Baseline (0 Befunde). **E-R175-2 (`datenstand-waechter.py`) bleibt eigenstaendig
+offen** — anderes Werkzeug, anderer Mechanismus, trotz aehnlichem Symptom («Erwaehnung statt
+Aussage»). Details: `wiki/QUESTIONS.md` E-R176-2.
+
 ## 2026-09-03 — Run 176: EIV-Leistungsbeitraege am Tarifrechner gemessen (E-R162-2 geschlossen)
 
 **Fachbefund mit Geldwirkung.** Der Pronovo-Tarifrechner wurde im Browser ueber neun Stuetzstellen

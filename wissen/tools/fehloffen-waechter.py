@@ -24,6 +24,16 @@ E-R164-2, E-R165-1, E-R166-6), alle aus den letzten zwei Wochen. Typ 1 fragt "be
 Destillat die Frage?", Typ 2 fragt "hat ein spaeterer Lauf sie bereits beantwortet und es nur
 nicht abgehakt?".
 
+FEHLERKORREKTUR Typ 2 (04.09.2026, Fund E-R176-2 der KB energie): eine Zeile, die eine ID nur
+BEILAEUFIG ZITIERT (z. B. eine bereits abgehakte, andere Frage, die zur Erklaerung auf eine
+fruehere ID verweist), wurde faelschlich als Schliessung DIESER ID gelesen, sobald irgendein
+Schliess-Wort im selben Satz stand — die Regel unterschied nicht zwischen "diese Zeile schliesst
+Punkt X" und "diese Zeile gehoert zu einem ANDEREN Punkt und erwaehnt X nur". Seither zaehlt eine
+Zeile nur dann als Beleg, wenn sie ENTWEDER zum eigenen Bullet-Block der gepruften ID gehoert
+(deren Fortsetzungszeilen) ODER ausserhalb jedes erkannten Bullet-Blocks steht (freier Fliesstext
+unter einer Run-Ueberschrift, das uebliche Muster echter Nachtraege) — nie innerhalb eines FREMDEN
+Blocks mit einer anderen erkannten Kennung.
+
 Aufruf:
     python3 wissen/tools/fehloffen-waechter.py            # alle Wissensbasen mit destillate/
     python3 wissen/tools/fehloffen-waechter.py energie     # eine
@@ -177,6 +187,9 @@ def pruefe_kb(wurzel, kb, melde):
 # verworfen — genau daran haengen die echten Dauerbrenner (E103, E94, E-R148-1), die in
 # Sammelzeilen als noch offen aufgezaehlt werden.
 KENNUNG_OFFEN = re.compile(r"^\s*- \[ \] \*\*(E-[A-Za-z0-9]+(?:-\d+)?|E\d+(?:-\d+)?)(?![\w-])")
+# Wie KENNUNG_OFFEN, aber unabhaengig vom Haekchen — dient nur dazu, den EIGENTUEMER eines
+# Bullet-Blocks zu erkennen (fuer den Fund E-R176-2 unten).
+KENNUNG_BULLET = re.compile(r"^\s*- \[[ x]\] \*\*(E-[A-Za-z0-9]+(?:-\d+)?|E\d+(?:-\d+)?)(?![\w-])")
 SCHLIESS = re.compile(r"geschlossen|erledigt|gel[oö]est|gel[oö]st|abgeschlossen|✓|✅", re.IGNORECASE)
 OFFEN_SIGNAL = re.compile(
     r"bleibt offen|bleiben offen|verbleibend|weiterhin offen|weiterhin ungel|noch offen|"
@@ -211,15 +224,37 @@ def pruefe_kennungen(wurzel, kb, melde):
         if m:
             offen.setdefault(m.group(1), []).append(nr)
 
-    def eigener_block(start):
-        """Text des eigenen Bullet-Blocks (fuer die Selbstauskunft des Eintrags)."""
+    def block_bereich(start):
+        """1-basierte Zeilennummern (inklusive) des Bullet-Blocks, der bei `start` beginnt."""
         i = start
         ende = i + 1
         while ende < len(zeilen) and zeilen[ende].strip() and not zeilen[ende].startswith(
             ("- [", "#", "**")
         ):
             ende += 1
+        return i, ende
+
+    def eigener_block(start):
+        """Text des eigenen Bullet-Blocks (fuer die Selbstauskunft des Eintrags)."""
+        i, ende = block_bereich(start)
         return " ".join(zeilen[i - 1 : ende])
+
+    # Eigentuemer-Karte: fuer jede Zeile, die zu EINEM Bullet-Block gehoert (Kopf oder
+    # Fortsetzung), die Kennung dieses Blocks (oder None, wenn der Block keine traegt).
+    # Fund E-R176-2 (03.09.2026): eine fremde, bereits abgehakte Frage kann eine andere ID
+    # beilaeufig zitieren und dabei selbst ein Schliess-Signal fuer IHRE EIGENE Erledigung
+    # tragen ("...E-R172-1, den Run 176 erledigt hat") — das ist eine Erwaehnung, keine
+    # Aussage ueber E-R172-1. Zeilen ausserhalb jedes Bullet-Blocks (freier Fliesstext unter
+    # einer Run-Ueberschrift, das uebliche Muster echter Nachtraege wie bei E-R164-3) bleiben
+    # gueltige Belege; nur Zeilen innerhalb eines FREMDEN Blocks mit ERKANNTER anderer Kennung
+    # werden verworfen.
+    eigentuemer = {}
+    for nr, zeile in enumerate(zeilen, 1):
+        m = KENNUNG_BULLET.match(zeile)
+        if m and nr not in eigentuemer:
+            i, ende = block_bereich(nr)
+            for z in range(i, ende + 1):
+                eigentuemer.setdefault(z, m.group(1))
 
     for kennung, eigene in offen.items():
         # Sagt der Eintrag selbst, warum er offen BLEIBT (Beschaffungsentscheid, Teilschliessung,
@@ -231,6 +266,9 @@ def pruefe_kennungen(wurzel, kb, melde):
         for nr, zeile in enumerate(zeilen, 1):
             if nr in eigene or not muster.search(zeile):
                 continue
+            fremd = eigentuemer.get(nr)
+            if fremd is not None and fremd != kennung:
+                continue  # Zeile gehoert einem anderen Eintrag, der diese ID nur zitiert
             umfeld = " ".join(zeilen[nr - 1 : nr + 2])
             if not SCHLIESS.search(zeile) or OFFEN_SIGNAL.search(umfeld):
                 continue

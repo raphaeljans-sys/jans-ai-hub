@@ -10974,3 +10974,38 @@ CHANGELOG- und QUESTIONS-Eintraege in `wissen/bauprodukte/` gesetzt. Kein Sendeg
 Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 1.4 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-04 05:4x Nachtschicht Mac Mini — Werkzeug-Fix `fehloffen-waechter.py`, E-R176-2 geschlossen
+
+Prioritaet 1 leer (kein `remote-tasks/pending/`, kein `sync-tasks/mac-mini/`). Prioritaet 2
+(Synobsis) weiterhin ohne offenen Anschlusspunkt. Fristen-Register geprueft: der grosse
+Sync-Divergenz-Vorfall (571+ Commits) ist seit 02.09. abschliessend geloest, aktuell 0/0
+Divergenz zu GitHub (nativ per ssh gemessen) — kein Entwurf noetig. Freie Ziele nach
+Prioritaet 4: `energie` (Wiki-Mtime 03.09. 22:57) laenger nicht bearbeitet als `bauprodukte`
+(04.09. 02:33, bereits im vorigen Slot erledigt) — `energie` gewaehlt.
+
+`energie` selbst hat keinen offenen Fach-Fund (PDF-Inventar seit Run 65 erschoepft,
+`curriculum.md` ohne offenen Punkt; die naechsten P2/P3-Punkte E-R176-3/E-R167-3 sind
+Cross-Skill-Bringschulden, die Raphael vorzulegen sind, kein Nachtlauf-Entscheid). Stattdessen
+den von Run 176 selbst benannten naechsten Schritt aufgegriffen: **E-R176-2**, ein
+Werkzeug-Fehlalarm in `wissen/tools/fehloffen-waechter.py` (gemeinsames Werkzeug aller 19 KBs,
+nicht energie-exklusiv). Fund: der Typ-2-Redundanz-Check zaehlte jede Zeile als
+Schliessungsbeleg einer ID, die deren Zeichenkette enthielt UND ein Schliess-Wort trug — auch
+wenn die Zeile zu einem GANZ ANDEREN, bereits abgehakten Eintrag gehoerte und die geprüfte ID
+nur beilaeufig zitierte. Synthetisch reproduziert (der urspruengliche, vor der Umformulierung
+stehende Wortlaut mit «E-R172-1» loeste zuverlaessig aus), dann repariert: ein Treffer zaehlt
+nur noch als Beleg, wenn die Zeile zum eigenen Bullet-Block der gepruften ID gehoert oder
+ausserhalb jedes Bullet-Blocks als freier Fliesstext steht — nie innerhalb eines fremden Blocks
+mit anderer erkannter Kennung. Nach der Reparatur loest der reproduzierte Fall nicht mehr aus;
+Regressionslauf gegen `energie` + `normen` (die beiden KBs mit `destillate/`) identisch zur
+Baseline (0/0 Befunde vorher/nachher). **E-R175-2 (`datenstand-waechter.py`) bewusst NICHT
+mitbehoben** — anderes Werkzeug, anderer Mechanismus (Datum in Klammern statt ID-Zitat in
+fremdem Block); die in `QUESTIONS.md` vermerkte «gleiche Familie» war eine Symptom-Analogie,
+keine gemeinsame Codestelle. Bleibt eigenstaendig offen, P3, ohne Dringlichkeit.
+
+Checkbox E-R176-2 gesetzt, CHANGELOG-Eintrag in `wissen/energie/` gesetzt, Docstring von
+`fehloffen-waechter.py` ergaenzt. Diff-Umfang vor dem Commit nativ per ssh gemessen
+(`git diff --numstat`): CHANGELOG +17/-0, QUESTIONS.md +11/-1, Script +40/-2 — alles erwartet,
+keine Ueberraschung. Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 0.5 von 5 USD. Zyklus sauber beendet.

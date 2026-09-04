@@ -66,7 +66,7 @@ gegengemessen»), und Rule `wege-und-vollmachten`.
   vermerkt war. Konkreter Vorschlag: ein `grep` ueber `wissen/*/wiki/` mit den Kernbegriffen des
   Punkts, bevor extern recherchiert wird — billig, und es haette hier zehn Tage gespart. Betrifft
   alle KBs, nicht nur `energie`.
-- [ ] **E-R176-2 (P3, Werkzeug): `fehloffen-waechter.py` (Typ 2) meldet bei blosser Erwaehnung
+- [x] **E-R176-2 (P3, Werkzeug): `fehloffen-waechter.py` (Typ 2) meldet bei blosser Erwaehnung
   einer Punkt-ID.** Als in der abgehakten E-R164-3-Zeile die ID «E-R172-1» referenziert wurde,
   meldete der Waechter E-R172-1 als Fehl-Offen — die Zeile ist abgehakt, also gilt sie ihm als
   Erledigungsmeldung fuer **jede** darin genannte ID. Im Lauf durch Umformulierung entschaerft
@@ -74,6 +74,16 @@ gegengemessen»), und Rule `wege-und-vollmachten`.
   zwischen «diese Zeile schliesst Punkt X» und «diese Zeile erwaehnt Punkt X». **Gleiche Familie
   wie E-R175-2** (`datenstand-waechter.py` liest eine Jahreszahl in Klammern als Stichtag): beide
   Waechter verwechseln **Erwaehnung mit Aussage**. Lohnt sich, gemeinsam zu beheben.
+  ✓ **Geschlossen 04.09.2026 (Nachtschicht Mac Mini):** `fehloffen-waechter.py` repariert —
+  ein Treffer zaehlt nur noch als Beleg, wenn die Zeile zum EIGENEN Bullet-Block der gepruften
+  ID gehoert oder ausserhalb jedes Bullet-Blocks als freier Fliesstext steht, nie innerhalb
+  eines FREMDEN Blocks mit anderer erkannter Kennung. Reproduziert (der urspruengliche,
+  unformulierte Wortlaut mit «E-R172-1» loeste vor der Reparatur zuverlaessig aus, danach
+  nicht mehr) und gegen `energie`+`normen` regressionsgeprueft (0 Befunde vorher/nachher,
+  identisch). **E-R175-2 bewusst NICHT mitbehoben** — anderes Werkzeug
+  (`datenstand-waechter.py`), anderer Fehlermechanismus (Datum in Klammern statt ID-Zitat in
+  fremdem Block); die «gleiche Familie» war eine Analogie auf Symptomebene («Erwaehnung vs.
+  Aussage»), keine gemeinsame Codestelle. Bleibt eigenstaendig offen.
 - [ ] **E-R176-3 (P2, Cross-Skill-Bringschuld): die EIV-Marginalstaffel gehoert in die
   rechnenden Skills.** Jede Wirtschaftlichkeitsrechnung mit PV-Anteil (`machbarkeit` Typ B,
   `healthcare-wirtschaftlichkeit`, `grobkosten-onepager`, `immobilienbewertung` bei
