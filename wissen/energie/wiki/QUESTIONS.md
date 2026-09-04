@@ -2,6 +2,89 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 177 (04.09.2026, Tageslauf) — E-R176-1m geschlossen: die Antwort stand in der Fussnote, deren Wegfall die Frage ausgeloest hatte
+
+**Block 1 (PDF-Transfer) faellt weiterhin strukturell aus** (`pdf-inventar.md` seit Run 65
+abgearbeitet, `curriculum.md` ohne offenen Fachpunkt). Der Lauf hat den substanziellsten offenen
+Fachpunkt genommen — den Minergie-0,6-Faktor, den der Vorlauf als «nur per Nachweistool oder
+Rueckfrage bei der Zertifizierungsstelle klaerbar, ausserhalb des Nachtschicht-Budgets» abgelegt
+hatte. **Beide Anleitungen wurden erneut vollstaendig gelesen; die Antwort steht im Text.**
+
+### Der Fachbefund
+
+Der 0,6-Faktor fuer Minergie-P/-A ist **bewusst gestrichen und ausdruecklich ersetzt**, nicht
+implizit eingerechnet. V2023.3 sagt an der Stelle, an der V1.3 den Faktor anordnete, woertlich:
+«**Fuer alle Minergie-Standards ist derselbe Wert zu verwenden.**» Dazu zwei Gegenproben (Zahlen
+unveraendert; Produktreglement 2026.1 fuehrt die zahlengleichen Zuschlaege ebenfalls ohne Faktor).
+
+**Dazu eine Richtungskorrektur mit Planungswirkung:** die KB fuehrte den Faktor als
+«Verguenstigung» fuer P/-A-Bauten. Tatsaechlich wirkte er auf einen **Grenzwert**-Beitrag, senkte
+diesen um 40 % und machte den ECO-Nachweis damit **schwerer**. Sein Wegfall ist eine Entlastung.
+Der gegenlaeufige Faktor **1.2** fuer die Aussenbauteile bleibt in Kraft. Netto ist der
+ECO-Nachweis fuer Minergie-P/-A seit V2023.3 milder. Volle Herleitung: Eintrag **E-R176-1m** unten.
+
+### Erstanwendung der neuen Cross-KB-Regel — ehrlich: null Treffer
+
+**E-R176-1 (methodisch) ist umgesetzt** und wurde in diesem Lauf zuerst angewandt: der `grep` ueber
+`wissen/*/wiki/` und `*/destillate/` der anderen KBs lieferte fuer den 0,6-Faktor **keinen
+Treffer** — keine andere KB fuehrt die ECO-Basisgrenzwerte. Die Regel hat hier also nichts
+gespart. Sie bleibt trotzdem richtig: ein Schritt, der eine Minute kostet und in einem von zehn
+Faellen zehn Tage spart, rechnet sich ueber den Erwartungswert, nicht ueber die Trefferquote.
+**Einen Nebenertrag hatte er doch** — er fand KB-intern die zahlengleichen Zuschlaege im
+Produktreglement 2026.1, und die wurden zum zweiten Beleg. Festgehalten als siebte Pruefung in
+`training/PROGRAMM.md`.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R177-1 (P2, methodisch): Eine festgestellte Auslassung ist erst untersucht, wenn die
+  Stelle vollstaendig gelesen ist.** Der Vorlauf hat die Erdsonden-Fussnote korrekt als «veraendert»
+  erkannt («umformuliert, ohne Faktor») und den Satz, der die Veraenderung erklaert, **in derselben
+  Fussnote** nicht gelesen. Daraus wurde ein Punkt, der einen Nachweistool-Test und eine
+  Behoerdenrueckfrage verlangte — beides unnoetig. **Ein Diff sagt, dass etwas fehlt; er sagt nicht,
+  was an seine Stelle getreten ist.** Konkrete Regel: wird ein Wegfall zwischen zwei Fassungen
+  festgestellt, wird der **umgebende Absatz der neuen Fassung im Volltext** gelesen, bevor der Punkt
+  als offen eroeffnet wird. Gleiche Familie wie die «Geltungsbereich mitlesen»-Lehre der sechsten
+  Pruefung. Betrifft jede Fassungsvergleichs-Arbeit, nicht nur diese KB.
+- [ ] **E-R177-2 (P3, Register): ID-Doppelvergabe E-R176-1 — zwei Laeufe am selben Tag.** Der
+  Nachtschicht-Lauf und der Tageslauf des 03.09.2026 vergaben **beide** die Kennung E-R176-1, fuer
+  zwei verschiedene Sachverhalte (Minergie-0,6-Faktor bzw. Cross-KB-Holschuld). Die Kollision hatte
+  sich bereits in drei Dateien fortgepflanzt (`destillate/INDEX.md`, beide betroffenen Destillate).
+  In diesem Lauf entschaerft: der Minergie-Strang laeuft als **E-R176-1m** und ist geschlossen, der
+  methodische Strang behaelt **E-R176-1**. **Die Ursache bleibt:** die Kennung wird aus der
+  Run-Nummer gebildet, und an einem Tag koennen zwei Laeufe mit derselben Nummer schreiben
+  (Nachtschicht + Tageslauf). Vorschlag: Nachtschicht-Laeufe vergeben ein `n`-Suffix
+  (E-R176n-1), oder die Kennung wird aus dem Datum statt der Run-Nummer gebildet. Nicht selbst
+  entschieden, weil es das Kennungsschema aller Laufberichte beruehrt.
+- [ ] **E-R177-4 (P3, Werkzeug): der Bericht ueber einen Waechter-Befund wird selbst zum
+  Waechter-Befund.** Der heutige Fix an `datenstand-waechter.py` (Slot 13:30, E-R175-2) hat einen
+  neuen, unquittierten Treffer erzeugt — nicht im Code, sondern in seiner eigenen Dokumentation:
+  der Satz «die fuenf bereits quittierten echten Pruefstichtag-Treffer (**17.08.2026** x4,
+  2026-09-02 x1) bleiben unveraendert als quittiert gefunden» wird von Regel 3 als **neuer, selbst
+  gesetzter Pruefstichtag** gelesen (Fundstelle heute `QUESTIONS.md` Z. 235, im Waechter-Lauf vom
+  04.09.2026 der einzige unquittierte der fuenf gleichartigen). **Dieselbe Familie wie E-R175-2 und
+  E-R176-2, aber ein dritter Ausloeser:** nicht die Erwaehnung einer ID, nicht ein Herkunftsdatum,
+  sondern das **Zitat eines Befunds im Text ueber dessen Behebung**. Das Muster wird sich
+  wiederholen, solange Waechter-Fixes im selben Journal dokumentiert werden, das sie pruefen —
+  und das ist richtig so, die Dokumentation gehoert dorthin. Loesungsrichtung: eine Zeile, die
+  innerhalb eines mit ✓ abgehakten Bullet-Blocks steht, taugt nicht als Fundstelle fuer einen
+  **offenen** Stichtag (analog zur Block-Logik, mit der `fehloffen-waechter.py` heute repariert
+  wurde). Nicht selbst behoben — der Waechter wurde heute schon zweimal angefasst, und ein
+  dritter Eingriff am selben Tag ohne Not ist der falsche Reflex.
+
+- [ ] **E-R177-3 (P3, Quellenfehler): Einheiten-Widerspruch in beiden ECO-Anleitungen.** Die
+  Grenzwert-Grafik traegt **MJ/m²AE·a**, der Fliesstext daneben sagt «Die Grenzwerte haben die
+  Einheit **kWh/m²a**» — identisch in V1.3 und V2023.3, also ein unbereinigter Fehler der Quelle,
+  keine Fassungsaenderung. Im Destillat vermerkt. Bei Gelegenheit an Minergie melden; fuer die KB
+  gilt die Fliesstext-Einheit.
+
+### In diesem Lauf geschlossen
+- [x] **E-R176-1 (P2, methodisch) — Cross-KB-Schritt VOR der Recherche** ✓ 2026-09-04. Als siebte
+  Pruefung in `training/PROGRAMM.md` verankert, samt der ehrlichen Erstanwendung (null Treffer) und
+  dem Merksatz, dass die Regel ueber den Erwartungswert zu bewerten ist, nicht ueber die
+  Trefferquote. Die Gegenrichtung (Bringschuld beim Schliessen) bleibt als **E46-1** offen — sie
+  verlangt eine Aenderung, die alle 19 KBs betrifft, und gehoert dem Wissens-Chef.
+- [x] **E-R176-1m — Minergie-0,6-Faktor** ✓ 2026-09-04, siehe unten am Ursprungseintrag.
+
 ## Run 176 (03.09.2026, Tageslauf) — E-R162-2 am Rechner geschlossen: die EIV-Staffel ist marginal, und eine dritte Stufe fehlte
 
 **Block 1 des PROGRAMMs (PDF-Transfer) faellt weiterhin strukturell aus** (`pdf-inventar.md` seit
@@ -58,8 +141,10 @@ gegengemessen»), und Rule `wege-und-vollmachten`.
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R176-1 (P2, methodisch): Die Abschlussregel braucht einen Cross-KB-Schritt VOR der
-  Recherche, nicht nur danach.** E46-1 verlangt beim **Schliessen** zu fragen, welche andere KB das
+- [x] **E-R176-1 (P2, methodisch): Die Abschlussregel braucht einen Cross-KB-Schritt VOR der
+  Recherche, nicht nur danach.** ✓ **Geschlossen 04.09.2026 (Run 177)** — als siebte Pruefung in
+  `training/PROGRAMM.md` verankert und im selben Lauf erstmals angewandt (Ergebnis: null Treffer,
+  ein KB-interner Nebenertrag; siehe Laufabschnitt oben). E46-1 verlangt beim **Schliessen** zu fragen, welche andere KB das
   Thema nach der Matrix fuehrt. Dieser Lauf zeigt die Gegenrichtung: **beim Eroeffnen oder
   Aufgreifen** eines offenen Punkts gehoert dieselbe Frage gestellt — die dritte Leistungsklasse
   stand zehn Tage lang in `planungsgrundlagen`, waehrend hier «nicht abschliessend geklaert»
@@ -464,8 +549,9 @@ Quelle im naechsten Lauf erneut geprueft.
   Baugrubenabschluss/Pfaehlung wurde gestrichen, und die Nutzungskategorien wurden konsolidiert
   (Kleine Wohnbauten→Wohnen EFH, Museen→Versammlungslokal, Kleine Schulbauten entfallen). Vollstaendiger
   Vergleich: `[[minergie-eco-anleitung-graue-energie-v2023-3]]`. Nachtrag in
-  `[[kbob-graue-treibhausgasemissionen-2025]]` gesetzt. Ein Punkt bleibt offen, neu unter E-R176-1.
-- [ ] **E-R176-1 (P2, neu aus E-R167-1): Ist der 0,6-Faktor fuer Minergie-P/-A bei Erdsonden und
+  `[[kbob-graue-treibhausgasemissionen-2025]]` gesetzt. Ein Punkt blieb offen (E-R176-1, wegen
+  ID-Doppelvergabe heute umbenannt in **E-R176-1m**) und ist am 04.09.2026 in Run 177 geschlossen.
+- [x] **E-R176-1m (P2, neu aus E-R167-1): Ist der 0,6-Faktor fuer Minergie-P/-A bei Erdsonden und
   Waermeerzeugung bewusst gestrichen oder implizit in die neuen Basiswerte eingerechnet?** V1.3 kennt
   an zwei Stellen einen Herabsetzungsfaktor 0,6 fuer Minergie-P/-A-Bauten (Erdsonden-Fussnote,
   Erneuerung-Waermeerzeugung). In V2023.3 ist der Faktor an keiner der beiden Stellen mehr zu finden;
@@ -473,6 +559,34 @@ Quelle im naechsten Lauf erneut geprueft.
   Berechnungsformel/Nachweistool) nicht entscheidbar. Klaerung nur moeglich durch Test in einem
   zugelassenen Nachweistool (Lesosai o.ae.) mit einem Minergie-P/-A-Referenzobjekt, oder durch
   Rueckfrage bei der Zertifizierungsstelle Minergie-ECO — beides ausserhalb des Nachtschicht-Budgets.
+  ✓ **Geschlossen 04.09.2026 (Run 177) — und die Praemisse war falsch: es war sehr wohl aus dem
+  Anleitungstext entscheidbar.** Die Antwort steht woertlich in derselben Fussnote, deren Wegfall den
+  Punkt ausgeloest hatte. V2023.3, Fussnote 3 zum Erdsonden-Basisgrenzwert der Neubau-Tabelle:
+  «**Fuer alle Minergie-Standards ist derselbe Wert zu verwenden.**» Das ist keine Auslassung, sondern
+  eine **Ersetzungsklausel** — der Faktor ist **bewusst gestrichen** (Lesart a). Lesart b (implizit
+  eingerechnet) ist damit ausgeschlossen: ein Wert, der fuer alle Standards derselbe ist, kann keinen
+  standardabhaengigen Faktor enthalten. Zwei Gegenproben stuetzen das: (1) die Zahlen sind unveraendert
+  (Erdsonde 1.4 / 0.3; Waermeerzeugung Erneuerung 0.2 / 0.04, in beiden Fassungen und ueber alle
+  Nutzungen gleich); (2) das Minergie-Produktreglement 2026.1 fuehrt die zahlengleichen Zuschlaege
+  (+0,3 / +7,1 / +5,6 kg CO₂-eq/m²·a) ebenfalls ohne P/A-Faktor.
+  **Zusaetzlich eine Richtungskorrektur:** das Destillat fuehrte den 0,6-Faktor als «Verguenstigung».
+  Er wirkte auf einen **Grenzwert**-Beitrag (GW1 = Uebergang gut→befriedigend, GW2 →unbefriedigend),
+  senkte diesen also und machte den Nachweis **schwerer**; sein Wegfall entlastet Minergie-P/-A. Der
+  Faktor 1.2 fuer Aussenbauteile wirkt umgekehrt und bleibt in Kraft.
+  **Refuter-Panel am Quelltext: 5/5 im Kern bestaetigt, vier Praezisierungen eingearbeitet** — die
+  Ersetzungsklausel steht nur in der Neubau-Fussnote (fuer die Erneuerung gilt sie mittelbar); V1.3
+  nennt das Kapitel «Modernisierung», nicht «Erneuerung»; die Waermeerzeugungs-Klausel steht dort
+  **zweimal** und als «Achtung»-Absatz im Fliesstext, nicht als Fussnote; und die Aggregationsformel
+  Basisgrenzwert → GW1/GW2 ist in der Quelle **nirgends abgedruckt**, die Richtungsaussage ist ein
+  belegter Schluss, keine Formel. Gelandet in `[[minergie-eco-anleitung-graue-energie-v2023-3]]`
+  (Abschnitt 8 neu), `[[kbob-graue-treibhausgasemissionen-2025]]`, `[[graue-energie]]` (neuer
+  Abschnitt), FAQ **F273** + **F274**, `destillate/INDEX.md`.
+  **Die Methodenlehre:** der Vorlauf hat die Fussnote als «umformuliert, ohne Faktor» korrekt als
+  veraendert erkannt und den Satz, der die Veraenderung erklaert, in derselben Fussnote nicht gelesen.
+  **Eine festgestellte Auslassung ist erst dann untersucht, wenn der Text an genau dieser Stelle
+  vollstaendig gelesen wurde** — ein Diff sagt, dass etwas fehlt, nicht, was an seine Stelle getreten
+  ist. Neu als **E-R177-1** gefuehrt.
+
 - [ ] **E-R167-2 (P2, terminiert): KBOB-Einreichefrist 30.10.2026 und Bilanzierungsregeln v9.** Die
   KBOB/ecobau-Liste 2027 erscheint im Fruehjahr 2027, Einreichefrist fuer Datensaetze ist der
   **30.10.2026**, die Bilanzierungsregeln v9 sind angekuendigt, aber nicht publiziert. Ab Oktober 2026

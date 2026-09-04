@@ -1,5 +1,51 @@
 # CHANGELOG
 
+## 2026-09-04 — Run 177: der Minergie-0,6-Faktor geklaert (E-R176-1m), inkl. Richtungskorrektur; Cross-KB-Schritt verankert (E-R176-1)
+
+**Fachbefund mit Planungswirkung.** Der seit dem 03.09.2026 offene Punkt zum verschwundenen
+0,6-Faktor fuer Minergie-P/-A galt als «nur per Nachweistool oder Rueckfrage bei der
+Zertifizierungsstelle klaerbar». Er war aus dem Anleitungstext entscheidbar: V2023.3 (26.11.2024)
+sagt an der Stelle, an der V1.3 (31.03.2021) den Faktor anordnete, woertlich «Fuer alle
+Minergie-Standards ist derselbe Wert zu verwenden» — eine **Ersetzungsklausel**, keine Auslassung.
+Der Faktor ist also bewusst gestrichen und nicht implizit eingerechnet; zwei Gegenproben stuetzen
+das (Zahlen unveraendert; Produktreglement 2026.1 fuehrt die zahlengleichen Zuschlaege +0,3/+7,1/+5,6
+kg CO₂-eq/m²·a ebenfalls standardunabhaengig).
+
+**Dazu eine Richtungskorrektur:** die KB fuehrte den Faktor als «Verguenstigung». Er wirkte auf
+einen **Grenzwert**-Beitrag (GW1 = Uebergang gut→befriedigend, GW2 →unbefriedigend), senkte diesen
+um 40 % und machte den ECO-Nachweis fuer P/-A-Bauten **schwerer**. Sein Wegfall ist eine
+Entlastung; der gegenlaeufige Faktor 1.2 fuer die Aussenbauteile bleibt in Kraft. Netto ist der
+ECO-Nachweis fuer Minergie-P/-A seit V2023.3 milder — eine Vorprojektrechnung mit dem alten Faktor
+ist zu pessimistisch.
+
+**Refuter-Panel am Quelltext: 5/5 im Kern bestaetigt**, vier Praezisierungen uebernommen (die
+Ersetzungsklausel steht nur in der Neubau-Fussnote; V1.3 sagt «Modernisierung», nicht
+«Erneuerung»; die Waermeerzeugungs-Klausel steht dort zweimal und als Fliesstext-Absatz; die
+Aggregationsformel Basisgrenzwert → GW1/GW2 ist **nirgends abgedruckt**, die Richtungsaussage ist
+ein belegter Schluss und die Wertung «Verschaerfung/Erleichterung» eigene Einordnung). Zusaetzlich
+ein Quellenfehler gefunden: Grafik-Einheit MJ/m²AE·a gegen Fliesstext kWh/m²a, identisch in beiden
+Fassungen (E-R177-3).
+
+**Methodisch:** E-R176-1 umgesetzt als **siebte Pruefung** in `training/PROGRAMM.md` — Cross-KB-grep
+vor der externen Recherche. Erstanwendung ehrlich dokumentiert: **null Treffer** ausserhalb der KB,
+aber der entscheidende Zweitbeleg **innerhalb** (Produktreglement). Die Regel ist ueber den
+Erwartungswert zu bewerten, nicht ueber die Trefferquote. Neu offen: **E-R177-1** (eine
+festgestellte Auslassung ist erst untersucht, wenn die Stelle vollstaendig gelesen ist — der
+Vorlauf hat den erklaerenden Satz in derselben Fussnote nicht gelesen) und **E-R177-2**
+(ID-Doppelvergabe E-R176-1 durch Nachtschicht- und Tageslauf desselben Datums; Minergie-Strang
+laeuft neu als E-R176-1m).
+
+**Kontrolllauf am Schluss:** `fehloffen-waechter.py` meldet **null** Befunde (Checkbox-Disziplin
+E-R172-1 eingehalten); `datenstand-waechter.py` meldet einen neuen unquittierten Treffer, dessen
+Ursache die **Dokumentation seines eigenen Fixes von heute 13:30** ist — dritter Ausloeser der
+Familie «Erwaehnung statt Aussage», neu als **E-R177-4**, bewusst nicht am selben Tag behoben.
+
+Gewachsen: `[[minergie-eco-anleitung-graue-energie-v2023-3]]` (Abschnitt 8 neu),
+`[[kbob-graue-treibhausgasemissionen-2025]]`, `[[graue-energie]]` (neuer ECO-Abschnitt), FAQ
+**F273** + **F274**, `destillate/INDEX.md`, `wiki/INDEX.md` (Stand 274 Fragen / 346 Destillate),
+`wiki/QUESTIONS.md`, `training/PROGRAMM.md`. Bericht:
+`outputs/2026-09-04_energie-run177.md`.
+
 ## 2026-09-04 (Versuchs-Slot 13:30) — Werkzeug-Fix: `datenstand-waechter.py` verwechselte Herkunftsdatum mit Pruefstichtag (E-R175-2)
 
 Kein Fachbefund, ein Werkzeug-Fix mit Wirkung auf alle 19 KBs (gemeinsames Werkzeug

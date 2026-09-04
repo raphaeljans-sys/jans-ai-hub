@@ -149,9 +149,17 @@ Haustechnik-Werte haben sich geaendert. Der vollstaendige Seite-fuer-Seite-Vergl
 zeigt, dass auch die **primaere Neubau-Grenzwerttabelle (GWPEAE, kWh/m²a) je Nutzungskategorie**
 neu kalibriert wurde (z.B. Wohnen MFH GW1/GW2 25.0/36.1 → 28/35, Verkauf 47.2/58.3 → 39/57), dass
 auch der **kWh-Wert der PV-Anlage** sich mehr als halbiert hat (47.2 → 25.5, nicht nur der CO₂-Wert),
-und dass ein **0,6-Faktor fuer Minergie-P/-A bei Erdsonden/Waermeerzeugung** in V2023.3 ersatzlos
-verschwunden ist (offen, siehe QUESTIONS.md E-R176-1). Vollstaendiger Vergleich mit allen Tabellen:
-`[[minergie-eco-anleitung-graue-energie-v2023-3]]`. E-R167-1 damit geschlossen.
+und dass der **0,6-Faktor fuer Minergie-P/-A bei Erdsonden/Waermeerzeugung** in V2023.3 entfallen
+ist. Vollstaendiger Vergleich mit allen Tabellen: `[[minergie-eco-anleitung-graue-energie-v2023-3]]`.
+E-R167-1 damit geschlossen.
+⚠ **Nachtrag 04.09.2026 (Run 177), der 0,6-Punkt ist geklaert und war falsch etikettiert:** der
+Faktor ist **bewusst gestrichen und ausdruecklich ersetzt**, nicht implizit eingerechnet — V2023.3
+sagt in derselben Fussnote «Fuer alle Minergie-Standards ist derselbe Wert zu verwenden». Und die
+Wirkrichtung war hier wie im Quell-Destillat verkehrt beschrieben: der 0,6-Faktor wirkte auf einen
+**Grenzwert**-Beitrag, senkte diesen also und machte den Nachweis fuer P/-A-Bauten **schwerer**;
+sein Wegfall ist eine Entlastung, kein Verlust. Der Faktor **1.2** fuer die Aussenbauteile (unten)
+wirkt umgekehrt und bleibt in Kraft. Herleitung, Zitate und Vorbehalte:
+`[[minergie-eco-anleitung-graue-energie-v2023-3]]`, Abschnitt 8; Bauherren-Fassung FAQ **F273**.
 
 - Andere Nutzungskategorien (Verwaltung, Schule, Verkauf, Restaurant, Museen, **Spital**, Industrie,
   Kleine Schulbauten, Sportbauten) liegen bei Aussenwand/Dach/Bodenplatte teils **hoeher** (z.B. Spital

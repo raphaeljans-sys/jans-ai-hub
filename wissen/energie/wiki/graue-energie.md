@@ -1,10 +1,10 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-09-04
 datenstand: 2006-12 (ältester zitierter Quellenstand: KBOB-Ökobilanzdaten-Gründungsempfehlung 2007, Datenstand Dezember 2006 — im Artikel als Methodik-Illustration ohne geltende Rechenwerte gekennzeichnet; aktuelle Datenbasis KBOB-Ökobilanzdaten **v9.0, 14.07.2026** — korrigiert 2026-08-24, vorher v8.0; KBOB-Faktenblatt Graue THGE, Stand 04.04.2025 unverändert Version 1; Norm **SIA 390/1:2025 «Klimapfad» seit 01.02.2025 in Kraft**, ersetzt SIA 2040:2017)
-sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md, destillate/kbob-oekobilanzdaten-baubereich-2007.md]
-links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]], [[kbob-oekobilanzdaten-baubereich-2007]]
+sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md, destillate/kbob-oekobilanzdaten-baubereich-2007.md, destillate/minergie-eco-anleitung-graue-energie-v2023-3.md]
+links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]], [[kbob-oekobilanzdaten-baubereich-2007]], [[minergie-eco-anleitung-graue-energie-v2023-3]]
 ---
 
 # Graue Energie & THGE
@@ -77,6 +77,46 @@ angelehntes Graue-Energie-Modul (Teil G) ins kantonale Muster-Baurecht ein — s
 MuKEn 2025 umsetzt, wird die THGE-Grenze vom freiwilligen Label-Extra zur gesetzlichen Auflage.
 Noch nicht in Kraft, Umsetzungshorizont 2025-2030 → `[[muken-2025-verabschiedet]]`.)
 Standards-Übersicht → `[[minergie-standards]]`.
+
+## Der Zusatz ECO: wie der Nachweis rechnet — und was für Minergie-P/-A gilt (Run 177, 04.09.2026)
+
+Der Nachweis der Grauen Energie beim **Zusatz ECO** (bis 2024 «Minergie-ECO») folgt einer eigenen
+Anleitung, nicht dem Produktreglement. Zwei Stränge laufen dort getrennt: der eine berechnet die
+tatsächliche Graue Energie des Projekts aus den realen Bauteilen, der andere setzt aus
+**Basisgrenzwerten** je Bauteil und den zugehörigen Flächen zwei objektspezifische Grenzwerte
+zusammen. Erst am Schluss werden beide ins Verhältnis gesetzt. Die Quelle definiert die Skala
+ausdrücklich: **GW1** ist der Übergang von gut (grün) zu befriedigend (orange), **GW2** der
+Übergang zu unbefriedigend (rot). Ein höherer Grenzwert ist demnach leichter zu erfüllen.
+
+Dass die Grenzwerte objektspezifisch sind, hat einen benannten Zweck: Bauten mit viel Haustechnik
+(z. B. einer grossen PV-Anlage) sollen «nicht bestraft», Teilsanierungen «nicht grundsätzlich
+belohnt» werden. Jedes vorhandene Element hebt also den Grenzwert um seinen Basiswert.
+
+**Für Minergie-P und Minergie-A galten dabei zwei gegenläufige Sonderregeln:**
+
+| Faktor | Gegenstand | Wirkung auf den Nachweis | Stand V2023.3 |
+|---|---|---|---|
+| **1,2** | Basisgrenzwerte der Aussenbauteile | leichter — gleicht den höheren Materialeinsatz für den besseren Wärmeschutz aus (so die Quelle wörtlich) | **in Kraft** |
+| **0,6** | Basisgrenzwerte Erdsonden und Wärmeerzeugung (Erneuerung) | schwerer — senkt den anrechenbaren Beitrag um 40 % | **gestrichen** |
+
+Der 0,6-Faktor ist mit der Fassung **V2023.3 vom 26.11.2024** entfallen, und zwar nicht
+stillschweigend: an seiner Stelle steht heute «Für alle Minergie-Standards ist derselbe Wert zu
+verwenden». Die Zahlenwerte selbst blieben unverändert (Erdsonde 1,4 kWh/m²·a bzw. 0,3 kg
+CO₂/m²·a), er wurde also auch nicht in die Basiswerte eingerechnet. **Netto ist der ECO-Nachweis
+für Minergie-P/-A damit milder geworden** — der Hüllen-Bonus bleibt, der Haustechnik-Malus ist weg.
+
+Dieselbe Systematik zeigt das **Produktreglement 2026.1** (Anhang G, siehe oben): dort stehen die
+zahlengleichen Zuschläge Erdsonde +0,3, PV +7,1 und Solarthermie +5,6 kg CO₂-eq/m²·a, ebenfalls
+ohne Unterscheidung nach Standard. Zwei getrennt geführte Regelwerke Minergies behandeln die
+Haustechnik-Zuschläge heute also gleich.
+
+**Vorbehalt, ausdrücklich:** Wie die Basisgrenzwerte der Einzelelemente zu GW1/GW2 verrechnet
+werden, druckt die Anleitung **nicht** ab — sie sagt nur «errechnet sich». Die Richtungsaussage
+oben ist ein belegter Schluss aus der «nicht bestrafen»-Passage, keine abgedruckte Formel. Und die
+Wertungen «leichter/schwerer» sind Einordnung; die Quelle wertet nirgends und nennt für den
+0,6-Faktor gar keinen Grund. Herleitung, wörtliche Zitate und die Gegenproben:
+`[[minergie-eco-anleitung-graue-energie-v2023-3]]`, Abschnitt 8. Bauherren-Fassung: FAQ **F273**
+(Sonderregeln P/-A) und **F274** (alten Nachweis nicht übernehmen).
 
 ## Sanieren vor Neubau
 Der Erhalt von Tragstruktur und Rohbau spart genau den grössten graue-Energie-Posten (~40–49 %).

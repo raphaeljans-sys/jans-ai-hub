@@ -160,11 +160,12 @@ Basiswerte eingerechnet — V2023.3 sagt in derselben Erdsonden-Fussnote positiv
 
 ### Der Beleg (wörtlich)
 
-**V1.3, Fussnote 3 (Neubau, S. 10) und Fussnote 4 (Erneuerung, S. 14):**
+**V1.3, Fussnote 3 (Neubau) und Fussnote 4 (Kapitel «Modernisierung»), beide am Spaltenkopf
+«Erdsonden» der Haustechnik-Basisgrenzwerte:**
 
 > «Für Minergie-P und Minergie-A-Bauten sind die Werte mit 0.6 zu multiplizieren.»
 
-**V2023.3, Fussnote 3 zu denselben Erdsonden-Basisgrenzwerten:**
+**V2023.3, Fussnote 3 zum Erdsonden-Basisgrenzwert der Neubau-Tabelle:**
 
 > «Basis stellt der Datensatz 31.016 „Erdsonden, für Sole-Wasser-Wärmepumpe" der
 > KBOB-Ökobilanzdaten 2022, Version 3 dar. Es wird von einer Entnahmeleistung von 36 W/m, einem
@@ -172,7 +173,13 @@ Basiswerte eingerechnet — V2023.3 sagt in derselben Erdsonden-Fussnote positiv
 > **Für alle Minergie-Standards ist derselbe Wert zu verwenden.**»
 
 Das ist keine Auslassung, sondern eine **Ersetzungsklausel**: an der Stelle, an der V1.3 den
-Faktor anordnete, ordnet V2023.3 ausdrücklich dessen Gegenteil an. Damit ist die im Vorlauf
+Faktor anordnete, ordnet V2023.3 ausdrücklich dessen Gegenteil an.
+
+⚠ **Reichweite des Zitats, präzisiert nach Refuter-Prüfung:** der Satz steht in V2023.3 **genau
+einmal**, nämlich in der **Neubau**-Fussnote. Die Haustechnik-Tabelle im Erneuerungskapitel führt
+«Erdsonden» dort **ohne Fussnotenzeichen** — für die Erneuerung gilt der Satz also nur mittelbar
+(gleiche Werte, gleiche Tabellenstruktur, ausdrücklich «analog zu den Neubauten definiert»), nicht
+durch eigenes Zitat. In V1.3 dagegen trug **jede** der beiden Tabellen ihre eigene 0,6-Fussnote. Damit ist die im Vorlauf
 offengelassene Lesart (b) — «der Faktor ist implizit in die neu kalibrierten Basiswerte
 eingerechnet» — **ausgeschlossen**: ein Wert, der für alle Standards derselbe ist, kann keinen
 standardabhängigen Faktor enthalten. Zwei unabhängige Gegenproben stützen das:
@@ -194,8 +201,11 @@ standardunabhängig.
 
 Hier ist der Befund schwächer und wird als solcher ausgewiesen. V1.3 trägt die Klausel «Achtung:
 Für Minergie-P und Minergie-A-Bauten sind die Werte für die Wärmeerzeugung mit 0.6 zu
-multiplizieren» bei der Haustechnik-Erneuerungstabelle; **in V2023.3 fehlt sie ersatzlos**, ohne
-dass an dieser Stelle eine Ersetzungsklausel nachgeschoben würde. Der einzige verbliebene
+multiplizieren» **zweimal** — je einmal unter der kWh- und unter der CO₂-Tabelle der
+Haustechnik-Modernisierung — und zwar als **«Achtung»-Absatz im Fliesstext**, nicht als Fussnote.
+**In V2023.3 fehlt sie ersatzlos**, ohne dass an dieser Stelle eine Ersetzungsklausel
+nachgeschoben würde. Der Faktor 0.6 kommt in V2023.3 an **keiner** Stelle des Dokuments mehr vor
+(Suche über den Volltext beider Extraktionen). Der einzige verbliebene
 «Achtung»-Satz in V2023.3 ist der für die Aussenbauteile (Faktor 1.2), wortgleich zu V1.3.
 Für die Wärmeerzeugung stützt sich der Schluss also auf die **Analogie zur Erdsonden-Klausel plus
 die unveränderten Werte**, nicht auf einen eigenen Satz der Quelle.
@@ -212,17 +222,34 @@ GW2, gegen welche die berechnete Graue Energie gemessen wird. V2023.3 definiert 
 
 Ein **höherer** Grenzwert ist also leichter zu erfüllen, ein **tieferer** schwerer. Daraus folgt:
 
-| Faktor in V1.3 | Wirkung auf den Grenzwert | Bedeutung für Minergie-P/-A |
+| Faktor in V1.3 | Wirkung auf den Grenzwert-Beitrag | Wirkung auf den Nachweis |
 |---|---|---|
-| **0,6** auf Erdsonden / Wärmeerzeugung | senkt ihn auf 60 % | **Verschärfung** |
-| **1,2** auf Aussenbauteile | erhöht ihn auf 120 % | **Erleichterung** |
+| **0,6** auf Erdsonden / Wärmeerzeugung | senkt ihn auf 60 % | schwerer zu erfüllen |
+| **1,2** auf Aussenbauteile | erhöht ihn auf 120 % | leichter zu erfüllen |
 
-Beide Faktoren sind sachlogisch konsistent und in der Quelle nur für den 1,2er begründet
-(«um den höheren Materialeinsatz für den besseren Wärmeschutz zu berücksichtigen»). Für den
-0,6er liegt die naheliegende Begründung in der Fussnote selbst: sie leitet den Erdsonden-Wert aus
-einem **Wärmeleistungsbedarf von 20 W/m² EBF** her — ein Minergie-P/-A-Bau braucht weniger, also
-eine kürzere Sonde und damit weniger graue Energie. *(Diese Herleitung ist eigene Einordnung; die
-Quelle nennt für den 0,6-Faktor keine Begründung.)*
+**Drei Vorbehalte zu dieser Tabelle, alle aus der Refuter-Prüfung, alle einzuhalten:**
+
+**01 «Verschärfung» und «Erleichterung» sind nicht die Sprache der Quelle.** Beide Fassungen
+werten nirgends. Belegt ist die *Wirkung* (tieferer Grenzwert = schwerer zu erfüllen), nicht eine
+Absicht des Herausgebers. Wer die Wertung der Quelle zuschreibt, geht über sie hinaus.
+
+**02 Die Aggregationsformel ist nirgends abgedruckt.** Weder V1.3 noch V2023.3 zeigen, wie die
+Basisgrenzwerte der Einzelelemente zu GW1/GW2 verrechnet werden; beide sagen nur «errechnet
+sich». Dass ein Faktor auf einen Baustein den Gesamtgrenzwert in dieselbe Richtung bewegt, ist
+ein **Schluss** aus der Passage, ein vorhandenes Element solle «nicht bestraft» werden — ein
+starker Schluss, aber ein Schluss.
+
+**03 Der Faktor wirkte nur bedingt.** Er griff ausschliesslich, wenn überhaupt eine Erdsonde
+vorhanden war («Erdsonde (Auswahl)» als Eingabeparameter). Ein P/A-Bau ohne Erdsonde war davon
+nie betroffen.
+
+In der Quelle begründet ist nur der 1,2er («um den höheren Materialeinsatz für den besseren
+Wärmeschutz zu berücksichtigen»). Für den 0,6er nennt V1.3 **keinen** Grund. Naheliegend ist eine
+Mengenkorrektur: die Fussnote leitet den Erdsonden-Wert aus einem **Wärmeleistungsbedarf von
+20 W/m² EBF** her, und ein Minergie-P/-A-Bau braucht weniger, also eine kürzere Sonde mit weniger
+grauer Energie. Dann wäre der 0,6er sachlich eine Mengenanpassung, die sich lediglich **in der
+Wirkung** wie eine Verschärfung äussert. *(Beide Deutungen sind eigene Einordnung; die Quelle
+schweigt zum Motiv. Für die Praxis ist die Wirkung entscheidend, nicht das Motiv.)*
 
 **Konsequenz:** Der Wegfall des 0,6-Faktors ist für Minergie-P/-A-Bauten eine **Erleichterung**,
 kein Verlust. Sie dürfen den Erdsonden- und Wärmeerzeugungs-Zuschlag heute in voller Höhe
@@ -236,6 +263,13 @@ den Satz, der die Veränderung erklärt, in derselben Fussnote nicht gelesen. **
 Auslassung ist erst dann untersucht, wenn der Text an genau dieser Stelle vollständig gelesen
 wurde** — ein Diff sagt, dass etwas fehlt, nicht, was an seine Stelle getreten ist. Gleiche
 Familie wie die «Geltungsbereich mitlesen»-Lehre der sechsten Prüfung (`training/PROGRAMM.md`).
+
+### Beiläufiger Quellenfehler (beide Fassungen, unbereinigt)
+
+Die Grenzwert-Grafik trägt die Einheit **MJ/m²AE·a**, während der Fliesstext unmittelbar daneben
+festlegt: «Die Grenzwerte haben die Einheit kWh/m²a». Der Widerspruch steht **identisch in V1.3
+und V2023.3** und ist ein Fehler der Quelle selbst, keine Änderung zwischen den Fassungen.
+Beim Zitieren die Fliesstext-Einheit (kWh/m²a) verwenden, nicht die Grafik-Achse.
 
 **Status:** geklärt für die Erdsonden-Stelle (wörtlicher Beleg), begründet geschlossen für die
 Wärmeerzeugungs-Stelle (Analogie + unveränderte Werte, keine eigene Ersetzungsklausel).
