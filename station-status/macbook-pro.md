@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.09.2026 08:28:58
+Stand: 04.09.2026 08:39:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:04)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 04.09.2026 08:28:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9cb571f28 fristen: Hygiene-Lauf 04.09.2026 als zweite Belegquelle am bexio-401-Eintrag
+- 628472f75 nas-selfcommit: 3 Datei(en) 2026-09-04 08:30

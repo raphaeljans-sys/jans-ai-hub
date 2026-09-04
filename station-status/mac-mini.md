@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 04.09.2026 08:24:19
+Stand: 04.09.2026 08:34:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 04.09.2026 08:24:19
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- d41ff680e nas-selfcommit: 1 Datei(en) 2026-09-04 08:15
+- 628472f75 nas-selfcommit: 3 Datei(en) 2026-09-04 08:30
