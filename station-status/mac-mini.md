@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 04.09.2026 13:43:40
+Stand: 04.09.2026 13:53:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:38)
@@ -12,4 +12,4 @@ Stand: 04.09.2026 13:43:40
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 477b58dbf Logbuch: Nachtschicht-Journalzeile E-R175-2
+- 2fbd2c10d nas-selfcommit: 1 Datei(en) 2026-09-04 13:45
