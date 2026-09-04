@@ -219,6 +219,17 @@ Verhältnis nicht.
 Den Gegenbeleg liefert heute erneut kispi: dort wuchs die Belegung um 0.06 GB, der
 Versionsverlauf um 0.00 GB. So sieht normale Projektarbeit in diesem Tenant aus.
 
+## Git-Stand (Backup)
+
+Nativ per ssh auf der Synology gemessen (nie `git` über den SMB-Mount): der heutige Report
+ist als **`a1a1d2bd5`** vom 04.09.2026 20:12 committet, `github/HEAD` steht auf demselben
+Commit, Divergenz **0 voraus / 0 nicht integriert**. Das Backup läuft.
+
+Nebenbefund ohne Handlungsbedarf: das NAS-Repo führt keinen Tracking-Ref `github/main`,
+sondern nur `github/HEAD` (plus rund hundert `claude/*`-Branches). Die Prüfung des
+Backup-Stands muss deshalb gegen `github/HEAD` laufen; eine Abfrage gegen `github/main`
+scheitert mit «Needed a single revision» und darf nicht als Backup-Ausfall gelesen werden.
+
 ## Messweg (Nachvollziehbarkeit)
 
 - Tenant-Summe: `m365 spo site list --query "sum([].StorageUsage)"` → 927'255 MB, dazu die
