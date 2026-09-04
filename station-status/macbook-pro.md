@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.09.2026 09:10:26
+Stand: 04.09.2026 09:20:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:45)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:52)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 04.09.2026 09:10:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 0772b7fa1 hub-chef 04.09.2026: Bopp-Entwurf Steinbruechelstrasse bereit, Jegen-Freigabe neu im Register
+- 20dd09409 nas-selfcommit: 2 Datei(en) 2026-09-04 09:15

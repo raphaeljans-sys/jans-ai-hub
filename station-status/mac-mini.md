@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 04.09.2026 09:05:31
+Stand: 04.09.2026 09:26:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 04.09.2026 09:05:31
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0772b7fa1 hub-chef 04.09.2026: Bopp-Entwurf Steinbruechelstrasse bereit, Jegen-Freigabe neu im Register
+- 20dd09409 nas-selfcommit: 2 Datei(en) 2026-09-04 09:15
