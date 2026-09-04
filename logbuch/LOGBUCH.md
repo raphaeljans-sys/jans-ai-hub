@@ -71,6 +71,75 @@ Keiner. Für Steinmann sind zwei Einträge wirkungslos durchgefallen, und die dr
 
 Gestern zusammen 282.5 Mio Token für rund 208 USD API-Äquivalent, davon MacBook Pro 216.1 Mio (161.97 USD) und Mac Mini 66.4 Mio (46.39 USD).
 
+## Hub-Chef 04.09.2026 (08:39 bis 09:0x, Tagesbriefing gesendet)
+
+**Pflichtpruefungen.** `freigabe-status.sh --kurz`: mac-mini 0, macbook-pro 0, Exit 0.
+`stationen-watchdog.sh --briefing`: Exit 0, alle Stationen und Sync-Jobs fristgerecht. Queues:
+beide Stationen leer, `remote-tasks/pending/` existiert nicht. Der am 30.08. angehaltene
+mac-mini-Task (Laufzeitschicht-Umbau) liegt nicht mehr in der Queue; Phase 1 ist laut
+Konversations-Destillat abgearbeitet und committet, Phase 3 bleibt gesperrt.
+
+**Signale.** Radar-Briefing 06:55 und AG-Gruendungs-Abschnitt im Logbuch gelesen und
+weitergetragen — heute lagen beide Abschnitte vor, kein Ausfall. Konversations-Destillat 04.09.
+gelesen (zwei echte Gespraeche, beide Mac Mini). Mail ueber `mail-vorfilter.sh 26` (lief sauber,
+Apple Mail antwortete im ersten Anlauf, sechs Konten), Gesendete und Entwuerfe zusaetzlich direkt
+per osascript gemessen. Kalender 04.09. bis 12.09. ueber Graph: zwei Termine (07.09. Abgleich
+Umbau PPTS, 10.09. Koordinationssitzung). bexio `--verzug` und `--abgleich`: beide HTTP 401,
+**achtundzwanzigster Tag**.
+
+**Aktionen.**
+
+(A5) **Mail-Entwurf an C. Bopp im Postfach angelegt und verifiziert.** Betreff
+«Steinbruechelstrasse 26/28, Witikon: baurechtliche Einschaetzung der Potentialstudie», an
+christoph.bopp@novaproperty.ch, Cc philippe.munch@ und aaron.tonet@ (Empfaengerkreis am Original
+der Bestellung nachgemessen, nicht aus dem Destillat uebernommen), Absender rj@, Anhang
+`260903-Baurechtliche-Machbarkeit-Steinbruechelstrasse-26-28.pdf` (135'202 B, Seitenzahl am PDF
+selbst gezaehlt: 9). Zusage und Lieferung in einer Mail, weil der Bericht ohnehin fertig ist und
+Bopp seit dem 03.09. Mittag auf die blosse Zusage wartet.
+
+(A4) Fristen-Register um zwei Eintraege ergaenzt: den Steinbruechel-Nachtrag und einen neuen
+Punkt zur ausstehenden Freigabe der Jegen-Prinzippläne. Append-only nachgemessen, **5285 auf
+5292 Zeilen, keine verlorene Zeile**. Dieser Logbuch-Eintrag.
+
+**QS und Twin-Gate.** `rechtschreibung` gruen, `layout` gelb, beide parallel; beide haben
+Fachnotation, Eigennamen und Zitiertes erneut nur gemeldet und nie geaendert — **vierter
+Wirksamkeitsbeleg** der am 02.09. gesetzten Grenze. `twin-chef`-Gate: **Fidelity 82 auf 87** nach
+einer Veredelungsrunde (Ruecksspiegelung der fremdgesetzten Frist gestrichen, Bringschuld aus dem
+Schachtelsatz in einen «_ »-Block geloest).
+
+**Drei Sachfehler des Gates, eigen gegengeprueft und uebernommen.** «Du hast sie damit vier Tage
+vor dem Mittwoch» war falsch (04.09. bis 09.09. sind fuenf Kalendertage, drei Arbeitstage);
+«gut 10 %» ist rechnerisch nicht gedeckt (140 von 1'405.8 m² = 9.96 %), geaendert auf «rund 10 %»;
+«Deinen Anruf» war eine unbelegte Kanalangabe — Bopp schreibt «Wie telefonisch besprochen», die
+Urheberschaft des Anrufs ist damit gerade nicht belegt. **Nicht uebernommen** wurde der
+Gruss-Vorschlag «Beste Gruesse» aus einem Gold desselben Empfaengers: die Facetten-Regel bindet
+den Gruss an die **Gattung**, und die Liefermail mit Substanz traegt FG plus Block. Der Gegenbeleg
+ist notiert, der Entscheid bleibt bei Raphael.
+
+**Nicht ausgefuehrt, mit Grund.**
+
+(A1) Mahnaktion: Guard nicht bestanden, `--abgleich` antwortet 401. Nichts gebucht, nichts gemahnt.
+
+(A7) **Kein automatischer Versand des Bopp-Entwurfs ueber das Widerrufsfenster.** Die Mail sagt
+einen **Auftrag** zu, und die Honorarfrage ist zwischen Bopp und JANS nicht belegt geregelt. Eine
+Zusage mit offener Aufwandfolge gehoert dem Inhaber freigegeben, nicht einem 30-Minuten-Fenster.
+Gleiche Linie wie beim Tschopp-Entwurf am 03.09., aber aus einem anderen Grund: dort das
+Verhaltenssignal, hier die offene Verguetung.
+
+**Nebenbefund, still bereinigt.** Der erste Anlauf des Entwurfs trug den Anhang unter dem
+Arbeitsnamen `steinbruechel-bericht.pdf`. Der Entwurf wurde mit dem korrekten Dateinamen neu
+angelegt und das Duplikat in «Geloeschte Elemente» **verschoben, nicht geloescht**; im
+Entwurfsordner liegt genau ein Bopp-Entwurf.
+
+**Neu erfasst.** L. Bajrami (Jegen) wartet seit dem 03.09. 06:48 auf Pruefung und Freigabe der
+Prinzippläne Innere Verglasung und hat am 04.09. 07:11 nachgelegt (Schiebetor S1, Position
+01.2.055.1, im Ausfuehrungsbeschrieb versehentlich als 01.2.003 gefuehrt). Eine Antwort ist in den
+Gesendeten nicht nachweisbar. Registerzeile gesetzt, Prioritaet mittel; der Baustart ist Montag.
+
+**Briefing gesendet** an rj@, 5'115 Zeichen im Body nachgemessen. Sendegrund: versandbereiter
+Entwurf mit Frist, P1-Blocker Kapitaleinzahlung (21. Tag), bexio-Sperre (28. Tag) und ein neuer
+operativer Eingang.
+
 ## Hub-Chef 03.09.2026 (08:39 bis 09:2x, Tagesbriefing gesendet)
 
 **Pflichtpruefungen.** `freigabe-status.sh --kurz`: mac-mini 0, macbook-pro 0, Exit 0. `--briefing`:
