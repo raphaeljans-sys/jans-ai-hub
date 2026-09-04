@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.09.2026 07:16:53
+Stand: 04.09.2026 07:27:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:04)
@@ -12,4 +12,4 @@ Stand: 04.09.2026 07:16:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 286379796 nas-selfcommit: 2 Datei(en) 2026-09-04 07:15
+- 6385350d5 Vollgas-Fruehwarnung 04.09.2026: Logeintrag (still, keine Mail) + Chronik-Eintrag zum inventar.sh-Befund
