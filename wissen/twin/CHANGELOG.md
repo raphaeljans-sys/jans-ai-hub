@@ -4,6 +4,24 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-04 — Fidelity-Review: Hybrid mit sichtbarer Naht, Service-Satz-Linie Nr. 3 gefallen
+
+Golds aus dem unangetasteten Fenster **13.–30.01.2026** (3 gewertet, 5 Pruefsteine, 2 Hybride
+aussortiert). Gesamt-Fidelity **32**. Gold C (28.01.) ist ein Hybrid, dessen Naht die
+Absatz-Fehlerdichte sichtbar macht (0 Fehler/207 W vorbereitet gegen 5/70 W eigene Hand) — daraus
+die neue Regel «der Vorbehalt steht NACH dem sicheren Block und nennt, was fehlt» (kompiliert in
+`wiki/denken.md`). Die Entscheid-Linie zum Service-Satz ist von beiden Seiten widerlegt
+(Transmittal 16.01. traegt ihn, Statusmail 14.01. nicht); der Falsch-Eintrag «Transmittal» aus
+der Gegenliste **entfernt**, der ehrliche Messstand kompiliert. Vier Anreden an Albin Spahic in
+sieben Tagen isolieren die Anlassgewicht-Klausel sauber und tragen die Trajektorien-Lesart nicht.
+Neu belegt, aus Byte-Gruenden NICHT kompiliert: Partikel-Opener «Also,»/«Nun,», P.S.-Nachklapp
+unter dem Gruss, Bcc-Regel bei der Fachplaner-Erstanfrage, Kontakt-Kaskade mit eigener
+Empfangskontrolle, verschaerfte Uebergabe-Trennlinie. Alle sechs Facetten-Artikel gewachsen
+(append-only, gegen den SSD-Spiegel geprueft), 6 neue Selbstfragen in `wiki/QUESTIONS.md`
+(260904b). Gehirn neu kompiliert: **33'991 B, Reserve 9 B**; 7-Gramm-Analyse findet null
+facettenuebergreifende Doppelungen — die Verdichtungsreserve ist erschoepft, Anhebung auf
+36'000 B erneut empfohlen (SYN-69). Report `outputs/2026-09-04_fidelity.md`.
+
 ## 2026-09-04 — Mailbatch 114: Registerwechsel beim selben Kontakt in 22 Stunden; Behoerdenschiene verstaerkt
 
 Fenster `rj@` Sent Items **02.09. 16:00 – 03.09. 15:32**, alle 12 Treffer, `order: oldest`.

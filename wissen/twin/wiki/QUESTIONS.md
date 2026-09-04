@@ -5696,3 +5696,67 @@ Sache des Batches (Behoerdenauflagen, Fristsetzung «sofort»); im Bestand sonst
 Die Anlassgewicht-Klausel wuerde hier die kaeltere Formel erwarten lassen. Hypothese: im
 Kollektiv waehlt Raphael nach der **Stimmung, die er im Team will**, nicht nach dem Gewicht der
 Sache. Nicht kompiliert.
+
+## 260904b — aus dem Fidelity-Review (Golds 14.01. / 26.01. / 28.01.2026)
+
+**#1 [Stimme] Der Service-Satz — gibt es ueberhaupt eine Regel, oder setzt Du ihn nach Gefuehl?**
+Drei Linien sind in drei Laeufen gefallen: «Gattung» (260807), «wer erbittet etwas fuer sich»
+(260903) und «der Empfaenger muss entscheiden» (260903). Der heutige Lauf kippt die letzte von
+beiden Seiten: das reine **Transmittal** vom 16.01.2026 an Nesa («im Anhang die Arbeitsgrundlage
+… zur Weiterleitung») **traegt** ihn, obwohl es nichts zu entscheiden gibt — und die
+Statusmail vom 14.01.2026 an Undine, in der Du ihr vier Arbeitsschritte uebergibst, traegt ihn
+**nicht**.
+*Konkret:* Ist der Satz (a) eine bewusste Entscheidung je Mail, (b) eine Gewohnheit, die vom
+Schlusstyp abhaengt — er fehlt genau dort, wo Du einen Kurzgruss selbst tippst, und steht dort,
+wo die Mail direkt in den Signaturblock laeuft (heute 7 von 8, Gegenbeleg 29.01.2026) — oder
+(c) schlicht Zufall?
+*Warum:* Der Zwilling entscheidet ihn derzeit selbst, und drei Wiki-Regeln stehen als
+«bestritten» im Gehirn. Eine Ein-Satz-Antwort ersetzt alle drei und beendet eine Frage, die
+den Harness seit vier Wochen beschaeftigt.
+
+**#2 [Beziehungsregister] Undine Hofer: das Fenster ist jetzt sechs Tage, und ein Ausloeser ist sichtbar.**
+Ergaenzt 260903b #2 (dort noch «09.01.–08.02.2026»). Neuer Beleg: 08.01.2026 «Geschaetzte Frau
+Hofer,» — 14.01.2026 10:25 «**Hoi Undine**». Der Wechsel faellt damit in **sechs Tage**. In
+derselben Mail steht, was dazwischen lag: Du hattest beim Baurekursgericht angerufen und konntest
+die gute Nachricht bringen, dass keine Einsprache eingegangen ist.
+*Konkret:* War es diese Nachricht (bzw. ein Telefonat mit ihr darueber), oder hat sie Dich in der
+Zwischenzeit geduzt?
+*Warum:* Das waere der erste Registerwechsel des Korpus mit taggenauem Anfang, taggenauem Ende
+UND benanntem Anlass — und er wuerde die seit 260822 bestrittene Trajektorien-Klausel an einem
+sauberen Fall entscheiden.
+
+**#3 [Beziehungsregister] «Geschaetzter Herr Albin» — Absicht oder Verschreiber?**
+Herr + **Vorname**, jetzt zweifach unabhaengig belegt: «Herr Mustafa» (Nachname Eren, vermerkt in
+Rule `anrede-kontakte`) und «Geschaetzter Herr Albin» am 26.01.2026 (Nachname Spahic) — beide bei
+Kontakten, deren Vorname Dir gelaeufiger ist als der Nachname, und beide in einer gewichtigen Mail.
+*Konkret:* Ist das eine bewusste Zwischenform («foermlicher als Hoi, aber ich nenne ihn beim
+Vornamen»), oder ein Versehen, das der Zwilling nie nachahmen darf?
+*Warum:* Bisher als Einzelversehen gefuehrt. Beim zweiten Beleg muss der Harness wissen, ob er
+eine Stufe der Skala vor sich hat oder einen Fehler.
+
+**#4 [Arbeitsweise] Gehoert die eigene Seite bei der Erstanfrage an einen Externen ins Bcc?**
+28.01.2026, Erstkontakt an den Brandschutzexperten: **An** der Fachplaner, **Cc** der
+vermittelnde Bauherrenvertreter, **Bcc** das eigene Baumanagement und der Generalplaner.
+*Konkret:* Ist das Deine Regel — sichtbar nur, wer die Vermittlung erklaert, alle uebrigen
+Mitleser ins Bcc — oder war es hier der Einzelfall?
+*Warum:* Der Zwilling setzt reflexhaft alle Mitleser ins Cc und macht aus einer Anfrage einen
+Gremienauftritt. Eine Bestaetigung waere eine harte, mechanisch anwendbare Regel.
+
+**#5 [Arbeitsweise] Fuehrst Du Textbausteine, und soll der Zwilling sie wiederverwenden?**
+Der Brandschutz-Block vom 26.01.2026 (Herleitung Brandabschnitt, EI30/EI60, Sprinklerkonzept)
+steht am 28.01.2026 fast wortgleich in der Mail an den Fachplaner, mit vier bewussten
+Angleichungen («automatisch» → «eigene», «Der bestehende» → «Der betroffene … derzeit»).
+*Konkret:* Ist das ein gepflegter Baustein, den Du bewusst zweitverwendest — oder hast Du die
+Passage schlicht kopiert, weil sie gerade dastand?
+*Warum:* Fuer die Echtheitspruefung ist es entscheidend. Ein wiederverwendeter Eigenbaustein ist
+**Gold**, das zweimal vorkommt; er sieht aber genauso aus wie ein eingefuegter Fremdtext
+(fehlerfrei, glatt, abweichend vom Fehlerbild des restlichen Absatzes). Ohne Deine Antwort
+muss der Harness solche Bloecke im Zweifel abwerten und verliert dabei echtes Material.
+
+**#6 [Arbeitsweise] Die telefonische Empfangskontrolle — Standard bei Erstkontakten?**
+28.01.2026 als dritte und letzte Schlussstufe: «Ich werde Sie noch versuchen telefonisch zu
+erreichen um bei Bedarf weitere Unterlagen nachzureichen sowie der Erhalt der E-Mail zu
+versichern.»
+*Konkret:* Kuendigst Du das bei jedem Erstkontakt an, oder war es hier die Dringlichkeit?
+*Warum:* Der Zwilling schliesst mit einem Angebot («bei Fragen …»). Wenn Du stattdessen die
+Nachfassung ankuendigst, ist das eine Endform mit klarem Ausloeser statt einer Floskel.
