@@ -19,6 +19,36 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260904 — `inventar.sh --stand` meldete eine stille Null statt eines Fehlers (behoben)
+
+Die Vollgas-Fruehwarnung fand ihr eigenes Fortschritts-Messwerkzeug defekt. `--stand` liest
+`skills/wissens-destillat/training/<korpus>-{sektionen,inventar}.md`; die beiden **aktiven**
+Korpora `buero-referenzen` und `archiv-fachwissen` fuehren ihr Inventar seit dem 29.08.2026
+aber als Sektionsdateien unter `wissen/architektur-fachwissen/raw/inventar/`. `grep -c` auf
+eine fehlende Datei plus `|| echo 0` ergab ein sauberes `sektionen=0/0
+dateien_inventarisiert=0` — **eine Kennzahl, die aussieht wie ein Stillstand.** Zweiter,
+unabhaengiger Fehler im selben Block: `grep -c` quittiert bei Treffer 0 mit Exit ungleich 0,
+worauf `|| echo 0` eine zweite Null anhaengte und die Ausgabezeile zerriss; darum gaben die
+beiden fertigen Korpora nur `0` aus.
+
+Behoben mit Commit `f07aac82e` (24+/4−, auf die vier Zeilen des `--stand`-Blocks begrenzt):
+fehlt eine Eingabedatei, meldet das Werkzeug `stand=UNMESSBAR grund=training-inventar-fehlt
+sektionsdateien_raw=<n>` und quittiert **rc=6**, statt zu raten. Wer `--stand` aufruft, muss
+rc=6 also als «unmessbar» behandeln, nicht als Fehlschlag. Regressionsprobe: `bauprodukte`
+`37/37 / 214 / 0` und `buero-projekte` `21/21 / 813 / 0`, beide deckungsgleich mit dem
+Stand-Text der `KORPUS-QUEUE.md`.
+
+Bewusst offen gelassen: eine Fortschritts-Semantik fuer das neue Sektionsformat (Prosa plus
+`## Triage`-Tabelle mit P1/P2 statt `| [ ]`-Raster). Ob «erledigt» P1 allein oder P1 UND P2
+heisst, ist eine fachliche Festlegung des Skills `wissens-destillat` und wurde von einem
+Aufsichtslauf nicht erfunden. Bis dahin bleibt Kennzahl (a) der Destillat-Aufsicht ehrlich
+unmessbar; Ertrag, Delta-Null-Serie und Stueckkosten tragen sie weiter.
+
+Gleiche Familie wie 260807 (Konfigurationsfelder erst messen, dann glauben) und
+`wege-und-vollmachten` Ziff. 5 (ein leeres Ergebnis ist zuerst eine Aussage ueber das
+Werkzeug) — hier in der teuersten Auspraegung, weil das falsche Ergebnis nicht leer aussah,
+sondern wie ein Befund.
+
 ## 260902 — Zweiter Speicher-Notstand MacBook Pro: 16 haengende Desktop-Sessions, Claude 18.13 GB
 
 **Vorfall:** 02.09.2026, MacBook Pro (16 GB RAM). macOS-Dialog «Dein System hat keinen

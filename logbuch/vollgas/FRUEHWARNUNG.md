@@ -4038,3 +4038,86 @@ bleiben die einzigen Ausreisser der Reihe und liegen ausserhalb des 24-Stunden-F
 Blockade-Status: KEIN echtes Usage-/Rate-Limit-Fehlerereignis in den letzten 24 h auf beiden
 Stationen (strukturell geprüft über isApiErrorMessage / type==error / message.type==error /
 apiErrorStatus==429, Text gegen usage/rate/weekly limit).
+
+Kontrollprobe des Task-Opener-Musters bestanden: Teilstring `scheduled-task` in 133 von 165
+Dateien des 3-Tage-Fensters, das escaped Muster greift. Die eigene Session-ID wurde aus der
+Dateiliste ausgeschlossen (Befund 03.09.: der Messhinweis dieser Task zitiert die Opener
+woertlich, wer das nicht ausschliesst, misst sich selbst und meldet jeden Loop als taufrisch).
+
+Briefings: logbuch-radar vor 0.2 h (180 Zeilen), hub-chef-taeglich vor 21.9 h (445),
+mahnwesen-verzugscheck vor 22.8 h (104), zahlungsabgleich-check vor 22.6 h (54). Alle vier am
+Abschlusstext nachgemessen, alle mit erreichtem Deliverable — der Hub-Chef mit versendetem
+Briefing (03.09. 09:03:19, 6'069 Zeichen, am Original nachgemessen).
+
+Radar-Herzschlag: vollgas-chef-radar Session vor 6.0 h, juengster RADAR.md-Eintrag (erste
+`## `-Ueberschrift, nicht der Dateikopf) 2026-09-04 00:57. Beide Signale innerhalb der
+12-Stunden-Schwelle.
+
+**Bewertung — keines der sieben Meldekriterien erreicht, nicht gemailt.**
+
+(a) kein echtes Limit-Fehlerereignis, weder interaktiv noch in einem Loop, auf keiner Station.
+(b) beide Stationen zusammen teuer 12.78 / 11.69 / 12.52 Mio an den drei letzten vollen Tagen —
+unter der 35er-Tagesschwelle und unter der 18er-Doppeltagesschwelle. (c) kein erschoepftes
+Wochenkontingent in den letzten 24 h. (d) alle vier Briefings mit Deliverable. (e) Radar-Herzschlag
+frisch. (f) kein Aufwand ohne Wissenszuwachs: 18 Wiki-Artikel am 03.09. (per `git log`, nicht
+mtime), `architektur-fachwissen` bei 480 Artikeln, juengste Dateien aus der vergangenen Nacht.
+(g) Queue nicht komplett, alle vier Specs liegen vor, das Spec-Gate haengt nicht.
+
+Stueckkosten (teuer beider Stationen je neu geschriebenem oder erweitertem Wiki-Artikel):
+31.08. 0.34 (ohne Twin 0.45) · 01.09. 0.49 (0.64) · 02.09. 1.17 (1.95) · **03.09. 0.70 (1.04)**.
+Damit ist die gestern gesetzte Beobachtung beantwortet: der 1.17er-Ausschlag des 02.09. war ein
+Ein-Tages-Einbruch der Artikelzahl (10), kein Trend — der 03.09. faellt mit 18 Artikeln auf das
+Band der Vortage zurueck. Die 1.5er-Marke wurde nicht erreicht, kein Materialproblem im Abdruck.
+
+**Befund des Laufs: das Fortschritts-Messwerkzeug der Destillat-Aufsicht war defekt — repariert.**
+
+Schritt 5b (a) verlangt `inventar.sh <korpus> --stand`. Der Aufruf lieferte fuer den aktiven
+Korpus `archiv-fachwissen` ein sauberes `sektionen=0/0 dateien_inventarisiert=0` — bei 20
+vorhandenen Inventardateien. Kontrollprobe ueber alle vier Korpora: `buero-referenzen` ebenso
+0/0 (23 Inventardateien), `bauprodukte` und `buero-projekte` gaben ueberhaupt nur `0` aus. Das
+Werkzeug sprach, nicht die Sache — dieselbe Familie wie 260807 und `wege-und-vollmachten`
+Ziff. 5, hier in der teuersten Auspraegung: **eine Kennzahl, die aussieht wie ein Stillstand.**
+
+Ursache, am Script belegt: `--stand` liest `training/<korpus>-{sektionen,inventar}.md`. Diese
+Dateien existieren nur fuer die beiden **abgeschlossenen** Korpora 1 und 2. Die beiden **aktiven**
+Korpora 3 und 4 fuehren ihr Inventar seit dem 29.08.2026 als Sektionsdateien unter
+`wissen/architektur-fachwissen/raw/inventar/<korpus>__<sektion>.md`; `training/`-Dateien werden
+dort nicht mehr angelegt. `grep -c` auf eine fehlende Datei plus `|| echo 0` ergab die stille
+Null. Zweiter, davon unabhaengiger Fehler im selben Block: `grep -c` gibt bei Treffer 0 einen
+Exit ungleich 0 zurueck, worauf `|| echo 0` eine ZWEITE Null anhaengte und die Ausgabezeile
+zerriss — das war der Grund, warum die beiden fertigen Korpora nur `0` zeigten.
+
+Behoben (Commit `f07aac82e`, 24+/4− am Script, Aenderung auf die vier Zeilen des `--stand`-Blocks
+begrenzt, Umfang gegen eine Kopie nachgemessen): fehlt eine Eingabedatei, meldet das Werkzeug
+jetzt `stand=UNMESSBAR grund=training-inventar-fehlt sektionsdateien_raw=<n>` und quittiert mit
+**rc=6**, statt eine Zahl zu behaupten. Die Doppel-Null ist beseitigt. Beide Pfade nachgemessen:
+`bauprodukte` liefert neu `sektionen=37/37 dateien_inventarisiert=214 dateien_offen=0`,
+`buero-projekte` `21/21 / 813 / 0` — beide Werte decken sich exakt mit dem Stand-Text der
+`KORPUS-QUEUE.md`, was die Reparatur unabhaengig bestaetigt. Die aktiven Korpora quittieren
+sauber mit rc=6 und nennen 20 bzw. 23 vorhandene Sektionsdateien.
+
+**Bewusst NICHT getan:** eine Fortschrittszahl fuer das neue Format erfunden. Die Sektionsdateien
+tragen Prosa plus eine `## Triage`-Tabelle mit P1/P2-Stufen, kein `| [ ]`-Raster; was dort
+«erledigt» heisst (P1 allein oder P1 UND P2), ist eine fachliche Festlegung des Skills
+`wissens-destillat` und gehoert nicht in ein Messwerkzeug — erst recht nicht in einen
+Aufsichtslauf um 07:15. Bis diese Semantik gesetzt ist, bleibt Kennzahl (a) ehrlich unmessbar;
+Ertrag (b), Delta-Null-Serie (c) und Stueckkosten (d) tragen die Aufsicht weiter. Offen als
+Aufgabe fuer den Destillat-Skill, nicht fuer diesen Loop.
+
+Kein Meldegrund daraus: ein defektes Hub-eigenes Messscript ohne Aussenwirkung ist nach Regel
+260803 ausdruecklich **nicht** sendewuerdig, und Kriterium (f) ist nicht erfuellt — der Ertrag hat
+sich bewegt, es lag kein Aufwand ohne Wissenszuwachs vor. Der Fehler verbarg keinen Stillstand,
+er haette nur einen vortaeuschen koennen.
+
+Weiterhin offen und dem Radar bekannt: das Gate-Log `logbuch/speicher/gate-Macmini.log` endet
+unveraendert am 31.08. 13:30, die Nachtschicht hat seit vier Tagen keine Freigabe angefragt. Der
+Ertrag entsteht derweil ueber die getakteten Scheduled Tasks, nicht ueber die Nachtschicht. Der
+Radar hat den Nullbefund am 03.09. 00:57 selbst gemeldet und als Material- statt Drosselproblem
+gedeutet; kein zweiter Kanal von hier, der Befund gehoert ihm.
+
+Zuletzt gemailt: **24.08.2026 07:50**. Naechste Mail erst bei neuer Kontingent-Erschoepfung,
+einem Briefing-Ausfall, fehlendem Radar-Herzschlag, Aufwand ohne Wissenszuwachs oder komplett
+gemeldeter Korpus-Queue.
+
+**Regellauf, keine Delegation** — Messungen inline, rund 18 Werkzeugaufrufe; die Reparatur kam
+zur Messung hinzu und rechtfertigte keinen Subagenten.
