@@ -3,6 +3,66 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 04.09.2026 (Logbuch-Radar, 06:55)
+
+Der Tag hat einen klaren Schwerpunkt, und er liegt nicht beim KISPI: **der Bericht Steinbrüchelstrasse ist fertig, und der Auftraggeber weiss nichts davon.** Christoph Bopp hat gestern Vormittag nicht nur die Prüfung bestellt, er hat ausdrücklich um eine zeitnahe Rückmeldung gebeten, ob wir sie überhaupt übernehmen. Beides steht aus, während der Bericht seit gestern 17:45 abgelegt ist. Daneben liegen zwei fertige Mails im Postfach, die nicht hinausgegangen sind.
+
+**Erledigt seit gestern**
+
+Die Auflagen vor Arbeitsausführung sind verteilt und laufen bereits. Du hast am 03.09. um 11:29 dem gesamten Gremium die Zuständigkeiten zugewiesen, samt Ablageort auf SharePoint. Jens Ziegel hat es am selben Nachmittag umgesetzt: 16:10 an Patrick Schatt (Siemens) für die BMA-Unterlagen, 16:14 an Tim Harder (Jomos) für die Sprinkleranlage, je mit dem GVZ-Formular und dem Downloadlink. Er reicht bei der GVZ-Fachstelle selbst ein. Wichtig für Deine Lagebeurteilung: **beide Bitten gehen an die Unternehmer, nicht an Dich.** Hier liegt keine Bringschuld bei JANS.
+
+Die Lüftungsplanung zur Auflagenbereinigung ist bei der Feuerpolizei. Ziegel hat sie am 03.09. um 17:35 an Markus Gantenbein zugestellt, Grundriss und zwei Schemata, ausdrücklich nach Ziffer II.21 des Bauentscheids 1171/26. Damit ist ein erster Teil der Bedingung erfüllt, die Gantenbein gestern früh an die feuerpolizeiliche Schlussabnahme geknüpft hat.
+
+Der Übersichtsplan Elektrifizierung Türen ist raus, 03.09. um 17:01 an Yasarcan Cetin, Labinot Bajrami und Levi Hiltmann, mit der Zuordnung Tür-ID zur Werkplan-Bezeichnung von Jegen und mit Deinen Korrekturbemerkungen Architektur, darunter der Hinweis, dass Werkplan und Architektenplan bei einer Position nicht übereinstimmen.
+
+Der Besichtigungstermin des Arbeitsinspektorats (BVV 26-1211, Nr. 627255) ist angenommen, 03.09. um 14:14 an Manuel Zaufl.
+
+Das UGZ hat auf Deine Terminanfrage vom Mittwoch reagiert. Lars Hansen meldet am 03.09. um 13:24, dass Shyam Zala Dir spätestens Anfang kommender Woche einen Termin zustellt. Ein Nachfassen ist damit vor Dienstag nicht nötig.
+
+**Aus unseren Gesprächen**
+
+Steinbrüchelstrasse 26/28 in Zürich-Witikon: die baurechtliche Überprüfung der Potentialstudie ist gestern Abend fertig geworden, neun Seiten, Korrektur-Harness durchlaufen, mit Grundlagenordner samt ÖREB-Auszug. Ablage verifiziert. Das Ergebnis in einem Satz: die Studie von Spice Architecture ist sauber aufgesetzt und im Grundsatz bewilligungsfähig, aber sie hat keine Reserve. Die Ausnützung liegt bei 1'404.4 von 1'405.8 m², die Attika bei 467.2 von 468.6 m², die Gebäudehöhe im Schnitt 03 exakt auf 9.50 m, und die Nordfassade kommt mit dem Mehrlängenzuschlag auf 10.65 m gegenüber einem Maximum von 10 m. Jede abweichende Messweise des Amts für Baubewilligungen schlägt sofort aufs Programm durch. Der teuerste der vier Fallstricke sind die Reduits in den Vollgeschossen: die Annahme, 10 m² je Wohnung seien nicht anrechenbar, liess sich in § 10 ABV nicht belegen. Kippt sie, liegt das Projekt rund 140 m² über der Ausnützung.
+
+Ein Punkt daraus geht Dich direkt an, wenn Du Bopp antwortest. Er schreibt in seiner Bestellung, das Näherbaurecht sei möglich und das Durchfahrtsrecht unentgeltlich gesichert, und nennt dazu die Restelbergstrasse 14. Die liegt in Zürich-Fluntern und grenzt nicht an; gemeint ist Steinbrüchelstrasse 14/14a, Kat.-Nr. WI3365. Und genau diese Sicherung der Tiefgaragen-Erschliessung führt der Bericht als offenen Fallstrick. Der Auftraggeber hält also für erledigt, was wir als ungeklärt zurückmelden. Das gehört in die Übergabe und nicht in eine Fussnote.
+
+Die lichte Durchgangsbreite beim rollstuhlgerechten WC ist belegt geklärt, mindestens 0.80 m nach SIA 500:2009 Ziff. 3.3.1.1 und Anhang E, gemessen bei geöffnetem Türflügel. Keine offene Aktion, aber der Wert trägt weiterhin die Rohmass-Frage bei RWD Schlatter.
+
+**Überfällig**
+
+Steinbrüchelstrasse: die Zusage an Christoph Bopp fehlt seit gestern Mittag. Er hat um eine zeitnahe Antwort gebeten, ob wir die Prüfung übernehmen, und die Abgabe auf Mittwoch, 09.09.2026, terminiert. Gegengemessen über alle Konten: seit dem 02.09. ist nichts an novaproperty.ch hinausgegangen. Die schnellste Bereinigung ist heute eine kurze Mail, die zugleich Zusage und Lieferung ist, weil der Bericht ohnehin fertig ist. Ins Cc gehören Philippe Munch und Aaron Tonet, die schon in seiner Bestellung standen.
+
+Der Antwortentwurf an Stefan Tschopp liegt unverändert im Postfach, beide Fassungen von gestern 09:00 und 09:02. Es ist nichts an ihn hinausgegangen. Damit hängen drei Dinge: seine beiden Fragen vom 02.09. sind unbeantwortet, die Richtigstellung zum SBB-Näherbaurecht hat ihn nicht erreicht, und die im Entwurf gesetzte Zusage «Plansatz bis Montag, den 07.09.26» existiert gegenüber ihm gar nicht. Entweder die Mail geht heute raus, oder die Zusage gilt nicht. Gültig ist die jüngere Fassung von 09:02:49.
+
+Der Entwurf an Roman Steinmann ist nicht mehr rechtzeitig. Er ist seit gestern bis zum 21.09. abwesend, der Entwurf liegt seit dem 02.09. 08:49 unversendet. Drei Anläufe haben es nicht ausgelöst, ein vierter derselben Art wird es auch nicht. Es ist jetzt ein Entscheid: heute senden, damit es bei seiner Rückkehr im Postfach liegt, oder den Vorgang bewusst auf den 21.09. legen. Für das Senden spricht, dass die Mail genau diese Lage anbietet, nämlich den revidierten KV auf die Rückkehr hin bereitzustellen, und dass die Frage der Ferienvertretung für die Albertstrasse 7 durch seine Abwesenheit dringender wird und nicht weniger dringend.
+
+Die Kapitaleinzahlung von CHF 50'000 auf das Sperrkonto fehlt den 21. Tag. Ohne sie keine Kapitalbescheinigung und keine Beurkundung; vom Notariat Mathies seit dem 13.08. keine Antwort.
+
+bexio antwortet den 28. Tag mit 401, heute selbst nachgemessen. Der Token läuft erst am 13.12. ab, die Session dahinter ist beendet. Nur ein neuer Personal Access Token unter developer.bexio.com hilft, und das ist ein Login und damit Deine Aktion. Solange bleiben die fünf Positionen über CHF 51'400 unverifiziert und jede Mahnaktion gesperrt.
+
+**In den nächsten 7 Tagen**
+
+Montag, 07.09.: der Gastzugriff von Labinot Bajrami läuft ab, während er in den Unterlagen arbeitet. Am selben Tag ist der Baustart KISPI angemeldet, Michael Spörri ist wieder erreichbar, und der Plansatz für Josef Posch in Thalwil ist zugesagt, sofern die Mail an Tschopp heute hinausgeht.
+
+Montag, 07.09., 09:15 bis 09:45: Abgleich Umbau PPTS über Teams, Organisatorin Cornelia Schäfer, mit Claudia Allerkamp und Albin Spahic.
+
+Dienstag, 08.09.: letzter Tag für den bexio-Abo-Entscheid. Die automatische Umstellung von Starter auf Advanced greift am 08.10., Kündigung oder Paketwechsel wirken nur bis 30 Tage davor. Die Entscheidungsgrundlage mit Kostenvergleich liegt vor.
+
+Mittwoch, 09.09.: Abgabe der baurechtlichen Einschätzung Steinbrüchelstrasse an Christoph Bopp.
+
+Donnerstag, 10.09., 13:00 bis 14:00: Koordinationssitzung Gruner, Jans und KISPI über Teams, voller Verteiler. Am selben Tag der HUB12-Event in der Region Zürich.
+
+**In Beobachtung**
+
+Terminvorschlag des UGZ für die Abnahme, Zusage bis Anfang kommender Woche. Türmatrix, Spezifikation Architektur weiterhin bei uns. RWD Schlatter, Angebot KD18611, Lieferbarkeit des Typs IT100 als Steckzarge. Gastzugriff Levi Hiltmann mit Ablauf 22.09. Sieben Beschaffungen aus Abschnitt 07 des Steinbrüchel-Berichts, darunter die Grundbuchauszüge WI1585, WI3365, WI3366 und WI1738 und das Geometer-Terrainmodell, alle erst nach der Abgabe zu bewegen.
+
+**Vorschlag Kalendereinträge**
+
+Keiner. Für Steinmann sind zwei Einträge wirkungslos durchgefallen, und die drei offenen Punkte sind heute alle in wenigen Minuten mit einer Mail zu erledigen.
+
+**Token-Tempo**
+
+Gestern zusammen 282.5 Mio Token für rund 208 USD API-Äquivalent, davon MacBook Pro 216.1 Mio (161.97 USD) und Mac Mini 66.4 Mio (46.39 USD).
+
 ## Hub-Chef 03.09.2026 (08:39 bis 09:2x, Tagesbriefing gesendet)
 
 **Pflichtpruefungen.** `freigabe-status.sh --kurz`: mac-mini 0, macbook-pro 0, Exit 0. `--briefing`:
