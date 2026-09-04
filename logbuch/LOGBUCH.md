@@ -7,6 +7,14 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 Der Tag hat einen klaren Schwerpunkt, und er liegt nicht beim KISPI: **der Bericht Steinbrüchelstrasse ist fertig, und der Auftraggeber weiss nichts davon.** Christoph Bopp hat gestern Vormittag nicht nur die Prüfung bestellt, er hat ausdrücklich um eine zeitnahe Rückmeldung gebeten, ob wir sie überhaupt übernehmen. Beides steht aus, während der Bericht seit gestern 17:45 abgelegt ist. Daneben liegen zwei fertige Mails im Postfach, die nicht hinausgegangen sind.
 
+## AG-Gründung (04.09.2026, Monitor-Lauf)
+
+**P1-Blocker: CHF 50'000 Kapitaleinzahlung 18+ Tage überfällig.** Der ag-gruendung-monitor läuft weiterhin unter osascript-Blockade (Apple Mail unresponsive seit 28.08.); neue Mails seit 31.08. nicht verifizierbar. Stand aus verifiziertem Lauf 03.09.: **Einzahlung sollte ~14.08. erfolgen, offenes Sperrkonto seit 17.08., jetzt 18+ Tage ohne Aktion.** Notariat Mathies antwortet nicht seit 13.08. auf die Rückmeldung (Name-Alternative «Raphael Jans AG» verlangt; Word-Dokumente Gründungsurkunde/Statuten verlangt 13.08.).
+
+**Kritischer Pfad unverändert:** (1) CHF 50'000 einzahlen → Sperrkonto freigegeben, (2) UBS-Kapitalbescheinigung per Einschreiben abwarten → Einzahlung nachgewiesen, (3) Notariat kontaktieren für Beurkundungstermin (sobald Bescheinigung vorhanden). Ohne Einzahlung keine Bescheinigung, ohne Bescheinigung keine Beurkundung, und ein vorgeschlagener Termin könnte verfallen.
+
+**Aktion Raphael: CHF 50'000 HEUTE zu UBS Sperrkonto überweisen. Anschliessend Notariat Mathies (wiedikon-zuerich@notariate-zh.ch) anschreiben mit Rückmeldung auf offene Punkte + Ankündigung, dass Kapitalbescheinigung folgt.**
+
 **Erledigt seit gestern**
 
 Die Auflagen vor Arbeitsausführung sind verteilt und laufen bereits. Du hast am 03.09. um 11:29 dem gesamten Gremium die Zuständigkeiten zugewiesen, samt Ablageort auf SharePoint. Jens Ziegel hat es am selben Nachmittag umgesetzt: 16:10 an Patrick Schatt (Siemens) für die BMA-Unterlagen, 16:14 an Tim Harder (Jomos) für die Sprinkleranlage, je mit dem GVZ-Formular und dem Downloadlink. Er reicht bei der GVZ-Fachstelle selbst ein. Wichtig für Deine Lagebeurteilung: **beide Bitten gehen an die Unternehmer, nicht an Dich.** Hier liegt keine Bringschuld bei JANS.
