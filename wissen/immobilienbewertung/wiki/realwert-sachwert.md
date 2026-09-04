@@ -517,6 +517,20 @@ Kennwerten nebeneinander — die belastbare Basis fuer den Healthcare-Neuwert (R
   Pflegebauten mit Zimmerloggien oder Dachterrassen zusaetzlich ueber CHF/m2 GF pruefen.
   Die Fundstelle traegt `status: speculative` — das betrifft eine nie gelaufene
   Abdeckungsrichtung, nicht die Richtigkeit der Werte (Rule `normen-referenz` Ziff. 1b/1c).
+  ⚠⚠ **Die Gegenprobe «CHF/m2 GF» traegt nicht — Vermerk 04.09.2026 (Synergie-Lauf 28, SYN-72);
+  der Wortlaut darueber ist unangetastet.** Die Zeile empfiehlt, Zimmerloggien und Dachterrassen
+  «zusaetzlich ueber CHF/m2 GF» zu pruefen. **GF ist aber genau die Kategorie, ausserhalb derer
+  dieselbe Norm die Loggia verortet:** nach Ziff. 3 ist die AGF (mit ANF/AVF) die genutzte Flaeche
+  **ausserhalb** der allseitig umschlossenen GF; NF, HNF und GF gehoeren alle zur Innen-Familie
+  (Ziff. 1-2) und enthalten die Loggia in keinem Fall. Ein CHF/m2-Vergleich auf diesen
+  Bezugsgroessen ist gegenueber Aussenflaechen **genauso blind** wie der CHF/m3-Vergleich — die
+  Abhilfe verlagert den blinden Fleck, statt ihn zu schliessen. **Was traegt:** die Aussenflaechen
+  **separat als ANF/AVF ausweisen** (so formuliert es `agents/grobkosten-rechner.md` Z. 30-32),
+  nicht die Kennwert-Bezugsgroesse wechseln. Zutreffend ist die Empfehlung nur fuer eine
+  **Marktflaeche**, die Balkone anteilig einrechnet — das ist Bewertungspraxis, aber keine
+  SIA-416-Groesse, und diese Zeile nennt eine SIA-416-Groesse. Der Sachentscheid ueber den
+  Ursprungssatz (`wissen/normen/destillate/sia-416-2003.md` Z. 357) gehoert der KB `normen` und
+  ist dort als Bringschuld registriert; bis dahin gilt der separate Ausweis.
 - **CHF/Pflegezimmer (BKP 2, ~24 m2-Zimmer): 272'780-530'000** fuer reine Heime; **780'000** beim
   St.-Anna-**Zentrum** (Ausreisser, hoher Gemein-/Therapieflaechenanteil). Das erweitert den
   frueheren Herosé-Vier-Heim-Vergleich (337'000-418'000) nach unten und oben.

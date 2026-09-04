@@ -1,5 +1,43 @@
 # Offene Fragen — KB Normen
 
+
+## Cross-KB-Eingang aus `wissen/koordination` (Synergie-Lauf 28, 04.09.2026) — die Praxisfolge des Run-78-Kernbefunds nennt eine Bezugsgroesse, die sie nicht tragen kann
+
+**Betrifft `destillate/sia-416-2003.md` Z. 357** (Abschnitt N77-1, GESCHLOSSEN-Vermerk) und ueber
+ihn fuenf Bausteine, die Wissens-Chef Lauf 52 am 03.09.2026 daraus bestueckt hat. Der
+**Kernbefund selbst ist nicht bestritten** und gut belegt: ANF und AVF haben kein
+Volumen-Pendant, sie zaehlen zum AKV mit eigenstaendiger Ziff. 6. Bestritten ist allein die
+**abgeleitete Praxisfolge** im zweiten Halbsatz:
+
+> «CHF/m³ GV ist gegenüber Aussenflächen blind, CHF/m² nicht»
+
+**Messung (Synergie-Lauf 28, an den Bausteinen selbst):** die CHF/m²-Bezugsgroessen, die der Hub
+tatsaechlich fuehrt, sind **NF** (`skills/kostenschaetzung/SKILL.md` Z. 54), **HNF**
+(`wissen/grobkosten/wiki/kennwerte.md` Z. 65, `skills/machbarkeit-studio/SKILL.md` Z. 125) und
+**GF** (`kennwerte.md` Z. 264, `wissen/immobilienbewertung/wiki/realwert-sachwert.md` Z. 517).
+Alle drei sind **Innen-Kategorien der GF-Familie** (Ziff. 1-2). Die AGF mit ANF/AVF ist nach
+**Ziff. 3** definiert als die genutzte Grundrissflaeche **ausserhalb** der allseitig umschlossenen
+GF (dieses Destillat, Z. 30 und Z. 213) und in keiner der drei enthalten. Auf diesen
+Bezugsgroessen ist der CHF/m²-Vergleich gegenueber Balkonen und Laubengaengen **ebenso blind** wie
+der CHF/m³-Vergleich.
+
+**Zwei Daempfungen, damit die Frage nicht ueberdehnt wird.** (1) Fuer eine **Marktflaeche**, die
+Balkone anteilig einrechnet (Bewertungspraxis), trifft der Satz zu — nur ist das keine
+SIA-416-Groesse, und die fuenf Bausteine nennen ausdruecklich SIA-416-Groessen. Die Frage ist
+damit eine der **Benennung der Bezugsgroesse**, nicht des Grundgedankens. (2) Die
+Groessenordnungs-Daempfung aus Lauf 52 (meist innerhalb der ±25-%-Bandbreite, materiell bei
+kleinen und balkonlastigen Varianten) bleibt gueltig und betrifft beide Kennwerte gleich.
+
+**Was tragfaehig ist:** die Aussenflaechen **separat als ANF/AVF ausweisen** statt die
+Kennwert-Bezugsgroesse zu wechseln. Von den fuenf Bausteinen formuliert das nur
+`agents/grobkosten-rechner.md` Z. 30-32 vollstaendig («und die Aussenflaechen benennen»).
+
+**Der Entscheid gehoert dieser KB, nicht dem Aufsichtslauf** (Praezedenz N63-3 / SYN-54): zu
+entscheiden ist, ob Z. 357 die Bezugsgroesse benennt (z.B. «CHF/m², sofern die Bezugsflaeche die
+AGF mitfuehrt») oder die Praxisfolge auf den separaten ANF/AVF-Ausweis umstellt. Es wurde
+**kein** Wortlaut in diesem Destillat angetastet. Gesetzt wurden nur dieser Eintrag und ein
+⚠-Vermerk an der schaerfsten Anwendungsstelle (`realwert-sachwert.md`, wo «CHF/m2 GF» konkret
+empfohlen wird). Register: `wissen/koordination/SYNERGIE-REGISTER.md` **SYN-72**.
 ## Normen-Nacht Run 79 (04.09.2026) — N64-5.1 geschlossen, ein Statusabstieg, eine Bestandslücke
 
 **N64-5.1 GESCHLOSSEN.** Run 64 hatte die Spezifität der Stichprobenstufe als ungemessen

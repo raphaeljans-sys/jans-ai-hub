@@ -2,6 +2,41 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-04 (Synergie-Lauf 28, Tagestakt) — die Praxisfolge des SIA-416-Befunds nennt eine Bezugsgroesse, die sie nicht tragen kann
+
+Delta-Basis 03.09.2026 17:10, Fenster 23,9 h, **119 Commits**, HEAD `dde7fa010`. Uhr- und
+Anschluss-Gegenprobe bestanden. Strukturelles Delta: **0 neue** Bausteine, **6 geaenderte**
+Contract-relevante Dateien; Frueh-Ausstieg griff nicht. Inline-Analyse, kein Fan-out.
+Bericht: `outputs/2026-09-04_synergie-lauf-28.md`.
+
+- **SYN-72 neu.** Die Auslieferung des Run-78-Kernbefunds durch Lauf 52 ist in der Verdrahtung
+  vorbildlich (fuenf Bausteine, Kante in `QUERBEZUEGE.md`) — aber die **mitgelieferte Abhilfe**
+  «zusaetzlich ueber CHF/m2 fuehren» traegt nicht: die CHF/m²-Bezugsgroessen des Hub sind **NF,
+  HNF und GF**, alle Innen-Kategorien der GF-Familie (Ziff. 1-2), waehrend ANF/AVF nach Ziff. 3
+  **ausserhalb** der umschlossenen GF liegen. Der CHF/m²-Vergleich ist auf diesen Groessen
+  **genauso blind** wie der CHF/m³-Vergleich. Schaerfster Fall `realwert-sachwert.md` Z. 517:
+  «zusaetzlich ueber CHF/m2 **GF** pruefen» — ueber genau die Kategorie, ausserhalb derer dieselbe
+  Norm die Loggia verortet. Tragfaehig ist der **separate ANF/AVF-Ausweis**, den von fuenf
+  Bausteinen nur `agents/grobkosten-rechner.md` vollstaendig formuliert. Zwei Daempfungen wandern
+  mit: fuer eine **Marktflaeche** mit anteiligen Balkonen trifft der Satz zu (keine SIA-416-Groesse
+  — es ist eine Benennungsfrage), und die ±25-%-Daempfung aus Lauf 52 bleibt gueltig.
+- **SYN-01 aufgerollt** (Beteiligter bewegt), Nachtrag gesetzt: die offene Haelfte
+  (`realwert-rechner`, `wirtschaftlichkeit-rechner` je **0** Treffer auf `wissen/grobkosten`, neu
+  nachgemessen) traegt erstmals eine **konkrete Sachfolge** — der Vorbehalt erreichte den
+  Wissensartikel des Bewertungsagenten, aber nicht den Agenten, der mit Z. 33 «Volumen (GV, m3) x
+  Kostenkennwert» der direkteste Betroffene ist.
+- **Gesetzt (active-with-flagging):** ⚠-Vermerk additiv in
+  `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (Wortlaut darueber unangetastet) und
+  **Cross-KB-Bringschuld** in `wissen/normen/wiki/QUESTIONS.md` — der Sachentscheid ueber den
+  Ursprungssatz gehoert der KB `normen` (Praezedenz N63-3 / SYN-54).
+- **Bewusst NICHT gesetzt:** der Vorbehalt wurde **nicht** in `agents/realwert-rechner.md`
+  nachgetragen. Einen zur Haelfte unbelegten Satz in einen sechsten Baustein zu kopieren, haette
+  den Befund vergroessert statt behoben — die adversariale Konsequenz des eigenen Hauptbefunds.
+- **Zeilenbilanzen mit Loeschungen geprueft, harmlos (sechster Lauf in Folge):**
+  `grobkosten-rechner` 7/2 = Umnummerierung; `jans-dna-facetten` 11/12 = eine widerlegte
+  Gattungsregel weicht einer belegten Bestbeschreibung, plus eine Verdichtung mit **am Objekt
+  gepruefter** Rueckkante nach `[[haltung]]`.
+
 ## 2026-09-03 (Lauf 52) — der Run-78-Befund an seine Konsumenten ausgeliefert; ein Destillat, das ueber sie log
 
 **Zuschnitt:** 6 Melder (`model: sonnet`) + 4 adversariale Verifikatoren + vier eigene Messungen
