@@ -3955,3 +3955,69 @@ Zweiter Marker aus derselben Mail: **der Betreff traegt die These, der Body die 
 «… ‹Verzoegerung durch Dritte› (Baurecht) **nicht gegeben**; …» steht als Behauptung im Betreff,
 waehrend der Body offen fragt, ob sie gegeben sei. Der Betreff nimmt die erwartete Antwort
 vorweg und macht die Mail fuer die Ablage sofort auswertbar.
+
+## Batch 114 (02.–03.09.2026) — der Gewicht-Hebel wechselt das Register, er hebt nicht nur die Waermestufe
+
+**Quelle:** `260904-mailbatch-114.md`, Einheiten A und D · **Gewichtung:** `authentisch`
+(Raphaels eigene Hand, Kasus- und Tippfehler durchgaengig) · erfasst 04.09.2026
+
+### Derselbe Kontakt, zwei Register, 22 Stunden Abstand
+
+Der Sanitaerplaner (Gruner, per Du seit der Koordinationssitzung vom 20.08.2026) bekommt:
+
+- **02.09.2026 16:58** — «**Geschätzter** Mustafa, werter Igor» · Anlass: der Bauherr hat einen
+  Trinkbrunnen gestrichen, Raphael hat die Architektenplaene geaendert und verlangt die
+  Anpassung **aller** Leitungen. Verbindliches Ergebnis, Bauherren-Anforderung, fuenf Personen im
+  Cc bis hinauf zur Bauherrenleitung.
+- **03.09.2026 15:32** — «**Hoi** Mustafa,» · Anlass: Plaene hochladen, damit gedruckt und auf
+  die Baustelle gebracht werden kann. Routine.
+
+Das ist der **engste Beleg der Anlassgewicht-Klausel** im ganzen Bestand — bisher lag zwischen
+den Stufen desselben Kontakts jeweils mindestens eine Woche. Beide Halbsaetze der Klausel sind
+hier in einem Zug sichtbar: das Gewicht hebt, **und** der Faden faellt danach von selbst auf den
+Routine-Opener zurueck. Keine Erklaerung, keine Ueberleitung.
+
+### Praezisierung, die der Bestand so noch nicht hatte
+
+Die Klausel in Rule `anrede-kontakte` ist als **Hebung innerhalb** eines Registers formuliert
+(«zieht ‹Geschätzte/r \<Vorname\>› auch beim sonst lockersten Du-Kontakt»). Einheit A zeigt
+etwas Schaerferes: Raphael wechselt beim Du-Kontakt in die **Sie-Anredeformel** —
+«Geschätzter \<Vorname\>» ist im Beziehungsregister sonst die Investor-Du-Stufe, steht hier aber
+in einer Zeile neben «werter \<Vorname\>», das unbestritten Sie-Register ist. Und der Fliesstext
+haelt gleichzeitig das Du («Darf ich **Dich** bitten Mustafa»).
+
+Praktisch heisst das: **die Anredezeile wechselt das Register, der Body nicht.** Wer nur die
+Anrede liest, haelt die Mail fuer eine Sie-Mail; wer nur den Body liest, fuer eine Du-Mail.
+Beides ist richtig. Zur offenen Reichweiten-Frage (SYN-71, Vermerk 03.09.2026 in der Rule) ist
+das ein **dritter** Fall neben «nur im Du» und «auch im Sie»: die Klausel beschreibt keine
+Stufenleiter innerhalb eines Registers, sondern einen **Registerwechsel der Anredezeile allein**.
+Nicht kompiliert, Raphael vorzulegen — siehe [[QUESTIONS]] 260904 #1.
+
+### Die Staffel ordnet nach Zustaendigkeit, nicht nach Waerme
+
+Batch 113 belegte Du und Sie in einer Anredezeile. Einheit A bestaetigt das unabhaengig und
+liefert die Ordnungsregel nach: vorne steht der **Du**-Kontakt, hinten der Sie-Kontakt. Waere die
+Waerme das Ordnungsprinzip, stuende es umgekehrt. Massgeblich ist, **wer handeln muss** — die
+Bitte im Body richtet sich an den Erstgenannten; der Zweitgenannte ist der Anlassgeber und
+bekommt ausser der Anrede keine direkte Ansprache.
+
+### Neue Sammelanrede «Liebe Alle»
+
+Einheit B, an acht Projektbeteiligte gemischten Registers (Bauherrenseite, Fachplaner,
+Brandschutz). Im Bestand bisher nur «Geschätzte Alle» belegt. **«Liebe Alle» + «Darf ich Euch
+Bitten»** ist damit die warme Variante der Kollektivanrede; sie erscheint hier ausgerechnet an
+der formellsten Sache des Batches (Behoerdenauflagen). Der Kollektivfall folgt also **nicht** der
+Anlassgewicht-Klausel, die im Einzelfall die Stufe hebt.
+
+### Vier Du-Kontakte, viermal der neutrale Gruss
+
+Einheiten C, D, E, G, H tragen alle «Hoi \<Vorname\>» und schliessen alle mit «**Freundliche
+Grüsse**». Kein «Lieber Gruss» im ganzen Batch. Die DNA-Kernregel koppelt den warmen Gruss ans
+Du; im laufenden Baustellenverkehr traegt der Du-Opener offenbar den neutralen Gruss. Als
+Widerspruch markiert, nicht geglaettet — [[QUESTIONS]] 260904 #2.
+
+### Gegensignal ohne Nachzug
+
+Die Bauherrenseite (Technischer Dienst, Du) schliesst im selben Thread mit «Herzlich Albin».
+Raphael uebernimmt die Formel nicht und bleibt bei seiner eigenen. Gleiches Muster wie bei
+«Ciao Raphi» (Batch 113): **Raphael spiegelt fremde Waermeformeln nicht.**
