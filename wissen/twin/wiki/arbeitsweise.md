@@ -4245,3 +4245,34 @@ namentlich benannt und in den Verteiler genommen) mit «**Ich nehme die BMA heut
 Traktandenliste.**» Die Sachfrage wird also nicht im Mailfaden ausgetragen, sondern in die
 Sitzung desselben Tages gehoben. Vgl. den schon belegten Zug, offene Punkte in der
 Koordinationssitzung zu buendeln statt bilateral zu klaeren.
+
+## Bei der Erstanfrage an einen externen Fachplaner steht die eigene Seite im BCC (belegt Fidelity 260904, authentisch)
+
+28.01.2026, Erstkontakt an den Brandschutzexperten: **An** = der Fachplaner, **Cc** = der
+vermittelnde Bauherrenvertreter, **Bcc** = das eigene Baumanagement und der Generalplaner.
+
+Die Verteilerentscheidung ist nicht Zufall, sondern Dramaturgie: sichtbar ist genau die Kette,
+die die Vermittlung erklaert («Herr Albin Spahic … hat mich freundlicherweise an Sie verwiesen»),
+und der Vermittelnde sieht, dass sein Verweis ausgefuehrt wurde. Die eigene Seite liest mit, ohne
+dem neuen Gegenueber als Gremium gegenueberzutreten. **Die Blindfassung setzte alle drei ins Cc**
+und machte aus einer Anfrage eine Vorstellungsrunde.
+
+Regel: wer den Vorgang nur verfolgen soll und fuer das Gegenueber keine Rolle spielt, steht im
+Bcc — nicht im Cc. Der Cc bleibt dem vorbehalten, dessen Anwesenheit die Mail selbst erklaert.
+
+## Endform: die Kontakt-Kaskade mit selbst uebernommener Empfangskontrolle (belegt Fidelity 260904, authentisch)
+
+Dieselbe Mail endet dreistufig, in drei eigenen Absaetzen:
+
+> Haetten Sie Zeit fuer eine Besprechung wo die Fragestellungen gemeinsam eroertert … werden koennen.
+>
+> Fuer einen Terminvorschlag fuer ein gemeinsames Treffen wuerde ich mich freuen.
+>
+> Ich werde Sie noch versuchen telefonisch zu erreichen um bei Bedarf weitere Unterlagen
+> nachzureichen sowie der Erhalt der E-Mail zu versichern.
+
+Bitte → Wunsch → **eigene Nachfassung**. Die dritte Stufe ist die neue: er verlaesst sich nicht
+darauf, dass die Mail ankommt und gelesen wird, sondern kuendigt an, den Empfang selbst
+telefonisch zu verifizieren. Gleiche Haltung wie die Doppeladressierung bei unklarer
+Zustaendigkeit (260805) — dort auf der Adress-, hier auf der Zeitachse. Kein Fragezeichen hinter
+der Bitte (bestaetigt 260820).

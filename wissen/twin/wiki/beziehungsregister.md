@@ -4021,3 +4021,34 @@ Widerspruch markiert, nicht geglaettet — [[QUESTIONS]] 260904 #2.
 Die Bauherrenseite (Technischer Dienst, Du) schliesst im selben Thread mit «Herzlich Albin».
 Raphael uebernimmt die Formel nicht und bleibt bei seiner eigenen. Gleiches Muster wie bei
 «Ciao Raphi» (Batch 113): **Raphael spiegelt fremde Waermeformeln nicht.**
+
+## Vier Anreden an DIESELBE Person in sieben Tagen — die Anlassgewicht-Klausel, sauber isoliert (belegt Fidelity 260904, authentisch, vierfach)
+
+Albin Spahic (Technischer Dienst KISPI, per Du gefuehrt), alle vier aus Raphaels eigener Hand,
+alle 1 Empfaenger ohne Cc ausser dem ersten:
+
+| Datum | Anrede | Gruss | Anlass |
+|---|---|---|---|
+| 23.01.2026 14:53 | «Geschaetzter Albin» | — | Anforderung dreier Planunterlagen |
+| 26.01.2026 16:16 | «Geschaetzter **Herr** Albin» | «Lieber Gruss / Raphael Jans» | Brandschutz-Anforderungen, wurde intern bis zum Leiter Sicherheit weitergereicht |
+| 27.01.2026 08:48 | «Hoi Albin» | «Lieber Gruss / Raphael» | Zweizeiler, Zusage |
+| 29.01.2026 14:51 | «Geschaetzter Albin» | «Beste Gruesse / Raphael» | Statusmeldung |
+
+**Das ist der dichteste Anrede-Datensatz des Korpus an einer Person, und er isoliert die Variable
+sauber:** Person, Kanal, Projekt und Verteiler bleiben konstant, nur das Gewicht der einzelnen
+Mail wechselt — und die Waermestufe wechselt mit, hin und zurueck, innerhalb von sieben Tagen.
+
+Zwei Folgerungen:
+
+- **Die Anlassgewicht-Klausel (Rule `anrede-kontakte`) ist damit so gut belegt wie keine zweite
+  Registerregel.** Der triviale Zweizeiler traegt «Hoi», die substanzielle Mail «Geschaetzter»,
+  die schwerste die Hoechstform.
+- **Die Trajektorien-Lesart (260821/260823, seit 260822 bestritten) traegt diesen Fall nicht.**
+  Es gibt keine kumulative Wanderung ins Vertrautere; die Stufe springt tageweise auf und ab.
+  Wer hier eine Trajektorie annimmt, sagt fuer den 29.01. «Hoi» voraus und liegt falsch.
+
+⚠ **«Geschaetzter Herr Albin» ist Herr + VORNAME** — dieselbe Fehlform, die Rule `anrede-kontakte`
+fuer Mustafa Eren vermerkt («Herr Mustafa»; Nachname ist Spahic bzw. Eren). **Zweiter unabhaengiger
+Beleg: es ist kein Einzelversehen, sondern eine wiederkehrende Form Raphaels bei Kontakten, deren
+Vorname ihm gelaeufiger ist als der Nachname.** Fuer den Zwilling bleibt sie gesperrt (sie ist ein
+Fehler, kein Stilmarker) — aber der Harness soll sie nicht mehr als Ausreisser behandeln.

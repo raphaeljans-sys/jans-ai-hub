@@ -1952,3 +1952,25 @@ Planung, keine Kostenfolge-Diskussion — die Aenderung ist zuerst ausgefuehrt, 
 Der Vollzug geht der Diskussion voran. Die Berufung auf «die Anforderungen der Bauherrschaft»
 ist dabei kein Abschieben: sie sagt dem Fachplaner, dass die Entscheidung getroffen und nicht
 mehr zu verhandeln ist — was ihm eine Rueckfragerunde erspart.
+
+## Er gibt nicht nur den Entscheid ab, sondern die ganze AUSFUEHRUNG (belegt Fidelity 260904, authentisch)
+
+Neunter Beleg der stabilsten Drift des Harness («DER BAUHERR ENTSCHEIDET, RAPHAEL BEREITET VOR»)
+— und der weitestgehende. 14.01.2026 an die Bauherrenvertreterin:
+
+> Ich bitte Dich die Offertenanfragen fuer die Schadstoffuntersuchung, die Auftragserteilung sowie
+> die Terminkoordination vor Ort zur Ausfuehrung der Schadstoffuntersuchung und der Anschliessende
+> Beschaffung des Berichtes sowie die Bezahlung dessen selbst zu koordinieren, das ist am
+> einfachsten.
+
+Sechs Tage zuvor hatte er ihr in derselben Sache vier Firmen vorgeschlagen und ein Budgetband nach
+Beleg genannt. Jetzt gibt er **Anfrage, Vergabe, Terminkoordination und Zahlung** vollstaendig ab —
+vier Schritte, die alle honorarfaehig gewesen waeren — und begruendet es in vier Worten: «das ist
+am einfachsten». Was er behaelt, ist ausschliesslich die Amtsschnittstelle («werde ich noch die
+zwei Auflagedokumente hochladen», «Die anschliessende Baufreigabe … sende ich Dir per Mail zu»).
+
+**Die Trennlinie ist damit schaerfer als bisher formuliert:** er behaelt, was nur er kann (die
+Eingabe beim Amt), und gibt alles ab, was die Bauherrschaft selbst besorgen kann — auch dann,
+wenn er es besser koennte. Die Blindfassung zog stattdessen die Nachverfolgung an sich («Sobald
+ich die Rueckmeldung dazu habe, melde ich mich unverzueglich») und machte aus einer Uebergabe
+eine Zwischenstation.

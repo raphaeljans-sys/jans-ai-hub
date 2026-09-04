@@ -3149,3 +3149,26 @@ zeigt die **Tür-ID** und darunter jeweils die **PDF-Bezeichnung des Werkplans**
 Metallbauers — «So kannst Du nachvollziehen welches \<Firma\>-Element zu welcher Tür-ID passt.»
 Gleiche Familie wie die Identifikator-Trias aus Batch 113: Raphael baut Bruecken zwischen
 fremden Bezeichnungssystemen, statt eine eigene Nomenklatur durchzusetzen.
+
+## Die Formalie bis zur Rechtsfolge, zweiter Beleg — und der Verweisanker statt der Wiederholung (belegt Fidelity 260904, authentisch)
+
+14.01.2026: «… werde ich noch die zwei Auflagedokumente hochladen. Die anschliessende
+**Baufreigabe** welche das **Amt fuer Baubewilligung** ausstellt sende ich Dir per Mail zu.»
+Auslöser → Handlung → Gegenstand → ausstellende Amtsstelle beim Namen → Zustellweg. Bestaetigt
+den 260806-Marker an einem zweiten Fall.
+
+Bemerkenswert die Uebersetzung: die Rechtslage lautet «keine Einsprache eingegangen», Raphael
+schreibt daraus «**sprich bis auf die zwei Auflagepunkte … kann mit dem Bauen begonnen werden**».
+Die Blindfassung blieb bei «der Entscheid ist damit rechtskraeftig» — juristisch richtig und fuer
+die Bauherrschaft wertlos. **Recht wird in den naechsten Schritt auf der Baustelle uebersetzt,
+nicht in einen Status.**
+
+28.01.2026, Verweisanker statt eigener Behauptung: «… analog zur Situation **gemaess
+Brandschutzplan 2. OG**» — die belegte Bestandssituation ersetzt die Schaetzung (Familie 260826).
+
+⚠ **Der En-Strich im zitierten Eigennamen ist KEIN Echo-Signal.** Dieselbe Mail traegt zwei
+En-Striche, beide innerhalb des Projekttitels «Kinderspital Zuerich – Akutspital – Umnutzung
+1. OG» in Guillemets. Der Detektor (Batch 89, En-Strich-Quote gegen die eigene Hand) haette hier
+angeschlagen. Regel: **Striche innerhalb eines zitierten Titels oder Eigennamens zaehlen nicht
+mit** — sonst wertet der Schutz echtes Gold ab. Gleiche Lehre wie der Guillemet-Falsch-Positiv
+vom 03.08.2026 und das verworfene «du klein»-Signal vom 07.08.2026.
