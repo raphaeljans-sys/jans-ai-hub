@@ -54,6 +54,17 @@ TERMIN_SPRACHE = re.compile(
     re.IGNORECASE,
 )
 
+# Ein Datum in Klammern direkt hinter «Lauf N»/«Run N» ist im Wissens-Layer durchgaengig eine
+# HERKUNFTSANGABE (wann jener Lauf stattfand), kein selbst gesetzter Stichtag — auch wenn
+# irgendwo im Satz zufaellig das Wort «Pruefstichtag» als Sachbegriff vorkommt (z.B. in einem
+# Ruecklick "...meldet erledigte Pruefstichtage nicht mehr weiter. Der Punkt stand seit Lauf 165
+# (27.08.2026) offen"). Ergaenzt 04.09.2026 (energie E-R175-2): der 80-Zeichen-Suchradius von
+# TERMIN_SPRACHE prueft nur Naehe, keine grammatische Bindung ans Schluesselwort.
+HERKUNFTSDATUM = re.compile(
+    r"(?:Lauf|Run)\s*\d+\s*\((?:\d{1,2}\.\d{1,2}\.\d{4}|\d{4}-\d{2}-\d{2})\)",
+    re.IGNORECASE,
+)
+
 # Ein verstrichener Stichtag, der im Umfeld ausdruecklich quittiert wurde, ist kein Versaeumnis
 # mehr, sondern Historie. Er wird weiterhin ausgewiesen, aber getrennt und ohne Befundstatus —
 # die Absicht von Regel 3 (Stichtage auch in ABGEHAKTEN Eintraegen sehen) bleibt damit erhalten,
@@ -174,6 +185,8 @@ def pruefe_kb(wurzel, kb, heute, melde):
             for nr, zeile in enumerate(zeilen, 1):
                 for treffer in TERMIN_SPRACHE.finditer(zeile):
                     rohdatum = treffer.group(2)
+                    if HERKUNFTSDATUM.search(zeile, max(0, treffer.start(2) - 20)):
+                        continue
                     try:
                         if "-" in rohdatum:
                             datum = datetime.date.fromisoformat(rohdatum)

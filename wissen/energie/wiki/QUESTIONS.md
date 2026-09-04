@@ -149,13 +149,23 @@ nicht vorgezogen · E-R165-2 (Formularsatz-Gueltigkeit 31.12.2026) ebenso.
   keine Angabe, sondern die naechstgelegene. Beim Destillieren amtlicher Volltexte gehoert der
   Fussnotentext mitgelesen oder die Luecke ausdruecklich als solche markiert.
 
-- [ ] **E-R175-2 (P3, Werkzeug): `datenstand-waechter.py` liest eine Jahreszahl in Klammern als
+- [x] **E-R175-2 (P3, Werkzeug): `datenstand-waechter.py` liest eine Jahreszahl in Klammern als
   Pruefstichtag.** Der Lauf meldet neu einen unquittierten Treffer in `QUESTIONS.md` Z. 8 —
   dort steht aber kein selbst gesetzter Stichtag, sondern der Satz «Der Punkt stand seit Lauf 165
   (27.08.2026) offen», also eine **Herkunftsangabe**. Falsch-Positiv derselben Familie wie das in
   Run 166 eingebaute Quittungsfenster, aber an anderer Stelle: die Regel trennt nicht zwischen
   «Stichtag, den ich mir selbst gesetzt habe» und «Datum, das ich nur erwaehne». Kleiner Aufwand,
   ohne Dringlichkeit — der Treffer ist harmlos, solange er verstanden ist.
+  ✓ **Geschlossen 04.09.2026 (Nachtschicht Mac Mini, Versuchs-Slot 13:30):** `datenstand-waechter.py`
+  repariert — ein neues Muster `HERKUNFTSDATUM` erkennt ein Klammerdatum direkt hinter «Lauf N»/
+  «Run N» als Herkunftsangabe und schliesst es von Regel 3 aus, unabhaengig davon, ob irgendwo im
+  80-Zeichen-Suchradius zufaellig ein Trigger-Wort wie «Pruefstichtag» steht (hier: «...meldet
+  erledigte Pruefstichtage nicht mehr weiter. Der Punkt stand seit Lauf 165 (27.08.2026) offen»).
+  Reproduziert (der Treffer auf `QUESTIONS.md` Z. 164 loeste vor der Reparatur zuverlaessig aus,
+  danach nicht mehr) und gegen **alle 19 KBs** regressionsgeprueft: die fuenf bereits quittierten
+  echten Pruefstichtag-Treffer (17.08.2026 x4, 2026-09-02 x1) bleiben unveraendert als quittiert
+  gefunden, kein neuer und kein verschwundener Treffer ausserhalb des behobenen Falls. **Gleiche
+  Familie wie E-R176-2** (Erwaehnung mit Aussage verwechselt), diesmal am Datum statt an der ID.
 
 
 ## 2026-09-02 (Nachtschicht Mac Mini 05:3x) — E-R164-3 geschlossen: Werkzeug war bereits repariert, nur nie abgehakt

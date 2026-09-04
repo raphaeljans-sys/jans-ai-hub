@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## 2026-09-04 (Versuchs-Slot 13:30) — Werkzeug-Fix: `datenstand-waechter.py` verwechselte Herkunftsdatum mit Pruefstichtag (E-R175-2)
+
+Kein Fachbefund, ein Werkzeug-Fix mit Wirkung auf alle 19 KBs (gemeinsames Werkzeug
+`wissen/tools/datenstand-waechter.py`). Regel 3 sucht in einem 80-Zeichen-Radius nach dem
+naechsten Datum hinter einem Trigger-Wort wie «Pruefstichtag» — ohne zu pruefen, ob das Datum
+grammatisch zum Trigger gehoert. Reproduzierter Fund: der Satz «…meldet erledigte
+Pruefstichtage nicht mehr weiter. Der Punkt stand seit Lauf 165 (27.08.2026) offen» loeste einen
+unquittierten Treffer aus, obwohl «(27.08.2026)» dort ausschliesslich angibt, wann Lauf 165
+stattfand — keine selbst gesetzte Frist. Fix: neues Muster `HERKUNFTSDATUM` erkennt ein
+Klammerdatum direkt hinter «Lauf N»/«Run N» (im Wissens-Layer durchgaengige Schreibweise fuer
+Herkunftsangaben) und schliesst es von Regel 3 aus. Reproduziert und nach der Reparatur
+widerlegt (`wiki/QUESTIONS.md` Z. 164 verschwindet aus dem Treffer); Regressionslauf gegen
+**alle 19 KBs** identisch zur Baseline bis auf den behobenen Fall — die fuenf bereits
+quittierten echten Pruefstichtag-Treffer bleiben unveraendert quittiert. **Gleiche Familie wie
+E-R176-2** (Erwaehnung mit Aussage verwechselt), diesmal am Datum statt an der ID; beide
+Werkzeuge, beide Fehlermechanismen bleiben eigenstaendig (kein gemeinsamer Codepfad). Details:
+`wiki/QUESTIONS.md` E-R175-2.
+
 ## 2026-09-04 — Werkzeug-Fix: `fehloffen-waechter.py` verwechselte ID-Zitat mit ID-Schliessung (E-R176-2)
 
 Kein Fachbefund, ein Werkzeug-Fix mit Wirkung auf alle 19 KBs (das Script ist gemeinsames
