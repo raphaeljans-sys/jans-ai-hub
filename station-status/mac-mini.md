@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 04.09.2026 07:22:37
+Stand: 04.09.2026 07:43:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 04.09.2026 07:22:37
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 6385350d5 Vollgas-Fruehwarnung 04.09.2026: Logeintrag (still, keine Mail) + Chronik-Eintrag zum inventar.sh-Befund
+- c660e74c9 nas-selfcommit: 4 Datei(en) 2026-09-04 07:30
