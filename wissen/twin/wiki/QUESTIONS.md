@@ -5662,3 +5662,37 @@ obwohl der Betreff Strassennamen nennt und die Projekte eigene Namen haben.
 das dieser eine Fall?
 *Warum:* Kompiliert ist die Achse seit heute als «Amt/Gegenstand/ORT». Eine Bestaetigung macht aus
 einer dritten Moeglichkeit eine Vorzugsregel; ein Nein grenzt sie wieder ein.
+
+## 260904 — aus Batch 114 (`260904-mailbatch-114.md`)
+
+**#1 — Hebt das Anlassgewicht die Waermestufe, oder wechselt es das Register?**
+Beleg: 02.09.2026 16:58, «Geschätzter Mustafa, werter Igor» an einen **Du**-Kontakt, waehrend der
+Body das Du haelt («Darf ich Dich bitten Mustafa»). Die Klausel in Rule `anrede-kontakte` ist als
+Hebung **innerhalb** eines Registers formuliert; der Vermerk vom 03.09.2026 (SYN-71) stellte die
+Frage, ob sie auch im Sie gilt. Dieser Beleg zeigt eine dritte Moeglichkeit: die **Anredezeile**
+wechselt ins Sie-Register, der **Body** bleibt im Du. Frage an Raphael: ist «Geschätzter
+\<Vorname\>» bei einem Du-Kontakt (a) die oberste Du-Stufe, (b) ein Wechsel ins Sie, oder (c) eine
+eigene, registerneutrale Formel fuer «jetzt ist es verbindlich»? Die Antwort entscheidet, ob der
+Zwilling im selben Atemzug «Geschätzter» und «Dich» schreiben darf — er tut es derzeit nicht.
+
+**#2 — Traegt der Du-Opener im operativen Baustellenverkehr «Lieber Gruss» oder «Freundliche
+Grüsse»?** Beleg: vier Mails an vier Du-Kontakte am 02./03.09.2026, alle mit «Hoi \<Vorname\>»
+eroeffnet, **alle vier** mit «Freundliche Grüsse» geschlossen; kein «Lieber Gruss» im ganzen
+Batch. Die DNA-Kernregel koppelt den warmen Gruss ans Du («Lieber Gruss» ↔ «Freundliche
+Grüsse»). Hypothese: der warme Gruss haengt am **Anlass** (persoenlich, Einladung, Dank), nicht
+am Register — im laufenden Projektverkehr steht der neutrale. Bestaetigung oder Korrektur noetig,
+bevor die Kopplung im Wiki entschaerft wird.
+
+**#3 — Wie soll der Zwilling mit der Du/du-Schwankung im Original umgehen?** Beleg: 03.09.2026
+15:32, «Könntest **du** mir…» und «Kannst **Du** mir…» zwei Zeilen auseinander in derselben Mail;
+gemessene Du-Gross-Quote des Batches 0.875. Vorschlag zur Bestaetigung: **Erzeugung** immer gross
+(Rule bleibt unangetastet), **Fidelity-Messung** zaehlt eine durchgaengig grosse Blindfassung
+nicht als Abweichung. Ohne diesen Entscheid misst der Review den Zwilling an einer Quelle, die
+ihre eigene Regel nicht haelt.
+
+**#4 — Gilt fuer die Kollektivanrede eine eigene Skala?** Beleg: «Liebe Alle» (Erstbeleg,
+03.09.2026) an acht gemischt geduzte und gesiezte Empfaenger, ausgerechnet in der formellsten
+Sache des Batches (Behoerdenauflagen, Fristsetzung «sofort»); im Bestand sonst «Geschätzte Alle».
+Die Anlassgewicht-Klausel wuerde hier die kaeltere Formel erwarten lassen. Hypothese: im
+Kollektiv waehlt Raphael nach der **Stimmung, die er im Team will**, nicht nach dem Gewicht der
+Sache. Nicht kompiliert.

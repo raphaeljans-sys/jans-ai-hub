@@ -2559,3 +2559,59 @@ Fenster der `twin-fidelity-review` zuletzt verbraucht hat. (5) Vorfilter-Standar
 Service-Satz als Zweitsignal — dazu neu **`Apple-Mail-URLShareWrapperClass` als Marker des
 Claude-Entwurfswegs**, der eine Mail auf `korrektur-delta` herabstuft. (6) Die Behoerdenschiene ist
 angebrochen, aber duenn: **AfB** fehlt weiterhin mit eigenem Volltext (Furrer sass hier nur im Cc).
+
+## Batch 114 (04.09.2026) — `rj@` Sent Items 02.09. 16:00 bis 03.09. 15:32 · **Behoerdenschiene verstaerkt**
+
+**Datei:** `260904-mailbatch-114.md` · **Gewichtung:** 8 Gold-Einheiten `authentisch`,
+0 `korrektur-delta`, 1 `claude-aera` gesperrt · **eingearbeitet:** ja ([[stimme]],
+[[beziehungsregister]], [[arbeitsweise]], [[fachsignatur]], [[haltung]], [[QUESTIONS]] 260904
+#1–#4)
+
+**Abgedeckt:** `Sent Items` **02.09.2026 16:00 bis 03.09.2026 15:32**, alle 12 Treffer der Seite
+(`order: oldest`, `afterDateTime: 2026-09-02T16:00:00`, `totalResultCount: 12`, keine
+Folgeseite). Der in Batch 113 offen gebliebene Treffer (`offset: 25` jener Seite) ist damit
+mit erfasst: es war die Meldung Baustart vom 02.09. 16:02, die Batch 113 bereits verbraucht
+hatte — **der Vorwaertsfaden hat keine Luecke mehr.**
+
+**Vorfilter (gratis, vor dem ersten `read_resource`):** 1 Hub-Chef-Briefing an sich selbst
+(`claude-aera`), 1 Kalenderzusage (`summary: null`), 1 **Dublette aus Batch 113**. Der
+Vorabgleich gegen das Register hat damit zum **dritten Lauf in Folge** eine Doppel-Destillation
+verhindert. Der `twin-fidelity-review` 260903 hat `Sent Items` 12/2025–01/2026 verbraucht, also
+keine Kollision.
+
+**Verbraucht — nicht erneut destillieren:** Trinkbrunnen/Leitungsanpassung 02.09. 16:58 ·
+Auflagen vor Arbeitsausfuehrung + Brandschutzabnahme 03.09. 09:29 · EI30-LBW-Sturz
+Lueftungsfrage 03.09. 08:31 · Sanitaerplaene hochladen 03.09. 15:32 · BMA-Projektleiter benannt
+03.09. 08:10 · «Jens , die Sitzung ist heute» 03.09. 10:37 · Uebersichtsplan Tuer-ID 03.09.
+15:01 · Weiterleitung Siemens-BMA-Angebot 02.09. 16:00.
+
+**Kernbefunde:** (1) ⭐ **Registerwechsel beim SELBEN Kontakt in 22 Stunden** («Geschätzter
+Mustafa» bei Gewicht → «Hoi Mustafa,» bei Routine) — engster Beleg der Anlassgewicht-Klausel im
+Bestand, beide Halbsaetze in einem Zug. (2) ⭐ Der Gewicht-Hebel **wechselt das Register der
+Anredezeile**, waehrend der Body das Du haelt — dritte Moeglichkeit neben «nur im Du» und «auch
+im Sie» (SYN-71). (3) ⭐ Du und Sie in EINER Anredezeile zweitbelegt, mit Ordnungsregel: die
+Staffel ordnet nach **Zustaendigkeit**, nicht nach Waerme. (4) ⭐ **Du/du schwankt im Original**,
+zwei Zeilen auseinander in derselben Mail (Quote 0.875) — kein Werkzeugartefakt; Folge fuer die
+Fidelity-Messung, nicht fuer die Erzeugung. (5) ⭐ **Die Fachfrage-Mail ist dreiteilig**: ein Satz
+Befund, das nackte Label «Frage:», eine Frage mit Beilagenverweis — Mailkanal-Kurzform der
+Abklaerung nach Rule 260820. (6) ⭐ **Keine Bringschuld ohne Ablageort**: Was, Wo (zwei
+SharePoint-Links) und der Anhang-Inhalt im Body, in einem Zug. (7) ⭐ **Behoerdenauflagen werden
+zitiert, nicht paraphrasiert** — Ziffern einzeln aufgeloest, VKF-Richtlinien und GVZ-Weisungen
+beim Namen, Kursivsetzung trennt Massstab von Bringschuld; die Behoerdenschiene traegt jetzt
+(Feuerpolizei, GVZ), **AfB** fehlt weiterhin. (8) ⭐ **Zustaendigkeit als Namenspaar**
+(«Verantwortlich Jans&Ziegel») — Raphael gibt Ausarbeitung ab und behaelt Verantwortung; Feinheit
+gegen die im Fidelity-Review 260903 gemessene Drift. (9) ⭐ **Was die Arbeit gefaehrdet, wird
+nackt benannt** (fuenf Woerter, kein Gruss) — Gegenstueck zur stillen Namenskorrektur aus Batch
+113. (10) **Erstbeleg «Liebe Alle»** als Kollektivanrede, ausgerechnet an der formellsten Sache.
+(11) Vier Du-Kontakte, viermal «Freundliche Grüsse», **kein «Lieber Gruss»** — Widerspruch zur
+DNA-Kopplung, markiert statt geglaettet. (12) Binnengrossschreibung am Verb «bitten» in **beide**
+Richtungen am selben Tag: Schwankung, kein Marker. (13) Fremdsignal «Herzlich Albin» ohne Nachzug.
+
+**Naechstes Fenster:** (1) `rj@` **Sent Items ab 03.09.2026 15:32**, weiterhin `order: oldest`.
+(2) `Drafts` nur als **Zuwachs** (`order: newest`, Abgleich gegen dieses Register), nicht per
+Seitennummer. (3) Die zwei reservierten Apple-Mail-Entwuerfe vom 24.03.2026. (4) Vor dem Ziehen
+weiterhin pruefen, welches Fenster der `twin-fidelity-review` zuletzt verbraucht hat.
+(5) Vorfilter-Standard unveraendert: `internetMessageId` als Geraete-Trennung, Token-Pruefung an
+jeder gelesenen Mail, gekuerzter Service-Satz als Zweitsignal,
+`Apple-Mail-URLShareWrapperClass` als Marker des Claude-Entwurfswegs. (6) **AfB** bleibt die
+letzte offene Behoerdenstelle ohne eigenen Volltext.

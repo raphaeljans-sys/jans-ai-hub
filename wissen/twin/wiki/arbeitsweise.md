@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-09-03
+last_updated: 2026-09-04
 gewichtung: authentisch
-sources: [260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -4185,3 +4185,63 @@ vertrauten Empfaenger endet der Text dort, wo die Sache endet.** Reiht sich zum
 Eigendokument-Prinzip («endet mit dem letzten Sachpunkt, ohne Fazit oder Ausblick»), hier
 erstmals fuer eine Mail belegt. Die Blindfassung haengte einen erfundenen naechsten Schritt und
 ein getipptes «Freundliche Gruesse» an.
+
+## Batch 114 (02.–03.09.2026) — keine Bringschuld ohne Ablageort; Zustaendigkeit als Namenspaar
+
+**Quelle:** `260904-mailbatch-114.md`, Einheit B (03.09.2026 09:29, acht Empfaenger) ·
+**Gewichtung:** `authentisch` · erfasst 04.09.2026
+
+### ⭐ Die Anweisungsmail liefert Was, Wo und Inhalt in einem Zug
+
+Der Aufbau von Einheit B, in dieser Reihenfolge:
+
+1. **Kollektivanrede + Bitte** — «Liebe Alle / Darf ich Euch Bitten für die Auflagepunkte vor
+   Arbeitsausführung folgende Dokumente **sofort** zu erstellen:»
+2. **Erste nummerierte Liste** (2 Positionen), je mit Empfaengerbehoerde **und** Verantwortlichen.
+3. **Zweite nummerierte Liste** (5 Positionen) fuer die spaetere Abnahme, eingeleitet mit «Weiter
+   Bitte ich Euch für die Dokumentenliste:».
+4. **Ablageort** — «Ablageort bitte auf Sharepointserver hier ablegen:», darunter **zwei direkte
+   Links** auf die Zielordner, jeder mit seinem sprechenden Namen («Dokumente vor
+   Arbeitsausführung», «Dokumente für Bauabnahme Feuerpolizei»).
+5. **Der Anhang im Body** — «Hier der Inhalt meines Factsheets im Anhang:», danach das
+   vollstaendige Factsheet als Fliesstext.
+
+Der Marker ist Punkt 4 und 5 zusammen: **Raphael verteilt nie eine Bringschuld, ohne Ablageort
+und Inhalt mitzuliefern.** Der Empfaenger muss weder nachfragen, wohin, noch den Anhang oeffnen,
+um zu wissen, worum es geht. Das kostet ihn selbst Aufwand (er tippt das Factsheet doppelt) und
+nimmt dem Kollektiv jede Ausrede. Ergaenzt den schon belegten Zug, geklaerte Zustaendigkeit
+**auszufuehren statt zu bestaetigen** (Batch 113, Kernbefund 3).
+
+Die beiden Listen tragen nummerierte Positionen mit fuehrender Null (01, 02, …) und fettem
+Positionstext — der zweite **Mail**-Beleg fuer die Positionsnummerierung nach Rule 260814c, nach
+dem Erstbeleg in Batch 113. Fuer den Mailkanal darf das damit als etabliert gelten.
+
+### ⭐ Zustaendigkeit als Namenspaar, mit sich selbst darin
+
+> 01 BMA Unterlagen SIEMENS/GRUNER an GVZ, **Verantwortlich Cetin&Ziegel**
+> 02 Projektunterlagen Sprinkleranlage JOMOS an GVZ; **Verantwortlich Jans&Ziegel**
+
+Nachnamen, `&` ohne Leerschlaege, immer zu zweit — nie eine Einzelperson. Und in Position 02
+steht **Raphael selbst** im Paar. Er verteilt die Auflagen nicht von aussen, er nimmt eine der
+beiden auf sich und stellt dem Fachplaner jeweils einen zweiten Namen zur Seite. Der
+Brandschutzexperte (QS) steht in beiden Paaren — die Qualitaetssicherung wird nirgends
+weggelassen.
+
+Die Form ist bewusst knapp genug, um in einer Zeile mit der Leistung zu stehen: Was, an wen,
+durch wen, in einer Zeile. Keine Verantwortungsmatrix, keine Tabelle.
+
+### Zwei Fristhorizonte in einer Mail, sauber getrennt
+
+Dieselbe Mail traegt die Dokumente **vor Arbeitsausfuehrung** (jetzt faellig, Baustart lief am
+02.09.) und die Dokumente **der Brandschutzabnahme** (faellig vor Inbetriebnahme, 01.12.). Beide
+mit eigener Liste, eigenem SharePoint-Ordner und eigener Ziffer aus dem Bauentscheid. Raphael
+buendelt sie, statt zweimal zu schreiben — und trennt sie trotzdem so, dass niemand die spaetere
+Liste fuer heute faellig haelt.
+
+### Traktandierung als Antwortform
+
+Einheit E schliesst eine Zustaendigkeitsklaerung (der BMA-Projektleiter des Lieferanten wird
+namentlich benannt und in den Verteiler genommen) mit «**Ich nehme die BMA heute auf die
+Traktandenliste.**» Die Sachfrage wird also nicht im Mailfaden ausgetragen, sondern in die
+Sitzung desselben Tages gehoben. Vgl. den schon belegten Zug, offene Punkte in der
+Koordinationssitzung zu buendeln statt bilateral zu klaeren.

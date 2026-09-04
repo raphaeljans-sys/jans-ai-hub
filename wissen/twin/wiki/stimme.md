@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-09-03
+last_updated: 2026-09-04
 gewichtung: authentisch
-sources: [260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -5266,3 +5266,77 @@ Unterlagen-Eingang, nach dem naechsten Termin. Die Blindfassung setzte eine einz
 damit zum dritten Mal belegt — neu ist, dass im vertrauten Peer-Du die **Haeufung** die Form
 ist: Raphael reiht offene Fragen, statt sie zu Feststellungen zu verdichten. Der Zwilling
 beantwortet sie reflexhaft selbst oder laesst sie weg.
+
+## Batch 114 (02.–03.09.2026) — die Fachfrage hat eine eigene Form; Du/du schwankt im Original
+
+**Quelle:** `260904-mailbatch-114.md` · **Gewichtung:** `authentisch` · erfasst 04.09.2026 ·
+Metrik: 297 Woerter, Du-Gross-Quote **0.875**, Satzlaenge 19.8, 4× «Freundliche Grüsse»,
+0 Apostroph, 0 Ellipsen, 0 Unterstrich-Bullets
+
+### ⭐ Die Fachfrage-Mail: Befund — «Frage:» — Frage
+
+Einheit C, vollstaendig, an zwei Fachplaner:
+
+> Hoi \<Vorname\> und \<Vorname\>,
+>
+> Bei der Schiebetüre beim Empfang zur angrenzenden Hautstation verläuft ein EI30 LBW Sturz.
+>
+> Frage:
+> Kann man die Leitungsführung  so planen wie im Lüftungsplan eingezeichnet sodass die
+> Brandschutzvorschriften erfüllt werden können (siehe Skizze Printscreen im Anhang)?
+
+Drei Teile, sonst nichts: **ein Satz Befund**, das nackte Label «**Frage:**» auf eigener Zeile,
+**eine** Frage mit Verweis auf die Beilage. Kein Vorspann, kein Dank, keine Begruendung, kein
+Ausblick. Der Befundsatz nennt Ort («beim Empfang zur angrenzenden Hautstation») und Bauteil
+(«EI30 LBW Sturz») und traegt damit die ganze Voraussetzung der Frage.
+
+Das ist die **Mailkanal-Kurzform der Abklaerung**. Rule 260820 fasst sie fuer den Dokumentkanal
+als «rund drei Saetze plus bemasste Erklaerskizze»; hier ist es **ein Satz plus eine Frage plus
+Printscreen**. Die Skizze traegt in beiden Faellen die Geometrie, der Text nur die Frage. Der
+Zwilling neigt an dieser Stelle zum Gegenteil: er erklaert den Befund, bietet Varianten an und
+beantwortet die Frage gleich selbst.
+
+Das nackte Label «Frage:» ist dabei die Klammer, die den Text vom Anhang trennt — es sagt dem
+Empfaenger, dass ab hier eine Bringschuld steht.
+
+### ⭐ Du/du schwankt im Original, zwei Zeilen auseinander
+
+Einheit D, unveraendert:
+
+> Könntest **du** mir die aktuellen Sanitärpläne hochladen.
+> Wir müssen diese jetzt drucken und auf die Baustelle bringen.
+> Kannst **Du** mir ein Meldung mach wann die aktuellen Pläne hochgeladen sind.
+
+Die Grossschreibung der Anredeform ist bei Raphael selbst **nicht ausnahmslos**. Das ist hier
+**kein** Werkzeugartefakt der Metrik (anders als der Zaehlbefund aus Batch 113): beide Formen
+stehen im selben Absatz, in derselben Konstruktion, im Abstand von zwei Zeilen.
+
+Zwei Folgerungen, die auseinandergehalten gehoeren:
+
+1. **Fuer die Erzeugung bleibt die Grossschreibung Norm** (Rule `jans-dna`, User-CLAUDE.md). Ein
+   Zwilling, der Raphaels Tippfehler nachbildet, ist nicht treuer, sondern schlechter.
+2. **Fuer die Fidelity-Messung ist der Befund erheblich.** Eine Blindfassung mit 100 %
+   Grossschreibung ist an dieser Stelle **treuer als das Original** und darf nicht als Abweichung
+   gegen den Zwilling gezaehlt werden. Gleiche Familie wie der Werkzeugbefund 260903 (die Quote
+   zaehlt Vertipper mit und ist an Handy-Mails systematisch zu tief) — dort lag es am Zaehler,
+   hier an der Quelle.
+
+### ⭐ Die kuerzeste Einheit: fuenf Woerter, eine Korrektur, keine Einkleidung
+
+Einheit F, vollstaendig: «**Jens , die Sitzung ist heute**». Vom Handy, an eine Person, als
+Antwort auf ein «Bis morgen in der Sitzung» der Gegenseite. Kein «Hoi», kein Gruss, kein
+Absenderblock, Komma vor dem Leerschlag statt danach.
+
+Batch 113 belegte, dass Raphael **Namensfehler still** korrigiert. Hier korrigiert er einen
+**Terminirrtum ausdruecklich** — aber in der kleinstmoeglichen Form, ohne jede Abfederung
+(kein «ich glaube», kein «oder?», kein «bis dann»). Die Unterscheidung: was den anderen nur
+peinlich beruehrt, wird stumm geheilt; was die Arbeit gefaehrdet, wird benannt, und zwar sofort
+und nackt. Vgl. [[haltung]].
+
+### Sporadische Binnengrossschreibung am Verb «bitten»
+
+Am selben Tag, aus derselben Hand: «Darf ich Euch **Bitten**…» (B) und «Darf ich Dich
+**Bitten**…» (E) gegen «Darf ich Dich **bitten** Mustafa» (A) und «Weiter **Bitte** ich Euch»
+(B). Batch 113 hatte Binnengrossschreibung an drei weiteren Wortarten; dies ist der vierte Ort
+und der erste, an dem **beide** Schreibungen desselben Worts im selben Fenster stehen. Damit ist
+klar: **Schwankung, kein Marker.** Nicht nachbilden, nicht glaetten, nicht als Regel destillieren.

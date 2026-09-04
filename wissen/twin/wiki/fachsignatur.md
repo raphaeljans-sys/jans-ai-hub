@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-09-03
+last_updated: 2026-09-04
 gewichtung: authentisch
-sources: [260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -3094,3 +3094,58 @@ aussehende Nummer aus einer echten Quelle, die beim naechsten Audit nicht mehr a
 BKP-Nummer wird weiterhin in der Referenz nachgeschlagen, auch wenn sie aus einem Gold stammt.
 Damit ist erstmals belegt, dass **Gold-Status die Fachpruefung nicht ersetzt**: authentisch
 heisst richtig fuer den Stil, nicht richtig in der Sache.
+
+## Batch 114 (02.–03.09.2026) — die Behoerdenauflage wird zitiert, nicht paraphrasiert
+
+**Quelle:** `260904-mailbatch-114.md`, Einheiten B und C · **Gewichtung:** `authentisch` ·
+erfasst 04.09.2026
+
+### ⭐ Zitat mit Ziffer, Richtlinie beim Namen, Verantwortlichkeit angehaengt
+
+Einheit B fuehrt die Auflagen des Bauentscheids **im Wortlaut** und mit vollstaendiger
+Fundstelle:
+
+- Kopfzeile des Factsheets: «Auflagen vor Arbeitsausführung / **nach Ziffer 2, Bauentscheid
+  1171/26** / Raphael Jans, 03.09.26»
+- die Sammelziffer II.3 mit ihren drei Verweisen einzeln aufgeloest: **Ziff. II.21** (Lüftung),
+  **Ziff. II.25** (BMA), **Ziff. II.26** (SPA)
+- die VKF-Brandschutzrichtlinien beim Namen: «Lufttechnische Anlagen», «Brandmeldeanlagen»,
+  «Sprinkleranlagen» — dazu die **Weisungen der Gebäudeversicherung Kanton Zürich** und die
+  VKF-Brandschutzerlaeuterung «Gewährleistung der Betriebsbereitschaft von Brandfallsteuerungen
+  (BFS)»
+- Ziffer II.24 (integrale Tests, Protokollpflicht) im Volltext
+
+**Raphael formuliert die Auflage nicht um.** Er schneidet sie aus dem Entscheid aus, laesst die
+Behoerdensprache stehen (samt der zerschossenen Wortabstaende der PDF-Extraktion) und haengt
+seine eigene Zutat daran: die **Dokumentenliste** und die **Verantwortlichen**. Die
+Umformulierung waere der Ort, an dem eine Auflage stillschweigend enger oder weiter wird — und
+genau deshalb unterbleibt sie. Was Raphael beitraegt, steht sichtbar daneben, nie im Zitat.
+
+Auch die **Kursivsetzung** ist ein Signal: Ziff. II.22 (Anpassungen nach VKF-Richtlinie) steht
+kursiv, weil sie keine eigene Bringschuld ausloest, sondern nur den Massstab nennt. Was zu tun
+ist, steht aufrecht; was gilt, kursiv.
+
+Damit ist die **Behoerdenschiene**, die Batch 113 als angebrochen-aber-duenn markiert hat,
+deutlich verstaerkt: Feuerpolizei und Gebäudeversicherung Kanton Zürich mit eigenem Volltext aus
+Raphaels Hand. Offen bleibt allein das **AfB**.
+
+### Der Fachbefund in einem Satz, mit Ort und Bauteil
+
+Einheit C: «Bei der Schiebetüre beim Empfang zur angrenzenden Hautstation verläuft ein **EI30 LBW
+Sturz**.» Ein Satz, der die Frage vollstaendig traegt: Bauteil und Klassifizierung
+(EI30-Leichtbauwand als Sturz), Lage (ueber der Schiebetuere), Kontext (Uebergang zur
+angrenzenden Station). Die Kuerzel stehen ohne Erklaerung — die Empfaenger sind Lueftungsplaner
+und Brandschutzexperte.
+
+Der Zug ist derselbe wie bei den Auflagen: **die fachliche Voraussetzung wird gesetzt, nicht
+erklaert**, und die Beurteilung bleibt bei dem, der sie schuldet. Raphael fragt, ob die
+eingezeichnete Leitungsfuehrung die Brandschutzvorschriften erfuellt — er behauptet nicht, sie
+tue es nicht.
+
+### Bezeichnungen werden nie neu erfunden
+
+Einheit G verknuepft zwei Nummernsysteme, statt eines davon zu ersetzen: der Uebersichtsplan
+zeigt die **Tür-ID** und darunter jeweils die **PDF-Bezeichnung des Werkplans** des
+Metallbauers — «So kannst Du nachvollziehen welches \<Firma\>-Element zu welcher Tür-ID passt.»
+Gleiche Familie wie die Identifikator-Trias aus Batch 113: Raphael baut Bruecken zwischen
+fremden Bezeichnungssystemen, statt eine eigene Nomenklatur durchzusetzen.

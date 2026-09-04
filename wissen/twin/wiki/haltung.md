@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-09-03
+last_updated: 2026-09-04
 gewichtung: authentisch
-sources: [260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260904-mailbatch-114.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1909,3 +1909,46 @@ Dokumentenliste mit Bezirksnotariat absprechen» (_B). Er liefert Leitfaeden und
 Die Blindfassung schrieb «Sobald Du mir sagst, bis wann Ihr das machen wollt, hole ich die
 Termine ein» und zog damit den Verkehr mit dem Notariat an sich. Derselbe Fehler wie in C: der
 Zwilling macht sich zur Schaltstelle, wo Raphael den direkten Kanal legt.
+
+## Batch 114 (02.–03.09.2026) — was die Arbeit gefaehrdet, wird nackt benannt
+
+**Quelle:** `260904-mailbatch-114.md`, Einheiten F, B und A · **Gewichtung:** `authentisch` ·
+erfasst 04.09.2026
+
+### Die Korrektur wird nicht abgefedert
+
+Einheit F, vollstaendig: «Jens , die Sitzung ist heute». Der Gegenueber hatte «Bis morgen in der
+Sitzung» geschrieben; die Sitzung war am selben Tag um 13.00 Uhr. Raphael antwortet in fuenf
+Woertern, vom Handy, ohne Anrede-Formel, ohne Gruss, ohne Weichmacher — kein «ich glaube»,
+kein «oder habe ich das falsch?», kein «bis dann».
+
+Zusammen mit dem Befund aus Batch 113 (Namensfehler werden **still** korrigiert) ergibt das eine
+Trennlinie: **was den anderen nur peinlich beruehrt, heilt Raphael stumm; was die Arbeit
+gefaehrdet, benennt er sofort und ohne Einkleidung.** Ein verpasster Sitzungstermin faellt in die
+zweite Klasse. Die Kuerze ist dabei nicht Unhoeflichkeit, sondern Dringlichkeit: die Mail muss
+gelesen sein, bevor der Empfaenger sich anders disponiert.
+
+### Sich selbst in die Verantwortlichenliste schreiben
+
+Einheit B verteilt Auflagen an acht Beteiligte und nennt je Position ein Verantwortlichen-Paar.
+In Position 02 steht **Raphael selbst** («Verantwortlich Jans&Ziegel»). Er ist derjenige, der die
+Liste schreibt, die Frist setzt («sofort») und den Ablageort bestimmt — und er nimmt eine der
+beiden Bringschulden auf die eigene Kappe.
+
+Das ist die Gegenbewegung zu der Drift, die der Fidelity-Review vom 03.09.2026 als schwerste
+gemessen hat (der Zwilling zieht Arbeit an sich, die Raphael abgibt). Hier zeigt sich die
+Feinheit: Raphael **gibt Ausarbeitung ab** und **behaelt Verantwortung**. Nicht dasselbe. Wer
+daraus «Raphael delegiert alles» destilliert, trifft ihn so wenig wie der Zwilling, der alles
+selbst macht.
+
+### Die Anforderung des Bauherrn wird durchgestellt, nicht verhandelt
+
+Einheit A: der Bauherr streicht einen Trinkbrunnen. Raphael loescht ihn noch am selben Abend in
+den Architektenplaenen («Ich habe in den Architektenpläne den Trinkbrunnen gelöscht.») und
+verlangt vom Fachplaner die Anpassung **aller** Leitungen «gemäss den Anforderungen der
+Bauherrschaft». Keine Rueckfrage, ob es die Muehe wert ist, kein Hinweis auf bereits geleistete
+Planung, keine Kostenfolge-Diskussion — die Aenderung ist zuerst ausgefuehrt, dann kommuniziert.
+
+Der Vollzug geht der Diskussion voran. Die Berufung auf «die Anforderungen der Bauherrschaft»
+ist dabei kein Abschieben: sie sagt dem Fachplaner, dass die Entscheidung getroffen und nicht
+mehr zu verhandeln ist — was ihm eine Rueckfragerunde erspart.

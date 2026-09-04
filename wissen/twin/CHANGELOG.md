@@ -4,6 +4,43 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-04 — Mailbatch 114: Registerwechsel beim selben Kontakt in 22 Stunden; Behoerdenschiene verstaerkt
+
+Fenster `rj@` Sent Items **02.09. 16:00 – 03.09. 15:32**, alle 12 Treffer, `order: oldest`.
+8 Einheiten `authentisch`, 1 `claude-aera` gesperrt, 1 Dublette aus Batch 113 vom Vorabgleich
+abgefangen (dritter Lauf in Folge). Der in Batch 113 offen gebliebene Treffer ist mit erfasst —
+der Vorwaertsfaden hat keine Luecke mehr. Metrik: 297 Woerter, Du-Gross-Quote 0.875, 4x
+«Freundliche Grüsse», Satzlaenge 19.8. Raw `raw/260904-mailbatch-114.md`.
+
+- **[[beziehungsregister]]** — ⭐ **Kernbefund:** derselbe Du-Kontakt bekommt binnen 22 Stunden
+  «Geschätzter \<Vorname\>» (verbindliche Planaenderung) und «Hoi \<Vorname\>,» (Routine) —
+  engster Beleg der Anlassgewicht-Klausel im Bestand, mit beiden Halbsaetzen in einem Zug. Dazu
+  die Praezisierung: das Gewicht **wechselt das Register der Anredezeile**, waehrend der Body
+  das Du haelt («Geschätzter Mustafa … Darf ich Dich bitten») — eine dritte Moeglichkeit neben
+  «nur im Du» und «auch im Sie» (SYN-71, Rule `anrede-kontakte`). Du und Sie in EINER Anredezeile
+  zweitbelegt, mit Ordnungsregel: die Staffel ordnet nach **Zustaendigkeit**, nicht nach Waerme.
+  Erstbeleg der Kollektivanrede «Liebe Alle».
+- **[[stimme]]** — ⭐ die **Fachfrage-Mail ist dreiteilig**: ein Satz Befund, das nackte Label
+  «Frage:», eine Frage mit Beilagenverweis; die Mailkanal-Kurzform der Abklaerung nach Rule
+  260820. ⭐ **Du/du schwankt im Original** zwei Zeilen auseinander in derselben Mail — kein
+  Werkzeugartefakt: Folge fuer die Fidelity-Messung (durchgaengig grosse Blindfassung ist keine
+  Abweichung), nicht fuer die Erzeugung. Binnengrossschreibung am Verb «bitten» in beide
+  Richtungen am selben Tag: Schwankung, kein Marker.
+- **[[arbeitsweise]]** — ⭐ **keine Bringschuld ohne Ablageort**: Was (zwei nummerierte Listen),
+  Wo (zwei SharePoint-Links mit sprechendem Namen) und der Anhang-Inhalt im Body, in einem Zug.
+  ⭐ Zustaendigkeit als Namenspaar ohne Leerschlag, mit sich selbst darin.
+- **[[fachsignatur]]** — ⭐ **Behoerdenauflagen werden zitiert, nicht paraphrasiert**: Ziffern
+  einzeln aufgeloest, VKF-Richtlinien und GVZ-Weisungen beim Namen, Kursivsetzung trennt Massstab
+  von Bringschuld. Die in Batch 113 als duenn markierte Behoerdenschiene traegt jetzt
+  (Feuerpolizei, Gebäudeversicherung); **AfB** bleibt offen.
+- **[[haltung]]** — ⭐ was die Arbeit gefaehrdet, wird **nackt benannt** (fuenf Woerter, kein
+  Gruss, keine Abfederung) — Gegenstueck zur stillen Namenskorrektur aus Batch 113. Raphael
+  **gibt Ausarbeitung ab und behaelt Verantwortung**; die Feinheit gegen die im Fidelity-Review
+  260903 gemessene Drift.
+- **[[QUESTIONS]]** — vier neue Fragen 260904: Reichweite des Gewicht-Hebels (Waermestufe oder
+  Registerwechsel), Gruss-Kopplung im operativen Du-Verkehr (4/4 «Freundliche Grüsse»), Umgang
+  mit der Du/du-Schwankung in der Fidelity-Messung, eigene Skala fuer die Kollektivanrede.
+
 ## 2026-09-03 — Fidelity-Review: drei vollstaendige Vor-Claude-Golds; Service-Satz-Linie neu gefasst; erster sachlich falscher Gold
 
 Fenster `rj@` Sent Items **12/2025–01/2026**, bewusst neu gewaehlt (die letzten neun Laeufe haben
