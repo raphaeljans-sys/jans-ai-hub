@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.09.2026 06:56:18
+Stand: 04.09.2026 07:06:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:32)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 04.09.2026 06:56:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d9e7e97de nas-selfcommit: 2 Datei(en) 2026-09-04 06:45
+- cdaf52698 logbuch-radar 04.09.2026: Briefing-Abschnitt + 3 Registerzeilen (Steinbruechelstrasse Abgabe 09.09., Tschopp-Entwurf unversendet, Steinmann-Frist verstrichen)
