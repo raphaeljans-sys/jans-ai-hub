@@ -2718,3 +2718,29 @@ kein Blocker.
 Waechter-Falsch-Positive E-R176-2 + E-R175-2 gemeinsam (gleiche Ursache: Erwaehnung wird als
 Aussage gelesen). Cross-Skill-Bringschulden E-R176-3 und E-R167-3 Raphael vorlegen. Ab Oktober die
 terminierten Punkte E-R166-2 (GFM 2028), E-R167-2 (KBOB), E-R165-2 (Formularsatz).
+
+## Run 179 (05.09.2026, Tageslauf) — Block 1 lebt wieder: die Fachfrage hat auf eine neue Primaerquelle gefuehrt
+
+Erstmals seit Run 65 wieder ein echter PDF-Transfer, und zwar **nicht** aus dem Inventar: die
+offene Kostenfrage E-R178-2 fuehrte auf ein Regelwerk, das die KB gar nicht kannte — das eigene
+**«Produktreglement fuer den Zusatz ECO»** V2023.1 (ecobau + Minergie, 33 S., vollstaendig
+gelesen). Zwei Vorlaeufe hatten die ECO-Gebuehr im **Minergie**-Reglement gesucht, wo sie nicht
+steht und nie stehen wird.
+
+**Zuschnitt-Lehre fuer kuenftige Laeufe (E-R179-2):** traegt ein Produkt **zwei Herausgeber**, wird
+die Regelwerksliste **beider** gesucht. Der Hinweis stand seit Run 176 im eigenen Bestand
+(`[[minergie-eco-anleitung-graue-energie-v2023-3]]`: «in Kooperation mit dem Verein ecobau
+entwickelt») und wurde als Sachnotiz gelesen statt als Suchhinweis. Gleiche Familie wie die
+Cross-KB-Lehre von Run 176 — dort lag die Antwort in einer Nachbar-KB, hier bei einem
+Nachbar-Herausgeber. **Der Bestand kennt den Weg oefter, als der Lauf ihn sucht.**
+
+**Zweite Lehre, aus derselben Quelle:** ein Reglement regelt **Gebuehren, nicht Baukosten**. Die
+Frage «was kostet ECO» zerfaellt damit in zwei Fragen mit zwei ganz verschiedenen Quellenlagen.
+Die erste ist jetzt belegt (FAQ F275), die zweite (E-R179-1) braucht eine reale Fallreferenz und
+ist aus keinem Regelwerk zu holen — sie wird ausdruecklich **nicht** durch eine Schaetzung ersetzt.
+
+**Naechster Zuschnitt:** E-R179-1 nur, wenn eine ECO-Fallreferenz greifbar ist. Ohne
+Fremdabhaengigkeit aussichtsreicher: der **Vorgabenkatalog Zusatz ECO** — das Reglement verweist
+an mehreren Stellen auf ihn, die Schallschutz-Grenzwerte (Kap. 10.4) haben ueberhaupt nur dort
+Zahlen, und die KB kennt ihn nicht. Danach die Refuter-Pruefung des neuen Destillats
+(`emerging` → `established`).

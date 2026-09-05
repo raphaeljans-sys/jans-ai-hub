@@ -1,10 +1,10 @@
 ---
 title: Minergie-Standards & Eigenstromerzeugung
 status: established
-last_updated: 2026-09-01
+last_updated: 2026-09-05
 datenstand: 2026-01-01 (Produktreglement MINERGIE/-P/-A Version 2026.1, gültig ab 01.01.2026 — massgebende Primärquelle für alle Kennwerte dieses Artikels)
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/minergie-produktreglement-2026-1-muken-vergleich.md, destillate/minergie-messen-steuern-optimieren.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-nachweiskurs-2023-mkz-thge]], [[graue-energie]]
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/minergie-produktreglement-2026-1-muken-vergleich.md, destillate/minergie-messen-steuern-optimieren.md, destillate/minergie-produktreglement-zusatz-eco-2023-1.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-nachweiskurs-2023-mkz-thge]], [[graue-energie]], [[minergie-produktreglement-zusatz-eco-2023-1]]
 verifikation: "Adversarial Verify 2026-07-21 gegen Produktreglement MINERGIE/-P/-A Version 2026.1
   (gueltig ab 01.01.2026, minergie.ch). THGE-Zeile unten aktualisiert (Grenzwerte 2026.1 hoeher als
   2023); Wetterdaten 2035 bestaetigt; MKZ 51/46/29 als Planungsbroschueren-Richtwert gekennzeichnet,
@@ -228,3 +228,62 @@ und hat keinen Einfluss auf den zertifizierten Baustandard.
 Details, Ablauf einer Betriebsoptimierung (7 Schritte) und weitere Referenzprojekte:
 `[[minergie-messen-steuern-optimieren]]`. Siehe auch `[[pv-eigenverbrauch-zev]]`
 (Eigenverbrauchsoptimierung technisch/rechtlich), Bauherren-FAQ **F267**.
+
+## Nachtrag 2026-09-05 (Run 179, E-R178-2) — Zertifizierungsgebühren: der Zusatz ECO steht in einem eigenen Reglement und kostet meist mehr als das Minergie-Zertifikat
+
+Die KB führte bis heute keine belegte Zahl für die Kosten des Zusatzes ECO. Der Grund war ein
+Suchfehler, nicht eine Datenlücke: gesucht wurde eine ECO-Zeile im **Minergie**-Produktreglement
+2026.1. Die gibt es dort nicht und wird es nicht geben — der Zusatz ECO ist ein gemeinsam von
+**ecobau** und Minergie getragenes Produkt und hat ein **eigenes Produktreglement**
+(`[[minergie-produktreglement-zusatz-eco-2023-1]]`, Version 2023.1, Dokumentstand 31.03.2026,
+gültig ab 13.09.2023). Dessen Kap. 4 trägt die Gebühren.
+
+**Die beiden Gebühren sind zu addieren.** Das ECO-Reglement sagt es in Kap. 4.2 ausdrücklich:
+«Für die Zertifizierung des Teils Minergie fallen zusätzliche Gebühren an.» Beide Tabellen
+verwenden dieselben EBF-Klassen, alle Beträge CHF exkl. MwSt., gültig gleichermassen für Neubau
+und Erneuerung.
+
+| EBF | Minergie Kat. I/II | Minergie-P/-A Kat. I/II | Minergie Kat. III–XI | Zusatz ECO Kat. I/II/IV | Zusatz ECO Kat. VIII Spital |
+|---|---|---|---|---|---|
+| ≤ 250 m² | 1'400 | 2'600 | 1'700 | 2'300 | 6'500 |
+| > 250 ≤ 1'000 m² | 1'900 | 3'400 | 2'300 | 3'800 | 7'000 |
+| > 1'000 ≤ 2'000 m² | 2'800 | 4'900 | 3'500 | 7'000 | 10'000 |
+| > 2'000 ≤ 5'000 m² | 4'400 | 6'800 | 5'700 | 9'000 | 13'000 |
+| > 5'000 ≤ 10'000 m² | 9'300 | 11'500 | 11'000 | 12'000 | 16'000 |
+| > 10'000 m² | Offerte | Offerte | Offerte | Offerte | Offerte |
+
+Die übrigen ECO-Zeilen: Kat. III/V/VI/XI 5'000 / 6'000 / 8'000 / 10'000 / 14'000; Kat. IX
+Industrie 5'700 / 6'500 / 9'000 / 11'000 / 15'000; Kat. VII Versammlungslokal/Museum durchwegs
+nach Offerte. Der ECO-Teil ist **unabhängig vom gewählten Minergie-Standard** — er kostet auf
+Minergie dasselbe wie auf Minergie-P oder Minergie-A.
+
+**Das Verhältnis ist der eigentliche Befund.** Beim Mehrfamilienhaus mit 1'000 bis 2'000 m² EBF
+kostet der Zusatz ECO mit 7'000 Franken das **Zweieinhalbfache** des Minergie-Zertifikats
+(2'800). Auch in allen anderen Klassen der Kategorie I/II liegt der ECO-Teil über dem
+Minergie-Teil. Eine Kostenschätzung, die ECO als Aufschlag auf die Minergie-Gebühr führt, liegt
+damit systematisch zu tief.
+
+**Nicht in den Gebühren enthalten** (beide Reglemente): Raumluft- und Schallschutzmessungen
+(ECO Kap. 4.2 ausdrücklich), Nachforderungsrunden über die enthaltenen hinaus (Minergie eine,
+ECO zwei), Projektänderungen nach Antragseinreichung, Beanstandungen, sowie bei negativem
+Stichprobenbefund die Stichprobenkosten selbst. Die ECO-Stichprobenquote liegt bei
+**mindestens 30 % aller zertifizierten Projekte** (ECO Kap. 3.3), die Auswahl in der Regel
+zufällig.
+
+**Rabatte und Zuschläge:** typgleiche Folgegebäude 70 % Rabatt beim ECO-Teil (Minergie-Teil
+60 %), je zusätzliche Nutzungszone 20 % Zuschlag beim ECO-Teil (Nutzungen unter 20 % der
+Gesamt-EBF bilden keine eigene Zone), Doppelzertifizierung nach zwei Minergie-Standards 75 %
+Rabatt auf den günstigeren, sofern beide Anträge innert 15 Arbeitstagen eingereicht werden.
+
+**Geltungsbereich des Zusatzes ECO (Kap. 2):** zertifizierbar sind die SIA-380/1:2016-Kategorien
+I, II, III, IV, V, VI, VII, VIII, IX und XI. **X Lager und XII Hallenbad fehlen** — in der
+Kategorienliste und in der Gebührentabelle übereinstimmend. Minergie selbst zertifiziert Kat. XII
+(eigene Gebührenzeile 2'800 bzw. 3'700 bei EBF ≤ 250 m², darüber nach Offerte); ein Hallenbad
+kann also Minergie werden, aber nicht Minergie mit Zusatz ECO. Für Wohnbauten (I, II) und Schulen
+(IV) unter 1'000 m² EBF gelten ein reduzierter Vorgabenkatalog und ein vereinfachter Nachweis bei
+Raumluftmessungen (I, II) und beim Nachweis der grauen Energie/THGE (I, II, IV).
+
+**Was diese Zahlen nicht sagen:** sie beziffern die Gebühr, nicht die Mehrkosten des Bauens nach
+ECO (Materialwahl, Planungsaufwand, Nachweisführung). Dafür enthält keines der beiden Reglemente
+eine Zahl; der Punkt bleibt in `wiki/QUESTIONS.md` als zweite Hälfte von E-R178-2 offen.
+→ FAQ [[F275]], [[F276]]

@@ -2,6 +2,116 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 179 (05.09.2026, Tageslauf) — E-R178-2 geloest: die ECO-Gebuehr steht in einem eigenen Reglement, das niemand gesucht hatte
+
+**Block 1 (PDF-Transfer) faellt nicht mehr strukturell aus** — dieser Lauf hat erstmals seit Run 65
+wieder eine **neue, vollstaendige Primaerquelle** erschlossen, weil die Fachfrage selbst auf sie
+gefuehrt hat: `destillate/minergie-produktreglement-zusatz-eco-2023-1.md` (33 Seiten, Kap. 0-8 +
+Anhang 9/10 vollstaendig).
+
+### Der Fachbefund
+
+Run 178 hielt E-R178-2 offen mit zwei Vorschlaegen: die volle Kap.-3-Gebuehrentabelle des
+Minergie-Produktreglements 2026.1 auf eine ECO-Zeile pruefen, oder eine reale JANS-Fallreferenz
+heranziehen. **Beide Wege waren falsch — und der erste erwies sich als der aufschlussreichere
+Irrtum.** Kap. 3 des Minergie-Reglements wurde in diesem Lauf vollstaendig im Volltext gelesen
+(eigener curl + pdftotext): es enthaelt **keine** ECO-Zeile und wird auch nie eine enthalten. Der
+Zusatz ECO ist ein gemeinsam von **ecobau** und Minergie getragenes Produkt und hat ein
+**eigenes Produktreglement** — «Produktreglement fuer den Zusatz ECO zu den Gebaeudestandards
+MINERGIE/-P/-A», Version 2023.1, Dokumentstand 31.03.2026, gueltig ab 13.09.2023. Dessen
+**Kapitel 4** traegt die Gebuehren, zahlengenau und nach Gebaeudekategorie gestaffelt.
+
+**Die Zahlen** (CHF exkl. MwSt., gleich fuer Neubau und Erneuerung): ECO Kat. I/II/IV
+2'300 / 3'800 / 7'000 / 9'000 / 12'000 ueber die EBF-Klassen bis 10'000 m2; Kat. III/V/VI/XI
+5'000 / 6'000 / 8'000 / 10'000 / 14'000; Kat. VIII Spital 6'500 / 7'000 / 10'000 / 13'000 / 16'000;
+Kat. IX Industrie 5'700 / 6'500 / 9'000 / 11'000 / 15'000; Kat. VII nach Offerte.
+
+**Der eigentliche Befund ist nicht die Zahl, sondern das Verhaeltnis.** Das ECO-Reglement sagt in
+Kap. 4.2 ausdruecklich: «Fuer die Zertifizierung des Teils Minergie fallen zusaetzliche Gebuehren
+an» — die beiden Tabellen sind zu **addieren**. Und der Zusatz kostet in der Kategorie I/II
+durchwegs **mehr als das Minergie-Zertifikat selbst**, beim MFH mit 1'000-2'000 m2 EBF das
+**Zweieinhalbfache** (7'000 gegen 2'800). Eine Kostenschaetzung, die ECO als Aufschlag auf die
+Minergie-Gebuehr fuehrt, liegt damit systematisch zu tief. Verdichtet zu FAQ **F275** und einem
+Nachtrag in `[[minergie-standards]]`.
+
+**Zwei Nebenfunde aus derselben Quelle**, beide bisher nirgends in der KB: (1) **Kat. X Lager und
+Kat. XII Hallenbad sind mit dem Zusatz ECO nicht zertifizierbar** — Kap. 2 (abschliessende
+Kategorienliste nach SIA 380/1:2016) und Kap. 4.2 (Gebuehrentabelle) decken sich darin, waehrend
+Minergie selbst Kat. XII mit eigener Gebuehrenzeile zertifiziert; verdichtet zu FAQ **F276**.
+(2) Die **Stichprobenquote** betraegt «mindestens 30 % aller mit dem Minergie Zusatzprodukt ECO
+zertifizierten Projekte» (Kap. 3.3) — das ist keine gelegentliche Kontrolle, sondern fast jedes
+dritte Projekt.
+
+### Sechste Pruefung (geltende Ausgabe) — angewandt, mit Ergebnis
+
+Die Fassung 2023.1 traegt eine Jahreszahl, die drei Jahre zurueckliegt, waehrend Minergie fuer
+seine uebrigen Produkte laengst 2026.1-Fassungen fuehrt (Gebaeudestandards, Areal, Netto-Null).
+Genau die Konstellation, in der Run 164 den Fensterblatt-Fall hatte. Geprueft: die
+Herausgeber-Seite `minergie.ch/de/zertifizieren/eco/` verlinkt am 05.09.2026 exakt diese Fassung,
+unter dem Dateinamen `260331_produktreglement_zusatzprodukt_eco_v2023-1_de.pdf`; das Titelblatt
+nennt «**31. Maerz 2026, Gueltig ab 13. September 2023**». Die Version ist also 2023.1 **und**
+aktuell — der Dokumentstand wurde 2026 nachgefuehrt, die Version nicht neu nummeriert. Ein
+Kandidat `produktreglement-zusatz-eco-v2026-1.pdf` wurde probeweise abgerufen und antwortet mit
+**404**. Damit ist die Ausgabenfrage belegt beantwortet, nicht bloss «nichts Neueres gefunden»
+(Lehre Run 164: «nicht auffindbar» ist eine Aussage ueber die Suche).
+
+### Siebte Pruefung (welche andere KB fuehrt das Thema) — angewandt
+
+`grep` ueber `wissen/*/wiki/` und `wissen/*/destillate/` der uebrigen KBs nach ECO-Gebuehren/
+Zertifizierungskosten: **kein Treffer mit einer Zahl**. Vier fremde KBs erwaehnen Minergie-ECO
+(`planungsgrundlagen`, `wettbewerbs-dna`, `architektur-fachwissen`), keine fuehrt die Gebuehren.
+Zweite Anwendung der Regel, zweites Mal ohne Ersparnis — die Bewertung von Run 177 bleibt: der
+Erwartungswert traegt sie, nicht die Trefferquote.
+
+### Abschlussregel (KB-weiter grep) — ausgefuehrt
+
+`grep` ueber `wiki/` und `destillate/` nach den bisherigen Aussagen zur ECO-Kostenfrage: die
+einzigen Fundstellen sind die Run-176/177/178-Absaetze **in dieser Datei**. Kein Wiki-Artikel und
+keine FAQ-Antwort hat je behauptet, es gebe keine ECO-Gebuehr — die KB hatte an dieser Stelle eine
+**Luecke, keine Falschaussage**. Es war also nichts zu widerrufen, nur zu ergaenzen. Die
+Run-178-Feststellung («das Produktreglement 2026.1 hat keine eigene Gebuehrenzeile fuer den Zusatz
+ECO») bleibt woertlich richtig und wird nicht geloescht; sie hat nur die falsche Schlussfolgerung
+getragen, und der Zeiger auf diesen Lauf ist unten direkt an ihr gesetzt.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R179-1 (P2, Fach): die Bau-Mehrkosten von ECO bleiben unbeziffert.** Mit F275 sind die
+  **Gebuehren** belegt; die Frage «was kostet mich ECO im Bauwerk» (Materialwahl, Planungs- und
+  Nachweisaufwand, Raumluft-/Schallschutzmessungen) ist damit **nicht** beantwortet. Keines der
+  beiden Reglemente nennt dafuer eine Zahl, und das ist kein Zufall: ein Reglement regelt Gebuehren,
+  nicht Baukosten. Belastbar wird das nur ueber eine **reale Fallreferenz** — ein ECO-zertifiziertes
+  JANS-Projekt oder eine publizierte Fallstudie mit Kostenvergleich. Bis dahin bleibt in F275 der
+  ausdrueckliche Vorbehalt stehen, dass die Gebuehr nicht die Mehrkosten ist. **Nicht durch eine
+  Schaetzung ersetzen.**
+- [ ] **E-R179-2 (P3, methodisch): ein Zusatzprodukt mit eigener Traegerschaft hat in der Regel ein
+  eigenes Reglement.** Zwei Laeufe (176, 178) suchten die ECO-Gebuehr im Minergie-Reglement, weil die
+  KB den Zusatz ECO als Anhaengsel des Minergie-Standards fuehrt. Tatsaechlich ist er ein
+  **Kooperationsprodukt von ecobau und Minergie** mit eigener Regelwerkslinie — das steht seit Run
+  176 im Destillat `[[minergie-eco-anleitung-graue-energie-v2023-3]]` («in Kooperation mit dem Verein
+  ecobau entwickelt») und wurde nicht als Suchhinweis gelesen. Konkrete Regel fuer kuenftige Laeufe:
+  **traegt ein Produkt zwei Herausgeber, wird die Regelwerksliste beider gesucht, nicht nur die des
+  bekannteren.** Gleiche Familie wie E-R177-1 (eine festgestellte Auslassung ist erst untersucht,
+  wenn die Stelle vollstaendig gelesen ist) und wie Rule `wege-und-vollmachten` («nicht auffindbar»
+  ist eine Aussage ueber die Suche).
+- [ ] **E-R179-3 (P3, Werkzeug, Beleg zu E-R177-4): der Waechter-Artefakt hat sich wie vorhergesagt
+  vermehrt.** Der `datenstand-waechter.py`-Lauf von heute meldet den zitierten Satz «die fuenf
+  bereits quittierten echten Pruefstichtag-Treffer (17.08.2026 x4, 2026-09-02 x1)» **zweimal**
+  unquittiert (`QUESTIONS.md` Z. 94 und Z. 284) — bei Run 177 war es eine Fundstelle. Die zweite
+  entstand, weil Run 177 den Befund dokumentierte und dabei den ausloesenden Satz zitierte. Damit
+  ist die Prognose von E-R177-4 («das Muster wird sich wiederholen, solange Waechter-Fixes im
+  selben Journal dokumentiert werden, das sie pruefen») **empirisch belegt**, und der Zaehler
+  waechst mit jedem Lauf, der ihn beschreibt — dieser Absatz eingeschlossen. Der Waechter wurde
+  bewusst **nicht** angefasst: die Loesungsrichtung steht in E-R177-4 und gehoert einem
+  Werkzeuglauf, nicht einem Fachlauf. Wer sie umsetzt, misst am Zaehler, ob sie greift.
+
+### In diesem Lauf geschlossen
+- [x] **E-R178-2 — Wirtschaftlichkeit/Gebuehren des ECO-Nachweises** ✓ 2026-09-05, soweit die
+  Frage die **Gebuehren** betraf. Belegt aus dem eigenen ECO-Produktreglement V2023.1 Kap. 4
+  (nicht aus dem Minergie-Reglement, wo beide Vorlaeufe gesucht hatten). Verdichtet zu FAQ
+  **F275** und **F276**, Nachtrag in `[[minergie-standards]]`, Destillat
+  `[[minergie-produktreglement-zusatz-eco-2023-1]]`. **Die Bau-Mehrkosten laufen als E-R179-1
+  weiter** — der Punkt ist geteilt, nicht pauschal geschlossen.
+
 ## Run 178 (05.09.2026, Nachtschicht Mac Mini) — Aufwaermer E-R167-5 war bereits erledigt; ECO-Wirtschaftlichkeit ohne belegte CHF-Zahl weiterhin offen
 
 **E-R167-5 geschlossen (Karteileiche, kein neuer Fachbefund).** Run 177 empfahl E-R167-5
@@ -30,7 +140,10 @@ Auszug gelesen) oder eine reale Fallreferenz (JANS-Projekt mit ECO-Zertifizierun
 - [ ] **E-R178-1 (P3, Werkzeug):** `fehloffen-waechter.py` erkennt den Fehl-Offen-Fall E-R167-5
   nicht (0 Befunde gemeldet, obwohl Muster identisch zu frueher erkannten Faellen). Pruefung
   gehoert dem Werkzeug-Wartungslauf, nicht dieser KB.
-- [ ] **E-R178-2 (P2, Fach):** Wirtschaftlichkeit des ECO-Nachweises (Mehrkosten/Nutzen) ist in
+- [x] **E-R178-2 (P2, Fach):** ✓ **2026-09-05 in Run 179 geloest, siehe dort** — die Gebuehr steht
+  im **eigenen** ECO-Produktreglement V2023.1 Kap. 4, nicht im Minergie-Reglement; beide hier
+  vorgeschlagenen Wege waren falsch. Die Bau-Mehrkosten laufen als **E-R179-1** weiter.
+  Urspruengliche Formulierung: Wirtschaftlichkeit des ECO-Nachweises (Mehrkosten/Nutzen) ist in
   keiner der beiden gepruepften, aktuellen Quellen mit einer CHF-Zahl belegt. Braucht entweder die
   volle Kap.-3-Gebuehrentabelle des Reglements 2026.1 (ECO-Zeile pruefen) oder eine reale
   Fallreferenz. Nicht Teil dieses Laufs (Budgetdisziplin, keine Erfindung).

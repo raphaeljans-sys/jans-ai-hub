@@ -410,3 +410,13 @@ Zwischennotizen des Laufs: `raw/260902_amtlich_zh_bvv-2a-vs-rpv-32a-bis.md`,
 `raw/260902_ewz-fernwaermetarif-strb-3879-2025.md`.
 Destillate: `destillate/fassaden-solaranlagen-bewilligungsfreiheit-zh-2026.md`,
 `destillate/ewz-fernwaermetarif-kva-holz-2027.md`.
+
+## 2026-09-05 (Run 179)
+
+Web-Primaerquelle, kein `raw/`-Dump: «Produktreglement fuer den Zusatz ECO zu den
+Gebaeudestandards MINERGIE/-P/-A» V2023.1 (Dokumentstand 31.03.2026, gueltig ab 13.09.2023),
+bezogen von `https://www.minergie.ch/media/260331_produktreglement_zusatzprodukt_eco_v2023-1_de.pdf`
+(curl, HTTP 200, 502'639 Bytes, 33 S.), Volltext via `pdftotext -layout`. Zur Gegenprobe ebenfalls
+neu bezogen und im Volltext gelesen: Produktreglement MINERGIE/-P/-A V2026.1 Kap. 3 (Gebuehren) —
+bestaetigt den Negativbefund «keine ECO-Zeile».
+Destillat: `destillate/minergie-produktreglement-zusatz-eco-2023-1.md`.

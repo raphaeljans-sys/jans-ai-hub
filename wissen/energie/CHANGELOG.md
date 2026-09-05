@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## 2026-09-05 — Run 179: ECO-Gebuehren belegt, E-R178-2 geloest
+
+- **Neu:** `destillate/minergie-produktreglement-zusatz-eco-2023-1.md` — «Produktreglement fuer
+  den Zusatz ECO zu den Gebaeudestandards MINERGIE/-P/-A» V2023.1 (Dokumentstand 31.03.2026,
+  gueltig ab 13.09.2023, ecobau + Minergie), 33 S. vollstaendig gelesen, Status `emerging`.
+- **E-R178-2 geloest (Gebuehren-Haelfte):** die ECO-Gebuehr steht **nicht** im
+  Minergie-Produktreglement, sondern in diesem eigenen Reglement, Kap. 4.2 — CHF 2'300-16'000 je
+  Kategorie/EBF, **zusaetzlich** zur Minergie-Gebuehr, beim MFH 1'000-2'000 m2 EBF das
+  **2,5-fache** des Minergie-Teils. Beide von Run 178 vorgeschlagenen Suchwege waren falsch.
+- **Nebenfunde:** Kat. X Lager und XII Hallenbad sind nicht ECO-zertifizierbar (Kap. 2 + 4.2);
+  Stichprobenquote min. 30 % aller ECO-Projekte (Kap. 3.3).
+- **Verdichtet:** FAQ **F275** (Gebuehren, Summentabelle Minergie + ECO) und **F276**
+  (zertifizierbare Kategorien); Nachtrag in `wiki/minergie-standards.md` (Frontmatter nachgefuehrt).
+- **Neu offen:** E-R179-1 (Bau-Mehrkosten ECO, braucht Fallreferenz), E-R179-2 (methodisch: ein
+  Zusatzprodukt mit zwei Herausgebern hat ein eigenes Reglement — beide Herausgeber suchen),
+  E-R179-3 (Beleg zur Vermehrung des E-R177-4-Waechter-Artefakts, 1 → 2 Fundstellen).
+- **Pruefungen:** wiki-konsistenz 30 (5 neue, alle Klasse «FAQ-ID als Backlink»), bezugsgroessen 144
+  unveraendert, datenstand 37, kennwert-recompute 0, fehloffen-waechter 0; sechste Pruefung
+  (geltende Ausgabe) und siebte Pruefung (Cross-KB) angewandt, Abschlussregel ausgefuehrt.
+- Report: `outputs/2026-09-05_energie-run179.md`.
+
+
 ## 2026-09-05 — Run 178 (Nachtschicht Mac Mini): Fehl-Offen-Karteileiche E-R167-5 geschlossen; ECO-Wirtschaftlichkeit ehrlich als Datenluecke stehen gelassen
 
 Kein neuer PDF-Transfer (`pdf-inventar.md`/`curriculum.md` weiterhin ohne offenen Fachpunkt,
