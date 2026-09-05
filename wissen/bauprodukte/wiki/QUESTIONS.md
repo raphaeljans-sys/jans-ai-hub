@@ -450,11 +450,13 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
 
 ## Wissens-Health-Check 01.09.2026 — offener Rest
 
-- [ ] **HC0901-1 — `ch24-wishbone-chair.md` und `matrah-moll-naturmatratze.md` tragen
-  `status: established` mit jeweils nur einer Quelle** (KB-Schreibregel 6 verlangt für
-  `established` eine unabhängige Zweitbelegung). Braucht ein zweites Datenblatt, eine Norm
-  oder einen eigenen Projektbeleg je Artikel — nicht durch Umformulieren lösbar, sondern nur
-  durch echte Zusatzrecherche. Für eine Nachtschicht mit 5-USD-Budget zu unscharf abgegrenzt
-  (zwei unabhängige Recherchen zu Konsumgüter-Möbeln); Kandidat für einen dedizierten Lauf oder
-  ersatzweise Herabstufung auf `emerging`, falls keine Zweitquelle auffindbar ist. Nicht
-  behoben in der Nachtschicht 04.09.2026, siehe CHANGELOG.
+- [x] **HC0901-1 — `ch24-wishbone-chair.md` und `matrah-moll-naturmatratze.md` trugen
+  `status: established` mit jeweils nur einer Quelle.** **BEHOBEN 05.09.2026 (Nachtschicht
+  Mac Mini):** für beide Artikel per Web-Recherche eine unabhängige Zweitquelle gefunden und
+  eingearbeitet. CH24: offizielle Carl-Hansen-&-Søn-Produktseite bestätigt Konstruktion/
+  Fertigung nahezu wortgleich zum Archiv-Datenblatt (120 m Papierkordel, >100 Arbeitsschritte),
+  1 cm Differenz bei der Gesamthöhe (75 vs. 76 cm) vermerkt, nicht aufgelöst. Matrah-moll:
+  Futon Online (Herstellerin **boyboks**) bestätigt den Schichtaufbau wortgleich; zwei
+  Abweichungen vermerkt (Herstellerin boyboks statt des Schweizer Vertriebs Hüsler
+  Nest-Center/Indigo Naturwaren, Gesamthöhe ca. 12-13 statt 14 cm). `status: established`
+  bleibt für beide, da Schreibregel 6 (unabhängige Zweitbelegung) jetzt erfüllt ist.

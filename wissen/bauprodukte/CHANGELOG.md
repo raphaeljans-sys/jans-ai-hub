@@ -1,5 +1,20 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-09-05 — Nachtschicht Mac Mini: HC0901-1 geschlossen, Zweitbelegung für zwei Möbel-Artikel
+
+`ch24-wishbone-chair.md` und `matrah-moll-naturmatratze.md` trugen `status: established`
+mit nur einer Quelle (Health-Check 01.09.2026, Punkt HC0901-1, Schreibregel 6 verlangt eine
+unabhängige Zweitbelegung). Per Web-Recherche je eine unabhängige Zweitquelle gefunden:
+CH24 über die offizielle Carl-Hansen-&-Søn-Produktseite (bestätigt Konstruktion/Fertigung
+nahezu wortgleich, 1 cm Differenz bei der Gesamthöhe vermerkt), Matrah-moll über Futon
+Online/Herstellerin boyboks (bestätigt den Schichtaufbau wortgleich, Herstellerin- und
+Höhen-Abweichung vermerkt). Beide Artikel mit Zweitquelle in `sources:`, einem neuen
+Abschnitt «Zweitbelegung» und ergänzten offenen Punkten versehen; `status: established`
+bleibt bestehen, jetzt korrekt belegt. `wiki/QUESTIONS.md` HC0901-1 als erledigt
+geschlossen. Keine NAS-Rohquelle erneut gelesen, keine Kennwerte ohne Beleg übernommen
+(WebSearch/WebFetch-Ergebnisse als Zweitquelle zitiert, nicht als Widerspruch zur
+Archivquelle behandelt).
+
 ## 2026-09-04 — Nachtschicht Mac Mini: drei Befunde aus dem Health-Check 01.09. behoben
 
 `kevi-buerodrehstuhl.md`: Frontmatter-Link `[[REGISTER]]` (fremde KB `normen`) auf

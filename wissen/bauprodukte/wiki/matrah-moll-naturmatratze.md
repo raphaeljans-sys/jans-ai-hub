@@ -1,8 +1,8 @@
 ---
 title: "Matrah-Moll Naturmatratze — Schichtaufbau Schafschurwolle/Rosshaar/Naturlatex/Kokos (Preisstand 05/2007)"
 status: established
-last_updated: 2026-08-15
-sources: ["900 Einrichtung/Einrichtungselemente/Bett/Matraze/100902_Naturmatratze_Matrah_Moll.pdf" (Hüsler Nest-Center Zürich / Indigo Naturwaren GmbH Zürich, Produktblatt Matrah-Moll, Preisliste datiert 05/07; Dateistand im Archiv 02.09.2010)]
+last_updated: 2026-09-05
+sources: ["900 Einrichtung/Einrichtungselemente/Bett/Matraze/100902_Naturmatratze_Matrah_Moll.pdf" (Hüsler Nest-Center Zürich / Indigo Naturwaren GmbH Zürich, Produktblatt Matrah-Moll, Preisliste datiert 05/07; Dateistand im Archiv 02.09.2010), "futononline.de/matratzen/naturmatratzen/2155/naturmatratze-matrah-moll" (Futon Online, Herstellerin boyboks, Produktseite Matrah-moll, abgerufen 05.09.2026)]
 links: [[INDEX]]
 ---
 
@@ -55,10 +55,28 @@ Die Gesamthöhe (14 cm) und die wendbare Zweiseitigkeit sind bei der Bettgestell
 Lattenrost-Auswahl zu berücksichtigen. Aktuelle Anbieter/Nachfolgeprodukte nicht
 verifiziert.
 
+## Zweitbelegung (05.09.2026)
+
+Die aktuelle Produktseite von Futon Online (abgerufen 05.09.2026) führt «Matrah-moll»
+unter der Herstellerin **boyboks** mit demselben Schichtaufbau, wortgleich bis auf
+die Einheit: 2 Lagen Schafschurwolle je 450 g/m², 1 Lage Rosshaar 900 g/m² auf Jute,
+8 cm Naturlatex fest, 1,5 cm latexierte Kokosfasern, wieder 2 Lagen Schafschurwolle.
+Das bestätigt das Produkt als weiterhin am Markt erhältlich und die Konstruktion als
+unverändert — Zweitbelegung nach Schreibregel 6 damit erfüllt. Zwei Abweichungen:
+(1) Futon Online nennt **boyboks** als Herstellerin, nicht Hüsler Nest-Center
+Zürich/Indigo Naturwaren GmbH — die Archiv-Quelle war vermutlich der Schweizer
+Vertrieb, nicht die Herstellerin selbst; (2) Futon Online nennt eine Gesamthöhe von
+**ca. 12-13 cm** statt der im Archiv-Datenblatt vermerkten 14 cm — Differenz von
+1-2 cm, möglicherweise unkomprimiert/komprimiert gemessen oder eine seither leicht
+veränderte Schichtdicke; nicht aufgelöst.
+
 ## Offene Punkte
 
 - Preisstand 18 Jahre alt (Stand 05/2007) — für heutige Kalkulation ungeeignet, nur
   als Verhältnis-Referenz zwischen den Breiten/Typen brauchbar.
-- Aktueller Hersteller/Vertrieb (Hüsler Nest-Center Zürich, Indigo Naturwaren GmbH)
-  nicht verifiziert.
+- Herstellerin **boyboks** (bestätigt 05.09.2026 via Futon Online), Schweizer Vertrieb
+  vormals Hüsler Nest-Center Zürich/Indigo Naturwaren GmbH — ob dieser Vertriebsweg
+  heute noch gilt, nicht verifiziert.
+- Gesamthöhe zwischen Archiv-Datenblatt (14 cm) und aktueller Herstellerangabe
+  (ca. 12-13 cm) um 1-2 cm abweichend; nicht aufgelöst.
 - Keine Zulassungs-/Prüfzeichen im Quellmaterial (z.B. Öko-Tex) enthalten.

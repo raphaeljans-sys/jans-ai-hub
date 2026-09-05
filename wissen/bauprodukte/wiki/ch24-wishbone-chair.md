@@ -1,8 +1,8 @@
 ---
 title: "CH24 Wishbone Chair (Design Hans J. Wegner, Carl Hansen & Søn) — Massivholz mit handgeflochtener Papierkordel-Sitzfläche"
 status: established
-last_updated: 2026-08-15
-sources: ["900 Einrichtung/00 best/lisfäadbf/Datenblatt-ch24.pdf" (Carl Hansen & Søn Møbelfabrik A/S, Produkt-Datenblatt CH24, undatiert im Dokument selbst; Dateistand im Archiv 15.02.2018)]
+last_updated: 2026-09-05
+sources: ["900 Einrichtung/00 best/lisfäadbf/Datenblatt-ch24.pdf" (Carl Hansen & Søn Møbelfabrik A/S, Produkt-Datenblatt CH24, undatiert im Dokument selbst; Dateistand im Archiv 15.02.2018), "carlhansen.com/en/en/collection/chairs/dining-chairs/ch24" (Carl Hansen & Søn, offizielle Produktseite, abgerufen 05.09.2026)]
 links: [[INDEX]]
 ---
 
@@ -50,6 +50,20 @@ zeitlosen, unpolsterten Massivholzstuhl mit hoher Wiedererkennbarkeit sucht (Spe
 oder Wohnbereich, auch gastronomische Nutzung). Die geflochtene Papierkordel-Sitzfläche
 ist pflegeintensiver als Polster/Kunstleder und für Feuchträume ungeeignet.
 
+## Zweitbelegung (05.09.2026)
+
+Die offizielle Carl-Hansen-&-Søn-Produktseite (abgerufen 05.09.2026) bestätigt
+Konstruktion und Herstellungsangaben aus dem Archiv-Datenblatt nahezu wortgleich:
+Rahmen in FSC-Mix-zertifizierter Eiche/Buche/Esche oder Nussbaum, handgeflochtene
+Sitzfläche aus rund 120 m Papierkordel («about an hour» Flechtzeit je Stuhl durch
+eine Fachkraft), «more than 100 steps» zur Fertigung. Damit ist die Zweitbelegung
+nach Schreibregel 6 erfüllt (zweites, aktuelles Datenblatt derselben Herstellerin).
+Die Produktseite selbst nennt keine Masse im Fliesstext (nur über technische
+Zeichnungen als Download); mehrere autorisierte Händler (u.a. Luminaire) führen
+**76 cm Gesamthöhe** statt der im Archiv-Datenblatt vermerkten 75 cm — Differenz von
+1 cm, vermutlich Rundung oder ein leicht abweichender Messpunkt, nicht als Fehler
+gewertet.
+
 ## Offene Punkte
 
 - Keine Preisangabe im vorliegenden Datenblatt (nur Produktbeschrieb + Masse); für
@@ -58,3 +72,5 @@ ist pflegeintensiver als Polster/Kunstleder und für Feuchträume ungeeignet.
   («Tests und Certificates: available on request»).
 - Dokument selbst trägt kein Erstellungsdatum; Datenstand nur über den Archivstand
   (15.02.2018) eingrenzbar.
+- Gesamthöhe zwischen Archiv-Datenblatt (75 cm) und aktuellen Händlerangaben (76 cm)
+  um 1 cm abweichend; nicht aufgelöst, für Materialisierungskonzepte irrelevant.
