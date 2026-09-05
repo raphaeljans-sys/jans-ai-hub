@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 05.09.2026 22:50:26
+Stand: 05.09.2026 23:11:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 22:46)
@@ -12,4 +12,4 @@ Stand: 05.09.2026 22:50:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- df05ac314 nas-selfcommit: 2 Datei(en) 2026-09-05 22:45
+- 4b3d91f7d energie Run 179: ECO-Gebuehren belegt (eigenes ecobau/Minergie-Produktreglement V2023.1), E-R178-2 geloest, FAQ F275/F276, Destillat neu
