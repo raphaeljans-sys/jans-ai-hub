@@ -11279,3 +11279,42 @@ Fristen-Register bleiben unverändert Aktion Raphael, nicht selbstständig bearb
 `interaktive-eingriffe`, Nachtschicht-Auftrag Ziff. 3 "nie selbststaendig versenden").
 
 Budget rund 2.1 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-05 23:30 Nachtschicht Mac Mini — bauprodukte: Zweitbelegung CH24/Matrah-moll, HC0901-1 geschlossen
+
+`remote-tasks/pending` und `sync-tasks/mac-mini` leer. Synobsis Stufe 2 (Prio 2) weiterhin
+saturiert (Scan 853/853, `vectors.npz` deckungsgleich mit `documents.jsonl`, letzterer
+unveraendert seit 29.08. — der neuere Zeitstempel auf `vectors.npz` ist ein reiner
+Dateisystem-Artefakt, kein neuer Lauf). Fristen-Radar (Prio 3): dieselben drei P1/hoch-Punkte
+wie in der Vornacht (Steinbrüchelstrasse-Entwurf versandbereit, KISPI Los 231.10 zwei
+Freigabe-Bitten Jegen) — alle bereits als Entwurf/Zusammenstellung dokumentiert, nichts
+selbststaendig veranlasst.
+
+Prio 4 gegen die Charakterisierung der Vornacht (02:31, "energie/.../bauprodukte eigen
+getaktet bzw. erledigt") gegengeprueft: `energie-training` traegt `enabled: false` und laeuft
+nur ereignisgetriggert (`wissens-trigger.sh`), ist also **kein** aktiver Taktgeber, der die
+Nachtschicht ausschliessen wuerde — die Charakterisierung als "eigen getaktet" war ungenau
+(Rule 260807, Konfigurationsfelder erst messen). `energie` selbst hatte aber bereits einen
+eigenen Lauf heute (Run 178/179, 13:30-Slot), also kein zusaetzlicher Bedarf. `bauprodukte`
+war nicht vollstaendig "erledigt": `wiki/QUESTIONS.md` fuehrte mit HC0901-1 einen offenen,
+budgetmaessig gut abgegrenzten Rest (zwei `established`-Artikel mit nur einer Quelle,
+Schreibregel 6 verlangt eine Zweitbelegung; der Eintrag selbst schlug als Ausweichweg die
+Herabstufung auf `emerging` vor, falls keine Zweitquelle auffindbar ist).
+
+Beide Zweitquellen per WebSearch/WebFetch gefunden: **CH24 Wishbone Chair** — offizielle
+Carl-Hansen-&-Søn-Produktseite bestaetigt Konstruktion/Fertigung nahezu wortgleich zum
+Archiv-Datenblatt (120 m Papierkordel, ueber 100 Arbeitsschritte); 1 cm Differenz bei der
+Gesamthoehe (75 cm Archiv vs. 76 cm bei autorisierten Haendlern) vermerkt, nicht aufgeloest.
+**Matrah-moll-Naturmatratze** — Futon Online (Herstellerin **boyboks**) bestaetigt den
+Schichtaufbau wortgleich (2x 450 g/m² Schafschurwolle, 900 g/m² Rosshaar auf Jute, 8 cm
+Naturlatex, 1,5 cm Kokos); zwei Abweichungen vermerkt: Herstellerin boyboks statt des im
+Archiv genannten Schweizer Vertriebs Huesler Nest-Center/Indigo Naturwaren, und Gesamthoehe
+ca. 12-13 cm statt 14 cm. Beide Artikel bleiben `status: established`, jetzt korrekt mit
+Zweitquelle belegt statt nur behauptet. `wiki/QUESTIONS.md` HC0901-1 geschlossen,
+CHANGELOG-Eintrag gesetzt. `git diff --numstat` aller vier geaenderten Dateien rein additiv
+mit den erwarteten kleinen Loeschungen aus den ersetzten Textstellen (Rule 260811 eingehalten).
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). Commit nativ ueber
+`nas-commit-now.sh` ausgeloest und bestaetigt.
+
+Budget rund 1.9 von 5 USD. Zyklus sauber beendet.
