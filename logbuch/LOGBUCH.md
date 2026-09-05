@@ -11221,3 +11221,40 @@ Fristen-Register bleiben unveraendert Aktion Raphael, nicht selbststaendig bearb
 `interaktive-eingriffe`, Nachtschicht-Auftrag Ziff. 3 "nie selbststaendig versenden").
 
 Budget rund 1.8 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-05 02:31 Nachtschicht Mac Mini — RAW-Coverage-Lücke `projekt-lessons` geschlossen
+
+Priorisierung wie in der Vornacht: `remote-tasks/pending` und `sync-tasks/mac-mini` leer.
+Synobsis Stufe 2 (Prio 2) unveraendert aktuell (venv vorhanden, `vectors.npz` 853/768 vom
+01.09., ein voller `--reindex` bleibt laut eigener KB-Notiz eine budgetsprengende
+Kapazitaetsfrage, keine Nachtschicht-Aufgabe). Fristen-Radar (Prio 3): dieselben zwei
+offenen P1/hoch-Punkte wie gestern (Steinbrüchelstrasse-Entwurf versandbereit,
+KISPI Los 231.10 Jegen-Freigabe) plus ein neuer Eintrag vom 04.09. 08:5x (KISPI-Türen-Freigabe
+Jegen) — alle drei bereits als Entwurf/Zusammenstellung dokumentiert, Fachpruefung/Versand
+bleibt Aktion Raphael, nichts selbststaendig veranlasst. Prio 4 erneut erschoepft (gleiche
+Sperrlage wie 04.09. 23:30 protokolliert): `bauprodukte` erledigt, `energie`/`grobkosten`/
+`baurecht`/`normen`/`planungsgrundlagen`/`wettbewerbs-dna`/`architekten-synobsis` eigen
+getaktet, `immobilienbewertung` Ereignis-Trigger ohne faelligen Termin, `projekt-lessons`
+fuer neue Bestandsmengen-Sweeps weiterhin ausgesetzt (Rücknahme 05.08.2026).
+
+Stattdessen eine bereits zweifach gemeldete Wissenscheck-Lücke geschlossen (Audit D,
+Health-Checks 25.08. und 01.09.2026): `wissen/projekt-lessons/raw/_INGESTED.md` kannte nur
+2 von 14 Wiki-Artikeln. Geprüft, ob die 12 übrigen Artikel selbst unbelegt sind (erster
+`grep`-Durchlauf auf `sources:` sah nach leerem Feld aus) — Fehlalarm des eigenen Suchmusters:
+alle 14 Artikel tragen ein vollständiges `sources:`-Feld, nur im YAML-Listenformat statt als
+Flow-Array in derselben Zeile. Die eigentliche Lücke war strukturell: die 12 Artikel stammen
+aus der direkten Korpus-Destillation (Skill `wissens-destillat`, Korpus `buero-projekte`) bzw.
+aus Konversations-/Logbuch-Destillaten, nie aus einem `raw/`-Drop, und hatten darum keine
+Zeile in einem Register, das nur `raw/`-Dateien listet. `_INGESTED.md` um eine zweite Tabelle
+ergänzt, die jeden Artikel auf sein Lauf-Protokoll unter `outputs/` verweist — keine
+NAS-Quelle erneut gelesen, reine Registerpflege anhand bereits vorliegender Reports.
+CHANGELOG-Eintrag in `wissen/projekt-lessons/` gesetzt; `git diff --numstat` beider
+geänderten Dateien rein additiv (+16/−0 CHANGELOG, +30/−0 `_INGESTED.md`, Rule 260811
+eingehalten). PL46-2 (toter Wikilink) und PL46-3 (Wissenscheck-Prüfbereich `outputs/`)
+bewusst unangetastet gelassen — beide sind Rückfrage- bzw. KB-Entscheidsachen.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). Die P1-Punkte im
+Fristen-Register bleiben unverändert Aktion Raphael, nicht selbstständig bearbeitet (Rule
+`interaktive-eingriffe`, Nachtschicht-Auftrag Ziff. 3 "nie selbststaendig versenden").
+
+Budget rund 2.1 von 5 USD. Zyklus sauber beendet.

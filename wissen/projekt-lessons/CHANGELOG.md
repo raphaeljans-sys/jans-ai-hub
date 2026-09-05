@@ -1,6 +1,22 @@
 # CHANGELOG — Wissensbasis Projekt-Lessons
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
+## 2026-09-05 (Nachtschicht Mac Mini, Priorität 4) — RAW-Coverage-Lücke (D2) geschlossen
+
+Die seit 25.08. und 01.09.2026 zweifach gemeldete Lücke («`_INGESTED.md` kennt 12 von 14
+Quellartikel nicht») geprüft: kein fehlendes Nachtragen, sondern ein zweiter Ingest-Pfad ohne
+eigene Registerspalte — die zwölf Artikel stammen aus der direkten Korpus-Destillation
+(Skill `wissens-destillat`, Korpus `buero-projekte`) bzw. aus Konversations-/Logbuch-
+Destillaten, nie aus einem `raw/`-Drop. Vorab geprüft, ob die Artikel selbst unbelegt sind:
+alle 14 tragen ein vollständiges `sources:`-Feld im Frontmatter (Stichprobe an den acht
+zunächst per `grep "^sources:"` unauffällig wirkenden Dateien ergab Fehlalarm des eigenen
+Suchmusters — die Quellen stehen dort im YAML-Listenformat, nicht als Flow-Array in derselben
+Zeile). `raw/_INGESTED.md` um eine zweite Tabelle „Korpus-Destillation" ergänzt, die jeden der
+zwölf Artikel auf sein Lauf-Protokoll unter `outputs/` verweist. Keine Wiki-Inhalte verändert,
+keine NAS-Quelle erneut gelesen — reine Registerpflege anhand bereits vorliegender
+`outputs/`-Reports. PL46-2 (toter Wikilink) und PL46-3 (Wissenscheck-Prüfbereich `outputs/`)
+bleiben unverändert offen — beide sind Rückfrage- bzw. KB-Entscheidsachen, keine Nachtschicht-Aufgabe.
+
 ## 2026-09-01 (Wissens-Health-Check Phase 1)
 Vollständige Auditierung aller 14 Wiki-Artikel gegen sieben Standard-Prüfungen: A0 · B2 · C0 · D2 · E0 · F3 · G1. Keine neuen Befunde gegenüber 25.08.2026; bekannte Punkte teilweise behoben (Run 46 BKP-Notation, Cross-KB-Verweis gesetzt). Strukturelle Lücke persisiert: RAW-Register (`_INGESTED.md`) kennt 12 von 14 Quellartikel nicht (buero-projekte-Destillation über Wissens-Destillat). Promotion-Kandidat Mahnkaskaden-Muster bereit (zweifach belegt, wechselseitig verlinkt). Report: outputs/2026-09-01_health-check.md.
 
