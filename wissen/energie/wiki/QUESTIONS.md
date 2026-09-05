@@ -2,6 +2,39 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 178 (05.09.2026, Nachtschicht Mac Mini) — Aufwaermer E-R167-5 war bereits erledigt; ECO-Wirtschaftlichkeit ohne belegte CHF-Zahl weiterhin offen
+
+**E-R167-5 geschlossen (Karteileiche, kein neuer Fachbefund).** Run 177 empfahl E-R167-5
+(EN-102d-Formularnummer) als billigen Aufwaermer fuer den naechsten Lauf. Nachpruefung zeigt:
+der Punkt wurde bereits am **30.08.2026 in Run 169** inhaltlich geschlossen und belegt
+(`destillate/enfk-fensterblatt.md`, EN-100 Tabelle 3) — nur die Checkbox der frueheren,
+oberflaechlicheren Formulierung weiter unten in dieser Datei blieb auf `[ ]` stehen. Fehl-Offen
+Typ 2 (Klasse E-R172-1), Zeile korrigiert. **Neu (E-R178-1):** `fehloffen-waechter.py` haette
+diesen Fall finden sollen und meldete null Befunde — Werkzeugpruefung offen, gehoert dem naechsten
+Wartungslauf des Waechters (betrifft potenziell alle 19 KBs, nicht nur `energie`).
+
+**Die von Run 177 vorgeschlagene naechste Fachfrage — Wirtschaftlichkeit des ECO-Nachweises
+(«was kostet der Zusatz ECO, was bringt er») — bleibt aus gutem Grund offen, statt erfunden
+beantwortet.** Gepruefte Quellen: `destillate/minergie-eco-gebaeudelabel.md` (2007er Merkblatt:
+nennt nur die allgemeine 10-%-Mehrkosten-Grenze von MINERGIE, **keine** ECO-spezifische Zahl) und
+`destillate/minergie-produktreglement-2026-1-muken-vergleich.md` (Kap. 3 Gebuehren, **aktuell**:
+gestaffelte Zertifizierungsgebuehren Minergie/-P/-A nach EBF/Kategorie, **aber keine eigene
+Gebuehrenzeile fuer den Zusatz ECO**). Beide Quellen sind vollstaendig gelesen und aktuell — das
+ist kein Leseluecken-Problem, sondern eine echte Datenluecke. Ohne belegte Zahl waere jede FAQ-
+Antwort eine Erfindung (Rule «Kennwerte nie raten»). **Fuer einen kuenftigen Lauf:** entweder die
+volle Gebuehrentabelle Kap. 3 des Reglements 2026.1 auf eine ECO-Zeile pruefen (bisher nur als
+Auszug gelesen) oder eine reale Fallreferenz (JANS-Projekt mit ECO-Zertifizierung) heranziehen.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R178-1 (P3, Werkzeug):** `fehloffen-waechter.py` erkennt den Fehl-Offen-Fall E-R167-5
+  nicht (0 Befunde gemeldet, obwohl Muster identisch zu frueher erkannten Faellen). Pruefung
+  gehoert dem Werkzeug-Wartungslauf, nicht dieser KB.
+- [ ] **E-R178-2 (P2, Fach):** Wirtschaftlichkeit des ECO-Nachweises (Mehrkosten/Nutzen) ist in
+  keiner der beiden gepruepften, aktuellen Quellen mit einer CHF-Zahl belegt. Braucht entweder die
+  volle Kap.-3-Gebuehrentabelle des Reglements 2026.1 (ECO-Zeile pruefen) oder eine reale
+  Fallreferenz. Nicht Teil dieses Laufs (Budgetdisziplin, keine Erfindung).
+
 ## Run 177 (04.09.2026, Tageslauf) — E-R176-1m geschlossen: die Antwort stand in der Fussnote, deren Wegfall die Frage ausgeloest hatte
 
 **Block 1 (PDF-Transfer) faellt weiterhin strukturell aus** (`pdf-inventar.md` seit Run 65
@@ -598,8 +631,19 @@ Quelle im naechsten Lauf erneut geprueft.
 - [x] **E-R167-4 (P3): ElCom-Weisung 5/2025 auf LEG-Bezug pruefen.** Nur per Suchtreffer identifiziert,
   Inhalt nicht geprueft.
   ✓ **Geschlossen — Nachtrag Run 172 (01.09.2026):** geschlossen **30.08.2026** (Abschnitt «In diesem Lauf geschlossen», oben in dieser Datei): ElCom-Weisung 5/2025 «Transparente und vergleichbare Rechnungsstellung» vom 06.05.2025 geprüft — der LEG-Bezug besteht, ist aber eng (Netznutzungsabschlag nach Art. 17e Abs. 3 StromVG i.V.m. Art. 19h StromVV, in Fussnote 1 der Erläuterungen) **Die Schliessung war im Journal dieser Datei dokumentiert, die Checkbox aber nie gesetzt** — der Eintrag galt maschinell weiter als offen. Kein Fachbefund, ein Registrierfehler (Klasse «Fehl-Offen Typ 2», siehe E-R172-1).
-- [ ] **E-R167-5 (P3): EN-102d-Formularnummer in `[[enfk-fensterblatt]]` nachtragen.** Die EnFK fuehrt
+- [x] **E-R167-5 (P3): EN-102d-Formularnummer in `[[enfk-fensterblatt]]` nachtragen.** Die EnFK fuehrt
   das bereits erfasste Fenster-Excel-Tool unter der Formularnummer EN-102d; die Nummer fehlt dort.
+  ✓ **Geschlossen — Nachtrag Run 178 (05.09.2026, Nachtschicht Mac Mini):** war laengst geschlossen,
+  **30.08.2026 (Run 169)**, siehe oben in dieser Datei («E-R167-5: die Praemisse der Frage war
+  falsch») und `destillate/enfk-fensterblatt.md` Abschnitt «E-R167-5 GESCHLOSSEN am 2026-08-30» —
+  EN-102d bezeichnet das Fenster-Excel-Tool (Hilfsformular), nicht das Merkblatt selbst, belegt an
+  EN-100 Tabelle 3. **Diese Zeile hier war der maschinelle Karteileichnam** — ein weiterer Fall der
+  Klasse «Fehl-Offen Typ 2» (E-R172-1), der Run 177 noch als «substanzieller Fachpunkt, Aufwaermer»
+  auffuehrte, obwohl nichts mehr zu tun war. **Neu (E-R178-1):** `fehloffen-waechter.py` meldete
+  fuer diesen Fall **null Befunde**, obwohl exakt dasselbe ID-Muster (offene Zeile + spaeter mit
+  „✓ … geschlossen" markierter Eintrag derselben ID an anderer Stelle) in frueheren Faellen erkannt
+  wurde — Werkzeug-Pruefung, warum die Erkennung hier nicht griff, ist offen und gehoert dem
+  naechsten Wartungslauf des Waechters, nicht dieser KB.
 - [x] **E-R167-6 (P3): Begleitdokument-Pruefung auf die Raenge 15-30 ausdehnen.** 11 von 11 Treffern
   rechtfertigen die Fortsetzung. **Aber die Ertragsklasse mitmessen** (siehe die drei Klassen oben) —
   wenn nur noch Negativbefunde und Formalien kommen, ist die Ader erschoepft und der naechste Lauf

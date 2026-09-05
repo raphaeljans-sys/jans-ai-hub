@@ -3,6 +3,27 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht Mac Mini 05.09.2026 (05:3x, Prioritaet 4 — KB `energie`)
+
+Prioritaeten 1-3 leer: keine `remote-tasks/pending/` oder `sync-tasks/mac-mini/`-Auftraege;
+Synobsis-Embeddings (Stufe 2) bereits aktuell (853 x 768, unveraendert seit 02.09.); Fristen-
+Register (`logbuch/fristen.md`) heute frueh 08:56 vom Hub-Chef zuletzt nachgefuehrt, nichts
+Neues seither, keine eigene Aktion noetig (Versand/Freigabe bleibt Aktion Raphael). `bauprodukte`
+gilt seit 15.08. als ERLEDIGT (kein gueltiges Ziel mehr); `energie` war die KB mit dem laengsten
+unveraenderten Wiki-Stand unter den freien Zielen (letzter Inhalt 04.09. 22:53, kein eigener
+aktiver Taktgeber — `energie-training` steht auf `enabled: false`, reiner Ereignis-Trigger).
+
+**Run 178:** zwei kleine Einheiten statt Leerlauf (Block 1/PDF-Transfer faellt strukturell aus,
+unveraendert seit Run 65). (1) Fehl-Offen-Karteileiche E-R167-5 in `wiki/QUESTIONS.md` korrigiert
+— der Punkt war bereits am 30.08. (Run 169) belegt geschlossen, nur die Checkbox blieb offen;
+`fehloffen-waechter.py` haette das finden sollen und meldete 0 Treffer (neuer Werkzeugbefund
+E-R178-1). (2) Die von Run 177 vorgeschlagene naechste Fachfrage (Wirtschaftlichkeit ECO-
+Nachweis) bewusst NICHT mit einer erfundenen Zahl beantwortet — beide einschlaegigen, bereits
+vollstaendig gelesenen Quellen (2007er Merkblatt, Reglement 2026.1 Kap. 3) tragen keine
+ECO-spezifische CHF-Zahl; als E-R178-2 mit zwei konkreten naechsten Schritten offen gehalten.
+Register nachgefuehrt: `wiki/QUESTIONS.md`, `CHANGELOG.md`, `outputs/2026-09-05_energie-run178.md`.
+Kein Sendegrund (Rule `auto-verbesserungen` 260803, reines Hub-Internum ohne Aussenwirkung).
+
 ## Radar-Briefing 04.09.2026 (Logbuch-Radar, 06:55)
 
 Der Tag hat einen klaren Schwerpunkt, und er liegt nicht beim KISPI: **der Bericht Steinbrüchelstrasse ist fertig, und der Auftraggeber weiss nichts davon.** Christoph Bopp hat gestern Vormittag nicht nur die Prüfung bestellt, er hat ausdrücklich um eine zeitnahe Rückmeldung gebeten, ob wir sie überhaupt übernehmen. Beides steht aus, während der Bericht seit gestern 17:45 abgelegt ist. Daneben liegen zwei fertige Mails im Postfach, die nicht hinausgegangen sind.

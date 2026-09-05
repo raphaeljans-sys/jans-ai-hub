@@ -1,5 +1,28 @@
 # CHANGELOG
 
+## 2026-09-05 — Run 178 (Nachtschicht Mac Mini): Fehl-Offen-Karteileiche E-R167-5 geschlossen; ECO-Wirtschaftlichkeit ehrlich als Datenluecke stehen gelassen
+
+Kein neuer PDF-Transfer (`pdf-inventar.md`/`curriculum.md` weiterhin ohne offenen Fachpunkt,
+unveraendert seit Run 65). Statt Leerlauf zwei kleine Einheiten:
+
+1. **`wiki/QUESTIONS.md` Z. 601** (Fehl-Offen Typ 2, wie E-R172-1/E-R176-2/E-R175-2): der Punkt
+   E-R167-5 (EN-102d-Formularnummer) galt maschinell weiter als offen und wurde von Run 177 als
+   «billiger Aufwaermer» fuer heute vorgemerkt. Tatsaechlich laengst geschlossen in Run 169
+   (30.08.2026), belegt in `destillate/enfk-fensterblatt.md`. Checkbox korrigiert, Querverweis
+   ergaenzt. **Neuer Werkzeugbefund E-R178-1:** `fehloffen-waechter.py` meldet fuer diesen Fall
+   0 Treffer, obwohl das Muster (offene Zeile + andernorts mit ✓ geschlossene ID) seinem eigenen
+   Erkennungszweck entspricht — Pruefung an das Werkzeug delegiert, nicht in dieser KB behoben.
+2. **ECO-Wirtschaftlichkeit («was kostet der Zusatz ECO, was bringt er»)**, von Run 177 als
+   naechster substanzieller Fachpunkt vorgeschlagen: beide dafuer einschlaegigen, bereits
+   vollstaendig gelesenen Quellen (`destillate/minergie-eco-gebaeudelabel.md`, 2007er Merkblatt;
+   `destillate/minergie-produktreglement-2026-1-muken-vergleich.md`, Kap. 3 Gebuehren, Stand
+   2026.1) tragen **keine** ECO-spezifische CHF-Zahl — nur die allgemeine 10-%-Mehrkosten-Grenze
+   bzw. die reinen Minergie/-P/-A-Zertifizierungsgebuehren. Bewusst **keine** FAQ mit einer
+   erfundenen Zahl geschrieben (Rule «Kennwerte nie raten»); als E-R178-2 mit zwei konkreten
+   naechsten Schritten (volle Kap.-3-Tabelle pruefen, oder reale JANS-Fallreferenz) offen gehalten.
+
+Geaenderte Dateien: `wiki/QUESTIONS.md` (+27/-1, Zeile 601 korrigiert + neuer Run-178-Kopf).
+
 ## 2026-09-04 — Run 177: der Minergie-0,6-Faktor geklaert (E-R176-1m), inkl. Richtungskorrektur; Cross-KB-Schritt verankert (E-R176-1)
 
 **Fachbefund mit Planungswirkung.** Der seit dem 03.09.2026 offene Punkt zum verschwundenen
