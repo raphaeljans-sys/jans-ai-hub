@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 06.09.2026 23:10:54
+Stand: 06.09.2026 23:21:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:41)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 06.09.2026 23:10:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9140f4b71 energie Run 182: 220er-Reihe Kreislaufwirtschaft destilliert; Fassungsbefund Vorgabenkatalog ECO (Dokumentstand 01.07.2026 statt 23.01.2025), FAQ F279-F281, Cross-KB-Nachtrag normen E-123-3
+- eee1958e7 nas-selfcommit: 2 Datei(en) 2026-09-06 23:15
