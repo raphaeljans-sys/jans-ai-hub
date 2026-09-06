@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 06.09.2026 18:02:19
+Stand: 06.09.2026 18:12:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:12)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 06.09.2026 18:02:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3027bb538 nas-selfcommit: 1 Datei(en) 2026-09-06 18:00
+- d5805270e Abo-Auslastung 06.09.2026: SCHWARZ, zweiter Ausfall in Folge; ALARM + UNZUSTELLBAR (Mail blieb im Entwurf), Journal, Register, status.json
