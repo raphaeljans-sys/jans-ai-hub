@@ -5,10 +5,24 @@ ausgabe: Empfehlung Nachhaltiges Bauen Nr. 2007/2 «Beton aus recyclierter Geste
 gelesen: 2026-08-11, Seiten 1-6 (vollstaendig)
 datenstand: 2007 (Empfehlungsnummer 2007/2) ⚠ rund 19 Jahre alt. Die zitierten Normen (SN EN 206-1 mit nationalem Anhang in der damaligen Fassung, SIA 262 fuer die Expositionsklassen, die BAFU-Richtlinie fuer die Verwertung mineralischer Bauabfaelle) sind seither revidiert worden; ebenso die MINERGIE-ECO-Kriterien. Die Markt-/Verfuegbarkeitsaussagen (z. B. "ca. 10 % Anteil Recyclingbeton in der Agglomeration Zuerich", Kostenaussagen, Anwendungsgrenzen wie "zurzeit ueber C40/50") sind Momentaufnahmen von 2007 und vor Verwendung zwingend gegen den heute geltenden Stand (aktuelle SIA-Normen, aktuelles eco-devis, aktuelle MINERGIE-ECO-Bedingungen) zu pruefen.
 status: emerging
-last_updated: 2026-08-11
+last_updated: 2026-09-06 (Run 182: Ablösungs-Vermerk gesetzt, Inhalt unverändert)
 ---
 
 # Beton aus recyclierter Gesteinskörnung (KBOB/eco-bau/IPB-Empfehlung 2007/2)
+
+> ⚠ **Als Label-Grundlage abgelöst — belegt Run 182, 06.09.2026.** Der **Vorgabenkatalog Zusatz
+> ECO** nannte diese Empfehlung bis zur Dateifassung vom 23.01.2025 in allen vier
+> Recyclingbeton-Vorgaben ausdrücklich als Grundlage. Die geltende Fassung (Dokumentstand
+> 01.07.2026) nennt an derselben Stelle die **KBOB-Empfehlung «Nachhaltiges Bauen mit mineralischen
+> Baustoffen», Stand 06.05.2024**, ergänzt um **SIA 262:2025** sowie SN EN 206:2013+A2:2021 und
+> SNR 592030:2021; auch in der Hilfsmittelliste ist diese Empfehlung durch die neue ersetzt.
+> **Folge für die Verwendung:** Die Fachaussagen unten (Expositionsklassen, Schwind-/Kriechmass,
+> Elastizitätsmodul, 25-km-Logik) bleiben als Sachwissen brauchbar und sind durch die neuere
+> Katalogfassung **nicht** widerlegt — die dortigen Zahlenwerte sind unverändert. Als
+> **Grundlagenverweis in einem Devis- oder Vertragstext** ist dieses Dokument jedoch nicht mehr zu
+> zitieren. Ein Destillat der Nachfolge-Empfehlung 2024 fehlt der KB noch (offen als E-R182-1 in
+> `wiki/QUESTIONS.md`). Fundstelle des Befunds:
+> `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, Abschnitt «Die 220er-Reihe».
 
 ## Das Wichtigste in einem Satz
 

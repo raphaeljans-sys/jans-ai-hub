@@ -2,6 +2,69 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 182 (06.09.2026, Tageslauf) — 220er-Reihe destilliert; die Versionsnummer des Herausgebers taugt nicht als Aktualitaetsbeweis
+
+Dieser Lauf hat den offenen Punkt E-R181-1 (220er-Reihe) bearbeitet und dabei den ebenfalls offenen
+methodischen Punkt E-R180-2 mit erledigt — mit einem Befund, der ueber diese eine Quelle hinausgeht.
+
+**Methodischer Kernbefund.** Minergie/ecobau fuehren beim Zusatz ECO den **Dokumentstand** nach,
+**ohne die Nachweisversion neu zu nummerieren**, und tauschen dabei die auf der Website verlinkte
+Datei aus, waehrend die alte URL weiterhin HTTP 200 liefert. Unter der Nummer «2023.1» existieren
+mindestens vier Inhaltsstaende (13.09.2023, 23.01.2025, 19.01.2026, 01.07.2026). Run 180 hatte im
+Frontmatter festgehalten, die Website verlinke «exakt diese Datei» — das war am selben Tag bereits
+falsch. **Pruefmerkmal ist die Dateigroesse/Seitenzahl plus Anhang B, nicht die Versionsnummer.**
+Dasselbe Muster ist beim Produktreglement belegt (V2023.1, Dokumentstand 31.03.2026), es ist also
+die Regel dieses Herausgebers. Frontmatter des Destillats korrigiert, FAQ **F281** neu.
+
+**Fachbefunde aus der 220er-Reihe** (geltende Fassung, S. 71-91/109; Werte durch Stichprobe am
+Volltext im Hauptlauf gegengeprueft):
+- Zwei der zwoelf Vorgaben sind **Ausschlussvorgaben**: 220.05 (Bauschaum-Verbot) und 220.09
+  (RC-Beton Neubau, Volumenanteil ≥ 50 %). Alles Uebrige bringt Punkte, kostet aber kein Zertifikat.
+- **220.09 vs. 220.50:** wortgleiche 50-%-Anforderung, aber beim **Neubau** Ausschlussvorgabe, bei
+  der **Erneuerung** nur 2 Punkte. Und die 50 % messen enger als die gaengige Kurzformel — sie
+  beziehen sich auf den Volumenanteil **der RC-faehigen Bauteile**, inkl. Full-, Huell- und
+  Unterlagsbeton, nicht auf den gesamten verbauten Beton. Das praezisiert Punkt 2 der
+  Bezugsgroessen-Liste in `[[oekologische-materialvorgaben-beschaffung]]`, die diese Zahl bisher
+  aus `[[kbob-recyclingbeton-2007]]` und dem Fragenkatalog belegte.
+- **Normgrundlagen der vier RC-Beton-Vorgaben ausgewechselt:** das KBOB/ecobau/IPB-Merkblatt
+  **2007/2** ist als Label-Grundlage abgeloest durch die KBOB-Empfehlung **«Nachhaltiges Bauen mit
+  mineralischen Baustoffen», Stand 06.05.2024**, ergaenzt um **SIA 262:2025** und die praezisierten
+  Ausgaben SN EN 206:2013+A2:2021 / SNR 592030:2021. Die Zahlenwerte selbst sind unveraendert.
+- **220.05 zweifach verschaerft (19.01.2026):** Begriff von «Montage-/Fuellschaeumen» auf
+  «**Bauschaum**» geweitet (FAQ: umfasst alle Ortschaeume inkl. **Daemm-/Isolierschaum**), und das
+  Feld BKP von neun Positionen auf «**Alle**» erweitert. Ein Devis-Text von vor 2026 hat damit zwei
+  Luecken. FAQ **F279**, neuer Wiki-Abschnitt.
+- Verdichtet in `[[oekologische-materialvorgaben-beschaffung]]` (vierte Nomenklatur-Zeile,
+  geschaerfter 50-%-Punkt, zweiter Normbruch-Absatz, neuer Bauschaum-Abschnitt) und FAQ
+  **F279/F280/F281**.
+
+**Siebte Pruefung (Cross-KB):** `grep` ueber `wissen/*/wiki/` und `*/destillate/` nach «220.05»,
+«220.09», «Bauschaum» und «Recyclingbeton» ausserhalb von `energie` — siehe Laufbericht.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R182-1 (P2, Fach/Cross-KB):** Der KB fehlt ein Destillat der **KBOB-Empfehlung
+  «Nachhaltiges Bauen mit mineralischen Baustoffen» (Stand 06.05.2024)**, die seit der geltenden
+  Katalogfassung die Grundlage aller vier RC-Beton-Vorgaben ist und die Empfehlung 2007/2 abloest.
+  Solange sie fehlt, zitiert die KB fuer Devis-Zwecke eine ueberholte Grundlage
+  (`[[kbob-recyclingbeton-2007]]`, dort Vermerk gesetzt). Beschaffbar ueber kbob.admin.ch.
+  **Bring-Schuld auch bei `wissen/bauprodukte`** (BKP 211/212 Beton) und beim Skill `ausschreibung`.
+- [ ] **E-R182-2 (P3, Fach):** rund 39 Vorgaben des Vorgabenkatalogs bleiben undestilliert
+  (Gesundheit/Komfort 110.x RLT/Strahlung, 120.x Schadstoffe, 140.x Tageslicht, Innovation; sowie
+  230er-Reihe, Klimaresilienz, Innovation Oekologie). **Naechster Ansatzpunkt: die 230er-Reihe** —
+  Anhang B weist dort mit 230.01 Umgebungsgestaltung die einzige ausdrueckliche **Korrigenda** aus
+  («mind. 30 %» war ein Tippfehler, korrekt «**mind. 80 % der Umgebungsflaeche**»), also einen Wert,
+  der in der weiterhin abrufbaren Vorfassung nachweislich falsch steht.
+- [ ] **E-R182-3 (P4, methodisch/Bestand):** Die Abschnitte zu **Schallschutz 130.01-130.07**
+  (Run 180) und **Graue Energie/THGE 210.01/210.02** (Run 181) wurden an der Fassung 23.01.2025
+  gelesen und sind **nicht** gegen die geltende Fassung 01.07.2026 gediffed. Anhang B nennt fuer
+  diese Vorgaben zwar keine Aenderung nach dem 23.01.2025, was fuer Unveraendertheit spricht; der
+  Gegenbeweis am Text steht aber aus. Beim naechsten Lauf an dieser Quelle billig mitzunehmen (die
+  Volltexte beider Fassungen liegen vor).
+- [ ] **E-R182-4 (P4, Betrieb):** Fuer **Run 181** existiert kein `outputs/`-Laufbericht — CHANGELOG,
+  QUESTIONS, Destillat, Wiki und FAQ sind vollstaendig gepflegt, nur Schritt 7 des PROGRAMM-Ablaufs
+  fehlt. Nicht rekonstruiert, weil dieser Lauf nicht dabei war; als Betriebsbefund vermerkt.
+
 ## Run 180 (06.09.2026, Nachtschicht Mac Mini) — Vorgabenkatalog Zusatz ECO destilliert, Schallschutz-Luecke aus Run 179 geschlossen
 
 Run 179 hatte als «aussichtsreichste» Fortsetzung ohne Fremdabhaengigkeit den Vorgabenkatalog
@@ -44,14 +107,16 @@ unbelegte Luecke (Spital/Museen ohne Fixwert) erstmals dokumentiert.
   die uebrigen ~51 Vorgaben des Vorgabenkatalogs (RLT-Anlagen/Strahlung, Schadstoffe,
   Tageslicht/Aktivierung, Innovation Gesundheit; Gebaeudekonzept/Kreislaufwirtschaft,
   Biodiversitaet/Wasserkreislauf, Klimaresilienz, Innovation Oekologie).
-- [ ] **E-R181-1 (P3, Fach):** die uebrigen ~51 Vorgaben des Vorgabenkatalogs nach Abzug von
-  210.01/210.02 (siehe E-R180-1 oben) sind noch nicht destilliert. Naechster sinnvoller
-  Ansatzpunkt: die 220er-Reihe Gebaeudekonzept/Kreislaufwirtschaft (Rueckbau-/
-  Trennbarkeitsvorgaben), anschlussfaehig an `[[ecobkp-2026-methodik-und-uebersicht]]`.
-- [ ] **E-R180-2 (P4, methodisch):** die Sechste Pruefung (geltende Ausgabe) wurde fuer den
-  Vorgabenkatalog nur summarisch durchgefuehrt (Website-Verlinkung), nicht mit der gezielten
-  404-Gegenprobe wie beim Produktreglement in Run 179. Bei naechster Gelegenheit nachholen, falls
-  ein Datenstand-Waechter-Befund darauf zeigt.
+- [x] **E-R181-1 (P3, Fach) — Teil 220er-Reihe geloest ✓ 2026-09-06 (Run 182).** Die 220er-Reihe
+  Gebaeudekonzept/Kreislaufwirtschaft ist vollstaendig destilliert (220.01-220.11 und 220.50), und
+  zwar an der **geltenden** Fassung. **Weiterhin offen:** rund 39 Vorgaben (Gesundheit/Komfort
+  110.x/120.x/140.x + Innovation; 230er-Reihe, Klimaresilienz, Innovation Oekologie) — siehe
+  E-R182-2 unten.
+- [x] **E-R180-2 (P4, methodisch) — geloest ✓ 2026-09-06 (Run 182), mit Befund.** Die Sechste
+  Pruefung wurde nachgeholt und hat die Annahme von Run 180 **widerlegt**: die Website verlinkte am
+  06.09.2026 nicht die gelesene Datei, sondern eine neuere (109 statt 102 Seiten, Dokumentstand
+  01.07.2026 statt 23.01.2025). Die 404-Gegenprobe waere hier zudem ins Leere gelaufen — die alte
+  URL liefert weiterhin HTTP 200. Siehe E-R182-1.
 
 ## Run 179 (05.09.2026, Tageslauf) — E-R178-2 geloest: die ECO-Gebuehr steht in einem eigenen Reglement, das niemand gesucht hatte
 

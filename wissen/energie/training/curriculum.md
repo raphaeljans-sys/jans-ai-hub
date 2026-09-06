@@ -2744,3 +2744,23 @@ Fremdabhaengigkeit aussichtsreicher: der **Vorgabenkatalog Zusatz ECO** — das 
 an mehreren Stellen auf ihn, die Schallschutz-Grenzwerte (Kap. 10.4) haben ueberhaupt nur dort
 Zahlen, und die KB kennt ihn nicht. Danach die Refuter-Pruefung des neuen Destillats
 (`emerging` → `established`).
+
+## Run 182 (06.09.2026) — 220er-Reihe destilliert, Fassungsfalle des Herausgebers aufgedeckt
+
+Bearbeitet: **E-R181-1** (220er-Reihe Gebaeudekonzept/Kreislaufwirtschaft, vollstaendig:
+220.01-220.11 und 220.50) und **E-R180-2** (Sechste Pruefung / geltende Ausgabe, nachgeholt).
+
+**Methodischer Kernbefund, ueber diese KB hinaus gueltig:** Minergie/ecobau fuehren beim Zusatz ECO
+den **Dokumentstand** nach, **ohne die Nachweisversion neu zu nummerieren**. Die Version 2023.1
+existiert in mindestens vier Inhaltsstaenden (13.09.2023, 23.01.2025, 19.01.2026, 01.07.2026), und
+die Website tauscht die verlinkte Datei aus, waehrend die alte URL weiter HTTP 200 liefert. Ein
+Abgleich der Versionsnummer beweist deshalb nichts. **Pruefmerkmal sind Dateigroesse/Seitenzahl und
+Anhang B**, nicht die Versionsnummer. Dasselbe Muster ist bereits beim Produktreglement belegt
+(V2023.1, Dokumentstand 31.03.2026) — es ist also die Regel dieses Herausgebers, nicht ein
+Einzelfall.
+
+**Naechster Zuschnitt:** die **230er-Reihe** (Umgebungsgestaltung, Biodiversitaet/Wasserkreislauf,
+wassersparende Apparate). Begruendung: Anhang B weist dort mit 230.01 die einzige ausdrueckliche
+**Korrigenda** aus («mind. 30 % der Umgebungsflaeche» war ein Tippfehler, korrekt **mind. 80 %**) —
+ein Wert, der in der aelteren, weiterhin abrufbaren Fassung nachweislich falsch steht. Danach die
+Refuter-Pruefung des Destillats (`emerging` → `established`).

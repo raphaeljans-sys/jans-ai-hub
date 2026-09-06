@@ -1,5 +1,53 @@
 # CHANGELOG
 
+## 2026-09-06 — Run 182: 220er-Reihe Kreislaufwirtschaft destilliert; die Versionsnummer des Herausgebers taugt nicht als Aktualitaetsbeweis
+
+- **Bearbeitet:** E-R181-1 (220er-Reihe) und E-R180-2 (Sechste Pruefung, nachgeholt). Beide
+  geschlossen; E-R181-1 nur fuer die 220er, der Rest laeuft als E-R182-2 weiter.
+- **⚠ Methodischer Kernbefund (korrigiert Run 180 und 181):** Die von Run 180/181 destillierte
+  Datei ist **nicht** die auf minergie.ch verlinkte Fassung. Gemessen am 06.09.2026: verlinkt ist
+  `vorgabenkatalog-eco-alle-gebaeudekategorien-v2023-1_2.pdf` (733'748 Bytes, **109 S., 59 Vorgaben,
+  Dokumentstand 01.07.2026**), destilliert wurde `250123_..._v2023.1_de_1.pdf` (704'047 Bytes,
+  102 S., Dokumentstand 23.01.2025). Beide tragen **dieselbe Nachweisversion 2023.1**; die alte URL
+  liefert weiterhin HTTP 200. Der Herausgeber fuehrt den Dokumentstand nach, ohne die Version neu zu
+  nummerieren — dasselbe Muster wie beim Produktreglement (V2023.1, Dokumentstand 31.03.2026).
+  **Pruefmerkmal ist Dateigroesse/Seitenzahl plus Anhang B, nicht die Versionsnummer.** Der
+  Frontmatter-Satz von Run 180, die Website verlinke «exakt diese Datei», war am selben Tag bereits
+  falsch und ist korrigiert. Verdichtet als FAQ **F281**.
+- **Block 1 (Transfer):** `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` um den
+  Abschnitt «Die 220er-Reihe» erweitert (+116 Zeilen) — **vollstaendig** 220.01-220.11 und 220.50,
+  gelesen an der geltenden Fassung (S. 71-91/109), mit Uebersichtstabelle (Typ/Punkte/Bezugsgroesse),
+  Kernbefund, vollstaendigem Fassungs-Diff und Bauherren-Transfer. Frontmatter (`ausgabe`,
+  `datenstand`, `gelesen`, offene Punkte) korrigiert und nachgefuehrt.
+- **Fachbefunde:** (1) Zwei Ausschlussvorgaben in der Reihe — 220.05 Bauschaum-Verbot und 220.09
+  RC-Beton Neubau ≥ 50 % Volumenanteil. (2) **220.09 vs. 220.50:** wortgleiche 50-%-Anforderung,
+  aber beim Neubau zwingend, bei der Erneuerung nur 2 Punkte. (3) Die 50 % messen **enger** als die
+  gaengige Kurzformel: Volumenanteil der **RC-faehigen** Bauteile inkl. Full-/Huell-/Unterlagsbeton,
+  nicht des gesamten Betons. (4) **Normgrundlagen der vier RC-Beton-Vorgaben ausgewechselt:**
+  KBOB-Empfehlung **2007/2** abgeloest durch **«Nachhaltiges Bauen mit mineralischen Baustoffen»
+  (Stand 06.05.2024)** + **SIA 262:2025** + SN EN 206:2013+A2:2021 / SNR 592030:2021; Zahlenwerte
+  unveraendert. (5) **220.05 seit 19.01.2026 zweifach verschaerft:** Begriff auf «Bauschaum»
+  geweitet (umfasst laut FAQ alle Ortschaeume inkl. **Daemm-/Isolierschaum**) und Feld BKP von neun
+  Positionen auf «**Alle**» erweitert.
+- **Block 2 (Verdichtung):** `wiki/oekologische-materialvorgaben-beschaffung.md` gewachsen um eine
+  vierte Zeile in der Recyclingbeton-Nomenklatur-Tabelle, die **Praezisierung des 50-%-Bezugs** an
+  Punkt 2 der Bezugsgroessen-Liste (bisher nur aus der 2007er-Quelle belegt), einen zweiten
+  Normbruch-Absatz (Abloesung der Empfehlung 2007/2) und den neuen Abschnitt «Das Bauschaum-Verbot».
+  Frontmatter/sources/links nachgefuehrt. **FAQ F279/F280/F281** neu.
+- **Abloesungs-Vermerk gesetzt** in `destillate/kbob-recyclingbeton-2007.md`: als Sachwissen weiter
+  brauchbar, als Grundlagenverweis im Devis-Text nicht mehr zu zitieren.
+- **Siebte Pruefung (Cross-KB) mit Ergebnis — Bringschuld eingeloest:** `wissen/normen` fuehrt unter
+  **E-123-3** den offenen Punkt, dass die Abloesung von **SIA 162/4** durch MB 2030 bisher nur
+  sekundaerquellengestuetzt ist. Dort eine primaere Fundstelle nachgetragen (die geltende
+  Katalogfassung nennt MB 2030:2021/SIA 262:2025 und **nicht mehr** SIA 162/4), ausdruecklich als
+  Praxis-, **nicht** als Herausgeber-Nachfolgebeleg — die Aufgabe der KB `normen` bleibt offen.
+- **Neu offen:** E-R182-1 (Destillat der KBOB-Empfehlung 2024 fehlt, Bring-Schuld auch bei
+  `bauprodukte` und Skill `ausschreibung`), E-R182-2 (~39 Vorgaben, naechster Ansatzpunkt 230er-Reihe
+  wegen der dort ausgewiesenen Korrigenda 30 % → **80 %** bei 230.01), E-R182-3 (130.x und 210.x
+  wurden an der Vorfassung gelesen und sind nicht gegen die geltende gediffed), E-R182-4
+  (Betriebsbefund: fuer **Run 181** fehlt der `outputs/`-Laufbericht, alles Uebrige ist gepflegt).
+- **Sichern:** NAS-Repo nativ committet via `nas-commit-now.sh`.
+
 ## 2026-09-06 — Run 181: Vorgabenkatalog 210.01/210.02 Graue Energie/THGE Erstellung destilliert (Nachtschicht Mac Mini, Versuchs-Slot 13:30)
 
 - **Fortsetzung von Run 180:** dessen offener Punkt E-R180-1 («übrige ~53 Vorgaben, naechster

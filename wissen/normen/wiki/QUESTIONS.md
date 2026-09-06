@@ -2406,6 +2406,20 @@ nicht der ursprünglichen Fundmeldung.
    `energie`-Destillate formulieren deshalb bewusst vorsichtig («faktisch abgelöst durch»).
    Aufgabe für `normen`: den Nachfolgestatus am Herausgeber verifizieren und erst dann eine
    Fundstelle setzen; bis dahin keine Nachfolge-Behauptung.
+   **Neues Signal aus `energie` Run 182 (06.09.2026), ausdrücklich KEIN Nachfolgebeleg.** Die
+   geltende Fassung des **Vorgabenkatalogs Zusatz ECO** (Minergie/ecobau, Nachweisversion 2023.1,
+   Dokumentstand 01.07.2026) nennt in allen vier Recyclingbeton-Vorgaben (220.09, 220.10, 220.11,
+   220.50) als Grundlagen: KBOB-Empfehlung «Nachhaltiges Bauen mit mineralischen Baustoffen»
+   (Stand 06.05.2024), **SIA-Merkblatt 2030:2021 (SNR 592030:2021)**, SN EN 206:2013+A2:2021 und
+   **SIA 262:2025 Betonbau**. **SIA 162/4 kommt dort nicht mehr vor** — in der Vorfassung vom
+   23.01.2025 stand an derselben Stelle noch die KBOB-Empfehlung 2007/2, die ihrerseits auf
+   SIA 162/4 aufbaute. Das belegt, dass die **Label-Praxis** SIA 162/4 nicht mehr führt und MB 2030
+   an dieser Stelle tatsächlich benutzt wird; es belegt **nicht**, dass der SIA das MB 2030 formal
+   als Nachfolge von 162/4 ausweist. Die Aufgabe oben (Verifikation am Herausgeber) bleibt damit
+   offen — dieser Eintrag liefert nur eine zweite, unabhängige und **primäre** Fundstelle für die
+   bisher sekundärquellengestützte Vermutung. Fundstelle:
+   `wissen/energie/destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md`, Abschnitt
+   «Die 220er-Reihe».
 5. **E-123-6 — Ausgabestand von SIA 118 in den Kontroll-Checklisten offen (Übergabe aus
    `energie`, P2).** Die eco-bau-/AHB-Quelle zitiert **SIA 118 ohne Ausgabejahr** für die
    Vertragshierarchie. `normen` führt bisher nur `destillate/sia-118-1991.md`; ob und mit

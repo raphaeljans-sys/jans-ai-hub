@@ -420,3 +420,18 @@ bezogen von `https://www.minergie.ch/media/260331_produktreglement_zusatzprodukt
 neu bezogen und im Volltext gelesen: Produktreglement MINERGIE/-P/-A V2026.1 Kap. 3 (Gebuehren) —
 bestaetigt den Negativbefund «keine ECO-Zeile».
 Destillat: `destillate/minergie-produktreglement-zusatz-eco-2023-1.md`.
+
+## 2026-09-06 (Run 182) — Vorgabenkatalog Zusatz ECO, geltende Fassung (Dokumentstand 01.07.2026)
+
+Web-Quelle, kein PL-04-PDF. Bezogen via `curl` von
+`https://www.minergie.ch/media/vorgabenkatalog-eco-alle-gebaeudekategorien-v2023-1_2.pdf`
+(HTTP 200, 733'748 Bytes, 109 S., 59 Vorgaben), Volltext via `pdftotext -layout`.
+⚠ **Nicht dieselbe Datei wie in Run 180/181**: jene lasen
+`250123_vorgabenkatalog_eco_alle_gebaudekategorien_v2023.1_de_1.pdf` (704'047 Bytes, 102 S.,
+Dokumentstand 23.01.2025), die weiterhin abrufbar, aber nicht mehr verlinkt ist. Beide tragen die
+Nachweisversion **2023.1** — der Herausgeber fuehrt den Dokumentstand nach, ohne die Version neu zu
+nummerieren (gleiches Muster wie beim Produktreglement, dort V2023.1 mit Dokumentstand 31.03.2026).
+Gelesen: 220er-Reihe Gebaeudekonzept/Kreislaufwirtschaft vollstaendig (220.01-220.11, 220.50,
+S. 71-91) sowie Anhang B beider Fassungen; zusaetzlich vollstaendiger normalisierter Textvergleich
+der 220er-Reihe zwischen beiden Fassungen.
+Destillat: `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` (fortgeschrieben).

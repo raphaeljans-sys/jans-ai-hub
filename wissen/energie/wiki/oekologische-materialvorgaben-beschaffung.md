@@ -1,7 +1,7 @@
 ---
 title: "Ökologische Materialvorgaben — von der Absicht zur gebauten Leistung"
 status: emerging
-last_updated: "2026-08-23 (E-R26-1 geschlossen: 11er-Positionsliste/Begriff «Rückbaubarkeit und Reversibilität» in Abschnitt «Aktualität» auf die am Original belegten 18 Positionen/«Wiederverwendung von Bauteilen» korrigiert, veralteten Offene-Punkte-Eintrag zur ecoBKP-2026-Destillation als erledigt markiert; zuvor 2026-08-20 Run 146: zwei neue Quellen zu Materiallebenszyklus verlinkt — Bodenbeläge-Vergleich, Recyclingprodukte-Rangordnung; 2026-08-16 Run 137 Editionskette 09/2006 → 2008 → 2009 → 2026 belegt, Impressum-Datumsfalle aufgeloest, Fensterrahmen-Abwertung PVC datiert; 2026-08-14 Run 132 Vertragsstufe Werkleistungen, Mai-2006-Quellverweis verifiziert; 2026-08-11 Run 123 neu angelegt, Wissens-Chef Run 25 Vertragshierarchie SIA 118, Run 126 Recyclingbeton-Nomenklatur)"
+last_updated: "2026-09-06 (Run 182: geltende Label-Vorgabe des Zusatzes ECO nachgetragen — vierte Zeile in der Recyclingbeton-Nomenklatur-Tabelle, Präzisierung des 50-%-Bezugs an Vorgabe 220.09 (Volumenanteil nur der RC-fähigen Bauteile, inkl. Füll-/Hüll-/Unterlagsbeton) samt Unterscheidung Neubau-Ausschlussvorgabe / Erneuerung 2 Punkte, Ablösung der KBOB-Empfehlung 2007/2 durch «Nachhaltiges Bauen mit mineralischen Baustoffen» 06.05.2024 + SIA 262:2025, neuer Abschnitt Bauschaum-Verbot 220.05 inkl. Ausweitung auf alle BKP seit 19.01.2026); zuvor 2026-08-23 (E-R26-1 geschlossen: 11er-Positionsliste/Begriff «Rückbaubarkeit und Reversibilität» in Abschnitt «Aktualität» auf die am Original belegten 18 Positionen/«Wiederverwendung von Bauteilen» korrigiert, veralteten Offene-Punkte-Eintrag zur ecoBKP-2026-Destillation als erledigt markiert; zuvor 2026-08-20 Run 146: zwei neue Quellen zu Materiallebenszyklus verlinkt — Bodenbeläge-Vergleich, Recyclingprodukte-Rangordnung; 2026-08-16 Run 137 Editionskette 09/2006 → 2008 → 2009 → 2026 belegt, Impressum-Datumsfalle aufgeloest, Fensterrahmen-Abwertung PVC datiert; 2026-08-14 Run 132 Vertragsstufe Werkleistungen, Mai-2006-Quellverweis verifiziert; 2026-08-11 Run 123 neu angelegt, Wissens-Chef Run 25 Vertragshierarchie SIA 118, Run 126 Recyclingbeton-Nomenklatur)"
 datenstand: "1999 (ältester noch tragend zitierter Quellenstand: Stadt Zürich AHB, Informationsblatt 5.6 «Recyclingprodukte», 1999-2001 — im Artikeltext ausdrücklich als «zeitlose Rangordnung» weiterhin gültig zitiert, Abschnitt «Die wiederkehrende Sachlogik der Merkblätter», Punkt 3. ⚠ Die konkreten Materialurteile der eco-BKP-Ausgaben 2008/2009 sind im selben Artikel dagegen ausdrücklich als überholt markiert, fachlich massgebend für aktuelle Materialbewertungen ist die geltende ecoBKP 2026, siehe Abschnitt «Aktualität»; die Vier-Stationen-Mechanik selbst gilt laut Artikel unverändert seit den frühesten Quellen 2001-2004.)"
 sources:
   - "[[ecobkp-editionskette-2006-2009]] — Editions-Abgleich der drei Altausgaben 09/2006, 2008 und 2009 desselben Werks (Run 137)"
@@ -12,6 +12,7 @@ sources:
   - "[[eco-bau-checkliste-planung-projektierung]] — eco-bau, «Ökologisch Bauen: Planung und Projektierung», Stand 2001"
   - "[[eco-bau-zielvereinbarungen-sia112-1]] — Checkliste Zielvereinbarungen SIA 112/1, Copyright 2004"
   - "[[kbob-recyclingbeton-2007]] — KBOB/eco-bau/IPB, Empfehlung Nachhaltiges Bauen 2007/2 «Beton aus recyclierter Gesteinskörnung», 6 S. vollständig gelesen 11.08.2026"
+  - "[[minergie-eco-vorgabenkatalog-standard-2023-1]] — Vorgabenkatalog Zusatz ECO, Nachweisversion 2023.1, geltende Fassung mit Dokumentstand 01.07.2026 (109 S.); 220er-Reihe Gebäudekonzept und Kreislaufwirtschaft 220.01-220.11 + 220.50 vollständig gelesen, Run 182"
   - "[[kbob-oekobilanzdaten-baubereich-2007]] — KBOB/eco-bau/IPB, Empfehlung 2007/1 «Ökobilanzdaten im Baubereich», Datenstand Dezember 2006"
   - "[[ahb-zuerich-massstaebe-nachhaltiges-bauen]] — Stadt Zürich AHB, «Massstäbe für Umwelt- und energiegerechtes Bauen», Mai 2006"
   - "[[haushaltgeraete-effizienz-beschaffung-topten]] — «Professionelle Beschaffung: Haushaltgeräte», Januar 2008"
@@ -24,6 +25,7 @@ links:
   - "[[gebaeudeschadstoffe]]"
   - "[[minergie-eco-gebaeudelabel]]"
   - "[[kbob-graue-treibhausgasemissionen-2025]]"
+  - "[[minergie-eco-vorgabenkatalog-standard-2023-1]]"
 ---
 
 # Ökologische Materialvorgaben — von der Absicht zur gebauten Leistung
@@ -226,6 +228,7 @@ gibt.
 | 2007 (KBOB-Empfehlung 2007/2) | **RC-W** (gereinigter Erdaushub) · **RC-B** (Betonabbruch) · **RC-M** (Mischabbruch) | SN EN 206-1; Anwendung nach SIA-Empfehlung **162/4** | `[[kbob-recyclingbeton-2007]]` |
 | 2008 (eco-bau-Merkblätter nach BKP) | RC-B / RC-M je Expositionsklasse | SN EN 206-1, SIA 162/4 | `[[eco-bau-merkblaetter-bkp-2008-huelle]]` |
 | **2026 (ecoBKP, geltend)** | **RC-C50 · RC-M40** als 1. Priorität; Primärbeton **nicht empfohlen** bei RC-Verfügbarkeit innert **25 km** | aktuelle SIA-/SN-Fassungen | `[[ecobkp-2026-tragwerk-und-rohbau]]` |
+| **2026 (Vorgabenkatalog Zusatz ECO, geltende Label-Vorgabe)** | Definitionsbasis **RC-C25** (≥ 25 Massen-% Betongranulat) · **RC-M10** (≥ 10 Massen-% Mischgranulat); erhöhter Gehalt **RC-C50 / RC-M40** (Vorgabe 220.10), Füll-/Hüll-/Unterlagsbeton **≥ 80 %** Granulatgehalt (220.11) | SN EN 206:2013+**A2:2021**, SIA-Merkblatt **2030:2021** (SNR 592030:2021), **SIA 262:2025** | `[[minergie-eco-vorgabenkatalog-standard-2023-1]]` |
 
 **⚠ Bezugsgrössen-Vorbehalt zu den Prozentzahlen (Wissens-Chef Run 33, 2026-08-15).** Im Hub
 stehen zu Recyclingbeton drei Prozentzahlen nebeneinander, die **nicht dasselbe messen** und
@@ -240,6 +243,17 @@ deshalb nie gegeneinander gerechnet oder als Widerspruch gelesen werden dürfen:
    mindestens 50 % Recyclingbeton oder Gesteinskörnung aus Bodenwäsche eingesetzt werden
    (`[[kbob-recyclingbeton-2007]]`; gleichlautend im MINERGIE-ECO-Fragenkatalog
    `[[minergie-fragenkatalog-mfh]]`, Kriterium R13).
+   **Präzisiert an der geltenden Label-Vorgabe (Run 182, 06.09.2026):** Der Wortlaut von Vorgabe
+   **220.09** im Vorgabenkatalog Zusatz ECO misst enger, als die Kurzformel «50 % am eingesetzten
+   Beton» vermuten lässt. Massgebend ist der **Volumenanteil an denjenigen Bauteilen, für welche
+   RC-Beton überhaupt angewendet werden kann**, wobei sich der Anteil auf «die gesamte Menge der
+   Betonkonstruktionen inkl. Füll-, Hüll- und Unterlagsbeton» bezieht. Es sind also nicht 50 % des
+   gesamten verbauten Betons. Ebenfalls neu belegt: die Schwelle ist **nur beim Neubau** eine
+   Ausschlussvorgabe (220.09, ohne sie kein Zertifikat), bei der **Erneuerung** dagegen eine
+   gewöhnliche Vorgabe mit 2 Punkten (220.50) — inhaltlich wortgleich, aber verzichtbar. Wer die
+   Neubau-Anforderung ungeprüft auf einen Umbau überträgt, verteuert ihn ohne
+   Zertifizierungsgrund. Fundstelle: `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`,
+   Abschnitt «Die 220er-Reihe».
 3. **50 % / 80 % Massenanteil** aus den AHB-Bedingungen 2008
    (`[[ahb-bedingungen-planungsleistungen-nachhaltiges-bauen]]` Ziff. 10.2) sind ausdrücklich
    als **Beispiel** unter «spezielle Bedingungen der Bauherrschaft» deklariert, nicht als
@@ -258,6 +272,21 @@ geringeren Elastizitätsmodul und bleibt deshalb den gering beanspruchten Anwend
 (X0, XC1, XC2), während Aussenfassaden und wasserdichter Beton (XC4, XF1) die höherwertigen Sorten
 verlangen; Frost mit Taumitteln und hohe Festigkeiten waren ausgeschlossen.
 
+**⚠ Zweiter Normbruch, neu belegt (Run 182, 06.09.2026): die KBOB-Empfehlung 2007/2 ist als
+Label-Grundlage abgelöst.** Bis zur Dateifassung vom 23.01.2025 nannte der Vorgabenkatalog Zusatz
+ECO in allen vier Recyclingbeton-Vorgaben ausdrücklich das «KBOB/ecobau/IPB-Merkblatt 2007/2
+(Stand 02.2012) Beton aus rezyklierter Gesteinskörnung» als Grundlage. Die geltende Fassung
+(Dokumentstand 01.07.2026) nennt an derselben Stelle die **KBOB-Empfehlung «Nachhaltiges Bauen mit
+mineralischen Baustoffen», Stand 06.05.2024**, und ergänzt **SIA 262:2025 Betonbau** sowie die
+präzisierten Ausgaben SN EN 206:2013+**A2:2021** und SNR 592030:**2021**; auch in der
+Hilfsmittelliste ist die alte Empfehlung durch die neue ersetzt. **Die Zahlenwerte selbst
+(50 %, 25 km, RC-C25/RC-M10, RC-C50/RC-M40, 80 %) sind dabei unverändert geblieben** — gewechselt
+hat der normative Unterbau. Für diesen Artikel heisst das: die Fachlogik aus
+`[[kbob-recyclingbeton-2007]]` (Expositionsklassen, Schwind-/Kriechmass) bleibt als Sachaussage
+brauchbar, taugt aber **nicht mehr als Grundlagenverweis in einem Devis-Text**. Wer heute
+ausschreibt, zitiert die Empfehlung 2024 und SIA 262:2025. Das Destillat der Nachfolge-Empfehlung
+fehlt der KB noch (offen, siehe QUESTIONS).
+
 Zwei Punkte für die Ausschreibungspraxis, die sich aus dem Vergleich der vier Stände ergeben:
 
 1. **Die 25-km-Regel ist die eigentliche Konstante.** Sie steht 2007 (MINERGIE-ECO), 2008
@@ -268,6 +297,45 @@ Zwei Punkte für die Ausschreibungspraxis, die sich aus dem Vergleich der vier S
    Materialvorgabe, die nur als Variante im Devis steht, wird im Angebot wegoptimiert. Die
    Submissionsbedingungen von 2006 haben das bereits so gelöst und verlangen RC-Beton
    ausdrücklich als Hauptposition.
+
+## Das Bauschaum-Verbot: eine Vorbedingung, die in jedes Devis gehört (Run 182, 06.09.2026)
+
+Vorgabe **220.05** des Zusatzes ECO ist neben dem Recyclingbeton die zweite **Ausschlussvorgabe**
+der 220er-Reihe und das reinste Beispiel für die Mechanik dieses Artikels: Sie ist keine
+Materialauswahl, sondern eine **Vertrags- und Baustellenbedingung**, und sie scheitert genau dort,
+wo dieser Artikel die Bruchstelle verortet — in der Übersetzung ins Leistungsverzeichnis.
+
+**Was verlangt ist.** Ausgeschlossen sind Montage, Abdichtung und das Füllen von Hohlräumen mittels
+**Bauschaum**. Zulässig ist Bauschaum nur temporär im Rohbau (z.B. Schalungsabdichtungen) und muss
+danach vollständig entfernt und sachgerecht entsorgt werden. Ausnahmen bei Leitungsdurchdringungen
+von Kühl- und Tiefkühlräumen bewilligt die Zertifizierungsstelle im Einzelfall. Zwei Abgrenzungen
+aus dem FAQ, die in der Praxis regelmässig gefragt werden: **emissionsarme, lösemittelfreie oder
+mit Emicode EC1 gelabelte Schäume sind ebenfalls ausgeschlossen** — das Kriterium ist die
+Rückbaubarkeit, nicht die Emission; und **Löcher von Distanzhaltern im Beton** dürfen nicht mit
+Montageschaum gefüllt werden, weil das keine temporäre Anwendung ist.
+
+**Zwei Verschärfungen seit dem 19.01.2026**, die einen vor diesem Datum verfassten Devis-Text
+überholen:
+
+1. **Der Begriff ist weiter gefasst.** Der Vorgabentext sprach von «Montage- oder Füllschäumen»,
+   heute von «Bauschaum», und eine neue FAQ stellt ausdrücklich klar, dass die Bezeichnung
+   stellvertretend für **alle Arten von Ortschaum** steht: Klebe-/Montageschaum,
+   **Dämm-/Isolierschaum**, Füllschaum, PU-Schaum. Der Dämmschaum war vorher nicht erkennbar
+   erfasst.
+2. **Der Geltungsbereich ist von neun BKP-Positionen auf «Alle» erweitert.** Das Feld BKP nannte
+   211, 212, 213, 214, 215, 221, 225, 271 und 273; heute steht dort **«Alle»**. Die Vorbedingung
+   gehört damit in **jedes** Devis, nicht nur in die Rohbau- und Ausbaugewerke.
+
+**Wie sie durchgesetzt wird** (Feld «Massnahmen» des Katalogs, und damit unmittelbar die
+Vier-Stationen-Mechanik dieses Artikels): das Verbot ist in den **Vorbedingungen der Devis** zu
+erwähnen; in der Ausschreibung von Montagearbeiten sind **ausschliesslich mechanische
+Befestigungen** zu beschreiben; das Ausstopfen von Hohlräumen erfolgt mit Seidenzöpfen oder anderen
+geeigneten Stopfmaterialien; vor Arbeitsbeginn sind Unternehmer und Handwerker auf das Verbot
+aufmerksam zu machen und die Art der mechanischen Befestigung ist festzulegen; nachzuweisen ist es
+mit dem **Auszug aus dem Werkvertrag** der betroffenen Gewerke. Da es sich um eine
+Ausschlussvorgabe handelt, gilt sie konsequent bei allen Bauteilen und Arbeiten.
+
+Fundstelle: `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, Abschnitt «Die 220er-Reihe».
 
 ## Bauherren-Transfer
 
