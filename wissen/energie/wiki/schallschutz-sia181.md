@@ -1,10 +1,10 @@
 ---
 title: Schallschutz im Hochbau — SIA 181:2020 (Anforderungswerte)
 status: established
-last_updated: 2026-08-24
-datenstand: "2008 (ältester tragender Quellenstand: BFH-Lignum-Bericht vom 04.12.2008 zur Flankenübertragungs-Mechanik, gestützt auf SIA 181:2006/EN 12354:2001 — der Mechanismus selbst gilt laut Destillat normgültig und zeitlos auch unter der heute geltenden Ausgabe SIA 181:2020, nur die konkreten Anforderungswerte sind auf 2020 zu beziehen, siehe die im Artikel bereits gesetzte ⚠ Ausgaben-Diskrepanz-Notiz. Die übrigen Quellen sind neuer: CLT-Schallschutz Stora Enso, Produktdokumentation Version 06.2021; Cercle-Bruit-Merkblatt Kt. Schwyz vom 29.01.2021 (löst die Vorversion vom 30.10.2020 ausdrücklich ab); baukultur-laerm.ch zu SIA 181:2020 Ziff. 3.1.1, Stand 20.01.2022; SIA 181:2020 selbst)"
-sources: [destillate/sia-181-schallschutz-anforderungswerte.md, destillate/clt-schallschutz-stora-enso.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschutz-stora-enso]], [[lignum-schallschutz-holzbau-flankenuebertragung]], [[aussenlaerm-schallschutzfenster-strasse-bahn]], [[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]
+last_updated: 2026-09-06
+datenstand: "2008 (ältester tragender Quellenstand: BFH-Lignum-Bericht vom 04.12.2008 zur Flankenübertragungs-Mechanik, gestützt auf SIA 181:2006/EN 12354:2001 — der Mechanismus selbst gilt laut Destillat normgültig und zeitlos auch unter der heute geltenden Ausgabe SIA 181:2020, nur die konkreten Anforderungswerte sind auf 2020 zu beziehen, siehe die im Artikel bereits gesetzte ⚠ Ausgaben-Diskrepanz-Notiz. Die übrigen Quellen sind neuer: CLT-Schallschutz Stora Enso, Produktdokumentation Version 06.2021; Cercle-Bruit-Merkblatt Kt. Schwyz vom 29.01.2021 (löst die Vorversion vom 30.10.2020 ausdrücklich ab); baukultur-laerm.ch zu SIA 181:2020 Ziff. 3.1.1, Stand 20.01.2022; SIA 181:2020 selbst; Minergie-ECO-Vorgabenkatalog Nachweisversion 2023.1, Dokumentstand 23.01.2025)"
+sources: [destillate/sia-181-schallschutz-anforderungswerte.md, destillate/clt-schallschutz-stora-enso.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md, destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschutz-stora-enso]], [[lignum-schallschutz-holzbau-flankenuebertragung]], [[aussenlaerm-schallschutzfenster-strasse-bahn]], [[cerclebruit-sz-merkblatt-laermbelastete-gebiete]], [[minergie-standards]]
 ---
 
 # Schallschutz im Hochbau — SIA 181:2020
@@ -98,6 +98,36 @@ Schallschutzklassen** für Fenster (Zweitquellen-Check via Stauffer.ch); die im 
 «SSK 1-6»-Skala stammt aus der deutschen Norm DIN 4109, nicht aus SIA 181 — ein Schweizer
 Fensterhändler (Hasler) behauptet auf seiner Website fälschlich einen SIA-181-Ursprung, das ist
 adversarial widerlegt. Details → `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`.
+
+## Minergie-ECO: zusätzliche Schallschutz-Vorgaben (130.01–130.07)
+
+Zertifiziert ein Projekt zusätzlich nach **Minergie-ECO**, kommen sieben punktebewertete Vorgaben
+dazu (max. 12 Punkte), die teils die SIA-181-Grundanforderung nur einfordern und teils darüber
+hinausgehen. Quelle: `[[minergie-eco-vorgabenkatalog-standard-2023-1]]` — schliesst die Lücke, die
+`[[minergie-produktreglement-zusatz-eco-2023-1]]` in Anhang 10.4 offen liess (dort nur der Verweis
+«gemäss aktuellem Vorgabenkatalog … bzw. SIA-Norm», ohne eigene Zahlen).
+
+- **130.01/130.02** verlangen die SIA-181:2020-Grundanforderung (Gebäudehülle, zwischen
+  Nutzungseinheiten) sowie die **erhöhte** Anforderung gegenüber Haustechnik-Geräuschen zwischen
+  Nutzungseinheiten — je 1 Punkt. **Verschärfung gegenüber der Schlüsselregel oben:** bei
+  Doppel-/Reihen-EFH-Neubauten und Stockwerkeigentum macht Minergie-ECO die sonst nur vertraglich
+  vereinbarbaren erhöhten Anforderungen **zur Zertifizierungspflicht**.
+- **130.03/130.04 (Schallschutz INNERHALB von Nutzungseinheiten)** decken eine Lücke, die SIA
+  181:2020 seit der Norm-Revision offen lässt: Anhang G mit den Innerhalb-Werten wurde ersatzlos
+  gestrichen (der SIA plant laut Katalog eine separate Norm/ein Merkblatt). Minergie-ECO stützt
+  sich deshalb weiterhin auf **SIA 181:2006, Anhang G**, ergänzt um projektspezifische
+  Präzisierungen — u.a. für **Spital und Museen** (⚠ direkt JANS-relevant, KISPI/Healthcare): kein
+  Fixwert, sondern ein **Pflichtenheft**, minimal auf dem Niveau der SIA-181:2006-Anhang-G-Stufen
+  1/2. Für Schule/Verkauf/Industrie/Restaurant nennt der Katalog konkrete Luftschall-D_i-/
+  Trittschall-L'-Zahlenpaare je Stufe 1/2 → volle Werte in `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`.
+- **130.05 Raumakustik:** Wohn-/Schlafräume 0.6–1.0 s Nachhallzeit (bei Volumen ≤ 200 m³ ohne
+  Nachweis erfüllbar); andere Nutzungen nach **DIN 18041:2016**; Büros nach SUVA-Anforderungen.
+- **130.06 Lärmimmission im Aussenraum:** Stufe 1 = −3 dB, Stufe 2 = −6 dB an der dem
+  Aufenthaltsbereich (Balkon/Terrasse) anstossenden Fassade in lärmbelasteten Gebieten (Planungswert
+  LSV überschritten); ein lärmabgewandter Aufenthaltsbereich je Nutzungseinheit erfüllt Stufe 2
+  automatisch.
+- **130.07 Messungen nach Baufertigstellung:** nach SIA 181:2020 Anhang A, je Zone separat — laut
+  Produktreglement Kap. 4.2 **nicht** in der ECO-Zertifizierungsgebühr enthalten.
 
 ## Wo der Schallschutz im JANS-Workflow auftaucht
 - **Entwurf:** Grundriss-Stapelung (Schlafraum nicht über Technikraum/Lift), WP-Standort.

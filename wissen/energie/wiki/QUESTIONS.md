@@ -2,6 +2,52 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 180 (06.09.2026, Nachtschicht Mac Mini) — Vorgabenkatalog Zusatz ECO destilliert, Schallschutz-Luecke aus Run 179 geschlossen
+
+Run 179 hatte als «aussichtsreichste» Fortsetzung ohne Fremdabhaengigkeit den Vorgabenkatalog
+Zusatz ECO benannt, weil das Produktreglement in Anhang 10.4 die Schallschutz-Grenzwerte nur an
+ihn verweist («gemaess aktuellem Vorgabenkatalog … bzw. SIA-Norm»), ohne selbst Zahlen zu nennen.
+Dieser Lauf hat die Standard-Fassung (Nachweisversion 2023.1, 102 S.) teilweise erschlossen:
+Einfuehrung/Struktur (S. 4-7), die vollstaendige Sektion Schallschutz und Raumakustik 130.01-130.07
+(S. 32-41) sowie Anhang A/B (S. 101-102). Neues Destillat
+`[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, Status `emerging` (Einzelagenten-Lauf, kein
+Refuter-Panel).
+
+**Fachbefund:** Fuer die meisten Nutzungen liefert der Katalog konkrete Stufe-1/2-Zahlenpaare
+(Schule, Verkauf, Industrie, Restaurant). Fuer **Spital und Museen** dagegen ausdruecklich kein
+Fixwert — dort verlangt Vorgabe 130.03/130.04 ein projektspezifisches Pflichtenheft, minimal auf
+dem Niveau von SIA 181:2006 Anhang G (den die geltende Ausgabe SIA 181:2020 ersatzlos gestrichen
+hat). Direkt JANS-relevant fuer Healthcare-/KISPI-Projekte: ein generischer Verweis auf «SIA 181»
+genuegt fuer diese Vorgabe bei einem Spital nicht, das Pflichtenheft muss projektspezifisch erstellt
+werden. Verdichtet in `[[schallschutz-sia181]]` (neuer Abschnitt «Minergie-ECO: zusaetzliche
+Schallschutz-Vorgaben») und FAQ **F277**.
+
+**Sechste Pruefung (geltende Ausgabe):** nur summarisch gepruegt — die Minergie-Website verlinkt
+am 06.09.2026 exakt die gelesene Datei (Dokumentstand 23.01.2025, Nachweisversion 2023.1
+unveraendert), eine gezielte Versions-Recherche wie beim Produktreglement (Kandidat-URL auf 404
+pruefen) wurde nicht durchgefuehrt.
+
+**Siebte Pruefung (Cross-KB):** `grep` ueber `wissen/*/wiki/` und `*/destillate/` nach
+«Vorgabenkatalog»/«130.0» ausserhalb von `energie`: ein Treffer in
+`wissen/planungsgrundlagen/wiki/energie-uebersicht.md`, betrifft aber die Graue-Energie-Vorgabe
+(210.01/210.02), nicht Schallschutz — kein Ueberschneidungsbefund.
+
+**Abschlussregel:** nicht anwendbar — es wird kein bestehender Wert korrigiert, nur eine bisher
+unbelegte Luecke (Spital/Museen ohne Fixwert) erstmals dokumentiert.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R180-1 (P3, Fach):** die uebrigen ~53 Vorgaben des Vorgabenkatalogs (RLT-Anlagen/
+  Strahlung, Schadstoffe, Tageslicht/Aktivierung, Innovation Gesundheit; Klimaschutz/Ressourcen,
+  Gebaeudekonzept/Kreislaufwirtschaft, Biodiversitaet/Wasserkreislauf, Klimaresilienz, Innovation
+  Oekologie) sind noch nicht destilliert. Naechster sinnvoller Ansatzpunkt: Kap. 210.01/210.02
+  (Graue Energie/THGE Erstellung), weil diese Vorgaben laut Anhang B am 23.01.2025 zuletzt
+  angepasst wurden und die KB die Graue-Energie-Kennwerte bereits vertieft fuehrt (`[[graue-energie]]`).
+- [ ] **E-R180-2 (P4, methodisch):** die Sechste Pruefung (geltende Ausgabe) wurde fuer den
+  Vorgabenkatalog nur summarisch durchgefuehrt (Website-Verlinkung), nicht mit der gezielten
+  404-Gegenprobe wie beim Produktreglement in Run 179. Bei naechster Gelegenheit nachholen, falls
+  ein Datenstand-Waechter-Befund darauf zeigt.
+
 ## Run 179 (05.09.2026, Tageslauf) — E-R178-2 geloest: die ECO-Gebuehr steht in einem eigenen Reglement, das niemand gesucht hatte
 
 **Block 1 (PDF-Transfer) faellt nicht mehr strukturell aus** — dieser Lauf hat erstmals seit Run 65

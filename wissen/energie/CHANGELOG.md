@@ -1,5 +1,31 @@
 # CHANGELOG
 
+## 2026-09-06 — Run 180: Vorgabenkatalog Zusatz ECO destilliert, Schallschutz-Grenzwert-Luecke aus Run 179 geschlossen
+
+- **Neu:** `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` — Vorgabenkatalog Zusatz
+  ECO, Standard alle Gebaeudekategorien, Nachweisversion 2023.1, 102 S., teilweise gelesen
+  (Einfuehrung S. 4-7, Schallschutz 130.01-130.07 S. 32-41, Anhang A/B S. 101-102), Status
+  `emerging`.
+- **Schliesst die von Run 179 offen gelassene Luecke:** das Produktreglement verweist in Anhang
+  10.4 die Schallschutz-Grenzwerte nur an «den aktuellen Vorgabenkatalog», ohne selbst Zahlen zu
+  nennen. Dieser Lauf liefert sie: sieben Schallschutz-Vorgaben (max. 12 Punkte), konkrete
+  Stufe-1/2-Zahlenpaare fuer Schule/Verkauf/Industrie/Restaurant; fuer **Spital und Museen**
+  dagegen kein Fixwert, sondern ein projektspezifisches Pflichtenheft (SIA 181:2006 Anhang G als
+  Minimum — die geltende Ausgabe 181:2020 fuehrt diesen Anhang nicht mehr).
+- **Wiki gewachsen:** `wiki/schallschutz-sia181.md` um Abschnitt «Minergie-ECO: zusaetzliche
+  Schallschutz-Vorgaben (130.01-130.07)» ergaenzt, Frontmatter (sources/links/last_updated)
+  nachgefuehrt.
+- **Verdichtet:** FAQ **F277** («Verlangt Minergie-ECO fuer ein Spital feste
+  Schallschutz-Grenzwerte innerhalb der Stationen?») — direkt KISPI-relevant.
+- **Sechste Pruefung (geltende Ausgabe):** nur summarisch (Website-Verlinkung bestaetigt
+  Dokumentstand 23.01.2025 aktuell), keine gezielte 404-Gegenprobe wie bei Run 179.
+- **Siebte Pruefung (Cross-KB):** ein Treffer in `wissen/planungsgrundlagen/wiki/energie-uebersicht.md`,
+  betrifft Graue-Energie-Vorgabe 210.01/210.02, nicht Schallschutz — kein Ueberschneidungsbefund.
+- **Neu offen:** E-R180-1 (uebrige ~53 Vorgaben des Katalogs noch nicht destilliert, naechster
+  Ansatzpunkt 210.01/210.02 Graue Energie/THGE), E-R180-2 (Sechste Pruefung nachholen mit
+  gezielter Versions-Gegenprobe).
+- **Sichern:** NAS-Repo nativ committet via `nas-commit-now.sh`.
+
 ## 2026-09-05 — Run 179: ECO-Gebuehren belegt, E-R178-2 geloest
 
 - **Neu:** `destillate/minergie-produktreglement-zusatz-eco-2023-1.md` — «Produktreglement fuer
