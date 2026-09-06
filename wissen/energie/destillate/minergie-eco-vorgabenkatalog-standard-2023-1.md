@@ -2,7 +2,7 @@
 quelle: "Vorgabenkatalog Zusatz ECO — Alle zertifizierbaren Gebäudekategorien, Nachweisversion 2023.1 — https://www.minergie.ch/media/250123_vorgabenkatalog_eco_alle_gebaudekategorien_v2023.1_de_1.pdf — 102 Seiten, öffentlich abgerufen 06.09.2026"
 herausgeber: "Verein ecobau (Inhalt/Urheberrecht) gemeinsam mit Minergie Schweiz (Zertifizierungsträger)"
 ausgabe: "Nachweisversion 2023.1, Titelblatt-Dokumentstand 23. Januar 2025 (Anhang B listet die am 23.01.2025 vorgenommenen Anpassungen — Dokumentstand wurde nachgeführt, ohne die Version neu zu nummerieren, gleiches Muster wie beim Produktreglement 2023.1). Ein Kandidat einer 2026er-Fassung wurde nicht geprüft; die Minergie-Website (minergie.ch/de/zertifizieren/eco/) verlinkt am 06.09.2026 exakt diese Datei"
-gelesen: "teilweise — Einführungskapitel (Anwendbarkeit, Vorgehen, Gliederung, Vorgabestruktur, Vorgabentypen, Bewertungsmethodik, Zertifizierungsablauf, Urheberrechte, S. 4-7), vollständige Sektion 'Schallschutz und Raumakustik' (130.01-130.07, S. 32-41), Anhang A (tabellarische Übersicht, S. 101) und Anhang B (Änderungen 23.01.2025, S. 102). NICHT gelesen: die übrigen ~53 Vorgaben zu RLT-Anlagen/Strahlung, Schadstoffen, Tageslicht, Innovation (Gesundheit) sowie Klimaschutz/Ressourcen, Gebäudekonzept/Kreislaufwirtschaft, Biodiversität/Wasserkreislauf, Klimaresilienz (Ökologie) — Fortsetzung für künftige Läufe vorgesehen"
+gelesen: "teilweise — Einführungskapitel (Anwendbarkeit, Vorgehen, Gliederung, Vorgabestruktur, Vorgabentypen, Bewertungsmethodik, Zertifizierungsablauf, Urheberrechte, S. 4-7), vollständige Sektion 'Schallschutz und Raumakustik' (130.01-130.07, S. 32-41), vollständige Vorgaben 210.01 Graue Energie Erstellung und 210.02 Treibhausgasemissionen Erstellung inkl. FAQ (S. 50-53, Run 181, 06.09.2026), Anhang A (tabellarische Übersicht, S. 101) und Anhang B (Änderungen 23.01.2025, S. 102). NICHT gelesen: die übrigen ~51 Vorgaben zu RLT-Anlagen/Strahlung, Schadstoffen, Tageslicht, Innovation (Gesundheit) sowie Gebäudekonzept/Kreislaufwirtschaft, Biodiversität/Wasserkreislauf, Klimaresilienz (übrige Ökologie) — Fortsetzung für künftige Läufe vorgesehen"
 datenstand: "23.01.2025 (Dokumentstand); Vorgaben-Inhalte gültig ab 13.09.2023 analog Produktreglement"
 status: emerging
 geltungsbereich: "Einzelagenten-Lauf, kein Refuter-Panel — noch nicht durch eine zweite, unabhängige Prüfinstanz gegengelesen. Nur der gelesene Teilumfang (siehe 'gelesen') ist durch dieses Destillat gedeckt"
@@ -124,6 +124,59 @@ Instruktion der Handwerker sind einzuplanen. Die 80/20-Regel gilt (mit Ausnahme 
 wo sie explizit nicht anwendbar ist) grundsätzlich mit einer Bezugsgrösse von 80 % der EBF/
 Hauptnutzfläche.
 
+## Bauherren-Transfer: Klimaschutz und Ressourcen (210.01/210.02) — Graue Energie/THGE Erstellung
+
+Zwei Vorgaben, beide **Ausschlussvorgabe mit Bonusmöglichkeit** (Berechnete Vorgabe, 80/20-Regel
+nicht anwendbar), Verantwortung Architekt/in + Bauphysiker/in + Nachhaltigkeits-Fachperson, BKP
+«Alle». Die Punktelogik ist bei beiden identisch: **0 Punkte** (Ausschlussvorgabe erfüllt) wenn
+der Projektwert auf oder unter dem oberen Grenzwert GW2 liegt, **1 Bonuspunkt** in der Zone
+zwischen GW1 und der Mitte GW1/GW2, **3 Bonuspunkte**, wenn der Projektwert auf oder unter dem
+unteren Grenzwert GW1 liegt. **GW1/GW2 selbst stehen nicht in diesem Dokument** — sie werden gemäss
+SIA-Merkblatt 2032:2020 auf Basis der KBOB-Ökobilanzdaten je Gebäudekategorie berechnet
+(Berechnungsmethodik und die aktuellen Zahlen: `[[muken-2025-modul-g-co2-grenzwerte]]`,
+`[[minergie-eco-anleitung-graue-energie-v2023-3]]`).
+
+**Vereinfachter Nachweis für kleine Neubauten:** Bei Wohn-/Schulneubauten bis 1'000 m² EBF darf
+die im Minergie-Nachweis integrierte Berechnung «THGE Erstellung» über **alle** Planungsphasen
+(prov. und def. Zertifizierung) verwendet werden. Bei allen übrigen Neubauten gilt sie nur für die
+Projektierungsphase (prov. Zertifizierung) — für die definitive Zertifizierung braucht es dort das
+vollständige externe Berechnungstool.
+
+**Was in der Berechnung zählt — die FAQ-Antworten wörtlich verdichtet (S. 51-52, bisher nicht in
+der Anleitung `[[minergie-eco-anleitung-graue-energie-v2023-3]]` erfasst):**
+
+- **Beheizte Atrium-Verkehrsflächen** (Brücken, keine abgeschlossenen Räume) zählen zur EBF und
+  gehen in die Berechnung ein.
+- **Freistehende und angebaute Parkiermöglichkeiten** (Garage, Autounterstand, Fahrradständer)
+  müssen vollständig eingerechnet werden — auch nicht allseitig umschlossene Konstruktionen.
+- **Schwimmbäder ausserhalb des Gebäudes** dürfen vernachlässigt werden.
+- **Einstellhallen** müssen grundsätzlich eingerechnet werden; nutzt eine Einstellhalle mehrere
+  Gebäude, wird die Graue Energie/THGE nach Anzahl Parkplätzen verteilt (in Sonderfällen nach EBF,
+  nach Absprache mit der Zertifizierungsstelle).
+- **Innenwandkonstruktionen für Liftschächte** müssen erfasst werden (SIA 2032:2020 Ziff. 3.3).
+- **Treppen werden NICHT erfasst** — Decken dagegen ohne Abzüge für Schacht-/Treppenöffnungen
+  durchgerechnet (SIA 2032 Ziff. 3.4). Eine planerisch relevante Ausnahme von der sonst üblichen
+  Vollständigkeitspflicht.
+- **Trennwände** (z.B. bei DEFH/REFH) werden **hälftig** beiden Gebäuden zugeordnet — im Nachweis
+  wird jeweils die halbe Fläche der Brandmauer erfasst.
+- **Aushub:** grundsätzlich wird der **gesamte** Aushub als nicht kontaminierter Aushub erfasst
+  (inkl. Böschungsaushub). Bei **Ersatzneubauten** wird nur der **neue** Aushub erfasst.
+- **Stützmauern** mit statischer Funktion (z.B. Garageneinfahrt) werden vereinfacht über das
+  Materialvolumen erfasst; Stützmauern mit rein gestalterischer Funktion (z.B. Terrassierung)
+  werden vernachlässigt.
+- **PV-Anlagen** neben dem Gebäude gehen anteilig ein, falls ihre Eigenproduktion beim
+  Minergie(-P/-A)-Nachweis berücksichtigt wird: Eigenverbrauchsanteil zu 100 %, Einspeiseanteil zu
+  40 %.
+- **KBOB-Datenversion:** zugelassen sind die jeweils **beiden letzten verfügbaren Versionen**
+  (Stand dieses Dokuments: 2016 und 2022) — nicht zwingend nur die aktuellste.
+- Bei **Erneuerungen** entscheidet ein separater Fragenkatalog (XLSX-Ressource), ob überhaupt ein
+  rechnerischer Nachweis für die Erstellung nötig ist; verlangt der Fragenkatalog keinen
+  rechnerischen Nachweis, gilt die Ausschlussvorgabe als erfüllt.
+- **Kreislaufwirtschaft:** wiederverwendete Materialien und Bauteile dürfen mit «null» bilanziert
+  werden.
+- Bei **Mehrzonen-Projekten** dürfen Projektwert sowie GW1/GW2 entweder gemittelt oder je Zone
+  separat berechnet werden.
+
 ## Anhang A (tabellarische Übersicht) — wörtlich
 
 | Gebäudekategorien/Nutzungen | Vorgaben Neubau Gesundheit | Vorgaben Neubau Ökologie | Vorgaben Erneuerung Gesundheit | Vorgaben Erneuerung Ökologie |
@@ -153,11 +206,12 @@ anwendbaren zugeordnet.
 
 ## Offene Punkte für Folgeläufe
 
-- Die übrigen ~53 Vorgaben (RLT-Anlagen/Strahlung, Schadstoffe, Tageslicht/Aktivierung, Innovation
-  Gesundheit; Klimaschutz/Ressourcen, Gebäudekonzept/Kreislaufwirtschaft, Biodiversität/
-  Wasserkreislauf, Klimaresilienz, Innovation Ökologie) sind noch nicht destilliert — nächster
-  substanzieller Anknüpfungspunkt für die KB, sobald eine Fachfrage oder ein Projekt (z.B. graue
-  Energie/THGE-Berechnung, Kap. 210.01/210.02) darauf zielt.
+- Die übrigen ~51 Vorgaben (RLT-Anlagen/Strahlung, Schadstoffe, Tageslicht/Aktivierung, Innovation
+  Gesundheit; übrige Ökologie: Gebäudekonzept/Kreislaufwirtschaft, Biodiversität/Wasserkreislauf,
+  Klimaresilienz, Innovation Ökologie) sind noch nicht destilliert — 210.01/210.02 (Run 181) sind
+  erledigt. Nächster naheliegender Anknüpfungspunkt: 220er-Reihe Gebäudekonzept/
+  Kreislaufwirtschaft (Rückbau-/Trennbarkeitsvorgaben, direkt anschlussfähig an
+  `[[ecobkp-2026-methodik-und-uebersicht]]`), sonst nach Fachfrage/Projektbedarf.
 - Kein Refuter-Panel durchlaufen (Einzelagenten-Lauf) — Status bleibt `emerging`, bis eine zweite
   Prüfinstanz die zitierten Zahlen unabhängig gegengelesen hat.
 - Nicht geprüft: ob eine Nachweisversion nach 2023.1 existiert, die den Dokumentstand 23.01.2025

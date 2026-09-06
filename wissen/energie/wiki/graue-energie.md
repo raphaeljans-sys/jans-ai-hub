@@ -1,10 +1,10 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
-last_updated: 2026-09-04
+last_updated: 2026-09-06
 datenstand: 2006-12 (ältester zitierter Quellenstand: KBOB-Ökobilanzdaten-Gründungsempfehlung 2007, Datenstand Dezember 2006 — im Artikel als Methodik-Illustration ohne geltende Rechenwerte gekennzeichnet; aktuelle Datenbasis KBOB-Ökobilanzdaten **v9.0, 14.07.2026** — korrigiert 2026-08-24, vorher v8.0; KBOB-Faktenblatt Graue THGE, Stand 04.04.2025 unverändert Version 1; Norm **SIA 390/1:2025 «Klimapfad» seit 01.02.2025 in Kraft**, ersetzt SIA 2040:2017)
-sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md, destillate/kbob-oekobilanzdaten-baubereich-2007.md, destillate/minergie-eco-anleitung-graue-energie-v2023-3.md]
-links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]], [[kbob-oekobilanzdaten-baubereich-2007]], [[minergie-eco-anleitung-graue-energie-v2023-3]]
+sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md, destillate/kbob-oekobilanzdaten-baubereich-2007.md, destillate/minergie-eco-anleitung-graue-energie-v2023-3.md, destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md]
+links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]], [[kbob-oekobilanzdaten-baubereich-2007]], [[minergie-eco-anleitung-graue-energie-v2023-3]], [[minergie-eco-vorgabenkatalog-standard-2023-1]]
 ---
 
 # Graue Energie & THGE
@@ -117,6 +117,33 @@ Wertungen «leichter/schwerer» sind Einordnung; die Quelle wertet nirgends und 
 0,6-Faktor gar keinen Grund. Herleitung, wörtliche Zitate und die Gegenproben:
 `[[minergie-eco-anleitung-graue-energie-v2023-3]]`, Abschnitt 8. Bauherren-Fassung: FAQ **F273**
 (Sonderregeln P/-A) und **F274** (alten Nachweis nicht übernehmen).
+
+## Was in der Erstellungs-Berechnung zählt — und was nicht (Run 181, 06.09.2026)
+
+Der Vorgabenkatalog Zusatz ECO (Vorgaben **210.01 Graue Energie Erstellung** und **210.02
+Treibhausgasemissionen Erstellung**, beide Ausschlussvorgabe mit Bonusmöglichkeit: 0 Punkte auf
+oder unter GW2, 1 Bonuspunkt zwischen GW1 und der Mitte GW1/GW2, 3 Bonuspunkte auf oder unter GW1)
+beantwortet in seinem FAQ-Block die Abgrenzungsfragen, die die Berechnungsanleitung selbst offen
+lässt:
+
+- **Zählt:** beheizte Atrium-Verkehrsflächen, freistehende und angebaute Parkiermöglichkeiten
+  (auch nicht allseitig umschlossene), Einstellhallen (bei Mehrfachnutzung nach Parkplatzanzahl
+  auf die Gebäude verteilt), Innenwandkonstruktionen für Liftschächte, Trennwände zwischen
+  Doppel-/Reiheneinfamilienhäusern (hälftig je Gebäude), der gesamte nicht kontaminierte Aushub
+  (bei Ersatzneubauten nur der neue Aushub), statisch wirksame Stützmauern (vereinfacht über das
+  Materialvolumen), PV-Anlagen neben dem Gebäude anteilig nach Eigenverbrauch (100 %) und
+  Einspeisung (40 %).
+- **Zählt nicht:** Treppen (Decken dagegen ohne Abzug für Schacht-/Treppenöffnungen), Schwimmbäder
+  ausserhalb des Gebäudes, gestalterische Stützmauern ohne statische Funktion (z. B. reine
+  Terrassierung).
+- **KBOB-Datenversion:** zugelassen sind stets die **beiden letzten** publizierten Versionen, nicht
+  nur die aktuellste — bei v9.0 (Stand 14.07.2026, siehe unten) also aktuell v8.0 und v9.0.
+- Bei **kleinen Wohn-/Schulneubauten bis 1'000 m² EBF** darf der ins Minergie-Nachweisformular
+  integrierte «THGE Erstellung»-Rechner über beide Zertifizierungsphasen (prov. + def.) verwendet
+  werden; bei allen übrigen Neubauten nur für die provisorische Zertifizierung.
+
+Quelle: `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, Vorgaben 210.01/210.02 (S. 50-53).
+Bauherren-Fassung: FAQ **F278**.
 
 ## Sanieren vor Neubau
 Der Erhalt von Tragstruktur und Rohbau spart genau den grössten graue-Energie-Posten (~40–49 %).

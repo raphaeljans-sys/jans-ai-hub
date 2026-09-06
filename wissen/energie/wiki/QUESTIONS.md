@@ -37,12 +37,17 @@ unbelegte Luecke (Spital/Museen ohne Fixwert) erstmals dokumentiert.
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R180-1 (P3, Fach):** die uebrigen ~53 Vorgaben des Vorgabenkatalogs (RLT-Anlagen/
-  Strahlung, Schadstoffe, Tageslicht/Aktivierung, Innovation Gesundheit; Klimaschutz/Ressourcen,
-  Gebaeudekonzept/Kreislaufwirtschaft, Biodiversitaet/Wasserkreislauf, Klimaresilienz, Innovation
-  Oekologie) sind noch nicht destilliert. Naechster sinnvoller Ansatzpunkt: Kap. 210.01/210.02
-  (Graue Energie/THGE Erstellung), weil diese Vorgaben laut Anhang B am 23.01.2025 zuletzt
-  angepasst wurden und die KB die Graue-Energie-Kennwerte bereits vertieft fuehrt (`[[graue-energie]]`).
+- [x] **E-R180-1 (P3, Fach) — Teil 210.01/210.02 geloest ✓ 2026-09-06 (Run 181).** Kap.
+  210.01/210.02 (Graue Energie/THGE Erstellung) destilliert: Punktelogik + zwoelf
+  FAQ-Abgrenzungen in `[[minergie-eco-vorgabenkatalog-standard-2023-1]]` und
+  `[[graue-energie]]`, FAQ F278. **Weiterhin offen** (Rest von E-R180-1, siehe R181-1 unten):
+  die uebrigen ~51 Vorgaben des Vorgabenkatalogs (RLT-Anlagen/Strahlung, Schadstoffe,
+  Tageslicht/Aktivierung, Innovation Gesundheit; Gebaeudekonzept/Kreislaufwirtschaft,
+  Biodiversitaet/Wasserkreislauf, Klimaresilienz, Innovation Oekologie).
+- [ ] **E-R181-1 (P3, Fach):** die uebrigen ~51 Vorgaben des Vorgabenkatalogs nach Abzug von
+  210.01/210.02 (siehe E-R180-1 oben) sind noch nicht destilliert. Naechster sinnvoller
+  Ansatzpunkt: die 220er-Reihe Gebaeudekonzept/Kreislaufwirtschaft (Rueckbau-/
+  Trennbarkeitsvorgaben), anschlussfaehig an `[[ecobkp-2026-methodik-und-uebersicht]]`.
 - [ ] **E-R180-2 (P4, methodisch):** die Sechste Pruefung (geltende Ausgabe) wurde fuer den
   Vorgabenkatalog nur summarisch durchgefuehrt (Website-Verlinkung), nicht mit der gezielten
   404-Gegenprobe wie beim Produktreglement in Run 179. Bei naechster Gelegenheit nachholen, falls

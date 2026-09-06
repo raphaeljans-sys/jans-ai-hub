@@ -1,5 +1,37 @@
 # CHANGELOG
 
+## 2026-09-06 — Run 181: Vorgabenkatalog 210.01/210.02 Graue Energie/THGE Erstellung destilliert (Nachtschicht Mac Mini, Versuchs-Slot 13:30)
+
+- **Fortsetzung von Run 180:** dessen offener Punkt E-R180-1 («übrige ~53 Vorgaben, naechster
+  Ansatzpunkt 210.01/210.02 Graue Energie/THGE») bearbeitet. Quelle unveraendert
+  `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` (Vorgabenkatalog Zusatz ECO,
+  Nachweisversion 2023.1), PDF erneut per curl+pdftotext geladen, diesmal S. 50-53
+  (210.01/210.02 samt FAQ-Block) vollstaendig gelesen.
+- **Neuer Abschnitt im Destillat:** Punktelogik der beiden Ausschlussvorgaben-mit-Bonus (0/1/3
+  Punkte um GW1/Mitte/GW2) und zwoelf FAQ-Abgrenzungen, was in die Erstellungs-Berechnung
+  eingeht — Einstellhallen/Garagen/Liftschaechte/Trennwaende/Aushub/Stuetzmauern/PV-Anlagen ja,
+  Treppen und aussenliegende Schwimmbaeder nein. **Wichtiger Negativbefund:** die GW1/GW2-Werte
+  selbst stehen nicht in diesem Dokument, sondern werden gemaess SIA-Merkblatt 2032:2020 auf
+  KBOB-Basis berechnet — dafuer bleiben `[[muken-2025-modul-g-co2-grenzwerte]]` und
+  `[[minergie-eco-anleitung-graue-energie-v2023-3]]` die maassgeblichen Quellen.
+- **Dublettenpruefung:** die zwoelf FAQ-Abgrenzungen standen noch nicht in der bereits
+  bestehenden `[[minergie-eco-anleitung-graue-energie-v2023-3]]` (jene Quelle behandelt nur die
+  Berechnungsmethodik/Grenzwert-Zusammensetzung, nicht die Systemgrenzen-FAQ) — echter
+  Neuzugang, kein Duplikat.
+- **Wiki gewachsen:** `wiki/graue-energie.md`, neuer Abschnitt «Was in der
+  Erstellungs-Berechnung zaehlt — und was nicht (Run 181, 06.09.2026)» nach dem bestehenden
+  ECO-Nachweis-Abschnitt eingefuegt, Frontmatter (sources/links/last_updated) nachgefuehrt.
+- **Verdichtet:** FAQ **F278** («Zaehlt unsere Einstellhalle bei der Berechnung der grauen
+  Energie mit, und was ist mit der Treppe?») — direkt mengengeruest-relevant fuer die
+  Projektarbeit.
+- **`destillate/INDEX.md`** Eintrag der Quelle um Run 181 ergaenzt.
+- **Neu offen (Nachtrag zu E-R180-1):** die uebrigen ~51 Vorgaben (RLT/Strahlung, Schadstoffe,
+  Tageslicht, Innovation Gesundheit; Gebaeudekonzept/Kreislaufwirtschaft, Biodiversitaet/
+  Wasserkreislauf, Klimaresilienz, Innovation Oekologie) bleiben undestilliert. Naechster
+  naheliegender Ansatzpunkt: 220er-Reihe Gebaeudekonzept/Kreislaufwirtschaft
+  (Rueckbau-/Trennbarkeitsvorgaben), anschlussfaehig an `[[ecobkp-2026-methodik-und-uebersicht]]`.
+- **Sichern:** NAS-Repo nativ committet via `nas-commit-now.sh`.
+
 ## 2026-09-06 — Run 180: Vorgabenkatalog Zusatz ECO destilliert, Schallschutz-Grenzwert-Luecke aus Run 179 geschlossen
 
 - **Neu:** `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` — Vorgabenkatalog Zusatz

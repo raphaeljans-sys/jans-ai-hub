@@ -11356,3 +11356,35 @@ je −0) und vier Loeschungen in `schallschutz-sia181.md` (die ersetzten Frontma
 260811 eingehalten).
 
 Budget rund 3.1 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-06 13:30 Nachtschicht Mac Mini (Versuchs-Slot) — energie: Vorgabenkatalog 210.01/210.02 Graue Energie/THGE destilliert, Run 181
+
+Priorität 1/2 (remote-tasks/sync-tasks Mac Mini, Synobsis Stufe 2) ohne offenen Punkt: `remote-tasks/pending/`
+leer, `sync-tasks/mac-mini/` ohne wartende Aufgabe, `architekten-synobsis` seit 13.07.2026 auf 853/853
+gesättigt (deterministische Wiederholungsläufe ohne Rohmaterial-Zuwachs, laut eigenem CHANGELOG kein
+weiterer Fortschritt zu erwarten). Priorität 4 (Trainingslektion): von den KBs mit `training/PROGRAMM.md`
+sind baurecht/normen/planungsgrundlagen/wettbewerbs-dna/grobkosten per eigenem Taktgeber bzw. Endbedingung
+ausgeschlossen, spec/immobilienbewertung/bauprodukte tragen einen Ereignis-Trigger-Statuskopf («kein gültiges
+Ziel»), projekt-lessons ist laut Fristen-Register ausgesetzt. Einziges verbleibendes freies Ziel: `energie`
+— dort hatte Run 180 (heute 02:30-Slot) den offenen Punkt E-R180-1 hinterlassen: «nächster Ansatzpunkt
+210.01/210.02 Graue Energie/THGE».
+
+Vorgabenkatalog Zusatz ECO (Nachweisversion 2023.1) erneut per curl+pdftotext geladen, diesmal S. 50-53
+(Vorgaben 210.01 Graue Energie Erstellung + 210.02 Treibhausgasemissionen Erstellung samt FAQ-Block)
+vollständig gelesen. Kernbefund: die Punktelogik ist eine einfache Ausschlussvorgabe mit Bonusmöglichkeit
+(0 Punkte auf/unter GW2, 1 Bonuspunkt zwischen GW1 und der Mitte, 3 Bonuspunkte auf/unter GW1) — die
+Grenzwerte GW1/GW2 selbst stehen nicht im Dokument, sondern werden gemäss SIA 2032:2020 auf KBOB-Basis
+berechnet (dafür bleiben die bereits bestehenden Destillate `muken-2025-modul-g-co2-grenzwerte` und
+`minergie-eco-anleitung-graue-energie-v2023-3` massgeblich). Der eigentliche Neuzugang sind zwölf
+FAQ-Abgrenzungen, was in die Erstellungs-Berechnung eingeht: Einstellhallen/Garagen/Liftschächte/
+Trennwände/Aushub/Stützmauern/PV-Anlagen zählen mit, Treppen und aussenliegende Schwimmbäder nicht — vor
+diesem Lauf in keinem KB-Artikel dokumentiert (auch nicht in der bereits bestehenden Berechnungsanleitung,
+die nur die Grenzwert-Zusammensetzung behandelt, nicht die Systemgrenzen-FAQ). Verdichtet in
+`wiki/graue-energie.md` (neuer Abschnitt) und FAQ F278. Destillat und `destillate/INDEX.md` nachgeführt,
+E-R180-1 in `wiki/QUESTIONS.md` als teilerledigt markiert (Rest als neues E-R181-1 fortgeschrieben,
+nächster Ansatzpunkt 220er-Reihe Gebäudekonzept/Kreislaufwirtschaft).
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). Commit nativ über
+`nas-commit-now.sh` ausgelöst.
+
+Budget rund 1.9 von 5 USD. Zyklus sauber beendet.
