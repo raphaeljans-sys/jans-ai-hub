@@ -3,6 +3,61 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Abo-Auslastung 06.09.2026 (18:0x, wöchentlicher Check Mac Mini) — SCHWARZ, ZWEITER Ausfall in Folge; Eskalation ausgelöst, Mail blieb im Entwurf hängen
+
+**Ampel SCHWARZ, kein Messwert.** Der Connector `connectors/claude-usage.mjs` scheitert
+unverändert am Token-Refresh: HTTP 400, `invalid_grant`, «Refresh token expired», danach 401
+am Usage-Endpunkt. Kein Wochenprozent, kein Tempo-Faktor, keine Extra-Usage-Aussage. Genau EIN
+Messlauf gefahren (429-Vorfall 20.07. bleibt beachtet; ein vorangehender Aufruf brach vor jeder
+Anfrage ab, weil `timeout` auf macOS nicht existiert, und zählt deshalb nicht als Messversuch).
+
+**Zähler auf 2 — die Eskalationsstufe hat gegriffen.** Der Lauf hat stattgefunden, Abstand zum
+30.08. genau 7 Tage, kein übersprungener Takt. Gleichstand NAS gegen Stationskopie per `diff`
+geprüft, keine Abweichung. `logbuch/abo-check/ALARM.md` geschrieben.
+
+**Die Ursache besteht unverändert fort, und zwar messbar.** Keychain «Claude Code-credentials»,
+Feld `mdat`: **24.08.2026 15:48 UTC, gleicher Stempel wie am 30.08.** Der beim letzten Lauf
+empfohlene `/login` ist nicht erfolgt. Der Befund ist damit keine neue Störung, sondern die
+unbehandelte alte.
+
+**Der Zugang lebt, nur der Connector ist blind.** Gegenmessung im selben Lauf: elf laufende
+`claude`-Prozesse auf der Station. Blind ist allein die Refresh-Token-Kopie des Connectors, die
+von den parallel rotierenden Läufen überholt wurde. Der nächste Lauf darf das nicht als
+entwerteten Account lesen. Letzte belastbare Messung bleibt der 23.08.2026: 42 %, Tempo 0.47,
+GRÜN. Seither vierzehn Tage ohne Prozent-, Reset- und Extra-Usage-Sicht.
+
+**Der wichtigste Befund dieses Laufs ist aber ein anderer: die Eskalationsmail ist nicht
+angekommen.** Die Selbst-Meldung an rj@ wurde formuliert und `send` gab `true` zurück, der
+Shell-Rückgabewert war 0. **Die Entwurfszählung widerlegt beides:** 149 vor dem Senden, **150
+danach**, und die Nachricht ist unter ihrem Betreff in der Entwurfs-Mailbox nachweisbar, in den
+Gesendeten nicht. Damit ist exakt der Fall eingetreten, für den die Zählung am 12.08.2026
+eingebaut wurde (Lehre 260812f) — und sie hat funktioniert. `logbuch/abo-check/UNZUSTELLBAR.md`
+mit dem vollen Mailtext geschrieben, Zähler wie vorgeschrieben **nicht** zurückgesetzt.
+
+**Das ist ein zweiter, eigenständiger blinder Fleck.** Nicht nur die Messung fehlt, auch der
+Meldeweg der Station trägt nicht. Das Logbuch führt seit dem 28.08. eine osascript-Blockade von
+Apple Mail auf dem Mac Mini (ag-gruendung-monitor); lesende Abfragen antworten inzwischen wieder
+(149/150 Entwürfe abgefragt, Betreffzeilen gelesen), das Senden nicht. Ein Wächter, der still in
+die Entwürfe schreibt, meldet nichts.
+
+**Betriebszustand gemessen, nicht fortgeschrieben:** STOP-Flags `STOP-Macmini` und
+`STOP-Macbookpro` unverändert seit 29.07. 02:51, ohne Bedeutung für die aktuelle Last (sie
+stoppen den ausgebauten VOLLGAS-Runner); elf `claude`-Prozesse aktiv, Schub-Lane-Prompts unter
+`logbuch/vollgas/schub/` zuletzt 02.09. angefasst. STOP-Flags weiterhin **nicht** als
+Stillstandsbeleg lesen.
+
+**Gemessenes Konto:** `raphaeljans` (privates Max 20x). Team-Seat 1: noch nicht eingerichtet.
+Team-Seat 2: noch nicht eingerichtet. Beide technisch nicht separat messbar.
+
+**Aktion Raphael, ein Handgriff:** auf dem Mac Mini im Terminal `claude` starten und `/login`
+ausführen (Methode «Claude account with subscription»), danach Kontrolllauf. **Zweitens** der
+Versandweg: solange Apple Mail auf dieser Station nicht sendet, erreicht keine automatische
+Meldung das Postfach.
+
+**Strukturell offen (Entscheid Raphael):** bei Dutzenden parallel rotierenden Läufen ist der
+nächste Token-Ausfall erwartbar; ein eigener Keychain-Service-Name für den Connector ist nicht
+gebaut. Keine Abo-, Konto-, Takt- oder STOP-Flag-Änderung vorgenommen; read-only gearbeitet.
+
 ## Nachtschicht Mac Mini 05.09.2026 (05:3x, Prioritaet 4 — KB `energie`)
 
 Prioritaeten 1-3 leer: keine `remote-tasks/pending/` oder `sync-tasks/mac-mini/`-Auftraege;
