@@ -11318,3 +11318,41 @@ Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). Commit na
 `nas-commit-now.sh` ausgeloest und bestaetigt.
 
 Budget rund 1.9 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-06 02:30 Nachtschicht Mac Mini — energie: Vorgabenkatalog Zusatz ECO destilliert, Schallschutz-Luecke aus Run 179 geschlossen
+
+`remote-tasks/pending` und `sync-tasks/mac-mini` leer. Synobsis Stufe 2 (Prio 2) weiterhin
+gesaettigt (853/853, deterministisch, letzter inhaltlicher Lauf 13.07.2026). Fristen-Radar (Prio 3):
+dieselben zwei P1/hoch-Punkte wie in den Vornaechten (Steinbrüchelstrasse-Entwurf versandbereit,
+Abgabe 09.09.2026; KISPI Los 231.10 Freigabe-Bitten Jegen) — beide bereits als
+Entwurf/Zusammenstellung dokumentiert, nichts selbststaendig veranlasst, kein neuer Punkt seit
+04.09.2026 erhoben.
+
+Prio 4 (naechste faellige Trainingslektion): `bauprodukte` wurde im 23:30-Zyklus derselben Nacht
+bereits bearbeitet (HC0901-1 geschlossen) und ist QUESTIONS-seitig sauber; `energie` trug den
+aelteren Wiki-Stand (letzter inhaltlicher Lauf 05.09. 13:30-Slot, Run 179) und war damit dran.
+Run 179 hatte offen gelassen, dass das ECO-Produktreglement die Schallschutz-Grenzwerte (Anhang
+10.4) nur an «den aktuellen Vorgabenkatalog» verweist, ohne selbst Zahlen zu nennen, und diesen
+Katalog als naechsten, fremdabhaengigkeitsfreien Schritt benannt.
+
+Vorgabenkatalog Zusatz ECO (Standard, Nachweisversion 2023.1, 102 S.) per eigenem curl+pdftotext
+teilweise erschlossen: Einfuehrung/Struktur, die vollstaendige Sektion Schallschutz/Raumakustik
+130.01-130.07 sowie Anhang A/B. Neues Destillat
+`minergie-eco-vorgabenkatalog-standard-2023-1.md` (Status emerging). Kernbefund: fuer die meisten
+Nutzungen (Schule/Verkauf/Industrie/Restaurant) liefert der Katalog konkrete Stufe-1/2-Werte, weil
+SIA 181:2020 den frueheren Anhang G ersatzlos gestrichen hat; fuer **Spital und Museen**
+dagegen kein Fixwert, nur ein projektspezifisches Pflichtenheft auf altem Anhang-G-Niveau — direkt
+relevant fuer KISPI/Healthcare, wo ein pauschaler SIA-181-Verweis fuer diese Vorgabe nicht genuegt.
+Verdichtet in `wiki/schallschutz-sia181.md` (neuer Abschnitt) und FAQ F277. Sechste Pruefung
+(geltende Ausgabe) summarisch bestaetigt aktuell; siebte Pruefung (Cross-KB) ein Treffer ohne
+Ueberschneidung (planungsgrundlagen, andere Vorgabe). Neu offen: E-R180-1 (uebrige ~53 Vorgaben des
+Katalogs, naechster Ansatzpunkt Graue Energie 210.01/210.02), E-R180-2 (Versions-Gegenprobe
+nachholen).
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). Commit nativ ueber
+`nas-commit-now.sh` ausgeloest, per ssh gegengeprueft: `git show --numstat HEAD` zeigt die
+erwarteten rein additiven Aenderungen in den Append-only-Registern (CHANGELOG/INDEX/FAQ/QUESTIONS
+je −0) und vier Loeschungen in `schallschutz-sia181.md` (die ersetzten Frontmatter-Zeilen, Rule
+260811 eingehalten).
+
+Budget rund 3.1 von 5 USD. Zyklus sauber beendet.
