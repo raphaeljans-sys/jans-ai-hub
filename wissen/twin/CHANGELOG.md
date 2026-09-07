@@ -4,6 +4,59 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-07 — Mailbatch 115: der Unterstrich-Bullet ist als Herkunftssignal verbrannt
+
+Fenster `rj@` Sent Items **03.09. 15:32 – 06.09. 16:09**, alle 16 Treffer, `order: oldest`.
+7 Einheiten `authentisch`, 1 `korrektur-delta` (Hybrid mit sichtbarer Naht), 2 `claude-aera`
+gesperrt, 1 Dublette aus Batch 114 vom Vorabgleich abgefangen (vierter Lauf in Folge). Metrik:
+358 Woerter, Du-Gross-Quote 0.8, 5x «Freundliche Grüsse», Satzlaenge **12.8** (gegen 19.8 in
+Batch 114). Raw `raw/260907-mailbatch-115.md`.
+
+- **[[arbeitsweise]]** — ⭐ **Kernbefund:** alle drei `_ `-Bullets der Hybrid-Mail stehen im
+  **vorbereiteten** Block. Weil `stilmetrik.py` den Marker als «Raphaels eigenes
+  Aufzaehlungszeichen» fuehrt, erzeugt ihn der Zwilling inzwischen selbst — als
+  Authentizitaets-Indiz ist er damit **unbrauchbar** und darf in der Gewichtung nicht mehr fuer
+  `authentisch` sprechen (als Stilmerkmal bleibt er gueltig). Belastbar trennen die Haende nur
+  noch **Fehlerdichte je Absatz** und `internetMessageId`. Vorfilter-Standard entsprechend
+  geaendert. Dazu: der Weg zur Behoerde laeuft ueber den Fachverantwortlichen, obwohl die
+  Behoerde im An-Feld steht; die Wochenliste als eigene Gattung (ohne Anrede/Gruss, Unternehmer
+  und Bauherrschaft gemeinsam im An, offene Entscheide als Positionen, nur ueber Apple Mail);
+  Ablageort auch analog («Briefkasten Bohlweg 3») samt Uebergabekette Dienstleister → Ort →
+  Person; Zeilenumbrueche als Nummerierung einer fuenfgliedrigen Handlungskette ueber drei
+  Parteien, ohne ein einziges Bindewort.
+- **[[stimme]]** — «an Herr <Vorname Nachname>» **zweifach am selben Tag** in zwei Registern:
+  stabile Form statt Vertipper, fuer die Erzeugung gesperrt, in der Messung ab jetzt erwartetes
+  Merkmal eigener Hand. Die **Satzlaenge haengt an der Gattung, nicht am Register** (12.8 gegen
+  19.8 bei teils gleichen Empfaengern derselben Woche). Neue Schriftzeichen-Marker: Fachbegriff
+  in Bindestrichen statt Anfuehrungszeichen, Deppenapostroph mit falschem Zeichen im Betreff,
+  Gedankenstrich als Listenzeichen, **Versalien als Dringlichkeitsstufe** in der letzten
+  Listenposition, Telefonnummer ungegliedert als Aktionsknopf gegen die Signaturform. Komma nach
+  der Anrede schwankt fuenffach am selben Tag — Schwankung, kein Marker.
+- **[[denken]]** — Der **Zwecksatz steht NACH der Liste** und nennt die Folgekette, nicht das
+  Ziel («So kann der Gipser KW38 weiter arbeiten»). Die 260904er Regel «der Vorbehalt steht nach
+  dem sicheren Block» ist an einem ganz anderen Gegenstand zweitbelegt — und der vorbereitete
+  Block hat die Stelle **nicht** verschoben, was sie als Raphaels Dramaturgie ausweist.
+- **[[haltung]]** — **Verbindlichkeit vor Vollstaendigkeit:** Pauschalpreis und abschliessender
+  Leistungsumfang binnen 20 Stunden, bevor drei angeforderte Grundlagen vorliegen. Die
+  Abgrenzung («abschliessend geklärt») steht im Hauptteil, nicht im Kleingedruckten.
+- **[[beziehungsregister]]** — **An = wer handelt, Cc = wer bezeugt**: die Behoerde steht im An
+  und wird in der dritten Person gefuehrt, die Gegenpartei SBB liest die Anweisung an die
+  Bauherrschaft aus dem Cc mit. Knappste belegte Registerstufe erstbelegt («Hoi Mustafa kannst
+  du mich kurz anrufen. / Danke. / Nummer»): kein Komma, du klein, kein Gruss — die
+  Du-Schwankung haengt an der Eile, nicht am Kontakt. **Die DNA-Kopplung warmer Gruss ↔ Du wird
+  zum zweiten Mal in Folge nicht getragen** (5/5 «Freundliche Grüsse», neun Mails ohne warmen
+  Gruss an Du-Kontakte); erste Lesart: der warme Gruss haengt an der Gattung. ⚠ Anrede-
+  Fehlgriff-Verdacht («Geschätzter Christoph» ans Konto der Familie Tschopp) als Pruefpunkt
+  gefuehrt, nicht geglaettet.
+- **[[fachsignatur]]** — Das Geruest der baurechtlichen Machbarkeit als Rechenkette A)–E)
+  (ueberbaubarer Grund → Hoehe → Geschosse → GF → HNF), Buchstaben statt Ziffern, jede Zeile mit
+  «Max.». Vor der Volumenpruefung stehen Eigentum und Dienstbarkeiten (vier Katasternummern
+  einzeln, Wegparzelle doppelt gefuehrt). Planfassungen mit Datum, Dateiname woertlich inklusive
+  Endung — Beweissicherung gegenueber der Feuerpolizei.
+- **[[QUESTIONS]]** — 5 neue Selbstfragen (260907): warmer Gruss an Register oder Gattung ·
+  Anrede-Fehlgriff · Wochenliste ohne Zuordnung · Versalien als Dringlichkeitsstufe · A)–E) als
+  feste Vorlage.
+
 ## 2026-09-04 — Fidelity-Review: Hybrid mit sichtbarer Naht, Service-Satz-Linie Nr. 3 gefallen
 
 Golds aus dem unangetasteten Fenster **13.–30.01.2026** (3 gewertet, 5 Pruefsteine, 2 Hybride

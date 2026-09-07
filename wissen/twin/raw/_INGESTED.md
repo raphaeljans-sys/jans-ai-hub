@@ -2615,3 +2615,67 @@ weiterhin pruefen, welches Fenster der `twin-fidelity-review` zuletzt verbraucht
 jeder gelesenen Mail, gekuerzter Service-Satz als Zweitsignal,
 `Apple-Mail-URLShareWrapperClass` als Marker des Claude-Entwurfswegs. (6) **AfB** bleibt die
 letzte offene Behoerdenstelle ohne eigenen Volltext.
+
+## Batch 115 (07.09.2026) — `rj@` Sent Items 03.09. 15:32 bis 06.09. 16:09 · **Ausfuehrungs- und Uebergabeverkehr**
+
+**Datei:** `260907-mailbatch-115.md` · **Gewichtung:** 7 Gold-Einheiten `authentisch`,
+1 `korrektur-delta` (Hybrid mit sichtbarer Naht), 2 `claude-aera` gesperrt · **eingearbeitet:**
+ja ([[stimme]], [[denken]], [[haltung]], [[beziehungsregister]], [[fachsignatur]],
+[[arbeitsweise]], [[QUESTIONS]] 260907 #1–#5)
+
+**Abgedeckt:** `Sent Items` **03.09.2026 15:32 bis 06.09.2026 16:09**, alle 16 Treffer der Seite
+(`order: oldest`, `afterDateTime: 2026-09-03T15:32:00`, `totalResultCount: 16`, keine
+Folgeseite). Der Vorwaertsfaden bleibt ohne Luecke. Kein Lauf am 05. und 06.09., das Fenster
+deckt drei Tage.
+
+**Vorfilter (gratis, vor dem ersten `read_resource`):** 1 **Dublette aus Batch 114** (Einheit D,
+Sanitaerplaene 03.09. 15:32) — **vierter Lauf in Folge**, in dem der Vorabgleich gegen das
+Register eine Doppel-Destillation verhindert hat; 2 Selbstmails `claude-aera` (Hub-Chef-Briefing
+04.09. 06:57, Systemmeldung Abo-Auslastung 06.09. 16:09); 5 Systemhuellen (zwei Mails ohne
+Betreff an die Druckerei, eine mit der Teams-URL als Betreff, zwei identische
+Teams-Besprechungseinladungen 05.09.). Der `twin-fidelity-review` 260904 hat Januar-Material
+(13.–30.01.2026) verbraucht, also keine Kollision.
+
+**Verbraucht — nicht erneut destillieren:** Angebot Zweitgutachten Baurecht 04.09. 07:45
+(`korrektur-delta`) · Grundlagen Brandschutz an Fachplaner + Behoerde 04.09. 07:56 · Wochenliste
+«Todo‘s kw37» 04.09. 10:09 · Weiterleitung Bestellbestaetigung Druckerei 04.09. 13:05 ·
+Anruf-Bitte «Hoi Mustafa» 04.09. 14:03 · Naeherbaurecht zur Unterzeichnung 04.09. 14:39 ·
+Einladung Abnahme Rohbauinstallationen 04.09. 14:52 · Dossier Abaenderungseingabe 04.09. 18:41.
+
+**Kernbefunde:** (1) ⭐ **`_ `-Bullet als Herkunftssignal verbrannt** — alle drei Unterstrich-
+Bullets der Hybrid-Mail stehen im **vorbereiteten** Block; weil `stilmetrik.py` den Marker als
+Raphaels eigenen fuehrt, erzeugt ihn der Zwilling selbst. Die Haende trennen belastbar nur noch
+Fehlerdichte je Absatz und `internetMessageId`. (2) ⭐ **Satzlaenge haengt an der Gattung, nicht
+am Register**: 12.8 gegen 19.8 in Batch 114, gleiche Woche, teils gleiche Empfaenger — Anweisung
+und Uebergabe kuerzen, Erklaerung und Abwaegung verlaengern. (3) ⭐ **«an Herr <Vorname
+Nachname>» zweifach am selben Tag** in zwei Registern: stabile Form statt Vertipper, gesperrt fuer
+die Erzeugung, ab jetzt erwartetes Merkmal eigener Hand in der Messung. (4) ⭐ **Der Zwecksatz
+steht NACH der Liste und nennt die Folgekette** («So kann der Gipser KW38 weiter arbeiten»).
+(5) ⭐ **Der Vorbehalt nach dem sicheren Block** zweitbelegt, an einem ganz anderen Gegenstand —
+und der vorbereitete Block hat die Stelle **nicht** verschoben. (6) ⭐ **Verbindlichkeit vor
+Vollstaendigkeit**: Pauschalpreis binnen 20 Stunden, bevor drei Grundlagen da sind, mit
+«abschliessend» als Abgrenzung im Hauptteil. (7) ⭐ **An = wer handelt, Cc = wer bezeugt** — die
+Behoerde steht im An und wird in der dritten Person gefuehrt; die Gegenpartei SBB liest die
+Anweisung an die Bauherrschaft aus dem Cc mit. (8) ⭐ **Knappste belegte Registerstufe**: «Hoi
+Mustafa kannst du mich kurz anrufen. / Danke. / 0798461165» — kein Komma, du klein, kein Gruss,
+Nummer ungegliedert als Aktionsknopf. (9) ⭐ **DNA-Kopplung warmer Gruss ↔ Du zum zweiten Mal
+nicht getragen**: 5/5 «Freundliche Grüsse», zwei Fenster in Folge null warme Gruesse.
+(10) ⭐ **Wochenliste als eigene Gattung** (ohne Anrede/Gruss, Unternehmer und Bauherrschaft
+gemeinsam im An, offene Entscheide als Positionen) — und sie entsteht als einzige Einheit des
+Fensters in **Apple Mail**. (11) ⭐ **Ablageort auch analog**: «Die Ausdrucke sind morgen im
+Briefkasten Bohlweg 3.», dazu die Uebergabekette Dienstleister → Ort → Person. (12) ⭐ **Zeilen-
+umbrueche als Nummerierung**: fuenf Schritte ueber drei Parteien ohne ein einziges Bindewort.
+(13) Fachgeruest A)–E) der baurechtlichen Machbarkeit als Rechenkette bis zur HNF.
+(14) Neue Schriftzeichen-Marker: Deppenapostroph mit falschem Zeichen im Betreff, Gedankenstrich
+als Listenzeichen, Versalien als Dringlichkeitsstufe, Fachbegriff in Bindestrichen statt
+Anfuehrungszeichen. (15) ⚠ **Anrede-Fehlgriff-Verdacht** «Geschätzter Christoph» an das Konto
+der Familie Tschopp, unbestaetigt, als Pruefpunkt gefuehrt.
+
+**Naechstes Fenster:** (1) `rj@` **Sent Items ab 06.09.2026 16:09**, weiterhin `order: oldest`.
+(2) `Drafts` nur als **Zuwachs** (`order: newest`, Abgleich gegen dieses Register), nicht per
+Seitennummer. (3) Die zwei reservierten Apple-Mail-Entwuerfe vom 24.03.2026. (4) Vor dem Ziehen
+weiterhin pruefen, welches Fenster der `twin-fidelity-review` zuletzt verbraucht hat.
+(5) **Vorfilter-Standard geaendert:** `internetMessageId` als Geraete-Trennung und Token-Pruefung
+bleiben; `Apple-Mail-URLShareWrapperClass` bleibt Marker des Claude-Entwurfswegs; der
+`_ `-Bullet zaehlt **nicht mehr** als Authentizitaets-Indiz (siehe Kernbefund 1). (6) **AfB**
+bleibt die letzte offene Behoerdenstelle ohne eigenen Volltext.

@@ -22,6 +22,114 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 **Nächster Monitor-Scan:** Standard 09.09.2026 07:45 (zwei Tage Puffer).
 
+## Radar-Briefing 07.09.2026 (Logbuch-Radar, 07:45 statt 06:55)
+
+**Vorbemerkung in eigener Sache:** dieser Lauf meldet ausnahmsweise selbst per Mail an rj@.
+Beide Ausnahmegründe nach Schritt 6 liegen vor — der Hub-Chef ist am 05.09. und 06.09. nicht
+gelaufen, und der schwerste Punkt hat eine Frist um 12:00, also vor dem Chef-Fenster 08:39.
+
+**Zuerst der Ausfall, weil er die Lage erklärt.** Radar, Hub-Chef und Konversations-Log haben
+am 05.09. und 06.09. nicht stattgefunden; das letzte Destillat ist `260904-konversationen.md`,
+das letzte Chef-Briefing datiert vom 04.09. 08:58. Die Lauf-Journale der beiden Tage zeigen nur
+die Nachtschicht-Läufe des Mac Mini (02:xx, 05:xx, 13:xx, 23:xx). Zwei Tage ohne Aufsicht, und
+genau in dieses Fenster fiel die Eskalation der Bauherrschaft Thalwil. Aus demselben Grund
+entfällt heute die Sektion «Aus unseren Gesprächen» — es gibt kein Destillat, aus dem sie
+gespeist werden könnte.
+
+### Erledigt seit dem 04.09.
+
+**01.1 SBB-Näherbaurecht Thalwil, Bringschuld abgegeben.** Die Ausfertigungen sind am 04.09.
+16:39 an S. Tschopp gegangen, mit der Bitte um handschriftliche Unterzeichnung und Versand
+zweier Exemplare an T. Wiedmer (SBB). Der Vorgang, der seit dem 14.07. bei JANS lag, liegt
+jetzt bei der Eigentümerschaft. Kein Nachfassen bei der SBB — die Korrektur vom 03.09. gilt.
+
+**01.2 Abänderungsdossier Thalwil versandt**, vier PDF am 04.09. 20:41. Mit zwei Mängeln,
+siehe Ziffer 02 — der Punkt ist geliefert, aber nicht erledigt.
+
+**01.3 Die Abo-Alarmmail vom 06.09. ist zugestellt.** Der Registereintrag von 18:1x hielt sie
+für im Entwurf hängengeblieben. Sie liegt in den Gesendeten (06.09. 18:09:19) und im
+Posteingang (18:09:21). Der Messausfall des Connectors dahinter bleibt offen, der `/login`
+auf dem Mac Mini steht weiterhin aus.
+
+### Überfällig und heute fällig
+
+**02.1 Thalwil, Frist heute 12:00 — der P1 des Tages.** S. Tschopp hat am 05.09. 15:56 und
+06.09. 06:42 geschrieben. Verlangt sind PDF **und DXF** des Planstands gemäss Eingabe, bis
+heute 12:00, weil er sie am Dienstag mit J. Posch durchgeht. Geliefert wurden vier PDF, **die
+DXF fehlt**. Dazu zwei beanstandete Planfehler, die vor der Lieferung zu bereinigen sind: die
+Waschküche im 1. OG bleibt gemäss Beschluss vom April im Bestand (nicht umgesetzt), und die
+Zimmertüren im Bestand sind nicht korrekt eingezeichnet.
+
+**02.2 Zwei Formfehler in der eigenen Sendung vom 04.09., beide sichtbar geworden.** Die Mail
+ging an `fam_tschopp@greenmail.ch` und begann mit «Geschätzter Christoph». Empfänger ist
+Stefan Tschopp. Er hat sie mit sichtbarer Anrede weitergeleitet. Ab sofort gilt
+`stefan.tschopp@gmx.net`; `fam_tschopp@green.ch` ist tot, `stefan.tschopp@neuebank.li` ist die
+Geschäftsadresse mit Abwesenheit bis Mittwoch 09.09.
+
+**02.3 Eine Leistungsrüge, die neben der offenen Honorarrechnung steht.** Wörtlich «seit Ostern
+der Wurm drin», «Du antwortest nicht mehr auf Mails und Nachrichten», «Du bist bei weitem der
+teuerste Posten». RE-00101 über CHF 6'000.00 ist seit dem 16.08. mahnfällig. Eine Mahnung in
+dieser Woche wäre der falsche Zug; erst die Lieferung, dann das Geld.
+
+**02.4 Der Termin heute 10:00 ist von der Gegenseite abgesagt.** Tschopp ist in Bozen und hält
+seine Teilnahme für entbehrlich, schlägt Donnerstag oder Freitag vor, wenn die SBB-Dokumente da
+sind. Der Teams-Termin «Cad Anpassungen per Bildschirmteilen» steht noch im Kalender und wird
+von JANS organisiert — absagen, die Arbeit bleibt trotzdem.
+
+### In den nächsten sieben Tagen
+
+**03.1 Heute 09:15 bis 09:45**, Abgleich Umbau PPTS mit C. Schäfer, C. Allerkamp und A. Spahic
+(Teams, KISPI).
+
+**03.2 Dienstag 08.09.**, letzter Tag für den bexio-Abo-Entscheid; die Umstellung greift am
+08.10., Kündigung oder Paketwechsel wirken nur bis 30 Tage davor. bexio antwortet weiterhin mit
+401, heute erneut gemessen — der Token läuft erst am 13.12. ab, die Session dahinter ist
+beendet. Fünf Positionen über CHF 51'400 bleiben unverifiziert, jede Mahnaktion gesperrt.
+
+**03.3 Donnerstag 10.09. 13:00 bis 14:00**, Koordinationssitzung Gruner / Jans / KISPI
+(Organisatorin M. Valentin, dreizehn Teilnehmende, Teams).
+
+**03.4 Samstag 19.09. ab 06:30**, Estermann will die Schiebetüre umbauen und das RHS einbauen.
+O. Stadelmann hat den Termin heute 07:45 gesetzt und ihn ausdrücklich an Vorleistungen
+geknüpft: Mobiliar entfernt, Boden mit Hart-Pavatex geschützt. Diese Vorleistungen liegen beim
+KISPI, angestossen werden müssen sie von uns.
+
+**03.5 Bis 20.09.**, Anmeldung Wettbewerb (Mail L. Imoberdorf 27.08.), unverändert.
+
+**03.6 Bis 22.09.**, Ablauf des Gastzugriffs von L. Hiltmann auf die Projektbibliothek.
+
+### Heute klein, aber terminwirksam
+
+**04.1 L. Hiltmann bittet um den Ablage-Link der Jegen-Korrex** (heute 07:02). Eine Minute
+Arbeit, hängt an den finalen Werkplänen der inneren Verglasungen. Beim Setzen des Links gleich
+prüfen, ob sein Gastzugriff bis zum Abschluss reicht.
+
+**04.2 Der UGZ hat den Ansprechpartner gewechselt.** R. Zürcher schreibt heute 07:48, er sei
+nicht zuständig, und leitet an **Franziska von Holzen** weiter. Der Abnahmetermin der
+Umbauarbeiten ist mit ihr zu terminieren; die Erwartung «Zusage von L. Hansen Anfang der
+Woche» aus dem Chef-Briefing vom 04.09. ist damit um einen zweiten Weg ergänzt.
+
+### In Beobachtung
+
+Kapitaleinzahlung CHF 50'000 auf das UBS-Sperrkonto, unverändert offen, seit dem 13.08. keine
+Antwort des Notariats Mathies — der einzige echte Dauer-P1. Steinbrüchelstrasse an C. Bopp,
+Abgabe Mittwoch 09.09. Roman Steinmann, Albertstrasse 7, abwesend bis 21.09. Türmatrix und
+Spezifikation Architektur weiterhin bei uns. RWD Schlatter, Angebot KD18611. Git-Divergenz des
+NAS-Repos, unverändert Einzelentscheid. `/Volumes/daten-1` auf dem MacBook Pro. `/etc/nsmb.conf`.
+
+### Vorschlag Kalendereinträge
+
+**06.1** Heute 10:00 bis 10:30, «Cad Anpassungen per Bildschirmteilen» — **absagen**, Tschopp
+hat abgesagt. **06.2** Donnerstag 10.09. oder Freitag 11.09., Austausch Thalwil mit S. Tschopp
+über `stefan.tschopp@gmx.net`, nach seinem eigenen Vorschlag. **06.3** Samstag 19.09. 06:30,
+Estermann Schiebetüre und RHS — erst eintragen, wenn die Vorleistungen beim KISPI zugesagt sind.
+Nichts davon wurde eingetragen.
+
+### Token-Tempo
+
+Vortag 06.09.: MacBook Pro ohne Messdaten (kein Lauf), Mac Mini 39.7 Mio. Token für 24.46 USD
+API-Äquivalent, Summe beider Stationen 39.7 Mio. Token / 24.46 USD.
+
 ## Abo-Auslastung 06.09.2026 (18:0x, wöchentlicher Check Mac Mini) — SCHWARZ, ZWEITER Ausfall in Folge; Eskalation ausgelöst, Mail blieb im Entwurf hängen
 
 **Ampel SCHWARZ, kein Messwert.** Der Connector `connectors/claude-usage.mjs` scheitert

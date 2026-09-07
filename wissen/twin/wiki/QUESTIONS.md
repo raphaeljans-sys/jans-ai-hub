@@ -5760,3 +5760,50 @@ versichern.»
 *Konkret:* Kuendigst Du das bei jedem Erstkontakt an, oder war es hier die Dringlichkeit?
 *Warum:* Der Zwilling schliesst mit einem Angebot («bei Fragen …»). Wenn Du stattdessen die
 Nachfassung ankuendigst, ist das eine Endform mit klarem Ausloeser statt einer Floskel.
+
+## Selbstfragen 260907 (aus Mailbatch 115, Fenster 03.09.–06.09.2026)
+
+**#1 [Beziehungsregister] Warmer Gruss — haengt er am Register oder an der Gattung?**
+Zwei Fenster in Folge, neun Mails an vier bzw. vier Du-Kontakte, **null** «Lieber Gruss» /
+«Beste Gruesse» / «lgr» — ausschliesslich «Freundliche Grüsse». Im Januar-Material derselben
+Kontakte steht der warme Gruss regelmaessig.
+*Konkret:* Ist «Lieber Gruss» fuer Dich an eine Situation gebunden (Klaerung, Bitte an einen
+Einzelnen, Abschluss einer Sache) und nicht an die Person — oder hast Du die Formel schlicht
+seltener im Zugriff, seit der Verkehr ueber Outlook statt Apple Mail laeuft?
+*Warum:* Die DNA-Kernregel koppelt den warmen Gruss ans Du. Der Zwilling setzt ihn deshalb bei
+jedem Du-Kontakt und liegt im laufenden Ausfuehrungsverkehr in neun von neun Faellen daneben.
+
+**#2 [Beziehungsregister] «Geschätzter Christoph» an das Konto der Familie Tschopp — Fehlgriff?**
+04.09. 14:39 «Geschätzter Stefan,» und 04.09. 18:41 «Geschätzter Christoph» an dieselbe Adresse
+`fam_tschopp@…`; «Christoph» ist der Vorname des Bauherrenvertreters, dem Du am selben Morgen
+07:45 das Angebot geschrieben hast.
+*Konkret:* Ist die Anrede aus der Morgenmail verrutscht, oder gibt es hinter dem Familienkonto
+einen zweiten Adressaten dieses Vornamens?
+*Warum:* Falls verrutscht, ist es der erste belegte Fall einer zwischen zwei Vorgaengen
+desselben Tages wandernden Anrede — und ein konkreter Pruefschritt fuer den Harness: die Anrede
+gegen den Empfaenger pruefen, nicht gegen die zuletzt geschriebene Mail.
+
+**#3 [Arbeitsweise] Die Wochenliste an alle vier im An — Absicht oder Gewohnheit?**
+«Todo‘s kw37»: der ausfuehrende Unternehmer und drei Bauherren-Techniker stehen gemeinsam im
+An-Feld, keine Position ist einer Person zugeordnet.
+*Konkret:* Sollen alle vier die ganze Liste als gemeinsame Woche lesen — oder waere Dir die
+Zuordnung je Position lieber, wenn sie Dich nichts kostet?
+*Warum:* Der Zwilling erzeugt aus so einer Liste automatisch eine Pendenzenliste mit Spalte
+«Verantwortlich». Wenn die fehlende Zuordnung Absicht ist (gemeinsame Schuld statt Einzelschuld),
+darf er das nicht tun.
+
+**#4 [Stimme] Versalien als Dringlichkeitsstufe — bewusst?**
+Die achte und letzte Position der Wochenliste steht als einzige in Grossbuchstaben:
+«TERMIN STURZ LBW SCHIEBETÜRE».
+*Konkret:* Setzt Du Versalien gezielt fuer die eine Position, die nicht liegen bleiben darf?
+*Warum:* Der Zwilling markiert Dringlichkeit mit Woertern («dringend», «prioritaer»). Wenn
+Versalien Deine Form sind, ist das eine billige, gut nachbildbare Regel — wenn nicht, darf er sie
+nie erzeugen.
+
+**#5 [Fachsignatur] Ist das A)–E)-Geruest der Machbarkeitspruefung fest?**
+Ueberbaubarer Grund (Grenzabstaende) → Gebaeudehoehe → Geschosszahl → GF → HNF, mit Buchstaben
+statt Ziffern nummeriert.
+*Konkret:* Ist das Deine Standardgliederung fuer baurechtliche Zweitgutachten, die ich als
+Vorlage fuehren soll — oder aus diesem Fall heraus geschnitten?
+*Warum:* Als Vorlage waere sie sofort im Skill `machbarkeit` und in der KB `baurecht`
+verwendbar; als Einzelfall darf sie nicht verallgemeinert werden.

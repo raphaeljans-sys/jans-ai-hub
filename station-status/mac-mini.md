@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 07.09.2026 07:45:05
+Stand: 07.09.2026 07:55:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 07.09.2026 07:45:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4f8954eac nas-selfcommit: 2 Datei(en) 2026-09-07 07:45
+- baa3796bb ag-gruendung-monitor 07.09.2026: P1-Blocker Kapitaleinzahlung 17+ Tage überfällig
