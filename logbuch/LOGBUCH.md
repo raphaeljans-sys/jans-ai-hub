@@ -3,6 +3,98 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 07.09.2026 (08:0x, Tagesbriefing) — Radar und AG-Monitor haben heute NICHT gesendet; Briefing versandt, Thalwil-Entwurf bereit
+
+**Lauf-Vorbedingung.** `/Volumes/daten` war beim Session-Start nicht gemountet (LAN 192.168.1.10 nicht
+erreichbar, mobile Station). `scripts/ensure-nas-mounted.sh 120` hat ueber Tailscale geheilt, rc 0, vor
+jedem Schreibvorgang. Der Lauf startete um 07:55 statt 08:35.
+
+**Der Befund, der den Sendeentscheid traegt: heute frueh hat Raphael von keinem Loop etwas bekommen.**
+Gemessen um 08:0x im Konto Exchange, nicht fortgeschrieben:
+- Der **Radar-Abschnitt 07.09. 07:45** kuendigt im Logbuch ausdruecklich an, er melde «ausnahmsweise
+  selbst per Mail an rj@». **Eine solche Mail existiert nicht** — weder in «Gesendete Elemente» noch in
+  «Entwuerfe». Nur der Logbuch-Abschnitt ist da.
+- Die Mail des **ag-gruendung-monitor** liegt als **Entwurf 07.09.2026 07:51:49** («AG JANS: CHF 50'000
+  Kapitaleinzahlung KRITISCH ueberfaellig»), **unversendet**. Das ist derselbe Fehlermodus wie beim
+  Abo-Check am 06.09. (Lehre 260812f).
+- In den Gesendeten steht heute vor 08:00 einzig Raphaels eigene Antwort an L. Hiltmann (07:56).
+
+Damit war der Hub-Chef heute **faktisch der einzige Meldekanal**, und die 12:00-Frist Thalwil haette
+ihn ohne diesen Lauf nicht erreicht. Sendegruende erfuellt: P1-Blocker + operativer Befund + Entwurf
+bereit + Watchdog Exit 1.
+
+**Neuer eigener Befund (vom Radar heute NICHT gemeldet) — Steinbruechelstrasse, Abgabe Mittwoch 09.09.**
+Die Mail an C. Bopp vom **04.09.2026 09:45:41** an `christoph.bopp@novaproperty.ch` ging **mit null
+Anhaengen** hinaus. Inhalt am Original gelesen: Offerte «Zweitgutachten Baurecht» **CHF 1'800.00 exkl.
+MwSt pauschal** plus drei Bring-Schulden an Bopp (Bestaetigung Eigentum Kat.-Nr. WI3365 durch die
+Anlagestiftung; Grundbuchauszuege WI1585, WI3365, WI3366, WI1738 samt Dienstbarkeitsvertraegen;
+Eigentuemer der Wegparzelle WI3366). **Gegenprobe ueber den ganzen Posteingang, fuenf Tage: seit dem
+04.09. ist von `novaproperty.ch` nichts eingegangen.** Der fertige neunseitige Bericht liegt weiterhin
+unversendet im Entwurf vom 04.09. 08:53 (Anhang
+`260903-Baurechtliche-Machbarkeit-Steinbruechelstrasse-26-28.pdf`). Es haengen also gleichzeitig die
+Annahme der Offerte und die Grundlagen, die den Schluss schliessen — zwei Tage vor der Abgabe.
+
+**Gegenprobe, die einen Verdacht ausgeraeumt hat.** Der Entwurf «Meldung Baubeginn 07.09.2026 …
+(BE 1171/26)» vom 02.09. 17:53 sah nach einer liegengebliebenen Behoerdenmeldung mit heutigem
+Wirkungsdatum aus. Er ist es nicht: Empfaenger `markus.gantenbein2@zuerich.ch`, ein Anhang — und
+**dieselbe Meldung ging am 02.09.2026 18:02:36 an dieselbe Adresse hinaus** («KISPI PPTS: Meldung
+Baustart», ein Anhang). Der Entwurf ist die ueberholte Kopie, keine offene Pendenz.
+
+**Ausgefuehrte Whitelist-Aktionen**
+
+**A5 — Mail-Entwurf bereitgestellt.** Was: Antwort an S. Tschopp, Betreff «Thalwil: bereinigte Plaene
+und DXF heute, Termin 10:00 abgesagt», an `stefan.tschopp@gmx.net`, Aptos 12 pt.
+Ausloeser: seine Mails 05.09.2026 15:56 und 06.09.2026 06:42, Frist heute 12:00.
+Guards: Anrede nach `anrede-kontakte` (Tschopp = Du, «Geschaetzter Stefan» bei verbindlichem Ergebnis),
+`jans-dna-facetten` vor dem Erzeugen gelesen (Gruss nach Gattung → FG+Block), kein Gedankenstrich,
+echte Umlaute, keine erfundenen Zahlen. Nicht gesendet, weil der Kern eine Terminzusage ist, die nur
+Raphael geben kann, und weil eine Leistungsruege offen im Raum steht.
+Ergebnis: Entwuerfe 137 → **138**, Entwurf 07.09. 08:06:13, 1'678 Zeichen, Empfaenger verifiziert.
+Inhalt: Adress- und Anredefehler vom 04.09. eingeraeumt, beide beanstandeten Planfehler namentlich
+aufgenommen (Waschkueche 1. OG bleibt im Bestand, Zimmer 8/5 gemaess Baueingabebooklet, Gipskartonwand
+neu; Zimmertueren Bestand), Plaene und DXF **bis heute 12:00** zugesagt, Termin 10:00 abgesagt,
+Do 10.09. oder Fr 11.09. vorgeschlagen, Leistungsruege in drei Zeilen quittiert.
+**Offen fuer Raphael:** haelt 12:00 nicht, ist die eine Zeile vor dem Senden zu aendern.
+
+**A4 — Register und Logbuch gepflegt.** Dieser Eintrag; Fristen-Register um den Steinbruechel-Befund
+ergaenzt.
+
+**Nicht ausgefuehrt, bewusst.** Der Termin «Cad Anpassungen per Bildschirmteilen» (heute 10:00 bis
+10:30, Organisator rj@) bleibt stehen: A2 laesst die **Absage** bestehender Termine nur als Vorschlag
+zu. Keine Mahnaktion zu RE-00101 (CHF 6'000.00, mahnfaellig seit 16.08.) — der `--abgleich`-Guard ist
+nicht passierbar, `bexio.mjs --verzug` antwortet weiterhin **401** (Token laeuft erst am 13.12.2026 ab,
+die Session dahinter ist beendet), und neben der offenen Leistungsruege waere sie ohnehin der falsche
+Zug. Keine Zahlung zur AG-Gruendung, Verbotsliste.
+
+**Pflichtmessungen des Laufs**
+- `freigabe-status.sh --kurz`: «mac-mini: 0 · macbook-pro: 0», Exit 0.
+- `freigabe-status.sh --briefing`: «keine Eintraege ab 12 h in der Freigabe-Queue», Exit 0.
+- `stationen-watchdog.sh --briefing`: **Exit 1** — «macbook-pro: Herzschlag synctask-runner ist 2 Tage
+  11 h alt (Schwelle 3 h)». Das ist die mechanische Ursache des Aufsichtsausfalls vom 05./06.09., den
+  der Radar heute als «Ursache klaeren» offen liess, und es hat Aussenwirkung gehabt: in genau dieses
+  Fenster fielen Tschopps Eskalation und sein Nachfassen.
+- Sync-Queues `macbook-pro` und `mac-mini` leer, `remote-tasks/pending/macbook-pro` leer.
+- Kalender rj@ (Graph, 7 Tage): heute 09:15–09:45 «Abgleich Umbau PPTS» (C. Schaefer, KISPI),
+  heute 10:00–10:30 «Cad Anpassungen» (Organisator rj@, isCancelled false), Do 10.09. 13:00–14:00
+  Koordinationssitzung Gruner/Jans/KISPI, Mo 14.09. 09:15 «Abgleich Umbau PPTS». Sonst nichts.
+- Kein Konversations-Destillat fuer den 05., 06. und 07.09. — das juengste ist `260904-konversationen.md`.
+  Die Sektion «Aus unseren Gespraechen» entfaellt aus demselben Grund wie beim Radar.
+
+**Briefing versandt.** EINE Mail an rj@raphaeljans.ch ueber **Apple Mail** (Hauptweg, kein Ausweichen
+auf Graph noetig), Betreff «Hub-Chef 07.09.2026: Frist Thalwil 12:00, und heute frueh hat Dich kein Loop
+erreicht». **Gegenprobe in den Gesendeten:** 07.09.2026 **08:09:54**, Body **6'365 Zeichen**; Zustellung
+zusaetzlich im Posteingang belegt, **08:10:30**. Struktur nach Phase 6 inkl. Abschnitt «Wartet auf Deine
+Freigabe» mit der gemessenen Null.
+**Nebenbefund:** Apple Mail hat beim Senden eine Kopie in «Entwuerfe» stehen lassen (139 statt 138,
+Zeitstempel 08:09:54, identischer Betreff). Nicht geloescht (Verbotsliste). Die Entwurfszaehlung als
+Waechter ist dadurch fuer HTML-Sendungen ueber diesen Weg unscharf — der belastbare Beleg bleibt der
+Eintrag in den Gesendeten plus der Posteingang. Beobachten, ob sich das wiederholt.
+
+**Was Raphael heute selbst tun muss:** CHF 50'000 auf das UBS-Sperrkonto; DXF und bereinigte Plaene bis
+12:00 an `stefan.tschopp@gmx.net` (Entwurf liegt bereit); Termin 10:00 absagen; Entscheid, ob der
+Steinbruechel-Bericht heute an Bopp geht oder erst nach dessen Antwort; bis morgen der bexio-Abo-Entscheid;
+`/login` auf dem Mac Mini.
+
 ## AG-Gründung 07.09.2026 (07:50, Monitor-Scan) — Kapitaleinzahlung KRITISCH überfällig; kein Fortschritt seit 31.08.
 
 **Status quo gemessen (Monitor-Scan 07.09. 07:50):** Keine neuen Mails in mail@/rj@ seit **31.08.2026 00:00** (sieben Tage Stillstand). Monitor funktioniert jetzt wieder (osascript-Blockade 28.08.–01.09. behoben).

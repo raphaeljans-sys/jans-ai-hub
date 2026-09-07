@@ -1,5 +1,42 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 80 (07.09.2026) — die Ersatzmassnahmen-Matrix ist aufgenommen; drei Punkte bleiben offen
+
+**Betrifft `destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md`.** Run 79 hatte zwei
+Teile ausdrücklich offen gelassen (Ersatzmassnahmen-Matrix S. 23, Zell-für-Zell-Messung der
+Tabellen 2 und 3). Beide sind erledigt. Was dabei neu aufgegangen ist:
+
+**N80-1 — Der Bildvergleich der Fassungen ist erst auf zwei von fünf angekündigten
+Anhangseiten gefahren.** Die Änderungsliste auf S. 2 der Fassung 01.01.2017 nennt für den
+Anhang die Seiten **22-23, 27, 33 und 34**. Run 80 hat den Bildvergleich auf S. 22-23 gefahren
+und dort belegt, dass der Volltextvergleich von Run 7 die Seite strukturell nicht messen
+konnte — die Matrix hat gar keinen Textlayer. Für **S. 27 und S. 34** steht im Destillat
+weiterhin «inhaltlich unverändert», gestützt allein auf jenen Volltextvergleich. S. 33 wurde
+in Run 7 inhaltlich korrigiert und ist damit belegt, S. 27 und S. 34 nicht. **Das ist der
+naheliegendste nächste Lauf auf dieser Quelle**, und er ist billig: das Verfahren steht in
+`training/n80-matrix-ersatzmassnahmen-260907.md` Ziff. 7.
+
+**N80-2 — Die Refuter-Richtung ist auf keinem Nachtrag der Runs 79 und 80 gelaufen.** Alles,
+was diese beiden Läufe ergänzt haben, stammt aus der Abdeckungs- bzw. Messrichtung. Die vom
+Hauptprozess am Original nachgemessenen Punkte sind belegt; die übrigen tragen ein
+Agenten-Verdikt. Solange das so bleibt, ist eine Hebung des Destillats auf `established` nach
+Methodik-Pflicht 13 nicht begründbar.
+
+**N80-3 — Die Definition der Beherbergungskategorien steht auf einer `superseded`-Fassung.**
+Die für die Tabellen entscheidende **20-Personen-Schwelle** ([a] Krankenhäuser und
+Pflegeheime, [b] Hotels, [c] abgelegene Betriebe) führt die KB in
+`vkf-brl-10-15-begriffe-definitionen` — aus der Bestandsfassung **01.01.2015**, die als
+`superseded` geführt wird; geltend ist **01.01.2019**. Das Delta-Destillat zur Fassung 2019
+vermerkt zu diesem Begriff keine Änderung, ist selbst aber `speculative`. Der Punkt ist im
+Destillat mit Fassungsvorbehalt gesetzt, nicht geschlossen. Er ist grösser als diese eine
+Datei: die Schwelle entscheidet, ob ein Pflegeheim überhaupt in die strengere Zeile [a] fällt.
+
+**Kein Befund, sondern eine Bestätigung (Methodik-Pflicht 7/10):** die Suche nach der
+[a]/[b]/[c]-Definition sah zunächst nach einer Lücke der KB aus. Sie war vorhanden, nur nicht
+verlinkt. Richtig protokolliert lautet das Ergebnis deshalb nicht «die KB hatte es nicht»,
+sondern «die KB hatte es, ohne dass die zitierende Datei es fand» — die Verlinkung ist gesetzt.
+
+
 
 ## Cross-KB-Eingang aus `wissen/koordination` (Synergie-Lauf 28, 04.09.2026) — die Praxisfolge des Run-78-Kernbefunds nennt eine Bezugsgroesse, die sie nicht tragen kann
 
