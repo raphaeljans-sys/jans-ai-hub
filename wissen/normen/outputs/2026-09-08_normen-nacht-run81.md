@@ -177,3 +177,30 @@ Alle Änderungen an gewachsenen, geteilten Dateien sind **anker-basiert** vorgen
 Anker per Assertion genau ein Treffer erzwungen); `wiki/QUESTIONS.md`, `CHANGELOG.md` und
 `training/norm-inventar.md` wurden rein additiv geschrieben. Kein globales Suchen-und-Ersetzen.
 
+| Datei | + | − | Bewertung |
+|---|---|---|---|
+| `destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md` | 10 | 5 | **alle 5 einzeln im Diff nachgesehen**: `gelesen`, `last_updated`, die widerlegte Delta-Zeile zu S. 27/34, die Zeile «Anhang (S. 18-35)» der Abdeckungstabelle und Punkt 2 der Liste «Was ungeprüft bleibt» — jede durch eine erweiterte Fassung ersetzt, keine ersatzlos entfernt |
+| `CHANGELOG.md` | 43 | **0** | rein additiv |
+| `wiki/QUESTIONS.md` | 45 | **0** | Einschub nach der H1, append-only sauber |
+| `training/norm-inventar.md` | 2 | **0** | append-only sauber |
+| `training/n81-fassungsvergleich-260908.md` | neu | — | die Messanlage |
+| `outputs/…run81.md` | neu | — | dieser Report |
+
+**Kein Bestandsverlust.** Zwei Gegenproben: (a) die Zahl der Überschriften im Destillat bleibt bei
+**18**, die Zeilenzahl steigt von 262 auf 267 — nur Zuwachs, keine entfernte Sektion. (b) Zwölf
+Kernformulierungen früherer Läufe wurden nach den Edits einzeln gegengesucht und sind alle noch
+vorhanden («Ersatzmassnahmen», «Nebenbauten», «Brandmauer», «9'600», «Retro-Verifikation»,
+«3.1.2 Abs. 3», «Brüstung als Schutzstreifen», «35 m», «Mineralwolle», «20 Personen»,
+«Variante F», «k. A.»).
+
+**Umlaute:** die in diesem Lauf geschriebenen Passagen tragen echte ä/ö/ü (Rule
+`umlaute-konvention`). Zwei eigene «ue»-Schreibungen im Frontmatter wurden noch im Lauf gefunden
+und korrigiert. Verbleibende ae/oe/ue-Vorkommen der Dateien stammen aus dem Altbestand und aus
+Dateinamen-Referenzen, die ASCII bleiben müssen.
+
+**Eine Randnotiz aus der eigenen Prüfung, weil sie zum Thema des Laufs gehört.** Die erste
+Umlaut-Kontrolle am Mount meldete «sauber» und war es nicht: der Filter schloss Zeilen mit
+`brandschutzabstaende` aus, um die Dateinamen-Referenzen zu unterdrücken — und der Dateiname steht
+in derselben Zeile wie der Fehler. **Ein leeres Suchergebnis ist zuerst eine Aussage über das
+Werkzeug** (Rule `wege-und-vollmachten`, `auto-verbesserungen` 260730b). Gefunden hat es die
+zweite, nativ per ssh gefahrene Messung — also genau die Doppelmessung, die Rule 260811 verlangt.
