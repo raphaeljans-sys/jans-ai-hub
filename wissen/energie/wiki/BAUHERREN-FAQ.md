@@ -9663,3 +9663,13 @@ Zertifizierbare Bauvorhaben sind **Neubau und Erneuerung**; bei der Erneuerung k
 **Bauherren-Transfer:** Prüfmerkmal ist nicht die Versionsnummer, sondern **Seitenzahl, Dateigrösse und der Änderungsanhang (Anhang B)** am Dokumentende. Vor dem Zertifizierungsentscheid und vor jeder Devis-Runde lohnt der Blick, ob die abgelegte Fassung noch die verlinkte ist; die Datei neu herunterzuladen kostet eine Minute. Das gilt sinngemäss für alle Minergie-Nachweisdokumente, nicht nur für den Zusatz ECO.
 
 **Quelle:** Eigener Fassungsvergleich am 06.09.2026 (Download beider Dateien, `pdftotext`-Volltextvergleich der 220er-Reihe, Anhang B beider Fassungen) → `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, Frontmatter `ausgabe` und Abschnitt «Fassungs-Diff». Datenstand 06.09.2026. Verwandt: [[F274]].
+
+## F282 — «Müssen wir bei Minergie-ECO für die Umgebung wirklich 80 % der Fläche naturnah gestalten, oder reichen 30 %?»
+
+**Kurz:** 80 %. Eine ältere Kopie des Vorgabenkatalogs mit «mind. 30 %» ist nachweislich falsch — der Herausgeber selbst führt das im Änderungsanhang als Tippfehler.
+
+**Fachlich:** Vorgabe 230.01 Umgebungsgestaltung verlangt bei Neubauten und Erneuerungen gleichermassen, dass die erfassten bestehenden Naturwerte **zu mindestens 80 % erhalten oder gleichwertig ersetzt** werden, dass mindestens 80 % der Bäume mit Stammumfang über 80 cm erhalten bleiben und dass mindestens 80 % der Belagsflächen bzw. der neu verwendeten Pflanzenarten die entsprechenden Kriterien (versickerungsfähig bzw. einheimisch/standorttypisch) erfüllen. Anhang B der geltenden Fassung datiert die Korrektur auf den 19.01.2026: die vorher zirkulierende Bezugsgrösse «mind. 30 % der Umgebungsfläche (m²)» war ein Tippfehler und wurde auf 80 % korrigiert, «wie in der Vorgängerversion und den anderen enthaltenen Kriterien». Die 30-%-Fassung stand also nie im Einklang mit dem übrigen Vorgabentext, der durchgehend 80 % verlangt. Liegt der Gebäudefussabdruck auf dem gesamten Grundstück, kann die Vorgabe mit N/A beantwortet werden; alternativ genügt ein Zertifikat der Stiftung Natur & Wirtschaft.
+
+**Bauherren-Transfer:** Wer ein Devis oder eine Vorstudie mit der 30-%-Schwelle im Umlauf hat (eigenes Muster oder ein von einem Planer wiederverwendetes älteres Dokument), plant mit einem nachweislich falschen Wert und würde bei der Zertifizierung durchfallen. Vor dem nächsten Umgebungskonzept lohnt der Blick ins aktuelle Anhang B, nicht nur in den Vorgabentext selbst.
+
+**Quelle:** Vorgabenkatalog Zusatz ECO, Nachweisversion 2023.1, geltende Fassung Dokumentstand 01.07.2026, Vorgabe 230.01 und Anhang B (S. 91-93, 107/109), am 07.09.2026 im Volltext gelesen → `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`. Datenstand 07.09.2026. Verwandt: [[F281]].

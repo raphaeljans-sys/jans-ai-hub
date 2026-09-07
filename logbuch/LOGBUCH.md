@@ -11443,3 +11443,41 @@ Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). Commit na
 `nas-commit-now.sh` ausgelöst.
 
 Budget rund 1.9 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-07 02:30 Nachtschicht Mac Mini — energie: 230er-Reihe/Klimaresilienz destilliert, E-R182-3 ohne neuen Volltext geloest
+
+Prioritäten 1-3 (remote-tasks/sync-tasks Mac Mini, Synobsis Stufe 2, Fristen-Register) ohne
+neuen Punkt: `remote-tasks/pending/` und `sync-tasks/mac-mini/` leer; `architekten-synobsis`
+seit 13.07.2026 auf 853/853 gesättigt, Embeddings seit 01.09. aktuell; die zwei offenen
+Fristen-Punkte (Steinbrüchelstrasse-Versand, KISPI-Jegen-Freigabe) sind bereits als Aktion
+Raphael im Register vermerkt, kein neuer Entwurf nötig. Priorität 4 (Trainingslektion): einziges
+freies Ziel weiterhin `energie` (baurecht/normen/planungsgrundlagen/wettbewerbs-dna/grobkosten
+per eigenem Taktgeber bzw. Endbedingung ausgeschlossen, projekt-lessons ausgesetzt) — Run 182
+(06.09., 22:55-Slot) hatte als offenen Punkt E-R182-2 «nächster Ansatzpunkt 230er-Reihe» sowie
+E-R182-3 (130.x/210.x gegen die geltende Fassung nicht gediffed) hinterlassen.
+
+Vorgabenkatalog Zusatz ECO (geltende Fassung, Dokumentstand 01.07.2026) per eigenem curl+pdftotext
+erneut geladen, S. 91-104/109 vollständig gelesen: die zehn Vorgaben der Rubriken «Biodiversität
+und Wasserkreislauf» (230.01-230.08) und «Klimaresilienz» (240.01-240.02). Kernbefund: die
+einzige im Änderungsanhang B ausgewiesene Korrigenda bestätigt sich als reiner Tippfehler —
+230.01 Umgebungsgestaltung verlangt durchgehend mind. 80 % (nicht 30 %) bei allen vier
+Bezugsgrössen. Zwei Ausschlussvorgaben identifiziert (230.04 Schwermetallbleche, 100 % Pflicht);
+240.02 Dachbegrünung verschärft SIA 312 um +3 cm Substratdicke und +15 l/m² Wasserkapazität.
+Neues Destillat-Kapitel in `minergie-eco-vorgabenkatalog-standard-2023-1.md`; gewachsen:
+`wiki/dachbegruenung-gruendach.md` und `wiki/regenwasserbewirtschaftung-versickerung-zh.md`
+(Kernaussagen beider `established`-Artikel unverändert), FAQ **F282** neu.
+
+E-R182-3 zusätzlich gelöst, ohne einen zweiten Volltext-Diff zu fahren: Anhang B listet jede
+inhaltliche Änderung der Nachweisversion 2023.1 nach Vorgabe und Datum; für 130.x/210.x trägt
+die Tabelle zwischen 23.01.2025 und 01.07.2026 keinen Eintrag, nur den generischen
+Link-Fix-Vermerk — beide Abschnitte damit als unverändert bestätigt.
+
+Neu offen: E-R183-1 (Rest ~20 Vorgaben, nächster Ansatzpunkt 110.x/120.x wegen zwei dort
+dokumentierten, noch am Volltext zu verifizierenden Änderungen), E-R183-2 (E-R182-4 fehlender
+Laufbericht Run 181 weiterhin unrekonstruiert). QUESTIONS.md, destillate/INDEX.md, CHANGELOG.md
+nachgeführt; Laufbericht `outputs/2026-09-07_energie-run183.md`.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). Commit nativ über
+`nas-commit-now.sh` ausgelöst.
+
+Budget rund 3.9 von 5 USD. Zyklus sauber beendet.

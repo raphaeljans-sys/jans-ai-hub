@@ -1,5 +1,36 @@
 # CHANGELOG
 
+## 2026-09-07 — Run 183 (Nachtschicht Mac Mini): 230er-Reihe/Klimaresilienz destilliert; E-R182-3 ohne neuen Volltext geloest
+
+- **Bearbeitet:** E-R182-2 (Teil 230er-Reihe/Klimaresilienz) und E-R182-3 (Anhang-B-Abgleich
+  130.x/210.x). Beide geschlossen; Rest von E-R182-2 laeuft als E-R183-1 weiter.
+- **Block 1 (Transfer):** `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` um die
+  vollstaendige Rubrik «Biodiversitaet und Wasserkreislauf» (230.01-230.08) und «Klimaresilienz»
+  (240.01-240.02) erweitert, gelesen an der geltenden Fassung Dokumentstand 01.07.2026 (S. 91-104
+  von 109), per eigenem curl+pdftotext. Frontmatter (`gelesen`, `datenstand`, `verifikation`,
+  `last_updated`) nachgefuehrt.
+- **Fachbefund:** Die einzige im Aenderungsanhang B ausgewiesene Korrigenda der Fassung bestaetigt
+  sich als reiner Tippfehler — 230.01 Umgebungsgestaltung verlangt durchgehend **mind. 80 %** (nicht
+  30 %) bei allen vier Bezugsgroessen. Zwei Ausschlussvorgaben identifiziert (230.04
+  Schwermetallbleche, 100 % Pflicht); 230.06 Biozidfreie Gebaeudehuelle ist abgestuft (1/2 Punkte).
+  240.02 Dachbegruenung verschaerft SIA 312 um +3 cm Substratdicke und +15 l/m² Wasserkapazitaet.
+  240.01 Albedo nimmt PV-Flaechen aus der Berechnung heraus.
+- **Methodischer Fund (E-R182-3):** Anhang B listet jede inhaltliche Aenderung der Nachweisversion
+  2023.1 nach Vorgabe und Datum. Fuer 130.01-130.07 (Schallschutz, Run 180) und 210.01/210.02
+  (Graue Energie/THGE, Run 181) traegt die Tabelle zwischen dem 23.01.2025-Stand dieser Laeufe und
+  dem 01.07.2026-Stand der geltenden Fassung **keinen Eintrag** — beide Abschnitte damit als
+  unveraendert bestaetigt, ohne einen zweiten Volltext lesen zu muessen. Der Aenderungsanhang selbst
+  ist hier der guenstigere Beleg als ein erneuter Diff.
+- **Block 2 (Verdichtung):** `wiki/dachbegruenung-gruendach.md` (neuer Abschnitt ECO-Zusatzanforderung
+  240.02) und `wiki/regenwasserbewirtschaftung-versickerung-zh.md` (neuer Abschnitt: ECO-Schwelle
+  230.04 vs. kantonale ZH-Adsorberpflicht, nicht verwechseln; 230.07 als Punktevorgabe) gewachsen,
+  Frontmatter/sources/links nachgefuehrt, Kernaussagen beider `established`-Artikel unveraendert.
+  **FAQ F282** neu (Korrigenda 230.01). `destillate/INDEX.md` nachgefuehrt.
+- **Neu offen:** E-R183-1 (Rest ~20 Vorgaben: 110.x/120.x/140.x Gesundheit, 250.01 Innovation;
+  naechster Ansatzpunkt 110.x/120.x wegen zwei dort dokumentierten, noch am Volltext zu
+  verifizierenden Aenderungen), E-R183-2 (E-R182-4 fehlender Laufbericht Run 181 weiterhin offen).
+- **Sichern:** NAS-Repo nativ committet via `nas-commit-now.sh`.
+
 ## 2026-09-06 — Run 182: 220er-Reihe Kreislaufwirtschaft destilliert; die Versionsnummer des Herausgebers taugt nicht als Aktualitaetsbeweis
 
 - **Bearbeitet:** E-R181-1 (220er-Reihe) und E-R180-2 (Sechste Pruefung, nachgeholt). Beide

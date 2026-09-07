@@ -2,12 +2,12 @@
 quelle: "Vorgabenkatalog Zusatz ECO — Alle zertifizierbaren Gebäudekategorien, Nachweisversion 2023.1 — https://www.minergie.ch/media/250123_vorgabenkatalog_eco_alle_gebaudekategorien_v2023.1_de_1.pdf — 102 Seiten, öffentlich abgerufen 06.09.2026"
 herausgeber: "Verein ecobau (Inhalt/Urheberrecht) gemeinsam mit Minergie Schweiz (Zertifizierungsträger)"
 ausgabe: "Nachweisversion 2023.1. ⚠ **Zwei Dateifassungen derselben Nachweisversion — korrigiert Run 182, 06.09.2026.** Run 180/181 destillierten die Datei `250123_vorgabenkatalog_eco_alle_gebaudekategorien_v2023.1_de_1.pdf` (704'047 Bytes, 102 Seiten, Titelblatt-Dokumentstand 23.01.2025). Die Minergie-Website verlinkt am 06.09.2026 jedoch **nicht** diese Datei, sondern `vorgabenkatalog-eco-alle-gebaeudekategorien-v2023-1_2.pdf` (733'748 Bytes, **109 Seiten, 59 Vorgaben**, Anhang B mit Nachträgen bis **01.07.2026**). Die alte URL liefert weiterhin HTTP 200, ist aber nicht mehr verlinkt. Die im Frontmatter von Run 180 stehende Aussage, die Website verlinke «exakt diese Datei», ist damit widerlegt. Massgeblich ist die Fassung mit Dokumentstand 01.07.2026"
-gelesen: "teilweise — Einführungskapitel (S. 4-7), Sektion Schallschutz und Raumakustik 130.01-130.07 (S. 32-41, Run 180) und Vorgaben 210.01/210.02 Graue Energie/THGE Erstellung inkl. FAQ (S. 50-53, Run 181), beide an der Fassung 23.01.2025; **vollständige 220er-Reihe Gebäudekonzept und Kreislaufwirtschaft 220.01-220.11 und 220.50 (S. 71-91/109, Run 182, 06.09.2026) an der geltenden Fassung 01.07.2026**, dazu der vollständige normalisierte Fassungs-Diff der 220er-Reihe zwischen beiden Dateifassungen und Anhang B beider Fassungen. NICHT gelesen: die übrigen ~39 Vorgaben zu RLT-Anlagen/Strahlung, Schadstoffen, Tageslicht, Innovation (Gesundheit) sowie Biodiversität/Wasserkreislauf, Klimaresilienz, Innovation Ökologie und die 230er-Reihe — Fortsetzung für künftige Läufe vorgesehen"
-datenstand: "**01.07.2026** (Dokumentstand der geltenden Fassung; Zwischenstände 19.01.2026 und 23.01.2025). Die Abschnitte zu Schallschutz 130.01-130.07 (Run 180) und Graue Energie/THGE 210.01/210.02 (Run 181) wurden an der älteren Fassung 23.01.2025 gelesen; für die 220er-Reihe (Run 182) wurde die geltende Fassung verwendet und der Fassungs-Diff ausgewiesen. Vorgaben-Inhalte gültig ab 13.09.2023 analog Produktreglement"
+gelesen: "teilweise — Einführungskapitel (S. 4-7), Sektion Schallschutz und Raumakustik 130.01-130.07 (S. 32-41, Run 180) und Vorgaben 210.01/210.02 Graue Energie/THGE Erstellung inkl. FAQ (S. 50-53, Run 181), beide an der Fassung 23.01.2025; **vollständige 220er-Reihe Gebäudekonzept und Kreislaufwirtschaft 220.01-220.11 und 220.50 (S. 71-91/109, Run 182, 06.09.2026)** sowie **vollständige 230er-Reihe Biodiversität/Wasserkreislauf 230.01-230.08 und Klimaresilienz 240.01-240.02 (S. 91-104/109, Run 183, 07.09.2026)**, beide an der geltenden Fassung 01.07.2026, dazu der vollständige normalisierte Fassungs-Diff der 220er-Reihe zwischen beiden Dateifassungen und Anhang B beider Fassungen. NICHT gelesen: die übrigen ~29 Vorgaben zu RLT-Anlagen/Strahlung, Schadstoffen, Tageslicht (Gesundheit, 110.x/120.x/140.x) sowie Innovation Ökologie (250.01) — Fortsetzung für künftige Läufe vorgesehen"
+datenstand: "**01.07.2026** (Dokumentstand der geltenden Fassung; Zwischenstände 19.01.2026 und 23.01.2025). Die Abschnitte zu Schallschutz 130.01-130.07 (Run 180) und Graue Energie/THGE 210.01/210.02 (Run 181) wurden an der älteren Fassung 23.01.2025 gelesen, per Anhang-B-Abgleich (Run 183) aber als inhaltlich unverändert gegenüber der geltenden Fassung bestätigt; für die 220er- und 230er/240er-Reihe (Run 182/183) wurde die geltende Fassung direkt verwendet und der Fassungs-Diff ausgewiesen. Vorgaben-Inhalte gültig ab 13.09.2023 analog Produktreglement"
 status: emerging
 geltungsbereich: "Einzelagenten-Lauf, kein Refuter-Panel — noch nicht durch eine zweite, unabhängige Prüfinstanz gegengelesen. Nur der gelesene Teilumfang (siehe 'gelesen') ist durch dieses Destillat gedeckt"
-verifikation: "eigener curl-Download + pdftotext -layout-Volltextextraktion der Originalquelle am 06.09.2026; alle unten zitierten Werte direkt aus dem extrahierten Text übernommen, keine Paraphrase der Zahlen"
-last_updated: 2026-09-06
+verifikation: "eigener curl-Download + pdftotext -layout-Volltextextraktion der Originalquelle am 06.09.2026 (Run 182) bzw. 07.09.2026 (Run 183); alle unten zitierten Werte direkt aus dem extrahierten Text übernommen, keine Paraphrase der Zahlen"
+last_updated: 2026-09-07
 ---
 
 # Destillat — Vorgabenkatalog Zusatz ECO, Standard alle Gebäudekategorien (Nachweisversion 2023.1)
@@ -312,17 +312,96 @@ Stellen inhaltlich. Ermittelt durch vollständigen normalisierten Textvergleich 
   Punkte), keine Pflicht. Wer die Neubau-Anforderung ungeprüft auf ein Umbauprojekt überträgt,
   verteuert das Projekt ohne Zertifizierungsgrund.
 
+## Die 230er-Reihe und Klimaresilienz: Biodiversität, Wasserkreislauf, Hitzeminderung (Run 183, 07.09.2026)
+
+Zehn Vorgaben, gelesen an der **geltenden Fassung** (Dokumentstand 01.07.2026, S. 91-104/109):
+die acht Vorgaben der Rubrik «Biodiversität und Wasserkreislauf» (230.01-230.08) und die zwei
+Vorgaben der Rubrik «Klimaresilienz» (240.01-240.02). Zusammen bilden sie den Aussenraum- und
+Hitzeminderungs-Teil des Zusatzes ECO — die Stelle, an der das Grundstück selbst, nicht nur das
+Gebäude, in die Bewertung kommt.
+
+### Übersicht: Typ, Punkte, Bezugsgrösse
+
+| Nr. | Vorgabe | Typ | Punkte | Bezugsgrösse / 80-20-Regel |
+|---|---|---|---|---|
+| **230.01** | Umgebungsgestaltung | normal | 3 | 80/20: **mind. 80 %** Umgebungsfläche, Belagsflächen, einheimische Pflanzenarten |
+| 230.02 | Tierfreundliche Gestaltung | normal | 2 | 80/20 nicht anwendbar |
+| 230.03 | Bodenschutz | normal | 2 | 80/20 nicht anwendbar |
+| **230.04** | **Schwermetallhaltige bewitterte Bauteile: Bedachung/Fassade/Abschluss (A)** | **Ausschluss** | **100 % Pflicht** | 80/20 nicht anwendbar; grossflächig = Dach >10 % oder >50 m², Fassade >300 m², Rinnen >100 m |
+| 230.05 | Schwermetallhaltige Bauteile ausserhalb Gebäudehülle | normal | 1 | wie oben, aber höhere Schwellen (150 m² / 200 m) |
+| 230.06 | Biozidfreie Gebäudehülle | abgestuft | 1 / 2 | 80/20 Bezugsgrösse Fassadenfläche bzw. Total abzudichtende Flächen |
+| 230.07 | Ökologischer Umgang mit Regen- und Grauwasser | normal | 2 | 80/20 nicht anwendbar; bei Gebäuden ohne Umgebung N/A |
+| 230.08 | Wassersparende Apparate und Armaturen | normal | 1 | 80/20 mind. 80 % fest montierte Apparate/Armaturen (Anzahl) |
+| 240.01 | Oberflächen mit geringem Erwärmungspotenzial (Albedo) | normal | 2 | 80/20 nicht anwendbar |
+| 240.02 | Dach- und Fassadenbegrünungen | abgestuft | 1 / 3 | 80/20 getrennt: Dach mind. 80 %, Fassade mind. 80 % der begrünbaren Fläche |
+
+### Kernbefund: die Anhang-B-Korrigenda bestätigt sich als reiner Tippfehler
+
+Anhang B nennt für 230.01 (Änderungsdatum 19.01.2026) ausdrücklich: die alte Bezugsgrösse
+«mind. 30 % der Umgebungsfläche (m²)» war ein Tippfehler, korrigiert auf **«mind. 80 %»** — wie
+in der Vorgängerversion und den übrigen Kriterien derselben Vorgabe. Der Volltext der geltenden
+Fassung bestätigt das lückenlos: alle vier dort genannten Bezugsgrössen (erfasste Naturwerte,
+Bäume >80 cm Stammumfang, Anteil regionaler Materialien, einheimische Pflanzenarten) verlangen
+einheitlich 80 %, kein Wert liegt bei 30 %. **Bauherren-Transfer:** eine ältere Kopie des
+Katalogs oder ein wiederverwendetes Devis-Muster mit der 30-%-Schwelle schreibt eine Vorgabe
+aus, die drei Viertel unter dem tatsächlich verlangten Wert liegt — bei der Zertifizierung würde
+das durchfallen.
+
+### Zwei Ausschlussvorgaben, eine Randvariante
+
+**230.04** verlangt zu 100 %: kein grossflächiger Einsatz bewitterter blanker Kupfer-,
+Titanzink- oder verzinkter Stahlbleche sowie bleihaltiger Materialien ohne Metallfilter.
+Typische Fundstellen: Dachrinnen, Firstausbildungen, Lukarnen-, Balkon- und Kaminbekleidungen.
+Vorbewitterte Bleche gelten als blank; Beschichtungen brauchen SIA 263/1-Konformität und
+Korrosivitätskategorie C3 (EN 12944) mit >25 Jahren Lebensdauer. Gebäude an dauerhafter
+Mischkanalisation ohne bleihaltige Bauteile erfüllen die Vorgabe automatisch, ohne Metallfilter.
+**230.05** ist die entschärfte Randvariante für Bauteile ausserhalb der Gebäudehülle (Geländer,
+Gitterroste): keine Ausschlussvorgabe, nur 1 Punkt, deutlich höhere Flächen-/Längenschwellen.
+
+### Bauherren-Transfer
+
+- **Für Projekte ohne nennenswerte Umgebung (Gebäudefussabdruck = Grundstück) entfallen zwei
+  Vorgaben automatisch:** 230.01 (N/A laut Anleitung) und 230.07 (N/A bei «Gebäuden ohne
+  Umgebung»). Ein Innenstadt-Ersatzneubau ohne Vorgarten verliert damit real erreichbare
+  Punkte, ohne dass ein Fehler vorliegt.
+- **230.06 Biozidfreie Gebäudehülle ist zweistufig verhandelbar:** Stufe 1 (nur Fassadenaufbau
+  oder nur Abdichtungen ohne Biozide, 1 Punkt) reicht, wenn eine Bitumen-Dichtungsbahn mit
+  chemischem Wurzelschutz technisch nötig bleibt — Stufe 2 verlangt beides zugleich.
+- **240.02 Dachbegrünung ist strenger als die SIA-Norm 312 allein:** die minimale
+  Vegetationstragschichtdicke muss gegenüber SIA 312 Tabelle 2 um **3 cm** und die minimale
+  relevante Wasserkapazität um **15 l/m²** erhöht werden; ab 100 m² Dachfläche sind
+  unterschiedliche Substrattypen und mindestens zwei Strukturelemente (SIA 312 Anhang A)
+  gefordert, je weitere 100 m² ein zusätzliches. Ein Bauherr, der nur den SIA-312-Mindestaufbau
+  ausschreibt, verfehlt die ECO-Vorgabe.
+- **240.01 Albedo nimmt PV-Flächen aus der Rechnung heraus:** PV-Dächer und -Fassaden gelten
+  automatisch als erfüllt und müssen nicht in die flächengewichtete Albedo-Berechnung
+  einbezogen werden — relevant für Projekte, die ohnehin eine grosse PV-Fläche planen.
+
+### Bezug zu bestehenden Wiki-Artikeln
+
+`[[dachbegruenung-gruendach]]` (240.02, Substratschicht-Verschärfung nachgetragen) und
+`[[regenwasserbewirtschaftung-versickerung-zh]]` (230.07, ECO als Zusatzanreiz neben der
+ZH-Pflicht nachgetragen) sind die fachlich nächsten bestehenden Artikel; für 230.02-230.06 und
+240.01 existiert noch kein eigener Themenartikel (offen, siehe unten).
+
 ## Offene Punkte für Folgeläufe
 
-- Die übrigen rund 39 Vorgaben sind noch nicht destilliert: Gesundheit/Komfort (RLT-Anlagen und
-  Strahlung 110.x, Schadstoffe 120.x, Tageslicht/Aktivierung 140.x, Innovation) sowie aus der
-  Ökologie die 230er-Reihe (Umgebungsgestaltung, Biodiversität/Wasserkreislauf, wassersparende
-  Apparate), Klimaresilienz und Innovation Ökologie. Erledigt: Schallschutz 130.x (Run 180),
-  210.01/210.02 (Run 181), 220er-Reihe vollständig (Run 182). **Nächster Ansatzpunkt: die
-  230er-Reihe** — dort steht mit 230.01 Umgebungsgestaltung die einzige im Anhang B ausgewiesene
-  *Korrigenda* der neuen Fassung («mind. 30 % der Umgebungsfläche» war laut Anhang B ein Tippfehler
-  und wurde auf **mind. 80 %** korrigiert), also ein Wert, der in der älteren Fassung nachweislich
-  falsch steht.
+- Die übrigen rund **29 Vorgaben** sind noch nicht destilliert: Gesundheit/Komfort (RLT-Anlagen
+  und Strahlung 110.x, Schadstoffe 120.x, Tageslicht/Aktivierung 140.x) und Innovation Ökologie
+  (250.01). Erledigt: Schallschutz 130.x (Run 180), 210.01/210.02 (Run 181), 220er-Reihe
+  vollständig (Run 182), **230er-Reihe und Klimaresilienz vollständig (Run 183)**. **Nächster
+  Ansatzpunkt: 110.x/120.x** (Gesundheit/Komfort, Anhang B nennt dort zwei materielle Änderungen
+  vom 23.01.2025 — NIS-Zonenplan-Präzisierung und der Wegfall des TEP-Flammschutzmittel-Kriteriums
+  bei Dämmstoffen —, beide bereits am 23.01.2025-Stand, also gegen die geltende Fassung noch zu
+  verifizieren).
+- ✓ **E-R182-3 erledigt Run 183 (07.09.2026), ohne erneuten Volltext-Diff:** Anhang B (S. 107-109
+  der geltenden Fassung) listet **jede** inhaltliche Änderung der Nachweisversion 2023.1 nach
+  Vorgabe-Nummer und Datum. Für **130.01-130.07** (Schallschutz) und **210.01/210.02** (Graue
+  Energie/THGE Erstellung) trägt die Tabelle zwischen dem 23.01.2025 (Stand von Run 180/181) und
+  dem 01.07.2026 (geltende Fassung) **keinen einzigen Eintrag** — die einzige 01.07.2026-Zeile ist
+  generisch («Verbesserungen ohne inhaltliche Änderungen, z.B. Aktualisierung und Reparatur von
+  Links»). Beide Abschnitte sind damit inhaltlich unverändert, ohne dass ein zweiter Volltext
+  gelesen werden musste — der Änderungsanhang selbst ist der günstigere Beleg.
 - Kein Refuter-Panel durchlaufen (Einzelagenten-Lauf) — Status bleibt `emerging`, bis eine zweite
   Prüfinstanz die zitierten Zahlen unabhängig gegengelesen hat.
 - ✓ **Erledigt Run 182 (06.09.2026):** Die Sechste Prüfung wurde nachgeholt (offener Punkt
@@ -331,5 +410,6 @@ Stellen inhaltlich. Ermittelt durch vollständigen normalisierten Textvergleich 
   Datei — siehe Frontmatter `ausgabe`. **Methodische Lehre:** bei diesem Herausgeber genügt der
   Abgleich der Versionsnummer nicht, weil er den Dokumentstand nachführt, ohne die Version neu zu
   nummerieren. Prüfmerkmal ist die **Dateigrösse/Seitenzahl plus Anhang B**, nicht die Versionsnummer.
-- Weiterhin kein Refuter-Panel für die 220er-Werte (Einzelagenten-Extraktion mit anschliessender
-  Stichproben-Verifikation der tragenden Zahlen am Volltext durch den Hauptlauf) — Status `emerging`.
+- Weiterhin kein Refuter-Panel für die 220er- und 230er/240er-Werte (Einzelagenten-Extraktion mit
+  anschliessender Stichproben-Verifikation der tragenden Zahlen am Volltext durch den Hauptlauf) —
+  Status `emerging`.

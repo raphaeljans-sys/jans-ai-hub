@@ -1,10 +1,10 @@
 ---
 title: Dachbegrünung (Gründach) — Vorgaben und PV-Synergie
 status: emerging
-last_updated: "2026-08-24 (Audit-Nachtrag A-P2 02.15: FAQ F236 auf denselben SIA-312-Stand gebracht)"
-datenstand: "2009 (ältester zitierter Quellenstand: Stadt-Zürcher Checkliste Dachbegrünung, 16.02.2009 — taugt laut Artikeltext nur zur ersten Grössenordnung, nicht zum Zitat in einem Aussendokument; fachnormativ massgebend ist SIA 312:2013, geführt in der KB `normen`)"
-sources: [destillate/dachbegruenung-checkliste-stadt-zh.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]], [[sia-312-2013]], [[pflanzen-am-bau-projektierungsgrundlagen-zh]]
+last_updated: "2026-09-07 (Run 183: Zusatzanforderung Minergie-ECO Vorgabe 240.02 nachgetragen)"
+datenstand: "2009 (ältester zitierter Quellenstand: Stadt-Zürcher Checkliste Dachbegrünung, 16.02.2009 — taugt laut Artikeltext nur zur ersten Grössenordnung, nicht zum Zitat in einem Aussendokument; fachnormativ massgebend ist SIA 312:2013, geführt in der KB `normen`; ECO-Zusatzanforderung Dokumentstand 01.07.2026)"
+sources: [destillate/dachbegruenung-checkliste-stadt-zh.md, destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]], [[sia-312-2013]], [[pflanzen-am-bau-projektierungsgrundlagen-zh]], [[minergie-eco-vorgabenkatalog-standard-2023-1]]
 ---
 
 # Dachbegrünung (Gründach) — Vorgaben und PV-Synergie
@@ -97,15 +97,33 @@ nötig (SIA 271/2007, Ziff. 2.2.1.1/2.6.1.1/5.1.4).
 Vegetationsdeckung ≥ 60 %, mindestens 25 Pflanzenarten pro 200 m² (ausgesät und spontan, keine
 Einzelpflanzen), keine Art über 30 % Deckung, gut verwurzelter robuster Bewuchs.
 
+## Zusatzanforderung bei Minergie-ECO (Vorgabe 240.02, nachgetragen 07.09.2026)
+
+Wer zusätzlich zur reinen Begrünungspflicht **Minergie-ECO** anstrebt, muss über SIA 312 hinaus
+gehen: die minimale Vegetationstragschichtdicke ist gegenüber SIA 312 Tabelle 2 um **3 cm** und
+die minimale relevante Wasserkapazität um **15 l/m²** zu erhöhen. Ab 20 bis 100 m² Dachfläche
+ist mindestens ein Strukturelement nach SIA 312 Anhang A zu erstellen, ab 100 m² mindestens zwei
+verschiedene Substrattypen mit je zwei Strukturelementen, pro weitere 100 m² ein zusätzliches.
+Bewertet wird abgestuft: Begrünung nur Dach **oder** nur Fassade gibt 1 Punkt, beides zusammen
+3 Punkte (80/20-Regel: je mind. 80 % der Dach- bzw. der begrünbaren Fassadenfläche). Fassaden-
+oder Aussenwandbegrünung bis 10 m über Terrain ist zudem nur bodengebunden zulässig, ohne
+Bewässerung mit Trinkwasser. **Bauherren-Transfer:** ein Devis, das nur den SIA-312-Mindestaufbau
+ausschreibt, erfüllt Minergie-ECO nicht — die Verschärfung gehört als eigene Zeile ins
+Leistungsverzeichnis, nicht als Verweis auf die Norm allein.
+Quelle: `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, Vorgabe 240.02, geltende Fassung
+Dokumentstand 01.07.2026 (S. 104-105/109), Run 183.
+
 ## Bauherren-Transfer
 Substrataufbau, PV-Panelabstand und Bautenschutzmatte von Anfang an gemeinsam mit Solarplaner
 und Gartenbauer planen — Nachrüsten unter bereits montierten Panels ist vermeidbarer Mehraufwand.
 Erstellungspflege über die ersten 2 Jahre einplanen und Leistungsverzeichnis nach SFG-Empfehlung
 dem Bauherrn übergeben. Ausserhalb der Stadt Zürich: kommunale BZO der jeweiligen Gemeinde
-prüfen, ob eine vergleichbare Begrünungspflicht besteht.
+prüfen, ob eine vergleichbare Begrünungspflicht besteht. Bei angestrebtem Zusatz ECO zusätzlich
+die verschärften Substrat-/Strukturvorgaben aus Vorgabe 240.02 beachten (Abschnitt oben).
 
 ## Verwandt
-`[[pv-solar-technologien]]` (PV-Grundlagen), Bauherren-FAQ **F236**.
+`[[pv-solar-technologien]]` (PV-Grundlagen), `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`
+(Vorgabe 240.02), Bauherren-FAQ **F236**.
 
 **Konstruktions-Vertiefung (Schichtaufbauten, Fassadenbegrünung, versickerungsfähige
 Beläge):** `[[pflanzen-am-bau-projektierungsgrundlagen-zh]]` (Stadt Zürich, 1994/97,

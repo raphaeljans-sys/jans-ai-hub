@@ -2,6 +2,26 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 183 (07.09.2026, Nachtschicht Mac Mini) — 230er-Reihe/Klimaresilienz destilliert, E-R182-3 ohne neuen Volltext geloest
+
+Bearbeitet: E-R182-2 (Teil 230er-Reihe/Klimaresilienz) und E-R182-3 (Anhang-B-Abgleich 130.x/210.x).
+Beide oben unter Run 182 mit ✓ vermerkt (derselbe Punkt, nicht dupliziert).
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R183-1 (P3, Fach):** Rest von E-R182-2 — rund 20 Vorgaben bleiben undestilliert:
+  Gesundheit/Komfort 110.x (RLT-Anlagen, Strahlung/NIS), 120.x (Schadstoffe), 140.x (Tageslicht),
+  sowie 250.01 (Innovation Oekologie). **Naechster Ansatzpunkt: 110.x/120.x** — Anhang B nennt dort
+  zwei materielle Aenderungen zum Stand 23.01.2025 (110.05 NIS-Zonenplan-Praezisierung,
+  120.06 Wegfall TEP-Flammschutzmittel bei PUR/PIR-Daemmstoffen als Kriterium), die noch nicht
+  gegen die geltende Fassung 01.07.2026 verifiziert sind (gleiches Muster wie E-R182-3, hier aber
+  mit zwei Eintraegen statt keinem — also am Volltext zu pruefen, nicht durch Abwesenheit im
+  Anhang zu erledigen).
+- [ ] **E-R183-2 (P4, Betrieb):** E-R182-4 (fehlender Laufbericht Run 181) ist mit diesem Lauf
+  weiterhin unrekonstruiert — nur bestaetigt, dass er nicht Run 183 betrifft. Bleibt als
+  Betriebsbefund stehen, bis jemand die Luecke aus dem CHANGELOG/den Commits rekonstruiert oder
+  Raphael sie als nicht lohnenswert schliesst.
+
 ## Run 182 (06.09.2026, Tageslauf) — 220er-Reihe destilliert; die Versionsnummer des Herausgebers taugt nicht als Aktualitaetsbeweis
 
 Dieser Lauf hat den offenen Punkt E-R181-1 (220er-Reihe) bearbeitet und dabei den ebenfalls offenen
@@ -49,18 +69,19 @@ Volltext im Hauptlauf gegengeprueft):
   Solange sie fehlt, zitiert die KB fuer Devis-Zwecke eine ueberholte Grundlage
   (`[[kbob-recyclingbeton-2007]]`, dort Vermerk gesetzt). Beschaffbar ueber kbob.admin.ch.
   **Bring-Schuld auch bei `wissen/bauprodukte`** (BKP 211/212 Beton) und beim Skill `ausschreibung`.
-- [ ] **E-R182-2 (P3, Fach):** rund 39 Vorgaben des Vorgabenkatalogs bleiben undestilliert
-  (Gesundheit/Komfort 110.x RLT/Strahlung, 120.x Schadstoffe, 140.x Tageslicht, Innovation; sowie
-  230er-Reihe, Klimaresilienz, Innovation Oekologie). **Naechster Ansatzpunkt: die 230er-Reihe** —
-  Anhang B weist dort mit 230.01 Umgebungsgestaltung die einzige ausdrueckliche **Korrigenda** aus
-  («mind. 30 %» war ein Tippfehler, korrekt «**mind. 80 % der Umgebungsflaeche**»), also einen Wert,
-  der in der weiterhin abrufbaren Vorfassung nachweislich falsch steht.
-- [ ] **E-R182-3 (P4, methodisch/Bestand):** Die Abschnitte zu **Schallschutz 130.01-130.07**
-  (Run 180) und **Graue Energie/THGE 210.01/210.02** (Run 181) wurden an der Fassung 23.01.2025
-  gelesen und sind **nicht** gegen die geltende Fassung 01.07.2026 gediffed. Anhang B nennt fuer
-  diese Vorgaben zwar keine Aenderung nach dem 23.01.2025, was fuer Unveraendertheit spricht; der
-  Gegenbeweis am Text steht aber aus. Beim naechsten Lauf an dieser Quelle billig mitzunehmen (die
-  Volltexte beider Fassungen liegen vor).
+- [x] **E-R182-2 (P3, Fach) — Teil 230er-Reihe/Klimaresilienz geloest ✓ 2026-09-07 (Run 183).**
+  230.01-230.08 und 240.01-240.02 vollstaendig destilliert; die Korrigenda bestaetigt (230.01
+  «30 %» war Tippfehler, korrekt 80 %, Volltext einheitlich). Verdichtet in
+  `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, `[[dachbegruenung-gruendach]]`,
+  `[[regenwasserbewirtschaftung-versickerung-zh]]`, FAQ **F282**. **Weiterhin offen** (Rest von
+  E-R182-2, fortgeschrieben als E-R183-1 unten): 110.x/120.x/140.x (Gesundheit/Komfort) und
+  250.01 (Innovation Oekologie), rund 20 Vorgaben.
+- [x] **E-R182-3 (P4, methodisch/Bestand) — geloest ✓ 2026-09-07 (Run 183), ohne Volltext-Diff.**
+  Anhang B der geltenden Fassung listet jede inhaltliche Aenderung nach Vorgabe-Nummer und Datum;
+  fuer 130.01-130.07 und 210.01/210.02 traegt sie zwischen 23.01.2025 und 01.07.2026 **keinen
+  Eintrag** (nur den generischen Link-Fix-Vermerk vom 01.07.2026). Beide Abschnitte damit
+  bestaetigt unveraendert, ohne zweiten Volltext lesen zu muessen. Verdichtet in
+  `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, Abschnitt «Offene Punkte».
 - [ ] **E-R182-4 (P4, Betrieb):** Fuer **Run 181** existiert kein `outputs/`-Laufbericht — CHANGELOG,
   QUESTIONS, Destillat, Wiki und FAQ sind vollstaendig gepflegt, nur Schritt 7 des PROGRAMM-Ablaufs
   fehlt. Nicht rekonstruiert, weil dieser Lauf nicht dabei war; als Betriebsbefund vermerkt.

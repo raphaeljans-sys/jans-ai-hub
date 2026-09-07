@@ -1,10 +1,10 @@
 ---
 title: Regenwasserbewirtschaftung / Versickerung — Kanton Zürich
 status: established
-last_updated: 2026-07-29
+last_updated: "2026-09-07 (Run 183: Minergie-ECO-Zusatz 230.04/230.07 nachgetragen, Kernaussagen unveraendert)"
 datenstand: 2026-06-23 (AWEL-Formular + Hinweise; Normen VSA 2019 / SN 592 000:2012 / AWEL-Richtlinie 2022)
-sources: [destillate/regenwasserbewirtschaftung-versickerung-zh.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[greenpv-fassade-pv-begruenung-hslu]], [[recht-norm-regenwasser-gewaesserraum-zh]] (KB planungsgrundlagen — Recht/Verfahren GSchG-Kaskade + Gewaesserraum-Festlegung)
+sources: [destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[greenpv-fassade-pv-begruenung-hslu]], [[recht-norm-regenwasser-gewaesserraum-zh]] (KB planungsgrundlagen — Recht/Verfahren GSchG-Kaskade + Gewaesserraum-Festlegung), [[minergie-eco-vorgabenkatalog-standard-2023-1]]
 ---
 
 # Regenwasserbewirtschaftung / Versickerung — Kanton Zürich
@@ -46,6 +46,27 @@ links: [[INDEX]], [[BAUHERREN-FAQ]], [[greenpv-fassade-pv-begruenung-hslu]], [[r
 ## Offen
 - Bemessungsdetail (Mulden-/Rigolengrösse je l/s, k-Wert-Klassen) — AWEL-Regenwasserrechner/VSA.
 - Retentions-/Gründach-Anrechnung quantifizieren; andere Kantone (SZ) abweichend.
+
+## Zusatz Minergie-ECO: zwei unterschiedliche Metallflächen-Schwellen nicht verwechseln (ergänzt Run 183, 07.09.2026)
+
+Neben der **kantonalen Adsorber-Pflicht ZH** oben (unbeschichtete Cu/Zn/Sn/Pb/Messing
+**> 50 m²**, gebührenrechtlich verbindlich) führt der Minergie-ECO-Vorgabenkatalog eine
+**eigene, grössere** Ausschlussvorgabe für dieselbe Materialgruppe (Vorgabe 230.04): dort gilt
+«grossflächig» erst ab **Dach >10 % der Dachfläche oder >50 m², Fassade >300 m², Rinnen >100 m
+Gesamtlänge**. Die beiden Schwellen laufen nebeneinander und lösen unterschiedliche Pflichten
+aus: die ZH-Schwelle (50 m² über alle Flächen) verlangt einen Adsorber, die ECO-Schwelle
+verlangt bei Überschreitung grundsätzlich den Verzicht auf das Material bzw. bei Erneuerungen
+mit nicht erneuerten Altbauteilen ersatzweise einen Metallfilter. Ein Projekt kann die ZH-Pflicht
+auslösen (>50 m² Gesamtfläche), ohne die ECO-Ausschlussvorgabe zu berühren (wenn keine
+Einzelfläche die höheren ECO-Schwellen erreicht) — und umgekehrt bei einem grossflächigen
+Fassadenprojekt beide gleichzeitig. **Bauherren-Transfer:** bei einem angestrebten Zusatz ECO
+beide Schwellen getrennt prüfen, nicht die eine für die andere halten. Zusätzlich zählt
+Minergie-ECO unter Vorgabe **230.07** den ökologischen Umgang mit Regen-/Grauwasser (Versickerung,
+sickerfähige Beläge, Retention, Nutzung) als eigene Punktevorgabe (2 Punkte, bei Neubauten mind.
+3 von 5 Massnahmen, bei Erneuerungen mind. 2) — die hier beschriebenen Massnahmen sind ECO-seitig
+also nicht nur Pflicht, sondern zusätzlich zertifizierungsrelevant.
+Quelle: `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, Vorgaben 230.04/230.07, geltende
+Fassung Dokumentstand 01.07.2026 (S. 96-99, 101-102/109), Run 183.
 
 ## Siehe auch: Regenwassernutzung als Brauchwasser (ergänzt Run 119, 2026-07-29)
 Anderes Thema als die Versickerungsbewilligung oben: die **Nutzung** von Regenwasser für
