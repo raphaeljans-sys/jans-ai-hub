@@ -435,6 +435,257 @@ Radon existierte noch kein Themenartikel; neu angelegt: `[[radon-schutzmassnahme
 110.01/110.02 (RLT-Anlagen Be-/Entfeuchtung, Hygieneinspektion) existiert noch kein eigener
 Themenartikel (geringe Bauherren-Nachfrage bislang, offen für Folgelauf bei Bedarf).
 
+## Die 120er-Reihe: Schadstoffe (Run 185, 07.09.2026)
+
+Gelesen an der geltenden Fassung (Dokumentstand 01.07.2026), S. 19-37/109. Die Reihe umfasst
+**zehn** Vorgaben (120.01 bis 120.10), nicht neun wie in den Folgelauf-Notizen der Runs 183/184
+angenommen; die Zahl ist am Inhaltsverzeichnis der geltenden Fassung korrigiert.
+
+### Verifikation der Anhang-B-Änderung zu 120.06 (Auftrag aus Run 184)
+
+Anhang B nennt zum Stand **23.01.2025**: «120.06 Dämmstoffe enthalten keine gesundheits- und
+umweltrelevanten Bestandteile — Flammschutzmittel TEP (Triethylphosphat) bei Dämmstoffen aus
+PUR/PIR entfällt als Kriterum» (Schreibfehler «Kriterum» im Original).
+
+**Ergebnis der Volltextprüfung: bestätigt, kein Widerspruch.** Eine Volltextsuche über alle
+5'862 Zeilen der extrahierten geltenden Fassung nach «TEP» und «Triethylphosphat» liefert genau
+**einen** Treffer, und der steht in der Anhang-B-Zeile selbst. Im Vorgabentext von 120.06 wird als
+Ausschlusskriterium für PUR/PIR ausschliesslich genannt: «halogenhaltige Treibmittel wie z.B.
+HFKW; Flammschutzmittel TCPP (Tris(2-chlorisopropyl)phosphat)». TEP ist dort also tatsächlich
+nicht mehr aufgeführt, TCPP dagegen weiterhin. Damit ist dieselbe Prüfung, die Run 184 für 110.05
+durchgeführt hat, auch für die zweite im Anhang B genannte materielle Änderung erledigt.
+
+### Der Ausschluss-Block 120.01 bis 120.05
+
+**120.01 Ermittlung Gebäudeschadstoffe (A).** Ausschlussvorgabe, muss zu 100 % erfüllt werden.
+Vor Um- oder Rückbaumassnahmen an Gebäuden mit **Baujahr vor 1990** ist in allen Räumen eine
+Gebäudeschadstoffermittlung (Gebäudecheck ecobau) durch eine geeignete Fachperson durchzuführen;
+alle festgestellten schadstoffhaltigen Materialien, die vom Um- oder Rückbau betroffen sind,
+werden fachgerecht saniert, ausgebaut, verwertet oder entsorgt. «N/A» nur, wenn nicht um- oder
+rückgebaut wird oder das Gebäude **1990 und später** erstellt wurde. Die Fachperson muss
+nachweislich **mindestens zwei Jahre Erfahrung** bei Gebäudeuntersuchungen haben (Listen bei
+FAGES, VABS, SUVA, Kantonen). BKP 101, 112, 113, 196. Nachweis: Bericht Gebäudeschadstoff-
+ermittlung (Projektierung); Werkvertrag des Rückbau- bzw. SUVA-anerkannten Sanierungsunternehmens,
+Fotodokumentation, Entsorgungsnachweis (Realisierung).
+
+**120.02 Formaldehyd: Emissionen aus Baumaterialien (A).** Ausschlussvorgabe. Ausgeschlossen sind
+Baumaterialien in beheizten Innenräumen, die relevante Mengen Formaldehyd abgeben. Verleimtes
+Vollholz und Holzwerkstoffe müssen **Anwendung 1** («geeignet ohne Einschränkung bezüglich
+Raumbeladung») oder **Anwendung 2** («geeignet mit Einschränkung»; Beladung 3 von 6 Raumoberflächen
+oder maximal 50 % der Raumoberflächen) der «Lignum-Produktliste geeigneter Holzwerkstoffe zur
+Verwendung im Innenraum» erfüllen oder mindestens mit **ecoBasis** für die Innenanwendung
+gekennzeichnet sein. Dämmstoffe aus Mineralwolle oder Holzwerkstoffen: formaldehydfreie
+Bindemittel und/oder mindestens ecoBasis, bei Holzfaser/Holzwolle zusätzlich Anwendung 1.
+Akustikputzsysteme: keine formaldehydhaltigen Bestandteile und keine formaldehydabspaltenden
+Konservierungsmittel. Mehrschichtparkette: formaldehydfrei verklebt und/oder Anwendung 1.
+BKP 214, 258, 271, 273, 276, 277, 281, 282, 283.
+
+**120.03 Formaldehyd: Raumluftmessungen (A).** Ausschlussvorgabe. Ausgeschlossen sind Messwerte
+über **60 µg/m³ (Aktivmessung)** bzw. über **30 µg/m³ (Passivmessung)**. Anforderungen wörtlich,
+in Klammern die Werte inklusive Messunsicherheiten:
+
+- Passive Messungen: ≤ 30 µg/m³ / ≤ 0,025 ppm (≤ 40 µg/m³ / ≤ 0.033 ppm)
+- Aktive Messungen: ≤ 60 µg/m³ / ≤ 0,05 ppm (≤ 75 µg/m³ / ≤ 0.063 ppm)
+
+**120.05 Lösemittel: Raumluftmessungen (TVOC) (A).** Ausschlussvorgabe. Ausgeschlossen sind
+Messwerte über **1'000 µg/m³ (Aktivmessung)** bzw. über **500 µg/m³ (Passivmessung)**:
+
+- Passive Messungen: ≤ 500 µg/m³ (≤ 700 µg/m³)
+- Aktive Messungen: ≤ 1000 µg/m³ (≤ 1250 µg/m³)
+
+**Gemeinsames Messregime von 120.03 und 120.05** (im Katalog wortgleich in beiden Vorgaben):
+Für die Gebäudekategorien **Wohnen MFH und EFH bis 1'000 m² EBF** genügt mindestens **eine
+passive** Formaldehyd- und/oder TVOC-Messung nach Vorgabe der Zertifizierungsstelle
+(vereinfachter Nachweis); die nicht gewählte Raumluftmessung darf mit «N/A» beantwortet werden.
+**Für alle anderen Gebäudekategorien sind aktive Messungen beider Parameter erforderlich** — für
+ein Spital, eine Schule oder eine Verwaltung also nicht verhandelbar. Die Messungen haben
+**spätestens einen Monat nach Baufertigstellung** zu erfolgen, spätere Messungen sind «in der
+Regel nicht möglich». Passive Messdauer mindestens eine Woche, Sammler bis spätestens einen Monat
+vor Messtermin bei der Zertifizierungsstelle zu bestellen. Aktive Messungen nur durch eine Firma
+mit gültigem Zertifikat «Probenahmestellen für Raumluftmessungen» der Schweizerischen
+Zertifizierungsstelle für Bauprodukte (S-Cert AG) oder gleichwertigem Qualitätsnachweis; die
+messende Fachperson darf **nicht** in die Minergie-ECO-Fachbegleitung des Projekts involviert
+sein. Werden die Grenzwerte bei der ersten Messung verfehlt, ist die Zertifizierungsstelle zu
+informieren; eine Nachmessung ist nur nach vorheriger Quellenanalyse sinnvoll. Raumluftmessungen
+nach den Bedingungen des Labels **GI «Gutes Innenraumklima»** werden anerkannt.
+
+**120.04 Lösemittel: Emissionen aus Baumaterialien (A).** Ausschlussvorgabe, Gegenstück zu 120.02
+auf der Produktseite (Beschichtungen, Klebstoffe, Dichtstoffe). Definition «beheizte Innenräume»
+analog 120.02 über die Energiebezugsfläche nach SIA-Norm 380.
+
+### Bemerkenswert: die Zwei-Jahres-Regel gilt für Lösemittel, nicht für Formaldehyd
+
+Der Katalog behandelt **wiederverwendete** Materialien in 120.02 und 120.04 bewusst
+unterschiedlich, und der Unterschied steht in einem einzigen Wort:
+
+- 120.02 (Formaldehyd): «Wiederverwendete formaldehydhaltige Materialien und Bauteile gelten ohne
+  entsprechende Prüfung auch nach zwei Jahren an einem ersten Einbauort **als nicht ausgegast**.»
+- 120.04 (Lösemittel): «Wiederverwendete lösemittelhaltige Materialien und Bauteile gelten ohne
+  entsprechende Prüfung nach zwei Jahren an einem ersten Einbauort **als ausgegast**.»
+
+Das ist **kein Extraktionsfehler**, sondern eine sachliche Unterscheidung des Herausgebers: Lösemittel
+verflüchtigen sich, Formaldehyd wird über Jahre aus dem Bindemittel nachgeliefert. Praktische Folge
+für die Wiederverwendung (Bezug zur 220er-Reihe): ein wiederverwendeter Innenausbau aus
+Holzwerkstoffen braucht **immer** eine Prüfung, ein wiederverwendetes beschichtetes Bauteil nach
+zwei Jahren nicht mehr.
+
+### Die Punkte-Vorgaben 120.06 bis 120.10
+
+**120.06 Dämmstoffe ohne gesundheits- und umweltrelevante Bestandteile.** Ausschlusskriterien je
+Dämmstoffart, wörtlich: PUR/PIR halogenhaltige Treibmittel wie z.B. HFKW sowie Flammschutzmittel
+**TCPP (Tris(2-chlorisopropyl)phosphat)**; Zellulose Flammschutzmittel **Borsalz (Borat)**;
+pflanzliche Fasern (Hanf, Kokos, Sisal, Gras) ebenfalls Borsalz. FAQ: EPS- und XPS-Dämmstoffe mit
+**PolyFR** als Flammschutzmittel (also ohne HBCD) erfüllen die Vorgabe. Eine numerische
+Prozentgrenze für halogenhaltige Treibmittel nennt der Volltext nicht, nur die Stoffliste.
+
+**120.07 PVC-Bauprodukte ohne gesundheits- und umweltrelevante Bestandteile.** Keine numerische
+Grenzkonzentration im Volltext, Anforderung über Stabilisator- und Weichmacherausschlüsse.
+
+**120.08 Emissionsarme Verlegewerkstoffe und Fugendichtungsmassen.** 80/20-Regel anwendbar,
+Bezugsgrösse mindestens 80 % der eingesetzten Verlegewerkstoffe (m²) bzw. der Fugendichtungsmassen
+(m¹). FAQ: Produkte mit **EMICODE-Siegel und Zusatz «R»** erfüllen die Anforderungen; das «R»
+kennzeichnet Verarbeiterschutz (Handschuhe, Schutzbrille), nicht eine Nutzerrelevanz.
+
+**120.09 Halogenfreie Installationsmaterialien** (1 Punkt). Nur halogenfreie Materialien für
+gebäudetechnische Installationen. Als halogenfrei gelten **gemäss SN EN 50642 Materialien mit
+einem gesamten Halogengehalt von maximal 0.4 %**. Produkte mit ecoProdukte-Bewertung eco1, eco2
+oder gleichwertigem Nachweis erfüllen die Vorgabe. 80/20-Regel anwendbar, differenziert nach
+Drähten, Kabeln, Rohren, Ummantelungen, Rohrdämmungen (m¹) und Verteilkästen (Stk). FAQ-
+Abgrenzungen: halogenierte **Kältemittel** sind nicht betroffen (natürliche Kältemittel oder HFO
+werden empfohlen); Aufzugskabel fallen darunter; **PVC-Bodenbeläge nicht** (dafür 120.07);
+Laboreinrichtungen nicht (BKP 8/9 bzw. eBKP-H H/J).
+
+**120.10 Auslüftung nach Baufertigstellung** (2 Punkte). «Zwischen Baufertigstellung und Bezug
+liegen **mindestens 30 Tage**», in denen eine gute Durchlüftung gewährleistet wird (offene Fenster
+oder Lüftungsanlage auf Intensivstufe). Nachweis: Terminplan Realisierungsphase mit eingetragener
+Auslüftungszeit. **80/20-Regel ausdrücklich nicht anwendbar.** FAQ: Möblierung während der
+Auslüftung ist zulässig, Mängelbehebungen ebenfalls, sofern dabei keine Schadstoffe mehr ins
+Gebäude gelangen.
+
+### Bauherren-Transfer 120er-Reihe (eigene Einordnung)
+
+Die 120er-Reihe ist für die Bauherrschaft primär ein **Termin**thema und erst danach ein
+Produktthema. Drei Daten gehören in den Terminplan, bevor über Materialien gesprochen wird: die
+Schadstoffermittlung **vor** der Rückbauausschreibung (120.01, sonst werden Sanierungskosten erst
+nach der Vergabe sichtbar), die Raumluftmessung **innerhalb eines Monats nach Baufertigstellung**
+(120.03/120.05, mit vorgängiger Beauftragung einer S-Cert-zertifizierten Messfirma) und die
+**30 Tage Auslüftung** zwischen Fertigstellung und Bezug (120.10). Die Auslüftungsfrist liegt auf
+dem kritischen Pfad: wer den Bezugstermin ohne diesen Block plant, verliert entweder zwei Punkte
+oder einen Monat. Auf der Produktseite entstehen die Kosten nicht durch Sonderprodukte, sondern
+durch **Belegpflicht**: Lieferscheine mit Label-Angabe (eco1/eco2, ecoBasis, Emicode EC1/EC1plus,
+Lignum-Anwendung 1/2) müssen in der Ausschreibung verlangt werden, sonst sind sie auf der
+Baustelle nicht mehr beizubringen. Für Spital-, Schul- und Verwaltungsbauten ist zudem zu
+beachten, dass der vereinfachte passive Messweg **nicht** offensteht.
+
+### Offene Punkte 120er-Reihe
+
+Der Volltext beziffert nicht: die Anzahl der zu untersuchenden Räume und Messpunkte je
+Gebäudegrösse (Verweis auf das Produktreglement für den Zusatz ECO); die vollständige Liste der
+«nicht zulässigen gesundheits- und umweltrelevanten Bestandteile» der Methodik Baumaterialien
+ecobau; eine numerische Grenzkonzentration bei 120.06 und 120.07 ausserhalb der Stofflisten; ob
+die 30-Tage-Frist bei 120.10 durch verstärkte mechanische Lüftung verkürzt werden kann.
+
+## Die 140er-Reihe (Tageslicht, Ausblick, Aktivierung) und 250.01 Innovation (Run 185, 07.09.2026)
+
+Gelesen an der geltenden Fassung, S. 46-53/109 bzw. S. 106/109.
+
+### 140.01 Tageslicht (A) — die Zahlen
+
+Ausschlussvorgabe, muss zu 100 % erfüllt werden; vier Teilkriterien, alle als «berechnete Vorgabe»:
+
+| Kriterium | Wert | Punkte |
+|---|---|---|
+| Tageslichterfüllungsgrad Hauptnutzräume | mind. 50 % | 0, Ausschlussvorgabe |
+| Tageslichterfüllungsgrad Hauptnutzräume | mind. 70 % | 2, Bonus |
+| Anteil Raumflächen mit ungenügendem Erfüllungsgrad | max. 20 % Neubau / max. 35 % Erneuerung | 0, Ausschlussvorgabe |
+| Anteil Raumflächen mit ungenügendem Erfüllungsgrad | max. 10 % Neubau / max. 20 % Erneuerung | 2, Bonus |
+
+Die Berechnung der «Tageslichtversorgung» nach **SN EN 17037** ist für Minergie-ECO zugelassen.
+Für die Ausschlussvorgabe muss der **Medianwert der Autonomie mehr als 50 %** betragen, für den
+Bonus mehr als 70 %. Zuordnung der Niveaus (jeweils «während 50 % der Tagesstunden auf der halben
+Raumfläche»): «Gering» 300 Lux, «Mittel» 500 Lux, «Hoch» 750 Lux. Der Katalog rät ausdrücklich
+davon ab, eine Autonomie von 70 % bei 750 Lux anzustreben, «weil dies sehr grosse Glasflächen
+erfordert, die zu einer schlechteren thermischen Situation führen».
+
+Vereinfachte Berechnung nach SN EN 17037 über den **Tageslichtquotienten (TLQ)**: für mehr als
+100 Lux 0.6 %, für mehr als 300 Lux 1.9 %, für mehr als 500 Lux 3.1 %, für mehr als 750 Lux 4.7 %.
+Niveaus: «Gering» TLQ-Median über 1.9 %, «Mittel» über 3.1 %, «Hoch» über 4.7 %. Werkzeuge:
+«Tageslicht-Tool Minergie-ECO» (XLSX mit Anleitung) oder ein geeignetes Simulationstool
+(im Hilfsmittel-Block genannt: DIAL+ Lumière naturelle, EcoBIM Daylight, Lesosai Tageslicht,
+Relux Lichtplanung).
+
+### 140.01: die befristete Ausnahmeregelung Tageslicht gegen sommerlichen Wärmeschutz
+
+Anhang B nennt zum Stand 23.01.2025 eine «befristete Ausnahmeregelung für einen reduzierten
+Tageslichterfüllungsgrad von mind. 40 %». **Geprüft und im Vorgabentext gefunden** — sie steht
+nicht in einem eigenen Anhang, sondern im Abschnitt «Bemerkungen» zu 140.01 selbst (S. 46/109),
+wörtlich:
+
+> «Befristete Ausnahmeregelung für die Gebäudekategorien kleine Schule und Schule (Neubau und
+> Erneuerung) der Bauweisen «mittel», «leicht» und «sehr leicht» gemäss SIA-Norm 380/1: Ergeben
+> sich Zielkonflikte zwischen der Erfüllung der Anforderungen an das Tageslicht und den
+> sommerlichen Wärmeschutz gemäss Minergie (ab Version 2023), so gilt ein reduzierter
+> Tageslichterfüllungsgrad für die Hauptnutzräume von mind. 40 %. Der Anteil der Raumflächen, die
+> einen ungenügenden Tageslichterfüllungsgrad von weniger als 40 % aufweisen dürfen, beträgt
+> unverändert max. 20 % (Neubau) bzw. 35 % (Erneuerung).»
+
+Drei Präzisierungen gegenüber der Kurzfassung in Anhang B, die für die Anwendung entscheidend
+sind: die Regelung gilt **nur für die Bauweisen «mittel», «leicht» und «sehr leicht» nach
+SIA 380/1** (bei schwerer Bauweise also nicht), sie betrifft den Zielkonflikt mit dem
+sommerlichen Wärmeschutz **gemäss Minergie ab Version 2023**, und der zulässige Anteil
+ungenügend belichteter Raumflächen bleibt **unverändert** bei 20 % bzw. 35 %. ⚠ **Ein
+Befristungsdatum nennt der Text nicht** — nur das Wort «befristet». Wer sich darauf stützt, muss
+den Ablauf bei der Zertifizierungsstelle erfragen (offener Punkt, siehe unten).
+
+### 140.02 bis 140.04
+
+**140.02 Ausblick von Arbeitsplätzen**, **140.03 Aktivierung der Nutzenden im Innenbereich**
+(z.B. attraktive Treppen statt Lift), **140.04 Aktivierung der Nutzenden im Aussenbereich**
+(Velozufahrtswege, Veloparkplätze, Haupt- und Nebeneingänge). Nachweis bei 140.04:
+Umgebungsplan mit eingezeichneten Velozufahrtswegen, Veloparkplätzen sowie Haupt- und
+Nebeneingängen (Projektierung); revidierter Umgebungsplan, Datenblätter Parkierungsanlagen,
+Fotos (Realisierung). 80/20-Bezugsgrössen bei 140.04: Anzahl Veloparkplätze, Länge der Wege,
+Anzahl Aussenanlagen. FAQ 140.04: gilt auch für Industriebauten, dort aber nur für Bereiche mit
+Arbeitsplätzen. Hilfsmittel: ASTRA-Handbuch Veloparkierung, TBA ZH Leitfaden Veloparkierung in
+Wohnsiedlungen.
+
+### 250.01 Innovationen zur Verminderung der Umweltbelastung
+
+Abgestufte Vorgabe: Stufe 1 «Umsetzung eines innovativen Ansatzes oder deutliche Übererfüllung
+einer Vorgabe» (2 Punkte), Stufe 2 «Umsetzung mehrerer oder umfassender innovativer Ansätze oder
+deutliche Übererfüllung mehrerer Vorgaben» (4 Punkte). Die Innovation muss mit dem eingereichten
+Bauprojekt verknüpft sein und darf keine negativen Auswirkungen auf andere Nachhaltigkeitsthemen
+haben. Der Begriff wird laut FAQ **absichtlich nicht definiert**, «um die Ideen der
+Antragstellenden nicht einzuengen»; die Zertifizierungsstellen haben «einen erheblichen
+Spielraum». Zuständigkeit: alle Planenden und die Bauherrschaft.
+
+**Neben-Fund:** Der Katalog kennt mit **150.01 «Innovationen zur Erreichung hoher
+Gesundheitsziele»** (S. 53/109) eine strukturgleiche Innovationsvorgabe im Bereich Gesundheit,
+mit identischer Stufung 2/4 Punkte. Sie war in keiner der bisherigen Folgelauf-Notizen erfasst
+und ist noch nicht destilliert (siehe offene Punkte).
+
+### Bauherren-Transfer 140er-Reihe und 250.01 (eigene Einordnung)
+
+Tageslicht ist die einzige Vorgabe der Reihe, die ein Projekt **scheitern** lassen kann, und sie
+kollidiert direkt mit dem sommerlichen Wärmeschutz: grosse Fenster bringen Tageslichtpunkte und
+Überhitzungsprobleme zugleich. Deshalb gehört die Tageslichtberechnung in die Vorprojektphase, wo
+Fensterformat und Raumtiefe noch verhandelbar sind, und nicht ins Bauprojekt. Für Schulbauten
+existiert der beschriebene Ausweg auf 40 %, aber nur bei leichter bis mittlerer Bauweise nach
+SIA 380/1 und ohne bekanntes Ablaufdatum. Die beiden Innovationsvorgaben (150.01 Gesundheit,
+250.01 Ökologie) sind je 4 Punkte, die ein Projekt praktisch geschenkt bekommt, wenn ohnehin
+etwas Ungewöhnliches umgesetzt wird — sie kosten nichts ausser der Dokumentation und lohnen sich,
+sobald in einem Bereich Punkte fehlen.
+
+### Offene Punkte 140er-Reihe und 250.01
+
+- ⚠ **Befristung der Tageslicht-Ausnahmeregelung unbekannt.** Der Vorgabentext nennt kein
+  Ablaufdatum, Anhang B ebenfalls nicht. Vor einer Berufung darauf bei der Zertifizierungsstelle
+  zu erfragen.
+- **150.01 Innovationen Gesundheit** ist noch nicht destilliert.
+- Bei 140.03 und 140.04 nennt der Text die 80/20-Bezugsgrössen, aber keinen expliziten
+  Prozentwert (anders als 140.02 mit «mind. 80 %») — ob dort ebenfalls 80 % gilt, geht aus dem
+  Volltext nicht hervor.
+
 ## Offene Punkte für Folgeläufe
 
 - Die übrigen rund **23 Vorgaben** sind noch nicht destilliert: Schadstoffe (120.x, 9 Vorgaben),
