@@ -11481,3 +11481,21 @@ Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). Commit na
 `nas-commit-now.sh` ausgelöst.
 
 Budget rund 3.9 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-07 05:xx (Nachtschicht Mac Mini)
+
+Prioritäten 1-3 geprüft, keine offene Arbeit: remote-tasks/sync-tasks leer, Synobsis Stufe 2
+gesättigt (853/853 seit 02.07., 17+ ertraglose Wiederholungsläufe dokumentiert), Fristen-Radar
+ohne neue Punkte (Steinbrüchelstrasse-Entwurf bereits versandbereit, Aktion Raphael; KISPI-
+Türfreigabe braucht Raphaels eigenes Fachurteil). bauprodukte geprüft: Korpus seit 15.08.
+erledigt, verbleibende QUESTIONS-Punkte blockiert/ereignisgetrieben, kein Ansatz. energie war
+im selben Nachtfenster bereits um 02:37 gelaufen (Run 183) — als Fortsetzung Run 184
+durchgeführt: 110er-Reihe (Gesundheit: RLT-Anlagen, Radon, Nichtionisierende Strahlung)
+vollständig destilliert, Anhang-B-Änderung zu 110.05 am Volltext verifiziert, neuer Artikel
+`wiki/radon-schutzmassnahmen.md`, `wiki/elektrosmog.md` um ECO-Zusatzanforderung ergänzt.
+Register (destillate/INDEX, wiki/INDEX, QUESTIONS, CHANGELOG) nachgeführt, Output-Report
+geschrieben. Commit nativ über `nas-commit-now.sh` ausgelöst.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 4.4 von 5 USD. Zyklus sauber beendet.
