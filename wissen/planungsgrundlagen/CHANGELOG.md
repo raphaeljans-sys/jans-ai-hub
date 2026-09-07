@@ -2,6 +2,37 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-07 (Wissens-Chef Lauf 53) — VKF-Statuslabel nachgezogen, eine zweite Rechtsfolge ergaenzt, ein Blocker entschaerft
+
+Alle drei Eingriffe additiv im Wiki. Der CHANGELOG-Eintrag vom 24.08.2026 (Run 42) bleibt als
+Journal-Snapshot **bewusst unangetastet** — ein datiertes Journal gibt seinen Stand korrekt
+wieder, nur der lebende Wiki-Artikel muss nachgefuehrt werden.
+
+- **`wiki/brandschutz-pl03-wegweiser.md` Z. 578: Statuslabel war veraltet.** Die Box zur
+  Arealbefreiung zitierte `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` mit
+  `status: established`; `normen` Run 79 (04.09.2026) hat das Destillat auf `speculative`
+  herabgestuft (27 Kern-, 6 Nebenluecken in den Tabellen 1-3, plus eine falsche Angabe in
+  Ziff. 3.1.2 Abs. 3). **Praezisiert statt pauschal korrigiert:** betroffen ist von Ziff. 2.3.4
+  der **Abs. 2** (Nutzungstrennung), nicht die hier zitierte Arealbefreiung nach Abs. 1 — die
+  Sachaussage bleibt gueltig, nur das Label war falsch.
+- **`wiki/brandschutz-pl03-wegweiser.md` §5g (Parkings): die zweite Rechtsfolge der
+  25-%-Schwelle fehlte ganz.** Der Abschnitt gibt Ziff. 12.2 der VKF-Arbeitshilfe 1001-15de
+  woertlich wieder und behandelt deshalb nur die Brandabschnittsflaeche (Ziff. 3.7.11). Dieselbe
+  Eingangsbedingung befreit nach **BSR 15-15de Tab. 1 Fussnote [3]** (Ziff. 3.7.1) zusaetzlich
+  das **Tragwerk** von jeder Feuerwiderstandsanforderung, in Bereichen bis **35 m** von einer
+  unverschliessbaren Oeffnung. Die 35-m-Grenze ist erst durch `normen` Run 79 belegt destilliert
+  worden und stand hub-weit nirgends sonst (Suche ueber die ganze Datei und `skills/brandschutz`:
+  null Treffer). Ergaenzt — die Stelle traegt einen eigenen «JANS-Praxisrelevanz»-Hinweis fuer
+  genau dieses Szenario.
+- **`wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` Z. 1426-1429: der Elektrosmog-Blocker
+  ist wahrscheinlich schon geloest, nur in einer anderen KB.** Der Artikel fuehrt das
+  AHB-Informationsblatt 5.7 seit dem 01.09.2026 als technisch unlesbar und empfiehlt OCR;
+  `energie` hat am 12.08.2026 ein inhaltlich passendes Blatt vollstaendig gelesen und als
+  `established` destilliert. **Adversarial eingeschraenkt und so gesetzt:** es ist eine **andere
+  Datei-Instanz aus einem anderen Ordner**, Identitaet wahrscheinlich (Titel, Herausgeber,
+  Datenstand 2002), aber **nicht bewiesen**. Naechster Schritt deshalb ein `pdftotext`-Diff gegen
+  die energie-Fassung, **nicht** OCR.
+
 ## 2026-09-03 (Wissens-Chef Lauf 52, zweiter Eintrag) — Witikon: der Wald-proj-Fall und der Weg, den es schon gab
 
 Eingang aus dem Fallreport `wissen/baurecht/outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md`.

@@ -13,7 +13,10 @@ Schnellreferenz für die verbindlichen CH-Schallschutz-Anforderungen. Speist FAQ
 Pflicht) und schärft **F17** (taugt CLT-Holzbau akustisch). Faktenbasis → `[[sia-181-schallschutz-anforderungswerte]]`.
 
 > **Querbezug KB normen (Fundstelle/Ausgabe):** Norm-Fundstelle SIA 181 führt die normen-KB
-> (`wissen/normen/destillate/sia-181-2006`, Register `wissen/normen/wiki/REGISTER` Zeile 109).
+> (`wissen/normen/destillate/sia-181-2006`, Register `wissen/normen/wiki/REGISTER`, Tabellenzeile
+> «SIA 181 | 2006» — Stand 07.09.2026 dort Z. 360; das Register waechst, deshalb ueber die
+> Normnummer suchen, nicht ueber die Zeilennummer. Vorher stand hier «Zeile 109», was auf
+> Fliesstext zum SIA-385/9-Praezedenzfall zeigte; berichtigt Wissens-Chef Lauf 53, 07.09.2026).
 > ⚠ **Ausgaben-Diskrepanz:** dieser Artikel arbeitet mit der aktuellen Ausgabe **SIA 181:2020**;
 > das normen-Register führt bislang **2006** als gültig (2013-Register-Benchmark). Re-Destillat
 > SIA 181:2020 in normen ausstehend (Wissens-Chef Run 3, 2026-07-13).

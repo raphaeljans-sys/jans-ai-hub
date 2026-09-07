@@ -51,6 +51,20 @@ und nicht Zitierquelle. **Sachlich wichtiger:** GV nach SIA 416 ist gegenueber A
 eigenstaendige Ziff. 6, Kernbefund Run 78). Vergleiche zwischen Varianten mit ungleichem
 Aussenflaechenanteil deshalb zusaetzlich ueber CHF/m2 fuehren.
 
+⚠⚠ **Die Abhilfe «zusaetzlich ueber CHF/m2 fuehren» traegt nicht** — Nachtrag aus Synergie-Lauf 28
+(**SYN-72**, 04.09.2026), hier gesetzt am 07.09.2026 durch Wissens-Chef Lauf 53; der Wortlaut
+darueber ist unangetastet. Die CHF/m2-Bezugsgroessen dieser KB (**GF**, **HNF**) gehoeren wie GV
+zur **Innen-Familie** nach SIA 416 Ziff. 1-2 (GF = NGF + KF; NGF = NF + VF + FF; NF = HNF + NNF).
+Die **AGF mit ANF/AVF liegt nach Ziff. 3 ausserhalb der umschlossenen GF** und ist in keiner
+dieser Groessen enthalten. Ein CHF/m2-Vergleich auf GF oder HNF ist gegenueber Balkonen,
+Terrassen und Laubengaengen also **genauso blind** wie der CHF/m3-GV-Vergleich. **Tragfaehig ist
+allein der separate Ausweis von ANF/AVF** — so formuliert es `agents/grobkosten-rechner.md`
+Z. 29-33. Belege: `wissen/immobilienbewertung/wiki/realwert-sachwert.md` Z. 520-533,
+`wissen/immobilienbewertung/wiki/flaechendefinitionen-sia.md` Z. 42-52, Bericht
+`wissen/koordination/outputs/2026-09-04_synergie-lauf-28.md` (SYN-72). Der Sachentscheid ueber
+den Ursprungssatz in `wissen/normen/destillate/sia-416-2003.md` bleibt Bringschuld der KB
+`normen`.
+
 > Status der Werte: **Seed, Wüest-kalibriert (07.06.2026)** — an die belegten Wüest-Kostenbenchmarks
 > (m²) angekoppelt, aber noch NICHT mit realen JANS-Schlussabrechnungen (m³) verifiziert. Reife
 > steigt mit jedem zurückgespeisten Realwert (siehe Compounding unten).

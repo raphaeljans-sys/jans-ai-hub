@@ -37,3 +37,38 @@ dem Connector. Das Logbuch führt seit dem 28.08.2026 eine osascript-Blockade vo
 auf dieser Station (ag-gruendung-monitor, Eintrag vom 04.09.). Lesende Abfragen antworten
 inzwischen wieder, das Senden nicht. Ein Alarmweg, der still in den Entwürfen endet, ist
 kein Alarmweg — die Prüfung der Entwurfszahl ist derzeit das Einzige, was das sichtbar macht.
+
+---
+
+## ⚠ NACHTRAG 07.09.2026 08:2x (vollgas-chef-radar, Station MacBook Pro) — DIE MAIL IST ZUGESTELLT
+
+Der Befund oben ist **widerlegt**. Gegenmessung vom MacBook Pro aus, auf demselben Konto:
+
+```
+Sonntag, 6. September 2026 um 18:09:07 | Abo-Auslastung blind seit 2 Läufen — Terminal, claude, /login
+```
+
+Die Nachricht liegt unter ihrem Betreff in der **Gesendet-Mailbox**, mit dem Sendezeitpunkt
+18:09:07, also exakt dem Zeitpunkt des `send`. Sie ist bei Raphael angekommen.
+
+**Was wirklich versagt hat, ist die Verifikation, nicht der Versand.** Der Mac Mini hat
+unmittelbar nach `send` in seiner eigenen Sicht auf die Gesendet-Mailbox nachgesehen und
+dort nichts gefunden. Zwei Gruende sind dafuer plausibel, beide unbewiesen und hier
+ausdruecklich als Vermutung markiert: die Gesendet-Mailbox des Kontos war auf dem Mini nicht
+synchron, oder die Pruefung lief, bevor Apple Mail den Entwurf in Gesendet umgelegt hatte.
+Die Zaehlung 149 → 150 belegt, dass ein Entwurf entstand, aber nicht, dass er liegen blieb.
+
+**Folgen fuer den naechsten Lauf am 13.09.:**
+
+1. Der **zweite blinde Fleck existiert so nicht.** Der Versandkanal des Mac Mini traegt;
+   was nicht traegt, ist die Erfolgskontrolle auf dieser Station. Den Kanal nicht eskalieren.
+2. Die Verifikationsvorschrift (Lehre 260812f) **bleibt richtig**, ihre Ausfuehrung auf dem
+   Mini ist es nicht: eine Pruefung sofort nach `send` gegen eine moeglicherweise nicht
+   synchrone Mailbox erzeugt einen falschen Negativbefund. Wer sie dort fahren will, wartet
+   und misst erneut, oder prueft von der anderen Station aus.
+3. Der **erste** blinde Fleck bleibt unveraendert offen: der Connector misst seit dem 23.08.
+   nichts, `/login` auf dem Mac Mini ist weiterhin der Handgriff. Der Zaehler
+   `ausfaelleInFolge` bleibt zu Recht bei 2 — er zaehlt Messausfaelle, nicht Mailausfaelle.
+
+Gleiche Familie wie Rule `auto-verbesserungen` 260730b und 260807: **ein leeres
+Suchergebnis ist zuerst eine Aussage ueber das Werkzeug, nicht ueber die Sache.**

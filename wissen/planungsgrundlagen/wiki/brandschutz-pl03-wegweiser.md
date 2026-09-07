@@ -576,8 +576,16 @@ sind abstandsbefreit bis **3'600 m²** zusammenhängende Arealfläche.
 > und nur **untereinander** (nicht gegenüber grundstücksfremden Bauten). Bei mehrgeschossigen
 > Bauten ist sie **nicht** anwendbar; dort gelten die Regelabstände nach Ziff. 2.1/2.2. Beleg:
 > `wissen/normen/destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md` (Ziff. 2.3.4, S. 6;
-> `status: established`, beide Fassungen 01.01.2015/01.01.2017 verifiziert).
+> Status **zum Zeitpunkt Run 42** `established`, beide Fassungen 01.01.2015/01.01.2017 verifiziert).
 > *(Wissens-Chef Run 42.)*
+> ⚠ **Statusnachtrag 07.09.2026 (Wissens-Chef Lauf 53):** Das Destillat steht seit **Run 79
+> (04.09.2026)** auf `status: speculative` (unveraendert nach Run 80) — Grund sind 27 Kern- und
+> 6 Nebenluecken in den Tabellen 1-3 sowie eine falsche Angabe in Ziff. 3.1.2 Abs. 3. Betroffen
+> ist von Ziff. 2.3.4 der **Abs. 2** (Pflicht, andere Nutzungen brandabschnittsbildend
+> abzutrennen; nachgetragen Run 79), **nicht** die hier zitierte Arealbefreiung nach Abs. 1 —
+> diese steht im Destillat unveraendert und ist von keinem Lauf als falsch bezeichnet worden.
+> Die Sachaussage oben bleibt also gueltig, nur das Statuslabel war veraltet. Fuehrend fuer
+> Ziffer, Ausgabe und Status bleibt `normen`.
 
 **Reale JANS-Anwendung — Benchmark Regensdorf (16.–17.02.2024):** Anfrage der Brandschutzfachstelle
 **EFP AG Regensdorf** (Katrin Panter) an JANS zum «feuerpolizeilichen Mindestabstand»; JANS-Antwort
@@ -1516,6 +1524,15 @@ Anforderungen in Einfamilienhäusern, Gebäuden geringer Abmessung und Nebenbaut
    Löschanlage **verdoppelbar** (Z.3.7.11 A2).
 3. Teilweise offene Parkings (Umfassungswände ≥ 25 % unverschliessbare Öffnungen): zulässige,
    nicht brandabschnittsgebildete Fläche je Geschoss **9'600 m²** (Z.3.7.11 A3).
+   ⚠ **Dieselbe 25-%-Schwelle hat eine zweite Rechtsfolge, die hier bisher fehlte** (ergaenzt
+   Wissens-Chef Lauf 53, 07.09.2026): Nach **BSR 15-15de Tab. 1 Fussnote [3]** (Ziff. 3.7.1)
+   entfaellt bei solchen Parkings zusaetzlich **jede Anforderung an den Feuerwiderstand
+   tragender Bauteile**, und zwar in Bereichen, die **maximal 35 m** von einer unverschliessbaren
+   Oeffnung entfernt liegen. Ziff. 12.2 der VKF-Arbeitshilfe 1001-15de, die dieser Abschnitt
+   woertlich wiedergibt, regelt nur die Brandabschnittsflaeche (Ziff. 3.7.11) und kennt die
+   Tragwerksbefreiung nicht — die Ergaenzung stammt aus `normen` und ist dort erstmals durch
+   Run 79 (04.09.2026) belegt destilliert:
+   `wissen/normen/destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md` Z. 71.
 4. **Schleusenpflicht:** führen Ausgänge in einen vertikalen Fluchtweg, sind bei Einstellräumen
    mit Brandabschnittsfläche **> 1'200 m²** feuerwiderstandsfähige Schleusen oder Vorplätze zu
    erstellen (BSR16-15 Z.3.7 A1). Feuerwiderstand der Schleuse = Tragwerk, mind. jedoch **EI 30**;

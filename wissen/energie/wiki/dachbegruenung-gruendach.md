@@ -93,6 +93,16 @@ Begrünung kühlt PV-Panels über Verdunstung (ertragsrelevant). Abstimmungsrege
 Bei Dachgefälle **< 1,5 %**: konstruktive Massnahmen gegen Staunässe in der Vegetationsschicht
 nötig (SIA 271/2007, Ziff. 2.2.1.1/2.6.1.1/5.1.4).
 
+⚠ **Ausgabe 2007 ist ueberholt** (ergaenzt Wissens-Chef Lauf 53, 07.09.2026): SIA 271:2007 ist
+seit **31.10.2021** archiviert, geltend ist **SIA 271:2021** (`wissen/normen/wiki/REGISTER.md`
+Z. 430, belegt an der shop.sia.ch-Produktseite). Das Normen-Destillat
+`wissen/normen/destillate/sia-271-2007.md` Z. 91-92 verlangt seit dem 24.08.2026 ausdruecklich,
+diese Ausgabe **nur noch mit Vorbehalt** zu zitieren — der Vorbehalt fehlte hier. Ob die
+zitierten Ziffern in der Ausgabe 2021 unveraendert sind, ist **offen**: der Volltext 2021 liegt
+nicht im Haus (Bring-Schuld bei `normen`), und die Wegleitung zur Neuausgabe kuendigt
+Aenderungen an, ohne sie zu benennen. Vor jedem Zitat in einem JANS-Erzeugnis am Original
+gegenlesen.
+
 ## Qualitätskontrolle (nach 2 Vegetationsperioden)
 Vegetationsdeckung ≥ 60 %, mindestens 25 Pflanzenarten pro 200 m² (ausgesät und spontan, keine
 Einzelpflanzen), keine Art über 30 % Deckung, gut verwurzelter robuster Bewuchs.

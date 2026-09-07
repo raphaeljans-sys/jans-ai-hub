@@ -1,5 +1,23 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-09-07 (Wissens-Chef Lauf 53) — die Abhilfe aus Lauf 52 traegt nicht; SYN-72 nachgezogen
+
+**`wiki/kennwerte.md`:** Der am 03.09.2026 gesetzte Aussenflaechen-Vorbehalt endete mit der
+Empfehlung, Varianten «zusaetzlich ueber CHF/m2» zu vergleichen. Der Synergie-Lauf 28 hat diese
+Abhilfe am **04.09.2026 widerlegt** (SYN-72) und die Korrektur in
+`immobilienbewertung/wiki/realwert-sachwert.md` gesetzt — **in dieser KB kam sie nie an**
+(gemessen: `SYN-72`, `04.09.2026`, `traegt nicht` je null Treffer im ganzen Ordner). Der
+Synergie-Lauf hat `grobkosten` dabei nicht bewusst ausgenommen; er hat nur geprueft, welcher der
+fuenf Bausteine den tragfaehigen Ausweg vollstaendig formuliert, und die eigene, gleich
+betroffene Formulierung hier uebersehen.
+
+**Der Sachgrund:** GF und HNF gehoeren wie GV zur **Innen-Familie** nach SIA 416 Ziff. 1-2; die
+AGF mit ANF/AVF liegt nach Ziff. 3 **ausserhalb** der umschlossenen GF. Ein CHF/m2-Vergleich auf
+GF oder HNF ist gegenueber Balkonen und Laubengaengen also genauso blind wie CHF/m3 GV. Tragfaehig
+ist allein der **separate Ausweis von ANF/AVF**. Additiv nachgetragen, der Wortlaut darueber
+unangetastet; die Kennwerte selbst sind unveraendert. Der Sachentscheid ueber den Ursprungssatz
+in `normen/destillate/sia-416-2003.md` bleibt Bringschuld der KB `normen`.
+
 ## 2026-09-03 (Wissens-Chef Lauf 52) — Aussenflaechen-Vorbehalt zu CHF/m3 GV; offener Rest von N46-3 geschlossen
 
 Eingang aus `normen` Run 78 (03.09.2026), der die SIA-416-Anhangfiguren messend abgedeckt hat.

@@ -1,5 +1,40 @@
 # CHANGELOG
 
+## 2026-09-07 (Wissens-Chef Lauf 53) — drei Normfundstellen im Zuwachs der Runs 183/184 nachgeschaerft
+
+Cross-KB-Pruefung `energie` ↔ `normen` und ↔ `planungsgrundlagen`, adversarial verifiziert.
+Alle drei Eingriffe sind **additiv**, kein bestehender Wortlaut wurde umgeschrieben.
+
+- **`wiki/radon-schutzmassnahmen.md` (Run 184, neu): die Normfundstelle «SIA 382/1:2014
+  Kap. 5.12» ist nicht gedeckt.** Die einzige deklarierte Quelle des Artikels
+  (`destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md`) nennt weder die Norm noch die
+  Ziffer — Volltextsuche ueber alle 466 Zeilen: null Treffer. Eine Ziff. 5.12 zu SIA 382/1 fuehrt
+  `destillate/ahb-zuerich-gt-rl5-lueftungsanlagen.md` Z. 28, aber zur **Ausgabe 2007** und zu
+  einem anderen Regelungsgegenstand (Aussenluftfassungen statt Zu-/Abluftverhaeltnis); dieselbe
+  Datei traegt Z. 95 selbst den Pruefvorbehalt. Zudem ist SIA 382/1:2014 seit 01.02.2025 durch
+  **SIA 382/1:2025** ersetzt — ein Stand, den `wiki/INDEX.md` Z. 140-142 dieser KB seit Wochen
+  selbst fuehrt. ⚠-Vermerk gesetzt.
+- **`wiki/radon-schutzmassnahmen.md`: Abgrenzung ECO-Schwelle gegen Gesetz ergaenzt.** Die
+  Tabelle fuehrte 100/300 Bq/m³ als Minergie-ECO-Werte, ohne den gesetzlichen Referenzwert
+  **300 Bq/m³ nach StSV Art. 155 Abs. 2** zu nennen (fuehrend `planungsgrundlagen`,
+  `recht-norm-radonschutz` Z. 30). Kein Zahlenwiderspruch — aber der ECO-Neubauwert 100 Bq/m³
+  konnte als «der» Grenzwert missverstanden werden. Absatz mit Verweis gesetzt.
+- **`wiki/dachbegruenung-gruendach.md` Z. 94: SIA 271:2007 ohne den vorgeschriebenen
+  Ausgaben-Vorbehalt zitiert.** Die Ausgabe ist seit 31.10.2021 archiviert, geltend ist
+  SIA 271:2021 (`normen/wiki/REGISTER.md` Z. 430). Das Destillat `normen/destillate/sia-271-2007.md`
+  Z. 91-92 verlangt seit dem 24.08.2026 ausdruecklich, nur noch mit Vorbehalt zu zitieren; der
+  Artikel wurde am 07.09. (Run 183) angefasst, ohne ihn zu setzen. Nachgetragen — mit dem
+  ehrlichen Zusatz, dass **offen bleibt**, ob die zitierten Ziffern in der Ausgabe 2021
+  unveraendert sind (Volltext 2021 nicht im Haus, Bring-Schuld bei `normen`).
+- **`wiki/schallschutz-sia181.md` Z. 16: Zeigerkorrektur.** Der Verweis «Register … Zeile 109»
+  traf Fliesstext zum SIA-385/9-Fall; die SIA-181-Tabellenzeile liegt bei Z. 360. Auf einen
+  stabilen Anker (Normnummer statt Zeilennummer) umgestellt.
+
+**Lehre, uebertragbar:** ein Artikel darf keine Norm-Ziffer tragen, die in keiner seiner
+deklarierten Quellen steht. Der Fehler entsteht nicht durch Erfinden, sondern durch stilles
+Zusammenziehen zweier Quellen — hier einer Ausgabe 2007 aus einer anderen Datei auf eine
+Aussage von 2014.
+
 ## 2026-09-07 — Run 184 (Nachtschicht Mac Mini): 110er-Reihe (Gesundheit/RLT/Radon/NIS) destilliert
 
 - **Bearbeitet:** E-R183-1 (Teil 110er-Reihe von rund 20 verbleibenden Vorgaben). Vollständig

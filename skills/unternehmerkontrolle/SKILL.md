@@ -69,6 +69,17 @@ regierapport.md       ← Regie-Stundenrapport pruefen (L04)
 7. **Garantie** — Garantieschein/Buergschaft 10 % einholen (`garantieschein.md`),
    **Garantieverfalldaten** erfassen und Liste fuehren (Garantiefrist 2 J.,
    Verjaehrung 5/10 J., Fristbeginn Abnahme).
+   ⚠ **Verdeckte Maengel: 60 Tage ab Entdeckung, nicht «sofort»** (ergaenzt Wissens-Chef
+   Lauf 53, 07.09.2026). Die Korrigenda **SIA 118-C1:2026** aendert Art. 179 Abs. 2 von der
+   «sofortigen» Ruegeobliegenheit auf eine Frist von **60 Tagen ab Entdeckung** des verdeckten
+   Mangels; fuer Vertraege, die **ab 01.01.2026** abgeschlossen werden, gilt die Frist wegen
+   der OR-Revision (AS 2025 270) ohnehin **zwingend**, auch ohne Vereinbarung der Korrigenda.
+   Sie betrifft **nur verdeckte** Maengel, nicht die Ruege offener Maengel und nicht die
+   Garantiefrist nach Art. 172. **Praxis: Entdeckungsdatum jedes verdeckten Mangels
+   dokumentieren und die Ruege deutlich innert der Frist absetzen** — eine verspaetete Ruege
+   kostet die Maengelrechte. Quelle `wissen/normen/destillate/sia-118-c1-2026.md`
+   (`status: established`, Refuter-verifiziert Run 47); dieses Destillat nennt diesen Skill
+   selbst als Abnehmer.
 
 ## Regeln
 
@@ -85,7 +96,7 @@ regierapport.md       ← Regie-Stundenrapport pruefen (L04)
   **Solidarbuergschaft nach der Abnahme** 10 % der Verguetungssumme, ueber Fr. 200'000.–
   nur 5 %, mindestens Fr. 20'000.–, hoechstens Fr. 1 Mio. (**Art. 181**), zu leisten bis
   alle verbuergten Maengelrechte erloschen sind; ausnahmsweise Bargarantie (Art. 182).
-  Quelle `wissen/normen/destillate/sia-118-1991.md`, `status: established`.
+  Quelle `wissen/normen/destillate/sia-118-1991.md`, `status: speculative` (herabgestuft Run 62, 26.08.2026 — die Herabstufung betrifft eine offene **Abdeckungs**richtung bei Nebenbefunden, ausdruecklich **nicht** die Richtigkeit der hier zitierten Werte; Statuslabel nachgezogen Wissens-Chef Lauf 53, 07.09.2026. Vor dem Zitieren das Feld `status:` im Destillat selbst pruefen.).
 - Maengel als **Pendenzen** spiegeln (Skill `pendenzenliste`) und Termine im
   Skill `terminplanung` nachfuehren.
 - **MWST 8,1 %**, JANS-Dokumentstandard (`10_dokumente-standard.md`), doppelte Ablage.

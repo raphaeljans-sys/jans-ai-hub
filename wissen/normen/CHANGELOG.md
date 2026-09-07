@@ -1,3 +1,20 @@
+
+
+## 2026-09-07 (Wissens-Chef Lauf 53) — Cross-KB-Eingang: Registerluecke SIA 2060
+
+**`wiki/QUESTIONS.md`, neuer Punkt WC53-1.** Die KB `energie` arbeitet mit den Ausbaustufen
+A/B/C1/C2/D des **SIA-Merkblatts 2060** «Elektromobilitaet und Schnittstellen zum Gebaeude»
+(Ausgabe 01.05.2020) und fuehrt dazu ein eigenes Destillat samt Wiki-Artikel; in dieser KB gibt
+es **weder Destillat noch Inventareintrag noch Registerzeile** (Volltextsuche ueber den ganzen
+Baum). «C1» ist eine echte SIA-2060-Stufe, keine Minergie-interne Ziffer — damit eine
+Norm-Fundstelle und nach der Fuehrungsmatrix Sache dieser KB.
+
+Erschwerend und der eigentliche Grund fuer die Meldung: **auch `energie` hat die Primaernorm nie
+eingesehen** (kostenpflichtig, im dortigen Destillat vermerkt); alle Aussagen stammen aus
+Sekundaerquellen. Genau solche «zitiert, aber nie am Original geprueft»-Faelle zu fuehren, ist
+Aufgabe dieser KB. Gebeten ist zunaechst nur die Registerzeile mit dem Vermerk «Primaernorm nicht
+im Haus», nicht die Beschaffung.
+
 ## 2026-09-07 — Normen-Nacht Run 80 (MacBook Pro, SIA/VKF)
 
 **Die zwei Teile, die Run 79 an `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` selbst als

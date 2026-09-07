@@ -1,5 +1,32 @@
 # Offene Fragen — KB Normen
 
+## Cross-KB-Eingang Wissens-Chef Lauf 53 (07.09.2026) — SIA 2060 fehlt im Register
+
+**WC53-1 — Registerlücke SIA 2060 «Elektromobilität und Schnittstellen zum Gebäude»
+(Merkblatt, Ausgabe 01.05.2020).** Die KB `energie` arbeitet mit den Ausbaustufen A/B/C1/C2/D
+dieses Merkblatts: `wissen/energie/wiki/minergie-standards.md` Z. 63 zitiert «SIA 2060 C1» als
+Normgrundlage (Minergie-Produktreglement 2026.1 verweist auf diese Stufen), und es gibt bereits
+ein eigenes Destillat `wissen/energie/destillate/sia-2060-kosten-ladeinfrastruktur-vertiefung.md`
+samt Wiki-Artikel `elektromobilitaet-ladeinfrastruktur`. In dieser KB dagegen: **kein Destillat,
+kein Inventareintrag, keine Registerzeile** — Volltextsuche über den ganzen `wissen/normen/`-Baum
+nach «2060» trifft ausschliesslich Klimaszenario-Jahreszahlen in `sia-2028-ergaenzung-korrigenda`;
+die Breitensuche nach «Ladeinfrastruktur», «Elektrofahrzeug», «E-Mobilität», «Ladestation» trifft
+nur themenfremd. Der einzige bestehende QUESTIONS-Punkt zu Elektrofahrzeugen (SN EN 50272-3 /
+VDI 2166, Batterieräume) hält ausdrücklich fest, dass die Ladeinfrastruktur-Bemessung dort
+**nicht** behandelt ist.
+
+**Warum das hierher gehört und nicht nach `energie`:** «C1» ist eine echte SIA-2060-Stufe, keine
+Minergie-interne Ziffer — damit ist es nach der Führungsmatrix eine Norm-Fundstelle, und die
+führt diese KB. Erschwerend: **auch `energie` hat die Primärnorm nie eingesehen** (im dortigen
+Destillat ausdrücklich vermerkt: «Primärnorm weiterhin kostenpflichtig, nicht eingesehen»); alle
+Aussagen stammen aus Sekundärquellen (AWEL-Infoblatt des Kantons Zürich, ein Fachreferat). Genau
+solche «zitiert, aber nie am Original geprüft»-Fälle systematisch zu führen, ist die Aufgabe
+dieser KB. **Gebeten ist zunächst nur die Registerzeile** samt Vermerk «Primärnorm nicht im
+Haus», nicht die Beschaffung.
+
+Gemeldet vom Wissens-Chef (Lauf 53, adversarial verifiziert), Bericht
+`wissen/koordination/outputs/2026-09-07_wissens-chef-run53.md`.
+
 ## Normen-Nacht Run 80 (07.09.2026) — die Ersatzmassnahmen-Matrix ist aufgenommen; drei Punkte bleiben offen
 
 **Betrifft `destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md`.** Run 79 hatte zwei

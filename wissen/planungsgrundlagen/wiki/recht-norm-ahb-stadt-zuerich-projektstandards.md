@@ -1428,6 +1428,18 @@ der Backlog nicht erneut aufgemacht wird:
   korrektem Seitenlayout). Kein Recherche-Nichtfund, sondern ein technischer Blocker; Kandidat für
   einen Re-Versuch mit OCR (`ocrmypdf`) in einem Folgelauf, niedrige Priorität (Elektrosmog ist
   kein JANS-Kernthema).
+  ⚠ **Nachtrag 07.09.2026 (Wissens-Chef Lauf 53): Der Inhalt liegt sehr wahrscheinlich bereits
+  gelesen im Hub — OCR ist nicht der naechste Schritt.** Die KB `energie` hat am 12.08.2026
+  (Run 127) ein inhaltlich passendes AHB/EWZ-Informationsblatt «Elektrosmog» vollstaendig per
+  `pdftotext` gelesen und als `status: established` destilliert:
+  `wissen/energie/destillate/elektrosmog-informationsblatt-ahb-ewz.md`, dazu der Wiki-Artikel
+  `wissen/energie/wiki/elektrosmog.md`. **Einschraenkung, adversarial gemessen:** es ist eine
+  **andere Datei-Instanz** aus einem anderen Ordner (energie las `eco/4.76Elektrosmog.pdf`, hier
+  blockiert ist `18-Nachhaltiges Bauen/Elektrosmog_(Informationsblatt_5.7).pdf`); Titel,
+  Herausgeber und Datenstand 2002 stimmen ueberein, die Identitaet ist aber **nicht bewiesen**.
+  Naechster Schritt ist deshalb ein **`pdftotext`-Diff gegen die energie-Fassung** (in `energie`
+  fuer eine dritte Instanz bereits zweimal so praktiziert), nicht OCR — und OCR nur, falls der
+  Diff eine echte Abweichung zeigt.
 - **«Gebäudescreening» (Checkliste):** Vorstufe zum bereits dokumentierten Gebäudecheck
   ([[energie-baustoffe-schadstoffe-rueckbau]]) — rein visuelle Erstbegehung ohne Werkzeuge/
   Sondierung (findet **keine verdeckten** Asbestvorkommen, dafür bleibt der Gebäudecheck zwingend),

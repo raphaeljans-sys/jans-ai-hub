@@ -70,7 +70,7 @@ Pro Position pruefen:
 - **Gewaehrleistung** (typisch 2 Jahre — das ist zugleich die Garantie-/Ruegefrist nach
   SIA 118:1991 Art. 172; die **5 Jahre** sind NICHT die Gewaehrleistung, sondern die
   separate Verjaehrung der Maengelrechte nach Art. 180. Quelle
-  `wissen/normen/destillate/sia-118-1991.md`, `status: established`. Korrigiert
+  `wissen/normen/destillate/sia-118-1991.md`, `status: speculative` (herabgestuft Run 62, 26.08.2026 — die Herabstufung betrifft eine offene **Abdeckungs**richtung bei Nebenbefunden, ausdruecklich **nicht** die Richtigkeit der hier zitierten Werte; Statuslabel nachgezogen Wissens-Chef Lauf 53, 07.09.2026. Vor dem Zitieren das Feld `status:` im Destillat selbst pruefen.). Korrigiert
   16.08.2026, Wissens-Chef Run 34 — die Zeile las sich zuvor als «SIA 118 5 Jahre»
   und haette eine normkonforme 2-Jahres-Offerte als unterdurchschnittlich bewertet.)
 - **Preisbindung** (fix oder Indexbindung)

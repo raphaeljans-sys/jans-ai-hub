@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.09.2026 08:14:41
+Stand: 07.09.2026 08:25:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:53)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 07.09.2026 08:14:41
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- a387966b5 nas-selfcommit: 7 Datei(en) 2026-09-07 08:00
+- 06ed86853 fristen: Verzugscheck 07.09.2026 — bexio-Zugang Tag 30, alle drei Proben HTTP 401

@@ -73,7 +73,7 @@ Aufwand → Kostendach) und mit Default vorschlagen.
    Abnahme** 10 %, ueber Fr. 200'000.– noch 5 %, min. Fr. 20'000.– (**Art. 181**), beide
    max. Fr. 1 Mio. Garantie-/Ruegefrist 2 J. (Art. 172), Verjaehrung der Maengelrechte
    5 J. (Art. 180), bei absichtlich verschwiegenen Maengeln 10 J. Quelle
-   `wissen/normen/destillate/sia-118-1991.md`, `status: established`.
+   `wissen/normen/destillate/sia-118-1991.md`, `status: speculative` (herabgestuft Run 62, 26.08.2026 — die Herabstufung betrifft eine offene **Abdeckungs**richtung bei Nebenbefunden, ausdruecklich **nicht** die Richtigkeit der hier zitierten Werte; Statuslabel nachgezogen Wissens-Chef Lauf 53, 07.09.2026. Vor dem Zitieren das Feld `status:` im Destillat selbst pruefen.).
 6. **PDF** erzeugen (Verbindlichkeit), **doppelt ablegen** (Projektordner
    `…06 WV/` + AI-Hub-Output), **Mail-Entwurf** nach `10_dokumente-standard.md`.
 7. **Uebergabe an Phase H**: Garantieverfalldaten, Termine, Regieansaetze und
