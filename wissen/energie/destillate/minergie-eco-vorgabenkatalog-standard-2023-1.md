@@ -2,11 +2,11 @@
 quelle: "Vorgabenkatalog Zusatz ECO — Alle zertifizierbaren Gebäudekategorien, Nachweisversion 2023.1 — https://www.minergie.ch/media/250123_vorgabenkatalog_eco_alle_gebaudekategorien_v2023.1_de_1.pdf — 102 Seiten, öffentlich abgerufen 06.09.2026"
 herausgeber: "Verein ecobau (Inhalt/Urheberrecht) gemeinsam mit Minergie Schweiz (Zertifizierungsträger)"
 ausgabe: "Nachweisversion 2023.1. ⚠ **Zwei Dateifassungen derselben Nachweisversion — korrigiert Run 182, 06.09.2026.** Run 180/181 destillierten die Datei `250123_vorgabenkatalog_eco_alle_gebaudekategorien_v2023.1_de_1.pdf` (704'047 Bytes, 102 Seiten, Titelblatt-Dokumentstand 23.01.2025). Die Minergie-Website verlinkt am 06.09.2026 jedoch **nicht** diese Datei, sondern `vorgabenkatalog-eco-alle-gebaeudekategorien-v2023-1_2.pdf` (733'748 Bytes, **109 Seiten, 59 Vorgaben**, Anhang B mit Nachträgen bis **01.07.2026**). Die alte URL liefert weiterhin HTTP 200, ist aber nicht mehr verlinkt. Die im Frontmatter von Run 180 stehende Aussage, die Website verlinke «exakt diese Datei», ist damit widerlegt. Massgeblich ist die Fassung mit Dokumentstand 01.07.2026"
-gelesen: "teilweise — Einführungskapitel (S. 4-7), Sektion Schallschutz und Raumakustik 130.01-130.07 (S. 32-41, Run 180) und Vorgaben 210.01/210.02 Graue Energie/THGE Erstellung inkl. FAQ (S. 50-53, Run 181), beide an der Fassung 23.01.2025; **vollständige 220er-Reihe Gebäudekonzept und Kreislaufwirtschaft 220.01-220.11 und 220.50 (S. 71-91/109, Run 182, 06.09.2026)** sowie **vollständige 230er-Reihe Biodiversität/Wasserkreislauf 230.01-230.08 und Klimaresilienz 240.01-240.02 (S. 91-104/109, Run 183, 07.09.2026)**, beide an der geltenden Fassung 01.07.2026, dazu der vollständige normalisierte Fassungs-Diff der 220er-Reihe zwischen beiden Dateifassungen und Anhang B beider Fassungen. NICHT gelesen: die übrigen ~29 Vorgaben zu RLT-Anlagen/Strahlung, Schadstoffen, Tageslicht (Gesundheit, 110.x/120.x/140.x) sowie Innovation Ökologie (250.01) — Fortsetzung für künftige Läufe vorgesehen"
+gelesen: "teilweise — Einführungskapitel (S. 4-7), Sektion Schallschutz und Raumakustik 130.01-130.07 (S. 32-41, Run 180) und Vorgaben 210.01/210.02 Graue Energie/THGE Erstellung inkl. FAQ (S. 50-53, Run 181), beide an der Fassung 23.01.2025; **vollständige 220er-Reihe Gebäudekonzept und Kreislaufwirtschaft 220.01-220.11 und 220.50 (S. 71-91/109, Run 182, 06.09.2026)**, **vollständige 230er-Reihe Biodiversität/Wasserkreislauf 230.01-230.08 und Klimaresilienz 240.01-240.02 (S. 91-104/109, Run 183, 07.09.2026)** sowie **vollständige 110er-Reihe Gesundheit/RLT/Radon/Nichtionisierende Strahlung 110.01-110.05 und 110.50 (S. 9-18/109, Run 184, 07.09.2026)**, alle drei an der geltenden Fassung 01.07.2026, dazu der vollständige normalisierte Fassungs-Diff der 220er-Reihe zwischen beiden Dateifassungen und Anhang B beider Fassungen. NICHT gelesen: die übrigen ~23 Vorgaben zu Schadstoffen (120.x), Tageslicht/Aktivierung (140.x) sowie Innovation Ökologie (250.01) — Fortsetzung für künftige Läufe vorgesehen"
 datenstand: "**01.07.2026** (Dokumentstand der geltenden Fassung; Zwischenstände 19.01.2026 und 23.01.2025). Die Abschnitte zu Schallschutz 130.01-130.07 (Run 180) und Graue Energie/THGE 210.01/210.02 (Run 181) wurden an der älteren Fassung 23.01.2025 gelesen, per Anhang-B-Abgleich (Run 183) aber als inhaltlich unverändert gegenüber der geltenden Fassung bestätigt; für die 220er- und 230er/240er-Reihe (Run 182/183) wurde die geltende Fassung direkt verwendet und der Fassungs-Diff ausgewiesen. Vorgaben-Inhalte gültig ab 13.09.2023 analog Produktreglement"
 status: emerging
 geltungsbereich: "Einzelagenten-Lauf, kein Refuter-Panel — noch nicht durch eine zweite, unabhängige Prüfinstanz gegengelesen. Nur der gelesene Teilumfang (siehe 'gelesen') ist durch dieses Destillat gedeckt"
-verifikation: "eigener curl-Download + pdftotext -layout-Volltextextraktion der Originalquelle am 06.09.2026 (Run 182) bzw. 07.09.2026 (Run 183); alle unten zitierten Werte direkt aus dem extrahierten Text übernommen, keine Paraphrase der Zahlen"
+verifikation: "eigener curl-Download + pdftotext -layout-Volltextextraktion der Originalquelle am 06.09.2026 (Run 182) bzw. 07.09.2026 (Run 183/184); alle unten zitierten Werte direkt aus dem extrahierten Text übernommen, keine Paraphrase der Zahlen. Anhang-B-Änderung zu 110.05 (Run 184) wörtlich gegen den Vorgabentext verifiziert, siehe Abschnitt 110er-Reihe"
 last_updated: 2026-09-07
 ---
 
@@ -384,16 +384,67 @@ Gitterroste): keine Ausschlussvorgabe, nur 1 Punkt, deutlich höhere Flächen-/L
 ZH-Pflicht nachgetragen) sind die fachlich nächsten bestehenden Artikel; für 230.02-230.06 und
 240.01 existiert noch kein eigener Themenartikel (offen, siehe unten).
 
+## Die 110er-Reihe: Gesundheit — RLT-Anlagen, Radon, Nichtionisierende Strahlung (Run 184, 07.09.2026)
+
+Vollständig gelesen an der geltenden Fassung (Dokumentstand 01.07.2026, S. 9-18/109, eigener
+curl+pdftotext derselben Datei wie Run 182/183). Sechs Vorgaben:
+
+- **110.01 Be- und Entfeuchtung raumlufttechnischer Anlagen** (normale Vorgabe, 1 Punkt):
+  RLT-Anlagen ohne aktive Befeuchtungs-/Entfeuchtungsanlage; Ausnahme für Museen/Archive als
+  N/A möglich; bei Erneuerung wird eine bestehende Anlage ausser Betrieb genommen. BKP 244, 245.
+- **110.02 Hygieneinspektion raumlufttechnischer Anlagen** (normale Vorgabe, 2 Punkte): Erst-
+  bzw. Wiederholungsinspektion nach SWKI-Richtlinie VA104-01 vor Bezug durch eine vom
+  ausführenden Unternehmen unabhängige Fachperson (Kategorie A nach VDI 6022 Blatt 4); Mängel
+  binnen 2 Wochen nach Bezug beheben. Kleinstanlagen (≤ 100 m³/h) und Küchenabluft ausgenommen.
+- **110.03 Radon: Schutzmassnahmen** (normale Vorgabe, 2 Punkte) und **110.04 Radon:
+  Raumluftmessungen Neubau** (normale Vorgabe, 2 Punkte) sowie **110.50 Radon:
+  Raumluftmessungen Erneuerung** (**Ausschlussvorgabe**, zu 100 % zu erfüllen): einheitlicher
+  Zielwert **≤ 100 Bq/m³** (Neubau, inkl. Messunsicherheit ≤ 200 Bq/m³) bzw. **≤ 300 Bq/m³**
+  (Erneuerung, Ausschlussvorgabe, Wert inkl. Messunsicherheit ebenfalls ≤ 300 Bq/m³ — bei der
+  Erneuerung ist die Messunsicherheit also bereits im Grenzwert selbst enthalten, keine
+  zusätzliche Toleranz). Bauliche Massnahmen: durchgehende Fundamentplatte statt
+  Streifenfundament/Naturkeller, Radondrainage aus perforierten Rohren Ø 10 cm unter der
+  Bodenplatte, Rohrdurchführungssysteme (RDS) bei Durchdringungen, wasserdichter Beton nach
+  SIA 272 oder gasdichte Feuchtigkeitssperren, Erdsonden-Abstand ≥ 3 m vom Gebäude, exaktes
+  Einregulieren der Lüftung (Zu-/Abluftverhältnis 1 bis 1.05). Messmethodik: passive, METAS-
+  zugelassene Dosimeter, mindestens 2 (Erneuerung, vor Massnahme) bzw. 3 Monate (nach
+  Fertigstellung) exponiert, in 1-1.5 m Höhe in typischen Aufenthaltsräumen im untersten
+  Geschoss; Nachmessung bei Neubauten bis 1.5 Jahre nach Fertigstellung nachzureichen. Labelmessungen
+  nach GI «Gutes Innenraumklima» werden anerkannt. Zertifizierungsstelle und Messfachperson
+  müssen unterschiedlichen Firmen angehören. BKP: alle.
+- **110.05 Nichtionisierende Strahlung: NIS-Zonenplan** (normale Vorgabe, 2 Punkte): NIS-
+  Zonenplan mit Raumzuordnung nach Nutzungszonen A (besonders empfindlich: Kinderkrippen,
+  -horte, -gärten, -spielplätze, Schulzimmer, Schlafzimmer, Bettenzimmer) und B (Büros,
+  Werk-/Aufenthalts-/Versammlungs-/Sporträume) nach der Planungsrichtlinie PR-NIS; Verteiler,
+  Steigzonen und Mittel-/Niederspannungstrassen sowie PV-Wechselrichter dürfen nicht in NZA/NZB
+  geführt werden; bei meldepflichtigen Anlagen (NISV) sind 1-µT- und 0.4-µT-Linie darzustellen.
+  **Anhang-B-Änderung 23.01.2025 am Volltext verifiziert:** die dort behauptete «Präzisierung
+  bezüglich ortsfester Sendeantennen für die drahtlose Inhouse-Kommunikation (WLAN etc.)» deckt
+  sich wörtlich mit dem gelesenen Vorgabentext («Darstellung ortsfester Sendeantennen … Montage
+  an Wänden und möglichst deckennah») — Änderung bestätigt, keine weitere Diskrepanz. In
+  Räumen der NZA zusätzlich empfohlen: Rohre im Wandbereich statt raumquerend, keine
+  Einzeldraht-Leitungen, Verzicht auf WLAN-Sendeantennen. Spitäler: Untersuchungs-/
+  Behandlungsräume ausgenommen. BKP 153, 231, 232, 234, 235.
+
+### Bezug zu bestehenden Wiki-Artikeln
+
+`[[elektrosmog]]` ist der bestehende Themenartikel für Nichtionisierende Strahlung (NISV-
+Grenzwerte, Erdungsinsel-Prinzip) — 110.05 dort als Minergie-ECO-Zusatzanforderung nachgetragen
+(die ECO-Vorgabe verlangt einen dokumentierten Zonenplan, die NISV selbst kennt keinen). Für
+Radon existierte noch kein Themenartikel; neu angelegt: `[[radon-schutzmassnahmen]]`. Für
+110.01/110.02 (RLT-Anlagen Be-/Entfeuchtung, Hygieneinspektion) existiert noch kein eigener
+Themenartikel (geringe Bauherren-Nachfrage bislang, offen für Folgelauf bei Bedarf).
+
 ## Offene Punkte für Folgeläufe
 
-- Die übrigen rund **29 Vorgaben** sind noch nicht destilliert: Gesundheit/Komfort (RLT-Anlagen
-  und Strahlung 110.x, Schadstoffe 120.x, Tageslicht/Aktivierung 140.x) und Innovation Ökologie
-  (250.01). Erledigt: Schallschutz 130.x (Run 180), 210.01/210.02 (Run 181), 220er-Reihe
-  vollständig (Run 182), **230er-Reihe und Klimaresilienz vollständig (Run 183)**. **Nächster
-  Ansatzpunkt: 110.x/120.x** (Gesundheit/Komfort, Anhang B nennt dort zwei materielle Änderungen
-  vom 23.01.2025 — NIS-Zonenplan-Präzisierung und der Wegfall des TEP-Flammschutzmittel-Kriteriums
-  bei Dämmstoffen —, beide bereits am 23.01.2025-Stand, also gegen die geltende Fassung noch zu
-  verifizieren).
+- Die übrigen rund **23 Vorgaben** sind noch nicht destilliert: Schadstoffe (120.x, 9 Vorgaben),
+  Tageslicht/Aktivierung (140.x) und Innovation Ökologie (250.01). Erledigt: Schallschutz 130.x
+  (Run 180), 210.01/210.02 (Run 181), 220er-Reihe vollständig (Run 182), 230er-Reihe und
+  Klimaresilienz vollständig (Run 183), **110er-Reihe Gesundheit/RLT/Radon/NIS vollständig
+  (Run 184, 07.09.2026, inkl. Verifikation der Anhang-B-Änderung zu 110.05)**. **Nächster
+  Ansatzpunkt: 120.x** (Schadstoffe, S. 19-35 — Anhang B nennt dort eine materielle Änderung vom
+  23.01.2025, Wegfall des TEP-Flammschutzmittel-Kriteriums bei PUR/PIR-Dämmstoffen unter 120.06,
+  gegen die geltende Fassung noch zu verifizieren).
 - ✓ **E-R182-3 erledigt Run 183 (07.09.2026), ohne erneuten Volltext-Diff:** Anhang B (S. 107-109
   der geltenden Fassung) listet **jede** inhaltliche Änderung der Nachweisversion 2023.1 nach
   Vorgabe-Nummer und Datum. Für **130.01-130.07** (Schallschutz) und **210.01/210.02** (Graue

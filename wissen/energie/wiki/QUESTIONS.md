@@ -2,6 +2,32 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 184 (07.09.2026, Nachtschicht Mac Mini) — 110er-Reihe (Gesundheit/RLT/Radon/NIS) destilliert
+
+Bearbeitet: E-R183-1 (Teil 110er-Reihe von rund 20 verbleibenden Vorgaben). Vollstaendig
+destilliert: 110.01 (Be-/Entfeuchtung RLT), 110.02 (Hygieneinspektion RLT), 110.03/110.04/110.50
+(Radon Schutzmassnahmen/Neubau/Erneuerung), 110.05 (NIS-Zonenplan). Die im Anhang B fuer 110.05
+genannte Aenderung («Praezisierung ortsfester WLAN-Sendeantennen») wurde woertlich gegen den
+Vorgabentext der geltenden Fassung verifiziert und bestaetigt — kein Widerspruch, keine weitere
+Diskrepanz gefunden.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R184-1 (P3, Fach):** Rest von E-R183-1 — rund 14 Vorgaben bleiben undestilliert:
+  120.x (Schadstoffe, 9 Vorgaben), 140.x (Tageslicht/Aktivierung), 250.01 (Innovation Oekologie).
+  **Naechster Ansatzpunkt: 120.x** — Anhang B nennt dort eine materielle Aenderung zum Stand
+  23.01.2025 (120.06 Wegfall TEP-Flammschutzmittel bei PUR/PIR-Daemmstoffen als Kriterium), noch
+  nicht gegen die geltende Fassung 01.07.2026 am Volltext verifiziert (gleiches Muster wie bei
+  110.05 in diesem Lauf).
+- [ ] **E-R184-2 (P4, Fach):** `[[radon-schutzmassnahmen]]` und die 110.05-Ergaenzung in
+  `[[elektrosmog]]` sind Einzelagenten-Ergebnisse ohne Refuter-Panel — Status `emerging` bleibt,
+  bis eine zweite Pruefinstanz die zitierten Grenzwerte/Anforderungen unabhaengig gegenliest.
+
+### Aus dem letzten Lauf erledigt
+
+- [x] **E-R183-1, Teil 110.x — geloest ✓ 2026-09-07 (Run 184).** Siehe oben; der Teil 120.x/140.x/
+  250.01 bleibt als E-R184-1 offen (neue Nummer, damit der Fortschritt sichtbar bleibt).
+
 ## Run 183 (07.09.2026, Nachtschicht Mac Mini) — 230er-Reihe/Klimaresilienz destilliert, E-R182-3 ohne neuen Volltext geloest
 
 Bearbeitet: E-R182-2 (Teil 230er-Reihe/Klimaresilienz) und E-R182-3 (Anhang-B-Abgleich 130.x/210.x).
@@ -9,14 +35,13 @@ Beide oben unter Run 182 mit ✓ vermerkt (derselbe Punkt, nicht dupliziert).
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R183-1 (P3, Fach):** Rest von E-R182-2 — rund 20 Vorgaben bleiben undestilliert:
+- [x] **E-R183-1 (P3, Fach) — Teil 110.x geloest ✓ 2026-09-07 (Run 184), Rest fortgeschrieben
+  als E-R184-1.** Rest von E-R182-2 — rund 20 Vorgaben blieben undestilliert:
   Gesundheit/Komfort 110.x (RLT-Anlagen, Strahlung/NIS), 120.x (Schadstoffe), 140.x (Tageslicht),
-  sowie 250.01 (Innovation Oekologie). **Naechster Ansatzpunkt: 110.x/120.x** — Anhang B nennt dort
-  zwei materielle Aenderungen zum Stand 23.01.2025 (110.05 NIS-Zonenplan-Praezisierung,
-  120.06 Wegfall TEP-Flammschutzmittel bei PUR/PIR-Daemmstoffen als Kriterium), die noch nicht
-  gegen die geltende Fassung 01.07.2026 verifiziert sind (gleiches Muster wie E-R182-3, hier aber
-  mit zwei Eintraegen statt keinem — also am Volltext zu pruefen, nicht durch Abwesenheit im
-  Anhang zu erledigen).
+  sowie 250.01 (Innovation Oekologie). Run 184 hat 110.x vollstaendig destilliert und die dort
+  genannte Anhang-B-Aenderung (110.05 NIS-Zonenplan-Praezisierung) am Volltext verifiziert. Die
+  zweite genannte Aenderung (120.06 Wegfall TEP-Flammschutzmittel) betrifft 120.x und bleibt
+  unter E-R184-1 offen.
 - [ ] **E-R183-2 (P4, Betrieb):** E-R182-4 (fehlender Laufbericht Run 181) ist mit diesem Lauf
   weiterhin unrekonstruiert — nur bestaetigt, dass er nicht Run 183 betrifft. Bleibt als
   Betriebsbefund stehen, bis jemand die Luecke aus dem CHANGELOG/den Commits rekonstruiert oder

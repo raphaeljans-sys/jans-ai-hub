@@ -1,5 +1,36 @@
 # CHANGELOG
 
+## 2026-09-07 — Run 184 (Nachtschicht Mac Mini): 110er-Reihe (Gesundheit/RLT/Radon/NIS) destilliert
+
+- **Bearbeitet:** E-R183-1 (Teil 110er-Reihe von rund 20 verbleibenden Vorgaben). Vollständig
+  geschlossen für 110.x; Rest (120.x/140.x/250.01) läuft als E-R184-1 weiter.
+- **Block 1 (Transfer):** `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` um die
+  vollständige 110er-Reihe erweitert — 110.01 Be-/Entfeuchtung RLT, 110.02 Hygieneinspektion RLT
+  (SWKI VA104-01), 110.03/110.04/110.50 Radon (Schutzmassnahmen/Neubau/Erneuerung), 110.05
+  Nichtionisierende Strahlung (NIS-Zonenplan) — gelesen an der geltenden Fassung Dokumentstand
+  01.07.2026 (S. 9-18 von 109), per eigenem curl+pdftotext derselben Datei wie Run 182/183.
+  Frontmatter (`gelesen`, `verifikation`, `last_updated`) nachgeführt.
+- **Fachbefund:** Radon trägt zwei unterschiedliche Grenzwerte mit unterschiedlicher
+  Toleranzlogik — Neubau ≤100 Bq/m³ mit Messunsicherheits-Zuschlag auf ≤200 Bq/m³, Erneuerung als
+  **Ausschlussvorgabe** ≤300 Bq/m³, wobei die Messunsicherheit hier bereits im Grenzwert selbst
+  steckt (keine zusätzliche Toleranz). NIS-Zonenplan (110.05) verlangt Nutzungszonen A/B mit
+  Verteiler-/Trassen-Ausschluss und WLAN-Antennen-Platzierungsregeln; Spitäler sind bei
+  Untersuchungs-/Behandlungsräumen ausgenommen.
+- **Anhang-B-Verifikation:** die für 110.05 dokumentierte Änderung («Präzisierung ortsfester
+  Sendeantennen für die drahtlose Inhouse-Kommunikation») wurde wörtlich gegen den gelesenen
+  Vorgabentext geprüft und bestätigt — keine Diskrepanz.
+- **Block 2 (Verdichtung):** `wiki/elektrosmog.md` um einen neuen Abschnitt zur
+  Minergie-ECO-Zusatzanforderung 110.05 ergänzt (schliesst dort den bisher offenen Punkt zum
+  Hochfrequenzbereich WLAN/Inhouse-Kommunikation für ECO-zertifizierte Bauten teilweise);
+  `wiki/radon-schutzmassnahmen.md` neu angelegt (kein bestehender Radon-Artikel vorhanden).
+  `wiki/INDEX.md` und `destillate/INDEX.md` nachgeführt; Stückzahl der Themen-Artikel dabei von
+  der veralteten Zahl 31 auf die nachgezählte Zahl 38 korrigiert.
+- **Neu offen:** E-R184-1 (Rest ~14 Vorgaben: 120.x Schadstoffe, 140.x Tageslicht/Aktivierung,
+  250.01 Innovation; nächster Ansatzpunkt 120.x wegen der dort dokumentierten, noch am Volltext
+  zu verifizierenden TEP-Flammschutzmittel-Änderung), E-R184-2 (kein Refuter-Panel für die neuen
+  Artikel dieses Laufs).
+- **Sichern:** NAS-Repo nativ committet via `nas-commit-now.sh`.
+
 ## 2026-09-07 — Run 183 (Nachtschicht Mac Mini): 230er-Reihe/Klimaresilienz destilliert; E-R182-3 ohne neuen Volltext geloest
 
 - **Bearbeitet:** E-R182-2 (Teil 230er-Reihe/Klimaresilienz) und E-R182-3 (Anhang-B-Abgleich

@@ -1,10 +1,10 @@
 ---
 title: Elektrosmog / niederfrequente elektromagnetische Felder beim Bauen
 status: emerging
-last_updated: "2026-08-12 (Mac Mini Nachtschicht 13:30, neu angelegt)"
-datenstand: "2002 (ältester zitierter Quellenstand: Stadt-Zürcher AHB-Informationsblatt Elektrosmog, Ausgabe 02.02/Februar 2002; das zweite Merkblatt «Vorgehen bei Beschwerden» datiert AHB/30.09.2005 — beide über 20 Jahre alt, vor einer Projektanwendung auf Aktualität prüfen)"
-sources: [destillate/elektrosmog-informationsblatt-ahb-ewz.md, destillate/vorgehen-bei-beschwerden-innenraumklima.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[gebaeudeschadstoffe]]
+last_updated: "2026-09-07 (Nachtschicht Mac Mini Run 184: Minergie-ECO-Zusatzanforderung 110.05 NIS-Zonenplan nachgetragen)"
+datenstand: "2002 (NISV-Grundstand, ältester zitierter Quellenstand: Stadt-Zürcher AHB-Informationsblatt Elektrosmog, Ausgabe 02.02/Februar 2002; das zweite Merkblatt «Vorgehen bei Beschwerden» datiert AHB/30.09.2005 — beide über 20 Jahre alt, vor einer Projektanwendung auf Aktualität prüfen); Minergie-ECO-Zusatz 110.05 auf Stand 01.07.2026"
+sources: [destillate/elektrosmog-informationsblatt-ahb-ewz.md, destillate/vorgehen-bei-beschwerden-innenraumklima.md, destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[gebaeudeschadstoffe]], [[radon-schutzmassnahmen]]
 ---
 
 # Elektrosmog / niederfrequente elektromagnetische Felder beim Bauen
@@ -52,11 +52,30 @@ Themenkreisen möglicher Innenraumklima-Beschwerden (neben Asbest/PCB, Schadstof
 Radon, Lärm, Licht, thermische Behaglichkeit, biologische Stoffe/Allergien) →
 `[[vorgehen-bei-beschwerden-innenraumklima]]`.
 
+## Minergie-ECO-Zusatzanforderung: NIS-Zonenplan (110.05, nachgetragen 07.09.2026)
+Für ECO-zertifizierte Bauten kommt zur NISV eine dokumentierte Nachweispflicht hinzu, die auch
+den bislang hier offenen Hochfrequenzbereich (WLAN/Inhouse-Kommunikation) abdeckt: ein
+**NIS-Zonenplan** ordnet jeden Raum den Nutzungszonen **A** (besonders empfindlich: Kinder-
+krippen/-horte/-gärten/-spielplätze, Schulzimmer, Schlafzimmer, Bettenzimmer) oder **B**
+(Büros, Werk-/Aufenthalts-/Versammlungs-/Sporträume) zu. In NZA/NZB dürfen Hauptverteiler,
+Unterverteiler, Steigzonen, Mittel-/Niederspannungstrassen und PV-Wechselrichter nicht
+installiert bzw. geführt werden; bei meldepflichtigen Anlagen nach NISV sind zusätzlich die
+1-µT- und die 0.4-µT-Linie im Plan darzustellen. Ortsfeste WLAN-Sendeantennen sind so
+anzuordnen, dass die Strahlungsbelastung minimiert wird (Montage an Wänden, möglichst
+deckennah); in Räumen der NZA wird ganz auf sie verzichtet. Spitäler: Untersuchungs- und
+Behandlungsräume sind von der Vorgabe ausgenommen. Quelle:
+`[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, Vorgabe 110.05.
+
 ## Bezug
 Bauherren-Antwort: `[[BAUHERREN-FAQ]]` F226. Quelle/Details:
-`[[elektrosmog-informationsblatt-ahb-ewz]]`. Verwandter Themenkreis Schadstoffe/Asbest:
+`[[elektrosmog-informationsblatt-ahb-ewz]]`; für die ECO-Zusatzanforderung
+`[[minergie-eco-vorgabenkatalog-standard-2023-1]]`. Verwandter Themenkreis Schadstoffe/Asbest:
 `[[gebaeudeschadstoffe]]`.
 
 ## Offen
 - Aktuelle NISV-Fassung seit 2002 nicht gegengeprüft.
-- Hochfrequenzbereich (5G/WLAN, Sendeanlagen) explizit nicht Gegenstand dieser Quelle.
+- Hochfrequenzbereich (5G/WLAN, Sendeanlagen) für den NISV-Grundstand weiterhin nicht
+  Gegenstand der 2002er-Quelle — für ECO-zertifizierte Bauten seit 07.09.2026 über 110.05
+  (NIS-Zonenplan) abgedeckt, siehe oben. Für Nicht-ECO-Bauten bleibt die Lücke bestehen.
+- Der Vorgabenkatalog verweist auf eine geplante Revision der PR-NIS mit konkreten
+  Mindestabständen — noch nicht erschienen (Stand Vorgabenkatalog 01.07.2026).
