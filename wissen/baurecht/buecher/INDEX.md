@@ -15,7 +15,11 @@ Trainingslauf (`../training/PROGRAMM.md`).
   des Baupolizeirechts** — §§ 218-232 PBG, **Hammerschlagsrecht §§ 229/230 PBG**. 10 Doppelseiten.
   Status: `emerging`.
 - [[13-weitere-grundanforderungen]] — Kap. 13 Teil 1 (S. 810-857): **Weitere Grundanforderungen
-  an Bauten und Anlagen** — **§ 238 Aesthetik-Generalklausel** (Einordnung), **Solar Art. 18a RPG**.
+  an Bauten und Anlagen** — **§ 238 Aesthetik-Generalklausel** (Einordnung), **Solar Art. 18a RPG**
+  (⚠ Fassungsstand aktualisiert Buch-Run 142: Abs. 1 erfasst seit 1.1.2026 auch **Fassaden**,
+  neuer **Abs. 2bis** Solarstrukturen ueber Parkplatzarealen ab 15 PP grundsaetzlich zonenkonform,
+  Titel neu «Solaranlagen und energetische Sanierungen»; Art. 32a Abs. 1 lit. b RPV stellt auf die
+  **Draufsicht** ab, nicht auf «von vorne/oben»).
   24 Doppelseiten. Status: `emerging`. Teil 2 siehe unten.
 - [[13-weitere-grundanforderungen-teil2]] — Kap. 13 Teil 2 (S. 858-891): **Einordnung Forts. § 238**
   (Landwirtschafts-/Kleinbauten, Tankstellen, **Umgebung/Umschwung § 238 Abs. 3** ohne Ausnuetzungs-
@@ -90,6 +94,13 @@ Trainingslauf (`../training/PROGRAMM.md`).
   [[wohnhygiene-und-raumanforderungen]] + [[baubewilligungsverfahren]] + [[raumplanung-und-gestaltung]].
 - [[21-bauen-ausserhalb-bauzonen]] — Kap. 21 (S. 1459-1503): **Bauen ausserhalb der Bauzonen** —
   **Art. 16/16a/24/24a-e RPG**, **Art. 42 RPV** (innen +60 %, aussen weder 30 % noch 100 m², innere Erweiterung halb angerechnet — korrigiert Buch-Run 140), **Stichtag 1.7.1972**. 23 Doppelseiten.
+  ⚠ **Fassungsstand Buch-Run 142 (2026-09-07): RPG 2 ist seit 1.1.2026 in Kraft** (BG vom
+  29.9.2023, AS 2025 640) — im Destillat stand es als «anstehende Revision» (Buchstand 2019).
+  Neu erfasst: **Art. 16 Abs. 4/5 RPG** (Vorrang der Landwirtschaft + Delegation) und
+  **Art. 38a RPV** (5a. Abschnitt, Erleichterungen bei Geruch/Laerm, Abs. 5 Dahinfall der
+  Baubewilligung). **Art. 38a RPG ist etwas anderes** (Uebergangsbestimmungen 2012) — Erlass beim
+  Zitieren immer mitfuehren. Noch nicht erschlossen: Art. 24bis, 24quinquies, 24c-bis RPG (alle
+  neu) und die Absatzaenderungen an Art. 3/5/15/20/23/24d/24e/27a RPG.
   Status: `emerging` (Rest > Shot 755 offen: Art. 24d/24e/37a). Teil 2 siehe unten.
 - [[21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald]] — Kap. 21 Teil 2 / **Schluss** (S. 1504-1513):
   **zonenfremde Gewerbebauten Art. 37a RPG / Art. 43 RPV** (Stichtag **1.1.1980**, Erweiterung **max. 30 %**

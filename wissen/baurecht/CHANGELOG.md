@@ -3,6 +3,71 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-07 (Buch-Run 142) — RPG 2 ist seit dem 1.1.2026 in Kraft; das Destillat führte es als «anstehende Revision»
+
+**Auftrag:** Priorität (b) Fassungsstand, konkret der von Buch-Run 141 namentlich offen gelassene
+**5a. Abschnitt RPV**. Die Erschliessung führte auf den grösseren Befund: das **BG vom
+29. Sept. 2023 (RPG 2)** ist seit dem **1.1.2026 in Kraft** (AS 2025 640), während
+`buecher/band-2/21-bauen-ausserhalb-bauzonen.md` es unverändert auf Buchstand 6. Aufl. 2019 als
+«Anstehende RPG-Revision» führte.
+
+**Neue Primärquelle:** `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` — amtlicher
+Wortlaut Art. 16 Abs. 4/5 RPG und Art. 38a RPV (Fedlex-Filestore, RPG ELI cc/1979/1573_1573_1573
+und RPV ELI cc/2000/310, je Segment 20260101, 136'450 bzw. 146'451 Byte echter Text) plus ein
+Änderungsinventar von RPG 2 auf Artikelebene.
+
+**Inhaltlich neu erfasst.** **Art. 16 Abs. 4 RPG:** «In Landwirtschaftszonen hat die Landwirtschaft
+mit ihren Bedürfnissen Vorrang gegenüber nicht landwirtschaftlichen Nutzungen.» **Abs. 5**
+delegiert an den Bundesrat. **Art. 38a RPV** (5a. Abschnitt, V vom 15.10.2025, AS 2025 659) führt
+das aus: ein Artikel **ohne eigenen Sachtitel**, fünf Absätze; Erleichterung, soweit die
+Landwirtschaftsinteressen überwiegen (Abs. 1), drei Regelbeispiele mit der zeitlichen Reihenfolge
+als erstem Kriterium (Abs. 2), Zustimmung der Betroffenen nur als **Indiz** (Abs. 3), vorgelagerte
+Rechtmässigkeits- und Revisionsgrundprüfung (Abs. 4) und — die schärfste Folge — **Dahinfallen
+einer Baubewilligung**, die einen höheren umweltrechtlichen Schutzbedarf ausgelöst hat (Abs. 5).
+
+**Zwei Fassungsstandsfehler korrigiert.** (1) Kap. 21: «anstehende RPG-Revision» → in Kraft seit
+1.1.2026, mit Inventar der geänderten Artikel und ehrlicher Abgrenzung, was davon **nicht**
+erschlossen ist. (2) Register-Sweep-Fund in Kap. 13: **Art. 18a Abs. 1 RPG** erfasst seit 1.1.2026
+auch **Fassadenanlagen**, nicht nur Dächer; dazu der neue **Abs. 2bis** (Solarstrukturen über
+Parkplatzarealen ab **15 Parkplätzen** in Bauzonen grundsätzlich zonenkonform) und der neue
+Artikeltitel. Beides stammt **nicht** aus RPG 2, sondern aus dem Stromversorgungs-BG
+(AS 2024 679 / 2025 636) — zwei Bundesgesetze desselben Datums mit demselben Inkrafttreten, nur
+die AS-Nummer unterscheidet sie.
+
+**Eine Wortlautkorrektur, ein Sweep-Rest aus Run 141:** Art. 32a Abs. 1 lit. b RPV stellt auf die
+**Draufsicht** ab; Kap. 13 sagte «von vorne/oben nicht über die Dachfläche hinausragen». Run 141
+hatte dieselbe Regel in Kap. 21 in einer anderen falschen Variante («nicht über den Dachfirst»)
+korrigiert — der zweite Fundort blieb stehen.
+
+**Eine Berichtigung im established-Wiki:** `wiki/ausnahmebewilligung-und-bestandesschutz.md` sagte
+«Art. 24c **Abs. 1** RPG wurde per 1.1.2026 revidiert» (Rest aus Buch-Run 103) und widersprach
+damit dem Run-140-Befund im selben Absatz. Richtig: **allein der Artikeltitel** wurde geändert.
+
+**Methodischer Ertrag — die Position der Änderungsfussnote sagt den Änderungsumfang.** Fedlex setzt
+die Fussnote an die geänderte Einheit: bei Art. 24c RPG sitzt die RPG-2-Fussnote am **Titel**, alle
+Absätze tragen ältere Fussnoten. Gegenprobe an Art. 24 RPG (Titel **und** neuer Abs. 2) und
+Art. 18a RPG (Titel und Abs. 2 lit. a) — die Methode trennt die Ebenen tatsächlich. Damit ist der
+Run-140-Befund **auf unabhängigem Weg und ohne Vorfassungsbeschaffung** bestätigt.
+
+**Namensgleichheit gesetzt:** **Art. 38a RPG** («Übergangsbestimmungen zur Änderung vom 15. Juni
+2012», Einzonungsstopp) und **Art. 38a RPV** (Vorrang der Landwirtschaft) existieren **beide**.
+Das ist der gefährlichere Spiegelfall zum Phantom-Artikel «Art. 37a RPV» aus Run 141: dort scheitert
+das Nachschlagen sichtbar, hier liefert es einen sauberen — falschen — Treffer.
+
+**Geänderte Dateien.** `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` (neu) ·
+`buecher/band-2/21-bauen-ausserhalb-bauzonen.md` · `buecher/band-2/13-weitere-grundanforderungen.md`
+(erstmals mit `verifiziert`-Feld) · `wiki/ausnahmebewilligung-und-bestandesschutz.md` ·
+`wiki/laermschutz-und-nichtionisierende-strahlung.md` (neuer Abschnitt «Vorrang der
+Landwirtschaft») · `wiki/QUESTIONS.md` (Run-141-Punkt geschlossen, vier neue Einträge) ·
+`training/drills.md` (Karten **I** Fussnotenposition und **J** Namensgleichheit) ·
+`training/PROGRAMM.md` · `buecher/INDEX.md` · Cross-KB `wissen/energie/wiki/QUESTIONS.md`
+(E-B142-1/-2).
+
+**Berichtigung an einer eigenen Übergabe-Notiz:** Run 141 vermerkte zum 5a. Abschnitt «der Volltext
+liegt bereits beschafft vor». Das traf nicht zu — die raw-Datei enthielt an der Stelle nur die
+Notiz, dass der Abschnitt existiert. Er musste neu geholt werden. Merksatz in `wiki/QUESTIONS.md`
+festgehalten: «liegt beschafft vor» wird mit Datei und Fundstelle belegt, nicht behauptet.
+
 ## 2026-09-07 (Wissens-Chef Lauf 54) — Glasbrüstungen: die letzte offene bfu-Kante des Rotationspunkts aus Run 21
 
 **`wiki/ausnahmebewilligung-und-bestandesschutz.md`, neuer Absatz nach dem Stadt-Zürcher

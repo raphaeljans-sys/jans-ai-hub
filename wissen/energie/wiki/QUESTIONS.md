@@ -8592,3 +8592,34 @@ Schliessung im selben Journal gar nicht anschaut.
   in eigenem Methodiktext; korrigiert auf «Gross-/Kleinschreibung» (Rule `umlaute-konvention`:
   ss statt ß). Vier Wochen und mehrere Läufe waren an der Stelle vorbeigegangen.
 
+## 2026-09-07 — Cross-KB-Eingang aus `wissen/baurecht` (Buch-Run 142): Art. 18a RPG neu gefasst
+
+Übergeben von der KB `baurecht` nach Rule `wissens-bibliothekar` (Cross-KB-Bringschuld);
+Beleg dort: `wissen/baurecht/raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 4.4
+(amtlicher Fedlex-Volltext RPG SR 700, Stand 1.1.2026). Fortsetzung von **E-B141-1**, das die
+Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetzesebene**.
+
+- [ ] **E-B142-1 (P2) — Art. 18a Abs. 1 RPG erfasst seit 1.1.2026 auch Fassadenanlagen.**
+  Der Wortlaut lautet neu «auf Dächern **oder an Fassaden** genügend angepasste Solaranlagen
+  bedürfen keiner Baubewilligung … lediglich der zuständigen Behörde zu melden»
+  (BG vom 29.9.2023 über eine sichere Stromversorgung mit erneuerbaren Energien,
+  AS 2024 679 / 2025 636). Prüfen, ob `wiki/pv-solar-technologien.md` und
+  `wiki/solarpflicht-schweiz-kantone.md` die Bewilligungsfreiheit noch auf Dachanlagen
+  beschränken. Der Artikeltitel heisst neu «Solaranlagen **und energetische Sanierungen**»
+  (das aus RPG 2, AS 2025 640 — anderes Bundesgesetz gleichen Datums).
+
+- [ ] **E-B142-2 (P2) — Art. 18a Abs. 2bis RPG neu: Solarstrukturen über Parkplatzarealen.**
+  In Bauzonen sind Strukturen, welche die Gewinnung von Solarenergie **über und am Rande von
+  Parkplatzarealen mit 15 oder mehr Parkplätzen** ermöglichen, **grundsätzlich zonenkonform**.
+  Die Gemeinden können in ihrer Raumplanung Areale ausnehmen oder an Voraussetzungen binden und
+  können die Zonenkonformität auch auf Areale mit **weniger als 15** Parkplätzen erstrecken.
+  Bisher in keinem Artikel der KB geführt (grep «Parkplatz» in `wiki/` prüfen). Praktisch
+  relevant für Arealentwicklungen und Healthcare-Bauten mit Besucherparkierung — Kandidat für
+  einen eigenen Abschnitt in `wiki/pv-solar-technologien.md` oder
+  `wiki/pv-eigenverbrauch-zev.md`.
+
+- **Merkposten zur Zitierhygiene:** zwei verschiedene Bundesgesetze **desselben Datums**
+  (29. Sept. 2023) treten **am selben Tag** (1.1.2026) in Kraft und ändern beide Art. 18a RPG.
+  Nur die AS-Nummer unterscheidet sie: **AS 2025 640** = RPG 2 (Titel, Abs. 2 lit. a),
+  **AS 2024 679 / 2025 636** = Stromversorgungs-BG (Abs. 1 Fassaden, Abs. 2bis Parkplätze).
+

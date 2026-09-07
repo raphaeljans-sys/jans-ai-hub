@@ -2,9 +2,9 @@
 beschreibung: Die zwei kantonalen Werkzeuge für vorschriftswidrige Bauten im Kt. ZH — die Ausnahmebewilligung (Dispens) nach § 220 PBG bei besonderen Verhältnissen, und die Besitzstandsgarantie / erweiterte Bestandesgarantie nach § 357 PBG (Umbau/Erweiterung/Nutzungsänderung am rechtmässig erstellten, durch Rechtsänderung vorschriftswidrig gewordenen Bestand). Kernaussage: kein fester «Drittel»-Schwellenwert; Grenze ist die neubauähnliche Umgestaltung/Gesetzesumgehung im Einzelfall. § 220 dispensiert nur kantonales/kommunales Recht, nie Bundesrecht.
 title: Ausnahmebewilligung (§ 220) und Bestandesschutz (§ 357) — ZH
 status: established
-last_updated: 2026-08-24
+last_updated: 2026-09-07
 sources: [raw/260607_amtlich_zh_pbg.md, raw/260823_amtlich_zh_brge-iii-0170-2018_bez-2019-nr5.md, raw/260824_amtlich_zh_pbg-nachtrag134-aenderungen.md, raw/260824_amtlich_zh_zszh-rrb-1294-1995.md, raw/260824_amtlich_zh_entscheidsuche-abdeckung-vb-1994.md, "§ 220 PBG", "§ 221 PBG", "§ 357 PBG", "§ 358 PBG", "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)", "Art. 24c RPG (SR 700)", "Art. 41c GSchV (SR 814.201)", "Art. 26 BV (SR 101)", "Art. 8 ZGB (SR 210)", "BRGE III Nr. 0170/2018 (BEZ 2019 Nr. 5)", "BRKE II Nr. 0130/2007 (BEZ 2008 Nr. 12, Volltext entscheidnummer-Suche baurekursgericht-zh.ch)", "VB.2003.00196 (RB 2003 Nr. 14 = BEZ 2004 Nr. 8, Volltext entscheidsuche.ch)", "Raphael Jans, eigene Rechtsgrundlagen-Zusammenfassung 29.05.2020 (Sekundärquelle Fallpraxis-Vertiefung, zwei von vier Fallzitaten am Original verifiziert Buch-Run 121)"]
-verifiziert: "Buch-Run 127 (2026-08-24, Fortsetzung der Zugriffsweg-Suche aus Run 125/126):
+verifiziert: "Buch-Run 142 (2026-09-07, Fassungsstand RPG 2): die Aussage «Art. 24c Abs. 1 RPG wurde per 1.1.2026 revidiert» war unzutreffend und stand im Widerspruch zum Run-140-Befund im selben Absatz — praezisiert auf «allein der Artikeltitel». Unabhaengiger Zweitbeleg ueber die Position der Aenderungsfussnote im geltenden Fedlex-Text (RPG SR 700, ELI cc/1979/1573_1573_1573, Stand 1.1.2026): FN 79 (RPG 2) sitzt am Artikeltitel, saemtliche Absaetze tragen aeltere Fussnoten; Gegenprobe an Art. 24 und Art. 18a RPG, wo die Fussnoten Titel UND Absatz treffen. Quelle raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md. Vorherige Verifikation — Buch-Run 127 (2026-08-24, Fortsetzung der Zugriffsweg-Suche aus Run 125/126):
 VB 94/0016 (RB 1994 Nr. 72) statistisch geprüft statt weiter nur als «unverifiziert»
 geführt — dieselbe interne Such-API von `entscheidsuche.ch`, die Buch-Run 126 an drei
 Fällen (VB.2003.00118/00370/00445) erfolgreich verifiziert hatte, liefert für den
@@ -364,10 +364,13 @@ Beleg `raw/260824_amtlich_zh_entscheidsuche-abdeckung-vb-1994.md`. Kein Ingest o
 ## Abgrenzungen (was woanders geregelt ist)
 
 - **Ausserhalb der Bauzone:** Art. 24 ff. / **Art. 24c RPG** (Bundesrecht; eigenes Kapitel).
-  Fassungsstand-Hinweis (Buch-Run 103): Art. 24c Abs. 1 RPG wurde per 1.1.2026 revidiert und
-  trägt seither den Titel «Altrechtliche Bauten und Anlagen» (zuvor «Bestehende, zonenwidrige
-  Bauten und Anlagen ausserhalb der Bauzonen») — bei einem SZ-/ZH-Fall mit Bestandesbauten
-  ausserhalb der Bauzone die Fassung ab 1.1.2026 zugrunde legen.
+  Fassungsstand-Hinweis (Buch-Run 103, ⚠ **präzisiert 2026-09-07, Buch-Run 142**): hier stand
+  «Art. 24c **Abs. 1** RPG wurde per 1.1.2026 revidiert» — das trifft nicht zu und stand im
+  Widerspruch zum Befund direkt darunter. **Revidiert wurde per 1.1.2026 allein der
+  Artikeltitel**, jetzt «Altrechtliche Bauten und Anlagen» (zuvor «Bestehende, zonenwidrige
+  Bauten und Anlagen ausserhalb der Bauzonen»); **kein Absatz** wurde geändert. Bei einem
+  SZ-/ZH-Fall mit Bestandesbauten ausserhalb der Bauzone die Fassung ab 1.1.2026 zitieren,
+  materiell aber unverändert rechnen.
   **Änderungsumfang geklärt (Buch-Run 140, 2026-08-24):** der in Buch-Run 103 offen gelassene
   Punkt ist geschlossen. Die Vorfassung ist über die Route `fedlex.data.admin.ch` mit dem
   Snapshot-Datum **20190101** als echtes PDF abrufbar (die `www`-Route liefert für dieses
@@ -375,6 +378,15 @@ Beleg `raw/260824_amtlich_zh_entscheidsuche-abdeckung-vb-1994.md`. Kein Ingest o
   der Fassung 1.1.2019 und der Fassung 1.1.2026 unverändert**; die Revision vom 29.9.2023
   (AS 2025 640) hat **nur die Sachüberschrift** ausgewechselt. Praktische Folge: für die
   materielle Beurteilung ändert sich nichts, nur die Zitierweise des Artikeltitels.
+  **Zweitbeleg auf unabhängigem Weg (Buch-Run 142, 2026-09-07):** dasselbe Ergebnis lässt sich
+  ohne Vorfassung allein am Fussnotenapparat der geltenden Fassung ablesen — die RPG-2-Fussnote
+  (FN 79) sitzt am **Artikeltitel**, während sämtliche Absätze ältere Fussnoten tragen (Abs. 1
+  aus 1998, Abs. 2-5 aus dem BG vom 23.12.2011). Gegenprobe an zwei Artikeln, bei denen sich
+  Titel und Absatz unterscheiden müssen: **Art. 24 RPG** trägt die RPG-2-Fussnote am Titel
+  **und** eine zweite an einem neu eingefügten Abs. 2 (energetische Sanierungen), **Art. 18a
+  RPG** eine am Titel und eine an Abs. 2 lit. a. Die Methode trägt also, und sie ist billiger
+  als die Vorfassungsbeschaffung: **die Position der Änderungsfussnote sagt, was geändert
+  wurde** (`raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 4).
   **Die Voraussetzungen des Wiederaufbaus stehen nicht in Abs. 2, sondern in Art. 42 Abs. 4
   RPV** (bestimmungsgemässe Nutzbarkeit im Zeitpunkt der Zerstörung oder des Abbruchs **und**
   ununterbrochenes Nutzungsinteresse; `raw/260824_amtlich_ch_rpv-art41-43a.md`).

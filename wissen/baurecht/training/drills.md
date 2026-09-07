@@ -2653,3 +2653,40 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   Fassungsstand-Check auf Ebene des **kantonalen** Erlasses haette hier nichts gefunden, weil die
   BVV voellig intakt ist. Vgl. auch Art. 32a-bis RPV (Fassaden), im Buch noch nicht vorhanden.
   `raw/260901_amtlich_ch_rpv-art32a-36-37.md` + `raw/260607_amtlich_zh_bvv.md`. _[2026-09-01]_
+
+- **I (Modell D / Fussnotenposition sagt den Aenderungsumfang, Fall Art. 24c RPG):** Ein Destillat
+  vermerkt: «Art. 24c **Abs. 1** RPG wurde per 1.1.2026 revidiert und traegt seither den Titel
+  ‹Altrechtliche Bauten und Anlagen›.» Die Bauherrschaft fragt, ob ihr altrechtliches
+  Oekonomiegebaeude nach neuem Recht anders zu beurteilen ist. Wie kommt man ohne Beschaffung der
+  Vorfassung zu einer belegten Antwort? — **A: Ueber die Position der Aenderungsfussnote im
+  geltenden Text.** Fedlex setzt die Fussnote genau an die geaenderte Einheit. Bei Art. 24c RPG
+  sitzt die RPG-2-Fussnote (FN 79, BG vom 29.9.2023, AS 2025 640) **am Artikeltitel**; saemtliche
+  Absaetze tragen **aeltere** Fussnoten (Abs. 1 aus 1998, Abs. 2-5 aus dem BG vom 23.12.2011).
+  Ergebnis: **geaendert wurde allein der Titel**, materiell aendert sich nichts — die Aussage «Abs. 1
+  revidiert» war falsch. **Die Gegenprobe gehoert dazu**, sonst beweist die Methode nichts: bei
+  **Art. 24 RPG** sitzt dieselbe RPG-2-Fussnote am Titel **und** eine zweite an einem **neu
+  eingefuegten Abs. 2** (energetische Sanierungen), bei **Art. 18a RPG** eine am Titel und eine an
+  Abs. 2 lit. a. Die Fussnoten unterscheiden also tatsaechlich zwischen Titel- und Absatzebene.
+  **Lehre:** Die billige Methode zuerst — der Fussnotenapparat der geltenden Fassung beantwortet
+  «was genau wurde geaendert» oft schon allein; die Vorfassungsbeschaffung (Buch-Run 140 kam ueber
+  den Snapshot 20190101 zum selben Ergebnis) ist die teure Bestaetigung, nicht der einzige Weg.
+  Zwei unabhaengige Methoden mit gleichem Ergebnis sind mehr wert als eine.
+  `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 4.2. _[2026-09-07]_
+
+- **J (Namensgleichheit ueber zwei Erlasse, Fall «Art. 38a» — und der Ton, in dem man sie meldet):**
+  Ein Fachplaner schreibt: «Nach Art. 38a gilt der Vorrang der Landwirtschaft, wir koennen die
+  Laermwerte also vernachlaessigen.» Was pruefen? — **A: Zuerst, welchen Erlass er meint.**
+  **Art. 38a RPV** (5a. Abschnitt, neu seit 1.1.2026, AS 2025 659) regelt die umweltschutz-
+  rechtlichen Erleichterungen bei Geruch und Laerm aus der Landwirtschaft. **Art. 38a RPG** heisst
+  «Uebergangsbestimmungen zur Aenderung vom 15. Juni 2012» (Richtplanfrist, Einzonungsstopp,
+  Mehrwertausgleich-Frist, in Kraft seit 1.5.2014) und hat damit **nichts** zu tun. **Beide
+  existieren.** Das ist die gefaehrlichere Variante gegenueber dem Phantom-Artikel «Art. 37a RPV»
+  aus Buch-Run 141: dort scheitert das Nachschlagen und man merkt es; hier liefert das Nachschlagen
+  einen sauberen Treffer — den falschen. Inhaltlich ist die Aussage zudem zu weit: Art. 38a RPV
+  vernachlaessigt keine Grenzwerte, er verschiebt die **Interessenabwaegung** und macht die
+  **zeitliche Reihenfolge** der Nutzungen zum Regelkriterium (Abs. 2 lit. a); Abs. 5 laesst
+  umgekehrt eine Baubewilligung **dahinfallen**, die einen hoeheren Schutzbedarf ausgeloest hat.
+  **Lehre 1:** Bei RPG/RPV ist die Artikelnummer allein nie eine Fundstelle — der Erlass gehoert
+  dazu, immer. **Lehre 2 (Ton):** die Rueckmeldung an den Fachplaner nennt die Norm, den Erlass und
+  die Folge fuer den Fall — nicht den Fehler. `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md`
+  Ziff. 2 und 3. _[2026-09-07]_

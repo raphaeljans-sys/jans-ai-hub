@@ -1894,6 +1894,31 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   Art. 37 direkt zu Art. 38; die Gemuesebau-Schwelle steht allein in **Art. 37 RPV**. Nicht zu
   verwechseln mit **Art. 37a RPG** (existiert, Gewerbebauten). Report
   `outputs/2026-09-01_buch-run141.md`, Beleg `raw/260901_amtlich_ch_rpv-art32a-36-37.md`.
+
+- **Run 142 (2026-09-07):** Prioritaet (b) Fassungsstand. Der von Run 141 offen gelassene
+  **5a. Abschnitt RPV** wurde erschlossen — **Art. 38a RPV**, ein Artikel ohne Sachtitel, fuenf
+  Absaetze, Erleichterungen bei Geruch/Laerm zugunsten der Landwirtschaft, **Abs. 5 laesst eine
+  Baubewilligung dahinfallen**, die einen hoeheren umweltrechtlichen Schutzbedarf ausgeloest hat.
+  Dabei der **traegerische Befund**: **RPG 2 (BG vom 29.9.2023, AS 2025 640) ist seit 1.1.2026 in
+  Kraft**, das Destillat Kap. 21 fuehrte es als «anstehende Revision» (Buchstand 2019) — korrigiert.
+  Neu erfasst: **Art. 16 Abs. 4 RPG** (Vorrang der Landwirtschaft) und **Abs. 5** (Delegation).
+  Register-Sweep foerderte einen **zweiten** Fassungsstandsfehler zutage: **Art. 18a Abs. 1 RPG**
+  erfasst seit 1.1.2026 auch **Fassadenanlagen** (Kap. 13 sagte «auf Daechern»), dazu **Abs. 2bis**
+  (Parkplatz-Solarstrukturen ab 15 PP grundsaetzlich zonenkonform) und eine Wortlautkorrektur an
+  Art. 32a Abs. 1 lit. b RPV («von vorne/oben» → Draufsicht; Run-141-Sweep-Rest).
+  **Namensgleichheit gesetzt: Art. 38a RPG ≠ Art. 38a RPV**, beide existieren — die gefaehrlichere
+  Variante gegenueber dem Phantom-Artikel aus Run 141, weil das Nachschlagen gelingt.
+  **Methodischer Ertrag:** die **Position der Aenderungsfussnote** im geltenden Fedlex-Text sagt,
+  was geaendert wurde (Titel vs. Absatz); damit ist Art. 24c RPG ohne Vorfassung als reine
+  Titelaenderung belegt — unabhaengige Bestaetigung des Run-140-Ergebnisses, das ueber den
+  Vorfassungs-Snapshot lief. Berichtigt wurde ausserdem die Run-103-Restaussage «Art. 24c Abs. 1
+  revidiert» im Wiki. Report `outputs/2026-09-07_buch-run142.md`, Beleg
+  `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md`.
+  **Naechster Schritt:** die drei ganz neuen RPG-Artikel (24bis Buendelung Infrastruktur/Mobilfunk,
+  24quinquies thermische Netze, 24c-bis Streusiedlungen) und die Absatzaenderungen an
+  Art. 3/5/15/20/23/24d/24e/27a RPG — **Art. 5 (Mehrwertausgleich) und Art. 15 (Bauzonen) zuerst**,
+  weil sie JANS-Faelle am direktesten treffen. Kap.-22-/23-Restabschnitte unveraendert offen.
+
   *(Tracker-Hinweis: die Eintraege fuer Run 116-139 fehlen hier; ihre Belege stehen im CHANGELOG
   und in `outputs/`. Nicht rekonstruiert, nur vermerkt — gleiche Luecken-Familie wie bei Run 41.)*
 

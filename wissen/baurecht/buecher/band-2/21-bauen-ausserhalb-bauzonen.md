@@ -4,11 +4,15 @@ kapitel: 21
 band: 2
 seiten: 1459-1503 (Kap.-Beginn; Kapitel reicht bis ca. 1510, Rest noch offen)
 shots: 733-755 (Shot 732 = Kap.-20-Ende S. 1456/1457)
-paragraphen: "RPG Art. 16, 16a, 16abis, 16b, 18, 22, 24, 24a, 24b, 24c, 24d, 24e, 25, 25a, 34 ff., 36 ff., 37a, 39, 39 Abs. 1-3, 43, 43a, 44, 45; RPV Art. 4a, 16b, 34, 34a, 34b, 36, 37, 37a; BV Art. 9, 26, 75; ZGB; BGBB Art. 5, 7, 58-60; PBG ZH §341, §357"
+paragraphen: "RPG Art. 16 (inkl. Abs. 4/5 neu 1.1.2026), 16a, 16abis, 16b, 18, 18a, 22, 24, 24bis, 24quinquies, 24a, 24b, 24c, 24c-bis, 24d, 24e, 25, 25a, 27a, 34 ff., 36 ff., 37a, 38a (Uebergangsbest.!), 39, 39 Abs. 1-3, 43, 43a, 44, 45; RPV Art. 4a, 16b, 34, 34a, 34b, 36, 37, 38a (5a. Abschnitt, neu 1.1.2026); BV Art. 9, 26, 75; ZGB; BGBB Art. 5, 7, 58-60; PBG ZH §341, §357. ACHTUNG: «Art. 37a» und «Art. 38a» existieren je einmal im RPG und unterschiedlich im RPV — Erlass immer mitfuehren"
 status: emerging
 gelesen: 2026-06-29
-last_updated: 2026-08-24
+last_updated: 2026-09-07
 verifiziert:
+  - datum: 2026-09-07
+    methode: "Fassungsstand-Check (Buch-Run 142) gegen die amtlichen Fedlex-Volltexte RPG SR 700 Stand 1.1.2026 (ELI cc/1979/1573_1573_1573, 136'450 Byte) und RPV SR 700.1 Stand 1.1.2026 (ELI cc/2000/310); Auswertung des Fussnotenapparats nach Position der Aenderungsfussnote (raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md)"
+    umfang: "Art. 16 Abs. 4/5 RPG, Art. 18a RPG, Art. 24 RPG, Art. 24c RPG, Art. 38a RPG, Art. 38a RPV samt 5a. Abschnitt; Aenderungsinventar RPG 2 auf Artikelebene"
+    ergebnis: "1 Fassungsstandsfehler korrigiert (RPG 2 stand als «anstehende Revision», ist seit 1.1.2026 in Kraft, BG vom 29.9.2023, AS 2025 640); 2 substanzielle Neubefunde ergaenzt (Art. 16 Abs. 4/5 RPG Vorrangsatz + Delegation; 5a. Abschnitt RPV Art. 38a mit fuenf Absaetzen, darunter die Dahinfall-Regel Abs. 5); 1 Namensgleichheits-Warnung gesetzt (Art. 38a RPG vs. Art. 38a RPV, beide existieren). Die Absatzaenderungen an Art. 3/5/15/20/23/24d/24e/27a RPG sind inventarisiert, aber nicht erschlossen."
   - datum: 2026-08-24
     methode: "Modell-D-Wortlautabgleich (Buch-Run 140) gegen den amtlichen RPV-Volltext, Fedlex-Filestore ELI cc/2000/310, Stand 1.1.2026, plus Vergleichsfassung Stand 1.3.2020 (raw/260824_amtlich_ch_rpv-art41-43a.md)"
     umfang: "Art. 41, 42, 43, 43a RPV — die Bestandesgarantie-Schwellen und die Wiederaufbau-Regel; das uebrige Kapitel unveraendert auf dem Stand 2026-06-29"
@@ -46,9 +50,19 @@ Aenderungen/Erweiterungen/Wiederaufbau.
   Kanton ZH hat davon keinen Gebrauch gemacht (BGE 138a I 89) (S. 1462).
 - **Verhaeltnis Raumplanung ↔ baeuerliches Bodenrecht (BGBB):** vgl. Verweis ZÜRCHER
   (S. 1460/1462).
-- **Anstehende RPG-Revision (Etappe 2 / RPG 2):** Botschaft Bundesrat 31.10.2018,
-  Stabilisierung der Zahl der Bauten ausserhalb Bauzone, Planungs- und
-  Kompensationsansatz (S. 1460/1461).
+- **RPG 2 ist seit dem 1.1.2026 IN KRAFT** (⚠ **KORRIGIERT 2026-09-07, Buch-Run 142** —
+  hier stand «Anstehende RPG-Revision (Etappe 2 / RPG 2): Botschaft Bundesrat 31.10.2018 …»,
+  also der Buchstand der 6. Aufl. 2019, als die Revision noch im Parlament lag). Massgebend
+  ist das **BG vom 29. Sept. 2023**, in Kraft seit **1. Jan. 2026** (**AS 2025 640**;
+  BBl 2018 7443); die Botschaft vom 31.10.2018 bleibt als Materialie richtig zitiert
+  (S. 1460/1461). Was RPG 2 im Gesetz geaendert hat, ist artikelweise belegt in
+  `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 4; die dort unter Ziff. 4.3
+  gelisteten Absatzaenderungen (Art. 3, 5, 15, 20, 23, 24d, 24e, 27a) sind **noch nicht
+  erschlossen** und bleiben die Arbeitsliste der Folgelaeufe.
+  **Nicht verwechseln:** ein zweites Bundesgesetz **desselben Datums** (29. Sept. 2023, ueber
+  eine sichere Stromversorgung mit erneuerbaren Energien, **AS 2024 679 / 2025 636**) tritt
+  **am selben Tag** in Kraft und aendert Art. 16a, 18a, 24ter und 24quater RPG. Die AS-Nummer
+  unterscheidet die beiden Erlasse, das Datum nicht.
 - **Zustaendigkeit & Koordination (Art. 25 Abs. 1 RPG):** Kantone ordnen Zustaendigkeit
   und Verfahren; ZH hat mit dem Gesetzgebungsauftrag das PBG und die BVV nachgekommen.
   **Art. 25 Abs. 2 RPG:** fuer Vorhaben ausserhalb der Bauzone entscheidet eine
@@ -70,6 +84,44 @@ Aenderungen/Erweiterungen/Wiederaufbau.
 - **Zweck der Landwirtschaftszone (Art. 16 RPG):** langfristige Sicherung der
   Ernaehrungsbasis, Erhaltung von Landschaft/Erholungsraum, oekologischer Ausgleich
   (S. 1465). Erweiterung der Funktionen durch BBl 1998 S. 2468 / Art. 16 Abs. 3 RPG.
+
+  ⚠ **NACHTRAG 2026-09-07 (Buch-Run 142), im Buch (6. Aufl. 2019) noch nicht enthalten —
+  Art. 16 RPG hat seit dem 1.1.2026 zwei zusaetzliche Absaetze** (beide eingefuegt durch das
+  BG vom 29. Sept. 2023, AS 2025 640; Wortlaut in
+  `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 1):
+  **Abs. 4** stellt den materiellen Grundsatz auf, dass **in der Landwirtschaftszone die
+  Landwirtschaft mit ihren Beduerfnissen Vorrang hat gegenueber nicht landwirtschaftlichen
+  Nutzungen**. **Abs. 5** delegiert an den Bundesrat, in welchen Faellen ausserhalb der
+  Bauzonen bei **Geruchs- und Laermimmissionen aus der Landwirtschaft** Erleichterungen von
+  den USG-Bestimmungen (SR 814.01) zulaessig sind. Abs. 1-3 sind unveraendert; die drei
+  Buchsaetze oben bleiben also richtig, sie sind nur nicht mehr vollstaendig.
+
+- **Ausfuehrung des Vorrangs: 5a. Abschnitt RPV, Art. 38a (neu seit 1.1.2026)** — eingefuegt
+  durch Ziff. I der V vom 15. Okt. 2025 (AS 2025 659), Abschnittsueberschrift «Vorrang der
+  Landwirtschaft in der Landwirtschaftszone (Art. 16 Abs. 5 RPG)»; **Art. 38a RPV traegt
+  keinen eigenen Sachtitel**. Fuenf Absaetze, Wortlaut in
+  `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 2:
+  **Abs. 1** die Behoerde **gewaehrt** die Erleichterung, soweit die Landwirtschaftsinteressen
+  ueberwiegen (kein Ermessen im Ob, sondern eine Abwaegung). **Abs. 2** drei Regelbeispiele
+  des Ueberwiegens: die Wohnnutzung ist **nach** der landwirtschaftlichen entstanden; der
+  Wohnraum wurde **als landwirtschaftlich bedingt** bewilligt; der Wohnraum gehoert **zum
+  emittierenden Betrieb**. **Abs. 3** die Zustimmung der Betroffenen ist ein **Indiz**, nicht
+  mehr. **Abs. 4** vorgelagerte Pruefung: bestehen beide Nutzungen **rechtmaessig**, und
+  liegen **Revisionsgruende** fuer die Bewilligung der nicht landwirtschaftlichen Nutzung vor?
+  **Abs. 5** — die schaerfste Rechtsfolge: eine **Baubewilligung, die einen hoeheren
+  umweltrechtlichen Schutzbedarf ausgeloest hat, faellt dahin**, wenn sich spaeter ein
+  Konflikt mit Geruchs- oder Laermemissionen aus der Landwirtschaft ergibt.
+  **JANS-Transfer (eigene Einordnung, als solche markiert):** wer neben einem
+  Landwirtschaftsbetrieb Wohnraum schafft oder eine Oekonomiebaute zu Wohnzwecken umnutzt,
+  erwirbt damit **keine** durchsetzbare Ruhe- oder Geruchsposition mehr; die zeitliche
+  Reihenfolge (Abs. 2 lit. a) entscheidet, und der Bestand der eigenen Bewilligung steht
+  unter dem Vorbehalt von Abs. 5. Das ist ein Argument, das in die fruehe Machbarkeits- und
+  Ankaufsbeurteilung gehoert, nicht erst in die Baueingabe.
+  ⚠ **Nicht verwechseln mit Art. 38a RPG** — derselbe Artikelbuchstabe im **Gesetz** heisst
+  «Uebergangsbestimmungen zur Aenderung vom 15. Juni 2012» (Richtplanfrist, Einzonungsstopp,
+  Mehrwertausgleich-Frist; in Kraft seit 1.5.2014, AS 2014 899) und hat mit dem Vorrang der
+  Landwirtschaft nichts zu tun. Beide Normen existieren, beide unter «38a» — beim Zitieren
+  immer den Erlass mitfuehren.
 - **Zonenkonforme Nutzung (Art. 16a RPG):** Bauten/Anlagen, die fuer die
   landwirtschaftliche Bewirtschaftung oder den produzierenden Gartenbau noetig sind
   (S. 1466). Konkretisiert in **Art. 34 RPV**.

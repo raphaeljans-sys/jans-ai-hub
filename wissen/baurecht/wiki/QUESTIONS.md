@@ -2579,11 +2579,18 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   sind; ein mechanisches Ersetzen hätte richtige Fundstellen zerstört (gleiche Fehlerfamilie wie
   Rule `bkp-2017-referenz`, «Sachbezug prüfen, nicht mechanisch ersetzen»).
 
-- **Neu 2026-09-01 (Buch-Run 141) — offen: 5a. Abschnitt RPV «Vorrang der Landwirtschaft in der
-  Landwirtschaftszone».** Per **1.1.2026** unmittelbar nach Art. 38 RPV eingefügt (V vom
-  15. Okt. 2025, AS 2025 659, zu Art. 16 Abs. 5 RPG); im Buch (6. Aufl. 2019) naturgemäss nicht
-  enthalten und in diesem Lauf **inhaltlich nicht erschlossen**. Kandidat für den nächsten Lauf —
-  der Volltext liegt bereits beschafft vor.
+- ~~**Neu 2026-09-01 (Buch-Run 141) — offen: 5a. Abschnitt RPV «Vorrang der Landwirtschaft in der
+  Landwirtschaftszone».**~~ → **ERLEDIGT 2026-09-07 (Buch-Run 142).** Der Abschnitt enthält genau
+  einen Artikel, **Art. 38a RPV** mit fünf Absätzen und **ohne eigenen Sachtitel**; Wortlaut in
+  `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 2, erschlossen im Destillat
+  [[21-bauen-ausserhalb-bauzonen]] (21.2) und im Wiki
+  [[laermschutz-und-nichtionisierende-strahlung]] (neuer Abschnitt «Vorrang der Landwirtschaft»).
+  **Berichtigung an der obigen Notiz:** «der Volltext liegt bereits beschafft vor» traf **nicht**
+  zu — `raw/260901_amtlich_ch_rpv-art32a-36-37.md` enthielt an dieser Stelle nur die Notiz, dass
+  der Abschnitt existiert, nicht seinen Wortlaut. Er musste in Run 142 neu geholt werden. Merksatz
+  für Übergabe-Notizen: **«liegt beschafft vor» wird belegt, nicht behauptet** — mit Datei und
+  Fundstelle, sonst prüft der Folgelauf es ohnehin nach (gleiche Familie wie
+  Rule `auto-verbesserungen` 260807, Konfigurationsfelder erst messen, dann glauben).
 
 - **Neu 2026-09-01 (Buch-Run 141) — Cross-KB-Bringschuld an `wissen/energie`.** Die Solar-Befunde
   (Art. 32a Abs. 1bis Flachdach, Art. 32a-bis Fassaden, Meldepflicht Abs. 3 i.V.m. § 2a BVV) sind
@@ -3281,4 +3288,36 @@ tatsächlich verwendete Wort dort ablesen, statt zu raten.
 ## 260903 — Reduit-Praxis Stadt Zürich (aus Fallprüfung Witikon WI1585)
 
 1. **Sind Reduits innerhalb der Wohnung (bis 10 m² je Wohnung) in Vollgeschossen nach Praxis des AfB Stadt Zürich nicht anrechenbar?** Eine Fremdstudie (Spice Architecture, 16.05.2025) setzt das als Regel; § 10 ABV (Fassung bis 28.02.2017) nennt nur Gemeinschaftsräume, Arbeitsplatz-Nebenräume und verglaste Vorbauten. Am Fall entscheidet die Antwort über rund 140 m² (10 % der Ausnützung). Weg: schriftliche Auskunft AfB oder Vorentscheid § 323 PBG; Ergebnis nach [[nutzungsziffern]] übernehmen. Quelle: `outputs/2026-09-03_witikon-w3-hanglage-potentialstudie-check.md`.
+
+## 260907 — RPG 2 in Kraft (Buch-Run 142)
+
+1. **Die Absatzänderungen von RPG 2 an Art. 3, 5, 15, 20, 23, 24d, 24e und 27a RPG sind
+   inventarisiert, aber nicht erschlossen.** Belegt ist je die Existenz einer
+   RPG-2-Änderungsfussnote auf Absatzebene (`raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md`
+   Ziff. 4.3), nicht der Inhalt. **Art. 5 RPG** (Ausgleich und Entschädigung) und **Art. 15 RPG**
+   (Bauzonen) sind für JANS die wichtigsten davon — Mehrwertabgabe und Bauzonendimensionierung.
+   Arbeitsliste der Folgeläufe.
+
+2. **Drei ganz neue RPG-Artikel sind noch nicht destilliert:** Art. 24bis (Bündelung von
+   Infrastruktur- und Mobilfunkanlagen), Art. 24quinquies (thermische Netze), Art. 24c-bis
+   (Bauten in Streusiedlungsgebieten) — alle in Kraft seit 1.1.2026. Art. 24bis berührt das
+   Mobilfunk-Kapitel in [[laermschutz-und-nichtionisierende-strahlung]] und
+   `buecher/band-2/13-weitere-grundanforderungen.md` (13.2.7.3), Art. 24c-bis das Kapitel 21.
+
+3. **Cross-KB-Bringschuld an `wissen/energie` (Fortsetzung von B141-1).** Neu hinzugekommen:
+   **Art. 18a Abs. 1 RPG** erfasst seit 1.1.2026 auch **Fassadenanlagen** (bewilligungsfrei,
+   blosse Meldepflicht), **Art. 18a Abs. 2bis RPG** erklärt Solarstrukturen über Parkplatzarealen
+   ab **15 Parkplätzen** in Bauzonen für **grundsätzlich zonenkonform**, und der Artikeltitel
+   heisst neu «Solaranlagen **und energetische Sanierungen**». Beides stammt nicht aus RPG 2,
+   sondern aus dem **Stromversorgungs-BG** (AS 2024 679 / 2025 636). → **übergeben an
+   `wissen/energie`**; Beleg `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 4.4.
+
+4. **Offene Sachfrage zu Art. 38a Abs. 5 RPV — was heisst «fällt dahin»?** Der Wortlaut ordnet
+   an, dass eine Baubewilligung, die einen höheren umweltrechtlichen Schutzbedarf ausgelöst hat,
+   dahinfällt, wenn sich später ein Konflikt mit Landwirtschaftsimmissionen ergibt. Ob das von
+   Gesetzes wegen eintritt oder eine Verfügung verlangt, wer sie erlässt und wie sich das zur
+   30-Jahre-Verwirkung (Art. 25 Abs. 3-5 RPG, Buch-Run 101) verhält, ist am Verordnungswortlaut
+   **nicht** entscheidbar. Die Norm ist erst seit 1.1.2026 in Kraft, Rechtsprechung dazu ist
+   noch nicht zu erwarten. **Nicht raten** — als offene Frage führen und bei der nächsten
+   einschlägigen Behördenauskunft (Skill `behoerden-vorabklaerung`) mitstellen.
 
