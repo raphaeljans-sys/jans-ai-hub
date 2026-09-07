@@ -346,6 +346,10 @@ vereinbaren) oder weist das Honorar als Pauschale ohne Norm-Prozentbezug aus. Ei
 die «gestützt auf SIA 102:2020» sagt und zugleich Baukosten-Prozente ausweist, behauptet eine
 Norm-Deckung, die es nicht gibt. Vermerk 18.08.2026 (Wissens-Chef Run 36, M1-1).
 
+⚠ Offen (Audit 07.09.2026): «BKP 1+2» und «von der Steuer befreit» im Baustein oben sind der alte
+Wortlaut; B nach dem Abschnitt «Aufwandbestimmende Baukosten B» herleiten, MwSt-Status nach dem
+Vermerk unter «Verbindliche Konventionen JANS» ausdrücklich nennen.
+
 ### Format C — Honorar-Bandbreite (früh)
 
 Für Akquise-Phase mit unklarer Aufgabe:
@@ -432,6 +436,10 @@ Hier gehören hin:
 - KBOB-Tarife / Tarifempfehlungen
 - Bestehende JANS-Honorarofferten (anonymisiert) als Referenz für Honorarsätze
 - Marktreports zu Architektenhonoraren (Wuest Partner, FACOMAS, etc.)
+
+⚠ Angepasst 07.09.2026 (Audit, Lücke 7): massgebliche Ausgabe ist **SIA 102:2014** (Art. 7,
+Baukosten-Methode); SIA 102:2020 nur als Vertragsbestandteil auf Verlangen der Bauherrschaft.
+Details und Inhalt des Ordners: `referenzen/README.md`.
 
 ## Verknüpfung mit anderen Skills
 

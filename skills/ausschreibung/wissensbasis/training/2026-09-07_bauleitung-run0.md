@@ -46,7 +46,11 @@ Typen und Register, maengelprotokoll mit Ruege, Buergschaft gestaffelt.
 Vergabeantrag, Pflichtangaben, Konto-Notation, Preisstandanpassung, Gliederungen,
 Kostenerwartung je Vergabestand, Pfad berichtigt); Vorlage 52 auf 92 (Kostenrapport 13
 Spalten, Aenderungsprotokoll, Vergabeantrag, Zahlungsantrag, Kontoauszug je VE).
-03.6 honorarberechnung-sia102: siehe Nachtrag am Ende dieses Berichts.
+03.6 honorarberechnung-sia102: SKILL.md 312 auf 472 (Methodenwahl-Gate, Vollformel
+p = Z1 + Z2/³√B mit Faktorprotokoll und Plausibilitaetsgrenze, Definition B, Leistungsnachweis,
+Tarifblatt, Format A als Vertragsurkunde, Normbezug SIA 102:2014, Uebergabe an kostenkontrolle
+und logbuch; Bandbreiten im Destillat sia-102-2014 belegt); neu
+`referenzen/260907-Stundenansaetze-JANS.md`; Warnzeilen zu MwSt-Status und Zahlungsfrist.
 03.7 Neu: Loop `bauleitung-training` (Scheduled Task, Montag 04:20), Register 15, dieser
 Ordner `training/`, Rollen-Eintrag sweeper, Chronik 260907, Ruecklauf-Report in
 `wissen/projekt-lessons/outputs/2026-09-07_bbase-raster-audit-bauleitungsharness.md`.
