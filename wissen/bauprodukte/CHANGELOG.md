@@ -1,5 +1,24 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-09-07 — Nachtschicht Mac Mini: QUESTIONS.md Punkt 9 (Bekleidungs-Teil) geschlossen
+
+Neuer Wiki-Artikel [[lbw-brandschutzwaende-en520-typ-d]] (BKP 271.1, Trockenbauarbeiten):
+LBW-Brandschutzwände EI30, Rohdichte-Vorgabe ≥ 800 kg/m³ übersetzt in EN-520-Typ-D-
+Beplankung, Plattentypen-Tabelle (Typ A vs. Typ D, Duraline Vario/Habito AK mit
+Rohdichte/VKF-Nr.), drei Praxisregeln für Ausschreibung/Bauleitung. Kein neues
+Quellmaterial gelesen — Artikel kompiliert den bereits belegten Einzelfall
+`wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800.md` (established, 23.07.2026) und
+die Norm-Übersetzung `wissen/normen/wiki/en-520-gipsplattentypen.md` (established), wie
+in Punkt 9 seit 31.07.2026 als «Weg nach vorne» vorgezeichnet. `status: established` sofort
+gesetzt (Schreibregel 6 erfüllt: zwei unabhängige established-Quellen aus zwei anderen KBs).
+`wiki/QUESTIONS.md` Punkt 9 als teilweise ERLEDIGT markiert (Bekleidungs-Teil), BKP
+214.1/214.3 (Holzbau, Quellordner leer) und 225.4 (Brandschutzbekleidungen, kein
+Praxisfall) bleiben unverändert geblockt — kein weiterer Nachtlauf soll das Quellarchiv
+dafür erneut durchsuchen. `wiki/INDEX.md` um neue Sektion «BKP 271 — Gipserarbeiten
+(Trockenbau)» ergänzt. Cross-KB-Bringschuld geschlossen: Rückverweis im
+projekt-lessons-Artikel auf «ERLEDIGT» aktualisiert (Rule `wissens-bibliothekar`,
+Abschnitt Cross-KB-Bringschuld).
+
 ## 2026-09-05 — Nachtschicht Mac Mini: HC0901-1 geschlossen, Zweitbelegung für zwei Möbel-Artikel
 
 `ch24-wishbone-chair.md` und `matrah-moll-naturmatratze.md` trugen `status: established`

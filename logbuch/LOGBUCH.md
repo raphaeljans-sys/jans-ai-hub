@@ -11737,3 +11737,32 @@ geschrieben. Commit nativ über `nas-commit-now.sh` ausgelöst.
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 4.4 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-07 23:3x (Nachtschicht Mac Mini, zweiter Zyklus)
+
+Prioritäten 1-4 erneut geprüft: remote-tasks/sync-tasks weiterhin leer, Synobsis Stufe 2
+weiterhin gesättigt (Vektorindex 01.09. neu gebaut, seither kein neuer Text), Fristen-Radar
+ohne neuen Sendegrund (Steinbrüchelstrasse-Entwurf weiterhin versandbereit, KISPI-Türfreigabe
+weiterhin Raphaels eigenes Fachurteil). Priorität 4 diesmal vollständig durchgeprüft: alle
+zehn KBs mit `training/PROGRAMM.md` sind entweder zeittaktgesperrt (baurecht, normen,
+planungsgrundlagen, wettbewerbs-dna), ereignisgetrieben und kein gültiges Ziel
+(immobilienbewertung, spec), ausgesetzt (projekt-lessons, grobkosten), selbst als erledigt
+deklariert (bauprodukte) oder heute bereits am eigenen Taktgeber gelaufen (energie, Run 185,
+22:47-22:49) — kein gültiges Ziel übrig.
+
+Der Vormittagslauf hatte `bauprodukte` als «kein Ansatz» geschlossen; erneute Prüfung der
+QUESTIONS.md fand doch einen offenen, bearbeitbaren Rest: Punkt 9 (Holzbau/Bekleidungen
+GEBLOCKT mangels Quellmaterial) nennt selbst einen «Weg nach vorne» für den Bekleidungs-Teil
+— den bereits belegten Einzelfall `wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800.md`.
+Neuer Wiki-Artikel `wissen/bauprodukte/wiki/lbw-brandschutzwaende-en520-typ-d.md` (BKP 271.1,
+`status: established`, zwei unabhängige Zweitquellen) kompiliert diesen Fall: EN-520-Typ-D-
+Übersetzung der Rohdichte-Vorgabe, Plattentypen-Tabelle, drei Praxisregeln für Ausschreibung/
+Bauleitung, offene Punkte (Holzbau 214.1/214.3, Brandschutzbekleidungen 225.4) bleiben explizit
+geblockt stehen. Kein neues Quellmaterial gelesen, keine Web-Recherche — reine Kompilation
+bereits belegten Hub-Wissens. `wiki/INDEX.md`/`QUESTIONS.md`/`CHANGELOG.md` in `bauprodukte`
+nachgeführt, Cross-KB-Bringschuld im `projekt-lessons`-Quellartikel geschlossen
+(Rule `wissens-bibliothekar`).
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 2.7 von 5 USD. Zyklus sauber beendet.

@@ -1,6 +1,15 @@
 # CHANGELOG — Wissensbasis Projekt-Lessons
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
+
+## 2026-09-07 — Nachtschicht Mac Mini: Cross-KB-Bringschuld an `bauprodukte` geschlossen
+
+`kispi-lbw-rohdichte-800.md`, Abschnitt «Abnehmer in anderen KBs»: Der dort seit
+31.07.2026 offen vermerkte Bring-Schuld-Punkt (Bekleidungs-Teil von
+`wissen/bauprodukte/wiki/QUESTIONS.md` Punkt 9) ist erledigt — neuer Artikel
+`wissen/bauprodukte/wiki/lbw-brandschutzwaende-en520-typ-d.md` kompiliert diesen Fall.
+Rückverweis im Abschnitt aktualisiert, keine inhaltliche Änderung an der Beweiskette.
+
 ## 2026-09-07 — Rücklauf aus dem Audit des Bauleitungs-Harness (bbase.ch-Raster, Praxistest 2619)
 
 Report `outputs/2026-09-07_bbase-raster-audit-bauleitungsharness.md` angelegt (Rule
