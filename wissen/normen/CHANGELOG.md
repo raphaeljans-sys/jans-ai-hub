@@ -1,3 +1,46 @@
+## 2026-09-08 (Normen-Nacht Run 81) — N80-1 geschlossen: Fassungsvergleich BRL 15-15 über alle 35 Seitenpaare; eine Delta-Aussage widerlegt
+
+Vertiefungsstufe (b), SIA/VKF-Scope, MacBook Pro. Der von Run 80 als naheliegendster nächster
+Schritt benannte Auftrag **N80-1** ist erledigt — und zwar breiter als verlangt: statt nur der zwei
+offenen Anhangseiten wurde der Fassungsvergleich 2015/2017 über **alle 35 Seitenpaare** gefahren.
+
+**Ein Kernbefund.** `destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md` führte S. 27 und
+S. 34 seit der Retro-Verifikation von Run 7 als «inhaltlich unverändert». Für **S. 34
+(Ziff. 3.7.13) ist das widerlegt**: 2015 «Bei Löschanlagenvollschutz sind auf der
+Fassadenaussenseite keine Massnahmen erforderlich», 2017 «… beim Anschluss an die Aussenwand keine
+baulichen Massnahmen erforderlich» — örtlich und sachlich enger. Der Kernziffern-Teil des
+Destillats gab die Fassung 2017 bereits richtig wieder; falsch war allein die Delta-Aussage. Nach
+Methodik-Pflicht 9 **inline** korrigiert, nicht angehängt.
+
+**Zwei Bestätigungen mit berichtigter Begründung.** S. 27: Inhalt unverändert, aber nicht wegen
+«Layout-Konsistenz» — es ändert sich der Begriff «Bedachungen» → «Dachkonstruktionen» in der
+Überschrift, die dadurch umbricht (gemessener Versatz 53 px, Restdifferenz nach Ausrichtung
+−97.4 %). Es ist dieselbe Nomenklatur-Nachführung, die Run 80 auf S. 22-23 belegt hat. S. 33:
+Zeichnung unverändert (dy = 0, 245 px), gewachsen ist der Beschriftungsblock um die Zeile «mit
+Löschanlage → beliebig».
+
+**Zwei methodische Belege, beide mit Reichweite über diese Datei hinaus.** (1) Die Änderung auf
+S. 33 ist im **Textlayer unsichtbar** — die Seite ist in beiden Fassungen wortgleich (261 Zeichen),
+«beliebig» steht dort gar nicht. (2) Der Textlayer **verfälscht Vergleichszeichen**: gedruckt
+«≤ 1'200 m²», extrahiert «<». Dieselbe Familie wie das GVZ-Merkblatt 30.17.3, hier erstmals an
+einer VKF-Richtlinie. Das Destillat ist an der Stelle korrekt, weil Run 79/80 am Rendering gelesen
+haben — Methodik-Pflicht 8 hat nachweislich gegriffen. Als **N81-2** ist offen, ob andere
+VKF-Destillate Grenzwerte aus Textextraktion übernommen haben.
+
+**Zwei Scheinbefunde durch Gegenprobe abgefangen** (Methodik-Pflicht 7/10): «m» → «m2» ist ein
+Encoding-Artefakt (beide Fassungen drucken «m²», per `-bbox` belegt), und acht seitenweise als
+abweichend gemeldete, nicht angekündigte Seiten sind **Reflow**, nicht Inhalt. Ebenfalls kein
+Befund, sondern Bestätigung: der erweiterte Wortlaut der Fussnote [5] stand bereits vollständig im
+Destillat; neu ist nur, dass er nachweislich schon in der Fassung 2017 steht und nicht erst im
+2022er-Druck.
+
+Ergebnis zur Vollständigkeit: die Änderungsliste auf S. 2 ist für alle **anforderungsrelevanten**
+Änderungen vollständig; nicht genannt sind vier orthografische Korrekturen. Status des Destillats
+unverändert `speculative` — die Refuter-Richtung ist auch auf den Nachträgen dieses Laufs nicht
+gelaufen (N80-2). Geändert: Destillat (inline), `wiki/QUESTIONS.md` (N80-1 geschlossen, N81-1 bis
+N81-3 neu), `training/norm-inventar.md`, neue Anlage
+`training/n81-fassungsvergleich-260908.md`, Report `outputs/2026-09-08_normen-nacht-run81.md`.
+
 
 
 ## 2026-09-07 (Wissens-Chef Lauf 54) — zwei weitere Registerlücken aus dem energie-Zuwachs; ein toter Zeiger berichtigt

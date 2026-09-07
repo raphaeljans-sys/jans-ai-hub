@@ -1,5 +1,50 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 81 (08.09.2026) — N80-1 ist geschlossen; eine Delta-Aussage des Bestands war falsch
+
+**Betrifft `destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md`.** Run 80 hatte als
+naheliegendsten nächsten Lauf benannt, den Fassungsvergleich 2015/2017 auf den noch offenen
+Anhangseiten zu fahren. Er ist gefahren, und zwar über **alle 35 Seitenpaare** statt nur über die
+zwei genannten. Anlage: `training/n81-fassungsvergleich-260908.md`.
+
+**N80-1 GESCHLOSSEN.** Ergebnis: **S. 34 (Ziff. 3.7.13) hat eine inhaltliche Änderung**, die das
+Destillat seit Run 7 als «inhaltlich unverändert» führte — die Befreiung bei
+Löschanlagenvollschutz ist 2017 in zwei Richtungen enger gefasst (örtlich: nur noch der Anschluss
+an die Aussenwand statt der ganzen Fassadenaussenseite; sachlich: nur noch *bauliche* Massnahmen).
+Der Kernziffern-Teil des Destillats gab bereits die Fassung 2017 wieder; falsch war allein die
+Delta-Aussage. **S. 27 und S. 33 sind bestätigt**, beide mit berichtigter Begründung: auf S. 27
+ändert sich nur der Begriff «Bedachungen» → «Dachkonstruktionen» in der Überschrift (dieselbe
+Nomenklatur-Nachführung wie auf S. 22-23), auf S. 33 ist die Zeichnung unverändert und der
+Beschriftungsblock um die Zeile «mit Löschanlage → beliebig» gewachsen. Alles inline korrigiert.
+
+**N81-1 — Der Sweep ist ein Screening, kein Inhaltsnachweis je Seite.** Zwischen diesen beiden
+Dateien weicht **jede** der 35 Seiten im Pixelvergleich ab (0.28 % bis 24.7 %), weil die Fassungen
+von verschiedenen PDF-Erzeugern stammen. Inhalt von Rendering getrennt wurde nur dort, wo
+anschliessend ausgerichtet, gerendert und gelesen wurde: S. 11-13 (Run 79/80), S. 22-23 (Run 80),
+S. 27/33/34 (Run 81). Für die **Textseiten 3-10 und 14-21** leistet das allein der Volltext-Diff.
+Eine rein grafische Änderung ohne Textlayer-Spur wäre dort nicht gefunden worden. Unwahrscheinlich,
+weil diese Seiten kaum Zeichnungen tragen — aber nicht gemessen, und darum hier notiert.
+
+**N81-2 — Der Textlayer dieser Richtlinie verfälscht Vergleichszeichen; die Reichweite über die
+übrigen VKF-Destillate ist ungemessen.** Gedruckt steht «≤ 1'200 m²» und «≤ 300 Personen»,
+`pdftotext` liefert «<» und «>». Das ist dieselbe Fehlerfamilie wie beim GVZ-Merkblatt 30.17.3, die
+Methodik-Pflicht 8 ausgelöst hat — hier erstmals an einer **VKF-Richtlinie** belegt. Dieses
+Destillat ist an der Stelle korrekt, weil Run 79/80 die Tabelle am Rendering aufgenommen haben.
+**Offen ist die Frage für den übrigen VKF-Bestand:** welche Destillate haben Grenzwerte aus einer
+Textextraktion übernommen und tragen deshalb möglicherweise «<» statt «≤»? Das ist eine
+Verwechslung mit Planungsfolge — sie verschiebt eine Grenze um genau einen Grenzfall. Ein gezielter
+Sweep über die VKF-Destillate nach «<»/«>» vor Zahlenwerten wäre billig und ist noch nicht gefahren.
+
+**N81-3 — Eine seitenweise Fassungsdiagnose ist bei Reflow strukturell irreführend.** Der
+seitenweise Textvergleich meldete acht Seiten als abweichend, die die Änderungsliste nicht nennt
+(S. 3, 8, 9, 10, 12, 13, 14, 15). Keine davon ist eine inhaltliche Änderung: die angekündigte
+Änderung auf S. 7 verschiebt Text über Seitengrenzen, bis sich die Seiten ab S. 16 wieder decken;
+S. 3 ist das Inhaltsverzeichnis. **Wer seitenweise vergleicht, erzeugt acht Scheinbefunde und
+übersieht zugleich die grafische Änderung auf S. 33, die im Textlayer wortgleich ist.** Ob das als
+Methodik-Pflicht 14 aufgenommen werden soll («Fassungsvergleiche über das ganze Dokument bilden,
+die Seitenzuordnung erst danach»), entscheidet Raphael — **vorgelegt, nicht selbst gesetzt.**
+
+
 ## Cross-KB-Eingang Wissens-Chef Lauf 53 (07.09.2026) — SIA 2060 fehlt im Register
 
 **WC53-1 — Registerlücke SIA 2060 «Elektromobilität und Schnittstellen zum Gebäude»
