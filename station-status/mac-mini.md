@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 07.09.2026 17:38:54
+Stand: 07.09.2026 17:59:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -16,4 +16,4 @@ Stand: 07.09.2026 17:38:54
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 45188f64f synergie-lauf 30 (07.09.2026): SYN-76 Loop bauleitung-training in drei Registern aktiv, Task existiert nicht; SYN-77 Register fuehrt 8 Skills, Auswahlregel kennt 5; Lauf 29 (SYN-73/74/75) nach NAS-Ausfall nachgetragen
+- 78ab590c0 nas-selfcommit: 2 Datei(en) 2026-09-07 17:45
