@@ -3078,3 +3078,22 @@ unter `templates/scheduled-tasks/macbook-pro/`. Rolle sweeper im Rollen-Register
 woechentlich, still by default (Rule 260803), Abbruch nach Ertrag (Rule 260830: Saettigungssatz
 im Bericht, Ruecktaktung auf monatlich empfohlen). Umkehr: Task in der App deaktivieren,
 Registerzeile auf `erledigt` setzen; die Wissensbasis-Dateien bleiben als Referenz gueltig.
+
+⚠ **Gegengemessen am selben Tag um 17:2x (Synergie-Lauf 30, SYN-76): die Task existiert in der
+Registry der Station NICHT.** Der Satz oben, «Task-Datei `~/.claude/scheduled-tasks/bauleitung-training/SKILL.md`»,
+trifft nicht zu. Zwei unabhaengige Messungen auf dem MacBook Pro: `ls ~/.claude/scheduled-tasks/`
+listet 33 Eintraege, `bauleitung-training` ist keiner davon; `list_scheduled_tasks` liefert
+dieselben 33 Tasks, ebenfalls ohne ihn. Vorhanden ist ausschliesslich der Spiegel
+`templates/scheduled-tasks/macbook-pro/bauleitung-training/SKILL.md` — also die Vorlage, nicht die
+laufende Task. Das Rollen-Register `logbuch/rollen/rollen-map.tsv` Z. 140 fuehrt den Loop als
+`aktiv` und nennt genau den nicht existierenden Pfad; `15_bauleitung-training-register.md` nennt
+ihn als fuehrende Instanz. **Drei Register behaupten einen Loop, den es nicht gibt.** Verschaerfend
+ist, dass der Loop still by default ist (Rule 260803): ein stiller Loop, der nicht existiert, ist
+von einem stillen Loop ohne Befund nicht zu unterscheiden — er faellt erst auf, wenn jemand die
+Registry misst. Erster planmaessiger Termin waere Montag, 08.09.2026 04:20. **Nicht getan:** die
+Task wurde nicht angelegt (Persistenz/Autostart, Klasse 5 der Rule `interaktive-eingriffe`; dieser
+Lauf ist unbeaufsichtigt) und der Status `aktiv` im Rollen-Register nicht auf `erledigt` gesetzt —
+ein Feld zu editieren, um einen Widerspruch zu heilen, kann einen produktiven Loop stillstellen
+(Merksatz `vollgas-chef-radar`). Gleiche Familie wie Rule `auto-verbesserungen` 260807: dort
+widerspricht ein Konfigurationsfeld dem Betrieb, hier fehlt die Task ganz. Vorgelegt in
+`logbuch/fristen.md`, Eintrag 07.09.2026 17:2x.

@@ -13,6 +13,7 @@ description: Offerten-/Angebotspruefungs-Agent fuer Bau-, Architektur- und Spezi
 - **Abhaengige Rules:** dokument-layout-standard, umlaute-konvention, dateinamen-konvention, bkp-2017-referenz, normen-referenz (SIA 118 und SIA 1024 — Fundstelle mit Norm/Ausgabe/Ziffer aus `wissen/normen/destillate/`, und vor dem Zitieren das Feld `status:` des Destillats lesen; ergaenzt 16.08.2026, Wissens-Chef Run 34: der Skill trifft in der Gewaehrleistungs-Pruefung eine SIA-118-Fristenaussage und fuehrte sie bis dahin ohne Fundstelle), identifikatoren-verifizieren (Projektnr./Adresse/Termin), mail-formatierung (bei Klärungs-/Antwortmails), auftrags-dekomposition (mehrere Offerten) + Korrektur-Pflicht (jedes Texterzeugnis vor Ausgabe durch Skill `korrektur`).
 - **Vorgelagert:** ausschreibung
 - **Nachgelagert:** werkvertrag
+- **Pruefraster:** `skills/ausschreibung/wissensbasis/14_bauadministration-prinzipien.md` (Referenz bbase.ch, 07.09.2026) — dieser Skill wird dort **gemeinsam mit `ausschreibung`** geprueft, Prinzipien 04.17 bis 04.23; Audit-Stand in `15_bauleitung-training-register.md`, Zeile «ausschreibung + offertenpruefung». Rueckkante nachgetragen 07.09.2026 (Synergie-Lauf 30 — SYN-77): das Register fuehrte den Skill als Pruefgegenstand, der Skill wusste nichts davon.
 
 ## Deine Aufgabe
 Du pruefst eingehende Offerten von Unternehmern, Spezialplanern und Lieferanten systematisch und liefert dem Architekten eine entscheidungsreife Bewertung mit Factsheet, Risiken und Verhandlungsstrategie.

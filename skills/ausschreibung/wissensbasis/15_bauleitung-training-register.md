@@ -17,6 +17,23 @@ Der Loop waehlt je Lauf den Skill mit dem aeltesten Pruefdatum. Lauf-Berichte: `
 | protokoll + pendenzenliste (quer) | 04.40 | ausstehend | | | |
 | terminplanung (quer) | 04.41 | ausstehend | | | |
 
+⚠ **Die Tabelle fuehrt sieben Zeilen, die Auswahlregel des Loops kennt fuenf** (Vermerk
+Synergie-Lauf 30, 07.09.2026 — SYN-77; Text der Tabelle unangetastet). Die `description` der Task
+`bauleitung-training` nennt als Auswahlmenge «je Lauf einen Skill (honorar, ausschreibung,
+werkvertrag, unternehmerkontrolle, kostenkontrolle)», und Schritt 2 waehlt «den Skill mit dem
+aeltesten Pruefdatum». Die beiden Quer-Zeilen `protokoll + pendenzenliste` (04.40) und
+`terminplanung` (04.41) tragen **kein** Pruefdatum, sondern «ausstehend» — auf einem leeren Feld
+ist «aeltestes Datum» nicht definiert, und in der Auswahlmenge stehen sie ohnehin nicht. Sie
+werden vom Loop also strukturell nie erreicht, waehrend die Saettigungsklausel («jedes Prinzip des
+**gewaehlten** Skills gruen» plus drei ertragslose Laeufe) allein ueber die Fuenf misst. Praktische
+Folge: 04.40 und 04.41 haben heute keinen Zustaendigen, und eine Saettigungsmeldung wuerde sie
+nicht mitzaehlen. Passend dazu tragen genau die vier Skills ohne Raster-Rueckkante
+(`offertenpruefung` — am 07.09.2026 nachgetragen —, `protokoll`, `pendenzenliste`,
+`terminplanung`) diejenigen, die nicht in der Auswahlmenge stehen; die fuenf der Auswahlmenge
+tragen sie alle. **Nicht geaendert:** weder die Auswahlmenge der Task noch die Tabelle — ob die
+Quer-Skills eigene Laeufe bekommen oder beim jeweiligen Anlass mitlaufen, ist ein Zuschnitt-
+Entscheid Raphaels, kein Querverweis.
+
 ## Laufjournal (neueste zuoberst)
 
 | Datum | Lauf | Skill | Ertrag (geaenderte Dateien, neue/geschlossene Luecken) | Bericht |

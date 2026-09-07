@@ -2,6 +2,42 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-07 (Synergie-Lauf 29, Tagestakt; nachgetragen durch Lauf 30) — eine Verbesserung erreicht die Stellen, die offen sind, nicht die, die sie betrifft
+
+Delta-Basis 04.09.2026 17:10, Fenster **63,3 h** (Laeufe 05./06.09. entfielen, Station war aus),
+**271 Commits**, HEAD `1e87bc4f1`. Uhr- und Anschluss-Gegenprobe bestanden. Strukturelles Delta:
+**0 neue** Bausteine, **3 geaenderte** Contract-relevante Dateien, alle aus einem Commit
+(`c53c79a6e`, Wissens-Chef Lauf 53); Frueh-Ausstieg griff nicht. Inline-Analyse, kein Fan-out.
+Bericht: `outputs/2026-09-07_synergie-lauf-29.md`.
+
+- **SYN-73 neu.** Der Statuslabel-Nachzug von Lauf 53 (`sia-118-1991.md` auf `speculative`)
+  erreichte `offertenpruefung`, `werkvertrag` und `unternehmerkontrolle` — nicht aber
+  `kostenkontrolle`, der dasselbe Destillat an **drei** Stellen fuehrt und laut Router die
+  «dichteste SIA-118-Strecke aller Fach-Skills» hat. Die Asymmetrie steht im selben Dokument: fuer
+  `sia-416-2003.md` traegt derselbe Skill den Vorbehalt zweimal.
+- **SYN-74 neu.** `sia-118-c1-2026.md` nennt in «JANS-Praxis-Transfer» **fuenf** Abnehmer;
+  angekommen ist die 60-Tage-Ruegefrist bei **einem** (`unternehmerkontrolle`). Schaerfster Fall
+  `werkvertrag`: vom Destillat **an erster Stelle** genannt, der Befund steht seit Run 32 im
+  eigenen Template — und Lauf 53 hatte die Datei **in derselben Minute** in der Hand.
+  Zweitschaerfster Fall `honorarberechnung-sia102`: Art. 367 Abs. 1bis lit. b OR betrifft die
+  Planerhaftung **von JANS selbst**, der Skill haengt an der Normen-KB nur ueber SIA 102.
+- **SYN-75 neu.** Von den drei hub-weiten Zeilenankern auf fremde Dateien zeigten **zwei** ins
+  Leere (`kostenkontrolle` → `sia-118-1991.md` Z. 148 statt 244; `normen` → `QUERBEZUEGE.md`
+  Z. 348 statt 2249-2250). Der Anker altert nicht mit der eigenen Datei, sondern mit dem Wachstum
+  der fremden. Bei 2 von 3 und kleiner Grundgesamtheit bewusst als Gewohnheitsregel formuliert,
+  nicht als Kampagne.
+- **Gesetzt (active-with-flagging):** Statusvermerk + Anker in `kostenkontrolle`, 11 Zeilen
+  C1:2026 additiv in `werkvertrag` Schritt 5 (Hebung einer established-Aussage vom Template in den
+  Ablaufschritt, kein neuer Sachentscheid), Anker in `normen`. Je 0 entfernte Zeilen.
+- **Offen, Raphael vorzulegen:** die Planerhaftung in `honorarberechnung-sia102` (SYN-74 b) — ein
+  Sachentscheid, kein Querverweis.
+- **Nebenbefund gemeldet, nicht repariert:** `QUERBEZUEGE.md` Z. 2249-2250 fuehrt eine
+  beidseitig laengst erledigte Kante als offen; die Datei gehoert dem Wissens-Chef.
+- **Laufunterbrechung:** NAS-Ausfall um 08:52 (LAN und Tailscale, «last seen 4m ago»). Register,
+  Bericht und dieser Eintrag wurden erst am selben Tag um 17:1x durch **Lauf 30** aus
+  `~/jans-nachtraege/synergie-lauf-29/` eingespielt — bis dahin waren die IDs SYN-73/74/75 in drei
+  Skills zitiert, ohne im Register zu existieren.
+
 ## 2026-09-04 (Synergie-Lauf 28, Tagestakt) — die Praxisfolge des SIA-416-Befunds nennt eine Bezugsgroesse, die sie nicht tragen kann
 
 Delta-Basis 03.09.2026 17:10, Fenster 23,9 h, **119 Commits**, HEAD `dde7fa010`. Uhr- und
