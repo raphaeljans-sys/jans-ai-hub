@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 07.09.2026 23:59:25
+Stand: 08.09.2026 00:09:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:37)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -16,4 +16,4 @@ Stand: 07.09.2026 23:59:25
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3809d7f14 nas-selfcommit: 2 Datei(en) 2026-09-07 23:45
+- d4bdceb0a wissen/baurecht Buch-Run 142: Betriebsbefund nachgetragen (GitHub-Blocker aus Run 141 gemessen aufgeloest, Registervorgang bereits erledigt)
