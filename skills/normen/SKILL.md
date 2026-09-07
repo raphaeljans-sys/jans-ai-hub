@@ -56,6 +56,6 @@ description: Baunormen-Agent (Router) fuer die JANS-Normenbibliothek — beantwo
   `terminplanung`, `wettbewerb`.
   <!-- Gegenkante ergaenzt 17.08.2026, Synergie-Lauf 10 (SYN-33, active-with-flagging):
   beide Skills nannten den Router laengst, der Router sie nicht. Zuerst notiert von
-  Wissens-Chef Run 33 (QUERBEZUEGE Z. 348, `kostenkontrolle`), in Run 34 erneut liegen
+  Wissens-Chef Run 33 (QUERBEZUEGE **Z. 2249-2250**, `kostenkontrolle` — Anker nachgefuehrt Synergie-Lauf 29, 07.09.2026, SYN-75; Z. 348 traegt heute fremden Inhalt. Der dortige «Offen»-Vermerk ist inzwischen **beidseitig erledigt** und in der QUERBEZUEGE nicht nachgefuehrt: `kostenkontrolle` fuehrt drei Normen-KB-Verweise, und dieser Router nennt ihn oben), in Run 34 erneut liegen
   geblieben, waehrend dieselbe Achse auf der Skill-Seite korrigiert wurde. -->
 

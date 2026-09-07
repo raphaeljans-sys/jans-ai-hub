@@ -33,13 +33,13 @@ Lebenszyklus: `ausschreibung/wissensbasis/11_lebenszyklus-reifegrad.md`.
   04_konditionen.md                       ← Abzuege, Skonto, Rueckbehalt, MWST 8,1 %
   10_dokumente-standard.md                ← Dokumentstandard
 /Volumes/daten/jans-ai-hub/references/bkp-2017/BKP-2017-Liste.md  ← BKP-Gliederung (verbindlich)
-/Volumes/daten/jans-ai-hub/wissen/normen/destillate/sia-118-1991.md  ← Fristen/Prozentsaetze (Rule normen-referenz)
+/Volumes/daten/jans-ai-hub/wissen/normen/destillate/sia-118-1991.md  ← Fristen/Prozentsaetze (Rule normen-referenz; Stand 26.08.2026: status speculative — herabgestuft Run 62 wegen einer offenen Abdeckungsrichtung bei Nebenbefunden, NICHT wegen falscher Werte; vor dem Zitieren das Feld `status:` im Destillat pruefen. Nachgezogen Synergie-Lauf 29, 07.09.2026 — SYN-73)
 /Volumes/daten/jans-ai-hub/wissen/normen/destillate/sia-416-2003.md  ← Bezugsflaechen fuer CHF/m2, CHF/m3 (Stand 02.09.2026: status speculative, vor dem Zitieren am Original gegenlesen)
 ```
 
 **Norm-Fundstellen kommen aus der KB `normen`, nicht aus dem Gedaechtnis** (Rule
 `normen-referenz`). Das Destillat `sia-118-1991.md` ist volltextgelesen und nennt diesen
-Skill in Z. 148 ausdruecklich als Abnehmer; die Fundstellen zu den Schritten 5 bis 7 stehen
+Skill in Z. 244 ausdruecklich als Abnehmer (Anker nachgefuehrt Synergie-Lauf 29, 07.09.2026 — SYN-75; Run 62 hat das Destillat verlaengert, Z. 148 traegt heute die Kapitelueberschrift «Abnahme»); die Fundstellen zu den Schritten 5 bis 7 stehen
 unten im Ablauf. Gegenkante gesetzt Wissens-Chef Run 33 (15.08.2026) — der Skill fuehrte
 bis dahin **null** Verbindungen in die Normen-KB, obwohl er Schlussabrechnungsfristen und
 Garantieverfalldaten fuehrt.

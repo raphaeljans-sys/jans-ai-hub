@@ -74,6 +74,17 @@ Aufwand → Kostendach) und mit Default vorschlagen.
    max. Fr. 1 Mio. Garantie-/Ruegefrist 2 J. (Art. 172), Verjaehrung der Maengelrechte
    5 J. (Art. 180), bei absichtlich verschwiegenen Maengeln 10 J. Quelle
    `wissen/normen/destillate/sia-118-1991.md`, `status: speculative` (herabgestuft Run 62, 26.08.2026 — die Herabstufung betrifft eine offene **Abdeckungs**richtung bei Nebenbefunden, ausdruecklich **nicht** die Richtigkeit der hier zitierten Werte; Statuslabel nachgezogen Wissens-Chef Lauf 53, 07.09.2026. Vor dem Zitieren das Feld `status:` im Destillat selbst pruefen.).
+   ⚠ **Ruegefrist verdeckte Maengel: 60 Tage ab Entdeckung** — und die Korrigenda in die
+   Vertragsbestandteil-Liste aufnehmen: «Norm SIA 118:2013 inkl. Korrigenda C1:2026»
+   (ergaenzt Synergie-Lauf 29, 07.09.2026 — SYN-74). **SIA 118-C1:2026** aendert Art. 179
+   Abs. 2 von «sofort» auf **60 Tage ab Entdeckung**; fuer Vertraege, die **nach dem
+   01.01.2026** abgeschlossen werden, gilt die Frist wegen der OR-Revision (AS 2025 270)
+   ohnehin **zwingend**, auch ohne Vereinbarung der Korrigenda. Betrifft **nur verdeckte**
+   Maengel, nicht die Garantiefrist nach Art. 172. Quelle
+   `wissen/normen/destillate/sia-118-c1-2026.md` (`status: established`, Refuter-verifiziert
+   Run 47) — dieses Destillat nennt diesen Skill an erster Stelle als Abnehmer. Der Wortlaut
+   steht seit Run 32 (14.08.2026) in `templates/werkvertrag-vorlage.md` Z. 123-126; hier
+   nachgezogen, damit der Ablaufschritt ihn fuehrt und nicht erst das Dokument.
 6. **PDF** erzeugen (Verbindlichkeit), **doppelt ablegen** (Projektordner
    `…06 WV/` + AI-Hub-Output), **Mail-Entwurf** nach `10_dokumente-standard.md`.
 7. **Uebergabe an Phase H**: Garantieverfalldaten, Termine, Regieansaetze und
