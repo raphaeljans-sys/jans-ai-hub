@@ -1,5 +1,36 @@
 
 
+## 2026-09-07 (Wissens-Chef Lauf 54) — zwei weitere Registerlücken aus dem energie-Zuwachs; ein toter Zeiger berichtigt
+
+Cross-KB-Prüfung `energie` ↔ `normen` auf dem Zuwachs der Runs 176-185 (rund 4500 Zeilen), beide
+Befunde adversarial verifiziert. Alle Eingriffe additiv.
+
+- **`wiki/REGISTER.md`: neue SWKI-Zeile VA104-01** «Hygiene-Anforderungen an raumlufttechnische
+  Anlagen und Geräte». Die Richtlinie wird im Hub durchgehend als feststehende Referenz zitiert —
+  `destillate/sia-382-1-2014.md` Z. 131/148, `destillate/swki-va103-01-2017.md` Z. 59/549/553/898
+  (VA103-01 gilt **zusätzlich zu, nicht anstelle von** VA104-01 und verweist für die Filterklasse
+  vollständig dorthin), `outputs/2026-07-28_therapiekueche-lueftung-spital-zuerich.md` Z. 97/129/193 —
+  und neu aus Minergie-ECO 110.02 (`energie` Run 184). Eine Registerzeile gab es nie (0 Treffer).
+  **Bewusst ohne Gültigkeitsaussage**, weil zwei Dinge belegt offen sind: die Ausgabe ist strittig
+  (BAG/BLV Modul 14 zitiert 2006-04, ZH-Kantonslabor MD-00038 ab 31.10.2025 zitiert 2019-01), und der
+  Volltext ist nicht im Haus (`training/norm-inventar.md`: `06_Richtlinien/SWKI` = genau 1 PDF, VA 103-1).
+  Damit folgt die Zeile der Hausregel «keine Gültigkeitsaussage für im Haus fehlende Volltexte».
+- **`wiki/QUESTIONS.md`, neuer Punkt WC54-1: SN EN 17037 «Tageslicht in Gebäuden» fehlt komplett.**
+  `energie` rechnet damit (Minergie-ECO-Vorgabenkatalog Z. 603/610, Tageslichtautonomie und
+  TLQ-Schwellen 0.6/1.9/3.1/4.7 %), und der neue Artikel `energie/wiki/tageslicht-minergie-eco.md`
+  hält die Bringschuld an diese KB in seiner eigenen Warnkarte fest. Hub-weit trifft «17037»
+  ausschliesslich acht `energie`-Dateien. **Abgrenzung mitgesetzt:** die fünf DIN-5034-Destillate
+  dieser KB behandeln dasselbe Thema mit anderer Bezugsgrösse und sind laut eigenem Syntheseartikel
+  nicht als CH-Anforderungswerte verwendbar — die Lücke betrifft die Norm, nicht das Thema.
+- **Toter Zeiger berichtigt:** WC53-1 verwies auf `koordination/outputs/2026-09-07_wissens-chef-run53.md`.
+  Diesen Bericht gibt es nicht — Lauf 53 wurde vor dem Registerschritt unterbrochen. ⚠-Vermerk mit
+  dem Ort der Rekonstruktion gesetzt; der Sachbefund WC53-1 bleibt unberührt gültig.
+
+**Muster, das drei Fälle in zwei Tagen ergeben (SIA 2060, SWKI VA104-01, SN EN 17037):** `energie`
+destilliert Sekundärquellen (Minergie-ECO, KBOB, AHB), die ihrerseits Normen zitieren — und diese
+Zitate erreichen das Normen-Register nicht. Nicht die einzelne Norm ist der Befund, sondern der
+fehlende Rückkanal aus dem Destillat ins Register.
+
 ## 2026-09-07 (Wissens-Chef Lauf 53) — Cross-KB-Eingang: Registerluecke SIA 2060
 
 **`wiki/QUESTIONS.md`, neuer Punkt WC53-1.** Die KB `energie` arbeitet mit den Ausbaustufen

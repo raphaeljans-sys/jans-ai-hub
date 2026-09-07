@@ -2,6 +2,61 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-07 (Lauf 54, Abendlauf) — drei Registerlücken derselben Familie, und ein Lauf, der seine eigene Spur nicht hinterlassen hat
+
+Zuschnitt: 6 Melder (`model: sonnet`) auf dem Zuwachs seit Lauf 52/53, 9 adversariale Verifikatoren
+im Hauptmodell, dazu sieben eigene Nachmessungen im Hauptkontext. **15 Agenten.** Bilanz:
+**5 Befunde bestätigt (alle eingeschränkt) · 2 widerlegt · 1 Nullbefund mit Aussage · 1 Reststand,
+den der Verifikator fand und nicht der Melder.** 12 Dateien geändert, alle additiv, **0 entfernte
+Zeilen** (je Datei gegen eine Vorher-Kopie gedifft). Bericht: `outputs/2026-09-07_wissens-chef-run54.md`.
+
+- **Zuerst der Registerbefund in eigener Sache: Lauf 53 hat keine eigene Spur hinterlassen.** Er hat
+  am 07.09. gegen 08:26 in vier KBs gearbeitet (Commit `c53c79a6e`), aber weder Laufbericht noch
+  einen Eintrag hier noch eine Zeile in `QUERBEZUEGE.md` geschrieben; er wurde offenbar vom selben
+  NAS-Ausfall um 08:52 unterbrochen wie der Synergie-Lauf 29. Belegt: `find` nach `*run53*` über den
+  ganzen Baum trifft nur gleichnamige Läufe anderer KBs, `grep` nach «07.09.2026» in `QUERBEZUEGE.md`
+  trifft null. **Sein Protokoll ist unten aus den vier KB-CHANGELOGs und dem Commit rekonstruiert.**
+  Ein toter Zeiger daraus ist berichtigt: `normen/wiki/QUESTIONS.md` WC53-1 verwies auf einen
+  Bericht, den es nicht gibt.
+- **Drei Registerlücken derselben Familie in zwei Tagen.** SIA 2060 (Lauf 53), **SWKI VA104-01** und
+  **SN EN 17037** (dieser Lauf). Alle drei entstehen gleich: `energie` destilliert Sekundärquellen
+  (Minergie-ECO, KBOB, AHB), die ihrerseits Normen zitieren — und diese Zitate erreichen das
+  Normen-Register nie. **Der Befund ist nicht die einzelne Norm, sondern der fehlende Rückkanal aus
+  dem Destillat ins Register.** Gesetzt: Registerzeile VA104-01 in `normen/wiki/REGISTER.md`
+  (bewusst **ohne** Gültigkeitsaussage — Ausgabe strittig 2006-04 gegen 2019-01, Volltext belegt
+  nicht im Haus) und WC54-1 in `normen/wiki/QUESTIONS.md` für SN EN 17037.
+- **SYN-72 war bei vier von sechs Stellen nicht angekommen** — und die schärfste nannte kein Melder,
+  sie kam aus der eigenen Nachmessung: `immobilienbewertung/wiki/flaechendefinitionen-sia.md` Z. 172
+  führte die widerlegte Abhilfe nicht als Empfehlung, sondern als **Tatsachenaussage** über die Norm
+  («einer über CHF/m2 schon»). Vermerke gesetzt in `skills/grobkosten-onepager`,
+  `skills/machbarkeit-studio`, `agents/grobkosten-rechner` und dort; damit tragen sechs von sechs
+  Stellen den Zeiger. Der Sachentscheid über den Ursprungssatz bleibt Bringschuld der KB `normen`.
+- **Rotationspunkt Run 21 (bfu-Destillate): der Teilstand war falsch gebucht.** Run 43 meldete ihn
+  am 25.08. als «eingelöst» und deckte **eines** der vier Zielobjekte. Nachgemessen hatten
+  `bfu-glas-in-der-architektur-2020.md` und `bfu-tueren-und-tore.md` hub-weit keine einzige Kante
+  nach `baurecht`. Glas ist mit diesem Lauf eingelöst (Glasbrüstungen/SIA 358, mit beiden
+  Vorbehalten); offen bleibt allein Türen/Tore, für das kein PBG-Gegenpart erkennbar ist. Der
+  Journaleintrag von Run 43 bleibt unangetastet, die Rotationszeile trägt jetzt den gemessenen Stand.
+- **Zwei Melder widerlegt, beide lehrreich.** (a) Der QSS-Fassungsbefund gegen
+  `planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md` §3 fällt: die zitierten Ziff. 2.3/3.3.1/3.4.1
+  liegen im Bereich, den das Delta-Destillat selbst als «keine materielle Abweichung» ausweist — und
+  **dieselbe Behauptung wurde am 20.08. (Run 38) schon einmal gegen `skills/brandschutz` erhoben und
+  zurückgewiesen.** Regel daraus im Register: ein Fassungs-Delta ist erst am zitierenden Artikel ein
+  Befund, wenn die **zitierten Ziffern** im geänderten Bereich liegen. (b) Der Konflikt zwischen dem
+  «verbrannten» `_ `-Bullet und der Bullet-Regel existiert nicht — die KB nimmt die Erzeugung
+  ausdrücklich von der Entwertung aus. **Der echte Fund lag daneben:** `skills/twin/tools/stilmetrik.py`
+  Z. 63 behauptet im Kommentar «Der Zwilling setzt es nie», was die KB seit dem 17.08.2026 zweifach
+  widerlegt. Das Instrument sagte über sich selbst, was es nicht mehr misst; additiv berichtigt.
+- **Nicht gesetzt, bewusst:** «Geschätzter Simon» (Batch 115, 04.09.) ist die einzige Anrede des
+  Tages, die `rules/anrede-kontakte.md` nicht kennt — aber die eigene KB führt den entschiedenen
+  Präzedenzfall, in dem aus dem Nachnamen «Simmen» der Vorname «Simon» wurde. Eine Rule-Tabelle ist
+  kein Ort für eine Vermutung; als Selbstfrage #6 in `twin/wiki/QUESTIONS.md` registriert.
+- **Nullbefund mit Aussage:** `baurecht` ↔ `planungsgrundlagen` ist im ganzen Zuwachs sauber — die
+  Führungsteilung Recht ↔ Geodatum ist zweiseitig gemessen eingehalten, und der Waldabstands-Fall
+  aus Lauf 52 ist auf beiden Seiten mit demselben Beleg angekommen.
+- **Offen für Raphael:** nichts Neues. Der Sachentscheid SYN-72 (c) und die Planerhaftung aus
+  SYN-74 (b) liegen unverändert bei ihm.
+
 ## 2026-09-07 (Synergie-Lauf 30, Tagestakt) — ein Vorgang wird an seinen Raendern unvollstaendig, nicht in seiner Mitte
 
 Delta-Basis 04.09.2026 17:10 (die von Lauf 28 — Lauf 29 hatte sein Fenster nie ins Register
@@ -81,6 +136,49 @@ Bericht: `outputs/2026-09-07_synergie-lauf-29.md`.
   Bericht und dieser Eintrag wurden erst am selben Tag um 17:1x durch **Lauf 30** aus
   `~/jans-nachtraege/synergie-lauf-29/` eingespielt — bis dahin waren die IDs SYN-73/74/75 in drei
   Skills zitiert, ohne im Register zu existieren.
+
+## 2026-09-07 (Lauf 53, Vormittag; nachgetragen durch Lauf 54) — vier KBs bearbeitet, kein eigenes Protokoll hinterlassen
+
+**Rekonstruiert am 07.09.2026 abends aus den vier KB-CHANGELOG-Einträgen, den Artikelvermerken und
+dem Commit `c53c79a6e` (07.09. 08:26).** Der Lauf selbst hat weder einen Bericht unter `outputs/`
+noch einen Eintrag hier noch eine Zeile in `QUERBEZUEGE.md` geschrieben; die Unterbrechung fällt
+zeitlich mit dem NAS-Ausfall um 08:52 zusammen, der auch den Synergie-Lauf 29 traf. Diese
+Rekonstruktion ist ein Protokoll aus den Artefakten, **nicht** die Selbstauskunft des Laufs — was
+er gemessen und verworfen hat, ist verloren.
+
+Gemessenes Werk (aus `git show --numstat c53c79a6e`, nur die Lauf-53-Dateien):
+
+- **`energie`** (+35 CHANGELOG, +10/+20/+4-1 Wiki): drei Normfundstellen im Zuwachs der Runs 183/184
+  nachgeschärft. `radon-schutzmassnahmen.md` — die Fundstelle «SIA 382/1:2014 Kap. 5.12» ist in
+  keiner deklarierten Quelle des Artikels gedeckt (Volltextsuche über 466 Zeilen: null Treffer), und
+  die Ausgabe 2014 ist seit 01.02.2025 durch 2025 ersetzt; ⚠-Vermerk gesetzt. Ebendort die
+  Abgrenzung des Minergie-ECO-Werts 100 Bq/m³ gegen den gesetzlichen Referenzwert 300 Bq/m³ nach
+  StSV Art. 155 Abs. 2 ergänzt. `dachbegruenung-gruendach.md` — SIA 271:2007 ohne den seit 24.08.
+  vorgeschriebenen Ausgaben-Vorbehalt zitiert, nachgetragen. `schallschutz-sia181.md` — Zeiger von
+  einer Zeilennummer auf einen stabilen Anker umgestellt.
+- **`grobkosten`** (+18/+14): die von SYN-72 widerlegte CHF/m2-Abhilfe war in `wiki/kennwerte.md`
+  nie angekommen (gemessen: `SYN-72`, `04.09.2026`, `traegt nicht` je null Treffer im ganzen Ordner);
+  additiv nachgetragen mit dem Sachgrund (GF/HNF gehören zur Innen-Familie, ANF/AVF liegen ausserhalb).
+- **`normen`** (+17/+27): Cross-KB-Eingang **WC53-1**, Registerlücke SIA 2060 «Elektromobilität und
+  Schnittstellen zum Gebäude» — `energie` arbeitet mit den Ausbaustufen A/B/C1/C2/D und hat die
+  Primärnorm selbst nie eingesehen; gebeten ist die Registerzeile, nicht die Beschaffung.
+- **`planungsgrundlagen`** (+31/+18-1/+12): VKF-Statuslabel in `brandschutz-pl03-wegweiser.md` Z. 578
+  nachgezogen (`vkf-brl-15-15` seit Run 79 `speculative`) und dabei **präzisiert statt pauschal
+  korrigiert** — betroffen ist Ziff. 2.3.4 Abs. 2, nicht die zitierte Arealbefreiung nach Abs. 1;
+  in §5g die zweite Rechtsfolge der 25-%-Schwelle ergänzt (Tragwerksbefreiung bis 35 m nach
+  BSR 15-15de Tab. 1 Fussnote [3], hub-weit vorher nirgends); der Elektrosmog-Blocker in
+  `recht-norm-ahb-stadt-zuerich-projektstandards.md` als wahrscheinlich in `energie` gelöst markiert,
+  adversarial auf «Identität wahrscheinlich, nicht bewiesen» eingeschränkt, nächster Schritt
+  `pdftotext`-Diff statt OCR.
+- **Drei Skills** (`offertenpruefung`, `werkvertrag`, `unternehmerkontrolle`): Statuslabel-Nachzug
+  `sia-118-1991.md` auf `speculative`, bei `unternehmerkontrolle` zusätzlich die 60-Tage-Rügefrist
+  aus C1:2026. Die Lücken dieser Auslieferung hat der Synergie-Lauf 29 am selben Tag als SYN-73/74/75
+  gemessen und teilweise geschlossen.
+
+**Was daraus folgt, unabhängig vom guten Inhalt des Laufs:** ein Lauf, dessen Arbeit nur in fremden
+CHANGELOGs steht, ist für die Aufsicht unsichtbar — der Synergie-Lauf 29 konnte ihn nur deshalb
+prüfen, weil er ohnehin den Commit-Delta las. Der Registerschritt gehört nicht ans Ende, sondern
+neben jeden Eingriff.
 
 ## 2026-09-04 (Synergie-Lauf 28, Tagestakt) — die Praxisfolge des SIA-416-Befunds nennt eine Bezugsgroesse, die sie nicht tragen kann
 

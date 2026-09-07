@@ -85,8 +85,12 @@ Korrespondenz/260723 VKF Anerkennungen/` (260723-Bericht-VKF-Anerkennungen-LBW,
 Dieser Fall ist derzeit der **einzige belegte Praxisfall des Hubs** zur Trockenbau-Bekleidung
 und damit das produktseitige Gegenstück, das dem `bauprodukte`-Korpus fehlt: die Ordner
 `214 Montagebau in Holz` und `271 Gipserarbeiten` des Quellarchivs sind leer, weshalb der
-geplante Artikel dort blockiert ist (`wissen/bauprodukte/wiki/QUESTIONS.md`, Punkt 9). Wer
-diesen Artikel anlegt, liest zuerst hier.
+geplante Artikel dort blockiert war (`wissen/bauprodukte/wiki/QUESTIONS.md`, Punkt 9).
+
+**ERLEDIGT 07.09.2026 (Mac Mini Nachtschicht):** Der Bekleidungs-Teil ist jetzt als
+`wissen/bauprodukte/wiki/lbw-brandschutzwaende-en520-typ-d.md` angelegt (Cross-KB-Bringschuld
+geschlossen). BKP 214.1/214.3 (Holzbau) und 225.4 (Brandschutzbekleidungen) bleiben dort
+weiterhin gesondert offen und geblockt.
 
 Abgrenzung: dieser Artikel führt den **belegten Einzelfall** (Herkunft der Vorgabe, LV-Kürzel,
 verbaute Fabrikate), nicht die generischen Norm-Kennwerte — die führt `wissen/normen/` — und

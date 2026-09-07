@@ -4,6 +4,29 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-07 (Wissens-Chef Lauf 54) — das Messinstrument behauptete, was die KB seit drei Wochen widerlegt
+
+Cross-KB-Prüfung `twin` ↔ `rules` auf dem Zuwachs der Batches 114/115. **Ein gemeldeter
+Rule-Widerspruch wurde widerlegt, ein echter Reststand kam aus der Gegenprüfung.**
+
+- **Widerlegt:** der gemeldete Konflikt zwischen dem als Herkunftssignal «verbrannten» `_ `-Bullet
+  (Batch 115, `wiki/arbeitsweise.md` Z. 4355-4361) und der Bullet-/Positionsregel in
+  `rules/dokument-layout-standard.md` besteht nicht. Beide Fundstellen der KB nehmen die
+  **Erzeugung** ausdrücklich aus («als Stilmerkmal bleibt er gültig»; «als Stilvorgabe bleibt er
+  richtig, als Detektor nicht», `wiki/fachsignatur.md` Z. 2307-2311). Entwertet ist der Marker als
+  Detektor, nicht als Stil. Kein Rule-Eingriff.
+- **Echter Reststand, additiv berichtigt:** `skills/twin/tools/stilmetrik.py` Z. 63 trug im
+  Kommentar «Der Zwilling setzt es nie» — genau die Aussage, welche die KB seit dem 17.08.2026
+  zweifach widerlegt (Batch 96 und Batch 115). **Das Instrument behauptete damit über sich selbst,
+  was es nicht mehr misst.** Kommentar ergänzt (ASCII, Code-Datei), der Zähler selbst unverändert:
+  er bleibt als Stil-Kennzahl gültig und taugt nicht als Authentizitätssignal.
+- **Als Selbstfrage registriert statt in die Rule gesetzt:** «Geschätzter Simon» (04.09. 14:52,
+  Bauherren-Fachstelle, Du, 5 im Cc) ist die einzige der fünf Anreden dieses Tages, die
+  `rules/anrede-kontakte.md` nicht kennt. Eine Tabellenzeile wurde **bewusst nicht** gesetzt: die
+  eigene KB führt einen entschiedenen Präzedenzfall, in dem aus dem Nachnamen «Simmen» fünf Zeilen
+  später der Vorname «Simon» wurde (`wiki/beziehungsregister.md` Z. 2110-2130, QUESTIONS 260803 #1).
+  Die Identität ist offen — neue Frage #6 in `wiki/QUESTIONS.md`, Abschnitt Selbstfragen 260907.
+
 ## 2026-09-07 — Mailbatch 115: der Unterstrich-Bullet ist als Herkunftssignal verbrannt
 
 Fenster `rj@` Sent Items **03.09. 15:32 – 06.09. 16:09**, alle 16 Treffer, `order: oldest`.

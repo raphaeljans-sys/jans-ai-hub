@@ -16,6 +16,11 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   Schafschurwolle/Rosshaar/Naturlatex/Kokos, Gesamthöhe 14 cm, zwei Bezugstypen
   (Preisstand 05/2007)
 
+### BKP 271 — Gipserarbeiten (Trockenbau)
+- [[lbw-brandschutzwaende-en520-typ-d]] — LBW-Brandschutzwände EI30: Rohdichte-Vorgabe
+  ≥ 800 kg/m³ übersetzt sich in EN-520-Typ-D-Beplankung (Duraline Vario/Habito AK),
+  Bezugsfall 2619 KISPI (Stand Unternehmerdokumentation 2020)
+
 ### BKP 285 — Innere Oberflächenbehandlungen
 - [[biofa-coloroel]] — BIOFA Coloröl: lösemittelfreies Farböl für Holz/Kork/Parkett,
   Farbtonkarte mit Artikelnummern (Stand 09/2011, kein technisches Merkblatt im Archiv)

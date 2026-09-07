@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-07 (Wissens-Chef Lauf 54) — die schärfste SYN-72-Stelle stand hier, und sie war die einzige, die den widerlegten Satz als Tatsache führte
+
+**`wiki/flaechendefinitionen-sia.md` Z. 172.** Der am 03.09. durch Lauf 52 gesetzte
+Aussenflächen-Vorbehalt endete hier mit dem Satz «Ein Variantenvergleich über CHF/m3 GV erfasst sie
+also gar nicht, **einer über CHF/m2 schon**». Genau diese Abhilfe hat der Synergie-Lauf 28 am
+04.09.2026 widerlegt (**SYN-72**): GF, HNF und NF gehören wie GV zur Innen-Familie nach SIA 416
+Ziff. 1-2, die AGF mit ANF/AVF liegt nach Ziff. 3 ausserhalb der umschlossenen GF — der
+CHF/m2-Vergleich ist gegenüber Balkonen, Terrassen und Laubengängen genauso blind. Tragfähig ist
+allein der separate Ausweis der ANF/AVF-Flächen.
+
+**Warum diese Stelle schwerer wiegt als die übrigen:** die drei anderen betroffenen Bausteine
+(`skills/grobkosten-onepager`, `skills/machbarkeit-studio`, `agents/grobkosten-rechner`) formulieren
+die Abhilfe als **Empfehlung**, dieser Artikel als **Tatsachenaussage** über die Norm. Der
+Schwesterartikel [[realwert-sachwert]] trägt den Vorbehalt seit dem 04.09.2026 (Z. 520) — dass er
+hier fehlte, ist dieselbe Asymmetrie innerhalb einer KB, die Lauf 53 bei `grobkosten` gemessen hat.
+
+Additiv nachgetragen, der Wortlaut darüber unangetastet, 0 entfernte Zeilen. Richtig bleibt die
+Aussage «die beiden Kennwerte sind zwischen Varianten mit ungleichem Aussenflächenanteil nicht
+neutral»; falsch war nur die daraus gezogene Abhilfe. Der Sachentscheid über den Ursprungssatz in
+`wissen/normen/destillate/sia-416-2003.md` bleibt Bringschuld der KB `normen` (SYN-72 Massnahme c).
+
 ## 2026-09-03 (Wissens-Chef Lauf 52) — Aussenflaechen-Vorbehalt zu CHF/m3 GV; offener Rest von N46-3 geschlossen
 
 Eingang aus `normen` Run 78 (03.09.2026), der die SIA-416-Anhangfiguren messend abgedeckt hat.

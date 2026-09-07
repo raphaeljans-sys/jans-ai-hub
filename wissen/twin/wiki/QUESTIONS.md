@@ -5807,3 +5807,15 @@ statt Ziffern nummeriert.
 Vorlage fuehren soll — oder aus diesem Fall heraus geschnitten?
 *Warum:* Als Vorlage waere sie sofort im Skill `machbarkeit` und in der KB `baurecht`
 verwendbar; als Einzelfall darf sie nicht verallgemeinert werden.
+
+**#6 [Beziehungsregister] «Geschätzter Simon» (04.09. 14:52) — eigener Kontakt oder erneut die Namensform-Unsicherheit?**
+Die Anrede an die Bauherren-Fachstelle (An, Du, 5 im Cc; `raw/260907-mailbatch-115.md` Z. 49 und
+59) fuehrt einen Vornamen, den `rules/anrede-kontakte.md` nicht kennt — als einzige der fuenf
+Anreden dieses Tages. Die uebrigen vier (Christoph, Jens, Stefan, Mustafa) sind dort gefuehrt.
+*Konkret:* Wer ist «Simon» — ein eigener Du-Kontakt, den die Liste aufnehmen soll (dann bitte
+Nachname und Rolle), oder erneut der Fall, in dem der Nachname zum Vornamen wird? Praezedenz:
+QUESTIONS 260803 #1, beantwortet am 06.08.2026 — «Herr Simmen Jonas» wurde fuenf Zeilen spaeter
+zu «Feedback von Simon» (`beziehungsregister.md` Z. 2110-2130).
+*Warum:* Die Rule-Tabelle ist die Anrede-Wahrheit fuer jedes ausgehende Erzeugnis. Eine Zeile auf
+Verdacht waere schlimmer als keine — der Zwilling wuerde eine Person erfinden oder eine bestehende
+falsch benennen. Deshalb hier gefragt statt dort gesetzt (Wissens-Chef Lauf 54, 07.09.2026).

@@ -61,6 +61,13 @@ def measure(text: str) -> dict:
     # Unterstrich-Bullet «_ Kueche: …» — Raphaels eigenes Aufzaehlungszeichen (Batch 101,
     # 21.08.2026: in zwei Gattungen desselben Fensters belegt, mit und ohne Leerschlag).
     # Der Zwilling setzt es nie; damit ist die Luecke messbar statt nur beschrieben.
+    # ueberholt 07.09.2026 (Wissens-Chef Lauf 54): der Satz darueber gilt nicht mehr. Der
+    # Zwilling erzeugt den Marker selbst -- belegt seit 17.08.2026 in
+    # wissen/twin/wiki/fachsignatur.md Z. 2307-2311 (Batch 96, Quelle 05.08.2026, beide
+    # Fassungen) und erneut in wissen/twin/wiki/arbeitsweise.md Z. 4355-4361 (Batch 115).
+    # Der Zaehler bleibt gueltig als STIL-Kennzahl, taugt aber NICHT als Herkunfts- oder
+    # Authentizitaetssignal (neunte Falle: was der Zwilling gelernt hat, kann er erzeugen).
+    # Belastbar trennen die Haende nur Fehlerdichte je Absatz und internetMessageId.
     unterstrich_bullets = len(re.findall(r"(?m)^\s*_\s?\S", text))
 
     anreden = Counter()

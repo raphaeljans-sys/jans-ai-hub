@@ -227,7 +227,15 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    von ecobau.ch zu ziehen. Führung unverändert: `energie` führt die ökologischen
    Materialvorgaben in der Beschaffung, `bauprodukte` zieht sie als datierten Stand.
 9. **Kein Artikel zu Holzbau und Bekleidungen — Prämisse korrigiert, GEBLOCKT mangels
-   Quellmaterial (geprüft Mac Mini Nachtschicht, 31.07.2026):** Die Behauptung «das
+   Quellmaterial (geprüft Mac Mini Nachtschicht, 31.07.2026); Bekleidungs-Teil jetzt
+   ERLEDIGT (Mac Mini Nachtschicht, 07.09.2026):** Neuer Artikel
+   [[lbw-brandschutzwaende-en520-typ-d]] deckt die Bekleidungs-Seite (BKP 271.1,
+   Trockenbau-Beplankung für EI30-LBW) aus dem bereits im Hub belegten Einzelfall
+   [[wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800]] ab (EN-520-Typ-D-Übersetzung,
+   Praxisregeln für Ausschreibung/Bauleitung, herstellerneutral formuliert). **Weiterhin
+   offen und weiterhin GEBLOCKT** (kein Quellmaterial, kein weiterer Nachtlauf soll das
+   Quellarchiv erneut durchsuchen): BKP 214.1/214.3 Holzbau (Ordner leer) und BKP 225.4
+   Brandschutzbekleidungen (kein Praxisfall belegt). Die Behauptung «das
    Quellarchiv führt die Sektionen 214, 225 und 271» ist nur zur Hälfte richtig: die
    Ordner `/Volumes/daten/03 Bauprodukte_BKP/214 Montagebau in Holz` und
    `/271 Gipserarbeiten` sind **komplett leer** (0 Dateien, Ordner unverändert seit

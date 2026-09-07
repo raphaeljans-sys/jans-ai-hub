@@ -3,6 +3,28 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-07 (Wissens-Chef Lauf 54) — Glasbrüstungen: die letzte offene bfu-Kante des Rotationspunkts aus Run 21
+
+**`wiki/ausnahmebewilligung-und-bestandesschutz.md`, neuer Absatz nach dem Stadt-Zürcher
+Absturzsicherungs-Block.** Der Artikel führte die 15-%-Anpassungsschwelle für Absturzsicherungen
+und verwies auf `normen/destillate/bfu-gelaender-und-bruestungen.md`, nicht aber auf das
+Schwesterdestillat `bfu-glas-in-der-architektur-2020.md` — obwohl Glasbrüstungen fachlich unter
+dieselbe Frage fallen. Gemessen: dieses Destillat hatte hub-weit **keine einzige** Kante nach
+`wissen/baurecht`, weder im Frontmatter noch im Fliesstext.
+
+Ergänzt ist der konkrete Schwellenwert der bfu-Fachdokumentation 2.006.01 (12.2020, Mitherausgeberin
+SIGAB), gestützt auf SIA 358: Floatglas zulässig, wenn die Oberkante der unteren Glasleiste einer
+Festverglasung mindestens 1,0 m über der begehbaren Fläche liegt, darunter Sicherheitsglas-Pflicht
+bei Absturzgefahr. **Zwei Vorbehalte wandern mit** und stehen im gesetzten Text: das Destillat trägt
+`status: speculative` und ist am SIA-358-Normtext nicht gegengeprüft (SIA 358 nicht im Haus,
+Bring-Schuld der KB `normen`); und es beantwortet **nicht dieselbe Frage** wie die 15-%-Schwelle —
+diese betrifft die Anpassungspflicht bei der Massvorschrift, jener die Glasart.
+
+Damit ist der Rotationspunkt aus Wissens-Chef Run 21 (vier bfu-Destillate) zu drei Vierteln
+eingelöst; offen bleibt allein `bfu-tueren-und-tore.md`, für das kein PBG-Gegenpart erkennbar ist.
+Der Run-43-Eintrag «Rotationspunkt eingelöst» bleibt als datierter Journaleintrag stehen, ist aber
+im Register `koordination/QUERBEZUEGE.md` mit dem gemessenen Teilstand versehen.
+
 ## 2026-09-03 (Wissens-Chef Lauf 52) — Waldabstandslinie: das Mass steht, die Linie laeuft; ein bfu-Querverweis mit Einordnung
 
 - `wiki/baulinien-und-abstandslinien.md` (+13/-0): Vermerk an der Waldabstandslinien-Zeile. Die

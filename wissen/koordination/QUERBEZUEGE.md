@@ -186,6 +186,146 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### baurecht ↔ planungsgrundlagen (Zuwachs 03.-07.09.) — geprueft 2026-09-07 (Lauf 54), NULLBEFUND
+
+Gegenstand: die im Fenster gewachsenen Artikel `baurecht/wiki/baulinien-und-abstandslinien.md`,
+`wohnhygiene-und-raumanforderungen.md` gegen `planungsgrundlagen/wiki/kartenportale-baulinien-abstandslinien-zh.md`,
+`kartenportale-oereb-egrid-bezug.md`. **Die Fuehrungsteilung Recht ↔ Geodatum/Beschaffungsweg ist
+sauber eingehalten und beidseitig verlinkt.** Zweiseitig gemessen: `grep` nach
+`Portal|WFS|Layer|OGD|geo.admin|map.geo|maps.zh` im baurecht-Artikel trifft nur Verweiszeilen auf
+`planungsgrundlagen` (Z. 339, 357-359), `grep` nach `§|Rechtsfolge|Bauverbot|Frist` im
+planungsgrundlagen-Artikel nur Verweiszeilen zurueck (Z. 27-29, 159). Der Waldabstands-Fall aus
+Lauf 52 ist auf **beiden** Seiten angekommen: baurecht Z. 328-340 («das Abstandsmass steht, die
+Linienlage kann in Revision sein», § 66 PBG unveraendert, Linienlage an `planungsgrundlagen`
+delegiert), planungsgrundlagen Z. 152-160 (Witikon, docid 17431, Auflage seit 03.12.2025,
+materielle Wuerdigung an `baurecht` zurueckverwiesen), beide mit demselben Beleg. **Ein Nullbefund
+mit Aussage:** die Auslieferung von Lauf 52 hat in diesem Paar vollstaendig getragen.
+
+### normen ↔ baurecht (bfu-Destillate, Rotationspunkt Run 21) — geprueft 2026-09-07 (Lauf 54), TEILSTAND KORRIGIERT, Kante GESETZT
+
+Der Rotationseintrag «Neu aufgenommen Run 21, weiterhin offen» (Z. am Dateiende, Abschnitt
+«Noch nie gepruefte Paare») nennt vier bfu-Destillate; Run 43 buchte den Punkt am 25.08.2026 als
+«eingeloest», hat aber **eines** davon behandelt. Nachgemessen: `bfu-glas-in-der-architektur-2020.md`
+und `bfu-tueren-und-tore.md` hatten hub-weit **keine einzige** Kante nach `wissen/baurecht`
+(`grep` ueber Frontmatter und Fliesstext: 0 Treffer), und im ganzen Register war keines der beiden
+je Gegenstand einer Pruefung.
+
+**Adversarial eingeschraenkt und so uebernommen:** die Zuspitzung des Melders traegt in zwei Punkten
+nicht. «Der einzige unverlinkte Rest» ist falsch — es sind zwei; und der als beidseitig verlinkt
+angefuehrte Zwilling `bfu-gelaender-und-bruestungen.md` traegt im `links:`-Frontmatter nur
+`[[REGISTER]]`, die Rueckkante besteht allein im Fliesstext. Der Melder mass die eine Seite am
+Frontmatter, die andere am Fliesstext. Das aendert nichts am Sachkern, praezisiert aber, was eine
+Kante hier ueberhaupt ist — nach Zeile 126 dieser Matrix ist das **nicht** das `links:`-Feld,
+sondern der Verweis im Text plus die Registerzeile hier.
+
+**Gesetzt:** Absatz «Glasbruestungen, Abgrenzung» in
+`baurecht/wiki/ausnahmebewilligung-und-bestandesschutz.md` (Schwellenwert 1,0 m nach SIA 358 aus
+der bfu-Fachdokumentation 2.006.01 – 12.2020), mit beiden Vorbehalten: das Destillat ist
+`speculative` und am SIA-358-Normtext nicht gegengeprueft, und es beantwortet nicht dieselbe Frage
+wie die 15-%-Schwelle der Stadt-Zuercher Richtlinie. Rotationszeile mit Teilstand-Vermerk ergaenzt.
+**Offen bleibt `bfu-tueren-und-tore.md`** — kein erkennbarer PBG-Gegenpart; nicht erzwingen.
+
+### energie ↔ normen (SWKI VA104-01 · SN EN 17037) — geprueft 2026-09-07 (Lauf 54), 2× BESTAETIGT, Registerzeile + QUESTIONS GESETZT
+
+Der Zuwachs der `energie`-Runs 176-185 (rund 4500 Zeilen, groesster Posten des Fensters) zieht zwei
+Norm-Fundstellen, die nach der Fuehrungsmatrix dieser KB gehoeren und dort nie eine Registerzeile
+hatten. Beide sind der gleichen Familie wie WC53-1 (SIA 2060) vom Vortag — **drei Faelle in zwei
+Tagen ist ein Muster, kein Zufall:** die KB `energie` destilliert Sekundaerquellen (Minergie-ECO,
+KBOB, AHB), die ihrerseits Normen zitieren, und diese Zitate erreichen das Normen-Register nicht.
+
+- **SWKI VA104-01** «Hygiene-Anforderungen an raumlufttechnische Anlagen und Geraete»: im Hub
+  durchgehend als feststehende Referenz zitiert — `normen/destillate/sia-382-1-2014.md` Z. 131/148
+  (Hygieneerstinspektion, Anhang F.5), `normen/destillate/swki-va103-01-2017.md` Z. 59/549/553/898
+  (VA103-01 gilt **zusaetzlich zu, nicht anstelle von** VA104-01 und verweist fuer die Filterklasse
+  vollstaendig dorthin), `normen/outputs/2026-07-28_therapiekueche-…` Z. 97/129/193 — und neu aus
+  Minergie-ECO 110.02 (Run 184). In `normen/wiki/REGISTER.md` stand keine Zeile (0 Treffer).
+  **Adversarial verschaerft:** die Ausgabe ist **strittig** (BAG/BLV Modul 14 zitiert 2006-04, das
+  ZH-Kantonslabor-Merkblatt MD-00038 ab 31.10.2025 zitiert 2019-01;
+  `energie/destillate/ruckkuehlwerk-kuehlturm-legionellen-bewilligung-ch.md` Z. 327-328), und der
+  Volltext ist belegt **nicht** im Haus (`training/norm-inventar.md`: `06_Richtlinien/SWKI` enthaelt
+  genau 1 PDF, VA 103-1). Die gesetzte Zeile traegt deshalb **keine Gueltigkeitsaussage** und nennt
+  die Ausgabendifferenz ausdruecklich als ungeloest.
+- **SN EN 17037** «Tageslicht in Gebaeuden»: hub-weit nur in acht `energie`-Dateien, in `normen` und
+  `planungsgrundlagen` **null Treffer**. Der am 07.09. angelegte Artikel
+  `energie/wiki/tageslicht-minergie-eco.md` haelt die Bringschuld in seiner eigenen Warnkarte
+  Z. 12-16 fest. **Abgrenzung, adversarial praezisiert:** `normen` fuehrt fuenf
+  `established`-Destillate der DIN-5034-Reihe zum selben Thema — das ist eine deutsche Norm mit
+  anderer Bezugsgroesse, und der eigene Syntheseartikel haelt fest, dass ihre Werte nicht als
+  CH-Anforderungswerte taugen. Die Luecke betrifft die **Norm**, nicht das Thema. Als **WC54-1** in
+  `normen/wiki/QUESTIONS.md` eingetragen.
+
+Nebenbefund, mitkorrigiert: WC53-1 verwies auf einen Bericht
+`outputs/2026-09-07_wissens-chef-run53.md`, den es nicht gibt (siehe Lauf-53-Nachtrag im CHANGELOG).
+Der tote Zeiger traegt jetzt einen ⚠-Vermerk mit dem Ort der Rekonstruktion.
+
+### grobkosten ↔ immobilienbewertung ↔ Skills/Agenten (SYN-72-Auslieferung) — geprueft 2026-09-07 (Lauf 54), BESTAETIGT, 4 Stellen GESETZT
+
+Vorgeschichte: Lauf 52 lieferte den SIA-416-Aussenflaechenbefund an fuenf Bausteine aus und gab als
+Abhilfe «zusaetzlich ueber CHF/m2 vergleichen» mit. Der Synergie-Lauf 28 hat diese Abhilfe am
+04.09. widerlegt (**SYN-72**) und die Korrektur bei `immobilienbewertung/wiki/realwert-sachwert.md`
+gesetzt; Lauf 53 zog sie am 07.09. in `grobkosten/wiki/kennwerte.md` nach. **Gemessen: damit trugen
+zwei von sechs Stellen den Zeiger, vier nicht** — `skills/grobkosten-onepager/SKILL.md` Z. 48-50,
+`skills/machbarkeit-studio/SKILL.md` Z. 70-71, `agents/grobkosten-rechner.md` Z. 31-32 und
+`immobilienbewertung/wiki/flaechendefinitionen-sia.md` Z. 172 (0 Treffer auf `SYN-72` in allen vier).
+
+**Die schaerfste Stelle nennt der Melder nicht, sie kam aus der eigenen Nachmessung:**
+`flaechendefinitionen-sia.md` Z. 172 behauptet die widerlegte Aussage **positiv** — «Ein
+Variantenvergleich ueber CHF/m3 GV erfasst sie also gar nicht, einer ueber CHF/m2 schon». Die
+uebrigen drei formulieren sie als Empfehlung, diese eine als Tatsache.
+
+**Adversarial eingeschraenkt:** die Zuspitzung «beide ohne jeden Vorbehalt» trifft fuer
+`grobkosten-onepager` nicht — dort steht seit Lauf 52 die Groessenordnungs-Daempfung (±25-%-Band).
+Sie betrifft die Materialitaet des blinden Flecks, nicht die Tragfaehigkeit der Abhilfe; der
+Kernbefund bleibt. Ebenso nicht uebernommen wurde der Loeschvorschlag des Melders: der
+Sachentscheid ueber den Ursprungssatz in `normen/destillate/sia-416-2003.md` ist ausdrueckliche
+Bringschuld der KB `normen` (SYN-72 Massnahme c) und wird hier nicht vorweggenommen.
+
+**Gesetzt:** additiver ⚠⚠-Vermerk in allen vier Stellen, Wortlaut darueber je unangetastet,
+0 entfernte Zeilen. Damit tragen sechs von sechs Stellen den Zeiger.
+
+### normen ↔ planungsgrundlagen (BSR 11-15 QSS, zweiter Anlauf) — geprueft 2026-09-07 (Lauf 54), MELDER WIDERLEGT
+
+Gemeldet: `planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md` §3 (Z. 475) zitiere die
+abgeloeste Fassung 01.01.2015 der VKF-BSR 11-15 ohne die 2019-Korrektur. **Am Original widerlegt:**
+die zitierten Ziff. 2.3, 3.3.1 und 3.4.1 liegen im Bereich, den
+`normen/destillate/vkf-brl-11-15-fassung-2019-delta.md` in seiner eigenen Pruefstand-Tabelle als
+«Ziff. 1-3, keine materielle Abweichung» ausweist; der Systemwechsel betrifft Kap. 4.1 und die
+Anhaenge, die materielle Neuerung die Massnahmentabelle im Anhang zu Ziff. 5 — beides reproduziert
+§3 nicht. **Dieselbe Behauptung wurde am 20.08.2026 (Run 38) schon einmal gegen
+`skills/brandschutz/SKILL.md` erhoben und zurueckgewiesen** — es ist die zweite Fehlmeldung
+derselben Art gegen dieselbe Ziffer, nur an einem anderen Baustein.
+
+**Was richtig ist und trotzdem keinen Eingriff traegt:** der Wegweiser nennt in Quellenzeile und
+Frontmatter die Fassung 01.01.2015 und verweist nirgends auf das 11-15-Delta-Destillat. Das ist
+eine **Auffindbarkeits-, keine Richtigkeitsluecke**. Ein Warnhinweis «Fassung 2019 nicht
+eingearbeitet» wuerde eine Betroffenheit behaupten, die am Original widerlegt ist, und die bereits
+zurueckgewiesene Fehlmeldung in einen zweiten Baustein einschreiben — deshalb bewusst **nicht**
+gesetzt. **Regel daraus:** ein Fassungs-Delta ist erst dann ein Befund am zitierenden Artikel, wenn
+die **zitierten Ziffern** im geaenderten Bereich liegen; die Existenz eines Delta-Destillats allein
+genuegt nicht.
+
+### twin ↔ rules (Unterstrich-Bullet · «Geschätzter Simon») — geprueft 2026-09-07 (Lauf 54), 1× WIDERLEGT / 1× TEILWEISE
+
+- **Widerlegt:** der gemeldete Konflikt zwischen dem «verbrannten» `_ `-Bullet (twin, Batch 115) und
+  der Bullet-Regel in `rules/dokument-layout-standard.md` existiert nicht. Beide Fundstellen der KB
+  nehmen die **Erzeugung** ausdruecklich von der Entwertung aus («als Stilmerkmal bleibt er
+  gueltig», `arbeitsweise.md` Z. 4355-4361; «als Stilvorgabe bleibt er richtig, als Detektor
+  nicht», `fachsignatur.md` Z. 2307-2311, belegt seit 17.08.2026). Entwertet ist der Marker als
+  **Detektor**, nicht als Stil. Kein Rule-Eingriff, keiner war noetig.
+- **Echter Reststand, vom Verifikator gefunden, nicht vom Melder:** `skills/twin/tools/stilmetrik.py`
+  Z. 63 traegt im Kommentar «Der Zwilling setzt es nie» — genau die Aussage, die die KB seit dem
+  17.08.2026 zweifach widerlegt. Das Instrument selbst behauptet also, was es nicht mehr misst.
+  Additiv berichtigt (ASCII, Code-Datei), der Zaehler bleibt unveraendert als Stil-Kennzahl.
+- **Teilweise:** «Geschätzter Simon» (04.09. 14:52, Bauherren-Fachstelle, Du, 5 im Cc;
+  `twin/raw/260907-mailbatch-115.md` Z. 49/59) ist die einzige der fuenf Anreden dieses Tages, die
+  `rules/anrede-kontakte.md` nicht kennt (0 Treffer). **Nicht als Tabellenzeile gesetzt:** die
+  eigene KB fuehrt einen entschiedenen Praezedenzfall, in dem Raphael aus dem Nachnamen «Simmen»
+  fuenf Zeilen spaeter den Vornamen «Simon» machte (`beziehungsregister.md` Z. 2110-2130,
+  QUESTIONS 260803 #1) — die Identitaet ist offen, und eine Rule-Tabelle ist kein Ort fuer eine
+  Vermutung. Als Selbstfrage in `twin/wiki/QUESTIONS.md` registriert; der Wortlaut der Rule bleibt
+  Raphaels Entscheid.
+
+
 ### afw ↔ BKP-2017-Rule / immobilienbewertung («Baunebenkosten» doppelt belegt) — geprueft 2026-09-02 (Run 51), KERNVORWURF WIDERLEGT, Praezisierung GESETZT
 
 Erstpruefung der 411 Artikel, die bis zum Merge `a6fb7e3bd` (02.09.2026) nicht im kanonischen
@@ -4962,6 +5102,17 @@ haengende kunde-bopp-Paar sind geprueft. Die Rotation laeuft ab jetzt wieder ueb
 - **Neu aufgenommen Run 21, weiterhin offen:** `normen ↔ baurecht` fuer die uebrigen bfu-Destillate
   (Treppen, Glas, Tueren/Tore, rechtliche Aspekte) · `wettbewerbs-dna ↔ entwurfs-referenzen ↔
   architekten-synobsis`, sobald die am 30.07. reaktivierte Etappe 4 «Vertiefung» geliefert hat.
+  - ⚠ **Teilstand nachgetragen 07.09.2026 (Wissens-Chef Lauf 54, adversarial verifiziert):** Von
+    den vier bfu-Zielobjekten sind **zwei** eingeloest — **rechtliche Aspekte** durch Run 43
+    (25.08.2026, Art. 229 StGB) und **Treppen** durch Lauf 52 (03.09.2026, Matrixzeile
+    «Treppenbreite: Erlass gegenueber Sicherheitsempfehlung», beidseitig verlinkt). **Glas** ist
+    durch Lauf 54 eingeloest (Kante `bfu-glas-in-der-architektur-2020.md` ↔
+    `baurecht/wiki/ausnahmebewilligung-und-bestandesschutz.md`, Glasbruestungen/SIA 358).
+    **Offen bleibt allein `bfu-tueren-und-tore.md`** — kein PBG-Gegenpart erkennbar, deshalb hier
+    stehengelassen statt ausgetragen. **Zur Einordnung des Eintrags Z. 1113 ff.:** der Satz
+    «Rotationspunkt aus Run 21 (bfu-Destillate) eingeloest» (Run 43) ist als datierter
+    Journaleintrag korrekt, aber zu weit gefasst — Run 43 deckte **eines** der vier Zielobjekte.
+    Der Journaleintrag bleibt unangetastet; massgeblich ist dieser Teilstand.
 - **Neu aufgenommen Run 22, weiterhin offen:** `immobilienbewertung ↔ entwurfs-referenzen ↔
   wettbewerbs-dna`, sobald die fuenf Ingest-Reports vom 31.07. ins Wiki eingearbeitet sind (vorher
   ist der Bestand nicht vergleichbar).
