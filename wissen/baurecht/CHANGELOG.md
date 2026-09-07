@@ -60,8 +60,26 @@ das Nachschlagen sichtbar, hier liefert es einen sauberen — falschen — Treff
 `wiki/laermschutz-und-nichtionisierende-strahlung.md` (neuer Abschnitt «Vorrang der
 Landwirtschaft») · `wiki/QUESTIONS.md` (Run-141-Punkt geschlossen, vier neue Einträge) ·
 `training/drills.md` (Karten **I** Fussnotenposition und **J** Namensgleichheit) ·
-`training/PROGRAMM.md` · `buecher/INDEX.md` · Cross-KB `wissen/energie/wiki/QUESTIONS.md`
+`training/PROGRAMM.md` · `buecher/INDEX.md` · `buecher/band-1/05-planung-und-entschaedigung.md` · `docs/referenz/fedlex-volltexte.md` · Cross-KB `wissen/energie/wiki/QUESTIONS.md`
 (E-B142-1/-2).
+
+**Zweiter Block im selben Lauf — Art. 5 RPG (Mehrwertausgleich).** Der Sweep nach Formulierungen
+wie «anstehend»/«Vorentwurf»/«noch nicht verabschiedet» traf `buecher/band-1/05-planung-und-entschaedigung.md`
+(5.4.5). Dort war die **kantonale** Ebene aktuell (MAG, Buch-Run 98), die **bundesrechtliche**
+Mindestanforderung darüber aber auf Buchstand. Nachgezogen mit Wortlautvergleich der Fassungen
+Stand 1.1.2019 und 1.1.2026: **Art. 5 Abs. 1 RPG** trägt neu einen zweiten Satz («Die
+Mindestanforderungen richten sich nach den Absätzen 1bis−1sexies»), und **Abs. 1bis** ist neu
+gefasst — die Einzonungs-Beschränkung wandert vom dritten Satz (Auftrag an den kantonalen
+Gesetzgeber) in den ersten Satz (Tatbestandsmerkmal der Abgabe). Für Auf- und Umzonungen macht
+das Bundesrecht weiterhin keine Vorgabe. Abs. 1ter-1sexies und Abs. 2/3 unverändert.
+
+**Werkzeug-Rücklauf** in `docs/referenz/fedlex-volltexte.md`: gemessene Trefferliste der
+RPG-Vorfassungs-Snapshots (6 Kandidaten, 2 Treffer). Die Merkregel aus Buch-Run 140
+(«Snapshots liegen auf Inkrafttretensdaten») trägt **nicht** — `20140501` ist ein
+Inkrafttretensdatum und liefert nichts, `20190101` ist keines und liefert Text. Ausserdem
+dokumentiert: die beiden Fehlbilder unterscheiden sich je Route (77'151-Byte-App-Hülle auf
+`www.`, 9'148-Byte-Fehlerseite auf `fedlex.data.admin.ch`), beide mit HTTP 200 — die Grösse
+prüfen, nie den Statuscode.
 
 **Berichtigung an einer eigenen Übergabe-Notiz:** Run 141 vermerkte zum 5a. Abschnitt «der Volltext
 liegt bereits beschafft vor». Das traf nicht zu — die raw-Datei enthielt an der Stelle nur die

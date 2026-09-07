@@ -7,7 +7,7 @@ shots: "156-168"
 paragraphen: ["Art. 26 BV", "Art. 36 BV", "Art. 5 Abs. 2 RPG", "Art. 5 Abs. 1bis-1sexies RPG", "Art. 5 Abs. 3 RPG", "Art. 15 Abs. 4 RPG", "Art. 19 Abs. 2/3 RPG", "Art. 27 RPG", "Art. 38a Abs. 4/5 RPG", "Art. 9 BV", "EntG (SR 711)", "AbtrG (LS 781)", "Art. 3 Abs. 1 EBG", "Art. 58 USG", "Art. 17 LSV", "Art. 36a GSchG", "Art. 41a/41b GSchV", "Art. 216c/216d OR", "Art. 15 NHG", "§ 102 PBG", "§ 110 PBG", "§ 116 PBG", "§ 119 PBG", "§ 122 PBG", "§ 235 PBG", "§ 241 Abs. 2 PBG", "§ 254 ff. PBG", "§ 346 PBG", "§ 41-43 PBG", "§ 43a PBG", "§ 62 Abs. 1 PBG", "§ 64 PBG", "§ 65 PBG", "§ 103 f. PBG", "§ 165 PBG", "§ 202 PBG", "§ 212 PBG", "§ 214 PBG", "§ 183bis Abs. 3 EG ZGB", "§ 183ter EG ZGB", "§ 183quater EG ZGB", "§ 29 AbtrG", "§ 39 AbtrG", "§ 33/34 AbtrG", "§ 46 AbtrG", "§ 54 AbtrG", "§ 56 AbtrG", "Art. 76 EntG", "Art. 91 EntG", "Art. 82 ff. BGG", "§ 2 MAG", "§ 4 MAG", "§ 14 MAG", "§ 19-22 MAG", "§ 44 PBG"]
 status: emerging
 gelesen: 2026-07-04
-last_updated: 2026-07-04
+last_updated: 2026-09-07
 ---
 
 # Kap. 5 — Planung und Entschaedigung
@@ -64,6 +64,29 @@ Unterscheidung **Laermimmissionen** (blosser Laerm) ↔ **direkter Ueberflug** (
 - **5.4.3 Vorkaufsrecht (S. 326):** Kanton/Gemeinden an Grundstuecken in ueberkommunaler Freihaltezone (§ 64 Abs. 1/4 PBG), Gemeinden zusaetzlich an Erholungszonen-Grundstuecken (§ 64 Abs. 4). Vorkaufsfall nach Art. 216c OR (Verkauf/verkaufsaehnliches Geschaeft); **nicht limitiert** — Uebernahme zu den zwischen Verkaeufer/Kaeufer vereinbarten Bedingungen (Art. 216d OR).
 - **5.4.4 Treu und Glauben als Grundlage der Entschaedigungspflicht (S. 326 f.):** Um-/Abzonungen koennen ausnahmsweise direkt gestuetzt auf Vertrauensschutz (Art. 5 Abs. 3 / Art. 9 BV) und Eigentumsgarantie (Art. 26 BV) zu einer Entschaedigungspflicht fuehren — Gegenstand meist nutzlos gewordene Projektierungskosten (Architektenhonorare), wenn die Absicht der Baubehoerde nicht vorhersehbar war (BGE 132 II 218; BEZ 2012 Nr. 7).
 - **5.4.5 Mehrwertabschoepfung (S. 327 f.):** Art. 5 RPG verpflichtet die Kantone, erhebliche planungsbedingte Vor-/Nachteile auszugleichen. **Mindestanforderungen (Art. 5 Abs. 1bis-1sexies RPG):** Einzonungen → Abgabe **mindestens 20 %**; Verwendung fuer mat. Enteignungs-Entschaedigungen / Raumplanung nach Art. 3 RPG; Grundstueckgewinnsteuer anrechenbar. **Einzonungsstopp:** kommt ein Kanton der Umsetzung bis 30.4.2019 nicht nach, keine Neueinzonungen (Art. 38a Abs. 4/5 RPG) — betraf ZH (Beschluss BR 10.4.2019, MAG-Vorlage noch nicht verabschiedet). **Kant. Mehrwertausgleich (MAG-Entwurf, Buchstand 2019):** Kanton 20 % bei Einzonungen (§ 2 Abs. 1 / § 4 Abs. 1 lit. a); 5 % bei Auf-/Umzonungen (§ 4 Abs. 1 lit. b); Freibetrag Mehrwert < **30'000 Fr.** (§ 4 Abs. 2); Ertraege in kant. Mehrwertausgleichsfonds (§ 14). **Kommunaler Mehrwertausgleich:** Gemeinden max. **15 %** bei Auf-/Umzonungen (§ 19 MAG), oder staedtebauliche Vertraege (§§ 20-21 MAG; kommunaler Fonds § 22). **⚠ Entwurfsstand, vom erlassenen Gesetz abweichend (Buch-Run 98, 2026-08-23):** das MAG (LS 700.9) ist seit 1.1.2021 in Kraft und weicht in den Prozentsaetzen vom hier zitierten Entwurf 2019 ab — Kanton **fix 20 %, kein Auf-/Umzonungs-Satz** (§ 4 Abs. 1/§ 2 Abs. 1 MAG, erlassen), Gemeinden **max. 40 %** eines um 100'000 Fr. gekuerzten Mehrwerts (§ 19 Abs. 3 MAG, erlassen). Belegt in `raw/260823_amtlich_zh_mag.md` und [[enteignung-und-entschaedigung]]; dieser Buchabschnitt bleibt als historischer Entwurfsstand stehen (Belegtreue zum Buch), fuer die Anwendung gilt der erlassene Text.
+  ⚠ **BUNDESRECHT NACHGEZOGEN 2026-09-07 (Buch-Run 142) — Art. 5 RPG ist per 1.1.2026 geaendert**
+  (BG vom 29. Sept. 2023 «RPG 2», AS 2025 640; BBl 2018 7443). Der Buchstand 2019 und die
+  MAG-Aktualisierung aus Buch-Run 98 betrafen beide die **kantonale** Ebene; die
+  **bundesrechtliche Mindestanforderung** darueber ist seither neu formuliert. Wortlautvergleich
+  gegen die Fassungen Stand 1.1.2019 und Stand 1.1.2026 (beide Fedlex-Filestore, ELI
+  cc/1979/1573_1573_1573, Snapshots `20190101` und `20260101`):
+  **Neu in Abs. 1** ein zweiter Satz: «Die Mindestanforderungen richten sich nach den Absaetzen
+  1bis−1sexies.» Der **Mindestcharakter** steht damit ausdruecklich im Grundsatzabsatz.
+  **Abs. 1bis neu gefasst:** «**Planungsvorteile, die sich aus neu und dauerhaft einer Bauzone
+  zugewiesenem Boden ergeben**, werden mit einem Satz von mindestens 20 Prozent ausgeglichen.
+  Der Ausgleich wird bei der Ueberbauung des Grundstuecks oder dessen Veraeusserung faellig.»
+  **Alte Fassung (bis 31.12.2025):** «Planungsvorteile werden mit einem Satz von mindestens
+  20 Prozent ausgeglichen. … Das kantonale Recht gestaltet den Ausgleich so aus, dass mindestens
+  Mehrwerte bei neu und dauerhaft einer Bauzone zugewiesenem Boden ausgeglichen werden.»
+  **Was sich aendert:** die Einzonungs-Beschraenkung wandert vom **dritten Satz** (Auftrag an den
+  kantonalen Gesetzgeber) in den **ersten Satz** (Tatbestandsmerkmal der Abgabe selbst); der
+  dritte Satz entfaellt. Der bundesrechtliche Mindestsatz von 20 % knuepft damit **unmittelbar
+  und ausschliesslich an die Einzonung** an. **Fuer Auf- und Umzonungen macht das Bundesrecht
+  weiterhin keine Vorgabe** — dort gilt allein kantonales Recht (ZH: MAG, siehe oben). Die
+  Absaetze 1ter bis 1sexies und Abs. 2/3 sind unveraendert (Fussnoten weiterhin BG vom
+  15.6.2012). Beleg: `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md`.
+  **Nicht geprueft** wurde, ob das ZH-MAG aus diesem Anlass angepasst wurde — offene Frage,
+  siehe `wiki/QUESTIONS.md` 260907.
 
 ### 5.5 Enteignungsverfahren (S. 328-334)
 - **5.5.1 Ueberblick (S. 328 f.):** Entschaedigung wird im **Schaetzungsverfahren** festgelegt. Bund: EntG 1930; ZH: EG ZGB (2.4.1911) + AbtrG (30.11.1879). **Zwei Phasen:** (1) materielle Rechtmaessigkeit des Projekts / der Planungsmassnahme (Bestandesgarantie Art. 26 Abs. 1 BV, gesetzliche Grundlage + oeff. Interesse + Verhaeltnismaessigkeit Art. 36 BV) — Administrativverfahren nach ordentlicher Rechtsmittelordnung; (2) danach unter der Wertgarantie (Art. 26 Abs. 2 BV / Art. 5 Abs. 2 RPG) das Schaetzungsverfahren mit vorgeschaltetem Einigungsverfahren.

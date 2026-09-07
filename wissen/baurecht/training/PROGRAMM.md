@@ -1914,6 +1914,14 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   Vorfassungs-Snapshot lief. Berichtigt wurde ausserdem die Run-103-Restaussage «Art. 24c Abs. 1
   revidiert» im Wiki. Report `outputs/2026-09-07_buch-run142.md`, Beleg
   `raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md`.
+  **Zweiter Block:** ein Sweep nach Formulierungen wie «anstehend»/«Vorentwurf»/«noch nicht
+  verabschiedet» (der Befundtyp dieses Laufs) traf Kap. 5 — dort war die kantonale Ebene (MAG)
+  aktuell, die bundesrechtliche Mindestanforderung darueber nicht. **Art. 5 RPG** nachgezogen
+  mit Wortlautvergleich 1.1.2019 ↔ 1.1.2026: neuer zweiter Satz in Abs. 1, **Abs. 1bis neu
+  gefasst** — die Einzonungs-Beschraenkung wandert vom Gestaltungsauftrag an den Kanton in den
+  Tatbestand der Abgabe selbst. Werkzeug-Ruecklauf in `docs/referenz/fedlex-volltexte.md`
+  (Trefferliste der Vorfassungs-Snapshots; die Merkregel «Inkrafttretensdaten» aus Run 140
+  traegt nicht).
   **Naechster Schritt:** die drei ganz neuen RPG-Artikel (24bis Buendelung Infrastruktur/Mobilfunk,
   24quinquies thermische Netze, 24c-bis Streusiedlungen) und die Absatzaenderungen an
   Art. 3/5/15/20/23/24d/24e/27a RPG — **Art. 5 (Mehrwertausgleich) und Art. 15 (Bauzonen) zuerst**,

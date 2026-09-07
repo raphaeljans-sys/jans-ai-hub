@@ -3321,3 +3321,12 @@ tatsächlich verwendete Wort dort ablesen, statt zu raten.
    noch nicht zu erwarten. **Nicht raten** — als offene Frage führen und bei der nächsten
    einschlägigen Behördenauskunft (Skill `behoerden-vorabklaerung`) mitstellen.
 
+5. **Wurde das ZH-MAG (LS 700.9) nach der RPG-Aenderung per 1.1.2026 angepasst?** Art. 5 Abs. 1bis
+   RPG knuepft den bundesrechtlichen Mindestsatz von 20 % seit 1.1.2026 **unmittelbar an die
+   Einzonung** (zuvor stand die Einzonungs-Beschraenkung als Gestaltungsauftrag im dritten Satz).
+   Das MAG ist seit 1.1.2021 in Kraft (Stand der Pruefung: Buch-Run 98, 23.08.2026, gegen
+   `raw/260823_amtlich_zh_mag.md`) und wurde in Buch-Run 142 **nicht** erneut gegen zhlex
+   geprueft. Zu klaeren: gilt der dort erfasste Stand noch, und hat der Kanton auf die
+   Bundesaenderung reagiert? Fundstelle fuer den Nachtrag: `buecher/band-1/05-planung-und-entschaedigung.md`
+   Abschnitt 5.4.5. Kandidat fuer den naechsten (b)-Lauf.
+

@@ -105,3 +105,37 @@ Konkreter Nutzen des Nachtrags: mit diesen drei Punkten liess sich die seit Buch
 (23.08.2026) offene Frage schliessen, was die RPG-Revision per 1.1.2026 an Art. 24c materiell
 geaendert hat (Antwort: nur die Sachueberschrift, Abs. 1-5 wortgleich) — Beleg
 `wissen/baurecht/raw/260824_amtlich_ch_rpg-art24c.md`, Nachtrag.
+
+## Nachtrag 07.09.2026 (Buch-Run 142) — Vorfassungs-Snapshots des RPG: gemessene Trefferliste
+
+Fuer den Diff «was hat eine Revision genau geaendert» braucht es eine **Vorfassung**. Beim RPG
+(SR 700, ELI `cc/1979/1573_1573_1573`) wurden sechs Kandidatendaten gemessen; die Trefferquote
+ist niedriger, als die Merkregel aus Buch-Run 140 («Snapshots liegen auf Inkrafttretensdaten»)
+erwarten laesst:
+
+| Snapshot | `www.fedlex.admin.ch` | `fedlex.data.admin.ch` | Verdikt |
+|---|---|---|---|
+| `20260101` | 136'450 Byte | — | **Text** (geltende Fassung) |
+| `20190101` | 87'676 Byte | 87'676 Byte | **Text** (Vorfassung, beide Routen) |
+| `20250701` | 77'151 (App-Huelle) | 9'148 (Fehlerseite) | kein Text |
+| `20250101` | 77'151 | 9'148 | kein Text |
+| `20240101` | 77'151 | 9'148 | kein Text |
+| `20140501` | 77'151 | 9'148 | kein Text — **obwohl Inkrafttretensdatum** der Revision von 2012 |
+
+**Zwei praktische Folgerungen.** (1) Die Merkregel «Inkrafttretensdaten probieren» ist **nicht
+zuverlaessig** — `20140501` ist ein Inkrafttretensdatum und liefert nichts, `20190101` ist keines
+und liefert Text. Welche Snapshots existieren, laesst sich offenbar nur **durch Probieren**
+feststellen; ein 1. Januar der letzten Jahre vor der Revision ist der beste erste Kandidat.
+(2) **Die beiden Fehlbilder unterscheiden sich je Route und sind beide HTTP 200:**
+`www.` liefert die 77'151-Byte-App-Huelle, `fedlex.data.admin.ch` eine 9'148-Byte-Fehlerseite mit
+`Content-Type: text/html` (nicht `application/pdf`). **Immer die Groesse pruefen**, nie den
+Statuscode.
+
+**Und die billigere Alternative, bevor man ueberhaupt diffed:** fuer die Frage «was genau wurde
+geaendert» reicht oft der **Fussnotenapparat der geltenden Fassung** — Fedlex setzt die
+Aenderungsfussnote an die geaenderte Einheit (Fussnote am **Artikeltitel** = Titelaenderung,
+Fussnote am **Absatz** = Absatzaenderung). In Buch-Run 142 an drei Artikeln gegengeprueft
+(Art. 24c RPG nur Titel; Art. 24 und Art. 18a RPG Titel **und** Absatz). Belegt in
+`wissen/baurecht/raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Ziff. 4 und in der
+Drill-Karte **I** (`wissen/baurecht/training/drills.md`).
+
