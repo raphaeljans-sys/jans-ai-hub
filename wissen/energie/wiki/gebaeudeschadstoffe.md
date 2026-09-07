@@ -249,3 +249,52 @@ einzelne Material, hier die fertige Raumluft, in der sich viele Materialien summ
 `[[ahb-bedingungen-planungsleistungen-nachhaltiges-bauen]]`,
 `[[vorgehen-bei-beschwerden-innenraumklima]]` (Beschwerden im Betrieb, also die dritte Stufe nach
 Abnahme).
+
+
+## Nachtrag 07.09.2026 (Run 185): die Zürcher Raumluftwerte decken sich mit der geltenden Minergie-ECO-Schwelle
+
+Der Abschnitt oben hält fest, dass die Zürcher Zahlenwerte für Formaldehyd und TVOC
+**AHB-Eigenwerte von rund 2006 ohne Verweis auf eine externe Norm** sind, und mahnt zu Recht, sie
+taugten als Vertragsvorgabe, nicht als Aussage über Zulässigkeit. Dieser Vorbehalt bleibt
+bestehen. Neu hinzu kommt eine unabhängige Bestätigung der **Grössenordnung**: die beiden Werte
+sind identisch mit den heute geltenden Ausschlussgrenzen des Minergie-ECO-Vorgabenkatalogs.
+
+| Parameter | Stadt Zürich (AHB, rund 2006) | Minergie-ECO 2023.1, aktive Messung |
+|---|---|---|
+| Formaldehyd | < 60 µg/m³ | ≤ 60 µg/m³ (≤ 0,05 ppm), mit Messunsicherheit ≤ 75 µg/m³ |
+| TVOC | < 1'000 µg/m³ | ≤ 1000 µg/m³, mit Messunsicherheit ≤ 1250 µg/m³ |
+
+Für die **passive** Messung liegt Minergie-ECO strenger: Formaldehyd ≤ 30 µg/m³ (≤ 0,025 ppm),
+TVOC ≤ 500 µg/m³. Das ist konsistent, weil die Passivmessung über mindestens eine Woche mittelt
+und die Aktivmessung eine Momentaufnahme ist.
+
+**Was dieser Befund belegt und was nicht.** Er belegt, dass die Zürcher Werte nicht aus der Luft
+gegriffen sind, sondern sich zwanzig Jahre später mit dem privatrechtlichen Schweizer
+Label-Standard decken. Er belegt **nicht**, dass die eine Quelle von der anderen abgeleitet ist,
+und er sagt nichts über die gesetzliche Zulässigkeit: weder die AHB-Werte noch die
+Minergie-ECO-Werte sind öffentliches Recht. Für eine Aussage zur Zulässigkeit bleiben die
+BAG-Richtwerte massgeblich, die hier weiterhin nicht geprüft sind.
+
+**Praktische Folge für die Ausschreibung.** Wer in einem Zürcher Projekt ohnehin die
+AHB-Bedingungen übernimmt und zusätzlich Minergie-ECO anstrebt, schreibt bei den beiden
+Aktivwerten dieselbe Zahl zweimal. Abweichend sind die **Verfahrensvorgaben**: Minergie-ECO
+verlangt eine S-Cert-zertifizierte Messfirma, die nicht zugleich die ECO-Fachbegleitung sein
+darf, und setzt die Frist «spätestens 1 Monat nach Baufertigstellung» — dazu die 30 Tage
+Auslüftung vor Bezug (Vorgabe 120.10). Diese Termine sind der eigentliche Unterschied, nicht die
+Grenzwerte.
+
+→ Bauherren-FAQ **F284** und **F283**, Destillat
+`[[minergie-eco-vorgabenkatalog-standard-2023-1]]` (Vorgaben 120.03, 120.05, 120.10, geltende
+Fassung Dokumentstand 01.07.2026, am 07.09.2026 im Volltext gelesen).
+
+## Nachtrag 07.09.2026: Minergie-ECO verlangt die Schadstoffermittlung ab Baujahr vor 1990
+
+Ergänzend zum kantonalen Raster oben: Vorgabe **120.01 des Zusatzes ECO** ist eine
+Ausschlussvorgabe und knüpft an ein anderes Kriterium an als die VVEA. Sie verlangt vor Um- oder
+Rückbaumassnahmen an Gebäuden bzw. Gebäudeteilen mit **Baujahr vor 1990** in allen Räumen eine
+Gebäudeschadstoffermittlung (Gebäudecheck ecobau) durch eine geeignete Fachperson, die
+nachweislich über **mindestens zwei Jahre Erfahrung** bei Gebäudeuntersuchungen verfügt (Listen
+bei FAGES, VABS, SUVA, Kantonen). «N/A» ist nur zulässig, wenn nicht um- oder rückgebaut wird
+oder das Gebäude 1990 und später erstellt wurde. Damit greift das Label unabhängig von der
+200-m³-Schwelle der VVEA: bei einem ECO-Projekt löst allein das Baujahr die Untersuchungspflicht
+aus, auch bei kleinem Bauvolumen.

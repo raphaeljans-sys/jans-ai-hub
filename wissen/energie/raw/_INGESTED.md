@@ -435,3 +435,14 @@ Gelesen: 220er-Reihe Gebaeudekonzept/Kreislaufwirtschaft vollstaendig (220.01-22
 S. 71-91) sowie Anhang B beider Fassungen; zusaetzlich vollstaendiger normalisierter Textvergleich
 der 220er-Reihe zwischen beiden Fassungen.
 Destillat: `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` (fortgeschrieben).
+
+## 2026-09-07 (Run 185) — Vorgabenkatalog Zusatz ECO, geltende Fassung, Fortsetzung
+Erneuter eigener Download derselben Datei
+`vorgabenkatalog-eco-alle-gebaeudekategorien-v2023-1_2.pdf` (733'748 Bytes, 109 S., Dokumentstand
+01.07.2026) von minergie.ch, HTTP 200, Groesse byte-identisch zu den Runs 182-184 — die Fassung ist
+seit dem 06.09.2026 unveraendert. Extraktion mit `pdftotext -layout` (5'862 Zeilen).
+Gelesen: 120er-Reihe Schadstoffe vollstaendig (120.01-120.10, S. 19-37), 140er-Reihe
+Tageslicht/Ausblick/Aktivierung vollstaendig (140.01-140.04, S. 46-53), 250.01 Innovation Oekologie
+(S. 106) sowie erneut Anhang B (S. 107-109) zur Verifikation der 120.06-Aenderung.
+Nicht gelesen und neu als Luecke erkannt: 150.01 Innovationen Gesundheit (S. 53).
+Destillat: `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` (fortgeschrieben).

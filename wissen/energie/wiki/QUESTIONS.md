@@ -2,6 +2,67 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 185 (07.09.2026, Tageslauf) — 120er-Reihe, 140er-Reihe und 250.01 destilliert; Katalog-Restumfang neu bestimmt
+
+Bearbeitet: E-R184-1 vollstaendig. Destilliert wurden die **120er-Reihe Schadstoffe (120.01 bis
+120.10, zehn Vorgaben statt der bisher angenommenen neun)**, die **140er-Reihe Tageslicht/Ausblick/
+Aktivierung (140.01 bis 140.04)** und **250.01 Innovation Oekologie**. Beide im Anhang B offen
+gebliebenen materiellen Aenderungen sind damit woertlich am Volltext verifiziert:
+
+- **120.06 (TEP-Wegfall) bestaetigt.** Volltextsuche ueber alle 5'862 Zeilen der extrahierten
+  geltenden Fassung nach «TEP» und «Triethylphosphat»: genau ein Treffer, und der steht in der
+  Anhang-B-Zeile selbst. Im Vorgabentext von 120.06 ist als PUR/PIR-Ausschlusskriterium nur noch
+  «Flammschutzmittel TCPP (Tris(2-chlorisopropyl)phosphat)» genannt. Die Aenderung ist also im
+  Text vollzogen, TCPP bleibt Kriterium.
+- **140.01 (Tageslicht-Ausnahmeregelung) gefunden und praezisiert.** Sie steht nicht in einem
+  Anhang, sondern im Abschnitt «Bemerkungen» der Vorgabe selbst. Die Kurzfassung in Anhang B
+  laesst drei anwendungsentscheidende Bedingungen weg: nur Gebaeudekategorien kleine Schule und
+  Schule, nur Bauweisen «mittel»/«leicht»/«sehr leicht» nach SIA 380/1, und der zulaessige Anteil
+  ungenuegend belichteter Raumflaechen bleibt unveraendert bei 20 % bzw. 35 %.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R185-1 (P3, Fach): 150.01 «Innovationen zur Erreichung hoher Gesundheitsziele»
+  existiert und ist nicht destilliert.** Neben-Fund beim Lesen der 140er-Reihe (S. 53/109):
+  strukturgleich zu 250.01, gleiche Stufung 2/4 Punkte. Sie kam in **keiner** der bisherigen
+  Folgelauf-Notizen der Runs 182 bis 184 vor, weil alle drei den Restumfang aus der frueheren
+  Zaehlung «~23 Vorgaben (120.x, 140.x, 250.01)» fortschrieben, statt ihn am Inhaltsverzeichnis
+  der geltenden Fassung neu zu bestimmen. **Methodische Lehre, uebertragbar:** eine fortgeschriebene
+  Restmengen-Angabe ist eine Behauptung ueber den Bestand und altert wie jeder Messwert — sie
+  gehoert am Inhaltsverzeichnis nachgezaehlt, nicht aus der Vornotiz uebernommen. Gleiche Familie
+  wie Rule `auto-verbesserungen` 260807 (ein Konfigurationsfeld erst messen, dann glauben) und
+  260830 (ein wiederholt zugestellter Text darf keinen Fortschrittsstand behaupten). Konkrete
+  Folge: derselbe Fehler hat auch die Zahl «120.x, 9 Vorgaben» erzeugt, richtig sind zehn.
+- [ ] **E-R185-2 (P2, Fach): Befristung der Tageslicht-Ausnahmeregelung 140.01 unbekannt.**
+  Der Vorgabentext sagt «befristete Ausnahmeregelung», nennt aber **kein Ablaufdatum**, und
+  Anhang B ebenfalls nicht. Solange das offen ist, darf die 40-%-Schwelle in einem ausgehenden
+  Dokument nur mit ausdruecklichem Vorbehalt und dem Hinweis verwendet werden, den Stand bei der
+  Zertifizierungsstelle zu erfragen. Naechster Weg: Anfrage an die Zertifizierungsstelle bzw.
+  Suche nach einer separaten Mitteilung auf minergie.ch.
+- [ ] **E-R185-3 (P4, Fach): 80/20-Prozentwert bei 140.03 und 140.04 nicht beziffert.** Der Text
+  nennt dort nur die Bezugsgroessen (Anzahl Veloparkplaetze, Laenge der Wege, Anzahl Aussenanlagen),
+  waehrend 140.02 ausdruecklich «mind. 80 %» sagt. Ob bei 140.03/140.04 derselbe Prozentsatz gilt,
+  geht aus dem Volltext nicht hervor.
+- [ ] **E-R185-4 (P4, Betrieb): toter Backlink in `[[holzwerkstoffe-formaldehyd-innenraumklima]]`.**
+  Der Artikel verweist in Frontmatter und Schlussabschnitt auf `[[minergie-innenraumklima]]`; eine
+  Datei dieses Namens existiert im Wiki nicht. Beim Wachsenlassen des Artikels in diesem Lauf
+  bewusst **nicht** stillschweigend umgebogen (der Verweis koennte auf einen geplanten Artikel
+  zeigen). Entweder Artikel anlegen oder Zeiger auf `[[gebaeudeschadstoffe]]` bzw.
+  `[[minergie-eco-gebaeudelabel]]` korrigieren.
+- [ ] **E-R185-5 (P4, Fach): Status bleibt `emerging`.** Auch dieser Lauf war ein
+  Einzelagenten-Lauf ohne Refuter-Panel. Der Hauptlauf hat die tragenden Zahlen (Formaldehyd-,
+  TVOC-, TLQ-Werte, SN EN 50642 mit 0.4 %, die 30-Tage-Frist, den Wortlaut der
+  Ausnahmeregelung) am extrahierten Volltext stichprobenweise gegengelesen, das ersetzt aber keine
+  zweite unabhaengige Pruefinstanz.
+
+### Aus dem letzten Lauf erledigt
+
+- [x] **E-R184-1 — geloest ✓ 2026-09-07 (Run 185).** 120.x, 140.x und 250.01 sind vollstaendig
+  destilliert, die Anhang-B-Aenderung zu 120.06 ist verifiziert. Der Restumfang des Katalogs ist
+  damit nicht null, sondern neu bestimmt: 150.01 bleibt offen (E-R185-1).
+- [ ] **E-R184-2 bleibt offen** (Refuter-Panel fuer `[[radon-schutzmassnahmen]]` und die
+  110.05-Ergaenzung in `[[elektrosmog]]`) — fortgefuehrt und um diesen Lauf erweitert in E-R185-5.
+
 ## Run 184 (07.09.2026, Nachtschicht Mac Mini) — 110er-Reihe (Gesundheit/RLT/Radon/NIS) destilliert
 
 Bearbeitet: E-R183-1 (Teil 110er-Reihe von rund 20 verbleibenden Vorgaben). Vollstaendig

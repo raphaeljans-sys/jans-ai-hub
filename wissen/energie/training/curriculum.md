@@ -2764,3 +2764,27 @@ wassersparende Apparate). Begruendung: Anhang B weist dort mit 230.01 die einzig
 **Korrigenda** aus («mind. 30 % der Umgebungsflaeche» war ein Tippfehler, korrekt **mind. 80 %**) —
 ein Wert, der in der aelteren, weiterhin abrufbaren Fassung nachweislich falsch steht. Danach die
 Refuter-Pruefung des Destillats (`emerging` → `established`).
+
+## Run 185 (07.09.2026) — Katalog-Restumfang neu bestimmt statt fortgeschrieben
+
+Bearbeitet: **E-R184-1** vollstaendig (120er-Reihe Schadstoffe 120.01-120.10, 140er-Reihe
+Tageslicht/Ausblick/Aktivierung 140.01-140.04, 250.01 Innovation Oekologie). Beide im Anhang B
+genannten materiellen Aenderungen der Fassung sind damit am Volltext verifiziert (110.05 in Run
+184, 120.06 in diesem Lauf).
+
+**Methodischer Kernbefund, ueber diese KB hinaus gueltig:** Die Runs 182 bis 184 schrieben den
+**Restumfang** des Katalogs jeweils aus der Vornotiz des Vorlaufs fort. Beide dabei transportierten
+Zahlen waren falsch: die 120er-Reihe hat **zehn** Vorgaben statt der notierten neun, und die
+Vorgabe **150.01 «Innovationen zur Erreichung hoher Gesundheitsziele»** kam in **keiner** der drei
+Notizen vor, obwohl sie im Inhaltsverzeichnis der geltenden Fassung steht. Der Fehler ist derselbe
+wie beim Fassungsbefund aus Run 182, nur eine Ebene hoeher: dort wurde die Versionsnummer als
+Aktualitaetsbeweis genommen, hier die eigene Vornotiz als Bestandsbeweis. **Eine fortgeschriebene
+Restmengen-Angabe ist eine Behauptung ueber den Bestand und altert wie jeder Messwert.** Sie
+gehoert zu Laufbeginn am Inhaltsverzeichnis nachgezaehlt. Gleiche Familie wie Rule
+`auto-verbesserungen` 260807 (Konfigurationsfelder erst messen, dann glauben) und 260830 (ein
+wiederholt zugestellter Text darf keinen Fortschrittsstand behaupten).
+
+**Naechster Zuschnitt:** erstens **E-R185-2** (Befristung der Tageslicht-Ausnahmeregelung 140.01
+klaeren, P2, weil ein ausgehendes Dokument sonst eine Schwelle ohne bekannte Geltungsdauer
+transportiert), zweitens **150.01** (kurz, schliesst den Katalog ab), danach das **Refuter-Panel**
+fuer die Runs 182 bis 185 (`emerging` → `established`).

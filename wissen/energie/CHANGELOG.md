@@ -1,5 +1,49 @@
 # CHANGELOG
 
+## 2026-09-07 — Run 185 (Tageslauf): 120er-, 140er-Reihe und 250.01 destilliert; Katalog-Restumfang korrigiert
+
+- **Bearbeitet:** E-R184-1 vollstaendig. Destilliert an der geltenden Fassung (Dokumentstand
+  01.07.2026, S. 19-37 / 46-53 / 106 von 109): **120.01 bis 120.10 Schadstoffe** (zehn Vorgaben,
+  nicht neun), **140.01 bis 140.04 Tageslicht/Ausblick/Aktivierung**, **250.01 Innovation
+  Oekologie**.
+- **Verifiziert:** die Anhang-B-Aenderung zu **120.06** (Wegfall des Flammschutzmittels TEP bei
+  PUR/PIR) ist im Vorgabentext vollzogen — «TEP»/«Triethylphosphat» erscheinen in der ganzen
+  extrahierten Fassung nur in der Anhang-B-Zeile selbst, im Vorgabentext steht als
+  PUR/PIR-Kriterium nur noch TCPP. Damit sind beide von Run 184 offen gelassenen materiellen
+  Aenderungen des Anhangs B am Volltext geprueft.
+- **Praezisiert:** die **Tageslicht-Ausnahmeregelung zu 140.01** steht im Abschnitt «Bemerkungen»
+  der Vorgabe, nicht in einem Anhang. Anhang B laesst drei anwendungsentscheidende Bedingungen
+  weg: nur die Gebaeudekategorien kleine Schule und Schule, nur die Bauweisen «mittel», «leicht»
+  und «sehr leicht» nach SIA 380/1, und der zulaessige Anteil ungenuegend belichteter Raumflaechen
+  bleibt unveraendert bei 20 % (Neubau) bzw. 35 % (Erneuerung). ⚠ Ein Befristungsdatum nennt weder
+  der Vorgabentext noch Anhang B (offen als E-R185-2).
+- **Neuer Wiki-Artikel:** `wiki/tageslicht-minergie-eco.md` (39. Artikel) — es gab bislang keinen
+  Tageslicht-Artikel in der KB.
+- **Gewachsen:** `wiki/gebaeudeschadstoffe.md` um einen Quervergleich (die Zuercher AHB-Eigenwerte
+  von rund 2006, Formaldehyd < 60 und TVOC < 1'000 µg/m³, sind identisch mit den heutigen
+  ECO-Aktivmessungsgrenzen — Bestaetigung der Groessenordnung, ausdruecklich **kein** Beleg einer
+  Ableitung und keine Aussage zur Zulaessigkeit) sowie um 120.01 (Untersuchungspflicht ab Baujahr
+  vor 1990, unabhaengig von der 200-m³-Schwelle der VVEA). `wiki/holzwerkstoffe-formaldehyd-
+  innenraumklima.md` um die konkreten ECO-Anforderungen (Lignum-Anwendung 1/2, ecoBasis, Emicode
+  EC1 genuegt bei Akustikputz laut FAQ ausdruecklich nicht) und um die Wiederverwendungs-Asymmetrie
+  zwischen 120.02 und 120.04.
+- **Bauherren-FAQ:** F283 (Bezugstermin, 30 Tage Auslueftung plus Messfenster), F284
+  (Raumluftgrenzwerte und Messberechtigung), F285 (Tageslicht gegen sommerlichen Waermeschutz beim
+  Schulhaus).
+- **Befund zur Arbeitsweise:** Die Runs 182 bis 184 schrieben den Restumfang des Katalogs aus der
+  jeweiligen Vornotiz fort. Beide fortgeschriebenen Zahlen waren falsch — 120.x hat zehn statt neun
+  Vorgaben, und **150.01 «Innovationen zur Erreichung hoher Gesundheitsziele» fehlte in allen
+  Notizen**, obwohl sie im Inhaltsverzeichnis steht (neu offen als E-R185-1). Eine fortgeschriebene
+  Restmengen-Angabe ist eine Behauptung ueber den Bestand und altert wie jeder Messwert; sie
+  gehoert am Inhaltsverzeichnis nachgezaehlt statt aus der Vornotiz uebernommen. Gleiche Familie
+  wie Rule `auto-verbesserungen` 260807 und 260830.
+- **Registerpflege:** `destillate/INDEX.md`, `wiki/INDEX.md` (Artikelzahl 38 → 39, neuer Eintrag),
+  `wiki/QUESTIONS.md` (E-R184-1 geschlossen; E-R185-1 bis E-R185-5 neu offen, darunter ein toter
+  Backlink `[[minergie-innenraumklima]]`, bewusst nicht stillschweigend umgebogen),
+  `outputs/2026-09-07_energie-run185.md`.
+- **Status unveraendert `emerging`:** Einzelagenten-Lauf mit Stichproben-Verifikation der tragenden
+  Zahlen durch den Hauptlauf, kein Refuter-Panel.
+
 ## 2026-09-07 (Wissens-Chef Lauf 53) — drei Normfundstellen im Zuwachs der Runs 183/184 nachgeschaerft
 
 Cross-KB-Pruefung `energie` ↔ `normen` und ↔ `planungsgrundlagen`, adversarial verifiziert.

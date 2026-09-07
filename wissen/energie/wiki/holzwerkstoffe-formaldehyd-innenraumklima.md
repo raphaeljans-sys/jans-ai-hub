@@ -65,3 +65,52 @@ verlangen.
 `[[gebaeudeschadstoffe]]` (Altlasten-Schadstoffabklärung bei Umbauten vor 1990 — anderes Thema:
 dort geht es um Bestandesschadstoffe, hier um Neumaterial-Emission), `[[minergie-innenraumklima]]`
 (KBOB-Empfehlung 2004/1, allgemeines Innenraumklima), Bauherren-FAQ **F235**.
+
+
+## Nachtrag 07.09.2026 (Run 185): was Minergie-ECO konkret verlangt
+
+Der Schlusssatz oben («bei Minergie-Eco-Zielsetzung reicht E1 allein nicht») ist mit der
+geltenden Fassung des Vorgabenkatalogs Zusatz ECO (Nachweisversion 2023.1, Dokumentstand
+01.07.2026, Vorgabe **120.02 Formaldehyd: Emissionen aus Baumaterialien**, eine Ausschlussvorgabe)
+belegbar und lässt sich präzisieren. Verlangt wird für verleimtes Vollholz und Holzwerkstoffe
+eine der folgenden Qualifikationen:
+
+- **Anwendung 1** der «Lignum-Produktliste geeigneter Holzwerkstoffe zur Verwendung im Innenraum»
+  («geeignet ohne Einschränkung bezüglich Raumbeladung»), oder
+- **Anwendung 2** derselben Liste («geeignet mit Einschränkung bezüglich Raumbeladung»;
+  Beladung: 3 von 6 Raumoberflächen oder maximal 50 % der Raumoberflächen), oder
+- mindestens **ecoBasis** für die Innenanwendung, oder ein gleichwertiger Nachweis.
+
+Holzwerkstoffplatten, welche die Anwendungen 1 oder 2 nicht erfüllen, brauchen eine geeignete
+Beschichtung gemäss dem Hilfsmittel «Anwendungsmatrix zur fachgerechten Verwendung von
+Holzwerkstoffen in Innenräumen» oder mindestens ecoBasis. Für Dämmstoffe aus Holzwerkstoffen
+(Holzfaser, Holzwolle) gilt zusätzlich Anwendung 1; für Mineralwolle-Dämmstoffe werden
+formaldehydfreie Bindemittel verlangt. Mehrschichtparkette: formaldehydfrei verklebt und/oder
+Anwendung 1. Akustikputzsysteme dürfen weder formaldehydhaltige Bestandteile noch
+formaldehydabspaltende Konservierungsmittel enthalten; ein **Emicode EC1 oder EC1plus genügt hier
+laut FAQ ausdrücklich nicht**.
+
+Zwei FAQ-Aussagen des Katalogs, die in der Praxis regelmässig falsch angenommen werden: ein für
+den **Aussenbereich** mit eco1 bewertetes Produkt darf nicht ohne genaue Prüfung im Innenbereich
+eingesetzt werden, weil Formaldehyd im Aussenbereich gar kein Bewertungskriterium ist. Und
+Holzwerkstoffe, die erfolgreich nach **DIN EN 16516** geprüft wurden, erfüllen die Vorgabe, weil
+diese Prüfnorm strengere Werte fordert als die EN 717-1, auf welche sich die Lignum-Produkteliste
+bezieht.
+
+### Wiederverwendete Holzwerkstoffe gelten nie als ausgegast
+
+Für die Kreislaufwirtschaft entscheidend und leicht zu übersehen: der Katalog behandelt
+Wiederverwendung bei Formaldehyd und bei Lösemitteln bewusst gegensätzlich.
+
+- Vorgabe 120.02: «Wiederverwendete formaldehydhaltige Materialien und Bauteile gelten ohne
+  entsprechende Prüfung auch nach zwei Jahren an einem ersten Einbauort **als nicht ausgegast**.»
+- Vorgabe 120.04 (Lösemittel): «Wiederverwendete lösemittelhaltige Materialien und Bauteile gelten
+  ohne entsprechende Prüfung nach zwei Jahren an einem ersten Einbauort **als ausgegast**.»
+
+Sachlich passt das zum Emissionsverhalten: Lösemittel verflüchtigen sich, Formaldehyd wird über
+Jahre aus dem Bindemittel nachgeliefert. Praktisch heisst es, dass ein wiederverwendeter
+Innenausbau aus Holzwerkstoffen **immer** eine Prüfung braucht, während ein wiederverwendetes
+beschichtetes Bauteil nach zwei Jahren ohne Prüfung akzeptiert wird.
+
+→ Destillat `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, Abschnitt «Die 120er-Reihe»;
+Bauherren-FAQ **F284** (Raumluftmessung als zweite Stufe nach der Materialwahl).
