@@ -3,6 +3,25 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## AG-Gründung 07.09.2026 (07:50, Monitor-Scan) — Kapitaleinzahlung KRITISCH überfällig; kein Fortschritt seit 31.08.
+
+**Status quo gemessen (Monitor-Scan 07.09. 07:50):** Keine neuen Mails in mail@/rj@ seit **31.08.2026 00:00** (sieben Tage Stillstand). Monitor funktioniert jetzt wieder (osascript-Blockade 28.08.–01.09. behoben).
+
+**Kapitaleinzahlung KRITISCH überfällig:**
+- Sollte: Mitte August (~14.08.2026)
+- Status: **17+ Tage überfällig** (Stand 07.09.2026)
+- Betrag: CHF 50'000 auf UBS-Sperrkonto (IBAN CH46 0027 6276 1238 74D7 N, bestätigt 17.08.2026)
+- **Konsequenz:** Ohne Einzahlung → keine UBS-Kapitalbescheinigung → keine Notarsbeurkundung → keine HR-Eintragung möglich
+
+**Notariat Mathies (Wiedikon-Zürich):** Seit **13.08.2026** ohne Antwort (25 Tage). Letzte Mail (13.08., A. Gonçalves brandschutz-typisches Thema) war nicht AG-bezogen; letzte AG-Mail (kein Datum im Monitor gelistet, aber vor dem 13.08.) zum Firmenname «Raphael Jans AG» = keine Reaktion auf die überfällige Word-Datei-Übergabe.
+
+**Reihenfolge für Raphael:**
+1. **HEUTE CHF 50'000 einzahlen** auf das UBS-Sperrkonto (ganz oben im Spec-Punkt 4)
+2. Nach UBS-Bestätigung → Notariat kontaktieren (Beurkundungstermin fixieren, braucht die Kapitalbescheinigung)
+3. HR-Anmeldung nach Notarbeurkundung
+
+**Nächster Monitor-Scan:** Standard 09.09.2026 07:45 (zwei Tage Puffer).
+
 ## Abo-Auslastung 06.09.2026 (18:0x, wöchentlicher Check Mac Mini) — SCHWARZ, ZWEITER Ausfall in Folge; Eskalation ausgelöst, Mail blieb im Entwurf hängen
 
 **Ampel SCHWARZ, kein Messwert.** Der Connector `connectors/claude-usage.mjs` scheitert

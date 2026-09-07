@@ -3172,3 +3172,60 @@ En-Striche, beide innerhalb des Projekttitels «Kinderspital Zuerich – Akutspi
 angeschlagen. Regel: **Striche innerhalb eines zitierten Titels oder Eigennamens zaehlen nicht
 mit** — sonst wertet der Schutz echtes Gold ab. Gleiche Lehre wie der Guillemet-Falsch-Positiv
 vom 03.08.2026 und das verworfene «du klein»-Signal vom 07.08.2026.
+
+## Baurechtliche Machbarkeit wird als fuenfteiliges Kennwert-Geruest geschnitten (Batch 115, `korrektur-delta`, Raphaels Teil)
+
+Angebot vom 04.09.2026, Leistungsumfang eines Zweitgutachtens Baurecht, mit Buchstaben statt
+Ziffern nummeriert:
+
+> A) Max. Überbaubarer Grund (min. Grenzabstände)
+> B) Max Gebäudehöhe; Verifizierung und Plausibilisieren der vorliegenden Studie; damit Verbundene
+> C) Max. Geschosszahl
+> D) Max. GF
+> E) Max. HNF
+
+Die Reihenfolge ist die Rechenkette selbst: **Flaeche in der Ebene → Hoehe → Geschosse →
+Geschossflaeche → nutzbare Flaeche.** Jede Stufe ist Eingangsgroesse der naechsten, und am Ende
+steht die einzige Zahl, die den Investor interessiert (HNF). Kein Punkt zu Kosten, keiner zum
+Ertrag — der Auftraggeber hatte beides ausgeschlossen, und Raphael dehnt den Umfang nicht.
+
+Sprachliche Signatur des Geruests: jede Zeile beginnt mit **«Max.»**, die Nebenbedingung steht in
+Klammern («min. Grenzabstände»), die Fachkuerzel GF und HNF bleiben unaufgeloest. Nur Punkt B
+traegt eine Methode statt einer Groesse («Verifizierung und Plausibilisieren der vorliegenden
+Studie») — dort, wo eine fremde Studie widerlegt oder bestaetigt werden muss. Der Satz bricht
+mitten im Nachtrag ab («damit Verbundene»); der Fehler bleibt stehen.
+
+## Vor der Volumenpruefung kommt die Eigentums- und Dienstbarkeitslage (Batch 115, `korrektur-delta`, vorbereiteter Block)
+
+Dieselbe Mail fordert drei Grundlagen an, jede einzeln:
+
+> _ die Bestätigung, dass die Anlagestiftung die Kat.-Nr. WI3365 tatsächlich besitzt
+> _ die Grundbuchauszüge von WI1585, WI3365, WI3366 und WI1738 samt Dienstbarkeitsverträgen
+> _ die Angabe, wer Eigentümer der Wegparzelle WI3366 ist
+
+Vier Katasternummern einzeln benannt, die Wegparzelle zweimal (einmal im Auszugspaket, einmal als
+eigene Eigentuemerfrage), die Dienstbarkeitsvertraege ausdruecklich zusaetzlich zum Auszug. Der
+Auftraggeber hatte die Rechtslage als geklaert dargestellt («Näherbaurecht ist möglich,
+Durchfahrtsrecht unentgeltlich gesichert»); die Anforderung prueft genau diese zwei Behauptungen
+gegen die Quelle.
+
+⚠ Der Block ist vorbereiteter Text (siehe Batch-Register); die **Auswahl** der drei Punkte ist
+gleichwohl belegt, weil Raphael sie so versendet hat. Als Fachmarker `korrektur-delta`, nicht
+Gold.
+
+## Die Planfassung wird mit Datum genannt, der Dateiname woertlich zitiert (Batch 115, authentisch)
+
+04.09.2026 an den Brandschutzplaner, zwei Zeilen untereinander:
+
+> Im Anhang die Überarbeitete Stellungnahme vom 14.08.26.
+> Im Anhang der A2_Brandschutzplan 1.OG Therapiestation vom 14.08.26.pdf.
+
+Beide Male **anaphorisch dieselbe Formel** («Im Anhang die/der …»), beide Male das
+Fassungsdatum, beim Plan zusaetzlich der Dateiname **inklusive Endung** und inklusive des im
+Namen mitgefuehrten Datums. Format der Datumsangabe: `TT.MM.JJ` mit Punkt am Ende, nicht
+`JJMMTT` wie in der Dateinamen-Konvention.
+
+Der Zweck ist Beweissicherung: bei Auflagenbereinigungen gegenueber der Feuerpolizei entscheidet,
+**welche** Fassung geprueft wurde. Der Zwilling fasst solche Zeilen gern zusammen («Im Anhang
+finden Sie die Stellungnahme sowie den Brandschutzplan») und loescht damit genau die Information,
+die die Mail zum Beleg macht.

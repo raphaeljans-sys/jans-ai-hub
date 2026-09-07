@@ -1974,3 +1974,23 @@ Eingabe beim Amt), und gibt alles ab, was die Bauherrschaft selbst besorgen kann
 wenn er es besser koennte. Die Blindfassung zog stattdessen die Nachverfolgung an sich («Sobald
 ich die Rueckmeldung dazu habe, melde ich mich unverzueglich») und machte aus einer Uebergabe
 eine Zwischenstation.
+
+## Auf eine Fristanfrage antwortet er mit einem Preis, bevor die Grundlagen da sind (Batch 115, `korrektur-delta`, Raphaels Teil)
+
+03.09.2026 11:58 fragt der Bauherrenvertreter an, ob die baurechtliche Machbarkeit bis Mittwoch
+09.09. geprueft werden koenne. **04.09.2026 07:45**, keine 20 Stunden spaeter, liegt ein
+Pauschalangebot mit Betrag und abschliessendem Leistungsumfang vor — obwohl im selben Text drei
+Grundlagen (Eigentumsbestaetigung, vier Grundbuchauszuege samt Dienstbarkeitsvertraegen,
+Eigentuemer der Wegparzelle) noch fehlen.
+
+Die Haltung dahinter: **Verbindlichkeit vor Vollstaendigkeit.** Er laesst die Frist nicht
+verstreichen, um erst Unterlagen zu sammeln, sondern bindet sich am Preis und am Umfang und
+holt die Grundlagen parallel. Der Zwilling neigt zum Gegenteil — er beantwortet solche Anfragen
+mit einer Bedingungsliste und verschiebt das Angebot auf danach.
+
+Zweiter Zug im selben Absatz: das Wort **«abschliessend»** («Darin werden folgende Punkte
+abschliessend geklärt») grenzt den Auftrag ebenso deutlich ein, wie es ihn zusagt. Fuenf Punkte,
+nummeriert A) bis E), und nichts daneben. **Die Abgrenzung ist bei ihm Bestandteil des Angebots,
+kein Kleingedrucktes** — sie steht im Hauptteil, in derselben Schriftgroesse, direkt unter dem
+Preis. Der Auftraggeber hatte Baukosten und Ertragseinschaetzung ausdruecklich nicht verlangt;
+Raphael schreibt die Grenze trotzdem hin.

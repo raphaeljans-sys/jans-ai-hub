@@ -5370,3 +5370,80 @@ Liste im Sachteil bekommen; die fuenfte kommt nicht als Listenerweiterung, sonde
 Strich als beilaeufiger Tipp**. Gleiche Familie wie der Eingabetermin unter dem Signaturblock
 (260826): was den Auftrag nicht bindet, steht unter dem Gruss. Der Zwilling arbeitet solche
 Nachtraege reflexhaft in die Liste ein und macht aus einem Tipp eine Empfehlung.
+
+## «an Herr <Vorname Nachname>» — zweimal am selben Tag, damit stabile Form statt Vertipper (Batch 115, authentisch, zweifach)
+
+04.09.2026 07:56 an die Behoerde: «Bitte um Prüfung und finale Bestätigung und Zusendung
+**an Herr Gantenbein**, danke.» · 04.09.2026 14:39 an die Bauherrschaft: «zwei Exemplare
+**an Herr Thomas Wiedmer** SBB zur Unterzeichnung senden.»
+
+Zwei unabhaengige Adressaten, zwei Register (Behoerde, Privatbauherrschaft), sieben Stunden
+auseinander, beide Male der unflektierte Nominativ nach Praeposition. Das ist keine
+Tippgeschwindigkeit, sondern **eine feste Form**: «Herr» bleibt bei Raphael unflektiert, wenn
+ihm ein voller Name folgt. Familienaehnlich zur schon belegten Fehlform «Geschaetzter Herr
+<Vorname>» (Batch 113, Fidelity 260904) — beide Male traegt «Herr» die Hoeflichkeit und der Rest
+des Namens die Information; die Grammatik dazwischen faellt weg.
+
+**Fuer den Zwilling bleibt sie gesperrt** (Fehler, kein Stilmarker). Fuer die Fidelity-Messung
+zaehlt sie ab jetzt **nicht mehr als Ausreisser**, sondern als erwartetes Merkmal eigener Hand.
+
+## Die Satzlaenge haengt an der Gattung, nicht an der Vertrautheit (Batch 115, authentisch, 358 Woerter)
+
+Gemessen: **12.8 Woerter je Satz** gegen **19.8** im unmittelbar vorangehenden Fenster
+(Batch 114, 297 Woerter, teils dieselben Empfaenger, dieselbe Woche, dasselbe Projekt). Was
+wechselt, ist nicht der Kontakt, sondern der Anlass: Batch 114 war Koordinationsverkehr
+(Sachverhalt erklaeren, Varianten abwaegen), Batch 115 ist Ausfuehrungs- und Uebergabeverkehr
+(anweisen, uebergeben, einladen).
+
+Der Zwilling darf die Satzlaenge also **nicht** aus dem Register ableiten («Du → kurz»). Er muss
+sie aus der Gattung ableiten: **Anweisung und Uebergabe = eine Handlung je Satz, je Zeile;
+Erklaerung und Abwaegung = laengere, verbundene Saetze.** Im Extrem faellt der Satz auf das
+Verb-lose Telegramm: «Scan Originaldokument mit beiden Unterschriften an mich zur Eingabe
+Baubehörden Thalwil.»
+
+## Der Fachbegriff steht in Bindestrichen, nicht in Anfuehrungszeichen (Batch 115, `korrektur-delta`, Raphaels Teil)
+
+04.09.2026, Angebotsmail, fett gesetzt: «Für ein **-Zweitgutachen Baurecht-** in Sachen
+Steinbrüchelstrasse 26/28 …» Der Leistungsbegriff wird durch **umschliessende Bindestriche**
+markiert, zusaetzlich fett, und traegt dabei einen Buchstabendreher («Zweitgutachen»). Weder
+Anfuehrungszeichen noch Kursivsetzung.
+
+Verwandt mit den schon belegten Unterstrich-Bullets: Raphael markiert Bedeutung mit
+**Tastatur-Zeichen aus der Schreibmaschinenreihe**, nicht mit Typografie. Die Regel
+«kein Gedankenstrich als Stilmittel» (JANS-DNA) betrifft den Gedankenstrich als Satzzeichen und
+wird davon nicht beruehrt — hier ist der Bindestrich eine Klammer, kein Einschub.
+
+## Die Wochenliste hat drei eigene Schriftzeichen-Marker (Batch 115, authentisch, Apple Mail)
+
+Betreff «Todo**‘**s kw37» — Deppenapostroph, und zwar mit dem **falschen Zeichen** (Anfuehrungs-
+statt Auslassungszeichen, ‘ statt ’). Dazu: der Listenmarker der Aufzaehlung ist ein
+**Gedankenstrich** (`list-style-type: "—  "`), und die dringendste der acht Positionen steht in
+**Versalien**: «TERMIN STURZ LBW SCHIEBETÜRE», als letzte Zeile der Liste.
+
+Die Versalien-Zeile ist die eigentliche Entdeckung: sie ist eine **Dringlichkeitsstufe innerhalb
+einer Liste**, nicht am Anfang, sondern zuletzt, ohne Ausrufezeichen und ohne Kommentar. Der
+Zwilling markiert Dringlichkeit heute mit Woertern («dringend», «bis Freitag»); Raphael markiert
+sie an dieser Stelle mit der Schriftgroesse der Tastatur.
+
+Die Schreibung der Kalenderwoche schwankt in derselben Mail: Betreff «kw37», erste Zeile «Kw37»,
+Schlusssatz «KW38».
+
+## Das Komma nach der Anrede schwankt am selben Tag (Batch 115, authentisch + `korrektur-delta`, fuenffach)
+
+Fuenf Anreden am 04.09.2026: «Geschätzter Christoph» (07:45, ohne) · «Geschätzter Jens,» (07:56,
+mit) · «Geschätzter Stefan,» (14:39, mit) · «Geschätzter Simon,» (14:52, mit) ·
+«Geschätzter Christoph» (18:41, ohne).
+
+**Schwankung, kein Marker** — dieselbe Einordnung wie bei der Binnengrossschreibung von «bitten»
+(Batch 114). Auffaellig bleibt, dass beide kommalosen Faelle auf denselben Vornamen fallen; bei
+n = 2 ist das keine Regel, sondern eine Beobachtung. Nicht nachbilden, nicht glaetten.
+
+## Zwei Schreibungen derselben Telefonnummer, nach Dringlichkeit getrennt (Batch 115, authentisch)
+
+Die Signatur fuehrt «0041 79 846 11 65». Die Anruf-Bitte 04.09. 14:03 fuehrt dieselbe Nummer als
+**«0798461165»** — nackt, ohne Landesvorwahl, ohne Gruppierung, als dritte von drei Zeilen unter
+«Hoi Mustafa kannst du mich kurz anrufen.» und «Danke.».
+
+Die ungegliederte Form ist die **waehlbare**, nicht die repraesentative: sie steht dort, wo der
+Empfaenger sie antippen soll. Der Zwilling setzt in solchen Faellen die Signaturform ein und
+macht aus einem Aktionsknopf eine Visitenkarte.

@@ -4052,3 +4052,69 @@ fuer Mustafa Eren vermerkt («Herr Mustafa»; Nachname ist Spahic bzw. Eren). **
 Beleg: es ist kein Einzelversehen, sondern eine wiederkehrende Form Raphaels bei Kontakten, deren
 Vorname ihm gelaeufiger ist als der Nachname.** Fuer den Zwilling bleibt sie gesperrt (sie ist ein
 Fehler, kein Stilmarker) — aber der Harness soll sie nicht mehr als Ausreisser behandeln.
+
+## Die Behoerde steht im An-Feld und wird in der dritten Person gefuehrt (Batch 115, authentisch)
+
+04.09.2026 07:56, Empfaengerfeld **An**: der Brandschutzexperte der Behoerde (Schutz & Rettung
+Zuerich) **und** der eigene Brandschutzplaner. Angeredet wird genau einer: «Geschätzter Jens,»
+Der Behoerdenvertreter kommt im Text nur als Objekt vor: «Bitte um Prüfung und finale
+Bestätigung und Zusendung **an Herr Gantenbein**, danke.»
+
+Das ist keine Nachlaessigkeit, sondern eine Verteilerform mit Aussage: **die Behoerde liest die
+Weisung an den eigenen Fachplaner offen mit.** Sie sieht, dass die Unterlagen vorliegen, dass sie
+fachlich geprueft werden und dass die Zustellung an sie selbst der naechste Schritt ist — ohne
+dass Raphael ihr etwas verspricht oder sie direkt anschreibt. Der Fachplaner bleibt der Absender
+gegenueber dem Amt; Raphael bleibt der, der liefert.
+
+Gegenstueck auf der privaten Schiene, drei Stunden spaeter: bei der Naeherbaurechts-Mail steht
+die **Gegenpartei (SBB) im Cc**, waehrend die Bauherrschaft im An die Handlungsanweisung bekommt.
+Auch hier liest die Gegenseite den Ablauf mit, statt ihn erklaert zu bekommen. **Cc und An
+verteilen bei Raphael nicht Wichtigkeit, sondern Rollen: An = wer handelt, Cc = wer den Ablauf
+bezeugen soll.**
+
+## Die knappste belegte Stufe: «Hoi <Vorname>» ohne Komma, du klein, kein Gruss (Batch 115, authentisch)
+
+04.09.2026 14:03 an den Sanitaerplaner (Du-Kontakt), vollstaendiger Text:
+
+> Hoi Mustafa kannst du mich kurz anrufen.
+> Danke.
+> 0798461165
+
+Drei Zeilen, kein Komma nach der Anrede, **du klein**, kein Gruss, keine Signaturzeile im Body,
+die Nummer ungegliedert. Punkt statt Fragezeichen hinter der Bitte (bestaetigt 260820).
+
+Damit ist die Stufenleiter nach unten offen: unterhalb von «Hoi <Vorname>,» mit Gruss liegt
+diese Form, und sie erscheint dort, wo der Mailkanal nur noch **Traeger fuer einen Rueckruf**
+ist. Die Klein-Schreibung des «du» stuetzt den Befund aus Batch 114 (Du/du schwankt im Original,
+Quote 0.875 bzw. hier 0.8): **die Schwankung haengt an der Eile, nicht am Kontakt** — derselbe
+Empfaenger hat 22 Stunden zuvor ein grossgeschriebenes «Du» bekommen.
+
+## Fuenf von fuenf Gruessen «Freundliche Grüsse» — die DNA-Kopplung faellt zum zweiten Mal (Batch 115, authentisch + `korrektur-delta`)
+
+Vier Du-Kontakte (Bauherrenvertreter, Brandschutzplaner, private Bauherrschaft, Bauherren-
+Fachstelle), fuenf Mails mit Gruss, fuenfmal «Freundliche Grüsse». **Kein «Lieber Gruss», kein
+«Beste Gruesse», kein «lgr».** Batch 114 hatte dasselbe Bild bei vier Du-Kontakten.
+
+Zwei Fenster in Folge, neun Mails, null warme Gruessse an Du-Kontakte: die DNA-Kernregel «warmer
+Gruss gehoert zum Du» ist damit **nicht mehr nur markiert, sondern messbar bestritten**. Der
+warme Gruss taucht im Fidelity-Material vom Januar 2026 reichlich auf («Lieber Gruss / Raphael»),
+im laufenden Ausfuehrungsverkehr vom September gar nicht. Erste Lesart: der warme Gruss haengt
+an der **Gattung** (Klaerung, Bitte an einen Einzelnen) und nicht am Register — dieselbe Achse,
+die auch die Satzlaenge steuert ([[stimme]]). Als Widerspruch weitergefuehrt, nicht geglaettet —
+[[QUESTIONS]] 260907 #1.
+
+## ⚠ Anrede-Fehlgriff-Verdacht an dieselbe Adresse am selben Abend (Batch 115, authentisch, unbestaetigt)
+
+04.09.2026 **14:39** an `fam_tschopp@…` (Kontaktname im Postfach: «Gertrud & Stefan Tschopp»):
+«Geschätzter **Stefan**,» · 04.09.2026 **18:41** an **dieselbe** Adresse: «Geschätzter
+**Christoph**».
+
+«Christoph» ist der Vorname des Bauherrenvertreters, dem Raphael am selben Morgen um 07:45 das
+Angebot geschrieben hat. Naheliegendste Erklaerung: **die Anrede der Morgenmail ist in die
+Abendmail gewandert.** Moeglich bleibt ein zweiter Adressat gleichen Vornamens hinter dem
+Familienkonto.
+
+Nicht als Marker aufgenommen, nicht geglaettet, sondern **als Pruefpunkt gefuehrt** —
+[[QUESTIONS]] 260907 #2. Falls bestaetigt, ist es der erste belegte Fall, in dem eine Anrede
+zwischen zwei Vorgaengen desselben Tages verrutscht, und damit ein konkreter Auftrag an den
+Harness: **beim Verfassen die Anrede gegen den Empfaenger pruefen, nicht gegen die letzte Mail.**

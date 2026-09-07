@@ -1535,3 +1535,42 @@ zugleich die Liste dessen, was dieser beibringen muss.
 Die Blindfassung desselben Anlasses stellte drei Fragen als Bulletliste und liess **jede** Angabe
 zu ihrer eigenen Unsicherheit weg. Das ist die Kehrseite der stehenden Erfindungs-Drift: nicht
 eine falsche Zahl, sondern eine fehlende Angabe darueber, wie weit der Boden traegt.
+
+## Der Zwecksatz steht NACH der Liste und nennt die Folgekette, nicht das Ziel (Batch 115, authentisch)
+
+Die Wochenliste vom 04.09.2026 oeffnet mit der nackten Ueberschrift «Kw37 erledigen KISPI & JANS
+Baustelle», fuehrt acht Positionen und schliesst mit **einem** Satz:
+
+> So kann der Gipser KW38 weiter arbeiten.
+
+Kein «damit wir im Terminplan bleiben», kein Qualitaetsargument, keine Anrede und kein Gruss
+darum herum. Die Begruendung ist **die naechste Hand am Werk**, benannt mit Gewerk und
+Kalenderwoche. Acht ungleiche Positionen (Kernbohrung, Sprinkler, Sanitaer, Elektro, Lueftung,
+ein offener Entscheid, eine Position, ein Termin) werden nicht thematisch geordnet, sondern
+dadurch zusammengehalten, dass sie **denselben Nachfolger blockieren**.
+
+Zwei Folgerungen fuer den Zwilling:
+
+- **Die Begruendung steht hinten.** Er stellt sie voran («Damit der Gipser … bitte ich um
+  folgende Arbeiten») und macht aus einem Befund eine Einleitung.
+- **Die Begruendung ist konkret und personifiziert** (ein Gewerk, eine Woche), nicht abstrakt
+  (Termin, Ablauf, Koordination).
+
+## Der Vorbehalt steht nach dem sicheren Block — zweiter, unabhaengiger Beleg (Batch 115, `korrektur-delta`, Naht sichtbar)
+
+Die Regel stammt aus dem Fidelity-Review 260904 (Gold C, 28.01.2026). Die Angebotsmail vom
+04.09.2026 belegt sie ein zweites Mal, an einem ganz anderen Gegenstand:
+
+1. Zusage und **Preis** («ein Angebot in der Höhe von CHF 1800.- exkl. MwSt. pauschal»)
+2. der **abschliessend** definierte Leistungsumfang, A) bis E)
+3. erst dann: «Damit ich die letzten Annahmen schliessen kann, brauche ich von Euch drei Dinge:»
+
+Der Vorbehalt kommt zuletzt, benennt praezise, **was fehlt**, und ist als Bringschuld des
+Gegenuebers formuliert, nicht als Einschraenkung des eigenen Angebots. Die Reihenfolge ist die
+inhaltliche Aussage: **das Angebot steht, unabhaengig davon, ob die drei Unterlagen kommen.**
+
+Bemerkenswert ist die Naht selbst. Punkt 3 ist vorbereiteter Text (fehlerfrei, 48 Woerter, drei
+Unterstrich-Bullets), Punkte 1 und 2 sind eigene Hand (drei Fehler auf rund 60 Woerter). **Der
+vorbereitete Block hat die Stelle nicht verschoben** — Raphael hat ihn dorthin gesetzt, wo seine
+eigene Dramaturgie ihn erwartet. Das ist der bislang beste Beleg, dass die Regel seine ist und
+nicht die des Werkzeugs.

@@ -4276,3 +4276,85 @@ darauf, dass die Mail ankommt und gelesen wird, sondern kuendigt an, den Empfang
 telefonisch zu verifizieren. Gleiche Haltung wie die Doppeladressierung bei unklarer
 Zustaendigkeit (260805) — dort auf der Adress-, hier auf der Zeitachse. Kein Fragezeichen hinter
 der Bitte (bestaetigt 260820).
+
+## Der Weg zur Behoerde laeuft ueber den Fachverantwortlichen, auch wenn die Behoerde mitliest (Batch 115, authentisch)
+
+04.09.2026 07:56: Raphael liefert die Grundlagen (SharePoint-Ordner als Link-Chip, zwei PDF im
+Anhang) und uebergibt drei Handlungen in **einem** Satz an den Brandschutzplaner: «Bitte um
+**Prüfung** und **finale Bestätigung** und **Zusendung** an Herr Gantenbein, danke.»
+
+Die Arbeitsteilung ist damit vollstaendig beschrieben, ohne dass sie erklaert wird: **Raphael
+beschafft, der Fachplaner verantwortet fachlich und zeichnet gegenueber dem Amt.** Er selbst
+sendet nicht an die Behoerde, obwohl sie im An-Feld steht und er die Unterlagen in der Hand hat.
+Verwandt mit der Zustaendigkeit als Namenspaar («Verantwortlich Jans&Ziegel», Batch 114): die
+Ausarbeitung wird abgegeben, die Beschaffung bleibt.
+
+Das angehaengte kleingeschriebene **«, danke.»** schliesst die Dreifachbitte ab — dieselbe
+Stellung wie das «Danke.» als eigene Zeile in der Anruf-Bitte desselben Tages.
+
+## Die Wochenliste ist eine eigene Gattung: ohne Anrede, ohne Gruss, mit Zwecksatz (Batch 115, authentisch, Apple Mail)
+
+Betreff «Todo‘s kw37», vier Empfaenger im An (der ausfuehrende Unternehmer und drei
+Bauherren-Techniker), keine Anrede, keine Signatur, keine Hoeflichkeitsformel. Aufbau:
+Ueberschriftzeile («Kw37 erledigen KISPI & JANS Baustelle») → acht Positionen → ein Zwecksatz
+([[denken]]).
+
+Zwei Struktur-Entscheide sind bemerkenswert:
+
+- **Unternehmer und Bauherrschaft stehen im selben An-Feld, nicht getrennt nach An/Cc.** Die
+  Woche wird nicht dem Unternehmer aufgetragen und der Bauherrschaft gemeldet, sondern **allen
+  vier als gemeinsame Liste** hingelegt. Wer welche Position schuldet, steht nicht dabei.
+- **Offene Entscheide stehen als Positionen in derselben Liste** wie Bauleistungen («Entscheid
+  Unterzüge Speiseraum/2.001 Auf», «Position Elektro KIP für Bohrung Metallsturz»). Eine zu
+  treffende Entscheidung ist bei ihm ein Arbeitsschritt mit Woche, kein Traktandum.
+
+Die Gattung erscheint nur ueber **Apple Mail** — die einzige der acht verwerteten Einheiten des
+Fensters mit `internetMessageId` `@raphaeljans.ch`. Die Baustellenliste entsteht am Telefon, der
+Projektverkehr in Outlook.
+
+## Digitaler und physischer Weg laufen parallel, beide mit genanntem Ort (Batch 115, authentisch)
+
+04.09.2026 14:39 an die private Bauherrschaft: vier Anhaenge (Word und PDF derselben Urkunde plus
+Situationsplan und Vertragsgrundlage) und dazu der Satz «**Die Ausdrucke sind morgen im
+Briefkasten Bohlweg 3.**»
+
+Damit erweitert sich der schon belegte Marker «keine Bringschuld ohne Ablageort» (Batch 114, dort
+SharePoint-Links) auf die **analoge Schiene**: auch der Papierweg bekommt einen Ort und einen
+Termin. Zweiter Beleg im selben Fenster, KISPI-Einladung 14:52, mit dreigliedriger Uebergabekette
+und benannter Endstelle: «Alle Pläne sind als Druckauftrag ausgelöst worden und werden **von
+NewCopyStore am Empfang KISPI für Albin Spahic** abgegeben.» Dienstleister → Ort → Person.
+
+## Die Handlungskette: eine Handlung je Zeile, ohne Bindewoerter, Zweck zuletzt (Batch 115, authentisch)
+
+Dieselbe Naeherbaurechts-Mail, vier aufeinanderfolgende Zeilen ohne Leerzeile dazwischen:
+
+> Die Ausdrucke sind morgen im Briefkasten Bohlweg 3.
+> Bitte Dokumente handschriftlich unterzeichnen und zwei Exemplare an Herr Thomas Wiedmer SBB zur Unterzeichnung senden.
+> SBB Bitten um Rücksendung eines Exemplars.
+> Scan Originaldokument mit beiden Unterschriften an mich zur Eingabe Baubehörden Thalwil.
+
+Fuenf Schritte ueber drei Parteien (Bauherrschaft → SBB → zurueck → Raphael → Baubehoerde),
+**kein einziges «anschliessend», «danach», «sobald»**. Die Reihenfolge der Zeilen ist die
+Reihenfolge der Handlungen; die letzte Zeile nennt zugleich den Zweck der ganzen Kette. Die
+Schlusszeile ist verb-los, die dritte beginnt mit dem Objekt («SBB Bitten um …»).
+
+Der Zwilling verbindet solche Ketten zu Satzgefuegen und macht aus vier Anweisungen einen Absatz.
+**Die Zeilenumbrueche sind hier die Nummerierung.**
+
+## Der vorbereitete Textblock wird eingesetzt, nicht ueberarbeitet — und die Naht bleibt sichtbar (Batch 115, `korrektur-delta`)
+
+Die Angebotsmail 04.09. 07:45 besteht aus zwei Haenden: oben rund 60 Woerter eigene Hand mit drei
+Fehlern, unten 48 fehlerfreie Woerter mit drei Unterstrich-Bullets aus dem am selben Morgen
+gemeldeten, versandbereiten Bericht. Raphael hat den Block **an die von seiner Dramaturgie
+vorgesehene Stelle gesetzt** ([[denken]]) und ihn sonst unangetastet gelassen.
+
+Betriebsfolge fuer den Harness: **der Wert einer Zuarbeit liegt im Block, nicht im ganzen
+Entwurf.** Was Raphael uebernimmt, sind praezise Aufzaehlungen mit Nummern und Namen; was er
+selbst schreibt, sind Zusage, Preis und Umfang.
+
+⚠ **Verbrannter Indikator.** `stilmetrik.py` fuehrt den `_ `-Bullet als Raphaels eigenes
+Aufzaehlungszeichen; der Zwilling erzeugt ihn deshalb selbst. In dieser Mail stehen alle drei
+Unterstrich-Bullets im **vorbereiteten** Block. Als Herkunftssignal ist der Marker unbrauchbar
+geworden und darf in der Gewichtung nicht mehr fuer `authentisch` sprechen — als Stilmerkmal
+bleibt er gueltig. Belastbar trennen die Haende weiterhin nur **Fehlerdichte je Absatz** und
+`internetMessageId`.
