@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 00:13:51
+Stand: 08.09.2026 00:24:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:04)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 08.09.2026 00:13:51
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- d4bdceb0a wissen/baurecht Buch-Run 142: Betriebsbefund nachgetragen (GitHub-Blocker aus Run 141 gemessen aufgeloest, Registervorgang bereits erledigt)
+- d682b6e60 nas-selfcommit: 2 Datei(en) 2026-09-08 00:15
