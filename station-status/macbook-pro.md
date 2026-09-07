@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.09.2026 17:22:19
+Stand: 07.09.2026 17:42:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:22)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:32)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 07.09.2026 17:22:19
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 7230d0b65 nas-selfcommit: 2 Datei(en) 2026-09-07 17:15
+- 45188f64f synergie-lauf 30 (07.09.2026): SYN-76 Loop bauleitung-training in drei Registern aktiv, Task existiert nicht; SYN-77 Register fuehrt 8 Skills, Auswahlregel kennt 5; Lauf 29 (SYN-73/74/75) nach NAS-Ausfall nachgetragen
