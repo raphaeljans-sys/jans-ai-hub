@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.09.2026 01:11:24
+Stand: 08.09.2026 01:21:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -16,4 +16,4 @@ Stand: 08.09.2026 01:11:24
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- f06a1b3a3 vollgas-radar 08.09.2026: verpasster Slot 07.09. 12:57 war kein Ausfall (Lauf gefeuert+gemeldet, NAS als Ausgabemedium weg) — dritter Ausfalltyp belegt; NAS-Luecke 08:45-13:30 gemessen
+- 6b8be30f2 nas-selfcommit: 2 Datei(en) 2026-09-08 01:15
