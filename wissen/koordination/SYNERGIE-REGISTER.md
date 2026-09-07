@@ -1589,7 +1589,7 @@ verdoppelt ihn, statt ihn zu schaerfen.
 
 Schreib-Kontrolle nach Rule `auto-verbesserungen` 260811: jeder Edit anker-basiert und
 in-place-eindeutig (kein globales Suchen-und-Ersetzen), alle Pfade **absolut** (SYN-67), Umfang
-vor und nach **jedem** Schreibvorgang gemessen — Register 1461 → 1510, CHANGELOG 3372 → 3408,
+vor und nach **jedem** Schreibvorgang gemessen — Register 1461 → 1594, CHANGELOG 3372 → 3452,
 `offertenpruefung` 175 → 176, `15_bauleitung-training-register.md` 24 → 41, `betrieb-chronik.md`
 3080 → 3099, `fristen.md` 5326 → 5328; **in keiner Datei eine entfernte Zeile**. Nicht per `git`
 ueber SMB gemessen.

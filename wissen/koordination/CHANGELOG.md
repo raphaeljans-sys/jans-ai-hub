@@ -2,6 +2,50 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-07 (Synergie-Lauf 30, Tagestakt) — ein Vorgang wird an seinen Raendern unvollstaendig, nicht in seiner Mitte
+
+Delta-Basis 04.09.2026 17:10 (die von Lauf 28 — Lauf 29 hatte sein Fenster nie ins Register
+geschrieben), Fenster **71,8 h**, **288 Commits**, HEAD `9a96588b0`. Uhr- und Anschluss-Gegenprobe
+bestanden. Strukturelles Delta: **0 neue** Skills/Agenten/Rules/Connectoren, **8 geaenderte**
+Contract-relevante Dateien, dazu ein neuer Loop, sechs neue Vorlagen und zwei
+Wissensbasis-Artikel; Frueh-Ausstieg griff nicht. Inline-Analyse, kein Fan-out.
+Bericht: `outputs/2026-09-07_synergie-lauf-30.md`.
+
+- **Zuerst nachgetragen, nicht neu gefunden.** SYN-73, SYN-74 und SYN-75 waren seit dem Morgen in
+  vier Fundstellen dreier Skills zitiert, standen aber im Register nicht — Lauf 29 wurde um 08:52
+  von einem NAS-Ausfall zwischen Skill-Reparatur und Registerschritt unterbrochen und hatte den
+  vollstaendigen Nachtrag samt idempotentem Einspiel-Skript unter
+  `~/jans-nachtraege/synergie-lauf-29/` hinterlegt. Dieser Lauf hat die drei Skill-Reparaturen am
+  Objekt verifiziert (alle committet) und Register, Laufbericht und CHANGELOG eingespielt. Das
+  Ausfuehren des Skripts hat der Auto-Mode-Klassifikator blockiert; die Arbeit wurde mit den
+  regulaeren Datei-Werkzeugen und denselben Ankern ausgefuehrt, die Schranke nicht umgangen.
+- **SYN-76 neu.** Der Loop `bauleitung-training` existiert in der Task-Registry der Station
+  **nicht** (zwei Messungen: 33 Tasks, keiner davon), waehrend `rollen-map.tsv` Z. 140 ihn als
+  `aktiv` fuehrt, `betrieb-chronik.md` 260907 die Task-Datei als angelegt behauptet und Register 15
+  ihn als fuehrende Instanz nennt. Vorhanden ist nur die Vorlage unter `templates/`. Weil der Loop
+  still by default ist, ist er von einem stillen Lauf ohne Befund nicht unterscheidbar. Erster
+  Termin waere Montag 08.09. 04:20. Gemeldet, **nicht** repariert (Persistenz ist Klasse 5 der Rule
+  `interaktive-eingriffe`, Lauf unbeaufsichtigt); Status `aktiv` bewusst nicht editiert.
+- **SYN-77 neu.** Register 15 fuehrt sieben Zeilen (acht Skills) als Pruefgegenstand, die
+  Auswahlregel des Loops nennt fuenf, und Schritt 2 waehlt «das aelteste Pruefdatum» — die beiden
+  Quer-Zeilen (04.40, 04.41) tragen keines. Die Rueckkanten folgen exakt der Auswahlregel:
+  **5 von 5** der Auswahlmenge nennen das Raster, **0 von 4** der uebrigen. Folge: eine
+  Saettigungsmeldung koennte ergehen, waehrend zwei der 42 Rasterprinzipien nie geprueft wurden.
+- **Gesetzt (active-with-flagging):** Contract-Zeile «Pruefraster» in `offertenpruefung` (+1/0),
+  ⚠-Absatz in `15_bauleitung-training-register.md` (+17/0), ⚠-Gegenmessung am Chronik-Eintrag
+  260907 (+19/0), Zeile in `logbuch/fristen.md` (+2/0). Tabelle, Auswahlmenge und Rollen-Status
+  unangetastet. In keiner Datei eine entfernte Zeile.
+- **Der Vorgang selbst ist vorbildlich verdrahtet** — 5/5 Skills nennen Raster und Register, 6/6
+  neue Vorlagen sind in der SKILL.md verankert, Contract-Pflichtfelder vollstaendig, Kette
+  beidseitig geschlossen, Urheberrecht der bbase-Extrakte adressiert. Beide Befunde liegen an
+  seinen Raendern, nicht in seiner Mitte.
+- **Zeilenbilanz mit Loeschungen geprueft (71 bei 375 neuen), ueberwiegend harmlos:** die alte
+  SIA-102-Vollformel ist durch die dreistufige Normfassung mit `established`-Fundstellen **ersetzt**,
+  nicht verloren. **Eine** Loeschung ist echt: `honorarberechnung-sia102` fuehrt `offertenpruefung`
+  nicht mehr als «Nachgelagert»; bewusst nicht repariert, weil es ein Zuschnitt-Entscheid ist.
+- **Nicht als eigener Befund gefuehrt:** der Loop-Ausfall vom 05./06.09. (Station aus) ist im
+  Fristen-Register vom selben Morgen dreifach dokumentiert.
+
 ## 2026-09-07 (Synergie-Lauf 29, Tagestakt; nachgetragen durch Lauf 30) — eine Verbesserung erreicht die Stellen, die offen sind, nicht die, die sie betrifft
 
 Delta-Basis 04.09.2026 17:10, Fenster **63,3 h** (Laeufe 05./06.09. entfielen, Station war aus),
