@@ -1,6 +1,17 @@
 # CHANGELOG — Wissensbasis Projekt-Lessons
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
+## 2026-09-07 — Rücklauf aus dem Audit des Bauleitungs-Harness (bbase.ch-Raster, Praxistest 2619)
+
+Report `outputs/2026-09-07_bbase-raster-audit-bauleitungsharness.md` angelegt (Rule
+`wissens-ruecklauf`): Audit von fünf Bauleitungs-Skills gegen das neue Prüfraster
+`skills/ausschreibung/wissensbasis/14_bauadministration-prinzipien.md`, Praxistest `kostenkontrolle`
+mit den Kostendaten 2619 KISPI. Verallgemeinerbar: Belegkette (Vergabeantrag, Mutation,
+Zahlungsantrag, Kontoauszug je VE) vor Erzeugnis; Angebotsbeträge nur belegt, exkl. MwSt und mit
+BKP-2017-Code in eine Kostenprognose; Kostenerwartung je Vergabestand. Kandidat für einen
+Wiki-Artikel `kostenprognose-eingaben-normieren.md`, sobald ein zweiter Projektbeleg vorliegt
+(heute n=1, deshalb nur Report). Kein Eintrag in `raw/`, Quelle sind Hub-Dateien.
+
 ## 2026-09-05 (Nachtschicht Mac Mini, Priorität 4) — RAW-Coverage-Lücke (D2) geschlossen
 
 Die seit 25.08. und 01.09.2026 zweifach gemeldete Lücke («`_INGESTED.md` kennt 12 von 14

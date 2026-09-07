@@ -97,6 +97,30 @@ Mindestens 5-7 Punkte. Mindestens 2 rote Punkte falls Vergabe nicht direkt moegl
   - Preislogik (auf bereinigter Basis)
 - **Zweitempfehlung** als Backup mit Bedingungen unter denen sie aktiviert wird.
 
+### 8a. Vergabeantrag (Freigabeblock, Pflicht vor jedem Werkvertrag)
+
+Angelegt 07.09.2026 nach dem Audit gegen `wissensbasis/14_bauadministration-prinzipien.md`
+(Prinzipien 04.23, 05.5): der Werkvertrag (Skill `werkvertrag`, Schritt 1a) wird erst nach
+diesem unterzeichneten Block ausgefertigt.
+
+| Position | CHF exkl. MwSt |
+|---|---|
+| Vertragssumme netto (Favorit nach Abgebot) | … |
+| Diverse: Regie | … |
+| Diverse: Ausmassreserve | … |
+| Diverse: Teuerung (null, wenn WV Ziff. 16 Teuerung ausschliesst) | … |
+| Diverse: Rundung | … |
+| Vergleichbare KV-Summe (Vertragssumme + Diverse) | … |
+| KV mutiert der gedeckten Konti (Skill `kostenkontrolle`) | … |
+| Differenz CHF / % | … / … |
+
+Gedeckte KV-Konti (BKP-Code und Laufnummer, Vergabeeinheit LOS-Nummer): …
+Begruendung bei Abweichung zur Empfehlung: …
+
+Ort, Datum, Unterschrift Architekt: ________________
+Ort, Datum, Unterschrift Bauherrschaft: ________________
+Beilagen: Offertvergleich (Sektion 4 und 5), Angebot des Favoriten
+
 ### 9. Verhandlungspunkte
 Nummerierte Liste fuer das Verhandlungsgespraech mit dem Erstplatzierten:
 1. Reduktion (Bandbreite gemaess Reduktionsmatrix `offertenpruefung/SKILL.md`)

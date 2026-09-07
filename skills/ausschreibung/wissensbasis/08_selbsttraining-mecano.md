@@ -66,3 +66,6 @@ Dieser Mecano wird ausgeführt:
 - automatisch begleitend bei jeder Ausschreibungs-/Bauleitungs-Aufgabe (Schritt 1–2),
 - aktiv bei der wöchentlichen Pflege (siehe [wochenplan-bauleitung.md](wochenplan-bauleitung.md)),
 - auf Zuruf: «Wissenslücken prüfen» / «Harness trainieren».
+- automatisch wöchentlich (Montag 04:20) durch den Scheduled Task `bauleitung-training`: je Lauf ein
+  Skill gegen das Prüfraster [14_bauadministration-prinzipien.md](14_bauadministration-prinzipien.md),
+  Stand im [15_bauleitung-training-register.md](15_bauleitung-training-register.md) (seit 07.09.2026).

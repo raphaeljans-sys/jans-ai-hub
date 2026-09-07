@@ -25,7 +25,13 @@ Architektur      [Architekturbuero]      T. […]  F. […]  E. […]
 
 Bauleitung       [Bauleitung]            T. […]  F. […]  E. […]
 
-Gewerk           BKP [XXX] [Gewerk]
+Vergabeeinheit   LOS [nn] [Gewerk]   (buerointerne Los-Nummer, kein BKP-Code)
+Gedeckte Konti   BKP [XXX.X] [Bezeichnung]   CHF [Anteil]
+                 BKP [XXX.X] [Bezeichnung]   CHF [Anteil]
+                 (Summe der Anteile = Vertragssumme netto; Codes nur aus
+                 references/bkp-2017/BKP-2017-Liste.md, Rule bkp-2017-referenz;
+                 ein Vertrag ohne LV wird auf dieser Stufe, Zwischentotale je Konto,
+                 geschlossen)
 
 Unternehmer      [Name / Firma]
                  [Adresse]               T. […]  F. […]
@@ -99,13 +105,21 @@ Vertrags-Summe   Netto, inkl. MwSt.                            CHF [Netto]
    Widerspruch (zu Art. 21 SIA 118): (a) einschlaegige Vorschriften Bund/Kanton/
    Gemeinde (Baupolizei, Feuerpolizei, Geruestkontrolle, Gesundheitsamt,
    Strasseninspektorat, Gewaesserschutz, SUVA); (b) diese Vertragsurkunde mit
-   speziellen objektbezogenen + ergaenzenden Bestimmungen zur SIA 118 (Vorbehalt
-   Ziff. 17); (c) LV und bereinigtes Angebot; (d) uebrige SIA-Normen; (e) OR;
+   speziellen objektbezogenen + ergaenzenden Bestimmungen zur SIA 118 (Aenderungen
+   abschliessend in Ziff. 19); (c) LV und bereinigtes Angebot (Kopie mit Favoritenpreisen,
+   Dateiname und Datum: [YYMMDD-WV-…-LV.pdf]); (d) uebrige SIA-Normen; (e) OR;
    (f) Normen anderer Fachverbaende/Unternehmerbedingungen, sofern schriftlich
    anerkannt.
 2. **Mangelhafte/unpraezise/fehlende Vertragspositionen** — vor Arbeitsbeginn in
    Absprache mit Bauleitung/Architekt praezisieren resp. nachofferieren; Ausfuehrung
    erst nach schriftlicher Genehmigung. Sonst Verguetung grundsaetzlich abgelehnt.
+   Nachtraege und Abzuege werden typisiert gefuehrt und veraendern die Vertragssumme:
+   Ergaenzung brutto (Vertragskonditionen Rabatt/Skonto gelten), Ergaenzung netto
+   (Festbetrag), Abzug brutto, Abzug netto (Minderleistungen, bauseits uebernommene
+   Positionen). Jeder Nachtrag wird mit eigenem Leistungsverzeichnis zu den Einheitspreisen
+   und Regieansaetzen dieses Vertrags offeriert und vor Ausfuehrung schriftlich beauftragt
+   (`unternehmerkontrolle/templates/nachtrag-formular.md`). Die Summen der Ergaenzungen
+   und Abzuege werden in der Schlussabrechnung getrennt ausgewiesen (Ziff. 8).
 3. **Informationspflicht des Unternehmers** — erklaert Kenntnis von Plaenen/Mustern,
    Lage, Zufahrt/Depot, oertlichen Verhaeltnissen, Werkanschluessen, Transport.
 4. **Subunternehmer / Bauhandwerkerpfandrecht** — Unternehmer garantiert, dass keine
@@ -203,8 +217,15 @@ Unterschrift: …                               Unterschrift: …
 2. Vertragssumme aus Vergabeempfehlung/bereinigtem Angebot uebernehmen (Brutto →
    Rabatt → Skonto → MwSt 8,1 % → Netto).
 3. Termine + Konventionalstrafe konkret setzen (Ziff. 22) — vergabekritisch.
-4. Garantie/Rueckbehalt: 10 % (Ziff. 8/18, Art. 181 SIA 118), Garantiefrist 2 J.,
-   Verjaehrung 5/10 J. → an `unternehmerkontrolle` (Garantieverfalldaten) uebergeben.
+4. Zwei Sicherheiten getrennt setzen: Rueckbehalt bis Abnahme 10 % des Leistungswerts,
+   ueber Fr. 300'000.– noch 5 %, min. Fr. 30'000.– (Art. 149-150); Solidarbuergschaft
+   nach Abnahme 10 % der Verguetungssumme, ueber Fr. 200'000.– noch 5 %, min.
+   Fr. 20'000.– (Art. 181); beide max. Fr. 1 Mio. Ziff. 8, Ziff. 18 und Anhang
+   «Garantieleistung» entsprechend fassen. Garantiefrist 2 J. (Art. 172), Verjaehrung
+   5/10 J. (Art. 180) → an `unternehmerkontrolle` (Garantieverfalldaten) uebergeben.
+   Werte vor dem Zitieren am Destillat pruefen (Feld status, Rule normen-referenz).
+4a. Vergabefreigabe vorhanden? Unterzeichneter Vergabeantrag (Freigabeblock der
+   Vergabeempfehlung, Sektion 8a) mit vergleichbarer KV-Summe; ohne ihn kein Vertrag.
 5. Vertragsgrundlagen-Rangordnung (Ziff. 1) + SIA-118-Aenderungen (Ziff. 19) pruefen.
 6. Als PDF (Verbindlichkeit) ausgeben, doppelt ablegen (Projektordner `…06 WV/` +
    AI-Hub-Output), Mail-Entwurf nach `10_dokumente-standard.md`.

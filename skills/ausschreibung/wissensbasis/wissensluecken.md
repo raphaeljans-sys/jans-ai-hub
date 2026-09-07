@@ -45,3 +45,26 @@ Gefüllte Projekt-LVs (per `crbx_parser.py` konvertierbar):
 
 ## NPK-Zuordnung Schreinerarbeiten / Küchen-Revision (offen, 2026-06-01)
 - LV 2620 BKP 273 (Schreiner: Kellerabteile/Lattenverschläge, Türenkontrolle, Küchenkontrolle) bewusst ohne feine NPK-Kapitel erstellt (nur "Schreinerarbeiten (Innenausbau)/Türen + SIA 118"). Gesichert: NPK 622 Türen. Offen/zu verifizieren: NPK-Kapitel für allg. Schreiner-Innenausbau (Verschläge/Gestelle) und für Küchen-Revision (BKP 258). Bei Vorliegen einer .crbx-Goldstandard-Vorlage Schreiner ergänzen.
+
+## Offene Lücken aus dem Audit gegen das Bauadministrations-Raster (07.09.2026)
+
+Quelle: `14_bauadministration-prinzipien.md` (bbase.ch-Scan), fünf Audits je Skill plus Praxistest
+`kostenkontrolle` mit den Daten 2619 KISPI. Die umkehrbaren Vorschläge sind am 07.09.2026 direkt in
+die Skills eingearbeitet (Laufbericht `training/2026-09-07_bauleitung-run0.md`); hier stehen nur die
+Punkte, die eine Entscheidung Raphaels oder Werkzeugarbeit brauchen. Status `offen`.
+
+| # | Kategorie | Lücke | Schliessungsweg | Status |
+|---|---|---|---|---|
+| L14 | Entscheid | **Vergabeantrag**: Freigabeblock Sektion 8a in der Vergabeempfehlung (heute so gebaut) oder eigenes einseitiges Formular wie im Referenzmodell? Unterschrift Bauherrschaft oder Freigabe per Mail genügend? | Entscheid Raphael; danach `werkvertrag` Schritt 1a und `kostenkontrolle` Vorlage angleichen | offen |
+| L15 | Entscheid | **SIA-118-Ausgabe im JANS-Werkvertrag** (1991 oder 2013 inkl. C1:2026) und Bezug auf das SIA-Formular 1023: Vorlage nennt keine Ausgabe, SKILL.md zitiert beide | Entscheid Raphael; Destillat der gewaehlten Ausgabe in `wissen/normen` (2013 fehlt im Hausbestand) | offen |
+| L16 | Entscheid | **Los-Nummer als Vergabeeinheit** im Vertragskopf und als Konto-Kuerzel (`211-01`) in der Baubuchhaltung: heute so gebaut, aendert den Kopf aller kuenftigen Vertraege | Bestaetigung Raphael | offen |
+| L17 | Entscheid | **KV-Ratifizierung**: ab welcher Schwelle wird der KV vom Bauherrn schriftlich ratifiziert und eingefroren (Mutationen mit Aenderungsprotokoll)? | Entscheid Raphael | offen |
+| L18 | Entscheid | **Regie im LV**: im selben LV als getrennter Teil (heute so geregelt) oder eigenes Regie-LV wie im Referenzmodell? | Entscheid Raphael | offen |
+| L19 | Werkzeug | **Mengenart (MA) im DOCX-Generator**: `tools/jans_docx.py build_lv` kennt die Spalte MA (A/B/D/E) und die Herleitungszeile noch nicht; Dokumentstandard und `_TEMPLATE.json` sind vorbereitet | Generator ergaenzen, an einem LV testen | offen |
+| L20 | Werkzeug | **Selbstdeklaration im Antwortformular**: `jans_docx.py build_antwortformular` ohne die Felder Haftpflicht, GAV, Sozialversicherungen, Subunternehmer | Generator ergaenzen | offen |
+| L21 | Entscheid | **Honorar, MwSt-Status**: Skill sagt «nicht MWST-pflichtig», K-Berechnung rechnet 8.1 %, Offerte HOP2 «exkl. MwSt», bexio AN-00037 «von Steuer befreit» | Entscheid Raphael (Stand heute und ab AG-Gruendung) | offen |
+| L22 | Entscheid | **Aufwandbestimmende Baukosten B**: Definition BKP 1 bis 4 nach Rabatt exkl. MwSt (Referenz) gegen JANS-Praxis «BKP 1/2/4/5/9 inkl. MwSt mal 70 %»; Fachplaner-Reduktion gewerkweise oder pauschal; Nachlass sichtbar ueber r | Entscheid Raphael | offen |
+| L23 | Daten | **Tarifblatt Stundenansaetze**: Herleitung aus der Betriebskostenrechnung fehlt (135 in der Berechnung, 155/160 Mitteltarif in Offerten); Zahlungsfrist 14 gegen 20 Tage | Raphael liefert Herleitung; `honorarberechnung-sia102/referenzen/260907-Stundenansaetze-JANS.md` nachfuehren | offen |
+| L24 | Vorlage | **Honorarofferte als Vertragsurkunde**: `honorarberechnung-sia102/referenzen/` ist leer; anonymisierte Kopie von 2619-HOP2 als Goldstandard ablegen | Kopie anonymisieren, ablegen | offen |
+| L25 | Wissen | **Ausschreibung**: Quelle der KV-Referenz je Los (ratifizierter KV Phase D oder Richtofferte Phase 02) fuer den Vergabeantrag | Entscheid Raphael | offen |
+| L26 | Daten | **Kostenschaetzung**: Kurzbericht ohne Genauigkeit, Preisstand, MwSt-Behandlung; ob die Wuest-Baender inkl. oder exkl. MwSt sind, steht nicht im Skill | `kostenschaetzung/SKILL.md` ergaenzen, Wuest-Quelle pruefen | offen |

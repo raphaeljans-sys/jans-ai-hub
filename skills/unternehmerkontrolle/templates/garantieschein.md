@@ -1,6 +1,7 @@
 # Garantieschein (Art. 181 SIA 118)
 
-Garantie-/Buergschaftsbeleg, 10 % der Abrechnungssumme. Reifegrad R2 —
+Garantie-/Buergschaftsbeleg, [10 | 5] % gestaffelt nach Art. 181 (Regeln in SKILL.md)
+der Abrechnungssumme. Reifegrad R2 —
 Benutzer-Muster (Seba-Metallbau-PDF im Archiv) zur Validierung heranziehen.
 
 ## Inhalt
@@ -12,7 +13,7 @@ Bauherrschaft     [Name]
 Unternehmer       [Firma, Adresse]
 Gewerk            BKP [XXX] [Gewerk]
 Abrechnungssumme  CHF [Betrag] (inkl. MwSt. 8,1 %)
-Garantiebetrag    10 % = CHF [Betrag]
+Garantiebetrag    [10 | 5] % gestaffelt nach Art. 181 (Regeln in SKILL.md) = CHF [Betrag]
 
 Der Unternehmer leistet Gewaehr fuer mangelfreie Ausfuehrung gemaess SIA Norm 118.
 Form der Sicherheit:

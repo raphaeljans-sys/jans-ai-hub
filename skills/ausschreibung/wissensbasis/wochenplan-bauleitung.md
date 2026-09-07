@@ -39,3 +39,6 @@ Unabhängig vom Schwerpunkt jede Woche:
 - Auslösen mit: «Bauleitung Wochenplan» / «nächstes Arbeitspaket».
 - Der Plan ist gleitend: erledigte Pakete abhaken, Reihenfolge nach Bedarf tauschen.
 - Nach KW 30 neu priorisieren anhand `reifegrad.py` + offenen Lücken.
+- Seit 07.09.2026 läuft die wöchentliche Pflege automatisch als Scheduled Task `bauleitung-training`
+  (Montag 04:20, Register [15_bauleitung-training-register.md](15_bauleitung-training-register.md));
+  der Wochenplan bleibt die Vorlage für interaktive Arbeitspakete.

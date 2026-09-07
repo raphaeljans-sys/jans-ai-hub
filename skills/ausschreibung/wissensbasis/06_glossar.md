@@ -31,3 +31,6 @@ Quelle: BBase-Schulungsunterlagen (W693–W696) + JANS-Praxis.
 | **Bauseits** | Leistungen, die NICHT im Auftrag des Unternehmers enthalten sind (Sanitär, Elektro, HLK …). |
 | **Richtofferte** | Unverbindliche Vorab-Offerte zur Budget-/Plausibilitätskontrolle. |
 | **«Gleichwertig»-Klausel** | «Gleichwertige Produkte zugelassen, sofern technische Spezifikationen vollumfänglich erfüllt» — juristisch wichtig bei öffentlichen Bauherren (IVöB/BöB). |
+| **Rückbehalt** | Vom Bauherrn bis zur Abnahme zurückbehaltener Anteil des Leistungswerts (SIA 118 Art. 149-150, gestaffelt 10 % / 5 %); nicht zu verwechseln mit der Solidarbürgschaft nach der Abnahme (Art. 181). Ergänzt 07.09.2026. |
+| **Vergleichbare KV-Summe** | KV-Betrag der von einer Vergabeeinheit gedeckten Konti abzüglich der Rückstellungen «Diverse» (Regie, Teuerung, Ausmassreserve, Rundung); Massstab für Vergabeantrag und Abrechnung eines Gewerks in Prozent (Referenzmodell `14_bauadministration-prinzipien.md` 04.23, 04.29). Ergänzt 07.09.2026. |
+| **Vergabeeinheit (VE), JANS-Los** | Bei JANS ist die bürointerne LOS-Nummer das VE-Kürzel (kein BKP-Code, Rule `bkp-2017-referenz`); eine VE bündelt ein oder mehrere KV-Konti zu einem Werkvertrag, ein Konto gehört nur einer VE. Ergänzt 07.09.2026. |

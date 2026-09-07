@@ -19,11 +19,45 @@ Umgesetzt im Tool `tools/jans_docx.py` (wiederverwendbarer DOCX-Baukasten).
 1. Titel `Leistungsverzeichnis — BKP <Code> <Gewerk>` + „Funktionale Ausschreibung" (falls funktional).
 2. Stammzeile: Objekt, Bauherrschaft, Anbieter, Datum.
 3. **Grundlagen des Angebots** — die realen Plan-/Dokumentengrundlagen **konkret benennen** (z.B. Objektplan, Terminplan/Grobtermine, Produktkatalog, Anordnungsskizze, Norm SIA 118).
-4. Positionsteil nach Bereichen (Pos / Bezeichnung / Menge / EH / Einheitspreis LEER / Betrag LEER).
+4. Positionsteil nach Bereichen (Pos / Bezeichnung / Menge / MA / EH / Einheitspreis LEER /
+   Betrag LEER). **Mengenart (MA) je Position deklarieren**, Codes nach SIA 451:
+   A = Vorausmass, wird nach effektivem Ausmass abgerechnet (Standard bei Flächen, Längen,
+   Massen); B = Festmenge, Menge ist Vertragsbestandteil (Stückzahlen, Apparate, Pauschalen);
+   D = Vorausmass nur auf Anweisung der Bauleitung auszuführen; E = Eventualposition ohne
+   Menge, nur Einheitspreis. Eventualpositionen (D, E) zählen nicht zur Vergleichssumme und
+   werden im Summenblock getrennt ausgewiesen. Legende der Codes einmal im LV-Kopf abdrucken.
+   **Herleitung je Menge:** bei A-Positionen die Ausmasstabelle (Anzahl x Länge x Breite x Höhe,
+   Rundung, Planquelle mit Index) als Zeile unter der Position oder als Beilage «Mengenermittlung»
+   mitgeben; keine geratenen Mengen, Unsicheres als «Menge durch UN zu prüfen» markieren.
 5. **Termine** (Lieferfrist, Montage nach Abruf, Festpreis-Gültigkeit).
 6. **Bauseitige Leistungen** (was NICHT enthalten ist).
 7. **Preisbildung und Konditionen** — netto exkl. MWST, Rabatt/Skonto durch Anbieter, **MWST 8,1 %**, „Gleichwertig"-Klausel.
 8. **Angaben des Anbieters** (Antwortblock: Firma, Total, Rabatt/Skonto, Lieferfrist, Festpreis gültig bis, Vorbehalte, Datum/Unterschrift).
+
+## Antwortformular, Pflicht-Felder (Ergänzung Selbstdeklaration)
+
+Zusätzlich zu Firma, Kontakt, Summen, Rabatt/Skonto, Lieferfrist, Preisbindung, Gewährleistung,
+Zahlungskonditionen, Referenzobjekten und Vorbehalten enthält das Antwortformular folgende
+Positionen (Vorlagentext, nummeriert, keine Bullets):
+
+| Pos. | Feld | Inhalt |
+|---|---|---|
+| 01 | Betriebshaftpflichtversicherung | Versicherer, Deckungssumme, Geltungsbereich Schweiz |
+| 02 | Selbstdeklaration GAV | Einhaltung des Gesamtarbeitsvertrags der Branche (Ankreuzfeld ja/nein) |
+| 03 | Selbstdeklaration Sozialversicherungen und Steuern | AHV/IV/EO/ALV, BVG, UVG und Steuern bezahlt (Ankreuzfeld ja/nein) |
+| 04 | Selbstdeklaration Arbeitsschutz | Keine Lohn- oder Arbeitsschutzverstösse (Ankreuzfeld ja/nein) |
+| 05 | Subunternehmer | Subunternehmer und deren Anteil an der Leistung benannt |
+| 06 | Ausländischer Sitz | Bei Sitz im Ausland zusätzlich die Felder aus `12_auslaendische-unternehmer.md` |
+| 07 | Vollständigkeit | Bestätigung «Ausschreibungsunterlagen inkl. Nachträge Nr. … vollständig erhalten» |
+
+## Drei Bestimmungsebenen, Checkliste vor Versand
+
+Jedes Dossier deckt drei Ebenen ab, jede an ihrem Ort: (1) Büro-Ebene: Allgemeine Bedingungen
+aus `05_knowhow-gewerke.md` und Konditionenmodell aus `04_konditionen.md`, in jedem LV identisch;
+(2) Objekt-Ebene: Bauherrschaft, Objekt, Bauleitung, Termine, Besichtigung, Grobtermine aus
+`projekte/<nr>.md`; (3) Gewerk-Ebene: Grundlagen des Angebots, Bauseits, Termine, Normen der
+ABB-Reihe mit Fundstelle, Hinweise und Vorbehalte im LV. Abweichungen zur SIA 118 werden auf
+Ebene 1 ausdrücklich benannt oder ausdrücklich ausgeschlossen («keine Ergänzungen zu SIA 118»).
 
 ## Begleitschreiben — Pflicht-Elemente
 

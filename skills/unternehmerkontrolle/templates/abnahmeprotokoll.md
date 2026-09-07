@@ -36,7 +36,8 @@ Anwesend         [BL: …] · [UN: …] · [BH: …]
   Die frueher geltende «sofortige» Ruegepflicht ist ueberholt. Beleg:
   `wissen/normen/destillate/sia-118-c1-2026.md` (`status: established`).
 - **Verjaehrung** 5 Jahre (10 Jahre bei absichtlich verschwiegenen Maengeln).
-- **Garantieschein/Buergschaft** 10 % der Abrechnungssumme zu deponieren
+- **Garantieschein/Buergschaft** [10 | 5] % gestaffelt nach Art. 181 (Regeln in SKILL.md)
+  der Abrechnungssumme zu deponieren
   (Art. 181 SIA 118) → `garantieschein.md`.
 - **Revisionsplaene** / Bedienungsanleitungen abgegeben: [ ] ja [ ] nein.
 - **Schlussrechnung** freigegeben nach Behebung + Garantie-Deponierung

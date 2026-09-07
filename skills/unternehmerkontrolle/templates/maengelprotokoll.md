@@ -25,6 +25,19 @@ Datum Nachkontrolle: [TT.MM.JJJJ]
 [ ] Restmaengel (Nr. …) — neue Frist: [TT.MM.JJJJ]
 ```
 
+## Rüge
+Mängelrüge je Unternehmer als Schreiben mit Kopie an die Bauherrschaft (ergänzt 07.09.2026
+nach dem Audit gegen `ausschreibung/wissensbasis/14_bauadministration-prinzipien.md`,
+Prinzipien 04.36, 05.14).
+```
+Mängelrüge Nr.      [..] vom [TT.MM.JJJJ]   an [Unternehmer], Kopie Bauherrschaft
+Mängel Nr.          [..] (aus der Tabelle oben)
+Frist zur Behebung  [TT.MM.JJJJ]
+Androhung Ersatzvornahme (Ziff. 8/14 WV)   [ ] ja
+Entdeckungsdatum bei verdeckten Mängeln    [TT.MM.JJJJ]   (60-Tage-Frist bis [TT.MM.JJJJ])
+Versand am [TT.MM.JJJJ] durch [BL]   Empfangsbestätigung [ ]
+```
+
 ## Hinweise
 - Frist verbindlich setzen; bei Fristversaeumnis Ersatzvornahme auf Kosten des UN
   (Ziff. 8/14 WV) ankuendigen.

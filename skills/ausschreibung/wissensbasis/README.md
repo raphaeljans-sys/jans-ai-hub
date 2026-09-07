@@ -33,12 +33,15 @@ bei Bedarf `.crbx`, PDF oder XLSX erzeugt.
 | [wissensluecken.md](wissensluecken.md) | **Lebende Lücken-Registry** (offen/geschlossen) |
 | [wochenplan-bauleitung.md](wochenplan-bauleitung.md) | Alternierender Wochenplan für den Harness-Aufbau |
 | [10_dokumente-standard.md](10_dokumente-standard.md) | PFLICHT-Standard LV/Begleitschreiben/Mail |
+| [14_bauadministration-prinzipien.md](14_bauadministration-prinzipien.md) | **Pruefraster** Bauadministration (42 Prinzipien, Referenzmodell BBase, Scan 07.09.2026) |
+| [15_bauleitung-training-register.md](15_bauleitung-training-register.md) | Register des Loops `bauleitung-training`: Audit-Stand je Skill, Laufjournal |
 | [grundlagen-ablage.md](grundlagen-ablage.md) | **Wohin mit Grundlagen?** Ablage-System (Projekt / NAS-Referenzen / Eingang) |
 
 ## Referenzen (Goldstandard)
 
 - `referenzen/goldstandard-lv/` — echte JANS-LVs als `.md` (aus `.crbx` konvertiert)
 - `referenzen/npk-struktur/` — Struktur-Vorbilder aus NPK 2000 (Inhalt/Preise veraltet, Struktur gueltig)
+- `referenzen/bbase-handbuecher/` — Textextrakte der oeffentlichen BBase-Handbuecher (Quelle des Rasters 14; nur interne Referenz)
 - `tools/crbx_parser.py` — SIA-451-Parser (.crbx → .md/.json)
 
 ## Quellen im Archiv (Fundgrube)

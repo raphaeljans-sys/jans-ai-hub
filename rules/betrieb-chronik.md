@@ -3065,3 +3065,16 @@ identisch gemountet ist. Hintergrund: Claude-Code-Sitzungen synchronisieren **ni
 ueber den Account (kein Pendant zum ChatGPT-Sessionsync); jede Station fuehrt ihre eigene
 Sitzung. Bis SSH steht, ist das NAS der Uebergabeweg; danach entfaellt er, weil Befehle
 direkt fern ausgefuehrt werden.
+
+## 260907 — Loop `bauleitung-training` angelegt (Scheduled Task MacBook Pro, Montag 04:20)
+
+Interaktiv, Auftrag Raphael («ergaenze den Loop»). Angelegt nach dem Scan von bbase.ch
+(31 Seiten, 15 Handbuecher) als Referenzmodell der Bauadministration. Neu auf dem NAS:
+`skills/ausschreibung/wissensbasis/14_bauadministration-prinzipien.md` (42 Prinzipien,
+Pruefraster), `15_bauleitung-training-register.md` (Audit-Stand je Skill, Laufjournal),
+`referenzen/bbase-handbuecher/` (Textextrakte, nur intern), `wissensbasis/training/`
+(Laufberichte). Task-Datei `~/.claude/scheduled-tasks/bauleitung-training/SKILL.md`, Spiegel
+unter `templates/scheduled-tasks/macbook-pro/`. Rolle sweeper im Rollen-Register. Takt
+woechentlich, still by default (Rule 260803), Abbruch nach Ertrag (Rule 260830: Saettigungssatz
+im Bericht, Ruecktaktung auf monatlich empfohlen). Umkehr: Task in der App deaktivieren,
+Registerzeile auf `erledigt` setzen; die Wissensbasis-Dateien bleiben als Referenz gueltig.

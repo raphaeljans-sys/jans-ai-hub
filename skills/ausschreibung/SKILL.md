@@ -48,6 +48,10 @@ Bevor du ein LV/Devis erstellst, nutze die destillierte Bauleitungs-Wissensbasis
                                          Versand (Leistungsschnitt SIA 102, Konsistenz-Gate,
                                          WeTransfer-Übergabe) — gilt wenn Projekt-Stammdatei
                                          den Modus setzt (z.B. 2414 Thalwil)
+    14_bauadministration-prinzipien.md ← PRUEFRASTER Bauadministration (42 Prinzipien, Referenz
+                                         bbase.ch, 07.09.2026): Vergabeeinheit, AVB/OSB/USB,
+                                         Mengenarten SIA 451, Vergabeantrag, Belegkette
+    15_bauleitung-training-register.md ← Audit-Stand je Skill, gefuehrt vom Loop bauleitung-training
     grundlagen-ablage.md              ← wohin mit Grundlagen (Input)
     wissensluecken.md                 ← LEBENDE Luecken-Registry (bei Unsicherheit eintragen!)
     wochenplan-bauleitung.md          ← alternierender Wochenplan
@@ -55,6 +59,7 @@ Bevor du ein LV/Devis erstellst, nutze die destillierte Bauleitungs-Wissensbasis
     goldstandard-lv/              ← echte JANS-LVs als .md (221/228/271/272/281/282/285) — FORMAT-VORBILD
     npk-struktur/                 ← NPK-2000-Gliederung (nur Struktur, Preise 1996 veraltet)
     produkt-kataloge/             ← Hersteller-Kataloge/Referenzofferten je Gewerk (z.B. RENZ)
+    bbase-handbuecher/            ← Textextrakte BBase-Handbuecher (Quelle Raster 14, nur intern)
   tools/
     jans_docx.py                  ← Wiederverwendbarer DOCX-Baukasten (Layout, Seitenzahlen,
                                      korrekte Adresse, Standard-Begleitschreiben) — FUER DOKUMENTE NUTZEN
@@ -202,6 +207,26 @@ bash /Volumes/daten/jans-ai-hub/scripts/docx2pdf.sh <ordner>   # Batch: alle *.d
 Lock-sicher (Parallel-Laeufe), mit Retry und Output-Verifikation (Exit-Code != 0 bei Fehlschlag).
 
 ### Phase 2: Versand
+
+**Versand-Gate (PFLICHT, jeder Modus):** Vor dem Erzeugen der Mail-Drafts läuft das
+Konsistenz-Gate aus `wissensbasis/13_uebergabe-bauleitung.md` Ziff. 4 (Plan ↔ LV in beide
+Richtungen, Mengen nachvollziehbar, Materialisierung eindeutig, Bauseits-Abgrenzung, Plan-Stand
+einheitlich, Identifikatoren verifiziert, Korrektur-Harness gelaufen). Es gilt nicht nur im
+Übergabe-Modus. Erst wenn alle Punkte grün sind, wird das Paket erzeugt.
+
+**Eingefrorene Ausschreibung:** Mit dem Versand ist der Stand des Dossiers fixiert (Datum und
+Index im Dateinamen, PDF ist der Verbindlichkeitsstand). Nach dem Versand wird das LV nicht mehr
+verändert. Ergänzungen, Korrekturen und Fragenbeantwortungen gehen als nummerierter
+«Ausschreibungs-Nachtrag Nr. n vom <Datum>» gleichzeitig an alle Anbieter und werden im
+Versand-Ordner abgelegt; beim Eingang wird je Offerte festgehalten, welcher Nachtrag-Stand
+bepreist wurde (Phase 3, Schritt 1).
+
+- Submittentenliste des Loses (Shortlist aus `unternehmerfindung`, 3 bis 6 Anbieter) vor dem
+  Versand mit der Bauherrschaft bereinigen: gesetzte Anbieter, ausgeschlossene Anbieter,
+  Mindestzahl Offerten. Rückmeldung als Datum und Kanal in der Projekt-Stammdatei festhalten
+  («Submittentenliste LOS <nr> freigegeben <Datum>, per Mail/Sitzung»). Ohne diesen Vermerk
+  kein Versand. Die freigegebene Liste ist zugleich der Spaltenkopf der Vergleichsmatrix
+  (Phase 3): jeder Eingeladene erscheint dort, auch mit «kein Eingang».
 - Pro Anbieter: Anschreiben + LV + Antwortformular + Beilagen (Plaene)
 - Apple Mail Drafts erzeugen (CC: Bauleitung, einheitlicher Betreff)
 - SharePoint-Ablage `<Projekt>/02_Korrespondenz/.../Submission/Versand/<Datum>-<Anbieter>/`
@@ -243,6 +268,11 @@ Wird nach Eingabefrist gestartet. Konkreter Ablauf:
      8. Empfehlung der Vergabe (Erstplatzierung + 4-5 Begruendungspunkte + Zweitempfehlung als Backup)
      9. Verhandlungspunkte (nummerierte Liste fuer das Gespraech mit dem Erstplatzierten)
      10. Naechste Schritte (Aktionen, Verantwortliche, Termine)
+   - **Sektion 8a Vergabeantrag** (Freigabeblock mit vergleichbarer KV-Summe = Vertragssumme plus
+     Diverse Regie/Ausmassreserve/Teuerung/Rundung, Unterschriften Architekt und Bauherrschaft) ist
+     Pflicht; ohne unterzeichneten Block kein Werkvertrag (Skill `werkvertrag`, Schritt 1a). KV-Betrag
+     nie schätzen: fehlt die Quelle, Platzhalterlinie und Rückfrage. Referenz
+     `wissensbasis/14_bauadministration-prinzipien.md` 04.23.
    - Mindest-Umfang 5-8 A4-Seiten; unter 4 zu duenn, ueber 10 lieber Anhaenge auslagern
    - Beilagen: Vergleichsmatrix (xlsx), Factsheets pro Anbieter (md)
    - **Goldstandard-Beispiel**: `30 JANS AI HUB OUTPUT/submission/2619-kispi-gastrokueche/auswertung/260513_Vergabeempfehlung_KISPI_Gastrokueche.pdf`
@@ -282,7 +312,16 @@ Pro Bereich:
 ...
 ```
 
-Spalten: Pos-Nr / Bezeichnung / Menge / Einheit / Einzelpreis (LEER) / Gesamtpreis (LEER) / Bemerkung
+Spalten: Pos-Nr / Bezeichnung / Menge / MA (Mengenart A/B/D/E, siehe 10_dokumente-standard.md) / Einheit / Einzelpreis (LEER) / Gesamtpreis (LEER) / Bemerkung
+
+**Ausmass und Regie getrennt führen.** Regieleistungen (Stundenansätze nach Berufskategorie,
+Maschinen, Material mit Zuschlag) stehen in einem eigenen LV-Teil «Regiearbeiten» am Ende des
+Dokuments, mit Budgetbetrag als Vorausmass (MA = A) und dem Vermerk «Abrechnung nach
+bewilligten Regierapporten». Der Regieteil wird im Summenblock getrennt ausgewiesen und zählt
+nicht zur Vergleichssumme des Offertvergleichs; verglichen werden die Regieansätze in einer
+eigenen Zeile der Konditionen-Tabelle. Im Werkvertrag wird der Regiebetrag als Rückstellung
+(«Diverse») geführt, nicht als Vertragssumme. Bei reinen Regieaufträgen entsteht ein eigenes
+LV ohne Ausmasspositionen.
 
 ## Anbieter-Stammdaten
 
@@ -397,6 +436,7 @@ Hier gehoeren hin:
   Vergabeart; nie offenlegen, wer/wie viele eingeladen sind; Dokumente generisch («der
   Anbieter»), nicht auf einen Lieferanten zugeschnitten; keine Verweise auf Bestandsverträge
   oder KBOB. Sachliche Schnittstellen-Anforderungen erlaubt.
-- **Submittentenlisten** (Regel 260601): 3 Unternehmen je Gewerk, Gewerk-Blöcke klar
+- **Submittentenlisten** (Regel 260601): mindestens 3 Unternehmen je Gewerk (3 bis 6 gemäss
+  Phase 2, mit der Bauherrschaft bereinigt), Gewerk-Blöcke klar
   getrennt, je Firma Kontaktperson/E-Mail/Telefon (Platzhalterlinie statt raten), Abgleich
   gegen den realen Postausgang vor Fertigstellung.

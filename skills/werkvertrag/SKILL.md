@@ -37,6 +37,9 @@ Der Werkvertrag teilt die zentrale Bauleitungs-Wissensbasis im Skill `ausschreib
   04_konditionen.md                       ← Abzuege, Skonto, MWST 8,1 %
   06_glossar.md                           ← Fachbegriffe
   wissensluecken.md                       ← bei Unsicherheit eintragen (Mecano)
+  14_bauadministration-prinzipien.md      ← Pruefraster Bauadministration (Referenz bbase.ch,
+                                             07.09.2026): fuer Phase G die Prinzipien 04.17,
+                                             04.23 bis 04.29; Audit-Stand in 15_bauleitung-training-register.md
 ```
 
 Vorlage in diesem Skill:
@@ -61,8 +64,22 @@ Aufwand → Kostendach) und mit Default vorschlagen.
 
 1. **Stammdaten** ziehen (Objekt, Bauherr, Architektur, Bauleitung, Unternehmer,
    BKP) — aus Projektordner / Skill `stammdaten`.
-2. **Vertragssumme** aus Vergabeempfehlung/bereinigtem Angebot: Brutto → Rabatt →
-   Skonto → MwSt 8,1 % → Netto.
+1a. **Vergabefreigabe pruefen (Gate)** — kein Vertrag ohne unterzeichneten Vergabeantrag.
+   Der Vergabeantrag (Beilage: Offertvergleich/Vergabeempfehlung) stellt die Vertragssumme
+   netto der **vergleichbaren KV-Summe** gegenueber: KV-Betrag der gedeckten Konti abzueglich
+   der Rueckstellungen fuer Regie, Teuerung und Ausmassreserve. Er traegt die Unterschriften
+   von Architekt UND Bauherrschaft. Fehlt er, zuerst den Freigabeblock der Vergabeempfehlung
+   (`ausschreibung/templates/vergabeempfehlung_template.md`, Sektion 8a) erstellen und die
+   Freigabe abwarten. Quelle: `14_bauadministration-prinzipien.md` 04.23 und 05.5
+   (ergaenzt 07.09.2026, Audit gegen das Bauadministrations-Raster).
+2. **Vertrags-LV als Kopie anlegen, Original einfrieren.** Das bereinigte Angebot bzw. der
+   Offertvergleich mit den Favoritenpreisen (Abgebot eingerechnet) wird als Kopie
+   `YYMMDD-WV-<projektnr>-LOS<nn>-LV.pdf` in `…06 WV/` abgelegt; das Original in
+   `…04 Offerte UN/` und `…05 Vergabe/` wird nie veraendert. Die Zusammenstellung zieht
+   Brutto → Rabatt → weitere Abzuege (Baureinigung, Baustrom, Bauwasser gemaess
+   `04_konditionen.md`) → Skonto → MwSt 8,1 % → Netto aus dieser Kopie, nicht aus dem
+   Gedaechtnis. Vertragsbestandteil (c) in Ziff. 1 nennt Dateiname und Datum der Kopie
+   (Prinzip 04.24).
 3. **Verguetungsmodell** waehlen, passenden Verguetungstext einsetzen.
 4. **Termine + Konventionalstrafe** konkret setzen (Ziff. 22) — vergabekritisch,
    nie als Platzhalter stehen lassen.
@@ -85,10 +102,22 @@ Aufwand → Kostendach) und mit Default vorschlagen.
    Run 47) — dieses Destillat nennt diesen Skill an erster Stelle als Abnehmer. Der Wortlaut
    steht seit Run 32 (14.08.2026) in `templates/werkvertrag-vorlage.md` Z. 123-126; hier
    nachgezogen, damit der Ablaufschritt ihn fuehrt und nicht erst das Dokument.
-6. **PDF** erzeugen (Verbindlichkeit), **doppelt ablegen** (Projektordner
-   `…06 WV/` + AI-Hub-Output), **Mail-Entwurf** nach `10_dokumente-standard.md`.
-7. **Uebergabe an Phase H**: Garantieverfalldaten, Termine, Regieansaetze und
-   Kostendach-Vorgaben an `unternehmerkontrolle` weiterreichen.
+6. **PDF erzeugen und mit Vertragsbrief versenden.** Der Werkvertrag erhaelt nach dem Kopf
+   ein Inhaltsverzeichnis (Zusammenstellung, Verguetung, Allgemeine Bedingungen, Angaben des
+   Unternehmers, Beilagen mit Dateinamen). Zwei Vertragsbriefe (Briefkopf gemaess
+   `10_dokumente-standard.md`): an den Unternehmer mit Arbeitsgattung, Exemplarzahl und
+   **Ruecksendefrist** fuer das unterzeichnete Exemplar (Vorschlag 10 Arbeitstage), an die
+   Bauherrschaft mit derselben Frist zur Gegenzeichnung. Beide als Apple-Mail-Entwurf,
+   Versand erst nach Freigabe. **Doppelt ablegen** (Projektordner `…06 WV/` + AI-Hub-Output).
+   (Prinzipien 02.10, 03.6.)
+7. **Uebergabe an Phase H und I**: an `unternehmerkontrolle` Garantieverfalldaten, Termine,
+   Regieansaetze und Kostendach-Vorgaben; an `kostenkontrolle` je gedecktem KV-Konto die
+   Vertragssumme (Spalte Vertrag) und daneben die **Rueckstellungen «Diverse»** (Spalte
+   Diverse: Regie, Ausmassreserve, Rundung, Teuerung), zusammen die vergleichbare KV-Summe
+   (Spalte Total). Bei Einheitspreisvertraegen die Ausmassreserve immer beziffern (Vorschlag
+   aus dem Vergabeantrag), bei Pauschal null, bei Kostendach die 5-%-Toleranz als Reserve
+   fuehren. Schliesst die Vorlage (Ziff. 16) Teuerung aus, ist die Teuerungsrueckstellung
+   null und wird so ausgewiesen, nicht weggelassen (Prinzipien 04.27, 04.29).
 
 ## Regeln
 

@@ -22,7 +22,9 @@
     {
       "bereich": "Bereichstitel",
       "items": [
-        {"pos": "273.10", "bez": "Bezeichnung", "menge": "1", "einheit": "Stk", "spez": "optionaler Vermerk"}
+        {"pos": "273.10", "bez": "Bezeichnung", "menge": "1", "einheit": "Stk", "spez": "optionaler Vermerk",
+         "ma": "A",
+         "herleitung": "optional — Mengenherleitung (Anzahl x Laenge x Breite x Hoehe, Rundung, Planquelle mit Index); ma = Mengenart A/B/D/E nach SIA 451, Default A"}
       ]
     }
   ],

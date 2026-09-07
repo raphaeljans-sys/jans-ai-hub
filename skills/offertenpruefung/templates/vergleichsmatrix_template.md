@@ -24,6 +24,20 @@ Fuer die formelle Empfehlung an die Bauherrschaft: immer **DOCX/PDF**.
 
 Bei mehr als zwei Anbietern: pro zusaetzlichem Anbieter zwei Spalten (EP, GP).
 
+Zusätzliche Bezugsspalten (Pflicht, sobald ein KV oder eine Richtofferte vorliegt):
+
+| … | KV/Richtpreis EP | Favorit EP | Abw. Favorit % |
+
+- **KV/Richtpreis**: Einheitspreis aus dem Kostenvoranschlag (Phase D) oder der Richtofferte
+  (Phase 02), Quelle in der Kopfzeile nennen; fehlt beides, Spalte leer lassen und im Bericht
+  als «kein Budgetbezug» ausweisen. Vergleich mindestens auf Bereichs- und Gesamttotal.
+- **Favorit**: der nach Bereinigung erstplatzierte Anbieter ist die Bezugsspalte; die
+  Abweichung der übrigen Anbieter wird je Position in Prozent zum Favoriten geführt.
+- **Abweichungsfilter**: Positionen mit mehr als 20 % oder mehr als 2'000 CHF Abweichung zum
+  Favoriten oder zum KV werden in einer eigenen Liste «Auffällige Einheitspreise» ausgewiesen
+  und im Unternehmergespräch je Position geklärt (zu tief = Ausführungsrisiko, zu hoch =
+  Verhandlungspunkt).
+
 ## Plichtfelder pro Zeile
 
 - **Pos.**: Eindeutige Positionsnummer aus dem Leistungsverzeichnis (LV). Bei abweichender Nummerierung zwischen Anbietern: LV-Pos. als Master, in Bemerkung den abweichenden Bezug ("bei Gastro als 4.01 gefuehrt").
@@ -61,6 +75,13 @@ Folgende Zeilen mindestens:
 5. Zwischentotal
 6. Lieferung / Montage / Inbetriebnahme
 7. **Gesamttotal exkl. MwSt** (fett)
+
+## Abgebotsrunde (neutrale Übersicht)
+
+Wird nach der Bereinigung mehr als ein Anbieter zum Abgebot eingeladen, entsteht eine
+Übersichtstabelle: Rang | Anbieter | Angebot netto | Abgebot netto | Nettobetrag nach Konditionen
+| Bemerkung. Alle Eingeladenen erhalten dieselbe Frist und dieselbe Frage; Beträge anderer
+Anbieter werden nie offengelegt (Regel 260626). Die Tabelle ist Beilage der Vergabeempfehlung.
 
 ## Pflicht: Bereinigte Schaetzung
 
