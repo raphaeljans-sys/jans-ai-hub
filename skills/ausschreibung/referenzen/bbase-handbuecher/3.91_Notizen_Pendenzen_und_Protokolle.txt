@@ -1,0 +1,163 @@
+            Kostenplanung Notizen, Pendenzen und
+               Ausführung Protokolle
+                                Informationen strukturiert erfassen                                            3.91
+           Kostenkontrolle
+
+
+          Honorar, Auftrag
+
+
+
+
+                                Im Arbeitsalltage fallen immer wieder wichtige Informationen oder
+                                Entscheidungen an. Diese sind oft zum Zeitpunkt des Auftretens noch nicht
+                                relevant, sie müssen aber für die spätere Verwendung festgehalten werden.
+                                Das kann auf die unterschiedlichsten Arten gemacht werden.
+
+
+                                Methoden
+
+                                Oft ist es so, dass Informationen, die erst zu einem späteren Zeitraum
+                                benötigt werden, auf einer oder gar mehreren Aufgaben-, Pendenzen-
+                                oder einer anders genannten Liste geführt werden. Vielfach gibt es sogar
+                                mehrere parallel geführte Listen, was den Überblick erschwert. Beliebt ist
+                                auch die Methode, wichtige Punkte auf Post-it-Heftnotizen zu vermerken
+                                und an den Bildschirm zu kleben. Weniger wichtige, persönliche Aufgaben
+                                werden zudem häufig auch auf Fresszetteln geführt.
+
+
+                                Probleme
+
+                                Im Idealfall werden die Listen auf einer zentralen Datenablage geführt, so
+                                dass alle Mitarbeiter jederzeit Zugri! auf die Informationen haben. Oft
+                                werden die Listen aber auch lokal gespeichert und nur der jeweilige
+                                Mitarbeiter hat Zugri! darauf. Gibt es mehrere Listen, ist die Gefahr gross,
+                                den Eintrag in die falsche Liste zu machen und zum relevanten Zeitpunkt
+                                daher zu übersehen. Von den möglichen (Verlust-) Problemen der Post-it-
+                                Haftnotizen und den Fresszetteln sprechen wir hier gar nicht.
+                                An diesem Punkt setzt das Modul Notizen, Protokolle und Pendenzen’.
+
+
+                                Lösung von BBase
+
+Strukturierte Informationen     In BBase werden anfallende Projektinformationen innerhalb der
+                                bestehenden BBaseProjektverwaltung zentral und vor allem strukturiert als
+                                sogenannte Aktennotizen erfasst. Dabei sind Zuordnungen der
+
+
+                6. April 2023   © PMS Informatik AG CH-8408 Winterthur www.bbase.ch
+                              Informationen zu Phase, Bauteil/Lage, Vergabeeinheit und Konto/BPK
+                              möglich.
+  Anzeige der Informationen   Die Aktennotizen können jederzeit in einer Liste angezeigt werden. Durch
+                              Filtern der Zuordnungen werden die Einträge auf die gewünschten
+                              Informationen eingegrenzt.
+                              Jeder Mitarbeiter hat so bei der täglichen Arbeit schnellen Zugriff auf alle
+                              notwendigen Informationen.
+                 Protokolle   Eine Projektinformation kann einem Traktandum einer Besprechung
+                              zugeordnet werden, sodass automatisierte Protokolle erstellt werden
+                              können.
+Aufgabe/Pendenz hinzufügen    Jeder erfassten Aktennotiz können verschiedene Aufgaben zugeordnet
+                              werden, die intern erledigt werden müssen. Den Aufgaben werden die
+                              Zuständigkeit, die Priorität und ein Termin zugeordnet.
+            Pendenzenliste    Dem Mitarbeiter werden seine individuellen Aufgaben in einer
+                              Pendenzenliste präsentiert. Zu jeder Pendenz schreibt er nach Erledigung
+                              eine Bemerkung und setzt den Status der Pendenz auf ‘erledigt’. Die
+                              Projektleitung hat damit eine Übersicht über offene und erledigte
+                              Aufgaben.
+
+
+                              Beispiel innerhalb BBase
+
+                Information   Bereits an der ersten Sitzung mit der Bauherrschaft äussert diese den
+                              Wunsch, eine Küchenabdeckung aus Andeerer Granit im neuen Haus
+                              einzubauen.
+                              Diese Information ist zu diesem frühen Zeitpunkt zwar noch nicht relevant,
+                              wird aber trotzdem als BBaseAktennotiz mit den entsprechenden
+                              Zuordnungen erfasst (siehe Dialog im unten stehenden Bild).
+            Auswahl-Listen    Im Dialog ‘Projektinformation erfassen’ werden vorgegebene Auswahl-
+                              Möglichkeiten in speziellen Listenfeldern dargestellt, die bei einer
+                              Texteingabe automatisch die zugehörigen Einträge filtert. Die Zuordnung
+                              ist so mit der Eingabe weniger Buchstaben (z.B. ‘Kü’ im Feld ‘Konto/BKP’)
+                              erledigt
+
+
+
+
+                              3.91 Notizen, Pendenzen und Protokolle                                Seite 2/4
+         Dokumente      Zusätzlich zur Beschreibung können Dokumente wie Bilder, Text-
+                        Dokumente oder Emails die Information vervollständigen.
+       Aktualisierung   Sämtliche Eingaben können jederzeit geändert resp. aktualisiert werden.
+                        Durch die zentrale Speicherung werden die Änderungen automatisch an
+                        alle Mitarbeiter “verteilt”.
+Infos zusammentragen    Der Mitarbeiter, der die Küche projektiert, lässt sich in BBase zum
+                        entsprechenden Projekt alle bereits erfassten Informationen zum BKP ‘258
+                        Kücheneinrichtungen’ anzeigen.
+                        Er weiss damit, dass er die spezielle Granitabdeckung in seine Planung
+                        miteinbeziehen muss.
+
+
+
+
+  Aufgabenverteilung    Mit dem Befehl ‘Pendenz hinzufügen’ kann er nun Aufgaben erfassen, die
+                        andere Mitarbeiter für Ihn erledigen sollen, z.B. die Produktsuche und die
+                        Preisabklärungen für die Granit-Küchenabdeckung.
+
+
+
+
+      Pendenzenliste    Sobald der Mitarbeiter Hans Muster (HMu) seine Liste der aktuellen
+                        Pendenzen anschaut, wird ihm die neue Aufgabe angezeigt.
+
+
+
+
+                        3.91 Notizen, Pendenzen und Protokolle                               Seite 3/4
+                   Unter ‘Pendenz’ sieht er seine Aufgaben, die er zu erledigen hat.
+                   Resultate seiner Abklärungen fügt er der Pendenz bei und bestätigt den
+                   Abschluss mit ‘Als erledigt markieren’.
+                   Der Verfasser der Pendenz, in diesem Fall der Planer der Küche, erhält eine
+                   Meldung, dass die Aufgabe erledigt ist und kann auf die neuen
+                   Bemerkungen und Dokumentationen direkt zugreifen.
+
+      Einladung    Für die nächste Sitzung muss nun noch eine Einladung mit Traktanden
+                   vorbereitet werden. Dazu wird vorgängig ein Protokollkopf erfasst. Dieser
+                   enthält allgemeine Angaben wie Titel, Thema, Zeit und Ort oder
+                   Teilnehmer. Anschliessend können die notwendigen Traktanden erfasst
+                                                            werden.
+                                                            Traktanden können dabei
+                                                            entweder Aktennotizen oder
+Traktandenliste                                             einfache Traktandenpunkten (nur
+bearbeiten                                                  Text) enthalten. Um nicht jedes
+                                                            mal von vorne beginnen zu
+                                                            müssen, kann ein bestehendes
+                                                            Protokoll als Vorlage
+                   abgespeichert werden. Diese Vorlage kann bei der Erstellung der Einladung
+                   oder eines Protokolls als Grundlage benutzt werden.
+
+       Protokoll   Während oder nach der Sitzung können dann Kommentare und Pendenzen
+                   bei den einzelnen Traktanden ergänzt werden.
+
+
+
+                                                                   Fertiges Protokoll
+
+                                                                   Traktandum mit Unterpunkten
+
+
+
+
+                   Sowohl die Einladung als auch das Protokoll können entweder ausgedruckt
+                   oder im Gruppen- oder Einzelversand direkt aus BBase per E-Mail
+                   versendet werden.
+
+
+
+
+                                                                               Versand per E-Mail
+                                                                               als PDF-Anhang
+
+
+
+
+                   3.91 Notizen, Pendenzen und Protokolle                               Seite 4/4
+

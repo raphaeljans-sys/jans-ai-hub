@@ -1,0 +1,586 @@
+                     Unternehmerkontrolle
+ Kostenplanung
+                     Werkvertrag, Ausmass und
+    Ausführung       Schlussrechnung
+                                                                                               5.66
+ Kostenkontrolle
+
+
+Honorar, Auftrag
+
+
+
+
+                     Mit BBaseUnternehmer wird der Werkvertrag, die Unternehmerkontrolle für
+                     die Abrechnung und die Schlussrechnung mit Beurteilung erstellt.
+                     Grundlage bildet die Ausschreibung und der O ertvergleich, welcher mit
+                     BBaseAusschreibung erstellt wurde.
+
+                     Als Ergänzung dient das Programm BBaseBaubuchhaltung, welches
+                     zusammen mit BBaseKostenvoranschlag die Grundlage der Budgetkontrolle
+                     bildet. Damit werden KV, Vergebung und Zahlungen verglichen und
+                     Protokolle für Mehr- / Minderkosten erstellt.
+
+
+
+
+     25. Juni 2024   © PMS Informatik AG CH-8408 Winterthur www.bbase.ch
+
+
+                                 ff
+BBase
+© PMS Informatik AG Alle Rechte vorbehalten
+
+Betriebsanleitung, Handbücher und Software sind urheberrechtlich
+geschützt. Das Kopieren, Vervielfältigen, Übersetzen oder Umsetzen in
+irgendein elektronisches Medium oder Maschinen lesbare Form im Ganzen
+oder in Teilen ohne vorherige schriftliche Genehmigung von PMS Informatik
+AG ist nicht gestattet. Alle weiteren Rechte an der Software sind in den
+mitgelieferten Lizenzbestimmungen festgelegt.
+
+PMS Informatik AG, Riedhofstrasse 53, CH-8408 Winterthur
+Fon +41 44 948 12 14
+Mail Info@pmsag.ch , Internet www.pmsag.ch
+
+
+
+
+Vorwort
+Dieses farbig gestaltete PDF-Dokument bietet Anweisungen zur
+Anwendung des Programms BBaseUnternehmerkontrolle.
+
+Das vorliegende Benutzerhandbuch bietet neben methodischen
+Erklärungen auch Kurzanleitungen für Fortgeschrittene, ausführliche
+Anweisungen für das Erstellen eines neuen Dokumentes und detaillierte
+Anleitungen zur Arbeitstechnik.
+
+Wird im Bericht der Architekt erwähnt, so gilt die Benennung auch für die
+Architektin.
+
+Bevor Sie sich mit diesem Dokument befassen emp ehlt es sich, das
+beiliegende Beispiel und die Grundlagen im Quellen- und
+Literaturverzeichnis zu studieren.
+
+
+Winterthur, 25. Juni 2024
+
+
+
+
+5.66 BBaseUnternehmerkontrolle- Vorwort                              Seite 2/29
+
+
+                                               fi
+     Inhalt
+     Das vorliegende Handbuch soll für Anfänger und Fortgeschrittene
+     Informationen enthalten, welche die Anwendung der BBaseWerkzeuge
+     unterstützen. Die einzelnen Kapitel enthalten dafür folgende Beschriebe.
+
+
+     1 Einführung                                                                  4
+     1.1 Methode                                                                    4
+
+     1.2 Konzept                                                                    4   5.66
+
+
+
+                                                                                        Inhalt
+     3 Anhang                                                                      8
+     3.1 Quellen und Literaturhinweise                                              8
+
+     3.2 Begri e und Abkürzungen                                                    8
+
+     3.3 Beispiel der Unternehmerkontrolle                                         13
+
+
+
+
+     5.85 BBase???- Inhalt                                            Seite 3/29
+
+
+ff
+                         1 Einführung
+                                Dieses Kapitel enthält allgemeine Infos zum Thema Unternehmerkontrolle
+                                am einfachen Beispiel. Zudem wird der Aufbau und Inhalt der
+                                Arbeitsmappe und ergänzende BBaseWerkzeuge beschrieben.
+
+
+                       1.1 Methode
+                         Ziel   Erstellen eines Werkvertrages mit Grundlagen aus der Ausschreibung und
+                                dem O ertvergleich. Kostenkontrolle im Vertrag mit Erfassen von                   1
+                                Nachträgen und Ausmass als Basis für die Abrechnung. Erstellen der
+                                Schlussrechnung mit Garantieschein, Anforderung und Beurteilung des
+                                Unternehmers und der Bauleitung.
+
+
+
+
+                                                                                                                  Einführung
+                 Werkvertrag    Übernahme der Einleitung und Leistungsverzeichnisse aus der
+                                Ausschreibung für das Erstellen des Werkvertrages. Versand der Verträge
+                                mit Begleitbrief.
+
+       Unternehmerkontrolle     Mit erfassen von Nachträgen (Ergänzungen) und Abzügen (Brutto oder
+                                Netto) kann die Vertragssumme verändert werden. Mit Hilfe von Ausmassen
+                                wird der Vergleich zwischen Vertrag und Abrechnung erstellt und der
+                                Restbetrag berechnet.
+
+            Schlussrechnung     Mit den erfassten Grundlagen wird die Schlussabrechnung mit Begleitbrief
+                                für den Garantieschein erstellt. Das Formular mit der Beurteilung des
+                                Unternehmers und der Bauleitung sorgt für das notwendige Feedback.
+
+
+
+                       1.2 Konzept
+     Begleitbrief zum Vertrag   Der Begleitbrief für den Versand der Werkverträge enthält Eingabetermin
+                                und Arbeitsgattung und ist an den Bauherrn und Unternehmer adressiert.
+
+     Deckblatt, Bedingungen     Das Deckblatt des Werkvertrages enthält die Nettosumme, das
+               und Hinweise     Inhaltsverzeichnis und den Bereich für die Unterschriften der Beteiligten. Es
+                                kann vom Benutzer angepasst werden. Ergänzt wird der Vertrag mit
+                                Unternehmerblatt, Hinweisen, Struktur und dem Konditionenmodell der
+                                Ausschreibung.
+
+       Unternehmerkontrolle     Die Unternehmerkontrolle basiert auf dem Werkvertrag und wird aus der
+                                Werkvertragsdatei erstellt.
+
+
+
+
+                                5.85 BBaseUnternehmerkontrolle - Einführung                          Seite 4/29
+
+
+ff
+Dialog für die Erstellung der
+Unternehmerkontrolle
+
+
+
+
+    Leistungsverzeichnisse      Die aktuellen Leistungsverzeichnisse bilden die Grundlage der detaillierten
+                                Kostenkontrolle. Ohne Leistungsverzeichnisse erfolgt der Vergleich in der
+                                Auswertung auf Kapitelebene.
+
+                    Ausmass     Im Leistungsverzeichnis werden die Ausmasse und Nachträge erfasst.
+
+Dialog für die Ausmass
+Erfassung
+
+
+
+
+                                5.85 BBaseUnternehmerkontrolle - Einführung                        Seite 5/29
+Dialog für die Erfassung
+eines Nachtrags
+
+
+
+
+                           Nachträge zum Werkvertrag (Ergänzungen) und Abzüge werden
+                           protokolliert und in der Auswertung angezeigt.
+
+Darstellung im
+Leistungsverzeichnis
+
+
+
+
+  Auswertung Vertrag und   In der Auswertung werden Kapitel zusammengefasst und Abschnitte
+             Abrechnung    sind summiert. Der Vergleich vom Vertrag und Abrechnung wird in Prozent
+                           angezeigt. Die Auswertung erfolgt für Kapitel, Abschnitt und Total aller
+                           Leistungsverzeichnisse. Die Summen der Ergänzungen und Abzüge werden
+                           aufgeführt.
+
+
+
+
+                           5.85 BBaseUnternehmerkontrolle - Einführung                     Seite 6/29
+Auswertung der
+Zusammenfassung mit
+Vergleich Werkvertrag
+und Abrechnung
+
+
+
+
+     Schlussrechnung und     Die Schlussrechnung als Resultat aller Einträge (Werkvertrag, Nachträge,
+               Beurteilung   Ausmasse, Zahlungen) bildet die Grundlage für das Berechnen des
+                             Garantiescheines nach SIA 118. Alle Informationen werden in einem Brief
+                             zusammengefasst, welcher dem Unternehmer zur Gegenzeichnung
+                             übergeben werden kann.
+
+               Beurteilung   Zusammen mit der Schlussrechnung kann eine Beurteilung des
+                             Unternehmers ausgefüllt werden. Ein Formular für die Beurteilung der
+                             Bauleitung welche vom Unternehmer ausgefüllt wird, sorgt für das
+                             notwendige Feedback.
+
+                Siehe auch   5.51 Ausschreibung - O ertvergleich und Werkvertrag
+                             5.61 Budgetkontrolle - Kostenvoranschlag und Baubuchhaltung
+
+
+
+
+                             5.85 BBaseUnternehmerkontrolle - Einführung                       Seite 7/29
+
+
+                                                     ff
+          3 Anhang
+                 Im Literaturverzeichnis sind einige Informationsquellen aufgeführt
+                 welche zusammen mit dem gedruckten Beispiel grundlegende Hinweise
+                 zur Unternehmerkontrolle enthalten.
+
+
+       3.1 Quellen und Literaturhinweise
+                 BBaseAusschreibung entspricht in weiten Teilen den Grundlagen des CRB,
+                 SIA und IPBau. Das vorliegende Programm orientiert sich unter anderem an
+                                                                                                3
+                 den entsprechenden Unterlagen.
+
+     Literatur   Bauen nach Smart 1998 ISBN 3-7643-5923-4
+
+
+
+                                                                                                Anhang
+                 Kompass - Die Integrale Plattform für die Bauwirtschaft KTI-Projekt 3547.1
+                 1998
+
+                 SIA 118 Allgemeine Bedingungen für Bauarbeiten
+                 SIA 1023 Werkvertrag
+                 SN 509 450 - SIA 450 Kosteninformation
+                 SN 509 451 - SIA 451 1989 inkl. Merkblatt 2004
+                 Datenverbund SIA 451 - Bericht zur IfA'18
+                 SIA, CH-8039 Zürich
+                 NPK Bau 2000 - Benützungsanleitung 1996
+                 NPK Bau 2000 - Information für Anwender (IfA'18)
+                 CRB, CH-8040 Zürich
+                 Mehrwertsteuerp ichtig
+                 Wegleitung 2001 zur Mehrwertsteuerp icht - Publikation 610.525 d
+                 Mehrwertsteuersätze und Entgeltminderung
+                 Branchenbroschüre für das Baugewerbe - Publikation 610.540-04
+
+                 Eidg. Steuerverwaltung, CH-3000 Bern
+
+
+
+       3.2 Begri e und Abkürzungen
+        ABBR     Abzug (-) Brutto (Nachtrag im Werkvertrag)
+
+         ABR     Siehe ABBR
+
+        ABNE     Abzug (-) Netto (Nachtrag im Werkvertrag)
+
+         ANE     Siehe ABNE
+
+
+    Abschnitt    Der Abschnitt gliedert die Leistungsverzeichnisse in Bereiche mit
+                 einheitlicher Thematik. Er beginnt mit einer Nummer und einem Titel. Die
+                 Abschnittnummer ist dreistellig und endet mit zwei Nullen.
+
+           AS    Ausschreibung, Abkürzung für den Namen des Dokumentes beim
+                 speichern.
+
+Baukostenplan    Der BKP ist ein Anlagekontenplan für sämtliche Kosten, die bei der
+                 Erstellung einer baulichen Anlage anfallen. Er umfasst Grundstückerwerb,
+
+
+
+                 5.85 BBaseUnternehmerkontrolle - Einführung                       Seite 8/29
+
+
+                                                          fl
+                                 fl
+                        ff
+                        eigentliche Baukosten, Einrichtungen, Ausstattungen, Honorare und
+                        Nebenkosten aller Art. Es handelt sich beim BKP im Grunde genommen um
+                        einen Investitionskostenplan.
+
+                 BKP    siehe auch Baukostenplan
+
+
+                Devis   Französischer Begri für Kostenvoranschlag. Wird in der deutschsprachigen
+                        Schweiz irrtümlicherweise als Bezeichnung für ein Leistungsverzeichnis (LV)
+                        verwendet.
+
+                 EBR    Siehe ERBR
+
+                 EGL    Spaltenbezeichnung im Leistungsverzeichnis. Siehe Elementgliederung.
+
+                  EH    Spaltenbezeichnung im Leistungsverzeichnis.
+                        Enthält die Einheit (max. 2-stellig) der aktuellen Unterposition.
+
+      Einrichtungstyp   Dient insbesondere dazu, speziell elektromechanische Einrichtungsteile
+                        (z.B. Lifte, Fahrtreppen, etc.) oder Baustelleneinrichtungsgegenstände (z.B.
+                        Krane, etc.) als Typen zu deklarieren.
+
+   Elementgliederung    Zum Zwecke der Kostenplanung wird ein Bauobjekt in funktionale Elemente
+                        gegliedert. Die Elementcodes können den Teilmengen von
+                        Leistungspositionen zugeordnet werden.
+
+                 ENE    Siehe ERNE
+
+                ERBR    Ergänzung (+) Brutto (Nachtrag im Werkvertrag)
+
+                ERNE    Ergänzung (+) Netto (Nachtrag im Werkvertrag)
+
+                 ERT    Spaltenbezeichnung im Leistungsverzeichnis. Siehe auch Einrichtungstyp
+
+
+       Hauptposition    Die Hauptposition trägt eine dreistellige Nummer und hat die Funktion
+                        einer einleitenden, die Position charakterisierenden,
+                        Leistungsbeschreibung.
+                        Siehe auch Abschnitt, Unterabschnitt.
+
+                  HP    Spaltenbezeichnung im Leistungsverzeichnis. Siehe Hauptposition.
+
+                 KAG    Spaltenbezeichnung im Leistungsverzeichnis. Siehe Kostenartengliederung.
+
+                 KAL    Spaltenbezeichnung im Leistungsverzeichnis.
+                        Enthält die Kalkulationsgrundlage. Siehe auch Kalkulation.
+
+          Kalkulation   Für die Querverbindung zur Kalkulationsgrundlage des Unternehmers
+                        stehen auf jeder Zeile mit Preis 6 Stellen zur Verfügung.
+
+Kostenartengliederung   Die Kostenartengliederung erlaubt die Leistungen nach einem Kontenplan
+                        der Kostenarten (z.B. nach dem Baukostenplan BKP) zu gliedern. Für den
+                        alphanumerischen Code der Kostenartengliederung stehen sechs Stellen
+                        zur Verfügung.
+
+
+
+                        5.85 BBaseUnternehmerkontrolle - Einführung                         Seite 9/29
+
+
+                                           ff
+          Kostenvoranschlag     Tabelle mit allen Kosten gegliedert nach BKP als Grundlage für die
+                                Kostenkontrolle und - Überwachung.
+
+                          KV    siehe Kostenvoranschlag.
+
+                   Laufnummer   Um in umfangreichen Leistungsverzeichnissen Positionen leichter und
+                                schneller zu nden, können alle Unterpositionen die eine Menge tragen,
+                                mit einer fortlaufenden Nummer, der Laufnummer, versehen werden. Die
+                                Laufnummer ist numerisch. Es stehen sieben Stellen zur Verfügung.
+                                Es hat sich als günstig erwiesen, wenn die Laufnummer selbst
+                                Informationen enthält, zu welchem Kapitel die Teilmenge gehört. Deshalb
+                                enthält die Laufnummer in der Regel die Kapitelnummer als erste 3 Zi ern.
+                                Damit stehen 3 Zi ern (max. 999 Positionen) für die fortlaufenden
+                                Nummerierung der Teilmengenzeilen zur Verfügung.
+                                Bei grösseren Vorhaben könnte dies zu Problemen führen. Deshalb soll
+                                eine variable Option benutzt werden.
+
+                                1. Variante
+                                3 Stellen Kapitelnummer (z.B. 314)
+                                3 Stellen als fortlaufenden Nummerierung 1 Stelle als Prüfsumme
+
+                                2. Variante
+                                2 Stellen Kapitelidenti kation (z.B. 01) 4 Stellen fortlaufend
+                                1 Stelle als Prüfsumme
+
+                           LV   Leistungsverzeichnis. Siehe auch Devis.
+
+                          MA    Spaltenbezeichnung im Leistungsverzeichnis. Siehe Mengenart.
+
+            Mehrwertsteuer      Die Mehrwertsteuer ist eine Verbrauchssteuer.
+                                Das Ziel der Besteuerung liegt in der Belastung der
+                                Einkommensverwendung des Endverbrauchs (Konsum von Gegenständen
+                                und Dienstleistungen). Aus Praktikabilitätsüberlegungen wird der
+                                Endverbraucher bzw. Konsument nicht direkt erfasst. Steuerlicher
+                                Anknüpfungspunkt sind die Lieferungen und Dienstleistungen von
+                                steuerp ichtigen Unternehmungen.
+                                Im Inland wird die MWSt als Allphasensteuer auf allen Wirtschaftsstufen
+                                jeder Lieferung oder Dienstleistung erhoben.
+                                Von der Steuer ausgenommen sind:
+                                Die Übertragung und Bestellung von dinglichen Rechten an Grundstücken
+                                wie;
+                                - Handänderungen von Immobilien
+                                - Kauf- und Vorkaufsrechte
+                                - Baurecht
+
+                    Mengenart   Kennzeichnen der Mengenart nach der Regelung in der Empfehlung SIA
+                                451. Für die Mengenarten werden folgende Codes verwendet:
+
+                                Standardmengenarten
+                                A - Vorausmass durch den Planer ermittelt, ist einzurechnen
+                                B - Festmenge durch den Planer ermittelt, ist einzurechnen
+
+                                D - Vorausmass, das nur auf Anweisung des Planers erstellt werden darf,
+                                    ist einzurechnen
+                                E - Per-Position ohne Mengenangabe, ist nicht einzurechnen
+
+
+                                5.85 BBaseUnternehmerkontrolle - Einführung                          Seite 10/29
+
+
+                                                                        ff
+                                                     fi
+              ff
+     fi
+fl
+                         Mengenarten Primärvarianten
+                         J - Vorausmass durch den Planer ermittelt, ist einzurechnen
+                         K - Festmenge durch den Planer ermittelt, ist einzurechnen
+                         M - Vorausmass, das nur auf Anweisung des Planers erstellt werden darf,
+                              ist einzurechnen
+
+                         Mengenarten Eventualvarianten
+                         Q - Vorausmass durch den Planer ermittelt, ist nicht einzurechnen
+                         R - Festmenge durch den Planer ermittelt, ist nicht einzurechnen
+                         U - Vorausmass, das nur auf Anweisung des Planers erstellt werden darf,
+                             ist nicht einzurechnen
+
+    Mengengliederung     Die Mengen von Unterpositionen können mit Hilfe von Mengengliederung
+                         (OGL, PSL, KAG, EGL, usf.) in einzelne Teilmengen aufgeteilt werden. Die
+                         Gliederungen können einzeln oder in beliebiger Kombination eingesetzt
+                         werden und entsprechend der IFA18.
+
+          Merkblätter    Dem Anwender des NPK Bau stehen gratis 'Merkblätter zum Devisieren' zur
+                         Verfügung. Diese können direkt auf der CRB Homepage als PDF herunter
+                         geladen werden.
+
+                MWSt     siehe Mehrwertsteuer
+
+Normpositionenkatalog    Der NPK Bau ist die genormte Grundlage der Schweizerischen Bauwirtschaft
+                         für die Erstellung von Leistungsverzeichnissen. Er umfasst den Hochbau
+                         mit der Haustechnik, den Tiefbau und andere spezielle Bereiche.
+                         Als leistungsorientierte Kostengliederung wird NPK, ähnlich wie die
+                         Kostengliederung BKP (Baukostenplan), vor allem im Bereich der
+                         Ausführung eingesetzt. Er wird deshalb vor allem für die Gliederung von
+                         Kosten im Zusammenhang mit Ausschreibungen, Werkverträgen und
+                         Abrechnungen eingesetzt.
+                         Das NPK Kapitel ist auf dem Leistungsverzeichnis gekennzeichnet durch:
+                         - eine dreistellige NPK Kapitelnummer, die nicht mit Null endet
+
+                    •    Sprachcode (Buchstabe D, F, I oder E)
+                    •    Ausgabejahr (2 Stellen z.B. 03)
+                    •    NPK Kapitelname
+                    •    Versionsjahr (2 Stellen, z.B 06)
+
+                  NPK    siehe Normpositionenkatalog.
+
+                 OGL     Spaltenbezeichnung im Leistungsverzeichnis. Siehe Objektgliederung.
+
+     Objektgliederung    Die Objektgliederung erlaubt, grosse oder komplexe Bauvorhaben in
+                         Objekte zu zerlegen und ihnen die einzelnen Teilleistungen zuzuordnen.
+                         Für den alphanumerischen Code der Objektgliederung stehen sechs Stellen
+                         zur Verfügung.
+
+                  Pos    Hauptposition im aktuellen Leistungsverzeichnis. Die Hauptposition trägt
+                         eine dreistellige Nummer und hat die Funktion einer einleitenden, die
+                         Position charakterisierenden Leistungsbeschreibung.
+
+         Positionslage   Die Positionslage erlaubt, den Ort (z.B. Geschoss) für die Ausführung einer
+                         bestimmten Leistung innerhalb eines Projektes zu de nieren und die
+
+
+                         5.85 BBaseUnternehmerkontrolle - Einführung                       Seite 11/29
+
+
+                                             fi
+                  einzelnen Teilleistungen diesen Orten zuzuordnen. Die Positionslage ist
+                  der Objektgliederung hierarchisch untergeordnet. Für den
+                  alphanumerischen Code der Positionslage stehen sechs Stellen zur
+                  Verfügung.
+
+           PRV    Spaltenbezeichnung im Leistungsverzeichnis.
+                  Enthält die Preisrelevante Vorbemerkung. Dient als Hinweis zu
+                  preisrelevanten Vorbemerkungen innerhalb des aktuellen
+                  Leistungsverzeichnisses.
+
+           PSL    Spaltenbezeichnung im Leistungsverzeichnis. Siehe Positionslage.
+
+
+             R    Spaltenbezeichnung im Leistungsverzeichnis.
+                  Markierung (R) für die aktuelle Position, falls es sich entsprechend IfA18
+                  um eine Reserveposition handelt.
+                  Siehe auch Reservekapitel und Reserveposition.
+
+ Reservekapitel   Im Reservekapitel kann der Anwender ausserhalb der NPK Kapitel
+                  Leistungen beschreiben. Das Reservekapitel ist dreistellig und trägt die
+                  Nummer 9XX (X9X oder XX9).
+                  Genaue Informationen Siehe IfA18.
+
+Reserveposition   In der Reserveposition kann der Anwender Leistungen beschreiben, die im
+                  NPK nicht enthalten sind. Die Reserveposition ist dreistellig und trägt die
+                  Nummer XX9.
+                  Genaue Informationen Siehe IfA18.
+
+            SR    Schlussrechnung, Abkürzung für den Namen des Dokumentes beim
+                  speichern.
+
+   Teilmengen     Siehe Mengengliederung.
+
+
+          Text    Spaltenbezeichnung im Leistungsverzeichnis.
+
+
+          Titel   Kurzbezeichnung als Stichwort (Sammelbegri ) für aktuelles
+                  Leistungsverzeichnis.
+
+            UK    Unternehmerkontrolle, Abkürzung für den Namen des Dokumentes beim
+                  speichern.
+
+ Unterabschnitt   Der Unterabschnitt gliedert die Abschnitte in Teilbereiche. Er beginnt mit
+                  einer Nummer und einem Titel. Die Unterabschnittnummer ist dreistellig
+                  und endend mit 1 Null.
+
+  Unterposition   Einer Unterposition können unterschiedliche Mengen resp. Teilmengen
+                  zugewiesen werden. Sie ist dreistellig wie die Hauptposition und darf keine
+                  Nullen enthalten.
+
+            UP    Spaltenbezeichnung im Leistungsverzeichnis.
+                  Siehe Unterposition, Unterpositions - Gruppe resp. Untergruppe.
+
+           VAR    Spaltenbezeichnung im Leistungsverzeichnis.
+                  Enthält die Bezeichnung der gewählten Variante. Siehe auch Variante.
+
+
+                  5.85 BBaseUnternehmerkontrolle - Einführung                         Seite 12/29
+
+
+                                                                ff
+Variable        Um mit o enen Unterpositionen exibel formulieren zu können, werden sie
+                in Textbausteine (Variablen) aufgeteilt. Die zweistellige Variablennummer
+                ist nur Auswähladresse des betre enden Textbausteines. Sie ist nicht
+                Bestandteil der NPK Nummer.
+
+Variante        Kennzeichnung von Varianten (Gruppen von Positionen, für Bauwerksteile
+                mit unterschiedlichen Ausführungen).
+                Die Stellen 1 bis 3 dienen der Kennzeichnung der Gruppen von Positionen,
+                welche die unterschiedlichen Varianten beschreiben. Die Stellen 4 bis 6
+                dienen der Kennzeichnung der einzelnen Varianten.
+
+    WV          Werkvertrag, Abkürzung für den Namen des Dokumentes beim speichern.
+
+
+
+  3.3 Beispiel der Unternehmerkontrolle
+
+                Die folgenden Seiten zeigen die gedruckte Version des beschriebenen
+                Beispiels in Originalgrösse.
+
+
+
+
+                5.85 BBaseUnternehmerkontrolle - Einführung                     Seite 13/29
+
+
+                                                  fl
+                       ff
+           ff
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 14/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 15/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 16/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 17/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 18/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 19/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 20/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 21/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 22/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 23/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 24/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 25/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 26/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 27/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 28/29
+5.85 BBaseUnternehmerkontrolle - Einführung   Seite 29/29
+

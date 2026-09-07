@@ -1,0 +1,448 @@
+ Kostenplanung      BBaseJournal
+                    Stunden- und Spesenerfassung im Archi-
+                    tekturbüro
+                                                                                                  5.82
+    Ausführung
+
+
+Kostenkontrolle
+
+
+Honorar' Auftrag
+
+
+
+
+                    Mit BBaseJournal werden Stunden und Spesen der Mitarbeiter im Archi-
+                    tektur- und Planungsbüro plattformübergreifend (Windows und MacOS X)
+                    erfasst. Als Bestandteil der Auftragsverwaltung von BBase wird damit die
+                    Grundlage für die Arbeitszeitstatistik und die Auftragsauswertung erstellt.
+                    Der Aufwand für das Erstellen der Statistiken wird auf ein Minimum redu-
+                    ziert.
+
+
+
+
+30. November 2023   © PMS Informatik AG CH-8408 Winterthur www.bbase.ch
+BBase
+© PMS Informatik AG Alle Rechte vorbehalten
+
+Betriebsanleitung' Handbücher und Software sind urheberrechtlich ge-
+schützt. Das Kopieren' Vervielfältigen' Übersetzen oder Umsetzen in ir-
+gendein elektronisches Medium oder maschinenlesbare Form im Ganzen
+oder in Teilen ohne vorherige schriftliche Genehmigung von PMS Informatik
+AG ist nicht gestattet. Alle weiteren Rechte an der Software sind in den
+mitgelieferten Lizenzbestimmungen festgelegt.
+
+PMS Informatik AG' Riedhofstrasse 53' CH-8408 Winterthur
+Fon +41 44 948 12 14
+Mail Info@pmsag.ch ' Internet www.pmsag.ch
+
+
+
+
+Vorwort
+Dieses farbig gestaltete PDF-Dokument bietet Anweisungen zur Anwen-
+dung des Programms BBaseJournal.
+
+Das vorliegende Benutzerhandbuch bietet neben methodischen Erklä-
+rungen auch Kurzanleitungen für Fortgeschrittene' ausführliche Anweisun-
+gen für das Erstellen eines neuen Dokumentes und detaillierte Anleitungen
+zur Arbeitstechnik.
+
+Wird im Bericht der Architekt erwähnt' so gilt die Benennung auch für die
+Architektin.
+
+Bevor Sie sich mit diesem Dokument befassen' emp ehlt es sich die
+Grundlagen im Literatur- und Quellenverzeichnis zu studieren.
+
+
+Winterthur' 30. November 2023
+
+
+
+
+5.82 BBaseJournal- Vorwort                                           Seite 2/10
+
+
+                                                fi
+     Inhalt
+     Das vorliegende Handbuch soll für Anfänger und Fortgeschrittene Infor-
+     mationen enthalten' welche die Anwendung der BBaseWerkzeuge unter-
+     stützen. Die einzelnen Kapitel enthalten dafür folgende Beschriebe.
+
+
+     1 Einführung
+        1.1 Welche Hilfsmittel stellt BBase zur Verfügung?                    4
+
+        1.2 Die BBaseWerkzeuge der Büroadministration                         5
+
+
+
+     4 Anhang                                                                     Inhalt
+        4.1 Quellen und Literaturhinweise                                     6
+
+        4.2 Begri e und Abkürzungen                                           7
+
+        4.3 Beispiel                                                          8
+
+
+
+
+     5.82 BBaseJournal- Inhalt                                       Seite 3/10
+
+
+ff
+ 1 Einführung
+     Dieses Kapitel enthält allgemeine Infos zum Thema Stundenerfassung
+     mit BBaseWerkzeugen für Architekten' Planer und Bauleiter.
+
+    BBaseJournal erlaubt das Erfassen von Stunden und Spesen der Mitarbeiter
+    und erstellt die monatliche Übersicht als Grundlage für die Arbeitszeitsta-
+    tistik und die Auftragsauswertung. Ein einfaches Werkzeug' das in BBase
+    integriert ist und jederzeit aufgerufen werden kann.
+
+    Mit Hilfe von BBaseJournal wird es möglich' die gesammelten Daten der           1
+    Stundenlisten in der Auftragsverwaltung auszuwerten. Der Aufwand für die
+    Statistiken wird auf ein Minimum reduziert.
+
+
+
+
+                                                                                    Einführung
+    Das persönliche Journal wird in der Auftragsverwaltung gegründet. Alle
+    Auftragsdaten und Personalkürzel mit Stundenansätzen' Auftragsnummern
+    und Positionsstrukturen werden aus der Auftragsverwaltung übernommen.
+    Damit ist bestimmt' zu welchen Aufträgen und zu welchen Positionsnum-
+    mern der Mitarbeiter Stunden und Spesen buchen darf.
+
+    Die Strukturierung nach Aufträge' Positionsnummern' verrechenbar und
+    nicht verrechenbar' erlaubt eine gezielte Buchung des Aufwandes. Bu-
+    chungsarten' wie auftragsbezogen oder nicht auftragsbezogen' Anwesen-
+    heits- und Abwesenheitszeit' Schulung' Weiterbildung' Militär' Ferien'
+    Krankheit' usw. werden dabei berücksichtigt.
+
+    Die feinere Abstufung bei der Erfassung des Zeitaufwandes verschiedener
+    Tätigkeiten ergibt die Grundlage für spätere Abrechnungen. Investierte
+    Stunden können nicht mehr verloren gehen.
+
+
+
+1.1 Welche Hilfsmittel stellt BBase zur Verfü-
+    gung?
+    Die Arbeitsmittel der Büroadministration im Architektur- und Planungsbüro
+    wurden auf verschiedene Module von BBase aufgeteilt.
+    Mit Hilfe diverser BBaseWerkzeuge ist es in der Büroadministration möglich'
+    systematisch Auswertungen und Kennzahlen für die Vor- und Nachkalkula-
+    tion im Architektur- und Planungsbüro zu berechnen.
+
+
+
+
+    5.82 BBaseJournal- Einführung                                      Seite 4/10
+1.2 Die BBaseWerkzeuge der Büroadministra-
+    tion
+
+
+
+
+    Die Module Honorare' Kostenrechnung' Auftragsverwaltung und Stun-
+    denerfassung (Journal) werden der Büroadministration zugeordnet.
+    Die Hilfsmittel der Stundenerfassung wurden auf drei BBaseWerkzeuge' mit
+    eigenständigen Bereichen für Auswertungen' verteilt.
+
+    Das vorliegende Handbuch beschränkt sich auf Erläuterungen zur Ar-
+    beitsweise mit BBaseJournal. Die erfassten Stunden und Spesen werden mit
+    dem 'Abrechnungsprozess' jeweils zur weiteren Bearbeitung durch die Ad-
+    ministration' in die BBaseAuftragsverwaltung übernommen.
+    Erklärungen zu Honorar' Auftragsverwaltung und Kostenrechnung werden
+    beschrieben unter:
+
+    Honorar - O erte' Beschrieb' Vertrag und Nachweis (HO)
+    Mit BBaseHonorar werden Honoraro erten' detaillierte Leistungsbeschriebe
+    und Vertragsgrundlagen nach SIA 102 (LHO 1984' 2001 resp. 2003) oder
+    nach eigenen Grundlagen erstellt und bearbeitet.
+
+    Auftrag - Liste' Umsatzkontrolle' Rechnungen' Inkasso (AV)
+    Mit BBaseAuftrag wird für jeden Auftrag eine Auftragskarte geführt. Sie
+    enthält neben den Kunden- und ObjektBuchungen' Konditionen' Termine'
+    Mitarbeiterstamm' Vorgaben Leistungen und Abrechnungen.
+
+    Kostenrechnung - Betriebskosten und Stundenansätze (KR)
+    Mit BBaseKostenrechnung werden Personal- und Betriebskosten zusam-
+    mengefasst und der Selbstkosten- resp. Honorarkostenansatz für jeden
+    Mitarbeiter berechnet.
+
+
+
+
+    5.82 BBaseJournal- Einführung                                   Seite 5/10
+
+
+                                    ff
+              ff
+                     4 Anhang
+                            Einige Informationsquellen sind im Literaturverzeichnis aufgeführt und
+                            enthalten zusammen mit dem gedruckten Beispiel grundlegende Hinwei-
+                            se zur Stundenerfassung.
+
+
+                   4.1 Quellen und Literaturhinweise
+                            BBaseAuftragsverwaltung entspricht in weiten Teilen den Grundlagen des
+                            SIA. Das vorliegende Programm orientiert sich unter anderem an den ent-
+                                                                                                         4
+                            sprechenden Unterlagen.
+
+
+
+
+                                                                                                         Anhang
+Handbuch für Architekten    Vom Auftragsablauf bis zur Kostenrechnung
+                            Verlag Niggli AG' Sulgen ISBN 3-7212-0503-0
+
+      Das Dilbert Prinzip   Die endgültige Wahrheit über Chefs' Konferenzen und Manager
+                            Moderne Industrie' München' ISBN 3-636-01274-6
+
+    SIA' CH-8040 Zürich     SIA 102 (2003) Ordnung für Leistungen und Honorar
+                            der Architekten SN 508 102
+                            SIA 1041 (2003) Kontenplan' Kontierungsanleitung
+                            SIA 105 (2007) Ordnung für Leistungen und Honorar
+                            der Landschaftsarchitekten SN 508 105
+
+                            SIA D 0233 (2009) Lohnerhebung 2009
+                            SIA D 0218 (2006) Ermittlung der Gemeinkosten und Arbeitsstunden 2005
+                            SIA (2013) Factsheet Kennzahlenerhebung 2012
+
+                 Internet   www.bbl.admin.ch/kbob - Leitfaden für Bescha ung von Leistungen im
+                            Planerbereich' Empfehlung 2010
+                            www.bbase.ch - Werkzeug der Planungs- und Architekturbüros
+
+
+
+
+                            5.82 BBaseJournal- Anhang                                       Seite 6/10
+
+
+                                                                      ff
+                 4.2 Begri e und Abkürzungen
+     Abwesenheitszeit      Nicht auftragsbezogene Abwesenheitszeit' z.B. Ferien' Pers. Freitage'
+                           Krankheit' Unfall' Arzt' Militär' Zivilschutz' ö entliche Ämter' Berufsschule
+                           der Lehrlinge usw.
+
+     Anwesenheitszeit      Siehe auch 'nicht auftragsbezogene Präsenzzeit'.
+
+    Arbeitszeitstatistik   Mit der Arbeitszeit- oder Arbeitsstundenstatistik wird die auftragsbe-
+                           zogene Präsenzzeit ermittelt. Dazu werden von der Jahressollzeit die Ab-
+                           senzen (nicht auftragsbezogene Abwesenheitszeit) und die nicht auftrags-
+                           bezogene Präsenzzeit abgezogen.
+
+                Auftrag    Siehe auch 'Auftragsnummer'.
+                           Abgeschlossene Datensammlung des aktuellen Auftrages.
+
+    Auftragsbezogene       Entspricht der Sollzeit ohne Anteile der nicht auftragsbezogenen
+          Präsenzzeit      Abwesenheits-/Präsenzzeit.
+
+        Auftragsklasse     Gruppierung von Aufträgen (Klassen)' welche gemeinsam ausgewertet
+                           werden sollen (Z.B. Umbauten' Wettbewerbe' Neubauten' Beratungen).
+
+      Auftragsnummer       Durchgängige Nummerierung der einzelnen Aufträge.
+                           Jeder Auftrag wird durch seine Auftragsnummer eindeutig gekennzeichnet.
+                           Diese Eingabe ist deshalb beim Gründen eines Auftrages notwendig und
+                           muss 'Unikat' sein. Nachträglich kann diese Nummer nicht mehr geändert
+                           werden. Die Auftragsnummer kann alphanumerisch sein.
+
+                  Code     Kurzbezeichnung für Kosten- resp. Buchungsart.
+                           HV = Honorar Vorgabe' HB = Honorar Leistung' HA = Honorar Abrechnung
+                           DV = Dritte Vorgabe' DB = Dritte Leistung' DA = Dritte Abrechnung
+                           SV = Spesen Vorgabe' SB = Spesen Leistung' SA = Spesen Abrechnung
+
+        Honorarkosten      Betriebskosten inkl. Personalaufwand' Risiko und Gewinn.
+
+  Honorarkostenansatz      Der Honorarkostenansatz entspricht dem minimalen Stundenansatz'
+                           welcher die Selbstkosten und das budgetierte Risiko und den erwarteten
+                           Gewinn deckt.
+                           Honorarkostenansatz = Honorarkosten / auftragsbezogene Präsenzzeit
+
+                Ist-Zeit   Entspricht der tatsächlichen Arbeitszeit unter Berücksichtigung der Unter-
+                           und Überzeit.
+
+                Journal    Stunden- und Spesenliste für persönliche Buchungen der Mitarbeiter.
+
+             Kostenart     Kostenart der aktuellen Buchung im Auftrag.
+                           Honorar (H) = interne Leistungen
+                           Dritte (D)= externe Leistung
+                           Spesen (S) = Auslagen
+
+                 Kürzel    Kurzbezeichnung des Mitarbeiters.
+                           z.B. 1. Buchstabe Vorname und 2.+3. Buchstabe des Nachnamen.
+
+              Leistung     Aufwand (Stunden' Spesen) für aktuelle Kostenart.
+
+nicht auftragsbezogene     Nicht auftragsbezogene Anwesenheitszeit' z.B. Weiterbildung' Werbung
+
+                           5.82 BBaseJournal- Anhang                                             Seite 7/10
+
+
+                                       ff
+                                  ff
+       Präsenzzeit     und Akquisition' Führung' EDV Betrieb' übrige für Verwaltung' Rech-
+                       nungswesen usw.
+
+                Pos    Position siehe auch 'Positionsstruktur'.
+
+Positionskategorie     Siehe auch 'Positionsstruktur'.
+                       Einstellige Nummerierung der Positionen (Hauptgruppen) von 0 - 9.
+
+  Positionsstruktur    Durchgängige dreistellige Nummerierung aller Leistungen (0.11 - 9.99).
+
+       Präsenzzeit     Auftragsbezogen oder nicht Auftragsbezogen
+
+      Selbstkosten     Betriebskosten inkl. Personalaufwand' jedoch ohne Risiko und Gewinn.
+
+Selbstkostenansatz     Der Selbstkostenansatz entspricht dem minimalen Stundenansatz' welcher
+                       die Selbstkosten deckt.
+                       Selbstkostenansatz = Selbstkosten / auftragsbezogene Präsenzzeit
+
+            Sollzeit   Die Sollzeit pro Tag' Woche' Monat oder Jahr entspricht der minimalen
+                       Arbeitszeit und wird mit Hilfe der Stunden pro Tag unter Berücksichtigung
+                       von lokalen Feiertagen berechnet. Sie ist deshalb in jedem Kanton anders
+                       geregelt.
+
+    Stellenprozent     Siehe auch 'Vollzeitstelle'.
+
+      Vollzeitstelle   Entspricht 100 Stellenprozenten und deshalb auch 100 Prozent der Jah-
+                       ressollzeit. Die Summe der Vollzeitstellen entspricht der Summe der Stel-
+                       lenprozente aller Mitarbeiter.
+
+
+
+             4.3 Beispiel
+                       Die folgenden Seiten zeigen die gedruckte Version des beschriebenen
+                       Beispiels in Originalgrösse. Dabei wird der Ausdruck der Arbeitszeitstatistik
+                       und die Liste der Mitarbeiterbuchungen dargestellt.
+
+
+
+
+                       5.82 BBaseJournal- Anhang                                           Seite 8/10
+ARGE Beispiel, 8408 Winterthur                                                                      +41 44 948 14 14
+
+
+Arbeitszeitstatistik 2023                               Hans Muster (HMu)              Visum:
+
+
+Nr.   Bezeichnung                          Std    ø%    Jan Feb Mär Apr Mai Juni Juli Aug Sept Okt Nov Dez
+
+
+Auswertung Auftragsbezogen
+1     Beratungen                            45    2%                    45
+2     Liegenschaftsverwaltung               22    1%      8         4    3                                      6    1
+3     Wettbewerb
+4     Umbau
+5     Neubau                              1'194   58%   111 145     4 122    47 100 102      58 139 154 137         75
+
+      Total Auftragsbezogen               1'260   62%   119 145     8 170    47 100 102      58 139 154 143         76
+
+
+Auswertung nicht Auftragsbezogen
+0.1   Weiterbildung                         69    3%      4    1    8   16    8          4           16         8    4
+0.2   Interne Arbeiten                     424    21%    71        50   29   53   36    55   71      16   20   16    6
+0.3   Führung                                9    0%                                                  5    4
+
+      Anwesenheitszeit                     501    25%    75    1   58   45   61   36    59   71      37   24   24   10
+
+0.4   Ferien                               176    9%               48        48   24    24   24                      8
+0.5   Persönliche Freitage                  24    1%               16                           8
+0.6   Krankheit, Unfall, Arzt               41    2%          25   16
+0.7   Militär, Zivilschutz                  40    2%               24                        16
+0.8   Schule
+0.9   Übrige Abwesenheit
+      Abwesenheitszeit                     281    14%         25 104         48   24    24   48                      8
+
+      Total nicht Auftragsbezogen          782    38%    75   26 162    45 109    60    83 119       37   24   24   18
+
+
+Auswertung Sollzeit
+11    Vortrag Vorjahr [Std]
+0-9   Leistung [Std]                                    194 171 170 215 156 160 185 177 176 178 167                 94
+12    Sollzeit [Std]
+      Abweichung/Differenz                              194 171 170 215 156 160 185 177 176 178 167                 94
+      Buchungen mit ?
+
+Auswertung Ferien
+11    Vortrag Vorjahr [Std]
+12    Guthaben laufendes Jahr [Std]
+0.4   Gebuchte Ferien                      176                     48        48   24    24   24                      8
+
+      Rest Ferien [Std]                   -176
+      Rest Ferientage [Tg]                  -21
+
+
+
+
+30.11.2023                                                                                                     Seite 1
+
+
+
+
+                     5.82 BBaseJournal- Anhang                                                                 Seite 9/10
+ARGE Beispiel, 8408 Winterthur                                                                                        +41 44 948 14 14
+
+
+Buchungen vom 01.11.23 bis 30.11.23
+Auftrag   Ta   Pos    Beschrieb                 PCode   Datum      Menge EH   Int Ansatz   Int Total Code Notiz
+
+
+5-699     B    3.2    Bauprojekt                HMu     01.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     01.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     04.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     04.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     05.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     05.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     06.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     06.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     07.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     07.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     08.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.9    Anpassung Variante A      HMu     08.11.23    4.00 h       118.00    472.00 HB      Fenster verschieben
+5-699     B    3.2    Bauprojekt                HMu     11.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.9    Anpassung Variante A      HMu     11.11.23    4.00 h       118.00    472.00 HB      Fenster verschieben
+5-699     B    3.2    Bauprojekt                HMu     12.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     12.11.23    4.00 h       118.00    472.00 HB
+2-913     A    6.1    Betriebsoptimierung       HMu     13.11.23    4.00 h       118.00    472.00 HB
+2-913     A    6.1    Betriebsoptimierung       HMu     13.11.23    2.00 h       118.00    236.00 HB
+5-199     B    9.52   Autospesen, Privatwagen   HMu     13.11.23   18.00 km        0.70     12.60 SB
+0-023     B    0.1    Form Kurs                 HMu     14.11.23    8.00 h       118.00    944.00 HB      Abschluss
+5-699     B    3.2    Bauprojekt                HMu     15.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     15.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     18.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     18.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     19.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     19.11.23    5.00 h       118.00    590.00 HB
+5-699     B    3.2    Bauprojekt                HMu     20.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     20.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     21.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     21.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     22.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     22.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     25.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Bauprojekt                HMu     25.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Terminplanung             HMu     26.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Terminplanung             HMu     26.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Terminplanung             HMu     27.11.23    4.00 h       118.00    472.00 HB
+5-699     B    3.2    Terminplanung             HMu     27.11.23    4.00 h       118.00    472.00 HB
+0-023     B    0.2    Rechnungswesen            HMu     28.11.23    4.00 h       118.00    472.00 HB
+0-023     B    0.2    TF Akquisition            HMu     28.11.23    4.00 h       118.00    472.00 HB
+0-023     B    0.2    Lohnwesen                 HMu     29.11.23    4.00 h       118.00    472.00 HB
+0-023     B    0.2    Diverses                  HMu     29.11.23    4.00 h       118.00    472.00 HB
+
+
+
+
+30.11.2023                                                                                                                      Seite 1
+
+
+
+
+                           5.82 BBaseJournal- Anhang                                                                            Seite 10/10
+

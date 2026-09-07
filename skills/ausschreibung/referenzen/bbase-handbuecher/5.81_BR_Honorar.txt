@@ -1,0 +1,601 @@
+ Kostenplanung       Honorar
+                     O erte, Beschrieb, Vertrag und Nachweis
+                                                                                                 5.81
+    Ausführung
+
+
+ Kostenkontrolle
+
+
+Honorar, Auftrag
+
+
+
+
+                     Mit BBaseHonorar werden Honoraro erten, detaillierte Leistungsbeschriebe
+                     und Vertragsgrundlagen für Architekten oder Landschaftsarchitekten er-
+                     stellt. Grundlagen bilden die Honorarordnungen SIA 102 (2014), SIA 105
+                     (2014) oder eigene Festlegungen.
+
+                     Die Honorar- und Nebenkosten werden für die Vor- und Nachkalkulation in
+                     die Auftragsverwaltung von BBase importiert und stehen auch für die au-
+                     tomatische Übernahme in den Kostenvoranschlag zur Verfügung.
+
+                     Mit Hilfe des Leistungsnachweises und der Liste 'Akonto Zahlungen' werden
+                     die Beilage für Rechnungen und die Grundlage für den Soll/Ist Vergleich
+                     erstellt.
+
+
+
+
+   9. Oktober 2023   © PMS Informatik AG CH-8617 Winterthur www.bbase.ch
+
+
+                                                        ff
+                     ff
+BBase
+© PMS Informatik AG Alle Rechte vorbehalten
+
+Betriebsanleitung, Handbücher und Software sind urheberrechtlich ge-
+schützt. Das Kopieren, Vervielfältigen, Übersetzen oder Umsetzen in ir-
+gendein elektronisches Medium oder maschinenlesbare Form im Ganzen
+oder in Teilen ohne vorherige schriftliche Genehmigung von PMS Informatik
+AG ist nicht gestattet. Alle weiteren Rechte an der Software sind in den
+mitgelieferten Lizenzbestimmungen festgelegt.
+
+PMS Informatik AG, Riedhofstrasse 53, CH-8408 Winterthur
+Fon +41 44 948 12 14
+Mail Info@pmsag.ch , Internet www.pmsag.ch
+
+
+
+
+Vorwort
+Dieses farbig gestaltete PDF-Dokument bietet Anweisungen zur Anwen-
+dung des Programms BBaseHonorar.
+
+Das vorliegende Benutzerhandbuch bietet neben methodischen Erklä-
+rungen auch Kurzanleitungen für Fortgeschrittene, ausführliche Anweisun-
+gen für das Erstellen eines neuen Dokumentes und detaillierte Anleitungen
+zur Arbeitstechnik.
+
+Wird im Bericht der Architekt erwähnt, so gilt die Benennung auch für die
+Architektin.
+
+Bevor Sie sich mit diesem Dokument befassen emp ehlt es sich, das
+beiliegende Beispiel und die Grundlagen im Quellen- und Literaturver-
+zeichnis zu studieren.
+
+
+Winterthur, 9. Oktober 2023
+
+
+
+
+5.81 BBaseHonorar- Vorwort                                           Seite 2/33
+
+
+                                               fi
+     Inhalt
+
+     1 Einführung
+           1.1 Konkurrenzfähige Honorarberechnungen                     4
+
+           1.2 Welche Hilfsmittel stellt BBase zur Verfügung?           5
+               Das BBaseDokument für die Honorarberechnung               5   5.81
+               Die verschiedenen Formularvorlagen                        5
+               Die einzelnen Tabellenblätter der Vorlagen                6
+               Die ergänzenden BBaseWerkzeuge                            8
+
+
+                                                                             Inhalt
+     5 Anhang
+           5.1 Quellen und Literaturhinweise                          10
+
+           5.2 Begri e und Abkürzungen                                11
+
+           5.3 Beispiel der Honorarberechnung                         13
+
+
+
+
+     5.81 BBaseHonorar- Inhalt                                  Seite 3/33
+
+
+ff
+                    1 Einführung
+                            Dieses Kapitel enthält allgemeine Infos zum Thema Honorarberechnung
+                            mit BBaseWerkzeugen für Architekten und Landschaftsarchitekten.
+
+                            Mit BBaseHonorar werden Berechnungen, Beschriebe und Vertrags-
+                            grundlagen zu SIA 102 (2014) resp. SIA 105 (2014) oder eigenen Festle-
+                            gungen erstellt. Honorar- und Nebenkosten werden als 'Vorgabe' für die
+                            Nachkalkulation in die Auftragsverwaltung von BBase importiert und in den
+                            Kostenvoranschlag des entsprechenden Projektes übernommen.
+                                                                                                                        1
+                 1.1 Konkurrenzfähige Honorarberechnungen
+
+
+
+                                                                                                                        Einführung
+                            Seit 2003 musste das 'Honorar nach den Baukosten' aus kartellrechtlichen
+                            Gründen mit Hilfe des Stundenaufwandes und der kostendeckenden Stun-
+                            denansätze kalkuliert werden.
+                            Im Jahr 2020 wurde dann bereits wieder eine neue Verordnung heraus-
+                            gegeben, da auch die Version von 2014 bei der WEKO auf wenig Gegenlie-
+                            be gestossen ist. Da in der Schweiz Vertragsfreiheit gilt, kann im gegensei-
+                            tigen Einverständnis jedoch weiterhin die Honorarordnung 2014 verwendet
+                            werden. Dies bietet sich umso mehr an, da so die praktische Kalkulations-
+                            hilfe nach dem Zeitaufwandmodell weiterverwendet werden kann.
+
+                                                             Die Berechnung nach Zeitaufwand wird oft in
+                                                             den Phasen 1,2 und 6 angewendet.
+
+
+
+
+Die Berechnung nach ,Baukosten‘ gilt nur
+für die Phase 3 - 5
+
+
+                            Mit der 'aufwandbestimmenden Bausumme' und geeigneten Faktoren der
+                            'Ordnung für Honorare und Leistungen' werden Honorarberechnungen im
+                            Zeitaufwand, global oder pauschal als Vertragsbeilage zusammengestellt.
+
+
+
+
+                            5.81 BBaseHonorar - Einführung                                                 Seite 4/33
+                     Ziel   Mit büroeigenen Kennzahlen wird die Honorarberechnung transparent und
+                            für den Auftraggeber nachvollziehbar formuliert. BBaseHonorar stellt dafür
+                            Tabellen und Textbausteine zur Verfügung, welche eine präzise Kalkulation
+                            ermöglichen.
+
+                            Bei diversen Aufträgen wie Studien, speziellen Projektierungsaufgaben oder
+                            bei Kleinprojekten (Bausumme unter 500‘000 Franken) kann die Berech-
+                            nungsformel der SIA Normen nicht verwendet werden. In diesem Fall muss
+                            das Honorar 'nach dem Aufwand' kalkuliert werden.
+
+
+                   1.2 Welche Hilfsmittel stellt BBase zur Verfü-
+                       gung?
+                            Die Arbeitsmittel der Bau- und Büroadministration im Architektur- und
+                            Planungsbüro wurden auf verschiedene Module von BBase aufgeteilt.
+                            Mit Hilfe diverser BBaseWerkzeuge ist es in der Büroadministration möglich,
+                            systematisch Auswertungen und Kennzahlen für die Vor- und Nachkalkula-
+                            tion im Architektur- und Planungsbüro zu berechnen.
+
+                            Das BBaseDokument für die Honorarberechnung
+                            Die Arbeitsmittel werden als Tabellen in Formularvorlagen bereitgestellt.
+                            Sie bilden zusammenfassend thematisch abgeschlossene Arbeitsmappen,
+                            welche als einzelne Dokumente gespeichert werden.
+                            Pro Projekt können bei Bedarf mehrere Dokumente erstellt werden, z.B.
+                            verschiedene O erten, Verträge oder Abrechnungen. Diese werden in ein-
+                            zelnen Dateien gespeichert, damit sie unabhängig voneinander bearbeitet
+                            werden können.
+
+                            Die verschiedenen Formularvorlagen
+     Standardvorlagen       Für das Erstellen von Dokumenten können die Standardvorlagen von BBase
+                            direkt verwendet werden. Projektspezi sche Ergänzungen werden im er-
+                            stellten Dokument eingefügt.
+
+          Bürovorlagen...   Eine Standardvorlage von BBase kann für spezielle Vertragsarten angepasst
+                            werden. Zu diesem Zweck wird die Vorlage dupliziert und an die Bedürfnis-
+                            se (Honorarkategorien, Stundenansätze, Spesen, Textbausteine usw.) an-
+                            gepasst, wodurch eigene Bürovorlagen entstehen.
+                   ...AGB   Jedes Planungs- und Architekturbüro verwendet in der Regel eigene an-
+                            gepasste Texte für allgemeine Geschäftsbedingungen (AGB).
+                            Diese Bedingungen und Hinweise müssen zuvor in der Vorlage für Ver-
+                            tragsbedingungen als Bürovorlage erfasst werden.
+
+                            Siehe auch 'Leitfaden - Vorlagen anfertigen'
+
+                            Je nach Art der Honorarberechnung stehen beim Gründen eines neuen Do-
+                            kuments verschiedene Formularvorlagen zur Verfügung:
+
+                            BB9 Vorlage HonorarSIA102.xlsx
+                            Die Arbeitsmappe 'BB9 Vorlage HonorarSIA102.xlsx' dient als Grundlage für
+                            Honoraro erten, -verträge und Leistungsnachweise nach 'SIA 102 (2014) -
+                            Ordnung für Leistungen und Honorare der Architekten’.
+                            Die Honorarberechnung erfolgt für die Grundleistungen '…nach den
+                            Baukosten' und für die Zusatzleistungen '…nach dem Aufwand’.
+
+
+                            5.81 BBaseHonorar - Einführung                                    Seite 5/33
+
+
+                               fi
+     ff
+ff
+                 BB9 Vorlage HonorarSIA105.xlsx
+                 Die Arbeitsmappe 'BB9 Vorlage HonorarSIA105.xlsx' dient als Grundlage für
+                 Honoraro erten, -verträge und Leistungsnachweise nach 'SIA 105 (2014) -
+                 Ordnung für Leistungen und Honorare der Landschaftsarchitekten’.
+                 Die Honorarberechnung erfolgt für die Grundleistungen '…nach den
+                 Baukosten' und die Zusatzleistungen '…nach dem Aufwand’.
+                 BB9 Vorlage HonorarStd.xlsx
+                 Die Arbeitsmappe 'BB9 Vorlage HonorarStd.xlsx' dient als Grundlage für
+                 Honoraro erten, -verträge und Leistungsnachweise mit eigenen Festlegun-
+                 gen für individuelle Berechnungen '…nach dem Aufwand'.
+
+                 BB9 Vorlage HonorarHinweise.xlsx
+                 Die Arbeitsmappe 'BB9 Vorlage HonorarHinweise.xlsx' wird für sämtliche
+                 Arten der Honorarberechnung verwendet. Sie dient zur Verwaltung der all-
+                 gemein gültigen Vertragsbedingungen und Hinweise.
+
+                 Vorlage Deckblatt.xlsx, Vorlage Deckblatt HV.xlsx
+                 Die Arbeitsmappe 'Vorlage Deckblatt.xlsx' wird als Dokument Deckblatt für
+                 Honoraro erten, die Arbeitsmappe 'Vorlage Deckblatt HV.xlsx' für Hono-
+                 rarverträge verwendet.
+
+                 Die einzelnen Tabellenblätter der Vorlagen
+                 Die Honorarberechnung enthält acht Tabellen:
+                 Das Deckblatt, die Bedingungen und Hinweise, die Schätzung der Honorar-
+                 und Nebenkosten, der angepasste Leistungsbeschrieb und der Leistungs-
+                 nachweis mit Liste der Akontozahlungen.
+
+                    Projekt-          Deckblatt       Grundlage      Notizen
+                   verwaltung
+                      Bauherr
+                   Informationen
+                                            Offerte
+                                            Vertrag
+                                                         Inhalt
+                                                        Datum
+                                                      Baukategorie
+                                                                       Leere     Honorar
+                     Kennwerte               Inhalt                   Tabelle
+                                                         Z1/Z2
+                    Kostenindex                        Rundung
+
+
+
+                                           Hinweise     Offerte      Leistung    Nachweis
+
+                                     Projektinfo      Grundlagen     Beschrieb   Leistungs-
+                                     Ziel, Zweck        Honorar      Leistung    nachweis
+                                    Bedingungen       Nebenkosten     Menge       Akontos
+                                                         Total         Preis     Guthaben
+
+
+     Grundlage   Titel, Inhalt und Datum des Dokuments können auf dem Tabellenblatt
+                 'Grundlage' verändert und angepasst werden. Ausserdem werden Infos zum
+                 aktuellen Dokument, Ablageort, Währung, Mehrwertsteuersatz, Stundenan-
+                 sätze und Rundungsfaktor festgelegt.
+                 Für die Honorarberechnung mit SIA 102 (2014) resp. SIA 105 (2014) sind
+                 auch der Schwierigkeitsgrad, Anpassungsfaktor, Koe zient Z1 + Z2, der
+                 Teamfaktor, Sonderleistungen und der Umbaufaktor aufgeführt.
+
+     Deckblatt   Die Vorlage 'Deckblatt' oder 'Deckblatt HV' wird beim Erstellen eines neuen
+                 Dokumentes in die Arbeitsmappe eingefügt und kann später ausgewechselt
+                 oder ergänzt werden. Die Objekt-, Bauherr- und Projektverfasser Adressen
+                 werden zusammen mit dem Datum und Inhaltsverzeichnis angezeigt und
+                 dienen so als Deckblatt für das ganze Honorar Dokument.
+
+      Hinweise   Die Vorlage 'BB9 Vorlage HonorarHinweise.xlsx' wird als Tabellenblatt
+                 'Hinweise' in die Arbeitsmappe eingefügt. Informationen zum Projekt, wel-
+                 che bereits in der Projektverwaltung erfasst wurden, sind eingeblendet.
+                 Unter 'Bedingungen und Hinweise' werden Informationen zum Projekt sowie
+
+
+                 5.81 BBaseHonorar - Einführung                                        Seite 6/33
+
+
+                                     ffi
+ff
+ff
+ff
+                      Infos zu Ziel, Zweck, Vertragsbestandteilen, P ichten, Rechte, Vergütungs-
+                      regeln und Versicherungen aufgeführt.
+
+                      Die in der Vorlage aufgeführten Texte für 'Bedingungen und Hinweise' sind
+                      Beispiele. Diese entsprechen weder der Rechtsprechung noch den Anforde-
+                      rungen des aktuellen Projektes.
+                      Sie müssen für die Anwendung angepasst werden und entsprechen, bezüg-
+                      lich Themen und Struktur, dem Inhalt von SIA 102 (2014) resp. SIA 105
+                      (2014) und dem Leitfaden der KBOB.
+
+            O erte    Auf dem Tabellenblatt 'O erte' wird die Schätzung des Honorars nach SIA
+                      102 (2014) resp. SIA 105 (2014) mit den aufwandbestimmenden Baukosten
+                      oder eigenen Festlegungen, als Zusammenfassung getrennt nach Grund-
+                      resp. Zusatzleistungen angezeigt. Für alle Leistungen im Zeittarif werden
+                      die büroeigenen Stundenansätze der Mitarbeiter aufgeführt.
+
+                      Mit den Nebenkosten (Spesen und Auslagen) ergänzt, ergibt sich die Zu-
+                      sammenfassung aller eingerechneten Kosten. Im Tabellenblatt 'Leistung'
+                      wird die detaillierte Kalkulation der Grund- und Zusatzleistungen für die
+                      Phasen 1 - 6 berechnet. Nach Bearbeiten der Textbausteine wird die Vor-
+                      kalkulation über Prozentanteile oder Stundenaufwand berechnet.
+                      Alle Anpassungen der Grund- oder Zusatzleistung werden in der Zu-
+                      sammenfassung des Tabellenblattes 'O erte' angezeigt.
+
+                      Die Darstellung des Leistungsbeschriebs kann als Checkliste für die Ar-
+                      beitsaufteilung (Zuordnung) oder als Kalkulationsgrundlage verändert wer-
+                      den.
+
+      Leistung        Auf dem Tabellenblatt 'Leistung' sind Textbausteine für das Beschreiben
+                      und Kalkulieren der Leistung in 6 Phasen aufgeteilt. Mit Hilfe dieser Tabel-
+                      len wird die Kalkulation der 'Grundleistung '…nach den Baukosten' für die
+                      Phasen 3-5 und 'besonders zu vereinbarende Leistungen' (Zusatzleistun-
+                      gen) '…nach dem Aufwand' für die Phasen 1-6 bearbeitet.
+
+      Nachweis        Nach Bewerten der Teilleistungen (0-100%) wird auf dem Tabellenblatt
+                      'Nachweis' die erledigte Grund- resp. Zusatzleistung berechnet. Davon
+                      werden die verrechneten Akonto Zahlungen abgezogen, sodass jederzeit
+                      das aktuelle Guthaben ersichtlich ist.
+
+            Notizen   Das Tabellenblatt 'Notizen' enthält eine leere Excel Tabelle für individuelle
+                      Bedürfnisse.
+
+Eigene Tabellen       BBaseDokumente können durch eigene Tabellen des Benutzers ergänzt
+                      werden. So ist es möglich, sämtliche Daten in das Dokument zu integrie-
+                      ren, die für das Honorar massgebend sind.
+
+
+
+
+                      5.81 BBaseHonorar - Einführung                                        Seite 7/33
+
+
+                                               ff
+                                  fl
+                          ff
+       ff
+                 Die ergänzenden BBaseWerkzeuge
+                 Die Hilfsmittel der BBaseBüroadministration wurden auf vier BBaseWerk-
+                 zeuge (BBaseAuftrag, BBaseKostenrechnung, BBaseJournal und BBaseHono-
+                 rar) verteilt. Diese beinhalten eigenständige Bereiche für Auswertungen und
+                 Kennzahlen.
+
+                 Das vorliegende Handbuch beschränkt sich auf Erläuterungen zur Ar-
+                 beitsweise mit BBaseHonorar.
+
+ Projekt-            Sollzeit            Lohn-            Betriebs-        Finanz-
+verwaltung                            abrechnung        kostenrechn'g    buchhaltung
+   Bauherr
+                      Ferien
+                     Freitage           Zahlungen          Personal         Budget         Auftrag
+Informationen       Anwesend              AHV           Gemeinkosten        Bilanz
+ Kennzahlen         Abwesend              SUVA          Risiko, Gewinn      Erfolg
+ Kostenindex                              BVG            Std Ansätze      Auswertung
+
+
+
+                   Mitarbeiter        Auswertung          Auftrags-      Auswertung
+                    Journal            Personal                            Auftrag             Debitoren
+                                                         verwaltung
+                                                                                               Fälligkeit
+                     Stunden             Ansätze           Budget        Honorar, Dritte      Zahlungen
+                     Spesen            Extern, Intern    Kalkulation        Spesen           Mehrwertsteuer
+                    Beschriebe         Anwesenheit       Abrechnung         Budget              Inkasso
+                     Notizen           Abwesenheit         Ertrag          Guthaben
+
+
+
+
+                   Auswertung           Leistung          Honorar         Nachweis             Rechnung
+                      Sollzeit         Mitarbeiter         Offerte       Grundleistung          Pauschal
+                       Istzeit        Stundensätze         Vertrag       Zusatzleistung         Stunden
+                    Arbeitszeit-       Teamfaktor          SIA 102       Akontozahlung           Spesen
+                      statistik       Korrekturfaktor    oder Eigene      Rückstellung         Konditionen
+
+
+                Journal                                 Honorar
+
+                 Erklärungen zu Journal, Auftragsverwaltung und Kostenrechnung werden
+                 beschrieben unter:
+
+                 Auftrag - Liste, Umsatzkontrolle, Rechnungen und Inkasso (AV)
+                 Mit BBaseAuftrag wird für jeden Auftrag eine Auftragskarte geführt. Sie
+                 enthält neben den Kunden- und Objektadressen, Konditionen, Termine,
+                 Mitarbeiterstamm, Vorgaben, Leistungen und Abrechnungen.
+                 Alle Auswertungen wie Guthaben, angefangene Arbeiten, Restleistung,
+                 Auslastung, Nachkalkulation usw. sind Resultate der vorhandenen Einträge
+                 und können deshalb ausgezeichnet und blitzschnell von BBase berechnet
+                 werden.
+                 Das umständliche Zusammentragen der Informationen für die Nachkal-
+                 kulation entfällt. Periodisch wird jeder Auftrag bewertet und zeigt so den
+                 positiven oder negativen Ertrag resp. Guthaben frühzeitig an. Die Leistun-
+                 gen und der Einsatz der Mittel können rechtzeitig beein usst werden.
+
+                 Kostenrechnung - Betriebskosten und Stundenansätze (KR)
+                 Mit BBaseKostenrechnung werden Personal- und Betriebskosten zusam-
+                 mengefasst und der Selbstkosten- resp. Honorarkostenansatz für jeden
+                 Mitarbeiter berechnet. Die Auswertungen der Arbeitsstunden und Gemein-
+                 kosten bilden die Grundlage der Zuschlagskalkulation für jedes Architek-
+                 tur- oder Planungsbüro.
+                 Erstmals gelten die Kennzahlen 2012 von SIA als Benchmarks. Sie passen
+                 nahtlos in die Kostenrechnung von BBase und ermöglichen eine schnelle
+                 und sichere Kalkulation.
+
+
+                 5.81 BBaseHonorar - Einführung                                            Seite 8/33
+
+
+                                         fl
+                       Journal - Stunden- und Spesenerfassung im Architekturbüro (JO)
+                       Mit BBaseJournal werden Stunden und Spesen der Mitarbeiter im Archi-
+                       tektur- und Planungsbüro plattformübergreifend (Windows und MacOS X)
+                       erfasst. Als Bestandteil der Auftragsverwaltung von BBase wird damit die
+                       Grundlage für die Arbeitszeitstatistik und die Auftragsauswertung erstellt.
+                       Der Aufwand für das Erstellen der Statistiken wird auf ein absolutes Mini-
+                       mum reduziert.
+                       BBaseJournal ist ein einfaches Werkzeug, welches auf jedem Arbeitsplatz
+                       installiert, eine e ziente Aufzeichnung der Leistung ermöglicht.
+
+      Schnittstellen   Die Honoraranteile (Grund- und Zusatzleistungen) der Phasen 1 - 8 inkl.
+                       Nebenkosten werden für den Vergleich des e ektiven Aufwandes mit den
+                       Vorgaben in die Auftragsverwaltung importiert und stehen auch für die
+                       Übernahme in den Kostenvoranschlag des gewählten Projektes zur Verfü-
+                       gung.
+
+
+
+
+                       5.81 BBaseHonorar - Einführung                                      Seite 9/33
+
+
+                                  ff
+ffi
+                     5 Anhang
+                           Im Literaturverzeichnis sind einige Informationsquellen aufgeführt wel-
+                           che zusammen mit dem gedruckten Beispiel grundlegende Hinweise zur
+                           Honorarberechnung enthalten.
+
+
+                  5.1 Quellen und Literaturhinweise
+
+                           BBaseHonorar entspricht in weiten Teilen den Grundlagen des SIA. Das
+                           vorliegende Programm orientiert sich unter anderem an den entsprechen-
+                           den Unterlagen.
+
+Handbuch für Architekten   Vom Auftragsablauf bis zur Kostenrechnung
+                           Verlag Niggli AG, Sulgen ISBN 3-7212-0503-0
+
+    SIA, CH-8040 Zürich    SIA 102 (2014) Ordnung für Leistungen und Honorar
+                           der Architekten SN 508 102
+                           SIA 105 (2014) Ordnung für Leistungen und Honorar
+                           der Landschaftsarchitekten SN 509 105
+
+                           SIA 112 (2014) Leistungsmodell SN 509 112:2014
+                           SIA 1012/1 (2001) - Leistungsmodell
+                           Planervertrag (Bauherr - Planergemeinschaft)
+                           SIA 1012/2 (2001) - Leistungsmodell
+                           Gesellschaftsvertrag für Planergemeinschaften
+                           SIA 1012/3 (2001) - Leistungsmodell
+                           Einzelplanervertrag (Bauherr - Einzelplaner)
+                           SIA 1012/4 (2001) - Leistungsmodell
+                           Subplanervertrag
+                           SIA 1012/1,2,3+4 (2001) - Checkliste zur Vertragsgestaltung
+
+                           SIA D 0233 (2009) Lohnerhebung 2009
+                           SIA D 0218 (2006) Ermittlung der Gemeinkosten und Arbeitsstunden 2005
+                           SIA (2013) Factsheet Kennzahlenerhebung 2012
+
+                Internet   www.benchmarking.sia.ch - Kennzahlenerhebung
+                           www.centrepatronal.ch - Centre Patronal
+                           www.kmu.admin.ch - KMU-Portal des Staatsekretariates für
+                           Wirtschaft SECO
+                           www.bbl.admin.ch/kbob - Leitfaden für Bescha ung von Leistungen im
+                           Planerbereich, Empfehlung 2010
+                           www.bbase.ch - Werkzeug der Planungs- und Architekturbüros
+
+
+
+
+                           5.81 BBaseHonorar - Anhang                                      Seite 10/33
+
+
+
+
+                                                                      ff
+                           5.2 Begri e und Abkürzungen
+          Anpassungsfaktor          Mit dem Anpassungsfaktor kann das Honorar für die Grundleistungen
+                                    angepasst werden, wenn deren Erfüllung durch besondere Ein üsse verein-
+                                    facht oder erschwert wird. Wird in der Regel auch für Rabatte angewendet
+                                    und somit die Nachkalkulation vereinfacht.
+
+     Aufwandbestimmende             Aufwandbestimmende Baukosten sind in der Regel die wirklichen Kosten
+               Baukosten            des ausgeführten Bauwerks gemäss Bauabrechnung, nach Abzug der
+                                    vertraglich vereinbarten Rabatte.
+                                    Nicht zu den aufwandbestimmenden Baukosten gehören Honorare und
+                                    Reisezeitvergütungen des Architekten, der beteiligten Spezialisten und Be-
+                                    rater, MWSt auf allen Rechnungen, der Erwerb von Grund und Rechten, die
+                                    Finanzierungskosten, Gebühren, Versicherungsprämien, Wettbewerbskos-
+                                    ten, Feiern, Aufrichte, Nachbarentschädigungen, Miete, Anwalts- und Ge-
+                                    richtskosten, usw.
+
+                     Baukategorie   Die Einteilung der Bauwerksarten in verschiedene Kategorien gestattet die
+                                    Berücksichtigung des voraussichtlichen Umfanges der künstlerischen,
+                                    technischen und organisatorischen Leistung des Architekten und der ihm
+                                    daraus erwachsenden Verantwortung. Die Kategorie I umfasst anspruchslo-
+                                    se, die Kategorie IV mittlere und die Kategorie VII aussergewöhnliche Bau-
+                                    aufgaben.
+
+besonders zu vereinbarende          Besondere zu vereinbarende Leistungen können zu den
+                Leistungen          Grundleistungen hinzutreten, wenn die Art der Aufgabe dies erfordert oder
+                                    wenn sie der Auftraggeber wünscht. Die Ausführung von besonders zu ver-
+                                    einbarenden Leistungen ist vorab gemeinsam festzulegen.
+
+                       Baukosten    Siehe auch 'Aufwandbestimmende Baukosten'
+
+          Freiraumkategorie         Die Einteilung der Freiräume in verschiedene Kategorien gestattet die
+                                    Berücksichtigung des voraussichtlichen Umfanges der künstlerischen,
+                                    technischen und organisatorischen Leistung des Landschaftsarchitekten
+                                    und der ihm daraus erwachsenden Verantwortung. Die Kategorie I umfasst
+                                    anspruchslose, die Kategorie III mittlere und die Kategorie IV ausserge-
+                                    wöhnliche Bauaufgaben.
+
+           Grundleistungen          Die Leistungen, die normalerweise in den einzelnen Phasen erbracht
+                                    werden müssen, sind im Leistungsbeschrieb detailliert dargestellt. Die
+                                    Leistungen der Phasen 3 - 5 gliedern sich in Grundleistungen und beson-
+                                    ders zu vereinbarende Leistungen. In den Phasen 1, 2 und 6 sind infolge
+                                    der aufgabenspezi schen Unterschiede keine Grundleistungen enthalten.
+
+   Quali kationskategorien          Der Architekt und seine Mitarbeiter werden in sieben von A bis G be-
+                                    zeichnete Quali kationskategorien eingeteilt. Die jeder Funktion zugeord-
+                                    neten Stufen 1 - 3 ermöglichen es, das Können und die Erfahrung zu be-
+                                    rücksichtigen.
+                                    Für die Einstufung in die Quali kationskategorien ist die Funktion des
+                                    Architekten und der eingesetzten Mitarbeiter im Rahmen des Auftrages
+                                    massgebend, nicht aber ihre Stellung in der Firma.
+
+
+
+
+                                    5.81 BBaseHonorar - Anhang                                       Seite 11/33
+
+
+
+
+                                                                      fi
+                                                                 fl
+                                          ff
+                fi
+           fi
+     fi
+zusätzliche Leistung   Siehe auch 'besonders zu vereinbarende Leistungen'
+
+       Umbaufaktor     Mit dem Faktor für Umbau (Umbaufaktor) kann das Honorar für erhöhten
+                       Aufwand durch Umbau, Unterhalt und Denkmalp ege angepasst werden.
+
+
+
+
+                       5.81 BBaseHonorar - Anhang                                   Seite 12/33
+
+
+
+
+                                      fl
+5.3 Beispiel der Honorarberechnung
+    Die folgenden Seiten zeigen die gedruckte Version des beschriebenen
+    Beispiels in Originalgrösse. Dabei werden zwei Berechnungsarten einerseits
+    als Zusatzleistung für die Phasen 1 - 2 und andererseits mit Hilfe der Bau-
+    kostenmethode (SIA 102 resp. SIA 105) für die Phasen 3 - 5 dargestellt.
+
+
+
+
+    5.81 BBaseHonorar - Beispiele                                    Seite 13/33
+5.81 BBaseHonorar - Beispiele   Seite 14/33
+5.81 BBaseHonorar - Beispiele   Seite 15/33
+5.81 BBaseHonorar - Beispiele   Seite 16/33
+5.81 BBaseHonorar - Beispiele   Seite 17/33
+5.81 BBaseHonorar - Beispiele   Seite 18/33
+5.81 BBaseHonorar - Beispiele   Seite 19/33
+5.81 BBaseHonorar - Beispiele   Seite 20/33
+5.81 BBaseHonorar - Beispiele   Seite 21/33
+5.81 BBaseHonorar - Beispiele   Seite 22/33
+5.81 BBaseHonorar - Beispiele   Seite 23/33
+5.81 BBaseHonorar - Beispiele   Seite 24/33
+5.81 BBaseHonorar - Beispiele   Seite 25/33
+5.81 BBaseHonorar - Beispiele   Seite 26/33
+5.81 BBaseHonorar - Beispiele   Seite 27/33
+5.81 BBaseHonorar - Beispiele   Seite 28/33
+5.81 BBaseHonorar - Beispiele   Seite 29/33
+5.81 BBaseHonorar - Beispiele   Seite 30/33
+5.81 BBaseHonorar - Beispiele   Seite 31/33
+5.81 BBaseHonorar - Beispiele   Seite 32/33
+5.81 BBaseHonorar - Beispiele   Seite 33/33
+

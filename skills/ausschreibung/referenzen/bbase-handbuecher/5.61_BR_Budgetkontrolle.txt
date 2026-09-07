@@ -1,0 +1,1888 @@
+ Kostenplanung        Budgetkontrolle
+                      Kostenvoranschlag und Baubuchhaltung
+                                                                                                   5.61
+    Ausführung
+
+
+ Kostenkontrolle
+
+
+Honorar, Auftrag
+
+
+
+
+                      Mit BBaseBudgetkontrolle wird der Kostenvoranschlag mit der Gliederung
+                      des 'Baukontenplan' BKP 2001 erfasst. Er bildet als Kontoplan und Budget
+                      die Grundlage für die Kostenüberwachung mit der Baubuchhaltung.
+
+                      Im Gegensatz zum Modul BBaseBauKostenSystem (BKS) werden beim
+                      Kostenvoranschlag keine Kosten entwickelt oder entworfen, sondern
+                      bekannte Beträge zusammengetragen und in vorbereitete Tabellen
+                      abgefüllt oder aus BKS Vorlagen importiert.
+
+                      Mit Hilfe von Checklisten und Suchbegriffen wird ein KV aufgebaut, welcher
+                      auch als leicht verständlicher Baubeschrieb Verwendung findet.
+                      Alle Mutation und Zahlungen werden mit der Baubuchhaltung im Vergleich
+                      zum KV festgehalten, sodass jederzeit eine aktuelle Prognose zu den
+                      Kostenerwartungen mit Hilfe des Kostenrapportes zur Verfügung steht.
+
+
+
+
+      22. Juli 2010   © PMS Informatik AG CH-8617 Mönchaltorf www.bbase.ch
+BBase
+© PMS Informatik AG Alle Rechte vorbehalten
+
+Betriebsanleitung, Handbücher und Software sind urheberrechtlich
+geschützt. Das Kopieren, Vervielfältigen, Übersetzen oder Umsetzen in
+irgendein elektronisches Medium oder Maschinen lesbare Form im Ganzen
+oder in Teilen ohne vorherige schriftliche Genehmigung von PMS Informatik
+AG ist nicht gestattet. Alle weiteren Rechte an der Software sind in den
+mitgelieferten Lizenzbestimmungen festgelegt.
+
+PMS Informatik AG, Usterstrasse 12, CH-8617 Mönchaltorf
+Fon +41(0)44 948 12 14, Fax +41(0)44 948 19 41
+Mail Info@pmsag.ch , Internet www.pmsag.ch
+
+
+
+
+Vorwort
+Dieses farbig gestaltete PDF-Dokument bietet Anweisungen zur
+Anwendung des Programms BBaseKostenvoranschlag
+
+
+Das vorliegende Benutzerhandbuch stellt neben methodischen Erklärungen
+auch Kurzanleitungen für Fortgeschrittene, ausführliche Anweisungen für
+das Erstellen eines neuen Dokumentes und detaillierte Anleitungen zur
+Arbeitstechnik zur Verfügung.
+
+Wir bitten an dieser Stelle alle Architektinnen um Verständnis, dass im
+folgenden Handbuch nur der Architekt erwähnt wird.
+
+Bevor Sie sich mit diesem Dokument befassen empfiehlt es sich, das
+beiliegende Beispiel und die Grundlagen im Literatur- und
+Quellenverzeichnis zu studieren.
+
+Dieser Bericht wurde von Peter M. Schmid geschrieben, illustriert und mit
+Pages 09 auf einem Apple MacIntosh erstellt.
+
+
+
+Mönchaltorf, 22. Juli 2010
+
+
+
+
+5.85 BBaseBudgetkontrolle - Kostenvoranschlag und Baubuchhaltung          Seite 2/40
+  Inhalt
+  Das vorliegende Handbuch soll für Anfänger und Fortgeschrittene
+  Informationen enthalten, welche die Anwendung der BBaseWerkzeuge
+  unterstützen. Die einzelnen Kapitel enthalten dafür folgende Beschriebe.
+
+
+1 Einführung und Grundlagen
+  Allgemeine Infos zum Thema Kostenrechnung werden am einfachen
+  Beispiel erklärt. Zudem werden der Aufbau und Inhalt der Arbeitsmappe
+  und ergänzende BBaseWerkzeuge beschrieben.
+
+
+5 Anhang
+  Einige Informationsquellen sind im Literaturverzeichnis aufgeführt und
+  enthalten zusammen mit dem gedruckten Beispiel grundlegende Hinweise
+  zur Budgetkontrolle.
+
+
+
+
+  5.61 BBaseBudgetkontrolle - Inhalt                                Seite 3/40
+1 Einführung und Grundlagen                                     5
+ 1.1 Problematik des Kosten(vor)anschlags                        5
+    -   Was muss nach SIA102 geleistet werden?                   5
+    -   Regeln schaffen Klarheit                                 6
+    -   Reiches Angebot an Baupreisindizes                       6
+    -   Mittel und Wege mit BBase                                7
+ 1.2 Der BauKontenPlan                                           8
+    -   Der Baukostenplan BKP 2001                              8
+    -   Eigene Bezeichnungen für Buchungskonti                  8
+    -   Standard BKP als Basis mit Beschrieben ergänzt          9
+    -   Vergabeeinheit als Verbindung zur Ausführung           10
+ 1.3 Auswerten der Zahlensammlung                              12
+    - Zusammenzählen oder Aufteilen der Kosten?                12
+    - Finanzgliederung (FG) für alle Fälle                     12
+    - Objektgliederungen (OGL) zwingend für Kennwerte          14
+ 1.4 Der Umgang mit der Mehrwertsteuer                         16
+    - Mehrwertsteuer inklusive                                 16
+    - Mehrwertsteuer exklusive                                 16
+
+5 Anhang                                                     17
+ 5.1 Quellen und Literaturverzeichnis                          17
+ 5.2 Beispiel Kostenvoranschlag                                18
+    -   Deckblatt KV                                           19
+    -   Hinweise KV                                            20
+    -   Infos, Kostengliederung KV                             21
+    -   Bemerkung, Dokumentation KV                            22
+    -   Baubeschrieb KV BKP 1-/2-stellig                       23
+    -   Baubeschrieb KV BKP 3-stellig, Konti                   24
+    -   KV BKP 3-stellig ohne Konti                            25
+    -   Finanzierung, Bruttomietkosten                         26
+    -   Nettomietkosten, Mieterspiegel                         27
+    -   Vergabeeinheit ohne Buchungen                          28
+ 5.3 Beispiel Baubuchhaltung                                   29
+    -   Vergabeantrag                                          30
+    -   Vergabeantrag Anhang                                   31
+    -   Änderungsprotokoll                                     32
+    -   Änderungsprotokoll Anhang                              33
+    -   Zahlungsauftrag                                        34
+    -   Zahlungsauftrag Anhang                                 35
+    -   Vergabeeinheit mit Buchungen                           36
+    -   Zahlungsauftrag                                        37
+    -   Preisstandanpassung BKP 1-stellig                      38
+    -   Kostenrapport BKP 2-stellig                            39
+    -   Kostenrapport BKP 3-stellig mit Konti                  40
+
+
+
+
+ 5.62 BBaseBudgetkontrolle - Inhalt                      Seite 4/40
+                    1 Einführung und Grundlagen
+                          In diesem Kapitel werden allgemeine Probleme zum Thema
+                          'Kostenvoranschlag' und 'Baubuchhaltung' aufgezeigt und das Konzept
+                          von BBase erklärt. Zudem werden der Aufbau und Inhalt der
+                          Arbeitsmappen und ergänzende BBaseWerkzeuge beschrieben.
+
+
+
+
+                 1.1 Problematik des Kosten(vor)anschlags
+                          Was muss nach SIA102 geleistet werden?
+
+                          In der Ordnung SIA 102 (2003) 'Leistungen und Honorare der Architekten'
+                          unter Artikel 4.32 'Bauprojekt - Kosten Finanzierung', sind einige
+                          Bemerkungen zum Thema 'Kostenvoranschlag' aufgezählt.
+
+                          Auszug aus SIA 102 Art. 4.3.2
+
+                          Grundleistungen
+                          Erstellen des Kostenvoranschlages mit detaillierter Beschreibung der
+                          vorgesehenen Arbeiten und Lieferungen, Bezeichnungen der gewählten
+                          Materalien, mit Ausmass und geschätzten Preisen.
+                          Aufbau des z.B Kostenvoranschlags. nach Untergruppen (dreistellig) und
+                          Gattungen (vierstellig) des BKP (Baukostenplan) oder nach
+                          Elementmethode gegliedert.
+                          Der Genauigkeitsgrad (mangels besonderer Vereinbarung +-10%) ist im
+                          Kostenvoranschlag zu nennen. Beträge für Unvorhergesehenes sind
+                          seperat auszuweisen...
+
+                          Besonders zu vereinbarende Leistungen
+                          Schätzen der Betriebs- und Unterhaltskosten, Rentabilitätsberechnung.
+                          Baukostenvergleich grundsätzlich verschiedener Konstruktionsarten....
+
+
+Haftung des Architekten   Schlussfolgerungen aus brisanten Gerichtsentscheiden lassen folgende
+                          Grundregeln erkennen:
+
+                          Vor Baubeginn muss zwingend ein Kostenvoranschlag erfasst werden,
+                          damit der Bauherr rechtzeitig entsprechende Entscheide fällen kann.
+
+                          Jede Kostenprognose muss mit Angaben zur Genauigkeit (Toleranzrahmen)
+                          ergänzt werden, sonst gilt Nulltoleranz.
+
+                          Die Kostenprognosen sind einzuhalten.
+
+
+
+
+                          5.61 BBaseBudgetkontrolle - Einführung und Grundlagen           Seite 5/40
+                       Regeln schaffen Klarheit
+
+                       Der Kostenvoranschlag beinhaltet die abschliessende Zusammenstellung
+                       der Kostenprognosen vor Baubeginn und bildet den Ausgangspunkt für die
+                       folgende Kostenüberwachung.
+
+                       In der Phase der Projektierung muss einerseits das Bauprojekt und der
+                       Kostenvoranschlag durch den Auftraggeber genehmigt und anderseits die
+                       Darstellungsart und Gliederung der Kosten abschliessend festgelegt sein.
+                       Nach der Ratifizierung ist die Kostenzusammenstellung fixiert.
+                       Abweichungen führen anschliessend zu Mutationen, welche mit Hilfe der
+                       Baubuchhaltung aufgezeichnet werden.
+
+      Die drei Teile   Das Anhäufen von Zahlen allein garantiert keine zuverlässigen
+der Kostenfindung      Kostenprognosen. Bemerkungen zur Quantität (Menge) und Qualität
+                       (Baubeschrieb) bilden, ergänzt mit grafischen Hilfsmitteln (Pläne oder
+                       Skizzen), das Fundament aller Kalkulationen. Fehlt ein Teil der Information
+                       ist das Ergebnis nichts wert.
+                       Für das Festsetzen des Kostenvoranschlags gelten einige Regeln, welche
+                       Klarheit beim Erfassen der Kosten schaffen.
+
+
+
+                       Reiches Angebot an Baupreisindizes
+
+                       Die Baupreise sind stets Schwankungen der Konjunktur ausgesetzt. Um
+                       diese Bewegungen festzuhalten wird jede Kostenberechnung mit dem
+                       entsprechenden Indexdatum versehen. Preisschwankungen können später
+                       mit Hilfe von Indexpunkten berücksichtigt werden. Hierzu stehen folgende
+                       Indizes zur Verfügung:
+
+                       Der 'Zürcher Index der Wohnbaupreise' wird von der Statistik Stadt Zürich
+                       einmal pro Jahr per 1. April berechnet und erscheint Ende Juni des
+                       jeweiligen Kalenderjahres. Er bildet eine Richtzahl für Mehrfamilienhäuser,
+                       welche nach Bauart und Lage den Indexhäusern entsprechen.
+
+                       Der 'schweizerische Baupreisindex' ist ein Konjunkturindikator, der die
+                       zeitliche Entwicklung der effektiven Marktpreise der im Baugewerbe tätigen
+                       inländischen Unternehmen erfasst. Er widerspiegelt die
+                       konjunkturbedingten Bewegungen von Angebot und Nachfrage, sowie die
+                       Produktivitätsgewinne.
+                       Er bietet Ergebnisse für das Baugewerbe als Ganzes, aber auch für den
+                       Hochbau, der in vier Bauwerksarten unterteilt ist. Die Indizes sind
+                       entsprechend der Gliederung der Schweiz in sieben Grossregionen
+                       regionalisiert.
+
+                       Ein direkter Vergleich zwischen den beiden Indizes ist aufgrund zahlreicher
+                       methodischer Unterschiede unmöglich. Die Mehrwertsteuer beispielsweise
+                       ist beim 'Zürcher Index' enthalten fehlt jedoch beim 'schweizerischen
+                       Baupreisindex'.
+
+
+
+
+                       5.61 BBaseBudgetkontrolle - Einführung und Grundlagen               Seite 6/40
+                  Mittel und Wege mit BBase
+
+       Ziele...   Mit einfachen Methoden sollen Baukosten in den Kostenvoranschlag
+                  abgefüllt und mit der Baubuchhaltung überwacht werden. Dazu sind die
+                  seit Jahrzehnten verbreiteten Strukturen mit neuen Konzepten zu ergänzen,
+                  welche das übergeordnete Gruppieren von Kosten erlauben. Das
+                  regelkonforme Abfüllen der Kosten muss mit Kommentaren unterstützt
+                  sein, damit das Budget transparent bleibt und alle Leistungen
+                  nachvollziehbar abgelegt werden. Für das Schätzen der Folgekosten
+                  müssen neben den Investitionskosten im Sinne von 'Design to Cost'
+                  Verzinsungen, Betriebs- und Unterhaltskosten dynamisch berechnet
+                  werden.
+
+...durchgängig    Beschriebe, Investions- und Folgekosten werden zusammen erfasst und für
+                  verschiedene Beteiligte (Bauherr, Architekt, Unternehmer, usw.) mit
+                  unterschiedlicher Darstellung ausgewertet und gedruckt.
+
+
+
+
+                  5.61 BBaseBudgetkontrolle - Einführung und Grundlagen            Seite 7/40
+                   1.2 Der BauKontenPlan
+                            Nicht jede Gliederung eignet sich für das Verfassen eines
+                            Kostenvoranschlags und das Überwachen der Baukosten. Seit mehr als 40
+                            Jahren werden Baukosten mit Hilfe des BKP (BauKontenPlan 2001)
+                            strukturiert gesammelt. Im Gegensatz zu planungsorientierten
+                            Gliederungen wie EKG (ElementKostenGliederung), welche speziell auf
+                            Belange der Planungsphase Rücksicht nehmen, wurde der BKP mit
+                            Arbeitsgattungen als ausführungsorientierte Gliederung konzipiert. Die
+                            eigentlichen Leistungen der Unternehmer werden mit Hilfe des NPK
+                            (NormPositionenKatalog) beschrieben. Damit sind oft drei verschiedene
+                            Gliederungsstrukturen notwendig. Einleuchtende Verteilschlüssel zwischen
+                            den Systemen fehlen.
+
+
+
+                            Der Baukostenplan BKP 2001
+                            Auszug aus SN 506 500 'Baukostenplan BKP'
+
+                            Der BKP ist ein Anlagekontenplan für sämtliche Kosten, die bei der
+                            Erstellung einer Baulichen Anlage anfallen: Grundstückskosten,
+                            eigentliche Baukosten, Einrichtungen, Ausstattungen, Honorare und
+                            Nebenkosten aller Art. Es handelt sich beim BKP im Grunde genommen
+                            um einen Investitionskostenplan.
+
+                            Durch die systematische Gliederung von Kostenvoranschlägen und
+                            Ausschreibungen nach BKP können Zahlen aus Offerte und Werkvertrag
+                            einfach und ohne Transformation in die Kostenüberwachung
+                            übernommen werden, wenn diese nach BKP geführt wird.
+
+                            Die einzelnen Gliederungsbegriffe des BKP sind: Hauptgruppe
+                            (einstellig), Gruppe (zweistellig), Untergruppe (dreistellig) und Gattung
+                            (vierstellig). Die Hauptgruppen dienen einer ersten groben Gliederung
+                            der Kosten eines Bauvorhabens. Die zunehmende Verfeinerung durch
+                            Anfügen weiterer Dezimalstellen ermöglicht eine differenzierte
+                            Detaillierung der Kosten.
+
+...Handhaben des BKP 2001   Kuriose Phänomene fallen bei der Anwendung des BKP auf. BBase bietet
+                            dafür unkonventionelle aber pragmatische Lösungen.
+
+
+
+                            Eigene Bezeichnungen für Buchungskonti
+
+                            Das Durchmischen von Unternehmerbegriffen (211 Baumeisterarbeiten,
+                            273 Schreinerarbeiten) und Bauteilbegriffen (221 Fenster, Aussentüren,
+                            Tore oder 226 Fassadenputze) im BKP führt zu Erklärungsnotstand unter
+                            Baubeteiligten. Es fällt schwer zu verdeutlichen, warum die 'Fenster' nicht
+                            im Konto des 'Schreiner' gebucht werden.
+
+                            Mit BBase werden die Kosten in Konti erfasst, welche der BKP Gliederung
+                            untergeordnet sind. Der gewählte Begriff kann entweder der Gattung des
+                            BKP oder einer eigenen Definition entsprechen.
+
+
+
+
+                            5.61 BBaseBudgetkontrolle - Einführung und Grundlagen                Seite 8/40
+Eindeutig   Die Verwirrung bezüglich BKP Bezeichnungen wie 'Baumeister', 'Schreiner',
+            'Türen', 'Tore', usw. kann mit eindeutigen Kontobezeichnungen aufgehoben
+            werden. Damit wird ausserdem die begrenzte Zahl (max. 9) der Gattungen
+            gesprengt weil innerhalb der BKP Untergruppe bis 99 Konti mit typischen
+            Zusammenfassungen angezeigt werden. Alle Kosten der Konti werden auf
+            BKP1-, 2-, und 3-stellig als Auswertung summiert.
+
+
+
+
+            Standard BKP als Basis mit Beschrieben ergänzt
+            Beim Zusammenstellen des KV werden die Begriffe der Gattungen gerne als
+            Checkliste für das lückenlose Sammeln der Kosten herangezogen. Für die
+            Kostenüberwachung schiesst die somit vierstellige Struktur weit über das
+            Ziel hinaus, weshalb die Abrechnung nur mit dreistelligen Gruppen
+            erfolgen sollte. Wer will schon die Abschlags- und Schlusszahlungen des
+            Baumeisters auf die Konti 211.0 bis 211.7 aufschlüsseln?
+
+            Mit der Dokumentation 'Baukostenplan, Information für Anwender' wurde
+            von der Schweizerischen Zentralstelle für Baurationalisierung CRB ein
+            umfangreicher Bericht zur Anwendung des BKP verfasst. Neben
+            Kommentaren zu den einzelnen Begriffen sind auch Stichwörter und
+            Zuordnungen pragmatisch geregelt. Die Erklärungen sind nur Einzelnen
+            bekannt, weshalb Kosten oft unabsichtlich in falsche BKP Gruppen
+            entschwinden und danach ungültige Rückschlüsse zu Kennzahlen
+            vorgaukeln.
+
+            Die Gliederung des BKP 2001 steht als Tabelle der gebräuchlichen
+            Hauptgruppen zur Verfügung. Dabei werden Untergruppen resp. Gattungen
+            in wesentlichen Gruppen resp. Untergruppen zusammengefasst.
+
+
+
+
+            5.61 BBaseBudgetkontrolle - Einführung und Grundlagen            Seite 9/40
+      Vereinfacht...   Die kurze und vereinfachte Gliederung wird mit Kommentaren zum Inhalt
+                       und Bemerkungen zur Abgrenzung gegenüber andern BKP angezeigt. Dies
+                       gestattet das Suchen von Begriffen in der ganzen Tabelle und ermöglicht so
+                       eine geordnete Zuweisung der Kosten mit den Festlegungen des BKP.
+
+...zusammengefasst     Mit Hilfe von Suchbegriffen und Stichworten (Checkliste aus 'Information
+                       für Anwender') werden innerhalb des aktuellen Kontos Baubeschriebe und
+                       Kosten gruppiert eingegeben. Oft entsprechen diese Teilmengen den
+                       Gattungen von BKP 4-stellig. Kostenrelevante Teile können aufgetrennt
+                       eingerechnet oder als Eventualposition nur angezeigt werden. Die
+                       einzelnen Beschriebsgruppen und Kosten werden im Konto summiert und
+                       wenn nötig einer Vergabeeinheit (Leistungsträger) zugewiesen.
+
+
+
+
+                       Vergabeeinheit als Verbindung zur Ausführung
+                       Die ursprünglich direkte Ableitung der NPK (Normpositionenkatalog)
+                       Struktur aus der Gliederung des BKP wurde 1989 aufgehoben. Die danach
+                       publizierten Verteilschlüssel sind schwer verständlich und nur mit
+                       komplizierten Regeln nachvollziehbar. Die Tauglichkeit des BKP als
+                       ausführungsorientierte Gliederung ist deshalb fragwürdig.
+
+                       Ausführende Unternehmer realisieren oft Leistungen, welche in verschieden
+                       BKP Untergruppen oder Gattungen gesammelt werden. Ausserdem ist nicht
+                       ausgeschlossen, dass verschiedene Ausführende im gleichen BKP enthalten
+                       sind. Um die Übersicht zu wahren sollten die dazugehörigen Kosten
+                       getrennt gesammelt werden.
+
+
+
+
+                       5.61 BBaseBudgetkontrolle - Einführung und Grundlagen           Seite 10/40
+            Jedem Konto kann mit BBase eine Vergabeeinheit (VE) angefügt werden.
+            Diese entsprechen Unternehmern, Lieferanten, Werkgruppen, usw., welche
+            bei der Kostenüberwachung mit Vergabesummen (Vertrag, Nachtrag,
+            Teuerung, Regie, usw.) erfasst werden. Beim Kostenvoranschlag werden mit
+            Hilfe der Vergabeeinheit 'Pakete' für die Ausführung geschnürt.
+
+Übersicht   Kosten des gleichen Unternehmers (VE) aus verschiedenen Konti unter
+            diversen BKP Untergruppen, werden in speziellen Listen zusammengezählt.
+            Frei von BKP Gliederungen ist die ausführungsorientierte Beurteilung der
+            Vergabeeinheiten quer über alle Konti für die Kostenüberwachung
+            gewährleistet.
+
+
+
+
+            5.61 BBaseBudgetkontrolle - Einführung und Grundlagen          Seite 11/40
+1.3 Auswerten der Zahlensammlung
+        Zusätzlich zum BKP müssen Kostenvoranschläge und Baubuchhaltungen oft
+        mit verschiedenen Kriterien ausgewertet werden. Mit dem Festlegen von
+        speziellen Gliederungen (z.B. Finanz-, Objektgliederung, Zahlungskonti
+        usw. ) wird der Kostenvoranschlag für die spätere Baubuchhaltung
+        strukturiert.
+
+
+
+        Zusammenzählen oder Aufteilen der Kosten?
+        Neben objektorientierten Gliederungen, welche die Baukosten nach Ort 'an
+        dem die Kosten entstehen' aufteilen, sind Auswertungen für Varianten,
+        Eventualkosten, Kostenteiler, usw. erforderlich. Objektgliederungen werden
+        oft für das das Aufteilen der Kosten missbraucht obwohl diese eigentlich
+        für das Addieren von Teilobjekten vorgesehen sind.
+
+        Die Beträge im Kostenvoranschlag und in der Baubuchhaltung werden
+        einerseits mit Konti (Vertikal) und andererseits mit Gliederungen
+        (Horizontal) strukturiert. Dabei unterscheidet man das
+        'Aufteilen' (Finanzierungsgliederung=FG) oder das
+        'Zusammenzählen' (Objektgliederungen=OGL) der Kosten in einzelnen
+        Spalten.
+
+        Der Entscheid für die eine oder andere Gliederungsart wird durch
+        Zielsetzungen beeinflusst, welche zwingende das Einhalten von Regeln zur
+        Folge haben.
+
+
+
+        Finanzgliederung (FG) für alle Fälle
+
+        Im Gegensatz zur Objektgliederung werden Finanzierungsgliederungen
+        nach dem Totalbetrag aus dem gleichen Konto in eigene Spalten aufgeteilt.
+        Je nach Art der Gliederung (mehrere Käufer, wertvermehrend/
+        werterhaltend, Eigenmittel/Subvention, usw.) kommen fixe
+        Aufteilungsschlüssel oder variables Aufteilen zur Anwendung. In allen
+        Fällen entspricht die Summe der Teilbeträge auch nach Anpassungen dem
+        Totalbetrag. Differenzen werden immer auf allen FG ausgeglichen.
+
+ Ziel   Der Totalbetrag soll auf verschiedene Gliederungen aufgeteilt werden.
+        Dazu müssen folgende Regeln eingehalten werden:
+
+  1)    Die räumlichen Flächen müssen nicht zusammenhängend sein
+  2)    Die Nutzungsarten müssen nicht einer einzigen Bauwerksart entsprechen
+  3)    Die Unternehmerrechnungen müssen nicht getrennt erstellt werden
+  4)    Der Totalbetrag wird für die Kosten der einzelnen FG aufgeteilt
+  5)    Die Berechnung der Kosten muss nicht mit dem Werkzeug BBaseBKS
+        erfolgen
+
+
+
+        Ist eine der Regeln nicht zutreffend wird mit der FG die falsche
+        Gliederungsstruktur gewählt.
+
+
+        5.61 BBaseBudgetkontrolle - Einführung und Grundlagen              Seite 12/40
+                          Die Totalbeträge werden aus der Kostenermittlung von
+                          BBaseBauKostenSystem importiert oder direkt im Kostenvoranschlag erfasst
+                          und automatisch auf die Spalten der einzelnen FG verteilt.
+
+             ...typisch   An Beispielen werden typische Finanzgliederungen erklärt:
+!
+               Umbau      Bei Umbauten oder Bauerneuerungen müssen die Totalbeträge der
+                          einzelnen Konti oft in 'werterhaltende' resp. 'wertvermehrende' Kosten
+                          aufgeteilt werden. Dafür wird ein provisorischer Aufteilungsschlüssel
+                          festgelegt, welcher den Totalbetrag automatisch verteilt.
+                          Anschliessend werden die Beträge der einzelnen Konti in den Spalten der
+                          Finanzgliederungen überschrieben oder gelöscht. Die daraus entstehende
+                          Differenz wird immer auf die andere FG aufgerechnet.
+
+    Stockwerkeigentum     Im Stockwerkeigentum werden die Kostenanteile der einzelnen Käufer über
+                          Wertquoten festgelegt. Dafür wird für jeden Käufer eine FG mit der
+                          Wertquote als Aufteilungsschlüssel festgelegt, welcher den Totalbetrag für
+                          den Grundausbau automatisch verteilt.
+                          Anschliessend werden die Beträge für 'Sonderwünsche' auf eigene Konti
+                          erfasst und direkt den entsprechenden FG zugewiesen. Das Total einer
+                          einzelnen Finanzgliederungen entspricht so immer den Kosten für den
+                          Grundausbau und die Sonderwünsche eines einzelnen Käufers.
+
+
+
+
+       Kostengruppen      Im Gegensatz zu den vorgängigen Beispielen kann beim Verwenden der FG
+                          für Kostengruppen (z.B. Ausscheiden von Subventionsberechtigten Kosten,
+                          Fremdmittel, Eigenleistung, Etappierungen usw.) der Totalbetrag eines
+                          einzelnen Konto direkt einer einzelnen Finanzgliederung zugewiesen
+                          werden.
+                          Abschliessend können trotzdem einzelne Konti mit einem Aufteilungs-
+                          schlüssel auf die FG verteilt werden.
+
+
+                          5.61 BBaseBudgetkontrolle - Einführung und Grundlagen            Seite 13/40
+             In der Baubuchhaltung wird der Betrag der 'Kostenerwartung' einerseits
+             automatisch proportional auf die Finanzgliederungen verteilt und
+             andererseits bei direkter Zuweisung eines Konto zu einer FG der
+             entsprechende Betrag direkt angezeigt.
+
+Vorgehen     Die Kostenermittlung kann mit den Werkzeugen von
+             BBaseBauKostenSystem erstellt und importiert oder direkt im Kosten-
+             voranschlag erfasst werden.
+             Anschliessend werden die einzelnen Finanzgliederungen definiert und die
+             Beträge auf die verschiedenen FG aufgeteilt.
+
+
+
+             Objektgliederungen (OGL) zwingend für Kennwerte
+
+             Im Gegensatz zu Finanzgliederungen werden Objektgliederungen aus dem
+             gleichen Konto in eigenen Spalten dargestellt und für den Totalbetrag
+             zusammengezählt.
+
+      Ziel   Für einzelne Objektteile sollen Kennwerte berechnet werden. Dazu müssen
+             für die Teilobjekte folgende Regeln eingehalten werden:
+
+       1)    Die räumlichen Flächen sind zusammenhängend
+       2)    Die Nutzungsarten entsprechen einer einzigen Bauwerksart
+       3)    Alle Unternehmerrechnungen erfolgen getrennt für jedes Teilobjekt
+       4)    Die Kosten der einzelnen OGL werden zusammengezählt (nicht aufgeteilt)!
+       5)    Die Berechnung der Kosten erfolgt mit dem Werkzeug BBaseBKS
+
+
+             Ist eine der Regeln nicht zutreffend wird mit der OGL die falsche
+             Gliederungsstruktur gewählt.
+
+             Teilobjekte können in der Projektverwaltung oder im aktuellen
+             Kostenvoranschlag definiert werden. Die Kosten der einzelnen OGL werden
+             aus der Kostenermittlung von BBaseBauKostenSystem importiert, auf
+             verschiedene Konti verteilt, in eigenen Spalten dargestellt und für den
+             Totalbetrag addiert.
+
+...typisch   Am Beispiel eines Schulhauses können typische Objektgliederungen einfach
+             erklärt werden. Das Schulhaus wird in die Teilobjekte 'Schule' (Schulzimmer
+             und Nebenräume), 'Turnhalle' (Halle, Garderobe und Nebenräume) und
+             'Abwartwohnung' (Wohnung und Nebenräume) aufgeteilt weil...
+
+       1)    ...die einzelnen OGL eigenen Bauwerksarten zugeordnet werden
+       2)    ...spezielle Kennwerte angewendet werden (EKG, SIA 416)
+       3)    ...die Abrechnung für drei verschiedene Bauherren erfolgt (Politische- resp.
+             Schulgemeinde und deshalb für jede OGL auch eigene Rechnungen erstellt
+             werden.
+
+             Sinnvoll wäre auch das Trennen der OGL und Abrechnen in eigenständigen
+             Baubuchhaltungen.
+
+
+
+
+             5.61 BBaseBudgetkontrolle - Einführung und Grundlagen               Seite 14/40
+           Eine Tiefgarage bildet zusammen mit einem Wohnhaus keine eigene
+           Objektgliederung weil, die Rechnungen nicht getrennt erstellt werden.
+
+Vorgehen   Die Kostenermittlung für Objektgliederungen erfolgt für jedes Teilobjekt
+           getrennt mit den Werkzeugen von BBaseBauKostenSystem damit die
+           Kennwerte nicht vermischt werden.
+           Anschliessend werden die einzelnen OGL in den Kostenvoranschlag
+           importiert, zusammengezählt und als Grundlage für das getrennte
+           Überwachen der Kosten eingerichtet.
+
+
+
+           Zahlungskonti (ZK) für den Kapitalfluss
+
+           Grundsätzlich enthält eine Baubuchhaltung, im Gegensatz zur
+           Finanzbuchhaltung, einfache Aufwandbuchungen. Sie ist deshalb
+           nicht     geeignet für Bilanzen oder Erfolgsrechnungen. Trotzdem sollten
+           die Saldi von Zahlungskonti zur Überwachung bekannt sein.
+
+           Zusätzlich zu den erwähnten Gliederungen können für die Baubuchhaltung
+           deshalb verschiedene Zahlungskonti für Baukredit, Eigenmittel, WIR, Käufer
+           usw. eingerichtet werden. Diese zeigen den Kapitalfluss bei Zahlungen und
+           sind quer über alle Konti oder BKP Gliederungen möglich.
+           Mit Hilfe der Kontodaten (Name, Adresse, Bezeichnung) können ausserdem
+           Vergütungsaufträge und Auswertungen der bisherigen Zahlungssumme
+           gezeigt werden.
+
+
+
+
+           5.61 BBaseBudgetkontrolle - Einführung und Grundlagen            Seite 15/40
+1.4 Der Umgang mit der Mehrwertsteuer
+    Im Gegensatz zur Unternehmerkontrolle wird die Mehrwertsteuer in der
+    Budgetkontrolle von über 90% der Architekten nicht ausgeschieden. Dies
+    obwohl mit BKP 57 die Möglichkeit für das Ausscheiden der Mehrwertsteuer
+    geschaffen wurde.
+    Bei der Budgetkontrolle wird mit Hilfe der Baubuchhaltung die Abrechnung
+    (Zahlungen) mit dem Kostenvoranschlag (Budget) verglichen. Dieser
+    Vergleich soll möglichst einfach und frei von komplizierten Berechnung für
+    Konditionen, Abzüge, Mehrwertsteuer, usw. sein
+
+
+    Mehrwertsteuer inklusive
+
+    Mit BBase werden die Beträge im Kostenvoranschlag grundsätzlich inkl.
+    Mehrwertsteuer erfasst. Trotzdem wird in einer speziellen Spalte der
+    entsprechende MWSt Betrag angezeigt. Der in den Grundlagen erfasste
+    Standard Prozentsatz kann für jede Position (z.B. 010 Grundstück 0%)
+    einzeln festgelegt werden.
+
+
+
+
+    Beim Zwischentotal der Tabelle BKP Gruppen (2-stellig) und der
+    Zusammenfassung BKP Hauptgruppe (1-stellig) wird die Mehrwertsteuer
+    summiert und auch als Totalbetrag unter der Zusammenfassung berechnet.
+
+
+    Mehrwertsteuer exklusive
+
+    Bei der Gründung des Kostenvoranschlags kann festgelegt werden ob die
+    Mehrwertsteuer auf spezielle Konti ausgeschieden werden soll. Dafür wird
+    unter BKP 57 für jede Vergabeeinheit ein eigenes MWSt Konto eingerichtet.
+
+    Diese Festlegung kann nicht empfohlen werden.
+    Die Regeln der Mehrwertsteuer bezüglich Vorsteuerabzug und Abrechnung
+    sind sehr umfangreich und gehören deshalb in die Hände eines
+    Spezialisten mit entsprechender Finanz- resp. Betriebsbuchhaltung.
+
+
+    5.61 BBaseBudgetkontrolle - Einführung und Grundlagen           Seite 16/40
+                  5 Anhang
+                        Einige Informationsquellen sind im Literaturverzeichnis aufgeführt und
+                        enthalten zusammen mit dem gedruckten Beispiel grundlegende
+                        Hinweise zur Budgetkontrolle.
+
+
+
+               5.1 Quellen und Literaturverzeichnis
+                        BBaseBudgetkontrolle (Kostenvoranschlag und Baubuchhaltung) entspricht
+                        in weiten Teilen den Grundlagen des SIA und des CRB. Das vorliegende
+                        Programm orientiert sich unter anderem an den entsprechenden
+                        Unterlagen.
+
+                        Bauherrenberater (2002)
+                        Handbuch für Bauherrenberater
+                        KUB/SVIT, CH-8057 Zürich, ISBN 3-9522502-0-1
+
+                        Immobilienmanagement (2009)
+                        Handbuch für Immobilienentwicklung, Bauherrenberatung und
+                        Immobilienbewirtschaftung
+                        KUB/SVIT, CH-8057 Zürich, ISBN 978-3-7255-5860-5
+
+                        Bauen nach Smart (1998), SIA und SBV
+                        Birkhäuser, CH-4010 Basel, ISBN 3-7643-5923-4
+
+                        CRB, CH-8040 Zürich
+            BKP 2001    Baukostenplan SN 506 500
+                        BKP Information für Anwender Art. Nr. 200.04
+
+                        SI+A, CH-8039 Zürich
+       SIA 102 (2003)   Ordnung für Leistungen und Honorare der Architekten SN 508 102
+    SIA V1018 (2001)    Kostengarantie - Vertrag zwischen Bauherrn, Garanten und Beauftragtem
+        SIA 416 (2004   Flächen und Volumen von Gebäuden SN 504 416
+       SIA 450 (1993)   Kosteninformationen im Bauwesen SN 509 450
+       SIA 480 (2004)   Wirtschaftlichkeitsrechnung für Investitionen im Hochbau 2004 SN 506 480
+     SIA D083 (1983)    Planen+Bauen mit funktioneller Leistungsbeschreibung (FLB)
+    SIA D165 (2000)     Kennzahlen im Immobilienmanagement
+     SIA D510 (1993)    Bauprojektkosten mit EDV
+
+                        Eidg. Steuerverwaltung, CH-3000 Bern
+Mehrwertsteuer (2008)   Wegleitung für Mehrwertsteuerpflichtige - Publikation 610.525 d
+   Steuersätze (2008)   Branchenbroschüre Baugewerbe - Publikation 610.540-4
+
+
+
+
+                        5.61 BBaseBudgetkontrolle - Quellen und Literaturverzeichnis      Seite 17/40
+                 5.2 Beispiel Kostenvoranschlag
+                           Die folgenden Seiten zeigen die gedruckte Version des beschriebenen
+                           Beispiels in Originalgrösse. Dabei werden das Deckblatt und die Tabelle des
+                           Kostenvoranschlags dargestellt.
+
+
+
+
+5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag                                      Seite 18/40
+                           Deckblatt KV
+
+
+
+
+Objekt                                                   5-699
+                                                         MFH Bernerhof
+                                                         Forchstrasse 12
+                                                         8132 Egg
+
+
+Bauherr                                                  Herr K.Meier
+                                                         Forchstrasse 23
+                                                         8132 Egg
+
+
+Architekt                                                ARGE Beispiel AG
+                                                         Architekturbüro
+                                                         Usterstrasse 12
+                                                         8617 Mönchaltorf
+
+Sachbearbeiter                                           Hans Muster
+                                                         +41 79 948 1211
+                                                         Fax +41 44 948 19 41
+                                                         hmu@bbase.ch
+
+
+
+                                                         Kostenvoranschlag
+BBaseBaukosten 8.1                                       Bauprojekt 1:100 (Genauigkeit +/- 10 %)
+
+Inhalt                                                   Hinweise
+                                                         Zusammenfassung
+                                                         Kosten BKP 0-9
+                                                         Vergabeeinheiten
+                                                         Finanzierung
+
+
+
+Total Anlagekosten                                       CHF 5'350'000.00
+
+Datum                                                    Mönchaltorf, 10. Juni 2010
+
+
+
+
+Der Architekt                                            ......................................................................................
+
+
+
+
+Der Bauherr                                              ......................................................................................
+
+
+
+
+5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag                                                              Seite 19/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                                +41 44 948 12 14
+                             Hinweise KV
+
+ Hinweise
+5-699 MFH Bernerhof, 8132 Egg - Kostenvoranschlag
+
+ Bezeichnung          Beschrieb
+
+
+ Projekt Informationen
+ Objekt                5-699 MFH Bernerhof
+                       Forchstrasse 12, 8132 Egg
+ Bauherr               Herr K.Meier
+                       Forchstrasse 23, 8132 Egg
+ Sachbearbeiter       Herr K. Meier
+                      Telefon +41 44 948 12 14
+ Projektleiter
+
+
+ Sachbearbeiter
+
+
+ Architekt             ARGE Beispiel AG, Architekturbüro
+                       Usterstrasse 12, 8617 Mönchaltorf
+ Sachbearbeiter        Hans Muster
+                       Telefon +41 79 948 1211, Email hmu@bbase.ch
+ Bauleiter             Bauleitungsmanagement AG
+                       Postfach 52, 8623 Wetzikon ZH
+ Sachbearbeiter        Herr H. Knecht
+                       Telefon +41 79 456 65 47, Email bl@mbag
+ Projektart            Neubau
+ Bauwerksart           11 Wohnen
+ Projekt Info         Mehrfamilienhaus mit Gewerbeanteil und Tiefgarage im Zentrum von Egg an
+                      Hauptverkehrsstrasse gelegen. Direkt neben Forchbahnstation, Busbahnhof,
+                      Gemeindeverwaltung und Einkaufszentrum.
+ Raumprogramm         UG: Tiefgarage 11 PP, Lager, Schutzraum, Waschen und Wohnungskeller
+                      EG: Gewerbefläche 200 m2
+                      1.-3. OG: 6 Wohnungen, DG: Attikawohnung
+ Konstruktion         Massivbauweise mit Steil- und Flachdach, Fassade mit Hinterlüftung, Gaskessel mit
+                      Bodenheizung, Warmwasser mit Sonnenkollektoren, Kontrollierte Lüftung mit
+                      Wärmerückgewinnung, Minergiestandard.
+ Baubeginn             1. September 2009
+ Rohbauvollendung
+ Bezug                 1. Juli 2010
+
+
+
+
+5-699 Kostenvoranschlag.xls - 10.6.2010                                                                      Seite 2
+ 5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag                                                   Seite 20/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                              +41 44 948 12 14
+                           Infos, Kostengliederung KV
+
+ Bezeichnung          Beschrieb
+
+
+ Kosten Informationen
+ Projektstand          Bedarfsanalyse
+ Genauigkeit           Der Genauigkeitsgrad des Kostenvoranschlags beträgt:
+                       +/- 10 %
+ Währung              Die Preise sind in 'CHF' angegeben.
+ Preisstand           Die Preise dieses Dokuments beziehen sich auf folgenden Baukostenindex:
+                      Zürcher Baukostenindex
+                      Kostenstand 1. April 2008, 121.7 Pkt
+
+ MWSt                  Die Beträge der BKP-Konti sind inklusive Mehrwertsteuer.
+                       Die Mehrwertsteuer wurde nicht ausgeschieden.
+                       Der verwendete Mehrwertsteuersatz beträgt 7.6%.
+ Zuschlag              Der eingerechnete allgemeine Zuschlag beträgt:
+                       0%
+
+
+ Kostengliederungen
+ FGL                  Die Total-Kosten werden in folgende Finanzierungsanteile zerlegt:
+                      Gewerbe - Ladenlokal im EG, Anteil 25 %
+                      Wohnung - Mietwohnungen 1.-3.OG, Anteil 60 %
+                      Attika - Attikawohnung, Anteil 15 %
+
+ OGL                  Es wird keine Objektgliederung verwendet.
+
+ ZK                   Es sind noch keine Zahlungskonti bestimmt.
+
+
+
+
+5-699 Kostenvoranschlag.xls - 10.6.2010                                                                  Seite 3
+5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag                                               Seite 21/40
+ARGE Beispiel AG, 8617 Mönchaltorf                       +41 44 948 12 14
+                           Bemerkung, Dokumentation KV
+
+ Bezeichnung          Beschrieb
+
+
+ Bemerkungen, Dokumentation
+ Perspektive
+ Sicht von Süden
+
+
+
+
+ Grundriss
+ Erdgeschoss
+
+
+
+
+ Grundriss
+ Obergeschosse
+
+
+
+
+5-699 Kostenvoranschlag.xls - 10.6.2010                           Seite 4
+5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag        Seite 22/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                  +41 44 948 12 14
+                               Baubeschrieb KV BKP 1-/2-stellig
+
+Baubeschrieb (inkl. Preise)
+5-699 MFH Bernerhof, 8132 Egg - Kostenvoranschlag
+
+Pos        Bezeichnung                                             Zwischentotal    Total KV Prozent
+
+
+
+BKP        Zusammenfassung
+0          Grundstück                                                                993'000   18.6%
+1          Vorbereitungsarbeiten                                                     244'300    4.6%
+2          Gebäude                                                                 3'679'500   68.8%
+4          Umgebung                                                                  152'700    2.9%
+5          Baunebenkosten                                                            280'500    5.2%
+
+
+Total      Kostenvoranschlag (inkl. MWSt 7.6%)                                     5'350'000 100.0%
+
+           Mehrwertsteuer (MWSt)                                                    298'950
+
+
+BKP        Zwischentotal
+00         Vorstudien                                                                 10'000    0.2%
+01         Grundstück- bzw. Baurechterwerb                                           962'000   18.0%
+02         Nebenkosten zu Grundstück- resp. Baurechterwerb                             7'000    0.1%
+05         Erschliessung durch Leitungen (ausserhalb Grundstück)                      14'000    0.3%
+10         Bestandesaufnahmen, Baugrunduntersuchungen                                  5'000    0.1%
+11         Räumungen, Terrainvorbereitungen                                            4'800    0.1%
+12         Sicherungen, Provisorien                                                   15'000    0.3%
+13         Gemeinsame Baustelleneinrichtung                                          105'000    2.0%
+14         Anpassungen an bestehende Bauten                                            3'000    0.1%
+15         Anpassungen an bestehende Erschliessungsleitungen                           4'500    0.1%
+16         Anpassungen an bestehende Verkehrsanlagen                                  56'000    1.0%
+19         Honorare                                                                   51'000    1.0%
+20         Baugrube                                                                   86'000    1.6%
+21         Rohbau 1                                                                1'005'000   18.8%
+22         Rohbau 2                                                                  416'500    7.8%
+23         Elektroanlagen                                                            169'000    3.2%
+24         Heizungs-, Lüftungs-, Klima- und Kälteanlagen                             152'000    2.8%
+25         Sanitäranlagen                                                            533'000   10.0%
+26         Transportanlagen                                                           63'000    1.2%
+27         Ausbau 1                                                                  333'000    6.2%
+28         Ausbau 2                                                                  327'000    6.1%
+29         Honorare                                                                  595'000   11.1%
+41         Roh- und Ausbauarbeiten                                                     6'000    0.1%
+42         Gartenanlagen                                                              95'700    1.8%
+49         Honorare                                                                   51'000    1.0%
+51         Bewilligungen, Gebühren                                                    40'000    0.7%
+52         Muster, Modelle, Vervielfältigungen, Dokumentation                         35'000    0.7%
+53         Versicherungen                                                             30'000    0.6%
+54         Finanzierung ab Baubeginn                                                 100'000    1.9%
+56         Uebrige Baunebenkosten                                                     20'000    0.4%
+58         Uebergangskonten für Rückstellungen und Reserven                           55'500    1.0%
+
+
+Total     Kostenvoranschlag                                                        5'350'000
+
+
+
+
+5-699 Kostenvoranschlag.xls - 10.6.2010                                                       Seite 5
+5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag                                  Seite 23/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                                                      +41 44 948 12 14
+                                  Baubeschrieb KV BKP 3-stellig, Konti
+
+Pos          Bezeichnung                                                                              Zwischentotal    Total KV Prozent
+
+
+
+
+2            Gebäude                                                                                                  3'679'500   68.8%
+
+
+20           Baugrube
+201          Baugrubenaushub
+
+201.1-01     Erdarbeiten                                                                                                86'000    1.6%
+                                                                                                  A
+
+
+
+
+         > Erdarbeiten im Zusammenhang mit dem Baugrubenaushub                                              86'000
+
+             Abtrag von Kulturerde, Aushubarbeiten, Materiallieferung und -einbau, Auffüllungen
+           - AU, Aushub
+
+21           Rohbau 1
+211          Baumeisterarbeiten
+
+211-01       Baumeisterarbeiten                                                                                        877'500    16.4%
+                                                                                                  A
+
+
+
+
+         > Baumeisteraushub                                                                                 22'500
+           Abtrag von Kulturerde, Materiallieferung und -einbau, Transporte und Vergütungen
+                                                                                                  A
+
+
+
+
+         > Kanalisationen im Gebäude                                                                        10'000
+           Kanalisationsleitungen, Rohre und Kanäle für Werkleitungen, Schächte und
+           Wasserrinnen gemäss Kanalisationsprojekt
+                                                                                                  A
+
+
+
+
+         > Beton- und Stahlbetonarbeiten                                                                  675'000
+           Stahlbetonarbeiten gemäss Ingenieurprojekt: Beton, Schalungen, Bewehrung für
+           Fundamente, Wände, Decken
+                                                                                                  A
+
+
+
+
+         > Maurerarbeiten                                                                                 170'000
+           Backstein- und Kalksandsteienmauern gemäss Plänen des Architekts.
+           Versetzarbeiten von vorfabrizierten Betonelementen.
+         - BM, Baumeister
+
+211.1-02     Gerüste                                                                                                    90'000    1.7%
+                                                                                                  A
+
+
+
+
+         > Gerüste für Baumeister- oder andere Arbeiten                                                     90'000
+           Fassadengerüst, Standdauer ca. 9 Monate
+         - GR, Gerüste
+
+212-01       Montagebau in Beton und vorfabriziertem Mauerwerk                                                          25'000    0.5%
+                                                                                                  A
+
+
+
+
+         > Elemente aus Beton                                                                               25'000
+           Liefern von vorfabrizierte Liftschächten, Betonstützen und Treppenelementen.
+         - BM, Baumeister
+
+214-01       Montagebau in Holz                                                                                         12'500    0.2%
+                                                                                                  A
+
+
+
+
+         > Aeussere Bekleidungen, Gesimse, Treppen                                                          12'500
+           Vordach mit Kerto-Platten.
+           Dachrandabschluss mit Kantholz.
+           Liefern und Versetzen von Dachausstiegen.
+         - ZI, Zimmermann
+
+22           Rohbau 2
+221          Fenster, Aussentüren, Tore
+221-01     Aussenfenster                                                                                               100'000    1.9%
+                                                                                                  A
+
+
+
+
+         > Aussenfenster                                                                                  100'000
+           Holz/Metall, Isolierverlasung 2-fach Floatglas, trocken verglast, k-Wert 1.10 W/m2K
+         - FE, Fenster
+
+221-02       Aussentüren, Tore                                                                                          32'000    0.6%
+                                                                                                  A
+
+
+
+
+         > Garagentor                                                                                        8'000
+           Kipptor mit Schlüsselautomatik und Kontaktschwelle, Torfüllung mit Lochblech.
+                                                                                                  A
+
+
+
+
+         > Aussentüren                                                                                      24'000
+           Hauseingang: Türe aus eloxierten Alu-Hohlprofilen, Füllung aus Glas.
+           Veloraum: Türe aus eloxierten Alu-Hohlprofilen, Füllung geschlossen.
+         - SR, Schreiner
+
+222-01       Spenglerarbeiten                                                                                           37'500    0.7%
+                                                                                                  A
+
+
+
+
+         > Sämtliche Spenglerarbeiten in Chromstahl                                                         37'500
+
+
+
+5-699 Kostenvoranschlag.xls - 10.6.2010                                                                                          Seite 6
+5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag                                                                     Seite 24/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                                                 +41 44 948 12 14
+                                        KV BKP 3-stellig ohne Konti
+
+Pos        Bezeichnung                                                Total KV Original Prozent   Gewerbe    Wohnung         Attika
+
+
+
+
+2          Gebäude                                                         3'679'500     68.8%    862'875   2'248'900     567'725
+
+
+20        Baugrube
+201        Baugrubenaushub                                                    86'000      1.6%     21'500     51'600        12'900
+
+21        Rohbau 1
+211        Baumeisterarbeiten                                                967'500     18.1%    241'875    580'500      145'125
+212        Montagebau in Beton und vorfabriziertem Mauerwerk                  25'000      0.5%      6'250     15'000         3'750
+214        Montagebau in Holz                                                 12'500      0.2%      3'125      7'500         1'875
+
+22        Rohbau 2
+221        Fenster, Aussentüren, Tore                                        132'000      2.5%     33'000     79'200        19'800
+222        Spenglerarbeiten                                                   37'500      0.7%      9'375     22'500         5'625
+224        Bedachungsarbeiten                                                 75'000      1.4%     18'750     45'000        11'250
+225        Spezielle Dichtungen und Dämmungen                                 10'000      0.2%      2'500      6'000         1'500
+226        Fassadenputze                                                     110'000      2.1%     27'500     66'000        16'500
+227        Aeussere Oberflächenbehandlungen                                   17'500      0.3%      4'375     10'500         2'625
+228        Aeussere Abschlüsse, Sonnenschutz                                  34'500      0.6%      8'625     20'700         5'175
+
+23        Elektroanlagen
+230        Elektroanlagen                                                    169'000      3.2%     42'250    101'400        25'350
+
+24        Heizungs-, Lüftungs-, Klima- und Kälteanlagen
+240        Heizungsanlagen                                                   100'000      1.9%     25'000     60'000        15'000
+244        Lüftungsanlagen                                                    52'000      1.0%     13'000     31'200         7'800
+
+25        Sanitäranlagen
+250        Sanitäranlagen                                                    310'000      5.8%     76'250    183'000        50'750
+258        Kücheneinrichtungen                                               223'000      4.2%               178'000        45'000
+
+26        Transportanlagen
+260        Transportanlagen                                                   63'000      1.2%     15'750     37'800         9'450
+
+27        Ausbau 1
+271        Gipserarbeiten                                                    147'000      2.7%     36'750     88'200        22'050
+272        Metallbauarbeiten                                                  96'000      1.8%     24'000     57'600        14'400
+273        Schreinerarbeiten                                                  85'000      1.6%     21'250     51'000        12'750
+275        Schliessanlagen                                                      5'000     0.1%      1'250      3'000          750
+
+28        Ausbau 2
+281        Bodenbeläge                                                       216'500      4.0%     54'125    129'900        32'475
+282        Wandbeläge, Wandbekleidungen                                       33'500      0.6%      8'375     20'100         5'025
+283        Deckenbekleidungen                                                 40'500      0.8%     10'125     24'300         6'075
+285        Innere Oberflächenbehandlungen                                     27'000      0.5%      6'750     16'200         4'050
+287        Baureinigung                                                         9'500     0.2%      2'375      5'700         1'425
+
+29        Honorare
+291        Honorar Architekt (Gebäude)                                       370'000      6.9%     92'500    222'000        55'500
+292        Honorar Bauingenieur (Gebäude)                                    128'000      2.4%     32'000     76'800        19'200
+293        Honorar Elektroingenieur (Gebäude)                                 28'000      0.5%      7'000     16'800         4'200
+294        Honorar HLKK-Ingenieur (Gebäude)                                   25'000      0.5%      6'250     15'000         3'750
+295        Honorar Sanitäringenieur (Gebäude)                                 44'000      0.8%     11'000     26'400         6'600
+
+2          Total Gebäude                                                   3'679'500     68.8%    862'875   2'248'900     567'725
+
+
+
+
+5-699 Kostenvoranschlag.xls - 10.6.2010                                                                                     Seite 7
+5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag                                                              Seite 25/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                                    +41 44 948 12 14
+                           Finanzierung, Bruttomietkosten
+
+ Finanzierung / Mietkosten
+ 5-699 MFH Bernerhof, 8132 Egg - Kostenvoranschlag
+
+ Finanzierungsmittel                            Anteil [%]                            Zwischentotal       Totalbetrag
+
+
+ Finanzierung
+ Eigenmittel
+ Eigenkapital                                        6.88%                    CHF         368'000
+ Eigenleistung                                                                CHF
+ Diverse
+ Landwert                                         17.98%                      CHF         962'000
+
+ Total Eigenmittel                               24.86%                                       CHF          1'330'000
+
+ Fremdmittel
+ Hypothek
+ 1. Hypothek                                      65.42%                      CHF       3'500'000
+ Diverse
+ 2. Hypothek                                       9.72%                      CHF         520'000
+ Diverse                                                                      CHF
+
+ Total Fremdmittel                               75.14%                                       CHF          4'020'000
+
+ Total Finanzierung                                                                           CHF          5'350'000
+
+ Die Eigenmittel für Renditeobjekte betragen min. 25% der Anlagekosten.
+
+
+ Bruttomietkosten vor Abschreibung
+ Eigenmittelkosten
+ Zinsen Eigenkapital                                 2.00%
+                                                     2.00%    von          368'000           7'360
+ Zinsen Eigenleistung                                0.00%    von
+ Zinsen Landwert                                     2.00%
+                                                     2.00%    von          962'000         19'240
+
+ Total Eigenmittelkosten                             2.00%                                    CHF            26'600
+
+ Fremdmittelkosten
+ Zinsen 1. Hypothek                                  3.00%
+                                                     3.00%    von         3'500'000       105'000
+ Zinsen 2. Hypothek                                  3.50%
+                                                     3.50%    von           520'000        18'200
+ Zinsen Diverse                                      4.25%    von
+
+ Total Fremdmittelkosten                             3.06%                                    CHF           123'200
+
+ Verwaltungskosten
+ Verwaltung                                          0.27%
+                                                     0.27%    von         5'350'000        14'445
+ Diverse                                             0.00%    von         5'350'000
+
+ Total Verwaltungskosten                             0.27%                                    CHF            14'445
+
+ Betriebskosten
+ Ver- und Entsorgung                                 0.08%
+                                                     0.08%    von         5'350'000          4'280
+ Reinigung und Pflege                                0.02%    von         5'350'000          1'070
+ Wartung der Baukonstruktion                         0.02%
+                                                     0.02%    von         5'350'000          1'070
+ Wartung techn.Anlagen                               0.03%    von         5'350'000          1'605
+ Kontroll und Sicherheitsdienste                     0.00%    von         5'350'000
+ Abgaben und Versicherungen                          0.05%    von         5'350'000          2'675
+ Diverse                                             0.00%    von         5'350'000
+
+ Total Betriebskosten                                0.20%                                    CHF            10'700
+
+
+
+
+5-699 Kostenvoranschlag.xls - 10.6.2010                                                                        Seite 8
+5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag                                                     Seite 26/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                                      +41 44 948 12 14
+                           Nettomietkosten, Mieterspiegel
+
+ Finanzierungsmittel                            Anteil [%]                              Zwischentotal       Totalbetrag
+
+ Instandsetzungskosten
+ Baukonstruktion                                   0.00%        von        5'350'000
+ Technische Anlagen                                0.00%        von        5'350'000
+ Aussenanlagen                                     0.00%        von        5'350'000
+ Ausstattung                                       0.00%        von        5'350'000
+ Diverse                                           0.00%        von        5'350'000
+
+ Total Instandsetzungskosten                                                                    CHF
+
+
+ Total Bruttomietkosten vor Abschreibung 3.27%                                                  CHF           174'945
+
+ Der durchschnittliche Zinssatz der letzen Jahre für 1.Hypotheken beträgt 4.25%.
+ In den ersten 5 Jahren werden kein Instandsetzungen budgetiert.
+
+ Nettomietkosten
+ Abschreibungen
+ Grundstück (BKP 0)                                0.00%        von          993'000
+ Gebäude, Nebenkosten (BKP 2, 5)                   2.00%        von        3'960'000         79'200
+ Aussenanlagen (BKP 4)                             3.00%        von          152'700          4'581
+ Ausstattung (BKP 9)                               3.00%        von                0
+ Diverse (BKP 1, 3, 6, 7, 8)                       2.00%        von          244'300           4'886
+
+ Total Abschreibungen                             1.66%                                         CHF             88'667
+
+ Rückstellungen
+ Erneuerungsfond                                   0.00%        von        5'350'000
+ Mietzinsrisiko
+ Mietzinsrisikon Erstvermietung                    0.35%
+                                                   0.35%        von        5'350'000         18'725
+ Diverse                                           0.00%        von        5'350'000
+
+ Total Rückstellungen                             0.35%                                         CHF             18'725
+
+ Verrechenbare Kosten                     (Abzüge)
+ Betriebskosten
+ Instandsetzungskosten
+ Diverse
+
+ Total Verrechenbare Kosten                                                                     CHF
+
+
+ Total Nettomietkosten pro Jahr 5.28%                                                           CHF           282'337
+ Nettomietkosten pro Monat                                                                      CHF            23'528
+
+ Mietzinsberechnung (ohne Nebenkosten)
+ Bezeichnung                                                 GF [m2]   Miete [Fr./mt]    Menge [Stk]      Total pro Jahr
+
+ Gewerbefläche im EG                                            220           4'580                1            54'960
+ 3 1/2 Zimmerwohnung 1.-3. OG                                   110           1'880                3            67'680
+ 4 1/2 Zimmerwohnung1.-3. OG                                    135           2'410                3            86'760
+ 5 1/2 Zimmerwohnung Attika                                     150           3'920                1            47'040
+ Tiefgarage PP                                                   16             170               11            22'440
+ Basteln, Lager                                                  20             150                2             3'600
+
+
+
+
+5-699 Kostenvoranschlag.xls - 10.6.2010                                                                           Seite 9
+5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag                                                       Seite 27/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                         +41 44 948 12 14
+                           Vergabeeinheit ohne Buchungen
+
+
+
+ AR                Architekt                                                    Kontoauszug per 10.06.10
+
+ Firma             Beispiel AG                                 Telefon                     044 948 12 14
+                   Architekturbüro                             Fax                         044 948 19 41
+                   Postfach 885                                Natel
+                   8617 Mönchaltorf                            Email                       info@bbase.ch
+
+ Sachbearbeiter Herr Hans Müller                               Telefon Sachb.               044 948 12 11
+                                                               Email Sachb.                info@bbase.ch
+
+ Bank/Post         Post, Zürich                                Konto Nr.                    PC 8-32654-2
+
+
+                > Total Vergleichbare KV-Summe                                                422'000.00
+
+                   Anfängliche Vergabe oder Hauptvertrag
+                   Nachträgliche Vergabe oder Nachtrag
+                > Total Vergabe
+
+                   Berücksichtigte Leistungen
+                   Rückbehalt
+                > Total Guthaben
+
+                > Total gebuchte Zahlungen
+
+ Bemerkungen
+
+
+
+
+ Konto             Was                                            Vertrag        Diverse            Total
+
+ 000-01            Vorstudien zum Grundstück
+                > Total Vergleichbare KV-Summe                                                  10'000.00
+
+                   Anfängliche Vergabe oder Hauptvertrag
+                   Nachträgliche Vergabe oder Nachtrag
+                > Total Vergabe
+
+                   Berücksichtigte Leistungen
+
+                > Total gebuchte Zahlungen
+
+ 191-01            Honorar Architekt (Vorbereitungsarbeiten)
+                > Total Vergleichbare KV-Summe                                                  30'000.00
+
+                   Anfängliche Vergabe oder Hauptvertrag
+                   Nachträgliche Vergabe oder Nachtrag
+                > Total Vergabe
+
+                   Berücksichtigte Leistungen
+
+                > Total gebuchte Zahlungen
+
+ 291-01            Honorar Architekt (Gebäude)
+                > Total Vergleichbare KV-Summe                                                370'000.00
+
+
+
+5-699 Kostenvoranschlag.xls - 10.6.2010                                                             Seite 1
+5.61 BBaseBudgetkontrolle - Beispiel Kostenvoranschlag                                          Seite 28/40
+                 5.3 Beispiel Baubuchhaltung
+                           Die folgenden Seiten zeigen die gedruckte Version des beschriebenen
+                           Beispiels in Originalgrösse. Dabei werden Auszüge der Baubuchhaltung
+                           dargestellt.
+
+
+
+
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung                                       Seite 29/40
+                           Vergabeantrag
+
+
+
+
+ 5-699                                                       Herr K.Meier
+ MFH Bernerhof
+ Forchstrasse 12                                             Forchstrasse 23
+ 8132 Egg                                                    8132 Egg
+
+
+
+
+ Vergabeantrag Nr. 3                                         Mönchaltorf, 10. Juni 2010
+ AU - Aushub
+
+
+ Sehr geehrte Damen und Herren
+
+ Wir übergeben Ihnen den Vergabeantrag zur Unterzeichnung.
+ Krämer Aushub u. Abbruch
+ Wilerstr. 5, 8415 Gräslikon
+ Konto - 201.1-01, 120-01
+ Beschrieb                                                                KV Summe [CHF]    Vergabe [CHF]
+
+ Werkvertrag Nr. V-004 - 15.10.10                                                              99'450.00
+ Diverse (Regie, Ausmassreserve, Rundung, Teuerung)                                             1'550.00
+ Vergleichbare KV Summe                                                        101'000.00
+ Mutationen
+
+ Total KV Summe / Vergabe                                                      101'000.00     101'000.00
+
+ Begründung
+
+
+
+ Freundliche Grüsse
+ Der Architekt                                               Der Bauherr
+ ARGE Beispiel AG, 8617 Mönchaltorf                          Herr K.Meier
+ Hans Muster
+                                                             Ort, Datum
+
+
+
+ Beilage(n)                                                  Unterschrift
+ Vergabeantrag Nr. 3, Offertvergleich
+
+
+
+
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung                                            Seite 30/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                        +41 44 948 12 14
+                           Vergabeantrag Anhang
+
+ Vergabeantrag Nr. 3
+ 5-699 MFH Bernerhof, 8132 Egg - Baubuchhaltung
+
+
+  AU                 Aushub
+  Firma             Krämer Aushub u. Abbruch                 Telefon                       044 918 06 92
+                                                             Fax                           052 318 17 03
+                    Wilerstr. 5
+                    8415 Gräslikon
+
+  Sachbearbeiter    Paul Meier                               Telefon Sachb.              079 678 12 34
+                                                             Email Sachb.             meier@partner.ch
+
+  Konto             Beschrieb                                            KV Summe [CHF]     Vergabe [CHF]
+
+  201.1-01          Erdarbeiten
+                    Vertrag aktuell                                                             85'250.00
+                    Diverse (Regie, Ausmassreserve, Teuerung, Rundung)                             750.00
+                    Vergleichbare KV Summe                                    86'000.00
+                    Total KV Summe / Vergabe (Beleg 12)                       86'000.00         86'000.00
+
+  120-01            Sicherungen, Provisorien
+                    Vertrag aktuell                                                             14'200.00
+                    Diverse (Regie, Ausmassreserve, Teuerung, Rundung)                             800.00
+                    Vergleichbare KV Summe                                    15'000.00
+                    Total KV Summe / Vergabe (Beleg 12)                       15'000.00         15'000.00
+
+
+
+
+5-699 BauBH mit BU.xls - 13.6.2010                                                                 Seite 3
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung                                            Seite 31/40
+                           Änderungsprotokoll
+
+
+
+
+5-699                                                         Herr K.Meier
+MFH Bernerhof
+Forchstrasse 12                                               Forchstrasse 23
+8132 Egg                                                      8132 Egg
+
+
+
+
+MehrkostenprotokollNr.
+Änderungsprotokoll Nr.11                                      Mönchaltorf, 10. Juni 2010
+
+
+
+Sehr geehrte Damen und Herren
+
+Wir übergeben Ihnen, gemäss Besprechung vom 08.06.10, folgende Mutation.
+Abbruch
+Beschrieb Mutation
+        Fundamente Stützmauer und Einfriedung, Anpassung Nachbar
+
+
+
+Konto - 110-01, 140-01
+Beschrieb                                                                  KV Summe [CHF]   Vergabe [CHF]
+
+Summe der Nachtragsbuchungen (Vertrag)                                                          3'150.00
+Summe für Diverse (Regie, Ausmassreserve, Teuerung, Rundung)
+Summe der Mehr-/Minderkosten                                                     3'150.00
+Summe der Umbuchungen (Konto 581-01)
+
+Total KV Summe / Vergabe                                                         3'150.00       3'150.00
+
+Total KV Summe mutiert per 10. Juni 2010 (inkl. aktuelle Mutation)           5'352'386.35
+
+
+Freundliche Grüsse
+Der Architekt                                                 Der Bauherr
+ARGE Beispiel AG, 8617 Mönchaltorf                            Herr K.Meier
+Hans Muster
+                                                              Ort, Datum
+
+
+
+Beilage(n)                                                    Unterschrift
+Änderungsprotokoll Nr. 1
+
+
+
+
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung                                             Seite 32/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                      +41 44 948 12 14
+                           Änderungsprotokoll Anhang
+
+
+ Änderungsprotokoll Nr. 1
+5-699 MFH Bernerhof, 8132 Egg - Baubuchhaltung
+
+
+ VE                 Vergabeeinheit
+ Konto              Unternehmer / Bezeichnung          KV Summe [CHF]     Vergabe [CHF]
+
+ GA                 Gärtner
+                    Kurt Müller, 8584 Opfershofen TG
+ 110-01             Abbruch Stützmauer
+                    Nachtragsbuchung (Vertrag)                                 2'400.00
+                    Mehr- /Minderkosten                      2'400.00
+                    Total KV Summe / Nachtrag                2'400.00          2'400.00
+
+ BM                 Baumeister
+
+ 140-01             Anpassen Terrainverlauf
+                    Nachtragsbuchung (Vertrag)                                   750.00
+                    Mehr- /Minderkosten                        750.00
+                    Total KV Summe / Nachtrag                  750.00            750.00
+
+
+
+
+5-699 BauBH mit BU.xls - 13.6.2010                                               Seite 5
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung                           Seite 33/40
+                           Zahlungsauftrag
+
+
+
+
+  5-699                                                        Herr K.Meier
+  MFH Bernerhof
+  Forchstrasse 12                                              Forchstrasse 23
+  8132 Egg                                                     8132 Egg
+
+
+
+
+ Zahlungsantrag Nr. 6                                          Mönchaltorf, 10. Juni 2010
+  AU - Aushub
+
+  Sehr geehrte Damen und Herren
+
+  Wir bitten Sie, folgende Zahlung auszuführen.
+  Zahlungskonto     BK - Baukredit (Fremdkapital)
+                    Raiffeisenbank, Kontonummer RF456.321 455-5
+ Empfänger          Krämer Aushub u. Abbruch, 8415 Gräslikon
+                    ZKB, Winterthur, Kontonummer Z54.54.987
+ Nummer             Bezeichnung                                             Teilbeträge [CHF]   Zahlung [CHF]
+
+ 120-01             Sicherungen, Provisorien                                       9'000.00
+ 201.1-01           Erdarbeiten                                                    3'000.00
+
+  Beleg Nr. 13      Akontorechnung Nr. HB 562.3 vom 15.06.10 (vor Skonto)                          12'000.00
+  Details betreffend Konditionen, Abzüge und Mehrwertsteuer gemäss beiliegender Rechnung.
+
+ Total gebuchte Zahlungen 'AU - Aushub' per 13.06.10 (inkl. aktueller Zahlung)                     12'000.00
+
+  Freundliche Grüsse
+  Der Architekt                                                Der Bauherr
+  ARGE Beispiel AG, 8617 Mönchaltorf                           Herr K.Meier
+  Hans Muster
+                                                               Ort, Datum
+
+
+
+  Beilage(n)                                                   Unterschrift
+  Kontoauszug AU, Rechnung, Einzahlungsschein
+
+
+
+
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung                                               Seite 34/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                  +41 44 948 12 14
+                           Zahlungsauftrag Anhang
+
+ Zahlungsantrag Nr. 6
+5-699 MFH Bernerhof, 8132 Egg - Baubuchhaltung
+
+
+ AU                 Aushub
+ Firma              Krämer Aushub u. Abbruch          Telefon                        044 918 06 92
+                                                      Fax                            052 318 17 03
+                    Wilerstr. 5
+                    8415 Gräslikon
+
+ Sachbearbeiter     Paul Meier                        Telefon Sachb.               079 678 12 34
+                                                      Email Sachb.              meier@partner.ch
+
+ Konto              Beschrieb                                   KV Summe [CHF]         Zahlung [CHF]
+
+ 120-01             Sicherungen, Provisorien
+                    Zahlungen bisher
+                    Zahlung aktuell                                                        9'000.00
+                    Vergleichbare KV Summe                             15'000.00
+                    Kostenunterschreitung 40.0%                         -6'000.00
+                    Total KV Summe / Zahlungen                           9'000.00          9'000.00
+
+ 201.1-01           Erdarbeiten
+                    Zahlungen bisher
+                    Zahlung aktuell                                                        3'000.00
+                    Vergleichbare KV Summe                             86'000.00
+                    Kostenunterschreitung 96.5%                        -83'000.00
+                    Total KV Summe / Zahlungen                           3'000.00          3'000.00
+
+
+
+
+5-699 BauBH mit BU.xls - 13.6.2010                                                            Seite 7
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung                                       Seite 35/40
+ARGE Beispiel AG, 8617 Mönchaltorf                                                     +41 44 948 12 14
+                           Vergabeeinheit mit Buchungen
+
+
+
+ AU                Aushub                                                   Kontoauszug per 13.06.10
+
+ Firma             Krämer Aushub u. Abbruch                Telefon                     044 918 06 92
+                                                           Fax                         052 318 17 03
+                   Wilerstr. 5                             Natel
+                   8415 Gräslikon                          Email
+
+ Sachbearbeiter Paul Meier                                 Telefon Sachb.             079 678 12 34
+                                                           Email Sachb.            meier@partner.ch
+
+               > Total Vergleichbare KV-Summe                                             101'000.00
+
+                   Anfängliche Vergabe oder Hauptvertrag                                  101'000.00
+                   Nachträgliche Vergabe oder Nachtrag
+               > Total Vergabe                                                            101'000.00
+
+                   Berücksichtigte Leistungen                                               13'500.00
+                   Rückbehalt 10.0%                                                          1'350.00
+               > Total Guthaben                                                             12'150.00
+
+               > Total gebuchte Zahlungen                                                   12'000.00
+
+ Bemerkungen
+
+
+
+
+ Konto             Was                                        Vertrag        Diverse            Total
+
+ 120-01            Sicherungen, Provisorien
+               > Total Vergleichbare KV-Summe                                               15'000.00
+
+                   Anfängliche Vergabe oder Hauptvertrag   14'200.00         800.00         15'000.00
+                   Nachträgliche Vergabe oder Nachtrag
+               > Total Vergabe (100%)                      14'200.00         800.00         15'000.00
+
+                   Berücksichtigte Leistungen                                               8'500.00
+                                                                                           15'000.00
+
+               > Total gebuchte Zahlungen                   9'000.00                         9'000.00
+
+ 201.1-01          Erdarbeiten
+               > Total Vergleichbare KV-Summe                                               86'000.00
+
+                   Anfängliche Vergabe oder Hauptvertrag   85'250.00         750.00         86'000.00
+                   Nachträgliche Vergabe oder Nachtrag
+               > Total Vergabe (100%)                      85'250.00         750.00         86'000.00
+
+                   Berücksichtigte Leistungen                                               5'000.00
+                                                                                           86'000.00
+
+               > Total gebuchte Zahlungen                   3'000.00                         3'000.00
+
+
+
+
+5-699 BauBH mit BU.xls - 13.6.2010                                                              Seite 8
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung                                         Seite 36/40
+                           Zahlungsauftrag
+
+
+
+
+ 5-699                                                          Herr K.Meier
+ MFH Bernerhof
+ Forchstrasse 12                                                Forchstrasse 23
+ 8132 Egg                                                       8132 Egg
+
+
+
+
+Zahlungsauftrag Nr. 2                                           Mönchaltorf, 10. Juni 2010
+
+
+ Sehr geehrte Damen und Herren
+ Wir bitten Sie folgende Vergütungen zu Lasten des Kontos 'BK - Baukredit (Fremdkapital)' auszuführen.
+ Beleg - VE         Unternehmer, Ort                            Re Nr.             Fälligkeit   Betrag [CHF]
+
+ 11 - GA         Kurt Müller, 8584 Opfershofen TG               456.321                            6'825.00
+ 13 - AUAG, 8610 Krämer
+ Muster          Uster Aushub u. Abbruch, 8415 Gräslikon        HB 562.3                           9'000.00
+ 13 - AU         Krämer Aushub u. Abbruch, 8415 Gräslikon       HB 562.3                           3'000.00
+
+ Total Betrag zur Überweisung                                                                    18'825.00
+ Saldo aller Zahlungen auf Konto 'BK' per 13.06.10 (inkl. Auftrag 2)
+
+
+ Freundliche Grüsse
+ Der Architekt                                                  Der Bauherr
+ ARGE Beispiel AG, 8617 Mönchaltorf                             Herr K.Meier
+ Hans Muster
+                                                                Ort, Datum
+
+
+
+ Beilage(n)                                                     Unterschrift
+ Zahlungsauftrag Nr. 2
+
+
+
+
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung                                               Seite 37/40
+                                                      ARGE Beispiel AG, 8617 Mönchaltorf                                                                                                                                                                    +41 44 948 12 14
+
+
+
+
+                                                       Kostenrapport Übersicht
+                                                       5-699 MFH Bernerhof, 8132 Egg - Baubuchhaltung
+
+                                                       Pos         Bezeichnung                                                                         Total KV Original   Mutationen   Total KV mutiert   Vergabe   Zahlungen   Abgrenzung   Kostenerwartung Prozent
+
+
+
+
+                                                       BKP         Zusammenfassung
+                                                       0           Grundstück                                                                                  993'000                         993'000      10'000     10'211                        993'091   18.6%
+                                                       1           Vorbereitungsarbeiten                                                                       245'300         3'150           248'450      54'170     15'825        -1'500          246'595    4.6%
+                                                       2           Gebäude                                                                                   3'679'500                       3'679'500     456'000      3'000                      3'679'500   68.7%
+                                                       4           Umgebung                                                                                    152'700                         152'700      12'000                                   152'700    2.9%
+                                                       5           Baunebenkosten                                                                              280'500                         280'500                    228                        280'500    5.2%
+
+
+                                                       Total       Baubuchhaltung (inkl. MWSt 7.6%)                                                          5'351'000         3'150         5'354'150     532'170     29'264        -1'500        5'352'386 100.0%
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung
+
+
+
+                                                                   Preisstandanpassung
+                                                       Vergleich   Kostenstand KV: Zürcher Baukostenindex, 1. April 2008, 121.7 Pkt                                                          5'354'150
+                                                                   Abzüglich nicht teuerungsberechtigte Kosten                                                                                 993'000                                              993'000    18.6%
+
+                                                                   Total teuerungsberechtigte Kosten                                                                                         4'361'150
+
+                                                                   Kostenstand Abrechnung: Zürcher Index der Wohnbaupreise, 1. April 2009, 122.2 Pkt                                         4'379'068                                             4'359'386
+                                                                   Anrechnung von 50% der Index-Teuerung von 0.5 Pkt                                                                             8'959
+
+                                                                   Total Kostenvergleich (inkl. Preisstandanpassung)                                                                         4'370'109                                             4'359'386   81.4%
+
+                                                                                                                                                                                                                                               Minderkosten    0.2%
+                                                                                                                                                                                                                                                                             Preisstandanpassung BKP 1-stellig
+
+
+
+
+Seite 38/40
+
+
+
+
+                                                      5-699 BauBH mit BU.xls - 13.6.2010                                                                                                                                                                                Seite 10
+                                                      ARGE Beispiel AG, 8617 Mönchaltorf                                                                                                                                       +41 44 948 12 14
+
+
+
+
+                                                       Pos        Bezeichnung                                             Total KV Original   Mutationen   Total KV mutiert   Vergabe   Zahlungen   Abgrenzung   Kostenerwartung Prozent
+
+
+
+
+                                                       BKP        Zwischentotal
+                                                       00         Vorstudien                                                       10'000                          10'000      10'000      3'120                         10'000    0.2%
+                                                       01         Grundstück- bzw. Baurechterwerb                                 962'000                         962'000                                               962'000   18.0%
+                                                       02         Nebenkosten zu Grundstück- resp. Baurechterwerb                   7'000                           7'000                  7'091                          7'091    0.1%
+                                                       05         Erschliessung durch Leitungen (ausserhalb Grundstück)            14'000                          14'000                                                14'000    0.3%
+                                                       10         Bestandesaufnahmen, Baugrunduntersuchungen                        5'000                           5'000       5'020                                     5'020    0.1%
+                                                       11         Räumungen, Terrainvorbereitungen                                  4'800         2'400             7'200       2'400      6'825                          6'825    0.1%
+                                                       12         Sicherungen, Provisorien                                         15'000                          15'000      15'000      9'000        -1'500           13'500    0.3%
+                                                       13         Gemeinsame Baustelleneinrichtung                                105'000                         105'000                                               105'000    2.0%
+                                                       14         Anpassungen an bestehende Bauten                                  3'000           750             3'750        750                                      3'750    0.1%
+                                                       15         Anpassungen an bestehende Erschliessungsleitungen                 4'500                           4'500                                                 4'500    0.1%
+                                                       16         Anpassungen an bestehende Verkehrsanlagen                        56'000                          56'000                                                56'000    1.0%
+                                                       19         Honorare                                                         52'000                          52'000      31'000                                    52'000    1.0%
+                                                       20         Baugrube                                                         86'000                          86'000      86'000      3'000                         86'000    1.6%
+                                                       21         Rohbau 1                                                      1'005'000                       1'005'000                                             1'005'000   18.8%
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung
+
+
+
+
+                                                       22         Rohbau 2                                                        416'500                         416'500                                               416'500    7.8%
+                                                       23         Elektroanlagen                                                  169'000                         169'000                                               169'000    3.2%
+                                                       24         Heizungs-, Lüftungs-, Klima- und Kälteanlagen                   152'000                         152'000                                               152'000    2.8%
+                                                       25         Sanitäranlagen                                                  533'000                         533'000                                               533'000   10.0%
+                                                       26         Transportanlagen                                                 63'000                          63'000                                                63'000    1.2%
+                                                       27         Ausbau 1                                                        333'000                         333'000                                               333'000    6.2%
+                                                       28         Ausbau 2                                                        327'000                         327'000                                               327'000    6.1%
+                                                       29         Honorare                                                        595'000                         595'000     370'000                                   595'000   11.1%
+                                                                                                                                                                                                                                              Kostenrapport BKP 2-stellig
+
+                                                       41         Roh- und Ausbauarbeiten                                           6'000                           6'000                                                 6'000    0.1%
+                                                       42         Gartenanlagen                                                    95'700                          95'700                                                95'700    1.8%
+                                                       49         Honorare                                                         51'000                          51'000      12'000                                    51'000    1.0%
+                                                       51         Bewilligungen, Gebühren                                          40'000                          40'000                                                40'000    0.7%
+                                                       52         Muster, Modelle, Vervielfältigungen, Dokumentation               35'000                          35'000                    228                         35'000    0.7%
+                                                       53         Versicherungen                                                   30'000                          30'000                                                30'000    0.6%
+                                                       54         Finanzierung ab Baubeginn                                       100'000                         100'000                                               100'000    1.9%
+                                                       56         Uebrige Baunebenkosten                                           20'000                          20'000                                                20'000    0.4%
+                                                       58         Uebergangskonten für Rückstellungen und Reserven                 55'500                          55'500                                                55'500    1.0%
+
+
+                                                       Total     Baubuchhaltung                                                 5'351'000         3'150         5'354'150     532'170     29'264        -1'500        5'352'386
+
+
+
+
+Seite 39/40
+
+
+
+
+                                                      5-699 BauBH mit BU.xls - 13.6.2010                                                                                                                                                   Seite 11
+                                                      ARGE Beispiel AG, 8617 Mönchaltorf                                                                                                                                         +41 44 948 12 14
+
+
+
+
+                                                       Pos        Bezeichnung                                             Total KV Original   Mutationen   Total KV mutiert   Vergabe   Zahlungen   Abgrenzung   Kostenerwartung Prozent
+
+
+
+
+                                                       0          Grundstück                                                      993'000                         993'000     10'000      10'211                       993'091      18.6%
+
+
+                                                       00        Vorstudien
+                                                       000-01     Vorstudien zum Grundstück                                        10'000                          10'000     10'000       3'120                         10'000      0.2%
+                                                                - Beispiel AG, 8617 Mönchaltorf
+
+                                                       01        Grundstück- bzw. Baurechterwerb
+                                                       010        Grundstück- bzw. Baurechterwerb
+                                                       010-01     Grundstückerwerb                                                962'000                         962'000                                              962'000      18.0%
+
+                                                       02        Nebenkosten zu Grundstück- resp. Baurechterwerb
+                                                       020        Nebenkosten zu Grundstück- resp. Baurechterwerb
+5.61 BBaseBudgetkontrolle - Beispiel Baubuchhaltung
+
+
+
+                                                       020-01     Nebenkosten zu Grundstückerwerb                                   7'000                           7'000                  7'091                          7'091      0.1%     !!!
+
+                                                       05        Erschliessung durch Leitungen (ausserhalb Grundstück)
+                                                       050-01     Erschliessung durch Leitungen (ausserhalb Grundstück)            14'000                          14'000                                                14'000      0.3%
+
+
+                                                       0          Total Grundstück                                                993'000                         993'000     10'000      10'211                       993'091      18.6%
+
+
+
+
+                                                       1          Vorbereitungsarbeiten                                           245'300         3'150           248'450     54'170      15'825        -1'500         246'595       4.6%
+
+
+                                                       10        Bestandesaufnahmen, Baugrunduntersuchungen
+                                                       100-01     Bestandesaufnahmen, Baugrunduntersuchungen                        5'000                           5'000      5'020                                      5'020      0.1%     !
+                                                                                                                                                                                                                                                  Kostenrapport BKP 3-stellig mit Konti
+
+
+                                                                - Robert Keller Ingenieure, 8134 Adliswil
+
+                                                       11        Räumungen, Terrainvorbereitungen
+                                                       110-01     Räumungen, Terrainvorbereitungen                                  4'800         2'400             7'200      2'400       6'825                         6'825       0.1%    ok
+                                                                - Kurt Müller, 8584 Opfershofen TG
+
+                                                       12        Sicherungen, Provisorien
+                                                       120-01     Sicherungen, Provisorien                                         15'000                          15'000     15'000       9'000        -1'500           13'500      0.3%
+                                                                - Krämer Aushub u. Abbruch, 8415 Gräslikon
+
+                                                       13        Gemeinsame Baustelleneinrichtung
+                                                       130-01     Gemeinsame Baustelleneinrichtung                                105'000                         105'000                                              105'000       2.0%
+                                                                - BM, Baumeister
+
+                                                       14        Anpassungen an bestehende Bauten
+                                                       140-01     Anpassungen an bestehende Bauten                                  3'000           750             3'750        750                                      3'750      0.1%
+Seite 40/40
+
+
+
+
+                                                      5-699 BauBH mit BU.xls - 13.6.2010                                                                                                                                                    Seite 12
+

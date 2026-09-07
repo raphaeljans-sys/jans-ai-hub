@@ -1,0 +1,1617 @@
+ Kostenplanung        Ausschreibung
+                      Leistungsverzeichnis, Datenaustausch,
+                      O!ertvergleich und Werkvertrag
+                                                                                              5.51
+    Ausführung
+
+
+ Kostenkontrolle
+
+
+Honorar, Auftrag
+
+
+
+
+                      Mit BBaseAusschreibung werden Grundlagen für Angebote mit Leistungs-
+                      verzeichnissen, Bedingungen und Hinweisen für den Datenaustausch vor-
+                      bereitet. Mit Hilfe des O!ertvergleichs werden danach Abgebotsbriefe,
+                      Auftragsbestätigung, Absagebriefe und Werkverträge erstellt.
+
+
+
+
+      30. Juli 2020   © PMS Informatik AG CH-8408 Winterthur www.bbase.ch
+BBase
+© PMS Informatik AG Alle Rechte vorbehalten
+
+Betriebsanleitung, Handbücher und Software sind urheberrechtlich
+geschützt. Das Kopieren, Vervielfältigen, Übersetzen oder Umsetzen in
+irgendein elektronisches Medium oder Maschinen lesbare Form im Ganzen
+oder in Teilen ohne vorherige schriftliche Genehmigung von PMS Informatik
+AG ist nicht gestattet. Alle weiteren Rechte an der Software sind in den
+mitgelieferten Lizenzbestimmungen festgelegt.
+
+PMS Informatik AG, Riedhofstrasse 53, CH-8408 Winterthur
+Fon +41 44 948 12 14
+Mail Info@pmsag.ch , Internet www.pmsag.ch
+
+
+
+
+Vorwort
+Dieses farbig gestaltete PDF-Dokument bietet Anweisungen zur
+Anwendung des Programms BBaseAusschreibung
+
+Das vorliegende Benutzerhandbuch bietet neben methodischen
+Erklärungen auch Kurzanleitungen für Fortgeschrittene, ausführliche
+Anweisungen für das Erstellen eines neuen Dokumentes und detaillierte
+Anleitungen zur Arbeitstechnik.
+
+Wird im Bericht der Architekt erwähnt, so gilt die Benennung auch für die
+Architektin.
+
+Bevor Sie sich mit diesem Dokument befassen empfiehlt es sich, das
+beiliegende Beispiel und die Grundlagen im Quellen- und
+Literaturverzeichnis zu studieren.
+
+
+
+Winterthur, 30. Juli 2020
+
+
+
+
+5.51 BBaseAusführung- Vorwort                                        Seite 2/57
+        Inhalt
+         Das vorliegende Handbuch soll für Anfänger und Fortgeschrittene
+         Informationen enthalten, welche die Anwendung der BBaseWerkzeuge
+         unterstützen. Die einzelnen Kapitel enthalten dafür folgende Beschriebe.
+
+
+
+1     Einführung
+1.1   Einführung und Grundlagen                                                     5    5.51
+
+1.2   Problemstellung beim Ausschreiben von Bauarbeiten                             6
+
+1.3   Datenaustausch                                                                7    Inhalt
+1.4   Lösung mit Hilfe von BBaseWerkzeugen                                          9
+
+1.5   BBaseAusschreibung und seine Aufgaben                                     11
+
+1.6   Inhalt des aktuellen BBaseDokumentes                                      21
+
+
+
+4     Anhang
+4.1   Quellen und Literaturhinweise                                             25
+
+4.2   Begriffe und Abkürzungen                                                  26
+      Variante 1                                                                    28
+      Variante 2                                                                    28
+      Standardmengenarten                                                           28
+      Mengenarten Primärvarianten                                                   28
+      Mengenarten Eventualvarianten                                                 29
+
+4.3   Beispiel der Ausschreibung                                                32
+
+
+
+
+        5.51 BBaseAusführung- Inhalt                                      Seite 3/57
+5.85 BBaseAusführung - Inhalt   Seite 4/57
+ 1 Einführung
+    Dieses Kapitel enthält allgemeine Infos zum Thema Ausschreibung am
+    einfachen Beispiel. Zudem wird der Aufbau und Inhalt der Arbeitsmappe
+    und ergänzende BBaseWerkzeuge beschrieben.
+
+
+
+
+1.1 Einführung und Grundlagen                                                      1
+    Bauadministration wird oft mit 'Devisieren' umschrieben. Der Begri! 'Devis'
+    steht für das Ausschreiben von Leistungen und Einholen von Angeboten bei
+
+
+
+
+                                                                                   Einführung
+    Instandsetzungen oder beim Erstellen von Bauwerken. Die Bezeichnung
+    'Devis' wurde abgescha!t und durch Leistungsverzeichnis ersetzt. Spezielle
+    Bausoftware haben sich früh als Ersatz für das umständliche
+    zusammentragen und vervielfältigen von Textbausteinen angeboten. Die
+    ursprünglich für den Planer erstellten Hilfsmittel haben sich zum Werkzeug
+    für den Unternehmer entwickelt. Die so entstandene Software befriedigt die
+    Bedürfnisse der Planer nur noch teilweise.
+
+
+    Bauadministration und die entsprechenden Software dazu, beschränkt sich
+    nicht nur auf das 'Devisieren'. Sie enthalten auch Hilfsmittel für
+    Architekten, Planer und Bauleiter im Bereich Projektierung, Kostenplanung,
+    Ausschreibung, Kostenkontrolle und Auftragsverwaltung. Die durchgängige
+    Anwendung der Werkzeuge steht deshalb ganz oben auf der Wunschliste
+    der Fachleute.
+
+
+    Spezialisierungen im Berufsbild des Architekten, vom Planer zum Bauleiter,
+    haben dazu beigetragen, dass sich die ursprünglich
+    anforderungsorientierten Textbausteine zu Leistungs- beschrieben
+    gewandelt haben. Diese behandeln den Prozess der Leistung des
+    Unternehmers und unterschlagen oft Minimalanforderungen des Bestellers.
+
+
+    Im Zuge der Automatisierung wurden mit Hilfe von Normpositionen
+    Beschriebe mit Baukastensystem erstellt, welche das Kalkulieren mit EDV
+    ermöglichen sollen. Die notwendige Auflösung der Hochdetaillierten
+    Festlegungen zwingt den Anwender die vorgedachten Strukturen genau
+    einzuhalten damit der elektronische Datenaustausch zwischen Architekten,
+    Ingenieuren und Unternehmer einigermassen zuverlässig klappt.
+
+    Um die Tre!erquote zu erhöhen, müssen alle am Bau Beteiligten die
+    gleichen resp. neuesten Kataloge verwenden, was zur Folge hat, dass jedes
+    Jahr neue Leistungsverzeichnisse erstellt werden müssen, weil sonst die
+    Automatisierung mit den veralteten Strukturen und Texten torpediert wird.
+
+    Die Vorzüge der EDV, nämlich 'einmal erfasstes möglichst weiter zu
+    verwenden', werden damit ausgeschlossen.
+
+    Der Bauleiter, welcher die Ausschreibung erstellt, kann nicht auf z.B.
+    bauteilorientierte Beschriebe des Architekten zurückgreifen weil
+    durchgängige Strukturen fehlen. Er beginnt jeweils immer wieder mit jedem
+    Leistungsverzeichnis von vorne.
+
+
+
+    5.51 BBaseAusführung - Einführung                                 Seite 5/57
+                  Dies muss nicht so sein! BBase bietet mit seinem BaukostensystemPlus
+                  (BKS-Plus) die Möglichkeit, Beschriebe, Mengen und Preise vom
+                  Massnahmenplan über die Bauteilbeschriebe bis zur Ausschreibung mit
+                  Eigentext durchgängig zu verwenden.
+
+
+
+         1.2 Problemstellung beim Ausschreiben von
+             Bauarbeiten
+           Ziel   Mit einer präzisen Ausschreibung müssen bei minimalem Aufwand
+                  vergleichbare Angebote eingeholt werden. Die darin dokumentierte
+                  Aufgabe muss mit Hilfe von Quantität (Menge), Qualität (Beschrieb) und
+                  Grafik (Pläne) eine abschliessende und allgemein verständliche Grundlage
+                  für die Werkverträge (Preis) bilden.
+
+
+                  Oft müssen spezialisierte Fachleute oder Ingenieure ihren Teil dazu
+                  beitragen, damit die Gratwanderung zwischen 'minimalem Aufwand' und
+                  'nicht definierter Leistung' gelingt. Die hohe Kunst der Ausschreibung
+                  verhindert Überraschungen bei vertretbarem Aufwand.
+
+
+                  Mit Hilfe von Eigentexten oder Normpositionskatalogen werden
+                  Ausschreibungsunterlagen für das Kalkulieren der Kosten
+                  zusammengestellt. Die verwendeten Unterlagen müssen alle
+                  preisrelevanten Informationen enthalten damit die eingereichten Angebote
+                  verglichen werden können. Die vielfältigen Arbeitsgattungen verlangen
+                  di!erenzierte Methoden.
+
+
+                  Grundlagen wie Vorschriften, Normen, Bedingungen, Objekt- und
+                  Unternehmerspezifische Bestimmungen bilden zusammen mit dem
+                  Konditionenmodell weitere kostenbeeinflussende Faktoren.
+
+ Textbausteine    Für das Erstellen von Leistungsverzeichnissen sind neben Eigentexten die
+                  Kataloge NPK Bau von CRB weit verbreitet.
+
+CRB NPK Bau ...   Die letzten Jahrgänge der Normpositionenkataloge von CRB, werden direkt
+                  bei CRB in verschiedenen Abo Kategorien lizenziert.
+
+                  Damit der Datenaustausch mit SIA 451 (IfA18) reibungslos funktioniert
+                  müssen die Ausschreibungen den5. minimalen Anforderungen und den
+                  aktuellen Richtlinien des Schnittstellen Testprogramms von CRB
+                  entsprechen.
+
+                  Die Programme von BBase haben alle notwendigen Tests erfüllt und bieten
+                  zusätzlich zum Datenaustausch mit SIA 451 (IfA18) auch eine Schnittstelle
+                  mit Plattform übergreifenden Excel Dokumenten, welche Ausmasstabellen,
+                  Bilder sowie Bedingungen und Hinweise enthalten.
+
+
+
+
+                  5.51 BBaseAusführung - Einführung                                Seite 6/57
+             1.3 Datenaustausch
+                      In der Ausschreibung werden vom Architekten zum Fachplaner resp.
+                      Unternehmer Texte und Preise mit Leistungsverzeichnissen ausgetauscht.
+                      Ergänzt mit zusätzlichen Angaben werden diese wieder an den Architekten
+                      zurückgegeben.
+
+                      Damit dieser Datenaustausch geordnet abläuft wurden Schnittstellen
+                      definiert, welche den Datenverbund unabhängig vom Betriebssystem oder
+                      einer entsprechenden Programm Version gewährleisten.
+
+                      Neben den bewährten Methoden mit Papier stehen mit BBase zwei
+                      Lösungen zur Verfügung:
+
+                A)    Der Datenaustausch mit der Standard Software ©Microsoft EXCEL (O%ce)
+
+                 B)   Datenaustausch mit Schnittstelle SIA 451 (IfA18) von CRB
+
+
+Datenaustausch mit    Ausschreibungen, welche mit BBase erfasst werden, können als neutrales
+ ©Microsoft EXCEL     EXCEL Dokument exportiert werden. Dabei sind nicht nur
+           (O%ce)     Leistungsverzeichnisse mit Bilder und Ausmasstabellen sondern auch die
+                      ganze Einleitung in einem Dokument zusammengefasst.
+                      Der Exportfile ist so geschützt, dass der Empfänger seine Informationen
+                      (Preise, Konditionen, Angaben zum Unternehmen, usw.) abfüllen kann ohne
+                      dabei die Struktur und den Inhalt zu verändern.
+
+                      Es sind keine weiteren Voraussetzungen zu berücksichtigen, weil beim
+                      Datenaustausch die gesamte Ausschreibung transportiert wird.
+
+       Exportdaten    Einleitung mit Deckblatt, Unternehmerangaben, Bedingungen, Hinweise,
+                      Objektbeschrieb, Planeradressen, Strukturbeschrieb, Grafiken,
+                      Zusammenfassung mit Auswertung. Leistungsverzeichnis als Volltext von
+                      NPK Bau oder Eigentext mit allen Strukturen, Ausmasstabellen und
+                      Grafiken.
+
+
+                      Es können auch Ausschreibungen ohne Leistungsverzeichnisse exportiert
+                      werden. Die Kosten werden dazu in der Auswertung auf einzelnen
+                      Abschnitten zusammengefasst.
+
+      Angebot des     Der Unternehmer ergänzt die Leistungsverzeichnisse mit seinen Preisen,
+     Unternehmers     trägt die Konditionen in der Auswertung ein, füllt die Unternehmerangaben
+                      aus, druckt seine O!erte und sendet das Angebot an den Architekten
+                      zurück.
+                      Der Architekt liest alle Daten in den O!ertvergleich ein und kontrolliert die
+                      Vollständigkeit für den Vergleich mit andern Unternehmern.
+                      Das Import Dokument enthält auch alle Infos des Unternehmers. Es genügt
+                      deshalb, das gedruckte Deckblatt mit der Nettosumme in Papierform vom
+                      Unternehmer unterzeichnet dem Angebot beizulegen.
+
+Datenaustausch mit    Leistungsverzeichnisse von Fachplaner, Unternehmer oder Lieferfirmen
+    SIA 451 (IfA18)   können über die Schnittstelle SIA 451 (IfA18) in Ausschreibungen von
+                      BBase importiert werden. Das gleiche Verfahren kann auch angewendet
+                      werden um ganze Ausschreibungen zu exportieren und anschliessend
+                      Angebote von Submittenten zu importieren.
+
+
+                      5.51 BBaseAusführung - Einführung                                   Seite 7/57
+                          Ausgetauscht werden mit SIA 451 nur die 'NPK Bau' Kapitelnummer,
+                          Sprache, Ausgabe-, Versionsjahr und die Positionsnummern (keine Texte)
+                          der Leistungsverzeichnisse zusammen mit dem Konditionenmodell. Und
+                          weiter erfasste Texte (R Positionen, Variablen), Bilder, Zusatzdokumente,
+                          Mengen (Ausmasstabellen, Detailmengen), Informationen zur
+                          Produktauswahl (PRD) und Preise, soweit vorhanden.
+
+                          Bedingungen, Hinweise, Zuschlagskriterien, Ergänzungen zur SIA 118,
+                          allgemeine Projektinformationen, Adresslisten, Skizzen, Pläne, usw.
+                          müssen weiterhin mit Papier resp. PDF Dokumenten verschickt werden.
+
+  Fehler beim Arbeiten    SIA 451 Austauschdateien werden beim Export und Import getestet.
+    mit SIA 451 (IfA18)   Dafür werden das Schnittstellen Prüfprogramm von CRB und die
+               Dateien    entsprechenden NPK Daten benötigt. Das Prüfprogramm erstellt ein
+                          Testprotokoll, welches die klassierten Fehler au!ührt.
+
+ Vom Fachplaner zum       Es können einzelne Leistungsverzeichnisse (ein NPK Kapitel) oder ganze
+         Architekten      Ausschreibungen (mehrere Leistungsverzeichnisse = mehrere NPK Kapitel)
+                          eingelesen werden. Importiert werden Strukturen nach IfA18,
+                          Positionsnummern, erfasste Texte (R Positionen, Variablen), Bilder,
+                          Zusatzdokumente, Mengen (Ausmasstabellen, Detailmengen),
+                          Informationen zur Produktauswahl (PRD) und Preise, soweit vorhanden.
+
+Vom Unternehmer zum       Es können Unternehmerleistungsverzeichnisse importiert werden.
+          Architekten
+
+ Vom Architekten zum      Es können ganze Ausschreibungen (mehrere NPK Kapitel) oder einzelne
+          Architekten     Leistungsverzeichnisse importiert werden.
+
+   Ausschreibung des      Beim Exportieren von Daten für ein Angebot muss die Struktur der
+         Architekten      Ausschreibung, das Konditionenmodell, die Positionsnummern, die
+                          Mengen, usw. überprüft werden. Erfüllt die Exportdatei die
+                          Minimalanforderungen nicht, kann nichts exportiert werden!
+
+         Angebot des      Der Unternehmer ergänzt die Leistungsverzeichnisse mit seinen Preisen,
+        Unternehmers      trägt die Konditionen ein, druckt seine O!erte und sendet das Angebot an
+                          den Architekten zurück.
+                          Angebote können nur importiert werden, wenn nach dem Export keine
+                          Veränderungen im Dokument der Ausschreibung vorgenommen wurden.
+                          Der Architekt liest alle Daten in den O!ertvergleich ein und kontrolliert die
+                          Vollständigkeit für den Vergleich mit andern Unternehmern.
+                          Zusätzliche Informationen wie z.B. Unternehmerangaben, Bedingungen und
+                          Hinweise müssen in Papierform ausgetauscht werden.
+
+        Empfehlungen      Sprechen Sie sich mit dem Unternehmer ab, und machen Sie einen
+                          "Probelauf" mit einer Standardausschreibung. Sie ersparen sich dadurch
+                          Ärger, wenn es wirklich ernst gilt.
+                          Das CRB empfiehlt, immer nur die neuesten und aktuellen Versionen der
+                          NPK Kapitel zu verwenden, d.h. der Architekt und der Unternehmer müssen
+                          alle Software Updates laufend installieren.
+
+
+
+
+                          5.51 BBaseAusführung - Einführung                                   Seite 8/57
+            1.4 Lösung mit Hilfe von BBaseWerkzeugen
+                     Die Aufgaben der Bau- und Büroadministration im Architektur- und
+                     Planungsbüro wurden auf verschiedene Phasen, Module und Werkzeuge
+                     von BBase verteilt.
+
+       Ausführung    Die Module der Ausschreibung (Phase 1), Datenaustausch, Vergabe
+                     (Phase 2) und Werkvertrag (Phase 3) werden der Gruppe Ausführung
+                     zugeordnet.
+                     Mit Hilfe dieser BBaseWerkzeuge ist es möglich präzise Ausschreibungen
+                     zu erstellen, Angebote übersichtlich zu vergleichen und
+                     Auftragsbestätigungen oder Werkverträge zu erstellen.
+
+ Projektverwaltung   Grundlage bildet die Projektliste, in welcher Bauherr-, Objektadresse,
+                     Informationen (Kurzbeschrieb für Standort, Bauart, Konstruktion), Termine
+                     (Beginn, Rohbauvollendung, Bezug) und Preisstand (Index) gesammelt und
+                     in alle Ausschreibungen abgefüllt werden.
+
+ Adressverwaltung    Unternehmeradressen für die Submittentenliste und Adressen für die Liste
+                     des Planungsteams werden mit BBaseAdressen erfasst und verwaltet. Mit
+                     Klassieren der Adressart (Unternehmer, Behörden, Planer, usw.) und
+                     Vergabeeinheit (Baumeister, Zimmermann, Aushub, usw.) lassen sich die
+                     vorgesehen Adressen schnell und einfach in die aktuelle Ausschreibung
+                     abfüllen und stehen für die Korrespondenz zur Verfügung.
+
+           Phase 1   Bedingungen und Hinweise, Leistungsverzeichnisse und Datenaustausch
+Ausschreibung (AS)   Mit BBaseAusschreibung werden Grundlagen für Angebote mit
+                     Bedingungen, Hinweisen und Leistungsverzeichnissen zusammengestellt
+                     und mit Hilfe von Submittentenlisten verschickt oder für den
+                     Datenaustausch mit SIA 451 oder als Excel Dokument vorbereitet.
+                     Jede Ausschreibung enthält allgemeine Informationen zum Projekt und
+                     spezielle Hinweise für die einzelnen Leistungsverzeichnisse
+                     (Arbeitsgattungen).
+                     Diese Informationen werden in der Einleitung mit einem Deckblatt
+                     zusammengefasst. Die einzelnen Leistungsverzeichnisse (abgeschlossene
+                     Kapitel) werden an diese Einleitung angefügt. Dabei wird eine
+                     Zusammenfassung (Auswertung) aller Kapitel erstellt. BBaseAusschreibung
+                     entspricht in weiten Teilen den Grundlagen des CRB und SIA. Das
+                     vorliegende Programm orientiert sich unter anderem an den
+                     entsprechenden Unterlagen.
+
+          Phase 2    Offertvergleich, Abgebot, Vergabe und Absagen
+     Vergabe (VG)    Nach dem Versand der Ausschreibung werden die Angebote im
+                     Offertvergleich von BBaseVergabe zusammengefasst. Nach allfälligen
+                     Mutationen können Unterlagen und Begleitbriefe für Abgebote verschickt
+                     und anschliessend der Vergabeantrag erstellt werden. Mit Hilfe der
+                     Auftragsbestätigung und Absagen ist die Vergabe der Ausschreibung
+                     abgeschlossen.
+                     Struktur und Inhalt des Offertvergleichs wird mit dem Erfassen der
+                     Ausschreibung bestimmt. Die Ausschreibung bildet deshalb die Grundlage
+                     für den Offertvergleich. Ohne Ausschreibung kann kein Offertvergleich
+                     erstellt werden.
+
+
+
+
+                     5.51 BBaseAusführung - Einführung                                Seite 9/57
+             Phase 3    Damit ein Werkvertrag einfach und schnell erstellt werden kann, muss ein
+    Werkvertrag (WV)    entsprechender O!ertvergleich als Grundlage verwendet werden. Der
+                        gewählte O!ertvergleich (VG) wird von BBase dupliziert und als neues
+                        Dokument (WV) angelegt, damit das Original unverändert bleibt. Danach
+                        werden zusätzliche Tabellenblätter für den Werkvertrag ein- und andere
+                        ausgeblendet.
+
+                        Erklärungsschema
+
+ Gesamtübersicht der
+          drei Phasen
+   Ausschreibung (1)
+   O!ertvergleich (2)
+  und Werkvertrag (3)
+   mit schematischer
+      Darstellung des
+        Datenflusses
+
+
+
+
+                        Der Beschrieb beschränkt sich auf Erläuterungen zum Bearbeiten von
+                        Ausschreibungen, O!ertvergleich und Werkverträgen. Erläuterungen zur
+                        Unternehmerkontrolle und Schlussabrechnung werden beschrieben unter:
+
+            Phase 4     Mutationen, Kontrolle und Schlussrechnung
+Unternehmerkontrolle    Mit den Daten der Auftragsbestätigung wird mit BBaseUnternehmer-
+                        kontrolle die Unternehmerkontrolle mit allen Grundlagen der
+                        Ausschreibung erstellt und steht als Grundlage für Mutationen und die
+                        Schlussabrechnung zur Verfügung.
+
+
+
+
+                        5.51 BBaseAusführung - Einführung                               Seite 10/57
+                 1.5 BBaseAusschreibung und seine Aufgaben
+             Phase 1      Damit eine Ausschreibung einfach und schnell erstellt wird, sind einige
+       Ausschreibung      Vorbereitungen notwendig. Dabei werden die komplexen Umstände des
+                          Ausschreibungsverfahrens berücksichtigt und vorhandene Lücken zu
+                          bestehenden Regeln geschlossen. Das Vorgehen wird in drei Schritte
+                          gegliedert, welche mit speziellen Hinweisen die Festlegungen des
+                          Ausschreibenden (1.), des aktuellen Projektes (2.) und der Arbeitsgattung
+                          (3.) beschreiben.
+
+             1. Schritt   Die bestehende Vorlage von BBase wird als Bürovorlage überarbeitet.
+           Bürovorlage    Neben der Gestaltung des Layouts werden dabei insbesondere das
+                          Deckblatt und die Allgemeinen Vertragsbedingungen an den Standard des
+                          Ausschreibenden angepasst.
+                          Es können mehrere, verschiedene Bürovorlagen gepflegt werden, welche
+                          Spezialitäten für private resp. ö!entliche Bauherren enthalten.
+
+Tabellenblatt 'AVB' mit
+ eigenen Festlegungen
+
+
+
+
+                          Die Bedingungen und Hinweise sind nicht nur von der Arbeitsgattung und
+                          dem aktuellen Objekt abhängig. Jedes Planungs- und Architekturbüro
+                          verwendet in der Regel eigene Texte und Informationen, welche meistens
+                          eine langjährige Entwicklung hinter sich haben. Diese Texte können in die
+                          Bürovorlagen abgefüllt werden.
+
+                          Besondere Aufmerksamkeit verdient die Art und Struktur des
+                          Konditionenmodells, welches zusammen mit den Festlegungen der
+                          allgemeinen Abzüge, die Anwendung regelt.
+
+
+
+
+                          5.51 BBaseAusführung - Einführung                                Seite 11/57
+             2. Schritt   Nach Erfassen der Stammdaten in der Projektliste, wird die Projektvorlage
+        Projektvorlage    erstellt. Diese dient als Grundlage für alle Ausschreibungen des gleichen
+                          Projektes und wird mit zusätzlichen Infos zum Bauwerk, der verwendeten
+                          Gliederungen, Baugrund, örtliche Gegebenheiten, usw. ergänzt.
+
+Tabellenblatt 'OSB' mit
+  ergänzenden Texten
+         und Grafiken
+
+
+
+
+                          Anstelle der Einleitung mit BBaseAusschreibung können mit Hilfe von NPK
+                          102 die Besonderen Bestimmungen aus dem Katalog des CRB
+                          zusammengesucht werden.
+
+                          In der Projektvorlage werden ausserdem die Art des Verfahrens mit
+                          Hinweisen zum Bauablauf und den Adressen des Planungsteams
+                          aufgeführt.
+                          Alle Adressen des Planungsteams können direkt aus der Adressverwaltung
+                          übernommen und mutiert werden. Mit Hilfe der Adressart 'Planer' ist eine
+                          Selektion der vorhandenen Daten möglich, welche eine schnelle Wahl
+                          unterstützt.
+
+
+
+
+                          5.51 BBaseAusführung - Einführung                                Seite 12/57
+                3. Schritt   Nach dem Erstellen der eigentlichen Ausschreibungsdatei werden alle
+          Arbeitsgattung     notwendigen Leistungsverzeichnisse als NPK Bau (Normpositionenkatalog
+                             von CRB), oder als Eigentext zusammengestellt.
+
+         Dialog für das
+          Erstellen der
+   Ausschreibungsdatei
+
+
+
+
+Klappmenü für die Wahl
+der Vergabeeinheit
+
+
+
+Option für die Wahl der
+Textbreite
+
+
+
+
+          Vergabeeinheit     Die gewünschte Vergabeeinheit wird im Klappmenü ausgewählt.
+
+     Textbreite an Seite     Mit Wählen der Option 'Textbreite...' werden die Texte auf die maximale
+              anpassen       Breite pro Zeile angepasst.
+
+     Anwendungshilfen        Alle Anwendungshilfen zu Normen, ABB und Empfehlungen der
+                             verwendeten NPK in diesem Bereich von BBase aufgelistet.
+
+ Tabellenblatt 'USB' mit
+  Liste der SIA Normen
+
+
+
+
+Unternehmerspezifische       Die Unternehmerspezifischen Bestimmungen (USB) enthalten zusätzlich
+        Bestimmungen         preisrelevante Informationen für die aktuelle Arbeitsgattung. Neben der
+                             Verfahrensart, den Fristen und Unterlagen, werden Erklärungen zum
+                             Konditionenmodell oder allfälligen Abzügen definiert.
+
+ Unternehmer Angaben         Mit den Angaben des Unternehmers zur Firma werden wichtige
+                             Entscheidungskriterien gesammelt. Neben der Adresse mit Sachbearbeiter,
+                             Versicherung, Referenzen, usw. kann eine Bestätigung mit
+                             Selbstdeklaration vorbereitet werden.
+
+
+
+                             5.51 BBaseAusführung - Einführung                                Seite 13/57
+                 LV einfügen    Nachträglich werden die Kapitel oder LV's von CRB, oder anderen Planer
+                                oder bestehende von anderen Projekten via SIA 451 Datenaustausch
+                                eingelesen werden. Die gewählten Kapitel und Positionen werden in der
+                                Auswertung mit dem Konditionenmodell zusammengefasst.
+
+             Dialog für das
+          Einlesen von LV’s
+
+
+
+
+        Optionen für die Wahl
+        der Kapitelart
+
+
+
+
+      Liste der zur verfügung
+      stehenden LV
+
+
+
+
+        Zusammenfassung         Im Tabellenblatt 'Auswertung' werden alle verwendeten
+                                Normpositionenkataloge (NPK) und Eigentext Kapitel oder
+                                Bauteilbeschriebe aus der Kostenermittlung von BBase mit den
+                                entsprechenden Abschnitttiteln aufgelistet.
+
+Tabellenblatt ‚Auswertung‘
+          mit eingefügtem
+       Zwischentotalblock
+          Kapitel Bezeichnung
+
+
+
+          Abschnitttitel
+
+
+
+
+          Konditionenmodell
+
+
+
+
+                                5.51 BBaseAusführung - Einführung                               Seite 14/57
+                               Anstelle der Kapitel kann für die Ausschreibung ohne
+                               Leistungsverzeichnisse die Struktur der Zwischentotale erfasst werden,
+                               welche später für den O!ertvergleich und Werkvertrag weiter verwendet
+                               wird.
+
+                               Nach Doppelklick auf die Bezeichnung oder den Abschnitttitel des NPK im
+                               Tabellenblatt 'Auswertung' wird sofort der entsprechende Ausschnitt des
+                               Leistungsverzeichnisses eingeblendet. Danach stehen im Menü 'LV XYZ'
+                               folgende Befehle zur Verfügung:
+
+       Tabellenblatt des
+Leistungsverzeichnisses
+           NPK Bau 331
+
+
+NPK Bau Kapitelnummer,
+Bezeichnung, Version
+
+Nummer der markierten
+Position
+
+
+
+
+Rote Markierungen der
+gewählten Positionen
+
+
+Ausmasstabelle der aktuellen
+Position
+
+
+
+
+                                                        Register der eingefügten   Navigationshilfe für original NPK Bau
+                                                        Leistungsverzeichnisse     von CRB mit Klappmenü zu
+                                                                                   Abschnitttitel, Unterabschnitttitel und
+                                                                                   Hauptpositionen
+
+       Anwendungshilfen        Zu jedem neuen NPK-Kapitel mit ABB-Anpassungen wurde vom CRB ein
+                               Dokument, mit der Bezeichnung 'Anwendung' erstellt. Es informiert den
+                               Anwender über die erfolgten Änderungen. Das Dokument ist
+                               kapitelspezifisch und enthält Informationen, neben Verweisen auf
+                               Erarbeitungsgrundlagen wie Normen, ABB etc., auch Begri!e und
+                               Abkürzungen zur besseren Verständigung.
+                               Die Texte dieser 'Anwendung' können als PDF File am Bildschirm angezeigt
+                               und gedruckt werden.
+
+
+
+
+                               5.51 BBaseAusführung - Einführung                                              Seite 15/57
+Entscheidungsschema    Die Struktur des NPK Bau wird von CRB für die meisten Kapitel mit
+                       'Entscheidungsschema' publiziert. Diese Bilder können als PDF File am
+                       Bildschirm angezeigt und gedruckt werden.
+
+   Positionen wählen   Mit einfachem Doppelklick werden Positionen im Katalog gewählt. Alle
+                       Vorbemerkungen und übergeordneten Positionen werden vom Programm
+                       angefügt. Das entsprechende Leistungsverzeichnis wird mit Ändern der
+                       Darstellung am Bildschirm gezeigt.
+
+      Dialog für das
+      Bearbeiten der
+            Mengen
+
+
+
+
+ Auswahlbereich für
+ Gliederungen
+
+
+
+
+    Ausmasstabellen    Zu jeder Mengen- oder Teilmengenzeile kann ein Ausmassblock mit
+                       mehreren Zeilen erfasst werden. Für das Berechnen der Vorausmasse
+                       stehen ein Faktor, Länge, Breite, Höhe und Runden zur Verfügung.
+                       Ausmasstabellen können ein-/ausgeblendet und mit zusätzlichen Zeilen
+                       erweitert werden.
+
+         Laufnummer    Damit in umfangreichen Leistungsverzeichnissen Positionen leichter und
+                       schneller gefunden werden, sind alle Unterpositionen die eine Menge
+
+
+
+                       5.51 BBaseAusführung - Einführung                               Seite 16/57
+                      tragen, mit einer fortlaufenden Nummer, der Laufnummer, versehen. Die
+                      Laufnummer ist 7-stellig, numerisch und enthält in der Regel die
+                      Kapitelnummer ergänzt mit einer fortlaufenden Nummerierung von 0 -
+                      999.
+
+                      Als Ergänzung zu bestehenden Standard Positionen können in
+                      Leistungsverzeichnissen mit NPK Bau, Reserve Positionen mit Eigentext
+                      erfasst werden. Bestehende Positionen können auch in Reserve Positionen
+                      mit Verschieben oder Duplizieren umgewandelt werden. Das Erfassen der
+                      'R' Position ist in der Darstellung als Katalog oder LV möglich. Dabei
+                      werden die eingetragenen Positionen ständig mit dem Inhalt des aktuellen
+                      Katalogs verglichen.
+
+   Bilder einfügen    In allen Leistungsverzeichnissen und der Einleitung zur Ausschreibung
+                      können Bilder aus Dateien, aus der Zwischenablage oder freien Platz
+                      eingefügt werden.
+
+
+
+
+                                                                           Kontrollprotokoll mit
+                                                                           Einstellungen der
+                                                                           Darstellung
+
+
+
+
+    Leistungsverzeichnis NPK 331 mit
+    Konstruktionsskizze und Ausmasstabellen
+
+
+    Kontrolle der     Vor dem Exportieren resp. Drucken der aktuellen Ausschreibung muss die
+   Ausschreibung      Vollständigkeit der Auswertung und Leistungsverzeichnisse überprüft
+                      werden.
+
+      Darstellung     Mit Optionen für das Anzeigen der Preise, Objektgliederungen,
+                      Ausmasstabellen, Teil- mengen, usw. wird die Darstellung der
+                      Leistungsverzeichnisse und Auswertung angepasst.
+
+Adressen einfügen     Innerhalb der aktuellen Ausschreibung werden alle notwendigen Adressen
+                      der Unternehmer des Planungsteams gesammelt.
+                      Diese werden direkt aus der Adressliste von BBase übernommen oder darin
+                      erfasst resp. bearbeitet. Die erfassten Adressen dienen als Auswahlliste für
+                      das Versenden der Ausschreibungsunterlagen und bilden die Grundlage für
+                      den O!ertvergleich.
+
+
+
+                      5.51 BBaseAusführung - Einführung                                   Seite 17/57
+ Versand in Papierform      Nach Übernahme der Submittenten aus der Adressliste und Ergänzen der
+  oder Export als Datei     unternehmer- spezifischen Bestimmungen ist die Ausschreibung für den
+                            Versand bereit.
+                            Dies kann mit den vorbereiteten O!ertbegleitbriefen als Drucksache
+                            erfolgen oder via SIA 451 resp. als Excel Dokument für den Datenaustausch
+                            exportiert werden.
+
+               Phase 2      Damit ein O!ertvergleich erstellt werden kann, muss eine entsprechende
+         O!ertvergleich     Ausschreibung verwendet werden. Die gewählte Ausschreibung (AS) wird
+                            von BBase dupliziert und als neues Dokument (VG) angelegt damit das
+                            Original unverändert bestehen bleibt.
+                            Danach werden zusätzliche Tabellenblätter für den O!ertvergleich, die
+                            Abgebotsrunde, Auftragsbestätigung und Absagebriefe eingeblendet.
+
+                            Der O!ertvergleich, auf dem Tabellenblatt 'Vergabe', enthält neben der
+                            Kapitelstruktur und dem Konditionenmodell auch alle mengentragenden
+                            Unterpositionen. Für jeden im Tabellenblatt 'Submittenten' eingeblendeten
+                            Unternehmer werden die Einheitspreise und Konditionen in Spalten
+                            dargestellt, um damit den Preisvergleich zu erstellen.
+
+    KV Summe erfassen       Die Angebote der Unternehmer können im O!ertvergleich auch mit den
+                            massgeblichen Preisen oder Kosten des KV verglichen werden. Dafür
+                            können Preise auf einzelnen Positionen, Zwischentotalsummen bei den
+                            Abschnitten der Kapitel oder die Totalsumme Brutto erfasst werden.
+
+Einheitspreise erfassen     Die Einheitspreise der Angebote können direkt im O!ertvergleich erfasst
+                            oder aus SIA 451 Dateien resp. EXCEL Export Dateien mit den
+                            entsprechenden Konditionen eingelesen und dem aktuellen Unternehmer
+                            zugeordnet werden.
+
+Tabellenblatt 'Vergabe'
+ mit Bereich für Preise
+      resp. Kosten und
+           Konditionen
+
+
+
+
+ Bereich für das Erfassen
+ der Konditionen
+
+
+
+
+                                                                            Bereich für das Erfassen der
+                                                                            Einheitspreise
+
+
+
+
+                            5.51 BBaseAusführung - Einführung                                   Seite 18/57
+                          Bei Ausschreibungen ohne Leistungsverzeichnisse werden die Angebote auf
+                          der Stufe der Zwischentotale direkt eingetragen resp. aus EXCEL Export
+                          Dateien eingelesen.
+
+Angebote importieren      Der Datenaustausch mit einer Standard Software z.B. ©MS EXCEL bietet den
+   ... aus Excel Datei    Vorteil, dass nicht nur weltweit, sondern auch im abgegrenzten Gebiete der
+                          schweizerischen Baubranche mit einer Tre!erquote von über 90%
+                          gerechnet werden kann.
+                          Übermittelt werden nicht nur die Positionen, sondern alle preisrelevanten
+                          Informationen wie Unternehmerinfos, Bedingungen, Hinweise, Texte,
+                          Vorausmassetabellen, Grafiken, usw. Sogar ein Datenaustausch ohne
+                          Leistungsverzeichnisse, nur auf Stufe der Zwischentotalsummen, ist
+                          möglich und für bestimmte Arbeitsgattungen auch sinnvoll.
+
+                ...oder   Eine weitere Möglichkeit wurde speziell für den Datenaustausch mit CRB
+                          NPK Bau und SIA 451 entwickelt. Diese Schnittstelle gilt nur für die Schweiz
+                          und ausserdem auch nur für jene Planer und Unternehmer, welche eine
+                          spezielle Branchensoftware und die notwendigen Lizenzrechte für das
+                          Benutzen der einzelnen Kataloge besitzen.
+
+
+                          Ausgetauscht werden mit SIA 451 nur die 'NPK Bau' Kapitelnummer,
+                          Sprache, Ausgabe-, Versionsjahr und die Positionsnummern (keine Texte)
+                          der Leistungsverzeichnisse zusammen mit dem Konditionenmodell. Und
+                          weiter erfasste Texte (R Positionen, Variablen), Bilder, Zusatzdokumente,
+                          Mengen (Ausmasstabellen, Detailmengen), Informationen zur
+                          Produktauswahl (PRD) und Preise, soweit vorhanden.
+
+                          Bedingungen, Hinweise, Zuschlagskriterien, Ergänzungen zur SIA 118,
+                          allgemeine Projektinformationen, Adresslisten, Skizzen, Pläne, usw.
+                          müssen weiterhin mit Papier resp. PDF Dokumenten verschickt werden.
+
+   Favorit bestimmen      Mit Bestimmen des Favoriten werden die gewählten Preise und das
+                          Konditionenmodell in die Leistungsbeschriebe übernommen und der
+                          Vergleich unter allen eingereichten Angeboten dargestellt.
+
+  ...Preise vergleichen   Bei O!ertvergleichen mit Positionen können die Einheitspreise mit Kriterien
+                          gefiltert werden. Danach sind markante Abweichungen zum KV oder
+                          Favoriten sofort sichtbar.
+                          Ausgewertet werden dabei die Abweichungen in Prozent oder als absoluter
+                          Betrag im Vergleich zwischen einem beliebigen Angebot und dem aktuellen
+                          Favoriten.
+
+
+
+
+                          5.51 BBaseAusführung - Einführung                                 Seite 19/57
+                                                                           Gewählter Favorit
+
+
+ Tabellenblatt 'Vergabe'
+Vergleich Favorit und KV
+
+
+
+
+   Vergleich der Angebote
+
+
+
+
+                            Die Beträge und Konditionen in den weissen Feldern können gelöscht oder
+                            überschrieben werden. Jede Änderung der Konditionen oder Einheitspreise
+                            wird in der Berechnung sofort nachgeführt und zeigt immer den aktuellen
+                            Vergleich der Angebote.
+
+         Abgebotsrunde      Für Abgebote können Begleitbriefe mit Rangierung und neutralen
+                            Übersichtstabellen aller Angebote erstellt und verschickt werden. Dazu
+                            muss der Favorit festgelegt werden.
+
+Auftragsbestätigung und     Nach Abschluss der Verhandlungen und Vorbereiten des Werkvertrages
+                Absagen     können für den Favoriten eine Auftragsbestätigung erstellt und für alle
+                            anderen Submittenten entsprechende Absagebriefe gedruckt werden.
+
+                Phase 3     Damit ein Werkvertrag einfach und schnell erstellt werden kann, muss ein
+            Werkvertrag     entsprechender O!ertvergleich als Grundlage verwendet werden. Der
+                            gewählte O!ertvergleich (VG) wird von BBase dupliziert und als neues
+                            Dokument (WV) angelegt, damit das Original unverändert bleibt. Danach
+                            werden zusätzliche Tabellenblätter für den Werkvertrag ein- und Andere
+                            ausgeblendet.
+
+            Vertragsbrief   Für den Versand der Werkverträge ist ein entsprechender Vertragsbrief
+                            vorbereitet. Dieser wird als Serienbrief mit den Adressen des Bauherrn
+                            resp. Unternehmers versehen.
+
+
+
+
+                            5.51 BBaseAusführung - Einführung                                  Seite 20/57
+                     1.6 Inhalt des aktuellen BBaseDokumentes
+                             Für das aktuelle Werkzeug werden folgende Formularvorlagen
+                             (Arbeitsmappen) und Tabellenblätter verwendet:
+
+           Arbeitsmappen     1. Vorlage Deckblatt AS.xlsx
+                             2. BBase Vorlage Ausschreibung.xlsm
+                             3. Vorlage Deckblatt WV.xlsx
+
+Vorlage Deckblatt AS.xlsx    Beim Erfassen eines neuen Dokumentes für die Ausschreibung wird die
+                             Tabelle 'Deckblatt', welche sich in der 'Vorlage Deckblatt AS.xlsx' befindet,
+                             in die Arbeitsmappe der gewählten Vorlage eingefügt.
+
+                             Die Dokumente 'BBase Vorlage Ausschreibung' und allfällige Büro- resp.
+                             Projektvorlagen enthalten kein Deckblatt.
+
+Vorlage Deckblatt WV.xlsx    Beim Erstellen eines Werkvertrages aus einem O!ertvergleich wird die
+                             Tabelle 'Deckblatt', welche sich in der 'Vorlage Deckblatt WV.xls' befindet,
+                             in die Arbeitsmappe eingefügt.
+
+           Tabellenblätter   Während die Deckblattvorlage nur eine Tabelle enthält sind die Aufgaben
+   Vorlage Ausschreibung     der Ausschreibung auf verschiedene Tabellenblätter der Vorlage aufgeteilt.
+                             Links in der BBaseSteuerung können die Tabellenblätter des aktuellen
+                             BBaseDokuments für das Bearbeiten am Bildschirm direkt ausgewählt
+                             werden. Das Wechseln erfolgt einfach und schnell.
+
+   Verschiedene Tabellen     Die Arbeitsmappen der Ausschreibung (AS), des O!ertvergleichs (VG) und
+                             des Werkvertrages (WV) enthalten spezielle Tabellen, welche nur für die
+                             entsprechende Phase gelten. Diese werden beim erstellen der Dokumente
+                             ein- resp. ausgeblendet.
+
+Ausschreibung (AS)                         O!ertvergleich (VG)                    Werkvertrag (WV)
+
+
+
+
+                             5.51 BBaseAusführung - Einführung                                       Seite 21/57
+  Grundlage     Titel, Untertitel und Inhalt, welche auf dem 'Deckblatt' angezeigt werden,
+                können im Tabellenblatt 'Grundlage' überarbeitet oder ergänzt werden.
+                Ausserdem sind Infos zum aktuellen Dokument, Korrespondenz- und
+                Eingabedatum sowie Begleittext für den EXCEL Export enthalten.
+
+                Erklärungsschema
+
+
+
+
+                Begri!serklärung
+
+  Submittent    Innerhalb der aktuellen Ausschreibung werden einerseits die Adressen der
+     AS, VG     Unternehmer für den O!ertvergleich und andererseits die Adressen des
+                Planungsteams gesammelt.
+                Diese werden direkt aus der Adressliste von BBase übernommen oder darin
+                erfasst resp. bearbeitet. Die erfassten Adressen dienen als Auswahlliste für
+                das Versenden der Ausschreibungsunterlagen und bilden die Grundlage für
+                den O!ertvergleich.
+
+  O!ertbrief    Für den Versand der Ausschreibung ist ein entsprechender O!ertbrief
+         AS     vorbereitet. Dieser kann als Serienbrief mit den Adressen der
+                Submittentenliste versehen werden.
+
+Vertragsbrief   Für den Versand der Werkverträge ist ein entsprechender Vertragsbrief
+         WV     vorbereitet. Dieser wird als Serienbrief mit den Adressen des Bauherrn
+                resp. Unternehmers versehen.
+
+   Deckblatt    Das Deckblatt wird im 3. Schritt 'Arbeitsgattung' mit den vorbereiteten
+         AS     Vorlagen eingefügt und kann ausgewechselt oder ergänzt werden.
+        WV      Das Tabellenblatt 'Deckblatt', welches im Werkvertrag (WV) angezeigt wird,
+                entspricht der 'Vorlage Deckblatt WV.xlsx'.
+
+
+        AVB     Mit den Allgemeine Vertragsbedingungen (AVB) werden generelle Regeln
+ AS, VG, WV     beschrieben, welche vielfach in der Bürovorlage definiert und für alle
+                Ausschreibungen gelten. Dazu werden ergänzende Texte zu Eignungs-
+                resp. Zuschlagskriterien und allfällige Abweichungen zur SIA 118 definiert.
+
+
+
+
+                5.51 BBaseAusführung - Einführung                                 Seite 22/57
+              Die in der BBaseVorlage aufgeführten Texte für Bedingungen und Hinweise
+              (AVB, OSB, USB, UN) sind Beispiele. Diese entsprechen weder der
+              Rechtssprechung noch den Anforderungen des aktuellen Projektes. Sie
+              müssen für die aktuelle Anwendung angepasst werden und entsprechen,
+              bezüglich Themen und Struktur, dem Inhalt von NPK 102.
+
+       OSB    Die Objektspezifischen Bestimmungen (OSB) zeigen alle bereits erfassten
+AS, VG, WV    Informationen zum Bauvorhaben und können in der Projektvorlage ergänzt
+              werden.
+              Die erfassten Gliederungen und Struktur der Ausschreibung werden
+              durchgängig über alle Leistungsverzeichnisse angewendet.
+
+
+              Angaben zu Baugrund, Erschliessung, Betrieb usw. können mit Grafiken
+              und Fotos ergänzt werden.
+
+   Planung    Alle Adressen des Planungsteams können direkt aus der Adressverwaltung
+AS, VG, WV    übernommen und mutiert werden. Mit Hilfe der Adressart 'Planer' ist eine
+              Selektion der vorhandenen Daten möglich, welche eine schnelle Wahl
+              unterstützt.
+
+       USB    Die Unternehmerspezifischen Bestimmungen (USB) enthalten zusätzlich
+AS, VG, WV    preisrelevante Informationen für die aktuelle Arbeitsgattung. Neben der
+              Verfahrensart, den Fristen und Unterlagen, werden Erklärungen zum
+              Konditionenmodell oder allfälligen Abzügen definiert.
+
+              Im Abschnitt 'Normen und Regelwerke' werden alle in Anwendungshilfen
+              enthaltenen Hinweise zu Normen, ABB und Empfehlungen der verwendeten
+              NPK aufgelistet.
+
+        UN    Mit den Angaben des Unternehmers zur Firma werden wichtige
+AS, VG, WV    Entscheidungskriterien gesammelt. Neben der Adresse mit Sachbearbeiter,
+              Versicherung, Referenzen, usw. kann eine Bestätigung mit
+              Selbstdeklaration vorbereitet werden.
+
+Auswertung    Im Tabellenblatt 'Auswertung' werden alle verwendeten
+ AS, VG, WV   Normpositionenkataloge (NPK) und Eigentext Kapitel oder
+              Bauteilbeschriebe aus der Kostenermittlung von BBase mit den
+              entsprechenden Abschnitttiteln aufgelistet. Diese können auch direkt aus
+              SIA 451 Dateien importiert werden.
+
+
+              Anstelle der Kapitel kann für die Ausschreibung ohne
+              Leistungsverzeichnisse die Struktur der Zwischentotale erfasst werden,
+              welche später für den O!ertvergleich und Werkvertrag weiter verwendet
+              wird.
+
+              Nach abschliessendem Bearbeiten des Konditionenmodells und
+              Gliederungsstrukturen kann die Ausschreibung als SIA 451 Datei (nur
+              Leistungsverzeichnisse mit Konditionen) oder als Excel Dokument
+              (Deckblatt, Einleitung mit Plänen, Fotos, Vorausmass und Leistungsver-
+              zeichnissen) für das Angebot exportiert werden.
+    LV XYZ    Für jedes Kapitel der Leistungsverzeichnisse wird ein eigenes Tabellenblatt
+              eingefügt, welches den ganzen Katalog enthält.
+              Mit einfachem Doppelklick werden Positionen im Katalog gewählt und
+              danach alle Vorbemerkungen und übergeordneten Positionen vom
+
+
+
+
+              5.51 BBaseAusführung - Einführung                                 Seite 23/57
+              Programm angefügt. Das entsprechende Leistungsverzeichnis wird beim
+              Ändern der Darstellung am Bildschirm gezeigt.
+              Werden Positionen mit Einheitspreisen erfasst, wird automatisch auf der
+              Linie der Abschnitt- und Unterabschnitttitel das entsprechende
+              Zwischentotal berechnet. Die Preise können für das Angebot auch wieder
+              ausgeblendet werden.
+              Zu jeder Mengen- oder Teilmengenzeile kann ein Ausmassblock
+              (Vorausmass) mit mehreren Zeilen erfasst werden. Ausmasstabellen
+              können ein-/ausgeblendet und nachträglich erweitert werden.
+
+              Es können ergänzend zu den Texten, Grafiken oder Pläne sowie Bilder in
+              die Leistungsverzeichnisse eingesetzt werden.
+
+   Vergabe    Der O!ertvergleich, auf dem Tabellenblatt 'Vergabe', enthält neben der
+        VG    Kapitelstruktur und dem Konditionenmodell auch alle mengentragenden
+              Unterpositionen. Für jeden im Tabellenblatt 'Submittenten' eingeblendeten
+              Unternehmer werden die Einheitspreise und Konditionen in Spalten
+              dargestellt, um damit den Preisvergleich zu erstellen.
+
+
+              Die Angebote der Unternehmer können im O!ertvergleich auch mit den
+              massgeblichen Preisen oder Kosten des KV verglichen werden. Dafür
+              können Preise auf einzelnen Positionen, Zwischentotalsummen bei den
+              Abschnitten der Kapitel oder die Totalsumme Brutto erfasst werden.
+
+   Abgebot    An alle beteiligten Unternehmer kann mit dem Tabellenblatt 'Abgebot' ein
+       VG     Serienbrief mit Rangierung, Nettobetrag oder detaillierter Tabelle der
+              Einheitspreise verschickt werden.
+
+Bestätigung   Die Einheitspreise, Konditionen und Adresse des im O!ertvergleich
+         VG   bestimmten Favoriten, werden in der Auftragsbestätigung im Tabellenblatt
+              'Bestätigung' angezeigt und können mit der Zusammenfassung im
+              Tabellenblatt 'Auswertung' als Vorgänger zum Werkvertrag verschickt
+              werden.
+
+    Absage    Für alle andern Unternehmer wird im Tabellenblatt 'Absage' ein Serienbrief
+        VG    vorbereitet. Dieser kann wahlweise mit Informationen zur Vergabe des
+              Auftrages (Firma und Betrag) ergänzt werden.
+
+
+
+
+              5.51 BBaseAusführung - Einführung                                Seite 24/57
+ 4 Anhang
+    Im Literaturverzeichnis sind einige Informationsquellen aufgeführt
+    welche zusammen mit dem gedruckten Beispiel grundlegende Hinweise
+    zur Ausschreibung enthalten.
+
+
+
+
+4.1 Quellen und Literaturhinweise
+    BBaseAusschreibung wurde auf den Forschungsergebnissen verschiedener
+                                                                                  4
+    KTI Projekte aufgebaut und Berücksichtigt auch Festlegungen von CRB. Das
+    vorliegende Programm orientiert sich unter anderem an entsprechenden
+
+
+
+                                                                                  Anhang
+    Unterlagen.
+
+    Kompass - Die Integrale Plattform für die Bauwirtschaft KTI-Projekt 3547.1
+    1998 Bauen nach Smart 1998 ISBN 3-7643-5923-4
+
+    SIA, CH-8039 Zürich
+    SN 509 450 - SIA 450 Kosteninformation
+    SN 509 451 - SIA 451 1989 inkl. Merkblatt 2004
+    tec21 Nr 13/2005 Seite 16-17 - Allgemeine Bedingungen Bau
+
+    CRB, CH-8040 Zürich
+    NPK Bau - Benützungsanleitung 1996
+    NPK Bau - Information für Anwender 18 (IfA18)
+
+    Dem Anwender des NPK Bau stehen gratis 'Merkblätter zum Devisieren' zur
+    Verfügung. Diese können direkt beim CRB Tel. 044 456 45 45 oder
+    www.crb.ch unter Dienstleistungen, Anwendungshilfen bezogen werden.
+
+    01.05 Datenidentität bei NPK Bau
+    02.05 Grundsätze der Devisierung
+    03.05 Kostengrundlagen
+    04.05 Ausmassbereiche
+    06.05 Warum sind nach Möglichkeit geschlossene Positionen zu
+    verwenden? 07.05 Symbole für Grössen im NPK
+    08.05 Eignung und Anwendung des NPK für grosse und kleine Arbeiten
+    09.05 Begri!e im Erdbau
+    10.05 Zement nach SN EN 197-1:2000
+    13.05 Wild lebende Tiere im Siedlungsraum
+    14.05 Beton – neue Bezeichnungen nach Norm SN EN 206-1:2000 15.05
+    Normpositionen-Katalog NPK und Allgemeine Bedingungen Bau ABB 16.06
+    Spachtelungen und Weissputze als Untergrund für Beschichtungen
+
+    Eidg. Steuerverwaltung, CH-3000 Bern
+    Wegleitung 2001 zur Mehrwertsteuerpflichtig - Publikation 610.525 d
+    Mehrwertsteuersätze und Entgeltminderung
+    Branchenbroschüre für das Baugewerbe - Publikation 610.540-04
+
+
+
+
+    5.51 BBaseAusführung - Einführung                               Seite 25/57
+                  4.2 Begriffe und Abkürzungen
+               Abschnitt   Der Abschnitt gliedert die Leistungsverzeichnisse in Bereiche mit
+                           einheitlicher Thematik. Er beginnt mit einer Nummer und einem Titel. Die
+                           Abschnittnummer ist dreistellig und endet mit zwei Nullen.
+
+                Angebot    Angebot des Unternehmers (Offerte), welche mit Hilfe der Ausschreibung
+                           eingeholt wird. Siehe auch Nachtragsangebot.
+
+                 Akkord    Siehe auch Vergütungsart.
+
+                    AVB    Allgemeine Vertragsbedingungen
+
+          Baukostenplan    Der BKP ist ein Anlagekontenplan für sämtliche Kosten, die bei der
+                           Erstellung einer baulichen Anlage anfallen. Er umfasst Grundstückserwerb,
+                           eigentliche Baukosten, Einrichtungen, Ausstattungen, Honorare und
+                           Nebenkosten aller Art. Es handelt sich beim BKP im Grunde genommen um
+                           einen Investitionskostenplan.
+
+                 Bauteil   Gliederungsstruktur für das Erfassen von Beschrieben und Kosten, welche
+                           der eBKP oder BKP Struktur untergeordnet werden.
+
+                    BKP    Siehe Auch Baukostenplan.
+
+                     BT    Siehe Auch Bauteil.
+
+         Datenaustausch    Der Schweizerische Ingenieur- und Architekten Verein (SI+A) hat eine
+                           Empfehlung für den Datenaustausch erarbeitet. Diese Empfehlung befasst
+                           sich mit der Datenübertragung zwischen Planer und Planer, Planer und
+                           Unternehmer resp. Planer und Bauherr.
+
+                   Devis   Französischer Begriff für Kostenvoranschlag. Wird in der deutschsprachigen
+                           Schweiz als Bezeichnung für ein Leistungsverzeichnis (LV) verwendet.
+
+                    EGL    Spaltenbezeichnung im Leistungsverzeichnis. Siehe Elementgliederung.
+
+                     EH    Spaltenbezeichnung im Leistungsverzeichnis.
+                           Enthält die Einheit (max. zweistellig) der aktuellen Unterposition.
+
+         Einrichtungstyp   Dient insbesondere dazu, speziell elektromechanische Einrichtungsteile
+                           (z.B. Lifte, Fahrtreppen, etc.) oder Baustelleneinrichtungsgegenstände (z.B.
+                           Krane, etc.) als Typen zu deklarieren.
+
+      Elementgliederung    Zum Zwecke der Kostenplanung wird ein Bauobjekt in funktionale Elemente
+                           gegliedert. Die Elementcodes können den Teilmengen von
+                           Leistungspositionen zugeordnet werden.
+
+                    ERT    Spaltenbezeichnung im Leistungsverzeichnis. Siehe auch Einrichtungstyp.
+
+fakultative Vorbemerkung   Fakultative Vorbemerkungen enthalten in der Regel Erläuterungen,
+                           Bedingungen des betreffenden Abschnitts, Unterabschnitts oder einzelner
+                           Positionen und müssen vom Anwender ausgewählt werden.
+
+
+
+
+                           5.51 BBaseAusführung - Einführung                                     Seite 26/57
+       Hauptposition    Die Hauptposition trägt eine dreistellige Nummer und hat die Funktion
+                        einer einleitenden, die Position charakterisierenden Leistungsbeschreibung.
+                        Siehe auch Abschnitt und Unterabschnitt.
+
+                  HP    Spaltenbezeichnung im Leistungsverzeichnis. Siehe Hauptposition.
+
+                IfA18   Information für Anwender 2018 zum NPK Bau.
+
+                 KAG    Spaltenbezeichnung im Leistungsverzeichnis. Siehe Kostenartengliederung.
+
+                 KAL    Spaltenbezeichnung im Leistungsverzeichnis.
+                        Enthält die Kalkulationsgrundlage. Siehe auch Kalkulation.
+
+          Kalkulation   Für die Querverbindung zur Kalkulationsgrundlage des Unternehmers
+                        stehen auf jeder Zeile mit Preis sechs Stellen zur Verfügung.
+
+              Kapitel   Siehe auch Normpositionenkatalog.
+
+        Kapitelgruppe   Erste, dem Bauablauf entsprechende Gliederung des Gesamtinhalts von
+                        NPK Bau (z.B. 300 Rohbauarbeiten). Die Kapitelgruppe ist gekennzeichnet
+                        durch eine dreistellige Nummer, die mit 2 Nullen endet.
+
+   Kapiteluntergruppe   Gliederung der Kapitelgruppen in Untergruppen mit Kapiteln, die
+                        bautechnisch zusammengehören (z.B. 310 Baumeisterarbeiten). Die
+                        Kapiteluntergruppe ist gekennzeichnet durch eine dreistellige Nummer, die
+                        mit einer Null endet.
+
+         Komponente     Gliederungsstruktur für das Erfassen von Beschrieben und Kosten welche
+                        der Struktur der Bauteile untergeordnet werden.
+
+Kostenartengliederung   Die Kostenartengliederung erlaubt die Leistungen nach einem Kontenplan
+                        der Kostenarten (z.B. nach dem Baukostenplan BKP) zu gliedern. Für den
+                        alphanumerischen Code der Kostenartengliederung stehen sechs Stellen
+                        zur Verfügung.
+
+   Kostenvoranschlag    Tabelle mit allen Kosten gegliedert nach BKP als Grundlage für die
+                        Kostenkontrolle und -Überwachung.
+
+                  KP    Siehe auch Komponente.
+
+                  KV    Siehe auch Kostenvoranschlag.
+
+         Laufnummer     Um in umfangreichen Leistungsverzeichnissen Positionen leichter und
+                        schneller zu finden, können alle Unterpositionen die eine Menge tragen,
+                        mit einer fortlaufenden Nummer, der Laufnummer, versehen werden. Die
+                        Laufnummer ist numerisch. Es stehen sieben Stellen zur Verfügung.
+
+
+                        Es hat sich als günstig erwiesen, wenn die Laufnummer selbst
+                        Informationen enthält, zu welchem Kapitel die Teilmenge gehört. Deshalb
+                        enthält die Laufnummer in der Regel die Kapitelnummer als erste 3 Ziffern.
+                        Damit stehen 3 Ziffern (max. 999 Positionen) für die fortlaufenden
+                        Nummerierung der Teilmengenzeilen zur Verfügung.
+                        Bei grösseren Vorhaben könnte dies zu Problemen führen. Deshalb soll
+                        eine variable Option benutzt werden.
+
+
+
+
+                        5.51 BBaseAusführung - Einführung                                Seite 27/57
+                       Variante 1
+
+                       3 Stellen Kapitelnummer (z.B. 314).
+                       3 Stellen als fortlaufende Nummerierung 1 Stelle als Prüfsumme.
+
+
+                       Variante 2
+
+                       2 Stellen Kapitelidentifikation (z.B. 01) 4 Stellen fortlaufend.
+                       1 Stelle als Prüfsumme.
+
+   Leistungsposition   Die Leistungsposition beschreibt und quantifiziert eine bauliche Leistung
+                       und ist Bestandteil des Leistungsverzeichnisses.
+                       Siehe auch Hauptposition und Unterposition.
+
+Leistungsverzeichnis   Beschreibung konkreter Bauvorhaben mit Hilfe von
+                       Leistungsbeschreibungen (Lieferungen und Arbeiten) von NPK Bau oder
+                       Eigentext bilden meistens die Grundlage für Angebote der Unternehmer.
+                       Siehe auch Devis.
+
+                 LV    Leistungsverzeichnis. Siehe auch Devis.
+
+                MA     Spaltenbezeichnung im Leistungsverzeichnis. Siehe Mengenart.
+
+    Mehrwertsteuer     Die Mehrwertsteuer ist eine Verbrauchssteuer.
+                       Das Ziel der Besteuerung liegt in der Belastung der
+                       Einkommensverwendung des Endverbrauchs (Konsum von Gegenständen
+                       und Dienstleistungen). Aus Praktikabilitätsüberlegungen wird der
+                       Endverbraucher bzw. Konsument nicht direkt erfasst.
+                       Steuerlicher Anknüpfungspunkt sind die Lieferungen und Dienstleistungen
+                       von steuerpflichtigen Unternehmungen.
+                       Im Inland wird die MWSt als Allphasensteuer auf allen Wirtschaftsstufen
+                       jeder Lieferung oder Dienstleistung erhoben.
+                       Von der Steuer ausgenommen sind:
+                       Die Übertragung und Bestellung von dinglichen Rechten an Grundstücken
+                       wie; - Handänderungen von Immobilien
+                  •    Kauf- und Vorkaufsrechte
+                  •    Baurecht
+
+
+         Mengenart     Kennzeichnen der Mengenart nach der Regelung in der Empfehlung SIA
+                       451. Für die Mengenarten werden folgende Codes verwendet:
+
+
+                       Standardmengenarten
+
+                  A    Vorausmass durch den Planer ermittelt, ist einzurechnen.
+                  B    Festmenge durch den Planer ermittelt, ist einzurechnen.
+                  D    Vorausmass, das nur auf Anweisung des Planers erstellt werden darf, ist
+                       einzurechnen.
+                  E    Per-Position ohne Mengenangabe, ist nicht einzurechnen.
+
+                       Mengenarten Primärvarianten
+
+                   J   Vorausmass durch den Planer ermittelt, ist einzurechnen.
+                  K    Festmenge durch den Planer ermittelt, ist einzurechnen.
+
+
+
+
+                       5.51 BBaseAusführung - Einführung                                  Seite 28/57
+                   M    Vorausmass, das nur auf Anweisung des Planers erstellt werden darf, ist
+                        einzurechnen.
+
+                        Mengenarten Eventualvarianten
+
+                   Q    Vorausmass durch den Planer ermittelt, ist nicht einzurechnen.
+                   R    Festmenge durch den Planer ermittelt, ist nicht einzurechnen.
+                   U    Vorausmass, das nur auf Anweisung des Planers erstellt werden darf, ist
+                        nicht einzurechnen.
+
+    Mengengliederung    Die Mengen von Unterpositionen können mit Hilfe von Mengengliederung
+                        (OGL, PSL, KAG, EGL, usw.) in einzelne Teilmengen aufgeteilt werden. Die
+                        Gliederungen können einzeln oder in beliebiger Kombination eingesetzt
+                        werden und entsprechend der IfA18.
+
+          Merkblätter   Dem Anwender des NPK Bau stehen gratis 'Merkblätter zum Devisieren' zur
+                        Verfügung. Diese können direkt auf der CRB Homepage als PDF herunter
+                        geladen werden.
+
+                MWSt    siehe Mehrwertsteuer.
+
+    Nachtragsangebot    Nachtragsangebote sind mit eigenen Leistungsverzeichnissen einzuholen.
+                        Wenn Sie nachträglich in den Werkvertrag und die Abrechnung
+                        aufgenommen werden sollen müssen in der Unternehmerkontrolle
+                        entsprechende Buchungen erfasst werden.
+
+        Normposition    Die Normposition enthält alle Parameter für die Beschreibung einer
+                        baulichen Leistung. Sie besteht aus einer Hauptposition (3 Stellen) und
+                        mehreren Unterpositionen (3 Stellen).
+
+Normpositionenkatalog   Der NPK Bau ist die genormte Grundlage der Schweizerischen Bauwirtschaft
+                        für die Erstellung von Leistungsverzeichnissen. Er umfasst den Hochbau
+                        mit der Haustechnik, den Tiefbau und andere spezielle Bereiche.
+                        Als leistungsorientierte Kostengliederung wird NPK, ähnlich wie die
+                        Kostengliederung BKP (Baukostenplan), vor allem im Bereich der
+                        Ausführung eingesetzt. Er wird deshalb vor allem für die Gliederung von
+                        Kosten im Zusammenhang mit Ausschreibungen, Werkverträgen und
+                        Abrechnungen eingesetzt.
+                        Das NPK Kapitel ist auf dem Leistungsverzeichnis gekennzeichnet durch: -
+                        eine dreistellige NPK Kapitelnummer, die nicht mit Null endet
+                   •    Sprachcode (Buchstabe D, F, I oder E)
+                   •    Ausgabejahr (2 Stellen z.B. 03)
+                    •   NPK Kapitelname
+                   •    Versionsjahr (2 Stellen, z.B 06)
+
+           Normtexte    Normpositionstexte dürfen nicht verändert werden, da sonst die Funktion
+                        des NPK als Basis der Verständigung und der Datenübertragung gestört
+                        wird.
+
+                 NPK    Siehe auch Normpositionenkatalog.
+
+     Objektgliederung   Die Objektgliederung erlaubt, grosse oder komplexe Bauvorhaben in
+                        Objekte zu zerlegen und ihnen die einzelnen Teilleistungen zuzuordnen.
+                        Für den alphanumerischen Code der Objektgliederung stehen sechs Stellen
+                        zur Verfügung.
+
+
+
+                        5.51 BBaseAusführung - Einführung                                 Seite 29/57
+                OGL    Spaltenbezeichnung im Leistungsverzeichnis. Siehe Objektgliederung.
+
+                OSB    Objektspezifische Bestimmungen
+
+                Pos    Hauptposition im aktuellen Leistungsverzeichnis. Die Hauptposition trägt
+                       eine dreistellige Nummer und hat die Funktion einer einleitenden, die
+                       Position charakterisierenden Leistungsbeschreibung.
+
+       Positionslage   Die Positionslage erlaubt, den Ort (z.B. Geschoss) für die Ausführung einer
+                       bestimmten Leistung innerhalb eines Projektes zu definieren und die
+                       einzelnen Teilleistungen diesen Orten zuzuordnen. Die Positionslage ist
+                       der Objektgliederung hierarchisch untergeordnet. Für den
+                       alphanumerischen Code der Positionslage stehen sechs Stellen zur
+                       Verfügung.
+
+                PRV    Spaltenbezeichnung im Leistungsverzeichnis
+                       Dient als Hinweis zu preisrelevanten Vorbemerkungen innerhalb des
+                       aktuellen Leistungsverzeichnisses.
+
+                PSL    Spaltenbezeichnung im Leistungsverzeichnis. Siehe Positionslage.
+
+                  R    Spaltenbezeichnung im Leistungsverzeichnis.
+                       Markierung (R) für die aktuelle Position, falls es sich entsprechend IfA18
+                       um eine Reserveposition handelt.
+                       Siehe auch Reservekapitel und Reserveposition.
+
+              Regie    Siehe auch Vergütungsart.
+
+      Reservekapitel   Im Reservekapitel kann der Anwender ausserhalb der NPK Kapitel
+                       Leistungen beschreiben. Das Reservekapitel ist dreistellig und trägt die
+                       Nummer 9XX (X9X oder XX9).
+                       Genaue Informationen Siehe IfA18.
+
+Reservekapitelgruppe   Die Reservekapitelgruppe trägt die Nummer 900 'Eigene Kapitel der
+                       Anwender'. Somit stehen alle Nummern dieser Kapitelgruppe dem
+                       Anwender zur Verfügung.
+                       Alle Positionstexte in diesem Bereich sind Reservepositionen und werden
+                       im Output mit R gekennzeichnet.
+
+     Reserveposition   In der Reserveposition kann der Anwender Leistungen beschreiben, die im
+                       NPK nicht enthalten sind. Die Reserveposition ist dreistellig und trägt die
+                       Nummer XX9.
+                       Genaue Informationen Siehe IfA18.
+
+         Teilmengen    Siehe auch Mengengliederung.
+
+               Text    Spaltenbezeichnung im Leistungsverzeichnis.
+
+               Titel   Kurzbezeichnung als Stichwort (Sammelbegriff) für aktuelles
+                       Leistungsverzeichnis.
+
+
+                 UN    Kurzbezeichnung für Unternehmer.
+
+
+
+
+                       5.51 BBaseAusführung - Einführung                                  Seite 30/57
+      Unterabschnitt   Der Unterabschnitt gliedert die Abschnitte in Teilbereiche. Er beginnt mit
+                       einer Nummer und einem Titel. Die Unterabschnittnummer ist dreistellig
+                       und endend mit einer Null.
+
+       Unterposition   Einer Unterposition können unterschiedliche Mengen resp. Teilmengen
+                       zugewiesen werden. Sie ist dreistellig wie die Hauptposition und darf keine
+                       Nullen enthalten.
+
+Unterpositionsgruppe   Die Unterpositionsgruppe gliedert die Hauptposition in Bereiche mit
+                       einheitlicher Thematik. Sie beginnt mit einer Nummer und entsprechendem
+                       Text. Die Unterpositionsgruppe ist dreistellig und endet mit zwei Nullen.
+
+     Unterpositions-   Der Unterpositionsuntergruppe gliedert die Unterpositionsgruppe in
+        untergruppe    Teilbereiche. Sie beginnt mit einer Nummer und entsprechendem Text. Die
+                       Unterpositionsuntergruppe ist dreistellig und endend mit einer Null.
+
+                 UP    Spaltenbezeichnung im Leistungsverzeichnis.
+                       Siehe Unterposition, Unterpositionsgruppe resp. Untergruppe.
+
+       Urheberrecht    Die CRB Datenbibliothek (NPK Bau) ist urheberrechtlich geschützt. Die
+         CRB Daten     Lizenz für Anwender der Daten umfasst die Nutzungsrechte an den zur
+                       Verfügung gestellten Daten und wird mit einem Bezugspreis und einer
+                       jährlichen Gebühr abgegolten.
+
+           Updating    Die Lizenznehmer sind gehalten, von Ihnen entdeckte Fehler in den NPK-
+          CRB Daten    Daten dem CRB schriftlich zu melden.
+
+                USB    Unternehmerspezifische Bestimmungen
+
+                VAR    Spaltenbezeichnung im Leistungsverzeichnis
+                       Enthält die Bezeichnung der gewählten Variante. Siehe auch Variante.
+
+            Variable   Um mit offenen Unterpositionen flexibel formulieren zu können, werden sie
+                       in Textbausteine (Variablen) aufgeteilt. Die Variablennummer ist nur die
+                       Auswähladresse des betreffenden Textbausteines. Sie ist nicht Bestandteil
+                       der NPK Nummer.
+
+            Variante   Kennzeichnung von Varianten (Gruppen von Positionen, für Bauwerksteile
+                       mit unterschiedlichen Ausführungen).
+                       Die Stellen eins bis drei dienen der Kennzeichnung der Gruppen von
+                       Positionen, die die unterschiedlichen Varianten beschreiben. Die Stellen 4
+                       bis 6 dienen der Kennzeichnung der einzelnen Varianten.
+
+                 VE    Siehe Vergabeeinheit
+
+      Vergabeeinheit   Unternehmer oder Werkgruppe welche mit einem bestimmten Begriff wie
+                       z.B. Baumeister, Maler, Gärtner, Bauingenieur, Gemeindewerke, usw.
+                       bezeichnet werden. Dienst als übergeordnete Gliederungsstruktur für das
+                       Zusammenfassen von Leistungen und Kosten.
+
+      Vergütungsart    Im NPK sind Ausmass- und Aufwandpositionen (Vergütung im Akkord bzw.
+                       in Regie) nur in Ihrem Text und nicht an der Positionsnummer sichtbar.
+                       Sollen die Vergütungsarten unterschieden werden können, muss für
+                       Arbeiten nach Ausmass und für jene nach Aufwand je ein separates
+                       Leistungsverzeichnis erstellt werden.
+
+
+
+                       5.51 BBaseAusführung - Einführung                                 Seite 31/57
+Wiederholungsposition   Die Wiederholungsposition dient dazu, im gleichen Leistungsverzeichnis
+                        Varianten mit den in einer offenen Unterposition enthaltenen
+                        Textbausteinen beschreiben zu können.
+
+
+
+               4.3 Beispiel der Ausschreibung
+                        Die folgenden Seiten zeigen die gedruckte Version des beschriebenen
+                        Beispiels in Originalgrösse.
+
+
+
+
+                        5.51 BBaseAusführung - Einführung                              Seite 32/57
+Submittenten - Adressen für den Versand der Ausschreibung
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                        Seite 33/57
+O!ertbrief - Begleitschreiben für die Ausschreibung
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                  Seite 34/57
+Deckblatt - Zusammenfassung und Absender der Aussschreibung
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                          Seite 35/57
+AVB - Allgemeine Vertragsbedingungen der Bürovorlage
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                   Seite 36/57
+OSB - Objektspezifische Bestimmungen mit Projektstamm und Hinweisen
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                                  Seite 37/57
+OSB - Objektspezifische Bestimmungen mit Projektstamm und Hinweisen
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                                  Seite 38/57
+Planung - Planungsteam der Projektvorlage
+
+
+
+
+     5.51 BBaseAusführung - Beispiel        Seite 39/57
+USB - Spezielle Bestimmungen für die aktuelle Ausschreibung
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                          Seite 40/57
+USB - Spezielle Bestimmungen für die aktuelle Ausschreibung
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                          Seite 41/57
+USB - Spezielle Bestimmungen für die aktuelle Ausschreibung
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                          Seite 42/57
+UN - Angaben des Unternehmers und Selbstdeklaration
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                  Seite 43/57
+UN - Angaben des Unternehmers und Selbstdeklaration
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                  Seite 44/57
+Auswertung - Zusammenfassung der Kapitel oder Zwischentotale
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                           Seite 45/57
+Auswertung - Zusammenfassung der Kapitel oder Zwischentotale
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                           Seite 46/57
+LV - Darstellung des Leistungsverzeichnisses als Katalog
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                       Seite 47/57
+LV - Darstellung des Leistungsverzeichnisses als Katalog
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                       Seite 48/57
+LV - Darstellung des LV des Leistungsverzeichnisses als Angebot (Textbreite an Seitenbreite angepasst)
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                                                         Seite 49/57
+LV - Darstellung des LV des Leistungsverzeichnisses als Angebot (Textbreite an Seitenbreite angepasst)
+
+
+
+
+     5.51 BBaseAusführung - Beispiel                                                         Seite 50/57
+Abgebot - Serienbrief für Verhandlungen
+
+
+
+
+     5.51 BBaseAusführung - Beispiel      Seite 51/57
+O!ertvergleich - Standarddarstellung
+
+
+
+
+     5.51 BBaseAusführung - Beispiel   Seite 52/57
+O!ertvergleich - Preise auf Positionen
+
+
+
+
+     5.51 BBaseAusführung - Beispiel     Seite 53/57
+Bestätigung - Auftragsbestätigung
+
+
+
+
+     5.51 BBaseAusführung - Beispiel   Seite 54/57
+Absage - Serienbrief
+
+
+
+
+     5.51 BBaseAusführung - Beispiel   Seite 55/57
+Vertragsbrief - Versand zur Unterschrift
+
+
+
+
+     5.51 BBaseAusführung - Beispiel       Seite 56/57
+Deckblatt - Werkvertrag, Unterschriften
+
+
+
+
+     5.51 BBaseAusführung - Beispiel      Seite 57/57
+

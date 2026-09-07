@@ -1,0 +1,140 @@
+                                        Die Bausoftware für
+                    Kostenplanung       Architekten, Planer und Bauleiter
+
+                                                                                                                                         1.10
+                       Ausführung       BBase stellt modulare EDV Werkzeuge zur Verfügung, welche die Bau- und
+                                        Büroadministration des Architekten von der Analyse über die Projektierung und
+                                        Ausführung bis zur Abrechnung in allen Phasen des Bauprozesses unterstützen.
+                                        Sowohl Bau- wie Bürokosten werden beschrieben, kalkuliert und abgerechnet.
+                    Kostenkontrolle
+                                        Einfach, umfassend und praxisbezogen.
+                                        BBase folgt dem Planungs- und Bauprozess gemäss SIA Honorarordnung 102/105.
+                                        Der folgende Kurzbeschrieb zeigt eine Übersicht der Einsatzschwerpunkte der
+                   Honorar, Auftrag     einzelnen BBaseModule in den entsprechenden Phasen.
+
+
+
+
+                         …Vorstudien    BBaseGrobkosten - Entwurfsbegleitende Kostenprognosen (Neubau)
+
+
+
+
+Phase 1 - 2
+                                        Schätzen der Grössenordnung der Baukosten mit nutzungsorientierten Teil ächen und preis-
+                                        relevanten Kriterien als Ersatz für die 'kubische Berechnung'. Verknüpfte Ermittlung der vor-
+                                        aussichtlichen Betriebs- und Unterhaltskosten mit Wirtschaftlichkeitsberechnungen.
+                                        BBaseHonorar - O erte, Vertrag und Nachweis SIA 102/105
+                                        Honorarberechnung mit detailliertem Leistungsbeschrieb als Vertragsgrundlage. Leistungs-
+                                        nachweis für Vor- und Nachkalkulation mit BBaseAuftrag.
+
+                         …Vorprojekt    BBaseBauerneuerung - Zustandsanalyse, Massnahmen, Kostenschätzung (Umbau)
+                                        Gebäudeaufnahmen, Zustandsanalysen von Bauten, Grob- und Feindiagnosen, Abklärungen
+                                        zum Erhaltungswert von Bauten. Grobschätzung der Baukosten.
+                         …Bauprojekt    BBaseBauKostenSystem Plus - Bauteile, BKP, eBKP-H
+                                        Baukostenermittlung während der Projektierung mit Hilfe von projektspezi schen und kon-
+
+
+
+Phase 3
+                                        kreten Bauteilen. Frei wählbarer Detaillierungsgrad einer Bauteilbeschreibung.
+                                        Vereinfachte Erfassung der Bauteile mit Hilfe des BBaseBauteilKatalogs. Selbst de nierte
+                                        Bauteile können ebenso verwendet werden, wie BBaseBauteile oder Bauteile des Bundesamtes
+                                        für Statistik (BFS). Automatisch parallel erstellter BBaseKostenvoranschlag nach BKP und bei
+                                        Bedarf Kostengliederung nach eBKP-H.
+                                        BBaseKostenvoranschlag - BKP, Baubeschrieb, Folgekosten
+                                        Aufbau des Kostenvoranschlages nach BKP und Vergabeeinheiten gegliedert oder Import der
+                                        Kostenermittlung. Nachführen der Kennwerte und Schätzen der verknüpften Betriebs- und
+                                        Unterhaltskosten, Rentabilitätsberechnung.
+
+                      …Ausschreibung    BBaseAusschreibung - LV, O ertvergleich, Werkvertrag
+
+
+
+Phase 4
+                                        Aufstellen der P ichtenhefte mit den Preiseingabeformularen mit Hilfe der NPK von CRB, Ei-
+                                        gentext oder Übernahme der Bauteilbeschriebe. Gliederung der Unterlagen gemäss dem Kos-
+                                        tenvoranschlag mit Vergabeeinheiten. Vergleich der Angebote bezüglich der Qualitäten und
+                                        Quantitäten, der Einheitspreise und Rabatte, der Wirtschaftlichkeit und der Fristen. Erstellen
+                                        der Vergabeanträge. Aufstellen der Verträge mit den Unternehmern und Lieferanten.
+
+                        …Realisierung   BBaseUnternehmerkontrolle - Ausmass und Unternehmer-Dossier
+                                        Kontrolle von Leistungsaufstellungen und Rechnungen. Abschluss der Unternehmerrechnun-
+                                        gen. Prüfen des Bauwerks oder von Bauwerksteilen, Festhalten von Mängeln, Anordnen von
+                                        Massnahmen und Fristen zu deren Behebung. Erstellen der Abnahmeprotokolle. Einholen und
+
+
+
+Phase 5
+                                        Kontrollieren der Bank- oder gleichwertigen Garantien.
+                                        BBaseBaubuchhaltung - Mutationen, Zahlungen, Abrechnung
+                                        Führen der Baubuchhaltung, Gliederung in Übereinstimmung mit dem Kostenvoranschlag.
+                                        Periodische Kostenrapporte, Vergleich von Zahlungen und Verp ichtungen. Erstellen der Liste
+                                        der Garantieverfalldaten.
+                                        Aufstellen, Nachprüfen und Bereinigen der Schlussabrechnung gemäss Gliederung nach BKP
+                                        und Vergabeeinheiten. Gegenüberstellen mit dem Kostenvoranschlag. Bestimmen der sich aus
+                                        den Gesamtkosten des Bauwerks ergebenden Kennwerte.
+
+
+
+
+                                                                      fi   fl                                        fi
+                                                           fl
+                                                      ff
+              fl                                                ff
+                        ...Allgemein   BBaseProjektverwaltung - Objekt, Bauherr, Kennwerte
+                                       Sammlung der Projektdaten wie Bauherr- und Objektadresse, Informationen, Kostendaten,
+                                       Index und Kennwerte.
+                                       BBaseAdressverwaltung - Listen, Etiketten, Serienbrief
+                                       Erstellen von Unternehmer- und Lieferantenlisten. Allgemeine Bau- und Bürokorrespondenz.
+
+     Bau- und Büroadministration       BBaseJournal - Stunden- und Spesenerfassung
+                  aus einer Hand       BBaseAuftrag - Betriebskosten, Kalkulation, Debitoren
+                                       BBase Notizen, Pendenzen und Protokolle - Informationen strukturiert erfassen und für
+                                       Pendenzen und Protokolle verwenden.
+                                       Unternehmerliste - Liste aller Projektbeteiligten
+                                       Neben Hilfsmittel für die Planung eines Bauwerkes sind auch für die bürointerne Administrati-
+                                       on modulare Werkzeuge vorhanden. Damit werden Honorare o eriert, Aufträge kalkuliert und
+                                       Stundenlisten geführt.
+
+                      Look and Feel    Benutzerfreundlich, übersichtlich und aufgeräumt präsentiert sich BBase. Für das Navigieren
+                                       sind die Liste der 'Module' und der Inhalt des 'aktiven Dokumentes' in der ersten Symbolleiste
+                                       zusammengefasst. Alle BBaseBefehle zur Steuerung sind in einer Zweiten angeordnet.
+                                       Es können mehrere BBaseDokumente (Arbeitsmappen) miteinander geö net und am Bild-
+                                       schirm angezeigt werden. Dies ermöglicht das Bearbeiten einer Kostenschätzung während der
+                                       Anzeige eines Terminplans oder der Ergänzung einer Bauteilbeschreibung.
+                                       Die Darstellung am Bildschirm entspricht derjenigen des gedruckten Dokumentes. Einige
+                                       Angaben werden deshalb direkt auf dem Dokument in den weissen Eingabefeldern erfasst.
+                   Sicher und Stabil   Das Resultat von mehr als 30 Jahren Erfahrung und Entwicklung steckt in den Programmen
+
+     Symbolleiste 'Navigation'         Aktuelles Tabellenblatt des aktiven                                     Symbolleiste 'Befehle' und 'Einstellun-
+     Liste der Module, Dokumente       Dokumentes 'Ausschreibung' mit                                          gen' mit Register für 'Befehle', 'Doku-
+     und Tabellenblätter des aktiven   NPK Text, eingefügtem Bild und                                          mentinfos', 'Darstellen', 'Formate' und
+     Dokumentes                        eingeblendeten Ausmasstabellen                                          'Hilfe'
+                                                                                                               Liste der Module, Dokumente und Ta-
+                                                                                                               bellenblätter des aktiven Dokumentes
+
+
+
+
+                                       Klappmenü mit Befehlen für               Standard Befehle für aktives
+                                       'Neues Dokument'                         Tabellenblatt
+
+     Schalt ächen für Rechner,
+     Fensteranordnung und Zoom
+
+
+                                       von BBase. Ergänzt mit den Vorteilen von ®Microsoft OFFICE tre en Windows-User und An-
+                                       wender von Apple Macintosh auf eine gewohnte Umgebung.
+
+
+
+
+                     28. März 2023     © PMS Informatik AG CH-8408 Winterthur www.bbase.ch
+
+
+                                                                                                               ff
+                                                                 ff
+                                                            ff
+fl
+

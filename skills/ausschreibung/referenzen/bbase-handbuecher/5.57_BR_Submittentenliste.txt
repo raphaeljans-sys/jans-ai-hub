@@ -1,0 +1,308 @@
+ Kostenplanung
+                     Submittentenliste
+
+                                                                                                  5.57
+    Ausführung
+
+
+ Kostenkontrolle
+
+
+Honorar, Auftrag
+
+
+
+
+                     Im Laufe des Bauprozesses wird eine Übersicht sämtlicher Unternehmer für
+                     alle Arbeitsgattungen benötigt, welche im Ausschreibungsprozess eines
+                     Projektes eingeladen werden sollen. Diese Liste bildet dabei die Grundlage
+                     für die Besprechung mit dem Bauherrn, um die gewünschten Unternehmer
+                     zu bestimmen.
+
+
+
+
+  18. Oktober 2021   © PMS Informatik AG CH-8408 Winterthur www.bbase.ch
+BBase
+© PMS Informatik AG Alle Rechte vorbehalten
+
+Betriebsanleitung, Handbücher und Software sind urheberrechtlich
+geschützt. Das Kopieren, Vervielfältigen, Übersetzen oder Umsetzen in
+irgendein elektronisches Medium oder maschinenlesbare Form im Ganzen
+oder in Teilen ohne vorherige schriftliche Genehmigung von PMS Informatik
+AG ist nicht gestattet. Alle weiteren Rechte an der Software sind in den
+mitgelieferten Lizenzbestimmungen festgelegt.
+
+PMS Informatik AG, Riedhofstrasse 53, CH-8408 Winterthur
+Fon +41 44 948 12 14
+Mail Info@pmsag.ch , Internet www.pmsag.ch
+
+
+
+
+Vorwort
+Dieses farbig gestaltete PDF-Dokument bietet Anweisungen zur
+Anwendung des Programms BBaseSubmittentenliste
+
+Das vorliegende Benutzerhandbuch bietet neben methodischen
+Erklärungen auch Kurzanleitungen für Fortgeschrittene, ausführliche
+Anweisungen für das Erstellen eines neuen Dokumentes und detaillierte
+Anleitungen zur Arbeitstechnik.
+
+Wird im Bericht der Architekt erwähnt, so gilt die Benennung auch für die
+Architektin.
+
+
+Winterthur, 10. Oktober 2021
+
+
+
+
+5.57 Submittentenliste - Vorwort                                       Seite 2/9
+Inhalt
+Das vorliegende Handbuch enthält Informationen für Anfänger und
+Fortgeschrittene, welche die Anwendung der BBaseWerkzeuge
+unterstützen. Die einzelnen Kapitel enthalten dafür folgende Beschriebe:
+
+
+
+1 Einführung                                                                 4
+1.1 Problemstellung                                                           4
+
+1.2 Einführung in die Vorgehensweise                                          4
+
+
+                                                                                       Inhalt
+       Erstellen einer Submittentenliste                                      4
+       Bearbeiten der Submittentenliste                                       4
+       Übernahme der Submittenten in die Ausschreibung                        4
+
+
+
+
+2 Aufbau der Submittentenliste                                               5
+2.1 Submittentenliste                                                         5
+       Dokumentenvorlagen                                                     5
+
+2.2 Tabellen der Submittentenliste                                            5
+       Tabelle 'Grundlage'                                                    5
+       Tabelle 'Deckblatt'                                                    6
+       Tabelle 'Submittenten'                                                 6
+       Tabelle 'Notizen', eigene Tabellen                                     6
+
+
+
+
+4 Anhang                                                                     7
+4.1 Beispiel                                                                  7
+
+
+
+
+5.57 Submittentenliste - Inhalt                                            Seite 3/9
+      1 Einführung
+            Dieses Kapitel beschreibt die Grundlagen und den Verwendungszweck der
+            BBaseSubmittentenliste.
+
+
+     1.1 Problemstellung
+            Um in einem Projekt die Unternehmer zu bestimmen, welche im Laufe des
+            Ausschreibungsprozesse zur O erteingabe eingeladen werden sollen, wird
+            eine Übersicht benötigt. Diese enthält dabei sämtliche Unternehmer aller                1
+            Arbeitsgattungen. Um diese Übersicht zu erstellen, gibt es die
+            verschiedensten Methoden, welche mehr oder weniger arbeitsintensiv sind.
+
+
+
+
+                                                                                                    Einführung
+            Nebst handgeschriebenen Listen können solche Unterlagen auch in Word
+            und Excel erstellt werden. Diese lassen sich dabei mit vernünftigem
+            Aufwand anpassen. Die Listen können im Büro vorbereitet und während
+            oder nach der Besprechung mit der Bauherrschaft angepasst werden.
+            Allerdings sind das Lösungen, welche für sich alleine stehen. Es gibt keine
+            Datenübernahme in die Bauadministration. Bei der Erstellung einer
+            Ausschreibung müssen die Daten der Submittenten darum nochmals neu
+            erfasst werden. Eine doppelte Arbeit, die nicht sein muss. Einfacher geht es
+            mit einer in die Bauadministration integrierten Lösung.
+
+
+     1.2 Einführung in die Vorgehensweise
+            Im Folgenden wird die Vorgehensweise für die Erstellung einer
+            Submittentenliste kurz erklärt. Das detaillierte, schrittweise Vorgehen ist im
+            Kapitel '3 Befehle und Funktionen' beschrieben.
+
+
+            Erstellen einer Submittentenliste
+
+            Eine Submittentenliste kann auf mehrere Arten erstellt werden. Folgende
+            Szenarien sind dabei denkbar:
+       •    Erstellung einer komplett leeren Liste mit Hilfe der leeren BBaseVorlage.
+       •    Erstellung einer neuen Liste mit Übernahme der bereits existierenden,
+            projektspezi schen Vergabeeinheiten aus der Projektverwaltung.
+       •    Erstellung einer neuen Liste auf Basis einer bereits bestehenden
+            Submittentenliste aus einem anderen Projekt.
+
+
+            Bearbeiten der Submittentenliste
+
+            Eine bestehende Submittentenliste kann wie alle anderen BBaseDokumente
+            bearbeitet werden. Durch die zur Verfügung gestellten Befehle auf dem
+            Register 'Befehle' kann die Liste laufend den aktuellen Bedürfnissen
+            angepasst werden. Ziel ist es, dass die endgültige Liste alle Submittenten
+            enthält, welche schlussendlich auch für die konkrete Ausschreibung
+            berücksichtigt werden sollen.
+
+
+            Übernahme der Submittenten in die Ausschreibung
+
+            Wenn die Ausschreibung erstellt wird, können die bereinigten Submittenten
+            direkt in das entsprechende Ausschreibungsdokument übernommen
+            werden. Dies geschieht mit dem Setzen der entsprechenden Option auf
+            dem Erstellungsdialog. Ist das Ausschreibungsdokument einmal erstellt,
+            können die Submittenten bei Bedarf aber auch weiterhin wie gewohnt im
+            Ausschreibungsdokument direkt bearbeitet werden.
+
+
+            5.57 Submittentenliste - Einführung                                         Seite 4/9
+
+
+       ff
+fi
+                                 2 Aufbau der Submittentenliste
+                                       Dieses Kapitel beschreibt den Aufbau der BBaseSubmittentenliste.
+                                       Insbesondere werden die Tabellen des Submittentenliste-Dokuments im
+                                       Detail erläutert.
+
+                                       Detaillierte Beschriebe der Men befehle, welche im aktuellen Programm
+                                       Anwendung nden, sind im Kapitel '3 Befehle und Funktionen' aufgef hrt.
+
+
+
+                              2.1 Submittentenliste                                                                         2
+
+                                       Wie andere BBaseModule ist auch BBaseSubmittentenliste 'Dokument-
+
+
+                                                                                                                            Aufbau
+                                       orientiert' aufgebaut. Zu einem Projekt wird eine Submittentenliste erstellt,
+                                       die in Form einer Excel-Datei gespeichert und auf dem Bildschirm in einem
+                                       Excel-Fenster angezeigt wird.
+
+                                       Im Prinzip können auch mehrere Submittentenlisten f r ein Projekt erstellt
+                                       werden. Dies, wenn zum Beispiel eine separate Planerliste erstellt werden
+                                       soll.
+
+                                       Das Erstellen einer neuen Submittentenliste ist im Kapitel '3.1
+                                       Submittentenliste erstellen' beschrieben.
+
+
+                                       Dokumentenvorlagen
+
+                                       Eine Submittentenliste wird immer aus einer bestehenden Vorlage erstellt.
+                                       Dies kann eine Standardvorlage von BBase, eine vom Benutzer angepasste
+                                       'B rovorlage' oder eine bereits existierende Submittentenliste (z.B. ein
+                                       Dokument eines anderen Projektes) sein.
+
+                    Standardvorlagen   BBase stellt eine Standardvorlage zur Verf gung:
+                                   •   Datei 'BB9 Vorlage Submittenten.xlsx': leere Dokumentvorlage.
+
+                       Bürovorlagen    Die Standardvorlagen von BBase können durch den Benutzer geändert,
+                                       angepasst und erweitert werden, ganz nach den W nschen und
+                                       Anforderungen des entsprechenden B ros. Geänderte Vorlagen werden
+                                       deshalb 'B rovorlagen' genannt.
+
+
+
+                              2.2 Tabellen der Submittentenliste
+                                       Im Folgenden werden die einzelnen Tabellen der Excel-Arbeitsmappe
+                                       beschrieben, die im Dokument Submittentenliste vorhanden sind.
+
+
+                                       Tabelle 'Grundlage'
+
+                     Dokument Titel    Der eingetragene Titel und Untertitel sowie das Inhaltsverzeichnis des
+                                       Dokuments werden an verschiedenen Orten, insbesondere auf dem
+                                       'Deckblatt', angezeigt.
+
+                    Dokument Datum     Das aktuelle Datum, welches auf dem 'Deckblatt' angezeigt wird, ist als
+                                       Gleitdatum mit der Formel ='JETZT()' eingetragen. Mit dem Befehl 'Datum
+                                        xieren' (Rechtsklick auf den Datumseintrag) kann es 'eingefroren' werden
+                                       und dient so später als 'Datum der letzten Dokument-Bearbeitung'.
+
+
+
+
+                                       5.57 Submittentenliste - Aufbau                                          Seite 5/9
+
+
+                                                                                          ü
+                                                                                   ü
+                                                                              ü
+                                                         ü
+                                          ü
+               fi
+          ü
+     ü
+fi                                                                       ü
+Dokument Info        Die eingetragene Dokument-Info wird bei der Auswahl von
+                     Dokumentvorlagen angezeigt und hilft dem Benutzer, die richtige Vorlage
+                     zu wählen.
+
+
+                     Tabelle 'Deckblatt'
+
+                     Die Tabelle 'Deckblatt' dient als vorderstes Blatt beim Ausdrucken einer
+                     Submittentenliste. Es kann direkt im Dokument oder in der BBaseVorlage
+                     vom Benutzer geändert werden.
+
+                     Die Texte f r Thema, Inhalt und Datum des Dokumentes werden auf der
+                     Tabelle 'Grundlage' unter 'Dokument Titel' resp. 'Dokument Datum'
+                     angepasst.
+
+
+                     Tabelle 'Submittenten'
+
+                     Die Tabelle 'Submittenten' enthält eine Au istung aller Submittenten,
+                     gegliedert nach Vergabeeinheiten.
+
+
+                     Tabelle 'Notizen', eigene Tabellen
+
+                     F r die Erfassung aller briger Daten des Benutzers - wie zusätzliche
+                     Berechnungen, Beschriebe oder Pläne - steht die Tabelle 'Notizen' oder
+                     weitere, vom Benutzer eingef gte Tabellen zur Verf gung.
+
+
+
+
+                     5.57 Submittentenliste - Aufbau                                          Seite 6/9
+
+
+                                                           fl
+                                             ü
+                                        ü
+                              ü
+                ü
+          ü
+ 4 Anhang
+4.1 Beispiel
+    Die folgenden Seiten zeigen die gedruckte Version einer Submittentenliste.
+
+
+
+
+                                                                                         4
+
+
+
+
+                                                                                         Anhang
+
+
+
+
+    5.57 Submittentenliste - Anhang                                          Seite 7/9
+5.57 Submittentenliste - Anhang   Seite 8/9
+5.57 Submittentenliste - Anhang   Seite 9/9
+

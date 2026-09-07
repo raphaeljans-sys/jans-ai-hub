@@ -1,0 +1,121 @@
+                                  Kostenrechnung
+        Kostenplanung             Betriebskosten und Stundenansätze
+
+                                                                                                                          3.19
+             Ausführung
+
+
+       Kostenkontrolle
+
+
+     Honorar, Auftrag
+
+
+
+
+                                  Mit BBaseKostenrechnung werden Personal- und Betriebskosten zusammengefasst
+                                  und der Selbstkosten- resp. Honorarkostenansatz für jeden Mitarbeiter berechnet.
+                                  Die Auswertungen der Arbeitsstunden und Gemeinkosten bilden die Grundlage der
+                                  Zuschlagskalkulation für jedes Architektur-, Planungs- oder Bauleitungsbüro.
+
+
+
+
+   Bruttolöhne der Mitarbeiter
+für Berechnung des Personal-
+       und Betriebsaufwandes
+
+
+
+  Die Struktur der Zuschlags-
+     kalkulation entspricht der
+ 'SIA 1041 (2003) Kontenplan
+    und Kontierungsanleitung'
+
+
+
+
+ Berechnung der Präsenzzeit
+   mit Hilfe der Soll-/Istzeit
+
+
+
+
+          Kennzahlen gemäss
+           SIA Erhebung 2012
+
+
+
+
+                                  Erstmals gelten die Kennzahlen 2012 von SIA als Benchmarks. Sie passen nahtlos in die
+                                  Kostenrechnung von BBase und ermöglichen eine schnelle und sichere Kalkulation.
+                                  Mit Einführung der neuen SIA Honorarordnung 102 (2003) gewinnt die Vor- und Nach-
+
+           29. August 2013        © PMS Informatik AG CH-8617 Mönchaltorf www.bbase.ch
+                                    kalkulation an Bedeutung. Mehr Sicherheit beim Kalkulieren von Honorarleistungen und
+                                    bewährte Methoden sind seither gefragt.
+
+
+                                    Erstellen der Betriebskostenrechnung
+                                    Für das Budget werden der Personal- und der Betriebsaufwand erfasst und mit statistischen
+                                    Erhebungen verglichen. Die Berechnung kann mit den Abschlusszahlen des Vorjahres
+                                    verglichen und korrigiert werden. Danach stehen alle Selbst- und Honorarkostensätze der
+                                    Mitarbeiter für die Vorkalkulation zur Verfügung.
+                                    Erstmals ab 2012 wurden von SIA Kennzahlen wie Gemeinkostenfaktor, Produktivität usw. mit
+                                    der Onlineplattform erhoben. Die Bruttolöhne bilden dabei die Basis für das Ermitteln der
+                                    Gemeinkosten. Die gesammelten Daten sind brauchbare Grundlagen für das Berechnen und
+                                    Vergleichen von Betriebs- und Personalkosten.
+
+
+                                    Selbst- und Honorarkostenansätze der Mitarbeiter
+                                    Mit der 'summarischen Zuschlagskalkulation' können einfach und exakt Stundenansätze
+                                    berechnet werden. Dazu wird die AHV Lohnsumme (Bruttolöhne) mit Zuschlägen für
+                                    Personalaufwand, Gemeinkosten, Risiko und Gewinn ergänzt und anschliessend durch die
+                                    auftragsbezogene Präsenzzeit dividiert.
+
+            Entscheidend für die
+          Stundenansätze ist der
+zeitliche Einsatz der Mitarbeiter
+
+
+
+
+                     ... Sollzeit   Die Sollzeit für nicht auftragsbezogene Präsenz- resp. Abwesenheitszeit (An- resp. Ab nAbz)
+                                    wird für jeden Mitarbeiter individuell angepasst. Daraus resultiert die verbleibende
+                                    auftragsbezogene Präsenzzeit, welche für die Umsatzaufteilung eine wichtige Rolle spielt.
+                ... Bruttolöhne     Nach Erfassen der Bruttolöhne (AHV pflichtiger Lohn) wird der Anteil der Selbstkosten
+                                    (Personal- + Betriebsaufwand = Selbstkostenumsatz) berechnet und mit der
+                                    auftragsbezogenen Präsenzzeit (Abz) gewichtet.
+                                    Der Umsatzanteil des einzelnen Mitarbeiters dividiert durch die Präsenzzeit ergibt den Selbst-
+                                    kostenansatz. Nach Aufrechnung von Risiko und Gewinn ergibt sich der Honorarkostenansatz.
+
+       Die Stundenansätze der
+   einzelnen Mitarbeiter bilden
+   die Grundlage der Honorar-
+       offerte und Abrechnung
+
+
+
+
+                                    Beide Stundenansätze können vom Anwender korrigiert (gerundet) werden. Allfällige
+                                    Abweichungen zu den Selbst- resp. Honorarkosten (Betriebskosten) werden angezeigt.
+                                    Einfach und schnell lässt sich das grundlegende Budget erfassen, damit die Stundenansätze
+                                    für die Vor- und Nachkalkulation zur Verfügung stehen.
+                ...die Zeit naht    Mit BBaseKostenrechnung steht ein handliches Programm als Ergänzung zu BBaseAuftrag zur
+                                    Verfügung, welches das Ermitteln der Betriebskosten im Vergleich zur Abrechnung des
+                                    Vorjahres und das Berechnen der individuellen Stundenansätze aller Mitarbeiter ermöglicht.
+                                    Nur wer plant und kalkuliert bleibt langfristig wettbewerbsfähig.
+
+
+                                    Ergänzende BBaseWerkzeuge
+                                    Die Hilfsmittel der Betriebskosten wurden auf vier BBaseWerkzeuge, mit eigenständigen
+                                    Bereichen für Auswertungen und Kennzahlen, verteilt.
+
+                                    5.81 BBaseHonorar - Honorar, Offerte, Beschrieb, Vertrag und Nachweis
+                                    5.82 BBaseJournal - Stunden-, Spesenerfassung und Arbeitszeitstatistik
+                                    5.83 BBaseAuftrag - Auftragsliste, Umsatzkontrolle, Rechnungen und Inkasso
+
+
+
+                                    Weitere Infos finden Sie auf unserer Homepage www.bbase.ch
+

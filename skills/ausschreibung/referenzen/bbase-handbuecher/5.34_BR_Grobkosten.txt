@@ -1,0 +1,1003 @@
+ Kostenplanung           Grobkosten
+                         Entwurfsbegleitende Kostenprognosen
+    Ausführung
+                                                                                                       5.34
+ Kostenkontrolle
+
+
+Honorar, Auftrag
+
+
+
+
+                         Mit BBaseGrobkosten werden entwurfsbegleitend Kostenschätzungen für
+                         den Neubau erstellt. Unter Berücksichtigung der Flächen nach SIA 416 ga-
+                         rantiert die richtige Wahl der Nutzungsarten und das Beurteilen von ca. 100
+                         kostenrelevanten Kriterien maximale Genauigkeit für Kostenprognosen und
+                         Variantenvergleiche.
+
+                         Im Gegensatz zum Modul BBaseBauKostenSystem (BKS) werden bei der
+                         Grobschätzung keine Kosten entwickelt, sondern kostenrelevante Abwei-
+                         chungen zu Standardmodellen de niert und mit Hilfe der Kennwerte von
+                         BBase in Kostengruppen zusammengefasst. Die angewandte Methode gilt
+                         als Ersatz für die 'Kubische Berechnung’.
+
+                         Auf detaillierte Berechnungsmethoden kann deshalb in frühen Phasen der
+                         Projektierung verzichtet werden.
+
+
+
+
+13. November 2023        © PMS Informatik AG CH-8408 Winterthur www.bbase.ch
+
+
+                    fi
+BBase
+© PMS Informatik AG Alle Rechte vorbehalten
+
+Betriebsanleitung, Handbücher und Software sind urheberrechtlich ge-
+schützt. Das Kopieren, Vervielfältigen, Übersetzen oder Umsetzen in ir-
+gendein elektronisches Medium oder maschinenlesbare Form im Ganzen
+oder in Teilen ohne vorherige schriftliche Genehmigung von PMS Informatik
+AG ist nicht gestattet. Alle weiteren Rechte an der Software sind in den
+mitgelieferten Lizenzbestimmungen festgelegt.
+
+PMS Informatik AG, Riedhofstrasse 53, CH-8408 Winterthur
+Fon +41 44 948 12 14
+Mail Info@pmsag.ch , Internet www.pmsag.ch
+
+
+
+
+Vorwort
+Dieses farbig gestaltete PDF-Dokument bietet Anweisungen zur Anwen-
+dung des Programms BBaseGrobkosten.
+
+Das vorliegende Benutzerhandbuch bietet neben methodischen Erklä-
+rungen auch Kurzanleitungen für Fortgeschrittene, ausführliche Anweisun-
+gen für das Erstellen eines neuen Dokumentes und detaillierte Anleitungen
+zur Arbeitstechnik.
+
+Wird im Bericht der Architekt erwähnt, so gilt die Benennung auch für die
+Architektin.
+Bevor Sie sich mit diesem Dokument befassen emp ehlt es sich, das
+beiliegende Beispiel und die Grundlagen im Literatur- und Quellenver-
+zeichnis zu erforschen.
+
+
+
+Winterthur, 13.11.2023
+
+
+
+
+5.34 BBaseGrobkosten- Vorwort                                        Seite 2/33
+
+
+                                               fi
+           Inhalt
+           Das vorliegende Handbuch soll für Anfänger und Fortgeschrittene In-
+           formationen enthalten, welche die Anwendung der BBaseWerkzeuge un-
+           terstützen. Die einzelnen Kapitel enthalten dafür folgende Beschriebe:
+
+
+
+           1 Einführung und Grundlagen
+
+              1.1 Problematik der Grobkostenschätzung                            4      5.34
+                 Warum ist die Anwendung von Datenbanken problematisch?          4
+                 Was muss vom Architekten nach SIA102 geleistet werden?          5
+                 Warum ist die Methode der SIA116 nach 50 Jahren gescheitert?    6
+
+                                                                                        Inhalt
+                 Warum ist die Volumenmethode der SIA 416 kein Ersatz?           7
+                 Verwässerung der Kennzahlen in BKP Hauptgruppen                 8
+                 Wichtige Entscheidungshilfen fehlen                             9
+                 Reiches Angebot von Baupreisindizes                             9
+                 Schlussfolgerung                                               10
+
+              1.2 Mittel und Wege mit BBase                                     11
+                 Regeln für das Bilden von Kostengruppen                        11
+                 Exakt ermittelte Mengen                                        13
+                 Teil ächen für gleichwertige Nutzungsarten                     14
+                 Der Ein uss von kostenrelevanten Kriterien                     15
+                 Klar de nierte Kennwerte als Konstante                         15
+                 Die entwurfsbegleitende Kostenschätzung                        17
+                 Folgekosten mit Investitionskosten verknüpft                   18
+
+              1.3 Aufbau und Inhalt der BBaseDokumente                          19
+                 Das BBaseDokument für die Grobkostenschätzung                  19
+                 Ergänzende BBaseWerkzeuge                                      20
+
+
+           5 Anhang
+
+              5.1 Quellen, Literaturverzeichnis                                 22
+
+              5.2 Beispiel der Grobkosten                                       23
+
+
+
+
+           5.34 BBaseGrobkosten- Inhalt                                    Seite 3/33
+
+
+     fi
+      fl
+fl
+                                  1 Einführung und Grundlagen
+                                     In diesem Kapitel werden allgemeine Probleme zum Thema 'Grobkosten'
+                                     aufgezeigt und das Konzept von BBase erklärt. Zudem werden der Auf-
+                                     bau und Inhalt der Arbeitsmappen und ergänzende BBaseWerkzeuge
+                                     beschrieben.
+
+
+                                 1.1 Problematik der Grobkostenschätzung
+                                     Für Machbarkeitsstudien oder Variantenvergleiche bei ersten Entwürfen
+                                                                                                                    1
+                                     sind einfache Methoden nötig, um möglichst genaue Kostenschätzungen
+                                     zu erstellen. Dabei wird oft versucht, mit Hilfe von Kennzahlen plausible
+
+
+
+
+                                                                                                                    Einführung
+                                     Resultate zu erreichen. Quellen für grundlegende Kennzahlen bilden einer-
+                                     seits eigene Auswertungen, andererseits werden in Fachliteratur oder Da-
+                                     tenbanken gut dokumentierte Bauprojekte mit Bild und Zahlen angeboten.
+                                     Bei beiden Möglichkeiten bleiben viele Fragen zur Verlässlichkeit der Kenn-
+                                     zahlen o en.
+
+                                     Detaillierte Analysen von verbreiteten Datenquellen haben viele Hinweise
+                                     zu Ursachen für grosse Unschärfen beim Sammeln von Kennwerten aufge-
+                                     zeigt: Zahlenmaterial mit falschen Mengenbezeichnungen, veraltete Bei-
+                                     spiele, keine kostenrelevanten Hinweise, regelmässiges Wechseln der Kos-
+                                     tenstrukturen, fehlende Überprüfung der Resultate usw. Dadurch wird das
+                                     präzise Berechnen der Baukosten verhindert! Die folgenden Beispiele zei-
+                                     gen einige Gep ogenheiten, die Baukosten 'unberechenbar' machen.
+
+                                     Warum ist die Anwendung von Datenbanken problematisch?
+                                     Unzählige Projekte für Baukostendatenbanken wurden bisher gestartet.
+                                     Ober ächlich betrachtet zeigen einige Sammlungen eine Vielfalt von aus-
+                                     gewerteten Projekten für jede erdenkliche Nutzungsart. Die Informations-
+                                     tiefe beschränkt sich meist auf BKP Hauptgruppen und Gruppen mit ent-
+                                     sprechenden Kubik- oder Flächenberechnungen.
+                                     Die Streuung von Kostenkennwerten bei ausgewerteten gleichartigen Pro-
+                                     jekten liegt bei +/- 20-50%. Die Ursachen dafür sind unbekannt. Sie kön-
+                                     nen nicht nachvollzogen werden.
+
+                    Kennwerte        Bohrt man etwas tiefer und hinterfragt die Volumen- oder
+           die man nicht kennt       Flächenberechnungen stellt man fest, dass diese selten kontrolliert oder
+                                     mit den Ausführungsplänen abgeglichen wurden.
+
+             Die drei Teile der      Das Anhäufen von Zahlen allein garantiert keine zuverlässigen Kennwerte.
+          Kosteninformationen        Bemerkungen zur Quantität (Menge) und Qualität (Baubeschrieb) bilden,
+                                     ergänzt mit gra schen Hilfsmitteln (Pläne oder Skizzen), das Fundament
+                                     aller Kalkulationen. Bei vielen Datensammlungen fehlt ein Teil der Informa-
+                                     tion, deshalb sind die Resultate wertlos.
+
+     Regeln scha en Klarheit         Die einzige Sammlung, die versucht hat, alle Regeln zu befolgen, ist im
+                                     Keime erstickt. Die vor Jahrzehnten gebildeten Baukostenkennwerte wur-
+                                     den nicht weiter gep egt, weil der notwendige Aufwand zu gross ist. Die
+
+
+                                     5.34 BBaseGrobkosten - Einführung und Grundlagen                  Seite 4/33
+
+
+                  fi
+             fl
+     ff
+fl                     ff   fl
+                                damals gesammelten Kennzahlen entsprechen nicht mehr den geltenden
+                                Standards (z.B. Energie) und werden mangels Nachfrage nicht mit neuen
+                                Auswertungen ergänzt.
+
+                                Was muss vom Architekten nach SIA102 geleistet werden?
+     P ichten des Architekten   In der Ordnung SIA 102 (2003) 'Leistungen und Honorare der Architekten'
+                                unter Artikel 4.1.1 sind einige Bemerkungen zum Thema 'Grobkosten' auf-
+                                geführt.
+
+                                - Art. 4.1.1 'Strategische Planung'
+                                  Ziele: Bedürfnisse, Ziele und Rahmenbedingungen de niert. Lösungsstrategie
+                                  festgelegt.
+                                - Kosten: Finanzierung (Besonders zu vereinbarende Leistungen)
+                                  Schätzen des Finanzbedarfs für verschiedene Vorgehensweisen bzw. Lösungs-
+                                  strategien, Aufzeigen der Ein üsse von Veränderungen in den Vorgaben.
+
+                                - Art. 4.2.1 'Vorstudien'
+                                - Ziele: Vorgehen und Organisation festgelegt,
+                                  Projektierungsgrundlagen de niert, Machbarkeit nachgewiesen.
+                                - Kosten: Finanzierung (Besonders zu vereinbarende Leistungen)
+                                  Schätzen der Grössenordnung der Baukosten, Ermitteln der voraussichtlichen
+                                  Betriebs- und Unterhaltskosten, Erstellen von Wirtschaftlichkeitsberechnungen,
+                                  Ermitteln des Kreditbedarfs für die Projektierung, Nachweis der Finanzierbar-
+                                  keit.
+
+                                - Art. 4.3.1 'Vorprojekt'
+                                - Ziele: Konzeption und Wirtschaftlichkeit optimiert
+                                  Studium der Lösungsmöglichkeiten.
+                                - Kosten: Finanzierung (Grundleistungen)
+                                  Grobschätzung der Baukosten (Lösungsmöglichkeiten), Schätzen der Grössen-
+                                  ordnung der Baukosten für die erarbeiteten Lösungsmöglichkeiten.
+                                  Finanzierungs- und Anlagestudien (Besonders zu vereinbarende Leistungen).
+
+                                  'Vorprojekt'
+                                - Kosten, Finanzierung (Grundleistungen)
+                                  Kostenschätzung (Vorprojekt), Kubische- oder Flächenberechnung, oder beide,
+                                  nach den einschlägigen SIA-Normen, Schätzen der Baukosten für das Vorpro-
+                                  jekt z.B. nach Hauptgruppen, teilweise nach Gruppen des BKP gegliedert, unter
+                                  Benützung der kubischen Berechnung, der Flächenberechnung, oder nach an-
+                                  deren Erfahrungswerten (Genauigkeitsgrad mangels anderer Vereinbarung +/-
+                                  15%), Einbezug von Kostenschätzungen der Spezialisten und Berater.
+                                - Kosten, Finanzierung (Besonders zu vereinbarende Leistungen)
+                                - Weitergehende Kostenberechnungen, Kostenschätzung und Vergleich der Bau-
+                                  kosten von Varianten, Ermitteln der voraussichtlichen Betriebs- und Unter-
+                                  haltskosten, Rentabilitätsberechnungen und Finanzierungsverhandlungen.
+
+
+
+
+                                In der Phase der strategischen Planung, Vorstudie und Vorprojekt bilden
+                                Kostenprognosen für die Anlage- resp. Folgekosten wichtige Entschei-
+                                dungsgrundlagen für die Entwicklung des Projektes.
+
+
+
+
+                                5.34 BBaseGrobkosten - Einführung und Grundlagen                       Seite 5/33
+
+
+                                              fi
+                       fi
+                       fl
+fl
+     Haftung des Architekten   Schlussfolgerungen aus brisanten Gerichtsentscheiden lassen folgende
+                               Grundregeln erkennen:
+
+                               Jede Kostenprognose muss mit Angaben zur Genauigkeit (Toleranzrahmen)
+                               ergänzt werden, sonst gilt Nulltoleranz. Die Kostenprognosen sind einzu-
+                               halten.
+
+                               Warum ist die Methode der SIA116 nach 50 Jahren ge-
+                               scheitert?
+                               In der Vergangenheit wurde das Problem der Kostenkennwerte meist über
+                               den Kubikmeterpreis angegangen. Als Grundlagen dienten die Berechnun-
+                               gen des Rauminhalts nach SIA116 und jene Kosten, welche in 'BKP 2 Ge-
+                               bäude' eingerechnet wurden.
+
+            grosse Nachteile   Diese Vorgehensweise hat einige Nachteile, die sich in sehr unterschied-
+                               lichen und schwer nachvollziehbaren Kennwerten resp. Kubikmeterpreisen
+                               manifestieren, was folglich zu ungenauen Kostenaussagen führte.
+
+                               Nachteil 1 - Gebäudegeometrie
+                               Die Festlegung mit Zuschlägen, welche Kosten für Vordächer, Balkone,
+                               nicht unterkellerte Räume usw. einbeziehen, reicht nicht für das Berechnen
+                               von eindeutigen Kubikmeterpreisen. Der Ein uss von Geschosshöhen, die
+                               Gebäudeformen wie beispielsweise einfache rechteckige Bauten im Ver-
+                               gleich zu Atriumsbauten, der Ausbaustandard usw. wird damit nicht be-
+                               rücksichtigt.
+
+                               Das folgende Beispiel zeigt, dass sich die Fassaden äche bei unterschiedli-
+                               chen Gebäudeformen mehr als verdoppelt. Dies führt bei gleicher Ge-
+                               schoss äche und gleichem Rauminhalt zu Kostenschwankungen von +/-
+                               5-20 %.
+
+
+
+
+                               Ein weiterer Irrtum wird sichtbar beim Untersuchen der Einflüsse von
+                               Raumhöhen auf den Kubikmeterpreis. Erhöht man die Raumhöhe beim vor-
+                               gängigen Beispiel von 3 auf 4 m, wird das Gebäude um 1'600 m3 grösser.
+                               Bei einem Kubikmeterpreis von Fr. 500 würden somit zusätzlich
+
+
+                               5.34 BBaseGrobkosten - Einführung und Grundlagen                  Seite 6/33
+
+
+                                                 fl
+                                         fl
+fl
+                              Fr. 800'000 in die Gebäudekosten eingerechnet.
+                              Tatsächlich betreffen die Mehrkosten jedoch im wesentlichen nur die Auf-
+                              wendungen für das Erhöhen der Aussen- (160 m2) resp. Innenwände (240
+                              m2). Bei einem durchschnittlichen Preis von Fr. 400 pro m2 Wandfläche
+                              würden sich die Kosten um lediglich Fr. 160'000 (20% des Kubikmeterprei-
+                              ses) erhöhen.
+
+                              Nachteil 2 - Anlagekosten
+                              Mit der 'kubischen Berechnung' werden keine Kennwerte für das baureife
+                              Grundstück, die Vorbereitung, die Umgebung oder die Baunebenkosten ge-
+                              bildet.
+
+                              Nachteil 3 - Gebäudekosten
+                              Auswertungen von Kubikmeterpreisen haben gezeigt, dass beim Zuordnen
+                              der Kosten innerhalb des BKP 2 ‚Gebäude’ einige Regeln fehlen oder nicht
+                              eingehalten werden. Kostenbeispiele dafür sind: Baugrube in BKP 2, Kanali-
+                              sation in BKP 211 statt 45, Honorare BKP 29 statt 09, 19 resp. 49. Die Fra-
+                              ge ob der ermittelte Kubikmeterpreis mit oder ohne Mehrwertsteuer be-
+                              rechnet wurde, kann nur selten richtig beantwortet werden, was die Band-
+                              breite der Abweichungen sprunghaft um +/- 10-25 % verändert.
+
+                              Nachteil 4 - Spielraum
+                              Es ist o ensichtlich, dass die Genauigkeit von Kubikmeterpreisen schwankt,
+                              weil klare Abgrenzungen oder einfach einzuhaltende Regeln fehlen.
+
+                              Warum ist die Volumenmethode der SIA 416 kein Ersatz?
+                              Vor einigen Jahren wurde die Norm SIA 116 ‚ Normalien für kubische
+                              Berechnungen von Hochbauten' durch die Norm SIA 416 'Flächen und Vo-
+                              lumen von Gebäuden und Anlagen’ ersetzt. Die gesammelten Kubikmeter-
+                              preise werden seither nicht mehr gep egt aber trotzdem weiterverwendet.
+                              Die Flächen und Volumen nach SIA 416 werden rein geometrisch erfasst
+                              und berücksichtigen keine Zuschläge oder Abzüge. Der damit berechnete
+                              'Gebäudevolumenpreis’ bildet nie einen vergleichbaren Kennwert.
+
+
+     der grosse Unterschied   Vergleicht man die Berechnung eines Wohnhauses (10.0 x 10.0 m, Höhe
+                              3.0 m), nicht unterkellert, Flachdach nicht begehbar, mit Vordach (0.5 m)
+                              wird ein grosser Unterschied sichtbar.
+
+                              Rauminhalt nach SIA 116:                 10 x 10 x 3 m           = 300 m3
+                              Zuschlag für nicht unterkellert und Dach 10x10x(1 + 0.5) m       = 150 m3
+                              Zuschlag für Vordach                     42 x 0.5 x 1 m          = 21 m3
+                              Total Rauminhalt nach SIA 116                                    = 471 m3
+
+                              Volumen nach SIA 416:                          10 x 10 x 3 m     = 300 m3
+
+                              Weil neben den bei der SIA 116 festgestellten Nachteilen ganze Gebäu-
+                              deteile wie Vordächer, Balkone, begehbare Dächer usw. in den Volumenbe-
+                              rechnungen nach SIA 416 nicht berücksichtigt bleiben, werden Abweichun-
+                              gen von mehr als 30 % festgestellt. Mit dem gleichen Faktor verändert sich
+                              auch der Gebäudevolumenpreis im Vergleich zum Kubikmeterpreis.
+
+
+
+                              5.34 BBaseGrobkosten - Einführung und Grundlagen                  Seite 7/33
+
+
+                                fl
+ff
+                                Verwässerung der Kennzahlen in BKP Hauptgruppen
+                                Nicht jede Gliederung eignet sich für das Verfassen einer Grobkosten-
+                                schätzung. Seit mehr als 40 Jahren werden Baukosten mit Hilfe des BKP
+                                (BauKostenPlan 2001) strukturiert gesammelt. Im Gegensatz zu planungs-
+                                orientierten Gliederungen wie eBKP-H (Elementbasierter Baukostenplan
+                                Hochbau), wurde der BKP als ausführungsorientierte Gliederung konzipiert.
+
+                                Auszug aus SN 506 500 'Baukostenplan BKP'
+                                Der BKP ist ein Anlagekontenplan für sämtliche Kosten, die bei der Erstel-
+                                lung einer Baulichen Anlage anfallen: Grundstückskosten, eigentliche
+                                Baukosten, Einrichtungen, Ausstattungen, Honorare und Nebenkosten al-
+                                ler Art. Es handelt sich beim BKP im Grunde genommen um einen Investi-
+                                tionskostenplan.
+
+                                Die einzelnen Gliederungsbegri e des BKP sind: Hauptgruppe (einstellig),
+                                Gruppe (zweistellig), Untergruppe (dreistellig) und Gattung (vierstellig).
+                                Die Hauptgruppen dienen einer ersten groben Gliederung der Kosten ei-
+                                nes Bauvorhabens. Die zunehmende Verfeinerung durch Anfügen weiterer
+                                Dezimalstellen ermöglicht eine di erenzierte Detaillierung der Kosten.
+
+
+Handhabung des BKP 2001         Kuriose Phänomene fallen bei der Anwendung des BKP auf.
+
+                                Nachträglich wurde mit der BKP Gruppe 57 die Möglichkeit für das Aus-
+                                scheiden der Mehrwertsteuer gescha en. Einzelne nutzen diese Methode
+                                während die meisten Anwender den zusätzlichen Aufwand für das Aufteilen
+                                der Kosten fürchten. Beim nachfolgenden Ermitteln von Kennzahlen bleibt
+                                der Umgang mit der Mehrwertsteuer somit oft rätselhaft.
+
+                                Mit der Dokumentation 'Baukostenplan, Information für Anwender' wurde
+                                von der Schweizerischen Zentralstelle für Baurationalisierung CRB ein um-
+                                fangreicher Bericht zur Anwendung des BKP verfasst. Neben Kommentaren
+                                zu den einzelnen Begri en wird mit Stichwörtern die Zuordnung zu den
+                                einzelnen Konti pragmatisch geregelt.
+
+                                Die Erklärungen der 'Information für Anwender' sind nur Einzelnen be-
+                                kannt, weshalb Kosten oft unabsichtlich in falsche BKP Hauptgruppen ent-
+                                schwinden und danach ungültige Rückschlüsse zu Kennzahlen vorgaukeln.
+
+
+
+
+                                5.34 BBaseGrobkosten - Einführung und Grundlagen                  Seite 8/33
+
+
+                                 ff
+                           ff
+                      ff
+               ff
+ungültige Rückschlüsse     Einige markante 'Rechenfehler' zeigen wie Kennzahlen verwässert werden.
+
+                      1)   Die Kosten für die Erschliessung ausserhalb des Grundstücks sind oft in
+                           BKP '2 Gebäude' (z.B. Baumeisterarbeiten) statt in BKP '0 Grundstück' ent-
+                           halten.
+                      2)   Die Kosten für Räumungen, gemeinsame Baustelleneinrichtungen, Si-
+                           cherung, Unterfangung, Demontagen usw. sind oft im BKP '2 Gebäude' statt
+                           in BKP '1 Vorbereitung' enthalten.
+                      3)   Die Kosten für die Kanalisation, Erschliessung usw. ausserhalb des Ge-
+                           bäudes gehören in BKP '0 Grundstück' resp. BKP '4 Umgebung' und nicht in
+                           BKP '2 Gebäude'.
+                      4)   Honorare werden nicht auf die verschiedenen BKP Hauptgruppen verteilt
+                           usw.
+
+                           Das Bilden von Kennwerten fällt schwer, weil Mengen und Einheiten zu den
+                           einzelnen Hauptgruppen und Gruppen fehlen. Die Relation von Menge und
+                           Preis zu Kosten kann deshalb nicht abgebildet werden.
+
+                           Wichtige Entscheidungshilfen fehlen
+                           In der Grobkostenschätzung sind regelmässig nur die Investitionskosten
+                           (Anlagekosten) aufgeführt. Für Variantenvergleiche oder gewisse Teile der
+                           Investition bilden jedoch die Folgekosten nachhaltige Entscheidungshilfen.
+
+                           Mit Hilfe von Finanzierungsmodellen und Kennzahlen aus dem Immobi-
+                           lienmanagement könnten die 'nachfolgenden' Kosten prognostiziert wer-
+                           den. Die Basis dafür wird vielfach auf Umwegen zusammengetragen.
+
+                           Reiches Angebot von Baupreisindizes
+                           Die Baupreise sind stets Schwankungen der Konjunktur ausgesetzt. Um
+                           diese Bewegungen festzuhalten wird jede Kostenberechnung mit dem ent-
+                           sprechenden Indexdatum versehen. Preisschwankungen können später mit
+                           Hilfe von Indexpunkten teilweise berücksichtigt werden. Hierzu stehen fol-
+                           gende Indizes zur Verfügung:
+
+                           Der 'Zürcher Index der Wohnbaupreise' wird von der 'Statistik Stadt Zürich'
+                           einmal pro Jahr per 1. April berechnet und erscheint Ende Juni des jeweili-
+                           gen Kalenderjahres. Er bildet nur eine Richtzahl für Mehrfamilienhäuser,
+                           welche nach Bauart und Lage (Zürich) den Indexhäusern entsprechen.
+
+                           Der 'Schweizerische Baupreisindex' ist ein Konjunkturindikator, der die
+                           zeitliche Entwicklung von e ektiven Marktpreisen der im Baugewerbe täti-
+                           gen inländischen Unternehmen erfasst. Er widerspiegelt die konjunkturbe-
+                           dingten Bewegungen von Angebot und Nachfrage sowie die Produktivitäts-
+                           gewinne.
+
+                           Er bietet Ergebnisse für das Baugewerbe als Ganzes, aber auch für den
+                           Hochbau, der in vier Bauwerksarten unterteilt ist.
+                           Die Indizes sind entsprechend der Gliederung der Schweiz in sieben
+                           Grossregionen regionalisiert.
+
+
+
+
+                           5.34 BBaseGrobkosten - Einführung und Grundlagen                   Seite 9/33
+
+
+                 ff
+     Ein direkter Vergleich zwischen den beiden Indizes ist aufgrund zahlreicher
+     methodischer Unterschiede unmöglich.
+     Die Mehrwertsteuer beispielsweise ist beim 'Zürcher Index' enthalten, fehlt
+     jedoch beim 'Schweizerischen Baupreisindex'.
+
+     Schlussfolgerung
+     Die Analyse von Datensammlungen hat ergeben, dass die Streuung der
+     Kennwerte im Wesentlichen auf folgende Ursachen zurückzuführen sind:
+
+1)   Die verwendete Struktur der Kosten (BKP) bildet keine Grundlage für
+     Kennwerte.
+2)   Die Mengenermittlung und Bezugsmengen sind willkürlich de niert.
+3)   Es fehlen Regeln mit charakteristischen Objekt- oder Nutzungsarten.
+4)   Kostenrelevante Kriterien fehlen oder sind nicht erkennbar.
+
+
+
+
+     5.34 BBaseGrobkosten - Einführung und Grundlagen                 Seite 10/33
+
+
+                                                               fi
+             1.2 Mittel und Wege mit BBase
+             Ziele   Die Hilfsmittel und Werkzeuge von BBase müssen für die Grobkosten-
+                     schätzung folgende Ziele erreichen:
+
+               1)    Als Ersatz für die 'kubische Berechnung' müssen mit einfachen Methoden
+                     Zielwerte, nicht nur für das Gebäude, sondern für die ganzen Anlagekosten
+                     prognostiziert werden.
+               2)    Die ermittelten Zielwerte sollen die Anforderungen der SIA 102 Phase 1 und
+                     2 (Studie bis Vorprojekt) erfüllen.
+               3)    Die notwendige Mengenermittlung muss einfach und regelkonform mit
+                     leicht verständlicher Detaillierung genau de nierte Zahlen liefern.
+               4)    Kennwerte von artverwandten Nutzungen müssen in Gruppen zusam-
+                     mengefasst und kombiniert angewendet werden.
+               5)    Klar de nierte konstante Kennwerte bilden, an Stelle von Datenbank-
+                     sammlungen, die standardisierte Grundlage.
+               6)    Die Ursachen für mögliche Abweichungen zum Standard werden mit Hilfe
+                     von kostenrelevanten Kriterien (einfach, mittel, hoch, extra) festgelegt.
+               7)    Für das Schätzen der Folgekosten müssen neben den Investitionskosten im
+                     Sinne von 'Design to Cost' Verzinsungen, Betriebs- und Unterhaltskosten
+                     dynamisch berechnet werden.
+
+                     Bessere Kennwerte als der Kubikmeter- oder Gebäudevolumenpreis können
+                     nur dann erzeugt werden, wenn die Nachteile der alten Methoden eliminiert
+                     sind. Dies kann mit eindeutigen Kostengruppen und klaren De nitionen
+                     der Mengenerfassung erreicht werden.
+                     Der Schwierigkeitsgrad, die Gebäudegeometrie, der Ausbaustandard usw.
+                     wird in Nutzungsarten mit kostenrelevanten Kriterien de niert, um damit
+                     die unterschiedlichen Kennwerte abzubilden.
+
+                     Regeln für das Bilden von Kostengruppen
+                     Die Anlagekosten werden in Kostengruppen aufgeteilt mit der Zielsetzung,
+                     dass die Regeln der Kostenzuordnung die Bildung von Kennwerten unter-
+                     stützt.
+                     Die in BKP, eBKP-H oder anderen verbreiteten Gliederungen dargestellten
+                     Kosten eignen sich nicht für diese Zielsetzung.
+                     Die neuen Kostengruppen bilden scharf de nierte Zusammenfassungen,
+                     welche mit Hilfe von Rezepturen die einzelnen Beträge der bestehenden
+                     Gliederungen herleiten. Die neuen Gruppen ermöglichen deshalb verglei-
+                     chende Rückschlüsse.
+
+   Anlagekosten      Die Kosten des ganzen Bauvorhabens werden so aufgeteilt, dass bessere
+                     Kennwerte bestimmt werden können, als dies mit den BKP Hauptgruppen
+                     möglich ist. Mit der De nition neuer übergeordneter Kostengruppen, wel-
+                     che sich an die BKP Hauptgruppen, Gruppen und Untergruppen anlehnen,
+                     kann dies erreicht werden.
+
+Erstellungskosten    Bei den Erstellungskosten werden die Grundstückskosten und die Mehr-
+                     wertsteuer aus den Anlagekosten ausgeschieden.
+
+
+
+
+                     5.34 BBaseGrobkosten - Einführung und Grundlagen                Seite 11/33
+
+
+                                                    fi
+                                             fi
+                                   fi
+                              fi
+                         fi
+        fi
+     Gebäudekosten    Um die Kennwerte für die Gebäudekosten nicht zu "verwässern", iessen
+                      nur jene Kosten aus dem BKP 2 in die Berechnung ein, welche bei der Er-
+                      stellung des Gebäudes massgebend sind. Zu diesem Zweck wird eine Kos-
+                      tengruppe 'Gebäude' eingeführt, die diesen Anforderungen genügt.
+
+
+
+
+Die 7 Kostengruppen   Grundstück - Kosten, welche das Grundstück 'baureif' machen
+                      Danach sollen Grundstücke (erschlossene, unerschlossene, bebaute)
+                      miteinander vergleichbar sein. Dazu gehören nebst den Erwerbs- und Ne-
+                      benkosten auch Kosten für Studien, das Herrichten (Rodung, Abbruch) und
+                      die Erschliessung (Strassen, Versorgung, Entsorgung) des Grundstücks
+                      (Siehe BKP 00 bis 09, 10, 11, 14, Anteile von 19, 211 und 29).
+
+                      Erdbau, Tiefengründung - Kosten für die Grundlage des Bauwerks
+                      Damit sollen Kosten im Zusammenhang mit Erschwernissen im Untergrund,
+                      Anpassungen, Provisorien, Versorgung, Entsorgung usw., von den reinen
+                      Bauwerkskosten resp. Umgebungskosten getrennt werden (Siehe BKP 15,
+                      16, 17, 20, 45, Anteile von 19, 211, 29 und 49).
+
+                      Unterstützung – Kosten zur Unterstützung der Bauarbeiten
+                      Dazu zählen Baustelleneinrichtung, Unterfangung oder Instandsetzung von
+                      fremden Gebäuden, Gerüste usw. Diese Kosten werden ausgeschieden, um
+                      die Gebäudekosten von variablen Kosten (Schwierigkeitsgrad) zu befreien
+                      (Siehe BKP 12, 13, Anteile von 19, 211 und 29).
+
+                      Gebäude – Kosten für das Erstellen des Bauwerks
+                      Enthält nur jene Kosten, welche unabhängig von der Lage des Gebäudes
+                      entstehen. Es sind deshalb keine Kosten aus dem Baugrund enthalten. Das
+                      Gebäude wird ,in die Luft gestellt’ (Siehe BKP 21 bis 28, Anteile von 211
+                      und 29).
+
+                      Nutzungsspezi sche Einrichtung – Kosten für feste Einbauten oder mobile
+                      Einrichtungen und Ausstattungen, welche einer spezialisierten Nutzung
+                      dienen. Auch dazu gehörige Roh- und Ausbaukosten (Siehe BKP 30 bis 39,
+                      90 bis 99, Anteile von 29).
+
+                      Umgebung – Kosten für die Umgebungsarbeiten
+                      Erdbewegungen, Rohbau-, Ausbau-, Installationsarbeiten und Ausstattun-
+                      gen ausserhalb des Gebäudes im Sinne der Gartengestaltung (Siehe BKP 40
+                      bis 44, 46 bis 48, Anteile von 211, 29 und 49. Ohne BKP 45).
+
+
+
+
+                      5.34 BBaseGrobkosten - Einführung und Grundlagen                 Seite 12/33
+
+
+                                                                                  fl
+                                   fi
+      Nebenkosten – ohne Mehrwertsteuer
+      Enthält neben Gebühren, Kopien, Versicherungen usw. auch Zinsen für die
+      Finanzierung (Siehe BKP 5 ohne 57 Mehrwertsteuer).
+
+      Die Mehrwertsteuer wird für das Bilden der Kennwerte (Erstellungs- resp.
+      Gebäudekosten) ausgeschieden.
+
+      Exakt ermittelte Mengen
+      Jede Kostengruppe muss mit exakt de nierten Bezugsmengen ergänzt
+      werden. Dafür eignen sich die Festlegungen nach SIA 416 (2003) 'Flächen
+      und Volumen von Gebäuden' welche folgende Zielsetzungen verfolgen:
+
+      Auszug aus SIA 416 (2003)
+      Die Norm beschränkt sich auf das De nieren von Flächen und der aus ih-
+      nen abgeleiteten Volumen, wie sie in den verschiedensten Zusammenhän-
+      gen angewendet werden.
+      Zu den Anwendungsbereichen dieser Norm gehören Flächen- und Volu-
+      mennachweise als Grundlage von Variantenvergleichen, Kostenermittlun-
+      gen, Wirtschaftlichkeitsüberlegungen usw. Bei diesen Überlegungen und
+      Berechnungen muss mit einheitlich de nierten und immer gleich ange-
+      wendeten Flächen und den aus ihnen abgeleiteten Volumen gearbeitet
+      werden, damit Klarheit und Vergleichbarkeit gewährleistet sind.
+
+
+      Im Folgenden Kapitel wird das Vorgehen Punkt für Punkt beschrieben. Die
+      Kurzanleitung dient als Checkliste für den Einstieg. Einge ochten sind Hin-
+      weise mit Seitenangaben zu detaillierten Beschrieben in nachfolgenden Ka-
+      piteln.
+
+      Für die einzelnen Kostengruppen gelten folgende Bezugsmengen:
+
+
+
+
+GSF   Grundstücks äche
+
+GGF   Gebäudegrund äche
+      Entspricht jener Fläche, welche während dem Bauen von Gebäuden durch-
+      drungen werden.
+
+      Weil diese Menge für die Tiefengründung massgebend ist muss auch die
+      Fläche der unterirdischen Gebäude eingerechnet werden.
+
+ UF   Umgebungs äche
+      Für die Kostenberechnung wird nur die bearbeitete Fläche benötigt.
+
+
+      5.34 BBaseGrobkosten - Einführung und Grundlagen                 Seite 13/33
+
+
+                                             fi
+                                 fl
+                            fl
+                       fl
+                  fl
+             fi
+        fi
+                BUF    Bearbeitete Umgebungs äche
+                       Entspricht der tatsächlich bearbeiteten Umgebungs äche inkl. Flächen über
+                       ganz oder teilweise im Erdreich liegenden Bauten sofern sie bep anzt, be-
+                       gangen oder befahren werden können und mit dem anschliessenden Ter-
+                       rain in Verbindung stehen.
+
+
+
+
+                 GF    Geschoss äche
+                       Ersatz für die 'kubische Berechnung' bildet die Geschoss äche. Das Ge-
+                       bäudevolumen wird zu diesem Zweck geometrisch in einzelne Geschosse
+                       'zerlegt', deren Teil ächen einer Nutzungsart zugeordnet werden können.
+
+
+
+
+                       Auf eine weitere Detaillierung (Nettogeschoss äche, Nutz äche, Haupt-
+                       nutz äche usw.) wird für das Ermitteln der Zielwerte in frühen Projektpha-
+                       sen verzichtet.
+
+                AGF    Aussengeschoss äche
+                       Umfasst im wesentlichen die Flächen von Balkonen, Terrassen, Dachzinnen,
+                       Dachgärten usw., sofern diese nicht in direkter Verbindung mit der Umge-
+                       bungs äche stehen. Andernfalls sind Sie in die BUF einzurechnen.
+
+                       Teilflächen für gleichwertige Nutzungsarten
+                       Die Genauigkeit der Kennwerte wird durch Aufteilen der Flächen in typische
+                       'kostenverwandte' Nutzungsarten optimiert. Dieses Vorgehen ist besonders
+                       beim Gebäude und der Umgebung erfolgreich.
+                       Die Begri e der Nutzungsarten entsprechen typischen Objektarten. Eine
+                       Wohnüberbauung wird beispielsweise in Anteile für 'Wohnen', 'Nebenräume'
+                       und 'Tiefgarage' aufgeteilt. Bei der Schulanlage werden die 'Turnhalle',
+                       'Schulzimmer' oder 'Hausmeisterwohnung' als Nutzungsart mit eigenen Re-
+                       geln für die Kosten ndung versehen.
+
+                       Die Zuordnung von Nutzungsarten zu Teil ächen der Geschoss-, Aus-
+                       sengeschoss- und Umgebungs ächen ermöglicht die notwendige Speziali-
+                       sierung der Grundmengen für Kostenkennwerte mit hoher Genauigkeit.
+
+                       5.34 BBaseGrobkosten - Einführung und Grundlagen                       Seite 14/33
+
+
+                                                                                         fl
+                                                                                    fl
+                                                                               fl
+                                                                          fl
+                                                                   fl
+                                                       fl
+                                              fl
+                                       fl
+                                  fl
+                             ff
+                  fl
+          fi
+           fl
+     fl
+fl
+     Der Einfluss von kostenrelevanten Kriterien
+     Zu den einzelnen Nutzungsarten werden Kennwerte gesucht, welche sich in
+     die Kostengruppen und Nutzungsarten einordnen und die vorgesehenen
+     Bezugsmengen berücksichtigen. Zu diesem Zweck wurden Bauabrechnun-
+     gen und weit verbreitete Baukostendaten (Siehe Anhang) mit Hilfe der de -
+     nierten Kostengruppen und Nutzungsarten ausgewertet. Die so ermittelten
+     Flächenpreise zeigten eine verbesserte Genauigkeit. Die Bandbreite lag
+     aber immer noch bei +/- 20%.
+
+     Die Ursachen dieser Abweichungen wurden beim genauen Überprüfen der
+     Pläne und Beschriebe sichtbar. Detaillierte Untersuchungen haben gezeigt,
+     dass bei allen Nutzungsarten 5-15 charakteristische Eigenschaften die
+     Kennwerte jeweils zwischen 1-5 % beein ussen.
+
+     Um die Streuung dieser Kennwerte zu reduzieren, wurde jede Nutzungsart
+     mit kostenrelevanten Kriterien für Geometrie, Wiederholung, Geschosshö-
+     he, Qualitäts- resp. Ausbaustandards, Haustechnik, Zugänglichkeit usw.
+     versehen.
+
+     Die Eigenarten der Kriterien werden in ein vorgegebenes Raster 'einfach',
+     'mittel', 'hoch', 'extra' eingeordnet. Jede Eigenart wird auf Grund von spezi-
+      schen Berechnungen mit einem Faktor versehen.
+
+     Klar definierte Kennwerte als Konstante
+
+     5.34 BBaseGrobkosten - Einführung und Grundlagen                    Seite 15/33
+
+
+                                               f
+           fl
+fi
+     Die mit Hilfe der Kriterien bewerteten Bauabrechnungen werden mit
+     Faktoren von Eigenarten auf das Kriterium 'mittel' zurückgerechnet, sodass
+     die endgültige Kennzahl dem mittleren Projektstandard entspricht und so-
+     mit als Konstante für neue Kostenschätzungen zur Verfügung steht.
+
+     Die theoretisch ermittelten Konstanten wurden mit Bauabrechnungen von
+     BBaseAnwendern überprüft. Für die Auswertung wurde die BBaseBaubuch-
+     haltung mit speziellen Formularen ergänzt, welche alle vorhandenen Beträ-
+     ge automatisch auf die Kostengruppen verteilen, sodass nach Festlegen der
+     Nutzungsarten, Flächen und Kriterien alle Kennwerte des aktuellen Projek-
+     tes zur Verfügung stehen.
+
+     Die detaillierten Auswertungen von unterschiedlichen Projekten hat ge-
+     zeigt, dass mit dieser Methode die Bandbreite der Abweichungen nur noch
+     wenige Prozente beträgt.
+
+     Für exakte Grobkostenschätzungen reicht es, ein einziges, klar de niertes
+     Standardprojekt zu p egen. Es ist keine Datenbank mit unzähligen Projek-
+     ten notwendig.
+
+     Die ermittelten Kennwerte werden periodisch überprüft, ergänzt und an
+     neue Baustandards angepasst.
+
+
+
+
+     5.34 BBaseGrobkosten - Einführung und Grundlagen                   Seite 16/33
+
+
+                                                                   fi
+fl
+Die entwurfsbegleitende Kostenschätzung
+Unter Berücksichtigung von Mengen und Anforderungen garantieren die
+richtige Wahl der Nutzungsarten und Kriterien entwurfsbegleitend eine
+Grobkostenschätzung mit ausserordentlicher Genauigkeit. Ohne mit Kano-
+nen auf Spatzen zu schiessen und ohne dem Stand des Projektes vorzu-
+greifen werden Variantenvergleiche und Zielwerte ermittelt, welche die
+Leitplanken für die Projektierung bilden. Auf detaillierte Berechnungsme-
+thoden kann in frühen Phasen der Projektierung verzichtet werden.
+
+Beim wählen der projektspezi schen Kriterien 'einfach' oder 'hoch' weicht
+die Berechnung vom mittleren konstanten Kennwert ab und korrigiert die
+Kosten mit Abzügen oder Zuschlägen. Festlegungen, welche ausserhalb
+dieser Optionen liegen, werden mit 'extra' als Abweichungsbetrag dazu ge-
+zählt.
+
+Konjunkturelle Ein üsse werden mit Hilfe des 'Zürcher Index der Wohn-
+baupreise' und dem Berechnen der Kennwerte ohne Mehrwertsteuer be-
+rücksichtigt.
+
+Regionale Abweichungen können mit Faktoren (Zuschlag oder Abzug)
+generell oder für jede Nutzungsart einzeln berücksichtigt werden
+
+Mit Hilfe einer einfachen Berechnung wird die Kostenprognose ermittelt:
+
+
+
+
+5.34 BBaseGrobkosten - Einführung und Grundlagen                Seite 17/33
+
+
+                              fi
+                 fl
+              Folgekosten mit Investitionskosten verknüpft
+              Mit den Investitionskosten als Basis lassen sich nach Festlegen der Eigen-
+              und Fremdmittel, die Verzinsung des Kapitals berechnen. Mit den Kenn-
+              zahlen von SIA D0165 folgen daraus die Auslagen für Verwaltung, Betrieb
+              und Instandsetzung. Nach Aufrechnen von Abschreibungen und Rückstel-
+              lungen sind die Nettomietkosten ermittelt.
+
+automatisch   Verändern sich die Anlagekosten, werden die Nettomietkosten automatisch
+              neu berechnet. Aussagen zu den Folgekosten werden nachvollziehbar.
+
+
+
+
+              5.34 BBaseGrobkosten - Einführung und Grundlagen                 Seite 18/33
+         1.3 Aufbau und Inhalt der BBaseDokumente
+                  Die Arbeitsmittel der Bau- und Büroadministration im Architektur- und
+                  Planungsbüro wurden auf verschiedene Module von BBase aufgeteilt. Mit
+                  Hilfe diverser BBaseWerkzeuge ist es in der Bauadministration möglich,
+                  systematisch Baukosten zu planen und die laufenden Kosten zu überwa-
+                  chen. Im folgenden Bericht wird das Werkzeug 'BBaseGrobkosten' beschrie-
+                  ben.
+
+                  Das BBaseDokument für die Grobkostenschätzung
+                  Die Arbeitsmittel sind als Tabellen in Formularvorlagen bereitgestellt. Sie
+                  bilden zusammenfassend thematisch abgeschlossene Arbeitsmappen, wel-
+                  che als einzelne Dokumente gespeichert werden.
+
+      Vorlagen    Für das aktuelle Werkzeug werden folgende Formularvorlagen verwendet:
+
+                  BBase Vorlage Grobkosten.xlsx
+                  Die Arbeitsmappe 'BBase Vorlage Grobkosten' dient als Grundlage für die
+                  Grobkostenschätzung. Die Vorlage kann dupliziert und mit neuem Namen
+                  als angepasste Büro Vorlage verwendet werden.
+
+                  Vorlage Deckblatt.xlsx
+                  Beim Gründen einer Grobkostenschätzung wird die Tabelle 'Deckblatt',
+                  welche sich in der 'Vorlage Deckblatt.xlsx' be ndet, in die Arbeitsmappe
+                  der gewählten Vorlage eingefügt.
+
+Tabellenblätter   Die Daten der Grobkostenschätzung sind innerhalb der Arbeitsmappe auf
+                  verschiedenen Tabellenblättern dargestellt und enthalten folgenden Inhalt:
+
+
+
+
+   Grundlagen     Titel, Untertitel und Inhalt, welche auf dem 'Deckblatt' angezeigt werden,
+                  können im Tabellenblatt 'Grundlage' überarbeitet oder ergänzt werden.
+                  Ausserdem sind Datum, Ablageort, Währung, Mehrwertsteuersatz und
+                  Rundungsregeln im aktuellen Dokument enthalten.
+
+     Deckblatt    Objekt-, Bauherr- und Projektverfasser werden zusammen mit dem In-
+                  haltsverzeichnis auf dem Deckblatt angezeigt.
+
+
+
+
+                  5.34 BBaseGrobkosten - Einführung und Grundlagen                  Seite 19/33
+
+
+                             fi
+   Hinweise    Neben den Projektinformationen (Bauwerksart, Raumprogramm, Kon-
+               struktion) werden auf diesem Tabellenblatt alle kostenrelevanten Hinweise
+               wie Genauigkeit, Preisstand, Mehrwertsteuer, Gliederungen und Zuschläge
+               aufgelistet.
+
+ Grobkosten    Tabelle mit allen Kosten und Beschrieben nach Kostengruppen, Nut-
+               zungsarten und Kriterien gegliedert. Die Berechnung kann für Varianten-
+               vergleiche dupliziert werden.
+
+Finanzierung   Nach Festlegen der Eigen- und Fremdmittel, werden auf dieser Tabelle die
+               Auslagen (Verwaltung, Betrieb, Instandsetzung usw.) ermittelt und für das
+               Berechnen der Mietkosten verwendet.
+
+    Notizen    Das Tabellenblatt 'Notizen' enthält eine leere Excel Tabelle für individuelle
+               Bedürfnisse.
+
+               Ergänzende BBaseWerkzeuge
+               Die Hilfsmittel der Baukostenplanung und -überwachung wurden auf vier
+               BBaseWerkzeuge, mit eigenständigen Bereichen für die Kostenermittlung
+               und Auswertung verteilt.
+
+               Das vorliegende Handbuch beschränkt sich auf Erläuterungen zur Ar-
+               beitsweise mit BBaseGrobkosten.
+
+               Erklärungen zur Kostenermittlung und -überwachung werden beschrieben
+               unter:
+
+               Kostenvoranschlag (KV) - Budget als Basis für die Kostenüberwachung
+               Mit BBaseKostenvoranschlag wird der KV mit der Gliederung des 'Baukos-
+               tenplans' BKP 2001 erfasst. Er bildet als Kontoplan und Budget die Grund-
+               lage für die Kostenüberwachung mit BBaseBaubuchhaltung.
+               Im Gegensatz zum Modul BBaseBauKostenSystem (BKS) werden beim Kos-
+               tenvoranschlag keine Kosten entwickelt oder entworfen sondern bekannte
+               Beträge zusammengetragen und in vorbereitete Tabellen abgefüllt.
+               Mit Hilfe von Checklisten und Suchbegri en wird ein KV aufgebaut, welcher
+               auch als leicht verständlicher Baubeschrieb Verwendung ndet.
+
+               BauKostenSystem (BKS) - Das bauteilorientierte Kostensystem
+               Mit BBaseBKS werden Baukosten für den Finanzbedarf, die Grobschätzung
+               die Kostenschätzung und den Kostenvoranschlag ermittelt. Dazu werden
+               BBase-eigene Bauteile verwendet. Für das bestimmen der Kennzahlen wer-
+               den alle Mengen für SIA 416 in Tabellen erfasst.
+               Die ermittelten Kosten für einzelne Teilobjekte werden mit BBaseKos-
+               tenvoranschlag zusammengefasst.
+
+
+
+
+               5.34 BBaseGrobkosten - Einführung und Grundlagen                    Seite 20/33
+
+
+                                       fi
+                    ff
+Baubuchhaltung (BauBH) - Baukostenverwaltung und Kostenüberwachung
+Mit BBaseBaubuchhaltung werden Baukosten kontrolliert und überwacht.
+Als Basis dient BBaseKostenvoranschlag oder BBaseBauKostenSystem. Ab-
+schliessend wird mit allen Mutationen und Zahlungen als Grundlage, die
+Bauabrechnung als Vergleich zum Budget zusammengefasst.
+
+Die Wurzeln der Baukosten sind in frühen Phasen der Projektierung und
+erstrecken sich bis zur Bauabrechnung.
+
+
+
+
+5.34 BBaseGrobkosten - Einführung und Grundlagen               Seite 21/33
+            5 Anhang
+                   Einige Informationsquellen sind im Literaturverzeichnis aufgeführt und
+                   enthalten zusammen mit dem gedruckten Beispiel grundlegende Hinwei-
+                   se zur den Grobkosten.
+
+
+          5.1 Quellen, Literaturverzeichnis
+
+                   BBaseGrobkosten entspricht in weiten Teilen den Grundlagen des SIA und      5
+                   des CRB. Das vorliegende Programm orientiert sich unter anderem an den
+                   entsprechenden Unterlagen.
+
+
+                                                                                               Anhang
+                   Handbuch für Bauherrenberatung (2002),
+                   KUB/SVIT, CH-8057 Zürich, ISBN 3-9522502-0-1
+
+                   Bauen nach Smart (SIA und SBV 1998)
+                   Birkhäuser, 4010 Basel, ISBN 3-7643-5923-4
+
+                   CRB, CH-8040 Zürich
+      BKP 2001     Baukostenplan SN 506 500
+                   BKP Information für Anwender Art. Nr. 200.04
+
+                   SI+A, CH-8039 Zürich
+  SIA 102 (2003)   Ordnung für Leistungen und Honorare der Architekten SN 508 102
+  SIA 116 (1952)   Kubische Berechnung von Hochbauten (Ungültig!)
+  SIA 416 (2004)   Flächen und Volumen von Gebäuden SN 504 416
+  SIA 450 (1993)   Kosteninformationen im Bauwesen SN 509 450
+  SIA 480 (2004)   Wirtschaftlichkeitsrechnung für Investitionen im Hochbau 2004 SN 506 480
+SIA D165 (2000)    Kennzahlen im Immobilienmanagement
+
+                   www.as-schweizerarchitektur.ch - AS Schweizer Architektur
+                   www.werkbauenundwohnen.ch - Werk, Bauen und Wohnen
+                   https://www.e-periodica.ch/ - Baugedächnis Architektur, digitalisierte
+                   Zeitschriften (tec21)
+                   www.baukosten.de - BKI Baukosteninformationszentrum
+                   www.meyer-meierling.ch - Baukostenkennzahlensystem BKKS ETHZ
+                   www.bbl.admin.ch - Bundesamt für Bauten und Logistik BBL
+                   www.statistik.admin.ch - Baukostenkennwerte BFS
+                   www.statistik.zh.ch - Statistische Jahrbücher der Kantone
+                   www.gemeindename.ch - Internetseiten der jeweiligen Gemeinden
+                   www.wuestundpartner.com - Wüest & Partner, Büro für Rauminformationen
+                   www.immobilienschaetzer.ch - Schätzerlehrgang Grundwissen SIV
+
+
+
+
+                   5.34 BBaseGrobkosten - Anhang                                 Seite 22/33
+5.2 Beispiel der Grobkosten
+    Die folgenden Seiten zeigen die gedruckte Version des beschriebenen
+    Beispiels in Originalgrösse. Dabei werden die Tabellen der Hinweise und
+    einige Ausschnitte des Tabellenblattes Grobkosten und Finanzierung dar-
+    gestellt.
+
+
+
+
+    5.34 BBaseGrobkosten - Anhang                                  Seite 23/33
+5.34 BBaseGrobkosten - Anhang   Seite 24/33
+5.34 BBaseGrobkosten - Anhang   Seite 25/33
+5.34 BBaseGrobkosten - Anhang   Seite 26/33
+5.34 BBaseGrobkosten - Anhang   Seite 27/33
+5.34 BBaseGrobkosten - Anhang   Seite 28/33
+5.34 BBaseGrobkosten - Anhang   Seite 29/33
+5.34 BBaseGrobkosten - Anhang   Seite 30/33
+5.34 BBaseGrobkosten - Anhang   Seite 31/33
+5.34 BBaseGrobkosten - Anhang   Seite 32/33
+5.34 BBaseGrobkosten - Anhang   Seite 33/33
+

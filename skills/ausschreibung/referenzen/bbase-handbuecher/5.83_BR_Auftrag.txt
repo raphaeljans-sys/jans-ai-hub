@@ -1,0 +1,2405 @@
+'
+
+
+
+
+                        Auftragsverwaltung
+     Kostenplanung      Selbstkosten, Risiko und Gewinn
+
+                                                                                                     5.83
+        Ausführung
+
+
+     Kostenkontrolle
+
+
+    Honorar, Auftrag
+
+
+
+
+                        Mit BBaseAuftrag wird eine Auftragsverwaltung geführt, welche in Listen
+                        und Tabellen die Daten der Stunden- und Spesenerfassung mit den
+                        Vorgaben und Abrechnungen vergleicht und als Chefzahlen bereitstellt.
+
+                        Alle Auswertungen wie Guthaben, angefangene Arbeiten, Restleistung,
+                        Auslastung, Gewinn usw. sind Resultate der vorhandenen Einträge und
+                        werden von BBase berechnet.
+                        Das umständliche Zusammentragen der Informationen für die
+                        Nachkalkulation entfällt. Periodisch wird jeder Auftrag bewertet und zeigt
+                        so den positiven oder negativen Ertrag frühzeitig. Die Leistungen und der
+                        Einsatz der Mittel können rechtzeitig beeinflusst werden.
+
+                        Das grundlegende Kalkulationsmodell von BBase gilt seit 2012 auch für die
+                        Benchmarks von SIA. Sie passen nahtlos in die Betriebskostenrechnung von
+                        BBase und ermöglichen eine schnelle und sichere Budgetierung.
+
+
+
+
+    25. November 2014   © PMS Informatik AG CH-8617 Mönchaltorf www.bbase.ch
+BBase
+© PMS Informatik AG Alle Rechte vorbehalten
+
+Betriebsanleitung, Handbücher und Software sind urheberrechtlich
+geschützt. Das Kopieren, Vervielfältigen, Übersetzen oder Umsetzen in
+irgendein elektronisches Medium oder maschinenlesbare Form im Ganzen
+oder in Teilen ohne vorherige schriftliche Genehmigung von PMS Informatik
+AG ist nicht gestattet. Alle weiteren Rechte an der Software sind in den
+mitgelieferten Lizenzbestimmungen festgelegt.
+
+PMS Informatik AG, Usterstrasse 12, CH-8617 Mönchaltorf
+Fon +41 44 948 12 14, Fax +41 44 948 19 41
+Mail Info@pmsag.ch , Internet www.pmsag.ch
+
+
+
+
+Vorwort
+Dieses farbig gestaltete PDF-Dokument bietet Anweisungen zur
+Anwendung des Programms BBaseAuftragsverwaltung
+
+Das vorliegende Benutzerhandbuch bietet neben methodischen
+Erklärungen auch Kurzanleitungen für Fortgeschrittene, ausführliche
+Anweisungen für das Erstellen eines neuen Dokumentes und detaillierte
+Anleitungen zur Arbeitstechnik.
+
+Wird im Bericht der Architekt erwähnt, so gilt die Benennung auch für die
+Architektin.
+
+Bevor Sie sich mit diesem Dokument befassen empfiehlt es sich, das
+beiliegende Beispiel und die Grundlagen im Literatur- und
+Quellenverzeichnis zu studieren.
+
+
+Mönchaltorf, 10. November 2014
+
+
+
+
+5.83 BBaseAuftragsverwaltung - Vorwort                                Seite 2/45
+      Inhalt
+      Das vorliegende Handbuch enthält Informationen für Anfänger und
+      Fortgeschrittene, welche die Anwendung der BBaseWerkzeuge
+      unterstützen. Die einzelnen Kapitel enthalten dafür folgende Beschriebe:
+
+
+
+
+1     Einführung                                                                 7
+                                                                                      5.85
+1.1   Kalkulation im Architektur- und Planungsbüro                               7
+      Warum eine Auftragsverwaltung?                                              8
+
+
+                                                                                      Inhalt
+      Regeln der Vor- und Nachkalkulation                                         9
+      Wie werden Kennzahlen ermittelt?                                           13
+
+1.2   Welche Hilfsmittel stellt BBase zur Verfügung?                          19
+      Die BBaseWerkzeuge der Auftrags- und Honorarkalkulation                    19
+      Tabellenblätter der Auftragsliste (Arbeitsmappe)                           21
+      Inhalt der Buchungsliste (Datenbank)                                       22
+
+
+2     Grundlagen                                                            23
+      Allgemeine Hinweise zur Benutzung                                          23
+      Die Auftragsliste als Excel Arbeitsmappe                                   23
+      Die Buchungsliste als Datenbank                                            24
+
+
+3     Kurzanleitung                                                         25
+      Auftragsverwaltung öffnen                                                  25
+      Buchungsliste öffnen                                                       25
+      Mitarbeiter erfassen                                                       25
+      Persönliche Journale                                                       26
+      Auftrag erfassen                                                           26
+      Vorgabe erfassen                                                           26
+      Rapport erstellen                                                          26
+      Rechnungen erfassen                                                        27
+      Zahlung erfassen                                                           27
+      Auftragsauswertung bearbeiten                                              27
+      Monatsabrechnung erstellen                                                 28
+      Jahresabschluss                                                            28
+
+
+4     Leitfaden                                                             29
+4.01 Auftragsverwaltung gründen                                               29
+      Vorbereiten der Auftragsverwaltung                                         29
+      Gründen der neuen Auftragsverwaltung                                       31
+      Ergänzen der Auftragsverwaltung                                            32
+      Auftragsverwaltung öffnen, schliessen                                      33
+
+4.02 Grundeinstellungen                                                       35
+      Grundlagen Auftragskalkulation                                             35
+      Rechnungsnummer einrichten                                                 36
+
+
+      5.83 BBaseAuftragsverwaltung - Inhalt                             Seite 3/45
+     Mehrwertsteuersätze bearbeiten                             36
+     Zahlungskonditionen bestimmen                              37
+     Einstellungen für das Drucken der Rechnungen               37
+     Kriterien für Kontoauszüge und Mahnungen                   37
+     Sollzeit Standard erfassen                                 38
+
+4.03 Datenstruktur einrichten                                   39
+     Profitcenter erfassen und bearbeiten                       39
+     Positionsstruktur ändern, ergänzen und exportieren         41
+     Auftragsklassen einrichten                                 43
+     Positionskategorien zuordnen                               44
+
+4.04 Mitarbeiterliste                                           45
+     Mitarbeiter übernehmen, bearbeiten, löschen                45
+     Persönliche Stundenansätze festlegen, bearbeiten           47
+     Persönliche Sollzeit anpassen                              48
+     Auftrag für Mitarbeiter-Buchungen einrichten               49
+     Mitarbeiterliste darstellen und drucken                    50
+
+4.05 Auftrag                                                    51
+     Stammdaten erfassen                                        51
+     Stammdaten bearbeiten                                      54
+     Buchungen anzeigen                                         54
+     Auszug anzeigen                                            54
+     Inhalt der Auswertung (Auszug)                             55
+     Gewinn definieren                                          58
+     Auswertung abgrenzen                                       60
+     Auswertung begrenzen                                       62
+     Auftrag duplizieren                                        63
+     Auftrag archivieren, löschen                               63
+
+4.06 Buchungen                                                  65
+     Vorgabe (Offerte) erfassen, bearbeiten                     67
+     Aufwand (Leistung) erfassen, bearbeiten                    69
+     Abrechnung (Rechnung) erfassen, bearbeiten                 69
+
+4.07 Buchungsliste                                              71
+     Buchungsliste anzeigen                                     71
+     Inhalt der Buchungsliste                                   72
+     Buchungsliste darstellen                                   73
+     Nicht abgerechnete Buchungen anzeigen                      74
+     Buchung einfügen, bearbeiten                               74
+     Buchung löschen                                            75
+     Buchung suchen                                             75
+     Buchungen sortieren                                        75
+     Buchung berechnen                                          76
+     Buchungen filtern                                          78
+     Buchungsliste drucken                                      81
+
+4.08 Auftragsliste                                              83
+     Auftragsliste anzeigen                                     84
+     Inhalt der Auftragsliste                                   85
+
+
+
+     5.83 BBaseAuftragsverwaltung - Inhalt                Seite 4/45
+     Auftragsliste darstellen als                        87
+     ... Übersicht für den Bildschirm                    88
+     ... Ganze Datenbank                                 88
+     ... Auftragsliste                                   88
+     ... Adressliste                                     88
+     ... Vorgabeliste                                    89
+     ... Buchungsliste                                   89
+     ... Abrechnungsliste                                89
+     ... Auslastungsliste                                89
+     ... Ertragsliste                                    90
+     ... Eigene Darstellung                              90
+     Aufträge saldieren                                  90
+     Auftragsliste drucken                               90
+
+4.09 Persönliche Journale                                91
+     Persönliches Journal gründen                        91
+     Persönliche Buchungen, erfassen, bearbeiten         91
+     Persönliches Journal, abgleichen, abrechnen         92
+
+4.10 Monatsabrechnung                                    93
+     Monatsabrechnung vorbereiten                        93
+     Buchungen importieren                               94
+     Buchungen korrigieren                               94
+     Buchungen abrechnen                                 95
+
+4.11 Arbeitszeitstatistik                                97
+     Persönliche Arbeitszeitstatistik                    98
+     Übersicht der Soll-/Istzeit                         98
+     Stundenauswertung erstellen, drucken                98
+
+4.12 Verrechnungsplan (Budget)                         103
+     Zahlungsplan erfassen                              103
+     Rechnung aus Zahlungsplan erstellen                104
+     Gebuchte Rechnungen eintragen                      104
+     Verrechnungsplan darstellen                        104
+
+4.13 Rapporte                                          105
+     Buchungen visieren                                 105
+     Rapport erstellen, drucken                         106
+
+4.14 Rechnungen                                        109
+     Rechnung erstellen                                 109
+     Rechnung buchen                                    113
+     Rechnung drucken                                   114
+     Rechnung bearbeiten                                114
+     Rechnung duplizieren                               115
+     Rechnung, Formular löschen                         115
+     Rechnungsnummer festlegen                          115
+
+4.15 Debitorenliste                                    117
+     Debitorenliste darstellen und drucken              118
+     Rechnung löschen                                   119
+
+
+
+     5.83 BBaseAuftragsverwaltung - Inhalt         Seite 5/45
+      Offene Rechnungen anzeigen                   120
+      Zahlung erfassen, korrigieren                120
+      Fällige Rechnungen anzeigen                  121
+      Kontoauszüge oder Mahnungen erstellen        122
+      Mehrwertsteuerliste anzeigen                 123
+
+4.16 Jahresabschluss und Neueröffnung             125
+      Vor dem Jahresende zu erledigen              125
+      Im neuen Jahr zu erledigen                   129
+
+4.17 Datenaustausch                               133
+      Honorarberechnung übernehmen                 133
+      Mitarbeiterdaten für Kostenrechnung          133
+
+4.18 Vorlagen anfertigen                            23
+      Vorlagen für Stundenauswertungen              23
+      Vorlagen für Rechnungen                       23
+      Inkasso Vorlagen anpassen                     24
+
+
+5     Anhang                                     23
+5.1   Quellen und Literaturverzeichnis              23
+
+5.2   Begriffe und Abkürzungen                      24
+
+5.3   Beispiele der Auftragsverwaltung              28
+      Profitcenter und Auftragsklassen              29
+      Positionsstruktur Minimal                     29
+      Positionsstruktur Standard                    30
+      Mitarbeiterliste                              32
+      Arbeitszeitstatistik                          32
+      Auftragsliste                                 33
+      Vergabeliste                                  33
+      Abrechnungsliste                              33
+      Ertragsliste                                  34
+      Auslastungsliste                              34
+      Verrechnungsplan                              34
+      Auftrag Auswertung                            35
+      Buchungsliste                                 36
+      Stunden Auswertung                            38
+      Debitorenliste                                39
+      Fälligkeitsliste                              39
+      Mehrwertsteuerliste                           39
+      Rapport                                       40
+      Nachweis Honorar                              41
+      Rechnung Honorar                              42
+      Rechnung Spesen                               43
+      Kontoauszug                                   44
+      Mahnung                                       45
+
+
+
+
+      5.83 BBaseAuftragsverwaltung - Inhalt   Seite 6/45
+ 1 Einführung
+    Dieses Kapitel enthält allgemeine Infos zum Thema Auftragskalkulation
+    mit BBaseWerkzeugen für Architekten, Planer und Bauleiter.
+
+
+
+
+1.1 Kalkulation im Architektur- und
+    Planungsbüro
+                                                                                     1
+    Mit Einführung der SIA 102 (2003) Ordnung für Leistungen und Honorar
+    der Architekten und SIA 105 (2007) Ordnung für Leistungen und Honorar
+    der Landschaftsarchitekten gewinnt die Vor- und Nachkalkulation für
+
+
+
+
+                                                                                     Einführung
+    Leistungen der Architekten, Planer und Bauleiter an Bedeutung.
+    Mehr Sicherheit beim Kalkulieren von Honorarleistungen und bewährte
+    Methoden sind seither gefragt.
+
+
+
+
+    Die Anleitungen 1040 und 1042 'Standard Organisation für den
+    administrativen Bereich im Planungsbüro' von 1975 wurden vom SIA
+    Anfang 2005 für ungültig erklärt. Seither fehlten Hilfsmittel für das
+    Erfassen der wichtigsten Grundlagen.
+
+    Erstmals ab 2012 wurden von SIA Kennzahlen wie Gemeinkostenfaktor,
+    Produktivität usw. mit der Onlineplattform erhoben. Die gesammelten
+    Daten sind brauchbare Grundlagen für das Berechnen und Vergleichen von
+    Betriebs- und Personalkosten.
+
+
+
+
+    5.83 BBaseAuftragsverwaltung - Einführung                           Seite 7/45
+                             Warum eine Auftragsverwaltung?
+
+  Veränderte Grundlagen      Seit 2003 muss das Honorar aus kartellrechtlichen Gründen mit der
+                             'Baukosten-Zeitaufwand-Methode' berechnet werden. Mit der
+                             aufwandbestimmenden Bausumme und geeigneten Faktoren wird der
+                             Planungsaufwand in Stunden ermittelt. Multipliziert mit den Lohn- und
+                             Gemeinkosten ergibt sich die Honorarsumme.
+
+Aus Erfahrung profitieren    Für das Budgetieren der erforderlichen Leistung müssen aktuelle Aufträge
+                             bewertet und mittels Nachkalkulation als Grundlage für neue Angebote
+                             verwendet werden.
+                             Die erfassten Stunden und Spesen wären dafür eine gute Ausgangslage.
+                             Weil der Aufwand für das Aufbereiten der Daten zu gross ist, wird die
+                             Erfahrung meistens nicht genutzt.
+
+Pflichten des Arbeitgebers   Der Arbeitgeber ist gemäss arbeitsgesetzlichen Vorschriften verpflichtet,
+                             die Arbeitszeiten zu dokumentieren und Verzeichnisse, aus denen die für
+                             den Vollzug des Arbeitsgesetzes (ArG) und seiner Verordnungen
+                             erforderlichen Angaben ersichtlich sind, während fünf Jahren
+                             aufzubewahren (ArG 46 i.V.m. ArGV1 73).
+                             Die gesetzliche Dokumentationspflicht gilt für alle Arbeitsverhältnisse
+                             (auch für Kader ArGV1 9) und muss lückenlos die geleistete Arbeitszeit,
+                             inkl. Ausgleichs- und Überzeit und die Lage und Dauer der Pausen
+                             enthalten.
+
+
+
+
+                             Aus dem ArG lässt sich keine Pflicht des Arbeitgebers ableiten, die Arbeits-
+                             zeiterfassung persönlich vorzunehmen. Deshalb ist es grundsätzlich
+                             möglich, die Zeiterfassung dem Arbeitnehmer zu übertragen. Dadurch
+                             kann sich aber der Arbeitgeber seiner Verantwortung den Behörden
+                             gegenüber nicht entziehen. Er muss die Umsetzung des Arbeitszeit-
+                             reglementes kontrollieren und Verstösse sanktionieren.
+
+
+
+                             5.83 BBaseAuftragsverwaltung - Einführung                           Seite 8/45
+Nachspiel einer Rechnung    Nachdem ein Planungsbüro beim Bau der Zürcher Westumfahrung
+                            Arbeitsstunden verrechnet hat, die nie geleistet wurden, müssen alle
+                            Vertragsnehmer der Zürcher Baudirektion jederzeit sämtliche Original-
+                            stundenrapporte mit Visum der Mitarbeiter vorlegen können.
+
+             Zielsetzung    Mit einer effizienten und transparenten Auswertung der Vorgaben, des
+                            Aufwandes und der Abrechnung müssen folgende Ziele erreicht werden:
+
+                       1)   Konkurrenzfähige Honorarofferten kalkulieren
+                       2)   Leistungsorientierte Honorargestaltung
+                       3)   Wirtschaftliche Optimierung und Steuerung der Planungsprozesse
+                       4)   Sammeln von Grundlagen für die Entwicklung von Spezialitäten
+                       5)   Planen der Zukunft des Unternehmens
+
+
+
+                            Regeln der Vor- und Nachkalkulation
+
+                            Mit einigen Regeln müssen die gesammelten Informationen gegliedert und
+                            schon beim Erfassen für die Auswertung vorbereitet werden. Dabei ist zu
+                            berücksichtigen, dass die Datensammlung für zwei unterschiedliche
+                            Bereiche, nämlich mitarbeiter- oder auftragsorientierte Resultate liefert.
+
+                            Für jeden Mitarbeiter erfolgt der Vergleich mit Hilfe der Arbeitszeitstatistik.
+                            Darin sind Soll/Ist Stunden mit Auswertung von Ferienguthaben, Über-/
+                            Unterzeit, usw. aufgeführt.
+                            Die Auftragsorientierten Daten hingegen enthalten alle beteiligten
+                            Mitarbeiter. Der Vergleich erfolgt zwischen Vorgabe, Aufwand und
+                            Abrechnung über einzelne Aufträge oder das ganze Büro.
+
+    Gliederung der Daten    Die Gliederung der Daten in der Auftragsverwaltung bildet die Basis aller
+                            Auswertungen. Die entsprechende Struktur muss systematisch aufgebaut
+                            und konsequent angewendet werden. Nur so lässt sich der Arbeitsaufwand
+                            für die Administration minimal halten.
+                            Für das Sammeln der Informationen wird eine Codierung verwendet, welche
+                            das Zuordnen der Daten erleichtert und die Auswertung zielorientiert
+                            unterstützt. Die gewählte Gliederung muss alle Aspekte der Ordnung wie
+                            Profitcenter, Auftragsklassen, Auftragsnummern, Leistungspositionen,
+                            Mitarbeiterkürzel usw. berücksichtigen
+
+             Profitcenter   In der Regel wird eine Auftragsverwaltung für eine einzelne Firma
+                            eingerichtet. Es kann vorkommen, dass Aufträge mit Arbeitsgemein-
+                            schaften (Planungsteam) bearbeitet werden.
+
+                            Das Zuordnen der Aufträge in verschiedene aufgabenorientierte
+                            Teambildungen ermöglicht das Aufteilen der Kalkulation innerhalb eines
+                            Planungsbüros. Dabei wird der Aufwand von spezialisierten Abteilungen,
+                            virtuellen Unternehmen, Arbeitsgemeinschaften, usw. innerhalb der
+                            gleichen Auftragsverwaltung in Profitcentren gesammelt und getrennt
+                            ausgewertet resp. abgerechnet.
+                            Jedes Profitcenter verwaltet eigene Stammdaten wie Absender, MWSt
+                            Nummer, Rechnungsnummer, Bankverbindungen, usw.
+
+        Positionsstruktur   'Auftragsbezogener -', 'nicht auftragsbezogener Aufwand' und 'Spesen'
+                            werden mit einer speziellen Positionsstruktur erfasst, verwaltet und
+                            ausgewertet.
+
+
+
+                            5.83 BBaseAuftragsverwaltung - Einführung                             Seite 9/45
+       0.X    Die Struktur für den 'nicht auftragsbezogenen Aufwand' entspricht den
+              Regeln der Zuschlagskalkulation, welche seit 2012 beim Benchmarking von
+              SIA Anwendung findet.
+
+
+
+
+1.X bis 8.X   Für das Erfassen des 'auftragsbezogenen Aufwandes' wurden bekannte
+              Strukturen der Leistungsbeschriebe nach SIA 102 resp. SIA 105
+              berücksichtigt.
+
+
+
+
+       9.X    Die Kostenart 'Spesen' kann frei Strukturiert werden.
+
+
+
+
+              5.83 BBaseAuftragsverwaltung - Einführung                     Seite 10/45
+                Eine weit verbreitete Lösung bilden die im Anhang aufgeführten
+                Positionsstrukturen und -kategorien, welche mit Kommentaren in der
+                Auftragsverwaltung von BBase enthalten sind.
+
+  Kostenarten   Für die Risikobeurteilung sind im Architektur- und Planungsbüro drei
+                Kostenarten (Honorar, Dritte, Spesen) zu berücksichtigen. Diese
+                repräsentieren unterschiedliche Typen von Auftragsbestandteilen, welche
+                für sich überwacht werden.
+
+           H    Unter ‘Honorar’ werden alle Daten der ‘eigenen’ Leistungen erfasst, welche
+                in der Regel von Mitarbeitern (AHV Lohnempfänger inkl. Chef) erbracht
+                werden.
+                Die Kosten ergeben sich aus dem Stundenaufwand multipliziert mit
+                individuellen Stundenansätzen, welche die Selbstkosten decken.
+
+           D    'Dritte’ enthält alle Kosten für Leistungen resp. Dienste, welche von Dritten
+                ausgeführt und selbstständig abgerechnet werden. In der Regel sind dies
+                Kosten, welche zwar vom Planungsbüro bezahlt aber meistens im Angebot
+                der Gesamtkosten enthalten sind und dem Auftraggeber weiter verrechnet
+                werden können.
+
+            S   In der Kostenart ‘Spesen’ werden alle Auslagen oder Lieferungen dem
+                Auftrag belastet. Unabhängig davon, ob diese dem Auftraggeber zu
+                verrechnen sind. Typischerweise betrifft dies Nebenkosten wie Kopien,
+                Ausdrucke, Auto- oder Feldspesen.
+
+
+
+
+Buchungsarten   Mit Hilfe von verschiedenen Buchungsarten (Vorgabe, Aufwand,
+                Abrechnung) wird es möglich, konkrete Auswertungen (Chefzahlen) zu
+                berechnen.
+
+           1)   Die 'Vorgabe' (V) entspricht einer Offerte oder dem Vertrag. Die
+                eingesetzten Kosten bilden auf alle drei Kostenarten verteilt das Budget
+                und müssen jeweils um Nachträge resp. Zusatzleistungen erhöht werden.
+
+           2)   Mit 'Aufwand' (B)' werden alle Leistungen und Auslagen der verschiedenen
+                Kostenarten erfasst und dem jeweiligen Auftrag belastet. Beim Honorar
+                sind dies Stunden der Mitarbeiter mit Selbstkostenansatz. Die Leistung
+                Dritter entspricht den eingereichten Abrechnungen.
+
+           3)   Die 'Abrechnung' (A) erfolgt mit Rechnungen resp. Gutschriften und dient
+                als Grundlage für das Berechnen von angefangenen Arbeiten, Guthaben
+                und Restleistungen.
+
+
+
+
+                5.83 BBaseAuftragsverwaltung - Einführung                           Seite 11/45
+   Auftragsklassen    Zielsetzung der Auftragsklassen ist eine Aufteilung der Daten in Bereiche,
+                      welche Auswertungen von Auftragsgruppen ermöglichen.
+
+
+
+
+                      Typische Klassen bilden 'auftragsbezogener -' und 'nicht auftragsbe-
+                      zogener Aufwand'. Ausserdem können Wettbewerbe, Beratungen,
+                      Verwaltungen, Neubauten, Umbauten, usw. getrennt werden. Um einerseits
+                      Risikogruppen zu bilden oder andererseits nur eingeschränkte Positions-
+                      kategorien (Hauptgruppen) beim Buchen zu erlauben.
+
+Positionskategorien   Den Auftragsklassen können einzelne Positionskategorien (Hauptgruppen)
+                      zugeordnet werden. Dies vereinfacht das Erfassen von Leistungen
+                      (Aufwand) im persönlichen Journal, weil jeweils nur die zugeordneten
+                      Positionen beim gewählten Auftrag für Buchungen angezeigt werden.
+                      Die Positionskategorie '0' ist für die Aufträge der Klasse '0' reserviert,
+                      während die restlichen Kategorien einzeln oder kombiniert auf alle andern
+                      Klassen Anwendung finden.
+
+                      Das Auswerten der Stunden und Spesen auf verschiedenen Stufen
+                      (Profitcenter, Auftragsklassen, Teilleistungen, usw.) ermöglicht den
+                      transparenten Vergleich von Vorgabe, Aufwand und Abrechnung.
+
+
+
+
+                      5.83 BBaseAuftragsverwaltung - Einführung                          Seite 12/45
+                               Wie werden Kennzahlen ermittelt?
+
+                               Die Resultate der Betriebskostenrechnung bilden eine wichtige Grundlage
+                               für Kennzahlen der Auftragsverwaltung. Die detaillierte Beschreibung
+                               dieser Berechnungen ist nicht Bestandteil dieses Handbuches.
+
+                               Siehe Handbuch 'Kostenrechnung - Kapitel 4.6 Kennzahlen‘
+
+                               Die Honorarkosten pro Monat, die auftragsbezogene Präsenzzeit pro Monat
+                               und der Selbst-/Honorarkostenansatz pro Stunde, welche in der Betriebs-
+                               kostenrechnung ermittelt werden, bilden das Budget für die Kalkulation in
+                               der Auftragsverwaltung und werden als Vergleichswerte zur Beurteilung der
+                               Entwicklung des Geschäftes eingesetzt.
+
+Mit BBaseKostenrechnung
+      erstelltes Budget als
+         Grundlage für die
+        Kalkulation in der
+       Auftragsverwaltung
+
+
+
+
+    1) Umsatz pro Monat
+
+
+            Vollzeitstellen
+
+
+
+
+2) Präsenzzeit pro Monat
+
+
+
+
+              3) Mitteltarif
+
+
+                          1)   Der minimale monatliche Umsatz wird im Verrechnungsplan der
+                               Auftragsliste als Grundlage verwendet.
+
+                          2)   Die auftragsbezogene Leistung (Präsenzzeit) pro Monat wird als Grundlage
+                               für das Berechnen der Auslastung (Prognose) in der Auftragsliste
+                               verwendet.
+
+                          3)   Der Mitteltarif wird für das Berechnen der Stunden mit Hilfe der Vorgabe im
+                               Auszug des gewählten Auftrags verwendet.
+
+
+                               5.83 BBaseAuftragsverwaltung - Einführung                        Seite 13/45
+         Jahresumsatz     Personalaufwand und Gemeinkosten bilden die Summe der Selbstkosten.
+                          Ergänzt mit den Beträgen für Risiko und Gewinn ergeben sich die
+                          Honorarkosten und somit der benötigte Jahresumsatz.
+
+    Umsatz pro Monat      Der minimale monatliche Umsatz wird im Verrechnungsplan der Auftrags-
+                          liste als Grundlage für das Anzeigen von Abweichungen im Vergleich zum
+                          Zahlungsplan (Zukunft) oder zur Debitorenliste (Vergangenheit) kumuliert
+                          angezeigt.
+
+
+
+
+                          Vergleicht man das monatliche Budget (32'500) mit den monatlich
+                          erstellten Rechnungen (Total) werden Abweichungen sichtbar. Mit
+                          Kumulieren der einzelnen Zwischensummen wird die Tendenz über die
+                          nächsten Monate dargestellt. Wird die Tabelle mit künftigen Forderungen
+                          ergänzt sind auch die Einnahmen der Zukunft kumuliert sichtbar.
+
+           Präsenzzeit    Die auftragsbezogene Leistung (Präsenzzeit) aller Mitarbeiter pro Monat
+                          wird als Grundlage für das Berechnen der durchschnittlichen Auslastung
+                          (Prognose) in der Auftragsliste verwendet.
+
+
+
+
+                          Für das Einsatzpotential wird die Jahressollzeit mit den Vollzeitstellen
+                          multipliziert. Anschliessend werden die nicht auftragsbezogenen An- resp.
+                          Abwesenheitszeiten abgezogen.
+
+                          Die auftragsbezogene Präsenzzeit sollte im durchschnittlichen Architektur-
+                          büro mit 3 - 4 Mitarbeitern bei 60 bis 70% der Jahressollzeit liegen.
+
+persönliche Arbeitszeit   Im Journal der Mitarbeiter werden die budgetierten Werte mit der
+                          persönlichen Arbeitszeitstatistik überprüft.
+
+                          Darin sind neben den auftrags- und nicht auftragsbezogenen Zeiten auch
+                          die Abwesenheitszeit wie Ferien, Krankheit, Militär, Berufsschule usw.
+                          detailliert pro Monat aufgeführt. Auch das Ferienguthaben und die Über-/
+                          Unterzeit wird berechnet.
+
+
+
+
+                          5.83 BBaseAuftragsverwaltung - Einführung                          Seite 14/45
+                       Eine abschliessende Auswertung stimmt nur am Ende des Kalenderjahres.
+                       Im vorliegenden Beispiel wird mit 31% nicht auftragsbezogener
+                       Anwesenheit (+8.4%) vermutlich viel Sekretariatsarbeit geleistet, während
+                       bei der Abwesenheit mit 5% nur wenige Ferientage (-5.8%) berücksichtigt
+                       sind.
+
+Arbeitszeitstatistik   Die Zusammenfassung der Arbeitszeitstatistiken aller Mitarbeiter am Ende
+                       des Jahres zeigt die Resultate vergleichbar mit dem Budget.
+
+
+
+
+                       Die nicht auftragsbezogenen Anwesenheitszeit von 25% und die Abwesen-
+                       heitszeit von 12% liegen zusammen 3.6% höher als budgetiert. Dies hat zur
+                       Folge, dass die berechneten Mitteltarife 5.4% zu tief kalkuliert wurden.
+
+                       Damit vergleichbare Mitteltarife zur Verfügung stehen, sind für Auswertung
+                       am Ende des Jahres die Istzeit und allfällige Überzeitentschädigungen zu
+                       berücksichtigen,
+
+Mitteltarif statisch   Dividiert man die Selbst- resp. Honorarkosten durch die Präsenzzeit, erhält
+                       man als Resultat die Mitteltarife des Betriebes.
+
+
+
+
+                       Der Mitteltarif (Selbst- oder Honorarkostenansatz) wird im Auftragsauszug
+                       mit Hilfe der Vorgabe für das Ermitteln der Stunden verwendet.
+
+                       Liegt der Mitteltarif über Fr. 135 pro Std muss die Betriebskostenrechnung
+                       überprüft werden.
+
+
+
+
+                       5.83 BBaseAuftragsverwaltung - Einführung                         Seite 15/45
+Mitteltarif persönlich   Für jeden Mitarbeiter wird mit Hilfe der Betriebskostenrechnung der
+                         individuelle Selbstkostenansatz berechnet, welcher beim Buchen des
+                         Aufwandes im Auftrag angewendet wird.
+
+Mitteltarif dynamisch    Sobald Buchungen von Mitarbeitern mit entsprechendem Selbstkosten-
+                         ansatz vorhanden sind, wird der Mitteltarif des Auftrages durch den Durch-
+                         schnittswert der gebuchten Ansätze ersetzt. Weicht der Durchschnittswert
+                         (Fr./h) vom Mitteltarif des Betriebes ab, werden die verbleibenden Stunden
+                         (Restleistung) für den Auftrag korrigiert berechnet.
+
+
+
+
+                         Im Beispiel ergibt sich auf Grund der vorhandenen Buchungen (Aufwand)
+                         ein durchschnittlicher Selbstkostenansatz von Fr. 94 über alle Aufträge.
+                         Dieser liegt Fr. 24 tiefer als budgetiert. Die Aufträge 1 und 0 müssen
+                         kritisch überwacht werden, weil der durchschnittliche Ansatz pro Stunde
+                         über dem Betriebsmittel liegt.
+
+        Arbeitsvorrat    Der Arbeitsvorrat (Rest) kann nur mit einer Vorgabe ermittelt werden,
+                         welche grösser ist als der gebuchte Aufwand. Der Betrag des Aufwandes
+                         entspricht dem Total der gebuchten Stunden, multipliziert mit den
+                         individuellen Selbstkostenansätzen.
+
+                         Der Aufwand muss bewertet werden und wird deshalb mit dem Mehr- oder
+                         Minderwert der Leistung erhöht oder reduziert. Der bewertete Aufwand
+                         wird von der Vorgabe abgezogen. Die so ermittelte Restleistung dividiert
+                         durch den durchschnittlichen Ansatz ergibt die restlichen Stunden, welche
+                         für das Erfüllen des Auftrages geleistet werden müssen.
+
+          Auslastung     Verteilt man die restlichen Stunden auf die verbleibende Auftragszeit, kann
+                         mit Hilfe der monatlich auftragsbezogenen Präsenzzeit die Auslastung in
+                         der Auftragsliste berechnet werden.
+
+
+
+
+                         Das Beispiel zeigt für Juni und Juli eine kleine Überlastung (+13 h). Für
+                         August bis November jedoch eine Lücke (-17 h resp. -89 h). Nicht
+                         berücksichtigt werden Ferienbezüge oder andere Abwesenheitszeiten.
+
+
+                         5.83 BBaseAuftragsverwaltung - Einführung                           Seite 16/45
+Angefangene Arbeit   Die angefangenen Arbeiten entsprechen den Guthaben, welche der
+                     Differenz zwischen dem Aufwand nach Abzug der Rechnungen entspricht.
+
+
+
+
+                     Wie das Beispiel von Auftrag 1, zeigt kann ein Guthaben auch negativ sein,
+                     wenn z.B. die Rechnungsstellung der Zeit voraus eilt.
+                     Rechnungen und Guthaben können zusammen die Vorgabe nicht
+                     übersteigen. Somit ergibt ein Aufwand, welcher die Vorgabe übersteigt
+                     auch keinen Gewinn.
+
+                     Um den Ertrag sicher zu stellen, kann mit einer Gewinnrückstellung die
+                     Vorgabe reduziert werden. Dies hat zur Folge, dass der Aufwand
+                     automatisch um den Gewinn erhöht und die Restleistung reduziert wird.
+
+     offene Posten   Rechnungen für Honorare, Dritte oder Spesen werden nach dem Erfassen in
+                     der Debitorenliste, dem Verrechnungsplan und dem entsprechenden
+                     Auftrag gebucht. Nach dem Erfassen der Zahlung werden allfällige
+                     Differenzen in allen Listen nachgeführt.
+
+
+
+
+                     Mit Hilfe der offenen Posten in der Debitorenliste können fällige
+                     Rechnungen gemahnt werden. Auszüge der Debitorenliste bilden zudem
+                     die Belege für das Vverbuchen in der Finanzbuchhaltung.
+
+   Mehrwertsteuer    Als Nebenprodukt der Debitorenliste stehen periodisch Listen für das
+                     Abrechnen der Mehrwertsteuer zur Verfügung.
+
+
+
+
+                     Unterschiedliche Kennzahlen des Betriebes oder einzelner Aufträge zeigen
+                     sofort, ob Handlungsbedarf für Optimierungen besteht.
+
+
+
+
+                     5.83 BBaseAuftragsverwaltung - Einführung                        Seite 17/45
+5.83 BBaseAuftragsverwaltung - Einführung   Seite 18/45
+1.2 Welche Hilfsmittel stellt BBase zur
+    Verfügung?
+
+    Die Arbeitsmittel der Bau- und Büroadministration im Architektur- und
+    Planungsbüro wurden auf verschiedene Module von BBase aufgeteilt.
+    Mit Hilfe diverser BBaseWerkzeuge ist es in der Büroadministration möglich,
+    systematisch Auswertungen und Kennzahlen für die Vor- und
+    Nachkalkulation zu berechnen.
+
+
+    Die BBaseWerkzeuge der Auftrags- und Honorarkalkulation
+
+    Die Hilfsmittel der BBaseBüroadministration wurden auf vier
+    BBaseWerkzeuge (BBaseAuftrag, BBaseKostenrechnung, BBaseJournal und
+    BBaseHonorar) verteilt. Diese beinhalten eigenständige Bereiche für
+    Auswertungen und Kennzahlen.
+
+    Das vorliegende Handbuch beschränkt sich auf Erläuterungen zur
+    Arbeitsweise mit der BBaseAuftragsverwaltung.
+
+
+
+
+    Erklärungen zu Honorar, Kostenrechnung und Stundenerfassung werden
+    beschrieben unter:
+
+    Honorar - Offerte, Beschrieb, Vertrag und Nachweis (HO)
+    Mit BBaseHonorar werden Honorarofferten, detaillierte Leistungsbeschriebe
+    und Vertragsgrundlagen für Architekten oder Landschaftsarchitekten
+    erstellt. Grundlagen bilden die Honorarordnungen SIA 102 (2003), SIA 105
+    (2007) oder eigene Festlegungen.
+    Die Honorar- und Nebenkosten werden für die Vor- und Nachkalkulation in
+    die Auftragsverwaltung von BBase importiert und stehen auch für die
+    automatische Übernahme in den Kostenvoranschlag zur Verfügung.
+    Mit Hilfe des Leistungsnachweises und der Liste 'Akonto Zahlungen' werden
+    die Beilage für Rechnungen und die Grundlage für den Soll/Ist Vergleich
+    erstellt.
+
+
+    5.83 BBaseAuftragsverwaltung - Einführung                        Seite 19/45
+                   Kostenrechnung - Betriebskosten und Stundenansätze (KR)
+                   Mit BBaseKostenrechnung werden Personal- und Betriebskosten
+                   zusammengefasst und der Selbstkosten- resp. Honorarkostenansatz für
+                   jeden Mitarbeiter berechnet. Die Auswertungen der Arbeitsstunden und
+                   Gemeinkosten bilden die Grundlage der Zuschlagskalkulation für jedes
+                   Architektur- oder Planungsbüro.
+                   Erstmals gelten die Kennzahlen 2012 von SIA als Benchmarks. Sie passen
+                   nahtlos in die Kostenrechnung von BBase und ermöglichen eine schnelle
+                   und sichere Kalkulation.
+
+                   Journal - Stunden- und Spesenerfassung im Architekturbüro (JO)
+                   Mit BBaseJournal werden Stunden und Spesen der Mitarbeiter im
+                   Architektur- und Planungsbüro erfasst. Als Bestandteil der
+                   Auftragsverwaltung von BBase wird damit die Grundlage für die
+                   Arbeitszeitstatistik und die Auftragsauswertung erstellt. Der Aufwand für
+                   das Erstellen der Statistiken wird auf ein absolutes Minimum reduziert.
+                   BBaseJournal ist ein einfaches Werkzeug, welches auf jedem Arbeitsplatz
+                   installiert, eine effiziente Aufzeichnung des Aufwandes ermöglicht.
+
+  Schnittstellen   Die Mitarbeiter werden mit Name, Vorname, Kürzel, Eintrittsdatum und
+                   Stellenprozent für die Liste der Personalkosten aus der Auftragsverwaltung
+                   in die Kostenrechnung übernommen.
+                   Die Arbeitszeitstatistik für das Auswerten des Vorjahres kann ebenfalls aus
+                   der aktuellen Auftragsverwaltung übernommen werden.
+
+                   Die Honoraranteile (Grund- und Zusatzleistungen) der Phasen 1 - 8 inkl.
+                   Nebenkosten werden für den Vergleich des effektiven Aufwandes als
+                   Vorgaben aus BBaseHonorar in die Auftragsverwaltung importiert.
+
+
+
+                   Die BBaseDokumente der Auftragsverwaltung
+
+                   Im folgenden Bericht wird das Werkzeug 'BBaseAuftragsverwaltung‘
+                   beschrieben. Die Arbeitsmittel sind einerseits als Tabellenblätter in der
+                   Arbeitsmappe 'Auftragsliste' und andererseits in der Datenbank als
+                   'Buchungsliste' bereitgestellt. Sie enthalten zusammen alle Informationen
+                   der Auftragsverwaltung.
+
+Formularvorlage    Für das aktuelle Werkzeug werden folgende Vorlagen verwendet:
+
+                   BB9 Vorlage Auftrag.xls (Arbeitsmappe Auftragsliste)
+                   BBaseAuftrag.bbd (Datenbank Buchungsliste)
+
+
+
+
+                   5.83 BBaseAuftragsverwaltung - Einführung                         Seite 20/45
+                       Tabellenblätter der Auftragsliste (Arbeitsmappe)
+
+                       Die Auftragsliste enthält zwölf Tabellenblätter:
+                       Neben der eigentlichen Liste der Aufträge stehen einige Tabellen für
+                       Grundlagen, die Auswertungen und das Rechnungswesen zur Verfügung.
+
+                         Projekt-
+                        verwaltung          Grundlage              Struktur
+                                            Kalkulation        Profitcenter
+                           Bauherr          Rechnungs-          Klassen
+                        Informationen         wesen            Positionen
+                         Kennzahlen          Inkasso              Texte
+                         Kostenindex
+                                                                                      Auftragsliste
+                        Buchungs-                                                               Notizen
+                                               Liste               Auszug       Budget
+                           liste
+                                                                Honorar       Verrechnungs-       Leere
+                         Datenbank          Auftragsliste        Dritte        + Zahlungs-       Tabelle
+                         Auswertung          Vorgabe            Spesen             plan
+                          Sortieren          Aufwand           Auswertung
+                           Filtern          Abrechnung
+
+
+
+
+       Buchungsliste
+                          Journal
+                                            Personal           Debitoren       Rechnung         Inkasso
+                         Mitarbeiter
+                                              Kürzel             Offene-        Honorar          Konto-
+                         Datenbank            Name              + Fällige        AKonto          auszug
+                          Stunden             Eintritt         Rechnungen        Spesen        2.Mahnung
+                          Spesen              Austritt           MWSt          Abrechnung      3.Mahnung
+
+
+
+
+Grundlage              Grundsätzliche Optionen und Vorgaben der Auftragskalkulation werden im
+                       Tabellenblatt 'Grundlage' angepasst. Dies betrifft neben dem gültigen
+                       Mitteltarif, Monatszeit und -umsatz auch die Art der Rechnungsnummer,
+                       den Mehrwertsteuersatz, die Zahlungskonditionen sowie zeitliche Kriterien
+                       des Inkassowesens.
+
+ Struktur              Profitcenter, Auftragsklassen, Kategorien und Positionsstruktur bilden die
+                       Grundlage für das geordnete Sammeln der Daten und werden jeweils an die
+                       individuellen Bedürfnisse des Unternehmens angepasst. Für den Einsteiger
+                       steht auf dem Tabellenblatt 'Struktur' die Phasen der LHO SIA 102 resp.
+                       105 zur Verfügung.
+
+ Personal              Jeder Mitarbeiter wird mit Name, Kürzel, Ein-/Austritt, Stellenprozent,
+                       Sollzeit, Selbstkostenansatz (Intern) und Honorarkostenansatz (Extern) im
+                       Tabellenblatt 'Personal' erfasst. Dies bildet die Grundlage für die Vor- und
+                       Nachkalkulation der Aufträge. Mit Hilfe der persönlichen Journale werden
+                       die Daten gesammelt und die Auswertung der Arbeitszeitstatistik
+                       individuell zusammengestellt.
+
+    Liste              Alle Aufträge werden im Tabellenblatt 'Liste' der Auftragsliste erfasst und
+                       ausgewertet. Neben den allgemeinen Daten wie Auftragsnummer,
+                       Bezeichnung und Auftraggeber werden darin alle Summen der Kostenarten
+                       Honorar (H), Dritte (D) resp. Spesen (S) und die Vorgaben (V) mit dem
+                       Aufwand (B) und der Abrechnung (A) verglichen. Die Tabelle kann mit
+                       diversen Rezepturen als Vorgabe-, Ertrags- oder Auslastungsliste
+                       dargestellt werden.
+
+  Auszug               Die übersichtliche Zusammenfassung eines einzelnen Auftrags wird im
+                       Tabellenblatt 'Auszug' der Auftragsliste dargestellt. Dabei werden neben
+                       Stunden und Selbstkostensätzen der Mitarbeiter auch Vergleiche von
+
+
+
+                       5.83 BBaseAuftragsverwaltung - Einführung                              Seite 21/45
+                  Vorgabe, Aufwand und Abrechnung unter Berücksichtigung von
+                  Gewinnrückstellungen und Bewertungen berechnet.
+
+        Budget    Im Tabellenblatt 'Budget‘ der Auftragsliste wird der Zahlungs- resp.
+                  Verrechnungsplan geführt. Die Liste kann für das aktuelle Kalenderjahr, die
+                  nächsten 12 oder für 24 Monate dargestellt werden. Die Totalbeträge pro
+                  Monat werden im Vergleich zum Umsatzziel kumuliert.
+
+     Debitoren    Die Zahlungskontrolle erfolgt im Tabellenblatt 'Debitoren‘ mit der
+                  Debitorenliste (Liste aller Rechnungen). Die Liste kann für die Auswertung
+                  der 'offenen Posten', Mehrwertsteuer, Monats- oder Quartalsumsatz, usw.
+                  gefiltert und verschieden dargestellt werden.
+
+     Rechnung     Rechnungen können aus dem Verrechnungsplan oder direkt im
+                  Tabellenblatt 'Rechnung‘ der Auftragsliste erfasst werden. Mit Hilfe
+                  verschiedener Vorlagen für Honorar-, Dritt- und Spesenrechnungen kann
+                  der Inhalt der Rechnung standardisiert werden.
+
+  Inkasso 1 - 3   Für fällige Rechnungen können mit Hilfe des Fälligkeitsdatums
+                  verschiedene Briefe (1. Kontoauszüge, 2. + 3. Mahnung) erstellt und
+                  gedruckt werden
+
+       Notizen    Das Tabellenblatt 'Notizen' enthält eine leere Excel Tabelle für individuelle
+                  Bedürfnisse.
+
+Eigene Tabellen   BBaseDokumente können durch eigene Tabellen des Benutzers ergänzt
+                  werden. So ist es möglich, sämtliche Daten in das Dokument zu
+                  integrieren, die für das Honorar massgebend sind.
+
+
+
+                  Inhalt der Buchungsliste (Datenbank)
+
+                  Alle Buchungen sämtlicher Kostenarten (Honorar, Dritte, Spesen) resp.
+                  Buchungsarten (Vorgabe, Aufwand, Abrechnung) werden in der
+                  Buchungsliste, einer Datenbank gesammelt. Darin können Buchungen
+                  erfasst, bearbeitet, ausgewertet oder gelöscht werden.
+                  Für die Darstellung der Auswertungen können in der Buchungsliste Spalten
+                  ein-/ausgeblendet, Teilbereiche gegliedert und mit Zwischentotalen
+                  gedruckt werden. Mit Sortieren und Filtern ist beinahe jede Art der
+                  Zusammenfassung möglich.
+                  Spezielle Stundenauswertungen können mit vorbereiteten Rezepturen
+                  auftrags- oder personalbezogen erstellt und berechnet werden.
+
+
+
+
+                  5.83 BBaseAuftragsverwaltung - Einführung                            Seite 22/45
+                     5 Anhang
+                            Einige Informationsquellen sind im Literaturverzeichnis aufgeführt und
+                            enthalten zusammen mit dem gedruckten Beispiel grundlegende
+                            Hinweise zur Betriebskostenrechnung.
+
+
+
+                   5.1 Quellen und Literaturverzeichnis
+                                                                                                          5
+                            BBaseAuftragsverwaltung entspricht in weiten Teilen den Grundlagen des
+                            SIA. Das vorliegende Programm orientiert sich unter anderem an den
+                            entsprechenden Unterlagen.
+
+
+                                                                                                          Anhang
+Handbuch für Architekten    Vom Auftragsablauf bis zur Kostenrechnung
+                            Verlag Niggli AG, Sulgen ISBN 3-7212-0503-0
+
+               Leitfaden    Kostenrechnung und Kalkulation für Praktiker
+                            Cosmos Verlag AG, Muri ISBN 3-85621-126-8
+
+      Das Dilbert Prinzip   Die endgültige Wahrheit über Chefs, Konferenzen und Manager
+                            Moderne Industrie, München, ISBN 3-636-01274-6
+
+    SIA, CH-8040 Zürich     SIA 102 (2003) Ordnung für Leistungen und Honorar
+                            der Architekten SN 508 102
+                            SIA 1041 (2003) Kontenplan, Kontierungsanleitung
+                            SIA 105 (2007) Ordnung für Leistungen und Honorar
+                            der Landschaftsarchitekten SN 508 105
+
+                            SIA D 0233 (2009) Lohnerhebung 2009
+                            SIA D 0218 (2006) Ermittlung der Gemeinkosten und Arbeitsstunden 2005
+                            SIA (2013) Factsheet Kennzahlenerhebung 2012
+
+                 Internet   www.benchmarking.sia.ch - Kennzahlenerhebung
+                            www.centrepatronal.ch - Centre Patronal
+                            www.kmu.admin.ch - KMU-Portal des Staatsekretariates für
+                            Wirtschaft SECO
+                            www.bbl.admin.ch/kbob - Leitfaden für Beschaffung von Leistungen im
+                            Planerbereich, Empfehlung 2010
+                            www.bbase.ch - Werkzeug der Planungs- und Architekturbüros
+
+
+
+
+                            5.83 BBaseAuftragsverwaltung - Anhang                           Seite 23/45
+                    5.2 Begriffe und Abkürzungen
+
+                         A    Siehe auch 'Buchungsart‘.
+
+        Abwesenheitszeit      Nicht auftragsbezogene Abwesenheitszeit, z.B. Ferien, Pers. Freitage,
+                              Krankheit, Unfall, Arzt, Militär, Zivilschutz, öffentliche Ämter, Berufsschule
+                              der Lehrlinge usw.
+
+              Abrechnung      Abrechnung (Rechnung) für aktuelle Kostenart.
+
+        Anwesenheitszeit      Siehe auch 'nicht auftragsbezogene Präsenzzeit‘.
+
+       Arbeitszeitstatistik   Mit der Arbeitszeit- oder Arbeitsstundenstatistik wird die auftragsbe-
+                              zogene Präsenzzeit ermittelt. Dazu werden von der Jahressollzeit die
+                              Absenzen (nicht auftragsbezogene Abwesenheitszeit) und die nicht
+                              auftragsbezogene Präsenzzeit abgezogen.
+
+                   Auftrag    Siehe auch 'Auftragsnummer‘.
+                              Abgeschlossene Datensammlung des aktuellen Auftrages.
+
+        Auftragsbezogene      Entspricht der Sollzeit ohne Anteile der nicht auftragsbezogenen
+              Präsenzzeit     Abwesenheits-/Präsenzzeit.
+
+           Auftragsklasse     Gruppierung von Aufträgen (Klassen), welche gemeinsam ausgewertet
+                              werden sollen (Z.B. Umbauten, Wettbewerbe, Neubauten, Beratungen).
+
+         Auftragsnummer       Durchgängige Nummerierung der einzelnen Aufträge.
+                              Jeder Auftrag wird durch seine Auftragsnummer eindeutig gekennzeichnet.
+                              Diese Eingabe ist deshalb beim Gründen eines Auftrages notwendig und
+                              muss ein 'Unikat' sein. Nachträglich kann diese Nummer nicht mehr
+                              geändert werden. Die Auftragsnummer kann alphanumerisch sein.
+
+                 Aufwand      Leistung (Stunden, Spesen) für die aktuelle Kostenart.
+
+                         B    Siehe auch 'Leistung‘.
+
+                   Beginn     Siehe auch 'Ende‘.
+                              Termin für den Beginn des aktuellen Auftrages.
+
+besonders zu vereinbarend     Besonders zu vereinbarende Leistungen können zu den Grundleistungen
+                              hinzutreten, wenn die Art der Aufgabe dies erfordert oder wenn sie der
+                              Auftraggeber wünscht. Sie sind in Art. 4 der LHO SIA 102 nicht
+                              abschliessend aufgeführt. Die Ausführung von besonders zu
+                              vereinbarenden Leistungen ist vorgängig und im gegenseitigen
+                              Einverständnis gemeinsam festzulegen.
+
+               Bruttolohn     Siehe auch 'Lohnaufwand‘.
+
+                Brutto TG     Siehe auch 'Skonto‘.
+
+                 Buchung      Siehe auch 'Leistung‘.
+
+             Buchungsart      Buchungsart der aktuellen Buchung.
+                              V = Vorgabe, B = Leistung, A= Abrechnung
+
+
+                              5.83 BBaseAuftragsverwaltung - Anhang                                Seite 24/45
+              Code     Kurzbezeichnung für Kosten- resp. Buchungsart.
+                       HV = Honorar Vorgabe, HB = Honorar Leistung, HA = Honorar Abrechnung
+                       DV = Dritte Vorgabe, DB = Dritte Leistung, DA = Dritte Abrechnung
+                       SV = Spesen Vorgabe, SB = Spesen Leistung, SA = Spesen Abrechnung
+
+          Debitoren    Liste aller offenen Rechnungen für die Zahlungskontrolle.
+
+                  E    Siehe auch 'Ertrag‘.
+
+              Ende     Siehe auch 'Beginn‘.
+                       Termin für das Ende des aktuellen Auftrages. Im Register Auslastung
+                       werden die restlichen Leistungen zum eingesetzten Endtermin (Ende)
+                       interpoliert dargestellt.
+
+             Ertrag    Differenz zwischen gebuchter Abrechnung (A) und Leistung (B) unter
+                       Berücksichtigung des Leistungsnachweises.
+
+      Gemeinkosten     Betriebskosten ohne Personalaufwand, Risiko und Gewinn.
+
+    Grundleistungen    Die Leistungen, die normalerweise in den einzelnen Phasen erbracht
+                       werden müssen, sind in Art. 4 der LHO SIA 102 detailliert dargestellt. Die
+                       Leistungen der Phasen 3 bis 5 gliedern sich gemäss Art. 4 in
+                       Grundleistungen und besonders zu vereinbarende Leistungen. In den
+                       Phasen 1, 2 und 6 sind infolge der aufgabenspezifischen Unterschiede
+                       keine Grundleistungen enthalten.
+
+          Guthaben     Leistung - Abrechnung = Guthaben
+                       Differenz zwischen gebuchten Leistungen (B) und Abrechnungen (A).
+
+     Honorarkosten     Betriebskosten inkl. Personalaufwand, Risiko und Gewinn.
+
+Honorarkostenansatz    Der Honorarkostenansatz entspricht dem minimalen Stundenansatz,
+                       welcher die Selbstkosten, das budgetierte Risiko und den erwarteten
+                       Gewinn deckt.
+                       Honorarkostenansatz = Honorarkosten / auftragsbezogene Präsenzzeit
+
+             Istzeit   Entspricht der tatsächlichen Arbeitszeit unter Berücksichtigung der Unter-
+                       und Überzeit.
+
+            Journal    Stunden- und Spesenliste für persönliche Buchungen der Mitarbeiter.
+
+                  K    Siehe auch 'Auftragsklasse‘.
+
+             Klasse    Siehe auch 'Auftragsklasse‘.
+
+        Klassierung    Siehe auch 'Auftragsklasse‘.
+
+          Kostenart    Kostenart der aktuellen Buchung im Auftrag.
+                       Honorar (H) = interne Leistungen
+                       Dritte (D)= externe Leistung
+                       Spesen (S) = Auslagen
+
+             Kürzel    Kurzbezeichnung des Mitarbeiters.
+                       z.B. 1. Buchstabe Vorname und 2.+3. Buchstabe des Nachnamens.
+
+
+
+                       5.83 BBaseAuftragsverwaltung - Anhang                              Seite 25/45
+               Leistung    Aufwand (Stunden, Spesen) für die aktuelle Kostenart.
+
+          Lohnaufwand      AHV pflichtige Lohnsumme, inkl. 13. Monatslohn, Gratifikation, usw.
+
+                  MWSt     Abkürzung für 'Mehrwertsteuer‘.
+
+               Netto TG    Siehe auch 'Skonto‘.
+
+nicht auftragsbezogene     Nicht auftragsbezogene Anwesenheitszeit, z.B. Weiterbildung, Werbung
+            Präsenzzeit    und Akquisition, Führung, EDV Betrieb, übrige für Verwaltung,
+                           Rechnungswesen usw.
+
+                PCenter    Siehe auch 'Profitcenter‘.
+
+                 PCode     Siehe auch 'Kürzel‘.
+
+       Personalaufwand     Entspricht der Summe von Lohnaufwand, Sozialleistungen und übrigen
+                           Personalkosten.
+
+                + (Plus)   Markierung der Tarif A Buchungen, nachdem diese abgerechnet (Rapport
+                           erstellt) sind.
+
+                    Pos    Position siehe auch 'Positionsstruktur‘.
+
+     Positionskategorie    Siehe auch 'Positionsstruktur‘.
+                           Einstellige Nummerierung der Positionen (Hauptgruppen) von 0 - 9.
+
+       Positionsstruktur   Durchgängige dreistellige Nummerierung aller Leistungen (0.11 - 9.99).
+
+            Präsenzzeit    Auftragsbezogen oder nicht Auftragsbezogen
+
+            Profitcenter   Bezeichnung für die zusammenfassende Auswertung von speziellen
+                           Aufträgen, z.B. Abteilung einer Firma, Büro- oder Arbeitsgemeinschaften.
+
+Qualifikationskategorien   Der Architekt und seine Mitarbeiter werden in sieben von A bis G
+                           bezeichnete Qualifikationskategorien eingeteilt. Die jeder Funktion
+                           zugeordneten Stufen 1 bis 3 ermöglichen es, das Können und die
+                           Erfahrung für das Festlegen des Honoraransatzes zu berücksichtigen.
+                           Für die Einstufung in die Qualifikationskategorien ist die Funktion des
+                           Architekten und der eingesetzten Mitarbeiter im Rahmen des Auftrages
+                           massgebend, nicht aber ihre Stellung in der Firma.
+
+                      R    Siehe auch 'Restleistung‘.
+
+     Rechnungsnummer       Die Rechnungsnummer kann mit verschiedenen Zusätzen zusammen-
+                           gestellt werden. Sie kann alphanumerisch sein.
+
+           Restleistung    Differenz zwischen gebuchter Vorgabe (V) und Leistung (B) unter
+                           Berücksichtigung von Prognosen und Abgrenzungen.
+                           Vorgabe - Leistung = Restleistung
+
+           Selbstkosten    Betriebskosten inkl. Personalaufwand, jedoch ohne Risiko und Gewinn.
+
+     Selbstkostenansatz    Der Selbstkostenansatz entspricht dem minimalen Stundenansatz, welcher
+                           die Selbstkosten deckt.
+                           Selbstkostenansatz = Selbstkosten / auftragsbezogene Präsenzzeit
+
+
+                           5.83 BBaseAuftragsverwaltung - Anhang                             Seite 26/45
+             Skonto     Möglicher Abzug (%) wenn innerhalb der Zahlungsfrist (Brutto TG resp.
+                        Skonto TG) bezahlt wird.
+
+             Sollzeit   Die Sollzeit pro Tag, Woche, Monat oder Jahr entspricht der minimalen
+                        Arbeitszeit und wird mit Hilfe der Stunden pro Tag unter Berücksichtigung
+                        von lokalen Feiertagen berechnet. Sie ist deshalb in jedem Kanton anders
+                        geregelt.
+
+     Stellenprozent     Siehe auch 'Vollzeitstelle‘.
+
+                  Ta    Siehe auch 'Tarif‘.
+
+               Tarif    Tarif der aktuellen Buchung. Wird im Rapport berücksichtigt.
+                        A = direkt verrechenbar
+                        A+ = direkt verrechenbar visiert (wird in Rapport übernommen und einge-
+                        rechnet)
+                        A- = direkt verrechenbar visiert (wird in Rapport übernommen und nicht
+                        angerechnet)
+                        B = indirekt verrechenbar
+                        B+ = indirekt verrechenbar visiert (wird nicht in Rapport übernommen)
+
+                   V    Siehe auch 'Vorgabe‘.
+
+  Verrechnungsplan      Liste aller Beträge des Zahlungsplanes (rot) und der gebuchten Rechnungen
+                        (schwarz) welche aus der Debitorenliste übernommen wurden.
+
+       Vollzeitstelle   Entspricht 100 Stellenprozenten und deshalb auch 100 Prozent der
+                        Jahressollzeit. Die Summe der Vollzeitstellen entspricht der Summe der
+                        Stellenprozente aller Mitarbeiter.
+
+           Vorgabe      Vorgabe (Budget, Offerte) für aktuelle Kostenart
+
+            Zahlbar     Siehe auch 'Skonto‘.
+                        Zahlungsfrist nach welcher kein Skonto Abzug gemacht werden darf.
+
+zusätzliche Leistung    Siehe auch 'besonders zu vereinbarende Leistungen'.
+
+      Zahlungsplan      Liste aller Beträge der künftigen Zahlungen im Tabellenblatt 'Budget‘.
+
+
+
+
+                        5.83 BBaseAuftragsverwaltung - Anhang                              Seite 27/45
+5.3 Beispiele der Auftragsverwaltung
+    Die folgenden Seiten zeigen die gedruckte Version des beschriebenen
+    Beispiels in Originalgrösse. Dabei werden die Tabellen der
+    Auftragsverwaltung mit einigen Auswertung ergänzt dargestellt.
+
+
+
+
+    5.83 BBaseAuftragsverwaltung - Anhang                          Seite 28/45
+                     ARGE Beispiel AG , 8617 Mönchaltorf                                                       +41 44 948 12 14
+Profitcenter und Auftragsklassen
+Positionsstruktur Minimal
+
+
+
+
+                      Profitcenter
+                      Kürzel       Bezeichnung                 Adresse
+
+                      TUm          Totalunternehmer            ARGE Oberdorf, Usterstrasse 12, 8617 Mönchaltorf
+                      Arc          Architektur                 ARGE Beispiel AG, Usterstrasse 12, 8617 Mönchaltorf
+
+                      Auftragsklassierung
+                      Klass.       Bezeichnung                 Erlaubte Positionskategorien (grün)
+
+                      0            nicht Auftragsbezogen         0!                                  9!
+                      1            Neubau                             1! 2! 3! 4! 5! 6! 7! 8! 9!
+                      2            Umbau                              1! 2! 3! 4! 5! 6! 7! 8! 9!
+                      3            Wettbewerb                         1! 2! 3! 4! 5! 6! 7! 8! 9!
+                      4            Beratungen                         1! 2! 3! 4! 5! 6! 7! 8! 9!
+                      5            Liegenschaftsverwaltung            1! 2! 3! 4! 5! 6! 7! 8! 9!
+                      6                                               1! 2! 3! 4! 5! 6! 7! 8! 9!
+                      7                                               1! 2! 3! 4! 5! 6! 7! 8! 9!
+                      8                                               1! 2! 3! 4! 5! 6! 7! 8! 9!
+                      9                                               1! 2! 3! 4! 5! 6! 7! 8! 9!
+
+
+                      Positionsstruktur
+                      Nr.          Bezeichnung                 Erläuterung / Info
+
+                      0            nicht Auftragsbezogen       nicht auftragsbezogene Anwesenheits- und Abwesenheitszeit
+                      0.1          Weiterbildung               Interne und Externe Weiterbildung
+                      0.2          Interne Arbeiten            nicht auftragsbezogene interne Arbeiten
+                      0.3          Führung                     Vorbereitung, Besprechung, Begleitung
+                      0.4          Ferien
+                      0.5          Persönliche Freitage        Heirat, Geburt, Todesfall, Umzug
+                      0.6          Krank, Unfall, Arzt         Krankheit, Unfall, Arztbesuche, Zahnarzt
+                      0.7          Militär, Zivilschutz
+                      0.8          Schule                      Schule allgemein, Berufsschule. Lehrgänge
+                      0.9          Übrige Abwesenheit          Übrige Abwesenheitszeit, öffentliche Ämter, Berufsverbände
+                      1            Strategische Planung        Bedürfnisformulierung, Lösungsstrategien
+                      2            Vorstudien                  Definition, Machbarkeit, Auswahlverfahren
+                      3            Projektierung               Vorprojekt, Bauprojekt, Bewilligungsverfahren
+                      4            Ausschreibung               Pläne, Ausschreibung, Vergabe
+                      5            Realisierung                Ausführungsplanung, Ausführung, Inbetriebnahme, Abschluss
+                      6            Bewirtschaftung             Betrieb, Erhaltung
+                      7            Reserve
+                      8            Reserve
+                      9            Spesen und Auslagen         Kopien, Dokumentation, Spesen, Verpflegung, Vermietung
+
+
+
+
+                     Auftragsliste.xls - 19.09.13                                                                           Seite 1
+
+
+                    5.83 BBaseAuftragsverwaltung - Beispiele                                                           Seite 29/45
+ARGE Beispiel AG , 8617 Mönchaltorf                                                                   +41 44 948 12 14
+Positionsstruktur Standard
+
+
+
+
+ Positionsstruktur
+Nr.                Bezeichnung                     Erläuterung / Info
+
+0                  nicht Auftragsbezogen           nicht auftragsbezogene Anwesenheits- und Abwesenheitszeit
+0.1                Weiterbildung                   Interne und Externe Weiterbildung
+0.11               Weiterbildung (extern)          Kurse und Schulung extern (durch Dritte)
+0.12               Weiterbildung (intern)          Kurse und Schulung intern
+0.13               Ausbildung (intern)             Leitung der Ausbildung intern
+0.2                Interne Arbeiten                nicht auftragsbezogene interne Arbeiten
+0.21               Allgemeine Verwaltung           Büromaterial, Unterhalt, Telefonbedienung, Post, Archivierung
+0.22               Personalwesen                   Anstellung, Gespräche, Ausbildung Lehrlinge, Betriebsanlässe
+0.23               Rapportwesen                    Internes Rapportwesen, Journalführung, Journalabrechnung
+0.24               Rechnungswesen                  Buchführung, Lohnwesen, Kreditoren, Debitoren, Jahresabschluss
+0.25               Auftragswesen                   Vor- und Nachkalkulation, Auftragsverwaltung
+0.26               Werbung Akquisition             Akquisition, Repräsentation, Inserate, Drucksachen, Bewerbungen
+0.27               EDV Betrieb                     Wartung der EDV, Sicherheitskopien
+0.28               Pausen                          Kafi, Znüni, Zvieri
+0.29               Übrige Anwesenheit              Diverse nicht zugeordnete Büroarbeiten
+0.3                Führung                         Vorbereitung, Besprechung, Begleitung
+0.4                Ferien
+0.5                Persönliche Freitage            Heirat, Geburt, Todesfall, Umzug, usf.
+0.6                Krankheit, Unfall, Arzt         Krankheit, Unfall, Arztbesuche, Zahnarzt
+0.7                Militär, Zivilschutz
+0.8                Schule                          Schule allgemein, Berufsschule. Lehrgänge
+0.81               Berufsschule                    Berufsschule, Berufsmatur für Lehrlinge
+0.82               Lehrgänge                       Absolventen von HTL, HWV, usf.
+0.9                Übrige Abwesenheit              Übrige Abwesenheitszeit, öffentliche Ämter, Berufsverbände
+
+1                  Strategische Planung            Bedürfnisformulierung, Lösungsstrategien
+1.1                Bedürfnisse, Lösungen           Unterlagen Beschaffen, Bericht, Kosten, Termine
+
+2                  Vorstudien                      Definition, Machbarkeit, Auswahlverfahren
+2.1                Definition, Machbarkeit         Beschrieb Anforderungen, Analysen, Kosten, Termine
+2.2                Auswahlverfahren                Vorbereitung Wettbewerb, Auswahlverfahren, Kosten, Termine
+
+3                  Projektierung                  Vorprojekt, Bauprojekt, Bewilligungsverfahren
+3.1                Vorprojekt                     Studie, Grobkostenschätzung, Vorprojekt, Kostenschätzung, Termine
+3.2                Bauprojekt                     Bauprojekt, Detailstudien, Kostenvoranschlag, Termine
+3.3                Bewilligungsverfahren          Bewilligungsverfahren, Verhandlungen Behörden, Kosten, Termine
+3.9                Zusatzleistungen Projektierung In Grundleistungen nicht enthalten, besonders zu Vereinbaren
+
+4                  Auschreibung                  Pläne, Ausschreibung, Vergabe
+4.1                Ausschreibung, Vergabe        Ausschreibungspläne, Ausschreibung, Vergabe, Kosten, Termine
+4.9                Zusatzleistungen AusschreibungIn Grundleistungen nicht enthalten, besonders zu Vereinbaren
+
+5                  Realisierung                    Ausführungsplanung, Ausführung, Inbetriebnahme, Abschluss
+5.1                Ausführungsplanung              Ausführungspläne, Werkverträge, Kosten, Termine
+5.2                Ausführung                      Gestalterische Leitung, Bauleitung, Kostenkontrolle, Termine
+5.3                Inbetrieb, Abschluss            Inbetriebnahme, Dokumentation, Garantie, Schlussabrechnung
+5.9                Zusatzleistungen Realisierung   In Grundleistungen nicht enthalten, besonders zu Vereinbaren
+
+6                  Bewirtschaftung                 Betrieb, Erhaltung
+6.1                Betrieb                         Organisation, Überwachung, Kosten, Termine
+6.2                Erhaltung                       Bewirtschaftung- Überwachungs- und Instandhaltungsplan, Budget
+
+7                  Vermietung, Verkauf
+
+
+Auftragsliste.xls - 19.09.13                                                                                       Seite 1
+
+
+5.83 BBaseAuftragsverwaltung - Beispiele                                                                        Seite 30/45
+ARGE Beispiel AG , 8617 Mönchaltorf                                                             +41 44 948 12 14
+
+
+Nr.       Bezeichnung                      Erläuterung / Info
+
+
+8         Reserve
+
+9         Spesen und Auslagen              Kopien, Dokumentation, Spesen, Verpflegung, Vermietung
+9.1       Kopien                           Kopien allg. alle Formate
+9.11      Kopien A4 sw                     A4 Kopie, einseitig, schwarz weiss
+9.12      Kopien A4 f                      A4 Kopie, einseitig, farbig
+9.13      Kopien A3 sw                     A3 Kopie, einseitig, schwarz weiss
+9.14      Kopien A3 f                      A3 Kopie, einseitig, farbig
+9.15      Kopien A2 f                      A2 Kopie, einseitig, farbig
+9.16      Kopien A1 f                      A1 Kopie, einseitig, farbig
+9.17      Kopien A0 f                      A0 Kopie, einseitig, farbig
+9.18      Planplot f                       Planplot farbig
+9.19      Übrige Kopien                    Diverse Kopien
+9.2       Reserve
+9.3       Lichtpausen/Planplot             Drittleistung von Kopien werden im Tarif der Lieferfirma verrechnet.
+9.4       Dokumentationen                  auf Anfrage
+9.41      Spiralbindungen klein            Bindung 6 mm mit Deckfolie und Kartonrücken
+9.42      Spiralbindungen mittel           Bindung 12 mm mit Deckfolie und Kartonrücken
+9.43      Spiralbindungen gross            Bindung 19 mm mit Deckfolie und Kartonrücken
+9.44      Dokumentationen                  auf Anfrage
+9.5       Transport                        Keine Verrechnung innerhalb der Gemeinde
+9.51      Autospesen, Geschäftswagen
+9.52      Autospesen, Privatwagen
+9.53      Öffentliche Verkehrsmittel       im Aufwand
+9.6       Verpflegung,Übernachten          im Aufwand
+9.61      Morgenessen                      im Aufwand
+9.62      Mittagessen                      im Aufwand
+9.63      Nachtessen                       im Aufwand
+9.64      Übernachtung                     im Aufwand
+9.7       Reserve
+9.8       Vermietung                       im Aufwand
+9.81      EDV Anlage für CAD/Bauad.        Die EDV Anlagen sind in der Regel im Stundenansatz eingerechnet
+9.82      Video Projektor                  pro Installation
+9.9       Diverse Auslagen                 im Aufwand
+9.91      Porto, Couvert, Etiketten        Verrechnung bei Grossversand
+
+
+
+
+Auftragsliste.xls - 19.09.13                                                                               Seite 2
+5.83 BBaseAuftragsverwaltung - Beispiele                                                                Seite 31/45
+Mitarbeiterliste
+
+    Mitarbeiterliste Ganzes Jahr 2013
+  Personaldaten                                                                                         Ansätze
+
+  PCode     Name                    Proz             Eintritt                   Austritt                       Mitteltarif Extern
+                                                                                                                Intern                          Aufträge
+PCode      Name                       Proz                       Eintritt                  Austritt   Intern             Mitteltarif
+                                                                                                                              Extern          Aufträge
+
+
+
+
+  HMu       Hans Muster             100              01.12.90                                                   130.00
+                                                                                                                130.00                 145.00 1-099, 2-913, 4-599, 5-199, 5-399, 5-699, 0
+  MMu       Maria Muster             80              01.07.92                                                   130.00
+                                                                                                                 80.00                  90.00 2-913, 4-599, 5-199, 5-699, 0-013,
+  Beispiel AG,
+  BBB          8617
+            Bruno   Mönchaltorf
+                  BBase             100              01.08.13                                                   130.00
+                                                                                                                 90.00                 100.00 0-013, 4-599, 5-199, 5-699,
+Arbeitszeitstatistik
+
+  Arbeitszeitstatistik 2013                                     Hans Muster (HMu)                                                            Visum:
+
+
+  Nr.   Bezeichnung                           Std      ø% Jan Feb März Apr Mai Juni Juli Aug Sept Okt Nov Dez
+
+
+  Auswertung Auftragsbezogen
+  1     Beratungen                             45      2%                                                       45
+  2     Liegenschaftsverwaltung                22      1%                   8              4                     3                                                        6       1
+  3     Wettbewerb
+  4     Umbau
+  5     Neubau                               1'194   58% 111 145                           4 122                      47 100 102                         58 139 154 137          75
+
+        Total Auftragsbezogen                1'260   62% 119 145                           8 170                      47 100 102                         58 139 154 143          76
+
+
+  Auswertung nicht Auftragsbezogen
+  0.1   Weiterbildung                          69     3%         4                1     8                       16     8                      4               16         8        4
+  0.2   Interne Arbeiten                      424    21%        71                     50                       29    53                36   55          71   16   20   16        6
+  0.3   Führung                                 9     0%                                                                                                       5    4
+
+        Anwesenheitszeit                      501    25%        75                1    58                       45    61                36   59          71   37   24   24       10
+
+  0.4   Ferien                                176      9%                              48                             48                24   24          24                       8
+  0.5   Persönliche Freitage                   24      1%                              16                                                                 8
+  0.6   Krankheit, Unfall, Arzt                41      2%                        25    16
+  0.7   Militär, Zivilschutz                   40      2%                              24                                                                16
+  0.8   Schule
+  0.9   Übrige Abwesenheit
+
+        Abwesenheitszeit                      281    14%                         25 104                               48                24   24          48                       8
+
+        Total nicht Auftragsbezogen           782    38%        75               26 162                         45 109                  60   83 119           37   24   24       18
+
+
+  Auswertung Sollzeit
+  11 Vortrag Vorjahr [Std]
+  0-9 Leistung [Std]                         2'043 103% 194 171 170 215 156 160 185 177 176 178 167 94
+  12 Sollzeit [Std]                          1'974      160 160 159 168 159 160 184 168 168 184 160 144
+
+        Abweichung/Differenz                   69      3%       34               11    11                       47    -3                 0    1          9    8    -6     7 -50
+        Buchungen mit ?                         0
+
+
+  Auswertung Ferien
+11 Vortrag Vorjahr [Std]               16
+12 Guthaben laufendes Jahr [Std] 160
+©PMS Informatik
+0.4 GebuchteAG -   CH 8617 Mönchaltorf -
+                Ferien               176 Auftragsliste.xls Personal
+                                                                 48- 18.12.1348                                                         24   24          24                   Seite8 1
+
+        Rest Ferien [Std]                        0
+        Rest Ferientage [Tg]                   0.0
+5.83 BBaseAuftragsverwaltung - Beispiele                                                                                                                                Seite 32/45
+Auftragsliste
+
+     Auftragsliste
+  Bezeichnung                                                              Kunde                                   Konditionen                                                                  Termine
+
+  Auftrag     PCenter K B A Name                                           K Name                                      Zahlbar
+                                                                                                                       Rabatt
+                                                                                                                           Skonto
+                                                                                                                               TG TG Skonto                                                                  Beginn                        Ende
+
+Auftrag     PCenter           K   B   A Name                             K Name                                                  Rabatt   Zahlbar TG             Skonto TG             Skonto                         Beginn                        Ende
+
+
+
+
+  0-013       Arc           < nicht Auftragsbezogen                        Beispiel AG                30                                                                                                   01.01.13                     31.12.13
+  1-099       Arc         1 < Seilbahn Obmoos                              Sportbahnen Obmoos AG
+                                                                                               10.00% 30 10 2.00%                                                                                          01.01.13                     15.07.14
+  2-913       Arc         2 < VA Oberdorf                                  STWE Gemeinschaft          30                                                                                                   01.01.13                     31.12.13
+  4-599       Arc         4 < MFH Eulach                                   Franz Huber                30                                                                                                   01.10.12                     15.08.13
+  5-199       Arc         5 < EFH Neubau                                   Herr F. Muster             30                                                                                                   01.10.13                     01.06.15
+  5-399       Arc         5 < EFH Breitmatt                                Herr K. Meier              30
+  5-699       TUn         5 < MFH Bernerhof                                Herr K. Müller             30                                                                                                   01.01.12                     31.03.14
+
+  Total
+
+Vergabeliste
+
+
+     Vorgabeliste
+  Bezeichnung                                                                               Termine                                                          Vorgabe
+
+  Auftrag     PCenter Datum                    K B A Name                                       Beginn                          Ende Honorar V                                                              Dritte V                    Spesen V
+
+Auftrag     PCenter   Datum                    K            B   A Name                                              Beginn                       Ende                             Honorar V                        Dritte V                    Spesen V
+
+
+
+
+  0-013       Arc       01.09.13                 < nicht Auftragsbezogen                     01.01.13                        31.12.13                               150'100
+  1-099       Arc       01.09.13               1 < Seilbahn Obmoos                           01.01.13                        15.07.14
+  2-913       Arc       01.09.13               2 < VA Oberdorf                               01.01.13                        31.12.13                                        10'800
+  4-599       Arc       01.09.13               4 < MFH Eulach                                01.10.12                        15.08.13
+  5-199       Arc       01.09.13               5 < EFH Neubau                                01.10.13                        01.06.15                                        43'286                                                      10'700
+  5-399       Arc       01.09.13               5 < EFH Breitmatt
+  5-699       TUn       01.09.13               5 < MFH Bernerhof                             01.01.12 31.03.14                                                      197'500                                 72'000                       21'500
+
+  Total                                                                                                                                                             401'686                                 72'000                       32'200
+
+Abrechnungsliste
+
+
+     Abrechnungsliste
+  Bezeichnung                                                                        Abrechnung
+
+  Auftrag     PCenter Datum                    K A Name                              HA   Honorar A DA                        Dritte A SA                                    Spesen A                        Gewinn Guthaben
+
+Auftrag     PCenter   Datum                    K   A Name                           HA            Honorar A   DA                             Dritte A   SA                                      Spesen A                       Gewinn                 Guthaben
+
+
+
+
+  0-013       Arc       01.09.13                 nicht Auftragsbezogen                                                                                                                                               (108'038)
+  1-099       Arc       01.09.13               1 Seilbahn Obmoos       +                    11'500 -                          48'500 +                                          2'174                        -74'050    23'376
+  2-913       Arc       01.09.13               2 VA Oberdorf           -                     6'534                                                                                                              -206       548
+  4-599       Arc       01.09.13               4 MFH Eulach                                 20'000                                                           +                  1'795                                  -21'795
+  5-199       Arc       01.09.13               5 EFH Neubau                                                                                                                                                  -19'163    20'759
+  5-399       Arc       01.09.13               5 EFH Breitmatt                              30'000
+  5-699       TUn       01.09.13               5 MFH Bernerhof         -                    42'750                                                                                                            -3'682                      62'036
+
+  Total                                                                                    110'784                            48'500                                            3'969                        -97'102                      84'924
+
+
+
+
+©PMS Informatik AG - CH 8617 Mönchaltorf - Auftragsliste.xls Liste - 18.12.13                                                                                                                                                              Seite 1
+
+
+
+5.83 BBaseAuftragsverwaltung - Beispiele                                                                                                                                                                                         Seite 33/45
+Ertragsliste
+     Ertragsliste
+   Bezeichnung                                                                                      Termine                                                             Ertrag
+
+   Auftrag     PCenter Datum                K B A Name                                                  Beginn                                    Ende                             Honorar E                                       Dritte E                              Spesen E
+
+Auftrag      PCenter     Datum              K   B   A Name                                                                  Beginn                               Ende                                          Honorar E                                   Dritte E                         Spesen E
+
+
+
+
+   0-013       Arc         01.09.13           < nicht Auftragsbezogen                                 01.01.13                       31.12.13
+   1-099       Arc         01.09.13         1 < Seilbahn Obmoos                                       01.01.13                       15.07.14                                         5'650                                      -31'200                                           2'174
+   2-913       Arc         01.09.13         2 < VA Oberdorf                                           01.01.13                       31.12.13                                          -101
+   4-599       Arc         01.09.13         4 < MFH Eulach                                            01.10.12                       15.08.13                                        20'000                                                                                        1'795
+   5-199       Arc         01.09.13         5 < EFH Neubau                                            01.10.13                       01.06.15                                       -19'163
+   5-399       Arc         01.09.13         5 < EFH Breitmatt                                                                                                                        30'000
+   5-699       TUn         01.09.13         5 < MFH Bernerhof                                         01.01.12                       31.03.14                                       -65'718
+
+   Total                                                                                                                                                                            -29'332                                      -31'200                                           3'969
+Auslastungsliste
+
+
+     Auslastung
+   Bezeichnung                                                           Termine                                                                                                                    26                         -98                 -98                -96           -236
+
+   Auftrag       Datum             A Name                                             Beginn            Ende Honorar R Stunden R                                                                               Dez               Jan                Feb                Mär           Apr
+
+Auftrag       Datum              A Name                                                    Beginn                    Ende                            Honorar R                          Stunden R                      Dez        Jan                Feb                     Mär      Apr
+
+
+
+
+   0-013         01.09.13          nicht Auftragsbezogen                     01.01.13               31.12.13                          42'062                                         428 109
+   1-099         01.09.13          Seilbahn Obmoos                           01.01.13               15.07.14
+   2-913         01.09.13          VA Oberdorf                               01.01.13               31.12.13                                     4'165                                59                       15
+   4-599         01.09.13          MFH Eulach                                01.10.12               15.08.13
+   5-199         01.09.13          EFH Neubau                                01.10.13               01.06.15                          24'123                                         287                       14                14                 14                 14            14
+   5-399         01.09.13          EFH Breitmatt
+   5-699         01.09.13          MFH Bernerhof                             01.01.12 31.03.14                                        89'032                                         959 138                                    138                138                140
+
+
+   Total                                                                                                                             159'381                                       1'734 276                                    152                152                154            14
+                                                                                                                                                                                                               26               -98                -98                -96           -236
+
+Verrechnungsplan
+
+
+     Verrechnungsplan
+  Bezeichnung                                                                                             Verrechnung
+
+  Auftrag                                                      PCenter                              Total Jan 2013 Feb 2013 Mär 2013 Apr 2013 Mai 2013 Jun 2013
+
+Auftrag                                                      PCenter          Total                     Jan 2013                      Feb 2013                          Mär 2013                    Apr 2013                            Mai 2013                       Jun 2013
+
+
+
+
+  0-013 nicht Auftragsbezogen,                                         Arc
+  1-099 Seilbahn Obmoos, 8799 Obmoos                                   Arc                81'216                                                                                   21'216                                                                                          20'000
+  2-913 VA Oberdorf, 8625 Gossau ZH                                    Arc                13'800                      900                           900                               900                                      900                   3'900                            900
+  4-599 MFH Eulach, 8400 Winterthur                                    Arc                61'795                   21'795                                                                                                                           40'000
+  5-199 EFH Neubau, 8712 Stäfa                                         Arc                40'000
+  5-399 EFH Breitmatt, 8132 Egg                                        Arc                30'000                   10'000                         10'000                           10'000
+  5-699 MFH Bernerhof, 8132 Egg                                        TUn               165'000                                                  15'000                                                                     30'000                                                30'000
+
+
+  Total                                                                                  391'811                   32'695                         25'900                           32'116                                    30'900                 43'900                         50'900
+  Differenz (Kumuliert)                                                                                               195                         -6'405                           -6'789                                    -8'389                  3'011                         21'411
+
+
+
+
+©PMS Informatik AG - CH 8617 Mönchaltorf - Auftragsliste.xls Liste - 18.12.13                                                                                                                                                                                                      Seite 1
+
+
+5.83 BBaseAuftragsverwaltung - Beispiele                                                                                                                                                                                                                              Seite 34/45
+Auftrag Auswertung
+
+
+Auftrag                                       per 01.09.13
+Bezeichnung                                   Eintragung
+
+Auftragnummer                                 5-699
+Auftrag Name                                  MFH Bernerhof
+                                              Forchstrasse 12, 8132 Egg
+Kunde Name                                    Herr K. Müller
+                                              Forchstrasse 23, 8132 Egg
+Klassierung (5)                               Neubau
+Profitcenter (TUn)                            TUn
+Termine Beginn/Ende                           01.01.12 > 31.03.14
+Einstellungen                                 Rapporte erstellen
+Aktualität                                    <
+Konditionen                                   Rabatt 0%, Zahlbar 30 Tage Netto, 0 Tage 0% Skonto
+
+Mitarbeiter
+PCodeName                                        Extern                              Buchung   Std   Ø
+
+HMu Hans Muster                                 145.00                                77'178   652 118
+MMu Maria Muster                                 90.00                                30'420   507 60
+BBB Bruno BBase                                 100.00                                   870    10 90
+
+
+Total Alle Mitarbeiter                                                               108'468 1'169   93
+
+
+Auswertung allgemein
+Pos   5-699 MFH Bernerhof, 8132 Egg      %      Vorgabe      Std   Nachweis      %   Buchung   Std   Ø Abrechnung Guthaben       Gewinn      % min %
+
+0 - 8 Honorar                            68    197'500 2'128       113'286    57     108'468 1'169   93     42'750     70'536     4'868       4     10
+0 - 8 Dritte                             25     72'000   554        56'267    78
+                                                                              78      42'000                           56'267    14'267      25     10
+9     Spesen                              7     21'500
+
+      Total Auswertung                         291'000 2'682       169'553    58     150'468 1'169          42'750    126'803    19'135      11
+
+
+Auswertung Honorar
+Pos   5-699 MFH Bernerhof, 8132 Egg      %      Vorgabe      Std   Nachweis      %   Buchung   Std   Ø Restleistung   Std   Ø    Gewinn      %
+
+1     Strategische Planung                3       6'000    51        6'000 100
+                                                                            100       19'561   165 119                           -13'561 -226
+2     Vorstudien                          4       8'500    65        8'500 100
+                                                                            100                                                    8'550 101
+3     Projektierung                      50      98'000 1'107       97'819 100        88'037   994   89        164      2   89     9'782   10
+4     Auschreibung                       20      40'000   444          967   2           870    10   90     35'485    394   90        97   10
+5     Realisierung                       20      40'000   308                                               36'364    392   93
+6     Bewirtschaftung                     3       5'000    38                                                4'545     49   93
+8     Zusatzleistungen Allgemein
+
+
+      Total Auswertung                         197'500 2'013       113'286    57     108'468 1'169   93     76'558    837   91    4'868       4
+
+
+Auswertung Dritte
+Pos   5-699 MFH Bernerhof, 8132 Egg      %      Vorgabe      Std   Nachweis      %   Buchung   Std   Ø Restleistung   Std   Ø    Gewinn      %
+
+1     Strategische Planung
+2     Vorstudien
+3     Projektierung
+4     Auschreibung                        6      12'000       92     9'600    80
+                                                                               80                            2'182                9'600     100
+5     Realisierung                       30      60'000      462    46'667    78      42'000                12'121                4'667      10
+6     Bewirtschaftung
+8     Zusatzleistungen Allgemein
+
+
+      Total Auswertung                           72'000      554    56'267    78      42'000                14'303               14'267      25
+
+
+
+
+5.83 BBaseAuftragsverwaltung - Beispiele
+©PMS Informatik AG - CH 8617 Mönchaltorf - Auftragsliste.xls Auszug - 18.12.13
+                                                                                                                                          Seite 35/45
+                                                                                                                                                 Seite 1
+ARGE Beispiel AG, 8617 Mönchaltorf                                                             Telefon +41 44 948 12 14
+
+Buchungsliste
+Buchungen vom 01.10.13 bis 31.10.13
+                                                                      Total 1'160.27 h            Total 104'597.45
+
+Ta   Pos     Beschrieb                     PCode Datum      Von     Bis        Menge EH    Int Ansatz     Int Total Code
+
+
+0-013 nicht Auftragsbezogen                                               Total 124.09 h           Total 10'932.80
+
+B    0.6     Zahnarzt                      BBB   03.10.13   08:00   09:40        1.67 h        90.00       150.00 HB
+B    0.2     Diverses                      BBB   09.10.13   08:00   12:00        4.00 h        90.00       360.00 HB
+B    0.2     Diverses                      BBB   09.10.13   13:00   16:00        3.00 h        90.00       270.00 HB
+B    0.2     Diverses                      HMu   16.10.13   08:00   12:00        4.00 h       118.00       472.00 HB
+B    0.2     Diverses                      HMu   16.10.13   13:15   16:40        3.42 h       130.00       444.15 HB
+B    0.2     Lohnwesen                     MMu   18.10.13   08:00   10:00        2.00 h        60.00       120.00 HB
+B    0.2     Fibu, Kredi, Debi             MMu   21.10.13   08:00   12:00        4.00 h        60.00       240.00 HB
+B    0.2     Bestellungen                  MMu   21.10.13   13:00   17:00        4.00 h        60.00       240.00 HB
+B    0.2     Diverses                      HMu   22.10.13   13:00   15:00        2.00 h       118.00       236.00 HB
+B    0.2     Diverses                      MMu   22.10.13   08:00   12:00        4.00 h        60.00       240.00 HB
+B    0.2     Archivierung                  MMu   22.10.13   13:00   17:00        4.00 h        60.00       240.00 HB
+B    0.1     HS Zürich                     MMu   23.10.13   08:00   12:00        4.00 h        60.00       240.00 HB
+B    0.1     HS Zürich                     MMu   23.10.13   13:00   17:00        4.00 h        60.00       240.00 HB
+B    0.2     Diverses                      BBB   23.10.13   08:00   12:00        4.00 h        90.00       360.00 HB
+B    0.2     Archivierung                  BBB   23.10.13   13:00   17:00        4.00 h        90.00       360.00 HB
+B    0.2     Diverses                      HMu   23.10.13   08:00   12:00        4.00 h       118.00       472.00 HB
+B    0.2     Diverses                      HMu   23.10.13   13:00   17:00        4.00 h       118.00       472.00 HB
+B    0.2     Diverses                      BBB   24.10.13   08:00   12:00        4.00 h        90.00       360.00 HB
+B    0.2     Diverses                      BBB   24.10.13   13:00   17:00        4.00 h        90.00       360.00 HB
+B    0.2     Post, Mail                    MMu   24.10.13   08:00   12:00        4.00 h        60.00       240.00 HB
+B    0.2     Diverses                      MMu   24.10.13   13:00   17:00        4.00 h        60.00       240.00 HB
+B    0.2     Rechnungswesen                HMu   24.10.13   13:15   16:00        2.75 h       130.00       357.50 HB
+B    0.3     Vorbereitung Kalkulation      HMu   24.10.13   08:25   12:05        3.67 h       130.00       476.65 HB
+B    0.4     Ferien                        BBB   25.10.13   00:00   00:00        8.00 h        90.00       720.00 HB
+B    0.4     Ferien                        BBB   28.10.13   00:00   00:00        8.00 h        90.00       720.00 HB
+B    0.4     Ferien                        BBB   29.10.13   00:00   00:00        8.00 h        90.00       720.00 HB
+B    0.2     Teamsitzung                   BBB   30.10.13   08:00   12:00        4.00 h        90.00       360.00 HB
+B    0.2     Diverses                      BBB   30.10.13   13:00   18:35        5.58 h        90.00       502.50 HB
+B    0.2     Diverses                      BBB   31.10.13   08:00   12:00        4.00 h        90.00       360.00 HB
+B    0.2     Sicherheitskopien             BBB   31.10.13   13:00   17:00        4.00 h        90.00       360.00 HB
+
+1-099 Seilbahn Obmoos                                                     Total 621.00 h           Total 55'890.00
+
+B    4       Auschreibung                        03.10.13                      621.00 h        90.00    55'890.00 DB
+
+5-199 EFH Neubau                                                          Total 187.43 h           Total 14'147.15
+
+B    3.1     Studie 1:200                  HMu   01.10.13   08:00   12:00        4.00 h       118.00       472.00 HB
+B    3.1     Grobkostenschätzung           HMu   01.10.13   13:00   17:55        4.92 h       118.00       580.15 HB
+B    4.1     Ausschreibungspläne           BBB   01.10.13   08:00   12:00        4.00 h        90.00       360.00 HB
+B    4.1     Ausschreibungspläne           BBB   01.10.13   13:00   18:35        5.58 h        90.00       502.50 HB
+B    4.1     Ausschreibungspläne           BBB   02.10.13   07:15   12:00        4.75 h        90.00       427.50 HB
+B    4.1     Ausschreibungspläne           BBB   02.10.13   13:00   17:40        4.67 h        90.00       420.00 HB
+B    4.1     Ausschreibungspläne           BBB   03.10.13   10:00   12:00        2.00 h        90.00       180.00 HB
+B    4.1     Ausschreibungspläne           BBB   04.10.13   13:00   13:00        4.92 h        90.00       442.50 HB
+B    4.1     Ausschreibungspläne           BBB   04.10.13   17:00   17:55        4.92 h        90.00       442.50 HB
+B    3.1     Folgekosten, Mieten           MMu   08.10.13   08:00   12:00        4.00 h        60.00       240.00 HB
+B    3.1     Baubeschrieb                  MMu   08.10.13   13:00   17:00        4.00 h        60.00       240.00 HB
+B    3.1     Baubeschrieb                  MMu   09.10.13   08:00   12:00        4.00 h        60.00       240.00 HB
+B    3.1     Grobkostenschätzung           MMu   09.10.13   13:00   17:00        4.00 h        60.00       240.00 HB
+B    3.1     Ablaufplan                    MMu   10.10.13   08:00   12:00        4.00 h        60.00       240.00 HB
+B    3.1     Honorarofferte                MMu   10.10.13   13:00   17:00        4.00 h        60.00       240.00 HB
+B    4.1     Ausschreibungspläne           BBB   10.10.13   07:30   12:00        4.50 h        90.00       405.00 HB
+B    4.1     Ausschreibungspläne           BBB   10.10.13   13:00   18:00        5.00 h        90.00       450.00 HB
+B    3.1     Honorarofferte                MMu   11.10.13   08:00   12:00        4.00 h        60.00       240.00 HB
+B    3.1     Studie 1:200                  MMu   11.10.13   13:00   17:00        4.00 h        60.00       240.00 HB
+B    4.1     Ausschreibungspläne           BBB   11.10.13   08:00   12:00        4.00 h        90.00       360.00 HB
+B    4.1     Ausschreibungspläne           BBB   11.10.13   13:00   18:00        5.00 h        90.00       450.00 HB
+B    3.1     Studie 1:200                  MMu   14.10.13   08:00   12:00        4.00 h        60.00       240.00 HB
+
+
+BBaseJournal 8.53h - 18.10.13                                                                                        Seite 1
+
+
+5.83 BBaseAuftragsverwaltung - Beispiele                                                                       Seite 36/45
+ARGE Beispiel AG, 8617 Mönchaltorf                                                        Telefon +41 44 948 12 14
+
+
+
+Buchungen vom 01.09.13 bis 30.09.13
+                                                                     Total 177.86 h           Total 21'100.40
+
+Auftrag    Ta   Pos     Beschrieb                  PCode Von   Bis        Menge EH    Int Ansatz       Int Total Code
+
+
+02.09.13                                                              Total 10.09 h            Total 1'189.80
+
+5-199      B    3.2     Bauprojekt 1:100           HMu   07:20 12:00        4.67 h       118.00         550.65 HB
+5-199      B    3.2     Bauprojekt 1:100           HMu   13:00 18:25        5.42 h       118.00         639.15 HB
+
+03.09.13                                                               Total 8.92 h            Total 1'052.15
+
+5-199      B    3.2     Bauprojekt 1:100           HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-199      B    3.2     Bauprojekt 1:100           HMu   13:00 17:55        4.92 h       118.00         580.15 HB
+
+04.09.13                                                              Total 10.17 h            Total 1'199.65
+
+5-199      B    3.2     Bauprojekt 1:100           HMu   08:00 12:15        4.25 h       118.00         501.50 HB
+5-199      B    3.2     Bauprojekt 1:100           HMu   13:00 18:55        5.92 h       118.00         698.15 HB
+
+05.09.13                                                               Total 9.92 h            Total 1'202.75
+
+5-199      B    3.2     Bauprojekt 1:100           HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-199      B    3.2     Bauprojekt 1:100           HMu   13:00 17:00        4.00 h       118.00         472.00 HB
+1-099      B    1.1     Bedürfnisse, Lösungen      HMu   17:00 18:55        1.92 h       135.00         258.75 HB
+
+09.09.13                                                               Total 8.83 h            Total 1'042.35
+
+5-199      B    3.2     Bauprojekt 1:100           HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-199      B    3.2     Bauprojekt 1:100           HMu   13:00 17:50        4.83 h       118.00         570.35 HB
+
+10.09.13                                                               Total 8.00 h                Total 944.00
+
+5-699      B    3.2     Bauprojekt                 HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-699      B    3.2     Bauprojekt                 HMu   13:00 17:00        4.00 h       118.00         472.00 HB
+
+11.09.13                                                               Total 8.00 h                Total 944.00
+
+5-699      B    3.2     Bauprojekt                 HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-699      B    3.2     Bauprojekt                 HMu   13:00 17:00        4.00 h       118.00         472.00 HB
+
+12.09.13                                                              Total 12.92 h            Total 1'607.75
+
+5-699      B    3.2     Bauprojekt                 HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-199      B    3.1     Studie 1:200               HMu   13:00 17:00        4.00 h       118.00         472.00 HB
+0-013      B    0.3     Vorbereitung Kalkulation   HMu   17:05 22:00        4.92 h       135.00         663.75 HB
+
+13.09.13                                                               Total 9.67 h            Total 1'140.65
+
+5-699      B    3.2     Bauprojekt                 HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-699      B    3.2     Bauprojekt                 HMu   13:00 18:40        5.67 h       118.00         668.65 HB
+
+16.09.13                                                               Total 8.00 h                Total 944.00
+
+5-699      B    3.2     Bauprojekt                 HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-699      B    3.2     Bauprojekt                 HMu   13:00 17:00        4.00 h       118.00         472.00 HB
+
+17.09.13                                                               Total 8.92 h            Total 1'052.15
+
+5-699      B    3.2     Bauprojekt                 HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-699      B    3.2     Bauprojekt                 HMu   13:00 17:55        4.92 h       118.00         580.15 HB
+
+18.09.13                                                               Total 8.00 h                Total 944.00
+
+5-699      B    3.2     Bauprojekt                 HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-699      B    3.2     Bauprojekt                 HMu   13:00 17:00        4.00 h       118.00         472.00 HB
+
+19.09.13                                                               Total 8.00 h                Total 944.00
+
+5-699      B    3.2     Bauprojekt                 HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+5-699      B    3.2     Bauprojekt                 HMu   13:00 17:00        4.00 h       118.00         472.00 HB
+
+20.09.13                                                               Total 8.00 h                Total 944.00
+
+5-699      B    3.2     Bauprojekt                 HMu   08:00 12:00        4.00 h       118.00         472.00 HB
+
+
+BBaseJournal 8.53h - 18.10.13                                                                                     Seite 1
+
+
+5.83 BBaseAuftragsverwaltung - Beispiele                                                                    Seite 37/45
+ARGE Beispiel AG, 8617 Mönchaltorf                                 Telefon +41 44 948 12 14
+
+Stunden Auswertung
+Stundenauswertung                          Total              0                5
+
+Alle Buchungen vom 01.10.13 bis 31.10.13
+
+Nr.       Bezeichnung                       Std    Beträge   Std   Beträge   Std   Beträge
+
+
+
+10.01     1.Oktober 2013                     27      2'395                    27     2'395
+
+
+
+5-199     EFH Neubau                         19      1'915                    19     1'915
+BBB       Bruno BBase                        10        863                    10       863
+HMu       Hans Muster                         9      1'052                     9     1'052
+
+5-699     MFH Bernerhof                       8       480                      8      480
+MMu       Maria Muster                        8       480                      8      480
+
+
+10.02     2.Oktober 2013                     28      2'517                    28     2'517
+
+
+
+5-199     EFH Neubau                          9       848                      9      848
+BBB       Bruno BBase                         9       848                      9      848
+
+5-699     MFH Bernerhof                      18      1'670                    18     1'670
+HMu       Hans Muster                        10      1'190                    10     1'190
+MMu       Maria Muster                        8        480                     8       480
+
+
+10.03     3.Oktober 2013                     20      1'792    2       150     18     1'642
+
+
+
+0-013     nicht Auftragsbezogen               2       150     2       150
+BBB       Bruno BBase                         2       150     2       150
+
+5-199     EFH Neubau                          2       180                      2      180
+BBB       Bruno BBase                         2       180                      2      180
+
+5-699     MFH Bernerhof                      16      1'462                    16     1'462
+HMu       Hans Muster                         9      1'042                     9     1'042
+MMu       Maria Muster                        7        420                     7       420
+
+
+10.04     4.Oktober 2013                     28      2'732                    28     2'732
+
+
+
+5-199     EFH Neubau                         10       885                     10      885
+BBB       Bruno BBase                        10       885                     10      885
+
+5-699     MFH Bernerhof                      18      1'847                    18     1'847
+BBB       Bruno BBase                         9        765                     9       765
+HMu       Hans Muster                         9      1'082                     9     1'082
+
+
+10.07     7.Oktober 2013                     18      1'829                    18     1'829
+
+BBB       Bruno BBase                        10       885                     10      885
+HMu       Hans Muster                         8       944                      8      944
+
+
+10.08     8.Oktober 2013                     24      2'182                    24     2'182
+
+
+
+BBaseJournal 8.53i - 29.10.13                                                       Seite 1
+
+
+5.83 BBaseAuftragsverwaltung - Beispiele                                        Seite 38/45
+Debitorenliste
+
+
+
+     Debitorenliste
+   Rechnungen                                                                                                                                                                Betrag
+
+   Datum                Nummer                 Auftrag                      Kl Wer                                                                                                         Betrag Brutto                       Rabatt                               Total Betrag                                       Fälligkeit
+
+ Datum                Nummer                Auftrag                    Kl          Wer                                                                                     Betrag Brutto                          Rabatt                Total Betrag                                                 Fälligkeit
+
+
+
+
+   05.01.13             Arc-1113-0003          2-913                        2           STWE Gemeinschaft, 8625 Gossau ZH                                                                       900.00                        0.00%                                                 972.00                             04.02.13
+   15.01.13             Arc-1113-0002          4-599                        4           Franz Huber, 8617 Mönchaltorf                                                                        20'000.00                        0.00%                                              21'600.00                             14.02.13
+   15.01.13             Arc-1113-0004          4-599                        4           Franz Huber, 8617 Mönchaltorf                                                                         1'794.95                        0.00%                                               1'938.55                             14.02.13
+   15.01.13             Arc-1113-0001          5-399                        5           Herr K. Meier, 8132 Egg                                                                               9'722.20                        0.00%                                              10'800.00                             14.02.13
+   05.02.13             Arc-1113-0005          2-913                        2           STWE Gemeinschaft, 8625 Gossau ZH                                                                       900.00                        0.00%                                                 972.00                             07.03.13
+   15.02.13             Arc-1113-0006          5-399                        5           Herr K. Meier, 8132 Egg                                                                              10'277.80                        0.00%                                              10'800.00                             17.03.13
+   15.02.13             TUn-1113-0001          5-699                        5           Herr K. Müller, 8132 Egg                                                                             15'000.00                        5.00%                                              15'390.00                             17.03.13
+   05.03.13             Arc-1113-0007          2-913                        2           STWE Gemeinschaft, 8625 Gossau ZH                                                                       900.00                        0.00%                                                 972.00                             04.04.13
+   15.03.13             Arc-1113-0009          5-399                        5           Herr K. Meier, 8132 Egg                                                                              10'000.00                        0.00%                                              10'800.00                             14.04.13
+   31.03.13             Arc-1113-0008          1-099                        1           Sportbahnen Obmoos AG, 8799 Obmoos                                                                   21'215.60                        0.00%                                              22'912.85                             30.04.13
+   05.04.13             Arc-1113-0010          2-913                        2           STWE Gemeinschaft, 8625 Gossau ZH                                                                       900.00                        0.00%                                                 972.00                             05.05.13
+   15.04.13             TUn-1113-0002          5-699                        5           Herr K. Müller, 8132 Egg                                                                             30'000.00                        5.00%                                              30'780.00                             15.05.13
+   05.05.13             Arc-1113-0011          2-913                        2           STWE Gemeinschaft, 8625 Gossau ZH                                                                     2'934.35                        0.00%                                               3'169.10                             04.06.13
+   31.05.13             Arc-1113-0012          1-099                        1           Sportbahnen Obmoos AG, 8799 Obmoos                                                                   40'958.20                        0.00%                                              44'234.85                             30.06.13
+
+                                                                                                                                                                                                 Brutto
+   Summierung                                                                                                                                                                               165'503.10                                                             176'313.35 Bezahlt >
+Fälligkeitsliste
+
+
+
+     Fälligkeitsliste
+   Rechnungen                                                                                                                                                                                                                                            Bezahlt
+
+   Datum                   Nummer                       Auftrag               Wer                                                                                                          Total Betrag                       Fälligkeit                                                  Bezahlt                       Datum
+
+ Datum                   Nummer                       Auftrag               Wer                                                                             Total Betrag                                  Fälligkeit                                   Bezahlter Betrag                             Zahlungsdatum
+
+
+
+
+   05.01.13                Arc-1113-0003                2-913                 STWE Gemeinschaft, 8625 Gossau ZH                                                                                972.00                         04.02.13                                          972.00                            31.01.13
+   15.01.13                Arc-1113-0002                4-599                 Franz Huber, 8617 Mönchaltorf                                                                                 21'600.00                         14.02.13                                       21'600.00                            31.01.13
+   15.01.13                Arc-1113-0004                4-599                 Franz Huber, 8617 Mönchaltorf                                                                                  1'938.55                         14.02.13                                        1'938.55                            31.01.13
+   15.01.13                Arc-1113-0001                5-399                 Herr K. Meier, 8132 Egg                                                                                       10'800.00                         14.02.13                                       10'500.00                            10.02.13
+   05.02.13                Arc-1113-0005                2-913                 STWE Gemeinschaft, 8625 Gossau ZH                                                                                972.00                         07.03.13
+   15.02.13                Arc-1113-0006                5-399                 Herr K. Meier, 8132 Egg                                                                                       10'800.00                         17.03.13                                       11'100.00 10.03.13
+   15.02.13                TUn-1113-0001                5-699                 Herr K. Müller, 8132 Egg                                                                                      15'390.00                         17.03.13                                       15'390.00 10.03.13
+   05.03.13                Arc-1113-0007                2-913                 STWE Gemeinschaft, 8625 Gossau ZH                                                                                972.00                         04.04.13
+   15.03.13                Arc-1113-0009                5-399                 Herr K. Meier, 8132 Egg                                                                                       10'800.00                         14.04.13
+   31.03.13                Arc-1113-0008                1-099                 Sportbahnen Obmoos AG, 8799 Obmoos                                                                            22'912.85                         30.04.13
+   05.04.13                Arc-1113-0010                2-913                 STWE Gemeinschaft, 8625 Gossau ZH                                                                                972.00                         05.05.13
+   15.04.13                TUn-1113-0002                5-699                 Herr K. Müller, 8132 Egg                                                                                      30'780.00                         15.05.13
+   05.05.13                Arc-1113-0011                2-913                 STWE Gemeinschaft, 8625 Gossau ZH                                                                              3'169.10                         04.06.13
+   31.05.13                Arc-1113-0012                1-099                 Sportbahnen Obmoos AG, 8799 Obmoos                                                                            44'234.85                         30.06.13
+
+
+
+    Summierung                                                                                                                                                                             176'313.35 Bezahlt >                                                              61'500.55Differenz >
+Mehrwertsteuerliste
+
+
+
+     Mehrwertsteuerliste
+   Rechnungen                                                                                                                        MWSt Abrechnung                                                          Bezahlt
+
+   Datum               Nummer                Auftrag                   Kl Was                                       MWSt pflichtig Code                 Prozent                                  MWSt                            Bezahlt                                                    Datum                      Differenz
+
+ Datum                Nummer               Auftrag                Kl              Was              MWSt pflichtig                  Code       Prozent                              MWSt                    Bezahlter Betrag                                               Zahlungsdatum                    Differenz
+
+
+
+
+   05.01.13            Arc-1113-0003         2-913                     2           Verwaltung                             900.00          F             8.00%                                    72.00                           972.00                                                   31.01.13                        0.00
+   15.01.13            Arc-1113-0002         4-599                     4           Honorar                             20'000.00          D             8.00%                                 1'600.00                        21'600.00                                                   31.01.13                        0.00
+   15.01.13            Arc-1113-0004         4-599                     4           Spesen                               1'794.95          D             8.00%                                   143.60                         1'938.55                                                   31.01.13                        0.00
+   15.01.13            Arc-1113-0001         5-399                     5           Honorar                              9'722.20          D             8.00%                                   777.80                        10'500.00                                                   10.02.13                     -300.00
+   05.02.13            Arc-1113-0005         2-913                     2           Verwaltung                             900.00          F             8.00%                                    72.00
+   15.02.13            Arc-1113-0006         5-399                     5           Honorar                             10'277.80          D             8.00%                                   822.20                        11'100.00                                                   10.03.13                      300.00
+   15.02.13            TUn-1113-0001         5-699                     5           Honorar                             14'250.00          D             8.00%                                 1'140.00                        15'390.00                                                   10.03.13                        0.00
+   05.03.13            Arc-1113-0007         2-913                     2           Verwaltung                             900.00          F             8.00%                                    72.00
+   15.03.13            Arc-1113-0009         5-399                     5           Honorar                             10'000.00          D             8.00%                                   800.00
+   31.03.13            Arc-1113-0008         1-099                     1           Dritte                              21'215.60          D             8.00%                                 1'697.25
+   05.04.13            Arc-1113-0010         2-913                     2           Verwaltung                             900.00          F             8.00%                                    72.00
+   15.04.13            TUn-1113-0002         5-699                     5           Honorar                             28'500.00          D             8.00%                                 2'280.00
+   05.05.13            Arc-1113-0011         2-913                     2           Verwaltung                           2'934.35          F             8.00%                                   234.75
+   31.05.13            Arc-1113-0012         1-099                     1           Dritte                              40'958.20          D             8.00%                                 3'276.65
+
+                                                                                                            MWSt pflichtig                                                                      MWSt
+ ©PMS Informatik AG - CH 8617 Mönchaltorf - Auftragsliste.xls Debitoren - 18.12.13                                                                                                                                                                                                                                       Seite 1
+    Summierung                                                                                                163'253.10                                                                    13'060.25                         61'500.55 Differenz >                                                                        0.00
+
+
+
+
+5.83 BBaseAuftragsverwaltung - Beispiele                                                                                                                                                                                                                                                        Seite 39/45
+Beispiel AG, 8617 Mönchaltorf
+
+Rapport
+Rapport per 31.05.2013
+2-913 VA Oberdorf, 8625 Gossau ZH - ARGE Beispiel AG, 8617 Mönchaltorf
+
+
+Datum       Pos   Beschrieb                              von      bis   Menge EH   EH Preis   Totalbetrag
+
+31.01.13    6.1   Betriebsoptimierung                   08:00   11:50    3.83 h     145.00      (555.83)
+                  Hans Muster
+
+31.01.13    6.1   Betriebsoptimierung                   13:00   16:50    3.83 h     145.00      (555.83)
+                  Hans Muster
+
+28.03.13    6.2   Unterhaltsarbeiten                    10:00   12:00    2.00 h      90.00        180.00
+                  Maria Muster
+
+28.03.13    6.2   Unterhaltsarbeiten                    13:00   18:00    5.00 h      90.00        450.00
+                  Maria Muster
+
+29.03.13    6.1   Betriebsoptimierung                   08:00   12:05    4.08 h     145.00        592.08
+                  Hans Muster
+
+26.04.13    6.1   Betriebsoptimierung                   08:00   11:00    3.00 h     145.00        435.00
+                  Hans Muster
+
+26.04.13    6.2   Unterhaltsarbeiten                    08:00   12:00    4.00 h      90.00        360.00
+                  Maria Muster
+
+26.04.13    6.2   Unterhaltsarbeiten                    13:00   15:00    2.00 h      90.00        180.00
+                  Maria Muster
+
+
+Total             (exkl. Mehrwertsteuer)                                                        2'197.08
+
+
+
+Datum
+
+Visum             ARGE Beispiel AG
+
+
+
+
+BBaseJournal 8.53i - 21.11.13                                                                     Seite 1
+
+
+5.83 BBaseAuftragsverwaltung - Beispiele                                                      Seite 40/45
+PMS Informatik AG, 8617 Mönchaltorf                                                              044 948 12 14
+Nachweis Honorar
+Leistungsnachweis
+5-699 MFH Bernerhof, 8132 Egg
+
+Pos
+Titel                        Pos Beschrieb                                          Anteil [%]         Honorar
+
+Grundleistungen
+                              3.1 Studium der Lösungsmöglichkeiten, Grobschätzung    100.0%              9'000
+                                  Baukosten
+                                  Vorprojekt und Kostenschätzung                     100.0%             21'000
+                              3.2 Bauprojekt                                         100.0%             26'000
+                                  Detailstudien                                       80.0%              8'000
+                                  Kostenvoranschlag                                  100.0%             12'000
+                              3.3 Bewilligungsverfahren                               75.0%              7'500
+                              4.1 Ausschreibungspläne                                 50.0%             15'000
+                                  Ausschreibung und Vergabe                           10.0%              1'000
+                              5.1 Ausführungspläne
+                                  Werkverträge
+                              5.2 Gestalterische Leitung
+                                  Bauleitung und Kostenkontrolle
+                              5.3 Inbetriebnahme
+                                  Dokumentation über das Bauwerk
+                                  Leitung der Garantiearbeiten
+                                  Schlussabrechnung
+
+Zusatzleistungen
+                              1.1 Bedürfnisformulierung, Lösungsstrategien           100.0%              6'000
+                              2.1 Definition des Vorhabens, Machbarkeitsstudien      100.0%              8'500
+                              2.2 Auswahlverfahren
+                              6.1 Betrieb
+                              6.2 Erhaltung
+
+
+Gesamtleistung                    per
+                                  per 22.
+                                      30. Dezember
+                                          September2013
+                                                    2013                              60.8%            114'000
+
+
+
+
+Akonto Zahlungen                                                                           per 15. April 2013
+
+5-699 MFH Bernerhof, 8132 Egg
+
+                                  Akonto                                            Anteil [%]          Betrag
+                               1. Akonto
+                                  Akonto per
+                                         per ???
+                                             15.02.2013                               13.2%             15'000
+                               2. Akonto
+                                  Akonto per
+                                         per ???
+                                             15.04.2013                               26.3%             30'000
+
+
+
+
+Guthaben                          per 30. September 2013                              60.5%             69'000
+
+
+
+
+5-699 Honorarvertrag.xls - 22.12.13                                                                    Seite 1
+
+
+5.83 BBaseAuftragsverwaltung - Beispiele                                                            Seite 41/45
+Rechnung Honorar
+
+
+
+
+Auftrag          Kein
+                 5-399Auftrag gewählt
+                 EFH Breitmatt                                          Herr K. Meier
+
+                 Forchstrasse 34                                        Forchstrasse 23
+                 8132 Egg                                               8132 Egg
+
+Bestelldatum     01.04.11                                              Bestelldatum
+Referenz         HMu                                                   Referenz
+Betreff          Honorar                                               Betreff
+Nummer           Arc-1113-0009                                         Nummer
+
+
+
+                  Rechnung                                                                   Mönchaltorf        15.03.13
+Position         Beschrieb                                              EH    Menge           à Fr. Rabatt     Totalbetrag
+
+
+                 Honorar Akonto per 31.01.13
+                 Gemäss Honorar Vertrag vom 01.10.10
+
+
+Phase 1          Strategische Planung
+Phase 2          Vorstudien
+Phase 3          Projektierung
+Phase 4          Ausschreibung
+Phase 5          Realisierung                                                                                  10'000.00
+Phase 6          Bewirtschaftung
+
+                 Der detaillierte Nachweis zu den einzelnen
+                 Phasen (max. 90%) ist im Anhang zu dieser
+                 Rechnung.
+
+                 Nebenkosten wie Wegzeit, Autospesen
+                 und Kopien werden im Aufwand mit
+                 separater Rechnungen abgerechnet
+
+
+
+
+MWSt (Nr. CHE-123456-789)                                             8.00 % von        10'000.00                 800.00
+
+Total Betrag                                                                                   Fr.             10'800.00
+
+Zahlbar 30 Tage Netto                                                                   Wir danken Ihnen für Ihren Auftrag
+Bankverbindung: UVB, Uster - IBAN CH98 7456 3210 7894 3
+
+
+
+
+5.83 BBaseAuftragsverwaltung
+©PMS Informatik AG - CH 8617 - Beispiele
+                             Mönchaltorf - Auftragsliste.xls Rechnung - 18.12.13                                Seite Seite
+                                                                                                                      42/451
+Rechnung Spesen
+
+
+
+
+Auftrag          Kein
+                 4-599Auftrag gewählt
+                  MFH Eulach                                             Franz Huber
+                                                                         Erbengemeinschaft
+                  Wülflingerstrasse 41                                   Usterstrasse 12
+                  8400 Winterthur                                        8617 Mönchaltorf
+
+Bestelldatum      01.01.13                                               Bestelldatum
+Referenz          HMu                                                    Referenz
+Betreff           Spesen                                                 Betreff
+Nummer            Arc-1113-0004                                          Nummer
+
+
+
+                  Rechnung                                                                       Mönchaltorf        15.01.13
+Position          Beschrieb                                              EH     Menge             à Fr. Rabatt     Totalbetrag
+
+
+                  Spesen und Auslagen per 31.12.12
+                  gemäss beiliegendem Rapport
+
+     9.11         A4 Kopien einseitig, schwarz weiss                     stk         242         0.20                   48.40
+     9.12         A4 Kopien einseitig, farbig                            stk         120         0.90                  108.00
+     9.16         Planplot farbig gemäss beiliegender Liste              m2          48.5       18.50                  897.25
+
+     9.41         Spiralbindung mittel                                   stk         48.5        9.00                  436.50
+
+     9.51         Autospesen                                             km          152        1.00                   152.00
+     9.53         Öffentliche Verkehrsmittel                             pl            1      152.80                   152.80
+
+
+
+
+MWSt (Nr. CHE-123456-789)                                                8.00 % von          1'794.95                 143.60
+
+Total Betrag                                                                                       Fr.              1'938.55
+
+Zahlbar 30 Tage Netto                                                                       Wir danken Ihnen für Ihren Auftrag
+Bankverbindung: UVB, Uster - IBAN CH98 7456 3210 7894 3
+
+
+
+
+©PMS
+5.83   Informatik AG - CH 8617 -Mönchaltorf
+     BBaseAuftragsverwaltung     Beispiele - Auftragsliste.xls Rechnung - 18.12.13                                  Seite Seite
+                                                                                                                          43/451
+Kontoauszug
+
+
+
+
+ Auftrag            2-913
+                    VA Oberdorf                                     STWE Gemeinschaft
+                                                                    Oberdorf
+                    Oberdorfstrasse 12                              Oberdorfstrasse 12
+                    8625 Gossau ZH                                  8625 Gossau ZH
+
+
+
+                                                                    Mönchaltorf, 26. November 2013
+
+
+
+
+ Kontoauszug                                                        Berücksichtigt bis 10. Mai 2013
+
+ Sehr geehrte Damen und Herren
+
+ Wir möchten Sie daran erinnern, dass die folgende Rechnung noch nicht bezahlt ist.
+
+ Rechnung           Betreff                                         Datum                             Totalbetrag
+
+ Arc-1113-0005      Verwaltung                                      05.02.13                             972.00
+
+
+ Wir bitten Sie um Überweisung mit dem beiliegenden Einzahlungsschein.
+ Sollte Ihre Zahlung sich mit dem Schreiben kreuzen, so betrachten Sie diese Aufforderung als
+ gegenstandslos.
+
+ Bei allfälligen Unklarheiten steht Ihnen unsere Buchhaltung Tel. +41 44 948 12 14 gerne
+ zur Verfügung.
+
+
+
+
+ Mit freundlichen Grüssen
+
+ ARGE Beispiel AG, 8617 Mönchaltorf
+
+
+
+
+ Beilage 1 Einzahlungsschein
+
+
+
+
+©PMS Informatik AG - CH 8617 Mönchaltorf - Auftragsliste.xls Inkasso1 - 26.11.13                          Seite 1
+5.83 BBaseAuftragsverwaltung - Beispiele                                                              Seite 44/45
+Mahnung
+
+
+
+
+                    VA Oberdorf                                      STWE Gemeinschaft
+                                                                     Oberdorf
+                    Oberdorfstrasse 12                               Oberdorfstrasse 12
+                    8625 Gossau ZH                                   8625 Gossau ZH
+
+
+
+                                                                     Mönchaltorf, 26. November 2013
+
+
+
+
+ 3. Mahnung                                                          Berücksichtigt bis 19. Juni 2013
+
+ Sehr geehrte Damen und Herren
+
+ Mit Bedauern müssen wir feststellen, dass Sie auf unsere Mahnungen weder eine Zahlung veranlasst
+ haben, noch sonstwie eine Reaktion gezeigt haben.
+
+ Wir gewähren Ihnen nochmals eine Frist von 8 Tagen um die nachstehend aufgeführte Rechnung
+ zu bezahlen.
+
+ Rechnung           Betreff                                          Datum                              Totalbetrag
+
+ Arc-1113-0005      Verwaltung                                       05.02.13                              972.00
+                    Zins von 7.0% ab 07.03.13                                                               28.35
+                    Bearbeitungsgebühr                                                                      20.00
+
+                    Total zahlbar innert 8 Tagen                                                         1'020.35
+
+
+ Sollten Sie Ihren Verpflichtungen nicht nachkommen, sehen wir uns gezwungen, unsere Forderung auf dem
+ Rechtsweg geltend zu machen.
+
+ Wenn sich Ihre Zahlung mit unserem Schreiben kreuzt, betrachten Sie diese Aufforderung als gegenstandslos.
+ Wir danken Ihnen für Ihr Verständnis.
+
+
+ Mit freundlichen Grüssen
+
+ ARGE Beispiel AG, 8617 Mönchaltorf
+
+
+
+
+ Beilage 1 Einzahlungsschein
+
+
+
+
+ ©PMS
+5.83   Informatik AG - CH 8617
+     BBaseAuftragsverwaltung   Mönchaltorf - Auftragsliste.xls Inkasso3 - 26.11.13
+                             - Beispiele                                                                SeiteSeite
+                                                                                                              45/451
+

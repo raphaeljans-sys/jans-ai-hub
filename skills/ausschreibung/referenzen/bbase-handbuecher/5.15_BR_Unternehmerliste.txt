@@ -1,0 +1,295 @@
+ Kostenplanung
+                     Unternehmerliste
+                     Liste aller Projektbeteiligten
+
+                                                                                                  5.15
+    Ausführung
+
+
+ Kostenkontrolle
+
+
+Honorar, Auftrag
+
+
+
+
+                     Im Laufe des Bauprozesses wird eine Übersicht sämtlicher Unternehmer für
+                     alle Arbeitsgattungen benötigt, welche im Ausschreibungsprozess eines
+                     Projektes eingeladen werden sollen. Diese Liste bildet dabei die Grundlage
+                     für die Besprechung mit dem Bauherrn, um die gewünschten Unternehmer
+                     zu bestimmen.
+
+
+
+
+  18. Oktober 2021   © PMS Informatik AG CH-8408 Winterthur www.bbase.ch
+BBase
+© PMS Informatik AG Alle Rechte vorbehalten
+
+Betriebsanleitung, Handbücher und Software sind urheberrechtlich
+geschützt. Das Kopieren, Vervielfältigen, Übersetzen oder Umsetzen in
+irgendein elektronisches Medium oder maschinenlesbare Form im Ganzen
+oder in Teilen ohne vorherige schriftliche Genehmigung von PMS Informatik
+AG ist nicht gestattet. Alle weiteren Rechte an der Software sind in den
+mitgelieferten Lizenzbestimmungen festgelegt.
+
+PMS Informatik AG, Riedhofstrasse 53, CH-8408 Winterthur
+Fon +41 44 948 12 14
+Mail Info@pmsag.ch , Internet www.pmsag.ch
+
+
+
+
+Vorwort
+Dieses farbig gestaltete PDF-Dokument bietet Anweisungen zur
+Anwendung des Programms BBaseUnternehmerliste
+
+Das vorliegende Benutzerhandbuch bietet neben methodischen
+Erklärungen auch Kurzanleitungen für Fortgeschrittene, ausführliche
+Anweisungen für das Erstellen eines neuen Dokumentes und detaillierte
+Anleitungen zur Arbeitstechnik.
+
+Wird im Bericht der Architekt erwähnt, so gilt die Benennung auch für die
+Architektin.
+
+
+Winterthur, 10. Oktober 2021
+
+
+
+
+5.15 Unternehmerliste - Vorwort                                       Seite 2/10
+Inhalt
+Das vorliegende Handbuch enthält Informationen für Anfänger und
+Fortgeschrittene, welche die Anwendung der BBaseWerkzeuge
+unterstützen. Die einzelnen Kapitel enthalten dafür folgende Beschriebe:
+
+
+
+1 Einführung                                                                  4
+1.1 Problemstellung                                                            4
+
+1.2 Einführung in die Vorgehensweise                                           4
+
+
+                                                                                        Inhalt
+       Erstellen einer Unternehmerliste                                         4
+       Bearbeiten der Unternehmerliste                                          4
+
+
+
+
+2 Aufbau der Unternehmerliste                                                 5
+2.1 Unternehmerliste                                                           5
+       Dokumentenvorlagen                                                       5
+
+2.2 Tabellen der Unternehmerliste                                              5
+       Tabelle 'Grundlage'                                                      5
+       Tabelle 'Deckblatt'                                                      6
+       Tabelle 'Adressen'                                                       6
+       Tabelle 'Notizen', eigene Tabellen                                       6
+
+
+
+
+4 Anhang                                                                      7
+4.1 Beispiel                                                                   7
+
+
+
+
+5.15 Unternehmerliste - Inhalt                                             Seite 3/10
+           1 Einführung
+                Dieses Kapitel beschreibt die Grundlagen und den Verwendungszweck der
+                BBaseUnternehmerliste.
+
+
+          1.1 Problemstellung
+                Für ein Projekt muss eine projektabhängige Unternehmerliste erstellt und
+                dem Baufortschritt entsprechend gep egt und ergänzt werden. Dies soll
+                mit möglichst geringem Aufwand erledigt werden können.                                   1
+                Solche Listen können ganz einfach in Excel oder Word erstellt werden.
+                Diese Unterlagen können anschliessend mit einigermassen vernünftigem
+
+
+
+
+                                                                                                         Einführung
+                Aufwand von Hand gep egt werden.
+                Allerdings sind das Lösungen, welche für sich alleine stehen. Es gibt keine
+                Datenübernahme aus der Bauadministration. Bei der Erstellung und
+                Bearbeitung der Unternehmerliste müssen die Adressen der beteiligten
+                Parteien daher manuell erfasst werden. Eine Arbeit, die nicht sein muss.
+                Einfacher geht es mit einer in die Bauadministration integrierten Lösung.
+
+
+          1.2 Einführung in die Vorgehensweise
+                Im Folgenden wird die Vorgehensweise für die Erstellung einer
+                BBaseUnternehmerliste kurz erklärt. Das detaillierte, schrittweise Vorgehen
+                ist im Kapitel '3 Befehle und Funktionen' beschrieben.
+
+
+                Erstellen einer Unternehmerliste
+
+                Eine Unternehmerliste kann auf mehrere Arten erstellt werden. Folgende
+                Szenarien sind dabei denkbar:
+            •   Erstellung einer komplett leeren Liste mit Hilfe der leeren BBaseVorlage.
+            •   Erstellung einer neuen Liste mit Übernahme der bereits existierenden,
+                projektspezi schen Vergabeeinheiten aus der Projektverwaltung.
+            •   Erstellung einer neuen Liste auf Basis einer bereits bestehenden
+                Unternehmerliste aus einem anderen Projekt.
+
+
+                Bearbeiten der Unternehmerliste
+
+                Eine bestehende Unternehmerliste kann wie alle anderen BBaseDokumente
+                bearbeitet werden. Durch die zur Verfügung gestellten Befehle auf dem
+                Register 'Befehle' kann die Liste laufend den aktuellen Bedürfnissen
+                angepasst werden. Ziel ist es, dass die endgültige Liste alle
+                Projektbeteiligten enthält.
+
+
+
+
+                5.15 Unternehmerliste - Einführung                                          Seite 4/10
+
+
+                  fl
+     fl
+fi
+                                 2 Aufbau der Unternehmerliste
+                                       Dieses Kapitel beschreibt den Aufbau der BBaseUnternehmerliste.
+                                       Insbesondere werden die Tabellen des Unternehmerliste-Dokuments im
+                                       Detail erläutert.
+
+                                       Detaillierte Beschriebe der Men befehle, welche im aktuellen Programm
+                                       Anwendung nden, sind im Kapitel '3 Befehle und Funktionen' aufgef hrt.
+
+
+
+                              2.1 Unternehmerliste                                                                            2
+
+                                       Wie andere BBaseModule ist auch BBaseUnternehmerliste 'Dokument-
+
+
+                                                                                                                              Aufbau
+                                       orientiert' aufgebaut. Zu einem Projekt wird eine Unternehmerliste erstellt,
+                                       die in Form einer Excel-Datei gespeichert und auf dem Bildschirm in einem
+                                       Excel-Fenster angezeigt wird.
+
+                                       Das Erstellen einer neuen Unternehmerliste ist im Kapitel '3.1
+                                       Unternehmerliste erstellen' beschrieben.
+
+
+                                       Dokumentenvorlagen
+
+                                       Eine Unternehmerliste wird immer aus einer bestehenden Vorlage erstellt.
+                                       Dies kann eine Standardvorlage von BBase, eine vom Benutzer angepasste
+                                       'B rovorlage' oder eine bereits existierende Unternehmerliste (z.B. ein
+                                       Dokument eines anderen Projektes) sein.
+
+                    Standardvorlagen   BBase stellt eine Standardvorlage zur Verf gung:
+                                   •   Datei 'BB9 Vorlage ProjektAdressen.xlsx': leere Dokumentvorlage.
+
+                       Bürovorlagen    Die Standardvorlagen von BBase können durch den Benutzer geändert,
+                                       angepasst und erweitert werden, ganz nach den W nschen und
+                                       Anforderungen des entsprechenden B ros. Geänderte Vorlagen werden
+                                       deshalb 'B rovorlagen' genannt.
+
+
+
+                              2.2 Tabellen der Unternehmerliste
+                                       Im Folgenden werden die einzelnen Tabellen der Excel-Arbeitsmappe
+                                       beschrieben, die im Dokument Unternehmerliste vorhanden sind.
+
+
+                                       Tabelle 'Grundlage'
+
+                     Dokument Titel    Der eingetragene Titel und Untertitel sowie das Inhaltsverzeichnis des
+                                       Dokuments werden an verschiedenen Orten, insbesondere auf dem
+                                       'Deckblatt', angezeigt.
+
+                    Dokument Datum     Das aktuelle Datum, welches auf dem 'Deckblatt' angezeigt wird, ist als
+                                       Gleitdatum mit der Formel ='JETZT()' eingetragen. Mit dem Befehl 'Datum
+                                        xieren' (Rechtsklick auf den Datumseintrag) kann es 'eingefroren' werden
+                                       und dient so später als 'Datum der letzten Dokument-Bearbeitung'.
+
+                      Dokument Info    Die eingetragene Dokument-Info wird bei der Auswahl von
+                                       Dokumentvorlagen angezeigt und hilft dem Benutzer, die richtige Vorlage
+                                       zu wählen.
+
+
+
+
+                                       5.15 Unternehmerliste - Einführung                                        Seite 5/10
+
+
+                                                                                  ü
+                                                                             ü
+                                                         ü
+                                          ü
+               fi
+          ü
+     ü
+fi                                                                      ü
+          Tabelle 'Deckblatt'
+
+          Die Tabelle 'Deckblatt' dient als vorderstes Blatt beim Ausdrucken einer
+          Unternehmerliste. Es kann direkt im Dokument oder in der BBaseVorlage
+          vom Benutzer geändert werden.
+
+          Die Texte f r Thema, Inhalt und Datum des Dokumentes werden auf der
+          Tabelle 'Grundlage' unter 'Dokument Titel' resp. 'Dokument Datum'
+          angepasst.
+
+
+          Tabelle 'Adressen'
+
+          Die Tabelle 'Adressen' enthält eine Au istung aller Projektbeteiligten,
+          gegliedert nach 'Bauherrschaft', 'Behörden', 'Planungsteam' und
+          'Unternehmer'.
+
+
+          Tabelle 'Notizen', eigene Tabellen
+
+          F r die Erfassung aller briger Daten des Benutzers - wie zusätzliche
+          Berechnungen, Beschriebe oder Pläne - steht die Tabelle 'Notizen' oder
+          weitere, vom Benutzer eingef gte Tabellen zur Verf gung.
+
+
+
+
+          5.15 Unternehmerliste - Aufbau                                            Seite 6/10
+
+
+                                               fl
+                                  ü
+                             ü
+                   ü
+     ü
+ü
+ 4 Anhang
+4.1 Beispiel
+    Die folgenden Seiten zeigen die gedruckte Version einer Unternehmerliste.
+    Die erste Seite zeigt die Unternehmerliste in Tabellenform, die zwei
+    folgenden Seiten zeigen sie in der übersichtlichen Blockform.
+
+
+
+
+                                                                                        4
+
+
+
+
+                                                                                        Anhang
+
+
+
+
+    5.15 Unternehmerliste - Anhang                                         Seite 7/10
+5.15 Unternehmerliste - Anhang   Seite 8/10
+5.15 Unternehmerliste - Anhang   Seite 9/10
+5.15 Unternehmerliste - Anhang   Seite 10/10
+

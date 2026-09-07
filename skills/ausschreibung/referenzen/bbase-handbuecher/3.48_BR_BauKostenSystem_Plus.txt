@@ -1,0 +1,194 @@
+ Kostenplanung
+                Das BauKostenSystem (BKS)
+                … PLUS Bauteilkatalog                                                                                  3.48
+     Ausführung
+
+
+ Kostenkontrolle
+
+
+Honorar, Auftrag
+
+
+
+
+                       Die Beeinflussung der Kostenentwicklung für ein Bauprojekt ist nirgends grösser als während
+                       der Phase 3 'Projektierung' der 'Ordnung für Leistungen und Honorare der Architektinnen und
+                       Architekten’.
+                       Die konsequente Ermittlung der Baukosten während dieser Phase ist deshalb essentiell für die
+                       geforderte Genauigkeit des Kostenvoranschlags, der am Ende der Phase '3' zum Zeitpunkt der
+                       Baubewilligung vorliegen muss.
+
+                       Projektieren beinhaltet auch Kosten ermitteln
+
+ Vorgaben einhalten    Oft existieren Vorgaben für die Kosten aus früheren Phasen (Vorstudien). Egal, ob diese in
+                       einer Grobkostenschätzung des Planers kalkuliert oder als Budgetvorgabe der Bauherrschaft
+                       kommuniziert wurden: Während der Projektierung müssen solche Vorgaben ständig
+                       kontrolliert und das Projekt darauf abgestimmt weiterentwickelt werden.
+
+ Projektentwicklung    Dies gelingt durch fortlaufendes Festhalten aller Projektierungs-Informationen, sowohl
+                       graphisch in CAD-Plänen, wie auch in textlicher Form als detaillierte Baubeschreibung der
+                       vorgesehenen Arbeiten und Lieferungen, der gewählten Materialien‚ mit Mengen und
+                       ermittelten Preisen.
+                       Eine entwurfsbegleitende Kostenermittlung mit Beschrieben zeigt die Baukosten ständig
+                       aufgrund des aktuellen Projektstandes an.
+
+       Detaillierung   Der Detaillierungsgrad der einzelnen Kostenpositionen hängt
+                       vom Projektierungsstand und von der Höhe der Beträge ab.
+                       Grosse und unsichere Beträge werden dabei aufgeteilt und
+                       detailliert betrachtet, um das "Klumpenrisiko" einer Position zu
+                       vermindern. Ein "stures" Festhalten an einer fixen
+                       Detaillierungsstufe für eine Projektierungsphase vermindert die
+                       Genauigkeit der Totalkosten.
+
+        Gliederung     Die Aufteilung respektive Gliederung der Baukosten richtet sich nach den Bedürfnissen des
+                       Betrachters:
+                  •    Der Planer arbeitet während der Projektierung in einer elementorientierten Darstellung, damit
+                       er die einzelnen Teile oder Problemstellungen abschliessend beschreiben und kalkulieren
+                       kann.
+                  •    Der Bauherr als Besteller möchte seine Sicht der Kosten in einem Kontenplan über alle Phasen
+                       des Planungs- und Bauprozesses finden.
+                  •    Der Unternehmer als Ausführender wird in der Regel in einer leistungsorientierten Darstellung
+                       kalkulieren und abrechnen.
+
+
+
+     14. April 2020    © PMS Informatik AG CH-8408 Winterthur www.bbase.ch
+                                    Eine "universelle" Gliederung, die allen Beteiligten am Bau gerecht wird, kann es also nicht
+                                    geben! Es ist deshalb wichtig, sämtliche Projektierungs-Informationen mit den
+                                    entsprechenden Zuordnungsschlüsseln zu verschiedenen Gliederungen zu erfassen, um die
+                                    Informationen in der gewünschten Sichtweise darzustellen.
+
+        Informationsübergabe        Nebst der eigentlichen Kostenermittlung müssen sämtliche während der Projektierung
+                                    gesammelten Informationen und Beschriebe in den weiteren Phasen des Bauprozesses
+                                    erhalten bleiben. Eine Übergabe dieser Informationen in die Ausführungsvorbereitung und die
+                                    Realisierung sowie in die Kostenkontrolle muss gewährleistet sein.
+
+                                    Baukostenermittlung während der Projektierung
+
+  Klassische Elementmethode         Klassische Elementmethoden verwenden dafür aufgebaute Gliederungen wie den
+                                    Baukostenplan Hochbau (eBKP-H) oder die Elementkostengliederung (EKG). Darin wird die
+                                    Kostenberechnung in jeder Stufe der Gliederung mit Hilfe der Formel
+                                    'Element-Menge x Element-Kennwert' durchgeführt.
+                                    "Abstrakte" Elementmengen, die Kombinationen verschiedenartiger Bauteile beinhalten,
+                                    weitgehend fehlende Kennwertsammlungen und zu wenig beachtete kostenrelevante Attribute
+                                    wie die Materialwahl erschweren diese Methode stark, sodass sie meist Spezialisten
+                                    (Bauökonomen) vorenthalten bleibt.
+                                    Ausserdem wird die Weiterverwendung der Kostenberechnung für den Kostenvoranschlag und
+                                    die Ausschreibung oft vernachlässigt, da nur die Sicht auf Kosten wichtig erscheint
+                                    (Informationen in einer "Sackgasse").
+
+                    BBaseBauteile   BBase verwendet statt einer "reinen Elementmethode" die Beschreibung projektspezifischer
+                                    und konkreter Bauteile. Diese werden in Kosten- und Bauteilgruppen von BBase strukturiert
+                                    erfasst, um alle Informationen einfach wiederzufinden.
+                                    Der Detaillierungsgrad einer Bauteilbeschreibung ist frei wählbar.
+                               •    Einfache Bauteile werden mit Textbausteinen und globalen Kosten als Budgetpositionen
+                                    erfasst.
+                               •    Komplexe Bauteile können nebst der Beschreibung von Anforderungen, Spezifikationen und
+                                    Materialien auch Konstruktionsarten und Schichtaufbauten mit Komponenten beinhalten, die
+                                    mit Mengenangaben, Ausmasstabellen, Zuschlägen und Einheitspreisen die Kosten für das
+                                    Bauteil liefern.
+
+
+
+
+Einfaches Bauteil
+
+ Detailliertes Bauteil
+
+
+
+
+                                    Die direkte Zuordnung dieser Kosten zu Standardgliederungen wie BKP, eBKP-H und
+                                    Vergabeeinheiten (VE) sichern die Weiterverwendung in späteren Phasen.
+                                    Zusätzlich können verschiedene Bauteile für Variantenstudien verwendet werden.
+
+
+     Generisches BBaseBauteil       Ist ein benötigtes Bauteil im BBaseBauteilKatalog nicht vorhanden, so kann dazu ein
+                                    generisches BBaseBauteil eingefügt werden. Dieses Bauteil erlaubt die Erfassung von bis zu
+                                    fünf einzelnen Arten resp. Typen. Diese Arten und Typen können jeweils einer eigenen VE,
+                                    eigenem BKP und eBKP-H zugeordnet werden. Wie beim vordefinierten BBaseBauteil können
+                                    auch hier Komponenten, Ausmasstabellen, etc. zur weiteren Beschreibung verwendet werden.
+
+
+
+
+                                    3.48 BauKostenSystem Plus                                                                Seite 2/4
+          Bauteilkatalog   Für das Erfassen der Bauteile steht der BBaseBauteilKatalog zur Verfügung, der eine grosse
+                           Anzahl von Textbausteinen und Standardbauteilen beinhaltet.
+                           Dieser Katalog wird ständig erweitert und den Bedürfnissen der Benutzer angepasst.
+                           "Vorkonfigurierte" Bauteile des Bundesamtes für Statistik (BFS) inkl. statistische Kennwerte
+                           können genauso verwendet werden wie selber erfasste und gespeicherte Bauteile.
+
+      Kostenvoranschlag    Der zum Schluss der Projektierung benötigte Kostenvoranschlag (KV) liegt automatisch in der
+                           Struktur des BKP vor. Optional kann der KV auch nach eBKP-H gegliedert ausgedruckt werden,
+                           falls dies von der Bauherrschaft so gewünscht wird.
+
+
+       Kostengliederung    Nebst der Aufteilung der gesamten Baukosten in BKP-Konti sind in vielen Bauprojekten
+                           zusätzliche Kostenstrukturen erwünscht, nach denen die Baukosten gegliedert werden sollen.
+                           Mögliche Kostengliederungen sind dabei:
+
+
+                       •   Mehrere Käufer
+                       •   Verschiedene Kredit-Vergaben
+                       •   Unterschiedliche Bauwerksteile oder Bauwerksarten
+                           usw.
+                           Die Finanzierungsgliederung von BBase unterstützt dabei das Aufteilen der Kosten auf
+
+                                                                                 Drei Finanzierungsgliederungen. Jede
+                                                                                 gehört nur zu einem Konto.
+
+
+
+
+    Zuweisung direkt
+    auf dem Bauteil
+
+
+
+
+                           verschiedene Finanzierungsanteile. Diese können bereits im Bauteil zugewiesen werden. So
+                           sind die Kosten im Kostenvoranschlag bereits korrekt erfasst und müssen nicht von Hand
+                           aufgeteilt werden. Gleichzeitig kann dabei von der flexiblen Kontostruktur von BBase
+                           Gebrauch gemacht werden.
+
+
+Ausführungsvorbereitung    Die gesamte Bauteilbeschreibung kann für eine einzelne Vergabeeinheit in ein
+                           BBaseAusschreibungsdokument importiert werden und dient so als "Rohdevis" für die
+                           Ausschreibung mit Eigentext oder NPK.
+
+
+                           Einfache Navigation
+                           Um sich im Dokument einfach bewegen zu können, enthält das BBaseBauKostenSystem Plus
+                           diverse Hilfen.
+
+
+         BBaseNavigator    Soll im Dokument schnell zwischen den Bauteilen hin- und her gewechselt werden, so bietet
+                           sich dafür der BBaseBauteilNavigator an. Er kann bei Bedarf einfach eingeblendet werden und
+
+
+
+
+                           3.48 BauKostenSystem Plus                                                                Seite 3/4
+steht sogleich zur Verfügung.
+
+
+Jedes Bauteil enthält zudem einen Verweis auf die verwendete Vergabeeinheit und das
+entsprechende Konto auf der Tabelle „Kosten". Dadurch ist es möglich, per Mausklick zum
+
+
+
+
+                   Verweis zur Vergabeeinheit         Verweis zum BKP
+
+
+entsprechenden BKP, respektive zur Vergabeeinheit zu wechseln.
+Selbstverständlich kann vom entsprechenden Konto auch per Klick zurück zum
+entsprechenden Bauteil gewechselt werden.
+
+
+
+
+3.48 BauKostenSystem Plus                                                            Seite 4/4
+

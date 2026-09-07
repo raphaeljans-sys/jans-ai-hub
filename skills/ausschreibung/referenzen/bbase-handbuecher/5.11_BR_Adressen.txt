@@ -1,0 +1,752 @@
+ Kostenplanung      Adressverwaltung
+                    Adressliste mit Synchronisation, Korre-
+                                                                                                 5.11
+    Ausführung
+                    spondenz und Etiketten
+ Kostenkontrolle
+
+
+Honorar, Auftrag
+
+
+
+
+                    Die BBaseAdressverwaltung ist eine, auf die Bedürfnisse eines Architektur-
+                    und Planungsbüros ausgerichtete Adresssammlung. Sie soll den Umgang
+                    mit Adressen in der Bauadministration so einfach wie möglich gestalten.
+
+                    Der wichtigste Bestandteil der BBaseAdressverwaltung ist die Adressliste.
+                    Darin werden die Adressen erfasst und gep egt. Zusammen mit der Liste
+                    der Vergabeeinheiten, bildet sie die Grundlage für das Übernehmen der
+                    Adressen in Anwendungen der Bauadministration und Formulare wie Briefe,
+                    Lieferscheine, Etiketten etc. der Büroadministration.
+
+                    Die Adressliste von BBase wird mit Hilfe von MacAdressbuch oder Win-
+                    Outlook bis zum Smartphone synchronisiert.
+
+
+
+
+15. Dezember 2023   © PMS Informatik AG CH-8408 Winterthur www.bbase.ch
+
+
+                            fl
+BBase
+© PMS Informatik AG Alle Rechte vorbehalten
+
+Betriebsanleitung, Handbücher und Software sind urheberrechtlich ge-
+schützt. Das Kopieren, Vervielfältigen, Übersetzen oder Umsetzen in ir-
+gendein elektronisches Medium oder Maschinen lesbare Form im Ganzen
+oder in Teilen ohne vorherige schriftliche Genehmigung von PMS Informatik
+AG ist nicht gestattet. Alle weiteren Rechte an der Software sind in den
+mitgelieferten Lizenzbestimmungen festgelegt.
+
+PMS Informatik AG, Riedhofstrasse 53, CH-8408 Winterthur
+Fon +41 44 948 12 14
+Mail Info@pmsag.ch , Internet www.pmsag.ch
+
+
+
+
+Vorwort
+Dieses farbig gestaltete PDF-Dokument bietet Anweisungen zur Anwen-
+dung des Programms BBaseKostenrechnung
+
+Das vorliegende Benutzerhandbuch bietet neben methodischen Erklä-
+rungen auch Kurzanleitungen für Fortgeschrittene, ausführliche Anweisun-
+gen für das Erstellen eines neuen Dokumentes und detaillierte Anleitungen
+zur Arbeitstechnik.
+
+Wir bitten an dieser Stelle alle Architektinnen um Verständnis, dass im
+folgenden Handbuch nur der Architekt erwähnt wird.
+
+Bevor Sie sich mit diesem Dokument befassen emp ehlt es sich, das
+beiliegende Beispiel und die Grundlagen im Literatur- und Quellenver-
+zeichnis zu studieren.
+
+
+Winterthur, 15. Dezember 2023
+
+
+
+
+5.11 BBaseAdressverwaltung- Vorwort                                   Seite 2/24
+
+
+                                                fi
+Inhalt
+Das vorliegende Handbuch soll für Anfänger und Fortgeschrittene Infor-
+mationen enthalten, welche die Anwendung der BBaseWerkzeuge unter-
+stützen. Die einzelnen Kapitel enthalten dafür folgende Beschriebe.
+
+
+
+
+1 Einführung und Grundlagen                                              4
+1.1 Problemstellung                                                      4
+
+1.2 Ziele                                                                5
+
+                                                                              Inhalt
+2 Aufbau der Adressverwaltung                                            6
+2.1 Adressliste                                                          6
+      Adressverwaltungsfenster                                            6
+
+2.2 Adressfelder                                                         8
+      Art der Adresse                                                     9
+      Anschrift                                                          10
+      Kontakt                                                            10
+      Sachbearbeiter                                                     11
+      Zahlungsverbindung                                                 11
+      Zuordnungen                                                        12
+      Bemerkungen                                                        12
+
+2.3 Liste der Vergabeeinheiten                                        13
+
+2.4 Korrespondenz Formulare                                           14
+
+2.5 Einrichten der Adressverwaltung                                   15
+      Installation von BBase                                             15
+      Speicherort der Datenbank                                          16
+      Adresssynchronisation                                              17
+
+
+
+4 Anhang                                                            18
+4.1 Quellen und Literaturverzeichnis                                  18
+
+4.2 Beispiele Korrespondenz Formulare                                 18
+
+
+
+
+5.11 BBaseAdressverwaltung- Inhalt                              Seite 3/24
+                  1 Einführung und Grundlagen
+                        Dieses Kapitel beschreibt die Grundlagen und den Verwendungszweck der
+                        BBaseAdressverwaltung.
+
+
+               1.1 Problemstellung
+Mehrere Speicherorte    Auf Computern werden an immer mehr Orten Adressdaten gespeichert,
+    für Adressdaten     um sie bei Gebrauch direkt und ohne langes Suchen verfügbar zu haben.
+                        Verschiedene Applikationen wie Korrespondenz-Programme, Email-Pro-
+                        gramme, Telefonbücher oder die Bauadministration, verwenden dabei oft
+                        unterschiedliche Speicherorte und -methoden.
+
+Mehrere Arbeitsplätze   In einem Büro mit mehreren Computerarbeitsplätzen, sollten alle Benutzer
+                        auf die gleichen Adressdaten zugreifen können.
+                        Ausserdem ist der Büro-PC heute nicht mehr der alleinige Ort zur Ver-
+                        wendung der Firmenadressen. Es ist notwendig, diese auch auf Mobiltele-
+                        fonen oder Tablet-Computern unterwegs verfügbar zu haben.
+
+     Unterschiedliche   Die Verwendung von mehreren Geräten führt auch dazu, dass die Adressen
+    Adresskategorien    in verschiedene Kategorien unterteilt werden müssen, um 'von der ganzen
+                        Firma benötigte Adressen' und 'von einem Bauleiter benötigte Adressen'
+                        unterscheiden zu können.
+
+     Bedürfnisse der    Standard-Applikationen, die Adressdaten verwenden, decken oft nur
+   Bauadministration    einfache Standardaufgaben wie 'Email verschicken' etc. ab und haben
+                        deshalb beschränkte Möglichkeiten der Adressdatenspeicherung. Zusätzli-
+                        che Funktionalität für Spezialprogramme wie eine Bauadministration fehlen
+                        meist oder müssten 'irgendwie ins Adressbuch hineingebracht werden', was
+                        meist zu Lasten des Benutzungskomforts geht.
+
+
+
+
+                        5.11 BBaseAdressverwaltung - Einführung und Grundlagen          Seite 4/24
+                     1.2 Ziele
+                               Folgende Ziele standen bei der Entwicklung der BBaseAdressverwaltung im
+                               Vordergrund.
+
+            Bedürfnisse der    Die BBaseAdressverwaltung ist eine auf die Bedürfnisse eines Architektur-
+Bauadministration abdecken     büros ausgerichtete Adresssammlung. Sie soll den Umgang mit Adressen in
+                               der Bauadministration so einfach wie möglich gestalten.
+                               Dazu benötigt BBase im Zusammenhang mit Adressen auch eigene Daten,
+                               d.h. nicht nur Daten, die in einer bestehenden Datenquelle abgeholt wer-
+                               den können, sondern selber erfasste, einer Adresse zugewiesene Informa-
+                               tionen.                                                                        1
+
+ Adressen ständig anzeigen     Die Adressen und Telefonnummern werden in der BBaseAdressliste so
+
+
+
+
+                                                                                                              Einführung
+                               angezeigt, dass sie rasch gefunden und 'immer zur Hand' sind.
+
+            Korrespondenz      Das Erledigen der Korrespondenz ist eine zentrale Aufgabe der
+           vereinheitlichen    Büroadministration. Briefe, Lieferscheine, etc. müssen im ganzen Büro
+                               gleich gestaltet und an einem zentralen Ort gespeichert sein, sodass sie
+                               von allen Mitarbeitern leicht zu nden sind.
+
+         Synchronisationen     In Computernetzwerken mit mehreren Arbeitsplätzen müssen die Adressen
+             gewährleisten     von jedem Computer aus verfügbar sein.
+                               Die Synchronisation von Adressen mit dem zentralen Adressbuch des
+                               Computers, muss die Übernahme der Adressen in andere Programme und
+                               auf externe Geräte ermöglichen.
+
+          Adresskategorien     Es muss möglich sein, verschiedene Kategorien von Adressen, z.B.
+            unterscheiden      Geschäftsadressen und Privatadressen, zu unterscheiden und zu verwalten,
+                               damit alle Adressen in der BBaseAdressverwaltung gesammelt werden kön-
+                               nen.
+
+
+
+
+                               5.11 BBaseAdressverwaltung - Einführung und Grundlagen            Seite 5/24
+
+
+                          fi
+      2 Aufbau der Adressverwaltung
+         Dieses Kapitel beschreibt den Aufbau der BBaseAdressverwaltung. Insbe-
+         sondere werden die einzelnen Adressfelder der Adressliste im Detail er-
+         läutert.
+
+         Detaillierte Beschriebe der Menübefehle, welche im aktuellen Programm
+         Anwendung nden, sind im Kapitel '3 Befehle und Funktionen' aufgeführt.
+
+
+
+     2.1 Adressliste
+         Der wichtigste Bestandteil der BBaseAdressverwaltung ist die Adressliste.
+         Darin werden die BBaseAdressen erfasst und dargestellt. Jede Adresse wird
+         in einer Zeile der Liste dargestellt. Ausserdem ist die Liste in Spalten auf-
+         geteilt, wobei jede Spalte die Einträge zu einem 'Adressfeld' enthält. Die
+         Adressliste ist Teil des Adressverwaltungsfensters.
+
+         Adressverwaltungsfenster
+         Im Gegensatz zur Arbeit mit Microsoft Excel, wird die ganze BBaseAdress-
+         verwaltung in einem einzigen Fenster dargestellt, das den Inhalt und die
+         Befehle enthält.
+
+
+
+
+         Die Grösse der Schrift in diesem Fenster kann mit Hilfe der Schalt ächen
+         'Vergrössern' und 'Verkleinern' der Bildschirmau ösung angepasst werden.
+
+
+
+
+         5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung             Seite 6/24
+
+
+                                                                         fl
+                       fl
+fi
+                      Das Adressverwaltungsfenster kann auf einen zweiten Bildschirm ver-
+                      schoben werden, um die Adressliste ständig 'zur Hand zu haben'.
+
+    BBaseNavigator    Im linken Teil des Adressverwaltungsfensters wird die Symbolleiste 'BBa-
+                      seNavigator' dargestellt, die das Navigieren innerhalb von BBase erlaubt.
+
+      BBaseBefehle    Im rechten Teil des Adressverwaltungsfensters wird die Symbolleiste
+  und Einstellungen   'BBaseBefehle' dargestellt. Darin sind sämtliche Befehle und Darstel-
+                      lungsmöglichkeiten der Adressliste zusammengefasst.
+
+                      Eine ausführliche Beschreibung der Benutzerober äche von BBase inklusive
+                      'BBaseNavigator'- und 'BBaseBefehle'-Symbolleiste ist im Handbuch 'HB All-      2
+                      gemein' enthalten.
+
+
+
+
+                                                                                                      Vorgehen
+                      im Kapitel '3 Befehle und Funktionen' wird die Anwendung der Sym-
+                      bolleisten erklärt.
+
+Zentrale Verwaltung   Die Adressliste ist die zentrale Sammlung für Adressen. Diese können dann
+      der Adressen    bei Bedarf in andere BBaseDokumente (Ausschreibungen, Buchhaltungen
+                      etc.) übernommen werden und müssen nicht jedes mal neu geschrieben
+                      werden. Dazu kann von der Adressliste aus die gesamte Büro-Korrespon-
+                      denz mit Briefen, Übermittlungen, Lieferscheinen, etc. erledigt werden.
+
+
+
+
+                      5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung           Seite 7/24
+
+
+                                                                           fl
+2.2 Adressfelder
+    Die Informationen zu einer Adresse sind in verschiedenen Adressfeldern
+    gespeichert, die in der Adressliste als Spalten nebeneinander dargestellt
+    sind.
+    Die Unterteilung in Adressfelder ermöglicht die schnelle und zielgerichtete
+    Suche nach einer bestimmten Adresse in einer langen Liste von Adressen.
+
+    Die Adressfelder der BBaseAdressliste sind x, d.h. es können keine ei-
+    genen Adressfelder hinzugefügt werden. Es stehen aber Reserve-Felder zur
+    Verfügung, die individuell benützt werden können.
+
+    Welche Adressfelder in der Liste sichtbar sind und welche nicht, kann über
+    die 'Darstellung' der Adressliste festgelegt werden.
+    Dies ist im Kapitel '3.5 Adressliste darstellen' beschrieben.
+
+
+
+
+    5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung           Seite 8/24
+
+
+                                                  fi
+                             Art der Adresse
+                 Adresstyp   BBase unterscheidet zwischen Firmenadressen und Personenadressen.
+
+                             Firmenadressen können nebst den Firmendaten (Name, Adresse, usw.) die
+                             Personendaten (Anrede, Name, Funktion, etc.) mehrerer Sachbearbeiter zu
+                             dieser Firma beinhalten.
+                             Personenadressen enthalten die Personendaten direkt (ohne Sachbear-
+                             beiter).
+
+
+
+
+Dialog für das Erfassen
+              Adressart      BBase unterteilt die Adressen nach ihrer Art in verschiedene Gruppen, z.B.
+    und Bearbeiten der
+                             Adressen für Unternehmer, Planer, Lieferanten, etc. Diese Zuordnung hilft
+           Adressfelder
+                             beim Suchen von Adressen.
+
+        Vergabeeinheit       Innerhalb einer Adressart werden die Adressen nach ihrem Tätigkeitsbe-
+                             reich in Vergabeeinheiten unterteilt, z.B. Baumeister, Zimmermann, Maler,
+                             etc. respektive Architekt, Bauingenieur, Geometer, etc. Diese Zuordnung
+                             beschleunigt das Au nden von Adressen erheblich.
+
+          Adressstatus       Eine Adresse kann als aktiv oder inaktiv markiert werden. In der Adressliste
+                             werden standardmässig nur alle aktiven Adressen angezeigt.
+                             Welche Adressfelder in der Liste sichtbar sind und welche nicht, kann über
+                             die 'Darstellung' der Adressliste festgelegt werden.
+
+                             Dies ist im Kapitel '3.5 Adressliste darstellen' beschrieben
+
+                             Für jede Adresse kann bestimmt werden, ob sie mit dem Mac-Adressbuch
+                             resp. Win-Outlook synchronisiert werden soll. Ausserdem kann der Grup-
+                             pen- resp. Kontaktordner für die Synchronisation bestimmt werden.
+
+                             Weitere Informationen dazu im Abschnitt '3.2 Adressen synchronisieren’.
+
+
+
+
+                             5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung           Seite 9/24
+
+
+           ffi
+                         Anschrift
+                         Die Adressfelder 'Firmenname / Name', 'Zusatz', 'Postfach', 'Strasse', 'PLZ',
+                         'Ort' und 'Land' werden für die Anschrift auf BBaseFormularen und Briefen
+                         verwendet.
+
+
+
+
+          Firmenname     Das Adressfeld 'Firmenname' existiert nur bei Firmenadressen und sollte
+                         wenn möglich die ganze Firmenbezeichnung inkl. 'AG' oder 'GmbH' enthal-
+                         ten.
+
+Anrede, Vorname, Name    Diese Adressfelder existieren nur bei Personenadressen.
+          Adresszusatz   Insbesondere bei Firmenadressen ist es zu empfehlen, den Adresszusatz
+                         auszufüllen. Dies macht es in vielen Fällen klarer, um wen es sich handelt.
+
+
+
+
+              Postfach   Vor der Postfachnummer ist eine Bezeichnung 'Postfach' oder 'P.O. Box'
+                         nötig, die in der Anschrift erscheint. Falls diese Bezeichnung bei der Einga-
+                         be fehlt, wird sie von BBase automatisch ergänzt.
+
+                  PLZ    Nach Eingabe einer 4-stelligen Postleitzahl wird der entsprechende Ort
+                         automatisch ergänzt.
+
+                   Ort   Nach Eingabe einer Ortschaft wird die Postleitzahl wenn möglich auto-
+                         matisch ergänzt.
+
+                 Land    Dieses Adressfeld kann für Adressen ausserhalb der Schweiz benutzt
+                         werden. An die Schweiz angrenzende Länder können wie bis anhin als Ab-
+                         kürzungen 'D', 'F', 'I', 'A' oder 'FL' eingegeben werden. Es emp ehlt sich
+                         aber, den Ländernamen auszuschreiben (z.B. 'Spanien'), um die internatio-
+                         nalen Normen für die Briefanschrift einzuhalten.
+
+                         Kontakt
+                         Die Kontakt-Adressfelder sind bei Firmenadressen so zu wählen, dass die
+                         Einträge die ganze Firma betri t, z.B. Telefonnummer der Firmenzentrale
+                         resp. des Sekretariats und 'info'-Emailadressen, z.B. 'info@ rmenname.ch'.
+                         Kontaktdaten, die nur einen Sachbearbeiter aus einer Firma betre en wer-
+                         den bei diesem Sachbearbeiter erfasst.
+
+      Telefonnummern     Es emp ehlt sich, für Telefonnummern eine Eingabeform zu verwenden,
+                         die auch auf Mobiltelefonen verwendet werden kann, d.h. ohne Sonderzei-
+
+
+
+                         5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung            Seite 10/24
+
+
+                                                              ff
+                                                         fi
+                                                    fi
+                             fi
+                    ff
+                                    chen wie '/' oder '(0)'. Die beste Eingabe inkl. internationaler Vorwahl hat
+
+
+
+
+                                    die Form '+41 44 948 12 14’.
+                               •    'Telefon G' bezeichnet die 'Telefonnummer Geschäft', 'Telefon P' die 'Te-
+                                    lefonnummer Privat', 'Mobil' die 'Telefonnummer des Mobiltelefons (Natel)'.
+                               •    Die Adressfelder 'Telefon P' und 'Mobil' werden vor allem für Personen-
+                                    adressen verwendet.
+
+                                    Sachbearbeiter
+                                    Jeder Firmenadresse können ein oder mehrere Sachbearbeiter zugeordnet
+                                    werden. Die entsprechenden Adressfelder sind für Personenadressen nicht
+                                    verfügbar.
+
+
+
+
+  'Anrede', 'Vorname', 'Name'       Nebst dem 'Namen' sollte eine 'Anrede' und/oder ein 'Vorname' erfasst
+                                    sein, so dass der Sachbearbeiter auch in der Empfängeradresse auf Briefen
+                                    dargestellt werden kann.
+
+                   'Briefanrede'    Die Briefanrede wird aufgrund von 'Anrede' und 'Name' von BBase auto-
+                                    matisch kreiert, kann aber auch für eigene Einträge wie 'Sali Hans' verwen-
+                                    det werden.
+
+'Telefon S', 'Mobil S', 'Email S'   Das 'S' steht als Abkürzung für 'Sachbearbeiter', d.h. diese Adressfelder
+                                    sind die persönlichen Daten dieses Sachbearbeiters, z.B. direkte Telefon-
+                                    wahl, persönliche Emailadresse, etc.
+
+                                    Zahlungsverbindung
+                                    Zahlungsverbindungen werden von BBase zusammen mit der Adresse in die
+                                    Baubuchhaltung übernommen.
+
+
+
+
+             'Bank/Post Name'       Es emp ehlt sich, nebst dem Namen des Instituts, auch den Ort der Nie-
+                                    derlassung anzugeben, z.B. 'UBS Wallisellen'.
+
+                        'BC/BIC'    Das Adressfeld 'BC/BIC' kann für die früher verwendete 'Bank Clearing
+                                    Number' oder für den 'Business Identi er Code' verwendet werden.
+
+
+                                    5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung            Seite 11/24
+
+
+                                            fi
+                                       fi
+                'Kontonummer'       Seit der generellen Umstellung auf die IBAN sollte in diesem Feld nichts
+                                    mehr erfasst werden, da die Kontonummer im Zahlungsverkehr nicht mehr
+                                    verwendet werden kann. Es steht aus historischen Gründen noch zur Ver-
+                                    fügung.
+
+                           'IBAN'   Die IBAN - ‘International Bank Account Number‘ - wird in diesem Feld
+                                    erfasst und steht somit für die Zahlungsaufträge zur Verfügung. Die Einga-
+                                    be dieser 'IBAN' wird von BBase auf die Richtigkeit überprüft. Für die
+                                    Schweiz ist immer eine 21-stellige Nummer nötig, die mit 'CH' beginnt und
+                                    für die Leserlichkeit in Viererblöcke unterteilt wird. z.B. 'CH76 6396 6523
+                                    7600 0001 3’.
+
+                                    Die 'IBAN' kann auch mit 'Copy and Paste' aus einem andern Dokument
+                                    übernommen werden.
+
+                                    Zuordnungen
+                                    Der Bereich 'Zuordnungen' wird für selber de nierte Adressgruppen ver-
+                                    wendet, um die Gruppierung der Adressliste zu ermöglichen und das Auf-
+                                     nden von Adressen zu erleichtern.
+
+
+
+
+                            'BKP'   Die Zuordnung zu BKP-Arbeitsgattungen kann als Ergänzung zur 'VE' in
+                                    diesem Adressfeld gesetzt werden. Die Art der Eingabe ist frei. Es ist emp-
+                                    fehlenswert, die BKP-Nummern, durch Komma getrennt, einzugeben.
+
+                       'Projekte'   In diesem Adressfeld kann jeder Adresse zugeordnet werden, an welchen
+                                    Projekten sie beteiligt war. Die Art der Eingabe ist frei. Es ist empfehlens-
+                                    wert, die Projektnummern, durch Komma getrennt, einzugeben.
+
+     'Code 1', 'Code 2', 'Code 3'   Die Verwendung der Code-Zuordnungen ist absolut frei und dient dazu,
+                                    aus der Adressliste bestimmte Adressen herauszu ltern, z.B. Adressen, an
+                                    die ein Weihnachtskärtchen verschickt werden soll (Code 1 = w).
+
+      'Reserve 1' bis 'Reserve 4'   Diese Reserve-Adressfelder können ebenfalls für Benutzer-spezi sche
+                                    Einträge verwendet werden.
+
+                                    Bemerkungen
+                                    Individuelle Bemerkungen zu einer Adresse können in diesem Adressfeld
+                                    eingegeben werde.
+
+
+
+
+                                    5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung             Seite 12/24
+
+
+                                                                                                    fi
+                                                                                    fi
+                                                     fi
+fi
+                       2.3 Liste der Vergabeeinheiten
+                                Neben der Adressliste enthält die BBaseAdressverwaltung auch eine Liste
+                                mit den Bezeichnungen der Vergabeeinheiten. Diese kann im BBaseNaviga-
+                                tor aufgerufen werden.
+
+
+
+
+Was ist eine Vergabeeinheit ?   Vergabeeinheiten (VE) werden benutzt, um ein Tätigkeitsfeld eines Un-
+                                ternehmers oder einer Werkgruppe zu umschreiben. Viele Unternehmungen
+                                haben eine VE-Bezeichnung als Zusatz im Firmennamen, z.B. 'Malerge-
+                                schäft', 'Spenglerei' etc.
+
+                                Diese Bezeichnung ist nicht zu verwechseln mit den BKP-Arbeitsgattungen,
+                                die spezi scher sind.
+
+                    Beispiel:   In der Bauadministration wird ein 'Maler' benötigt, um dessen Leistungen
+                                auszuschreiben und abzurechnen. Die Kosten dafür werden aber sowohl im
+                                BKP '227.1 Äussere Malerarbeiten' wie auch im BKP '285.1 Innere Malerar-
+                                beiten' aufgeführt. Um die Maler-Unternehmung 'als Ganzes' zu betrachten
+                                wird die Vergabeeinheit 'MA - Maler' eingeführt. Dabei ist die Bezeichnung
+                                'Maler' ein Platzhalter, der nur solange benötigt wird, bis der Name der Un-
+                                ternehmung bekannt ist.
+
+          Weniger ist mehr...   Die von BBase vorgegebenen Bezeichnungen für Vergabeeinheiten wurden
+                                durch lange Erfahrung zusammengestellt und sollten ziemlich abschlies-
+                                send sein. Es ist zwar möglich, eigene Bezeichnungen für Vergabeeinheiten
+                                hinzuzufügen. Allerdings sollten keine Arbeitsgattungsbezeichnungen, die
+                                nur in einem Projekt benötigt werden, als Vergabeeinheit de niert werden.
+
+
+
+
+                                5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung          Seite 13/24
+
+
+                                                            fi
+     fi
+              2.4 Korrespondenz Formulare
+                       Die BBaseAdressverwaltung enthält eine grosse Anzahl von vorgefertigten
+                       Vorlagen für die Bürokorrespondenz. Diese Vorlagen können direkt ver-
+                       wendet oder an das Bürolayout angepasst werden.
+
+        Vorteile der   Das Erledigen der Bürokorrespondenz mit BBase hat einige Vorteile, die im
+BBaseKorrespondenz     folgenden aufgezählt werden.
+
+                  •    Briefe, die zu einer Bauadministrationsaufgabe gehören, sind direkt im
+                       entsprechenden BBaseDokument integriert, z.B. eine Auftragsbestätigung
+                       für ein Unternehmer im entsprechenden Ausschreibungsdokument.
+
+                  •    Allgemeine Bürokorrespondenz basiert auf dem gleichen Adressstamm wie
+                       die Bauadministrationsbriefe. Das Aussehen der Formulare kann auf einfa-
+                       che Weise dem Firmenlayout ('Corporate Identity') angepasst werden.
+
+                  •    Die Formularvorlagen für die Korrespondenz sind für alle Mitarbeiter
+                       zentral abgelegt. Damit ist sichergestellt, dass alle Mitarbeiter für Ihre Kor-
+                       respondenz das korrekte Firmenlayout verwenden.
+
+                  •    Briefe und andere Korrespondenzformulare werden beim Erstellen einem
+                       Projekt zugeordnet. Die Projektdaten erscheinen deshalb automatisch kor-
+                       rekt auf den Briefen. Ausserdem werden die Briefe im Ordner des Projekts
+                       gespeichert, zentral und am richtigen Ort, sodass sie schnell wiedergefun-
+                       den werden. Irgendwo 'herumschwirrende Word-Dokumente' sind elimi-
+                       niert.
+
+
+
+
+   Formularvorlagen    Die Formularvorlagen für die Korrespondenz be nden sich im Ordner
+                       'VORLAGEN' innerhalb des 'BBase DOKUMENTE'-Ordners, und zwar in den
+                       Unterordnern 'Adressblöcke', 'Etiketten', 'Serienbriefe' und
+                       'Übermittlungen'.
+
+                       Das Vorgehen zum Erstellen von Briefen ist im Abschnitt '3.8 Korre-
+                       spondenz Dokumente erstellen' beschrieben.
+
+
+
+
+                       5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung             Seite 14/24
+
+
+                                                                          fi
+               2.5 Einrichten der Adressverwaltung
+                        Prinzipiell wird die BBaseAdressverwaltung bei der Installation von BBase
+                        automatisch eingerichtet, sodass nur in Spezialfällen weitere Schritte not-
+                        wendig sind.
+
+                        Installation von BBase
+           'Normale'    Auf Arbeitsplätzen mit BBase eDongle, ist die Adressverwaltung ein Teil des
+eDongle-Arbeitsplätze   ganzen BBaseProgramms. Die Installation und Einrichtung erfolgt für das
+                        ganze BBase.
+
+                        Die detaillierte Installationsanleitung '2.11_HB_Installation.pdf' be ndet
+                        sich auf dem ausgelieferten USB-Stick oder unter www.bbase.ch im Kapitel
+                        'TIPPS' beim Thema 'Installation'.
+Lizenzen ohne eDongle   Wenn ein entsprechender Lizenzvertrag vorhanden ist, können Mitarbeiter
+                        ohne BBaseDongle mit der BBaseAdressverwaltung arbeiten.
+
+                        Voraussetzungen für das Benützen einer solchen Lizenz ist eine Inter-
+                        netverbindung, ein auf einem eDongle-Arbeitsplatz eingerichteter 'BBase
+                        DOKUMENTE' Ordner, welcher sich auf einem Server be ndet inkl. Erfas-
+                        sung aller Mitarbeiter als Sachbearbeiter in den BBaseEinstellungen.
+                   •    Der gesamte Programmordner 'BBase 8.xx’ wird von einem Dongle-Ar-
+                        beitsplatz übernommen (kopiert).
+                   •    Beim ersten Starten von BBase wird das 'Vorgehen D' gewählt, d.h. der
+                        eingerichtete 'BBase DOKUMENTE'-Ordner auf dem Server und der Sachbe-
+                        arbeiter ausgewählt und mit 'OK' bestätigt.
+
+
+
+
+                        Falls der gewünschte Sachbearbeiter im Klappmenü nicht erscheint, so
+                        kann dies folgende Gründe haben:
+                   •    Die Anzahl der BBaseLizenzen ist bereits ausgeschöpft.
+                   •    Der gewünschte Sachbearbeiter hat sich bereits von einem andern Ar-
+                        beitsplatz aus am Server angemeldet.
+                   •    Es ist keine Verbindung zum Internet vorhanden.
+
+
+                        5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung            Seite 15/24
+
+
+                                                                                       fi
+                                              fi
+                                 Speicherort der Datenbank
+Datei 'BBaseAddresses.bbd'       Bei Installationen, welche zwei bis drei Arbeitsplätze umfassen, wird die
+                                 BBaseAdressverwaltung in der Datei 'BBaseAddresses.bbd' gespeichert.
+                                 Diese be ndet sich standardmässig im Ordner 'STAMMDATEN' innerhalb
+                                 des 'BBase DOKUMENTE' Ordners.
+
+                                 Der Speicherort dieser Datenbank kann in den BBaseEinstellungen unter
+                                 'Datenablage' (Eintrag für 'Adressliste') geändert werden. Dies darf nur in
+                                 Abstimmung mit dem Systemadministrator geschehen.
+
+             Server-Software     Bei Installationen, welche mehr als die oben erwähnten zwei bis drei Ar-
+                                 beitsplätze umfassen oder wenn von zu Hause aus via VPN gearbeitet wer-
+                                 den soll, emp ehlt sich die Installation einer dezidierten Datenbanksoft-
+                                 ware auf dem Firmenserver/NAS. Dabei handelt es sich um MariaDB.
+
+                     Datenbank   Die Verwendung der Adressdatenbank hat den Vorteil, dass mehrere Be-
+                                 nutzer gleichzeitig auf die Adressdatenbank zugreifen können. Die Adress-
+                                 daten sind nie 'von einem Benutzer gesperrt' wie dies z.B. bei einem, von
+                                 einem Benutzer geö neten Excel-Dokument der Fall ist.
+
+
+
+
+                                 5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung           Seite 16/24
+
+
+                ff
+        fi
+   fi
+        Adresssynchronisation
+        Um die BBaseAdressen auch in anderen Applikationen und Geräten ver-
+        wenden zu können, müssen die Adressen auf macOS mit dem Mac-Adress-
+        buch (Kontakte) und auf Windows-Computern mit Microsoft Outlook syn-
+        chronisiert werden.
+
+        Die Adresssynchronisation ist im Abschnitt '3.2' unter 'Adressen syn-
+        chronisieren' beschrieben.
+
+macOS   Die Sicherheitsmechanismen von macOS erfordern, dass der Benutzer der
+        Applikation BBase erlaubt, auf die Kontakte des Mac-Adressbuchs zuzu-
+        greifen. Beim ersten Erscheinen der folgenden Meldung muss dies mit 'OK'
+        bestätigt werden.
+
+
+
+
+        Falls der Zugri auf die Kontakte einmal verweigert wurde, so kann die
+        Erlaubnis nachträglich gegeben werden. Diese Möglichkeit be ndet in den
+        Systemeinstellungen unter 'Sicherheit & Datenschutz’ und dort im Register
+        'Kontakte'.
+
+
+
+
+        Je nach macOS Version sind die Systemeinstellungen unterschiedlich
+        strukturiert.
+
+        Bei älteren macOS Versionen ist diese Option jedoch nicht vorhanden. Die
+        einzige Möglichkeit besteht dann darin, alle Zugri seinstellungen auf die
+        Kontakte des Mac-Adressbuchs zurücksetzen, was mit dem Terminal-Be-
+        fehl 'tccutil reset AddressBook' geschieht.
+
+
+
+
+        5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung         Seite 17/24
+
+
+                                      fi
+                          ff
+                     ff
+                     4 Anhang
+                            Einige Informationsquellen sind im Literaturverzeichnis aufgeführt und
+                            enthalten zusammen mit dem gedruckten Beispiel grundlegende Hinweise
+                            zur allgemeinen Korrespondenz.
+
+
+                   4.1 Quellen und Literaturverzeichnis
+       SNV, Winterthur –    www.snv.ch
+                            SN 010130-2010 – Geschäftsbrief                                                4
+                            Richtlinien zur Einteilung eines Briefblattes A4
+                            Richtlinien zum Bedrucken einzelner Felder
+                            Richtlinien zur Beschriftung
+
+
+                                                                                                           Anhang
+Schweizerische Post, Bern   Broschüre 'Briefe' – Ausgabe April 2012
+                            'Spezi kation - Briefgestaltung von A-Z' - Ausgabe Dezember 2022
+                            Mit der Beachtung der folgenden Vorschriften erlauben Sie es der Post, Ihre
+                            Sendung schnell abzuwickeln und ersparen sich Mehrkosten.
+
+                       •    Vom Zeilenende der Adresse zum rechten Rand der Karte bzw. des Kuverts
+                            müssen mindestens 15 mm (12 mm zum Rand und 3 mm zum Fenster)
+                            Rand eingehalten werden.
+                       •    Wenn der Empfänger ein Postfach hat, soll dieses angegeben werden,
+                            jedoch ohne Nummer.
+                       •    Setzen Sie keine Länderkürzel vor die Postleitzahl (z.B. „CH-5610“). Das
+                            Land gehört ausgeschrieben auf eine separate Zeile unterhalb von PLZ/Ort
+                            und wird in Grossbuchstaben gesetzt („SCHWEIZ“). Der Ländername wird in
+                            französischer oder englischer Sprache geschrieben. Für Sendungen in
+                            Nachbarländer darf auch der Ländername in der jeweiligen Landessprache
+                            verwendet werden.
+                       •    Kursive, negative, gebrochene oder Zierschriften dürfen nicht verwendet
+                            werden, sie verunmöglichen eine automatische Verarbeitung bei der Post!
+                       •    Die Schriftgrösse muss zwischen 3 mm (ca. 9pt) und höchstens 9.8 mm
+                            (ca. 28pt) liegen. Die optimale Schriftgrösse beträgt 10pt.
+                       •    Der Durchschuss – das ist der Abstand zwischen den Unterlängen der
+                            oberen Zeile zur Oberlänge der unteren Zeile – muss mindestens 1 mm und
+                            maximal 1.5 mm betragen.
+                       •    Eine Adresse besteht aus mindestens 3, maximal 6 Zeilen.
+                       •    Der Adressblock darf keine Leerzeilen aufweisen.
+                       •    Weder Postleitzahl noch Ort werden unterstrichen.
+
+
+
+                   4.2 Beispiele Korrespondenz Formulare
+                            Die folgenden Seiten zeigen die gedruckte Version einzelner Korrespon-
+                            denz Formulare wie Briefe, Listen oder Etiketten.
+
+
+
+
+                            5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung         Seite 18/24
+
+
+                               fi
+5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung   Seite 19/24
+5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung   Seite 20/24
+5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung   Seite 21/24
+5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung   Seite 22/24
+5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung   Seite 23/24
+5.11 BBaseAdressverwaltung - Aufbau der Adressverwaltung   Seite 24/24
+
