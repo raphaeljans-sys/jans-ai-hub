@@ -258,3 +258,15 @@ ausführenden Station, Wach-/Schlafzustand am Wochenende).
   nach dem massgeblichen Wochenschnitt **nicht mehr** (69 Tage, Schwelle 60), nach dem
   Werktagsschnitt mit Vorbehalt schon (49 Tage) — beides ist gemeldet. Keine
   Auto-Bereinigung, kein Blocker.
+
+## Git-Stand (Backup)
+
+Nativ per ssh auf der Synology gemessen (nie `git` über den SMB-Mount): der heutige Report
+ist als **`91a91d5b8`** vom 07.09.2026 20:12 committet, die Divergenz zu `github/HEAD`
+beträgt **0 voraus / 0 nicht integriert**. Das Backup läuft.
+
+Hinweis zum Messweg, damit ihn der nächste Lauf nicht erneut sucht: das Repo liegt auf der
+Synology unter **`/volume2/daten/jans-ai-hub`**, nicht unter `/volume1/...` — eine Abfrage
+gegen `/volume1` scheitert mit «not a git repository» und darf nicht als Backup-Ausfall
+gelesen werden. Ebenso führt das Repo weiterhin nur `github/HEAD`, keinen Tracking-Ref
+`github/main`.
