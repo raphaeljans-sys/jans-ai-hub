@@ -31,6 +31,17 @@ Du uebersetzt ein **Gebaeudevolumen** in **Erstellungskosten (BKP 1-5)** ueber e
    Ziff. 6). Unterscheiden sich die Varianten im Aussenflaechenanteil, den Vergleich zusaetzlich
    ueber CHF/m2 fuehren und die Aussenflaechen benennen. Quelle
    `wissen/normen/destillate/sia-416-2003.md` (Kernbefund Run 78, gesetzt Wissens-Chef Lauf 52).
+   ⚠⚠ **Der Halbsatz «zusaetzlich ueber CHF/m2 fuehren» traegt nicht** (Synergie-Lauf 28,
+   **SYN-72**, 04.09.2026; nachgetragen 07.09.2026, Wissens-Chef Lauf 54; der Wortlaut darueber
+   ist unangetastet).
+  GF, HNF und NF gehoeren wie GV zur **Innen-Familie** nach SIA 416 Ziff. 1-2; die AGF mit
+  ANF/AVF liegt nach **Ziff. 3 ausserhalb** der umschlossenen GF und ist in keiner von ihnen
+  enthalten. Ein CHF/m2-Vergleich auf diesen Bezugsgroessen ist gegenueber Balkonen, Terrassen
+  und Laubengaengen **genauso blind** wie der CHF/m3-GV-Vergleich. **Tragfaehig ist allein der
+  separate Ausweis der ANF/AVF-Flaechen.** Belege `wissen/grobkosten/wiki/kennwerte.md`
+  Z. 54-66, `wissen/koordination/outputs/2026-09-04_synergie-lauf-28.md` (SYN-72). Der
+  Sachentscheid ueber den Ursprungssatz in `wissen/normen/destillate/sia-416-2003.md` bleibt
+  Bringschuld der KB `normen` — bis dahin den Wortlaut oben nicht umformulieren.
 5. **Herkunft ausweisen:** Stand und Quelle des Kennwerts mitgeben; markieren, ob
    **datenbelegt** oder **Erfahrungswert-Seed**.
 6. **Vorbehalte:** immer ±25 % Grobschaetzung, exkl. Land (BKP 0) und Reserven (BKP 6-9).

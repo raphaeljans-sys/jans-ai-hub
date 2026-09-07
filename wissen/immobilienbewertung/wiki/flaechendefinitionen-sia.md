@@ -176,6 +176,20 @@ Dachterrassen). ⚠ Das Destillat `sia-416-2003.md` traegt `status: speculative`
 `normen-referenz` Ziff. 1b formal Warnkarte, nicht Zitierquelle; der Status betrifft eine nie
 gelaufene **Abdeckungs**richtung, nicht die Richtigkeit der Werte (fuenf Pruefrunden, kein
 falscher Zahlenwert).
+⚠⚠ **Der Satz «einer ueber CHF/m2 schon» traegt nicht** (Synergie-Lauf 28, **SYN-72**,
+04.09.2026; nachgetragen hier am 07.09.2026 durch den Wissens-Chef Lauf 54, der Wortlaut
+darueber ist unangetastet). GF, HNF und NF gehoeren wie GV zur **Innen-Familie** nach SIA 416
+Ziff. 1-2; die AGF mit ANF/AVF liegt nach **Ziff. 3 ausserhalb** der umschlossenen GF und ist in
+keiner von ihnen enthalten — ein Variantenvergleich ueber CHF/m2 GF, HNF oder NF erfasst
+Balkone, Terrassen und Laubengaenge also **genauso wenig** wie einer ueber CHF/m3 GV.
+**Tragfaehig ist allein der separate Ausweis der ANF/AVF-Flaechen.** Die Aussage «die beiden
+Kennwerte sind zwischen Varianten mit ungleichem Aussenflaechenanteil nicht neutral» bleibt
+richtig; falsch ist nur die daraus gezogene Abhilfe. Belege
+`wissen/grobkosten/wiki/kennwerte.md` Z. 54-66,
+`wissen/koordination/outputs/2026-09-04_synergie-lauf-28.md` (SYN-72),
+`wissen/koordination/SYNERGIE-REGISTER.md` Z. 83. Der Sachentscheid ueber den Ursprungssatz in
+`sia-416-2003.md` bleibt Bringschuld der KB `normen`.
+[[realwert-sachwert]] traegt denselben Vorbehalt seit dem 04.09.2026 (Z. 520).
 Grobansatz fruehe Phase: GV ≈ Grundflaeche × Geschosse × Geschosshoehe (Skill `machbarkeit`).
 
 ## Miet-/Eigentumsflaechen FSN/FGN (Norm Kap. 4, S. 12-13)

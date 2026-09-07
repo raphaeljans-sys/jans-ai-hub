@@ -27,6 +27,40 @@ Haus», nicht die Beschaffung.
 Gemeldet vom Wissens-Chef (Lauf 53, adversarial verifiziert), Bericht
 `wissen/koordination/outputs/2026-09-07_wissens-chef-run53.md`.
 
+⚠ **Der oben genannte Bericht existiert nicht** (Nachtrag 07.09.2026, Wissens-Chef Lauf 54):
+Lauf 53 wurde nach seinen KB-Eingriffen und vor dem Registerschritt unterbrochen und hat weder
+Laufbericht noch Koordinations-CHANGELOG-Eintrag geschrieben. Sein Protokoll ist rekonstruiert in
+`wissen/koordination/outputs/2026-09-07_wissens-chef-run54.md` §2 und im CHANGELOG der KB
+`koordination` (Eintrag «Lauf 53, nachgetragen durch Lauf 54»). Der Sachbefund WC53-1 selbst ist
+davon unberührt und bleibt gültig.
+
+## Cross-KB-Eingang Wissens-Chef Lauf 54 (07.09.2026) — SN EN 17037 fehlt im Register
+
+**WC54-1 — Registerlücke SN EN 17037 «Tageslicht in Gebäuden», Ausgabejahr unbekannt.** Die KB
+`energie` rechnet mit dieser Norm: `wissen/energie/destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md`
+Z. 603 lässt die Tageslichtberechnung nach **SN EN 17037** für Minergie-ECO ausdrücklich zu, Z. 610
+führt die vereinfachten Tageslichtquotienten-Schwellen (0.6 / 1.9 / 3.1 / 4.7 %) darauf zurück. Der am
+07.09.2026 in Run 185 angelegte Artikel `wissen/energie/wiki/tageslicht-minergie-eco.md` (`status: emerging`)
+hält in seiner Warnkarte Z. 12-16 selbst fest, die Ausgabejahre von SN EN 17037 und SIA 380/1 nenne der
+Vorgabenkatalog nicht und sie seien «vor einem Zitat in einem ausgehenden Dokument über die KB `normen`
+zu verifizieren (Rule `normen-referenz`)» — die KB `energie` hat die Bringschuld also selbst adressiert.
+In dieser KB dagegen: **kein Destillat, kein Inventareintrag, keine Registerzeile.** Gemessen 07.09.2026:
+`grep -rn "17037"` über `wissen/`, `skills/` und `agents/` trifft ausschliesslich acht Dateien der KB
+`energie`; `wissen/normen` und `wissen/planungsgrundlagen` haben null Treffer.
+
+**Abgrenzung, damit die Lücke richtig geschnitten wird:** Diese KB führt fünf `established`-Destillate der
+DIN-5034-Reihe «Tageslicht in Innenräumen» plus den Syntheseartikel `wiki/synthese-din-vss-ral-fachskills.md` §7.
+Das ist eine **deutsche** Norm mit eigener Bezugsgrösse, und der Syntheseartikel hält in seiner
+Kollisionstabelle selbst fest, die DIN-Werte seien nicht als CH-Anforderungswerte verwendbar. Die Lücke
+betrifft also die **Norm SN EN 17037**, nicht das Thema Tageslicht.
+
+**Gebeten ist zunächst nur die Registerzeile** mit Ausgabejahr und Bestandsvermerk — nicht die Beschaffung
+und nicht ein Destillat. Solange sie fehlt, kann kein Fach-Skill der Rule `normen-referenz` folgen, wenn er
+einen Minergie-ECO-Tageslichtwert in ein ausgehendes Dokument nimmt.
+
+Gemeldet vom Wissens-Chef (Lauf 54, adversarial verifiziert), Bericht
+`wissen/koordination/outputs/2026-09-07_wissens-chef-run54.md`.
+
 ## Normen-Nacht Run 80 (07.09.2026) — die Ersatzmassnahmen-Matrix ist aufgenommen; drei Punkte bleiben offen
 
 **Betrifft `destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md`.** Run 79 hatte zwei

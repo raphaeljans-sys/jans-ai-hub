@@ -160,6 +160,21 @@ dokumente/bewilligungsprozess/dokumente/merkblatt-absturzsicherungen-hochbau.pdf
 noch auf Fassung 1.6.2019: `wissen/planungsgrundlagen/wiki/recht-norm-arbeitshilfen-planungsdetails.md`
 §3, Nachführung offen). Ausserhalb der Stadt Zürich nicht ohne weiteres übertragbar.
 
+**Glasbrüstungen, Abgrenzung (Vermerk 07.09.2026, Wissens-Chef Lauf 54):** Übernimmt ein
+Glasbauteil die Geländerfunktion, tritt neben die Höhen-Massvorschrift, auf die sich die
+15-%-Schwelle bezieht, eine zusätzliche Anforderung an die **Glasart**. Die bfu-Fachdokumentation
+2.006.01 «Glas in der Architektur» (12.2020, Mitherausgeberin SIGAB) nennt dafür einen konkreten
+Schwellenwert und stützt ihn auf SIA 358: Floatglas ist zulässig, wenn die Oberkante der unteren
+Glasleiste einer Festverglasung mindestens 1,0 m über der begehbaren Fläche liegt; darunter
+besteht bei Absturzgefahr Sicherheitsglas-Pflicht
+(`wissen/normen/destillate/bfu-glas-in-der-architektur-2020.md`, Abschnitt «Vorgabe SIA 358»).
+**Zwei Vorbehalte wandern zwingend mit:** das Destillat trägt `status: speculative` und ist am
+SIA-358-Normtext selbst nicht gegengeprüft (SIA 358 nicht im Haus, Bring-Schuld der KB `normen`)
+— der Wert ist vor Verwendung in einem Deliverable am Original zu prüfen; und er beantwortet
+**nicht dieselbe Frage** wie die 15-%-Schwelle: diese betrifft die Anpassungspflicht bei der
+Massvorschrift der Absturzsicherung, jener die Glasart. Die parallele Kante zu
+`wissen/normen/destillate/bfu-gelaender-und-bruestungen.md` steht weiter oben in diesem Artikel.
+
 **Verhältnis zur Bestandesgarantie (geklärt 2026-08-23):** Die Richtlinie schafft **keine eigene
 Rechtsgrundlage** über Abs. 4 hinaus — ihre eigene Grundlagenliste nennt ausdrücklich § 239
 Abs. 1, § 357 Abs. 4, § 358 PBG und § 20 BBV I. Die 15-%-Schwelle konkretisiert damit ausschliesslich

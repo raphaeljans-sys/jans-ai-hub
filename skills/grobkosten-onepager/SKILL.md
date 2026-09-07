@@ -51,6 +51,19 @@ Zuschlag (optional)          ×  (1 + Zuschlag%)        z.B. Hanglage, Untergesc
   bei mittleren Projekten liegt das Delta meist noch innerhalb der ausgewiesenen ±25-%-Bandbreite
   der Grobschaetzung; materiell wird es bei kleinen Projekten und bei bewusst balkonlastigen
   Varianten — also genau dann, wenn der Aussenflaechenanteil das Vergleichsmerkmal ist.
+- ⚠⚠ **Die Abhilfe «zusaetzlich ueber CHF/m2 ausweisen» im Vorbehalt darueber traegt nur zur
+  Haelfte** (Synergie-Lauf 28, **SYN-72**, 04.09.2026; hier nachgetragen 07.09.2026 durch den
+  Wissens-Chef Lauf 54, der Wortlaut darueber ist unangetastet). Tragfaehig ist die zweite
+  Haelfte des Satzes — «die Aussenflaechen separat benennen» —, nicht der Wechsel der
+  Bezugsgroesse.
+  GF, HNF und NF gehoeren wie GV zur **Innen-Familie** nach SIA 416 Ziff. 1-2; die AGF mit
+  ANF/AVF liegt nach **Ziff. 3 ausserhalb** der umschlossenen GF und ist in keiner von ihnen
+  enthalten. Ein CHF/m2-Vergleich auf diesen Bezugsgroessen ist gegenueber Balkonen, Terrassen
+  und Laubengaengen **genauso blind** wie der CHF/m3-GV-Vergleich. **Tragfaehig ist allein der
+  separate Ausweis der ANF/AVF-Flaechen.** Belege `wissen/grobkosten/wiki/kennwerte.md`
+  Z. 54-66, `wissen/koordination/outputs/2026-09-04_synergie-lauf-28.md` (SYN-72). Der
+  Sachentscheid ueber den Ursprungssatz in `wissen/normen/destillate/sia-416-2003.md` bleibt
+  Bringschuld der KB `normen` — bis dahin den Wortlaut oben nicht umformulieren.
 - **Kennwert** = BKP 1-5 (Gebaeude + Umgebung + Baunebenkosten inkl. Planerhonorare),
   exkl. Land (BKP 0), Reserven/Finanzierung (BKP 6-9). Quelle: KB `wissen/grobkosten`.
 - Immer als **Grobschaetzung ±25 %** deklarieren, keine Kostengarantie.

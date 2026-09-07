@@ -70,6 +70,14 @@ verschickbar.
                    Aussenflaechenanteil, das Studio zusaetzlich ueber CHF/m2 ausweisen —
                    sonst ist der Reglervergleich zwischen ihnen nicht neutral. Quelle
                    wissen/normen/destillate/sia-416-2003.md (Run 78, gesetzt Lauf 52).
+                 ⚠⚠ Die Abhilfe «zusaetzlich ueber CHF/m2 ausweisen» traegt nicht
+                   (Synergie-Lauf 28, SYN-72, 04.09.2026; nachgetragen 07.09.2026,
+                   Wissens-Chef Lauf 54). GF/HNF/NF gehoeren wie GV zur Innen-Familie
+                   nach SIA 416 Ziff. 1-2, die AGF mit ANF/AVF liegt nach Ziff. 3
+                   ausserhalb — der CHF/m2-Vergleich ist gegenueber Balkonen und
+                   Laubengaengen genauso blind. Tragfaehig ist allein der separate
+                   Ausweis der ANF/AVF-Flaechen im Studio. Beleg
+                   wissen/grobkosten/wiki/kennwerte.md Z. 54-66.
 5 WIRTSCHAFT     Agent wirtschaftlichkeit-rechner / immobilienbewertung
                  → Verkaufspreis|Mietzins, Marge, Diskont, Residualwert, Sensitivitaet
 6 MODELL         alles in EIN model.json giessen (schema/studio-model.schema.json)
