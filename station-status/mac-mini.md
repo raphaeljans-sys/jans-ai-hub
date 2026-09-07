@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 07.09.2026 23:28:34
+Stand: 07.09.2026 23:38:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:07)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -16,4 +16,4 @@ Stand: 07.09.2026 23:28:34
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 577a17398 nas-selfcommit: 2 Datei(en) 2026-09-07 23:15
+- 45655d3dd Nachtschicht Mac Mini: bauprodukte QUESTIONS Punkt 9 (Bekleidungs-Teil) geschlossen, neuer Artikel lbw-brandschutzwaende-en520-typ-d
