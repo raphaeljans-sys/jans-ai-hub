@@ -1,3 +1,49 @@
+## 2026-09-07 — Normen-Nacht Run 80 (MacBook Pro, SIA/VKF)
+
+**Die zwei Teile, die Run 79 an `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` selbst als
+offen ausgewiesen hat, sind nachgemessen. 6 Kernlücken, 0 falsche Werte, eine berichtigte
+Delta-Aussage. Status unverändert `speculative`.**
+
+- **Ersatzmassnahmen-Matrix S. 23 aufgenommen** (Methodik-Pflicht 8) — Run 79 hatte sie
+  bewusst nicht nachgezeichnet, weil die Methode dort nicht gelaufen war. Die Seite trägt
+  ausser Kopf- und Fusszeile **keinen Textlayer**. 18 Zellen rechnerisch über Farb-Blobs
+  gemessen und von einem unabhängigen Refuter mit eigenem Rendering, eigenen Farbschwellen und
+  eigener Rasterbestimmung **in allen 18 Zellen repliziert**. Kernaussage für den Skill
+  `brandschutz`: **unter 2 m Gebäudeabstand tragen nur noch zwei Wege** — beidseitig Variante D
+  (Wand EI 60 plus Brandschutzplatte plus EI-30-Abschlüsse) oder einseitig Variante F, und F
+  unterscheidet sich von E allein dadurch, dass die feuerwiderstandsfähige Seite **öffnungslos**
+  ist. Anlage `training/n80-matrix-ersatzmassnahmen-260907.md`
+- **Tabellen 2 und 3 erstmals vom Hauptprozess zellenweise abgelesen** (Run 79: nur Tab. 1).
+  **0 falsche Werte.** Neu erfasst: die **Löschanlagen-Zeile der Gruppe 1 in Tabelle 1** fehlte
+  ganz — Tragwerk «k. A.», Geschossdecke **EI 30 statt REI 30**, die einzige Stelle der
+  Richtlinie ohne R-Anteil; **Fussnote [9]** (eingeschossige Hochhausbauten, z. B.
+  Hochregallager) war nie geführt; und vier Sonderheiten, die allein Hochhäuser betreffen:
+  **[a] und [b] sind in Tabelle 3 wertidentisch** (die Faustregel «[a] ist strenger» gilt nur
+  für die Tabellen 1 und 2, dort nur baulich — inline korrigiert), **[c] und «Landwirtschaft»
+  fehlen ganz**, und **Parking wie EI 90 tragen keine Fussnote** (weder die 25-%-Öffnungsregel
+  noch die 30-Minuten-Reduktion im obersten Geschoss). Dazu die Fussnoten-Mechanik: **[5] hängt
+  zellgenau** und nie an der Spalte «Fluchtweg vertikal» und nie an Beherbergung [a] — die
+  2'400-m²-Reduktion greift dort also nicht
+- **Fassungsvergleich 2015/2017 auf S. 22-23 erstmals als Bildvergleich** (Methodik-Pflicht 4)
+  statt als Volltextvergleich. Ergebnis: **alle 18 Matrixzellen und alle sechs
+  Variantenzeichnungen sind unverändert — gemessen, nicht behauptet**; geändert ist der
+  Wortlaut an vier Stellen. Die Destillat-Aussage, die Änderung «beschränkt sich auf
+  Beschluss-Vermerk und Layout», ist entsprechend berichtigt. Die Vertauschung
+  «Bedachungen»/«Dachkonstruktionen» ist **keine geänderte Anforderung**, sondern die
+  Nachführung auf die 2016 umbenannten Kapiteltitel der BRL «Verwendung von Baustoffen» — der
+  Beleg lag seit Run 23/24 im Schwester-Destillat, die beiden Hälften waren nur nie verbunden
+- **Ein scheinbarer Befund war keiner** (Methodik-Pflicht 7/10): die Definition der
+  Beherbergungskategorien [a]/[b]/[c] samt der **20-Personen-Schwelle** führt die KB längst in
+  `vkf-brl-10-15-begriffe-definitionen`. Sie ist jetzt verlinkt und mit Fassungsvorbehalt in
+  das Destillat übernommen, aber **nicht als Lücke verbucht**. Die Schwelle ist
+  planungsrelevant: sie entscheidet, ob ein Pflegeheim überhaupt in die strengere Zeile [a]
+  fällt
+- Offen und in `wiki/QUESTIONS.md` protokolliert: **N80-1** (der Bildvergleich ist auf zwei von
+  fünf in der Änderungsliste genannten Anhangseiten gefahren — S. 27 und S. 34 stützen sich
+  weiter allein auf den Volltextvergleich), **N80-2** (die Refuter-Richtung ist auf keinem
+  Nachtrag der Runs 79 und 80 gelaufen — deshalb keine Hebung), **N80-3** (die
+  20-Personen-Schwelle stammt aus einer `superseded`-Fassung)
+
 ## 2026-09-03 (Wissens-Chef Lauf 52) — das Destillat behauptete etwas ueber seine Konsumenten, das nicht stimmte
 
 ## 2026-09-04 — Normen-Nacht Run 79 (MacBook Pro, SIA/VKF)

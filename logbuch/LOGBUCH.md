@@ -95,6 +95,25 @@ Eintrag in den Gesendeten plus der Posteingang. Beobachten, ob sich das wiederho
 Steinbruechel-Bericht heute an Bopp geht oder erst nach dessen Antwort; bis morgen der bexio-Abo-Entscheid;
 `/login` auf dem Mac Mini.
 
+**Nachtrag 08:1x — die Ursache des Aufsichtsausfalls ist gefunden und der Alarm behoben (A6).**
+Gemessen, nicht vermutet: `logbuch/heartbeat/synctask-runner-macbook-pro.stamp` stand auf **04.09.2026
+20:40** (2 Tage 11 h), waehrend `git-auto-sync-Macbookpro.stamp` von heute 08:09 frisch war — die
+Station konnte also schreiben. Die Schlafassertionen (`pmset -g log`) reichen nur **rund 20 Minuten**
+zurueck: das MacBook Pro war vom Abend des 04.09. bis heute frueh um etwa 07:35 **aus oder im
+Tiefschlaf**, entgegen der Always-On-Auslegung dieser Station. Damit fielen Radar (06:55), Hub-Chef
+(08:39) und Konversations-Log am 05. und 06.09. schlicht aus, weil niemand da war, der sie startete.
+Nach dem Hochfahren feuerte der Runner via `RunAtLoad`, aber **bevor** `/Volumes/daten` gemountet war,
+und konnte seinen Stempel nicht setzen; der Watchdog las das korrekt als Ausfall.
+**A6 ausgefuehrt:** `launchctl kickstart -k gui/501/ch.jans.synctask-runner`, rc 0, nachdem der Mount
+stand. Umkehrbar, kein Konfigurationseingriff, keine Rechteaenderung. Ergebnis: Stempel neu
+**07.09.2026 08:14**, `stationen-watchdog.sh --briefing` meldet jetzt «alle Stationen und Sync-Jobs
+melden sich fristgerecht», **Exit 0**. Der alte `err.log`-Eintrag vom 06.07.2026 («FDA-VERDACHT») ist
+zwei Monate alt und war heute nicht die Ursache.
+**Nicht per Mail nachgeschoben**, weil das Briefing von 08:09 den Befund und die Wirkung bereits traegt
+und eine zweite Mail fuenf Minuten spaeter genau das Muster waere, das die Sende-Schwelle vom
+03.08.2026 verhindern soll. **Offen fuer Raphael, ohne Eile:** warum diese Station ueber das Wochenende
+aus war, und ob der Runner seinen Stempel kuenftig erst nach `ensure-nas-mounted.sh` setzen soll.
+
 ## AG-Gründung 07.09.2026 (07:50, Monitor-Scan) — Kapitaleinzahlung KRITISCH überfällig; kein Fortschritt seit 31.08.
 
 **Status quo gemessen (Monitor-Scan 07.09. 07:50):** Keine neuen Mails in mail@/rj@ seit **31.08.2026 00:00** (sieben Tage Stillstand). Monitor funktioniert jetzt wieder (osascript-Blockade 28.08.–01.09. behoben).
