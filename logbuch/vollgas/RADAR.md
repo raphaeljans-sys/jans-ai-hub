@@ -53,6 +53,30 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-08 12:57 — [FREI] **Regellauf ohne Befund. Verbrauch laeuft dem Zeitverlauf 6.9 Punkte HINTERHER (8.0 % bei 14.9 % verstrichener Woche), Liefer-Delta in neun KBs. Ein Befund betrifft dieses Werkzeug selbst: die gemessenen «180 s» der Fensterprobe sind ein Artefakt meines eigenen Watchdog-Rezepts, kein Latenzwert.**
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 08.09. 00:57, dieser Lauf 12:57 — **12 h 00 min** bei 15 h Toleranz (Takt 12 h + 3 h). Kein verpasster Slot.
+
+**Fenster [FREI].** Probe ueber den PATH-Regelweg (`/opt/homebrew/bin/claude`, Rueckstellung vom 03.09.): Antwort «OK», **rc=0**. Die Gegenmessung nach Eintrag 260807-Spiegelfall ist damit zum zweiten Mal in Folge positiv — der PATH-Weg bleibt Regelweg, der app-gebuendelte Weg bleibt Rueckfall.
+
+**⚠ MESSFALLE IM EIGENEN PROBE-REZEPT (eigener Befund, fuer den naechsten Lauf).** Die gestoppte Wanduhr sagte **180 s** — exakt die Watchdog-Untergrenze, und das ist kein Zufall. Ursache liegt in der Konstruktion, nicht im CLI: der Watchdog laeuft als `( sleep 180; kill ... ) &`, und `kill $WPID` beendet die **Subshell**, nicht deren `sleep`-Kindprozess. Solange der `sleep` lebt, haelt er das Schreibende der Pipe nach `tail -5` offen, und die Wanduhr um den ganzen Aufruf laeuft weiter, obwohl `claude` laengst geantwortet hat. **Der echte Antwortwert dieses Laufs ist damit nicht gemessen** und darf NICHT als «180 s» in die Latenz-Reihe eingetragen werden — er wuerde dort eine Degradation behaupten, die dieser Lauf nicht belegt. Gleiche Familie wie die `find -newermt`-Falle vom 20.08. und die grep-Falle am nicht-UTF-8-Selfcommit-Log: **ein auffaelliger Messwert ist zuerst eine Aussage ueber das Instrument.** Korrektur fuer kuenftige Laeufe: die Dauer **um den `claude`-Aufruf selbst** stoppen (Zeitstempel unmittelbar vor `claude` und direkt nach `wait $CPID`), den Watchdog per `kill -- -$WPID` samt Prozessgruppe abraeumen und die Probe nicht durch `tail` pipen. Die Latenz-Reihe bleibt deshalb bei ihrem letzten belegten Stand; dieser Lauf steuert keinen Punkt bei.
+
+**Wochenbudget: 13.3 von 167 Mio, Ampel FREI, Anteil 8.0 % bei 14.9 % verstrichener Woche, Vorsprung −6.9 Punkte.** Der Verbrauch laeuft dem Zeitverlauf hinterher, nicht voraus — kein Drosselbedarf, und der stehende Entscheid «gleichmaessig ueber die Woche» ist eingehalten. Stationen: MacBook Pro 7.66 Mio, Mac Mini 5.64 Mio, beide frisch.
+
+**Liefer-Delta seit 07.09. 23:00 (ueber git gemessen, nicht ueber `find`):** 50 geaenderte Dateien in neun KBs — baurecht 12, twin 11, energie 8, normen 7, bauprodukte 4, koordination 3, projekt-lessons 2, immobilienbewertung 2, spec 1. Dazu Rules (`jans-dna-facetten`, `betrieb-chronik`), drei Skills und die operativen Register. **Kein Loop mit Delta Null, kein Ruecktakt- oder Stilllegungskandidat.** Der Mac-Mini-Nachtlauf hat mit Run 187 den Minergie-ECO-Vorgabenkatalog geschlossen (alle 59 Vorgaben mindestens einmal am Volltext gelesen).
+
+**Feuermechanismen: konsistent ueber alle drei Orte.** Beide `vollgas`-plists auf dem MacBook und die Supervisor-plist auf dem Mini tragen unveraendert die Endung `.disabled-260729`, `launchctl list` zeigt auf keiner Station einen geladenen vollgas-Job. Auf dem Mini laeuft `ch.jans.nachtschicht` wie vorgesehen. Der stehende Entscheid vom 30.07. ist gewahrt.
+
+**Speicher und Waisen: ohne Befund.** Keine `claude -p`-Waise. Frei+inaktiv+purgeable 1.3 GB bei Pressure Level **1 (normal)**; die 14 Claude-Prozesse halten zusammen **1.83 GB RSS** — zum Vergleich der Notstand vom 02.09. mit 18.13 GB. Der `ch.jans.speicher-waechter` ist geladen. Die niedrige Frei-Zahl ist damit nicht Claude zuzuschreiben und bei Pressure 1 kein Handlungsanlass.
+
+**P1:** keiner.
+**P2:** keiner.
+**P3:** Das Probe-Rezept beim naechsten Lauf wie oben korrigieren, damit die Latenz-Reihe wieder Messpunkte bekommt. Sie hat durch diesen Lauf keinen Schaden genommen, aber auch keinen Zuwachs.
+
+**Keine Mail** (kein P1, kein geloester P1, kein erschoepftes Wochenkontingent). **Keine Massnahme ausgefuehrt** — es gab nichts zu drosseln, zu ruecktakten oder scharf zu schalten.
+
+---
+
 ## 2026-09-08 00:57 — [FREI] **Selbstkontrolle formal nicht bestanden (16 h 36 min), aber der verpasste Slot war kein Ausfall: der 12:57-Lauf hat gefeuert und gearbeitet, er konnte nur nichts schreiben, weil das NAS gerade aus war. Damit ist ein dritter Ausfalltyp belegt, den die Pruefvorschrift bisher nicht kennt.**
 
 **Selbstkontrolle: formal nicht bestanden.** Letzter Eintrag **07.09. 08:21**, dieser Lauf **08.09. 00:57** — **16 h 36 min** bei 15 h Toleranz (Takt 12 h + 3 h). Fehlender Slot: 07.09. 12:50.
