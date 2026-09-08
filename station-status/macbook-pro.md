@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 08:17:16
+Stand: 08.09.2026 08:27:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:03)
@@ -12,4 +12,4 @@ Stand: 08.09.2026 08:17:16
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e974766c8 nas-selfcommit: 1 Datei(en) 2026-09-08 08:15
+- 97f1b5e48 zahlungsabgleich 260908: bexio-Zugang Tag 31 tot (401 + Aussteller-Gegenprobe), Bericht abgelegt, Nachtrag RE-00087 (36 Tage Ball bei KISPI-Buchhaltung, 145 Verzugstage)
