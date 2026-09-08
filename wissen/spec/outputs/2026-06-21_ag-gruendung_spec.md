@@ -556,6 +556,8 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
 
 ---
 
-## CHANGELOG (Monitor-Befund 24.08.2026, 07:46)
+## CHANGELOG (Monitor-Befund 08.09.2026, 07:5x)
+
+**08.09.2026 — Kapitaleinzahlung 18+ Tage überfällig, ohne neuen Fortschritt.** Monitor-Lauf zeigt unverändert: keine UBS-Mail seit 29.07., Notariat seit 13.08. ohne Antwort. osascript Mail-Verifikation heute blockiert (TCC), daher nicht verifizierbar ob neue Mails nach 31.08. eingegangen sind. **Status: P1-kritisch, Aktion Raphael nicht verzögerbar.** Logbuch + fristen.md + Spec-CHANGELOG (Eintrag heute) aktualisiert; keine Mail gesendet (Ein-Mail-Prinzip, aber P1-Punkt bereits im Logbuch markiert, das der Hub-Chef liest).
 
 **24.08.2026 — Monitor funktioniert seit 17 Tagen nicht (seit 07.08.2026).** Letzter Eintrag 30.07. mit Durchbruch UBS. Stand unbekannt: Kapitalbescheinigung-Status unklar. Task-Lauf 19.08. 05:47 brach mit Modell-Fehler ab. Fristen + Logbuch dokumentiert. Aktion: Monitor zu prüfen, Posteingang mail@ manuell prüfen.

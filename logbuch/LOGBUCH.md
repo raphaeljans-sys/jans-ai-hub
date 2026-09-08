@@ -77,6 +77,22 @@ Ende KW 38: Masskontrolle Rohmasse Türen vor Ort mit A. Spahic.
 
 07.09.2026: MacBook Pro 213.3 Mio. Tokens und USD 167.00, Mac Mini 101.2 Mio. Tokens und USD 98.75, zusammen 314.5 Mio. Tokens und USD 265.75 API-Kostenäquivalent.
 
+## AG-Gruendung 08.09.2026 (07:5x, Monitor-Lauf) — P1-Kritisch unverändert, keine neuen Mails seit UBS 29.07. und Notariat 13.08.
+
+**Status unverändert, Fristen verlängert sich täglich:** Monitor-Scan ohne neue UBS- oder Notariats-Einträge seit 31.08. (24-h-Guard). osascript Mail-Zugriff ist heute blockiert (TCC, «Operation not permitted» beim Inbox-Lesen); letzte verifizierte Messung 07.09. 07:50 bestätigte **keine neuen Mails seit 31.08. 00:00**. UBS Kapitalbestätigung (Bescheinigung per Einschreiben) fehlt seit Solltermin Mitte August; **Einzahlung CHF 50'000 auf Sperrkonto ist seit 07.09. 07:50 17+ Tage überfällig, heute 18+ Tage**. Notariat Wiedikon-Zürch (Mathies) antwortet seit 13.08. nicht (26 Tage).
+
+**Blockadenverkettung belegt:**
+- Ohne CHF 50'000 Einzahlung → keine UBS-Kapitalbescheinigung
+- Ohne Kapitalbescheinigung → Notariat kann nicht beurkunden
+- Ohne Beurkundung → keine Unternehmung rechtlich gegründet
+
+**Aktion Raphael P1 — kann nicht länger aufgeschoben werden:**
+1. CHF 50'000 auf UBS-Sperrkonto **IBAN CH46 0027 6276 1238 74D7 N** einzahlen
+2. UBS anrufen/mailen (sh-cic-onboarding-newclients@ubs.com, B. Jeckelmann): Kapitalbescheinigung per Einschreiben anfordern
+3. Nach UBS-Bestätigung: Notariat Wiedikon-Zürch kontaktieren (wiedikon-zuerich@notariate-zh.ch) für Beurkundungstermin
+
+| Monitor-Lauf 08.09.2026 07:5x (osascript-Blockade tritt auf, Mail-Verifikation nicht möglich), letzte belastbare Messung 07.09. 07:50 | AG JANS Gründung | **KRITISCH (P1)** | offen — Kapitaleinzahlung, UBS-Bestätigung, Notarstermin |
+
 ## Hub-Chef 07.09.2026 (08:0x, Tagesbriefing) — Radar und AG-Monitor haben heute NICHT gesendet; Briefing versandt, Thalwil-Entwurf bereit
 
 **Lauf-Vorbedingung.** `/Volumes/daten` war beim Session-Start nicht gemountet (LAN 192.168.1.10 nicht
