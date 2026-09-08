@@ -5447,3 +5447,64 @@ Die Signatur fuehrt «0041 79 846 11 65». Die Anruf-Bitte 04.09. 14:03 fuehrt d
 Die ungegliederte Form ist die **waehlbare**, nicht die repraesentative: sie steht dort, wo der
 Empfaenger sie antippen soll. Der Zwilling setzt in solchen Faellen die Signaturform ein und
 macht aus einem Aktionsknopf eine Visitenkarte.
+
+## Verb-Grossschreibung in der Bitten-Formel — aus der Schwankung wird ein Muster (Batch 116, authentisch)
+
+Batch 114 hatte die Binnengrossschreibung von «bitten» als **Schwankung, kein Marker** eingeordnet
+(n = 2, beide auf denselben Vornamen). Der 07.09.2026 hebt sie über diese Schwelle: **dreimal am
+selben Tag, in zwei Registern, an drei verschiedene Empfänger.**
+
+> «Darf ich Dich **Bitten** dies uns so zu bestätigen …» (10:37, Du, Unternehmer)
+> «**Ich Bitte Sie** die Türen sobald als möglich zu **Liefern** und montieren.» (10:53, Sie, Lieferant)
+
+Zwei Beobachtungen schärfen den Marker:
+
+1. **Es trifft nicht nur «bitten».** «zu Liefern und montieren» grossschreibt das erste Verb der
+   Aufzählung und lässt das zweite klein. Grossgeschrieben wird das Verb, das die **verlangte
+   Handlung** benennt, und nur dort, wo die Bitte selbst formuliert wird.
+2. **Es ist registerunabhängig**, aber nicht kontextunabhängig: alle drei Fälle stehen in
+   verbindlichen Anweisungsmails an Ausführende, keiner in den Freigabe- oder Linkmails desselben
+   Tages. Im selben Text steht daneben ein korrekt kleingeschriebenes «bitte ich Sie» — die
+   Grossschreibung ist also keine feste Regel seiner Hand, sondern eine Betonung unter Druck.
+
+Für den Zwilling bleibt es **gesperrt** (nicht nachbilden), aber es ist ab jetzt ein **erwartetes
+Merkmal eigener Hand** in der Herkunftsmessung, gleicher Rang wie «an Herr \<Vorname Nachname\>»
+aus Batch 115. Offen, ob Raphael die Form als Fehler oder als Betonung sieht: [[QUESTIONS]]
+260908 #3.
+
+## Fehlerdichte trennt die Hände weiterhin sauber — 5 % gegen 0 % am selben Tag (Batch 116)
+
+Messung über sechs Einheiten eigener Hand (238 Wörter, `stilmetrik.py`) gegen eine
+`claude-aera`-Mail desselben Tages (76 Wörter):
+
+| | Wörter | Du-Gross-Quote | Satzlänge | Fehler je 100 W |
+|---|---|---|---|---|
+| **Gold** (eigene Hand, 6 Einheiten, Outlook Mobile) | 238 | **0.80** | 17.0 | **≈ 5** |
+| **Kontrolle** (Zwilling, Honorarofferte, Apple Mail) | 76 | **1.00** | 8.4 | **0** |
+
+Die Du-Gross-Quote zeigt den Riss am deutlichsten: der Zwilling schreibt **4/4** gross, Raphael
+**4/5** — das kleine «deine Angebote» steht drei Zeilen unter einem grossen «Dir» und «Dich»,
+im selben Absatz. Der Zwilling ist an dieser Stelle korrekter als das Original, und genau daran
+ist er erkennbar.
+
+Zweiter Befund: die **Fehlerdichte skaliert mit der Verhandlungslast, nicht mit dem Register.**
+Die beiden langen, geldrelevanten Mails (Nachtrag CHF 4'785, Auftragsbestätigung Türen) tragen
+5 bis 6 Fehler je 100 Wörter; die kurzen Freigabe- und Linkmails desselben Tages tragen 0 bis 1.
+Wo schnell und unter Druck entschieden wird, steigt die Fehlerdichte — nicht dort, wo der Ton
+locker ist.
+
+## «Hoi liebe Levi:» — der Doppelpunkt kündigt das Artefakt an (Batch 116, authentisch)
+
+07.09.2026 14:20 an den Türen-Fachplaner, die vollständige Mail unter der Anrede:
+
+> Hoi liebe Levi:
+> [231.10 02 KORREX JEGEN Werkpläne]
+
+Drei Marker in vier Wörtern: **Doppelanrede** («Hoi» + «liebe»), **falsches Genus** beim
+männlichen Vornamen, und ein **Doppelpunkt statt Komma**. Der Doppelpunkt ist nicht Schlamperei,
+sondern funktional — er kündigt an, dass unmittelbar das Artefakt folgt und kein Satz mehr kommt.
+Dieselbe Mail hat weder Gruss noch Signaturblock.
+
+Das ergänzt die knappste Registerstufe aus Batch 115 («Hoi Mustafa kannst du mich kurz anrufen.»)
+um ihre schriftliche Variante: **dort war der Aktionsknopf eine Telefonnummer, hier ist er ein
+Link.** Der Zwilling baut in beiden Fällen einen Satz darum herum und zerstört damit die Form.

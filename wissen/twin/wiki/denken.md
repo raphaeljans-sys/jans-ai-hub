@@ -1574,3 +1574,47 @@ Unterstrich-Bullets), Punkte 1 und 2 sind eigene Hand (drei Fehler auf rund 60 W
 vorbereitete Block hat die Stelle nicht verschoben** — Raphael hat ihn dorthin gesetzt, wo seine
 eigene Dramaturgie ihn erwartet. Das ist der bislang beste Beleg, dass die Regel seine ist und
 nicht die des Werkzeugs.
+
+## Die Rechenkette wird zweimal hingeschrieben — einmal als Herleitung, einmal als Bilanz (Batch 116, authentisch)
+
+07.09.2026 10:37, Nachtragsverhandlung mit dem Gipserunternehmer über zwei Unterzüge. Der Kern
+der Mail sind dieselben zwei Zahlen in zwei Anordnungen:
+
+> Unterzug 2.001 Aufenthalt
+> 3.0m + 7.2m = 10.2m
+> 10.2m x 300.-/lm = 3'060.-
+>
+> Unterzug 2.039 Speisezimmer
+> 5.75m x 300.-/lm = 1'725.-
+>
+> Unterzug 2.001 Aufenthalt: 3'060.-
+> Unterzug 2.39 Speisezimmer: 1'725.-
+> **Total: 4'785.-**
+
+Zuerst die **Herleitung** je Position (Teilmasse addieren, mit dem Einheitspreis multiplizieren),
+dann dieselben Beträge noch einmal als **Bilanz** mit fettem Total. Die Wiederholung ist kein
+Versehen: der erste Block macht die Zahl prüfbar, der zweite macht sie bestätigungsfähig. Der
+Betrag steht ausserdem bereits im ersten Satz, vor jeder Rechnung — **das Ergebnis zuerst, der
+Weg danach, die Bilanz zuletzt.**
+
+Der Zwilling kürzt eine solche Doppelung regelmässig auf eine Tabelle zusammen. Damit verliert
+der Empfänger genau die Stelle, an der er «einverstanden» schreiben kann, ohne die Herleitung
+mitbestätigen zu müssen.
+
+## Das Zugeständnis mit Gegenbedingung und Rücktritt — Verhandeln in einem Satzpaar (Batch 116)
+
+Unmittelbar nach dem Total, dieselbe Mail:
+
+> Wir würden diesen Nachtrag nur gewähren, wenn insgesamt keine weitern Nachträge vorhanden sind.
+> Ansonsten verzichten wir auf die Unterzüge.
+
+Die Struktur ist die konditionale Beratung aus [[haltung]], hier auf die Verhandlung angewandt:
+**Zugeständnis — Bedingung — Rücktrittsfolge**, drei Züge, zwei Sätze, kein Bindewort dazwischen.
+Der Konjunktiv («würden … gewähren») hält das Angebot bis zur Bestätigung ausdrücklich schwebend;
+die Rücktrittsfolge nennt nicht Kosten oder Fristen, sondern den **Verzicht auf die Leistung
+selbst** — die stärkste verfügbare Position, weil sie den Unternehmer den Auftrag kostet, nicht
+den Bauherrn das Geld.
+
+Bemerkenswert ist die Reihenfolge gegenüber [[haltung]]: erst die vollständige, prüfbare Zahl,
+dann die Bedingung. **Er verhandelt nicht über die Höhe, sondern über die Abgeschlossenheit** —
+der Preis ist zugestanden, das Gesamtpaket ist der Hebel.
