@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 07:25:50
+Stand: 08.09.2026 07:36:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:12)
@@ -12,4 +12,4 @@ Stand: 08.09.2026 07:25:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ca5835b55 vollgas-fruehwarnung 260908: Regellauf ohne Befund, zwei Messfallen im eigenen Werkzeug behoben
+- e6342415e nas-selfcommit: 3 Datei(en) 2026-09-08 07:30
