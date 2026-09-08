@@ -43,6 +43,17 @@ trap 'rm -f "$ZIELE"' EXIT
   find "$WISSEN" -path "*/catalog/*.json" | while read -r f; do
     basename "$f" .json
   done
+  # Dritte Zielart: FAQ-ANKER. `wissen/energie` fuehrt seine 287 Bauherren-Antworten nicht als
+  # je eigene Datei, sondern als Abschnitte `## F123 — «Frage»` in `wiki/BAUHERREN-FAQ.md`, und
+  # verlinkt sie KB-weit als [[F123]]. Ohne diese Zeile meldet das Script jede solche Referenz
+  # als tot — am 08.09.2026 waren das 19 von 36 Befunden der KB energie (53 % reines Rauschen,
+  # in dem ein echter toter Link nicht mehr auffaellt). Derselbe Fehlalarm-Typ wie oben, drittes
+  # Auftreten. Bewusst eng gefasst: nur Ueberschriften in Dateien mit FAQ im Namen, damit ein
+  # echter toter Link auf einen fehlenden ARTIKEL weiterhin gemeldet wird.
+  find "$WISSEN" -name "*FAQ*.md" -not -path "*/raw/*" | while read -r f; do
+    grep -oE '^#{1,6}[[:space:]]+[A-Za-zÄÖÜ]+[0-9]+([[:space:]]|$)' "$f" \
+      | sed -E 's/^#+[[:space:]]+//; s/[[:space:]]*$//'
+  done
   find "$HUB/skills" -maxdepth 1 -mindepth 1 -type d -exec basename {} \; 2>/dev/null
   find "$HUB/agents" -maxdepth 1 -name "*.md" -exec basename {} .md \; 2>/dev/null
   find "$HUB/rules"  -maxdepth 1 -name "*.md" -exec basename {} .md \; 2>/dev/null

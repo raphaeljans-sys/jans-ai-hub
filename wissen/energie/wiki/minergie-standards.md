@@ -1,7 +1,7 @@
 ---
 title: Minergie-Standards & Eigenstromerzeugung
 status: established
-last_updated: 2026-09-05
+last_updated: 2026-09-08
 datenstand: 2026-01-01 (Produktreglement MINERGIE/-P/-A Version 2026.1, gültig ab 01.01.2026 — massgebende Primärquelle für alle Kennwerte dieses Artikels)
 sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/minergie-produktreglement-2026-1-muken-vergleich.md, destillate/minergie-messen-steuern-optimieren.md, destillate/minergie-produktreglement-zusatz-eco-2023-1.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-nachweiskurs-2023-mkz-thge]], [[graue-energie]], [[minergie-produktreglement-zusatz-eco-2023-1]]
@@ -287,3 +287,34 @@ Raumluftmessungen (I, II) und beim Nachweis der grauen Energie/THGE (I, II, IV).
 ECO (Materialwahl, Planungsaufwand, Nachweisführung). Dafür enthält keines der beiden Reglemente
 eine Zahl; der Punkt bleibt in `wiki/QUESTIONS.md` als zweite Hälfte von E-R178-2 offen.
 → FAQ [[F275]], [[F276]]
+
+## Nachtrag 2026-09-08 (Run 188) — wie der Zusatz ECO bestanden wird: 50 % je Bereich, je Zone getrennt
+
+Der Artikel führte den Zusatz ECO bisher nur als kombinierbaren Zusatz (Tabelle oben) und mit
+seinen Gebühren (Nachtrag 05.09.2026), nicht aber mit der Frage, **wann er als erfüllt gilt**.
+Nach Abschluss des vollständigen Vorgabenkatalog-Transfers (Runs 180-187, alle 59 Vorgaben am
+Volltext gelesen) lässt sich die Bestehensmechanik jetzt belegt nachtragen.
+
+**Die Schwelle ist ein Erfüllungsgrad, keine Vorgabenzahl.** Je Bereich — Gesundheit und
+Ökologie — müssen **mindestens 50 % der erreichbaren Punkte** erreicht werden. Die beiden
+Bereiche werden nicht gegeneinander verrechnet: 80 % Gesundheit und 45 % Ökologie ist ein
+Durchfaller. Bei **Mehrzonen-Projekten gilt die Schwelle je Zone getrennt**, ebenfalls ohne
+Verrechnung — für gemischte Bauten (Spital mit Verwaltungs- und Verkaufszonen, Schule mit
+Sporthalle) ist das die praktisch teuerste Regel des ganzen Katalogs.
+
+**Der Nenner ist projektspezifisch.** Der Katalog zählt beim Neubau 27 Vorgaben Gesundheit und
+30 Ökologie (Erneuerung 27 + 29), aber als «N/A» gesetzte Vorgaben fallen aus der Bezugsgrösse
+heraus. Die absolute Punktzahl eines Referenzprojekts taugt darum nicht als Zielwert; gesteuert
+wird über den Erfüllungsgrad des eigenen Projekts.
+
+**Vier Vorgabentypen, einer davon mit Minuspunkten.** Ausschlussvorgaben sind zwingend und geben
+keine Punkte (80/20-Regel nicht anwendbar); normale Vorgaben tragen eine feste Punktzahl;
+abgestufte Vorgaben mehr Punkte bei höherer Stufe; berechnete Vorgaben (Tageslicht, Graue
+Energie/THGE Erstellung) kommen aus einem externen Tool, das die Label-Plattform automatisch
+verbucht. Einzige **Malusvorgabe** ist 210.03 «Ökologischer Restwert rückzubauender
+Bestandsbauten» mit 0 / −2 / −4 Punkten — sie belastet den Bereich Ökologie beim Ersatzneubau
+zusätzlich zu den ohnehin nötigen 50 % (Details `[[graue-energie]]`, Bauherrensicht F288/F289).
+
+Quelle: Vorgabenkatalog Zusatz ECO, Nachweisversion 2023.1, geltende Fassung Dokumentstand
+01.07.2026, Kap. 2 Struktur/Bewertungsmethodik (S. 4-7/109) und Vorgabe 210.03 (S. 60-70/109) →
+`[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, `[[minergie-produktreglement-zusatz-eco-2023-1]]`.
