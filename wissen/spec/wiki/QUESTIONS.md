@@ -36,6 +36,30 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klären sollen.
     Artikel als geschlossen; die allgemeine Lehre (fünfter Alterungsmodus für Spec-Dokumente)
     bleibt in [[anwendung-jans]] unverändert in Kraft und ist nicht Teil dieser Schliessung.
 
+## Trigger / Betrieb (neu methoden-radar 08.09.2026)
+- F-TRIG1: **Die Ereignis-Definition des Loops ist blind für Fortschreibungen — Entscheid Raphaels
+  offen.** Seit dem 26.07.2026 läuft `spec-training` als Ereignis-Trigger «bei realer
+  Spec-Anwendung» statt nach Kalender. Operationalisiert wird das über das **Dateinamen-Datum**
+  unter `*_spec.md`: Lauf 39 (24.08.) prüfte `find . -iname "*_spec.md"`, las als jüngstes Datum
+  den 28.07. (Korpus-Spec `bauprodukte`) und fuhr folgerichtig als Verifikationslauf ohne neuen
+  Fall. **Der Messweg lässt den lebendigsten Fall des Hub durchfallen:**
+  `outputs/2026-06-21_ag-gruendung_spec.md` trägt ein Juni-Datum im Namen, ist mit 74'673 Bytes
+  die grösste Spec des Hub und wurde seit dem 30.07. **17-mal** fortgeschrieben (53 Commits
+  gesamt), zuletzt am 08.09.2026 07:48 durch den `ag-gruendung-monitor`. Lauf 39 erwähnt sie mit
+  keinem Wort. Eine Spec, die elf Wochen lang mit ihrem Vorhaben mitwandert (Firmenname-Blocker,
+  Notariat, UBS-Kapitaleinzahlung), ist für diesen Loop mindestens so ergiebig wie eine neue —
+  gerade weil sie zeigt, was mit einer Spec passiert, wenn die Wirklichkeit sie einholt.
+  **Praktische Folge, solange nicht entschieden:** vor jedem «kein neuer Fall»-Schluss zusätzlich
+  `git log --since=<letzter Lauf> -- wissen/spec/outputs/` fahren und fortgeschriebene Specs als
+  Fälle behandeln. **Vorschlag zum Entscheid:** die Ereignis-Definition ausdrücklich auf die
+  **substanzielle Fortschreibung** einer bestehenden Spec ausweiten und den Messweg von Dateinamen
+  auf `git log` umstellen. Nicht eigenmächtig umgesetzt — das ist eine Änderung am Trigger, den
+  Raphael am 26.07. selbst gesetzt hat. Beleg und Rotationsstempel:
+  `wissen/claude-code/wiki/methoden-register.md`, Zeile `3 EASY STEPS - the Spec`,
+  Verifikation 08.09.2026. Gleiche Familie wie F-ENV1 (ein festgeschriebener Stand veraltet
+  unbemerkt) und wie `auto-verbesserungen` 260730b Ziff. 1b (ein Datum im Namen ist keine
+  Aussage über den Inhalt).
+
 ## Methodik
 - F1: Ab welcher Aufgabengrösse lohnt der Spec-Overhead wirklich? Schwelle anhand realer
   Anwendungen kalibrieren (Gefahr: Gate nervt bei Mittelgrossem). → aus `outputs/` lernen.

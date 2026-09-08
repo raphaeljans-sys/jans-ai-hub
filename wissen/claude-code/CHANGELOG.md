@@ -2,6 +2,25 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-09-08 (methoden-radar, Monatslauf) — Scan ohne Delta; Rotation `3 EASY STEPS - the Spec` mit einem Befund
+
+Delta-Scan über `00 Prompteingaben`: 8 Ordner unverändert, kein neues Material. Verifikations-Rotation
+darum an der ältesten «implementiert»-Zeile. **Ergebnis:** Implementation vollständig (Rule
+`spec-methode`, Skill `spec`, 5 KB-Artikel), `spec-training` enabled=false mit dokumentiertem Entscheid,
+Liefer-Belege reichlich (Trainingslauf 39 vom 24.08., Health-Checks 01.08./03.08./01.09.).
+
+**Befund:** Der Ereignis-Trigger «reale Spec-Anwendung» wird am **Dateinamen**-Datum unter `*_spec.md`
+gemessen und übersieht damit Fortschreibungen. Lauf 39 schloss auf «kein neuer Fall seit 28.07.», während
+`wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md` (74'673 B, grösste Spec des Hub) seit dem 30.07.
+17-mal fortgeschrieben wurde, zuletzt am 08.09. 07:48. Nicht eigenmächtig geändert — Trigger stammt aus
+Raphaels Entscheid vom 26.07.; Vorschlag (Fortschreibung als Ereignis, Messung via `git log --since`)
+als F-TRIG1 in `wissen/spec/wiki/QUESTIONS.md`, Logbuch-Abschnitt vom 08.09.
+
+Geändert: `wiki/methoden-register.md` (Registerzeile gestempelt, Status «implementiert, ein Befund»,
+Rotation auf `Methode SPW` weitergeschaltet, **vierte Pflichtprüfung** ergänzt: bei Ereignis-Triggern
+nicht nur prüfen, ob der Loop liefert, sondern wie das Ereignis gemessen wird), `wissen/spec/wiki/QUESTIONS.md`,
+`logbuch/LOGBUCH.md`. Scan-Stand nicht eingefroren — es gab kein Delta.
+
 ## 2026-09-01 (Health-Check Phase 1) — A0 · B1 · C2 · D0 · E0 · F1 · G0: Umlaute-Verstoß groß, sonst strukturell sauber — Report: `outputs/2026-09-01_health-check.md`
 
 ## 2026-08-31 (Mac-Mini-Nachtschicht, 23:3x-Slot) — Dritte Grundkontext-Messung in Folge: 132'245 B, +7'133 B seit 25.08., weiterhin kein Gegeneingriff

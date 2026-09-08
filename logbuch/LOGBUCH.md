@@ -3,6 +3,33 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Methoden-Radar 08.09.2026 (21:0x, Monatslauf) — Spec-Loop verifiziert, ein Befund an der Ereignis-Definition
+
+**Scan ohne Delta** (8 Ordner unverändert in `00 Prompteingaben`), darum Verifikations-Rotation an der
+Zeile `3 EASY STEPS - the Spec`, zuletzt am 30.07.2026 geprüft.
+
+**Implementation intakt und liefernd:** Rule `spec-methode`, Skill `spec` und die KB `wissen/spec` mit
+fünf Wiki-Artikeln stehen unverändert; `spec-training` ist enabled=false mit dokumentiertem Entscheid
+(Raphael 26.07., Ereignis-Trigger statt Zeittakt), also kein stiller Ausfall. Liefer-Belege seit der
+letzten Verifikation: Trainingslauf 39 (24.08., offene Bring-Schuld F-ENV1 gelöst) und die Health-Checks
+vom 01.08., 03.08. und 01.09., alle mit CHANGELOG-Zeile.
+
+**Befund — der Ereignis-Trigger misst am Dateinamen und übersieht darum den lebendigsten Fall.** «Reale
+Spec-Anwendung» wird über das jüngste Datum im Dateinamen unter `*_spec.md` bestimmt. Lauf 39 las so den
+28.07. und schloss auf «kein neuer Fall». Tatsächlich läuft seit Juni die grösste Spec des Hub:
+`wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md`, 74'673 Bytes, seit dem 30.07. **17-mal**
+fortgeschrieben (53 Commits gesamt), zuletzt heute 07:48 durch den `ag-gruendung-monitor` — und in Lauf 39
+mit keinem Wort erwähnt. Eine Spec, die elf Wochen mit ihrem Vorhaben mitwandert (Firmenname-Blocker,
+Notariat, UBS-Kapitaleinzahlung), ist für einen Lern-Loop mindestens so ergiebig wie eine neue. Der
+Messweg stellt den Trigger faktisch still, ohne dass es jemand entschieden hätte.
+
+**Nicht eigenmächtig geändert** — der Trigger stammt aus Raphaels Entscheid vom 26.07. Vorschlag zur
+Freigabe: die Ereignis-Definition auf die substanzielle **Fortschreibung** einer bestehenden Spec
+ausweiten und von Dateinamen auf `git log --since` umstellen. Eingetragen als F-TRIG1 in
+`wissen/spec/wiki/QUESTIONS.md`; Rotationsstempel und die daraus abgeleitete vierte Pflichtprüfung stehen
+im Register `wissen/claude-code/wiki/methoden-register.md`. Kein Fristen-Eintrag: der Befund ist ein
+Hub-Internum ohne Termin (Rule 260803/260805). Nächste Rotationszeile: `Methode SPW`.
+
 ## Hub-Chef 08.09.2026 (08:39 bis 08:5x, Tagesbriefing gesendet) — Tschopp erwartet die Pläne heute 10:00, der AG-Monitor hat zum dritten Mal nicht gesendet
 
 **Pflichtlektüre gelesen:** Radar-Abschnitt 08.09. 06:5x und AG-Gründungs-Abschnitt 08.09. 07:5x liegen beide im heutigen Datumsblock, keiner fehlt. Konversations-Destillat `260908-konversationen.md` (06:16) gelesen; sein Kern, die bereinigte HOP2, ist durch den Radar bereits berichtigt (die Offerte **ist** am 07.09. 15:56 versendet).
