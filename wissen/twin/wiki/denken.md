@@ -178,7 +178,9 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   gefüllt** (260817, sechste Erfindungs-Drift in Folge): der Zwilling erfindet Rechtsfolgen,
   Dokumentinhalte und nächste Schritte, wo Raphael die Lücke stehen lässt und benennt — «müsste man
   prüfen …», «macht Sinn wenn …». **Der Vorbehalt steht NACH dem sicheren
-  Block, nie davor, und NENNT, was fehlt (260904).**
+  Block, nie davor, und NENNT, was fehlt (260904); ein fremdes Dokument wird ueber die
+  Relevanzfrage angefordert, nie direkt (260908): erst «ob es von Relevanz ist», dann «Wenn ja,
+  bitte ich um Zusendung».**
 - **Die Verfahrensart benennen, um den Aufwand zu begrenzen (260818):** «Da es sich um eine
   **informelle Mitwirkungsfrist und nicht um eine formelle Rekursfrist** handelt, ist alles korrekt
   getan» — die Einordnung beruhigt und spart dem Bauherrn Arbeit, statt Dringlichkeit zu erzeugen;

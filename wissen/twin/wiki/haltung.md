@@ -110,8 +110,9 @@ nicht jede Nachbesserung wird zur Position.
   bei **jedem institutionellen Auftritt im etablierten Mandat** (Offerte, Mahnung, formelle
   Amts-Meldung/-Anfrage an Kunde ODER Behörde) «wir/unser» erlaubt, aber **satzweise** getrennt
   («wir» für Büro-/Projekthandlung, «ich» für die persönliche Bitte/Anrede an das Gegenüber —
-  auch bei unbekannter Behörde); Honorar **direkt und ohne Polster** beziffern, aber **warm
-  rahmen** (kein Weichspülen, kein Kleinrechnen); Sorgfalt/Effizienz auch als Rücksicht auf die
+  auch bei unbekannter Behörde); Honorar **in der Offerte** direkt und ohne Polster beziffern, warm gerahmt; die
+  **Erweiterung im laufenden Mandat gar nicht (260908)** — Aufwand als Tagesspanne, Kostendach
+  als Rueckmeldeschwelle, kein Preis; Sorgfalt/Effizienz auch als Rücksicht auf die
   Gegenseite begründen; bei einem **Zusatzwunsch mit fragwürdigem Nutzen** den Nutzen-Zweifel
   offen aussprechen, auch mitten in der eigenen Offerte und gegen das eigene Honorar — als
   Entscheidungs-Skala + Praxis-Einordnung + «Ich frage, weil …», nie als Bevormundung; eine

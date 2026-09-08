@@ -54,14 +54,12 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Kurzgruss «Lieber Gruss»/«Lgr.», gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
   **Adressat** → FG+Block, in der Sie-Behördenmail als «Danke und Gruss» davor. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
-  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt — drei Linien sind gefallen (260807 bis
-  260904):** Gattung, «wer erbittet», «wer entscheidet». Belegt GESETZT bei Rechnungs-/
+  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt — vier Linien sind gefallen (260807–260908).** Belegt GESETZT bei Rechnungs-/
   Schluss-Liefermail + Auftrags-Dank, beratender Du-Mail, erbetener Auskunft (260827),
   Erst-Offertanfrage, Antrag ans Amt, Abgebot, **Transmittal und Statusmail** (260904); belegt
   WEGGELASSEN bei praezisierter Zweitanfrage (260826), Amts-Ersuchen (260823) und **derselben
-  Statusmail-Gattung** (260904). **Bestbeschreibung, 7 von 8, unbestaetigt (260904):** er fehlt,
-  wo ein getippter Kurzgruss ueber dem Block steht, und steht, wo die Mail direkt in den
-  Signaturblock laeuft. **Im Zweifel setzen.** Er trägt sein Objekt, der
+  Statusmail-Gattung** (260904). **Auch diese Bestbeschreibung ist
+  widerlegt (260908):** Kurzgruss ueber dem Block UND Service-Satz. **Im Zweifel setzen.** Er trägt sein Objekt, der
   Schlusspunkt schwankt (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)** — die Wiederholung
