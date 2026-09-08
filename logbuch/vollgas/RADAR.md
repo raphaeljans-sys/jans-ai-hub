@@ -53,6 +53,24 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-09 00:57 — [FREI] **Regellauf ohne Befund. Verbrauch laeuft dem Zeitverlauf 10.5 Punkte hinterher (11.5 % bei 22.0 % verstrichener Woche) — der Wochen-Entscheid vom 03.08. wird eingehalten. Liefer-Delta in zehn KBs, alle Feuermechanismen im Sollstand.**
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 08.09. 12:57, dieser Lauf 00:57 — **12 h 00 min** bei 15 h Toleranz (Takt 12 h + 3 h). Kein verpasster Slot.
+
+**Fenster [FREI].** PATH-Regelweg (`/opt/homebrew/bin/claude`), Antwort «OK», **rc=0 in 7 s**. Die Gegenmessung nach Eintrag 260807-Spiegelfall ist zum dritten Mal in Folge positiv; der PATH-Weg bleibt Regelweg, der app-gebuendelte Weg bleibt Rueckfall. Latenzreihe unauffaellig (7 s liegt im unteren Band der bekannten Schwankung).
+
+**Wochenbudget: Ampel FREI.** 19.17 von 167 Mio teure Token = **11.5 %** bei **22.0 %** verstrichener Woche, **Vorsprung −10.5 Punkte**. Stationen: MacBook Pro 11.12 Mio, Mac Mini 8.05 Mio, beide Messdateien frisch. Der Verbrauch bleibt damit klar hinter dem Zeitverlauf — kein Drossel-Anlass, und der stehende Entscheid «gleichmaessig ueber die Woche» ist erfuellt.
+
+**Liefer-Delta: kein Leerlauf.** 62 Commits in 13 h, davon **32 geaenderte Dateien unter `wissen/`** in zehn KBs (energie 7 · projekt-lessons 5 · normen 5 · koordination 5 · planungsgrundlagen 2 · claude-code 2 · architekten-synobsis 2 · twin 1 · spec 1 · Meta 1). Frische CHANGELOG-Koepfe vom 08.09. in neun KBs gegengeprueft. Substanzielle Lieferungen im Fenster: wissens-chef Lauf 55 (BKP-Phantomcode 271.10 berichtigt, Ticket N43-1 geschlossen; fuenf von neun eigenen Meldungen adversarial widerlegt), energie Run 188, methoden-radar Monatslauf, Synergie-Lauf 31, tenant-hygiene (Wachstumsschwelle gerissen, 912.02 GB / 86.53 %), Nachtschicht-Lauf 23:34 (zwei Identitaetsfragen synobsis). Ausserhalb `wissen/` zusaetzlich 17 Dateien Projektarbeit unter `render-scratch/steinbruechel-260908`. **Kein Loop mit Delta-Null-Serie, keine Ruecktakt- oder Stilllegungsempfehlung.**
+
+**Feuermechanismen: Sollstand auf beiden Stationen.** MacBook Pro: 14 launchd-Jobs geladen, `ch.jans.vollgas-supervisor` und `ch.jans.vollgas-monitor` weiterhin als `*.disabled-260729` auf der Platte und **nicht** geladen. Mac Mini: 12 Jobs geladen, `ch.jans.nachtschicht` aktiv (Lauf 23:34 im Journal belegt), `vollgas-supervisor` disabled. Beide Registries geprueft: lokal 34 Tasks (Registry unveraendert), Mini fuehrt seine neun eigenen Task-Ordner im bekannten Stand. Kein doppelt feuernder Loop, kein wiederbelebter Runner.
+
+**Speicher und Waisen.** Verfuegbar rund **4.9 GB** (frei + inactive + purgeable, `vm_stat`), Druckstufe **1** (normal). Keine `claude -p`-Waisen — die Fensterprobe hat ihre Prozessgruppe sauber abgeraeumt.
+
+**Lauf-Journal.** Vier Mac-Mini-Nachtschicht-Laeufe am 08.09., alle rc=0, zusammen 11.25 USD (3.99 / 2.64 / 2.99 / 1.63), 27 bis 63 Turns. Alle vier meldeten die Prioritaeten 1 bis 3 als leer und wichen korrekt auf offene KB-Punkte aus — das ist gewollte Zweitverwertung, kein Leerlauf.
+
+**P1/P2/P3: keine.** Regellauf ohne Handlungsbedarf, kein Mail-Anlass.
+
 ## 2026-09-08 12:57 — [FREI] **Regellauf ohne Befund. Verbrauch laeuft dem Zeitverlauf 6.9 Punkte HINTERHER (8.0 % bei 14.9 % verstrichener Woche), Liefer-Delta in neun KBs. Ein Befund betrifft dieses Werkzeug selbst: die gemessenen «180 s» der Fensterprobe sind ein Artefakt meines eigenen Watchdog-Rezepts, kein Latenzwert.**
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 08.09. 00:57, dieser Lauf 12:57 — **12 h 00 min** bei 15 h Toleranz (Takt 12 h + 3 h). Kein verpasster Slot.
