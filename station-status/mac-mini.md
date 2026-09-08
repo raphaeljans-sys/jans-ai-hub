@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 08.09.2026 05:59:20
+Stand: 08.09.2026 06:09:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:36)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 08.09.2026 05:59:20
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9eae63e12 nas-selfcommit: 11 Datei(en) 2026-09-08 05:45
+- 641664511 twin-fidelity-review 2026-09-08: Korpus abgeerntet (Test misst Wiedergabe), vierte Service-Satz-Linie gefallen, erfundenes Honorar
