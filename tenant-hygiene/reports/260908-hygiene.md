@@ -271,3 +271,16 @@ Vorreports gegeneinander zu entscheiden.
   (86.53 %, Schwelle 88). Grund c) greift nach dem massgeblichen Wochenschnitt nicht
   (63 Tage, Schwelle 60), nach dem Werktagsschnitt schon (43 Tage) — beides ist gemeldet.
   Grund f) greift nicht (Dienstag). Keine Auto-Bereinigung, kein Blocker.
+
+## Git-Stand (Backup)
+
+Nativ per ssh auf der Synology gemessen (nie `git` über den SMB-Mount): der heutige Report
+ist als **`e12884e2b`** vom 08.09.2026 20:12 committet, die Divergenz zu `github/HEAD`
+beträgt **0 voraus / 0 nicht integriert**. Das Backup läuft.
+
+Messweg-Hinweis, damit ihn der nächste Lauf nicht erneut sucht: das Repo liegt auf der
+Synology unter **`/volume2/daten/jans-ai-hub`**, nicht unter `/volume1/...`. Das SSH-Ziel
+steht im Committer-Script (`scripts/nas-commit-now.sh`, Variable `NAS_SSH`) und lautet
+`raphaeljans@diskstation918.tail8265aa.ts.net` — der Kurzname `nas` ist **kein** auflösbarer
+Host und scheitert mit «Could not resolve hostname». Das Repo führt weiterhin nur
+`github/HEAD`, keinen Tracking-Ref `github/main`.
