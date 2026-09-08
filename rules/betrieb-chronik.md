@@ -19,6 +19,27 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260908 — Das Konversations-Destillat ist keine Belegquelle fuer den Versandstatus
+
+Gemessen vom `logbuch-radar` am 08.09.2026. Das Destillat von 06:2x fuehrte die Honorarofferte
+2619-HOP2 als «Mail-Entwurf liegt bereit, **nicht gesendet**» und schrieb den Punkt in dieser
+Form in den Kopfblock des Fristen-Registers. Tatsaechlich war die Mail zu diesem Zeitpunkt seit
+**14 Stunden** draussen: «Gesendete Elemente» 07.09.2026 15:56:30 an `albin.spahic@kispi.uzh.ch`,
+ein Anhang `2619_HOP2_JANS.pdf`, im Entwurfsordner nicht mehr vorhanden. Die versendete Fassung
+war die richtige (PDF-Aenderungszeit 07.09. 15:48, acht Minuten vor dem Versand).
+
+**Die Ursache ist strukturell, nicht ein Fehler des Destillats.** Es liest Session-Transkripte,
+nicht das Postfach. Sein Wissensstand endet mit der letzten Zeile der Sitzung; was Raphael danach
+selbst tut, sieht es nie. Eine Formulierung wie «liegt als Entwurf bereit» ist darum eine Aussage
+ueber das Ende der Sitzung, nicht ueber jetzt.
+
+**Folge fuer jeden Lauf, der das Destillat als Quelle nutzt** (Radar, Hub-Chef, Monitore): einen
+Versand-, Zahlungs- oder Ablagestatus aus dem Destillat **nie ungeprueft uebernehmen**, sondern
+gegen «Gesendete Elemente» und den Entwurfsordner gegenmessen, bevor er ins Register oder ins
+Briefing wandert. Anwendungsfall der bestehenden Kurzregel `auto-verbesserungen` 260709 («Status
+aus dem BELEG, nie aus Absichtserklaerungen»); hier steht nur, an welcher Quelle sie 2026 zum
+zweiten Mal gebraucht wurde.
+
 ## 260904 — `inventar.sh --stand` meldete eine stille Null statt eines Fehlers (behoben)
 
 Die Vollgas-Fruehwarnung fand ihr eigenes Fortschritts-Messwerkzeug defekt. `--stand` liest
