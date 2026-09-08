@@ -4,6 +4,52 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-08 (twin-fidelity-review) — der Korpus ist abgeerntet, der Test misst Wiedergabe
+
+Golds `rj@` Sent 04.02.2026 17:08 (Themenblock-Statusmail ans KISPI-Projektteam, Du) und
+06.02.2026 11:44 (Angebotserweiterung an Roman Steinmann/Nova, Sie), beide mechanisch
+vorgeprueft. **Gesamt-Fidelity 27** (Stimme 38 · Arbeitsweise 33 · Beziehung 29 · Fachsignatur
+26 · Denken 21 · Haltung 17). Von sechs Kandidaten fielen vier aus — zwei als Echo-Falle 7
+(Register Batch 26), einer mit leerem Body, einer als HYBRID mit Naht in Absatz 11.
+
+- **Hauptbefund (methodisch):** `raw/_INGESTED.md` deckt die `rj@`-Sent-Items von 2025-07-04 bis
+  2026-09-07 lueckenlos ab, und die Register nennen **beide** Goldproben namentlich als bereits
+  destilliert. Der Review teilt seine Quelle mit dem Lern-Loop und misst damit Wiedergabe, nicht
+  Verallgemeinerung — sichtbar an einem **wortgleichen Treffer ueber zwoelf Woerter**. Alle
+  Scores sind Obergrenzen; die Reihe der zehn Vorlaeufe ist nicht vergleichbar. Vorgelegt als
+  `QUESTIONS` 260908b #1.
+- **Vierte Service-Satz-Linie gefallen:** die Bestbeschreibung «7 von 8» (260904) ist durch
+  Gold A widerlegt — getippter Kurzgruss ueber dem Signaturblock UND Service-Satz. Im
+  Do/Don't-Block **gestrichen**; der Gattungs-Messstand in einen eigenen Abschnitt von
+  `wiki/stimme.md` ausgelagert und um die zwei heutigen Belege erweitert.
+- **`wiki/haltung.md`** neu: die Erweiterung im laufenden Mandat wird **nicht beziffert**
+  (Aufwand als Tagesspanne, Kostendach als Rueckmeldeschwelle) — der Zwilling erfand
+  stattdessen «zwei Tagespauschalen … CHF 4'800.-»; dazu ein gemessener Verstoss gegen die
+  eigene Regel (Rechnungsvorbehalt «bei Annahme/Akzeptanz» zu «zur Zahlung freigeben»
+  geglaettet, obwohl der Block genau das verbietet) und der **zehnte** Beleg der
+  Uebergabe-Drift, wortgleich zum Satz aus Fidelity 260904.
+- **`wiki/denken.md`** neu: ein fremdes Dokument wird ueber die **Relevanzfrage des Empfaengers**
+  angefordert, nie direkt.
+- **`wiki/beziehungsregister.md`** neu: Drittform des Mitadressaten im Fliesstext; Pruefstein
+  05.01.2026 — namenloses «Guten Tag,» trotz zweier namentlich bekannter Sachbearbeiter, die
+  Namenlosigkeit haengt am **Anlass**.
+- **`wiki/fachsignatur.md`** neu: die Erfindungs-Drift konzentriert sich auf **Geld** und
+  **Zustaendigkeit** — die zwei Kategorien ohne nachschlagbare Quelle; Normen, Fristen und
+  Identifikatoren blieben sauber.
+- **`wiki/arbeitsweise.md`** neu: dreistufige Freigabekette mit drei Zustaendigen; Betreff als
+  Inhaltsverzeichnis der Themenblock-Mail; «- »-Bullet auch im Du; dritter Beleg der textlosen
+  Sendung ueber sieben Monate.
+- **`wiki/stimme.md`** neu: Komma nach der Anrede **schwankt** (beide Formen in derselben Mail) —
+  Gegenbeleg zu `QUESTIONS` 260908 #2, das es hart pruefen wollte; Verb-Grossschreibung n = 5 →
+  **7**, Reichweite sieben Monate statt eines Sommers; Fehlerdichte 2.4 gegen **8.9** je 100 W —
+  die formellere Sie-Mail ist die fehlerreichere, «formell = sorgfaeltiger» ist widerlegt.
+- **Gehirn neu kompiliert:** erster Versuch vom Riegel bei 34'132 B **abgebrochen** (richtig,
+  nichts geschrieben); nach Auslagerung der Beleg-Prosa Stand **33'877 B, Reserve 123 B**.
+  Empfehlung 36'000 B (SYN-69) zum vierten Mal offen.
+- **`wiki/QUESTIONS.md`** 260908b #1–#6, davon #5 und #6 als Ergaenzung zu den heutigen
+  Batch-116-Fragen.
+- Report: `outputs/2026-09-08_fidelity.md`.
+
 ## 2026-09-08 (twin-mail-training Batch 116) — der Zwilling ist korrekter als das Original, und daran erkennbar
 
 `rj@` Sent Items 06.09. 18:09 bis 07.09. 16:20 (Ortszeit), 13 Treffer, 5 Volltexte, 2 Vorschauen.

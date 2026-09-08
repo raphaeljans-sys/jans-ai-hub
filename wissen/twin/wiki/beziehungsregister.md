@@ -4175,3 +4175,26 @@ Kein «Entschuldigung, falscher Link», keine Erklärung. **Der Verteiler trägt
 was beim zweiten Anlauf geklärt wird, wird gleich vor Zeugen geklärt. Das ist die
 Eskalationsvariante des Musters «An = wer handelt, Cc = wer bezeugt» (Batch 115) — dort war die
 Rollenteilung statisch, hier ist die Erweiterung des Cc selbst der Vorgang.
+
+## Fidelity 260908 — Drittform des Mitadressaten; Namenlosigkeit haengt am Anlass
+
+- **Der Empfaenger wird in der dritten Person genannt, wenn der Satz einem anderen seine Aufgabe
+  zuweist (Gold A, 04.02.2026, drei Empfaenger im To, kein Cc).** «**Albin,** darf ich um Prüfung
+  … bitten und bei Annahme/Akzeptanz diese bei **Nesa** freizugeben.» — der zweite Empfaenger
+  steht in der Drittform, obwohl er mitliest; ein eigener Absatz spaeter: «Für die prompte
+  Bezahlung bin ich **Nesa** dankbar.» Der Zustaendige wird mit nacktem Vornamen + Komma **mitten
+  im Absatz** adressiert. Das Wiki kannte bisher «Auftraege per @Name im Fliesstext» fuer kurze
+  Team-Mails; hier spricht die Mail **ueber** den Mitadressaten zum Team. Aus Byte-Gruenden nicht
+  in den Do/Don't-Block kompiliert.
+- **⚠ Pruefstein 05.01.2026 (`mail@`, an patrick.buschor@ und marcin.radke@zuerich.ch, Cc der
+  Baumanager): die Namenlosigkeit haengt am ANLASS, nicht am unbekannten Postfach.** Zwei
+  namentlich bekannte Sachbearbeiter, triviale Formularfrage (digitale oder handschriftliche
+  Unterschrift) — Anrede **«Guten Tag,»**, namenlos, mit Komma. Der Do/Don't-Block knuepft die
+  namenlose Anrede an das *unbekannte Postfach*; hier sind die Personen bekannt und werden
+  trotzdem nicht angeredet. Dieselbe Achse wie die Anlassgewicht-Klausel der Rule
+  `anrede-kontakte`, nur nach unten. **Einzelbeleg, und der Body war aus der Suchvorschau
+  bekannt** — deshalb hier vermerkt und nicht kompiliert; vor einer Regel braucht es einen
+  zweiten, blind gezogenen Fall.
+- **Gestapelte Gruppenanrede, zweizeilig, Komma nur auf der ersten Zeile:** «Geschätztes
+  Projektteam,» / «Werter Albin, Nesa und Peter» — bestaetigt die Gewichtsregel (gewichtige Mail
+  bricht auf zwei Zeilen um) und die Form «werter <Vorname>» im Du.

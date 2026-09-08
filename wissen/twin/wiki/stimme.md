@@ -54,11 +54,8 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Kurzgruss «Lieber Gruss»/«Lgr.», gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
   **Adressat** → FG+Block, in der Sie-Behördenmail als «Danke und Gruss» davor. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
-  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt — vier Linien sind gefallen (260807–260908).** Belegt GESETZT bei Rechnungs-/
-  Schluss-Liefermail + Auftrags-Dank, beratender Du-Mail, erbetener Auskunft (260827),
-  Erst-Offertanfrage, Antrag ans Amt, Abgebot, **Transmittal und Statusmail** (260904); belegt
-  WEGGELASSEN bei praezisierter Zweitanfrage (260826), Amts-Ersuchen (260823) und **derselben
-  Statusmail-Gattung** (260904). **Auch diese Bestbeschreibung ist
+  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt — vier Linien sind gefallen (260807–260908).** Der Gattungs-Messstand (belegt gesetzt / belegt
+  weggelassen) steht im Artikel. **Auch diese Bestbeschreibung ist
   widerlegt (260908):** Kurzgruss ueber dem Block UND Service-Satz. **Im Zweifel setzen.** Er trägt sein Objekt, der
   Schlusspunkt schwankt (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
@@ -5506,3 +5503,50 @@ Dieselbe Mail hat weder Gruss noch Signaturblock.
 Das ergänzt die knappste Registerstufe aus Batch 115 («Hoi Mustafa kannst du mich kurz anrufen.»)
 um ihre schriftliche Variante: **dort war der Aktionsknopf eine Telefonnummer, hier ist er ein
 Link.** Der Zwilling baut in beiden Fällen einen Satz darum herum und zerstört damit die Form.
+
+## Service-Satz — Gattungs-Messstand (aus dem Do/Don't-Block ausgelagert 08.09.2026)
+
+Verschoben durch den Fidelity-Review 2026-09-08 nach Vorgabe (a) des Wachstums-Riegels in
+`skills/twin/tools/build_dna.py`: die Aufzaehlung ist Beleg-Prosa und traegt keine Regel mehr,
+seit mit der Bestbeschreibung «7 von 8» (260904) auch die vierte Trennlinie gefallen ist
+(Gegenbeleg Gold A vom 04.02.2026: getippter Kurzgruss ueber dem Signaturblock UND
+Service-Satz). Der Wortlaut unveraendert, damit kuenftige Laeufe daran weitermessen koennen:
+
+> Belegt **gesetzt** bei Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratender Du-Mail,
+> erbetener Auskunft (260827), Erst-Offertanfrage, Antrag ans Amt, Abgebot, Transmittal und
+> Statusmail (260904), **Themenblock-Statusmail ans Projektteam (260908, Gold A)**; belegt
+> **weggelassen** bei praezisierter Zweitanfrage (260826), Amts-Ersuchen (260823), derselben
+> Statusmail-Gattung (260904) und **der Angebotserweiterung nach Telefonat (260908, Gold B,
+> Schluss auf «Besten Dank fuer Ihre Bemuehungen.»)**.
+
+Operativ bleibt im Block allein: **im Zweifel setzen** — und der kanaloffene Schluss verdraengt
+ihn ganz.
+
+## Fidelity 260908 — Komma nach der Anrede schwankt; Verb-Grossschreibung ist sieben Monate alt
+
+Zwei Golds aus dem Februar 2026 (`rj@` Sent 04.02. 17:08 ans KISPI-Projektteam, 06.02. 11:44 an
+Roman Steinmann/Nova), beide durchgehend eigene Hand, mechanisch vorgeprueft.
+
+- **Komma nach der Anrede — nicht verbindlich.** Gold A traegt beide Formen in derselben Mail:
+  «Geschätztes Projektteam**,**» (mit) und «Werter Albin, Nesa und Peter» (ohne Schlusskomma);
+  Gold B «Sehr geehrter Herr Steinmann» (ohne). Die offene Frage `QUESTIONS` 260908 #2 hatte am
+  Septemberfenster 3/3 mit Komma gemessen und vorgeschlagen, es im Gate **hart** zu pruefen —
+  das waere nach diesen Belegen falsch. Ergaenzung dort angehaengt, Entscheid bleibt Raphaels.
+- **Verb-Grossschreibung in der Bitten-Formel, n = 5 → n = 7, Reichweite sieben Monate.** Gold B:
+  «**Bitten** lesen sie kurz meine Stichworte bezüglich Vorgehen durch.» und «Sollten Sie
+  wichtige Ergänzungen haben **Bitte** ich Sie mir diese kurz mitzuteilen.» Beide 06.02.2026 —
+  das Muster ist damit nicht auf das Septemberfenster beschraenkt und keine Sommer-Fluechtigkeit
+  (`QUESTIONS` 260908 #3). Im selben Satz steht «lesen **sie**» klein.
+- **Der getippte Kurzgruss steht als Inline-Signoff mit Komma:** «Lieber Gruss, Raphael» — eine
+  Zeile, ueber dem Signaturblock, dessen erste Zeile «Freundliche Grüsse» lautet.
+- **Sternchen als eigene Hervorhebung im Fliesstext:** «die Projektdokumente der
+  *Machbarkeitabklärung*». Einzelsterne, kein Markdown-Doppelstern — das KI-Paste-Signal
+  (`CLAUDE.md`, zweite Falle) bleibt am **Doppel**stern und darf hier nicht anschlagen.
+- **Anfuehrungszeichen:** „Machbarkeitsabklärung" und „Machbarkeitsabklärungen  - Kinderspital
+  Zürich - Akutspital - Umnutzung 1.OG" — deutsche Gaensefuesschen, null Guillemets, und im
+  Projekttitel **einfache Bindestriche** statt der En-Striche desselben Titels vom 28.01.2026
+  (Fidelity 260904, Befund 7). Dritter unabhaengiger Beleg gegen das Guillemet-Signal allein.
+- **Metrik:** Fehler je 100 Woerter Gold A 2.4, Gold B **8.9** — die formellere Sie-Mail mit
+  Honorarbezug traegt die vierfache Fehlerdichte. «Formell = sorgfaeltiger» ist widerlegt; die
+  Fehlerdichte haengt nicht am Register. Satzlaenge 15.4 bzw. **10.9** W gegen ~17 W in den
+  Blindfassungen.

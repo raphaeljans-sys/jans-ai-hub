@@ -3267,3 +3267,17 @@ der Werkpläne), LBW (Leichtbauwand), Rohmass, Zarge, Duofix, Sturz, Kernbohrung
 Die Los-Nummern erscheinen als Ablagepfad (`LOS_231.10 Türen System TeKoSi AG`,
 `LOS_274.01 Innere Verglasungen JEGEN`) — die Ablagestruktur ist selbst Fachsprache und wird als
 Link statt als Beschreibung weitergegeben.
+
+## Fidelity 260908 — die Erfindungs-Drift greift bei GELD, wo Schritt 2b nicht greift
+
+Der Blind-Selbsttest erzeugte in zwei Vorlagen **vier** erfundene Inhalte, alle in derselben
+Familie: drei Budget-Positionen (Gold A) und ein vierstelliger Frankenbetrag samt Pauschalmodell
+(Gold B, «zwei Tagespauschalen … Kostendach CHF 4'800.-», wo das Gold gar keinen Preis nennt).
+Erfundene **Normen, Fristen und Identifikatoren** kamen dagegen nicht vor — dort greift die
+Verifikationspflicht zuverlaessig.
+
+**Der Befund praezisiert die Erfindungs-Drift:** sie ist keine allgemeine Fuellneigung mehr,
+sondern konzentriert sich auf die zwei Kategorien, fuer die es keine nachschlagbare Quelle gibt
+— **Geld** (Preis, Pauschale, Kostendach) und **Zustaendigkeit** (wer den naechsten Schritt tut).
+Beide sind genau die Stellen, an denen ein Verweisanker («analog/gemaess Referenz», 260826) oder
+ein offen gelassener Platzhalter die richtige Antwort waere.

@@ -112,7 +112,7 @@ nicht jede Nachbesserung wird zur Position.
   («wir» für Büro-/Projekthandlung, «ich» für die persönliche Bitte/Anrede an das Gegenüber —
   auch bei unbekannter Behörde); Honorar **in der Offerte** direkt und ohne Polster beziffern, warm gerahmt; die
   **Erweiterung im laufenden Mandat gar nicht (260908)** — Aufwand als Tagesspanne, Kostendach
-  als Rueckmeldeschwelle, kein Preis; Sorgfalt/Effizienz auch als Rücksicht auf die
+  als Rueckmeldeschwelle; Sorgfalt/Effizienz auch als Rücksicht auf die
   Gegenseite begründen; bei einem **Zusatzwunsch mit fragwürdigem Nutzen** den Nutzen-Zweifel
   offen aussprechen, auch mitten in der eigenen Offerte und gegen das eigene Honorar — als
   Entscheidungs-Skala + Praxis-Einordnung + «Ich frage, weil …», nie als Bevormundung; eine
@@ -2029,3 +2029,33 @@ nie umgekehrt, und nie als Bedingung des Verbindlichen.
 
 Für den Zwilling: solche Sätze nicht wegglätten und nicht nach vorne ziehen. Sie sind der Grund,
 weshalb Raphael im nächsten Vorgang noch verhandeln kann.
+
+## Fidelity 260908 — Verzicht statt Bezifferung, und ein gemessener Verstoss gegen die eigene Regel
+
+- **Die Erweiterung im laufenden Mandat wird nicht beziffert (Gold B, 06.02.2026, an Roman
+  Steinmann/Nova).** Anlass ist eine Auftragserweiterung um eine Baueingabe-Abklaerung. Raphael
+  schreibt: «Ich würde versuchen die Arbeiten im Rahmen des bestehendes Angebotes zu erledigen.
+  Sollte das Kostendach erreicht sein würde ich Sie kontaktieren. Es ist von einem
+  prognostizierten Arbeitsaufwand für die Baueingabe-Abklärung von 1-2 Tagen zu rechnen.» Kein
+  Preis, keine Pauschale, kein Kostendachbetrag: der Aufwand steht als **Spanne**, das Kostendach
+  wird als **Rueckmeldeschwelle** statt als Zahl benutzt. Die Blindfassung erfand «zwei
+  Tagespauschalen, exkl. MwSt., Kostendach CHF 4'800.-» und verkehrte damit den Verzicht in eine
+  verkaufte Zusatzleistung. Die bestehende Regel «Honorar direkt und ohne Polster beziffern»
+  stammt aus der **Offerte** und traegt diesen Fall nicht — im Do/Don't-Block entsprechend
+  begrenzt.
+- **Gemessener Verstoss gegen eine Regel, die den Fehler beim Namen nennt.** Gold A: «Albin, darf
+  ich um Prüfung der Rechnung in Bezug auf die von mir erarbeitete „Machbarkeitsabklärung" bitten
+  und **bei Annahme/Akzeptanz** diese bei Nesa freizugeben.» Der Vorbehalt aus 260826 steht
+  wortwoertlich im Block, samt der Warnung «Nie zu ‹zur Zahlung freigeben› glaetten, das kassiert
+  den Vorbehalt». Die Blindfassung schrieb exakt «die Rechnung **zur Zahlung freizugeben**».
+  Kein Byte-Problem, ein Abruf-Problem: die Kompilierung einer Regel verhindert ihren Bruch
+  nicht.
+- **Die Negativliste ist anaphorisch und endet auf der Haltung.** Acht Budget-Positionen, alle
+  mit «Kein/Keine» eroeffnet («Keine Kücheninsel in der Gemeinschaftsküche», «Kein Personalwc mit
+  Dusche», …), Schlusszeile «Grundsätzlich: wirklich nur das zwingendste planen und bauen.» Die
+  Blindfassung erfand drei harmlosere, nicht-anaphorische Positionen.
+- **Zehnter Beleg der stabilsten Drift, wortgleich zum Vorlauf.** Die Blindfassung schrieb
+  «Sobald die Rückmeldung vorliegt, melde ich mich unverzüglich» — derselbe Satz, den Fidelity
+  260904 als Erfindung 2 gemessen hat. Gold gibt den Kanal vollstaendig ab: «Fabian Simmen hat
+  mir versprochen, dass er **Dich, Albin** heute kontaktiert um das Projektvorgehen mit Dir
+  abzusprechen.»

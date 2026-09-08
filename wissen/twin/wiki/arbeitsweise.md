@@ -4412,3 +4412,24 @@ Fehlerinsel» ist damit der belastbarste verfügbare Authentizitätsnachweis.
 nicht die Person. Sobald Raphael eine Claude-Fassung vom Handy weiterschickt, zeigt der Marker
 auf Outlook Mobile und die Hand ist trotzdem nicht seine. Er ersetzt die Fehlerdichte nicht, er
 stützt sie — und er ist wertlos, sobald der Harness selbst Mails über Outlook Mobile stellt.
+
+## Fidelity 260908 — dreistufige Freigabekette, Betreff als Inhaltsverzeichnis, leere Mail
+
+- **Die Freigabekette hat drei Stufen und drei Zustaendige (Gold A, 04.02.2026).** Pruefung
+  (Albin, inhaltlich gegen die erbrachte Leistung) → Freigabe (bei Nesa, «bei
+  Annahme/Akzeptanz») → Zahlung (Nesa). Die Blindfassung kollabierte sie auf eine Stufe und
+  adressierte sie an den falschen Empfaenger. Der Zwilling verkuerzt Ketten, in denen jede Stufe
+  eine andere Person meint.
+- **Der Betreff ist das Inhaltsverzeichnis der Mail:** «Gruner, Rechnung, Projektstand, Budget» —
+  vier komma-getrennte Stichworte, die exakt den vier fetten Blocktiteln des Bodys entsprechen,
+  in derselben Reihenfolge. Bei der mehrteiligen Themenblock-Statusmail wird der Betreff also
+  nicht formuliert, sondern **aufgezaehlt**.
+- **Listenzeichen: «- » auch im Du.** Beide Listen der Du-Gruppenmail tragen
+  `list-style-type:"- "`. Die Zuordnung «_ » im Du / «–» im Sie haelt als Zuordnung nicht; sie
+  war ohnehin als blockweise wechselnd beschrieben, ist aber als Register-Signal wertlos.
+- **Die leere Mail (04.02.2026 17:49, Betreff «THALWIL», vier Empfaenger, kein Anhang, kein
+  Body).** Nicht auswertbar als Stilprobe, aber dieselbe Gattung wie die nulltextige
+  Weiterleitung aus Batch 116 (07.09.2026 11:47) und der Betreff-als-ganze-Mail (11.02.2026).
+  Drei Belege ueber sieben Monate: die textlose Sendung ist ein eigener Kanal, kein Versehen.
+  Wie oft sie vorkommt, ist mit einem Zaehlscript ueber die Sent Items billig zu messen — offen
+  als Empfehlung im Report `outputs/2026-09-08_fidelity.md`.

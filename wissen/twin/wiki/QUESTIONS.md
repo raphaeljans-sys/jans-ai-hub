@@ -5872,3 +5872,68 @@ eingespielten Gegenuebern und laufenden Vorgaengen richtig — und wenn ja, wora
 Unterschied?
 *Warum:* Der Zwilling formuliert solche Weiterleitungen aus. Das ist hoeflicher und langsamer;
 falls die knappe Form Deine Regel ist, bremst er einen Deiner schnellsten Ablaeufe.
+
+---
+
+## Selbstfragen 260908b (Fidelity-Review, Golds 04.02. und 06.02.2026)
+
+**#1 [Methode] Soll der Fidelity-Review ein eigenes, dem Lern-Loop gesperrtes Mail-Fenster bekommen?**
+Der Vorlauf dieses Reviews hat gemessen: die `rj@`-Sent-Items sind von Juli 2025 bis heute
+lueckenlos durch Trainings-Batches abgedeckt, und die Register nennen **beide** heutigen
+Goldproben namentlich als bereits destilliert (Batch 26 und 27). Der Test misst damit, ob der
+Zwilling wiedergeben kann, was im Wiki steht — nicht, ob er verallgemeinert. Sichtbar geworden
+ist es an einem wortgleichen Treffer ueber zwoelf Woerter beim Schluss-Service-Satz.
+*Konkret:* Sollen wir (a) ein Fenster fuer den Review reservieren, das `twin-mail-training`
+ueberspringt — dann bitte sag, welches (ein Monat reicht) —, oder (b) das Ergebnis kuenftig
+zweiteilig ausweisen, «Wiedergabe» und «Verallgemeinerung», und die eine Zahl aufgeben?
+*Warum:* Ohne Entscheid ist jede Fidelity-Zahl seit Beginn eine Obergrenze unbekannter Hoehe,
+und die Reihe der letzten zehn Laeufe ist nicht vergleichbar. Das ist der teuerste offene Punkt
+des Harness und keiner, den Claude allein entscheiden sollte.
+
+**#2 [Haltung] Nimmst Du eine Auftragserweiterung grundsaetzlich ins bestehende Angebot — oder war das die Nova-Situation?**
+06.02.2026 an Roman Steinmann: «Ich würde versuchen die Arbeiten im Rahmen des bestehendes
+Angebotes zu erledigen. Sollte das Kostendach erreicht sein würde ich Sie kontaktieren.» Kein
+Preis, keine Pauschale, der Aufwand nur als Spanne «1-2 Tage».
+*Konkret:* Ist das Deine Regel fuer Erweiterungen im laufenden Mandat (dann beziffert der
+Zwilling dort nie und nutzt das Kostendach als Rueckmeldeschwelle), oder haengt es an der
+fruehen Phase der Nova-Beziehung, am Volumen, oder daran, dass die Abklaerung ohnehin anfiel?
+*Warum:* Der Zwilling hat hier ein Kostendach von CHF 4'800.- erfunden. Ist die Zurueckhaltung
+Deine Regel, ist das die teuerste Einzelabweichung, die dieser Review je gemessen hat — sie
+verkauft etwas, das Du verschenkst.
+
+**#3 [Beziehungsregister] «Guten Tag,» ohne Namen, obwohl Du die Sachbearbeiter kennst — haengt das am Anliegen?**
+05.01.2026 an zwei namentlich bekannte Personen der Stadt Zuerich (Buschor, Radke), Cc Peter,
+mit einer trivialen Formularfrage: Anrede «Guten Tag,», niemand wird angeredet. Das Wiki knuepft
+die namenlose Anrede bisher ans **unbekannte Postfach**.
+*Konkret:* Ist die Regel «triviales Anliegen → namenlos, auch bei bekannten Personen»? Und gilt
+sie auch, wenn nur EINE Person im To steht?
+*Warum:* Der Zwilling haette hier gestapelt namentlich angeredet und damit eine Zweizeilen-Frage
+wie ein Ersuchen aussehen lassen. Ein Satz von Dir macht die Regel scharf.
+
+**#4 [Arbeitsweise] Darf der Zwilling eine Mail ohne Text senden?**
+Dritter Beleg ueber sieben Monate: 04.02.2026 Betreff «THALWIL» an vier Empfaenger, kein Body,
+kein Anhang; 11.02.2026 Betreff-als-ganze-Mail; 07.09.2026 die wortlose Weiterleitung mit
+leerem Body (Batch 116, dort schon als `QUESTIONS` 260908 #5 gefragt).
+*Konkret:* Diese Frage zielt enger als 260908 #5: nicht auf die Weiterleitung, sondern auf die
+**selbst verfasste** textlose Sendung — Betreff als ganze Nachricht, an eine Gruppe. Soll der
+Zwilling das koennen, und woran erkennt er den Anlass?
+*Warum:* Er formuliert solche Sendungen immer aus. Wenn der leere Body Dein Kanal fuer
+«schaut mal rein, ihr wisst worum es geht» ist, bremst er Dich jedes Mal.
+
+**#5 [Stimme] Ergaenzung zu 260908 #2 (Komma nach der Anrede) — es schwankt, bitte nicht hart pruefen.**
+Die Frage stuetzte sich auf 3/3 mit Komma aus dem Septemberfenster. Der Februar zeigt beide
+Formen, eine davon in **derselben** Mail: «Geschätztes Projektteam**,**» / «Werter Albin, Nesa
+und Peter» (ohne), dazu «Sehr geehrter Herr Steinmann» (ohne).
+*Konkret:* Bleibt es bei «verbindlich» — dann korrigiert der Zwilling Deine eigenen kommalosen
+Anreden weg? Oder gilt: Komma bei der gestapelten Gruppenanrede, sonst offen?
+*Warum:* Die urspruengliche Frage schlug vor, es im Gate **hart** zu pruefen. Nach diesen Belegen
+waere das ein Fehler.
+
+**#6 [Stimme] Ergaenzung zu 260908 #3 (Verb-Grossschreibung) — das Muster ist mindestens sieben Monate alt.**
+Zwei weitere Belege vom 06.02.2026: «**Bitten** lesen sie kurz meine Stichworte …» und «Sollten
+Sie wichtige Ergänzungen haben **Bitte** ich Sie mir diese kurz mitzuteilen.» Damit n = 7 statt
+n = 5, und nicht mehr auf das Septemberfenster beschraenkt.
+*Konkret:* Die Frage bleibt Deine (nachbilden / stillschweigend korrigieren / melden) — aber die
+Antwort «Fluechtigkeit dieses Sommers» ist ausgeschlossen. Aendert das Deine Wahl?
+*Warum:* Wenn es Betonung ist, glaettet `korrektur` sie seit Monaten weg, und der Zwilling hat
+sie nie gesetzt.
