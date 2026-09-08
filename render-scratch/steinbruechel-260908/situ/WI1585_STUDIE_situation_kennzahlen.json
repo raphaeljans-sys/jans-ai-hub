@@ -1,0 +1,25 @@
+{
+  "name": "WI1585_STUDIE",
+  "origin_lv95": [
+    2686974.08,
+    1245616.39
+  ],
+  "z": "m ue.M.",
+  "systemgrenze_radius_m": 40.0,
+  "terrain_bbox_lv95": [
+    2686897.0,
+    1245547.9,
+    2687053.9,
+    1245684.4
+  ],
+  "gebaeude_kontext": 15,
+  "gebaeude_bestand_parzelle": 3,
+  "varianten": [
+    "S"
+  ],
+  "vol_okt_m": 0.0,
+  "quellen": {
+    "terrain": "swissALTI3D (GeoTIFF 0.5 m)",
+    "gebaeude": "SWISSBUILDINGS3D_2_0_CHLV95LN02_1091-42.dxf"
+  }
+}

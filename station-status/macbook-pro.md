@@ -1,17 +1,16 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 13:36:09
+Stand: 08.09.2026 13:56:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/activity/display/performance/386804  (letzte Aktivitaet 13:18)
-- Developer/jans/ai/hub//claude/worktrees/distracted/jang/0b6aff  (letzte Aktivitaet 13:18)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:18)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
+- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- f2bf87873 projekt-lessons: PL46-2/PL46-3 geschlossen, links:-Konvention fuer outputs/ geklaert (WISSEN-CLAUDE.md + wissenscheck SKILL.md)
+- 24c9cdf2b nas-selfcommit: 1 Datei(en) 2026-09-08 13:45
