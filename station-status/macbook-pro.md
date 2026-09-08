@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 17:12:09
+Stand: 08.09.2026 17:22:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:11)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 08.09.2026 17:12:09
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 0764894b4 nas-selfcommit: 3 Datei(en) 2026-09-08 17:00
+- baadd6921 Synergie-Lauf 31 (08.09.): SYN-78 Byte-Riegel Facetten-Pflichtlektuere erreicht (Zeiger repariert, Riegel-Entscheid offen), SYN-79 links:-Konvention gegen 85 outputs-Altbestand, SYN-72 Status auf sechs Stellen nachgefuehrt
