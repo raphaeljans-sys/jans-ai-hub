@@ -29,7 +29,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   **Adressat** → FG+Block, in der Sie-Behördenmail als «Danke und Gruss» davor. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
   («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt — vier Linien sind gefallen (260807–260908).** Der Gattungs-Messstand (belegt gesetzt / belegt
-  weggelassen) steht im Artikel. **Auch diese Bestbeschreibung ist
+  weggelassen) steht in den Gattungs-Abschnitten weiter unten in `wiki/stimme.md`. **Auch diese Bestbeschreibung ist
   widerlegt (260908):** Kurzgruss ueber dem Block UND Service-Satz. **Im Zweifel setzen.** Er trägt sein Objekt, der
   Schlusspunkt schwankt (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder

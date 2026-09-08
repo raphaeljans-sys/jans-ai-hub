@@ -2,6 +2,49 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-08 (Synergie-Lauf 31, Tagestakt) — der Byte-Riegel der Facetten-Pflichtlektuere ist erreicht
+
+Delta-Basis 07.09.2026 17:10, Fenster 23,8 h, **119 Commits**. Uhr- und Anschluss-Gegenprobe
+bestanden (`7230d0b65` schliesst an `9a96588b0`, den HEAD von Lauf 30). Strukturelles Delta:
+0 neue Bausteine, 8 geaenderte Contract-relevante Dateien in vier Vorgaengen. Kein Fan-out,
+Inline-Analyse. Bericht: `outputs/2026-09-08_synergie-lauf-31.md`.
+
+- **SYN-78 (neu, Prio 1): der Riegel ist erreicht, und die erste Verdichtung hat Belege aus der
+  Ladezone geschoben.** `build_dna.py` kompiliert je Facette **nur** den `## Do / Don't`-Block in
+  `rules/jans-dna-facetten.md` — genau die «PFLICHT-LEKTUERE vor jedem ausgehenden
+  Texterzeugnis». Gemessen an HEAD: **33'993 B bei MAX 34'000, also 7 B Reserve.** Der
+  `twin-fidelity-review` (`641664511`, 08.09. 06:05) musste kuerzen und hat dabei die **neun
+  namentlich belegten Service-Satz-Gattungen** aus dem Block genommen, ersetzt durch «Der
+  Gattungs-Messstand steht im Artikel». **Kein Datenverlust, ein Zugriffsverlust:** die Gattungen
+  stehen weiter in `stimme.md` (Abgebot 8 Treffer, Erst-Offertanfrage/Zweitanfrage/Amts-Ersuchen
+  je 1), im Do/Don't-Block aber **0** — also ausserhalb dessen, was ein Texterzeugnis laedt. Der
+  Ersatz-Zeiger loeste in keinem Kontext auf: in der Quelle Selbstverweis, im Kompilat adresslos.
+  **Der Zustand war am 18.08.2026 im Script selbst vorhergesagt** («die naechste Runde haette
+  Regeln geloescht statt Doppelungen»); nach 21 Tagen eingetreten.
+- **Repariert (a), active-with-flagging:** Zeiger in `wissen/twin/wiki/stimme.md` Z. 57-58 konkret
+  gemacht, **in der Quelle** editiert (die Rule traegt «Nicht von Hand editieren»), danach
+  `build_dna.py` neu gefahren. Beide Zeilenzahlen unveraendert. **Offen (b), fuer Raphael:** der
+  Riegel laesst nur noch Verdraengung zu — Grenze anheben, Verdichtungsregel schaerfen, oder den
+  Block in zwei Ladestufen splitten. Nach der Reparatur **71 B Reserve**; das Script warnt selbst.
+- **SYN-79 (neu, Prio 2): eine mustergueltig verdrahtete Konvention ohne Aussage ueber den
+  Bestand.** `f2bf87873` setzt `links:`-nur-fuer-`wiki/` beidseitig (`WISSEN-CLAUDE.md` Z. 60-66 ↔
+  `wissenscheck` Pruefung B) — **das ist der Nullbefund des Tages und die Kante, deren Fehlen
+  dieser Skill seit SYN-10 am haeufigsten meldet.** Die Klarstellung erklaert `links:` in
+  `outputs/` zugleich zum Audit-F-Verstoss; gemessen sind **85 solche Reports in mindestens zehn
+  KBs** und drei Bauformen. Ohne Uebergangsregel erzeugt der naechste `wissenscheck` dort Rauschen
+  aus Altlast. Nicht gesetzt — der Umgang mit Altbestand ist ein Entscheid, kein Querverweis.
+- **SYN-72 nachgefuehrt:** Auslieferung des ⚠-Zeigers von zwei auf **sechs** Stellen gewachsen
+  (Laeufe 53/54), alle am Objekt nachgemessen. **Ungedeckt bleibt `skills/kostenschaetzung/SKILL.md`**
+  — in der Beteiligtenspalte genannt, 0 Treffer, fuehrt ihr Band in CHF/m² NF und mahnt an Z. 83
+  sogar zur Bezugsflaeche. Weiterhin bewusst nicht gesetzt (Praezedenz `realwert-rechner`).
+  Massnahme (c) umfasst damit **sieben** Stellen, nicht fuenf.
+- **Nicht aufgerollt:** `offertenpruefung` Z. 16 (Eigenrauschen aus Lauf 30, SYN-77); SYN-01 bis
+  SYN-77 im Uebrigen (kein Beteiligter bewegt). KB-Inhaltsarbeit ohne neue Bausteine gemessen,
+  nicht aufgerollt: `twin` 28, `energie` 26, `baurecht` 19, `normen` 11, `koordination` 9,
+  `projekt-lessons` 6, `bauprodukte` 4, `immobilienbewertung` 2, `spec` 1.
+- **Offen fuer Raphael:** SYN-78 (b) — der Riegel-Entscheid. Sonst nichts Neues; SYN-72 (c) und
+  die Planerhaftung aus SYN-74 (b) stehen unveraendert.
+
 ## 2026-09-07 (Lauf 54, Abendlauf) — drei Registerlücken derselben Familie, und ein Lauf, der seine eigene Spur nicht hinterlassen hat
 
 Zuschnitt: 6 Melder (`model: sonnet`) auf dem Zuwachs seit Lauf 52/53, 9 adversariale Verifikatoren
