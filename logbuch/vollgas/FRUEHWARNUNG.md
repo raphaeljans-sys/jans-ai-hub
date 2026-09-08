@@ -4121,3 +4121,98 @@ gemeldeter Korpus-Queue.
 
 **Regellauf, keine Delegation** — Messungen inline, rund 18 Werkzeugaufrufe; die Reparatur kam
 zur Messung hinzu und rechtfertigte keinen Subagenten.
+
+## 2026-09-08 07:15 — Rohblock (Messung zuerst, Bewertung darunter)
+
+**Teurer Tagesverbrauch (in+cache_creation+out), beide Stationen, rekursiv inkl. Subagenten:**
+
+08.09. (Teiltag bis 07:15): MacBook Pro 1.70 Mio, Mac Mini 0.52 Mio, zusammen 2.22 Mio.
+07.09.: MacBook Pro 10.34 Mio, Mac Mini 5.42 Mio, zusammen 15.76 Mio.
+06.09.: MacBook Pro 0 (Station ausgeschaltet), Mac Mini 1.59 Mio, zusammen 1.59 Mio.
+05.09.: MacBook Pro 0 (Station ausgeschaltet), Mac Mini 1.28 Mio, zusammen 1.28 Mio.
+04.09.: MacBook Pro 4.58 Mio, Mac Mini 1.86 Mio, zusammen 6.44 Mio.
+03.09.: MacBook Pro 10.12 Mio, Mac Mini 2.40 Mio, zusammen 12.52 Mio.
+02.09.: MacBook Pro 9.20 Mio, Mac Mini 2.49 Mio, zusammen 11.69 Mio.
+01.09.: MacBook Pro 11.19 Mio, Mac Mini 1.59 Mio, zusammen 12.78 Mio.
+
+Total (mit cache_read) zum Vergleich: 08.09. 41.75 + 21.21 Mio; 07.09. 239.38 + 101.12 Mio.
+Grundlage MacBook Pro 673 JSONL-Dateien, Mac Mini 336, je 9-Tage-mtime-Vorfilter, je Zeile
+nach timestamp[:10] gefiltert, Duplikate ueber (message.id, requestId) ausgeschlossen.
+
+Die Nullwerte des MacBook Pro am 05. und 06.09. sind kein Messfehler: die Station war
+ausgeschaltet (Boot 07.09. 07:53, vom Radar am 07.09. 08:21 unabhaengig gemessen). Der Mac
+Mini trug das Wochenende allein.
+
+**Blockade-Status:** 73 Dateien im 48-h-Fenster strukturell geprueft (isApiErrorMessage,
+type=error, message.type=error, apiErrorStatus=429, Text mit Usage-/Rate-/Weekly-Limit-Bezug):
+**null echte Limit-Fehlerereignisse in den letzten 24 h**, weder interaktiv noch in Loops.
+
+**Radar-Herzschlag:** juengste `## `-Ueberschrift in RADAR.md ist 2026-09-08 00:57, dazu eine
+Task-Session um 01:16 — rund 6 h alt, deutlich innerhalb der 12-h-Schwelle. Aufsicht laeuft.
+
+**Messhinweis dieses Laufs:** `timeout` existiert auf dem MacBook Pro nicht (zsh, kein
+coreutils-`timeout` im PATH); der erste Mini-Messversuch quittierte deshalb mit rc=127 und
+haette den Mini faelschlich als «nicht messbar» gefuehrt. Ueber `ssh -o ConnectTimeout` plus
+`ServerAliveInterval` gemessen, Alias `mini`, scp+ssh beide rc=0. Gleiche Familie wie die
+Opener-Escaping-Falle: ein Werkzeugfehler, der wie ein Sachbefund aussieht.
+
+**Briefing-Status (Schritt 3):** alle vier operativen Briefings haben ihr Deliverable erreicht.
+Der `logbuch-radar` ist heute um 07:15 gelaufen (Briefing versendet, Logbuch 74 Zeilen ergaenzt,
+0 geloescht, Commit `7bca285b1`). `hub-chef-taeglich`, `mahnwesen-verzugscheck` und
+`zahlungsabgleich-check` haben am 07.09. je ihren Bericht abgelegt; die heutigen Laeufe stehen
+zur Messzeit noch aus (Takt nach 07:15). Kein abgebrochener Briefing-Lauf.
+
+**Liefer-Delta und Ertrag (Schritte 5/5b):**
+
+(a) Fortschritt bleibt fuer beide aktiven Korpora **unmessbar**: `inventar.sh --stand` quittiert
+fuer `buero-referenzen` und `archiv-fachwissen` mit **rc=6** und der Begruendung
+`training-inventar-fehlt` (23 bzw. 20 Sektionsdateien im neuen `raw/inventar/`-Format vorhanden).
+Die Reparatur vom 07.09. haelt also und behauptet weiterhin keine Zahl. Die fehlende Semantik
+(«erledigt» = P1 allein oder P1 UND P2) ist unveraendert Sache des Skills `wissens-destillat`.
+
+(b) Ertrag bewegt sich deutlich. Geaenderte Wiki-Artikel je Tag, per `git log` gemessen
+(INDEX/QUESTIONS/REGISTER/BAUHERREN-FAQ herausgefiltert): 04.09. 10 (ohne twin 5), 05.09. 3 (3),
+06.09. 3 (3), 07.09. 20 (15), 08.09. bis 07:15 bereits 8 (3). Getragen haben das die getakteten
+Scheduled Tasks — `energie` (40 Artikel, juengster heute 05:34), `baurecht` (28, gestern 23:52),
+`bauprodukte` (18, gestern 23:35), `immobilienbewertung`, `normen`, `projekt-lessons`.
+
+(d) Stueckkosten (teurer Tagesverbrauch beider Stationen je geaendertem Artikel): 04.09. 0.64 Mio
+(ohne twin 1.29), 05.09. 0.43, 06.09. 0.53, 07.09. 0.79 (ohne twin 1.05), 08.09. Teiltag 0.28.
+Die Reihe liegt durchgehend unter dem Band der Vorwoche.
+
+(c) **Der Destillat-Loop selbst steht still, aber ohne Kosten.** Die Ziel-KB
+`architektur-fachwissen` (480 Artikel) ist seit dem 03.09. 23:30 nicht mehr angefasst worden,
+fuenf Tage. Das ist **kein** Fall von Kriterium (f): Aufwand ohne Wissenszuwachs waere
+meldepflichtig, hier liegt schlicht kein Aufwand vor. Das Gate-Log
+`logbuch/speicher/gate-Macmini.log` endet unveraendert am 31.08. 13:30 — die Nachtschicht, die
+den Destillat-Loop taktet, hat seit acht Tagen keine Freigabe angefragt. Der Radar hat diesen
+Nullbefund am 03.09. selbst gemeldet und als Material- statt Drosselproblem gedeutet; der Befund
+gehoert ihm, von hier kein zweiter Kanal.
+
+(g) Die `KORPUS-QUEUE.md` traegt **keinen** KOMPLETT-Marker; zwei Korpora sind erledigt
+(`bauprodukte`, `buero-projekte`), zwei offen (`buero-referenzen` P1 vollstaendig/P2 offen,
+`archiv-fachwissen`).
+
+**Bewertung: kein Meldegrund, keine Mail.** Keines der sieben Kriterien ist erfuellt — (a) null
+Limit-Ereignisse, (b) hoechster Tag 15.76 Mio gegen die Schwelle 35 Mio und kein Paar
+Folgetage ueber je 18 Mio, (c) kein erschoepftes Wochenkontingent, (d) alle Briefings geliefert,
+(e) Radar-Herzschlag 6 h alt, (f) kein Aufwand ohne Wissenszuwachs, (g) Queue nicht komplett.
+
+**Zwei Messfallen dieses Laufs, beide im eigenen Werkzeug, beide behoben:** erstens das fehlende
+`timeout` (oben). Zweitens die Stueckkosten-Messung, die fuer **alle** Tage glatt 0 Artikel
+meldete, waehrend die Dateien frische mtimes trugen — ein leeres Ergebnis, das wie ein
+Totalstillstand aussah. Zwei unabhaengige Ursachen: die BSD-`date`-Arithmetik
+`date -j -f "%Y-%m-%d" "$d" -v+1d "+%Y-%m-%d"` liefert bei dieser Argumentfolge **still das
+heutige Datum im Default-Format** statt des Folgetags, womit `--until` unbrauchbar wurde; und der
+Pathspec `wissen/*/wiki/*.md` traf nichts, waehrend `-- 'wissen/'` mit nachgelagertem
+`grep '/wiki/'` sauber greift. Haette ich die Null geglaubt, waere Kriterium (f) ausgeloest und
+eine Mail ueber einen Stillstand gegangen, den es nicht gibt — dieselbe Fehlerfamilie wie die
+Opener-Escaping-Falle vom 18.08. Gegenprobe war hier die Widerspruchsprobe: frische mtimes und
+null git-Treffer koennen nicht beide stimmen.
+
+Zuletzt gemailt: **24.08.2026 07:50**, unveraendert. Naechste Mail erst bei neuer
+Kontingent-Erschoepfung, Briefing-Ausfall, fehlendem Radar-Herzschlag, Aufwand ohne
+Wissenszuwachs oder komplett gemeldeter Korpus-Queue.
+
+**Regellauf, keine Delegation** — rund 14 Werkzeugaufrufe inline, davon drei zur Fehlersuche am
+eigenen Messwerkzeug; das rechtfertigte keinen Subagenten.
