@@ -2,6 +2,40 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-08 (Wissens-Chef Lauf 55, Cross-KB) — die Etappen-Datierung von AS 2025 659 ist am amtlichen Volltext widerlegt
+
+`wiki/recht-norm-quellenlandkarte.md`, Abschnitt «RPG 2 — Inhalt & ZH-Umsetzung»: ⚠-Vermerk mit
+zwei Belegen gesetzt. (1) Z. 126 datiert die **RPV-Teilrevision AS 2025 659** pauschal auf den
+01.07.2026; der amtliche Wortlaut in `wissen/baurecht/raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md`
+Z. 36 gibt für den neuen 5a. Abschnitt RPV (Art. 38a) **dieselbe AS-Nummer** mit «in Kraft seit
+1. Jan. 2026» wieder. Diese Datei sagt an anderer Stelle selbst richtig, die Teilrevision folge
+«demselben Etappen-Schema» (Z. 103) — die Pauschalzuordnung ist damit widerlegt; welche
+Bestimmungen wirklich erst am 01.07.2026 in Kraft treten, ist ungeklärt und bewusst **nicht**
+behauptet. (2) «neue Regeln zu nachträglichen Baugesuchen / illegalem Bauen» ab 01.07.2026
+(Z. 124-125) gegen **Art. 25 Abs. 5 RPG**, seit 01.01.2026 in Kraft und wortlautverifiziert in
+`wissen/baurecht/wiki/widerrechtliche-bauten-und-sanktionen.md` Z. 72-77 (Buch-Run 101).
+
+Im selben Zug der **Fundstellen-Zeiger** auf Art. 16 Abs. 4/5 RPG und Art. 38a RPV
+(`wissen/baurecht/buecher/band-2/21-bauen-ausserhalb-bauzonen.md` Z. 88-124, Buch-Run 142 vom
+07.09.2026) — die Zeile «Vorrang der Landwirtschaft» war hier eine korrekte, aber unbelegte
+Zusammenfassung. Damit ist auch geheilt, dass Buch-Run 142 seine Cross-KB-Bringschuld nur an
+`energie` gesetzt hat und dieser KB keine Rückmeldung gab.
+
+**Zur Einordnung, weil es in beide Richtungen geht:** bei der **ersten** Etappe lag diese KB seit
+dem 20.06.2026 richtig («**Seit** 01.01.2026», Commit `7b8532627` wortgleich belegt), während
+`baurecht` RPG 2 bis zum 07.09.2026 als «anstehende Revision» führte. Bei der **zweiten** Etappe
+ist es umgekehrt.
+
+**Zwei gemeldete Befunde wurden adversarial widerlegt und bewusst nicht umgesetzt:** (a) die
+angeblich fehlende Kante pg → `baurecht` — der generische Zeiger Z. 197 entspricht der
+Führungsmatrix (`wissen/koordination/QUERBEZUEGE.md` Z. 64), und ein artikelscharfer `[[link]]`
+wäre schemawidrig, weil das Ziel unter `buecher/` liegt; (b) die angebliche «Datenstands-Täuschung»
+durch `last_updated: 2026-08-23` — das Schema kennt keine Abschnitts-Semantik, das Feld benennt
+seinen Gegenstand selbst, und der RPG-2-Abschnitt trägt einen eigenen Stempel plus fünf datierte
+Refreshes. Der Stempel **untertreibt** die Aktualität um fünf Wochen.
+
+Bericht: `wissen/koordination/outputs/2026-09-08_wissens-chef-run55.md`.
+
 ## 2026-09-07 (Wissens-Chef Lauf 53) — VKF-Statuslabel nachgezogen, eine zweite Rechtsfolge ergaenzt, ein Blocker entschaerft
 
 Alle drei Eingriffe additiv im Wiki. Der CHANGELOG-Eintrag vom 24.08.2026 (Run 42) bleibt als

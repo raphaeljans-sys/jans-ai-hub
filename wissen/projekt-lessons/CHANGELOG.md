@@ -2,6 +2,34 @@
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 
+## 2026-09-08 (Wissens-Chef Lauf 55, Cross-KB) — der letzte lebende BKP-Phantomcode «271.10» ist berichtigt (Ticket N43-1)
+
+`wiki/kispi-lbw-rohdichte-800.md` führte «271.10» im `bkp:`-Feld (Z. 8) **und** mit dem Präfix
+«BKP» im Body (Z. 16), beschriftet als «(Innenputze/Gipserarbeiten)». Das BKP 2017 kennt unter 271
+nur 271.0, 271.1 und 271.2 (`references/bkp-2017/BKP-2017-Liste.md` Z. 523-526); die Fehlerfamilie
+ist seit dem 04.08.2026 hubweit bereinigt, **diese eine Stelle blieb stehen**. Gegenprobe:
+`grep -rn "271\.10"` über wissen/, skills/, agents/, rules/ → 95 Fundstellen, davon **genau 2
+lebende Falschangaben, beide hier**; 5 korrekt als `LOS` geschrieben, ~88 als Fehler beschrieben.
+Frühere Läufe hatten sie erkannt und mit «Nicht angefasst — fremde KB» liegen lassen
+(`wissen/normen/outputs/2026-08-13_normen-nacht-run50.md` Z. 92-93) — genau der Fall, für den es
+die Koordinationsinstanz gibt.
+
+**Sachbezug dreifach belegt, bevor ersetzt wurde** (Rule `bkp-2017-referenz` Ziff. 1 verbietet das
+mechanische Ersetzen): der Artikel handelt ausschliesslich von LBW-Beplankung, also **Trockenbau
+271.1**, nicht Innenputz 271.0 — bestätigt durch `wissen/bauprodukte/wiki/lbw-brandschutzwaende-en520-typ-d.md`
+(«BKP 271.1 — Trockenbauarbeiten») und durch die Estermann-Offerte, die unter 271.1 abrechnet
+(`skills/ausschreibung/wissensbasis/training/audits-260907/test-kostenkontrolle-protokoll.md` Z. 70).
+
+Geheilt nach dem KB-eigenen Präzedenzfall `wiki/roethlisberger-geraetepreis-pruefung-273-35.md`
+(Wissens-Chef Run 19, 28.07.2026): beide Zahlen bleiben vollständig erhalten, ihre Herkunft
+(Losordner «LOS_271.10 Gipserarbeiten ESTERMANN», Submissions-LV «LV_BKP S 271.13») steht jetzt
+erstmals **im Artikel selbst**, und das verbotene Präfix «BKP» vor der Los-Nummer ist weg. Zwei
+Zeilenersetzungen, sonst nichts angefasst (gemessen: 2 ersetzte Zeilen, 0 weitere Entfernungen).
+Der Ordnername auf Z. 76 bleibt unverändert — er ist eine Fremdbezeichnung und war schon korrekt
+als `LOS_271.10` geschrieben.
+
+Bericht: `wissen/koordination/outputs/2026-09-08_wissens-chef-run55.md`.
+
 ## 2026-09-08 — Nachtschicht Mac Mini (Versuchs-Slot): PL46-2/PL46-3 geschlossen, `links:`-Konvention für `outputs/` geklärt
 
 Beide seit dem Wissens-Chef-Lauf 46 (28.08.2026) offenen Punkte zu toten `outputs/`-Wikilinks

@@ -2,6 +2,62 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-08 (Lauf 55, Abendlauf) — fünf von neun Meldungen fielen in der Verifikation, und die zwei schärfsten Funde kamen erst aus dem Widerlegungsversuch
+
+Zuschnitt: 6 Melder (`model: sonnet`) auf dem Zuwachs seit Lauf 54, 5 adversariale Verifikatoren im
+Hauptmodell, zwei eigene Gegenmessungen vor den heikelsten Eingriffen. **11 Agenten.** Delta-Basis
+`7925efcff` → `31967b7fa`, Fenster 23,4 h, **116 Commits**. Bilanz: **7 bestätigt (4 mit
+Einschränkung oder anderem Zuschnitt) · 5 widerlegt · 2 Nullbefunde mit Aussage · 2 neue Befunde
+aus der Verifikation.** 15 Dateien geändert, alle additiv bis auf zwei benannte Zeilenersetzungen.
+Bericht: `outputs/2026-09-08_wissens-chef-run55.md`.
+
+- **Der letzte lebende BKP-Phantomcode ist weg (Ticket N43-1).**
+  `projekt-lessons/wiki/kispi-lbw-rohdichte-800.md` führte «271.10» im `bkp:`-Feld und mit dem
+  verbotenen Präfix «BKP» im Body. Hubweit sind das die **einzigen zwei** lebenden Falschangaben
+  (95 Fundstellen geprüft: 5 korrekt als `LOS`, ~88 als Fehler beschrieben). Mindestens drei
+  frühere Läufe hatten die Stelle erkannt und mit «Nicht angefasst — fremde KB» liegen gelassen —
+  genau der Fall, für den es diese Instanz gibt. Sachbezug vor dem Ersetzen dreifach belegt
+  (Trockenbau **271.1**, nicht Innenputz 271.0): Schwesterartikel in `bauprodukte`,
+  Estermann-Offerte, Artikelinhalt. Ein mechanisches 271.10 → 271.0 hätte den von Rule
+  `bkp-2017-referenz` Ziff. 1 verbotenen Fehler erzeugt.
+- **Register-Rückkanal: der Nullbefund ist die Aussage.** Der *frische* Zuwachs der KB `energie`
+  (Runs 186-188) enthält per Git-Diff auf die hinzugefügten Zeilen **null** Norm-Zitationen — das
+  seit Lauf 53 dreifach belegte Muster hat sich **nicht** wiederholt. Aus dem **Bestand** kamen
+  dafür zwei nie gemeldete Fälle: **WC55-1 SN EN 50642** (Halogengrenzwert 0.4 %, `grep` über
+  `normen` ganz → 0 Treffer; Registerzeile ohne Gültigkeitsaussage gesetzt) und **WC55-2
+  DIN 18041** — dort schärfte die Verifikation den Befund: nicht die Ausgabendifferenz 2016/2004
+  ist der Kern, sondern dass `energie` **SIA 181/1 als «geplant»** führt, während SIA 181/1:2026
+  **seit dem 01.02.2026 gilt**.
+- **Zwei Funde, die kein Melder hatte.** (1) `planungsgrundlagen` datiert **AS 2025 659** pauschal
+  auf den 01.07.2026, der amtliche Volltext in `baurecht/raw/` nennt für dieselbe AS-Nummer «in
+  Kraft seit 1. Jan. 2026»; zweiter Fall derselben Familie beim «illegalen Bauen» gegen
+  Art. 25 Abs. 5 RPG. Beides selbst nachgemessen, Vermerk mit beiden Belegen gesetzt — **ohne** zu
+  behaupten, was wirklich erst am 01.07. gilt. **Die Richtung kehrt sich zwischen den Etappen um:**
+  bei der ersten lag `planungsgrundlagen` richtig und `baurecht` falsch, bei der zweiten umgekehrt.
+  (2) Der Melder wollte die Bringschuld **E-B142-1** als «längst erledigt» abhaken — F268 schliesst
+  aber laut eigener Schlusszeile **E-B141-1**, und zwei Restpunkte sind belegt offen. Hätte der Lauf
+  die Meldung übernommen, wäre eine Bringschuld abgehakt worden, deren Kern in einem namentlich
+  benannten Artikel weiterhin falsch stand (`pv-solar-technologien.md`, Stand vor 01.01.2026, trotz
+  `last_updated: 2026-09-03`).
+- **Ein Abholverlust, kein Wissensverlust:** der Run-81-Fund zur Fassungsfalle der BRL 15-15
+  (Ziff. 3.7.13, 2017 enger als 2015) stand vollständig im Fassungsabschnitt, aber nicht im
+  «JANS-Praxis-Transfer», wo der Skill `brandschutz` seine Konsequenzen abholt. Zeile gesetzt, mit
+  beiden Dämpfern aus der Verifikation (gilt nur Hochhäusern, Destillat `speculative`). Ebenso
+  gesetzt: die fehlende Rückkante `normen` → `bauprodukte` (inline, nicht im Frontmatter — der
+  Melder hatte die falsche Konvention zitiert, Registerentscheid Run 13).
+- **Widerlegt und bewusst nicht aufgerollt:** Doppelspurigkeit Art. 18a als Ganzes (arbeitsteilig;
+  die Kante ist einseitig, nicht fehlend) · fehlende Kante pg → `baurecht` (führungsmatrix-konform,
+  artikelscharfer Link wäre schemawidrig) · «Datenstands-Täuschung» durch `last_updated` (dreifach
+  widerlegt; der Stempel **untertreibt** die Aktualität) · SIA 262:2025 (Duplikat) · «EN 12944»
+  (verkürzte Bezeichnung, nicht Registerlücke) · Rohdichte ≥ 980 gegen 1'003 (Schwelle gegen
+  Punktwert). **`twin` nicht angefasst:** Auslieferung trägt, Byte-Riegel nachgemessen
+  **33'927 B / Reserve 73 B**, unverändert — der unpräzise Zeiger bleibt stehen, weil ihn zu
+  schärfen Byte kostet und SYN-78 (b) bereits bei Raphael liegt.
+- **Offen für Raphael:** nichts Neues. Unverändert SYN-78 (b), SYN-72 (c), SYN-74 (b), SYN-79.
+  Beobachtung ohne Auftrag: die Liste der geparkten Beschaffungs-Bringschulden bei
+  kostenpflichtigen Normen wächst (aus diesem Lauf SN EN 50642 und SIA 181/1:2026) und will einmal
+  als Ganzes angeschaut werden statt Zeile für Zeile.
+
 ## 2026-09-08 (Synergie-Lauf 31, Tagestakt) — der Byte-Riegel der Facetten-Pflichtlektuere ist erreicht
 
 Delta-Basis 07.09.2026 17:10, Fenster 23,8 h, **119 Commits**. Uhr- und Anschluss-Gegenprobe

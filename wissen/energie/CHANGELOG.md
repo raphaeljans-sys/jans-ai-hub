@@ -1,5 +1,39 @@
 # CHANGELOG
 
+## 2026-09-08 (Wissens-Chef Lauf 55, Cross-KB) — drei Fassungsstände nachgetragen; der Rückkanal hat im Messfenster NICHT versagt
+
+Fremdlauf der Koordinationsinstanz, alle Eingriffe additiv (0 entfernte Zeilen), alle Befunde
+adversarial verifiziert. **Zuerst der Nullbefund, weil er die Hypothese widerlegt:** der frische
+Zuwachs dieser KB (Runs 186-188, Destillat +115 Zeilen) enthält per Git-Diff auf die hinzugefügten
+Zeilen **null** Norm-Zitationen — das Muster «Norm-Zitat erreicht das Normen-Register nie» hat sich
+hier **nicht** wiederholt. Die zwei gesetzten Vermerke betreffen den Bestand (Runs 180/183).
+
+- **`destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md`, zwei ⚠-Nachträge.** (1) Bei
+  Vorgabe 130.05: **SIA 181/1 ist nicht mehr «geplant»** — SIA 181/1:2026, SN 520181/1, **gültig ab
+  01.02.2026**, am Herausgeber verifiziert (`wissen/normen/destillate/sia-181-1-2026.md`); dazu die
+  Ausgabendifferenz DIN 18041 (hier 2016, in `normen` 2004 destilliert), übergeben als **WC55-2**.
+  (2) Bei Vorgabe 230.04: die Form «EN 12944» ist hubweit ein Unikat — alle 13 übrigen Fundstellen
+  schreiben **SN EN ISO 12944**, und die Korrosivitätskategorie C3 führt belegt
+  `wissen/normen/destillate/sia-mb-2022.md`. Der Wortlaut bleibt hier **stehen**, weil ungeklärt
+  ist, ob der Minergie-Vorgabenkatalog selbst verkürzt; in ausgehenden Dokumenten ist
+  SN EN ISO 12944 zu zitieren.
+- **`wiki/pv-solar-technologien.md`, ⚠-Nachtrag bei der SZ-Zeile.** Der Artikel führte die
+  Bewilligungslage weiter auf «Art. 18a RPG/Art. 32a RPV» — Stand **vor** dem 01.01.2026, ohne
+  Fassaden und ohne den neuen Art. 32a-bis RPV. Das ist genau der Prüfauftrag, den die Bringschuld
+  **E-B142-1** namentlich an diese Datei richtete; sie trägt `last_updated: 2026-09-03`, wurde also
+  **nach** F268 angefasst, ohne nachgezogen zu werden. Vermerk mit Fundstellen gesetzt, die
+  inhaltliche Einarbeitung steht aus.
+- **`wiki/QUESTIONS.md`, Teilstand an E-B142-1.** Der Kernpunkt (Fassaden, AS-Fundstellen,
+  Kriterienkatalog, Meldeverfahren) ist durch **F268** und `wiki/solarpflicht-schweiz-kantone.md`
+  bereits gedeckt; offen bleiben zwei Restpunkte (die Datei oben, und der neue Artikeltitel
+  «Solaranlagen und energetische Sanierungen»). Die Box bleibt zu Recht `[ ]`. Mit ausdrücklicher
+  Warnung vor der naheliegenden Fehlbuchung: **F268 schliesst E-B141-1, nicht E-B142-1.**
+  **E-B142-2** (Art. 18a Abs. 2bis, Solarstrukturen über Parkplatzarealen ab 15 Parkplätzen,
+  grundsätzlich zonenkonform) ist unberührt und der eigentliche unbearbeitete Fachbefund —
+  breite Gegensuche über die ganze KB: null Sachbelege.
+
+Bericht: `wissen/koordination/outputs/2026-09-08_wissens-chef-run55.md`.
+
 ## 2026-09-08 — Run 188 (Tageslauf): Pruefwarteschlange gezogen — null echte Fachbefunde, groesste Artefaktklasse im Werkzeug behoben
 
 - **Auftrag aus Run 187 ausgefuehrt:** `wiki-konsistenz.sh`, `bezugsgroessen-check.py` und

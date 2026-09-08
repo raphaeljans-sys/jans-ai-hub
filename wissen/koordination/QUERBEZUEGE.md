@@ -186,6 +186,172 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### baurecht ↔ energie (RPG 2 / Art. 18a Solarrecht) — geprueft 2026-09-08 (Lauf 55), TEILSTAND KORRIGIERT, 2 Stellen GESETZT
+
+- **Befund «energie fuehrt noch den Stand vor 01.01.2026»: teils bestaetigt, teils widerlegt.** Der
+  Kernpunkt der Bringschuld **E-B142-1** war bereits vor der Uebergabe gedeckt — `energie`
+  `wiki/BAUHERREN-FAQ.md` **F268** (02.09.2026, Run 175) und `wiki/solarpflicht-schweiz-kantone.md`
+  Z. 88-116 fuehren Fassaden-Wortlaut, AS-Fundstellen, Kriterienkatalog Art. 32a-bis RPV und
+  Meldeverfahren belegt. **Der namentlich uebergebene Pruefauftrag an `wiki/pv-solar-technologien.md`
+  war aber NICHT erledigt:** Z. 269 fuehrte die SZ-Lage weiterhin auf «Art. 18a RPG/Art. 32a RPV»,
+  ohne Art. 32a-bis und ohne Fassaden — obwohl der Artikel `last_updated: 2026-09-03` traegt, also
+  **nach** F268 angefasst wurde. ⚠-Vermerk mit Fundstellen dort gesetzt.
+- **E-B142-2 (Art. 18a Abs. 2bis RPG, Solarstrukturen ueber Parkplatzarealen ab 15 Parkplaetzen,
+  grundsaetzlich zonenkonform) ist ein echter, unbearbeiteter Fachbefund.** Breite Gegensuche ueber
+  `energie` ganz: «2bis» 6 Treffer (4 sachfremd: DBG/StG ZH/StromVV, 2 in der QUESTIONS selbst),
+  «Parkplatz» 75 Treffer (alle E-Mobilitaet/graue Energie), «Parkier» 8, «Parkfeld» 1,
+  «Parkraum» 0. **Null Sachbelege.** Bleibt offen bei `energie`, praxisrelevant fuer
+  Arealentwicklungen und Healthcare-Bauten mit Besucherparkierung.
+- **Buchhaltungs-Praezisierung gesetzt** (`energie/wiki/QUESTIONS.md`, an E-B142-1): was gedeckt ist,
+  was offen bleibt, und die Warnung vor der naheliegenden Fehlbuchung — F268 schliesst laut eigener
+  Schlusszeile die **Vorgaengerbringschuld E-B141-1**, nicht diesen Punkt. Die Box bleibt zu Recht
+  `[ ]`; zwei Restpunkte sind belegt offen.
+- **Widerlegt und bewusst nicht aufgerollt:** «Doppelspurigkeit des Gesetzeswortlauts» als Ganzes.
+  Der Vergleich zeigt Arbeitsteilung, nicht Redundanz — `baurecht` fuehrt Systematik, Erlassstand und
+  Rechtsprechung, `energie` den ZH-Vollzugsweg (§ 2a/2c BVV, Meldefrist 30 Tage, Pflichtbeilagen).
+  Ein echtes Doppel besteht nur bei den **Kernnormen** (Art.-18a-Abs.-1-Wortlaut samt AS-Nummern und
+  die Verweisnorm-Beobachtung zu § 2a Abs. 1 lit. a BVV, beidseits inhaltlich identisch). Ebenfalls
+  praezisiert: die Kante ist nicht «fehlend», sondern **einseitig** — `energie` zeigt vierfach auf
+  `baurecht` (u.a. `solarpflicht-schweiz-kantone.md` Z. 118/128), die beiden Buchdestillate zeigen
+  nicht zurueck (`grep "wissen/energie"` in band-2/13 und band-2/21 → je 0).
+
+### baurecht ↔ planungsgrundlagen (RPG-2-Etappen) — geprueft 2026-09-08 (Lauf 55), NEUER BEFUND aus der Verifikation, Vermerk GESETZT
+
+- **Der gemeldete Nullbefund hielt, die gemeldeten Kanten-Befunde fielen — und die Verifikation fand
+  den eigentlichen Fehler.** `planungsgrundlagen/wiki/recht-norm-quellenlandkarte.md` Z. 126 datiert
+  die RPV-Teilrevision **AS 2025 659** pauschal auf den 01.07.2026; der amtliche Wortlaut in
+  `baurecht/raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` Z. 36 gibt fuer den neuen
+  5a. Abschnitt RPV (Art. 38a) **dieselbe AS-Nummer** mit «in Kraft seit **1. Jan. 2026**» wieder.
+  Dieselbe Datei sagt an anderer Stelle richtig, die Teilrevision folge «demselben Etappen-Schema»
+  (Z. 103) — die Pauschalzuordnung ist damit am Original widerlegt. Zweiter Fall derselben Familie:
+  «neue Regeln zu nachtraeglichen Baugesuchen / illegalem Bauen» ab 01.07.2026 (Z. 124-125) gegen
+  **Art. 25 Abs. 5 RPG** in Kraft seit 01.01.2026 (`baurecht/wiki/widerrechtliche-bauten-und-sanktionen.md`
+  Z. 72-77, wortlautverifiziert, Buch-Run 101). ⚠-Vermerk mit beiden Belegen gesetzt; welche
+  Bestimmungen wirklich erst am 01.07.2026 in Kraft treten, ist ungeklaert und bewusst nicht behauptet.
+- **Die Richtung kehrt sich zwischen den Etappen um.** Bei der **ersten** Etappe lag
+  `planungsgrundlagen` seit dem 20.06.2026 richtig («**Seit** 01.01.2026», Perfekt, Commit
+  `7b8532627` wortgleich belegt), waehrend `baurecht` RPG 2 bis zum 07.09.2026 als «anstehende
+  Revision» fuehrte. Bei der **zweiten** Etappe liegt `planungsgrundlagen` daneben. Fundstellen-Zeiger
+  auf Art. 16 Abs. 4/5 RPG + Art. 38a RPV (band-2/21 Z. 88-124) im selben Zug gesetzt; damit ist auch
+  die fehlende Rueckmeldung von Buch-Run 142 an diese KB geheilt.
+- **Widerlegt, nicht aufgerollt:** (a) «pg → baurecht fehlende Kante» — der generische Zeiger Z. 197
+  entspricht der Fuehrungsmatrix oben (Z. 64, `baurecht` fuehrend, pg fuehrt Abgrenzungswissen), und
+  ein artikelscharfer `[[link]]` waere schemawidrig, weil das Ziel unter `buecher/` liegt und
+  `links:` laut `WISSEN-CLAUDE.md` Z. 60 nur auf `wiki/`-Dateien zeigen darf. (b) «Datenstands-
+  Taeuschung durch `last_updated`» — dreifach widerlegt: das Schema kennt keine Abschnitts-Semantik,
+  das Feld benennt seinen Gegenstand selbst («Vertiefungslauf 2 Revendo: LSV-Novelle»), und der
+  Abschnitt traegt einen eigenen Stempel plus fuenf datierte Refreshes. Der Stempel **untertreibt**
+  die Aktualitaet um fuenf Wochen. (c) Die Ursachenzuschreibung «keine Querverlinkung haette den
+  Fehler auffliegen lassen» ist zu eng — `baurecht` fuehrte den korrekten Stand seit dem 23.08.2026
+  **KB-intern selbst** (`wiki/widerrechtliche-bauten-und-sanktionen.md`); fuenfzehn Tage lang standen
+  im selben KB «RPG 2 in Kraft» und «RPG 2 anstehend» nebeneinander. Der naechstliegende Waechter lag
+  im eigenen Haus.
+
+### energie ↔ normen (Register-Rueckkanal, 4. und 5. Fall) — geprueft 2026-09-08 (Lauf 55), 2× BESTAETIGT, 2× WIDERLEGT
+
+- **Der Rueckkanal hat im Messfenster NICHT erneut versagt.** Gegen die Hypothese gemessen: der
+  frische Zuwachs (Runs 186-188, Destillat +115 Zeilen, `graue-energie.md` und `minergie-standards.md`)
+  enthaelt per Git-Diff auf die **hinzugefuegten** Zeilen **null** Norm-Zitationen. Der Nullbefund ist
+  die eigentliche Aussage; die beiden Faelle unten stammen aus dem **Bestand** derselben Datei
+  (Runs 180 und 183) und waren nur nie gemeldet.
+- **WC55-1 SN EN 50642 — BESTAETIGT, Registerzeile + QUESTIONS gesetzt.** `grep "50642"` ueber
+  `wissen/normen/` ganz → **0 Treffer**. Der Halogengrenzwert 0.4 % (Vorgabe 120.09) haengt allein an
+  dieser Norm und ist ausschreibungsrelevant. Thematische Gegenprobe: «halogenfrei» trifft in `normen`
+  viermal, jedes Mal ohne Grenzwert und ohne Bezugsnorm. Registerzeile **ohne** Ausgabe- und
+  Gueltigkeitsaussage (Muster VA104-01 / SN 640 273a), kein Kauf.
+- **WC55-2 DIN 18041 — BESTAETIGT MIT ANDEREM ZUSCHNITT.** Nicht «fehlt im Register», sondern:
+  `energie` zitiert **2016**, `normen` hat **2004** destilliert (12 Jahre), die 2016er ist nur
+  sekundaer belegt (`sia-181-2020-faq.md` Z. 36-37) — und der schaerfere Teil: die energie-Stelle
+  sagt «Sobald die geplante neue SIA 181/1 publiziert ist», waehrend **SIA 181/1:2026 seit dem
+  01.02.2026 gilt** (`normen/destillate/sia-181-1-2026.md`, am Herausgeber verifiziert 23.08.2026).
+  Frisch-Meldung im REGISTER-Kopf + ⚠-Vermerk in der energie-Quelle. **Bewusst keine Registerzeile:**
+  Abschnitt «B) DIN/VSS/RAL» fuehrt 3 DIN-Zeilen gegen 54 DIN-Destillate — das Register fuehrt DIN
+  grundsaetzlich nicht systematisch und sagt das im Kopf selbst.
+- **WIDERLEGT: «EN 12944» ist keine Registerluecke, sondern eine verkuerzte Bezeichnung.** Die Norm
+  ist als **SN EN ISO 12944** dreizehnfach im Bestand; die verkuerzte Form ist hubweit ein Unikat.
+  Vermerk in der energie-Quelle, Wortlaut dort **stehen gelassen**, weil ungeklaert ist, ob der
+  Minergie-Vorgabenkatalog selbst verkuerzt — das ist am Original gegenzulesen.
+- **WIDERLEGT: SIA 262:2025.** Die Uebergabe steht seit dem 06.09.2026 in `normen/wiki/QUESTIONS.md`
+  (aus `energie` Run 182); ein zweiter Eintrag waere ein Duplikat. Kein Kennwert haengt an der Ausgabe.
+
+### normen ↔ bauprodukte ↔ projekt-lessons (LBW / EN 520 Typ D) — geprueft 2026-09-08 (Lauf 55), 2× BESTAETIGT, Kante + BKP-Korrektur GESETZT
+
+- **Abnehmer-Kante `normen` → `bauprodukte` GESETZT.** `normen/wiki/en-520-gipsplattentypen.md` hatte
+  hubweit **0 Treffer** auf «bauprodukte», waehrend die Gegenrichtung dreifach gesetzt war (`sources:`,
+  `links:`, inline Z. 25). **Begruendung korrigiert:** der Melder stuetzte sich aufs `links:`-Frontmatter
+  — dafuer gilt der Registerentscheid von Run 13 (Z. 4492-4497, «die frontmatter-`[[]]` sind KB-intern,
+  daher fuer diesen Cross-KB-Bezug nicht die Konvention»). Konvention ist der **beidseitige INLINE-Verweis**,
+  und der fehlte tatsaechlich. Neuer Abschnitt «Abnehmer dieses Artikels», Frontmatter unangetastet.
+- **BKP-Phantomcode «271.10» KORRIGIERT** — der letzte lebende Rest der am 04.08.2026 hubweit
+  bereinigten Fehlerfamilie (Ticket N43-1). `projekt-lessons/wiki/kispi-lbw-rohdichte-800.md` fuehrte
+  ihn im `bkp:`-Feld (Z. 8) **und** mit dem Praefix «BKP» im Body (Z. 16), beschriftet als
+  «(Innenputze/Gipserarbeiten)». Gegenprobe: `grep -rn "271\.10"` ueber wissen/skills/agents/rules →
+  95 Fundstellen, davon **genau 2 lebende Falschangaben, beide in dieser einen Datei**; 5 korrekt als
+  `LOS` geschrieben, ~88 als Fehler beschrieben. **Sachbezug dreifach belegt:** der Artikel handelt
+  ausschliesslich von LBW-Beplankung (Trockenbau), das Schwesterstueck in `bauprodukte` fuehrt
+  «BKP 271.1 Trockenbauarbeiten», und die Estermann-Offerte rechnet unter 271.1 ab
+  (`skills/ausschreibung/wissensbasis/training/audits-260907/test-kostenkontrolle-protokoll.md` Z. 70).
+  Ein mechanisches Ersetzen 271.10 → 271.0 haette genau den von Rule `bkp-2017-referenz` Ziff. 1
+  verbotenen Fehler erzeugt. Geheilt nach dem KB-eigenen Praezedenzfall
+  `roethlisberger-geraetepreis-pruefung-273-35.md` (Wissens-Chef Run 19): beide Zahlen bleiben
+  erhalten, ihre Herkunft steht jetzt erstmals **im Artikel selbst**.
+- **WIDERLEGT: «Rohdichte-Widerspruch ≥ 980 gegen 1'003 kg/m³».** Kein Widerspruch — Schwellenwert
+  gegen Punktwert, und 1'003 ≥ 980. Nicht aufgerollt.
+- **Provenienz berichtigt:** das Zitat «Nicht angefasst — fremde KB» stammt aus
+  `normen/outputs/2026-08-13_normen-nacht-run50.md` Z. 92-93, nicht aus Run 45.
+
+### normen ↔ Skill brandschutz (BRL 15-15 Ziff. 3.7.13) — geprueft 2026-09-08 (Lauf 55), BESTAETIGT MIT EINSCHRAENKUNG, Transferzeile GESETZT
+
+- Der Run-81-Fund (Befreiung bei Loeschanlagenvollschutz 2017 **enger** als 2015) stand vollstaendig
+  und richtig im Fassungsabschnitt des Destillats (Z. 30/32), aber **nicht im Abschnitt
+  «JANS-Praxis-Transfer»** — der Stelle, an der der Skill `brandschutz` laut Z. 230/232 seine
+  Konsequenzen abholt; der methodisch analoge Run-80-Fund (Ersatzmassnahmen-Matrix S. 23) hatte dort
+  sehr wohl eine Zeile. Gemessen: `grep -i "fassung|2015|2017"` im Abschnitt → **0**.
+  **Kein Wissensverlust, ein Abholverlust.**
+- **Zwei Daempfer mitgeschrieben:** Ziff. 3.7.13 gilt ausschliesslich **Hochhaeusern**, und im
+  JANS-Portfolio ist keine Konstellation Hochhaus + Loeschanlagenvollschutz belegt (das einzige
+  Vorlagenbeispiel lautet «Gebaeude mittlerer Hoehe»); das Destillat traegt `status: speculative`.
+  Der transferwuerdige Kern ist deshalb nicht die Hochhausregel, sondern die **Fassungsfalle** —
+  ein Altprojekt nach Fassung 2015 darf nicht nach der 2017er-Formel beurteilt werden und umgekehrt.
+  So formuliert, mit beiden Vorbehalten.
+- **Nullbefund gehalten, Bruchversuch gescheitert:** `grep` ueber das **ganze Repo** nach
+  «Fassadenaussenseite|schanlagenvollschutz|3.7.13» → 24 Treffer in 9 Dateien, **null** der Kategorie
+  «traegt die Fassung 2015 als geltende Aussage». **Praezisierung:** der Nullbefund gilt fuer Text im
+  Repo. Auf SharePoint liegt die 2015er-Datei laut Frontmatter unmarkiert neben der 2017er — wer dort
+  greift, greift weiterhin zur weiteren Fassung. Nicht gesetzt (fremder Bestand, kein Repo-Eingriff).
+
+### twin ↔ rules/jans-dna-facetten (Auslieferung + Byte-Riegel) — geprueft 2026-09-08 (Lauf 55), NULLBEFUND in der Sache, Riegel NACHGEMESSEN
+
+- **Die Auslieferung traegt.** Alle drei Neuerungen des `twin-fidelity-review` vom 08.09. stehen
+  wortidentisch im kompilierten Block: der Fall der vierten Service-Satz-Linie
+  (`rules/jans-dna-facetten.md` Z. 31-33), die unbezifferte Erweiterung im laufenden Mandat (Z. 140-141)
+  und die Relevanzfrage vor der Dokumentanforderung (Z. 112-114). `grep "7 von 8"` ueber `rules/`,
+  `skills/twin/`, `agents/` → **0 Treffer**; die zwei verbleibenden Fundstellen im Wiki beschreiben die
+  Widerlegung.
+- **Byte-Riegel nachgemessen: 33'927 B bei MAX 34'000 → Reserve 73 B.** Seit der SYN-78-Reparatur
+  (71 B) praktisch unveraendert, also nicht weiter geschrumpft. Reihe: 33'993 (vor Fidelity, 7 B) →
+  33'877 (nach der Kuerzung, 123 B) → 33'929 (nach der Zeiger-Reparatur, 71 B) → 33'927.
+- **Bewusst NICHT angefasst:** der Zeiger «steht in den Gattungs-Abschnitten weiter unten in
+  `wiki/stimme.md`» ist noch immer kein aufloesbarer Anker — die Datei hat 5'552 Zeilen und zwei
+  aehnlich benannte Ueberschriften («Gattungsregeln ausserhalb der Mail» Z. 126 gegen
+  «Service-Satz — Gattungs-Messstand» Z. 5507). Ihn zu praezisieren kostet Byte, und die
+  Grundsatzfrage (Grenze anheben / Verdichtungsregel schaerfen / zwei Ladestufen) liegt als
+  **SYN-78 (b)** bereits bei Raphael. Ein Lauf, der die letzten 73 B verbraucht, um einen Zeiger zu
+  schaerfen, verschiebt das Problem, statt es zu loesen.
+
+### claude-code ↔ spec (Ereignis-Trigger F-TRIG1) — geprueft 2026-09-08 (Lauf 55), NULLBEFUND, sauber verdrahtet
+
+- Beide Richtungen sind gesetzt: F-TRIG1 steht in `spec/wiki/QUESTIONS.md` Z. 39-58, der Gegenverweis
+  in `claude-code/wiki/methoden-register.md` Z. 44 («Entscheid bei Raphael (QUESTIONS `wissen/spec`
+  F-TRIG1)»), dazu die vierte Pflichtpruefung Z. 126. **Keine Gegenwartsaussage «kein neuer Spec-Fall
+  seit 28.07.2026»** im Umlauf: `grep "28.07"` → 24 Treffer in `spec`, 2 in `claude-code`, alle
+  entweder datierte Snapshots oder Teil der korrigierenden Beschreibung selbst. Nichts zu tun.
+- Einziger Grenzfall, nicht aufgerollt: `spec/outputs/2026-09-01_health-check.md` Z. 36 schliesst «kein
+  Nachtrag noetig» — eine Momentaufnahme vom 01.09., durch F-TRIG1 vom 08.09. ueberholt, ohne
+  Korrekturzeiger. Ein `outputs/`-Report ist ein datierter Lauf-Snapshot; ihn nachtraeglich zu
+  bezeigern ist keine Registerpflicht.
+
+
 ### baurecht ↔ planungsgrundlagen (Zuwachs 03.-07.09.) — geprueft 2026-09-07 (Lauf 54), NULLBEFUND
 
 Gegenstand: die im Fenster gewachsenen Artikel `baurecht/wiki/baulinien-und-abstandslinien.md`,

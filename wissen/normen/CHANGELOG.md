@@ -1,3 +1,39 @@
+## 2026-09-08 (Wissens-Chef Lauf 55) — vierter und fünfter Fall des fehlenden Register-Rückkanals; die Fassungsfalle der BRL 15-15 erreicht jetzt den Praxis-Transfer
+
+Cross-KB-Lauf, alle Befunde adversarial verifiziert (2 von 4 gemeldeten Registerfällen widerlegt).
+
+- **`wiki/REGISTER.md`:** neuer Abschnitt «Wissens-Chef Lauf 55» mit der Zeile **SN EN 50642**
+  (Definition «halogenfrei», Halogengehalt max. 0.4 %), bewusst **ohne** Ausgabe- und
+  Gültigkeitsaussage — Ausgabejahr unbekannt, kein Bestand, kostenpflichtig, kein Kauf ohne
+  Raphaels Entscheid. Anlass: `wissen/energie/destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md`
+  Z. 549-551 (Vorgabe 120.09), der Zahlenwert hängt allein an dieser Norm. `grep "50642"` über
+  diese KB ganz → 0 Treffer. Dazu eine **Frisch-Meldung** im Kopf zu **DIN 18041 / SIA 181/1**.
+  Im selben Abschnitt festgehalten, was **nicht** ins Register kam und warum (SIA 262:2025 =
+  Duplikat einer Übergabe vom 06.09.; «EN 12944» = verkürzte Bezeichnung, die Norm ist als
+  **SN EN ISO 12944** dreizehnfach im Bestand) — damit ein späterer Lauf es nicht erneut aufrollt.
+- **`wiki/QUESTIONS.md`:** **WC55-1** (SN EN 50642) und **WC55-2** (DIN 18041: `energie` zitiert
+  2016, diese KB hat 2004 destilliert, und die Nachfolgenorm **SIA 181/1:2026 gilt seit dem
+  01.02.2026** — die energie-Stelle nennt sie noch «geplant»). Vermerkt ist auch der Nullbefund,
+  der die Familie einordnet: der **frische** Zuwachs der KB `energie` (Runs 186-188) enthält per
+  Git-Diff auf die hinzugefügten Zeilen **null** Norm-Zitationen — der Rückkanal hat im Messfenster
+  nicht erneut versagt, die beiden Fälle stammen aus dem Bestand (Runs 180/183).
+- **`destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md`:** neue Zeile im Abschnitt
+  «JANS-Praxis-Transfer» zur **Fassungsfalle Ziff. 3.7.13**. Der Run-81-Fund stand vollständig im
+  Fassungsabschnitt, aber nicht an der Stelle, an der der Skill `brandschutz` seine Konsequenzen
+  abholt (`grep -i "fassung|2015|2017"` im Abschnitt → 0). Kein Wissensverlust, ein Abholverlust.
+  Mit beiden Dämpfern geschrieben: gilt nur Hochhäusern (im JANS-Portfolio keine belegte
+  Konstellation), Destillat-Status `speculative`.
+- **`wiki/en-520-gipsplattentypen.md`:** neuer Abschnitt «Abnehmer dieses Artikels» — die Rückkante
+  zum am 07.09.2026 entstandenen `wissen/bauprodukte/wiki/lbw-brandschutzwaende-en520-typ-d.md`
+  fehlte (0 Treffer), während die Gegenrichtung dreifach gesetzt war. Inline gesetzt, Frontmatter
+  unangetastet: für Cross-KB-Bezüge gilt laut Registerentscheid Run 13 der Fliesstext-Verweis, nicht
+  das KB-interne `links:`.
+- Nullbefund gehalten (Bruchversuch über das ganze Repo gefahren): **keine** Stelle im Hub trägt
+  noch die weitere Fassung 2015 der Ziff. 3.7.13 als geltende Aussage. Präzisierung: das gilt für
+  Text im Repo — auf SharePoint liegt die 2015er-Datei unmarkiert neben der 2017er.
+
+Bericht: `wissen/koordination/outputs/2026-09-08_wissens-chef-run55.md`.
+
 ## 2026-09-08 (Normen-Nacht Run 81) — N80-1 geschlossen: Fassungsvergleich BRL 15-15 über alle 35 Seitenpaare; eine Delta-Aussage widerlegt
 
 Vertiefungsstufe (b), SIA/VKF-Scope, MacBook Pro. Der von Run 80 als naheliegendster nächster
