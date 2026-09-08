@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 08.09.2026 22:57:30
+Stand: 08.09.2026 23:07:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:48)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:03)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 08.09.2026 22:57:30
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 78b796d0f energie Run 188: Pruefwarteschlange gezogen (0 echte Fachbefunde), FAQ-Anker-Artefakt in wiki-konsistenz.sh behoben, FAQ F288/F289
+- 31967b7fa nas-selfcommit: 3 Datei(en) 2026-09-08 23:00
