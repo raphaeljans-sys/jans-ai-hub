@@ -1,5 +1,57 @@
 # Offene Fragen — KB Normen
 
+## Wissens-Chef Lauf 55 (08.09.2026) — vierter und fünfter Fall derselben Familie: Norm-Zitate aus `energie` erreichen das Register nicht
+
+**Die Familie ist damit fünfteilig** (SIA 2060 → WC53-1, SWKI VA104-01 → Lauf 54, SN EN 17037 →
+WC54-1, dazu die zwei hier). Alle entstehen gleich: `energie` destilliert Sekundärquellen
+(Minergie-ECO, KBOB, AHB), die ihrerseits Normen zitieren, und diese Zitate erreichen das
+Normen-Register nie. **Neu an diesem Lauf:** der *frische* Zuwachs der KB `energie` (Runs 186-188,
+Destillat +115 Zeilen) enthält **keine einzige** neue Norm-Zitation — der Rückkanal hat im
+Messfenster also nicht erneut versagt; die beiden Fälle unten stammen aus dem *Bestand* derselben
+Datei (Runs 183 und 180) und sind nur nie gemeldet worden. Zwei weitere Meldungen desselben Laufs
+wurden adversarial **widerlegt** und sind bewusst nicht hier gelandet: SIA 262:2025 (die Übergabe
+steht seit 06.09.2026 bereits in dieser Datei, Z. ~2552) und «EN 12944» (kein Registerfall,
+sondern eine verkürzte Bezeichnung — die Norm ist als **SN EN ISO 12944** dreizehnfach im Bestand;
+in der energie-Quelle vermerkt statt hier).
+
+**WC55-1 — Registerlücke SN EN 50642, und der Zahlenwert hängt allein daran.**
+`wissen/energie/destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` Z. 549-551 (Vorgabe
+120.09, Run 185 vom 07.09.2026): «Als halogenfrei gelten **gemäss SN EN 50642** Materialien mit
+einem gesamten Halogengehalt von **maximal 0.4 %**.» Die Nummer existiert im ganzen Bestand dieser
+KB nicht — `grep -rn "50642"` über `wiki/`, `destillate/`, `training/`, `outputs/` und
+`CHANGELOG.md` liefert **0 Treffer**. Thematische Gegenprobe: «halogenfrei» trifft hier viermal
+(`sia-mb-2008.md` Z. 29/39/48, `sia-197-2-2004.md` Z. 236), jedes Mal nur als Empfehlung
+«halogenfreie Kabel», **ohne Grenzwert und ohne Bezugsnorm**. Der Wert 0.4 % ist
+ausschreibungsrelevant und nach Rule `normen-referenz` Ziff. 2 derzeit ohne verifizierte
+Fundstelle; `energie` hat ihn selbst als ungeprüft markiert (dortige `QUESTIONS.md` Z. 175,
+E-R185-5: Stichprobe am Volltext, kein Refuter-Panel). **Registerzeile im selben Lauf gesetzt**
+(Abschnitt «Wissens-Chef Lauf 55» in `REGISTER.md`), bewusst **ohne** Gültigkeits- und
+Ausgabeaussage — Ausgabejahr unbekannt, kein Bestand, Beschaffung wäre kostenpflichtig und ist
+kein Fall für einen unbeaufsichtigten Lauf.
+
+**WC55-2 — DIN 18041: die Fachpraxis zitiert 2016, destilliert ist 2004, und die Nachfolgenorm
+gilt bereits.** Drei Stände, die nicht zusammenpassen: (a) `wissen/energie/destillate/
+minergie-eco-vorgabenkatalog-standard-2023-1.md` Z. 101-103 (Vorgabe 130.05 Raumakustik) verlangt
+«Anforderungen der **DIN 18041:2016**»; (b) diese KB hat **DIN 18041:2004** destilliert
+(`destillate/din-18041-2004.md`, `status: established`, `training/norm-inventar.md` Z. 1188
+«destilliert vollstaendig … S.1-39/39») — zwölf Jahre Differenz; (c) die Ausgabe 2016 ist hier
+sekundär durchaus belegt (`destillate/sia-181-2020-faq.md` Z. 36-37, amtliche
+Raumakustik-Übergangsliste), aber weder destilliert noch ins Inventar zurückgeschrieben, und
+`grep "18041" wiki/REGISTER.md` → **0 Treffer**. **Der schärfere Teil ist aber (d):** dieselbe
+energie-Stelle sagt «Sobald die geplante neue SIA 181/1 Raumakustik publiziert ist, gilt diese» —
+sie **ist** publiziert. Diese KB führt `destillate/sia-181-1-2026.md`: SIA 181/1:2026, SN 520181/1,
+**gültig ab 01.02.2026**, am Herausgeber verifiziert 23.08.2026, `status: speculative` (Volltext
+110.00 CHF, Bring-Schuld Raphael). Zu klären ist also nicht nur die Ausgabe, sondern ob DIN 18041
+für Schweizer Projekte überhaupt noch die massgebende Referenz ist. Vermerk in der energie-Quelle
+im selben Lauf gesetzt. **Einordnung, damit die Registerlücke nicht überzeichnet wird:** Abschnitt
+«B) DIN / VSS / RAL» führt insgesamt nur **3 DIN-Zeilen**, während `destillate/` **54
+DIN-Destillate** enthält — das Register führt DIN grundsätzlich nicht systematisch und sagt das im
+Kopf selbst. Eine einzelne 18041-Zeile flickte ein strukturelles Loch punktuell; deshalb hier als
+Frage und nicht als gesetzte Registerzeile.
+
+*Beide Punkte gemeldet und adversarial verifiziert vom Wissens-Chef Lauf 55, 08.09.2026;
+Bericht `wissen/koordination/outputs/2026-09-08_wissens-chef-run55.md`.*
+
 ## Normen-Nacht Run 81 (08.09.2026) — N80-1 ist geschlossen; eine Delta-Aussage des Bestands war falsch
 
 **Betrifft `destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md`.** Run 80 hatte als

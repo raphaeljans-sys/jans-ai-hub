@@ -125,6 +125,36 @@ Würdigung bleibt der Skill `baurecht`; hier der belegte Datenstand für Planung
   finanzieren, Bund kann mitfinanzieren) + neue Regeln zu nachträglichen Baugesuchen / illegalem
   Bauen; die **RPV-Teilrevision** (AS 2025 659) tritt auf diesen Termin in Kraft.
 
+⚠ **Widerspruch am amtlichen Volltext, nachgetragen vom Wissens-Chef Lauf 55, 08.09.2026.** Die
+zwei Zeilen darüber datieren zwei Dinge auf den 01.07.2026, die der amtliche Wortlaut auf den
+**01.01.2026** legt:
+
+- **AS 2025 659 pauschal auf 01.07.2026:** `wissen/baurecht/raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md`
+  Z. 36 gibt für den neuen **5a. Abschnitt RPV (Art. 38a)** wörtlich wieder: «Eingefuegt durch
+  Ziff. I der V vom 15. Okt. 2025, **in Kraft seit 1. Jan. 2026** (AS 2025 659)» — dieselbe
+  AS-Nummer, das frühere Datum. Auflösbar ist das nur, wenn die RPV-Teilrevision selbst gestaffelt
+  in Kraft trat; genau das sagt diese Datei an anderer Stelle richtig (Z. 103, «folgt demselben
+  Etappen-Schema»). **Die Pauschalzuordnung «tritt auf diesen Termin in Kraft» ist damit am
+  Original widerlegt**; welche Bestimmungen der Teilrevision tatsächlich erst am 01.07.2026 in
+  Kraft treten, ist ungeklärt und hier bewusst nicht behauptet.
+- **«neue Regeln zu nachträglichen Baugesuchen / illegalem Bauen» ab 01.07.2026:** mindestens der
+  Verjährungsteil gilt früher. `wissen/baurecht/wiki/widerrechtliche-bauten-und-sanktionen.md`
+  Z. 72-77 führt **Art. 25 Abs. 5 RPG** (Wiederherstellungsanspruch verjährt nach 30 Jahren,
+  Polizeigüter-Ausnahme) wortlautverifiziert als «eingefügt durch das BG vom 29.9.2023 und erst
+  **seit 1.1.2026** in Kraft» (Buch-Run 101, 23.08.2026). Ob die übrigen Regeln zum nachträglichen
+  Baugesuch dasselbe Datum teilen, ist nicht geprüft.
+
+**Fundstellen-Zeiger, im selben Lauf gesetzt:** die Zeile «Vorrang der Landwirtschaft vor
+zonenfremden Nutzungen» oben ist eine korrekte, aber unbelegte Zusammenfassung. Die Fundstelle —
+**Art. 16 Abs. 4/5 RPG**, ausgeführt durch den **5a. Abschnitt RPV, Art. 38a** (fünf Absätze, ohne
+eigenen Sachtitel, mit der scharfen Folge des Dahinfallens einer Baubewilligung in Abs. 5) —
+führt seit dem 07.09.2026 `wissen/baurecht/buecher/band-2/21-bauen-ausserhalb-bauzonen.md`
+Z. 88-124 (Buch-Run 142). Führend für RPG/RPV bleibt `baurecht` (Führungsmatrix
+`wissen/koordination/QUERBEZUEGE.md` Z. 64); diese Datei behält das Abgrenzungs- und
+Vollzugswissen. **Bemerkenswert zur Richtung:** bei der ersten Etappe lag diese KB seit dem
+20.06.2026 richtig, während `baurecht` RPG 2 bis zum 07.09.2026 als «anstehende Revision» führte —
+bei der zweiten Etappe ist es umgekehrt.
+
 **Kernmechanik — Stabilisierungsziel (das für JANS-Studien Relevante):**
 - Zahl der **Gebäude und versiegelten Flächen ausserhalb der Bauzone** darf um **max. 2 %**
   zunehmen — **bezogen auf den Stand vom 29.09.2023**, je Kanton.

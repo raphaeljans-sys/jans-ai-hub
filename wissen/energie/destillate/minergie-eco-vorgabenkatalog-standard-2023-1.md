@@ -102,6 +102,19 @@ beurteilt.
 **DIN 18041:2016** einzuhalten; Büros/Arbeitsräume nach den «aktuell gültigen Anforderungen der
 SUVA». Sobald die geplante neue **SIA 181/1 Raumakustik** publiziert ist, gilt diese.
 
+⚠ **Nachtrag Wissens-Chef Lauf 55, 08.09.2026 (Cross-KB-Abgleich mit `wissen/normen`) — zwei
+Punkte an dieser Stelle:** (1) **SIA 181/1 ist nicht mehr «geplant».** Die KB `normen` führt
+`destillate/sia-181-1-2026.md`: SIA 181/1:2026 «Raumakustik», SN 520181/1, **gültig ab
+01.02.2026**, am Herausgeber verifiziert 23.08.2026 (shop.sia.ch, «Titre actuel»). Der Volltext
+ist kostenpflichtig und nicht im Haus (`status: speculative`, Bring-Schuld). Der Satz oben ist im
+Futur formuliert, die Norm gilt aber seit über sieben Monaten — vor einer Aussage zur Raumakustik
+in einem ausgehenden Dokument zuerst dort nachsehen. (2) **Ausgabendifferenz DIN 18041:** diese
+Datei zitiert die Ausgabe **2016**, die KB `normen` hat die Ausgabe **2004** destilliert
+(`destillate/din-18041-2004.md`, `status: established`; `training/norm-inventar.md` Z. 1188). Die
+Ausgabe 2016 ist dort nur sekundär belegt (`destillate/sia-181-2020-faq.md` Z. 36-37) und hat
+keine Registerzeile. Übergeben als **WC55-2** in `normen/wiki/QUESTIONS.md`; bis zur Klärung die
+Ausgabe beim Zitieren mitführen.
+
 **130.06 — Lärmimmission im Aussenraum** (abgestufte Vorgabe, Stufe 1 = 1 Punkt/−3 dB, Stufe 2 =
 2 Punkte/−6 dB). Betrifft Aufenthaltsbereiche im Freien (Terrassen, Balkone, Sitzplätze) in
 lärmbelasteten Gebieten (Planungswert LSV überschritten). Beurteilungspunkt an der dem
@@ -355,6 +368,18 @@ Typische Fundstellen: Dachrinnen, Firstausbildungen, Lukarnen-, Balkon- und Kami
 Vorbewitterte Bleche gelten als blank; Beschichtungen brauchen SIA 263/1-Konformität und
 Korrosivitätskategorie C3 (EN 12944) mit >25 Jahren Lebensdauer. Gebäude an dauerhafter
 Mischkanalisation ohne bleihaltige Bauteile erfüllen die Vorgabe automatisch, ohne Metallfilter.
+
+⚠ **Norm-Bezeichnung, Nachtrag Wissens-Chef Lauf 55, 08.09.2026:** die oben zitierte Form
+«EN 12944» ist im ganzen Hub ein Unikat — alle 13 übrigen Fundstellen der Nummer schreiben
+**SN EN ISO 12944** bzw. DIN EN ISO 12944 (`wissen/normen/destillate/sia-mb-2022.md` mehrfach,
+`sia-263-2003.md` Z. 32, `sia-264-2003.md` Z. 28, `sia-166-2004.md` Z. 44/190,
+`din-inhaltsverzeichnis-normensammlung-2012.md` Z. 557). Die Korrosivitätskategorie C3 und die
+Sollschichtdicken führt belegt das SIA-Merkblatt-Destillat
+`wissen/normen/destillate/sia-mb-2022.md` («… bis zur Korrosivitätskategorie C3 nach SN EN
+ISO 12944», Z. 15) — dort nachschlagen, nicht hier. Der Wortlaut oben bleibt **unverändert
+stehen**, weil ungeklärt ist, ob die Verkürzung beim Destillieren entstand oder der
+Minergie-Vorgabenkatalog selbst so schreibt; das ist am Original gegenzulesen. In einem
+ausgehenden Dokument ist die Norm als **SN EN ISO 12944** zu zitieren.
 **230.05** ist die entschärfte Randvariante für Bauteile ausserhalb der Gebäudehülle (Geländer,
 Gitterroste): keine Ausschlussvorgabe, nur 1 Punkt, deutlich höhere Flächen-/Längenschwellen.
 

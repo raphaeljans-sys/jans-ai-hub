@@ -55,6 +55,21 @@ Herkunftsklärung der 800-kg/m³-Vorgabe von Jens Ziegel (Gruner) im Projekt 261
 siehe Lesson-Artikel `wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800.md` und
 Report `wissen/projekt-lessons/outputs/2026-07-23_kispi-rohdichte-800-herkunft.md`.
 
+## Abnehmer dieses Artikels (Cross-KB, inline — Konvention `QUERBEZUEGE.md` Run 13: der
+Cross-KB-Verweis läuft im Fliesstext, nicht über das KB-interne `links:`-Frontmatter)
+
+Produktseitiges Gegenstück für **BKP 271.1 Trockenbauarbeiten**:
+`wissen/bauprodukte/wiki/lbw-brandschutzwaende-en520-typ-d.md` (angelegt 07.09.2026). Der Artikel
+führt die Plattentypen-Tabelle mit VKF-Nummern und die Ausschreibungs-Praxisregeln und nennt
+diesen Artikel dreifach als führende Quelle (`sources:`, `links:`, inline Z. 25). Ändert sich hier
+ein Norm-Kennwert — Typ-D-Schwelle ≥ 800 kg/m³, Typenbuchstaben, Ziff. 4.13 —, ist er dort
+mitzuziehen. Zweiter Abnehmer bleibt der Einzelfall
+`wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800.md` (s. «Angewandter Fall»).
+
+*Kante gesetzt vom Wissens-Chef Lauf 55, 08.09.2026: die Gegenrichtung war dreifach vorhanden, die
+Rückkante fehlte — der führende Artikel kannte seinen Abnehmer nicht (Abnehmer-Prinzip, vgl.
+`wissen/immobilienbewertung/CHANGELOG.md` Z. 1479).*
+
 ## Offene Punkte
 
 - Volltext-Destillat der EN 520 fehlt weiterhin: die Norm ist nicht im JANS-Bestand

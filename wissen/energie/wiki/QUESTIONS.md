@@ -8729,6 +8729,21 @@ Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetze
   beschränken. Der Artikeltitel heisst neu «Solaranlagen **und energetische Sanierungen**»
   (das aus RPG 2, AS 2025 640 — anderes Bundesgesetz gleichen Datums).
 
+  ⚠ **Teilstand, nachgetragen vom Wissens-Chef Lauf 55, 08.09.2026 (adversarial verifiziert).**
+  Der **Kernpunkt ist gedeckt**, und zwar schon vor der Übergabe: `wiki/BAUHERREN-FAQ.md` **F268**
+  (aufgenommen 02.09.2026, Run 175) und `wiki/solarpflicht-schweiz-kantone.md` Z. 88-116 führen
+  den Fassaden-Wortlaut, die AS-Fundstellen, den Kriterienkatalog Art. 32a-bis RPV und die
+  Meldeverfahrens-Folge belegt. **Offen bleiben zwei Restpunkte**, deshalb bleibt die Box zu
+  Recht `[ ]`: (1) der im Auftrag namentlich genannte Prüfauftrag an
+  `wiki/pv-solar-technologien.md` ist **nicht** erledigt — Z. 269 führte die SZ-Lage
+  weiterhin auf «Art. 18a RPG/Art. 32a RPV», ohne Art. 32a-bis und ohne Fassaden, obwohl der
+  Artikel `last_updated: 2026-09-03` trägt, also **nach** F268 angefasst wurde; ein ⚠-Vermerk mit
+  Beleg ist dort im selben Lauf gesetzt, die inhaltliche Einarbeitung steht aus. (2) Der neue
+  Artikeltitel «Solaranlagen und energetische Sanierungen» ist in dieser KB nirgends geführt
+  (`grep -rn "energetische Sanierungen"` → 5 Treffer, keiner zum RPG-Artikeltitel).
+  **Zur Vermeidung einer Fehlbuchung:** F268 schliesst laut eigener Schlusszeile die
+  Vorgängerbringschuld **E-B141-1**, nicht diesen Punkt — B141 und B142 nicht verwechseln.
+
 - [ ] **E-B142-2 (P2) — Art. 18a Abs. 2bis RPG neu: Solarstrukturen über Parkplatzarealen.**
   In Bauzonen sind Strukturen, welche die Gewinnung von Solarenergie **über und am Rande von
   Parkplatzarealen mit 15 oder mehr Parkplätzen** ermöglichen, **grundsätzlich zonenkonform**.

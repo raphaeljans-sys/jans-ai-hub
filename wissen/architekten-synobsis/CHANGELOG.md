@@ -4,6 +4,18 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-09-08 (Mac Mini, Nachtschicht, Prioritaet 5) — Zwei offene Identitaetsfragen aus QUESTIONS.md recherchiert
+
+Synobsis Stufe 2 (Embeddings) ist aktuell (`vectors.npz` deckungsgleich mit `documents.jsonl`,
+zuletzt 01.09.2026 neu gebaut) und damit kein offenes Ziel fuer Prioritaet 2. Stattdessen zwei
+unbeantwortete Leere-Ordner-Fragen aus `wiki/QUESTIONS.md` per Websuche geklaert (Muster der
+vorherigen "RECHERCHIERT"-Eintraege fortgefuehrt): **El_Lisizky** (Schreibfehler, korrekt El
+Lissitzky, russisch-juedischer Avantgarde-Architekt, Hauptwerk Wolkenbügel 1924) und
+**Fathy_Hassan** (aegyptischer Lehmbau-Architekt, Hauptwerk New Gourna bei Luxor 1945-1948).
+Beide Ordner sind damit korrekt realen, bedeutenden Personen zugeordnet, nur leer — Fuellen/
+Entfernen/Umbenennen bleibt wie bei allen vorherigen Faellen dieser Kategorie Freigabesache.
+Keine Aenderung an der NAS-Quelle, nur additive Recherche-Vermerke in `wiki/QUESTIONS.md`.
+
 ## 2026-09-01 (Mac Mini, Tagsschicht, Phase 1) — Wissens-Health-Check abgelegt
 
 `outputs/2026-09-01_health-check.md` (Phase 1): Audits durchgefuehrt. THEMEN.md fehlt Frontmatter (1 B-Befund), Vektorindex am 01.09. 19:30 neu gebaut und mit documents.jsonl synchron, Scan saturiert seit 03.07. (853/853, 849 kuratiert), vier Katalog-Kollisionen + ein Tadao_Ando-Doppelordner dokumentiert, keine neuen Spannungen, 171 ae/oe/ue-Fehler unveraendert seit 03.08., Stilllegung `synobsis-batch-nacht` zu formalisieren (wo im Register?). Phase 2 nicht ausgefuehrt.

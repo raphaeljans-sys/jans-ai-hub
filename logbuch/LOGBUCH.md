@@ -3,6 +3,16 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht Mac Mini 08.09.2026 — architekten-synobsis: zwei Leere-Ordner-Identitaeten recherchiert
+
+Prioritaeten 1-3 geprueft (remote-tasks/pending, sync-tasks/mac-mini leer; Fristen-Register
+bereits durch logbuch-radar/hub-chef abgedeckt, kein Entwurf noetig). Synobsis Stufe 2
+(Embeddings) ist aktuell, damit kein offenes Ziel. Stattdessen zwei offene Fragen aus
+`wissen/architekten-synobsis/wiki/QUESTIONS.md` per Websuche geklaert: El_Lisizky (= El
+Lissitzky, Avantgarde-Architekt) und Fathy_Hassan (= Hassan Fathy, New Gourna). Beide additiv
+vermerkt, CHANGELOG nachgefuehrt, keine Aenderung an der NAS-Quelle. Kein operativer Befund,
+kein Sendegrund.
+
 ## Methoden-Radar 08.09.2026 (21:0x, Monatslauf) — Spec-Loop verifiziert, ein Befund an der Ereignis-Definition
 
 **Scan ohne Delta** (8 Ordner unverändert in `00 Prompteingaben`), darum Verifikations-Rotation an der

@@ -269,6 +269,19 @@ In Kt. SZ fehlt ein vergleichbares Kernzonen-Sonderregime; dort gilt mangels eig
 allgemeine Bundesrecht (Meldeverfahren bei genügender Anpassung, Art. 18a RPG/Art. 32a RPV).
 → Bauherren-FAQ **F166**, Destillat `[[ortsbildschutz-kernzone-solaranlagen-zh-sz]]`.
 
+⚠ **Fassungsstand, Nachtrag Wissens-Chef Lauf 55, 08.09.2026:** die SZ-Zeile oben nennt
+«Art. 18a RPG/Art. 32a RPV» — das ist der Stand **vor** dem 01.01.2026. Seither erfasst
+**Art. 18a Abs. 1 RPG** Solaranlagen «auf Dächern **oder an Fassaden**» (BG vom 29.09.2023, RPG 2,
+AS 2024 679 / AS 2025 636), und die Voraussetzungen für Fassadenanlagen stehen im **neuen
+Art. 32a-bis RPV** (eine von sieben Voraussetzungen genügt, Abs. 2). Beides führt diese KB bereits
+belegt an anderer Stelle — `wiki/BAUHERREN-FAQ.md` **F268** und
+`wiki/solarpflicht-schweiz-kantone.md` Z. 88-116, dazu das Destillat
+`[[fassaden-solaranlagen-bewilligungsfreiheit-zh-2026]]` —, nur dieser Artikel wurde nicht
+nachgezogen (er trägt `last_updated: 2026-09-03`, also nach F268). Rechtlicher Wortlaut und
+Systematik führend: `wissen/baurecht/buecher/band-2/13-weitere-grundanforderungen.md` und
+`.../21-bauen-ausserhalb-bauzonen.md` (Buch-Run 142, 07.09.2026). Der Restpunkt gehört zur offenen
+Bringschuld **E-B142-1** in `wiki/QUESTIONS.md`.
+
 ## Quelle
 TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012 (EPFL/LESO) → `[[tec21-solares-bauen-pv-typen-2012]]`.
 Wirkungsgrade Stand 2012 — vor Zitat aktuelle Datenblätter prüfen.
