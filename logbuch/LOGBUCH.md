@@ -3,6 +3,80 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 08.09.2026 (06:5x): Steinbrüchelstrasse ist beauftragt und vollständig, Thalwil hat eine angemahnte Zusage offen
+
+**Erledigt seit gestern**
+
+Die Honorarofferte 2619-HOP2 ist draussen: gesendet am 07.09.2026 15:56:30 an `albin.spahic@kispi.uzh.ch`, ein Anhang `2619_HOP2_JANS.pdf`, und zwar die bereinigte Fassung, deren Änderungszeit 15:48 acht Minuten vor dem Versand liegt.
+
+Steinbrüchelstrasse 26/28: C. Bopp bestätigt am 07.09. 17:14 den Auftrag und liefert im selben Zug mit sieben Beilagen alle drei Grundlagen, die noch fehlten: den Grundbuchauszug mit den Dienstbarkeiten, die STWEG-Begründung samt Nutzungsreglement und die schriftliche Bestätigung, dass 1291 Die Schweizer Anlagestiftung Eigentümerin von Kat.-Nr. WI3365 ist.
+
+Der UGZ-Abnahmetermin erübrigt sich: F. von Holzen antwortet am 07.09. 18:05, die Ausführungskontrollen zum hindernisfreien Bauen erfolgten in Stichproben und seien für die Bezugsfreigabe nicht relevant; für eine allfällige Abnahme melde sich C. Kukla von sich aus.
+
+Thalwil: Die Abänderungseingabe ist am 07.09. 13:03 hinausgegangen und von S. Tschopp um 14:12 freigegeben worden.
+
+Die Ablage der Jegen-Korrex ist geregelt, L. Hiltmann hat den Link am 07.09. 07:56 und 16:20 erhalten, der SharePoint-Ordner «231.10 02 KORREX JEGEN Werkpläne» ist geteilt.
+
+RWD Schlatter hat den Türen-Auftrag bestätigt: Auftragsbestätigung 2620362 vom 07.09. 13:49, Liefer- und Montagetermin in Absprache mit der Projektleitung.
+
+Der Termin «Abnahme Brandschutz mit QS vor der feuerpolizeilichen Abnahme» ist am 07.09. 14:58 gegenüber J. Ziegel angenommen.
+
+**Aus unseren Gesprächen**
+
+Honorarofferte 2619-HOP2. Die Prüfung hat vier Widersprüche zutage gefördert; drei davon sind bereinigt, allen voran die drei nebeneinander laufenden Vergütungsarten, die jetzt durchgehend Pauschalhonorar heissen, dazu drei Zahlenfehler und der neu gefasste Revisionsplan-Passus mit einer Prognose von rund CHF 15'000.– exkl. MwSt. Dein Entscheid zur Frage «raus oder höher anbieten» war: nicht erhöhen, das Geld über Nachträge holen, zusammen rund CHF 27'000.– bis 36'000.–. Der vierte Widerspruch steht noch: Die versendete Mail bittet nicht um Gegenzeichnung, womit die Vertragsbasis zwischen HOPI/II über CHF 80'000.– und HOP2 über CHF 105'000.– ungeklärt bleibt. Dazu die Marge: Die eigene Leistungsstand-Prognose vom 04.09. rechnet CHF 105'200.– Aufwand gegen CHF 105'000.– Festpreis, also ohne jede Reserve, und für Phase II ist bisher nichts bezahlt.
+
+Bauleitungs-Harness. Aus dem Scan von bbase.ch sind 42 belegte Prinzipien der Bauadministration entstanden, fünf Skills sind daraufhin überarbeitet worden, mit sechs neuen Vorlagen für die bisher fehlende Belegkette zwischen den Erzeugnissen. Der dabei gebaute Loop `bauleitung-training` fehlt in der Task-Registry, obwohl drei Register ihn als aktiv führen; der Punkt steht seit gestern 17:2x im Register.
+
+ArchiCAD, für die Ablage nützlich: Der Projektname steht unter Verwaltung, Projekteinstellungen, Projekt-Info, und der Exportordner ist pro Publisher-Set gespeichert.
+
+Betriebsseitig: Mehrere Mac-Mini-Sitzungen starteten ohne gemountetes NAS und damit ohne Skills und Regeln. Skills werden nicht nachträglich geladen, in diesem Fall hilft nur ein Neustart der Sitzung.
+
+**Überfällig**
+
+Thalwil, seit gestern Abend angemahnt: Du hast S. Tschopp am 07.09. 14:14 zugesagt, die Pläne als PDF und DXF direkt ihm und Josef Posch zuzustellen. Um 21:48 schreibt er, er habe bisher keine Dokumente bekommen, und bittet, das sicherzustellen. In den Gesendeten ist seither nichts an ihn oder an Posch hinausgegangen. Der ältere Entwurf vom 07.09. 08:06 ist durch diesen Verlauf überholt und sollte nicht mehr gesendet werden.
+
+AG-Gründung: Die Kapitaleinzahlung von CHF 50'000.– auf das UBS-Sperrkonto ist seit Mitte August offen; der Monitor zählt heute 18 Tage. Ohne Einzahlung keine Kapitalbescheinigung und keine Beurkundung; das Notariat Mathies schweigt seit dem 13.08.
+
+bexio: Heute ist der letzte Tag für den Abo-Entscheid vor der automatischen Umstellung auf Advanced am 08.10. Der Zugang antwortet weiterhin mit 401, heute erneut gemessen, womit die Debitoren-Aufsicht blind bleibt und jede Mahnaktion gesperrt ist.
+
+**In den nächsten 7 Tagen**
+
+Mittwoch, 09.09.: Abgabe der baurechtlichen Einschätzung Steinbrüchelstrasse an C. Bopp. Vorher sind die sieben gestern gelieferten Beilagen gegen den fertigen Bericht zu lesen; die neue Auskunft, dass der Nachbarin bei Ausübung des Vorkaufsrechts ein unentgeltliches Fuss- und Fahrwegrecht eingeräumt werden kann, berührt genau den Fallstrick zur Sicherung der Tiefgaragen-Erschliessung über WI3365. Die Vergütung ist nicht pauschal, sondern ein Kostendach von CHF 1'800.– exkl. MwSt. nach effektivem Aufwand, der Aufwand ist also ab sofort zu erfassen. Rechnungsempfängerin ist 1291 Die Schweizer Anlagestiftung, vertreten durch die Nova Property Fund Management AG, A. Tonet, Pfäffikon SZ.
+
+Freitag, 11.09.: Frist für die Bestätigung des KISPI, dass am 18.09. das Mobiliar draussen ist und der Bodenschutz liegt. Ohne sie steht Estermann am Samstag, 19.09. ab 06:30 vor einem belegten Raum. Der Entwurf vom 07.09. 08:49 an O. Stadelmann, A. Spahic, M. Spörri und F. Würsch liegt unversendet.
+
+Vor dem Samstag liegt zudem der Termin «Sturz LBW Schiebetüre», den Stadelmann in seiner Liste für die KW 37 als offen führt.
+
+Jegen, Los 274.01: L. Bajrami braucht die Kontur der Fassaden zu Position 01.2.339.01 und nennt die Lieferfristen des Antriebs mit rund 6 Wochen ohne und rund 10 Wochen mit lackierter Verschalung. Die Mehrkosten für eine rohe Verschalung samt nachträglicher Montage der lackierten betragen CHF 1'050.–. Der Entscheid ist vier Wochen wert und hängt am ohnehin offenen Gut zur Ausführung.
+
+Ende KW 38: finale Masskontrolle der Rohmasse vor Ort mit A. Spahic, von Dir selbst gegenüber RWD Schlatter angekündigt.
+
+Samstag, 12.09., privat: «Monte Rosa Hütte», dazu ein Eintrag «Ange aus der Höhenklinik» um 07:15.
+
+**In Beobachtung**
+
+Estermann, Nachtrag über CHF 4'785.– für die beiden Unterzüge Speiseraum, am 07.09. 12:37 gewährt, Bestätigung und aktualisierte Angebotsübersicht ausstehend.
+
+Steinmann, Albertstrasse 7: Der Entwurf zum KV-Termin liegt seit dem 02.09. unversendet, er ist bis zum 21.09. abwesend.
+
+Türmatrix Albertstrasse 7 weiterhin bei uns; Rechnung RE-00101 über CHF 6'000.– seit dem 16.08. mahnfällig, Mahnung durch den bexio-Ausfall ohnehin gesperrt.
+
+Die Auflagenbereinigung Lüftung läuft über M. Gantenbein weiter, die Unterlagen von J. Ziegel sind am 07.09. 09:17 zurückgekommen.
+
+Unverändert offen im Hub: der Herzschlag des synctask-runners auf dem MacBook Pro, der `/login` auf dem Mac Mini und der Tailscale-Wächter, der auf keiner Station installiert ist.
+
+**Vorschlag Kalendereinträge**
+
+Samstag, 19.09.2026, 06:30 bis Mittag: KISPI PPTS, Einbau Schiebetüre und RHS durch Estermann.
+
+Freitag, 11.09.2026: Frist Bestätigung der Vorleistungen durch das KISPI.
+
+Ende KW 38: Masskontrolle Rohmasse Türen vor Ort mit A. Spahic.
+
+**Token-Tempo**
+
+07.09.2026: MacBook Pro 213.3 Mio. Tokens und USD 167.00, Mac Mini 101.2 Mio. Tokens und USD 98.75, zusammen 314.5 Mio. Tokens und USD 265.75 API-Kostenäquivalent.
+
 ## Hub-Chef 07.09.2026 (08:0x, Tagesbriefing) — Radar und AG-Monitor haben heute NICHT gesendet; Briefing versandt, Thalwil-Entwurf bereit
 
 **Lauf-Vorbedingung.** `/Volumes/daten` war beim Session-Start nicht gemountet (LAN 192.168.1.10 nicht
