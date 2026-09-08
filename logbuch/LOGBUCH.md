@@ -3,6 +3,33 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 08.09.2026 (08:39 bis 08:5x, Tagesbriefing gesendet) — Tschopp erwartet die Pläne heute 10:00, der AG-Monitor hat zum dritten Mal nicht gesendet
+
+**Pflichtlektüre gelesen:** Radar-Abschnitt 08.09. 06:5x und AG-Gründungs-Abschnitt 08.09. 07:5x liegen beide im heutigen Datumsblock, keiner fehlt. Konversations-Destillat `260908-konversationen.md` (06:16) gelesen; sein Kern, die bereinigte HOP2, ist durch den Radar bereits berichtigt (die Offerte **ist** am 07.09. 15:56 versendet).
+
+**Vier Befunde, die nach dem Radar-Lauf entstanden sind** und darum in keinem der beiden Loop-Abschnitte stehen; alle vier ins Fristen-Register geschrieben:
+
+1. **Thalwil, Termin heute 10:00.** RJ selbst um 07:07 («Ich muss die Pläne heute erstellen. Im Verlauf des Nachmittags kann ich diese zustellen»), Tschopp um 07:28 scharf zurück («Das nervt und ist nicht fair. Ich hoffe Du schaffst es trotzdem bis 10 Uhr»). Im Outlook-Kalender rj@ steht für heute kein Termin; der 10:00-Eintrag von gestern war der abgesagte. Der Termin ist nach dem Verlauf die Besprechung Tschopp/Posch, für welche die Pläne gebraucht werden.
+2. **J. Ziegel fällt aus** (08.09. 07:54, Fieber seit Sonntag): Rückmeldung Elektro und Sibel erst Donnerstag statt heute.
+3. **Kalender-Abweichung Samstag 19.09.:** eigener Eintrag «Lbw schiebetüren erstellen» auf 08:00, Stadelmann verlangt «ab 6.30». Nicht angefasst (A2 lässt Änderungen bestehender Termine nur als Vorschlag zu).
+4. **Der AG-Monitor hängt zum dritten Mal im Entwurf** (08.09. 07:47:43). Gegenmessung: auf dem MacBook Pro ist der Mail-Zugriff heute **nicht** blockiert — die im Monitor-Abschnitt genannte TCC-Blockade betrifft die Station des Monitors, nicht den Weg.
+
+**Neu im Kalender, nicht von Claude angelegt:** Montag 14.09.2026 09:15 bis 09:45 «Abgleich Umbau PPTS» (C. Schäfer, C. Allerkamp, A. Spahic, rj@, Teams), eingegangen heute 08:41.
+
+**A3 ausgeführt — Ablage der sieben Grundlagen Steinbrüchelstrasse.**
+Was: die sieben Beilagen aus der Mail C. Bopp vom 07.09.2026 17:14 als Kopie abgelegt (`Grundbuchauszug Steinbrüchel_20221123.pdf`, `DBK_Fuss- u. Fahrwegrecht_Steinbrüchelstrasse.pdf`, `DBK_Fuss- und Fahrwegrecht u. 2 Stk. EHP.pdf`, `STOWE-Begründung_Steinbrüchelstrasse_20260526.pdf`, `251008_WI1585_Vereinbarung Vorkaufsrecht z.G. NPFM_signed.pdf`, `NVO Tiefgarage_Steinbrüchelstrasse_20260526.pdf`, `TDD Bericht_Nova_Steinbrüchelstrasse_ZH_25082020.pdf`, zusammen 7.6 MB).
+Auslöser: die Abgabe ist morgen, und der Projektordner enthielt ausser der Potentialstudie und der Auftrags-EML nichts von den gestern gelieferten Grundlagen.
+Guards: Kopie, nichts gelöscht und nichts überschrieben (neuer Unterordner); Zielordner eindeutig, weil der Projektordner bereits bestand; Ablage in der **internen** Bibliothek IMMO, nicht in einer für Dritte zugänglichen — die Unterlagen sind laut Bopp streng vertraulich.
+Ergebnis: `IMMO - 01 Projekte/04 CONTROLLING/Zürich Witikon Steinbrüchelstrasse 26_28/260907-Grundlagen-Bopp/`, sieben Dateien verifiziert.
+
+**bexio unverändert tot:** `--verzug` antwortet mit 401; der Connector weist selbst darauf hin, dass der Token erst am 13.12.2026 abläuft, die Sitzung dahinter also beendet oder zurückgezogen wurde. `--abgleich` deshalb nicht gefahren, Mahnaktionen bleiben gesperrt (Guard A1 nicht erfüllbar). Heute zugleich der letzte Tag für den Abo-Entscheid vor der automatischen Umstellung auf Advanced am 08.10.2026.
+
+**Lauf-Journal heute:** zwei Läufe, beide Mac Mini, beide rc 0 (`dispatch-versuch1` 02:39 und 05:36, zusammen USD 6.63) — KB `energie` Runs 186 und 187, der Minergie-ECO-Vorgabenkatalog ist damit vollständig destilliert. Queues sauber: `sync-tasks/{macbook-pro,mac-mini,freigabe}` leer, `remote-tasks/pending` leer.
+
+**Nicht übernommen:** der Sammel-Subagent meldete «NAS offline seit 07.09. 13:01». Das ist die Betreffzeile einer Selbst-Mail von gestern, kein heutiger Zustand — `/Volumes/daten` war beim Lauf-Start gemountet und ist es durchgehend geblieben (Rule 260729b, Agenten-Befunde gegenprüfen).
+
+**Briefing gesendet:** 08.09.2026 08:48:17 an rj@raphaeljans.ch, Betreff «Hub-Chef 08.09.2026: Tschopp erwartet Dich um 10:00, und der AG-Monitor hat wieder nicht gesendet», 5983 Zeichen im Konto Exchange gegengemessen (kein Leer-Draft). Sendegrund: Termin heute 10:00, P1 Kapitaleinzahlung, Abgabefrist morgen, bexio-Entscheidfrist heute.
+
 ## Radar-Briefing 08.09.2026 (06:5x): Steinbrüchelstrasse ist beauftragt und vollständig, Thalwil hat eine angemahnte Zusage offen
 
 **Erledigt seit gestern**
