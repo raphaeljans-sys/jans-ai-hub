@@ -1,16 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 08.09.2026 13:31:51
+Stand: 08.09.2026 13:42:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:02)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:37)
 
 ## Laufende Arbeits-Prozesse
-- ssh raphaeljans@192.168.1.210 /Applications/Maxon\ Cinema\ 4D\ 2026/c4dpy.app/Contents/MacOS/c4dpy /Volumes/daten/jans
-- /Applications/Maxon Cinema 4D 2026/c4dpy.app/Contents/MacOS/c4dpy /Volumes/daten/jans-ai-hub/skills/volumenstudie/tool
+- keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 366d9fe09 nas-selfcommit: 4 Datei(en) 2026-09-08 13:30
+- a4c81e34f logbuch: Journalzeile Nachtschicht Mac Mini 08.09.2026 13:30 (projekt-lessons PL46-2/PL46-3)
