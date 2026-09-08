@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 06:13:50
+Stand: 08.09.2026 06:24:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:51)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:17)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 08.09.2026 06:13:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 641664511 twin-fidelity-review 2026-09-08: Korpus abgeerntet (Test misst Wiedergabe), vierte Service-Satz-Linie gefallen, erfundenes Honorar
+- 438793e4a konversations-log 08.09.2026: Destillat + Registerzeile KISPI HOP2

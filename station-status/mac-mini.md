@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.09.2026 06:09:37
+Stand: 08.09.2026 06:19:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 08.09.2026 06:09:37
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 641664511 twin-fidelity-review 2026-09-08: Korpus abgeerntet (Test misst Wiedergabe), vierte Service-Satz-Linie gefallen, erfundenes Honorar
+- 438793e4a konversations-log 08.09.2026: Destillat + Registerzeile KISPI HOP2
