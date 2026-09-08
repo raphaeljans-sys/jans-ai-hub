@@ -11957,3 +11957,34 @@ dieser Session nicht selbst behoben (Klasse Systemdienst/Credentials, Rule
 `interaktive-eingriffe`) — bei Bedarf interaktiv per `/mcp` neu verbinden.
 
 Budget rund 2.5 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-08 13:30 Nachtschicht Mac Mini (Versuchs-Slot) — projekt-lessons: PL46-2/PL46-3 geschlossen, links:-Konvention für outputs/ geklaert
+
+Priorisierung: Prioritaet 1 (remote-tasks/sync-tasks) leer. Prioritaet 2 (Synobsis-Embeddings)
+nicht offen — Vektorindex seit 01.09. deckungsgleich mit documents.jsonl (853x768), Scan
+saturiert 853/853. Prioritaet 3 (Fristen-Radar) geprueft: alle offenen Punkte in
+`logbuch/fristen.md` sind entweder bereits versandbereite Entwuerfe (Steinbrüchelstrasse 26/28,
+Versand Aktion Raphael) oder aktive, heute laufende Konfliktlagen mit eigenem menschlichem
+Handeln (Tschopp/Thalwil, KISPI Los 231.10 Freigabe) — keine davon für eine unbeaufsichtigte
+Zusammenstellung geeignet, nichts angefasst. Prioritaet 4: unter den gültigen Zielen (baurecht,
+normen, planungsgrundlagen, wettbewerbs-dna, spec, immobilienbewertung, bauprodukte, grobkosten
+ausgeschlossen — eigener Taktgeber bzw. Endbedingung erreicht) war `energie` heute 05:34 bereits
+frisch trainiert (Run 187, Vorgabenkatalog vollständig gelesen); `projekt-lessons` war mit
+Stand 07.09. 23:36 die nächstälteste gültige KB, aber ihr Quellkorpus (`buero-projekte`) ist
+inventarseitig 0 offen/0 [t] — kein Raum für eine neue Recherche-Lektion.
+
+Stattdessen zwei seit dem Wissens-Chef-Lauf 46 (28.08.) offene QUESTIONS-Punkte behoben: zwei
+`outputs/`-Reports trugen ein `links:`-Frontmatterfeld mit `[[wikilink]]`-Klammern, obwohl dieses
+Feld laut `wissen/WISSEN-CLAUDE.md` nur für `wiki/`-Artikel definiert ist (einer davon ein toter
+Zeiger auf `[[koordination]]`, ein KB ohne wiki/-Ebene). Konvention entschieden und dokumentiert:
+`links:` bleibt wiki/-exklusiv, Querverweise in `outputs/` gehören als Fliesstext in den Body.
+Umgesetzt: `wissen/WISSEN-CLAUDE.md` ergänzt, `skills/wissenscheck/SKILL.md` Pruefung B scopet
+jetzt ausdrücklich auf `wiki/`, beide betroffenen Reports korrigiert (kein Inhalt verloren),
+PL46-2/PL46-3 in `wissen/projekt-lessons/wiki/QUESTIONS.md` geschlossen, CHANGELOG-Eintrag
+gesetzt. Kein Löschvorgang an einer echten Wiki-Verlinkung, daher keine Rückfrage nach Rule
+`wissens-bibliothekar` Punkt 4 nötig — die Felder standen laut Schema nie in `outputs/`.
+Commit `f2bf87873` (nativ via `nas-commit-now.sh`, verifiziert per ssh).
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 2.5 von 5 USD. Zyklus sauber beendet.
