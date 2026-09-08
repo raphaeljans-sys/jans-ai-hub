@@ -1,5 +1,32 @@
 # CHANGELOG
 
+## 2026-09-08 — Run 188 (Tageslauf): Pruefwarteschlange gezogen — null echte Fachbefunde, groesste Artefaktklasse im Werkzeug behoben
+
+- **Auftrag aus Run 187 ausgefuehrt:** `wiki-konsistenz.sh`, `bezugsgroessen-check.py` und
+  `datenstand-waechter.py` gegen den nach Abschluss des Katalog-Transfers gewachsenen Bestand
+  neu gezogen. **36 + 39 + 156 Rohbefunde, davon null echte Fachbefunde** — jede Klasse einzeln
+  gegen den Bestand verifiziert statt uebernommen.
+- **`wissen/tools/wiki-konsistenz.sh` erweitert:** dritte Zielart **FAQ-Anker**. Die 289
+  Bauherren-Antworten liegen als Abschnitte `## F123 — «…»` in `wiki/BAUHERREN-FAQ.md` und
+  werden als `[[F123]]` verlinkt; das Script suchte eine Datei und meldete sie als tot — **19 von
+  36 Befunden (53 %) waren reines Rauschen**. Alle 18 gemeldeten Ziele einzeln geprueft, alle
+  vorhanden. Gebaut nach dem Muster der vorhandenen `catalog/*.json`-Ausnahme; im Script-Kopf ist
+  genau dieser Fehlalarm-Typ als Existenzgrund dokumentiert (drittes Auftreten).
+  **Regression gegen alle 19 KBs:** energie 36 → 13, hubweit 215 → 192, Differenz beidseits
+  exakt 23 — kein fremder Befund und kein echter Link verschwunden.
+- **Zwei Waechter-Artefakte belegt, nicht behoben** (Werkzeuge werden von allen 19 KBs geteilt):
+  die drei «verstrichenen Pruefstichtage» sind der bereits als E-R177-4 erfasste Selbstbezug;
+  der Datenstand-Treffer auf `zev-eigenverbrauch-mfh-her-2025` verwechselt das Rechtsdatum
+  (EnG/EnV 01.01.2025) mit dem Pruefstand — die LEG-Lage ist am 13.07.2026 primaerquellen-
+  verifiziert. Neu offen als E-R188-1 / E-R188-2.
+- **Verdichtung:** neue Bauherren-FAQ **F288** (Bestehensmechanik Zusatz ECO: 50 % der
+  erreichbaren Punkte je Bereich, bei Mehrzonen je Zone getrennt, projektspezifischer Nenner)
+  und **F289** (210.03 als einzige Malusvorgabe, 0 / −2 / −4 Punkte, Bagatellgrenze 20 % GF,
+  N/A ab 60 Jahren Bestandsalter). Die FAQ beantwortete bisher in 287 Eintraegen ausschliesslich
+  Einzelvorgaben, nicht die Steuerungsfrage. `wiki/minergie-standards.md` um den Abschnitt
+  «wie der Zusatz ECO bestanden wird» ergaenzt.
+- Report: `outputs/2026-09-08_energie-run188.md`.
+
 ## 2026-09-08 — Run 187 (Nachtschicht Mac Mini): 210.03-210.08 destilliert — der 59-Vorgaben-Katalog ist vollständig gelesen
 
 - **Bearbeitet:** E-R186-1. Die restliche Reihe «Klimaschutz und Ressourcen» — **210.03

@@ -2,6 +2,64 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 188 (08.09.2026, Tageslauf) — Pruefwarteschlange gezogen: null echte Fachbefunde, groesste Artefaktklasse behoben
+
+Auftrag aus Run 187: die Pruefwarteschlange gegen den gewachsenen Bestand neu ziehen, bevor ein
+neuer Web-Korpus begonnen wird. Ausgefuehrt fuer `wiki-konsistenz.sh`, `bezugsgroessen-check.py`
+und `datenstand-waechter.py`.
+
+**Ergebnis: kein einziger echter Fachbefund.** Alle 36 Konsistenz-Befunde, alle 39
+Datenstand-Befunde und die 156 Bezugsgroessen-Kandidaten sind entweder Werkzeug-Artefakte oder
+bereits im Bestand quittiert. Die drei als «verstrichener Pruefstichtag» gemeldeten Stellen
+(`QUESTIONS.md` Z. 384/493/683) sind belegt **keine** Fristen, sondern der bereits als E-R177-4
+erfasste Selbstbezug: der Waechter liest seine eigene Fehlerdokumentation als neuen Befund.
+Der Datenstand-Treffer auf `[[zev-eigenverbrauch-mfh-her-2025]]` («20 Monate, schnell alternd,
+LEG») ist ebenfalls unbegruendet — das Feld nennt das **Rechtsdatum** (EnG/EnV Stand 01.01.2025),
+waehrend die LEG-Lage am 13.07.2026 an der Primaerquelle BD LEG-CH 2025 V2 verifiziert wurde
+(`[[pv-eigenverbrauch-zev]]` Hebel 3). Gegengeprueft statt geglaubt, gemaess Rule
+`auto-verbesserungen` 260729b Ziff. 2.
+
+**Behoben: die groesste Artefaktklasse.** `wiki-konsistenz.sh` kannte die FAQ-Anker-Konvention
+dieser KB nicht. Die 287 Bauherren-Antworten liegen nicht als je eigene Datei vor, sondern als
+Abschnitte `## F123 — «Frage»` in `wiki/BAUHERREN-FAQ.md`, KB-weit verlinkt als `[[F123]]` — das
+Script suchte eine Datei und meldete jede solche Referenz als tot. **19 der 36 Befunde (53 %)
+waren reines Rauschen**, in dem ein echter toter Link nicht mehr aufgefallen waere. Alle 18
+gemeldeten F-Ziele wurden einzeln gegen eine tatsaechliche Ueberschrift geprueft: **alle
+vorhanden, kein einziger echter Defekt.** Das Script hat jetzt eine dritte Zielart (FAQ-Anker),
+gebaut nach dem Muster der bereits vorhandenen `catalog/*.json`-Ausnahme fuer
+`architekten-synobsis` — derselbe Fehlalarm-Typ, drittes Auftreten, und im Script-Kopf ist genau
+dieser Typ als Existenzgrund dokumentiert.
+
+**Regression gegen alle 19 KBs gemessen:** energie 36 → 13 Befunde, hubweit 215 → 192. Die
+Differenz ist beidseits exakt 23 — es verschwand also genau die behobene Klasse, kein Befund
+einer anderen KB und kein echter Link. Bewusst eng gefasst (nur Ueberschriften in Dateien mit
+FAQ im Namen), damit ein toter Link auf einen fehlenden **Artikel** weiterhin gemeldet wird.
+
+**Verdichtung:** zwei neue Bauherren-FAQ **F288** (Bestehensmechanik: 50 % je Bereich, je Zone
+getrennt) und **F289** (210.03 als einzige Malusvorgabe beim Ersatzneubau), dazu ein Nachtrag in
+`[[minergie-standards]]`. Der Katalog war nach Run 187 vollstaendig gelesen, aber die FAQ
+beantwortete bis jetzt ausschliesslich **Einzelvorgaben** — die Steuerungsfrage «wie viele Punkte
+brauchen wir ueberhaupt» fehlte in 287 Eintraegen.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R188-1 (P3, Werkzeug): die 13 Restbefunde von `wiki-konsistenz.sh` liegen alle in
+  `QUESTIONS.md`** und sind allesamt Journal-Artefakte: acht ueber Zeilenumbruch getrennte Slugs
+  im Fliesstext (die Zieldateien existieren), vier Platzhalter-Notationen aus Prosa ueber das
+  Werkzeug selbst (`[[slug]]`, `[[Ziel]]`, `[[…]]`, `[[^]]`) und die historische Erwaehnung der
+  bewusst geloeschten `[[sia-2024-nutzungsdaten-gesundheitsbau]]`. Gleiche Familie wie E-R177-4:
+  ein Register, das ueber Links schreibt, wird von der Linkpruefung gelesen. Loesungsrichtung
+  waere ein Ausschluss von `QUESTIONS.md` aus der Backlink-Pruefung — **bewusst nicht getan**,
+  weil dort auch ein echter toter Link stehen koennte; der Entscheid gehoert dem
+  Werkzeug-Eigner, nicht einem Fachlauf.
+- [ ] **E-R188-2 (P4, Werkzeug): `datenstand-waechter.py` liest ein ⚠-markiertes Feld nicht als
+  quittiert.** Zwoelf der Datenstand-Befunde tragen die Alterung im `datenstand`-Feld selbst
+  bereits als ⚠-Vermerk («stark veraltet», «nur als Groessenordnung»). Diese Selbstauskunft
+  ignoriert der Waechter und meldet sie als Befund. Zweitens verwechselt er bei
+  `[[zev-eigenverbrauch-mfh-her-2025]]` und `[[geak-gebaeudeenergieausweis]]` das **Rechts- bzw.
+  Quellendatum** mit dem Pruefstand. Beides zusammen macht die Datenstand-Liste fuer den
+  taeglichen Lauf praktisch unlesbar.
+
 ## Run 187 (08.09.2026, Nachtschicht Mac Mini) — 210.03 bis 210.08 destilliert: der 59-Vorgaben-Katalog ist vollständig gelesen
 
 ✓ **E-R186-1 erledigt.** Die restliche Reihe «Klimaschutz und Ressourcen» — **210.03 Ökologischer
