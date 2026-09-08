@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 07:56:42
+Stand: 08.09.2026 08:06:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:48)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:03)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 08.09.2026 07:56:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 0c2c51993 ag-gruendung-monitor 08.09.2026: P1-Status unverändert, CHF 50'000 Einzahlung 18+ Tage überfällig — Logbuch + fristen.md + Spec-CHANGELOG aktualisiert
+- 2d5085ce8 nas-selfcommit: 2 Datei(en) 2026-09-08 08:00
