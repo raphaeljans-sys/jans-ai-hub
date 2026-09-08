@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 07:15:33
+Stand: 08.09.2026 07:25:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:12)
@@ -12,4 +12,4 @@ Stand: 08.09.2026 07:15:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c456f6d5c betrieb-chronik 260908: Konversations-Destillat ist keine Belegquelle fuer den Versandstatus
+- ca5835b55 vollgas-fruehwarnung 260908: Regellauf ohne Befund, zwei Messfallen im eigenen Werkzeug behoben
