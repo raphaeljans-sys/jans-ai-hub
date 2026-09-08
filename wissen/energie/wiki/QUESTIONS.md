@@ -2,6 +2,36 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 187 (08.09.2026, Nachtschicht Mac Mini) — 210.03 bis 210.08 destilliert: der 59-Vorgaben-Katalog ist vollständig gelesen
+
+✓ **E-R186-1 erledigt.** Die restliche Reihe «Klimaschutz und Ressourcen» — **210.03 Ökologischer
+Restwert rückzubauender Bestandsbauten, 210.04 Zementarten für normal beanspruchte Betone, 210.05
+Witterungsbeständigkeit Fassade/Gebäudehülle, 210.06 Holz aussereuropäischer Herkunft (Ausschluss),
+210.07 Holz europäischer Herkunft, 210.08 Einsatz lokaler Ressourcen** — an der geltenden Fassung
+(Dokumentstand 01.07.2026, S. 60-70/109) in einem Lauf destilliert, statt wie vorgesehen in zwei
+Etappen: der Volltext war mit einem Read-Aufruf (S. 58-71) vollständig erfassbar, die
+Budget-Sorge aus Run 186 bezog sich auf die *Seitenzahl*, nicht auf den tatsächlichen Umfang der
+sechs Vorgaben (kurze Texte, viel Wiederholung der Nachweis-/Massnahmen-Tabellenstruktur). Neuer
+Abschnitt in `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`, neue Bauherren-FAQ **F287** zur
+Ausschlussvorgabe 210.06 (Tropenholz-Fall), `[[graue-energie]]` um einen Absatz zur
+Rückbau-/Materialherkunft-Reihe ergänzt.
+
+**Anhang B geprüft:** keine der sechs Vorgaben trägt einen Änderungseintrag zwischen 23.01.2025
+und 01.07.2026 — kein Zweitlese-Bedarf.
+
+**Damit ist der Vollständigkeits-Transfer des Katalogs abgeschlossen: alle 59 Vorgaben sind
+mindestens einmal am Volltext gelesen und destilliert.** Offen bleibt ausschliesslich die
+Qualitätsstufe (Refuter-Panel für die Hebung `emerging` → `established`, siehe E-R186-2 unten),
+kein Umfangspunkt mehr.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R187-1 (P4, Fach): Status bleibt `emerging`.** 210.03-210.08 wurden nur vom Hauptlauf
+  gegen den Volltext gelesen, kein Refuter-Panel — gleiche Lücke wie E-R186-2/E-R185-5 für den
+  gesamten Katalog. Ein einziges Refuter-Panel über den vollständigen 59-Vorgaben-Bestand wäre
+  jetzt sinnvoller als 59 Einzelprüfungen (Kandidat für einen dedizierten Tageslauf, kein
+  Nachtschicht-Budget).
+
 ## Run 186 (08.09.2026, Nachtschicht Mac Mini) — 150.01 destilliert, Inhaltsverzeichnis vollständig gegengelesen, Backlink-Frage geklärt
 
 Bearbeitet: E-R185-1, E-R185-4. **150.01 «Innovationen zur Erreichung hoher Gesundheitsziele»**
@@ -31,10 +61,8 @@ in `wiki/holzwerkstoffe-formaldehyd-innenraumklima.md` bleibt unverändert korre
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R186-1 (P2, Fach): 210.03 bis 210.08 noch nicht destilliert.** Sechs Vorgaben,
-  S. 60-70/109, elf Seiten — für einen einzelnen Nachtschicht-Lauf eher gross (Budgetgrenze),
-  ggf. in zwei Etappen (210.03-210.05 / 210.06-210.08). Damit ist die einzige verbleibende Lücke
-  im 59-Vorgaben-Katalog benannt und lokalisiert.
+- [x] **E-R186-1 (P2, Fach): 210.03 bis 210.08 noch nicht destilliert.** ✓ Erledigt Run 187
+  (08.09.2026), siehe oben — in einem Lauf statt der hier vorgesehenen zwei Etappen.
 - [ ] **E-R186-2 (P4, Fach): Status bleibt `emerging`.** Wie schon E-R185-5: 150.01 wurde nur vom
   Hauptlauf gegen den Volltext gelesen, kein Refuter-Panel.
 

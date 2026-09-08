@@ -11807,3 +11807,36 @@ nicht selbst behoben (Klasse Systemdienst/Credentials, Rule `interaktive-eingrif
 Bedarf `/mcp` bzw. Neuanmeldung interaktiv durch Raphael.
 
 Budget rund 3.7 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-08 05:30 Nachtschicht Mac Mini — energie: 210.03-210.08 destilliert, Vorgabenkatalog vollstaendig gelesen (Run 187)
+
+Naechste faellige Trainingslektion (Prioritaet 4): remote-tasks/pending und sync-tasks/mac-mini
+leer, keine ueberfaelligen Fristen mit offenem Handlungsspielraum (Steinbrüchelstrasse-Entwurf
+liegt bereits versandbereit, Versand ist Aktion Raphael; KISPI-Jegen-Freigabe braucht
+Plananhaenge, M365-Connector diese Session ausgefallen). bauprodukte ist seit 15.08.2026 als
+erledigt gefuehrt (kein gueltiges Ziel). energie war mit letztem inhaltlichen Stand 08.09.2026
+02:38 (Run 186) das freie Ziel mit dem naechsten klar benannten offenen Punkt: E-R186-1,
+210.03-210.08 der Reihe «Klimaschutz und Ressourcen».
+
+Quelle neu geladen (733'748 Bytes, Fassungsidentitaet bestaetigt), S. 58-71/109 extrahiert, alle
+sechs Vorgaben (210.03 Oekologischer Restwert Rueckbau, 210.04 Zementarten, 210.05
+Witterungsbestaendigkeit Fassade, 210.06 Holz aussereuropaeisch — Ausschlussvorgabe ohne
+80/20-Toleranz, 210.07 Holz europaeisch, 210.08 lokale Ressourcen) in einem Lauf destilliert statt
+der von Run 186 vorgesehenen zwei Etappen. Anhang B gegen alle sechs geprueft: keine Aenderung
+seit 23.01.2025.
+
+**Damit sind alle 59 Vorgaben des Katalogs mindestens einmal am Volltext gelesen** — der
+Vollstaendigkeits-Transfer, den die Runs 180-186 schrittweise verfolgt haben, ist abgeschlossen.
+Offen bleibt nur die Qualitaetsstufe (Refuter-Panel fuer `emerging` -> `established`, E-R187-1,
+P4, kein Nachtschicht-Budget).
+
+Nachgefuehrt: `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` (neuer Abschnitt +
+Frontmatter), `wiki/BAUHERREN-FAQ.md` (F287, Tropenholz-Ausschlussvorgabe 210.06),
+`wiki/graue-energie.md` (neuer Absatz + last_updated), `wiki/QUESTIONS.md`, `CHANGELOG.md`;
+Laufbericht `outputs/2026-09-08_energie-run187.md`.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). M365-Connector-Ausfall
+dieser Session nicht selbst behoben (Klasse Systemdienst/Credentials, Rule
+`interaktive-eingriffe`) — bei Bedarf interaktiv per `/mcp` neu verbinden.
+
+Budget rund 2.5 von 5 USD. Zyklus sauber beendet.

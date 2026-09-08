@@ -2,11 +2,11 @@
 quelle: "Vorgabenkatalog Zusatz ECO — Alle zertifizierbaren Gebäudekategorien, Nachweisversion 2023.1 — https://www.minergie.ch/media/250123_vorgabenkatalog_eco_alle_gebaudekategorien_v2023.1_de_1.pdf — 102 Seiten, öffentlich abgerufen 06.09.2026"
 herausgeber: "Verein ecobau (Inhalt/Urheberrecht) gemeinsam mit Minergie Schweiz (Zertifizierungsträger)"
 ausgabe: "Nachweisversion 2023.1. ⚠ **Zwei Dateifassungen derselben Nachweisversion — korrigiert Run 182, 06.09.2026.** Run 180/181 destillierten die Datei `250123_vorgabenkatalog_eco_alle_gebaudekategorien_v2023.1_de_1.pdf` (704'047 Bytes, 102 Seiten, Titelblatt-Dokumentstand 23.01.2025). Die Minergie-Website verlinkt am 06.09.2026 jedoch **nicht** diese Datei, sondern `vorgabenkatalog-eco-alle-gebaeudekategorien-v2023-1_2.pdf` (733'748 Bytes, **109 Seiten, 59 Vorgaben**, Anhang B mit Nachträgen bis **01.07.2026**). Die alte URL liefert weiterhin HTTP 200, ist aber nicht mehr verlinkt. Die im Frontmatter von Run 180 stehende Aussage, die Website verlinke «exakt diese Datei», ist damit widerlegt. Massgeblich ist die Fassung mit Dokumentstand 01.07.2026"
-gelesen: "teilweise — Einführungskapitel (S. 4-7), Sektion Schallschutz und Raumakustik 130.01-130.07 (S. 32-41, Run 180) und Vorgaben 210.01/210.02 Graue Energie/THGE Erstellung inkl. FAQ (S. 50-53, Run 181), beide an der Fassung 23.01.2025; **vollständige 220er-Reihe Gebäudekonzept und Kreislaufwirtschaft 220.01-220.11 und 220.50 (S. 71-91/109, Run 182, 06.09.2026)**, **vollständige 230er-Reihe Biodiversität/Wasserkreislauf 230.01-230.08 und Klimaresilienz 240.01-240.02 (S. 91-104/109, Run 183, 07.09.2026)** sowie **vollständige 110er-Reihe Gesundheit/RLT/Radon/Nichtionisierende Strahlung 110.01-110.05 und 110.50 (S. 9-18/109, Run 184, 07.09.2026)**, **vollständige 120er-Reihe Schadstoffe 120.01-120.10 (S. 19-37/109), 140er-Reihe Tageslicht/Ausblick/Aktivierung 140.01-140.04 (S. 46-53/109) und 250.01 Innovation Ökologie (S. 106/109), alle Run 185, 07.09.2026**, sowie **150.01 Innovationen Gesundheit (S. 53/109) und das vollständige Inhaltsverzeichnis S. 2-3/109 (Run 186, 08.09.2026)**, alle an der geltenden Fassung 01.07.2026, dazu der vollständige normalisierte Fassungs-Diff der 220er-Reihe zwischen beiden Dateifassungen und Anhang B beider Fassungen. Der Inhaltsverzeichnis-Abgleich (Run 186) bestätigt exakt 59 Vorgaben und lokalisiert die verbleibende Lücke präzise: NICHT gelesen sind ausschliesslich **210.03 bis 210.08** (Reihe «Klimaschutz und Ressourcen», S. 60-70/109) — Fortsetzung für künftige Läufe vorgesehen"
+gelesen: "teilweise — Einführungskapitel (S. 4-7), Sektion Schallschutz und Raumakustik 130.01-130.07 (S. 32-41, Run 180) und Vorgaben 210.01/210.02 Graue Energie/THGE Erstellung inkl. FAQ (S. 50-53, Run 181), beide an der Fassung 23.01.2025; **vollständige 220er-Reihe Gebäudekonzept und Kreislaufwirtschaft 220.01-220.11 und 220.50 (S. 71-91/109, Run 182, 06.09.2026)**, **vollständige 230er-Reihe Biodiversität/Wasserkreislauf 230.01-230.08 und Klimaresilienz 240.01-240.02 (S. 91-104/109, Run 183, 07.09.2026)** sowie **vollständige 110er-Reihe Gesundheit/RLT/Radon/Nichtionisierende Strahlung 110.01-110.05 und 110.50 (S. 9-18/109, Run 184, 07.09.2026)**, **vollständige 120er-Reihe Schadstoffe 120.01-120.10 (S. 19-37/109), 140er-Reihe Tageslicht/Ausblick/Aktivierung 140.01-140.04 (S. 46-53/109) und 250.01 Innovation Ökologie (S. 106/109), alle Run 185, 07.09.2026**, sowie **150.01 Innovationen Gesundheit (S. 53/109) und das vollständige Inhaltsverzeichnis S. 2-3/109 (Run 186, 08.09.2026)** und **210.03 bis 210.08, die restliche Reihe Klimaschutz und Ressourcen (S. 60-70/109, Run 187, 08.09.2026)**, alle an der geltenden Fassung 01.07.2026, dazu der vollständige normalisierte Fassungs-Diff der 220er-Reihe zwischen beiden Dateifassungen und Anhang B beider Fassungen. **Damit sind alle 59 Vorgaben des Katalogs gelesen** (Inhaltsverzeichnis-Abgleich Run 186 gegen den destillierten Bestand Run 187 bestätigt: keine Lücke mehr offen)"
 datenstand: "**01.07.2026** (Dokumentstand der geltenden Fassung; Zwischenstände 19.01.2026 und 23.01.2025). Die Abschnitte zu Schallschutz 130.01-130.07 (Run 180) und Graue Energie/THGE 210.01/210.02 (Run 181) wurden an der älteren Fassung 23.01.2025 gelesen, per Anhang-B-Abgleich (Run 183) aber als inhaltlich unverändert gegenüber der geltenden Fassung bestätigt; für die 220er- und 230er/240er-Reihe (Run 182/183) wurde die geltende Fassung direkt verwendet und der Fassungs-Diff ausgewiesen. Vorgaben-Inhalte gültig ab 13.09.2023 analog Produktreglement"
 status: emerging
 geltungsbereich: "Einzelagenten-Lauf, kein Refuter-Panel — noch nicht durch eine zweite, unabhängige Prüfinstanz gegengelesen. Nur der gelesene Teilumfang (siehe 'gelesen') ist durch dieses Destillat gedeckt"
-verifikation: "eigener curl-Download + pdftotext -layout-Volltextextraktion der Originalquelle am 06.09.2026 (Run 182) bzw. 07.09.2026 (Run 183/184) bzw. 08.09.2026 (Run 186); alle unten zitierten Werte direkt aus dem extrahierten Text übernommen, keine Paraphrase der Zahlen. Anhang-B-Änderung zu 110.05 (Run 184) wörtlich gegen den Vorgabentext verifiziert, siehe Abschnitt 110er-Reihe; Anhang-B-Änderung zu 120.06 (TEP-Wegfall) und die Tageslicht-Ausnahmeregelung zu 140.01 (Run 185) ebenfalls wörtlich am Volltext verifiziert, Formaldehyd-/TVOC-/TLQ-Werte durch den Hauptlauf stichprobenweise gegengelesen; 150.01 und das Fehlen von 210.03-210.08 im gelesenen Umfang (Run 186) gegen das extrahierte Inhaltsverzeichnis S. 2-3/109 geprüft"
+verifikation: "eigener curl-Download + pdftotext -layout-Volltextextraktion der Originalquelle am 06.09.2026 (Run 182) bzw. 07.09.2026 (Run 183/184) bzw. 08.09.2026 (Run 186/187); alle unten zitierten Werte direkt aus dem extrahierten Text übernommen, keine Paraphrase der Zahlen. Anhang-B-Änderung zu 110.05 (Run 184) wörtlich gegen den Vorgabentext verifiziert, siehe Abschnitt 110er-Reihe; Anhang-B-Änderung zu 120.06 (TEP-Wegfall) und die Tageslicht-Ausnahmeregelung zu 140.01 (Run 185) ebenfalls wörtlich am Volltext verifiziert, Formaldehyd-/TVOC-/TLQ-Werte durch den Hauptlauf stichprobenweise gegengelesen; 150.01 und das Fehlen von 210.03-210.08 im gelesenen Umfang (Run 186) gegen das extrahierte Inhaltsverzeichnis S. 2-3/109 geprüft; 210.03-210.08 selbst (Run 187) direkt aus S. 60-70/109 der geltenden Fassung extrahiert, Anhang B auf fehlenden Änderungseintrag geprüft"
 last_updated: 2026-09-08
 ---
 
@@ -712,22 +712,85 @@ sobald in einem Bereich Punkte fehlen.
   Prozentwert (anders als 140.02 mit «mind. 80 %») — ob dort ebenfalls 80 % gilt, geht aus dem
   Volltext nicht hervor.
 
+## Die 210er-Reihe (Rest): Klimaschutz und Ressourcen 210.03–210.08 (Run 187, 08.09.2026)
+
+Vollständig gelesen an der geltenden Fassung (Dokumentstand 01.07.2026, S. 60-70/109). Damit ist
+die Reihe «Klimaschutz und Ressourcen» (210.01 bis 210.08) komplett destilliert.
+
+### Übersicht: Typ, Punkte, Bezugsgrösse
+
+| Vorgabe | Typ | Punkte | 80/20-Bezugsgrösse |
+|---|---|---|---|
+| 210.03 Ökologischer Restwert rückzubauender Bestandsbauten (Neubau) | Abgestufte Malusvorgabe | 0 / −2 / −4 | Bagatellgrenze: rückgebaute GF < 20 % der GF des Ersatzneubaus |
+| 210.04 Zementarten für normal beanspruchte Betone | Normale Vorgabe | 1 | 20/80-Regel: mind. 80 % der Zementmenge (m³) |
+| 210.05 Witterungsbeständigkeit Fassade/Gebäudehülle | Normale Vorgabe | 2 | mind. 80 % der Fassadenfläche inkl. Fenster/Sonnenschutz (m²) |
+| 210.06 Holz aussereuropäischer Herkunft ohne Label (A) | Ausschlussvorgabe | 0, muss 100 % erfüllt sein | 80/20 nicht anwendbar (Ausschluss gilt absolut) |
+| 210.07 Holz europäischer Herkunft mit Herkunftsnachweis | Normale Vorgabe | 2 | mind. 80 % der fest verbauten Hölzer (m³) |
+| 210.08 Einsatz lokaler Ressourcen | Abgestufte Vorgabe | Neubau 1/2, Erneuerung 1/2 | Bauteilfläche (m²) |
+
+### Die Vorgaben im Einzelnen
+
+**210.03** bewertet den ökologischen Restwert (Graue Energie/THGE) rückzubauender Gebäude über
+einen Betrachtungszeitraum von 60 Jahren, gestaffelt nach dem Zuschlag auf den gemittelten
+oberen Grenzwert (< 20 % / 20–40 % / ≥ 40 %). N/A, wenn keine Rückbauten vorliegen, diese älter
+als 60 Jahre sind oder ihre Geschossfläche unter 20 % des Ersatzneubaus liegt. Fehlt die EBF des
+Bestandsbaus, darf die FAQ-Behelfsformel **EBF = GF / 1.25** verwendet werden.
+
+**210.04** verlangt klinkerarme Zementarten (CEM II/A, II/B-LL, II/B-M, II/C-M, III/A, III/B, ZN/D
+oder ecoProdukte eco1/eco2) für normal beanspruchte Betone (Expositionsklassen XC1–XC4, X0, XF,
+bis C30/37). Zementfreie Bindemittel mit geringer Grauer Energie erfüllen die Vorgabe laut FAQ
+ebenfalls.
+
+**210.05** fasst den baulichen Witterungsschutz in zwei Messgrössen: Dachvorsprung ≥ 60 cm plus
+witterungsunempfindlicher Sockel, und bei Fenstern/fixem Sonnenschutz eine Ausladungstiefe ≥ 1/5
+der Bauteilhöhe. Alternativ gelten Faserzement, Glas, korrosionsbeständige Metalle, Sichtbeton
+und Mauerwerk als witterungsunempfindlich; mineralische Verputze nur ab 10 mm Grundputz- plus
+Einbettungsschichtdicke — eine verputzte Kompaktfassade mit dünnerem oder nicht rein
+mineralischem Verputz gilt laut FAQ ausdrücklich als witterungsempfindlich.
+
+**210.06** ist eine reine Ausschlussvorgabe (⚠ 100 % Erfüllung zwingend, keine 80/20-Toleranz):
+Holz und Holzprodukte aussereuropäischer Herkunft (Nicht-EU/EFTA-Staaten) nur mit FSC-, PEFC-
+oder gleichwertigem Label, auch bei untergeordneter Anwendung (Unterkonstruktion,
+Gegenzugfurniere). Massgeblich ist der Abbau-/Ernteort der Primärressource, bei
+Wiederverwendung der Sekundärressource.
+
+**210.07** ist das Punkte-Pendant zu 210.06 für europäische Hölzer: Herkunftsnachweis über
+«Label Schweizer Holz», FSC, PEFC oder ecoProdukte eco1/eco2, hier mit 80/20-Toleranz (mind.
+80 % der fest verbauten Hölzer).
+
+**210.08** prämiert lokal gewonnene Hauptschichten/-komponenten in mehreren Bauteilgruppen
+(Fassade, Decke, Innenwände, Dach, Bodenplatte/Fundament, Fenster/Türen,
+Aushub/Umgebungsgestaltung), gestaffelt nach Anzahl erfüllter Gruppen (Neubau 4/6, Erneuerung
+2/3). Maximale Transportdistanz: **25 km** für Erde/Lehm/Steine/Kies/Sand, **100 km** für alle
+übrigen Baustoffe; Distanz frei wählbar als Routendistanz oder Luftlinie.
+
+### Bauherren-Transfer (eigene Einordnung)
+
+Die Reihe koppelt zwei unabhängige Denkrichtungen: **Materialherkunft/-nachweis** (210.04, 210.06,
+210.07, 210.08 — alles Beschaffungs- und Ausschreibungsfragen, die früh in die Devis-Texte
+gehören, sonst fehlt beim Bauunternehmer der Lieferschein-Nachweis) und **Rückbau-Bilanzierung**
+(210.03 — nur relevant bei Ersatzneubauten, dafür mit Malus statt Bonus, also ein Risiko, keine
+Chance). 210.06 ist die einzige Ausschlussvorgabe der ganzen Reihe und verdient bei
+Systemen mit Importholz (z. B. Tropenholz-Terrassenbeläge) besondere Aufmerksamkeit, weil sie
+anders als die übrigen Vorgaben keine 80/20-Toleranz kennt.
+
+### Offene Punkte 210er-Reihe (Rest)
+
+- Kein Refuter-Panel durchlaufen (Einzelagenten-Lauf) — Status bleibt `emerging`.
+- Anhang B (Änderungen zum Dokumentstand 23.01.2025, siehe Abschnitt oben) trägt für 210.03 bis
+  210.08 **keinen Eintrag** — die Vorgaben sind gegenüber der älteren Fassung unverändert
+  geblieben, kein Zweitlese-Bedarf.
+
 ## Offene Punkte für Folgeläufe
 
-- **Vollständiges Inhaltsverzeichnis (S. 2-3/109) jetzt gegengelesen (Run 186, 08.09.2026)** —
-  genau **59 Vorgaben**, die Restmengen-Fehler der Runs 182-184 (siehe Lehre oben) können damit
-  nicht mehr auftreten. Ergebnis des Abgleichs: **6 Vorgaben der Reihe «Klimaschutz und
-  Ressourcen» sind trotz vollständig destillierter 210.01/210.02 noch offen** — **210.03
-  Ökologischer Restwert rückzubauender Bestandsbauten**, **210.04 Zementarten für normal
-  beanspruchte Betone**, **210.05 Witterungsbeständigkeit der Fassade/Gebäudehülle**, **210.06
-  Nachweis für Holz und Holzprodukte aussereuropäischer Herkunft**, **210.07 Nachweis für Holz
-  und Holzprodukte europäischer Herkunft**, **210.08 Einsatz lokaler Ressourcen** (S. 60-70/109,
-  elf Seiten). Alle übrigen 53 Vorgaben sind destilliert: Schallschutz 130.x (Run 180),
-  210.01/210.02 (Run 181), 220er-Reihe vollständig (Run 182), 230er-Reihe und Klimaresilienz
-  vollständig (Run 183), 110er-Reihe vollständig (Run 184), 120er-/140er-Reihe und 250.01
-  vollständig (Run 185), 150.01 (Run 186). **Nächster Ansatzpunkt: 210.03-210.08, S. 60-70/109**
-  — mit elf Seiten für einen einzelnen Nachtschicht-Lauf eher gross; ggf. in zwei Etappen
-  (210.03-210.05 / 210.06-210.08) aufteilen.
+- ✓ **210.03 bis 210.08 destilliert (Run 187, 08.09.2026)** — siehe Abschnitt oben. Damit sind
+  **alle 59 Vorgaben** des Katalogs destilliert: Schallschutz 130.x (Run 180), 210.01/210.02
+  (Run 181), 220er-Reihe vollständig (Run 182), 230er-Reihe und Klimaresilienz vollständig
+  (Run 183), 110er-Reihe vollständig (Run 184), 120er-/140er-Reihe und 250.01 vollständig
+  (Run 185), 150.01 (Run 186), 210.03-210.08 (Run 187). **Der Vollständigkeits-Transfer
+  (gelesener Textumfang = 59/59 Vorgaben) ist damit erreicht** — offen bleibt ausschliesslich
+  das Refuter-Panel für die Status-Hebung auf `established` (kein Umfang-, sondern ein
+  Qualitätssicherungspunkt, siehe unten).
 - ✓ **E-R182-3 erledigt Run 183 (07.09.2026), ohne erneuten Volltext-Diff:** Anhang B (S. 107-109
   der geltenden Fassung) listet **jede** inhaltliche Änderung der Nachweisversion 2023.1 nach
   Vorgabe-Nummer und Datum. Für **130.01-130.07** (Schallschutz) und **210.01/210.02** (Graue

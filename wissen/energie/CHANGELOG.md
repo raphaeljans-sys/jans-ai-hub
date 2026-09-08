@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 2026-09-08 — Run 187 (Nachtschicht Mac Mini): 210.03-210.08 destilliert — der 59-Vorgaben-Katalog ist vollständig gelesen
+
+- **Bearbeitet:** E-R186-1. Die restliche Reihe «Klimaschutz und Ressourcen» — **210.03
+  Ökologischer Restwert rückzubauender Bestandsbauten, 210.04 Zementarten, 210.05
+  Witterungsbeständigkeit Fassade/Gebäudehülle, 210.06 Holz aussereuropäischer Herkunft
+  (Ausschlussvorgabe), 210.07 Holz europäischer Herkunft, 210.08 Einsatz lokaler Ressourcen** —
+  an der geltenden Fassung (S. 60-70/109, Dokumentstand 01.07.2026) destilliert, in einem Lauf
+  statt der von Run 186 vorgesehenen zwei Etappen.
+- **Damit sind alle 59 Vorgaben des Katalogs mindestens einmal am Volltext gelesen** — der
+  Vollständigkeits-Transfer ist abgeschlossen. Offen bleibt nur noch die Qualitätsstufe
+  (Refuter-Panel für `emerging` → `established`, siehe QUESTIONS E-R187-1), kein Umfangspunkt
+  mehr.
+- **Anhang B geprüft:** keine der sechs Vorgaben trägt einen Änderungseintrag seit 23.01.2025 —
+  kein Zweitlese-Bedarf.
+- Neuer Abschnitt «Die 210er-Reihe (Rest)» in
+  `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md`. Neue Bauherren-FAQ **F287**
+  (Tropenholz-Ausschlussvorgabe 210.06). `wiki/graue-energie.md` um Rückbau-/
+  Materialherkunft-Absatz ergänzt.
+- Report: `outputs/2026-09-08_energie-run187.md`.
+
 ## 2026-09-08 — Run 186 (Nachtschicht Mac Mini): 150.01 destilliert, Katalog-Restumfang exakt lokalisiert
 
 - **Bearbeitet:** E-R185-1, E-R185-4. **150.01 «Innovationen zur Erreichung hoher

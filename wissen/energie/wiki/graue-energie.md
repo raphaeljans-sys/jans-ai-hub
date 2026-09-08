@@ -1,7 +1,7 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
-last_updated: 2026-09-06
+last_updated: 2026-09-08
 datenstand: 2006-12 (ältester zitierter Quellenstand: KBOB-Ökobilanzdaten-Gründungsempfehlung 2007, Datenstand Dezember 2006 — im Artikel als Methodik-Illustration ohne geltende Rechenwerte gekennzeichnet; aktuelle Datenbasis KBOB-Ökobilanzdaten **v9.0, 14.07.2026** — korrigiert 2026-08-24, vorher v8.0; KBOB-Faktenblatt Graue THGE, Stand 04.04.2025 unverändert Version 1; Norm **SIA 390/1:2025 «Klimapfad» seit 01.02.2025 in Kraft**, ersetzt SIA 2040:2017)
 sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md, destillate/kbob-oekobilanzdaten-baubereich-2007.md, destillate/minergie-eco-anleitung-graue-energie-v2023-3.md, destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md]
 links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]], [[kbob-oekobilanzdaten-baubereich-2007]], [[minergie-eco-anleitung-graue-energie-v2023-3]], [[minergie-eco-vorgabenkatalog-standard-2023-1]]
@@ -255,6 +255,21 @@ geltenden Rechenwerte** → `[[kbob-oekobilanzdaten-baubereich-2007]]`, FAQ F225
   SIA-2032:2020-Vorprojektwerte (exakte m²-Bauteilaufbauten statt Grenzwert/Median) die präzisere Quelle.
 - Konkrete Sanieren-vs-Neubau-Schwelle (Amortisation der grauen Energie): keine belegte CH-Jahreszahl
   auffindbar, siehe Negativbefund `[[graue-energie-sanieren-vs-neubau-amortisation]]`.
+
+## Minergie-ECO: Rückbau-Malus und Materialherkunft (ergänzt Run 187, 08.09.2026)
+
+Neben den THGE-Grenzwerten (210.01/210.02, oben) enthält der ECO-Vorgabenkatalog eine flankierende
+Reihe zu Rückbau und Materialherkunft, die dieselbe Denkrichtung fortsetzt: **210.03** bestraft
+Ersatzneubauten mit einem Malus (0/−2/−4 Punkte, gestaffelt nach dem Zuschlag auf den gemittelten
+oberen Grenzwert bestehender Gebäude), wenn der ökologische Restwert rückzubauender Bauten (Graue
+Energie/THGE über 60 Jahre) nicht mitgerechnet wird — N/A nur bei Rückbauten unter 20 % der
+Ersatzneubau-Geschossfläche oder älter als 60 Jahre. **210.06** ist die schärfste Einzelvorgabe der
+Reihe: eine Ausschlussvorgabe ohne 80/20-Toleranz, die aussereuropäisches Holz ohne FSC-/PEFC-Label
+komplett verbietet, auch in Nebenbauteilen → FAQ F287. **210.04/210.07/210.08** honorieren
+klinkerarme Zemente, europäisches Herkunftsholz und lokal beschaffte Hauptschichten
+(Transportdistanz 25 km mineralisch / 100 km sonstige Baustoffe) mit Punkten statt Malus. Details,
+Bewertungsstufen und Bauherren-Transfer → `[[minergie-eco-vorgabenkatalog-standard-2023-1]]`,
+Abschnitt «Die 210er-Reihe (Rest)».
 
 ## Gesamtgebäude-Synthese Holzbau vs. Massivbau (ergänzt Run 119, 2026-07-29)
 ⚠ **Messgrösse THGE, nicht graue Energie in MJ** (korrigiert 23.08.2026, Audit 01.2): die 23 %
