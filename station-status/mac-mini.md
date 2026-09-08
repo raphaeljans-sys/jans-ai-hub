@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.09.2026 07:42:11
+Stand: 08.09.2026 07:52:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 08.09.2026 07:42:11
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- e6342415e nas-selfcommit: 3 Datei(en) 2026-09-08 07:30
+- 0c2c51993 ag-gruendung-monitor 08.09.2026: P1-Status unverändert, CHF 50'000 Einzahlung 18+ Tage überfällig — Logbuch + fristen.md + Spec-CHANGELOG aktualisiert
