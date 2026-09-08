@@ -14,6 +14,18 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260908 — Weniger Text, mehr Uebersicht: Big Points, Grafiken, Stichworte
+- **Regel:** Antworten, Zwischenstaende und Studien fuehren mit dem Wesentlichen als
+  **Uebersicht**: wenige Big Points, Stichworte oder kurze Hauptsaetze, klare To-do-Liste am
+  Schluss. Ausfuehrliche Herleitung nur auf Nachfrage oder als Anhang/vertiefter Abschnitt.
+  In Studien ersetzen **praegnante Grafiken und Volumendarstellungen** den Fliesstext
+  (Kennzahlen gross, Plan-/Volumenbilder, Ampeln), Text nur als Stichwort oder Hauptsatz.
+  Vorgabe Raphael 08.09.2026 (Rueckmeldung «viel zu viel» zum Zwischenstand Steinbruechelstrasse;
+  Vorgabe fuer die Volumen-/Baurechtsstudie: «plakativ, visuell, weniger Text, Big Points»).
+  Verallgemeinert Eintrag 260820 (Abklaerungen kurz) auf alle Antworten und Studien.
+- **Gilt fuer:** alle Chat-Antworten, Zwischenstaende, Berichte und Studien; alle Skills mit
+  Dokument-Output (machbarkeit, volumenstudie, studien-generator, machbarkeit-studio), alle Stationen.
+
 ## 260902 — Desktop-App-Sessions schliessen; Langlaeufer nie als Desktop-Session auf dem MacBook
 - **Regel:** (1) Claude-Desktop-Sessions werden nach getaner Arbeit **geschlossen, nicht liegen
   gelassen** — jede offene Session ist ein eigener Node-Prozess (~200-300 MB RSS, Footprint
