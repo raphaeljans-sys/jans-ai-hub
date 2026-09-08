@@ -1,3 +1,43 @@
+## 2026-09-09 (Normen-Nacht Run 82) — N81-2 messend geschlossen: der Vergleichszeichen-Defekt betrifft zwei VKF-Richtlinien, kein Grenzwert ist verschoben
+
+Vertiefungsstufe (b). Auftrag war die von Run 81 offen gelassene Reichweitenfrage N81-2.
+
+- **Neu `training/n82-vergleichszeichen-sweep-260909.md`** — die Messanlage: kontrastierende
+  Unterstrich-Messung (Anteil dunkler Pixel unter dem Glyph gegen denselben Streifen daneben),
+  an **acht** sichtgeprüften Fundstellen kalibriert, keine Fehlklassifikation in beide
+  Richtungen. Enthält den **Fehlversuch davor**: die erste Fassung suchte eine horizontale
+  Linie im Glyph-Fenster und mass damit **Tabellenrahmen** — sie gab drei echten «<» den
+  Höchstwert 1.0 und dem einzigen bekannten «≤» nur 0.68. Damit ist auch die Spezifitäts-Lücke
+  geschlossen, die Run 50, 79, 80 und 81 je ausgewiesen hatten.
+- **Prüfmenge:** 190 distinkte Fundstellen (48 isolierte «<», 142 isolierte «>») über beide
+  Ablagen `PL - 03 Brandschutz` und `PL - 02_Recht_Norm/02_Normen/VKF_Norm` (Methodik-Pflicht 1);
+  dazu 146 Fundstellen aus 14 vorgefilterten SIA-Dateien.
+- **Ergebnis VKF: zwei betroffene Richtlinien, kein verschobener Grenzwert.** Neben der
+  bekannten BRL 15-15 ist es die **BRL 24-15 «Wärmetechnische Anlagen»** mit zwei erstmals
+  gemessenen Stellen — S. 19 «A = K × P (**≥** 150 cm²)» und S. 37 «Sicherheitsabstand
+  x1 / x2 **≤** 50 mm». Beide standen im Destillat **bereits richtig**; jetzt inline mit
+  Rendering-Beleg verifiziert (`vkf-brl-24-15-waermetechnische-anlagen.md`).
+- **Gegenbefund BRL 21-15:** die 76 isolierten «>» sind **gedruckt so gewollt** — die
+  Notwendigkeitstabelle Ziff. 3.1 Abs. 2 (S. 5) trägt durchgehend «>», am Rendering abgelesen.
+  Die Abwesenheit von «≥» in einer Datei ist **kein Defektindiz**, obwohl genau sie das
+  Verdachtssignal war, mit dem der Lauf begann.
+- **Ergebnis SIA: kein echter Fall.** Neun Messtreffer, alle Scheinbefunde — an diesen Stellen
+  stehen **Diagramme**, kein Vergleichszeichen.
+- **Der schwerere Nebenbefund: OCR-Textlayer.** Die neun Scheinbefunde stammen aus den zwei
+  destillierten SIA-Originalen mit «Paper Capture Plug-in» als Producer — `180_2014.pdf` und
+  `500_2009.pdf`. Ein OCR-Layer erfindet in Grafikbereichen Zeichen. **Beide Destillate hatten
+  das erkannt, bevor jemand nachmass**; die Vermerke sind jetzt mit der Messung untermauert
+  (`sia-180-2014.md`, `sia-500-2009.md`). Daraus die Producer-Typologie A bis D als **Vorschlag**
+  (N82-1, Entscheid Raphael) — Claude setzt keine Methodik-Pflicht selbst.
+- **Benannte Lücke gleich mitgeschlossen:** alle 11 destillierten Originale mit Scanner-Producer
+  (KONICA bizhub, Xerox) haben **0 extrahierbare Zeichen** bei 11 bis 52 Seiten — ihre
+  Destillate mussten am Rendering entstehen und sind strukturell gegen den Defekt gefeit.
+- **`wiki/QUESTIONS.md`:** N81-2 als geschlossen protokolliert, neu N82-1 bis N82-5.
+- **Kein neues Grunddestillat**; PL-02/PL-03 weiterhin 0 offene `[ ]` im SIA/VKF-Scope. Die
+  einzige P1-Position (SIA 181:**2020**) bleibt Bring-Schuld: im Haus liegen nur 181:2006 und
+  181:1988, am Bestand geprüft.
+- **Keine Statushebung** (Refuter-Richtung nicht gelaufen, N82-5).
+
 ## 2026-09-08 (Wissens-Chef Lauf 55) — vierter und fünfter Fall des fehlenden Register-Rückkanals; die Fassungsfalle der BRL 15-15 erreicht jetzt den Praxis-Transfer
 
 Cross-KB-Lauf, alle Befunde adversarial verifiziert (2 von 4 gemeldeten Registerfällen widerlegt).

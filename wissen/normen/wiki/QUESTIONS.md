@@ -1,5 +1,85 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 82 (09.09.2026) — N81-2 messend geschlossen; die Reichweite ist klein, der Nebenbefund gross
+
+**N81-2 ist beantwortet und geschlossen.** Run 81 hatte gefragt, welche VKF-Destillate
+Grenzwerte aus einer Textextraktion übernommen haben, nachdem er an der BRL 15-15 belegt hatte,
+dass der Textlayer gedrucktes «≤» als «<» ausliefert. Run 82 hat dafür eine kontrastierende
+Unterstrich-Messung gebaut, an acht sichtgeprüften Fundstellen kalibriert (5 negativ, 3 positiv,
+keine Fehlklassifikation) und über **190 distinkte Fundstellen** beider Ablagen gefahren.
+
+**Ergebnis: zwei betroffene Richtlinien, kein einziger verschobener Grenzwert.**
+Betroffen sind die BRL 15-15 (bekannt) und die **BRL 24-15 «Wärmetechnische Anlagen»** mit zwei
+in Run 82 erstmals gemessenen Stellen — S. 19 «A = K × P (**≥** 150 cm²)» und S. 37
+«Sicherheitsabstand x1 / x2 **≤** 50 mm». Beide Werte standen im Destillat **bereits richtig**;
+inline verifiziert. Alle übrigen 187 Fundstellen sind echte «<» bzw. «>».
+
+**Gegenbefund mit eigener Reichweite:** die 76 isolierten «>» der BRL 21-15 sind **gewollt**.
+Die Notwendigkeitstabelle Ziff. 3.1 Abs. 2 (S. 5) trägt gedruckt durchgehend «>». Die
+Abwesenheit von «≥» in einer Datei ist damit **kein Defektindiz** — genau das war das
+Verdachtssignal, mit dem Run 82 begonnen hat.
+
+**Im SIA-Bestand kein einziger echter Fall.** Vorfilter über die 95 SIA-Destillate mit
+Grenzwerten, 62 davon auf eine Datei im Haus auflösbar, daraus 14 Verdachtsdateien mit 146
+Fundstellen. Neun Messtreffer, alle Scheinbefunde: es sind **Diagramme**, dort steht kein
+Vergleichszeichen.
+
+Messanlage, Kalibrierung, Fehlversuche und Grenzen: `training/n82-vergleichszeichen-sweep-260909.md`.
+
+### N82-1 — Vorschlag: den PDF-Producer als Vorfilter für die Textlayer-Qualität führen (Entscheid Raphael)
+
+Der SIA-Teil hat einen Defekttyp gefunden, der schwerer ist als der gesuchte. Beide Dateien mit
+Messtreffern tragen als Producer ein **OCR-Plug-in** («Adobe Acrobat 9.55 / Acrobat 11.0.23
+Paper Capture Plug-in»): `180_2014.pdf` (28 Grenzwerte im Destillat) und `500_2009.pdf` (13).
+Ein solcher Layer ist OCR über einem Scan und **erfindet in Grafikbereichen Zeichen**.
+
+Gemessen an den destillierten SIA-Originalen ergibt der Producer eine brauchbare Typologie:
+**Typ A** kein Textlayer (11 Dateien, 0 extrahierbare Zeichen bei 11-52 Seiten — KONICA/Xerox) ·
+**Typ B** OCR (2 Dateien) · **Typ C** Word mit «≤» als «<» plus Unterstrich (das VKF-Muster) ·
+**Typ D** Distiller/Apogee mit echtem Glyph (der Rest).
+
+**Die unbequeme Lehre:** der gefährlichste Typ ist nicht der offensichtlich unbrauchbare,
+sondern der scheinbar brauchbare. Typ A zwingt zum Rendering, weil er leer ist. Typ B liefert
+flüssigen, plausiblen Text und verschiebt darin Zeichen.
+
+**Beide betroffenen Destillate haben es richtig gemacht, bevor jemand nachmass** —
+`sia-180-2014.md` vermerkte «Scan mit Textlayer-Charakter, visuell gelesen», `sia-500-2009.md`
+las die Figuren am Rendering. Beide Vermerke sind jetzt mit der Messung untermauert.
+
+Vorgelegt wird nur die Frage, ob der Producer-Check **verbindlicher Erstschritt** jeder Aufnahme
+werden soll (er kostet einen `pdfinfo`-Aufruf). Claude setzt keine Methodik-Pflicht selbst.
+
+### N82-2 — 33 SIA-Destillate mit Grenzwerten liessen ihre Quelle nicht auflösen
+
+Von 95 SIA-Destillaten mit mindestens einem Vergleichszeichen-Wert liess sich das
+`quelle:`-Feld bei **33** nicht auf eine Datei im Haus auflösen (Pfad-Drift, Web-Quellen,
+SharePoint-Pfade ohne lokale Kopie). Diese 33 sind vom Sweep **nicht erfasst** und damit die
+grösste offene Kante. Der Punkt ist mechanisch abarbeitbar und braucht keinen Entscheid: je
+Destillat die Quelle neu auflösen oder das Feld berichtigen.
+
+### N82-3 — was der Sweep methodisch NICHT deckt
+
+Gemessen ist **eine** Verfälschungs-Mechanik, der Unterstrich. Ein «≤», das als Bild eingesetzt
+ist oder dessen Glyph gar nicht kodiert wurde, hinterlässt kein isoliertes «<» und fällt aus der
+Erfassung heraus. Für den SIA-Teil ist der Vorfilter zudem ein **Screening**: wo der Textlayer
+«≤» kodiert, wurde nicht gerendert — die Annahme, ein PDF, das «≤» kann, setze es nicht an
+anderer Stelle als Unterstrich, ist plausibel und ungemessen.
+
+### N82-4 — die Fassung 2017 der BRL 24 liegt nicht im Haus
+
+Im Haus liegt nur die Fassung 2015 (md5 `48b1e0f7823fdd880d65e867ac7447e4`, bytegleich in PL-02
+und PL-03). Dass die beiden verifizierten Stellen auf S. 19 und S. 37 auch in der geltenden
+Fassung 2017 unverändert gelten, stützt sich auf den Wort-Diff in
+`vkf-brl-24-15-fassung-2017-delta` — und der ist über den **Textlayer** gebildet. Eine Änderung,
+die allein das Vergleichszeichen betrifft, wäre darin unsichtbar. Für einen Nachweis müsste die
+2017er-Datei beschafft und an diesen zwei Seiten gerendert werden.
+
+### N82-5 — Refuter-Richtung auf den Befunden dieses Laufs nicht gelaufen
+
+Alle Befunde stammen vom Hauptprozess und sind am Original gemessen; ein unabhängiger
+Widerlegungsversuch steht aus. **Keine Statushebung** (Methodik-Pflicht 13).
+
+
 ## Wissens-Chef Lauf 55 (08.09.2026) — vierter und fünfter Fall derselben Familie: Norm-Zitate aus `energie` erreichen das Register nicht
 
 **Die Familie ist damit fünfteilig** (SIA 2060 → WC53-1, SWKI VA104-01 → Lauf 54, SN EN 17037 →
