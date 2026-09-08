@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 08.09.2026 14:13:00
+Stand: 08.09.2026 14:23:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 14:10)
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 08.09.2026 14:13:00
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 72ccfd6a8 nas-selfcommit: 16 Datei(en) 2026-09-08 14:00
+- e48ee5a9b Rule 260908 weniger Text mehr Uebersicht; WEGE Kanalkataster Stadt ZH Sackgassen 08.09.2026
