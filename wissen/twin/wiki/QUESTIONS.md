@@ -5819,3 +5819,56 @@ zu «Feedback von Simon» (`beziehungsregister.md` Z. 2110-2130).
 *Warum:* Die Rule-Tabelle ist die Anrede-Wahrheit fuer jedes ausgehende Erzeugnis. Eine Zeile auf
 Verdacht waere schlimmer als keine — der Zwilling wuerde eine Person erfinden oder eine bestehende
 falsch benennen. Deshalb hier gefragt statt dort gesetzt (Wissens-Chef Lauf 54, 07.09.2026).
+
+---
+
+## Selbstfragen 260908 (twin-mail-training Batch 116, `Sent Items` 06.09. 18:09 bis 07.09. 16:20)
+
+**#1 [Stimme/Beziehung] Ist «Lieber Gruss» aus Deinem Repertoire gefallen — oder nur aus diesem Sommer?**
+Drittes Fenster in Folge ohne einen einzigen warmen Gruss: Batch 114 und 115 je 5/5, Batch 116
+4/4 «Freundliche Grüsse», darunter drei Mails an **Du**-Kontakte (Stadelmann, Tschopp zweimal).
+Die DNA (`rules/jans-dna.md`) koppelt «Lieber Gruss» ans Du-Register und laesst den Zwilling ihn
+dort setzen.
+*Konkret:* Soll die Kopplung entfallen und «Freundliche Grüsse» der Default in **jedem** Register
+werden — oder haelst Du «Lieber Gruss» fuer bestimmte Anlaesse (private Naehe, Dank, Einladung)
+weiterhin bereit, und dieses Sommerfenster ist schlicht arbeitslastig?
+*Warum:* Der Zwilling setzt derzeit in jeder zweiten Du-Mail einen Gruss, den Du seit drei
+Wochen nicht mehr schreibst. Das ist der haeufigste einzelne Abweichungspunkt im Fidelity-Gate.
+
+**#2 [Stimme] Komma nach der Anrede — Du setzt es, der Zwilling nicht.**
+Am 07.09. **3/3** aus eigener Hand mit Komma: «Geschätzter Othmar,», «Geschätzter Herr
+Kayisoglu,», «Geschätzter Stefan,», dazu «Hoi Stefan,». Die `claude-aera`-Mail desselben Tages
+(Honorarofferte 15:56) schreibt «Geschätzter Albin» **ohne** Komma.
+*Konkret:* Ist das Komma nach der Anrede fuer Dich verbindlich? Dann wird es im Gate hart
+geprueft.
+*Warum:* Ein Ein-Zeichen-Unterschied, der in jeder Mail an erster Stelle steht — die billigste
+messbare Verbesserung der Stimmtreue, die dieser Batch hergibt.
+
+**#3 [Stimme] Verb-Grossschreibung in der Bitten-Formel: Fehler oder Betonung?**
+Dreimal am 07.09., zwei Register: «Darf ich Dich **Bitten**», «**Ich Bitte Sie** … zu **Liefern**
+und montieren». Daneben im selben Text ein korrektes «bitte ich Sie». Vorher als Schwankung
+gefuehrt (Batch 114, n = 2), jetzt n = 5.
+*Konkret:* Soll das der Zwilling **nachbilden** (dann ist es Stil), soll er es **stillschweigend
+korrigieren** (dann ist es ein Tippmuster), oder soll `korrektur` es Dir **melden**?
+*Warum:* Derzeit sperrt der Harness die Form und der Korrektur-Agent wuerde sie ausbessern —
+falls sie Betonung ist, glaettet er Deine Betonung weg.
+
+**#4 [Beziehungsregister] Othmar Stadelmann braucht eine Zeile in `rules/anrede-kontakte.md`.**
+Vierter Beleg fuer das Du: 07.09.2026 12:37 «Geschätzter Othmar,» mit «Dir»/«Dich». Die Rule
+fuehrt ihn bis heute **ohne Tabellenzeile**, nur als Gegenbeleg im Fliesstext der Treffen-Klausel
+— wo er inzwischen den gegenteiligen Stand belegt (Sie bis 22.07.2026, Du ab 05.08.2026).
+*Konkret:* Bestaetigst Du die Zeile «Othmar Stadelmann · Estermann Gipserunternehmen AG,
+Bauführer · 2619 KISPI · **Du** · «Geschätzter Othmar» bei Nachtrag/Substanz, Routine offen»?
+Und soll der Gegenbeleg-Vermerk in der Treffen-Klausel entsprechend nachgetragen werden?
+*Warum:* Die Klausel zitiert ihn als Beweis dafuer, dass ein Telefonat **keinen** Registerwechsel
+erzwingt. Das stimmt weiterhin fuer den 22.07., ist aber ohne den spaeteren Wechsel irrefuehrend.
+Claude aendert Rule-Wortlaut nicht selbst — deshalb hier gefragt.
+
+**#5 [Arbeitsweise] Heisst eine kommentarlose Weiterleitung an die Bauherrschaft immer «bitte freigeben»?**
+07.09. 11:47 ging die Lieferantenofferte mit **leerem Body** («--») an Albin Spahic, 49 Minuten
+spaeter kam «Kann freigegeben werden», weitere 17 Minuten spaeter die Auftragsbestaetigung.
+*Konkret:* Soll der Zwilling diese Form uebernehmen (leiten, nicht texten), oder ist sie nur bei
+eingespielten Gegenuebern und laufenden Vorgaengen richtig — und wenn ja, woran erkennt er den
+Unterschied?
+*Warum:* Der Zwilling formuliert solche Weiterleitungen aus. Das ist hoeflicher und langsamer;
+falls die knappe Form Deine Regel ist, bremst er einen Deiner schnellsten Ablaeufe.

@@ -4,6 +4,44 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-08 (twin-mail-training Batch 116) — der Zwilling ist korrekter als das Original, und daran erkennbar
+
+`rj@` Sent Items 06.09. 18:09 bis 07.09. 16:20 (Ortszeit), 13 Treffer, 5 Volltexte, 2 Vorschauen.
+7 Einheiten `authentisch`, 1 `claude-aera` **als Kontrolle gemessen statt gelernt**, 4 gesperrt
+(3 Selbstmails, 1 Kalender-Zusage). Fünfter Lauf in Folge, in dem der Vorabgleich gegen das
+Register eine Doppel-Destillation verhindert hat.
+
+- **Erster direkter Gold-gegen-Zwilling-Vergleich an einem einzigen Tag:** Du-Gross-Quote 0.80
+  gegen 1.00, Fehlerdichte ca. 5 gegen 0 je 100 Wörter, Satzlänge 17.0 gegen 8.4, Komma nach der
+  Anrede 3/3 gegen 0/1. Ergänzt in `wiki/stimme.md`.
+- **`wiki/stimme.md`** zusätzlich: Verb-Grossschreibung in der Bitten-Formel von «Schwankung»
+  (Batch 114, n = 2) auf **Muster** gehoben (n = 5, zwei Register, nur Anweisungsmails);
+  «Hoi liebe Levi:» — Doppelpunkt als Ankündiger des Artefakts.
+- **`wiki/denken.md`**: Rechenkette doppelt (Herleitung je Position, dann Bilanz mit fettem Total);
+  Zugeständnis + Gegenbedingung + Rücktritt auf die Leistung in zwei Sätzen.
+- **`wiki/haltung.md`**: Nachgeben ohne Verschenken; Beweissatz nach dem sicheren Block, **dritter
+  Beleg**, erstmals zur eigenen Verhandlungsposition.
+- **`wiki/beziehungsregister.md`**: fünf Anreden an einem Tag; «Geschätzter» als registerüber-
+  greifende Substanzstufe; **Rückfall der Stufe nach 70 Minuten** im selben Vorgang (engster
+  Beleg der Anlassgewicht-Klausel); Stadelmann Sie→Du **vierter Beleg**; Cc-Erweiterung als
+  wortlose Korrektur.
+- **`wiki/fachsignatur.md`**: Ausmass-Fachform des Nachtrags; Terminlogik über KW mit Bedingungs-
+  satz über eine nicht adressierte dritte Partei.
+- **`wiki/arbeitsweise.md`**: wortlose Weiterleitung als Freigabeantrag (66 Minuten von der leeren
+  Mail zur Auftragsbestätigung); nulltextige Antwort; **Geräte-Trennung im Mail-HTML als Ersatz für
+  den in Batch 115 verbrannten `_ `-Bullet** — 6/6 gegen 1/1, mit ausdrücklich notierter Grenze
+  (sie misst das Gerät, nicht die Person, und ist wertlos, sobald der Harness selbst über Outlook
+  Mobile stellt).
+- **`wiki/QUESTIONS.md`** 260908 #1–#5: warmer Gruss drittes Fenster ohne Beleg · Komma nach der
+  Anrede · Verb-Grossschreibung Fehler oder Betonung · Tabellenzeile Stadelmann in
+  `rules/anrede-kontakte.md` (vierter Beleg, Rule-Wortlaut bewusst nicht selbst geändert) ·
+  wortlose Weiterleitung als Regel oder Einzelfall.
+- **Register:** `raw/260908-mailbatch-116.md` neu, `raw/_INGESTED.md` fortgeschrieben,
+  `last_updated` und `sources` der sechs Facetten nachgezogen.
+- **Korrigiert im Lauf:** Die Zeitangaben der Facetten-Marker waren zunächst gemischt UTC/Ortszeit
+  (Graph liefert UTC, Outlook-Zitate zeigen Ortszeit). Vor dem Commit auf durchgehend Ortszeit
+  vereinheitlicht; der Hinweis steht jetzt im Kopf der Batch-Datei.
+
 ## 2026-09-07 (Wissens-Chef Lauf 54) — das Messinstrument behauptete, was die KB seit drei Wochen widerlegt
 
 Cross-KB-Prüfung `twin` ↔ `rules` auf dem Zuwachs der Batches 114/115. **Ein gemeldeter

@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-09-04
+last_updated: 2026-09-08
 gewichtung: authentisch
-sources: [260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -4118,3 +4118,60 @@ Nicht als Marker aufgenommen, nicht geglaettet, sondern **als Pruefpunkt gefuehr
 [[QUESTIONS]] 260907 #2. Falls bestaetigt, ist es der erste belegte Fall, in dem eine Anrede
 zwischen zwei Vorgaengen desselben Tages verrutscht, und damit ein konkreter Auftrag an den
 Harness: **beim Verfassen die Anrede gegen den Empfaenger pruefen, nicht gegen die letzte Mail.**
+
+## Fünf Anreden an einem Tag — «Geschätzter» ist die registerübergreifende Substanzstufe (Batch 116, 07.09.2026)
+
+| Zeit | Empfänger | Rolle | Anrede | Gruss |
+|---|---|---|---|---|
+| 12:37 | Othmar Stadelmann | Unternehmer (Gipser), **Du** | «Geschätzter Othmar,» | Freundliche Grüsse |
+| 12:53 | Adem Kayisoglu | Lieferant (Türen), Sie | «Geschätzter Herr Kayisoglu,» | Freundliche Grüsse |
+| 13:03 | Stefan Tschopp | Bauherr-Partner, **Du** | «Geschätzter Stefan,» | Freundliche Grüsse |
+| 14:13 | Stefan Tschopp | derselbe Vorgang | «Hoi Stefan,» | Freundliche Grüsse |
+| 16:20 | Levi Hiltmann | Fachplaner, **Du** | «Hoi liebe Levi:» | kein Gruss |
+
+Drei Befunde:
+
+1. **«Geschätzter» ist keine Sie-Stufe.** Sie steht an diesem Tag dreimal, zweimal im Du (mit
+   Vornamen) und einmal im Sie (mit Nachnamen). Was sie auslöst, ist nicht das Register, sondern
+   das **Gewicht des Anliegens** — Nachtragsverhandlung, Auftragsbestätigung, Freigabegesuch.
+   Das stützt die Anlassgewicht-Klausel in `rules/anrede-kontakte.md` an einem einzigen Tag mit
+   drei unabhängigen Fällen.
+2. **Die Stufe fällt nach 70 Minuten zurück.** «Geschätzter Stefan,» (13:03, Bitte um finale
+   Freigabe der Abänderungseingabe) → «Hoi Stefan,» (14:13, Antwort «Ja, dass kann ich machen.»)
+   — **derselbe Empfänger, derselbe Vorgang, derselbe Tag.** Das ist der bislang engste Beleg
+   dafür, dass die gehobene Stufe am Anliegen hängt und nicht am Verhältnis: sobald die Sache
+   erledigt ist, steht der Routine-Opener wieder da. Die Klausel sagt das seit dem 29.07.2026
+   voraus; hier ist sie in einem Vorgang messbar.
+3. **4/4 «Freundliche Grüsse», davon drei an Du-Kontakte.** Drittes Fenster in Folge ohne einen
+   einzigen warmen Gruss. Die DNA-Kopplung «Lieber Gruss ↔ Du» trägt damit seit dem
+   Batch-114-Fenster nicht mehr: [[QUESTIONS]] 260908 #1.
+
+## Stadelmann: vierte Bestätigung des Sie→Du, erstmals mit «Geschätzter \<Vorname\>» (Batch 116)
+
+Der Trajektorie-Befund (Fidelity 260902, Beleg 05.08.2026) ist erneut bestätigt und diesmal
+schärfer: 07.09.2026 12:37 «**Geschätzter Othmar,**», im Text durchgehend «**Dir**» und «**Dich**»
+grossgeschrieben — daneben ein kleines «deine Angebote» im selben Absatz.
+
+Damit sind für Othmar Stadelmann (Estermann Gipserunternehmen AG, Bauführer) belegt: 18.05.2026
+«Geschätzter Herr Stadelmann» (Sie, warm), 22.07.2026 dieselbe Form **nach** einem Telefonat,
+05.08.2026 der Wechsel ins Du, 07.09.2026 «Geschätzter Othmar» mit gehobener Stufe im Du. Die
+Bewegung ist **innerhalb** des Sie warm geworden und **danach** ins Du gekippt — genau die
+Trajektorie-Fassung aus `rules/jans-dna-facetten.md`, nicht die Sofortwirkungs-Fassung.
+
+`rules/anrede-kontakte.md` führt Stadelmann bis heute **ohne eigene Tabellenzeile**, nur als
+Gegenbeleg im Fliesstext der Treffen-Klausel — wo er inzwischen den gegenteiligen Stand belegt.
+Vierter Beleg, Zeile weiterhin nicht durch diesen Lauf gesetzt (Rule-Wortlaut ändert Claude nicht
+selbst): [[QUESTIONS]] 260908 #4.
+
+## Die Cc-Erweiterung ist die Korrektur — wortlos (Batch 116, authentisch)
+
+Levi Hiltmann fragt am 07.09. um 07:02 nach dem Ablageort der Korrex-Pläne. Raphael antwortet um
+**05:56 UTC** (07:56 Ortszeit) mit **nur einem SharePoint-Link**, ohne Anrede, ohne Gruss, ohne
+Satz. Der Link zeigt auf das falsche Los (274.01 Verglasungen statt 231.10 Türen). Levi fragt um
+16:10 nach. Die zweite Antwort um 16:20 trägt den richtigen Link — und **zwei neue Adressaten im
+Cc**: die ausführende Firma Jegen und die Bauherrschaft.
+
+Kein «Entschuldigung, falscher Link», keine Erklärung. **Der Verteiler trägt die Botschaft**:
+was beim zweiten Anlauf geklärt wird, wird gleich vor Zeugen geklärt. Das ist die
+Eskalationsvariante des Musters «An = wer handelt, Cc = wer bezeugt» (Batch 115) — dort war die
+Rollenteilung statisch, hier ist die Erweiterung des Cc selbst der Vorgang.

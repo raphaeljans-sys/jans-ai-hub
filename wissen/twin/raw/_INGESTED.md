@@ -2679,3 +2679,57 @@ weiterhin pruefen, welches Fenster der `twin-fidelity-review` zuletzt verbraucht
 bleiben; `Apple-Mail-URLShareWrapperClass` bleibt Marker des Claude-Entwurfswegs; der
 `_ `-Bullet zaehlt **nicht mehr** als Authentizitaets-Indiz (siehe Kernbefund 1). (6) **AfB**
 bleibt die letzte offene Behoerdenstelle ohne eigenen Volltext.
+
+## Batch 116 (08.09.2026) — `rj@` Sent Items 06.09. 18:09 bis 07.09. 16:20 · **Verhandlungsverkehr, erster direkter Gold-gegen-Zwilling-Vergleich an einem Tag**
+
+**Quelle:** `outlook_email_search`, `folderName: Sent Items`, `order: oldest`,
+`afterDateTime: 2026-09-06T16:09:00` · 13 Treffer, `totalResultCount: 13`, keine Folgeseite ·
+Volltext 5, Vorschau 2 · **Gewichtung:** 7 `authentisch`, 1 `claude-aera` (als Kontrolle
+gemessen, nicht als Stilquelle gelernt), 4 gesperrt · **eingearbeitet:** ja ([[stimme]],
+[[denken]], [[haltung]], [[beziehungsregister]], [[fachsignatur]], [[arbeitsweise]],
+[[QUESTIONS]] 260908 #1–#5) · Detailregister: `raw/260908-mailbatch-116.md`
+
+**Abgedeckt:** `Sent Items` **06.09.2026 18:09 bis 07.09.2026 16:20** (Ortszeit), alle 13 Treffer
+der Seite. Der Vorwärtsfaden bleibt ohne Lücke. Das Fenster deckt einen einzigen Arbeitstag; am
+06.09. lief nach 18:09 nichts mehr.
+
+**Vorfilter (gratis, vor dem ersten `read_resource`):** 1 **Dublette aus Batch 115** (Systemmeldung
+Abo-Auslastung 06.09. 18:09) — **fünfter Lauf in Folge**, in dem der Vorabgleich gegen das Register
+eine Doppel-Destillation verhindert hat; 3 Selbstmails `claude-aera` (Hub-Chef-Briefing 08:09,
+zwei NAS-P1-Meldungen 09:00 und 13:01); 1 Kalender-Zusage ohne Body. Der `twin-fidelity-review`
+260904 hat Januar-Material (13.–30.01.2026) verbraucht, also keine Kollision.
+
+**Verbraucht — nicht erneut destillieren:** Link-Antwort Ablage Korrex 07.09. 07:56 · wortlose
+Weiterleitung Lieferantenofferte 11:47 · Nachtrag Unterzüge CHF 4'785 12:37 · Auftragsbestätigung
+Türen 12:53 · Abänderungseingabe zur Freigabe 13:03 · «Ja, dass kann ich machen.» 14:13 ·
+Honorarofferte 2619-HOP2 15:56 (`claude-aera`, **nur Kontrolle**) · «Hoi liebe Levi:» + Link 16:20.
+
+**Kernbefunde:** (1) ⭐ **Erster direkter Vergleich Gold gegen Zwilling am selben Tag**: Du-Gross-
+Quote 0.80 gegen 1.00, Fehlerdichte 5 gegen 0 je 100 W, Satzlänge 17.0 gegen 8.4, Komma nach der
+Anrede 3/3 gegen 0/1. **Der Zwilling ist korrekter, kürzer und glatter als das Original — und
+genau daran erkennbar.** (2) ⭐ **Verb-Grossschreibung in der Bitten-Formel** ist mit n = 5 aus der
+Schwankung (Batch 114) zum Muster geworden, registerübergreifend, nur in Anweisungsmails.
+(3) ⭐ **Die gehobene Anredestufe fällt nach 70 Minuten zurück** (Geschätzter → Hoi, derselbe
+Empfänger, derselbe Vorgang) — engster Beleg der Anlassgewicht-Klausel bisher. (4) ⭐ **«Geschätzter»
+ist keine Sie-Stufe**, sondern die Substanzstufe beider Register (3x an einem Tag, 2x Du + 1x Sie).
+(5) ⭐ **Stadelmann Sie→Du, vierter Beleg**, erstmals mit Vornamen und Dir/Dich gross; die Rule führt
+ihn weiterhin ohne Tabellenzeile. (6) ⭐ **Rechenkette doppelt** — Herleitung je Position, dann
+Bilanz mit fettem Total, Betrag zusätzlich im ersten Satz. (7) ⭐ **Zugeständnis + Gegenbedingung +
+Rücktritt auf die Leistung** in zwei Sätzen ohne Bindewort. (8) ⭐ **Beweissatz nach dem sicheren
+Block, dritter Beleg**, erstmals zur eigenen Verhandlungsposition statt zu einer offenen Grundlage.
+(9) ⭐ **Wortlose Weiterleitung = Freigabeantrag** (leerer Body → Freigabe → Bestätigung in 66 Min).
+(10) ⭐ **Nulltextige Antwort**: der Link ist die Antwort. (11) ⭐ **Cc-Erweiterung als wortlose
+Korrektur.** (12) ⭐ **Geräte-Trennung im Mail-HTML** (`ms-outlook-mobile-*` = eigene Hand 6/6,
+`Apple-Mail-URLShareWrapperClass` = Claude-Weg 1/1) **ersetzt den in Batch 115 verbrannten
+`_ `-Bullet** — mit ausdrücklicher Grenze: sie misst das Gerät, nicht die Person. (13) Terminlogik
+über KW plus Bedingungssatz über eine dritte, nicht adressierte Partei. (14) Ausmass-Fachform
+(Raumnummer + Raumname, sichtbar addierte Teilmasse, «300.-/lm», Angebotsnummer + Plananhang).
+
+**Nächstes Fenster:** (1) `rj@` **Sent Items ab 07.09.2026 16:20** (Ortszeit; als
+`afterDateTime` in UTC `2026-09-07T14:20:00` setzen), weiterhin `order: oldest`. (2) `Drafts` nur
+als **Zuwachs** (`order: newest`, Abgleich gegen dieses Register), nicht per Seitennummer. (3) Die
+zwei reservierten Apple-Mail-Entwürfe vom 24.03.2026. (4) Vor dem Ziehen weiterhin prüfen, welches
+Fenster der `twin-fidelity-review` zuletzt verbraucht hat. (5) **Vorfilter-Standard:** Geräte-
+Trennung neu **zweistufig** — `internetMessageId` für den Kanal, die HTML-Klassen `ms-outlook-mobile-*`
+bzw. `Apple-Mail-URLShareWrapperClass` für den Weg; der `_ `-Bullet zählt weiterhin **nicht**.
+(6) **AfB** bleibt die letzte offene Behördenstelle ohne eigenen Volltext.

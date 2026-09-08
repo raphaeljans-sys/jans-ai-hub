@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-09-04
+last_updated: 2026-09-08
 gewichtung: authentisch
-sources: [260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -4358,3 +4358,57 @@ Unterstrich-Bullets im **vorbereiteten** Block. Als Herkunftssignal ist der Mark
 geworden und darf in der Gewichtung nicht mehr fuer `authentisch` sprechen — als Stilmerkmal
 bleibt er gueltig. Belastbar trennen die Haende weiterhin nur **Fehlerdichte je Absatz** und
 `internetMessageId`.
+
+## Die wortlose Weiterleitung ist der Freigabeantrag (Batch 116, authentisch)
+
+07.09.2026, drei Schritte in 66 Minuten:
+
+1. **11:47** — Raphael leitet die eingegangene Lieferantenofferte an die Bauherrschaft weiter.
+   Der Mailtext besteht aus **einem Bindestrichpaar** («--»), also aus nichts als dem
+   Signatur-Trenner. Keine Frage, keine Empfehlung, kein Betreffzusatz.
+2. **12:36** — die Bauherrschaft antwortet: «Von mir aus in Ordnung. Kann freigegeben werden».
+3. **12:53** — die Auftragsbestätigung geht an den Lieferanten, mit der Bauherrschaft im An und
+   dem betroffenen Gipser im Cc.
+
+Der Vorgang ist eingespielt genug, dass die Anfrage keinen Text mehr braucht: **eine
+weitergeleitete Offerte ohne Kommentar heisst «bitte freigeben».** Was der Zwilling hier
+regelmässig falsch macht, ist die höfliche Ausformulierung («Im Anhang die Offerte der Firma X,
+ich bitte um Deine Freigabe») — sie ist nicht falsch, aber sie verlangsamt eine Schleife, die
+Raphael auf drei Nachrichten und eine Stunde eingerichtet hat.
+
+Die Formulierung der Zusage an den Lieferanten führt die Freigabe dann ausdrücklich mit: «sende
+ich Ihnen im Anhang die Auftragsbestätigung **in Rücksprache mit der Bauherrschaft**». Die
+Autorität wird nach aussen benannt, nach innen nicht erfragt.
+
+## Die nulltextige Antwort: das Artefakt ist die Antwort (Batch 116)
+
+Auf «Wo kann ich die Korrex von Jegen ablegen?» antwortet er mit **einem SharePoint-Link und
+sonst nichts** — keine Anrede, kein Gruss, keine Signatur, kein Satz (07:56 und, nach Rückfrage,
+16:20 mit dem richtigen Los; Register und Cc-Eskalation: [[beziehungsregister]]).
+
+Das ist die Fortsetzung des Ablageort-Reflexes aus Batch 115 («Die Ausdrucke sind morgen im
+Briefkasten Bohlweg 3.»): **auf eine Ortsfrage antwortet er mit dem Ort, nicht mit einer
+Erklärung des Ordnungssystems.** Der Link trägt den sprechenden Ordnernamen als Anzeigetext
+(«231.10 02 KORREX JEGEN Werkpläne»), damit der Empfänger die Systematik am Beispiel sieht statt
+sie beschrieben zu bekommen.
+
+## Geräte-Trennung ersetzt den verbrannten `_ `-Bullet (Batch 116, belastbar)
+
+Batch 115 hat den `_ `-Bullet als Herkunftssignal entwertet. Dieses Fenster liefert einen
+Ersatz, der im HTML steht und vom Zwilling nicht erzeugt werden kann:
+
+| Signal im Mail-HTML | Bedeutung | Trefferbild Batch 116 |
+|---|---|---|
+| `id="ms-outlook-mobile-body-separator-line"` / `-signature` | Outlook Mobile, **eigene Hand** | 6 von 6 Gold-Einheiten |
+| `class="Apple-Mail-URLShareWrapperClass"` | Apple Mail, **Claude-Entwurfsweg** | 1 von 1 `claude-aera` |
+| `internetMessageId` auf `@raphaeljans.ch` | Apple Mail (Station), Weg offen | Kontrolle + Selbstmails |
+| `internetMessageId` auf `ZR2P278MB…OUTLOOK.COM` | Exchange/Outlook, Weg offen | alle Gold-Einheiten |
+
+Die beiden HTML-Klassen trennen im ganzen Fenster **fehlerfrei** und decken sich mit der
+Fehlerdichte-Messung ([[stimme]]: 5 % gegen 0 %). Die Kombination «Outlook-Mobile-Marker plus
+Fehlerinsel» ist damit der belastbarste verfügbare Authentizitätsnachweis.
+
+⚠ **Grenze, damit der Marker nicht dasselbe Schicksal erleidet:** er beschreibt das **Gerät**,
+nicht die Person. Sobald Raphael eine Claude-Fassung vom Handy weiterschickt, zeigt der Marker
+auf Outlook Mobile und die Hand ist trotzdem nicht seine. Er ersetzt die Fehlerdichte nicht, er
+stützt sie — und er ist wertlos, sobald der Harness selbst Mails über Outlook Mobile stellt.

@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-09-04
+last_updated: 2026-09-08
 gewichtung: authentisch
-sources: [260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -3229,3 +3229,41 @@ Der Zweck ist Beweissicherung: bei Auflagenbereinigungen gegenueber der Feuerpol
 **welche** Fassung geprueft wurde. Der Zwilling fasst solche Zeilen gern zusammen («Im Anhang
 finden Sie die Stellungnahme sowie den Brandschutzplan») und loescht damit genau die Information,
 die die Mail zum Beleg macht.
+
+## Nachtrag rechnen wie ein Ausmass: Positionsnummer, Laufmeter, Einheitspreis (Batch 116, authentisch)
+
+07.09.2026, Nachtragsverhandlung Gipserarbeiten (LOS 271.10, Los-Nummer bürointern, kein
+BKP-Code). Die Fachsignatur steckt in der Form der Rechnung, nicht im Vokabular:
+
+- **Positionsbezeichnung aus dem Raumbuch**, nicht aus der Umgangssprache: «Unterzug 2.001
+  Aufenthalt», «Unterzug 2.039 Speisezimmer» — Raumnummer und Raumname zusammen, damit die
+  Position auf dem Plan auffindbar bleibt.
+- **Teilmasse werden sichtbar addiert**, bevor multipliziert wird: «3.0m + 7.2m = 10.2m», danach
+  «10.2m x 300.-/lm». Der Einheitspreis trägt die Bezugsgrösse im Suffix («/lm»), nicht im Text.
+- **Der Beleg ist die Angebotsnummer plus die Plangrundlage**: «im Angebot 324508-1 Plananhang».
+  Nicht «im Angebot», nicht «in der Offerte» — die Nummer und die Anlage, in der die
+  Unterzugslinien eingezeichnet sind.
+
+Der Zwilling rundet solche Ketten gern auf das Ergebnis ein und schreibt «gemäss Offerte». Damit
+fällt genau das weg, was den Nachtrag prüfbar und die Ablehnung begründbar macht.
+
+## Terminlogik läuft über Kalenderwochen und Vorleistungsketten (Batch 116)
+
+Dieselbe Woche, drei Mails, dasselbe Muster: Termine werden **in KW** genannt, und zu jedem
+Termin gehört die Bedingung, die vorher erfüllt sein muss.
+
+> «Für die finale Masskontrolle der Rohmasse bitte ich Sie **Ende KW 38** mit der Bauleitung
+> Albin Spahic vor Ort ein Termin zu vereinbaren.»
+> «Der LBW-Ersteller sollte **bis Ende KW 38** alle Türöffnungen erstellt haben.»
+
+Der zweite Satz betrifft eine **dritte Partei**, die in dieser Mail gar nicht adressiert ist. Er
+steht trotzdem darin, im Konjunktiv, als Rahmenbedingung — der Lieferant soll wissen, wovon sein
+eigener Termin abhängt. Dasselbe Prinzip wie der Zwecksatz nach der Wochenliste aus Batch 115
+(«So kann der Gipser KW38 weiter arbeiten»), hier vorwärts statt rückwärts formuliert: **jede
+Terminangabe wird an die Kette gehängt, in der sie steht.**
+
+Fachvokabular des Fensters, unerklärt und ohne Anführungszeichen verwendet: Korrex (Korrekturzug
+der Werkpläne), LBW (Leichtbauwand), Rohmass, Zarge, Duofix, Sturz, Kernbohrung, Akontozahlung.
+Die Los-Nummern erscheinen als Ablagepfad (`LOS_231.10 Türen System TeKoSi AG`,
+`LOS_274.01 Innere Verglasungen JEGEN`) — die Ablagestruktur ist selbst Fachsprache und wird als
+Link statt als Beschreibung weitergegeben.
