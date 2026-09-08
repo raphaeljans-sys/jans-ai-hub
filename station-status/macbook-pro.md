@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 01:36:07
+Stand: 08.09.2026 01:56:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:16)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 08.09.2026 01:36:07
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 36fc41793 nas-selfcommit: 4 Datei(en) 2026-09-08 01:30
+- b9dca9a2d normen Run 81: N80-1 geschlossen — Fassungsvergleich BRL 15-15 ueber alle 35 Seitenpaare; S.34 Delta-Aussage widerlegt, S.27/S.33 bestaetigt mit berichtigter Begruendung
