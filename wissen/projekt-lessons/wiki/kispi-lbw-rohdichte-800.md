@@ -5,7 +5,7 @@ last_updated: 2026-07-23
 sources: [II.1b 01 Detailpläne BS Architektur.pdf (QS-Korrektur Ziegel 21.07.2026, S. 5), LV_BKP S 271.13 Spez. Gipserarbeiten EG-DG.pdf (DS3 File-25311424, 12.05.2020), r_180928_KISPI_Akutspital_Änderungseingabe_BS_Konzept (DS3 File-20117008), PDB Duraline Vario / Habito (DS3-Unternehmerdokumentation LOS 271.13), Rigips-Normbroschüre DIN EN 520]
 links: [wissen/normen/wiki/en-520-gipsplattentypen.md, wissen/auflagebereinigung/wiki/brandschutz-auflagen-qss.md]
 gewerk: "BRA/ARC — Gipser-/Trockenbauarbeiten"
-bkp: "271.10 (Innenputze/Gipserarbeiten), 271.13 (Spez. Gipserarbeiten)"
+bkp: "271.1 Trockenbauarbeiten (BKP 2017) — die Leistung ist LBW-Beplankung im Trockenbau, nicht Innenputz 271.0; «271.10» und «271.13» sind projektinterne Los-Nummern KISPI, keine BKP-Codes (Herkunft belegt: Losordner «LOS_271.10 Gipserarbeiten ESTERMANN», Submissions-LV «LV_BKP S 271.13»); berichtigt Wissens-Chef Lauf 55, 08.09.2026 gegen references/bkp-2017/BKP-2017-Liste.md Z. 523-526"
 sia_phase: "5 Ausführung (SIA 112) — Ursprung der Vorgabe in Phase 3/4 des Erstellungsprojekts"
 betroffene_skills: [brandschutz, unternehmerkontrolle, ausschreibung]
 ---
@@ -13,7 +13,7 @@ betroffene_skills: [brandschutz, unternehmerkontrolle, ausschreibung]
 # KISPI: Woher die 800 kg/m³ für die äusserste LBW-Platte kommen — und warum sie korrekt sind
 
 **Projekt:** 2619 Kinderspital Zürich, Umbau 1.OG Bettenstation/Therapiestation,
-BKP 271.10 (Estermann). **Geklärt:** 23.07.2026 (vollständige Beweiskette über
+LOS 271.10 (Estermann; projektinterne Los-Nummer, kein BKP-Code — BKP 2017: **271.1 Trockenbauarbeiten**). **Geklärt:** 23.07.2026 (vollständige Beweiskette über
 Truninger-DS3 + Projektablage + Norm-Verifikation).
 
 ## Beweiskette (5 Glieder)
