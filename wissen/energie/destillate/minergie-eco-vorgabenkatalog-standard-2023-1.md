@@ -2,12 +2,12 @@
 quelle: "Vorgabenkatalog Zusatz ECO — Alle zertifizierbaren Gebäudekategorien, Nachweisversion 2023.1 — https://www.minergie.ch/media/250123_vorgabenkatalog_eco_alle_gebaudekategorien_v2023.1_de_1.pdf — 102 Seiten, öffentlich abgerufen 06.09.2026"
 herausgeber: "Verein ecobau (Inhalt/Urheberrecht) gemeinsam mit Minergie Schweiz (Zertifizierungsträger)"
 ausgabe: "Nachweisversion 2023.1. ⚠ **Zwei Dateifassungen derselben Nachweisversion — korrigiert Run 182, 06.09.2026.** Run 180/181 destillierten die Datei `250123_vorgabenkatalog_eco_alle_gebaudekategorien_v2023.1_de_1.pdf` (704'047 Bytes, 102 Seiten, Titelblatt-Dokumentstand 23.01.2025). Die Minergie-Website verlinkt am 06.09.2026 jedoch **nicht** diese Datei, sondern `vorgabenkatalog-eco-alle-gebaeudekategorien-v2023-1_2.pdf` (733'748 Bytes, **109 Seiten, 59 Vorgaben**, Anhang B mit Nachträgen bis **01.07.2026**). Die alte URL liefert weiterhin HTTP 200, ist aber nicht mehr verlinkt. Die im Frontmatter von Run 180 stehende Aussage, die Website verlinke «exakt diese Datei», ist damit widerlegt. Massgeblich ist die Fassung mit Dokumentstand 01.07.2026"
-gelesen: "teilweise — Einführungskapitel (S. 4-7), Sektion Schallschutz und Raumakustik 130.01-130.07 (S. 32-41, Run 180) und Vorgaben 210.01/210.02 Graue Energie/THGE Erstellung inkl. FAQ (S. 50-53, Run 181), beide an der Fassung 23.01.2025; **vollständige 220er-Reihe Gebäudekonzept und Kreislaufwirtschaft 220.01-220.11 und 220.50 (S. 71-91/109, Run 182, 06.09.2026)**, **vollständige 230er-Reihe Biodiversität/Wasserkreislauf 230.01-230.08 und Klimaresilienz 240.01-240.02 (S. 91-104/109, Run 183, 07.09.2026)** sowie **vollständige 110er-Reihe Gesundheit/RLT/Radon/Nichtionisierende Strahlung 110.01-110.05 und 110.50 (S. 9-18/109, Run 184, 07.09.2026)**, **vollständige 120er-Reihe Schadstoffe 120.01-120.10 (S. 19-37/109), 140er-Reihe Tageslicht/Ausblick/Aktivierung 140.01-140.04 (S. 46-53/109) und 250.01 Innovation Ökologie (S. 106/109), alle Run 185, 07.09.2026**, alle drei an der geltenden Fassung 01.07.2026, dazu der vollständige normalisierte Fassungs-Diff der 220er-Reihe zwischen beiden Dateifassungen und Anhang B beider Fassungen. NICHT gelesen: 150.01 Innovationen zur Erreichung hoher Gesundheitsziele (S. 53/109, Run 185 als Neben-Fund entdeckt) sowie die 210.03/210.04-Vorgaben und die verbleibenden Einzelvorgaben ausserhalb der bisher gelesenen Reihen — Fortsetzung für künftige Läufe vorgesehen"
+gelesen: "teilweise — Einführungskapitel (S. 4-7), Sektion Schallschutz und Raumakustik 130.01-130.07 (S. 32-41, Run 180) und Vorgaben 210.01/210.02 Graue Energie/THGE Erstellung inkl. FAQ (S. 50-53, Run 181), beide an der Fassung 23.01.2025; **vollständige 220er-Reihe Gebäudekonzept und Kreislaufwirtschaft 220.01-220.11 und 220.50 (S. 71-91/109, Run 182, 06.09.2026)**, **vollständige 230er-Reihe Biodiversität/Wasserkreislauf 230.01-230.08 und Klimaresilienz 240.01-240.02 (S. 91-104/109, Run 183, 07.09.2026)** sowie **vollständige 110er-Reihe Gesundheit/RLT/Radon/Nichtionisierende Strahlung 110.01-110.05 und 110.50 (S. 9-18/109, Run 184, 07.09.2026)**, **vollständige 120er-Reihe Schadstoffe 120.01-120.10 (S. 19-37/109), 140er-Reihe Tageslicht/Ausblick/Aktivierung 140.01-140.04 (S. 46-53/109) und 250.01 Innovation Ökologie (S. 106/109), alle Run 185, 07.09.2026**, sowie **150.01 Innovationen Gesundheit (S. 53/109) und das vollständige Inhaltsverzeichnis S. 2-3/109 (Run 186, 08.09.2026)**, alle an der geltenden Fassung 01.07.2026, dazu der vollständige normalisierte Fassungs-Diff der 220er-Reihe zwischen beiden Dateifassungen und Anhang B beider Fassungen. Der Inhaltsverzeichnis-Abgleich (Run 186) bestätigt exakt 59 Vorgaben und lokalisiert die verbleibende Lücke präzise: NICHT gelesen sind ausschliesslich **210.03 bis 210.08** (Reihe «Klimaschutz und Ressourcen», S. 60-70/109) — Fortsetzung für künftige Läufe vorgesehen"
 datenstand: "**01.07.2026** (Dokumentstand der geltenden Fassung; Zwischenstände 19.01.2026 und 23.01.2025). Die Abschnitte zu Schallschutz 130.01-130.07 (Run 180) und Graue Energie/THGE 210.01/210.02 (Run 181) wurden an der älteren Fassung 23.01.2025 gelesen, per Anhang-B-Abgleich (Run 183) aber als inhaltlich unverändert gegenüber der geltenden Fassung bestätigt; für die 220er- und 230er/240er-Reihe (Run 182/183) wurde die geltende Fassung direkt verwendet und der Fassungs-Diff ausgewiesen. Vorgaben-Inhalte gültig ab 13.09.2023 analog Produktreglement"
 status: emerging
 geltungsbereich: "Einzelagenten-Lauf, kein Refuter-Panel — noch nicht durch eine zweite, unabhängige Prüfinstanz gegengelesen. Nur der gelesene Teilumfang (siehe 'gelesen') ist durch dieses Destillat gedeckt"
-verifikation: "eigener curl-Download + pdftotext -layout-Volltextextraktion der Originalquelle am 06.09.2026 (Run 182) bzw. 07.09.2026 (Run 183/184); alle unten zitierten Werte direkt aus dem extrahierten Text übernommen, keine Paraphrase der Zahlen. Anhang-B-Änderung zu 110.05 (Run 184) wörtlich gegen den Vorgabentext verifiziert, siehe Abschnitt 110er-Reihe; Anhang-B-Änderung zu 120.06 (TEP-Wegfall) und die Tageslicht-Ausnahmeregelung zu 140.01 (Run 185) ebenfalls wörtlich am Volltext verifiziert, Formaldehyd-/TVOC-/TLQ-Werte durch den Hauptlauf stichprobenweise gegengelesen"
-last_updated: 2026-09-07
+verifikation: "eigener curl-Download + pdftotext -layout-Volltextextraktion der Originalquelle am 06.09.2026 (Run 182) bzw. 07.09.2026 (Run 183/184) bzw. 08.09.2026 (Run 186); alle unten zitierten Werte direkt aus dem extrahierten Text übernommen, keine Paraphrase der Zahlen. Anhang-B-Änderung zu 110.05 (Run 184) wörtlich gegen den Vorgabentext verifiziert, siehe Abschnitt 110er-Reihe; Anhang-B-Änderung zu 120.06 (TEP-Wegfall) und die Tageslicht-Ausnahmeregelung zu 140.01 (Run 185) ebenfalls wörtlich am Volltext verifiziert, Formaldehyd-/TVOC-/TLQ-Werte durch den Hauptlauf stichprobenweise gegengelesen; 150.01 und das Fehlen von 210.03-210.08 im gelesenen Umfang (Run 186) gegen das extrahierte Inhaltsverzeichnis S. 2-3/109 geprüft"
+last_updated: 2026-09-08
 ---
 
 # Destillat — Vorgabenkatalog Zusatz ECO, Standard alle Gebäudekategorien (Nachweisversion 2023.1)
@@ -659,12 +659,38 @@ haben. Der Begriff wird laut FAQ **absichtlich nicht definiert**, «um die Ideen
 Antragstellenden nicht einzuengen»; die Zertifizierungsstellen haben «einen erheblichen
 Spielraum». Zuständigkeit: alle Planenden und die Bauherrschaft.
 
-**Neben-Fund:** Der Katalog kennt mit **150.01 «Innovationen zur Erreichung hoher
-Gesundheitsziele»** (S. 53/109) eine strukturgleiche Innovationsvorgabe im Bereich Gesundheit,
-mit identischer Stufung 2/4 Punkte. Sie war in keiner der bisherigen Folgelauf-Notizen erfasst
-und ist noch nicht destilliert (siehe offene Punkte).
+**Neben-Fund, jetzt destilliert (Run 186, 08.09.2026):** Der Katalog kennt mit **150.01
+«Innovationen zur Erreichung hoher Gesundheitsziele»** (S. 53/109) eine strukturgleiche
+Innovationsvorgabe im Bereich Gesundheit, mit identischer Stufung 2/4 Punkte. Sie war in keiner
+der bisherigen Folgelauf-Notizen erfasst — siehe Abschnitt unten.
 
-### Bauherren-Transfer 140er-Reihe und 250.01 (eigene Einordnung)
+### 150.01 Innovationen zur Erreichung hoher Gesundheitsziele (Run 186, 08.09.2026)
+
+Steht im eigenen Zwischenkapitel «Innovation» (S. 53/109), direkt vor dem Übergang von Gesundheit
+zu Ökologie — daher zwischen der 140er-Reihe und 210.01 im PDF platziert, nicht bei den übrigen
+Gesundheitsvorgaben 110.x/120.x/130.x. Wortgleiche Struktur zu 250.01: abgestufte Vorgabe, Stufe 1
+«Umsetzung eines innovativen Ansatzes oder deutliche Übererfüllung einer Vorgabe» (2 Punkte),
+Stufe 2 «Umsetzung mehrerer oder umfassender innovativer Ansätze oder deutliche Übererfüllung
+mehrerer Vorgaben» (4 Punkte). Bemerkungstext identisch bis auf den Substanzbereich: «Projekte mit
+innovativen Ansätzen, die über die normalen Praktiken hinausgehen und einen Mehrwert für das
+**gesunde** Bauen darstellen» (250.01: «… für die Umweltbelastung»). Zwei Ansatzpunkte: (1)
+innovative/neue/pionierhafte Ansätze zu Themen, Prozessen oder umgesetzten Aspekten, (2) deutliche
+Übererfüllung einer oder mehrerer Vorgaben **aus dem Bereich Gesundheit** — bei 250.01 entsprechend
+aus dem Bereich Ökologie. Die Innovation darf keine negativen Auswirkungen auf andere
+Nachhaltigkeitsthemen haben (z.B. Energieverbrauch, soziale Aspekte). FAQ wörtlich: «Der Begriff
+soll absichtlich nicht genau definiert werden, um die Ideen der Antragstellenden nicht
+einzuengen und auch Unerwartetes zuzulassen. Innovationen können z.B. eine
+Bauprojektorganisation, ein Gebäudekonzept, technische Anlagen, Baumaterialien, Bauprozesse oder
+Angebote für Nutzende umfassen.» Zuständigkeit: alle Planenden, Bauherrschaft (bei 250.01 nur
+Architekt/in). BKP: Alle. Nachweis Projektierungsphase: Beschrieb der innovativen Ansätze bzw.
+Nachweis der Übererfüllung; Realisierungsphase: Nachweis mittels Plänen, Beschreibungen und/oder
+Fotos.
+
+**Verifikation Anhang B:** kein Eintrag zu 150.01 in der Änderungstabelle (S. 107-109/109) —
+die Vorgabe ist gegenüber dem Vorgängerstand unverändert, analog dem für 130.x/210.01/210.02
+bereits belegten Muster (Run 183).
+
+### Bauherren-Transfer 140er-Reihe, 150.01 und 250.01 (eigene Einordnung)
 
 Tageslicht ist die einzige Vorgabe der Reihe, die ein Projekt **scheitern** lassen kann, und sie
 kollidiert direkt mit dem sommerlichen Wärmeschutz: grosse Fenster bringen Tageslichtpunkte und
@@ -676,26 +702,32 @@ SIA 380/1 und ohne bekanntes Ablaufdatum. Die beiden Innovationsvorgaben (150.01
 etwas Ungewöhnliches umgesetzt wird — sie kosten nichts ausser der Dokumentation und lohnen sich,
 sobald in einem Bereich Punkte fehlen.
 
-### Offene Punkte 140er-Reihe und 250.01
+### Offene Punkte 140er-Reihe, 150.01 und 250.01
 
 - ⚠ **Befristung der Tageslicht-Ausnahmeregelung unbekannt.** Der Vorgabentext nennt kein
   Ablaufdatum, Anhang B ebenfalls nicht. Vor einer Berufung darauf bei der Zertifizierungsstelle
   zu erfragen.
-- **150.01 Innovationen Gesundheit** ist noch nicht destilliert.
+- ✓ **150.01 Innovationen Gesundheit destilliert (Run 186, 08.09.2026)** — siehe Abschnitt oben.
 - Bei 140.03 und 140.04 nennt der Text die 80/20-Bezugsgrössen, aber keinen expliziten
   Prozentwert (anders als 140.02 mit «mind. 80 %») — ob dort ebenfalls 80 % gilt, geht aus dem
   Volltext nicht hervor.
 
 ## Offene Punkte für Folgeläufe
 
-- Die übrigen rund **23 Vorgaben** sind noch nicht destilliert: Schadstoffe (120.x, 9 Vorgaben),
-  Tageslicht/Aktivierung (140.x) und Innovation Ökologie (250.01). Erledigt: Schallschutz 130.x
-  (Run 180), 210.01/210.02 (Run 181), 220er-Reihe vollständig (Run 182), 230er-Reihe und
-  Klimaresilienz vollständig (Run 183), **110er-Reihe Gesundheit/RLT/Radon/NIS vollständig
-  (Run 184, 07.09.2026, inkl. Verifikation der Anhang-B-Änderung zu 110.05)**. **Nächster
-  Ansatzpunkt: 120.x** (Schadstoffe, S. 19-35 — Anhang B nennt dort eine materielle Änderung vom
-  23.01.2025, Wegfall des TEP-Flammschutzmittel-Kriteriums bei PUR/PIR-Dämmstoffen unter 120.06,
-  gegen die geltende Fassung noch zu verifizieren).
+- **Vollständiges Inhaltsverzeichnis (S. 2-3/109) jetzt gegengelesen (Run 186, 08.09.2026)** —
+  genau **59 Vorgaben**, die Restmengen-Fehler der Runs 182-184 (siehe Lehre oben) können damit
+  nicht mehr auftreten. Ergebnis des Abgleichs: **6 Vorgaben der Reihe «Klimaschutz und
+  Ressourcen» sind trotz vollständig destillierter 210.01/210.02 noch offen** — **210.03
+  Ökologischer Restwert rückzubauender Bestandsbauten**, **210.04 Zementarten für normal
+  beanspruchte Betone**, **210.05 Witterungsbeständigkeit der Fassade/Gebäudehülle**, **210.06
+  Nachweis für Holz und Holzprodukte aussereuropäischer Herkunft**, **210.07 Nachweis für Holz
+  und Holzprodukte europäischer Herkunft**, **210.08 Einsatz lokaler Ressourcen** (S. 60-70/109,
+  elf Seiten). Alle übrigen 53 Vorgaben sind destilliert: Schallschutz 130.x (Run 180),
+  210.01/210.02 (Run 181), 220er-Reihe vollständig (Run 182), 230er-Reihe und Klimaresilienz
+  vollständig (Run 183), 110er-Reihe vollständig (Run 184), 120er-/140er-Reihe und 250.01
+  vollständig (Run 185), 150.01 (Run 186). **Nächster Ansatzpunkt: 210.03-210.08, S. 60-70/109**
+  — mit elf Seiten für einen einzelnen Nachtschicht-Lauf eher gross; ggf. in zwei Etappen
+  (210.03-210.05 / 210.06-210.08) aufteilen.
 - ✓ **E-R182-3 erledigt Run 183 (07.09.2026), ohne erneuten Volltext-Diff:** Anhang B (S. 107-109
   der geltenden Fassung) listet **jede** inhaltliche Änderung der Nachweisversion 2023.1 nach
   Vorgabe-Nummer und Datum. Für **130.01-130.07** (Schallschutz) und **210.01/210.02** (Graue

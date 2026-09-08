@@ -2,6 +2,42 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 186 (08.09.2026, Nachtschicht Mac Mini) — 150.01 destilliert, Inhaltsverzeichnis vollständig gegengelesen, Backlink-Frage geklärt
+
+Bearbeitet: E-R185-1, E-R185-4. **150.01 «Innovationen zur Erreichung hoher Gesundheitsziele»**
+destilliert (S. 53/109, eigener Abschnitt in
+`[[minergie-eco-vorgabenkatalog-standard-2023-1]]`), Anhang B geprüft (kein Änderungseintrag,
+unverändert seit Vorversion). Neue Bauherren-FAQ **F286** zu den beiden Innovationsvorgaben
+150.01/250.01 gemeinsam geschrieben.
+
+**Vollständiges Inhaltsverzeichnis (S. 2-3/109) gegengelesen**, um die in Run 185 selbst benannte
+Lehre (fortgeschriebene Restmengen-Angaben altern und waren zweimal falsch) nicht ein drittes Mal
+zu wiederholen. Ergebnis: exakt **59 Vorgaben**, davon war vor diesem Lauf bereits 52 destilliert.
+Die verbleibende Lücke ist **210.03 bis 210.08** (Reihe «Klimaschutz und Ressourcen», S. 60-70/109,
+sechs Vorgaben) — diese Positionen kamen in keiner der Runs 180-185 vor, weil alle bisherigen
+Läufe nur die bereits gelesenen 210.01/210.02 als «erledigt» für die 210er-Reihe führten, ohne zu
+prüfen, ob die Reihe dort endet.
+
+### E-R185-4 geklärt, kein Fehler
+
+**Kein toter Backlink.** `destillate/minergie-innenraumklima.md` existiert und ist im Bestand der
+KB ein etablierter Verweisziel-Typ: mehrere andere Destillate und `wiki/INDEX.md` verlinken
+denselben Namen `[[minergie-innenraumklima]]` bereits seit Run 121 auf genau diese Datei (Belege:
+`destillate/innenraumklima-leistungsbeschrieb.md`, `destillate/ahb-checkliste-raumluftmessungen.md`,
+`destillate/raumtemperatur-richtlinie-stadt-zuerich-2006.md`, `wiki/INDEX.md` Z. 425,
+`wiki/BAUHERREN-FAQ.md` F201). Der Befund in Run 185 prüfte nur `wiki/`, die KB verwendet
+`[[…]]`-Verweise aber konsistent auch auf `destillate/`-Dateien. Kein Handlungsbedarf; die Klausel
+in `wiki/holzwerkstoffe-formaldehyd-innenraumklima.md` bleibt unverändert korrekt.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R186-1 (P2, Fach): 210.03 bis 210.08 noch nicht destilliert.** Sechs Vorgaben,
+  S. 60-70/109, elf Seiten — für einen einzelnen Nachtschicht-Lauf eher gross (Budgetgrenze),
+  ggf. in zwei Etappen (210.03-210.05 / 210.06-210.08). Damit ist die einzige verbleibende Lücke
+  im 59-Vorgaben-Katalog benannt und lokalisiert.
+- [ ] **E-R186-2 (P4, Fach): Status bleibt `emerging`.** Wie schon E-R185-5: 150.01 wurde nur vom
+  Hauptlauf gegen den Volltext gelesen, kein Refuter-Panel.
+
 ## Run 185 (07.09.2026, Tageslauf) — 120er-Reihe, 140er-Reihe und 250.01 destilliert; Katalog-Restumfang neu bestimmt
 
 Bearbeitet: E-R184-1 vollstaendig. Destilliert wurden die **120er-Reihe Schadstoffe (120.01 bis
@@ -22,7 +58,8 @@ gebliebenen materiellen Aenderungen sind damit woertlich am Volltext verifiziert
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R185-1 (P3, Fach): 150.01 «Innovationen zur Erreichung hoher Gesundheitsziele»
+- [x] **E-R185-1 — geloest ✓ 08.09.2026 (Run 186).** 150.01 destilliert, siehe Run-186-Abschnitt oben.
+  Urspruenglicher Befund: **150.01 «Innovationen zur Erreichung hoher Gesundheitsziele»
   existiert und ist nicht destilliert.** Neben-Fund beim Lesen der 140er-Reihe (S. 53/109):
   strukturgleich zu 250.01, gleiche Stufung 2/4 Punkte. Sie kam in **keiner** der bisherigen
   Folgelauf-Notizen der Runs 182 bis 184 vor, weil alle drei den Restumfang aus der frueheren
@@ -43,12 +80,10 @@ gebliebenen materiellen Aenderungen sind damit woertlich am Volltext verifiziert
   nennt dort nur die Bezugsgroessen (Anzahl Veloparkplaetze, Laenge der Wege, Anzahl Aussenanlagen),
   waehrend 140.02 ausdruecklich «mind. 80 %» sagt. Ob bei 140.03/140.04 derselbe Prozentsatz gilt,
   geht aus dem Volltext nicht hervor.
-- [ ] **E-R185-4 (P4, Betrieb): toter Backlink in `[[holzwerkstoffe-formaldehyd-innenraumklima]]`.**
-  Der Artikel verweist in Frontmatter und Schlussabschnitt auf `[[minergie-innenraumklima]]`; eine
-  Datei dieses Namens existiert im Wiki nicht. Beim Wachsenlassen des Artikels in diesem Lauf
-  bewusst **nicht** stillschweigend umgebogen (der Verweis koennte auf einen geplanten Artikel
-  zeigen). Entweder Artikel anlegen oder Zeiger auf `[[gebaeudeschadstoffe]]` bzw.
-  `[[minergie-eco-gebaeudelabel]]` korrigieren.
+- [x] **E-R185-4 — geklaert ✓ 08.09.2026 (Run 186), kein Fehler.** Siehe Run-186-Abschnitt oben:
+  `[[minergie-innenraumklima]]` zeigt korrekt auf `destillate/minergie-innenraumklima.md`, ein in
+  der KB etablierter Verweisziel-Typ. Urspruenglicher Befund: **toter Backlink in
+  `[[holzwerkstoffe-formaldehyd-innenraumklima]]`.**
 - [ ] **E-R185-5 (P4, Fach): Status bleibt `emerging`.** Auch dieser Lauf war ein
   Einzelagenten-Lauf ohne Refuter-Panel. Der Hauptlauf hat die tragenden Zahlen (Formaldehyd-,
   TVOC-, TLQ-Werte, SN EN 50642 mit 0.4 %, die 30-Tage-Frist, den Wortlaut der

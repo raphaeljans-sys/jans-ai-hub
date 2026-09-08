@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## 2026-09-08 — Run 186 (Nachtschicht Mac Mini): 150.01 destilliert, Katalog-Restumfang exakt lokalisiert
+
+- **Bearbeitet:** E-R185-1, E-R185-4. **150.01 «Innovationen zur Erreichung hoher
+  Gesundheitsziele»** destilliert (S. 53/109, geltende Fassung 01.07.2026) — wortgleiche Struktur
+  zu 250.01, Stufe 1/2 mit 2/4 Punkten, Anhang B ohne Änderungseintrag (unverändert seit
+  Vorversion). Neue Bauherren-FAQ **F286** zu den beiden Innovationsvorgaben 150.01/250.01
+  gemeinsam.
+- **Methodische Vorsichtsmassnahme umgesetzt:** vollständiges Inhaltsverzeichnis der geltenden
+  Fassung (S. 2-3/109) gegengelesen, statt eine fortgeschriebene Restmengen-Angabe zu übernehmen
+  (Lehre aus Run 185, zweimal falsche Zahlen). Ergebnis: **exakt 59 Vorgaben**, 53 davon bereits
+  destilliert. Einzige verbleibende Lücke präzise benannt: **210.03 bis 210.08** («Klimaschutz und
+  Ressourcen», S. 60-70/109, sechs Vorgaben) — neuer offener Punkt E-R186-1, für einen einzelnen
+  Nachtschicht-Lauf eher gross (elf Seiten), ggf. in zwei Etappen.
+- **E-R185-4 geklärt, kein Fehler:** der als «toter Backlink» gemeldete Verweis
+  `[[minergie-innenraumklima]]` zeigt korrekt auf `destillate/minergie-innenraumklima.md` — ein
+  in dieser KB etablierter Verweisziel-Typ (mehrere weitere Destillate und `wiki/INDEX.md`
+  verlinken denselben Namen bereits seit Run 121). Der Befund in Run 185 prüfte nur `wiki/`, ohne
+  den destillate-Bestand als gültiges Linkziel zu berücksichtigen. Keine Datei geändert.
+- **Frontmatter** von `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` nachgeführt
+  (gelesen/verifikation/last_updated), Status bleibt `emerging` (kein Refuter-Panel).
+- Report: `outputs/2026-09-08_energie-run186.md`.
+
 ## 2026-09-07 — Run 185 (Tageslauf): 120er-, 140er-Reihe und 250.01 destilliert; Katalog-Restumfang korrigiert
 
 - **Bearbeitet:** E-R184-1 vollstaendig. Destilliert an der geltenden Fassung (Dokumentstand

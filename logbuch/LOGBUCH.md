@@ -11766,3 +11766,44 @@ nachgeführt, Cross-KB-Bringschuld im `projekt-lessons`-Quellartikel geschlossen
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 2.7 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-08 02:30 Nachtschicht Mac Mini — energie: 150.01 destilliert, Katalog-Restumfang exakt lokalisiert (210.03-210.08 offen)
+
+Prioritäten 1-3 ohne neuen Punkt: `remote-tasks/pending/` existiert nicht (alles in `done/`),
+`sync-tasks/mac-mini/` ohne offene Aufgabe; `architekten-synobsis` weiterhin auf 853/853
+gesättigt, `catalog/vectors.npz` aktuell und identisch mit dem committeten Stand (Hash-Vergleich
+NAS/SSD-Klon). Fristen-Radar nicht vertieft: der M365-Connector (MCP) meldete zu Sessionbeginn
+`CONNECTION_CLOSED`, ohne frischen Mailzugriff bringt eine Neurecherche keinen Mehrwert; die
+bereits im Register stehenden P1-Punkte (AG-Gründung-Kapitaleinzahlung, 2414-Thalwil-Frist
+12:00, Steinbrüchelstrasse-Versand) sind samt Entwürfen bereits dokumentiert und sind durchgehend
+Aktion Raphael, kein neuer Entwurf nötig. Priorität 4 (Trainingslektion): `bauprodukte` ist laut
+eigener `training/PROGRAMM.md` seit 15.08.2026 explizit als kein gültiges Ziel mehr geführt
+(Endbedingung erreicht) — das war im Standing-Prompt noch nicht nachgezogen; einziges
+verbleibendes freies Ziel damit `energie`.
+
+Fortgesetzt an Run 185 (07.09.2026): **150.01 «Innovationen zur Erreichung hoher
+Gesundheitsziele»** destilliert (S. 53/109 der geltenden Fassung, Dokumentstand 01.07.2026,
+eigener curl-Download + pdftotext, Byte-Grösse gegen die bereits zitierte Fassung geprüft) —
+wortgleiche Struktur zu 250.01, Anhang B ohne Änderungseintrag. Neue Bauherren-FAQ **F286** zu
+beiden Innovationsvorgaben.
+
+Methodische Vorsichtsmassnahme: statt die von Run 185 selbst als fehleranfällig benannte
+Restmengen-Fortschreibung zu wiederholen, wurde das vollständige Inhaltsverzeichnis (S. 2-3/109)
+gegengelesen. Ergebnis: exakt 59 Vorgaben, davon jetzt 53 destilliert; die einzige verbleibende
+Lücke ist präzise **210.03 bis 210.08** («Klimaschutz und Ressourcen», S. 60-70/109, sechs
+Vorgaben, elf Seiten) — zu gross für einen weiteren Nachtschicht-Slot in diesem Lauf, als
+E-R186-1 vorgemerkt.
+
+E-R185-4 («toter Backlink») geklärt statt behoben: `[[minergie-innenraumklima]]` zeigt korrekt
+auf ein bestehendes Destillat, das in der KB seit Run 121 durchgängig als Verweisziel dient — der
+ursprüngliche Befund prüfte nur den Ordner `wiki/`. Keine Datei musste geändert werden.
+
+`destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` (Frontmatter + neuer Abschnitt),
+`destillate/INDEX.md`, `wiki/BAUHERREN-FAQ.md`, `wiki/QUESTIONS.md`, `CHANGELOG.md` nachgeführt;
+Laufbericht `outputs/2026-09-08_energie-run186.md`.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803). M365-Connector-Ausfall
+nicht selbst behoben (Klasse Systemdienst/Credentials, Rule `interaktive-eingriffe`) — bei
+Bedarf `/mcp` bzw. Neuanmeldung interaktiv durch Raphael.
+
+Budget rund 3.7 von 5 USD. Zyklus sauber beendet.
