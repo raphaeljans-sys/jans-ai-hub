@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 08:48:07
+Stand: 08.09.2026 08:58:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:41)
@@ -12,4 +12,4 @@ Stand: 08.09.2026 08:48:07
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 0ff30c91c nas-selfcommit: 3 Datei(en) 2026-09-08 08:45
+- 2cc446f64 hub-chef 260908: Briefing gesendet (Thalwil 10:00, AG-Monitor 3. Mal im Entwurf), 7 Grundlagen Steinbruechelstrasse abgelegt (A3), 4 Befunde ins Register
