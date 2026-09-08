@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.09.2026 21:04:23
+Stand: 08.09.2026 21:14:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -13,4 +13,4 @@ Stand: 08.09.2026 21:04:23
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 9f9ac9d60 nas-selfcommit: 3 Datei(en) 2026-09-08 21:00
+- e2a15c559 methoden-radar 08.09.: Scan ohne Delta; Rotation Spec verifiziert — Befund Ereignis-Trigger misst am Dateinamen (F-TRIG1)
