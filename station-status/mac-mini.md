@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.09.2026 17:28:23
+Stand: 08.09.2026 17:38:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 17:24)
@@ -13,4 +13,4 @@ Stand: 08.09.2026 17:28:23
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- baadd6921 Synergie-Lauf 31 (08.09.): SYN-78 Byte-Riegel Facetten-Pflichtlektuere erreicht (Zeiger repariert, Riegel-Entscheid offen), SYN-79 links:-Konvention gegen 85 outputs-Altbestand, SYN-72 Status auf sechs Stellen nachgefuehrt
+- 3a6c095f7 nas-selfcommit: 2 Datei(en) 2026-09-08 17:30
