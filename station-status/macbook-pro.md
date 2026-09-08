@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.09.2026 11:12:08
+Stand: 08.09.2026 11:22:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub//claude/worktrees/fc/bayern/vfl/uhf/player/cd6da6  (letzte Aktivitaet 11:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 08.09.2026 11:12:08
 - 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- c71e2b201 nas-selfcommit: 3 Datei(en) 2026-09-08 11:00
+- 1a45837d7 nas-selfcommit: 3 Datei(en) 2026-09-08 11:15
