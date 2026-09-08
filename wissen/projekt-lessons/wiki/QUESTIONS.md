@@ -190,7 +190,7 @@ Mögliche erste Lessons, sobald Material vorliegt:
   Los-Nummern nie mit dem Präfix «BKP» schreiben, sondern als `LOS <Nr.>`. Berichtigt.
   **Die KB weiss es an anderer Stelle richtig:** der Report selbst schreibt korrekt
   `LOS_235.21 Zutrittskontrolle Gesamt`.
-- [ ] **PL46-2 — Toter Wikilink `[[koordination]]` im Frontmatter von
+- [x] **PL46-2 — Toter Wikilink `[[koordination]]` im Frontmatter von
   `outputs/2026-08-28_bestandsstandard-beschlaege-unternehmerdokumentation.md` Z. 10.** Ein Artikel
   dieses Namens existiert hub-weit nicht (`wissen/koordination/` hat keine `wiki/`-Ebene). **Bewusst
   nicht selbst entfernt** — das Entfernen eines Zeigers ist ein Löschvorgang und fällt nach Rule
@@ -199,7 +199,20 @@ Mögliche erste Lessons, sobald Material vorliegt:
   gefordert; dieselbe lockere Praxis findet sich in
   `outputs/2026-08-08_kuechenlueftung-planervorbehalt-und-nutzungseinstufung.md` Z. 10-12, wo `links:`
   zwei **Rule-Namen** führt. Entscheid der KB: Feld streichen oder Konvention für `outputs/` festlegen.
-- [ ] **PL46-3 — Tote Links in `outputs/` sind strukturell ungeprüft.** Prüfung B des Skills
+  **ERLEDIGT 08.09.2026 (Nachtschicht Mac Mini, Versuchs-Slot):** Konvention entschieden, in
+  `wissen/WISSEN-CLAUDE.md` festgehalten — `links:` gilt nur für `wiki/`-Artikel, `outputs/`-Reports
+  tragen das Feld nicht, Querverweise gehören als Fliesstext in den Body. Damit ist das
+  gestrichene Feld kein Löschvorgang an einer Wiki-Verlinkung mehr, sondern die Korrektur eines
+  Felds, das laut Schema nie dort stehen durfte — die Rückfragepflicht aus Punkt 4 greift nicht.
+  Beide betroffenen Dateien korrigiert: `[[koordination]]` ersatzlos gestrichen (kein Inhalt
+  verloren, der Schwester-Report-Verweis auf `grobkosten` stand bereits im Fliesstext), die zwei
+  Rule-Namen im Küchenlüftungs-Report als Prosasatz in den Body verschoben.
+- [x] **PL46-3 — Tote Links in `outputs/` sind strukturell ungeprüft.** Prüfung B des Skills
   `wissenscheck` (`SKILL.md` Z. 93-95) fordert, dass jeder `[[…]]`-Link auf eine existierende
   Wiki-Datei zeigt — der letzte Check auditierte laut CHANGELOG aber «alle 14 **Wiki**-Artikel».
   `outputs/` liegt ausserhalb. Beide heute gefundenen toten Zeiger lagen dort.
+  **ERLEDIGT 08.09.2026 (Nachtschicht Mac Mini, Versuchs-Slot):** kein Lückenschluss nötig,
+  sondern Klarstellung — `skills/wissenscheck/SKILL.md` Prüfung B ergänzt: Scope ist ausdrücklich
+  `wiki/`, `outputs/` wird nicht auf Backlinks geprüft, weil das Feld dort laut WISSEN-CLAUDE.md
+  gar nicht existiert. Trägt ein Report trotzdem `[[…]]`-Klammern, ist das künftig ein Fund unter
+  Audit F (Schreibregel-Verstoss), nicht Audit B.

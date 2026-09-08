@@ -7,15 +7,13 @@ sources:
   - "Gruner AG (C. Duran), 260513_Variantenuntersuchung_Gastro_Küche_cedu.pdf, 13.05.2026, Auftrags-Nr. E2600714"
   - "Gruner AG, 260709_cedu_Luftmengenberechnung_SIA.pdf, 09.07.2026, Anlage LS036; Eingabequittung 27.07.2026"
   - "Gastro-Online AG, 25-122-01.3_Installationslegende, 01.05.2026, Pos. 3.01/3.02"
-links:
-  - "[[normen-referenz]]"
-  - "[[bkp-2017-referenz]]"
 ---
 
 # Küchenlüftung: der Planervorbehalt des Küchenplaners und die Nutzungseinstufung
 
 Verallgemeinerbarer Rücklauf aus 2619 KISPI PPTS (Hub-Chef-Lauf 08.08.2026, Rule
-`wissens-ruecklauf`). Der Fall ist projektspezifisch, das Muster nicht.
+`wissens-ruecklauf`). Der Fall ist projektspezifisch, das Muster nicht. Berührt die Rules
+`normen-referenz` (Norm-Fundstellenpflicht) und `bkp-2017-referenz` (BKP-Codes).
 
 ## 1. Die Lüftungsangabe in der Geräteliste des Küchenplaners ist keine Berechnung
 

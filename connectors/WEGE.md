@@ -1033,3 +1033,25 @@ rj@raphaeljans.ch erscheinen (Programm Kontakte). Der tragende Weg, Schritt fuer
 - `m365-graph.mjs` kann nur GET, kein POST — fuer Schreibvorgaenge ungeeignet.
 - AppleScript `sources` von Contacts abfragen (`repeat with s in sources`) wirft
   «Variable nicht definiert»; die Konto-Zuordnung stattdessen ueber `Accounts4.sqlite` (oben).
+
+## Nachtrag 08.09.2026 — Kanalisationskataster Stadt Zürich: kein login-freier Weg belegt
+
+Anlass: Grundbuch WI1585 (Steinbrüchelstrasse 26/28) zeigt Abwasser-Bau- und Durchleitungsrechte
+1950/1953; die Lage der Hauptleitung war für die Volumenstudie zu prüfen.
+
+**Sackgassen, nicht erneut laufen (alle 08.09.2026):**
+- Kanton ZH OGD-WFS (`maps.zh.ch/wfs/OGDZHWFS`): keine Kanalisations-/Abwasser-Layer; die
+  Treffer `avzh_rohrleitungen_*` sind AV-Rohrleitungen (Pipelines), nicht das Kanalnetz.
+- Stadt Zürich WFS/WMS (`ogd.stadt-zuerich.ch/wfs|wms/geoportal/<Name>`): `Kanalkataster`,
+  `Kanalisation`, `Abwasser`, `Leitungskataster`, `Entwaesserung(splanung)`, `Werkleitungen`,
+  `Abwasserkataster` → alle HTTP 500 (Dienst existiert nicht).
+- Stadt Zürich CKAN (`data.stadt-zuerich.ch/api/3`): Suche kanalisation/kanalkataster/abwasser/
+  leitungskataster/kanalnetz → einziger Treffer `geo_ehgraben` (Ehgräben), kein Kanalnetz.
+- Geodaten-Katalog `stadt-zuerich.ch/geodaten` (Browser): kein Datensatz «Kanal…».
+- Seite `…/planen-und-bauen/bauen/leitungsplaene-und-kanalkataster.html`: CMS-Fehlerseite.
+
+**Wege, die bleiben:** (1) Servitutenpläne beim Grundbuchamt Hottingen-Zürich (Belege Witikon
+1950/125b und 1953/188) über die Eigentümerseite anfordern; (2) Kanalkatasterauszug bei
+Entsorgung + Recycling Zürich (ERZ) bestellen — kostenpflichtig, Zugang über die Stadt, nicht
+skriptbar; (3) im Bericht als offene Annahme ausweisen. Weitere Wege im Wiki:
+`wissen/planungsgrundlagen/wiki/kartenportale-werkleitungskataster.md`.

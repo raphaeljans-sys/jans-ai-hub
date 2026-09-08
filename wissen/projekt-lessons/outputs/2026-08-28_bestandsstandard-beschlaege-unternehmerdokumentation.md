@@ -6,8 +6,6 @@ sources:
   - Truninger DS3, Projektraum 2619 KISPI, 70 Unternehmerdokumentation, LOS_235.21 Zutrittskontrolle Gesamt, 09_Materialdeklaration
   - Truninger DS3, 70 Unternehmerdokumentation, LOS_231.10 IBN Tueren System Gesamt
   - KISPI_TFP_Master_TMatrix_Ausfuehrung_Umbau 1.OG_260824.xlsx (TeKoSi), Spalten 90 bis 102
-links:
-  - "[[koordination]]"
 ---
 
 # Befund

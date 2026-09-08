@@ -57,6 +57,13 @@ links: [[anderer-artikel]], [[noch-einer]]
 
 - `status`: `speculative` = Vermutung/unbelegt → Kandidat für Promotion zu
   `emerging`, sobald belegt; `established` = mehrfach belegt/bewährt.
+- **`links:` gilt nur für `wiki/`-Artikel und muss auf eine bestehende Wiki-Datei zeigen**
+  (Prüfung B im Skill `wissenscheck`). `outputs/`-Reports tragen dieses Feld nicht — ein
+  Querverweis auf einen anderen KB, eine Rule oder ein Thema ohne eigenen Wiki-Artikel gehört
+  als Fliesstext-Erwähnung in den Report-Body (KB-Pfad oder Rule-Name nennen, keine eckigen
+  Klammern), nicht als `[[wikilink]]` in einem `outputs/`-Frontmatter. Klargestellt
+  08.09.2026 nach zwei toten `links:`-Zeigern in `wissen/projekt-lessons/outputs/`
+  (`wiki/QUESTIONS.md` PL46-2/PL46-3).
 - Backlinks `[[artikel-name]]` zeigen auf den Dateinamen (ohne `.md`) eines
   anderen Wiki-Artikels.
 

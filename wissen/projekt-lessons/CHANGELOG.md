@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 
+## 2026-09-08 — Nachtschicht Mac Mini (Versuchs-Slot): PL46-2/PL46-3 geschlossen, `links:`-Konvention für `outputs/` geklärt
+
+Beide seit dem Wissens-Chef-Lauf 46 (28.08.2026) offenen Punkte zu toten `outputs/`-Wikilinks
+geschlossen. Kein neuer Trainingslauf möglich (`projekt-lessons` ist von Prioritaet-4-Zielen der
+Nachtschicht ausgeschlossen, sobald ein KB-eigener Taktgeber greift; hier lag stattdessen ein
+kleiner, bereits diagnostizierter QUESTIONS-Punkt bereit) — daher dieser gezielte Fix statt einer
+neuen Wissenslücken-Recherche. Entscheid: `links:` ist laut `wissen/WISSEN-CLAUDE.md` ein Feld
+für `wiki/`-Artikel, nicht für `outputs/`-Reports; dort gehören Querverweise als Fliesstext in den
+Body. Umgesetzt: (1) `wissen/WISSEN-CLAUDE.md` um die Klarstellung ergänzt; (2)
+`skills/wissenscheck/SKILL.md` Prüfung B scopet jetzt ausdrücklich auf `wiki/`; (3) die zwei
+betroffenen Reports korrigiert — `outputs/2026-08-28_bestandsstandard-beschlaege-
+unternehmerdokumentation.md` verlor den toten Zeiger `[[koordination]]` (Inhalt nicht verloren,
+der Schwester-Report-Verweis auf `grobkosten` steht bereits im Fliesstext),
+`outputs/2026-08-08_kuechenlueftung-planervorbehalt-und-nutzungseinstufung.md` bekam die beiden
+Rule-Namen (`normen-referenz`, `bkp-2017-referenz`) als Satz im Body statt als `links:`-Feld.
+Keine Wiki-Verlinkung angefasst, keine Rückfrage nach Rule `wissens-bibliothekar` Punkt 4 nötig —
+die Felder standen laut Schema nie in `outputs/`.
+
 ## 2026-09-07 — Nachtschicht Mac Mini: Cross-KB-Bringschuld an `bauprodukte` geschlossen
 
 `kispi-lbw-rohdichte-800.md`, Abschnitt «Abnehmer in anderen KBs»: Der dort seit

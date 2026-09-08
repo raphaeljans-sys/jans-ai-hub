@@ -90,9 +90,14 @@ direkte Widersprueche und ungeloeste Spannungen. Zaehlt als Widerspruch, wenn be
 Aussage zur selben Frage machen, in entgegengesetzte Richtung zeigen, und keiner den
 anderen anerkennt. Bereits in QUESTIONS.md notierte Spannungen separat fuehren (geloest seit letztem Mal? neue dazugekommen?).
 
-**B. Kaputte Backlinks & Orphans.** Jeder `[[artikel-name]]`-Link muss auf eine
+**B. Kaputte Backlinks & Orphans.** Scope: `wiki/`-Artikel (das `links:`-Feld ist gemaess
+`wissen/WISSEN-CLAUDE.md` nur dort definiert). Jeder `[[artikel-name]]`-Link muss auf eine
 existierende Wiki-Datei zeigen — jeden toten Link mit Fundort listen. Zusaetzlich:
 Artikel, auf die niemand verlinkt (Orphans), und Artikel, die nicht im INDEX.md stehen.
+`outputs/`-Reports werden hier NICHT geprueft — sie tragen kein `links:`-Feld (siehe
+WISSEN-CLAUDE.md); traegt ein Report trotzdem eckige Klammern, ist das ein Schreibregel-
+Verstoss für Audit F, kein Audit-B-Fund. Klargestellt 08.09.2026, Anlass
+`wissen/projekt-lessons/wiki/QUESTIONS.md` PL46-3.
 
 **C. Unbelegte Claims.** Bis zu drei zentrale Aussagen pro Artikel pruefen, ob sie eine
 Quelle in `sources` haben (Vollpruefung jedes Claims ist monatlich zu teuer). Im Baurecht

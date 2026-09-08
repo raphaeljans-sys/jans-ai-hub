@@ -1,15 +1,16 @@
 # Stations-Status: mac-mini
 
-Stand: 08.09.2026 13:21:34
+Stand: 08.09.2026 13:31:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:02)
 
 ## Laufende Arbeits-Prozesse
-- keine
+- ssh raphaeljans@192.168.1.210 /Applications/Maxon\ Cinema\ 4D\ 2026/c4dpy.app/Contents/MacOS/c4dpy /Volumes/daten/jans
+- /Applications/Maxon Cinema 4D 2026/c4dpy.app/Contents/MacOS/c4dpy /Volumes/daten/jans-ai-hub/skills/volumenstudie/tool
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 765443031 nas-selfcommit: 2 Datei(en) 2026-09-08 13:15
+- 366d9fe09 nas-selfcommit: 4 Datei(en) 2026-09-08 13:30
