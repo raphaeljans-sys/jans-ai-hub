@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.09.2026 21:29:30
+Stand: 09.09.2026 21:39:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 21:29:30
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 311c98faf nas-selfcommit: 3 Datei(en) 2026-09-09 21:15
+- e397d8950 WEGE: IPTV-EPG-Abfrage je Sender (iptv-epg.py), Beleg Liverpool-Atletico auf DAZN 1 HD
