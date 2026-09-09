@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.09.2026 09:08:52
+Stand: 09.09.2026 09:29:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:02)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:17)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 09:08:52
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 642962ed5 hub-chef 09.09.2026: Vermerk zum twin-Gate ergaenzt
+- 2e04a8879 nas-selfcommit: 3 Datei(en) 2026-09-09 09:15

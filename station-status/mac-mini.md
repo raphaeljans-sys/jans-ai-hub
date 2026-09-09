@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 09.09.2026 09:14:33
+Stand: 09.09.2026 09:24:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:52)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 09:14:33
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 642962ed5 hub-chef 09.09.2026: Vermerk zum twin-Gate ergaenzt
+- 2e04a8879 nas-selfcommit: 3 Datei(en) 2026-09-09 09:15
