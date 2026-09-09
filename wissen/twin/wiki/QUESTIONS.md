@@ -5994,3 +5994,62 @@ eiligen Baustellenmail **weniger** glaetten (Satzbau stehen lassen, nur echte Si
 korrigieren), damit sie nicht wie ein Brief klingt?
 *Warum:* Der zweite Gold-gegen-Zwilling-Vergleich in Folge zeigt dieselbe Richtung: der
 Zwilling ist korrekter, kuerzer und glatter als Du — und genau daran erkennbar.
+
+## 260909b — aus dem Fidelity-Review (Messung am Massstab statt am Gold)
+
+**#1 [Arbeitsweise] Die Nachmeldung: haeltst Du den Kanal, oder gibst Du ihn ab?**
+Das Gehirn hat Dir bisher unbedingt vorgeschrieben, bei laufenden Verfahren Nachmeldung
+zuzusagen. Dein Originalbeleg (01.12.2025, Bauentscheid an die Privatbauherrin) sagt aber
+etwas Engeres: «**Falls** Rueckfragen seitens der Behoerden eingehen, melde ich mich
+unverzueglich» — die Behoerde meldet sich bei Dir, nicht bei ihr, Du hast den Kanal. Wo ein
+Dritter direkt an den Empfaenger liefert, gibst Du den Kanal ab und nennst den Dritten
+(«Fabian Simmen hat mir versprochen, dass er **Dich, Albin,** heute kontaktiert»).
+*Konkret:* Ist das die richtige Trennlinie — **Zusage nur, wenn die Information zuerst bei Dir
+ankommt**? Oder sagst Du auch dann nach, wenn Du selbst nur mitwartest?
+*Warum:* Das ist die stabilste Drift des Harness, zehnmal gemessen, zuletzt zweimal im
+**wortgleichen** Satz. Der Grund war bis heute unbekannt: das Gehirn hat sie angewiesen. Die
+Zeile ist jetzt konditional gefasst — Deine Antwort sagt, ob die Bedingung stimmt.
+
+**#2 [Stimme] Fragezeichen — trennt es wirklich Vorwurf von Sache?**
+Im Block stand bisher absolut: die Bitte endet auf einem Punkt, nie auf einem Fragezeichen.
+Belegt sind aber drei Fragezeichen: die Mangel-Vorlage («Sehe ich das Richtig: … Angeboten?»),
+die Alternativfrage an die Behoerde, und in derselben Behoerdenmail zwei Zeilen auseinander
+«warum ich noch keine Bestaetigung erhalten habe**.**» gegen «Muss ich da direkt vor Ort
+abholen kommen**?**».
+*Konkret:* Nimmst Du dem **Vorwurf** bewusst das Fragezeichen (weil es sonst nach Anklage
+klingt) und laesst es der echten Sachfrage? Oder ist das Zufall der Tippgeschwindigkeit?
+*Warum:* Ist es Absicht, ist es ein feines Ausdrucksmittel, das der Zwilling heute
+wegkorrigiert. Ist es Zufall, gehoert die absolute Regel zurueck.
+
+**#3 [Methodik] 35 ungepruefte Einschraenkungen — welche zuerst?**
+Gemessen: die sechs Facetten-Artikel enthalten **38** dokumentierte Einschraenkungen
+(«Vorrang vor …», «nicht ausnahmslos», «gilt nicht fuer …»), das kompilierte Gehirn genau
+**eine**. Drei davon sind heute nachgezogen; 35 sind ungeprueft. Jede Pruefung kostet Bytes,
+und die Reserve betraegt 41 B.
+*Konkret:* Soll der naechste Lauf die restlichen 35 systematisch durchgehen (Aufwand: ein
+ganzer Lauf, Ertrag: vermutlich weitere Driftursachen), oder erst dann, wenn eine Drift
+konkret auffaellt?
+*Warum:* Es ist die Frage, ob wir die Ursache **suchen** oder auf den naechsten Symptomfall
+warten. Beides ist vertretbar; der Byte-Riegel macht es zu einer Kostenfrage.
+
+**#4 [Methodik] Byte-Grenze 36'000 — jetzt mit einem anderen Argument (fuenfter Lauf in Folge).**
+Die Empfehlung stand bisher auf «die Verdichtungsreserve ist aufgebraucht». Dieser Lauf hat
+einen inhaltlichen Grund gefunden: `build_dna.py` kompiliert **nur** den Do/Don't-Block, und
+unter Byte-Druck wandert die **Bedingung** in den Artikel-Fliesstext, waehrend der
+**Imperativ** im Block bleibt — weil eine Bedingung mehr Zeichen braucht. Der Riegel selektiert
+also systematisch fuer unbedingte Regeln, und genau daraus entsteht Drift.
+*Konkret:* Grenze auf 36'000 B (Ladekosten je Texterzeugnis, kein @-Import, seit 03.08.)?
+*Warum:* Solange die Grenze haelt, muss jeder Lauf beim Nachziehen einer Bedingung anderswo
+eine wegkuerzen. Heute war das noch schmerzfrei (nur Historie), beim naechsten Mal nicht mehr.
+
+**#5 [Arbeitsweise] Die nulltextige Sendung ist gezaehlt — darf der Zwilling sie schreiben?**
+Ergaenzung zu den offenen Fragen 260908 #5 und 260908b (dort ohne Zahlen gestellt). Gemessen
+ueber 100 Deiner Sendungen (01.–18.08.2026, Basis 65 nach Abzug der Systempost): **7.7 %
+Nulltext, 13.8 % hoechstens 15 Woerter, zusammen 21.5 %**; ueber 200 Woerter nur 4.6 %.
+*Konkret:* Darf der Zwilling Dir eine Weiterleitung **ohne ein einziges eigenes Wort**
+vorlegen, wenn der Thread die Botschaft traegt? Und die Anhangsmail mit genau einem Satz?
+Oder willst Du in dem Moment, in dem **Claude** schreibt, immer einen Satz sehen, den Du
+streichen kannst?
+*Warum:* Der Zwilling laengt diese Gattung reflexhaft auf 60+ Woerter auf. Wenn A und B
+zulaessige Zielformen sind, ist das die billigste Fidelity-Verbesserung, die der Harness
+kennt — sie kostet keine Byte im Gehirn, nur die Erlaubnis.

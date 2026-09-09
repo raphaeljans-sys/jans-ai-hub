@@ -450,8 +450,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   **Wärmestufe innerhalb** des Registers (Sie/Nachname bzw. Vorname bleiben). Der belegte Opener
   gilt **innerhalb** des Vorgangs, nicht über Wochen: eine Anrede braucht den Beleg UND sein
   Datum. **Sie haftet am VORGANG, nicht an der Person (260826):** derselbe Betrieb, elf Tage,
-  gewechselter Ansprechpartner — «Sehr geehrter Herr <A>» → «Geschätzte Frau <B>». Wer nur statische Auslöser prüft, irrt beidseitig — 260822 dreimal zu hoch, 260823
-  zweimal zu tief. **«werter <Vorname>» steht dabei auch im Du** («Geschätzter Othmar, werter
+  gewechselter Ansprechpartner — «Sehr geehrter Herr <A>» → «Geschätzte Frau <B>». **«werter <Vorname>» steht dabei auch im Du** («Geschätzter Othmar, werter
   Michael», zwei Wärmestufen, eine Zeile, **ohne Schlusskomma**): reine Abstufung, kein Sie-Marker.
 - **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** nur der
   Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt

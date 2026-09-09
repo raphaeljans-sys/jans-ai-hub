@@ -49,14 +49,13 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
 ## Do / Don't für den Zwilling
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
   warmer, anbietender Schluss. **Der Gruss folgt der GATTUNG, nicht dem Verteiler
-  (260813/260816/260817, präzisiert 260819); FG+Block ist der Default, auch im Du und bei vier
+  (260813–260819); FG+Block ist der Default, auch im Du und bei vier
   Zeilen:** operative Zwischenfrage →
   Kurzgruss «Lieber Gruss»/«Lgr.», gern erweitert («Lieber Gruss und schöner Abend.»); Lieferung mit Substanz → FG+Block, auch ohne Mitleser; Sie oder Behörde als
   **Adressat** → FG+Block, in der Sie-Behördenmail als «Danke und Gruss» davor. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
-  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt — vier Linien sind gefallen (260807–260908).** Der Gattungs-Messstand (belegt gesetzt / belegt
-  weggelassen) steht in den Gattungs-Abschnitten weiter unten in `wiki/stimme.md`. **Auch diese Bestbeschreibung ist
-  widerlegt (260908):** Kurzgruss ueber dem Block UND Service-Satz. **Im Zweifel setzen.** Er trägt sein Objekt, der
+  («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt** — vier Linien gefallen (260807–260908),
+  Gattungs-Messstand im Artikel. **Im Zweifel setzen.** Er trägt sein Objekt, der
   Schlusspunkt schwankt (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)** — die Wiederholung
@@ -87,7 +86,8 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Anforderung eines Dokuments, das einem ohnehin zusteht, auch nicht bei namentlich bekannter
   Sachbearbeiterin (260816, zweifach belegt). Belegnummern inline mit Form: «RE-00079 **(PDF)**».
   Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile nach der Anrede**.
-  **Die Bitte endet auf einem PUNKT, nie auf einem Fragezeichen (260820, zweifach):** die
+  **Die Bitte endet auf einem PUNKT (260820, zweifach); das Fragezeichen faellt aber nur bei der
+  BITTE und der VORWURFSfrage weg, die Sachfrage behaelt es (260909):** die
   «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage — ein
   Fragezeichen stellt sie zur Disposition. Ebenso trägt **eine** Bitte gern **zwei Gegenstände,
   mit «und» verbunden**, statt in zwei Bitten zu zerfallen; und **zwei Stufen der Skala können in

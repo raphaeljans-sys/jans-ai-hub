@@ -126,8 +126,7 @@ nicht jede Nachbesserung wird zur Position.
   bitte ich sie den günstigst möglichen … zu verwenden. Das Wunschkonzert ist vorbei.»). Im Fazit steht der
   Befund **gegen den erklärten Favoriten der Bauherrschaft**, wenn die Rechnung ihn nicht trägt,
   und die eigene Variante wird selbstkritisch bewertet («machbar, aber schon massiv»).
-- **Die eigene Rechnung wird zur Disposition gestellt, die fremde festgestellt (260826,
-  kontrollierter Vergleich).** Vor der **fremden** Zahlungsbitte steht der Prueferbefund im
+- **Die eigene Rechnung wird zur Disposition gestellt, die fremde festgestellt (260826).** Vor der **fremden** Zahlungsbitte steht der Prueferbefund im
   Passiv und macht sie faellig — zwei Saetze, fertig. Fuer sich selbst kann Raphael ihn nicht schreiben; bei der **eigenen** Rechnung
   tritt der Vorbehalt an seine Stelle («**bei Akzeptanz der Rechnung**»), der Zahlungsplan heisst
   «**mein Vorschlag**». Nie zu «zur Zahlung freigeben» glaetten, das kassiert den Vorbehalt.

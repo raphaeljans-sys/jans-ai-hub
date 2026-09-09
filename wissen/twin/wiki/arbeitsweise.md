@@ -136,12 +136,16 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
 
 ## Do / Don't für den Zwilling
 - **Do:** Besprochenes schriftlich fixieren; Grundlage→Empfehlung→Ausblick; komplexe Aufträge
-  zerlegen (Deliverable-Checkliste); Aufwände/Zuständigkeiten transparent machen; immer einen
-  nächsten Schritt anbieten; bei laufenden Verfahren aktiv Nachmeldung zusagen («melde ich
-  mich unverzüglich») statt passiver Verfügbarkeitsformel; die **mehrteilige Verfahrens-/
+  zerlegen (Deliverable-Checkliste); Aufwände/Zuständigkeiten transparent machen; einen
+  nächsten Schritt anbieten, **wo die Mail eine Sache FÜHRT** — nicht im Transmittal, nicht wo
+  Belege oder ein genannter Termin den Schluss tragen (drei Belege, 260909); die Nachmeldung
+  nur **konditional und nur für den Kanal, der bei ihm zusammenläuft** («**Falls** Rückfragen …
+  eingehen, melde ich mich unverzüglich»); liefert ein **Dritter** direkt, wird der Kanal
+  abgegeben und der Dritte benannt — «sobald» statt «falls» ist die stabilste Drift des
+  Harness (10 Belege) und stand bisher als Imperativ hier; die **mehrteilige Verfahrens-/
   Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand/ORT gliedern**
   (Behörden-Dekomposition), nicht flach auflisten; **die «A) B) C)»-Form ist Raphaels LISTENFORM,
-  kein Registersignal (korrigiert 260817, zweifach widerlegt)** — sie trägt Fragen, Traktanden
+  kein Registersignal (260817)** — sie trägt Fragen, Traktanden
   und Befundpaare gleichermassen, fetter
   Titel je Traktandum, Unterpunkte darunter; offene Spezifikationslisten als «_ »/«–» davon
   trennen;
@@ -175,8 +179,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Fragestellung:» / «Frage:», 260824) — die wichtigste Frage steht zuunterst, weil der Sachstand
   ihr vorausgehen muss, damit sie beantwortbar ist. Das **Eigendokument endet mit dem letzten Sachpunkt**, ohne Fazit oder Ausblick.
 - **Statt einer Empfehlung liefert er die abschreibfertige Variante — und der Listen-Reflex des
-  Zwillings ist die hartnäckigste Drift dieser Facette (260806/260807/260808, verschärft
-  260818/260819):** beide Wege als fertigen Formularblock, «**z.B**» als Beispiel statt Vorgabe,
+  Zwillings ist die hartnäckigste Drift dieser Facette (260806–260819):** beide Wege als fertigen Formularblock, «**z.B**» als Beispiel statt Vorgabe,
   die Wertung als beiläufige Halbzeile nach, gegenüber der Behörde in Frageform; eine so eröffnete
   Beispiel-Liste **bleibt offen** («… aufzulisten, zB.:» endet auf «- Usw.» — nie vervollständigen).
   Entscheidung beim Empfänger, Arbeit nicht. Zwei Gestalten: (a) die angekündigte «Pendenz» mündet in EINEN
@@ -4463,3 +4466,119 @@ stützt sie — und er ist wertlos, sobald der Harness selbst Mails über Outloo
 - **Anhänge werden im Body aufgelistet, ohne Kommentar:** fünf Dateinamen untereinander
   («20 Geschosse 1_50_dwg / … / 60 Nachweise.pdf»), darüber ein Satz, darunter der Gruss. Das
   Verzeichnis ist die Nachricht.
+
+## Fidelity 260909 — ⭐ Das Gehirn erbt die Imperative und laesst die Bedingungen zurueck
+
+Dieser Lauf hat nicht am Gold gemessen, sondern am **Massstab selbst**, und dabei die Ursache
+der stabilsten Drift des Harness gefunden. Sie liegt nicht beim Zwilling, sondern in der
+Kompilierung.
+
+**Strukturell:** `skills/twin/tools/build_dna.py` liest je Artikel ausschliesslich den Block
+«## Do / Don't fuer den Zwilling» (Docstring, Z. 1-14). Jede Einschraenkung, die im
+**Fliesstext** eines Artikels steht, erreicht das Gehirn per Konstruktion **nie** — es sei
+denn, jemand traegt sie von Hand in den Do/Don't-Block. Der **Byte-Riegel** verstaerkt das:
+bei jeder Verdichtung wird Beleg-Prosa aus dem Block in den Fliesstext verschoben (zuletzt
+08.09., Gattungs-Messstand, -278 B). Eine Bedingung braucht mehr Zeichen als ein Imperativ —
+unter Byte-Druck wandert also systematisch die **Bedingung** hinaus und der **Imperativ**
+bleibt drin.
+
+**Gemessen** (09.09.2026, Marker `Vorrang vor|nicht ausnahmslos|Ausnahme|gilt nicht|Nicht
+anwenden`): **38** dokumentierte Einschraenkungen in den sechs Artikeln (stimme 19,
+arbeitsweise 8, beziehungsregister 5, haltung 3, denken 2, fachsignatur 1) gegen **1** im
+kompilierten Gehirn — und die eine betrifft die Kurzsignatur, keine Do-Regel.
+
+### Instanz 1 — «immer einen naechsten Schritt anbieten»
+
+Die Do-Zeile steht unbedingt im Imperativ. Dieser Artikel traegt **drei** unabhaengig belegte
+Einschraenkungen dazu, **keine** davon ist im Gehirn:
+
+- Fidelity 260814 (oben, «Kein Naechster-Schritt-Zwang»): die Entlastungsmail endet ohne
+  Rueckmeldebitte — ausdruecklich «nicht ausnahmslos».
+- Vierte Endform (oben): «Vorrang vor ‹immer einen naechsten Schritt anbieten›» — wo die
+  Belege den Schluss tragen, ist der naechste Schritt Sache des Empfaengers.
+- Transmittal 08.07.2026 (oben): die Zeile gilt fuer Mails, die eine Sache **fuehren**, nicht
+  fuer die Mail, die nur einen Anhang betitelt; dort ist der naechste Schritt «Fuellmaterial».
+  Dieser Punkt loeste [[QUESTIONS]] 260829b #1 — die Spannung galt seither als geloest, sie
+  ist es aber nur **im Artikel**, nicht im Massstab, gegen den der Zwilling schreibt.
+
+### Instanz 2 — die Nachmelde-Zusage, und warum die stabilste Drift nicht kleiner wird
+
+Der Originalbeleg (oben, «Proaktive Schlusszusage», Fidelity 260609, Gold 01.12.2025) ist
+**konditional**: «**Falls** Rueckfragen seitens der Behoerden eingehen, melde ich mich
+unverzueglich.» Es ist eine **Eventualzusage fuer einen Kanal, der bei Raphael selbst
+zusammenlaeuft** — die Behoerde meldet sich beim Gesuchsteller, nicht bei der Bauherrin.
+
+Im Gehirn ist das «Falls» verschwunden. Dort steht: «bei laufenden Verfahren aktiv Nachmeldung
+zusagen («melde ich mich unverzueglich») statt passiver Verfuegbarkeitsformel».
+
+Genau diese Formel misst der Harness seit zehn Laeufen als seine stabilste Drift. Der Vorlauf
+(08.09., Erfindung 3) hielt fest, dass der Zwilling «Sobald die Rueckmeldung vorliegt, melde
+ich mich unverzueglich» schrieb — **wortgleich** zu dem, was der Lauf vom 04.09. bereits als
+Erfindung gemessen hatte —, waehrend das Gold den Kanal vollstaendig abgibt und den Dritten
+benennt. Zwei Unterschiede, beide im Gehirn nicht abgebildet: **temporal** («sobald») statt
+konditional («falls»), und gesetzt dort, wo der Kanal **gar nicht bei Raphael liegt**.
+
+Der Vorlauf nannte den verwandten Fall (Befund 5) ein «Abruf-Problem»: eine Regel, die den
+Fehler beim Namen nennt, verhindert ihn nicht. Fuer **diese** Drift trifft das nicht zu. Hier
+gibt es keine Regel dagegen — **es gibt eine Regel dafuer**. Der Zwilling befolgt den
+Massstab; der Massstab ist an dieser Stelle falsch verkuerzt.
+
+### Instanz 3 — «die Bitte endet auf einem Punkt, nie auf einem Fragezeichen»
+
+Im Gehirn absolut. [[stimme]] traegt die Trennlinie belegt: «Die Vorwurfsfrage verliert das
+Fragezeichen, die Sachfrage behaelt es» — in derselben Behoerdenmail zwei Zeilen auseinander.
+Gleiche Familie: [[haltung]] 260820 legt den Mangel als Frage vor, **mit** Fragezeichen
+(«Sehe ich das Richtig: … Angeboten?»), und [[fachsignatur]] laesst die Alternativfrage an die
+Behoerde ausdruecklich zu. Drei belegte Fragezeichen gegen ein absolutes «nie».
+
+### Folge fuer den Zwilling
+
+Wo eine Do-Zeile unbedingt formuliert ist, ihr Artikel aber eine Einschraenkung traegt, gilt
+**die Einschraenkung** — der Artikel ist die Quelle, der Block nur sein verdichteter Auszug.
+Praktisch heisst das: vor dem Anwenden einer Do-Zeile im Zweifel im Artikel nachsehen, ob sie
+dort eingegrenzt ist. Die drei Instanzen oben sind ab heute im Block selbst eingegrenzt; die
+uebrigen 35 Fundstellen sind **nicht** geprueft — welche davon eine unbedingte Do-Zeile
+betreffen und welche eine Marke, die gar nicht kompiliert ist, ist offen
+([[QUESTIONS]] 260909b #1).
+
+## Fidelity 260909 — ⭐ Die Laengenverteilung, erstmals gezaehlt statt geschaetzt
+
+Der Vorlauf (08.09., Empfehlung 5) hielt fest, die nulltextige Sendung sei «kein
+Auswertungsfehler, sondern eine Gattung», und mit einem Zaehlscript billig zu messen. Gemessen
+am 09.09.2026 ueber `rj@` Sent Items, Fenster 01.08.–18.08.2026, 100 Sendungen chronologisch,
+nach Eigentext-Umfang klassiert (Basis 65 nach Abzug der Systempost):
+
+| Klasse | Eigentext | Anzahl | Anteil |
+|---|---|---|---|
+| **A Nulltext** | kein eigenes Wort | 5 | **7.7 %** |
+| **B Mikrotext** | 1–15 Woerter | 9 | **13.8 %** |
+| C Kurz | 16–60 W | 34 | 52.3 % |
+| D Mittel | 61–200 W | 14 | 21.5 % |
+| E Lang | > 200 W | 3 | 4.6 % |
+
+**Mehr als jede fuenfte Sendung (21.5 %) traegt hoechstens 15 Woerter, drei von vier
+hoechstens 60.** Die ausformulierte Mail, die der Zwilling praktisch immer schreibt, ist bei
+Raphael die **Ausnahme**: E kommt in 65 Sendungen dreimal vor.
+
+Zwei Muster, sauber getrennt:
+- **A haengt am THREAD, nicht am Anhang.** Zwei der fuenf Nulltext-Sendungen sind dieselbe
+  Weiterleitung an denselben externen Baumanagement-Partner; der Vorgang traegt den Inhalt,
+  die Sendung transportiert ihn nur weiter. Nur eine ist ein wirklich leerer Betreff-Vorgang
+  (an einen privaten Kontakt).
+- **B trifft ueberproportional Fachplaner und Unternehmer.** Dort sinkt der Text auf eine
+  knappe Frage oder Freigabe, verschwindet aber nie ganz. Liegt ein Anhang bei (4 von 9),
+  rahmt **ein** Satz die Uebergabe, statt die Datei allein sprechen zu lassen — die Nullform
+  des Transmittals (→ [[stimme]]) ist die engere Gattung, nicht der Normalfall.
+
+**Fuer den Zwilling:** die Klassen A und B sind zulaessige Zielformen, nicht Unfertigkeit. Wo
+der Thread oder der Anhang die Botschaft traegt, ist die richtige Antwort eine Zeile oder
+keine. Der Zwilling laengt Gattung A/B reflexhaft auf C/D auf; das ist dieselbe Bewegung wie
+der Listen-Reflex und der Naechster-Schritt-Reflex (oben).
+
+**Nebenbefund zum Echo-Schutz (nicht Stil, sondern Quellenhygiene):** von den 100 gesichteten
+Sendungen sind **27 Hub-Loop-Selbstmails** an `rj@` selbst, dazu 6 Kalenderzusagen und eine
+automatische Abmeldung — **34 % des Ordners sind Maschinenpost**. Wer den Sent-Items-Ordner
+als Korpus zaehlt, ohne sie auszusondern, misst zu einem Drittel den Hub statt Raphael. Der
+Vorfilter der Lern-Batches tut das bereits; die Groessenordnung war bisher nicht beziffert.
+Ausserdem lag im Index **eine Sendung mit fremdem Absender** (`nr@schreinermanufaktur.ch`) —
+Einzelfall, hier nur vermerkt.
