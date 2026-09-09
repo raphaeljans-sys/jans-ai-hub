@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 09.09.2026 08:43:42
+Stand: 09.09.2026 08:53:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:52)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 08:43:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 90900832b zahlungsabgleich-check 09.09.2026: Registernachtrag auf echte Umlaute korrigiert
+- 934102e83 nas-selfcommit: 3 Datei(en) 2026-09-09 08:45

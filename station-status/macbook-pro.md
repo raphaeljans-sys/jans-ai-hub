@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.09.2026 08:38:01
+Stand: 09.09.2026 08:58:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:26)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:29)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 08:38:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 90900832b zahlungsabgleich-check 09.09.2026: Registernachtrag auf echte Umlaute korrigiert
+- 934102e83 nas-selfcommit: 3 Datei(en) 2026-09-09 08:45
