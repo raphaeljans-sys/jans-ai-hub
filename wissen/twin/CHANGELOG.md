@@ -4,6 +4,34 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-09 (twin-mail-training Batch 117) — Eskalationsmechanik eines Nachmittags
+
+`rj@` Sent Items **07.09.2026 16:20 bis 08.09.2026 16:57**, 16 Treffer beider Seiten, 5 Volltexte,
+7 Vorschauen, 4 gesperrt (1 Dublette Batch 116, 1 Selbstmail `claude-aera`, 1 Kalenderzusage,
+1 betrefflose Anhangmail). Gewichtung 11 `authentisch` / 1 `claude-aera` (nur Kontrolle).
+
+- **Neue Marker in allen sechs Facetten**, dazu `QUESTIONS` 260909 #1-#5 und das Detailregister
+  `raw/260909-mailbatch-117.md`.
+- **Erstbelege:** Schriftgrad (20 pt fett) als Eskalationsmittel im Fliesstext · Register-Abstieg
+  unter Druck innerhalb eines Threads (Geschaetzter → Guten Tag → Geschaetzter in 2.5 h) ·
+  dreistufige Nachfass-Kaskade als geschlossenes Verfahren · dreifaches Ausrufezeichen als
+  Pruefbefehl im Sie-Register.
+- **Lueckenschluss:** das **AfB** (Amt fuer Baubewilligungen Stadt Zuerich) hat als letzte offene
+  Behoerdenstelle jetzt einen eigenen Volltext — Stufe «Geschaetzter Herr <Nachname>», einheitlich
+  mit den drei uebrigen Behoerdenkontakten.
+- **Zweiter Gold-gegen-Zwilling-Vergleich in Folge, gleiche Richtung:** Satzlaenge 16.8 gegen
+  9.4 W, Fehlerdichte 2.3 gegen 0 je 100 W. Der Befund aus Batch 116 ist damit ueber zwei Fenster
+  stabil: der Zwilling ist korrekter, kuerzer und glatter als das Original — und daran erkennbar.
+- ⚠ **Korrektur am eigenen Vorfilter:** die `internetMessageId` trennt die Geraete **nicht**
+  (drei Mails auf `@raphaeljans.ch`, nur eine davon aus dem Claude-Weg). Entscheidend ist allein
+  die HTML-Klasse. Der in Batch 116 notierte zweistufige Standard bleibt, seine erste Stufe wird
+  auf «Kanal-Hinweis» zurueckgestuft.
+- **Offen und vorgelegt (`QUESTIONS` 260909 #4):** der Steinbruechel-Zwischenstand vom 08.09. ist
+  als `claude-aera` gesperrt, koennte aber Raphaels **gekuerzte** Fassung sein (seine Rueckmeldung
+  «viel zu viel» desselben Tages steht in `rules/auto-verbesserungen` 260908). Waere er
+  `korrektur-delta`, ist er das wertvollste Einzelstueck des Fensters.
+
+
 ## 2026-09-08 (twin-fidelity-review) — der Korpus ist abgeerntet, der Test misst Wiedergabe
 
 Golds `rj@` Sent 04.02.2026 17:08 (Themenblock-Statusmail ans KISPI-Projektteam, Du) und

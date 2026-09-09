@@ -2733,3 +2733,65 @@ Fenster der `twin-fidelity-review` zuletzt verbraucht hat. (5) **Vorfilter-Stand
 Trennung neu **zweistufig** — `internetMessageId` für den Kanal, die HTML-Klassen `ms-outlook-mobile-*`
 bzw. `Apple-Mail-URLShareWrapperClass` für den Weg; der `_ `-Bullet zählt weiterhin **nicht**.
 (6) **AfB** bleibt die letzte offene Behördenstelle ohne eigenen Volltext.
+
+## Batch 117 (09.09.2026) — `rj@` Sent Items 07.09. 16:20 bis 08.09. 16:57 · **Eskalationsmechanik eines Nachmittags**
+
+**Quelle:** `outlook_email_search`, `folderName: Sent Items`, `order: oldest`,
+`afterDateTime: 2026-09-07T14:20:00Z` · 16 Treffer, `totalResultCount: 16`, zwei Seiten
+(offset 0-14, dann offset 15) · Volltext 5, Vorschau 7 · **Gewichtung:** 11 `authentisch`,
+1 `claude-aera` (als Kontrolle gemessen, nicht als Stilquelle gelernt), 4 gesperrt ·
+**eingearbeitet:** ja ([[stimme]], [[denken]], [[haltung]], [[beziehungsregister]],
+[[fachsignatur]], [[arbeitsweise]], [[QUESTIONS]] 260909 #1-#5) ·
+Detailregister: `raw/260909-mailbatch-117.md`
+
+**Abgedeckt:** `Sent Items` **07.09.2026 16:20 bis 08.09.2026 16:57** (Ortszeit), alle 16 Treffer
+beider Seiten. Der Vorwaertsfaden bleibt ohne Luecke. Das Fenster deckt einen einzigen vollen
+Arbeitstag; am 07.09. lief nach 16:20 nichts mehr.
+
+**Vorfilter (gratis, vor dem ersten `read_resource`):** 1 **Dublette aus Batch 116** (Levi-Link
+07.09. 16:20) — **sechster Lauf in Folge**, in dem der Vorabgleich gegen das Register eine
+Doppel-Destillation verhindert hat; 1 Selbstmail `claude-aera` (Hub-Chef-Briefing 08:48);
+1 Kalenderzusage ohne Body (10:29); 1 betrefflose Anhangmail ohne Text (14:27). Der
+`twin-fidelity-review` 260908 hat Februar-Material (04.02. und 06.02.2026) verbraucht, also
+keine Kollision.
+
+**Verbraucht — nicht erneut destillieren:** wortlose Weiterleitung Prinzipplaene 07:01 ·
+Terminzusage «Guten Morgen / Lgr» 07:07 · Delegation «Jens, kannst Du …» im Behoerdenthread
+08:21 · Freigabe Innere Verglasungen 09:20 · Planstand Bohlweg mit Anhangverzeichnis 10:18 ·
+AfB-Anfrage Baustart 11:30 · Steinbruechel-Zwischenstand 13:51 (`claude-aera`, **nur
+Kontrolle**) · Bajrami-Kaskade 14:26 / 14:39 / 16:51 · Rechnungsfreigabe «Hoi Albin» 15:22 ·
+Weiterleitung Lieferantenrechnung 16:57.
+
+**Kernbefunde:** (1) ⭐ **Schriftgrad als Eskalationsmittel** (Erstbeleg) — ein Satz in 20 pt fett
+im 12-pt-Body, Wortlaut sachlich. (2) ⭐ **Register-ABSTIEG unter Druck** im selben Thread
+(Geschaetzter → Guten Tag → Geschaetzter in 2.5 h): die Rule `anrede-kontakte` kennt bisher nur
+die Bewegung nach oben. (3) ⭐ **Verteiler-Ausbau von 2 auf 5 Cc als Druckmittel**, Anrede bleibt
+hoeflich — zweiter Beleg des Hansen-Musters. (4) ⭐ **AfB-Lueckenschluss**: die im Register seit
+Wochen offene Behoerdenstelle hat einen eigenen Volltext, Stufe «Geschaetzter Herr <Nachname>»
+wie bei den drei uebrigen Behoerdenkontakten. (5) ⭐ **Dreistufige Nachfass-Kaskade** als
+geschlossenes Verfahren, jede Stufe fuegt genau ein Druckmittel hinzu. (6) ⭐ **Er loest die Frage
+selbst**, statt weiter zu fragen, und reicht nur die Restlueckenliste zurueck. (7) ⭐
+**Verb-Grossschreibung in der Bitten-Formel, n = 6.** (8) ⭐ **Zweiter Gold-gegen-Zwilling-
+Vergleich, gleiche Richtung wie Batch 116**: Satzlaenge 16.8 gegen 9.4 W, Fehlerdichte 2.3
+gegen 0 je 100 W — der Befund ist ueber zwei Fenster stabil und nicht mehr Einzelfall.
+(9) **Dreifaches Ausrufezeichen** als Pruefbefehl im Sie-Register. (10) **Zwei Register in einer
+Mail** (Sie im Body, Du in der @-Ansprache) — weiterer Beleg gegen die Nivellier-Zeile.
+(11) **Dringlichkeit wird ueber den eigenen naechsten Arbeitsschritt begruendet**, nie ueber
+einen Vorwurf. (12) **Fehlerdichte steigt mit dem Zeitdruck, nicht mit dem Register.**
+(13) **Freigaben werden delegiert, nicht selbst erteilt** («Architektur gibt die Rechnung frei»).
+(14) ⚠ **Praezisierung der Geraete-Trennung:** die `internetMessageId` allein trennt **nicht** —
+drei Mails tragen `@raphaeljans.ch`, nur eine davon die `Apple-Mail-URLShareWrapperClass`. Erst
+die Wrapper-Klasse ist das Claude-Signal; die erste Stufe des Batch-116-Standards ist schwaecher
+als dort notiert.
+
+**Naechstes Fenster:** (1) `rj@` **Sent Items ab 08.09.2026 16:57** (Ortszeit; als
+`afterDateTime` in UTC `2026-09-08T14:57:00` setzen), weiterhin `order: oldest`. (2) `Drafts` nur
+als **Zuwachs** (`order: newest`, Abgleich gegen dieses Register), nicht per Seitennummer.
+(3) Die zwei reservierten Apple-Mail-Entwuerfe vom 24.03.2026. (4) Vor dem Ziehen weiterhin
+pruefen, welches Fenster der `twin-fidelity-review` zuletzt verbraucht hat. (5)
+**Vorfilter-Standard:** Geraete-Trennung bleibt zweistufig, aber die `internetMessageId` gilt nur
+noch als **Kanal**-Hinweis (nicht Outlook Web), nicht als Personen-Trennung; entscheidend sind die
+HTML-Klassen `ms-outlook-mobile-*` (eigene Hand) bzw. `Apple-Mail-URLShareWrapperClass`
+(Claude-Weg). Der `_ `-Bullet zaehlt weiterhin **nicht** — in diesem Fenster steht ein echter
+«- »-Bullet aus Outlook Web im Gold. (6) **AfB ist geschlossen**; keine Behoerdenstelle mehr ohne
+eigenen Volltext offen.

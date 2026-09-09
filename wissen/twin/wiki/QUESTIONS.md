@@ -5937,3 +5937,60 @@ n = 5, und nicht mehr auf das Septemberfenster beschraenkt.
 Antwort «Fluechtigkeit dieses Sommers» ist ausgeschlossen. Aendert das Deine Wahl?
 *Warum:* Wenn es Betonung ist, glaettet `korrektur` sie seit Monaten weg, und der Zwilling hat
 sie nie gesetzt.
+
+---
+
+## 260909 (Batch 117, `rj@` Sent 07.09. 16:20 bis 08.09. 16:57)
+
+**#1 [Stimme] Darf der Zwilling den Schriftgrad als Lautstaerkeregler benutzen?**
+Am 08.09. 16:51 steht mitten im 12-pt-Body ein einzelner Satz in **20 pt und fett**: «Wir
+benoetigen nun dringest Ihre Angaben.» Erstbeleg. Der Satz selbst bleibt sachlich — die
+Dringlichkeit liegt allein in der Typografie.
+*Konkret:* Soll der Zwilling das nachbilden, wenn er fuer Dich eine dritte Nachfassmail
+schreibt? Und wenn ja, ab welcher Stufe: nie im Erstkontakt, nur ab dem zweiten erfolglosen
+Nachfassen, nur gegenueber Fachplanern (nicht Behoerden, nicht Bauherrschaft)?
+*Warum:* Die Rule `dokument-layout-standard` verbietet dekorative Auszeichnung in Dokumenten.
+Hier ist es keine Deko, sondern ein Druckmittel — aber ohne Deine Antwort wuerde `korrektur`
+es als Layoutverstoss glaetten, und der Zwilling verlaere ein Werkzeug, das Du benutzt.
+
+**#2 [Beziehungsregister] Die Anredestufe faellt unter Druck — soll der Zwilling das mitgehen?**
+Derselbe Fachplaner, derselbe Nachmittag: **14:26 «Geschätzter Herr B.,»** → seine Antwort
+loest die Frage nicht → **14:39 «Guten Tag Herr B.»** → **16:51 «Geschätzter Herr B.»**, als Du
+die Loesung selbst lieferst. Die Rule `anrede-kontakte` kennt bisher nur die Bewegung nach
+**oben** (Anlassgewicht) und die Bewegung nach oben durch persoenlichen Kontakt.
+*Konkret:* Ist der Abstieg auf «Guten Tag» bei Dir ein bewusstes Signal («ich bin nicht mehr
+zufrieden»), oder faellt die Stufe unter Zeitdruck einfach weg? Soll der Zwilling ihn setzen?
+*Warum:* Wenn es Signal ist, gehoert es als eigene Klausel in die Rule — der Zwilling haelt
+heute die gehobene Stufe stur durch und nimmt Dir damit ein Ausdrucksmittel.
+
+**#3 [Arbeitsweise] Ist die dreistufige Nachfass-Kaskade ein Verfahren, das der Zwilling fahren darf?**
+Belegt als geschlossene Folge an einem Nachmittag: (1) Frage, kleiner Verteiler, gehobene
+Anrede. (2) Praezisierung plus Risiko und Terminfolge, Verteiler unveraendert, Anrede neutral.
+(3) Eigene Vorleistung im Anhang, Restliste, typografische Hervorhebung, **Verteiler von zwei
+auf fuenf**, Anrede zurueck nach oben.
+*Konkret:* Soll der Zwilling diese Kaskade selbstaendig vorschlagen, wenn Du sagst «der
+antwortet nicht»? Und wo liegt bei Dir die Schwelle fuer den Verteiler-Ausbau — Zeit
+(Stunden/Tage), Terminkritikalitaet, oder erst, wenn ein ausfuehrender Betrieb wartet?
+*Warum:* Der Verteiler-Ausbau ist der wirksamste und zugleich heikelste Schritt (er macht
+Dritte zu Zeugen). Den darf der Zwilling nicht nach eigenem Gutduenken setzen.
+
+**#4 [Methodik] Der Steinbruechel-Zwischenstand vom 08.09. — hast Du ihn gekuerzt?**
+Die versendete Fassung traegt die `Apple-Mail-URLShareWrapperClass` (Claude-Weg) und ist
+deshalb hier als `claude-aera` gesperrt, also **nicht** als Stilquelle gelernt. Am selben Tag
+steht Deine Rueckmeldung «viel zu viel» in `rules/auto-verbesserungen` (Eintrag 260908) — und
+die versendete Fassung ist mit 9.4 Woertern je Satz auffaellig knapp.
+*Konkret:* Ist die versendete Fassung Deine gekuerzte Ueberarbeitung? Dann waere sie **Silber
+(`korrektur-delta`)** und das wertvollste Einzelstueck des Fensters: sie zeigt exakt, wie viel
+Du wegstreichst. Existiert die Claude-Rohfassung noch (Chatverlauf, Entwurf)?
+*Warum:* Ohne Deine Antwort bleibt das staerkste Lernsignal ungenutzt. Der Echo-Schutz
+verlangt, im Zweifel zu sperren — aber hier verliere ich moeglicherweise genau das Delta,
+wegen dem der Eintrag 260908 ueberhaupt entstanden ist.
+
+**#5 [Stimme] Tippfehler steigen mit dem Zeitdruck, nicht mit dem Register — soll der Zwilling das abbilden?**
+Gemessen: 2.3 Fehler je 100 Woerter im Gold, die dichteste Stelle ist die dringlichste Mail des
+Tages («Anabe», «dringest», «morgen morgen», «bittte»). Der Zwilling liegt bei 0.
+*Konkret:* Das ist keine Frage nach absichtlichen Fehlern. Sondern: soll `korrektur` bei einer
+eiligen Baustellenmail **weniger** glaetten (Satzbau stehen lassen, nur echte Sinnstoerer
+korrigieren), damit sie nicht wie ein Brief klingt?
+*Warum:* Der zweite Gold-gegen-Zwilling-Vergleich in Folge zeigt dieselbe Richtung: der
+Zwilling ist korrekter, kuerzer und glatter als Du — und genau daran erkennbar.
