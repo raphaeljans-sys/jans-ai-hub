@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.09.2026 07:00:51
+Stand: 09.09.2026 07:11:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 07:00:51
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3ba8f1cce nas-selfcommit: 3 Datei(en) 2026-09-09 07:00
+- 30a22efa4 logbuch-radar 09.09.2026: Briefing-Abschnitt + Registerblock (Thalwil geliefert, Bopp ab 11.09. abwesend, Bohrmasse Jegen offen)
