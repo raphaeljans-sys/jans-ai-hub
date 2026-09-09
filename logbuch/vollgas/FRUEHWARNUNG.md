@@ -4216,3 +4216,58 @@ Wissenszuwachs oder komplett gemeldeter Korpus-Queue.
 
 **Regellauf, keine Delegation** — rund 14 Werkzeugaufrufe inline, davon drei zur Fehlersuche am
 eigenen Messwerkzeug; das rechtfertigte keinen Subagenten.
+
+## 2026-09-09 07:15 CEST — Rohmessung (Bewertung folgt im selben Eintrag)
+
+Verbrauch teuer/total (Mio Token), rekursiv inkl. Subagenten:
+
+MacBook Pro: 09.09. 2.44/56.42 · 08.09. 7.02/144.98 · 07.09. 10.34/239.38 · 04.09. 4.58/84.83 ·
+03.09. 10.12/204.17 · 02.09. 9.20/219.74 · 01.09. 11.19/324.88 · 31.08. 4.57/98.50 · 29.08. 1.98/53.61
+Mac Mini: 09.09. 0.42/12.14 · 08.09. 3.23/77.38 · 07.09. 5.42/101.12 · 06.09. 1.59/39.68 ·
+05.09. 1.28/35.30 · 04.09. 1.86/58.59 · 03.09. 2.40/66.38 · 02.09. 2.49/53.63 · 01.09. 1.59/56.02
+
+Beide Stationen zusammen teuer: 08.09. 10.25 Mio, 07.09. 15.76 Mio — beide unter der
+Meldeschwelle (35 Mio an einem Tag bzw. 18 Mio an zwei Folgetagen).
+
+**Bewertung (07:35, selber Lauf).** Keine Mail — keines der Kriterien (a) bis (g) trifft zu.
+Letzte Mail dieses Werkzeugs: siehe frühere Einträge, heute keine.
+
+Blockade: null echte Limit-Ereignisse in 36 h (strukturell geprüft: isApiErrorMessage,
+type==error, apiErrorStatus==429). Kontrollprobe bestanden — der Teilstring «scheduled-task»
+kommt in 70 von 79 Dateien vor, das Muster greift also.
+
+Briefings: alle vier haben ihr Deliverable erreicht. logbuch-radar heute 07:10 (Commit
+30a22efa4, Briefing-Abschnitt + Registerblock), hub-chef 08.09. 08:51 «Briefing gesendet»
+(heute erst 08:39 fällig), zahlungsabgleich 08.09. 08:26 (Bericht abgelegt), verzugscheck
+08.09. 08:07. Der bexio-401 (32. Tag) blockiert die Datenquelle, nicht den Lauf; der
+logbuch-radar hat ihn heute selbst gemeldet, deshalb hier kein zweiter Kanal.
+
+Radar-Herzschlag: RADAR.md jüngste Überschrift 09.09. 00:57, Session 01:14, Commit 00:59 —
+6.3 h, klar unter der 12-Stunden-Schwelle.
+
+Liefer-Delta 48 h: 79 Wiki-Artikel und 28 outputs-Reports über zehn KBs; tragend twin (39),
+energie (21), normen (3), baurecht (3). Kein Loop mit Verbrauch ohne Delta erkennbar.
+Artikel je Tag (git, nicht mtime): 07.09. 23 / ohne Twin-Facetten 17 · 08.09. 17 / 11 ·
+09.09. bis 07:15 8 / 2.
+Stückkosten (teuer beide Stationen je Artikel): 07.09. 0.69 Mio, ohne Twin 0.93 Mio ·
+08.09. 0.60 Mio, ohne Twin 0.93 Mio.
+
+Destillat: aktiver Korpus `archiv-fachwissen` → Ziel-KB `architektur-fachwissen`, Spec liegt
+vor (`specs/archiv-fachwissen-spec.md`, 29.08.2026), Queue NICHT komplett.
+(a) Fortschritt UNMESSBAR: `inventar.sh archiv-fachwissen --stand` gibt
+`stand=UNMESSBAR grund=training-inventar-fehlt` zurück. Es erwartet
+`skills/wissens-destillat/training/archiv-fachwissen-{sektionen,inventar}.md`, vorhanden sind
+stattdessen 20 Sektionsdateien unter `wissen/architektur-fachwissen/raw/inventar/`. Pfad-
+Mismatch im Werkzeug, kein Sachbefund über den Korpus — selbst nachgemessen, nicht vom
+Subagenten übernommen.
+(b) Ertrag: 480 Artikel, davon established 1, emerging 289, speculative 191. Jüngster Artikel
+02.09. 23:26, QUESTIONS.md 03.09. 23:28, null Commits unter `wissen/architektur-fachwissen/*`
+seit 04.09. Die Front steht seit sieben Tagen.
+(c) Delta-Null-Serie: nur zwei outputs-Reports (23.08., 01.09.), keiner davon Delta Null.
+(d) ⚠ **Stillstand ohne Verbrauch, nicht Verbrauch ohne Ertrag.** Kriterium (f) trifft
+deshalb NICHT zu: in den Lauf-Journalen 07.–09.09. (3/4/2 Läufe) steht kein Destillat- oder
+Nachtschicht-Lauf, der jüngste Queue-Eintrag stammt vom 30.08. (130. Lauf). Der Loop
+verbrennt nichts, er läuft gar nicht. Das ist ein Fall für den Leerlauf-Wächter des Radars
+(Wiederaufnahme oder Stilllegungsentscheid), nicht für eine Frühwarnungs-Mail. Zwei Punkte
+liegen für den Radar bereit: der defekte `inventar.sh`-Pfad, der jede Fortschrittsmessung
+blind macht, und das Statusprofil 1 established gegen 480 Artikel.
