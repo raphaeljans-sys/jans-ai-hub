@@ -1056,3 +1056,20 @@ Anlass: Grundbuch WI1585 (Steinbrüchelstrasse 26/28) zeigt Abwasser-Bau- und Du
 Entsorgung + Recycling Zürich (ERZ) bestellen — kostenpflichtig, Zugang über die Stadt, nicht
 skriptbar; (3) im Bericht als offene Annahme ausweisen. Weitere Wege im Wiki:
 `wissen/planungsgrundlagen/wiki/kartenportale-werkleitungskataster.md`.
+
+## Nachtrag 09.09.2026 — IPTV: welcher Sender zeigt das Spiel (EPG statt Raten)
+
+**Anlass.** Champions League Mittwoch, Wunsch «bestes Spiel einschalten» (Liverpool–Atlético). Der
+Sendername allein sagt nicht, was läuft: Blue Sport 5 Live (CH und DE) zeigte nur die
+Platzhaltertafel «Le sport en direct sur blue TV», obwohl parallel sechs Spiele liefen.
+
+**Der Weg:** `python3 scripts/iptv-epg.py <stream_id …>` fragt je Sender-ID den aktuellen
+EPG-Titel ab (Xtream `get_short_epg`, liest das Konto wie `iptv-sender.py` aus der GSE-DB, gibt nur
+Titel aus). Belegt: Blue Sport 1–4 Live tragen die Spieltitel (PSG, Sporting, Napoli–Arsenal,
+Konferenz), Blue Sport 5+ nur Generisches und senden dann auch nichts; die DAZN-Kanäle melden nur
+«UEFA Champions League 26/27», das Spiel selbst steht erst im Bild. **Liverpool–Atlético lief auf
+«DAZN 1 ʰᵈ» (816196)**, in GSE Suche «DAZN 1 », zweite Zeile. Ablauf in GSE wie in der Zeile
+«IPTV-Sender starten»: Xtream-codes API öffnet direkt «Alle Kanäle Gruppe», Suchfeld
+`klick 1000 190`, Tippen per `keystroke`, Treffer per Doppelklick (Zeile 1 bei y≈290, Zeile 2 bei
+y≈401, Fenster 223/137 1234×776); der Player wechselt beim Doppelklick den Sender, ohne dass man ihn
+schliesst. Klick-Helfer bauen: `swiftc -O -o "$SCRATCH/klick" scripts/cgevent-klick.swift`.
