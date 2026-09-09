@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.09.2026 13:41:57
+Stand: 09.09.2026 13:52:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:34)
@@ -12,4 +12,4 @@ Stand: 09.09.2026 13:41:57
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 88ed4fec9 logbuch/fristen.md: Nachtschicht 09.09. — zwei P1/mittel-Punkte (Nova Steinbrüchelstrasse, KISPI Innere Verglasung) als erledigt verifiziert (Graph-Beleg), Register war stale
+- 0ea3bc7ab nas-selfcommit: 3 Datei(en) 2026-09-09 13:45
