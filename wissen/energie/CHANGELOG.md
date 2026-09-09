@@ -1,5 +1,49 @@
 # CHANGELOG
 
+## 2026-09-09 (Run 189) — Rueckstand einer KB-weiten Korrektur, Waechter-Selbstbefund behoben, E-B142-1 geschlossen
+
+Antrieb: **Pruefwarteschlange** (PROGRAMM.md seit 24.08.2026), nicht die Dateiliste. Der
+Auftragstext der Scheduled Task nennt weiterhin «6-10 offene PDFs» und «TOKEN-VOLLGAS bis
+10.08.2026» — beides ueberholt (`pdf-inventar.md` 0 offen, 349 Destillate); Stand selbst
+ermittelt (Rule 260830).
+
+- **Werkzeuge 1-4 gelaufen.** `kennwert-recompute` 0 Befunde. `wiki-konsistenz` 13 Formbefunde
+  (nachrangig, siehe Bericht). `bezugsgroessen-check` 158 Kandidaten, davon einer sachlich echt.
+- **`wiki/QUESTIONS.md` Z. 2347: Rueckstand der Deckungsgrad-/Autarkie-Bereinigung von Run 150.**
+  Dort stand weiter «Basel 60 kWp Indach (… Autarkie 103 %)» — der Wert, den die eigene **F255**
+  als unmoeglich ausweist. Run 150 hatte «keine weiteren Treffer» vermerkt, aber `QUESTIONS.md`
+  nicht mitgelesen: **die Abschlussregel muss das eigene Journal einschliessen**, dort stehen die
+  Belegzeilen mit den alten Zahlen. Korrigiert als Inline-⚠-Vermerk; Vollzug mit Schreibvarianten
+  geprueft (6. Pruefung), keine weitere Fundstelle.
+- **`wissen/tools/datenstand-waechter.py`: dritte Ausnahme `BEFUNDREFERENZ`** — ein Datum mit
+  unmittelbar folgendem Vielfachheitszaehler («Datum x4», auch mit Markdown-Auszeichnung) ist die
+  Aufzaehlung gefundener Treffer, kein gesetzter Stichtag. Damit sind **E-R177-4 und E-R179-3
+  geschlossen**: der Bericht ueber einen Waechter-Befund wurde bisher selbst zum Befund und
+  vermehrte sich mit jedem dokumentierenden Lauf (177: 1, 179: 2, 189: 3), waehrend die ECHTEN
+  Stichtage konstant bei fuenf blieben. Regression ueber **alle 19 KBs**: 982 → 979 Befunde, die
+  fuenf echten unveraendert, Gegenprobe an einem Kunstfall bestanden. ⚠ Der erste Wortlaut der
+  Quittierung erzeugte selbst zwei neue Treffer (Klartext-Zitat des Kunstfalls, «ist erledigt»
+  ausserhalb des 6-Zeilen-Fensters) — im selben Lauf bemerkt und umformuliert.
+- **E-B142-1 Restpunkt (2) geschlossen, mit Sachgewinn.** Der Cross-KB-grep (7. Pruefung) fand den
+  Zeiger in `wissen/baurecht`; der **Wortlaut** fehlte auch dort und wurde amtlich nachgeholt
+  (Fedlex, RPG SR 700, Stand 1.1.2026) → `raw/260909_amtlich_ch_rpg-art18a-art24-energetische-sanierungen.md`.
+  RPG 2 (AS 2025 640) hat **Art. 18a Abs. 2 lit. a** neu gefasst und **Art. 24 einen neuen Abs. 2**
+  gegeben, beide zu energetischen Sanierungen — **Kompetenznormen, keine Anspruchsgrundlagen**.
+- **`wiki/BAUHERREN-FAQ.md` F291 neu** (291 Antworten) und neuer Abschnitt in
+  **`wiki/pv-solar-technologien.md`**: die neue Artikelueberschrift macht eine Aussendaemmung
+  **nicht** bewilligungsfrei; ohne kantonalen Umsetzungsakt aendert sich nichts, und bei
+  Denkmaelern von kantonaler/nationaler Bedeutung bleibt es stets bei der Bewilligungspflicht.
+  Zwei Bundesgesetze desselben Datums (AS 2025 640 vs. AS 2024 679/2025 636) ausdruecklich getrennt.
+- **Bringschuld nach aussen:** Rueckgabe an **`wissen/baurecht`** als E-E189-1 (Wortlaut jetzt
+  verfuegbar; die kantonale Umsetzungsfrage dort besser aufgehoben). ⚠ Der Entwurf unterstellte
+  `baurecht` zunaechst einen Absatzverweis-Fehler — das Gegenlesen am Original (Rule 260729b)
+  zeigte, dass der dortige Satz **korrekt** ist; der grep-Treffer hatte ihn mitten entzweigeschnitten.
+- **E-R189-1 neu eroeffnet:** hat ZH oder SZ von Art. 18a Abs. 2 lit. a RPG Gebrauch gemacht?
+- **Kein PDF-Transfer** (Inventar erschoepft); **eine** neue FAQ statt der im Auftrag genannten
+  zwei — die zweite Position war die KB-uebergreifende Werkzeugreparatur. Im Bericht ausgewiesen.
+
+Bericht: `outputs/2026-09-09_energie-run189.md`.
+
 ## 2026-09-09 (Nachtschicht Mac Mini, Prioritaet 5) — E-B142-2 geschlossen: Solarstrukturen über Parkplatzarealen (Art. 18a Abs. 2bis RPG)
 
 Priorität 4 (nächste fällige Trainingslektion) entfiel: `bauprodukte`, `grobkosten`,

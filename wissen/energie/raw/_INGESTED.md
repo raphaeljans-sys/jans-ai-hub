@@ -446,3 +446,16 @@ Tageslicht/Ausblick/Aktivierung vollstaendig (140.01-140.04, S. 46-53), 250.01 I
 (S. 106) sowie erneut Anhang B (S. 107-109) zur Verifikation der 120.06-Aenderung.
 Nicht gelesen und neu als Luecke erkannt: 150.01 Innovationen Gesundheit (S. 53).
 Destillat: `destillate/minergie-eco-vorgabenkatalog-standard-2023-1.md` (fortgeschrieben).
+
+## 2026-09-09 (Run 189) — `260909_amtlich_ch_rpg-art18a-art24-energetische-sanierungen.md`
+
+Quelle: RPG (SR 700), amtlicher Fedlex-Volltext Stand 1.1.2026, ELI cc/1979/1573_1573_1573,
+Segment 20260101 (Filestore-Muster nach Rule 260721; HTTP 200 / 136'450 Byte, keine App-Huelle).
+Anlass: E-B142-1 Restpunkt (2) — der neue Artikeltitel «Solaranlagen und energetische
+Sanierungen» war in dieser KB nirgends gefuehrt; der Cross-KB-grep fand den Zeiger in
+`wissen/baurecht`, der WORTLAUT von Art. 18a Abs. 2 lit. a fehlte auch dort.
+Gelesen und abgelegt: Art. 18a Abs. 1-4 vollstaendig, Art. 24 Abs. 1-2 vollstaendig.
+Verdichtet: FAQ **F291**, `wiki/pv-solar-technologien.md` (neuer Abschnitt).
+Kein eigenes Destillat angelegt — die Quelle ist ein Gesetzesauszug von zwei Artikeln, der
+vollstaendig in die raw-Datei passt; ein Destillat waere eine Dublette (Kompoundieren statt
+Duplizieren).

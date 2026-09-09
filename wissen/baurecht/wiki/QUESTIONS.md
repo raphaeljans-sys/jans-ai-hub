@@ -3298,6 +3298,25 @@ tatsächlich verwendete Wort dort ablesen, statt zu raten.
    (Bauzonen) sind für JANS die wichtigsten davon — Mehrwertabgabe und Bauzonendimensionierung.
    Arbeitsliste der Folgeläufe.
 
+✓ **E-E189-1 — Rücklauf aus `wissen/energie` (Run 189, 09.09.2026): der Wortlaut von
+   Art. 18a Abs. 2 lit. a RPG liegt jetzt amtlich vor.** Buch-Run 142 hat die Stelle korrekt
+   inventarisiert (Ziff. 4.2: «Abs. 2 lit. a neu gefasst, FN 56»), den Wortlaut aber nicht
+   erschlossen. `wissen/energie` hat ihn am 09.09.2026 über das Fedlex-Filestore-Muster
+   beschafft (RPG SR 700, ELI cc/1979/1573_1573_1573, Segment 20260101, HTTP 200 / 136'450 Byte —
+   die `www`-Route trägt bei diesem Erlass, keine App-Hülle) und im Volltext abgelegt:
+   `wissen/energie/raw/260909_amtlich_ch_rpg-art18a-art24-energetische-sanierungen.md`
+   (Art. 18a Abs. 1-4 vollständig, Art. 24 Abs. 1-2 vollständig).
+   **Sachlich für das Baurecht relevant:** Art. 18a Abs. 2 lit. a und Art. 24 Abs. 2 RPG sind
+   **Kompetenznormen** («Das kantonale Recht **kann** …», «Der Bundesrat **kann** …»), keine
+   Anspruchsgrundlagen — ohne Umsetzungsakt entfällt keine Baubewilligungspflicht für eine
+   energetische Sanierung. Verdichtet in `wissen/energie` als FAQ **F291** und im Artikel
+   `wiki/pv-solar-technologien.md`. **Offen und dort als E-R189-1 geführt:** ob ZH oder SZ von
+   der Kompetenz Gebrauch gemacht haben (PBG/BZO ZH, PBG SZ) — das ist eine baurechtliche
+   Frage und daher hier besser aufgehoben als in der Energie-KB.
+   **Kein Befund gegen `baurecht`:** der Satz in `wiki/ausnahmebewilligung-und-bestandesschutz.md`
+   Z. 386 ordnet den neu eingefügten Abs. 2 zutreffend **Art. 24** zu und bei Art. 18a die
+   Fussnote «an Abs. 2 lit. a»; er wurde beim Rücklauf ausdrücklich gegengelesen und ist korrekt.
+
 2. **Drei ganz neue RPG-Artikel sind noch nicht destilliert:** Art. 24bis (Bündelung von
    Infrastruktur- und Mobilfunkanlagen), Art. 24quinquies (thermische Netze), Art. 24c-bis
    (Bauten in Streusiedlungsgebieten) — alle in Kraft seit 1.1.2026. Art. 24bis berührt das

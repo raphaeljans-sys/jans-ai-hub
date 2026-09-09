@@ -8754,7 +8754,7 @@ Beleg dort: `wissen/baurecht/raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a
 (amtlicher Fedlex-Volltext RPG SR 700, Stand 1.1.2026). Fortsetzung von **E-B141-1**, das die
 Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetzesebene**.
 
-- [ ] **E-B142-1 (P2) — Art. 18a Abs. 1 RPG erfasst seit 1.1.2026 auch Fassadenanlagen.**
+- [x] **E-B142-1 (P2) — Art. 18a Abs. 1 RPG erfasst seit 1.1.2026 auch Fassadenanlagen.** ✓ vollstaendig geschlossen 09.09.2026 (Run 189), siehe Nachtrag am Ende des Eintrags.
   Der Wortlaut lautet neu «auf Dächern **oder an Fassaden** genügend angepasste Solaranlagen
   bedürfen keiner Baubewilligung … lediglich der zuständigen Behörde zu melden»
   (BG vom 29.9.2023 über eine sichere Stromversorgung mit erneuerbaren Energien,
@@ -8785,6 +8785,43 @@ Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetze
   Sachaussage des Artikels).
   **Zur Vermeidung einer Fehlbuchung:** F268 schliesst laut eigener Schlusszeile die
   Vorgängerbringschuld **E-B141-1**, nicht diesen Punkt — B141 und B142 nicht verwechseln.
+
+  ✓ **Restpunkt (2) geschlossen 09.09.2026 (Run 189) — der Punkt ist damit erledigt.** Der neue
+  Artikeltitel ist keine blosse Zitierfrage: RPG 2 (AS 2025 640) hat neben dem Titel auch
+  **Art. 18a Abs. 2 lit. a** neu gefasst («auch andere Solaranlagen **und energetische
+  Sanierungen** ohne Baubewilligung»), und **Art. 24 RPG** einen neuen **Abs. 2** erhalten
+  («Der Bundesrat kann energetische Sanierungen fuer zulaessig erklaeren …»). **Beide sind
+  Kompetenznormen, keine Anspruchsgrundlagen** — ohne kantonalen bzw. bundesrätlichen
+  Umsetzungsakt aendert sich fuer ein konkretes Sanierungsvorhaben nichts; genau diese
+  Einordnung traegt die neue **FAQ F291**, damit die Titelaenderung dem Bauherrn keine
+  Verfahrensersparnis verspricht, die im Gesetz nicht steht.
+  **Weg dorthin (Beleg fuer die 7. Pruefung):** der Cross-KB-grep fand den Zeiger in
+  `wissen/baurecht/wiki/ausnahmebewilligung-und-bestandesschutz.md` Z. 386 und das
+  Aenderungsinventar in `wissen/baurecht/raw/260907_…` — **der WORTLAUT** von Abs. 2 lit. a
+  fehlte aber auch dort (in Buch-Run 142 ausdruecklich «nicht erschlossen») und wurde hier
+  amtlich nachgeholt (Fedlex, RPG Stand 1.1.2026, HTTP 200/136'450 Byte) →
+  `raw/260909_amtlich_ch_rpg-art18a-art24-energetische-sanierungen.md`. **Lesefalle, in diesem Lauf selbst hineingetappt und vor dem
+  Datei-Eingriff korrigiert:** der Satz in `baurecht` ist **richtig** — er nennt den «neu
+  eingefuegten Abs. 2 (energetische Sanierungen)» bei **Art. 24** und bei **Art. 18a** die
+  Fussnoten «am Titel und an Abs. 2 lit. a». Der grep-Treffer schneidet ihn aber mitten im
+  Satz ab, und die abgeschnittene Zeile liest sich, als gehoere der neue Abs. 2 zu Art. 18a.
+  Erst der Blick ins Aenderungsinventar (Ziff. 4.2) und dann in den Fedlex-Volltext trennte
+  die beiden Artikel sauber. **Merksatz: eine grep-Zeile ist ein Zeiger, kein Zitat** — bei
+  einem verschachtelten Satz ueber zwei Normen wird die Fundstelle im Original zu Ende gelesen,
+  bevor daraus ein Absatzverweis wird (gleiche Familie wie die Weisung «die zu widerlegende
+  Aussage woertlich zitieren, nie zusammenfassen», PROGRAMM.md Verifikations-Stufe). Ergaenzt in `wiki/pv-solar-technologien.md` (neuer Abschnitt) und F291.
+  → Rueckgabe an `wissen/baurecht` als E-E189-1 (dort eingetragen, Bringschuld nach aussen):
+  der dort als «nicht erschlossen» gefuehrte Wortlaut von Art. 18a Abs. 2 lit. a liegt jetzt
+  amtlich vor.
+
+- [ ] **E-R189-1 (P3, Fach/kantonal, neu 09.09.2026): Hat ZH oder SZ von Art. 18a Abs. 2 lit. a
+  RPG Gebrauch gemacht?** Die Kompetenz besteht seit 1.1.2026; ob die beiden JANS-Kantone
+  «aesthetisch wenig empfindliche Typen von Bauzonen» bezeichnet haben, in denen energetische
+  Sanierungen bewilligungsfrei sind, ist in dieser KB **nicht** geprueft — F291 sagt das
+  ausdruecklich. Zu pruefen an PBG/BZO (ZH) bzw. PBG SZ; naheliegender Weg ueber Skill
+  `baurecht`. Ebenso offen: ob der Bundesrat gestuetzt auf Art. 24 Abs. 2 RPG bereits eine
+  RPV-Bestimmung erlassen hat. Kein Terminrisiko, aber der Punkt entscheidet, ob F291 mittelfristig
+  von «aendert nichts» auf «gilt bei Ihnen konkret» umgeschrieben werden muss.
 
 - [x] **E-B142-2 (P2) — Art. 18a Abs. 2bis RPG neu: Solarstrukturen über Parkplatzarealen.** ✓ 2026-09-09 (Nachtschicht Mac Mini).
   In Bauzonen sind Strukturen, welche die Gewinnung von Solarenergie **über und am Rande von
