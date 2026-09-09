@@ -69,3 +69,27 @@ tell application id "com.apple.mail"
 end tell
 EOF
 ```
+
+
+## Ein gespeicherter Draft lässt sich im Inhalt nicht mehr ändern (09.09.2026)
+
+Nach `save nm` ist die Nachricht kein `outgoing message` im eigenen Prozess mehr, sondern eine
+`message` im Entwurfsordner des Kontos. `set content of m to "..."` scheitert dort mit
+
+```
+Mail hat einen Fehler erhalten: content of message kann nicht gesetzt werden. (-10006)
+```
+
+**Folge für den Ablauf:** Text und QS **vor** dem `save` abschliessen. Fällt danach doch eine
+Korrektur an, bleibt nur ein **zweiter, neu angelegter Draft** — der alte kann nicht überschrieben
+und nach der Aktions-Whitelist auch nicht gelöscht werden. Belegt am 09.09.2026 (Hub-Chef, Abgabe
+Steinbrüchelstrasse): der Layout-Agent meldete zwei Signaturpunkte erst nach dem Anlegen, im
+Postfach lagen danach zwei gleichlautende Entwürfe.
+
+**Zweite Falle im selben Vorgang:** ein `try`-Block um die **ganze** Suchschleife verschluckt den
+Fehler und liefert «nicht gefunden» statt der Ursache — der Draft war die ganze Zeit da. Den `try`
+eng um den einzelnen fehleranfälligen Zugriff legen, nicht um die Schleife.
+
+**Dritte Falle:** `messages of mailbox "Gesendete Elemente"` ist **nicht** nach Datum sortiert
+(weder vorn noch hinten liegt die jüngste Mail). Für die Versand-Gegenprobe mit
+`whose subject contains "..."` filtern, nicht über den Index greifen.

@@ -3,6 +3,29 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 09.09.2026 (08:39 bis 09:0x, Tagesbriefing gesendet) — die Bohrmasse ist da, die Massfreigabe um 09:30 laeuft ohne TeKoSi
+
+**Pflichtlektuere:** Radar-Abschnitt 09.09. 06:5x gelesen. **Der AG-Gruendungs-Abschnitt fehlt im heutigen Datumsblock**, obwohl der Monitor lief — die Spec `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md` traegt einen Eintrag vom 09.09. 07:45. Sein Befund wurde aus der Spec uebernommen (Kapitaleinzahlung 26 Tage ueber Soll-Termin 14.08., Notariat seit 27 Tagen stumm). Das ist der vierte Tag in Folge mit einem Melde-Ausfall dieses Monitors. Konversations-Destillat `260909-konversationen.md` (06:22) gelesen; sein Kern (Steinbruechelstrasse-Hauptarbeitstag, drei fertige Erzeugnisse, Kostendach nach Aufwand) traegt der Radar bereits.
+
+**Vier Befunde nach dem Radar-Lauf**, alle ins Fristen-Register geschrieben (Nachtrag N1 bis N5):
+
+1. **Die Bohrmasse ist geliefert.** L. Bajrami 09.09. 07:26:31, sechs Anhaenge mit den vermassten Bohrpositionen, dazu 08:22:57 der angepasste Prinzipplan der Tuer 01.2.339.1. Der Radar-Punkt «Bohrmasse fehlt fuer heute» ist damit erledigt; der Ball liegt bei JANS (Masse kontrollieren, Achsposition im Stahlsturz in den Werkplaenen vermassen).
+2. **Termin heute 09:30 bis 10:00 «ELE KIP MASSE FREIGABE» (Teams), von RJ um 07:18:58 verschickt.** Bajrami sagt zu (08:22:40), **L. Hiltmann sagt ab (08:08:24)** — an einer Massfreigabe fuer die Tueren fehlt der Tuerenlieferant. Der Termin ueberschneidet sich mit dem eigenen Block «Eingabe Projektaenderung DLZ Thalwil» 09:00 bis 10:00.
+3. **Zwei eBaugesucheZH-Aktionsmeldungen** vom 08.09. 13:13/13:14, Projekt nicht aufgeloest (Mailbox-Vollscan lief in den Timeout).
+4. **Kanalkataster-Ordner leer:** `09 Dokumente/260908-Kanalkataster-Screenshots` enthaelt nichts; die vier Screenshots liegen weiterhin nur im Chat, die Hauptabwasserleitung durch WI1585 bleibt darum ungeprueft.
+
+**A5 ausgefuehrt — Abgabe Steinbruechelstrasse 26/28 als Entwurf bereitgestellt.**
+Was: Mail an christoph.bopp@novaproperty.ch, Cc aaron.tonet@novaproperty.ch, Betreff «Steinbruechelstrasse 26/28, Zuerich-Witikon: baurechtliche Einschaetzung», vier PDF-Beilagen (260908-Bestof, 260908-Kompaktfassung, 260903-Bericht, 260908-Volumenstudie).
+Ausloeser: Abgabefrist heute, C. Bopp ab Freitag bis 23.09. abwesend, und am Ende der gestrigen Arbeitssitzung war ausdruecklich offen, ob die Versandmail vorbereitet werden soll.
+Guards: kein Versand (A5, nicht A7/A8) — der Entscheid ueber den Beilagenumfang bleibt bei RJ; QS durch `rechtschreibung` (gruen) und `layout` (gelb: Telefonformat und Firmenzeile auf Rule `jans-absenderadresse` korrigiert, zwei Labels vereinheitlicht, ein Absatz getrennt); Anrede «Geschaetzter Christoph» nach `anrede-kontakte` (Du-Kontakt, Gewicht), Gruss FG+Block nach der Gattungsregel (Lieferung mit Substanz), zusaetzlich belegt durch RJs eigene Bopp-Mail vom 08.09.
+Ergebnis: Draft liegt im Exchange-Entwurfsordner, 2249 Zeichen, Aptos 12 pt. ⚠ **Zwei gleichlautende Entwuerfe:** der erste Draft liess sich nach dem `save` per osascript nicht mehr im Inhalt aendern (Fehler -10006), der korrigierte wurde darum neu angelegt. Loeschen ist verboten, darum bleiben beide stehen; gueltig ist der spaetere.
+
+**bexio unveraendert tot:** `--verzug` antwortet mit 401, den 33. Tag. `--abgleich` deshalb nicht gefahren, Mahnaktionen bleiben gesperrt (Guard A1 nicht erfuellbar); RE-00101 ueber CHF 6'000.- ist seit 16.08. mahnfaellig und nicht mahnbar. Die Entscheidfrist fuer das Abo ist am 08.09. verstrichen, die Umstellung auf Advanced erfolgt am 08.10.2026.
+
+**Lauf-Journal heute:** zwei Laeufe, beide Mac Mini, beide rc 0 (`dispatch-versuch1` 02:34 und 05:37, zusammen USD 4.31) — KB `energie`, Bringschulden E-B142-1 und E-B142-2 geschlossen. Queues sauber: `sync-tasks/{macbook-pro,mac-mini,freigabe}` leer, `remote-tasks/pending` existiert auf diesem Klon nicht.
+
+**Briefing gesendet:** 09.09.2026 08:58:53 an rj@raphaeljans.ch, Betreff «Hub-Chef 09.09.2026: Massfreigabe 09:30 ohne TeKoSi, die Bohrmasse ist da, Bopp-Abgabe liegt versandfertig», 4506 Zeichen im Konto Exchange gegengemessen (kein Leer-Draft). Sendegrund: Termin in 30 Minuten mit fehlendem Teilnehmer, Abgabefrist heute, Frist 11.09., P1 Kapitaleinzahlung.
+
 ## Radar-Briefing 09.09.2026 (06:5x): Thalwil ist geliefert, Bopp geht am Freitag weg, die Bohrmasse für heute fehlt
 
 **Die drei Punkte für heute**
