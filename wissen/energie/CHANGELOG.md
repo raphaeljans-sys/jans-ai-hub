@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 2026-09-09 (Nachtschicht Mac Mini, Prioritaet 5) — E-R189-1 ZH-Teil beantwortet: Postulat KR-Nr. 17/2026 als Beleg
+
+Offene Frage E-R189-1 (hat ZH von Art. 18a Abs. 2 lit. a RPG Gebrauch gemacht?) recherchiert.
+WebSearch fand ein bisher in keiner KB gefuehrtes Postulat **KR-Nr. 17/2026** «Keine
+Baubewilligung fuer energetische Sanierungen» (Weber/Sanesi Muri/Kopp/Schick, 12.01.2026),
+Volltext per curl+pdftotext von parlzhcdws.cmicloud.ch gelesen (PDF unverschluesselt). Der
+Vorstoss laedt den Regierungsrat ausdruecklich ein, energetische Sanierungen generell
+baubewilligungsfrei zu stellen — damit ist der **ZH-Teil beantwortet**: die Kompetenz war per
+12.01.2026 noch nicht genutzt. Verfahrensstand des Postulats sowie die darin behauptete
+Luzerner Praezedenz (Verordnungsaenderung angeblich seit 1.6.2025, zeitlich vor RPG-2-Inkrafttreten
+1.1.2026 und darum ungeprueft) sind offen geblieben und im Raw-Dokument als Grenzen ausgewiesen.
+**SZ und Bundesrat/Art. 24 Abs. 2 RPG bleiben unveraendert offen** — ein WebSearch-Ergebnis zu
+«§ 75a Abs. 4 PBG SZ» betrifft eine andere, aeltere Bestimmung (Solaranlagen-Meldepflicht seit
+2022) und wurde bewusst nicht als Antwort verwendet.
+
+Geaenderte Dateien: `raw/260909_zh-kantonsrat_postulat-kr17-2026.md` (neu), `wiki/QUESTIONS.md`
+(E-R189-1 Teilantwort + Cross-KB-Bringschuld), `wiki/pv-solar-technologien.md` (neuer Absatz +
+Frontmatter). Bringschuld nach aussen erledigt: Nachtrag in
+`wissen/planungsgrundlagen/wiki/recht-norm-pbg-revision-bauen-im-bestand.md`.
+
 ## 2026-09-09 (Wissens-Chef Lauf 56, Cross-KB) — Rechercheeinstieg fuer E-R189-1, Fuehrungszeiger auf die VKF-Fassung
 
 `wiki/QUESTIONS.md`, **E-R189-1**: Rechercheeinstieg nachgetragen. `planungsgrundlagen` fuehrt in

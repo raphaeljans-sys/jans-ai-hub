@@ -2,6 +2,14 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-09 (Nachtschicht Mac Mini, Cross-KB-Bringschuld aus `energie`) — KR-Nr. 17/2026 nachgetragen
+
+`wiki/recht-norm-pbg-revision-bauen-im-bestand.md`: neues Postulat **KR-Nr. 17/2026** «Keine
+Baubewilligung fuer energetische Sanierungen» (12.01.2026) nachgetragen, gefunden bei der
+Bearbeitung von E-R189-1 in `wissen/energie`. Zugehoerigkeit zur gebuendelten "Bauen im
+Bestand"-Vorlage nicht verifiziert, darum nicht in die amtliche Vorstossliste einsortiert,
+sondern als eigener Nachtrag im Querbezug-Absatz. `last_updated` auf 2026-09-09 gezogen.
+
 ## 2026-09-09 (Wissens-Chef Lauf 56, Cross-KB) — AS 2025 659 von der anderen Seite eingegrenzt; der Beleg lag eine Woche vor dem Vermerk im Haus
 
 `wiki/recht-norm-quellenlandkarte.md`, Abschnitt «RPG 2»: zwei Unterpunkte am ⚠-Block von Lauf 55

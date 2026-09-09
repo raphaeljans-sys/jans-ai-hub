@@ -1,7 +1,7 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-09-09 (Run 189: neuer Abschnitt «Energetische Sanierungen im Artikeltitel», Art. 18a Abs. 2 lit. a + Art. 24 Abs. 2 RPG als Kompetenznormen, schliesst E-B142-1 Restpunkt 2, F291; zuvor am selben Tag: neuer Abschnitt Solarstrukturen über Parkplatzarealen, Art. 18a Abs. 2bis RPG, schliesst E-B142-2; zuvor am selben Tag SZ-Kernzonen-Zeile auf Art. 18a RPG/Art. 32a-bis RPV ab 1.1.2026 nachgezogen, Bringschuld E-B142-1 Restpunkt 1; zuvor 2026-09-03 EIV-Marginalstaffel und Wegfall des Indach-Zuschlags ab 100 kWp ergänzt)
+last_updated: 2026-09-09 (Nachtschicht Mac Mini, Prio 5: E-R189-1 Teilantwort ZH — Postulat KR-Nr. 17/2026 als Beleg, dass ZH die Kompetenz noch nicht genutzt hat; SZ/Bundesrat weiterhin offen; zuvor Run 189: neuer Abschnitt «Energetische Sanierungen im Artikeltitel», Art. 18a Abs. 2 lit. a + Art. 24 Abs. 2 RPG als Kompetenznormen, schliesst E-B142-1 Restpunkt 2, F291; zuvor am selben Tag: neuer Abschnitt Solarstrukturen über Parkplatzarealen, Art. 18a Abs. 2bis RPG, schliesst E-B142-2; zuvor am selben Tag SZ-Kernzonen-Zeile auf Art. 18a RPG/Art. 32a-bis RPV ab 1.1.2026 nachgezogen, Bringschuld E-B142-1 Restpunkt 1; zuvor 2026-09-03 EIV-Marginalstaffel und Wegfall des Indach-Zuschlags ab 100 kWp ergänzt)
 datenstand: "2012 (ältester zitierter Quellenstand: TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012, EPFL/LESO — trägt weiterhin die Grundstruktur PV-Zelltypen, Integrationsarten und Bedarf→Technologie-Zuordnung; die dortigen Wirkungsgrad-Zahlen sind im Artikel selbst als «Stand 2012, heute höher» gekennzeichnet, nicht als abgelöst — vor Zitat in einem Aussendokument aktuelle Datenblätter/Marktzahlen prüfen, dafür `destillate/pv-marktzahlen-kosten-ch-2025.md`, Datenstand 2026-07-23)"
 sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/gvz-photovoltaik-melde-versicherungspflicht.md, destillate/vkf-richtlinie-gefaehrliche-stoffe.md, destillate/solarreport-solarapp-basel-2022.md, destillate/pv-spezialmodule-transparent-bifazial-datenblaetter.md, destillate/tachion-solarrechner-energieschweiz.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[holzbau-bauphysik-clt]], [[gvz-photovoltaik-melde-versicherungspflicht]], [[vkf-richtlinie-gefaehrliche-stoffe]], [[vkf-richtlinie-22-15-blitzschutzsysteme]], [[batteriespeicher]], [[pv-einmalverguetung-bund-bfe]]
@@ -335,8 +335,21 @@ Fassaden-Bewilligungsfreiheit in Abs. 1 und den Abs. 2bis des Abschnitts oben. B
 1.1.2026 in Kraft und sind auf den 29.9.2023 datiert — nur die AS-Nummer unterscheidet sie.
 
 Wortlaut amtlich abgelegt in `raw/260909_amtlich_ch_rpg-art18a-art24-energetische-sanierungen.md`
-(Fedlex, RPG Stand 1.1.2026). → Bauherren-FAQ **F291**. ⚠ Ob ZH oder SZ von der Kompetenz
-Gebrauch gemacht haben, ist nicht geprüft (E-R189-1).
+(Fedlex, RPG Stand 1.1.2026). → Bauherren-FAQ **F291**.
+
+**Kt. ZH: noch kein Gebrauch gemacht (Teilantwort E-R189-1, 09.09.2026 Nachtschicht).** Das
+Kantonsrats-Postulat **KR-Nr. 17/2026** «Keine Baubewilligung für energetische Sanierungen»
+(Weber/Sanesi Muri/Kopp/Schick, eingereicht 12.01.2026) lädt den Regierungsrat ausdrücklich
+ein, «Gesetze und Verordnungen so anzupassen, dass energetische Sanierungen von Gebäuden in
+der Regel baubewilligungsfrei sind» — ein Vorstoss mit dieser Forderung ist die stärkste
+verfügbare Bestätigung, dass ZH die Kompetenz **noch nicht** genutzt hat. Verfahrensstand
+(überwiesen/hängig) nicht ermittelt. Das Postulat nennt **Luzern** als Präzedenzfall
+(kantonale Verordnungsänderung, angeblich in Kraft seit 1.6.2025) — dieses Datum liegt vor
+dem Inkrafttreten von RPG 2 (1.1.2026) und ist **nicht verifiziert**, vor Zitat direkt bei
+`baurecht.lu.ch` prüfen. Wortlaut und Grenzen der Quelle:
+`raw/260909_zh-kantonsrat_postulat-kr17-2026.md`.
+**Kt. SZ und Bundesrat/Art. 24 Abs. 2 RPG: weiterhin ungeklärt**, kein belastbarer Fund
+(E-R189-1 bleibt dafür offen — Details und Negativbefunde im Register).
 
 ## Quelle
 TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012 (EPFL/LESO) → `[[tec21-solares-bauen-pv-typen-2012]]`.

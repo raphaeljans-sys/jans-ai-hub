@@ -1,7 +1,7 @@
 ---
 title: PBG-Revision "Erleichtertes Bauen im Bestand" (§ 220a E-PBG, Kt. ZH)
 status: emerging
-last_updated: 2026-07-24
+last_updated: 2026-09-09
 sources: [vzgv.ch/sites/default/files/25 12 - xx - Erleichtertes Bauen im Bestand Unterlagen.pdf (Vorentwurf mit erläuterndem Bericht, Amt für Raumentwicklung Baudirektion ZH, Referenz BDARE-2025-0158, Stand 07.08.2025, inkl. Auszug RRB 827/2025 Sitzung 20.08.2025 + synoptische Darstellung Änderung ABV; Vernehmlassungsschreiben Regierungspräsident Dr. Martin Neukom 25.09.2025), WebSearch espacesuisse.ch/demokratis.ch/zhk.ch/rzu.ch (Verfahrensstand, abgerufen 2026-07-19), WebSearch rzu.ch/espacesuisse.ch/baublatt.ch/bauimmorecht.ch (Verfahrensstand-Refresh + Kopplung Neuerlass kantonale Störfallverordnung, abgerufen 2026-07-24, Run 58)]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-ivhb-baubegriffe]], [[recht-norm-dispensrecht]], [[machbarkeit]], KB baurecht → `wiki/ausnahmebewilligung-und-bestandesschutz.md` (§§ 220/357 PBG) + `wiki/abstaende-und-hoehen.md` (§§ 21/23/24 ABV Mehrlängenzuschlag) — Recht führend; dieser Artikel führt den Revisionsstrang (Vorentwurf, noch ohne Rechtswirkung), Querbezug gesetzt Wissens-Chef Run 15, 25.07.2026
 ---
@@ -110,6 +110,20 @@ besteht seit dem 01.01.2026 (RPG 2, AS 2025 640). Die Postulate sind **haengig, 
 und beantworten die Frage darum nicht — sie belegen aber, dass der Kanton den Gegenstand
 bearbeitet, und sind der naechste Rechercheschritt. Diese KB fuehrt den Vorlagen-/Vorstossstand,
 `baurecht` die Erlassfrage; der Gegenzeiger steht bei E-R189-1.
+
+**Nachtrag 09.09.2026 (Nachtschicht Mac Mini, E-R189-1 direkt bearbeitet) — drittes, direkteres
+Postulat gefunden: KR-Nr. 17/2026.** Ein WebSearch zur offenen Frage E-R189-1 fand ein bisher in
+keiner KB gefuehrtes Postulat **KR-Nr. 17/2026** «Keine Baubewilligung fuer energetische
+Sanierungen» (Weber/Sanesi Muri/Kopp/Schick, eingereicht 12.01.2026) — anders als 87/2024 und
+88/2024 (Solaranlagen-fokussiert) verlangt es direkt die generelle Baubewilligungsfreiheit
+energetischer Sanierungsmassnahmen (Fensterersatz, Daemmung, Waermeerzeugung, Lueftung u.a.) und
+beruft sich ausdruecklich auf die neue Kompetenz aus Art. 18a Abs. 2 lit. a RPG. **Nicht
+verifiziert**, ob es Teil derselben "Bauen im Bestand"-Vorlage ist wie die vier oben gelisteten
+Postulate, oder ein eigenstaendiger Vorstoss — im Zweifel als eigenstaendig behandeln, bis die
+Zugehoerigkeit an der zh.ch-Kantonsratsseite geprueft ist. Volltext + Grenzen der Quelle:
+`wissen/energie/raw/260909_zh-kantonsrat_postulat-kr17-2026.md`. Der ZH-Teil von E-R189-1 gilt
+damit als beantwortet (ZH hat die Kompetenz per 12.01.2026 noch nicht genutzt); SZ und die
+Bundesrats-Kompetenznorm nach Art. 24 Abs. 2 RPG bleiben offen.
 
 ## Behindertengerechtes Bauen — bewusst NICHT angepasst
 

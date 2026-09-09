@@ -8831,6 +8831,31 @@ Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetze
   politisch bearbeitet, und sind der naechste Schritt vor einer Volltextsuche in PBG/BZO. Weder
   diese Frage noch der pg-Artikel kannten einander; der Gegenzeiger steht dort.
 
+  **✓ ZH-Teil beantwortet, 09.09.2026 (Nachtschicht Mac Mini) — noch kein Gebrauch gemacht.**
+  Ein drittes, bisher in keiner KB gefuehrtes Postulat **KR-Nr. 17/2026** «Keine Baubewilligung
+  fuer energetische Sanierungen» (Weber/Sanesi Muri/Kopp/Schick, 12.01.2026) laedt den
+  Regierungsrat ausdruecklich ein, «Gesetze und Verordnungen so anzupassen, dass energetische
+  Sanierungen von Gebaeuden in der Regel baubewilligungsfrei sind» — ein Vorstoss mit exakt
+  dieser Forderung ist der staerkste verfuegbare Beleg, dass Kt. ZH die Kompetenz aus Art. 18a
+  Abs. 2 lit. a RPG **per 12.01.2026 noch nicht genutzt hat**. Volltext per curl+pdftotext von
+  `parlzhcdws.cmicloud.ch` gelesen (PDF unverschluesselt, 26'967 Byte), amtlich abgelegt in
+  `raw/260909_zh-kantonsrat_postulat-kr17-2026.md`. **Nicht ermittelt:** der aktuelle
+  Verfahrensstand des Postulats (ueberwiesen/haengig) sowie die vom Postulat behauptete
+  Luzerner Praezedenz («Verordnungsaenderung in Kraft seit 1.6.2025») — dieses Datum liegt
+  **vor** dem RPG-2-Inkrafttreten 1.1.2026 und ist ungeprueft, vor jeder Weiterverwendung an
+  `baurecht.lu.ch` direkt verifizieren. → uebernommen in `wiki/pv-solar-technologien.md`.
+  → **Bringschuld an `wissen/planungsgrundlagen`:** `wiki/recht-norm-pbg-revision-bauen-im-bestand.md`
+  fuehrt bisher nur die Postulate 87/2024 und 88/2024 zu diesem Sachfeld — KR-Nr. 17/2026 (ein
+  neuerer, direkterer Vorstoss zum selben Gegenstand) fehlt dort.
+
+  **SZ und Bundesrat/Art. 24 Abs. 2 RPG bleiben offen** (P3, kein Terminrisiko). Ein
+  WebSearch-Treffer zu «§ 75a Abs. 4 PBG SZ» wurde **bewusst nicht** als Antwort verwendet: er
+  betrifft die Solaranlagen-Meldepflicht in Industrie-/Gewerbezonen (seit 1.7.2022, andere,
+  aeltere Rechtsgrundlage) und nicht die seit 1.1.2026 bestehende Kompetenznorm fuer
+  energetische Sanierungen. Fuer SZ braucht es eine gezielte PBG/PBV-Volltextpruefung (Skill
+  `oereb-schwyz`/`baurecht` als naechster Weg). Die UVEK-Medienmitteilung vom 15.10.2025 zur
+  RPV-Revision nennt keine Ausfuehrungsbestimmung zu Art. 24 Abs. 2 RPG.
+
 - [x] **E-B142-2 (P2) — Art. 18a Abs. 2bis RPG neu: Solarstrukturen über Parkplatzarealen.** ✓ 2026-09-09 (Nachtschicht Mac Mini).
   In Bauzonen sind Strukturen, welche die Gewinnung von Solarenergie **über und am Rande von
   Parkplatzarealen mit 15 oder mehr Parkplätzen** ermöglichen, **grundsätzlich zonenkonform**.
