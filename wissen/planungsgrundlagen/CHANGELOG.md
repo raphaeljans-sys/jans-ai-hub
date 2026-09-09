@@ -2,6 +2,28 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-09 (Wissens-Chef Lauf 56, Cross-KB) — AS 2025 659 von der anderen Seite eingegrenzt; der Beleg lag eine Woche vor dem Vermerk im Haus
+
+`wiki/recht-norm-quellenlandkarte.md`, Abschnitt «RPG 2»: zwei Unterpunkte am ⚠-Block von Lauf 55
+ergaenzt. (1) **Eingrenzung.** Welche Bestimmungen erst am 01.07.2026 gelten, bleibt ungeklaert
+(eigene Gegenpruefung ueber alle amtlichen `raw/` in `baurecht` und `energie`). Belegbar ist die
+Gegenrichtung: `wissen/baurecht/raw/260901_amtlich_ch_rpv-art32a-36-37.md` ist der
+Fedlex-Konsolidierungsstand **Segment 20260101** der RPV (ELI `cc/2000/310`), Kopf «letzte
+Aenderung V vom 15. Okt. 2025, **AS 2025 659**», und **enthaelt Art. 32a-bis RPV**. Ein
+Konsolidierungsstand fuehrt nur, was am Stichtag gilt → **mindestens Art. 32a-bis und Art. 38a
+RPV** gelten seit dem 01.01.2026. Die Pauschalzuordnung ist damit nicht nur widerlegt, sondern in
+ihrem Kern **umgekehrt**. Lauf 55 hatte zur `raw` vom 07.09. gegriffen und die vom 01.09. nicht
+gesehen — die methodische Lehre steht im Artikel: **ein datierter Konsolidierungsstand ist selbst
+der Inkrafttretens-Beleg fuer jede Bestimmung, die er fuehrt.** (2) **Art. 5a RPG
+(Abbruchpraemie):** hier sekundaer aus zh.ch datiert, in `baurecht` am amtlichen Volltext
+angetroffen ohne gelesene Aenderungsfussnote — Zeiger in beide Richtungen gesetzt.
+
+`wiki/recht-norm-pbg-revision-bauen-im-bestand.md`: **Querbezug** zu `energie`/`baurecht` gesetzt.
+Die beiden haengigen Postulate **KR-Nr. 87/2024** und **88/2024** zu Solar-Meldeverfahren stehen im
+selben Sachfeld wie die am 09.09. eroeffnete Frage **E-R189-1** (Art. 18a Abs. 2 lit. a RPG). Sie
+beantworten sie nicht, sind aber der naechste Rechercheschritt; Gegenzeiger dort gesetzt.
+Bericht: `wissen/koordination/outputs/2026-09-09_wissens-chef-run56.md`.
+
 ## 2026-09-08 (Wissens-Chef Lauf 55, Cross-KB) — die Etappen-Datierung von AS 2025 659 ist am amtlichen Volltext widerlegt
 
 `wiki/recht-norm-quellenlandkarte.md`, Abschnitt «RPG 2 — Inhalt & ZH-Umsetzung»: ⚠-Vermerk mit

@@ -101,6 +101,16 @@ Postulat KR-Nr. 235/2025 «Keine Baubewilligung mehr für Pergolen in Gärten» 
 Treppenliften» sowie ein UVEK-Schreiben vom 13.01.2025 zu Aussenbereichen von
 Gastwirtschaftsbetrieben.
 
+**Querbezug KB `energie` / KB `baurecht` — gesetzt vom Wissens-Chef Lauf 56, 09.09.2026.** Die
+beiden Solar-Postulate **KR-Nr. 87/2024** und **KR-Nr. 88/2024** oben stehen im selben Sachfeld
+wie die seit dem 09.09.2026 offene Frage **E-R189-1** (`wissen/energie/wiki/QUESTIONS.md`): hat
+ZH von **Art. 18a Abs. 2 lit. a RPG** Gebrauch gemacht und «aesthetisch wenig empfindliche Typen
+von Bauzonen» bezeichnet, in denen energetische Sanierungen bewilligungsfrei sind? Die Kompetenz
+besteht seit dem 01.01.2026 (RPG 2, AS 2025 640). Die Postulate sind **haengig, nicht erlassen**,
+und beantworten die Frage darum nicht — sie belegen aber, dass der Kanton den Gegenstand
+bearbeitet, und sind der naechste Rechercheschritt. Diese KB fuehrt den Vorlagen-/Vorstossstand,
+`baurecht` die Erlassfrage; der Gegenzeiger steht bei E-R189-1.
+
 ## Behindertengerechtes Bauen — bewusst NICHT angepasst
 
 Die Vorlage ändert die Bestimmungen zum behindertengerechten Bauen (§§ 239a-239d PBG) **nicht**:

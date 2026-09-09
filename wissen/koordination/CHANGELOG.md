@@ -2,6 +2,60 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-09 (Lauf 56, Abendlauf) — die fuehrende KB fuehrte die falsche Zahl, und der Wegweiser beschrieb eine KB mit 480 Artikeln als leer
+
+Zuschnitt: 6 Melder (`model: sonnet`) auf dem Zuwachs seit Lauf 55, adversariale Verifikation im
+Hauptmodell, dazu vier eigene Gegenmessungen. Delta-Basis `31967b7fa` → `519913bf9`, Fenster
+23,0 h, **115 Commits**, nativ im SSD-Klon gemessen. Bilanz: **6 bestaetigt (2 mit anderem
+Zuschnitt) · 3 widerlegt · 8 Nullbefunde mit Aussage · 2 Befunde, die kein Melder hatte.**
+8 Dateien geaendert, alle additiv, keine Loeschung. Bericht:
+`outputs/2026-09-09_wissens-chef-run56.md`.
+
+- **WC56-2 ⭐ Die fuehrende KB fuehrte die falsche Zahl — und zwar die, ueber die Raphael gerade
+  entscheiden soll.** `claude-code/wiki/kontext-architektur.md` (`established`, `last_updated:
+  2026-08-31`) nannte `MAX_AUTO_BYTES = 30'000` / `WARN = 24'000`; live stehen **34'000 / 30'000**
+  (`skills/twin/tools/build_dna.py` Z. 63-64), angehoben durch **Entscheid Raphaels vom
+  18.08.2026**. Der Artikel war **13 Tage vor seinem eigenen `last_updated`-Stempel** falsch. Das
+  ist die Zahlenbasis des Riegel-Entscheids SYN-69/78/80: gemessener Auto-Block **33'986 B**, gegen
+  34'000 also 15 B Reserve — gegen 30'000 gerechnet laengst gesprengt. Ursache ist die
+  Doppelbuchhaltung (twin misst parallel, obwohl `twin/CLAUDE.md` Z. 1028 hierher verweist).
+  Additiver ⚠-Nachtrag, Chronik 03.-06.08. erhalten.
+- **WC56-1 Der Grundkontext routet seit rund 16 Tagen von 480 Artikeln weg.** `CLAUDE.md` fuehrte
+  `architektur-fachwissen` als «bisher nur Inventar, noch kein Destillat»; gemessen **480
+  Sachartikel / 48'383 Zeilen**, angelegt 23.-31.08.2026. In 55 Vorlaeufen nie gemeldet. Die
+  KB-eigene `CLAUDE.md` ist korrekt — die Divergenz lag allein in der Hub-Datei. Korrigiert **mit
+  Messdatum**, weil eine Zaehlangabe im Grundkontext altert.
+- **WC56-4 Der Beleg lag eine Woche vor dem Vermerk im Haus.** Lauf 55 liess offen, welche
+  Bestimmungen von **AS 2025 659** erst am 01.07.2026 gelten — das bleibt offen. Belegbar ist die
+  Gegenrichtung: `baurecht/raw/260901_amtlich_ch_rpv-art32a-36-37.md` ist der Fedlex-Stand
+  **Segment 20260101**, nennt AS 2025 659 als letzte Aenderung und **enthaelt Art. 32a-bis RPV** →
+  mindestens Art. 32a-bis und Art. 38a gelten seit **01.01.2026**. Lauf 55 griff zur `raw` vom
+  07.09. **Uebertragbare Lehre, im Artikel vermerkt:** ein datierter Konsolidierungsstand ist selbst
+  der Inkrafttretens-Beleg fuer jede Bestimmung, die er fuehrt.
+- **WC56-3 Das Gegenbeispiel einer immer aktiven Rule ist eingetreten.** `rules/anrede-kontakte.md`
+  fuehrt Stadelmann als Beleg, ein Treffen erzwinge **keinen** Wechsel Sie → Du. Gold vom
+  **07.09.2026**: «Geschätzter Othmar» + Du. **Der Kern der Klausel wird dadurch bestaetigt** — der
+  Wechsel kam, aber nicht am Telefonat und sieben Wochen spaeter («Trajektorie, kein Standbild»).
+  ⚠⚠-Vermerk gesetzt, **Klauselwortlaut unangetastet**.
+- **Zwei Kanten gesetzt, wo zwei KBs am selben Gegenstand arbeiteten:** E-R189-1 ↔ die haengigen
+  ZH-Postulate 87/88 2024 (beidseitig) · Art. 5a RPG Abbruchpraemie (pg sekundaer datiert,
+  `baurecht` am amtlichen Volltext, keine Seite kannte die andere).
+- **Zwei Fuehrungszeiger gesetzt, ohne einen Wert anzutasten:** die VKF-Abstaende 5/7.5/10 m im
+  `energie`-Destillat (Werte korrekt, aber ohne Fassungsstand — BRL 15-15de existiert in zwei
+  Druckstaenden unter gleicher Nummer) · der Healthcare-Kennwert in `skills/machbarkeit` (**kein**
+  Zahlenwiderspruch, wie gemeldet: die Zeile nennt weder BKP-Tiefe noch Jahr, das fuehrende Band
+  ist BKP 2 — der Befund ist fehlender Beleg, und die Zeile verlangt genau das von anderen).
+- **Widerlegt:** «energie datiert Art. 32a-bis falsch» (das «seit 1.1.2026» haengt dort an
+  Art. 18a Abs. 1 RPG, AS 2025 636 — und waere ohnehin richtig; **aus dieser Widerlegung kam
+  WC56-4**) · «Namensdrift BSR/BRL» (`normen` verwendet «BSR» selbst; 83 Dateien gegen 152
+  hubweit) · Buchkapitel-Kante Band 2 Kap. 15 (Buch-Destillate haben keine Verlinkungskonvention).
+- **Zwei Instrumentenbefunde, kein Eingriff.** (1) Der **Norm-Rueckkanal** ist zum **vierten Mal**
+  ohne Treffer: 2'680 hinzugefuegte Zeilen in 36 Dateien, **null** neue Norm-Zitationen. Die
+  Hypothese seit Lauf 53 traf ein Bestands-, kein Zuwachs-Phaenomen — die Melderfrage gehoert
+  umgestellt. (2) Der **Datenstands-Waechter** reproduziert seine 979 Befunde exakt, aber **553
+  davon (56 %) stammen aus `architektur-fachwissen`** und 59 aus `twin`, wo es zitierte CHF-Betraege
+  in Stil-Analysen sind — die Gesamtzahl taugt derzeit nicht als Hub-Gesundheitswert.
+
 ## 2026-09-09 (Synergie-Lauf 32, Tagestakt) — die Byte-Riegel-Vorlage liegt vierfach und wirkt einfach; eine Reparatur hielt 13 Stunden
 
 Delta-Basis 08.09.2026 17:10, Fenster 23,8 h, **115 Commits**, nativ im SSD-Klon gemessen (nicht per

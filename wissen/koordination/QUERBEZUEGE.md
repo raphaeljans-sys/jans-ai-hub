@@ -247,6 +247,129 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
   im selben KB «RPG 2 in Kraft» und «RPG 2 anstehend» nebeneinander. Der naechstliegende Waechter lag
   im eigenen Haus.
 
+### CLAUDE.md ↔ architektur-fachwissen (Wegweiser-Aktualitaet) — geprueft 2026-09-09 (Lauf 56), BESTAETIGT, KORRIGIERT
+
+- **WC56-1.** `CLAUDE.md` (Projektdatei, laedt in JEDE Session auf JEDER Station) fuehrte
+  `architektur-fachwissen` als «bisher nur Inventar, noch kein Destillat». Gemessen 09.09.2026:
+  **482 Dateien in `wiki/`, davon 480 Sachartikel**, 48'383 Zeilen, angelegt 23.-31.08.2026
+  (`git log --diff-filter=A`; erster Sachartikel `c1224abb1`, 29.08.). Am 23.08. richtig, seit
+  etwa dem 24.-29.08. falsch — rund **16 Tage** im Grundkontext.
+- **Nie zuvor gemeldet** (`grep` ueber QUERBEZUEGE, CHANGELOG, SYNERGIE-REGISTER: 0 Treffer in 55
+  Vorlaeufen). Die KB-eigene `CLAUDE.md` ist korrekt; die Divergenz liegt allein in der Hub-Datei.
+- **Wirkung:** der Wegweiser routet aktiv **weg** von einer KB mit 480 Artikeln. Korrigiert auf
+  «Stand 09.09.2026 480 Wiki-Artikel aus 43 Sektionsinventaren», Sperrvermerk unveraendert.
+  **Merkposten:** eine Zaehlangabe im Grundkontext altert; sie gehoert mit Messdatum geschrieben,
+  wie hier geschehen. **Status: korrigiert.**
+
+### claude-code ↔ twin (Byte-Riegel — die fuehrende KB fuehrte die falsche Zahl) — geprueft 2026-09-09 (Lauf 56), BESTAETIGT, NACHTRAG GESETZT
+
+- **WC56-2.** Fuehrend fuer «Byte-/Token-Budget des Grundkontexts» ist laut Matrix
+  `claude-code/wiki/kontext-architektur.md`. Der Artikel (`established`, `last_updated:
+  2026-08-31`) nannte **MAX_AUTO_BYTES 30'000 / WARN 24'000**. Live in
+  `skills/twin/tools/build_dna.py` Z. 63-64: **34'000 / 30'000**, angehoben durch **Entscheid
+  Raphaels 18.08.2026** (`twin/CHANGELOG.md` Z. 1421-1422). Der Artikel war **13 Tage vor seinem
+  eigenen `last_updated`-Stempel** falsch.
+- **Warum es zaehlt:** genau dieser Wert ist die Grundlage des Riegel-Entscheids (a)/(b)/(c), der
+  als SYN-69/78/80 bei Raphael liegt. Eigene Gegenmessung des Auto-Blocks **33'986 B** (Report des
+  Tages 33'985 B / Reserve 15 B) — gegen 30'000 gerechnet waere er laengst gesprengt.
+- Zweitwirkung: der Schlusssatz «die Anhebung behaelt der Riegel Raphael vor» liest sich als
+  «angehoben wurde nie»; angehoben **wurde**, einmal, korrekt.
+- **Ursache ist die Doppelbuchhaltung:** `twin/CLAUDE.md` Z. 1028 verweist fuer diese Metrik
+  ausdruecklich auf `claude-code`, `twin` misst sie aber seit Wochen parallel selbst — dieselbe
+  Zersplitterung, die SYN-69/78/80 beschreiben. **Status: additiver ⚠-Nachtrag gesetzt, Chronik
+  03.-06.08. erhalten; die Doppelbuchhaltung selbst bleibt offen (Entscheid Raphael).**
+
+### planungsgrundlagen ↔ baurecht (AS 2025 659 — von der anderen Seite eingegrenzt) — geprueft 2026-09-09 (Lauf 56), EIGENBEFUND, EINGRENZUNG GESETZT
+
+- **WC56-4.** Der ⚠-Vermerk von Lauf 55 bleibt richtig: **welche** Bestimmungen erst am 01.07.2026
+  gelten, sagt keine amtliche Quelle im Hub (eigene Gegenpruefung + Melder 3 unabhaengig).
+- **Die Gegenrichtung ist belegbar, und der Beleg lag beim Setzen des Vermerks seit einer Woche im
+  Haus:** `baurecht/raw/260901_amtlich_ch_rpv-art32a-36-37.md` ist der Fedlex-Stand **Segment
+  20260101** der RPV, Kopf «letzte Aenderung V vom 15. Okt. 2025, **AS 2025 659**», und **enthaelt
+  Art. 32a-bis RPV**. Ein Konsolidierungsstand fuehrt nur, was am Stichtag gilt → **mindestens
+  Art. 32a-bis und Art. 38a RPV gelten seit 01.01.2026**. Lauf 55 griff zur `raw` vom 07.09.
+- **Methodisch uebertragbar, im Artikel vermerkt:** ein datierter Konsolidierungsstand ist selbst
+  der Inkrafttretens-Beleg fuer jede Bestimmung, die er fuehrt. **Status: eingegrenzt; der
+  Juli-Teil bleibt offen.**
+- **Zusatzkante Art. 5a RPG (Abbruchpraemie):** pg datiert aus sekundaerer zh.ch-Quelle, `baurecht`
+  hat den Artikel am amtlichen Volltext angetroffen ohne die Aenderungsfussnote zu lesen — keine
+  Seite kannte die andere. Zeiger gesetzt. **Status: verlinkt; Datierung selbst weiter ungeprueft.**
+
+### energie ↔ planungsgrundlagen (E-R189-1 ↔ ZH-Postulate 87/88 2024) — geprueft 2026-09-09 (Lauf 56), BESTAETIGT, BEIDSEITIG VERLINKT
+
+- **WC56-7a.** Die am 09.09. eroeffnete Frage E-R189-1 (hat ZH von Art. 18a Abs. 2 lit. a RPG
+  Gebrauch gemacht?) und die zwei **haengigen** Postulate KR-Nr. **87/2024** «Weniger Buerokratie
+  bei Solaranlagen» und **88/2024** «Meldeverfahren Solaranlagen vereinfachen» in
+  `pg/wiki/recht-norm-pbg-revision-bauen-im-bestand.md` Z. 96-97 betreffen dasselbe Sachfeld.
+  Sie **beantworten** die Frage nicht (haengig, nicht erlassen), sind aber der naechste
+  Rechercheschritt. **Status: in beide Richtungen verlinkt.**
+
+### energie + Skill brandschutz ↔ normen (Brandschutzabstaende 5/7.5/10 m) — geprueft 2026-09-09 (Lauf 56), BESTAETIGT ALS KANTE, ZEIGER GESETZT
+
+- **WC56-5.** Werte korrekt und deckungsgleich mit `normen/destillate/vkf-brl-15-15-…` Z. 42 f.
+  (Ziff. 2.2 Abs. 2) — **kein Widerspruch**. Das Risiko ist der fehlende **Fassungsstand**:
+  BRL **15-15de** existiert in zwei Druckstaenden (2015 unrevidiert / 2017 revidiert, IOTH
+  22.09.2016) unter gleicher Nummer, und die Revision fasste **Ziff. 2.2 Abs. 2+3** an — genau die
+  Fassungsfalle, die `normen` Run 82 am selben Tag erneut vermass.
+- Zeiger im `energie`-Destillat gesetzt (dort standen **0**), mit dem Vorbehalt `status:
+  speculative` der fuehrenden Quelle (Abdeckungsrichtung, nicht Richtigkeit — 0 falsche Werte in
+  Runs 80-82). `skills/brandschutz/SKILL.md` traegt bereits einen pauschalen Ordner-Zeiger;
+  nicht angefasst.
+- **WIDERLEGT: «Namensdrift BSR vs. BRL».** `normen` verwendet «VKF-BSR 15-15» in der eigenen
+  `wiki/REGISTER.md` Z. 970 selbst; hubweit 83 Dateien «BSR», 152 «BRL». Durchgaengige
+  Doppelverwendung **inklusive** der fuehrenden KB, kein Konsumenten-Drift. Namenskonvention
+  gehoert `normen`. **Status: verlinkt; Namensfrage an `normen` abgegeben.**
+
+### machbarkeit ↔ immobilienbewertung (Healthcare CHF/m³) — geprueft 2026-09-09 (Lauf 56), BESTAETIGT MIT ANDEREM ZUSCHNITT, ZEIGER GESETZT
+
+- **WC56-6.** `skills/machbarkeit/wissensbasis/02_kennwerte-kosten.md` fuehrt «Healthcare/Pflege
+  hoeher; Steinhof **CHF 1'700/m³** (aelterer Stand)» ohne Zeiger auf die laut Matrix fuehrende
+  `immobilienbewertung/wiki/realwert-sachwert.md` (Bestand **826-1'420 CHF/m³ GV**, Median ~1'100).
+- **Anderer Zuschnitt als gemeldet: kein Zahlenwiderspruch.** Die Zeile nennt weder BKP-Tiefe noch
+  Jahr, das Band ist auf **BKP 2** bezogen — ein BKP-1-5-Wert laege zulaessig hoeher. Der Befund
+  ist **fehlender Beleg**, und pikant, weil dieselbe Zeile «Kennwert immer mit Nutzung + Jahr
+  belegen» verlangt. Zeiger samt Aussenflaechen-Vorbehalt gesetzt, Wert nicht angetastet.
+- **Nullbefunde derselben Achse:** Ebmatingen **2'400** existiert genau einmal, mit Flag darunter ·
+  keine Stelle behauptet UBS-RE-LFS sei von Wuest unabhaengig (~45 Fundstellen) ·
+  NF/HNF/GF/GV-Vorbehalte an allen vier Fundorten konsistent. **Status: verlinkt; Achse sauber.**
+
+### rules/anrede-kontakte ↔ twin (Stadelmann) — geprueft 2026-09-09 (Lauf 56), BESTAETIGT, VERMERK GESETZT
+
+- **WC56-3.** Der Gegenbeleg der Treffen-Klausel («… erzwingt keinen Wechsel Sie → Du — den zeigen
+  Eren und Hiltmann, **Stadelmann nicht**») ist am Gold vom **07.09.2026 12:37** widerlegt:
+  «Geschätzter Othmar» + «Dir»/«Dich»/«deine», Raphaels eigene Hand, Ingest-Register Batch 116.
+- **Der Kern der Klausel wird bestaetigt, nicht widerlegt:** der Wechsel kam, aber **nicht am
+  Telefonat** und rund sieben Wochen spaeter — die Fassung «Trajektorie, kein Standbild» (260823).
+  Falsch geworden ist allein das **Gegenbeispiel**.
+- ⚠⚠-Vermerk gesetzt, **Klauselwortlaut unangetastet**. **Offen bei Raphael:** Aufnahme Stadelmanns
+  in die Kontaktliste (er steht bis heute nur im Klauseltext) und ob das Gegenbeispiel ersetzt wird.
+
+### Norm-Rueckkanal — 4. Messung in Folge ohne Treffer (Methodenbefund) — geprueft 2026-09-09 (Lauf 56), NULLBEFUND MIT AUSSAGE
+
+- Ueber **2'680 hinzugefuegte Zeilen in 36 Dateien** (alle KBs ausser `normen`) plus 44 Zeilen
+  ausserhalb `wissen/`: **keine einzige neue materielle Norm-Zitation**; einzige Nennung ist ein
+  Statusverweis auf die alte Bringschuld E-R148-1 (Normkauf SIA 380/1:2016).
+- **Aussage:** die seit Lauf 53 verfolgte Hypothese «frisches Wachstum erzeugt unregistrierte
+  Norm-Zitate» ist nun **viermal** nicht eingetreten. Es war ein **Bestands**-Phaenomen, kein
+  Zuwachs-Phaenomen. **Konsequenz fuer kommende Laeufe:** die Melderfrage von «Zuwachs» auf
+  **Bestands-Stichprobe** umstellen; die Bestands-Stichprobe dieses Laufs (5 Normen) lieferte 4
+  saubere Zitate und **eine seit Wochen bekannte, unveraenderte** Fassungsdivergenz **SIA 382/1**
+  (`energie` fuehrt 2025 als geltend, `normen`-Register steht auf 2014 mit eigenem Bring-Schuld-
+  Vermerk, Re-Destillat 2025 ausstehend). **Status: Methodenumstellung vermerkt; SIA 382/1 offen
+  bei `normen`, kein Eingriff.**
+
+### Datenstands-Waechter — Signal von einer KB dominiert (Instrumentenbefund) — geprueft 2026-09-09 (Lauf 56), NULLBEFUND MIT VORBEHALT
+
+- `python3 wissen/tools/datenstand-waechter.py` reproduziert **979** Befunde, exakt den von
+  `energie` Run 189 gemeldeten Stand nach der dritten Ausnahme (`BEFUNDREFERENZ`) — das Werkzeug
+  ist mit seinem eigenen Bericht konsistent.
+- ⚠ **Aber 553 der 979 (56 %) stammen aus `architektur-fachwissen`**, weitere 59 aus `twin`, wo die
+  Treffer ganz ueberwiegend **zitierte CHF-Betraege in Stil-Analysen** sind (Mail-Auszuege), keine
+  Preisdaten. Die Gesamtzahl taugt derzeit **nicht** als Hub-Gesundheitswert; ein Rueckgang oder
+  Anstieg misst vor allem das Wachstum einer einzigen KB.
+- **Kein Eingriff ins Werkzeug** (es gehoert dem Wissens-Layer, die Schwellenlogik ist bewusst
+  gesetzt). **Status: Vorbehalt registriert, Entscheid ueber eine KB-Gewichtung offen.**
+
 ### energie ↔ normen (Register-Rueckkanal, 4. und 5. Fall) — geprueft 2026-09-08 (Lauf 55), 2× BESTAETIGT, 2× WIDERLEGT
 
 - **Der Rueckkanal hat im Messfenster NICHT erneut versagt.** Gegen die Hypothese gemessen: der

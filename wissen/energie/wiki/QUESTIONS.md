@@ -8822,6 +8822,14 @@ Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetze
   `baurecht`. Ebenso offen: ob der Bundesrat gestuetzt auf Art. 24 Abs. 2 RPG bereits eine
   RPV-Bestimmung erlassen hat. Kein Terminrisiko, aber der Punkt entscheidet, ob F291 mittelfristig
   von «aendert nichts» auf «gilt bei Ihnen konkret» umgeschrieben werden muss.
+  → **Konkreter Rechercheeinstieg, nachgetragen vom Wissens-Chef Lauf 56 (09.09.2026):** die KB
+  `planungsgrundlagen` fuehrt in `wiki/recht-norm-pbg-revision-bauen-im-bestand.md` Z. 96-97 zwei
+  **haengige Kantonsrats-Vorstoesse zu genau diesem Gegenstand** — Postulat **KR-Nr. 87/2024**
+  «Weniger Buerokratie bei Solaranlagen» und Postulat **KR-Nr. 88/2024** «Meldeverfahren
+  Solaranlagen vereinfachen», beide im Paket der laufenden PBG-Revision «Bauen im Bestand».
+  Sie **beantworten die Frage nicht** (haengig, nicht erlassen), zeigen aber, dass ZH den Punkt
+  politisch bearbeitet, und sind der naechste Schritt vor einer Volltextsuche in PBG/BZO. Weder
+  diese Frage noch der pg-Artikel kannten einander; der Gegenzeiger steht dort.
 
 - [x] **E-B142-2 (P2) — Art. 18a Abs. 2bis RPG neu: Solarstrukturen über Parkplatzarealen.** ✓ 2026-09-09 (Nachtschicht Mac Mini).
   In Bauzonen sind Strukturen, welche die Gewinnung von Solarenergie **über und am Rande von

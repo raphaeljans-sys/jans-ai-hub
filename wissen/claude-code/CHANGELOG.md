@@ -2,6 +2,27 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-09-09 (Wissens-Chef Lauf 56, Cross-KB) — der Riegelwert dieser KB war 13 Tage vor dem eigenen `last_updated` falsch
+
+`wiki/kontext-architektur.md`: additiver ⚠-Nachtrag. Der Artikel (`established`, `last_updated:
+2026-08-31`) nannte **`MAX_AUTO_BYTES = 30'000`** / **`WARN = 24'000`**; live in
+`skills/twin/tools/build_dna.py` Z. 63-64 stehen **34'000 / 30'000**, angehoben durch **Entscheid
+Raphaels vom 18.08.2026** nach dreimaliger Vorlage (`wissen/twin/CHANGELOG.md` Z. 1421-1422).
+Diese KB ist nach der Fuehrungsmatrix genau fuer diesen Wert zustaendig, alle anderen verweisen
+hierher.
+
+**Warum das mehr ist als ein Zahlendreher:** der Wert ist die Grundlage des Byte-Riegel-Entscheids
+(a)/(b)/(c), der als SYN-69/78/80 bei Raphael liegt. Gemessener Auto-Block am 09.09.2026
+**33'986 B** (eigene Gegenmessung; Fidelity-Report des Tages 33'985 B / Reserve 15 B) — gegen
+30'000 gerechnet waere er laengst gesprengt, gegen 34'000 steht er 15 B davor. Zweitwirkung: der
+Schlusssatz «die Anhebung der Grenze behaelt der Riegel per Konstruktion Raphael vor» liest sich
+als «angehoben wurde nie»; angehoben **wurde**, einmal, korrekt.
+
+Die Chronik 03.-06.08.2026 bleibt unveraendert stehen — sie ist fuer ihren Zeitraum richtig.
+Ursache ist die Doppelbuchhaltung: `twin/CLAUDE.md` Z. 1028 verweist fuer diese Metrik
+ausdruecklich hierher, `twin` misst sie aber seit Wochen parallel selbst. Bericht:
+`wissen/koordination/outputs/2026-09-09_wissens-chef-run56.md`.
+
 ## 2026-09-09 — Ruecklauf aus dem twin-fidelity-review: Verdichtung verliert zuerst die Bedingung
 
 Neuer Report `outputs/2026-09-09_verdichtung-verliert-zuerst-die-bedingung.md`. Gemessen am

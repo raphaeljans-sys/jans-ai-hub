@@ -70,6 +70,22 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
   darum: den belegten Opener desselben Kontakts halten. Belege:
   `wissen/twin/wiki/QUESTIONS.md` 260822b #1, `wissen/twin/wiki/beziehungsregister.md` Z. 445
   und 1248. Nachgetragen vom Wissens-Chef Run 40.
+  ⚠⚠ **Das Beispiel dieses Gegenbelegs ist eingetreten — Vermerk Wissens-Chef Lauf 56,
+  09.09.2026; Wortlaut oben unangetastet.** Der Satz «er erzwingt aber keinen Wechsel Sie → Du —
+  den zeigen Eren und Hiltmann, **Stadelmann nicht**» trifft fuer Stadelmann nicht mehr zu. Die
+  Trajektorie aus Raphaels eigener Hand ist dreipunktig: **18.05.2026 kalt** → **22.07.2026
+  «Geschätzter Herr Stadelmann»** (Sie, nach einem Telefonat) → **07.09.2026 «Geschätzter Othmar»**
+  samt «Dir»/«Dich»/«deine» (rj@ Sent 07.09.2026 12:37 «Unterzüge & Gesamtkosten» an
+  othmar.stadelmann@estermann.ch, authentisch, Ingest-Register Batch 116; Fidelity-Review
+  `wissen/twin/outputs/2026-09-09_fidelity.md` Befund 3, offene Frage `wissen/twin/wiki/QUESTIONS.md`
+  260909b #6). **Der Kern der Klausel wird dadurch nicht widerlegt, sondern bestaetigt:** der
+  Wechsel kam, aber **nicht am Telefonat** und rund sieben Wochen spaeter — genau die Fassung
+  «Stufe als Trajektorie, kein Standbild» aus `rules/jans-dna-facetten.md` (260823), auf die der
+  Absatz darunter bereits verweist. Falsch geworden ist allein das **Gegenbeispiel**, nicht die
+  Regel. **Praktische Folge bis zum Entscheid Raphaels:** Stadelmann im **Du** anreden
+  («Geschätzter Othmar»); ihn als Beleg dafuer, dass ein Register nicht wechselt, nicht mehr
+  anfuehren. Stadelmann steht bis heute **nicht in der Kontaktliste unten** — Aufnahme ist
+  Raphaels Entscheid, dieser Lauf legt sie nur vor.
   ⚠ **Praezisere Fassung seit 23.08.2026 in `rules/jans-dna-facetten.md`** (nicht importiert,
   vor jedem ausgehenden Texterzeugnis zu lesen): dort ist die Stufe als **Trajektorie, kein
   Standbild** gefasst — der Kanalwechsel wirkt **verzoegert**, nicht sofort (Furrer 24.07. →

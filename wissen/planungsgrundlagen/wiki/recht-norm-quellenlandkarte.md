@@ -137,6 +137,28 @@ zwei Zeilen darüber datieren zwei Dinge auf den 01.07.2026, die der amtliche Wo
   Etappen-Schema»). **Die Pauschalzuordnung «tritt auf diesen Termin in Kraft» ist damit am
   Original widerlegt**; welche Bestimmungen der Teilrevision tatsächlich erst am 01.07.2026 in
   Kraft treten, ist ungeklärt und hier bewusst nicht behauptet.
+  - ⚠ **Von der anderen Seite eingegrenzt — Nachtrag Wissens-Chef Lauf 56, 09.09.2026.** Welche
+    Bestimmungen erst am 01.07.2026 gelten, bleibt ungeklärt (eigene Gegenprüfung über alle
+    amtlichen `raw/`-Dateien in `wissen/baurecht/` und `wissen/energie/`: keine nennt es). Belegbar
+    ist aber die Gegenrichtung, und der Beleg lag zum Zeitpunkt des Vermerks oben bereits **eine
+    Woche** im Haus: `wissen/baurecht/raw/260901_amtlich_ch_rpv-art32a-36-37.md` ist der
+    **Fedlex-Konsolidierungsstand «Segment 20260101»** der RPV (ELI `cc/2000/310`) und weist im
+    Kopf ausdrücklich «letzte Aenderung V vom 15. Okt. 2025, **AS 2025 659**» aus. Dieser Text
+    **enthält Art. 32a-bis RPV** (Fassaden-Solaranlagen, Z. 45 ff.) — ein Konsolidierungsstand auf
+    ein Datum führt nur, was an diesem Datum in Kraft steht. Damit sind **mindestens Art. 32a-bis
+    und Art. 38a RPV** der Teilrevision seit dem **01.01.2026** in Kraft. Die Pauschalzuordnung
+    oben ist damit nicht nur widerlegt, sondern in ihrem Kern **umgekehrt**: der bekannte Teil von
+    AS 2025 659 gilt seit Januar, der Juli-Teil ist der unbekannte. **Methodisch übertragbar:** ein
+    Konsolidierungsstand mit Datum ist selbst der Inkrafttretens-Beleg für jede Bestimmung, die er
+    führt — stärker und billiger als die Suche nach der einzelnen Änderungsfussnote.
+  - **Art. 5a RPG (Abbruchprämie) — beidseitig fehlender Zeiger, gesetzt 09.09.2026.** Die
+    Datierung der Abbruchprämie auf den 01.07.2026 (Zeile oben und weiter unten im Artikel) stützt
+    sich hier ausschliesslich auf die sekundäre zh.ch-Quelle der Runs 7/11 (20./28.06.2026).
+    `wissen/baurecht` hat Art. 5a RPG **am amtlichen Fedlex-Volltext** angetroffen
+    (`raw/260824_amtlich_ch_rpg-art24c.md` Z. 43-45, dort als sachfremder Treffer einer
+    Volltextsuche), dessen Änderungsfussnote aber nie gelesen. Keine der beiden KBs kannte die
+    andere. Wer die Datierung verifizieren will, liest dort die Fussnote zu Art. 5a nach —
+    dieselbe Datei trägt den Fedlex-Stempel **20260701** und ist damit die nächstliegende Quelle.
 - **«neue Regeln zu nachträglichen Baugesuchen / illegalem Bauen» ab 01.07.2026:** mindestens der
   Verjährungsteil gilt früher. `wissen/baurecht/wiki/widerrechtliche-bauten-und-sanktionen.md`
   Z. 72-77 führt **Art. 25 Abs. 5 RPG** (Wiederherstellungsanspruch verjährt nach 30 Jahren,

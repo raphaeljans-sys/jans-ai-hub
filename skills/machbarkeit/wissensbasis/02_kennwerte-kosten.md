@@ -51,6 +51,21 @@ Geschäftsflächen-Ertrag grob mit **5.5 % Bruttorendite** kapitalisieren.
 - Healthcare/Pflege höher; Steinhof rechnete **CHF 1'700/m³** (älterer Stand) bzw.
   WALD **CHF 4'000/m² GF** (Pflegeheim). → Kennwert immer mit Nutzung + Jahr belegen.
 
+  > ⚠ **Für Healthcare führt `immobilienbewertung`, nicht diese Datei — Zeiger gesetzt vom
+  > Wissens-Chef Lauf 56, 09.09.2026.** Die Führungsmatrix
+  > (`wissen/koordination/QUERBEZUEGE.md`) weist «Healthcare-Kostenkennwerte CHF/m³ GV + CHF je
+  > Pflegeplatz» ausdrücklich `wissen/immobilienbewertung/wiki/realwert-sachwert.md` zu und nennt
+  > `machbarkeit` dort als **Konsumenten**; `grobkosten` führt Healthcare ausdrücklich **nicht**.
+  > Der belegte Realwert-Bestand dort lautet **CHF/m³ GV 826–1'420 (Median ~1'100)** und
+  > **CHF/m² GF 2'623–4'250**, je aus benannten Referenzobjekten mit Baujahr.
+  > **Kein Zahlenwiderspruch behauptet:** die Zeile darüber nennt für «Steinhof 1'700» weder
+  > BKP-Tiefe noch Jahr, das Band ist auf **BKP 2 Gebäude** bezogen — ein BKP-1–5-Wert läge
+  > zulässigerweise höher. Genau das ist der Punkt: die Zeile verlangt selbst «Kennwert immer mit
+  > Nutzung + Jahr belegen» und erfüllt es nicht. Vor Gebrauch dort gegenlesen, insbesondere den
+  > **Aussenflächen-Vorbehalt** (GV nach SIA 416 hat kein Pendant für Balkone/Laubengänge — bei
+  > Pflegebauten mit Zimmerloggien zusätzlich über CHF/m² GF prüfen).
+  > Die «Quellen-Hierarchie Kosten» am Ende dieser Datei nennt `immobilienbewertung` bislang nicht.
+
 ## Wüest-Partner-Benchmarks Wohnen (Vollausbau)
 - CHF/m² GF: Median **2'800** (Spanne 2'500–3'500 EFH/MFH).
 - CHF/m² HNF: Median **~4'400** (bis 2021); inkl. Teuerung Mitte 2023 mind. **4'800**;

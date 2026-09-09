@@ -225,6 +225,28 @@ Riegel erstmals am 04.08.2026 (Auto-Block waere 36'835 B geworden) und erneut am
 **Gemessener Stand des Auto-Blocks am 06.08.2026 23:41: 29'962 B, also 38 B Reserve zu 30'000 B.**
 Der naechste Lauf bricht damit erneut ab. Belege in `wissen/twin/CHANGELOG.md` (04./05./06.08.).
 Erzeuger-KB: `wissen/twin/` (dort in `CLAUDE.md` der Gegenverweis auf diese Messung).
+
+⚠ **Der Riegelwert oben ist seit dem 18.08.2026 ueberholt — Nachtrag Wissens-Chef Lauf 56,
+09.09.2026.** Die beiden Absaetze darueber beschreiben korrekt den Stand vom 03.-06.08.2026 und
+bleiben als Chronik stehen; sie geben aber **nicht** den geltenden Wert wieder, und dieser
+Artikel ist nach der Fuehrungsmatrix (`wissen/koordination/QUERBEZUEGE.md`) genau dafuer
+zustaendig. Live gemessen am 09.09.2026 in `skills/twin/tools/build_dna.py` Z. 63-64:
+**`MAX_AUTO_BYTES = 34000`**, **`WARN_AUTO_BYTES = 30000`**. Angehoben von 30'000/24'000 durch
+**Entscheid Raphaels vom 18.08.2026** nach dreimaliger Vorlage, belegt in
+`wissen/twin/CHANGELOG.md` Z. 1421-1422 (dort auch die gemessene Wachstumsrate ~3,5 kB je Lauf
+und der Vorschlag einer Verfallsregel, QUESTIONS 260818b #7).
+
+**Zwei Folgen, die den Satz oben angreifen.** (1) Der Schlusssatz «die Anhebung der Grenze
+behaelt der Riegel per Konstruktion Raphael vor» ist als Mechanik weiterhin richtig, liest sich
+aber als «angehoben wurde nie» — angehoben **wurde**, einmal, korrekt durch Raphael. (2) Wer den
+aktuellen Druck an diesem Artikel abliest, rechnet gegen die falsche Decke: gemessen am
+09.09.2026 steht der Auto-Block bei **33'985 B**, also **15 B Reserve zu 34'000** — der
+niedrigste je gemessene Stand (`wissen/twin/outputs/2026-09-09_fidelity.md` Z. 271;
+eigene Gegenmessung ueber den BEGIN/END-AUTO-Block: 33'986 B, Abweichung 1 B aus der
+Zeilenumbruch-Zaehlung). Gegen 30'000 gerechnet waere der Block laengst gesprengt, gegen 34'000
+ist er 15 B davor. Das ist derselbe Vorgang, den `SYNERGIE-REGISTER.md` als SYN-69/78/80 fuehrt
+und der als Entscheid (a)/(b)/(c) bei Raphael liegt — der Zahlenstand dafuer kommt aus diesem
+Artikel, deshalb steht die Korrektur hier und nicht nur im Laufbericht.
 *(Zeilen 03.08. nachgemessen Wissens-Chef Run 23; Fortschreibung und Riegel-Datierung
 nachgemessen Wissens-Chef Run 27, 06.08.2026.)*
 

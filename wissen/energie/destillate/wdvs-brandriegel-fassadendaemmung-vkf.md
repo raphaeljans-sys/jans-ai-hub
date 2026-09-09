@@ -140,6 +140,20 @@ der äussersten Fassadenschicht abhängen:
 - 7.5 m, wenn eine der beiden Aussenwände aussen brennbar ist
 - 10 m, wenn beide Aussenwände aussen brennbar sind
 
+> **Führend ist `normen`, nicht diese Datei — Zeiger gesetzt vom Wissens-Chef Lauf 56,
+> 09.09.2026.** Die drei Werte sind gegengeprüft und stimmen mit der führenden Quelle überein
+> (`wissen/normen/destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md` Z. 42 f.,
+> **Ziff. 2.2 Abs. 2**) — sie standen hier bisher nur ohne Zeiger, also ohne Fassungsstand. Das
+> ist der Grund für den Zeiger: die Richtlinie **15-15de** existiert in zwei Druckständen
+> (Titelblatt 01.01.2015 unrevidiert und 01.01.2017 revidiert nach IOTH-Beschluss 22.09.2016)
+> unter **gleichbleibender Nummer**, und die Revision hat unter anderem **Ziff. 2.2 Abs. 2+3 und
+> Ziff. 2.4** angefasst. Wer die Werte hier liest, sieht nicht, welchen Stand er vor sich hat.
+> Bei jeder Verwendung dort gegenlesen. **Vorbehalt, der mitgeht:** jenes Destillat trägt
+> `status: speculative` (herabgestuft Run 79) — das betrifft eine nie gelaufene
+> Abdeckungsrichtung, nicht die Richtigkeit der Werte (Rule `normen-referenz` Ziff. 1b/1c); die
+> Refuter-Runde ist bestanden, die Nachmessungen der Runs 80-82 fanden Lücken bei **0 falschen
+> Werten**. Für die **Ersatzmassnahmen** bei Unterschreitung ist Ziff. 2.4 massgebend.
+
 Reduzierte Abstände (4 / 5 / 6 m) sind zwischen Einfamilienhäusern/Gebäuden geringer Höhe sowie
 zwischen Gebäuden mittlerer Höhe möglich, wenn die Aussenwände (ausser bei öffenbaren Fenstern/
 Türen) einen Feuerwiderstand von mindestens 30 Minuten (EI 30) aufweisen. Vorspringende

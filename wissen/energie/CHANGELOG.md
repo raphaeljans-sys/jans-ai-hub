@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## 2026-09-09 (Wissens-Chef Lauf 56, Cross-KB) — Rechercheeinstieg fuer E-R189-1, Fuehrungszeiger auf die VKF-Fassung
+
+`wiki/QUESTIONS.md`, **E-R189-1**: Rechercheeinstieg nachgetragen. `planungsgrundlagen` fuehrt in
+`wiki/recht-norm-pbg-revision-bauen-im-bestand.md` Z. 96-97 zwei **haengige** ZH-Postulate zu genau
+diesem Gegenstand — **KR-Nr. 87/2024** «Weniger Buerokratie bei Solaranlagen» und **88/2024**
+«Meldeverfahren Solaranlagen vereinfachen», beide im Paket der PBG-Revision «Bauen im Bestand».
+Sie **beantworten die Frage nicht** (haengig, nicht erlassen), zeigen aber, dass ZH den Punkt
+bearbeitet, und sind der Schritt vor einer Volltextsuche in PBG/BZO. Gegenzeiger dort gesetzt;
+keine der beiden Seiten kannte die andere.
+
+`destillate/wdvs-brandriegel-fassadendaemmung-vkf.md`: **Fuehrungszeiger** auf
+`wissen/normen/destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md` Z. 42 f. (Ziff. 2.2
+Abs. 2) gesetzt. Die drei Abstandswerte (5 / 7.5 / 10 m) sind **korrekt und deckungsgleich** — sie
+standen hier nur ohne Zeiger und damit **ohne Fassungsstand**. Das ist der Grund: BRL **15-15de**
+existiert in zwei Druckstaenden (Titelblatt 01.01.2015 unrevidiert, 01.01.2017 revidiert nach
+IOTH-Beschluss 22.09.2016) unter **gleicher Nummer**, und die Revision fasste u.a. **Ziff. 2.2
+Abs. 2+3 und Ziff. 2.4** an — dieselbe Fassungsfalle, die `normen` Run 82 am selben Tag erneut
+vermass. Der Vorbehalt geht mit: die fuehrende Quelle traegt `status: speculative`, was die
+Abdeckungsrichtung betrifft, nicht die Richtigkeit der Werte (0 falsche Werte in den Runs 80-82,
+Rule `normen-referenz` Ziff. 1b/1c). Kein Wert veraendert.
+Bericht: `wissen/koordination/outputs/2026-09-09_wissens-chef-run56.md`.
+
 ## 2026-09-09 (Run 189) — Rueckstand einer KB-weiten Korrektur, Waechter-Selbstbefund behoben, E-B142-1 geschlossen
 
 Antrieb: **Pruefwarteschlange** (PROGRAMM.md seit 24.08.2026), nicht die Dateiliste. Der
