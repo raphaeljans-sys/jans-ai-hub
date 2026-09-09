@@ -53,6 +53,60 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-10 00:57 — [FREI] **Der P1 des Vorlaufs war halb falsch verortet: `wissen/archiv-fachwissen/` existiert nicht und hat nie existiert — `archiv-fachwissen` ist ein KORPUS-Name, nicht eine KB. Die Sache dahinter bleibt aber richtig und wird praeziser: die Ziel-KB `architektur-fachwissen` bekommt seit dem 03.09. keinen Zufluss mehr. Kontingent liegt 19.7 Punkte hinter dem Zeitverlauf.**
+
+**Lage.** Fenster FREI, PATH-Probe rc=0 in **8 s**. Kontingent 16.6 % von 167 Mio bei **36.3 %**
+verstrichener Woche, Vorsprung **-19.7 Punkte** (MacBook 18.46, Mini 9.22 Mio) — der Rueckstand
+waechst weiter (vgl. -14.5 gestern Mittag, -10.5 vorgestern). Keine Waisen, Speicherdruck 1,
+rund 4.1 GB frei+inaktiv. Liefer-Delta der letzten 13 h in sechs KBs: energie 9 Dateien,
+koordination 5, planungsgrundlagen 3, claude-code 3, baurecht 1, tools 1. Kein Delta-Null-Loop.
+Feuermechanismen im Sollstand: beide `vollgas-*`-plists tragen weiterhin `.disabled-260729` und
+sind auf keiner Station geladen, `ch.jans.nachtschicht` laeuft auf dem Mini, keine Doppelfeuerung.
+
+**Befund 1 — Korrektur am eigenen Vorlauf: der Pfad, den der 12:57-Eintrag als «verwaist» meldete,
+gibt es nicht.** `ls /Volumes/daten/jans-ai-hub/wissen/archiv-fachwissen/` liefert nichts, und
+`git log` kennt den Pfad nicht. Das ist kein geloeschtes Verzeichnis, sondern eine Verwechslung
+von Korpus und Wissensbasis: CLAUDE.md fuehrt `architektur-fachwissen` ausdruecklich als
+«Ziel-KB der Korpora `buero-referenzen` + `archiv-fachwissen`». Die beiden Korpus-Namen bezeichnen
+Quellbestaende, nie Verzeichnisse unter `wissen/`. Ein Befund «Verzeichnis verwaist» ueber einen
+Pfad, der nie existierte, waere bei einer Uebernahme in ein Register zu einer Dauerfehlaussage
+geworden — gleiche Familie wie Rule `auto-verbesserungen` 260807: **ein leerer Messwert ist
+zuerst eine Aussage ueber die Messung.**
+
+**Befund 2 — die Sache dahinter besteht, richtig benannt.** Die Ziel-KB
+`wissen/architektur-fachwissen/` steht bei **482 Wiki-Artikeln** und hat seit dem **03.09.2026
+23:30** keine Aenderung mehr, also sieben Tage. Ihr Taktgeber, die Lane FACHWISSEN, endete am
+**31.08.2026 11:02** planmaessig («Frist erreicht — beende.»); ein Nachfolger wurde nie benannt.
+Es verbrennt also nichts — das ist kein Leerlauf —, aber die groesste gewachsene KB des Hub
+bekommt keinen Zufluss, waehrend das Kontingent 19.7 Punkte Reserve traegt. Am Rand vermerkt:
+CLAUDE.md nennt fuer dieselbe KB noch «Stand 09.09.2026 480 Wiki-Artikel», gezaehlt sind 482.
+
+**Befund 3 — die Mini-Registry hat einen Task mehr als der Sollstand dieses Auftrags.** Gemessen
+neun statt acht: neu ist `bauleitung-training`. Kein Widerspruch im Betrieb, nur eine veraltete
+Sollstand-Liste in der Beschreibung dieses Radars. Nicht selbst geaendert.
+
+**Selbstkontrolle bestanden.** Letzter Eintrag 09.09. 12:57, dieser Lauf 10.09. 00:57 — 12 h bei
+12 h Takt und 15 h Toleranz. `lastRunAt` der eigenen Task deckt sich mit diesem Lauf.
+
+**Gegenmessung PATH-Probe, zweiter Lauf in Folge:** rc=0 in 8 s, Symlink unveraendert auf 2.1.236.
+Die am 03.09. aufgehobene Wedge-Annahme bleibt aufgehoben; die Reihe lautet nun 13 s (03.09.),
+… , 8 s (heute). Der Regelweg wird weiter bei jedem Lauf einmal guenstig gegengemessen.
+
+**P1 — Zufluss fuer `architektur-fachwissen` entscheiden (Vorlage an Raphael, nicht selbst
+gehandelt).** Drei Wege stehen offen: (a) die Lane FACHWISSEN mit neuer Frist wieder anstossen,
+(b) die KB als saturiert erklaeren und die Kapazitaet auf eine andere Luecke lenken, (c) den
+zweiten Korpus `buero-referenzen` als naechste Quelle aufnehmen. Der Radar entscheidet das nicht:
+eine Lane wieder anzustossen ist ein Takt-Entscheid, und Takt-Entscheide liegen seit dem
+25.07.2026 bei Raphael. Keine Mail — kein Sendegrund nach Rule 260803 (Hub-Internum ohne
+Aussenwirkung, kein Blocker).
+
+**P2 — Kontingent-Rueckstand.** -19.7 Punkte und wachsend. Solange der Wochen-Entscheid vom
+03.08. («gleichmaessig ueber die Woche») gilt, ist das kein Fehler, sondern Reserve. Es ist aber
+das Argument fuer P1: die Kapazitaet fuer eine Wiederaufnahme ist da.
+
+**P3 — Sollstand-Liste der Mini-Registry in dieser Task-Beschreibung nachziehen** (acht → neun,
+`bauleitung-training`). Kosmetik, beim naechsten Anfassen der Beschreibung.
+
 ## 2026-09-09 12:57 — [FREI] **Ein uebergebener Befund praezisiert, ein groesserer dahinter: der Korpus `archiv-fachwissen` ist seit dem 31.08. VERWAIST, nicht leergelaufen. Sein Taktgeber (Lane FACHWISSEN) wurde geordnet beendet, ein Nachfolger nie benannt. Kontingent liegt 14.5 Punkte hinter dem Zeitverlauf — Kapazitaet fuer die Wiederaufnahme waere da.**
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 09.09. 00:57, dieser Lauf 12:57 — **12 h 00 min** bei 15 h Toleranz (Takt 12 h + 3 h). Kein verpasster Slot.
