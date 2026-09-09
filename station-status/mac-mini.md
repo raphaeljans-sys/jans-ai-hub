@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.09.2026 08:12:51
+Stand: 09.09.2026 08:23:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 08:12:51
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 237ba6073 mahnwesen-verzugscheck 09.09.2026: Nachtrag im Fristen-Register auf echte Umlaute korrigiert
+- 36341a518 nas-selfcommit: 1 Datei(en) 2026-09-09 08:15
