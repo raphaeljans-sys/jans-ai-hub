@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 10.09.2026 01:11:04
+Stand: 10.09.2026 01:21:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 01:11:04
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- ab640c8ae vollgas-radar 10.09. 00:57: Fenster FREI, Kontingent 16.6% bei 36.3% Woche (-19.7 Pkt); P1 des Vorlaufs korrigiert — archiv-fachwissen ist Korpus, nicht KB; Ziel-KB architektur-fachwissen seit 03.09. ohne Zufluss (482 Artikel, Lane FACHWISSEN 31.08. beendet)
+- 3e8f38276 nas-selfcommit: 3 Datei(en) 2026-09-10 01:15
