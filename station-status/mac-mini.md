@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.09.2026 08:23:08
+Stand: 09.09.2026 08:43:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 08:23:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 36341a518 nas-selfcommit: 1 Datei(en) 2026-09-09 08:15
+- 90900832b zahlungsabgleich-check 09.09.2026: Registernachtrag auf echte Umlaute korrigiert

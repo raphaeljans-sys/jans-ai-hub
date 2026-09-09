@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.09.2026 08:27:43
+Stand: 09.09.2026 08:38:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:26)
@@ -12,4 +12,4 @@ Stand: 09.09.2026 08:27:43
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 33945f1be zahlungsabgleich-check 09.09.2026: bexio-Zugang Tag 32 tot (3x HTTP 401), kein Abgleich moeglich; Abo-Entscheidfrist 08.09. verstrichen
+- 90900832b zahlungsabgleich-check 09.09.2026: Registernachtrag auf echte Umlaute korrigiert
