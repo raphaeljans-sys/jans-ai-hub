@@ -1,7 +1,7 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-09-09 (SZ-Kernzonen-Zeile auf Art. 18a RPG/Art. 32a-bis RPV ab 1.1.2026 nachgezogen, Bringschuld E-B142-1 Restpunkt 1; zuvor 2026-09-03 EIV-Marginalstaffel und Wegfall des Indach-Zuschlags ab 100 kWp ergänzt)
+last_updated: 2026-09-09 (neuer Abschnitt Solarstrukturen über Parkplatzarealen, Art. 18a Abs. 2bis RPG, schliesst E-B142-2; zuvor am selben Tag SZ-Kernzonen-Zeile auf Art. 18a RPG/Art. 32a-bis RPV ab 1.1.2026 nachgezogen, Bringschuld E-B142-1 Restpunkt 1; zuvor 2026-09-03 EIV-Marginalstaffel und Wegfall des Indach-Zuschlags ab 100 kWp ergänzt)
 datenstand: "2012 (ältester zitierter Quellenstand: TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012, EPFL/LESO — trägt weiterhin die Grundstruktur PV-Zelltypen, Integrationsarten und Bedarf→Technologie-Zuordnung; die dortigen Wirkungsgrad-Zahlen sind im Artikel selbst als «Stand 2012, heute höher» gekennzeichnet, nicht als abgelöst — vor Zitat in einem Aussendokument aktuelle Datenblätter/Marktzahlen prüfen, dafür `destillate/pv-marktzahlen-kosten-ch-2025.md`, Datenstand 2026-07-23)"
 sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/gvz-photovoltaik-melde-versicherungspflicht.md, destillate/vkf-richtlinie-gefaehrliche-stoffe.md, destillate/solarreport-solarapp-basel-2022.md, destillate/pv-spezialmodule-transparent-bifazial-datenblaetter.md, destillate/tachion-solarrechner-energieschweiz.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[holzbau-bauphysik-clt]], [[gvz-photovoltaik-melde-versicherungspflicht]], [[vkf-richtlinie-gefaehrliche-stoffe]], [[vkf-richtlinie-22-15-blitzschutzsysteme]], [[batteriespeicher]], [[pv-einmalverguetung-bund-bfe]]
@@ -285,6 +285,33 @@ Art. 32a-bis RPV. Die SZ-Zeile oben ist jetzt auf denselben Stand gebracht wie
 (2) der Bringschuld (neuer RPG-Artikeltitel «Solaranlagen und energetische Sanierungen»,
 Herkunft RPG 2 AS 2025 640) bleibt in `wiki/QUESTIONS.md` offen — andere Rechtsebene (Gesetzestitel,
 nicht Sachaussage dieses Artikels).
+
+## Solarstrukturen über Parkplatzarealen — Zonenkonformität kraft Bundesrecht (Art. 18a Abs. 2bis RPG)
+
+**Ergänzt 09.09.2026, schliesst E-B142-2.** Seit 1.1.2026 gilt eine zweite, von der Bewilligungsfrage
+oben unabhängige Neuerung: **Art. 18a Abs. 2bis RPG** (neu, gleiche Rechtsgrundlage wie die
+Fassaden-Erweiterung — BG vom 29.09.2023 über eine sichere Stromversorgung mit erneuerbaren
+Energien, AS 2024 679 / AS 2025 636) erklärt Solarstrukturen über Parkplatzarealen kraft
+Bundesrecht für **grundsätzlich zonenkonform**. Wortlaut: «In Bauzonen sind Strukturen, welche
+die Gewinnung von Solarenergie über und am Rande von Parkplatzarealen mit 15 oder mehr
+Parkplätzen ermöglichen, grundsätzlich zonenkonform. Die Gemeinden können in ihrer Raumplanung
+Parkplatzareale bezeichnen, bei denen solche Strukturen nicht oder nur unter gewissen
+Voraussetzungen zulässig sind; sie können solche Strukturen auch auf Arealen mit weniger als 15
+Parkplätzen für grundsätzlich zonenkonform erklären.»
+
+**Andere Rechtsfrage als oben:** Abs. 1 (Fassaden) und Abs. 2bis (Parkplätze) regeln beide
+Solaranlagen, aber unterschiedliche Ebenen — Abs. 1 die **Bewilligungspflicht** (Meldeverfahren
+statt ordentlichem Verfahren), Abs. 2bis die **Zonenkonformität** (ob die Struktur unter dem
+Zonenplan überhaupt zulässig ist). Eine kommunale Zonenordnung, die Solarüberdachungen über
+Parkplätzen nicht vorsieht, ist damit für Areale ab 15 Parkplätzen von Bundesrechts wegen
+überholt — ausser die Gemeinde hat das Areal ausdrücklich ausgenommen oder eingeschränkt. Ob
+zusätzlich ein Bewilligungs- oder Meldeverfahren nötig ist, bleibt eine gesonderte, kantonal
+unterschiedlich beantwortete Frage (vgl. Abschnitt Ortsbildschutz/Kernzone oben).
+
+**Praktisch relevant** für Areal-/Gewerbeentwicklungen und Healthcare-Bauten mit grossflächiger
+Besucherparkierung (≥15 Plätze): die Zonenordnung selbst liefert keinen Ausschlussgrund mehr,
+eine kommunale Ausnahmeregelung für das konkrete Areal aber schon — vor Projektstart bei der
+Gemeinde abklären. → Bauherren-FAQ **F290**.
 
 ## Quelle
 TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012 (EPFL/LESO) → `[[tec21-solares-bauen-pv-typen-2012]]`.

@@ -1,5 +1,33 @@
 # CHANGELOG
 
+## 2026-09-09 (Nachtschicht Mac Mini, Prioritaet 5) — E-B142-2 geschlossen: Solarstrukturen über Parkplatzarealen (Art. 18a Abs. 2bis RPG)
+
+Priorität 4 (nächste fällige Trainingslektion) entfiel: `bauprodukte`, `grobkosten`,
+`projekt-lessons`, `immobilienbewertung` und `spec` sind Ereignis-Trigger/erledigt, die übrigen
+KBs mit `training/PROGRAMM.md` haben einen eigenen Taktgeber. `energie` selbst wurde in dieser
+Nacht bereits durch einen früheren Slot angefasst (Restpunkt 1 der Bringschuld E-B142-1). Der
+verbleibende, noch unbearbeitete Fachbefund aus derselben Bringschuld war **E-B142-2**
+(`wiki/QUESTIONS.md`) — passt direkt auf Priorität 5 (offene QUESTIONS.md recherchieren und ins
+Wiki kompilieren).
+
+- **`wiki/pv-solar-technologien.md`**, neuer Abschnitt «Solarstrukturen über Parkplatzarealen —
+  Zonenkonformität kraft Bundesrecht (Art. 18a Abs. 2bis RPG)»: seit 1.1.2026 sind
+  Solarstrukturen über/am Rand von Parkplatzarealen ab 15 Parkplätzen in Bauzonen grundsätzlich
+  zonenkonform (Bundesrecht schlägt kommunale Zonenordnung), Gemeinden können Ausnahmen setzen
+  oder die Schwelle senken. Abgegrenzt gegen Abs. 1 (Bewilligungsfreiheit Fassaden, F268): hier
+  geht es um Zonenkonformität, nicht um die Bewilligungspflicht.
+- **`wiki/BAUHERREN-FAQ.md` F290 neu** — «Wir planen ein Parkhaus/Parkplatzareal … dürfen wir
+  eine Solarüberdachung bauen, auch wenn die Zone das nicht vorsieht?», mit Bauherren-Transfer
+  für Areal-/Gewerbeentwicklungen und Healthcare-Bauten mit Besucherparkierung.
+- **`wiki/QUESTIONS.md`**: E-B142-2 auf `[x]` gesetzt, Schliessungsvermerk mit Fundstellen.
+- **Kein neues Primärquellenmaterial gelesen** — der Wortlaut war bereits über die
+  Cross-KB-Übergabe aus `wissen/baurecht` (Buch-Run 142, 07.09.2026, amtlicher Fedlex-Volltext
+  RPG Stand 1.1.2026) verifiziert im eigenen `wiki/QUESTIONS.md` hinterlegt; dieser Lauf hat ihn
+  nur destilliert und ins Wiki verdichtet, keine neue Recherche nötig.
+- **Kein Subagent** (Umfang unter der 10-Werkzeugaufrufe-Schwelle, Rule `modellwahl-routine`).
+
+Bericht: `outputs/2026-09-09_energie-e-b142-2.md`.
+
 ## 2026-09-09 (Nachtschicht Mac Mini) — Bringschuld E-B142-1, Restpunkt 1 geschlossen: `pv-solar-technologien.md` SZ-Zeile nachgezogen
 
 Der Wissens-Chef-Nachtrag vom 08.09.2026 (Lauf 55) hatte in `wiki/pv-solar-technologien.md`

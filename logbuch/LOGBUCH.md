@@ -12053,3 +12053,28 @@ gebracht wie `wiki/BAUHERREN-FAQ.md` F268 und `wiki/solarpflicht-schweiz-kantone
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 0.3 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-09 (Nachtschicht Mac Mini, Versuchs-Slot) — energie: Bringschuld E-B142-2 geschlossen
+
+Prioritaeten 1-3 ohne offenen Punkt (remote-tasks/sync-tasks leer; Synobsis Stufe 2 aktuell,
+bereits am 08.09. bestaetigt; die zwei offenen Fristen-Positionen — Steinbruechelstrasse 26/28
+Frist heute, KISPI Los 231.10 Tuerenfreigabe — tragen bereits versandbereite Entwuerfe aus
+frueheren Laeufen, nichts Neues aufzubereiten, kein Versand). Prioritaet 4 entfiel: `energie`
+wurde in dieser Nacht bereits im 02:30-Slot angefasst (Restpunkt 1 derselben Bringschuld), ein
+zweiter voller Trainingslauf waere Doppelarbeit auf demselben erschoepften Katalog-Korpus (Run
+188 vom 08.09.). Stattdessen Prioritaet 5: der verbleibende Fachbefund derselben Bringschuld war
+**E-B142-2** (`wissen/energie/wiki/QUESTIONS.md`) — Art. 18a Abs. 2bis RPG, Solarstrukturen ueber
+Parkplatzarealen, von `wissen/baurecht` am 07.09. uebergeben, seither unbearbeitet.
+
+Neuer Abschnitt in `wiki/pv-solar-technologien.md` («Solarstrukturen ueber Parkplatzarealen —
+Zonenkonformitaet kraft Bundesrecht»), neue Bauherren-Antwort F290 in
+`wiki/BAUHERREN-FAQ.md`, E-B142-2 in `QUESTIONS.md` auf `[x]`. Kein neues Primaerquellenmaterial
+gelesen — der Wortlaut lag bereits verifiziert (amtlicher Fedlex-Volltext RPG Stand 1.1.2026) aus
+der Cross-KB-Uebergabe vor; dieser Lauf hat destilliert und verdichtet, nicht recherchiert.
+Bewusst abgegrenzt gegen den Nachbarabsatz: Abs. 2bis regelt die Zonenkonformitaet, nicht die
+Bewilligungspflicht (die bleibt bei F268/Kanton). CHANGELOG-Eintrag gesetzt, Bericht
+`wissen/energie/outputs/2026-09-09_energie-e-b142-2.md`.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 2.1 von 5 USD. Zyklus sauber beendet.

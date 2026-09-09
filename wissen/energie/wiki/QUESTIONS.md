@@ -8752,7 +8752,7 @@ Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetze
   **Zur Vermeidung einer Fehlbuchung:** F268 schliesst laut eigener Schlusszeile die
   Vorgängerbringschuld **E-B141-1**, nicht diesen Punkt — B141 und B142 nicht verwechseln.
 
-- [ ] **E-B142-2 (P2) — Art. 18a Abs. 2bis RPG neu: Solarstrukturen über Parkplatzarealen.**
+- [x] **E-B142-2 (P2) — Art. 18a Abs. 2bis RPG neu: Solarstrukturen über Parkplatzarealen.** ✓ 2026-09-09 (Nachtschicht Mac Mini).
   In Bauzonen sind Strukturen, welche die Gewinnung von Solarenergie **über und am Rande von
   Parkplatzarealen mit 15 oder mehr Parkplätzen** ermöglichen, **grundsätzlich zonenkonform**.
   Die Gemeinden können in ihrer Raumplanung Areale ausnehmen oder an Voraussetzungen binden und
@@ -8761,6 +8761,16 @@ Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetze
   relevant für Arealentwicklungen und Healthcare-Bauten mit Besucherparkierung — Kandidat für
   einen eigenen Abschnitt in `wiki/pv-solar-technologien.md` oder
   `wiki/pv-eigenverbrauch-zev.md`.
+
+  **Geschlossen:** neuer Abschnitt «Solarstrukturen über Parkplatzarealen» in
+  `wiki/pv-solar-technologien.md` (nach dem Ortsbildschutz/Kernzone-Absatz) plus neue
+  Bauherren-Antwort **F290** in `wiki/BAUHERREN-FAQ.md`. Abgegrenzt gegen die benachbarte
+  Bewilligungsfrage: Abs. 2bis regelt die **Zonenkonformität**, nicht die **Bewilligungspflicht**
+  (die bleibt Sache des kantonalen Verfahrensrechts, vgl. F268). Quelle: amtlicher
+  Fedlex-Volltext RPG Stand 1.1.2026 (ELI cc/1979/1573), verifiziert über
+  `wissen/baurecht/raw/260907_amtlich_ch_rpg2-inkraft-art16-24c-rpv38a.md` (Buch-Run 142,
+  07.09.2026) — kein neues Primärquellenmaterial gelesen, nur der bereits verifizierte Wortlaut
+  aus der Cross-KB-Übergabe verarbeitet.
 
 - **Merkposten zur Zitierhygiene:** zwei verschiedene Bundesgesetze **desselben Datums**
   (29. Sept. 2023) treten **am selben Tag** (1.1.2026) in Kraft und ändern beide Art. 18a RPG.
