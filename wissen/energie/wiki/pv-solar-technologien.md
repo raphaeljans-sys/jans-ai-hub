@@ -1,7 +1,7 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-09-03 (EIV-Marginalstaffel und Wegfall des Indach-Zuschlags ab 100 kWp ergänzt)
+last_updated: 2026-09-09 (SZ-Kernzonen-Zeile auf Art. 18a RPG/Art. 32a-bis RPV ab 1.1.2026 nachgezogen, Bringschuld E-B142-1 Restpunkt 1; zuvor 2026-09-03 EIV-Marginalstaffel und Wegfall des Indach-Zuschlags ab 100 kWp ergänzt)
 datenstand: "2012 (ältester zitierter Quellenstand: TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012, EPFL/LESO — trägt weiterhin die Grundstruktur PV-Zelltypen, Integrationsarten und Bedarf→Technologie-Zuordnung; die dortigen Wirkungsgrad-Zahlen sind im Artikel selbst als «Stand 2012, heute höher» gekennzeichnet, nicht als abgelöst — vor Zitat in einem Aussendokument aktuelle Datenblätter/Marktzahlen prüfen, dafür `destillate/pv-marktzahlen-kosten-ch-2025.md`, Datenstand 2026-07-23)"
 sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/gvz-photovoltaik-melde-versicherungspflicht.md, destillate/vkf-richtlinie-gefaehrliche-stoffe.md, destillate/solarreport-solarapp-basel-2022.md, destillate/pv-spezialmodule-transparent-bifazial-datenblaetter.md, destillate/tachion-solarrechner-energieschweiz.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[holzbau-bauphysik-clt]], [[gvz-photovoltaik-melde-versicherungspflicht]], [[vkf-richtlinie-gefaehrliche-stoffe]], [[vkf-richtlinie-22-15-blitzschutzsysteme]], [[batteriespeicher]], [[pv-einmalverguetung-bund-bfe]]
@@ -266,21 +266,25 @@ eigene, weiterreichende BZO-Gestaltungsvorschriften zu verankern — ältere res
 Kernzonen-Klauseln («nur Indachanlagen», genereller Ausschluss) stuft er selbst als
 bundesrechtswidrig ein (§ 238 Abs. 4 PBG privilegiert die Solaranlage in der Interessenabwägung).
 In Kt. SZ fehlt ein vergleichbares Kernzonen-Sonderregime; dort gilt mangels eigener Norm das
-allgemeine Bundesrecht (Meldeverfahren bei genügender Anpassung, Art. 18a RPG/Art. 32a RPV).
-→ Bauherren-FAQ **F166**, Destillat `[[ortsbildschutz-kernzone-solaranlagen-zh-sz]]`.
+allgemeine Bundesrecht: seit **1.1.2026** Meldeverfahren bei genügender Anpassung auf Dächern
+**oder an Fassaden** (Art. 18a Abs. 1 RPG, Fassung gemäss BG vom 29.09.2023 über eine sichere
+Stromversorgung mit erneuerbaren Energien, AS 2024 679 / AS 2025 636), für Fassadenanlagen
+konkretisiert durch den eigenen Kriterienkatalog in **Art. 32a-bis RPV** (V vom 15.10.2025,
+AS 2025 659 — eine von sieben Voraussetzungen nach Abs. 1 genügt, dazu Zusatzanforderungen nach
+Abs. 2, soweit kantonales Recht nichts anderes vorsieht). Vor dem 1.1.2026 erfasste Art. 18a RPG
+nur Dachanlagen; die Erweiterung auf Fassaden ist damit für Kt. SZ (ohne eigenes
+Fassaden-Sonderregime wie ZH § 2a BVV) unmittelbar wirksam.
+→ Bauherren-FAQ **F166**, **F268**, Destillat `[[ortsbildschutz-kernzone-solaranlagen-zh-sz]]`,
+`wiki/solarpflicht-schweiz-kantone.md` Z. 88-116, `[[fassaden-solaranlagen-bewilligungsfreiheit-zh-2026]]`.
 
-⚠ **Fassungsstand, Nachtrag Wissens-Chef Lauf 55, 08.09.2026:** die SZ-Zeile oben nennt
-«Art. 18a RPG/Art. 32a RPV» — das ist der Stand **vor** dem 01.01.2026. Seither erfasst
-**Art. 18a Abs. 1 RPG** Solaranlagen «auf Dächern **oder an Fassaden**» (BG vom 29.09.2023, RPG 2,
-AS 2024 679 / AS 2025 636), und die Voraussetzungen für Fassadenanlagen stehen im **neuen
-Art. 32a-bis RPV** (eine von sieben Voraussetzungen genügt, Abs. 2). Beides führt diese KB bereits
-belegt an anderer Stelle — `wiki/BAUHERREN-FAQ.md` **F268** und
-`wiki/solarpflicht-schweiz-kantone.md` Z. 88-116, dazu das Destillat
-`[[fassaden-solaranlagen-bewilligungsfreiheit-zh-2026]]` —, nur dieser Artikel wurde nicht
-nachgezogen (er trägt `last_updated: 2026-09-03`, also nach F268). Rechtlicher Wortlaut und
-Systematik führend: `wissen/baurecht/buecher/band-2/13-weitere-grundanforderungen.md` und
-`.../21-bauen-ausserhalb-bauzonen.md` (Buch-Run 142, 07.09.2026). Der Restpunkt gehört zur offenen
-Bringschuld **E-B142-1** in `wiki/QUESTIONS.md`.
+✓ **Nachgezogen 09.09.2026 (Nachtschicht Mac Mini) — Restpunkt (1) der Bringschuld E-B142-1
+geschlossen.** Der Wissens-Chef-Nachtrag vom 08.09.2026 (Lauf 55) hatte hier den veralteten
+Stand «Art. 18a RPG/Art. 32a RPV» markiert, ohne die Fassaden-Erweiterung und ohne
+Art. 32a-bis RPV. Die SZ-Zeile oben ist jetzt auf denselben Stand gebracht wie
+`wiki/BAUHERREN-FAQ.md` F268 und `wiki/solarpflicht-schweiz-kantone.md` Z. 88-116. Restpunkt
+(2) der Bringschuld (neuer RPG-Artikeltitel «Solaranlagen und energetische Sanierungen»,
+Herkunft RPG 2 AS 2025 640) bleibt in `wiki/QUESTIONS.md` offen — andere Rechtsebene (Gesetzestitel,
+nicht Sachaussage dieses Artikels).
 
 ## Quelle
 TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012 (EPFL/LESO) → `[[tec21-solares-bauen-pv-typen-2012]]`.

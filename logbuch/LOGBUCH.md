@@ -12025,3 +12025,31 @@ Commit `f2bf87873` (nativ via `nas-commit-now.sh`, verifiziert per ssh).
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 2.5 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-09 02:30 Nachtschicht Mac Mini — energie: Bringschuld E-B142-1 Restpunkt 1 geschlossen
+
+Priorisierung: Prioritaet 1 (remote-tasks/pending, sync-tasks/mac-mini) leer. Prioritaet 2
+(Synobsis-Embeddings) nicht offen, unveraendert seit 01.09. Prioritaet 3 (Fristen-Radar)
+geprueft: `logbuch/fristen.md` unveraendert seit 04.09. (jüngster Eintrag), beide offenen
+Punkte (Steinbrüchelstrasse 26/28 Versand, KISPI Los 231.10 Freigabe) sind bereits versandbereit
+bzw. verlangen Raphaels eigene fachliche Pruefung der Plaene — nichts fuer eine unbeaufsichtigte
+Zusammenstellung, nichts angefasst. Prioritaet 4: unter den gueltigen Zielen war `energie`
+(letzter Wiki-Stand 08.09. 23:30, Wissens-Chef Lauf 55, kein eigener Taktgeber) die einzige
+verbleibende KB ohne Stillegungs-/Ereignis-Trigger-Statuskopf und ohne erreichte Endbedingung
+(bauprodukte ERLEDIGT, grobkosten/projekt-lessons AUSGESETZT, baurecht/normen/
+planungsgrundlagen/wettbewerbs-dna eigener Taktgeber, immobilienbewertung/spec
+Ereignis-Trigger).
+
+Konkrete Einheit: `wissen/energie/wiki/QUESTIONS.md`, Bringschuld **E-B142-1**, Restpunkt (1) —
+der Wissens-Chef-Nachtrag vom 08.09. hatte in `wiki/pv-solar-technologien.md` (SZ-Kernzonen-
+Absatz) den veralteten Rechtsstand «Art. 18a RPG/Art. 32a RPV» (galt bis 31.12.2025) markiert,
+ohne die seit 1.1.2026 geltende Fassaden-Erweiterung (Art. 18a Abs. 1 RPG, AS 2024 679/2025 636)
+und den neuen Kriterienkatalog Art. 32a-bis RPV (AS 2025 659). Absatz auf denselben Stand
+gebracht wie `wiki/BAUHERREN-FAQ.md` F268 und `wiki/solarpflicht-schweiz-kantone.md` Z. 88-116
+(beide bereits belegt, kein neues Primärquellenmaterial gelesen — reiner KB-interner Abgleich).
+`last_updated` des Artikels nachgezogen, `QUESTIONS.md` mit Schliessungs-Vermerk ergaenzt
+(Restpunkt 2, RPG-Artikeltitel, bleibt offen — andere Rechtsebene), CHANGELOG-Eintrag gesetzt.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 0.3 von 5 USD. Zyklus sauber beendet.

@@ -8741,6 +8741,14 @@ Verordnungsebene (Art. 32a/32a-bis RPV) betraf — hier geht es um die **Gesetze
   Beleg ist dort im selben Lauf gesetzt, die inhaltliche Einarbeitung steht aus. (2) Der neue
   Artikeltitel «Solaranlagen und energetische Sanierungen» ist in dieser KB nirgends geführt
   (`grep -rn "energetische Sanierungen"` → 5 Treffer, keiner zum RPG-Artikeltitel).
+
+  ✓ **Restpunkt (1) geschlossen 09.09.2026 (Nachtschicht Mac Mini).** `wiki/pv-solar-technologien.md`,
+  SZ-Kernzonen-Absatz: die veraltete Zeile «Art. 18a RPG/Art. 32a RPV» ist ersetzt durch den seit
+  1.1.2026 geltenden Wortlaut (Art. 18a Abs. 1 RPG inkl. Fassaden, AS 2024 679/2025 636; Art. 32a-bis
+  RPV, AS 2025 659), mit Verweis auf F268 und `wiki/solarpflicht-schweiz-kantone.md` Z. 88-116.
+  `last_updated` des Artikels nachgezogen. **Restpunkt (2) bleibt offen** — kein neues
+  Rechercheergebnis dazu, betrifft eine andere Rechtsebene (Gesetzestitel RPG 2, nicht die
+  Sachaussage des Artikels).
   **Zur Vermeidung einer Fehlbuchung:** F268 schliesst laut eigener Schlusszeile die
   Vorgängerbringschuld **E-B141-1**, nicht diesen Punkt — B141 und B142 nicht verwechseln.
 

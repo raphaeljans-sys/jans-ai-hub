@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 2026-09-09 (Nachtschicht Mac Mini) — Bringschuld E-B142-1, Restpunkt 1 geschlossen: `pv-solar-technologien.md` SZ-Zeile nachgezogen
+
+Der Wissens-Chef-Nachtrag vom 08.09.2026 (Lauf 55) hatte in `wiki/pv-solar-technologien.md`
+(SZ-Kernzonen-Absatz) einen veralteten Rechtsstand markiert: «Art. 18a RPG/Art. 32a RPV» galt
+nur bis 31.12.2025. Seit 1.1.2026 erfasst Art. 18a Abs. 1 RPG auch Fassaden (BG vom 29.09.2023
+über eine sichere Stromversorgung mit erneuerbaren Energien, AS 2024 679 / AS 2025 636), und
+Art. 32a-bis RPV (V vom 15.10.2025, AS 2025 659) stellt dafür einen eigenen Kriterienkatalog.
+Der Absatz ist jetzt auf denselben Stand gebracht wie `wiki/BAUHERREN-FAQ.md` F268 und
+`wiki/solarpflicht-schweiz-kantone.md` Z. 88-116 (Quelle für beide: Buch-Run 142, 07.09.2026,
+und Fedlex-Snapshots in `wissen/baurecht/raw/`). Kein neues Primärquellenmaterial gelesen —
+reiner Abgleich gegen bereits belegten KB-internen Stand. `wiki/QUESTIONS.md` bei E-B142-1 um
+den Schliessungs-Vermerk ergänzt (Restpunkt 2, RPG-Artikeltitel, bleibt offen — andere
+Rechtsebene). `last_updated` des Artikels nachgezogen.
+
 ## 2026-09-08 (Wissens-Chef Lauf 55, Cross-KB) — drei Fassungsstände nachgetragen; der Rückkanal hat im Messfenster NICHT versagt
 
 Fremdlauf der Koordinationsinstanz, alle Eingriffe additiv (0 entfernte Zeilen), alle Befunde
