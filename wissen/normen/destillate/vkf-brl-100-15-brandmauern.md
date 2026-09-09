@@ -1,5 +1,5 @@
 ---
-quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf"
+quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/04_Erlaeuterungen Brandschutz 2015/100-15_Brandmauern.pdf"
 herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzerläuterung 100-15de, 01.01.2015 (genehmigt TK VKF 23.09.2014)"
 gelesen: "S. 1-26 (komplett: Ziff. 1-7 vollständig, Anhang zu Ziff. 2.1/2.4/3.1/3.2/3.3/3.4/4.1/4.2/4.3/4.4/5.1/5.2/5.3 vollständig, Legende); Merge zweier Destillat-Fassungen am 13.07.2026, Kontrolle am Original-PDF S. 10-13"

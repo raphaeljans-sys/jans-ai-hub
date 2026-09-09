@@ -1,5 +1,5 @@
 ---
-quelle: "VKG-Publikationsportal Dokument BSPUB-1394520214-141 (Fassung 01.01.2017) gegen Hausbestand «PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf» (Fassung 01.01.2015)"
+quelle: "VKG-Publikationsportal Dokument BSPUB-1394520214-141 (Fassung 01.01.2017) gegen Hausbestand «PL - 02_Recht_Norm/02_Normen/VKF_Norm/04_Erlaeuterungen Brandschutz 2015/100-15_Brandmauern.pdf» (Fassung 01.01.2015)"
 herausgeber: VKF/AEAI/AICAA
 ausgabe: "VKF BRL 100-15de, Fassung 01.01.2017 (von der Technischen Kommission VKF am 29. September 2016 genehmigte Änderungen)"
 ersetzt: "Fassung 01.01.2015"
