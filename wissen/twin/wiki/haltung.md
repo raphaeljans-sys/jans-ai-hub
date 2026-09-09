@@ -2079,3 +2079,32 @@ weshalb Raphael im nächsten Vorgang noch verhandeln kann.
   Antwort an die Behörde, nicht in einer stillen Separatmail. Wer mitliest, sieht, wer was
   übernimmt. Verwandt mit dem Verteiler-Ausbau in [[beziehungsregister]] — Transparenz ist bei
   ihm zugleich Druckmittel und Haltung.
+
+## Fidelity 260909 — das Zugestaendnis wird an eine Gegenbedingung geknuepft, und der Schluss sichert Beweis
+
+Gold C (07.09.2026, Nachtrag Unterzuege an den Gipserunternehmer, Bauherrschaft im To).
+
+- **⭐ Der Nachtrag wird GEWAEHRT, nicht geprueft — und der Entscheid ist bereits gefallen.**
+  Eroeffnung: «**Nach Rücksprache mit der Bauherrschaft** würden wir Dir den Nachtrag in der
+  Höhe von CHF 4'785. Total für die beiden Unterzüge gewähren.» Raphael verhandelt nicht, er
+  **ueberbringt einen Entscheid**, den die Bauherrschaft getroffen hat, und nennt die
+  Ruecksprache im ersten Halbsatz.
+  Der Zwilling nahm den Vorgang als **Pruefung** und schrieb, er lege den Nachtrag nach
+  Bereinigung «zur Freigabe vor». Die Richtung stimmte (der Bauherr entscheidet), der
+  **Zeitpunkt** nicht: der Entscheid war schon da. Das ist eine neue, elfte Gestalt der
+  stabilsten Drift — der Zwilling kuendigt den Entscheid an, wo Raphael ihn **meldet**.
+- **⭐ Das Zugestaendnis traegt eine harte Gegenbedingung und eine benannte Ruckfallebene.**
+  «Wir würden diesen Nachtrag nur gewähren, **wenn insgesamt keine weitern Nachträge vorhanden
+  sind.** / **Ansonsten verzichten wir auf die Unterzüge.**» Drei Saetze, drei Funktionen:
+  Bitte um Bestaetigung, Bedingung, Konsequenz. Der Verzicht auf die Bauleistung ist als
+  Druckmittel ausdruecklich benannt — kein Konditional-Weichzeichner, kein «gegebenenfalls
+  muessten wir pruefen».
+- **⭐ Neue Endform: die Beweissicherung.** Der letzte Absatz ist weder Angebot noch naechster
+  Schritt noch Service-Satz: «Ich mache darauf aufmerksam, dass die Unterzugslinien im Angebot
+  **324508-1 Plananhang** klar und deutlich ersichtbar sind.» Raphael gewaehrt **und** haelt
+  aktenfest, dass der Unternehmer es haette sehen muessen — die Kulanz wird gegeben, ohne den
+  Anspruch darauf einzuraeumen. Fuer den Zwilling: wo ein Zugestaendnis gegen eine strittige
+  Leistungsgrenze gemacht wird, endet die Mail auf dem **Beleg**, nicht auf Waerme.
+- **«wir» und «ich» sauber satzweise getrennt**, wie im Block beschrieben: «**wir** … gewähren»
+  / «**Wir** würden … nur gewähren» / «**verzichten wir**» fuer die Buero-/Projekthandlung,
+  «**Darf ich Dich** Bitten» fuer die persoenliche Bitte. Vierter unabhaengiger Beleg.

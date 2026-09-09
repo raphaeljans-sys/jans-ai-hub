@@ -58,8 +58,7 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Gattungs-Messstand im Artikel. **Im Zweifel setzen.** Er trägt sein Objekt, der
   Schlusspunkt schwankt (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
-  **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)** — die Wiederholung
-  rahmt die dazwischenliegende Nachforderung ein; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
+  **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)**; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
   **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet — zwei Zeilen, nicht zwei
   Alternativen; ein vorhandenes «Freundliche Grüsse» beweist keinen Gruss-Entscheid.
   **«Beste Grüsse» steht auch im vertrauten Du** (260820). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel.** Anrede-Skala → [[beziehungsregister]].
@@ -71,7 +70,7 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   **fette Handlungsanweisung mit Ausrufezeichen auch im Sie** (260817); schlechte Nachricht
   kommentarlos quittieren.
 - **Die Bitte-Form richtet sich danach, WER den Druck erzeugt — vier Stufen (260805 + 260806);
-  bei der Anhangs-Lieferung ins Du eine fünfte, NOMINALE (260825, zweifach):** die Bitte wandert
+  bei der Anhangs-Lieferung eine fünfte, NOMINALE (260825, registeroffen 260909):** die Bitte wandert
   als Zweckangabe in den Liefersatz («… sende ich Dir den Baubeschrieb **mit der Bitte um
   Durchsicht**») — kein eigener Satz, kein Imperativ, kein «Darf ich Dich bitten».
   ich selbst, fremde Ressource/Amtshandlung (Geld, Unterschrift, Verwaltungsweg) → «**Darf ich
@@ -5584,3 +5583,55 @@ Roman Steinmann/Nova), beide durchgehend eigene Hand, mechanisch vorgeprueft.
   die Mikro-Marker fehlerfrei (Tausender-Apostroph 1'800, «%» mit Leerschlag, Du-Gross 1.0) und
   ist trotzdem an seiner Glätte und Kürze erkennbar. Der Befund ist damit nicht mehr Einzelfall
   eines Tages, sondern über zwei Fenster stabil.
+
+## Fidelity 260909 — der Rechnungs-Baustein, und die nominale Bitte steht auch im Sie
+
+Golds: `rj@` Sent 03.08.2026 12:46 «re-00100.pdf» an Privera + Huwiler Services AG, Cc Nova
+(Gold D, 28 W); 03.08.2026 12:30 «zahlungserinnerung-re-00101.pdf» an Fam. Tschopp (Gold E,
+26 W); 07.09.2026 12:37 «Unterzüge & Gesamtkosten» an Estermann + KISPI (Gold C, 108 W). Alle
+drei authentisch (D/E ohne Claude-Marker, C mit `ms-outlook-mobile-*`, also eigene Hand).
+
+- **⭐ Die Rechnungs-/Zahlungsmail ist ein BAUSTEIN, kein frei formulierter Text.** Gold D und
+  Gold E liegen **16 Minuten** auseinander und gehen an voellig verschiedene Empfaenger — eine
+  institutionelle Zahlstelle und einen privaten Bauherr-Partner im Du. Der Koerper ist
+  **identisch**, getauscht werden nur Anrede und Pronomen:
+
+  > `<Anrede>` · «Im Anhang [send ich Dir] die Rechnung `<dateiname.pdf>` **mit der Bitte um**
+  > `<Handlung>`.» · «Bei Fragen oder Unklarheiten stehe ich [Ihnen/Dir] jederzeit gerne zur
+  > Verfuegung.» · «Freundliche Gruesse» + Block
+
+  Im **Sie** ist der Liefersatz **verblos** («Im Anhang die Rechnung …»), im **Du** traegt er
+  das Verb in der Apokope («Im Anhang **send ich Dir** die Rechnung …»). Der Zwilling soll
+  diese Gattung **reproduzieren, nicht neu formulieren**.
+- **⭐ Die NOMINALE Bitte gilt nicht nur im Du (Einschraenkung von 260825 widerlegt).** Der
+  Block fuehrte die fuenfte, nominale Stufe als «bei der Anhangs-Lieferung **ins Du**». Gold D
+  traegt sie im **Sie**, gegenueber einer juristischen Person: «mit der Bitte um Kontrolle und
+  Ueberweisung». Die Form haengt an der **Gattung** (Anhangs-Lieferung), nicht am Register.
+  Zugleich dritter Beleg fuer «eine Bitte, zwei Gegenstaende, mit ‹und› verbunden».
+  **Kompiliert** (die Einschraenkung «ins Du» gestrichen).
+- **Die Belegnummer ist hier der blosse DATEINAME, klein und mit Endung** («re-00100.pdf»),
+  identisch mit dem Betreff und im Body wiederholt. Die Form «RE-00079 **(PDF)**» aus 260816
+  gilt fuer die Belegnummer **im Fliesstext einer Sachmail**; wo die Datei selbst der Vorgang
+  ist, steht der Dateiname. Betreff = Dateiname = Body-Nennung, dreifach — die Redundanz ist
+  die Ablageadresse, kein Versehen.
+- **Der Service-Satz steht in BEIDEN Bagatellmails**, wortgleich bis aufs Pronomen. Er ist
+  damit auch fuer die 26-Woerter-Abwicklung belegt — die Arbeitsanweisung «im Zweifel setzen»
+  haelt. Der Zwilling liess ihn in beiden Blindfassungen weg und ersetzte ihn einmal durch
+  «Besten Dank.»; das ist derselbe Verlust wie am 08.09.
+- **Der Apostroph haengt an der GATTUNG, nicht am Register (praezisiert 260821).** Gold C ist
+  eine **Du**-Mail an einen Unternehmer und schreibt durchgehend «4'785.-», «3'060.-»,
+  «1'725.-» — keine Kurzzahl, kein «4.8K». Die Kurzzahl aus 260821 gehoert dem **operativen
+  Peer-Du ohne bezifferte Forderung**; sobald ein Betrag ausgewiesen und bestaetigt werden
+  soll, steht der Apostroph, auch im Du.
+- **Verb-Grossschreibung, n = 8:** «Darf ich Dich **Bitten** dies uns so zu bestaetigen» (Gold
+  C). Das Muster reicht damit von 02/2026 bis 09/2026. Ebenfalls hier belegt: die Bitte endet
+  auf **Punkt**, nicht auf Fragezeichen.
+- **Inkonsistente Du-Grossschreibung als Authentizitaetssignal:** «Dich»/«Dir» gross, «**deine**
+  Angebote» klein, in derselben Mail. Dazu «keine **weitern**», «CHF 4'785**.** Total» und die
+  Positionsnummer einmal «2.039», einmal «2.39». Fehlerdichte Gold C: **3.7 je 100 W**, der
+  Zwilling 0.
+
+**Ausgelagert aus dem Do/Don't-Block (260909, Byte-Riegel):** zur Dankformel, die die Mail
+oeffnet und schliesst — **die Wiederholung rahmt die dazwischenliegende Nachforderung ein**.
+Das ist ihre Funktion; deshalb darf sie nie zu einem einzigen, aufgewerteten Dank verschmolzen
+werden. Die Regel selbst steht unveraendert im Block.

@@ -6053,3 +6053,28 @@ streichen kannst?
 *Warum:* Der Zwilling laengt diese Gattung reflexhaft auf 60+ Woerter auf. Wenn A und B
 zulaessige Zielformen sind, ist das die billigste Fidelity-Verbesserung, die der Harness
 kennt — sie kostet keine Byte im Gehirn, nur die Erlaubnis.
+
+**#6 [Beziehungsregister] Othmar Stadelmann — seit wann per Du, und weiss die Rule davon?**
+Am 07.09.2026 schreibst Du ihm «Geschätzter Othmar,» und durchgehend Du («würden wir **Dir**
+… gewähren», «Darf ich **Dich** Bitten»). Die Rule `rules/anrede-kontakte.md` fuehrt ihn
+**nicht** in der Kontaktliste, sondern nur im Klauseltext als **Sie**-Gegenbeleg (22.07.2026,
+«bleibt nach einem Telefonat bei ‹Geschätzter Herr Stadelmann›»). Wer heute dort nachschlaegt,
+bekommt den ueberholten Stand.
+*Konkret:* Seit wann seid Ihr per Du — und darf ich eine Zeile fuer ihn in die Kontaktliste
+aufnehmen? (Ich aendere die Rule nicht selbst; sie ist an Deine Freigabe gebunden.)
+*Warum:* Es ist ein sauberer dritter Punkt Deiner Anrede-Trajektorie (kalt 18.05. →
+«Geschätzter Herr» 22.07. → «Geschätzter Othmar» 07.09.) und bestaetigt, dass der Wechsel
+**verzoegert** kommt und nicht am Telefonat haengt. Fuer den naechsten Brief an ihn ist es
+entscheidend.
+
+**#7 [Fachsignatur] Der Rechnungs-Baustein — soll er als Vorlage fest hinterlegt werden?**
+Zwei Deiner Mails vom 03.08.2026, **16 Minuten** auseinander, an eine Zahlstelle und an einen
+privaten Bauherr-Partner, tragen **denselben** Koerper; getauscht sind nur Anrede und
+Pronomen: «Im Anhang [send ich Dir] die Rechnung `<dateiname.pdf>` mit der Bitte um
+`<Handlung>`.» + «Bei Fragen oder Unklarheiten stehe ich [Ihnen/Dir] jederzeit gerne zur
+Verfuegung.» + FG.
+*Konkret:* Soll der Zwilling das als **festen Textbaustein** fuehren und nur noch Anrede,
+Dateiname und Handlung einsetzen — statt jedes Mal neu zu formulieren?
+*Warum:* Er formuliert diese Gattung heute jedes Mal neu und verliert dabei zuverlaessig den
+Service-Satz und die nominale Bitte. Ein Baustein waere fehlerfrei und in Sekunden gesetzt;
+die Frage ist nur, ob Du das so willst oder ob Dir die Variation lieber ist.

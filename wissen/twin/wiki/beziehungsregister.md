@@ -416,7 +416,8 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
   geehrte. Behörde nach Vertrautheit UND Gewicht: bekannt→Geschätzte/r;
   unbekanntes Postfach: triviale Service-Bitte→namenloses «Guten Tag»/«Grüezi»,
-  gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Auch die Zahlungserinnerung ist namenlos, selbst im warmen Du (260831).**
+  gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Die Zahlungserinnerung ist beim INSTITUTIONELLEN Kontakt namenlos (260831); beim privaten
+  Partner hebt das Geldgewicht auf «Geschätzter <Vorname>,» (260909).**
   **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die
@@ -4233,3 +4234,40 @@ Rollenteilung statisch, hier ist die Erweiterung des Cc selbst der Vorgang.
   Technischer Planer) → **Sie**, Stufe schwankend wie oben; Linus Furrer (AfB Stadt Zürich) →
   **Sie**, «Geschätzter Herr Furrer»; Fabian Würsch (Kinderspital, Bauherrenseite) → **Du**,
   «Fabian, darf ich Dich bitten …».
+
+## Fidelity 260909 — drei Anreden, drei Fehlgriffe: die Zahlungserinnerung ist nicht generell namenlos
+
+Der Zwilling hat in diesem Lauf **3 von 3** Anreden verfehlt. Jede einzelne ist lehrreich.
+
+- **⭐ Die Zahlungserinnerung ist NICHT generell namenlos (260831 eingegrenzt).** Der Block
+  fuehrte: «Auch die Zahlungserinnerung ist namenlos, selbst im warmen Du». Gold E (03.08.2026,
+  Zahlungserinnerung an Stefan Tschopp, privater Bauherr-Partner) traegt **«Geschätzter
+  Stefan,»** — namentlich, mit Komma, gehobene Du-Stufe. Der Zwilling schrieb nach der Regel
+  «Guten Tag,» und lag falsch.
+  Die Trennlinie verlaeuft am **Kontakttyp**, nicht am Anlass: der Beleg von 260831 (und der
+  aeltere aus Batch 36) betrifft **Roman Steinmann**, einen institutionellen
+  Investor/Asset-Manager — dort faellt das Register bei Geldforderungen auf das namenlose
+  Minimum. Beim **privaten Bauherr-Partner** hebt dasselbe Geldgewicht die Stufe stattdessen
+  nach **oben** («Hoi Stefan» → «Geschätzter Stefan»), genau wie es die Anlassgewicht-Klausel
+  der Rule `anrede-kontakte` fuer ihn beschreibt. **Kompiliert.**
+- **⭐ Die Firmenanrede schlaegt die namentlich bekannte Empfaengerin.** Gold D geht an
+  `lena.domenig@privera.ch` (namentlich) **und** `260kredi@huwiler.ch` (Sammelpostfach), Cc
+  Nova. Angeredet wird **weder** die Person **noch** beide, sondern: «**Geschätzte Firma
+  Huwiler Services AG**» — ohne Schlusskomma, exakt die Form aus 260825. Die Handlung
+  (ueberweisen) liegt bei der Firma, also wird die Firma angeredet und die namentlich bekannte
+  Verwalterin uebergangen. Das verbindet zwei bestehende Marker zu einem: «gestapelt wird, wer
+  HANDELN muss» (260818) und «auch ein To-Empfaenger wird uebergangen» (260824) — hier wird
+  die **Person** zugunsten der **juristischen Person** uebergangen.
+- **⭐ Othmar Stadelmann steht im DU (Stand 07.09.2026) — die Rule fuehrt ihn im Sie.** Gold C:
+  «**Geschätzter Othmar,**», dazu «würden wir **Dir** … gewähren», «Darf ich **Dich** Bitten»,
+  «**deine** Angebote». Die Trajektorie ist damit dreipunktig belegt: 18.05.2026 kalt →
+  22.07.2026 «Geschätzter Herr Stadelmann» (Sie, **nach** einem Telefonat) → 07.09.2026
+  «Geschätzter Othmar» (Du).
+  **Das ist der Wechsel Sie → Du, den der Gegenbeleg vom 22.08.2026 fuer diesen Kontakt noch
+  ausgeschlossen hatte** — er ist eingetreten, nur **spaeter** und nicht am Telefonat. Damit
+  bestaetigt sich die Fassung «Stufe als Trajektorie, kein Standbild» (260823) und die
+  Warnung, dass der Kanalwechsel **verzoegert** wirkt, gegen die Sofortwirkungs-Lesart.
+  ⚠ **Die Rule `rules/anrede-kontakte.md` fuehrt Stadelmann nicht in der Kontaktliste, sondern
+  nur im Klauseltext als Sie-Gegenbeleg.** Wer dort nachschlaegt, erhaelt heute den ueberholten
+  Stand. Eine Rule-Aenderung nimmt dieser Lauf nicht vor (CHANGELOG 2026-07-25j: an Raphaels
+  Freigabe gebunden) — vorgelegt als [[QUESTIONS]] 260909b #6.

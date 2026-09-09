@@ -2,6 +2,14 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-09-09 — Ruecklauf aus dem twin-fidelity-review: Verdichtung verliert zuerst die Bedingung
+
+Neuer Report `outputs/2026-09-09_verdichtung-verliert-zuerst-die-bedingung.md`. Gemessen am
+Twin-Gehirn (38 dokumentierte Einschraenkungen in den Quell-Artikeln gegen 1 im kompilierten
+Block), verallgemeinert auf jede Kompilierung/Auslagerung im Hub: die Auswahlregel eines
+Kompilierers ist eine inhaltliche Entscheidung, und eine Groessengrenze selektiert
+systematisch gegen Bedingungen und fuer unbedingte Imperative. Rule `wissens-ruecklauf`.
+
 ## 2026-09-08 (methoden-radar, Monatslauf) — Scan ohne Delta; Rotation `3 EASY STEPS - the Spec` mit einem Befund
 
 Delta-Scan über `00 Prompteingaben`: 8 Ordner unverändert, kein neues Material. Verifikations-Rotation

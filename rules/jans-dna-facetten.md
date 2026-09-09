@@ -32,8 +32,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Gattungs-Messstand im Artikel. **Im Zweifel setzen.** Er trägt sein Objekt, der
   Schlusspunkt schwankt (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
-  **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)** — die Wiederholung
-  rahmt die dazwischenliegende Nachforderung ein; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
+  **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)**; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
   **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet — zwei Zeilen, nicht zwei
   Alternativen; ein vorhandenes «Freundliche Grüsse» beweist keinen Gruss-Entscheid.
   **«Beste Grüsse» steht auch im vertrauten Du** (260820). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel.** Anrede-Skala → [[beziehungsregister]].
@@ -45,7 +44,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   **fette Handlungsanweisung mit Ausrufezeichen auch im Sie** (260817); schlechte Nachricht
   kommentarlos quittieren.
 - **Die Bitte-Form richtet sich danach, WER den Druck erzeugt — vier Stufen (260805 + 260806);
-  bei der Anhangs-Lieferung ins Du eine fünfte, NOMINALE (260825, zweifach):** die Bitte wandert
+  bei der Anhangs-Lieferung eine fünfte, NOMINALE (260825, registeroffen 260909):** die Bitte wandert
   als Zweckangabe in den Liefersatz («… sende ich Dir den Baubeschrieb **mit der Bitte um
   Durchsicht**») — kein eigener Satz, kein Imperativ, kein «Darf ich Dich bitten».
   ich selbst, fremde Ressource/Amtshandlung (Geld, Unterschrift, Verwaltungsweg) → «**Darf ich
@@ -206,7 +205,8 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
   geehrte. Behörde nach Vertrautheit UND Gewicht: bekannt→Geschätzte/r;
   unbekanntes Postfach: triviale Service-Bitte→namenloses «Guten Tag»/«Grüezi»,
-  gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Auch die Zahlungserinnerung ist namenlos, selbst im warmen Du (260831).**
+  gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. **Die Zahlungserinnerung ist beim INSTITUTIONELLEN Kontakt namenlos (260831); beim privaten
+  Partner hebt das Geldgewicht auf «Geschätzter <Vorname>,» (260909).**
   **Passt bei einer Firmen-Sammeladresse weder Person noch «Sehr geehrte Damen und
   Herren», wird die juristische Person angeredet: «Geschätzte Firma <Name> AG», ohne Schlusskomma
   (260825).** Die

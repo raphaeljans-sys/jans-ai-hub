@@ -3311,3 +3311,35 @@ ein offen gelassener Platzhalter die richtige Antwort waere.
 - **Planlieferungs-Zyklus benannt:** «die Korrex von Tekosi der **zweiten Planlieferung**» —
   Lieferungen werden gezählt, die Korrex des Unternehmers ist ein eigener Planstand, und die
   Freigabe läuft über die Bauherrschaft, nicht über die Bauleitung allein (BKP-Los 231.10).
+
+## Fidelity 260909 — die Rechenkette steht doppelt: erst Herleitung, dann Zusammenzug
+
+Gold C (07.09.2026, Nachtrag Unterzuege) legt den Betrag **zweimal** offen, in zwei
+verschiedenen Formen, ohne Aufzaehlungszeichen und ohne Tabelle:
+
+1. **Herleitung je Position**, Positionsnummer + Raumname als Zeilenkopf, darunter das Mass
+   und die Multiplikation: «Unterzug 2.001 Aufenthalt / 3.0m + 7.2m = 10.2m / 10.2m x 300.-/lm
+   = 3'060.-» — die Addition der Teilstrecken steht als **eigene Zeile** vor der
+   Preisrechnung; der Einheitspreis traegt seine Bezugsgroesse im Nenner («/lm»).
+2. **Zusammenzug**, dieselben Positionen nur noch mit Ergebnis, darunter «**Total: 4'785.-**»
+   in Fett — die einzige Fettstelle der Mail.
+
+Das Total steht ausserdem schon im **Eroeffnungssatz**, bevor die Herleitung folgt: der Betrag
+zuerst, der Weg dorthin danach. Fuer den Zwilling: bei einer bezifferten Forderung an einen
+Unternehmer die Kette **ausschreiben** statt zusammenzufassen, und den Zusammenzug nicht als
+Doppelung streichen — er ist die bestaetigungsfaehige Fassung, die Herleitung die pruefbare.
+
+**Drei belegte Identifikatoren in 108 Woertern:** die Positionsnummern «2.001» und «2.039»
+(einmal verschrieben als «2.39»), die Angebotsnummer «**324508-1**» mit dem Zusatz
+«Plananhang». Die Blindfassung des Zwillings hatte **null** — sie umschrieb die Rechnung
+(«die Mengen decken sich mit dem Aufmass»), statt sie zu fuehren. Das ist die Kehrseite der
+Erfindungs-Regel: **wer nichts erfinden darf, muss die echten Zahlen beschaffen**, nicht die
+Rechnung weglassen. Erfindung und Umschreibung sind beide Ausweichbewegungen; nur die
+belegte Kette ist die Sache.
+
+⚠ **Nebenbefund BKP:** der Anhang heisst `LOS_271.10 Gipserarbeiten ESTERMANN_angepasst.pdf`.
+«271.10» ist **kein BKP-2017-Code** (Rule `bkp-2017-referenz`, Korrektur 04.08.2026), sondern
+eine bueroninterne Los-Nummer. Raphael verwendet sie so im Dateinamen — das ist zulaessig,
+solange sie nicht mit dem Praefix «BKP» geschrieben wird. Der Zwilling darf sie beim Zitieren
+eines solchen Dateinamens **nicht stillschweigend zu 271.0/271.1 korrigieren**, aber auch nie
+als BKP-Code ausgeben.

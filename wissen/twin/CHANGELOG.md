@@ -4,6 +4,39 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-09 (twin-fidelity-review) — das Gehirn erbt die Imperative und laesst die Bedingungen zurueck
+
+Gesamt-Fidelity **25** (nach 27). Golds: `rj@` Sent 03.08.2026 12:46 «re-00100.pdf» (Zahlstelle,
+Sie) und 12:30 «zahlungserinnerung-re-00101.pdf» (privater Partner, Du) — **beide im
+Ingest-Register nicht gefuehrt**, also unverbrauchte Proben — sowie 07.09.2026 12:37 «Unterzüge
+& Gesamtkosten» (Unternehmer, Du). Kandidatensuche nach **Gattung statt Fenster** (Empfehlung 4
+des Vorlaufs), mechanischer Vorpruefer ueber 11 Geld-Anlaesse.
+
+**Kernbefund:** `build_dna.py` kompiliert ausschliesslich den Do/Don't-Block; jede
+Einschraenkung im Artikel-Fliesstext erreicht das Gehirn nie, und der Byte-Riegel verdraengt
+unter Druck systematisch Bedingungen zugunsten von Imperativen. Gemessen **38** dokumentierte
+Einschraenkungen in den Artikeln gegen **1** im Gehirn. Drei Instanzen nachgezogen, darunter die
+Nachmelde-Zusage, deren Konditionalitaet («**Falls** Rueckfragen …») bei der Kompilierung
+verlorenging — **die stabilste Drift des Harness stand als Imperativ im Massstab**.
+
+Weiter: 3 von 3 Anreden verfehlt (Zahlungserinnerung ist nur beim institutionellen Kontakt
+namenlos — 260831 eingegrenzt; Firmenanrede schlaegt die namentlich bekannte Person); Othmar
+Stadelmann steht seit spaetestens 07.09. im **Du**, die Rule `anrede-kontakte` fuehrt den alten
+Sie-Stand (vorgelegt, nicht geaendert); die Rechnungsmail ist ein **fester Baustein** (zwei
+Mails, 16 Minuten, gegensaetzliches Register, identischer Koerper); neue Endform
+**Beweissicherung**; Laengenverteilung erstmals gezaehlt (**21.5 %** der Sendungen unter 16
+Woertern, 34 % des Sent-Ordners Maschinenpost); ein bisher **unerkanntes Claude-Erzeugnis** im
+unbearbeiteten Register-Rest gefunden (19.07.2026, 397 W, 0 Fehler).
+
+Kompiliert: nominale Bitte registeroffen (Einschraenkung «ins Du» widerlegt),
+Zahlungserinnerung eingegrenzt, drei Bedingungen aus dem Kernbefund. Riegel **zweimal**
+abgebrochen, zweimal verdichtet (Prosa in die Artikel, keine Regel verloren) — Auto-Block
+**33'985 B, Reserve 15 B**, die niedrigste je gemessene. Empfehlung 36'000 B zum fuenften Mal,
+neu mit inhaltlicher statt Platz-Begruendung.
+
+Geschrieben: `outputs/2026-09-09_fidelity.md`; Nachtraege in allen sechs Facetten ausser
+[[denken]]; `QUESTIONS.md` 260909b #1–#7.
+
 ## 2026-09-09 (twin-mail-training Batch 117) — Eskalationsmechanik eines Nachmittags
 
 `rj@` Sent Items **07.09.2026 16:20 bis 08.09.2026 16:57**, 16 Treffer beider Seiten, 5 Volltexte,

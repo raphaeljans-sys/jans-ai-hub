@@ -2795,3 +2795,29 @@ HTML-Klassen `ms-outlook-mobile-*` (eigene Hand) bzw. `Apple-Mail-URLShareWrappe
 (Claude-Weg). Der `_ `-Bullet zaehlt weiterhin **nicht** — in diesem Fenster steht ein echter
 «- »-Bullet aus Outlook Web im Gold. (6) **AfB ist geschlossen**; keine Behoerdenstelle mehr ohne
 eigenen Volltext offen.
+
+**Vom `twin-fidelity-review` 09.09.2026 verbrauchte Golds (Bringschuld an den Lern-Loop).**
+Dieser Review hat NICHT nach Zeitfenster, sondern nach **Gattung** gesucht (Geld-/Honorar-Anlass)
+und drei Mails im Volltext ausgewertet. Zwei davon fuehrte dieses Register bisher nicht:
+
+- **03.08.2026 12:46 «re-00100.pdf»** an `lena.domenig@privera.ch` + `260kredi@huwiler.ch`,
+  Cc Nova — 28 W, authentisch. Anrede «Geschätzte Firma Huwiler Services AG» (juristische
+  Person statt der namentlich bekannten Verwalterin), nominale Bitte im **Sie**, Service-Satz.
+- **03.08.2026 12:30 «zahlungserinnerung-re-00101.pdf»** an `fam_tschopp@greenmail.ch` — 26 W,
+  authentisch. «Geschätzter Stefan,» — **widerlegt** die Regel «Zahlungserinnerung ist namenlos,
+  selbst im warmen Du» (260831) fuer den privaten Kontakt.
+  Beide lagen im Register-Rauschen des Fensters von Batch 94 («2 Rechnungsversand-Mails mit
+  reinem Boilerplate-Text») und sind **ergiebiger als dort angenommen**: sie bilden zusammen
+  einen kontrollierten Vergleich (gleiche Gattung, 16 Minuten Abstand, gegensaetzliches
+  Register, identischer Textkoerper).
+- **07.09.2026 12:37 «Unterzüge & Gesamtkosten»** an Estermann + KISPI — 108 W, authentisch,
+  bereits ueber Batch 116 gefuehrt, hier erstmals im Volltext ausgewertet.
+
+⚠ **Fund fuer den Echo-Schutz, bitte beim naechsten Zugriff auf das Juli-Fenster beachten:**
+**19.07.2026 09:26 «AW: Umbau Kinderspital Zürich: Angebot O26.07-06, vier Punkte vor der
+Auftragsbestätigung»** (397 W) ist **`claude-aera`** und in diesem Register **nicht gefuehrt** —
+Batch 65 hat in jenem Fenster nur 8 von 34 Mails volltextdestilliert, 26 blieben als IDs
+vorgemerkt. Belege: 0 Fehler ueber knapp 400 Woerter, `Apple-Mail-URLShareWrapperClass`
+durchgehend, und die Hub-Chef-Selbstmail desselben Vormittags nennt unter «ERLEDIGT (autonom)»
+ausdruecklich die Pruefung genau dieser Offerte. **Nicht als Gold ziehen.** Der unbearbeitete
+Rest von Batch 65 ist auf weitere solche Stuecke zu pruefen.
