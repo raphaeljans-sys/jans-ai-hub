@@ -3,10 +3,10 @@ quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/01_Brandschutznorm 2015/1-15_Bran
 herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF 1-15:2015 (01.01.2015)"
 ersetzt: "Brandschutznorm vom 26. März 2003 (Art. 61 Abs. 2)"
-gelesen: "Vollstaendig, S. 1–17 (Inhaltsverzeichnis + Art. 1–61), Text-PDF vollstaendig extrahierbar"
+gelesen: "Vollstaendig, S. 1–17 (Inhaltsverzeichnis + Art. 1–61), Text-PDF vollstaendig extrahierbar. Textlayer-Typ gemessen Run 83 (260910): Producer «Microsoft Word 2010» = Typ C der Producer-Typologie (N82-1), bei dem «≤» als «<» plus Unterstrich gesetzt sein KANN — hier aber unkritisch, weil die Norm an den Grenzwertstellen sprachlich statt symbolisch formuliert («20 oder mehr Personen», «wenn ihre Grundflaeche 150 m2 nicht uebersteigt», «mehr als 1'200 m2»). Die Datei kodiert deshalb kein einziges ≤/≥; die fuenf Symbolwerte dieses Destillats sind Uebersetzungen des Wortlauts und am Textlayer belegt (Art. 2 Ziff. 2a/2b/2e). Der VKF-Sweep aus Run 82 hatte diese Datei in der Pruefmenge und negativ."
 datenstand: "2015"
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-09-10
 links: [[REGISTER]]
 ---
 

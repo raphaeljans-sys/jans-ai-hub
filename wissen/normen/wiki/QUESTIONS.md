@@ -1,5 +1,57 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 83 (10.09.2026) — N82-2 geschlossen; eine zweite Verfälschungs-Mechanik gefunden
+
+Arbeitsgegenstand war die von Run 82 als «grösste offene Kante» ausgewiesene Frage **N82-2**.
+Sie ist geschlossen (Vermerk unten am Abschnitt). Der Weg dorthin hat vier eigene
+Werkzeugfehler gekostet, und der Anschluss hat eine Mechanik zutage gefördert, die Run 82
+strukturell nicht finden konnte.
+
+**Die zweite Verfälschungs-Mechanik, am Rendering verifiziert.** In `162.051_A1_2004_d.pdf`
+ist **«≤» als «d» und «≥» als «t»** kodiert (Symbol-Font-Substitution). Gedruckt steht
+«Setzmass ≥ 10 mm und ≤ 210 mm», der Textlayer liefert «t 10 mm und d 210 mm»; echte «<»/«>»
+im selben Absatz kommen korrekt durch. **Sie hinterlässt kein isoliertes «<»** — die
+Erfassungsstufe der Run-82-Anlage hängt an genau dieser Spur und ist für diesen Defekt blind.
+Das Destillat `sia-162-051-a1-a2.md` ist **nicht betroffen**: es führt die Werte richtig und
+sein `gelesen:`-Feld nennt den Grund (Seiten gerendert «wegen Zeichen…»). Reichweite gemessen
+über 284 distinkte PDF: **genau ein Fall**, korrekt behandelt. Damit ist **N82-3 teilweise**
+beantwortet — die Klasse der ungemessenen Mechaniken ist um eine kleiner, nicht leer.
+
+**Der billige Diskriminator, der die Messung erst brauchbar macht:** kodiert eine Datei
+irgendwo ein echtes ≤ oder ≥, ist die Substitution ausgeschlossen — dann sind `d`/`t`
+Bemessungsindizes (σ t,0,d), Blechdicken (≥ 1,5 t) oder Zeitpunkte (t 0). Ohne ihn liefert
+der Detektor 13 Treffer, mit ihm 4, von denen 3 im Kontext als Falsch-Positive ausscheiden
+(Sprachvarianten-Spalten «d f i», «Volllaststunden 12.7 h/d», ein OCR-Artefakt).
+
+### N83-1 — 17 Destillate der VKF-100er-Reihe tragen im Dateinamen die falsche Gattung
+
+Die 100er-Reihe sind **Brandschutzerläuterungen**, nicht Brandschutzrichtlinien (an drei
+Titelblättern geprüft: «BRANDSCHUTZERLÄUTERUNG»). Die Gattungen unterscheiden sich in der
+Verbindlichkeit. **Inhaltlich führt die KB es überall richtig** — H1, `ausgabe:`-Feld,
+`INDEX.md` und `REGISTER.md` sagen durchgehend «BSE», `vkf-brl-100-15-brandmauern` trägt sogar
+eine ausdrückliche Anmerkung zum Titel. Falsch ist allein das Dateinamen-Präfix `vkf-brl-`.
+
+**Vorgelegt, nicht ausgeführt:** eine Umbenennung von 17 Dateien samt Verweisen ist destruktiv
+(Rule `wissens-bibliothekar`, Ziff. 4). Die Frage an Raphael ist, ob die Namens-Altlast
+bereinigt werden soll oder ob der korrekte Inhalt genügt.
+
+### N83-2 — 52 Destillate führen ≤/≥-Werte, deren Quelle diese Zeichen nicht kodiert
+
+Mechanik-unabhängige Risikokarte (Tabelle in `training/n83-quellenaufloesung-260910.md`): bei
+diesen 52 **muss** der Wert am Rendering gelesen worden sein — oder er ist unbelegt. 24 davon
+haben eine Quelle ganz ohne Textlayer (Typ A, dort war Rendering zwingend), 28 einen Textlayer
+ohne ≤/≥.
+
+⚠ **Die Karte ist bewusst grob, und das ist beim Benutzen wichtig.** Die Stichprobe am
+gewichtigsten Fall — der **VKF-Brandschutznorm 1-15**, Basis des Brandschutz-Skills — zeigt
+eine dritte Klasse, die der Karte fehlt: die Norm formuliert ihre Grenzwerte **sprachlich
+statt symbolisch** («20 oder mehr Personen», «wenn ihre Grundfläche 150 m2 nicht übersteigt»),
+und das Destillat übersetzt das korrekt in ≥20 und ≤ 150 m². Die Quelle kodiert kein ≤/≥, weil
+sie keines braucht. **Wer die Karte abarbeitet, prüft zuerst, ob die Norm überhaupt symbolisch
+formuliert** — sonst entstehen Korrektur-Aufträge gegen richtige Destillate, der Fehlalarm-Typ
+aus Methodik-Pflicht 10. Die 52 sind **nicht** einzeln verifiziert; geprüft ist einer.
+
+
 ## Normen-Nacht Run 82 (09.09.2026) — N81-2 messend geschlossen; die Reichweite ist klein, der Nebenbefund gross
 
 **N81-2 ist beantwortet und geschlossen.** Run 81 hatte gefragt, welche VKF-Destillate
@@ -49,7 +101,11 @@ las die Figuren am Rendering. Beide Vermerke sind jetzt mit der Messung untermau
 Vorgelegt wird nur die Frage, ob der Producer-Check **verbindlicher Erstschritt** jeder Aufnahme
 werden soll (er kostet einen `pdfinfo`-Aufruf). Claude setzt keine Methodik-Pflicht selbst.
 
-### N82-2 — 33 SIA-Destillate mit Grenzwerten liessen ihre Quelle nicht auflösen
+### ~~N82-2 — 33 SIA-Destillate mit Grenzwerten liessen ihre Quelle nicht auflösen~~ ✅ **GESCHLOSSEN Run 83 (10.09.2026)**
+
+> **Die Kante war weit kleiner als gemeldet.** Über den ganzen Scope (379 Destillate ausser DIN/VSS/RAL) lösen **302 über den notierten Pfad exakt auf**, 69 sind legitime externe Quellen, 7 führen statt `quelle:` ein `sources:`-Feld, 1 zeigt auf ein existierendes Verzeichnis — und **null** hängen an einem toten Pfad, der nur zufällig über den Basename rettbar wäre. **Vier echte tote Pfade** wurden gefunden und repariert (VKF 100-15 ×2, 101-15, 102-15: notiert unter `02_Brandschutzrichtlinien 2015/`, tatsächlich unter `04_Erlaeuterungen Brandschutz 2015/`, teils mit abweichendem Dateinamen). Ob Run 82 denselben Werkzeugfehler hatte oder eine andere Auflösungsregel benutzte, ist **nicht feststellbar** — sein Code liegt nicht vor; feststellbar ist nur der heutige Stand. Karte, Messanlage und die **vier eigenen Fehlversuche** des Laufs: `training/n83-quellenaufloesung-260910.md`.
+
+**Der ursprüngliche Wortlaut, zur Nachvollziehbarkeit:**
 
 Von 95 SIA-Destillaten mit mindestens einem Vergleichszeichen-Wert liess sich das
 `quelle:`-Feld bei **33** nicht auf eine Datei im Haus auflösen (Pfad-Drift, Web-Quellen,

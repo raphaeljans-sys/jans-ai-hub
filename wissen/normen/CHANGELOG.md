@@ -1,3 +1,42 @@
+## 2026-09-10 (Normen-Nacht Run 83) — N82-2 geschlossen, vier tote Pfade repariert, zweite Verfälschungs-Mechanik gefunden
+
+Vertiefungsstufe (b). Auftrag war die von Run 82 als «grösste offene Kante» ausgewiesene Frage
+N82-2: 33 SIA-Destillate, deren `quelle:`-Feld sich nicht auf eine Datei im Haus auflösen liess.
+
+- **N82-2 geschlossen, und die Kante war weit kleiner als gemeldet.** Über den ganzen Scope
+  (379 Destillate ausser DIN/VSS/RAL) lösen **302 über den notierten Pfad exakt auf**, 69 sind
+  legitime externe Quellen, 7 führen statt `quelle:` ein `sources:`-Feld, 1 zeigt auf ein
+  existierendes Verzeichnis, **0** hängen an einem nur zufällig rettbaren Pfad.
+- **Vier echte tote Pfade gefunden und repariert:** `vkf-brl-100-15-brandmauern`,
+  `vkf-brl-100-15-fassung-2017-delta`, `vkf-brl-101-15-fassung-2017-delta`,
+  `vkf-brl-102-15-fassung-2017-delta` — notiert unter `02_Brandschutzrichtlinien 2015/`,
+  tatsächlich unter `04_Erlaeuterungen Brandschutz 2015/`, teils mit abweichendem Dateinamen.
+  Zielnamen aus dem Dateisystem gelesen, nicht geraten; je Edit eine Anker-Assertion.
+- **Neu `training/n83-quellenaufloesung-260910.md`** — Auflösungskarte, Risikokarte und die
+  **vier eigenen Werkzeugfehler** des Laufs: Pfad-Regex brach an Leerzeichen ab (erzeugte 120
+  Scheinbefunde), Bestandswurzel lag eine Ebene zu tief (**587 von 1327 PDF fehlten im Index**),
+  relative `quelle:`-Felder nicht gegen mehrere Basen aufgelöst, non-greedy `.pdf`-Match stoppte
+  vor einer echten doppelten Endung. Die NFC/NFD-Gegenhypothese wurde geprüft und verworfen.
+- **Zweite Verfälschungs-Mechanik, am 300-dpi-Rendering verifiziert (N82-3 teilweise
+  beantwortet):** in `162.051_A1_2004_d.pdf` ist «≤» als **«d»** und «≥» als **«t»** kodiert.
+  Sie hinterlässt **kein isoliertes «<»** und ist für die Erfassungsstufe der Run-82-Anlage
+  strukturell unsichtbar. Reichweite über 284 distinkte PDF gemessen: **ein einziger Fall**,
+  und das Destillat `sia-162-051-a1-a2.md` führt ihn **korrekt** — es hatte die Seiten gerendert.
+- **`destillate/vkf-brandschutznorm-2015.md`** — Producer-Typ-Vermerk gesetzt: Word 2010 = Typ C;
+  die Datei kodiert kein ≤/≥, weil die Norm an den Grenzwertstellen **sprachlich** formuliert
+  («20 oder mehr Personen», «150 m2 nicht übersteigt»). Die fünf Symbolwerte des Destillats sind
+  belegte Übersetzungen des Wortlauts. Das bisherige `gelesen:`-Feld («Text-PDF vollständig
+  extrahierbar») gab einem Typ-C-PDF einen Vertrauensvorschuss ohne Typ-Angabe.
+- **Neu vorgelegt N83-1** (17 Destillate der VKF-100er-Reihe tragen im **Dateinamen** die falsche
+  Gattung «brl» statt «bse» — inhaltlich führt die KB es überall richtig, die Umbenennung wäre
+  destruktiv und wird vorgelegt) und **N83-2** (Risikokarte: 52 Destillate mit ≤/≥-Werten, deren
+  Quelle die Zeichen nicht kodiert — **nicht** einzeln verifiziert, und die Karte kennt die Klasse
+  «Norm formuliert sprachlich» noch nicht).
+- **Dreimal Methodik-Pflicht 7 bestätigt:** VKF-Gattung, Symbol-Substitution und die
+  Brandschutznorm-Grenzwerte waren je am Original richtig beobachtet und je **kein Befund**, weil
+  die KB die Aussage bereits führte. Keine Statushebung (Methodik-Pflicht 13, Refuter-Richtung
+  nicht gelaufen).
+
 ## 2026-09-09 (Normen-Nacht Run 82) — N81-2 messend geschlossen: der Vergleichszeichen-Defekt betrifft zwei VKF-Richtlinien, kein Grenzwert ist verschoben
 
 Vertiefungsstufe (b). Auftrag war die von Run 81 offen gelassene Reichweitenfrage N81-2.
