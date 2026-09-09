@@ -437,7 +437,7 @@ getragen, und der Zeiger auf diesen Lauf ist unten direkt an ihr gesetzt.
   bekannteren.** Gleiche Familie wie E-R177-1 (eine festgestellte Auslassung ist erst untersucht,
   wenn die Stelle vollstaendig gelesen ist) und wie Rule `wege-und-vollmachten` («nicht auffindbar»
   ist eine Aussage ueber die Suche).
-- [ ] **E-R179-3 (P3, Werkzeug, Beleg zu E-R177-4): der Waechter-Artefakt hat sich wie vorhergesagt
+- [x] **E-R179-3 (P3, Werkzeug, Beleg zu E-R177-4): der Waechter-Artefakt hat sich wie vorhergesagt
   vermehrt.** Der `datenstand-waechter.py`-Lauf von heute meldet den zitierten Satz «die fuenf
   bereits quittierten echten Pruefstichtag-Treffer (17.08.2026 x4, 2026-09-02 x1)» **zweimal**
   unquittiert (`QUESTIONS.md` Z. 94 und Z. 284) — bei Run 177 war es eine Fundstelle. Die zweite
@@ -449,6 +449,21 @@ getragen, und der Zeiger auf diesen Lauf ist unten direkt an ihr gesetzt.
   Werkzeuglauf, nicht einem Fachlauf. Wer sie umsetzt, misst am Zaehler, ob sie greift.
 
 ### In diesem Lauf geschlossen
+  ✓ **Nachtrag 09.09.2026 (Run 189) — behoben, ist erledigt.** `datenstand-waechter.py` hat eine
+  dritte Ausnahme neben `HERKUNFTSDATUM` erhalten: **`BEFUNDREFERENZ`** — ein Datum, dem
+  unmittelbar ein Vielfachheitszaehler folgt (Muster «Datum x4», auch mit Markdown-Auszeichnung
+  dazwischen), ist die Aufzaehlung bereits gefundener Treffer, kein neu gesetzter Stichtag.
+  Regressionsgeprueft ueber **alle 19 KBs**: Gesamtbefunde 982 → 979, die **drei** Artefakt-
+  Fundstellen verschwinden, die **fuenf echten quittierten Stichtage bleiben unveraendert**
+  gefunden, kein neuer und kein verschwundener Treffer ausserhalb der behobenen Faelle.
+  Gegenprobe an einem Kunstfall (Testbaum ausserhalb der KB, damit der Prueftext nicht selbst
+  zum Befund wird): ein echt gesetzter Stichtag mit Datum im August 2026 wird weiterhin gemeldet,
+  beide Artefakt-Varianten (roh und fett) nicht mehr. **Die Ausnahme immunisiert ihre eigene
+  Dokumentation** — dieser Nachtrag zitiert das ausloesende Muster und erzeugt darum keinen
+  neuen Treffer mehr; damit ist die von E-R177-4 vorhergesagte Vermehrungsschleife durchbrochen.
+  Die dort vorgeschlagene Loesungsrichtung (Block-Logik ueber abgehakte Bullets) wurde bewusst
+  **nicht** gewaehlt: sie haette auch echte Stichtage in abgehakten Eintraegen unterdrueckt und
+  damit die urspruengliche Absicht von Regel 3 ausgehebelt.
 - [x] **E-R178-2 — Wirtschaftlichkeit/Gebuehren des ECO-Nachweises** ✓ 2026-09-05, soweit die
   Frage die **Gebuehren** betraf. Belegt aus dem eigenen ECO-Produktreglement V2023.1 Kap. 4
   (nicht aus dem Minergie-Reglement, wo beide Vorlaeufe gesucht hatten). Verdichtet zu FAQ
@@ -545,7 +560,7 @@ Produktreglement 2026.1, und die wurden zum zweiten Beleg. Festgehalten als sieb
   (Nachtschicht + Tageslauf). Vorschlag: Nachtschicht-Laeufe vergeben ein `n`-Suffix
   (E-R176n-1), oder die Kennung wird aus dem Datum statt der Run-Nummer gebildet. Nicht selbst
   entschieden, weil es das Kennungsschema aller Laufberichte beruehrt.
-- [ ] **E-R177-4 (P3, Werkzeug): der Bericht ueber einen Waechter-Befund wird selbst zum
+- [x] **E-R177-4 (P3, Werkzeug): der Bericht ueber einen Waechter-Befund wird selbst zum
   Waechter-Befund.** Der heutige Fix an `datenstand-waechter.py` (Slot 13:30, E-R175-2) hat einen
   neuen, unquittierten Treffer erzeugt — nicht im Code, sondern in seiner eigenen Dokumentation:
   der Satz «die fuenf bereits quittierten echten Pruefstichtag-Treffer (**17.08.2026** x4,
@@ -561,6 +576,21 @@ Produktreglement 2026.1, und die wurden zum zweiten Beleg. Festgehalten als sieb
   wurde). Nicht selbst behoben — der Waechter wurde heute schon zweimal angefasst, und ein
   dritter Eingriff am selben Tag ohne Not ist der falsche Reflex.
 
+  ✓ **Nachtrag 09.09.2026 (Run 189) — behoben, ist erledigt.** `datenstand-waechter.py` hat eine
+  dritte Ausnahme neben `HERKUNFTSDATUM` erhalten: **`BEFUNDREFERENZ`** — ein Datum, dem
+  unmittelbar ein Vielfachheitszaehler folgt (Muster «Datum x4», auch mit Markdown-Auszeichnung
+  dazwischen), ist die Aufzaehlung bereits gefundener Treffer, kein neu gesetzter Stichtag.
+  Regressionsgeprueft ueber **alle 19 KBs**: Gesamtbefunde 982 → 979, die **drei** Artefakt-
+  Fundstellen verschwinden, die **fuenf echten quittierten Stichtage bleiben unveraendert**
+  gefunden, kein neuer und kein verschwundener Treffer ausserhalb der behobenen Faelle.
+  Gegenprobe an einem Kunstfall (Testbaum ausserhalb der KB, damit der Prueftext nicht selbst
+  zum Befund wird): ein echt gesetzter Stichtag mit Datum im August 2026 wird weiterhin gemeldet,
+  beide Artefakt-Varianten (roh und fett) nicht mehr. **Die Ausnahme immunisiert ihre eigene
+  Dokumentation** — dieser Nachtrag zitiert das ausloesende Muster und erzeugt darum keinen
+  neuen Treffer mehr; damit ist die von E-R177-4 vorhergesagte Vermehrungsschleife durchbrochen.
+  Die dort vorgeschlagene Loesungsrichtung (Block-Logik ueber abgehakte Bullets) wurde bewusst
+  **nicht** gewaehlt: sie haette auch echte Stichtage in abgehakten Eintraegen unterdrueckt und
+  damit die urspruengliche Absicht von Regel 3 ausgehebelt.
 - [ ] **E-R177-3 (P3, Quellenfehler): Einheiten-Widerspruch in beiden ECO-Anleitungen.** Die
   Grenzwert-Grafik traegt **MJ/m²AE·a**, der Fliesstext daneben sagt «Die Grenzwerte haben die
   Einheit **kWh/m²a**» — identisch in V1.3 und V2023.3, also ein unbereinigter Fehler der Quelle,
@@ -2344,7 +2374,11 @@ Beleg: `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
   **Quantitative Fassaden-Ertraege belegt ✓ 2026-06-21** (PV*SOL-Simulation: Vierfassaden-Anlage
   vertikal ~603 kWh/kWp = ~60-65 % Dach, PR 87,8 %, Saison 4:1 mit hoeherem Winteranteil) →
   `[[pv-fassade-ertrag-pvsol]]`, FAQ **F21**. **Drittes Ertrags-/EV-Beispiel + Indach-Produkte belegt
-  ✓ 2026-06-22**: grosses MFH/Gewerbe Basel 60 kWp Indach (~826 kWh/kWp, **EV 33 %**, Autarkie 103 %,
+  ✓ 2026-06-22**: grosses MFH/Gewerbe Basel 60 kWp Indach (~826 kWh/kWp, **EV 33 %**, «Autarkie 103 %»
+  ⚠ **korrigiert 09.09.2026 (Run 189): das ist der DECKUNGSGRAD (Produktion/Verbrauch), nicht die
+  Autarkie — die echte Autarkie ist 16'205/48'000 = 34 %; eine Autarkie über 100 % ist unmöglich,
+  siehe FAQ F255 und `[[pv-eigenverbrauch-zev]]`. Rückstand der Bereinigung von Run 150, dort im
+  Nachlauf-grep nicht erfasst**,
   ~CHF 2'250/kWp 2022) → `[[pv-ertrag-eigenverbrauch-praxis]]` Bsp. C, FAQ F18; konkrete Indach-Systeme
   (Alu-Solardachplatte 100/43 Wp, ab 17°) → `[[prefa-solar-indach-aluminium-dachplatte]]`, FAQ F4.
   **Aktuelle Marktpreise/Lebensdauer belegt ✓ 2026-06-23** (Aufdach 5–15 kWp 2'400–3'200 CHF/kWp,

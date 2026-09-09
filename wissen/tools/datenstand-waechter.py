@@ -65,6 +65,19 @@ HERKUNFTSDATUM = re.compile(
     re.IGNORECASE,
 )
 
+# Ein Datum, dem unmittelbar ein Vielfachheitszaehler folgt («17.08.2026 x4», «2026-09-02 x1»),
+# ist die AUFZAEHLUNG BEREITS GEFUNDENER TREFFER, kein neu gesetzter Stichtag. Solche Saetze
+# entstehen zwangslaeufig, wenn ein Lauf einen Waechter-Befund im selben Journal dokumentiert,
+# das der Waechter prueft — der Bericht ueber den Befund wird dann selbst zum Befund.
+# Ergaenzt 09.09.2026 (energie Run 189, E-R177-4/E-R179-3): der Zaehler dieser Artefakte wuchs
+# messbar mit jedem dokumentierenden Lauf (Run 177: 1 Fundstelle, Run 179: 2, Run 189: 3), waehrend
+# die Zahl der ECHTEN Stichtage unveraendert bei fuenf stand. Ohne diese Ausnahme verrauscht
+# Regel 3 monoton weiter und wird irgendweann unlesbar. Die Ausnahme immunisiert zugleich ihre
+# eigene Dokumentation: dieser Kommentar loest sie selbst aus und erzeugt darum keinen neuen Treffer.
+# Die Markdown-Auszeichnung zwischen Datum und Zaehler («**17.08.2026** x4») muss mitgelesen
+# werden — sonst greift die Ausnahme nur beim unformatierten Zitat (Befund im selben Lauf).
+BEFUNDREFERENZ = re.compile(r"[*_»«\"']{0,2}\s*[x×]\s?\d+\b", re.IGNORECASE)
+
 # Ein verstrichener Stichtag, der im Umfeld ausdruecklich quittiert wurde, ist kein Versaeumnis
 # mehr, sondern Historie. Er wird weiterhin ausgewiesen, aber getrennt und ohne Befundstatus —
 # die Absicht von Regel 3 (Stichtage auch in ABGEHAKTEN Eintraegen sehen) bleibt damit erhalten,
@@ -186,6 +199,8 @@ def pruefe_kb(wurzel, kb, heute, melde):
                 for treffer in TERMIN_SPRACHE.finditer(zeile):
                     rohdatum = treffer.group(2)
                     if HERKUNFTSDATUM.search(zeile, max(0, treffer.start(2) - 20)):
+                        continue
+                    if BEFUNDREFERENZ.match(zeile, treffer.end(2)):
                         continue
                     try:
                         if "-" in rohdatum:
