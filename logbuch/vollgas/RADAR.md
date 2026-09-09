@@ -53,6 +53,47 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-09 12:57 — [FREI] **Ein uebergebener Befund praezisiert, ein groesserer dahinter: der Korpus `archiv-fachwissen` ist seit dem 31.08. VERWAIST, nicht leergelaufen. Sein Taktgeber (Lane FACHWISSEN) wurde geordnet beendet, ein Nachfolger nie benannt. Kontingent liegt 14.5 Punkte hinter dem Zeitverlauf — Kapazitaet fuer die Wiederaufnahme waere da.**
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 09.09. 00:57, dieser Lauf 12:57 — **12 h 00 min** bei 15 h Toleranz (Takt 12 h + 3 h). Kein verpasster Slot.
+
+**Fenster [FREI].** PATH-Regelweg (`/opt/homebrew/bin/claude`), Antwort «OK», **rc=0 in 6 s**. Vierte positive Gegenmessung in Folge seit der Aufloesung vom 03.09.; der PATH-Weg bleibt Regelweg. Latenz im unteren Band (6 s), kein Trend.
+
+**Wochenbudget [FREI].** 24.43 von 167 Mio teuer = **14.6 %** bei **29.1 %** verstrichener Woche, **Vorsprung -14.5 Punkte** (Verbrauch laeuft dem Zeitverlauf deutlich hinterher). MacBook Pro 15.96 Mio, Mac Mini 8.47 Mio, beide Stationsdateien frisch. Der Wochen-Entscheid vom 03.08. wird eingehalten — mit Reserve.
+
+**Liefer-Delta 13 h (ueber git, nicht mtime):** 38 geaenderte Dateien ohne `station-status`, davon in `wissen/` fuenf KBs: twin 11, normen 9, energie 5, claude-code 2, spec 1. Kein Loop mit Verbrauch ohne Ertrag.
+
+**Feuermechanismen: Sollstand, alle drei Orte geprueft.** Beide `vollgas`-plists tragen auf dem MacBook Pro weiterhin `.disabled-260729`, auf dem Mac Mini die des Supervisors ebenso; kein `vollgas-schub`-Prozess auf einer der Stationen. `ch.jans.nachtschicht` ist auf dem Mini geladen und **hat heute geliefert** (05:30-Slot, rc erfolgreich, rund 2.25 von 5 USD, Commit `b1050e2aa`: Bringschuld E-B142-2 in `energie` geschlossen). Keine Waisen (`ps` auf `claude -p` leer), Speicherdruck Stufe 1.
+
+### P1 — `archiv-fachwissen` ist verwaist: Taktgeber weg, Korpus offen, Kontingent frei
+
+Die `vollgas-fruehwarnung` hat heute 07:15 korrekt gemeldet, dass die Destillat-Front steht (null Commits unter `wissen/architektur-fachwissen/*` seit 04.09.), und den Fall ausdruecklich an diesen Waechter uebergeben. Nachgemessen ergibt sich ein anderes Bild als «Leerlauf»:
+
+**Es ist kein Delta-Null-Fall.** Der Loop verbrennt nichts — er hat schlicht niemanden mehr, der ihn feuert. Der Korpus wurde bis zum 31.08. von der **Lane FACHWISSEN** der Vollgas-Schub-Lanes getragen (letzter Lane-Commit 31.08. 00:59, 137. Lauf; Log `logbuch/vollgas/schub/fachwissen.log` endet 31.08. 11:02). Am 31.08. 13:12 wurden die Lanes mit dem Wochen-Reset **geordnet beendet** — richtig so, sie waren die Konsequenz aus Rule 260830. Nur: der Korpus stand auf keiner anderen Zielliste. Die Nachtschicht kennt als freie Ziele `bauprodukte`, `energie` und (ausgesetzt) `grobkosten`; `architektur-fachwissen` kommt in ihrer Prioritaetenliste nicht vor. Seit neun Tagen arbeitet also niemand daran, und niemandem faellt es auf, weil kein Mechanismus fehlschlaegt.
+
+**Damit gilt die Ruecktakt-Schwelle ausdruecklich NICHT.** «3 Laeufe ohne Liefer-Delta» setzt Laeufe voraus. Hier hat es keine gegeben. Eine Stilllegung waere die falsche Antwort auf einen Korpus, der laut `KORPUS-QUEUE.md` in Korpus 3 durchgaengig offenes P2 und in Korpus 4 mehrere unangetastete Sektionen fuehrt (zuletzt benannt: rund 100 offene P2-Vorlesungsmitschriften in `02_Architekturtheorie`, offene P1 in `02_Gestalt_Kulturverstaendnis` nach der Korrektur des 131. Laufs).
+
+**Vorlage an Raphael, nicht selbst vollzogen.** Die Wiederaufnahme hiesse, `architektur-fachwissen` in die Zielliste der Mac-Mini-Nachtschicht aufzunehmen. Das ist eine Takt-Entscheidung an einem Feuermechanismus der anderen Station, und es ist derselbe Fall wie bei `grobkosten` und `projekt-lessons`: dort wurde die Aenderung bewusst nicht im Lauf vollzogen, sondern vorgelegt. Zwei Wege stehen offen, beide umkehrbar:
+- **(a)** `architektur-fachwissen` als freies Ziel der Nachtschicht ergaenzen (ein Slot je Nacht, 5-USD-Deckel — der Korpus ist in Sektionsportionen gut teilbar).
+- **(b)** Einen eigenen, getakteten Scheduled Task anlegen, wie ihn `normen` und `baurecht` haben.
+Empfehlung: **(a)**, weil die Nachtschicht bereits laeuft, ihr Budgetrahmen passt und kein zweiter Mechanismus auf denselben Loop feuert.
+
+### P2 — Der «Pfad-Mismatch» im Messwerkzeug ist kein Defekt, sondern Absicht
+
+Die Fruehwarnung fuehrt als zweiten Punkt an, `inventar.sh archiv-fachwissen --stand` gebe `stand=UNMESSBAR grund=training-inventar-fehlt` zurueck und mache den Fortschritt blind. Gegengelesen im Script (Rule 260729b, Fremdbefunde nicht ungeprueft uebernehmen): **dieser Rueckgabewert ist am 04.09.2026 bewusst eingebaut worden — von der Fruehwarnung selbst.** Der Kommentarblock benennt es als «Ehrlichkeits-Wache»: vorher lieferte derselbe Block ein sauberes `sektionen=0/0 dateien_inventarisiert=0`, also eine stille Null, die wie ein Sachbefund aussah. Das Werkzeug sagt jetzt korrekt «ich kann das nicht messen» statt «da ist nichts» — genau die Trennung, die Rule 260807 und 260730b verlangen.
+
+**Hier wird deshalb nichts repariert.** Was fehlt, ist kein Pfad, sondern ein Messweg fuer das neue Inventarformat (P1/P2 je Triage-Tabelle unter `wissen/architektur-fachwissen/raw/inventar/`, 20 Sektionsdateien). Der Script-Kommentar sagt selbst, wohin diese Semantik gehoert: in den Skill `wissens-destillat`, nicht in ein Messwerkzeug. Solange P1 offen ist, bleibt der Stand ueber `KORPUS-QUEUE.md` und `wiki/INDEX.md` lesbar — langsamer, aber belegt.
+
+**Merksatz zum Mitschreiben:** ein Werkzeug, das «unmessbar» meldet, ist nicht dasselbe wie ein kaputtes Werkzeug. Der Reflex, die Meldung wegzureparieren, haette hier genau die stille Null zurueckgebracht, die vor fuenf Tagen absichtlich beseitigt wurde.
+
+### P3 — Statusprofil `architektur-fachwissen`: 1 established gegen 480 Artikel
+
+Ebenfalls von der Fruehwarnung uebergeben, hier nur weitergereicht statt vertieft (Regellauf bleibt schlank): 480 Artikel, davon **1 established, 289 emerging, 191 speculative**. Das ist kein Betriebsbefund und keine Radar-Zustaendigkeit, sondern eine Frage an den `wissenscheck` (naechster Lauf 01.10.) beziehungsweise den `wissens-chef`. Nach Rule `normen-referenz` 1b ist ein `speculative`-Artikel eine Warnkarte, keine Zitierquelle — bei diesem Verhaeltnis ist die KB derzeit kaum zitierfaehig. Wird die Wiederaufnahme nach P1 entschieden, gehoert eine Verifikationsstufe in denselben Auftrag, sonst waechst die Artikelzahl schneller als ihre Belastbarkeit.
+
+**Keine Mail.** Kein Login-Blocker, kein erschoepftes Wochenkontingent, kein geloester P1 — die Mail-Disziplin traegt keinen der drei Gruende. Der Befund liegt hier und wird vom `hub-chef` (08:39) aufgenommen.
+
+---
+
 ## 2026-09-09 00:57 — [FREI] **Regellauf ohne Befund. Verbrauch laeuft dem Zeitverlauf 10.5 Punkte hinterher (11.5 % bei 22.0 % verstrichener Woche) — der Wochen-Entscheid vom 03.08. wird eingehalten. Liefer-Delta in zehn KBs, alle Feuermechanismen im Sollstand.**
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 08.09. 12:57, dieser Lauf 00:57 — **12 h 00 min** bei 15 h Toleranz (Takt 12 h + 3 h). Kein verpasster Slot.
