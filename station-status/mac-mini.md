@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.09.2026 07:52:16
+Stand: 09.09.2026 08:02:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 07:52:16
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f9f9a06a8 ag-gruendung-monitor 09.09.2026: keine neuen Mails seit 31.08., P1-Status unverändert (26 Tage überfällig)
+- 3839ef98e nas-selfcommit: 3 Datei(en) 2026-09-09 08:00
