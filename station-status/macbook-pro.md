@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.09.2026 22:41:31
+Stand: 09.09.2026 22:51:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 22:41:31
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 8fff3492b nas-selfcommit: 3 Datei(en) 2026-09-09 22:30
+- 0eef1573e energie Run 189: Autarkie-Rueckstand aus Run 150 korrigiert, datenstand-waechter Selbstbefund behoben (BEFUNDREFERENZ, alle 19 KBs 982->979), E-B142-1 geschlossen + FAQ F291 (Art. 18a Abs. 2 lit. a / Art. 24 Abs. 2 RPG als Kompetenznormen), Rueckgabe an baurecht E-E189-1
