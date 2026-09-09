@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.09.2026 13:05:27
+Stand: 09.09.2026 13:26:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:02)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:17)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 13:05:27
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 41b26f8d4 vollgas-radar 09.09. 12:57: Fenster FREI, Kontingent 14.6% bei 29.1% Woche; archiv-fachwissen seit 31.08. verwaist (Lane FACHWISSEN beendet, kein Nachfolger) — P1-Vorlage; inventar.sh-UNMESSBAR ist Absicht, kein Defekt
+- 358f19f9a nas-selfcommit: 3 Datei(en) 2026-09-09 13:15
