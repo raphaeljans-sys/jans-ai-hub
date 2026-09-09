@@ -3,6 +3,62 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 09.09.2026 (06:5x): Thalwil ist geliefert, Bopp geht am Freitag weg, die Bohrmasse für heute fehlt
+
+**Die drei Punkte für heute**
+
+Erstens: Die Abgabe Steinbrüchelstrasse muss heute raus. C. Bopp ist ab Freitag bis 23.09. abwesend (Meldung 08.09. 13:51). Nicht den Entwurf vom 04.09. senden; er enthält weder die Kompaktfassung noch die Volumenstudie vom 08.09.
+
+Zweitens: Die Bohrmasse von Jegen fehlt. Du hast sie gestern 16:51 namentlich verlangt und geschrieben, Du müsstest sie heute früh auf die Baustelle bringen. Bis heute früh keine Antwort von L. Bajrami.
+
+Drittens: Der Entwurf zur KISPI-Bestätigung liegt weiterhin unversendet; Frist ist Freitag 11.09.
+
+**Erledigt seit gestern**
+
+Thalwil ist geliefert. Die angemahnten Pläne und Nachweise sind gestern 10:18 an Tschopp und an Josef Posch hinausgegangen. Zwei Restpunkte bleiben unbestätigt: Tschopp hat DXF verlangt, geliefert wurden DWG in ZIP. Und ob die am 05.09. gerügten Planfehler vorher bereinigt wurden, geht aus der Mail nicht hervor. Rückmeldung von keiner Seite.
+
+Die Anmeldung des Baustarts beim AfB ist geklärt. L. Furrer antwortet gestern 11:52, er informiere die Baukontrolle direkt: «Sie müssen diesbezüglich nichts mehr unternehmen.» Künftig gehört das Baustart-Datum gleich in die Aktion «Baufreigabe beantragen».
+
+Der Zwischenstand an C. Bopp ist gestern 13:51 hinausgegangen. A. Tonet bestätigt um 16:32, dass beide Dienstbarkeitsverträge per Ende September eingetragen werden sollen, der Termin sei reserviert. Die zweite Rückfrage, ob Stockwerkeinheiten an der Steinbrüchelstrasse 14 verkauft werden, bleibt bis 23.09. unbeantwortet.
+
+Zwei Rechnungen sind erledigt: newcopystore über CHF 97.85 zur Zahlung weitergeleitet, TeKoSi A26023-01 architekturseitig freigegeben.
+
+**Aus unseren Gesprächen**
+
+Steinbrüchelstrasse, Hauptarbeitstag gestern. Drei Erzeugnisse liegen fertig: neunseitiger Bericht, dreiseitige Kompaktfassung in Deiner Struktur A bis F, elfseitige Volumenstudie mit Renderings. Terrain über swissALTI3D: 583.87 m ü. M. gegen die nötigen 583.80 m, also 7 cm Reserve. Das Stockwerkeigentums-Risiko sinkt auf gering. Neu und offen: eine Hauptabwasserleitung der Nachbarschaft läuft laut Grundbuch durch die Bauparzelle. Der Punkt bleibt hängen, weil der Kanalisationskataster nicht gelesen werden konnte; die vier Screenshots liegen nur im Chat und gehören als PNG in den bereits angelegten Ordner `09 Dokumente/260908-Kanalkataster-Screenshots`. Zur Vergütung: kein Pauschalhonorar, sondern Kostendach CHF 1'800.– exkl. MwSt. nach effektivem Aufwand, der gestrige Tag ist stundenweise zu erfassen.
+
+**Überfällig**
+
+AG-Gründung: Die Kapitaleinzahlung von CHF 50'000.– auf das UBS-Sperrkonto ist den neunzehnten Tag offen. Ohne Einzahlung keine Kapitalbescheinigung und keine Beurkundung; das Notariat schweigt seit dem 13.08.
+
+bexio: Der Zugang antwortet den 32. Tag mit 401, heute erneut gemessen. Die Debitoren-Aufsicht bleibt blind, jede Mahnaktion gesperrt. Die automatische Umstellung auf Advanced erfolgt am 08.10.2026.
+
+Albertstrasse 7: Der Entwurf an R. Steinmann zum KV-Termin liegt seit dem 02.09. unversendet, sieben Tage. Steinmann ist bis 21.09. abwesend.
+
+**In den nächsten 7 Tagen**
+
+Heute 09:00 bis 10:00 im Kalender: Eingabe Projektänderung DLZ Thalwil.
+
+Donnerstag 10.09., 13:00 bis 14:00: Koordinationssitzung Gruner, Jans und KISPI, Teams. J. Ziegel fällt krankheitshalber aus, seine Rückmeldungen kommen erst an diesem Tag.
+
+Freitag 11.09.: Frist für die KISPI-Bestätigung, dass am 18.09. das Mobiliar draussen ist und der Bodenschutz liegt. Der Entwurf vom 07.09. 08:49 liegt unversendet, er trägt den Betreff «KISPI PPTS: Samstag 19.09.2026, Vorleistungen für Schiebetüre und RHS». Ohne die Bestätigung steht Estermann am Samstag 19.09. vor einem belegten Raum. Am selben Tag beginnt die Abwesenheit von C. Bopp.
+
+Samstag 12.09., privat: Monte Rosa Hütte.
+
+Montag 14.09., 09:15 bis 09:45: Abgleich Umbau PPTS mit C. Schäfer, C. Allerkamp und A. Spahic, Teams.
+
+**In Beobachtung**
+
+Jegen Los 274.01: Entscheid zur Verschalung, CHF 1'050.– Mehrkosten gegen vier Wochen Lieferfrist. Estermann: Bestätigung des Nachtrags über CHF 4'785.– ausstehend. KISPI HOP2: Gegenzeichnung der Honorarofferte nicht erbeten, Vertragsbasis damit ungeklärt. TeKoSi-Korrexpläne: bauherrenseitige Freigabe durch F. Würsch angefragt. Kalenderabweichung Samstag 19.09.: eigener Eintrag 08:00, Stadelmann verlangt ab 06:30.
+
+**Vorschlag Kalendereinträge**
+
+Freitag 11.09., Vormittag: Erinnerung «KISPI-Bestätigung Mobiliar und Bodenschutz senden». Nicht eingetragen, nur vorgeschlagen.
+
+**Token-Tempo**
+
+Gestern 08.09.: MacBook Pro 145.9 Mio Tokens für USD 123.90, Mac Mini 77.4 Mio für USD 67.15, zusammen 223.3 Mio Tokens und USD 191.05 API-Kostenäquivalent.
+
 ## Nachtschicht Mac Mini 08.09.2026 — architekten-synobsis: zwei Leere-Ordner-Identitaeten recherchiert
 
 Prioritaeten 1-3 geprueft (remote-tasks/pending, sync-tasks/mac-mini leer; Fristen-Register
