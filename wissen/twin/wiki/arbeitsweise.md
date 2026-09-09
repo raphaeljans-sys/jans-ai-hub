@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-09-08
+last_updated: 2026-09-09
 gewichtung: authentisch
-sources: [260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -4433,3 +4433,33 @@ stützt sie — und er ist wertlos, sobald der Harness selbst Mails über Outloo
   Drei Belege ueber sieben Monate: die textlose Sendung ist ein eigener Kanal, kein Versehen.
   Wie oft sie vorkommt, ist mit einem Zaehlscript ueber die Sent Items billig zu messen — offen
   als Empfehlung im Report `outputs/2026-09-08_fidelity.md`.
+
+## Batch 117 (09.09.2026) — Die dreistufige Nachfass-Kaskade
+
+- ⭐ **Nachfassen in drei Stufen an einem Nachmittag (Erstbeleg als geschlossene Kaskade):**
+  **(1) 14:26** offene Frage, kleiner Verteiler, gehobene Anrede, Dringlichkeit nur im Nebensatz
+  («Ich müsste die Anaben sofort haben»). **(2) 14:39** präzisierte Frage nach unzureichender
+  Antwort, neutrale Anrede, Risiko und Terminfolge ausgeschrieben, Verteiler unverändert.
+  **(3) 16:51** eigene Vorleistung im Anhang, Restliste der fehlenden Angaben, typografische
+  Hervorhebung, **Verteiler von zwei auf fünf erweitert**, Anrede zurück auf die gehobene Stufe.
+  Jede Stufe fügt genau ein Druckmittel hinzu und nimmt keines zurück.
+- ⭐ **Freigaben werden delegiert, nicht selbst erteilt:** «darf ich Dich bitten die Korrexpläne
+  von TeKoSi zu prüfen und **von Seiten Bauherrschaft freizugeben**». Er prüft fachlich und
+  reicht den formellen Freigabeakt an die Bauherrschaft weiter — dieselbe Rollentrennung wie bei
+  der Rechnung («Architektur gibt die Rechnung frei» / «Bitte um Kontrolle und Zahlung»).
+  Jede Partei bekommt den Akt, für den sie haftet.
+- ⭐ **Termin und Ort werden im selben Atemzug gesetzt:** «wir heute die einzelnen Elemente auf
+  der Baustelle nachmessen, Elektroerschliessung anzeichnen und gemeinsam frei geben» — drei
+  Handlungen, ein Ort, ein Tag. Wo eine Frage im Mailverkehr zu langsam ist, verlegt er sie auf
+  die Baustelle und macht daraus einen gemeinsamen Termin.
+- **Weiterleitung als Auftrag, ein Satz genügt:** «Jens, kannst Du das bittte erledigen» (an den
+  Brandschutzexperten, in der Antwort an die Behörde) und die wortlose Weiterleitung der
+  Lieferantenrechnung mit «Bitte um Kontrolle und Zahlung der Rechnung.» Der weitergeleitete
+  Faden ist die Begründung; er schreibt sie nicht ab. Bestätigt das Muster der wortlosen
+  Weiterleitung aus Batch 116.
+- **Zusage mit Lieferfenster statt Uhrzeit:** «Ich muss die Pläne heute erstellen. / Im Verlauf
+  des Nachmittags kann ich diese zustellen.» Er nennt die eigene Arbeit zuerst, dann ein
+  **Fenster**, nie eine Punktzeit — dieselbe Vorsicht wie bei den KW-Angaben (Batch 116).
+- **Anhänge werden im Body aufgelistet, ohne Kommentar:** fünf Dateinamen untereinander
+  («20 Geschosse 1_50_dwg / … / 60 Nachweise.pdf»), darüber ein Satz, darunter der Gruss. Das
+  Verzeichnis ist die Nachricht.

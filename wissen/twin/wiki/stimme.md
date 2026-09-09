@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-09-08
+last_updated: 2026-09-09
 gewichtung: authentisch
-sources: [260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -5550,3 +5550,37 @@ Roman Steinmann/Nova), beide durchgehend eigene Hand, mechanisch vorgeprueft.
   Honorarbezug traegt die vierfache Fehlerdichte. «Formell = sorgfaeltiger» ist widerlegt; die
   Fehlerdichte haengt nicht am Register. Satzlaenge 15.4 bzw. **10.9** W gegen ~17 W in den
   Blindfassungen.
+
+## Batch 117 (09.09.2026) — `rj@` Sent 07.09. 16:20 bis 08.09. 16:57 · Eskalationstypografie, zweiter Gold-gegen-Zwilling-Vergleich
+
+**Gewichtung:** 9 `authentisch` (387 W), 1 `claude-aera` als Kontrolle (235 W).
+
+- ⭐ **Schriftgrad als Eskalationsmittel (Erstbeleg):** mitten im Fliesstext einer Mail an den
+  Fachplaner steht ein einzelner Satz in **20 pt und fett**, während der ganze Body auf 12 pt
+  Aptos läuft: «Wir benötigen nun dringest Ihre Angaben.» (08.09. 16:51, dritte Mail desselben
+  Threads). Raphael steigert nicht über Wortwahl, sondern über **Typografie** — der Satz selbst
+  bleibt sachlich. Das ist die stumme Schwester des Verteiler-Ausbaus (siehe
+  [[beziehungsregister]]) und widerspricht der Deko-Sparsamkeit nicht: es ist kein Schmuck,
+  sondern ein Lautstärkeregler.
+- ⭐ **Dreifaches Ausrufezeichen als Prüfbefehl:** «Bitte kontrollieren Sie diese Masse!!!» —
+  im **Sie**-Register, an einen Fachplaner, im selben Body wie der 20-pt-Satz. Drei Zeichen, nicht
+  eines. Tritt nur dort auf, wo eine fremde Kontrolle haftungsrelevant ist.
+- ⭐ **Verb-Grossschreibung in der Bitten-Formel, n = 6:** «Vermassen Sie **B**itte in den
+  Werkplänen die Achsposition …» — das Muster aus Batch 116 (dort n = 5 und aus der Schwankung
+  zum Muster erklärt) hält. Weiterhin nur in Anweisungsmails, registerübergreifend.
+- **Grussstufe «Lgr» gross geschrieben** (08.09. 07:07, Du, Tschopp) — nach der Kleinschreibung
+  «lgr» vom 26.08. (Batch 106) steht die Grossform wieder daneben. Die Kurzform schwankt in der
+  Schreibung, nicht in der Verwendung: sie erscheint in der **kürzesten** Mailsorte (drei Zeilen,
+  reine Terminzusage), nie unter einer Mail mit Substanz.
+- **Anrede ohne Namen im Du:** «Guten Morgen» allein auf der ersten Zeile, ohne Vornamen, ohne
+  Komma — an einen belegten Du-Kontakt, in einem laufenden Thread. Vierte Fundstelle der
+  namenlosen Anrede; sie hängt am **Anlass** (triviale Terminzusage), nicht am Register.
+- **Fehlerdichte im Gold:** 9 Fehler auf 387 Wörter = **2.3 je 100 W** («Anabe»/«Anaben» 2x,
+  «bittte», «send ich», «dringest», «das wir sicher sind», «morgen morgen», Binnengrossschreibung
+  «Mittels», «Elektrisch»). Tippfehler nehmen unter Zeitdruck zu, nicht mit dem Register ab —
+  die dichteste Fehlerstelle ist die dringlichste Mail des Tages.
+- ⭐ **Zweiter Gold-gegen-Zwilling-Vergleich, gleiche Richtung wie Batch 116:** Satzlänge Gold
+  **16.8** W gegen Zwilling **9.4** W; Fehlerdichte 2.3 gegen **0** je 100 W. Der Zwilling setzt
+  die Mikro-Marker fehlerfrei (Tausender-Apostroph 1'800, «%» mit Leerschlag, Du-Gross 1.0) und
+  ist trotzdem an seiner Glätte und Kürze erkennbar. Der Befund ist damit nicht mehr Einzelfall
+  eines Tages, sondern über zwei Fenster stabil.
