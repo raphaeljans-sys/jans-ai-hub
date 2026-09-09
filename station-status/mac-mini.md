@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.09.2026 13:00:49
+Stand: 09.09.2026 13:11:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 13:00:49
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 262c5ccb0 nas-selfcommit: 4 Datei(en) 2026-09-09 13:00
+- 41b26f8d4 vollgas-radar 09.09. 12:57: Fenster FREI, Kontingent 14.6% bei 29.1% Woche; archiv-fachwissen seit 31.08. verwaist (Lane FACHWISSEN beendet, kein Nachfolger) — P1-Vorlage; inventar.sh-UNMESSBAR ist Absicht, kein Defekt
