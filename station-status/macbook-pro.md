@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.09.2026 23:32:57
+Stand: 09.09.2026 23:43:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:30)
@@ -12,4 +12,4 @@ Stand: 09.09.2026 23:32:57
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 1081dfdd7 nas-selfcommit: 17 Datei(en) 2026-09-09 23:30
+- 71898cc93 Nachtschicht Mac Mini: Logbuch-Journalzeile E-R189-1
