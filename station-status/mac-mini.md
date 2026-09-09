@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.09.2026 07:11:08
+Stand: 09.09.2026 07:21:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 07:11:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 30a22efa4 logbuch-radar 09.09.2026: Briefing-Abschnitt + Registerblock (Thalwil geliefert, Bopp ab 11.09. abwesend, Bohrmasse Jegen offen)
+- 979dc41ea vollgas-fruehwarnung 09.09.2026: still beendet, keine Mail — Destillat-Front steht seit 02.09. OHNE Verbrauch (kein Lauf seit 30.08.), inventar.sh Pfad-Mismatch macht Fortschritt unmessbar

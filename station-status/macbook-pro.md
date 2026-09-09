@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.09.2026 07:15:43
+Stand: 09.09.2026 07:26:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:10)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:25)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 07:15:43
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 61dae5887 nas-selfcommit: 1 Datei(en) 2026-09-09 07:15
+- 979dc41ea vollgas-fruehwarnung 09.09.2026: still beendet, keine Mail — Destillat-Front steht seit 02.09. OHNE Verbrauch (kein Lauf seit 30.08.), inventar.sh Pfad-Mismatch macht Fortschritt unmessbar
