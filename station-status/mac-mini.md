@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.09.2026 07:21:25
+Stand: 09.09.2026 07:41:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.09.2026 07:21:25
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 979dc41ea vollgas-fruehwarnung 09.09.2026: still beendet, keine Mail — Destillat-Front steht seit 02.09. OHNE Verbrauch (kein Lauf seit 30.08.), inventar.sh Pfad-Mismatch macht Fortschritt unmessbar
+- ab71b4ee8 nas-selfcommit: 3 Datei(en) 2026-09-09 07:30
