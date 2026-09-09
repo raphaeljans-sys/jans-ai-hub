@@ -12157,3 +12157,22 @@ Bewilligungspflicht (die bleibt bei F268/Kanton). CHANGELOG-Eintrag gesetzt, Ber
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 2.1 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-09 (Nachtschicht Mac Mini) — energie: E-R189-1 ZH-Teil beantwortet
+
+Prioritaeten 1-4 leer: remote-tasks/sync-tasks leer, Synobsis Stufe 1+2 seit Juli/September
+gesaettigt, die beiden P1-Fristenpunkte (KISPI Verglasung, Nova Steinbruechelstrasse) laut
+Register bereits erledigt, alle trainierbaren KBs entweder gedrosselt/ausgesetzt oder (energie)
+bereits mehrfach heute bearbeitet. Prioritaet 5 gezogen: offene Frage **E-R189-1** aus
+`wissen/energie/wiki/QUESTIONS.md` recherchiert (hat ZH von Art. 18a Abs. 2 lit. a RPG
+Gebrauch gemacht?). WebSearch + curl/pdftotext fanden das bisher unbekannte Kantonsrats-Postulat
+**KR-Nr. 17/2026** (12.01.2026) — belegt, dass ZH die Kompetenz noch nicht genutzt hat.
+SZ und die Bundesrats-Kompetenznorm (Art. 24 Abs. 2 RPG) bleiben offen, kein belastbarer Fund.
+Geaendert: `wissen/energie/{wiki/QUESTIONS.md,wiki/pv-solar-technologien.md,wiki/BAUHERREN-FAQ.md,
+CHANGELOG.md,raw/260909_zh-kantonsrat_postulat-kr17-2026.md}`, Bringschuld nachgetragen in
+`wissen/planungsgrundlagen/{wiki/recht-norm-pbg-revision-bauen-im-bestand.md,CHANGELOG.md}`.
+Commit `6eac133ad` nativ auf der Synology, gepusht.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 3.75 von 5 USD. Zyklus sauber beendet.
