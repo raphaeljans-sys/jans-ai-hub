@@ -56,3 +56,7 @@ falsch verkuerzt.
 
 Gleiche Familie wie `auto-verbesserungen` 260807 (ein Konfigurationsfeld wirkt nicht, nur weil
 es existiert): auch hier sieht die kurze Fassung vollstaendig aus und ist es nicht.
+
+## Nachtrag 09.09.2026 (Synergie-Lauf 32, Querverweis)
+
+Derselbe Mechanismus ist im Synergie-Register als **SYN-69** (02.09.2026) und **SYN-78** (08.09.2026) erfasst, der Riegel-Entscheid liegt zusaetzlich in `logbuch/fristen.md` Z. 49 — beim Schreiben dieses Reports war keine dieser Stellen bekannt (0 Treffer auf `SYN-`/`koordination` im Text oben). **Das hatte eine messbare Folge:** die am 08.09. 17:21 gesetzte SYN-78-Reparatur am Zeiger in `wissen/twin/wiki/stimme.md` wurde von der hier beschriebenen Verdichtung nach 13 Stunden wieder eingezogen. Gebuendelt und belegt in **SYN-80** (`wissen/koordination/SYNERGIE-REGISTER.md`), → uebergeben an `wissen/koordination`. Der Befund dieses Reports bleibt unveraendert gueltig und ist praeziser als beide Registereintraege; ergaenzt wird nur die Adresse, an der die Entscheidung liegt.

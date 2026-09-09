@@ -2,6 +2,32 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-09 (Synergie-Lauf 32, Tagestakt) — die Byte-Riegel-Vorlage liegt vierfach und wirkt einfach; eine Reparatur hielt 13 Stunden
+
+Delta-Basis 08.09.2026 17:10, Fenster 23,8 h, **115 Commits**, nativ im SSD-Klon gemessen (nicht per
+`git` ueber SMB); Uhr gegen die Synology geprueft, keine Abweichung. Strukturelles Delta: **kein neuer
+Baustein, eine geaenderte Rule** (`rules/jans-dna-facetten.md`). Inline-Analyse, kein Fan-out.
+
+**Neu SYN-80 (Prioritaet 1·2):** Der Byte-Riegel selbst ist seit dem 02.09. als SYN-69 erfasst — der
+Befund ist, dass dieselbe Entscheidungsvorlage an **vier** Stellen liegt (SYN-69, SYN-78 (b),
+`logbuch/fristen.md` Z. 49, `twin-fidelity-review` zum fuenften Lauf in Folge) und **keine die anderen
+nennt**; SYN-78 kennt SYN-69 nicht, also der eigene Vorgaengerlauf. **Erstmals messbare Folge:** die
+SYN-78-Reparatur vom 08.09. 17:21 wurde am 09.09. 06:00 nach **13 Stunden** wieder eingezogen, vier
+weitere belegte Marker sind aus der Pflichtlektuere verdraengt (je 1/0 Artikel gegen Do/Don't-Block),
+Reserve **15 B von 34'000** — niedrigster je gemessener Stand. Lehre: eine Reparatur an einer
+byte-gedeckelten, taeglich neu kompilierten Datei ist nicht haltbar, solange der Druck besteht.
+
+**Status nachgefuehrt:** SYN-69 (Buendelung), SYN-78 ((a) zurueckgefallen), SYN-79 (Bestand 85 → **88**;
+zwei der sieben neuen `outputs/`-Reports tragen `links:`, beide **nach** der Klarstellung — die
+Konvention wirkt nicht einmal auf Neuanlagen), `logbuch/fristen.md` Z. 49 (Frist verstrichen,
+Vorhersage eingetreten, mittel → **hoch**).
+
+**Gesetzt (active-with-flagging):** vier Querverweise, kein Sachentscheid, kein bestehender
+Befundwortlaut geaendert — darunter die Cross-KB-Bringschuld in
+`wissen/claude-code/outputs/2026-09-09_verdichtung-verliert-zuerst-die-bedingung.md`, dessen Befund
+praeziser ist als beide Registereintraege und der das Register nicht kannte. **Offen bei Raphael:**
+der Riegel-Entscheid (a)/(b)/(c). Bericht: `outputs/2026-09-09_synergie-lauf-32.md`.
+
 ## 2026-09-08 (Lauf 55, Abendlauf) — fünf von neun Meldungen fielen in der Verifikation, und die zwei schärfsten Funde kamen erst aus dem Widerlegungsversuch
 
 Zuschnitt: 6 Melder (`model: sonnet`) auf dem Zuwachs seit Lauf 54, 5 adversariale Verifikatoren im
