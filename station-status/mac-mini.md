@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 10.09.2026 22:57:25
+Stand: 10.09.2026 23:07:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:00)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 22:57:25
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 87dead692 nas-selfcommit: 6 Datei(en) 2026-09-10 22:45
+- 1a50f2e8c energie Run 190: A-BLIND Rang 75 am Original (SIA 380/1), Cross-KB-Korrektur planungsgrundlagen Tab. 25, wiki-konsistenz Journal-Ausnahmen (E-R188-1), FAQ F292
