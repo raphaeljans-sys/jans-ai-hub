@@ -47,6 +47,24 @@ wegschieben (sonst entstehen beim erneuten Verbinden Suffix-Ordner «… 2», da
 `01 Projekte` der Site JANS.PROJEKTE «Synchronisieren» klicken. Kein Eingriff durch Claude in dieser
 Session, nur Messung.
 
+**Nachtrag 21:18–21:27 Uhr, derselbe Abend:** Raphael hat die Bibliothek `01 Projekte` neu
+verbunden; das Mapping trägt seit 21:18 vier Bibliotheken, um 21:27 meldet der Client «Gesichert
+und synchronisiert», `2619_KINDERSPITAL/03_BKP` hat lokal 23 LOS-Ordner und 1'514 Dateien (Mini
+1'564, Differenz vermutlich versteckte Dateien, die hier nicht mitgezählt wurden). Serverseitig
+nichts verändert (Papierkorb der Site leer, Upload-Warteschlange leer, alle 14'933 «Änderungen»
+waren Downloads). **Aber der Sync ist in einen verschachtelten Stamm gelaufen**, das Muster vom
+08.08.: FileProvider führt jetzt zwei aktive Domains für dasselbe Konto. Die alte Domain (Wurzel
+`OneDrive-FreigegebeneBibliotheken–JANS`) hält AD - 03, AR - 03, WE - 02 und wurde beim Verbinden
+mit `databaseInitError vfsRootHasChanged` neu aufgesetzt; ihr Index war seit dem **11.02.2026
+09:28** gebrochen («Error while enumerating», letzter Index-Drop), was den Stillstand der
+verwaisten Ordner seit genau diesem Tag erklärt. Die neue Domain hat die Wurzel
+`OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS` und enthält
+`AR - 01 Projekte`, Doubletten von AD - 03, AR - 03, WE - 02 sowie die alten Reste vom Februar.
+**Alle Hub-Pfade dieser Station zeigen damit auf den falschen Stamm.** Entscheid Raphael
+ausstehend: verschachtelten Stamm belassen und Pfade je Station umbiegen, oder alle
+Verknüpfungen lösen und sauber neu setzen (Klickweg wie im August-Vorfall, nur mit Raphaels Hand).
+Bis dahin führt der Pfad zur KISPI-Ablage auf dem MacBook über den verschachtelten Stamm.
+
 ## 260908 — Das Konversations-Destillat ist keine Belegquelle fuer den Versandstatus
 
 Gemessen vom `logbuch-radar` am 08.09.2026. Das Destillat von 06:2x fuehrte die Honorarofferte
