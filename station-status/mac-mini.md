@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 10.09.2026 08:02:31
+Stand: 10.09.2026 08:12:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 08:02:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 70e8c1e82 nas-selfcommit: 3 Datei(en) 2026-09-10 08:00
+- b77b59d02 mahnwesen-verzugscheck: Lauf 10.09.2026 — bexio-Zugang Tag 33 tot, Registernachtrag

@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 10.09.2026 07:57:03
+Stand: 10.09.2026 08:07:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:36)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:03)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 07:57:03
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4abb551a6 ag-gruendung-monitor: Scan 10.09.2026 — Status P1 unverändert, 27 Tage überfällig
+- b77b59d02 mahnwesen-verzugscheck: Lauf 10.09.2026 — bexio-Zugang Tag 33 tot, Registernachtrag
