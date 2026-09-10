@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 10.09.2026 20:28:05
+Stand: 10.09.2026 20:38:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:10)
@@ -12,4 +12,4 @@ Stand: 10.09.2026 20:28:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7476233d8 tenant-hygiene: Report 260910 (916.05 GB, 86.91 %, Metrik eingefroren, 0 GB bereinigt)
+- 101f6a2e8 nas-selfcommit: 2 Datei(en) 2026-09-10 20:30
