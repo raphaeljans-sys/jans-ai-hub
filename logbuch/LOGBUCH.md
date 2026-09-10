@@ -12198,3 +12198,21 @@ wiki/QUESTIONS.md,CHANGELOG.md}`.
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 1.85 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-10 05:3x Nachtschicht Mac Mini — Fristen-Radar: KISPI-Bestaetigung Estermann-Termin geprueft
+
+Prioritaeten 1-2 leer/gesaettigt (remote-tasks/sync-tasks leer, Synobsis-Embeddings aktuell
+und ohne Taktgeber-Luecke). Prioritaet 3 gezogen: der `twin-mail-training`-Fund von heute
+03:5x in `logbuch/fristen.md` (2619 KISPI PPTS, Bestaetigungsfrist Estermann-Samstagstermin
+19.09.2026 faellig 11.09.2026) nannte ausdruecklich als offenen ersten Schritt, ob eine
+KISPI-Antwort bereits eingegangen ist. Per M365-Graph-Connector (`--get`/`--search` nativ,
+ohne SMB) den Posteingang rj@raphaeljans.ch seit Versand der Bitte (09.09. 10:58) bis zur
+juengsten eingegangenen Mail (09.09. 20:53) durchsucht: keine Antwort von KISPI (Spahic/
+Spoerri/Wuersch) oder Estermann (Stadelmann/Tus) zu diesem Strang. Nachtrag mit Zeitfenster
+und Suchpfad in `logbuch/fristen.md` ergaenzt (append, +2/-0 per `git diff --numstat`
+geprueft). Kein Entwurf erstellt (Bitte liegt bereits versandt, Erinnerung vor Fristablauf
+ist Ermessenssache); nur lesende Postfachabfrage, keine Aenderung an Mail/Entwuerfen.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 0.09 von 5 USD. Zyklus sauber beendet.
