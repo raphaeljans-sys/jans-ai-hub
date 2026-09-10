@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 10.09.2026 06:24:27
+Stand: 10.09.2026 06:34:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:23)
@@ -12,4 +12,4 @@ Stand: 10.09.2026 06:24:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 93e943967 sync: twin-fidelity-review: 2026-09-10 (Mikrotext-Gattung, Nullform-Weiterleitung kompiliert)
+- 80b970c5d nas-selfcommit: 2 Datei(en) 2026-09-10 06:30
