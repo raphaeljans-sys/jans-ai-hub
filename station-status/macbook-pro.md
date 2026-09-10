@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 10.09.2026 13:05:41
+Stand: 10.09.2026 13:26:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 12:59)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 13:05:41
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5c3b0de13 vollgas-radar: Regellauf 10.09. 12:57, FREI, alle Loops liefern, Kontingent -24.2 Pkt
+- a2cca2a90 nas-selfcommit: 4 Datei(en) 2026-09-10 13:15
