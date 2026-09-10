@@ -2,6 +2,20 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-09-10 (Logbuch-Radar) — Spiegelfall zur Leerergebnis-Regel: die zu enge Suche antwortet, statt zu warnen
+
+Neuer Report `outputs/2026-09-10_enge-suche-belegt-den-falschen-schluss.md` (`status: established`, am Original
+gemessen). Kern: die bestehenden Regeln hängen alle am **Nullergebnis** («ein leeres Suchergebnis ist zuerst eine
+Aussage über das Werkzeug»). Belegt wurde der Spiegelfall, bei dem ein **nicht leeres, sachlich korrektes**
+Ergebnis einen falschen Schluss trägt, weil das Suchmuster enger war als der Vorgang: die Absendersuche
+«glaeser» lieferte einen echten Treffer und damit den Schluss «unbeantwortet, Statusauskunft fällig», während
+die Sachsuche «Küchenbau» mit 24 Treffern zeigte, dass das Los längst an einen anderen Anbieter vergeben war
+und nicht eine Auskunft, sondern eine **Absage** geschuldet ist. Arbeitsregel: bei handlungsrelevanten Punkten
+zweimal suchen, einmal über die Person und einmal über die Sache; im Konflikt gewinnt die Sachsuche. Zweiter,
+kleinerer Befund desselben Laufs: Subagenten lasen Klartext-Bodies zuverlässig, scheiterten aber reproduzierbar
+an HTML-Bodies und an jedem Anhang — Belegtiefe bleibt darum beim Hauptlauf, delegiert wird die Breite
+(präzisiert Rule `modellwahl-routine` Ziff. 3 nach Inhaltstyp statt nach Anzahl Werkzeugaufrufe).
+
 ## 2026-09-09 (Wissens-Chef Lauf 56, Cross-KB) — der Riegelwert dieser KB war 13 Tage vor dem eigenen `last_updated` falsch
 
 `wiki/kontext-architektur.md`: additiver ⚠-Nachtrag. Der Artikel (`established`, `last_updated:
