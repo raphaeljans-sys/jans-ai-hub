@@ -2,6 +2,9 @@
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 
+## 2026-09-10 — Output: Bodenanschluss innere Verglasung EI30 auf Heizestrich (2619 KISPI)
+- Neuer Report `outputs/2026-09-10_kispi-bodenanschluss-innere-verglasung-schall-bodenheizung.md`: Belegsammlung Bestandsdetail Jegen ID411.288, Umbau-Werkplaene, Bodenaufbau Steger (16x2, VA 200, Su 69 mm), Schallwerte der Elemente; Lehre zum Suchweg (lokaler Spiegel Rubrik 70 statt DS3-Suche).
+
 ## 2026-09-08 (Wissens-Chef Lauf 55, Cross-KB) — der letzte lebende BKP-Phantomcode «271.10» ist berichtigt (Ticket N43-1)
 
 `wiki/kispi-lbw-rohdichte-800.md` führte «271.10» im `bkp:`-Feld (Z. 8) **und** mit dem Präfix
