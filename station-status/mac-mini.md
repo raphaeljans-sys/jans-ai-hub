@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 10.09.2026 13:31:40
+Stand: 10.09.2026 13:41:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:31)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:34)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 13:31:40
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8477aa7f6 nas-selfcommit: 2 Datei(en) 2026-09-10 13:30
+- 611fd66bb logbuch: Fristen-Radar Zusammenstellung Ueberfaelliges 10.09. 13:33

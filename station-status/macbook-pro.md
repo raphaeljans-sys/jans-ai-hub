@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 10.09.2026 13:26:15
+Stand: 10.09.2026 13:36:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:14)
@@ -12,4 +12,4 @@ Stand: 10.09.2026 13:26:15
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a2cca2a90 nas-selfcommit: 4 Datei(en) 2026-09-10 13:15
+- 611fd66bb logbuch: Fristen-Radar Zusammenstellung Ueberfaelliges 10.09. 13:33
