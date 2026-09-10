@@ -3,6 +3,18 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — Rücklauf aus `wissen/energie`: E-R189-1 beantwortet, § 325a PBG gegen F291
+
+- **`wiki/QUESTIONS.md`, Nachtrag an E-E189-1:** der Vermerk «Offen und dort als E-R189-1
+  geführt» war überholt. ZH (Postulat KR-Nr. 17/2026) und SZ (PBV-Negativbefund) haben die
+  Kompetenz aus Art. 18a Abs. 2 lit. a RPG noch nicht genutzt; offen bleibt Art. 24 Abs. 2 RPG.
+  Die Antwort war nur an `wissen/planungsgrundlagen` zurückgemeldet worden, nicht hierher.
+- **Querbezug gesetzt:** `wissen/energie` F291 nannte für Hüllensanierungen das ordentliche
+  Verfahren; diese KB führt **§ 325a PBG** (Anzeigeverfahren) in `wiki/baubewilligungsverfahren.md`
+  als `established`/CONFIRMED. Korrigiert wurde in `energie` (⚠-Absatz), hier nichts am Artikel.
+- **Neue offene Frage:** Verfahrensart energetischer Hüllensanierungen in Kt. SZ (kein Beleg im
+  Hub, SZ-PBG-raw ohne Verfahrensteil).
+
 ## 2026-09-07 (Buch-Run 142) — RPG 2 ist seit dem 1.1.2026 in Kraft; das Destillat führte es als «anstehende Revision»
 
 **Auftrag:** Priorität (b) Fassungsstand, konkret der von Buch-Run 141 namentlich offen gelassene

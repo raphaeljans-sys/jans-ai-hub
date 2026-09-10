@@ -3316,6 +3316,22 @@ tatsächlich verwendete Wort dort ablesen, statt zu raten.
    **Kein Befund gegen `baurecht`:** der Satz in `wiki/ausnahmebewilligung-und-bestandesschutz.md`
    Z. 386 ordnet den neu eingefügten Abs. 2 zutreffend **Art. 24** zu und bei Art. 18a die
    Fussnote «an Abs. 2 lit. a»; er wurde beim Rücklauf ausdrücklich gegengelesen und ist korrekt.
+   → **Stand E-R189-1, Nachtrag Wissens-Chef Lauf 57 (10.09.2026, Rücklauf aus `wissen/energie`):**
+   der Vermerk «Offen» oben ist überholt. **ZH** hat die Kompetenz aus Art. 18a Abs. 2 lit. a RPG
+   per 12.01.2026 noch nicht genutzt; Beleg ist das Postulat KR-Nr. 17/2026 «Keine Baubewilligung
+   für energetische Sanierungen» (`wissen/energie/raw/260909_zh-kantonsrat_postulat-kr17-2026.md`).
+   Eine Volltextprüfung von PBG/BZO auf eine Umsetzung steht aus; der Beleg ist ein politischer
+   Vorstoss, kein Erlass. **SZ** hat ebenfalls keinen Gebrauch gemacht (Negativbefund PBV SZ
+   Stand 1.2.2026; § 75a Abs. 4 PBG SZ ist die ältere, andersartige Solar-Meldepflicht). Offen
+   bleibt allein Art. 24 Abs. 2 RPG (Bundesrat). Fundstellen: `wissen/energie/wiki/QUESTIONS.md`
+   (E-R189-1, ZH-Teil 09.09., SZ-Teil 10.09.2026).
+   **Verfahrensrechtlicher Querbezug, den dieser Rücklauf aufdeckte:** `wissen/energie` F291 riet
+   am 09./10.09.2026 für Hüllensanierungen zum «ordentlichen Verfahren». Für ZH gilt bis zu einer
+   Umsetzung **§ 325a PBG** (Anzeigeverfahren), geführt in [[baubewilligungsverfahren]],
+   Abschnitt «Energetische Sanierungen im Anzeigeverfahren». In F291 ist dazu ein ⚠-Absatz
+   gesetzt. **Neue offene Frage für diese KB:** die Verfahrensart energetischer
+   Hüllensanierungen in **Kt. SZ** ist in keiner KB belegt; `raw/260725_amtlich_sz_pbg.md`
+   (rund 6 kB) enthält keinen Verfahrensteil.
 
 2. **Drei ganz neue RPG-Artikel sind noch nicht destilliert:** Art. 24bis (Bündelung von
    Infrastruktur- und Mobilfunkanlagen), Art. 24quinquies (thermische Netze), Art. 24c-bis

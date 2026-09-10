@@ -2,6 +2,21 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — die Run-190-Berichtigung war im selben Artikel nur halb nachgezogen
+
+`wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md`: die Fussnote ¹ aus `energie` Run 190
+weist die Grenzwert/Zielwert-Tabelle in §2 als **Tab. 6.2 eines Bauphysik-Lehrbuchs** aus, nicht
+als SIA 380/1 Anhang A Tab. 24. Drei Stellen im selben Artikel sagten weiterhin das Gegenteil und
+widersprachen damit der eigenen Fussnote: (1) die **Bildunterschrift** direkt unter der Tabelle
+(«Tabelle 24, bezogen auf Energiebezugsflächen-Zahl A_th/A_E»; die Grösse heisst zudem
+Gebäudehüllzahl), im Diff des Run 190 unveränderter Kontext; (2) die **Datenstand-Zeile**
+(«Gebäudekategorie-Tabelle (Tab. 24) hier nur teilweise abgetippt … I/II/III/IV/VIII/IX»);
+(3) die **Quellenklammer** im Frontmatter. Bildunterschrift berichtigt (alter Wortlaut im Satz
+vermerkt), zu (2) ⚠-Nachtrag, zu (3) Zusatz in der Klammer, nichts gestrichen. Die Überschrift
+§2 «Tab. 24/25» bleibt richtig (Kategorien = Tab. 24, Standardnutzungswerte = Tab. 25). Werte
+unverändert, gegen `wissen/energie/destillate/bauphysik-heizwaermebedarf-kennwerte.md` Z. 21-27
+geprüft. → Rückmeldung an `wissen/energie` im Laufbericht des Wissens-Chefs.
+
 ## 2026-09-10 (Cross-KB-Bringschuld aus `energie` Run 190, A-BLIND) — τ-Formel und Tab. 24/25 berichtigt
 
 `wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md`: Schritt 6 der SIA-380/1-Monatsbilanz

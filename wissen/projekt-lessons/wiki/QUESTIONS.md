@@ -216,3 +216,18 @@ Mögliche erste Lessons, sobald Material vorliegt:
   `wiki/`, `outputs/` wird nicht auf Backlinks geprüft, weil das Feld dort laut WISSEN-CLAUDE.md
   gar nicht existiert. Trägt ein Report trotzdem `[[…]]`-Klammern, ist das künftig ein Fund unter
   Audit F (Schreibregel-Verstoss), nicht Audit B.
+
+## Wissens-Chef Lauf 57 (10.09.2026) — Cross-KB-Eingang
+
+- [ ] **PL57-1 — Bezugsgrösse der Planlegende «EI30 / 35dB» (2619 KISPI, Architektenplan
+  2619-274.01-01 vom 21.07.2026): Bauwerkswert D_i oder Elementwert Rw?** Anlass: der Report
+  `outputs/2026-09-10_kispi-bodenanschluss-innere-verglasung-schall-bodenheizung.md` führt die
+  Elementwerte der Umbau-Werkpläne als Rw (35/39/40 dB) und nennt die 35 dB eine reine
+  Projektvorgabe. Der Hub führt aus SIA 181:2006 Anhang G für Altersheim/Spital, Korridor zu
+  Zimmer, die Empfehlung **D_i 30 / 35 dB (Stufe 1/2)**
+  (`wissen/energie/destillate/sia-181-schallschutz-anforderungswerte.md`, Sekundärquelle) und
+  in `wissen/energie/wiki/schallschutz-sia181.md` für Spitäler ein Pflichtenheft «minimal auf
+  dem Niveau» dieser Stufen, mit Warnhinweis auf KISPI. Gilt die Legende als D_i, deckt sie sich
+  zahlengleich mit Stufe 2; gilt sie als Rw, liegt der Bauwerkswert nach Nebenwegen tiefer. Zu
+  klären beim Verfasser der Legende (JANS) bzw. in der Nutzungsvereinbarung. Anhang G selbst ist
+  in `wissen/normen` noch nicht destilliert (`destillate/sia-181-2006.md`).

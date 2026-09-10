@@ -84,6 +84,31 @@ Die restlichen Schritte stehen als Script `~/OneDrive-Quarantaene-260910/bereini
 Raphael (Memory: Systemschalter per Terminal, nicht per GUI-Automation). Rückweg: alles liegt unter
 `~/OneDrive-Quarantaene-260910/`, Abgleich vor dem Löschen wie R2 des August-Vorfalls.
 
+**Nachtrag 23:14–23:20 Uhr, Script gelaufen (Raphael, Terminal.app):** Container, Group Container (58 GB),
+die vier OneDrive-Datenbankordner und die App sind in der Quarantäne (4.2 GB sichtbar, der Cache ist
+für den Claude-Prozess weiterhin gesperrt). `fileproviderctl dump` kennt danach **keine OneDrive-Domain
+mehr**, Google Drive, Dropbox und iCloud sind unverändert. **Die drei CloudStorage-Stämme blieben als
+dataless-Phantome zurück** (`mv` → «Permission denied», danach selbst `ls` → «Operation not permitted»),
+exakt R1 des August-Vorfalls. Erster Lauf des Scripts brach ab, weil `pgrep -f OneDrive` den eigenen
+Scriptpfad `OneDrive-Quarantaene` traf; Prüfung auf `/Applications/OneDrive.app` eingeschränkt, zweiter
+Lauf sauber. Nächste Schritte: Neustart, dann `phantome-entfernen.sh` (verschieben, sonst löschen nur
+wenn < 2 MB, kein Wildcard); hängt es weiter: Erste Hilfe auf «Macintosh HD - Data». Dann
+Neuinstallation und Neuverknüpfung.
+
+**Nachtrag 23:23–23:28 Uhr, abgeschlossen:** Nach dem Neustart waren die drei Stämme aus Raphaels
+Terminal lesbar; `phantome-entfernen.sh` kopierte die 31 Dateien aus `OneDrive-JANS` byteidentisch in
+die Quarantäne und leerte alle drei Ordner, `rmdir` scheiterte aber weiterhin. **Ursache, gemessen mit
+`ls -le`:** jede Domain-Wurzel trägt die ACL `group:everyone deny delete` (plus `deny writeextattr`),
+von fileproviderd gesetzt; der Elternordner `CloudStorage` trägt `deny delete` ebenfalls. Das ist der
+Mechanismus hinter den «dataless-Phantomen» vom August, dort mit Erste Hilfe und Neustart umgangen.
+Direkter Weg: `chmod -RN <ordner>` (ACL entfernen), dann `rm -rf` auf die drei exakten Pfade
+(`huellen-entfernen.sh`, ohne sudo durchgelaufen). Nebenbefund: `diskutil verifyVolume
+/System/Volumes/Data` fand zwei verwaiste doc-id-Einträge und führte eine Reparatur durch. **Endzustand
+23:28:** CloudStorage enthält nur noch Dropbox und die zwei Google-Drive-Stämme, fileproviderd kennt
+keine OneDrive-Domain, kein OneDrive-Prozess, App in der Quarantäne. Frei für Neuinstallation.
+**Lehre für das Wege-Register:** vor Erste Hilfe zuerst `ls -le` auf die Hülle; eine ACL ist kein
+Dateisystemschaden.
+
 ## 260908 — Das Konversations-Destillat ist keine Belegquelle fuer den Versandstatus
 
 Gemessen vom `logbuch-radar` am 08.09.2026. Das Destillat von 06:2x fuehrte die Honorarofferte

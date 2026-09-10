@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — F291 nannte für ZH das ordentliche Verfahren, es gilt § 325a PBG
+
+- **`wiki/BAUHERREN-FAQ.md` F291:** Der Bauherren-Transfer riet, «weiter mit dem ordentlichen
+  Verfahren» zu rechnen. Für Kt. ZH ist das nach geltendem Recht falsch: § 325a PBG weist
+  energetische Sanierungen der Gebäudehülle dem **Anzeigeverfahren** zu (amtlicher Volltext
+  `wissen/baurecht/raw/260607_amtlich_zh_pbg.md`, Fassung 1.7.2026). Führend für die
+  Verfahrensart ist `wissen/baurecht` (`wiki/baubewilligungsverfahren.md`); diese KB kannte den
+  Bezug selbst schon (`wiki/energienachweis-zh.md`, Querbezug-Absatz), die FAQ nannte das
+  Anzeigeverfahren aber nirgends. **Additiver ⚠-Absatz gesetzt**, der Transfer-Satz selbst ist
+  unangetastet; ob er umformuliert wird, entscheidet der nächste Lauf. SZ-Verfahrensart bleibt
+  unbelegt. → Rücklauf auch an `wissen/baurecht` (`wiki/QUESTIONS.md`, Nachtrag an E-E189-1).
+- **Nachlauf zur Cross-KB-Korrektur aus Run 190:** in `wissen/planungsgrundlagen`
+  (`wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md`) schrieben Bildunterschrift,
+  Datenstand-Zeile und Quellenklammer die Grenzwert/Zielwert-Tabelle weiterhin «Tab. 24» zu,
+  gegen die von Run 190 dort gesetzte Fussnote ¹. Dort angeglichen; Werte unverändert.
+
 ## 2026-09-10 (Run 190) — A-BLIND Rang 75 am Original: vier Abschreibfehler, Pruefschritt 1 auf null
 
 - **Werkzeug:** `wissen/tools/wiki-konsistenz.sh` um drei eng gefasste Journal-Ausnahmen erweitert

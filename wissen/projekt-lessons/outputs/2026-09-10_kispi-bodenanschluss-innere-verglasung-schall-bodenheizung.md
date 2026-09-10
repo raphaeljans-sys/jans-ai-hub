@@ -8,9 +8,17 @@ sources:
   - "Steger AG, Ausführungsplan Fussbodenheizung Grundriss 1.OG Sektor 41 (AF_FBH_OG1_S_41.pdf) und FBH-Berechnung OG1 (FBH_Berechnung_OG1_S_AB/CD.pdf), 70 Unternehmerdokumentation, LOS_242.11_Heizung Kälte Sued/08_Pläne Unternehmer/1.1d Fussbodenheizung/03 O1"
   - "Schallmessprotokolle LOS_274.01 (ift Rosenheim Prüfbericht 163 33437/Z04 PLANLINE F30; Jegen System LBW mit Dilatationsprofil, Messblatt N03 vom 20.01.2023)"
   - "JANS Architektenplan 2619-274.01-01 «Innere Verglasungen Neu», 21.07.2026 (Legende «EI30 / 35dB»)"
-links: [[2026-08-28_bestandsstandard-beschlaege-unternehmerdokumentation]], [[2026-08-28_kennwerte-ei30-schiebetueren-kispi]]
 ---
 # Befund
+
+> **Schwester-Reports zum selben Los/Vorgang:**
+> `/Volumes/daten/jans-ai-hub/wissen/projekt-lessons/outputs/2026-08-28_bestandsstandard-beschlaege-unternehmerdokumentation.md`
+> (Bestandsstandards in der Rubrik 70) und
+> `/Volumes/daten/jans-ai-hub/wissen/grobkosten/outputs/2026-08-28_kennwerte-ei30-schiebetueren-kispi.md`
+> (Jegen-Offerte, Kennwerte EI30). *Aus dem Frontmatter-Feld `links:` hierher verschoben
+> 10.09.2026 (Wissens-Chef Lauf 57): `outputs/`-Reports tragen dieses Feld nicht
+> (`wissen/WISSEN-CLAUDE.md` Z. 60-66, Präzedenzfall PL46-2 vom 08.09.2026 in dieser KB); der
+> zweite Link zeigte zudem in eine fremde KB und löste nicht auf.*
 
 Bei der Frage, wie eine neue innere Verglasung EI30 (Jegen) im 1.OG PPTS auf den bestehenden
 Heizestrich gestellt werden kann, ohne den Unterlagsboden auszuspitzen, liegen alle
@@ -61,3 +69,13 @@ Fugeneinteilung und Sperrzonen.
 3. SIA 181 setzt innerhalb einer Nutzungseinheit keine Anforderung (Ziff. 0.1.2); ein
    Zielwert wie 35 dB Korridor/Aufenthalt ist eine Projektvorgabe und gehoert als solche
    in die Nutzungsvereinbarung.
+   *Fundstelle und Querbezug (Nachtrag Wissens-Chef Lauf 57, 10.09.2026):* SIA 181:2020,
+   Ziff. 0.1.2 (Beleg `wissen/normen/destillate/sia-181-2020-faq.md`; Fundstelle und Ausgabe
+   führt die KB `normen`). Für den Schutz **innerhalb** der Nutzungseinheit verweist die Norm
+   auf die Empfehlungen im informativen Anhang G der Vorgängerausgabe SIA 181:2006; der Hub
+   führt sie in `wissen/energie/destillate/sia-181-schallschutz-anforderungswerte.md`
+   (Abschnitt «Empfehlungen INNERHALB einer Nutzungseinheit», Sekundärquelle, Anhang G in
+   `normen` noch nicht destilliert): Altersheim/Spital, Korridor zu Zimmer, **D_i 30 dB
+   (Stufe 1) / 35 dB (Stufe 2)**. Der Projektwert 35 dB ist damit zahlengleich mit Stufe 2.
+   Vorbehalt Bezugsgrösse: D_i ist ein Bauwerkswert, die Elementwerte oben sind Rw; ob die
+   Planlegende «EI30 / 35dB» das eine oder das andere meint, ist offen (`wiki/QUESTIONS.md`).

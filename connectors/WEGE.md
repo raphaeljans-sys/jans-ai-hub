@@ -1111,3 +1111,8 @@ schliesst. Klick-Helfer bauen: `swiftc -O -o "$SCRATCH/klick" scripts/cgevent-kl
   Ausführung übernimmt Raphael in Terminal.app mit Festplattenvollzugriff (Memory
   «Systemschalter per Terminal statt GUI»). Muster: `~/OneDrive-Quarantaene-260910/bereinigung.sh`
   (nur `mv`, Ziel Quarantäne, App per `sudo mv`). Chronik: `rules/betrieb-chronik.md` 260910.
+- **Nachtrag 23:28, Phantomordner in `~/Library/CloudStorage/`:** «Permission denied» auf `rmdir` einer
+  leeren, eigenen Domain-Wurzel kommt von der ACL `group:everyone deny delete`, die fileproviderd setzt
+  (`ls -le` zeigt sie). Weg: `chmod -RN <ordner>`, dann `rm -rf` auf den exakten Pfad, ohne sudo.
+  Erste Hilfe und Neustart (August-Weg) sind dafür nicht nötig. Muster:
+  `~/OneDrive-Quarantaene-260910/huellen-entfernen.sh`.
