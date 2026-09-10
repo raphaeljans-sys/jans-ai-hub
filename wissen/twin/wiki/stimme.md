@@ -5692,3 +5692,93 @@ Gewichtung `authentisch`; Quelle `raw/260910-mailbatch-118.md`.
   (116/117/118), gleiche Richtung — der Tageswert liegt hier doppelt so hoch wie am 08.09.
   (2.3), passend zur Last des Tages. Du-Gross-Quote **0.667**: «**D**ir» und «**D**u» gross,
   «**d**u solltest» klein, in **derselben** Mail.
+
+## Fidelity 260910 — die Mikrotext-Gattung, erstmals blind gemessen: vier Golds, vier verfehlte Längen
+
+Vier authentische Golds vom Oktober 2025 (klar vor-Claude), gezogen nach **Gattung** statt nach
+Fenster: alle vier fallen in die Klassen A/B der Längenzählung vom 09.09.2026 (Nulltext bzw.
+1–15 Wörter, zusammen 21.5 % aller Sendungen). Die Gattung war bis heute **nie** blind getestet.
+
+| | Anlass | Gold | Blindfassung |
+|---|---|---|---|
+| A | Kostenauskunft an Unternehmer-Du (Labinot Shabani, 03.10.2025) | **13 W** | 19 W |
+| B | Bestätigung an die ESTV auf deren Rückfrage (M. Rentsch, 08.10.2025) | **18 W** | 30 W |
+| C | Statusfrage ans Sammelpostfach SVA ZH (16.10.2025) | **16 W** | 55 W |
+| D | Weiterleitung amtlicher Archivakten an die Bauherrin (09.10.2025) | **2 W** | 20 W |
+
+**Der Zwilling schreibt jede der vier Mails zu lang, und zwar umso stärker, je knapper das Gold
+ist** (+46 %, +67 %, +244 %, +900 %). Die Längen-Drift verschwindet nicht mit der Gattung,
+sie *entsteht* an ihr: wo Raphael am kürzesten ist, ist der Abstand am grössten.
+
+### Die Kurzsignatur — vierter Beleg, und der Block steuert dagegen
+
+Gold B schliesst mit «Freundliche Grüsse / **Raphael Jans**» und **ohne** Signaturblock: eine
+Handy-Antwort im laufenden Behörden-Thread, 18 Wörter. Das ist nach 260813 (Behördenmail),
+260808 (Reply im Anbieter-Sie, «sobald der Thread steht») und 260814 (dringliche
+Behörden-Initiativmail) der **vierte** unabhängige Beleg.
+
+Der Do/Don't-Block trug dazu bis heute nur die Abwehr «die Kurzsignatur ist eine Ausnahme,
+keine Reply-Regel». Die Blindfassung hat die Kurzsignatur **erwogen und genau deshalb
+verworfen** — im Begründungsprotokoll wörtlich: «der Massstab nennt sie ausdrücklich Ausnahme,
+keine Reply-Regel, deshalb voller Block». Die Regel hat den Zwilling nicht bloss nicht
+geschützt, sie hat ihn vom belegten Weg **weggeführt**. Nach vier Belegen ist die Bedingung
+destillierbar und im Block nachgezogen: **steht der Thread oder trägt die Mail nur einen Satz,
+kommt die Kurzsignatur — auch im Sie und auch gegenüber der Behörde.**
+
+### Marker aus Gold A, die der Block nicht trägt
+
+- **«Hoi Labinot.» mit Punkt statt Komma** — seit Batch 15 (24.06.2026) im Artikel belegt,
+  nie kompiliert. Blindfassung: «Guten Abend Labinot» ohne Satzzeichen.
+- **Die Zahl in Raphaels Eigenform «2.MIO»** (ebenfalls Batch 15) gegen «CHF 2.0MIO» der
+  Blindfassung; das Gold setzt **kein** «rund» davor — es behauptet.
+- **Der Kurzgruss trägt den Vornamen**: «Danke und Gruss / Raphael» über dem Block. Die
+  Blindfassung setzte den Kurzgruss richtig **über** den Block (Marker 260824/260826 getroffen),
+  liess aber den Vornamen weg.
+- **Der Betreff trägt die Antwort, nicht das Thema:** Betreff «2MIO» gegen «Erstellungskosten».
+  Einzelbeleg, darum nur als Frage vorgelegt (→ [[QUESTIONS]] 260910b #4).
+- **Ein Satz, nicht zwei:** Gold sagt Zahl und Handlungsanweisung in einem Du-zentrierten Satz
+  («Du kannst von Erstellungskosten von 2.MIO ausgehen»); die Blindfassung trennt in Sachaussage
+  plus angehängten Nutzensatz («Damit kannst Du weiterrechnen.»).
+
+### Gold C: zwei nackte Fragen, kein Rahmen — und beide mit Fragezeichen
+
+Vollständiger Eigentext an das Sammelpostfach: «Guten Tag / Gibt es noch offene Rechnungen? /
+Kann die Rechnung im Anhang als erledigt verbucht werden?» + FG-Block. Kein Einleitungssatz,
+kein Dank, kein Service-Satz, keine Bitte, keine Begründung; der Anhang wird **innerhalb** der
+Frage genannt, nicht in einem eigenen Liefersatz.
+
+Die Blindfassung baute davor «Ich ersuche Sie um eine kurze Auskunft.» — ein Satz, der nur
+ankündigt, was danach ohnehin kommt — und machte aus der zweiten Frage eine nominale
+Anhangs-Bitte. Ergebnis: 55 gegen 16 Wörter.
+
+**Nebenbefund zu [[QUESTIONS]] 260909b #2 (Fragezeichen):** beide Sachfragen tragen es. Das
+stützt die am 09.09. eingegrenzte Trennlinie — die Bitte und die Vorwurfsfrage verlieren das
+Fragezeichen, die echte Sachfrage behält es.
+
+## Die Nullform-Weiterleitung ist zweimal belegt, zwölf Tage später gemessen und nie kompiliert
+
+Gold D ist **derselbe Vorgang**, der seit dem 30.07.2026 im Abschnitt «Zwei-Wort-Transmittal
+‹zur Info› auch im Sie an die Bauherrschaft» (Batch 82) in diesem Artikel steht: Weiterleitung
+der Archivakten-Lieferung des AfB an die Bauherrin, 09.10.2025, vollständiger Eigentext
+«**zur Info**», klein, ohne Anrede, ohne Gruss, ohne Signatur, obwohl die Empfängerin damals im
+**Sie** stand.
+
+Am 29.08.2026 kam der zweite, unabhängige Beleg dazu (Abschnitt «Die Nullform des Transmittals»,
+Gold Tschopp 08.07.2026) — und der Lauf hielt ausdrücklich fest, warum er nicht ins Gehirn
+wanderte: «Der Auto-Block lag am 29.08.2026 bei 33'952 B von 34'000 B (Reserve 48 B). Die
+Nullform ist darum hier belegt, aber nicht kompiliert.»
+
+**Zwölf Tage später ist der Schaden gemessen.** Die Blindfassung D setzte Anrede, einen
+Kenntnisnahme-Nominalsatz, Gruss und vollen Block — die Gegenprobe vom 29.08. beschrieb genau
+dieselben fünf Elemente, «von denen im Gold keines vorkommt». Die Vorhersage hat sich am
+nächsten realen Anlass eingelöst.
+
+Damit ist die Byte-Frage nicht mehr eine Kostenfrage, sondern ein belegter Fehlerpfad: **eine
+wegen der Grenze zurückgestellte Regel hat einen Fehlschlag produziert, dessen Form vorher
+korrekt beschrieben worden war.** Die Nullform ist mit diesem Lauf kompiliert; der Platz dafür
+stammt aus Verdichtung an anderer Stelle (siehe Report). Zur Grenze selbst
+→ [[QUESTIONS]] 260909b #4 (sechster Lauf in Folge, Entscheid Raphaels).
+
+**Präzisierung gegenüber der Batch-82-Fassung:** dort stand «der Zwilling darf». Nach dem
+heutigen Messwert (Faktor 10) ist es keine Erlaubnis, sondern die **Zielform** — beim reinen
+Durchstellen einer fremden Lieferung ist alles ausser dem Zwei-Wort-Hinweis Füllmaterial.

@@ -4308,3 +4308,62 @@ Quelle `raw/260910-mailbatch-118.md`, alle Belege 09.09.2026, `authentisch`.
   Vornamens. Der Zwilling bildet die Form **nicht** nach (so haelt es die Rule
   `anrede-kontakte` fuer Eren ausdruecklich fest), darf sie aber im Gold nicht als Zeichen
   fremder Hand lesen.
+
+## Fidelity 260910 — das Gewicht senkt die Stufe auch, und die Weiterleitung hat gar kein Register
+
+Vier Golds vom Oktober 2025 (authentisch, vor-Claude), alle in der Mikrotext-Gattung.
+**Vier von vier Anreden verfehlt** — nach 3 von 3 am 09.09.2026 der zweite Lauf in Folge, in
+dem diese Facette die schwächste ist. Die Fehlgriffe zeigen aber nicht vier Ursachen, sondern
+zwei.
+
+### 1. Die Anlassgewicht-Klausel wirkt in BEIDE Richtungen (Gold B)
+
+Gold B, 08.10.2025 an Martin Rentsch, Steuerspezialist ESTV, im laufenden Vorgang und mit
+namentlich bekanntem Gegenüber: «**Guten Tag Herr Rentsch**». Die Blindfassung schrieb
+«Geschätzter Herr Rentsch» und begründete das korrekt mit der Block-Regel «Behörde nach
+Vertrautheit UND Gewicht: **bekannt→Geschätzte/r**».
+
+Die Regel ist an der **Vertrautheit** aufgehängt, wo in Wahrheit das **Gewicht** regiert. Der
+Anlass ist hier so leicht wie möglich: die Behörde bittet um eine Ja-Bestätigung, Raphael
+bestätigt. Kein Antrag, keine Rechtsfolge, keine Bitte. Die Stufe fällt darum auf «Guten Tag»,
+obwohl Person und Vorgang bekannt sind.
+
+Das ist die Gegenrichtung zu der in `rules/anrede-kontakte.md` festgehaltenen Klausel «Gewicht
+des Anliegens schlägt den Routine-Default», die bisher **nur als Hebung** belegt war
+(Tschopp, Besnik, Hiltmann, Spörri, Stadelmann; Sie-Erweiterung 260903 über Undine Hofer).
+Gold B belegt die **Senkung** am selben Mechanismus: dieselbe Person, derselbe Vorgang, ein
+trivialer Anlass, eine Stufe tiefer. Die Klausel ist damit symmetrisch — sie beschreibt nicht
+eine Aufwertung bei Gewicht, sondern eine **Kopplung der Stufe an den Anlass**, in beide
+Richtungen. Im Block nachgezogen; die Rule ändert dieser Lauf nicht (Freigabe Raphaels,
+→ [[QUESTIONS]] 260910b #2).
+
+### 2. Geld macht ein Anliegen nicht gewichtig (Gold C)
+
+Gold C, 16.10.2025 an das Sammelpostfach der SVA Zürich: namenloses «**Guten Tag**», zwei
+Fragen zum eigenen Rechnungsstand, ein PDF im Anhang. Die Blindfassung wählte «Sehr geehrte
+Damen und Herren» und markierte die Stelle selbst als ihre schwächste — die Begründung:
+«ich habe über das Gewicht (Geld, eigener Rechnungsstand) entschieden».
+
+Die Block-Regel steht seit 260831 richtig da («unbekanntes Postfach: triviale Service-Bitte →
+namenloses Guten Tag/Grüezi, gewichtiges/rechtsbegründetes Ersuchen → Sehr geehrte Damen und
+Herren»), nur ist die **Schwelle** falsch kalibriert. Eine Statusfrage zum eigenen Konto ist
+trivial, auch wenn Beträge darin vorkommen. Gewichtig macht ein Anliegen, was es **begründet**
+(ein Recht, eine Schwelle, ein Antrag) — nicht, dass es Geld betrifft. Gegenprobe im selben
+Korpus: das MWST-Abmeldegesuch vom 03.10.2025, das ein Recht nach Art. 10 Abs. 2 lit. a MWSTG
+geltend macht, trägt «Sehr geehrte Damen und Herren» zu Recht.
+
+### 3. Die Weiterleitung steht ausserhalb der Anrede-Skala (Gold D)
+
+Gold D trägt **gar keine Anrede** — an eine Empfängerin, die zu diesem Zeitpunkt im Sie stand
+(Undine Hofer, Du erst ab Februar 2026). Die Blindfassung setzte «Guten Tag Frau Hofer»,
+Stufe und Namensform korrekt nach der Kontaktliste, und lag trotzdem falsch: die Frage war
+nicht, **welche** Anrede, sondern **ob** eine.
+
+Das reine Durchstellen einer fremden Lieferung hat kein Register. Die Skala greift erst,
+sobald Raphael selbst etwas sagt. Belegdetails → [[stimme]], Abschnitt «Die Nullform-
+Weiterleitung ist zweimal belegt».
+
+**Was getroffen wurde:** die Kontaktliste selbst. Die Blindfassung hat Undine Hofers Sie-Stand
+für Oktober 2025 korrekt aus der datierten Zeile gezogen und ausdrücklich als Ablesung
+protokolliert — die am 03.09.2026 nachgetragene Datierung «Du erst ab Februar 2026» hat
+gewirkt. Ohne sie hätte der Zwilling geduzt.

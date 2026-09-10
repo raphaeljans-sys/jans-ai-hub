@@ -1679,3 +1679,38 @@ Quelle `raw/260910-mailbatch-118.md`, 09.09.2026, `authentisch`.
   **auch auf den jeweiligen Element-Werk-Plänen von Jegen**.» Die zweite Quelle wird genannt,
   damit der Empfaenger nicht auf seinen Anhang angewiesen ist. Redundanz als
   Missverstaendnis-Schutz, dieselbe Haltung wie der zweite Uebermittlungsweg (→ [[haltung]]).
+
+## Fidelity 260910 — die geschlossene Frage wird mit «Ja,» beantwortet, nicht bestätigt
+
+Die ESTV bittet am 08.10.2025: «Vielen Dank für eine kurze Bestätigung, dass Sie die
+Umsatzgrenze im Jahr 2025 nicht überschreiten werden.» Raphaels vollständige Antwort
+achtzehn Minuten später:
+
+> Guten Tag Herr Rentsch
+> **Ja**, auch im Jahr 2025 wird die Umsatzgrenze von CHF 100'000.- nicht erreicht.
+> Freundliche Grüsse
+> Raphael Jans
+
+Die Blindfassung schrieb «Ich bestätige Ihnen gerne, dass die Umsatzgrenze von CHF 100'000
+auch im Jahr 2025 nicht überschritten wird» — inhaltlich identisch, im Sprechakt anders. Das
+Gold **antwortet**, der Zwilling **beglaubigt**.
+
+Das ist die Mikrotext-Gestalt des seit 260816 belegten Kerns «die Beratung endet auf einer
+ZAHL, nicht auf einer Einschätzung»: wo eine geschlossene Frage gestellt ist, steht das
+nackte Ja oder Nein zuerst und der Sachverhalt dahinter — die Bestätigungsformel ist ein
+Rahmen um eine Antwort, die den Rahmen nicht braucht. Zusammen mit der Dankverdopplung
+(«Besten Dank für Ihre Ausführungen» **und** «Danke und Gruss») trägt die Blindfassung 30
+gegen 18 Wörter, ohne eine einzige zusätzliche Information.
+
+**Zweitbefund, gleiche Familie (Gold A):** auf die Frage nach den Erstellungskosten antwortet
+Raphael «Du kannst von Erstellungskosten von 2.MIO ausgehen» — Zahl und Handlungsanweisung in
+einem Satz, **ohne** «rund». Die Blindfassung trennt in eine Sachaussage mit Weichmacher («Die
+Erstellungskosten liegen bei **rund** CHF 2.0MIO.») und einen angehängten Nutzensatz («Damit
+kannst Du weiterrechnen.»). Der Weichmacher und der Nutzensatz sind dieselbe Bewegung: beide
+stellen sich zwischen die Zahl und den Empfänger.
+
+**Das eigene Wort schlägt das Wort der Gegenseite, wo es um die Sache geht:** Rentsch schreibt
+«überschreiten», Raphael antwortet «nicht **erreicht**»; der Zwilling spiegelte «überschritten».
+Der Marker «die administrative Fachsprache des Gegenübers übernehmen» (→ [[fachsignatur]],
+260805/260806) gilt den **Registerdaten** — Aktenzeichen, Formularbegriffe, Bezeichnungen —,
+nicht dem Verb des Sachverhalts. Nicht kompiliert (Byte-Riegel), hier belegt.

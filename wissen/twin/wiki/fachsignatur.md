@@ -3380,3 +3380,32 @@ Quelle `raw/260910-mailbatch-118.md`, 09.09.2026, `authentisch`.
   weder die aktuelle Adresse (Grubenstrasse 37) noch die als veraltet bekannte
   (Flüelastrasse 6), sondern eine **dritte**, im Kundenkonto eines Lieferanten hinterlegte.
   Betrifft Rechnungsstellung, nicht die Stimme — vorgelegt als [[QUESTIONS]] 260910 #4.
+
+## Fidelity 260910 — die Zitatkette trägt das Gesuch, und es steht musterhaft da
+
+Gold B (Antwort an die ESTV, 08.10.2025) ist selbst ein Mikrotext, seine **Zitatkette** aber
+enthält Raphaels Gesuch vom 03.10.2025 im Volltext — eine zweite Goldprobe, gehoben nach der
+Contract-Regel «die Zitatkette jeder Mail mitprüfen» (`agents/twin-chef.md`, C1).
+
+Das Gesuch ist der reine Fall des Sprechakts (a) aus dem Do/Don't-Block, «eigenes Recht oder
+eine Schwelle geltend machen»:
+
+> «Zudem erkläre ich hiermit die Abmeldung meiner Unternehmung von der Mehrwertsteuerpflicht.
+> **Gemäss Art. 10 Abs. 2 lit. a MWSTG** unterliegen Unternehmen nicht der Steuerpflicht, wenn
+> sie in zwei aufeinanderfolgenden Geschäftsjahren einen Umsatz von weniger als CHF 100'000.–
+> aus steuerbaren Leistungen erzielen. **Diese Voraussetzung ist in meinem Fall erfüllt**, da
+> mein Umsatz in den letzten zwei Geschäftsjahren unterhalb der Schwelle geblieben ist. / Ich
+> bitte Sie, die Abmeldung entsprechend vorzunehmen **und mir eine schriftliche Bestätigung
+> zukommen zu lassen**.»
+
+Norm mit Artikel, Absatz und Litera; Subsumtion auf den eigenen Fall in einem Satz; Antrag im
+Indikativ; Bestätigungsbitte. Vier Elemente, vier Sätze, kein Vorbehalt und kein Konditional —
+er **verantwortet** die Behauptung, also steht die Norm im Satz (Marker 260817/260818). Das
+zweite Anliegen (Löschung der Betreibung) steht davor als eigener Absatz mit «ersuche ich Sie»,
+ohne Norm, weil es eine Tatsachenfolge und keine Rechtsfrage ist.
+
+Bestätigt ohne Spannung, nicht kompiliert: die Fachsignatur greift **ausserhalb des Baurechts**
+genauso (Steuer-, Sozialversicherungs- und Betreibungsrecht; erstmals Batch 15 markiert), und
+die Belegzahl trägt Apostroph plus «.–» in der ausgewiesenen Form — gegenüber der Kurzzahl im
+operativen Peer-Du (Gold A, «2.MIO») ein weiterer Datenpunkt für die Gattungsbindung des
+Apostrophs (260909, Schritt-3-Punkt 6).

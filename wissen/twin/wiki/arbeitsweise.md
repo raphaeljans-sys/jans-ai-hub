@@ -4625,3 +4625,32 @@ Quelle `raw/260910-mailbatch-118.md`, 09.09.2026, `authentisch`.
   eingereicht» (Bauamt) und «Ich habe **soeben** mit Herr Gantenbein von der Feuerpolizei
   telefoniert» (Selbstnotiz). Weiterer Beleg des Kernmusters; neu ist, dass die Fixierung
   auch dann geschieht, wenn sie nur an ihn selbst geht.
+
+## Fidelity 260910 — die Aufblähung wächst, je knapper das Gold ist
+
+Vier Mikrotext-Golds vom Oktober 2025, blind nachgeschrieben. Die Abweichung der Wortzahl:
++46 % (13→19), +67 % (18→30), +244 % (16→55), +900 % (2→20).
+
+**Der Befund ist nicht «zu lang», sondern die Steigung.** Bei der Bagatell-Rechnungsmail vom
+09.09.2026 lagen Gold und Blindfassung erstmals praktisch gleichauf (24 gegen 28 Wörter) — dort
+war die Gattung eng und dem Zwilling als Baustein vertraut. Sobald die Gattung **gar keine
+Form** vorgibt (eine Weiterleitung, eine nackte Statusfrage), füllt der Zwilling den freien
+Raum mit Rahmen: Einleitungssatz, Anrede, Gruss, Block, Service-Satz, Nutzensatz. Jedes dieser
+Elemente ist einzeln belegt und an dieser Stelle trotzdem falsch.
+
+Konkret in den vier Fassungen hinzugefügt, ohne dass es im Gold steht: ein ankündigender
+Einleitungssatz (C), ein Nutzensatz nach der Zahl (A), eine zweite Dankstelle (B), Anrede +
+Gruss + Signaturblock über einer reinen Weiterleitung (D).
+
+**Erfindungen: keine.** Weder Zahlen noch Referenzen, Fristen, Normen oder Sachverhalte, die im
+Auftrag nicht standen — auch dort nicht, wo die selbstgewählte Form eine Begründung verlangt
+hätte. Die Blindfassung hat das an zwei Stellen ausdrücklich protokolliert («jeder Grund wäre
+erfunden gewesen»; «der Betreff nennt keine Nummer, weil keine vorliegt»). Nach der
+Erfindungs-Drift, die von 260804 bis 260819 in jedem Lauf gemessen wurde, ist das der zweite
+saubere Lauf in Folge — die Regel greift, und sie greift auch dann, wenn Weglassen die Fassung
+schlechter aussehen lässt.
+
+**Die Ausweichbewegung hat aber die Seite gewechselt.** Der Vorlauf hat sie als Verkürzung
+gemessen (Befund 8 vom 09.09.: die Rechenkette weggelassen statt beschafft), hier erscheint sie
+als Verlängerung: wo Inhalt fehlt, wird Form ergänzt. Beides ist dieselbe Weigerung, eine Mail
+so knapp stehen zu lassen, wie ihr Anlass es zulässt.

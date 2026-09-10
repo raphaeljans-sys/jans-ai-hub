@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 10.09.2026 05:43:18
+Stand: 10.09.2026 05:53:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 05:43:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2c8e56cb3 Nachtschicht Mac Mini: Journalzeile Fristen-Radar KISPI PPTS
+- bcd981cc2 nas-selfcommit: 3 Datei(en) 2026-09-10 05:45
