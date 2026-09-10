@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## 2026-09-10 (Run 190) — A-BLIND Rang 75 am Original: vier Abschreibfehler, Pruefschritt 1 auf null
+
+- **Werkzeug:** `wissen/tools/wiki-konsistenz.sh` um drei eng gefasste Journal-Ausnahmen erweitert
+  (Platzhalter, aufloesender Umbruch nur in QUESTIONS, ehemalige Slugs nur mit Merge-Beleg).
+  energie 13 → 0, hubweit 192 → 177, Gegenprobe im Testbaum bestanden. E-R188-1 geschlossen.
+- **A-BLIND:** Ranking 61-85 neu gebildet; Rang 75 `sia-380-1-heizwaermebedarf-berechnung` plus drei
+  Nachbarseiten derselben PL-04-Ablage am Scan gelesen (M365-CLI). Formel-Destillat vervollstaendigt
+  (Qi, τ mit Faktor 24, a0/τ0, Grenzfaelle, F_F), Fassungsbehauptung «SIA 380/1:2016» im Register
+  zurueckgenommen (Quelle verweist auf SIA 381/2 und EN ISO 13790). Rechenbeispiel: **Quellenfehler**
+  im Schritt 6 offengelegt (33,2 statt 28,9; Qh unveraendert), Pruefauftrag «aktuelle SIA 381/2»
+  berichtigt. Tab. 24/25 und Tab. 6.2 ohne Befund bestaetigt.
+- **Cross-KB, → uebergeben an `wissen/planungsgrundlagen`:** τ-Formel ohne Faktor 24, Spitaeler-Spalte
+  Tab. 25 mit Restaurant-/Verkaufswerten vermischt (u.a. Q_ww 200 statt 100 MJ/m²), Q_P Verw./Schulen
+  vertauscht, «Industriebauten» als «Schulen» — dort mit Vermerk berichtigt, CHANGELOG 2026-09-10.
+- **Verdichtung:** FAQ **F292** neu, F2 praezisiert, `wiki/u-werte-grenzwerte-ch.md` Abschnitt
+  «Ausnutzungsgrad und Speichermasse». Neu offen: E-R190-1 (Werkzeug, «≈»-Zeilen), E-R190-2
+  (Doppel-Abschriften zwischen KBs diffen).
+- Bericht: `outputs/2026-09-10_energie-run190.md`.
+
 ## 2026-09-10 (Nachtschicht Mac Mini, Prioritaet 5) — E-R189-1 SZ-Teil beantwortet: kein Gebrauch, kein Vorstoss
 
 Offene Frage E-R189-1 (hat SZ von Art. 18a Abs. 2 lit. a RPG Gebrauch gemacht — energetische
