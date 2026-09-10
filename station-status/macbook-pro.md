@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 10.09.2026 08:58:47
+Stand: 10.09.2026 09:09:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:43)
@@ -12,4 +12,4 @@ Stand: 10.09.2026 08:58:47
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7a467f95b hub-chef: Tageslauf 10.09.2026 — 4 Registerbefunde (Ziegel-Ausfall, Jegen-Freigabe vs. Aussetzung, Wuersch-GzA-Fotos, Kalender 19.09.), A5 Absage GLAESER, Briefing gesendet
+- 76a74eb0e nas-selfcommit: 3 Datei(en) 2026-09-10 09:00
