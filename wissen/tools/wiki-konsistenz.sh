@@ -59,6 +59,24 @@ trap 'rm -f "$ZIELE"' EXIT
   find "$HUB/rules"  -maxdepth 1 -name "*.md" -exec basename {} .md \; 2>/dev/null
 } | sort -u > "$ZIELE"
 
+# --- Journal-Ausnahmen (10.09.2026, energie Run 190, loest E-R188-1)
+# `wiki/QUESTIONS.md` ist ein append-only-Journal: historische Zeilen werden nicht umbrochen und
+# nicht umgeschrieben. Drei Fehlalarm-Typen standen dort seit Wochen als «13 Befunde» im
+# taeglichen Pruefschritt 1 und verdeckten jeden neuen echten Befund. Bewusst NICHT geloest durch
+# einen Ausschluss von QUESTIONS (dort kann ein echter toter Link stehen), sondern je Typ eng:
+#  1. PLATZHALTER — Prosa UEBER die Linkschreibweise ([[slug]], [[Ziel]], [[…]], [[^]]). Das sind
+#     nie Artikelnamen; die Ausnahme gilt ueberall, weil kein Artikel so heissen kann/soll.
+#  2. Zerrissener Backlink NUR in QUESTIONS: Fragment + Anfang der Folgezeile werden
+#     zusammengesetzt; loest das Ergebnis auf, ist es Journal-Umbruch, kein Defekt. Loest es
+#     nicht auf, wird weiter gemeldet. In ARTIKELN bleibt jeder Umbruch ein Befund (rendert nicht).
+#  3. EHEMALIGE Ziele NUR in QUESTIONS: Slugs, die per belegtem Merge in einen Nachfolger
+#     aufgegangen sind. Eintrag nur mit Nachfolger + Merge-Beleg. Ein ARTIKEL, der noch auf einen
+#     ehemaligen Slug zeigt, bleibt ein Befund (der Link fuehrt ins Leere).
+PLATZHALTER=' slug Ziel … ^ '
+#   sia-2024-nutzungsdaten-gesundheitsbau → sia-2024-nutzungsrandbedingungen-gesundheitsbau
+#   (Merge 26.07.2026 auf Freigabe Raphael, Beleg: dessen Frontmatter `merge_historie`)
+EHEMALIGE=' sia-2024-nutzungsdaten-gesundheitsbau '
+
 ZAEHLER=$(mktemp); echo 0 > "$ZAEHLER"
 trap 'rm -f "$ZIELE" "$ZAEHLER"' EXIT
 # melde() laeuft teilweise in Pipe-Subshells — der Zaehler liegt darum in einer Datei,
@@ -83,6 +101,12 @@ for kb in "${KBS[@]}"; do
     esac
     # Backlinks — Zeilenumbruch im Link zuerst (haeufigster echter Fehler)
     grep -n '\[\[[A-Za-zÄÖÜäöü0-9._-]*$' "$f" | while IFS=: read -r ln _; do
+      if [ "$n" = QUESTIONS ]; then   # Journal-Ausnahme 2 (siehe oben)
+        frag=$(sed -n "${ln}p" "$f" | grep -o '\[\[[A-Za-zÄÖÜäöü0-9._-]*$' | sed 's/^\[\[//')
+        fort=$(sed -n "$((ln+1))p" "$f" | sed -E 's/^[[:space:]]*//' \
+               | grep -oE '^[A-Za-zÄÖÜäöü0-9._-]*\]\]' | sed 's/\]\]$//')
+        [ -n "$fort" ] && grep -qxF "$frag$fort" "$ZIELE" && continue
+      fi
       melde "$n:$ln" "Backlink ueber Zeilenumbruch zerrissen (loest nirgends auf)"
     done
     grep -o '\[\[[^]]*\]\]' "$f" 2>/dev/null | sed 's/^\[\[//; s/\]\]$//' | sort -u | while read -r l; do
@@ -91,6 +115,9 @@ for kb in "${KBS[@]}"; do
       # Obsidian-Varianten mitnehmen: [[artikel|Anzeigetext]] und [[artikel#abschnitt]]
       ziel="${l%%|*}"; ziel="${ziel%%#*}"; ziel="${ziel##*/}"
       ziel="${ziel%"${ziel##*[![:space:]]}"}"   # Leerzeichen am Ende weg
+      case "$PLATZHALTER" in *" $l "*) continue ;; esac   # Ausnahme 1; bewusst auf $l, nicht $ziel:
+      # [[outputs/…]] in einem Artikel ist ein Pfad ohne Backticks und bleibt ein Befund
+      [ "$n" = QUESTIONS ] && case "$EHEMALIGE" in *" $ziel "*) continue ;; esac   # Ausnahme 3
       case "$l" in
         *$'\n'*) melde "$n" "Zeilenumbruch im Wikilink [[${l%%$'\n'*}…]]" ;;
         *) grep -qxF "$ziel" "$ZIELE" \

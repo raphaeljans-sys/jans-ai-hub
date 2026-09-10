@@ -65,6 +65,25 @@ ausstehend: verschachtelten Stamm belassen und Pfade je Station umbiegen, oder a
 Verknüpfungen lösen und sauber neu setzen (Klickweg wie im August-Vorfall, nur mit Raphaels Hand).
 Bis dahin führt der Pfad zur KISPI-Ablage auf dem MacBook über den verschachtelten Stamm.
 
+**Nachtrag 22:19–22:45 Uhr, Bereinigung nach dem Mini-Prozedere (Auftrag Raphael):** Raphael hat die
+Verknüpfung gelöst; der Client meldete sich um 22:19 gleich neu an (Konto-Instanz `1e051b0b`, Mapping
+nur noch «MySite - ODB» von `admin_raphaeljans_onmicrosoft_com`, Stamm `OneDrive-JANS` ab 22:22), die drei
+Bibliotheks-Domains blieben als Leichen. **Eingriffe Claude, alle umkehrbar:** (1) 30 lokal materialisierte
+Dateien aus den drei Stämmen nach `~/OneDrive-Quarantaene-260910/lokale-dateien/` kopiert (3.1 GB, Liste
+`gesicherte-dateien.txt`, Inventar `vorher-inventar.txt`); (2) OneDrive-Prozess und File-Provider-
+Erweiterung beendet (`killall`, 22:38). **Blockiert für den Claude-Prozess (TCC, «Operation not
+permitted»):** `mv` auf `~/Library/Containers/com.microsoft.OneDrive-mac`, auf den Group Container
+`UBF8T346G9.OneDriveSyncClientSuite` (58 GB Sync-Cache) und auf `~/Library/Application Support/FileProvider/`;
+auch der Finder-Weg (AppleScript `duplicate`) scheitert dort mit -8067. Die Zuordnung der Domain-Datenbanken
+ist trotzdem exakt gemessen (`fileproviderctl dump`, Abschnitt «FileProvider xattrs»,
+`com.apple.file-provider-domain-id`): OneDrive = `com.microsoft.OneDrive-mac.FileProvider/`,
+`OneDrive-FreigegebeneBibliotheken–JANS` (Domain JANS), `39486C73-…` (OneDrive - JANS), `C65C5880-…`
+(verschachtelt); Google Drive = `A4A5A7C3-…`, `118F60AF-…`; Dropbox = `Dropbox`; iCloud = `C1F14C0B-…`.
+Die restlichen Schritte stehen als Script `~/OneDrive-Quarantaene-260910/bereinigung.sh` bereit
+(Terminal.app mit Festplattenvollzugriff, nur `mv`, Ziel Quarantäne, App per `sudo mv`), Ausführung durch
+Raphael (Memory: Systemschalter per Terminal, nicht per GUI-Automation). Rückweg: alles liegt unter
+`~/OneDrive-Quarantaene-260910/`, Abgleich vor dem Löschen wie R2 des August-Vorfalls.
+
 ## 260908 — Das Konversations-Destillat ist keine Belegquelle fuer den Versandstatus
 
 Gemessen vom `logbuch-radar` am 08.09.2026. Das Destillat von 06:2x fuehrte die Honorarofferte
