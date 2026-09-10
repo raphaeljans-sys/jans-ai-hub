@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 10.09.2026 07:21:23
+Stand: 10.09.2026 07:41:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 07:21:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1e1149960 wissen/claude-code: Ruecklauf logbuch-radar 10.09. — enge Suche belegt den falschen Schluss (Spiegelfall zur Leerergebnis-Regel)
+- 42216ae6d nas-selfcommit: 3 Datei(en) 2026-09-10 07:30
