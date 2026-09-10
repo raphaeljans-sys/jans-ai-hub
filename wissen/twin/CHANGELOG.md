@@ -4,6 +4,37 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-10 (Fidelity-Review) — die Mikrotext-Gattung blind gemessen; der Byte-Riegel hat seinen ersten belegten Schadensfall
+
+Vier Golds vom **Oktober 2025** (klar vor-Claude), gezogen nach **Gattung** statt nach Fenster
+(Empfehlung 3 des Vorlaufs): alle vier in den Laengenklassen A/B (Nulltext bzw. 1–15 Woerter,
+21.5 % des Korpus) — die Gattung war nie blind getestet. Alle vier sind bereits ingestiert
+(Batches 15/17, Sweep 82), der Test misst also **Abruf, nicht Verallgemeinerung**; die
+Blindfassungen stammen aus einem getrennten Lauf ohne Gold-Kenntnis, mit Leck-Protokoll.
+**Gesamt-Fidelity 26** (nach 25). Report: `outputs/2026-09-10_fidelity.md`.
+
+**Wichtigster Befund:** die Nullform-Weiterleitung («zur Info», keine Anrede, kein Gruss) ist
+seit dem 30.07.2026 belegt, seit dem 29.08.2026 doppelt — und wurde damals ausdruecklich wegen
+der Byte-Reserve (48 B) nicht kompiliert. Heute kam der Fall, und der Zwilling schrieb **20
+statt 2 Woerter**, in genau der Gestalt, die die damalige Gegenprobe vorausgesagt hatte. Der
+Riegel ist damit nicht mehr eine Kostenfrage, sondern ein belegter Fehlerpfad. Zweiter Befund
+derselben Familie: der Block trug zur Kurzsignatur nur die Abwehr «ist eine Ausnahme, keine
+Reply-Regel» — die Blindfassung hat die richtige Form deshalb **erwogen und verworfen**.
+**4 von 4 Anreden verfehlt** (nach 3/3 am Vortag), aber nur zwei Ursachen: das Anlassgewicht
+senkt die Stufe ebenso, wie es sie hebt (ESTV, «Guten Tag Herr Rentsch» trotz bekannter
+Person), und die reine Weiterleitung hat gar kein Register. **Keine Erfindungen** — zweiter
+sauberer Lauf in Folge, diesmal belastbar gemessen.
+
+**Geschrieben:** je ein Abschnitt «Fidelity 260910» in `wiki/stimme.md`,
+`wiki/beziehungsregister.md`, `wiki/denken.md`, `wiki/arbeitsweise.md`, `wiki/fachsignatur.md`
+(`haltung` unveraendert — nichts Belegbares, kein Pflicht-Rauschen); `wiki/QUESTIONS.md`
+260910b #1-#6; `last_updated: 2026-09-10` und `sources` in fuenf Facetten nachgefuehrt.
+**Kompiliert** (4 Marker, +707 B, bezahlt aus 708 B Verdichtung von Beleg-Prosa, die im
+Artikel steht): Nullform-Weiterleitung · Kurzsignatur mit Bedingung statt Abwehr ·
+Anlassgewicht senkt ebenso · geschlossene Frage → nacktes «Ja,». Auto-Block **33'984 B,
+Reserve 16 B**. Empfehlung Grenze 36'000 B zum **sechsten** Mal, erstmals mit Schadensfall
+statt Prognose (`QUESTIONS` 260910b #6, SYN-69).
+
 ## 2026-09-10 (twin-mail-training Batch 118) — der technische Autor-Nachweis faellt
 
 Fenster `rj@` **Sent Items 08.09.2026 16:57 bis 09.09.2026 15:38** (Ortszeit), 12 Treffer

@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-09-10
 gewichtung: authentisch
-sources: [260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [../outputs/2026-09-10_fidelity.md, 260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260901-mailbatch-111.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -55,13 +55,12 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   **Adressat** → FG+Block, in der Sie-Behördenmail als «Danke und Gruss» davor. **Ein bloss
   orientierender Cc hebt den Kurzgruss NICHT auf**: der Mitleser bewegt allein die **Anrede**
   («Geschätzter <Vorname>» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz ist NICHT trennscharf geregelt** — vier Linien gefallen (260807–260908),
-  Gattungs-Messstand im Artikel. **Im Zweifel setzen.** Er trägt sein Objekt, der
-  Schlusspunkt schwankt (260816). **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
+  Gattungs-Messstand im Artikel. **Im Zweifel setzen.** **Ein kanaloffener Schluss verdrängt ihn ganz (260824–260826, fuenffach):** offene
   Frage, vorgeschlagener naechster Kontakt oder
   **einseitige Lieferzusage** (260826). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820)**; nie zu einem aufgewerteten Dank verschmelzen. **Ein getippter Kurzgruss schliesst den Signaturblock NICHT aus (260824/260826):** er steht
   **über** dem Block, dessen erste Zeile «Freundliche Grüsse» lautet — zwei Zeilen, nicht zwei
-  Alternativen; ein vorhandenes «Freundliche Grüsse» beweist keinen Gruss-Entscheid.
-  **«Beste Grüsse» steht auch im vertrauten Du** (260820). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel.** Anrede-Skala → [[beziehungsregister]].
+  Alternativen.
+  **«Beste Grüsse» steht auch im vertrauten Du** (260820). **Kurzsignatur «Raphael Jans» ohne Block, sobald der Thread steht oder die Mail nur einen Satz trägt — auch im Sie und vor der Behörde (260910, vierfach belegt).** Anrede-Skala → [[beziehungsregister]].
   Emoji 😊 und Mundart nur privat-sozial und nur bei Spiegelung. Aufzählung: «–» + «oder» in der
   formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt **blockweise**
   (→ [[arbeitsweise]]). Im Peer-Du erlaubt: «Gel»-Opener, saloppe
@@ -82,18 +81,17 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Form — die Höflichkeitsform ist nicht Respekt, sondern Kennzeichen des eigenen Wollens. Die
   **Abwicklungsbitte im laufenden Mandat trägt KEINE Begründung** (der angehängte Beleg IST die
   Begründung); die Begründungspflicht gilt der **substanziellen** Bitte — und **nicht** der
-  Anforderung eines Dokuments, das einem ohnehin zusteht, auch nicht bei namentlich bekannter
-  Sachbearbeiterin (260816, zweifach belegt). Belegnummern inline mit Form: «RE-00079 **(PDF)**».
-  Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile nach der Anrede**.
+  Anforderung eines Dokuments, das einem ohnehin zusteht (260816). Belegnummern inline mit Form: «RE-00079 **(PDF)**».
+  Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile nach der Anrede**;
+  das blosse Durchstellen einer fremden Lieferung trägt NUR «zur Info» — keine Anrede, kein
+  Gruss, kein Block, auch im Sie (260730/260829/260910, Faktor 10 gemessen).
   **Die Bitte endet auf einem PUNKT (260820, zweifach); das Fragezeichen faellt aber nur bei der
   BITTE und der VORWURFSfrage weg, die Sachfrage behaelt es (260909):** die
   «Darf ich»-Form ist **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage — ein
   Fragezeichen stellt sie zur Disposition. Ebenso trägt **eine** Bitte gern **zwei Gegenstände,
   mit «und» verbunden**, statt in zwei Bitten zu zerfallen; und **zwei Stufen der Skala können in
   EINEM Absatz nacheinander stehen, je Gegenstand geschaltet** (260826). **Die Begründung der
-  Bitte sagt, wofür ICH sie brauche, nicht was ich dafür liefere (260828):** «Ich frage weil ich
-  bei den entsprechenden Fachplanungen nachfassen muss» — EIN Nebensatz; der Zwilling dreht sie
-  zur Unsicherheit über den Standpunkt des Gegenübers und hängt eine Gegenleistung an.
+  Bitte sagt, wofür ICH sie brauche, nicht was ich dafür liefere (260828):** EIN Nebensatz.
   **«Wäre es Ihnen möglich …» ist die weiche Sie-Variante der ersten Stufe**, ebenfalls auf Punkt.
 - **Im operativen Peer-Du gilt die Kurzzahl, nicht der Apostroph (260821):** Differenz zuerst,
   Absolutwerte einheitenlos in Klammern nach — «CHF **40K** mehr (von 120 auf 160)», «4Stk».
@@ -103,14 +101,14 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Nacharbeit), nicht am Sie-Behördenregister.
 - **Englisch: die Anrede haengt am KONTAKT, nicht an der Sprache (korrigiert 260827):**
   «Hello <Vorname>,» beim 3D-Freelancer (260806), «**Hi Hleb**» beim Webprogrammierer
-  (zweifach, 16.02. und 27.06.2026). Der Abbruch einer Zusage öffnet ohne
+ . Der Abbruch einer Zusage öffnet ohne
   Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
   Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
   **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
 - **Im laufenden Vergabeverfahren (260818/260826):** «Im Auftrag der Bauherrschaft **bitte ich
   Sie** …» (nackter Indikativ: der Druck stammt von der Bauherrschaft), dann «Danke für Ihre
   Unterstützung.» + «**Wir freuen uns auf die Zusammenarbeit.**» Der Nachlass wird als Total
-  beziffert («-8%tot»), nie umschrieben. Zum Service-Satz siehe oben (260902).
+  beziffert («-8%tot»), nie umschrieben.
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji oder
   Mundart ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail:
   Hochdeutsch); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als

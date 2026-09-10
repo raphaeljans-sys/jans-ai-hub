@@ -6131,3 +6131,73 @@ ein Fragment ist oder ob der M365-Connector den Text kappt.
 Plaintext-Golds die Laenge gegen `bodyPreview` gegenmessen, statt den Abbruch als Stilbefund zu
 lesen (Rule `wege-und-vollmachten`: ein abgeschnittenes Ergebnis ist zuerst eine Aussage ueber
 das Werkzeug).
+
+---
+
+## 260910b — aus dem Fidelity-Review (vier Mikrotext-Golds, Oktober 2025)
+
+**#1 [Beziehungsregister] Senkt das Gewicht die Anrede-Stufe genauso, wie es sie hebt?**
+Am 08.10.2025 antwortest Du dem Steuerspezialisten der ESTV mit «**Guten Tag Herr Rentsch**» —
+obwohl der Vorgang laeuft, die Person namentlich bekannt ist und Du sie fuenf Tage zuvor mit
+«Sehr geehrte Damen und Herren» angeschrieben hattest. Der Anlass war denkbar leicht: die
+Behoerde bat um eine Ja-Bestaetigung, Du hast bestaetigt.
+*Konkret:* Ist das der bewusste Gegenlauf zur Anlassgewicht-Klausel — leichtes Anliegen, tiefere
+Stufe, auch bei bekanntem Gegenueber? Oder haengt «Guten Tag» hier eher daran, dass Du vom Handy
+und im Vorbeigehen geantwortet hast?
+*Warum:* Die Klausel in `rules/anrede-kontakte.md` ist bisher **nur als Hebung** belegt. Der
+Zwilling schraubt darum bei jeder bekannten Amtsperson auf «Geschaetzter» hoch und lag heute
+genau daran falsch. Wenn die Klausel symmetrisch ist, ist das eine Regel statt zweier.
+
+**#2 [Beziehungsregister] Macht Geld ein Anliegen gewichtig — oder nur ein Recht?**
+Am 16.10.2025 fragst Du das Sammelpostfach der SVA Zuerich mit namenlosem «**Guten Tag**», ob
+noch offene Rechnungen bestehen. Zwei Wochen davor traegt Dein MWST-Abmeldegesuch «Sehr geehrte
+Damen und Herren» — dort machst Du ein Recht nach Art. 10 Abs. 2 lit. a MWSTG geltend.
+*Konkret:* Ist die Trennlinie wirklich «begruendet ein Recht oder einen Antrag» gegen «fragt
+nur nach einem Stand» — unabhaengig davon, ob Betraege im Spiel sind?
+*Warum:* Der Zwilling hat die Statusfrage als gewichtig eingestuft, weil es um Geld ging, und
+daraufhin 55 statt 16 Woerter geschrieben. Die Schwelle steht im Gehirn, aber ohne dieses
+Kriterium ist sie nicht anwendbar.
+
+**#3 [Stimme] Der Betreff traegt die Antwort — Absicht?**
+Die Mail an Labinot Shabani vom 03.10.2025 hat den Betreff «**2MIO**» und im Body den einen
+Satz «Du kannst von Erstellungskosten von 2.MIO ausgehen». Der Betreff nennt also nicht das
+Thema, sondern das Ergebnis.
+*Konkret:* Setzt Du bei einer Einwort-Auskunft die Zahl bewusst in den Betreff, damit sie in
+der Liste lesbar ist, ohne die Mail zu oeffnen? Und gilt das auch fuer Termine und
+Entscheide («OK», «Freitag 10:00»)?
+*Warum:* Einzelbeleg, deshalb nicht kompiliert. Der Zwilling betitelt heute jede Mail mit dem
+Thema («Erstellungskosten») — wenn Deine Regel das Ergebnis ist, faellt bei jeder kurzen
+Auskunft der halbe Nutzen weg.
+
+**#4 [Stimme] «Hoi Labinot.» — der Punkt nach der Anrede: Absicht oder Tempo?**
+Der Marker steht seit Batch 15 im Wiki, ist aber nie bestaetigt und nie ins Gehirn gewandert.
+*Konkret:* Soll der Zwilling den Punkt nachbilden, wenn er Dir eine kurze Du-Mail entwirft —
+oder ist er eine Handy-Gewohnheit, die Du korrigiert haben moechtest, wenn Claude schreibt?
+*Warum:* Dieselbe Frage wie bei der Verb-Grossschreibung (260910 #2) und der inkonsistenten
+Du-Grossschreibung: der Zwilling glaettet solche Zeichen heute reflexhaft weg. Wenn sie Deine
+Handschrift sind, verliert er sie in jeder kurzen Mail; wenn nicht, ist es richtig so.
+
+**#5 [Denken] Antwortest Du bewusst mit dem nackten «Ja,» — und mit Deinem eigenen Verb?**
+Auf die Bitte der ESTV um Bestaetigung schreibst Du «**Ja,** auch im Jahr 2025 wird die
+Umsatzgrenze von CHF 100'000.- nicht **erreicht**». Rentsch hatte «ueberschreiten» geschrieben,
+Du antwortest mit «erreicht».
+*Konkret:* Ist das nackte Ja Dein Standard bei einer geschlossenen Frage (statt «Ich bestaetige
+Ihnen gerne, dass …»)? Und uebernimmst Du bewusst nur die **Begriffe** der Gegenseite
+(«Umsatzgrenze»), nicht ihr Verb?
+*Warum:* Der Zwilling hat beides umgedreht und dafuer 30 statt 18 Woerter gebraucht. Der
+bestehende Marker «die administrative Fachsprache des Gegenuebers uebernehmen» treibt ihn
+sogar dorthin — er braucht die Grenze zwischen Registerdatum und Sachverb.
+
+**#6 [Methodik] Die Byte-Grenze — jetzt mit einem Schadensfall statt einer Prognose
+(sechster Lauf in Folge, → 260909b #4).**
+Am 30.07.2026 wurde die Nullform-Weiterleitung («zur Info», keine Anrede, kein Gruss) belegt,
+am 29.08.2026 ein zweites Mal — und der Lauf hielt fest, warum sie nicht ins Gehirn kam:
+«Der Auto-Block lag bei 33'952 B von 34'000 B (Reserve 48 B).» Heute hat der Zwilling genau
+diesen Fall bekommen und mit **20 statt 2 Woertern** beantwortet, in exakt der Gestalt, die
+die Gegenprobe vom 29.08. vorausgesagt hatte.
+*Konkret:* Grenze auf 36'000 B? Der heutige Lauf hat die vier neuen Marker nur untergebracht,
+indem er 708 B Belegprosa aus dem Block in die Artikel ausgelagert hat; die Reserve steht
+danach wieder bei 16 B.
+*Warum:* Es ist der erste belegte Fall, in dem eine wegen der Grenze zurueckgestellte Regel
+nachweislich einen Fehlschlag produziert hat — mit zwoelf Tagen Vorlauf und korrekter
+Vorhersage. Die Frage ist damit keine Kostenfrage mehr.
