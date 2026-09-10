@@ -2,7 +2,7 @@
 quelle: PL - 04 Energie/_Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1.pdf
 herausgeber: Buchauszug «Energetische Gesamtoptimierung» (S. 108|109); Werte = SIA 380/1, Anhang A, Tab. 24 + 25
 ausgabe: SIA 380/1 (Tabellen Anhang A)
-gelesen: vollstaendig (1 S., Doppelseite 108|109)
+gelesen: vollstaendig (1 S., Doppelseite 108|109); Tab. 25 am Original erneut gegengelesen 10.09.2026 (A-BLIND Run 190), alle 96 Zellen bestaetigt — fuehrend gegenueber der fehlerhaften Abschrift in wissen/planungsgrundlagen (dort berichtigt)
 datenstand: ⚠ SIA 380/1-Standardnutzung; Versionsjahr im Auszug nicht genannt — gegen aktuelle Fassung (2016) pruefen.
 status: established
 last_updated: 2026-06-08

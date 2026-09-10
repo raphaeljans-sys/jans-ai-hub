@@ -2,7 +2,7 @@
 quelle: "Bauphysik-Lehrbuch, Kap. 6 «Energie/Leistung», Abschn. 6.2 Heizleistungs- und Energiebedarfsberechnungen (S. 146-147)"
 herausgeber: "Fachbuch (Herausgeber im Scan nicht ausgewiesen)"
 ausgabe: "Tabelle 6.2 bezieht sich auf SIA 380/1 (2009)"
-gelesen: "2026-06-06 (S. 146-147)"
+gelesen: "2026-06-06 (S. 146-147); Tabelle 6.2 am Original erneut gegengelesen 10.09.2026 (A-BLIND Run 190), alle 15 Zahlen bestaetigt"
 datenstand: "SIA 380/1:2009; Kennwerte in MJ/m²·a"
 status: emerging
 last_updated: "2026-06-06"

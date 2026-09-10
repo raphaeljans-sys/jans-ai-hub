@@ -2788,3 +2788,16 @@ wiederholt zugestellter Text darf keinen Fortschrittsstand behaupten).
 klaeren, P2, weil ein ausgehendes Dokument sonst eine Schwelle ohne bekannte Geltungsdauer
 transportiert), zweitens **150.01** (kurz, schliesst den Katalog ab), danach das **Refuter-Panel**
 fuer die Runs 182 bis 185 (`emerging` → `established`).
+
+## Run 190 (10.09.2026, Tageslauf) — A-BLIND Rang 75: SIA-380/1-Seiten am Original, Cross-KB-Abschreibfehler
+
+Kein PDF-Transfer (Inventar erschoepft), stattdessen A-BLIND nach der Pruefwarteschlange: vier
+PL-04-Scans aus `_Heizwaermebedarf` am Original gelesen (Formel S. 104|105, Beispiel S. 106|107,
+Tab. 24/25 S. 108|109, Bauphysik-Lehrbuch Tab. 6.2 S. 146). Zwei Destillate korrigiert bzw.
+vervollstaendigt, zwei ohne Befund bestaetigt, ein Planungsgrundlagen-Artikel an drei Stellen
+berichtigt (τ-Formel, Spitaeler-Spalte Tab. 25, Industriebauten-Zeile). Werkzeug
+`wiki-konsistenz.sh` um drei Journal-Ausnahmen erweitert (E-R188-1). FAQ F292 neu, F2 praezisiert.
+
+**Naechster Zuschnitt:** E-R190-2 (Doppel-Abschriften derselben Scans zwischen `energie` und
+`planungsgrundlagen` gegeneinander diffen — billig, weil ohne Original, und nach diesem Lauf
+mit hoher Trefferwahrscheinlichkeit), danach A-BLIND Rang 70 (`wta-formular-zh-waermetechnische-anlagen`).

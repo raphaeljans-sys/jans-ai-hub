@@ -2,6 +2,56 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## Run 190 (10.09.2026, Tageslauf) — A-BLIND Rang 75 am Original: vier Abschreibfehler, einer davon Healthcare-relevant
+
+**Werkzeug zuerst:** E-R188-1 geschlossen (siehe dort). Pruefschritt 1 zeigt fuer `energie` jetzt
+**0 Befunde**; jeder kuenftige Treffer ist damit ein echter.
+
+**A-BLIND, Ranking neu gebildet (348 Destillate, Raenge 61-85).** Gewaehlt Rang 75
+`[[sia-380-1-heizwaermebedarf-berechnung]]` (18 Backlinks, `emerging`, Prioritaet-1-Thema,
+PL-04-Original). Beide Buchseiten-Scans per M365-CLI geladen und als Bild gelesen, danach die zwei
+Nachbarseiten derselben Ablage, weil der Rueckwaerts-Diff auf sie zeigte. Ergebnis:
+
+1. **Formel-Destillat:** Kern treu, aber unvollstaendig (Qi-/τ-Formel, a0 = 1 / τ0 = 15 h,
+   Grenzfaelle) und Symbol F_r statt F_F — nachgetragen. Die **Registerzeile «SIA 380/1:2016»** war
+   durch die Quelle nicht gedeckt: der Auszug verweist auf SIA 381/2 (zurueckgezogen) und EN ISO 13790
+   (heute SN EN ISO 52016-1). FAQ **F2** entsprechend praezisiert, Registerzeile berichtigt.
+2. **Rechenbeispiel:** die **Quelle selbst** teilt τ durch 33,2 statt durch ihre eigene Summe
+   QT + QV = 28,9 → konsistent ≈ 256 h statt 223 h; Qh 11,8 MJ/m² bleibt. Offengelegt in
+   `[[sia-380-1-beispiel-monatsbilanz]]`; dessen Pruefauftrag «gegen aktuelle SIA 381/2» lief ins
+   Leere (Norm zurueckgezogen) und ist berichtigt.
+3. **Cross-KB `planungsgrundlagen`:** τ-Formel ohne Faktor 24; Tab. 25 mit einer aus Restaurant-
+   und Verkaufswerten vermischten **Spitaeler-Spalte** (Q_ww 200 statt 100 MJ/m², A_P 5 statt
+   30 m²/P, V̇/A_E 1,2 statt 1,0, f_E 0,8 statt 0,7, Q_E 120 statt 100); Q_P Verwaltung/Schulen
+   vertauscht; Tab.-6.2-Zeile «Industriebauten» als «Schulen» gefuehrt. Alles dort mit Vermerk
+   berichtigt, → uebergeben an `wissen/planungsgrundlagen` (CHANGELOG 2026-09-10). Die falschen
+   Spitalwerte waren nirgends weitergewandert.
+4. **Bestaetigt ohne Befund:** `[[sia-380-1-standardnutzungswerte-tab24-25]]` (96 Zellen) und
+   `[[bauphysik-heizwaermebedarf-kennwerte]]` (15 Zahlen) am Original.
+
+**Lehre:** `kennwert-recompute.sh` meldete 0 Befunde, obwohl die Beispielzeile in sich nicht aufging
+— sie war mit «≈0,5» notiert. Und die fehlerhafte Tabelle stand in einer **anderen** KB, die
+dieselben Seiten unabhaengig abgeschrieben hatte. Beides findet nur das Original. Das bestaetigt
+die A-BLIND-Praemisse des Audits vom 23.08.2026 an einem neuen Fall.
+
+**Verdichtung:** neue FAQ **F292** (Speichermasse beim Heizwaermebedarf, Holz vs. Massiv), neuer
+Abschnitt in `[[u-werte-grenzwerte-ch]]`, F2 praezisiert.
+
+### Neu offen aus diesem Lauf
+
+- [ ] **E-R190-1 (P4, Werkzeug): `kennwert-recompute.sh` ueberspringt Zeilen mit «≈»-Faktoren.**
+  Die Zeile «(C/AE)·(Δθ·tc·24)/(QT+QV); C/AE≈0,5 → 223 h» haette bei Nachrechnung 256 ergeben.
+  Vorschlag: «≈x» als Wert mit weiter Toleranz (z.B. 10 %) mitrechnen statt die Zeile zu
+  verwerfen. Erst pruefen, wie viele Zeilen das KB-weit betrifft, bevor die Toleranz festgelegt wird.
+- [ ] **E-R190-2 (P3, Methode): Zwei KBs haben dieselben PL-04-Seiten unabhaengig abgeschrieben.**
+  `energie` und `planungsgrundlagen` fuehren je eine eigene Abschrift der Tab. 24/25 und der
+  Monatsbilanz; nur die eine war richtig. Weitere Doppel-Abschriften derselben Scans sind
+  wahrscheinlich (Ordner `_Heizwaermebedarf`, `U Wert berechnung`). Vorschlag fuer einen
+  A-BLIND-Folgelauf: je Quelldatei, die in beiden `sources:`-Feldern steht, die beiden Abschriften
+  gegeneinander diffen — ein Unterschied zeigt ohne Original, wo hinzuschauen ist.
+- [ ] **A-BLIND naechster Kandidat:** Rang 70 `[[wta-formular-zh-waermetechnische-anlagen]]`
+  (PL-04-Original, «⚠ seit …»-Vermerk im Datenstand) oder Rang 67 `[[enfk-fensterblatt]]`.
+
 ## Run 188 (08.09.2026, Tageslauf) — Pruefwarteschlange gezogen: null echte Fachbefunde, groesste Artefaktklasse behoben
 
 Auftrag aus Run 187: die Pruefwarteschlange gegen den gewachsenen Bestand neu ziehen, bevor ein
@@ -43,7 +93,7 @@ brauchen wir ueberhaupt» fehlte in 287 Eintraegen.
 
 ### Neu offen aus diesem Lauf
 
-- [ ] **E-R188-1 (P3, Werkzeug): die 13 Restbefunde von `wiki-konsistenz.sh` liegen alle in
+- [x] **E-R188-1 (P3, Werkzeug): die 13 Restbefunde von `wiki-konsistenz.sh` liegen alle in
   `QUESTIONS.md`** und sind allesamt Journal-Artefakte: acht ueber Zeilenumbruch getrennte Slugs
   im Fliesstext (die Zieldateien existieren), vier Platzhalter-Notationen aus Prosa ueber das
   Werkzeug selbst (`[[slug]]`, `[[Ziel]]`, `[[…]]`, `[[^]]`) und die historische Erwaehnung der
@@ -52,6 +102,11 @@ brauchen wir ueberhaupt» fehlte in 287 Eintraegen.
   waere ein Ausschluss von `QUESTIONS.md` aus der Backlink-Pruefung — **bewusst nicht getan**,
   weil dort auch ein echter toter Link stehen koennte; der Entscheid gehoert dem
   Werkzeug-Eigner, nicht einem Fachlauf.
+  ✓ **2026-09-10 (Run 190)** — geloest ohne Ausschluss von QUESTIONS: drei eng gefasste
+  Journal-Ausnahmen in `wissen/tools/wiki-konsistenz.sh` (Platzhalter, zusammengesetzter Umbruch
+  nur wenn aufloesend, ehemalige Slugs nur mit Merge-Beleg). energie 13 → 0, hubweit 192 → 177;
+  Gegenprobe im Testbaum meldet echte tote Links, Umbrueche in Artikeln und Pfad-Links auf
+  einen Ordner mit Auslassungszeichen weiterhin. Details im Abschnitt Run 190.
 - [ ] **E-R188-2 (P4, Werkzeug): `datenstand-waechter.py` liest ein ⚠-markiertes Feld nicht als
   quittiert.** Zwoelf der Datenstand-Befunde tragen die Alterung im `datenstand`-Feld selbst
   bereits als ⚠-Vermerk («stark veraltet», «nur als Groessenordnung»). Diese Selbstauskunft

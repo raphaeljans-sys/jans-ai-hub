@@ -2,6 +2,26 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-10 (Cross-KB-Bringschuld aus `energie` Run 190, A-BLIND) — τ-Formel und Tab. 24/25 berichtigt
+
+`wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md`: Schritt 6 der SIA-380/1-Monatsbilanz
+fuehrte die Zeitkonstante als τ = (C/A_E)·(θ_0 − θ_e)·t_c / (Q_T + Q_V) [h] — **ohne den Faktor 24**,
+der die Tage in Stunden umrechnet. Am Original-Scan (PL-04 `_Heizwaermebedarf`, Buchseiten 104|105)
+steht er; berichtigt mit Inline-Vermerk. Zusaetzlich unter der Beispielrechnung vermerkt: die Quelle
+teilt τ durch 33.2 statt durch ihre eigene Summe Q_T + Q_V = 28.9 (konsistent τ ≈ 256 h, Q_h
+unveraendert 11.8 MJ/m²), Rahmenfaktor F_F statt F_r, SIA 381/2 zurueckgezogen. Kein Ergebniswert
+geaendert. Fuehrend: `wissen/energie/destillate/sia-380-1-beispiel-monatsbilanz.md`.
+
+**Tabellen am Original berichtigt (derselbe Artikel, §2):** Tab. 25 «Spitaeler» war mit Werten der
+Kategorie VI Restaurants/V Verkauf vermischt — A_P 5 → **30** m²/P, Q_E 120 → **100** MJ/m², f_E 0.8
+→ **0.7**, V̇/A_E 1.2 → **1.0**, Q_ww 200 → **100** MJ/m²; Q_P Verwaltung/Schulen vertauscht (70/80 →
+**80/70**). Die Grenzwert/Zielwert-Tabelle stammt aus Tab. 6.2 eines Bauphysik-Lehrbuchs (SIA 380/1
+**2009**, je Kategorie eine feste Gebaeudehuellzahl), die Zeile 186/112 gehoert zu **Industriebauten**,
+nicht zu Schulen. Alle Korrekturen mit Inline-Vermerk samt alten Werten. Weitergewandert waren die
+falschen Spitalwerte nicht (grep ueber wissen/ und skills/: einzige Zitierstelle nennt nur die korrekte
+Innentemperatur). Fuehrend fuer Tab. 25: `wissen/energie/destillate/sia-380-1-standardnutzungswerte-tab24-25.md`
+(alle 96 Zellen am Original bestaetigt).
+
 ## 2026-09-09 (Nachtschicht Mac Mini, Cross-KB-Bringschuld aus `energie`) — KR-Nr. 17/2026 nachgetragen
 
 `wiki/recht-norm-pbg-revision-bauen-im-bestand.md`: neues Postulat **KR-Nr. 17/2026** «Keine

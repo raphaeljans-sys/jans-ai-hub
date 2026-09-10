@@ -1,7 +1,7 @@
 ---
 title: U-Werte & Heizwärmebedarf — Grenzwerte Schweiz
 status: established
-last_updated: 2026-08-24 (alle 17 Grenzwerte des BFE-Wärmebrückenkatalogs 2002 am Original
+last_updated: 2026-09-10 (Run 190: Abschnitt «Ausnutzungsgrad und Speichermasse» neu, Formelquelle am Original gegengelesen); davor 2026-08-24 (alle 17 Grenzwerte des BFE-Wärmebrückenkatalogs 2002 am Original
   verifiziert, keine Diskrepanz, schliesst den Auskragung-Restpunkt aus dem Audit-Nachlauf;
   zuvor am selben Tag: Fensteranschluss-Grenzwert 0,30 W/(m·K) am BFE-Original verifiziert,
   Restfrage aus Audit A-P2 02.2 geschlossen; 2026-08-23 Run 161: neuer Abschnitt «Einen fremden
@@ -150,6 +150,21 @@ Klima 9,4 °C / Auslegung −8 °C. Werte (kWh/m²) → EN-102 Tab. 5;
 Jahresmitteltemperatur **+9,4 °C** — konsistent mit dem Delta-Abschnitt weiter unten.) Kennwerte in MJ/m²·a inkl.
 **Gebäudehüllzahl** und Ziel- vs. Grenzwert → `[[bauphysik-heizwaermebedarf-kennwerte]]`.
 Umbau/Umnutzung: Grenzwert = 1,5 × Neubau.
+
+### Ausnutzungsgrad und Speichermasse — was die Bilanz über «schwer» vs. «leicht» sagt (10.09.2026)
+Die genutzten Gewinne sind η_g·(Q_i + Q_s) mit η_g = (1 − γ^a)/(1 − γ^(a+1)), γ = Gewinne/Verluste,
+a = a_0 + τ/τ_0 und τ = (C/A_E)·Δθ·t_c·24/(Q_T + Q_V); der Kursauszug nennt a_0 = 1, τ_0 = 15 h
+und für massive Bauweise C/A_E ≈ 0,5 MJ/m²K → `[[sia-380-1-heizwaermebedarf-berechnung]]`
+(⚠ Kursauszug mit älteren Normverweisen, am Original gegengelesen 10.09.2026).
+**Eigene Rechnung mit dieser Formel:** im Hochwinter (γ ≈ 0,6, Rechenbeispiel Büro Januar) liegt
+η_g bei massiver Bauweise bei ≈ 1,0 und selbst bei nur einem Viertel der Zeitkonstante (a ≈ 5,
+Annahme zur Illustration) noch bei ≈ 0,97. Erst wenn die Gewinne die Verluste erreichen (γ = 1,
+Übergangszeit, stark besonnte oder intern belastete Räume) trennt sich das: ≈ 0,95 (massiv,
+a ≈ 18) gegenüber ≈ 0,84 (a ≈ 5). **Speichermasse ist für den Heizwärmebedarf ein Feinfaktor der
+Übergangszeit, kein Hochwinter-Hebel**; ihr grösserer Nutzen liegt im Sommer →
+`[[sommerlicher-waermeschutz]]`. Bauherren-Antwort: [[F292]]. Das Rechenbeispiel der Quelle
+enthält im Schritt 6 eine Unstimmigkeit (Nenner 33,2 statt 28,9), die das Ergebnis nicht verändert
+→ `[[sia-380-1-beispiel-monatsbilanz]]`.
 
 ## Gebäudehüllzahl A_th/A_E (Kompaktheit)
 Therm. Hüllfläche je m² EBF. Kleinbauten ~3, kompakte Grossbauten ~0,8 → Verlustfläche beim

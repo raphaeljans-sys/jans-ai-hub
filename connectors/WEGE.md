@@ -1092,3 +1092,22 @@ schliesst. Klick-Helfer bauen: `swiftc -O -o "$SCRATCH/klick" scripts/cgevent-kl
   Pythons `subprocess.run(timeout=…)` verwenden.
 - OneDrive-Befund derselben Messung (MacBook synchronisiert nur drei Bibliotheken, `AR - 01 Projekte`
   fehlt): `rules/betrieb-chronik.md` 260910.
+
+## Nachtrag 10.09.2026 (spät) — Sync-Chirurgie aus der Claude-Desktop-Shell: drei belegte Sackgassen, ein Weg
+
+- **Sackgasse:** `mv` auf `~/Library/Containers/<app>`, auf `~/Library/Group Containers/<gruppe>` und auf
+  `~/Library/Application Support/FileProvider/` endet aus der Shell der Claude-Desktop-App mit «Operation
+  not permitted» (TCC; verantwortlicher Prozess ist `claude.app`, nicht `bash`, darum hilft auch
+  `/bin/bash -c` nicht). Lesen der Settings im OneDrive-Container geht, Verschieben nicht.
+- **Sackgasse:** der Finder per AppleScript **listet** den FileProvider-Ordner, aber `duplicate`/`move`
+  scheitern dort mit **-8067** (auch für eine einzelne kleine Datei geprüft). Die GUI-Route trägt hier also
+  nur zum Lesen.
+- **Sackgasse:** `killall OneDrive` meldet «No matching processes», obwohl `pgrep -x OneDrive` den Prozess
+  zeigt; der Prozess beendet sich dann trotzdem (vermutlich reagierte er schon auf das `killall` der
+  Erweiterung «OneDrive File Provider»). Nach `killall` immer mit `pgrep -fl OneDrive` nachmessen.
+- **Weg:** die Zuordnung Domain-Datenbank ↔ Provider steht **ohne Dateizugriff** im
+  `fileproviderctl dump`, Abschnitt «== FileProvider xattrs ==» (`com.apple.file-provider-domain-id` je
+  DB-Ordner). Damit lässt sich ein Bereinigungs-Script exakt auf die OneDrive-Ordner beschränken; die
+  Ausführung übernimmt Raphael in Terminal.app mit Festplattenvollzugriff (Memory
+  «Systemschalter per Terminal statt GUI»). Muster: `~/OneDrive-Quarantaene-260910/bereinigung.sh`
+  (nur `mv`, Ziel Quarantäne, App per `sudo mv`). Chronik: `rules/betrieb-chronik.md` 260910.

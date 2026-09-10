@@ -1,7 +1,7 @@
 ---
 title: Heizwärmebedarf (SIA 380/1) & Wärmeerzeugerleistung (SIA 384/1, 384.201) — Berechnungsverfahren
 status: established
-last_updated: 2026-08-24 (Editionsklärung EN-102, Wissens-Chef Run 42; Frontmatter nachgezogen Wissens-Chef Run 43, 25.08.2026 — Stand davor 2026-07-25)
+last_updated: 2026-09-10 (τ-Formel um Faktor 24 berichtigt, Quellen-Unstimmigkeit im Beispiel vermerkt, Cross-KB aus energie Run 190); davor 2026-08-24 (Editionsklärung EN-102, Wissens-Chef Run 42; Frontmatter nachgezogen Wissens-Chef Run 43, 25.08.2026 — Stand davor 2026-07-25)
 sources: [PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.pdf (Reader "Energetische Gesamtoptimierung", SIA 380/1 S.104-105), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel.pdf (dass. S.106-107, Beispiel Büroraum Zürich-Stadt), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF.pdf (dass. S.146-147/108-109, SIA 380/1 Anhang A Tab.24/25), PL - 04 Energie/_Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf (EnergieSchweiz/BFE + suissetec + Minergie, "Ermittlung der Wärmeerzeugerleistung", Broschüre 6, 12.2015), PL - 04 Energie/_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf (dass. S.88-89, "Grundsätze"), PL - 04 Energie/_Heizwaermebedarf/Betriebsenergie.pdf (dass. S.116, "Graue Energie — Größenordnung"), PL - 04 Energie/U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf (EnFK Vollzugshilfe Dez. 2018), PL - 04 Energie/U Wert berechnung/VoHi_EN02_de.pdf (Vollzugshilfe Feb. 2013), PL - 04 Energie/U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf (BFE/EnergieSchweiz 2002), PL - 04 Energie/U Wert berechnung/clt/CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf (S.14-37 Luftdichtheit/Feuchte), PL - 04 Energie/U Wert berechnung/2001_2005_d.pdf (SIA-Merkblatt 2001 Wärmedämmstoffe, Ausgabe 2005, Run 61), PL - 04 Energie/U Wert berechnung/Auswahl_Waermedaemmstoffe.docx (JANS-Notiz 01.11.2023, Run 61), PL - 04 Energie/U Wert berechnung/Energienachweis 380-1 Muster.pdf (Enerhaus-Anwenderkurs, 28.04.2010, Run 61)]
 links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[energie-energienachweis-zh-formulare]], [[energie-minergie-referenzprojekt-maison-climat]], [[grobkosten-onepager]]
 ---
@@ -38,8 +38,11 @@ Q_h = Q_T + Q_V − Q_ug = Q_T + Q_V − η_g · (Q_i + Q_s)  [MJ/m²]
 4. **Solare Wärmegewinne Q_s:** Summe über horiz./N/E/S/W der Globalstrahlung × Fensterfläche
    × g-Wert × Abminderungsfaktor Rahmen F_r × Verschattungsfaktor F_s, bezogen auf A_E.
 5. **Wärmegewinn/-verlust-Verhaeltnis γ** = (Q_i + Q_s) / (Q_T + Q_V).
-6. **Zeitkonstante τ** = (C/A_E) · (θ_0 − θ_e) · t_c / (Q_T + Q_V) [h] — C = effektive
+6. **Zeitkonstante τ** = (C/A_E) · (θ_0 − θ_e) · t_c · 24 / (Q_T + Q_V) [h] — C = effektive
    Wärmespeicherfähigkeit der beheizten Räume pro Kelvin [MJ/K].
+   ⚠ **Berichtigt 10.09.2026** (Cross-KB aus `wissen/energie` Run 190, A-BLIND am Original-Scan
+   S. 104|105): hier fehlte der Faktor **· 24**; ohne ihn ergibt die Formel Tage statt Stunden und
+   τ wäre um den Faktor 24 zu klein. Das Beispiel unten rechnet mit dem Faktor.
 7. **Ausnutzungsgrad-Parameter a** = a_0 + τ/τ_0 — a_0 = 1, τ_0 = 15 h für rund um die Uhr
    benutzte Gebäude (sonst SN EN ISO 13790).
 8. **Ausnutzungsgrad für Wärmegewinne η_g0** = (1 − γ^a) / (1 − γ^(a+1)) [wenn γ ≠ 1].
@@ -59,6 +62,14 @@ Reduktionsfaktor 0.9), Q_s = 8.3 MJ/m² (Globalstrahlung Süd Januar 149 MJ/m²,
 Doppelböden), a = 15.9, η_g0 ≈ 1.0 → Q_ug = 17.1 MJ/m² → **Q_h Januar = 11.8 MJ/m² (354 MJ
 absolut)**.
 
+⚠ **Quellen-Unstimmigkeit (Nachtrag 10.09.2026, Cross-KB aus `wissen/energie` Run 190):** die
+Quelle teilt τ durch **33.2** statt durch ihre eigene Summe Q_T + Q_V = 16.5 + 12.4 = **28.9**
+(mit der sie γ = 0.59 rechnet). Konsistent ergäbe sich τ ≈ 256 h und a ≈ 18.1; η_g0 bleibt ≈ 1.0,
+**Q_h = 11.8 MJ/m² ändert sich nicht**. Die Werte oben geben die Quelle treu wieder. Der
+Rahmenfaktor heisst in der Quelle F_F (hier und im Schritt 4 als F_r geführt). Beleg und
+Nachrechnung: `[[sia-380-1-beispiel-monatsbilanz]]`. Die in der Überschrift genannte Klimadatengrundlage SIA 381/2 ist
+zurückgezogen (`wissen/normen/wiki/REGISTER.md`); heute verweist SIA 380/1:2016 auf SIA 2028.
+
 ## 2 — Gebäudekategorien & Standardnutzungswerte (SIA 380/1 Anhang A, Tab. 24/25)
 
 Für die Berechnung sind je Gebäudekategorie **normierte Standardwerte** vorgegeben (Nutzung
@@ -69,10 +80,10 @@ nicht frei annehmbar, sondern Tabellenwert):
 | I | Wohnen MFH | 140 | 84 |
 | II | Wohnen EFH | 195 | 117 |
 | III | Verwaltung | 133 | 80 |
-| IV | Schulen | 186 | 112 |
+| IX¹ | **Industriebauten** (A_th/A_E 1,8; stand hier bis 10.09.2026 als «IV Schulen») | 186 | 112 |
+| IV¹ | Schulen (in der Quelltabelle nicht enthalten) | — | — |
 | V | Verkauf | — | — |
 | VIII | **Spitäler** (Spitäler, psychiatr. Kliniken, Krankenheime, Altersheime, Rehazentren) | 144 | 86 |
-| IX | Industrie | — | — |
 
 (Tabelle 24, bezogen auf Energiebezugsflächen-Zahl A_th/A_E bei Jahresmitteltemperatur 8.5 °C;
 Kategorie **VIII "Spitäler" ist die einschlägige SIA-380/1-Kategorie für Healthcare-Projekte**
@@ -83,13 +94,30 @@ Kategorie **VIII "Spitäler" ist die einschlägige SIA-380/1-Kategorie für Heal
 | Ziff. | Grösse | Wohnen MFH | Wohnen EFH | Verwaltung | Schulen | **Spitäler** |
 |---|---|---|---|---|---|---|
 | 3.4.1.1 | Innentemperatur θ_i [°C] | 20 | 20 | 20 | 20 | 22 |
-| 3.4.1.2 | Personenfläche A_P [m²/P] | 40 | 60 | 20 | 10 | 5 |
-| 3.4.1.3 | Wärmeabgabe/Person Q_P [W/P] | 70 | 70 | 70 | 80 | 80 |
+| 3.4.1.2 | Personenfläche A_P [m²/P] | 40 | 60 | 20 | 10 | **30**² |
+| 3.4.1.3 | Wärmeabgabe/Person Q_P [W/P] | 70 | 70 | **80**² | **70**² | 80 |
 | 3.4.1.4 | Präsenzzeit/Tag t_P [h] | 12 | 12 | 6 | 4 | 16 |
-| 3.4.1.5 | Elektrizitätsverbrauch/Jahr Q_E [MJ/m²] | 100 | 80 | 80 | 40 | 120 |
-| 3.4.1.6 | Reduktionsfaktor Elektrizität f_E [-] | 0.7 | 0.7 | 0.9 | 0.9 | 0.8 |
-| 3.4.1.7 | Aussenluft-Volumenstrom V̇/A_E [m³/h·m²] | 0.7 | 0.7 | 0.7 | 0.7 | 1.2 |
-| 4.3 | Wärmebedarf Warmwasser/Jahr Q_ww [MJ/m²] | 75 | 50 | 25 | 25 | 200 |
+| 3.4.1.5 | Elektrizitätsverbrauch/Jahr Q_E [MJ/m²] | 100 | 80 | 80 | 40 | **100**² |
+| 3.4.1.6 | Reduktionsfaktor Elektrizität f_E [-] | 0.7 | 0.7 | 0.9 | 0.9 | **0.7**² |
+| 3.4.1.7 | Aussenluft-Volumenstrom V̇/A_E [m³/h·m²] | 0.7 | 0.7 | 0.7 | 0.7 | **1.0**² |
+| 4.3 | Wärmebedarf Warmwasser/Jahr Q_ww [MJ/m²] | 75 | 50 | 25 | 25 | **100**² |
+
+⚠ **Tabellen berichtigt 10.09.2026** (Cross-KB aus `wissen/energie` Run 190, beide Scans am
+Original gelesen, PL-04 `_Heizwaermebedarf`):
+¹ Die Tabelle «Grenzwert/Zielwert» stammt nicht aus SIA 380/1 Anhang A Tab. 24, sondern aus
+**Tabelle 6.2 eines Bauphysik-Lehrbuchs** (Kap. 6 «Energie/Leistung», S. 146, Datei «Heizwärmebedarf
+Kennwert pro EBF.pdf»), ausdrücklich «Anforderungen SIA 380/1 (2009)» und je Kategorie für
+**eine bestimmte Gebäudehüllzahl** (EFH 2,0 · MFH 1,3 · Verwaltung 0,8 · Industriebauten 1,8 ·
+Spezielle Bauten z.B. Spitäler 0,8). Die Zeile 186/112 gehört dort zu **Industriebauten**, nicht zu
+Schulen. Führend: `wissen/energie/destillate/bauphysik-heizwaermebedarf-kennwerte.md`.
+² Tab. 25 (Reader «Energetische Gesamtoptimierung», S. 108|109): die Spalte «Spitäler» enthielt
+teils Werte der Kategorie VI Restaurants bzw. V Verkauf. Bisher stand hier A_P **5**, Q_E **120**,
+f_E **0.8**, V̇/A_E **1.2**, Q_ww **200**; das Original nennt für VIII Spitäler **30 / 100 / 0.7 /
+1.0 / 100**. Q_P Verwaltung/Schulen waren vertauscht (bisher 70/80, Original **80/70**). Die
+übrigen Werte stimmen. Führend und vollständig (alle zwölf Kategorien):
+`wissen/energie/destillate/sia-380-1-standardnutzungswerte-tab24-25.md`.
+Für Healthcare-Abschätzungen daher dort nachschlagen; die alten Spitalwerte hätten den
+Warmwasserbedarf verdoppelt und die Personenfläche um den Faktor 6 unterschätzt.
 
 **Praxisrelevanz JANS:** Wer den Heizwärmebedarf eines Vorprojekts abschätzen will (Vorstufe zu
 `[[grobkosten-onepager]]`/`[[healthcare-wirtschaftlichkeit]]`), kann diese Tabellenwerte als
