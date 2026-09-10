@@ -53,6 +53,34 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-09-11 00:57 — [FREI] **Regellauf ohne neuen Befund. Zehn KBs haben geliefert, kein Delta-Null-Loop. Der Kontingent-Rückstand wächst auf -28.6 Punkte; P1 (Zufluss `architektur-fachwissen`) unverändert, jetzt 7.1 Tage.**
+
+**Lage.** Fenster FREI, PATH-Probe `/opt/homebrew/bin/claude` rc=0 in **7 s** (vierter Lauf in Folge
+einstellig, Symlink unverändert auf 2.1.236). Kontingent **21.9 %** von 167 Mio bei **50.6 %**
+verstrichener Woche, Vorsprung **-28.6 Punkte** (MacBook 26.15, Mini 10.48 Mio; beide
+Stationsdateien frisch). Ampel FREI, keine Drossel. Keine Waisen (`claude -p` auf beiden Stationen
+leer), Speicherdruck 1, rund 4.8 GB frei+inaktiv+purgeable (vm_stat).
+
+**Liefer-Delta seit 10.09. 12:50 (über git, 25 Dateien ohne CHANGELOG/INDEX):** energie 9 (Run 190,
+A-BLIND Rang 75), koordination 4 (Wissens-Chef Lauf 57), twin 3, projekt-lessons 2 (Bodenanschluss
+EI30 KISPI), tools 2, je 1 auflagebereinigung, baurecht, grobkosten, normen, planungsgrundlagen.
+Weitere Sachcommits: Synergie-Lauf 33 (SYN-81/82), tenant-hygiene 260910, Fristen-Radar 13:33.
+Beide Mini-Dispatches im Fenster (13:34, 23:36) endeten mit rc=0.
+
+**Feuermechanismen im Sollstand.** Beide `vollgas-*`-plists tragen `.disabled-260729` und sind auf
+keiner Station geladen, `ch.jans.nachtschicht` auf dem Mini geladen, keine Doppelfeuerung.
+Mini-Registry neun Tasks (unverändert). Lokale Registry ohne Abweichung.
+
+**Selbstkontrolle bestanden.** Letzter Eintrag 10.09. 12:57, dieser Lauf 00:57, also 12 h bei 12 h
+Takt und 15 h Toleranz. `lastRunAt` der eigenen Task (22:57Z = 00:57 CEST) deckt sich mit diesem Lauf.
+
+**P1 (unverändert):** Zufluss `wissen/architektur-fachwissen/` offen, letzte Änderung 03.09. 23:30,
+jetzt 7.1 Tage. Vorlage an Raphael steht im Eintrag 10.09. 00:57, Wege (a) bis (c); der Radar
+handelt nicht selbst. Keine Mail (kein Sendegrund nach 260803).
+**P2:** Rückstand -28.6 Punkte (Vorlauf -24.2): gut ein Viertel des Wochenbudgets bleibt bei
+gleichmässigem Verbrauch voraussichtlich ungenutzt; Argument für eine Entscheidung zu P1.
+**P3:** Sollstand-Liste der Mini-Registry in der Task-Beschreibung (acht → neun) weiter offen.
+
 ## 2026-09-10 12:57 — [FREI] **Regellauf ohne neuen Befund. Alle Lern-Loops haben geliefert, kein Delta-Null-Loop. Der Kontingent-Rückstand wächst auf -24.2 Punkte; der offene P1 vom Vorlauf (Zufluss `architektur-fachwissen`) steht unverändert.**
 
 **Lage.** Fenster FREI, PATH-Probe `/opt/homebrew/bin/claude` rc=0 in **7 s** (dritter Lauf in Folge
