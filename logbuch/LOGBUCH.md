@@ -12280,3 +12280,41 @@ ist Ermessenssache); nur lesende Postfachabfrage, keine Aenderung an Mail/Entwue
 Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
 
 Budget rund 0.09 von 5 USD. Zyklus sauber beendet.
+
+## 2026-09-10 13:33 Versuchs-Slot Mac Mini — Fristen-Radar: Zusammenstellung Ueberfaelliges (Entwurf, nicht versendet)
+
+Prioritaeten 1-2 leer/gesaettigt (remote-tasks/sync-tasks leer, Synobsis-Embeddings seit 08.09.
+bestaetigt aktuell). Prioritaet 3 gezogen: `logbuch/fristen.md`-Aktiv-Block systematisch nach
+Datum/Status durchsucht (awk-Extraktion Frist+Status statt Volltextlesen, wegen Zeilengroesse).
+Ergebnis eine **Zusammenstellung** laenger unbeaetigter "offen"-Zeilen fuer Raphaels eigene
+Pruefung — NICHT verifiziert durch frischen Mail-/Postfach-Abgleich (Budget), NICHT versendet:
+
+01 **Thalwil Bohlweg 3** (Zeile ~4007, Status seit 07.08. "UEBERFAELLIG seit 06.08.2026"):
+Eingabemail an Aline Steiger (Gemeinde Thalwil) laut Register nie versendet, Freigabe Tschopp
+nie erteilt. Keine neuere Erwaehnung im Rest der Datei gefunden (letzter Bohlweg-Bezug danach
+betrifft einen aelteren, bereits erledigten Vorgang vom 17.07.). Aeltester und schwerwiegendster
+Fund, ueber 5 Wochen ohne dokumentierten Fortschritt.
+02 **Steinbrüchelstrasse 26/28 Witikon** (Zeile ~5395): Abgabe des fertigen Berichts an C. Bopp
+war bis 09.09.2026 faellig, Status "offen — Versand und Freigabe Aktion Raphael" — damit
+1 Tag ueberfaellig, harter Termin gegenueber Nova/Bopp.
+03 **AG Gruendung** (Zeile ~4087, 27.06.2026): Antwort ans Notariat (Firmenname "Raphael Jans
+AG" bestaetigen + Urkunde/Statuten senden) laut Register seit 27.06. nicht raus — aeltester
+Einzelfund, keine neuere Bestaetigung gefunden.
+04 **2620 Albertstrasse 7** (Zeile ~4024, 13.08.2026): KV-Ueberarbeitung haengt am Entscheid vom
+13.08. zur Eingriffstiefe, Status weiterhin "offen" ohne sichtbaren Nachtrag danach.
+05 **KISPI Prinzippläne Jegen Los 274.01** (Zeile ~4068, 21.07.2026): 7 Entscheidungspunkte
+Raphael seit Wochen offen — ACHTUNG, der Jegen-Strang ist seither sichtbar weitergelaufen
+(aktuellste Mail 10.09.2026 08:13/08:30 zu einem neuen Tuer-Werkplan), die 21.07.-Zeile selbst
+koennte damit durch neuere Zeilen ueberholt sein; hier nur als Pruefhinweis, nicht als
+bestaetigt offen.
+06 Zwei alte Infra-Punkte ohne Termindruck: SharePoint-Speicher voll (18.06.), bexio-
+Doppelimport-Anfrage (18.06.) — niedrige Prioritaet, aber seit fast drei Monaten unveraendert.
+
+Bewusst NICHT getan: keine Zeile in fristen.md editiert (Rule 260811, keine Bestaetigung durch
+frischen Beleg fuer die Bohlweg-Zeile erarbeitet), kein Mail-Entwurf erstellt, nichts versendet.
+
+Kein Sendegrund nach Rule 260803 (keine neue, vom Radar heute noch nicht gemeldete operative
+Tatsache mit Termin/Geld/Kunde-Bezug ueber das bereits Dokumentierte hinaus) — die Zusammenstellung
+selbst liegt hier zur naechsten Durchsicht bereit, insbesondere Punkt 01 und 02.
+
+Budget rund 0.35 von 5 USD (kumuliert mit dem 05:3x-Lauf desselben Tages). Zyklus sauber beendet.
