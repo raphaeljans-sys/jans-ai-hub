@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 10.09.2026 23:38:33
+Stand: 10.09.2026 23:59:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:16)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:36)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 23:38:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1917f4cef Wissens-Chef Lauf 57: F291 § 325a PBG (Anzeigeverfahren ZH) + Ruecklauf baurecht E-R189-1, pg Tab.-24-Residuen der Run-190-Korrektur angeglichen, KISPI-Report links verschoben + SIA 181 Anhang G, SN EN 62368-1 Vorbehalt, N83-1 Konsumentenliste, BFS-Index Basis/Reihe + Matrixzeile, twin 260910c vorgelegt, logbuch Person-und-Sache
+- 360be1408 nas-selfcommit: 4 Datei(en) 2026-09-10 23:45

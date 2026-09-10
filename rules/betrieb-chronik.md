@@ -117,6 +117,30 @@ quarantänisierte App immer sofort umbenennen oder zippen, sonst startet sie bei
 Endzustand: CloudStorage nur Dropbox und Google Drive, keine OneDrive-Domain, kein Prozess, kein Container.
 Station frei für Neuinstallation und Neuverknüpfung.
 
+**Nachspiel 2, 23:36–23:50, Neuinstallation aus dem App Store:** Der Store meldete «Adoption not eligible»
+und zeigte «Öffnen» statt «Laden», weil LaunchServices `com.microsoft.OneDrive-mac` noch auf
+`~/OneDrive-Quarantaene-260910/OneDrive.app` registriert hatte (die Umbenennung in `.zurueckgestellt`
+kam zu spät, der Store hatte den Pfad schon). **Der Store installierte Version 26.158 samt Receipt in
+den Quarantäne-Ordner** und startete sie von dort; die Anmeldung schlug bei «OneDrive-Ordner
+einrichten» fehl («kann am ausgewählten Speicherort nicht erstellt werden»), weil eine App ausserhalb
+von `/Applications` ihre File-Provider-Erweiterung nicht registrieren kann. Prozess beendet,
+Quarantäne-Pfad per `lsregister -u` ausgetragen. **Lehre:** eine quarantänisierte App vor jeder
+Neuinstallation mit `lsregister -u <pfad>` austragen; der App Store installiert Updates an den
+registrierten Ort, nicht nach `/Applications`. Der OneAuth-Cache
+(`Group Containers/UBF8T346G9.com.microsoft.oneauth`) schlägt weiterhin `admin@…onmicrosoft.com` vor;
+für `rj@` «Mit einem anderen Konto anmelden» wählen.
+
+**Nachspiel 3, 23:45–23:50:** Beim Versuch, das Bundle nach `/Applications` zu verschieben, war
+**der gesamte Quarantäne-Ordner `~/OneDrive-Quarantaene-260910/` verschwunden** (weder im Papierkorb noch
+per Spotlight/find auffindbar, belegter Platz um rund 3 GB gesunken, Ursache offen, Rückfrage an Raphael).
+Damit sind die Sicherungen (Container, DBs, App, 31 Dateien aus dem persönlichen OneDrive, Logs) weg;
+Datenverlust real: keiner, alle Inhalte liegen serverseitig. LaunchServices trug danach noch sieben
+Einträge auf das nicht mehr vorhandene `/Applications/OneDrive.app`; `lsregister -u` greift auf fehlende
+Pfade nicht, darum Datenbank neu aufgebaut (`lsregister -kill -r -domain local -domain system -domain
+user`, 23:50), danach keine OneDrive-Einträge mehr. Der App Store sollte jetzt «Laden» anbieten.
+Nebenbefund: Symlink `~/JANS` zeigt auf den alten Stamm `CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS`
+und hängt, bis der Sync neu steht.
+
 ## 260908 — Das Konversations-Destillat ist keine Belegquelle fuer den Versandstatus
 
 Gemessen vom `logbuch-radar` am 08.09.2026. Das Destillat von 06:2x fuehrte die Honorarofferte
