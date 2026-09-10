@@ -3,6 +3,29 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 10.09.2026 (08:39 bis 08:5x, Tagesbriefing gesendet) — Ziegel faellt die Woche aus, Jegen verlangt eine Freigabe trotz Aussetzung, der 19.09. steht auf 08:00
+
+**Pflichtlektuere:** Radar-Abschnitt 10.09. 06:5x gelesen. **Der AG-Gruendungs-Abschnitt fehlt im heutigen Datumsblock erneut** (fuenfter Tag in Folge), obwohl der Monitor lief: sein Eintrag steht in `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md` (10.09. 07:30) und im Fristen-Register; Befund unveraendert (Kapitaleinzahlung 27 Tage ueber Soll, Notariat 28 Tage stumm). Methodischer Vorbehalt zum Monitor: seine Verifikation «0 .emlx-Dateien seit 31.08.» ist fuer das ganze Mail-Verzeichnis unplausibel und eher eine Aussage ueber das Werkzeug (TCC/Pfad) als ueber die Postfaecher; die Gegenprobe des Radars ueber beide Postfaecher traegt den Befund. Konversations-Destillat `260910-konversationen.md` gelesen: kein neues Gespraech im Fenster.
+
+**Vier Befunde nach dem Radar-Lauf**, alle ins Fristen-Register geschrieben (A4, vier Absaetze angehaengt, Diff gegen Kopie: 8 Zeilen hinzu, 0 entfernt):
+
+1. **J. Ziegel faellt die ganze Woche aus** (Mail 07:57): Rueckmeldung Elektro/Sibel kommt heute nicht, er fehlt um 13:00, Pendenzen und Gruner-Stellungnahme an die Feuerpolizei erst KW38, also in RJs Ferien.
+2. **Jegen 08:13:** angepasster Werkplan Tuer 01.2.339.1 «zur Pruefung und Freigabe» — trifft auf RJs Aussetzung aller «Gut zur Ausfuehrung» von 04:35.
+3. **F. Wuersch 08:30:** OneNote «Freigabe» mit 26 Fotos von Jegen-Tuerwerkplaenen, Stempel «Gut zur Ausfuehrung» 9.9.26 plus Visum Wuersch, ohne Begleittext; vier Fotos gesichtet.
+4. **Berichtigung Radar:** der 19.09. steht im Outlook-Kalender («Lbw schiebetüren erstellen», 08:00 bis 09:00, Stadelmann, Spahic); die Radar-Suche endete am 18.09. Abweichung ist die Uhrzeit (Mail 06:30), nicht ein fehlender Termin. Darum **kein A2-Eintrag** (Doppelung vermieden, Terminverschiebung nur Vorschlag).
+
+**A5 ausgefuehrt — Absage an die GLAESER AG als Entwurf bereitgestellt.**
+Was: Mail an r.leutwyler@glaeser.ch, Betreff «AW: LOS_273.35 Küchenbau», 317 Zeichen, Exchange-Entwurfsordner.
+Ausloeser: Radar-Befund 06:5x (Absage seit dreieinhalb Monaten faellig, Anfrage Leutwyler 09.09. 17:24).
+Guards: Vergabe per Graph gegengeprueft (GzA an Roethlisberger 31.08./01.09.); Anrede «Geschätzter Herr Leutwyler» aus RJs Mail 29.05. belegt; neutral ohne Namen des Anbieters; QS `rechtschreibung` gruen, `layout` gruen, `twin-stilist` teilweise → umgesetzt (Entschuldigungssatz gestrichen, Absage-Marker Mailbatch 13; Kurzsignatur im stehenden Thread, Facette Stimme 260910). Kein Versand.
+Ergebnis: Draft gegengemessen (317 Zeichen).
+
+**bexio unveraendert tot:** `--verzug` 401 (Tag 33). `--abgleich` nicht gefahren, Guard A1 nicht erfuellbar, keine Mahnaktion.
+
+**Pflichtpruefungen:** `freigabe-status.sh --kurz` mac-mini 0 · macbook-pro 0 (rc 0); `--briefing` keine Eintraege ab 12 h; `stationen-watchdog.sh --briefing` alle Stationen fristgerecht (rc 0). Queues `sync-tasks/{macbook-pro,mac-mini,freigabe}` leer, `remote-tasks/pending` auf diesem Klon nicht vorhanden. Lauf-Journal heute: zwei Laeufe Mac Mini (`dispatch-versuch1` 02:35 und 05:33), beide rc 0, zusammen USD 4.15.
+
+**Briefing gesendet:** 10.09.2026 08:48:07 an rj@raphaeljans.ch ueber Weg 1 (Apple Mail, Konto Exchange), Betreff «Hub-Chef 10.09.2026: Ziegel fällt die ganze Woche aus, Jegen verlangt eine Freigabe trotz Deiner Aussetzung, der 19.09. steht auf 08:00», 2758 Zeichen in den Gesendeten gegengemessen (kein Leer-Draft). Sendegrund: neue operative Befunde nach dem Radar (Ausfall Brandschutzexperte, Freigabeanfrage gegen eigene Aussetzung, Kalenderberichtigung), Entwurf bereit, Frist heute 17:00.
+
 ## Radar-Briefing 10.09.2026 (06:5x): Du hast heute um 04:35 selbst eskaliert, die Frist dafür läuft um 17:00, und Deine Ferien kollidieren mit vier eigenen Terminen
 
 **Drei Dinge zuerst.** Erstens: Deine Mail an Albin Spahic von heute 04:35 setzt eine Frist auf **heute 17:00** (Transaktionsdatum der offenen Rechnungen). Zweitens: Du kündigst darin zwei Wochen Ferien ab nächster Woche ohne Vertretung an, und in genau dieses Fenster fallen der Samstagseinsatz Estermann am 19.09., die Vorleistungsfrist 18.09. und zwei Sitzungen (14.09. und 17.09.); im Kalender steht davon **kein Ferienblock und kein Eintrag für den 19.09.** Drittens: Nova verlangt die Abrechnung Steinbrüchelstrasse bis **16.09.**, an eine andere Rechnungsadresse als bisher.
