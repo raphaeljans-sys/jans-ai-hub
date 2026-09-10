@@ -3,6 +3,47 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 10.09.2026 (06:5x): Du hast heute um 04:35 selbst eskaliert, die Frist dafür läuft um 17:00, und Deine Ferien kollidieren mit vier eigenen Terminen
+
+**Drei Dinge zuerst.** Erstens: Deine Mail an Albin Spahic von heute 04:35 setzt eine Frist auf **heute 17:00** (Transaktionsdatum der offenen Rechnungen). Zweitens: Du kündigst darin zwei Wochen Ferien ab nächster Woche ohne Vertretung an, und in genau dieses Fenster fallen der Samstagseinsatz Estermann am 19.09., die Vorleistungsfrist 18.09. und zwei Sitzungen (14.09. und 17.09.); im Kalender steht davon **kein Ferienblock und kein Eintrag für den 19.09.** Drittens: Nova verlangt die Abrechnung Steinbrüchelstrasse bis **16.09.**, an eine andere Rechnungsadresse als bisher.
+
+### Erledigt seit gestern
+
+1. **Steinbrüchelstrasse 26/28 abgeliefert und quittiert.** Die baurechtliche Einschätzung ging am 09.09. um 14:58 mit den drei PDFs (Machbarkeit, Kompaktfassung, Volumenstudie) an Christoph Bopp, Cc Aaron Tonet. Bopp bestätigte um 15:27, Tonet um 22:53. Tonet beschafft die Dienstbarkeits-Pläne und stellt sie zu; der Kaufantrag geht an den Stiftungsrat.
+2. **Prinzipplan Türe 01.2.339.1 ist durch.** Levi Hiltmann am 09.09. um 11:35: «Das passt so.» Die gestempelte Fassung hat er für heute zugesagt.
+3. **Projektänderungspläne Thalwil sind auf der Plattform.** Upload am 09.09. um 11:47 mit fünf Beilagen; Stefan Tschopp bestätigt heute um 05:50 den Eingang und kündigt das unterschriebene SBB-Exemplar an. Du hast um 06:23 mit dem Angebot eines Telefonats geantwortet.
+4. **Der P1 «GitHub-Backup tot» ist aufgelöst.** Die Sicherungskette läuft heute in jedem 15-Minuten-Zyklus durch (06:30, 06:45, 07:00 je mit Erfolg), und der Mac Mini steht auf demselben Stand wie das NAS, ohne Rückstand. Der Zustand hatte seit dem 29.08. bestanden, am 02.09. mit 705 nicht gesicherten Änderungen als Höchststand. Auch der Fernzugang ist in Ordnung, alle drei Stationen sind gleichzeitig erreichbar.
+
+### Überfällig
+
+1. **bexio-Abo-Entscheid, Frist 08.09. ohne Vermerk verstrichen, zweiter Tag.** Der Zugang ist am 32. Tag tot, drei unabhängige Proben liefern HTTP 401. Damit sind **CHF 30'400.00** ohne belegte Grundlage: RE-00098 und RE-00099 (Kinderspital, CHF 17'280.00, Mahnfrist seit 12.08. abgelaufen) sowie RE-00100 (Nova, CHF 13'120.00). Am 08.10. stellt bexio automatisch von Starter auf Advanced um, und ein Wechsel oder eine Kündigung wirkt nur bis 30 Tage davor, also ab jetzt nicht mehr zuverlässig. Der Kostenvergleich liegt seit dem 30.08. vor (zweites bexio-Abo rund CHF 924 pro Jahr gegen CashCtrl PRO rund CHF 350). **Das ist derselbe Punkt, an dem Deine 17-Uhr-Frist hängt:** Du verlangst das Transaktionsdatum von der Gegenseite, weil Du es selbst nicht nachsehen kannst.
+2. **Kapitaleinzahlung CHF 50'000 für die AG, seit 17.08. offen, 24 Tage.** Eigene Gegenprobe beider Postfächer: seit dem 25.08. kein Eingang von UBS, Notariat oder Handelsregister. Ohne die Einzahlung keine Kapitalbescheinigung und keine Beurkundung. Stand verifiziert unverändert, nicht bloss unbekannt.
+3. **Die GLAESER AG wartet seit dreieinhalb Monaten auf eine Absage.** Roland Leutwyler fragt am 09.09. um 17:24 nach dem Stand von LOS 273.35 Küchenbau. Das Los ist im Juni an die Schreinermanufaktur (Röthlisberger) vergeben worden, «gut zur Ausführung mit Korrekturen» ist am 31.08. und 01.09. raus. An Leutwyler ging zuletzt am 29.05. eine Mail, eine Absage ist in den Gesendeten nicht nachweisbar. Fällig ist also nicht eine Statusauskunft, sondern die Information über den Vergabeentscheid. Mit Deiner Aussetzung der Ausführungsfreigaben hat das nichts zu tun, es betrifft einen Mitbewerber, kein beauftragtes Gewerk.
+4. **Kreditor new copy store, 2. Mahnung über CHF 22.45.** Rechnung 6328458 vom 18.02.2026, verfallen am 04.03.2026, Projekt Kinderspital, CHF 12.45 plus CHF 10.00 Mahnspesen. Der Betrag ist unerheblich, zwei Dinge daran nicht: die Mahnspesen übersteigen die Hauptforderung, und die Mahnung ist an «Saumstrasse 21, 8003 Zürich» adressiert, also weder an die Grubenstrasse noch an die alte Flüelastrasse. Die erste Mahnung dürfte darum nie angekommen sein; die Adresse gehört beim Lieferanten korrigiert, sonst wiederholt es sich.
+
+### In den nächsten 7 Tagen
+
+1. **Heute 13:00 bis 14:00**, Koordinationssitzung Gruner, Jans und Kispi (Teams). Jens Ziegel ist krank und hatte die Brandschutz-Rückmeldung zu Elektro und Sibel für heute zugesagt, also auf denselben Tag wie die Sitzung.
+2. **Heute 17:00**, Deine eigene Frist an Albin Spahic für das Transaktionsdatum der offenen Rechnungen.
+3. **Morgen, Freitag 11.09.**, Bestätigung von Kispi für den Samstagstermin. Stand heute um 05:3x ist von Spahic, Spörri, Wuersch, Stadelmann und Tus nichts eingegangen.
+4. **Montag 14.09., 09:15 bis 09:45**, «Abgleich Umbau PPTS» mit Cornelia Schäfer, Claudia Allerkamp und Albin Spahic. Fällt in die angekündigten Ferien.
+5. **Mittwoch 16.09.**, Abrechnung Steinbrüchelstrasse, falls bis dahin keine Rückmeldung kommt. Kostendach CHF 1'800.00 exkl. MwSt. nach Aufwand. Rechnungsempfänger ist **nicht Nova**, sondern 1291 Die Schweizer Anlagestiftung, vertreten durch Nova Property Fund Management AG, Aaron Tonet, Zentrum Staldenbach 3, 8808 Pfäffikon SZ. Bopp ist ab morgen Abend bis 23.09. weg, Stellvertretung Philippe Munch.
+6. **Donnerstag 17.09., 13:00 bis 14:00**, nächste Koordinationssitzung. Fällt ebenfalls in die Ferien.
+7. **Freitag 18.09.**, Vorleistungen abgeschlossen: Mobiliar aus dem Raum, Boden mit Hart-Pavatex geschützt.
+8. **Samstag 19.09. ab 06:30**, Umbau Schiebetüre und Einbau RHS durch Estermann. Dieser Termin steht in keinem Kalender.
+
+### In Beobachtung
+
+Lüftungsplanung Kispi: die Ausführungspläne liegen bei der Feuerpolizei zur Prüfung, Cekdar Duran meldet sich bei Freigabe. Feuerpolizei: die Nachlieferung vom 09.09. 14:35 hast Du selbst übernommen, eine Quittung fehlt; offen bleibt die Stellungnahme beziehungsweise das Brandschutzkonzept von Gruner, zu dem Du Ziegel am 09.09. um 15:38 geschrieben hast. Werkplan Türe 01.2.331.1 von Livdin Bajrami vom 09.09. 09:44 liegt zur Prüfung bei Dir, ebenso die Vermassung der Achsposition der Bohrung im Stahlsturz. Thalwil: die Zustellung von PDF und DXF an Josef Posch ist offen und nachweislich nie erfolgt, in allen Konten findet sich zu Posch nur eine Offertanfrage vom 08.07.2025; davor sind die zwei gerügten Planfehler zu bereinigen, und Tschopp hatte DXF verlangt, an ihn geliefert wurden DWG. Steinbrüchelstrasse: der Kanalisationskataster ist unbeantwortet, die schriftliche AfB-Bestätigung zu den Reduits fehlt (ohne sie liegt die Studie rund 140 m² über der Ausnützung), die Grundbuchanmeldung des Wegrechts WI3366 ist bis 08.10. nötig und Ende September nachzufassen, und die vier Kanalkataster-Screenshots sind noch nicht abgelegt. Die Freigabebitte an Fabian Wuersch zu den inneren Verglasungen läuft noch. Notariat: die Alternative zum Firmennamen ist unbeantwortet. Hub-intern: der Twin-Byte-Riegel steht bei 15 Byte Reserve und wartet auf Deinen Entscheid zwischen Grenze anheben, Verdichtungsregel schärfen oder Block splitten.
+
+### Vorschlag Kalendereinträge
+
+Nicht eingetragen, nur vorgeschlagen. Erstens ein Ferienblock ab Montag 14.09. über zwei Wochen, damit die vier Kollisionen sichtbar werden und Du entscheiden kannst, was Du absagst oder delegierst. Zweitens Samstag 19.09. 06:30 «Estermann: Umbau Schiebetüre und Einbau RHS», der Termin fehlt. Drittens heute 16:30 eine Erinnerung auf Deine 17-Uhr-Frist an Spahic. Viertens Mittwoch 16.09. «Abrechnung Steinbrüchelstrasse, 1291 Anlagestiftung».
+
+### Token-Tempo
+
+Vortag 09.09.: MacBook Pro 179.0 Mio Tokens (129.74 USD API-Äquivalent), Mac Mini 42.5 Mio Tokens (20.08 USD), zusammen 221.5 Mio Tokens und rund 150 USD.
+
 ## Hub-Chef 09.09.2026 (08:39 bis 09:0x, Tagesbriefing gesendet) — die Bohrmasse ist da, die Massfreigabe um 09:30 laeuft ohne TeKoSi
 
 **Pflichtlektuere:** Radar-Abschnitt 09.09. 06:5x gelesen. **Der AG-Gruendungs-Abschnitt fehlt im heutigen Datumsblock**, obwohl der Monitor lief — die Spec `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md` traegt einen Eintrag vom 09.09. 07:45. Sein Befund wurde aus der Spec uebernommen (Kapitaleinzahlung 26 Tage ueber Soll-Termin 14.08., Notariat seit 27 Tagen stumm). Das ist der vierte Tag in Folge mit einem Melde-Ausfall dieses Monitors. Konversations-Destillat `260909-konversationen.md` (06:22) gelesen; sein Kern (Steinbruechelstrasse-Hauptarbeitstag, drei fertige Erzeugnisse, Kostendach nach Aufwand) traegt der Radar bereits.

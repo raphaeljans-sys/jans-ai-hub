@@ -4271,3 +4271,78 @@ verbrennt nichts, er läuft gar nicht. Das ist ein Fall für den Leerlauf-Wächt
 (Wiederaufnahme oder Stilllegungsentscheid), nicht für eine Frühwarnungs-Mail. Zwei Punkte
 liegen für den Radar bereit: der defekte `inventar.sh`-Pfad, der jede Fortschrittsmessung
 blind macht, und das Statusprofil 1 established gegen 480 Artikel.
+
+## 2026-09-10, 07:15 CEST — Rohmessung (Bewertung folgt unten im selben Block)
+
+Verbrauch teuer (in+cache_creation+out) / total, Mio Token, rekursiv inkl. Subagenten:
+
+MacBook Pro: 10.09. 2.15/39.39 (Tag läuft) · 09.09. 7.35/173.72 · 08.09. 7.02/144.98 ·
+07.09. 10.34/239.38 · 06.09. 0.00 · 05.09. 0.00 · 04.09. 4.58/84.83 · 03.09. 10.12/204.57.
+Mac Mini: 10.09. 0.38/11.25 · 09.09. 1.17/42.49 · 08.09. 3.23/77.38 · 07.09. 5.42/101.12 ·
+06.09. 1.59/39.68 · 05.09. 1.28/35.30 · 04.09. 1.86/58.59 · 03.09. 2.40/66.38.
+Beide Stationen teuer zusammen: 10.09. 2.53 · 09.09. 8.52 · 08.09. 10.25 · 07.09. 15.76 ·
+06.09. 1.59 · 05.09. 1.28 · 04.09. 6.44 · 03.09. 12.52. Kein Tag über 35 Mio, keine zwei
+Folgetage über je 18 Mio — Kriterium (b) nicht erfüllt.
+
+Blockade: 0 echte Usage-/Rate-Limit-Fehlerereignisse in den letzten 24 h auf beiden
+Stationen (strukturell geprüft: isApiErrorMessage / type=error / apiErrorStatus=429, nicht
+per Wort-grep). Kein 5-Stunden-Limit, kein Wochenlimit.
+
+**Bewertung — keines der sieben Meldekriterien erreicht, nicht gemailt.**
+
+(a) Kein echtes Limit-Fehlerereignis, weder interaktiv noch in einem Loop, auf keiner der
+beiden Stationen. (b) Höchster Tageswert beider Stationen zusammen im Fenster: 15.76 Mio am
+07.09., klar unter der 35er-Tagesschwelle; die beiden höchsten Folgetage 07.09./08.09. mit
+15.76 und 10.25 Mio verfehlen die 18er-Doppeltagesschwelle. (c) Kein erschöpftes
+Wochenkontingent in den letzten 24 h. (d) Alle vier operativen Briefings haben ihr
+Deliverable erreicht: Hub-Chef 09.09. um 08:58:53 versendet (4'506 Zeichen, im Konto
+gegengemessen); logbuch-radar 09.09. regelkonform still beendet, Briefing-Abschnitt im
+LOGBUCH geschrieben (56 Zeilen zu, 0 gelöscht); mahnwesen-verzugscheck 09.09. mit Befund
+abgeschlossen; zahlungsabgleich-check 09.09. abgeschlossen samt Korrektur-Harness. Hub-Chef,
+Mahnwesen und Zahlungsabgleich sind heute noch nicht fällig (08:39/08:05/08:23 CEST); der
+logbuch-radar von heute 06:55 lief zum Messzeitpunkt 07:15 noch, 240 Journalzeilen und
+92 Assistant-Schritte — in Arbeit, kein Abbruch. (e) Radar-Herzschlag frisch: RADAR.md-Kopf
+10.09. 00:57 (erste `## `-Überschrift, nicht der Dateikopf), zugehörige Session 09.09. 22:57Z
+— 6.3 h alt, weit unter der 12-h-Schwelle. (f) Kein Aufwand ohne Wissenszuwachs, siehe
+Destillat-Zeile. (g) Queue nicht komplett; Specs liegen für alle vier Korpora vor, das
+Spec-Gate hängt nicht.
+
+Liefer-Delta (git, nicht mtime): Wiki-Artikel je Tag 07.09. 23 (ohne Twin-Facetten 17) ·
+08.09. 17 (11) · 09.09. 11 (5) · 10.09. bis 07:15 8 (2). Betroffene KBs seit 09.09.:
+twin (6), planungsgrundlagen (2), energie (2), claude-code (1). Kein Loop mit Verbrauch ohne
+Liefer-Delta. Nachtschicht Mac Mini: 4 Läufe am 08.09. und 09.09., 2 bis 07:15 am 10.09.,
+alle rc=0, 1.63 bis 3.99 USD; der 02:35-Lauf meldet selbst, alle Lanes seien «gedrosselt oder
+gesättigt bis auf `energie`» — und liefert dort.
+Stückkosten (teuer beide Stationen je Artikel): 08.09. 0.60 Mio, ohne Twin 0.93 Mio ·
+09.09. 0.77 Mio, ohne Twin 1.70 Mio · 10.09. (Tag läuft) 0.32 Mio, ohne Twin 1.27 Mio.
+
+Destillat: Korpus `archiv-fachwissen` → Ziel-KB `architektur-fachwissen`, Spec vorhanden,
+Queue NICHT komplett.
+(a) Fortschritt weiterhin UNMESSBAR — heute gegengemessen, nicht fortgeschrieben:
+`inventar.sh archiv-fachwissen --stand` gibt unverändert `stand=UNMESSBAR
+grund=training-inventar-fehlt sektionsdateien_raw=20` zurück. Der Pfad-Mismatch aus dem
+Vorlauf besteht also noch (erwartet werden zwei Dateien unter
+`skills/wissens-destillat/training/`, vorhanden sind 20 Sektionsdateien unter
+`wissen/architektur-fachwissen/raw/inventar/`).
+(b) Ertrag: 480 Artikel, davon established 1, emerging 289, speculative 191 — unverändert
+gegenüber dem Vorlauf. Jüngste Datei im Wiki ist QUESTIONS.md vom 03.09. 23:28, der jüngste
+Artikel stammt vom 02.09. Die Front steht damit seit acht Tagen.
+(c) Delta-Null-Serie: unverändert nur zwei outputs-Reports (23.08., 01.09.), keiner Delta
+Null. Keine Rücktaktung, keine Stilllegung fällig.
+(d) Kriterium (f) trifft **nicht** zu, aus demselben Grund wie gestern: der Loop verbraucht
+nichts, er läuft nicht. Jüngster Queue-Eintrag ist der 130. Lauf vom 30.08.; in den
+Lauf-Journalen 08.–10.09. steht kein Destillat-Lauf. Das ist ein Stillstand ohne Verbrauch,
+also Sache des Leerlauf-Wächters, nicht dieser Warnung — und der Radar hat ihn übernommen:
+sein Kopfbefund vom 10.09. 00:57 führt den fehlenden Zufluss in `architektur-fachwissen` seit
+dem 03.09. als P1 und korrigiert dabei die frühere Fehlverortung («`archiv-fachwissen` ist
+ein Korpus-Name, keine KB»). Die beiden Punkte des Vorlaufs liegen weiterhin bei ihm: der
+defekte `inventar.sh`-Pfad und das Statusprofil 1 established gegen 480 Artikel.
+
+Nebenbefund ohne Sendegrund für diesen Loop: der bexio-Zugang ist seit 32 Kalendertagen tot
+(drei unabhängige Proben je HTTP 401, Ursache am Token), der Verzugscheck damit seit dem
+09.08. ohne Datengrundlage. Der Befund gehört dem Mahnwesen und dem Hub-Chef, die ihn täglich
+tragen; hier nur vermerkt, damit die Reihe ihn kennt.
+
+Zuletzt gemailt: **24.08.2026 07:50**, unverändert. Nächste Mail erst bei neuer
+Kontingent-Erschöpfung, einem Briefing-Ausfall, fehlendem Radar-Herzschlag, Aufwand ohne
+Wissenszuwachs oder komplett gemeldeter Korpus-Queue.
