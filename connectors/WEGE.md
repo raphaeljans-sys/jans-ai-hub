@@ -1073,3 +1073,22 @@ Konferenz), Blue Sport 5+ nur Generisches und senden dann auch nichts; die DAZN-
 `klick 1000 190`, Tippen per `keystroke`, Treffer per Doppelklick (Zeile 1 bei y≈290, Zeile 2 bei
 y≈401, Fenster 223/137 1234×776); der Player wechselt beim Doppelklick den Sender, ohne dass man ihn
 schliesst. Klick-Helfer bauen: `swiftc -O -o "$SCRATCH/klick" scripts/cgevent-klick.swift`.
+
+## Nachtrag 10.09.2026 — Station MacBookPro (revendo): `m365-graph.mjs` hängt ohne Zertifikat, statt zu scheitern; `ssh mini` trägt wieder
+
+- `node connectors/m365-graph.mjs --get …` läuft auf dieser Station ohne
+  `~/.cli-m365-cert-combined.pem` **nicht in einen Fehler, sondern hängt** (gemessen: über vier
+  Minuten, Abbruch nur per `pkill`). Ein ausbleibendes Ergebnis ist hier eine Aussage über das
+  fehlende Zertifikat, nicht über SharePoint. Vor jedem Graph-Aufruf auf dieser Station zuerst
+  `ls ~/.cli-m365-cert-combined.pem`.
+- `ssh mini` (BatchMode, Schlüssel-Login) trägt von dieser Station wieder; die Sackgasse vom
+  23.08. («scheitert, Mini offline») ist beendet. Regelmässig gegenmessen statt fortschreiben
+  (`auto-verbesserungen` 260807, Spiegelfall). Über den Mini stehen Zertifikat und CLI bereit
+  (`/Users/raphaeljans/.cli-m365-cert-combined.pem`, `~/Developer/jans-ai-hub/node_modules/.bin/m365`).
+- In einer nicht-interaktiven `ssh mini`-Shell liegt `node` **nicht im PATH**: voller Pfad
+  `/opt/homebrew/bin/node` oder `export PATH=/opt/homebrew/bin:$PATH` voranstellen, sonst scheitert
+  jedes Connector-Script dort mit `No such file or directory: 'node'`.
+- macOS hat kein `timeout`; für einen Zeitdeckel `perl -e 'alarm N; exec @ARGV' -- <befehl>` oder
+  Pythons `subprocess.run(timeout=…)` verwenden.
+- OneDrive-Befund derselben Messung (MacBook synchronisiert nur drei Bibliotheken, `AR - 01 Projekte`
+  fehlt): `rules/betrieb-chronik.md` 260910.

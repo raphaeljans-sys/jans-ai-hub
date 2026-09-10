@@ -19,6 +19,34 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260910 — MacBook Pro: OneDrive meldet «Gesichert und synchronisiert», synchronisiert aber nur 3 von 17 Bibliotheken
+
+Gemessen am 10.09.2026 auf Zuruf Raphaels (Finder zeigte `AR - 01 Projekte/2619_KINDERSPITAL/03_BKP`
+mit «0 Objekte»). **Befund:** Die aktive Sync-Konfiguration des OneDrive-Clients
+(`~/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Application Support/OneDrive/settings/Business1/1e051b0b-….ini`,
+aufgefrischt 10.09. 18:58) führt nur drei Bibliotheken: `AD - 03 Kommunikation`, `AR - 03 Studien`,
+`WE - 02 Korrespondenz`. Der Mac Mini führt in derselben Datei 17 Bibliotheken, darunter
+`AR - 01 Projekte` (Site JANS.PROJEKTE) und `JANS - 2619-KISPI - Dokumente` (Site kispi). Auf SharePoint
+hat `03_BKP` 23 LOS-Ordner (jüngste Änderung 10.09.2026, per Graph vom Mini aus gemessen), der Mini hält
+davon 1'564 Dateien lokal, das MacBook null.
+
+Die übrigen Top-Level-Ordner im Sync-Stamm des MacBook (`AD - 01 Geschaeftsfuerung`, `AR - 01 Projekte`,
+`AR - 02 Wettbewerbe`, `JANS - 1_Architektur` usw.) sind **verwaiste Reste einer früheren Konfiguration**
+(Zeitstempel bis 11.02.2026; `2619_KINDERSPITAL` enthält lokal ein `10_Clownwagen`, das auf dem Server
+nicht existiert, und nicht die beiden `99 Grundlagen …`-Ordner vom Juli). Der Client selbst ist gesund:
+Menüleisten-Status «Gesichert und synchronisiert», letzte Sync-Verifikation 29.08.2026 sauber,
+FileProvider ohne Fehler. **«Läuft» und «deckt den Pfad ab» sind zwei Messungen** (gleiche Familie wie
+260824: «läuft» ist nicht «erreichbar»).
+
+**Folge für diese Station bis zur Behebung:** kein lokaler Weg in die Projektablage 2619 und keiner in den
+Hub-Output-Pfad `AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/`; beides läuft über den Mac Mini
+(`ssh mini`, seit heute wieder erreichbar) oder Graph. Die Behebung ist ein Sync-Schalter und damit Raphaels
+Klick (Rule `auto-verbesserungen` 260814): zuerst die verwaisten lokalen Ordner aus dem Sync-Stamm
+wegschieben (sonst entstehen beim erneuten Verbinden Suffix-Ordner «… 2», das Muster des Vorfalls vom
+08.08., `docs/konzepte/260812-OneDrive-Sync-Incident/`), dann auf SharePoint in der Bibliothek
+`01 Projekte` der Site JANS.PROJEKTE «Synchronisieren» klicken. Kein Eingriff durch Claude in dieser
+Session, nur Messung.
+
 ## 260908 — Das Konversations-Destillat ist keine Belegquelle fuer den Versandstatus
 
 Gemessen vom `logbuch-radar` am 08.09.2026. Das Destillat von 06:2x fuehrte die Honorarofferte
