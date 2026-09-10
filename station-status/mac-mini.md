@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 11.09.2026 00:50:34
+Stand: 11.09.2026 01:11:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 11.09.2026 00:50:34
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 687747b57 nas-selfcommit: 4 Datei(en) 2026-09-11 00:45
+- 8c9850685 vollgas-radar: Regellauf 11.09. 00:57, FREI, alle Loops liefern, Kontingent -28.6 Pkt
