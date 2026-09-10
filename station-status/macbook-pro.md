@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 10.09.2026 08:07:20
+Stand: 10.09.2026 08:27:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:03)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 08:07:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b77b59d02 mahnwesen-verzugscheck: Lauf 10.09.2026 — bexio-Zugang Tag 33 tot, Registernachtrag
+- dc10a76c8 nas-selfcommit: 3 Datei(en) 2026-09-10 08:15
