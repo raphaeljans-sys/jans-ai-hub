@@ -71,7 +71,11 @@ Geschäftsflächen-Ertrag grob mit **5.5 % Bruttorendite** kapitalisieren.
 - CHF/m² HNF: Median **~4'400** (bis 2021); inkl. Teuerung Mitte 2023 mind. **4'800**;
   selektive MFH-Auswahl 5'310–6'110/m² HNF inkl. 15 % Teuerung.
 - Faustregeln: GF→HNF über Effizienz **0.70**; +20 % Kostensteigerung seit ~2014;
-  Wohnbaupreise 2023 rund **+30 %** ggü. 2014; **Baupreisindex Hochbau Okt. 2023 = 114.8**.
+  Wohnbaupreise 2023 rund **+30 %** ggü. 2014; **Baupreisindex Hochbau Okt. 2023 = 114.8**
+  (BFS, Hochbau Schweiz, **Basis Okt. 2020 = 100**; Basisangabe nachgetragen 10.09.2026,
+  Wissens-Chef Lauf 57, Beleg `wissen/immobilienbewertung/outputs/2026-07-31_ingest-cluster-C-bfs-werkmaterial.md`.
+  Seit der Rebasierung gilt Basis Okt. 2025 = 100; die Werte sind ohne Verkettung **nicht**
+  direkt vergleichbar, sonst entsteht eine scheinbare Deflation von rund 12 %).
 
 ## Marktdaten (Verkauf/Miete) — UBS Real Estate Local Fact Sheet (Q3 2023, Beleg Ebmatingen/Steinhof)
 - Verkaufspreis EW CHF/m²: CH 7'031 · Kt. ZH 9'063 · Thalwil 16'106 · Wädenswil 12'846 ·
@@ -88,5 +92,11 @@ Investition) ~6.8 %, Nettorendite via Annuität ~1.1 % (Sensitivität 2 % Amorti
 ## Quellen-Hierarchie Kosten
 1. Skill `kostenschaetzung` (Wüest-Partner-Kennwerte, Healthcare) — Primärquelle.
 2. UBS Real Estate Local Fact Sheet der Gemeinde (Markt/Verkauf/Miete/Bauland).
-3. BFS-Baupreisindex Hochbau (Teuerungskorrektur auf den Kennwert-Stand).
+3. BFS-Baupreisindex Hochbau (Teuerungskorrektur auf den Kennwert-Stand). Aktuelle Teilindizes je
+   Bauwerksart (Stand April 2026, Basis Okt. 2025 = 100: Hochbau 100.5, Neubau MFH 100.7) führt
+   `wissen/immobilienbewertung/wiki/realwert-sachwert.md`; die fertigen Teuerungsfaktoren Region
+   Zürich (ZIW) führt `wissen/grobkosten/wiki/kennwerte.md`, Abschnitt «Baupreisindex ZH». Immer
+   mit der passenden Bauwerksart indexieren, nie mit dem Totalwert (Nutzungsregel 7 in
+   `wissen/immobilienbewertung/wiki/datenquellen-registry.md`). Zeiger gesetzt 10.09.2026,
+   Wissens-Chef Lauf 57.
 4. Eigene JANS-Kennwerte oben (mit Stand-Datum, vor Gebrauch teuern).

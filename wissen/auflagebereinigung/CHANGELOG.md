@@ -2,6 +2,15 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — Fassungsvorbehalt SN EN 62368-1 und Kanten nach `normen`
+
+`outputs/2026-07-31_moeblierung-fluchtweg-srz-praxis.md`: die Aussage «gilt SN EN IEC
+62368-1:2020+A11:2020» steht als SRZ-Angabe; die geltende VKF-BRL 14-15 (2017, Ziff. 5.3) nennt
+die Ausgabe 2014 als eine von drei Alternativen. Additiver Fassungsvorbehalt gesetzt, dazu die
+Zeiger auf die drei `normen`-Destillate, auf die sich der Report stützt (BSR 16-15, BRL 13-15,
+BRL 14-15). Frontmatter unverändert (outputs tragen kein `links:`). → Fassungsfrage übergeben an
+`wissen/normen` (`wiki/QUESTIONS.md`).
+
 ## 2026-09-04 (Nachtschicht Mac Mini, Priorität 5 QUESTIONS-Recherche) — Behördenkommentar «Art. 12» geklärt
 
 `wiki/QUESTIONS.md`, offener Punkt vom 31.07.2026 (Fall 2619 KISPI / BE 1171/26 Ziff. 16,

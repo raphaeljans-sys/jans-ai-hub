@@ -43,12 +43,24 @@ Abschnitt in `[[u-werte-grenzwerte-ch]]`, F2 praezisiert.
   Die Zeile «(C/AE)·(Δθ·tc·24)/(QT+QV); C/AE≈0,5 → 223 h» haette bei Nachrechnung 256 ergeben.
   Vorschlag: «≈x» als Wert mit weiter Toleranz (z.B. 10 %) mitrechnen statt die Zeile zu
   verwerfen. Erst pruefen, wie viele Zeilen das KB-weit betrifft, bevor die Toleranz festgelegt wird.
-- [ ] **E-R190-2 (P3, Methode): Zwei KBs haben dieselben PL-04-Seiten unabhaengig abgeschrieben.**
-  `energie` und `planungsgrundlagen` fuehren je eine eigene Abschrift der Tab. 24/25 und der
-  Monatsbilanz; nur die eine war richtig. Weitere Doppel-Abschriften derselben Scans sind
-  wahrscheinlich (Ordner `_Heizwaermebedarf`, `U Wert berechnung`). Vorschlag fuer einen
-  A-BLIND-Folgelauf: je Quelldatei, die in beiden `sources:`-Feldern steht, die beiden Abschriften
-  gegeneinander diffen — ein Unterschied zeigt ohne Original, wo hinzuschauen ist.
+- [x] **E-R190-2 (P3, Methode): Zwei KBs haben dieselben PL-04-Seiten unabhaengig abgeschrieben.**
+  ✓ **Teilweise ausgefuehrt 10.09.2026 (Nachtschicht Mac Mini).** Sechs weitere Quellenpaare (ausser
+  der bereits in Run 190 selbst behandelten Tab. 24/25 + Monatsbilanz) gegeneinander geprueft, alle
+  ohne Original: `_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf` ↔ `[[bfe-waermeerzeugerleistung-2015]]`,
+  `U-Wert_Gebäudehülle.pdf` ↔ `[[grundsaetze-energieeffizientes-bauen]]`, `Betriebsenergie.pdf` ↔
+  `[[graue-energie-betriebsenergie]]`, `2001_2005_d.pdf`/`Energienachweis 380-1 Muster.pdf` ↔
+  `[[sia-2001-waermedaemmstoffe-lambda]]`/`[[enerhaus-minergie-nachweis-efh-umbau]]` (stichprobenartig)
+  — **fuenf ohne Befund**, Zahlenwerte/Prozentsaetze/Kontrollwerte deckungsgleich. **Ein Delta:**
+  `U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf` ↔
+  `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` — `planungsgrundlagen` fuehrte die Wandkatalog-
+  Spanne als «Wände W1-W7i» (nur Aussendaemmung), waehrend dieses Destillat selbst «4.1.2 Waende
+  W1–W26» als Kapitelueberschrift traegt und zusaetzlich Kerndaemmung (W9-W12) und Innendaemmung
+  (W25/W26) dokumentiert. Dort berichtigt (`wissen/planungsgrundlagen/wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md`
+  §5 + Frontmatter, CHANGELOG-Eintrag). **Nicht geprueft:** `clt/`-Dokumentation und
+  `Auswahl_Waermedaemmstoffe.docx` (kein zweites KB fuehrt sie), sowie alle Quellenpaare aus dem
+  Ordner `U Wert berechnung/` ausserhalb der hier genannten acht Dateien — ein weiterer Folgelauf
+  waere nur noch punktuell ergiebig, die Methode selbst gilt als validiert (6 von 7 gepruefte Paare
+  ohne Befund, 1 echtes Delta gefunden, Trefferquote konsistent mit der Erstanwendung in Run 190).
 - [ ] **A-BLIND naechster Kandidat:** Rang 70 `[[wta-formular-zh-waermetechnische-anlagen]]`
   (PL-04-Original, «⚠ seit …»-Vermerk im Datenstand) oder Rang 67 `[[enfk-fensterblatt]]`.
 

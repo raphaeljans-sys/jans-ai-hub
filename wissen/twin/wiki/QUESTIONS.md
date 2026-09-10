@@ -6201,3 +6201,33 @@ danach wieder bei 16 B.
 *Warum:* Es ist der erste belegte Fall, in dem eine wegen der Grenze zurueckgestellte Regel
 nachweislich einen Fehlschlag produziert hat — mit zwoelf Tagen Vorlauf und korrekter
 Vorhersage. Die Frage ist damit keine Kostenfrage mehr.
+
+## 260910c — Übergabe Wissens-Chef Lauf 57: Batch 118 ist im Wiki und in `CLAUDE.md` noch nicht nachgezogen
+
+Kein Stilbefund, sondern ein **Nachführungsbefund** innerhalb dieser KB, nur vorgelegt (Rule
+`wissens-bibliothekar`, active-with-flagging; der Wissens-Chef fasst Facetten-Artikel und die
+KB-`CLAUDE.md` nicht an, zumal `arbeitsweise.md` in den Auto-Block kompiliert, Reserve rund 13 B).
+Batch 118 (`raw/260910-mailbatch-118.md` Kernbefund 1, `raw/_INGESTED.md` Batch 118) hält fest:
+die Klassen `Apple-Mail-URLShareWrapperClass` und `ms-outlook-mobile-*` zeigen den **Kanal**, nicht
+die Person; Gold A (eigene Hand) und das claude-aera-Kontrollstück desselben Tages tragen beide.
+Im Diff des 10.09.2026 enthält **keiner** der sechs Facetten-Artikel eine Zeile dazu. Noch auf dem
+alten Stand stehen:
+
+1. `wiki/arbeitsweise.md` Abschnitt «Geräte-Trennung ersetzt den verbrannten `_ `-Bullet (Batch 116,
+   belastbar)», Tabellenzeile «Apple-Mail-URLShareWrapperClass | Apple Mail, Claude-Entwurfsweg» —
+   genau der Standard, den Batch 118 widerlegt.
+2. `CLAUDE.md` im operativen Gebrauch des Wrappers als Ausschlusskriterium: Z. 289-291 («hier belegt
+   durch den Wrapper»), Z. 570-573, Z. 859-861 («Der Ausschluss laeuft ueber den
+   `Apple-Mail-URLShareWrapperClass`»), Z. 980-982. Die **Definition** Z. 369-376 («Lokalisator,
+   kein Autorschaftsurteil») ist korrekt und deckt sich mit Batch 118.
+3. `wiki/stimme.md`, Fidelity 260909b: «C mit `ms-outlook-mobile-*`, also eigene Hand». Die
+   Gold-Einstufung von C bleibt vertretbar, hat aber einen Beleg weniger (Fehlerdichte, Satzbau).
+4. Diese Datei, «Erledigt aus den Vorrunden: 260814b #2» (setzt Raphael selbst Text als Block in
+   Apple Mail ein?): Gold A aus Batch 118 ist der bisher fehlende **Positivbeleg**; den
+   Erledigt-Vermerk nicht überschreiben, sondern mit Datum ergänzen.
+
+Vorschlag für den nächsten `twin`-Lauf: je Stelle ein datierter ⚠-Nachtrag «Widerlegt durch Batch
+118 (10.09.2026): Wrapper = Kanal, nicht Autor; Gewichtung inhaltlich (Fehlerdichte, Satzbau,
+Du-Grossschreibung, Abgleich mit der Hub-Chef-Selbstmail des Tages)». Bei `arbeitsweise.md` vorher
+prüfen, ob der Abschnitt im Do/Don't-Block liegt (Byte-Riegel `skills/twin/tools/build_dna.py`).
+Status: **offen**, Facette Arbeitsweise (Korpus-Methodik).

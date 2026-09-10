@@ -1,5 +1,14 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-09-10 (Wissens-Chef Lauf 57) — BFS-Reihe beim Teuerungs-Check benannt
+
+**`wiki/kennwerte.md`, Teuerungs-Check:** der Wert «April 2026 = 100.6» ist die Reihe
+**Baugewerbe Total**. `wissen/immobilienbewertung/wiki/datenquellen-registry.md` Nr. 7 verlangt,
+nie mit dem Totalwert zu indexieren; die passende Reihe Neubau MFH steht bei 100.7, ebenfalls
++1.0 % YoY. Materiell ohne Folge, Reihenangabe additiv nachgetragen. Dieselbe Präzisierung in der
+Führungsmatrix `wissen/koordination/QUERBEZUEGE.md` (ZIW-Zeile) und ein Zeiger aus
+`skills/machbarkeit/wissensbasis/02_kennwerte-kosten.md` auf den Abschnitt «Baupreisindex ZH».
+
 ## 2026-09-07 (Wissens-Chef Lauf 53) — die Abhilfe aus Lauf 52 traegt nicht; SYN-72 nachgezogen
 
 **`wiki/kennwerte.md`:** Der am 03.09.2026 gesetzte Aussenflaechen-Vorbehalt endete mit der

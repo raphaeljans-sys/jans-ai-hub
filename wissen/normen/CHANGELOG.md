@@ -1,3 +1,15 @@
+## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — Konsumentenliste zu N83-1, zwei Eingänge
+
+`wiki/QUESTIONS.md`, nur additiv: (1) an **N83-1** die Konsumenten ausserhalb der KB nachgetragen
+(vier der 17 Dateinamen fest verlinkt aus `skills/brandschutz` und `wissen/planungsgrundlagen`),
+damit der Umbenennungsentscheid auf vollständiger Grundlage steht; Entscheid unberührt.
+(2) **WC57-N1** SN EN 62368-1: VKF-BRL 14-15 verweist datiert auf 2014, SRZ nennt 2020+A11
+(Eingang aus `wissen/auflagebereinigung`). (3) **WC57-N2** SIA 181:2006 Anhang G als
+Destillat-Kandidat, weil ein KISPI-Fall daran hängt (Eingang aus `wissen/projekt-lessons`).
+Im Nachlauf zu Run 83 geprüft und ohne Befund: kein Konsument ausserhalb `normen` zitiert
+≤/≥-Schwellen aus SIA 162/051 A1; der Typ-C-Vermerk an `vkf-brandschutznorm-2015` ist eine
+Entwarnung ohne betroffenen Konsumenten.
+
 ## 2026-09-10 (Normen-Nacht Run 83) — N82-2 geschlossen, vier tote Pfade repariert, zweite Verfälschungs-Mechanik gefunden
 
 Vertiefungsstufe (b). Auftrag war die von Run 82 als «grösste offene Kante» ausgewiesene Frage

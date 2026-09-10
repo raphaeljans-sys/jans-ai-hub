@@ -2,6 +2,37 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-09-10 (Lauf 57, Abendlauf) — die Bauherren-FAQ nannte fuer ZH das falsche Verfahren, und eine Cross-KB-Korrektur war im Zielartikel nur halb angekommen
+
+Zuschnitt: 7 Melder (`model: sonnet`) auf dem Zuwachs seit Lauf 56, je Melder ein adversarialer
+Verifikator, dazu Gegenpruefung jedes tragenden Befunds am Original im Hauptkontext. Delta-Basis
+`519913bf9` → `1a50f2e8c`, Fenster 24 h, **114 Commits**, nativ im SSD-Klon gemessen. Bilanz:
+**11 Meldungen → 2 bestaetigt · 7 bestaetigt mit anderem Zuschnitt · 2 widerlegt.** 23 Dateien
+geaendert (inkl. Bericht), alle additiv bzw. am Anker berichtigt, eine Frontmatter-Zeile in den Body verschoben,
+keine Loeschung. Bericht: `outputs/2026-09-10_wissens-chef-run57.md`.
+
+- **WC57-1 ⭐ `energie` F291 riet fuer ZH zum ordentlichen Verfahren; es gilt § 325a PBG
+  (Anzeigeverfahren).** Bauherrenseitig falsch und KB-intern widerspruechlich
+  (`energienachweis-zh.md` kannte § 325a). ⚠-Absatz in F291, Ruecklauf an `baurecht`
+  (E-R189-1 dort als «offen» veraltet), neue offene Frage SZ-Verfahrensart.
+- **WC57-3 Die Run-190-Berichtigung war in `planungsgrundlagen` nur halb angekommen:**
+  Bildunterschrift, Datenstand-Zeile und Quellenklammer schrieben die Tabelle weiter «Tab. 24» zu,
+  gegen die eigene neue Fussnote. Angeglichen.
+- **WC57-4/5 KISPI-Report `projekt-lessons`:** `links:` in den Body verschoben (Schema,
+  PL46-2); Lehre 3 um SIA-181:2020-Fundstelle und die zahlengleiche Anhang-G-Empfehlung
+  (Spital Korridor-Zimmer D_i 35 dB, Stufe 2) ergaenzt; PL57-1 und WC57-N2 eroeffnet.
+- **WC57-6 SN EN 62368-1** (SRZ 2020+A11 gegen VKF-BRL 14-15 → 2014): Vorbehalt im
+  `auflagebereinigung`-Report, Frage WC57-N1 in `normen`. Erste Bestandsstichprobe des
+  Norm-Rueckkanals (Methodenumstellung aus Lauf 56): 12 Normen, 10 konsistent, 1 Divergenz.
+- **WC57-7 N83-1:** Konsumentenliste (4 von 17 Namen extern verlinkt) an die Vorlage nachgetragen.
+- **WC57-8 BFS-Baupreisindex:** Basisangabe in `machbarkeit`, Reihe «Baugewerbe Total» in
+  `grobkosten` und Matrix, neue Matrixzeile nach de-facto-Bestand.
+- **WC57-9/10:** twin-interne Nachfuehrung von Batch 118 als 260910c vorgelegt (Facetten
+  unangetastet, Riegel-Reserve rund 13 B); Arbeitsregel «Person und Sache» aus dem Radar-Ruecklauf
+  in `skills/logbuch/SKILL.md` verankert.
+- **Widerlegt:** Kante Bodenheizung → `bauprodukte` BKP 281 · SN EN 13501-1 als offene Luecke.
+- Schreib-Kontrolle: alle Edits anker-basiert; Numstat nach Commit geprueft (siehe Bericht).
+
 ## 2026-09-10 (Synergie-Lauf 33, Tagestakt) — der Monats-Check kennt seine Werkzeuge nicht, und sein Prompt verlangt den verbotenen git-Weg
 
 Delta-Basis 09.09.2026 17:10, 115 Commits, kein neuer Baustein, vier geaenderte. Bericht:

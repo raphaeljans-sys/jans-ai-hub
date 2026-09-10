@@ -2,6 +2,15 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-09-10 (Wissens-Chef Lauf 57) — Arbeitsregel aus dem Radar-Rücklauf im konsumierenden Skill verankert
+
+Die Arbeitsregel aus `outputs/2026-09-10_enge-suche-belegt-den-falschen-schluss.md` (zweimal
+suchen, Person und Sache; «Ball bei uns» nur aus dem Vorgangsverlauf) stand nur in diesem Report,
+den der nächste `logbuch-radar`-Lauf nicht liest. → Querverweis gesetzt in `skills/logbuch/SKILL.md`
+(Unterpunkt zu «Eingehend ↔ ausgehend paaren»). Frontmatter des Reports unverändert; dass drei
+von acht Reports dieser KB `links:` auf nicht existierende Wiki-Ziele tragen (u.a.
+`[[hub-betrieb-runner]]`), ist ein KB-weites Altmuster und im Register des Wissens-Chefs vermerkt.
+
 ## 2026-09-10 (Logbuch-Radar) — Spiegelfall zur Leerergebnis-Regel: die zu enge Suche antwortet, statt zu warnen
 
 Neuer Report `outputs/2026-09-10_enge-suche-belegt-den-falschen-schluss.md` (`status: established`, am Original

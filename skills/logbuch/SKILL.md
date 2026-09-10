@@ -74,6 +74,12 @@ Jede Frist/Pendenz ist eine Zeile in `fristen.md`:
   (Sent Items / Thread-Verlauf) pruefen; «offen/nachfassen» bleibt nur, wenn die loesende Gegenantwort
   nachweislich noch fehlt. Beim Schliessen kurz belegen (eingehend: Absender/Datum/Anliegen → ausgehend:
   Antwort Datum/Kerninhalt).
+  **Eine Ebene höher: Mail gegen Geschäftsstand (Rücklauf `logbuch-radar` 10.09.2026, Querverweis
+  gesetzt vom Wissens-Chef Lauf 57):** läuft ein Punkt auf eine Handlung hinaus («Ball bei JANS»),
+  zweimal suchen, einmal über die **Person** (Absender), einmal über die **Sache** (Los, Objekt,
+  Stichwort); widersprechen sich die Ergebnisse, gewinnt die Sachsuche. Eine Pendenz gegen einen
+  Dritten nie aus der Leerstelle im Postausgang ableiten, ohne den Vorgangsverlauf gesehen zu haben.
+  Beleg und Fall (LOS 273.35 Küchenbau): `wissen/claude-code/outputs/2026-09-10_enge-suche-belegt-den-falschen-schluss.md`.
 
 ### Drei Pflichtangaben je Zeile — sonst ist Durchlaufzeit nicht messbar (31.07.2026)
 

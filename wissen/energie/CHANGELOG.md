@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## 2026-09-10 (Nachtschicht Mac Mini) — E-R190-2 fortgesetzt: sechs Cross-KB-Diffs gegen `planungsgrundlagen`, ein Delta gefunden
+
+Fortsetzung des in Run 190 vorgeschlagenen A-BLIND-Folgeauftrags (`wiki/QUESTIONS.md` E-R190-2):
+je Quelldatei, die in beiden KBs' `sources:`-Feldern steht, die zwei unabhaengigen Abschriften
+gegeneinander diffen, ohne das Original zu oeffnen. Sechs weitere Paare geprueft (ueber die in
+Run 190 selbst bereits behandelten Tab. 24/25 + Monatsbilanz hinaus): fuenf ohne Befund
+(`bfe-waermeerzeugerleistung-2015`, `grundsaetze-energieeffizientes-bauen`,
+`graue-energie-betriebsenergie`, `sia-2001-waermedaemmstoffe-lambda`,
+`enerhaus-minergie-nachweis-efh-umbau` — Zahlenwerte/Prozentsaetze/Kontrollwerte deckungsgleich
+mit `planungsgrundlagen`). Ein Delta: `bfe-u-wert-bauteilekatalog-neubauten-2002` fuehrt den
+Wandkatalog explizit als «4.1.2 Waende W1–W26» inkl. Kerndaemmung (W9-W12) und Innendaemmung
+(W25/W26); `planungsgrundlagen` hatte die Spanne als «W1-W7i» verkuerzt (nur Aussendaemmung) —
+dort berichtigt (Cross-KB, kein Eingriff in dieses Destillat noetig, es war korrekt). Details
+und Methode-Einordnung: `wiki/QUESTIONS.md` E-R190-2.
+
 ## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — F291 nannte für ZH das ordentliche Verfahren, es gilt § 325a PBG
 
 - **`wiki/BAUHERREN-FAQ.md` F291:** Der Bauherren-Transfer riet, «weiter mit dem ordentlichen

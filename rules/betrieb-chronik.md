@@ -109,6 +109,14 @@ keine OneDrive-Domain, kein OneDrive-Prozess, App in der Quarantäne. Frei für 
 **Lehre für das Wege-Register:** vor Erste Hilfe zuerst `ls -le` auf die Hülle; eine ACL ist kein
 Dateisystemschaden.
 
+**Nachspiel und Abschluss 23:35:** Beim Neustart hatte das Hintergrundobjekt `com.microsoft.OneDriveLauncher`
+die App **aus der Quarantäne** gestartet (LaunchServices findet ein `.app`-Bundle überall) und zwei leere
+Container neu angelegt. Prozess beendet, Container nach `neu-angelegt-2322/` verschoben, Bundle per `sudo mv`
+in `OneDrive.app.zurueckgestellt` umbenannt (ohne `.app`-Endung nicht mehr startbar). **Lehre:** eine
+quarantänisierte App immer sofort umbenennen oder zippen, sonst startet sie beim nächsten Login von dort.
+Endzustand: CloudStorage nur Dropbox und Google Drive, keine OneDrive-Domain, kein Prozess, kein Container.
+Station frei für Neuinstallation und Neuverknüpfung.
+
 ## 260908 — Das Konversations-Destillat ist keine Belegquelle fuer den Versandstatus
 
 Gemessen vom `logbuch-radar` am 08.09.2026. Das Destillat von 06:2x fuehrte die Honorarofferte

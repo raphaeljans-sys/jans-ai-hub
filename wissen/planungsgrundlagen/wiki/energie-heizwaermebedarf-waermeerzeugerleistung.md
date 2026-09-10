@@ -1,7 +1,7 @@
 ---
 title: Heizwärmebedarf (SIA 380/1) & Wärmeerzeugerleistung (SIA 384/1, 384.201) — Berechnungsverfahren
 status: established
-last_updated: 2026-09-10 (Wissens-Chef Lauf 57: Bildunterschrift §2, Datenstand-Zeile und Quellenklammer an die Fussnote ¹ angeglichen); 2026-09-10 (τ-Formel um Faktor 24 berichtigt, Quellen-Unstimmigkeit im Beispiel vermerkt, Cross-KB aus energie Run 190); davor 2026-08-24 (Editionsklärung EN-102, Wissens-Chef Run 42; Frontmatter nachgezogen Wissens-Chef Run 43, 25.08.2026 — Stand davor 2026-07-25)
+last_updated: 2026-09-10 (Nachtschicht Mac Mini, E-R190-2: Wände-Katalogspanne §5 von «W1-W7i» auf «W1-W26» berichtigt, Cross-KB-Diff gegen energie); 2026-09-10 (Wissens-Chef Lauf 57: Bildunterschrift §2, Datenstand-Zeile und Quellenklammer an die Fussnote ¹ angeglichen); 2026-09-10 (τ-Formel um Faktor 24 berichtigt, Quellen-Unstimmigkeit im Beispiel vermerkt, Cross-KB aus energie Run 190); davor 2026-08-24 (Editionsklärung EN-102, Wissens-Chef Run 42; Frontmatter nachgezogen Wissens-Chef Run 43, 25.08.2026 — Stand davor 2026-07-25)
 sources: [PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.pdf (Reader "Energetische Gesamtoptimierung", SIA 380/1 S.104-105), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel.pdf (dass. S.106-107, Beispiel Büroraum Zürich-Stadt), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF.pdf (dass. S.146-147/108-109, SIA 380/1 Anhang A Tab.24/25; S.146 ist Tab. 6.2 eines Bauphysik-Lehrbuchs mit den Grenz-/Zielwerten SIA 380/1:2009, Zuordnung berichtigt 10.09.2026, siehe Fussnote ¹), PL - 04 Energie/_Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf (EnergieSchweiz/BFE + suissetec + Minergie, "Ermittlung der Wärmeerzeugerleistung", Broschüre 6, 12.2015), PL - 04 Energie/_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf (dass. S.88-89, "Grundsätze"), PL - 04 Energie/_Heizwaermebedarf/Betriebsenergie.pdf (dass. S.116, "Graue Energie — Größenordnung"), PL - 04 Energie/U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf (EnFK Vollzugshilfe Dez. 2018), PL - 04 Energie/U Wert berechnung/VoHi_EN02_de.pdf (Vollzugshilfe Feb. 2013), PL - 04 Energie/U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf (BFE/EnergieSchweiz 2002), PL - 04 Energie/U Wert berechnung/clt/CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf (S.14-37 Luftdichtheit/Feuchte), PL - 04 Energie/U Wert berechnung/2001_2005_d.pdf (SIA-Merkblatt 2001 Wärmedämmstoffe, Ausgabe 2005, Run 61), PL - 04 Energie/U Wert berechnung/Auswahl_Waermedaemmstoffe.docx (JANS-Notiz 01.11.2023, Run 61), PL - 04 Energie/U Wert berechnung/Energienachweis 380-1 Muster.pdf (Enerhaus-Anwenderkurs, 28.04.2010, Run 61)]
 links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[energie-energienachweis-zh-formulare]], [[energie-minergie-referenzprojekt-maison-climat]], [[grobkosten-onepager]]
 ---
@@ -245,7 +245,11 @@ erfüllend (Vereinfachungsregel, vermutlich implizit weitergeführt).
 
 **«U-Wert-Berechnung und Bauteilekatalog — Neubauten» (BFE/EnergieSchweiz, Kurt Marti, 2002,
 Ablösung der 1988er-Ausgabe)** — ECHTES Delta: keine reinen Grenzwerte, sondern ein **Katalog
-konkreter Referenz-Schichtaufbauten** (Kap. 4, S. 25-64): Böden B1-B21, Wände W1-W7i, dazu
+konkreter Referenz-Schichtaufbauten** (Kap. 4, S. 25-64): Böden B1-B21, Wände **W1-W26**
+(⚠ berichtigt 10.09.2026, Cross-KB-Diff aus `wissen/energie` E-R190-2, war hier bisher zu eng
+als «W1-W7i» geführt — das deckt nur die Aussendämmung; der Katalog führt zusätzlich W9-W12
+Kerndämmung zweischalig und W25/W26 Innendämmung gegen unbeheizte Räume, siehe
+`wissen/energie/destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md`), dazu
 Dächer/Decken, je als Schnittzeichnung mit benannten Schichten (z. B. Innenputz/Backstein/
 Wärmedämmung/Aussenputz; Bodenbelag/Zementueberzug/Trittschalldaemmung/Beton) UND U-Wert-Lookup-
 Tabelle nach Dämmschichtdicke (6-24 cm) x λ-Wert (0.020-0.050 W/mK), inkl. hinterlüftete

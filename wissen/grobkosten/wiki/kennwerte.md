@@ -113,7 +113,11 @@ den Ursprungssatz in `wissen/normen/destillate/sia-416-2003.md` bleibt Bringschu
 > änderbar — vorgelegt im Bericht `koordination/outputs/2026-07-25_wissens-chef-run15.md`.
 >
 > **Teuerungs-Check (12.07.2026):** Die Kalibrierung 2022/23 bleibt gültig — der BFS-Baupreisindex
-> (Stand April 2026 = 100.6 auf neuer Basis Okt-2025, +1.0 % YoY, moderat) ergibt eine kumulierte
+> (Stand April 2026 = 100.6 auf neuer Basis Okt-2025, +1.0 % YoY, moderat; ⚠ 100.6 ist die Reihe
+> **Baugewerbe Total** — die für Wohnbau passende Reihe **Neubau MFH** steht bei 100.7, ebenfalls
+> +1.0 % YoY, materiell also ohne Folge; Reihenangabe nachgetragen 10.09.2026, Wissens-Chef
+> Lauf 57, Beleg `wissen/immobilienbewertung/wiki/realwert-sachwert.md` Teilindex-Tabelle, Regel
+> «nie mit dem Totalwert» in `wissen/immobilienbewertung/wiki/datenquellen-registry.md` Nr. 7) ergibt eine kumulierte
 > Bauteuerung seit Kalibrierung von nur ~2–3 %, weit innerhalb der ±25 %-Grobschätzungsspanne.
 > Aktueller Marktstand: `wissen/immobilienbewertung/wiki/investorenmarkt-makro`.
 

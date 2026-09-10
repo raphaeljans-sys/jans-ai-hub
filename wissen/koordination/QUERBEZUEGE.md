@@ -58,7 +58,7 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Der AHB-Korpus `PL - 02_Recht_Norm/04_Merkblaetter/Projektadmin AHB/` (Stadt Zuerich)** — er wird von ZWEI KBs bewirtschaftet, und das ist gewollt, aber bis Run 34 unbeschriftet | **geteilt nach Ebene:** `planungsgrundlagen` (`recht-norm-ahb-stadt-zuerich-projektstandards`, 1'439 Z., `established`) fuehrt den **Ordnerkontext, die Vertragsbindung an den AHB-Honorarvertrag und die Einordnung** je Dokument; `energie` fuehrt die **Detailwerte und den Bauherren-Transfer** in derzeit 25 Destillaten aus demselben Ordner | **NEU Run 34 (16.08.2026).** Anlass ist kein Widerspruch, sondern eine gemessene Kanten-Armut: von den 25 `energie`-Destillaten mit Quelle aus diesem Ordner ist **genau eines** in `planungsgrundlagen` genannt (Dachbegruenung, und das nur, weil Run 33 es gesetzt hat). Namentlich betroffen: die neun `ahb-zuerich-gt-rl1..9`-Destillate (`energie`, angelegt 03.08.2026, Run 122) gegen §12-§14 desselben pg-Artikels (⚠ berichtigt Run 48, 30.08.2026: hier stand «§12/§13»; RL7/RL8 liegen in §14 «Elektroanlagen, Beleuchtung») (angelegt 14.07., erweitert 25.07.2026) — **dieselben neun Quell-PDF, neun Tage auseinander, unabhaengig destilliert, null Kanten in beide Richtungen.** Dachbegruenung (Run 22/25/33), PCB-Fugendichtungsmassen (Run 34) und Raumtemperatur-Richtlinie (Run 34) sind Symptome desselben Musters, nicht Einzelfaelle. **Regel:** wer aus diesem Ordner destilliert, prueft ZUERST den pg-Artikel auf einen bestehenden Absatz und setzt die Kante in beide Richtungen |
 | **Fenster-Kennwerte Uw / Ug / g-Wert / Psi-Randverbund** | **energie** (`destillate/fenster-verglasung-uw-g-wert.md`, `established`) fuer Anforderungs- und Fachphysikseite; die **Grenzwerte** selbst kommen aus dem kantonalen Energierecht bzw. `normen` | `bauprodukte` fuehrt ausschliesslich **Produkt- und Systemwerte konkreter Hersteller** nach BKP 221 (z.B. Uw = 0,9 W/m²K als Produktwert eines bestimmten Systems) und **nie** Anforderungswerte — NEU Run 34 (16.08.2026). Anlass: `bkp-221-holzfenster-3fach-verglasung` ist der zweite Cross-KB-Pruefgegenstand zu Fenster-Kennwerten (nach Run 33), war beide Male sauber gehedgt und hatte trotzdem nie eine Matrixzeile. Der Artikel selbst trifft die Grenze richtig («der Uw-Wert, nicht der Ug-Wert, gehoert in den Energienachweis SIA 380/1») |
 | **Der Quellordner `PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Energie/`** (Vollzugsordner Energie ZH, WDV 2009/2022, Vollzugshilfen EN) | **energie** — erschliesst den Ordner seit 17.08.2026 mit vier Destillaten (`vollzugsordner-energie-zh-abschnitt1-2`, `waermedaemmvorschriften-zh-2022`, `waermedaemmvorschriften-zh-2009-historisch` mit `status: superseded`, `vollzugshilfe-en10-heizungen-im-freien`) | `planungsgrundlagen` fuehrt den Ordner nur als Strukturzeile in `wiki/recht-norm-quellenlandkarte` und destilliert ihn **nicht** — NEU Run 35 (17.08.2026). **Abgrenzung, die den Anlass ausmacht:** die AHB-Fuehrungszeile aus Run 34 gilt fuer diesen Ordner **nicht**; sie deckt allein `04_Merkblaetter/Projektadmin AHB` ab. Von den fuenf am 17.08. geprueften Destillaten stammt nur `raumtemperatur-richtlinie-stadt-zuerich-2006` aus dem AHB-Ordner, und das ist beidseitig verdrahtet. Beide Richtungen sind seit Run 35 beschriftet |
-| **Zuercher Index der Wohnbaupreise (ZIW): Indexstand, Stuetzstellen und Umrechnungsfaktoren** | **grobkosten** (`wiki/kennwerte`, Abschnitt «Baupreisindex ZH») — fuehrt seit Run 16 (17.08.2026) den Stand **01.10.2025 = 116.1 Punkte**, direkt an der **Primaerquelle** Stadt Zuerich verifiziert statt ueber die HEV-SZ-Reproduktion | `immobilienbewertung` (`realwert-sachwert`) verweist dorthin und pflegt die Reihe nicht mehr parallel — NEU Run 35. Sie hing einen Publikationsschritt zurueck (01.04.2025 = 1210.4). **Nicht zu verwechseln** mit dem **BFS-Baupreisindex** (andere Basis, andere Methodik, andere Region): der ist in beiden KBs deckungsgleich (April 2026 = 100.6, Basis Okt-2025) und wird nirgends mit dem ZIW verrechnet — beide KBs tragen die Verwechslungswarnung bereits selbst. Die Tab.-2-Richtwerte in `realwert-sachwert` bleiben auf dem Faktor 1.346 gerechnet; die Umstellung verschoebe sie um ~0,3 % und gehoert in die regulaere Ueberarbeitung |
+| **Zuercher Index der Wohnbaupreise (ZIW): Indexstand, Stuetzstellen und Umrechnungsfaktoren** | **grobkosten** (`wiki/kennwerte`, Abschnitt «Baupreisindex ZH») — fuehrt seit Run 16 (17.08.2026) den Stand **01.10.2025 = 116.1 Punkte**, direkt an der **Primaerquelle** Stadt Zuerich verifiziert statt ueber die HEV-SZ-Reproduktion | `immobilienbewertung` (`realwert-sachwert`) verweist dorthin und pflegt die Reihe nicht mehr parallel — NEU Run 35. Sie hing einen Publikationsschritt zurueck (01.04.2025 = 1210.4). **Nicht zu verwechseln** mit dem **BFS-Baupreisindex** (andere Basis, andere Methodik, andere Region): der ist in beiden KBs deckungsgleich (April 2026 = 100.6, Basis Okt-2025; ⚠ Lauf 57: das ist die Reihe **Baugewerbe Total**, fuer Teuerung gilt die Bauwerksart, siehe Zeile «BFS-Baupreisindex» unten) und wird nirgends mit dem ZIW verrechnet — beide KBs tragen die Verwechslungswarnung bereits selbst. Die Tab.-2-Richtwerte in `realwert-sachwert` bleiben auf dem Faktor 1.346 gerechnet; die Umstellung verschoebe sie um ~0,3 % und gehoert in die regulaere Ueberarbeitung |
 | **Mehrfach-Destillation derselben Quell-PDF ueber KB-Grenzen** (gemessen auf Dateiebene, nur `wiki/`+`destillate/`+`buecher/`) | **kein einzelner Fuehrender — es ist eine Messgroesse.** Run 35 (17.08.2026): 33 Quell-PDF von ≥2 KBs destilliert, 38 KB-uebergreifende Paare, davon **2 verdrahtet, 36 nicht**. Cluster: pg↔normen 18 · pg↔energie 11 · energie↔normen 4 · immobilienbewertung↔normen 2 · baurecht↔normen 1 | **Regel:** wer aus einem Ordner destilliert, der bereits von einer anderen KB bedient wird, prueft zuerst deren Bestand und setzt die Kante in beide Richtungen. **Zwei Vorbehalte, ohne die die Zahl luegt:** (1) gemessen ist die Kante auf **Dokument**ebene — mehrere Artikel sind auf **KB**-Ebene sehr wohl verdrahtet (z.B. `energie-heizwaermebedarf-waermeerzeugerleistung` nennt die KB `energie` zweimal als fuehrend); der scharfe Fall ist `recht-norm-arbeitshilfen-planungsdetails` mit **null** Verweisen bei drei Doppel-Destillaten. (2) **Doppelbewirtschaftung ist nicht per se falsch** — falsch ist nur, sie nicht aufzuschreiben. Die Messung findet die Stellen; die Lektuere entscheidet. Abarbeitung clusterweise, ein Cluster je Lauf — NEU Run 35 |
 | **Mehrwertabgabe ZH: Satz, Ausloeser und Erhebungsvoraussetzung** (kant. MAG LS 700.9 §§ 2/4, kommunal § 19) | **baurecht** (`wiki/enteignung-und-entschaedigung.md`, Volltext-verifiziert 23.08.2026, Buch-Run 98: kantonal **fix 20 %**, nur Einzonung oder Umzonung-in-Zone-fuer-oeffentliche-Bauten; kommunal **bis 40 %** des um Fr. 100'000 gekuerzten Mehrwerts, nur bei Auf-/Umzonung und nur mit eigenem Gemeindereglement, Flaechenschwelle 1'200-2'000 m²) | `immobilienbewertung` (`wiki/residualwertmethode.md`) fuehrte bislang nur die generische Wuest-Kurs-Angabe «20-40 % Ermessen der Gemeinde» ohne Kanton-/Ausloeser-Unterscheidung — kein Sachwiderspruch (die Bandbreite deckt die ZH-Zahlen zufaellig ab), aber eine Praezisions-Luecke mit Rechenfolge: die beiden Saetze koennen nebeneinander, nur einer oder gar keiner greifen, je nach Zonierungsart. `machbarkeit`/`agents/wirtschaftlichkeit-rechner.md` (Residualwert-Motor Typ B) fuehren Mehrwertabgabe **gar nicht** — ungeprueft, ob das im Scope liegt (meist Ausnuetzung im Rahmen der geltenden Zone, nicht Um-/Aufzonung) — NEU 24.08.2026 (`wissen/koordination`, interaktive Pruefung, kein Scheduled Run). Querbezug in `residualwertmethode.md` gesetzt (additiv); `wirtschaftlichkeit-rechner` bewusst nicht angefasst, da Scope-Frage ungeklaert |
 | Bauten ausserhalb der Bauzone (RPG Art. 24c/37a, RPV Art. 41-43a) | **baurecht** | planungsgrundlagen (fuehrt nur Abgrenzungswissen, verweist fuer die Schwellen) |
@@ -183,8 +183,118 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Architekturtheorie-Begriffsapparate aus den ETH-Vorlesungsbestaenden** (Typus/Modell/Prototyp, Struktur/Huelle, Tektonik, Ornament, Stil, Ort, Materialitaet, Funktionsbegriff; Herkunft `02_Architekturtheorie` und `20_Rendering/Architektur III`) | **architektur-fachwissen** — Theorie, Quelle, Begriffsschaerfe | `entwurfs-referenzen` fuehrt die daraus **entwurfsverwertbare Regel je Bauaufgabe** und die Parameter-Sets (Zeile 27: kennwert- und bauaufgabengebunden) und verweist bei Bedarf dorthin. **Begruendung:** der Prinzipien-Ordner von `entwurfs-referenzen` ist laut eigenem `INDEX.md` aus Abfragen gegen `architekten-synobsis` gespeist, nicht als Universalanspruch auf Entwurfstheorie gesetzt; afw traegt in diesen Artikeln **keinen Kennwert und keine Bauaufgabe** und faellt damit nicht unter dessen Fuehrung. Ein Bestandes-Analyseraster (z.B. `gebaeudeanalyse-raster-bestandes-kontextanalyse`) beruehrt gar keine der fuenf ER-Domaenen — NEU Run 48 (30.08.2026) |
 | **Bildmaterial und Werkbestand zu einem Architekten** (welche Bauten liegen als Dateien vor) | **architekten-synobsis** (`catalog/<Slug>.json`) — und zwar als **reines Datei-Inventar** von `/Volumes/daten/05_Architekten_Synobsis`, **ohne** Theorie- oder Werkaussage | `architektur-fachwissen` fuehrt die begriffs- und theoriegeschichtliche Einordnung derselben Namen und schreibt **keinen Bestand** fort. **Wichtig:** die Verweispflicht «per Katalog/Slug» in Zeile 26 adressiert `entwurfs-referenzen`; afw erbt daraus **keine** Verweispflicht (Zeile 176 zaehlt afws Verweisziele abschliessend auf, Referenz-Architekten stehen dort nicht). **Und: ein Katalogeintrag ist keine Deckung** — Run 48 mass fuer 5 von 9 im Artikel `tessiner-tendenza-…` genannten Architekten einen leeren oder fehlenden Eintrag zu genau den genannten Bauten. Vor jedem Sammelverweis den Katalog oeffnen, nicht die Namensliste — NEU Run 48 (30.08.2026) |
 | **Register der Cross-KB-Kanten** (wo wird festgehalten, dass Artikel A einer anderen KB von Artikel B abhaengt) | **`koordination/QUERBEZUEGE.md`** — plus der Fassungs-/Warnblock im Artikeltext selbst, der beim Lesen wirkt | **NICHT das `links:`-Frontmatter.** Das Schema `wissen/WISSEN-CLAUDE.md` Z. 50/60-61 definiert `links:` ausschliesslich als `[[artikel-name]]` auf einen anderen Wiki-Artikel **derselben** KB, und Pruefung B des Skills `wissenscheck` validiert genau das. Hub-weit tragen rund 7 von 272 Artikeln einen KB-Pfad im `links:`-Feld; 3 davon entstanden in **Run 47** und wurden in Run 48 von einem Melder faelschlich als Hauskonvention gelesen und zur Ausweitung auf vier weitere Dateien vorgeschlagen. **Regel daraus: ein Aufsichtslauf darf seinen eigenen Eingriff vom Vortag nicht als Konvention messen** — die Konvention steht im Schema, nicht im letzten Diff. Schema-Entscheid offen: `architektur-fachwissen/wiki/QUESTIONS.md` #64 (260830b) — NEU Run 48 (30.08.2026) |
+| **BFS-Baupreisindex Schweiz: Teilindizes je Bauwerksart** (Hochbau, Neubau, Neubau MFH, Baugewerbe Total; Basis, Stichtag, Rebasierung Okt. 2020 → Okt. 2025) | **immobilienbewertung** (`wiki/realwert-sachwert`, Teilindex-Tabelle, direkt an der BFS-Indexseite abgelesen 23.08.2026; Nutzungsregel 7 in `wiki/datenquellen-registry`: «nie mit dem Totalwert») | `grobkosten` fuehrt die **ZIW-Faktoren** Region Zuerich (Zeile oben) und nutzt den BFS-Wert nur als Teuerungs-Check; `skills/machbarkeit/wissensbasis/02_kennwerte-kosten.md` verweist fuer beide dorthin (seit Lauf 57). **Zwei Fallen, beide am 10.09.2026 gemessen:** (1) der BFS-Wert **100.6** ist Baugewerbe Total, Hochbau steht bei 100.5, Neubau MFH bei 100.7 — die ZIW-Zeile oben fuehrte 100.6 ohne Reihe; (2) ein Indexstand ohne **Basisangabe** ist gefaehrlich: machbarkeit fuehrte «Hochbau Okt. 2023 = 114.8» (Basis Okt. 2020) ohne Basis, gegen den heutigen Stand auf Basis Okt. 2025 verrechnet ergaebe das eine scheinbare Deflation von rund 12 % — NEU Lauf 57 (10.09.2026), die Fuehrung war nirgends festgelegt und ist hier nach dem **de-facto-Bestand** gesetzt, nicht neu verteilt |
 
 ## Gepruefte Paare
+
+### energie ↔ baurecht (F291 — Verfahrensart energetischer Sanierungen ZH) — geprueft 2026-09-10 (Lauf 57), BESTAETIGT, ⚠-ABSATZ + RUECKLAUF GESETZT
+
+- **WC57-1 ⭐.** `energie/wiki/BAUHERREN-FAQ.md` **F291** (eroeffnet Run 189, ergaenzt durch die
+  Nachtschicht 09./10.09.) riet der Bauherrschaft fuer Hüllensanierungen, «weiter mit dem
+  ordentlichen Verfahren» zu rechnen, und stellte bei einer kuenftigen Umsetzung von Art. 18a
+  Abs. 2 lit. a RPG «mehrere Monate» Ersparnis in Aussicht. Fuer **ZH** falsch: **§ 325a PBG**
+  weist energetische Sanierungen der Gebaeudehuelle dem **Anzeigeverfahren** zu (amtlicher
+  Volltext `baurecht/raw/260607_amtlich_zh_pbg.md`, Fassung 1.7.2026; `baurecht/wiki/baubewilligungsverfahren.md`
+  `established`/CONFIRMED; Anzeigeverfahren ohne Aussteckung/Auflage, Behandlungsfrist 30 Tage).
+- **Der Widerspruch lag auch KB-intern:** `energie/wiki/energienachweis-zh.md` fuehrt den
+  § 325a-Querbezug seit langem ausdruecklich, die ganze FAQ nennt «Anzeigeverfahren» nirgends
+  (grep 0, Gegenprobe «ordentlich» 17). Die Recherche zu E-R189-1 stuetzte sich auf den
+  politischen Vorstoss und las den eigenen Wegweiser nicht.
+- **Aktion:** ⚠-Absatz in F291 (Transfer-Satz unangetastet, Umformulierung dem naechsten
+  energie-Lauf ueberlassen); Rücklauf an `baurecht/wiki/QUESTIONS.md` (E-E189-1: «Offen» ueberholt,
+  ZH/SZ beantwortet, Art. 24 Abs. 2 RPG offen). **Neu offen bei baurecht:** Verfahrensart
+  energetischer Hüllensanierungen in **SZ** (kein Beleg im Hub). Beide CHANGELOGs protokolliert.
+- **Nullbefund daneben:** Postulat KR-Nr. 17/2026 in raw, energie und planungsgrundlagen
+  wortgleich; die Bringschuld an `planungsgrundlagen` ist angekommen; KR 87/88 2024 durch
+  KR 17/2026 weder ueberholt noch widerspruechlich. **Status: korrigiert (additiv), SZ offen.**
+
+### planungsgrundlagen ↔ energie (Run-190-Berichtigung halb nachgezogen) — geprueft 2026-09-10 (Lauf 57), BESTAETIGT MIT ANDEREM ZUSCHNITT, ANGEGLICHEN
+
+- **WC57-3.** `energie` Run 190 hat in `planungsgrundlagen/wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md`
+  die Tabellenzeilen und eine Fussnote ¹ gesetzt: die Grenzwert/Zielwert-Tabelle ist **Tab. 6.2
+  eines Bauphysik-Lehrbuchs**, nicht SIA 380/1 Tab. 24. Die **Bildunterschrift** direkt darunter
+  blieb im Diff unveraenderter Kontext («Tabelle 24, bezogen auf Energiebezugsflächen-Zahl»),
+  ebenso die Datenstand-Zeile und die Quellenklammer. Der Artikel widersprach sich selbst.
+  **Anderer Zuschnitt als gemeldet:** die Ueberschrift «Tab. 24/25» ist richtig (Kategorien = 24,
+  Standardnutzungswerte = 25). Werte gegen `energie/destillate/bauphysik-heizwaermebedarf-kennwerte.md`
+  geprueft, unveraendert. Bildunterschrift berichtigt (alter Wortlaut vermerkt), zwei Nachtraege.
+- **Nullbefund:** der korrigierte Tab.-25-Spitalwert lebt hubweit nirgends in alter Form weiter
+  (normen, grobkosten, Skills grep-leer). **Status: angeglichen.**
+
+### projekt-lessons ↔ normen ↔ energie (KISPI Bodenanschluss, SIA 181 Anhang G) — geprueft 2026-09-10 (Lauf 57, Rotation), 1 BESTAETIGT, 1 ANDERER ZUSCHNITT, 1 WIDERLEGT
+
+- **WC57-4.** Der neue Report `projekt-lessons/outputs/2026-09-10_kispi-bodenanschluss-…` trug ein
+  `links:`-Feld (zwei Report-Ziele, eines in `grobkosten`, loeste nicht auf) — gegen
+  `WISSEN-CLAUDE.md` Z. 60-66, zwei Tage nach dem Praezedenzfall PL46-2 in derselben KB.
+  In den Body **verschoben**, nicht gestrichen.
+- **WC57-5.** Lehre 3 («SIA 181 setzt innerhalb der Nutzungseinheit keine Anforderung, 35 dB ist
+  Projektvorgabe») ohne Ausgabe und ohne Zeiger. **Gewichtiger als gemeldet:** der Hub fuehrt aus
+  SIA 181:2006 Anhang G fuer Spital, Korridor zu Zimmer, **D_i 35 dB (Stufe 2)** — zahlengleich mit
+  dem Projektwert (`energie/destillate/sia-181-schallschutz-anforderungswerte.md`, sekundaer), und
+  `energie/wiki/schallschutz-sia181.md` fordert fuer Spitaeler ein Pflichtenheft auf diesem Niveau
+  mit Warnhinweis KISPI. Der Melder schlug das abgeloeste 2006er-Destillat als Hauptbeleg vor —
+  korrigiert auf `normen/destillate/sia-181-2020-faq.md`. Offene Bezugsgroessen-Frage D_i/Rw als
+  **PL57-1**, Destillat-Kandidat Anhang G als **WC57-N2** in `normen`.
+- **Widerlegt:** fehlende Kante Bodenheizung → `bauprodukte/wiki/bkp-281-estrich-systeme.md` (der
+  Report dimensioniert keinen Estrich; der Artikel stuft seine DIN-Werte fuer CH-LV selbst herab).
+- **Nullbefunde:** VKF-Anerkennungsnummern 26347/14937/25973 drei getrennte Produkte; auflagebereinigung
+  QUESTIONS +18 (Thalwil, eBaugesuche) ohne KISPI-Bezug. **Status: nachgetragen.**
+
+### normen ↔ auflagebereinigung (SN EN 62368-1) + Norm-Rueckkanal als Bestandsstichprobe — geprueft 2026-09-10 (Lauf 57), ANDERER ZUSCHNITT, VORBEHALT + FRAGE GESETZT
+
+- **Methodenumstellung aus Lauf 56 erstmals gefahren:** Bestand statt Zuwachs, Stichprobe
+  `projekt-lessons` + `auflagebereinigung` + `kunde-bopp` (wiki/ und outputs/). Ergebnis: zwoelf
+  materiell zitierte Normen, zehn im Register konsistent, **eine** echte Fassungsdivergenz,
+  **eine** Meldung widerlegt (SN EN 13501-1: die angeblich offene Frage ist das geschlossene
+  N59-1, materiell ueber die BRL-13-15-Destillate gedeckt). `kunde-bopp`: null Norm-Zitate.
+  **Aussage:** auch im Bestand ist der Rueckkanal duenn, aber nicht leer — die Methode taugt.
+- **WC57-6.** `auflagebereinigung/outputs/2026-07-31_moeblierung-fluchtweg-srz-praxis.md` Z. 51
+  «gilt SN EN IEC 62368-1:2020+A11:2020» (SRZ-Angabe) gegen VKF-BRL 14-15 (2017, Ziff. 5.3):
+  Ausgabe **2014** als eine von **drei** Alternativen. **Nicht «normen veraltet»**, wie gemeldet —
+  normen gibt die datierte VKF-Verweisung korrekt wieder. Fassungsvorbehalt + Zeiger auf drei
+  normen-Destillate im Report gesetzt; Frage **WC57-N1** in `normen`. **Status: offen bei normen.**
+
+### normen ↔ Skill brandschutz ↔ planungsgrundlagen (N83-1 Konsumenten) — geprueft 2026-09-10 (Lauf 57), ANDERER ZUSCHNITT, LISTE NACHGETRAGEN
+
+- **WC57-7.** N83-1 (17 Dateinamen `vkf-brl-` statt `vkf-bse-`) war mit «samt Verweisen» vorgelegt,
+  ohne die Verweise zu nennen. Gemessen: **vier** der 17 Namen sind ausserhalb von `normen` fest
+  verlinkt (`skills/brandschutz/SKILL.md` 3×, `planungsgrundlagen` Wegweiser 3× inkl. Wikilink,
+  QUESTIONS 2×). Der Melder zaehlte `vkf-brl-10-15` (BSR, keine 100er-Reihe) faelschlich mit und
+  uebersah `planungsgrundlagen/wiki/QUESTIONS.md`. Konsumentenliste an N83-1 nachgetragen; der
+  Umbenennungsentscheid bleibt bei Raphael. **Nullbefunde Run-83-Nachlauf:** kein Konsument
+  zitiert ≤/≥-Schwellen aus SIA 162/051 A1; Typ-C-Vermerk an `vkf-brandschutznorm-2015` ist
+  Entwarnung ohne betroffenen Konsumenten. **Status: Entscheidungsgrundlage vervollstaendigt.**
+
+### machbarkeit ↔ grobkosten ↔ immobilienbewertung (BFS-Baupreisindex) — geprueft 2026-09-10 (Lauf 57), ANDERER ZUSCHNITT, ZEIGER + MATRIXZEILE
+
+- **WC57-8.** `skills/machbarkeit/wissensbasis/02_kennwerte-kosten.md` fuehrte «Baupreisindex
+  Hochbau Okt. 2023 = 114.8» **ohne Basis** (Wert korrekt, Basis Okt. 2020) und in der
+  Quellen-Hierarchie keinen Zeiger. **Nicht VERALTET**, wie gemeldet; der Melder nannte zudem
+  einen falschen Anker und `grobkosten` als fuehrend, was die Matrix nicht deckte. Eigenbefund
+  des Verifikators: die ZIW-Zeile und `grobkosten/wiki/kennwerte.md` fuehrten 100.6 ohne Reihe
+  (Baugewerbe Total) gegen die Nutzungsregel 7. Alles additiv nachgetragen, neue Matrixzeile nach
+  dem de-facto-Bestand. **Status: verlinkt.**
+
+### twin intern + claude-code ↔ skills/logbuch — geprueft 2026-09-10 (Lauf 57), 2× ANDERER ZUSCHNITT
+
+- **WC57-9 (twin intern, vorgelegt).** Batch 118 widerlegt die Wrapper-Klassen als Autor-Signal;
+  im Wiki (`arbeitsweise.md` Geraete-Trennung Batch 116), in `CLAUDE.md` (vier operative Stellen),
+  in `stimme.md` (Gold C) und am Erledigt-Vermerk 260814b #2 nicht nachgezogen. **Kein
+  Cross-KB-Befund**, deshalb nur als Block **260910c** in `twin/wiki/QUESTIONS.md` vorgelegt;
+  Facetten-Artikel nicht angefasst (Auto-Block 33'987 B gegen 34'000 B).
+- **WC57-10.** Die Arbeitsregel «zweimal suchen, Person und Sache» aus
+  `claude-code/outputs/2026-09-10_enge-suche-…` stand nur im Report. **Anderer Zuschnitt:**
+  keine fehlende Wiki-Kante (INDEX fuehrt nie Outputs), sondern ein fehlender Ruecklauf in den
+  konsumierenden Skill. Querverweis in `skills/logbuch/SKILL.md` gesetzt.
+- **Nullbefunde:** die vier neuen Kontakte aus Batch 118 (Wuersch Du, Steiger/Bajrami/Gantenbein
+  Sie) sind korrekt nur als Frage vorgelegt, nicht in die Rule geschrieben; drei Streichungen in
+  `rules/jans-dna-facetten.md` stichprobenartig im Artikel wiedergefunden.
+- **Instrumentenbefund:** Audit B prueft Backlinks nur in `wiki/`; seit dem 08.09.2026 soll ein
+  `links:`-Feld in `outputs/` unter **Audit F** (Schreibregel-Verstoss) auffallen
+  (`skills/wissenscheck/SKILL.md`, Klarstellung PL46-2). Der letzte `claude-code`-Health-Check
+  (01.09.) lag davor; dort zeigen drei von acht Reports ins Leere (`[[hub-betrieb-runner]]` seit
+  01.08./06.08.), und der KISPI-Report vom 10.09. zeigt, dass die Klarstellung beim Schreiben
+  noch nicht greift. Naechster Monats-Check wird es zeigen — kein Eingriff, Bezug SYN-82.
 
 ### baurecht ↔ energie (RPG 2 / Art. 18a Solarrecht) — geprueft 2026-09-08 (Lauf 55), TEILSTAND KORRIGIERT, 2 Stellen GESETZT
 

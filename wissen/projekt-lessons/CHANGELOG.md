@@ -2,6 +2,16 @@
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 
+## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — KISPI-Bodenanschluss: Frontmatter-Links verschoben, SIA-181-Fundstelle und Anhang-G-Kante nachgetragen
+- `outputs/2026-09-10_kispi-bodenanschluss-innere-verglasung-schall-bodenheizung.md`: das
+  Feld `links:` (zwei Verweise auf Reports, einer davon in `wissen/grobkosten`, löste nicht auf)
+  in einen Schwester-Report-Block im Befund **verschoben**, nicht gestrichen; Grundlage
+  `wissen/WISSEN-CLAUDE.md` Z. 60-66 und Präzedenzfall PL46-2 (08.09.2026).
+- Lehre 3 um Fundstelle SIA 181:2020 Ziff. 0.1.2 (→ `wissen/normen`) und die Kante zu den
+  Anhang-G-Empfehlungen in `wissen/energie` ergänzt: Spital Korridor zu Zimmer D_i 35 dB
+  (Stufe 2) ist zahlengleich mit dem Projektwert. Offene Bezugsgrössen-Frage als **PL57-1** in
+  `wiki/QUESTIONS.md`. Aussage der Lehre selbst unverändert.
+
 ## 2026-09-10 — Output: Bodenanschluss innere Verglasung EI30 auf Heizestrich (2619 KISPI)
 - Neuer Report `outputs/2026-09-10_kispi-bodenanschluss-innere-verglasung-schall-bodenheizung.md`: Belegsammlung Bestandsdetail Jegen ID411.288, Umbau-Werkplaene, Bodenaufbau Steger (16x2, VA 200, Su 69 mm), Schallwerte der Elemente; Lehre zum Suchweg (lokaler Spiegel Rubrik 70 statt DS3-Suche).
 

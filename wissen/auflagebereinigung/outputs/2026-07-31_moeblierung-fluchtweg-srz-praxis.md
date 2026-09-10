@@ -50,6 +50,16 @@ Produkte routinemässig mit DIN-Klassierung anbieten. Die Prüfung der Nachweise
 
 Für Einrichtungen der Informationstechnik gilt **SN EN IEC 62368-1:2020+A11:2020**.
 
+> ⚠ **Vorbehalt Fassung (Nachtrag Wissens-Chef Lauf 57, 10.09.2026):** die Ausgabe 2020 ist hier
+> als Angabe der SRZ belegt, nicht als VKF-Verweisung. Die geltende VKF-BRL 14-15 (Fassung
+> 01.01.2017, Ziff. 5.3) nennt für Anlagen in Fluchtwegen **drei zulässige Alternativen**, darunter
+> SN EN 62368-1:**2014** (`wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md`). Fundstelle
+> und Fassungsstand führt die KB `normen`; die offene Fassungsfrage steht dort in
+> `wiki/QUESTIONS.md` (WC57, SN EN 62368-1). Die übrigen Normbezüge dieses Reports sind in
+> `normen` destilliert: VKF BSR 16-15 Ziff. 2.2 (`destillate/vkf-brl-16-15-flucht-rettungswege.md`,
+> inhaltlich deckungsgleich) und die Klassierung nach SN EN 13501-1
+> (`destillate/vkf-brl-13-15-baustoffe-bauteile.md`).
+
 ## Grundsatz
 
 Fluchtwege sind jederzeit frei und sicher begehbar zu halten. Sie dürfen **ausserhalb der

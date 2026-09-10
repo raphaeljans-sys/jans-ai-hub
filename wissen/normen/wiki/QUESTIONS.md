@@ -35,6 +35,42 @@ eine ausdrückliche Anmerkung zum Titel. Falsch ist allein das Dateinamen-Präfi
 (Rule `wissens-bibliothekar`, Ziff. 4). Die Frage an Raphael ist, ob die Namens-Altlast
 bereinigt werden soll oder ob der korrekte Inhalt genügt.
 
+**Nachtrag Wissens-Chef Lauf 57 (10.09.2026) — Konsumenten ausserhalb dieser KB, als
+Entscheidungsgrundlage.** Vier der 17 Dateinamen sind ausserhalb von `normen` fest verlinkt:
+`vkf-brl-100-15-brandmauern`, `vkf-brl-103-15-cheminees`, `vkf-brl-104-15-fassung-2022-delta`,
+`vkf-brl-108-15-fassung-2020-delta`. **Lebende Verweise** (bei einer Umbenennung im selben Zug
+nachzuziehen): `skills/brandschutz/SKILL.md` Z. 63, 64, 112 ·
+`wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md` Z. 2023, 2337, 2427 (dort als
+`[[wikilink]]`) · `wissen/planungsgrundlagen/wiki/QUESTIONS.md` Z. 72, 1498. **Datierte
+Prüfvermerke ohne Nachführungspflicht:** `wissen/koordination/QUERBEZUEGE.md`,
+`wissen/koordination/SYNERGIE-REGISTER.md`, `wissen/koordination/outputs/2026-08-20_wissens-chef-run38.md`,
+`wissen/planungsgrundlagen/CHANGELOG.md`. Nicht betroffen sind die Verweise auf
+`vkf-brl-10-15-*` (BSR «Begriffe», keine 100er-Reihe). Gemessen per `grep -rlE
+'vkf-brl-10[0-8]-15'` über `skills`, `agents`, `commands`, `rules` und alle KBs ausser `normen`.
+Der Entscheid über die Umbenennung bleibt offen.
+
+### WC57-N1 — SN EN 62368-1: datierte VKF-Verweisung 2014 gegen die von SRZ genannte Ausgabe 2020 (Eingang Wissens-Chef Lauf 57, 10.09.2026)
+
+Die geltende **VKF-BRL 14-15** (Fassung 01.01.2017, Ziff. 5.3) verweist für Brandmelde-,
+Gegensprech- und Videoanlagen in Fluchtwegen auf drei alternative Normen, darunter
+**SN EN 62368-1:2014** (`destillate/vkf-brl-verwendung-baustoffe.md`; ebenso
+`destillate/vkf-ah-1001-15-wohnbauten.md`). Die Feuerpolizei Schutz & Rettung Zürich nennt im
+Beleg vom 30.07.2026 **SN EN IEC 62368-1:2020+A11:2020** (Fall 2619 KISPI,
+`wissen/auflagebereinigung/outputs/2026-07-31_moeblierung-fluchtweg-srz-praxis.md`, dort mit
+Fassungsvorbehalt versehen). Offen ist, ob eine VKF-FAQ oder ein Stand-der-Technik-Papier die
+Verweisung nachführt oder ob SRZ schlicht die aktuelle Ausgabe anwendet. Das `REGISTER.md` führt
+62368-1 bisher gar nicht. **Erst nach Klärung** eine Registerzeile mit Herausgeber-Beleg anlegen
+(Führungsmatrix `wissen/koordination/QUERBEZUEGE.md`, Zeile «Gültigkeits-/Fassungsstand»).
+
+### WC57-N2 — SIA 181:2006 Anhang G (Empfehlungen innerhalb der Nutzungseinheit) ist im Bedarfsfall (Eingang Wissens-Chef Lauf 57)
+
+`destillate/sia-181-2020-faq.md` verweist für Ziff. 0.1.2 auf Anhang G der Ausgabe 2006, und
+`destillate/sia-181-2006.md` dokumentiert ihn als nicht gelesen. Seit dem 10.09.2026 hängt ein
+KISPI-Fall daran (Planlegende «EI30 / 35dB», `wissen/projekt-lessons/wiki/QUESTIONS.md` PL57-1);
+der einzige Zahlenbestand im Hub ist sekundär (`wissen/energie/destillate/sia-181-schallschutz-anforderungswerte.md`,
+Büro-Zusammenfassung: Spital Korridor zu Zimmer D_i 30/35 dB). Kandidat für ein Destillat am
+Original-PDF `181_2006_d.pdf`.
+
 ### N83-2 — 52 Destillate führen ≤/≥-Werte, deren Quelle diese Zeichen nicht kodiert
 
 Mechanik-unabhängige Risikokarte (Tabelle in `training/n83-quellenaufloesung-260910.md`): bei

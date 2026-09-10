@@ -2,6 +2,26 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-09-10 (Nachtschicht Mac Mini, Cross-KB-Diff E-R190-2) — Wände-Katalogspanne im Bauteilekatalog-Abschnitt berichtigt
+
+Fortsetzung des in `energie` Run 190 vorgeschlagenen Folgeauftrags: Doppel-Abschriften derselben
+PL-04-Scans zwischen `energie` und `planungsgrundlagen` gegeneinander diffen, ohne das Original
+zu oeffnen (billig, weil beide KBs unabhaengig voneinander abgeschrieben haben). Sechs Quellenpaare
+geprueft (`_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf`, `U-Wert_Gebäudehülle.pdf`,
+`Betriebsenergie.pdf`, `U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf`, `VoHi_EN02_de.pdf`,
+`2001_2005_d.pdf`/`Energienachweis 380-1 Muster.pdf` stichprobenartig): fuenf ohne Befund
+(Zahlenwerte, Prozentsaetze und Kontrollwerte in beiden KBs deckungsgleich), einer mit echtem
+Delta. Dieser Artikel fuehrte den BFE-Bauteilekatalog-Abschnitt (§5) mit der Wandkatalog-Spanne
+**«Wände W1-W7i»** — die eigene `energie`-Abschrift derselben Quelle
+(`wissen/energie/destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md`) fuehrt die
+Kapitelueberschrift selbst als **«4.1.2 Waende W1–W26»** und dokumentiert zusaetzlich zur
+Aussendaemmung (W1-W8i) auch **Kerndaemmung zweischalig (W9-W12)** und **Innendaemmung gegen
+unbeheizte Raeume (W25/W26)** — zwei ganze Kategorien, die hier fehlten. Berichtigt in §5 und im
+Frontmatter (`last_updated`); Bring-Schuld-Vermerk am Original nicht noetig (Cross-KB-Diff ohne
+PDF-Zugriff, Methode aus `wissen/energie/wiki/QUESTIONS.md` E-R190-2). Weitere Quellenpaare
+(`clt/`-Dokumentation, `Auswahl_Waermedaemmstoffe.docx`) nicht geprueft, kein zweites KB fuehrt
+sie ab.
+
 ## 2026-09-10 (Wissens-Chef Lauf 57, Cross-KB) — die Run-190-Berichtigung war im selben Artikel nur halb nachgezogen
 
 `wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md`: die Fussnote ¹ aus `energie` Run 190

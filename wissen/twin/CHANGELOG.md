@@ -4,6 +4,15 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-10 (Wissens-Chef Lauf 57, active-with-flagging) — Batch-118-Widerlegung im Wiki nicht nachgezogen, vorgelegt
+
+- `wiki/QUESTIONS.md` Block **260910c** (nur angefügt): die Methodenkorrektur aus Batch 118
+  (Wrapper-Klassen zeigen den Kanal, nicht den Autor) steht nur im `raw/` und im Ingest-Register;
+  `wiki/arbeitsweise.md` (Abschnitt Geräte-Trennung, Batch 116), `CLAUDE.md` (vier Stellen
+  operativen Gebrauchs), `wiki/stimme.md` (Fidelity 260909b, Gold C) und der Erledigt-Vermerk
+  260814b #2 tragen den alten Stand. Keine Facetten- oder CLAUDE.md-Datei angefasst (Auto-Block,
+  Reserve rund 13 B, gemessen 10.09.2026: 33'987 B gegen 34'000 B).
+
 ## 2026-09-10 (Synergie-Lauf 33, active-with-flagging) — zwei Satzbau-Artefakte der Verdichtung repariert
 
 Die Verdichtung des Fidelity-Reviews vom 10.09. (708 B) hat im Do/Don't-Block zwei Saetze
