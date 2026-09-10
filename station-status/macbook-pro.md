@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 10.09.2026 19:57:13
+Stand: 10.09.2026 20:07:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 19:57:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b39a19efd projekt-lessons: Output Bodenanschluss innere Verglasung EI30 KISPI (260910)
+- 8dca1cd41 nas-selfcommit: 1 Datei(en) 2026-09-10 20:00

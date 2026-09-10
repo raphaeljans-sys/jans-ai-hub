@@ -4,7 +4,6 @@ status: established
 last_updated: 2026-09-10
 sources:
   - "Jegen AG, Werkplan ID411.288_1.OG_Sek.30_FB4 «Festverglasung Cristallo EI30», 09.08.2023, Detail D-D/E-E (KISPI-Dokumente, 70 Unternehmerdokumentation, LOS_274.01 Innere Verglasungen Sued, 08_Pläne Unternehmer/02_Ausführungspläne/Paket 033_01_30_FB4_EI30)"
-  - "Jegen AG, Werkplan 01.0.300.1_S1_1.OG_10 «Tor EI30 Grandissimo Glisse», Index B 17.07.2026, Detail B-B (KISPI-Dokumente, 2 Umbauprojekt Neu PPTS BKP, LOS_271.10 Gipserarbeiten ESTERMANN/271.10 08 Korrespondenz/260825 Ausführungspläne LBW)"
   - "Jegen AG, Offerte O-91161-01.1 vom 23.06.2026, BKP 274.01 Innere Verglasungen (Umbau 2026), Vorbemerkungen"
   - "Steger AG, Ausführungsplan Fussbodenheizung Grundriss 1.OG Sektor 41 (AF_FBH_OG1_S_41.pdf) und FBH-Berechnung OG1 (FBH_Berechnung_OG1_S_AB/CD.pdf), 70 Unternehmerdokumentation, LOS_242.11_Heizung Kälte Sued/08_Pläne Unternehmer/1.1d Fussbodenheizung/03 O1"
   - "Schallmessprotokolle LOS_274.01 (ift Rosenheim Prüfbericht 163 33437/Z04 PLANLINE F30; Jegen System LBW mit Dilatationsprofil, Messblatt N03 vom 20.01.2023)"
@@ -34,8 +33,10 @@ VKF Nr. 26347, Brandschutzglas Monoscheibe 22 mm, Rw 30 dB (Planangabe).
 Offerte O-91161-01.1, Vorbemerkung: «Einzeichnen der Bohrungen fuer die Befestigung auf die
 Betonplatte (Bodenheizung) ist eine bauseitige Leistung». Jegen plant also selbst die
 Befestigung durch den Estrich in die Decke; das Einmessen der Heizrohre liegt bei JANS.
-Werkplan S1 Glisse (Schiebetor EI30): Bodenfuehrung auf dem Boden aufgesetzt, 4 mm Luft
-unter dem Torblatt, keine Bodendichtung gezeichnet.
+Das Schiebetor S1 Glisse (EI30, Wandtasche) gehoert NICHT in die Schallbetrachtung: es steht
+im Normalbetrieb offen in der Wandtasche und schliesst nur im Brandfall den horizontalen
+Fluchtweg (Vorgabe Raphael 10.09.2026). Es traegt nichts zur akustischen Trennung bei und ist
+fuer die Frage Korridor/Aufenthalt irrelevant.
 Schallwerte der Umbau-Werkplaene (BIK-Satz): Tuerblatt VL 68 Rw 35 dB, Brandschutzglas
 Monoscheibe 24 mm Rw 40 dB, VSG Weissglas 16.7 mm Rw 35 dB, Bruestungselement EI30
 VKF 14937 Rw 39 dB (System LBW, gemessen 39 dB, Messblatt N03). Architektenplan-Legende
