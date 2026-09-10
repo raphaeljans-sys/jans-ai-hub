@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 10.09.2026 07:41:57
+Stand: 10.09.2026 07:52:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 10.09.2026 07:41:57
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 42216ae6d nas-selfcommit: 3 Datei(en) 2026-09-10 07:30
+- 4abb551a6 ag-gruendung-monitor: Scan 10.09.2026 — Status P1 unverändert, 27 Tage überfällig
