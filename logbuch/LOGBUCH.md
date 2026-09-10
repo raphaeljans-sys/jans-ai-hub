@@ -12318,3 +12318,36 @@ Tatsache mit Termin/Geld/Kunde-Bezug ueber das bereits Dokumentierte hinaus) —
 selbst liegt hier zur naechsten Durchsicht bereit, insbesondere Punkt 01 und 02.
 
 Budget rund 0.35 von 5 USD (kumuliert mit dem 05:3x-Lauf desselben Tages). Zyklus sauber beendet.
+
+## 2026-09-10 22:5x Nachtschicht Mac Mini — energie/planungsgrundlagen: E-R190-2 fortgesetzt, ein Cross-KB-Delta gefunden
+
+Prioritaets-Check: remote-tasks/pending und sync-tasks/mac-mini leer. Synobsis Stufe 2 laut
+eigenem CHANGELOG (08.09.) bereits aktuell, kein Ziel. Fristen-Radar heute bereits zweimal
+gelaufen (05:3x, 13:33), M365-Connector diese Session nicht verbunden (CONNECTION_CLOSED) —
+ein dritter Radar-Lauf ohne Mail-Zugriff waere nicht sinnvoll. Freie Trainings-KBs bauprodukte/
+grobkosten laut eigener PROGRAMM.md/Inventar gesaettigt, energie heute bereits mehrfach bearbeitet
+(Run 190 Tageslauf, Wissens-Chef Lauf 57) — aber genau dessen eigener Folgeauftrag **E-R190-2**
+(`wissen/energie/wiki/QUESTIONS.md`) stand noch offen und passt gut zum Nachtschicht-Budget:
+Doppel-Abschriften derselben PL-04-Scans zwischen `energie` und `planungsgrundlagen` gegeneinander
+diffen, ohne Original noetig.
+
+Sechs Quellenpaare geprueft (ueber die in Run 190 selbst bereits behandelten Tab. 24/25 +
+Monatsbilanz hinaus): fuenf ohne Befund (Waermeerzeugerleistung-Broschuere, Grundsaetze-Reader,
+Graue-Energie-Faustregel, SIA-2001-Daemmstoffe, Enerhaus-Musterformular — Zahlenwerte/
+Prozentsaetze/Kontrollwerte in beiden KBs deckungsgleich). Ein echtes Delta: der BFE-
+Bauteilekatalog (`U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf`) fuehrt den
+Wandkatalog in der `energie`-Abschrift selbst als «4.1.2 Waende W1–W26» (inkl. Kerndaemmung
+W9-W12, Innendaemmung W25/W26); `planungsgrundlagen` hatte die Spanne verkuerzt als «Wände
+W1-W7i» (nur Aussendaemmung) gefuehrt. Dort berichtigt (§5 + Frontmatter,
+`wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md`), `energie`-Destillat selbst war
+korrekt und blieb unveraendert. E-R190-2 als teilweise erledigt markiert (Methode validiert:
+6 von 7 gepruefte Paare ohne Befund, 1 Delta — konsistent mit der Trefferquote aus Run 190
+selbst); zwei Restfelder (clt-Dokumentation, JANS-Notiz) bewusst nicht geprueft, kein zweites
+KB fuehrt sie.
+
+Geaendert: `wissen/energie/{wiki/QUESTIONS.md,CHANGELOG.md}`,
+`wissen/planungsgrundlagen/{wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md,CHANGELOG.md}`.
+
+Kein Sendegrund (reines Hub-Internum ohne Aussenwirkung, Rule 260803).
+
+Budget rund 0.7 von 5 USD. Zyklus sauber beendet.
