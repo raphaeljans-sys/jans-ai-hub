@@ -2821,3 +2821,65 @@ vorgemerkt. Belege: 0 Fehler ueber knapp 400 Woerter, `Apple-Mail-URLShareWrappe
 durchgehend, und die Hub-Chef-Selbstmail desselben Vormittags nennt unter «ERLEDIGT (autonom)»
 ausdruecklich die Pruefung genau dieser Offerte. **Nicht als Gold ziehen.** Der unbearbeitete
 Rest von Batch 65 ist auf weitere solche Stuecke zu pruefen.
+
+## Batch 118 (10.09.2026) — `rj@` Sent Items 08.09. 16:57 bis 09.09. 15:38 · **der technische Autor-Nachweis faellt**
+
+**Verarbeitet** in `wiki/` (je ein Abschnitt «Batch 118 (10.09.2026)» in [[stimme]],
+[[beziehungsregister]], [[arbeitsweise]], [[haltung]], [[denken]], [[fachsignatur]];
+[[QUESTIONS]] 260910 #1-#5) · Detailregister: `raw/260910-mailbatch-118.md`
+
+**Abgedeckt:** `Sent Items` **08.09.2026 16:57 bis 09.09.2026 15:38** (Ortszeit), alle 12
+Treffer gesichtet. Der Vorwaertsfaden bleibt ohne Luecke; das Fenster deckt einen einzigen,
+hoch belasteten Arbeitstag (Massfreigabe KISPI, Nachlieferung Feuerpolizei, Uebergabe Bopp).
+
+**Vorfilter (gratis, vor dem ersten `read_resource`):** 1 **Dublette aus Batch 117** (WG
+Rechnung 6378166, 08.09. 16:57) — **siebter Lauf in Folge**, in dem der Vorabgleich eine
+Doppel-Destillation verhindert hat; 2 Teams-Einladungen ohne eigenen Text (07:18, 09:17);
+1 Hub-Chef-Selbstmail `claude-aera` (08:59); 1 betrefflose Link-Weiterleitung ohne
+Begleitsatz (08:46). Der `twin-fidelity-review` 260909 hat Material vom 03.08. und 07.09.
+verbraucht, also keine Kollision.
+
+**Verbraucht — nicht erneut destillieren:** «Guten Morgen zusammen» KISPI-Samstag 19.09. mit
+Todo-Liste 10:58 · «Hoi Fabian» Bohrungen Unterzuege 10:24 · «Geschätzte Frau Steiger»
+eBaugesuche BE 2024.227 11:47 · «Geschätzter Herr Bajrami» Massaufnahme Drehtuere 14:19 ·
+«Geschätzter Herr Gantenbein» Nachlieferung Feuerpolizei 14:35 · «Hello Jens» Selbstnotiz
+«Dringend» 15:38 · Steinbruechelstrasse-Uebergabe an Bopp 14:58 (`claude-aera`, **nur
+Kontrolle**).
+
+**Kernbefunde:** (1) ⭐⭐ **Der technische Autor-Nachweis ist widerlegt.** Zwei Mails desselben
+Tages tragen **beide** HTML-Signaturen (`Apple-Mail-URLShareWrapperClass` **und**
+`ms-outlook-mobile-*`) — die eine zweifelsfrei Raphaels Hand, die andere zweifelsfrei Claude.
+Ursache: Raphael schreibt selbst in Apple Mail, und Claude versendet ueber Apple Mail. Damit
+faellt auch die zweite Stufe des Batch-116-Standards; Batch 117 hatte nur die
+`internetMessageId` abgestuft. **Es bleibt kein technischer Diskriminator** — die Gewichtung
+wird ab jetzt inhaltlich entschieden (Fehlerdichte, Satzbau, Du-Grossschreibungs-Bruch, Abgleich
+mit der «ERLEDIGT (autonom)»-Liste der Hub-Chef-Selbstmail des Tages). (2) ⭐ **Die
+Verb-Grossschreibung ist eine Betonung des handlungstragenden Worts, keine Bitten-Formel** —
+«Bitte», «Freigeben», «Positioniert» gross, an die Behoerde «bitte» klein; Traeger ist der
+Adressat der Handlung. (3) ⭐ **Terminkette rueckwaerts**, drei Daten mit Wochentag, Vorleistung
+als Zustand im Praesens. (4) ⭐ **Die Bringschuld des kranken Fachplaners wird uebernommen, nicht
+erklaert**, und der zweite Uebermittlungsweg still gelegt. (5) ⭐ **Begruendete Anweisung, dann
+Merksatz** («Alte Pläne bitte weg von der Baustelle.»). (6) ⭐ **Selbstadressierte Mail als
+Geraete-Zwischenspeicher** mit Betreff «Dringend», dazu **«Hello <Vorname>,» vor deutschem
+Text (Erstbeleg)**. (7) ⭐ **Vier neue Kontakte** — Würsch **Du**, Steiger/Bajrami/Gantenbein
+**Sie**: die **Rolle im Vorgang** entscheidet, nicht die Vertrautheit. (8) ⭐ **«Freundliche
+Grüsse» war an diesem Tag Geraete-Konstante, kein Registersignal** (5/5, auch in der Du-Mail).
+(9) **Bullets sind echtes Gold**, wenn sie eine Todo-Liste tragen (3. Beleg). (10) **Zwei
+Textsorten in einer Hand:** Fliesstext 15.4 W/Satz (117: 16.8, stabil), Todo-Zeile 29.3 W als
+Semikolon-Klammer. (11) **Fehlerdichte 5.2 je 100 W gegen 0** im Kontrollstueck — dritter
+Vergleich in Folge, gleiche Richtung; Tageswert doppelt so hoch wie am 08.09., hoechster
+Einzelwert 11.9 in der Selbstnotiz. (12) **«Herr Ziegel Jens»** aus der Outlook-Sortierform,
+beim Verkuerzen faellt der Nachname weg — gleicher Mechanismus wie «Herr Mustafa» (Batch 100).
+(13) **Verfahrensfund uebergeben an KB `wissen/auflagebereinigung`:** eBaugesuche ZH fuehrt
+Projektaenderungen im Stammgesuch, die Stadt Zürich verlangt ein neues Gesuch.
+(14) ⚠ **Werkzeugbefund:** beide `contentType: text`-Bodies kamen mitten im Satz abgeschnitten
+zurueck, die HTML-Bodies nicht — vor der Auswertung eines Plaintext-Golds die Laenge gegen
+`bodyPreview` gegenmessen, statt den Abbruch als Stilbefund zu lesen.
+
+**Naechstes Fenster:** (1) `rj@` **Sent Items ab 09.09.2026 15:38** Ortszeit (`afterDateTime`
+UTC `2026-09-09T13:38:00`), weiterhin `order: oldest`. (2) `Drafts` nur als **Zuwachs**
+(`order: newest`, Abgleich gegen dieses Register). (3) Die zwei reservierten
+Apple-Mail-Entwuerfe vom 24.03.2026. (4) Der unbearbeitete Rest von **Batch 65** (26 nur als
+IDs vorgemerkte Juli-Mails) ist auf `claude-aera`-Stuecke zu pruefen. (5) **Vorfilter-Standard
+neu:** die HTML-Klassen trennen **Kanal**, nicht Person — Gewichtung inhaltlich entscheiden
+(Befund 1).

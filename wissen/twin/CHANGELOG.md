@@ -4,6 +4,33 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-09-10 (twin-mail-training Batch 118) — der technische Autor-Nachweis faellt
+
+Fenster `rj@` **Sent Items 08.09.2026 16:57 bis 09.09.2026 15:38** (Ortszeit), 12 Treffer
+gesichtet, 6 Golds im Volltext (599 W, alle `authentisch`), 1 `claude-aera`-Kontrollstueck.
+Register: `raw/260910-mailbatch-118.md`; Vorfilter fing 1 Dublette (siebter Lauf in Folge),
+2 Teams-Einladungen, 1 Hub-Chef-Selbstmail und 1 Nulltext-Weiterleitung ab.
+
+**Geschrieben:** je ein Abschnitt «Batch 118 (10.09.2026)» in `wiki/stimme.md`,
+`wiki/beziehungsregister.md`, `wiki/arbeitsweise.md`, `wiki/haltung.md`, `wiki/denken.md`,
+`wiki/fachsignatur.md`; `wiki/QUESTIONS.md` 260910 #1-#5; `raw/_INGESTED.md` Batch 118;
+`last_updated: 2026-09-10` und `sources` in allen sechs Facetten nachgefuehrt.
+**Cross-KB-Bringschuld erfuellt:** Verfahrensfund eBaugesuche ZH (Projektaenderung ins
+Stammgesuch, abweichend von der Stadt Zürich) **uebergeben an KB `wissen/auflagebereinigung`**
+(Zeile in deren `wiki/QUESTIONS.md`, Rule `wissens-bibliothekar`).
+
+**Wichtigster Befund — eine Methodenkorrektur, kein Stilmarker:** die zweistufige
+Geraete-Trennung aus Batch 116/117 ist **widerlegt**. Zwei Mails desselben Tages tragen beide
+HTML-Signaturen (`Apple-Mail-URLShareWrapperClass` und `ms-outlook-mobile-*`), eine davon
+zweifelsfrei Raphaels Hand, die andere zweifelsfrei Claude — weil **beide** Wege durch Apple
+Mail laufen. Es bleibt kein technischer Diskriminator; die Gewichtung wird ab jetzt inhaltlich
+entschieden (Fehlerdichte, Satzbau, Du-Grossschreibungs-Bruch, Abgleich mit der Hub-Chef-
+Selbstmail des Tages). Weiter: die Verb-Grossschreibung ist eine **Betonung des
+handlungstragenden Worts** (nicht die Bitten-Formel, n = 8 praezisiert), «Freundliche Grüsse»
+war an diesem Tag eine **Geraete-Konstante** und kein Registersignal, vier neue Kontakte
+(Würsch **Du**; Steiger, Bajrami, Gantenbein **Sie**), Fliesstext stabil bei 15.4 W/Satz,
+Fehlerdichte 5.2 je 100 W gegen 0 im Kontrollstueck (dritter Vergleich in Folge).
+
 ## 2026-09-09 (twin-fidelity-review) — das Gehirn erbt die Imperative und laesst die Bedingungen zurueck
 
 Gesamt-Fidelity **25** (nach 27). Golds: `rj@` Sent 03.08.2026 12:46 «re-00100.pdf» (Zahlstelle,

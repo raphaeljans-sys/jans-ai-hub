@@ -6078,3 +6078,56 @@ Dateiname und Handlung einsetzen — statt jedes Mal neu zu formulieren?
 *Warum:* Er formuliert diese Gattung heute jedes Mal neu und verliert dabei zuverlaessig den
 Service-Satz und die nominale Bitte. Ein Baustein waere fehlerfrei und in Sekunden gesetzt;
 die Frage ist nur, ob Du das so willst oder ob Dir die Variation lieber ist.
+
+---
+
+## 260910 — nach Batch 118 (`rj@` Sent 08.09. 16:57 bis 09.09. 15:38)
+
+**#1 [Beziehungsregister] Fabian Würsch — darf er als Du-Kontakt in die Rule?**
+Am 09.09.2026 schreibst Du ihm «Hoi Fabian,» und durchgehend Du («Ich habe **Dir** den
+Übersichtsplan … zugesendet»). Er ist der vierte KISPI-Kontakt im Du, steht aber **nicht** in
+der Kontaktliste von `rules/anrede-kontakte.md`.
+*Konkret:* Darf ich eine Zeile fuer ihn aufnehmen — Funktion (Technischer Dienst KISPI?),
+Projekt 2619, Anrede Du? Und gilt fuer ihn dieselbe Anlassgewicht-Klausel («Geschätzter
+Fabian» bei verbindlichem Ergebnis) wie bei Spörri und Stadelmann?
+*Warum:* Er ist derzeit Dein haeufigster Empfaenger auf der Baustelle. Ohne Zeile faellt der
+Zwilling bei ihm auf den Sie-Default zurueck und schreibt die naechste Baustellenmail falsch.
+
+**#2 [Stimme] Die Betonungs-Grossschreibung — Absicht oder Tempo?**
+Ich habe bisher «Verb-Grossschreibung in der Bitten-Formel» gefuehrt (n = 8, seit 02/2026).
+Batch 118 zeigt sie breiter: «**Bitte** ich alten Pläne … zu ersetzen», «bitte zur Schliessung
+**Freigeben**», «wie im Plan **Positioniert** werden soll» — und im selben Fenster an die
+Feuerpolizei **klein** («bitte ich dies uns mitzuteilen»).
+*Konkret:* Betonst Du das handlungstragende Wort bewusst, weil die Zeile auf der Baustelle
+gelesen wird — oder ist es die Autokorrektur des Telefons? Soll der Zwilling es bei Weisungen
+an Ausfuehrende **nachbilden** oder weiterhin weglassen?
+*Warum:* Bisher behandelt der Zwilling es als Tippfehler und glaettet es weg. Wenn es Absicht
+ist, verliert er damit in jeder Baustellenmail Deinen deutlichsten Akzent.
+
+**#3 [Fachsignatur, Uebergabe an KB `wissen/auflagebereinigung`] eBaugesuche ZH:
+Projektaenderung ins Stammgesuch — gilt das allgemein?**
+Belegt an BE 2024.227 (Thalwil): der kantonale Support riet, die Projektaenderungsplaene im
+**Stammgesuch** hochzuladen, waehrend die Stadt Zürich ein **neues** Baugesuch verlangt.
+*Konkret:* Ist das die generelle Regel fuer alle Kanton-ZH-Gemeinden (ausser Stadt Zürich),
+oder war es eine Einzelauskunft zu diesem Vorgang? Gibt es dazu etwas Schriftliches vom Kanton?
+*Warum:* Die Frage entscheidet, ob wir sie als Verfahrensregel in die KB
+`auflagebereinigung` heben oder als Einzelfall fuehren. Eine Zeile liegt dort bereits als
+Bringschuld; belegt ist sie erst mit Deiner Bestaetigung.
+
+**#4 [operativ, nicht Stil] Der Plotter fuehrt eine dritte Firmenadresse.**
+Die Bestellbestaetigung von NewCopyStore vom 09.09.2026 nennt als Auftraggeber «Raphael Jans
+Architekt ETH, **Saumstrasse 21, 8004 Zürich**» — weder Grubenstrasse 37 (aktuell) noch
+Flüelastrasse 6 (bekannt veraltet).
+*Konkret:* Soll ich das Kundenkonto beim Plotter auf die Grubenstrasse korrigieren lassen
+(Mailentwurf an `zh@newcopystore.ch`, Versand erst nach Deiner Freigabe)?
+*Warum:* Die Adresse steht auf jeder Plot-Rechnung und wandert damit in die Buchhaltung.
+Kein Stilthema, aber es faellt beim Lesen des Korpus auf und gehoert nicht ins Wiki.
+
+**#5 [Methodik, Echo-Schutz] Der `contentType: text`-Body kommt abgeschnitten zurueck.**
+Beide Plaintext-Mails dieses Fensters endeten mitten im Satz («… von dwr Feuer»), die
+HTML-Mails nicht. Ich kann daraus nicht entscheiden, ob Deine Selbstnotiz vom 15:38 wirklich
+ein Fragment ist oder ob der M365-Connector den Text kappt.
+*Konkret:* nichts fuer Dich zu tun — Vermerk fuer den naechsten Lauf: vor der Auswertung eines
+Plaintext-Golds die Laenge gegen `bodyPreview` gegenmessen, statt den Abbruch als Stilbefund zu
+lesen (Rule `wege-und-vollmachten`: ein abgeschnittenes Ergebnis ist zuerst eine Aussage ueber
+das Werkzeug).

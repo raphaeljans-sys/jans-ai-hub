@@ -97,3 +97,21 @@ Wiki-Artikel überführen und hier streichen.
   Bestuhlung im Korridor als Möblierungsdetail oder als eigenes Verfahren zu behandeln ist. Im
   Projektfall bei der Feuerpolizei verifizieren. Kontext:
   `outputs/2026-07-31_moeblierung-fluchtweg-srz-praxis.md`.
+
+## 260910 — Uebergabe aus KB `wissen/twin` (Batch 118, Rule `wissens-bibliothekar` Cross-KB-Bringschuld)
+
+**eBaugesuche ZH: Projektaenderungsplaene gehoeren ins STAMMGESUCH, nicht in ein neues
+Baugesuch — Praxis Kanton ZH gegen Praxis Stadt Zürich.** Belegt am Vorgang **BE 2024.227**
+(Gemeinde Thalwil, Projekt 2414): Raphael hat die Projektaenderungsplaene am 09.09.2026
+innerhalb des Stammgesuches eingereicht, auf Anraten des **technischen Supports eBaugesuche ZH
+des Kantons**, und stellt in derselben Mail an das Bauamt ausdruecklich die abweichende Praxis
+daneben: «nicht wie die Stadt Zürich ein neues Baugesucht für die Projektänderungspläne
+erstellen». Quelle: authentische Mail aus Raphaels eigener Hand, Registereintrag
+`wissen/twin/raw/260910-mailbatch-118.md` (Gold C).
+
+*Offen und deshalb noch nicht als Verfahrensregel im Wiki:* ob das fuer alle
+Kanton-ZH-Gemeinden ausser der Stadt Zürich gilt oder eine Einzelauskunft zu diesem Vorgang
+war, und ob es dazu etwas Schriftliches vom Kanton gibt. Vorgelegt an Raphael als
+`wissen/twin/wiki/QUESTIONS.md` 260910 #3. Wer die Bestaetigung erhaelt, hebt den Punkt hier
+in einen Artikel (Kandidat: `fristenlogik-bauentscheid-zh.md` oder ein eigener Artikel zum
+Aenderungsverfahren) und vermerkt die Loesung zurueck in der KB `twin`.

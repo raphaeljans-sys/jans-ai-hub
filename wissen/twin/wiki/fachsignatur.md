@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-09-09
+last_updated: 2026-09-10
 gewichtung: authentisch
-sources: [260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260904-mailbatch-114.md, 260902-mailbatch-112.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260826-mailbatch-105.md, 260825-mailbatch-104.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -3343,3 +3343,40 @@ eine bueroninterne Los-Nummer. Raphael verwendet sie so im Dateinamen — das is
 solange sie nicht mit dem Praefix «BKP» geschrieben wird. Der Zwilling darf sie beim Zitieren
 eines solchen Dateinamens **nicht stillschweigend zu 271.0/271.1 korrigieren**, aber auch nie
 als BKP-Code ausgeben.
+
+## Batch 118 (10.09.2026) — Verfahrensfund eBaugesuche ZH, und SIA 500 als Betriebsrisiko
+
+Quelle `raw/260910-mailbatch-118.md`, 09.09.2026, `authentisch`.
+
+- **⭐ eBaugesuche ZH: Projektaenderungsplaene gehoeren ins STAMMGESUCH, nicht in ein neues
+  Gesuch.** «Der technische Support eBaugesuche ZH vom Kanton hat mir angeraten ich soll im
+  **Stammgesuch** die Projektpläne hochladen (nicht wie die **Stadt Zürich** ein neues
+  Baugesucht für die Projektänderungspläne erstellen).» Belegt am Vorgang **BE 2024.227**
+  (Gemeinde Thalwil), Auskunft des kantonalen Supports. Zwei Behoerden, zwei Praxen: der
+  Kanton fuehrt die Aenderung im Stammgesuch, die Stadt Zürich verlangt ein neues Gesuch.
+  **Uebergabe an KB `wissen/auflagebereinigung`** (Verfahrensfrage, nicht Stil) — dort als
+  Zeile hinterlegt, siehe [[QUESTIONS]] 260910 #3.
+- **⭐ SIA 500 wird nicht zitiert, sondern in ein Betriebsrisiko uebersetzt:** «wenn nicht
+  rausgesetzt wird entsteht auch dort ein **Stolperversatz** welcher aus **SIA 500**
+  insbesondere in der **IV-WC** als problematisch gewertet werden kann. Türblatt und
+  Schwellendetail sind mit dem Unternehmer anzupassen.» Norm, betroffene Nutzergruppe und die
+  Konsequenz fuer die Ausfuehrung in zwei Saetzen, ohne Ziffer. Genau das bekannte Muster —
+  und ein weiterer Beleg, dass er die Norm im **Nebensatz** fuehrt, wo eine Ausfuehrungsfolge
+  daran haengt.
+- **Bauteil- und Produktnamen ohne Erklaerung, als Arbeitssprache:** «Hart-Pavatex» (als
+  Bodenschutz), «**RHS**», «**LBW**» samt «LBW Ersteller» und «LBW-Arbeiten», «DUO Fix
+  Elemente», «Bolon-Bodenbelag», «Schmiedlin Duschwanne», «RWD Schlatter», «**GT-INST**» /
+  «GT-Installationen ELE, LÜF, SPRINK». Der Empfaenger wird als Kenner adressiert; keine
+  einzige Abkuerzung wird aufgeloest.
+- **Die Massangabe traegt Bezugskante und Richtung, nicht nur die Zahl:** «Die Türe muss zur
+  **Küche hin** zur **Sturz-Unterkante** 15mm vorstehen.» Wohin, wovon gemessen, wie viel —
+  in dieser Reihenfolge. Dieselbe Praezisionsform wie die Achsmasse-Angaben in Batch 117.
+- **Die Element-ID bleibt die Arbeitssprache:** Plan- und Positionsnummern erscheinen im
+  Betreff selbst («**8300 D Innere Drehtüre, 1_10.pdf**») und in der Losbezeichnung
+  «LOS_274.01 Innere Verglasungen». Zweiter Beleg des Batch-117-Musters, hier auf der
+  Betreffzeile.
+- ⚠ **Nebenbefund, nicht Stil:** die Bestellbestaetigung des Plotters fuehrt als
+  Auftraggeber-Adresse «Raphael Jans Architekt ETH, **Saumstrasse 21, 8004 Zürich**». Das ist
+  weder die aktuelle Adresse (Grubenstrasse 37) noch die als veraltet bekannte
+  (Flüelastrasse 6), sondern eine **dritte**, im Kundenkonto eines Lieferanten hinterlegte.
+  Betrifft Rechnungsstellung, nicht die Stimme — vorgelegt als [[QUESTIONS]] 260910 #4.

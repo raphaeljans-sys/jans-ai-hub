@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-09-09
+last_updated: 2026-09-10
 gewichtung: authentisch
-sources: [260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260910-mailbatch-118.md, 260909-mailbatch-117.md, 260908-mailbatch-116.md, 260831-mailbatch-110.md, 260830-mailbatch-109.md, 260829-mailbatch-108.md, 260827-mailbatch-106.md, 260824-mailbatch-103.md, 260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -1648,3 +1648,34 @@ der Preis ist zugestanden, das Gesamtpaket ist der Hebel.
 - **Ehrliche Wissenslücke als Ordnungsprinzip:** «(ich konnte diese nicht Ihren Plänen entnehmen)»
   — die Klammer benennt, dass die Lücke aus fremder Unterlage stammt, ohne den Vorwurf
   auszuschreiben. Gleiche Bewegung wie das Markieren von Annahmen in Studien.
+
+## Batch 118 (10.09.2026) — Die Anweisung wird begruendet, dann auf einen Merksatz verkuerzt
+
+Quelle `raw/260910-mailbatch-118.md`, 09.09.2026, `authentisch`.
+
+- **⭐ Begruendung, dann Verkuerzung: dieselbe Anweisung zweimal, absteigend.** «Um
+  Missverständnisse auf der Baustelle zu vermeiden Bitte ich alten Pläne durch die neuen
+  Werkpläne zu ersetzen.» → unmittelbar darauf, als eigener Absatz, ohne Verb: «**Alte Pläne
+  bitte weg von der Baustelle.**» Erst der Zweck mit der Handlung, dann der Merksatz, der auf
+  der Baustelle haengen bleibt. Fuer den Zwilling: die Kurzform ist keine Doppelung und darf
+  nicht zusammengezogen werden — sie ist die Fassung, die zitiert wird.
+- **⭐ Das Hilfsangebot als Konditional mit Rueckmeldepflicht beim Empfaenger:** «Sollte ich auf
+  die Baustelle kommen und die Masse für die Bohrungen ELE-Anschluss KIP anzeichnen **lass es
+  mich wissen**.» Er stellt seine eigene Mehrleistung als Bedingungssatz hin und legt den
+  Ausloeser beim anderen ab, statt sie anzubieten oder anzukuendigen. Verwandt mit «Vorschlag
+  statt Frage bei der eigenen Leistung» (Batch 117), aber eine Stufe zurueckhaltender: dort
+  legt er den Ablauf hin, hier den Abruf.
+- **Die Herkunft der Vorgabe wird mitgeliefert, wenn sie von einer Stelle stammt, die er nicht
+  ist:** «Der technische Support eBaugesuche ZH **vom Kanton** hat mir angeraten ich soll im
+  Stammgesuch die Projektpläne hochladen (**nicht wie die Stadt Zürich** ein neues Baugesucht
+  für die Projektänderungspläne erstellen).» Rat, Urheber der Auskunft und die abweichende
+  Praxis der anderen Behoerde in einem Satz — die Klammer traegt die Abgrenzung. Gleiche
+  Bewegung wie die Klammer-Wissensluecke (Batch 117), hier fuer eine Zustaendigkeits-Differenz.
+- **«Zur Info:» als Doppelpunkt-Etikett** fuer einen nachgeschobenen Erklaerblock, auf eigener
+  Zeile vor dem Absatz. Er trennt damit das Ergebnis (oben, in einem Satz) von der Begruendung
+  (unten) — und macht die Begruendung ausdruecklich zur Beilage, nicht zum Argument.
+- **Die Mengenangabe wird zweimal verortet, damit sie nicht ausgelegt werden muss:** «Es sind
+  jeweils zwei Bohrungen nötig; ich habe die Achsmasse vermasst. / Du findest diese Achsmasse
+  **auch auf den jeweiligen Element-Werk-Plänen von Jegen**.» Die zweite Quelle wird genannt,
+  damit der Empfaenger nicht auf seinen Anhang angewiesen ist. Redundanz als
+  Missverstaendnis-Schutz, dieselbe Haltung wie der zweite Uebermittlungsweg (→ [[haltung]]).
